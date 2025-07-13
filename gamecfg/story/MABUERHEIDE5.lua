@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>五　开玩笑的</size>",
+					"Light Up My Day\n\n<size=45>5 Seashells by the Seashore</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "跟随马布尔黑德来到和海岸边——",
+			say = "Taken by an urge to listen to the sound of the sea, I brought Marblehead to the beachside.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你看！这里有很好看的贝壳呢。",
+			say = "Check it out, Commander! The beach is littered with all these colorful seashells!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实冲到这片海岸的贝壳里，偶尔会有一种粉色的——",
+			say = "Most of the seashells washing up on this shore come in stunning shades of pink. Cute, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，刚说完就有大发现！给，这个就作为送给指挥官的礼物~",
+			say = "Speaking of which, I just found a real banger! And guess what? I'm gonna gift it to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "接过马布尔黑德递来的粉色海螺，过于完美的造型给人一种想要贴上耳朵的冲动……",
+			say = "She handed me a seashell with an exquisite shape. I put it to my ear and listened to the sound coming from inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是在做什么呢，指挥官—？",
+			say = "Whatcha doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海螺里传来的海浪声——嗯嗯，那个被叫做“粉红噪声”哦？",
+			say = "...Listening to the sound inside? Ah, I getcha. The technical term for it is \"pink noise,\" fittingly enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官稍微把海螺还给我一下。你看这里，在海螺和耳朵间隙中流动的空气，会受螺腔内漩涡的影响而与外界声音产生共鸣——",
+			say = "The seashell's helix structure captures ambient noise, which then resonates inside. As a result, the noise is amplified, making it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "马布尔黑德突然开始流利地科普了起来……",
+			say = "She began explaining the process in great detail. I was astonished by her almost scholarly level of knowledge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——嗯，大概就是这样的感觉吧，粉红噪声本来是具有分形样式的波形……啊！",
+			say = "...which isn't always the case, but pink noise possesses a fractal frequency, and that's why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "Err, what I'm getting at is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………开，开玩笑的哦？",
+			say = "Y'know, like, that's just what I heard? I'm not, like, an expert or anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,24 +254,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "握着海螺的马布尔黑德似乎是感到了害羞，微微地吐了吐舌头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 7,
-			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 102270,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "说、说起来，这海螺仔细一看，颜色和我渐变的发色一样呢。",
+			say = "Cutting herself off, she awkwardly took the seashell out of my hand, then took the conversation in another direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +271,24 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我才没有转移话题！这可是和我发色一样的贝壳哦？",
+			say = "A-anyway! I just noticed this seashell's got the same color as the pink gradient of my hair. Ain't that nifty?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 7,
+			side = 2,
+			bgName = "star_level_bg_106",
+			actor = 102270,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Changing the subject? Am not! Just thought it looked pretty, is all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是意味着，收到这份礼物的指挥官，要像珍惜我一样珍惜这个海螺才行。",
+			say = "What I'm saying is: it reminds you of me, right? So I want you to treasure it like you'd treasure me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "马布尔黑德这次用双手小心翼翼将海螺递了过来——",
+			say = "Hands cupped around the seashell, she returned it to me with a slow, deliberate motion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，开玩笑的啦。刚刚那样子的有些难为情呢——",
+			say = "Just kidding, obviously. Sorry if that was cringe, haha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "这么说着的她，又害羞地笑了起来。",
+			say = "She laughed it off, dismissing it as a joke. Despite that, though, I felt she'd meant it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

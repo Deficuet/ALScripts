@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：海域中发现了更高密度的陷阱区域，建议注意规避，谨慎行动。",
+			say = "Additional Siren traps have been detected. Proceed with caution.",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：舰队的导航系统遭受到强烈干扰，在海域中移动将出现某种不确定性。",
+			say = "Navigation system is being jammed. There is a risk that you will be guided or transferred to a random area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "建议：以当前舰队为中心，向着预定区域的对称区域进行移动，也许可以帮助舰队前往正确的目标。",
+			say = "Moving in the opposite direction of intended destination is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

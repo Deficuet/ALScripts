@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在需要进行一次投掷哦！",
+				text = "Roll the dice and your fate will be determined!",
 				mode = 1,
 				posY = -80,
 				dir = -1,

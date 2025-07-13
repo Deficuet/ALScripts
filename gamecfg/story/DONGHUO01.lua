@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>“…我曾以为……把所有枪口对准我们的敌人都击败后…就能找回些许的宁静”</size>",
+					"<size=51>“...I thought... by defeating all of my enemies... I’d finally get some peace.”</size>",
 					2.5
 				},
 				{
-					"<size=51>“然而…未来背叛了我们”</size>",
+					"<size=51>“But... this world's future has betrayed us.”</size>",
 					5
 				},
 				{
-					"<size=51>“就算再怎么努力，前方依然只有无尽的战斗”</size>",
+					"<size=51>“Even if my wings break, my guns melt, and the steel of my body creaks, this war will not end",
 					7
 				},
 				{
-					"<size=51>“一个接一个阻挡在身前…而又一个接一个消失的面孔…我已经记不清了”</size> ",
+					"<size=51>“The faces of the friends who stood beside me disappear one by one... until I can no longer remember them.”</size> ",
 					10
 				},
 				{
-					"<size=51>“——又该出击了，伙伴”</size>",
+					"<size=51>“...Let us sally forth once more”</size>",
 					12.5
 				},
 				{
@@ -35,23 +35,23 @@ return {
 					13
 				},
 				{
-					"<size=51>“今夜依旧星光璀璨”</size>",
+					"<size=51>“...The stars are mesmerizing tonight.”</size>",
 					15
 				},
 				{
-					"<size=51>——行动代号：坠落之翼</size>",
+					"<size=51>——Mission Codename: Fallen Wings</size>",
 					20
 				}
 			}
 		},
 		{
 			side = 0,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-6",
-			say = "这里就是神秘信号所指示的海域吗……看样子我们还是来迟了一步",
+			say = "This is the area indicated by that mysterious signal... Seems like we were too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,11 +59,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "北卡罗来纳",
+			actorName = "North Carolina",
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是过分啊，已经完全化作一片废墟了",
+			say = "How terrible. Everything's been reduced to rubble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是什么人……居然能把塞壬的实验场摧毁成这样…",
+			say = "Who exactly... has the capacity to wipe out a Mirror Sea, the Sirens' testing grounds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会不会是之前“新生重樱联合”的那些家伙们干的？",
+			say = "You reckon the Sakura Empire's \"Reborn Combined Fleet\" is behind this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "北卡罗来纳",
+			actorName = "North Carolina",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从破坏的痕迹来看——不像是重樱或者皇家的武器…倒不如说…更像是我们的火力所造成的",
+			say = "Doubt it. The traces left behind point to the Eagle Union's own weapons rather than anything from the Sakura Empire or Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！！真是一头雾水！！",
+			say = "Damn it! What the hell's the meaning of this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，不管怎样，省下了和敌人折腾的时间，还真是得好好感谢下这位“神秘人”先生了",
+			say = "...Well, whoever it is, they spared us the trouble of having to mop up the enemy ourselves. I'll make sure to buy 'em a drink if we ever get a chance to meet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +131,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先四处探索一下，看有没可收集的情报吧——",
+			say = "In any case, let's take a look around and see if we can gather any useful intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"康克德与甜食\n\n<size=45>一　甜系女孩？</size>",
+					"Sugary Concord\n\n<size=45>Chapter 1: A Sweet Girl?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯～～已经工作了好一会了呢，该休息一会，到糖分摄取的时间了～",
+			say = "Nnnh~~ I've been working for a good while, so I deserve a sugar break~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "处理了一会文书工作后，康克德爽快地伸了个懒腰，将一根棒棒糖塞进了嘴里",
+			say = "After poking at paperwork for a little bit, Concord stretched herself out lazily and casually slipped a lollipop into her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔姆~真棒！工作后的棒棒糖果然最棒了~",
+			say = "Mmhmm~ that hits the spot! Lollipops are the best after a long day of work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，指挥官要不要也来补充下糖分？对工作和思考都很有好处的哦？我口袋里还有很多糖果～",
+			say = "Hehe, Commander, want a sugar refuel? It's great for your work productivity and your brainpower, you know? I have a lot more candy in my pockets~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一说到糖分，话题就停不下来了",
+			say = "Once she gets going about sugar, good luck getting her to stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊呀~光顾着说补充糖分的事了。桌上的训练报告还有很多要汇总呢~",
+			say = "Ahh, I'll have to get by from just thinking about sugar. There are still many training reports on that table waiting to be compiled~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "该专心工作了~♪",
+			say = "Gotta work hard~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！那边的小{namecode:33}，要不要交换棒棒糖？",
+			say = "Hey! Mutsuki, wanna trade lollipops?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -210,7 +210,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那不是笨蛋奥马哈大姐嘛……啊，又去买零食了~待会儿也去蹭一些过来，嘻嘻~",
+			say = "Isn't that dummy Omaha? ...Ah, she's buying snacks again. Maybe I should go swipe some later, hehe~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -244,7 +244,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈，工作全做完了~好累~还不快来给我揉揉肩~♪",
+			say = "Aha, done with work~ Sooo tired~ Hurry up and come give me a massage~♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "心思时常放到门外走廊的康克德…怎么看也不像是在“专心工作”。",
+			say = "Concord, who has a tendency to wear her heart on her sleeves, certainly shows no intention of doing any actual work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但是，报告汇总的情况大体却没什么问题…还真是挺特别的……",
+			say = "However, it is also undeniable that the reports get properly compiled... Remarkable indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官给我揉揉肩膀嘛~我会给你回礼的哦~？",
+			say = "Commander, come give me a shoulder massage~ I'll make sure to pay you back, okay~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			},
 			options = {
 				{
-					content = "给她揉揉肩膀",
+					content = "Give her a shoulder massage",
 					flag = 1
 				}
 			}
@@ -331,7 +331,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻，挺卖力嘛，指挥官~揉肩膀的力度也掌控得很好。",
+			say = "Hehe, that hurts so good~ Commander, you're also pretty skilled at giving massages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好~给你我的回礼~",
+			say = "Great~ Now to repay you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "康克德并没有掏出糖果，反而绕到了身后。",
+			say = "Instead of reaching for candy, Concord slipped behind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻，快坐好哦~作为回礼，我也想给指挥官揉揉肩~",
+			say = "Hehe, sit down already~ As a reward, Commander, I'll also give you a shoulder rub~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "肩膀被轻飘飘地揉着。也许这就是康克德的风格吧……",
+			say = "Her idea of a \"massage\" was lighter than a breeze brushing over my skin. Maybe that's just the Concord style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

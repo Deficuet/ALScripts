@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>三　巨额预算！</size>",
+					"Captain Pompey Has You Covered!\n\n<size=45>3 Way Over Budget</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor2",
-			say = "咚咚咚——",
+			say = "*knock knock*",
 			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室外传来了敲门声。",
+			say = "There was a knock on the office door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，您在吗，我是达·芬奇。",
+			say = "Commander, you there? It's me, da Vinci!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "达·芬奇？！",
+			say = "Da Vinci?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个声音，莫非是庞培？",
+			say = "Hm? Is that you, Pompey?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达·芬奇扭动把手推开大门。",
+			say = "The door opened, and into the office stepped da Vinci, the local inventor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "打扰了……咦，怎么只有庞培你一个人，指挥官去哪儿了？",
+			say = "Hey, Comma– Huh? You're the only one here? Where's the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,42 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官因为要出差，一早就离开了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 601070,
-			say = "有什么问题直接问我就行~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 608020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这么说，今天是你担任秘书舰咯？",
+			say = "Out on a business trip. Left the port just this morning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +147,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "没错，你特意来找指挥官肯定是有什么事吧？快说吧，伟大的庞培队长会潇洒地帮你解决的~",
+			say = "If you need anything, it's Captain Pompey you should talk to!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 608020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Ahh. You're the acting secretary today.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 601070,
+			say = "That I am! So, since you're here, what is it you need? Don't be shy, tell me and I'll have it done in a flash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "噢~指挥官今天不在啊……",
+			say = "Heheheh... The Commander's not here, eh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嘿嘿……其实……我确实有点事情想让你帮忙。",
+			say = "Ahem. See, there's actually a favor I wanna ask of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主要就是关于，科研活动经费的事，你看上次我不是开发了一个汪汪小喵吗。",
+			say = "It's about a grant. Remember the Doggo Cattron 3000 I made a while back?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "你说的该不会是那个会汪汪叫的猫猫玩具吧？",
+			say = "You mean that cat toy that barks like a dog?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错，就是那个！",
+			say = "Yeah, that one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不不不不对，那才不是什么玩具，是科研成果啊科研成果！",
+			say = "But it's not a toy, you hear? It's the culmination of my hard work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……所以？",
+			say = "...So, what about it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "所以我想要量产汪汪小喵！",
+			say = "Well, I wanna mass-produce it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "哈？",
+			say = "Okay...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "然后量产汪汪小喵，大概需要这个数字的预算……",
+			say = "And to do that, I'm gonna need some money. I figure about this much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达·芬奇在庞培的手心用食指写下一串数字。",
+			say = "Using her index finger, da Vinci wrote out a number in the palm of Pompeo's hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "怎么样能同意吗？",
+			say = "Whaddya think? Can you do it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "驳回。",
+			say = "Request rejected!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "怎么这样！",
+			say = "Awww! Why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "这种规模的预算请求怎么想都会驳回的吧！",
+			say = "That grant is the most insane ask I've ever heard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "你要不要数数你写了多少位数字啊！",
+			say = "Do you even realize how many digits that is?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗨，你这是不明白汪汪小喵的魅力！",
+			say = "You're only saying that because you don't see the genius of my invention.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要是指挥官的话肯定会当场同意哦~",
+			say = "The Commander would say yes in a heartbeat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "我觉得指挥官是不可能批准你的预算的……",
+			say = "The Commander would reject it before you were halfway done writing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "那可不一定，一切皆有可能！如果指挥官能了解到汪汪小喵的魅力的话！",
+			say = "You don't know that! Nothing is impossible! Anyone would approve it if they just knew what's so innovative about the Doggo Cattron 3000!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "总之就是驳回，不批准！",
+			say = "Doesn't matter, because the answer is no! Hell no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "别这样嘛秘书舰大人，再商量一下……",
+			say = "Come ooon, Pompeo! Don't be such a naysayer. All I need is one little seal of approval!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "给我一点时间我会让你明白这件事的巨大意义的。",
+			say = "Lend me an inkling of your time and I'll make you see why this project is so important!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "不批准！",
+			say = "Rejected, and that's my final answer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "伟大的庞培大人——",
+			say = "Pleeease, Captain Pompey the Great!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "————不批准！",
+			say = "No, no, and again, NO!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来，庞培和达·芬奇的“协商”还要持续一段时间——",
+			say = "The \"negotiation\" between the two went on for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

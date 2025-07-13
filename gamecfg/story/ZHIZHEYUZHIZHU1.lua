@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>一　侵蚀</size>",
+					"The Weaver's Omen\n\n<size=45>1 Seeping In</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "博览会进行中的某日，另一片大洋中————",
+			say = "While the Royal Navy was aiding Iris Libre's recapture of the Basilica Isles, Iron Blood's research in the Tower of Midgard's Mirror Sea continued.",
 			bgmDelay = 1,
 			bgm = "bsm-7",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "铁血浮岛要塞群·A1浮岛-办公区",
+			say = "Iron Blood Floating Fortress A1 – Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这份是，米德加尔特之塔的升级进度报告……",
+			say = "Let's see here... A progress report on the Tower's upgrades...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -79,7 +79,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……然后是……维护报告与需要替换的部件列表……",
+			say = "A maintenance report... and a list of materials needed for repairs...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "时间刚过八点，一个黑色的身影正坐在办公桌前阅读着文件，正如前一日一样。",
+			say = "A girl with short, black hair was once again seated at her desk, reading through documents late into the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "不过与昨日不同的是，报告散落在原本整齐的书桌上，似乎显示着阅读者的某种心境变化。",
+			say = "This had become commonplace for her, and the reports scattered across the once neatly-organized desk told a clear story of her lapsing focus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……可恶，没法集中精神。",
+			say = "Ugh... Can't concentrate at all...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -135,7 +135,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明只是梦中的景象，为什么会在醒来后依然挥之不去……",
+			say = "It was nothing more than a nonsensical dream... So why can't I stop thinking about that black sun...?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -153,7 +153,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……这样下去工作都要耽误了。",
+			say = "Damnit, I can't get any work done like this.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -168,7 +168,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "{namecode:464}强行集中精神，将杂念排出脑中，死死地盯着面前的文件。",
+			say = "Ulrich tried hard to push those haunting visions out of her mind, staring intently at the words printed on the documents in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintEquip = true,
 			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "很好……有效，这样一来总算能继续工作了。",
+			say = "No more idle thoughts, Ulrich. Good, it's working...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来是…………嗯？",
+			say = "Focus. These documents aren't going to read themselves–– ...What?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -244,7 +244,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "...What the hell?!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_5",
-			say = "{namecode:464}注意到了，此刻她虽仍坐在办公桌前，但办公桌却已经不在办公室中了。",
+			say = "When she raised her eyes, she found that though she was still sitting at the same desk, the office had warped into a completely different scenery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "开玩笑也要有个限度……毫无疑问，我并没有睡觉，不睡觉就不可能做梦。",
+			say = "There has to be a limit to these sick jokes... I might be sleep-deprived, but I'm nowhere near hallucination territory.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -290,7 +290,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是某种远程干扰所创造的幻象么？",
+			say = "Am I losing my marbles here, or is this some side-effect of these facilities?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -308,7 +308,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是某种通讯信标，在试图向我传送些什么……？",
+			say = "...Or, is someone trying to tell me something?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_firedust_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以才一而再再而三地试图出现在我的面前……",
+			say = "Whoever you are, you sure are persistent. I'll give you that much.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -343,7 +343,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话，那些向我展现的画面……都是存在意义的么。",
+			say = "You keep showing me the same thing over and over again... so what are you trying to get at?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -380,7 +380,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:441}，你究竟想要对我说什么？",
+			say = "Friedrich? Are you trying to tell me something?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -400,7 +400,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#BDBDBD",
-			say = "▅▁▂▋乌▊■▆▎▅尔▋▄▊里▎▇克▅■",
+			say = "▅▁▂▋U▊■▆▎▅l▋▄▊ri▎▇ch▅■",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我在听。",
+			say = "I'm listening.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -437,7 +437,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#BDBDBD",
-			say = "▅▁▂▋乌▊■▆▎▅■▆尔▋",
+			say = "▅▁▂▋U▊■▆▎▅■▆l▋",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#BDBDBD",
-			say = "▄▊里▎▇克▅■█阁█▎下▅■█",
+			say = "▄▊U▎▇l▅■█r█▎ic▅■█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？",
+			say = "...What are you saying?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -494,7 +494,7 @@ return {
 			bgm = "bsm-7",
 			actor = 407030,
 			stopbgm = true,
-			say = "{namecode:464}阁下！您还好么？！",
+			say = "Ulrich? Is everything alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这是…………",
+			say = "I'm...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -556,7 +556,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是斯坦贝瑟啊。",
+			say = "Oh, it's you, Strasser.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你刚刚看到了么？",
+			say = "Don't mind me. Out of curiosity, did you see that too?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看到……什么？",
+			say = "See... what, exactly?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -608,7 +608,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没什么。你进来多久了？",
+			say = "...Nevermind, it's nothing. When did you get here?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大概三分钟。",
+			say = "Approximately three minutes ago.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -643,7 +643,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来这里的原因呢？",
+			say = "And for what reason?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……嗯？本日的测试要开始了，按照流程向您例行汇报并提供本日测试的材料？",
+			say = "...What do you mean? We're about to start today's experiments, so I'm here to bring you the report and test supplies per standard procedure.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您还好么，{namecode:464}阁下？",
+			say = "Are you sure you're alright, Ulrich?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -694,7 +694,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚才进来之后就看您一动不动地死盯着桌上的报告，是报告出了什么问题么？",
+			say = "You were staring blankly at your documents without moving a muscle. Is there something wrong with the reports?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -712,7 +712,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没什么，也许是我昨晚没休息好吧。",
+			say = "No, don't worry about it. I guess I didn't sleep well last night.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -730,7 +730,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无须担心，你还有测试要做呢，把报告放下就可以去准备了。",
+			say = "Anyway, you've got an experiment to run, so leave the report here and begin preparations.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -747,7 +747,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好的，那么{namecode:464}阁下，我就告辞了。",
+			say = "Very well. I'll be on my way then.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -764,7 +764,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "利用运动来缓解精神疲劳是一个不错的选择，比如去演习场训练一下之类的。",
+			say = "If you're feeling mentally fatigued, I'd recommend some light exercise. We have training areas here after all.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -781,7 +781,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您要不要考虑一下？",
+			say = "Give it some thought, alright?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -799,7 +799,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你说得有道理，我会考虑的。",
+			say = "...You're right. I'll consider it.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

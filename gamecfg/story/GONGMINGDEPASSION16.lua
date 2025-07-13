@@ -9,7 +9,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "砰——",
+			say = "KABOOOM!",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
-			say = "伴随着一声巨响，舞台上那个收集Live的各维度数据，用于输出评分的计分器彻底爆炸了。",
+			say = "The stages went boom, turning to scrap all the data instruments and equipment installed on and around them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官，这下怎么办喵？",
+			say = "Commander... How are we gonna determine a victor now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "计分器居然会爆炸……这下就不好判断谁胜谁负了啊。",
+			say = "They made the scoreboard explode... It's impossible to say which side performed best.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "嗯……但是也不能粗暴地下结论说双方平局吧？",
+			say = "You can't decide arbitrarily, but at the same time, there will be an outrage if you call it a draw.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,11 +114,11 @@ return {
 			},
 			options = {
 				{
-					content = "容我三思",
+					content = "Let me think about it.",
 					flag = 1
 				},
 				{
-					content = "总之先冷静下来去找时光机",
+					content = "Plan B. Bring out the time machine.",
 					flag = 2
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "眼下这个情况，我得好好想想……",
+			say = "This is a delicate situation and I need to weigh my options first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "总之回到计分器爆炸之前阻止她们就好！",
+			say = "I just need to go back to before the boom and stop them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……莫非你被刚刚的爆炸冲击到了？",
+			say = "What are you talking about? Did the explosion give you a concussion or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "……我只是想开个玩笑缓和下气氛。",
+			say = "I was just trying to lift the mood with a joke. Forget it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，计分器爆炸之前，她们对μ兵装的使用情况如何？",
+			say = "Hang on, what did both teams' Muse data say before the scoreboard blew up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "无法区分喵……！双方的数据完全一致喵！",
+			say = "I don't know whose is whose, nya! They're both identical, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且似乎受到了对方的影响，双方所装备的「μ兵装」突然产生了某种奇特的共鸣现象。",
+			say = "I have a theory. Both teams pushed each other until it caused a resonance loop between their Muse Systems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "会场内的计分器无法承受这种共鸣带来的成倍的力量增长，所以才会突然爆炸。",
+			say = "Then the resonance amplified their output so much that it overloaded the scoreboard and made it explode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来想从利用率上去分胜负不太可能了啊……",
+			say = "If so, it's impossible to crown the victor based on maximum utilization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过在这种情况下，似乎让谁当第二名都不太合适。）",
+			say = "(But maybe there's no need to. Maybe both sides can be winners.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（干脆就自掏腰包弥补第一名和第二名之间的差距好了，毕竟让大家玩得开心才是我的初衷。）",
+			say = "(I'm fine with paying a bit out of pocket if it'll make everyone happy. The only thing preventing us from giving wishes to both sides was our budget, anyway.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了{namecode:98:明石}，第一名和第二名之间的奖品预算差距是？",
+			say = "Akashi, apropos nothing, what's the budget difference between first and second place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵？关于这个……",
+			say = "Nya? Uh, well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "关于这个啊~我让{namecode:98:明石}把这件事交给我来做了哦？",
+			say = "Allow me to answer. I relieved her of the task of budgeting much earlier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "因为其它阵营也都同意了赞助，所以这次第一名和第二名的预算都“格外”充裕呢。",
+			say = "First and second place both have ludicrously lavish budgets thanks to the omni-factional sponsorships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
-			say = "眼前的克莱蒙梭言笑晏晏，但我心中突然萌生了一种不妙的感觉。",
+			say = "A devious smile forms on Clemenceau's lips. I suddenly realize that I'm bracing for impact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "第一名的预算是9999999999999999，而第二名么，是999999999999999……",
+			say = "It's 9,999,999,999,999,999 coins for first place, and 999,999,999,999,999 coins for second place. That's one 9 less.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "因为这近乎无限的预算，所以双方的奖品都可以看做是“一个万能的愿望”呢。",
+			say = "Simply put, both budgets are practically infinite and capable of granting almost literally any wish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等？！",
+			say = "Wait, WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也就是说……参赛的每个人的愿望……我都要实现！？",
+			say = "So... I have to make EVERYONE'S wishes come true?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

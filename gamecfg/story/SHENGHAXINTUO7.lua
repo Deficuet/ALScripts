@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"消除疲劳的秘诀是？\n\n<size=45>七　消除疲劳的秘诀是指挥官！</size>",
+					"The Secret to Curing Exhaustion?!\n\n<size=45>7 Is the Secret the Commander?</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "再之后，与圣哈辛托一同前往了水族馆。",
+			say = "Our last stop of the day is an aquarium.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "这一次，依然由她来指定项目。",
+			say = "There, I let San Jacinto take the lead again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "起初，一切如同之前一般顺利，夜晚的水族馆展现出了与平日截然不同的魅力，令人沉迷。",
+			say = "The aquarium at night has a different charm compared to daytime. At first, things proceed without incident...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "直到，路过企鹅馆时——",
+			say = "Until we reach the dolphin show, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……没想到夜晚的企鹅依然这么有活力呢……",
+			say = "I didn't think they'd splash water at us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "指挥官号，惨烈沉没~",
+			say = "SS Commander has been sunk~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "给你毛巾，快擦擦水吧♪",
+			say = "Here's a towel. Dry up nice and quick, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀~好像只靠毛巾是没办法擦干的呢。",
+			say = "...Oh. A little towel isn't enough, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "看来指挥官只能脱掉衣服了呢~",
+			say = "That's too bad. Let's get those clothes off of you, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现、现在……？",
+			say = "R-right here? Now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "当然是现在就脱掉~别担心，我有准备可以换的衣服哦~",
+			say = "Yes, of course. You don't have to worry. I brought you a change of clothes just in case~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下，衣服和毛巾……究竟是什么时候带在身上的……？",
+			say = "Huh? Where were you keeping that towel and those clothes, exactly...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "这可是女孩子的秘密哦~？太刨根问底的话会显得很不解风情呢~",
+			say = "Must you interrogate everything? A girl's gotta have her secrets♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "最后，还是换上了圣哈辛托准备的衣服。",
+			say = "In the end, I change into the clothes she brought for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "在这一过程中，她一直维持着的高昂的情绪……",
+			say = "Though it's a little distracting when she squeals from excitement the whole time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（感觉圣哈辛托现在看起来比之前有精神多了。）",
+			say = "(She does seem like she's more energetic now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（今天这场约会的目的……也算达到了吧？）",
+			say = "(I guess the date was a success, then?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "嘿嘿，今天能独占指挥官一整天，我很开心哦。",
+			say = "Heehee. I'm just so happy to have had you all to myself today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……要想消除我的疲劳，这些还不够呢~",
+			say = "But I think there's one last thing I need to get rid of the rest of my fatigue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "之前指挥官说过，可以给我一个“奖励”，对吧~？",
+			say = "Commander, do you remember when you promised to give me a reward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是的，你想好是什么了？",
+			say = "I sure do. Did you decide on something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "当然啦~你先闭上眼。",
+			say = "Of course. Close your eyes first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "闭上眼后，听觉和触觉似乎变得更加灵敏了。",
+			say = "I close my eyes as directed. My other senses become slightly more acute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "能感觉到圣哈辛托温热的呼吸吹拂在脸上。",
+			say = "Warm breath caresses my cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "紧接着，是少女柔软的双唇。",
+			say = "A soft kiss touches my lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "温软、湿润，带着她一贯的特色，细密温柔，又颇为调皮的……真正的吻。",
+			say = "A damp, gentle, but mischievous little kiss – a real one that suits her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "可以睁眼了哦~呵呵，对于我来说，消除疲劳的真正秘诀是指挥官呢~",
+			say = "You can open your eyes now~ Heehee, all I ever need to cure my exhaustion... is you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "她踮起脚，将头轻轻搁在我的肩上，有些呼吸急促。",
+			say = "She stands on her tiptoes and gently lays her head on my shoulder, breathing just a little heavily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "只要一低头，就能看见她眼中的潋滟水色，和眼角的微微泛红。",
+			say = "When I look over, I see red in the corner of her eyes. Tears seem ready to flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "水族馆作为约会的必备项目无可厚非，不过作为最后一站来说……",
+			say = "Aquariums are a staple for dates, yes, but making them the last stop?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "指挥官未免也太不懂女孩子的心意了呢~",
+			say = "I think you need to understand women's hearts a little better, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "听你安排的时间到此为止。接下来的行程，就交给我吧~",
+			say = "Thank you for leading the way today. Now you can leave it to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "毕竟，还没有履行我们之前的那个约定呢？",
+			say = "After all, our little promise from before still hasn't been fulfilled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			hidePaintObj = true,
-			say = "少女牵起我的手，带着狡黠的笑意，朝着水族馆门外走去——",
+			say = "With a sly grin, San Jacinto takes my hand and guides me to the aquarium exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

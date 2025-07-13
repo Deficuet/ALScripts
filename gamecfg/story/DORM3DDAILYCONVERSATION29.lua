@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您问天狼星会不会唱歌？",
+			say = "You're wondering if I can sing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……嗯，该说不太擅长好呢？还是说很少有这方面的尝试才好呢？",
+			say = "Well... I can't say I'm very good at it, but I've also never really had time for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "需要的话，我可以陪你练习。",
+			say = "Then let's go sing karaoke when we have time, you and I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真的吗？！这样就可以和指挥官在狭小的空间中独处……",
+			say = "Really?! But then... it would be just us two inside a small room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您愿意亲自教导天狼星，如何才能拥有动听的歌声……就再好不过了。",
+			say = "My honourable {dorm3d}, I can think of no greater honour than receiving singing lessons from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

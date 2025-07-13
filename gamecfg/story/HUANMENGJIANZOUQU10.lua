@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"Iris Orthodoxy - Mont-Saint-Michel",
 					1
 				},
 				{
-					"指挥官休息室",
+					"Commander's Private Room",
 					2
 				},
 				{
-					"7月26日",
+					"July 26th",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			side = 2,
-			say = "……嗯…………已经这个时间了么。",
+			say = "Sheesh... I really slept in.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "从洒入房间的阳光强度推断，时间已接近正午。",
+			say = "It must be noon already, judging by the intensity of the light coming through the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "没错哦，已经快到午饭的时间了。",
+			say = "You really did. It's lunchtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，你难得睡到这么晚呢~看来这趟出差真是出对了。",
+			say = "It's not every day you oversleep like this. I'm glad we went on this business trip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			side = 2,
-			say = "呼……嗯，确实很久没有睡得这么舒服了。",
+			say = "*yaaawn*... Yeah, true. I've not slept that well in ages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			side = 2,
-			say = "斯特拉斯堡上午来找过我么？",
+			say = "Hey, did Strasbourg stop by in the morning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯？斯特拉斯堡小姐么？没有哦。",
+			say = "Strasbourg? No, she's not been here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			side = 2,
-			say = "（没来么，看来她昨晚也睡了个好觉啊。）",
+			say = "(Maybe she slept in just like me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，午餐已经安排好了。",
+			say = "Lunch is ready, by the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "回程的火车因为定在下午，如果你餐后想去圣堂中参观一下，时间上也是完全充裕的哦。",
+			say = "Our train is departing in the afternoon. You can tour the place if you want to in the meantime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			side = 2,
-			say = "（倒确实有个需要去看看的地方，等餐后叫上{namecode:182:信浓}一起去吧——）",
+			say = "(Right, there's the Watatsumi thing to look into. Better call Shinano.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "午餐后，在前去找{namecode:182:信浓}的路上偶遇了黑发的演奏者。",
+			say = "I finish my lunch and head outside. On the way to the Basilica, I run into Strasbourg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "指挥官，贵安。",
+			say = "Oh. Good morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "是斯特拉斯堡啊，昨夜睡得还好么？",
+			say = "Morning to you, too. Did you sleep well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，或许是因为在宴会上与您共舞的缘故，一夜都是美梦呢。",
+			say = "I sure did. Dancing with you really cleared my mind and let me sleep soundly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "共舞……一曲？",
+			say = "Wait, dance? With me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "昨日你不是一直都在演奏……直至宴会闭幕么？",
+			say = "Weren't you busy playing music the whole night?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "嗯？指挥官难道是睡糊涂了么，昨日的演奏很早就结束了，",
+			say = "Pardon? Sounds like you're still half-asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "之后，我们一起共舞了许久哦？",
+			say = "If you forgot, you and I danced the night away after I put my instrument down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "（是……这样么？）",
+			say = "(Did we? Huh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "脑海中，昨日与斯特拉斯堡共舞的景象历历在目。",
+			say = "Come to think of it, I DO vividly remember sharing a dance with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "（可是……）",
+			say = "(But that can't be right...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "您是打算在临走前参观一下圣米歇尔山圣堂么？",
+			say = "Anyway, where are you going? Are you going to admire the Basilica?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "……嗯，克莱蒙梭应该已经联系你说明过情况了，我先去找{namecode:182:信浓}，之后我们一同去存放碎片的地方。",
+			say = "Yeah. I assume Clemenceau already told you. Let's go pick up Shinano, then we'll head to where the fragment is stored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "欸，指挥官您指的是什么事？克莱蒙梭大人今日并未联系过我……",
+			say = "Hang on – told me about what? I haven't heard anything from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "而且“存放碎片”的地方是指……？",
+			say = "And what's this about a \"fragment\"? A fragment of what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "违和感，强烈的违和感。",
+			say = "Suddenly, I get an overwhelming feeling that something is wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "此种感觉，就如同当日身处博览会闭幕式现场之时。",
+			say = "This feels just like back during the near-superimposition event, when my memories were overwritten by... something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "匆匆告别斯特拉斯堡后，我急忙前往了{namecode:182:信浓}的住所。",
+			say = "I bid farewell to Strasbourg, then run off to Shinano's room in a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,15 +412,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"Iris Orthodoxy - Mont-Saint-Michel",
 					1
 				},
 				{
-					"重樱休息室",
+					"Sakura Empire Waiting Room",
 					2
 				},
 				{
-					"7月26日",
+					"July 26th",
 					3
 				}
 			}
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "——{namecode:182:信浓}！",
+			say = "Shinano!",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "指挥官阁下？如此匆忙所为何事？",
+			say = "Ah... Why does your visage harbor such alarm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "情况紧急，我就开门见山了。{namecode:182:信浓}，你还记得神石碎片的事么？",
+			say = "Let me cut straight to the chase since we could be in danger. Do you remember the Watatsumi fragment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "具体是指哪一片？",
+			say = "Fragment? Which one do you refer to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "昨天晚上我们一起确认的，位于此处圣堂之中的存放的神石碎片。",
+			say = "Last night, remember? You said there's a fragment of it here, in the Basilica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此处为鸢尾圣堂……为何会有神石碎片的存在？",
+			say = "What? Why would a fragment of it... be on Orthodoxy land?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "而且汝说昨夜……据妾身所知，昨夜宴会之后，汝就直接返回休息之处了，并未来过妾身这里。",
+			say = "As best as this one remembers, this one returned to this room after last night's banquet... We never spoke to each other...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……何来“一同确认”？",
+			say = "This one has no memory of claiming there was a fragment here, as you now say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（{namecode:182:信浓}竟然不记得昨夜的任何事了……怎么会这样，难道这次连她也受到影响了么……）",
+			say = "(She doesn't remember? But the false memories didn't affect her the last time something like this happened...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "……昨夜，你说因为你的护符也是神石碎片雕刻而成的，所以你对于神石碎片有熟悉的感觉，因此才会发现隐藏在此处的碎片。",
+			say = "Okay, then what about that amulet you had? You said it's also made with a Watatsumi fragment. You should be able to use it and sense the other fragment's presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "唔……妾身确实之前有过一个护符，不过并非由神石碎片所制，而且也早已遗失了。",
+			say = "Yes... I did have a charm, once... However, it was made not of a Watatsumi fragment, and I lost it long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "汝的所言所行甚是奇怪。难道是昨夜做了一个逼真的梦，醒来之后混淆梦境与现实了么？",
+			say = "You seem to be quite confused today... Perhaps you had a dream so vivid that you mistook it for reality?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（不……绝对不可能，一定是演习会场之中出现了某种异常事态。）",
+			say = "(I hate to admit it, but she could be right. It'll take more than this to convince me, though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（对了……克莱蒙梭并未前来会场，得向她确认一下昨夜的事。）",
+			say = "(I've got it. Clemenceau isn't here, so maybe she's unaffected.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "将疑问发送给克莱蒙梭后，很快收到了她的回复。",
+			say = "I bring out my device and send Clemenceau a message. I quickly get a reply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,36 +634,24 @@ return {
 			}
 		},
 		{
-			actorName = "通讯终端",
+			actorName = "Device",
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "“重樱从来没有用神石碎片与维希教廷交换过任何东西，圣米歇尔山圣堂中也不存在任何神石碎片。”",
+			say = "\"There is no record of any Watatsumi fragment being handed to us, so there's no evidence that the Basilica has one.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯终端",
+			actorName = "Device",
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "“同时，指挥官昨夜并未与我联络过。”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			side = 2,
-			say = "连克莱蒙梭都不记得昨夜发生的事……？",
+			say = "\"There are also no logs of you and I having spoken yesterday.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +663,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "难道……真的是我多心了。",
+			say = "(Not even SHE remembers... Did I really imagine all of it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +675,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "与{namecode:182:信浓}和克莱蒙梭讨论神石碎片的事是一场逼真的梦，而与斯特拉斯堡共舞的晚宴才是现实……么？",
+			say = "(Shinano bringing up the fragment, Clemenceau telling us about it...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			side = 2,
+			say = "(And Strasbourg never came to me to talk, instead we danced at the banquet...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "一段时间后，圣米歇尔山车站——",
+			say = "Sometime later, at the train platform...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "心中的疑惑依然没能得到解答，但出发时间就要到了。",
+			say = "My doubts and questions remain unresolved, but it's time to leave Mont-Saint-Michel behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "在即将登车之时，遇到了东煌的镇海小姐。",
+			say = "Just as I'm about to set foot on the train, someone calls out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位下午好，已经打算出发了么？恐怕诸位",
+			say = "Hello, Commander. Are you all heading back to the Orthodoxy mainland?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，差不多要到发车时间了。听上去，镇海小姐不打算坐火车返回会场了么？",
+			say = "Yeah. Our train's leaving soon. Are you staying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "算是吧~而且不光是我，恐怕诸位接下来的日程也要做些调整了。",
+			say = "I suppose so. And not just me – I'm afraid you'll need to make some changes to your plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "调整？",
+			say = "Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "东煌在此向诸位发出正式邀请，邀请指挥官与其随行人员于今日前往BP司令部，协助东煌日后将要进行的作战行动。",
+			say = "The Dragon Empery requests your presence at the BP military base to assist in an upcoming operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不知诸位意下如何？",
+			say = "Is that okay with you all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "隶属于东煌管辖的碧蓝航线BP司令部……我还从来都没去过呢。",
+			say = "BP military base? I've never been there before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "真是令人意外又突然的邀请。",
+			say = "Me neither.Well, THAT'S out of left field...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是啊。我印象里，这还是东煌第一次对指挥部提出需要指挥官协助作战的申请吧？",
+			say = "The Empery has never asked for assistance in an operation before. At least as far as I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "你记得不错，正是如此。",
+			say = "Why, yes, this is the first time ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我们与指挥官都对于东煌的这次邀请十分有兴趣。",
+			say = "I'll admit, you've made me curious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -914,7 +914,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "只是……或许是因为这是东煌的第一次申请，对于流程不太熟悉。",
+			say = "However, we have protocols to adhere to. I don't blame you if you were unaware, since this is your first time asking for something like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官调动到不同战区，是需要碧蓝航线指挥部下达的正式调动命令的。",
+			say = "But regardless, taking the Commander to a new mission area requires going through the official channels and filing a request!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "很遗憾，正是如此。如果没有指挥部的调动命令，恕我们无法赴约。",
+			say = "Yeah... Sorry, Chen Hai. We just can't change plans on the spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵，关于这次调动，指挥部已经通过了东煌的申请哦，命令或许正在草拟中尚未发出吧~",
+			say = "You needn't worry about that. We've already filed a transfer request with Naval HQ and should receive permission any minute now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "已经……通过了？",
+			say = "You're sure they'll process it THAT quickly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这种效率……怎么可能。",
+			say = "No way. Naval HQ isn't that fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -991,7 +991,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是啊！指挥部怎么会有这么高的效率？！",
+			say = "She's right. It can take an eternity for them to process a request like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不信的话，诸位尽可以向指挥部核实一下哦~",
+			say = "If you don't believe me, you should report in and hear it straight from the horse's mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +1016,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "指挥部的回复很快传来了，一同而来的还有一份正式前往BP司令部的调动命令。",
+			say = "Unbelievably, Naval HQ tells us on the spot that they've received permission to redeploy my unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1047,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "这样手续上就没问题了呢~",
+			say = "That should be it then, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1059,7 +1059,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "东煌这是……施加了什么魔法么？",
+			say = "I'll be damned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "过去的每次战区调动都伴随着皇家、白鹰、北方联合间的长时间拉扯。",
+			say = "Usually, a metric ton of red tape stands in the way of any transfer request being granted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "……这次怎么会通过得如此轻松？",
+			say = "How did you get approval so quickly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,7 +1097,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵，或许是因为“好运”吧。",
+			say = "I suppose you could say we got lucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官难道没察觉到么，这种从今天起就萦绕在身边的氛围？",
+			say = "Haven't you noticed it, Commander? There's a peculiar aura in the air today that wasn't here yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "万事如意，心想事成~",
+			say = "A wish, once made, makes itself come true, you could even say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "（“从今天起就萦绕在身边的氛围”？！东煌……似乎对当前发生的异常事态有所察觉！）",
+			say = "(A peculiar aura... that wasn't here yesterday? The Empery has to know that something's up!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "（……试图带我们离开演习会场也是因为这一点？）",
+			say = "(So then this invitation is really just an excuse to get us out of here, isn't it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "既然收到了指挥部的正式调动命令，我们就没有拒绝的理由。",
+			say = "Well, seeing as you went through all this trouble, I can't possibly turn you down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1172,7 +1172,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "孟菲斯，海伦娜，跟我一起去东煌吧。",
+			say = "Helena, Memphis, let's visit the Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……没想到指挥部真的同意了。我们这算是……出差途中又出差？",
+			say = "Wow, I... I can't believe this is happening. Hang on, this means we're going on back-to-back business trips!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,7 +1199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "算是回归本职工作才对~！",
+			say = "That suits me just fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1213,7 +1213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "你也听到镇海小姐说的了——“协助作战行动”。",
+			say = "She said we'll assist with an operation, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1227,7 +1227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这才对嘛~作为舰船，老在后方耗着可是会生锈的！",
+			say = "We're shipgirls. We'll get rusty if we don't do some hands-on combat now and then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵~各位请随我来，我们坐车去机场——",
+			say = "I'm glad you're all on board, then. Let's take a car to the port and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1254,7 +1254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "诸位请等一下。",
+			say = "Hold on a minute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,7 +1267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官，{namecode:182:信浓}大人有事找您，可否请您移步？",
+			say = "Commander, Lady Shinano urgently requests your presence. Would you mind coming with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1279,7 +1279,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "{namecode:182:信浓}？",
+			say = "Wait, Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1293,7 +1293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "出发不着急的。指挥官，先去办您的事吧。",
+			say = "That's quite alright. We'll wait here for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1304,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "跟随{namecode:50:能代}来到了一个四下无人之处。",
+			say = "Noshiro leads me out to a quiet, secluded place.",
 			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
@@ -1333,7 +1333,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}坐在不远处的长椅上，手中紧握着一个翠绿色的护符。",
+			say = "There, on a bench, sits Shinano, holding a green amulet in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1347,7 +1347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "指挥官，自从汝提到护符后，妾身就一直心神不宁。",
+			say = "After you told me of this amulet, the thought of it wouldn't leave my mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1361,7 +1361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "随后……妾身经过翻找，居然真的找到了那枚记忆中“早已遗失”的护符。",
+			say = "I searched my person, and lo and behold... I rediscovered it after all this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1374,7 +1374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "护符一直都在妾身的身上……只是妾身没能意识到它的存在。",
+			say = "Though I've carried it with me for an untold time, I never knew it was there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1388,7 +1388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "随后……妾身便想起来了——昨夜，汝确实来找过妾身。",
+			say = "It was after that that the memories of your visit yesternight returned to this one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1402,7 +1402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "说来也奇怪。就如同这护符一般，当妾身明确意识到这一点之后，昨晚的记忆也就顺势浮现而出了。",
+			say = "Strangely, recognizing this amulet promptly reminded me of all the events that transpired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1415,34 +1415,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "吾等与克莱蒙梭确实通过话，鸢尾圣堂之中，也确实存在着神石碎片。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_shengmixieer_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 307080,
-			say = "可与此同时……昨夜，汝从未来过妾身住处，妾身与重樱诸位同伴一同举办赏月会的记忆依然鲜明。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307080,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_shengmixieer_1",
-			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "随后妾身去找了{namecode:50:能代}。",
+			say = "Our conversation, Clemenceau's answer, the confirmation that a Watatsumi fragment hides within the Basilica...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1456,7 +1429,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "起初她也如妾身一般，描绘着昨夜愉快的赏月会。",
+			say = "And yet, I so clearly remember that which never happened – my brethren and I gazing at the moon together, whilst you never came to visit...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_shengmixieer_1",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "So, at a loss, this one confided in Noshiro.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_shengmixieer_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 307080,
+			say = "At first, she only remembered the \"original\" version of events as I did...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1470,7 +1470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "可是在妾身的提醒下，便也想起了昨夜之事的另一个版本，",
+			say = "As I told her more, she soon remembered the \"alternative\" version.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1484,7 +1484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "秉实而言，同一时间、两种记忆，委实难辨。",
+			say = "Telling apart the truth from the falsehoods was difficult for us both...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1497,7 +1497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "然……此刻牢牢握于妾身之手的护符表明，与汝之深夜谈话为真。其余之象……再逼真，亦为假。",
+			say = "But by holding this amulet and talking to me, the truth revealed itself – the memories of you visiting me were the real ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1509,7 +1509,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "也就是说，你在看到护符之后……不但让自己想起了真正发生的事，而且……也帮{namecode:50:能代}想了起来？",
+			say = "So if I got that right... You found the amulet, regained your memories of last night, then got Noshiro to remember what happened, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1523,7 +1523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "然也。毫无疑问，会场之中正在发生某种难以察觉又扰人心神的异变，连妾身都没能幸免。",
+			say = "Aye. There is no doubt that some strange spell has been cast upon the Basilica, and even this one was not immune...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1536,7 +1536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "若不是汝提到护符之事，而妾身又恰巧找到了护符……恐怕。妾身到现在还蒙在鼓里。",
+			say = "Had you not spoken of the amulet and had I not found it, perchance I would've remained ignorant of the mind-trickery...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1548,7 +1548,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "……那枚护符，是用神石碎片雕刻而成的对吧？",
+			say = "You said your amulet was carved from a piece of the Watatsumi, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1562,7 +1562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不错，而且花纹亦是妾身从梦境之中见过的样式。",
+			say = "Indeed. Its pattern comes from a dream this one had...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1574,7 +1574,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "（这枚与梦境和神石均有关联的护符……难道还隐藏着更多秘密。）",
+			say = "(So whatever's happening here, dreams and the Watatsumi are involved somehow.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1586,7 +1586,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "你在来这里之前，让更多人清醒过来了么？",
+			say = "What about the others? Did you make anyone else wake up to the truth before coming here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1599,7 +1599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "还没有。妾身有所发现之后就急忙来找汝了，还好汝并未出发。",
+			say = "No... Meeting with you seemed a more pressing matter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1611,7 +1611,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "很好。你暂时装作什么事都没意识到，依然处于影响之中的样子，也不要让更多人清醒过来。",
+			say = "That might actually be for the better. I'd like you both to keep up the facade that everything's business as usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1623,7 +1623,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "从与克莱蒙梭的通讯中可知，演习会场之外也受到了这场异变的影响。",
+			say = "See, I messaged Clemenceau earlier and found out her memories had been affected, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1635,7 +1635,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "我们尚不清楚受影响的具体规模，和引发此次事件的推手。",
+			say = "For that reason, we should be very cautious until we know how far-reaching this phenomenon is and who could be behind it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1647,7 +1647,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "敌暗我明，需要低调行事。",
+			say = "The mastermind is still hiding in the shadows, while we're out in broad daylight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1661,7 +1661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身明白。那接下来，如何做？",
+			say = "That is true. What plans have you for now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1673,7 +1673,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "接下来，我要先前往东煌的BP司令部调查，东煌似乎对于当前的事态有所了解，并且在准备一个行动。",
+			say = "I'm going to the BP military base, over in the Empery. They've figured out that something's wrong and are drafting a plan to deal with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1685,7 +1685,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "你留在欧罗巴，留意接下来的局势变化。",
+			say = "While I'm there, I want you to remain in Europa and keep a close eye on things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1699,7 +1699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "既是如此……拿上妾身的护符吧，这个护符，似乎拥有能够让人清醒的力量。",
+			say = "In that case, you should take this amulet... It may perchance be the key to awakening from this dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1711,7 +1711,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "不。你要留好这枚护符，欧罗巴需要更多清醒的人。",
+			say = "No, you hold on to it. There's one person I want you to wake up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1723,7 +1723,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "给，拿上这个——这是克莱蒙梭送给我的胸针。",
+			say = "Take this. It's a brooch Clemenceau gave to me a while back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1743,7 +1743,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "一会你正常坐火车返回鸢尾首都，然后去找克莱蒙梭。",
+			say = "Board a train to the holy capital and request to meet her face to face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1755,7 +1755,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "如果有人阻拦你，亮出这枚胸针自可以畅行无阻。",
+			say = "If anyone tries to stop you, show the brooch to them and they'll let you through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1767,7 +1767,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "见到克莱蒙梭之后，如果发现她还处于异常状态的影响中，就唤醒她。",
+			say = "Get into a meeting with Clemenceau and find a way to wake her up, assuming she hasn't already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1779,7 +1779,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "再之后的一切行动全听她的安排。",
+			say = "Once she's awake, she'll figure out what I'm going to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1793,7 +1793,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身明白了。",
+			say = "Very well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1805,7 +1805,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "那事不宜迟，我们就在此别过吧。一切小心。",
+			say = "Now, I've got to go. The train's about to leave. Good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1819,7 +1819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "一切小心。",
+			say = "Likewise... Good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1850,23 +1850,23 @@ return {
 			},
 			sequence = {
 				{
-					"于是，观摩之旅来到了离别之时。",
+					"And thus, the exercise came to an end.",
 					1
 				},
 				{
-					"属于幻梦的间奏曲也迎来了尾声。",
+					"As did the peaceful yet illusory interlude.",
 					2
 				},
 				{
-					"棋盘之外，自变量开始了行动。",
+					"The spectators plan their next moves.",
 					3
 				},
 				{
-					"棋盘之中，棋手亦开始了行动。",
+					"While the players on the board pick up their pieces.",
 					4
 				},
 				{
-					"而那彼方之音，依然在星间回荡着——",
+					"The echoes from afar are still reverberating among the stars.",
 					5
 				}
 			}
@@ -1880,7 +1880,7 @@ return {
 			soundeffect = "event:/ui/fengling",
 			sequence = {
 				{
-					"——未完待续",
+					"To Be Continued",
 					1
 				}
 			}

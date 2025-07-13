@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>七　暴风雨Sonata：尾章</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>7 The Calm After the Storm</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·第二天",
+			say = "Port - The next day",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，你们要睡到什么时候？",
+			say = "Come on, sleepyheads, that's enough. Wake up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "已经白天了么……等等，为什么我正躺在海伦娜的腿上？",
+			say = "Opening my eyes, the first thing I saw was... Helena's thighs. It seemed I'd asked for a lap pillow at some point before dozing off again.",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这正是我想要问的问题！",
+			say = "Ahem. What the hell are you two doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……路易斯姐姐和火奴鲁鲁？你们怎么来了……？",
+			say = "Huh...? Honolulu? Louis? Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "见你一晚上没回来，想来是因为台风的缘故和指挥官困在指挥室了。",
+			say = "To check on you. You never came back to the dorm last night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 102130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在雨停了我们也过来了，看到你们没事真好~",
+			say = "We figured it was because of the storm, so we waited for the rain to let up first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说！你们……昨天晚上，没发生什么奇怪的事情吧！",
+			say = "Care to walk me through what happened? Please don't tell me any funny business went down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "昨天晚上的话————",
+			say = "Uhh, sure. It started late in the evening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此。暂且先相信你们好了。",
+			say = "...Hmm, all right. I'll take your word for it.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -265,7 +265,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…………指挥室的情况比昨天晚上看起来还严重。",
+			say = "Now that the sun's up... Geesh, the storm made a worse mess of the office than I thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "窗户需要订做新的玻璃，线路也需要翻新一下……以防再出现这种极端的情况……",
+			say = "We need to order a new windowpane, replace fried wires, tidy up the place... There's a lot to do to better prepare for the next storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我先去明石那边让她说一下线路改造的事吧。",
+			say = "Commander, should I go ask Akashi if she can provide new electronics?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "\"Go ahead. I'm sure you can work something out.\"",
 					flag = 1
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我先告辞了……",
+			say = "All right. I'll see you in a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜脸泛着红晕，匆匆离开了办公室……？",
+			say = "With a blush on her face, Helena made her swift exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可思议……看来回去得找海伦娜问清楚你们昨晚到底发生了什么事才行！",
+			say = "Something's fishy here... I'm going to have to press her for the real answer about what went down last night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼~指挥官，麦芽糖是不是也不错呢？",
+			say = "How about we say they had a sweet moment and leave it at that, hm? Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "今后你可要多多关照她哦~",
+			say = "Commander, be a dear and keep looking after Helena for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

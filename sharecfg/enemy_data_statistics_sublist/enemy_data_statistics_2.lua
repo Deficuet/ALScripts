@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_2 = {
 	[50028] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 8850,
 		cannon_growth = 8850,
 		luck_growth = 10000,
@@ -27,7 +27,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50029] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 9400,
 		cannon_growth = 9400,
 		luck_growth = 10000,
@@ -52,7 +52,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50030] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 10000,
 		cannon_growth = 10000,
 		luck_growth = 10000,
@@ -77,7 +77,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50040] = {
 		cannon = 0,
-		name = "亚历克西斯·凯利夫（新秩序）",
+		name = "Alexis Kerib (New Order)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -237,7 +237,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50041] = {
 		cannon = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		type = 23,
 		speed_growth = 10000,
 		air_growth = 0,
@@ -383,7 +383,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50042] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 5500,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -406,7 +406,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50043] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 6100,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -429,7 +429,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50044] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 6650,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -452,7 +452,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50045] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 7200,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -475,7 +475,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50046] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 7750,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -498,7 +498,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50047] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 8300,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -521,7 +521,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50048] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 8850,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -544,7 +544,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50049] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 9400,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -567,7 +567,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50050] = {
 		cannon_growth = 0,
-		name = "深海的幽灵",
+		name = "Deep Sea Ghost",
 		durability_growth = 10000,
 		speed_growth = 10000,
 		luck_growth = 10000,
@@ -590,7 +590,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50051] = {
 		cannon = 0,
-		name = "闪流",
+		name = "Vspyshka",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -746,7 +746,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50052] = {
 		cannon_growth = 5500,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 2750,
 		base = 50051,
 		antiaircraft_growth = 5500,
@@ -760,7 +760,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50053] = {
 		cannon_growth = 6100,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 3000,
 		base = 50051,
 		antiaircraft_growth = 6100,
@@ -774,7 +774,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50054] = {
 		cannon_growth = 6650,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 3250,
 		base = 50051,
 		antiaircraft_growth = 6650,
@@ -788,7 +788,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50055] = {
 		cannon_growth = 7200,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 3500,
 		base = 50051,
 		antiaircraft_growth = 7200,
@@ -802,7 +802,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50056] = {
 		cannon_growth = 7750,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 3750,
 		base = 50051,
 		antiaircraft_growth = 7750,
@@ -816,7 +816,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50057] = {
 		cannon_growth = 8300,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 4000,
 		base = 50051,
 		antiaircraft_growth = 8300,
@@ -830,7 +830,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50058] = {
 		cannon_growth = 8850,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 4250,
 		base = 50051,
 		antiaircraft_growth = 8850,
@@ -844,7 +844,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50059] = {
 		cannon_growth = 9400,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 4500,
 		base = 50051,
 		antiaircraft_growth = 9400,
@@ -858,7 +858,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50060] = {
 		cannon_growth = 10000,
-		name = "闪流",
+		name = "Vspyshka",
 		durability_growth = 5000,
 		base = 50051,
 		antiaircraft_growth = 10000,
@@ -872,7 +872,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50061] = {
 		cannon = 0,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1032,7 +1032,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50062] = {
 		torpedo_growth = 5500,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 5500,
 		hit_growth = 5500,
@@ -1056,7 +1056,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50063] = {
 		torpedo_growth = 6100,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 6100,
 		hit_growth = 6100,
@@ -1080,7 +1080,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50064] = {
 		torpedo_growth = 6650,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 6650,
 		hit_growth = 6650,
@@ -1104,7 +1104,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50065] = {
 		torpedo_growth = 7200,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 7200,
 		hit_growth = 7200,
@@ -1128,7 +1128,7 @@ pg.enemy_data_statistics_2 = {
 	},
 	[50066] = {
 		torpedo_growth = 7750,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 7750,
 		hit_growth = 7750,

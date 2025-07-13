@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "在TB开始调配资源准备进行算力压制时，密集的敌人像察觉到了什么，向着众人疯狂进攻而来。",
+			say = "Seemingly sensing TB's attempt to gather computing resources, the dense swarm of enemies charged frantically toward the team.",
 			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "众人阵形被冲散，一时间只能各自为战。",
+			say = "The girls' formation shattered under the onslaught, and for a moment, they were each forced to fight alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "敌人距离过近了……伟大的帝国，需要贴身护卫！",
+			say = "They're too close... My brilliant brain requires backup to function properly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "——哐！",
+			say = "BANG!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "没事吧，帝国小姐。",
+			say = "Are you okay, Impero?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "得救了……多谢。",
+			say = "Phew... Thanks for saving me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "糟糕……小心，BLACK★ROCK SHOOTER小姐！不要硬接炮弹啊——！",
+			say = "This is bad... Be careful, BLACK★ROCK SHOOTER! Don't let them get a clean hit on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……唔！",
+			say = "Urgh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "就在BLACK★ROCK SHOOTER失去平衡的瞬间，DEAD MASTER滑步挡在她身前，一举斩杀了袭来的敌人。",
+			say = "The moment BLACK★ROCK SHOOTER lost her balance, DEAD MASTER glided in front of her, eliminating the attacking enemy with one swift, decisive blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还是太草率了呢。下次交手时，要不要我让点你？",
+			say = "You're still too careless. Should I hold back next time we fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

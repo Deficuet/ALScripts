@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在智力问答游戏中得到了第一名，获得了奖励【五星装备设计图纸*2】"
+			say = "You scored the highest on one of Amazon's tests! Collect 2 Super Rare Gear Blueprints!"
 		}
 	}
 }

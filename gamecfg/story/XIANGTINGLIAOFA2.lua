@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这…刚刚出现的是？",
+			say = "What... just happened...? Baltimore? Victorious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "可恶…又开始头疼了，偏偏在这种时候——",
+			say = "Apparently, Newport City was attacked by Sirens shortly after we arrived. I had lost consciousness during the turmoil...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我们被偷袭了，塞壬似乎破译了我们的雷达波段，绕开了防守。",
+			say = "Commander, we've been caught off guard... They somehow managed to get through without being detected by the radar screen...",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在情况十分严峻，整个纽波特港已经陷入火海，周边设施也大半被毁。",
+			say = "The situation is looking very dire now. The entire Newport Harbor has gone up in flames, and we've lost most of our facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "救援和撤离行动虽然已经开始，但只要海上的塞壬还在攻击，情况只会越来越糟。",
+			say = "We've begun rescue, evacuation, and triage operations, but things are only going to get worse unless we break their siege and stop their airstrikes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...无差别轰炸！",
+			say = "They're indiscriminately bombing everything...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为纽波特港地处战线后方而大意了。",
+			say = "I suppose that's to be expected, though... We let our guard down because Newport was far from the front lines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是这么大规模的攻击群，居然连任何目击情报都没有，究竟是怎么回事...？",
+			say = "What I want to know is, radar aside, how were they able to slip such a large-scale attack force past the patrols? What in the world is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论它们是怎么来的，到了这里就别想回去了。",
+			say = "We'll have plenty of time to think about that later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大黄蜂正在阻击近海的塞壬先锋部队，不过应该拖延不了太久…",
+			say = "Right now, Hornet is out there searching for the Sirens' main fleet. With these kinds of numbers, it's going to be too much for her to handle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的突袭已经造成了严重破坏，是时候组织反击，让塞壬付出代价了！",
+			say = "Besides, if they're going to attack us on our home soil, then we'll have to give 'em a taste of Eagle Union hospitality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请下命令吧，指挥官！",
+			say = "That's all I have to say. Commander, please issue the orders for our counterattack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

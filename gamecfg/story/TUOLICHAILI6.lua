@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>六　意料之外的关怀</size>",
+					"Where the Sun Doesn't Shine\n\n<size=45>A Pleasant Surprise</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "几日过去——",
+			say = "A few days later...",
 			bgmDelay = 2,
 			bgm = "story-richang-8",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "工作的情况渐渐好起来了，托里拆利也渐渐适应了秘书舰的职责。",
+			say = "As Torricelli has begun adapting to her responsibilities as my secretary, my workload has gotten lighter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "像是资料整理这样的工作，她已经能做得挺熟练了。",
+			say = "She is so proficient at sifting through data and sorting documents, she could it in her sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然偶尔还是会感觉和她的脑回路有些对不上电波，但总体来说，她已经算得上是能独当一面的秘书舰了。",
+			say = "\"I know we're not always on the same wavelength, but the work you do is more than satisfactory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "没错，就像这样多夸夸我也没关系~",
+			say = "Hehehe... I like the acknowledgement... More, please...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,18 +97,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "托里拆利把头凑了过来，看起来是想要夸奖的样子。",
+			say = "She tilts her head slightly downward, presenting it to me. She must want me to do something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸她的头",
+					content = "(Pat her on the head.)",
 					flag = 1
 				},
 				{
-					content = "揉乱她的头发",
+					content = "(Ruffle her hair.)",
 					flag = 2
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……再多摸一会……呼呼呼……",
+			say = "Mmh... Keep doing that... Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
-			say = "托里拆利难得地露出了害羞的表情。",
+			say = "Her cheeks seem to turn red, which I don't think I've ever seen from her before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已、已经够乱了……不要再揉了……",
+			say = "M-my hair is messy as is... Don't make it worse...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过说起来，之前工作不太顺利，很大程度上也是出于她的原因……",
+			say = "\"If you'd always worked this well, I could've enjoyed some time off not long ago.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "那、那种事情就翻篇过去，忘掉它吧！",
+			say = "Th-that's in the past now... Let bygones be bygones...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "咳……换个话题好了。指挥官，看看这个！",
+			say = "Ahem... Let's change topics. Have a look at this, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "托里拆利递过来一个大大的礼物盒。",
+			say = "She produces a big box encased in wrapping paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,14 +252,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "有些意外，没想到在这种时候会收到她的礼物……真是意料之外的关怀。",
+			say = "A gift, from Torricelli? I wasn't expecting that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打开礼物箱",
+					content = "(Open it.)",
 					flag = 1
 				}
 			}
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "里面是一个精巧的仪器，似乎可以把文件放到上面的样子？",
+			say = "There's a carefully-crafted machine inside. It looks like it's made to sort paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "是送给指挥官的！我、我想，指挥官现在最需要的东西应该是协助工作的东西吧？",
+			say = "It's a present... I-I figured you wanted something to help with your work...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我找达芬奇做了一个可以根据文件标签自动把文件进行分类的小工作台。",
+			say = "I asked Da Vinci to design it. It automatically organizes documents according to their tags...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这样的话，指挥官要处理文件就会快上许多了吧？也可以省出来更多时间陪我了，呼呼呼~",
+			say = "It's sure to make that part of your job quicker... and give you more time to spend with me... Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "看起来确实是个挺有用的工具，但是……之前文件分类和资料整理不是她的工作吗？",
+			say = "\"That's actually quite useful. Maybe a bit TOO useful. Won't this machine effectively do your job for you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "对~所以我也可以闲下来啦。哈，摸鱼真好~想去寂静的角落一个人待着~",
+			say = "Exactly, which means I don't need to work... I can just relax all day and sit in my cozy corner...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "………………所以我要做的工作量其实完全没有减少啊。",
+			say = "\"It also means my workload will never get any lighter than it is now...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "唉。这里还是夸奖一下她吧——",
+			say = "\"Still, it's a kind gesture. Thank you for the gift.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "唔嘿~~~",
+			say = "Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1

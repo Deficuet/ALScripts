@@ -252,7 +252,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								15,
+								20,
 								0,
 								75
 							},
@@ -297,7 +297,7 @@ return {
 							delay = 0,
 							score = 0,
 							corrdinate = {
-								15,
+								20,
 								0,
 								35
 							},

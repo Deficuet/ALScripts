@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "story-richang-2",
-			say = "大迷宫·上层",
+			say = "Great Dungeon - Top Floor",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,10 +15,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "此处就是四天王中第五位所在的迷宫！",
+			say = "Holy cow! We've found the Four Beasts' Dungeon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -30,40 +30,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要攻略了这里，我们进攻魔王城的最后一道阻碍就消失了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:408}",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "但是这个迷宫好复杂……要是一点点探路的话不知道要跑多久。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "拉菲",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "呼……拉菲，已经感觉累了……",
+			say = "All we have to do is make it to the exit and we'll have a straight path to the Demon King's lair!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +48,7 @@ return {
 			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要累啊拉菲，现在连一场战斗都还没开始呢！",
+			say = "While that sounds great, this place is a maze... Finding the exit will take forever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,10 +60,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "柚",
+			actorName = "Laffey",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个迷宫的结构，我已经感觉到了…………",
+			say = "Ugh... I'm already tired as heck...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,10 +75,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "柚",
+			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "前方的墙壁，存在薄弱之处……交给我吧。",
+			say = "Don't get lazy so soon! We haven't even fought one battle yet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,10 +90,40 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Ayanami",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "等等……{namecode:6}你要做什么？",
+			say = "I've figured out the dungeon's layout.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Ayanami",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "This wall just ahead has a weak spot in its structure. Yes, I can do this.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Javelin",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Wait, do what? What are you going to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "自己的身体才是最强的武器，标枪不懂这一点呢。",
+			say = "One's body is one's most powerful weapon. You wouldn't understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			actor = 331055,
 			dir = 1,
-			say = "必杀技跃动飞踢（dynamic kick）————",
+			say = "I'm going to use my Ultimate Ability: Dynamic Entry Kick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,9 +166,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "{namecode:6} 使用 跃动飞踢 对其实并不薄弱的墙壁 造成了 999点伤害，其实并不薄弱的墙壁被破坏了。",
+			say = "AYANAMI performed DYNAMIC KICK! SURPRISINGLY STURDY WALL took 999 DMG! SURPRISINGLY STURDY WALL was destroyed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,9 +191,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "发现了道路 前往迷宫中心的捷径。",
+			say = "A path to the dungeon's center appeared!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			actor = 331055,
 			dir = 1,
-			say = "哼哼……这样就方便多了，大家继续前进吧！",
+			say = "Heheh... Yes, this is much faster. Now let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

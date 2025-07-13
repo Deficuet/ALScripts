@@ -9,7 +9,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "接到冒险者工会的委托来采集石料。。",
+			say = "A guild request has sent you to collect stones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一块石料四十块金币，两块石料八十块金币……",
+			say = "You got one, so that's 40 gold. And another, so that's 80...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "可以获取委托奖励了！",
+			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

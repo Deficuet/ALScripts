@@ -9,7 +9,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呼，轻轻松松~",
+			say = "Whew. A walk in the park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "本来以为能生存在这种怪异世界里的敌人能有多强……结果却是不堪一击。",
+			say = "This place being the source of the corruption, I expected more resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "这股力量……果然和我一直以来听闻的META之力不同……",
+			say = "Is this the power of METAmorphosis? Or has my mindset simply changed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "这种令人感觉安心可靠，又有些飘飘然的力量到底是怎么回事……",
+			say = "What is it that makes me feel so safe and dependable, yet light-headed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "嗡嗡——",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "机械的轰鸣声，自不远处由尘埃构成的云层中传来。",
+			say = "Then, she heard the rumbling of machine engines not far from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……舰载机群？在这里？",
+			say = "Aircraft? Out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "难道还有其他人被困进来了？",
+			say = "There must be others who are trapped in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "不行，我得去看看！",
+			say = "I must help them at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

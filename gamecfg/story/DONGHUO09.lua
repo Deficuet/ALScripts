@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接收到了奇怪的加密电文…发信源不明…正在尝试解密…",
+			say = "I've just received a strange encrypted communication via friendly channels! I can't determine who it originated from, but... I can decypher it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "在这个地方能接收到友军的信号？不会是陷阱吧…",
+			say = "A message from our allies, here of all places? Are you sure it's not a trap?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加密电码充满无法理解的词句……比较可以确认的是【Falling】…….坠落？",
+			say = "I see something about... Falling? Fallen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全不明白是什么意思呢…",
+			say = "What does that even mean...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先是捉迷藏，现在又来猜字谜游戏么？这位“神秘人”先生可真是爱玩游戏啊。",
+			say = "First, hide and seek, and now, riddles? Looks like our mystery person over here likes to play games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不如我们直接把他揪出来胖揍一顿如何？之后他就会“好心”的给我们解答了吧呵呵呵",
+			say = "My 16-inchers know exactly how to deal with someone who can't give us a straight answer. Isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…不管怎样，先把目前的发现汇报回去吧，光是这些新型的敌人就够让人头疼的了",
+			say = "...Let's not worry about that for now. Why don't we report back on what we've found so far? I'm not too keen on fighting any more of these new enemies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经在第一时间向总部汇报了哟",
+			say = "Don't worry. I've already contacted HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜小姐还是一如既往的可靠呀~",
+			say = "Heehee. As reliable as ever, Helena~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，继续往信号源的方向前进吧",
+			say = "Now then, let's find the source of the signal. You don't have a problem with that, do you, Washington?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

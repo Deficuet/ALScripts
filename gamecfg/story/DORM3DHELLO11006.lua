@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呀，Honey，你上次想要看的电影我已经准备好了哦，还有点心，冰激凌，爆米花……以及最喜欢你的Black Dragon！",
+			say = "Oh, honey! I got that movie you said you wanted to watch! You'll have snacks, ice cream, popcorn... and of course, the Black Dragon who loves you more than anything!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello6",
 			typewriter = {
 				speed = 0.05,

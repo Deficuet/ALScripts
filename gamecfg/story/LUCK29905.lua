@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 299050,
 			dir = 1,
-			say = "指挥官大人，普利茅斯变得更强了，一切如您所愿。",
+			say = "Rejoice, Commander, for I have become stronger, just as you desired.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "请问，有什么事是需要我现在去做的么？普利茅斯的主炮已经准备就绪。",
+			say = "My main cannons stand ready. Do you have any instructions for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 299050,
 			dir = 1,
-			say = "不需要主炮么？那么，还有什么是我能做的？普利茅斯会尽一切努力取悦您。",
+			say = "Hmm? My cannons won't be needed...? What would you have me do instead then? Just know that there is nothing I wouldn't do for your sake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 299050,
 			dir = 1,
-			say = "请高兴起来，指挥官大人。",
+			say = "Yes, Commander, please be uplifted and rejoice.",
 			painting = {
 				alpha = 0.3,
 				time = 1

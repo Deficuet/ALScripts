@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_ins_redpackage = {
 	[1000] = {
 		id = 1000,
-		desc = "新年快乐，财源滚滚",
+		desc = "Happy New Year, May You Find Riches",
 		type = 2,
 		content = {
 			1,
@@ -32,7 +32,7 @@ pg.activity_ins_redpackage = {
 	},
 	[1001] = {
 		id = 1001,
-		desc = "新年吃好喝好！",
+		desc = "Enjoy good food and drinks over the New Year!",
 		type = 2,
 		content = {
 			1,
@@ -68,7 +68,7 @@ pg.activity_ins_redpackage = {
 	},
 	[1002] = {
 		id = 1002,
-		desc = "新年天天开心",
+		desc = "Have happy days over the New Year!",
 		type = 2,
 		content = {
 			1,
@@ -99,7 +99,7 @@ pg.activity_ins_redpackage = {
 	[1003] = {
 		id = 1003,
 		type = 1,
-		desc = "指挥官新年快乐",
+		desc = "Happy New Year, Commander",
 		group_receive = "",
 		content = {
 			1,

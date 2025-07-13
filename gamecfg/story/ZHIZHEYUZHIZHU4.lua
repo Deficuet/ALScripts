@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>四　离别</size>",
+					"The Weaver's Omen\n\n<size=45>4 Parting Ways</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "铁血浮岛要塞群·B3浮岛-P011港",
+			say = "Floating Fortress B3 - Pier",
 			bgmDelay = 1,
 			bgm = "bsm-7",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "在一日的训练结束后，不是为何P011港又变得喧嚣起来。",
+			say = "The girls, having finished their training for the day, docked at the pier and had a lively chat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "咦？！你真的今天就要走么！",
+			say = "Aww, are you really going back already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "怎么会这么突然！",
+			say = "Isn't this way too soon? Eisen's looking sad!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是刚刚收到来自利托里奥大人发来的通讯。",
+			say = "I'm afraid I must. Lady Littorio just sent me a message, urging me to return to the World Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "说是为了加强博览会闭幕式的警备力量，需要我即刻启程返回本土。",
+			say = "I'm needed there to bolster their security detail, you see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "但是、这也太————突然了吧！",
+			say = "Come on, can't you stay at least for today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:454}，别太缠着人家了。军人就要服从命令。",
+			say = "She's got orders to follow, Heinrich. I know you'll miss her, but you've gotta let her go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "这种道理我肯定知道啦~但是~~{namecode:456}！",
+			say = "I know, I know, but we were gonna throw a party and everything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "如果要即刻启程的话，我们连欢送会都没时间准备欸！",
+			say = "It'll be lonely without her, and we can't set the table in just five minutes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403100,
-			say = "唔……要不然准备些纪念品之类的？",
+			say = "How 'bout a compromise? You could find her a gift or something before she's gotta run.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "诶诶诶——这段时间以来诸位对我的照顾已经让我十分感激了！",
+			say = "Please, there's no need! You've already spoiled me with your hospitality during this short stay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "其他的事就真的不需要费心了！",
+			say = "You needn't prepare any last-minute parties or gifts for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "那、那好吧……",
+			say = "Well, okay...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "这件事你也跟{namecode:464}阁下汇报过了吧？",
+			say = "Carabiniere, have you gotten Ulrich's message yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯！已经向{namecode:464}阁下汇报过了！",
+			say = "Yes! She told me about it directly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "不过在汇报的时候，{namecode:464}阁下看上去似乎很不舒服……",
+			say = "She seemed to be feeling rather unwell, however, when I spoke to her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "我在走之前稍微有些担心……",
+			say = "Could you please check on her after I go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "是啊，{namecode:464}阁下看上去确实有些精神憔悴……",
+			say = "Yes, she has been rather out of it for a while now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "我会去劝她给自己放个假的，不用担心。",
+			say = "But don't worry about her. I've already urged her to rest and recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "好的~那么诸位，龙骑兵就准备启程了！",
+			say = "Splendid. Now then, I should really be on my way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有机会来撒丁帝国的话，请务必给我一个招待各位的机会！",
+			say = "If you happen to stop by the Expo, please come see me so I may return the kindness you've shown me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "好的，如果有机会的话，去之前一定联系你。",
+			say = "Of course. Should our paths cross, we'll let you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "那么，离开浮岛要塞的航线已为你开启，一路顺风。",
+			say = "I've left the Fortress' evacuation route open for you. Safe travels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拜拜~~",
+			say = "See you! Eisen, wave goodbye to our friend!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家拜拜~",
+			say = "Farewell, ladies!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "龙骑兵已经走远了……唉，这里也要变得冷清起来了。",
+			say = "There she goes... *sigh*... This place just got a lot duller.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "真的么，我感觉未必哦。",
+			say = "Did it? I beg to differ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "欸，为什么！",
+			say = "What makes you say that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "不是还有你在么。",
+			say = "As long as you're around, it'll never be quiet here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "喂——！",
+			say = "Wow, rude!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~{namecode:471}{namecode:471}~我突然有了一个好想法！",
+			say = "...Oh, oh! Strasser, I just got a good idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "这个想法是？",
+			say = "Oh boy... What kind of idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}阁下不是精神欠佳么！那我做些能让人打起精神的饮料给她怎么样！",
+			say = "Ulrich's feeling under the weather, yeah? I think a power-packed beverage might be what she needs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "你来……亲手制作么？",
+			say = "Don't tell me YOU'RE going to make it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "嗯！不过大家一起做也可以啦！",
+			say = "Well, duh! I'm open to suggestions, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在开始集思广益，有人有想法么！",
+			say = "Any aspiring mixologists in our midst? C'mon, let's hear some ideas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要创新饮料么~我有点灵感！",
+			say = "Me, me! I've got one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "突出一下碳酸要素怎么样？毕竟碳酸饮料可是良好的提神剂！",
+			say = "A double dose of carbonation! That's supposed to be like, super refreshing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "是个有趣的思路……我记下来了，还有么！",
+			say = "Not a bad start. I'll note it down. Anyone else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在原材料里，多加入一些有营养的物质？",
+			say = "Using healthy fruits or vegetables. Perhaps her poor mood is caused by a nutritional deficiency?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯……很有道理，我也记下来了，还有么！",
+			say = "Yeah, that makes sense. Noted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "还有么还有么~{namecode:471}，{namecode:456}，来点想法啦！",
+			say = "Any other ideas? You got anything, Strasser?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这件事我不是很想参与。",
+			say = "No. I'll pass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403100,
-			say = "嗯……我也一样。",
+			say = "Same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸~~不用客气啦~！",
+			say = "Don't be scared! What's the worst that could happen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……这不是客气的问题。",
+			say = "Being scared has nothing to do with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403100,
-			say = "嗯……我也一样。",
+			say = "Same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "加油，这个艰巨的任务就由你来负责了，{namecode:454}。",
+			say = "If you wanna do this, you've gotta do it yourself. Good luck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,7 +917,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "欸——————————————",
+			say = "Awwwwww!",
 			painting = {
 				alpha = 0.3,
 				time = 1

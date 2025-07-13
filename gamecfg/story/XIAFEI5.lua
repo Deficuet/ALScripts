@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>五　天使与飞鸟</size>",
+					"Date with an Angel\n\n<size=45>5 The Angel and the Seagull</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "我们牵着手漫无目的地走着，直至来到了一处码头附近。",
+			say = "We continue to walk hand-in-hand, and before long, we arrive on the pier.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我们去下面走走吧，吹一吹海风。",
+			say = "Let's head down and feel the sea breeze.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "一群海鸥自海面扑腾着起飞，激起的水珠飞向四面八方。",
+			say = "A flock of seagulls takes flight from the surface, splashing water in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "而霞飞则在第一时间用身后的翅膀帮我挡住了飞溅而来的水花。",
+			say = "Upon seeing this, Joffre immediately spreads the wings on her back to shield me from the incoming seaspray.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……天使。",
+			say = "What an angel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "看着在日光下张开双翼的霞飞，我不禁再一次发出了这样的感慨。",
+			say = "I couldn't help but gasp in admiration upon seeing the girl's wings spread beneath the bright sunshine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "大家的确是这么称呼我的。",
+			say = "Indeed, that is my title.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，指挥官觉得真正的天使应该是什么样子的呢？",
+			say = "By the way, Commander, what do you think a canonical angel looks like anyway?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……应该有羽翼，穿着纯白的衣服，然后也有光环什么的？",
+			say = "Umm... Someone with wings, dressed in a white gown of some sort, with an angel on their head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过在我看来，霞飞和真正的天使之间并没有什么区别。",
+			say = "Well, the way I see things, I don't think there's much difference between you and a \"real\" angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "嗯……？您得出这条观点的理由，我想听听看。",
+			say = "Hmm? May I ask how you came to that conclusion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真正的天使也是圣洁和正直的化身，将神圣的讯息带给陷入困境之中的人。",
+			say = "I guess, uh, the \"Angel of the Iris\" is an embodiment of purity and justice, one who offers holy words to those in distress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "霞飞不也是同样的么？",
+			say = "Isn't that exactly what you are?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可我……",
+			say = "But, I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "伸手放在霞飞唇畔，示意她先安静下来继续听我说完。",
+			say = "I press my finger against Joffre's lips, trying to get her to let me finish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我知道你想说什么，不过——",
+			say = "I know what you're about to say, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "裁定罪恶，是为了将公正与良善带回世间。",
+			say = "You judge sin for the sake of all that is righteous and good in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "努力战斗，也是为了更美好的明天。",
+			say = "You fight hard for the sake of a better tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，对我来说，霞飞就是真正的天使。",
+			say = "That, in my eyes, is what truly makes you an angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我很喜欢，也很欣赏这样的霞飞。",
+			say = "And that's the part of you that I respect and love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "指挥官，您刚刚所说的这些话，简直就像告白一样呢。",
+			say = "Commander, what you just said... sounded a bit like a confession of love.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "不过……能听到您说这些，我真的很开心。",
+			say = "But... I'm still glad I got to hear you say those words. Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女的脸上浮现出笑意，随即将她的头轻轻靠在了我的肩上。",
+			say = "With a gentle smile on her face, the angel approached me and pressed her head against my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "不远处飞走的海鸥群又再度飞回，两两结伴，互相依偎。",
+			say = "The flock of seagulls that flew away upon our arrival has now returned, nestling up against each other in pairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "就像此时此刻的我与霞飞。",
+			say = "...a bit like me and Joffre in this moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

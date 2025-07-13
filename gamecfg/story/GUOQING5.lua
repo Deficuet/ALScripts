@@ -12,7 +12,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "又是五航战的那孩子么，真是执着而又愚蠢啊。",
+			say = "Hmph. So the 5th Carrier Division is on our tail.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -33,7 +33,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "烦人的虫子果然被诱饵吸引进来了。",
+			say = "That idiot has taken the bait. All systems normal.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -54,7 +54,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "按照流程进行系统检查...呵呵呵，所有系统看起来都在正常工作中~",
+			say = "The Sanctuary system check returned normal values. I suppose there is nothing to worry about.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -75,7 +75,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "能自由自在掌控所管辖的一切，真不愧是神明的实验场。",
+			say = "Ah, the little one from the 5th Carrier Division? So persistent, yet so naïve...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "妄图与强者对抗的弱者，终究只会为自己的狂妄付出代价...",
+			say = "Those who dare oppose the Creator shall pay for their ignorance with their lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "派它们去好了，正好可以好好“检验”一下神明赐予我们的新武器~",
+			say = "Let's give them a little surprise. This is a perfect opportunity to test the new weapon the Creator gave us...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "想要妨碍我与“那位大人”重逢的人，必须好好惩罚一下才行呢，呵呵呵呵......",
+			say = "Those who dare stand between the Creator and me must be punished...",
 			shake = {
 				speed = 1,
 				number = 3

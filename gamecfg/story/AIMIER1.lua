@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>一 人见人爱的埃米尔</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 1 - The Popular Dancer</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·港口",
+			say = "Port - Dock",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "和新担任秘书舰的埃米尔一起准备迎接委托组的归来…",
+			say = "My newly appointed secretary, Émile Bertin, and I were waiting on a commission team's return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万里无云，艳阳高照～今天也是个好天气呢～",
+			say = "The cloudless blue sky, the warm and bright rays of the sun – ah, what a wonderful day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么好的天气，不出来活动一下就可惜了~~",
+			say = "And on such a wonderful day, it'd be a shame not to go outside and move around~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "埃米尔说着跳上了一根系船柱，轻快地转了一个圈。",
+			say = "Émile jumped onto a bollard and did a graceful pirouette.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,23 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，除了迎接委托组的伙伴以外，你也应该多出来走走呀",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "工作虽然重要，坐太久了对身体也不好。",
+			say = "Really, you ought to get more exercise, Commander! Going outside only to greet returning commission teams is not enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +119,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过管理舰队也不是那么简单的事呢，我光是作为辅助的秘书舰都感觉有点忙不过来了",
+			say = "Of course, work is important, but sitting too much is bad for the body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +135,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能当上指挥官的果然都是厉害的人呢~",
+			say = "And the work you do, dear me, it seems really tough~ I'm doing the best I can just to keep up!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "People who become commanders really are on a whole other level~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			},
 			options = {
 				{
-					content = "害羞",
+					content = "Respond humbly",
 					flag = 1
 				},
 				{
-					content = "自满",
+					content = "Respond boastfully",
 					flag = 2
 				}
 			}
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，她们回来了~",
+			say = "Ah, look, there they are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "大家都去凑到埃米尔面前，愉快地聊着委托的趣闻和礼物等女孩子间的话题",
+			say = "The commission team all gathered around Émile like it was routine. They had a cheery girls' talk about their commission accomplishments and rewards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎回来~没有遇到什么危险吧？",
+			say = "Well done! You didn't have any close calls, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都是重要的伙伴呀，肯定会担心你们的嘛",
+			say = "But of course I would worry about your wellbeing! You're my dear friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，这个是给我的吗？谢谢！",
+			say = "Ah, is this for me? You're too sweet! Merci!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指挥官，怎么啦？一副吃惊的样子。",
+			say = "Commander, is something the matter? You seem taken aback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，都是同一支舰队的伙伴，关系变好不是自然而然的事吗？",
+			say = "... Oh, this? We're all part of the same fleet, so shouldn't we try our best to make friends with each other?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "埃米尔似乎没有意识到自己受欢迎的事实。",
+			say = "Apparently, Émile doesn't realize how popular she really is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

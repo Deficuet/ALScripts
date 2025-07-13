@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "如同荆棘的金属缠绕结构退去，橙黄色的光幕打开，辉翼太阳船正式停入了蔷薇塔中。",
+			say = "The Mesektet's thorn-like, winding metal structure retreated, a curtain of orange light lifted, and the Mesektet finally landed on the Rose Tower.",
 			bgm = "story-royalnavy-serious",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "因为战线压力，我并没有见到此前伊丽莎白提到的棋子迎接仪仗队，光荣·META还为此专门表达了歉意。",
+			say = "I did not see a welcome party of Pawns like Elizabeth described, no doubt due to the dire situation on the front. Glorious META offered her apologies for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在这件事上我和伊丽莎白的观点一样，“没有就没有吧，挺好的”。",
+			say = "Naturally, Elizabeth and I both assured her that it was fine that she didn't have the leeway for a grand reception.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "返航的路上，伊丽莎白尽可能向我同步了她所掌握的情报，再结合构建者收集的部分，我已经基本理清了此前发生在这个世界的灾难。",
+			say = "On the way here, Elizabeth shared with me as much intel as she could. Compared to what little Compiler gathered, she broadly understood what calamity was taking place in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "天外之兽群入侵，塞壬崩溃，这些与{namecode:542:弗里茨·鲁梅}的世界所经历的相同。",
+			say = "Some of it I'd seen in Rumey's world before – extradimensionals attacked, and the Sirens were destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "不同的是，星之兽没有出现在这个世界中。",
+			say = "In this world, however, the Star Beast hadn't shown itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "此前跟随构建者作战的时候，我基本确认了，这个世界的天外之兽战斗力远强于鲁梅所在的世界。",
+			say = "Additionally, the extradimensionals in this world are much stronger than those of Rumey's world, as we learned while carrying out Compiler's plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "或许这就是星之兽没有出现在此处的原因……因为没有必要，此处的塞壬实验机关是被无穷无尽的天外之兽群生生淹没的。",
+			say = "I speculate that the reason the Star Beast didn't show up was that the extradimensionals already present were enough to wipe out the Sirens. It never needed to appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,90 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在作战指挥室中观看战场态势图时，我也注意到了此处皇家比较特殊的战区划定方法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			flashout = {
-				black = true,
-				dur = 0.5,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.5,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "战区没有依据皇家现有的地区范围来，而是以皇家历史上的七国时代版图为基础进行了重新划定。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "在提出疑惑后，光荣·META有些无奈地笑着给出了解答——“因为这样划分的话，蔷薇塔就是几乎所有战区的中心了。”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "倒也是了，蔷薇塔——整个皇家抵抗力量的核心，战区以它为中心划分理所应当。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "光荣·META就是这样一直战斗了百年，直至只剩她一人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "她是光荣，亦是皇家最后的光荣。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			say = "又过了一段时间，伊丽莎白·META一行人终于乘坐女王之光号返回了蔷薇塔。",
+			say = "While examining the battlefield map in the war room, it hit me how the Royal Navy defined its sectors in an unusual way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "伊丽莎白·META带来的情报令人不安，",
+			say = "The map didn't use the modern-day regions of the Royal Islands, but rather the ones from the Heptarchy period of its history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "满月之蕾将会绽放，展开连通无数世界的奇异点通道。",
+			say = "I asked Glorious about it, and she explained with an awkward smile: \"This way, it makes the Rose Tower the heart of all the combat sectors.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "而X的拟态物将会从天外之兽的尸体中诞生，通过这些奇异点毁灭无数世界。",
+			say = "Indeed it does. The Rose Tower is the core of this world's resistance force, so it only makes sense to divide the areas of operation around it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在这些世界中，已经确认包含有实验场β，以及狮所在的世界……",
+			say = "She has been fighting like this for a hundred years. She fought until she was the last one standing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "除此之外，还有那个拿走不准确定位仪的神秘身影和星之兽隐匿在暗处……",
+			say = "If that isn't emblematic of her name, I don't know what is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +200,35 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "可惜，因为超负荷运行能力，伊丽莎白·META正将自己封闭在列车中养伤，接下来只能靠自己了。",
+			say = "Sometime later, the Queen's Light also landed by the Rose Tower, carrying Elizabeth META.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 0.5,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "She had some rather concerning news to share.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +239,62 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "必须立刻行动起来……",
+			say = "The Buds of the Full Moon were going to bloom one day, which would open a tunnel of Singularities connecting to countless worlds.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "X's mimic beasts are born from the wreckages of extradimensionals, and they will eventually push through the Singularities and bring destruction to all those worlds.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "Two especially notable worlds are linked to those Singularities: Test site beta, and Lion's homeworld.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "However, the one who stole the inaccuracy synchronizer as well as the Star Beast have yet to show themselves.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "Since Elizabeth exhausted herself by overusing her power, she'll have to stay on the train and rest for a while.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			say = "It's all up to us now. We need to do something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,11 +307,11 @@ return {
 			bgm = "theme-glorious-meta",
 			sequence = {
 				{
-					"LD港·蔷薇塔",
+					"Port of LD - Rose Tower",
 					1
 				},
 				{
-					"作战指挥室",
+					"War Room",
 					1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "天外之兽群确实已经包围了每一处满月之蕾，就像在等待萼片展开一样……",
+			say = "The horde of extradimensionals has the Buds of the Full Moon. It's almost like they're waiting for the sepals to open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "伊丽莎白·META女士看到的景象很可能是真的……",
+			say = "It's proving rather probable that what Miss Elizabeth META said is true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没想到在天外之兽之上，还有更加邪恶的敌人……",
+			say = "I never would've thought there existed something even more terrifying than the extradimensionals...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而这些邪恶将会借助盛放的满月之蕾流向更多世界，其中还包括诸位的家园……",
+			say = "Worse yet, these foul creatures will invade many more worlds through the buds, wreaking destruction on your homes as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "没想到会以这种方式连累到诸位，真是抱歉。",
+			say = "I'm truly sorry. I did not anticipate that I would embroil you in this disaster...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "哎呀，都是盟友，说这些就见外了。",
+			say = "Do not be sorry. We are sworn allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "满月之蕾又不是无法被摧毁，既然一切都还没发生，我们及时去把连通的花蕾炸了不就是了。",
+			say = "Nobody has said the buds cannot be destroyed. We need merely destroy them all before it's too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "过去你们不炸花蕾是害怕爆炸引起的附带损伤，现在不同了，每一个花蕾反而成为了大规模杀伤敌军的利器。",
+			say = "The collateral damage that stopped you from destroying them before no longer matters. In fact, it may help to reduce the enemy's numbers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在皇家三岛周边一共有多少个满月之蕾，你能确定满月之蕾只分布在皇家三岛周边么？",
+			say = "How many Buds are there across the Royal Islands? Can we even be sure that this is the only place where they exist?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "至少在过去各大阵营彼此间还有联系的时候，满月之蕾确实只出现在皇家三岛周边。",
+			say = "Back when I still had contact with other countries, I verified that they had appeared nowhere else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "至于数量……我也不知道现在准确的数量，八至十二战区中我设置的监控站很少。",
+			say = "As for how many there are... There is no exact figure. I don't have many monitoring stations across sectors 8 through 12.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不过从已经取得的数据推测，满月之蕾这一次出现后，总数应该达到了四百以上。",
+			say = "However, based on current data, I estimate that there are somewhere over 400 of them in existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "四百以上……那看来是绝对不可能将其全部摧毁了。",
+			say = "Over 400... It'd be impossible to destroy them all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "这不是显而易见？",
+			say = "The solution is right under your nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "{playername}阁下，你难道之前在考虑将所有的花蕾都摧毁么？",
+			say = "Why must we consider destroying ALL of them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "每一个花蕾之后，毕竟都是一整个世界……",
+			say = "Because each and every one of them connects to a whole world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "但是我们的力量太弱了。",
+			say = "Regardless, our power is limited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "很明显，我们没有力量拯救所有人。",
+			say = "It's simply a fact that we cannot save everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……是啊，你说得不错。",
+			say = "...You're right. We can only do so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是不论付出任何代价，我们必须摧毁连接到我们世界的那两个满月之蕾。",
+			say = "Still, I will stop at nothing to destroy the bud that leads to my world. Whatever it takes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "伊丽莎白·META阁下，你还记得那两个花蕾的位置么？",
+			say = "Elizabeth META, can you locate those two buds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这两处，本王自然是印象深刻。",
+			say = "Of course. We remember them vividly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王在回来之后，就在整理坐标……",
+			say = "We sorted the coordinates after we got back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "咳，已经处理好了……这就发给你们……",
+			say = "*cough cough*... They've been processed. Sending them to you now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,11 +665,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "已经收到了，伊丽莎白·META女士。",
+			say = "Coordinates received, Miss Elizabeth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……一处位于威尔士战区的西南部，格拉摩根谷近海。另一处位于威塞克斯战区怀特岛的南部。",
+			say = "Let's see... One is in the southwest of Wales, by the waters of the Vale of Glamorgan. The other is on the Isle of Wight in the Wessex sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "好像都是诸位来的时候所在的方位呢。",
+			say = "It's close to the location where you first arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（格拉摩根谷地区么……构建者正好在那里进行了诸多建设工程。）",
+			say = "(The Vale of Glamorgan – that's where Compiler erected all those structures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（呼……看来连通实验场β的满月之蕾不用担心了。）",
+			say = "(Then I don't need to worry THAT much about the bud there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,7 +750,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "隐患越早解决越好，我们兵分两路去处理吧。",
+			say = "The sooner we deal with the risk, the better. Let's split up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "再同意不过了~那就我们各自处理各自的？",
+			say = "I concur. We should each dispose of the bud connected to our own world, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等，这样分配的话两边战斗力差距过大，你那边的战况会很艰难。",
+			say = "No, because it'll make one of our teams significantly weaker. You'll struggle, Lion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "嗯，我也是这么想的。",
+			say = "Yes. You are correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "啊哈哈……所以说，还是得向你们借点人啊。",
+			say = "Ahaha... Then you'll have to share some of your forces with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白·META的人跟你，本王的人跟指挥官，我们这一路再加上构建者足够了。",
+			say = "Take my META counterpart's subordinates with you. I, my own subordinates, and Compiler will accompany my servant here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不妥……伊丽莎白，你带人跟狮阁下一同行动，我带人跟指挥官走吧。",
+			say = "No... Your group shall go with Lion, whilst we will come with the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "女王之光号列车只有本王能驾驶，而我们彼此分开的话，可选的战略就更多了……",
+			say = "We are the only one able to pilot the Queen's Light... Going separately from us expands your selection of tactics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说得不错，是本王疏忽了。",
+			say = "You're right. I overlooked that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那指挥官，你跟随伊丽莎白·META一同行动，本王去支援狮阁下如何？",
+			say = "Alright – servant, you'll go with my META counterpart. I will bring my followers along to support Lion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题，这样两边战力就平衡多了。",
+			say = "Good. Now we have two balanced teams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "蔷薇塔也要加强一下留守力量，我担心星之兽发动突袭。",
+			say = "Ideally, we should bolster the Rose Tower's defenses as well. For all we know, the Star Beast might show up out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "猎人，你留下吧。",
+			say = "Hunter, you'll stay behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没问题，光荣女士，有需要帮忙的地方请尽管开口。",
+			say = "Roger. Glorious, tell me if I can help with anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "非常感谢。",
+			say = "Much obliged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "就这样，两支部队分别搭乘女王之光号列车和辉翼太阳船离开了蔷薇塔。",
+			say = "And so, we split into two groups and boarded the Queen's Light and the Mesektet, respectively, and departed from the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "伊丽莎白、贝尔法斯特、前卫、声望·META与反击·META支援狮。",
+			say = "Elizabeth, Belfast, Vanguard, Renown META, and Repulse META will provide support for Lion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,20 +1004,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "伊丽莎白·META则带领谢菲尔德·META、黑暗界·META、格伦威尔·META与我、构建者和D小姐同行。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_306",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（指挥META与塞壬的联合舰队，这种经历还是第一次……）",
+			say = "Meanwhile, Elizabeth META will be accompanied by her subordinates along with Miss D, Compiler, and me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1017,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（当年的理事会，在面对X的时候，出动的就是这样的阵容么……）",
+			say = "(This will be my first time commanding both Sirens and METAs at the same time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1030,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（也好……就让我来正面领教一下拟态物的实力吧。）",
+			say = "(That sure sounds like the kind of lineup the United Council fought X with.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_306",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Alright. Time to take these mimic entities head on!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

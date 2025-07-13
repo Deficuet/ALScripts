@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Thinking",
-			say = "港区·演出海域",
+			say = "Port - Concert Sea Area",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能听见我的声音吗…？",
+			say = "Can you hear me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 10700050,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "没问题！听得很清楚！",
+			say = "We're good! Loud and clear!",
 			dir = 1,
 			hidePaintEquip = true,
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据{namecode:98}的情报，前方就是出现能量反应的异常海域。大家小心。",
+			say = "According to Akashi, there's an abnormal energy reading in the waters ahead of you, so be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "嗯！你们也要小心啊，标枪。",
+			say = "Got it! You too, Javelin, keep your eyes peeled!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们会在这艘船上守望着你们的……！",
+			say = "We'll help keep watch from aboard this ship!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "护卫任务就交给我吧！…话说，这里的量产型都好奇怪…",
+			say = "Sure, it's our job to escort you there safely! By the way, these mass-produced ships look a little weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说的量产型，是指我们正在乘着的船吗？",
+			say = "By mass-produced, do you mean the ships we're riding on right now?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -161,7 +161,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是指…某种程度上可自动运转，“舰船”也能操纵的“一般船只”…是吧？",
+			say = "They're basically ordinary vessels that don't need to be directly manned, right?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "嗯，其实在演出海域发生异常前，出现了一些特殊涂装的量产型。",
+			say = "Correct. As a matter of fact, shortly before the anomaly, we spotted mass-produced ships with logos of your production company.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "虽然没有直接袭击过来，但时不时会挡住航线，有点伤脑筋…",
+			say = "While they didn't attack us, I knew their presence couldn't bode well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			actor = 101176,
 			dir = 1,
-			say = "这样下去没法顺利前行…",
+			say = "As long as they're in the way, we won't be able to get through...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有没有什么应对的策略呢…？",
+			say = "Do we have any countermeasures to get them to move out of the way?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "好像没有什么 特别好的办法…元凶恐怕正是那个奇怪的能量反应…",
+			say = "Not yet, but... The strange energy reaction here probably is the root cause.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "为了让各位偶像能回到原来的世界，也为了让这片海域恢复正常，我们会努力战斗的！",
+			say = "We'll fight to make sure you girls can go back home, as well as to secure the safety of these waters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 201216,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以大家就放心在远处看着舞台…哇哇？！",
+			say = "So you can rest easy and watch our performance from af— ...Hwuh?!",
 			action = {
 				{
 					type = "shake",
@@ -301,7 +301,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪小姐，发生什么事了？",
+			say = "Javelin, what's happening?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "没什么！只是眼前突然出现了一座大楼……",
+			say = "N-nothing major! I was just surprised when a building suddenly popped up in front of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			actor = 101176,
 			dir = 1,
-			say = "…？不是全息影像吗…？",
+			say = "Huh...? Isn't that a hologram...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "对、对哦！不是真的大楼呢！呼…吓了一跳……",
+			say = "Th-that's right! It might well be! Phew... Scared the heck outta me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 10700010,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "哇……好大的舞台……！",
+			say = "Look, Chihaya! It's the stage!",
 			dir = 1,
 			hidePaintEquip = true,
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "那里就是这片演出海域的舞台了。",
+			say = "Yeah, that's the stage that this entire area is built around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，这次出现的是梓小姐和我的冒牌货？！",
+			say = "Woah, look over there! Are those clones of me and Azusa?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像一直没动呢…可以再靠近点看看吗？",
+			say = "They don't seem to be moving... Is it okay for us to get a little closer?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -452,7 +452,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "春香…小心点。虽然有各位舰船保护着我们，不过…",
+			say = "...Be careful, Haruka. Even though the shipgirls are protecting us...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -466,7 +466,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——！！",
+			say = "―――！！",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -498,7 +498,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能量反应激增！大家快离开这里——",
+			say = "The energy readings are shooting through the roof! Everyone, get out of there, hurry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "量、量产型都往这里冲过来了？！",
+			say = "M-mass produced ships are swarming us all of a sudden?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 401236,
 			blackbg = true,
 			nameColor = "#a9f548",
-			say = "保护好春香小姐她们！大家准备战斗！",
+			say = "Protect our guests at all costs! Everyone, prepare for battle!",
 			effects = {
 				{
 					active = true,

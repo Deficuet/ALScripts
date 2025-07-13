@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>开辟菜地的计划！</size>",
+					"Uncharted Summer\n\n<size=45>We Want Fresh Vegetables</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 502020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……果然味道还是差了一点……",
+			say = "Hmm... The taste is a bit of a letdown.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算用上了低温冷柜，运到岛上的蔬菜还是会缺失一些风味……",
+			say = "The problem with shipping vegetables to the island is that they lose some of their flavor inside the freezer containers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果没有新鲜蔬菜的话，就吃不到姐姐做的新鲜什锦包子了！",
+			say = "Then we have to find fresh veggies, 'cause I need your tasty veggie baozis to live!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然咯！所以，我们才要来这里调查调查嘛~",
+			say = "You won't die without them... Anyway, fresh veggies are precisely what we're here to look for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在据点西北方的某片平整区域中，碰到了正在商量着什么的平海和宁海。",
+			say = "In a flat area to the northwest of the camp, I bump into Ning Hai and Ping Hai having a discussion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是指挥官！",
+			say = "Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官你来得正好，我们刚刚好有了一个想法——",
+			say = "Perfect timing, Commander! See, we just came up with a good idea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就是——在这里开辟一片菜地！",
+			say = "Namely, setting up a vegetable garden right here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有了菜地，就能让大家天天吃上新鲜蔬菜了！",
+			say = "If we grow vegetables on the island, we can make fresh meals for everyone every day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~指挥官觉得怎么样？",
+			say = "Mhm! What do you think, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这里地面很平整，土质不错，距离水源也很近。",
+			say = "\"The soil is high-quality and workable. Not only that, but it's also close to a water source.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "如果要开辟为菜地的话，也许不失为一个好选择。",
+			say = "\"This looks like a solid place for a vegetable garden, alright.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那指挥官就算同意咯~",
+			say = "So we have your permission? Perfect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "平海要吃姐姐做的什锦包子！",
+			say = "I need some veggie baozis now! I don't have much longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再怎么说也太快了！",
+			say = "I can't make any just yet! Hang in there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首先要从平整土地开始，然后……",
+			say = "First, we're going to have to level the ground out. After that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后要种胡萝卜、生菜、油麦菜、莴笋、大白菜……还要西蓝花！",
+			say = "We plant carrots, lettuce, celtuce, you mai cai... and broccoli!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好好~等把田地弄好之后，我就拜托{namecode:29}从港区把种子送过来。",
+			say = "Precisely. Once the groundwork has been laid, I'll tell Chen Hai to send us some seeds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好耶~！",
+			say = "Woohoo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看来之后无人岛上的菜单，又要变得更丰富了——",
+			say = "It sounds like the island's menu is about to get even better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……来了！今天……和安克雷奇……一起玩……两个人的……游戏！",
+			say = "{dorm3d} is here...! Today... Anchorage and {dorm3d}... play together!",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_hello2",
 			typewriter = {
 				speed = 0.05,

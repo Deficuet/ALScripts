@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>七　谈心小屋，今日休假!</size>",
+					"Consultation Corner's Day Off\n\n<size=45>7 Brem's Big Rest</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "电影放映至最后，黑色的屏幕上滚动着工作人员列表。",
+			say = "The credits roll onscreen.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "布莱默顿仍没醒来。",
+			say = "But Bremerton still sleeps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（先把她抱到床上安置好，我再回去吧。）",
+			say = "(I think I'll carry her off to bed and head home.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "轻手轻脚地将布莱默顿抱起，可即便动作再小，她还是迷迷糊糊地睁开了双眼。",
+			say = "When I gently pick her up, she sleepily opens her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "哈啊——嗯？指挥官，我睡着了……？",
+			say = "Yaaawn... Hmm? Commander, did I fall asleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "怎么不叫醒我，难得我们两个人独处欸——！大好的时光怎么能这样被浪费！",
+			say = "Aww, why didn't you wake me up? We finally got some alone time! Ugh, I slept away all our time together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看你睡得很香，我就没有叫醒你。",
+			say = "You looked so peaceful. I didn't want to stop that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然你醒了，我就把你放下了——",
+			say = "Anyway, if you're awake, I'll put you down–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "等等~！等下——",
+			say = "W-wait, wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "布莱默顿从口袋中翻出手机，接着一手搂住了我的脖子，一手抬起手机。",
+			say = "She takes her phone out of her pocket, wraps one arm back around my neck, and raises her phone with the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "她仰起脸凑近，温热而甜美的气息洒落在脸上，随后一个轻柔的吻也跟着落下。",
+			say = "Then, she leans toward me. Following her warm breath, her lips touch my cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "咔嚓——手机拍下了这一刻。",
+			say = "*snap!* She takes a photo of the kiss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "哼哼~拍照留念结束~保存保存~",
+			say = "Heheh♪ Commemorative photo shoot complete, aaand... saved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "我将布莱默顿放下，看着她点击着手机屏幕。",
+			say = "I put her down and take a peek at her phone's screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来，你今天好像一直没怎么看手机？",
+			say = "Come to think of it, you didn't look at your phone much today, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "哦~那当然是——",
+			say = "Well, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "布莱默顿将手机递到了我面前，她最新的一条动态上写着——",
+			say = "The screen displays the most recent Juustagram posts. The newest one reads...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "谈心小屋，今日休假！",
+			say = "The consultation office is closed for today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种情况下怎么可以让手机破坏氛围呢~！毕竟指挥官才是最重要的嘛！",
+			say = "I wouldn't want to ruin the mood you so carefully established. You're the most important thing to me in the world, anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "少女一边说着，一边点开了手机的设置界面。",
+			say = "With that, she opens her phone settings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~这张照片看起来很亲密呢~！把它设置成屏保好了~！",
+			say = "Yeah, I love how close we are in this pic! I'm putting that as my lock screen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "此时，电影放映结束，电视机短暂地进入了黑屏模式，房间陷入了黑暗。",
+			say = "The movie ends, the TV enters power-saving mode, and the room gets darker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我去开灯。",
+			say = "I'll get the lights...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "刚起身，少女柔软温热的身体便贴了上来，从背后紧紧地抱住了我。",
+			say = "When I try to stand up, though, she pulls me into a soft, yet tight embrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "嘿嘿~这样子心与心的距离也拉得更近啦~",
+			say = "Hehe. Now we're even closer than before♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，最懂人心的咨询师~再多听听吧，我内心的声音♡~",
+			say = "You understand me better than anyone... So listen to my heart a little more, okay?♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

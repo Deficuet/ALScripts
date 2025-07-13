@@ -57,7 +57,6 @@ function var_0_0.OnFirstFlush(arg_5_0)
 		end
 	end, SFX_PANEL)
 	var_0_0.SetEnterTag(arg_5_0.surveyID)
-	arg_5_0:emit(ActivityMainScene.FLUSH_TABS)
 end
 
 return var_0_0

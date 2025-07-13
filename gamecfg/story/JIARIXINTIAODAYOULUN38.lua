@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>绚烂夜梦</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>38 The Cat in the Magic Hat</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "在邮轮的露天水吧小酌了几杯后，感受着海风的轻抚。",
+			say = "During some light drinking at the cruise ship bar, I enjoy the gentle sea breeze.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "突然，一群白鸽飞到了我的眼前。",
+			say = "Suddenly, a flock of white pigeons flies my way and lands right in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？哪来的鸽子？）",
+			say = "(Hm? Why are there pigeons out on the sea?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "就在疑惑这些鸽子是从何而来时，它们却在一瞬间，“砰”的一声变成了烟雾。",
+			say = "While I wonder where they came from, they suddenly turn to smoke with a bang.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "一道熟悉的身影从烟雾中出现，随后立刻扑了过来——",
+			say = "A girl's silhouette emerges – and then lunges at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "亲～爱～的～！你的专属魔术师——柴郡来啦！嘻嘻，蹭蹭～",
+			say = "Owneeer! Your personal magician, Cheshire, has arrived! Heehee, cuddles~♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "柴郡这样的出场方式很厉害吧～！",
+			say = "Wasn't my entrance just awesome?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,11 +137,11 @@ return {
 			},
 			options = {
 				{
-					content = "很厉害！",
+					content = "It was great!",
 					flag = 1
 				},
 				{
-					content = "有点像忍者！",
+					content = "That was almost ninja-like.",
 					flag = 2
 				}
 			}
@@ -156,7 +156,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过要学会这些也不容易吧？",
+			say = "It must've taken a lot of effort to put that together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻……毕竟是为了亲爱的，所以柴郡学什么都很有动力哦！",
+			say = "Heehee... For YOU, I'd learn how to do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟相比魔术师，忍者更喜欢从烟雾里扑出来！",
+			say = "Ninjas tend to appear from smokescreens, right? More than magicians, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯～那柴郡下次就试试用忍者的感觉出现在亲爱的面前好了～",
+			say = "Yeah, sure! Then next time, I'll make my big entrance like a ninja for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "不过柴郡为了给亲爱的一个惊喜，可是很辛苦地忍耐到现在哦。",
+			say = "You don't know how long I've been holding that in, waiting to surprise you with it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是故意躲起来的？难怪我今天一直都没找到你……",
+			say = "Is that why I didn't see you all day today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "嘿嘿，看到亲爱的今天一直在找柴郡的样子，柴郡可是很感动的哦。",
+			say = "Heheh♡ You were looking for me the whole day, weren't you? I'm so moved~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "不过……为了等待合适的时机，柴郡可是拼命忍住了想要找亲爱的蹭蹭抱抱的冲动。",
+			say = "But when you're making an entrance, timing is everything! It took all my willpower to stop myself from jumping out and cuddling you on the spot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "合适的时机？",
+			say = "Timing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "亲爱的等一下就知道了。",
+			say = "Heheh, you'll understand soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "总之，亲爱的先陪我玩个游戏吧？让你见识一下你的专属魔术师的本领～",
+			say = "Anyway, Owner, let's play a game! I want you to see your dearest's magician's best side♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……具体要怎么做？",
+			say = "Sure. What should I do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得到肯定的答复之后，柴郡又往我的身边蹭了蹭。",
+			say = "As soon as I respond, Cheshire sidles closer to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本就离得极近的距离又因为她的动作变得更近。",
+			say = "She was close already before, but she's basically glued to me now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "首先哦……亲爱的要先从这里抽一张牌~",
+			say = "Fiiirst... Pick a card, Owner. Any card~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她语调轻快，不知道从哪里变出了一副扑克拿到了我面前。",
+			say = "Cheshire whispers into my ear and produces a deck of cards out of seemingly nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从中随便抽出了一张之后——",
+			say = "I obediently draw a card.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "好了~那么接下来请亲爱的把这张牌放到柴郡的帽子里吧～",
+			say = "Good~ Now, put the card in my hat, if you'd please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……？",
+			say = "Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通常这种情况下，不是应该让我把牌藏起来，然后猜我抽出的牌的数字么……？",
+			say = "You're not going to have me hide the card so you can guess which one it is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "亲爱的也说了那是通常情况下嘛。",
+			say = "Owner, everyone and their mother can do that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "柴郡要变给亲爱的魔术，当然和其它的不一样啦。",
+			say = "I'm not like other magicians♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女摘下了她头上的魔术礼帽，随即抓住了我拿着扑克牌的那只手。",
+			say = "She takes off her silk hat and smoothly takes my card-bearing hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海风带着丝丝的凉意，让她指尖的温度也有些低。",
+			say = "Her fingertips are a little chilly, perhaps from the cool sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "嘿嘿……很好很好~就像这样，亲爱的快点放进去吧。",
+			say = "Heheh... Good! Now, Owner, put the card in my hat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在她的“牵引”下，我将扑克牌放了进去。随后……蹦出了一只兔子。",
+			say = "Cheshire's hand guides mine to the hat, where I drop the playing card. When I do, a rabbit jumps out from inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "兔子……？",
+			say = "Where'd that rabbit come from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "还没有结束哦，亲爱的耐心看嘛～",
+			say = "I'm not done yet♪ Watch closely, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就在兔子和之前的那群鸽子一样，“砰”的一声化作烟雾的时候——",
+			say = "With a bang, the rabbit turns into a puff of smoke like before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "夜空中突然绽放出了璀璨的烟花。",
+			say = "Following that, there's a light in the night sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸽子……兔子……我抽到的那张扑克牌的图案。",
+			say = "A pigeon... A rabbit... And the suit of the card I pulled!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "嘿嘿～这才是柴郡要变给亲爱的看的魔术哦！",
+			say = "Heheh~ This is the magic I really wanted you to see, Owner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好厉害……这是怎么做到的？",
+			say = "Incredible... How did you do this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "这就是所谓魔术的奥秘啦。",
+			say = "A good magician never reveals her secrets!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "亲爱的喜欢吗？",
+			say = "Do you like it, Owner?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,11 +754,11 @@ return {
 			},
 			options = {
 				{
-					content = "喜欢！",
+					content = "I do.",
 					flag = 1
 				},
 				{
-					content = "非常喜欢！！",
+					content = "I LOVE it!",
 					flag = 2
 				}
 			}
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "那柴郡的努力就没有白费呢～",
+			say = "Then my efforts weren't in vain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "这个魔术是柴郡为亲爱的准备的启航的礼物，也可以说是惊喜。",
+			say = "A surprise for you to celebrate your cruise trip...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "大海和烟花可是很配哦~就像柴郡和亲爱的一样！",
+			say = "Fireworks and the sea make for a good pair. Just like the two of us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -826,7 +826,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "夜空中绽放的烟花，也适时地变成了柴郡的模样。",
+			say = "This time, the fireworks up above burst in the shape of Cheshire herself with perfect timing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "嘿嘿，本来应该只有到扑克牌图案这个环节的，但是柴郡还是把自己也加进去了～",
+			say = "Heheh, my plan was originally to stop with the card suit, but I just had to put myself into the performance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "这样就可以有很多很多个柴郡为亲爱的送上启航的祝福了哦！",
+			say = "Now there are more Cheshires to celebrate with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烟花的绚烂在夜空中熄灭，却又在柴郡的眼眸中亮起。",
+			say = "The fireworks faded in the night sky, but the light in Cheshire's eyes replaced them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "希望亲爱的能有一趟开心的旅程，能和柴郡一起……",
+			say = "May you have a wonderful cruise, Owner. With me, I hope...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "度过一个美好、难忘，又充满惊喜的假日……",
+			say = "Have a wonderful, unforgettable vacation full of surprises...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "现在，亲爱的是不是应该给努力的柴郡一些回礼呀？",
+			say = "Heheh, Owner♡ Don't you think I deserve a reward for all I did?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 900433,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你想要什么回礼？",
+			say = "What would you like?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "让柴郡想想~是和亲爱的一起看星星呢？",
+			say = "Hmm... Let me think about it, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "还是一起吹海风呢~还是一起吃餐厅里好吃的料理呢~",
+			say = "Stargazing with you, feeling the sea breeze, eating good food at the restaurant together...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900433,
-			say = "不对不对……这些都太普通了，柴郡要好好想一想。",
+			say = "Nuh-uh! Those are all too normal! Let me really, REALLY think about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海风将她的声音送远，吹散。",
+			say = "Her voice, and her wishes, are carried far off by the sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "直至融入梦中——",
+			say = "Far into the realm of dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

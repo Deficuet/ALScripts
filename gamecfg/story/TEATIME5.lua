@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>五 午睡与尾行</size>",
+					"Lively Afternoon Tea Party V\n\n<size=45>「Afternoon Nap Time」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说回来，各位平时都是如何度过下午的呢？",
+			say = "Say, how do you all spend your afternoon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "当然是打电动——",
+			say = "Play video——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姐姐如果一直呆在房间里，不到港区露面，会慢慢在大家的记忆中消失，最终连图鉴都褪色成“未获得”……",
+			say = "Sister, if you're always staying in your room and not showing your face in port, everyone will start to forget you. In the end, even the color of your portrait in the \"Archives menu\" will start to fade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这就是所谓的“社会性死亡”吗……有、有点可怕呢……",
+			say = "Is this the so-called “social death”? ...so, so scary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "休息的时候，还是和朋友在一起比较好喔",
+			say = "It’s nice to be with friends whenever you’re on break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此，没、没关系，{namecode:13}也是有朋友的！",
+			say = "Is that so, no, no matter, {namecode:13} is also my friend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗？",
+			say = "Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然！{namecode:37}、{namecode:24}、{namecode:15}都是我的好朋友",
+			say = "Of course! {namecode:37}, {namecode:24}, {namecode:15} are all my friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "如果我没有记错，你们都是午睡部的成员吧",
+			say = "If I remember correctly, aren't you all members of the “Afternoon Nap” club.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "WUSHUI社？",
+			say = "“Afternoon Nap” club?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那、那个……就是在一天中阳光最强烈的时候，大家一起手牵着手闭上眼“观想”光辉的团体！",
+			say = "Well, well... in the “Afternoon Nap” club we all gather, hold hands and close our eyes. We'll nap inside during the brightest part of the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来好像很棒呢，下次举行这个活动的时候，我也能去体验一下吗？",
+			say = "That sounds interesting, when’s the next time you all are doing this again? Can I also join you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actorName = "？？？",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然，陛下在这里！",
+			say = "I knew it, there you are, your Majesty!",
 			withoutPainting = true,
 			flashout = {
 				black = true,
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟？你怎么才来？",
+			say = "Ark Royal? Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "因为我的下午……嗯，非常的忙碌！",
+			say = "Because my afternoon was... um, very busy!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该不会你又……",
+			say = "Don’t tell me you… again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正午过后的太阳微微西斜，结束午休的驱逐舰们缓缓排成行列，沿着漫长的航路输送物资——这种危险的远洋行动必须得有人护卫才行！作为拥有最优秀的侦察与远程打击能力的新锐航空母舰，方舟我当然义不容辞！",
+			say = "During noon time, the sunlight was shining slightly westward. Those cute destroyer girls were all lining up and transporting supplies along the routes—— These dangerous operations must have extra protection to guard the cargo! As a new aircraft carrier with the best reconnaissance and long-range strike capabilities, I, Ark Royal, am compelled to go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "也就是说，你跟踪了她们？",
+			say = "In other words, you followed them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然不是！我只是担心敌对势力的袭击！",
+			say = "Of course not! I was merely worried about attacks from hostile forces!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "输送物资的航路应该都彻底完成扫荡了吧",
+			say = "Isn’t the transport route completely cleared of hostiles by now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即使这样也不能完全排除死灰复燃的可能性！而且、而且，驱逐舰们万一迷路了怎么办！万一贪玩错过了回家的时间怎么办！万一遇到了台风怎么办！在漆黑如墨的深沉大洋上，她们惟一能依赖的只有我的剑鱼！",
+			say = "Even so, we musn’t rule out the possibility of their return! And, and... What if those destroyers get lost! What if they lose track of the time while playing and forgot to come home, or what if they encounter a typhoon! Out there in the depths of the ocean, the only thing they can rely on is my swordfishes！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“谢、谢谢方舟救了我，如果没有你咱真的不知道怎么办才好……今后咱能管你叫姐姐吗？”“方舟姐姐，我好冷……”“谢谢方舟姐姐，那个、那个，人家最喜欢方舟姐姐啦！”",
+			say = "“Thank you, thank you, Ark Royal, for saving me, without you I just wouldn't know what to do… can we call you sister from this day forward?”...“Sister Ark Royal, I'm cold…”, ...“Thank you, sister Ark Royal, umm, umm, I like you the most!”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿～嘿～嘿",
+			say = "Heh~heh~heh",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "方舟，请醒一醒",
+			say = "Ark Royal, please wake up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，你怎么来参加茶会了？",
+			say = "That being the case, why are you here at the tea party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为我听说陛下也来了，只是没想到，贝尔法斯特你也在这里……",
+			say = "Because I heard that your Majesty was here, although I did not anticipate that you would be here Belfast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然，你还是离陛下远一点比较好！",
+			say = "In all honesty, it’s better if you were a bit further away from her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（火大）你们两人都听好了，本王可不是驱逐舰！",
+			say = "(Angry) The both of you better listen carefully to what I'm about to say. I am not a destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
+			say = "At the same time, {namecode:11}...",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			say = "【南纬2°西经139°】",
+			say = "[South Latitude 2° West Longitude 139°]",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -525,7 +525,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "还、还没有到吗……我已经快虚脱了……{namecode:12}一直都生活在如此严苛的环境中吗……{namecode:12}，姐姐快到了！",
+			say = "N-not there yet… I'm already so exhausted… {namecode:12} is constantly living in such harsh environments... {namecode:12}, I'll be there soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

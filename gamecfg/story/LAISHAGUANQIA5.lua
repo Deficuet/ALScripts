@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			stopbgm = true,
-			say = "遗迹群岛·起始之地",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "莱莎小姐，你在看什么呢？找到什么有趣的东西了么？",
+			say = "What is it, Miss Ryza? Have you found something noteworthy?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -59,7 +59,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………这株植物，你觉得怎么样？",
+			say = "This plant caught my eye. What do you think about it?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -77,7 +77,7 @@ return {
 			actor = 207050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这棵杂草么……？",
+			say = "I mean... it looks like a bunch of weeds. What about it?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -95,7 +95,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……应该没错，收集上吧，这个是可以用的素材！",
+			say = "Hmm... That sounds just like what I need. Let's take it with us!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -113,7 +113,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎~我在这里发现了一片只剩下柱子的遗迹！",
+			say = "Ryza! There are some odd pillars over here!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -148,7 +148,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇哦！难道是遗迹柱嘛？看我用手杖把它们全部打碎掉！",
+			say = "Whoa, looks like the ruins of a building. I'll see if I can break 'em with my staff.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -176,7 +176,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有那边的碎石也是，能拜托布里斯托尔帮我收集一下么，我想都是之后要用到的素材哦~",
+			say = "Hey, Bristol! Mind gathering that rubble next to you? I could probably use that stuff as material.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "这些石头……难道蕴含有什么奇特的魔力么？！莫非是什么超稀有的矿石？！",
+			say = "But it's just a pile of rocks... Wait, let me guess – they're infused with magic? Wait, no, they probably contain some extremely rare ore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……那些只是普通的石头而已。",
+			say = "Uhh... Actually, they're just normal rocks.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼哼，我已经完全理解了！看啊看啊，我刚刚抓到的这只蜘蛛也是素材吧！",
+			say = "Heheheh... I've totally figured out how it works! Voila! I caught this spider. You can use it as an ingredient, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虫、虫子……？请不要拿着它靠近我，谢谢！",
+			say = "Eek, a bug! P-please don't bring it near me!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊哈哈……帕蒂还是一样不擅长应对虫子呢。",
+			say = "Ahah... Yup, Patty's still scared of bugs.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -310,7 +310,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，蜘蛛是素材！而且……连下面的蜘蛛网也是素材，一起收集上吧！",
+			say = "You're probably right about it being a usable material though. Spiderwebs can be pretty useful as well, so try to grab a handful of those too.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -328,7 +328,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这片岛屿周围的水，似乎是淡水呢，直接饮用也没问题。",
+			say = "Seems like this island is sitting in freshwater. You can directly drink the water.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哇哦，真的欸！明明看上去像一望无际的海面，但居然是淡水。",
+			say = "Woah, you're right! I assumed we were in the middle of the ocean, so I never even bothered to try!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "这么说……我们难道其实并不是在镜面海域，而是身处于一片“镜面湖泊”当中么？！",
+			say = "I suppose that means we're not in a Mirror Sea... but rather, a Mirror Lake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "这算什么自造词……单纯只是塞壬将这片镜面海域中的水的成分设定为淡水了吧，虽然不清楚这样做的目的是什么……",
+			say = "(Wow, she's really jumping to conclusions here! Obviously, the Sirens just turned salt water into fresh water. I don't know WHY they'd do that, but...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这样一来补充淡水就很方便了！不但能解决喝水的问题，而且水是素材！",
+			say = "That means getting drinking water won't be a problem! Plus, I can even use it to synthesize stuff.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "连水也是炼金素材么……？",
+			say = "Even something as plain as water is useful in alchemy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错哦，似乎还是一种用途很广泛的素材。",
+			say = "So it seems. It has quite a number of uses, too.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -481,7 +481,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我一直坚持水这种素材可以直接从店里买而不是从野外千里迢迢收集回去就是了……",
+			say = "Normally, there's no need to collect water by hand when you can buy it from a vendor.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然也能在店里买，但是在各种地方发掘各种素材多有意思啊~啊！等一会调合一根鱼竿出来之后就能来这里钓鱼了！钓起来的鱼既能作为食材，也是有用的炼金术材料哦！",
+			say = "Buying things IS more convenient, but nothing beats exploring new places and searching for your own materials. Oh, also, we'll be able to catch fish if I can make myself a fishing rod! Then we'll have something to eat, as well as another material to use for alchemy!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -513,7 +513,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "一段时间后，收集了大量炼金素材的众人回到石碑下，屏气凝神地观察着将素材投入大锅中搅拌的莱莎。",
+			say = "Later, once the girls had gathered plenty of ingredients, they went back to the stone monument. They sat and caught their breaths while Ryza started adding materials to her cauldron.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "♪~♪~就这样搅拌~搅拌~搅拌~",
+			say = "There we go! Now we mix it all together~♪",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -561,7 +561,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里收集到的素材品质都很不得了，一会应该能诞生出非常厉害的东西吧~",
+			say = "Hehe, I can just tell how high-quality the ingredients we gathered are, so what comes out at the end is sure to be ridiculously useful!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -579,7 +579,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~？这个感觉很好！再搅拌一下————",
+			say = "...Okay, this is coming together nicely. Let me stir one more time...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -596,7 +596,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "高品质的中和剂就完成了——！",
+			say = "Voila! I've made a high-quality neutralizer!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "获得道具：「中和剂·红」",
+			say = "Item obtained: Red Neutralizer",
 			icon = {
 				scale = 1.5,
 				image = "Props/ryza_item_22-1",
@@ -633,7 +633,7 @@ return {
 			actor = 207050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这就是炼金术。明明投入的是完全不相干的材料，为什么能变成这种东西呢？",
+			say = "This is how alchemy works? How did you manage to create that from an assortment of completely different things?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "毫无疑问……这是真正的未知，是跨越次元而来的奇迹之术！",
+			say = "Whoooa! Now THIS is something I've never seen before! A magic craft from another dimension!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不光是奇怪的液体……就连外面的玻璃瓶也一同作为整体诞生了……这可真是，令人震惊！",
+			say = "That weird-looking liquid even came out of the cauldron pre-bottled... That's just wack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——咔嚓——珍贵照片“正在进行炼金操作的炼金术士”拍摄完毕！回头一定要让达芬奇和托里拆利也看一看！",
+			say = "And a photo op! I've got to immortalize this miraculous moment of actual alchemy being performed! Teach and Torricelli are gonna want to see this later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来 ，刚才科洛蒂娅找到的“舰装设计配方”……",
+			say = "So, uh, I was thinking about this \"rigging\" recipe Klaudia found while exploring...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这大概就是石碑里说的新的力量了吧……等到完成之后，也许我们就能和你们一样在海面上战斗了！",
+			say = "I'm pretty sure this is one of those power-granting recipes the monument talked about. The item it synthesizes should make us able to fight alongside the rest of you.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -740,7 +740,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的么！？我能派上用场真是太好了！",
+			say = "Really?! I'm glad I was able to help.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "莱莎制作的舰装究竟会变成什么样子呢，{namecode:18}……十分好奇！",
+			say = "Oh boy! I'm extremely curious to see what kind of rigging you'll synthesize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "如果依靠炼金术就能制作出舰装，那可是超级无敌了不起的大发现啊！",
+			say = "Moreover, it'll be a groundbreaking discovery if you're able to create a rigging using alchemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "……咳，抱歉在这个时候打扰大家的兴致。不过你们不觉得这一切太巧了么……",
+			say = "Ahem. I hate to rain on your parade, but doesn't this entire thing seem a bit TOO convenient to anyone else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "会炼金术，就刚好发现了能够施展炼金术的大锅。需要回家，就发现了记载着回家方法的石碑。",
+			say = "There so happens to be a cauldron fit for alchemy, a stone monument telling us what to do to get back home, and that's only the start of it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "还有随处可见的素材，有恰好放在一旁的钥匙，甚至连舰装的设计图都有……",
+			say = "Then all the necessary materials are just lying around, same with the keys we need, and to top it all off, a recipe to make a rigging from scratch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "……虽然我确实不理解炼金术，但是舰装绝对不是随随便便就能制作出来的东西。",
+			say = "That recipe is ESPECIALLY suspicious! We found it and the list of required ingredients, written in all capital letters, inside a box!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个图纸，还有与它一同放在箱子里用大字写着“舰装炼成必备物资”的东西……包括莱莎你现在使用的这口随便找来的大锅————",
+			say = "Granted, I don't understand how alchemy works, but I seriously doubt it can simply poof a rigging into existence. Even if it can, can we really trust this cauldron to work as Ryza expects?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "都很可疑！绝对都是塞壬故意留下来的啊！",
+			say = "In short, my point is this – the Sirens obviously left all this stuff for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -916,7 +916,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哇啊……这些都是塞壬故意留下来的么？那它们也太好心了……？",
+			say = "Oh goodness... The Sirens did it? ...I did not realize how charitable they were this whole time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,7 +934,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "不不不……说明它们肯定有阴谋吧……！",
+			say = "That's NOT the conclusion you're supposed to draw. However you cut it, this is clearly a trap!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,7 +951,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然会是这样么？！可是{namecode:175}小姐你看，舰装的调合已经完成了哦……对不起！",
+			say = "Is it? Well, uh... Don't be mad, Suruga, but I just synthesized whatever this \"rigging\" thing is!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -977,7 +977,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			side = 2,
-			say = "伴随着调合的完成，炼金锅中出现了一阵耀眼的光芒。光芒散去后，一身炼金术士风格的舰装出现在了莱莎身上。",
+			say = "Right as Ryza finished speaking, the cauldron erupted with a blinding light. The next thing everyone knew, an alchemized rigging had appeared around Ryza.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "哇哦……这个就是舰装么！我能从中感受到不可思议的力量欸！",
+			say = "Whoa! So THIS is what a rigging is like! I feel a strange power coursing through me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "…………好吧，既然已经完成了，那就试一试好了。但是千万小心，以防意外哦！",
+			say = "...Well, what's done is done. I suppose we could conduct a performance test. Just please, try to be careful.",
 			painting = {
 				alpha = 0.3,
 				time = 1

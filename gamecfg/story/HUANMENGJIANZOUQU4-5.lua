@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到这场战斗会变得如此焦灼……量产型全军覆没，我们所有人也都挂了彩。",
+			say = "All our forces have either been neutralized or suffered heavy damage... That was a very close match.",
 			bgm = "battle-ironblood-brisk",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "如果算积分的话……唉，是铁血小胜啊。",
+			say = "What's more... it looks like they earned slightly more points than us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不愧是改造舰队。不但单艘舰船的实力远超改造前，集结成舰队更是进一步放大了优势。",
+			say = "It really is remarkable what a force multiplier a retrofit is. Especially when you concentrate them into a single team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:424}.改",
-			say = "你、你们也很厉害啦……",
+			actorName = "Leipzig (Retrofit)",
+			say = "I-I mean, you were all really strong, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,8 +80,8 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:423}.改",
-			say = "那么接下来我们就去修整一下，然后等待诸位之后的复仇战了？",
+			actorName = "Köln (Retrofit)",
+			say = "Now we should all catch our breaths for a bit. It'll be exciting to see how you fare in the rematch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯，等着我们的复仇吧~",
+			say = "Same. We'll get you next time for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "铁血舰队重整队形后，离开了这片水域。",
+			say = "The Iron Blood fleet regrouped, then pulled out of the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "呼……接下来是由我们作为进攻方的最后一场战斗。",
+			say = "Up next – Sardegna. They'll be our last opponent on the defensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "目前是战绩是1胜1负，下一场可绝对不能输啊。",
+			say = "I know there's nothing on the line, but I would like at least two victories today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "迪普莱克斯，别太有压力。这次演习目的是友好交流，不要太看重输赢。",
+			say = "Remember that this is an exhibition tournament. Winning or losing isn't what matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "况且这轮之后，我们还会作为防守方再战两场呢。",
+			say = "You don't want to shoot your bolt too soon, or the next three battles as the defenders will be a struggle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯。大家修整一下，然后我们前往撒丁帝国舰队所在的海域，迎接下一场战斗。",
+			say = "She's right. Recharge your batteries, then we'll face off against Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

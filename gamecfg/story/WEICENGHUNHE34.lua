@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "又是硝烟和死亡的味道……这里是战场。",
+			say = "A sea, dyed a dark red by flames and smoke. Tarnished by wanton violence and destruction.",
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "海面上漂浮着无数残骸，远方闪耀着无数火光。",
+			say = "Tattered flags floated in the water. Debris and bodies alike were strewn everywhere unceremoniously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是…哪里？",
+			say = "Where... am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "四面八方都在战斗着，有熟悉的身影，也有陌生的身影。",
+			say = "They are still fighting. Among them are faces that she recognizes, and some that she doesn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "白鹰、皇家、重樱、铁血…来了不少人啊。",
+			say = "...the different factions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "然而，她们战斗的对象，却不是塞壬。",
+			say = "But, it is not Sirens that they raise their weapons against.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "对面的敌人是…北方联合…？！",
+			say = "The enemy... is mass-produced ships from the Northern Parliament...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不对…虽然风格有点接近，但是不是。那些不是北方联合的舰队。",
+			say = "No... They look similar, but the weapons and design are completely different...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "娇小的身影一个接一个的倒了下去，有些挣扎着爬了起来，有些则慢慢沉入了水下。",
+			say = "One by one, the humans fall before the hands of the ships. They kneel. They sink. Into nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…得赶快去帮忙才行！",
+			say = "I must help them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,24 +185,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "可是身体却完全动不了，仿佛从来就不属于自己一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_cccp_7",
-			actor = 107060,
-			dir = 1,
-			nameColor = "#ffa500",
-			say = "天上飞的是什么，流星群？",
+			say = "But her body would not obey her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +202,24 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "好美啊…………",
+			say = "...Up in the sky... are those meteors?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_cccp_7",
+			actor = 107060,
+			dir = 1,
+			nameColor = "#ffa500",
+			say = "They're so beautiful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			say = "…………",
+			say = "Indeed. Welcome back. I'm glad that you're all safe.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -269,7 +269,7 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
-			say = "？！！！",
+			say = "Gaaaahhh?!",
 			effects = {
 				{
 					active = false,
@@ -297,7 +297,7 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
-			say = "刚刚的是…梦？",
+			say = "*gasp*... Was I dreaming...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

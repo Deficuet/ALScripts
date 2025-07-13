@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在街边发现了油纸包裹的物资，获得了奖励【石油*10】"
+			say = "You found materials wrapped in paper inside your storage! Collect 10 Oil!"
 		}
 	}
 }

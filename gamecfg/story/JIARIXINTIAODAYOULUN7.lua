@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "穿越风暴后，出现在眼前的是陌生的港口。",
+			say = "Soon after we weather the storm, an unfamiliar port comes into view.",
 			bgm = "theme-tempest-up",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……你们的新基地？",
+			say = "Is this... Tempesta's new base of operations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "毕竟我们总得有个方便行事的地方嘛，在经过利益精算之后，干脆就换了一个据点哦~",
+			say = "Why, naturally. It'd be difficult to conduct business around these parts if we didn't have some sort of springboard, so we decided to relocate after a little cost-benefit analysis~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "至于是什么事情……指挥官应该很清楚，不会再问的，对吧？",
+			say = "As for what kind of business... You should already be quite familiar with that, so let's not worry about this matter any longer~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（听起来是海盗的本职工作了，确实别问更好……）",
+			say = "(I guess that stuff comes part and parcel with being a pirate. It might be better not to pry after all...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……接收异世界的访客不稀奇，成为异世界的访客还是第一次，真是新鲜的体验。）",
+			say = "(Now that I think about it, though, we've welcomed quite a few guests from other worlds before. Funny that the shoe's on the other foot this time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "做好抛锚停靠的工作后，大家正式下船踏入了这片崭新的土地。",
+			say = "After dropping anchors and mooring the ship, our crew officially sets foot onto this unknown land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "飓风船团的海盗们向大家简单介绍了新据点的情况后，大家便展开了激烈的讨论。",
+			say = "The Tempesta members barely have a chance to introduce the situation with the new secret retreat before a lively conversation breaks out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，如果不是被我们拉来这边玩的话，你们现在打算去哪一站啊？",
+			say = "Oh yeah, what were you guys planning to do anyway if you hadn't run into us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901060,
-			say = "那、那个，原计划应该是沿热带航线环游……",
+			say = "Oh, umm... I think we were planning t-to take a trip around the tropics...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901050,
-			say = "不过现在感觉这个旅行计划被打乱了也挺好玩的呢~嘻嘻~",
+			say = "But, things are way more fun when they don't go as planned, right? Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "沿热带航线环游啊……听起来不错，说不定也能找到更多藏品纳入我的收藏……",
+			say = "A trip around the tropics, huh? Sounds pretty nice to me~ Might even be a good opportunity to find something special for my collection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "不过热带的风景虽然美丽，但是却也感觉没有那么“稀奇”呢。",
+			say = "Having that said, as nice as the tropical scenery might be, there's nothing unique or special about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600020,
-			say = "你的意思是，想看到更让人见之难忘的风景么？",
+			say = "In other words, you're chiefly interested in seeking out something unforgettable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "没错~",
+			say = "Yeah, more or less~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600060,
-			say = "……哪有那么轻松就能找到让人见之难忘的风景啊。",
+			say = "...I'm not sure that's something you can count on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "说的也是呢~那就只能作为之后的议题慢慢考虑了呢。",
+			say = "I guess you've got a point. Well, we can always save this discussion for later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这个的话，就不得不提极地的极光了。",
+			say = "Mmh. If it's unforgettable sights you seek, you'll not want to miss out on the auroras.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600060,
-			say = "极光？",
+			say = "Auroras?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那是蔓延在高空中的光带。垂下的时候如同帘幕一般，笼罩整个天空。",
+			say = "Yes, magnificent bands of light that hang down like curtains from the skies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "是一种非常绚丽灿烂的光辉，只要看过一次就不会忘记。",
+			say = "Such dazzling, vivid colors... These phenomena can be observed from both poles, and it's said that a single glance at their spectacular nightglow will burn the scenery into your memory forever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然极地非常冷，但是看见极光的时候就会觉得这点寒冷也不算什么了。",
+			say = "Of course, it'll be very cold, but you'll forget all about that the moment you see the aurora.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇！听你这么一描述，我的心开始痒起来了！这就是所谓的，看见了之后此生无憾的那种感觉？",
+			say = "Woah, I'm getting fired up just from hearing about it! That sounds like one of those adventures worth putting your life on the line for!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "如果可以拍下照片的话，感觉会是很不错的收藏……",
+			say = "I'm sure a photo of the aurora would make an excellent addition to my collection~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拍照？那这件事就交给我吧~保证拍出来的超漂亮哦~",
+			say = "I'll handle the photography! I'll make sure to capture every breathtaking moment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈？你的手机在极地还能拍照？不会直接没电关机么？",
+			say = "Hrm? Are you sure your phone will work in the sheer cold? The electronics might freeze over or something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说的也是哦！我去拜托{namecode:525:英格拉罕}她们帮我改造一下吧……",
+			say = "*gasp*... You're right! I'll ask Ingraham if she can do something about it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "言归正传，我们要不要干脆之后直接绕路去极地算了？",
+			say = "Well, since we've all been talking about the same thing for a while now, why don't we formally set course for the polar south?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "飓风船团的大家看起来也很感兴趣的样子，难得大家像这样在一起玩儿，一起去极地看看吧！",
+			say = "The Tempesta crew seems to be on board as well, and opportunities to hang out and try something new don't come around too often. Let's all head down there together, yeah?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就按照海盗的规矩来表决吧！看看结果怎么样，如果都同意的话，我们就去叫指挥官改变航线！",
+			say = "Alrighty then! Let's vote on it, pirate-style! If everyone agrees on the same thing, we'll ask Commander to change course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "接下来，同意的人请举手——",
+			say = "Now then, can I see a show of hands? All in favour–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "视线范围内，所有人都举起了自己手。皇家财富和金鹿将视线转向我，其中的含义不言而喻。",
+			say = "Everyone present raises their hands. Royal Fortune and Golden Hind turn to me triumphantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,18 +594,18 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（邮轮的动力不需要担心，在无人岛合流时也补充了许多物资……嗯，没问题。）",
+			say = "(Okay, there are no logistical issues. We're fully resupplied from Seabreeze Island, so... we've got ourselves our next destination.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "出发去极地吧！",
+					content = "Set sail for the polar south!",
 					flag = 1
 				},
 				{
-					content = "一起去看极光吧！",
+					content = "Let's go find an aurora!",
 					flag = 2
 				}
 			}
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "指挥官最好了！嘿嘿！",
+			say = "Booyah! You're the best, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等、等一等，皇家财富，不要突然扑上来啊！",
+			say = "H-hey, easy there, Royal Fortune! No need to glomp me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "在一段时间的交流后，不知道是谁的肚子先叫了起来。",
+			say = "Just as the merry discussion is starting to wrap up, I suddenly hear someone's stomach growling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "维达……肚子饿了……房间里还有可乐和薯片，维达去拿一些过来……",
+			say = "So hungry... Time to tap into my emergency supply of crisps and cola... Be right back, running to my room real quick...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "薯片这种只能算零食吧？邮轮上还有不少食材，不如先回邮轮上吃东西吧。",
+			say = "I don't think that potato chips and cola counts as a proper meal... Why not head back to the cruise ship? There's plenty of food on board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "好不容易来一次新地方……要不把菜做好以后，带下来吃？",
+			say = "It'd be a pity to turn back around as soon as we got here. How about we whip up something to eat here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "既然如此，大家想不想试试看篝火烧烤会呢？",
+			say = "Hmm... That sounds pretty promising. How does a bonfire barbecue sound?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "比起正式的餐厅用餐，没有距离阻碍的野餐反而更能促进彼此的感情吧？指挥官认为呢？",
+			say = "You know, a setting where everyone can sit around the bonfire, chat freely, and get to know each other while eating. It sure beats a stuffy dinner banquet – right, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "倒是没什么问题。不过时间是不是有点太早了？",
+			say = "I'm fine with that, but isn't it a bit early for that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可没有白天就不能开篝火烧烤会的道理哦~？只要大家想的话~",
+			say = "What? Did anyone ever make a rule that you can't have a bonfire barbecue in broad daylight? Besides, it's the will of the people~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600040,
-			say = "我觉得单纯的烧烤会就很好……能不能别点篝火……",
+			say = "A barbecue sounds nice... but I could do without the bonfire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "不可以哦？而且，玛丽，你也得参与进来。不~准~隐~身~",
+			say = "Sorry, but that's not an option~ You'll be joining us as well, Mary, and I can't have you disappearing on us~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "噫？！指挥官，救我呀！",
+			say = "Eep! Commander, save meeeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "之后，这个于清晨开始的“篝火烧烤会”正式举行。",
+			say = "Despite it being way too early in the day, our \"Big Bonfire Barbecue Bonanza\" kicked off without a hitch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "在皇家财富的口述下，龙武等人做了非常多的巴巴科阿。",
+			say = "Under the direction of Royal Fortune, Lung Wu and the rest of the cooking crew begin bringing out the meat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "至于饮品，则是利托里奥、{namecode:529:苏维埃同盟}她们亲自和加里冒险号一起搬的。",
+			say = "Littorio, Sovetsky Soyuz, and Adventure Galley supply the drinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "圣马丁提供了几条优质的火腿，在切成薄片后，和{namecode:295:尾张}提供的蜜瓜搭配到了一起。",
+			say = "The high-quality ham that São Martinho brought over is sliced thinly, then paired together with Owari's freshly-farmed melons for a light and savory snack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "大家有说有笑，在这个陌生的港口与飓风船团的海盗们交流着各自的所见所闻。",
+			say = "Laughter fills the air around this strange port, and everyone quickly comes to deepen their understanding of each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "等到回过神来时，烧烤会已经进入到了尾声的畅谈环节，甚至不知道是谁往篝火里插了一把剑。",
+			say = "Before I realize it, the barbecue bonanza is already winding down, and someone signals its end by sticking a sword into the bonfire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然本王非常满意，不过白天这样，果然还是感觉缺了点什么。",
+			say = "I am most satisfied with the success of this bonfire barbecue, but there's still something lacking to truly make this day spectacular.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,7 +958,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不够、远远不够。纯度太低了！还需要更热闹的……舞会！",
+			say = "That's right! To truly elevate today's atmosphere... we require a ballroom dancing corner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -975,7 +975,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，在大厅里举办的舞会！贝尔法斯特，就让女仆队去把舞会厅好好布置一番吧！",
+			say = "Yes, yes. Let's make our preparations in the main hall! Bel, gather the Royal Maids and have them decorate the main hall accordingly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -992,7 +992,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是，女王陛下，皇家女仆队随时准备为您效劳。",
+			say = "As you wish, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1009,7 +1009,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧，都已经到这种地方了，普通的舞会也太扫兴了。",
+			say = "Wasn't into ballroom dancin' back then. Still ain't now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1026,7 +1026,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？鸢尾的海盗有什么高见？如果没有更好的打算，就要按照本王的来！",
+			say = "Excuse me? Does this Iris swashbuckler have any better ideas? If not, do as I say!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1044,7 +1044,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "我们这些海盗和那些什么上流高雅的舞会八字不合啦！",
+			say = "Ballroom dancing is THE symbol of elegance and high class. Us piratey types don't mesh well with that, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "非要举办舞会的话，也应该是“变装舞会”那种感觉才对吧~？",
+			say = "If you really want to dance that badly, why not opt for something like a masquerade ball?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "没错哦~非要说的话，也只有变装舞会比较符合我们的气质呢。",
+			say = "Yeah, that could work~ If anything, a masquerade ball would allow us to accentuate our pirate-ness~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "不管是普通的舞会，还是变装舞会……都好麻烦……",
+			say = "Uhhh... both options are equally a pain in the bum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1126,7 +1126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600060,
-			say = "我的话，投变装舞会一票。",
+			say = "I'm also in favour of a masquerade ball.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1144,7 +1144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哦哦~变装舞会啊！这种时候就要把调查员的衣服和之前做的猎犬道具拿出来！",
+			say = "Woah, that's a basically a costume party, right? I need to go grab my explorer's outfit and robo hunting hound that I put together the other day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下，即便是变装舞会，也需要一个主题才行吧？",
+			say = "Hold it right there. We still haven't decided on a theme for the masquerade ball, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1178,7 +1178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不然不就全部乱套了么！",
+			say = "If everyone decides to show up in whatever they feel like, that'd be way too chaotic!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "这样不也很有趣么~？不做主题的限制，只需要符合“变装”本身的定义就好。",
+			say = "That sounds perfectly fine to me. Let's not go with a theme, and let people come in whatever costume suits them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			},
 			options = {
 				{
-					content = "附和金鹿",
+					content = "I think Golden Hind's got the right idea.",
 					flag = 1
 				}
 			}
@@ -1218,7 +1218,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……不做限制的话，能参与进来的同伴应该更多吧。",
+			say = "More people can participate in whatever capacity they're comfortable with if we have fewer restrictions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1231,7 +1231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，既然指挥官也这么说了……那就这么决定了！本王会让女仆队将舞会厅重新布置一番。",
+			say = "Et tu, my servant? ...I suppose I don't mind going along with that idea! Now then, my maids shall see to it that the venue is set up properly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1249,7 +1249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302060,
-			say = "看来是我们登场的时候了呢，老爷子~“没错！”",
+			say = "Looks like it's your time to shine, Old Man. \"Damn straight!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "在热闹的讨论与期待中，篝火烧烤会正式结束了。",
+			say = "And so, the bonfire barbecue comes to a close amidst the joyous din of chatter and laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1292,7 +1292,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "除了皇家女仆队之外，也有不少伙伴自告奋勇地想要加入变装舞会的现场组织工作。",
+			say = "In addition to the Royal Maids, a lot of the other shipgirls volunteer to help staff the masquerade ball.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1304,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……也去看看有没有什么自己能帮上忙的地方吧。）",
+			say = "(Let's see if there's anything I can do to help.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

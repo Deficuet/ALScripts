@@ -10,7 +10,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			stopbgm = true,
-			say = "呼……肚子好饿，指挥官有带什么吃的吗？",
+			say = "*burp*... I'm hungry. Do you have any food, Comrade Commander?",
 			bgm = "main-SeaAndSun",
 			painting = {
 				alpha = 0.3,
@@ -24,7 +24,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "和威严在偌大的森林中探索，走了很远。看起来她已经劳累得不行了。",
+			say = "Grozny and you are surveying the expansive forest. It's been quite the trek, and she looks exhausted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			actor = 701020,
 			dir = 1,
-			say = "饿了的话，稍微吃一点指挥官也不会有问题的吧。",
+			say = "I could eat anything. Heck, I might just take a bite out of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……我看起来会好吃吗？",
+			say = "\"Please don't. I don't taste good.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别在意，指挥官……只是一个威严风格的玩笑罢了。",
+			say = "Take it easy. I'm just kidding with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "印象中前面不远处就是一处露营地了，那里应该有留下来的补给。",
+			say = "\"If memory serves me right, there should be a camp stocked with rations just a stone's throw away from here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "如果没记错的话，补给里有之前森林探险队留下来的肉，还有一些……",
+			say = "\"I'm fairly sure the exploration team left behind some meat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 701020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "居然有肉！意思是可以大吃一顿烤肉了——！！",
+			say = "Ooh, meat! That's perfect for a barbecue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "威严的眼里射出期待的光芒……",
+			say = "Her eyes glimmer with eagerness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			actor = 701020,
 			dir = 1,
-			say = "虽然没有罗宋汤和伏特加，但烤得正好的肉……唔，流口水了。",
+			say = "While we don't have any vodka or borscht, the thought of juicy barbecue alone is enough to make my mouth water...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			actor = 701020,
 			dir = 1,
-			say = "指挥官，烤肉的工作就交给威严好了。",
+			say = "You can rest and I'll man the grill, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			actor = 701020,
 			dir = 1,
-			say = "就让指挥官尝尝，威严的北联风格特调烤肉~！",
+			say = "You're going to fall in love with the taste of Northern Parliament-style barbecue!",
 			painting = {
 				alpha = 0.3,
 				time = 1

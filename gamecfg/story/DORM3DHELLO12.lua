@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "每每见到{dorm3d}的面容，就让天狼星心中涌出无限的喜悦。请让天狼星今后也继续追随您前进的步伐，努力、守护您吧，我骄傲的{dorm3d}。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello12",
+			nameColor = "#FFFFFF",
+			say = "Every time I see your face, I'm filled with boundless joy. Please let me stay by your side and protect you for all of our days, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

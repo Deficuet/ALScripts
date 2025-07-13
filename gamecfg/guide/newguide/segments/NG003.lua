@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"潜艇战斗相关的内容可以点击帮助按钮查看更详细的内容"
+	"You can tap the Help button for info on Anti-Sub combat!"
 }
 
 return {

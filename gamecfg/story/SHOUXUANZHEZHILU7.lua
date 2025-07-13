@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>圣座冕下</size>",
+					"Path of the Chosen\n\n<size=45>7 The Apostle</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我自天国而归，我自云端而还。",
+			say = "From the clouds I descend, returning from Heaven.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在城市之中，感受着人间的古典与秩序。",
+			say = "I walk through the city, feeling the enduring elegance and order of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在街道之中，感受着人间的生命与活力。",
+			say = "I walk through the streets, feeling the life force and vitality of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在教堂之中，感受着人间的肃穆与庄重。",
+			say = "I walk through the church, feeling the devotion and majesty of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "终于，旅途结束了。",
+			say = "My journey is finally over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,14 +106,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "撒丁教国·首都",
+			say = "Sardegna Ecclesia - Rome",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"Sardegna Ecclesia - Rome",
 					1
 				},
 				{
-					"大教堂",
+					"Cathedral",
 					2
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "明媚的阳光下，广场之上人山人海。",
+			say = "The square was filled to the brim with people while the bright sun shone overhead.",
 			bgm = "story-theme-sardinia",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "想象中的喧嚣不曾出现，所有人都面带凝重的注视着大教堂的阳台，静静等待着什么。",
+			say = "There was no commotion as anticipated. The people gazed at the cathedral's balcony with solemn expressions, silently waiting for something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“有身影出现了！”，人群中有声音说道。",
+			say = "\"Someone came out!\" a voice in the crowd shouted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“啊，我看到了……冠冕，权杖，没错，一定是她！”，另一个声音说道。",
+			say = "\"Yes, I saw it... That crown, that scepter – it has to be her!\" continued another voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "“圣座冕下出来了！”，越来越多的声音说道。",
+			say = "\"The Apostle has come!\" yelled an ever-increasing number of people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "一时间，城市中的钟声一同响起，人群也沸腾了起来。",
+			say = "The bells throughout the city all rang in unison, and the crowd was bubbling with excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "新任圣座冕下与群众见面的时刻终于到了——",
+			say = "The first meeting between the new Apostle and her people had finally come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "同一时间，大教堂的阳台之上，新任圣座冕下在万众瞩目中睁开了双眼。",
+			say = "Up on that balcony, the newly-anointed Apostle opened her eyes to an expectant crowd.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……嗯？",
+			say = "...What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……怎么这么多人在看我？",
+			say = "...Why are all these people looking at me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "这是梦么……？",
+			say = "Am I... dreaming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "这是梦吧……？",
+			say = "I'm dreaming, aren't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "新任圣座冕下闭上双眼，略作沉思，再次睁开。",
+			say = "The Apostle closed her eyes, pondered for a moment, then opened them again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "眼见得景色毫无变化，或者说，眼前的景色比几秒前又热烈了几分。",
+			say = "The crowd was still there, just as excited as before. No, if anything, their spirits were even higher than a few seconds ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……不是梦。",
+			say = "...I'm not dreaming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……不是梦？！那这是什么情况！？！",
+			say = "I'm not dreaming?! What's the meaning of this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……圣座冕下？",
+			say = "...The Apostle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……谁？",
+			say = "Who's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#A9F548FF",
 			shakeTime = 2,
 			hidePaintObj = true,
-			say = "……啊？！！！",
+			say = "WHAT IS THIS?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"——未完待续",
+					"To Be Continued",
 					1
 				}
 			},

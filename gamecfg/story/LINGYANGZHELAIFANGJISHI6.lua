@@ -14,7 +14,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，指挥官和娜比娅来得正好呢~我正在研制新的点心哦。",
+			say = "Ah, Commander and Navi, excellent timing. I'm in the middle of creating a new dessert.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要来当第一个品尝者吗？这可是我特别准备的“治愈配方”呢~",
+			say = "Would you like to be the first to try it? It's made with a special recipe that can soothe your soul.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "看着盘中不知为何呈现出鲜红色的点心，我犹豫了一下。",
+			say = "Faced with the spine-chillingly red dessert, I find myself hesitating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,9 +68,9 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "哼~反正废柴{tb}肯定会踩中这个陷阱吧？",
+			say = "Hmph. Knowing you, dweeb, you'll fall for this no matter what.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，怎么会是陷阱呢~",
+			say = "\"Fall for this\"? That's not a very nice choice of words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可是很认真地想要“治愈”指挥官的哦……",
+			say = "I sincerely want to make you feel better, that's all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,18 +109,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……能亲眼看着指挥官品尝的表情，一定会很有趣吧？",
+			say = "And... I'm quite curious to see your reaction when you taste it. Nothing wrong with that, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接受{namecode:439:罗恩}的好意",
+					content = "(Accept her offer.)",
 					flag = 1
 				},
 				{
-					content = "婉拒{namecode:439:罗恩}的提议",
+					content = "(Politely turn her down.)",
 					flag = 2
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "既然是你特意准备的，那就尝尝看吧。",
+			say = "Well, it'd be a shame for it to go waste, so I'll try it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了呢~指挥官要从头到尾慢慢品尝哦……",
+			say = "Great! Please be sure to chew it well and savor every last bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，看着点心一点点消失的样子，真是令人……愉悦呢♪",
+			say = "Ahh... Watching you enjoy my dessert one bite at a time – it's so wonderful ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_606",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~原来还能用这种方式对待笨蛋{tb}啊~",
+			say = "Wow, I didn't know it was fair game to treat you like a moron, dweeb!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "抱歉，我们还有其他事情要处理，品尝点心可能要下次了。",
+			say = "Sorry, but it'll have to be another time. I still have some errands to run right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "这样啊，真是可惜呢……明明我还想看指挥官享用时的表情的。",
+			say = "That's unfortunate. I'd hoped to see how you reacted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过没关系，下次来的话，我会准备更多能“治愈”指挥官的惊喜哦~",
+			say = "It's alright, though. I'll prepare many more soothing surprises for the next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,13 +228,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_606",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			fontsize = 24,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总算是看到笨蛋{tb}聪明了一回♪",
+			say = "A rare moment of clarity from the dweeb! Color me surprised ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，我倒是发现娜比娅对指挥官很是在意呢……",
+			say = "Heehee. Navi, you care quite a lot about the Commander, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过娜比娅要是再敢打扰我和指挥官的“治愈时光”的话……",
+			say = "However, I must ask you to refrain from ruining our next... soothing time together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次的“治愈配方”，说不定就会变成专门为你准备的特别版本哦♪",
+			say = "Otherwise, my subsequent soothing recipe might be made just for you ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "{namecode:439:罗恩}的笑容依然温柔，但总觉得今天的气氛突然变得有些微妙。",
+			say = "While Roon's expression remains as gentle as always, the mood around her suddenly feels a bit tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,9 +296,9 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "呜……废柴{tb}你给我小心点啦！",
+			say = "Yikes... Dweeb, watch yourself, alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次再见面，指挥官~我会准备更多美味的点心的。",
+			say = "I'll see you another time, Commander. I'll have lots of delicious desserts ready for you by then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,9 +323,9 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "哼，我也会跟着来的……！",
+			say = "Hmph, don't even think about shaking me off! I'll come along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，随时欢迎哦~",
+			say = "Of course. Heehee. You're always welcome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "和{namecode:439:罗恩}道别后，便和娜比娅一起离开了。",
+			say = "I bid farewell to Roon and leave with Navi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "一路上娜比娅都若有所思，似乎获得了什么新的启发。",
+			say = "On our way home, Navi seemed to think deeply and gained some inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

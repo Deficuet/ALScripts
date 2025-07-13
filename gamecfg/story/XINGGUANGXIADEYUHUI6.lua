@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？？·？？？？",
+					"Time: Unknown",
 					1
 				},
 				{
-					"？？？",
+					"Location: Unknown",
 					2
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "巨舰之中，蓝发少女凝视着眼前的星河，眼眸之中光华流转。",
+			say = "In a giant ship, one blue-haired girl gazed upon the galaxy before her.",
 			bgm = "story-startravel",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……奈落连通着NA海域的奇异点，指挥官也确实进入了其中，这一段行程确认无误。",
+			say = "Naraka and the NA Ocean Singularity are connected, and the Commander did enter the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "但是……NA奇异点的出口被人做了手脚。",
+			say = "But something is tampering with the exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "离开出口后，孟菲斯等人进入了另一个实验场，而指挥官不知所踪……",
+			say = "Memphis is off in another test site, and the Commander is missing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……连整座实验场β都变为了幻象。",
+			say = "No... It's as if test site beta has become an illusion altogether.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……搜索不到，到底藏到哪里去了。",
+			say = "I can't find it anywhere. Where has the real test site beta gone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "光华流动的速度加快了，少女冷淡的表情中也多了一抹痛苦的神色。",
+			say = "Helena's cold eyes showed a hint of pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……被动观测，定期扫描都无异常，被动防御无预警，主动防御也无反应。",
+			say = "Passive radar and regular scans show no abnormalities. Our defenses haven't come up with any notifications, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "如果不是我调用塔有意识地进行主动观测，根本无法识破实验场β之上布设的伪装。",
+			say = "If not for the Tower's resources being diverted to active scanning, I never would've seen through the test site's camouflage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "真正的实验场β……早已被不留痕迹地转移了。",
+			say = "Something transferred the real beta elsewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "变更坐标的能力、如此规模的幻象，还有这种连塔的观测都能干扰的手段……",
+			say = "The ability to not just change its coordinates, but to make a branch-sized illusion and even jam the Tower's observational capabilities...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……错不了。",
+			say = "There's no doubt about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "仲裁者·恩普雷斯·III，以及……仲裁者·麦纪莎·I。",
+			say = "The Empress and the Magician...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "女皇和魔术师……你们倒是凑在一起去了。",
+			say = "So they've teamed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "蓝发少女的眼中划过一丝冷意。",
+			say = "The glint in her eyes turned even colder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "觊觎指挥官，在阴暗之中行动的游魂们……",
+			say = "Soulless beings lurking in the dark, coveting the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "也好，新仇加旧怨……那就斗一斗吧。",
+			say = "Add another grudge to this long-simmering hatred... Very well. Let's have at it, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,9 +274,9 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "{namecode:39:神通}，能听到么——",
+			say = "Jintsuu. It's me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

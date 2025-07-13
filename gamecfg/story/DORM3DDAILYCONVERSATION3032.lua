@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……喜欢，开心的歌！",
+			say = "Anchorage... likes happy songs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唱出来，很开心！{dorm3d}……也开心！",
+			say = "Singing is happy! {dorm3d}... happy, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……不开心，安克雷奇唱给{dorm3d}！",
+			say = "When {dorm3d} is sad... Anchorage will sing for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

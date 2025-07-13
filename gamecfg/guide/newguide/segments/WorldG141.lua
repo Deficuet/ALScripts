@@ -7,7 +7,7 @@ return {
 				"ClickOrder"
 			},
 			style = {
-				text = "点击G.M系统右下角的按钮可以进入分析模式。",
+				text = "Tap the icon in the bottom right corner to enter Scanning Mode.",
 				mode = 2,
 				posY = -126,
 				char = "1",
@@ -163,7 +163,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击左上角按钮可以退出分析模式。",
+				text = "To return to the zone map, simply tap the button in the top left corner.",
 				mode = 2,
 				posY = 223.43,
 				char = "1",

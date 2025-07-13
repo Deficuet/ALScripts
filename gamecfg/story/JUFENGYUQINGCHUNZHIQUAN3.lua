@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "跟着皇家财富，轻松找到了一个视野开阔的制高点。",
+			say = "I follow Royal Fortune, and the two of us arrive at a high place with a great view over the surrounding area.",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -23,12 +23,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看到那艘快船了没？",
+			say = "Hey, see that clipper?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,11 +42,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是港口那边的，是停在另一边的——",
+			say = "No, not by the dock. The one over there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "顺着皇家财富指出的方向看去，果然看到了一艘在阴影中停泊的快船。",
+			say = "She points her finger towards a ship anchored behind a building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "它看起来是一艘护卫舰，但火力配置却有点超出标准。",
+			say = "It looks like a corvette, with quite powerful armaments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（为什么要将它停泊在所有人视线之外……）",
+			say = "(Why would the captain anchor her in such an out-of-sight place?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,12 +94,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好极了，就它啦！",
+			say = "That'll do! She'll be our new ship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,11 +113,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，停在这种地方的船只，恐怕我们开走了，船主也不敢追查吧~",
+			say = "I'll betcha the owner won't even care if we commandeer her for ourselves! Heheh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,12 +131,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经想好了，等把它搞到手，就把它也改名叫皇家财富~",
+			say = "I've already got a new name for her. It's going to be... the Royal Fortune!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			},
 			options = {
 				{
-					content = "要怎么做？",
+					content = "Okay... So how do we do this?",
 					flag = 1
 				}
 			}
@@ -156,12 +156,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是偷偷溜上去，找到舵轮的位置就可以了啊。",
+			say = "All we have to do is sneak aboard, grab the steering wheel, and sail out like it's nobody's business. Easy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就我们两个？",
+			say = "Sail out? Just the two of us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,11 +187,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对啊……？",
+			say = "Yeah. Unless you were planning on bringing friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,12 +205,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别说两个，我一个都够了。",
+			say = "I can even do it myself if you're not up to the task.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,11 +224,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，我懂了！你不会以为是旧世代的战舰吧？",
+			say = "...Oh, I get it. You think that's a pre-Naval Code vessel, don'tcha?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,12 +242,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在的战舰，只需要启动核心，就能单人操纵整艘战舰了。",
+			say = "As long as you have a core, you can operate these new warships with just one crew member.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,11 +261,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "甚至不需要舵轮都行。",
+			say = "Hell, you don't even need to keep your hands on the actual steering wheel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,11 +276,11 @@ return {
 			},
 			options = {
 				{
-					content = "量产型……？",
+					content = "Is that Cube technology?",
 					flag = 1
 				},
 				{
-					content = "疑似有点自动化过头了吧……",
+					content = "Ah, the wonders of automation.",
 					flag = 2
 				}
 			}
@@ -289,13 +289,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			optionFlag = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "量产型？那是什么意思？",
+			say = "Huh? Techno-what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,13 +309,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			optionFlag = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你那边对于战舰的称呼么？好奇怪……",
+			say = "I'll just assume that's what you call warships in your world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,13 +329,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			optionFlag = 2,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自动化……？",
+			say = "Autumn-nation...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,13 +349,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			optionFlag = 2,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说的是那些奇幻传说里的黄铜蒸汽人么？",
+			say = "You mean automatons? Like those tin men in children's stories?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,11 +369,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了，总之我这边的战舰全部都是按照现世的《海军法典》的指引所建造的战舰。",
+			say = "What I'M talking about are warships built according to the Naval Code that was discovered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,12 +387,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后——",
+			say = "See, long ago–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "咚——",
+			say = "DIIING! DOOONG!",
 			bgm = "stopbgm",
 			typewriter = {
 				speed = 0.05,
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "突然响起了洪亮的钟声。",
+			say = "The clangs of a big bell suddenly echo through the air.",
 			soundeffect = "event:/ui/zhongsheng",
 			typewriter = {
 				speed = 0.05,
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "紧接着，是清脆但急躁的铃音。",
+			say = "The sounds are accompanied by the quieter but quicker rings of a smaller bell.",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -442,13 +442,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "城镇中心的动员钟响起来了……？",
+			say = "They've sounded the city centre bell?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,12 +462,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这座城邦正在被攻击……不对劲，这也太胆大包天了。",
+			say = "Is someone attacking this city? That can't be right... Nobody's bold enough for that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你望远镜借我，这时候教堂上会挂对应的标志才对……",
+			say = "Lend me your telescope! I need to see what flag the church has hoisted!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,12 +500,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喔！挂信号旗了！……残响舰队袭击？！",
+			say = "Found it! That one means... What?! The Echo Fleet is attacking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「残响舰队」？",
+			say = "The Echo Fleet? What's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,12 +531,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一些集群游荡的机械战舰，它们会攻击航路上的船只，但却从不劫掠。",
+			say = "A mechanical fleet that roams the seas. It attacks any ship along its course, yet it never plunders anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,12 +550,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贤者们认为那是上古纪元的造物……但它们到底是什么来历，没人说得准。",
+			say = "Scholars say it's a remnant from ancient times, but not even they know where it actually came from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,14 +571,14 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这听起来怎么像是……）",
+			say = "(That sounds awfully familiar...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你们听说过塞壬么？",
+					content = "Do you know what the Sirens are?",
 					flag = 1
 				}
 			}
@@ -587,12 +587,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海妖的传说……？",
+			say = "Sirens? Those monster-women of the sea, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,12 +606,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸，不是？",
+			say = "...No? That's not what you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,12 +625,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，有机会我想听听你的冒险故事。",
+			say = "Look, let's save the sailor stories for later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,11 +644,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但现在必须先把那艘战舰搞到手才行。",
+			say = "Right now, we've got to seize that warship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,12 +662,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跟我来，我们走这边的小路——",
+			say = "Come on! I know a secret way around!",
 			painting = {
 				alpha = 0.3,
 				time = 1

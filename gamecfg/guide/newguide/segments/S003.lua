@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"先把角色<color=#ffde38>锁定</color>起来吧",
-	"让我们返回主界面"
+	"First, let's <color=#ffde38>lock</color> this character in.",
+	"Let's head back to the main screen again."
 }
 
 return {

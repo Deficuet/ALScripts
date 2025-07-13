@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_2",
-			say = "龙宫城·外环区",
+			say = "Dragon Palace - Outer Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "那个……我们会不会走得有点远了？",
+			say = "Um... I'm afraid we shouldn't be going so deep without waiting for instructions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "没事没事，反正这里一个人都没有。不信你看啊~",
+			say = "It'll be fine! This place is totally empty! Look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "喂————！！！！",
+			say = "Rooooooooooooaar!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_2",
 			dir = 1,
-			say = "{namecode:207}突然朝着远方大喊了一声——",
+			say = "Yamakaze suddenly let out a roar that resounded across the palace's walls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "{namecode:207}！那、那么大声会惊动到别人的…！",
+			say = "Y-Yamakaze! Wh-what if you woke somebody up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_2",
 			dir = 1,
-			say = "……除了{namecode:207}的声音在城内回荡外，什么事都没有发生。",
+			say = "...But nothing happened at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "你看，除了我们之外就没别人了吧~这里是不是已经被废弃掉了啊……",
+			say = "There's nobody here except for us, yeah? It probably got abandoned a long time ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋滋——",
+			say = "Bzzt––––!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是{namecode:62}，我已带领增援舰队抵达龙宫城入口处，请报告你们目前所处位置。",
+			say = "This is Chikuma. I've arrived at the entrance of a place that appears to match the Dragon Palace you were describing. Katsuragi, Shimakaze, please copy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！{namecode:62}阁下，{namecode:206}小姐还有{namecode:175}阁下都来了？！可我们之前并没有呼叫支援啊。",
+			say = "Chikuma?! And Yura as well as Suruga too? What are you all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "派出增援舰队是{namecode:182}大人的判断，仅凭你们是无法摧毁龙宫城的。",
+			say = "Lady Shinano personally sent us here. Hehe, I see you already have plans of your own though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（虽然加上我们来也没什么作用吧，这么大一个龙宫城要怎么摧毁啊！）",
+			say = "(Ugh, I knew it... It's just like during that dumb mock exercise. Why do I get pulled around so easily?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！要摧毁这么漂亮的龙宫城么？！",
+			say = "S-sorry for acting without waiting for orders! What would you have me do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（塞壬的机关哎！不摧毁你还想怎么样啊！）",
+			say = "(Wouldn't the obvious thing be to meet up first? Good grief, one look at this thing and it clearly has the Sirens' tentacle-prints all over it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "摧毁如此精美的建筑群虽然可惜，但这也是为了航行安全而做出的判断。",
+			say = "Let's see... We'll investigate the facility, and if it appears to be dangerous, we'll level it... In theory, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "虽然现在还没有出现什么问题，不过按照以往的经验，这肯定又是塞壬的什么奇怪实验……",
+			say = "So far, there doesn't appear to be anything questionable going on, but that can change without a moment's notice when you're dealing with the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "唔……你们现在的位置距离我们有些远啊。",
+			say = "As for the position of your fleet... W-wait, how'd you have time to get that deep inside?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "非常抱歉！我们只是想在龙宫城外围侦察一下的！",
+			say = "I'm so sorry! I just got caught up in the excitement of exploration...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没想到前进了这么久依然没有进入中层区域，这座龙宫城也大的太离谱了！",
+			say = "Now that you mention it, I did end up pretty far from the entrance, huh... I'll turn around and head back right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（不……像回自己家一样在塞壬机关城里闲逛的你也很离谱……）",
+			say = "(How do you get so distracted that you lose track of your surroundings?! My stomach can't handle much more of this disaster waiting to happen...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，要想彻底摧毁这座海上浮城的话，单凭随意攻击肯定是不行的。",
+			say = "If this really is some kind of Siren facility, there's probably no way for us to destroy it from the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "如果位于镜面海域内，摧毁镜面海域维持装置就能对内部设施造成严重损害。",
+			say = "However, we should be able to shut it down by locating some kind of control device, just like in a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "但是像这样部署在通常海域中的情况，就要靠我们自己寻找其他摧毁的方法了。",
+			say = "If we're lucky, there might even be some kind of self-destruct button lying around somewhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……情报是最重要的。我们现在进城跟你们汇合，首先对这座龙宫城来次彻底的侦察吧。",
+			say = "But in any case, gathering intel should be our first priority. Shall we meet up first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（好想回去……………………）",
+			say = "Shimakaze, Yamakaze, and Katsuragi, gather up and return to the entrance. Understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_daofeng_2",
 			stopbgm = true,
 			dir = 1,
-			say = "轰隆隆隆————",
+			say = "––––––!!!",
 			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
@@ -533,7 +533,7 @@ return {
 			bgName = "bg_daofeng_2",
 			bgm = "battle-longgong",
 			dir = 1,
-			say = "就在通讯进行时，整座龙宫城突然毫无征兆的剧烈震动起来。",
+			say = "Without warning, the Dragon Palace began to shudder violently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜哇！海底地震！？",
+			say = "Mweeehhhh?! An earthquake?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "不对……前锋舰队，立刻从龙宫城中撤离！整个龙宫城正在开始下沉！",
+			say = "No, it's not! Get out of there this instant, Shimakaze! The whole building is starting to sink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！下、下沉？！要是沉到水下的话岂不是很糟糕？！",
+			say = "Wh-what do you mean by \"starting to sink\"...?! I'm an aircraft carrier, not a submarine! There's no way I'd be able to handle going underwater!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可是这个距离，就算以{namecode:18}的速度也……",
+			say = "Even at my top speed, there's no way we'd be able to make it to the entrance in time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			actor = 302070,
 			nameColor = "#a9f548",
-			say = "{namecode:208}，你感受到结界的气息了么……",
+			say = "Katsuragi, have you noticed the \"seal\" at the top of the castle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结界……？！啊，我发现了！整座龙宫城好像有结界保护着，城内的水位并没有上升哎~",
+			say = "Seal? I'm not sure I know what you're talking about, but we're all gonna drown if we can't make it to the entr–– Oh hey, the water level's not rising at all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说反而是你们现在外面的情况更不妙吧！要是被漩涡卷进去就全完了！",
+			say = "So I guess the entire Dragon Palace is diving? Wait, won't that create a huge whirlpool that sucks everyone outside under?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法了……大家全速前进，驶入龙宫城的结界中避难！",
+			say = "That would appear to be the case... Suruga, Yura, we'll have to enter this Dragon Palace, like it or not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			blackBg = true,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（预感成真了啊啊啊啊啊啊！！！！）",
+			say = "(I knew it, I knew it! Why'd I even bother trying to fool myself into thinking that nothing would happen?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

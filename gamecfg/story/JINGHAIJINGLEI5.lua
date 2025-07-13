@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>五　如鱼得水</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>5 Vessels and Replacements</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere in an undisclosed location...",
 			bgm = "main-arbitrationsystem-theme",
 			flashout = {
 				black = true,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
-			say = "在这座所处方位不明的设施中，两个身影正在昏暗的灯光下交流着。",
+			say = "On an assembly line within a factory encased in walls of steel, elite Sirens were being put together, one after the next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "量产型的生产我已经见过无数次了。",
+			say = "So this is how it looks inside a Siren workshop, eh... It's nothing like how they make mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "不过……以高阶塞壬数据为蓝本制造的量产型，我还是第一次见……",
+			say = "These aren't just ordinary humanoid Sirens, either – they're full-blown elite vessels.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "我一直以为这种事只有在它们自己的特殊工厂里才能做到呢。",
+			say = "By the way, since when were we able to make Siren vessels?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "只要有了详细数据，就算是以你们的现在条件也可以生产出简易的版本来。",
+			say = "Any workshop connected to the Mirror Sea's database can produce them. With the know-how, even the Sakura Empire in its current state can control these Sirens to some extent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "这样的强度……还叫简易版本么？",
+			say = "Us? Controlling elite Sirens like any old mass-produced ship? Yeah, right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,24 +140,24 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "当然，咳咳咳……现在这样，充其量是可堪一用的简易版本。",
+			say = "I'm serious. *cough* *cough*... You should think of them as drones that follow orders rather than as your sworn enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "你不会把塞壬平时拿出来陪你们玩的玩具当真了吧。",
+			say = "While they may look the same on the outside, there is a world of difference between an empty vessel and the Siren inhabiting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "我还没有天真到那种程度。只是感慨一下罢了……靠我们自己肯定做不到这种事。",
+			say = "Hah, alright. I'm just a little stunned it's possible to control elite Sirens. Appreciate the explanation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "不过说真的，你还是去好好休息一下吧……你的身体状态，怎么看都不太妙。",
+			say = "What do you say we end the tour here and take a little break? You could use one, what with how pale you look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,24 +200,24 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "……我的身体状态我自己清楚。咳……重要的是时间，我们的时间已经不多了。",
+			say = "Don't worry about me. I know the limits of my own body... *cough* *cough*... What's important is making the most of what time we have left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "必须让计划顺利推进才行……可以认为你的验收结束了么？",
+			say = "I must see this plan through before it's too late... Now, I take it you recognize all the vessels?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。测试者、净化者、清除者、构建者……每一个都可以说“栩栩如生”。",
+			say = "Sure do. Tester, Purifier, Compiler, and Omitter... Just like with the Pawns, they look the same as their originals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "只不过我有一个问题。",
+			say = "Hey, mind if I ask one last question?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,12 +259,12 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "你想问，为什么没有制作观察者，对么？",
+			say = "Allow me to guess. \"Why is there no Observer vessel?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没错，真是什么都瞒不过你。",
+			say = "Huh, you read my mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,48 +288,48 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "观察者是构造极其特殊的塞壬。",
+			say = "The short answer is, the Observer program is unique.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "虽然与测试者之类的同属塞壬实验机构，不过在构成原理上却是大相径庭。",
+			say = "As the program oversees the other elite programs, Observer's vessels are constructed through an entirely different paradigm than the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "不但制作起来极其繁琐，而且由于没有主机支持，量产型无法使用观察者机体的特殊武装。",
+			say = "Even a rudimentary vessel is extremely difficult to make, and it requires prohibitively inefficient weapons that no other Siren can use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "其通用武装战斗力又十分低下，做出来实在是费力不讨好……",
+			say = "All in all, it's more effort than it's worth. You could practically consider her unreproducible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "原来如此，可是这样一来……数量上就少了一个。",
+			say = "I see. So we'll be one person short...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,24 +354,24 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "没关系。我制作了一个消耗精力与观察者棋子差不多的东西……",
+			say = "Not necessarily. It wasn't easy, but I managed to build a replica of none other than...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "咳咳……你看这里。",
+			say = "*cough* *cough*... Well, see for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
-			say = "空气中的光影重新组合，在{namecode:80}面前形成了一个她从未见过的塞壬人型。",
+			say = "The workshop's spotlights converged on a place away from the Siren vessels, illuminating something – or maybe someone – that had been shrouded in darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "这个是……？",
+			say = "Is... that...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,12 +407,12 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
-			say = "最为合适的答案。",
+			say = "Yes. The thing you all need the most right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,12 +420,12 @@ return {
 		},
 		{
 			nameColor = "#a020f0",
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "{namecode:91}认识这家伙，这就够了————",
+			say = "A Pawn of someone close to Akagi, hosting the data of a high-ranking Siren––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

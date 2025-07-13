@@ -34,6 +34,10 @@ function var_0_1.registerObserver(arg_4_0, arg_4_1, arg_4_2)
 	if arg_4_0.observerMap[arg_4_1] ~= nil then
 		table.insert(arg_4_0.observerMap[arg_4_1], arg_4_2)
 	else
+		if arg_4_1 == nil then
+			print(debug.traceback())
+		end
+
 		arg_4_0.observerMap[arg_4_1] = {
 			arg_4_2
 		}

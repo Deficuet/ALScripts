@@ -11,24 +11,28 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>我们走过漫漫征程，本以为可见曙光</size>",
+					"<size=51>「On my path of conquest, having yet to witness the light of dawn that I seeked,</size>",
 					1
 				},
 				{
-					"<size=51>却又步入一片幽暗的森林</size>",
+					"<size=51>I found myself lost deep amidst the woodlands; dim, dark, and dreary were they</size>",
 					3
 				},
 				{
-					"<size=51>啊！这森林是多么荒芜，多么险恶，多令人举步维艰！</size>",
+					"<size=51>Entombed within the darkness of those dense copses, I stood alone, trembling with fear,</size>",
 					5
 				},
 				{
-					"<size=51>而我们当时又是多么懵懂无知</size> ",
+					"<size=51>and I could do naught but curse myself for my ignorance and my foolishness</size> ",
 					7
 				},
 				{
-					"<size=51>以至于抛弃正路，不知何去何从——</size>",
+					"<size=51>O, when did I stray from the path of righteousness? How much time has passed?」</size>",
 					9
+				},
+				{
+					"<size=51>Empyreal Tragicomedy</size>",
+					11
 				}
 			}
 		},
@@ -76,7 +80,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 605020,
 			nameColor = "#ffde38",
-			say = "不…这不可能",
+			say = "No... Impossible...!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -114,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "燃烧、爆炸…硝烟将夜晚的塔兰托港染成一片鲜红",
+			say = "The Sardegna Empire was under attack, and Taranto harbor was dyed a burning red.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
@@ -172,7 +176,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "怎么会这样...！",
+			say = "How was I unable... to foresee an attack like this...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -191,7 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			say = "防空炮仍在嘶吼着，却无法完全阻止剑鱼们的突袭",
+			say = "Though the harbor's anti-air defenses were firing round after round into the skies, they could not stop the Royal Navy's aerial onslaught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +212,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "居然能在夜晚利用舰载机发动空袭…",
+			say = "How were they able to mobilize their aerial squadrons at night...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +226,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			say = "这仿佛地狱般的光景，不 ，这里就是地狱吧",
+			say = "The ships ablaze painted the harbor an infernal red. It was like staring into the maw of hell itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +237,7 @@ return {
 			}
 		},
 		{
-			say = "三日前，——永恒之城",
+			say = "Città Eterna, Capital of the Sardegna Empire - 3 Days Prior",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
@@ -278,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "这里可是陆间海，怎么会有塞壬舰队出没…确认清楚了吗？",
+			say = "There's no way the Sirens are supposed to be here in the Mediterranean Sea. Are you certain your information is correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +298,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "已经再三确认过了，帝国海域南部，有大量塞壬正在集结！",
+			say = "Yes! I am certain of it! A large Siren fleet has amassed near the Empire's southern border to the sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "竟然让塞壬进入到这么深入的位置…铁血的家伙究竟在做什么？！",
+			say = "What are those Iron Blood bastards doing, allowing the Sirens to advance this deep into our territory...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "明明已经再三强调过了，一切合作的前提必须是保证陆间海的纯净",
+			say = "(One of our demands for joining the Crimson Axis was that the safety of the Mediterranean would be secured...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "之前以掩护维希教廷为由引来塞壬的舰队已是越界，如今竟然还敢…！",
+			say = "(I was already apprehensive of them when the Sirens dismantled the Vichya Dominion, but now they advance upon us...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +378,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "好了，维托里奥，历史告诉过我们，一味地倚赖他人，终归最后会自食苦果——",
+			say = "Really, Veneto? History has shown us time and time again that the fruit left for those who blindly place their faith in others is bitter indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "是你啊，我的妹妹",
+			say = "Littorio...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +413,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "抱怨是不能解决问题的，「总旗舰大人」",
+			say = "Since when has grumbling solved any problems, Miss Eternal Flagship?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +430,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "曾经的帝国海军技不如人，屈居人下…",
+			say = "Our response should be simple. Gaze upon our glorious imperial fleet, and turn your eyes upon me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +447,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "然而现在，我们拥有欧罗巴大陆最先进的武器以及陆间海最强的舰队",
+			say = "We have the most technologically advanced fleet on the face of the continent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +463,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "好好看着这片土地和海洋吧",
+			say = "Now look across the land and the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +480,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "这片孕育了生命、文化、艺术以及战争的永恒之地",
+			say = "Our land is a hallowed cradle that has given birth to great civilizations and timeless cultures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +497,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "如果想要真正夺回罗穆路斯曾经的辉煌，我们必须将它完全夺回手中",
+			say = "If we wish to reclaim Sardegna's fabled birthright, just give me the word, Veneto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +514,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "——真正意义上的夺回手中",
+			say = "And by our own hands, the world shall know of our glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "可是…",
+			say = "R-right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +548,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "下令吧，总旗舰。只要你一声令下，帝国舰队将踏平一切陆间海来犯之敌",
+			say = "So, waste no more time being indecisive! I shall personally lead the Imperial Fleet to annihilate these intruders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "……",
+			say = "But... I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +583,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "我知道你在担心皇家舰队的态度，之前的奥兰港事件已经暴露了她们的野心",
+			say = "Ah, you are worried about the Royal Navy, aren't you? You fear the same thing that happened to Vichya will happen to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +600,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "继续坐以待毙的话，我们迟早也会和维希教廷的战舰一样成为皇家的俎上之肉",
+			say = "If we sit here and do nothing, we will end up just like those Vichya battleships, trophies adorning the Royal Navy's mantle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +617,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "这次塞壬入侵，对我们来说既是威胁也是机遇",
+			say = "Moreover, the fact that the Sirens have approached in our waters might be a blessing in disguise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +633,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "曾经限制着我们的鸢尾海军也已经不复存在",
+			say = "Because now, neither the Iron Blood nor Iris Libre are able to make a move in our territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +650,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "而皇家对于我们姐妹的实力目前还停留在纸面猜测的程度",
+			say = "And even if they could, they would have no way of assessing our naval might.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +667,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "怎么样，不如…",
+			say = "So, what do you say? Shall we seize this opportunity to partake in an act on the world stage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +684,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "就让我们一起来演一出最擅长的戏剧吧？",
+			say = "... and crush the Sirens in a show of Sardegna's might?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

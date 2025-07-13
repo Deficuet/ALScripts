@@ -9,7 +9,7 @@ return {
 			bgm = "theme-fool23-en",
 			sequence = {
 				{
-					"两位强者间的战斗还在持续着——",
+					"The great battle between good and evil and gold and iron continued.",
 					2
 				}
 			}
@@ -19,35 +19,35 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「重生吧，我的半身——巨龙机甲·铁爪！」",
+					"\"Come back to me, my second half – Iron Claw Mechadrake!\"",
 					1
 				},
 				{
-					"「▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌」",
+					"\"ROOOOOOAAAAARRRR!\"",
 					2
 				},
 				{
-					"「一刻也没有来得及为试作型超级钻头MKII量产型而哀悼，立刻赶来战场的是试作型超级钻头MKII量产型。」",
+					"Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
 					3
 				},
 				{
-					"「重生吧，我的半身——巨龙机甲·铁爪！」",
+					"\"Come back to me, my second half – Iron Claw Mechadrake!\"",
 					4
 				},
 				{
-					"「▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌」",
+					"\"ROOOOOOAAAAARRRR!\"",
 					5
 				},
 				{
-					"「一刻也没有来得及为试作型超级钻头MKII量产型而哀悼，立刻赶来战场的是试作型超级钻头MKII量产型。」",
+					"Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
 					6
 				},
 				{
-					"「重生吧，我的半身——巨龙机甲·铁爪！」",
+					"\"Come back to me, my second half – Iron Claw Mechadrake!\"",
 					7
 				},
 				{
-					"「▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌」",
+					"\"ROOOOOOAAAAARRRR!\"",
 					8
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"就这样持续着，仿佛直至时间的尽头。",
+					"And so the cycle repeated, continuing seemingly for eternity.",
 					2
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"至于这场战斗的结果？",
+					"Only one will survive this ultimate showdown of ultimate destiny. Who will it be?",
 					2
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"次回——《试作型布里MKII之死》",
+					"Find out in the next episode: \"Prototype Bulin MKII Dies\"!",
 					2
 				}
 			}
@@ -87,27 +87,27 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「特别说明」",
+					"LEGAL DISCLAIMER:",
 					2
 				},
 				{
-					"「本故事根据少女的幻想改编而成。」",
+					"ALL CHARACTERS AND EVENTS IN THIS SHOW...",
 					4
 				},
 				{
-					"「如有雷同，纯属巧合」",
+					"EVEN THOSE BASED ON REAL PEOPLE, ARE ENTIRELY FICTIONAL.",
 					6
 				},
 				{
-					"「拍摄过程中，没有任何试作型超级钻头MKII和革律翁受到实际伤害。」",
+					"NO PROTOTYPE SUPER DRILL MKII'S OR GERYONS WERE HARMED IN THE MAKING OF THIS SHOW.",
 					8
 				},
 				{
-					"「请放心观看。」",
+					"VIEWER DISCRETION IS ADVISED.",
 					10
 				},
 				{
-					"「——觉醒的黄金·END」",
+					"The End",
 					12
 				}
 			}

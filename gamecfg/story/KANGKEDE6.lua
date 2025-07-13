@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"康克德与甜食\n\n<size=45>六　甜品试吃专员？</size>",
+					"Sugary Concord\n\n<size=45>Chapter 6: Taste Tester?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "康克德开始钻研起甜品的做法——",
+			say = "Concord began to study the art of making sweets...",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦~原来如此，看来能轻松搞定~☆",
+			say = "Oh~ so this is how you do it, looks like it'll be a breeze~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完成！嘻嘻~康克德的红丝绒蛋糕~",
+			say = "And done! Hehe~ Concord's red velvet cake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，蛋糕看上去还行吧。",
+			say = "Commander, the cake looks pretty good, doesn't it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "看上去造型……很微妙。离好吃也还有很大差距，主要是太甜了！",
+			say = "The appearance... was nothing to write home about. The taste also had a long ways to go. Namely, it was way too sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔~看上去还不那么满意啊。指挥官可真是挑剔呢~♪",
+			say = "Ugh... you look a bit dissatisfied. Commander sure is picky~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会更加努力哦~",
+			say = "I'll make sure to work harder~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，今天是我最喜欢的草莓圣代~",
+			say = "Hey hey, today is my favorite strawberry sundae~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -180,7 +180,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官感觉如何？",
+			say = "Commander, what do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "康克德的星星眼仿佛是在期待什么…",
+			say = "Concord, starry eyed, seemed to be waiting for a certain response...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "就像是一团冰水混了大量的糖进去…",
+			say = "Her idea of a sundae was just a ball of shaved ice mixed with a massive amount of sugar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔~看来还要改进啊…",
+			say = "Ugh~ looks like there's still some room for improvement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的话，还是准备给你更大的惊喜~",
+			say = "Today, I have an even bigger surprise ready for you~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "的确是更大的惊喜…甜度再次升级了",
+			say = "It was definitely a surprise - she somehow managed to kick the sweetness up a further notch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然，还是不行吧？",
+			say = "It's no good after all, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可真没什么长处吧……手也不太巧……",
+			say = "Turns out, I don't have any talents... and I'm bit of a klutz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			},
 			options = {
 				{
-					content = "安慰她",
+					content = "Console her",
 					flag = 1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？不要过分求变…只在一种甜品上持续改进……这样就好？",
+			say = "Eh? Don't make too many changes... and just focus on making improvements to one thing... and it'll be fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼，好像也有道理~",
+			say = "Hmm... I suppose that makes sense~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "康克德贴到了身边，能够感受她的温度。",
+			say = "Concord leaned against me, her body giving off a gentle warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嘻嘻，那么指挥官，说定了~下一次也要当我的第一试吃专员哦~",
+			say = "Hehe~ Commander, it's decided then~ Next time, be my first taste tester as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

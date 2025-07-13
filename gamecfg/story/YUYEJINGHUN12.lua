@@ -10,12 +10,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "Serious Protégé GM",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "一本正经的后辈KP",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "虽然管家表面上答应得很干脆，但是你对于她是否真的会配合这一点保持怀疑。",
+			say = "Although the housekeeper sounds supportive, you are not convinced that she will actually help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,22 +42,22 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，你决定————",
+			say = "Next, you decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这里要谨慎一些，继续收集更多信息",
+					content = "Cautiously continue to gather information.",
 					flag = 1
 				},
 				{
-					content = "问她要城堡的地图吧",
+					content = "Ask for a map of the castle.",
 					flag = 2
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（嗯，已知信息还是太少了……再多收集一些情报吧。）",
+			say = "(I just don't have enough information yet... I should build up a bigger knowledge base before I take action.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我明白了。那么，我想了解下城堡里房间的分布情况，这样也好方便后续的调查。",
+			say = "For the sake of my investigation, I'd like to know the locations of rooms and corridors on each floor of the castle. May I have a map?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（嗯……管家和女仆长都提到过会迷路……不知道会不会是在暗示要根据地图的指示前进？）",
+			say = "(Royal Fortune said there were a lot of labyrinthine hallways. Maybe following a map would be better?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（试试看能不能拿到地图吧。）",
+			say = "(Yeah... First, let's see if we can ask for a map.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我明白了。那么，为了了解城堡里房间的分布情况，希望你能给我提供一份地图。",
+			say = "I'd like to know the locations of rooms and corridors on each floor of the castle. May I have a map?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "这样也好方便后续的调查，同时避免闯进不该进入的区域。",
+			say = "I wouldn't get lost if I had one, and I wouldn't wander into any rooms I shouldn't be in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,22 +144,22 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家没有回答，她看着你，那双犀利的眼睛里似乎闪烁着某种光芒。",
+			say = "The housekeeper does not answer. She simply stares, a sharp twinkle in her eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "说服她",
+					content = "Try persuading her.",
 					flag = 1
 				},
 				{
-					content = "用勋爵大人的名号压她一头",
+					content = "Bring up Lord Manjuu.",
 					flag = 2
 				}
 			}
@@ -168,11 +168,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=17）成功。在游说的过程中，你游刃有余且越发自信。",
+			say = "Roll a D100... 17. Success! While you try to convince her, you become more confident in your abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你相信管家无论如何也不可能拒绝你的提议。然后，你猛然想起了自己的自信源自何处。",
+			say = "You were certain that she wouldn't agree before, but you now realize where your confidence is coming from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,11 +196,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——是你俊美的外貌和绝佳的口才。在成长的过程中，你深刻地认识到自己的外貌极其出色。",
+			say = "It comes from your drop-dead good looks and eloquent tongue. The former, especially – you've been reminded many times in your life that you're too hot to refuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,11 +210,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然它给你带来了一些困扰，但如果善加利用就会带来意想不到的惊喜。",
+			say = "Though it causes trouble for you sometimes, it may yield surprising results if used well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,31 +224,31 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你成功回忆起技能：魅惑术，熟练程度：精通。",
+			say = "You've remembered the skill Enamor. Your proficiency is average.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……啊？",
+					content = "Huh?",
 					flag = 1
 				},
 				{
-					content = "……什么术？",
+					content = "I didn't hear you wrong, did I...?",
 					flag = 2
 				},
 				{
-					content = "这谁设计的！",
+					content = "Okay, who made this one up?",
 					flag = 3
 				}
 			},
 			location = {
-				"角色卡内容解锁",
+				"Investigator Stat Revealed",
 				3
 			}
 		},
@@ -256,12 +256,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "你没听错，魅惑术。",
+			say = "Yes. Enamor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,12 +271,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "魅惑术哦。",
+			say = "You did not. Your skill is called Enamor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,12 +286,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "让我做她的代理，自己跑去机关室玩的那个人。",
+			say = "The one who went to went to play in the puzzle room and left me in her place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,11 +301,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在魅惑术的帮助下，你的社交技巧也有了很大的提升。",
+			say = "...Your social skills have also been greatly improved by your Enamor skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,11 +315,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这让你在工作中获益匪浅，每次收集线索都能从相关人员口中获得重要线索。",
+			say = "This is a great boon at work when you need to convince relevant parties to share information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,11 +341,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最终，管家成功被你说服了。",
+			say = "Anyway, you successfully persuade São Martinho.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,11 +355,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "Castle Housekeeper",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "São Martinho",
 			hidePaintObj = true,
-			say = "在餐厅那里有城堡的简易地图，有需要的话您可以自取。",
+			say = "There's a simple map of the castle in the dining room. If you need it, by all means, take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,12 +369,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "Castle Housekeeper",
+			actorName = "São Martinho",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "餐厅的位置在走廊的另一边，原本可以从中庭直接穿过去，不过现在中庭正在翻修，得绕一下。",
+			say = "Oh, the dining room is across this hall. It would normally not be an issue if you passed through the courtyard, but it's being remodeled, so please detour around it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,11 +384,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "管家一边说着，一边用手在空中比划着路线，金色的袖扣在灯光下折射出幽暗的光。",
+			say = "She traces a route in the air with her fingers to tell you how to reach the dining room. Just then, the button on her sleeve happens to reflect the dim light of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,12 +398,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "Castle Housekeeper",
+			actorName = "São Martinho",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您很在意这枚袖扣么？",
+			say = "Did my button catch your eye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，真是一枚漂亮的袖扣。",
+			say = "Ah, yes. It's very pretty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,11 +425,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "Castle Housekeeper",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "São Martinho",
 			hidePaintObj = true,
-			say = "谢谢。这是大小姐送我礼物……",
+			say = "Golden Hind gave it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,11 +439,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "敏锐的观察力让你注意到了一些容易被人忽视的细节，那枚金属袖扣的图案似乎在哪里见过。",
+			say = "Your sharp eye allows you to notice such easily missable details. It seems you've seen the pattern on that button somewhere before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "Serious GM",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=31），成功。你知道这惊人的熟悉感究竟从何而来，这个图案和大小姐的发饰形状如出一辙。",
+			say = "Roll a D100... 31. Success. You quickly realize why it seems familiar: the button bears the same pattern as Golden Hind's hair accessory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（相同的教派标记……）",
+			say = "(The same symbol as that cult...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,12 +479,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "Castle Housekeeper",
+			actorName = "São Martinho",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还是得再提醒您一下，城堡内部很大，晚上行动的话会有迷路风险，还请小心。",
+			say = "I hate to repeat myself again, but the castle is vast. If you wander carelessly at night, you may get lost. Be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,12 +494,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
-			actorName = "古堡女管家",
+			factiontag = "Castle Housekeeper",
+			actorName = "São Martinho",
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，请原谅我再强调一下，卧室一类的非公共区域，请务必在征得房间主人的同意后才能进入。",
+			say = "Also, allow me to warn you once more: do not enter bedrooms or other private spaces without the occupant's permission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,11 +509,11 @@ return {
 			actor = 9600021,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "管家的工作是管家",
+			factiontag = "Castle Housekeeper",
 			side = 2,
-			actorName = "古堡女管家",
+			actorName = "São Martinho",
 			hidePaintObj = true,
-			say = "那么，大小姐还在等我，您请自便。",
+			say = "Golden Hind is waiting for me, so I must take my leave now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,11 +523,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说完，管家向你微微鞠躬，离开了会客厅。",
+			say = "After a quick bow, the housekeeper leaves the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

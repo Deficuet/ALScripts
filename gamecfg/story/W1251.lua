@@ -10,14 +10,14 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "扫描模块同步中：监测到周边区域存在来源模糊的讯号。指挥官，为舰队配备指挥喵后，可以尝试进行物资搜寻作业。",
+			say = "Scan complete. Readings indicate presence of an item beneath the surface. It would be possible to retrieve if a Meowfficer was assigned to your fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确定",
+					content = "I’ll remember to assign one for next time.",
 					flag = 0
 				}
 			}

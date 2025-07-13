@@ -12,7 +12,7 @@ return {
 			actor = 307100,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再激烈一点！「μ兵装」的极限可不是这种程度！",
+			say = "Give me more! This can't be all that the Muse System is capable of!",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "Polaris的「μ兵装」，还能继续行动！",
+			say = "Their new riggings are still active!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边也还能……加油！",
+			say = "I can still... keep singing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就陪我们一起唱完安可吧！",
+			say = "All right, let's take this to the encore then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "嗯！港区的大家也还在为我们加油呢！",
+			say = "Mhm! Everyone is still cheering us on from back at the port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 201216,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪，继续努力！",
+			say = "Don't count Javelin out just yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 101176,
 			dir = 1,
-			say = "拉菲…稍微打出点干劲…",
+			say = "Laffey... is feeling a little more motivated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样才好嘛！",
+			say = "I wouldn't have it any other way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

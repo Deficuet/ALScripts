@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？？·？？？？",
+					"Time: Unknown",
 					1
 				},
 				{
-					"？？？",
+					"Location: Unknown",
 					2
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{namecode:39:神通}，能听到么？",
+			say = "Jintsuu, can you hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "巨舰之中，蓝发少女微微闭目，似乎在盘算着什么。",
+			say = "Helena closed her eyes, deep in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "海伦娜？问题解决了？",
+			say = "Is that you, Helena? Have you already solved your problem?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "先来处理你们的问题。",
+			say = "Let's start with yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "现状如何？",
+			say = "What's the situation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "实验场β的{namecode:74:长门}与{namecode:71:比叡}已经恢复正常，不过我们还是无法离开卡美洛之庭。",
+			say = "Nagato and Hiei from test site beta are back to normal, but we can't leave Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "嗯，原因很简单，实验场β已经跑了。",
+			say = "Well, I happen to know why. Test site beta has moved somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……？跑了？",
+			say = "Did you say it MOVED?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "恩普雷斯的手段，它这个计划显然筹备了不是一两天了。",
+			say = "The Empress did it. She was plotting this whole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "所以出不去才是正常的，你们外面只有一片虚无。",
+			say = "There's nothing outside of Camelot. That's why you can't leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……连你也丢失了对于实验场β的观测？",
+			say = "I'm guessing... you don't know where beta is, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "被摆了一道，不过……这次倒是要感谢D了。",
+			say = "Yes, she's really done it this time. But I think we owe D a debt of gratitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "把D的那个奇怪通讯器打开，保持和实验场β的通讯连接状态，与我这边的通讯也不要挂。",
+			say = "Activate the communicator she left and maintain a connection with test site beta. Don't cut off comms with me, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……你要用这种方法逆向解析？",
+			say = "You're going to trace it backward?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "七十二个系统时之内。",
+			say = "I'll have it done in less than 72 system hours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "对了，转达实验场β的伊丽莎白，让她把消息同步给那两个正在追鲸鱼的家伙。",
+			say = "Also, let the Elizabeth from beta know to pass this message on to our two whale hunters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "如果不想回来的时候无家可归的话，也尽快开始解析吧。",
+			say = "\"If you don't want to be homeless when you return, you'd best start analyzing now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "你这次还挺好心？",
+			say = "Someone's awfully caring today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……多少欠了点人情。",
+			say = "...I'm just returning a favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "好了，先这样，各自去忙吧。",
+			say = "Anyway, that's about it. Let's be careful with this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "蓝发少女将通讯频道静音切到一旁，全神贯注操作起一个新的面板。",
+			say = "Helena muted the communication channel and turned her attention to a different panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "幻像实验场的核心装置……作为观察者的新基地刚刚好。",
+			say = "The core of the fake test site... A perfect place to serve as Observer's new habitat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "呵呵……之后给那家伙一个惊喜。",
+			say = "Heheh... This surprise will really knock you out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "捕获目标已锁定——启用「捕获模式」。",
+			say = "Coordinates traced. Switching to capture mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "——开始捕获。",
+			say = "Let's get down to business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

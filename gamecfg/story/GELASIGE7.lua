@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>七 甜蜜的妄想！</size>",
+					"'Tis the Season of Love!\n\n<size=45>7.That Scared Me Half to Death!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（……简直就像在做梦一样……）",
+			say = "(......What an absolutely dreamy situation...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 			},
 			options = {
 				{
-					content = "提高声音喊她名字。",
+					content = "“Earth to Glasgow!”",
 					flag = 1
 				},
 				{
-					content = "用手指戳戳她的手臂。。",
+					content = "Poke Glasgow.",
 					flag = 2
 				}
 			}
@@ -82,7 +82,7 @@ return {
 			actor = 202260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——欸！？啊，指挥官？！怎么了？",
+			say = "...Geh?! Oh, Master?! Is something the matter?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -114,7 +114,7 @@ return {
 			actor = 202260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说喊了我很多次我都没反应？……没，没什么！我只是在想事情而已……",
+			say = "Oh, you’ve been calling for me, but I haven’t been responding? ...It, it’s nothing at all! I just had something on my mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 202260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我，我会做好秘书舰工作的，放心吧！",
+			say = "I, I’ll fulfill my duties as your secretary, so don’t you fret!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看她无比慌张的模样反而心生担心…不过工作都好好做完了，也不好在说什么…",
+			say = "I was a bit worried about how flustered she looked... But because the quality of her work was impeccable as ever, I decided not to say anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,100 +159,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "继续未完成的工作吧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 202260,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "（啊， 吓死我了！得集中精神干活才行……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202260,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "（都怪昨晚从突击者那里借来的那本漫画啦！《女仆和主人是同学？！》……也太有意思了）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202260,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "（不过，因为看了那个导致在工作时陷入奇怪妄想这种事，怎么都不可能说出口吧…）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "格拉斯哥一边整理着资料，一边不知道在嘟囔着什么…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "果然工作太辛苦了吧…下次休息的时候约她一起去哪里玩玩放松下吧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202260,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "（哈啊…如果在现实中也能像妄想里那么顺利就好了…）",
+			say = "Instead, I tell her not to stress herself out too much, and then return to my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +176,83 @@ return {
 			actor = 202260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（下次休息的时候干脆下决心约指挥官出来……不对，是一定要约成功！",
+			say = "(Haah... That scared me half to death! How could I let myself daydream in the middle of work...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202260,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(And that manga I borrowed from Chaser last night... “The Maid and the Master are Classmates!”... What an astounding work of art!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202260,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(But, I can’t allow myself to become mired in delusions just because of a manga...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Glasgow seems to be mumbling something while going through the materials related to the next operation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Maybe I’ve been overworking her... Perhaps it’d be a good idea to invite her out somewhere to get work off her mind...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202260,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(Ahh... If only things in real life could work out that nicely...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +269,24 @@ return {
 			actor = 202260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（到时候一定要坦率地…温柔地安慰指挥官，啊，然后的场景就是…『突然一阵风吹过——）",
+			say = "(On my next day off, I should take the initiative and ask the commander out on a date... No, I simply must!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 202260,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "(Then, I’ll be sure to be more gentle... and comforting. Ah, and then... “Suddenly, the wind blows—”)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "『——终有一天，彼此的心能像妄想的那般无比靠近",
+			say = "“I wonder if a day will come when our hearts grow closer, just like in those wondrous fantasies.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "『温暖和煦的午后时光里，两人都在心中默默地思念着对方——』",
+			say = "“And thus, on a warm, warm afternoon... Two people who harbored feelings of deep affection for each other met—”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

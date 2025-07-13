@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_regions_data = {
 	{
 		maskid = 101,
-		name = "NA海域西北",
+		name = "NA Ocean NW Sector",
 		id = 1,
 		regions_pos = {
 			625,
@@ -17,7 +17,7 @@ pg.world_regions_data = {
 	},
 	{
 		maskid = 141,
-		name = "NA海域东北",
+		name = "NA Ocean NE Sector",
 		id = 2,
 		regions_pos = {
 			1397,
@@ -32,7 +32,7 @@ pg.world_regions_data = {
 	},
 	{
 		maskid = 11,
-		name = "NA海域西南",
+		name = "NA Ocean SW Sector",
 		id = 3,
 		regions_pos = {
 			625,
@@ -47,7 +47,7 @@ pg.world_regions_data = {
 	},
 	{
 		maskid = 61,
-		name = "NA海域东南",
+		name = "NA Ocean SE Sector",
 		id = 4,
 		regions_pos = {
 			1397,
@@ -62,7 +62,7 @@ pg.world_regions_data = {
 	},
 	{
 		maskid = 151,
-		name = "NA海域中心",
+		name = "NA Ocean Depths",
 		id = 5,
 		regions_pos = {
 			991,

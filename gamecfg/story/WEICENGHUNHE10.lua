@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			bgm = "hunhe-battle",
 			dir = 1,
-			say = "巴拿马要塞西侧·外海",
+			say = "Canal Stronghold - Out at sea",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边微笑着，一边把敌人全都轰飞了…",
+			say = "Not bad, Bremerton.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "哎？我的实战经验不是很丰富啦，刚刚有哪里做得不对么…？",
+			say = "Heh. I might not be as good as Baltimore, but there's nothing impressive about smashing up foes like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，做得很出色。近距离看下来，巴尔的摩级的性能果然很优秀。用性能弥补了实战经验的不足么？",
+			say = "I heard that the Baltimore class played a large role in the defense of NY City.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "哼哼，性能上来说我可是很自信的哦~而且，我可是进行过超多超严格的演习磨练的！",
+			say = "Well, thanks. I certainly wasn't there, but I'll take credit for it anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "本来想着终于有机会和巴尔的摩并肩作战了呢…",
+			say = "Having that said, I was looking forward to fighting alongside Baltimore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…很担心她么？",
+			say = "I'm worried about her too. I really am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "当然，怎么可能不担心呢……",
+			say = "That's natural. You're friends, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "布莱默顿面色凝重了一下，不过随即又露出了灿烂的笑容.",
+			say = "Bremerton's expression seemed pained for a moment, but she quickly went back to her characteristically bright, smiling self..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "不过巴尔的摩比我还要强哦，现在肯定已经在塞壬家里闹得天翻地覆了吧！",
+			say = "If it's that Baltimore we're talking about, she's probably smashing up the Sirens' home as we speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也相信她们一定会没事的。",
+			say = "Yeah... I'm sure she's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "嗯？海雾…？",
+			say = "Wait... Is that... mist?",
 			effects = {
 				{
 					active = true,
@@ -202,7 +202,7 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……【杂音】…听得到么…【杂音】…",
+			say = "...Bremerton ...ker Hill... can you hear...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…【杂音】…塞壬随着海雾…【杂音】…新一轮进攻",
+			say = "...the mist is... Sirens... the bay is...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -236,7 +236,7 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…远离海雾…【杂音】…返回近海…",
+			say = "...Hurry... run away...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Narration",
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "Various parts that looked like they were from Enterprise's rigging were scattered in the water.......",
 			dir = 1,
 			soundeffect = "event:/ui/noice",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯中断了。被刚刚出现的海雾干扰了…？",
+			say = "It's as Casablanca said. The mist is interfering with our communications.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,9 +282,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_banama_3",
-			actorName = "布莱默顿",
+			actorName = "Bremerton",
 			dir = 1,
-			say = "真是步步紧逼，一刻也不得闲啊…大家都在各处战斗，相互担心也解决不了问题。",
+			say = "And it seems like the Sirens are trying to invade the bay. Guess we're not looking in the right place either.",
 			effects = {
 				{
 					active = false,
@@ -302,11 +302,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "布莱默顿",
+			actorName = "Bremerton",
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们现在能做的就是，保护好巴拿马要塞，挫败塞壬的袭击计划。然后——相信同伴吧。",
+			say = "We should head back and defend the stronghold. We'll let our peers continue the search for Baltimore and Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,11 +318,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邦克山",
+			actorName = "Bunker Hill",
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！虽然战场历练得少，到底还是白鹰优秀的战士。很荣幸与你并肩战斗，巴尔的摩级的布莱默顿。",
+			say = "Sounds good to me. After all, the Sirens shall never break through a member of the Essex class!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,8 +338,8 @@ return {
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "布莱默顿",
-			say = "彼此彼此~很荣幸能同你并肩战斗，埃塞克斯级的邦克山小姐~",
+			actorName = "Bremerton",
+			say = "As a member of the Baltimore class, there's no way I'd lose to some small fry here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,8 +355,8 @@ return {
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "布莱默顿",
-			say = "（巴尔的摩…一定要平安无事啊）",
+			actorName = "Bremerton",
+			say = "(Baltimore... please stay safe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

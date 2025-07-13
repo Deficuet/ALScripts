@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"深谷来信\n\n<size=45>后日谈</size>",
+					"Letters from Valley Hospital\n\n<size=45>11 Epilogue</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜我们的“大侦探”顺利体验完本次活动的全部结局~",
+			say = "Congrats on making it to the end, \"ace detective!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "振兴吾辈血族的荣光，这样的结局果然不错嘛~",
+			say = "The ending where the bloodkin's glory is restored was quite excellent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为本作的编剧，能看到吾精心编排的剧情和设定被汝等完美还原出来，真是心情愉悦啊~",
+			say = "Speaking as the screenwriter, I'm very pleased that you all managed to perfectly replicate the story and setting I imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "指挥官，汝的功劳最大！快出来接受夸奖吧！",
+			say = "Commander, you worked hardest of all. Come out and accept your praise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
-			say = "看不见的剧幕落下，先前消失的“演员”们纷纷返场亮相。",
+			say = "As though that was the signal, an invisible curtain falls and all the \"actors\" who had left the scene returned one by one onto the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等你好久了指挥官！怎么样，米勒大人的表演有让您移不开目光嘛——",
+			say = "Been waiting for you, Commander! So, how'd you like the GOAT's acting? Pretty awesome, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101530,
-			say = "当、当然！我可没有在排演之外的时间偷偷练习啦！",
+			say = "A-and obviously I didn't train at all, outside of the expected practice with the other actors!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我作证！绝对没有看到米勒半夜三点的时候还在对着镜子研究吊索的使用方法！",
+			say = "Yeah, I can vouch for her! Because I sure as heck didn't see her practicing how to use a sling in front of a mirror at 3 in the morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "说起来，我还是第一次参加这样的活动，果然和冒险一样刺激啊~",
+			say = "Even though this was my first time doing an event like this, I can say it's got the same kind of thrill as a good adventure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "可惜我特地准备的急救包、多功能刀具、登山绳和防水帐篷都没派上用场呢……",
+			say = "It's a shame I never got to use my stuff, though. Like my first aid kits, multitools, mountaineering ropes, or waterproof tent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那种东西还是用不上比较好吧。",
+			say = "The fact they never saw any use is a good thing, honestly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果在坐游艇的时候遇上了海难，倒是会很有用……可惜没有设计这样的桥段。",
+			say = "Well, they would've been handy to have if we got shipwrecked while on the yacht. It's a pity that wasn't part of the script.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟坐船出航已经到了结尾部分了嘛！",
+			say = "The reason for that is because the voyage was immediately before the end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "是啊……一转眼就到结尾了。",
+			say = "*sigh*... It's already over. Bummer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "在剧中和指挥官相处的时间也不多……真是令人遗憾。",
+			say = "I barely got to spend any time with the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是么？……吾感觉已经很多了啊？",
+			say = "Really? I'd say you got to spend plenty of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,12 +252,12 @@ return {
 			actor = 901070,
 			side = 0,
 			bgName = "star_level_bg_308",
-			actorName = "莫加多尔&{namecode:59:铃谷}",
+			actorName = "Mogador & Suzuya",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不懂！\n你不懂。",
+			say = "- You just don't get it!  - You don't understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,12 +277,12 @@ return {
 			actor = 702070,
 			side = 0,
 			bgName = "star_level_bg_308",
-			actorName = "伏罗希洛夫&{namecode:91:赤城}",
+			actorName = "Voroshilov & Akagi",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，你不懂呢。\n复议。",
+			say = "- She's right. - Agreed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "啊……？",
+			say = "Excuse me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "……吾不懂？",
+			say = "I don't... understand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "——明明是吾写的剧本啊？！",
+			say = "But... it was I who wrote the script!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"「——深谷来信·END」",
+					"Letters from Valley Hospital - The End",
 					1
 				}
 			}

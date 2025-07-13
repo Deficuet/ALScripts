@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有障碍物挡着，到不了对面的说。得想办法把障碍清除掉……",
+			say = "There are some obstacles in our way, and we can't get to the other side. We'll have to figure out some way of clearing this stuff out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个水陆两用车，好碍事……",
+			say = "That amphibious vehicle is in the way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么好办法吗……",
+			say = "What's the best way to handle this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,9 +53,9 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "各位～看看我找到了什么～！嗯～…这是…什么的开关吧？",
+			say = "Everyone, look what I found! Umm, this is... some kind of switch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是“自爆开关”吗？按下去就会“砰”！然后“Game Over”吧",
+			say = "Is this one of those \"self-destruct switches?\" If you press it, it goes \"BOOM\" and you get a big \"Game Over.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就像{namecode:13}说的，也会有这种可能性，还是不要轻易按下去比较好……",
+			say = "Ikazuchi has a point. We don't know what it does, so it's best to leave it alone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/boat_drag",
-			say = "（按）",
+			say = "*ka-chunk*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "啊哇哇！不小心按下去了！？",
+			actorName = "Kizuna AI",
+			say = "UWOOAHH! I accidently bumped into it!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "全员",
+			actorName = "Everyone",
 			say = "……………",
 			subActors = {
 				{
@@ -170,7 +170,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（没有……爆炸）",
+			say = "(A huge explosion... didn't happen at all)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇、奇怪……？我们还…没事？",
+			say = "H-Huh...? We... we're alive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是从那边传来了爆炸声呢",
+			say = "I heard a faint exploding sound in the distance though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边…啊，刚才还堵着路的车子没了！",
+			say = "Look... that vehicle that was blocking the way is now gone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "太、太好了！这样就能继续前进了呢！",
+			actorName = "Kizuna AI",
+			say = "Woot! Now we can keep going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "全员",
-			say = "盯————",
+			actorName = "Everyone",
+			say = "*staaaaaaaares*",
 			subActors = {
 				{
 					actor = 401230,
@@ -289,8 +289,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "我、我错了啦～～～大家原谅我嘛～！",
+			actorName = "Kizuna AI",
+			say = "I-I'm sorry! Please forgive me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱，不要在意",
+			say = "It's okay, AI... it worked out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

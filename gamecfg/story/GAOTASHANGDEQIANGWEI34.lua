@@ -9,11 +9,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"日不落帝国·尼罗河总督区",
+					"Realm of the Neversetting Sun - Nile Governor-General's District",
 					1
 				},
 				{
-					"亚历山大港",
+					"Port of Alexandria",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_303",
 			hidePaintObj = true,
-			say = "重现奇迹-亚历山大引航灯塔的光芒中，历经战火的太阳船平稳落在了水面上。",
+			say = "Guided by the light of the \"Miracle Recreation - Lighthouse of Alexandria,\" the Mesektet safely returned from war-torn lands and touched down in friendly waters.",
 			bgm = "story-egypt-mystic",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊——尼罗河三角洲，我终于回来了——",
+			say = "Ah, how I missed you, Nile River Delta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呼——连空气都是如此新鲜——",
+			say = "Mmm... The air tastes fresher than ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们终于完成了这场艰难，但足以计入史书伟大航行。",
+			say = "Thus ends a great voyage fraught with danger. This one is sure to go into history books.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "感觉还……不错。",
+			say = "It feels... nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啸啸（吹哨声）——劫后余生，可喜可贺~",
+			say = "Fwee-fwee! We've escaped death by a centimetre yet again! Woo, go us!",
 			soundeffect = "event:/ui/koushao",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "这次回来之后，我得好好休息放松一阵子才能缓过来了……",
+			say = "I'm exhausted. I don't think I'll feel right until I've slept for a week or so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "哇啊……总督大人，不得了！",
+			say = "Oh, my... Miss Governor, listen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "我们收到了海量的贺电哦！数量还在继续增长中！",
+			say = "We're receiving a deluge of congratulatory telegrams! They show no signs of letting up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "真是迫不及待啊……",
+			say = "People noticed us fast, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "哼，怕是里面有不少人都没想到我能平安回来吧。",
+			say = "Hmph. Awful lot of them didn't think I'd come home in one piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你把关系好的留出来我单独回复，其他的做一般礼节性回复吧。",
+			say = "I'll reply to the ones from people I know. Save those for me, and give perfunctory responses to the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "哦对了……呵呵，把英勇女士的单独挑出来。",
+			say = "Oh, and one more thing. Bring me the one from Governor-General Valiant personally, if you would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "澳洲与所罗门群岛总督，近期还在谋求在安塔提卡设区并担任总督是么……",
+			say = "Since Terra Australis and the Solomon Islands apparently aren't enough for her, she's pursuing a third dominion in Antarctica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "上次你的提议给本总督送上了一个大大的惊喜，本总督不礼尚往来一下可不行啊~",
+			say = "I must say, that came as a real surprise to me. I'd be remiss if I didn't get one over on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "安塔提卡之战的主攻人选，不如就趁势定下来吧……",
+			say = "This is the perfect opportunity to pick out personnel for the fight for Antarctica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵呵……",
+			say = "Heheheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

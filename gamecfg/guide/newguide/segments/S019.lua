@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"武器强化完毕！战斗力飞升！！",
-	"点击返回按钮退出角色详情",
-	"点击返回按钮退出船坞"
+	"Weapons enhanced! Firepower increased!！！",
+	"Tap back to stop viewing character details.",
+	"Tap back to leave the dock."
 }
 
 return {

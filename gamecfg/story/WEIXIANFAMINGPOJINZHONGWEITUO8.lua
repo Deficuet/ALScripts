@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~？这就是更能增强本王皇家气质的道具么？",
+			say = "Hmm? So this is the invention meant to enhance my royal charisma?",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "没错~这是我刚刚制作完成的“辉辉光环君”！",
+			say = "Yep! It's my newly completed More-y Glory Aura Booster~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "只要戴上去就能闪闪发光，展现尊贵身份！",
+			say = "Wear this, and you'll glow all the time as proof of your majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？听起来倒是不错。",
+			say = "Oh, really? Why, it sounds perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好！那就让让本王试试看吧！",
+			say = "Very well! I shall test it at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伊丽莎白女王戴上了辉辉光环君，随即她整个人都被笼罩在一片柔和的光芒之中。",
+			say = "When she puts the More-y Glory Aura Booster on her head, soft light surrounds her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼~这感觉不错！本王十分满意！",
+			say = "Ohohoho~ Simply magnificent. I love it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（看来这次只是个灯光效果……应该不会再有什么问题了吧。）",
+			say = "(Is this one just a light source? Surely that can't cause any problems...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "当天晚上，我和菈菈正在整理这段时间关于委托的情况。",
+			say = "That night, Lala and I are arranging our list of requests as of late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……都这个时间了，你也辛苦了，早点回去休息吧。",
+			say = "It's getting late – you have to be tired by now. Go home and get some rest, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "没关系没关系~我得到了很多有趣的数据呢，而且这不是天色还早吗？",
+			say = "I'm fine~! This is giving me lots of interesting data, and it's still not dark outside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "欸？对哦，已经这个时间了……为什么外面天还是亮的？",
+			say = "Wait, what? It's REALLY late. Why is it not dark yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "突然，随着指挥室的大门被人推开，一阵刺眼的光芒也射了进来。",
+			say = "The door to my office is thrown open. A humanoid avatar of pure light enters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "呜哇！好刺眼！",
+			say = "Aaack! Too bright!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "眼睛……眼睛看不到了……",
+			say = "My eyes... My eyes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了？见到本王为何要遮住眼睛？",
+			say = "What's the matter? Covering your eyes before a queen is hardly polite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在跟伊丽莎白女王一番解释之后，终于让她放弃了“让港区日夜沐浴在本王光芒之下”的打算。",
+			say = "It took a while to get our little queen to give up on her noble ideal of \"letting the port bathe in the queen's light, day or night.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在菈菈把辉辉光环君重新调整亮度之后，港区终于迎来了夜晚。",
+			say = "After we'd adjusted the More-y Glory Aura Booster to a more appropriate brightness level, the sun had finally set on the port once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

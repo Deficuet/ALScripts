@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这里……奇怪？嗯……？不奇怪？安克雷奇，不懂……！",
+			say = "Something wrong... with this spot? Hm? It's not? I don't understand...",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_gift5_tone1",
 			typewriter = {
 				speed = 0.05,

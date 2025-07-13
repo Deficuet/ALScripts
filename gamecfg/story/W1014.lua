@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中存在尚未回收的压制奖励，建议进行回收作业后再离开。",
+			say = "Scanning complete. There are still uncollected rewards in this zone. Please collect them all before leaving this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,11 +21,11 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Got it",
 					flag = 0
 				},
 				{
-					content = "暂时离开(压制奖励不会消失)",
+					content = "Leave for the time being.",
 					flag = 1
 				}
 			}

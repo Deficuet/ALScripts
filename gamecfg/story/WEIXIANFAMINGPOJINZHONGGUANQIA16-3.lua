@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "随着战斗愈发白热，复制体的舰队也使出全力进攻。",
+			say = "As the doppelganger fleet brought all to bear, the battle only intensified.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "密集的炮火如同暴雨般倾泻而来，受到大家围攻的复制体菈菈也启动了修复模式。",
+			say = "Dense weapons fire showered down on the Royal Navy like rain, and the damaged doppelganger automatically repaired herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "它周身围绕着红色的光芒，不断吸收周围敌舰的能量。",
+			say = "She looked all the more intimidating as she absorbed energy from her companions and glowed with eerie red light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "随着它吸收的能量越来越多，它所进行的每一次的攻击也变得更加凶狠。",
+			say = "And as she absorbed more energy, her attacks became more and more ferocious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这些家伙根本没完没了吧！只要姐姐的复制体还在，就会不停出现那些杂兵。",
+			say = "There's no end to these things! As long as Lala's doppelganger is there, they'll just keep spawning reinforcements forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "而姐姐的复制体又会吸收那些杂兵的力量，变得越来越强……",
+			say = "Every single one of them just feeds her power, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "切，这样下去没完没了啊。",
+			say = "Tch. This is a losing battle at this rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "可恶……这样下去的话，我们很快就会被它们耗到极限……",
+			say = "I agree... It's only a matter of time until we're cornered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？菈菈和梦梦似乎有些战胜敌人的思路啊。",
+			say = "Hm? Lala and Momo, do you have some kind of plan...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我们只管全力防守，给她们争取时间！",
+			say = "In that case, all forces, take a defensive posture! We must buy them time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人，复制体的攻击模式虽然复杂且多样，但是能看出是基于某种算法的痕迹。",
+			say = "Lala, I've figured out her attack patterns. They are complex and varied, but they seem to be based on a set algorithm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯！我也注意到了……应该是超级游戏制作机的程序设定。",
+			say = "Yeah! I noticed that, too, and I bet it's because of Questy's program settings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "如果我们能解析它的攻击模式，找到弱点的话……应该就能逆转现在的局势！",
+			say = "If we analyze that pattern and find a weakness, we could turn this fight on its head!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "那我就去引开它的注意力吧。姐姐大人，指挥就拜托了！",
+			say = "Then I'll draw her attention. It's up to you to lead the fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "说着，梦梦以一个刁钻的角度向复制体菈菈发起了攻击。",
+			say = "Momo promptly charged toward the doppelganger's fleet, found an ideal opening, and attacked from an unexpected angle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "而菈菈也根据超级游戏制作机屏幕上实时出现的文字，仔细观察着复制体的动作。",
+			say = "Meanwhile, Lala used Questy MacGuffin and her own observation of the doppelganger's fleet to analyze their movements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "大家，请听我说！",
+			say = "Everyone, listen up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "在复制体下次攻击后的3.5秒后它会有一个抬起右手的动作，这时候会有防御的真空期！",
+			say = "About 3.5 seconds after the next time the doppelganger attacks, she'll raise her right hand. That's when she's vulnerable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就趁它出现这个动作时，大家一起攻击！",
+			say = "Attack all at once during that opening!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能够预测破绽么……有趣。",
+			say = "Knowing their opening in advance... Hah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "放心吧，菈菈小姐，我们不会错过机会的！",
+			say = "Worry not, Miss Lala! We will not miss this opportunity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "在菈菈的提示下，大家立刻调整攻击节奏，开始寻找复制体的攻击破绽。",
+			say = "On Lala's orders, the party adjusted their attack rhythm and waited for the doppelganger to become vulnerable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "果然，在它完成又一轮射击后，如菈菈所说的抬手动作出现了。",
+			say = "And indeed, just as Lala had pointed out, the doppelganger raise her right hand after attacking and became vulnerable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……就是现在！",
+			say = "...Now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -456,7 +456,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "复制体被炮火击损的深处赫然闪烁着与能量石相似的光辉。",
+			say = "The fake Lala's plating was destroyed, revealing something inside that flashed like an Energy Stone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "啊！就是那里！它的核心！只要击碎那里应该就没问题了！",
+			say = "That's her core! Destroy that, and she's done for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所有人，随本王一起消灭它！",
+			say = "Finish this! Royal Navy, attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -558,7 +558,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "随着震耳欲聋的炮声响起，受到密集攻击的核心被彻底击碎，周围的其它敌舰也纷纷解体，沉入海底。",
+			say = "After the deafening roar of artillery, the core was obliterated without a trace, and the doppelganger fell. All of the hostile ships around it disintegrated and sank deep into the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "最终挑战~顺利通关！",
+			say = "We did it! Final challenge complete~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

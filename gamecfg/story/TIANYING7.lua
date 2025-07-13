@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>七 天鹰的指挥官大人</size>",
+					"The Growth of a Courtly Lady\n\n<size=45>7 My Commander</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "茶会结束后，与天鹰并肩走在港区的道路上。",
+			say = "After the tea party ended, I went to pick Aquila up and bring her back to the office.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "…今天独角兽准备了非常好吃的点心哦！",
+			say = "...So, Unicorn prepared some really tasty treats for today's tea party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多出来的一些我已经包起来了，指挥官等会也来尝尝吧～",
+			say = "I wrapped up the leftovers, so you can help yourself if you'd like~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在茶会上，光辉小姐和独角兽她们…——",
+			say = "Though if you don't hurry up, the other girls might get to them before you. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "天鹰开心地讲述着茶会上发生的故事。",
+			say = "Aquila continued to happily tell me about her tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "现在的天鹰，仿佛正在散发出耀眼的光芒。",
+			say = "What Unicorn said was right. Aquila's just being herself today, and it shows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "虽然大家都那么说…不过我心里清楚的，与光辉小姐、还有其他各位相比，我还有很多不成熟的地方。",
+			say = "Of course, I cannot hold a candle to Miss Illustrious in so many aspects...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我现在明白了，这些都不是我有所“欠缺”的地方。",
+			say = "But that isn't the thing that I was missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "没错，无论是举止的优雅，还是协作的能力，亦或是作为航母的实力，都不足以达到“欠缺”的程度。",
+			say = "She's always had what it took in terms of elegance, work capability, and skills as a carrier. Of course, there's always room for improvement, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "呵呵，其实我一开始就注意到了哦，茶会，指挥官一直在看着的吧？",
+			say = "One more thing... I finally realized, you've been secretly watching over me this whole time, right? Because you're worried about me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "…果然被发现了啊。",
+			say = "That, I had. I didn't think she would notice, but since she did, I had to apologize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "天鹰可没有那么迟钝哦？…啊、指挥官大人不用道歉，我完全没有生气啦！",
+			say = "My Commander, there's no need to apologize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "毕竟，今天我能够再一次鼓起勇气参加茶会，和光辉小姐敞开交谈，全都多亏了有指挥官在呢。",
+			say = "I was able to join today's tea party because of you... I've also learned so much recently because of your help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢您让我注意到了自己真正“欠缺”的部分。",
+			say = "But above all, thank you for noticing what I was missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,24 +266,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "银发的少女披红白绿的三色斗篷，脚步轻盈地靠了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 607010,
-			side = 2,
-			bgName = "bg_night",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "天鹰缺少的一定是——",
+			say = "The silver-haired girl spun around and flourished her red, white, and green cloak mischievously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +283,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一直关注着天鹰、珍视着天鹰的指挥官您吧。",
+			say = "The thing I was missing was...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 607010,
+			side = 2,
+			bgName = "bg_night",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "A Commander who cherishes me for who I am~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "手臂被少女以优雅的姿态挽住，耳边传来少女的轻声细语——",
+			say = "The elegant young lady from Sardegna drew close to me and lightly intertwined her arm with mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "今后也请多多关照了哦，我的指挥官大人♪",
+			say = "Please, continue to teach me all sorts of things, my Commander~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

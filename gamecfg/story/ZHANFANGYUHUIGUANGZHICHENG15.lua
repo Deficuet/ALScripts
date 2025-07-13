@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "居然……又来到了这里。",
+			say = "I'm here again...",
 			blackBg = true,
 			bgm = "story-startravel",
 			typewriter = {
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "触碰到D小姐的手后，伴随着失重感，我再次来到了这片空间。",
+			say = "I grabbed Miss D's hand and was sent back to the void again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "无垠、广袤、虚无，方位与时间似乎在此处失去了意义。",
+			say = "It stretches on endlessly in all directions. Time and orientation mean nothing here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过这一次……我的意识仿佛被包裹在一股蓝色的清泉中。非但没有缓缓消逝，反而比以往更加敏锐。",
+			say = "Unlike last time, however, my consciousness isn't being wrestled from me. It's like I'm in a protective bubble, augmenting my perception of my surroundings rather than weakening it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "就是此时，我注意到，这片空间并非真的如我之前认为的一般孤寂。",
+			say = "This raised awareness lets me detect something amongst the nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "前赴后继地迎向死亡……这就是你们的选择么。",
+			say = "Embracing death, one after the next... Is this what you chose?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,13 +106,13 @@ return {
 			expression = 1,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "果然……我的答案是正确的。",
+			say = "Then \"I\" made the correct choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳边传来了一丝没有感情的声音，忽近忽远，若即若离。",
+			say = "A woman's voice devoid of emotion. Close, yet distant, coming closer, yet getting further away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "黑暗之中，有某个身影正在喃喃低语。",
+			say = "Someone is speaking to me through the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,13 +148,13 @@ return {
 			expression = 3,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "生命自虚无之中诞生，又伴随着死亡回归虚无。",
+			say = "Life comes from nothing, and to nothing death brings it back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,13 +168,13 @@ return {
 			expression = 4,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "虚无，就是答案。",
+			say = "Oblivion is the answer to all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,13 +188,13 @@ return {
 			expression = 1,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "与其在起点与终点之间苦苦挣扎。",
+			say = "You would be wise to accept your demise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,13 +207,13 @@ return {
 		{
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "不如接受这个答案，接受「你们」的终结吧——",
+			say = "It's better than fighting in vain somewhere between the beginning and the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（身影的位置不远……但是在黑暗中忽隐忽现，无法看清。）",
+			say = "(She can't be far, but I have no idea where she is.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（可以确定的是，她正在此处观察着辉光之城中进行的战斗。）",
+			say = "(All I know is that she's watching us... Watching the Martyrium.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（她究竟是谁……这里到底是哪里……）",
+			say = "(Who is she? And what is this place?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,13 +263,13 @@ return {
 			expression = 3,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 900430,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "噢，真的么？",
+			say = "Really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,13 +283,13 @@ return {
 			expression = 10,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 900430,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "如果，死亡不意味着回归虚无呢？",
+			say = "Then what if death didn't mean returning to nothingness?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（这个声音是……之前那个成熟模式的D小姐？！）",
+			say = "(Is that... Miss D? She sounds older, somehow.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,13 +315,13 @@ return {
 			expression = 4,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……？！",
+			say = "What...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,13 +335,13 @@ return {
 			expression = 1,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……你，能听到我说话？",
+			say = "You can hear \"my\" voice?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,13 +355,13 @@ return {
 			expression = 4,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……你，是谁？",
+			say = "Who are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸……咦？！你又是谁？！为什么会在助手身边？！",
+			say = "Mmgh... *gasp*! No, who are YOU? What are you doing with the assistant?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,13 +421,13 @@ return {
 			expression = 4,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……助手？",
+			say = "\"Assistant\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "对啊？助手！真是的，你怎么又乱跑过来了！真的会越——来越碎的！",
+			say = "You heard me! Assistant, why are you here AGAIN? I'm telling you, you WILL get torn apart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "D小姐向我的方向指了指，而直到此刻，声音的主人才似乎终于发现了我的存在。",
+			say = "Miss D points to where I am. This finally alerts the other person to my presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,13 +480,13 @@ return {
 			expression = 4,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……还有一个人？",
+			say = "Someone else... is here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,15 +497,15 @@ return {
 			},
 			options = {
 				{
-					content = "哟~",
+					content = "Hey.",
 					flag = 1
 				},
 				{
-					content = "……你好？",
+					content = "Are you... Rodney?",
 					flag = 2
 				},
 				{
-					content = "对不起，我不是故意偷听的。",
+					content = "I wasn't trying to eavesdrop, I swear.",
 					flag = 3
 				}
 			}
@@ -514,13 +514,13 @@ return {
 			expression = 3,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,13 +534,13 @@ return {
 			expression = 1,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "你们是什么人，为什么能来到这里？",
+			say = "Who are you people? Why have you come here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "我们是——",
+			say = "Long story short–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "喂！怎么闲聊起来了！你看看现在是适合闲聊的时候么！",
+			say = "Shut up, you! There's no time to talk!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "都说了，这里对你很危险啊！快跟我走了！",
+			say = "Don't make me repeat how dangerous this place is! Come along!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "还有你……不知道叫什么名字的人，你要一起走么？！",
+			say = "And you, whoever you are! You coming with us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,13 +639,13 @@ return {
 		{
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……一起走？",
+			say = "\"Me\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,13 +659,13 @@ return {
 			expression = 2,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "不了……我不离开这里。",
+			say = "No, \"I'm\" afraid \"I'm\" staying here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "真是个怪人……这里黑漆漆的有什么好？那不管你了~略略略！",
+			say = "What do you mean, \"no\"? Do you LIKE being in this dark, dreary place? Suit yourself, weirdo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#5CE6FF",
-			say = "助手，我们回辉光之城。这次一定要好好抓紧我，千万别再跑丢了哦！",
+			say = "Assistant, we're going back to the Martyrium! Hang on tight and don't get lost a third time!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
-		name = "特型舰",
+		name = "Special Ship",
 		use_item = 20001,
 		type = 1,
 		ship_icon = "1",
@@ -13,16 +13,16 @@ pg.ship_data_create_material = {
 		icon = "build_1",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：28.8%"
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 28.8%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "轻型舰",
+		name = "Light Ship",
 		use_item = 20001,
 		type = 1,
 		ship_icon = "2",
@@ -33,15 +33,15 @@ pg.ship_data_create_material = {
 		icon = "build_2",
 		exchange_count = 1,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "重型舰",
+		name = "Heavy Ship",
 		use_item = 20001,
 		type = 1,
 		ship_icon = "3",
@@ -52,16 +52,16 @@ pg.ship_data_create_material = {
 		icon = "build_3",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：28.8%"
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 28.8%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "限时建造",
+		name = "Limited Build",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "1",
@@ -72,18 +72,18 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%",
-			"<color=#ffde38>{namecode:546}</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%",
+			"<color=#ffde38>Admiral Zenker</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>{namecode:545}</color>：2.0%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>U-552</color>: 2.0% <color=#92FC63>(up!)</color>"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "限时建造",
+		name = "Limited Build",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "1",
@@ -94,15 +94,20 @@ pg.ship_data_create_material = {
 		icon = "build_5",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%",
+			"<color=#ffde38>De Zeven Provinciën</color>: 2.0% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>Kazan</color>: 0.5%",
+			" ",
+			"<color=#d797ff>Evertsen</color>: 2.5% <color=#92FC63>(up!)</color>"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "特型舰祈愿",
+		name = "Wishing Well - Special",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "1",
@@ -113,16 +118,16 @@ pg.ship_data_create_material = {
 		icon = "build_6",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：28.8%"
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 28.8%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "轻型舰祈愿",
+		name = "Wishing Well – Light",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "2",
@@ -133,15 +138,15 @@ pg.ship_data_create_material = {
 		icon = "build_7",
 		exchange_count = 1,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "重型舰祈愿",
+		name = "Wishing Well - Heavy",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "3",
@@ -152,16 +157,16 @@ pg.ship_data_create_material = {
 		icon = "build_8",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：28.8%"
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 28.8%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "轻型限时建造",
+		name = "Limited Build – Light",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "2",
@@ -172,16 +177,16 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_count = 1,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%",
-			"<color=#d797ff>塔尔图</color>：1.4%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 26%",
+			"Common: 55%",
+			"<color=#d797ff>Tartu</color>: 1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "限时建造",
+		name = "Limited Build",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "1",
@@ -192,24 +197,24 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_count = 0,
 		rate_tip = {
-			"<color=#ff5e39>海上传奇舰船</color>：1.2%",
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：28.8%",
+			"<color=#ff5e39>Ultra Rare</color>: 1.2%",
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 28.8%",
 			" ",
-			"<color=#ff5e39>{namecode:514}</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Bismarck Zwei</color>: 1.2% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:516}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Regensburg</color>: 2.0% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:510}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Otto von Alvensleben</color>: 2.0% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:515}</color>：0.5%"
+			"<color=#ffde38>U-556 META</color>: 0.5%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "庆典新手建造",
+		name = "Campaign Pool ",
 		use_item = 20001,
 		type = 2,
 		ship_icon = "1",
@@ -220,10 +225,10 @@ pg.ship_data_create_material = {
 		icon = "build_11",
 		exchange_count = 0,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"<color=#ffde38>Super Rare</color>: 7%",
+			"<color=#d797ff>Elite</color>: 12%",
+			"<color=#3dc6ff>Rare</color>: 51%",
+			"Common: 30%"
 		}
 	},
 	all = {

@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，周边区域内已无任何敌方反应。",
+			say = "Scan complete. No Siren signals were detected in the area.",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在汇总战场情报————",
+			say = "Initiating combat data analysis.",
 			voice = "event:/tb/19/tb-19",
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已完成：指挥官，除了我们之外，还有三个方向的舰队突破了塞壬防线，塞壬第一条防线正在瓦解中。",
+			say = "Analysis complete. This fleet and three others have broken through the Sirens' defenses. The first line of defense in the NA Ocean has been breached.",
 			voice = "event:/tb/40/tb-40",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "进展很顺利呢。",
+			say = "Nice, let's keep up the good work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好！接下来就是第二条防线——贝法，有侦察情报了么？",
+			say = "Very well. Up next should be the second line of defense. Bel, any news on reconnaissance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，第一轮侦察已经结束。除了零星的敌人之外，没有发现塞壬布置防线的迹象。",
+			say = "Yes, Your Majesty. The first round of reconnaissance has been completed. There are several stray Siren fleets, but there does not seem to be a sizable force holding the line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？只有零星的敌人？不会吧……外围防御部署的那么严密，后面却没有部署第二条防线……？",
+			say = "Does that mean... they went all out on their first defense and didn't feel like they had to bother afterward?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道塞壬把所有力量都集中到外围防线了么…？",
+			say = "Maybe they sent all of their available units to defend the exterior...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有战略纵深，没有预留舰队，没有支援设施，一点击溃就全线溃败……？",
+			say = "(There's no sound strategy behind this... If they have no Plan B, there are no escape routes or reinforcements. Once they're breached, they've lost.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么蠢战术……塞壬是到现在还没睡醒么？！",
+			say = "(There's no way that we caught them completely unaware...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "假设塞壬真的因为某些原因做出了如此异常的部署，一个关键问题就回来了。",
+			say = "Even though each fleet has defeated a large number of Sirens, it's still not as many as we were anticipating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "……敌人的数量对不上。",
+			say = "Moreover, our initial analysis suggested that we would encounter more of their forces the closer we got to the heart of the NA Ocean, not the opposite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的舰队在本日总攻发起前应该并没有受到太大损伤，原本就算整个核心区被塞壬舰队填满也不为过。",
+			say = "The positioning of the Sirens is questionable for sure... Even assuming the Sirens are all at the heart of the NA Ocean, there's still a mismatch in the number of Sirens we scouted and the number of Sirens we've defeated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "可是从现在的情况看，敌人的数量还是太少了……",
+			say = "Not only that, if all of them are at the heart, they'd be so tightly clustered they'd only get in each other's way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到这一步了塞壬还有隐藏实力的必要么……？想要突围的话之前有更好的时间点吧。",
+			say = "Plus, there's no need for them to hide their strength after we've come this far... If they really wanted to halt our advance, they could just group up and try whatever they wanted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通知各舰队提高警惕，一边扫荡零星的敌人，一边继续前进吧。",
+			say = "\"Great points. We ought to keep our eyes peeled for any strange Siren deployments while continuing with our plan...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

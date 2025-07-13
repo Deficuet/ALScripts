@@ -9,8 +9,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#ffde38",
-			actorName = "维托里奥.维内托",
-			say = "战况如何，塞壬舰队都被消灭了么？",
+			actorName = "Vittorio Veneto",
+			say = "Cesare, how did your battle with the Sirens go?",
 			dir = 1,
 			bgm = "battle-boss-italy",
 			effects = {
@@ -33,7 +33,7 @@ return {
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
-			say = "一群没有理智的杂鱼而已，根本没有威胁。",
+			say = "Nothing but small fry devoid of any thought. Not even worth mentioning.",
 			effects = {
 				{
 					active = false,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "敌人…并不强大，没有遗漏。",
+			say = "That's right. We didn't spare a single one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "一群让人提不起劲的家伙罢了，对吧，波拉",
+			say = "Makes you wonder what they were even trying to do. Doesn't it, Pola?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是的哦，{namecode:526}姐。波拉这里也全歼敌人了…",
+			say = "Yes, Zara. It was over before it even started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#ffde38",
-			actorName = "维托里奥.维内托",
+			actorName = "Vittorio Veneto",
 			dir = 1,
-			say = "好，大家都干的漂亮，凯撒，你带大家返回拉{namecode:432}齐亚港修整，我会联系港区后勤好好犒劳大家的。",
+			say = "You've all done well. Cesare, could you guide everyone to La Spezia? You've all earned some time to rest and recover.",
 			effects = {
 				{
 					active = true,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
-			say = "庆功宴吗，真是值得期待呀~哈哈",
+			say = "We could definitely use it. Should I expect a celebratory party waiting for us?",
 			effects = {
 				{
 					active = false,
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "等等…那是？",
+			say = "... Wait... What's that in the distance...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
-			say = "今天有联系帝国空军支援吗，总旗舰大人？",
+			say = "Eternal Flagship, did you request aerial support from Iron Blood?",
 			effects = {
 				{
 					active = false,
@@ -195,7 +195,7 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "不…看机型应该是…皇家的侦查机！",
+			say = "No, that's not Iron Blood... Those are Royal Navy aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "全员对空准备！！",
+			say = "Should we prepare for anti-air measures?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			actor = 900197,
 			dir = 1,
-			say = "来不及了..敌人已经逃出射程之外了…",
+			say = "It's probably fine. They've already left our range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "皇家这班鬼鬼祟祟的家伙，就和苍蝇一样烦人！",
+			say = "Typical Royal Navy fashion. They're more annoying than flies. Anyway... Cesare, your orders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "好了，全舰队继续前行，目标——拉{namecode:432}齐亚！",
+			say = "Right. Attention, everyone! As per Veneto's orders, we'll head for La Spezia!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "（一切都和计划的一样，接下来，好戏就要开演了）",
+			say = "(Yes, everything is proceeding as planned. Soon, our play will begin...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -41,8 +41,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "接下来是“争斗之都”！你觉得在测试者留下来的阵地废墟上修个布满要塞的都市怎样，很合“争斗之都”的气质吧？",
+			actorName = "Purity",
+			say = "Up next, the Castle of Strife! Whaddya say we turn the ruins Tester left behind into a fortified city?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "不，直接留着现在的遗迹不就好了？没有必要再去加一些什么吧。",
+			say = "Why not leave the ruins as exactly that – ruins? There is no need to alter them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,8 +77,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "纯天然的塞壬遗迹啊……倒也不是不行。嗯嗯嗯……确实有些时候过度修饰反而会减少一些美感。",
+			actorName = "Purity",
+			say = "Don't fix it if it ain't broke, huh... Guess that works. It's like they say, \"don't tamper with natural beauty.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,8 +94,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "既然如此，剩下的就交给执行者去善后，我们直接去下一片区域咯~",
+			actorName = "Purity",
+			say = "Alright, that was easy. Let's head to the next island while the Enforcers do their thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "等一下。这些人型个体在做什么？汝不是说要原汁原味吗？",
+			say = "Wait. What are these humanoid creatures doing? I thought you said you'd leave this site alone?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,8 +130,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "在清理战场哦！就算不建造新的东西，清理环节还是不能少。",
+			actorName = "Purity",
+			say = "They're just tidying up the place. Can't exactly leave it COMPLETELY untouched, can I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,8 +147,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "回收武器装备，拆解能源系统，还有清理污染和排除危险的爆炸物！",
+			actorName = "Purity",
+			say = "There are weapons, energy systems, contaminants, and bombs littering the whole place. That's a lot to clean up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,8 +165,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "如果真的一点安全措施都不做的话，等无防备的人进来的时候可就要发生相当危险的事了！",
+			actorName = "Purity",
+			say = "If I don't, the next people who come through here are gonna meet one gruesome fate or another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "汝倒是挺细心的。那些安放在各处的奇怪装置也是清理战场的一环么？",
+			say = "Oho. How considerate of you. What of the boxes scattered about the site, then? Are they part of the cleanup as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,8 +200,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "不！那些是宝箱！说到遗迹废墟，那就一定要有宝箱吧！",
+			actorName = "Purity",
+			say = "Nah, those are treasure chests. 'Cause what are ruins without hidden treasure to find?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,8 +228,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "这是我作为遗迹设计师绝对无法退让的底线！必须要有宝箱！",
+			actorName = "Purity",
+			say = "Nothing, that's what. That's a sin that I, as the designer of this place, will not tolerate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "……唔，倒也不是不能理解，随汝吧。",
+			say = "I suppose you're right about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "遗迹群岛·起始之地 莱莎的临时炼金工房",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这样一来，新获得的配方就全部调合完毕了……感觉怎么样，赛莉小姐，莉拉小姐？",
+			say = "Well, the synthesis was a success... at least as far as I can tell. Serri, Lila, what do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900050,
-			say = "……对于战斗十分有帮助。既然是莱莎的好意，我就收下了。",
+			say = "This will be good to have in a fight. Thanks, Ryza. I'll treasure this gift.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "有点像盔甲与武器的结合体，但是没有沉重感或者异物的感觉，就像身体的一部分一样。",
+			say = "It feels like a set of armor and a weapon in one, yet it doesn't weigh me down whatsoever, almost as though it's an extension of my body.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "不过要熟练运用的话，还需多加训练才是。",
+			say = "Having said that, I will need practice to master its use.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "获得了新装备，然后战斗力变得更强！真是越来越有种冒险的感觉了~",
+			say = "This is starting to feel like a real adventure! We're equipping gear we just found and instantly becoming stronger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "是啊，与同伴一同探索遗迹，然后获得宝物……果然我还是停不下来冒险的脚步呢~",
+			say = "Yeah, you're right! We're even exploring ruins and finding treasure. This is why I love going on adventures!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（是呢…如果我也有和大家一样的装备的话就能一起冒险了……）",
+			say = "If only I had a rigging, maybe I could fight with you...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "欸？科洛蒂娅你刚刚说什么了么？",
+			say = "Hm? Did you say something, Klaudia?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么没什么~接下来要去寻找第三把钥匙了吧？",
+			say = "Oh, no, nothing! Anyway, I guess we're going looking for the third key next?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的哦~东北还有一个叫什么城的地方吧，第三把钥匙应该就在那里！",
+			say = "Yup. There's still that castle to the east to check out, and I wager that's where we'll find it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，正如碑文所言「东方为争斗之城，埋葬往昔残酷的真相」。",
+			say = "We're heading to the Castle of Strife, where \"the brutal truth lay buried?\" Heck yeah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "埋葬的真相就由我调查出来！我有种预感，接下来会是阿尔弗雷多的主场了！",
+			say = "Finding out the truth is what I do! And I have a feeling it's gonna make a helluva scoop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "不不不，调查真相是调查员的职责吧，接下来是我的主场才对！",
+			say = "Hey! Finding out the truth is an investigator's job! If anything, it's MY time to shine now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哦？那要来比比看么，是我这个记者厉害，还是你这个调查员厉害！",
+			say = "Oh yeah? You wanna throw down the gauntlet and see who is better at it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比就比！就比看谁最先调查出真相好了！",
+			say = "Bring it on! First to learn the truth is the winner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "布里斯托尔阁下，阿尔弗雷多阁下，{namecode:18}也想加入比赛！",
+			say = "If you're making it a competition, may I be part of it as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哦？但是{namecode:18}选手既不是记者也不是调查员，你有什么特殊的专长么？",
+			say = "Why? You're neither a journalist nor an investigator. Do you have some secret skill I don't know about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}的专长是跑得很快！跑得快的话，就能更快调查到更多东西！",
+			say = "Yes – my speed! The faster you are, the faster you can finish an investigation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦，就像靠脚力实地调查的侦探那样呢。好吧，那就允许你加入比赛了，{namecode:18}侦探！",
+			say = "Ah, like a sleuth who's in and out of the field in a flash. You're on! Let's see what you can do, detective Shimakaze!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "是，{namecode:18}会努力的！",
+			say = "Thank you! I won't go easy on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "等等~如果要论从遗迹之中调查失落的真相，我也是不会输的哦！",
+			say = "You should know I'm no slouch either when it comes to scouring old ruins and uncovering buried truths!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "所以这场竞赛也让我参加一下吧！",
+			say = "Which is to say, can I join your competition too, please?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼哼，经验丰富的炼金术士也要加入比赛么！事情变得越来越有趣了！",
+			say = "Heheh. Now the seasoned alchemist throws her hat into the ring as well... This will be interesting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那就让我们一起向着争斗之城出发吧！第一轮比赛，先到的人胜！",
+			say = "You're in! Let's keep the first round simple: whoever reaches the Castle of Strife first wins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "了解~{namecode:18}，全速前进————",
+			say = "Roger! Full speed ahead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "出发~~~~~~~~~~~~~!！",
+			say = "Let's goooooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "…………小心，塞壬的陷阱……",
+			say = "Wait a sec! There could be traps along the... Ugh, why do I even bother...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "呵呵呵，我们也出发吧，“{namecode:175}阁下”~",
+			say = "Heehee. Shall we head after them?",
 			painting = {
 				alpha = 0.3,
 				time = 1

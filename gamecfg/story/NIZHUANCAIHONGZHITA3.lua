@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔·第一码头",
+			say = "Tower of Midgard - Pier",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "说起来……是不是从刚才开始就少了一个人？",
+			say = "Is everyone here? It feels like we're missing someone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "{namecode:456}大概一直在外面做准备运动吧，每次战斗开始前她都这样啦。",
+			say = "Oh, it's probably Adalbert. She's probably off stretching somewhere before the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在准备还太早了吧！不是要等进去之后才会出现战斗么？",
+			say = "Gosh, imagine being as carefree as her. The operation's starting soon, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "马上就到午餐时间了，再怎么说也要先大吃一顿再出击。",
+			say = "She's so in her own world, she won't even show up for lunch unless you call for her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "嘿嘿，到时候一直在外面的{namecode:456}说不定就会遗憾错过咯~",
+			say = "Oh well, she's only got herself to blame if she goes hungry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我刚回来，而且我听到了哦。",
+			say = "You called? Also, whose funeral?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……（下潜）",
+			say = "Err...! Nobody's, just talking to myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "外面的情况怎么样？",
+			say = "Yo, where the hell've you been? Somethin' happen at one of the structures?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "没什么异常状况。不过你们也听到了，现在没有敌人是因为幻光系统的伪装作用。",
+			say = "Nah, we're still in the green. We've got active camo, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "一旦奇异点启动，周围的塞壬会放我们平安进去么？这次我们是在塞壬的地盘里偷偷进行的吧。",
+			say = "Granted, that's gone as soon as we make that Singularity. We'll basically be broadcasting ourselves to all the Sirens nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "战前的准备工作绝不能松懈，不然就会在战场上吃瘪哦？",
+			say = "Oh, and since you asked, I was just getting my stretches in. Wouldn't want to get a cramp during battle, ya know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "吃瘪……你到底是从哪里学来的奇怪词汇，嗯，你说的也不是完全没有道理！",
+			say = "Well, do whatever you need, but don't go running off once the actual operation starts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "距离吃饭还有些时间，不如大家都出去活动一下吧。",
+			say = "Anyway, it's almost lunchtime. You comin'?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "{namecode:476}——人呢？",
+			say = "Sure. Hang on, where'd U-1206 go? She called me and everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "刚刚你进来的一瞬间就下潜逃跑了哦。",
+			say = "My guess is she went straight for the cafeteria.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:468}，你也是。",
+			say = "Unlike Elbe. I see you hiding back there, girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哎~人家就算啦。作为航空母舰，只要在后方支援你们就好了，剧烈运动这种事——",
+			say = "Dang it. Here I was hoping I could sneak up on you un– Owch! Ow-ow-ow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "话音未落，{namecode:455}一个飞身跳跃来到{namecode:468}身边，毫不犹豫得捏住了她的脸。",
+			say = "Adalbert ran up to Elbe at breakneck speed and pinched her cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "痛痛痛痛！我知道了啦！",
+			say = "Okay, sorry! I should've known better than to try to pull pranks on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "就在众人嬉闹时，从另一侧的通道中由远及近，传来了另一股嬉闹的声音。",
+			say = "Moments later, a pair of voices echoed from across the pier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是今天了吗，是今天对吧，果然是今天没错吧！",
+			say = "Is this really it, Z46? Today's the big day, right?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:454}，好吵。",
+			say = "You needn't shout, Heinrich...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "只要今天一过，无尽的工作总算要告一段落了。",
+			say = "Sorry! I'm just excited to finally get some R&R once we wrap this thing up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "假期，想要假期啊！这么多天只能闷在这里都快无聊死了。",
+			say = "And thank god for that! I'd die from boredom if I had to go one more day with no action whatsoever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "任务还没结束，希望你能把神经再多紧绷一会。",
+			say = "Do not get too excited. Your respite shall only come once this is over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "……其实是小铁想要假期的哦！你看小铁都无精打采的，小铁小铁你也是这么想的对吧？",
+			say = "Aww, look at Eisen! He's looking restless too. Poor boy needs a vacay just as much as I do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "它应该只是被你折腾累了吧……",
+			say = "He appears that way only because you will him to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "哟，{namecode:454}。",
+			say = "Heyo, Heinrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:456}~~！好久不见，你怎么来了啊！",
+			say = "Oh! Sup, Adalbert! What's brought you all the way out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "……？",
+			say = "I mean, what do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "哎……?我说了什么奇怪的话么？！",
+			say = "Uhh... I dunno? Should I know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:454}……任务命令书……你完全没看过么。",
+			say = "You... You did read the mission briefing, yes, Heinrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "那种东西写上“已阅”就可以丢在一边了吧……反正有{namecode:471}在！",
+			say = "On paper, yeah! In reality... nope. But that's no biggie, I'll be just fine with Strasser's guidance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "唉……还是老样子啊。",
+			say = "Classic Heinrich. Never change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简而言之，我们是来这里执行奇异点内探索任务的舰队，现在正在等待最终确认环节。",
+			say = "Basically, we're gonna go take a look around that Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "顺便等待午饭中——",
+			say = "But right now we're just chewin' the fat while waiting for lunchtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "原来如此！我们刚刚从主控室回来，最终确认环节已经结束了~",
+			say = "Ah, gotcha! Meanwhile, I just got done running a final inspection on some equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要{namecode:471}下达命令，米德加尔特之塔就可以正式启动咯！",
+			say = "Heard we're getting started once Strasser and Ulrich finish their meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "不过{namecode:471}已经在会议室里呆了好久，一点消息都没有……",
+			say = "By the way, is that still going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "毕竟{namecode:464}阁下可是一位需要全身心投入认真谨慎应对的人呢。",
+			say = "Seems like it. Ulrich might seem all grumpy and unsociable, but she's actually quite thorough with these things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "啊……那个总板着脸的{namecode:464}也来了么！？",
+			say = "Huh. I guess you really can't judge a book by its cover...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，如果你现在半吊子的样子被她看到的话……",
+			say = "Fearsome indeed will her fury be should you not know what the operation entails.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "我这就去重新读命令报告书！各位，先走一步————",
+			say = "...On second thought, I think I'll read the mission briefing! See you girls later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "行动好快——！不愧是{namecode:456}的姐妹舰。",
+			say = "Hey, are you not gonna eat before– Welp, guess not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就餐已经准备完毕了，各位请随我前往休息区。",
+			say = "You needn't worry about her. She will catch up with us soon enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "至于{namecode:454}的话，她读完之后大概自己就会过来了，请不用担心。",
+			say = "Now, let us make way to the cafeteria. We can fetch some food for Heinrich too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

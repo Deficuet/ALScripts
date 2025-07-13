@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "校园区·礼堂",
+			say = "School—Auditorium",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "巡逻完毕，这就是学校里的全部人了。当然，情况已经全都说明清楚了哦！",
+			say = "I've finished making my rounds! I think we've found all the shipgirls at this school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是重大失误，没想到会发生这种事。",
+			say = "I can't believe... that I was fooled by the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐是风纪委员的设定，我是不守规矩的不良哦，有点怎么说呢……微妙？",
+			say = "You're on the disciplinary committee, and I'm a delinquent... This setting makes no sense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:180}是超自然研究部的部长，不过好像整个部只有{namecode:180}一个人，马上就要被废部的设定。",
+			say = "I was in the occult club... the only members were Foo and me... and the club was on the verge of being disbanded...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "我是保健室值班的医生哦，这身护士服和女仆装不同，有种别样的新鲜感。",
+			say = "I was a nurse in the clinic... It felt a bit weird, because I didn't have my maid clothes. Hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……保健室，可是我们刚刚去的时候没看到人呀？",
+			say = "Huh? Thinking back, you weren't at the clinic when we were there, were you, Hermione?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "当时过于害怕就跑掉了……貌似是胆小的保健室医生的设定。",
+			say = "I was busy evacuating with Spee. She must be looking for a way to get in touch with the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尽是些奇奇怪怪的设定啊……分给我的居然是劣等生，怎么看都不像吧！",
+			say = "Those damn Sirens made up so many weird character settings... I was even falling asleep in the middle of class!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我觉得对于爱丁堡来说还挺合适的哦！",
+			say = "In your case, weren't you just doing what you normally would have done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哪里合适了哪里合适了哪里合适了！",
+			say = "There's no way in heck that's true!!!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，你们会有这种固有印象只是因为贝法太耀眼了，既然这次贝法不在，我就认真起来让你们大吃一惊就是了！",
+			say = "This is as good a time as any! Bel's not around, so it's the perfect time for me to change my image!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们就拭目以待咯。接下来是发现的不属于港区的客人。",
+			say = "Sure, we'll leave you to it. As for the others who ended up in this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大……大家好，我是飞鸟川千濑，请多关照。",
+			say = "I'm Chise Asukagawa! It's nice to meet you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个孩子是我们偶然遇到的哦。",
+			say = "You're the girl we ran into earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准确来说，是我在寻找逃课不见的{namecode:94}的时候，看到这个孩子在校外游荡，就一起叫过来了。",
+			say = "Or, more precisely, she's the girl I ran into when I was looking for Hiryuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "居然在这里也是这样的设定啊，塞壬真可怕。",
+			say = "So that's how they set it up... the Sirens are terrifying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊！是很可怕！不但把我的设定彻底搞错了而且————这些又是什么情况啊！",
+			say = "That's how they set it up? What? Why are you treating them differently from me! What's up with that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "我们就出去了一圈而已，净化者还真是，搞了些不得了的东西哎……",
+			say = "Hehehe. You did it, Purifier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "现在向大家介绍，这位亚历克西斯·克莱西斯！！！！很厉害吧！！！！！！！！！",
+			say = "Ta-daaah! This guy here is Alexis Crisis! Isn't he amazing~!!!",
 			effects = {
 				{
 					active = true,
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "亚历克西斯·克莱西斯是由我参与设计，净化亲超高速实现的特制「舰装」哦！",
+			say = "Purity designed him based on the information I gave her~",
 			effects = {
 				{
 					active = false,
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "净化亲，有能！！！！",
+			say = "You're amazing, Purity~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,12 +464,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼，那是自然的~多夸夸我也可以哦！",
+			say = "Ahah! Yes, praise me more! Do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "非常抱歉我们自作主张行动了……不过现在的困境和我们也有关系，也不能事事都靠你们保护。",
+			say = "Sorry for doing my own thing... But even if the current situation has nothing to do with us, I don't want to sit around like a caged songbird, relying on others to protect me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能战斗的人越多越好吧。",
+			say = "It's not like our combat force is massive, so I wanted to join the fight on my own terms...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "然后就想着以戴拿飞翼和戴拿战龙的感觉让净化亲设计了一下，没想到真的做出来了……",
+			say = "That's why I gave Purity the designs for Dyna Wing and Dyna Rex... but, I never thought she'd really be able to pull it off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,9 +538,9 @@ return {
 			bgName = "bg_ssss_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "说多少遍也不为过，我可是很厉害的哦~",
+			say = "Don't underestimate the power of Miss Purity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800010,
-			say = "我还有莲和奈美子的都没什么需求，就让净化亲看着来了。结果也是意外合适……古立特啊，真是怀念的感觉。",
+			say = "Hass, Namiko, and I didn't really have an image in mind when we talked to Miss Purity, so we left it to her. I was glad that they came out better than we had hoped. Gridman... You sure bring back memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听六花说我的是麦克斯和武士为原型。",
+			say = "Rikka told me that mine was designed after Max and Samurai?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的是以波拉和比特为原型……虽然我不知道他们是谁吧！",
+			say = "And mine looks like Borr and Vit or something! ...Not that I know what that is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,9 +610,9 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			actorName = "奈美子&莲",
+			actorName = "Hass&Namiko",
 			hidePaintObj = true,
-			say = "太帅了！",
+			say = "So cool!",
 			effects = {
 				{
 					active = true,
@@ -640,13 +640,13 @@ return {
 		},
 		{
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			bgName = "bg_ssss_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯嗯嗯！装备就是帅一些才有战斗力！你们喜欢就好~",
+			say = "Super cool!",
 			effects = {
 				{
 					active = false,
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "原来如此，可是好奇怪啊~净化者，这些数据你都是从哪里来的？光靠口述做不到这种程度吧？",
+			say = "Weird... Even if you are a Siren, how are you able to reproduce things you've never seen with such fidelity, just from hearing descriptions of them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,12 +684,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "额……那个。",
+			say = "Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵呵，果然有问题……老实交代，不然————",
+			say = "Hehehe. There must be a model for them somewhere, no? Tell me the truth already~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,12 +720,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "别动粗别动粗，我交代就是了！",
+			say = "Hol'up! I'll tell you, so don't shove me in your rigging's mouth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,9 +751,9 @@ return {
 			bgName = "bg_ssss_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "其实我不小心发现能连上城市的数据库，里面存有特别多的资料，我就是以那些资料里提到她们的部分为基础加工的……",
+			say = "To tell you the truth, I don't know how, but I had access to some kind of database... and I used that data to create these riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "所以加工的速度才能如此之快……除了这些资料之外你还看到什么了？",
+			say = "What an amazing power you have~ Why don't you tell us what else you can see?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,12 +785,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这座城市的结构，防御机关的位置，之类的——————",
+			say = "Things like the location of the Mirror Sea's control mechanism, and the structure of this town––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来你会老实告诉我们的，对吧~",
+			say = "You will tell me, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,9 +825,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "是……",
+			say = "Y-yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

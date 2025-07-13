@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "异常海域·周边",
+			say = "Abnormal Sea Area",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202100,
-			say = "光辉大人，可畏大人，即将抵达目标海域。",
+			say = "Lady Illustrious and Lady Formidable will be arriving in this sector shortly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……确实很可疑。",
+			say = "Indeed, this is quite an anomaly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像把“这里是塞壬的建筑哦”的字写成横幅挂出来一样……",
+			say = "From the description, it might as well have \"Siren Facility\" written all over it in bold letters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可畏，你那边有什么发现么？",
+			say = "Formidable, has anything caught your eye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "暂时没有。既没有发现撒丁舰队也没有发现塞壬舰队。",
+			say = "Nothing so far. No sign of either Sirens or the Sardegnan fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "格罗斯特，你还记得那支撒丁舰队的旗舰是谁么？",
+			say = "Gloucester, do you remember who the flagship of the Sardegna fleet is supposed to be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国。",
+			say = "Someone by the name of Impero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "不妙……那个帝国带队的话，该不会已经一边喊着伟大的帝国要把所有敌人轰上天一边出击了吧……",
+			say = "Ugh... I haven't met her before, but if she's another one of those types who won't shut up about how glorious her namesake is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？！我还没怎么和她交流过，帝国是这样的孩子么……",
+			say = "Huh? Why would you say that about her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "嗯……没错！我们之前因为一些事在SNS上激烈的交锋过！",
+			say = "Look, I've seen some serious shit on Juustagram...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么事……？",
+			say = "...Is that a reliable source of information?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "光辉姐不会感兴趣的话题啦……比如能不能用舰载机当乐团演奏音乐的话题。",
+			say = "Uhh, well, I'm sure it's nothing you'd be interested in, but... For example, she was talking about using her planes to start a band.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……为什么会谈论这种话题……？",
+			say = "Using her planes to do what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207050,
-			say = "光辉姐不用在意！",
+			say = "I-I told you, it's nothing you'd be interested in! Besides, we've got a job on our hands here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好吧……？",
+			say = "Umm, alright...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论如何，根据指挥官的命令，我们需要在撒丁舰队遇到危险之前与她们汇合，然后共同排除塞壬威胁。",
+			say = "In any case, the Commander ordered us to join up with the Sardegnan fleet and eliminate the Siren threat together before they can pose a threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这里毕竟是镜面海域，我们抓紧时间行动吧。",
+			say = "There's a good chance that we'll run into a Mirror Sea, so we need to get moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

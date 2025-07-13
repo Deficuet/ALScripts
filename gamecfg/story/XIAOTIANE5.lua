@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>五  辩解</size>",
+					"Sea Star on Shore\n\n<size=45>5: Justification</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是她吗…",
+			say = "So it really was her...",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是走到这一步上了吗…",
+			say = "Has it really gotten to this point...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "这还真是…人赃俱获？",
+			say = "Have we caught her...red-handed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "呜…呜呜…请把衣服还我——",
+			say = "Sob...Sob sob...Please just give me my clothes back--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "诶？！不、不对，事情不是你们想的那样——",
+			say = "Eh?! W-Wait, it's not what you guys think--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "不必多说！我这就给海军部打电话！",
+			say = "Not another word! I'm calling the navy now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "皇家方舟小姐，终于还是走上了犯罪的道路——",
+			say = "So Ark Royal-san finally chooses the path of crime--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "呜…总、总之先把衣服——",
+			say = "Sniff...A-Anyways, just give me my--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "不、不是的，我才刚完成了委托回来，就看到这些衣服挂得到处都是——",
+			say = "Y-You're wrong! I just finished a delegation and came back, only to find all these clothes hanging everywhere--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "听起来…是很牵强的辩解呢…",
+			say = "Sounds...like a very forced excuse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "是真的啊！我刚打算把散落的衣服整理好——",
+			say = "It's the truth! I was just about to start picking up the clothes on the floor--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,8 +204,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "众人",
-			say = "盯——",
+			actorName = "Everyone",
+			say = "Stare--",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

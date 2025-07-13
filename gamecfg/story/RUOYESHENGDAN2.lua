@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>二 女王的侧身像</size>",
+					"Christmas Party！\n\n<size=45>Queen's Profile</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好！这边搞定右手了，可以拼上去了哦，厌战大人",
+			say = "The right hand is looking good! Lady Warspite, your part is next!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意力，集中，集中…这边也完成了！终于完成陛下的眉毛了！",
+			say = "Calm down... Calm down, Warspite... Great! That should do it for Her Majesty's eyebrows!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "…不得不承认，厌战大人雕的脸还是挺惟妙惟肖的呢",
+			say = "Impressive as always, Warspite! A beautiful depiction of Her Majesty's face, if I must say so myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼…这下应该赶得上完成时间了",
+			say = "Phew... we managed to finish in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…姜饼……人！？",
+			say = "Yo, what's up with that giant gingerbread cookie?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哎呀，这不是西雅图吗。圣诞派对的准备，辛苦了呢",
+			say = "Why, if it isn't Seattle. Thank you very much for arranging the Christmas party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…辛苦倒是不辛苦，准备的过程本身其实还挺有趣的，嘿嘿~",
+			say = "I'm just doing this 'cause it's fun~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，在制作姜饼的时候倒是遇到了一点瓶颈…",
+			say = "But having that said, I ran into some issues while making my own gingerbread cookie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哦？难得会有你觉得烦恼的时候啊？",
+			say = "What kind of issues?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈…虽然姜饼的味道是还不错，但是总觉得好像少了点什么…",
+			say = "Well, y'know, I was thinking that my cookie was lacking some \"love\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种事情重要的就是心意！这可是我从去年圣诞节学到的经验之谈哦",
+			say = "\"Love,\" huh... I was also worried about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 205021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以今年我们为陛下准备了这个！皇家特制圣诞姜饼雕像——《女王陛下的侧身像》！",
+			say = "So this is what we decided on this year! A special gingerbread statue, fashioned in Her Majesty's image! We call it the \"Queen's Profile!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…听起来就好厉害的样子！",
+			say = "Dang... That's pretty awesome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "实际制作起来可是意外地费事哦？",
+			say = "Hehe... did you think it was just a regular gingerbread cookie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "从材料的准备，到大型烤箱的准备…还有中间无数次失败的尝试与牺牲——",
+			say = "We've prepared countless ingredients as well as an industrial-size oven for this project! And after many rounds of trial and error...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…会不会太夸张了点？",
+			say = "Neptune, I don't know how to say this, but... isn't this a bit too big?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太夸张了啦…我都试吃过不知道多少次所谓“失败品”了！虽然好吃是挺好吃的啦…",
+			say = "Yeah, it's way too big... How many times did you make me taste test? It was really tasty, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哎呀，说要帮忙试吃的可是{namecode:141}你自己吧？",
+			say = "Oh my, did you not volunteer to be our taste tester yourself, Miss Wakaba?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准备圣诞礼物的途中，闻到好香的味道就过来看看，没想到居然…呜呜~",
+			say = "Because I was allured by the smell of gingerbread while handing out presents~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:141}酱，你的牺牲，不会白费的——",
+			say = "That indeed is the Royal spirit. Your dedication shall not go to waste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等到晚上的派对，陛下看到这个一定会很开心的！",
+			say = "Just wait, Your Majesty! This year, you'll be pleased for sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哼哼，就连那位女仆长也会大吃一惊的吧~真是期待呀~",
+			say = "That's right! The Royal Maids will be stunned speechless by our magnificent Christmas present!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,23 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重要的是心意吗…好像多少有点想法了！接下来…去看看重樱的各位好了，她们现在应该在准备交换用的礼物吧——",
+			say = "A-anyway, really appreciate the tips! Please swing by the Christmas party later and have some fun!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 199012,
+			side = 2,
+			bgName = "star_level_bg_100",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now if you'll excuse me, I've gotta go. The gift exchange should be starting soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +508,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，西雅图等等我，我也跟你一起去！",
+			say = "Wait, Seattle! Let me help you with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +537,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔…算了，这边也做的差不多了。晚上我们会和伊丽莎白陛下她们一起参加派对的，你也要加油哦，西雅图",
+			say = "Hmm? Never mind, we're about done over here anyway. I will accompany Her Majesty to the party later, so do continue the good work, Seattle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

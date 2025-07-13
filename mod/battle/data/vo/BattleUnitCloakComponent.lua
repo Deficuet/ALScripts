@@ -197,6 +197,7 @@ function var_0_5.adjustCloakAttr(arg_24_0)
 	arg_24_0._exposeBase = math.max(arg_24_0._exposeBase, var_0_3.CLOAK_EXPOSE_BASE_MIN)
 	arg_24_0._exposeValue = math.max(arg_24_0._exposeBase + arg_24_0._exposeExtra, var_0_3.CLOAK_EXPOSE_SKILL_MIN)
 	arg_24_0._restoreValue = math.max(arg_24_0._exposeValue + var_0_3.CLOAK_BASE_RESTORE_DELTA, 0)
+	arg_24_0._exposeValue = math.max(arg_24_0._exposeBase + arg_24_0._exposeExtra, var_0_3.CLOAK_EXPOSE_SKILL_MIN)
 	arg_24_0._cloakValue = Mathf.Clamp(arg_24_0._cloakValue, 0, arg_24_0._exposeValue)
 
 	var_0_4.SetCurrent(arg_24_0._client, "cloakExposeBase", arg_24_0._exposeBase)

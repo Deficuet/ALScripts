@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "眼前的景象逐渐清晰。",
+			say = "My vision gradually returns to me, and a scene takes form.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里是……客厅？",
+			say = "Looks like a living room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "眼前的房间摆放着的家具，十分可爱温馨。",
+			say = "It is decorated with cute furniture and furnishings, creating a very familial atmosphere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,19 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "阳光透过窗帘照进屋内，让人不自觉就放松了下来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "对了，{namecode:98}刚才说TB马上就要来了……！",
+			say = "Warming sunshine permeates through the curtains, making me feel naturally at ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,18 +72,30 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要做点什么迎接她呢？",
+			say = "Akashi did say TB would be here \"shortly\"...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_room1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Maybe I should do something to welcome her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "整理一下房间",
+					content = "(Tidy up the place.)",
 					flag = 1
 				},
 				{
-					content = "就这么坐着等待",
+					content = "(Take a seat.)",
 					flag = 2
 				}
 			}
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "干脆整理一下房间好了。",
+			say = "Yeah, I think I'll make the place look nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "环顾四周，屋内十分整洁，完全没有整理的必要。",
+			say = "However, upon closer inspection, it becomes clear that there is nothing TO tidy up. The living room is clean and orderly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……还是坐下来等她吧。",
+			say = "Never mind. I'll just sit and wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不知为何，我竟然忽然觉得有些紧张。",
+			say = "All of a sudden, I feel tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……",
+			say = "Whew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "深呼吸调整了一下情绪，我看了一眼时间。",
+			say = "I take a deep breath to relax while I look at the clock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "忘了问{namecode:98}，TB大概什么时候到了……",
+			say = "I should've asked when exactly TB would show up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "就在我为此苦恼时，一阵轻轻的敲门声响了起来。",
+			say = "Just as I start to worry, there is a soft knock-knock on the front door.",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…… ……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "之前和TB详细阐述这个计划的时候就已经确认……",
+			say = "I briefed TB on the details of my plan before I went in and more or less got her acknowledgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "在这个虚拟小镇中的TB只会保留最基础的认知，原本TB的记忆和功能都会暂时停用。",
+			say = "While in this virtual space, all her functions save for her most fundamental cognition are disabled, and she can't access her memory in the real world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "而这么做的理由，则是为了能够切实体验到——“成长”的过程。",
+			say = "This is so that she can get an authentic experience of growing up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "但真的当小小的TB出现在我眼前的时候，我还是觉得有些惊奇。",
+			say = "I knew what I signed up for, but I wasn't expecting TB to be this tiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "不过，这种惊奇的感觉很快被心中浮现的责任感替代。",
+			say = "That said, my surprise quickly gives way to a sense of responsibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "没错，既然已经答应了TB，就一定要帮她解决她的烦恼。",
+			say = "That's right – I made a promise to her, so I must help solve her problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，TB。",
+			say = "Welcome home, TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

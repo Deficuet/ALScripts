@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>四　冒冒失失也要向前看</size>",
+					"Uniquely \"Me\"\n\n<size=45>4 Even the Meek Move Forward</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "——早上。",
+			say = "During the morning...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯～～呼啊——",
+			say = "Mmmgh... *yawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……到头来还是没搞懂我的独有价值在哪里……",
+			say = "Mmh... I still don't know what is supposed to make me uniquely me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且还没睡好——诶诶诶！！怎么这个点了？！",
+			say = "And I was thinking so hard about it that I slept in!!! Gaaaah!!! What time is it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……哈……！糟了，竟然迟到了！",
+			say = "*pant*... *pant*... Oh no, I'm already late!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，很抱歉迟到了——奇怪？没人在？",
+			say = "Commander, I'm so sorry, I– Wait, huh? Nobody's here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的时间是……比工作时间还早了几个小时？！怎么会这样……",
+			say = "Wait, my clock's time is–– No way, I actually arrived a few hours ahead of time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，一定是起床的时候没戴眼镜所以看错了……呜呜，又粗心了……",
+			say = "Oh, I must've read the time wrong since I didn't put my glasses on... Ugh, how careless of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过既然难得早起了，接下来就好好加油努力吧！",
+			say = "Well, since I already got up early, I might as well start my day off on the right foot––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天也一如既往按时来到指挥室——嗯？爱丁堡已经来了吗？",
+			say = "I arrive at the office at the usual time, but to my surprise, Edinburgh is already waiting for me when I open the door.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，早上好。",
+			say = "Ah, Commander, good morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "地板窗户还有书架桌子已经全部擦得一干二净了！怎么样？",
+			say = "What do you think? I made all the floors, windows, bookshelves, and desks sparkly clean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,23 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的指挥室确实看上去格外整洁……看来爱丁堡从一大早就开始清扫了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202110,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "至于早起的理由嘛——那全都是因为错以为自己睡过了头……啊不对！",
+			say = "Certainly, everything in the office looks immaculate. She must've arrived really early to start cleaning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,35 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是为了让指挥官能清清爽爽的工作所以偶尔发奋图强了下，啊哈哈……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "虽说稍微说漏了嘴……不过——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "这次确实做得很好，辛苦了。",
+			say = "It's because I got up early–– not because I rushed over thinking I overslept on accident!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +313,51 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多谢夸奖——啊，其实我还准备好了红茶哦！工作前来一杯如何？",
+			say = "Ahaha... Sometimes I feel like working extra hard so that you can have a more comfortable work environment, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "It seems like the truth leaked out a little, but I didn't really see any issue with it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "So, I tell Edinburgh - \"Thanks for all your hard work.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202110,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Thank you for your kind words! Oh, by the way, the tea should be ready just about now! How about a cup before you start with work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看着边哼小调边倒茶的爱丁堡，心情也如同格外整洁的指挥室一般，变得格外清朗起来——",
+			say = "When I look at Edinburgh, who is pouring tea while humming a little ditty, her mood seems extraordinarily clear, just like the pristine office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,11 +8,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "诗 音",
+			actorName = "Sh I On",
 			actor = 10500060,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "听人说话要听完啊，你这个小学生…",
+			say = "C'mon, pay attention when people are talking to you, you grade schooler baby!",
 			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说谁是小学生啊！你这个笨蛋！略~~~~~~",
+			say = "Who're you calling a grade schooler?! You STUPID MORONIC IDIOT!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "再见了，直率的诗音酱。",
+			say = "Farewell, Honest Shion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你在感动什么！扁你哦！",
+			say = "The hell are you bidding farewell to my clone for?! I'll destroy you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就算…打倒了么？意外的没什么挑战性啊",
+			say = "Huh? That's it? I thought she'd stick around for longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从战斗力上来说，应该算迄今为止遇到的所有“棋子”中最弱的了",
+			say = "This was the weakest enemy we've ever met.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比最开始见到的假阿库娅酱还要弱呢…",
+			say = "It might have been weaker than the fake Aqua we met at the beginning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "哈？！那不是敌人的事么！敌人弱你们应该开心吧！",
+			say = "Huh?! We're talking about the enemy! Shouldn't you be happy that the enemy's weak?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "总觉得，除了空前辈之外，余等的镜像根本就是在公开处刑了…",
+			say = "For some reason, it seems that the fake versions of all of us, Miss Sora excluded, have just been the victims of public executions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "啊哈哈，毕竟都是我们真实在直播中展现过的一面呢。",
+			say = "Ahh, that's because all of these are facets that we've broadcasted of ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "到现在为止都没出现我的镜像，究竟会遇到什么个性呢，老实说我都稍微有些害怕了……",
+			say = "We still haven't encountered a fake version of me... Exactly what kind of character could it be... I'm become scared to find out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然作为同一战线的我也不好说什么，但这方面说实话，也有点自作自受的成分在里面……",
+			say = "It's a bit hard to come out and say this, but don't you guys feel that this is really a bit like reaping what you guys have sowed...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,9 +233,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "唔……难道我的性格也是净化者真实存在的一部分？",
+			say = "Heeeh~ That's totally strange~ I wonder which aspect of Purifier I'm supposed to reflect~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你只是单纯失忆了而已吧！失忆的人变出什么性格来也根本不奇怪",
+			say = "... Haven't you just lost your memories. It's not like it makes any difference regardless of what kind of character you're supposed to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也劝你不要这么想…正因为你现在是净化亲，而非净化者，事情才有现在的余地。",
+			say = "If it wasn't for this situation at hand, there's absolutely no way we'd be cooperating with you, who are a Purifier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果你是净化者的一部分，那么无论你是什么样，我依然会消灭你。",
+			say = "I will have you know that the moment you make the smallest movement with the intention of harming my comrades, my blade will have cleaved your very soul from your body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,9 +304,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "好好好~不过现在这种情况下，和你们发展出热血的友情，这种展开是完全可能的咯~？",
+			say = "Yeah, yeah. But seriously, I'm totally intrigued by this~ Y'know, stuff like passionate, INTEEEEEEENSE friendship, or a burning, intense development, or somethin'?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梦话就去梦里说。",
+			say = "Save the sleeptalking for when you're asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总而言之从这个假诗音的战斗力上来看，应该是一直在避免与我们的正面交战",
+			say = "Anyway, thinking about Fake Shion's combat power, I think they should be/are likely to be avoiding direct combat with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是在这里会遇到她只是偶然，有可能还存在尚未被破坏的入口？",
+			say = "So basically, what you're saying is that our encounters here were all by chance, and that there are probably other entrances out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "感觉又看到希望了！",
+			say = "I think I can sense some hope now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，现在放弃还太早了~过山车在别处应该还有很多入口，我们再去找找吧！",
+			say = "Yep yep, it's still waaay too early to be giving up. There are still other entrances, so let's search other places for them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，周边区域的封锁被解除了。",
+			say = "Scanning complete. The blockade has been lifted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

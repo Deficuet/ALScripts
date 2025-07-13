@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/fengling",
-			say = "耳边，传来了风铃的声音。",
+			say = "A dream. A dream of one possible future. Its dreamer – Shinano.",
 			seDelay = 1,
 			flashin = {
 				delay = 1,
@@ -34,7 +34,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			bgm = "bgm-waterwave",
-			say = "海浪阵阵。",
+			say = "A wind chime rang. Then, the sound of overlapping waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "暗色的天空下，有着鲜明色彩的鸟居映入眼帘。",
+			say = "The sky was dark as soot. Beneath it, a long column of torii dyed a vivid red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "虚幻与真实的夹缝，连通梦境的休息间……",
+			say = "The line between illusion and reality, the interstices between dreams...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然直接进入梦境的情况更为常见。",
+			say = "A place seldom seen, as the dream usually presents itself immediately...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "偶尔也会来此中转一下呢……",
+			say = "Nevertheless... This one has been here before, a few times...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "涛声震天。狂风从两个对立方向袭来，裹挟着海浪彼此拍击着。",
+			say = "The torii split the world into two halves. From opposite sides, the winds brought crashing waves into each other, in defiance of the laws of nature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此为虚幻之境。因此时而平静，时而阴郁，时而狂躁。",
+			say = "The realm of illusion can be calm at some times, chaotic at others...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今夜……似乎格外狂躁啊。",
+			say = "Tonight... It appears particularly at unrest...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如此这般……接下来多半不会是美梦了。",
+			say = "An ill omen, that is... My dream shan't be a pleasant one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "这是一处昏暗的房间。",
+			say = "In her dream, Shinano saw a scene from the \"past.\"",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "远方的书堆后，传来一个有些兴奋的声音。",
+			say = "There was a lone woman hidden behind a pile of books, speaking with delight in her voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的么？冠冕的位置找到了？！",
+			say = "...Really? You've tracked down the Crown's location?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……听从我命令的人不少，但真心帮助我的人寥寥。",
+			say = "...Magnificent! Truly, truly magnificent!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就知道，还是你靠得住！",
+			say = "I knew I could count on you. Many follow my orders, but none truly help me like you do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "放心，既然已经知道了位置，那么我必将成功。",
+			say = "Now that we know where it is, victory is already within my grasp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……嗯？铁血和皇家？",
+			say = "...The Royal Navy and Iron Blood? What about them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你在担心它们碍事么？",
+			say = "You're worried they might throw a wrench in my plan?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……它们最近做事确实很过分。",
+			say = "Hmm... Yes, it's clear that their transgressions have gone unpunished for too long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "区区{namecode:435}我还是不放在眼里的。",
+			say = "But, Bismarck and the little queen are nothing to worry about. Whatever they've been preparing, I'm already five steps ahead of them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过伊丽莎白就有点麻烦了……",
+			say = "Still, I must admit that you have a point. One can never be too cautious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,44 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你的担心有道理……我会想办法让她们不要碍事的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_501",
-			oldPhoto = true,
-			dir = 1,
-			actor = 699010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "呵呵……以创世纪<Genesis>11:1为起点，以11:9为终点。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 699010,
-			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			side = 2,
-			say = "如何？",
+			say = "I'll take your advice to heart and figure something out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +412,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哈哈哈，我是不会忘记你提供的帮助的。",
+			say = "\"Thus the whole earth was of one language, one speech. And they said, let us build a city and a tower, whose top may reach unto heaven.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +430,44 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "待我的愿望实现之时，你的愿望也必将实现——",
+			say = "\"Seeing that the people were now one, with nothing restrained from them, thence did the Lord confound the people with different languages and scatter them upon the face of all the earth.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_501",
+			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hahaha... I will not forget the favor you've done for me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 699010,
+			oldPhoto = true,
+			bgName = "star_level_bg_501",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			side = 2,
+			say = "I swear that I will grant you your wish – once my own ambitions are realized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不是自言自语，而是在通话么……）",
+			say = "(The woman is speaking with someone...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（房间的装潢是撒丁帝国风格的，错不了。）",
+			say = "(The room's interior is in the Sardegnian style, of that I am sure...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（这么说来这个声音……是撒丁帝国的马可波罗。）",
+			say = "(That voice... It must be Marco Polo's...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（通讯器另一头的声音……听不清。）",
+			say = "(But who she is speaking to, I cannot fathom a guess...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（某处的马可波罗，正在跟某处的人聊天，是这样一个梦么。）",
+			say = "(A simple dream. Only Marco Polo, conversing with another person...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（沉闷，但并不狂躁……预兆与之似乎并不匹配。）",
+			say = "(Though gloomy to a degree, this dream isn't chaotic like the ill omen foreboded...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（还是说此中另有玄机……）",
+			say = "(Then perhaps... there is more to this dream than meets the eye?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			soundeffect = "event:/ui/fengling",
 			effects = {
 				{
@@ -667,7 +667,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "发光却不发热，就像冰冷的黑洞。",
+			say = "Brightly it shone, like a star, but offered no warmth – like an impossibly bright black hole.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……此等景象，妾身在梦中也是第一次见。",
+			say = "Never before have I dreamed of anything like this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………真是令人毛骨悚然。",
+			say = "It is a frightening sight to behold...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道这就是那股狂躁的根源？",
+			say = "May this be... the source of all the chaos?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "「——审判将至」",
+			say = "\"The time of judgment hath come.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……审判？",
+			say = "...Judgment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……审判是什么？",
+			say = "Who is to be judged, and for what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "「——汝所见之物即将降临」",
+			say = "\"What your eyes behold shall descend upon the land.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妾身所见之物……",
+			say = "It... Shall descend upon the land...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「——审判将至」",
+			say = "\"The time of judgment hath come.\"",
 			effects = {
 				{
 					active = false,
@@ -852,7 +852,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "「——祂将降临」",
+			say = "\"The Divine shall descend upon the land.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,11 +865,11 @@ return {
 			soundeffect = "event:/ui/fengling",
 			sequence = {
 				{
-					"距离博览会闭幕式",
+					"Time before the World Expo's closing...",
 					1
 				},
 				{
-					"尚有十小时",
+					"10 hours",
 					2
 				}
 			},

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在拉力赛表现优异，赢得了第一名，获得了奖励【物资*2000】"
+			say = "You won the Transcendent Driving Skills award, and received 2000 Coins!"
 		}
 	}
 }

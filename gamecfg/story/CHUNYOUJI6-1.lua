@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "与长春一起打扫了指挥室，发现了【四星装备设计图纸*3】"
+			say = "You discovered blueprints that nobody has claimed! Collect 3 Elite Gear Blueprints!"
 		}
 	}
 }

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "唔……指挥官，你看到这些浮岛要塞有没有联想到什么？",
+			say = "Hey, Commander... Don't these floating fortresses look familiar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "突然出现的铁血浮岛要塞群——",
+			say = "\"They remind me of the fortress the Iron Blood is working on...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，本王早就知道她们在研究类似的技术，没想到已经取得如此不容小觑的地步了！",
+			say = "Indeed they do. Might I say, researching even ordinary Siren technology is a tall order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "塞壬之所以能牢牢地掌控着海洋，很大原因就是依托各种早已设置在海中的防御体系。",
+			say = "First Mirror Seas, and now floating fortresses...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果铁血想效仿的话……",
+			say = "I can only hope they won't use the fruits of their research against us someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可大事不好！要是铁血效仿塞壬使用浮岛要塞对关键航线进行封锁，我们可就真吃不消了……",
+			say = "Yeah. I don't even wanna think about what would happen if they used Siren tech for evil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！虽然现在它们只对塞壬发动了袭击，但谁知道今后会发生什么事呢！！",
+			say = "If they decide to switch sides one terrible day... Bleh, it's too scary to imagine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一个必须引起重视问题……",
+			say = "...We'll have to keep a watchful eye on the Iron Blood. That's for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：前方发现多个强烈信号反应，推测为复数塞壬测试者。",
+			say = "Warning: Multiple Siren signals have been detected ahead. Their source appears to be a cluster of Tester-types.",
 			voice = "event:/tb/16/tb-16",
 			flashout = {
 				black = true,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？终于连我们也遇到了么？！",
+			say = "Testers, huh? Are they finally sending the real welcoming crew?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……在一次战斗中出现复数测试者的情况十分罕见。",
+			say = "They're Tester vessels more specifically, so not quite. Vessels aren't capable of verbal communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "根据此前舰队汇报的情况，所有测试者的战斗力和防护能力都很强，但似乎指挥系统有些问题。",
+			say = "I've heard reports about them from other fleets. They said the vessels are no pushovers by any means, but apparently they lack a central command unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉并不像是塞壬人型指挥单位应该有的样子，倒更像是……量产机体一类的存在。",
+			say = "Basically, they're a cut above mass-produced units, though they don't quite rival the elites.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "听起来很像是塞壬会做出来的事情……",
+			say = "They always have some new surprise in store for us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这些东西出来了，也就意味着我们已经遇到这条防线上最顽固的敌人了吧？",
+			say = "Seeing as these are watered-down Testers, safe to say they're sending the toughest thing this defensive line has to offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "嘿嘿~感觉一路上都没怎么动手，就拿这些量产型测试者试一试手感好了！",
+			say = "Heh, fine by me. I've been aching for something resembling a real fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

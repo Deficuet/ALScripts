@@ -14,7 +14,7 @@ return {
 		{
 			actor = 0,
 			side = 0,
-			say = "要出去走走吗？",
+			say = "Do you want to go outside?",
 			hidePaintObj = true
 		},
 		{
@@ -23,18 +23,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我很乐意，我的{dorm3d}。不过，您是觉得天狼星这里有些乏味……吗？",
+			say = "I will gladly accompany you, my honourable {dorm3d}! You aren't, um... feeling bored, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "单纯只是想和天狼星出门。",
+					content = "No, I just want to get some fresh air with you.",
 					flag = 1
 				},
 				{
-					content = "想要两个人一起去外面做些什么",
+					content = "I just want to spend some time outdoors with you.",
 					flag = 2
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您的意思，难道是约、约会？！天狼星明白了，一定会好好侍奉{dorm3d}，直到您彻底尽兴为止❤",
+			say = "So what you're requesting then is... a date? Understood. I will do my best to give you an unforgettable experience❤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

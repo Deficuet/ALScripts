@@ -12,7 +12,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……好弱。",
+			say = "Were you even trying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "伟大的庞培……居然输了。",
+			say = "I've been vanquished! How could this be?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊哈哈哈……真是一场势均力敌的精彩战斗啊！",
+			say = "Man, that was a really close one! Talk about unstoppable force meeting immovable object!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "0:3哦。",
+			say = "I mean, the scoreboard says we beat you by a landslide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咳，友谊第一，比赛第二不是嘛！输赢不重要，不重要啦~",
+			say = "Hey, it's not about winning or losing! It's about the friends we made along the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "阿尔弗雷多，你是最先出局的，回去该特训了。",
+			say = "Alright, Alfredo. You lost your first battle, so it's back to school with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这次是我故意放水！一会……一会看我的厉害！",
+			say = "No, wait! I lost on purpose, okay? I'll get serious in the next battle, promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我还准备了秘密作战计划呢！",
+			say = "I've even got a foolproof secret plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "秘密作战计划……听上很有趣啊。",
+			say = "Secret plan? You've piqued my curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "实际执行起来更有趣，你们就等着看吧！",
+			say = "Oh, you're gonna love it! Just be patient and you'll see!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "那我们就期待一下咯~",
+			say = "Uh-huh. I'm looking forward to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯嗯，敬请期待吧，那么一会见~",
+			say = "As you should. See you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "撒丁帝国舰队重整队形后，离开了这片水域。",
+			say = "The Sardegnian fleet regrouped, then left the exercise area behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "至此鸢尾舰队作为进攻方的三场战斗结束了。但演习日程，尚未过半——",
+			say = "And so, the Iris Orthodoxy's turn as the attacking side concluded. Now it was time to play defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

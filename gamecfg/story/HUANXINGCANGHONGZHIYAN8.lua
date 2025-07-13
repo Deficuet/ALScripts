@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在观察者的配合下，全球各处的通讯网络从没有像今日这般畅通。",
+			say = "With Observer's help, worldwide communications are smoother than ever.",
 			bgm = "story-finalbattle-unity",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "奈落带来的危险是全球性的。",
+			say = "Since the appearance of the Naraka Singularity, the Singularity in the NA Ocean ramped up activity as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在企业带领帕克菲克洋中的联合舰队处理重樱本岛周边的危险时，NA海域中心的奇异点则交给了{namecode:199:新泽西}和欧罗巴诸国负责。",
+			say = "While Enterprise's fleet dealt with Naraka in the Pacific, New Jersey and the factions of Europa were left to defend against it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "鸢尾教国·大教堂",
+			say = "Iris Orthodoxy - Cathedral",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "贞德、阿尔及利亚，由你们二人带领教国舰队前往NA海域中心区域支援。",
+			say = "Jeanne and Algérie, the two of you will lead the Orthodoxy fleet to support efforts in the central NA Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "战役由{namecode:199:新泽西}指挥，你们需要配合她全力封锁NA海域中心风暴，为指挥官的行动拖延时间。",
+			say = "New Jersey is commanding the effort there. You will work with her to suppress the Singularity and buy time for the Commander's mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命，黎塞留大人。等待舰队集结完毕后，我们就立刻出发。",
+			say = "Understood, Cardinal. We will depart as soon as the fleet has assembled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "我们一定不负所托，在战场上全力展现出鸢尾骑士的风采。",
+			say = "It's time to show the world the power of the unified Iris's Templar Knights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不用等待集结完毕了，你们现在就带领能够即刻完成作战准备的人员先行出发。",
+			say = "The rest of the fleet will catch up with you on the battlefield. As soon as you and other immediately available forces are ready, leave at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相比规模，本轮支援更重要的是速度。",
+			say = "Time is of the essence today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "剩余舰队，在完成出击准备后由{namecode:523:让·巴尔}带领，作为第二批支援前往战场。",
+			say = "Jean Bart will guide the unprepared portion of the fleet to you later on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			hideOther = true,
-			actorName = "圣女贞德&阿尔及利亚",
+			actorName = "Jeanne d'Arc & Algérie",
 			side = 0,
-			say = "遵命！",
+			say = "Yes, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
-			say = "鸢尾教国·铁血使馆区",
+			say = "Iris Orthodoxy - Iron Blood Consulate",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:436:提尔比茨}，NA海域的战局至关重要，由你带领本土、北海两支舰队前去支援。",
+			say = "Tirpitz. The Iron Blood mainland and North Sea fleets are to fight in the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "即使不惜代价，也要争取到足够的时间。",
+			say = "Buy as much time for the Commander as you possibly can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405020,
-			say = "嗯，保证完成任务，姐姐。",
+			say = "I won't disappoint you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "鸢尾教国·撒丁帝国使馆区",
+			say = "Iris Orthodoxy - Sardegnian Consulate",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "陆间海舰队自不必说，还有包括塔兰托、亚历山大、威尼斯等港区在内的全部驻防舰队……",
+			say = "Take the Mediterranean fleet AND fleets stationed at Taranto, Alexandria, Venice, and nearby ports!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "罗马驻防舰队你也一并带走，还有全部的量产型舰队……和全部的空军编队！",
+			say = "And the capital fleet, our mass-produced ships... oh, and our aerial forces, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "嗯，立刻将全部的空军编队转移到鸢尾教国境内的机场中！",
+			say = "The Orthodoxy's fleet is starting to set sail. I'll request use of their open docks for maintenance of our ships as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "利托里奥，这一次我们要全数出动，帝国的所有海空军力量都要参加这场光荣的战役！",
+			say = "Littorio, Sardegna will join this glorious battle to put her might on full display!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "幕后黑手畏惧帝国的威光，这是一个好现象，但是还远远不够……",
+			say = "The mastermind behind the scenes may fear our resplendence, but today's story is not solely about us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "接下来的这场战役中，我们要集结最庞大的武装，向全世界证明……我们撒丁帝国，确实是一支举足轻重的力量！",
+			say = "We need to prove to the Commander, and to the world, that we are a major power on the world stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "呵呵~放心吧，维内托。我会让我们的盟友和我们的敌人都会大吃一惊的~",
+			say = "I read you loud and clear, Veneto! It's our time to stun friend and foe alike!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "鸢尾教国·审判庭大楼",
+			say = "Iris Orthodoxy - Secret Tribunal Building",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "鸢尾、白鹰、铁血、撒丁、余烬……嗯，好像还有人在闲着呢。",
+			say = "The Iris Orthodoxy, Eagle Union, Iron Blood, Sardegna, and even the Ashes... Oh, but the Royal Navy has yet to act.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "虽说所有奇异点都有失控的风险，可唯独阿瓦隆之门那里平静如一潭死水……",
+			say = "Kirov claims that all Singularities could go out of control, yet the Gate of Avalon seems stable for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "看来之前伊丽莎白的安全性改造升级似乎颇有成效啊。",
+			say = "Her Majesty seems to have learned from past mistakes. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "既然如此，她们的舰队也别闲着，得调动一下……",
+			say = "That said, it's such a shame to see them left out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "还有会场中和{namecode:182:信浓}一起来的重樱舰队……也是一股不小的力量呢……呵呵~",
+			say = "The Royal Navy, Shinano's Sakuran fleet... I'd like to see you more appropriately mobilized for the Commander's sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

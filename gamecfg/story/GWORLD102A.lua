@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队已接近NY港近海，海域通行许可已确认。",
+			say = "Orders received. We are now entering NY City’s waters.",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请指挥官继续跟随航线前往港口停泊。",
+			say = "The port is located that way. Please move the fleet towards the destination.",
 			voice = "event:/tb/35/tb-35",
 			typewriter = {
 				speed = 0.05,

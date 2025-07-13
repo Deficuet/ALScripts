@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>二 蒸馏浓缩茶</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>2. A Chemical Concoction?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "Port - Dragon Empery Estate",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（第一场摄影的模特是{namecode:417}小姐，然后拍摄地点就在前面的屋子里……)",
+			say = "(The first photoshoot was of Miss U-73 from the Iron Blood, and if I recall, she was supposed to be in the study near the entrance...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（嗯？这股飘来的清香是……）",
+			say = "(Oh my, what is this wonderful herbal aroma...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "镇海小姐，春节快乐~！",
+			say = "Happy Lunar New Year, Miss Chen Hai!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "{namecode:417}小姐，也祝你春节快乐。现在这个场景是……？",
+			say = "Happy Lunar New Year to you too. May I ask what you're doing with this entire set, Miss U-73?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，有没有感受到古典与现代的结合感？！",
+			say = "A classical backdrop coupled with modern scientific instruments – a marriage of tradition and modernity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我听海圻说了，现在是要准备园林宣传的照片吧，我就照着自己的想法把屋子稍微布置了一下~",
+			say = "Oh right, Hai Chi told me earlier, you were planning on taking some photos for promotional purposes, right? So, I moved some stuff around in the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "场景与道具的搭配，的确给人耳目一新的感觉。",
+			say = "I must say, you've arranged the scenery and props in a refreshingly novel way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~这个实验装置可不是道具，而是货真价实的哦。",
+			say = "Heh heh, who said this was a prop? This labware's actually the real deal~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "货真价实的仪器……这么说来现在充斥着这房间内的清香也是——",
+			say = "Then, this herbal aroma filling the room is also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "蒸馏浓缩茶！",
+			say = "My sister's carefully-crafted, Lunar New Year special concoction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "啊哈哈……还真是具有现代感的创新啊。",
+			say = "Mm... It certainly has a rather \"modern\" scent to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "香气上来说肯定没问题哦！味道上的话……理论上也没问题！",
+			say = "I can assure you, this aroma meets all our specifications. As for the taste... yeah, it should be fine too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 408052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟没有加入其他的添加剂，单纯是几种不同茶叶的混合蒸馏……",
+			say = "I did add in some herbs, but this formula doesn't include any artificial additives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等拍摄结束之后，大家一起品尝一下吧！",
+			say = "After we're done with our photoshoot, everyone should give this special tea a try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "呵呵，那我就期待一下了。",
+			say = "Hehe. I'm looking forward to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果觉得不错的话，也请顺便帮我宣传一下~",
+			say = "If you like how it tastes, think you could put in a good word for my chemis-tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "{namecode:417}小姐，摄影装置调试完毕，你这边也准备好了么？",
+			say = "Miss U-73, we're done setting up the equipment! Ready whenever you are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我这边也准备完毕咯，趁着仪器还在运行中，我们开始吧~",
+			say = "I'll be done in a sec! Now then, let's do that photoshoot~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

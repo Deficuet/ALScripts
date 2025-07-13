@@ -520,7 +520,7 @@ function var_0_5.AddPreloadResource(arg_50_0, arg_50_1)
 end
 
 function var_0_5.AddPreloadCV(arg_51_0, arg_51_1)
-	local var_51_0 = ShipWordHelper.RawGetCVKey(arg_51_1)
+	local var_51_0 = Ship.getCVKeyID(arg_51_1)
 
 	if var_51_0 > 0 then
 		arg_51_0._battleCVList[var_51_0] = pg.CriMgr.GetBattleCVBankName(var_51_0)

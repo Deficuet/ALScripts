@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "bgm-cccp2",
-			say = "皇家群岛有个神话，有一种叫做“达格达之锅”的宝物，可以从中源源不断的取出食物，永远不空。",
+			say = "Be it the Royal Navy's tale of Dagda's inexhaustible cauldron or the Sakura Empire's legend of the Dragon King's bottomless rice bag, from all around the world there are stories of objects which produce endless quantities of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就现在的情况来说，用这件宝物来形容这座塞壬要塞简直再恰当不过了。",
+			say = "Similarly, one could describe the number of Sirens emerging from within and around the stronghold as endless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "所有人都在全神贯注的战斗着，就连萨拉托加也没有了开玩笑的闲心。",
+			say = "The Eagle Union forces felt confident after their initial series of easy victories, but the tides of battle have begun turning on them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "战局在不知不觉间已经陷入了胶着，并向着更加恶化的方向发展。",
+			say = "Now, they are locked in a stalemate, fighting neck and neck with the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "唔…没想到发展成拉锯战了，之前是我太得意了。",
+			say = "Geesh, who would've thought there so many of them... Sara might've underestimated them a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "制空权姑且还在我们手中，继续战斗下去也还没问题！",
+			say = "We've still got reign over the skies so things are still in my favor, but what about the rest of you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过看水面战斗的情况…这个损耗…恐怕是无法继续维持战线了。",
+			say = "I've not taken incapacitating damage, but I'm concerned about my ammo reserves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			actor = 102090,
 			dir = 1,
-			say = "这一点不用担心！量产型可以依靠阿申留防线基地进行补充，增援也已经在路上了。",
+			say = "Denver's team still has a decent amount of ammo left, but we shouldn't linger here for too long!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要放慢推进速度，水面战斗也能继续坚持！",
+			say = "Commander, you don't happen to have a plan, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战役之前我们多少也做了些准备，已经对附近所有基地下达了增援命令，一段时间的增援和后勤保障应该没有问题。",
+			say = "Should it come down to it, we cannot win a war of attrition with the Sirens. It's likely that if we keep pushing, we'll be quickly surrounded even if we do make it to the stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…如果不能取得实质性突破的话，和塞壬打消耗战先被拖垮的一定是我们…",
+			say = "The best we can do is wait here and hold the line until our backup arrives...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "对面的塞壬现在干劲满满，就算掉头撤退，我觉得塞壬也不会轻易放我们走哦？",
+			say = "That, or we could retreat beyond the Sirens' range for a while. Then we'd just need to take out the few that come chasing us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 702020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，那边的指挥官？",
+			say = "Whichever you decide, I'll follow your orders, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,11 +198,11 @@ return {
 			},
 			options = {
 				{
-					content = "北方联合主力舰队前来支援的概率有多大？",
+					content = "Your reinforcements, when are they coming?",
 					flag = 1
 				},
 				{
-					content = "箭在弦上，只能利用手头资源奋战到底了！",
+					content = "First, we have to take out the Sirens encircling us!",
 					flag = 2
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "战局陷入不利之后，我就立刻向卡拉金司令部汇报了。",
+			say = "They told us they're making their way here as fast as they can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "目前，舰队的调遣依然在协调中…",
+			say = "But that's not to say they'll be here any second now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "果然是这样么…看来只好利用手头资源打赢这场战斗了！",
+			say = "Then I guess retreating to a safer area is our only choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "哦~这就是战场指挥官的魄力么~！",
+			say = "Well look at you, aren't you a real strategizer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题哦，我会负起责任来好好保护你的指挥舰，你就安心指挥战斗吧~",
+			say = "Guess I'll rev up the ol' engine and help too. I can't promise you I'll kick much Siren butt at all, but it's better than me doing nothing, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

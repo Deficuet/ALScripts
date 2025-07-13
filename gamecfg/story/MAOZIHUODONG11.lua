@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "bgm-cccp3",
 			dir = 1,
-			say = "前方发现一支塞壬精英舰队，旗舰是…执行者II型么？",
+			say = "A humanoid Siren is coming our way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？这时候出来旧型号的吗？看来要塞的塞壬也快兵力不足了吧。",
+			say = "Oh, I know her all right! I've got a bomb with her name on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "太好了，这支舰队可以作为突破口，突破这处薄弱点继续前进吧！",
+			say = "Once this enemy has been dealt with, we'll finally have some time to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "嗯？周围突然变亮了，那个是……",
+			say = "...Huh? What's that light coming from the Siren?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "不、不好！那是塞壬瞄准后方的攻击！指挥官小心！！",
+			say = "Oh crap! Look out, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "超远距离狙击？！糟了！",
+			say = "The Siren's weapon glowed. Its sights are aimed at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊啊啊啊啊啊啊啊啊啊！休想得逞！！！！！",
+			say = "You shall harm NO ONE!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			say = "南达科他径直冲向高速袭来的光束，火花与雷鸣在她的盾牌上剧烈的滚动着",
+			say = "A burst of entwining flame and electricity rushed towards me. South Dakota rushed in front, blocking the attack with her shield.",
 			side = 2,
 			bgName = "bg_cccp_1",
 			dir = 1,
@@ -190,11 +190,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "南达科他",
+			actorName = "South Dakota",
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…哈啊…对面认出了指挥舰，是瞄准指挥舰的狙击",
+			say = "That was close, it nearly hit the Commander... Pamiat, are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,11 +206,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "水星纪念",
+			actorName = "Pamiat Merkuria",
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢…谢谢…",
+			say = "Oww... I'm fine, minus the back pain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
-			say = "因为水星纪念及时接管了控制权，指挥舰得以在千钧一发之际错开了攻击",
+			say = "It seems Pamiat Merkuria, too, tried to protect me from the Siren's attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
-			say = "可是，如果没有南达科他的盾牌，光束接下来将会直接命中错失了躲闪时机的水星纪念",
+			say = "South Dakota looks like she took the hit well, but had it hit Pamiat instead, she could have suffered major damage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,11 +250,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "水星纪念",
+			actorName = "Pamiat Merkuria",
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢，差点就以为不行了…",
+			say = "Oh, and I'm expecting a \"thank you\" later, got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +266,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "南达科他",
+			actorName = "South Dakota",
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用客气。我说过的，你负责保护指挥官，我负责保护你。我说到做到",
+			say = "You deserve my thanks as well. Had you not alerted me to it, I wouldn't have been able to block it so well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚到底发生了什么事…？！南达科他，汇报损伤情况！",
+			say = "What did I miss? Oh gosh, are you okay, South Dakota?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…装甲损伤不大，不过不明攻击导致了电力系统故障，雷达和炮塔暂时停摆了。",
+			say = "My rigging took only minor damage, but my radar and fire control are malfunctioning. I'd be hard-pressed to fight in my current state...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仅仅吃了一下攻击就导致了战列舰的电力系统故障？！",
+			say = "Malfunctioning?! Have the Sirens pulled out a new weapon on us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是以杀伤为目的，而是以瘫痪为目的攻击…毫无疑问是塞壬的新型攻击手段",
+			say = "It would seem so. I was never expecting to encounter a weapon that targets our electronics, not in these waters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "竟然是伪装成旧型的新型号？！",
+			say = "This about confirms that the Sirens in the Bering Sea are not like what we've fought before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			},
 			options = {
 				{
-					content = "南达科他先休息，其余人注意机动规避攻击。",
+					content = "South Dakota, I want you to fall back for now.",
 					flag = 1
 				}
 			}
@@ -384,14 +384,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "竟然是伪装成旧型的新型号？！",
+			say = "This about confirms that the Sirens in the Bering Sea are not like what we've fought before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "对面是不明的新型塞壬执行者，小心应战！",
+					content = "Everyone, steer clear of this new weapon at all costs!",
 					flag = 1
 				}
 			}

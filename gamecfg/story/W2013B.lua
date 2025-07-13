@@ -7,18 +7,18 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "分析模块同步中：目前可获取的资源等级为最高级。指挥官，是否立即获取资源？",
+			say = "Scan complete. Current energy level: 3. No additional Energy Matrixes can be deposited. Claiming available rewards is recommended.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "立即获取",
+					content = "Claim the rewards.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "Do nothing for now.",
 					flag = 2
 				}
 			}

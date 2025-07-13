@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"进入科研界面",
-	"现在解锁了META研究室功能",
-	"通过与信标作战可以获取其同步值,累计同步值获取丰厚奖励",
-	"奖励领取存在时间限制，过期后将消失，请指挥官注意时间"
+	"Head to the Lab!",
+	"Now enter the META Lab!",
+	"Here you can claim rewards based on how many Sync Points you’ve accumulated!",
+	"Better claim them sooner rather than later! Tap here!"
 }
 
 return {

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "镜面海域·起始的孤岛",
+			say = "Mirror Sea - Outset Island",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说——！雪不归小姐被人带走了！",
+			say = "I've told you already! Somebody kidnapped Fubuki!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道她被带走了！所以我问的是究竟“被谁”带走的！",
+			say = "Yeah, I know! What I'm asking is who that \"somebody\" is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是被人带走了嘛！这种事就算不一一说明，焰酱也应该懂的吧！？",
+			say = "\"Somebody\" means \"somebody,\" okay? You know perfectly well what I'm talking about!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "“焰酱也应该懂的吧！”……算什么啦，你以为我什么都知道啊！我又不是无所不知的神！？",
+			say = "No, I DON'T know what you're talking about! I'm not some all-knowing god!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冷，冷静一下。先确认下现状……",
+			say = "L-let's all calm down and discuss what we know...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，这里有类似恶忍或是妖魔之类的存在，正冲着我们来呢！肯定是这样的！",
+			say = "It's simple. There's either an evil ninja or a yōma who's after us! I'm 100% sure of it!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -161,7 +161,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说——！我们必须尽快去找雪不归小姐才行！",
+			say = "Which brings us back to what I was saying – we need to go looking for Fubuki right now!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说——！在那之前，我们需要了解现状并收集更多情报，详细调查一下才行！",
+			say = "No! What we need to do is figure out what's going on and gather more information before anything else!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "你这不加思考就冲的毛病差不多该给我改改了！",
+			say = "You need to work on this damn habit of yours of rushing in blindly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是在我们这样讨论的时候，雪不归小姐说不定正深陷在可怕的危险之中呢！必须先行动起来才是……",
+			say = "For all we know, she could be being tortured while you're standing here, finding faults with me! We need to get a move on!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像这样继续争论下去是不会有结果的！总之，请先冷静下来……",
+			say = "Ladies! Arguing is to nobody's benefit! Take a deep breath and...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说要这样！！",
+			say = "We're doing it my way!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "所以说不能这样！！",
+			say = "We're doing it MY way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜，她们完全听不进去…难道是因为在下不是一个真正的忍者吗……呜呜……",
+			say = "They won't listen to me... If only I were a full-fledged shinobi, maybe they would... *sob*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,8 +321,8 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "斑鸠",
-			say = "喂！",
+			actorName = "Ikaruga",
+			say = "Enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦？斑鸠小姐！？",
+			say = "Ikaruga?!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "怎么能弄哭小孩子呢。我们应该要做孩子们的榜样才对。",
+			say = "Look what you did. You made the little girl cry. We are supposed to be role models for those like her.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "放着哭泣的孩子不管，只顾着争吵，真是不像话。",
+			say = "Instead, you neglect her to quibble with each other. You should be ashamed.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，不，那个……嗯……",
+			say = "Hey, hang on, that's not what we were doing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们也不是放着不管……",
+			say = "It's not like we were ignoring her, we were just...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "行了，不要再找借口了。本来作为大人的我们就应该……",
+			say = "No. I will not hear any excuses. We are responsible adults, and as such...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

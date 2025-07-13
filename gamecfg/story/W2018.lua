@@ -8,20 +8,20 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
+			actorName = "Mysterious Merchant",
 			dir = 1,
-			say = "这位客官，真是偶遇喵！走过路过，不能错过喵，来看看本次的全新商品喵？",
+			say = "Commander, nya! I sure wasn't expecting to find you out here, nya!, Care to take a gander at my new wares, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "进入商店",
+					content = "Enter the shop.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "Leave for now.",
 					flag = 2
 				}
 			}
@@ -30,10 +30,10 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
+			actorName = "Mysterious Merchant",
 			dir = 1,
 			optionFlag = 2,
-			say = "偶尔也会有这种时候喵…欢迎再次光临喵~！",
+			say = "It's not easy doing business out here, nya... Hope to see you again soon, nya!~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

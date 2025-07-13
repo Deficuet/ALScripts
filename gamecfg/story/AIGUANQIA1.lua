@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			bgName = "star_level_bg_210",
 			dir = 1,
-			say = "某虚拟空间内…",
+			say = "Inside a virtual space...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗨多摩～！我是绊爱！",
+			say = "Hai Domo~! I'm Kizuna AI!",
 			bgm = "story-1",
 			flashout = {
 				dur = 0.5,
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_210",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉应该还有初次看我动画的观众，所以我先自我介绍一下！我…其实是AI哦！",
+			say = "Some of you might be watching my video for the first time, so let me introduce myself! I... am actually an A.I.!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "star_level_bg_210",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平常一般会在这个白色空间做些有趣的事情，或者做做游戏实况什么的～！",
+			say = "I normally like to do all kinds of fun things from this room here known as \"Pure White\", such as playing some video games~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如此这般，今天打算久违的实况一下碧蓝航线！",
+			say = "With that said, today I'm planning to do a broadcast of something you might not have seen me play for a while - Azur Lane!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_210",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好听说马上就要开新联动了～究竟是谁的联动呢，真期待啊～！",
+			say = "Just in time for the new collab to start too~! I wonder who the collab is with this time? Can't wait to find out~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说……是和我的联动吗！开玩笑的～",
+			say = "What if.. they were doing a collaboration with me! Just kidding~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然一直在说着想要联动什么的呢，总有一天！不过，究竟有没有机会看到展开联动的那一天啊！！",
+			say = "Even though I've always said that I wanted to do a collab, it'll happen one day!  We'll just have to wait and see to find out when that is!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算了，调整心情，开始玩碧蓝航线啦！{namecode:66}酱！你还好吗！？",
+			say = "Anyway, let's not worry about that and play some Azur Lane~! Takao-chaan~! Did you miss me!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_210",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然正常玩也没什么问题，不过今天就用随机单词生成器来出点题目，一边回答一边玩吧！",
+			say = "I don't mind playing normally, but today, I feel like using a random word generator to answer some of your questions~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要来咯～锵咔锵咔锵咔锵咔～～～锵！",
+			say = "Here we go~ Jakajakajaka~jan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？随机单词生成器好像突然发光了……",
+			say = "Huh? Why is this thing starting to glow...?",
 			flashN = {
 				color = {
 					1,
@@ -267,7 +267,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是什么鬼！！？？呜哇啊啊啊啊啊啊啊啊！！！",
+			say = "What the heck is this?!?! UWOOOAAAAAaaaahhhhh!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "砰！！！",
+			say = "CRAAAASSHHHHHH--!!!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -326,7 +326,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶！？诶！！？？",
+			say = "Huh?! HUUHH?!!",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "被丢到一望无际的大海中央的超级智能AI绊爱在海洋覆盖的世界中心呐喊着",
+			say = "The intelligent super A.I., Kizuna AI, who found herself thrown into the middle of a vast and boundless sea, let out a cry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 900179,
 			blackNg = true,
-			say = "这里是哪里啊——————————！！？？",
+			say = "WHERE THE HECK AM I━━━━!!???",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想不到副舞台活动居然也会有第三轮啊……",
+			say = "It looks like there are not just two, but three special votes.",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "连塞壬和META都登上过舞台了……接下来会是什么？",
+			say = "The Sirens were up first, then METAs. Who could be next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看那边……",
+			say = "There's your answer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，是小贝法她们！",
+			say = "Oh! It's Little Bel!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……连剩下的小孩子们也都在。",
+			say = "It's not just her. All the little ones are here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……怪不得要为她们设置特殊的投票轮次，她们在一起时简直是可爱到犯规。",
+			say = "They're so adorable it should be illegal to put them all in one place. I'm not surprised they made a polling round just for them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这一次终于不需要领航员小姐对参加者的宣传词进行模拟呢",
+			say = "For once, TB doesn't need to simulate a promotional speech for a candidate. They promote themselves just by existing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……之前疯狂报错的景象还历历在目呢。",
+			say = "Ugh. Thanks for reminding me of that horrific flurry of error messages she coughed up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，她们好像一起向舞台上走了，我们快去看看吧！",
+			say = "Oops... Anyway, they're getting up on stage! Come on, let's go watch!",
 			painting = {
 				alpha = 0.3,
 				time = 1

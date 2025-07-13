@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "藏起来什么东西了吗？"
+										content = "Are you hiding something?"
 									}
 								}
 							},

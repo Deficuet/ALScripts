@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>一 新的冒险、开始！</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 1 - The Start of a New Adventure!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌宿舍",
+			say = "Port - Dragon Empery Dorm",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年咯！祝各位新年万事大吉，阖家欢乐，团团圆圆，嘿嘿~",
+			say = "It's Lunar New Year! I wish you all an auspicious and Happy New Year as one big family! Heheh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样，姐姐！我的祝福语练得还行吧？",
+			say = "How was that? That was a proper New Year's greeting, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，后面不要加嘿嘿，要认真正经一点才是合格的！",
+			say = "No, don't add \"heheh\" at the end! Greetings are serious business!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之就是合格了嘛！耶，可以出去玩咯~~~",
+			say = "So the greeting itself was fine, then! Alright, let's head out to play some games!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给我回来。过年了大家都在忙各种准备，你可不许乱跑，给人家添麻烦。",
+			say = "Hold it! People are busy with their preparations, and I'm not letting you go out and cause trouble for them!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切～没劲。对了姐姐！我去院子里帮忙挂灯笼去吧！",
+			say = "Tsk. Lame~ Oh, I know! Can I go help hang up the lanterns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别想趁我不注意偷偷溜出去了…太原，你去看着抚顺，不要让她到处乱跑哦",
+			say = "I'm not letting you sneak away when nobody's looking! ...Tai Yuan, keep an eye on Fu Shun and make sure she doesn't go anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…好的，鞍山姐，不过，想看住抚顺姐的话……",
+			say = "Okay, I will. But... keeping a close eye on Fu Shun can be pretty difficult...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 101382,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鞍山，厨房这边可能需要点帮手——",
+			say = "An Shan, we'd like to ask for your help in the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 101392,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，真奇怪…明明几乎都是是按照食谱做的…",
+			say = "I-it's so weird... I followed the recipe almost to a T...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 101382,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题就出在这个几乎上吧…是不是又加了什么奇怪的东西……",
+			say = "But we've clearly created some kind of Frankenstein dish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 101392,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咕唔，那、那是一种对创新的尝试…总、总之，鞍山麻烦快来吧～～",
+			say = "I-I guess I just thought I'd innovate on the recipe a little... Please, An Shan, help us~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了，马上就来~",
+			say = "Okay! I'll come help right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年要准备的事情太多了，就只能拜托你帮姐姐分担些啦！好了，你们去吧，我要去厨房帮忙了。",
+			say = "Things are so hectic now that everyone has their hands full... Fu Shun, Tai Yuan, go help those who need it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好嘞，姐姐慢走~",
+			say = "You got it~ Good luck in the kitchen, An Shan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们就去拿灯笼吧，抚顺姐。",
+			say = "Now then, Fu Shun, should we go get the lanterns?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，其实灯笼我早就挂完了，鞍山姐走了，终于可以出去玩咯！",
+			say = "Heheh, truth is, those have already been hung up! And now that An Shan's left, I can finally go have some fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太原也一起来吧~我想到一件非常适合现在玩的事情呢！",
+			say = "Why don't you come with me? I just thought of something SUPER fun we could do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶诶诶？可、可是鞍山姐刚才在说…",
+			say = "Come with you?! B-but An Shan told us to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系啦，出去一会就回来，只是要到港区里找看看有没有做爆竹用的火药而已嘛~",
+			say = "Don't worry about it, nobody will notice. We're just going to check if there's any gunpowder lying around the base to make firecrackers with~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要、要做爆竹吗！？很、很危险的吧…要是不小心——",
+			say = "F-firecrackers?! B-but that's dangerous... We shouldn't play with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年不放爆竹怎么行呢？好啦，听姐姐的话，我们转一圈就回来，走吧～",
+			say = "What's a Lunar New Year without firecrackers? Come on, do as your big sister says and let's go for a quick lookie. It'll be fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "诶、诶诶诶，等等，抚顺姐，至少让我自己走啦——",
+			say = "But... Umm, please let go of my hand, Fu Shun... At least let me walk on my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

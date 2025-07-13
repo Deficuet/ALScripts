@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中存在的异常洋流构成了某种阻碍舰队移动的封锁区域。建议，寻找并摧毁海域中的4处塞壬洋流控制器。",
+			say = "Scan complete. Control device responsible for abnormal ocean currents has been located.There are a total of 4 ocean current control devices. Their destruction is recommend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

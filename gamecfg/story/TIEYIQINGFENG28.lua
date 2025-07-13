@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			bgm = "theme-sakuraholyplace",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "企业，周边区域已经搜遍了，没找到人。",
+			say = "Enterprise, I did a sweep of the area, but couldn't find anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来只能继续扩大搜索范围了。",
+			say = "Then we'll have to expand our search range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去水下更深处看看！",
+			say = "You do that! Me and the other subs will go have a look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，我也去幻境的其他角落看看。",
+			say = "Lady Nagato, I'll search the inside of the illusion one more time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们也来帮忙！",
+			say = "Let me help you with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……为时已晚，诸位，可以停止搜索了。",
+			say = "Enough already. I'm calling an end to the search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人？！",
+			say = "What?! Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……如此兴师动众找到现在，都没发现任何蛛丝马迹。",
+			say = "They aren't here. She used a Sacred Sakura to move to a new domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕它们已经利用连接神木的神石网络转移了。",
+			say = "It would be one thing if the Sacred Sakura domain was limited to the Sakura Islands. With it being stretched this wide, though, there's no reason to search this one place from top to bottom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……利用神木……进行了转移？",
+			say = "Wait, so you're saying she kidnapped Hiei and just teleported somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "此事本为绝密，不过如今诸位已经亲眼所见，也不妨说了。",
+			say = "Aye. Warping with a Sacred Sakura was a closely guarded secret of ours. I needn't withhold that knowledge now that you've witnessed it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（吾明明发誓要保护好所有人，可是{namecode:71:比叡}却因为吾的轻敌，在吾的眼前……）",
+			say = "(I swore to protect them. All of them. And yet, my own carelessness led to Hiei being abducted right before my eyes...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（不会有事的……绝对不会有事的……）",
+			say = "(No, calm down. It will be okay.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（{namecode:91:赤城}抓吾必有目的。一旦发现抓错了人……应该不会难为她。）",
+			say = "(That Amagi-like spirit was after me. She should be coming back to finish the job...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,34 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（可是她既然要抓吾……为什么会允许吾离开呢……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_yunxian_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305050,
-			say = "（吾有种……更加不妙的预感……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "bg_yunxian_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（不过现在……）",
+			say = "(And yet, rather than try again after she got Hiei, she simply vanished and hasn't been back since.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +239,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "既然已经不在本地，那么找也无用。",
+			say = "(This gives me a very, very bad premonition.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_yunxian_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(I need to...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_yunxian_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305050,
+			say = "(No. Calm down. You cannot afford to lose your cool again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "外部还在激战，马绍尔群岛仍未被夺回，吾等还有更重要的事要做。",
+			say = "(For now, it's time to recapture the Marshall Islands and meet up with the Commander!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}静下心神，在大神木之中寻找着。",
+			say = "Nagato took several deep, calming breaths, then placed her hand on the false Prime Sakura's trunk again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（果然，此处也藏有海若的碎片……碎片之上依然是「息」的气息。）",
+			say = "(There it is. There is another Watatsumi fragment here. I sense corruption, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……碎。",
+			say = "Crumble to dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
-			say = "海若碎片被粉碎后，覆盖整片马绍尔群岛要塞的幻境开始了不可逆转的瓦解。",
+			say = "Its core now pulverized, the Marshall Islands illusion fell apart in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
-			say = "与此同时，彻底失去了力量来源的巨舰们也纷纷被摧毁，其舰队亦开始崩溃。",
+			say = "The black vessels beyond the illusion, too, disintegrated as their power source had been destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
-			say = "马绍尔群岛方向的战役，就此胜利了——",
+			say = "At last, the battle of the Marshall Islands ended in a victory for the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

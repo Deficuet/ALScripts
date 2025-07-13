@@ -12,7 +12,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确认击沉！凭你们是无法阻挡北方联合的前进的！",
+			say = "Kill confirmed! None may stand before the might of the Northern Parliament!",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看塔什干把你们统统揍扁！",
+			say = "I'll beat you all to a pulp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "侵占家园的，无论是狐狸还是塞壬，都要通通赶跑…！",
+			say = "We'll kick out anything that trespasses upon our home, vermin or Siren...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，怎么样！我这澎湃的动力！",
+			say = "Haha! What do you think, Commander? Pretty good coordination on the fly, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "该说不愧是北方联合的战斗方式么，连驱逐舰都…这么彪悍…",
+			say = "Remarkably, despite not having a determined command structure, the members of the Northern Parliament all fought on the same page, as if linked by their strong sense of unity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在战场上看入迷可是很危险的哦，指挥官同志~（耳语）",
+			say = "I know you like what you see, but it's best not to stare too much, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "？！恰巴耶夫？！什么时候出现在身边的…",
+			say = "I felt a warm breath tickle my ear. Chapayev had snuck up behind me.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -129,7 +129,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是来向指挥官汇报目前战况的哦？指挥官是看战斗看得入迷了，还是看北方联合的舰船们看得入迷了呢~？",
+			say = "Here's the report on the current status of our positioning, supplies, and damages. Please look it over before everyone gets back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…不管怎么说，现在雷达范围内的塞壬舰队全部消灭完毕了哦。",
+			say = "Whether you choose to attack the Siren stronghold or rejoin with the Eagle Union forces, we'll likely encounter more enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然很快就要涌出新的敌人了，不过，趁着这段空档，指挥官，请下达进一步的作战命令吧。",
+			say = "So, what will your orders be, Commander? I'll do anything you say~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "嗯…现在首先要做的是……",
+			say = "What we should do now is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			},
 			options = {
 				{
-					content = "…想办法与失散的白鹰舰队会合",
+					content = "Join up with the Eagle Union fleet.",
 					flag = 1
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "没错，目前的第一要务应当是…会合，不过…处于通讯受阻的镜面海域内，又有这碍事的冰墙，要怎么才能…",
+			say = "I'm worried about my friends. But, now that our communications have been disrupted by the Mirror Sea, what should we do next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "关于这点， 请不用担心。对于常年在极地海域与塞壬作战的我们来说，这些都还算有办法对付",
+			say = "This is solely based upon anecdotal evidence, but we believe that the \"nucleus\" must be destroyed in order to escape from the influence of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯虽然不能做到完全通畅，但多少也有些解决方案",
+			say = "From the information we've been able to analyze, we believe that then nucleus is located within the Siren stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，我想想。基洛夫、甘古特，还有明斯克，能请你们先行一步，寻找分散的白鹰舰队吗？",
+			say = "In other words, it is necessary for us to capture the Siren stronghold in order to achieve your goal - and perhaps the Eagle Union has realized that as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白，保证完成任务！我们走吧，甘古特，明斯克！",
+			say = "дa. It is very likely that the Eagle Union is also en route to the stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先锋和搜索吗，多少有些不够过瘾呢，不过算了，既然是任务，就应当被执行",
+			say = "Of course they are! Where else would they be headed to in this Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~！回头见啦，指挥官同志~",
+			say = "Aha! I get it! If we just capture the stronghold, all we have to do is wait for the others to show up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记得定时保持联络，等你们会合了，我们再重新决定集合地点",
+			say = "You mixed up our objectives, but... that thought process isn't wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于我们——",
+			say = "Wouldn't it be better to focus our attention on the common objective instead of expending valuable time and resources searching around blindly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			},
 			options = {
 				{
-					content = "继续塞壬要塞的攻略",
+					content = "Attack the Siren stronghold.",
 					flag = 1
 				}
 			}
@@ -351,7 +351,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，指挥就拜托你了哦，指挥官同志~",
+			say = "It's decided then. I'll be counting on you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "希望基洛夫她们能任务顺利，在总攻之前成功会合舰队吧。",
+			say = "Let's trust our friends' judgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

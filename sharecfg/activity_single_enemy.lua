@@ -11,12 +11,37 @@ pg.activity_single_enemy = {
 		icon = "",
 		guardian_limit = 0,
 		level = "",
-		time = "stop",
 		enter_cost = 0,
+		extra_drop = "",
 		id = 1001,
 		activity_type = 1,
-		extra_drop = "",
 		strategy_id = "",
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		use_oil_limit = {
 			0,
 			0
@@ -35,12 +60,37 @@ pg.activity_single_enemy = {
 		icon = "",
 		guardian_limit = 0,
 		level = "",
-		time = "stop",
 		enter_cost = 0,
+		extra_drop = "",
 		id = 1002,
 		activity_type = 1,
-		extra_drop = "",
 		strategy_id = "",
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		use_oil_limit = {
 			0,
 			0
@@ -59,12 +109,37 @@ pg.activity_single_enemy = {
 		icon = "",
 		guardian_limit = 0,
 		level = "",
-		time = "stop",
 		enter_cost = 0,
+		extra_drop = "",
 		id = 1003,
 		activity_type = 1,
-		extra_drop = "",
 		strategy_id = "",
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		use_oil_limit = {
 			25,
 			15
@@ -83,12 +158,37 @@ pg.activity_single_enemy = {
 		icon = "",
 		guardian_limit = 0,
 		level = "",
-		time = "stop",
 		enter_cost = 0,
+		extra_drop = "",
 		id = 1004,
 		activity_type = 1,
-		extra_drop = "",
 		strategy_id = "",
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		use_oil_limit = {
 			0,
 			0
@@ -113,12 +213,37 @@ pg.activity_single_enemy = {
 		icon = "",
 		guardian_limit = 1,
 		level = "",
-		time = "stop",
 		enter_cost = 0,
+		extra_drop = "",
 		id = 1005,
 		activity_type = 1,
-		extra_drop = "",
 		strategy_id = "",
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		use_oil_limit = {
 			40,
 			16
@@ -137,7 +262,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 1,
-		name = "T1 住院大楼",
+		name = "T1 Inpatient Building",
 		enter_cost_drop = 0,
 		strategy_num = 2,
 		icon = "clue_5",
@@ -178,7 +303,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 1,
-		name = "T2 疗养中心",
+		name = "T2 Recuperation Center",
 		enter_cost_drop = 0,
 		strategy_num = 2,
 		icon = "clue_2",
@@ -218,7 +343,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 1,
-		name = "T3 后勤中心",
+		name = "T3 Logistics Center",
 		enter_cost_drop = 0,
 		strategy_num = 2,
 		icon = "clue_1",
@@ -258,7 +383,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 1,
-		name = "T4 研究中心",
+		name = "T4 Research Center",
 		enter_cost_drop = 0,
 		strategy_num = 2,
 		icon = "clue_3",
@@ -301,7 +426,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 2,
-		name = "T1 住院大楼",
+		name = "T1 Inpatient Building",
 		enter_cost_drop = 0,
 		strategy_num = 3,
 		icon = "clue_5",
@@ -346,7 +471,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 2,
-		name = "T2 疗养中心",
+		name = "T2 Recuperation Center",
 		enter_cost_drop = 0,
 		strategy_num = 3,
 		icon = "clue_2",
@@ -390,7 +515,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 2,
-		name = "T3 后勤中心",
+		name = "T3 Logistics Center",
 		enter_cost_drop = 0,
 		strategy_num = 3,
 		icon = "clue_1",
@@ -434,7 +559,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 2,
-		name = "T4 研究中心",
+		name = "T4 Research Center",
 		enter_cost_drop = 0,
 		strategy_num = 3,
 		icon = "clue_3",
@@ -481,7 +606,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 3,
-		name = "T1 住院大楼",
+		name = "T1 Inpatient Building",
 		enter_cost_drop = 0,
 		strategy_num = 4,
 		icon = "clue_5",
@@ -530,7 +655,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 3,
-		name = "T2 疗养中心",
+		name = "T2 Recuperation Center",
 		enter_cost_drop = 0,
 		strategy_num = 4,
 		icon = "clue_2",
@@ -578,7 +703,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 3,
-		name = "T3 后勤中心",
+		name = "T3 Logistics Center",
 		enter_cost_drop = 0,
 		strategy_num = 4,
 		icon = "clue_1",
@@ -626,7 +751,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 3,
-		name = "T4 研究中心",
+		name = "T4 Research Center",
 		enter_cost_drop = 0,
 		strategy_num = 4,
 		icon = "clue_3",
@@ -677,7 +802,7 @@ pg.activity_single_enemy = {
 		pre_chapter = 0,
 		count = 0,
 		type = 4,
-		name = "ESP 诊疗中心",
+		name = "ESP Medical Center",
 		enter_cost_drop = 905380,
 		strategy_num = 4,
 		icon = "clue_4",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"炼金术师与秘密遗迹群岛-日常篇\n\n<size=45>七 庆功宴</size>",
+					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>7 All in a Day's Work</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgm = "story-1",
 			blackBg = true,
-			say = "终于，温泉乡的建设全部完成了——————",
+			say = "Now, after all that labor, the hot spring inn is finally complete.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "来，大家一起举起我们手中的杯子，为这段时间的努力而干杯吧！",
+			say = "Okay, I say let's raise a toast to everyone's hard work!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "The Team",
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
-			say = "干杯————！",
+			say = "To everyone's hard work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼啊……看到辛勤劳动结出成果之后果然让人感到开心呢~",
+			say = "Whew. It makes me happy to see people's efforts pay off.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -114,7 +114,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "温泉也好舒服，泡一会儿就感觉脑袋放空下来了不少，感觉所有辛苦都是值得的了！",
+			say = "And what a great hot spring we made. I knew all that labor was worth it after my quick dip which totally cleared my mind.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -132,7 +132,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……没想到之前的商会经验在这里派上大用场了。",
+			say = "Yeah, I also never thought my business knowledge would be useful in the creation of an inn.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -150,7 +150,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一下子要我去指挥这么多人来负责调配工作，突然还有点紧张呢。",
+			say = "Although, I was pretty nervous about having to suddenly coordinate that many people.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "辛苦啦，科洛蒂亚~！作为对于辛苦的科洛蒂亚的慰问——来，尝尝这个~",
+			say = "You did it well, Klaudia. And for all your hard work, you geeet... yummy boiled eggs! Have a bite!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -185,7 +185,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，这个是……用温泉水煮的鸡蛋……？",
+			say = "Nom... Hmm, did you boil these in hot spring water?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -213,7 +213,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，这个是重樱的同伴们告诉我的做法呢，正好适合在晚餐前当做点心吃。味道不错吧~",
+			say = "Yup! Some Sakura Empire girls taught me how. They said they're a great pre-breakfast snack. Pretty good, aren't they?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -231,7 +231,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~十分的美味，莱莎也来吃一个~",
+			say = "Yeah, really good! You should try one yourself.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -249,7 +249,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊…………",
+			say = "*sigh*...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -267,7 +267,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了，帕特莉夏小姐？",
+			say = "Is something the matter, Patricia?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -285,7 +285,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么没什么，就是突然感觉这里的人真的都相当热情呢……",
+			say = "Oh, no, it's nothing. I was just thinking about how nice everyone here is.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -303,7 +303,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前几天我参加了皇家的茶会，红茶特别好喝，点心特别好吃，人也特别好。",
+			say = "Some Royal Navy ladies invited me to a tea party the other day, and they were also really kind to me. The tea and biscuits they served were lovely, too.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -321,7 +321,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是这样…说起来，茶会上的红茶也是用植物做的。皇家的茶叶，应该是从很远的地方送过来的吧？",
+			say = "That's nice. Speaking of their tea, I wonder if the Royal Navy's tea leaves are locally sourced. If not, do they have to import them from far away?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -339,7 +339,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次有机会的话，我们一起去吧，光辉小姐肯定会十分开心的！",
+			say = "You could come with me to their next tea party and ask if you'd like, Miss Serri. I'm sure Miss Illustrious would be happy to have you.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -357,7 +357,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……稍微在这里停留一阵，也不错。",
+			say = "...I could, yes. Staying here for a while longer sounds nice.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "各位，打扰了喵！",
+			say = "Sorry to interrupt, nya!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -402,7 +402,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98}小姐！你也要来一起喝一杯么？",
+			say = "Hey, Akashi! Want a drink?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "莱莎小姐……请问这种放在杯子里粉色液体名字叫什么喵？{namecode:98}从来没有见过这样的饮品喵？！",
+			say = "Thanks, but I have something to... Huh? What's the pink stuff in that teacup you've got, nya? I've never seen anything like it, nya!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -437,7 +437,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个啊，名字叫琼浆玉液，一种炼金术的调合产物哦。",
+			say = "This? It's what we call nectar! I synthesized it using alchemy.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -454,7 +454,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不但很好喝，而且具有强力的回复功效~",
+			say = "Not only is it yummy, but it's also a solid revival potion.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -471,7 +471,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这还真是…………商机的味道喵…………",
+			say = "Ooh... I smell money to be made, nya...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -488,7 +488,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不对，不对，指挥官是让我来通知大家的喵！热气腾腾的晚餐已经准备好了喵~",
+			say = "Wait, I'm supposed to deliver a message, nya! The Commander wanted me to tell you that dinner is ready, nya!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -515,7 +515,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家请跟我一起来，夜晚还有很长，庆功宴从现在才要正式开始呢喵————！",
+			say = "Come with me, nya. The party is only getting started, nya!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

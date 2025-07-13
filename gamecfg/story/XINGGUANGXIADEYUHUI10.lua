@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "就这样，在正午的演讲结束后，我与{namecode:541:杜伊斯堡}和{namecode:540:Z52}一同前往了运行状态最为完好的一号永恒之星。",
+			say = "After Rumey's public address, I asked Duisberg and Z52 to accompany me to the Eternal Star in the best condition.",
 			bgm = "story-ironblood-light",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "经过一段时间乘船，我们顺利抵达了目的地。",
+			say = "Following a quick voyage on a mass-produced ship, we now stand directly below the underbelly of the giant structure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,20 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "此时此刻，一号永恒之星正无声无息地悬浮在前方距离水面十米左右的半空中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_1",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（浮空技术么……与印象中的理事会舰队有些相似。）",
+			say = "It hovers soundlessly in the air, roughly ten meters above the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +64,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过，此处使用的悬浮装置似乎比理事会舰队更胜一筹。）",
+			say = "(Hovering technology. Reminds me of the United Council's floating battleships.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_1",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Only more advanced. This structure dwarfs the likes of a battleship.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "这里就是保存最为完好的一号永恒之星了。",
+			say = "This is Eternal Star 1, the most-intact of the bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "自从抵抗军将其控制下来之后也进行了不少调查，不过确实收获寥寥。",
+			say = "We investigated this thing once when we captured it, but we basically found nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但你毕竟是神秘的天外来客，或许能有不同的结果呢？",
+			say = "Perhaps our ever-dependable Commander will succeed where we failed, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "{namecode:541:杜伊斯堡}笑了笑，然后打开了甲板上一个集装箱的门。",
+			say = "Smiling at me, Duisburg opens the doors on the container resting on the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "{playername}阁下，请进吧。",
+			say = "Well, you first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……集装箱？",
+			say = "What's this container for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "对呀？距离水面还有十多米呢，我们总不能自己飞上去吧。",
+			say = "The thing is floating in the air, remember? Last I checked, none of us here can fly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "{namecode:541:杜伊斯堡}潇洒地打了个响指，一些如同小型{namecode:94:飞龙}一般的飞行器缓缓牵引起集装箱的四角，让集装箱微微离地。",
+			say = "With a snap of Duisburg's fingers, a flock of drones that resemble dragons swoop down and hook into the container's four corners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来是利用无人机升起集装箱么……之前就想问了，这些机械小{namecode:94:飞龙}是什么？",
+			say = "Wait, are you going to fly us up there in the container? What are those drones, anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "这些……算是某种结合了舰装技术的无人机哦，全称叫做ID-50型“飞剑龙”式双翼无人机。",
+			say = "Ornithopter model IB-50, nicknamed \"Pterosaur\". They were developed from rigging technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "你直接叫飞剑龙就好啦~",
+			say = "Just call them Pterosaurs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（双翼无人机么……呃，倒也算是某种形式的双翼吧。）",
+			say = "(Ornithopters, of all things... Well, their applications aren't that different from fixed-wing aircraft.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "走吧走吧，我们快进去吧！",
+			say = "C'mon, let's head up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "片刻之后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 				}
 			},
 			location = {
-				"永恒之星·内部",
+				"Eternal Star - Interior",
 				3
 			}
 		},
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "进入永恒之星后，映入眼帘的只有一条约三米宽五米高的通道，笔直向前延伸着。",
+			say = "Once we entered the structure, we were faced with a long corridor measuring three meters wide and five meters tall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "通道的尽头是一座电梯，直达一处大约位于永恒之星正中部区域的大厅。",
+			say = "At the end of it was an elevator, this time leading up into the Star's central area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "除此之外，没有任何一处岔路、任何一节楼梯、与任何一扇门。",
+			say = "Here, there are no branching paths, no staircases, and not even any doors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，是不是觉得结构过于简单了些，内部空间远没有想象中的大？",
+			say = "The outside fools you into thinking there's tons of spaces to explore... In truth, the layout is extremely simple, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，原本做好了探索三天的准备，目前看来或许半日都用不到了。",
+			say = "I anticipated this would take three whole days. Now it seems we'll be done in half of one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "塞壬的设备一向如此啦，高度自动化，封闭化。",
+			say = "That's Siren structures for you – closed, compact, and automated through and through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "我觉得如果不是考虑到了要与我们进行合作，或者就连这唯一的大厅也不会存在呢。",
+			say = "If the Sirens hadn't accommodated for us, even this one hallway probably wouldn't exist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……确实很有可能。",
+			say = "True.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "那边的七个台子都是操作台，不过我们能使用的只有第一座。",
+			say = "Those seven pedestals over there – those are the control panels. Only the first is functional.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "包括开关入口、开关通道、授权人员进入、开关观景台、修改警戒范围等最简单的基础功能。",
+			say = "The only things it can do is open and close the passageway, grant and remove entry privileges, and alter the structure's alertness range. Oh, and toggle view mode on and off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我先来为你演示一下吧~",
+			say = "Let me give you a demonstration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:541:杜伊斯堡}快步走第一座操作台前，用手指在面板中简单操作着。",
+			say = "Her delicate hands run across the control panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "随即，墙壁与地板似乎在转瞬间消失了。明亮的阳光从四方照了过来，脚下是波光粼粼。",
+			say = "In a blink, the walls and the floor turn transparent. Sunlight flows in from all directions, and the sea below us glows golden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "嘿嘿~这就是观景台模式启动时的样子了，很神奇吧~",
+			say = "Heehee. This is the view mode. Pretty cool, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "此刻，我与{namecode:541:杜伊斯堡}和{namecode:540:Z52}，外加七座操作台，就如同漂浮在半空中一般，四周景色一览无余。",
+			say = "It feels like I'm floating in the sky. This unbelievable view seems to span to the edge of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样的设计……目的应该不是为了观景，而是为了在战斗中得到最好的指挥视野吧？",
+			say = "While it IS a great view, don't you think its real purpose is to provide an optimal overview of the battlefield?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "唔，道理上应该是这样。",
+			say = "Hmm. Could be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "不过我们没人能操控永恒之星进行战斗，所以也就只剩下了观景功能了嘛……嘿嘿。",
+			say = "The thing is, there's no one capable of controlling the Eternal Star in battle, so in practice it's basically just a viewing platform.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（唉……）",
+			say = "(I see...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "在心中微微感叹了一下浪费后，我也来到了第一座操作台前，将手指点在了操作面板上。",
+			say = "Breathing a sigh internally, I casually place my hand on the station's control panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,11 +636,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "一号操作台",
+			actorName = "Control Station 1",
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——操作权限已确认。",
+			say = "Access permission verified.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "随即，整座大厅发出了“嗡”的一声，仿佛从沉睡中被激活了一般，一直处于关闭状态的第二座操作台也亮了起来。",
+			say = "A bang echoes through the whole corridor. The lights on the second control panel light up, as though brought to life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（赌对了，我与安蒂克丝系统之间的联系……果然不一般。）",
+			say = "(I knew it. The Antiochus and I have ties.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "这……不、不愧是天外来客，太厉害了！",
+			say = "Holy... I can't believe it! Amazing job!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种现象从来没出现过啊！我得赶紧联络一下鲁梅女士！",
+			say = "No one's ever done that before! I've gotta tell Rumey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "快快快~！快去试试第二座操作台都能干什么！",
+			say = "Quick, check if it has any new functions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "在被{namecode:540:Z52}热情地推到了第二处操作台前后，我顺利地操作起来。",
+			say = "Pushed on by Z52, I walk over to the second station. I swiftly remember how to operate it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这座操作台可以查阅系统日志、进行系统自检、开启外部物资补充通道。",
+			say = "Let's see, this one has... Check system logs, initiate self-recovery, open cargo passageway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还能检视武器状态、调用更多迎击模式，并且可以针对单独武器进行精确控制。",
+			say = "Weapons system overview, adjust interception mode... There is even manual control of every individual weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "我的天……那以后我们岂不是可以让永恒之星指哪儿打哪儿了？！",
+			say = "So, wait, you can control where to shoot?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "这也太酷了吧！",
+			say = "Holy crap! That's the sickest thing I've ever seen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "对于周边有所损坏的永恒之星也可以着手进行修复了。",
+			say = "Looks like opening the passageway will also let us fix the surrounding Eternal Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "因为资源耗尽而停用的那些也可以对其进行安全的补充。",
+			say = "We'll even be able to bring back ones that have been rendered inoperable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不论如何，今后抵抗军基地的整体作战能力将会飞跃式增强。",
+			say = "One thing is very clear – this will be a massive boost to the Resistance's combat capabilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "这也太帅了，我已经开始崇拜你了！",
+			say = "You know, I'm really starting to admire you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，你还真是带来了一个天大的惊喜。",
+			say = "What a magnificent surprise you have for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能查看一下永恒之星是否可以自由移动么？",
+			say = "I'm curious – is the Star able to be repositioned?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果其能够作为移动炮台进行远程部署的话，我们就能夺回更广大的海域了。",
+			say = "Should it be capable of autonomous movement and targeting, many more places will open up for recapture to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……似乎不行。",
+			say = "That might be asking for too much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "从系统记录中来看，永恒之星似乎是某个更为巨大装置的组成部件，其本身并不具备长距离移动能力。",
+			say = "Looking at the data logs, it seems like the Eternal Stars are actually parts of an even bigger machine. They weren't built to be moved on their own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巨大装置？我还是第一次听说这件事。",
+			say = "A bigger machine? This is news to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "或许……就连岛上的镜面海域，以及那个神秘供能设施都与这个巨大装置有关。",
+			say = "Well, I'm speculating here. It's also possible the Mirror Sea and the energy tower have something to do with this supposed machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过很可惜，这些似乎只是装置必要组件中的一小部分，装置最终没能完工。",
+			say = "But, unfortunately, some parts are still missing. They never did finish constructing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……确实可惜。",
+			say = "Yes... That is unfortunate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -998,7 +998,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉，凭我们现在的力量绝不可能把这个装置修建完成，眼下还是不考虑了。",
+			say = "It is much beyond our current capabilities to complete this machine of theirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过就算如此，阁下今天的发现也是一件足以引起轰动的大事。",
+			say = "Even so, this is a monumental discovery for our forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我从外部能观察到一号永恒之星表面正在发生变化，你已经开始对其进行维护了么？",
+			say = "Hmm. Something appears to be up with Eternal Star One. Did you initiate maintenance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，就算是此处保存最为完好，系统自检中依然发现了不少问题。",
+			say = "Yeah. While this one is in the best condition, the self-diagnostic I ran found heaps upon heaps of issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别担心，都是些小问题，很快就能被修好的。",
+			say = "Luckily, none of them are major. The maintenance should be done fairly soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}停顿了一下，似是在努力克制激动之情。",
+			say = "Rumey bites her tongue, seemingly holding back some emotion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1094,7 +1094,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，其他的也拜托你了。",
+			say = "I'll leave the rest to you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,7 +1107,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "必将尽力而为。",
+			say = "Thanks. I'll do everything I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（在三日后的进攻之前，将基地周边的永恒之星都调整到最佳运转状态吧！）",
+			say = "(The operation starts in three days. Until then, I'll have to get the other Eternal Stars in as good a condition as possible.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

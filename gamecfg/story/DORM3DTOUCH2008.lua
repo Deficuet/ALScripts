@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……我们的心意果然是相通的。",
+			say = "Yeah... We really do think alike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>一　蓝色麦芽糖</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>1 Sweet as Sugar</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日的清晨——",
+			say = "Early morning - Outside the office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一大早来到了指挥室，却在门口看到了一个熟悉的身影……",
+			say = "I was nearing my office, and that's when I saw a familiar figure right by the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好，指挥官……我，我是今天担任您的秘书舰的海伦娜。",
+			say = "Good morning, Commander. I'll, um, be your secretary starting today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为不太确定是不是应该等您来了再进去，所以就在这里了……",
+			say = "I thought I should wait for you before stepping inside, so... Here I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哦对……今天是海伦娜担任秘书舰的第一天。不过，她怀里抱着那本又厚又大的笔记究竟是……",
+			say = "Right, today was the day Helena would start as my secretary. I then noticed she'd brought a big stack of notes with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要做的是整理文件么？好的。",
+			say = "Okay, first thing's first – sorting paperwork.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜把那本厚厚的笔记放到了桌上，然后翻开了其中一页。",
+			say = "Helena placed her stack of notes on the table and started flicking through them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看……“文件整理”是在这里……",
+			say = "Paperwork, paperwork... Ah, here it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "笔记本上的字迹整齐又密集，还贴满了五颜六色的标签。",
+			say = "She withdrew a sheet with gorgeous handwriting and adorned with a colorful stamp, to boot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官是在意这个笔记本么？",
+			say = "...Hm? Are you wondering what my notes are for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是我从其他同伴那里请教的，关于秘书舰工作细节的笔记……",
+			say = "They're a list of secretary tips I compiled by asking girls around port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯...还是参照同伴们的经验会安全一点…",
+			say = "I figured their advice would help me perform my job better, so yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "好像有些谨慎过度了…？虽然确实很有海伦娜的感觉……",
+			say = "Talk about playing it extremely safe... To be fair, she has always been like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……对了，指挥官。您想喝茶还是咖啡呢？",
+			say = "Ah, crap, I haven't made you a drink yet. Do you want tea or coffee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			},
 			options = {
 				{
-					content = "茶吧，浓度适中就好。",
+					content = "\"I'll have some tea. The usual strength.\"",
 					flag = 1
 				}
 			}
@@ -280,7 +280,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？适中么……好的，我马上回来……",
+			say = "The usual strength... Got it. I'll be back in a minute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜一瞬间露出了为难的表情。她翻了翻笔记本，然后有些焦急地走出了指挥室。",
+			say = "She anxiously skimmed her notes until she found the page she was looking for, then left the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "等到海伦娜再回来的时候，她的手上多了一台不知从哪里拿来的电子天平。",
+			say = "Helena came back a while later with a kitchen scale in hand.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -342,7 +342,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样就能精确测量了……",
+			say = "This? It's so I can make exact measurements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据指挥室茶壶的容积，达到适中浓度的茶叶大概是5克……",
+			say = "Based on the size of your teapot, it'll take about five grams of tea leaves for the right strength...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，茶好了……",
+			say = "...It's done. Here you go, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……确实是浓度适中的茶水。",
+			say = "I had a sip, and... it was just my cup of tea. Literally, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "忍不住想象了一下海伦娜做饭时的场景，该不会和化学实验现场一样吧……",
+			say = "However, seeing how meticulous she was made me worry if she cooked like this too. I prayed she wouldn't turn the kitchen into a science lab.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文件整理工作也完成了，请您过目。",
+			say = "I'm done sorting your papers now. Have a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……无论是泡茶还是整理文件海伦娜都完成的非常出色，只不过……",
+			say = "She was already performing impeccably as a secretary. Then, all of a sudden, someone came knocking on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这是上次出击的相关报告哦~",
+			say = "Hey, Commander. We're just here to drop off yesterday's after-action report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以说……为什么我们要来送文件啊……！",
+			say = "Ugh. Couldn't you have carried these papers yourself, Louis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "正在沉思时，火奴鲁鲁与圣路易斯来到了指挥室。",
+			say = "It was St. Louis and Honolulu. What a coincidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜，怎么样，工作还顺利吗？",
+			say = "What's up, Helena? Starting to get the hang of this yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…路易斯姐姐？",
+			say = "L-Louis? Um, hi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我，我还要把借来的工具还回去……先走一步……",
+			say = "Sorry, I just remembered I have to go return this scale. I have to go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			actor = 102130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走掉了啊……",
+			say = "Goodness, she left in a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，有海伦娜的帮助工作轻松了很多吧？她可是个非常细心的孩子哦~",
+			say = "Anyhow – she's a great help around the office, isn't she, Commander? My little Helena is a diligent girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "细心是细心，只不过感觉稍微有些……",
+			say = "\"She definitely is. Though 'diligent' doesn't quite do it justice. More like 'fastidious'...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我懂指挥官的意思，她有点像麦芽糖，对吧？",
+			say = "I get what you mean. She's a bit like rock candy, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "麦芽糖？",
+			say = "\"Rock candy? In what way?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			actor = 102130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，吃起来甜甜的，但又有些黏黏的麦芽糖。",
+			say = "Sweet, but sticky, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "文件转送完毕，我们也该回去了。加油哦指挥官~",
+			say = "Well, seeing as we're done here, it's time we get going. Keep at it, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "好像明白了，又好像没明白……就这样再这样观察一阵看看吧。",
+			say = "The analogy didn't really hit home, though I had a feeling it would make sense in due time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

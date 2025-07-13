@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
+			say = "??? ???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "企业紧跟着皇家方舟的幻影，来到了一片全新的区域。",
+			say = "She followed the direction that the shadow was facing before it disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰、皇家、重樱、铁血…居然有这么多人在这里？",
+			say = "This is... each faction's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直像记录里的碧蓝航线成立大会一样。大家上一次这么聚在一起，是多久之前了呢……",
+			say = "I'm not detecting any identification signals. Is everything here an illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "噢？！重樱的各位也来了……只有你们到了么？",
+			say = "...is everyone here now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "目前为止，是的…{namecode:91}她们在路上发生了点意外，等解决之后应该就会赶来和我们汇合了。",
+			say = "For the time being. There are some who cannot make it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "你们皇家的伊丽莎白也没来么…唉，看来现在各家情况都很惨啊。",
+			say = "...What a bitter situation this war is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "………伊丽莎白陛下那边暂时无法脱身，我们还在努力中…",
+			say = "I'd like to get out of here too, but because we're not able to conduct any concerted operations, we should prioritize sticking together for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哎，大家打起精神来，现在不是还有企业在这儿嘛！今后的事肯定都会好起来啦~",
+			say = "Cheer up, everyone. Enterprise is here as well, after all! I'm sure everything's going to be fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "希望如此吧…该谈正事了。企业，组织的名字你想好了么？",
+			say = "If only things were so easy. Miss Enterprise, I know this is sudden, but please state your \"name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……名字？",
+			say = "...My name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "“火炬”啊…黑暗中的一丝光明，照亮前进的道路。不错，我喜欢。",
+			say = "Yes. \"Flare.\" A single light that pierces the darkness and illuminates the path forward. A wonderful name, if I must say so myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我们真的要和那群家伙合作么…？“它们”原本是作为我们的替代品被制造出来的吧。",
+			say = "Are we really going to work with those guys? Those \"Sirens\" were originally created to be substitutes for us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "？！！“它们”难道是！",
+			say = "What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "原来是这样……如果是这个理由的话…就看看它们的表现吧。",
+			say = "Indeed. In any case, let's see how they perform first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂！到底是怎么回事，你们打算做什么？！",
+			say = "Working with... the Sirens?! What are you plotting?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "当然，企业的提问没有得到任何幻影的回应。",
+			say = "Once again, the shadows disappeared, leaving Enterprise alone in the still sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

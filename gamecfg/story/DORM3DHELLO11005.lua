@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey，要试试我刚做的曲奇吗？毕竟工作那么累，当然要好好奖励一下Honey了，口味，应该还合适吧？",
+			say = "Wanna try the cookies I just baked? You need a reward after a hard day's work. I tried to make them your favorite flavor, too.",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello5",
 			typewriter = {
 				speed = 0.05,

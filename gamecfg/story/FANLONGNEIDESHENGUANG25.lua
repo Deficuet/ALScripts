@@ -8,14 +8,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "撒丁教国·首都",
+			say = "Sardegna Ecclesia·Capital",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"Sardegna Ecclesia - Capital",
 					1
 				},
 				{
-					"大教堂·地下某处",
+					"Cathedral - Somewhere underground",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又是一连串突如其来的幻象结束后，马可波罗圣座陷入了沉思之中。",
+			say = "After witnessing the same series of visions as the Commander did, Marco Polo fell into deep thought.",
 			bgm = "battle-shenguang-holy",
 			typewriter = {
 				speed = 0.05,
@@ -53,11 +53,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（没想到撒丁岛并未沉入海中，而是被镜面海域隐藏了起来……）",
+			say = "(If those visions are true... that means Sardegnia Island was not destroyed by Paradise Lost, merely concealed by a Mirror Sea.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,12 +67,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（安德烈亚早就知道了这个秘密，并且已经暗中将其纳入了掌控中。）",
+			say = "(Andrea has long known this secret, and she captured the island and that META research laboratory in secret.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,11 +82,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（而接下来，真正的考验在于一台名为审判机「战车」的超级无敌巨型机械……）",
+			say = "(The cornerstone of this branch's security system is a massive mech known as MECHArbiter: The Chariot.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,12 +96,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（神是在启示我，在那里用天国的辉光将其消灭么……）",
+			say = "(Hmm... So did God just give me a divine revelation to use the light of Heaven to get rid of that steel beast?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "将线索再次处理了一遍后，马可波罗圣座得出了结论。",
+			say = "She went through the bits of information in her head, then reached a conclusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,11 +122,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（神的启示很明确，我也应当依计而行。）",
+			say = "(The revelation is clear. That being the case, I should stick to the plan.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,12 +136,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（计划的关键在于诱敌和歼敌两部分……）",
+			say = "(Said plan being divided into two steps: Luring out the enemy, then annihilating it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（歼敌倒还好说。就算再怎么强，陆上神国一旦建立，就算用无穷无尽的迪洛伊上去撞……怎么也应当拿下了吧。）",
+			say = "(The latter isn't that much of a problem. However powerful it is, it should be fine as long as I can fully materialize the Kingdom of God and throw an army of Gazers at it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,12 +165,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（关键在于诱敌……别说怎么吸引这个巨型机械过去了，到现在它根本就还没出现。）",
+			say = "(So luring it out will be the tricky part. This MECHArbiter hasn't as much as shown a glimpse of itself yet!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,12 +180,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（塞壬还是不够急……得让它们更急一点。）",
+			say = "(The Sirens are still preserving their forces... I need to make them escalate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,11 +195,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（陆上神国仪式倒是不错……不过我需要时间先完成仪式才能进行伏击，不能高调作为诱饵。）",
+			say = "(We could use my Kingdom of God ritual as bait, but setting it up will take time, and forget about catching them by surprise if we're too conspicuous...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,12 +209,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（那还有什么办法呢……嗯，拉斐尔鬼点子多，问问她好了。）",
+			say = "(What else is there? Ah, right, Raffaello is good at these things. I'll ask her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,9 +225,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -255,13 +255,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……如何让敌人更加着急起来么？",
+			say = "Hmm... A way to make the Sirens escalate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,13 +271,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那要不……直接做出摧毁罗马城的假象？",
+			say = "How about making it look like we're gonna blow Rome to bits?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,13 +287,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如用你之前提到的那个“总同归于尽”的计划……做一个威力加强版？",
+			say = "Like, what if we took that mutual destruction plan Andrea had and turned it up to eleven?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,13 +303,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对于这些自诩为神希望将世界沐浴在神光之下的掌控者来说……",
+			say = "The Sirens want you and the METAs to be at each other's throats, right? It's their goal, methinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,13 +319,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "永恒之城都要被摧毁了……这还不急？",
+			say = "So what if it seemed like the METAs were about to destroy the capital before that goal was achieved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,12 +335,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好主意！正好让安德烈亚把永夜领域的核心节点转移到撒丁岛上……",
+			say = "A magnificent idea! That's ideal for Andrea to transfer the core node of the Domain of Eternal Night to Sardegnia Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,12 +350,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样不但能把敌人钓出来，还能让它把目标直接锁定在撒丁岛……诱敌部分就彻底完成了！",
+			say = "Not only will it draw out the enemy, but also it will make them turn their their sights to that island. A textbook example of baiting the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你立刻去联系安德烈亚……不，你还是继续部分审判型机甲的事吧，我亲自去联系安德烈亚。",
+			say = "Andrea at once to– No, focus on manifesting the Mechanicus Harbingers! I will personally go and speak to Andrea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,12 +379,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我们一同联手拿下审判机「战车」，其余的敌人也就不足为惧了！",
+			say = "Once the MECHArbiter is defeated, all that will remain are disordered small fry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,12 +394,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈哈——真是妙计！",
+			say = "Ohohoho! What an ingenious plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

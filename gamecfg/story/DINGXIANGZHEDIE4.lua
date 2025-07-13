@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			stopbgm = true,
-			say = "在等待上菜的间隙，哈曼似乎发现了一台能够提供很多奇妙口味的冰淇淋机，引得大家都去围观了。",
+			say = "We are waiting for our orders. Hammann seems to have found a strange ice cream machine with a variety of zany flavors, which has attracted the attention of the others.",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "除了安洁————此刻的她正一动不动地坐在位置上，似乎在思考着什么。",
+			say = "Everyone except Anzeel, that is, who remains in place as if deep in contemplation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,14 +41,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（难道我的异常状况，最终还是被她怀疑了么。）",
+			say = "Has she noticed my strange behavior?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你不去看看冰淇淋机么？",
+					content = "\"You're not going to take a look at the ice cream machine?\"",
 					flag = 1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你知道么，虽然从人工冰淇淋换成了自助冰淇淋机，但是菜单……没变啊！",
+			say = "Did you know that it didn't always use to be a self-serve? You used to have to wait for people to bring out your ice cream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就不了。真的，不要去尝试这家咖啡厅的奇妙冰激凌……",
+			say = "But, that's one thing I don't miss about this place. Those flavors aren't something you come back for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "魔鬼椒味道的冰激凌实在无福消受啊。",
+			say = "Like, pepperoni and jalapeno. Who came up with that anyway?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "倒也不是不能尝试……",
+			say = "\"I don't know about you, but that sounds like it could work.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,24 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你绝对会后悔的——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900332,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "再说了，会对这种机器感兴趣的只有小姑娘吧，你觉得我现在还是小姑娘么？",
+			say = "Are you serious? It's your funeral.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,34 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者说，现在在你的眼里，我究竟是什么样呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_160",
-			say = "（……果然，被严重怀疑了。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900332,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "助手，我发现了，从见面开始你就不太对劲，由内到外都有一股我说不上来的陌生感。",
+			say = "At any rate, only kids would get fired up over an ice cream machine. Do I look like a kid to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +155,34 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许是你这几天太累了，或许是我这几天太累了，亦或许是————",
+			say = "...Or, should I ask, how does the current \"you\" perceive me?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_160",
+			say = "Sure enough, she has noticed.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900332,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You've been acting odd this whole time. Something about you just doesn't sit right with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +199,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你其实已经被外星人控制了？",
+			say = "Maybe you're just having a bad day. Maybe I'M just having a bad day. Or maybe...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900332,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You've been replaced by aliens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "……再怎么说，被外星人控制也太科幻了吧。",
+			say = "\"Aliens? Calling that far-fetched would be an understatement.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要概率不为零，万事皆有可能哦？谁又能保证没有喜欢魔鬼椒冰激凌的外星人存在呢？",
+			say = "It's a non-zero possibility, so it could theoretically happen. Heck, it'd take an alien to enjoy pepperoni and jalapeno ice cream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，保险起见让我来问你几个问题测试一下吧~",
+			say = "So... Let's have a little pop quiz just to see if you're an alien imposter or not~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "不，明显只是你自己想玩吧。",
+			say = "\"...Are you serious, or are you just messing with me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我听不见————你老老实实配合就是了！",
+			say = "Do I look like I'm messing with you? C'mon, just take a seat right over there~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "是是是————",
+			say = "I don't have much of a choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（……诶？这种感觉是什么？）",
+			say = "All of a sudden, I feel the hairs on my back standing on end, as if an electric current just ran down my spine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（刚刚与安洁的对话，像是跳过了思考的过程地脱口而出。）",
+			say = "The words coming out of my mouth seem to bypass my brain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（就仿佛我的潜意识里已经非常熟悉与安洁之间的这种互动一样……）",
+			say = "It's as if I subconsciously have always been used to these kinds of interactions with Anzeel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么首先第一个问题————我，是谁？",
+			say = "First question. Who am I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "你是安洁博士。最先发现并应用心智魔方的科学家，如今大洋联邦心智魔方研究团队的领袖，国家科学院院士。",
+			say = "\"You're Dr. Anzeel. You discovered Wisdom Cubes and pioneered their application, and now lead the Oceanic Federation's Wisdom Cube Research Team...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好……好正式。说得我都有点不好意思了……",
+			say = "Uhh... I said I wasn't messing with you, but you also don't need to recite my whole CV...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（……和刚才的感觉一样，话语，自然而然的从脑海中流了出来。）",
+			say = "The words seem to flow right out of my mind, as if I had known this information my whole life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳，那么我主要研究的方向是什么？",
+			say = "Next question. What am I currently researching?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "心智魔方的应用与舰船的培养。",
+			say = "\"Practical applications of Wisdom Cubes, and the effect of nurture on KAN-SEN.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我此行的主要目的是？",
+			say = "What's the reason I came back to my alma mater?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "进行II型舰装的测试。",
+			say = "\"To test the effect of Type II hull-fusion rigging on KAN-SEN combat capabilities.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……加菲尔德是谁？",
+			say = "Right... Who's the general I talked about earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "白鹰联邦海军中将，如今Division13舰队的负责人。",
+			say = "\"The vice-admiral of the Eagle Union Navy, head of Division 13 and supervisor of Cube weaponization research.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那奥斯塔呢，奥斯塔是谁？",
+			say = "Finally, who is Dr. Aoste?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "你的大学同期，如今的人工智能领域研究领军人物，「安蒂克丝」项目的负责人，同样也是国家科学院院士。",
+			say = "\"Your colleague at the university, a leading expert in the fields of Energy Cubes and artificial intelligence, as well as head of the 'Antiochus' project.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇哦~居然真的全都答出来了。",
+			say = "Hahaha! You actually answered everything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "……这样就算验证通过了么？",
+			say = "\"Am I in the clear now?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实还有最后一个，也是最重要的问题想问你，但是直觉告诉我，现在绝对不要问。",
+			say = "Hmm... Actually, I have one more question, but my gut tells me it's not a good idea to ask it right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我决定相信直觉，验证通过~",
+			say = "...Forget I said that. You're in the clear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来你没有被外星人夺舍，单纯是因为最近太累了呢。",
+			say = "I can safely say that you have not been abducted by aliens. We all have those rough days, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "（没想到……居然真的全部回答出来了……）",
+			say = "...How in the world did I manage to answer those questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "……大洋联邦，II型舰装？Division13，在脑海中无法理解这些名词所代表的含义，此前也从未听说过。",
+			say = "The Oceanic Federation, Division 13... I have seen some of those terms before, during my adventures in the Northern Parliament as well as at the Sea of Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "但是随着安洁的提问，这些答案就这样在脑海中毫无逻辑关联地、突兀、孤立、却又自然地出现了。",
+			say = "But, I couldn't even guess as to how they were related, nor did I know how I tied together all those threads of information into something coherent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "这是一种无法用语言描绘的奇妙感觉……",
+			say = "It left me with a bizarre feeling I couldn't quite put my finger on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "仿佛偶然触碰到了某些本该属于自己的碎片，然后在接触的瞬间与之进行了融合……",
+			say = "Almost as if some memories locked away deep inside me had been awakened at just the right time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "这一切究竟是怎么回事……",
+			say = "But how is any of this happening...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿嘿，冰淇淋来咯！",
+			say = "Guess who's back with ice cream!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "博士还有老师二位久等了，来，尝尝我们精心挑选的冰淇淋吧~",
+			say = "We got something for each of you as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "（啊……真的要这样吗？）",
+			say = "(She's really gonna do it?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "（约克城姐姐都同意了！）",
+			say = "(If Yorktown said it's fine, no harm to it, right?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "（我也觉得会非常有趣……上吧，哈曼！）",
+			say = "(Oh boy... I suppose it'll be fun to see how they react.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这两筒冰激凌哈曼选的哦，给你们。",
+			say = "Starting with the one I chose~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……那个筒的颜色，不妙了……！",
+			say = "The colors on those cones... Ugh, those are nasty flavors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "嘿嘿，给老师你介绍一下哦。",
+			say = "Allow me to tell you your choices!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "黄色的那筒是牛肉酸奶味，红色的这筒呢~",
+			say = "The one with the yellow cone is yogurt beef flavor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——是魔鬼辣椒味。",
+			say = "And the red cone, that's pepperoni flavor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -899,7 +899,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "红的那筒给助手，哈曼，塞过去！",
+			say = "Pepperoni? Wow, that's the Professor's favorite!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "了解————",
+			say = "I-it is? Okay, it's yours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -947,7 +947,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
-			say = "还没反应过来，红色的冰激凌就被哈曼塞到了手里——",
+			say = "Anzeel forces the pepperoni-flavored ice cream on me before I have a chance to respond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手，不要浪费食物，好好吃完哦~",
+			say = "Come on, chow down! Don't let perfectly good food go to waste!",
 			painting = {
 				alpha = 0.3,
 				time = 1

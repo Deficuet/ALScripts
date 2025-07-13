@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "强到犯规了吧！！",
+			say = "Sh-she's strong...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "果然我们的判断是对的，这个被安蒂克丝刻意隐藏的时间奇点…",
+			say = "It appears her judgment was correct...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "这里的你们，确实与我们曾经见过的有所不同。",
+			say = "This timeline - hidden out of sight by Antiochus - differs from all others we've seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "归根究底，还是因为有这个人的存在吧。",
+			say = "Perhaps it is because of the human with you - that commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（...！又在瞄准指挥舰）",
+			say = "(They mentioned Commander again...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你们究竟是什么，究竟想做什么，又为什么要袭击纽约港！",
+			say = "What exactly is it you're planning?! Why did you side with the Sirens and attack NY City?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "蠢材！纽约港袭击只不过是安蒂克丝把你们诱骗到这里的阴谋罢了，你们根本是被一帮机器脑袋利用了！",
+			say = "The attack on NY City... was no more than a ploy devised by the Antiochus. Its true purpose was for us to meet one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "至于我们，不过是一群于灰烬中苟且的残渣罢了，除此之外没有任何值得报出的名号。",
+			say = "As for us, we are but Ember and Ash in the wind. You need not concern yourself with our names.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "至于她的话，你们根本不知道她正背负着怎样沉重的宿命。",
+			say = "You cannot even begin to fathom the burden that we shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "所以，不要再来干扰我们了。",
+			say = "Leave us be, and pray that our paths never cross again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "！！！",
+			say = "... ...!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -219,7 +219,7 @@ return {
 			},
 			options = {
 				{
-					content = "......",
+					content = "... ... ...",
 					flag = 1
 				}
 			}
@@ -227,20 +227,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（“不计一切后果，消灭自称为“烬”的舰队”…指挥部的指令确实是这么说的。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			say = "（不过…）",
+			say = "\"Locate and neutralize the ship responsible for the singularity\"... I'm pretty sure that's what our orders from headquarters were...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第四舰队全员，朝目标集火射击！",
+			say = "All ships, fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -321,7 +308,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "俯冲轰炸机队，攻击！",
+			say = "Dive bombers, prepare for payload drop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +321,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰————",
+			say = "KABOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -383,11 +370,11 @@ return {
 			},
 			options = {
 				{
-					content = "停止攻击，快停止攻击！",
+					content = "\"All forces pull back!\"",
 					flag = 1
 				},
 				{
-					content = "做得好，不要给她喘息的机会",
+					content = "\"Press the attack!\"",
 					flag = 2
 				}
 			}
@@ -398,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "指挥官……",
+			say = "Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +401,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "哼，只要是人类下的命令，无论是非就完全遵从的傀儡么…真是碍眼。",
+			say = "... I had begun to believe you may be able to lead these girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +412,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "Shells were speeding through the air, all targeting the mysterious ship. However, just as they were about to hit–",
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
@@ -482,7 +469,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "一群被愚弄的孩子啊，我们一定会拯救你们的…",
+			say = "But if you truly insist on standing in our way, then I will have to show you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +485,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "…（闭上双眼",
+			say = "... the limits of the strength which Antiochus has leased you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +501,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "恶即斩·断钢！！！",
+			say = "Swift death unto evil!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +515,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "There was a glimmer, followed by the sharp, swift sound of a sword's swing.",
 			flashN = {
 				color = {
 					1,
@@ -580,7 +567,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？居然同时切开了那么多炮弹！？",
+			say = "She... slashed the shells to pieces?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +581,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "A surging wave of energy came forth from the ship's sword, slashing shells, planes, and the very sea in twain.",
 			flashN = {
 				color = {
 					1,
@@ -645,7 +632,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "This immense power was like that of Bismarck's, possibly even stronger.",
 			flashN = {
 				color = {
 					1,
@@ -697,7 +684,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃啊…主炮被剑气摧毁了...？！",
+			say = "The hell?! My riggings aren't...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +700,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "这一切都是因你而起，要不是你…她就可以不用这么痛苦了！",
+			say = "This... is the reason why she suffers so... If I was to destroy it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +713,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…诶？",
+			say = "The swordswoman faced me, seemingly preparing to attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +729,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "恶即…",
+			say = "... If I was to destroy it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +744,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，小心！！！！",
+			say = "COMMANDEEEER!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +770,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "够了，目的已经达成，可以撤退了。",
+			say = "That's enough, we've already finished what we needed to do here.",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.15,
@@ -815,7 +802,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +818,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "……你的手。",
+			say = "... Pardon. I let myself go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +834,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "不要紧。",
+			say = "It's fine. It won't matter in the long run.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +850,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "信标已经设置完毕，这样和“它们”对抗的战力可以加入了。",
+			say = "I've finished installing the Beacons. We should now be able to oppose \"them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +866,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "今天就到此为止。",
+			say = "There's no need to fight these people anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +881,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你…",
+			say = "Why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +896,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要阻止那下攻击？",
+			say = "Why did you stop that attack?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +912,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +928,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "别误会了，我只是…",
+			say = "Don't start making assumptions... I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +944,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "不想再看到自己流泪罢了。",
+			say = "... Don't want to experience that regret twice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +959,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "... Huh?! This is...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,23 +974,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个光是…和“王冠”时一样的，“奇异点”出现了！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900072,
-			side = 2,
-			withoutActorName = true,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "…………",
+			say = "It's the same light that the Crown emitted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +985,7 @@ return {
 			},
 			options = {
 				{
-					content = "神秘人，那个人是谁？",
+					content = "Look towards the mysterious ships",
 					flag = 1
 				}
 			}
@@ -1022,7 +993,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——在那个“既视感”中反复出现的人类……",
+			say = "Those two mysterious ships, so foreign but so familiar... Had I seen them before...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1006,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "“神秘人”停了下来，犹豫了片刻，没有回答，反而转身向光芒中走去。",
+			say = "They seemed to stop to look at me. Without a word or a trace of hesitation, they turned and vanished into the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1019,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在两人进入“奇异点”后，光芒便消失了。",
+			say = "As the light faded, the winds began to slow, the waters became placid, and the whirring of electronics returning to life could be heard throughout the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1032,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "风暴开始平静下来，电磁干扰也在逐渐消退。",
+			say = "The singularity which had covered the Bermuda Triangle was completely gone, as if nothing had ever happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1047,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点是...可以这么被轻易关闭的存在么？！",
+			say = "Do singularities... simply disappear like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,7 +1062,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜，不管怎样，总算是结束了…有那么一瞬间，真的有那种“这次一定要完蛋了”的感觉哎！",
+			say = "It's finally over... For a minute there, Sara really had no idea what could happen~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1077,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,7 +1090,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（选择了沉默的离开么……）",
+			say = "The danger was over, but the mystery was only getting deeper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,7 +1103,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（指挥部为什么在最开始就知道会有自称为“烬”的舰队存在……）",
+			say = "We immediately contacted headquarters to inform them that the source of singularity was undoubtedly a ship. And yet, that was all the information we even could give them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,22 +1116,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（“安蒂克丝”和“烬”究竟是……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大家注意~！在百慕大三角中心出现的“奇异点”已经被成功关闭了！（虽然不是我们做的）",
+			say = "We know nothing about this \"Antiochus\" or the ships that call themselves \"Ember and Ash\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1131,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然没有全歼敌人，不过主要作战目标已经达成，大家可以胜利凯旋了哦~",
+			say = "Uhh, the singularity has disappeared, and the Siren fleet is in pieces, so...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I guess that means the operation was a success! C'mon, Commander! Let's get everyone home already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（....如此力量的强敌，总有一天...我还要变得更强！）",
+			say = "(That second ship doesn't look like she's from the Sakura Empire... but if she is...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

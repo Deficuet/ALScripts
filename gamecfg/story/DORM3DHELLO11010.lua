@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "房间OK，灯光OK，香薰OK~！再加上honey~！让我们开始房间约会吧！我可是很期待呢！",
+			say = "Room, check. Lighting, check. Fragrance, check. And honey, check! Time to kick off our stay-at-home date! I've been looking forward to this!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello10",
 			typewriter = {
 				speed = 0.05,

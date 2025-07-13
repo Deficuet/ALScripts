@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>五　海神的邀约</size>",
+					"Lord of Raging Seas\n\n<size=45>5 The Sea God's Invitation</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "离开指挥室后，我和{namecode:480:埃吉尔}一同来到了海边。",
+			say = "After leaving my office, we head to the beach.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "她的步伐略快，走在我的身前，以颇为悠闲地姿态享受着脚下的沙滩和海风的轻拂。",
+			say = "Ägir walks just a bit faster than me. She relaxes in the soft sand and the gentle sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "望着少女放松的姿态，不由得露出了一个笑容。",
+			say = "Her serene figure brings a smile to my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "指挥官，你突然笑什么？",
+			say = "What now? Is something funny to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "脸上的笑容还未来得及收回，{namecode:480:埃吉尔}就在这时突然转过了身。",
+			say = "She whips around and takes me by surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……因为看着{namecode:480:埃吉尔}的身影就很开心。",
+			say = "Just watching you, I couldn't help myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "哦？指挥官，你不会是对我着迷了吧？",
+			say = "Is that so? Dare I presume that you were taken by the sight of me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			},
 			options = {
 				{
-					content = "确实着迷了",
+					content = "Good presumption.",
 					flag = 1
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，我确实对你着迷了。",
+			say = "Yeah, I sure was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "你你你、你认真的？！这样有点太犯规了吧！居然直接说了！",
+			say = "Wha...?! Now you're just trying to be rude by being so direct!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}转身，没有继续看着我。",
+			say = "She immediately turns away in a futile attempt to hide how flustered she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,14 +181,14 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（现在应该做的是……）",
+			say = "(Now, at this point...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "与{namecode:480:埃吉尔}并肩",
+					content = "(Walk side by side with her.)",
 					flag = 1
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "往前走了几步，到{namecode:480:埃吉尔}的身侧与她并肩而行。",
+			say = "I jog to catch up with her and align my footsteps with hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "少女依旧保持着不自然的沉默，但她的手却贴了上来，与我紧扣。",
+			say = "Ägir's unnaturally silent, but eventually, she reaches her hand over and intertwines her fingers with mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "——纤细柔软，却又不允许被拒绝。",
+			say = "Her soft, slender fingers cling tight, showing her unwillingness to let me go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，指挥官，你要小心，不要被汹涌的海潮吞噬哦？",
+			say = "Heheh. Be careful now, Commander. You wouldn't want to be engulfed by the violent waters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "被吞噬也没关系，我相信{namecode:480:埃吉尔}会拉住我的。",
+			say = "Even if I was, you'd come and save me, wouldn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "哼……！那你到时候就再好好的向荒海之神恳求吧！",
+			say = "Hmph...! If you beg for help, maybe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "原本就紧紧相扣的手指，再次被她用力握紧。",
+			say = "She tightens her grip on my hand even further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "之后，就这样，迎着海风一路行进。",
+			say = "Thus, the two of us enjoy our walk together, touched by the sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

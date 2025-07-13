@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:74}大人。",
+			say = "Nagato, I hope you've been well.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -45,7 +45,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "是{namecode:161}啊，突然造访所为何事？",
+			say = "Amagi. What would you request of me?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -66,7 +66,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:161}有事相求…",
+			say = "If you pardon my rudeness, I would like to make a request on behalf of Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "请说。",
+			say = "Very well. Speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "希望撤销对{namecode:92}的退役处理。",
+			say = "As you know, the treaty allows any two large capitol ships to be converted to aircraft carriers. I seek to rescind the decommissioning of Battleship Kaga based upon the Treaty's demands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "单刀直入么…你知道的，没有人希望执行这份命令…不过，合约既已签订，就绝无改变的可能。除非…",
+			say = "Hmm... Amagi, nobody wishes for this outcome, but the Treaty is binding once signed. Your request would be three ships... Unless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "除非有人能够替代她",
+			say = "Unless someone takes her place, correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "正如您所知，我的状况恐怕无法胜任联合舰队旗舰一职…望{namecode:74}大人见谅…",
+			say = "Nagato, you should already know that I am not fit to serve as the flagship of the Combined Fleet. Sooner or later, the role must be entrusted to someone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "可能…很长一段时间内重樱还需要由您来带领前进……",
+			say = "While she may not be up to the task just yet, if you were to pass on the role to Kaga, I would be able to rest easy knowing that I was able to serve the Sakura Empire, even with this flawed body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这就是你的愿望吗？",
+			say = "Is this truly what you desire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "正是。{namecode:92}因为一时失意，独自驶入镜面海域，我将会亲自带领小队去将她寻回。",
+			say = "Without a doubt. Right now, Kaga is alone in the Mirror Sea due to her despair, but I will personally bring her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果能够平安归来，我希望{namecode:74}大人能够同意我的选择…",
+			say = "Should we be able to return safely, I humbly request that you consider my decision, and hold another wargame to see that Kaga can become an aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "然后，重新举办一次舰队演习…这是我..咳….咳咳…",
+			say = "Thank you for entertaining my selfish requests, but this is my... *cough* *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "It can't be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好了，不必再说下去了。余同意你的选择。",
+			say = "Understood, speak no more. Your request shall be granted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "感谢{namecode:74}大人的理解..",
+			say = "Thank you for your graciousness, Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我已经托付{namecode:89}大人在未来指导{namecode:91}{namecode:92}两人的航空技术。",
+			say = "I have already asked Houshou to train the two of them in aviation techniques.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "凭她们两人的资质和悟性，将来一定能成为重樱的核心力量…请{namecode:74}大人放心…咳…",
+			say = "Those two have the strength and talent to become the core of the Combined Fleet. Please rest assured, Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:161}，余会向八百万众神祈祷，祝你凯旋归来的",
+			say = "I shall pray for your safe return. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "感谢…那么，我就出发了——",
+			say = "Thank you very much. I am sorry for troubling you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

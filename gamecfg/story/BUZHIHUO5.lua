@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>五　看板娘的异状</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 5: The Shopkeeper's Abnormality</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "这个休息日，一如既往地来到商店外的灌木里，打算观察{namecode:20}。",
+			say = "On this day of rest, I found myself headed to the bushes outside the store as always, with plans to observe Shiranui.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……咦，一如既往？这么一想，观察{namecode:20}以来也过了不少时间。",
+			say = "... Eh? As always? Come to think of it, I've been observing Shiranui for quite some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然{namecode:20}日常和工作时都是表里如一的冷淡，但是通过一些细节，还是能发现她不是冷酷的人。",
+			say = "Although she wears the same aloof expression both during work and during her everyday life,  her behavior shows that she is certainly not some callous ice queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过……",
+			say = "However... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你到底想在那片灌木里呆到什么时候，需要我把它修剪一下让你蹲的更舒服吗？",
+			say = "Commander, just what are you doing camping out in those bushes? Should I trim them to make them more accomodating for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来，被{namecode:20}发现了的样子，那就放弃伪装吧。",
+			say = "Well, since Shiranui seems to have found me, there's no point staying hidden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问什么时候发现的",
+					content = "Ask about when she found out",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从一开始就发现了，因为没有妨碍买卖，休息日想做什么也是指挥官你的自由，就由着你了。",
+			say = "From the very beginning. Since you weren't getting in the way of business, how you choose to spend your time off is your own prerogative. It's up to you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，每个休息日都来的话，会让人觉得自己的指挥官是不是哪里有问题的，对吧？",
+			say = "However, for you to come every single weekend...wouldn't any normal person start to believe that you have some loose screws?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "换位思考一下的话，确实是这样呢！",
+			say = "Looking at things from her perspective, she certainly has a point!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以指挥官，你躲在那里是想看什么呢？",
+			say = "So, Commander, tell me what are you looking at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示想要了解{namecode:20}",
+					content = "Express your desire to understand Shiranui better",
 					flag = 1
 				}
 			}
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……果然是个笨蛋，想知道的话，直接问我不就好了。",
+			say = "... You're an idiot after all. If you wanted to know, you could have just asked me directly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总觉得那样也会被当做笨蛋！不过比起这个……",
+			say = "If I did that, I would have just been treated like an idiot! Although this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			},
 			options = {
 				{
-					content = "提出帮忙",
+					content = "Ask to help",
 					flag = 1
 				}
 			}
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？没有那个必要，指挥官只要顾好自己的工作就好了，我一个人应付得来。",
+			say = "Huh...? There's no need for that. Commander surely has other responsibilities, so I can handle things here by myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错，{namecode:20}总是能够一个人将事情处理得好。",
+			say = "That's right. Shiranui always knows how to handle things well without anybody else's help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "让人觉得她好像不需要依靠，让人觉得她一个人管理商店似乎是理所当然的事，但是…",
+			say = "She never seems to need to rely on anyone, always managing all aspects of the store by herself as if it was second nature. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，傻站着干什么，没事的话……",
+			say = "Commander, don't just stand there like an idiot. If you have time to burn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:20}说到这里，身体微微晃动了一下，似乎就要倒下。",
+			say = "Before she could finish her words, Shiranui's body began to sway, as if she was about to collapse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			},
 			options = {
 				{
-					content = "扶住",
+					content = "Hold her",
 					flag = 1
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事的，这只是一点头晕而已……",
+			say = "Don't worry, I just got a little dizzy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "去{namecode:98}那里看看吧。",
+			say = "You should pay Akashi a visit anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

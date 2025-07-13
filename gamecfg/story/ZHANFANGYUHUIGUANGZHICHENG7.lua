@@ -7,7 +7,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "稍早前的某处——",
+			say = "Sometime earlier...",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "金伯利，空间冲击事件的发生地应该就是此处坐标吧？",
+			say = "Is this it, Kimberly? Are we at the origin point of the spatial distortion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "还要再靠前一些。但是理论上，应该会有大量残骸碎片出现在雷达上才对。",
+			say = "Soon – we're close. It's strange, though... there are no wreckages to be seen here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过我什么都没看到。",
+			say = "According to theory, there should be loads of them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我也一样，而且连应该存在于此处的星球本身都不见了。",
+			say = "I've not seen ANYTHING, for that matter. The whole branch has literally been erased.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "看来只有一种解释了……",
+			say = "There's only one explanation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "剧烈冲击导致了空间稳定性失衡，进而引发了连锁反应。",
+			say = "The impact released so much energy that the space completely lost stability.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "此处的塞壬实验场连同星球本身，都已经脱离现实世界进入了折叠状态。所以我们从外面看不到也碰不到。",
+			say = "It wiped away the real-world foundation of the entire branch and the test site with it, folding it into a higher dimension. Would explain why we can't see squat from outside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……简单。再引发一次冲击，做一条通道进去。",
+			say = "Simple. Just cause another spatial impact to create a pathway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "巧了，我也是这么想的~还好这次出门的时候带了点重火力。",
+			say = "My thoughts exactly. Good thing I have a machine that can do just that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "金伯利，来帮我做引导。一会看我放个大烟花~",
+			say = "Lead the way. I've got a real fireworks show for ya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "正在余烬二人组为计划做准备时，她们看到了远方迸发出的耀眼光芒。",
+			say = "As the two Ashes were drafting a plan, they saw the light of the Martyrium on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……威奇塔。",
+			say = "...Wichita?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "嗯，我看到了。",
+			say = "I see it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "那座城市是……原来如此，有人用了概念锚定的方式使折叠的部分依附在载体之上展开了啊，也是个方法。",
+			say = "Someone rebuilt the foundation with a conceptual anchor, unfolding the space. Guess that's one way of doing it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我没找到是谁做的。",
+			say = "Whoever did it is hiding themselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我也没有……看来对面专门藏了起来，而且藏得不错。",
+			say = "They're doing it damn well, too. My radar's got nothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过那头游弋在城市上空的虎鲸，你有没有觉得眼熟？",
+			say = "Forget about that city, though – see the whale in the sky? You recognize it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……仲裁者·戴斯·XIII。",
+			say = "Arbiter XIII... Death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这个难缠的家伙居然也来了……和我们目标相同么。",
+			say = "She's here. Maybe even to do the same thing as we are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "那我们要快些行动了。如果让它抢先把目标抹杀了，咱们岂不是白跑一趟？",
+			say = "Either way, let's hurry. We gotta kill the target first, or we'll have wasted our time coming here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……创造这座城市的人还藏在暗处。",
+			say = "And ignore whoever rebuilt the foundation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没关系，总会遇上的。",
+			say = "Don't give a damn. We'll find 'em sooner or later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			bgName = "star_level_bg_589",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "聊得来就聊，聊不来就打~没有人能阻止我们达成目标！",
+			say = "If they're friendly, we'll talk it out. If they're not, we'll duke it out. Either way, they're not stopping us!",
 			painting = {
 				alpha = 0.3,
 				time = 1

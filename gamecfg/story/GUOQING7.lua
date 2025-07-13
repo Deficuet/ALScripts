@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "求救信号居然是...{namecode:76}和{namecode:77}？！你们没事-----",
+			say = "Ise... Hyuuga... So you two were the source of the signal, huh... Don't tell me you've...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "......不只是晓，连你们两位的冒牌货都准备好了么",
+			say = "Seems somebody's safe from being turned into a Pawn...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,7 +88,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "明白了…全员备战！",
+			say = "I figured as much... If it's a battle you want, then a battle you'll get!",
 			shake = {
 				speed = 1,
 				number = 3

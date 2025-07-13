@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "日暖风和的午后，我提着袋子来到了海滩。",
+			say = "On one quiet afternoon, I packed a bag and came to the beach.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "指、指挥官？",
+			say = "Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "注意到我的靠近，趴在游泳圈上的君主连忙转头看了过来。",
+			say = "Noticing my approach, Monarch sits up from her swim ring and turns to look at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "似乎是因为没有预料到我的到来，平日里总是威风凛凛的她此时看起来有些拘谨。",
+			say = "Despite her usual stern presence, she seems unusually awkward in front of unexpected guests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "晶莹的水珠从她的肩头滑落，令她沐浴于阳光下的白皙皮肤显得格外诱人。",
+			say = "Water drips from her shoulder under the dazzling sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "你怎么到这里来了？",
+			say = "Commander... Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "刚刚修缮好的海滩，我也想稍微享受一下，哪怕只是散散步也不错。你呢？",
+			say = "Just felt like checking out the renewed beach. You?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "我……我只不过是想欣赏一下大海而已。",
+			say = "I'm just... watching the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "循着少女那略带躲闪的眼神，我注意到了她手边那颗还有些湿润的水球。",
+			say = "I follow her evasive gaze and notice a dripping-wet beach ball.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "君主……你其实还挺喜欢水球的吧？",
+			say = "Do you like playing with beach balls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "什？！",
+			say = "Wha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "难、难道你……看到了吗？",
+			say = "Oh, no... Did you see me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "刚才看到你似乎玩得特别开心，所以就没有打扰你。",
+			say = "I saw you were having a great time, so I didn't want to interrupt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "君主拘谨挪了挪身体，海水顺着她的胸口划过一道优美的弧度，落在了泳圈上。",
+			say = "She shifts awkwardly. Water rolls down her chest and drips onto the swim ring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "我、我只不过是稍微玩一下而已！",
+			say = "I just... wanted to give it a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "热热身什么的……",
+			say = "To warm up, or something, I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,18 +264,18 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然君主撇开了视线，但她那绯红的耳根已经将心思暴露无遗。",
+			say = "Though she turns away, her blushing ears tell me everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "递给她防晒霜",
+					content = "(Hand her suntan lotion.)",
 					flag = 1
 				},
 				{
-					content = "递给她饮料",
+					content = "(Give her a drink.)",
 					flag = 2
 				}
 			}
@@ -291,7 +291,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "热身完的君主小姐需不需要护理服务？",
+			say = "So you're finished warming up? How about I help you with your skincare?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "暂……暂时还不需要……",
+			say = "I'm... I'm fine for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "别拿走，我、我只不过是暂时不需要而已！",
+			say = "Don't act all sad. I just don't need it YET.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "既然刚刚结束热身，要不要稍微降降温？",
+			say = "So you're finished warming up? How about cooling down a bit now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "我……我现在还不渴……",
+			say = "I'm... I'm not thirsty yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸等下……我只是现在不渴。",
+			say = "Wait. I just said not YET.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 299024,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "直到此时，脸颊红晕稍稍褪去的君主才重新转头看向我。",
+			say = "Her blush fades a little, and she turns back to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "指挥官……为什么会特意来找我的呢？",
+			say = "Why did you come looking for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "因为知道你正等着我啊，只要君主需要我，我可是随叫随到的。",
+			say = "Because I knew you were waiting for me. Whenever you need me, I'll always come running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "谢谢你，指挥官，你这样说我……很开心。",
+			say = "Thank you, Commander. I appreciate that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "所以……你可以继续像这样陪伴在我的身边……和我一起玩水球好吗——",
+			say = "Can you stay a little longer, then? We can play with beach balls together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "乐意之至。不过，我不是很擅长水球就是了。",
+			say = "Gladly. I'll warn you, I'm no master beach ball handler.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……没关系，我有办法让你擅长起来。",
+			say = "That's just fine. I know how to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "还没等我反应过来，君主便握住了我的手腕。",
+			say = "Before she even finishes that sentence, she takes my wrist.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "为了能让指挥官鼓起干劲，我就为你附赠一个优厚的条件吧？",
+			say = "Let's make things interesting to motivate you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "指挥官要是输了，那就需要答应我一件事。",
+			say = "If you lose, you have to do something for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "但如果指挥官赢了的话……我可以答应你三件事。",
+			say = "But if you win... then I have to do THREE things for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299024,
-			say = "怎么样，是不是划算呢？",
+			say = "How's that? Good deal, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 299024,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我会全力以赴的。",
+			say = "I'll give it my best shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			side = 2,
-			say = "我也不会手下留情哦。",
+			say = "Heheh. I won't give you any mercy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "一定会让指挥官的随叫随到，变成寸步不离的哟~",
+			say = "You said you'd always come running... Well, that won't be necessary, because you're staying with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌方清除者确认消灭，Ура————————！",
+			say = "Confirmed the destruction of high-ranking Siren, Omitter! Ura!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……从战斗力上来看，这个清除者似乎不是本体，应该只是个量产型机体。",
+			say = "She didn't fight like a high-ranking Siren. Was that one of those vessels I've heard about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过刚刚的量产型…………是什么型号，你们有印象么？",
+			say = "And the mass-produced Sirens here are a type I've never seen before. Rossiya, do you know them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我从来没遇到过…………可以确认的是这些敌人拥有远超III型的作战强度和灵活性。",
+			say = "No... But I do know that these are much stronger than any other mass-produced ships we've fought.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算击破了混杂在其中精英敌人，舰队也没有陷入混乱……",
+			say = "Despite our defeating the elite humanoid enemy, their fleet has yet to fall into chaos. That must mean that the Command unit—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家小心！又有一个清除者出现了，也许还是量产型机体！",
+			say = "Another Omitter came out! This one doesn't seem like the real one, either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗西亚，我们的量产型舰队损失速度超出预期，是否撤退？",
+			say = "Rossiya, our mass-produced ships have taken more losses than planned. Should we regroup first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……现在我们还没看到北极点要塞，清除者本体又没出现。",
+			say = "Not yet. We need to get a little closer to the stronghold! Ideally, we'd even draw the real Omitter to this battlefield!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再坚持一下，哪怕只是摸清这些新型塞壬舰队的特性也好，继续作战！",
+			say = "If we're going to retreat, then it should wait until we have a better idea of their mass-produced ships' features! Hold on a little longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1

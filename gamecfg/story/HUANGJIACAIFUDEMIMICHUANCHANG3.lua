@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>三　肋骨是支撑</size>",
+					"Royal Fortune's Secret Shipyard\n\n<size=45>3 The Reinforcing Ribs</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_battleshipyard_2",
 			hidePaintObj = true,
-			say = "皇家财富造船厂·肋骨铺设完毕——",
+			say = "Royal Fortune's Secret Shipyard - Ribs connected",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_2",
-			say = "肋骨，是木船两舷内壁的竖立骨材。",
+			say = "The ribs are vertical structures which link to both the inner walls of a wooden ship.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -51,7 +51,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_2",
-			say = "它的作用是支撑两舷的壳板，承受横向水压力，确保船体的几何形状不会因为水压变形。",
+			say = "Their role is to support the hull, protect the hull's form, and absorb water pressure coming from the ship's sides.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -70,7 +70,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_2",
-			say = "肋骨确保着风帆战舰航行时的稳定，同时防止了船舶在摇摆和横倾时产生横向变形。",
+			say = "They're what allow a sailing frigate to cruise steadily, and prevent the hull from deforming due to rocking and heaving.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，性能优秀的肋骨是风帆战舰在高海况中来去无阻的保障。",
+			say = "Ships obviously want to be able to sail even when the seas are rough, and that's why they need top-rate ribs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "因此，培育优质的船用木材也是确保庞大舰队长久存在的重要前提呢。",
+			say = "And to maintain a large fleet of them, you need a steady flow of good shipbuilding wood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些树木，甚至需要在以世纪为单位的长年生长后，才能成为军舰上的一部分。",
+			say = "Believe it or not, some trees need to grow for centuries before they can be used to build a warship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，我们运气不错哦~恰好拥有一批这样的木材。",
+			say = "Luckily for us, we have just the wood we need at this shipyard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "现在，让我们开始船体的建造吧——",
+			say = "With the ribs done, it's time to get started on the hull!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=45>一 随机单词生成器</size>",
+					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 1 - Random Word Generator</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱，你在做什么？",
+			say = "What are you doing, AI?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:6}酱！我刚在清除随机单词生成器的病毒呢",
+			say = "Ah! Ayanami. I was just trying to get rid of these viruses in my random word generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱连这都做得到吗！？",
+			say = "AI, you know how to do stuff like that!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是智能的超级AI、绊爱",
+			say = "She's an Intelligent Super A.I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼！……不过一个人弄果然还是有点辛苦啊，大家来帮帮我嘛～",
+			say = "Ahem! Yes... but it's kind of hard to do on my own. Can you guys help out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～～果然清除病毒很困难呢",
+			say = "Hmm. Virus removal is kind of hard, isn't it?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}倒是觉得像玩游戏一样，还挺有趣的",
+			say = "I just treat it like a fun game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，选这里应该就可以了吧？",
+			say = "So I go like this or?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这里！那再把这里……然后再这样……好！",
+			say = "Right! You put this here annnd... bam!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢！总算把病毒消灭了！就以这个势头把病毒全部清除掉吧！",
+			say = "Thanks! That's one virus down. We'll wipe 'em out like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…？好像有什么东西从随机单词生成器里跑出来了呢",
+			say = "What's this...? Some kind of random word generator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，得到“Pt-绊”了！这就是那个吧，惯例的那玩意儿，靠这个就可以换到各种活动限定道具了吧♪",
+			say = "Oooh! We got some Kizuna Points! I'm sure you're familiar with the concept by now: you use these to get event limited items! ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,11 +275,11 @@ return {
 			},
 			options = {
 				{
-					content = "好，那就马上去换吧！",
+					content = "Yeah! Let's go get those rewards!",
 					flag = 1
 				},
 				{
-					content = "为什么你会知道Pt？",
+					content = "How is it you know about points?",
 					flag = 2
 				}
 			}
@@ -291,7 +291,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "好～要换什么呢？个人觉得“晃悠悠”挺好的呢～",
+			say = "Let's see... what should I get? How about a little \"Pyoko-Pyoko\" something something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "{namecode:14}，想要“智慧模块”",
+			say = "I like the look of those \"Mental Units.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "{namecode:13}想要更多的金色科技箱呢～当然不要涂色的那种！",
+			say = "I want some gold equipment boxes, and not the repainted ones!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "真不错呢！就这个势头努力消除病毒，赚取更多的“Pt-绊”吧！",
+			say = "Nice! Let's keep knocking out those viruses and earn those Kizuna Points! ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "当然知道啦！毕竟我在原来的世界也是指挥官嘛！可是经历过无数激烈的战斗的哦？",
+			say = "Simple! I was a commander myself back where I'm from! A survivor of countless hard-fought battles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "诶诶？爱酱也和“指挥官”一样吗！？",
+			say = "Wow! So you were just like our Commander!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "爱酱的真实身份竟然是“指挥官”…太惊人了",
+			say = "Miss AI's true form is that of the Commander... I never would have guessed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "嘿～！总之Pt-绊是非常重要的东西就对啦，加油收集吧！",
+			say = "Anyway, now that we know how important these Kizuna Points are, let's make sure we collect tons of 'em! ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "（咔嚓）",
+			say = "*shutter click*",
 			flashN = {
 				color = {
 					1,
@@ -483,7 +483,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，谁偷偷拍照了！？",
+			say = "Who's taking pictures!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好～你就是来自虚拟空间的天才超级AI绊爱小姐对吧？我是格里德利，请多指教啦！",
+			say = "Hi there! You're that Genius Super A.I. from the virtual world, right? Kizuna AI? I'm Gridley!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "天才！？没、没错！",
+			say = "Genius!? Y- yeah! That's me!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就是坊间盛传的智能超级AI绊爱！请多指教咯！",
+			say = "I'm that Intelligent Super A.I. everybody's talking about. Me. Kizuna AI. Nice to meet you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格里德利小姐刚才拍照了对吧，难道你也被指派了什么特别的任务吗？",
+			say = "I see you're out taking photos, Miss Gridley, were you not given a mission today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实刚才，拉菲跟我说想要留下一些和绊爱酱的回忆呢～所以我就这样开始悄悄地寻找最佳镜头啦～！",
+			say = "Actually, Laffey asked for my help recording and preserving our time with Kizuna AI. I'm hunting for the perfect shot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，拉菲酱…是这样吗！？",
+			say = "Oh? Laffey-chan asked you!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格里德利，隐藏失败……",
+			say = "Gridley... is the worst spy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉抱歉！本来以为藏得很好的，没想到还是被发现了嘛～不愧是超级AI呢～",
+			say = "Sorry! My bad! I tried to keep it a secret, but she is a Super A.I., you know!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，没有人能在我的索敌范围内逃走的～！",
+			say = "Hah hah hah! It's true. No one can hide from my sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈！我会为了最佳镜头而时常在附近游走的～不要太在意哦！",
+			say = "Hehehe! And I always aim for the perfect shot, so it's no big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的～拿你没办法，要拍得可爱一点哦！",
+			say = "Well, just make sure I look cute and we won't have a problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "交给我吧～！",
+			say = "You got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

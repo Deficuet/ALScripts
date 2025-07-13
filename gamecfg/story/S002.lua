@@ -6,7 +6,7 @@ return {
 			actor = 900005,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "哇，萨福克萨福克，我们好厉害呀~一口气就解决了这么多敌人",
+			say = "Wow, Suffolk! We're so strong! We defeated so many enemies at the same time!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -21,11 +21,11 @@ return {
 			}
 		},
 		{
-			actor = 900312,
+			actor = 900004,
 			nameColor = "#a9f548",
 			expression = "11",
 			side = 1,
-			say = "别轻敌…这些明显只是铁血的杂鱼部队…而且到现在为止还没看到他们的新型战舰..我有种不好的预感…",
+			say = "Don't get cocky... Those ships were clearly there to test us... We haven't even seen the Iron blood's new battleship yet. I've got a bad feeling about this...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -41,11 +41,10 @@ return {
 		},
 		{
 			actor = 900009,
-			side = 2,
 			nameColor = "#ff0000",
 			actorName = "？？？？？",
-			actorAlpha = 0,
-			say = "哼哼哼，这条航线上果然被布置了伏兵呢，你们说的不详的预感就是指我们吗？",
+			side = 2,
+			say = "Hehehe... So there was an ambush after all! Looking for us?",
 			shake = {
 				speed = 1,
 				number = 999
@@ -62,9 +61,9 @@ return {
 		{
 			expression = "13",
 			side = 0,
-			actor = 900312,
+			actor = 900004,
 			nameColor = "#a9f548",
-			say = "！！！注意，右舷方向！！！发现两艘大型军舰，航向220度，判断是铁血的新型战列舰！全员准备作战！",
+			say = "Danger!!! Enemies at starboard!!! Two large warships detected at 220 degrees... New Iron blood battleship spotted! All personnel, get ready to fight!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,7 +85,7 @@ return {
 			actor = 900005,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "呜——",
+			say = "Uh oh...",
 			shake = {
 				speed = 2,
 				number = 3
@@ -98,11 +97,10 @@ return {
 		},
 		{
 			actor = 900009,
-			side = 1,
 			actorName = "？？？？？",
 			nameColor = "#ff0000",
-			actorAlpha = 0,
-			say = "哎呀呀~不过是区区两艘巡洋舰，居然准备攻过来了，哼哼哼，那就让我好好的享用一番吧~",
+			side = 1,
+			say = "Haha~! Two puny cruisers? Getting ready to attack? Hah! I suppose I'll try to enjoy this as much as I can~!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +110,7 @@ return {
 				speedUp = 0.01
 			},
 			painting = {
-				alpha = 0,
+				alpha = 0.3,
 				time = 0.5
 			}
 		},
@@ -120,7 +118,7 @@ return {
 			actor = 900006,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "可不是区区两艘巡洋舰哦，皇家舰队胡德号，威尔士亲王号，迎敌！一起来场优雅的战斗吧~",
+			say = "Not just two cruisers! Hood and Prince of Wales from the Royal Navy, here for backup! Let's have a showdown, shall we?",
 			shake = {
 				speed = 2,
 				number = 3

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>一　来自榵的赠礼</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 1  A Gift from a Flower</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "某日的指挥室————",
+			say = "One day at the Office...",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "首先一阵馥郁芬芳的香气浸入心脾，而后{namecode:29}绰约的身姿出现在眼前。",
+			say = "Just as I catch the fragrant scent of flowers, Hanazuki's delicate figure suddenly appears in my vision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，下午好！午后的阳光总是让人感到温暖闲适呢~",
+			say = "Good day, Commander. The afternoon sunlight is quite warm and pleasant, isn't it?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -79,7 +79,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是{namecode:29}给您准备的小礼物，作为……您一直以来，对{namecode:29}的指导与关照的回报，希望您能喜欢~",
+			say = "I've brought you a present. Please consider it a token of my appreciation for your continued support and guidance. Heehee~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:29}抱着一盆月白色的茉莉花，轻手轻脚地放到指挥室的办公桌上。",
+			say = "Hanazuki places a small pot of moon-white jasmine flowers on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "茉莉花的香气朴素自然，很适合长时间伏案工作的指挥官哦~",
+			say = "Its fragrance is light and rustic, and I thought it'd be perfect for you during your long hours of work in front of a desk.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -119,7 +119,7 @@ return {
 			},
 			options = {
 				{
-					content = "对榵表示感谢",
+					content = "\"Thank you very much.\"",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就不用跟我客气啦。指挥官要记得时常浇水，好好呵护它哟。",
+			say = "You're welcome. Please try to remember to water it even if you're busy, and take good care of it.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -149,7 +149,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……下次我再带一些花来装饰一下窗边好了。",
+			say = "Oh, umm... Next time, I'll bring some flowers to decorate the windowsill, okay?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -167,7 +167,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官觉得点缀些紫色的蝴蝶兰好呢，还是搭配红黄相间的太阳花要更好些呢？",
+			say = "Which would you prefer, some purple moth orchids, or red and yellow moss roses?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -179,11 +179,11 @@ return {
 			},
 			options = {
 				{
-					content = "——蝴蝶兰",
+					content = "\"The moth orchids sound nice.\"",
 					flag = 1
 				},
 				{
-					content = "——太阳花",
+					content = "\"I think I'll go with the moss roses.\"",
 					flag = 2
 				}
 			}
@@ -197,7 +197,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嗯……白色的窗配上紫色的蝴蝶兰……",
+			say = "Purple moth orchids resting on a pristine, white windowsill...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "风吹过的时候，会出现一群“蝴蝶”在窗边飞舞的景色呢~",
+			say = "When the wind blows, it'll look as if butterflies are dancing in the breeze. Quite a lovely sight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "有道理……太阳花很喜欢窗台这种阳光充足的环境，而且颜色要更加鲜亮~",
+			say = "That's a good idea... Moss roses prefer a sunny, open area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "感觉能让整个指挥室的环境都变得活跃起来！",
+			say = "Their bright colors are sure to liven up your office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "最近几天，{namecode:29}一直在用各类花朵装饰着指挥室。",
+			say = "Recently, Hanazuki has been decorating my office with all sorts of different flowers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "随着装饰的增多，她的心情似乎也变得越来越好了。",
+			say = "I can see her spirits soar day by day as she goes about her arrangements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因为现在是万卉争荣的春天~各式各样的鲜花都在肆意盛开着。",
+			say = "Spring has arrived, and new flowers are blooming every single day.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -308,7 +308,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论心情是阴是晴，只要在目睹了这样的景象之后，心情就会自然好起来哦~",
+			say = "Even if you're feeling down in the dumps, the sight of new life blossoming forth will surely uplift you.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:29}平时用到的花朵都是托{namecode:98}采购的么？",
+			say = "\"I'm always impressed by how knowledgeable you are about all these flowers. But where are you getting all of them from? Akashi's?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些不好入手的种子会拜托{namecode:98}帮忙，不过绝大多数都是我自己种的哦。",
+			say = "No, I actually grow most of them myself.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -354,7 +354,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在重樱宿舍区的后面，有片阳光灿烂的空地。在那里我开了一个小小的花房~！",
+			say = "There's a sunny vacant lot behind the Sakura Dorms, and I set up a small garden room back there.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -369,7 +369,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "春天的花房，应该是一道繁花锦簇的风景吧。",
+			say = "\"That must be a spectacular sight once all the flowers are in full bloom.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那里就像是{namecode:29}的一个小小的避风港一样。",
+			say = "Yes, it's my perfect little sanctuary.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -400,7 +400,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果指挥官有兴趣的话……这个周末怎么样！",
+			say = "If you'd like to see it, why don't you drop by over the weekend?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -418,7 +418,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（我也好提前做点迎接你来参观的准备……）",
+			say = "(That'll give me plenty of time to prepare a wonderful reception for you...)",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -433,7 +433,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就这样，定下了与{namecode:29}花房赏花的约定，不知道能看到怎样绚烂的场景呢？",
+			say = "And so, Hanazuki and I plan to go flower-viewing in her garden room over the weekend. What kind of wonderful sceneries await me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

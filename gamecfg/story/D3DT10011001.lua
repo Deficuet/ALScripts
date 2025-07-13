@@ -8,7 +8,7 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "Sirius",
 			nameColor = "#FFFFFF",
 			say = "这是D3DT10011001",
 			typewriter = {

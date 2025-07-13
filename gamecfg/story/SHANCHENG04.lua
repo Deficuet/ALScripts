@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>四 遗失的礼物·下</size>",
+					"Winter Offensive\n\n<size=45>Chapter 4 - A Lost Gift Pt. 2</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呜呜…到底哪里去了…",
+			say = "Uuuuu... just where could it be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "嗯？你在找什么呢？翻箱倒柜的",
+			say = "Hm? Yamashiro, are you looking for something? This place is a mess.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呜呜…指挥官送的泳装…找不到了啦……",
+			say = "Fusou, I can't... find the swimsuit... that Milord gave me... waaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "唉，傻瓜，不是你说的是指挥官送的非常重要的东西，所以就特意另外找了个柜子收起来了吗？",
+			say = "Oh, you... Didn't you keep it in a separate place because it was a special gift that you received from Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里，找到啦",
+			say = "See? It's right here.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -138,7 +138,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "哇！谢谢姐姐呜呜…",
+			say = "Yay! Thank you so much, Fusou... Uuu...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "怎么突然想起找泳装了…该不会…",
+			say = "Why are you looking for your swimsuit all of a sudden? Don't tell me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "真的想冬泳了吧～？",
+			say = "You're actually going to join that cold-water swim meet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "之前出门遇到了{namecode:77}她们，总觉得作为重樱的一员…不能这么堕落下去了",
+			say = "Mm... I ran into Hyuuga outside. It made me realize that as a member of the Sakura Fleet, I can't afford to fall behind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "哎呀呀，{namecode:79}真是个好孩子呢～",
+			say = "My, aren't you the hard worker~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "不如去问问指挥官要不要一起锻炼？",
+			say = "We don't get an opportunity like this often, so why not ask Commander to participate as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "姐、姐姐！又开我玩笑…而且指挥官那么忙…怎么会有时间……",
+			say = "D-Don't tease me like that, Fusou...! Besides, there's no way Milord will have time to spare, with all the work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

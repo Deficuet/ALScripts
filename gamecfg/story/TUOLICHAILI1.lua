@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>一　没干劲的少女？</size>",
+					"Where the Sun Doesn't Shine\n\n<size=45>The Unmotivated Girl</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，美好的休息时间。阳光从窗台射进屋内，熔成地板上的碎金。",
+			say = "Today is a day off. Rays of light shine through the window, dyeing the floor with a pleasant golden glow.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……至少现在本应该是美好的休息时间。",
+			say = "It's a bright, cheerful day. For everyone but me, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "瞥了一眼桌上堆积的文书，叹了口气。即使已经到了休息时间，要做的事情依然堆积如山。",
+			say = "I stare at the pile of paperwork on my desk and let out a sigh. There's so much work to get through still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "至于加班加点处理工作的原因，恐怕还是因为那位此刻正安静地待在角落里的少女——",
+			say = "As for the reason I have all this work to catch up on... she's sitting over there in the corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——秘书舰托里拆利。此刻的她正安静地待在角落里，一言不发，似乎正在思考着什么事情。",
+			say = "Torricelli, my secretary. Squeezed into a corner of my office, she looks lost in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "偶尔还会拿出看起来像是实验报告的笔记本记录着什么东西……不直接叫她的话就不会回应。",
+			say = "Sometimes, she produces some sort of lab report and writes something down. She rarely ever talks unless spoken to first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就像静静生长在角落里的蘑菇一样……",
+			say = "She reminds me of a mushroom, growing quietly out of sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嗯，今日的观察报告，就以——指挥室房间的结构布局”为主题吧，呼呼呼……",
+			say = "I think I'll base this report on the office's internal layout... Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 608010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？指挥官？",
+			say = "...Hm? What is it, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,14 +172,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "角落里的托里拆利似乎注意到了我的视线，而后微微地抬起头——",
+			say = "She senses my gaze and slowly turns to look at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "之前交给你的工作……",
+					content = "\"Remember that work I assigned you?\"",
 					flag = 1
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "之前的工作……？啊，是说将文件分类归档么？",
+			say = "Work? You mean... sorting those papers?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "早就做完了啊。不过是些简单重复的机械劳动而已……难道指挥官是在怀疑托里拆利的能力么？",
+			say = "I did that long ago. It felt like plain busy work... Hehehe... You underestimate me, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这是整理好的文件目录。",
+			say = "Here. Everything's in order...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "接过托里拆利递过来的目录。整理得很详实，标注也都做得清晰明确，只是——",
+			say = "I skim the folder she gave me. Not only is it neatly organized, but it also includes easily readable annotations. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "你说为什么现在才给你？嗯……因为你没要嘛。",
+			say = "Why didn't I give it to you earlier? Well, you never asked...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我平常不太擅长主动和别人交流，所以……嗯，绝不是在摸鱼。",
+			say = "I'm not sleeping on the job... Communication isn't my forte... that's all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "指挥官，如果你没意见的话，让我静静地一个人待着就好。",
+			say = "Now if you don't mind, I'd like to be left to my devices...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嗯……我安静地一个人待着，也算是“协助培养指挥官独自处理文件的能力”对吧？",
+			say = "When you think about it... Staying out of your hair counts as helping you do your paperwork, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "是在变相发挥秘书舰“协助指挥官”的作用啦。",
+			say = "It may not look like it, but I am assisting you, as a secretary should...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,11 +349,11 @@ return {
 			},
 			options = {
 				{
-					content = "完全就是在诡辩……",
+					content = "\"Doing nothing does not count as helping.\"",
 					flag = 1
 				},
 				{
-					content = "（递给托里拆利接下来要处理的文件）",
+					content = "\"I've got more papers for you to process.\"",
 					flag = 2
 				}
 			}
@@ -367,7 +367,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轻易地就被拆穿了，额……",
+			say = "Dang it... You saw right through me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然跟别人交流什么的，还是……好麻烦。",
+			say = "Ugh. Talking to people is such a chore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，那我去一个人待着了……没有特别重要的事情的话，不要叫我……谢谢指挥官。",
+			say = "Look, I'll be here if you need help... Don't talk to me unless it's important, thanks...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
-			say = "托里拆利接过我递给她的文件，又逃回了房间的阴影之中——",
+			say = "She takes back the organized folder, then shuffles back into her dark corner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸、欸？原来还有这么多吗……",
+			say = "W-wait... THIS much?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧……好麻烦，突然间感觉干劲又没了……",
+			say = "Fine... I don't wanna, but if you insist...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧，本来还想再调查一会指挥官的房间的。指挥官，我先去角落里待着好了。",
+			say = "Suddenly I don't feel like surveying your office anymore... Oh well, I'll go back to my corner and get to work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有特别重要的事情的话，不要叫我……",
+			say = "Don't call for me unless it's something important...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_task_2",
 			blackBg = true,
 			optionFlag = 2,
-			say = "托里拆利接过我递给她的文件，又逃回了房间的阴影之中——",
+			say = "She takes back the organized folder, then shuffles back into her dark corner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

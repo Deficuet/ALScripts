@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "为了迎接{dorm3d}的到来，天狼星今天努力为您准备了充满天狼星爱意的点心……！虽然卖相可能很差，但应该还是可以吃的……",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello10",
+			nameColor = "#FFFFFF",
+			say = "I put all my love into baking sweets to welcome you with today! They may not look too enticing, but I'm sure they're edible...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

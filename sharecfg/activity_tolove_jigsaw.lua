@@ -6,8 +6,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "liaolijun",
 		portrait_up = "tianlangxing",
 		id = 1,
-		desc_demand = "如果有办法让天狼星做的料理变美味的话……",
-		desc_bubble = "美味的秘诀吗？应该在于仔细而精确吧？我有想法了~！",
+		desc_demand = "If only my cooking were more palatable...",
+		desc_bubble = "To make food delicious, you need care and precision! Oh, I just had a great idea!",
 		ship_id = 202201,
 		need = {
 			1,
@@ -27,10 +27,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -39,8 +39,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "wengwengjun",
 		portrait_up = "mingshi",
 		id = 2,
-		desc_demand = "想要提高销售额，无论什么手段都可以喵。",
-		desc_bubble = "哇~！这次的委托看起来有点复杂呢！",
+		desc_demand = "I'll do anything, and I mean ANYTHING, to sell more stuff, nya!",
+		desc_bubble = "Whoa! This looks like a tough one~",
 		ship_id = 312013,
 		need = {
 			1,
@@ -60,10 +60,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -72,8 +72,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "yinshenpenwu",
 		portrait_up = "changdao",
 		id = 3,
-		desc_demand = "如果能一直偷懒就好了，欸嘿嘿……这种夸张的要求能满足吗？",
-		desc_bubble = "嗯……只要不被人发现就可以吧？",
+		desc_demand = "I wish I could slack off all the time... Think you can make that happen?",
+		desc_bubble = "Hmm... So she just wants to avoid getting found out?",
 		ship_id = 106013,
 		need = {
 			1,
@@ -93,10 +93,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -105,8 +105,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "yinshenerhuan",
 		portrait_up = "dipulaikesi",
 		id = 4,
-		desc_demand = "事先声明……姐姐我不是喜欢加班，但如果无论如何都要加班的话……",
-		desc_bubble = "只要通过“情绪控制”让自己感觉高兴就行了吧？应该没问题！",
+		desc_demand = "Let me preface this by saying I don't enjoy overtime. But if I must work extra...",
+		desc_bubble = "All you have to do is control your emotions and make yourself happy, right? I can help with that!",
 		ship_id = 903031,
 		need = {
 			1,
@@ -126,10 +126,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -138,8 +138,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "jiguangqiang",
 		portrait_up = "weizhang",
 		id = 5,
-		desc_demand = "我种了很多指挥官喜欢的蔬菜~但是长得有点慢呢，有什么办法吗？",
-		desc_bubble = "这个很轻松哦！",
+		desc_demand = "I'm growin' a bunch of the Commander's favorite veggies, but it's slooow. Got a fix?",
+		desc_bubble = "Pssh, this is easy stuff!",
 		ship_id = 305131,
 		need = {
 			1,
@@ -159,10 +159,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -171,8 +171,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "fenweijun",
 		portrait_up = "bulisituoer",
 		id = 6,
-		desc_demand = "对于喜欢调查不可思议事件的人来说，如果时时刻刻都有强烈的氛围感就太棒了~！",
-		desc_bubble = "很有意思呢～！有干劲啦！",
+		desc_demand = "Heheh. I'm an investigator of the unknown, so I need a mysterious, exciting vibe at all times!",
+		desc_bubble = "Sounds like fun! Now I'm motivated!",
 		ship_id = 101491,
 		need = {
 			1,
@@ -192,10 +192,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	{
@@ -204,8 +204,8 @@ pg.activity_tolove_jigsaw = {
 		item_icon = "hualitoushi",
 		portrait_up = "yilishabai",
 		id = 7,
-		desc_demand = "本王贵为皇家女王，当然会希望追求更极致的皇家气质！",
-		desc_bubble = "这个轻松，就交给我吧！",
+		desc_demand = "As queen of the Royal Navy, I wish to cultivate a royal aura!",
+		desc_bubble = "I can do that. Leave it to me, Your Majesty!",
 		ship_id = 205011,
 		need = {
 			1,
@@ -225,10 +225,10 @@ pg.activity_tolove_jigsaw = {
 			}
 		},
 		desc_step = {
-			"· 提交$1个「能量晶屑」（$2/$3) ",
-			"（通关任意活动关卡或第三章及之后的主线关卡可以取得）",
-			"· 拼接收集到的元器件",
-			"· 绘制电路（一笔画联通所有元器件）"
+			"· $1 Energy Fragments submitted ($2/$3) ",
+			"(Obtained by clearing any campaign stage of chapter 3 and beyond.)",
+			"· Assemble circuitry parts",
+			"· Connect the assembled circuits (draw a line to connect all circuits)"
 		}
 	},
 	all = {

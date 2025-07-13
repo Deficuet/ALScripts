@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>七　灵感的源泉</size>",
+					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>7 Wellspring of Inspiration</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "或许是因为火光的热烈，亦或是因为肌肤相贴时的温暖。",
+			say = "Perhaps it was the heat from the bonfire, or perhaps it was the warmth of our bodies pressed together.",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "我们在不知不觉中沉沉睡去。待到醒来之时，雨已经停了。",
+			say = "I'm not sure when it was that we fell asleep, but when I next open my eyes, the rain had already stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海天？",
+			say = "Hai Tien?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "少女此刻双眸紧闭，嘴角噙笑，俨然一副餍足模样。",
+			say = "The girl next to me still has her eyes shut, her lips curled into a slight smile, a look of contentment on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "在听到我的呼唤之后，她才悠悠醒转。",
+			say = "As I call out to her, she slowly begins to stir.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……？指挥官？",
+			say = "Huh...? Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "似乎是才意识到与我的距离过于亲密，熟悉的绯红再次飞上了她的双颊。",
+			say = "When she realizes how \"close\" the two of us are, a familiar blush once again spreads across her cheek.s",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啊、抱歉……方才情不自禁就……",
+			say = "Um, I'm so sorry for what just happened... I don't know what came over me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系。",
+			say = "It's fine, don't worry about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……现在雨已经停了，我们把火堆灭掉，先回去吧？",
+			say = "C-Commander... Since the rain has stopped, umm.. sh-should we put out the fire and head back?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "海天的话语中带着几分羞怯。",
+			say = "The embarrassment from her words is so thick that it's almost palpable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Mm, sounds good to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "从山洞中走出后，我们重新经过那片不经意发现的开阔之景。",
+			say = "We step out from the cave, back into the picturesque scenery we had accidentally discovered.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "此刻雨过初晴，湛蓝的天空中更是挂着一道彩虹。",
+			say = "After the rain, the sun shines brightly once more. A rainbow streaks across the clear, blue sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "“断虹霁雨，净秋空，山染修眉新绿……”",
+			say = "\"The seven-colored bridge cleaves the rain, the autumnal sky pristine and clear. Upon the mounts' brow, fresh verdance doth appear.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "虽然时节不同，但我却真真切切感受到了这句词中所描绘的景象呢……",
+			say = "Though the seasons don't quite line up, the scene that this poem describes really resonates with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "能与指挥官共赏眼前的美景……这次的露营，于我而言真是收获颇丰。",
+			say = "I'm so glad that I was able to enjoy such a splendid view together with you, Commander. Going on this camping trip truly was a worthwhile experience.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "当然，关于剧情创作的灵感也找到了哦。",
+			say = "Last but not least, I've found the inspiration to continue my story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我记得是我们刚刚发现这里的时候，你就提到过找到灵感了？",
+			say = "Oh, right. You did say you had an epiphany earlier when we were taking in the scenery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "嗯。没错哦。",
+			say = "Yes, that's right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "正是因为和指挥官在一起，我才涌现出了灵感。",
+			say = "The inspiration only came to me because I was with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "毕竟……心中有爱才会文思泉涌。",
+			say = "More importantly... When love nestles within your heart, words will flow forth freely like a fountain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，你才是我的灵感源泉。",
+			say = "In other words, the wellspring of my inspiration... is none other than you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "少女牵起我的左手，轻轻摩挲着那由她亲手编织的指环，笑靥如花。",
+			say = "Hai Tien takes my left hand and gently strokes the ring that she had woven herself. Her adorable smile blooms as brightly as any flower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

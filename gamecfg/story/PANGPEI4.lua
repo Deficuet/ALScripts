@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>四　为什么是图书馆？</size>",
+					"Captain Pompey Has You Covered!\n\n<size=45>4 Why in the Library?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间后的指挥室——",
+			say = "Sometime later...",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "午后的阳光暖洋洋地洒下，庞培坐在办公桌前，困意涌了上来。",
+			say = "Sat at the desk, coddled by the warm afternoon sunlight, Pompeo began drifting off to sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果只是稍微休息一下的话……",
+			say = "Just a short break to rest my eyes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "唔……我是睡着了吗。",
+			say = "Mmh... I guess I dozed off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "还好还好，只睡了不到一个小时，不然就耽误工作了……",
+			say = "At least it's not even been an hour... It would've affected my work if I'd slept any longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,11 +111,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼……",
+			say = "Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "耳边传来浅浅的呼吸声，庞培循着声音传来的方向，将整个身体探出办公桌。",
+			say = "Pompeo heard gentle snoring coming from somewhere. She bent forward over the desk and searched for the source.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "终于在沙发上看到了一位熟睡的少女。",
+			say = "And there she was, on the couch, sound asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……帝国？",
+			say = "...Impero?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "喂，喂，帝国，你醒醒。",
+			say = "Hey. Impero. Wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "嗯……",
+			say = "Mghh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是什么时候跑来的。",
+			say = "Come on, wake up. When did you even get here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "我听别人说今天是你在担任秘书舰，就想着过来看看。",
+			say = "*yaaawn*... I heard you'd been appointed the secretary for today, so I came to have a look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才敲门没有人回应，我就推门进来了，然后……发现你在睡觉。",
+			say = "I knocked several times to no response, so I came in and saw you sleeping like a baby at the desk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "之后……我也就在这里躺下睡了。",
+			say = "So I thought, \"Screw it, I'll just have a nap too.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "原来是这样……不对，那你来指挥室原本是打算做什么呢？",
+			say = "Makes sense... Wait, no! Why did you come here in the first place? What business did you have with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "哦……我想起来了，是想让你通过在图书馆设立床位的申请。",
+			say = "Oh, I remember now. I was gonna ask you to install beds in the library.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在图书馆里设立床位……？",
+			say = "Excuse me? Beds?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "嗯……我在图书馆看书的时候会睡着，利托里奥姐也说过我好多次，万一着凉了怎么办之类的……",
+			say = "Yup. I fall asleep when I read, and Littorio's always bugging me about how I'll catch a cold if I keep that up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "所以，如果在图书馆设立一个床位，让我能盖着被子好好睡觉，就不会被利托里奥姐念叨了。",
+			say = "So, if we put beds in the library, I could sleep under a warm blanket and not have to listen to any nagging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "不行么？",
+			say = "Is that a \"no\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "倒也不是绝对一定不行……？总之你先回你的房间睡觉，我来帮你写个申请书留给指挥官……",
+			say = "It's not. First of all, though, please sleep in the Sardegnian dorm and not here. I'll write your request down and present it to the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "呼……那就拜托你了，帝国要继续休息了。",
+			say = "*yawn*... Thanks. Then if you'll excuse me, I'm gonna resume my nap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是要在这里睡吗……",
+			say = "I just asked you not to...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "这里，很舒服……",
+			say = "Hey, this couch is comfy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "唉，真拿你没办法，我去帮你拿条毯子过来好了。",
+			say = "*sigh*... Fine, whatever. Let me get a blanket for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "秘书舰，很称职。",
+			say = "Thanks. You're a good secretary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "嘿嘿嘿……",
+			say = "Heheh...",
 			painting = {
 				alpha = 0.3,
 				time = 1

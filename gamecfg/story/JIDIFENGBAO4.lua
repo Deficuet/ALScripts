@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp3",
 			sequence = {
 				{
-					"分队代号「手术刀」",
+					"Lancet Unit",
 					1
 				},
 				{
-					"旗舰：古比雪夫",
+					"Flagship: Kuybyshev",
 					2
 				},
 				{
-					"格陵兰要塞周边海域·塞壬控制区",
+					"Objective: Destroy the electromagnetic jamming device",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "此刻，舰队正贴着塞壬防线的外边缘航行。",
+			say = "The Lancet unit sailed forth, circling around the sea region currently under Siren control.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪……一路上，塔什干都没遇到什么像样的敌人。",
+			say = "Strange... We haven't run into any real enemy forces yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 702050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许是被别的战线牵制了吧。",
+			say = "That may be because the other units have drawn their attention.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "就算是塞壬，能在单位时间内投入的兵力也是有限的。",
+			say = "Even the Sirens don't have inexhaustible forces. The Commander's fighting has proven that much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我们这次选择多条战线同时推进，正好可以让清除者把破绽暴露出来。",
+			say = "There is some danger involved in dividing our units as we have, but it's perfect for finding Omitter's weaknesses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "极光好像变得更强了……",
+			say = "The aurora got brighter...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "资料中说，极光越强烈，电子设备受到的干扰就会越明显。",
+			say = "According to the files, the brighter the aurora is, the stronger the Sirens' jamming is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的量产型还好吗？",
+			say = "Are the mass-produced ships okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "看上去一切正常，看来这次真的是下了不少功夫来升级呢~",
+			say = "For now, they're fine. They really put a lot of effort into those upgrades.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "先让它们就位吧。塞壬要塞就在不远处，在抵达之前做好战斗准备。",
+			say = "We should get them into position. The Siren fortress is up ahead, so let's prepare for battle before we arrive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "了解。正在调动量产型舰队进入炮击阵位。",
+			say = "Gotcha. I'll mobilize the mass-produced ships into firing position.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "很好，我们也上吧——",
+			say = "Good! Let's join the battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "古比雪夫率先加速，飞溅的海水在溅落的过程中便化为了冰晶，很快便被风雪吹散了。",
+			say = "Kuybyshev's acceleration froze the water below her, blowing about crystals of ice that melted into a drizzle when subjected to the heat of her engine, before finally being blown away by cannonfire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "量产型舰队，开火！",
+			say = "Mass-produced fleet, begin firing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
-			say = "密集的炮火声响起，喷涌的火光中炮弹如冰雹般投射到目标区域，命中的瞬间震碎了周围的冰层。",
+			say = "Their concentrated bombardment flew toward the target zone like black hailstones raining down upon the Sirens' heads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "整座要塞也仿佛被唤醒一般，无数量产型冲破冰面，向着众人的方向发起猛攻。",
+			say = "As if awakened all at once, the fortress spewed countless mass-produced Sirens who moved to attack Kuybyshev's Lancet unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "开始迎击了吗？这样…让你们见识一下塔什干的厉害！",
+			say = "Is that so? If it's a fight you want... then behold our power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Ура！",
+			say = "Ura!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -472,7 +472,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心，有什么东西从要塞里出来了！",
+			say = "Something's coming out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,8 +498,8 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "清除者α型",
-			say = "………………",
+			actorName = "Omitter α",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "那是清除者……？塔什干还以为它只会在“王冠”附近出现呢。",
+			say = "Is that Omitter...? I thought she was supposed to be in the Crown!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "也许只是一个量产型机体,就跟之前在NA海域消灭构建者的时候一样。",
+			say = "She seems different. Like Compiler, this must be one of her vessels.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "10…11…12……",
+			say = "10... 11... 12...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "雷鸣，你在数什么？",
+			say = "Gremyashchy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……已经15秒过去了,它还没有黑入我们的通讯频道。",
+			say = "...It's been fifteen seconds, and she still hasn't hacked into our comms.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个清除者应该是量产型机体无疑了。",
+			say = "That's definitely one of Omitter's vessels. Yep, that's all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "唔嗯……这个判断标准还，确实挺具有参考价值的。",
+			say = "Hmm, that is an interesting method of telling them apart. I'll remember that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "这样……只是分身而已么。无趣，看塔什干揍扁它！",
+			say = "A vessel, huh? Boring... Watch me tear it apart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "清除者不是这次行动的重点，破坏部署在这里的电磁压制装置才是核心目标。",
+			say = "Destroying her vessel won't do anything; it can just come back as long as Omitter is alive. We gotta focus on destroying the electromagnetic jamming device here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让量产型舰队拖延时间，我们先破坏掉装置好了。",
+			say = "I'll have the mass-produced ships buy us time. Let's hurry on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "量产型面对清除者撑不了多久，有这种后顾之忧在，塔什干没法安心执行任务。",
+			say = "Mass-produced ships can't win against a vessel. If we don't beat Omitter now, she might catch up and attack us from behind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这样好了，我带领量产型舰队引开它，你们全力寻找电磁压制装置的位置——",
+			say = "Then allow me to draw her attention. Tashkent and Gremyashchy, you destroy the jamming device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,9 +749,9 @@ return {
 			bgName = "bg_hms_8",
 			hidePaintObj = true,
 			hideOther = true,
-			actorName = "塔什干&雷鸣",
+			actorName = "Tashkent&Gremyashchy",
 			side = 0,
-			say = "——不行。",
+			say = "No!",
 			subActors = {
 				{
 					actor = 701070,
@@ -781,7 +781,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫同志难道忘了，{namecode:530:同盟}同志在出发前可是专门说了要我们通力合作哦。",
+			say = "Before the battle, Soyuz told us to work together!",
 			painting = {
 				alpha = 1,
 				time = 0
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "就是~风头不能让你一个人抢了，古比雪夫同志！",
+			say = "Yeah. We won't let you fight alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……那就牺牲一下效率，我们一起先解决清除者，再寻找装置吧。",
+			say = "...Then we have no choice. Let's defeat Omitter's vessel, and then we'll search for the device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞同，这才是我们的好政委嘛。",
+			say = "That's how our Pathfinder should be. Yep, that's all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "众人一边与清除者的量产型机体周旋，一边在量产型的掩护下，稳步向着要塞方向推进。",
+			say = "Throughout their battle with Omitter's vessel and the Siren fleet, the unit gradually approached the fortress facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "争取连清除者带要塞一同拆掉，Ура！",
+			say = "Let's destroy it and Omitter in one fell swoop! Ura!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "要塞的墙体上，此时已布满了爆炸产生的黑色坑洞，冰面也被炸得支离破碎。",
+			say = "The walls of the fortress and surrounding icebergs were already full of holes from the Northern Parliament's ferocious assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在塔什干的操纵下，量产型的炮口调整方向，万炮齐发，准备给予清除者致命一击。",
+			say = "Tashkent and the mass-produced ships trained their sights on Omitter. They fired, ready to deal the final blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫，清除者已经进入理想射击位置，你快躲开！",
+			say = "Kuybyshev, Omitter has entered the firing point! Hurry and get out of the way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "了解——",
+			say = "Understood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "古比雪夫躬身加速，从清除者的侧边穿过，并迅速拉开距离。",
+			say = "Skillfully handling her enormous rigging, Kuybyshev whipped around and got away from Omitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在她的身后，不计其数的炮弹汇聚到一点同时爆炸，继而引发了汹涌的海浪。",
+			say = "The moment she turned her back to the enemy, countless shells closed in on Omitter and landed all at once, engulfing the area in smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "等烟雾消散，原本清除者所在的位置，已经空无一物了。",
+			say = "When the smoke finally cleared, Omitter was gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "直接被炸成灰咯~哼哼，这就是阻挡北方联合舰队的下场！",
+			say = "Destroyed her without so much as a trace. Heheh, this is what happens when you try to stop the Northern Parliament's fleet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "电子设备的干扰好像也……减轻了。",
+			say = "The jamming has weakened, too... Yep. That's all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道刚才塔什干随手轰掉的那个高塔就是电磁压制设备的位置？",
+			say = "Could it be that the tower destroyed alongside Omitter contained the jamming device?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701040,
-			say = "真的？塔什干真是太厉害了！",
+			say = "Really? We're pretty lucky!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "呵呵，运气有的时候也是实力的一环呢。",
+			say = "Heehee. Sometimes, luck can turn the tides of battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬舰队正在瓦解中，这样就算压制成功了吧？",
+			say = "With their command unit defeated, the Sirens are scattering. Does that mean we completed our mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯。根据作战计划，我现在向后方发送增援请求，让占领部队前往要塞内进行下一步行动。",
+			say = "That's right. Now, I'll contact reinforcements, call the occupying force, and have the facility seized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,10 +1133,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "*drip*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是「手术刀」分队，我们已成功压制格陵兰要塞，占领部队可以开始行动——",
+			say = "This is the first unit, Lancet. We've successfully conquered the Sirens' fortress. Once we've met with the occupying force, we will move to the next phase of the operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1163,7 +1163,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "微弱的电波跨越风雪，向后方带去了令人振奋的消息。",
+			say = "These radio waves would surely overcome the fierce polar winds and bring welcome news to their comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			blackBg = true,
-			say = "而这场声势浩大的行动才刚刚拉开序幕——",
+			say = "However, the operation in the polar region had only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

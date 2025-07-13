@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：别样的日常\n\n<size=45>值日时的春心萌动</size>",
+					"Port Fashion Collection! A Glimpse Into Another Life\n\n<size=45>1 The Lover's Heart Flutters On Duty</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……呼……",
+			say = "Phew...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放学后空旷的教室里，那位千金大小姐踮着脚，努力擦拭着黑板。",
+			say = "In an empty classroom after school, a certain well-bred young lady stretches on her tip-toes, doing her best to clean the blackboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从她认真的样子来看……应该还没注意到我的存在。",
+			say = "Based on how serious she looks, I don't think she's noticed my presence yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正当我思考要不要出声帮忙时，大小姐更努力地踮起脚，几乎把整个身体都压在黑板上向上擦拭着。",
+			say = "While I consider helping her, she stretches even more to reach the top of the blackboard. By this point, her entire upper body is pressed against it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后，擦拭的灰尘从黑板上滑落，径直落入大小姐的眼睛中。",
+			say = "Chalk dust falls off of it... and straight into her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "呀——！",
+			say = "Eep!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,14 +139,14 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被灰尘迷住眼睛的大小姐下意识后退，脚下一滑。",
+			say = "Blinded by chalk dust, she steps back and trips over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "小心——！",
+					content = "Be careful!",
 					flag = 1
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "咳、咳……",
+			say = "*cough* *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "老、老师？！你没事吧？",
+			say = "Professor?! Are you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不，不对……可畏又不重的……不应该有事……",
+			say = "N-no, I can't possibly be that heavy... Surely you're fine...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "不是……可畏不是那个意思……",
+			say = "W-wait, that's not what's wrong...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "总、总之就是……谢谢你，老师！",
+			say = "Anyway, thank you, Professor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "（虽然知道是在拍摄，但突然被可畏喊老师还是有些不习惯……）",
+			say = "(I know we're being filmed, but her calling me Professor still throws me off...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "没事，上面的灰尘就交给我来擦好了。你的眼睛没事吧？",
+			say = "I'm fine. Here, let me erase the chalk at the top. Are your eyes okay, Formidable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "嗯……只是有一点痛而已，没关系的。",
+			say = "Yes... They sting a little, but I'll be fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "我来帮你吹一下，不要乱动。",
+			say = "I'll try blowing it out of your eyes. Stay still for me, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "欸……？嗯……那就拜托老师了。",
+			say = "Huh? Okay... Thank you, Professor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "纵使耳根已经通红，大小姐还是努力仰着头向我凑来。",
+			say = "Despite clearly blushing all the way to her ears, Formidable does her best to lean in and face me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "呜……这、这样可以么？",
+			say = "U-umm... Will this do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "双唇来到了几乎相贴的距离——",
+			say = "She leans in close enough that our lips are mere inches from each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "香水甜美气息的萦绕下，少女水润的眼眸仿佛产生了某种摄人心魂的魔力。",
+			say = "Her sweet perfume and teary eyes have a bewitching power to them, coming ever so close to stealing my heart–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯……好像太高了点，这样就没办法吹到灰了。",
+			say = "Hmm... It's a little hard to blow on your eyes at this angle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "老师……你！",
+			say = "Geez, Comman–ahem! Professor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好……再低一些……低一些就可以了吧！",
+			say = "Okay... A little lower. All you need is for me to angle my head a little lower, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大小姐不满似的轻摆长发，缓缓蹲下身去。",
+			say = "She flips her long hair, evidently dissatisfied, and slowly looks down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直到头顶的高度与我的腰间平齐。",
+			say = "But for some reason, she squats down low enough until her head is level with my waist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "老师~你该不会要说这样又太低了吧？",
+			say = "Professor? You won't tell me I'm too low this time, will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,18 +529,18 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大小姐仰起头来，嘴角扬起，眼眸中带着些许戏谑。",
+			say = "Formidable looks up at me. There's a mischievous glint in her eyes and a grin on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "嗯，这次确实又有些太低了。",
+					content = "A little, yeah...",
 					flag = 1
 				},
 				{
-					content = "不！这次高度刚刚好。",
+					content = "No, I think it's perfect.",
 					flag = 2
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是老师，可畏已经很累了，老师来弯腰配合可畏调整到合适的高度好么~",
+			say = "But I'm ever so tired, Professor. Why don't you bend over and find the right height yourself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师想帮可畏吹掉眼睛里的灰吧？",
+			say = "Heheh, you did want to blow the chalk dust out of my eyes, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "其实……你眼睛里的灰，已经随着眼泪流出来了吧。",
+			say = "Yeah, but it looks to me like you already cried it out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，到这种时候观察力就突然变好了！",
+			say = "Aww. Must you be so observant now, of all times?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢~？真的么？",
+			say = "Oh? Really, now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是这次可畏的头距离老师的嘴比刚才更远哦？",
+			say = "But my head and your mouth are just so much further from each other now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师为什么要说刚刚好呢？",
+			say = "Why would you say this is perfect, I wonder?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很~遗~憾~可畏眼睛里的灰已经随着眼泪流出去了，不需要老师帮忙了哟~",
+			say = "It's okay. I already cried out the chalk dust, so I don't need your help anymore, Professor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一边说着，一边直起身来，在我眼前优雅地转了个圈。",
+			say = "With that, Formidable stands back up and twirls gracefully in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘀嘀——",
+			say = "*BEEP! BEEP!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自动录制设备停止的声音同时响了起来。",
+			say = "Just then, the recording equipment beeps, signaling that it's stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 207053,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "呼……这样一来，拍摄就算顺利结束了？",
+			say = "Phew... Okay. Does that mean the recording is done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "顺利结束个鬼……咳，拍摄工作可能还没有结束哦，指挥官。",
+			say = "Not at all... Ahem. The recording may not yet be complete yet, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "因为刚才某人没有按照设计好的台本来走的缘故。",
+			say = "Because a certain someone failed to follow the script.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我们恐怕必须要重拍一次这个镜头了呢。",
+			say = "Heehee, I think we'll have to redo the scene at this rate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "时间还早，请再陪我来一遍吧，我亲爱的老师~",
+			say = "It's still early, so I expect you to give it another try now... my dear Professor~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：指挥官，塞壬舰队已被消灭，封锁机关被破坏了。",
+			say = "Scan complete. Defeating the Siren fleet has successfully lifted the zone blockade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

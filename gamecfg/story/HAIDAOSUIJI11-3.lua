@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "眼前发生的似乎是经典童话故事中的桥段，只是刚才掉下水的明明只是一只普通啾啾而已……",
+			say = "In the spirit of the fairy tale this is seemingly inspired by, the right thing to do is say neither; it was a normal manjuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "而且如果再不去救一下落水的啾啾的话，一会可能就只能见到落汤啾了……",
+			say = "However, you are so taken aback by what you're seeing that you cannot answer properly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,9 +23,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "都不是啾……？啾……啾啾~",
+			say = "Doth thou mean to say it was neither of them, hmm?~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,9 +33,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "啾，你是个诚实的孩子啾~！不用担心啾，刚才落水的啾啾在本啾问你之前就已经被本啾救起来了啾。",
+			say = "Indeed, thou art an honest one. Worry not about the little peep, for I already saved him before posing my question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,9 +43,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "不过啾……作为对善良诚实品质的奖励啾，本啾要把这只金啾啾与银啾啾都送给你啾！",
+			say = "In light of thy outstanding honesty, I shall give thee both the golden and silver manjuus. Treat the little peeps well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "河神递给你一金一银两只啾啾，而后潇洒地（？）再次沉入了水中——",
+			say = "The god-manjuu hands you both the precious manjuus, then disappears beneath the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

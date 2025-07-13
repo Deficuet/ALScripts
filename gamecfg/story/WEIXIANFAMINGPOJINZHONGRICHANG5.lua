@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·宿舍区",
+			say = "Port - Dorms",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "准备前往商店街寻找鲷鱼烧商铺的金色暗影行走在走廊上。",
+			say = "Golden Darkness walked down the hall, hoping to head to the shopping area and find a taiyaki seller.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "突然，一侧的房间中隐隐传来奇怪的响动。",
+			say = "But suddenly, she heard an odd rustling from a nearby room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……还是去看看情况吧。",
+			say = "...I should check it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女谨慎地推开了传出响动的房间门，然而门内却是一片漆黑。",
+			say = "When she cautiously opened the door, she found the inside of the room pitch-black.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在这一片漆黑中，所传出的轻微呼吸声和衣物摩擦的声音则让少女更加警觉。",
+			say = "In the darkness, she could make out slight breathing and the rustling of clothes. This only made her warier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "金色暗影放慢脚步，谨慎地走入了房间之中探查情况。",
+			say = "Golden Darkness slowly, carefully entered the room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "就在此时，一阵攻击向金色暗影袭来！",
+			say = "But then, something attacked her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而金色暗影则是几乎出于本能，敏捷地向后翻滚。",
+			say = "She backflipped almost instinctively, smoothly dodging the assault...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "几支手里剑贴着她的身体飞过，发出“咻咻”的声音。",
+			say = "Yet several shuriken came flying her way – and a few of them came dangerously close to cutting her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什么人。",
+			say = "...Who's there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女的眼神变得凌厉，已经摆出防御姿态的她准备好随时进行反击。",
+			say = "She immediately took a defensive posture and fixed her eyes sharply on the dark room, ready to counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而就在这时，房间里的灯光突然亮起。",
+			say = "But the touch-and-go situation was diffused as the lights were turned on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！金色暗影阁下！在、在下还以为是贝尔阁下来了！",
+			say = "Oh, Miss Yami! A-apologies, I thought you were Bell...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非，非常抱歉！金色暗影阁下，你没事吧？",
+			say = "Aaah, I'm s-s-so sorry! Miss Yami, a-are you hurt at all...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "没事……",
+			say = "I'm okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……动作还需要练习。出手不果断，力道也不够……",
+			say = "But you should practice more. Your attack was too hesitant and lacked strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,20 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "少女一边说着，一边走到{namecode:11:晓}面前，捡起掉落在地上的手里剑递进了{namecode:11:晓}的手里。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301090,
-			side = 2,
-			bgName = "star_level_bg_190",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "唔……在下的忍术确实不是很厉害……所以还在练习……",
+			say = "She approached Akatsuki, picked up the shuriken, and handed them over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +284,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，在漆黑的环境里练习果然还是有点太勉强了……",
+			say = "Urk... Yes, my ninjutsu is still unpolished. That's why I'm training as such...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301090,
+			side = 2,
+			bgName = "star_level_bg_190",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Maybe trying to train in the darkness from the outset was a poor decision...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "咦？{namecode:11:晓}，不是说好了要关灯等我来一起训练嘛，怎么打开了——",
+			say = "Huh? Akatsuki, I thought we were practicing ninjutsu with the lights off? Why are they on–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "欸欸？金色暗影小姐？你怎么在这里！？",
+			say = "Wait, huh? Yami? Why are you here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "从门外走进的贝尔在看到金色暗影后露出了惊讶的表情。",
+			say = "She seemed surprised to find Golden Darkness here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……是你们约好的训练方式么？",
+			say = "...Did you two agree to train in the dark?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的！原本是计划让{namecode:11:晓}习惯在黑暗里潜伏，然后我进来应对她的突袭~！",
+			say = "Yep! Akatsuki comes in first and hides, and when I come in, she tries to ambush me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "但现在好像出了点……意外？",
+			say = "But it looks like things didn't quiiite go as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝尔阁下，这样练习忍术真的有用么……？",
+			say = "Bell, do you think this will really help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "应该是……有用的吧？",
+			say = "Umm, maybe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "两位对忍术有着执着追求的少女，在彼此对视一眼后纷纷皱着眉陷入了沉思。",
+			say = "The two ninja-obsessed girls looked at each other, apparently deep in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……既然只是误会的话。",
+			say = "...A simple misunderstanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "那，再见……",
+			say = "Anyway, I'm leaving...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请等一等！贝尔阁下，金色暗影阁下的身手很厉害呢，是不是可以……",
+			say = "Wait a second! Bell, I saw how Miss Yami here moved, and I have a feeling that she may be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "你是说……拜托她指导我们一下？",
+			say = "Do you think we should ask her to teach us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯嗯！在下就是这个意思！",
+			say = "Yes, yes, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……我听得到。",
+			say = "...I can hear you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不过，我的力量，不适合传授给别人。",
+			say = "But my powers aren't something meant to be taught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是……",
+			say = "I see... Oh! I-in that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那那那……！这样好啦！我们来比试一下如何！",
+			say = "Here's an idea! Let's play a game!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "如果你赢了，就教给我们忍术！",
+			say = "If we win, you have to teach us ninjutsu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "拗不过二人的金色暗影，最终还是答应了二人的请求。",
+			say = "Golden Darkness couldn't bear to tell them no, so she gave up and accepted their proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……所以，你们一直在说的忍术到底是什么……？",
+			say = "...Incidentally, what is this \"ninjutsu\" stuff you keep talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100040,
-			say = "……顺便，鲷鱼烧在哪里买……？",
+			say = "Also... Where can I buy taiyaki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

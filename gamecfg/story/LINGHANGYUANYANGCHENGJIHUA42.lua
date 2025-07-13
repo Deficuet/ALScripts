@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg35",
 			hidePaintObj = true,
-			say = "没能培养出任何兴趣爱好以及特长的TB，在毕业后选择随波逐流。",
+			say = "TB graduated with no particular hobbies or remarkable skills. She took a back seat and simply drifted wherever life took her.",
 			bgm = "story-richang-flexible",
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg35",
 			hidePaintObj = true,
-			say = "现在的她成为了一名再普通不过的上班族。",
+			say = "Now she works a run-of-the-mill, unremarkable office job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg35",
 			hidePaintObj = true,
-			say = "处理不完的文件、接不完的电话……以及长期熬夜加班留下的黑眼圈……",
+			say = "A ceaseless stream of phone calls, a paperwork stack with no end in sight, and long, late-night overtime shifts that leave bags under the eyes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg35",
 			hidePaintObj = true,
-			say = "也许重来一次的话，可以不用过上这样疲惫的生活吧。",
+			say = "If she got a second chance, maybe she wouldn't have to live such an exhausting life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

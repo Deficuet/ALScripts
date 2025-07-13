@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>七　新学年的开始</size>",
+					"School Day Celebrations\n\n<size=45> VII   「The Start Of A New School Year」</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "呜呜…没想到姐姐的说教真的那么久…",
+			say = "Whines... I can't believe big sis' lecture is taking this long...",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以、以后再也不敢轻易招惹风纪委员了…",
+			say = "I-I won't dare to provoke those taskmaster girls in the future...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哦！是指挥官呀！",
+			say = "Oh! It's the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？真难得，指挥官这是来学院巡视吗~",
+			say = "Oh? This is rare. Commander is visiting the campus~~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学校有趣吗？当然有趣啦~",
+			say = "Is school interesting? Of course it's interesting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "比起有趣不有趣，在学校学习提高自身能力，也是我们除了战斗之外的重要任务吧",
+			say = "Besides that, we can improve our skills at school.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿~真不像会从“不良少女”口中讲出来的话呢~",
+			say = "So the bully girl talks like a school girl now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "啊，一不小心…",
+			say = "Ahhhh, I accidentally....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么是不良少女？",
+					content = "Bully girl?",
 					flag = 1
 				}
 			}
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "因为姐姐是风纪委员嘛…总觉得就这样下去，姐姐就都忙着管别人了…",
+			say = "My sister is a taskmaster member now, so I feel if there's a bully girl, it will keep her busy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "而且你看，既然有风纪委员，就应该有不良少女才对嘛？",
+			say = "So you see, without bully girls, there would be no taskmaster girls, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈哈，{namecode:94}真是可爱的姐控啊~",
+			say = "Hahahaha, {namecode:94} is a really really cute little sister, ahhhh！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,7 +279,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "什、什么啦！",
+			say = "Wait, w-what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，作为Z驱的大姐，我可以跟你打包票，世上是不会有不关心妹妹的姐姐的~",
+			say = "Don't worry, as the big sister of the Z-class, I'll support you! In this world, there's no elder sister who would not take care of her younger siblings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇…都这么晚了…天都开始黑了——",
+			say = "O gosh...it's so late...the sky is getting dark——",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:2}，不好意思啊，还让你一起帮忙整理材料",
+			say = "{namecode:2}, sorry for the inconvenience in helping me organize school materials.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			actorName = "{namecode:2}",
-			say = "一点小事~没什么的~",
+			say = "Don't mention it~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -384,7 +384,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "嗯？{namecode:94}{namecode:400}？",
+			say = "Hm? {namecode:94} and Z1?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:2}",
-			say = "指挥官？",
+			say = "Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "在聊什么聊得那么开心呢？",
+			say = "What are you gossiping about that's making you so happy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "没、没什么啦…只是在说又是新学年的开始而已…",
+			say = "N-nothing... we're just saying that it's the start of a new school year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "是呢…话说{namecode:94}啊…你就不能听姐姐一回，穿姐姐帮你准备的制服嘛…",
+			say = "Right... {namecode:94}... Can't you listen to me for once and wear the school uniform that I prepared for you?...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（微笑）",
+			say = "(Smiling gently)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "我、我比较喜欢现在这样啦！",
+			say = "I, I like my clothing, no school uniforms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不良少女的{namecode:94}，也很帅呢！",
+			say = "Bully girl {namecode:94}, you're so cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哇！克、克雷文什么时候在这里的！",
+			say = "Wow! C-Craven, when did you get here!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -538,7 +538,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "神出鬼没的啦啦队少女就是我！",
+			say = "The cheerleader will be there, whenever someone needs to be cheered up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘻嘻，从你们跟指挥官聊天的时候我就在啦~",
+			say = "Hehe, I've been here since you girls started chatting with Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "包括为什么是不良少——唔姆姆呣！",
+			say = "So I heard the bully girl part— — !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "嗯？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "没、没什么！",
+			say = "N-nothing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "呜…作为风纪委员的姐姐我的立场——",
+			say = "Whines... as a taskmaster girl and your sister, I feel helpless — —",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			},
 			options = {
 				{
-					content = "总之新学期大家一起加油吧",
+					content = "Everyone, let's all make the most of the new semester!",
 					flag = 1
 				}
 			}
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "是、是呢",
+			say = "Y-yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那是当然的~",
+			say = "Hehe, of course~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "我、我会努力准时报到的…",
+			say = "I-I will try my best to be on time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哦！",
+			say = "Oh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "加油FIGHT~！",
+			say = "C'mon FIGHT~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

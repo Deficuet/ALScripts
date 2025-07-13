@@ -13,7 +13,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "侧翼发现潜艇编队，同时上空也发现了正在接近的舰载机群！",
+			say = "A submarine fleet is approaching us from the east! They're sending planes at us too!",
 			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚的侦查舰队果然是诱导你的陷阱呢，{namecode:182}。",
+			say = "So that's what they were after, huh? Drawing Shinano away to try to pick us off one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果按照刚刚的作战方式被吸引过去的话，舰队会正好进入潜艇和舰载机共同构成的伏击圈。",
+			say = "Damn it, Suruga's just flat out better at the strategizing... Guess I'll have to do things the same way as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官，一下子就抓住了{namecode:182}今天的异常，然后立刻进行了诱导作战…",
+			say = "You're back! Shinano, you certainly look refreshed compared to earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还好你冷静下来了呢~",
+			say = "Everyone, you're all doing great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…其实从刚才起妾身就很在意，汝等口中的指挥官究竟是谁？",
+			say = "Thank you for bearing with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！指挥官就是指挥官啊…应该怎么说明呢…",
+			say = "What's there to thank us for? It's fun getting some good exercise like this, considering how little happens these days~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经接近指挥官的舰队主力了，接下来就是决战。不如等到演习结束之后------",
+			say = "All right, everyone, let's hurry back and return to port! We'll be throwing a welcoming party for our new friends from Sardegna!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遗憾，看来没时间了呢…",
+			say = "Hehe~ That sounds fun, doesn't it, Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，相信自己，也要相信与你并肩战斗的同伴，祝你一路顺风。",
+			say = "......I wish you the best of luck. May your future be blessed with happiness, o dreaming butterfly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请加油吧~",
+			say = "And please take good care of Akagi and Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgm = "bsm-2",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "是，妾身记住了。",
+			say = "(I hope that this last dream... continues forever. It is so beautiful, this fleeting happiness, that I do not wish for it to end...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}…真是不可思议的人啊……这里也真是一个不可思议的地方……",
+			say = "(I am a mirror, a reflection of humanity's desires and wishes... given form to fulfill them...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个叫指挥官的人也是，真遗憾…如果时间能再多一些就好了……",
+			say = "(And the power to unite our sundered world... to end the fighting... The one who can avert this future of ruin... is the \"Commander\"...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "若能再次来到此处的话……",
+			say = "(If you are with me, then surely, this memory...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "啊…意识正在剥离。终于到回归现实之时了么……",
+			say = "(...will be more than just a dream...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

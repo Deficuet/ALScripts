@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>五 朦胧之中</size>",
+					"White Gallantry\n\n<size=45>5 Drunken Stupor</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "北方联合，不可小瞧啊……",
+			say = "The Northern Parliament girls had me beat.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "受酒精影响，意识变得有些朦胧，但是依然察觉到现在正处在一个非常可怕的状况下。",
+			say = "I'd drank so much that I was feeling dizzy and disoriented. This was not at all how I wanted the day to end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志～还没到我房间吗～",
+			say = "Are we there yet, Comrade? We've been walking for aaaages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，你又去找罗西亚又去找甘古特的～要不是我，你是要被她们一直灌到早上的啊～",
+			say = "Geeeeesh, they just wouldn't let you off the hook back there, huh? Good thing I was there or you'd been stuck partying 'till morninnnng!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "背后传来了平时英姿飒爽的她绝对无法发出的软趴趴的声音。",
+			say = "Belorussiya cried out from behind me. The normally gallant girl was drunk out of her mind, and her speech very much reflected that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，要不是我救了你，你不得被喝得烂醉如泥……",
+			say = "You'd be passed out on the floorrrrr by now if I hadn't come to your rescue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要向伙伴们打听我的事也行，不过……嗝，至少选点合适的对象啊……",
+			say = "It's good to talk to people, but y– *hic*! You should be more selective, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就知道你这种温柔的老好人最后肯定会变成这个样子，所以就和罗西亚打了个赌……当然，这次也是我赢了呢……",
+			say = "But then again, you're a kind and caring person, it's no wonder you shared drinks with everyone. I made a bet with Rossiya that this would happen, and clearly, I was right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "虽然向伙伴们打听到了贝拉罗斯的各种信息，但同时也被灌了不少……",
+			say = "After asking around, I'd developed a fairly good idea of Belorussiya's character. It came at the cost of having to drink with everyone I talked to, though.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志…你回来了啊……Zzzzz",
+			say = "We're back, Comrade? Good, then I'll just... Zzzzz...",
 			effects = {
 				{
 					active = true,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "回到坐位时，身旁的秘书舰————贝拉罗斯一下子倒了过来。",
+			say = "I took a seat, as did Belorussiya. Just like that, she collapsed onto me and dozed off.",
 			effects = {
 				{
 					active = true,
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦，这下可麻烦了…两个人今天都有些努力过头了啊…",
+			say = "Oh dear me. It seems you both bit off a little more than you can chew.",
 			effects = {
 				{
 					active = true,
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，看起来也不能再喝了啊……虽然有些遗憾，不过今天就到此为止吧？",
+			say = "Indeed. You've clearly had enough drinks for one day. With that, I think it's time for the party to adjourn.",
 			effects = {
 				{
 					active = true,
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "伙伴们都关切地看了过来。",
+			say = "The other girls started throwing me looks of concern.",
 			effects = {
 				{
 					active = true,
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "因为自己不胜酒力而让大家不能继续享受欢迎会的话就不太好了啊……",
+			say = "I'd hate to think that I forced them to call it for the night sooner than they would've liked...",
 			effects = {
 				{
 					active = true,
@@ -330,7 +330,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志…不好意思…能送我回宿舍么……",
+			say = "Sorry to ask for a favor, Comrade, but... *hic*... help me back to the dorm...",
 			effects = {
 				{
 					active = true,
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "——就这样被贝拉罗斯解救了。",
+			say = "She helped me just earlier, and now it was my time to help her.",
 			effects = {
 				{
 					active = true,
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "然后，就这样背着烂醉如泥的贝拉罗斯来到了她的房门前……",
+			say = "Carrying her on my back, I took her to right outside her room.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "因为北方联合的舰船们全部去了宴会，宿舍里现在一个人都没有……",
+			say = "The problem was, since all the Northern Parliament girls were attending the party, there was nobody else in the dormitory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志…怎么了…？你已经一步都走不动了哦……",
+			say = "What's the holdup, Comrade? I'm too drunk to walk by myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "房间门没锁哦…就差一点了……加油……",
+			say = "The door's unlocked, so just... open it. I want to get to bed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "…………不能就这样把贝拉罗斯放在门外不管啊。",
+			say = "Dropping her off just outside her room would not be decent of me. I had to carry her inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "下定决心打开房门，将贝拉罗斯放到了她的床上。",
+			say = "I mustered all my courage, turned the door handle, and stepped inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "也许是因为任务完成的安心感，突然放松的意识只在一瞬间就被名为“伏特加”的北方联合强大武器彻底攻陷了……",
+			say = "Putting Belorussiya to bed relieved all the tension in me, both physically and mentally. Out of energy, I blacked out on the spot...",
 			flashout = {
 				black = true,
 				dur = 0.5,

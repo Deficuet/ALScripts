@@ -12,7 +12,7 @@ return {
 			side = 1,
 			bgm = "battle-boss-tiancheng",
 			dir = -1,
-			say = "身为红方旗舰，没想到【王将】居然会亲自走上前线啊，{namecode:161}。",
+			say = "Why, I didn't expect Team Red's flagship herself to appear right before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，演习毕竟不是捉迷藏。要是我想躲藏的话，{namecode:92}可就永远找不到我了，那样可就麻烦了呢~",
+			say = "An exercise is no place for lollygagging. Kaga may start acting haphazardly if I don't show myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "真自信啊……这场演习对你来说不过就是一场游戏而已吧？",
+			say = "Still, you must be quite confident to appear on the front in person. This is no mere game to you, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "虽然大家都知道我喜欢智取，但我从来也没说过不擅长正面作战哦~",
+			say = "Perhaps so. It is true I like devising new strategies, but never once have I said I am an incapable soldier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "……你真是，幸好你不是我真正的敌人。",
+			say = "Indeed... I fully believe that it's a fortunate thing I am not your enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "那么，无论如何，就算只是个[步兵]，我也会竭尽我的职责。",
+			say = "But still, here I stand, blocking your way, like the enemy would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "{namecode:161}，想要过去的话，就先过我这一关吧！",
+			say = "If you wish to pass, you must first defeat me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "正合我意！",
+			say = "Then let us have a fight in good spirit. *Giggle*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

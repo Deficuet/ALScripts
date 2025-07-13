@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"苍闪忍法帖-「日常篇」\n\n<size=45>缤纷假日</size>",
+					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Fun & Play Holiday</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "港区・滨海大道",
+			say = "Port - Harbor",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "啊，好羡慕啊——",
+			say = "Man, I envy you girls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "突然这是怎么了？啊~又是在说吃的么。",
+			say = "Envy us? How so? Is this about the food again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "昨天你也因为宴会上的刺身很好吃所以感叹过“好羡慕啊”呢~",
+			say = "Because you really gushed about the sashimi the Commander treated you to yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "欸？啊，嗯，那个确实很好吃……而且又很新鲜……才不对啦！",
+			say = "What? Oh, yeah, that was amazing. So fresh, so piquant, so... Wait, that's not what I was thinking about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "——咦？好像也没有不对？毕竟那也是值得羡慕的一桩事……",
+			say = "True, I do envy the food you girls get here, but it was something else...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "——啊对了！我想说的是大海！早上一打开窗户就是大海！出门吃饭就能享受到混合了大海气息的食物香气！",
+			say = "Right! The sea! Opening my window and hearing the waves! The smell of the ocean when I go outside to grab a bite!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "一踏出门就有舒服的海风，再走几步就是美丽的海滩！",
+			say = "Leaving the dorm and feeling the cool breeze! Walking just a short distance and seeing the beautiful coast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "一想游泳就能马上去海里游！所以真是令人羡慕啊……！",
+			say = "And finally, a body of water being just a short walk away when I wanna swim! I envy you because it's all so great.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "原来如此~虽然我们也有去海里玩的时候，不过大多数时间，大海对于我们来说基本意味着演习和远征之类的……",
+			say = "Well, sure, there's fun to be had at sea, but the sea basically means exercises and expeditions for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "心情也会随着舰装的启动而变得认真起来……",
+			say = "We also get in a more somber mindset once we put our riggings on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "离大海近的好处，与其说是玩比较方便，更像是出动任务比较方便吧……",
+			say = "While it's nice being so close to the sea, it's more convenient for going on missions than it is for enjoying yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "啊，好像确实是这样……不过我似乎见到过身穿泳装出航的孩子欸？",
+			say = "Oh, really? Huh. But I've seen girls wearing both swimsuits AND riggings when they disembark.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "那是在执行什么特殊训练么？",
+			say = "Were they going on some sort of special mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "你是指潜艇的同伴们对吧。因为要在水下作战的原因，她们的战斗服和我们不同，原本就被设计为了泳装的款式。",
+			say = "You mean the submarines, right? They fight under the water, so they wear swimsuits optimized for diving.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "不过……你倒是提醒我了，其实我也可以用泳装在海面上作战哦~",
+			say = "Now that you mention it, though, I could also fight in a swimsuit if I wanted!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "咦？！原来是这样么？！可是之前我偷偷试了一下泳装，发现就没法装备舰装漂浮在海面上了……",
+			say = "Really?! Well, I can't... I tried a swimsuit the other day and couldn't equip my rigging for some reason.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "那是因为作战用的泳装需要用到特殊材料制作啦。",
+			say = "Maybe you need a special swimsuit designed for rigging use.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "特殊材料制作的泳装……",
+			say = "Or one made with special fabric...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位，是在讨论泳装的话题么喵？",
+			say = "What are you girls chatting about, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "{namecode:98:明石}……？你是从哪里出现的？",
+			say = "Akashi? Where'd the HECK did you come from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "简、简直就像忍者一样！",
+			say = "You appeared out of nowhere, almost like a ninja!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼~商业机密喵~",
+			say = "Heh. My methods are a trade secret, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过正好喵，指挥官之前向我下单为飞鸟小姐准备泳装，货物我已经送来了，请在这里签收喵！",
+			say = "Anyway, I'm dropping by to deliver Asuka's new swimsuit, nya. The Commander requested one, and it's finally done, nya. Just sign here, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "欸……？是要在这里签名的意思么？",
+			say = "Sign where? The dotted line?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没错喵~那么货已送达，{namecode:98:明石}就不打扰两位了喵~",
+			say = "Yep, nya. My work here is done, and I've got places to be, so... toodles, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "如疾风一般消失了……里诺小姐，这究竟是怎么回事？",
+			say = "Gone just as quickly as she came... Is this swimsuit what I think it is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "呵呵……不愧是指挥官，真是恰到好处的时机，这样一来飞鸟小姐也可以身穿泳装在水面上战斗了呢。",
+			say = "Wow, perfect timing on the Commander's part! Now you can go into battle wearing a swimsuit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "欸，对哦！穿着泳装在海面上战斗……嗯~好想试试啊……",
+			say = "Heck yeah! That sounds like it'd be a bucketload of fun! I so wanna try that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "要不然，我们一会就试试吧？顺便再叫上几个人一起来场模拟战♪",
+			say = "You do? Then go for it. I'll call some people and we'll organize a mock battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "欸！？可以吗？那就务必拜托了！！",
+			say = "Just for little ol' me? Aww, thank you so much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈！今天正好闲着，没想到赶上了这么有趣的活动啊。",
+			say = "Ahahah! Wasn't expectin' this when I woke up today. It's cool, though – just so happens my schedule's empty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，大家都穿好泳衣来了呢。呵呵，真是养眼的景致呢~",
+			say = "Look at us, all wearing swimsuits. Heehee. What a magnificent sight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "哇——好棒啊！简直像在电视节目里才会出现的场景！",
+			say = "Whoooa! You look so good! Like you came straight out of a TV show!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "唔……确实，大家都很漂亮，身材也超棒……说大家是明星也完全说得通呢！真好啊……！",
+			say = "Seriously! I'm not exaggerating when I say you look like models! You're gorgeous, you're sex bombs, you're... so much prettier than me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "过谦啦，飞鸟小姐其实也毫不逊色哦？",
+			say = "Don't say that. You're a real bombshell yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "是，是吗？嘿嘿，被这么说有点害羞呢",
+			say = "Y-you think so? Heehee. You're just saying that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——没错！忍者世界的各位阁下身材都非常凹凸有致，令{namecode:18:岛风}十分羡慕！",
+			say = "I would argue all you shinobis are slim to perfection and have curves that could kill, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如雪不归小姐，就非常……",
+			say = "Take Fubuki, for one. She's drop-dead sexy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "就是啊！像雪不归小姐就非常的……",
+			say = "That's true! She is one pretty lady...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "雪泉酱也是，有一种雪花闪闪漫天飞舞的感觉……给人一种很神秘的氛围呢！",
+			say = "Oh, Yumi, too! How she sparkles like falling snowflakes... She's got such a mystical vibe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102262,
-			say = "我也准备好了~如何，飞鸟小姐，里诺的泳装也很不错吧~",
+			say = "Guess who's ready! Heehee! How do I look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000011,
-			say = "非常……赏心悦目！",
+			say = "Cute as all heck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102262,
-			say = "呵呵~多谢夸奖。那我们就先做一下热身运动，然后就开始模拟战吧？",
+			say = "Thanks! So, let's all do some stretches, then get this mock battle started, shall we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102262,
-			say = "指挥官既然特意准备了泳装，那也要让指挥官看看大家可爱的战斗样子才对嘛~",
+			say = "The Commander got us these swimsuits, so let's put on a cute battle as thanks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,11 +831,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好————！！",
+			say = "Okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

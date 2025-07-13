@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我正在规划明天三餐吃什么。",
+			say = "I'm working out breakfast, lunch, and dinner for tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}有什么想吃的么？",
+			say = "Is there anything in particular you want to eat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……明天，你也会在这里的，对吧？",
+			say = "I mean... you will be here tomorrow, won't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

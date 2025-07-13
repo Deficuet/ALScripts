@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
@@ -75,11 +75,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "可、可恶！",
+			actorName = "Blücher",
+			say = "Ugh! Seriously?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,11 +93,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "不要以为你们这就算赢了！",
+			actorName = "Blücher",
+			say = "Don't assume you've won already!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,11 +111,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "你们给我等着！",
+			actorName = "Blücher",
+			say = "Revenge WILL be mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "我一定会回来……哇啊啊啊、呜呜呜飞慢一点啦——！",
+			actorName = "Blücher",
+			say = "I'll be back, and then– Whoa, whooooaaaa! Mind the turbulence, dragooooon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "{namecode:450:布吕歇尔}被巨龙狼狈地拖拽着，如流星般消失在远方的乌云中。",
+			say = "Blücher is dragged along helplessly by her dragon. The two disappear like shooting stars among the distant dark clouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,11 +184,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，可惜巨龙的皮实在太厚，让她夹着尾巴逃走了。",
+			say = "Dang. The dragon's scales were too thick and it got away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,11 +202,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "即便如此，也是一场巨大胜利。",
+			say = "Perhaps so, but this is still a major victory for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,11 +220,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "失去了大魔族的压阵，这群魔物大军溃散只是时间问题。",
+			say = "With their general out of the picture, it's only a matter of time before their rank and file collapses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,10 +238,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先是用激将法让其孤身深入，紧接着用小队间完美的配合将其击败。",
+			say = "And to think you did this by provoking her, then taking her out with flawless teamwork...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,11 +255,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "如此手段……你真是位出色的指挥官呢。",
+			say = "You truly are an exceptional strategist, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,10 +273,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "凭借你们的小队……或许有朝一日真的能打败魔王，让和平降临世间吧。",
+			say = "One day, you and your party may just defeat the Demon King and restore peace to the world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,11 +287,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错，你看人真准！",
+					content = "We will, and that's a promise!",
 					flag = 1
 				},
 				{
-					content = "过奖了。",
+					content = "You're flattering me.",
 					flag = 2
 				}
 			}
@@ -300,12 +300,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "呵呵，有自信是好事。",
+			say = "Heehee. Your confidence brings me hope.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,11 +319,11 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那我就期待你们打倒魔王的那一天能够早日到来了哦~？",
+			say = "I look forward to the day I'll hear about how your group took the Demon King out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,10 +337,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "现在魔物还没有被全部消灭，不是闲聊的时候。",
+			say = "It's not like we've defeated their whole army yet. Save the praise and medals for when it's warranted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,12 +350,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "呵呵，你说的对，现在还不是放松警惕的时候。",
+			say = "Yes, I suppose. We mustn't let our guard down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,11 +369,11 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "那庆功宴上再聊咯~指挥官~",
+			say = "Then let us speak again come the victory celebration.",
 			painting = {
 				alpha = 0.3,
 				time = 1

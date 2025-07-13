@@ -7,9 +7,6 @@ return {
 	id = "DORM3DHELLOACCOMPANYBEACH2",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,8 +14,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？天狼星在画什么吗……\n本来是想画{dorm3d}的样子……太有点太难了，所以就画一个象征对{dorm3d}爱意的心形哦。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
+			say = "Hm? You're wondering what I'm drawing?\nWell, I tried to draw you, but it didn't turn out so well... Instead, I made a heart to symbolise my feelings for you.",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

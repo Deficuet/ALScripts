@@ -8,11 +8,11 @@ return {
 	scripts = {
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，这群叽叽喳喳的新玩具们一点都不耐打啊喂，你们就没有更厉害点的家伙了吗？",
+			say = "What, did I break your little toys already? Tell me you brought some tougher opponents for me to smash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,11 +20,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "北卡罗来纳",
+			actorName = "North Carolina",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "华盛顿…又开始嘲讽对手了吗…别忘了我们的主要任务呀",
+			say = "Washington, now's not the time for that. Remember, we haven't finished our mission yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,11 +32,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直在用雷达全力搜索周围的海域…但是似乎并没有找到除了塞壬之外的任何信号",
+			say = "I've been running my wide-range scan as far as it'll go, but it's not registering anything other than Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂， “神秘人”先生！！能听到的话就快点给我露个脸啊，玩捉迷藏也得有个限啊！",
+			say = "Heeeey! Whoever you are that defeated the Sirens! Come out already if you can hear me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,11 +56,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雷达显示…更多的敌舰开始向我们靠拢了…",
+			say = "Wait, hold on... More Sirens are rapidly closing in on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,11 +68,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呿，烦人的苍蝇永远都打不完吗？",
+			say = "Again? There's just no end to these gadflies, is there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,11 +80,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，用我的16英寸炮把你们通通轰成铁渣！！",
+			say = "Bring it on!! My 16-inch cannons are gonna reduce you to steel slag!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

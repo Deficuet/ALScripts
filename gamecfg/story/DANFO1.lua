@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>一 接受委托！</size>",
+					"Denver's Quest!\n\n<size=45>1.Quest Accepted!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，这几天大家都在讨论可不可以设立一个能够委托他人进行港区内日常工作的机制。",
+			say = "So, I was in the harbor the other day, and someone brought up how they had this job they could use a hand with, but they didn't know who to turn to.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为有些同伴确实很忙，如果有这样一个能够委托暂时空闲的伙伴帮忙的机制我觉得也不错哦。",
+			say = "There are plenty of busy bees around the port, but not all bees are as busy as others, so I'm thinking we could set up some sorta system for people to help out if they've got the time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官，你来看看这个提案怎么样？",
+			say = "And this is what I came up with. What do you think, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "……基于以上原因，港区内设立了可以委托别人帮忙工作的渠道——任务布告栏。",
+			say = "As per Denver's suggestion, we established a sort of quest board for people to request others' assistance with whatever they need doing.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "然后……布告栏上就被来自大家的委托书订满了。",
+			say = "Within hours of its creation, the board was already covered in written requests for various tasks and projects, held up by thumbtacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……",
+			say = "Hmm, this is neat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官。谢谢你采纳我这个布告栏的提案哦!",
+			say = "Oh, hey, Commander! Thanks for implementing my quest board idea. You're a champ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "我站在丹佛身旁看着上面的委托书，发现里面有几张已经盖上了『任务完成』的印章。",
+			say = "I stood beside Denver and inspected the quest board. A handful of jobs had been marked \"Quest Complete\" with a bright red stamp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "明明这个布告栏还没设立多久，就已经有不少委托被完成了。到底是谁的速度这么快……",
+			say = "I was amazed. Only a few hours have passed, and already someone had taken it upon themselves to help people. The question was, who is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "我看了看接受委托者的名字——里面竟然发现了丹佛的大姐，克利夫兰的名字。",
+			say = "Upon closer inspection, I could make out the name of the girl who accepted the quest. To my surprise, it was Denver's oldest sister, Cleveland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……真不愧是克利夫兰姐姐啊。同为海上骑士，我也要向大姐头看齐才行！",
+			say = "That's Cleveland for ya. I gotta take a leaf out of her book and do the same, as a fellow Knight of the Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你看啊，那个帮助社团活动楼新楼进行搬迁的任务也是大姐头完成的哦！",
+			say = "Look, she's even done the jobs involving moving stuff to that newly-built club building!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头真是太厉害了……能像这样充满气势的一个接一个完成发布在刚建好没多久的布告栏上的任务……",
+			say = "What a legend... We just created this quest board, and she's been knocking these jobs out one by one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "正如丹佛所说，除了这张之外，几乎所有其他已完成的委托书上都写着克利夫兰的名字……！",
+			say = "It was just like Denver said. I inspected some more quests on the board, and they had all been marked as completed by Cleveland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也要像大姐头一样要做就做到最好！嗯，我该加把劲了！",
+			say = "Now I'm feeling motivated! New goal: aim for the top of the leaderboard, like Cleveland!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "今天，海上骑士丹佛，也在干劲十足地努力着。",
+			say = "Denver always strives to do the best she can, but on this day she sounded especially fired up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

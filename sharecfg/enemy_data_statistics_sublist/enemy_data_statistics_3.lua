@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_3 = {
 	[50067] = {
 		torpedo_growth = 8300,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 8300,
 		hit_growth = 8300,
@@ -26,7 +26,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50068] = {
 		torpedo_growth = 8850,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 8850,
 		hit_growth = 8850,
@@ -50,7 +50,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50069] = {
 		torpedo_growth = 9400,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 9400,
 		hit_growth = 9400,
@@ -74,7 +74,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50070] = {
 		torpedo_growth = 10000,
-		name = "兔兔打击者",
+		name = "Bunbun Strikers",
 		luck_growth = 10000,
 		cannon_growth = 10000,
 		hit_growth = 10000,
@@ -629,7 +629,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50082] = {
 		cannon = 0,
-		name = "珍贵货物箱",
+		name = "Chest Full of Treasure",
 		type = 19,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1416,7 +1416,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50101] = {
 		cannon = 0,
-		name = "“飞剑龙”式双翼无人机",
+		name = "\"Pterosaur\" Ornithopter",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1573,7 +1573,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50102] = {
 		antisub_growth = 0,
-		name = "“飞剑龙”式双翼无人机",
+		name = "\"Pterosaur\" Ornithopter",
 		air_growth = 0,
 		cannon_growth = 5500,
 		base = 50101,

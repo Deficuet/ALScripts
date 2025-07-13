@@ -13,11 +13,11 @@ return {
 			bgm = "theme-glorious-meta",
 			sequence = {
 				{
-					"实验场SQ-4577486",
+					"Test Site SQ-4577486",
 					1
 				},
 				{
-					"皇家·蔷薇塔",
+					"Royal Islands - Rose Tower",
 					2
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "蔷薇塔进入了充能准备状态，建筑群的外墙体上正在被光芒徐徐覆盖。",
+			say = "As the Rose Tower entered charging mode, the walls of nearby buildings were gradually encased in light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "暂时脱身的光荣·META决定利用剩余的时间举办一场茶会，与各位META多一些交流。",
+			say = "Having temporarily left the front, Glorious used the remaining time to host a tea party, hoping to socialize with the other METAs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "狮选择拉着伊丽莎白去磋商日后盟约的细节，以免她紧急撤退之后来不及。",
+			say = "Lion and Elizabeth went together to discuss the details of their alliance. They didn't want to leave ambiguities in the event of an emergency retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "我则是在看到都市与光芒的组合后心生感慨，于是找到了声望·META和反击·META谈论一些发生在过去的事。",
+			say = "As for me, I went to Repulse META and Renown META to talk about the things that happened in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "倒不是我不让她们去参加茶会……",
+			say = "...I should add that my intention with this wasn't to stop them from going to the tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "只是反击·META在吐槽了一句“虽然她的经历令人同情，但是这百年来她至少有茶可以喝”之后，她就突然不想去茶会了。",
+			say = "It's just that Repulse calmly murmured that she \"can sympathize with the girl, but at least she had tea to drink for the past 100 years.\" She didn't seem too keen on going to the tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "真是闻者落泪。",
+			say = "I'm glad no one else heard that sad line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "当年发生在世界α的事么……",
+			say = "So you wish to know what happened in world alpha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "你应该已经发现了，包括我们在内，所有从世界α离开的人，对于那里的记忆或多或少都出现了缺失……更甚至，会出现错误。",
+			say = "As you may or may not know, everyone who left alpha, including us, has more or less forgotten everything about that place. Or rather, we have false memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "而且是除非自己主动意识到，否则完全察觉不到的那种。",
+			say = "Furthermore, we are completely unaware of this issue until we realise it on our own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "所以我也很难说我的记忆有多少是可靠的。",
+			say = "What this means is that, frankly, even I am not sure how much of my memories are true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "不过你想了解的那件事，我确实没有忘。",
+			say = "That being said, I do vividly remember the thing you want to know about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "“战斗，直到光芒消散为止。”当时理事会下达的……确实是这样的命令呢……",
+			say = "\"Fight until the last light has faded\" – that was indeed the order that the Council gave us at the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "你应该已经注意到了，余烬之中并没有来自北方联合的幸存者。",
+			say = "You may also already know that there are no survivors from the Northern Parliament among the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "理由嘛……很简单，她们已经全部牺牲了。",
+			say = "The reason for that is very simple. They all sank in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "全部牺牲……",
+			say = "All of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702070,
-			say = "你说我的行动是因为执念？可是在我看来，你们的行动才是因为执念。",
+			say = "And you called ME driven by obsession! You should have a good look in the mirror!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "「曙光计划」就是最大的执念！",
+			say = "Project Dawn is the biggest obsession of them all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "被你们认为是希望之光的那份计划……只是一条将自己带向死亡的地狱特快而已。",
+			say = "You think it's your ray of hope? You couldn't be more wrong. It's an express ticket to your downfall.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "光是靠近就会变得不幸。",
+			say = "Just being close to it brings misfortune.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你知道与这份计划有关的人，最后落得了个什么下场么？",
+			say = "Do you know what happened to the people involved in this project? I can tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "不知道没关系，我来告诉你。",
+			say = "Don't answer. I'll tell you either way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "计划的提出者早在验证实验装置时与舰队一同失踪，从此下落不明。",
+			say = "The project planner went out with a fleet to test a new experimental device. Then... Poof! None of them were ever seen again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "从此之后，计划被搁置，并逐渐变成了另一个计划的附属品。",
+			say = "Then the project was suspended and became an accessory to a separate project.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "直到被启动的那一天……我们所有的舰队，连同我们最后的海军上将一起全部牺牲，一个不留。",
+			say = "And when that project started, our entire fleet, as well as our last admiral, were all sacrificed! Not a single survivor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……战斗，直至光芒消散为止。",
+			say = "\"Fight until the last light has faded.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "他们选择了死亡，将生的机会留给了别人。",
+			say = "That's what they all said. They all fought to their deaths and let someone else have their chance to live!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "这就是曙光计划，这就是曙光的传承。",
+			say = "This is what Project Dawn is! This is the obsession that's been passed down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……和曙光计划有关么？北方联合的舰队为什么放弃了撤离？",
+			say = "Was their sinking related to Project Dawn? Why did the Northern Parliament give up on retreating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "因为必须要有人防御极光都市，来维持撤离所需的天象条件。",
+			say = "It was because someone had to protect the Auroral City and maintain the weather conditions required for a retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "既然曙光计划一直都是由北方联合主导的，那这最后的行动他们自然是主动接了下来。",
+			say = "The Parliament had always been the one pushing for Project Dawn. It was also the Parliament that volunteered to perform this final undertaking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "在接受了“战斗，直到光芒消散为止”的命令后，北方联合最后的海军上将米哈伊尔就带着舰队起航了。",
+			say = "After the \"fight until the last light has faded\" order was issued, the Parliament's final naval commander – Admiral Mikhail – took his fleet and set sail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "这就是由我亲眼所见的最后一幕，也是世界α北方联合的最后结局。",
+			say = "That was the last thing I witnessed with my own eyes, and it was the end of the Northern Parliament in world alpha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……海军上将米哈伊尔？",
+			say = "Admiral... Mikhail?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（等等……）",
+			say = "(Hang on a moment...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果采用这个方案的话……确实有成功的可能性。",
+			say = "If we adopt this plan, there may be a chance of success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只不过……为了完成行动，干扰装置必须尽可能长时间地运行下去，而且坚守与撤离必须同时进行……",
+			say = "However, we must ensure that the jamming device remains operational as long as possible. In the meantime, we’ll have to hold the line while evacuations are carried out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……",
+			say = "In other words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,12 +688,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "这些我们都明白，奥斯塔。在明白这些的基础之上我们提出了这项方案，并自愿执行。",
+			say = "We already know this, Dr. Aoste. We’ve taken it upon ourselves to build upon this framework.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,12 +701,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "会议已经结束了。很遗憾，我们的修正提案没有在理事会得到多数票的支持。",
+			say = "\"The meeting is now adjourned. Unfortunately, our proposed amendment did not pass the United Council's vote.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,11 +731,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "计划仍将按照原定方案推行。",
+			say = "\"As a result, we will continue with our original plan instead.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,11 +743,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是时候做出决断了，{playername}将军。",
+			say = "\"It is time to make a decision, General Commander.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（……原来是他！）",
+			say = "(That's it! It was him!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（真是奇妙……在确实听到这个名字后，覆盖在记忆中的迷雾就消散了一些……）",
+			say = "(This is so strange. It's like some of the fog over my memory lifted as soon as I heard his name.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过相貌……依然回忆不起来……）",
+			say = "(I can't quite remember how he looked, though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（等等……我好像又想起了什么……）",
+			say = "(Wait... Something else is coming back to me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,7 +835,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "系统激活中——",
+			say = "Activating system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正在接入指挥系统——",
+			say = "Connecting to command system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如何，米哈伊尔，对这项合作的结果还满意么？",
+			say = "So, Admiral Mikhail – are you pleased with the results of this collaboration?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,12 +892,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "你们提供的测试数据我都看了，很不错。",
+			say = "Hmm. I had a look at all the testing data. I must say I'm impressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,12 +905,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "与东煌合作的「玉轮」、与铁血合作的「堡垒」、与皇家合作的「启辉」，再加上与我们合作的「镰刃」……",
+			say = "The collaboration with the Dragon Empery yielded Moon, the one with Iron Blood yielded Fortress, and the one with the Royal Navy yielded Enlightenment. Now our motherland has created Scythe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,12 +918,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "这样一来，战争协议系列机体就有了第四台，我们也可以着手组建一支新的理事会特遣舰队了。",
+			say = "This gives the War Protocol series a fourth unit. Work can finally begin on creating the Council's new task force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,12 +931,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "米哈伊尔",
+			actorName = "Mikhail",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我很期待它未来实战中的表现。",
+			say = "I eagerly look forward to seeing their performance in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（……镰刃、堡垒和玉轮都在海洛芬特给我看的片段中出现过。）",
+			say = "(Scythe, Fortress, and Moon – they were in the recording Hierophant showed me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,7 +985,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（“启辉”……是什么？）",
+			say = "(But who – or what – is Enlightenment?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

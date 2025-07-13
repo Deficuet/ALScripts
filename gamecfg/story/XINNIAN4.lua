@@ -10,8 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>四  友情、努力、胜利</size>",
-					1
+					"Lunar New Year Celebration\n\n<size=45>Chapter 4 - Friendship, Hard Work, and Victory!</size>"
 				}
 			}
 		},
@@ -20,7 +19,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？果然大家都来了吗",
+			say = "Huh? I didn't expect the whole gang to show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +34,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是呀～收到{namecode:6}邀请的时候就在想着会不会遇到你们了～",
+			say = "That's right~ when I received Ayaya's invitation, I was wondering if I'd run into all of you!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +53,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……嗯……？",
+			say = "Uhh... hnn...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +68,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，拉菲还是一脸没睡醒的样子呢～马上就要新年了哟～新年～要有新年新气象才对！来！打起精神来～",
+			say = "Laffey seems sleep-deprived as usual... Ah, the New Year is almost here! C'mon, get your excited face on! New Year~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +83,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…拉菲……精神饱满……",
+			say = "Mm... I... am full of... excitement...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +98,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，两位还是一如既往呢",
+			say = "Ahaha... you two never change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +113,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过真没想到{namecode:6}会约我们来聚会呢～",
+			say = "I sure didn't expect Ayaya to invite us though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +128,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}虽然话不多，但其实还是很喜欢大家的呢",
+			say = "Even though she doesn't talk a lot, she's actually quite fond of everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +143,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊～真是可爱的性格呢～",
+			say = "Ehehe~ she's so cute~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +158,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（敲门）{namecode:6}～我们来了哟～",
+			say = "(knocks on the door) Ayanami~ We're here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有反应…的样子呢",
+			say = "Seems like... nobody's here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +188,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:6}…睡过头了？",
+			say = "Did Ayanami... oversleep...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +203,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这比较像是拉菲会做的事情呢……",
+			say = "Laffey, you shouldn't project onto Ayanami... Probably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +219,7 @@ return {
 			side = 2,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "我在……这里",
+			say = "Ayanami is here, yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +234,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇哇！{namecode:6}、{namecode:6}？",
+			say = "Woooahhh! Ayayanami?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -260,7 +259,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，刚才{namecode:408}的表情，啊哈哈哈哈哈哈",
+			say = "Wahaha~! Zed's face just now! \"Ayayanami!\" Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +274,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…呜呜……为什么{namecode:6}会从后面突然出现啦！",
+			say = "Ugh... Why did you suddenly pop out from behind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +290,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "到{namecode:89}那边取东西，花了一点时间……",
+			say = "I went to Houshou's place... to pick up something I had asked for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +305,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，就是你手上的这个吗？",
+			say = "I see, that stuff you're carrying right now... is it an outfit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +321,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "拜托{namecode:89}做的，想送给大家…不过今年时间不够，只有…一套…",
+			say = "I asked Houshou to make a set for everyone... but there wasn't enough time this year... so there's just one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +336,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一套呀……",
+			say = "Just one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +351,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一套啊……",
+			say = "Just one, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +366,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:6}，这个圆圆的造型独特的食物是什么——…嗯？",
+			say = "Ayanami... what's this tasty-looking round thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +381,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就决定是你了，拉菲！{namecode:408}、{namecode:6}，抓住拉菲～",
+			say = "Stop right there, Laffey! Z23, Ayanami, restrain her~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,12 +394,12 @@ return {
 		{
 			hideOther = true,
 			actorShadow = true,
-			actorName = "{namecode:6} & {namecode:408}",
+			actorName = "{namecode:6} & Z23",
 			side = 0,
 			dir = 1,
 			actor = 301050,
 			nameColor = "#a9f548",
-			say = "噢！",
+			say = "On it!",
 			subActors = {
 				{
 					actor = 401230,
@@ -423,7 +422,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……？啊……等——",
+			say = "Eh....? Ah... wait-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +436,7 @@ return {
 			actor = 201210,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，你喊破了喉咙也没用的，我脱！",
+			say = "Ehehehe~ Just relax, it'll be fine~",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -474,7 +473,7 @@ return {
 			actorName = "{namecode:6}",
 			dir = 1,
 			blackBg = true,
-			say = "拉菲的皮肤…又白又滑——",
+			say = "Laffey's skin... so smooth...",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -489,7 +488,7 @@ return {
 			actor = 101170,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "好冷…好痒——",
+			say = "Cold... Itchy...",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -506,7 +505,7 @@ return {
 			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "总觉得有哪里不对…算了——",
+			say = "Keep it PG-13, you two... Well, whatever...",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -524,7 +523,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，换装完成～拉菲，感觉如何～？",
+			say = "Transformation complete~! Laffey, what do you think?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -556,7 +555,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怪怪的……束腰有点高……还有点紧……袖子漏风，凉飕飕……",
+			say = "Feels weird... the waist is a bit too high... and it's too tight. The sleeves are too breezy... and I'm getting cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +571,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "但是，很可爱",
+			say = "But, it's cute...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -591,7 +590,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，拉菲穿起来很合适呢～我都有点嫉妒了（小声），咳哼，没什么",
+			say = "It really suits you though! I'm a little jealous (whispers)... A-ahem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +605,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊～真好啊真好啊～拉菲有这么可爱的衣服～",
+			say = "Ahh, how nice~ I want a cute outfit like Laffey's as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +621,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "下次，要准备大家的份",
+			say = "Next time... I will have outfits for everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +636,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……大家…一起……",
+			say = "Mm... everyone, together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +651,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！我会期待着的！",
+			say = "Mhm! I'll be looking forward to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +666,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦～衣服也换好了，人也到齐了～开始今天的聚会吧～",
+			say = "Now, since everyone is here and all dressed up, let's go to the party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +682,7 @@ return {
 			side = 2,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "那就从动画鉴赏会开始——\t",
+			say = "Yes... but first, it's time to appreciate some good anime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +695,7 @@ return {
 		{
 			hideOther = true,
 			actorShadow = true,
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 0,
 			actor = 401230,
 			nameColor = "#a9f548",

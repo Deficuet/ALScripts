@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "布里斯托尔很开心地接过“噗噗氛围君”，接着便离开了。",
+			say = "Bristol left with a big smile and the Spooky, Scary Specter.",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "太好了！布里斯托尔小姐很满意呢……欸？指挥官你怎么表情这么凝重……？",
+			say = "Nice! Bristol was really happy with that one... Huh? Commander, is it just me, or do you look super concerned?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不知道该怎么说……就是有种说不上来的感觉。",
+			say = "I'm not sure how to put this. Uh... It's really hard to say this, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "不用太担心啦~！道具只能影响到使用者周围的范围，而且我加入了功率的限制哦！",
+			say = "Geez, quit worrying so much~! The effective range is only around the user, and I added a limit to its power output!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但愿如此吧……",
+			say = "Okay. I just hope nothing bad happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "过了几日，正在指挥室中与菈菈商量着其他的委托要怎么完成时——",
+			say = "Days later, I'm discussing other requests with Lala in my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……？菈菈，你有没有觉得周围的氛围有点……奇怪？",
+			say = "Hmm? Lala, did you feel that just now? It's like something changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "奇怪？我倒是没有什么感觉欸……",
+			say = "Really? I didn't feel anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "突然，一阵阴冷的风吹过，眼前的环境骤然发生了变化。",
+			say = "A cold air blows through the office, and everything around me suddenly changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "原本明亮的指挥室里突然变得光线昏暗，到处布满了蛛网，还飘荡着诡异的雾气。",
+			say = "My previously bright office dims all at once. Spider webs and eerie fog fill my vision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们出去看看什么情况……",
+			say = "Lala, we should go look outside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "然而走出指挥室，发现眼前依然还是那幅光景。",
+			say = "But when I leave, nothing changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "昏暗、迷雾、蛛网……还有若有若无的哭泣声，听得让人毛骨悚然。",
+			say = "Dark skies, endless fog, spider webs... accompanied by a faint, yet bone-chilling sobbing in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼……黑暗的力量……居然敢侵蚀此处……吾、吾一定会驱散汝等的！",
+			say = "Urgh... The power of darkness encroaches now upon this land... I-I will not abide by it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:537:Z43}？你怎么在这儿？",
+			say = "Z43? What're you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401430,
-			say = "指、指挥官？呜啊啊啊——这，这里变得好恐怖……",
+			say = "C-C-Commander?! Awawah... I-it got scary here out of nowhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不对！宿命之人哟……恐怕此处马上就要被黑暗所笼罩了，快随吾撤离吧！",
+			say = "I mean! Uh, Augur of Destiny... We must escape before the dark engulfs us once and for all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "就在此时，布里斯托尔抱着散发出强烈光芒的噗噗氛围君出现了。",
+			say = "As if on cue, Bristol appears, cradling the glowing Spooky, Scary Specter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸~指挥官？菈菈小姐……还有{namecode:537:Z43}？你们要不要跟我一起调查港区的不可思议啊！",
+			say = "Hm? Commander and Lala? Z43, too? Great timing! You all should come investigate the mysteries of the port with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哦对了，现在的氛围很适合调查对吧~？阴风阵阵——哎呦！",
+			say = "Heheh, the vibe's just right, isn't it? Feel that gust of cold air – ouchie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "在没收了噗噗氛围君还给菈菈，并和{namecode:537:Z43}一起教训了布里斯托尔之后，港区又恢复了宁静。",
+			say = "I promptly confiscate the Spooky, Scary Specter and return it to Lala. After Z43 and I have given the culprit a firm tongue-lashing, peace returns to the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

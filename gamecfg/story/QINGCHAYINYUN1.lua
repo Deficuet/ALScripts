@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"清茶氤氲",
+					"Pristine Leaves, Rich Warmth",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "清晨，应邀走进园圃。",
+			say = "Early in the morning, I arrive at a garden per Yat Sen's invitation.",
 			bgmDelay = 1,
 			bgm = "theme-yixian-soft-loop",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "嫩芽的清香，绿草的清香，以及氤氲在空气中馥郁的茶香扑面而来，而后逸仙的身影出现在眼前——",
+			say = "There she is, brewing tea amidst the budding greenery of late spring, the delicate aroma from the tea leaves swirling around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎，指挥官。",
+			say = "Welcome, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先请就座吧，指挥官。茶水还要一小会才能呈给您呢。",
+			say = "Please take a seat. I'll have the tea ready for you in just a moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您说在外面就闻到空气中氤氲的茶叶清香了？看起来茶的品质不错呢。",
+			say = "Hm? Did you notice the aroma of the tea leaves on your way here? That means you're about to enjoy a particularly high-quality batch~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呵呵，泡茶这种事可不能心急哦？耐心是让茶的精粹完全释放的关键。",
+			say = "Heehee, there's no need to rush. Patience is necessary to fully bring out the essence in these leaves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水里的茶叶会在时间的滋润下慢慢舒展开来，然后将它们的精华化在温水当中。",
+			say = "Once submerged, the tea leaves slowly unfold as they are embraced by the dew of time, and thus their essence gradually dissolves into the warm water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这段短暂的时间里，不妨和逸仙在这里随便聊聊来纾解无聊吧？",
+			say = "Though we won't have to wait too long, shall we talk about something to pass the time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,19 +173,19 @@ return {
 			},
 			options = {
 				{
-					content = "泡茶是逸仙的业余爱好么？",
+					content = "\"Is this your hobby?\"",
 					flag = 1
 				},
 				{
-					content = "有关茶的种类……",
+					content = "\"Can you tell me more about this tea?\"",
 					flag = 2
 				},
 				{
-					content = "这片园圃……",
+					content = "\"What's special about this garden?\"",
 					flag = 3
 				},
 				{
-					content = "有关泡茶的时间……",
+					content = "\"How long does it take to brew this tea?\"",
 					flag = 4
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。之前经常在闲暇的时候一个人泡些茶，同时体会下宽广幽静的大自然。",
+			say = "Indeed. Whenever I have time to myself, I enjoy brewing tea by myself and enjoying the tranquility of nature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "用古人的话来说，大概就是……“夜后邀陪明月，晨前独对朝霞”。",
+			say = "If I were to borrow the words of my ancestors... \"Invite the moon at night for company, face alone the twilight before sunrise,\" or something like that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，对您发出邀请之后，我又稍稍研究了一下泡茶的手法和技巧这些事情哦。",
+			say = "Of course, I've been refining my tea-brewing techniques ever since I invited you here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "您能抽出时间来陪逸仙，逸仙当然也要用最好的一面来迎接您。",
+			say = "Since you've taken time out of your busy schedule to be with me, I hope I will be able to show you proper hospitality with the best tea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "是龙井茶哦。",
+			say = "This is called Longjing tea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "口感稍淡，但香气清高，香馥若兰，沁人心脾。是我很喜欢的清香。",
+			say = "The flavor is subtle, with an orchid-like dignity and a refreshing aroma that uplifts your heart. It is my favorite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "来，指挥官——“无由持一碗，寄与爱茶人。”",
+			say = "If you would, Commander– \"A cup filled, with no reason in mind; presented to those who love tea.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "很不错的环境呢。幽静，雅致，阳光落下的时候，让人心旷神怡。",
+			say = "It is a most wonderful place. It is peaceful and elegant, and when the sun shines warmly in the sky, it makes your heart sing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "指挥官也喜欢吗？……太好了。既然如此的话，以后也可以常来哦？",
+			say = "Is it to your liking as well, Commander? I'm glad to hear that. You're welcome to visit me whenever you'd like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "不管是乘兴品茶，漫卷诗书，或是秉烛夜话，逸仙都会陪在指挥官身边的。",
+			say = "Whether it's enjoying tea, reading poetry, or taking in the night scenery together, I'm always willing to keep you company.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#A9F548FF",
-			say = "茶叶的清香需要一点时间来成长，但是也不能浸泡太久呢。",
+			say = "It takes a while to draw out the aroma, but one must be careful not to brew for too long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#A9F548FF",
-			say = "茶泡得太久，茶汤的颜色就会黯淡下去，香气也会随着氧化减少，会失去清香的神韵。",
+			say = "If the tea leaves are steeped for too long, the color will become dull, the fragrance will fade due to oxidation, and the essence of the tea will be lost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 4,
-			say = "味道也会变得更苦一些……这也就是所谓的“过犹不及”吧。",
+			say = "And, of course, the taste will turn bitter. As they say, all things in moderation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#A9F548FF",
-			say = "虽然也有人钟爱这种茶，不过如果是冲着茶的清香而来，还是把控好火候最好。",
+			say = "While some people enjoy this kind of taste, do be careful to watch the time carefully if you wish to fully appreciate the aroma.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#A9F548FF",
-			say = "……情感的滋养，也和泡茶的道理一样呢。呵呵~不过这一点，就交给指挥官自己去把握了哦？",
+			say = "A similar principle applies in how you treat your friends. Though, I'm sure you're already well-versed in that, heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "逸仙举起琉璃色的茶盏向我递过来——那清茶中此时还在蒸腾着清香的白雾。",
+			say = "I am handed a glass-colored teacup filled with the completed tea– the hot water, replete with the tea's essence, produces a rich white steam that wafts through the air.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间差不多足了。指挥官，请用。",
+			say = "It's ready now, Commander. Please enjoy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心烫哦。",
+			say = "Oh, but do remember to take your time. The tea is piping hot, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绿云般的清茶被递到眼前。轻轻嗅了一口，一股清新的味道扑面而来。",
+			say = "The exquisite Longjing tea swirls around in my cup like a green cloud. When I bring it closer, a refreshing aroma spreads through my nostrils.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来不错……既然如此，对于逸仙期待的最好回答，恐怕就是将其一饮而尽。",
+			say = "How picturesque and aromatic... As I feel Yat Sen's expectant gaze upon me, I feel compelled to deeply savor the tea without reservation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知逸仙的茶可达到您的期待了么？",
+			say = "Did my tea meet your expectations, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,11 +562,11 @@ return {
 			},
 			options = {
 				{
-					content = "给予好评——“味兮轻醍醐，香兮薄兰芷”",
+					content = "\"Superb. A taste without equal.\"",
 					flag = 1
 				},
 				{
-					content = "稍加戏谑——“戏作小诗君一笑，从来佳茗似佳人”",
+					content = "\"It was beautiful, just like you.\"",
 					flag = 2
 				}
 			}
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "“俗人多泛酒，谁解助茶香”。让指挥官见笑了。",
+			say = "\"A taste without equal, a fragrance as pristine as the budding spring...\" Heehee...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，能得到指挥官的赞赏，逸仙不胜荣幸。",
+			say = "Thank you, Commander. I'm honored that you enjoyed my selection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "\"Though words of jest this may be, fine tea is much akin to a fine woman...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "逸仙的脸上爬上一抹绯红。",
+			say = "A slight blush flutters across Yat Sen's cheeks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "指挥官……就算是逸仙，听到这么俏皮的夸赞也是会羞赧的哦？",
+			say = "Commander... hearing you compliment me with such flowery words is rather embarrassing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过还是……谢谢指挥官的赞赏。逸仙不胜荣幸~",
+			say = "But, umm... I'm honored you feel that way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呵呵，是不是有些太正经了呢~",
+			say = "...Heehee. Maybe I've been a bit too nervous this whole time~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官。如果之后没有其他计划的话，就像现在这样，和逸仙一起在园圃里稍微休憩下吧？",
+			say = "If you don't have any plans afterwards, would you like to take a stroll through the garden with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就在这氤氲着茶香的氛围中稍微品味一下慢下来的时间，能让身心都平静不少。",
+			say = "Let yourself be surrounded by the fragrance, and your body and mind alike will be rejuvenated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			actor = 502012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，指挥官，请闭上眼睛，稍微再感受一下茶香的抚摸与阳光的触碰吧——",
+			say = "Now then, Commander, please close your eyes, take in the aroma of the tea, and feel the warm sunlight caressing your cheeks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,10 +749,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "逸仙",
+			actorName = "Yat Sen",
 			bgName = "star_level_bg_1100",
 			nameColor = "#A9F548FF",
-			say = "当然，是与逸仙一起。",
+			say = "That's right. I'll be right here with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

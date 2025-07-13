@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"指挥官居然打败了大黄蜂，真不愧是我所看中的人才呀~",
-	"不过居然发生了这样的突发情况，我也必须先回自己的所属舰队报到去了，后面就看你的啦~将来一定还有机会再见哒！"
+	"Commander! You defeated Hornet! You're really good at this!~",
+	"Something bad has happened though... I need to return back to my fleet. We'll see each other again, I'm sure of it!"
 }
 
 return {

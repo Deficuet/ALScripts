@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "一片漆黑中，仅有仪表盘散发的微弱荧光。",
+			say = "There was total darkness, broken up only by the faint light of an instrument panel.",
 			bgm = "battle-thedevilxv-control",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "游离在四周的电流音与滴答声表明，这里似乎是一处控制室。",
+			say = "The place was abuzz with electrical noise and the sound of running machines – it was a control room of some sort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "……真黑。",
+			say = "Gee, it's kind of dark.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "黑暗中，少女在无数接线的正中心忙碌着。",
+			say = "A girl sat amid the chaotic crisscross of dozens of wires, preoccupied with what was right in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "强行驱动的话……启动动力系统就是极限了。",
+			say = "If I force-boot it... it'll push the power system to its limit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "接下来还是得专心破解安保系统……",
+			say = "Have to focus on hacking the security instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "再之后，第一个破解照明系统吧……",
+			say = "Then the first thing I'll do is turn the lights back on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "唉……真是太黑了。",
+			say = "Ugh... This place is too damn dark.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 9702030,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "是啊——真是太黑了。",
+			say = "Indeed. It IS too dark.",
 			painting = {
 				alpha = 0.3,
 				time = 1

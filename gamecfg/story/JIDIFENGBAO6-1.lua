@@ -11,15 +11,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"分队代号「铁拳」",
+					"Fist Unit",
 					1
 				},
 				{
-					"旗舰：苏维埃罗西亚",
+					"Flagship: Sovetskaya Rossiya",
 					2
 				},
 				{
-					"北极点要塞周边海域·塞壬控制区",
+					"Objective: Scout the Polar North Stronghold",
 					3
 				}
 			}
@@ -30,7 +30,7 @@ return {
 			actor = 701030,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天气好像变得更恶劣了……",
+			say = "The weather is getting really bad...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "距离北极点越近，天气就愈发恶劣呢。",
+			say = "It only gets worse as we approach the Polar North.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明这里都不算镜面海域内，也不知道清除者的气象武器究竟是什么原理。",
+			say = "This shouldn't be a Mirror Sea, but that meteorological anomaly weapon is just as troublesome. How does it even work...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			actorName = "清除者μ型",
+			actorName = "Omitter μ",
 			actorShadow = true,
 			side = 2,
 			say = "………………",
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕，东北方向发现清除者！",
+			say = "S-someone that looks like Omitter has been spotted to the northeast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "借助风雪和电磁干扰的掩护已经接近到这个位置了？！",
+			say = "Did she use the snow and jamming to hide her approach?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北极点要塞就在前方，不用继续规避了。",
+			say = "We're almost at the Polar North stronghold. There's no point in forcing ourselves to remain unseen anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "集中火力，消灭它！",
+			say = "Concentrate your firepower and smash her to bits!",
 			painting = {
 				alpha = 0.3,
 				time = 1

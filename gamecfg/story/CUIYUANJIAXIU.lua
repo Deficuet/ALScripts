@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "机缘巧合之下，踏入了一方幽静之所。",
+			say = "By a stroke of serendipity, I find myself stepping into a quiet place.",
 			bgm = "theme-yixian-soft-loop",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "此处翠绿竹林摇曳生姿，微风拂过，便发出沙沙的悦耳声响。",
+			say = "The verdant bamboo forest sways gently as the wind passes through, echoing the melodies of nature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "尽管周遭美景如画，其中最为引人瞩目的却是那静坐于一方院落之中的纤细身影。",
+			say = "In the middle of that beautiful scenery that seemed like something right out of a painting, my eyes are drawn to a graceful figure in the corner of the garden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "——是镇海。此时时刻，她正表情柔和地对着手中之物穿针引线，察觉到我的到来才轻轻抬首。",
+			say = "That person's name is Chen Hai. She seems to be doing some needlework with a gentle expression on her face, and when she notices me, she slightly lifts her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "啊，是指挥官啊。",
+			say = "Oh, good day, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "能在此处相遇……呵呵，莫非指挥官是专程来寻我的么？",
+			say = "I didn't expect to run into you here... Heehee. Could it be, that you came looking for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，我是在这园林之中四处转转。没想到还有这种僻静幽美的所在。",
+			say = "I, uh, just happened to be wandering around in the park... I never knew there was such a serene place here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "让人感觉很宁静祥和，对吗？",
+			say = "Perfectly serene, like a piece of heaven on earth, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。",
+			say = "Mmhmm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "呵呵……指挥官也能有这种感觉真是太好了。",
+			say = "Haha. I'm glad we're of one mind, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也很喜欢这里，能让心彻底静下来，帮助思考。",
+			say = "I'm also quite fond of this place. It puts my heart at ease, and helps me organize my thoughts–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？帮助思考……可镇海不是在刺绣么？",
+			say = "Organize your thoughts...? I'd normally expect to see you sitting in front of a Go board, but you seem to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "是，不过刺绣可不单只是女红而已。",
+			say = "Embroidering? Yes, but that is not solely an exercise in femininity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "棋盘上每落一子，都是棋手的思考和谋划，亦能从中看出弈者的心是否依旧坚定……",
+			say = "Each move in a game of Go represents the player's thoughts and planning, while also ascertaining if there is resolution in their heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这刺绣么，也是同理。面对这空白的绣棚，同样要早早做好准备……",
+			say = "The same can be said for embroidery – each movement of the needle must weave through the gaps in the opus's frame, and one would do well to plan each move.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "刺绣讲究严谨细腻，围棋讲究大局谋略。但无论哪一个，都需要专注、坚韧，心无旁骛。",
+			say = "If Go emphasizes the big picture, then embroidery calls for rigorous attention to detail. In both cases, however, concentration, perseverance, and dedication are required.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "呵呵，二者看似风马牛不相及，但却有异曲同工之妙，很有趣吧？",
+			say = "These two things seem as different as night and day, but they actually have quite a lot in common, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,15 +280,15 @@ return {
 			},
 			options = {
 				{
-					content = "原来刺绣和围棋还有这般联系。",
+					content = "It's not a connection I ever would've made...",
 					flag = 1
 				},
 				{
-					content = "不愧是镇海。",
+					content = "Impressive as always, Chen Hai.",
 					flag = 2
 				},
 				{
-					content = "有关刺绣的内容……",
+					content = "Actually, can you tell me what you're working on?",
 					flag = 3
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，这些不过是我个人的一点心得罢了。",
+			say = "Heehee. At the end of the day, they're just some hobbies of mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "若是指挥官对此也感兴趣，我还可以教指挥官一些刺绣的技法。",
+			say = "Though, if you're interested in learning embroidery, I don't mind showing you the ropes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，如果指挥官只是想和镇海手谈几局……也无妨。",
+			say = "Of course, if you simply wanted to have a little chat with me... I wouldn't mind that either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "刺绣、围棋和谋略，都是样样精通，令人佩服。",
+			say = "Your range of interests is simply remarkable. I didn't expect you to be so well-versed both in strategy and in crafts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刺绣谈不上精通，只是近期才习得，现在略微上手罢了。",
+			say = "Well-versed? I wouldn't go that far. I've only picked it up recently, and am still learning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "指挥官日后也可以时常来此，与镇海交流一番心得。",
+			say = "There's much I'd like to learn from you too still, so you're always welcome to come here and keep me company.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，当然，是与镇海交流围棋与谋略，而不是让指挥官学习刺绣哦。",
+			say = "Of course, that offer extends far beyond topics such as Go and embroidery. Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "哎呀，指挥官是想知道刺绣的图案么？",
+			say = "Oh, you're curious about my little piece of embroidery here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过此刻就告诉你的话……",
+			say = "It might be a bit too soon to tell you, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			actor = 506013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯——容我想想，该怎么告诉你比较合适。",
+			say = "Hmm, let me think about the best way to convey this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……想必指挥官也注意到了我手中的这个绣棚。",
+			say = "Since I'm sure you're interested in this piece in my hands right now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "这是我为你准备的一件小礼物。",
+			say = "I suppose you could call it a present I was making for you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "为了追求更精美的图案和花纹，我特地用了“三蓝绣”技法。",
+			say = "In the pursuit of more intricate designs and patterns, I've employed a special technique known as \"Three-Azures Embroidery\".",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "特点便是色彩柔和，清新雅致……呵呵，而且与镇海所着的服饰所采用的是同一种技法。",
+			say = "The style is clean and elegant, and uses soft tones... The very same technique can be seen on the clothes that I am wearing now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "一针一线间，都是镇海想要对指挥官倾诉的心意。",
+			say = "Every stitch is careful and deliberate, filled with my intent to convey my feelings towards you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "待镇海绣完之时，还请指挥官一定要收下。",
+			say = "Once I am done with this piece of work, I do hope that you will find it to your liking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。我会很期待镇海的礼物。",
+			say = "Of course. I'm really looking forward to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "眼下指挥官既然在镇海身旁，那镇海就……",
+			say = "I'm glad to hear that... But right now, since we're already here together...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "她说着，将手中的绣棚轻轻置于一侧的石桌之上，随即拿起一旁的乐器。",
+			say = "Chen Hai suddenly sets down her handiwork on the stone table, and picks up the instrument lying right now to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "纤细修长的手指在琴弦上灵动起舞，如同春风拂过湖面，荡起阵阵涟漪。",
+			say = "Her long, slender fingers dance across the strings, the notes spreading forth like a gentle breeze across a placid lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "乐声悠扬婉转，浸润着她独有的从容，在这片静谧的天地间缓缓流淌。",
+			say = "Her music is graceful and melodious, yet still imbued with her unique poise and calmness. Slowly, gradually, it fills up this quiet world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "如果指挥官愿意的话，不如就在这里多待一会吧。",
+			say = "If you don't mind, why not stay here a bit longer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可以为指挥官讲一讲刺绣的渊源，以及我在围棋一道的心得......",
+			say = "There's plenty I'd still like to share with you... Whether it's my experiences learning embroidery, or my knowledge of Go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "当然，若是指挥官想小憩片刻，我便在一旁安静刺绣，静候你醒转......",
+			say = "Though, if you'd like to take a nap, I'll also be more than glad to keep you company, continuing to work on my embroidery until you wake up again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506013,
-			say = "无论如何，镇海都希望能与指挥官共享这般美好的时光。",
+			say = "Whatever the case, I hope we can continue to cherish our wonderful time together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女含笑的嗓音伴着婉转乐音，送至耳畔。",
+			say = "The girl's sweet giggles flow into my ears along with her music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

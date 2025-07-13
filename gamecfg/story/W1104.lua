@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬的威胁解除了……海域中发现了塞壬的资源点。",
+			say = "The Siren threat has been eliminated. Abandoned caches have been detected in this sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

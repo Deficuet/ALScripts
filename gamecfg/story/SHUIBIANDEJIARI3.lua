@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>静谧烟火之夜</size>",
+					"Beachside Vacation Vignettes\n\n<size=45>Quiet, Solitude, and Fireworks</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-richang-8",
 			actor = 301862,
 			nameColor = "#A9F548FF",
-			say = "啊……指挥官……竟然顺利找到这里了。",
+			say = "Oh. Commander. I didn't think you'd find me here.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是顺着{namecode:203}给的线索，游泳来到这里的吗？太好了……",
+			say = "You followed the clues I left and swam over here, right? Good...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……指挥官游累了吗？可以在这里慢慢休息……不会有人来打扰的。",
+			say = "That must've been an exhausting swim. You can rest here all you want. It's just us here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,11 +87,11 @@ return {
 			},
 			options = {
 				{
-					content = "枟是一个人在这里？",
+					content = "\"You're alone all the way out here?\"",
 					flag = 1
 				},
 				{
-					content = "所以这里是枟的秘密地点？",
+					content = "\"Is this your secret hideaway?\"",
 					flag = 2
 				}
 			}
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…{namecode:203}喜欢在能看到烟花，又稍微偏僻点的地方，一个人待着。",
+			say = "Mhm. I like having quiet places to myself. You can get a clear view of the fireworks too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，如果能和指挥官独…独处…什么的……就……唔……",
+			say = "What's more, nobody's going to get between us when... No, never mind. I can't tell you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里是只有我知道的绝佳地点哦……",
+			say = "Yup. It's my special place. No one else knows about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过，从现在开始，这就是我和指挥官的共同秘密了……",
+			say = "But since you know about it now, that makes it our secret hideaway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，指挥官，{namecode:203}今天很高兴哦……",
+			say = "Anyway, Commander, you've made me really happy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官是{namecode:203}，最好的朋友，我想和最好的朋友分享这里……",
+			say = "You're my best friend, and I wanted to share this place with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在休息时，和{namecode:203}一起看烟花吧，指挥官。",
+			say = "I hope you can stay, take it easy, and watch the fireworks with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然烟花有点远，但是远一点看，也很漂亮的。",
+			say = "While the fireworks are way over there, they still look pretty from afar.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，是和重要的人在一起……",
+			say = "Even more so when you're with your special someone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,37 +260,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，指挥官，这个给你。渴了的话，可以喝。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301862,
-			nameColor = "#A9F548FF",
-			bgName = "bg_night",
-			spine = true,
-			withoutActorName = true,
-			side = 2,
-			say = "带着些许温热的饮料罐被塞到了怀里。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301862,
-			side = 2,
-			bgName = "bg_night",
-			spine = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "冰淇淋只有一个……但饮料的话，{namecode:203}有多的。",
+			say = "Hey, are you thirsty? Have some of this. It'll energize you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +277,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "绚烂的烟花自对岸升起，照亮了{namecode:203}微红的脸颊。",
+			say = "She gives me a can of soda that feels faintly warm. She must've been holding it this whole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +290,37 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……一起享受烟花大会吧，指挥官。",
+			say = "I only brought one ice cream, sorry... But I have plenty of soda.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301862,
+			nameColor = "#A9F548FF",
+			bgName = "bg_night",
+			spine = true,
+			withoutActorName = true,
+			side = 2,
+			say = "Fireworks go off in the sky across the river. Their colorful glow softly lights up her cheek.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301862,
+			side = 2,
+			bgName = "bg_night",
+			spine = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "...Will you stay with me and watch the fireworks?",
 			painting = {
 				alpha = 0.3,
 				time = 1

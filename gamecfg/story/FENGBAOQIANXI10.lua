@@ -12,7 +12,7 @@ return {
 			side = 1,
 			bgm = "level",
 			dir = -1,
-			say = "哈啊…是我们输了",
+			say = "Now THAT was a battle! We admit defeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然预判到本人鱼雷机群的切入方向...“灰色幽灵”果然名不虚传",
+			say = "It definitely was. You predicted our attacking fleet's position and countered like it was nothing. Now I can see why you've earned the nickname \"Big E.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，大家过奖了。个人的能力有所极限，战斗胜利是依靠团队协作的结果",
+			say = "I'm honored, but I alone don't deserve all the credit. I couldn't have done it without the rest of the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "现在演习结束，你们需要立刻返回皇家了吧...真希望今后能有编入同一舰队中并肩战斗的机会",
+			say = "... By the way, we've been saying goodbye for quite some time now. You should probably get going soon. Hopefully, we'll get another chance to fight like this in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只要战斗尚未停止，我相信终有一日...一定会有机会的。",
+			say = "I'm sure it won't be long until it comes, at least if this war with the Sirens continues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "各位在返航途中会经过大片塞壬出没的区域，如果需要的话我们可以安排舰队护航",
+			say = "Funny you mention that. I was just gonna offer you an escort through the higher-risk waters. Lots of Sirens in some places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "多谢企业小姐的好意，不过不必了。对于刚刚输掉演习的我们来说，正好需要用挡路的塞壬恢复一下士气",
+			say = "Thanks, but we'll be fine. If any show up, they'll serve as morale-boosting victories after our defeat against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "况且现在纽约司令部的防卫是最优先事项，我们能照顾好自己。",
+			say = "Moreover, ensuring the safety of NY City should be your highest priority. You don't need to worry about us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "如果遇到“害虫”，定当全部清理掉，请不用担心",
+			say = "It is my honour and duty to clean up any pests that impede our travels. Please, allow me to take care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就只能祝各位一路顺风了~",
+			say = "All right, if you say so. Good luck, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "愿胜利女神常伴诸位身边",
+			say = "Likewise. May Lady Luck smile upon the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这个感觉，果然是...",
+			say = "... I know this ill-boding feeling all too well...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "走吧，我们也要向女王陛下汇报了",
+			say = "Attention, everyone! We must head home and report to Her Majesty immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

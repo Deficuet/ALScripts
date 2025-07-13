@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>四　失误与笑容</size>",
+					"Our Sweet Cookies\n\n<size=45>4 Mistakes Into Smiles</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "与豪配合着，开始准备烤小饼干的面团。",
+			say = "Howe and I start working on the cookie dough.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糖粉、黄油和蛋液充分搅拌后，再加入低筋面粉，搅拌到均匀无干粉的状态就好……",
+			say = "Once you've thoroughly mixed the sugar, butter, and egg mix, add some pastry flour and keep stirring until uniform in consistency.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "按照豪的指导，将低筋面粉倒入打蛋盆中一起搅拌。",
+			say = "As she instructs, I add the flour to the bowl and give it a good stir.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,18 +73,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，指挥官知道准备饼干面团的诀窍是什么吗？",
+			say = "Oh, by the way, do you know the trick for making cookie dough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "水多加面！",
+					content = "If it's too watery, add more flour!",
 					flag = 1
 				},
 				{
-					content = "面多加水！",
+					content = "If it's too floury, add more water!",
 					flag = 2
 				}
 			}
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然这么说也确实没错……",
+			say = "Well, yes, that's true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "但其实是不能搅拌太用力，这样一开始导致面糊起筋了的话，小饼干就不酥脆了。",
+			say = "But the actual trick is this – don't stir the dough too hard. If it gets too glutenous, the cookies won't be crispy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来是这样……",
+			say = "Oh, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,21 +134,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "思考着该如何调整力道，避免第一次做饼干就翻车时，豪突然带着笑容凑到了眼前。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_606",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 205090,
-			say = "指挥官，脸上沾上面粉了哦，呵呵。",
+			say = "Keeping her advice in mind, I try to stir with just enough force so I don't mess up my very first batch. She smiles and examines my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +148,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我来帮你擦掉吧。",
+			say = "Heehee. You've got flour on your face.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_606",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 205090,
+			say = "Hold still. I'll take care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "伴随着柔软指尖的温度，一种带着粉质的感觉在脸上晕开。",
+			say = "She presses her soft finger on my face and rubs it, spreading on more flour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "……晕开？",
+			say = "Yes, spreading the flour, not wiping it off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "啊……抱歉，指挥官。",
+			say = "Oh! Sorry, love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我刚刚没注意我手上也有面粉……都沾到你脸上了。",
+			say = "I didn't realise I had flour on my hands... I only made it worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "现在的指挥官有些可爱呢，呵呵……",
+			say = "Although, you do look a little cute with flour on your face. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女先是有些惊讶，随即有些不好意思地捂嘴偷笑起来。",
+			say = "She apologizes for the little oopsie, but still can't suppress a snicker even with her hand to her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,18 +248,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "手上的面粉同样沾上了她自己的脸颊，单侧的白色指印看起来就像是猫的胡须。",
+			say = "As a result, she leaves a handprint of flour across her mouth and cheeks. It looks almost like she has a cat's whiskers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "以同样的方式调侃豪",
+					content = "(Tease her.)",
 					flag = 1
 				},
 				{
-					content = "提醒豪脸上有面粉",
+					content = "(Point it out.)",
 					flag = 2
 				}
 			}
@@ -272,7 +272,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "现在豪看起来加倍可爱了。",
+			say = "Do I, now? It looks twice as cute on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？什么……？",
+			say = "\"It\"? What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "你偷笑的时候，脸上也蹭到面粉了。",
+			say = "You got flour on your face just now when you covered your mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "豪，你手上的面粉也蹭到脸上了。",
+			say = "Hey, you got flour on your face when you put your hand on there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "这、这样么？",
+			say = "D-did I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "在瞬间的惊讶过后，她笑得更开心了些。",
+			say = "She is stumped for just a moment, then she breaks into a big smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "那这样我们就一样了，指挥官~！",
+			say = "Well, then we have matching makeup, love!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

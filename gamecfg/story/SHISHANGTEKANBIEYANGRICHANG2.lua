@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：别样的日常\n\n<size=45>闪耀达阵！</size>",
+					"Port Fashion Collection! A Glimpse Into Another Life\n\n<size=45>2 Brilliant Touchdown</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "中场休息的哨声响起，我看准时机，迅速来到刚刚成功得分的运动少女身旁。",
+			say = "When the whistle is blown to signal the start of half-time, I find a good opportunity to run over to Prinz Eugen, who just scored minutes ago.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干得好，{namecode:427:欧根亲王}，是非常漂亮的一球呢。",
+			say = "Good job, Prinz Eugen. That was a fantastic shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……哼哼，轻轻松松哦。",
+			say = "Phew... Heheh, I eat shots like that for breakfast.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			actor = 403036,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "辛苦了，来讨论一下下半场的战术安排吧。",
+			say = "Well, you're doing great. Let's talk about our second half strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~？明明都有我坐镇了，还需要这些无聊的战术吗？",
+			say = "Hmm? You think you need cheap little tricks when I'M around?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与其聊些纸上的战术——",
+			say = "I don't get much time to rest. If you've got time to talk about tactics on paper...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在宝贵的休息时间里，身为教练的指挥官是不是应该提供一些更直接的帮助呢？",
+			say = "...Then why don't you give me a little more direct help, Coach?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:427:欧根亲王}抬起头，面带微笑。",
+			say = "Prinz Eugen looks up at me with a grin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汗水从她的侧脸滑下，滴落在锁骨上，留下一条向下延伸的湿润轨迹。",
+			say = "Sweat slides down her cheek and falls onto her collarbone, leaving a damp trail behind it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 403036,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "更直接的帮助？",
+			say = "That being...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "教练你觉得呢？",
+			say = "Come on, Coach. What do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我现在身上可都已经黏糊糊的了哦~？",
+			say = "I'm all sweaty and sticky, riiight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一边说着，一边用手轻扇胸口。",
+			say = "Prinz Eugen fans her chest with her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的好热啊，衣服……好像有些碍事了。",
+			say = "It's so hot... My clothes definitely aren't helping, either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再拉下来一些的话，会更凉快一些吧~你觉得呢，教练？",
+			say = "I bet if I pulled this down a little, I'd be able to cool down... What do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,11 +285,11 @@ return {
 			},
 			options = {
 				{
-					content = "等等，我带了毛巾和水！",
+					content = "Nope! I brought you a towel and water!",
 					flag = 1
 				},
 				{
-					content = "我们回休息区洗澡吧！",
+					content = "How about we go back to the rest area and freshen up with a shower?",
 					flag = 2
 				}
 			}
@@ -304,7 +304,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "普通又实用的选项呢……",
+			say = "Simple and practical, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~也好。正是此刻的我所需要的。",
+			say = "Mmm, fine by me. I do kinda need that stuff right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是运筹帷幄的指挥官，多谢啦~",
+			say = "You're a real strategist, Commander. Thanks~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噗……我的好教练，休息时间转瞬即逝。",
+			say = "Pfft... That's a little long for such a short break!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还有下半场比赛要打哦？",
+			say = "Don't forget, it's only half-time. There's a whole half of the game left.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，不开玩笑了，我看到你带来的毛巾和水了。",
+			say = "Anyway, that's enough jokes. I see you brought a towel and water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快给我吧~",
+			say = "I'll take those, thanks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "清澈的水线如银丝般倾泻，带着晶莹汗水的脖颈随着吞咽而微微收缩。",
+			say = "Clear water pours into her mouth like resplendent threads. Glistening with sweat, her throat twitches a little with each gulp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为喝得太急，些许水滴从她的唇角溢出，让少女优雅的动作中多出了一丝野性。",
+			say = "But the vigor of her drinking seems to be too much to handle. She chokes a little, and water rolls out of the corner of her mouth, adding a touch of wildness to her elegant motions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咕噜……咕噜……呼~舒服多了。",
+			say = "*gulp*... *gulp*... Phew! Much better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？教练好像在一直盯着我手中的水瓶看呢。",
+			say = "Hm? You've been staring at this water bottle for a while now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你也渴了么？",
+			say = "You thirsty, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~真拿你没办法呢。",
+			say = "Aww! Well, I'm afraid it's too late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我想把水让给你，但这样不就算间接接吻了么？",
+			say = "I'd love to let you have some, but that would be an indirect kiss, wouldn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赛场的角落中，教练和王牌队员正在间接接吻——这种场景怎么看都不太妙吧？",
+			say = "Imagine that. Coach and star player, sharing an indirect kiss in the corner of the stadium. We can't let people see that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过现在确实烈日炎炎，教练要是一直渴着的话也太可怜了。",
+			say = "Still... It's a scorcher out, so I can't leave you thirsting for too long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以——你看这个折中方案如何？",
+			say = "How about a compromise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女再次举起水瓶，将一大口水含入口中。",
+			say = "Prinz Eugen once again raises the bottle, taking a big sip of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后向前用力、精准又快速地贴了过来。",
+			say = "Then, she forcefully, swiftly, and precisely presses her face against mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,11 +675,11 @@ return {
 			},
 			options = {
 				{
-					content = "等——",
+					content = "Hold on–",
 					flag = 1
 				},
 				{
-					content = "？！",
+					content = "?!",
 					flag = 2
 				}
 			}
@@ -693,7 +693,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着哨响，甘冽的清泉在口中绽放。",
+			say = "Accompanied by the sound of a whistle, sweet and cold water flows into my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦~休息时间结束，该开始下半场比赛了。",
+			say = "Aaah... Looks like half-time's over. I'd better get ready for the second half.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？呵呵，教练已经是一脸期待下半场的表情了呢。",
+			say = "Hmm? Heheh, you look more excited for our \"second half.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别急，按顺序来。",
+			say = "Don't rush things. All in due time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先是比赛的下半场，然后是——我们的下半场哦~",
+			say = "First, the second half of the game. Then, the second half of our fun♥",
 			painting = {
 				alpha = 0.3,
 				time = 1

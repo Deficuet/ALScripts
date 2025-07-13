@@ -9,7 +9,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成困难关卡",
+				"Clear Hard Mode Stages",
 				{
 					"scene level",
 					{
@@ -29,9 +29,39 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行军事演习",
+				"Clear \"Advance Mission\" Daily Raids",
 				{
-					" scene militaryexercise"
+					"scene dailylevel",
+					{
+						dailyLevelId = 301
+					}
+				},
+				0
+			},
+			{
+				"May appear in the Shop",
+				{
+					"scene shop",
+					{
+						warp = 2
+					}
+				},
+				0
+			},
+			{
+				"May be available through certain Commissions",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"Medal Shop",
+				{
+					"scene shop",
+					{
+						warp = 8
+					}
 				},
 				0
 			}
@@ -54,17 +84,24 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行海域突进每日挑战",
+				"Clear \"Escort Cargo\" Daily Raids",
 				{
 					"scene dailylevel",
 					{
-						dailyLevelId = 301
+						dailyLevelId = 201
 					}
 				},
 				0
 			},
 			{
-				"军火商概率出售",
+				"May appear after World 1",
+				{
+					"scene level"
+				},
+				0
+			},
+			{
+				"May appear in the Shop",
 				{
 					"scene shop",
 					{
@@ -74,29 +111,9 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托概率获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
-				},
-				0
-			},
-			{
-				"勋章商店兑换",
-				{
-					"scene shop",
-					{
-						warp = 8
-					}
-				},
-				0
-			},
-			{
-				"舰队商店兑换",
-				{
-					"scene shop",
-					{
-						warp = 7
-					}
 				},
 				0
 			}
@@ -113,12 +130,40 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行海域突进每日挑战",
+				"Clear \"Escort Cargo\" Daily Raids",
 				{
 					"scene dailylevel",
 					{
-						dailyLevelId = 301
+						dailyLevelId = 201
 					}
+				},
+				0
+			},
+			{
+				"May appear after World 3",
+				{
+					"scene level",
+					{},
+					{
+						leastChapterId = 301
+					}
+				},
+				0
+			},
+			{
+				"May appear in the Shop",
+				{
+					"scene shop",
+					{
+						warp = 2
+					}
+				},
+				0
+			},
+			{
+				"May be available through certain Commissions",
+				{
+					"scene event"
 				},
 				0
 			}
@@ -137,7 +182,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行商船护卫每日挑战",
+				"Clear \"Escort Cargo\" Daily Raids",
 				{
 					"scene dailylevel",
 					{
@@ -147,14 +192,18 @@ pg.item_lack = {
 				0
 			},
 			{
-				"出征主线第1章及其后的关卡",
+				"May appear after World 6",
 				{
-					"scene level"
+					"scene level",
+					{},
+					{
+						leastChapterId = 601
+					}
 				},
 				0
 			},
 			{
-				"军火商概率出售",
+				"May appear in the Shop",
 				{
 					"scene shop",
 					{
@@ -164,7 +213,7 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
 				},
@@ -185,49 +234,28 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行商船护卫每日挑战",
+				"May be available through Research",
 				{
-					"scene dailylevel",
-					{
-						dailyLevelId = 201
-					}
+					"technology"
 				},
 				0
 			},
 			{
-				"出征主线第3章及其后的关卡",
-				{
-					"scene level",
-					{},
-					{
-						leastChapterId = 301
-					}
-				},
-				0
-			},
-			{
-				"军火商概率出售",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
-						warp = 2
+						warp = 8
 					}
 				},
 				0
 			},
 			{
-				"部分军事委托获取",
-				{
-					"scene event"
-				},
-				0
-			},
-			{
-				"舰队商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
-						warp = 7
+						warp = 5
 					}
 				},
 				0
@@ -247,49 +275,18 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行商船护卫每日挑战",
+				"May be available through Research",
 				{
-					"scene dailylevel",
-					{
-						dailyLevelId = 201
-					}
+					"technology"
 				},
 				0
 			},
 			{
-				"出征主线第6章及其后的关卡",
-				{
-					"scene level",
-					{},
-					{
-						leastChapterId = 601
-					}
-				},
-				0
-			},
-			{
-				"军火商概率出售",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
-						warp = 2
-					}
-				},
-				0
-			},
-			{
-				"部分军事委托获取",
-				{
-					"scene event"
-				},
-				0
-			},
-			{
-				"舰队商店兑换",
-				{
-					"scene shop",
-					{
-						warp = 7
+						warp = 5
 					}
 				},
 				0
@@ -309,21 +306,38 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行商船护卫每日挑战",
+				"Clear a X-1 Hard Mode Stage in any World",
 				{
-					"scene dailylevel",
+					"scene level",
+					{},
 					{
-						dailyLevelId = 201
+						lastDigit = 1,
+						mapType = 2,
+						leastChapterId = 10101
 					}
 				},
 				0
 			},
 			{
-				"舰队商店兑换",
+				"May be available through certain Commissions",
+				{
+					"scene event"
+				},
+				0
+			},
+			{
+				"May be available through Research",
+				{
+					"technology"
+				},
+				0
+			},
+			{
+				"Medal Shop",
 				{
 					"scene shop",
 					{
-						warp = 7
+						warp = 8
 					}
 				},
 				0
@@ -344,14 +358,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -376,14 +390,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -407,14 +421,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -438,14 +452,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -469,14 +483,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -500,14 +514,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -517,7 +531,7 @@ pg.item_lack = {
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -538,7 +552,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成任意章主线困难的第1节",
+				"Clear a X-1 Hard Mode Stage in any World",
 				{
 					"scene level",
 					{},
@@ -551,21 +565,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托概率获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -586,7 +600,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成任意章主线困难的第2节",
+				"Clear a X-2 Hard Mode Stage in any World",
 				{
 					"scene level",
 					{},
@@ -599,21 +613,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托概率获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -634,7 +648,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成任意章主线困难的第3节",
+				"Clear a X-3 Hard Mode Stage in any World",
 				{
 					"scene level",
 					{},
@@ -647,21 +661,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托概率获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -682,7 +696,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成任意章主线困难的第4节",
+				"Clear a X-4 Hard Mode Stage in any World",
 				{
 					"scene level",
 					{},
@@ -695,21 +709,21 @@ pg.item_lack = {
 				0
 			},
 			{
-				"部分军事委托概率获取",
+				"May be available through certain Commissions",
 				{
 					"scene event"
 				},
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -729,7 +743,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成第3章及其后主线困难的第1节",
+				"Clear a X-1 Hard Mode Stage in World 3 or higher",
 				{
 					"scene level",
 					{},
@@ -742,14 +756,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -769,7 +783,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成第3章及其后主线困难的第2节",
+				"Clear a X-2 Hard Mode Stage in World 3 or higher",
 				{
 					"scene level",
 					{},
@@ -782,14 +796,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -809,7 +823,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成第3章及其后主线困难的第3节",
+				"Clear a X-3 Hard Mode Stage in World 3 or higher",
 				{
 					"scene level",
 					{},
@@ -822,14 +836,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -849,7 +863,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"完成第3章及其后主线困难的第4节",
+				"Clear a X-4 Hard Mode Stage in World 3 or higher",
 				{
 					"scene level",
 					{},
@@ -862,14 +876,14 @@ pg.item_lack = {
 				0
 			},
 			{
-				"进行部分科研项目",
+				"May be available through Research",
 				{
 					"technology"
 				},
 				0
 			},
 			{
-				"勋章商店兑换",
+				"Medal Shop",
 				{
 					"scene shop",
 					{
@@ -889,14 +903,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【厌战的特别训练】",
+				"\"Special Warrior Training\" Event Reward",
 				{
 					""
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -916,14 +930,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【闪耀的战斗之星】",
+				"\"Sparkling Battle Star\" Event Reward",
 				{
 					""
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -943,14 +957,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【龙腾虎跃】",
+				"\"A New Era, A New Power\" Event Reward",
 				{
 					""
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -970,14 +984,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【龙腾虎跃】",
+				"\"A New Era, A New Power\" Event Reward",
 				{
 					""
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -997,14 +1011,14 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【啾啾大胃王】",
+				"\"Port Eating Contest\" Event Reward",
 				{
 					""
 				},
 				0
 			},
 			{
-				"原型商店兑换",
+				"Prototype Shop",
 				{
 					"scene shop",
 					{
@@ -1024,7 +1038,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【电气功率增幅中】",
+				"\"Voltage Rising\" Event Reward",
 				{
 					""
 				},
@@ -1041,7 +1055,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【美意延年】",
+				"\"For Joy and Prosperity\" Event Reward",
 				{
 					""
 				},
@@ -1058,7 +1072,7 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"参与限时活动【抚顺大冒险IV复刻】",
+				"\"Fu Shun's Great Adventure IV Rerun\" Event Reward",
 				{
 					""
 				},

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"翩若飞仙",
+					"Like a Soaring Apsaras\n\n<size=45>1 Like a Soaring Apsaras</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "顺着山涧的小溪前进着。",
+			say = "I was trudging along a stream running through the mountains–",
 			bgmDelay = 2,
 			bgm = "theme-haitian-soft-loop",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "山壁间回荡的琵琶声沁人心脾，也让旅途中产生的疲惫如云烟般消散。",
+			say = "When suddenly, the melody of a pipa echoes around me. Its soothing tones seem to permeate me, melting away the fatigue of my long trek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "终于——柳暗花明，来到了与海天相约见面的地方。",
+			say = "I continue on towards an open area, eventually reaching the destination Hai Tien and I had agreed upon previously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您好，指挥官。",
+			say = "Commander, I appreciate you coming all the way out here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "小女子恭候多时，茶水早已备好，这就为指挥官呈上一碗。",
+			say = "I've been waiting for you. The tea is ready, so let me get it for you right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			},
 			options = {
 				{
-					content = "非常感谢。",
+					content = "\"Thanks a bunch.\"",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "刚才的琵琶声是？",
+			say = "\"By the way, I heard the sound of a pipa earlier...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "那是……练习的乐音，没想到在正式表演前就被您提前听到了……",
+			say = "Oh, umm... I was just getting some practice in. I didn't think anyone would be able to hear it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "请指挥官原谅小女子，破坏了您的惊喜。",
+			say = "I originally was planning a surprise performance for you, but you'll have to forgive me for fumbling it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "……您说多亏了那琵琶声，让您缓解了登山时的疲惫？",
+			say = "...Hm? Hearing me play was enough to make your fatigue melt away?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "啊哈哈……谢谢指挥官的慰藉。",
+			say = "Ahaha... You don't have to go out of your way to console me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "（真是糟糕……光顾着考虑约会时的氛围，忘记山路的艰险了。）",
+			say = "(Ugh... I was so preoccupied with creating the right atmosphere for our date that I didn't consider how tiring the trek up here would be....)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "海天的琴声能为您注入新的活力，那实在是再好不过。",
+			say = "But, if my music was enough to make you feel better, I am relieved to hear that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天邀请指挥官来这里，是为了给您表演小女子练习许久的“飞天伎乐”。",
+			say = "In any case, Commander, I called you here today because I wanted to show you the dance that I've been practicing for quite some time now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "这是舞蹈与音乐相结合的表演，希望您能尽情欣赏。",
+			say = "It's called the \"Soaring Apsaras\"– an acrobatic combination of dance and music. I do hope you'll find it to your liking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "……看指挥官您一脸疑惑的样子，是有什么想问海天的吗？",
+			say = "...Hmm? Was there something you wanted to ask me, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,15 +319,15 @@ return {
 			},
 			options = {
 				{
-					content = "关于要表演的音乐……",
+					content = "\"What kind of music are you going to perform?\"",
 					flag = 1
 				},
 				{
-					content = "关于要表演的舞蹈……",
+					content = "\"Can you tell me more about this dance?\"",
 					flag = 2
 				},
 				{
-					content = "为什么要选这个地方？",
+					content = "\"Why did you choose this place?\"",
 					flag = 3
 				}
 			}
@@ -341,7 +341,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，接下来要表演的音乐，是我亲自谱的曲。",
+			say = "It's a bit embarrassing to say this... But it's my original composition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从与您相遇以来，惊喜、崭新的体验层出不穷，不知不觉间海天的心中全是指挥官的身影。",
+			say = "Ever since I first met you, each and every day has been filled with joy and excitement. Before I knew it, you became the first and foremost thing on my mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的情感无处安放，我只能选择作曲的方式……望指挥官不会嫌弃小女子贫乏的作曲天赋。",
+			say = "I can't do anything about these overflowing feelings, but I at least want to put them down in song form... Hopefully, you won't find it strident to your ears...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来指挥官也是有所了解的。",
+			say = "Commander, you should already know that I'm not very athletic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心~虽说我不擅长运动，不过……每当想到能在您面前表演，训练中的疲惫就烟消云散了。",
+			say = "But this time, I'm going to overcome my limits. Just thinking about performing in front of you makes all the difficult hours of practice feel like a distant memory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "就像指挥官刚才听见我的琵琶声一样。",
+			say = "Who knows? Maybe I'll be able to capture that same feeling you felt when you heard the sound of the pipa~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，这么想的话，指挥官也算是为了今天的演出做出了巨大贡献呢~",
+			say = "Heehee. In any case, you're the reason why I'm able to show these things to you today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "山涧中柳暗花明，溪流潺潺，{namecode:149}阵阵，林籁泉韵，奏乐回荡其中更显宛转悠扬，波澜壮阔。",
+			say = "In the mountains, the stream burbles beneath the shade of great willows. The flowers are in full bloom, and the wind is refreshing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再加上此处的山壁中的壁画，配合海天的表演一动一静，如痴如醉，如梦似幻……",
+			say = "When music reverberates, everything becomes more melodious and magnificent. My performance then blends into the scenery all around us, creating a dreamlike, mesmerizing mixture of movement and stillness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这都是小女子为了弥补表演中不成熟的地方从大自然中借来的美景，望指挥官能够体谅。",
+			say = "But to be entirely honest, the beautiful scenery around us probably compensates for the inadequacies in my performance. Please bear with me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "那么，海天要开始表演了——",
+			say = "Now then, relax and take a deep breath, and then we'll get started–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "琵琶的“急雨”和“私语”在山涧回荡，和溪流共同谱写出一段洋洋盈耳的天籁之音。",
+			say = "Sometimes as violent as a sudden hurricane in the summer, at other times as gentle as a newborn's breaths... The sound of the pipa, along with the stream flowing right next to me, seemed like reminders from the heavens to leave behind the material world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "再结合海天曼妙的舞蹈，仿佛进入了壁画所绘制的仙境之中。",
+			say = "I can't take my eyes off Hai Tien. It's as if I had stepped into a fairyland depicted in a storybook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——感觉如何？指挥官。",
+			say = "How was it, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			},
 			options = {
 				{
-					content = "太精彩了。",
+					content = "\"Simply spectacular...\"",
 					flag = 1
 				}
 			}
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "太好了！海天这些日子的努力总算是没有白费~",
+			say = "I'm so glad to hear that! All my hard work has finally paid off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "啊，咳、那个……稍微有些激动过头了，希望指挥官别在意。",
+			say = "Oh, um... Ahem, sorry I got carried away there. Please forget you saw that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "指挥官，接下来可以再陪我在这里待一会吗？",
+			say = "If you don't mind, would you mind staying here with me a bit longer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502072,
-			say = "难得来到这里，我们可以一边欣赏山涧美景，一边舒心品茶！",
+			say = "Since you already came all the way up here, why not enjoy a cup of tea while taking in the scenery?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,11 +694,11 @@ return {
 			},
 			options = {
 				{
-					content = "刚才的表演，你愿意教我么？",
+					content = "\"Do you think I could learn that dance?\"",
 					flag = 1
 				},
 				{
-					content = "其实琵琶我也略懂一二！",
+					content = "\"Woah, so that's how you play the pipa!\"",
 					flag = 2
 				}
 			}
@@ -712,7 +712,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？！",
+			say = "...Huh? Wh-what did you just say?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不嫌弃的话，海天当然愿意了！",
+			say = "I'd be honored to teach you if you really are interested in learning!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,7 +790,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，光在口头上指导效果不佳，要是指挥官不介意……",
+			say = "Though, um, I'm not sure I'd be able to do a good job getting the point across with words alone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "海天突然将整个身体贴了过来。",
+			say = "Hai Tien suddenly shoots up and slides over to my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳、一切都是为了教学……",
+			say = "Ah, umm... this is just to teach you the dance moves...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小女子失礼了——",
+			say = "Now then, please excuse me–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，没想到指挥官居然还会这个~",
+			say = "Oh my, you've picked up on it so quickly. As expected of someone as accomplished as you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那这样的话——",
+			say = "That being the case, allow me to make a suggestion–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,7 +917,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如若您不嫌弃，请您用我刚刚弹奏过的琵琶即兴演奏，我来根据旋律送上即兴舞蹈如何？",
+			say = "How about you improvise a melody, and I'll dance to it? Only if you're up for it, that is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -936,7 +936,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "漏弹错弹也没关系，毕竟，我也不希望指挥官太过专注于演奏而对眼前的舞蹈视而不见。",
+			say = "Since you're improvising, don't worry if you make any minor mistakes. In fact, I... I'd prefer it if you could keep your eyes on me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过相应的嘛——",
+			say = "Oh, but having that said...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -974,7 +974,7 @@ return {
 			actor = 502072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是海天因脚步不稳而摔在了指挥官的身上，也请您勿要嫌弃哦~",
+			say = "Umm, if I stumble over my own feet and bump into you because I'm a bit of a klutz... Please don't hold it against me, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1

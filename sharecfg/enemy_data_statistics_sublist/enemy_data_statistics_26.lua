@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_26 = {
+	[90777] = {
+		cannon = 0,
+		name = "The 2nd",
+		type = 10,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90777,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "erdaimu",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "erdaimu",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 108,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90778] = {
 		cannon = 0,
-		name = "戴拿赛诺",
+		name = "Dynazenon",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -148,7 +304,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90779] = {
 		cannon = 0,
-		name = "古立特（宇宙斗士）",
+		name = "Gridman (Universe Fighter)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -294,7 +450,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90780] = {
 		cannon = 0,
-		name = "亚历克西斯·凯利夫（新秩序）",
+		name = "Alexis Kerib (New Order)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -440,7 +596,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90781] = {
 		cannon = 0,
-		name = "审判型驱逐舰",
+		name = "Tribunal Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -602,7 +758,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90782] = {
 		cannon = 0,
-		name = "审判型轻巡洋舰",
+		name = "Tribunal Light Cruiser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -762,7 +918,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90783] = {
 		cannon = 0,
-		name = "审判型重巡洋舰",
+		name = "Tribunal Heavy Cruiser",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -942,7 +1098,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90784] = {
 		cannon = 0,
-		name = "审判型战列舰",
+		name = "Tribunal Battleship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1122,7 +1278,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90785] = {
 		cannon = 0,
-		name = "审判型航空母舰",
+		name = "Tribunal Aircraft Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1289,7 +1445,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90786] = {
 		cannon = 0,
-		name = "审判型突袭舰 ",
+		name = "Tribunal Assault Vessel",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1435,7 +1591,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90787] = {
 		cannon = 0,
-		name = "审判型潜水艇",
+		name = "Tribunal Submarine",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1586,7 +1742,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90788] = {
 		cannon = 0,
-		name = "█X█ █「传播」",
+		name = "█X█ █ \"Propagation\"",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1748,7 +1904,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90789] = {
 		cannon = 0,
-		name = "█X█ █「扩散」",
+		name = "█X█ █ \"Diffusion\"",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1908,7 +2064,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90790] = {
 		cannon = 0,
-		name = "█X█ █「蔓延」",
+		name = "█X█ █ \"Infestation\"",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2075,7 +2231,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90791] = {
 		cannon = 0,
-		name = "█X█ █「吞噬」",
+		name = "█X█ █ \"Subsumption\"",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2242,7 +2398,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90792] = {
 		cannon = 0,
-		name = "█X█ █「同化」",
+		name = "█X█ █ \"Assimilation\"",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2409,7 +2565,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90793] = {
 		cannon = 0,
-		name = "█X█ █「分裂」",
+		name = "█X█ █ \"Deconstruction\"",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2555,7 +2711,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90794] = {
 		cannon = 0,
-		name = "█X█ █「增殖」",
+		name = "█X█ █ \"Proliferation\"",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2706,7 +2862,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90795] = {
 		cannon = 0,
-		name = "█X█ █「Regulation」",
+		name = "█X█ █ \"Regulation\"",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2862,7 +3018,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90796] = {
 		cannon = 0,
-		name = "█X█ █「Orthodoxy」",
+		name = "█X█ █ \"Orthodoxy\"",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3018,7 +3174,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90797] = {
 		cannon = 0,
-		name = "迪洛伊",
+		name = "Oculus Dei",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3181,7 +3337,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90798] = {
 		cannon = 0,
-		name = "马可波罗~Incarnation Of Hierophant",
+		name = "Marco Polo: Incarnation of the Hierophant",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3338,7 +3494,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90799] = {
 		cannon = 0,
-		name = "审判型机甲武装-支配",
+		name = "Mechanicus Harbinger: Conquest",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3501,7 +3657,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90800] = {
 		cannon = 0,
-		name = "█X█ █ █~Incarnation Of Hierophant~",
+		name = "█X█ █ █: Incarnation of the Hierophant",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3658,7 +3814,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90801] = {
 		cannon = 0,
-		name = "窥探之眼",
+		name = "Gazer's Eye",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3779,7 +3935,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90802] = {
 		cannon = 0,
-		name = "凯尔圣",
+		name = "Kersaint",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3935,7 +4091,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90803] = {
 		cannon = 0,
-		name = "可怖",
+		name = "Le Terrible",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4091,7 +4247,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90804] = {
 		cannon = 0,
-		name = "香槟",
+		name = "Champagne",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4248,7 +4404,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90805] = {
 		cannon = 0,
-		name = "神通·META",
+		name = "Jintsuu META",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4405,7 +4561,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90806] = {
 		cannon = 0,
-		name = "「无形之息-海洋」",
+		name = "Shadow of Corruption - Ocean",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4546,164 +4702,6 @@ pg.enemy_data_statistics_26 = {
 		appear_fx = {
 			"appearsmall",
 			"danchuanheiyan_DD"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90807] = {
-		cannon = 0,
-		name = "「无形之息-信风」",
-		type = 2,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 1,
-		id = 90807,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "wuxing_CL",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 180,
-		wave_fx = "danchuanlanghuazhong2",
-		prefab = "wuxing_CL",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			13,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.74,
-					1.28,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.18,
-					0.29,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.13,
-							0.77,
-							-0.48
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.67,
-							1.02,
-							-0.19
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanheiyan_CL = 1.3
-		},
-		appear_fx = {
-			"appearsmall",
-			"danchuanheiyan_CL"
 		},
 		position_offset = {
 			0,

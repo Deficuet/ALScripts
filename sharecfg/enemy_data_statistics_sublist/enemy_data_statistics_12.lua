@@ -1,8 +1,168 @@
 pg = pg or {}
 pg.enemy_data_statistics_12 = {
+	[90325] = {
+		cannon = 0,
+		name = "Clemenceau-class Production Model",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90325,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "keliemengsuodanchuan",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "keliemengsuodanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 9,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.7,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							0.95,
+							0.99,
+							-0.48
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							-1.08,
+							1.77,
+							-0.66
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			5
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90326] = {
 		cannon = 0,
-		name = "诺福克",
+		name = "Norfolk",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -169,7 +329,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90327] = {
 		cannon = 0,
-		name = "约克公爵",
+		name = "Duke of York",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -323,7 +483,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90328] = {
 		cannon = 0,
-		name = "神风",
+		name = "Kamikaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -479,7 +639,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90329] = {
 		cannon = 0,
-		name = "松风",
+		name = "Matsukaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -635,7 +795,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90330] = {
 		cannon = 0,
-		name = "扶桑",
+		name = "Fusou",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -792,7 +952,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90331] = {
 		cannon = 0,
-		name = "山城",
+		name = "Yamashiro",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -962,7 +1122,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90332] = {
 		cannon = 0,
-		name = "大凤",
+		name = "Taihou",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1116,7 +1276,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90333] = {
 		cannon = 0,
-		name = "旗风",
+		name = "Hatakaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1270,7 +1430,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90334] = {
 		cannon = 0,
-		name = "那珂",
+		name = "Naka",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1424,7 +1584,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90335] = {
 		cannon = 0,
-		name = "加贺",
+		name = "Kaga",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1571,7 +1731,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90336] = {
 		cannon = 0,
-		name = "卷波",
+		name = "Makinami",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1725,7 +1885,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90337] = {
 		cannon = 0,
-		name = "足柄",
+		name = "Ashigara",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1892,7 +2052,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90338] = {
 		cannon = 0,
-		name = "天城",
+		name = "Amagi",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2046,7 +2206,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90339] = {
 		cannon = 0,
-		name = "埃塞克斯",
+		name = "Essex",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2656,7 +2816,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90343] = {
 		cannon = 0,
-		name = "铃谷",
+		name = "Suzuya",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2833,7 +2993,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90344] = {
 		cannon = 0,
-		name = "矶风",
+		name = "Isokaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2987,7 +3147,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90345] = {
 		cannon = 0,
-		name = "浦风",
+		name = "Urakaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3141,7 +3301,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90346] = {
 		cannon = 0,
-		name = "最上改",
+		name = "Mogami",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3295,7 +3455,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90347] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3442,7 +3602,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90348] = {
 		cannon = 0,
-		name = "运运",
+		name = "Chun-chun",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3607,7 +3767,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90349] = {
 		cannon = 0,
-		name = "獒酱",
+		name = "Takao-chan",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3774,7 +3934,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90350] = {
 		cannon = 0,
-		name = "欧根酱",
+		name = "Prinz-chan",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3941,7 +4101,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90351] = {
 		cannon = 0,
-		name = "鹬酱",
+		name = "Shou-chan",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4081,7 +4241,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90352] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4228,7 +4388,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90353] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4375,7 +4535,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90354] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4415,153 +4575,6 @@ pg.enemy_data_statistics_12 = {
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
 		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.99,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.73,
-					0.85,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90355] = {
-		cannon = 0,
-		name = "绊爱（巨大化）",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90355,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "aijiangDD",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "aijiangDD",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
 		world_enhancement = {
 			0,
 			0,

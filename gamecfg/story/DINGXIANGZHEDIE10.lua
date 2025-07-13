@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			stopbgm = true,
-			say = "演习海域·一段时间后————",
+			say = "In the midst of the exercise...",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "根据预先分配，舰队此刻分为了三支彼此配合的小队。",
+			say = "Meager as our forces are, I still split them up into three groups.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "北安普敦与大黄蜂一组，哈曼与约克城一组，兰利则与指挥舰一同行动。",
+			say = "I assign Northampton to Hornet, have Hammann and Yorktown pair up, and keep Langley with me by the command vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次是大型舰载无人机群，确定是来自航母战斗群，孟菲斯投入主力舰队开始砸门了！",
+			say = "Tons of enemy aircraft, incoming! Looks like they're from the carrier strike team! Memphis is finally putting her cards on the table!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "兰利，我们需要一个整体态势更新——",
+			say = "Langley, give me a sitrep, ASAP!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，两秒后进行状况更新——",
+			say = "I'm working on it! Just two more seconds...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "同步完毕。注意，敌方的航母编队中包含大量特化的防空护卫舰。",
+			say = "Sent! The carrier strike team has several AA-focused corvettes as escorts! Be careful!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还需要一段时间来识别可能的敌方指挥舰，标记完成前不要盲目进攻。",
+			say = "I'm still working on designating their command ships. Hold off your assault until I'm finished!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解~",
+			say = "Roger!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，大黄蜂那边的水面战线暂时稳住了。",
+			say = "Commander, Hornet's group is hanging in there, for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "但是现状不算很乐观……和我们预测的一样，这次的演习压力非常大，",
+			say = "Unfortunately, things aren't looking very good. The enemy's strength is simply dumbfounding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "不光是无人机，这次蓝方还投入了大量水下无人潜航器。",
+			say = "In addition to aircraft and drones, they've also deployed a lot of submersibles and mini-submarines.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前能依靠性能取得的压倒性优势不复存在，现在反倒是我们被更加廉价的无人设备弄得难以招架……",
+			say = "While we do have the advantage in one-on-one fights, their swarms of expendable weaponry are starting to overwhelm us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（昨晚在与安洁的工作中，翻阅了一些关于本次测试的II型舰装相关的资料。）",
+			say = "Anzeel gave me a report the night before which outlined the Type II rigging's construction and the functions it improved upon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（记得这些新型舰装主要提高了动力与电子战作战能力。）",
+			say = "Chief among them are a general combat effectiveness increase, jamming countermeasures, and built-in electronic warfare capabilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（可以让设备拥有更好的干扰力与抗干扰力，也可以更好地同时处理多个运动目标。）",
+			say = "Special mentions should also be given to the enhanced communications and information processing systems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（同时因为采用了特殊工艺，在制作过程中使用了额外的心智魔方。）",
+			say = "These allow shipgirls on the field to directly share info with each other via data links, and draw much more potential out of a shipgirl's hull.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（也因此，这些舰装在使用时可以大幅增强舰船本体的作战能力，同时所有使用II型舰装的舰船也可以拥有某些协作能力。）",
+			say = "This technology is the result of a production process that consumes additional Wisdom Cubes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（既然如此……）",
+			say = "And research that, according to Anzeel, I played a significant role in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "兰利，我记得II型船的特性之一就是“数据链”对么？",
+			say = "\"We have the upper hand when it comes to information sharing. We have to use it to our advantage.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，毕竟这就是II型船除了性能外最为出众的特点了！",
+			say = "You mean the data link? I guess so... The increased data processing power is one of the major selling points of the new rigging type.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "II型舰队成员之间的“数据链”能把性能的优势发挥到极致，任何侦查手段得到的数据都能实时共享给所有成员！",
+			say = "This makes it possible to analyze data instantaneously and relay the results to shipgirls on the field in almost real-time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,52 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算是大量移动目标同时出现，也能有条不紊地处理。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107270,
-			say = "要不是这样，我们面前这个以秒为单位更新的实时态势图也实现不了哦！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_zhedie_3",
-			say = "然后在必要的时候，包括舰载机在内的一部分作战兵器可以实现协作与共享？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107270,
-			side = 2,
-			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯，没错。这也是II型舰装带来的全新作战功能。",
+			say = "It allows us to act as one, based on the orders you issue us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "其实在作战开始的时候，我就已经接管了一部分其他人的侦察设备，以减少她们在面对多目标时的压力。",
+			say = "Your terminal should be relaying information received from our end as well, right? It's an astronomical improvement over the back-and-forth radioing of the past.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "既然如此，配属的侦察机，也可以根据战场情况在航空母舰之间自由分配吧？",
+			say = "\"So, aircraft can be much better coordinated when they all have access to the same information, right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +383,52 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错……啊，原来如此，我倒是没想到这一点！",
+			say = "Correct! That's one of the features you helped develop.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_zhedie_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107270,
+			say = "You can also hand over control of certain reconnaissance equipment, something I took advantage of at the beginning of the exercise to continue gathering data while letting the others focus on the fight.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_zhedie_3",
+			say = "\"Does the same apply to other carrier-based aircraft? Isn't it possible for carriers to share each other's air wings?\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107270,
+			side = 2,
+			bgName = "bg_zhedie_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Um, let me see... Oh, you can! I can't believe I overlooked that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "不愧是参与了II型舰装研发的老师，对它的理解就是不一样。",
+			say = "I'm glad you're here, Commander. You have a better grasp of the situation than we do individually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（原来在大家的认知里，我也参与了这个项目么……虽然我对此一点记忆都没有就是了。）",
+			say = "The truth is, however... I don't know any more about this new rigging than they do. Maybe even less. They say I helped develop it, but I have no recollection of that at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "约克城，能听到么？",
+			say = "\"Yorktown, can you hear me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很清晰，指挥官。",
+			say = "Yes, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "情况如何？反潜作战压力大吗？",
+			say = "\"How's the situation on your end? Have you been able to cover the anti-submarine warfare?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "还好，我们这边暂时还没有漏过任何水下目标。",
+			say = "We've managed to deal with the underwater threat for now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但无人潜航器的数量实在是太多了……我又要专注于对空，哈曼已经快顾不过来了。",
+			say = "But, the air situation is still not looking too good. While I'm fighting for some airspace control, Hammann has to worry about both anti-ship and anti-submarine combat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在我们这边也是一刻都不能放松，暂时支援不了大黄蜂那边。",
+			say = "Sorry, but I won't be able to help the other two groups right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "放心，不是让你们支援。大黄蜂那边暂时还坚持得住。",
+			say = "\"Don't worry. In fact, I'm here to lend you a hand.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "只是找你借用一下电子战预警机，请将其控制权限转交给兰利。",
+			say = "\"Your recon planes aren't much use in a dogfight. Let Langley take control of them so she can pinpoint the location of the enemy command ships.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……舰载机的控制权转交是么？好的，没问题，控制权已经移交给兰利了。",
+			say = "Give control to Langley? Okay, let me just... There, they're hers now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			actor = 101500,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "约克城姐姐，潜航器又上来了！",
+			say = "Look out, Yorktown! We've got more mini-subs incoming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……数量怎么这么多，指挥官，孟菲斯真是一刻也不给我们机会啊。",
+			say = "Shoot, what terrifying numbers... Memphis really is going all-out this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "坚持住，反击的机会就要来了。",
+			say = "\"Hang in there a bit longer. We'll have our chance to turn things around soon enough.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			actor = 107100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白。指挥官，我们会努力的。",
+			say = "Understood! I'll fight with all I've got!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "兰利，利用新的装备找出孟菲斯投入舰队的全部指挥舰。",
+			say = "\"Langley, use all the recon aircraft at your disposal to mark those command ships.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "然后将其一次性全部摧毁，不要给她启用备用节点的时间。",
+			say = "\"As soon as you do that, I'll give the order to have everyone focus fire on them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "再之后，一鼓作气，吃掉她的主力。",
+			say = "\"Then, while chaos spreads among the mass-produced ships, we'll deal a devastating blow to Memphis' main fleet and seize victory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Roger!",
 			painting = {
 				alpha = 0.3,
 				time = 1

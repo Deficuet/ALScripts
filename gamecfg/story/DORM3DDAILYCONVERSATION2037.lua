@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，要吃点水果吗？或者需要什么其他东西？",
+			say = "Would you like some fruit? Or is there something else you want to eat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "可以尽管和我说哦。",
+			say = "Anything you want, just let me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "突然这是怎么了？",
+					content = "What's this all of a sudden?",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "因为我反思了一下，感觉自己好像不如其他人对你主动……",
+			say = "I did some self-reflection. Compared to others, I don't think I'm very proactive when it comes to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以我想接下来更以你为中心。",
+			say = "So I've decided I'm going to concentrate on you more from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咳咳，可不许嫌弃我烦哦。",
+			say = "Ahem... And please don't mistake it for me being nosy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

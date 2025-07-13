@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
-			say = "和TB并排走在庆典街道中。",
+			say = "There is a festival in town, and TB and I are having a look around.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好像又长高了啊。",
+			say = "Look at that. You've grown again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师说过，这是成长期的正常状态。",
+			say = "That's to be expected when I'm in my growth period. My teacher said so.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……真是破坏气氛的回答。",
+			say = "Not what I was hoping to hear, but alright...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气氛？",
+			say = "Umm... Okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "面对感慨孩子成长的家长，作为被感慨的对象应该再开心一点才对吧？",
+			say = "I just thought you'd be happy to hear someone close to you point out how you've grown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "烟花适时地在空中绽放，而穿着浴衣的TB此刻微微侧过身。",
+			say = "TB looks at me over her shoulder while fireworks in dazzling colors fill the night sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,12 +138,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我很开心。",
+			say = "I am happy.",
 			voice = "event:/educate/tb/educate-tb-story-2-8",
 			painting = {
 				alpha = 0.3,
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "——她的脸上出现了明确可以被称之为微笑的表情。",
+			say = "There it is. The expression on her face is what you could definitively call a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,12 +167,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天做了那么多有趣的事情，还看到了烟花，我很开心。",
+			say = "We did a lot of fun things and even saw fireworks tonight. Of course I'm happy.",
 			voice = "event:/educate/tb/educate-tb-story-2-9",
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "虽然听起来并不符合她的年纪该有的表达……",
+			say = "The words themselves don't sound right for a girl her age, but that's beside the point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "但能像这样拥有自己的情绪，或许就意味着这项计划成功了一部分。",
+			say = "What matters is that she has developed her own feelings, which may mean this project has been partially successful thus far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,12 +207,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果每天都是烟火大会就好了。",
+			say = "I wish it was fireworks day every day.",
 			voice = "event:/educate/tb/educate-tb-story-2-10",
 			painting = {
 				alpha = 0.3,
@@ -225,12 +225,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样就可以不用上学了。",
+			say = "Then I wouldn't have to go to school.",
 			voice = "event:/educate/tb/educate-tb-story-2-11",
 			painting = {
 				alpha = 0.3,
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听着她重新变得幼稚起来的言语，我忍不住笑了。",
+			say = "Now she sounds like a kid again. Hearing that, I can't help but smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，不想上学就不能成为“好孩子”了哦。",
+			say = "That's no good, TB. You have to go to school if you want to be a good girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,12 +266,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦。",
+			say = "Oh...",
 			voice = "event:/educate/tb/educate-tb-story-2-12",
 			painting = {
 				alpha = 0.3,
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听起来有点失落啊……",
+			say = "She sounds a bit disappointed to hear that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,12 +295,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，我们以后还能再来烟火大会吗？",
+			say = "What about the next time it's fireworks day? Can we go then?",
 			voice = "event:/educate/tb/educate-tb-story-2-13",
 			painting = {
 				alpha = 0.3,
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "Of course we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,12 +325,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉勾。",
+			say = "Pinky promise?",
 			voice = "event:/educate/tb/educate-tb-story-2-14",
 			painting = {
 				alpha = 0.3,
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "我们约定在下一个夏日，再一起来看烟火大会。",
+			say = "I hook my pinky finger around hers, vowing that we'll come here again next summer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

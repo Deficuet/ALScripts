@@ -11,7 +11,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果还是让她给跑了，呜………",
+			say = "They got away in the end...",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，不要看到敌人就冲过去呀…你没事吧，爱斯基摩人？",
+			say = "Hey now, don't just go running at the enemy. Are you alright, Eskimo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			actor = 201320,
 			dir = 1,
-			say = "没事没事~对方好像弹药不足，主要精力都放在逃跑上啦~",
+			say = "I'm fine~ Looks like they're low on ammo. They're just focused on escaping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，狐提要来和我一起追击么？",
+			say = "What's next? Did you come to chase them with me, Foxhound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的任务可是占领纳尔维克哦？",
+			say = "Isn't our mission to occupy Narvik?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			actor = 201320,
 			dir = 1,
-			say = "唔唔唔…那、那就…",
+			say = "Ummmm... well... yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，好啦，就知道会变成这样。我还要返回厌战那里护航，不过她已经批准了你的追击行动了哦。",
+			say = "Pfft, well, I knew it would turn out like this. I have to go back to Warspite to screen, but she already approved your chase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎！？真的么！",
+			say = "She did?! Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“量力而行，遇到危险就发信号”她让我这么转告你。",
+			say = "She told me to tell you: \"Don't overdo it. Signal if in danger.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，爱斯基摩人收到~",
+			say = "Alright! Let her know Eskimo said \"aye aye!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

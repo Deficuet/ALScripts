@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"祈愿与祝福之宴\n\n<size=45>二　重逢的举杯</size>",
+					"A Prayer for Peace\n\n<size=45>Chapter 2: A Toast to our Gathering</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宴会场地",
+			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…还好没有迟到…啊，俾、{namecode:435}大人！",
+			say = "Phew... We managed to make it on time... Ah! F-Fleet Leader!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗，{namecode:408}、还有指挥官",
+			say = "Good to see you, Z23. And you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前面就说过了吧，不用这么拘谨，叫我{namecode:435}就好，{namecode:408}",
+			say = "... Didn't I tell you before? There's no reason to be so formal around me. \"Bismarck\" will do just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 401234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是、是！{namecode:435}…小姐！",
+			say = "Y-yes ma'am! Bismarck... ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，还是一如既往地是个认真的孩子啊，{namecode:408}",
+			say = "Haha, you're as diligent as ever, Z23.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在铁血舰队的簇拥之下，身着礼服的{namecode:435}向这边走来",
+			say = "The impeccably-dressed Bismarck had just entered the venue, surrounded by a small crowd of adoring Iron Blood ships. She had broken away from the crowd to greet us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官今天能来参加我们铁血主办的宴会，不胜感谢",
+			say = "Commander, well met. I'm grateful that you were able to join us tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "与平时不同，今天的{namecode:435}声音中透露着一股威严",
+			say = "She sounded like she was trying to sound more dignified on purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，今天还有很多白鹰的伙伴参加啊",
+			say = "I heard that we'll also be joined by our friends from the Eagle Union tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，之前在发邀请函的时候，皇家也一块邀请了白鹰的伙伴们",
+			say = "Yes ma'am! I handed invitations to them myself while coming back from the Royal dorms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得没错！既然都来到同一个港区了，大家就得相处愉快才行呀～哈哈",
+			say = "That's right! Since we're all here, we've gotta get along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的…换上正式的礼服了还是这么莽撞…你好，指挥官、还有铁血的各位",
+			say = "Come on, Hornet. You can't be acting the way you usually do at a place like this. Oh my... Good evening, Commander, Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 107071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，难得的放松机会嘛，那么拘谨岂不是太无趣了～你说是吧，指挥官～",
+			say = "Heheh! It's not every day we get to have a big party like this, so we've gotta enjoy it while we can! Isn't that right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 107071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "实际上我还特意准备了这个呢！嘿嘿，庆祝用的香槟酒～",
+			say = "As a matter of fact, I brought just the thing for the occasion! Let's kick things off right with some champagne~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "庆祝重逢与邂逅的美酒吗…听来倒也不错",
+			say = "Hmm... that does seem quite appropriate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 107051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么就…为了这美好的重逢与邂逅，干杯吧！",
+			say = "Thank you. In that case, I suppose I'll have the honors. Cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,12 +322,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "干杯～",
+			say = "Cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

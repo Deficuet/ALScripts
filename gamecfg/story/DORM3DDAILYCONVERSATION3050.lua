@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，喜欢绘本……所以，最近想画……一本，新的！",
+			say = "Anchorage loves picture books! So... I want to draw a new one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "主角是{dorm3d}……和智慧的安克雷奇！",
+			say = "The story will have {dorm3d}, and... a very smart Anchorage in it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，故事的类型……还没决定……",
+			say = "But I don't know what it should be about yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从现在开始画……还不晚……！之后，还会发生，很多精彩的故事！",
+			say = "If I start now... I'll have time! For more wonderful things to happen...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和{dorm3d}，的故事！",
+			say = "More stories of Anchorage and {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "战斗中，钢铁巨龙突然挥舞巨爪急速突进。",
+			say = "A fierce battle unfolded. The Mechadrake suddenly brandished its iron claws and charged forward.",
 			hidePaintObj = true,
 			bgm = "story-battle-16bit-sfc",
 			typewriter = {
@@ -17,7 +17,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "试作型超级钻头MKII机甲躲闪不及，当即被劈成两段。",
+			say = "It happened so fast, the Prototype Super Drill MKII couldn't dodge, and was cleaved in two with just one attack.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "竟然是铁爪突袭？！",
+			say = "What, purin?! An iron claw sweep, purin?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,11 +44,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "哼哼，这样一来就结束了。",
+			say = "Heheh! It's over for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,10 +57,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "黄金（Golden）时代的机甲也不过如此。",
+			say = "I'm not surprised. This is the best your antiquated Gilded Age mech could do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,17 +69,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "铁爪恶魔得意地宣告着，已然一副胜利者的姿态。",
-			hidePaintObj = true,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			say = "但是——",
+			say = "The Iron Claw Demon smirked, drunk on a sense of triumph.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +79,17 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一刻也没有来得及为试作型超级钻头MKII量产型而哀悼，立刻赶来战场的是试作型超级钻头MKII量产型。",
+			say = "But then...",
+			hidePaintObj = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			say = "Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再次冲破天际吧，试作型超级钻头MKII！",
+			say = "Pierce the heavens once more, my Prototype Super Drill MKII!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,10 +115,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "这是……量产型机体？",
+			say = "What?! You have another?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈哈，笨蛋，现在才发现已经太晚了purin！",
+			say = "Hahaha! \"Another,\" purin? What a naive fool you are, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你不会以为，黄金（Golden）时代的机甲只有一套吧purin！",
+			say = "Obviously there wasn't just ONE Gilded Age mech, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "黄金机甲的再次登场显然在铁爪恶魔的预料之外。",
+			say = "Indeed, the mech was of a mass-produced variety. The Iron Claw Demon was not expecting this.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "还没等她做出反应，巨龙机甲·铁爪便在黄金（Golden）的激光中变为了一坨废铁。",
+			say = "She couldn't react in time to its golden laser, which reduced her Mechadrake into a pile of scrap.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来，就结束了purin！",
+			say = "NOW it's over, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是本大人的胜利purin！",
+			say = "Victory is mine, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,10 +215,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "哦？是这样么？",
+			say = "Are you sure about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,11 +227,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "那为什么这场战斗还没获胜结算呢？",
+			say = "Then how come the results screen hasn't popped up yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Purin？！难、难道……",
+			say = "Purin?! No, it can't be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,9 +259,9 @@ return {
 			side = 2,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			actor = 403130,
-			say = "重生吧，我的半身——巨龙机甲·铁爪！",
+			say = "Come back to me, my second half – Iron Claw Mechadrake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,10 +275,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨龙机甲·铁爪",
+			actorName = "Iron Claw Mechadrake",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌",
+			say = "ROOOOOOAAAAARRRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

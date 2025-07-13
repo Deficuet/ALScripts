@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这里的珊瑚礁也很美，有点想去浮潜……",
+			say = "The coral reefs here are beautiful. It makes me want to put on some gear and go snorkeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过如果遇到水母的话……总感觉很危险。",
+			say = "Although, I might run into jellyfish... Those seem pretty dangerous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "别担心，我会保护{namecode:50:能代}的。",
+					content = "Don't worry. I'll keep you safe from them.",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}真是可靠呢……不过如果真的遇到水母的话……",
+			say = "How reliable! But really, if we WERE to run into jellyfish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "应该是我来保护{dorm3d}会比较合适吧？",
+			say = "Then if anything, I should be the one to protect you. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

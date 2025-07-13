@@ -10,7 +10,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "巴拿马要塞西侧·外海 稍早前",
+			say = "Canal Stronghold - Bay",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "伴随着迷雾的出现，越来越密集的塞壬舰队向要塞发动了进攻。",
+			say = "Under the cover of the mist, the Siren forces encroached upon the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "不过……",
+			say = "However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，就和计划中的一样，由驻防舰队吸引火力，配合要塞防御消灭敌人。",
+			say = "All right everyone, let's stick to the plan. Draw the enemies in, and work with the support fire from the stronghold to take them out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "物资保障检查…没问题！就算再打上几个月也能坚持的住。",
+			say = "Fortunately, we're well prepared for a war of attrition. We have enough supplies to withstand a siege for months.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，放马过来吧塞壬。今天巴拿马要塞就是你们的葬身之处…",
+			say = "At least, make sure none of these Sirens make it back alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡萨布兰卡，Nice作战计划~塞壬舰队这么浩大的攻势就被这么轻松化解了啊。",
+			say = "Nice going, Casablanca! You really are amazing! You even managed to evacuate all the transports so skillfully!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是在负责后勤没有什么前线作战经验的我…作战计划被大家采用是我的荣幸！",
+			say = "Speak nothing of it. Escorting vessels falls within my ballpark. If anything, thanks for hearing my ideas out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正确的意见就应该采用，与职位和资历无关。",
+			say = "Correct ideas ought to be implemented, regardless of position or seniority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有人型指挥带领的塞壬舰队虽然火力强大但是作战方式单一，这件事虽然我也知道…",
+			say = "I heard that this tactic is especially effective against mass-production Siren fleets that aren't lead by a humanoid-type.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 107170,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到会单一到这种程度啊…",
+			say = "But the fact that they've pushed us to take such measures...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望东侧的防御也能顺利进行就好了，那边面临的问题应该比我们还严重。",
+			say = "All we can hope for is that Intrepid and the others are having good luck with their search...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心。就算暂时失去了企业，那边还有埃塞克斯进行指挥，肯定没问题的。",
+			say = "Don't worry about them. If anyone is fit to lead in Enterprise's absence, it would be Essex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			say = "轰-----！",
+			say = "BOOOOOM--!",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
@@ -273,7 +273,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "？！！发生什么事了？！",
+			say = "What just happened...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一处要塞炮台被摧毁了…果然没这么顺利么。里诺、布莱默顿，报告前线情况。",
+			say = "One of the stronghold's turrets was just destroyed. I was afraid things wouldn't go so smoothly, even if it's just mass-produced enemies we're facing. Reno, Bremerton, how's the situation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬舰队突然开始无视前线舰队的阻拦，径直向要塞方向开火了！",
+			say = "Um... They're ignoring us and heading straight towards the stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的企图被发现了？！能重新吸引它们的注意么？",
+			say = "Did the plan fail? Were you not able to draw their fire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不行，阻止不了。塞壬完全无视了我们的任何攻击，就算会被摧毁也毫不反击的径直向要塞方向突击！",
+			say = "It's no good. They're even ignoring our attacks. They're single-mindedly advancing on the stronghold!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是没有自我意识的量产型，居然能对自己的舰队下达这样的命令…",
+			say = "They way they're moving makes my skin crawl, even if they aren't even sentient...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……为了达成战斗目标不惜牺牲参战全员么？！这种战斗方式我绝对不能认同…！",
+			say = "What villainous tactics! Throwing out mindless pawns like this! The hero within me screams out for justice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要局势需要就算是净化者之类的人型指挥也可以当成弃子，更何况单纯被当成兵器的量产型…",
+			say = "They know nothing of compassion or consciousness towards even their own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也是…塞壬，就是这样一种存在。",
+			say = "The Sirens truly are terrifying enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "继续被动防御下去，要塞很快就撑不住了哦！怎么样，要改变战术么？",
+			say = "Yeah... If they're shrugging off all our attacks like this, the stronghold's not going to be able to fend them off forever. How about a change in tactics?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来塞壬的指挥系统终于上线…没办法继续投机取巧了。",
+			say = "If the Sirens are dead set in destroying the stronghold, then what we ought to do should be clear as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 107170,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果塞壬的命令是不惜一切代价摧毁巴拿马要塞的话，我们要做的事就很简单了…",
+			say = "The stronghold's firepower is overwhelming compared to what us ships can muster. We can't afford to let it fall, no matter the cost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不惜一切代价，保护巴拿马要塞的安全。由我们主动出击，在塞壬接近要塞前消灭它们！",
+			say = "We need to take the initiative, break their lines, and cut off their reinforcements...!",
 			effects = {
 				{
 					active = true,

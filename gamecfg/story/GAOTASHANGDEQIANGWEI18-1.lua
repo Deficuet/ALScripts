@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "构建者制定的转移计划出乎意料的简单。",
+			say = "Compiler's transport plan proved a lot simpler than I anticipated.",
 			bgm = "story-antix-past",
 			location = {
-				"皇家·布里斯托尔湾",
+				"Royal Islands - Bristol Channel",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "——经过两小时的全力准备，然后沿着最短路线一路杀穿敌人前往LD港。",
+			say = "That being – after two hours of prepping as best as she could, she'd take the shortest route to the port of LD, charging through enemies on the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,21 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "而后，我们的舰队出乎意料之外，又很在情理之中地与天外之兽大军僵持在了布里斯托尔峡湾中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 0,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900430,
-			say = "土木白毛，我们打了半天怎么还在原地踏步走！",
+			say = "As expected, or perhaps as not expected, our fleet has ended up in a stalemate with an army of extraterrestrials in the Bristol Channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,46 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "你到底行不行啊！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "敌方在集群后，群体中每一个单体战斗力都得到了增强。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我还在计算其规模与战斗力增幅之间的具体公式。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "加之，敌方数量增长幅度超出预期，出于安全考虑，我必须要减慢推进速度，等待更多生产线投入使用。",
+			say = "Hey, albino fabricator! Why have we not moved an inch after all that fighting?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "那你怎么都开始在原地修炮台了啊！",
+			say = "Do something about this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +93,60 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这也是维持推进节奏所必要的建设。",
+			say = "The enemy has grouped up, making them stronger than the sum of their parts.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Calculating the relation between size of force and combat capabilities now.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Enemy is more numerous than predicted. We must slow down for safety's sake and wait for more production lines to come online.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 0,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900430,
+			say = "Then why are you building a fort here?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "It is necessary to preserve our momentum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哎呀……慢死了！慢死了！",
+			say = "Urgh... Too slow! TOO SLOW!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "照这个速度，我们什么时候才能到啊！",
+			say = "Who knows when we're gonna get there at THIS speed?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "72小时之内，一定能到。",
+			say = "Arrival within the next 72 hours is guaranteed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "……那不是和之前没区别嘛！！！",
+			say = "That's just as long as you said before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然有区别。之前的方案是等待72小时后再出发，路上耗时不定，这个方案则是72小时之内一定能抵达。",
+			say = "Negative. The previous 72-hour plan did not account for travel time. The current plan assures arrival within the next 72 hours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "……！！！！！！！",
+			say = "UUURRRGGGHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（构建者会选择这样的战术，倒是很符合她一贯以来的行事风格……）",
+			say = "(Her going with a tactic like this is pretty consistent with her modus operandi.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过也不能真的这么慢慢推过去……）",
+			say = "(We can't afford to take our sweet time, though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（得想个办法……嗯，还是得联络一下本土抵抗势力。）",
+			say = "(Need to come up with a plan... Hmm. I really should contact the survivors in the area.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（虽然不一定能得到战斗上的帮助，至少能得到路线情报上的支持……）",
+			say = "(They may not be able to send support, but even intel on their waterways would be a godsend.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

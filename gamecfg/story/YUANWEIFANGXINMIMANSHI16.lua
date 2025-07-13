@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>为主角干杯</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>A Toast to Our Host</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "从洗手间返回会场的走廊上，遇到了一位在此等候的人。",
+			say = "After finishing my stroll around the palace with Elizabeth, I return to the banquet hall, where I find someone waiting for me.",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202083,
-			say = "指挥官，这是陛下让我传递给你的信息，请过目。",
+			say = "Master, I've been asked to forward a message to you from Her Majesty. I urge you to read it at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "从谢菲尔德手中接过了一张精致的卡片。",
+			say = "She hands me an ornate card, embellished with royal iconography.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "卡片上是伊丽莎白的留言，希望我绕一下路，并附上了一个房间号。",
+			say = "In short, it tells me to come to a certain numbered room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "回过神来，谢菲尔德已经不见了，看来……要自己找过去了。",
+			say = "By the time I finish reading and look up, Sheffield is gone. I infer this to mean I should come alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "推开门，一个皇家风格的巨大房间映入眼帘。",
+			say = "Beyond the numbered door is a big room, furnished in typical Royal Navy fashion.",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "仿佛此处不是在鸢尾的城堡，而是来到了皇家的宫殿中。",
+			say = "Its lavishness rivals that of Elizabeth's own royal chamber. It's almost hard to believe a room like this exists within this palace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "巨大的房间中央摆着一张餐桌，伊丽莎白正一个人坐在桌前。",
+			say = "At the center of the room is a dining table. On the other end of it, Elizabeth sits by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，请，陛下正在等您。",
+			say = "Welcome, Master. Her Majesty is waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好慢啊，仆从！",
+			say = "Took you long enough, servant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这个房间有些难找……没想鸢尾城堡里还有这样的房间。",
+			say = "\"Sorry, I don't know this palace so I got lost for a while. That aside, very luxurious place you have here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你是指这个单独定制的私人包间？",
+			say = "You mean this VIP room?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "我可是伊丽莎白女王，{namecode:435}她们要是想要的话也一样可以有，这种事没什么稀奇的。",
+			say = "Of course it is. Elites such as me deserve elite treatment. I'm sure they provided Bismarck with something equally opulent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不是说要体验平凡么……？",
+			say = "\"I take it you're done experiencing normalcy, then?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "之前不是已经跟你体验过了？",
+			say = "I've enjoyed it enough for a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白眨了眨眼，然后挥起手来。",
+			say = "Belfast gestures at me, then shows me to my seat at the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "来，仆从，坐吧。",
+			say = "Take a seat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "还有肚子么？",
+			say = "Reckon you still have room in your stomach?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "……倒是有，不过这些菜都是女仆队做的？",
+			say = "\"I might. Did the Royal Maids prepare the whole feast you have here?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "只有茶是贝法泡的。其他的菜都是后厨直接送过来的，由鸢尾提供。",
+			say = "No, only the tea, courtesy of Bel. Everything else is from the Orthodoxy's kitchen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "所以跟你在会场吃的也没什么两样，不吃也行。",
+			say = "It's the same as what they're serving in the banquet hall. If you're not hungry, you may pass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "那就恭敬不如从命。陛下亲自邀请，怎么能拒绝呢。",
+			say = "\"It might be the same food, but the experience is different. It surely affects the taste when you eat in a queen's opulent room, per her invitation.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "贝法，给指挥官也上点菜吧。",
+			say = "Well, well! You can be charming from time to time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "坐在伊丽莎白旁边，边品茶，边随便吃着什么。",
+			say = "My dinner with Elizabeth is pleasant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "房间里格外安静，与喧嚣的会场仿佛属于两个世界",
+			say = "The mood is quiet, relaxing, and feels like it's another world compared to the hustle and bustle of the banquet hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不过突然注意到，只有我的杯中是茶，伊丽莎白杯中，似乎是酒。",
+			say = "Leaning back to admire my surroundings, I notice something strange – while my cup contains tea, Elizabeth's seems to contain wine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给你茶是因为，一会回会场里有的你喝的。",
+			say = "Wondering why you don't get any wine, do you? Because you need to stay sober until the main event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "至于本王，偶尔换换口味。",
+			say = "As for why I'M drinking wine... I just wanted something different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "鸢尾的葡萄酒还是不错的。",
+			say = "Let's not forget that the Orthodoxy is famous for its wine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "在年份选择上，黎塞留也下了不少心思。",
+			say = "Furthermore, Richelieu put a great deal of thought into her selection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给不同喜好的人，提供的年份也不同……呵，真心细啊。",
+			say = "She hand-picked different vintage brands to match each guest's preferences, you see. And she did a marvellous job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白将杯中的红酒一饮而尽，然后又自己倒了一杯。",
+			say = "She takes a sip from her cup of wine and savors it with all the elegance befitting a queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "这次宴会，鸢尾办的确实不错。",
+			say = "As I've said many times already, the Orthodoxy really did a remarkable job with this banquet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "大到流程小到细节，方方面面都照顾到了。",
+			say = "Everything is spotless, from the general gist to the fine details.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你感觉如何，有没有享受到这场庆典？",
+			say = "But what do you think, servant? Have you been enjoying yourself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "嗯，在会场中度过了一段愉快的时光。",
+			say = "\"Absolutely. I've not once felt anything could've been better.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "那就好……挺好的。",
+			say = "Good to hear. We're in agreement.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "谈话间，提示音响了一下，收到了一条黎塞留发来的活动邀请。",
+			say = "Right then, I hear a ring on my communicator. It's an invitation.",
 			soundeffect = "event:/ui/deng1",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "黎塞留……邀请你去舞池啊。",
+			say = "Must be from Richelieu. Seems you never have a moment to rest, eh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "那就去吧。",
+			say = "Go. She's waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本王有些喝多了，在这里再休息一下。",
+			say = "Don't worry about me. I've had you to myself enough for one day. Plus, I'm a little tipsy, so I should stay and rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，这边请。",
+			say = "If you would, Master, please follow me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "转头向着大门的方向走去，依稀听到背后的莎白说了什么。",
+			say = "Belfast leads me to the door. As I leave, I overhear Elizabeth whispering something to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "今晚的主角属于鸢尾。",
+			say = "The Orthodoxy can have this one victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本次……本王就破例，不去抢她们的风头了。",
+			say = "It's their banquet, after all. It'd be rude of us to steal their thunder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好好享受庆典哟，指挥官————",
+			say = "Enjoy the celebration now, servant.",
 			painting = {
 				alpha = 0.3,
 				time = 1

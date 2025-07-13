@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "信息对抗模拟测试关卡中，并非通过「摇杆」操作先锋角色。点击海面时，将消耗「移动指令」次数进行移动。 *「移动指令」会随时间自动累积。",
+				text = "During Simulation Battles, you can move your Vanguard by tapping anywhere on the screen. This takes Movement Orders. Movement Orders are gained over time.",
 				mode = 1,
 				posY = -240,
 				dir = -1,
@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "满足指令所需「费用」条件时，将指令拖出指令区域释放，可以打出指令。「费用」会随时间自动累积，上限为10。",
+				text = "If you can pay the Logistics cost of a card, you can use it by dragging and dropping it. Logistics are gained over time. You can have up to 10 at once.",
 				mode = 1,
 				posY = -160,
 				dir = 1,
@@ -30,7 +30,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "当打出指令后，当前指令有空位时，会从待抽取指令补充指令，直至达到6张 或 无可用的待抽取指令。",
+				text = "After using a Command card, you will draw from your deck until you have 6 cards in your hand.",
 				mode = 1,
 				posY = -160,
 				dir = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "指令具有「攻击」「回复」「强化」等不同效果，带有「循环」标签的指令，打出后会回到指令集最后。 来尝试一下「移动」和打出「攻击」　指令吧。",
+				text = "Command cards have varied effects such as attacking, recovering, and boosting. Some cards even return themselves to the deck after you use them.",
 				mode = 1,
 				posY = -160,
 				dir = 1,

@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "{namecode:84}宅邸·天守阁",
+			say = "Memory - Musashi's Abode",
 			bgm = "deepblue-image",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "少女站在窗前向外眺望，今夜无眠。",
+			say = "It was late at night. Musashi, a high-ranking member of the Sakura Empire, happened to have a freeloader in her home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "洁白的纱巾遮住了她的面容。",
+			say = "Said freeloader, a girl with a veil draped over her face, gazed out the window and up at the moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "（急促的脚步声——）",
+			say = "*stomp* *stomp* *stomp*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "真是抱歉！因为刚才听到些声响所以就上来看看。",
+			say = "Sorry! I heard a weird noise, so I came to check things out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "打搅到您的休息真是抱歉！",
+			say = "Whoa. You should be resting... Is everything okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,11 +109,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不必放在心上，我也是因为难以入眠才到这里来的。",
+			say = "There's nothing to be concerned about. I'm only here because I couldn't sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您是在找{namecode:84}大人吗？",
+			say = "Hm? Are you looking for Lady Musashi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "{namecode:84}大人她今晚好像出门去了哦？",
+			say = "She's out right now, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "她从背后抽出一个坐垫放在身旁，轻轻拍了拍。",
+			say = "Despite Sakawa saying so, the girl showed no intent to leave. Instead, she retrieved two cushions placed in the corner of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,11 +167,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可以陪我聊聊吗？",
+			say = "It's not as if I'll ever get to sleep. Shall we chat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "当然当然！",
+			say = "Sure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "差点忘了！首先应该为您准备茶水才是……",
+			say = "Oh! I almost forgot! Should I, um... make an offering of tea for you, or...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,11 +215,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不必麻烦了。",
+			say = "You don't have to do all that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……您想要聊点什么呢？",
+			say = "Okay... Um, what should we talk about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,11 +244,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "和我聊聊这里过去的事吧？",
+			say = "Hmm. Could I ask you to tell me about the past?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "过去的事啊……",
+			say = "The past...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人之前交代过，如果您有什么问题，我会尽我所能告诉您的。",
+			say = "Lady Musashi did tell me to answer any questions you have, so I'm glad to share anything I know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "您想从何谈起呢？",
+			say = "But when you say \"the past\"... What exactly do you want to know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,11 +309,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "比如十多年以前。",
+			say = "How about... the Reenactment of the treaty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "十多年以前啊……您是说{namecode:74}大人组织演习和退下总旗舰之位的那时候吧。",
+			say = "Oh, that~ You mean the time Lady Nagato planned special training exercises and retired from being the Combined Fleet flagship?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "虽然有关那时候的事我也是听说……",
+			say = "I only know bits about it that I've heard here and there, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,11 +356,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是听说也没有关系。",
+			say = "Hearsay is acceptable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,22 +368,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只需要将你知道的告诉我就可以了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			say = "少女摘去头纱，让长发舒展开。",
+			say = "All I want is to know what you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +383,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "她看向身旁的{namecode:226}，深红色的眼眸仿佛具有魔力一般。",
+			say = "The girl removed her veil, revealing her divine visage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +394,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:226}深吸一口气。",
+			say = "Sakawa gazed into her crimson eyes, perhaps out of curiosity, or perhaps bewitched by some magic shining within.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			say = "After a nervous sigh, she finally told the story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "这些都是我听来的哦……事情还要从多年前的一个清晨说起——",
+			say = "It IS just hearsay, though... One morning long ago—",
 			painting = {
 				alpha = 0.3,
 				time = 1

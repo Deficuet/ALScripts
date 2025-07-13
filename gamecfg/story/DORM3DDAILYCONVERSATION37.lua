@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION37",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,14 +14,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼哼♪~",
+			say = "Hmm-hm-hmm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "遇到了好事吗？",
+					content = "You sure sound happy.",
 					flag = 1
 				}
 			},
@@ -58,7 +55,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是的，因为和我骄傲的{dorm3d}独处一室，实在是令天狼星心潮澎湃，接下来的时间，不如就……",
+			say = "I am. My heart is racing now that we're alone with each other. In fact, I was thinking we could–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +67,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？难道您还没有这方面的想法吗？",
+			say = "Huh? You're not in the mood for that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

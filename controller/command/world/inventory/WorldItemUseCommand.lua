@@ -67,9 +67,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				item = var_2_2
 			})
 		elseif PLATFORM_CODE == PLATFORM_CHT then
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("大世界物品使用失敗：" .. arg_2_0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n1("Operation Siren item usage failure:" .. arg_2_0.result))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n1("大世界物品使用失败：" .. arg_2_0.result))
+			pg.TipsMgr.GetInstance():ShowTips(i18n1("Operation Siren item usage failure:" .. arg_2_0.result))
 		end
 	end)
 end

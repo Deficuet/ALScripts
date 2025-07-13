@@ -9,11 +9,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"实验场SQ-4577486",
+					"Test Site SQ-4577486",
 					1
 				},
 				{
-					"一段时间后",
+					"Shortly after",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "耀眼的光芒中，蔷薇塔连同周围数公里内的一切彻底消失了。",
+			say = "In dazzling light, the Rose Tower and everything in a several-kilometer radius around it had been obliterated.",
 			bgm = "theme-thechariotvii",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "当然，这种程度的冲击对于在一旁观察的提尔瑞特而言如同清风拂面，没有造成丝毫影响。",
+			say = "However, to the observing Chariot, the impact felt like little more than a soft breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "……多好的局部闭合回路，可惜了。",
+			say = "What a fantastic local closed circuit. It's a pity, really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "唉……也不在这里……",
+			say = "*sigh*... Not here, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "戴斯，我都快把这里翻了个遍了，你到底在哪儿？！",
+			say = "Oh, Deeeath! I've been looking all over for you. Where are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "别找了，戴斯已经走了。",
+			say = "Don't bother searching. She's already gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "走、走啦！？！",
+			say = "Huh? She is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "她在这里的问题已经被你轻松解决了，还留在这里做什么？",
+			say = "You solved all of her problems for her. Why would she stay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "不是……那也不能就这么一走了之了吧？",
+			say = "Aww... But it's just mean to leave without saying goodbye, don't you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "戴斯也有自己的原因。",
+			say = "Death has her reasons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "别抱怨了，我也给你个一走了之的机会。",
+			say = "Enough complaining. I'll give you the opportunity to leave, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "怎么说？",
+			say = "What does that mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "拉沃斯之后会来这里善后，你收拾好就去这个坐标，支援沐恩的一次重要行动。",
+			say = "Lovers will come to clean things up before long. After you're done here, go to these coordinates. Moon has important work that needs support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "呃……这种事怎么还找到我头上了。赫米忒三人组呢？",
+			say = "Aww... Why do I have to do it? What about Hermit's little trio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "她们之后也会被部署过去。",
+			say = "They will be joining you before long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "赫米忒……司特莲库斯……天帕兰斯……沐恩……再加上我……",
+			say = "Hermit, Strength, Temperance... Moon... AND me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "还有其他人吗？",
+			say = "Is there anyone else I should know about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "有。",
+			say = "Yes, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "这么大阵仗……零直接下的命令？",
+			say = "Does it need so many of us? Is this... a direct order from Zero?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "算是吧，一项「越界实验」要进入第三阶段了。",
+			say = "Supposedly, the transboundary experiment will be entering stage three.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "……知道了，我会尽快过去的。",
+			say = "...Okay. I'll go as soon as I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "很好。",
+			say = "Good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "……恩普雷斯，你觉得这次我们会有突破么？",
+			say = "Empress, do you think we'll make a breakthrough this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "如果能成功进入第三阶段的话，本身就是突破。",
+			say = "The fact that it's entered stage three is a breakthrough in itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900191,
-			say = "至于之后的事……尽力吧。",
+			say = "As for what comes after? Just do what you can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900478,
-			say = "……明白。",
+			say = "...Right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "鸢尾教国境内·某处",
+			say = "Somewhere in the Iris Orthodoxy",
 			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "这是一座远离都市喧嚣的郊外小镇。",
+			say = "In a small town, divorced from the hustle and bustle of the big city...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "平凡、安静，充满自然风光。",
+			say = "A quiet, peaceful place teeming with nature...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有地下密室、没有异常电波、没有可疑人员……",
+			say = "No unusual radio waves, no secret underground rooms, and no signs of suspicious folk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "这里也不是么……",
+			say = "Likewise here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……没有情报也没有线索，只能靠运气大海捞针的局面还真是令人讨厌啊。",
+			say = "Tch... It's such a pain to work without clues. My only option is to comb the entire place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官突然和鸢尾高层走得这么近……",
+			say = "...Still, I can't help but notice how friendly Master has gotten with Cardinal Richelieu's entourage of late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "不是被抓到了什么把柄，就是双方共享了某个至关重要的秘密……",
+			say = "Did she get a hold of your weaknesses? Or did you let a secret slip?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论是哪种情况，都需要尽快查清原委才行……",
+			say = "Either way, I need to find the cause immediately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "克莱蒙梭是个极其危险的女人，指挥官真是不知厉害，羊送虎口……",
+			say = "Clemenceau is a dangerous woman. If you're not careful, you may end up her prey – possibly in more ways than one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………嗯？",
+			say = "...Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,8 +200,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "霞飞",
-			say = "谢菲尔德小姐，没想到会在这里与你相遇。",
+			actorName = "Joffre",
+			say = "If it isn't Sheffield of the Royal Navy. Fancy meeting you here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……霞飞。",
+			say = "Joffre... Angel of the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "谢菲尔德小姐，你不是应该在会场负责皇家代表团的安全么？",
+			say = "As I understand, you're responsible for guarding the Royal Navy's representatives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "怎么会来到这处偏僻的小镇。",
+			say = "What could possibly bring you out to this town?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "你们审判庭的会场安保工作做得很出色，让我在会场都没什么事可做了。",
+			say = "Well, the Tribunal's venue security is perfect. It left me without any work to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我觉得不如来附近的景点转转，就当享受一下公款旅游。",
+			say = "So I thought I'd sightsee and make full use of my per-diem allowance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "呵呵，多谢你对于审判庭工作的肯定。",
+			say = "Well, thank you for your appraisal of our security.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "不过工作摸鱼可不值得鼓励哦。",
+			say = "However... Abandoning your post is hardly noble.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "当然，谢菲尔德小姐是客人，你能对鸢尾的景点有兴趣我还是很开心的。",
+			say = "Of course, the Tribunal and I don't mean to spoil our guests' fun. Especially not when they're clearly so interested in our attractions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "碰到就是缘分，附近有一处我很喜欢的景点，要一起来么？",
+			say = "Out of deference to the blessed Iris for uniting us on this day, I'll show you my favorite attraction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "提供全程导游服务哦——",
+			say = "Come, come. Right this way.",
 			painting = {
 				alpha = 0.3,
 				time = 1

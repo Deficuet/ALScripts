@@ -2,7 +2,7 @@ pg = pg or {}
 pg.intimacy_template = {
 	{
 		upper_bound = 3099,
-		name = "失望",
+		name = "Upset",
 		lower_bound = 0,
 		icon = "intimacy_1",
 		id = 1,
@@ -11,7 +11,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 6099,
-		name = "陌生",
+		name = "Stranger",
 		lower_bound = 3100,
 		icon = "intimacy_2",
 		id = 2,
@@ -20,7 +20,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 8099,
-		name = "友好",
+		name = "Friendly",
 		lower_bound = 6100,
 		icon = "intimacy_3",
 		id = 3,
@@ -29,7 +29,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 9999,
-		name = "喜欢",
+		name = "Crush",
 		lower_bound = 8100,
 		icon = "intimacy_4",
 		id = 4,
@@ -38,7 +38,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 10000,
-		name = "爱",
+		name = "Love",
 		lower_bound = 10000,
 		icon = "intimacy_5",
 		id = 5,
@@ -47,7 +47,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 19999,
-		name = "婚",
+		name = "Promised",
 		lower_bound = 10001,
 		icon = "Intimacy_6",
 		id = 6,
@@ -56,7 +56,7 @@ pg.intimacy_template = {
 	},
 	{
 		upper_bound = 20000,
-		name = "婚",
+		name = "Promised",
 		lower_bound = 20000,
 		icon = "Intimacy_6",
 		id = 7,

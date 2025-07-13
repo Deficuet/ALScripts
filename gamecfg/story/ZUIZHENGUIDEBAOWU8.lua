@@ -12,7 +12,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然潜艇想要正面作战还是太勉强了…！",
+			say = "Oww! Submarines really aren't meant for face-to-face combat...!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是当然的吧！别想再逃跑了！",
+			say = "That must be breaking news for you! If you want to run away like a coward, now's the time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "咕…！紧急下潜——！",
+			say = "Dang it... Crash diving...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又逃掉了…大斗犬，你那边没事吧？",
+			say = "She got away again... Bulldog, you all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "大斗犬？",
+			say = "... Bulldog?",
 			action = {
 				{
 					type = "shake",
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂~！大斗犬！",
+			say = "Bulldoooooog!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唔哦哦哦好耀眼！",
+			say = "Ow, my eyes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,9 +153,9 @@ return {
 			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "大斗犬",
+			actorName = "Bulldog",
 			dir = 1,
-			say = "…嗯，这样就没问题了",
+			say = "... Right here. I'm all right.",
 			effects = {
 				{
 					active = true,
@@ -176,7 +176,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "啊。女将，你没事吧",
+			say = "Amazon? I'm sorry if I blinded you.",
 			effects = {
 				{
 					active = false,
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈、哈啊……",
+			say = "Uhhhh-huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还是让潜艇逃掉了",
+			say = "Unfortunately, the submarine managed to escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…如果不能搞清楚她们的动向，运输舰还是一样会不安全啊…",
+			say = "Grrr... If we don't know where they're headed, our transport ships will be attacked again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这方面不用担心了",
+			say = "You don't need to worry about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恩尼格玛和密码本，还有铁血的海图，都拿到了",
+			say = "I managed to acquire the codebooks, an Enigma machine, and the Iron Blood's nautical charts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是怎么做到的！？",
+			say = "How on Earth did you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后再告诉你，先和舰队合流再说吧",
+			say = "I shall explain later. For now, let's join up with the rest of our fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼…算了。在这里瞎晃悠也不是办法",
+			say = "Hmm... Yes, let's. Standing around here will get us nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "女将看着{namecode:416}潜行而去的方向。",
+			say = "Amazon looked in the direction U-556 swam towards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "声纳虽然还能检测到潜艇的反应，但已经和运输舰的方向渐行渐远了",
+			say = "Her sonar is still picking up signs of Iron Blood submarines, but they seem to be going way off course from where their cargo ships are heading.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再追下去却导致运输舰被击沉的话可就得不偿失了呢",
+			say = "They might destroy our cargo ships even if we chase after them now, and then all would be for nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们面对的是真正的“狼群”…那在第三只出现之前，还是小心谨慎一点比较好",
+			say = "Given that they are a wolfpack and we haven't seen their third submarine yet, we should proceed with caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，没办法。今天就放过你们了，铁血潜艇！",
+			say = "That's the idea! We'll spare those pesky subs, for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "带着刚到手的恩尼格玛和密码本，两人返回了运输舰队所在的海域。",
+			say = "With the Enigma machine and codebooks in their hands, the two destroyers headed back to the area where their cargo ships were positioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…话说回来，刚才那是什么？",
+			say = "... By the way, what was thing you did earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……企业机密。",
+			say = "It's a secret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

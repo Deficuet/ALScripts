@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "信息对抗模拟测试关卡中，可以通过指令集功能，查看「待抽取指令」及「当前指令」的详细说明。",
+				text = "You can view your deck by tapping the icon in the bottom right corner.",
 				mode = 1,
 				posY = -220,
 				dir = -1,
@@ -18,7 +18,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "指令集界面中，点击卡牌可以查看更多卡牌信息。",
+				text = "You can inspect a Command card's effects by tapping on it.",
 				mode = 1,
 				posY = -160,
 				dir = 1,
@@ -32,7 +32,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "通过左下角的按钮，可以切换查看「待抽取指令」及「当前指令」。",
+				text = "Tap the icon in the bottom left corner to swap between viewing which cards are left in your deck and which you've already drawn.",
 				mode = 1,
 				posY = -160,
 				dir = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "点击左上角返回离开指令集界面。",
+				text = "Use the button in the top right corner to return to the previous menu.",
 				mode = 1,
 				posY = -160,
 				dir = 1,
@@ -58,7 +58,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "接下来请尝试打出各种指令，击败模拟中的敌方单位通过测试。",
+				text = "Make good use of your Command cards to destroy the enemy and finish the exercise!",
 				mode = 1,
 				posY = -160,
 				dir = 1,

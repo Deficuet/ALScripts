@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 19903,
 			nameColor = "#FFFFFF",
-			say = "老师，安克雷奇……喜欢！谢谢！",
+			say = "Anchorage likes it...! Thank you, Teacher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

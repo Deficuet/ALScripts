@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……你说上次的花见团子很好吃，想知道是在哪里买的？",
+			say = "...You really liked the dango we had last time and want to know where I got them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "其实是我自己做的……练习了很久呢。",
+			say = "Actually... I made them myself. I've practiced the recipe a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}想吃的话，我现在就去做吧？",
+			say = "If you want that, would you like me to make some right now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要一起么？",
+			say = "Maybe we could even... make them together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

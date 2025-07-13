@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"白领与美梦\n\n<size=45>高效工作时间</size>",
+					"Cubicle Dreamin'\n\n<size=45>Productive Work</size>",
 					1
 				}
 			}
@@ -21,15 +21,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「这里是在梦的世界中发生的故事。」</size>",
+					"<size=34>This is, apparently, all just a dream.</size>",
 					2.5
 				},
 				{
-					"<size=51>「内容纯属虚构，与港区一切真实人物、事件、团体、组织均无关联。」</size>",
+					"<size=34>All characters in this scenario are entirely fictional and have no relation to real people in the port.</size>",
 					5
 				},
 				{
-					"<size=51>「——大概。」</size>",
+					"<size=34>...According to Akashi's narrative disclaimer, anyway.</size>",
 					7.5
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-schoolfuture",
 			bgmDelay = 1,
-			say = "碧蓝航线科技有限公司·公司总部大楼",
+			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阁下，您醒了么？早上好～",
+			say = "Good morning, Your Excellency. Did you sleep well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,15 +67,15 @@ return {
 			},
 			options = {
 				{
-					content = "早上……好……Zzzzz",
+					content = "\"Mrgh... Good morning...\"",
 					flag = 1
 				},
 				{
-					content = "早上好！",
+					content = "\"Good morning you too!\"",
 					flag = 2
 				},
 				{
-					content = "……社长？",
+					content = "\"...Yes, Boss?\"",
 					flag = 3
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阁下还没完全醒过来么。",
+			say = "Still not fully awake yet, I suppose...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也是啊，毕竟只睡了3个小时……",
+			say = "That's understandable. You did only get three hours of sleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是阁下，这么快就进入工作状态了。",
+			say = "Fired up and ready to get to work already? Wonderful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您不会是在说我吧？",
+			say = "Boss? Are you referring to me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里的社长是阁下您，我只是社长助手而已。",
+			say = "I'm afraid you have it backwards. You're in charge here. I'm just your secretary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有个好消息告诉您：经过一个通宵的努力，紧急事项彻底解决了。",
+			say = "I have good news – everyone pulled through and managed to solve that problem that cropped up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "按照您昨晚的吩咐，参与项目的同伴们额外放假一天，已经去休息了。",
+			say = "As you instructed last night, I gave today off to all project members and let them go home to rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家都辛苦了。还剩一些简单的收尾工作，稍等片刻我就能处理完毕。",
+			say = "This has been a ton of work for all of us. All that's left is a few minor adjustments, which I'll see to in just a minute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，我为阁下准备了早餐和咖啡。因为不知阁下何时会醒，所以放在了保温箱里。请用吧～",
+			say = "Also, I made you breakfast and coffee. I wasn't sure when you would wake up, so I wrapped them up in foil to keep them warm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阁下是在意自己睡着的事情吗？",
+			say = "...What is it? Do you feel guilty about dozing off on the job?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是我见阁下实在是太累了，所以没有及时叫醒您……抱歉。",
+			say = "Please, you shouldn't. You were far too exhausted to perform any kind of work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "换做是我不小心睡着了，阁下您也不会就这么叫醒我的吧？呵呵～",
+			say = "Had I fallen asleep, you wouldn't have tried to wake me up, would you? It's the same thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			},
 			options = {
 				{
-					content = "伦敦也别忘了休息",
+					content = "\"Fair enough. Remember to take breaks, yourself.\"",
 					flag = 1
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等忙完最后这一点。我可不是什么工作狂人，阁下不用担心的。",
+			say = "I will take one once I finish this task. Rest assured, I'm no workaholic and I know when to stop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，对了，还有一件很重要的事情。",
+			say = "Oh, I just remembered something important...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,19 +358,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_169",
-			spine = true,
-			withoutActorName = true,
-			actor = 203011,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伦敦突然凑近过来——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "London rises from her chair and walks up to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +377,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要动哦，一会就好……",
+			say = "Please hold still, Your Excellency. This will only take a moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +414,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，领口和领带都重新整理好了。",
+			say = "There. I straightened out your necktie and collar.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +433,7 @@ return {
 			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身为社长，可不能用这么颓废的姿态迎接社员哦。",
+			say = "We can't allow our boss to look sloppy before employees, can we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,19 +444,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_169",
-			spine = true,
-			withoutActorName = true,
-			actor = 203011,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在那之后，边享用着美味的早餐，边听取伦敦的总结报告，这突如其来的紧急事项终于得以告一段落。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "I enjoy my breakfast and coffee while London updates me on our project. It's a relief to hear that we summarily resolved the issue that came up last night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

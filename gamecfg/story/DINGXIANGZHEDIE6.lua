@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			stopbgm = true,
-			say = "离开了葛莱娜泰咖啡厅，与约克城一行人在街上闲逛着。",
+			say = "We leave the café, and head for the shopping district around the campus.",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "这里虽然是大学，不过似乎采用了开放式的布局，教学楼、实验楼等大学配属建筑分布在街区之中。",
+			say = "Before I know it, we'd already crossed over from the campus into the bustling downtown area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "欸……博士又去忙了啊。",
+			say = "The doctor is quite the busy bee, isn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "也不是第一次这样了，博士来去就像一阵风。",
+			say = "Always has been. She comes and goes at the drop of a hat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "还好老师没被博士带走，不然今天的休假也要黯然失色不少。",
+			say = "Thankfully, we have the Professor here, or our day off would've been cut short.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "是啊是啊，不过现在有老师在就不一样了~",
+			say = "Haha, it's much more than a day off now. It's a group date with the Professor now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师有什么想去逛的地方么？",
+			say = "Let's not call it that. Professor, is there any place you wanna visit?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "接过北安普敦递来的显示有旅游地图字样的平板显示屏，在屏幕上随便划着。",
+			say = "Northampton passes me a device that projects a blow-up version of the surrounding area, casually navigating it with swipes of her finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "心中有一种想把这里每一寸土地都调查一遍，搞清楚到底发生了什么事的冲动。",
+			say = "If this world was a simulation and we could go anywhere within it, the scale and fidelity of the area around me alone would instantly exhaust the Sea of Stars' computational capacity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "不过……总之还是先顾好身边的事，一步一步来吧。",
+			say = "Therefore, somebody else's data must have been incorporated into this replication. But whose? I want to explore every nook and cranny of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,14 +160,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "距离安洁忙完大概还有五六个小时。首先的话——",
+			say = "That isn't possible before the time Anzeel comes back, but I at least have an idea of where I want to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去商业区看一看怎么样？",
+					content = "\"Let's check out the downtown area.\"",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~去逛街么！赞同！",
+			say = "Sounds good to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难得出来一次，买些什么东西好呢……",
+			say = "While we're at it, we can buy some souvenirs for our friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "反正安洁买单，不如把船舱全部装满吧！",
+			say = "Hell yeah. Let's buy a literal boatload of stuff with Anzeel's money.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "再怎么说这也太夸张了，博士的卡会被刷爆的。",
+			say = "I'm going to veto that. The doctor's going to have our heads if we max out her credit card.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "如果不能全买下来，那就要好好规划一下路线了啊——",
+			say = "Don't worry. I know just the perfect way to plan out a great date on a budget.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "用舰载机侦察也不可以哦，在规定区域外使用舰装是禁止事项。",
+			say = "I know what you're thinking. You may NOT use your aircraft to get a better view.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "被预判了！",
+			say = "C'mon! I might've thought about it, but I wasn't gonna do it for real.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "商业区的位置，哈曼不知道……",
+			say = "What are we going to do downtown?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没关系，让我来吧，我带了无人机。",
+			say = "Don't worry, I'll handle this. Drones are legal, even if your planes aren't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "北安普敦从随身背包中拿出一个通体白色的小型无人机。",
+			say = "Northampton suddenly takes out a small white drone from her bag, and it ascends into the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,14 +366,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "与以往认知中的不同，这个无人机的中心散发着微微蓝光，给人一种奇妙的感觉。",
+			say = "It's more sleek and elegant than anything I've seen before, a faint blue light pulsing from its center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这个无人机……",
+					content = "\"Whoa.\"",
 					flag = 1
 				}
 			}
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯，是AMZ公司的最新款哦。",
+			say = "Pretty cool, right? It's one of the newest models.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "出发之前博士借给我的，说可以让我们更好地欣赏城市风光。",
+			say = "The doctor let me borrow it. Said it ought to give us a better view of the city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "确实……这个风景，真是不错啊。",
+			say = "Lemme have a look... Dayum! That is a stunning view.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~发现了一家造型独特的纪念品店，看上去就很有趣，我们先去那边看看吧？",
+			say = "There's a neat souvenir place just down that way. Whaddya say we go there first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "纪念品店内——",
+			say = "After a period of walking, we enter the souvenir shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "这些……这些……还有这些……感觉都是基地里见不到的东西啊。",
+			say = "Wow, they have a lot of stuff you don't see every day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "还有这个，是之前看的那部西部电影的限量纪念品，居然能在这里见到——",
+			say = "Yeah, like this! The collector's edition of A Fistful of Molars! I've been dying to get my hands on this ever since...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "这个猫耳耳机……好可爱。",
+			say = "These cat-ear headphones are pretty cute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "大家已经完全乐在其中了呢。",
+			say = "It sounds like everyone's having a whale of a time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……约克城，你这一连串的备忘录，都是你要买的纪念品么……？",
+			say = "What do you have there, Yorktown? A shopping list?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……有要给企业她们带的，有给孟菲斯和安洁博士的。",
+			say = "Yes. We need to buy souvenirs for Enterprise, Memphis, and Dr. Anzeel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "然后还有……也需要给老师挑一份。",
+			say = "And something for the Professor, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸？什么什么？我好像听到了有趣的事！",
+			say = "*gasp*... I think I just overheard something juicy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我看看……明白了，这个绝对是打算买给老师的纪念品对不对！",
+			say = "Yorktown's gonna buy something for the Professor, eh? Hehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "嘿嘿，我明白约克城姐在想什么！",
+			say = "Hey, come over here for a sec!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这就叫老师来——",
+			say = "So, anything you've been wanting to get your hands on lately? Asking for a friend.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "等等……我还没决定好，不要乱声张！",
+			say = "Hornet! *sigh*... It was meant to be a surprise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "呼…………满载而归。接下来……去那个大楼里逛逛吧！",
+			say = "Whew, what a haul! So, where are we heading next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "唔……哈曼想去那家猫猫宠物店看看。",
+			say = "I wanna look around the pet store!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实，也不能一直买东西买下去呢。",
+			say = "Let's do that. We can't spend too much money after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "突然，广告宣传片的声音忽然响起，周围所有的屏幕一齐出现了相同的影像。",
+			say = "As we walk to the pet store, we see a movie advertisement playing from a giant screen on the side of a tall building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,10 +842,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "Bon Homme Richard Movie Ad",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "大家好，我是好人理查德，我所主演的电影《魔方航母遇险记》正在上映中",
+			say = "Hey, everyone! It's me, Bon Homme Richard. The Final Countdown is in theaters now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,10 +853,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "Bon Homme Richard Movie Ad",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "如果大家能去电影院欣赏一下的话，我会很开心！",
+			say = "I had a lot of fun in the starring role. Be sure to check it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,10 +864,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "Deep-Voiced Narrator",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "《魔方航母遇险记》——今年最受期待的海战巨制正在上映中！",
+			say = "Welcome to the paradox of time, where past and present become one and history is actually changed! The Final Countdown... now in a theater near you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,10 +875,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "Deep-Voiced Narrator",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "现在观影更有机会抽取PH港豪华三日免费旅游券————",
+			say = "Buy a ticket today and you have the chance to win a three-day guided tour of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,10 +886,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "哇哦，大家快看，是好人理查德！",
+			say = "Did you see that? That was Bonnie up there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,10 +897,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "北安普顿II",
+			actorName = "Northampton II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "到处都是她的广告啊……",
+			say = "She's really featuring in a movie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,10 +908,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "就说之前见到她的时候，她神神秘秘地说参加了一个保密项目！",
+			say = "Apparently! I asked her what she's been up to the other day, and she said she's involved in a top-secret project...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,10 +919,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "没想到是跑出去拍电影玩了！",
+			say = "Guess this is what that was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,10 +930,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "真好啊……这就是联邦海军发言人的特权么",
+			say = "I wish I was a cultural ambassador like her. She's got it easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,10 +941,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "虽然有一定特权，不过理查德作为我们的代表，她在外面参与这些活动也承受着巨大压力。",
+			say = "It's harder than it looks. Having the eyes of the world on you comes with a lot of pressure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,10 +952,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "每一句话的措辞，每一个动作都要先思考再行动，我觉得我们肯定是做不到的。",
+			say = "Imagine having to choose your every word carefully. I really don't think any of us are cut out for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,10 +963,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "约克城II",
+			actorName = "Yorktown II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "就在我们逛街的这段时间里，她说不定已经去忙下一件事了哦。",
+			say = "And while we're enjoying ourselves as tourists, she's probably rehearsing for her next public appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,10 +974,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "…………我倒是没想到这些，不行不行，想想我就做不到。",
+			say = "You got a point. I didn't think about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,10 +985,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "没想到她居然这么辛苦，一会也给她买个礼物带回去好了。",
+			say = "Whaddya say we buy her a souvenir too, while we're here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,10 +996,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "对了！北安普敦，用你的无人机给我们拍张照吧。",
+			say = "Wait, first, let's take a group selfie! Northampton, you do the honor with your drone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,10 +1007,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "把我们所有人，还有广告牌上的理查德拍进去！",
+			say = "Make sure you get all of us, Bonnie included, in the frame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,10 +1018,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "她要是知道自己错过了这次跟老师还有博士的旅行，估计要难受死了。",
+			say = "Y'know, she'd probably be livid if she learned we went on a date with the Professor without her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,10 +1029,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "大黄蜂II",
+			actorName = "Hornet II",
 			bgName = "bg_zhedie_1",
 			nameColor = "#A9F548FF",
-			say = "所以这么拍一下，四舍五入就算她也参与了~",
+			say = "But if her face is in the picture, you can at least say she was there in spirit, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那事不宜迟……来，老师你站中间，然后哈曼还有兰利，你们站在这边……还有约克城姐，就站在老师旁边好了~",
+			say = "How does that sound, Professor? Over here, you can stand in the middle. Hammann, Langley, scoot over a bit. Yorktown, you can stand right beside the Professor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，那大家各就各位——1、2，茄子——",
+			say = "And I'll be riiight here. Everyone ready? Say \"cheese\" on three. One, two...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1081,7 +1081,7 @@ return {
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，拍好了！",
+			say = "Yup, looks good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1113,7 +1113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼很好~那你先发给我吧，我一会邮件发给她。",
+			say = "Thanks! Send it to me. I wanna show it to Bonnie right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "然后我有个提议，既然看到广告宣传了，接下来咱们一起去看看理查德演的这部电影怎么样？",
+			say = "Oh, I just got an idea. Why don't we go watch that movie she's in? She did tell us to check it out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "老师应该也很有兴趣吧？",
+			say = "I know you wanna. Especially you, Professor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1163,7 +1163,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "当然，我们一起去看吧",
+			say = "That name, Bon Homme Richard... It's come up before, in some files from the Northern Parliament and the Royal Navy. None of it seemed good, but I'm very curious to learn more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "（好人理查德是么，没想到会在这里遇到初次见面的舰船……）",
+			say = "\"Sounds like a plan. Let's do it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,7 +1187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "好诶~那就拜托约克城姐买票，北安普敦用无人机导航，我们向着电影院，出发~",
+			say = "Sweet. Yorktown, go ahead book some tickets for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "注意到船的航向后，圣马丁没有攻击，只是在跟随在船的不远处等待着。",
+			say = "In light of our change of course, rather than pick up the pace, São Martinho maintains a set distance behind us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "等待“伟大的皇家财富”撞入未知的无风带中。",
+			say = "It's as if she expects us to wander into the Windless Sea and is waiting for it to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "然而……",
+			say = "Then, suddenly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……风停了。",
+			say = "...The wind stopped.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,12 +63,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "沉闷的空气、忽然停止的风，海面也静得可怕。",
+			say = "The air is heavy and the seas are calm... Uh-oh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,12 +82,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这不是无风带……",
+			say = "This isn't the Windless Sea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——轰！",
+			say = "KRR-BOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -170,12 +170,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "风暴！风暴要来了！",
+			say = "It's a storm! A storm's coming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,12 +189,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "必须得躲起来才行！",
+			say = "We need to find shelter, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,12 +208,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………我们也没地方躲啊！",
+			say = "...But where are you supposed to find shelter on the open bloody ocean?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "只是眨眼的功夫，雨点与狂风一并从天穹抛了下来。",
+			say = "In the blink of an eye, our ship begins being pelted with rain and rocked with gales.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "即便是“最好的快船”，在这狂风暴雨中也只能如浮萍一般随波逐流。",
+			say = "In a storm like this, it matters not whether you're in the shabbiest sloop or the best clipper – the waves will pummel your hull either way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "但深陷危机的，并非只有“伟大的皇家财富”。",
+			say = "As it goes with the Great Royal Fortune, so too does it go with our pursuer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,11 +260,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……！",
+			say = "Gah...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,11 +274,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这下可好了，她离自己的战舰太远了……",
+			say = "She's gotten separated from her galleon... Good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,12 +292,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她撑不了太久的……！",
+			say = "I doubt she'll make it far like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,12 +311,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！别追了！一根筋的笨蛋！快跑啊！",
+			say = "Oi, you stubborn prat! Give up the chase and go away already!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "圣马丁愣了一下，但最后还是没有离开。",
+			say = "São Martinho winces, but shows no intent of breaking off from us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "尽管，自然的伟力从不在乎凡尘生灵的抉择——",
+			say = "She is determined, but the storm is apathetic to her resolve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,14 +365,14 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（糟了……！）",
+			say = "(I can't just leave her to her fate!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "皇家财富，掌舵！",
+					content = "Royal Fortune, take the helm!",
 					flag = 1
 				}
 			}
@@ -381,12 +381,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？！你想救她？",
+			say = "What? Are you seriously thinking about saving her?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,12 +400,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能力不足啊喂！",
+			say = "She can't even save herself... Bah, fine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "虽然说着这样的话，但皇家财富还是用力地扳住了舵轮。",
+			say = "Despite her objection, Royal Fortune grips the helm and pulls it hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "金鹿，过来帮我一下！",
+			say = "I need your help, too, Golden Hind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……圣马丁！快过来！",
+			say = "São Martinho! Come here, quickly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……抓紧我……！",
+			say = "Grab my hand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,10 +466,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……！",
+			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,11 +489,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………！",
+			say = "Mrrghh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,11 +513,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………！",
+			say = "Come on...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,12 +537,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小心！浪头过来了！",
+			say = "The waves are coming! Look out, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,14 +558,14 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抓稳扶好！",
+			say = "Almost there! Don't let go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "攥住圣马丁的手腕。",
+					content = "(Grasp São Martinho's arm.)",
 					flag = 1
 				}
 			}
@@ -574,12 +574,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你……浪……太大…！",
+			say = "Comma... wave... too strong!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,12 +603,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——！……！",
+			say = "We're... turn...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "耳边的一切都淹没在风暴的怒吼中。",
+			say = "The furious thunder drowns out their voices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "唯一能做的，就是在狂暴的风雨中紧紧地攥住对方。",
+			say = "I do the only thing I can – hold on to São Martinho's hand like my life depends on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

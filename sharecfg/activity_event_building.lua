@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_event_building = {
 	{
 		id = 1,
-		name = "啾啾咖啡 ",
-		desc = "港区CAFF，出售：皇家咖啡、北方联合面包、撒丁披萨。 ",
+		name = "Manjuu Café",
+		desc = "A café with tastes from around the world: coffee from the Royal Navy, bread from the Northern Parliament, and pizza from Sardegna.",
 		buff = {
 			13,
 			14,
@@ -28,8 +28,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 2,
-		name = "啾啾小笼 ",
-		desc = "热气腾腾的小笼包，正宗东煌风味，客官不来一笼么？ ",
+		name = "Dumpling House",
+		desc = "Piping-hot soup dumplings, bursting with authentic Dragon Empery flavors. Step right up and get a basket!",
 		buff = {
 			16,
 			17,
@@ -54,8 +54,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 3,
-		name = "啾啾汉堡 ",
-		desc = "快乐三件套：汉堡、可乐与薯条。",
+		name = "Burger Joint",
+		desc = "The trifecta of happiness: a tasty hamburger, ice-cold cola, and crispy fries.",
 		buff = {
 			19,
 			20,
@@ -80,8 +80,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 4,
-		name = "啾啾和菓子 ",
-		desc = "重樱风味的传统和菓子店，三周年限定纪念款绝赞售卖中。 ",
+		name = "Dango Shop",
+		desc = "These commemorative dangos from the Sakura Empire almost look too beautiful to eat.",
 		buff = {
 			22,
 			23,
@@ -106,8 +106,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 5,
-		name = "啾啾书店",
-		desc = "漫画、小说、工具书...考试辅导材料限时半价中。",
+		name = "Manjuu Bookstore",
+		desc = "My friend asked me to pick something up! S-seriously, I'm not into this kind of literature...",
 		buff = {
 			13,
 			14,
@@ -132,8 +132,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 6,
-		name = "啾啾游戏店",
-		desc = "本店不但出售最新款游戏，更出售比游戏更刺激的......最新款主机！",
+		name = "Manjuju Game Shop",
+		desc = "Wow, what a spectacular array of games they have this month... This ghost's wallet isn't going to survive...",
 		buff = {
 			16,
 			17,
@@ -158,8 +158,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 7,
-		name = "啾啾模型店",
-		desc = "下一次扭蛋一定会是想要的那个！",
+		name = "Manjuu Capsule Shop",
+		desc = "No longer shall the gacha gods deny me!!!",
 		buff = {
 			19,
 			20,
@@ -184,8 +184,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 8,
-		name = "啾啾咖啡",
-		desc = "辛劳之余，要来一杯可口的JUJU咖啡么？",
+		name = "Juju Café",
+		desc = "Slightly rebranded, same delicious flavors.",
 		buff = {
 			22,
 			23,
@@ -210,8 +210,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 9,
-		name = "旋转木啾",
-		desc = "当达到最高速时，或许真的能飞起来哦？",
+		name = "Dizzy Manjuu",
+		desc = "It's a need for speed, not a need for angular velocity! Arrrrgh...!",
 		buff = {
 			13,
 			14,
@@ -236,8 +236,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 10,
-		name = "云霄飞啾",
-		desc = "速度、激情与一飞冲天的感觉！",
+		name = "Cloud-Chasing Manjuu",
+		desc = "Manjuus may be flightless, but roller coasters have given them a taste of their true potential.",
 		buff = {
 			16,
 			17,
@@ -262,8 +262,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 11,
-		name = "跳楼啾",
-		desc = "尽情享受下坠的快乐吧！",
+		name = "Xtreme Bunjuu",
+		desc = "I fear no heights. But gachas? Those scare me...",
 		buff = {
 			19,
 			20,
@@ -288,8 +288,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 12,
-		name = "啾啾海盗船",
-		desc = "喜欢乘风破浪的感觉么？",
+		name = "Manjuu Pirate Ship",
+		desc = "C'mon, you should know by now that this game is all about the booty.",
 		buff = {
 			22,
 			23,
@@ -314,8 +314,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 13,
-		name = "啾啾冲浪",
-		desc = "与海浪一同起舞吧！",
+		name = "Manjuu Waverider",
+		desc = "The wildest and wettest ride of your life!",
 		buff = {
 			13,
 			14,
@@ -340,8 +340,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 14,
-		name = "啾啾跳水",
-		desc = "水花越小，分数越高哦！",
+		name = "Manjuu Diver",
+		desc = "Remember to shout \"Geronimooooo\"!",
 		buff = {
 			16,
 			17,
@@ -366,8 +366,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 15,
-		name = "滑滑世界",
-		desc = "紧张刺激的水滑梯之旅！",
+		name = "Slippy Slide",
+		desc = "High speeds and crazy turns with a splashing climax!",
 		buff = {
 			19,
 			20,
@@ -392,8 +392,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 16,
-		name = "啾啾瀑布",
-		desc = "尽情感受水流的冲击！",
+		name = "Mini Waterfall",
+		desc = "Will you take the plunge?",
 		buff = {
 			22,
 			23,
@@ -418,8 +418,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 17,
-		name = "皇家午茶",
-		desc = "茶AND咖啡店！，其名为皇家午茶<Queen's Tea>！就通过这个本王亲自监督设计的皇家午茶企划，来一转颓势吧！哼哼！",
+		name = "Royal Navy Teahouse",
+		desc = "A teahouse with a classy atmosphere. It beckons you inside with the scent of fragrant herbs and creamy pastries.",
 		buff = {
 			49,
 			50,
@@ -460,8 +460,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 18,
-		name = "莱茵咖啡馆",
-		desc = "在传统咖啡的基础上，开发新的饮品和食物，以创新性作为卖点…——嗯，不失为一个好主意…",
+		name = "Iron Blood Café",
+		desc = "A café with a laid-back atmosphere. It tempts you with the promise of hot coffee and savory food.",
 		buff = {
 			54,
 			55,
@@ -502,8 +502,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 19,
-		name = "主教学楼",
-		desc = "好好学习，天天向上。",
+		name = "Manjuu Schoolhouse",
+		desc = "\"Myoukou, how many times do I have to tell you not to run in the hallway...?\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			13,
 			14,
@@ -528,8 +528,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 20,
-		name = "占卜屋",
-		desc = "想要了解今日运势么？",
+		name = "Manjuu Fortune Teller",
+		desc = "\"Hey, stop flipping over the tarot cards without me telling you to!\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			16,
 			17,
@@ -554,8 +554,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 21,
-		name = "演唱台",
-		desc = "空闲时间任何人都能上台！",
+		name = "Manjuu Stage",
+		desc = "\"Stop it, Cygnet! You can't go to the stalls until AFTER the concert!\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			19,
 			20,
@@ -580,8 +580,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 22,
-		name = "校园商街",
-		desc = "请尽情挑选——",
+		name = "Manjuu School Shops",
+		desc = "\"Thank you for your patronyage. Heh heh heh.\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			22,
 			23,
@@ -606,8 +606,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 23,
-		name = "生活区",
-		desc = "国服六周年后山建筑",
+		name = "Living Quarters",
+		desc = "",
 		buff = {
 			126,
 			127,
@@ -640,8 +640,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 24,
-		name = "海岛制作台",
-		desc = "国服六周年后山建筑",
+		name = "Crafting Station",
+		desc = "",
 		buff = {
 			130,
 			131,
@@ -674,8 +674,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 25,
-		name = "啾啾探险队",
-		desc = "国服六周年后山建筑",
+		name = "Expedition Squad",
+		desc = "",
 		buff = {
 			134,
 			135,
@@ -708,8 +708,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 26,
-		name = "用餐区",
-		desc = "国服六周年后山建筑",
+		name = "Dining Area",
+		desc = "",
 		buff = {
 			138,
 			139,
@@ -742,8 +742,8 @@ pg.activity_event_building = {
 	},
 	{
 		id = 27,
-		name = "海岛据点",
-		desc = "国服六周年后山据点",
+		name = "Base Camp",
+		desc = "",
 		buff = {
 			110,
 			111,

@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……",
+			say = "Whew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "一日的游玩结束后，终于回到了房间的床上。",
+			say = "Having spent the whole day at the amusement park, I fall into bed like a tree toppling over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "就在昏昏欲睡的时刻，察觉到了一些细微的异样。",
+			say = "While I'm still barely awake, I suddenly sense that something isn't quite right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~早上好啊，指挥官！",
+			say = "Heheh! Good morning, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,18 +74,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "床轻微震动几下，紧接着是少女的温度与重量都落在了身上。",
+			say = "My bed creaks, and suddenly I feel the weight of a woman's body on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "布莱默顿……？",
+					content = "Bremerton?",
 					flag = 1
 				},
 				{
-					content = "早上好……？",
+					content = "\"Morning\"?",
 					flag = 2
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "你怎么会在这里？",
+			say = "How'd you get in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想着指挥官玩了一天肯定很累了，应该很需要按摩，就过来了~",
+			say = "You were out and about the whole day, and I figured you could use a massage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到疲倦的指挥官居然这么没有防备心！轻而易举就让我进来啦~",
+			say = "So I walked in, just like that. You're totally defenseless when you're exhausted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……",
+			say = "Uh-huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了，不说别的啦，让我来为你按摩吧~",
+			say = "Hey, don't worry 'bout the details. Do you want a massage or not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "说早上好应该不对吧？现在是凌晨。",
+			say = "It's too early for \"good morning,\" don't you think? It's still the very EARLY morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凌晨是一天新的开始啊！怎么不算早上呢？嘿嘿~",
+			say = "Early morning is still morning, so good morning it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,18 +208,18 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天指挥官玩了一天肯定很累了，我来提供特别的按摩服务哦~",
+			say = "You've gotta be exhausted after wanderin' around the amusement park all day. That's why I'mma give you a real good massage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接受",
+					content = "(Accept her offer.)",
 					flag = 1
 				},
 				{
-					content = "拒绝",
+					content = "(Decline.)",
 					flag = 2
 				}
 			}
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "好，那就麻烦你了。",
+			say = "Sure. Go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我一定努力！",
+			say = "Ahaha! You're gonna love this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "可以拒绝么？我想睡觉。",
+			say = "I think I'd prefer to just sleep instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能理解你的疲倦啦，可是如果不好好按摩放松的话，明天肌肉还是会酸痛的哦~",
+			say = "You're sleepy, I get it, but you NEED a massage or those muscles're gonna be aching like hell tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "你闭着眼睛享受就好啦~！其他的交给我！",
+			say = "Just close your eyes and relax. I'll handle everything else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "我先给你抹上精油哦……嗯~好香！先在掌心捂热一些……",
+			say = "First up, let's get some essential oil on you. Ooh, this smells good! Just gonna warm this up with my hands aaand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "少女用温热的掌心将精油抹上了肩背，淡淡的香气充斥着鼻腔。",
+			say = "She spreads the warm oil over my back and shoulders. Its light aroma fills my nostrils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "随后，力道适中的按压精准地落在了身上。",
+			say = "Then the massage begins. It's neither too rough, nor too gentle – it's just perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇——指挥官这里的肌肉也太僵硬了——！要好好揉开才行啊！",
+			say = "God, your whole body's stiff as a board. I've gotta soften you up good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "看来今天真的玩累了呢，肌肉都绷得紧紧的！",
+			say = "Today must've been a REAL workout for you. Your muscles feel like rubber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,18 +364,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天在游乐园中体验怎么样？跟我聊聊吧~",
+			say = "Speakin' of, did you enjoy yourself at the amusement park? Call me curious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "各种项目都不错",
+					content = "Yeah. I rode all kinds of fun attractions.",
 					flag = 1
 				},
 				{
-					content = "今天玩得很尽兴",
+					content = "Sure did. I had a blast.",
 					flag = 2
 				}
 			}
@@ -389,7 +389,7 @@ return {
 			actor = 900454,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也觉得~不过我最喜欢过山车和摩天轮！下次我们一起玩吧~！",
+			say = "Same! Shoutouts to my favorites – the roller coaster and the Ferris wheel. We should totally ride those together sometime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嗯！指挥官也很久没这样大玩特玩了吧~！",
+			say = "I bet! You haven't had a chance to let loose for a long while now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "与布莱默顿闲聊着、在规律的按摩下，睡意逐渐重新上涌。",
+			say = "Between our chit-chat and the rhythmic massage I'm getting, I can feel the sleepiness creeping up on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "呼~指挥官，这里呢？我也帮你按一按吗？",
+			say = "Commander? Hellooo? Mind if I press on this spot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "Uh-huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "不说话的话我就开始了哦！",
+			say = "I'll take your silence as a yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "Uh-huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "半梦半醒间，听见了少女带着抱怨的嘟喃。",
+			say = "Straddling the line between dreams and reality, I hear Bremerton grumble something under her breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "真是的……人家这么努力地按摩，你倒是睡得挺香的！",
+			say = "Maaan... Just falling asleep on a girl when she's massaging you like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真拿你没办法呢……",
+			say = "If that's how it's gonna be, fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "床再次微微震动，随后温暖而轻柔的吻落在了脸颊上。",
+			say = "The bed jiggles faintly, and a moment later, I feel a warm kiss on my cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "睡个好觉吧，指挥官。",
+			say = "G'night, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900454,
-			say = "晚安~",
+			say = "Sleep tight♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

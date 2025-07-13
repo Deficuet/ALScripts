@@ -13,7 +13,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶…到此为止了吗…",
+			say = "Damn it... Is this really the end?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "振、振作一点，伯明翰！",
+			say = "You've gotta get up, B-Birmingham!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "这次居然要扮演那些东西。听我说啊，最近是不是越来越离谱了？",
+			say = "Man, they sure dumped a ton of dirty work in my lap this time. Hey, what's-your-name, Burnie-sham? You still with me? Heellloooo? Come on, get up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 102070,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "不、不要再靠近了！",
+			say = "P-please stay away from us!",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -163,9 +163,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "啧，不要一边眼泪汪汪的看着我，一边掏出那么危险的武装啊！",
+			say = "Whoa, there! Didn't your mom teach you not to point guns at people, little girl? Especially in your state! Look at you, you're barely able to see me through those tears!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,9 +179,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "不过要是就这么顺势向我求饶，说不定我真的会放过你哦~？",
+			say = "Tell you what: plead for your lives like you mean it and I might just spare you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,9 +195,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "反正这次本来的目的也不是你们这些无关紧要的存在~",
+			say = "After all, you're so insignificant that your fates aren't worth the brain cells it takes to remember!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 0,
 			actor = 102230,
 			dir = 1,
-			say = "朱诺，不要管我了，快撤退…！",
+			say = "Juneau... Don't worry about me, just get out of here...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不！我、我不会抛弃同伴…也绝对不会向敌人投降！",
+			say = "No way! I won't abandon my friends... or surrender to the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！",
+			say = "That's right! Well said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			actor = 101020,
 			dir = 1,
-			say = "大家都还……赶上了！",
+			say = "Juneau! Baltimore! Thank goodness, you're still okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "杜威…艾尔温！你、你们怎么又回来了---啊！是指挥官的舰队！",
+			say = "Dewey... Aylwin...! Why did you come back? Ohh! Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "得救了…",
+			say = "We're saved...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在强敌面前坚持这么久，辛苦了。",
+			say = "You've managed to hold back a mighty enemy for such a long time. You should be proud of yourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，净化者，欺负小姑娘算什么本事，你的对手在这边吧！",
+			say = "You there! \"Purifier,\" was it? Pick on someone your own size instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,9 +353,9 @@ return {
 			actor = 900021,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "这是…哈啊，Bingo，果然和观察者所说的一样，你会亲自上阵啊",
+			say = "Aha~ Bingo! You showed up right on schedule, just like Observer predicted~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -373,9 +373,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "现在配角们都到齐，就差主角登场了。时间还有得是，不如先来陪我消遣一下吧~",
+			say = "The lead actors haven't assembled yet... but you chumps are going to get front row seats!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

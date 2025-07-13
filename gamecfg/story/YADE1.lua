@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>一　繁忙的日常</size>",
+					"Slacking Off with the \"Good\" Girl\n\n<size=45>1.Busy Days</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "打扰了～你的秘书舰准时来了哦。",
+			say = "Coming iiin. Your secretary ship is here right on time, Commander. Lucky you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "唔，指挥官，你的精神看起来不太好哦？没事吧？",
+			say = "My... You don't look too hot, Commander. Are you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好。{namecode:491}就像之前那样，帮忙完成一些简单的工作吧～",
+			say = "...Good. Then I will help out as usual... with the easy stuff, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……不知不觉又忙了一整天呢。",
+			say = "Phew... It got dark in no time, didn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "{namecode:491}这几天也帮了不少忙，指挥官的工作却完全没有减少的迹象……",
+			say = "Still, despite how much I've been helping you, your work backlog hasn't shrunk at all. Why is that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "毕竟{namecode:491}也只能帮忙检查下印刷和错别字这样的小事，实际的决策还是要指挥官亲自来做。辛苦你了～",
+			say = "Well, I suppose all I can really do is find typos and the like... The actual decision-making falls to you, in the end. Okay! Good work today, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			},
 			options = {
 				{
-					content = "也辛苦{namecode:491}了",
+					content = "\"Thanks for your help, Jade.\"",
 					flag = 1
 				}
 			}
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "Aww, you appreciate all my hard work? In that case...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，你有没有想过“偷懒”？",
+			say = "Commander, do you ever find yourself wanting to be a little lazy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然不是真正意义上的偷懒哦。指挥官和{namecode:491}都是好孩子，是不会工作放在一边自顾自的玩的。",
+			say = "Of course, I don't mean just abandoning your work wholesale. After all, a girl as good as me would never neglect her duties.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我指的是“适当的放松时间”哦。",
+			say = "What I'm suggesting is... resting, in moderation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官连续高强度工作的这几天，文件上的错别字越来越多。因为缺乏休息，精神也渐渐集中不起来了。",
+			say = "I've noticed that you've been making a lot more typographical errors lately. It seems to me like you're losing concentration due to a lack of rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "无、无法反驳……",
+			say = "\"I-I can't refute that...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，为了指挥官能更好地工作，{namecode:491}准备好了一套“偷懒计划”。",
+			say = "Ergo, I propose laziness in order to raise your work efficiency!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "简单地来说，就是在特定的日子抽两个小时彻底放松自己。除非遇到紧急事态，不然不许工作。",
+			say = "Though, really, all I'm suggesting is that you totally turn off for two hours on a specific day. As long as there aren't any emergencies, you're forbidden from working.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "至于具体的时间和内容，就交给{namecode:491}好了，毕竟计划也是我想的嘛。",
+			say = "As for what you'll do while you're off work, this good girl will gladly find something for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是坏孩子的借口，而是好孩子为了恢复工作状态而做的努力～指挥官，你觉得呢？",
+			say = "This isn't a naughty excuse; it's a way for good Commanders to raise their efficiency. Persuasive enough, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应她",
+					content = "\"Yeah, that's fair.\"",
 					flag = 1
 				}
 			}
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "嗯！我就知道指挥官是不会拒绝{namecode:491}的～",
+			say = "Hahaha! I knew you'd understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "事不宜迟，第一次的“偷懒计划”就定在明天吧。",
+			say = "Why don't we give it a try tomorrow morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官什么都不用准备，只要等{namecode:491}安排就好了~",
+			say = "You don't need to do anything; leave it aaall to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那就这么定了~我先回去啦。",
+			say = "So it's settled! I'd best take my leave now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……啊对了，熬夜是坏孩子的行为，今天不可以再那么晚睡觉了哦！",
+			say = "Oh, I forgot to add one thing. Staying up late is for naughty Commanders, so get to bed early tonight, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "目送着{namecode:491}离开了指挥室。",
+			say = "I watched Jade leave as I cleaned up the rest of my documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "今天也该早点休息了，再处理一会工作就回房间吧——",
+			say = "\"I guess I'll have to go to sleep early tonight...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

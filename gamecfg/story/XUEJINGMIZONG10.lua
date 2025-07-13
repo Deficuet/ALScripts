@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
-			say = "一段时间后，定位工作不受干扰的结束了。",
+			say = "After some searching, Soyuz successfully located the entrance to the bunker.",
 			bgm = "theme-antarctica",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
-			say = "众人跟随{namecode:529:苏维埃同盟}来到了设施入口，一路上并没有看到任何敌人的痕迹。",
+			say = "The party caught their breaths after all that mountain-climbing before proceeding inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,15 +68,15 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡大陆",
+					"Antarctica",
 					1
 				},
 				{
-					"“融雪区”",
+					"Snowmelt Area",
 					2
 				},
 				{
-					"「智者之环」·入口",
+					"The Ring of the Wise - Bunker Entrance",
 					3
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "伴随着齿轮的转动声，厚重的钢铁大门缓缓向两侧拉开。",
+			say = "The sound of gears grinding together. Slowly, the steel blast doors opened like the jaws of some giant.",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "然而，没有宽阔到能跑坦克的通勤道路、没有令人晕头转向的复杂结构、甚至连足够称道的高科技也没有。",
+			say = "Inside, they didn't find what they were expecting. Not a corridor large enough to drive a tank through, no winding paths reminiscent of a maze, not even cutting-edge machinery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "映入众人眼中的，仅仅是一间再普通不过、甚至已经闲置到落灰的休息室。",
+			say = "All there was was an office. In addition to all the usual furnishings, it was covered in a layer of dust, having not been used for so long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "呃……普通的不能再普通。",
+			say = "This... is lame as hell.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "这就是我们的末日地堡？",
+			say = "I imagined somethin' way cooler when you called this a \"doomsday bunker.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看上去和……随便一个军用大楼也没什么区别啊。",
+			say = "I mean, come on! This looks like any old naval facility I've been to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我知道~肯定是故意设置成这样的！",
+			say = "Aha, I've got it! It was designed to look boring!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这里普通又平凡，对于不了解内情的人来说，就算调查到了这里，也只会把此处当成一座北方联合的秘密据点。",
+			say = "Because it looks so boring, people who don't know any better will go, \"Meh, just another Northern Parliament base,\" and write it off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "可是——这些正是伪装的一环！此处仍有玄机，我说的没错吧~！",
+			say = "But that's exactly what we want them to think. There's gotta be another entrance to the REAL bunker, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "没错，这里不过是表层入口的伪装而已。",
+			say = "...Yes, you are correct. This office is only a facade.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "至于真正的入口——呵呵，跟我来吧。",
+			say = "The real entrance is this way. Come with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "就像是约定成俗的那样，书架缓缓滑开，露出了其后的暗室入口。",
+			say = "To the surprise of nobody, there was a hidden space behind the bookcase. It moved aside, revealing the true entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "又穿过几道厚重的防爆门后，通向地下设施的电梯才出现在众人面前。",
+			say = "After traversing a long corridor and passing through many blast-resistant roller shutters, the girls finally arrived at an elevator that would take them down to the bunker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "乘坐这部电梯向下到指定层，才算正式进入设施之中。",
+			say = "All we need to do is get off at the right floor and we'll gain access to the Ring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "……指定层？如果没进入指定层会发生什么？",
+			say = "Wait, the \"right\" floor? What happens if we get off on the wrong one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "呵呵，你不会想知道的。",
+			say = "You don't want to know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "是不是有些……过度安保了。",
+			say = "C'mon, you HAVE to admit THIS is overkill. This bunker is hidden in the middle of nowhere on a barren continent, behind layers of security and facades...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "这里可是安塔迪卡，位置偏僻又有层层伪装，真的会有人能成功找过来么。",
+			say = "Do you NEED a trapped elevator, too? Nobody's gonna breach this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "能，这个人不但成功找了过来，还启动了我们的设施。",
+			say = "Wrong. Not only has someone already breached it, they have also already activated the bunker's facilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "你们没注意到么，进入房间后的温度。",
+			say = "Have you noticed how the temperature has been slowly rising?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "温度……好像暖暖的，和进入科考站的感觉一样。",
+			say = "I have! It's warm and cozy in here! Just like back at the research station!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "真的欸，进入房间后就不冷了……我都没反应过来。",
+			say = "Oh, yeah, it's not cold anymore. Happened so gradually I didn't even notice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不冷也不热……这说明供暖在一段时间内都是稳定的。它肯定已经启动很久了。",
+			say = "Yes, the heating has been running since long before we arrived here. The temperature wouldn't be so stable if it hadn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "“融雪区”也同样是此人的杰作……正常态势下，设施是不需要排出那些热量的。",
+			say = "However, the snowmelt on the scale we saw outside couldn't possibly have happened simply by someone starting up the bunker's systems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "某人、出于某种目的、启动了设施的某些部分——这就是我们现在知道的全部",
+			say = "Someone, for some reason, activated some part of this facility. This has been all but confirmed at this point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下去之后听我命令，不要乱跑，我们先去对第一层保安系统的控制室进行调查。",
+			say = "Please stick together once we're inside. We're heading to the security room first of all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,11 +558,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "看起来“老旧”的电梯，以意料之外的快速与安静，将众人送入了堡垒之中。",
+			say = "The elevator looked quite old, and yet to everyone's surprise, it brought them to the bunker's interior both faster and quieter than they thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这座电梯速度好快欸~！",
+			say = "Sheesh! Did you see how fast that was?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "呃……和想象中不太一样，我还以为是那种使用超古老设备的古典派地堡呢。",
+			say = "Huh. Guess this place isn't just like ANY old bunker.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "再怎么说这也是出于实用性考虑而修建的末日地堡，就算装修风格有设计师喜好的因素在。",
+			say = "The architect may have had fun with its design, but it was built with utility first in mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "使用的设备也肯定是最新最好的，怎么会故意用超古老设备呢？",
+			say = "This was all cutting-edge tech at the time. The only quaint thing about it is its looks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "有道理……所以，我们这算是在千米冰层之下？",
+			say = "Uh-huh... So we're a thousand meters deep now, yeah?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "那倒没有，刚刚只下降了大概二十层左右的深度，看来是需要换乘的设计呢。",
+			say = "Doubt it. That was only about twenty storeys. I think we'll have to change to another mode of transport.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，地堡的主建筑区确实都在冰层下，但在那之外，还有大量的中间区域。",
+			say = "Correct. We will need to pass through a few more in-between areas before we finally enter the main part of the bunker.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我们还需要经过多个这样的安保区，再换上几部电梯，才能真正进入「智者之环」的主体呢。",
+			say = "The path will take us through many layers of security and multiple elevators.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "在我们面前的就是第一个。",
+			say = "One of which is the area up ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "保安区的控制室能查阅一些我所需的信息，你们稍等，我去调查一下。",
+			say = "I will go into the security room and gather the info we need. The rest of you, please wait here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "一段比预期更久的时间后，{namecode:529:苏维埃同盟}才从控制室中返回。",
+			say = "A while later, Soyuz returned to her waiting comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "用了好长时间呢，调查不顺利么？",
+			say = "Took you a while. Did you have trouble finding the stuff?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "调查很顺利，安全设施确实记录到了一些令人在意的内容……",
+			say = "No, it actually went extremely well. There were some interesting things on the security logs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,7 +854,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "只是……这些内容本身令人费解。",
+			say = "Unfortunately... they were also quite confusing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "记录显示，地堡早在融雪现象出现前，就已经处于启动状态多时了。",
+			say = "According to the logs, the bunker has been active since long before the snowmelt area appeared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "除了常规系统之外，一处生产区域也启动了，生产的产品在系统中没有记录，需要去实地调查一下才行。",
+			say = "Beyond the dwelling area, a few manufacturing areas were activated as well. However, there were no logs of what was manufactured.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "除此之外，基地的控制系统一直在循环执行勘测任务——直到此时此刻也是如此，累积的数据报告足够堆成一座山。",
+			say = "Additionally, the shelter's control system has been scanning all this time and still is. It's generated an enormous amount of reports.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "但向上查询，却不存在这样一个“下达指令”的人。",
+			say = "I tried to see who ordered the scan, but this was also not in the data logs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "监控也没有拍下任何异常，警报系统……自然也没有做出反应。",
+			say = "All security systems – cameras included – haven't detected anything, much less sounded an alarm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "似乎……有一个异常熟悉地堡结构的人、精心刻意规划了这次行动。",
+			say = "Assuming an intruder is behind this, they know this place inside out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这个人拥有足够高的操作权限，并有能力消除自己行动所留下的一切痕迹。",
+			say = "They have to, since they had the high clearance needed to activate the facilities AND erased all trace of themselves having been here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……怎么听上去，入侵者像是一个极其了解这里的我们自己的特工呢……？",
+			say = "So someone who has high clearance and knows about this shelter... Could it be someone from the Intelligence Bureau?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这一点绝不可能。删除记录的权限我从未下发过，目前只有我一个人能够做到。",
+			say = "That's absolutely impossible. I am the only person who knows how to delete records from the database.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "那就是有人攻破了我们的系统，然后……",
+			say = "Then maybe someone hacked their way in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "融化冰雪与进行勘测调查……难道，是在利用我们的基地寻找矿物？！",
+			say = "Melting the ice, running the scans... What if the intruder was using the bunker to look for veins of that crystal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1077,7 +1077,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听上去是个合理的推测，接下来就需要收集证据了。",
+			say = "That's... plausible. Let us look for evidence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1095,7 +1095,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "根据现有情报，地堡之中值得优先调查的区域有两个。",
+			say = "There are two areas to prioritize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1112,7 +1112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一个是被启动的生产车间，另一个是能够调阅勘探报告的数据处理中心。",
+			say = "First, the manufacturing area – the intruder made something there. Second, the data center – where you can view the results of all those scans.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1130,7 +1130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "都在比较靠下的区域了……",
+			say = "Of course, we have areas further down to explore, but let's take things one at a time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1147,7 +1147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们谨慎前进，按顺序调查。",
+			say = "Proceed with caution and keep your eyes peeled.",
 			painting = {
 				alpha = 0.3,
 				time = 1

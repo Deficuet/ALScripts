@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>一　某个阳光明媚的午后</size>",
+					"Work Hard, Play Harder!\n\n<size=45>1 A Sunny Afternoon</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "指挥室，某个阳光明媚的午后——",
+			say = "One afternoon at the office...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，桌子上的文件也已经全部处理好了……",
+			say = "Commander, I've finished going through all the documents. There's just one problem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，理论上还会有一份北方联合的演习文件需要您处理……不知她为什么到现在还没送过来。",
+			say = "Every Northern Parliament exercise participant was supposed to turn in a report, but we're still missing one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "阿芙乐尔显得稍微有些焦急。不知道迟迟没有将文件送过来的人究竟是……",
+			say = "Avrora looks a bit annoyed. I wonder if she knows whose report is missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一阵小皮靴踩在地板上的哒哒声打断了思绪。而后，一位黑色长发的白衣少女推门而入——",
+			say = "Suddenly, I hear the sound of boots clopping down the hallway. Soon, a dark-haired girl wearing a Northern Parliament uniform throws the doors of the office open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哈啊！~~（打了个哈欠）早上好呀，指挥官……",
+			say = "*yaaawn*... Yoohoo, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,18 +124,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "迟迟没有将文件送来的人，是水星纪念。",
+			say = "It's Pamiat' Merkuria... with dark circles under her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "早上好。",
+					content = "\"Full of energy as always, I see.\"",
 					flag = 1
 				},
 				{
-					content = "但是现在已经是下午了！",
+					content = "\"Hey. It's afternoon, if you didn't notice.\"",
 					flag = 2
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "感觉今天的水星纪念好像没有什么精神，是昨晚没休息好么？",
+			say = "I'm only half sarcastic. She clearly has not gotten enough sleep, yet still acts as cheerful as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "差、差不多算是这样吧…！",
+			say = "Wh-what? Of course I am! Are you concerned about me or something~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶……是嘛……哈哈，随便啦，别在意这些细节嘛。",
+			say = "Hehehe~ Afternoon, schmaftersploon. All that matters is that I'm here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要太阳还在散发着光芒，世界上就总有一个角落可以被定义为早上哦！",
+			say = "Besides, it's morning somewhere in the world even if it's afternoon here~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "水星纪念正顶着黑眼圈一脸正经地胡说八道着……",
+			say = "...Clearly, sleep deprivation was no match for her cheekiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哦对了，我是来干正事的。",
+			say = "Anyway, uh, I've come to drop off some paperwork.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯……这边是北方联合上次作战的记录文件，还有作战报告书……诶，我放在什么地方来着……",
+			say = "Let's see... Here are the records from the Northern Parliament's last battle, and here's the... Wait, where's the after-action report?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "对了对了，在这边……啊咧咧咧！！！",
+			say = "Oh right, I left it right– Eek!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心——！",
+			say = "Oh no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "找到文件的水星纪念有些激动地来了个大转身。然后因为重心不稳，在即将摔倒的危险关头被一旁的阿芙乐尔扶住了。",
+			say = "After finding her paperwork, Pamiat' tries to do a triumphant twirl but immediately loses her balance. Fortunately, Avrora is there to catch her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "呜啊……好险好险……指挥官，我把文件放在桌子上了，有空的时候看一下哦。",
+			say = "Phew, that was close! Thanks for the hand, Avrora. Anyway, I'll leave the stuff on your desk, Commander, so don't forget to look it over. I'm gonna head back to the dorm now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			},
 			options = {
 				{
-					content = "对水星纪念表示关切",
+					content = "\"Do you need someone to escort you?\"",
 					flag = 1
 				}
 			}
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "诶嘿嘿，没事啦……那指挥官，我就先回去了哦……（哈欠）",
+			say = "Hehehe~ I'll be just fine! See ya later! ...Owww, my back...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……她这个样子真的不要紧么？",
+			say = "The way she was clutching her back as she tottered out the door makes me consider sending someone to accompany her anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,24 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毫无疑问……是无节制非健康生活的体现。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "前几天的时候她似乎买了一款新出的游戏，然后就……很少出宿舍了。",
+			say = "She has always been like that. I'm more concerned about her unhealthy lifestyle though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想，应该是这段时间一直沉浸在游戏的世界中不可自拔吧。",
+			say = "She got hooked on a new video game she bought the other day, and has been so absorbed in it that she hasn't been keeping up with work...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +417,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官要不要去宿舍看一看她？",
+			say = "I believe it's what they call \"going goblin mode.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "If you think it's warranted, should we go check on her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一直像现在这样可不行……不过看她那么困，也许回去之后会进入回笼觉的状态。",
+			say = "It definitely isn't a good idea to leave her to her own devices forever, but I also don't want to bother her if she went back to sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "等晚饭之后再去看看吧——",
+			say = "Maybe I'll pay her a visit after dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

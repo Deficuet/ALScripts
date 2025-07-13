@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水龙伏波，皓月当空——破！",
+			say = "Shikigami serpent, strike like the winter moon!",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}，没事吧。",
+			say = "Nagato! Are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "呵，又是这一套幻境分割逐个击破的把戏。",
+			say = "I knew it! There's a hidden second layer to this damn place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "其他岛屿的幻境都碎得差不多了，只剩这里还完好无损。",
+			say = "We more or less dispelled the illusion on every other island, but this one remained for some reason!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "我们就想着或许此处陷入了苦战，赶紧来支援，还好赶上了。",
+			say = "Good thing we came to check on y'all! And even better that we're not too late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉{namecode:74:长门}大人，破解结界花了点时间。",
+			say = "Forgive me, Lady Nagato! Breaking down the barrier took a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，请快退到我们身后来！",
+			say = "Get behind us, guardian fox!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……来得这么快么。",
+			say = "Well, you got here early.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "不用管吾……乘胜追击！",
+			say = "Forget about me! Bombard that evil spirit with all you have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "它的存在……过于危险了，一定要消灭它！",
+			say = "She is extremely dangerous! We must eliminate her here and now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "在刚才在交手中，{namecode:74:长门}感受到了一股熟悉的气息。",
+			say = "In that brief exchange, Nagato had figured out who their opponent really was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "如果说此前对于海若碎片上附着的那一缕气息只是怀疑的话，如今通过交手，结论已经确认无疑了。",
+			say = "She sensed in her the same aura as she did from the Watatsumi fragment. The same corruption that rotted the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "这股熟悉并非来自于{namecode:161:天城}，而是——无形之息。",
+			say = "This was not Amagi – it was the Shadow of Corruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "这股无形之息原本应该已经被净化一空，可是此刻散发出的力量似乎比之前更加强大。",
+			say = "The corruption that Musashi and the Great Sage worked so hard to purge had not only returned, but also it seemed even stronger than it had been in the sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（怎会如此，究竟是如何在如此短时间内……）",
+			say = "(The Eagle Union is with us! We need only stop this evil spirit, drain her power, and exorcise her one more–)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（糟糕……！如果它拥有如此力量，岂会在刚才的打击中出现败相，以至于让吾乘胜追击……！）",
+			say = "(No! Damn! She cannot be stopped with ordinary attacks! The power she just flaunted was but a ruse to lure me closer!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "心急则乱，此时的{namecode:74:长门}才注意到，自己已经被引诱到了枯萎神木的正下方。",
+			say = "By the time Nagato finally realized she had carelessly reached the trunk of the withered Prime Sakura, it was too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "而在上方的枯枝中，有某个巨大的存在正在蠢蠢欲动。",
+			say = "The next moment, a massive entity perched atop a dead branch leaped down to attack her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:74}&{namecode:71}",
 			side = 0,
-			say = "糟糕——\n{namecode:74:长门}大人——！",
+			say = "- No! - LADY NAGATO!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			shakeTime = 5,
-			actorName = "▇ ▇ ▇ ▇",
+			actorName = "▇▇▇▇▇",
 			say = "▊▇ ▊▇■■■▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇",
 			bgm = "battle-unknown-approaching",
 			movableNode = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "黑暗洪流倾泻而下，恍惚间，有一个更快的身影迎了上去。",
+			say = "Just before the torrent of black mist could consume her, someone jumped out to protect her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "随后，如同狂风过境一般——风来树动，风过树止。",
+			say = "It was Hiei – or rather, she looked like Hiei. The dark dragon swallowed her instead, then flew skyward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "头戴狐面的{namecode:161:天城}，散发着黑色气息的巨龙，还有那挺身而出的、名为{namecode:71:比叡}的少女，全部消失不见了。",
+			say = "A moment later, it was all gone. The Amagi impostor, the Shadow of Corruption, and the woman who sacrificed herself for Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

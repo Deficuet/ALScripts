@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>三　氛围是派对的基础！</size>",
+					"A Party for the Ages\n\n<size=45>3.Setting the Mood</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "与西雅图一起，踏上了前往准备派对的道路。",
+			say = "I arrive at the party venue with Seattle to oversee the preparations being made.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "要问她有什么计划的话——",
+			say = "\"So, what do we have to do today?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "当然有哦！我们首先要解决的，就是派对的氛围问题。",
+			say = "First thing's first – setting the mood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然要准备一个热闹的氛围，自然就少不了现场布置的配合。",
+			say = "Mood is the thing that makes or breaks a party, especially when it's a major, hyped-up event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这里面学问可深了，在派对现场布置的装饰、道具，甚至桌椅，都对氛围有影响。",
+			say = "Believe me, the mood is affected by all sorts of things. Everything from where you put tables, chairs, and decorations, to what chow is on the menu!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "就连在场所的灯光，也会影响心情的！指挥官应该听说过灯光理论吧？",
+			say = "And let's not forget the lighting and how it dims, brightens, or changes colors!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在派对理论这方面，西雅图说得头头是道。",
+			say = "She's very particular about the details, much like Hiei.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "不过，抛开这些叫人目不暇接的理论而言，实际执行的人选上——",
+			say = "\"I love your enthusiasm, but we don't have all the manpower and resources in the world.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "……皇家？皇家的女仆队是很擅长这种工作啦。",
+			say = "True... Even the Royal Maids' help won't be enough for what I'm thinking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "不过派对还要更热闹一点！还要更夸张一点！光是布置还不够哦。",
+			say = "This party needs something to take it to the next level. Something wacky and unexpected!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简单来说，就是要更多的奇思妙想！走吧，指挥官，让我们一起去找找“灵感”！",
+			say = "Tell you what, I'll know it when I see it! Let's take a look around, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在港区内四处寻找“灵感”时，附近奇妙的声音吸引了西雅图的脚步——",
+			say = "Seattle and I finish inspecting the venue and go wandering around the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "怎么办？它们好像在吵架的样子……",
+			say = "Oh dear... They've started fighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "别担心，猫狗有不和是正常现象啦！",
+			say = "So? Isn't that normal? Everyone knows cats and dogs are natural enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "就连机械猫和机械狗也是这样么……",
+			say = "Yes, but these creatures aren't exactly natural. Didn't you invent these Doggo Cattrons and Kitty Dogbots?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，这场面不是很有气势嘛，我们撒丁的宠物就是要这样有气势才行。",
+			say = "Their cries are endearing, yet forceful. You might say Sardegna's glory has left a mark on them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "哦！我感受到了，这就是我们要找的奇思妙想！指挥官，这边！",
+			say = "That's it! I've figured out what the party needs! C'mere, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早上好，撒丁的同伴们——",
+			say = "Hello, my Sardegnian friends! Whatcha up to?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "唔哦？！会喵喵叫的机械狗和会汪汪叫的机械猫在吵架？！",
+			say = "Whoa! What's with the robot cats and dogs? Are they barking instead of meowing and vice versa?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊，早上好，西雅图！欢迎来到我的天才发明的测试场地！",
+			say = "They sure are! Feast your eyes on my latest masterpiece!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "今天的主题是：能够让房间里热闹起来的机械宠物！怎么样，有没有一种眼前一亮的感觉？",
+			say = "My Doggo Cattrons and Kitty Dogbots are a work of genius. Whether you're a cat or a dog person, you'll love these adorable robo-critters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "确实有点……正好，达·芬奇，你还有这样的发明吗？绝对能让派对热闹起来的！",
+			say = "I see... Pretty neat idea. On another note, I was gonna ask if you gals could help me out with something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要多少有多少哦，不要小看天才……欸？你刚刚是说，派对？",
+			say = "Ah, you must need an exciting new invention for a party. Wait, are you throwing ANOTHER party?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！我们准备开一个派对哦！怎么样，你们有没有兴趣参与到准备工作中来？",
+			say = "You bet! It's for our next port-wide holiday. Think you could help me out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "听起来好像不错，但我们得考虑一下……",
+			say = "I'm sure we can assist somehow. But, what exactly is it that you need?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们准备了超大的派对会场哦，有充足的空间可以随意装饰！",
+			say = "It's simple. We've got a venue with tons of space, and I'd like you to decorate it in whatever fashion you want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这么说，达·芬奇的天才发明都可以用上了？我觉得可以参加！",
+			say = "In other words, I can bring as many of my inventions as I want? I'm game!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，这正是传播我撒丁文化的魅力之时。维内托，我也觉得可以加入。",
+			say = "We'd be fools to pass up a golden opportunity to spread Sardegna's glory. Veneto, I presume you approve?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "欸、欸……？那……咳咳，好吧，我们当然可以参与准备工作。",
+			say = "Correct. We'd be more than glad to assist you, Seattle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "我会联络更多撒丁的伙伴来帮忙的。要将撒丁的威光弘扬光大，需要每一个人的努力才行。",
+			say = "In fact, would you mind if I asked the others if they'd like to help as well? We could spread our glory further with more manpower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢加入，那样就再好不过了，让所有人一起参加热闹的活动，正是我的初衷哦。",
+			say = "Yeah, by all means! The more, the merrier, and all that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "的确。为了这样的盛会，我们会全力以赴的。",
+			say = "Thank you. I promise you won't be disappointed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "期待你们准备的方案，肯定会是一个惊喜！",
+			say = "Sweet. I'll give you a rundown of the venue later. The sky's the limit, so get creative!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "让我们一起加油吧！",
+			say = "Let's make this party one for the history books!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
-			say = "和西雅图还有撒丁的众人一齐举起拳头，做出了“加油”的姿势。",
+			say = "The girls all throw their hands in the air and let out cheers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "看起来，一切顺利——",
+			say = "It looks like this party is starting to come together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

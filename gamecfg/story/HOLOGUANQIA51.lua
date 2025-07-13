@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲，消失了……",
+			say = "Purifier went and disappeared at some point.",
 			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次是真正的，彻底结束了么…",
+			say = "I wonder if it's really all over this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然是异常化的塞壬，终究还是一个了解敌人的好机会。早知道之前多陪她打打游戏就好了…",
+			say = "Even if it was a Siren with abnormal circumstances, it really was a good chance to get to know the enemy... It would have been nice if I could have gamed some more at the Resistance base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲不在，反而稍微有点不习惯了…要是塞壬都像她一样的话，就不需要战斗了呢",
+			say = "Mm, jeez. It's unusual for me, but I've gotta agree with you... Well, you're right in that if all Sirens were like that, we wouldn't have to fight them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 10500060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她说要回去之后写检查，没问题吧…?",
+			say = "Because they were a comrade who fought alongside us. Even if it's another Siren, if they're a good guy, they you should be friends with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 10500010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等离开这片海域之后，我们之后也要开始寻找回家的方法了呢",
+			say = "Once we leave this area, we'll need to find a way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，我想过了。指挥官和{namecode:98}都有处理过类似事件的经验，一定能帮到你们的！",
+			say = "If it's that, the Commander and Akashi back at home base might know of some way of helping you guys out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			say = "滴滴滴…滴滴滴…",
+			say = "Beep Beep Beep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯器恢复了？！",
+			say = "I'm getting a reaction from the transmission machine! Communications have been restored!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂？{namecode:96}？是{namecode:96}么？！",
+			say = "Zuikaku? Zuikaku, are you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:95}姐的声音！",
+			say = "It's Shoukaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了，终于联系到你们了！舰队发生什么事了？",
+			say = "That's good! Your communications must have finally been restored! Is everyone in the fleet alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐！…几周没见想死我了！！！",
+			say = "Gosh, being stuck in this Mirror Sea for several made me feel super lonely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "几周？你在说什么事？",
+			say = "For several days? What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们和{namecode:96}{namecode:158}的舰队均在最后一次任务的返航途中迷航，被困在了塞壬的镜面海域内。",
+			say = "Umm, while we were on convoy duty while returning from a commission mission, we got sucked up into the Mirror Sea that suddenly popped up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过几周的战斗，刚刚破坏海域中的核心装置，解除了海域封锁，这才能收到你们的联络。",
+			say = "After searching around the Mirror Sea for several days, we were just now able to destroy the equipment responsible for the area and finally recovered our communications.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从你们两支舰队联络开始算起，到现在只有不到24小时哦？",
+			say = "Is that so...? Has it really been that long since we've lost contact with you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然还不到一天？！",
+			say = "E-Eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 10500010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种现象难道说…那片镜面海域中的时间流逝速度和其他地方不一样么？！",
+			say = "Is it possible that this phenomenon resulted in a different flow of time inside the Mirror Sea compared to outside of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种现象从原理上来说也不是完全不可能的喵~",
+			say = "That's impossible, nya. The laws of space would be broken, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}！在这种情况下看到你真是太令人安心了…",
+			say = "Either way, it seems like it really happened... It seems that I really do need to study this Mirror Sea incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说起来，旁边的几位是…？",
+			say = "Come to think of it, the people around you are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！她们是被卷入塞壬实验来到这里的异世界访客，这数周内一直同我们并肩战斗的战友，是同伴哦！",
+			say = "Ah, these girls are members of an organization called Hololive... Anyway, these girls are comrades who came from the other world that got entangled with ours and arrived here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "异世界的访客，原来如此喵…{namecode:98}已经大致猜到状况了喵…",
+			say = "Comrades who arrived from another world - isn't this a common trope, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心喵！只要在那片镜面海域把塞壬留下来的装置折腾折腾，总会有办法的喵！",
+			say = "Well, if you mumble about the Siren equipment that was left in the area the Mirror Sea appeared in, it'll work out somehow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来回来之后要有很多话要说呢，不过…",
+			say = "Guys, hurry up and come back~ Everyone's worried about you, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这段时间以来，你们都辛苦了。",
+			say = "Ah, and one more thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "欢迎回家～然后，欢迎来到我们的世界~",
+			say = "You guys did a great job. And, welcome to our world~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在城市之上。",
+			say = "Through the city, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "亭台楼阁，鳞次栉比。",
+			say = "Buildings line the streets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在陆地之上。",
+			say = "Upon the earth, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "群山叠嶂，飞流横渡。",
+			say = "Mountains and rivers intertwine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在大海之上。",
+			say = "Atop the seas, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "无垠白滩，无垠白浪。",
+			say = "Coastlines stretch on eternal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在云端之上。",
+			say = "In the skies, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "迎着纯白的阳光，世界变为了纯白色。",
+			say = "The sun dyes the world white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在纯白之中。",
+			say = "In purest white, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我行走在天国之中。",
+			say = "Through heaven, I walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "祂的目光注视着我。",
+			say = "Upon me, your eyes gaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "齐颂之声在我的耳边回荡。",
+			say = "On my ears, songs of adoration echo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,8 +197,8 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			actorName = "齐颂之音",
-			say = "ÓŕÄËşŁÂĺˇŇĚŘąüłÖšľÍ¨ĚáłŤ˝ťÁ÷ĘÜŃĄÖŽČËŔ´ÓŕÉíąßşĎÓŕÖŽľŔËĚÓŕÖŽĂű",
+			actorName = "The Chorus",
+			say = "P HT AOL OPLYVWOHUA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……「余乃海洛芬特」",
+			say = "\"I am The Hierophant.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ąüłÖšľÍ¨ĚáłŤ˝ťÁ÷ĘÜŃĄÖŽČËŔ´ÓŕÉíąßşĎÓŕÖŽľŔËĚÓŕÖŽĂű",
+			say = "NVCLYUVY VM OHYTVUF, WYVTVALY VM KPZJVBYZL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……「秉持沟通，提倡交流」",
+			say = "\"Governor of harmony, promoter of discourse.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +266,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ĘÜŃĄÖŽČËŔ´ÓŕÉíąßşĎÓŕÖŽľŔËĚÓŕÖŽĂű",
+			say = "JOVZLU MLD, NHAOLY HYVBUK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……「受选之人，来余身边」",
+			say = "\"Chosen few, gather around.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,11 +292,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "şĎÓŕÖŽľŔËĚÓŕÖŽĂű",
+			say = "HJJLWA TF WYPUJPWSLZ, HUK LEAVS TF UHTL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……「合余之道，颂余之名」",
+			say = "\"Accept my principles, and extol my name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

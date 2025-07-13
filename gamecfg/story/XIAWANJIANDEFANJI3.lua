@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-1",
 			dir = 1,
-			say = "……好像和大家走散了。",
+			say = "Everyone's going the wrong way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唉，没想到皇家会派来这么夸张的舰队。",
+			say = "And I never expected the Royal Navy would send such a strong fleet at us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "总之先和{namecode:401}她们重新恢复联系。",
+			say = "I better get back in contact with Z2.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,10 +53,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不会吧…通讯设备居然坏了么！",
+			say = "Oh no... my comms are broken!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔……我记得原本计划是离开这个峡湾前往…",
+			say = "Hrm... I think the original plan was to leave the fjord...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于抓到你了，铁血的驱逐舰！",
+			say = "I finally got you, Iron Blood destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "追兵这么快就到了么？！",
+			say = "So fast?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "不会让你逃跑哟~皇家所属部族级驱逐舰，爱斯基摩人，出击！",
+			say = "I'm not letting you get away~ Tribal-class destroyer Eskimo, attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

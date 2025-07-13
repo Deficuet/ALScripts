@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>四　柴米油盐的生活之诗</size>",
+					"An Ode to the Sea\n\n<size=45>4 Man vs. Machine</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "走在港区的街道上——",
+			say = "Lexington and I take a stroll down the port's main road.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "列克星敦从离开普林斯顿的小屋后，就一直有些心不在焉。",
+			say = "She's seemed strangely absent-minded since we left Princeton's room. I wonder why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "趁着这个机会悄悄查看了普林斯顿的纸条，上面的内容果然在意料之中。",
+			say = "I again check the note I received, then weigh our options on what to do next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，我觉得普林斯顿可能是对的。",
+			say = "You know, I think Princeton is right about what she said about data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但我还是没想明白，如果是这样的话，为什么大家会觉得失去了惊喜呢……",
+			say = "It's only a probability, not a guarantee that people will like it. But I don't feel like that's fully solved my problem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,18 +101,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "……………………",
+			say = "All of a sudden, I notice that the sun has set.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "天色不早了，列克星敦。",
+					content = "\"It's gotten late.\"",
 					flag = 1
 				},
 				{
-					content = "休息一下如何？",
+					content = "\"How about we have dinner?\"",
 					flag = 2
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "啊……！真的，都已经到这个时候了……！",
+			say = "Oh. Yes, it has. Time flies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "抱歉，指挥官，耽误了你一天时间……",
+			say = "Goodness, I took up your whole day, didn't I? Sorry, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "欸？一起吃个简单的晚餐？当然可以！",
+			say = "...Dinner, you say? I could use a light meal, actually. Let's go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "嗯，暂时也想不出答案了……",
+			say = "Well, I suppose we're not finding the answer today, so we might as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "都已经这么晚了，指挥官，要不要一起吃个简单的晚餐？",
+			say = "Besides, I could go for something to eat. Lead the way, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
-			say = "最终决定，去食堂解决今天的晚餐——",
+			say = "We go into the canteen to sate our hunger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
-			say = "但刚进食堂，就被其中的奇妙气氛惊讶到了。",
+			say = "As soon as we step through the door, we're greeted by a strange sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "抚、抚顺姐……不，不要这样啦……",
+			say = "Please stop, Fu Shun... Leave it be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "太原，不要拦着我！我绝对要把这个亵渎食堂的机器弄走啊——",
+			say = "Get out of the way! That cursed machine needs to be destroyed! It has no place in the canteen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那个……打扰一下，今天的菜单有么？",
+			say = "Um... Excuse me, what's on the menu tonight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还是说，你们正在纠结菜单上的菜色？",
+			say = "I hope it's nothing offensive and that's what you're fighting over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不是啦！是更加更加重要的事情！",
+			say = "Nah, this is about something much bigger than a menu item!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "鞍山姐！机器做饭不行啦！绝对不可以啦！",
+			say = "It's that damn cooking machine! It's a crime against humanity!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是、是么……？可我觉得，能帮到逸仙的忙的话……",
+			say = "Aren't you being dramatic? It makes Yat Sen's job easier, simple as that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不是这样的！有它做饭我以后不是进不了厨……不是，我们大家就没法一起做饭了！",
+			say = "But WE should be helping her cook! Having a machine do it is so boring! And I need an excuse to get up to kitchen hijinks, but that's unrelated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "比较起来，还是拿来改造成自动写作业机器好像有点意思呢，做饭的话就……哈哈……",
+			say = "We could rework it into a homework-solving machine. Processed papers beat processed food.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦……？如果只是食堂的饭菜，用机器来帮忙制作不是很好么？",
+			say = "The canteen has to feed a lot of people, so isn't machine labor perfect in this scenario?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔~没想到列克星敦你是和鞍山姐一样迟钝的人啊……",
+			say = "Hah. You're starting to sound like An Shan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽说它真的能帮到大家，但感性来说，我觉得用机器做出的饭菜没有诚意……嗯。",
+			say = "Sure, it lightens the burden on our cooks, but letting a machine make our food just feels... soulless. At least in my opinion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但这也只是我的想法啦，今天情况特殊，所以没有菜单咯。给~你们的晚饭。",
+			say = "Anyway, since we're at an impasse right now, there's not much on the menu to choose from. Here, and bon appetit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……这是机器做的，还是……？",
+			say = "Thanks. Incidentally, did the machine prepare it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谁知道呢~说到底，机器做出的饭菜，和我们亲手制作的饭菜，味道上又有什么区别呢？",
+			say = "Who knows. Human or machine, it should taste the same, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
-			say = "看起来，食堂里的争论还会继续持续一段时间的样子。",
+			say = "Looks like this debate in the canteen won't end any time soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,14 +565,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
-			say = "……………………",
+			say = "All of a sudden, I notice that the sun has set.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你觉得大家在烦恼什么？",
+					content = "\"This got strangely philosophical.\"",
 					flag = 1
 				}
 			}
@@ -583,7 +583,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……也许是觉得机器做的东西没有灵魂吧？",
+			say = "Mhm. I suppose they feel things made by a machine have no \"soul.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_165",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但饭菜的味道的确一样……",
+			say = "But the food does taste the same... So what actually matters...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
-			say = "看起来，列克星敦还远没有抓住要点呢——",
+			say = "Slowly but steadily, Lexington is getting closer to the answer she's looking for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

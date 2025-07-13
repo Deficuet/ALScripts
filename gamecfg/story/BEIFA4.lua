@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=45>四 幼小的新成员</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 4 - An Adorable New Recruit</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "傍晚·港区指挥室",
+			say = "Office - Later",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安，“指挥官”，女仆贝法，前来报到",
+			say = "Good Day, \"Commander,\" Maid-in-Training Bel, reporting for duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			},
 			options = {
 				{
-					content = "贝、贝尔法斯特？",
+					content = "Ask Belfast what happened to her",
 					flag = 1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我在这里，指挥官。这孩子既是我，也不是我——",
+			say = "I am over here, Master. This is my— No, that's not right. Rather, I am... Hmm...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "事情是这样的喵——",
+			say = "Let me explain it, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如此这般喵，因为事情变得有点复杂，所以拖到现在才带她来报到喵……",
+			say = "Get it, nya? Things've gotten a teensy bit complicated, so I thought we'd just bring her over here, nya...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法…不能留在这里吗…？“指挥官”？",
+			say = "May I... stay here? \"Commander?\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -141,11 +141,11 @@ return {
 			},
 			options = {
 				{
-					content = "当、当然可以！",
+					content = "Tell her of course she can",
 					flag = 1
 				},
 				{
-					content = "小贝法太可爱了！",
+					content = "Tell her she's adorable",
 					flag = 2
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "太好了～果然和姐姐们说的一样，“指挥官”是个又伟大又和善的人呢～",
+			say = "Splendid~ You know, you're exactly as wise and as kind as the ladies said you were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "这是说…可以的意思吗？“指挥官”虽然有点奇怪，但果然跟姐姐们说的一样，是个伟大又和善的人呢～",
+			say = "Does that mean... I can stay? This \"Commander\" may be a bit odd, but all the nice things the ladies said about the Commander were true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "{namecode:98}就知道指挥官不会放着这孩子不管的喵～",
+			say = "I knew the Commander wouldn't leave a kid out on the street, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢，指挥官。我以女仆长的身份保证，会将这孩子教育成一名优秀的女仆的",
+			say = "Thank you very much, Master. As head maid, I vow to educate this child in our ways, raising her to be a truly magnificent maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法也会努力加油的！",
+			say = "Aye-aye! I shall do my best!",
 			action = {
 				{
 					number = 2,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "就这样，港区迎来了一名幼小的新成员……",
+			say = "And so, the port welcomes a new recruit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不过…为什么小贝法会出现在那里喵…",
+			say = "But I still don't know how Little Bel came to be in the first place, nya...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -293,7 +293,7 @@ return {
 			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
-			say = "心智魔方…照射…相似的两人…照射…？",
+			say = "Mental Cube... logrithmic casing... radiation... two similar people... radiation... ?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,7 +314,7 @@ return {
 			actorName = "{namecode:98}",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:37}…有线索了喵？",
+			say = "Yuubari, do you have an idea, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
-			say = "感觉似乎抓住了什么…又好像什么都没有…",
+			say = "It's like... I almost have something... but... No, it's gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actorName = "{namecode:98}",
 			dir = 1,
 			blackBg = true,
-			say = "还是需要进一步的实验喵……",
+			say = "Sounds like we've got more experiments to do, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
-			say = "恩…那么…第257次实验的内容是——",
+			say = "Right then, how shall we conduct Test #257...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

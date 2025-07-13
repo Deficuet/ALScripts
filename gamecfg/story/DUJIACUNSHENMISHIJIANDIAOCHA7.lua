@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>舰队集结！</size>",
+					"The Spiriting-Away Incident?\n\n<size=45>Assemble the Fleet!</size>",
 					1
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "中场休息时间~",
+			say = "Well, it's time for the intermission.",
 			bgm = "map-longgong",
 			icon = {
 				scale = 8,
@@ -40,12 +40,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各位旅人，对于本剧团的演出还满意么？",
+			say = "Travelers, was our play to your liking?",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -66,9 +66,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:180}&{namecode:189}",
+			actorName = "Kasumi & Hatsuzuki",
 			hidePaintObj = true,
-			say = "非常满意！\n太吓人了！",
+			say = "- It was great. - I'll have nightmares about this!",
 			subActors = {
 				{
 					actor = 301890,
@@ -90,9 +90,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			hideOther = true,
-			actorName = "布里斯托尔&抚顺",
+			actorName = "Bristol & Fu Shun",
 			hidePaintObj = true,
-			say = "还想再来！\n再来一次吧！",
+			say = "- I can't wait for more! - Show us the next act already!",
 			subActors = {
 				{
 					actor = 501020,
@@ -111,12 +111,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶？饶了我吧……",
+			say = "Wait, there's more?! God, have mercy on me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,12 +128,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喜欢就好，喜欢就好。",
+			say = "Ah. That's great to hear.",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -149,12 +149,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "bg_village_in",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么接下来——",
+			say = "Now, let us continue to the–",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -173,7 +173,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -223,11 +223,11 @@ return {
 			actor = 301810,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "和噗噗在一起",
+			factiontag = "Foo is Here Too",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……在摇。",
+			say = "...What was that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -292,11 +292,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊啊啊！！地震了么！",
+			say = "Zoinks! Is that an earthquake?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,12 +318,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "Chouchinobake",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是地震，不是地震！",
+			say = "Naw, girl, that's definitely no earthquake!",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -339,12 +339,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "Chouchinobake",
 			bgName = "bg_village_in",
-			factiontag = "在温泉开party！",
+			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好了，不好了，有人正在攻击我们的结界！",
+			say = "This ain't good, folks! Someone's attacking the barrier!",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -362,12 +362,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………攻击？",
+			say = "Attacking it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,12 +381,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……我说……该不会……你们四个来到这里的事，忘了告诉指挥官？",
+			say = "Oh boy... Lemme guess, y'all forgot to tell the Commander you were goin' here, didn'tcha?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,12 +400,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊啊啊啊！！！光顾着玩了，完全忘了这回事！指挥官好像确实不知道啊！",
+			say = "Oh! Right! I knew we'd forgotten something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,11 +429,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟、糟糕！得尽快让外面停止攻击才行！",
+			say = "Uh-oh! We need to stop the attack immediately!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,12 +447,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……你们真是……",
+			say = "*sigh*... Just what we needed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,12 +466,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:18}，你跑得最快，快去叫停指挥官，我们随后就到！",
+			say = "Shimakaze, you're the quickest – scoot over there 'n tell the Commander to stop! We'll take things from here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,12 +485,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵，遵命，{namecode:295}阁下！",
+			say = "Roger-dodger! I'm on my way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "此时的鸟居外——",
+			say = "Meanwhile, outside the strange torii gate...",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -533,12 +533,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官同志，目标区域周边已经封锁完毕，待重樱舰队破除结界之后，我们就可以进行突入了。",
+			say = "Comrade Commander, we've finished blockading the waters around the island. Entry will be possible once the barrier has been destroyed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,12 +552,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "偶像度假中",
+			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "舰载机编队也已经完成了空中封锁，不管是鸟还是幽灵都别想逃出去！",
+			say = "I've got the skies under complete lockdown, too. Not a single bird or ghost is getting out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很好。{namecode:74}，你那边进展如何？",
+			say = "Excellent. Nagato, how are things on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,11 +583,11 @@ return {
 			actor = 305050,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "神子休假中",
+			factiontag = "The Guardian Fox",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再给吾十分钟。",
+			say = "Expected to finish in ten minutes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,12 +601,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "神子休假中",
+			factiontag = "The Guardian Fox",
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:79}，{namecode:84}集中力量，随吾一鼓作气突破它。",
+			say = "Yamashiro, Musashi, focus fire. Coordinate your attacks on the talisman with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,11 +620,11 @@ return {
 			actor = 305020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "不畏厄运",
+			factiontag = "Bad Luck Won't Stop Her",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "交给我吧，{namecode:74}大人！",
+			say = "Understood, Lady Nagato!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,12 +638,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "将军休假中",
+			factiontag = "Protector of the Weak",
 			dir = 1,
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事关{namecode:182}和同伴们的安危，吾必会全力以赴。",
+			say = "Shinano and the girls' safety hinges on us. I will hold nothing back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "此刻，{namecode:74}、{namecode:79}与{namecode:84}正在鸟居前进攻着结界，而在她们身后，则是集结了各阵营整装待发的舰队成员。",
+			say = "Nagato, Yamashiro, and Musashi are bombarding the barrier. A group of shipgirls from all factions stood just behind them, ready to run in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "结界将在十分钟后突破，所有人做好战斗准备。",
+			say = "The talisman will be destroyed in ten minutes. All ships, prepare for battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,11 +678,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,22 +690,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等、等一下！指挥官，请等一下！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_village_out",
-			hidePaintObj = true,
-			say = "被包围的鸟居里突然传来了熟悉的声音。{namecode:18}像是凭空出现一样，从鸟居后方急急忙忙冲了出来。",
+			say = "Wait, wait! Please wait, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +705,18 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "紧接着是{namecode:295}，还有之前不见了踪影的{namecode:189}、布里斯托尔……调查小队的四人全都冒了出来。",
+			say = "A familiar voice calls out to me from nowhere. Then, Shimakaze appears seemingly out of thin air from beyond the torii gate.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_village_out",
+			hidePaintObj = true,
+			say = "More follow a few moments later. Owari, Hatsuzuki, and Bristol with the rest of her team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,11 +726,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇……这么大阵仗么？",
+			say = "Geesh, you guys gathered a small army here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,11 +744,11 @@ return {
 			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我之前就说……先通知指挥官再进去……",
+			say = "See? I TOLD you we should've called the Commander before we went in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,12 +762,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "误会，指挥官，这都是误会！你听我们解释啊啊啊啊！",
+			say = "This is all a big misunderstanding, Commander! Please allow me a minute to explain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "在{namecode:18}手忙脚乱地解释下，事情似乎正变得愈发复杂……",
+			say = "Shimakaze, in her panic, blew way past a summary and dove into a convoluted explanation...",
 			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "还好随后{namecode:182}也从结界中出现，亲自解释了事情的来龙去脉，误会终于得到了澄清。",
+			say = "Fortunately, Shinano had come along, and she provided me with a brief overview of what had happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,11 +821,11 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "十分抱歉，指挥官。妾身原本只想顺势而为，为诸位带来一场难忘的夏日体验。",
+			say = "All we intended for was an unforgettable summer experience... We are truly sorry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,12 +839,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "万万没想到，在邀请函的环节上出了问题。",
+			say = "This one suspected the invitation of poor messaging... A mistake most unfortunate...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此，是妖怪不懂人类的邀请函应该怎么写……",
+			say = "I understand now. You wanted to make it look like a spiriting-away case as part of the play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，这样的文化差异，确实很难事先料到……",
+			say = "Instead, it made your intentions all the more fuzzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,12 +882,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "神子休假中",
+			factiontag = "The Guardian Fox",
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用在意，{namecode:182}，只是虚惊一场的话，无妨。",
+			say = "Such a misunderstanding is nobody's fault. Let it not bother you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,11 +901,11 @@ return {
 			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，确实是一段很难忘的体验。",
+			say = "I'll admit, it DID result in an unforgettable experience.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,12 +919,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到故事里的妖怪剧团是真实存在的。",
+			say = "It was certainly the last way I expected that flyer to keep its word.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,11 +938,11 @@ return {
 			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……它们的存在形式真令人在意啊。",
+			say = "I wondered what form this Youkai Troupe would take, and I was not disappointed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,11 +956,11 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "偶像度假中",
+			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182}{namecode:182}，你刚才说只要进入鸟居，就能看到妖怪剧团了对吧！",
+			say = "Speaking of them, is that where we'll meet the troupe? Just past the barrier under the torii gate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -974,11 +974,11 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，没错。目前它们还不能在结界外自由行动。",
+			say = "Yes... They cannot leave the barrier in their current forms...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -992,12 +992,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "偶像度假中",
+			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，有妖怪欸，我们一起进去看看吧！",
+			say = "Did you hear that? We'll get to see some real youkai! Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……大家现在确实兴致高涨。）",
+			say = "(Well... I suppose the crisis is over now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（既然误会已经解除，妖怪剧团和{namecode:182}又提前做了诸多准备。）",
+			say = "(Everyone's safe, and I don't want to undermine the efforts Shinano and the Youkai Troupe put into all this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,7 +1037,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（那就期待和享受一下它们的演出吧——）",
+			say = "(Let's head in and see what this play is like.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

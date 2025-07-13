@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>天际的潜水者</size>",
+					"Invitation of the Wind\n\n<size=45>3 Diving Under Blue Skies</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "上方的光芒在逐渐增强，我们正在接近波光粼粼的水面。",
+			say = "The light above grows brighter, informing us that we'll reach the surface soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "看向身边的少女，互相做出确认出水的手势后。",
+			say = "I gesture to my partner next to me and swim up to the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "呼——！海面上的世界，我们回来了。",
+			say = "Phew...! We're back on the water's surface!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官，你的脸色……",
+			say = "Commander, you look pale...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……如果没能习惯潜水的话，确实会有些惊魂未定的感觉。",
+			say = "I get it. If you're not used to diving, it's easy to get scared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就算是我，也在刚刚的第一次潜水中稍微心慌了一下。",
+			say = "I panicked a little when I started out, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "不过你看四周，蓝天、烈日与白云。不用惊慌，我们已经平安回来了哦。",
+			say = "You're okay now, Commander. Look at the skies above, and see that you're safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……怎么说呢，企业似乎弄错了我正在担忧的对象。",
+			say = "\"Actually, Enterprise, I'm not worried about myself. Look down.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看向面前少女修长的大腿，大腿根部，黑色贴身的潜水服上赫然出现了一个剐蹭后留下的大洞。",
+			say = "Her diving suit has a big hole in the thigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "啊，原来指挥官是在在意这个啊……",
+			say = "Oh, this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕竟刚才在水下听到了一小声悲鸣，所以才决定紧急上浮的。",
+			say = "\"I heard you yelp during our dive, so I decided to have us exit early.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "唔……刚刚在剐蹭到礁石的时候，我确实有一瞬间慌了神。",
+			say = "Heh, yeah, it was a surprise when I hit that rock.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过判定完损伤情况后，我就已经冷静了。",
+			say = "I felt better after I checked the damage, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕竟我们下潜的深度并不深，只是潜水服被划破了一道口子而已，没关系的。",
+			say = "We weren't that deep, either. Just tearing my suit a little is no biggie.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你看，我这里一点伤都没有。",
+			say = "And see? I'm not even wounded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "指挥官如果放心不下的话，就来检查一下吧。",
+			say = "Don't believe me? Check it out for yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "企业一边说着，一边自然又突然得贴了过来。",
+			say = "Enterprise swims closer to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "看，我没骗你吧，毫发无损。",
+			say = "See, I'm just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "所以不用担心，我没有在逞强。",
+			say = "I appreciate your concern, but it's not like I'm acting tough, or anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "万幸……确实只有潜水服的布料破损了。",
+			say = "Fortunately, Enterprise isn't hurt. All the scrape did was tear her wetsuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "突然意识到，在水下时和企业贴近到这个距离还算正常，在水面上就稍微有些……",
+			say = "Suddenly, I realize that she's gotten really close to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过显然，企业并没有注意到这一点。",
+			say = "It's normal to be this close mid-dive, but she doesn't care even when we're on the water's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "五彩斑斓的珊瑚与形形色色的海洋住民。",
+			say = "Those colorful reefs, all the little sea creatures...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "珊瑚礁，就像一座美丽又繁忙的都市一样……",
+			say = "It was just like a busy city, wasn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我在海面上战斗了无数次，原本以为对大海已经足够熟悉了。",
+			say = "We think we know the sea well, because we're always fighting on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "舰载机虽然可以飞上高空，一览百里之外的风景。",
+			say = "Carrier-based craft might let us see beyond the horizon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但仅仅是海面的咫尺之下，就隐藏着一个截然不同的世界。",
+			say = "But there's a whole other world hidden down there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "水下的潜艇同伴们在作战的时候，原来是这种感觉啊……",
+			say = "Is this how our submarines feel when they fight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "可惜，如同潜水一般的景色，只有潜艇舰船才能体验到。",
+			say = "\"It's a shame that only they get to see certain sights. You need special gear to descend that far.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果是乘坐量产型潜艇潜入水下的话，是没有窗户可以看风景的。",
+			say = "\"Even mass-produced submarines wouldn't let us take a leisurely look around.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……对哦，好像确实是这样的。",
+			say = "...Yeah, you're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "坐在没有窗户的漆黑机械中潜入水下……",
+			say = "Sitting in a windowless submarine, deep underwater...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，看来我还是更适合海面上的战斗。",
+			say = "I'll pass. I'm built for fighting on the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "啊，抱歉，指挥官。我不知不觉又聊到战斗上了……",
+			say = "Oh, sorry. I just can't stop talking about fighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明明今天是一起出来放松的，这样可不好。",
+			say = "Here I'd promised that we'd relax together... So much for that, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……指挥官看上去也恢复平静了。",
+			say = "Phew... Feel better now, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那，休息时间结束，我们再下潜一次？",
+			say = "That's enough of a break. Let's start our next dive, alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "可是潜水服上的破损……",
+			say = "\"I have plenty of stamina and oxygen left, but what about your wetsuit?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "唔……这确实是个问题。",
+			say = "...Now that you mention it, this is kind of a problem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "穿着破损的潜水服潜水，既不符合安全规定也会让你格外担心……",
+			say = "Diving in a damaged wetsuit is against safety regulations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然如此，我们就返回岸边吧？",
+			say = "Let's go back to the coast, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "不论在水上还是水下，只要在你身边，对我来说都是最好的放松时光。",
+			say = "It doesn't matter if we're on the surface or underwater. Me, I can relax as long as you're here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "指挥官呢？",
+			say = "What say you, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "回答当然是肯定的。",
+			say = "\"I feel the same, of course.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，那就让我们换一种方式享受剩余的时光吧。",
+			say = "Heheh. Let's find another way to enjoy the rest of our time together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "水下的景色虽然美丽，但水面上的景色也不会有丝毫逊色哦~",
+			say = "The sights underwater may be pretty, but they don't beat the world above.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "蓝天之下，握住了微笑的少女伸出的手——",
+			say = "Enterprise's smile is as clear as the blue sky. She offers me her hand—and I hold on tight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

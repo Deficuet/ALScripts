@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "港区·体育馆",
+			say = "Port - Outdoor Gym",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "巴尔的摩大姐，来试试我这一招！",
+			say = "Get a load of THIS one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，放马过来吧。",
+			say = "Heh, easy return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "此刻，两道身影正在球场中展开着激烈的网球对决。",
+			say = "Bremerton and Baltimore were in the midst of a heated game of tennis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇……巴尔的摩的速度好快，感觉已经远超职业级的水准了！",
+			say = "Whoa... That Baltimore girl is even faster than a pro player!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，不过布莱默顿小姐的技巧也很厉害哦，总是能预判到对方的行动。",
+			say = "Bremerton's predictive skills are incredible, too. She reacts with such precision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "原本只是路过的两名少女被激烈的战况吸引，露出了兴奋的神色。",
+			say = "When Nana and Haruna happened to pass by, they stopped and gawked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这比赛看得我也有点手痒了呢！",
+			say = "This is really stoking my competitive spirit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "嗯……我也是。",
+			say = "I'm in the mood for a good workout, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "看上去，这里的网球场似乎是可以随意借用的类型？",
+			say = "Huh? You know, it looks like these courts are free for anyone to use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "你看，就连地上都放着网球拍呢。",
+			say = "See, there are rackets over there with a sign that says anyone can play with them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "少女说着捡起了地上随意搁置的网球拍，随手挥动了两下。",
+			say = "The two of them picked up rackets and swung them around for a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "突然，一颗网球飞出外场，朝着少女的方向飞来。",
+			say = "And then, a tennis ball came flying at them from the courts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心！",
+			say = "Watch out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……！",
+			say = "Ah...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "少女下意识地挥动手中的球拍，干脆利落地将网球准确地击回了发球者的手里。",
+			say = "Haruna reflexively swung the racket, perfectly returning the ball.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "哇~好厉害~！",
+			say = "Wow, nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "抱歉抱歉，是我不小心失误了。",
+			say = "Sorry! That was a really bad shot on my part...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "春菜小姐，你没受伤吧？",
+			say = "Umm, are you okay? Did it hit you at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我没事哦，不如说我们未经允许就在这里观战……不会给你们造成困扰吧？",
+			say = "No, I'm fine! Really, we should apologize for staring... I hope we didn't bother you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然不会。",
+			say = "Not at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "有你们观战，能让我们打得更认真哦~！",
+			say = "Having spectators just makes a good match more exciting♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "话说刚才春菜小姐还击的那一下很厉害嘛！看起来好像很擅长网球的样子哦~",
+			say = "But really, that was an impressive return! You have a real knack for tennis, Haruna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "嗯……确实能感觉到颇具实力。",
+			say = "Yeah... Not bad at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "啊，巴尔的摩大姐，总是我们两个打也很难提高技术啦，不如邀请她们一起怎么样？",
+			say = "Y'know, Baltimore, we won't improve much if we just keep playing each other. How about we bring these two in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我倒是无所谓……春菜小姐，娜娜小姐，你们愿意加入吗？",
+			say = "I wouldn't mind, but they're the ones you need permission from. Haruna, Nana?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "我没问题的！我超级喜欢打网球！谢谢邀请！",
+			say = "Sure! I love tennis, so I'd be happy to play!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啊好啊~正好刚才看你们比赛有点手痒呢~！",
+			say = "Me, too! I've been in the mood to play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "就这样，春菜和娜娜加入了比赛。",
+			say = "Thus, with Haruna and Nana's participation, they had a doubles game on their hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Soon after...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……看起来今天遇到了强劲的对手了啊！",
+			say = "Phew... We found ourselves some formidable opponents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "哼哼~♪这样反而更能激发斗志哦~",
+			say = "Heheh, this is the kind of stuff that makes sports more exciting♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "春菜与娜娜在简单热身后，很快适应了比赛节奏，比赛一时间进行得相当激烈。",
+			say = "After a quick warm-up, Haruna and Nana quickly got into the groove of things and put up a worthy fight against Baltimore and Bremerton.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "你们也很厉害哦！对吧春菜？",
+			say = "You two are great, too! Right, Haruna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "嗯……嗯！确实……而且两位的体力都很好……",
+			say = "Y-yeah...! Your shots are strong, and you have so much stamina...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "不过，我才不会输……！",
+			say = "But we're not done yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "少女平复了一下自己的呼吸，调整了步伐再度发球。",
+			say = "Haruna took a deep breath, adjusted her stance, stepped forward, and served again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "不错嘛~看我新学到的必杀技！",
+			say = "Not bad~ Just for that, you get to see my new secret move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "布莱默顿一记扣杀，网球以惊人的速度掠过球场上空，消失在远方的灌木林中。",
+			say = "Bremerton's powerful smash sent the ball flying at astonishing speed... and directly into the bushes in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "呃……必杀技掌握还不够熟练……嘿嘿。",
+			say = "Aw, man... Still can't control my secret move well enough, I guess... Heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,11 +576,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "受到惊吓的猫",
+			actorName = "Scared Kitty",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喵~！",
+			say = "Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀——！",
+			say = "Eeek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "一道受到惊吓的身影猛地扑向了春菜，少女因为突如其来的惊吓，跌坐在了地上。",
+			say = "A cat, startled by the call, leapt out of the bushes and pounced onto Haruna. It was too sudden for her to brace herself, so she was knocked onto her butt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "春菜，你没事吧？！",
+			say = "Haruna! Are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "我没事……只是小猫……",
+			say = "I-I am... But the poor kitty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "猫咪钻进了春菜的衣服里，紧紧地抱住春菜，不肯出来。",
+			say = "The cat had burrowed into her clothes and would not let her go now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "嗯？又是从猫咖里跑出来的孩子么。",
+			say = "Hm? Another escapee from the cat café, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来是被我刚刚那一球吓到了……总之先把它弄出来好了！",
+			say = "Guess I scared it with my sick moves... We'd better get it off of you, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀~~！",
+			say = "Aaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "几人围上来，七手八脚想要帮助春菜脱离困境。",
+			say = "Just as everyone ran over to help Haruna...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "而听到几人动静的猫咪似乎像是又受到了惊吓，钻地愈发深入了。",
+			say = "...The cat burrowed even deeper, scared by the commotion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "怎……怎么办啦……呜……",
+			say = "Wh-what now? Ooh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103241,
-			say = "我已经给{namecode:523:让·巴尔}发短信了，援军马上就到！",
+			say = "I called Jean Bart. She'll be here right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那在援兵到来之前……",
+			say = "Okay, but what do we do until then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "看来只能等了！",
+			say = "All you can do is wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,11 +787,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "受到惊吓的猫",
+			actorName = "Scared Kitty",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喵~！",
+			say = "Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100050,
-			say = "呜……好的，那就拜托了……",
+			say = "Ulp... O-okay... Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "那本场对决的胜负要怎么算呢？",
+			say = "So, who won the match?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……算上布莱默顿刚刚丢掉的那一分，我们正好打平。",
+			say = "Well... Including Bremerton's flub at the end, I guess it's basically a draw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "所以本场比赛……猫咪胜出！",
+			say = "But I think we know who really won today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,11 +854,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "受到惊吓的猫",
+			actorName = "Scared Kitty",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喵~！",
+			say = "Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

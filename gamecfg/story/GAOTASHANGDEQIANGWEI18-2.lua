@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，局势有变，我发现有第三方势力正在从东北方向我们靠近。",
+			say = "Commander, status update. A third force is approaching from the northeast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哦？难道是本土抵抗势力么。",
+			say = "The northeast? Must be the local resistance force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我从你提供的资料里看到，这实验场中的塞壬过去和本土势力是盟友关系，这件事确定无疑吧？",
+			say = "From what I read in your files, the Sirens that stayed here had an alliance with the previous local powers. Is that correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，我很确定。",
+			say = "Yes. Without a doubt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "说不定……她们是把我们当成了过去的友军苏醒，所以来帮忙的。",
+			say = "Then it's possible they think we're their former allies who've come back to life, so they sent reinforcements our way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原本我还在考虑要不要主动联络过去要点情报呢……现在倒是不用纠结了。",
+			say = "I was unsure whether to reach out to them. Guess they're making the first move now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哇哦，助手助手你快看！天上有金色的狮子在飞哦！",
+			say = "Whoa! Look, assistant! There are golden lions flying in the air!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……金色的狮子？",
+			say = "What? Golden lions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,18 +182,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "我抬头看向天空，除了双方交战的飞行单位外，并没有看到金色的狮子。",
+			say = "I turn my gaze upward and see no lions of any kind, only flying units engaged in combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……你是怎么看到的？",
+					content = "How'd you see the lions?",
 					flag = 1
 				},
 				{
-					content = "……你是依靠鲸鱼发现的么？",
+					content = "Did the whale tell you that?",
 					flag = 2
 				}
 			}
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "唔……反正就是能看到嘛！",
+			say = "I dunno... I just know I saw them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "助手你看不到没关系呀，等我把狮子叫过来就好啦~",
+			say = "It's fine if you can't see them! I'll go and call the lions over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "大鲸鱼，冲呀————！",
+			say = "Whale, take off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

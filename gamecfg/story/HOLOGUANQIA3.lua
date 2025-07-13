@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "holo-tokiwa",
-			say = "零星的几场战斗结束后，塞壬停止了继续增援，海域恢复了宁静。",
+			say = "After a few quick skirmishes, the Sirens' reinforcements ceased coming, and the sea turned still once more.",
 			effects = {
 				{
 					active = true,
@@ -29,7 +29,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在{namecode:96}与{namecode:158}寻找脱离镜面海域的航线时，海雾消散了",
+			say = "As the two searched for a way to exit the Mirror Sea, the fog before their eyes cleared up almost as quickly as when it formed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就像出现之时那么突然，二人的视野刹那间豁然开朗",
+			say = "It's almost like the fog itself is a part of the abnormal weather within the Mirror Sea.",
 			effects = {
 				{
 					active = false,
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里……究竟是什么地方？！",
+			say = "What in the world...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………异状",
+			say = "Looks like we aren't out of the Mirror Sea yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "与浓雾出现前的空旷海域不同，无数大小岛屿如凭空出现一般棋布在海域中，远方还有隐约可见的巨大水面建筑物",
+			say = "Countless islands appeared before them, and massive artificial structures rose high up above in the far distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "放眼细看，不论是岛屿还是岛屿上的树木砂石，甚至人工建筑，都是由无数方形色块构成的。",
+			say = "Upon closer inspection, the islands' flora and the structures appear to be made out of innumerable blocks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就好像对自然造物的低劣仿制一样",
+			say = "It all looks like a poor replica of the real world in their eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬还真是在镜面海域里折腾一些不得了的东西啊…",
+			say = "The Sirens' technology never ceases to amaze...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的情况是，周围环境发生了彻底改变，与港区的联络也因干扰陷入瘫痪。寻找离开镜面海域的航线已经不可能了。",
+			say = "Zuikaku, the weather around us just changed again. It's looking like we'll need to explore the area to find a way out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简单来说就是，迷航了嘛~",
+			say = "I mean, that was pretty obvious to me from the moment we wandered in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正解。{namecode:96}…你一点都不担心？",
+			say = "... You're not afraid of what might happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "东煌有句古话“车到山前必有路”，反正担心也改变不了现状，还不如鼓起精神来。",
+			say = "It's fine, we'll get outta here sooner or later. We don't achieve anything by worrying about what we don't know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来都来了，我倒要看看塞壬究竟在这里搞些什么阴谋！",
+			say = "And while we're here, might as well investigate to see what the Sirens are planning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

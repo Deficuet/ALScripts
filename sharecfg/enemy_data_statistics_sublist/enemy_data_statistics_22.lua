@@ -1,8 +1,161 @@
 pg = pg or {}
 pg.enemy_data_statistics_22 = {
+	[90657] = {
+		cannon = 0,
+		name = "Lion-class Phantom",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90657,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "ghostDD",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 200,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "ghostDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 9,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			9
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.692,
+					1.396,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.814,
+					0.222,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.94,
+							1.12,
+							-0.27
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.94,
+							0.88,
+							-0.02
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90658] = {
 		cannon = 0,
-		name = "朱萨诺级量产型-灵魂态？",
+		name = "Duca degli Abruzzil-class Phantom",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -155,7 +308,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90659] = {
 		cannon = 0,
-		name = "扎拉级量产型-灵魂态？",
+		name = "Zara-class Phantom",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -323,7 +476,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90660] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型-灵魂态？",
+		name = "Conte di Cavour-class Phantom",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -489,7 +642,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90661] = {
 		cannon = 0,
-		name = "天鹰级量产型-灵魂态？",
+		name = "Aquila-class Phantom",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -658,7 +811,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90662] = {
 		cannon = 0,
-		name = "自爆船-灵魂态？",
+		name = "Bombing Ship Phantom",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -804,7 +957,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90663] = {
 		cannon = 0,
-		name = "马可尼级量产型-灵魂态？",
+		name = "Marconi-class Phantom",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -955,7 +1108,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90664] = {
 		cannon = 0,
-		name = "女灶神~Shadow Of Vesta~",
+		name = "Vestal's Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1124,7 +1277,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90665] = {
 		cannon = 0,
-		name = "丘比特~Shadow Of Jupiter~",
+		name = "Jupiter's Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1293,7 +1446,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90666] = {
 		cannon = 0,
-		name = "天后~Shadow Of Juno~ ",
+		name = "Juno's Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1462,7 +1615,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90667] = {
 		cannon = 0,
-		name = "海王星~Shadow Of Neptune~",
+		name = "Neptune's Shadow",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1618,7 +1771,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90668] = {
 		cannon = 0,
-		name = "勒马尔~Shadow Of Mars~",
+		name = "Le Mars' Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1774,7 +1927,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90669] = {
 		cannon = 0,
-		name = "竞技神~Shadow Of Mercury~",
+		name = "Hermes' Shadow",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1923,7 +2076,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90670] = {
 		cannon = 0,
-		name = "罗马~Incarnation Of Roma Gods~",
+		name = "Roma's Phantom",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2073,7 +2226,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90671] = {
 		cannon = 0,
-		name = "马格德堡",
+		name = "Magdeburg",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2229,7 +2382,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90672] = {
 		cannon = 0,
-		name = "阿达尔伯特亲王",
+		name = "Prinz Adalbert",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2385,7 +2538,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90673] = {
 		cannon = 0,
-		name = "布伦希尔德",
+		name = "Brünhilde",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2554,7 +2707,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90674] = {
 		cannon = 0,
-		name = "乌尔里希·冯·胡滕",
+		name = "Ulrich von Hutten",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2710,7 +2863,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90675] = {
 		cannon = 0,
-		name = "声望·META",
+		name = "Renown META",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2859,7 +3012,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90676] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX",
+		name = "Arbiter: The Hermit IX",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3011,7 +3164,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90677] = {
 		cannon = 0,
-		name = "夕云级量产型T2",
+		name = "Mass-Produced Yuugumo Class MK 2",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3166,7 +3319,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90678] = {
 		cannon = 0,
-		name = "川内级量产型T2",
+		name = "Mass-Produced Sendai Class MK 2",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3321,7 +3474,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90679] = {
 		cannon = 0,
-		name = "最上级量产型T2",
+		name = "Mass-Produced Mogami Class MK 2",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3489,7 +3642,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90680] = {
 		cannon = 0,
-		name = "扶桑级量产型T2",
+		name = "Mass-Produced Fusou Class MK 2",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3657,7 +3810,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90681] = {
 		cannon = 0,
-		name = "赤城级量产型T2",
+		name = "Mass-Produced Akagi Class MK 2",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3826,7 +3979,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90682] = {
 		cannon = 0,
-		name = "自爆船T2",
+		name = "Bombing Ship MK 2",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3972,7 +4125,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90683] = {
 		cannon = 0,
-		name = "潜艇量产型T2",
+		name = "Mass-Produced Submarine MK 2",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4116,7 +4269,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90684] = {
 		cannon = 0,
-		name = "若月",
+		name = "Wakatsuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4272,7 +4425,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90685] = {
 		cannon = 0,
-		name = "凉月",
+		name = "Suzutsuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4428,7 +4581,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90686] = {
 		cannon = 0,
-		name = "酒匂",
+		name = "Sakawa",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4569,153 +4722,6 @@ pg.enemy_data_statistics_22 = {
 			"bossguangxiao",
 			"appearQ"
 		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90687] = {
-		cannon = 0,
-		name = "千岁",
-		type = 6,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90687,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "qiansui",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 6,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "qiansui",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.24,
-					1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.745,
-					1.131,
-					0
-				}
-			},
-			plane = {
-				{
-					1.723,
-					1.184,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.27,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
 		position_offset = {
 			0,
 			0,

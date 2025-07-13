@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在重樱舰队远处可见的天际线上，已经依稀出现了港湾的轮廓。",
+			say = "Just on the horizon, the first vestiges of the anchorage became visible to the Sakura fleet.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈，我们就要抵达斯卡帕湾了！",
+			say = "Akagi, we're about to arrive at Scapa Flow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家居然没有进行任何反击……周围也没有看到任何皇家舰队。",
+			say = "It seems like the Royal Navy hasn't even mobilized any forces in this area yet, let alone launched a counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道这里已经被铁血拿下了？……速度也太惊人了吧？！",
+			say = "Does that mean they were caught off-guard by a surprise attack?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实是速度惊人……不过{namecode:96}，仔细观察。",
+			say = "Perhaps... But look closely, Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里的损伤都是一段时间之前留下的，没有新的交战痕迹，也没有任何人员抵抗的迹象。",
+			say = "There aren't any signs of fighting here, and it doesn't seem like the Iron Blood has taken the facilities for their own use either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在我看来，这里更像是在皇家人员已经提前撤离的情况下，被铁血兵不血刃占领的。",
+			say = "Did they drive out the Royal Navy and then leave things alone... or was the Iron Blood never interested in occupying Scapa Flow in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实太反常了……斯卡帕湾对于皇家来说是一处无可取代的重要锚地。",
+			say = "Isn't the Scapa Flow anchorage critical to the defense of the Royal Navy's homeland? It wouldn't make any sense for them to just give it up without a fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然之前被铁血舰队袭击过一次，但也不至于像这样开战之初就干净利落的放弃吧？",
+			say = "It's possible that the Iron Blood needed this area to conduct some sort of experiment, but that still doesn't explain the absence of Royal Navy ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "谁知道呢。好消息是我们不用靠自己的力量打上观众席了。",
+			say = "Hard to say. Just be glad we don't have to fight our way to the spectator seats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，进入斯卡帕湾，相信{namecode:440}会给我们的疑问一个答案的。",
+			say = "Let's go. I'm sure Friedrich will soon provide answers to our questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "斯卡帕湾锚地·内部海域",
+			say = "Scapa Flow Anchorage",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "四面被岛屿包围，拥有七条航道分别通向三片海域……",
+			say = "Wow... Even though this place is enclosed by islands, there are so many waterways leading out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "百闻不如一见，斯卡帕湾真是一处能让人感叹大自然鬼斧神工的优质海上基地啊……",
+			say = "Seeing this in person really makes you appreciate how powerful Mother Nature can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，前辈，那艘船是什么？",
+			say = "Akagi, what's that ship over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来既不像铁血的量产型，也不像皇家的量产型。",
+			say = "It looks mass-produced, but a really old-fashioned model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "顺着{namecode:96}的视线，重樱众人看到了一艘隐藏在阴影中的巨大军舰。",
+			say = "As the fleet entered the harbor, the shadow of a large moored warship loomed in front of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "这个是…………战舰伊丽莎白女王号……？",
+			say = "This is... a Queen Elizabeth-class?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "军舰？和量产型不一样么。",
+			say = "It doesn't look anything like the mass-produced ships we've seen before though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "嗯，现在的孩子也许已经不太了解其中的区别了吧……",
+			say = "Because it's not. This is a warship that predates the mass-produced \"ships\" of our era.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你应该很清楚，我们是利用心智魔方诞生的舰船。",
+			say = "We are \"ships\" born from Wisdom Cubes, but these vessels are constructs assembled from steel, protecting the seas long before our time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "可是在出现心智魔方之前，人类是依靠什么在海上战斗的呢？",
+			say = "Before the advent of Wisdom Cubes, humanity built these vessels, and they became the blade they wielded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "答案就是战舰。",
+			say = "Nowadays, you'll only find transport ships and rare models of mass-produced ships made the old-fashioned way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "与现在可以方便的进行大量制造的量产型不同，每一艘军舰都是制造周期漫长的，独一无二的工艺品。",
+			say = "Unlike modern mass-production which can churn out a large number of ships in a short amount of time, each one of these warships had unique designs and a long construction process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "所有最初的舰船都是利用当时服役的战舰和心智魔方共同创造出来的。",
+			say = "That is why when we, the shipgirls, appeared, these older vessels were quickly phased out of production.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过在后来的研究中，科研部门发现并不需要实际建造出军舰的船体也能让我们诞生。",
+			say = "Even the mass-produced ships are little more than mementos of a bygone era, reserve forces that assist us in our operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "所以在某个时间点开始，成本过高而在对抗塞壬战斗中难以起到作用的传统军舰就彻底停止建造了。",
+			say = "But some things are for the best. The era when these warships were the only line of defense against the Sirens was a tragic one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "当时依然幸存的船体也大多进行了退役处理。",
+			say = "(Rather than being scrapped like so many others, at least you were able to spend the rest of your lives in the relative peace of this harbor...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "原本以为老古董伊丽莎白女王号肯定也是如此……",
+			say = "(I wonder what would've happened to our \"past forms\"...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "想来也许是被皇家当成纪念品保存起来了吧。",
+			say = "(...If they could have been preserved into an era of peace...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，作为有象征意义的战利品来说还真不错。",
+			say = "But judging by this warship's presence here, it seems that even the Iron Blood cannot touch the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈也有过么？作为军舰存在的船体。",
+			say = "I wonder if we have any warships like this back in the Sakura Empire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "………………那种东西，从很久之前就没有了哦。",
+			say = "Who knows? It's something I stopped caring about long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:91}大人，已经能看到铁血的迎接舰队了。",
+			say = "Akagi, an Iron Blood ship is coming our way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "顺着{namecode:39}的视线，众人看到了两艘沿着水道缓缓接近的铁血舰船。",
+			say = "Several Iron Blood ships were moored along the coast of the harbor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499050,
-			say = "各位应该就是应邀而来的重樱舰队吧，{namecode:480}向各位问好。",
+			say = "Heheh. You've come, Akagi of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499060,
-			say = "{namecode:481}向各位问好。",
+			say = "Good day, esteemed guests. You've been personally invited by Friedrich der Große.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:480}和{namecode:482}……你们都是铁血计划舰队中的一员？",
+			say = "(Ägir and August von Parseval... the Iron Blood's latest blueprint ships...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。如果对于我们的战斗性能有兴趣的话，期待能有并肩作战的机会哦。",
+			say = "I can see the curiosity in your eyes, but let's save that for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "{namecode:482}与{namecode:480}微微颔首，各自后退半步让出一条通路。",
+			say = "Guided by the Iron Blood ships, Akagi and her fleet made their way deeper into the harbor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			actor = 499060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "各位这边请，{namecode:440}已经恭候多时了。",
+			say = "Right this way. Friedrich has been waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>五 埃米尔的浪漫说·上</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 5 - Émile's Romance Theory Pt. 1</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和埃米尔闲聊了起来。",
+			say = "Èmile and I were having a chat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有细心留意，才能发掘生活中的美。而珍惜这些细小的美好，我觉得，就是浪漫的本质哦~",
+			say = "... And because we focus on the details, we can see the beauty of everyday things. A true romanticist values even the smallest of life's beautiful things, wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			},
 			options = {
 				{
-					content = "好奇",
+					content = "Such as...?",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "生活中的美好东西有许多呢，即使每天都是一样的环境，其中也会有细微的变化。",
+			say = "To me, life's small beauties are the things that make a subtle difference. In other words, no matter how small they are, you should be able to find them if you look for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的鸟儿叫声是不是和昨天不一样呢？这里有一朵没有见过的花呢~在不同的地方跳舞的感觉也完全不同……",
+			say = "The chirping of birds resting on the windowsill; the small flowers growing on the wayside. Once you calm your mind and scan your surroundings, you'll find the world is brimming with those sorts of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "埃米尔闭上双眼，双手抱在胸前，像是在拥抱着什么美好的东西一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "和人交流也是一样的，世上不存在两个性格完全一样的人，即使看起来相似，也一定存在着某些差异。",
+			say = "Émile closed her eyes and gestured like she was hugging something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "去发现每个人身上的不同，我觉得是十分重要的~",
+			say = "The same goes for people. No two people will have the exact same personality. They may have very much in common, but they will undoubtedly differ in some ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且指挥官你不觉得，如果发现一个人身上有非常美好的品质，会是一件十分开心的事吗？",
+			say = "When you make new acquaintances, it's important to discover what characteristics and traits they have and which set them apart from others.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "To find out a person's unique merits, the ones you've never seen before – that's just so wonderfully romantic, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "I suppose so",
 					flag = 1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以呢，虽然也会有难过和悲伤的时候，不过只要想到世界上还有那么多值得我去体验和发现的东西，就觉得一定要坚持下去。",
+			say = "All I need to get through times of great sorrow and pain is remembering that there are still many, many beautiful things I've yet to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "离别也好，战争也好，哪怕有多么痛苦，只要我的这份热情没有消退，我就永远不会屈服。",
+			say = "I want to see those things, I want to experience them, and I want to cherish them with all my heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,37 +227,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "埃米尔回过神来，露出有点不好意思的表情",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊哈哈，好像说了一些非常自大的话，有点不好意思呢…指挥官你听过就算了哦？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "不过她马上像是想到了什么一样凑了过来。",
+			say = "Émile suddenly turned around and faced me, looking a little embarrassed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +243,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官！我们来约会吧~",
+			say = "Aha... That might've sounded a little pretentious. You may disregard what I just said.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Then Émile made a proposition to me:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，既然聊到了浪漫，比起说些大道理，来实践不是更好的方法吗？",
+			say = "I know! How about a date, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +289,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，指挥官不愿意和我约会呢？嘻嘻",
+			say = "Romance is more easily understood through first-hand experience than through another person's description of it, you know?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Besides, wouldn't you like to have a date with me? *Giggle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…定下了和埃米尔约会的行程",
+			say = "Èmile convinced me to go on a date with her... Which I guess isn't so bad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

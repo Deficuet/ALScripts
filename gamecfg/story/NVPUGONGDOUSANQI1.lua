@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队3rd？\n\n<size=45>一　第三次演习</size>",
+					"Fight On, Royal Maids! (Part 3)\n\n<size=45>1 The Third Exercise</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听好了，光辉！本次演习是一次对于我们新型航空母舰的重要测试！",
+			say = "Do you understand, Illustrious? This exercise is a sublime opportunity to gauge the strength of our latest carriers!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "演习配置为三航母对三航母，再加适量护卫舰队好了。",
+			say = "Both sides are to consist of three carriers each, plus a small escort fleet.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在前两次的舰队演习中，女仆队展现出了皇家的风范，希望这次也能再接再厉，让本次航空对抗演习取得圆满成功！",
+			say = "The Royal Maids did an exemplary job demonstrating the Royal Navy's excellence in the previous two exercises. You lot have a high standard to live up to, but I expect you'll do just fine!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了……因为是航空演习，本王就不亲自指挥了，所以这次指挥官也别指挥！",
+			say = "One last thing: As this is an aviation exercise, neither I nor the Commander will be in charge.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以上是陛下希望我进行传达的内容。",
+			say = "...Those were Her Majesty's instructions.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下已经决定了由半人马、阿尔比恩、英仙座作为皇家一方的参战航母。",
+			say = "The Royal Navy's exercise fleet will be centred around Centaur, Perseus, and Albion.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -163,7 +163,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "另一方的参战人员与护卫舰人选就交由指挥官来决定了。",
+			say = "As for the opposing fleet, I'm told it's up to you to determine its composition, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "航空演习啊……合适的人选倒是不少，问题是应该选择哪些人员参与呢……",
+			say = "\"I see. It'll be hard to narrow down my picks when there are so many qualified candidates.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "埃塞克斯，你怎么看？",
+			say = "\"Is there anyone you'd recommend, Essex?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我认为埃塞克斯级可以作为皇家新型航空母舰的演习对手。",
+			say = "I do. The Essex class has plenty of combat experience, and I believe we'd make a worthy opponent for the Royal Navy.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人选的话……让无畏、香格里拉与邦克山参与战斗怎么样？",
+			say = "If you're looking for specific names, how about Intrepid, Shangri-La, and Bunker Hill?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）————",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打扰了~指挥官，还有各位女士们，我刚刚在门口似乎听到了名为“航空演习”的事。",
+			say = "Sorry for showing up uninvited, but I heard you're planning a carrier-on-carrier exercise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "机会难得，能不能让撒丁帝国也参与一下呢？",
+			say = "How do you feel about giving Sardegna an opportunity to participate? We seldom get opportunities like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "撒丁帝国的话，能动用的航空母舰就是天鹰和帝国了吧？",
+			say = "\"I don't see why not. Though, Sardegna currently only has two carriers stationed here – Aquila and Impero. That leaves one slot to fill...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~剩下的一艘就交给白鹰，让我们来一次撒丁-白鹰联合舰队如何，埃塞克斯小姐？",
+			say = "I have no issues working with someone from the Eagle Union. Essex, what do you think about an Eagle Union-Sardegna Empire joint task force?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -314,7 +314,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与撒丁帝国的联合航空编队演练啊……听起来很有挑战性。",
+			say = "Well, it's certainly an ambitious idea and will pose an interesting challenge for everyone involved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果指挥官没有意见的话，我也没有意见。",
+			say = "Commander, if you don't have any issues then I'm in favor of it.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "那就这样决定了？剩下的一个人选你打算让谁来？",
+			say = "\"No objections here. That still leaves the question about the final carrier, though.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无畏的话……指挥官觉得可以么？",
+			say = "Intrepid might be the best fit, in my opinion.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没问题，那舰队的指挥就交给同为埃塞克斯级的埃塞克斯了。",
+			say = "\"Then Intrepid it is. Also, I'm appointing you as the task force leader, Essex.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……诶？是！我一定圆满完成演习任务。",
+			say = "M-me? As you say! I promise I will not disappoint you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~天鹰与帝国那边就由我负责去转达，我就先告辞了。",
+			say = "Great. I'll inform Aquila and Impero at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "护卫舰队的事就交给你了哦，埃塞克斯小姐。",
+			say = "Oh, and I trust you to assemble the escort fleet, Essex. Now, if you'll excuse me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……光辉，皇家那边的护卫舰队有决定好么？",
+			say = "Okay then... Illustrious, has the Royal Navy already worked out its escort fleet composition?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下计划让女仆队曼彻斯特与正在进行女仆队体验的雅努斯参加。",
+			say = "Yes. We've chosen Manchester of the Royal Maids and Janus, a trainee maid.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这样的话，我们这边就让里诺去好了，驱逐舰的话……",
+			say = "Alright. In that case, I'm going with Reno as our light cruiser. We'll also need a destroyer...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -505,7 +505,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "驱逐舰的话，这里不是正好有一位么？",
+			say = "\"There's a candidate right here. We need at least one maid per side, don't we?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 201340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……？指挥官，这是某种玩笑么？",
+			say = "...Me? Is this some kind of joke, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			actor = 201340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我身为皇家女仆队的临时成员，怎么能到皇家舰队的演习对抗方去呢……",
+			say = "I may have taken some maid training courses, but that doesn't make me a full-fledged member of the Royal Maids, does it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然是以测试为目的的演习，有了解皇家战术的人参加会更有意义。",
+			say = "\"Maybe not, but I'd say you know more than enough about the Royal Navy's tactics to fill in that role.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "埃塞克斯和光辉也没意见吧？",
+			say = "\"Essex, Illustrious, are you two on board?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要指挥官同意的话，我就没问题。",
+			say = "I always trust your judgment, Commander!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -596,7 +596,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也觉得没问题哦，演习中皇家女仆队的总人数增加了，不论结果是输是赢，陛下应该都会很高兴呢~",
+			say = "Likewise. I believe she's just as qualified as any of the Royal Maids.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很好，那就这么决定了————",
+			say = "\"Then that settles it. Jervis, you're on the escort fleet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			actor = 201340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸………………是，我了解了。",
+			say = "Uhh, I see... If you insist, I'll do as you say.",
 			painting = {
 				alpha = 0.3,
 				time = 1

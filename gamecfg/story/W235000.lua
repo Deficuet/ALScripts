@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前海域内事件已经全部完成，即将回到达咯尔港。",
+			say = "All tasks in the zone have been completed. You will now be brought back to Dakar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前章节内容已经全部完成，请跟随任务列表的指引开始下一章节的内容。",
+			say = "Complete missions that progress the story to continue the Chapter 5 campaign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

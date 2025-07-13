@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "ssss-az-battle-boss",
-			say = "西南城区·近海",
+			say = "Southwest Sector - Nearby Waters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "敌方舰队发现。呵呵呵，摆出这样的阵型实在太没经验了。",
+			say = "Doesn't feel like there's any sentience coming from that formation over there. Must be a bunch of mass-produced tin cans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来它们完全没发现我们的存在，是偷袭的好机会。",
+			say = "I don't think Mujina's taken notice of us either... Alright everyone, now's our chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "从暗处发动攻击，然后一举拿下大作战！",
+			say = "So, we're gonna seize victory in a single fell swoop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等，不是说被塞壬骗了么，既然是被骗的，总要先谈谈吧……",
+			say = "Wait, let's slow down a sec. If we were sent here by the Sirens, shouldn't we at least try to talk things through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果对面被骗的深信不疑，拒绝谈判呢。",
+			say = "And what if the other side doesn't feel like talking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到那个时候再开打……？",
+			say = "Then we launch a surprise attack?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "失去了突袭的优势，接下来的战斗可能会出现本应避免的损伤，这种情况要怎么算？",
+			say = "Then it wouldn't be a surprise attack. We might even get intercepted by those mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实……应该以同伴的安危为第一位。",
+			say = "You're right... The most important thing is getting everyone back safely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "要谈，也要等到把那些塞壬量产型都打掉之后再谈嘛~",
+			say = "Yup. That's why we've got to defeat these mass-produced ships right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:439}，一会稍微手下留情一点，打完塞壬舰队，压制住对面之后就先停手哦！",
+			say = "Try not to overextend, Roon! Let's make sure to clear out all the small fry first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "会注意的，不过对面至少要扛过进攻阶段才行呢~",
+			say = "You don't need to tell me that. After all, you should always hamstring your prey before going in for the kill~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来达成一致了？那就上吧，我已经等不及要测试亚历克西斯·克莱西斯的性能了！",
+			say = "Sounds like a plan~ I've been itching to test out Alexis Crisis's performance~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上啊~亚历克西斯·克莱西斯！让敌人见识一下我们的厉害！",
+			say = "Go get 'em, Alexis!",
 			effects = {
 				{
 					active = true,

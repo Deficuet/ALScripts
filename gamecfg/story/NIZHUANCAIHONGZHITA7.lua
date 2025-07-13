@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "感受到灼热的空气和冰冷的海水，仿佛进入了一片海上荒漠。",
+			say = "The air was scorching, but the water was freezing – it was like being in two places at once.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "刺激性的味道直扑口鼻，还有一股眩晕感。",
+			say = "An overpowering odor hung in the air, sapping the girls' strength. This place was unlike any Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "这种由内到外的不适感，作为舰船来说还真是难得的体验。",
+			say = "And of course it would be. After all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "{namecode:464}，没事吧？",
+			say = "Hey, Ulrich? You okay?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "咳咳咳……我们这是在……",
+			say = "...Yeah, I'm fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来穿越米德加尔特之塔的行动成功了啊。",
+			say = "Looks like we made it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "嗯，毫无疑问我们已经到了不同的空间中。",
+			say = "Seems so. And what a weird place this is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到了之后就看见你昏倒在水面上。可能是我来得比你稍晚。虽然有异常感，不过应该没你那么严重。",
+			say = "One moment we're in familiar waters, the next we're here. Saw you stagger just a sec ago. I think all of us did too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "大概是因为最早出发，所以受到的冲击最大……这个得记一下，之后用量产舰打头阵好了。",
+			say = "Must have been because of the drastic change in environs. We should've sent the mass-produced ships in first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "其他人都没问题吧，周边环境的情况如何？",
+			say = "How are the others doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所有人都在，暂时安全。",
+			say = "All good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "周边环境正在确认中。看来这里有空气，有水，也没有被敌人一瞬间包围，作为开头来说还算蛮不错的~",
+			say = "Our monitoring equipment works like normal. There's water and oxygen, and luckily enough, not a Siren to be found. I'd say our entry went about as well as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "接下来就是探索了对吧？时间有限，这里又那么大，我们去哪里探索比较好呢？",
+			say = "Now onto the surveying part. Where're we goin' first? Lots of ground to cover here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "我发现了一些残骸，有些是最近留下的，有些则很旧。",
+			say = "Well, my recon planes spotted the wreckages of mass-produced Sirens. They seem like pretty new models too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "旧残骸说明距离遭到袭击已经过了一段时间，顺着那边走也许是便于行动的安全路线？",
+			say = "So I say we follow the breadcrumb trail of wrecks to start with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "很有道理！",
+			say = "Sounds good to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:468}{namecode:468}，我也有问题！",
+			say = "Elbe, I just wanna point out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "为什么我们身后还有一个米德加尔特之塔啊，米德加尔特之塔有两座？",
+			say = "There's another Tower of Midgard right behind us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:476}有些夸张地伸手指着身后的巨大装置。装置与之前并无区别，只不过中心的漩涡现在正朝着完全相反的方向旋转。",
+			say = "U-1206 was right. There, in the place they emerged from, stood the same towering structure and swirling maelstrom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "……笨蛋！这个就是我们来的时候的米德加尔特之塔啊！",
+			say = "That's the same facility, and the same counterclockwise vortex...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "人工奇异点连接了两个世界，那个就是我们回去时候要用的！",
+			say = "Oh, I get it! This is our way home, come the time for us to leave!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……那为什么感觉小了很多呢！",
+			say = "So this is the exit? Gotcha! Feels smaller than the one we came from, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "小了很多……？啊，你是指外面的那些防御浮岛么。因为它们不是塔的一部分，自然也不会出现在这里了。",
+			say = "Smaller? Ah, that's because this Tower doesn't have the defensive turrets. They're separate from the Singularity generator, so that's probably why they're not here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "原来如此~{namecode:468}知道的好多，肯定像好学生那样偷偷做了不少功课吧~",
+			say = "That makes sense! I'm glad we have a smart, good girl like you along, Elbe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "啊……！再多嘴把你拿去喂鲨鱼！",
+			say = "I am NOT a good girl! Say that again and I'll feed you to the sharks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "略~{namecode:476}才不怕区区鲨鱼呢。",
+			say = "Too bad I'm not scared of sharks, so hah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:476}光速躲到了{namecode:447}身后，冲{namecode:468}做了个鬼脸。",
+			say = "U-1206 swept in behind Magdeburg and stuck her tongue out at Elbe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来大家已经适应这里的感觉了。我再重申一下我们的任务。",
+			say = "Sounds like you're acclimatizing well to this place. Listen, I'm going to repeat our objectives here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "任务一，探索奇异点通向的未知世界，尽可能收集每一条情报，为后续任务承担先驱者的工作。",
+			say = "Objective one: conduct a preliminary survey of the area and gather as much information as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "任务二，寻找未知世界中的幸存战斗力，比如META化的舰船，可能的话，劝诱她们加入我方阵营。",
+			say = "Objective two: find members of the neutral \"META\" faction and persuade them to join us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哎？！等等，任务二是什么？！我之前根本没看到过啊。",
+			say = "Hang on, what?! The briefing didn't say anything about a second objective!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "嗯，因为我没写过。",
+			say = "That's because it's not on the record.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "有些突然，稍微解释一下……{namecode:464}。",
+			say = "And why's that, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "因为一些没办法说明的原因，我们本次行动的部分目标需要保密，所以我选择在进入奇异点之后再宣布。",
+			say = "It's a classified objective, which is why I couldn't tell you about it until we entered the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "感觉好像什么都没说……不过你是总指挥，听你的咯。",
+			say = "That's not much of an explanation at all, but whatever I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，你怎么肯定我们就一定能遇到幸存的META舰船？",
+			say = "How are we supposed to find META ships, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "幸存，究竟是相对于什么来说的？我们对于META和这个世界了解到什么程度了？",
+			say = "For that matter, are you sure they're neutral, or that they're willing to talk to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "幸存是相对于毁灭来说的。对于META，我们有了一定程度的了解，对于这个世界则没有。所以了解这个世界就是我们接下来的工作不是么？",
+			say = "We don't have any concrete way of finding them, but it's possible we will as we survey this area. That is our job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在来到这里之前我们经过了一些计算，也用上了一些运气。接下来要达成目标二，我们需要的只是更多计算，和更多的运气罢了。",
+			say = "As for how we know they're neutral... The Commander has defined them as such.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "额…………",
+			say = "Hmm... In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "嗯？还有什么问题么？",
+			say = "Any more questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有了……",
+			say = "Nah, not from me anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "呵呵，很好。那就执行任务吧。路线就按照{namecode:468}说的思路进行探索。",
+			say = "If anyone else has one, ask it now. I cannot have you doubting the mission's purpose in the midst of a battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "是~我立刻规划行动航线。",
+			say = "No doubts here. Now, are we heading for the wrecks I spotted earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "水下的部分就交给你了，{namecode:476}。",
+			say = "Yes, we are. U-1206, lead the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:476}明白，正在下潜中————",
+			say = "Got it! Diving down now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好。记住我们的任务，我们是来探索和寻找力量的，尽量避免无意义的战斗。",
+			say = "Do not forget this operation is ultimately about gathering intel and negotiating. Avoid pointless conflict if at all possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "全员警戒，谨慎前进。",
+			say = "(If we are to fight... It should be with a purpose.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

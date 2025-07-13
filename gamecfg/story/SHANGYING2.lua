@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=45>二  邀约</size>",
+					"Flower Festival\n\n<size=45>Chapter 2 - Blooming Beckoning</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那我就去邀请一下大家吧",
+			say = "I'll go out and tell people about the festival, then.",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啦，{namecode:95}和{namecode:96}，来得正好",
+			say = "Oh, hi, Shoukaku and Zuikaku. Good timing.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "嗯？",
+			say = "What's up?",
 			subActors = {
 				{
 					actor = 307050,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "原来是{namecode:93}啊…",
+			say = "It is nice to see you, Souryuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈…突然叫住你们不好意思，只是想问问你们要不要一起来赏樱花而已",
+			say = "Ahaha, sorry for interrupting your stroll... You see, we're having a Flower Festival soon, and I'd like to invite you to come.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "赏樱大会？",
+			say = "A Flower Festival... and we're invited?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "也是，又到春天了呢…",
+			say = "Ah yes, spring seems to have come early this year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "还有{namecode:89}准备的美味食物哦",
+			say = "It seems there will be some good company and good food as well, courtesy of Houshou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "请务必让我们参加！",
+			say = "We would love to come! You can expect to see us there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "{namecode:96}…姐姐开始担心你未来会不会被人骗了",
+			say = "Zuikaku... your eagerness to accept offers may come back to haunt you in the future...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "{namecode:34}也想参加宴会……",
+			say = "I want to... see the flowers... too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有糖吃吗？{namecode:33}也要吃糖！",
+			say = "Will there be candy? Because I wanna eat candy!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "吃太多甜食对身体可不好哦",
+			say = "Now, now... Everyone loves sweets, but didn't I teach you that eating too much of it is bad for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让人忍不住想叫一声{namecode:93}老师呢…",
+			say = "Ahaha, Souryuu is like a mother figure to them... That's what I would call \"sweet\"~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "激烈交火的战场上，菈菈正不断灵巧地闪躲着敌人的攻击，向着敌人腹地冲去。",
+			say = "On the chaotic battlefield, Lala weaved through shot after shot as she beelined for the center of the enemy's formation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "虽然菈菈有着超凡的身体素质，再加上性能强大的舰装，但还是逐渐陷入被动之中。",
+			say = "However, despite her extraordinary physical prowess and powerful rigging, she was gradually being cornered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "菈菈公主！",
+			say = "Princess!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "请冷静一点，菈菈小姐！",
+			say = "Miss Lala, don't do anything rash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "虽然金色暗影等众人紧随菈菈身后掩护着，但是菈菈还是在敌方火力的压制下停了下来。",
+			say = "The others followed and desperately tried to provide support, but she was still stalled by the sheer numbers she faced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "欸？为什么……大家为什么没逃走啊？",
+			say = "Huh?! Why are you all... Why didn't you run?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "本王可不会丢下并肩作战的伙伴！",
+			say = "We couldn't simply abandon an ally in need!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "嗯，太冲动了……",
+			say = "Princess, you're too impulsive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "就在这时，远处的海上又传来了新的密集炮火声——援军加入了战场。",
+			say = "Cannonfire could be heard coming from another direction, marking the appearance of more enemy reinforcements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐，你没事吧！",
+			say = "Lala, are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "这些家伙……使用的战术真是卑鄙呢！",
+			say = "These things and their dirty tricks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,10 +261,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "钢铁护卫·HARUNA",
+			actorName = "Haruna, Steel Protector",
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,10 +292,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "天翼先锋·YUI",
+			actorName = "Yui, Winged Vanguard",
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "面对增援，春菜与唯的复制体缓缓出现了。",
+			say = "There stood doppelgangers of both Haruna and Yui.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "它们的身上与舰装，散发着令人胆寒的强大能量波动。",
+			say = "The energy waves emanating from their rigging were staggering, too, leaving the party speechless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可恶……这些家伙怎么连春菜都复制了！",
+			say = "Tch... They even copied Haruna?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "接下来该不会是我和梦梦，或者是姐姐了吧？",
+			say = "Who's next? Me? Momo?! And then Lala herself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这个压迫感是怎么回事，为什么本王的攻击越来越不奏效了？",
+			say = "What immense pressure... And my attacks do nothing to them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明明是量产型……难道搭载了什么自适应性的防护手段么？！",
+			say = "They'd fit these mass-produced ships with adaptive defense systems?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "啊——",
+			say = "Ah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "就在这时，菈菈像是突然想到了什么，连忙查看起超级游戏制作机的状态。",
+			say = "Those words seemed to jog Lala's mind. She hurriedly checked the settings of Questy MacGuffin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "不好……好像是超级游戏制作机的动态难度调节搞的鬼！",
+			say = "Oh, nooo~ I know what this is! I think it's Questy's game balance updating feature!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐大人，你的意思是……？",
+			say = "Lala, are you saying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "因为我们有越来越多伙伴的帮助，所以它判定游戏难度过低，开始调整游戏平衡了！",
+			say = "If we have too many allies and it judges the current situation too easy, it'll start adjusting the game balance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "就是因为这个……敌人才会不断变强。恐怕它还会想办法削弱我们的力量……！",
+			say = "That means the enemy's just going to keep getting stronger. Heck, it might make us weaker in the process!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "话音刚落，菈菈等人身上的舰装突然输出功率大幅减少了。",
+			say = "Right on cue, the girls found that their rigging was suddenly much weaker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎，怎么回事？舰装用不了了？",
+			say = "Wh-what the hell? I can't use my rigging!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			actor = 11100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这也是超级游戏制作机搞的鬼吗？也太过分了吧——！",
+			say = "Questy, you're resorting to some real BS artificial difficulty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "啧，我的舰装也是，只能勉强维持平衡……",
+			say = "M-my rigging can hardly even keep balance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "嘿——！还是不行……",
+			say = "Maybe this is the end after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -591,7 +591,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这种调整影响不到本王的舰队！",
+			say = "Hmph! Your balance adjustments mean nothing in the face of my Royal Navy fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "贝法，送客人先走，其余人员随本王殿后！",
+			say = "Bel, evacuate our guests! The rest of you, join me in buying time for them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "遵命。",
+			say = "Very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "菈菈公主，快走……",
+			say = "Princess, you must escape...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "金色暗影也冲向了战斗一线。",
+			say = "For some reason, Golden Darkness joined them on the front line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -710,7 +710,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小暗……！",
+			say = "Yami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我先带诸位前往安全区域，不用担心，陛下不会有事的。",
+			say = "I will guide you to safety. Rest assured that Yami will be safe in Her Majesty's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			dir = 1,
-			say = "皇家海军，迎敌——！",
+			say = "Royal Navy, we fight!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现塞壬舰队正在接近！除了代行者VI「Combination」之外，还有一种未知的塞壬人型。",
+			say = "Humanoid Sirens incoming! It's the Enforcer we fought earlier, and a model we haven't seen before!",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些应该就是代行者VI「Attraction」了吧？",
+			say = "That must be the infamous close-quarters model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没错……要小心，敌人的单体战斗能力非常强。",
+			say = "Yeah. Do not mess around with that one or it'll be the end of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……好像还不止如此，远方的水面也发生变化了诶？！",
+			say = "Ulrich! The sea way over there is looking quite unusual!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看上去就很危险，你了解那是什么么？",
+			say = "Must be abnormal weather produced by a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "情报里没提过，我也不清楚……不过，绝对不要在里面呆着肯定没错。",
+			say = "Most likely. Guess they're trying to turn this into a game of cat and mouse... You'll get hurt just by sailing through that area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同意。不要恋战，向着米德加尔特之塔加速撤离！",
+			say = "Dammit... To hell with it! Full speed for the Tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

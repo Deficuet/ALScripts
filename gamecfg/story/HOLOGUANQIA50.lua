@@ -8,12 +8,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			stopbgm = true,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "眼前的白色光芒久久没有消散",
+			say = "......",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,11 +33,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "终于破坏掉本社大楼了啊，是阿库娅酱正在欢呼着么…",
+			say = "The headquarters building has been completely blown up, it seems. Was that laugh Aqua's voice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "是大家正在欢呼着么…",
+			say = "I guess I'll congratulate you, in a way. How utterly ridiculous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不知从何时开始，掌声与欢呼声充斥在耳旁，越来越大，越来越大",
+			say = "Have some consideration for this body's sound reception part, gosh. Ugh, and her voice is so loud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "意识在渐渐下沉，渐渐下沉…可恶，这究竟是怎么回事！",
+			say = "... My conscience is slowly fading.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			bgmDelay = 1,
 			bgm = "holo-inochi",
 			actor = 900012,
-			actorName = "观察者",
-			say = "欢迎回来哦，净化亲~？",
+			actorName = "Observer",
+			say = "\"Purifier. Welcome back♪\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "？！！陌生而又熟悉的声音出现在耳旁，海量的数据涌入意识深处",
+			say = "Ugh, this annoying voice, it's them. The amount of data that's flowing it, there's no way I'm mistaken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "没想到啊，本净化亲居然也是镜面海域失控诞生的存在啊…",
+			say = "I wonder if my personality program malfunctioned due to being connected to that strange Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,12 +165,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "那个测试怪人也是…就这么蒙在鼓里被干掉不知道是幸运还是不幸…",
+			say = "Tester as well. Tessy? The ruler of time and space? Lame. It wasn't that Purifier, and it wasn't a poem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "啊啊啊…意识越来越模糊，开始执行清理程序，我要消失了么…",
+			say = "... Okay, cleanup starting up, personality program reinstalling, checking all files, and synchronizing data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,11 +198,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…………………",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“啊~大家请听我说，因为塞壬网络的恢复，我现在要返回塞壬终端了哦”",
+			say = "\"*Sigh*, well, since the termination of that abnormal Mirror Sea, the Siren network has been restored, so I should start returning to the repository.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“能陪你们一起战斗到这一刻真是太好了…”",
+			say = "\"It was fun fighting alongside you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“啊啊，说的太严重了！别露出那种表情，我顶多回终端写几篇检查就没事啦~”",
+			say = "\"I won't say something like that. There. The next time we meet, we'll definitely be enemies, so go back to home base and go write reports to your death or something.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,12 +279,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“大家，再见咯~”",
+			say = "\"With that said, peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,11 +296,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "什么也看不到，什么也听不到了，要是能骗到她们就好了…",
+			say = "... Well, I guess that's it. I guess I'll start to be overwritten by my previous personality program.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -329,12 +329,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这样的我究竟算真品还是赝品…不行，无法思考了",
+			say = "..... So in the end, am I a \"machine body,\" or am I a \"piece\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可恶……至少最后想回沙发上再玩一会游戏啊……",
+			say = "It's a pain to think about... Sigh... I'm... tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1185,4 +1185,18 @@ function var_0_0.IsActivityReady(arg_105_0)
 	return arg_105_0 and not arg_105_0:isEnd() and arg_105_0:readyToAchieve()
 end
 
+function var_0_0.GetEndTimeStrByConfig(arg_106_0)
+	local var_106_0 = arg_106_0:getConfig("time")
+
+	if type(var_106_0) == "table" then
+		local var_106_1 = var_106_0[3]
+		local var_106_2 = var_106_1[1][2]
+		local var_106_3 = var_106_1[1][3]
+
+		return var_106_2 .. "." .. var_106_3
+	else
+		return ""
+	end
+end
+
 return var_0_0

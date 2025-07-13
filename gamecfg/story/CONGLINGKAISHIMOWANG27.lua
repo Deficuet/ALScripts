@@ -12,11 +12,11 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"「于是，魔王被消灭了。」",
+					"Thus, the Demon King was slain.",
 					1
 				},
 				{
-					"「世界迎来了和平。」",
+					"The world was at peace once more.",
 					2
 				}
 			},
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "在勇者小队返回王都后，一行人受到了英雄伟业相符的热烈接待。",
+			say = "The party of heroes returned to the Royal Capital and were given a warm welcome befitting their valorous feat.",
 			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "王都中的盛大的庆典持续了半月有余。",
+			say = "The jubilant people threw a grand celebration that lasted over half a month.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "圣女逃跑的责任，自然没有被追究。",
+			say = "Though the saint Jeanne d'Arc did flee her post, she was not punished for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_155",
-			say = "庆典结束后，小队特意在勇者抚顺的带领下回了一趟乌尔斯普村。",
+			say = "After all the festivities, Fu Shun suggested that the party pay a visit to Ursp Village.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "村长如约奉上了一场盛大的宴会。",
+			say = "There, the village mayor hosted a spectacular banquet for the triumphant heroes as she had promised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "与王都中的宴会不同，村落的宴会也别有一番风味。",
+			say = "While more modest than the celebration in the capital, it was certainly more intimate and full of warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "再之后，药剂师努比亚人回到了自己在特尔玛尔村的家中，继续为村民们提供着免费的治疗服务。",
+			say = "Following that, Nubian returned to Thermalq Village and went back to providing free medical care for the villagers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "不过因为因为她难以掩盖的名气，不远百里前来村中看病的王宫贵族络绎不绝。",
+			say = "Now famous for her actions, this potion maker experienced an endless influx of nobles coming all the way from the capital to seek her services.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "不知不觉间，努比亚人已经在村落外拥有了一间属于自己的大庄园。",
+			say = "One day, she acquired herself a grand mansion on the outskirts of the village.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_177",
-			say = "每日都生活在忙碌中的药剂师再也没有带任何人前往过银滩岛。",
+			say = "The potion maker never did bring anyone else to Silverbank Island. She was simply too busy with other things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "而那位神秘的智慧魔女阿尔汉格尔斯克，也没有再一次出现在历史上。",
+			say = "As such, the wise and mysterious witch Arkhangelsk ended up forgotten by history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "神官利物浦和独角兽最后选择加入了王国的神圣教会提升自己的技能。",
+			say = "Liverpool and Unicorn joined the holy church in the capital and devoted themselves to honing their skills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "并在日后，逐渐成为了新任教宗圣女贞德的左膀右臂。",
+			say = "Later, they went on to become the right-hand women of the new pontiff, Jeanne d'Arc.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她们的友谊一直持续到了被女神赐予的漫长生命的最后一刻。",
+			say = "Their service continued for the rest of their long lives granted by their goddess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "吸血鬼猎人们在文明之外孤独的战斗数百年后，终于得到了人类王国的接纳。",
+			say = "After committing hundreds of years of their lives to fighting a lonesome war in the uninhabited wastes, the vampire hunters were finally acknowledged and accepted by the kingdom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "谢菲尔德和{namecode:460:塞德利茨}先后被赐予了贵族爵位，她们的领地包括原先由吸血鬼控制的中部要塞以及周边的广大区域。",
+			say = "Sheffield and Seydlitz both were given noble titles and the honor of ruling the enormous territory in and around the central fortress that the vampires once held.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "荒芜之地重现生机的消息很快就传遍了王国的每一个角落。",
+			say = "Word that life had returned to the Wasteland quickly reached all the corners of the kingdom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "王国之中出现了一股狂热的拓荒浪潮。",
+			say = "As a result, the whole kingdom experienced a settlement boom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "加入这一浪潮的，就有弗里德村的村长飞云，她带领拓荒团将开辟的目标选在了港口城市施涅哈芬的遗迹上。",
+			say = "Fei Yuen, the mayor of Friede Village, rode this wave of expansion and led a group of settlers to reclaim the ruins of the port city Schneehafen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "随着土地的进一步净化，冰雪湖重新出现，这片遗迹也重新变为了一座繁忙的大都市。",
+			say = "The lands were purified, bringing back the snowfall. Water once more filled the Frozen Lake rather than lava, and the former ruins were reborn into a great city full of life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "村长飞云也由此成为了伟大的自由市市长飞云。",
+			say = "The one who led the settlers to the city, Fei Yuen, would later become its mayor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "至于王国军，在魔王被打倒之后，反而迎来了更为忙碌的生活。",
+			say = "The Demon King's defeat led to the kingdom becoming quite busy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "伴随着魔王城的崩塌，王国军分批次离开了守望长城。",
+			say = "Having seen the destruction of the Demon King's castle, the Royal Army split into groups and left Sentinel Bastion behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "忠诚的骑士们的带领着各自的军队，在这片开始复苏的土地下上建立了无数新的据点，保护着王国的拓荒团与旅人们。",
+			say = "Each of the loyal knights led their own battalion, establishing countless new bases across the revitalized lands, watching over settlers and travelers alike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "对于天冠城墙遗迹的修复工作也在钢铁教会的主导下有序进行着。",
+			say = "The restoration of the Royal Crown Wall Ruins went orderly, thanks to the oversight of the holy church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_506",
-			say = "至于旧王都遗迹。因为其过于残破又过于危险，国王最终放弃了对它的重建方案。",
+			say = "The ruins of the old Royal Capital, on the other hand, were simply too decayed. The king was forced to give up on her plans to restore them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_506",
-			say = "不过其中埋藏的大量珍贵文物依然是一笔无价的财富。",
+			say = "However, the many artifacts buried among the rubble proved a great source of wealth all the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "为此，王国军发出了大量委托，吸引了无数冒险者前来这片遗迹寻找自己的机会。",
+			say = "To this end, the army issued a large number of commissions to guilds, attracting countless adventurers to explore the ruins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "其中就包括勇者抚顺。",
+			say = "Among them, Fu Shun the Hero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "勇者抚顺婉拒了国王邀请她担任骑士团长的任命，继续游荡在危险的荒芜之地中。",
+			say = "She was offered to join the Royal Knights, but declined, instead choosing to continue traveling the Wasteland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "因为她的心里很清楚，此时此刻，还有一个大魔族正潜伏在黑暗中等待着机会。",
+			say = "She knew that somewhere out there, an archdemon was waiting for an opportunity to rise from the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,12 +558,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "至于那位传奇指挥官，则从此在历史上失去了踪迹♪",
+			say = "Finally, there's the fate of that commander, which remains a mystery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,12 +590,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "有些人说，指挥官最后成为了一位统治偏远地区的边境领主♪",
+			say = "Some say this hero became a lord over some remote region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,12 +605,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "有些人说，指挥官前往了传说中的北方之塔进行为期百年的学习♪",
+			say = "Others say this legendary figure went back to the witch in the tower and became her disciple for a hundred years.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,12 +620,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "有地方志记载着，指挥官成立了一支新的小队，为了追寻新大陆而前往了远方♪",
+			say = "There are also some local chronicles that say the commander created a new party and traveled to distant lands in search of the New World.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,12 +635,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "也有野史记载着，其实指挥官才是真正的魔王，而整个王国，也早已被其被控制了♪",
+			say = "Some folk records even claim that this human was in fact the true Demon King and was now in control of the entire kingdom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,12 +650,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "不过从许许多多在这场旅途中与指挥官并肩作战之人的表现来看♪",
+			say = "But, if you asked the other members of this legendary party what they thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,12 +665,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_105",
-			factiontag = "？？？",
-			actorName = "吟游诗人",
+			factiontag = "???",
+			actorName = "Bard",
 			actor = 401466,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "或许，指挥官只是在某个祥和之地，平静又幸福的生活着吧♪",
+			say = "They would tell you that the commander is probably off in some peaceful place, enjoying the quiet life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,11 +683,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"未来有无穷多种可能性等待探索",
+					"The future holds countless possibilities.",
 					2
 				},
 				{
-					"不过现在，是时候休息一下了。",
+					"But for now, you can put down your swords and rest.",
 					4
 				}
 			}
@@ -697,7 +697,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「从零开始的魔王讨伐之旅」·FIN。",
+					"The End",
 					1
 				}
 			}
@@ -718,11 +718,11 @@ return {
 				},
 				{
 					1,
-					"由衷感谢我们尊敬的指挥官"
+					"Our sincerest thanks to you, Commander."
 				},
 				{
 					1,
-					"希望您能玩的尽兴"
+					"We hope that you had fun."
 				},
 				{
 					3,
@@ -735,8 +735,8 @@ return {
 				{
 					2,
 					"story_logo_conglingkaishidemowang",
-					1017,
-					339
+					1912,
+					1130
 				},
 				{
 					3,
@@ -748,339 +748,339 @@ return {
 				},
 				{
 					1,
-					"出品"
+					"Produced By"
 				},
 				{
 					1,
-					"《大型港区虚拟现实体验计划》制作委员会"
+					"Port Virtual Reality Project Planning Committee"
 				},
 				{
 					3,
 					{
-						"抚顺",
-						"{namecode:6:绫波}",
-						"{namecode:13:雷}",
-						"{namecode:14:电}",
-						"长岛",
-						"{namecode:531:腓特烈·卡尔}",
-						"水星纪念",
-						"布里斯托尔",
-						"皇家财富号",
-						"克莱蒙梭",
-						"英勇",
-						"{namecode:427:欧根亲王}",
-						"马可波罗",
-						"卡萨布兰卡",
-						"海天",
-						"达·芬奇",
-						"{namecode:525:英格拉罕}",
-						"{namecode:37:夕张}",
-						"{namecode:98:明石}",
-						"领航员-TB"
+						"Fu Shun",
+						"Ayanami",
+						"Ikazuchi",
+						"Inazuma",
+						"Long Island",
+						"Friedrich Carl",
+						"Pamiat' Merkuria",
+						"Bristol",
+						"Royal Fortune",
+						"Clemenceau",
+						"Valiant",
+						"Prinz Eugen",
+						"Marco Polo",
+						"Casablanca",
+						"Hai Tien",
+						"Leonardo da Vinci",
+						"Ingraham",
+						"Yuubari",
+						"Akashi",
+						"TB"
 					},
 					2,
 					"#FFFFFF"
 				},
 				{
 					1,
-					"配音支持"
+					"Sound"
 				},
 				{
 					3,
 					{
-						"配音导演",
-						"长岛"
+						"Sound Supervisor",
+						"Long Island"
 					},
 					2
 				},
 				{
 					1,
-					"配音演员"
+					"Cast"
 				},
 				{
 					3,
 					{
-						"指挥官",
+						"Commander",
 						"{playername}",
-						"勇者",
-						"抚顺",
-						"神官",
-						"利物浦",
-						"见习神官",
-						"独角兽",
-						"药剂师",
-						"努比亚人",
-						"传说级勇者",
-						"标枪",
-						"传说级魔法师",
-						"拉菲",
-						"传说级格斗家",
-						"{namecode:6:绫波}",
-						"传说级战士",
-						"{namecode:408:Z23}",
-						"国王",
-						"英王乔治五世",
-						"侍从",
-						"英雄",
-						"神圣教会圣女",
-						"圣女贞德",
-						"钢铁教会机械师",
+						"The Hero",
+						"Fu Shun",
+						"Cleric",
+						"Liverpool",
+						"Apprentice Cleric",
+						"Unicorn",
+						"Potion Maker",
+						"Nubian",
+						"Legendary Hero",
+						"Javelin",
+						"Legendary Mage",
+						"Laffey",
+						"Legendary Fighter",
+						"Ayanami",
+						"Legendary Warrior",
+						"Z23",
+						"The King",
+						"King George V",
+						"Guard",
+						"Hero",
+						"Saint of the Holy Church",
+						"Jeanne d'Arc",
+						"Church of Steel Mechanic",
 						"腓特烈·卡尔",
-						"王国军二级魔法师",
-						"鲁莽",
-						"王国军二级魔法师",
-						"倔强",
-						"战斗天使",
-						"霞飞",
-						"王国军方旗骑士",
-						"前卫",
-						"王国军方旗骑士",
-						"阿尔及利亚",
-						"王国军守护骑士",
-						"不屈",
-						"王国军守护骑士",
-						"恶毒",
-						"吟游诗人",
-						"{namecode:412}",
-						"乌尔斯普村村长",
-						"布里斯托尔",
-						"弗里德村村长",
-						"飞云",
-						"智慧魔女",
-						"阿尔汉格尔斯克",
-						"吸血鬼公爵",
-						"约克公爵",
-						"吸血鬼猎人",
-						"谢菲尔德",
-						"吸血鬼猎人",
-						"{namecode:460:塞德利茨}",
-						"飓风海盗团",
-						"维达号",
-						"飓风海盗团",
-						"金鹿号",
-						"飓风海盗团",
-						"玛丽·莱特号",
-						"开拓与冒险之神",
-						"皇家财富号",
-						"幸运与财富之神",
-						"{namecode:98:明石}",
-						"秩序与规则之神",
-						"领航员-TB",
-						"冒险终端",
-						"领航员-TB",
-						"巨龙领主",
-						"{namecode:450:布吕歇尔}",
-						"吸血鬼门卫",
-						"{namecode:413:U-47}",
-						"吸血鬼二小姐",
-						"{namecode:449:埃尔宾}",
-						"吸血鬼大小姐",
-						"{namecode:461:吕佐夫}",
-						"吸血鬼女仆长",
-						"{namecode:466:图林根}",
-						"完美究极吸血鬼",
-						"吸血鬼",
-						"魔女偶像",
-						"{namecode:491:亚德}",
-						"魔王",
-						"德文郡",
-						"魔物们",
-						"布里斯托尔"
+						"Second-Rate Mage",
+						"Le Téméraire",
+						"Second-Rate Mage",
+						"L'Opiniâtre",
+						"Fighting Angel",
+						"Joffre",
+						"Knight Banneret",
+						"Vanguard",
+						"Knight Banneret",
+						"Algérie",
+						"Knight Guard",
+						"L'Indomptable",
+						"Knight Guard",
+						"Le Malin",
+						"Bard",
+						"Z46",
+						"Mayor of Ursp",
+						"Bristol",
+						"Mayor of Friede",
+						"Fei Yuen",
+						"The Wise Witch",
+						"Arkhangelsk",
+						"Vampire Matriarch",
+						"Duke of York",
+						"Vampire Hunter",
+						"Sheffield",
+						"Vampire Hunter",
+						"Seydlitz",
+						"Tempesta Pirate",
+						"Whydah",
+						"Tempesta Pirate",
+						"Golden Hind",
+						"Tempesta Pirate",
+						"Mary Celeste",
+						"Goddess of Pioneering and Adventure",
+						"Royal Fortune",
+						"Goddess of Luck and Riches",
+						"Akashi",
+						"Goddess of Order and Rules",
+						"TB",
+						"Adventure Interface",
+						"TB",
+						"Dragonlord",
+						"Blücher",
+						"Vampire Gatekeeper",
+						"U-47",
+						"Vampire Little Sister",
+						"Elbing",
+						"Vampire Big Sister",
+						"Lützow",
+						"Vampire Head Maid",
+						"Thüringen",
+						"The Perfect & Ultimate Vampire",
+						"Vampire",
+						"Witch Idol",
+						"Jade",
+						"The Demon King",
+						"Devonshire",
+						"Miscellaneous Monsters",
+						"Bristol"
 					},
 					2,
 					"#FFFFFF"
 				},
 				{
 					1,
-					"美术支持"
+					"Art Team"
 				},
 				{
 					3,
 					{
-						"美术概念设计",
-						"鞍山",
+						"Concept Art",
+						"An Shan",
 						"",
-						"卡萨布兰卡",
+						"Casablanca",
 						"",
-						"{namecode:6:绫波}",
+						"Ayanami",
 						"",
-						"英勇",
+						"Valiant",
 						"",
-						"皇家财富号",
-						"角色美术",
-						"领航员-TB",
-						"场景美术",
-						"领航员-TB",
-						"关卡美术",
-						"领航员-TB",
-						"技术美术",
-						"领航员-TB"
+						"Royal Fortune",
+						"Character Design",
+						"TB",
+						"Setting Design",
+						"TB",
+						"Stage Design",
+						"TB",
+						"Technical Art",
+						"TB"
 					},
 					2
 				},
 				{
 					1,
-					"音乐/音效支持"
+					"Music/Sound Team"
 				},
 				{
 					3,
 					{
-						"音乐概念设计",
-						"克莱蒙梭",
+						"Music Concept Composition",
+						"Clemenceau",
 						"",
-						"{namecode:531}",
+						"Friedrich Carl",
 						"",
-						"可畏",
+						"Formidable",
 						"",
-						"水星纪念",
+						"Pamiat' Merkuria",
 						"",
-						"马赛曲",
-						"音乐制作师",
-						"领航员-TB",
-						"音效制作师",
-						"领航员-TB"
+						"Marseillaise",
+						"Music Production",
+						"TB",
+						"SFX Production",
+						"TB"
 					},
 					2
 				},
 				{
 					1,
-					"策划支持"
+					"Planning Team"
 				},
 				{
 					3,
 					{
-						"玩法设计",
-						"{namecode:6:绫波}",
+						"Game Design",
+						"Ayanami",
 						"",
-						"{namecode:13:雷}",
+						"Ikazuchi",
 						"",
-						"{namecode:14:电}",
+						"Inazuma",
 						"",
-						"长岛",
-						"交互设计",
-						"{namecode:6:绫波}",
+						"Long Island",
+						"Interactive Design",
+						"Ayanami",
 						"",
-						"抚顺",
-						"系统设计",
-						"{namecode:6:绫波}",
+						"Fu Shun",
+						"System Design",
+						"Ayanami",
 						"",
-						"邦克山",
-						"关卡设计",
-						"{namecode:6:绫波}",
+						"Bunker Hill",
+						"Stage Design",
+						"Ayanami",
 						"",
-						"猎人",
-						"任务设计",
-						"{namecode:6:绫波}",
+						"Hunter",
+						"Quest Design",
+						"Ayanami",
 						"",
-						"{namecode:427:欧根亲王}",
+						"Prinz Eugen",
 						"",
-						"{namecode:401:Z2}",
-						"道具设计",
-						"{namecode:6:绫波}",
+						"Z2",
+						"Item Design",
+						"Ayanami",
 						"",
-						"抚顺"
+						"Fu Shun"
 					},
 					2
 				},
 				{
 					1,
-					"文案支持"
+					"Writing Team"
 				},
 				{
 					3,
 					{
-						"世界观设计",
-						"海天",
+						"Worldbuilding",
+						"Hai Tien",
 						"",
-						"马可波罗",
+						"Marco Polo",
 						"",
-						"布里斯托尔",
+						"Bristol",
 						"",
-						"卡萨布兰卡",
-						"剧本设计",
-						"海天",
-						"游戏文案",
-						"海天",
+						"Casablanca",
+						"Script Structure",
+						"Hai Tien",
+						"Script Writers",
+						"Hai Tien",
 						"",
-						"孟菲斯",
+						"Memphis",
 						"",
-						"格里德利",
+						"Gridley",
 						"",
-						"阿尔弗雷多·奥里亚尼",
+						"Alfredo Oriani",
 						"",
-						"{namecode:55:青叶}",
+						"Aoba",
 						"",
-						"布里斯托尔",
-						"多语言本地化",
-						"达·芬奇",
+						"Bristol",
+						"Multilingual Support",
+						"Leonardo da Vinci",
 						"",
-						"领航员-TB"
+						"TB"
 					},
 					2
 				},
 				{
 					1,
-					"程序支持"
+					"Programming Team"
 				},
 				{
 					3,
 					{
-						"首席程序",
-						"契卡洛夫",
-						"游戏程序",
-						"灵敏",
+						"Team Leader",
+						"Chkalov",
+						"Game Programming",
+						"Soobrazitelny",
 						"",
-						"{namecode:525:英格拉罕}",
+						"Ingraham",
 						"",
-						"{namecode:37:夕张}",
+						"Yuubari",
 						"",
-						"达·芬奇",
+						"Leonardo da Vinci",
 						"",
-						"领航员-TB",
-						"渲染工程师",
-						"领航员-TB",
-						"音效工程师",
-						"领航员-TB",
-						"特效工程师",
-						"领航员-TB",
-						"服务器维护工程师",
-						"领航员-TB"
+						"TB",
+						"Rendering Engineer",
+						"TB",
+						"SFX Engineer",
+						"TB",
+						"VFX Engineer",
+						"TB",
+						"Server Maintenance",
+						"TB"
 					},
 					2
 				},
 				{
 					1,
-					"虚拟现实技术支持"
+					"VR Support"
 				},
 				{
 					3,
 					{
-						"海伦娜·META",
-						"孟菲斯·META",
-						"女灶神·META",
-						"领航员-TB"
+						"Helena META",
+						"Memphis META",
+						"Vestal META",
+						"TB"
 					},
 					2,
 					"#FFFFFF"
 				},
 				{
 					1,
-					"项目支持"
+					"Project Support"
 				},
 				{
 					3,
 					{
 						"{playername}",
-						"萨拉托加",
-						"伊丽莎白女王",
-						"{namecode:435:俾斯麦}",
-						"{namecode:91:赤城}",
-						"黎塞留",
-						"克莱蒙梭",
-						"{namecode:529:苏维埃同盟}",
-						"逸仙",
-						"维内托",
-						"皇家财富号",
+						"Saratoga",
+						"Queen Elizabeth",
+						"Bismarck",
+						"Akagi",
+						"Richelieu",
+						"Clemenceau",
+						"Sovetsky Soyuz",
+						"Yat Sen",
+						"Vittorio Veneto",
+						"Royal Fortune",
 						""
 					},
 					2,
@@ -1088,20 +1088,20 @@ return {
 				},
 				{
 					1,
-					"港区部门协调"
+					"Port Coordination Team"
 				},
 				{
 					3,
 					{
-						"孟菲斯",
-						"贝尔法斯特",
-						"{namecode:427:欧根亲王}",
-						"{namecode:84:武藏}",
-						"贝亚恩",
-						"可怖",
+						"Memphis",
+						"Belfast",
+						"Prinz Eugen",
+						"Musashi",
+						"Béarn",
+						"Le Terrible",
 						"镇海",
-						"利托里奥",
-						"金鹿号",
+						"Littorio",
+						"Golden Hind",
 						""
 					},
 					2,
@@ -1118,7 +1118,7 @@ return {
 				{
 					3,
 					{
-						"场地提供",
+						"Assistant Photography",
 						"{playername}"
 					},
 					2
@@ -1140,8 +1140,8 @@ return {
 				{
 					3,
 					{
-						"特别感谢",
-						"{namecode:98:明石}"
+						"Special Thanks",
+						"Akashi"
 					},
 					2
 				},

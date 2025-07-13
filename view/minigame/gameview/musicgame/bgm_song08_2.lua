@@ -481,7 +481,7 @@ return {
 		},
 		{
 			begin_time = "98.23529",
-			key_flag = "K_LEFT",
+			key_flag = "K_BOTH",
 			end_time = "102.3529"
 		}
 	},
@@ -983,7 +983,7 @@ return {
 		},
 		{
 			begin_time = "98.23529",
-			key_flag = "K_RIGHT",
+			key_flag = "K_BOTH",
 			end_time = "102.3529"
 		}
 	}

@@ -28,41 +28,31 @@ function var_0_0.register(arg_1_0)
 		}))
 	end)
 	arg_1_0:bind(var_0_0.OPEN_CLUE_BOOK, function(arg_4_0, arg_4_1)
-		arg_1_0.contextData.bookOpen = true
-		arg_1_0.contextData.indexInfo = arg_1_0.contextData.indexInfo or {}
-
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = ClueBookLayer,
 			mediator = ClueBookMediator,
-			data = {
-				indexInfo = arg_1_0.contextData.indexInfo
-			},
-			onRemoved = function()
-				arg_1_0.contextData.bookOpen = false
-
-				existCall(arg_4_1)
-			end
+			onRemoved = arg_4_1
 		}))
 	end)
-	arg_1_0:bind(var_0_0.OPEN_CLUE_TASk, function(arg_6_0, arg_6_1)
+	arg_1_0:bind(var_0_0.OPEN_CLUE_TASk, function(arg_5_0, arg_5_1)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = ClueTasksLayer,
 			mediator = ClueTasksMediator,
-			onRemoved = arg_6_1
+			onRemoved = arg_5_1
 		}))
 	end)
-	arg_1_0:bind(var_0_0.OPEN_STAGE, function(arg_7_0, arg_7_1)
+	arg_1_0:bind(var_0_0.OPEN_STAGE, function(arg_6_0, arg_6_1)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = ClueBuffSelectLayer,
 			mediator = ClueBuffSelectMediator,
 			data = {
-				clueSingleEnemyID = arg_7_1
+				clueSingleEnemyID = arg_6_1
 			}
 		}))
 	end)
 end
 
-function var_0_0.listNotificationInterests(arg_8_0)
+function var_0_0.listNotificationInterests(arg_7_0)
 	return {
 		var_0_0.ON_FLEET_SELECT,
 		var_0_0.OPEN_CLUE_JUMP,
@@ -71,34 +61,34 @@ function var_0_0.listNotificationInterests(arg_8_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_9_0, arg_9_1)
-	local var_9_0 = arg_9_1:getName()
-	local var_9_1 = arg_9_1:getBody()
+function var_0_0.handleNotification(arg_8_0, arg_8_1)
+	local var_8_0 = arg_8_1:getName()
+	local var_8_1 = arg_8_1:getBody()
 
-	if var_9_0 == var_0_0.ON_FLEET_SELECT then
-		arg_9_0.viewComponent:ShowNormalFleet(var_9_1.singleID)
-	elseif var_9_0 == var_0_0.OPEN_CLUE_JUMP then
-		local var_9_2 = var_9_1.jumpID
-		local var_9_3 = pg.activity_clue_group[var_9_2]
+	if var_8_0 == var_0_0.ON_FLEET_SELECT then
+		arg_8_0.viewComponent:ShowNormalFleet(var_8_1.singleID)
+	elseif var_8_0 == var_0_0.OPEN_CLUE_JUMP then
+		local var_8_2 = var_8_1.jumpID
+		local var_8_3 = pg.activity_clue_group[var_8_2]
 
-		arg_9_0:addSubLayers(Context.New({
+		arg_8_0:addSubLayers(Context.New({
 			viewComponent = ClueBuffSelectLayer,
 			mediator = ClueBuffSelectMediator,
 			data = {
-				clueSingleEnemyID = var_9_3.unlock_jump[1][1],
-				preSelectedBuffList = Clone(var_9_3.unlock_jump[2])
+				clueSingleEnemyID = var_8_3.unlock_jump[1][1],
+				preSelectedBuffList = Clone(var_8_3.unlock_jump[2])
 			}
 		}))
 
-		local var_9_4 = pg.activity_single_enemy[var_9_3.unlock_jump[1][1]].type
+		local var_8_4 = pg.activity_single_enemy[var_8_3.unlock_jump[1][1]].type
 
-		if var_9_4 == 1 or var_9_4 == 2 or var_9_4 == 3 then
-			triggerToggle(arg_9_0.viewComponent.mapsSwitch[var_9_4], true)
+		if var_8_4 == 1 or var_8_4 == 2 or var_8_4 == 3 then
+			triggerToggle(arg_8_0.viewComponent.mapsSwitch[var_8_4], true)
 		end
-	elseif var_9_0 == PlayerProxy.UPDATED then
-		arg_9_0.viewComponent:ShowResUI()
-	elseif var_9_0 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
-		arg_9_0.viewComponent:RefreshPtAndTicket()
+	elseif var_8_0 == PlayerProxy.UPDATED then
+		arg_8_0.viewComponent:ShowResUI()
+	elseif var_8_0 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
+		arg_8_0.viewComponent:RefreshPtAndTicket()
 	end
 end
 

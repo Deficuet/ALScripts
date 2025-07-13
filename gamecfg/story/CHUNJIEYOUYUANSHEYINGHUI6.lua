@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>六 居家感</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>6. At Home?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "Port - Dragon Empery Estate",
 			side = 2,
 			bgName = "star_level_bg_128",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "镇海小姐，您觉得这样如何？",
+			say = "Miss Chen Hai, how does this look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "嗯……无论是服装还是场景，卡律布狄斯小姐的选择都很大胆啊。",
+			say = "Oh my, Miss Charybdis... What a daring look you're sporting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "唔？这样只是为了表现出镇海小姐想要的居家感哦~",
+			say = "Hm? Did you not request that I wear something capturing the spirit of being \"at home?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "所谓“居家感”，应该是一种无论多疲倦、多劳累，只要回到这个地方，都能立刻感受到的安心感吧。",
+			say = "To me, that means something that conveys a sense of peace and comfort, something that soothes your spirits the moment you walk through the door no matter how tired you might be. Isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在具体的姿势上有什么想法吗？",
+			say = "You're right. Did you have a particular pose in mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "有的哦，我想要一种准备给指挥官掏耳朵的女仆的感觉？",
+			say = "I did, actually. How about getting ready to clean the Com– I mean, the Master's ears?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想象一下的话……指挥官经过了一天的工作，疲倦地回到房间，然后在这里躺下，舒舒服服地享受着服务的场景——",
+			say = "After a long day of work, the Master returns home exhausted, but finds sanctuary in my lap~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "嗯……体验东煌风的皇家女仆队，也是一种蛮有趣的设计。",
+			say = "Mm, that's quite interesting. Combining our culture with the Royal Maids' spirit of service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "可以的话，我现在就开始拍摄了？",
+			say = "If you don't mind, I'd like to take the picture now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "明白~",
+			say = "Not at all. Thank you very much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "拍照顺利结束，卡律布狄斯小姐，辛苦你了。",
+			say = "We're all done with the photoshoot. Thank you so much for coming, Miss Charybdis.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "辛苦了喵~",
+			say = "Good job, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "身为女仆队的一员，帮助镇海小姐拍摄只是举手之劳。",
+			say = "You're very welcome. The Royal Maids are here to help after all~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202301,
-			say = "不过{namecode:98}小姐在这里是……？",
+			say = "By the way, Akashi, what brings you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意喵~我只是取得了前期游园体验许可现在正在考察商铺建设位置的一只路过猫咪喵~",
+			say = "It's nothing major, nya. Akashi simply came by to check the site of another potential store branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原……原来如此。对了，这个工具我可以带回去么，有机会的话我想实际请指挥官来试一下~",
+			say = "I see... By the way, can I take these props back with me? I think I might actually want to try servicing the Master a little bit~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然没问题，请收好。",
+			say = "That's fine by me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 202301,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢~那我就先回去了，如果有需要帮忙的地方再联系我哦。",
+			say = "Thank you very much! If you don't need anything else from me, I shall take my leave~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

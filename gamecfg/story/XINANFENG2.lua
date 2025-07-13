@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>二　失误连连的秘书舰</size>",
+					"A Gust of Motivation!\n\n<size=45>2 A Series of Secretarial Slip-Ups?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "第二天的指挥室",
+			say = "Office – The next day",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "Ciao……咳咳，早安，指挥官。",
+			say = "Ciao~ Err, I mean... Good morning, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本想要扬手问候的西南风忽然改为了行提裙礼，或许这也是注意事项的一部分吧。",
+			say = "Libeccio greeted me in the same energetic way she always did, except suddenly she seemed to realize something. Modifying her behavior halfway, she curtsies politely, perhaps having something to do with the content of her \"strategy guide.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（双手微提裙摆，再开始自我介绍。）",
+			say = "(Um, if I remember right, I put my hands on the hem of my skirt like this and...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "撒丁帝国所属驱逐舰，西南风，向指挥官致以清晨的问好~",
+			say = "Destroyer Libeccio of Sardegna, reporting for duty. I am here to send my warm regards this wonderful morning––!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			},
 			options = {
 				{
-					content = "早上好。",
+					content = "\"Buongiorno.\"",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "事不宜迟！我来为指挥官泡茶吧！西北风姐姐说茶包好像是放在……",
+			say = "Let us not waste any time! First, I'll prepare the tea for you! Um, if I remember right, Maestrale said the tea bags were...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "找到了！然后是茶壶和茶杯…………",
+			say = "Oh, over here! Now to find the tea set...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官~我把茶端过来了哦。接下来是整理文件对吧？",
+			say = "Commander, the tea is ready. Next up is getting all the documents organized, right?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道的！整理文件就是把盖过章的放一边，需要确认的放在另一边——",
+			say = "Hehe, piece of cake! All the stamped documents go over here, and the ones that still need to be checked go in this other pile––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看起来好像……有模有样的，难道是之前担心过度了么？",
+			say = "Huh, she seems to be... pretty good at this? Maybe I was psyching myself out over nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "拿起桌上的茶水抿了一口——————是冷水。",
+			say = "I bring the cup of tea that was just served to me to my lips... Cold. The tea bag had been steeped in cold water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "欸？啊！我忘记烧热水了么？我难道……直接把冷水倒在茶包上了么！",
+			say = "Wha? Huh? Did I forget to boil the water? I really... just poured tap water over the tea bag?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "非常抱歉！我马上换一杯！",
+			say = "I'm so sorry, Commander! I'll get you a new cup right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "呜哇————",
+			say = "Eep––!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "小跑而来的西南风脚下一滑，在即将跌倒之际扑在了书桌上。",
+			say = "Just as Libeccio starts to run, she slips on something and reaches out towards the desk to break her fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "好险好险……呜啊啊啊，文件！！！",
+			say = "Owwie, that was a close one... Gah! The documents!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -326,7 +326,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因为突如其来的冲击，桌上的文件堆乱成了一团。",
+			say = "Due to the force of the collision, all the papers on the desk are knocked over, strewn all over the place and even more disorderly than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过也许是事先预料到了什么，手中的茶杯在端起后就不曾放下。",
+			say = "Well, at least she didn't drop the teacup...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "呜呜呜，对不起指挥官我马上整理……",
+			say = "Ugh... I'm so sorry, Commander, I'll clean everything up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "那、那个，打扰了！稍微有点不放心所以想来看一看……",
+			say = "Ah, um, excuse me... I got a little worried so I'm here to check on how Libeccio is doing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "西北风姐姐，救命啊————！",
+			say = "Maestraleeeee! Help meeeee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "西、西南风？！",
+			say = "Wh-what's the matter, Libeccio?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "最终还是在西北风的帮助下收拾了残局——",
+			say = "Thanks to Maestrale, we were able to get everything back on track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

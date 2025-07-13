@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "众人在密集的火力中撤回至校园区内，因为撤退的决定及时而没有人受伤。",
+			say = "Despite the kaiju's withering firepower, the party was able to retreat back to the school without any injuries.",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			say = "原本考虑近一步撤退到远离海岸的山中，不过巨大的敌人并没有进行追击。",
+			say = "The plan was to retreat further up into the mountains to buy more time, but the kaiju appeared to stop pursuing them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			say = "塞壬舰队重新封锁了海面，但就仅此而已了。",
+			say = "While the Siren fleet re-established their blockade in the waters, they also did not take any further actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "校园区·教室",
+			say = "School - Classroom",
 			dir = 1,
 			bgm = "ssss-az-story",
 			flashout = {
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "不消灭怪兽我们就无法离开，敌人是对这一点心知肚明才会不慌不忙的吧~",
+			say = "That kaiju must be the key to leaving the Mirror Sea. The enemy knows this as well, which is why they're set up around it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从刚才的情况来看，那个塞壬怪兽的战斗力确实夸张，要从正面应对恐怕十分困难……",
+			say = "Sharp observation. As such, it's impossible for us to attack them head-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们也要增强战斗力才行……不过在镜面海域里没法向港区求援，究竟要怎么做才好呢？",
+			say = "So what's the plan? Think we can brute force our way through with sheer numbers? We haven't been able to reestablish contact with the Port though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可以尝试去控制更多塞壬量产型。",
+			say = "I can try to procure some more mass-produced Siren ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用敌人的力量增强我们的战力，这倒是个好主意啊！",
+			say = "That sounds like a good idea! Not only will we be able to get stronger, we'll also be draining the enemy's forces!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,13 +198,13 @@ return {
 		},
 		{
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "<size=54>想法不错，但是效率太慢了！本净化亲有更好的方法哦！</size>",
+			say = "Rejected! That takes way too long! I've got a better idea!",
 			effects = {
 				{
 					active = true,
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇，怎么突然喊的这么大声……净化亲你从刚才在看到塞壬怪兽之后就不太对劲哎。",
+			say = "Purity? You've been acting kind of strange...",
 			effects = {
 				{
 					active = false,
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "净化者不一直都是这种样子么。",
+			say = "Really? Hasn't Purifier always been like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,9 +263,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "哎？！我以前一直都是这样灵光一闪的样子么？！",
+			say = "Huh? Have I always been such a genius?! Lightbulbs are going off in my head like crazy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,12 +279,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我果然不得了啊……！",
+			say = "Yeah, I'm pretty awesome, aren't I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "说重点、更好的方法是？",
+			say = "Let's stay on topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,9 +318,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "那个塞壬怪兽在开打之前在盯着我看哦~这件事你们注意到了么？",
+			say = "Okay, okay. So during that last battle, I couldn't help but notice that the kaiju kept looking at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "居然还有这种事么？我完全没注意到……",
+			say = "Huh? Was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:180}注意到了哦。",
+			say = "Kasumi... noticed that too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然有这种事？那你在开战之前就要求我们撤退……难道也和这个有关？",
+			say = "I suppose that's plausible. Was that the reason you were in a rush to get everyone to retreat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,9 +388,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "没错！在和塞壬怪兽双目交汇的时候，我看到了它的构造。",
+			say = "Uh, yeah! The moment I made eye contact with it, I immediately \"understood\" its structure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,12 +404,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔，倒也不是到图纸结构那么具体，只是看到了武器配备等等的情况，应该怎么形容好呢……",
+			say = "...I don't have any specific details, but all kinds of blueprints and weapon designs flashed through my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "就像看到了属性面板一样？",
+			say = "Like looking at a status screen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "属性面板……？额，就像整理好的情报汇总之类的？",
+			say = "A what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,9 +460,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "对对对！就是这种感觉！很多情报直接以整理好的形式堆在了一起！我们之间的差距一目了然，硬打必输！",
+			say = "Yeah, yeah! Just like that! And I could tell that our level gap was too great, or something like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "更恐怖的是，我看到了它的攻击目标顺序……它要最优先消灭的目标是本净化亲哦？！",
+			say = "I also could see that it considered me the greatest threat out of all of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然被选为第一优先级，意思是威胁程度最高么……区区一个净化亲。",
+			say = "So, it was trying to take you out first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有趣……那按照威胁度顺位排下去，下一个是不是貉？",
+			say = "Who would its second priority be then? Mujina?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,12 +539,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错，你怎么知道的！那些画面你也看到了么？",
+			say = "Yeah, you get it! Did you see it too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，并没有。不过这样一来就能解释通了。",
+			say = "No, but I have a pretty good idea of how the Sirens operate. After all, that kaiju was created by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大概是因为净化者和貉都能对塞壬造物进行某种程度的控制，所以才会被列为最需要优先消灭的目标吧？",
+			say = "It would be safe to assume that Purifier, who is a Siren herself, and Mujina, who has the ability to control Sirens, are seen as prime targets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "道理上说得通哦~相比于外部的敌人，某种意义上可以被归为内部的敌人才更可怕呢。",
+			say = "That makes sense... They're more worried about getting sabotaged from the inside than about an external attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "呼呼，亚历克西斯·克莱西斯也很强哦！我和亚历克西斯·克莱西斯肯定是第三优先攻击目标吧！",
+			say = "I guess I'd be third on that list then? Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,12 +637,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "剩下的就没看那么仔细啦！看到被大怪兽列成第一优消灭目标的时候就已经够恐怖了！",
+			say = "Dunno who comes after that, but it does feel pretty scary having a huge monster like that coming after you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,12 +656,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我跟{namecode:93}同学的想法一致！可能因为我能控制的东西太多了，大怪兽才会格外盯着我！",
+			say = "I just wanted to be an ordinary schoolteacher~ I never expected something like this to happen to me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为你本身就是高阶塞壬啊……话说你居然现在才意识到么？",
+			say = "...You're an elite Siren yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,12 +692,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "之前我只能控制校园区内的设施，舰装也是这么生产出来的。不过校园区之外的其他部分就无能为力了……",
+			say = "Am I? If I really was this \"Purifier,\" there's no way I wouldn't be able to handle an enemy like that, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,12 +711,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原本以为这就是我的能力极限，不过在海域中看到属性面板之后我反应过来了——",
+			say = "I can't even fight. All I can do is use the school's facilities to help others resupply, and make riggings. Does that sound like a high-ranking elite to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,9 +732,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "也许只是我的控制权限被锁住了而已！你们看，校园区和其他区域在结构上有很大区别吧！",
+			say = "In other words... This is just my conjecture, but this Mirror Sea is currently sealing away my true powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,12 +748,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那大概是因为校园区的控制权限在我手里，而校园区之外的控制权限在那个塞壬怪兽手里的原因。",
+			say = "If I was to regain my powers, maybe I'd be able to defeat that huge kaiju?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,9 +769,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "只要将其他区域的控制权夺回来，我就会变强，而大怪兽会变弱，我们就能取得胜利了！",
+			say = "Besides, if everyone's beloved Miss Purity was able to regain control of this Mirror Sea... Maybe I'd even do you a favor and send you back home~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "风险有点高呢……",
+			say = "Working with her is too risky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过听起来有些道理。我们一直选择跟塞壬硬碰主要也是没有其他更好的方法。",
+			say = "But we don't really have a choice. We can't break through the enemy lines ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "如果能用这种此消彼长的方式解决的话倒也不错，有种解题新思路的感觉……",
+			say = "If we really could help Purifier regain her powers, that'd be the best shot we have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,12 +837,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼哼~毕竟你们是学生，我才是老师呢！",
+			say = "Absolutely! That's an honor student for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "要是你在取得全部区域的控制权之后反过来攻击我们怎么办？",
+			say = "Nonsense. The first thing you'd do when you regain your powers would be to attack us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "我们连还没取得全部控制权的塞壬怪兽都无法对抗，就更不可能对抗取得了全部控制权的你吧。",
+			say = "Even if we managed to defeat that kaiju, we'd stand no chance against you after you regain control of the entire Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,12 +892,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:439}同学的疑心真的好重啊……那些塞壬可是要连我一起消灭的哦！我们可是共同战线，我有什么理由要这么做啊！",
+			say = "What are you talking about? That kaiju was clearly trying to take us all out! What happened to our united alliance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "道理上是这样，不过果然还是需要些保险什么的……",
+			say = "We'll need something to hold you to your word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就和之前一样，我、{namecode:180}、莲还有奈美子一起在净化者身边待机吧。",
+			say = "Hass, Namiko, Kasumi, and I will make sure she doesn't try anything funny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果她没有异常，我们就作为保证净化亲安全的护卫。如果她有异常动作，我们就在最短距离发动攻击，排除威胁。",
+			say = "We'll let everyone know right away if she makes any suspicious moves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是伊丽莎白女王身边的女仆队成员，很可靠的方案。",
+			say = "Sounds like a plan then... I'm glad the Royal Maids are a reliable bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,9 +993,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "如果能让你们放心，那就按照这个方案执行好了！我会标出控制设施的方位给你们，取得各区域的控制权，一同赢得作战吧！",
+			say = "Now that you have your plan, let's get started! I'll tell you where this Mirror Sea's control device is, so let's begin our recapture strategy from there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

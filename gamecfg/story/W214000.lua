@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "击破设施护卫舰队后，可以解除区域封锁。",
+			say = "Sinking the escort fleet should should lift the Sirens’ blockade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

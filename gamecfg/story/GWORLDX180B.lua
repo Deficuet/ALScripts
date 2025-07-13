@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "战役信息记录仪需要在储物仓中使用，使用后可以跳过重复调查过程，解锁全部海域间的自由移动，同时侦察全部普通海域。",
+			say = "If you use the \"Operation Siren Data Logger\" from your Storage, you will be able to lift all movement restrictions between zones and immediately collect all the zone securing rewards. Additionally, all normal zones will remain scouted until the next reset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

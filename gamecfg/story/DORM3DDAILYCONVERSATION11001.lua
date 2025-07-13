@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "手里的杂志？",
+			say = "You mean this magazine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是最新一期的时代风尚啦……怎么说呢……",
+			say = "It's the latest volume of Port Vogue, which is like a fashion mag...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "毕竟现在不是我们做同学的时候了，偶尔想要追求一点个性嘛！",
+			say = "I mean, we're not at the Academy anymore. Sometimes, I want to figure out my own personal style, y'know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你会喜欢的，对吧？",
+			say = "I bet you'll like it, too, honey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

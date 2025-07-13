@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>八 重樱演武</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 8: Sakura War Dance</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "可算来了，远道而来的客人",
+			say = "So you've come, travellers from afar.",
 			bgm = "nagato-map",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人下达了特别吩咐，希望我们能让客人们玩得开心",
+			say = "Lady Nagato gave us a special order to show the greatest hospitality to our guests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次是{namecode:76}和{namecode:77}啊，也就是说，节目是……",
+			say = "It's Ise and Hyuuga this time! Surely that means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好洞察力！在这里为你们来一场重樱演武。",
+			say = "Very perceptive. You are about to be treated to a traditional Sakura Empire war dance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？为什么都在用微妙的表情看着余……？",
+			say = "Hm? Why are you looking at me with that strange expression...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算让我和{namecode:77}相互对峙，场面也不会十分有趣，能不能让那边的鬼大人也加入我们呢？",
+			say = "Nay, I was just thinking... it wouldn't be very exciting with just the two of us. Would you like to join us, Madam Oni?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔唔唔......没办法了，余作为鬼神的一面，今天就向你们展示一下吧",
+			say = "Hmmm... You leave me with no choice then. Ay shall demonstrate my greatness as an Oni goddess for which Ay am renowned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 10500050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "面对真正姿态的余，你们承受得住么！",
+			say = "How long will you be able to stand before the unleashed power of my true form?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，听起来很有趣啊，看来不是能手下留情的场合了！",
+			say = "Ahaha! Now we're talking! Hyuuga, now's not the time to hold back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...既然是对客人的话，多少手下留情一些",
+			say = "No, they're our guests, so you should still show some restraint...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,8 +226,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊势&日向",
-			say = "{namecode:76}级战列舰---参上！",
+			actorName = "Ise&Hyuuga",
+			say = "Ise-class Battleships, forward!",
 			subActors = {
 				{
 					actor = 305040,
@@ -252,7 +252,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "骗人的吧.....绫目酱以前是这样的角色么，竟然能和这两个战斗狂打的有来有回？！",
+			say = "No way! Since when was Ayame such a powerful character?! She's fighting those two battle maniacs on equal footing?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -286,7 +286,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘶-------以....以后要对绫目酱多客气一点了...！",
+			say = "Whew... L-let's all make sure we never make Ayame angry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘶----哈----嘶----哈----女孩子之间，挥洒汗水的近距离的搏斗.....",
+			say = "*huff* *huff*... Sweaty girls intertwining around each other... *huff*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祭酱！",
+			say = "MATSURI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是重樱的“演武”么..哈哈哈，确实感受到了异世界的文化差异",
+			say = "So this is the Sakura Empire's \"war dance\"... Ahaha, I see. We certainly do have some cultural differences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绫目阁下很能干嘛",
+			say = "Not bad at alll.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且观众们看起来都很开心！",
+			say = "And what more, our audience seems quite thrilled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼、呼……累死了！",
+			say = "Aah... Phew... that was exhausting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余……从地狱……回来了……哦",
+			say = "Ay... have returned... from hell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "设定上来讲，绫目酱原本就是从差不多的地方来的吧。",
+			say = "Ayame, according to your backstory, didn't you originally come from a pretty hellish place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余的老家……是幽世……啦……",
+			say = "Ay hail from... the Demon Realm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，先不要说话了，来缓一缓。",
+			say = "All right, all right, let Ayame rest first, and save the chatter for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "咱有带保温杯来哦，喝些热水休息一下吧~",
+			say = "I brought a thermos cup. Here, have some tea~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

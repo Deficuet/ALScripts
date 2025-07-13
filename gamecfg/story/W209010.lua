@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前区域所有章节任务均已完成，即将前往下一章节。",
+			say = "It’s time we commence operations in the next sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

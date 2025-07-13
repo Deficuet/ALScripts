@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "区域被封锁，舰队无法继续前进了……",
+			say = "This area has been blockaded. We can’t proceed beyond this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

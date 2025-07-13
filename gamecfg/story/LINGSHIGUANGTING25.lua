@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，前来汇合的净化者到了。",
+			say = "Hang on, this feels familiar... It's one of our memories, isn't it?",
 			bgm = "battle-boss-camelot",
 			flashin = {
 				delay = 1,
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，皇家舰队，来的很准时嘛。",
+			say = "\"Eyy. Right on time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你来得好慢，我们已经等你好久了哦……",
+			say = "\"Actually, you're late, Antiochus. Or should I call you Purifier?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "哈？！事先说明，是你们来早了，可不是我迟到啊！",
+			say = "\"Uh, no? You guys just got here early.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "不过你们按照事先嘱咐没有鲁莽行事倒是不错，要是你们的企业能有你们五分之一听劝就好了……",
+			say = "\"And without smashing up our stuff on the way, at that. Wish ol' Enterprise would be as well-behaved as you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "现在是隐秘行动，要是大闹一场引起理事会过度警惕的话，那接下来的收拾可就麻烦了……",
+			say = "\"Now remember, this is a stealth mission. I've got a safe course plotted out that'll get ya right past security and inside Point Berth.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说重点……",
+			say = "\"Wonderful. The less I have to fight, the better.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "准备工作我都做好了哦！你们把武器收起来，安静跟着我一起潇洒把任务完成就好了！",
+			say = "\"If you're not raring for a fight then stow away your damn planes! You wanna save Elizabeth, you gotta holster your weapons!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化者，你是不是跟上次我见你的时候相比有点变化过大了……",
+			say = "\"All right, all right. Goodness, you Antiochus sure have gotten expressive over time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "啊……？指我刚升级的主武器么？",
+			say = "\"Excuse me, melon mounds, I've been expressive since day one.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不……是指你的性格。",
+			say = "\"I meant in terms of your personality. You used to be so robotic and alien.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "这个啊……观察者建议我们多学习一下人类的思维情感，所以我最近可是自学了很多哦。",
+			say = "\"Oh, that. That's 'cause Observer's been promoting learning more about human civilization and culture and stuff.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "果然能看出变化了？",
+			say = "\"Injecting countless hours of humanity's garbage straight into your memory base does things to your personality.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那你都是在哪学的？安蒂克丝没有什么接触一般人的机会吧。",
+			say = "\"Humanity's garbage? What does that refer to?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900233,
-			say = "影视啊，漫画啊，游戏啊，SNS啊~就算不直接接触人类，想要学习的方式还有很多吧。",
+			say = "\"Movies, video games, comics, everything. Didn't even have to sit down and consume them the traditional way like you KAN-SEN gotta.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "好了，言归正传。陛下还在等我们，我们该出发了。",
+			say = "\"Let's get a move on already. We've wasted enough time on chit-chat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下遇险这件事是我的失职……身为近卫骑士，我却没能提前洞察到理事会的动向。",
+			say = "\"Point Berth is just up ahead, right? Lead the way, Purifier.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "接下来的路就拜托你了，让我们一同接陛下回来吧！",
+			say = "\"Hopefully Lady Elizabeth is still alive...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

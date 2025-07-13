@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>二　桑德菈式逻辑</size>",
+					"The Iron Rose Blooms\n\n<size=45>2 Seydlitz, Gone Serious</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "借着查询档案的空档，去休息室倒了杯咖啡。",
+			say = "Taking a break from sifting through data archives, I went to the lounge to pour myself a cup of coffee.",
 			bgmDelay = 2,
 			bgm = "story-richang-3",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但正准备返回指挥室时，却听到了指挥室门口的交谈声。",
+			say = "But before I can round the corner just in front of my office, I hear a voice coming from near my doorway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长官命令，凡到访者都需要出示指挥官的凭条。",
+			say = "On the Commandant's orders, all visitors must produce an invitation signed by the Commandant before they are allowed in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "哦……！{namecode:460}啊。气势不错哦。",
+			say = "My, Seydlitz. You've taken to your duties quite well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢夸奖……但是别想蒙混过关！",
+			say = "I'm honored by your praise... But I'm still not letting you in until you show your invitation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "哎呀，这招不管用嘛……！那如果我有急事要见指挥官呢？",
+			say = "*sigh*... Don't be so uptight. What if I told you I have urgent business with the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要找到长官说明情况就可以了。",
+			say = "In that case, you would have to explain your circumstances to the Commandant...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "但没有凭条的话，是没法见到指挥官的。",
+			say = "And how do I do that without one of those invitations you mentioned, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "那你要先拿到凭条……",
+			say = "Well, you'll have to ask in advance, and...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "门口安静了几秒钟，紧接着传出一阵笑声。",
+			say = "Before she can finish her sentence, Seydlitz falls silent. After a moment of quiet, she suddenly bursts into laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "对、对不起，但真的有点好笑……！",
+			say = "Haha, I'm really going around in circles here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "没想到居然有人能察觉其中的笑点，你也不赖嘛——",
+			say = "Phew... I'm glad you get it now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "这个文件记得交给指挥官，我先走了，祝你工作顺利哦。",
+			say = "Okay, how about you just pass these papers on to the Commander for me? Keep it up, you little hard worker.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "你也是，前卫小姐！",
+			say = "You, too! Good luck on your guard duty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听起来，那个熟悉的{namecode:460}又回来了。",
+			say = "(I'm glad Seydlitz seems to be back in proper form.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "周围又恢复了平静，走出拐角朝着{namecode:460}打了个招呼。",
+			say = "I waited for a moment to pass before turning the corner and greeting Seydlitz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "啊，长官好！请进——",
+			say = "Ah, Commandant! Welcome back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,18 +302,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……………………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我是不是该先写份凭条？",
+					content = "\"Should I write an invitation to myself before I come in?\"",
 					flag = 1
 				},
 				{
-					content = "不需要凭条么？",
+					content = "\"I don't need an invitation, do I?\"",
 					flag = 2
 				}
 			}
@@ -327,7 +327,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……真是的，不要笑我啊，长官。",
+			say = "Commandant! D-don't laugh at my expense, please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然……不用。",
+			say = "Even you, Commandant?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，我才没有那么死板呢，长官！",
+			say = "Even I'm not that inflexible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉~要是大家都像长官还有前卫小姐一样就好了。",
+			say = "Though sometimes, I do worry a little...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			},
 			options = {
 				{
-					content = "把咖啡递给{namecode:460}。",
+					content = "\"Have some coffee, Seydlitz.\"",
 					flag = 1
 				}
 			}
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……！长官是专门给我倒了杯咖啡么！",
+			say = "H-huh?! You've poured a cup for me, too, Commandant?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢、谢谢！非常感谢，长官！",
+			say = "Thank you so much! But I'm always available to do odd jobs for you, so please ask me next time if you see fit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,14 +457,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:460}紧绷的神色稍微舒缓了下来，这时候的话……",
+			say = "(She seems a little more relaxed now. Maybe this is a good time to ask...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有什么烦恼么？",
+					content = "\"Has anything been bothering you lately?\"",
 					flag = 1
 				}
 			}
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "当然是在想我和长…………唔！没没没没有……！",
+			say = "I don't know if this would count, but you've been on my mind... Ack! A-ahem, I mean, nothing's wrong!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "什么事都没有，长官！我绝对什么都没想……没在烦恼！",
+			say = "Your concern is deeply appreciated, but I'm in tip-top shape! Yep!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:460}的脸此时不知为何微微泛红。",
+			say = "So she says, but for whatever reason, her cheeks appear to be slightly flushed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……看来有继续进行观察的必要呢。",
+			say = "(Hmm... In that case, I'll just keep an eye on her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

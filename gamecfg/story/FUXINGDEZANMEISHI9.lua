@@ -15,7 +15,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，侦察机没有发现任何失联舰船，不过有几架飞机在侦察时失去了联络……",
+			say = "I'm sorry, Lady Veneto, I was unable to locate Littorio's fleet. Furthermore, I seem to have lost a few recon planes as well...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "非常抱歉，是我舰载机操控技术还不够熟练……",
+			say = "I'm sorry I fell short of your expectations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在飞行时失去联络……不，出问题的大概不是你的技术，而是这片海域本身吧。",
+			say = "Don't worry about it. It's difficult to operate aircraft within a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "你的舰载机毫无征兆的失踪了，就和利托里奥的舰队以及文琴佐护航的艺术品舰队一样。",
+			say = "What we do know is that the coordinates of this Mirror Sea match the ones given to us by Vincenzo Gioberti. I can confidently say that this is the same place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "看来之前猜测的不错，这片海域中确实有塞壬设下的机关。镜面海域的性质我记得是……",
+			say = "Maestrale, can you compare the information we collected with what Carabiniere provided us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海域内与外界隔绝，干扰强烈，通常拥有众多敌人与反常的气候现象。",
+			say = "Every sign points to this being a Mirror Sea – a physically isolated space, electronic interference, and Siren readings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。除了这些铁血提供的资料之外，龙骑兵的报告里也有对于镜面海域性质的描述。",
+			say = "Yes, that is in line with our expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "拥有这些资料的话……作为前期准备来说足够了。",
+			say = "We weren't able to locate Littorio or Gioberti, but we do have a pretty good idea of this Mirror Sea's range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬肯定在前方的镜面海域中等着我们，而利托里奥……八成是因为轻敌冒进而被诱入陷阱了……",
+			say = "Assuming Littorio stuck to the plan we prepared beforehand, she should be waiting for us not too far away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 605010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉，她那边千万别出什么事才好…………",
+			say = "Otherwise... the situation might be a lot more complicated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击进入储物仓。",
+				text = "Tap here to view the list of items in your possession.",
 				mode = 2,
 				posY = -249.82,
 				char = "1",
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击材料分页，查看在大型作战中获得的装备研发材料。",
+				text = "Head to the materials tab to see what special gear materials you've obtained during Operation Siren.",
 				mode = 2,
 				posY = -230.76,
 				char = "1",
@@ -70,7 +70,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击装备分页，查看仓库中的装备。",
+				text = "Tap the gear tab to view the items stored in your depot.",
 				mode = 2,
 				posY = -283.25,
 				char = "1",
@@ -95,7 +95,7 @@ return {
 			alpha = 0.3,
 			delay = 1,
 			style = {
-				text = "点击进行筛选。",
+				text = "Using filters will help you find what you're looking for faster.",
 				mode = 2,
 				posY = 302.77,
 				char = "1",

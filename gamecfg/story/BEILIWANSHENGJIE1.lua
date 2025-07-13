@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>一 去寻找迷路的幽灵吧！</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>I 「In Search of Lost Ghosts!」</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			bgmDelay = 2,
-			say = "锵锵！",
+			say = "Heya!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "哇哦～好大！",
+			say = "Wow~ It's so big!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "这就是今天要展示的“超级南瓜灯”吗？",
+			say = "Is this the \"Super Pumpkin Lantern\" that we're showing off today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "正是！从种植到雕刻！在大家的帮助下才终于完成的超级南瓜灯！",
+			say = "Sure is! The pumpkin was home grown and then carved out! With everyone's help, we were able to create such an awesome pumpkin lantern!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:19}",
-			say = "顺便一提，里面的东西吾辈已经全部做成派了！",
+			say = "By the way, I've made delicious pies stuffed with pumpkin filling inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼，我已经等不及了，赶紧试试效果吧！",
+			say = "Oh, I just can't wait, let's try out these effects, quickly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…奇怪？没反应？难道是里面的灯出故障了？",
+			say = "...Strange? Nothing's happening? Could the lantern be malfunctioning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "唔…有点麻烦了啊，晚上的派对马上就要开始了…",
+			say = "Oh... This seems troublesome, the party will start shortly tonight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "南瓜的嘴巴那里…好像有个东西",
+			say = "There seems to be something inside...the pumpkin's mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯？啊，真的诶！…有张纸条！",
+			say = "Eh? Oh, gosh, you're right! There's a note!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "“万圣节派对中混进了一个迷路的幽灵，要集三位善良的魔女之力才能将其送回家”？",
+			say = "\"We have lost a ghost mingling amongst us at this Halloween party, only the combined power of three virtuous witches can send it home.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
-			say = "这是什么意思？",
+			say = "What does this mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:19}",
-			say = "“三位善良的魔女”？",
+			say = "“Three virtuous witches”?",
 			subActors = {
 				{
 					dir = 1,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，这时候！就轮到热心的兔兔星魔女登场了！",
+			say = "Hehe, it's time! Here comes the witch from Planet Bunny!",
 			effects = {
 				{
 					active = true,
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇，魔女真的出现啦！",
+			say = "Wow, a witch really did appear!",
 			effects = {
 				{
 					active = false,
@@ -363,7 +363,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就让来自兔兔星的魔女贝利来帮忙吧！",
+			say = "Let Bailey the rabbit witch help out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,8 +381,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "{namecode:6}&{namecode:19}&克利夫兰",
-			say = "哦哦哦——",
+			actorName = "{namecode:6}&{namecode:19}&Cleveland",
+			say = "Ooo-ahhh~",
 			subActors = {
 				{
 					actor = 301171,

@@ -24,7 +24,7 @@ pg.puzzle_card_template = {
 	},
 	[999970] = {
 		cost = 2,
-		name = "鱼雷攻击",
+		name = "Torpedo Attack",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -33,7 +33,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999970,
 		icon = 510031,
-		discript = "先锋舰 向前方发射一枚磁性鱼雷",
+		discript = "Vanguard - Fires 1 acoustic torpedo.",
 		label = {
 			102,
 			301
@@ -46,7 +46,7 @@ pg.puzzle_card_template = {
 	},
 	[999971] = {
 		cost = 7,
-		name = "强袭雷击",
+		name = "Torpedo Barrage",
 		action = "",
 		rarity = 3,
 		cooldown = 0.5,
@@ -55,7 +55,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999971,
 		icon = 512040,
-		discript = "先锋舰 发射强力磁性鱼雷弹幕",
+		discript = "Vanguard - Fires a powerful acoustic torpedo barrage.",
 		label = {
 			102
 		},
@@ -67,7 +67,7 @@ pg.puzzle_card_template = {
 	},
 	[999972] = {
 		cost = 8,
-		name = "火力覆盖",
+		name = "Suppressive Fire",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -76,7 +76,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999972,
 		icon = 541050,
-		discript = "主力舰 发射大范围的炮击支援",
+		discript = "Main Fleet - Gain suppressive fire in a large area.",
 		label = {
 			100
 		},
@@ -88,7 +88,7 @@ pg.puzzle_card_template = {
 	},
 	[999973] = {
 		cost = 5,
-		name = "自动速射",
+		name = "Automatic Rapid Fire",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -97,7 +97,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999973,
 		icon = 510010,
-		discript = "先锋舰 每4秒对距离最近的敌人 发射一轮炮击弹幕",
+		discript = "Vanguard - Shells the closest enemy every 4s.",
 		label = {
 			306
 		},
@@ -109,7 +109,7 @@ pg.puzzle_card_template = {
 	},
 	[999974] = {
 		cost = 7,
-		name = "自动鱼雷",
+		name = "Automatic Torpedoes",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -118,7 +118,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999974,
 		icon = 510030,
-		discript = "先锋舰 每8秒对距离最近的敌人 发射一轮鱼雷攻击",
+		discript = "Vanguard - Torpedoes the closest enemy every 8s.",
 		label = {
 			306
 		},
@@ -130,7 +130,7 @@ pg.puzzle_card_template = {
 	},
 	[999975] = {
 		cost = 10,
-		name = "自动跨射",
+		name = "Automatic Shelling",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -139,7 +139,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999975,
 		icon = 510020,
-		discript = "主力舰 每10秒对优先级最高的敌人 发射一轮跨射攻击 ",
+		discript = "Main Fleet - Fires a volley at the highest-priority target every 10s.",
 		label = {
 			100,
 			306
@@ -152,7 +152,7 @@ pg.puzzle_card_template = {
 	},
 	[999977] = {
 		cost = 8,
-		name = "强力跨射",
+		name = "Intense Volley",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -161,7 +161,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999977,
 		icon = 511010,
-		discript = "主力舰 对优先级最高的敌人 发射一轮强力的跨射攻击",
+		discript = "Main Fleet - Fires a powerful long-range volley at the highest-priority target.",
 		label = {
 			100,
 			301
@@ -174,7 +174,7 @@ pg.puzzle_card_template = {
 	},
 	[999978] = {
 		cost = 5,
-		name = "强力射击",
+		name = "Intense Shelling",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -183,7 +183,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999978,
 		icon = 531100,
-		discript = "先锋舰 对距离最近的敌人 发射一轮强力的炮击弹幕",
+		discript = "Vanguard - Fires a powerful barrage at the closest enemy.",
 		label = {
 			301
 		},
@@ -195,7 +195,7 @@ pg.puzzle_card_template = {
 	},
 	[999979] = {
 		cost = 5,
-		name = "跨射指令",
+		name = "Shelling Order",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -204,7 +204,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999979,
 		icon = 541050,
-		discript = "主力舰 对优先级最高的敌人 发射一轮跨射攻击",
+		discript = "Main Fleet - Fires a long-range volley at the highest-priority target.",
 		label = {
 			100
 		},
@@ -216,7 +216,7 @@ pg.puzzle_card_template = {
 	},
 	[999984] = {
 		cost = 3,
-		name = "维修指令",
+		name = "Repair Order",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -225,7 +225,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999984,
 		icon = 511060,
-		discript = "恢复我方10%的耐久",
+		discript = "All your ships regain 10% of their max HP.",
 		label = {
 			301
 		},
@@ -237,7 +237,7 @@ pg.puzzle_card_template = {
 	},
 	[999985] = {
 		cost = 5,
-		name = "应急维修指令",
+		name = "Emergency Repairs",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -246,7 +246,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999985,
 		icon = 510050,
-		discript = "恢复我方30%的耐久",
+		discript = "All your ships regain 30% of their max HP.",
 		label = {},
 		condition = {},
 		effect = {
@@ -256,7 +256,7 @@ pg.puzzle_card_template = {
 	},
 	[999989] = {
 		cost = 5,
-		name = "破甲跨射",
+		name = "Armor-Piercing Shelling",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -265,7 +265,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999989,
 		icon = 541050,
-		discript = "主力舰 对优先级最高的敌人 进行一轮跨射，被命中的敌人15秒内受到的伤害提高20%，不可叠加",
+		discript = "Main Fleet - Fires a volley at the highest-priority target; enemies hit take 20.0% more DMG for 15s (cannot stack).",
 		label = {
 			100,
 			301
@@ -278,7 +278,7 @@ pg.puzzle_card_template = {
 	},
 	[999990] = {
 		cost = 2,
-		name = "基础射击",
+		name = "Regular Shelling",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -287,7 +287,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999990,
 		icon = 531080,
-		discript = "先锋舰 对距离最近的敌人 发射一轮弹幕",
+		discript = "Vanguard - Fires a barrage at the closest enemy.",
 		label = {
 			301
 		},
@@ -299,7 +299,7 @@ pg.puzzle_card_template = {
 	},
 	[999991] = {
 		cost = 6,
-		name = "强力护盾",
+		name = "Defense Boost",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -308,7 +308,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999991,
 		icon = 541010,
-		discript = "先锋舰 获得护盾，在6秒内抵挡所有伤害",
+		discript = "Vanguard - Deploys a barrier that negates all DMG for 6s.",
 		label = {
 			301
 		},
@@ -320,7 +320,7 @@ pg.puzzle_card_template = {
 	},
 	[999992] = {
 		cost = 8,
-		name = "全炮门齐射",
+		name = "All-Out Volley",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -329,7 +329,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999992,
 		icon = 511010,
-		discript = "主力舰 对优先级最高的敌人 发射一轮强力的跨射弹幕",
+		discript = "Main Fleet - Fires a powerful barrage at the highest-priority target.",
 		label = {
 			100,
 			301

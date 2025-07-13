@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-4",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}~看在你最近还算努力的份上，我准备了这个特调果汁哦~",
+			say = "Hey, {tb}. I know you've been busting your butt lately, so I made a special fruit juice blend for you ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然颜色有点奇怪……但是味道肯定很不错！",
+			say = "I promise it's delicious, even if it looks a little weird!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,11 +60,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是人家自己调制的独家配方哦♪",
+			say = "It's my original recipe, so it can't NOT be good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "要不要来一口？保证你终身难忘哦~",
+			say = "Try it. I guarantee you'll never forget the taste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我觉得普通果汁就挺好的",
+					content = "I think I'll have regular fruit juice.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "正好渴了，我全部喝掉！",
+					content = "Thanks! I was just feeling thirsty.",
 					type = 2
 				}
 			}
@@ -103,12 +103,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……{tb}真无趣。",
+			say = "Come ooon... You're so lame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +119,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀~看来今天会很有意思呢♪",
+			say = "Oh boy, today's gonna be interesting ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

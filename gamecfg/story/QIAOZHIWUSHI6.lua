@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>六　今天的晚饭</size>",
+					"Another Leader?\n\n<size=45>Chapter 6 - Tonight's Supper</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "就这样，事情突然就变成了要给乔治五世做饭了。",
+			say = "As a result of Hood's proposal, I suddenly found myself trying to cook for King George V.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你会做饭吗？",
+			say = "Commander, do you know how to cook?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 			},
 			options = {
 				{
-					content = "表示会一些",
+					content = "I've poured myself a bowl of cereal before.",
 					flag = 1
 				},
 				{
-					content = "可能不大行…",
+					content = "I wouldn't get my hopes up.",
 					flag = 2
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "那我就拭目以待了。",
+			say = "Heh. Let's see what you're capable of then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "原来如此…但是借这个机会开始学一学也不坏",
+			say = "I see. Well, in any case, this is a good opportunity to learn a useful skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "找个女仆队的人来一起帮你吧",
+			say = "You can always grab one of the Maids to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "总而言之，在厨房里忙活了起来。",
+			say = "With that, the kitchen became a much livelier place.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "先从最简单的炒青菜开始吧！",
+			say = "I started with the basics, such as learning how to handle vegetables and eggs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "洗菜、切菜、下锅、翻炒、加佐料……",
+			say = "Then I prepared them on the skillet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "把菜倒进盘子里，好，一盘菜大功告成！",
+			say = "... and finally, plated my freshly-made omelet!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "把菜端到餐厅的桌子上时，发现乔治五世坐在那里笑眯眯地看着这边。",
+			say = "I carried my creation over to King George V.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问怎么了",
+					content = "I'd like you to try this.",
 					flag = 1
 				}
 			}
@@ -233,7 +233,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没什么。",
+			say = "This is... scrambled eggs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乔治五世说着，从桌上叉起一块煎蛋",
+			say = "She poked at the dish in front of her with curiosity before lifting some to her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……指挥官，你的厨艺果然离我还差得远呢。",
+			say = "Hmm... Commander, it'll take a lot more practice before you can hope to satisfy my palate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "能给伊丽莎白做料理的水平，自然不会为自己临时随便做的一道菜所满足。",
+			say = "(Well, that was to be expected. This person is capable of crafting dishes fit for a Queen, so of course she'd be on a completely different level from me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……",
+			say = "However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“这道菜是你为了我而做的”这个事实，作为调味料来说真是非常美味啊",
+			say = "The fact that you prepared this dish especially for me... is quite the delicious seasoning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "乔治五世的脸上露出了非常喜悦的笑容。仿佛——",
+			say = "King George V smiled at me warmly, almost as if...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "坐在餐桌前的乔治五世，不是秘书舰，不是骑士长，不是拥有领导魅力的皇家高层——只是一个期待着自己所做的料理的普通少女。",
+			say = "... the person in front of me was not my secretary ship, a Knight Commander, or one of the most charismatic leaders in the Royal Navy — but rather, just an ordinary girl who enjoyed cooking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "不知为何，第一次感觉到了乔治五世的“弱点”。",
+			say = "And with that, I caught a glimpse of her \"soft side.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "转身返回厨房，继续开始了烹饪。",
+			say = "I turned back towards the kitchen to continue my training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "总有一天，要做出让她也认可的美味料理——————",
+			say = "One day, I would make something that she would acknowledge as truly delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

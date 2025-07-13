@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，其实我最近在练习茶道。",
+			say = "I've actually been learning how to make tea for a while now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽然感觉上可能没那么时髦……但其实挺有趣的。",
+			say = "It might not be that trendy, but it's a lot of fun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听起来很优雅。",
+					content = "Sounds very refined.",
 					flag = 1
 				},
 				{
-					content = "{namecode:50:能代}喜欢就没问题！",
+					content = "It's good as long as you like it.",
 					flag = 1
 				}
 			},
@@ -67,7 +67,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}是这么认为吗？太好了。",
+			say = "You think so? I'm glad to hear that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等我再精进一点，就用这种方式来帮{dorm3d}泡茶吧。",
+			say = "I'd be happy to make tea for you once I've gotten a bit better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

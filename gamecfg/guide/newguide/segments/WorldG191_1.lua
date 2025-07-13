@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "每个信标存在挑战人数上限（最多30人）。",
+				text = "Up to 30 people can participate simultaneously in an META Showdown!",
 				mode = 2,
 				posY = 370.1,
 				char = "1",
@@ -19,7 +19,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "当信标HP归零后，视为战斗胜利。指挥官可以领取对应的信标·META作战奖励。",
+				text = "The battle ends when the META ship’s HP reaches 0, at which point all participants will be awarded Sync Points!",
 				mode = 2,
 				posY = -218.3,
 				char = "1",
@@ -33,7 +33,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "每个被解析的信标只会存在一定时间，到期后将会消失。记得向其他指挥官请求支援哦。",
+				text = "If the META ship isn’t defeated before the timer runs out, the mission will vanish!",
 				mode = 2,
 				posY = -421.9,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击开始挑战即可开始进行作战。",
+				text = "Now, tap here to start the battle!",
 				mode = 2,
 				posY = -398.6,
 				char = "1",
@@ -72,7 +72,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossFormationLayer",
 			style = {
-				text = "对于每处信标的首次挑战不会消耗石油，从第二次开始，每次挑战会消耗少量石油。",
+				text = "Your first attempt is free, but subsequent attempts will consume a little bit of Oil!",
 				mode = 2,
 				posY = -192.03,
 				char = "1",

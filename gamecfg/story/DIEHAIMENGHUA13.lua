@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "轰鸣与硝烟散去后，坚固的装甲被粉碎了。",
+			say = "Immense powers collided, and the resultant burst of light engulfed both assailant and protector alike.",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "装甲的主人被击退了几个踉跄，终于还是跪倒在水面上。",
+			say = "Despite the assailant's tremendous power, she fell to her knees, and the battle was decided.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…{namecode:82}……前辈？",
+			say = "Mi...kasa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳…咳咳……没事，就这么一下我还是扛得住的…",
+			say = "*cough* *cough*... Damn, I'm not as limber as I used to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可不能允许…亲眼看着后辈在面前陨落啊…",
+			say = "...Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算她偏离了正道…也绝不允许……！",
+			say = "What's wrong—?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………………………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…呵…呵呵呵呵……",
+			say = "Aha... Ahaha.... AHAHAHAHAHAHAHA!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到了现在这一步{namecode:182}大人还不打算出手么，真是耐得住性子啊…",
+			say = "Even now, are you just going to watch us from the sidelines? Shinano!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,23 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "{namecode:91}回身望着毫无反应的天守阁，冷笑着，在手上展开了一个黑色的立方体。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307010,
-			side = 2,
-			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哦对，我忘了，现在勉强你也没用吧…",
+			say = "Akagi turned around. Floating above her palm was a black box, glowing with a sinister light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +183,23 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大量的信仰，被浪费在这种无用计划上………",
+			say = "The manifestation of humanity's dreams and hopes, the Wisdom Cube... But there are special ones among them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			bgName = "bg_xinnong_cg2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Instead of squandering such power on the likes of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，那个是！！",
+			say = "Akagi... What are you saying...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算将此身献予恶魔，就算让灵魂坠入地狱…",
+			say = "Even should this body sink to the bottom of the seas... or be forever wreathed in flames... I... I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……任何人，任何人都不能阻碍我的计划！",
+			say = "I won't permit... anyone... to get in the way of my love!!",
 			effects = {
 				{
 					active = true,

@@ -1,90 +1,90 @@
 pg = pg or {}
 pg.activity_dreamland_explore = {
 	{
-		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
+		dispaly_desc = "You went to the castle and found that a cuckoo clock wasn't working.\nAccording to Sheffield, the clock refused to tell the time when there were people around.\nShe fired her guns, and the clock somehow went back to normal.\nYou wondered how they made a clock work like that.",
 		id = 1,
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
-		tip_desc = "城堡的报时钟藏在哪里呢？",
+		tip_desc = "Where do they keep the castle's bell?",
 		pic = "mengleyuan_buguniao",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"整点来到城堡时，发现布谷鸟钟异常安静。"
+				"You went to the castle and found that a cuckoo clock wasn't working."
 			},
 			{
-				"询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。"
+				"According to Sheffield, the clock refused to tell the time when there were people around."
 			},
 			{
-				"但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。"
+				"She fired her guns, and the clock somehow went back to normal."
 			},
 			{
-				"这是什么原理呢，真是太神奇了。"
+				"You wondered how they made a clock work like that."
 			}
 		}
 	},
 	{
-		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
+		dispaly_desc = "You went to the castle and found that a cuckoo clock wasn't working.\nAccording to Sheffield, the clock refused to tell the time when there were people around.\nShe fired her guns, and the clock somehow went back to normal.\nYou wondered how they made a clock work like that.",
 		id = 2,
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
-		tip_desc = "城堡的报时钟藏在哪里呢？",
+		tip_desc = "Where do they keep the castle's bell?",
 		pic = "mengleyuan_buguniao_2",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"整点来到城堡时，发现布谷鸟钟异常安静。"
+				"You went to the castle and found that a cuckoo clock wasn't working."
 			},
 			{
-				"询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。"
+				"According to Sheffield, the clock refused to tell the time when there were people around."
 			},
 			{
-				"但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。"
+				"She fired her guns, and the clock somehow went back to normal."
 			},
 			{
-				"这是什么原理呢，真是太神奇了。"
+				"You wondered how they made a clock work like that."
 			}
 		}
 	},
 	{
-		dispaly_desc = "整点来到城堡时，发现布谷鸟钟异常安静。\n询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。\n但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。\n这是什么原理呢，真是太神奇了。",
+		dispaly_desc = "You went to the castle and found that a cuckoo clock wasn't working.\nAccording to Sheffield, the clock refused to tell the time when there were people around.\nShe fired her guns, and the clock somehow went back to normal.\nYou wondered how they made a clock work like that.",
 		id = 3,
 		tip_special_effect = "",
 		type = 1,
 		group = 1,
-		tip_desc = "城堡的报时钟藏在哪里呢？",
+		tip_desc = "Where do they keep the castle's bell?",
 		pic = "mengleyuan_buguniao_3",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"整点来到城堡时，发现布谷鸟钟异常安静。"
+				"You went to the castle and found that a cuckoo clock wasn't working."
 			},
 			{
-				"询问谢菲尔德后得知，每当有人靠近想查看时间，布谷鸟就会突然不出来报时。"
+				"According to Sheffield, the clock refused to tell the time when there were people around."
 			},
 			{
-				"但谢菲尔德表示，只要对空放一枪，布谷鸟钟就会恢复正常运转。"
+				"She fired her guns, and the clock somehow went back to normal."
 			},
 			{
-				"这是什么原理呢，真是太神奇了。"
+				"You wondered how they made a clock work like that."
 			}
 		}
 	},
 	{
-		dispaly_desc = "晚上的烟花表演中，出现了一些不在计划中的奇怪图案。\n在烟花表演结束后，对比了烟花制作配方和发射程序，未发现异常。\n对此，{namecode:161}表示梦境就是存在各种不可思议的不合理之处，不必放在心上。",
+		dispaly_desc = "Some fireworks that weren't part of the show went off in the sky.\nAfter the display was over, you all inspected how the fireworks were made and the order they were launched in, and failed to find anything unusual.\nAmagi explained it thusly: \"Strange things happening in a dream is to be expected. It's nothing to worry about.\"",
 		id = 4,
 		tip_special_effect = "",
 		type = 1,
 		group = 2,
-		tip_desc = "到了晚上，城堡附近就能看烟花吧？",
+		tip_desc = "Will there be fireworks here, come nighttime?",
 		pic = "mengleyuan_damenqizi_3",
 		sub_type = {
 			5,
@@ -93,466 +93,430 @@ pg.activity_dreamland_explore = {
 		},
 		desc = {
 			{
-				"晚上的烟花表演中，出现了一些不在计划中的奇怪图案。"
+				"Some fireworks that weren't part of the show went off in the sky."
 			},
 			{
-				"在烟花表演结束后，对比了烟花制作配方和发射程序，未发现异常。"
+				"After the display was over, you all inspected how the fireworks were made and the order they were launched in, and failed to find anything unusual."
 			},
 			{
-				"对此，{namecode:161}表示梦境就是存在各种不可思议的不合理之处，不必放在心上。"
+				"Amagi explained it thusly: \"Strange things happening in a dream is to be expected. It's nothing to worry about.\""
 			}
 		}
 	},
 	{
-		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
+		dispaly_desc = "You ran into Ryuuhou at the fountain, where she was making a wish.\nShe said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace.\nLiverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\"",
 		id = 5,
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
-		tip_desc = "在许愿池许愿的话，愿望就会实现吧？",
+		tip_desc = "Will the fountain really grant your wish?",
 		pic = "mengleyuan_jinbi",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在心愿喷泉边，遇到了正在许愿的{namecode:179}。"
+				"You ran into Ryuuhou at the fountain, where she was making a wish."
 			},
 			{
-				"她表示每次投币许愿后，硬币都会突然消失，连水花都没有。"
+				"She said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace."
 			},
 			{
-				"池水也呈现出奇特的五彩斑斓的色彩。"
-			},
-			{
-				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
+				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
 	},
 	{
-		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
+		dispaly_desc = "You ran into Ryuuhou at the fountain, where she was making a wish.\nShe said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace.\nLiverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\"",
 		id = 6,
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
-		tip_desc = "在许愿池许愿的话，愿望就会实现吧？",
+		tip_desc = "Will the fountain really grant your wish?",
 		pic = "mengleyuan_jinbi_2",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在心愿喷泉边，遇到了正在许愿的{namecode:179}。"
+				"You ran into Ryuuhou at the fountain, where she was making a wish."
 			},
 			{
-				"她表示每次投币许愿后，硬币都会突然消失，连水花都没有。"
+				"She said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace."
 			},
 			{
-				"池水也呈现出奇特的五彩斑斓的色彩。"
-			},
-			{
-				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
+				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
 	},
 	{
-		dispaly_desc = "在心愿喷泉边，遇到了正在许愿的{namecode:179}。\n她表示每次投币许愿后，硬币都会突然消失，连水花都没有。\n池水也呈现出奇特的五彩斑斓的色彩。\n“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。",
+		dispaly_desc = "You ran into Ryuuhou at the fountain, where she was making a wish.\nShe said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace.\nLiverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\"",
 		id = 7,
 		tip_special_effect = "",
 		type = 1,
 		group = 3,
-		tip_desc = "在许愿池许愿的话，愿望就会实现吧？",
+		tip_desc = "Will the fountain really grant your wish?",
 		pic = "mengleyuan_jinbi_3",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在心愿喷泉边，遇到了正在许愿的{namecode:179}。"
+				"You ran into Ryuuhou at the fountain, where she was making a wish."
 			},
 			{
-				"她表示每次投币许愿后，硬币都会突然消失，连水花都没有。"
+				"She said that she's been trying to throw coins in, but as soon as she did, they vanished in the water without a trace."
 			},
 			{
-				"池水也呈现出奇特的五彩斑斓的色彩。"
-			},
-			{
-				"“这一定是{namecode:179}小姐的愿望要实现的征兆！”路过的利物浦兴奋地说道。"
+				"Liverpool walked by, saw the glittering fountain, and excitedly explained that, \"That must be a sign that your wish is going to come true.\""
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 8,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_taiyangsan",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 9,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_zhongxinsan",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 10,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_taiyangsan_2",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 11,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_zhongxinsan_2",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 12,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_taiyangsan_3",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在遮阳伞附近，遇到了一脸惊讶的里诺。\n她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。\n“等等，莫非这就是里诺觉醒的超能力？！”\n之后的里诺决定自称为“阳伞侠”。\n嗯……反正是在梦里，就由她去吧。",
+		dispaly_desc = "You spotted Reno near the parasol, looking amazed.\nThe parasol was opening and closing entirely by itself.\nShe proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\"\nYou decided to let her have her fun. This is a dream, after all.",
 		id = 13,
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
-		tip_desc = "大型遮阳伞的收伞方式会和雨伞一样么？",
+		tip_desc = "How does this huge parasol set itself apart from a normal one?",
 		pic = "mengleyuan_zhongxinsan_3",
 		sub_type = {
 			2
 		},
 		desc = {
 			{
-				"在遮阳伞附近，遇到了一脸惊讶的里诺。"
+				"You spotted Reno near the parasol, looking amazed."
 			},
 			{
-				"她表示，有一把遮阳伞会在无人触碰的情况下自行收起又展开。"
+				"The parasol was opening and closing entirely by itself."
 			},
 			{
-				"“等等，莫非这就是里诺觉醒的超能力？！”"
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
 			},
 			{
-				"之后的里诺决定自称为“阳伞侠”。"
-			},
-			{
-				"嗯……反正是在梦里，就由她去吧。"
+				"You decided to let her have her fun. This is a dream, after all."
 			}
 		}
 	},
 	{
-		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
+		dispaly_desc = "Zuihou was at the Ferris wheel, looking troubled, so you spoke to her.\nShe said the Ferris wheel would stop turning if a balloon flew up near it.\nYou asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft.\nAfter finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks.",
 		id = 14,
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
-		tip_desc = "摩天轮的转动是不是可以停下来？",
+		tip_desc = "When does the Ferris wheel come to a stop?",
 		pic = "mengleyuan_motianlun",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"来到摩天轮附近时遇到了苦恼的{namecode:88}。"
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
 			},
 			{
-				"她表示只要气球飞上去，摩天轮就会停止转动。"
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
 			},
 			{
-				"联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。"
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
 			},
 			{
-				"发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。"
-			},
-			{
-				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
 	},
 	{
-		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
+		dispaly_desc = "Zuihou was at the Ferris wheel, looking troubled, so you spoke to her.\nShe said the Ferris wheel would stop turning if a balloon flew up near it.\nYou asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft.\nAfter finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks.",
 		id = 15,
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
-		tip_desc = "摩天轮的转动是不是可以停下来？",
+		tip_desc = "When does the Ferris wheel come to a stop?",
 		pic = "mengleyuan_motianlun_2",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"来到摩天轮附近时遇到了苦恼的{namecode:88}。"
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
 			},
 			{
-				"她表示只要气球飞上去，摩天轮就会停止转动。"
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
 			},
 			{
-				"联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。"
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
 			},
 			{
-				"发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。"
-			},
-			{
-				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
 	},
 	{
-		dispaly_desc = "来到摩天轮附近时遇到了苦恼的{namecode:88}。\n她表示只要气球飞上去，摩天轮就会停止转动。\n联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。\n发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。\n之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。",
+		dispaly_desc = "Zuihou was at the Ferris wheel, looking troubled, so you spoke to her.\nShe said the Ferris wheel would stop turning if a balloon flew up near it.\nYou asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft.\nAfter finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks.",
 		id = 16,
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
-		tip_desc = "摩天轮的转动是不是可以停下来？",
+		tip_desc = "When does the Ferris wheel come to a stop?",
 		pic = "mengleyuan_motianlun_3",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"来到摩天轮附近时遇到了苦恼的{namecode:88}。"
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
 			},
 			{
-				"她表示只要气球飞上去，摩天轮就会停止转动。"
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
 			},
 			{
-				"联系了{namecode:37}后，发现是摩天轮的安全保障措施将气球误判为了舰载机。"
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
 			},
 			{
-				"发现并不是气球的问题后，{namecode:88}发出了快乐的啾啾声。"
-			},
-			{
-				"之后和{namecode:37}都收到了{namecode:88}送的幸运气球作为答谢。"
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
 			}
 		}
 	},
 	{
-		dispaly_desc = "傍晚，在小吃摊附近与皇家方舟一行人相遇了。\n{namecode:33}表示自己的棉花糖被人抢走了，然而皇家方舟表示并没有发现有其他人靠近的迹象。\n“幽灵！一定是幽灵抢走了{namecode:33}的棉花糖！”布里斯托尔一下子兴奋了起来。\n然而在此处寻找了许久，完全没有发现幽灵的影踪。",
+		dispaly_desc = "You can into Ark Royal at the stalls.\nMutsuki was upset over someone stealing her cotton candy. Ark Royal claimed nobody was near her when it happened.\nExcitedly, Bristol speculated: \"It was a ghost! A ghost stole her cotton candy!\"\nYou looked all around, but failed to find any traces of a ghost.",
 		id = 17,
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
-		tip_desc = "黄昏时分的小吃摊，会有什么不一样么？",
+		tip_desc = "What's different about the stalls at twilight?",
 		pic = "mengleyuan_chidongxi_2",
 		sub_type = {
 			3
 		},
 		desc = {
 			{
-				"傍晚，在小吃摊附近与皇家方舟一行人相遇了。"
+				"You can into Ark Royal at the stalls."
 			},
 			{
-				"{namecode:33}表示自己的棉花糖被人抢走了，然而皇家方舟表示并没有发现有其他人靠近的迹象。"
+				"Mutsuki was upset over someone stealing her cotton candy. Ark Royal claimed nobody was near her when it happened."
 			},
 			{
-				"“幽灵！一定是幽灵抢走了{namecode:33}的棉花糖！”布里斯托尔一下子兴奋了起来。"
+				"Excitedly, Bristol speculated: \"It was a ghost! A ghost stole her cotton candy!\""
 			},
 			{
-				"然而在此处寻找了许久，完全没有发现幽灵的影踪。"
+				"You looked all around, but failed to find any traces of a ghost."
 			}
 		}
 	},
 	{
-		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
+		dispaly_desc = "You found Taihou at the exit of the slide, looking confused.\nApparently, the slide was getting slimier and she was going faster each time she went down.\nYou investigated, and it turned out the sunscreen she'd applied to herself was the cause.\nHow much sunscreen does one girl need?",
 		id = 18,
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
-		tip_desc = "从滑梯滑下来一定会溅起很多水花吧？",
+		tip_desc = "Will you make a huge splash if you go down that water slide?",
 		pic = "mengleyuan_huati",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在滑梯出口处，遇到了一脸困惑的{namecode:97}。"
+				"You found Taihou at the exit of the slide, looking confused."
 			},
 			{
-				"她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。"
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
 			},
 			{
-				"然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。"
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
 			},
 			{
-				"不过，她到底涂了多少……？"
+				"How much sunscreen does one girl need?"
 			}
 		}
 	},
 	{
-		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
+		dispaly_desc = "You found Taihou at the exit of the slide, looking confused.\nApparently, the slide was getting slimier and she was going faster each time she went down.\nYou investigated, and it turned out the sunscreen she'd applied to herself was the cause.\nHow much sunscreen does one girl need?",
 		id = 19,
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
-		tip_desc = "从滑梯滑下来一定会溅起很多水花吧？",
+		tip_desc = "Will you make a huge splash if you go down that water slide?",
 		pic = "mengleyuan_huati_2",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在滑梯出口处，遇到了一脸困惑的{namecode:97}。"
+				"You found Taihou at the exit of the slide, looking confused."
 			},
 			{
-				"她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。"
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
 			},
 			{
-				"然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。"
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
 			},
 			{
-				"不过，她到底涂了多少……？"
+				"How much sunscreen does one girl need?"
 			}
 		}
 	},
 	{
-		dispaly_desc = "在滑梯出口处，遇到了一脸困惑的{namecode:97}。\n她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。\n然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。\n不过，她到底涂了多少……？",
+		dispaly_desc = "You found Taihou at the exit of the slide, looking confused.\nApparently, the slide was getting slimier and she was going faster each time she went down.\nYou investigated, and it turned out the sunscreen she'd applied to herself was the cause.\nHow much sunscreen does one girl need?",
 		id = 20,
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
-		tip_desc = "从滑梯滑下来一定会溅起很多水花吧？",
+		tip_desc = "Will you make a huge splash if you go down that water slide?",
 		pic = "mengleyuan_huati_3",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在滑梯出口处，遇到了一脸困惑的{namecode:97}。"
+				"You found Taihou at the exit of the slide, looking confused."
 			},
 			{
-				"她表示每次滑下来时，滑梯都会突然变得特别湿滑，速度陡然增快。"
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
 			},
 			{
-				"然而检查后发现是{namecode:97}为了防晒，涂了太多防晒油而导致的摩擦力降低。"
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
 			},
 			{
-				"不过，她到底涂了多少……？"
+				"How much sunscreen does one girl need?"
 			}
 		}
 	},
 	{
-		dispaly_desc = "下午，水上乐园上空出现了一道彩虹。\n阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。\n她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。\n阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。",
+		dispaly_desc = "Rainbows appeared over the water area in the afternoon.\nAlfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be.\nThe photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows.\nShe was a bit grumpy about this. Still, she insisted on her certainty in what she saw.",
 		id = 21,
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
-		tip_desc = "午后的水上乐园，说不定能看到彩虹?",
+		tip_desc = "Will a rainbow appear here in the afternoon?",
 		pic = "mengleyuan_caihong",
 		sub_type = {
 			6,
@@ -560,198 +524,186 @@ pg.activity_dreamland_explore = {
 		},
 		desc = {
 			{
-				"下午，水上乐园上空出现了一道彩虹。"
+				"Rainbows appeared over the water area in the afternoon."
 			},
 			{
-				"阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。"
+				"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
 			},
 			{
-				"她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。"
+				"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
 			},
 			{
-				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
+				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
 			}
 		}
 	},
 	{
-		dispaly_desc = "下午，水上乐园上空出现了一道彩虹。\n阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。\n她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。\n阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。",
+		dispaly_desc = "Rainbows appeared over the water area in the afternoon.\nAlfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be.\nThe photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows.\nShe was a bit grumpy about this. Still, she insisted on her certainty in what she saw.",
 		id = 22,
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
-		tip_desc = "午后的水上乐园，说不定能看到彩虹?",
+		tip_desc = "Will a rainbow appear here in the afternoon?",
 		pic = "mengleyuan_yumu",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"下午，水上乐园上空出现了一道彩虹。"
+				"Rainbows appeared over the water area in the afternoon."
 			},
 			{
-				"阿尔弗雷多指出这不是第一次出现彩虹，但第一次出现的彩虹的颜色排列与平常相反。"
+				"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
 			},
 			{
-				"她看到后就一直尝试在此处拍摄，可是之后的彩虹总是呈现正常颜色。"
+				"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
 			},
 			{
-				"阿尔弗雷多有些沮丧，但仍坚持自己之前所见不虚。"
+				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
 			}
 		}
 	},
 	{
-		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
+		dispaly_desc = "As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest.\nShe said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it.\nIt sounded like she's been watching too many horror movies lately.",
 		id = 23,
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
-		tip_desc = "据说小丑啾的表情会发生变化？",
+		tip_desc = "They say the clownjuu's expression changes – is it true?",
 		pic = "mengleyuan_maxituan",
 		sub_type = {
 			3
 		},
 		desc = {
 			{
-				"路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。"
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
 			},
 			{
-				"她声称帐篷上的小丑啾会改变表情。"
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
 			},
 			{
-				"然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。"
-			},
-			{
-				"{namecode:189}是不是看太多恐怖片了？"
+				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
 	},
 	{
-		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
+		dispaly_desc = "As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest.\nShe said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it.\nIt sounded like she's been watching too many horror movies lately.",
 		id = 24,
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
-		tip_desc = "据说小丑啾的表情会发生变化？",
+		tip_desc = "They say the clownjuu's expression changes – is it true?",
 		pic = "mengleyuan_maxituan_2",
 		sub_type = {
 			3
 		},
 		desc = {
 			{
-				"路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。"
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
 			},
 			{
-				"她声称帐篷上的小丑啾会改变表情。"
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
 			},
 			{
-				"然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。"
-			},
-			{
-				"{namecode:189}是不是看太多恐怖片了？"
+				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
 	},
 	{
-		dispaly_desc = "路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。\n她声称帐篷上的小丑啾会改变表情。\n然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。\n{namecode:189}是不是看太多恐怖片了？",
+		dispaly_desc = "As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest.\nShe said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it.\nIt sounded like she's been watching too many horror movies lately.",
 		id = 25,
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
-		tip_desc = "据说小丑啾的表情会发生变化？",
+		tip_desc = "They say the clownjuu's expression changes – is it true?",
 		pic = "mengleyuan_maxituan_3",
 		sub_type = {
 			3
 		},
 		desc = {
 			{
-				"路过马戏帐篷时，遇到了正在观察帐篷的{namecode:189}。"
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
 			},
 			{
-				"她声称帐篷上的小丑啾会改变表情。"
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
 			},
 			{
-				"然而她每次尝试引起别人注意去观察小丑啾的表情时，小丑啾都会立刻恢复面无表情的模样。"
-			},
-			{
-				"{namecode:189}是不是看太多恐怖片了？"
+				"It sounded like she's been watching too many horror movies lately."
 			}
 		}
 	},
 	[27] = {
-		dispaly_desc = "在表演区遇到了看上去有些纠结的{namecode:37}。\n据她所说，这里的灯牌在没有通电的情况下正常亮起，且在自行变换图案。\n她想知道是什么原理导致的，于是就拆了一个。\n然而既没有弄清原理，也没办法将拆下来的灯泡装回去。\n总之，这种时候还是建议她先联系{namecode:161}吧。",
+		dispaly_desc = "You found Yuubari near the stage, stunned by what she was seeing.\nThe LED sign was working without any power – strange yet, the text on it was changing by itself.\nShe tried to figure out what was happening and not only failed, but also was unable to screw the lights back in.\nYou told her to talk to Amagi about it.",
 		id = 27,
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
-		tip_desc = "夜晚闪烁的灯牌，能控制它的节奏么？",
+		tip_desc = "Can you control the neon lights?",
 		pic = "mengleyuan_zhaopai_3",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"在表演区遇到了看上去有些纠结的{namecode:37}。"
+				"You found Yuubari near the stage, stunned by what she was seeing."
 			},
 			{
-				"据她所说，这里的灯牌在没有通电的情况下正常亮起，且在自行变换图案。"
+				"The LED sign was working without any power – strange yet, the text on it was changing by itself."
 			},
 			{
-				"她想知道是什么原理导致的，于是就拆了一个。"
+				"She tried to figure out what was happening and not only failed, but also was unable to screw the lights back in."
 			},
 			{
-				"然而既没有弄清原理，也没办法将拆下来的灯泡装回去。"
-			},
-			{
-				"总之，这种时候还是建议她先联系{namecode:161}吧。"
+				"You told her to talk to Amagi about it."
 			}
 		}
 	},
 	[28] = {
-		dispaly_desc = "来到迷雾探险区时，发现{namecode:180}正在这里发呆。\n“噗噗说，后山里有小伙伴……就在那里。”\n然而顺着{namecode:180}指出的方向努力看去，结果却什么也看不到。",
+		dispaly_desc = "You went to the foggy maze and found Kasumi, standing around idly.\nShe explained: \"Foo said there are friends in the woods... Over there.\"\nYou looked to where she pointed. There was nothing there.",
 		id = 28,
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
-		tip_desc = "不知道后山里还有游乐项目么？",
+		tip_desc = "Are there attractions out in the woods, too?",
 		pic = "mengleyuan_jiujingling",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"来到迷雾探险区时，发现{namecode:180}正在这里发呆。"
+				"You went to the foggy maze and found Kasumi, standing around idly."
 			},
 			{
-				"“噗噗说，后山里有小伙伴……就在那里。”"
+				"She explained: \"Foo said there are friends in the woods... Over there.\""
 			},
 			{
-				"然而顺着{namecode:180}指出的方向努力看去，结果却什么也看不到。"
+				"You looked to where she pointed. There was nothing there."
 			}
 		}
 	},
 	[29] = {
-		dispaly_desc = "傍晚来到鬼屋时，抚顺在门口站了许久都没有彻底推门进入。\n她表示每次把手放上去时，门把手就有一种异常的感觉，无法触碰。\n“这一定是针对我冒险王抚顺的诅咒！”她大叫道。\n然而在{namecode:161}的提醒后发现，只是抚顺一路都在摩挲衣服产生的格外强烈的静电。",
+		dispaly_desc = "You arrived at the haunted house, where you found Fu Shun, scared to go inside.\nShe claimed that every time she tried to open the door, her hand felt strange and she couldn't do it.\nShe exclaimed: \"It's some sort of curse! I've been cursed!\"\nAmagi pointed out that the strange sensation Fu Shun felt was simply static electricity.",
 		id = 29,
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
-		tip_desc = "黄昏时分的鬼屋似乎变得更不一样了？",
+		tip_desc = "Has the haunted house changed because of the twilight?",
 		pic = "mengleyuan_piaojiu_2",
 		sub_type = {
 			0
 		},
 		desc = {
 			{
-				"傍晚来到鬼屋时，抚顺在门口站了许久都没有彻底推门进入。"
+				"You arrived at the haunted house, where you found Fu Shun, scared to go inside."
 			},
 			{
-				"她表示每次把手放上去时，门把手就有一种异常的感觉，无法触碰。"
+				"She claimed that every time she tried to open the door, her hand felt strange and she couldn't do it."
 			},
 			{
-				"“这一定是针对我冒险王抚顺的诅咒！”她大叫道。"
+				"She exclaimed: \"It's some sort of curse! I've been cursed!\""
 			},
 			{
-				"然而在{namecode:161}的提醒后发现，只是抚顺一路都在摩挲衣服产生的格外强烈的静电。"
+				"Amagi pointed out that the strange sensation Fu Shun felt was simply static electricity."
 			}
 		}
 	},

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说起来，来这里以后……有些事情朝着更好的方向发展了呢。",
+			say = "I've noticed something – I've improved at a few things ever since I moved in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "感谢您赐予天狼星这个机会，我骄傲的{dorm3d}。",
+			say = "It's all because you've given me more opportunities to see you, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？天狼星指的是？",
+			say = "Really? How so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比如……能够与{dorm3d}这样长时间的近距离接触，能够第一时间回应{dorm3d}的需求……",
+			say = "For instance, I'm able to be with you for longer periods and I can respond to your requests immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这些对于天狼星来说，就是朝着更好的方向发展了哦！",
+			say = "In that way, I believe that I'm on the path to improvement!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

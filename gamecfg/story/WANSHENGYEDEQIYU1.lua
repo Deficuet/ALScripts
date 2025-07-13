@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万圣夜的「奇遇」\n\n<size=45>一　猫耳的恶魔</size>",
+					"Halloween Hijinks\n\n<size=45>1 The Cat-Eared Imp</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "唔……",
+			say = ".........",
 			bgm = "battle-highseasfleet-reborn",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "朦胧中，脸颊上似乎传来了柔软的触感。",
+			say = "While my mind was fuzzy from sleepiness, I felt something just as fuzzy against my cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,20 +56,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
-			say = "喵———",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_162",
-			say = "在梦中，似乎触摸到了什么毛茸茸的“物体”……",
+			say = "Meeeow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "等到反应过来时，那个“物体”已经从手边溜走了，只留下一个拉长的“喵——”",
+			say = "I reached my hand out for the fuzzy, fluffy thing that appeared in my drowsy dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "…………不对。",
+			say = "But it had already fled from my fingertips...leaving naught behind but a cute \"Meeeow.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +89,17 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "刚刚不是在做梦！",
+			say = "...Wait a second.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_162",
+			say = "That wasn't a dream, was it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "睁开双眼，四周映射来无数炫目的灯光与狰狞的南瓜头——现在，港区的“万圣节游园会”正在热烈进行中。",
+			say = "When I opened my eyes, I was surrounded by a bunch of pumpkins carved to have scary faces. It seemed I was in the port's Halloween party venue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "远处的浪潮冲刷着海岸，沙沙的波涛声中夹杂着大家的欢声笑语。",
+			say = "The sandy beach could be seen in the distance. My friends' cheers mixed with the pounding of waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "而我似乎是因为劳累之后的突然放松，不知不觉在长椅上睡着了……",
+			say = "It seemed I'd loosened up so much on this rare day off that I'd laid down and fallen asleep on a bench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "这么说来，刚刚伸手碰到的是……",
+			say = "But what had I just touched a moment ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对、对不起，幽灵先生！真的很对不起！",
+			say = "M-mister Ghost, I'm sorry! I'm so very sorry!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -202,7 +202,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雅努斯会好好听话当个好孩子的！不要抓走雅努斯！",
+			say = "I'll be a good girl, I promise! Please don't abduct me!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……幽灵先生？",
+			say = "Mister...Ghost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "低头看了看自己的衣服才想起来，这次出门前选择的装扮是幽灵主题。",
+			say = "I remembered the ghost costume I was wearing. Indeed, I'd dressed up as a ghost for Halloween.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "为了能更贴合幽灵的气质，还带了幽灵头套……",
+			say = "The costume didn't stop at clothes, either; I'd had a white mask prepared to go with it, so it was a quality costume.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,14 +247,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "看来至少在着装契合度的方面，本次变装做得还是挺成功的。",
+			say = "I couldn't blame her—Janus—for being genuinely afraid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摘下头套",
+					content = "Take off the mask",
 					flag = 1
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "很遗憾，不是幽灵先生，是指挥官哦。",
+			say = "I'd feel bad scaring her any further, so I took off the mask and revealed my true identity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原、原来是指挥官……吓、吓死我了……",
+			say = "C-Commander, it's you... Oh, you gave me a real fright.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -294,7 +294,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雅、雅努斯也知道万圣节的幽灵大概都是骗人的，但、但是，还是会感到害怕……",
+			say = "I know that monsters are never the real thing on Halloween, b-but I couldn't help myself...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -312,7 +312,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特别是在现在这样的夜晚……总感觉会从黑暗中窜出来可怕的幽灵来……是指挥官真是太好了。",
+			say = "Especially at night...I imagine monsters popping out of the darkness... I'm so glad it was just you, Commander.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "说起来，雅努斯这身装扮扮演的是怎样的角色呢？",
+			say = "\"So you say, Janus, but you're dressed up like a Halloween monster, too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "猫的耳朵加上蝙蝠的翅膀，感觉像是吸血鬼，又稍微有点不同……",
+			say = "\"Cat ears, bat wings... If you're not a vampire, I have no idea what monster you are.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实是……是猫耳的恶魔！雅努斯自己选的搭配……果然很奇怪么？",
+			say = "U-Umm... I'm a little kitty devil! I picked it out myself, but...i-is it weird, after all?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -368,7 +368,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贾维斯也说过穿这身衣服要小心不要被指挥官看到……",
+			say = "Jervis told me to be careful since you'd be seeing me, so I wonder...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -383,7 +383,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "不不不……衣服非常的可爱。",
+			say = "\"I honestly think you look cute in that costume, Janus.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，谢谢指挥官……",
+			say = "Phew... Thank you, Commander...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -414,7 +414,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官是太累了么……？直接睡在长椅上会着凉的，要不要雅努斯来送你回去？",
+			say = "Y-you were sleeping on this bench because you're so tired, right, Commander? You'll catch a cold out here. May I walk you to your room?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "没关系，刚才只是顺应了一下乘虚而入的睡意罢了，并不是真的很疲劳哦。",
+			say = "\"I just relaxed too much, is all. It's not as if I was too fatigued to stay awake...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原、原来如此……指挥官真是厉害，在这么惊悚的万圣节乐园里也能酣然入睡。",
+			say = "I-is that so...? You're incredible, Commander, being able to sleep soundly at a Halloween party...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "雅努斯接下来有什么计划？",
+			say = "\"No point in sitting around here, right? Where are you off to next, Janus?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了！我刚刚正在寻找一只戴帽子的黑猫，指挥官……在睡觉应该没见到吧。",
+			say = "Oh, yeah! I'm supposed to be looking for a black kitty with a hat right now. Commander, have you... Oh. You were sleeping, so duh, you haven't seen it...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -495,7 +495,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "（这么说来，梦里触碰到的不是雅努斯，而是真正的黑猫么……）",
+			say = "\"You know, I did feel something fuzzy. I think I heard its meows...that way.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 201351,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，原来指挥官留意到它跑开的方向了么？谢谢指挥官！",
+			say = "You know where the kitty went? Thank you so much for helping!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "相互道别之后，雅努斯消失在了万圣节的夜色之中。",
+			say = "I managed to tell her which way the cat ran and watched as Janus disappeared into the Halloween night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "那么——精彩的万圣夜才刚刚开始，接下来要去哪里逛逛呢？",
+			say = "\"I'll check on her later... Now, how should I enjoy this Halloween party?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

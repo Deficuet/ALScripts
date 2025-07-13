@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>五　突如其来的忙碌</size>",
+					"Slacking Off with the \"Good\" Girl\n\n<size=45>5.An Eventful Day</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……这样一来上午的工作就告一段落了。",
+			say = "Phew... This is a good stopping point for the morning's work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那就和往常一样，进入我们的“偷懒时间”吧——",
+			say = "Just in time for us to begin our usual slacking session!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor2",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉打扰了。指挥官，有紧急事态。",
+			say = "Pardon me. Commander, there's an urgent matter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "科研部门遇到了一些状况，光凭{namecode:37}和达·芬奇有些控制不住局面，所以我就来呼叫援军了。",
+			say = "The research department's run into a bit of a problem. Yuubari and da Vinci alone can't handle it, so we'd really appreciate your help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你现在方便么，能立即出发么？",
+			say = "Are you available right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "有些抱歉地看向了{namecode:491}——",
+			say = "\"Sorry, Jade, but I should really go...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "既然是紧急事态，那就快去吧？计划放在之后就好。",
+			say = "If it's urgent, don't worry about me. It can always wait until you get back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不对，我也跟你一起去好了。",
+			say = "...Better yet, allow me to come with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要是涉及到通讯模块之类的，我说不定能帮上大忙哦？",
+			say = "If it's related to the communication modules, I might be able to help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "总算处理完了科研部门那边的紧急事态……",
+			say = "\"Well, that's finally done and dusted...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，能占用你一点时间吗？这边遇到了一点状况……",
+			say = "Excuse me, Commander? There's a problem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "找到指挥官了！是紧急事态，请、请帮帮{namecode:18}！",
+			say = "Ack! Commander, there you are! It's an emergency! P-please, help me out here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "指挥官，不好意思啊，这边有点事情希望你能帮个忙……",
+			say = "Sorry, Commander. I happen to need your help with something...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "终于将今天的突发状况全部解决后，拖着疲惫的身躯回到了指挥室……",
+			say = "After being pulled back and forth by emergency after emergency, I dragged my tired body back to the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "真是祸不单行啊，今天连着遇到这么多难题，还好指挥官全部解决了。",
+			say = "When it rains, it pours, hm? That's our Commander for you; despite all of the problems presented to you, you dealt with them with aplomb.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "没有因为这段时间的偷懒而退步，很了不起哦。",
+			say = "It seems like our recent slacking sessions haven't dulled your skills at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "当然了，也有我在身边提供了不少支持的原因就是了～",
+			say = "...Of course, I think my presence contributed, too♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "唉……天已经完全黑了，今天的“偷懒计划”也彻底泡汤，只能换个时间了~",
+			say = "Oh, but it's already so late... I think our plans for today have been ruined.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官不用自责哦？要是觉得计划泡汤而过意不去，可就本末倒置了。",
+			say = "It's not your fault, Commander. If you feel bad about it, then that defeats the point of me trying to help you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "对了对了，指挥官的休假日也近了吧？",
+			say = "By the way, it's almost your day off, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为与你共度了那么多偷懒时光的秘书舰以及共犯，借走你一天的假期不过分吧？",
+			say = "Heehee, what if I were to borrow your day off to make up for today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼呼~和“偷懒计划”一样，只要交给{namecode:491}就好了哦。",
+			say = "Just like our slacking sessions, you can just leave everything to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "敬请期待吧~",
+			say = "Sounds like a plan. See you then!",
 			painting = {
 				alpha = 0.3,
 				time = 1

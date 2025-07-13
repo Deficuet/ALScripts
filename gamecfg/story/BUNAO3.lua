@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无效节能\n\n<size=45>三 骑行的插曲</size>",
+					"Ineffective Energy Saving\n\n<size=45>3 Mid-Trip Mistake</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "港区公园·人工湖边",
+			say = "Port Park - Artificial Lake",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "唔，好舒服，要是能一直这样骑下去该多好……",
+			say = "Ahh, this is so nice. I wish we could keep riding like this forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等，不挠，好像有些不对劲……",
+			say = "Wait a sec. This isn't right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我看着前方不远处的台阶，捏住了刹车。",
+			say = "Spotting a flight of stairs ahead, I immediately pull on the brakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊疼疼疼……我的鼻子……唔……",
+			say = "Owch... My nose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "正在神游天外的不挠，因为这突如其来的刹车撞在了我的背上。",
+			say = "In her careless relaxation, her face slams into my back due to our sudden stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "抱歉，你还好吗？",
+			say = "My bad. You okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "没事……怎么突然停下来？",
+			say = "I'm alright... Why did you stop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们是不是走错路了？",
+			say = "Because I think we're on the wrong path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "前面只有台阶了，你的计划总不会是扛着车走过去？",
+			say = "This one leads to a set of stairs. You didn't expect me to carry the tandem bike, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "欸？不应该呀……",
+			say = "What? Of course not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "或者，我们直接原路返回……",
+			say = "Well, I propose that we go back the way we came.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还是看看地图吧。",
+			say = "Before anything else, let's see the map.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我干脆停下车，我们两人站在路边，头挨着头一起查看地图。",
+			say = "We hop off the bicycle and stand by the shoulder of the road, heads together as we check the map.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊，好多岔路，好复杂……",
+			say = "So many branching paths. How annoying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "似乎真的走错了，但是从哪里开始走错了呢？",
+			say = "It's clear we went the wrong way somewhere – but where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "这里？还是这里？或者……",
+			say = "Here? Or maybe here? It could even be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,20 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "地图上的那些路线像打了结的线团，不挠的眉头越皱越紧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_181",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不管是哪一处走错了，我们现在前进的方向，与下一个目的地完全相反。",
+			say = "She furrows her brow at the maze of winding routes depicted on the map.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +270,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原路返回，或者走其他岔路绕回去，似乎都是可行的。",
+			say = "At any rate, we're heading in the complete opposite direction to our destination.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_181",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "We can either retrace our steps, or take a detour to get back on track. I think both are valid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "但具体要选择哪条路线……",
+			say = "Yes, but that leaves the question of what route to take.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要从这么多路线里选出一条最短最省力的……嗯……",
+			say = "We need to pick the shortest, most effort-saving route out of all these...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊……做决策实在是太难了。",
+			say = "Goodness, making decisions is so hard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "不挠看了看我的神色，忽然紧紧握住了我的手。",
+			say = "She looks at my face, and then suddenly takes my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,18 +349,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "接下来的路……可以拜托指挥官来导航吗？",
+			say = "Commander, may I ask you to take care of the navigation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "交给我吧",
+					content = "Sure thing.",
 					flag = 1
 				},
 				{
-					content = "有点为难",
+					content = "You're asking a lot of me here.",
 					flag = 2
 				}
 			}
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "没问题，交给我吧。",
+			say = "I'll handle it no problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "不过作为交换，不挠来负责“动力系统”吧？",
+			say = "That is, if you're willing to cover for me as the... \"propulsion system.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "导航本身没问题，但一边导航一边骑车有些费力。",
+			say = "Navigating isn't hard by itself, but doing that and cycling at the same time is pretty tricky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "不如，换不挠来负责“动力系统”吧？",
+			say = "Do you think you could cover for me as the \"propulsion system\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊！这这这……",
+			say = "Uhh, well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "开玩笑的。",
+			say = "I'm just pulling your leg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我会和不挠一起努力的。",
+			say = "We'll do it together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "差点就当真了……指挥官真是坏心眼呢。",
+			say = "I almost thought you were serious... You can be quite the joker sometimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "下一站是游船码头，拜托指挥官一定要选一条最最最近的路线哦……",
+			say = "Our next destination is the boat docks. Please make sure you take the closest route there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题，为了能让你坚持到最后，我也会选最近路线的。",
+			say = "Got it. I'll go with the shortest one so you won't wear yourself out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我们重新骑上车，向着我选择的新路线前行。",
+			say = "And so, we both get back on the bicycle and go down the new route.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "呼……呼……指挥官，我这回真的有在努力哦。",
+			say = "*pant*... *pant*... I'm really trying my best this time, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊……好累，是不是该休息了……",
+			say = "Gosh, I'm exhausted... Could we stop and take a break?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们才骑出去100米。",
+			say = "We haven't even gone a hundred meters yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "加油，坚持一下。",
+			say = "Come on, keep going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "好吧，毕竟是我的失误导致的……",
+			say = "Very well... This was my mistake, after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "原本是要休闲的……怎么就变成锻炼了？",
+			say = "This was supposed to be relaxing... Why do I have to strain myself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "听着不挠的抱怨，我的嘴角忍不住微微翘起。",
+			say = "Hearing her grumble under her breath, I can't help but crack a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "骑行虽然不如最初设想的那样轻松，但却也别有一番乐趣。",
+			say = "While this isn't the easygoing bike ride I initially imagined, it's a surprisingly good alternative.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

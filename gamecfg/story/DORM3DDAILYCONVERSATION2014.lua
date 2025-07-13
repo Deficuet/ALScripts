@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，{namecode:226:酒匂}推荐我拍音乐和舞蹈结合起来的短视频。",
+			say = "Sakawa suggested that I shoot a short video of a song and dance number.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "“卡点舞蹈”，我记得她好像是这么说的……",
+			say = "I think she called it a \"dance challenge.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,14 +62,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "她说看到关岛拍了发给你，所以说不定之后会成为港区的流行。",
+			say = "She said she saw Guam sent it to you, so it might take off as a trend in the port in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:50:能代}自己想拍么？",
+					content = "Do you want to shoot the video?",
 					flag = 1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我不确定自己能不能做好……",
+			say = "I'm not sure if my dance moves are that good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过如果{dorm3d}喜欢的话，我可以努力看看。",
+			say = "But if you want me to, I'll give it my best shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

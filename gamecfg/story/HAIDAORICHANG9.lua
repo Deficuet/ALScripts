@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>海边的白日梦</size>",
+					"Uncharted Summer\n\n<size=45>Beachside Daydream</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "据点，金色的沙滩旁。阳光徐徐洒下，沙滩上窈窕的身影显得更加瞩目。",
+			say = "A beautiful woman stands alone on the beach, bathed in the sun's golden glow.",
 			bgmDelay = 2,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "思绪只是稍稍从她的身上游离，便被她的话语给重新唤回——",
+			say = "I daydream of sitting down to appreciate the scenery... until her voice calls out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的阳光很不错呢，正是适合{namecode:97}与指挥官大人一起出游的好时节。",
+			say = "Ah, this weather is perfect – perfect for a date with you, my Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "——此刻的我，正在被{namecode:97}拉着，在这片无人的海滩上与她幽会。",
+			say = "Taihou wraps her arm around mine and takes me on a stroll through the empty beach.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能像现在这样和指挥官大人一起在沙滩上小歇，真是一件幸事呢。",
+			say = "I'm so happy to have you all to myself today~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊咧？指挥官的视线……呵呵，在{namecode:97}的泳装上流连呢~",
+			say = "Oh... You can't take your eyes off my swimsuit – off me, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系的哦。不如说，这正是{namecode:97}在期望的事情。",
+			say = "By all means, stare as much as you wish. In fact, DO stare. I love it when you do♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这身泳装，已经把指挥官的视线给全部抓住了，对吧~",
+			say = "It seems this swimsuit is a winner, because it has already captured your heart♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被识破的指挥官又开始四处张望~难道是想求助么？",
+			say = "And yet, now your gaze is darting from place to place... Are you looking for someone else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜……现在的沙滩上，除了您和{namecode:97}，可再也没有第三个人了~",
+			say = "I'm afraid you won't find another soul out here. The only people on this beach are you and me♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟——",
+			say = "Do you know why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在这片沙滩可是{namecode:97}的包场时间哦？",
+			say = "Because I've reserved the whole beach♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:97}凑近了我的耳边，带点戏谑地轻声说着——",
+			say = "She leaned in close and teasingly whispered that right into my ear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "换句话说，现在的指挥官大人……",
+			say = "And do you know what that means?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没办法从{namecode:97}的手里逃脱了呢。",
+			say = "That there's no way to run from my love♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~看您不知所措的表情，让人还想多捉弄一下呢。",
+			say = "Heehee~ Seeing your anxious face makes me want to tease you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，指挥官大人只是在一旁看着的话，可没办法和{namecode:97}的关系更进一步哦？",
+			say = "Yes, it won't do with you passively staring at me. That won't deepen our bond at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以——",
+			say = "That being the case...♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来吧，指挥官大人。就在此刻，请陪在爱您的{namecode:97}身边~",
+			say = "I'll make the first move myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备做些什么来应对{namecode:97}的攻势，却被有些强硬的{namecode:97}给拉住了。",
+			say = "Before I can attempt to wriggle my way loose, she grabs hold of me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么都不用做，一切都交给{namecode:97}就好了。",
+			say = "You needn't do anything, my Commander. Allow me to take the lead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管是指挥官想做的事情，还是指挥官的精神以及身体。",
+			say = "Your desires, your body, your spirit... I'll take care of them all♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在，请您闭上眼睛——",
+			say = "Now, close your eyes...♥",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队2nd\n\n<size=45>三　姐妹的防线</size>",
+					"Fight On, Royal Maids!\n\n<size=45>Sororal Defensive Line</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "姐姐，这边还可以战斗！让指挥官见识一下皇家女仆队的——",
+			say = "Curacao, we're still hanging in there! Let's show them the power of the Royal...",
 			bgm = "battle-boss-5",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 202210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好啦~到此为止♪黛朵她们也不打算死守，我们还是也稍微保留点战力比较好哦？",
+			say = "All right, enough of that~♪ Dido and the others aren't fighting to the death, so why don't we conserve our strength?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…话说回来，那孩子的战斗方式，还真是激烈呢…",
+			say = "Speaking of Dido, she certainly has a striking way of fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，不过，乍看像是傻傻的往前冲，不过在适当的地方还是懂得进退的呢",
+			say = "Indeed. At first, it seems like she's just brazenly charging forward, but she has a good grasp of when to back off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为皇家女仆队来说，还需要磨练一下优雅的战斗方式就是了",
+			say = "As a Royal maid, however, she still is a bit rough around the edges.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，突然把这么重大的任务交给了你",
+			say = "I do apologize for suddenly pushing such an important role upon you.",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -160,7 +160,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系，不如果我应该感谢女仆长才对",
+			say = "Think nothing of it. Rather, I'm actually grateful, Miss Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为港区新人，能像这样为主人，为港区的大家发挥作用，是黛朵的荣幸",
+			say = "Despite the fact that I'm still a novice here, I am honoured that you gave me the opportunity to serve my Master and the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~真是值得信赖啊~期待你作为皇家女仆队一员的精彩表现哦",
+			say = "Hehe, you show a lot of promise. I look forward to your performance as a member of the Royal Maids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时…也期待你作为黛朵级的首舰的发挥呢~",
+			say = "And the same goes for your performance as a member of this fleet. After all, you are the nameship of the Dido-class, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是…！",
+			say = "Yes ma'am...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 202040,
 			nameColor = "#a9f548",
-			say = "竟然…被期待了呢…",
+			say = "She's even... placed her trust in me...!",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……不过果然黛朵还是……",
+			say = "...But still, I'm not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

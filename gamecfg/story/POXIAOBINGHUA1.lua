@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合某处·会议室",
+			say = "Somewhere in the Northern Parliament - Conference Room",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然来得比预定时间还要早一些……一路急行辛苦了贝拉罗斯，身体还好么？",
+			say = "You’re early than I expected... It must have been difficult to rush over here, Belorussiya. How is your health?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种时期顶着风雪从前线一路疾驰回来，总归还是有点损伤的……动力系统故障，炮塔也需要检修一下。",
+			say = "Truly no rest for the wicked in times like these. Still have a faulty power system, and my turret might need an overhauling, but that’s what happens when you rush back from the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过嘛，总体来说没什么大碍，也按时赶到了……咦，{namecode:529:苏维埃同盟}呢，这次紧急集结不是她下的命令么？",
+			say = "It’s all minor stuff though, and more importantly, I’ve made it back in time. By the way, where’s Sovetsky Soyuz? Wasn’t she the one who sent out this emergency assembly order?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很不巧，{namecode:529:苏维埃同盟}已经在昨天起程去圣彼得伯格开会了，现在这里由我负责。",
+			say = "Unfortunately, she had to set out for another meeting in St. Petersburg yesterday, so now I’m in charge over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……又到这个时期了啊。不过现在各处战线都那么紧张，她不出席也无所谓吧？",
+			say = "Guess it’s that time again, huh... But given how we’re besieged on all sides, I guess it doesn’t matter if she’s here or not, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近碧蓝航线正在进行NA海域的大型作战的准备工作。北方联合海军是否参与，参与到何种程度，以什么形式参与，这些都是需要{namecode:529:苏维埃同盟}参与的重大决定。",
+			say = "As of late, the Azur Lane has been preparing for a large-scale operation in the NA Ocean. Whether our navy participates in this operation,and if so, through which means and to what extent, are all major decisions that require the input of Sovetsky Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边要去前线作战，一边要处理后方行政，海军负责人还真是辛苦。",
+			say = "One moment, she’s fighting on the front lines. The next, she’s fighting the bureaucrats in back rooms. I don’t envy the responsibilities of our fleet leader.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我猜猜，这次紧急调我回来是因为带指挥官去“密室”的时候终于到了？",
+			say = "Let me guess, the reason why I was called back urgently is because it’s finally time to take that commander to the Arcana Sanctum?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全正确。通过这段时间以来的接触，指挥官同志已经证明了其优秀的指挥能力与高尚的个人品格。",
+			say = "Precisely. Through our time working with you, Comrade, you’ve not only proven your worth as a commander, but also demonstrated exceptional strength of character.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其并不是一些同志过去带有主观偏见所认定的单纯为白鹰利益服务的白鹰指挥官，而是一位放下了阵营偏见切实为全人类生存所奋斗的、真正能够代表碧蓝航线这一组织成立初衷的人。",
+			say = "You have proven that you are willing to look beyond prejudices and are not beholden to any of the various factions you’ve worked with in the past. The ability to set aside your own preconceptions and strive towards the survival of humanity truly embodies the ideals of the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官确实配得上同志这一称号，加上我们观察到的其引发的与“密室”资料记录之中相似的特殊现象……",
+			say = "You have more than earned your title of “Comrade,” but I am not here to flatter you. We believe you are the key to unraveling the unique phenomena we have seen in the records from the Arcana Sanctum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一切条件均表明，带领指挥官同志前往“密室”的时机已经成熟。",
+			say = "By all our indications, you are ready to learn the secrets we’ve discovered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事关重大，{namecode:529:苏维埃同盟}本来计划亲自带指挥官过去，可是圣彼得伯格的会议实在推不掉，这件事就只好靠我们来办了。",
+			say = "This matter is of great importance. Sovetsky Soyuz had planned to take the commander there herself, but there’s no shrugging off summons from St. Petersburg. That’s where we come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，等到会议结束之后再带指挥官去不就好了么，再怎么说也不用急于这一两天吧？",
+			say = "We can wait a couple days for the meeting to end before taking the commander over, can’t we? There’s no reason why we need to rush things so much, is there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……不知道你有没有发现，最近欧罗巴的局势十分奇怪。斯卡帕湾袭击发生后，预想中皇家与铁血间的激烈冲突没有发生，两边反而都陷入了诡异的平静之中。",
+			say = "Mmm... I’m not sure if you’ve noticed, but the situation in Europa has been very strange as of late. After the attack on Scapa Flow, we were expecting a full-blown engagement between the Royal Navy and the Iron Blood. Instead, both sides have been eerily quiet about this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一点我也觉得有些奇怪，你怀疑皇家和铁血达成了什么交易？",
+			say = "That does sound suspicious. Do you think the two sides managed to broker some kind of deal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不好说。铁血的行动方式实在令人难以琢磨，再加上一个皇家……总之，因为局势缓和，她们重新提出了将指挥官接走的申请。",
+			say = "Hard to say. The Iron Blood has a roundabout way of doing things, and knowing the Royal Navy... In any case, because the situation has eased up, they want to bring the commander back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "切，真是不依不饶啊……",
+			say = "Tsk... What a demanding bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有情报显示她们已经开始进行实质的准备工作了。因为我们已经没有了任何拖延理由，一旦迎接舰队到达，之后的事情会变得很麻烦。",
+			say = "We’ve received intel showing that they’ve begun significant preparations for this purpose. Because we no longer have any reason to keep delaying, our hands will probably be tied once their convoy arrives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……知道她们具体的准备进度么？",
+			say = "Hmm... Got any specifics about their preparation progress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航线尚不清楚，但是最快将会在本周内抵达。",
+			say = "We’re not exactly sure which route they’re taking, but they should be here within the week.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也太快了吧！那现在确实是需要争分夺秒的时候了，你们的计划是什么？",
+			say = "Are they in that much of a hurry?! I guess we really are in a race against time. What’s the plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "协同出击。极地塞壬好像也终于发现了我们留下指挥官的目的，明明长久以来都对“密室”不管不问，最近却重新发动了进攻。",
+			say = "We’ll launch a joint attack. The Sirens in the Arctic front seem to have finally discovered the purpose for us keeping the commander here. After all this time of being fairly ambivalent towards our “Secret Room,” they’ve finally started to direct their attacks there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "行动开始后我会负责吸引极地塞壬的注意力，这期间由你负责护送指挥官前往“密室”完成任务。",
+			say = "After the operation begins, I’ll draw the Sirens away. Use that time to escort the commander to the Arcana Sanctum, and complete our mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官很快就要离开，塞壬的进攻也在加紧，这可能是唯一次机会了，任务必须要成功。",
+			say = "We won’t have the commander for much longer, and the Siren offensive is also becoming more intense. This might be the only chance we get, so failure is not an option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心，保证完成任务。",
+			say = "Don’t worry. It shall be done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,27 +480,27 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「玲，你知道如何设计一场有趣的寻宝游戏么？」</size>",
+					"<size=51>“Zero, do you know how to design a worthwhile treasure hunt?”</size>",
 					1
 				},
 				{
-					"<size=51>「首先，你需要一个勇往直前的探索者。」</size>",
+					"<size=51>“First, you need an intrepid Scavenger.”</size>",
 					2.5
 				},
 				{
-					"<size=51>「一个精于设计的观察者。」</size>",
+					"<size=51>“Then, you’ll need a keen Observer to oversee the game.”</size>",
 					4
 				},
 				{
-					"<size=51>「再加上一个全程记录的搭建者。」</size> ",
+					"<size=51>“Of course, you’ll need a Compiler to record the whole thing.”</size> ",
 					5.5
 				},
 				{
-					"<size=51>「最后，请格外注意：」</size>",
+					"<size=51>“Finally, and do pay extra attention here...”</size>",
 					7
 				},
 				{
-					"<size=51>「不要让它们彼此见面。」</size>",
+					"<size=51>“Make sure they never meet one another.”</size>",
 					8.5
 				}
 			}

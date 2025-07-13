@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我把姐姐带过来啦！",
+			say = "I brought my sister here.Ta-da!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "午安，东煌的各位~唔……我从萨拉那边听说了，你们是要庆祝一个名叫……“中秋”的节日吧",
+			say = "Good afternoon everyone from the Dragon Empery~ Um, I heard from Saratoga that you are celebrating a festival called the “Mid-Autumn Festival”.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呜哇，这就是萨拉小姐的姐姐吗？好漂亮！萨拉小姐以后也会长成这样吗！？",
+			say = "Oh wow, is this Sara's big sister? So beautiful! Will Sara also grow up to be so pretty?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是，列克星敦小姐也有兴趣参加吗？",
+			say = "Yes, do you wish to join us Ms. Lexington?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然~节日怎么能少了偶像！能允许我也庆祝你们的节日吗！？另外，为什么萨拉是“萨拉小姐”,我却是“列克星敦小姐”？也叫我“Lady Lex”啦！",
+			say = "Of course~ how can a festival be missing an idol like myself! Will you allow me to join you in the celebrations, too?! Also, how come you address my sister as “Lady Sara”, but call me “Miss Lexington?” You can call me “Lady Lex!”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欢迎之至~虽然这边没有请偶像的习俗……",
+			say = "Welcome welcome~ although there is no say of inviting idols to this festival...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“Lady Lex”……列女士？",
+			say = "Lady Lex...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "GOOD！不过，虽然说要庆祝，我还不知道中秋节是个怎样的节日呢？",
+			say = "GOOD! Although... even though it's a celebration, I'm still unclear in exactly how we should celebrate the Mid-Autumn Festival?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是亲友团聚，大家围坐在一起，祈求幸福、思念亲族的日子哦",
+			say = "It's about a gathering of friends and family, everyone sits together wishing for fortune and happiness, as well as reminiscing about the past with loved ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "和白鹰的“阵亡将士纪念日”有点像？",
+			say = "Isn't this a bit like Memorial Day in the Eagle Union?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不……完全不像吧？",
+			say = "No…most likely...not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但对我们来说，这两个节日差不多吧？都是纪念我们自己呢……",
+			say = "But to me, these two festivals both sound similar? It's all about commemorating our…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我可还没有阵亡呢——",
+			say = "I'm still alive... not a martyr yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉抱歉，我失言咯~那么，节日的准备完成了吗？应该还有什么是我和妹妹可以做的吧",
+			say = "So sorry, I lost track of my words~ anyways, is the preparation for the festival almost finished? Is there anything else that my sister and I can help with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不必啦，客人就在一旁休息就好——咦，平海和萨拉小姐呢！？",
+			say = "No need, the guests should just relax --- Hey! Where are those Ping Hai and Ning Hai sisters?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我们在做花灯！听平海说好像是“中秋”传统的节庆物？",
+			say = "We're making lanterns! Ping Hai told me that it's a tradition during the Mid-Autumn Festival?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "说到中秋，除了月饼和桂酒外，就是花灯最重要啦！",
+			say = "When talking about the Mid-Autumn Festival, other than mooncakes and osmanthus wine, the lantern is definitely a must-have traditional item!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不……你把月亮放哪了……",
+			say = "Oh no….where did you put the mooncakes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总之，有萨拉小姐帮忙，花灯一下子就做完了，那些在天空中飞舞的“伙伴”们真厉害！",
+			say = "In short, with the help of Lady Sara, the lanterns were finished in no time! Those carriers sure are amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇……好多花灯，这样一定能招来福气与平安——",
+			say = "Wow….so many lanterns, we'll definitely be able to attract good fortune and protection---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "到了晚上，就让我和姐姐的伙伴们飞到花灯里吧。这样花灯不仅能发光，还可以带着声音在天空中起舞噢！我的伙伴们对这些新衣服也都跃跃欲试呢！",
+			say = "At night, let my sister and I “fly up” to those lanterns. That way, not only will they shine but they'll also emanate a beautiful sound, like a “dance in the sky”! My friends are also eager to try on these festive clothes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "一群花灯发出轰鸣声在天空中闪光飞舞……",
+			say = "A bunch of lanterns roaring and dancing up in the sky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这不是我想要的中秋节啦——",
+			say = "This isn't what we want to have for the festival...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

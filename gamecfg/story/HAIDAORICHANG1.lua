@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>寻宝之旅</size>",
+					"Uncharted Summer\n\n<size=45>Onwards to a Royal Fortune</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "和煦的夏日。暖阳在天空中照耀着平静的海面，周围的海洋在太阳照耀下蓝得像镜子。",
+			say = "It's a brilliant summer day. The still blue seas reflect the sun's rays like a mirror, sharing its cozy warmth with us.",
 			bgmDelay = 2,
 			bgm = "blueocean-image",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好暖和的天气啊……周围碧海蓝天的风景也很漂亮，感觉要自己要融进这大海之中了~",
+			say = "Gosh, it sure is hot today! As much as I love the sun, I feel like I'm gonna melt~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的天气最适合睡觉了……呼……",
+			say = "Perfect weather for a nap... Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各位，我从船上的仓库里面给大家带了冰淇淋过来哦？",
+			say = "I brought ice cream from the freezer. Who wants some?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇~谢谢{namecode:408}~",
+			say = "Me, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "给，这是指挥官的份~",
+			say = "Here you go. And one for you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "接过{namecode:408}递过来的冰淇淋，巧克力和奶油的味道融化在口中。",
+			say = "I take a bite out of the ice cream Z23 handed me. A lovely blend of chocolate and cream fills my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "在蔚蓝的大海与暖风中，享受着美好的闲暇时光。",
+			say = "A leisurely day in clear skies, warm waters, and cool winds. What more could one want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，那传说中的宝藏……究竟是在什么地方呢？",
+			say = "Still no sign of that treasure... Where on earth could it be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……按着坐标航行了这么久……按说应该已经很接近埋藏宝藏的地点了才对。",
+			say = "We've been sailing for quite some time now. It should be around here, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许就快到了，宝藏随时可能出现哦！",
+			say = "Meaning, we should find it any minute now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那拉菲，得稍微打起精神来找找了……zZZ",
+			say = "Guess I'll be on the lookout... Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "没错，我们此行的目的是为了寻找……掩藏在大海之中的宝藏。",
+			say = "Indeed, the real reason we're out at sea isn't to enjoy the weather, but to find treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "至于有关“宝藏传闻”的故事，还要从出发前讲起——",
+			say = "As for how we learned there was treasure out here to begin with, it's a long story...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "一段时间前的指挥室———",
+			say = "Port - Office",
 			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官！刚才港区收到了一封奇怪的信……署名是“皇家财富号”。",
+			say = "By the way, Commander, a strange letter just arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个名字，该不会是上次那个……",
+			say = "It's from Royal Fortune, whom I'm sure you remember as...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,11 +324,11 @@ return {
 			},
 			options = {
 				{
-					content = "万圣夜降临的海盗小姐？",
+					content = "\"The girl who held me captive last Halloween?\"",
 					flag = 1
 				},
 				{
-					content = "突然出现的可疑人物？",
+					content = "\"Everyone's favorite pirate from Tempesta?\"",
 					flag = 2
 				}
 			}
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "果然……就是在万圣节会场引起了不小喧嚣的那位……",
+			say = "The very same. She's a real piece of work, that one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "信上写的是由您亲启，我就拿来了。",
+			say = "The letter's marked \"For the Commander's eyes only,\" but we decided to check it before you opened it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "以防万一在来的路上我让安全部门检查过了……没有发现爆炸物或者毒物之类的。",
+			say = "Just as a safety precaution to ensure there's nothing dangerous inside. You know the drill.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "给——",
+			say = "Anyway, here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "接过孟菲斯递过来的信。信封沉甸甸的，还用带着海盗纹样的火漆封了口。",
+			say = "The back of the thick envelope was embellished with a wax stamp featuring a pirate motif.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "拆开信封，一张古旧的羊皮卷出现在眼前——上面写着一行坐标，以及几行奇怪的诗。",
+			say = "Opening it, I found a map and a sheet of old parchment paper with some sort of poem written on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“东风带来黄金的消息，于比海洋更遥远的地方，金色的世界等待着勇者的归来。”",
+			say = "\"The easterly wind calls on ye, with courage and pluck, to a land o' gold beyond the sea...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,11 +441,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“那是海盗的尼伯龙根，比所罗门的遗产更为有福——”",
+			say = "\"There lies a treasure for which kings will kill, pirate blood will spill, and many search for still...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“去寻找吧——那掩藏在蔚蓝色大海中的秘密，以及属于有心人的宝藏——”",
+			say = "\"Hearken! If this treasure ye crave, then embark on this hunt, and prove ye are brave!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,11 +465,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "愿风始终指引你的脚步，指挥官~",
+			say = "\"The winds be with ye, Commander.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这个难道是……藏宝图？！",
+			say = "What is this? A treasure map?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "回想起皇家财富号的身份，和上面的诗句，只能作此联想了。",
+			say = "\"Knowing Royal Fortune, it's got to be.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打扰了，指挥官~",
+			say = "Hello, hello, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我们整理了一份假期的行程安排，想来和你商量一下……",
+			say = "We've worked out a vacation plan and came to discuss it with...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！你手里拿的那个，难道是份藏宝图？！",
+			say = "Oh, what's that? A treasure map?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "隐藏在深海中的宝藏……指挥官，这份藏宝图是从哪里来的？",
+			say = "\"Embark on this hunt, and prove ye are brave...\" Where did you get this, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲也，有些兴趣……",
+			say = "Yeah, I wanna know too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "————向四人说明了关于皇家财富号和藏宝图的事。",
+			say = "I quickly told them about Royal Fortune and how I got this map.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，那指挥官我们就先回去了。",
+			say = "Interesting... Yes, we'll be right back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……咦？你们不是要跟指挥官确认一下假期的行程安排么？",
+			say = "Huh? Weren't you going to discuss your vacation plan?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "情况有变，我们回去制定一份新计划！",
+			say = "Well, in light of the situation, our plans have changed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如从什么时候开始寻宝冒险旅程之类的~！",
+			say = "Yeah! We're gonna go on a treasure hunt instead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宝藏和……冒险。",
+			say = "Seize the day... And the booty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，趁着假期……没问题吧！",
+			say = "Will you come with us, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "感受到了众人身上燃烧出的强烈斗志——",
+			say = "It was clear they were all raring to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "考虑到即将到来的休假计划确实未定……",
+			say = "Since I didn't have anything planned for my vacation, I thought, \"Why not?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就这样，一场寻宝冒险的旅途开始了——",
+			say = "And so, we embarked together in search of treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			actor = 301050,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "传说中的“宝藏”，不知道究竟会是什么呢？",
+			say = "What do you think this treasure is, anyway?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然是海盗小姐发给我们的信息，应该是海盗存下的各种金币宝石之类的财宝吧……",
+			say = "Since we got this map from a self-proclaimed pirate, maybe it's a chest full of gold coins and jewels?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也有可能是世代流传下来的、蕴藏着魔力的强大法器！",
+			say = "I think it's an ancient relic with potent magical powers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲希望是软软的枕头……",
+			say = "I'm hoping it's a fluffy pillow...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……海盗怎么可能把那种东西当作宝物给藏起来嘛。",
+			say = "A pillow is hardly worth being called pirate treasure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就是……软软的钻石枕头……",
+			say = "I guess so... A fluffy pillow made of diamonds, then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得……软软和钻石是冲突的。",
+			say = "A pillow like that would be the literal opposite of fluffy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:408}，太认真了……",
+			say = "Come on, don't be such a wet blanket...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在奇幻作品里，一切都是有可能的。",
+			say = "Yes. Anything is possible in a video game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！哎？？我们这里怎么看都不是奇幻作品的世界吧？！",
+			say = "A video game? Seriously?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1022,7 +1022,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对吧，指挥官！",
+			say = "That's just wishful thinking. We don't live in a video game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,11 +1033,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错。",
+					content = "\"Obviously.\"",
 					flag = 1
 				},
 				{
-					content = "不好说。",
+					content = "\"We don't?! My whole life is a lie!\"",
 					flag = 2
 				}
 			}
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "你们看！真是的……别消遣我嘛。",
+			say = "See? The Commander agrees. Let's at least try to take this seriously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1078,7 +1078,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "欸…………欸？！！！！！！怎么连指挥官都在消遣我！",
+			say = "Commander, please don't enable them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，我再从冷柜里补充点“元素结晶”来好了。",
+			say = "I'll be right back. I'm going to restock on ice elementals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,7 +1122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它的名字叫……冰淇淋………………",
+			say = "It's called \"ice cream\"... Also, don't eat too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,7 +1137,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "宝藏究竟是什么——",
+			say = "Their treasure talk does make me wonder what we'll find.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "在实际抵达寻宝之旅终点之前，这个问题恐怕都很难确切回答。",
+			say = "That's of course assuming the treasure exists in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,7 +1159,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "或许是黄金与宝石，或许是软软的钻石枕头，或许空无一物，亦或许……",
+			say = "It could be gold, it could be precious gems... Even a soft diamond pillow isn't entirely impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,7 +1170,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "相比于结果，和她们一起去寻找宝藏的这趟旅程就是宝藏本身。",
+			say = "But to me, this adventure is as good as any real treasure there is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1181,7 +1181,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "舒畅的海风与阳光之下，冒险队乘坐的量产型在湛蓝的海面上破浪前进着——",
+			say = "The waves gently crash against the bow of our vessel as we continue sailing onwards to unexplored lands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

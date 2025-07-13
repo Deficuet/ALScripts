@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>一 测试事项</size>",
+					"Causality Transposition\n\n<size=45>1 The Test Subject</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			bgmDelay = 2,
 			voice = "event:/tb/28/tb-28",
@@ -28,7 +28,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现状：记录设备已启动。",
+			say = "Status report: Recording equipment activated.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -76,12 +76,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，请评价第三十五次算法优化后，周边模拟场景的还原程度。",
+			say = "Commander, please provide your feedback on the fidelity of the replication environment after the conclusion of the 35th algorithm iteration.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "放眼望去，办公桌、书架、窗帘、地毯、沙发……眼前的指挥室已经拟真到几乎难辨真假的程度了。",
+			say = "\"Everything is almost lifelike, from my desk, to the bookshelves, curtains, carpets, and couch. Could almost fool me into thinking I'm back at the port.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "相比第一次实验时见到的粗糙几何图形，这项技术的优化速度还真是惊人。",
+			say = "\"Considering how the first iteration could barely get the geometric shapes right, this tech's improving at a remarkable rate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "本次构建的解析程度是多少？",
+			say = "\"Can you tell me how precisely this iteration replicated the environment?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,13 +125,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/17/tb-17",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您的反馈已记录完毕。",
+			say = "Query received. Your feedback has been recorded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,13 +145,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复：指挥官，本次模拟场景的解析程度与第三十四次相同，即对于记忆的解析程度依然只有59.43%。",
+			say = "Just as in the 34th iteration, only 59.43% of your memory was able to be analyzed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,12 +165,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，本次模拟场景采用了优化后的算法，拼合了记忆中的可解析部分与从指挥室中实地收集到的数据。",
+			say = "However, the adjusted algorithm now incorporates visual and field data of your office in addition to the imagery from your memory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			side = 2,
-			say = "优化后的算法么……",
+			say = "The Sea of Stars – code name for a confidential Eagle Union research facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "也就是说现在的场景既不是对于记忆的真实还原，也不完全是依靠真实场景的数据生成的？",
+			say = "Here, experiments were underway to \"manifest\" human imagination into reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,13 +205,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定。指挥官，现在向您申请本次实验第二阶段的执行许可。",
+			say = "In short, this environment cannot be replicated from your own imagination or reconstructed data alone. It must have both.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,11 +222,11 @@ return {
 			},
 			options = {
 				{
-					content = "许可。",
+					content = "\"Let's continue the experiment.\"",
 					flag = 1
 				},
 				{
-					content = "开始进行吧。",
+					content = "\"I'll try imagining it more vividly this time.\"",
 					flag = 2
 				}
 			}
@@ -235,13 +235,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，稳定框架解除中。",
+			say = "Orders received. Unlocking mental stabilization framework.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,12 +255,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，请做出您正在办公桌前工作的想象，并将想象中的画面与身边的场景重叠。",
+			say = "Commander, please imagine yourself at work in your office. Let it overlap with the replicated environment around you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			side = 2,
-			say = "跟随TB的指引，在脑海中想象了对应的场景。",
+			say = "The prevailing view of Wisdom Cubes, the very core of the shipgirls' existence, is that they can give form to the thoughts and feelings of humans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "随即，面前的办公桌上凭空出现了一份落有红戳的报告。",
+			say = "However, the exact nature of this process is not well understood. Research into this matter is shrouded in mystery, and almost always kept strictly confidential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "最开始的时候确实被这种突发现象吓过一跳……当时还引起了保护系统的紧急启动。",
+			say = "I was quite surprised when TB invited me to be a part of this experiment. Apparently, my resonance with Wisdom Cubes made me an ideal candidate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过在进行了多次实验之后，已经可以心平气和地完成“创造”物品这样的常规实验项了。",
+			say = "After many rounds of attempting to recreate my office from my memory, I was even able to casually \"manifest\" the unread reports sitting on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,13 +315,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/17/tb-17",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "观测结果已确认，报告书内容分析中。",
+			say = "Replication results confirmed. Analyzing data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			side = 2,
-			say = "这次结果怎么样，是有意义的内容么？",
+			say = "\"Did you get any more usable data out of this iteration?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,13 +346,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复：经过初步解析，报告书上的内容似乎重现了您昨日阅读的新闻，不过有40.57%的篇幅被乱码覆盖。",
+			say = "Analysis indicates that the replicated report contains information from the newspaper you read yesterday. Unfortunately, 40.57% of the data remains unreadable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,12 +366,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在进行进一步解析之前，无法得出可靠结论。",
+			say = "We will be unable to draw conclusions on the cause of this phenomenon until the next stage of our research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			side = 2,
-			say = "涉及到思维意识领域的研究，果然每一步的进展都十分困难啊……",
+			say = "Despite these occasional roadblocks, knowing that the research was progressing made me feel better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不禁想到了在第一次实验进行前，努力做出严肃表情进行说明的孟菲斯————",
+			say = "I'm reminded of when Memphis first described these experiments to me–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……指挥官，虽然我们将这一过程称之为“清醒梦”。",
+			say = "Ahem... You could kind of compare it to lucid dreaming, I guess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "但这只是一个方便称呼的俗称而已，其本质并不是真正的梦，而是会被全程记录数据的科学实验。",
+			say = "First, it reads your brainwaves and analyzes what you're imagining in the form of data. Then, it feeds it back to you in a kind of lucid dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在实验过程中，「现实透镜」将会实时读取您的脑电波活动，并同步将您脑中所想之物实体化至您身处的场景中。",
+			say = "That's what this device, the Reality Lens, is meant to do. Actually, that's the point of all of this research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "当然，读取的阈值经过精确的调整，以确保「现实透镜」只会读取您明确所想之事，而不是一闪而过的思绪。",
+			say = "That doesn't mean it can read ALL of your brain waves, though. It's limited to what you're consciously envisioning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "出于安全考虑，信息流也会由领航员小姐进行二次筛选，以确保恐怖危险的内容不会被实体化。",
+			say = "It would make a whole bunch of garbled noise if it reflected everything that came to mind. Plus, it'd be awful if you thought of something dirty or traumatizing and it popped right out into reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……领航员小姐只会过滤掉会对精神产生明显压迫的信息，而不是将所有与实验目标不一致的信息全部过滤掉。",
+			say = "So TB has set up a filter to block anything that might cause stress or make you go insane if you see it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "毕竟这一系列实验的目的是为了优化「现实透镜」的算法，以及让您熟悉在「现实透镜」中的交互体验。",
+			say = "I know I said all that, but don't stress about it! These experiments are just meant to optimize the Reality Lens algorithm, so it's all good as long as you just follow her instructions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以也就是说……指挥官，您在思考的时候，一定要……嗯，慎重，千万不要发散思维哦！",
+			say = "Don't just assume she can block everything, though. Umm... Basically, just be careful, and don't focus on anything unrelated to the experiment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常抱歉，这些实验都是为了行动能够顺利进行的必要准备。",
+			say = "All of these experiments are vital to the progress of our operation, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢您的理解，那接下来一段时间就辛苦您了——",
+			say = "Phew... That about explains it, I think. We're counting on you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,13 +597,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/tb/20/tb-20",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "提问：指挥官，您现在将孟菲斯小姐的形象实体化在指挥室内的用意是？",
+			say = "Question: For what purpose have you replicated the shipgirl Memphis?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "………………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "…………不好不好，只是稍微发散了一下思维，身边的空间就立刻进行了回应。",
+			say = "\"Whoops. There I go, letting my mind wander and imagining things into existence.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "稳妥起见，在正式进行调查前，再多进行几次测试好了……",
+			say = "I'll have to practice using the Reality Lens a lot more before the next stage of research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

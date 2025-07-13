@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>七　浪漫的预感</size>",
+					"Light Up My Day\n\n<size=45>7 Toward a New Tomorrow</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "新的一天到来，正当打算开始工作时——",
+			say = "It was the start of a new day. I was just about to start working, but then a certain someone covered my eyes from behind.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我~是~谁~？",
+			say = "Guess who?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -90,7 +90,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈……奥马哈？康克德？——指挥官你真坏，明明早就知道答案的。",
+			say = "...Omaha or Concord? Now you're just messing with me. You know who I am! C'mon, tell me the real answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "马布尔黑德？呼呼呼，不对哦——虽然也不算错啦。",
+			say = "Marblehead? You're technically correct, but you're forgetting something important, ain'tcha?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——正确答案是，为了指挥官总是充满活力尽心工作着的“秘书舰·马布尔黑德”哟~",
+			say = "The answer in full is: I'm Marblehead, your peppy right-hand girl slash secretary!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到你真会选我做秘书舰啊。",
+			say = "Gotta say, I'm still surprised you like, appointed me as your secretary. Surprised in a good way, 'course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "之前在一起散步的时候就有考虑过——",
+			say = "\"The idea came to me after our date on that sunny day.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要是有一位无论在什么时候，都能带着太阳般耀眼的笑容陪在身边的秘书舰就好了。",
+			say = "\"I thought, 'Your smile always brightens up my day.' Just seeing it makes me more productive. And boosting productivity is exactly what an ideal secretary should do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~~~这不就是为我量身打造的需求嘛~",
+			say = "Hehe~ Glad to know I'm the best fit for the job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我一直隐瞒到了今天……其实，指挥官是我喜欢的类型哦？",
+			say = "On another note... I've gotta get something off my chest. I'm really into you, Commander. Like, REALLY into you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "——？！",
+			say = "This came out of nowhere. My surprise clearly showed on my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错不错~能看到你这幅吃惊的样子，我就算是大满足了~！",
+			say = "Haha! That's just the reaction I was hoping to see! Thanks~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不不不，这可不是在开玩笑哦。怎么样？那我是指挥官喜欢的类型吗？",
+			say = "For real though, I mean it. You're just perfect in my eyes. But what about you? Are you into me, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嘿嘿嘿~",
+			say = "...Hehe! I knew it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "马布尔黑德那太阳般的笑脸上，悄悄地染上了一层红晕。",
+			say = "Her cheeks reddened slightly while a smile as bright as the sun took shape on her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么就开始工作吧。遇到什么困难尽管提问，别看我这样，我可是很聪明的哟☆",
+			say = "All right, it's time we got to work. If you're wonderin' something, just holler. Despite my getup, I dare say I'm smarter than most girls~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有种只要她在身边，今后无论遇到什么困难都能够一起克服的感觉。",
+			say = "Whatever challenges were ahead of me, I felt confident I'd be able to overcome them with Marblehead by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有如穿透乌云射在艰险山路上一道光明——马布尔黑德就是这样一位如同太阳一般的女孩。",
+			say = "Just as the sun lights up the world, her presence lights up my own world. She is my ray of sunshine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

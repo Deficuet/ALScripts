@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "holo-tokiwa",
 			dir = 1,
-			say = "停，这片水域有战斗过的痕迹。",
+			say = "I see traces of a battle took that place in this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水面上飘过来的是，量产型的残骸？！",
+			say = "Siren wrecks littering the place... I guess we're not the only ones fighting them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "炮弹伤，鱼雷伤还有这个痕迹…是航弹么。",
+			say = "There are signs that both torpedoes and cannons were used. Zuikaku, what do you suggest we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可没有在这里战斗过哦，看来除了我们之外，还有其它舰队也被困在这里了。",
+			say = "Our goal is to get these Hololive girls to a safe place, though that would be easier if we can group up with some allies... I think the answer's obvious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺着痕迹，寻找源头…东南方，战斗是在那边爆发的",
+			say = "Okay. We'll follow the tracks and investigate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

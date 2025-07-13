@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_135",
 			hidePaintObj = true,
-			say = "到了变装舞会的时间，穿着平时的衣服来到了舞会厅门口。",
+			say = "It's time for the masquerade ball. I've come to the nightclub, wearing my usual attire.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_135",
 			hidePaintObj = true,
-			say = "不知是否是为了更有“舞会”的感觉，除了可以看到的室内陈设变了样以外，门口也被铺上了红毯。",
+			say = "To make the place look the part for a ball, they've adjusted the layout, replaced the ornaments, and even rolled out a red carpet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900437,
-			say = "贵安，我的主人。",
+			say = "Good evening, Master.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_135",
 			hidePaintObj = true,
-			say = "身着黑色礼裙的斯库拉优雅地向我行了个礼。",
+			say = "Scylla lifts the rims of her evening gown and gives me a gracious bow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900437,
-			say = "您的变装……原来如此，这样也是一种变装呢。",
+			say = "You chose an... interesting outfit. I can see the thought behind it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900437,
-			say = "呵呵，那么就请让斯库拉与您一起进入舞会厅吧。",
+			say = "Anyway, allow me to show you inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "进入舞会厅后不久，斯库拉便被赫敏叫走帮忙了。",
+			say = "Shortly after we step inside, Hermione calls for Scylla's help, so she has to leave my side.",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "在斯库拉离开后，我有意找了个角落，方便观察大家的“变装”。",
+			say = "I decide to hide away in a corner so I can get a good look at everyone's costumes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（除了真正的主题变装之外，也有穿着舞会礼服的普通变装么……）",
+			say = "(Since we didn't decide on a theme, some are wearing actual costumes while others are wearing more casual party dresses.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "就在我仍在观察时，手机铃声突然响了起来。接通后，听筒那边传来了库尔斯克的声音——",
+			say = "After a while, my phone suddenly rings. It's Kursk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 900440,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你已经到变装舞会现场了么？",
+			say = "Commander, are you at the ball?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。库尔斯克是已经到了，所以在找我么？",
+			say = "Yeah. Since you're asking about it, I'm assuming you're here, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 900440,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说姑且为了符合变装舞会的氛围做了旗袍的变装，但我并不在现场。",
+			say = "I'm not. Although, I am wearing an Empery dress in the spirit of the event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 900440,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种热闹的聚会不适合我，毕竟成熟的猎手更喜欢自己创造环境，方便更安静无声地靠近猎物。",
+			say = "I can't stand crowded parties, simple as that. Besides, an experienced hunter prefers to create their own environment so they can approach their prey sneakily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 900440,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——我想，你现在应该已经理解了我的意思。先挂了。",
+			say = "I'm sure you know what I mean. Bye now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "不等我回应，库尔斯克就干净利落地切断了通话。",
+			say = "She hangs up before I can get another word in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（库尔斯克是希望我之后去找她么……）",
+			say = "(Sounds like she's telling me to come find her later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "就在陷入思考的时候，一阵熟悉的狂笑响起。",
+			say = "Just as I fall deep in thought, I suddenly hear a familiar laugh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵……终于找到你了，主人。我可是等你等到心痒难耐了呢……",
+			say = "\"Ahahaha! I've finally found you, Master! I've been waiting so, sooo long for you to return...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600061,
-			say = "——怎么样？指挥官，我这次变装的感觉不错吧？",
+			say = "Well, what do you think? My costume looks pretty smart, doesn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "少女将手中的锯子随意地撑在地上，看起来很是高兴。",
+			say = "Adventure Galley comes and speaks to me, casually placing her giant cleaver on the ground and smiling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来指挥官躲在这里啊~我们可是找了你很久呢。",
+			say = "There you are, my darling! I've been looking aaall over for you~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "说话间，金鹿、圣马丁和皇家财富也聚集了过来。",
+			say = "Not long after, many more Tempestas gather – Golden Hind, São Martinho, and even Royal Fortune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600011,
-			say = "话说，明明是“变装舞会”的主题，为什么指挥官还穿着平时的衣服啊？",
+			say = "Sooo... why are you wearing your regular uniform to a masquerade?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600021,
-			say = "的确……指挥官这样不符合变装的主题。",
+			say = "It's almost like you aren't wearing a costume at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600031,
-			say = "不对哦~指挥官之所以穿着平时的衣服参加，就意味着——“变装”之后才是指挥官。",
+			say = "I beg to differ. Wearing your regular outfit is like dressing up as yourself. That's what the Commander is doing~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……现在的指挥官其实不是指挥官吧？",
+			say = "So it's, like, the same, but different? You're saying the Commander IS wearing a costume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600031,
-			say = "没错~所以我们可以更随意地对待眼前的指挥官呢。",
+			say = "Exactly. And we'll have to get real close to get a good look at it~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,8 +462,8 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "玛丽·西莱斯特",
-			say = "嗯……那么就让我来……",
+			actorName = "Mary Celeste",
+			say = "Don't mind if I do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "一席黑裙，如同死神一般的玛丽·西莱斯特突然现身，用手中的道具镰刀勾住了我的脖子。",
+			say = "With all the surprise of the Grim Reaper, Mary Celeste appears and puts her prop scythe behind my neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "随后她用力将镰刀往自己的方向一拉——",
+			say = "She then pulls it toward her, dragging me closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600031,
-			say = "没想到被玛丽抢先了呢……那么，下一个就轮到我了哦~♥",
+			say = "Oh my! Mary made the first move... Well, now it's MY turn to get closer~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600031,
-			say = "呵呵……就用这份热情，将指挥官缠上吧~",
+			say = "Oh yes, I'm going to wrap you up like a gift and make you squishy with love~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "除了维达躲在舞会厅的角落躺着打游戏以外，和圣马丁、以及其他飓风船团的同伴们每人都跳了一支舞。",
+			say = "I had a dance with all the members of Tempesta, save for Whydah who stuck to a corner of the club and played video games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（呼……连着来还真是有点吃不消，稍微休息一下好了。）",
+			say = "(Phew... All that dancing was exhausting. I need a break.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "然而就在此时，果不其然地又出现了些许插曲。",
+			say = "But before I can even find a place to sit down, something else happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯……这可是最适合展现力量的时候啊！老爷子，让大家看看吧！“老爷子！参上！“",
+			say = "Hoho! This is where we demonstrate our powers! Old man, let them behold! \"This spectacle will leave them speechless!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "一阵小小的旋风以{namecode:297:名取}为中心出现，她升至半空的同时——",
+			say = "A small whirlwind whips up around Natori, lifting her feet off the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901061,
-			say = "酒杯、酒杯浮起来了……摔碎了，重剑又搞砸了呜呜……",
+			say = "The wine glasses, they're floating away! Oh no... One fell and shattered... I messed up yet again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……总之先制止{namecode:297:名取}吧。）",
+			say = "(Oh boy... I need to stop Natori before this gets any worse.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "成功制止了{namecode:297:名取}后，爱丁堡和赫敏前来清理了地面和其它乱掉的摆设。",
+			say = "I manage to bring Natori down to earth again. Edinburgh and Hermione then arrive to clean up the fragments on the floor and rebuild the wine glass tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "而我则来到了躲进角落的重剑身边。",
+			say = "While they do that, I join Épée in her little hidey-hole and sit down next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……都是重剑没能做好自己该做的事，还影响到了你……都是重剑的错……呜呜……",
+			say = "It's all my fault, Commander... I can't do anything right and I only ruin things for people... *sob*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刚刚重剑很努力地保护住了其他的杯子吧？最后只碎了一个，已经很厉害了。",
+			say = "It's not your fault at all. You did all you could to save the glasses. Only one broke, and many more would have if not for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗……不是重剑的错？重、重剑很厉害？",
+			say = "Y-you mean it? It's not my fault? You really think I did all I could?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，重剑一直是努力又认真的好孩子，做得很好。",
+			say = "Absolutely. You're a good girl who's always trying her best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901061,
-			say = "……嗯！重剑……以后也会继续加油的！为了永远留在指挥官身边！",
+			say = "Th-thank you... I'll keep trying my best so I can always be with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "安抚完哭泣的重剑后，刚刚的小骚动也归于平静。",
+			say = "I comfort the sobbing Épée, putting a wrap on everything that commotion caused.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "(这样一来也算是休息得差不多了，再看看其他人的变装吧。）",
+			say = "(I feel rested now. Time to get up and check out other people's costumes.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼♪没有变装的指挥官是坏孩子呢~",
+			say = "Heehee. Not wearing a costume to a costume party is naughty, you know, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "就在来到甜品台附近的时候，被魔女打扮的{namecode:491:亚德}从身后拍了拍肩膀。",
+			say = "As I'm ogling the desserts at the table, Jade dressed in a witch's outfit approaches from behind and pokes me in the back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406032,
-			say = "不过指挥官如果愿意陪{namecode:491:亚德}跳舞的话，好孩子{namecode:491:亚德}说不定就会放你一马哦~",
+			say = "But, if you'll dance with a good girl – i.e., me – then I might just turn a blind eye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,11 +838,11 @@ return {
 			},
 			options = {
 				{
-					content = "直接答应",
+					content = "Alright. Let's dance.",
 					flag = 1
 				},
 				{
-					content = "解释自己其实有变装",
+					content = "Technically, this is a costume. I'm dressed as a naval commander.",
 					flag = 2
 				}
 			}
@@ -856,7 +856,7 @@ return {
 			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样才对嘛~呵呵♪",
+			say = "That's what I wanted to hear. Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~还在嘴硬呢，指挥官这样可是没办法成为好孩子的哦？",
+			say = "Come on, who do you think you're fooling with that? You'll never be like me if you always make excuses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,7 +892,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！指挥官，原来你在这里呀！{namecode:18:岛风}也想和你跳舞！",
+			say = "Hippity hoppity! There you are, Commander! Please dance with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406032,
-			say = "呣……不光是{namecode:18:岛风}，还吸引来了其他人啊。",
+			say = "Ugh. Looks like Shimakaze brought a whole crowd of eager dancers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:449:埃尔宾}也想……呜、算了……比起这样的我，指挥官应该还是更想和其他人跳舞吧……",
+			say = "Pl-please dance with me, too... Er, or don't. You probably already have way better dance partners in mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "角色扮演模式——ON。“啧，真是麻烦的一群家伙……都退下！这是我盯上的猎物。”",
+			say = "Roleplay mode engaged. \"Urgh. Step aside, you mopey babies. I saw the Commander first.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，这样可没办法静下心来等候命令呢……指挥官，快决定一下要如何做吧♥",
+			say = "My, my. Doesn't look like I can just stand by and await orders. Be quick, Commander – decide how this is going to go♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵呵……指挥官大人一定会和{namecode:97:大凤}跳舞的吧，一定会吧？",
+			say = "I know you'll want to dance with me more than anyone else. Right, my Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,14 +994,14 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "按顺序一个个跳舞",
+					content = "Form a queue, ladies. I'll dance with you all.",
 					flag = 1
 				}
 			}
@@ -1011,7 +1011,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "在跳完了最后一支舞后，变装舞会终于接近了尾声。",
+			say = "As I conclude my final dance, the masquerade ball, too, reaches its end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "悠扬的乐声渐渐隐去，舞会厅内的灯火也逐渐转暗。",
+			say = "The gentle melody gradually fades into silence, and the spotlights go out one after the next until it's all dark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1050,7 +1050,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "踏出舞会厅后，看向三三两两走出的人群。",
+			say = "I leave the nightclub and watch as the girls retire to their cabins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "——想必今夜所发生的一切，都会成为大家记忆中美好的瞬间吧。",
+			say = "All the beautiful things that transpired tonight will linger in my mind for a long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "欣然接受了洞穴赠予的礼物——",
+			say = "Who's dumb enough to pass up free treasure? Not you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "打开箱子，里面满是价值连城的珠宝与黄金，如果把它们卖掉的话………",
+			say = "You open the treasure chest and find that it's filled to the brim with priceless gold and jewels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你醒了过来，手中还抱着那个陈旧但不失奢华的箱子。",
+			say = "You wake up. To your surprise, you are cradling the treasure chest you found in your dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "惊喜地打开它——",
+			say = "Filled with joy over this miracle, you open the treasure chest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "里面没有梦中的珠宝和黄金，倒是有一些你正好需要的东西……",
+			say = "Strangely, it's filled not with gold and jewels, but rather a few handy items.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……明明获得了意外的馈赠，却感到一阵失落。",
+			say = "While there's no denying you got nice stuff, you still feel a bit disappointed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_17 = {
+	[90476] = {
+		cannon = 0,
+		name = "Roon μ",
+		type = 3,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90476,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "luoen_idol",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "luoen_idol",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 4,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.78,
+					0.96,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.76,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.054,
+					0.027,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90477] = {
 		cannon = 0,
-		name = "光辉(μ兵装)",
+		name = "Illustrious μ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -157,7 +313,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90478] = {
 		cannon = 0,
-		name = "大青花鱼(μ兵装)",
+		name = "Albacore μ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -301,7 +457,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90479] = {
 		cannon = 0,
-		name = "塔什干(μ兵装)",
+		name = "Tashkent μ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -457,7 +613,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90480] = {
 		cannon = 0,
-		name = "大凤(μ兵装)",
+		name = "Taihou μ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -611,7 +767,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90481] = {
 		cannon = 0,
-		name = "玛莉萝丝",
+		name = "Marie Rose",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -767,7 +923,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90482] = {
 		cannon = 0,
-		name = "海咲 ",
+		name = "Misaki",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -923,7 +1079,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90483] = {
 		cannon = 0,
-		name = "霞 ",
+		name = "Kasumi",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1072,7 +1228,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90484] = {
 		cannon = 0,
-		name = "凪咲 ",
+		name = "Nagisa",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1228,7 +1384,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90485] = {
 		cannon = 0,
-		name = "女天狗",
+		name = "Nyotengu",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1383,7 +1539,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90486] = {
 		cannon = 0,
-		name = "穗香",
+		name = "Honoka",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1539,7 +1695,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90487] = {
 		cannon = 0,
-		name = "莫妮卡",
+		name = "Monica",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1695,7 +1851,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90488] = {
 		cannon = 0,
-		name = "量产型驱逐舰(Venus) ",
+		name = "Mass-produced DD (Venus)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1850,7 +2006,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90489] = {
 		cannon = 0,
-		name = "量产型轻巡洋舰(Venus) ",
+		name = "Mass-produced CL (Venus)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2012,7 +2168,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90490] = {
 		cannon = 0,
-		name = "量产型重巡洋舰(Venus) ",
+		name = "Mass-produced CA (Venus)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2180,7 +2336,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90491] = {
 		cannon = 0,
-		name = "量产型战列舰(Venus) ",
+		name = "Mass-produced BB (Venus)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2348,7 +2504,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90492] = {
 		cannon = 0,
-		name = "量产型航空母舰(Venus) ",
+		name = "Mass-produced CV (Venus)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2510,7 +2666,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90493] = {
 		cannon = 0,
-		name = "假日特快(Venus) ",
+		name = "Manjuu Holiday Express (Venus)",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2656,7 +2812,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90494] = {
 		cannon = 0,
-		name = "龙.META",
+		name = "Hiryuu META",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2807,7 +2963,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90495] = {
 		cannon = 0,
-		name = "柯尼斯堡级量产型·改I",
+		name = "Mass-Produced Königsberg-class Mod I",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2967,7 +3123,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90496] = {
 		cannon = 0,
-		name = "希佩尔海军上将级量产型·改I",
+		name = "Mass-Produced Admiral Hipper-class Mod I",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3133,7 +3289,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90497] = {
 		cannon = 0,
-		name = "沙恩霍斯特级量产型·改I",
+		name = "Mass-Produced Scharnhorst-class Mod I",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3299,7 +3455,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90498] = {
 		cannon = 0,
-		name = "齐柏林级量产型·改I",
+		name = "Mass-Produced Graf Zeppelin-class Mod I",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3466,7 +3622,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90499] = {
 		cannon = 0,
-		name = "铁血自爆船·改I",
+		name = "Iron Blood Bombing Ship Mod I",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3659,7 +3815,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90506] = {
 		cannon = 0,
-		name = "U艇量产型·改I",
+		name = "Mass Produced U-Boat Mod I",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3810,7 +3966,7 @@ pg.enemy_data_statistics_17 = {
 	},
 	[90507] = {
 		cannon = 0,
-		name = "潜艇「Assassin」III型",
+		name = "Assassin Mk III",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4298,160 +4454,6 @@ pg.enemy_data_statistics_17 = {
 		scale = 150,
 		wave_fx = "movewave",
 		prefab = "Z24",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.13,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.12,
-					0.91,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.1,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.17,
-					0.91,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.58,
-							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90511] = {
-		cannon = 0,
-		name = "Z28",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90511,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "Z28",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "Z28",
 		cannon_growth = 0,
 		pilot_ai_template_id = 20001,
 		reload = 150,

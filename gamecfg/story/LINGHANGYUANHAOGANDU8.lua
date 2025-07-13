@@ -1,15 +1,18 @@
 return {
-	defaultTb = 1300,
-	mode = 2,
 	fadeOut = 1.5,
+	mode = 2,
+	defaultTb = 1300,
 	id = "LINGHANGYUANHAOGANDU8",
+	placeholder = {
+		"playername"
+	},
 	scripts = {
 		{
 			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>六 彼此的心愿III</size>",
+					"Convergence of Hearts\n\n<size=45>8 Each Other's Wishes III</size>",
 					1
 				}
 			}
@@ -25,7 +28,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我说啊……你是不是有点太迁就我了？",
+			say = "I've been thinking... Don't you, like, spoil me way too hard?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "眼前的少女双手叉腰，突然一副气鼓鼓的模样盯着我。",
+			say = "TB crosses her arms, makes a peevish face, and stares at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +78,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +94,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，每次我想做什么的话，你都会马上带我去做……",
+			say = "You know what I'm talking about,{playername}. I say I wanna do something, and you make it happen, every time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +114,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算是不合理的要求也会想办法满足我——这不是迁就是什么？",
+			say = "You try to make even my wildest wishes come true. If that's not spoiling me rotten then what is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +130,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是身为你的监护人，做这些事情是天经地义的啊。",
+			say = "Hey, I'm just doing my duty as your guardian.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +142,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且也不能说是“迁就”吧？我只是在满足你的心愿而已。",
+			say = "And I wouldn't call it \"spoiling you.\" I just want to make you happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +158,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！就是这点！",
+			say = "Yeah! That's the thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +178,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每次都是你在满足我的心愿，差不多也该轮换一下了吧？",
+			say = "You've done all I've ever asked for, and I think it's time for a bit of a role reversal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +194,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道TB想做我的“监护人”？",
+			say = "You're going to be MY guardian, is what you're saying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +210,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谁要做你的监护人啊！",
+			say = "Don't be silly! I'm not gonna be anyone's guardian!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +230,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，这如果是你的心愿的话，我也可以满足你~",
+			say = "Unless that's your wish, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +246,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我倒是没有这种心愿……",
+			say = "Oh, uh, no. It's not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +262,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "万一呢？你不说出来的话，我怎么确定你的心愿不是这个？",
+			say = "Reeeally? How can I be sure it isn't if you won't tell me what you really wish for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +278,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "套话的技巧有待提升啊。",
+			say = "I'm not falling for that leading question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +294,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘁……被你发现了。",
+			say = "Tsk. I tried...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +310,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用这么大费周章套话，我的心愿很简单——",
+			say = "You don't need to play mind games to get an answer from me. What I want is really simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +322,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再给你讲一次睡前故事。",
+			say = "I want to tell you a bedtime story for old times' sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +334,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟，你长大以后几乎不听睡前故事了，对吧？",
+			say = "I haven't told you one ever since you grew out of them, have I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +350,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么嘛！原来你这么好满足啊！",
+			say = "Seriously? THAT'S what you want?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +370,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "讲故事是可以，但是内容方面我有指定哦！",
+			say = "Sure, that's totally fine... On one condition! I get to decide what it's about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +390,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——我要听你讲冒险和战斗的故事！就这么决定啦！",
+			say = "Adventure and fighting! That's what I wanna hear!",
 			painting = {
 				alpha = 0.3,
 				time = 1

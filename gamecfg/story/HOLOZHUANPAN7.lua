@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "“欢迎回来，主人。”嘿嘿，刚这句是不是很有女仆的感觉！？~指挥室的扫除和今天的晚饭就拜托指挥官了哦~",
+			say = "\"Welcome back, Master!\" or something. Wasn't that super maid-like?! Well then, I'll leave the cleaning of the office and preparation of dinner to you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

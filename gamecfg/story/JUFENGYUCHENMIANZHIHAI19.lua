@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "story-mirrorheart-mystic",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "睁开双眼，映入眼帘的是一片幽蓝之景。",
+			say = "When I open my eyes, I'm met with an endless expanse of blue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,20 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "罗盘散发着微弱的光束，指引向了某个方向。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "罗盘……光芒……",
+			say = "The compass glows faintly as it casts its light in a certain direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +54,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "冒险结束，到了回家的时刻了啊……",
+			say = "The compass...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Ah, that light... It's time to go home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "光芒愈来愈强烈，直至将我完全吞没。",
+			say = "The light grows brighter and brighter until eventually, it engulfs everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "再次睁开双眼，眼前是熟悉的天花板。",
+			say = "The next time I open my eyes, what greets me is the familiar ceiling of my home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "看向了一旁的时钟，距离我睡下的时刻并没有过去多久。",
+			say = "I check the alarm clock beside my bed. Not much time has passed since I lay down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "但是我知道，那并不是一场梦。",
+			say = "And yet, I know that the adventure I just had was no dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "因为我的手旁，一个冰冷坚硬的物体正在散发着淡淡金光。",
+			say = "The proof is right there – in my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "——罗盘。",
+			say = "It is the golden compass, shining lustrously. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "那不是一场梦。",
+			say = "My pirate adventure really did happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "飓风的故事还远未结束——",
+			say = "And, it certainly won't be my last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「飓风与沉眠之海」·完？",
+					"Tempesta and the Sleeping Sea - The End?",
 					1
 				}
 			}

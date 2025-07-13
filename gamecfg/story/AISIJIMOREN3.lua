@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>三　准备工作其一</size>",
+					"Summer Surprise\n\n<size=45>3 Preparations, Part 1</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·小卖部",
+			say = "Port - Shop",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵...现在暑期限定商品正在限时打折喵，请随便看随便挑喵......",
+			say = "Nya... Come swing by and check out my limited-time summer sale, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是爱斯基摩人喵，欢迎光临喵......",
+			say = "Oh, Eskimo? Welcome, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀吼~今天没什么精神呀，{namecode:98}喵。",
+			say = "Heyyo! Hmm... Akashi, you don't seem your usual self today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近的天实在是太热了喵...愿意出来买东西的人也变少了喵！！",
+			say = "It's been too hot lately and nobody wants to go outside, nya... So business has been terrible, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，原来是这样啊...其实我有一件事，需要{namecode:98}喵帮忙！",
+			say = "Haha, I see, that does suck... But the good news is, I'm here to ask for your help, Akashi-nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？是什么事喵？",
+			say = "Hrmm? What can I do for you, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔......你说的设备，仓库里确实有一台喵。不过因为很早之前就故障了，就算借给你也无法使用喵。",
+			say = "Hmm... If I remember correctly, we do have a machine like that in the warehouse, nya. But it hasn't worked in ages even if I do rent it out to you, nya.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎~{namecode:98}喵是了不起的修理舰，连舰船设备的损坏都能轻松修理，修理一下那个设备应该难不倒{namecode:98}喵吧，对吧！",
+			say = "Aren't you amazing at repairs though? If you can even patch up our broken equipment, you should be able to fix up this machine, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然能够修理了喵！不过现在还不清楚具体是哪里出现了故障，要修理的话…搞不好要花比较长的时间喵……",
+			say = "Of course, nya! But I don't know why it isn't working to begin with, so the repairs might take some time, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你借这个究竟打算做什么喵？",
+			say = "Besides, why are you interested in something like that anyway, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔....算了，{namecode:98}喵也可以算合作伙伴，我就把这个秘密告诉你吧！",
+			say = "Mm... I guess I can tell you, since you're basically my important business partner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（其实是...如此如此...这般这般......)",
+			say = "*whisper* *whisper*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嗯...嗯...嗯？嗯嗯！原来如此喵！）",
+			say = "(Nya?! Mm... hm... I see, I see!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话...也能借着这个机会摆摊大赚一笔...营业额就有救了喵！",
+			say = "And if I take advantage of this opportunity to set up a stall, nya... I'll be able to turn my sales right around, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，爱斯基摩人喵，我一定会拼尽全力按时修好机器的喵！",
+			say = "Rest assured, Eskimo, nya. I'll have this thing patched up for you in no time, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哎？！！真的么，太好了！那就拜托你了哦，{namecode:98}喵！",
+			say = "Really? Booyah!! Thanks a ton, Akashi-nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

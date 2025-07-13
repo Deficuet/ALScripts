@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			stopbgm = true,
-			say = "演习场·翌日",
+			say = "The next day, at the exercise site...",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "在测试海域平静的海面上，约克城一行正在做最后的准备。",
+			say = "The skies are calm today over the exercise site. As I wait aboard the command vessel, Yorktown and the other shipgirls are finalizing their preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "虽然大家表面上看起来还算有信心，但从刚刚收到的资料来看，这次演习实在是太夸张了一些——",
+			say = "Though everyone's morale is initially high on the surface, that quickly takes a nosedive as I read off the information sent over by Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "不光是各类老式军舰的新型改造，就连最新型的军舰也调过来了一些。",
+			say = "The enemy forces consist of everything from old and new mass-produced ships, to combat drones and unmanned carrier-based aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "同时大量使用了无人化技术，从无人舰艇到无人飞行器，使得蓝方舰队规模得到了进一步扩充。",
+			say = "Not only that, their armaments and formations were specifically formulated to combat shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "虽然昨天听了安洁的话之后，我就做了一些预想，不过还是没想到会弄得这么夸张。",
+			say = "By the looks of things, our opponents are far better prepared for this than any of us could have predicted...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "认真地说，那些究竟是什么东西啊？",
+			say = "I don't say this very often, but what the hell is going on? Their equipment is all cutting-edge stuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "能抗住舰载机一轮空袭的巡洋舰？能用火力网击落舰载机的护卫舰？",
+			say = "They have frigates with anti-air weaponry capable of shooting down entire waves of aircraft, and corvettes providing formidable close-range defenses...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有能精确锁定运动中舰船的导弹和高精度雷达，还有能够干扰我们最新型舰装的电子战设备……",
+			say = "That's not even mentioning their long-range anti-surface missiles that can track moving targets, their high-end radars, or their numerous jamming devices.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "知道的明白是演习用的特殊设定，不知道的还以为是要去打外星人了呢！",
+			say = "This is not a force of comparable strength. It's more like...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "II型舰装是电子战特化，而不是对外星人特化啊……",
+			say = "They're trying to gauge how we'd do in case of an alien invasion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这些东西绝对不是什么即将列装的武器设备，而是刚刚新建了文件夹的武器设备……",
+			say = "I can handle being the underdog, but this is ridiculous! What do they expect from us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "把不存在的东西都拿到演习中来……绝对是故意针对我们的！",
+			say = "This is gonna be so one-sided... Those weapons are straight out of science fiction!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "相较于刚刚得到的敌人清单，我方的舰队还真是简约到一目了然呢。",
+			say = "One-sided is an understatement. That huge modern fleet, against three carriers, a destroyer, and a heavy cruiser.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "对啊，我们这次三艘航母，却只有两艘护卫舰，再加一艘指挥舰，除此之外什么都没有。",
+			say = "Plus the Commander's unarmed command vessel, if you want to be generous...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "说是要模拟处于刚遭受重大损失的劣势状态，还把孟菲斯也拉到对面去了。",
+			say = "As if we weren't already at a huge disadvantage, they've even got Memphis in command. Talk about \"lured in by the dark side\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊……孟菲斯从昨天就知道她要扮演蓝方了！",
+			say = "Jeez, she could've at least told us where her forces are deployed before she swore to secrecy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "也就是说她早就知道今天的设置了……",
+			say = "Unless she never meant to make it easy for us, and was just pretending to be all friendly yesterday...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "怪不得我昨天说想接受挑战的时候她一直在偷偷坏笑，可恶！",
+			say = "That would explain why she showed up so late – she was perfecting her evil master plan!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "这么说安洁也知道了啊……既然知道的话，她的自信是从何而来啊！",
+			say = "Dr. Anzeel was with her, so she must've had SOME clue of what Memphis was up to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "博士应该是，对我们抱有充分的信心吧。",
+			say = "I think she purposely told us nothing because she has faith in us and the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "毕竟这次是II型舰装测试，而孟菲斯并没有换上，所以她没法参加我们的舰队。",
+			say = "Plus, Memphis hasn't gotten the Type II upgrade, so she might not be able to join our side even if she wanted to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有给我们配属更多的护卫舰应该也是这方面的考虑。",
+			say = "At the end of the day, the purpose of this exercise is to test OUR abilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "至于夸张的蓝方舰队设定，我想也许是打算同时测试一下能源魔方应用的另一条路线。",
+			say = "Regardless of which side achieves victory, we'll demonstrate our full capabilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "据我所知，前进阵线里的主要研究方向就是这些。",
+			say = "It makes sense to over-tune the enemy as well, considering what we do know about the trajectory of the Revolutionary Front's E-Cube research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "不论如何，大家都要打起信心来哦。",
+			say = "Everyone, just have faith in yourself, and we'll be just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "信心是一方面，客观现实可是另一方面呀……",
+			say = "Confidence ain't the problem here. Fairness is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "确实本次演习，蓝方的舰队不论从数量上还是战斗力上都全方位优于红方。",
+			say = "\"Hornet has a point. The odds are heavily stacked against us in every meaningful metric.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "不过，局面如此困难，却并不是不可解的。",
+			say = "\"However, that does not mean that we don't have options.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "大量高性能无人舰构成的防空区确实比较麻烦。",
+			say = "\"Let's think about frigates, first of all. They form a sturdy anti-air screen, but these mass-produced vessels must be controlled finely to achieve maximum effectiveness.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "但是，大量采用无人舰就一定会有很多作为指挥节点的指挥舰。",
+			say = "\"Memphis can't possibly control them all by herself, meaning there have to be command ships that relay commands as intermediaries.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "打掉这些枢纽之后，庞大的舰队就会缺乏协调性了。",
+			say = "\"Neutralize those, and the mass-produced ships will be thrown into disarray. They'll be sitting ducks.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "而高速穿插，对于目标进行斩首行动，是舰船相较于传统军舰的诸多优势之一。",
+			say = "\"This will create an opening for us to focus an assault on the enemy line and take out their chain of command. Speedy elimination of key targets is one of the major advantages shipgirls have over conventional warships.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "也就是说，尽管我们总体力量处于劣势，但在战术层面我们反而占据优势？",
+			say = "Basically, you're saying we may be outgunned, but have a huge tactical advantage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "没错，我们虽然在整体战斗力上不如对面，但是却能够凝聚战斗力制造局部战场的优势。",
+			say = "\"Yes. Your individual power trumps that of any mass-produced ship. If we're able to concentrate that power, we can turn the battle in our favor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "只要能以己之长攻其之短，最后的胜利一定在我们手里。",
+			say = "\"Issuing the orders that lead us to victory – that will be my job.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……冷静下来来看，确实如老师所说。",
+			say = "The Commander is right. As long as we stay calm and seize whatever advantages we can get, victory isn't out of the question.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "不愧是老师，不但熟悉近代战争，对于现代战争，不……对于即将到来的属于未来的战争也很熟悉呢。",
+			say = "Studying modern and past warfare isn't enough. We have to look ahead at how warfare might be conducted in the future as well. The Commander has much to teach us about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "只是经验之谈罢了。",
+			say = "\"Please. I'm just speaking from experience.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_3",
-			say = "（这确实是真心话，因为已经与这样的敌人——或者说塞壬，作战了许久了。）",
+			say = "Experience that I've accumulated over countless battles against the Sirens, leading shipgirls just like them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "红方的各位早上好，战前准备已经做好了么？",
+			say = "Morning. Have you all finished strategizing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "当然，我们都准备好了，等着瞧吧，孟菲斯~",
+			say = "Oh, you bet. You'll see soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次是与老师并肩作战的珍贵机会，我们一定会拿出最佳表现的。",
+			say = "Don't expect us to hold anything back with the Commander leading us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "反而你那边应该小心了哦？",
+			say = "You'd be wise not to underestimate us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "当然，我怎么会轻视指挥官的存在呢。",
+			say = "Of course not. I know that the Commander is extremely capable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "这一次我已经做好了充足的准备，一定会让指挥官刮目相看的。",
+			say = "As for me, I'm good to go. This is no simulation, and I'm not gonna mess around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "刮目相看……？可是孟菲斯，今天应该是老师第一次指挥演习舰队才是吧？",
+			say = "Huh? Did you and the Commander run some sort of simulated exercise in preparation for this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "…………啊哈哈，之前得到这个消息的时候，我就一直在脑海里进行模拟。",
+			say = "What? No, I meant... Mental simulations. Planning for your enemy's actions, that stuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			actor = 102160,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "虽然看上去指挥官是第一次指挥，不过在我的脑海里已经进行过很多次了哦！",
+			say = "While this is my first field exercise, I've done hundreds and hundreds of simulated ones before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "糟糕，孟菲斯对这次演习超级认真……",
+			say = "Woah, is that what you're doing all day in your room? And here I thought you were...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "哈曼也有种不妙的感觉……",
+			say = "I'm starting to get nervous now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯，我们一定要超级小心地应对。",
+			say = "Don't worry. Just keep your wits about you, and don't let the enemy get into your head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "看来大家都聊得差不多了呢。",
+			say = "Are we done chatting yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "博士？！今天一大早就没见你人，你去哪里了啊！",
+			say = "Dr. Anzeel?! Where were you this morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "我当然是提前就去导演部找了个舒适的观看位哦。",
+			say = "What do you think? Over at HQ, looking for a first-row seat and popcorn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "在演习开始之前，就由我来最后强调一遍演习的胜利判断标准规则。",
+			say = "Let's quickly go over the rules one last time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "红方的旗舰为约克城，蓝方的旗舰为孟菲斯，不论部队损失程度如何，率先消灭对面旗舰的一方将会立刻取得胜利。",
+			say = "The red team's flagship is Yorktown, the blue team's is Memphis. First team to sink or effectively neutralize the other's flagship wins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,7 +961,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "大家都明白了么？",
+			say = "Simple enough. Everyone got that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,10 +973,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_zhedie_3",
 			nameColor = "#A9F548FF",
-			say = "明白————",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900332,
-			say = "很好，那现在由我宣布，对抗演习正式开始！",
+			say = "Great. Then, let the Type II hull-fusion rigging test naval exercise commence!",
 			painting = {
 				alpha = 0.3,
 				time = 1

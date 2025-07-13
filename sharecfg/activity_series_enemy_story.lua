@@ -354,7 +354,7 @@ pg.activity_series_enemy_story = {
 		icon = "base5"
 	},
 	[31] = {
-		name = "叛恶者之歌",
+		name = "Song of the Rebel",
 		pos_x = "0.10703125",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
 		type = 1,
@@ -371,7 +371,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[32] = {
-		name = "组成乐队吧♪",
+		name = "Band Together",
 		pos_x = "0.34609375",
 		story = "1819601",
 		type = 3,
@@ -388,7 +388,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[33] = {
-		name = "巨大指挥官",
+		name = "Mega Commander, Arise",
 		pos_x = "0.50546875",
 		story = "1819602",
 		type = 3,
@@ -405,7 +405,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[34] = {
-		name = "健康活力Fight",
+		name = "Fight on the Athletic Field",
 		pos_x = "0.60546875",
 		story = "1819603",
 		type = 3,
@@ -422,7 +422,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[35] = {
-		name = "拯救老师大作战",
+		name = "Save Our Teachers!",
 		pos_x = "0.6265625",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
 		type = 1,
@@ -439,7 +439,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[36] = {
-		name = "与童心重逢之时",
+		name = "Let's Get Mischievous!",
 		pos_x = "1.10703125",
 		story = "1819604",
 		type = 3,
@@ -456,7 +456,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[37] = {
-		name = "失控的童心",
+		name = "Out of Control Innocence",
 		pos_x = "1.34609375",
 		story = "1819605",
 		type = 3,
@@ -473,7 +473,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[38] = {
-		name = "愿童心永驻",
+		name = "Innocence Eternal",
 		pos_x = "1.50546875",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
 		type = 1,
@@ -490,7 +490,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[39] = {
-		name = "CH-1 爆炸疑云",
+		name = "Ch. 1 - An Alarming Explosion",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE2",
 		type = 1,
@@ -507,7 +507,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[40] = {
-		name = "CH-2 兔警官探案中",
+		name = "Ch. 2 - Officer Bunneptune Is on the Case!",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE3",
 		type = 1,
@@ -524,7 +524,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[41] = {
-		name = "CH-3 战略性约会进行时",
+		name = "Ch. 3 - Strategic Date Solution",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE4",
 		type = 1,
@@ -541,7 +541,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[42] = {
-		name = "CH-4 公路维和组，出击！",
+		name = "Ch. 4 - Keeping Peace in the Streets",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE5",
 		type = 1,
@@ -558,7 +558,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[43] = {
-		name = "CH-5 问题的关键",
+		name = "Ch. 5 - The Core of the Issue",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE6",
 		type = 1,
@@ -575,7 +575,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[44] = {
-		name = "CH-6 说来话长",
+		name = "Ch. 6 - Blah, Blah, Blah",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE7",
 		type = 1,
@@ -592,7 +592,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[45] = {
-		name = "CH-7 谈心教室",
+		name = "Ch. 7 - Discussion Class",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE8",
 		type = 1,
@@ -609,7 +609,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[46] = {
-		name = "CH-8 迷彩都市之夜",
+		name = "Ch. 8 - Night in the Neon City",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE9",
 		type = 1,
@@ -626,7 +626,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[47] = {
-		name = "CH-9 谁是卧底？",
+		name = "Ch. 9 - So, Who is It?",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE10",
 		type = 1,

@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "level02",
-			say = "时间回到大斗犬和{namecode:420}对峙的时候——",
+			say = "A summary of the confrontation between Bulldog and U-110...",
 			effects = {
 				{
 					active = true,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（唔哦——好耀眼）",
+			say = "(Oww, so briiiight...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "「渴望救赎的机会吗」",
+			say = "\"Do you wanna live?\"",
 			effects = {
 				{
 					active = true,
@@ -67,7 +67,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……（装死）",
+			say = "(Plays dead.)",
 			effects = {
 				{
 					active = false,
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "（这招没用吗…那就……）",
+			say = "(It doesn't seem this will work... Umm, let's try...)",
 			effects = {
 				{
 					active = true,
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「想要拯救你的朋友吗」",
+			say = "\"What about your friend, then?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……！",
+			say = "......！",
 			action = {
 				{
 					type = "shake",
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "「想要拯救朋友的话，就献上你最重要的东西吧」",
+			say = "\"If you wanna save her, hand over your treasure.\"",
 			effects = {
 				{
 					active = true,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「用最重要的东西作为代价，拯救你的朋友」",
+			say = "\"Give it to me, and in exchange, I'll spare your little friend.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "…………",
+			say = "............",
 			effects = {
 				{
 					active = false,
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………朋友…",
+			say = "... My... friend...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，那就把这个给你",
+			say = "Okay, I'll give you my backpack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（就这样丢到海里，趁着对面捡起来的时候逃跑。完美）",
+			say = "(I'll drop it in the ocean, then swim away while she's picking it up. Perfect plan.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是个包哦，不可以看里面哦",
+			say = "Just my backpack, okaaay? No peeking at what's insiiiide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "啊，真的丢掉了",
+			say = "Oh, look, she actually dropped it.",
 			effects = {
 				{
 					active = true,
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——就这样得到了恩尼格玛和密码本",
+			say = "And that is how I managed to acquire the Enigma machine and the codebooks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "大斗犬的报告书上如此写着",
+			say = "Thus went Bulldog's after-action report.",
 			effects = {
 				{
 					active = false,
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…真、真随便啊……",
+			say = "... Wait, that's it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

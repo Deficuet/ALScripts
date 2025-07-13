@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-9",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "快看，是枫叶！",
+			say = "Look! It's a maple leaf!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
-			say = "她捡起温泉池水中的一片落叶，遮住了自己的一只眼睛。",
+			say = "A leaf floats in the water. She picks it up and covers her eye with it, showing it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你这是打算……？",
+			say = "It is. What about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，这种时候不是应该说那种台词嘛——",
+			say = "In cases like this, you need to have a quote prepared. Like...",
 			voice = "event:/educate/tb/educate-tb-story-33-12",
 			painting = {
 				alpha = 0.3,
@@ -82,12 +82,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“寄宿在吾右眼中的禁忌之力啊，以这枚贤者之血铸就的红叶将汝封印……！”",
+			say = "\"Cursed power within my right eye, heed my words – with this leaf made of a sage's blood, I will seal you away!\"",
 			voice = "event:/educate/tb/educate-tb-story-33-13",
 			painting = {
 				alpha = 0.3,
@@ -100,12 +100,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样？超cool的对吧？！是我从漫画书上学到的哦！",
+			say = "Ain't that the coolest thing you've ever heard? I read it in a comic book!",
 			voice = "event:/educate/tb/educate-tb-story-33-14",
 			painting = {
 				alpha = 0.3,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不……这只是普通的中二病吧。",
+			say = "Sure, it's cool. If you're a teenager in their edgy phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +130,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的，你这样会变成无趣的大人哦。",
+			say = "Hmph. Spoken like the most boring adult on the planet.",
 			voice = "event:/educate/tb/educate-tb-story-33-15",
 			painting = {
 				alpha = 0.3,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好吧……那，看我这招！",
+			say = "Oh, I'm boring? Let's see how you fare against this cursed power of mine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,12 +160,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀——！",
+			say = "Owch! Hot, hot!",
 			voice = "event:/educate/tb/educate-tb-story-33-16",
 			painting = {
 				alpha = 0.3,

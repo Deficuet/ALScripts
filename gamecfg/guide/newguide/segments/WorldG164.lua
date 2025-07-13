@@ -3,7 +3,7 @@ return {
 	events = {
 		{
 			style = {
-				text = "可以派遣指挥喵在搜寻点执行物资搜寻工作。指挥喵的稀有度与等级将会影响水下搜寻的奖励产出。派遣后指挥喵会暂时离队，不提供相应加成。",
+				text = "You can extract resources from retrieval points by sending down a Meowfficer! The higher Meowfficer’s level and rarity, the better the odds you’ll get a rare item!",
 				mode = 2,
 				posY = -250,
 				char = "1",
@@ -25,7 +25,7 @@ return {
 				}
 			},
 			style = {
-				text = "搜寻进度会随着舰队行动次数而推进，指挥官点击此处可以查看指挥喵物资搜寻的相关信息。",
+				text = "Item retrieval is progressed by moving your fleets around the map. Here you can view the progress that has been made.",
 				mode = 2,
 				posY = -250,
 				char = "1",
@@ -35,7 +35,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击此处可以中断搜寻作业，并根据当前搜寻进度计算搜寻奖励。",
+				text = "The Meowfficer can be recalled at any point. Doing so will reward you with all the items it has retrieved up to that point.",
 				mode = 2,
 				posY = -100,
 				char = "1",
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击这里可显示物资搜寻中可能获得的所有资源列表。",
+				text = "Tap here to view the list of potential rewards.",
 				mode = 2,
 				posY = -200,
 				char = "1",
@@ -88,7 +88,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击此处可以查看指挥喵搜寻的帮助说明。",
+				text = "Tap here for more information on item retrieval.",
 				mode = 2,
 				posY = 100,
 				char = "1",

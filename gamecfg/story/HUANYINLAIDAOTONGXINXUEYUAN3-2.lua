@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "一曲结束，音响中的乐曲声终于消失了，异常的指挥喵纷纷停止行动立在了原地。",
+			say = "As the music dies down, the speakers cease playing that strange melody. Stranger yet, the odd Meowfficers all stop moving at the same time as well.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "指挥官，怎么样！我未来是不是也可以成为闪耀的偶像！",
+			say = "Whaddya think, Commander? Am I cut out to be an idol?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "明明是我比较出色吧~指挥官，你说对吧？",
+			say = "Please, if anyone's cut out for that, it's me! I know the Commander agrees.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "吾之力量，随着摇滚的旋律得到了充分释放~",
+			say = "Mwahaha! With rock as the medium, my power has been unleashed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
-			say = "欸……真是一场精彩的演出啊。",
+			say = "Whew... I think we all played pretty well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "Goodness...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405060,
-			say = "刚才的乐曲中饱含的情绪如岩浆般热烈……热烈到令人有些……难以接受。",
+			say = "The fiery hot emotion packed into every beat... There was frankly too much of it for my tastes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,10 +143,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不论如何……危机似乎解除了。那些石膏喵的情况如何？",
+			say = "At any rate, you're safe now. What happened to those Meowfficer busts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "似乎已经变成真正的石膏雕塑了哦。",
+			say = "I think they... went bust. But seriously, they turned back into normal statues.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,10 +174,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来……这场异常事件，和异常出现的指挥喵之间一定存在关联。",
+			say = "Hmm. I think that weird melody and those busts are connected, I'm just not sure how yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "时间宝贵，分头行动吧。一队去调查异常的石膏喵，一队继续执行救援行动。",
+			say = "Regardless, there's no time to waste. I propose you split up – one team can investigate those Meowfficers, the other can move forward with the rescue mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,10 +205,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，现在队伍的人员得到了扩充，接下来分头行动确实效率更高。",
+			say = "Good idea. We've found and rescued a few people, so splitting up here would be more efficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,10 +218,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "闪耀星星小队，在确认艺体楼内没有其他同伴后前往主教学楼继续救援行动。",
+			say = "Twinkling Little Stars, check the arts building for anyone else that needs rescue, then head to the main school building and continue the mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,10 +231,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其余人员负责专心调查异常的石膏喵。",
+			say = "Everyone else, see if you can find out anything about those strange Meowfficers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "闪耀星星小队收到~！",
+			say = "Rogery-dodgery-doo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405060,
-			say = "唔呼呼~放心将任务交予我们吧。",
+			say = "Worry not, my child. We shall handle it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "等等……你们的小队还没有名字！这怎么行！",
+			say = "Hang on a sec! You girls haven't got a team name yet! You HAVE to have one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
-			say = "嗯？有这个必要么？",
+			say = "Why? What do we need a name for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102190,
-			say = "我觉得她说的有些道理，队名也是仪式感的一种嘛。",
+			say = "I think it'd be nice to have. It'll make us feel more like a team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307140,
-			say = "那取名的工作就交予汝等了……妾身好困……Zzzz……",
+			say = "You may decide the name. Meanwhilst, this one shall sleep... Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "嘿嘿，我有个好名字哦~！",
+			say = "Ooh, I've got a good one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说来听听？",
+			say = "What, pray tell?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "要不然，你们就叫炫彩猫猫小队吧！",
+			say = "\"The Sparkly Kitties!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
-			say = "可以拒绝这个名字吗？",
+			say = "Can we veto that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦好啦~取名环节结束！",
+			say = "Nuh-uh! Your name's set in stone now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "大家开始行动吧！看看闪耀星星和炫彩猫猫谁能更快地完成任务！",
+			say = "Okay, let's move, girls! Last team to finish their mission is a bunch of rotten eggs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "指挥官要送给胜利的小队很多很多奖励哦！",
+			say = "Also, the Commander's probably gonna shower the winning team with rewards!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102190,
-			say = "很多很多奖励……那炫彩猫猫小队也不会输哒！",
+			say = "R-rewards? Okay! The Sparkly Kitties WILL win!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来事情就这么被决定了……？）",
+			say = "(Why is this a competition now? And why am I obliged to reward the winner?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（也好……如果这样能令她们打起精神来的话。）",
+			say = "(Well, if it motivates them...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "再三叮嘱双方都要注意安全后，两支小队开始了各自的行动。",
+			say = "After reminding them numerous times to be careful, I order both teams to set upon their respective tasks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

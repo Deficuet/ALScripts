@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopBGM = true,
-			say = "{namecode:426}，“区区皇家杂鱼，我一个人就能轻松解决掉”，这句话不是从你口里说出来的吗？",
+			say = "Ah, you're back, Hipper. Did you manage to \"single-handedly take down the Royal Navy twerps without breaking a sweat,\" like you said you would?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
-			say = "咕……嘁，谁知道对面会跑得那么干脆啦…任务失败就是失败了，要惩罚还是什么的，随你吧！",
+			say = "Shut up! Like anyone was expecting her to run away with her tail between her legs! ... Yeah, I know, I shouldn't have broken formation... Go ahead! Call me an idiot, punish me, I don't care!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -49,7 +49,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "还是老样子，性急而冲动…下次能学会向同伴求助就好了……",
+			say = "Short temper, as always... Next time, I recommend asking us for assistance first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "哈？谁要向你求助啊！",
+			say = "Huh?! Why would I need YOUR help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "总之……姐姐，我们也开始搜索吧，她们应该还没走远。{namecode:426}未完成的任务，就由我们来善后吧 ",
+			say = "*Sigh*... In any event, it's not too late to catch up to Glorious. As your solo mission failed, we will come with you this time. Scharnhorst, let's get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			say = "哼哼，有战斗当然没问题~{namecode:426}的仇，就由我来报吧！",
+			say = "Believe me, I'm raring to go. I'll head wherever there's a fight to be had. C'mon, let's avenge Hipper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
-			say = "别说的我好像死了一样！而且谁要你们帮我报仇了！喂，听我说话啊！",
+			say = "\"Avenge\"? I'm not pushing up daisies over here, you know! Hey! Wait for me!",
 			shake = {
 				speed = 8,
 				number = 2

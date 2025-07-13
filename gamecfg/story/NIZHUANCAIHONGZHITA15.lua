@@ -16,7 +16,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "你究竟在盘算什么？",
+			say = "What's the meaning of this?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:464}的提议似乎也大幅出乎了{namecode:434}·META的预料。",
+			say = "Seeing the rest of the Iron Blood fleet retreat out of firing range, Gneisenau also lowered her weapons and turned to face the approaching Ulrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "虽然并没无必要，不过她也停止了开火，放任铁血舰队撤离，并放任{namecode:464}一步一步接近到面前。",
+			say = "Both ships were still on their guard, but the smell of blood and iron in the air seemed to thin out somewhat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……如果你在确认是否还有其他人的话，我可以替你回答。",
+			say = "I already told you. My subordinates, my superiors, my companions. They're all gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "周围已经没人了。天上没有侦察机，水下也没有潜艇，你可以毫无顾虑地出手了。",
+			say = "If it's a duel you want, you can continue with your attack as before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "决斗这种形式我不讨厌，但认不清实力的差距便向我发起决斗……前言收回，你也疯的挺厉害的。",
+			say = "There is little point to crushing you alone, but if that is what you want, so be it––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不，我没有疯。",
+			say = "That's not why I'm here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没有疯的人，敢于向着已经META化的我，已经彻底失去理智、只会散布死亡与毁灭的我发起决斗么？！",
+			say = "Then why are you here? What could you possibly gain by talking to a crazed weapon of war?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "敢，因为你也没有疯。",
+			say = "You're mistaken. You're not mad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "胡说……见到我的每个人都说我已经疯了，刚刚你不也是这么说的。",
+			say = "And you... You're no different. KAN-SEN are nothing more than weapons of war, and you too will become–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那个啊，刚才是我看错了，前言收回。",
+			say = "...Shut up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……哈？！",
+			say = ".........What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "过去的事已经过去了，现在我们来一起看看这个。",
+			actorName = "Ulrich von Hutten",
+			say = "Read this. I may be a stranger to you, but you must recognize the person who wrote this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "{namecode:464}没有立起炮管，而是拿出了一份精致的书信。信封的外侧，铁血徽记的蜡封印章仿佛还带着余温。",
+			say = "Ulrich reached inside her coat and produced a roll of paper with an ornate wax seal. She handed it to Gneisenau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,8 +261,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "正式的命令书？",
+			actorName = "Gneisenau META",
+			say = "...Are those your written orders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,8 +278,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "呵，刚才我也说了，我不认识什么{namecode:440}，对于她所谓的命令也没兴趣。",
+			actorName = "Gneisenau META",
+			say = "Didn't you hear me? I've never heard of this \"Friedrich\" you spoke of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,8 +295,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "这种东西对我来说和废纸没有区别！",
+			actorName = "Gneisenau META",
+			say = "What are you trying to prove? As far as I'm concerned, this is just a slip of paper with meaningless words written on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,8 +312,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "别急嘛，刚才我说了，过去的事已经过去了。我可没有说这份命令书是{namecode:441}的哦？",
+			actorName = "Ulrich von Hutten",
+			say = "Shut up and just read it. Friedrich didn't write this – it was someone who you'll recognize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,8 +329,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "你……是什么意思？",
+			actorName = "Gneisenau META",
+			say = "You... You mean...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "看到{namecode:434}试图将命令书抛出去的手僵在了半空中，{namecode:464}知道自己猜对了。",
+			say = "Gneisenau, for the first time, showed a lapse in her cold exterior. Ulrich immediately knew that she had won her wager.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,8 +360,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "如果这份命令书是其他人的呢，比如————",
+			actorName = "Ulrich von Hutten",
+			say = "Our circumstances may differ, but if you remember what you felt for your allies, you should understand what I'm trying to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "在听到{namecode:464}说出的名字后，{namecode:434}的表情彻底凝固了。",
+			say = "META ships come from other worlds. Therefore we cannot judge them through the lens of our own world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "{namecode:464}已经十分清楚，面前已经META化的{namecode:434}是不会轻易显露出内心真实想法的类型。",
+			say = "One thing is clear, though – they are not our enemy. Some may not act logically for one reason or another, but they are all shipgirls, like us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "但是，想悄无声息掩盖掉如此规模的震惊也不是那么容易的。",
+			say = "They share our humanity, they have people near and dear to them. Or at the very least, they did at one point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "{namecode:434}在沉默中打开了命令书，在缓慢地核对了落款之后，将名字轻声念了出来——",
+			say = "Gneisenau's gaze reached the final paragraph. When she read it, her expression changed dramatically.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +433,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "{namecode:435}……",
+			actorName = "Gneisenau META",
+			say = "B-Bis... Bismarck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "无比熟悉的名字，像一股暖流在瞬间灌入她几乎空洞的躯壳中。",
+			say = "That name – one she had spoken countless times before – brought back something from the depths of her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "过往的记忆——或者说过往记忆残留的碎片，此时正在她的眼前不断闪回着。",
+			say = "Her emotions had been fragmented across countless aeons of combat. But that name alone pulled those shards back together, piece by piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她记起了她们之间的相遇，她临行前的话语，以及——她不会再返航的噩耗。",
+			say = "She remembered her leader's conviction, her loneliness, the pain of being forever separated from her. Then she remembered her times with all her other Iron Blood compatriots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "时间仿佛回到了收到噩耗的那个傍晚，暮色照进那间已经空无一人的房间中。",
+			say = "Then the day she knew she'd never see them again. The day they vanished forever. The day she became the only one left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她站在走廊里，犹豫着、徘徊着，却终究没有勇气再次推开那扇门。",
+			say = "The cold, hard reality she was forced to confront. The eternal punishment she'd been sentenced to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,8 +520,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "她曾经说过，已铸成的遗憾是永远无法弥补的，我们能做的唯有放眼未来……",
+			actorName = "Gneisenau META",
+			say = "Bismarck's sin was trying to lead the Iron Blood into a better future... A sin she was punished for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,8 +537,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "当视野足够开阔之后，未知的过去又何尝不是未来的一种呢？",
+			actorName = "Ulrich von Hutten",
+			say = "If there exists a past different from the one you know, then a different future must exist as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,8 +554,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "你肯定认得她的笔迹，就算作假也不会逃过你的眼睛。",
+			actorName = "Ulrich von Hutten",
+			say = "Whether it will be your salvation, or a slow decline ending in death, I cannot say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "{namecode:434}没有回答，只是用颤抖的双手一遍又一遍抚摸着冰冷信纸上的落款。",
+			say = "Gneisenau fell silent and obsessively read and reread the words on the paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,8 +585,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "是的……笔迹确实是她的没错，可是我不明白……这种感觉……",
+			actorName = "Gneisenau META",
+			say = "It's Bismarck's handwriting... But... That's impossible... Based on what I saw... Based on my calculations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,8 +602,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "……不，不对，不应该是这样的！",
+			actorName = "Gneisenau META",
+			say = "No... There's no way... She can't have done this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,8 +619,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "她不应该遭受这些！！！！！！",
+			actorName = "Gneisenau META",
+			say = "She... She used it... She used the Cube to...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,8 +636,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "她是自愿选择的，为了铁血的未来。",
+			actorName = "Ulrich von Hutten",
+			say = "Regardless of what your Bismarck did, I know for a fact our Bismarck made her choice and fought in the name of Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,8 +653,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "你呢？愿意为她自愿做出如此奉献的铁血献上忠诚么？",
+			actorName = "Ulrich von Hutten",
+			say = "That is what I wanted you to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,8 +670,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "………………",
+			actorName = "Gneisenau META",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,8 +687,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "回答我，{namecode:434}！我现在给了你一次弥补遗憾的机会，你要抓住么？！",
+			actorName = "Ulrich von Hutten",
+			say = "She may not be the Bismarck you're familiar with, but she would still see you as her ally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,8 +704,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "她的情况已经很严重了吧……",
+			actorName = "Gneisenau META",
+			say = "You understand the hefty price she paid for using the Black Cube's power, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,8 +721,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "在你回答我的上一个问题之前，我不会跟你谈论更多了。",
+			actorName = "Ulrich von Hutten",
+			say = "I do. I've seen what happened to her. That's why Friedrich took over for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,8 +738,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "………………………………………………",
+			actorName = "Gneisenau META",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "{namecode:434}死死盯着被紧紧捏在手中的命令书，仔细确认着纸张上的每一处细节。",
+			say = "Once more, the handwritten letter brought back memories of those Gneisenau held dear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她仿佛在眼中看到了虚弱的{namecode:435}艰难写下这封信的样子，依旧是在那间熟悉的房间中。",
+			say = "Images flashed before her eyes – images of the Iron Blood's flag, of friends new and old, of their self-respecting leader, and of a person trying to bring all factions together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "末了，{namecode:435}将笔搁在一旁，微笑着向她伸出手——",
+			say = "The Bismarck of this world, though not exactly the same, is still the Bismarck she knew – and she's reaching out to Gneisenau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_5",
-			say = "她能清晰的感觉到自己的心跳停了半拍，从那已然暗淡的灵魂中突然迸发出些许破碎的火花。",
+			say = "This does not signify the end of her ceaseless war, but it does signify something else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,8 +811,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "我的命运已经糟糕透顶……说实话，我本想把今天当成为铁尽忠的最后一天呢。",
+			actorName = "Gneisenau META",
+			say = "I thought I'd never fight for the Iron Blood again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,8 +828,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "但……如果是为了她，我想再努力一下……",
+			actorName = "Gneisenau META",
+			say = "But now... Bismarck, I... I'm just so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,8 +845,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "很荣幸我们能达成一致。",
+			actorName = "Ulrich von Hutten",
+			say = "...Say no more. Welcome back, Gneisenau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,8 +862,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "……你们有办法过来，自然有办法离开吧？",
+			actorName = "Gneisenau META",
+			say = "You... You do know the way out of here, I presume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,8 +879,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "那是自然。",
+			actorName = "Ulrich von Hutten",
+			say = "Yes. The Singularity's exit is still open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,8 +896,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "回去之后我要见她。",
+			actorName = "Gneisenau META",
+			say = "...Will you let me see Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,8 +913,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "这是你应得的权利。",
+			actorName = "Ulrich von Hutten",
+			say = "Of course I will. How could I turn down a friend?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,8 +930,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "不过，刚刚内容不要跟任何人说起。如果她现在的状况泄露出去的话，后果你应该很清楚。",
+			actorName = "Ulrich von Hutten",
+			say = "But, as you know, the situation back home isn't great. We can't show any signs of weakness to Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,8 +947,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "呵……那我可是清楚的不能再清楚了。",
+			actorName = "Gneisenau META",
+			say = "I'm aware, and I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,8 +964,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "走吧，我们一同归队，是时候返航了。",
+			actorName = "Ulrich von Hutten",
+			say = "Good. Then come with us and we'll take you back to our world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,8 +981,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "……还有，把眼泪擦一下。接下来将会比以前更需要那个“疯狂”的你呢。",
+			actorName = "Ulrich von Hutten",
+			say = "I hate to ask you to fight, given your injuries, but we'll need your help. The Sirens here are too much for our mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -998,8 +998,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:434}·META",
-			say = "呵，你以为你在跟谁说话啊，不要得寸进尺，{namecode:463}！",
+			actorName = "Gneisenau META",
+			say = "Heheh. Remember, I am still one of the Ugly Sisters – a few scratches won't hamper my ability to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,8 +1015,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "这就对了，{namecode:434}·META，欢迎加入铁血。",
+			actorName = "Ulrich von Hutten",
+			say = "That's the spirit. I suppose it's us who'll have to keep up with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,8 +1032,8 @@ return {
 			bgName = "bg_midgard_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "Eisen und Blut über alles——让我们一同向着未来进发吧！",
+			actorName = "Ulrich von Hutten",
+			say = "Listen up, team! We're heading back, bringing with us a new ally and the path to a new future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			bgName = "bg_midgard_5",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——11小时17分。",
+			say = "The Iron Blood fleet set sail once again, this time for their point of origin – the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

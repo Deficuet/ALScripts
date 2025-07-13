@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "海域突进喵！前进前进再前进喵～",
+			say = "The sea is calling! Onwards onwards onwards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

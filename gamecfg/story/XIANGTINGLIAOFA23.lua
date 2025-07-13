@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "呜哇！越来越恶劣了…",
+			say = "Ugh... Just when I thought they couldn't get any more tasteless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次居然是假的大黄蜂小姐！",
+			say = "They're even sending a fake Hornet at us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 			actor = 900194,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "大黄蜂？",
+			actorName = "Hornet?",
 			dir = 1,
-			say = "…",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业小姐，不用勉强也没关系，这里就交给我们处理吧。",
+			say = "Enterprise, you don't have to force yourself. I'll take care of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，这里就交给已经怒上眉梢六亲不认的萨拉妹妹吧~",
+			say = "That's right. Sister Sara is feeling pretty angry, so she'll gladly handle this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，它是敌人——",
+			say = "Don't worry, Commander, I'm fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由塞壬制造出来，只为伤害我们所爱之人的敌人。",
+			say = "Whatever it might look like, it's still just a puppet created by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我绝不会手下留情的。",
+			say = "And its only purpose is to bring harm to our loved ones. I won't hesitate for even a moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业号，现在出战!",
+			say = "Enterprise, preparing for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

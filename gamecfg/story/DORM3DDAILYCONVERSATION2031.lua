@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所谓风雅，就如这房中之花，窗外之风与鸟，只差一轮皓月了。",
+			say = "Elegance is the flowers in this room, the breeze, and the birds out the window... All that's missing is the moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，晚上要一起赏月吗？",
+			say = "Speaking of which, how about we go gaze at the moon tonight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，今晚会有月亮吗？",
+					content = "Good idea. Will the moon be out tonight?",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我查过了天气，应该会有的，嗯……再准备一点合适的饮品。",
+			say = "It should be, based on the weather. I'll, uh, prepare some drinks as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "也许{dorm3d}小酌之后会对着月亮由景触情，对我说出那句话呢……",
+			say = "Who knows, maybe you'll look at the moon and tell me the magic words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

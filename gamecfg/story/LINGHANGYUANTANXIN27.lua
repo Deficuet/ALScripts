@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			tbActor = true,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "story-richang-flexible",
 			actor = 1009,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}，我想喝这个。",
+			say = "{tb}, I want to try this drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "TB指着购物广告中盛在高脚杯中的金色液体，眼里满是期待。",
+			say = "TB points to an ad of a glass filled with a golden liquid. Her eyes are filled with little twinkles of excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "但是这个“饮料”，是独属于大人的……",
+			say = "The problem is, that drink is meant for adults.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "等等，TB会有“大人”这部分的数据升级吗？",
+			say = "Hang on, is it possible she'll get an update that turns her into an adult?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "……不过，不管怎么说，这种饮料对现在的TB来说还是太早了。",
+			say = "...Regardless, she's too young for it right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "最后将果汁倒在高脚杯里给她了。",
+			say = "Later on, I dupe her with a glass of regular fruit juice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——然后，等我赶到流星落下的地点一看，就发现飞鸟阁下她们倒在了那里。",
+			say = "...So, in short, I went to inspect the meteor's impact site, and that's when I found those three lying on the ground.",
 			bgm = "sk-az-story",
 			painting = {
 				alpha = 0.3,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "可是当时港区并没有收到流星坠落的报告呢……所以，大概你在那个时候就已经身处镜面海域中了。",
+			say = "Well, we didn't hear any report 'bout a falling star... You musta already entered the Mirror Sea when that happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只顾着看星空……连通讯状况都忘记检查了么。",
+			say = "You were stargazing and forgot about your regular report, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜……是这样的，非常抱歉……",
+			say = "Err... It pains me to admit, but yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "算啦。正因如此我们才能在第一时间组织了救援舰队前来，阴差阳错的没出什么差错。",
+			say = "On the bright side, we sprung into action quicker as a result. All's well that ends well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这片镜面海域之所以会存在，大概是因为这是召唤你们过来的必要条件，不过为什么被召唤的是你们，你们有什么头绪么？",
+			say = "Sounds like the Sirens created this Mirror Sea expressly to transport you here. The question is – why YOU, specifically?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "完全没有头绪！毕竟大家也没什么魔法之类的特殊能力……",
+			say = "I don't have the faintest idea. It's not like we have magic powers or anything like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "——也不能说……完全没有。毕竟还有妖魔之类的存在。",
+			say = "Not us, no, but perhaps someone we know. Remember how it went with the yōma?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "……这么说来，雪不归小姐被带走或许与此有关，至少她存在值得被带走的“理由”。",
+			say = "Looking at it that way, magic proficiency may have something to do with Fubuki's kidnapping. They must have had a reason to take her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雪不归小姐？她身上有什么特殊的地方么？",
+			say = "Fubuki? Whozzat?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "……关于这个……",
+			say = "Let me explain...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "打开异界之门的能力……对于塞壬来说确实是非常有吸引力的能力呢。",
+			say = "The power to create doors between worlds... Yes, that would be a very attractive ability to the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "如果她真的拥有这样的能力，塞壬不盯上她才奇怪。",
+			say = "The Sirens would without a doubt want to get their hands on her if she really does have that power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "反过来说，只要从塞壬手上救出那个叫雪不归的伙伴，这次的问题就基本解决了吧？",
+			say = "So, basically, if we rescue this Fubuki girl, this whole thing'll more or less be done and dusted, yeah?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "塞壬的所作所为，就像是在告诉大家“我们的目的就是这个人！”一样呢～",
+			say = "The Sirens are basically shouting, \"Our plan revolves around her!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "那我们必须尽快救出雪不归小姐的理由又多了一个！为此————",
+			say = "Then we know what to do! Before anything else, we've gotta rescue Fubuki! And to do that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "我们要穿过那扇大门，进入城池之中！",
+			say = "We'll surmount this wall and get inside the castle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "我……能感觉到。我知道她……雪不归小姐正在那里等着我们……",
+			say = "I just... know it. I can sense that she's inside the castle.",
 			painting = {
 				alpha = 0.3,
 				time = 1

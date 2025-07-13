@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey，今天有好好补水嘛？",
+			say = "Honey, have you had enough water today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光喝饮料和咖啡可是不行的哦？",
+			say = "Juice and coffee alone aren't enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等等……我也要一起喝吗！？那个……我可以拒绝吗……？",
+			say = "Huh... You mean I have to drink as well? I'm kinda fine, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "好啦，我喝就是啦……",
+			say = "Ugh... Okay, if that's what it takes to get you to hydrate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "反倒是被Honey关心了……真是太羞人了……",
+			say = "I'm honestly embarrassed that you're the one looking after me now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

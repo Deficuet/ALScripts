@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>四、其名为——指挥官开心计划！·上</size>",
+					"A Beaming Smile!\n\n<size=45>A Smile Goes a Mile!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "办公室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "忙碌的日子还在继续。",
+			say = "Although substantial progress has been made, I'm still far from finished with all this paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "盯——",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "可爱的小秘书舰在完成了安排给她的任务之后再一次盯起了这边。",
+			say = "And Makinami is, again, looking at me with unease...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "想起{namecode:70}昨天说的话……要不，等下抽点时间陪一下她吧。",
+			say = "I guess it's time to take a quick break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个，指挥官，你现在有空吗？",
+			say = "Huh? Breaktime, already? Is that allowed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然{namecode:162}那边提出来了，那就顺应着答应她吧。",
+			say = "You bet. When you're in charge, you can call any time breaktime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？真的吗？太好了！",
+			say = "Really? All righty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那，指挥官，把手举起来吧！",
+			say = "So! Give me a *hooray*! Raise those arms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯？这是要做什么……虽然有点疑惑，不过还是照做了。",
+			say = "A... hooray? I don't think this warrants celebration, but I decide to go along with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对不对，要再举高点，举过头顶才行！",
+			say = "You're doing it wrong! When you hooray, you gotta really stretch your arms out, like *this*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对对！就是这样。那，我要上了哦！准备——",
+			say = "Yeah, that's it! Together now! One, two...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看{namecode:162}这个架势，莫非是要——",
+			say = "Oh snap! My guard's down and she's going for a...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看招！！",
+			say = "Tickle surprise special!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我挠我挠我挠我挠我挠我挠我挠我挠！！！",
+			say = "Tickle-tickle-tickle-tickle-tickle-tickle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:162}以惊人的气势朝腋下发动了攻击。",
+			say = "She launches an all-out tickle assault on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我挠我挠我挠我挠我挠我挠我挠我挠！！！",
+			say = "Tiiiiickle-tickle-tickle-tickle-tickle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我挠我挠我挠我……挠……我……奇怪，怎么一点效果都没有？",
+			say = "Tickle... tickle... Huh? Where's the laughter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明我听说这样就能让指挥官笑起来的……难道是我弄错了吗？",
+			say = "Kiyonami would be rolling on the floor if I tickled her like this. How come it doesn't work on you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:162}发动了挠痒痒攻击。但是很遗憾，对常年经受各种恶作剧的人来说根本没有丝毫威力。",
+			say = "Her strategy proves ineffective. I've built up resistance from all the daily ticklings that our local pranksters subject me to. My fatigue probably plays into it as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "脑海中突然浮现出一个坏点子。稍微报复一下……应该没问题吧？",
+			say = "Anyway, Makinami is starting to look genuinely bummed out. I can't just leave her like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这么想着的同时，一口气把{namecode:162}抱到了自己的腿上。",
+			say = "I lift her into my lap, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？指挥官，是要做什么？",
+			say = "Hm? Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			},
 			options = {
 				{
-					content = "奥义·千重挠痒痒攻击",
+					content = "Give her a taste of her own medicine!",
 					flag = 1
 				}
 			}
@@ -430,7 +430,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！！！！！！",
+			say = "Ahahahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，哇哈哈哈，哇哈哈哈！！！快，快停下来啦哈哈哈哈！！",
+			say = "Hahahahahah! Hey, stop! Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对，对不起啦哈哈哈哈！！是，是{namecode:162}错了啦哈哈哈哈！！！",
+			say = "I'm sorry– Ahahahaha! I won't do it again! Hahahahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼——哈——呼——哈——挠痒痒——太可怕了——",
+			say = "Ahahah, hah... My mistake was underestimating you, Commander... I never took you for an expert tickler.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:162}喘着粗气，瘫倒在了怀里。",
+			say = "She slumps over and rests her head against me, like she just ran out of steam.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "是不是做得有些过火了…？",
+			say = "Maybe I tickled her *too* pink? Actually, no, it's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "作为沉重的工作中间的一点插曲，也不坏、吧，{namecode:162}也很开心的样子",
+			say = "The relieved look on her face convinces me it did the trick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

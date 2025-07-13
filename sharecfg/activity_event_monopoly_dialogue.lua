@@ -2,111 +2,111 @@ pg = pg or {}
 pg.activity_event_monopoly_dialogue = {
 	[101] = {
 		id = 101,
-		dialogue = "指挥官，比赛开始了，我很期待您的表现哦。"
+		dialogue = "The race has started. I can't wait to see who'll win."
 	},
 	[102] = {
 		id = 102,
-		dialogue = "让我为您奏响胜利的乐章吧。"
+		dialogue = "Allow me to play you a victory song."
 	},
 	[103] = {
 		id = 103,
-		dialogue = "还是选择我吗？谢谢您，专属于我一个人的车手♡~"
+		dialogue = "You'll choose me? Aww, thanks. You're my dear racer♡"
 	},
 	[104] = {
 		id = 104,
-		dialogue = "要听些激烈的音乐振奋精神吗？"
+		dialogue = "Listen to this intense song and focus."
 	},
 	[105] = {
 		id = 105,
-		dialogue = "开慢一些也好，更安全些。"
+		dialogue = "Going slow is fine, too. It's safer."
 	},
 	[106] = {
 		id = 106,
-		dialogue = "继续前进吧，指挥官。"
+		dialogue = "Keep going, Commander."
 	},
 	[107] = {
 		id = 107,
-		dialogue = "加油，已经看见终点了！"
+		dialogue = "Keep it up! The finish line is in sight!"
 	},
 	[108] = {
 		id = 108,
-		dialogue = "嗯，保持这个感觉继续吧！"
+		dialogue = "That's the spirit! Just like that!"
 	},
 	[109] = {
 		id = 109,
-		dialogue = "呵呵~果然指挥官很有安全感。"
+		dialogue = "Heehee. I knew you'd pull through."
 	},
 	[111] = {
 		id = 111,
-		dialogue = "走吧！状态不错嘛，我还以为你会很慌张呢。"
+		dialogue = "Not bad at all. I thought you'd lose your cool!"
 	},
 	[112] = {
 		id = 112,
-		dialogue = "怎么？想确认记录吗？已经破纪录了哦。"
+		dialogue = "What? The record? You did break the top speed record."
 	},
 	[113] = {
 		id = 113,
-		dialogue = "哼哼，离不开“王牌”的应援了吧？"
+		dialogue = "Heheh. Can't get enough of my support, can ya?"
 	},
 	[114] = {
 		id = 114,
-		dialogue = "别看我这样，我可是一直在认真给你加油哦！不能输啊。"
+		dialogue = "It might not look like it, but I AM rootin' for ya. Don't get your ass kicked."
 	},
 	[115] = {
 		id = 115,
-		dialogue = "这么慢，是车子出故障了？……哦~原来是胜券在握了啊。"
+		dialogue = "Took you a while. Had any technical problems? C'mon, victory's just 'round the corner."
 	},
 	[116] = {
 		id = 116,
-		dialogue = "再自信点吧，毕竟是我在给你应援啊！"
+		dialogue = "I'm rooting for ya. Just gotta believe in yourself."
 	},
 	[117] = {
 		id = 117,
-		dialogue = "看来有机会破纪录啊？"
+		dialogue = "Reckon you can set a new record?"
 	},
 	[118] = {
 		id = 118,
-		dialogue = "看吧，有我的应援，当然不会输！"
+		dialogue = "I'm cheerin' for ya. Ain't no way you're gonna lose."
 	},
 	[119] = {
 		id = 119,
-		dialogue = "哼♪~马上就要获胜了。"
+		dialogue = "Heh! I can already taste the gold trophy."
 	},
 	[121] = {
 		id = 121,
-		dialogue = "赛前准备都已确认，保持最佳的状态，出发吧。"
+		dialogue = "You're ready for the race. Let's stay in peak condition."
 	},
 	[122] = {
 		id = 122,
-		dialogue = "感谢鸢尾的庇佑……当然，更多的是指挥官您的实力。"
+		dialogue = "Let us thank the Holy Iris for its blessings. Granted, this was more thanks to your talent, Commander."
 	},
 	[123] = {
 		id = 123,
-		dialogue = "让我们再次一起获得胜利吧。"
+		dialogue = "Together, let us seize victory once more."
 	},
 	[124] = {
 		id = 124,
-		dialogue = "我会为您祈祷的，一路向前吧。"
+		dialogue = "I'm praying for you. Continue onward."
 	},
 	[125] = {
 		id = 125,
-		dialogue = "赛车是否需要再检修整备一次呢？"
+		dialogue = "Do you think you should service your car one more time?"
 	},
 	[126] = {
 		id = 126,
-		dialogue = "安全第一，就这样平稳地前进吧。"
+		dialogue = "Safety first. Let's keep moving forward diligently."
 	},
 	[127] = {
 		id = 127,
-		dialogue = "根据您的进度，我会对您下达裁决……开玩笑的，慢慢来就好。"
+		dialogue = "I will judge you based on your placing. Okay, that was a joke. Slow and steady wins the race."
 	},
 	[128] = {
 		id = 128,
-		dialogue = "您的状态渐佳，是从祝福中获得了力量吗？"
+		dialogue = "You're getting better. Have the blessings given you new talent?"
 	},
 	[129] = {
 		id = 129,
-		dialogue = "我已看见胜利就在前方，等待着您的到达。"
+		dialogue = "I saw it. Victory awaits your arrival."
 	},
 	all = {
 		101,

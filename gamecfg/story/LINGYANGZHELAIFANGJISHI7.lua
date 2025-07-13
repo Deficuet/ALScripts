@@ -12,9 +12,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
-			say = "呀，{tb}你看，她一个人抱着玩偶站在这里……是不是有什么烦恼呢？",
+			say = "Hey, {tb}, look at that girl. She's just standing there with her stuffed animal. Do you think something's on her mind?",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "过去问问独角兽吧。",
+			say = "Let's talk to her and find out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +57,9 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "好~",
+			say = "Sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "听到我和娜比娅靠近的声音后，独角兽抬起了头。",
+			say = "Hearing us approaching, Unicorn lifts her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,14 +83,14 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……是哥哥来了，还有……娜比娅小姐……",
+			say = "Oh, big brother! And Navi, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "独角兽在想什么事情么？",
+					content = "(Ask Unicorn what's up.)",
 					flag = 1
 				}
 			}
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "独角兽是在想什么事情么？",
+			say = "Is something on your mind, Unicorn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而且今天特地来了这边……是有什么事想要做么？",
+			say = "What are you doing out here, anyway? Is there something you wanted to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,20 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女轻轻点了点头，然后又摇了摇头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 206030,
-			side = 2,
-			bgName = "star_level_bg_700",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "独角兽…是想帮上哥哥和娜比娅小姐的忙…",
+			say = "Unicorn nods a little, then shakes her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为其他同伴也都在努力…独角兽也想贡献一下自己的力量……！",
+			say = "I wanted to help you two out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,18 +152,31 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是来了以后……也不知道自己做什么才好，所以就在这里思考了一会儿……",
+			say = "Everyone else is working really hard, and I want to be useful, too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 206030,
+			side = 2,
+			bgName = "star_level_bg_700",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "But when I got here, I had no idea what to do, so I've just been standing here and thinking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "独角兽有这份心意就已经帮上忙了",
+					content = "(Tell her the thought is good enough.)",
 					flag = 1
 				},
 				{
-					content = "有独角兽在真是太好了",
+					content = "(Tell her you're glad that she's here.)",
 					flag = 2
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "独角兽有这份心意就已经帮上忙了",
+			say = "(Tell her the thought is good enough.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "有独角兽在真是太好了",
+			say = "(Tell her you're glad that she's here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……哥哥能这样说，独角兽很开心……",
+			say = "Um... Hearing you say that makes me happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "优酱说它也很开心哦……",
+			say = "Yuni says he's happy, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女露出了笑容。",
+			say = "Unicorn smiles brightly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,12 +250,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_700",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			fontsize = 24,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来，有时候只要这份真诚的心意，就已经足够了呢……",
+			say = "I get it... Just wanting to help is good enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……谢谢哥哥今天来安慰独角兽……",
+			say = "Umm... Big brother, thank you for encouraging me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "独角兽先回去再思考一下……！",
+			say = "I should probably go now. I'll think some more about what I can do to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好。",
+			say = "Take care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "摸了摸独角兽的头后，和娜比娅一同离开了。",
+			say = "I give Unicorn a gentle pat on the head, then leave with Navi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

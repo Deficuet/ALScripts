@@ -10,11 +10,11 @@ return {
 			bgm = "theme-glorious-meta",
 			sequence = {
 				{
-					"皇家·LD港",
+					"Royal Islands - Port of LD",
 					1
 				},
 				{
-					"蔷薇塔·作战指挥室",
+					"Rose Tower - War Room",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "贵族少女正坐在通讯装置前聚精会神聆听记录着。",
+			say = "A noble girl sat by her radio equipment, attentively recording and listening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "自从收到回应之日起又过了半年，盟友依然杳无音讯。",
+			say = "Half a year had passed since she received a response, and she still didn't know where her allies were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "但是贵族少女依然为了招待即将到来的客人调整了自己原本雷打不动的日程表。",
+			say = "Despite that, she adjusted her previously set-in-stone plans to be able to receive guests at a moment's notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "她将通讯联络时间拆成了上午下午两部分，新增了多个情报站。",
+			say = "She split her daily communications time between morning and afternoon and added several new intel receivers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "取消了战术模拟，延长了实战时间，同时重启了多条棋子生产线，并开始逐步扩大控制区。",
+			say = "She also canceled her simulations, extended her live-combat time, restarted multiple Pawn production lines, and gradually expanded the territory under her control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,11 +94,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……八至十二战区依然维持静默状态，各项活动完全停止，监控焦点无减少也无新增。",
+			say = "Hmm. Combat sectors 8 through 12 are still silent. All activity has completely ceased. No increase or decrease in points of interest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +133,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "诺森布里亚战区……重启进度过半，巡逻队已初步编制完成，生产线激活顺利，监控焦点无减少也无新增。",
+			say = "The Northumbria sector... Its reboot is over halfway complete, and an initial patrol fleet has been formed. Production lines are up and running. No increase or decrease in points of interest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "麦西亚战区依然在稳步推进中……上午巡逻队发起了三次进攻，成功清除了三处监控焦点，控制区域内一切正常，生产线一切正常。",
+			say = "The Mercia sector is still advancing steadily. The patrol fleet launched three attacks this morning and successfully cleared three points of interest. All is normal in the control area, likewise for the production lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "埃塞克斯战区、苏塞克斯战区、东盎格利亚战区、肯特战区控制牢固，监控焦点为零，控制区域内一切正常，生产线一切正常。",
+			say = "The Essex, Sussex, East Anglia, and Kent sectors are stable, with zero points of interest. All is normal in the control area, likewise for the production lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,11 +208,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "威塞克斯战区……咦？",
+			say = "The Wessex sec– Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,11 +237,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "威塞克斯战区的怀特岛附近新增监控焦点十三处……？",
+			say = "There are 13 new points of interest in the vicinity of the Isle of Wight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +266,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "怎么回事……兽潮昨天并没有爆发的征兆啊……",
+			say = "How could that be? Yesterday, there was no indication of a Beastly Tide occurring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,11 +285,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "格罗斯特，调动威塞克斯战区的主力部队前去清理。",
+			say = "Gloucester, please tell the main fleet in the Wessex sector to head there at once and eliminate the hostiles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,11 +305,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "爱丁堡，开启运河船闸泰晤士河转伊钦河段。",
+			say = "Edinburgh, please open the sluices in all waterways from the Thames to the Itchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,11 +326,11 @@ return {
 		{
 			portrait = 9707070,
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我要亲自去看看！",
+			say = "I need to see it for myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

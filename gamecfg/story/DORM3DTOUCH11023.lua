@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey的手心好热哦~莫非是在期待什么吗?",
+			say = "Your hands are so warm. Is there something you're expecting...?",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone3",
 			typewriter = {
 				speed = 0.05,

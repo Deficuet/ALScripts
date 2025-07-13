@@ -8,14 +8,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "那不勒斯王国·边境",
+			say = "Kingdom of Naples - Borderlands",
 			sequence = {
 				{
-					"那不勒斯王国·边境",
+					"Kingdom of Naples - Borderlands",
 					1
 				},
 				{
-					"某处要塞",
+					"Remote stronghold",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_1",
 			hidePaintObj = true,
-			say = "边境要塞的指挥室中，永夜的女王正在汇总着最新情报。",
+			say = "Inside the fort's command center, the empress of the Eternal Night was organizing the latest intel.",
 			bgm = "story-shenguang-holy",
 			typewriter = {
 				speed = 0.05,
@@ -53,11 +53,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "永夜战旗布设得十分顺利，目前包括米兰公国在内的五国已经完全笼罩在永夜之下了。",
+			say = "The Banner of Eternal Night is deploying as planned. Night has already fallen on five of the member states, including the Dukedom of Milan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "米兰公国如约没有行动，热那亚舰队已经开向了佛罗伦萨共和国。",
+			say = "As agreed, Milan will not mobilize, and the Genoan fleet is already on its way to Florence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,11 +81,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "威尼斯共和国也已经兵分两路推进至教国境内，升起永夜战旗只是时间问题。",
+			say = "The Republic of Venice has split in two, and its march on the Ecclesia's territory has begun. It's but a matter of time before they raise the Banner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教廷一方完全被打了个措手不及……只可惜，斩首行动失败了。",
+			say = "We certainly got the jump on the Holy See. It's just a shame we couldn't kill Marco Polo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "确实是令人遗憾的挫折。",
+			say = "Yes, it is deplorable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,11 +123,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "作为神之预言中诞生的舰船圣座，我们都有些小看她的战斗力了。",
+			say = "The Apostle was born by a prophecy from God... We slightly underestimated her capabilities in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,11 +137,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "特伦托提到的那种诡异的瓦解力量也很令我不安。",
+			say = "Also, I'm concerned by that strange \"power of disintegration\" that Trento alluded to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教廷一方或许已经基于这个钥匙，开始逐步掌控更加强大的神之兵器了。",
+			say = "The Holy See may be steadily gaining control of more powerful divine weapons based on this \"key.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,11 +165,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还有一个消息。",
+			say = "There is one more thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我已经确定了日前被开启的九号神之军械库之中，封存有另一支全新型号的神之军团，战斗能力不明。",
+			say = "We've confirmed that a divine army is sealed inside the Armory of God that was opened the other day. Their combat capabilities are unknown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也就是说接下来，我们确定会与比预期中更多的神之军团正面交战了。",
+			say = "Which is to say, there's a good chance that we will grapple with more divine troops than we anticipated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "把这个情报同步给加富尔伯爵，看看米兰公国的意思。",
+			say = "Share this information with Cavour and see what Milan thinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +221,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "永夜战旗是最关键的一环。",
+			say = "What matters more than anything else is that the Banner is raised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,11 +235,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "只有让各处的永夜战旗将神光之网彻底转换为永夜领域，我们才能得到与神之军团分庭抗礼的资本。",
+			say = "If we can't completely convert the Lattice of God's Light into the Domain of Eternal Night, we can't get the power needed to engage the divine army on equal footing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,11 +249,11 @@ return {
 			actor = 9705070,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那个圣座所展现出的力量对于永夜领域是个威胁。",
+			say = "The power Marco Polo demonstrated may come to pose a threat to the Domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,11 +263,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我现在将全局指挥交给你。",
+			say = "I entrust general command to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来，我该去前线准备强攻罗马城，亲自会一会这位圣座了——",
+			say = "I'm going to head to the front line and launch the assault on Rome. I'll meet the Holy See in person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

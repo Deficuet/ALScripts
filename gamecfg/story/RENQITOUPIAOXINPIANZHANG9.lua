@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……大家快看，副舞台亮灯了。",
+			say = "...Look! The special vote stage is glowing!",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个难道是……？！",
+			say = "Oh god! Don't tell me that's her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,8 +64,8 @@ return {
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "净化者？",
-			say = "…………",
+			actorName = "Purifier?",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——净化者！！",
+			say = "It is! It's Purifier!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
-			say = "{namecode:6:绫波}手起刀落，直接劈向了净化者。",
+			say = "Ayanami promptly drew her sword and swung at Purifier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
-			say = "然后，净化者就像是纸片一样倒了下去——",
+			say = "But before her blade could connect, Purifier simply fell over with a thud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇……哇哇哇！…………咦？",
+			say = "Look out! ...Wait, what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像不是真的塞壬……是立牌……？",
+			say = "It's not the real deal after all... I think it's just a cardboard cutout.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "手册说的惊喜……原来是指给塞壬投人气票啊。",
+			say = "This must be part of the \"sideshow\" the pamphlet talked about... I guess they're letting us vote for Sirens as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……让大家选出最在意的塞壬单位，然后“重点关照”么……",
+			say = "That's interesting... I wonder if the Siren with the most of our votes will get special treatment in some way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那拉菲，投净化者一票。",
+			say = "I'll give a vote to Purifier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我也投净化者一票……不对不对，应该不会是这么粗暴的投票吧！",
+			say = "Then I'll do the same... No, wait! I need to think it over before I cast my vote!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，大家快看，我在前面发现了更多立牌哦！",
+			say = "Speaking of which, check it out! There are tons more cutouts over here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我看看，这次都设置了哪些候选目标呢……",
+			say = "Let's have a look and see who all the candidates are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，先把立牌扶起来啦——！",
+			say = "At least put the Purifier cutout back on its feet first!",
 			painting = {
 				alpha = 0.3,
 				time = 1

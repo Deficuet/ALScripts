@@ -8,14 +8,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "撒丁教国·首都",
+			say = "Sardegna Ecclesia - Capital",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"Sardegna Ecclesia - Capital",
 					1
 				},
 				{
-					"撒丁尼亚联盟作战司令部",
+					"Sardegnia League Joint Operation Headquarters",
 					2
 				}
 			}
@@ -24,12 +24,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			bgm = "battle-thechariotvii",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，您所下达的一系列命令成功令塞壬军团陷入了混乱。",
+			say = "Thanks to your orders, Your Grace, the Sirens' army is in complete chaos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,11 +56,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前，教国境内的清理工作进行得异常顺利。",
+			say = "The Ecclesia's efforts to exterminate them is proceeding extremely smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈，这样才对嘛~安德烈亚那边呢，她的指挥中心成功转移了吗？",
+			say = "Ohohoho! Of course it is! Now, any news on Andrea? Has she managed to relocate her command center?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,11 +85,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前已经成功转移了。",
+			say = "Yes, that is done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们已经根据您的命令借出了佛罗伦萨共和国境内的神光之基，用于其继续维持永夜领域。",
+			say = "As you've ordered, she has also been lent Florence's Sources of God's Light in order to maintain the Domain of Eternal Night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,10 +113,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且凭借她们此前在暗中为了攻坚战而做的诸多布置……这方面的进度也异常顺利。",
+			say = "It's going very well on her end, thanks to the... many strings they pulled to gain the upper hand in the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,12 +126,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就当是歪打正着吧~看开点，我们和她们现在在一条船上，让她们维持好战斗力，我们也能轻松些。",
+			say = "That worked to our benefit as well, so it's fine. And since we're on the same page, any advantage she can spare for us will make our job easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,11 +141,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其余各处的战况如何？",
+			say = "How are things on the other fronts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就现状来看，塞壬军团的进攻力度十分迅猛，目前有三支军队正在快速穿越各国领土，直逼罗马城而来。",
+			say = "The Sirens' armies are conducting a fierce attack. Three of them have breached nearby states' territory and are heading for Rome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,12 +169,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哟？摆明了是冲本圣座来的啊。",
+			say = "Well, well, they're clearly after me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,11 +184,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "挺好，兵分三路正好方便本圣座各个击破了。",
+			say = "How magnificent! If they're split in three, that makes it easier to pick off one at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们这套神光之网有这么多节点，那连接节点间的通道网络是怎么操作的？",
+			say = "Now, the Lattice of God's Light has many nodes, so how does the network connecting these nodes function?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "叫什么「门扉网络」……",
+			say = "I believe it was called the microlayer transference system...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,13 +227,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			fontsize = 24,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当时从维内托嘴里套出来的应该是叫这个……",
+			say = "At least, that's what I got out of Veneto back then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们就随本圣座一起，用这个门扉网络再打敌人一个出其不意！",
+			say = "Ah, I've got it! We'll use the transference system to strike where the enemy least expects it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以“门扉网络”到底是什么？",
+			say = "Micro-what now? What did you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是移动到各节点所在区域的快速通道啊？",
+			say = "The portal-like thing that lets you quickly move to where a node is located.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,12 +287,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……焦苏埃，神光之网里有这个功能么？",
+			say = "Uhh... Giosuè, does the Lattice have a function like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,11 +302,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……至少我从来没听说过。",
+			say = "If it does, I've certainly never heard of it before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,12 +316,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……居然没有么？！啊？！",
+			say = "What? You haven't?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "与此同时，无垠的纯白之中。",
+			say = "Meanwhile, in the boundless land of white...",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "自然，我利用雕像的眼睛注意到了联合司令部中发生的事。",
+			say = "Through the eyes of the stone statue, I've grasped what's happening in Marco Polo's World.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "当时的门扉网络，是克莱蒙梭利用构建者的技术在原有陆上神国计划的基础上进行的调整，又不是当时她原本计划的一环。",
+			say = "During the near-superimposition event, Clemenceau took Compiler's microlayer transference system and modified it. It wasn't part of her original plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过在门扉网络启动的时候，她应该已经陷入昏迷了才对，她什么时候从维内托嘴里套的话……？",
+			say = "But wait... When Richelieu had the system activated, Marco Polo had already been thrown into the sea. How and when did Marco learn about it from Veneto?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道是之前在欧罗巴{namecode:182:信浓}带维内托去她梦里的时候？",
+			say = "She never even told me about it. Maybe it was when Shinano brought Veneto into Marco's dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……还真会见缝插针。",
+			say = "...She really knows how to exploit every opportunity she gets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过引导思潮的事她又不是第一次做，上次博览会的时候，她这个幕后黑手不是玩得很熟练么。",
+			say = "And the way she manifested a weapon with the power of thought, just like at the World Expo...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哦对……上次她全程躲在幕后，大放异彩的是罗马和达芬奇。",
+			say = "Then there are those airships. Da Vinci made good use of those once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在环境倒是挺合适，不知道她亲自操刀的话，能弄出些什么花样来……",
+			say = "At any rate, let's see what Marco's next move is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_11",
 			hidePaintObj = true,
-			say = "荆棘丛生的荒凉世界中，众神与复兴的思潮象征正在天空中碰撞。",
+			say = "Inside a desolate world overrun with thorns, religious thoughts collided with one another in the air.",
 			bgm = "story-roma-inside",
 			typewriter = {
 				speed = 0.05,
@@ -509,11 +509,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……？我不是人在司令部里么……这是哪儿？",
+			say = "What's this? I was in the headquarters a moment ago! Where am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,12 +523,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "雄鹰与飞空艇舰队？",
+			say = "Eagles? And... a fleet of airships?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,40 +538,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……博览会开幕式那次的景象重映？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
-			dir = 1,
-			actor = 699010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "原来如此……这是神在给予我启示么。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 699010,
-			side = 2,
-			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "确实……信仰之力基于神光之网汇聚于此，现在的环境确实十分合适。",
+			say = "Hold on a moment – is this a memory from the opening ceremony of the World Expo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,12 +552,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "飞空艇舰队么……真是不错。",
+			say = "Ahh, I see now... This must be a revelation from God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,51 +567,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过复兴的思潮，得去佛罗伦萨折腾效果最好，这部分还是交给达芬奇好了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
-			dir = 1,
-			actor = 699010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "而关于神的信仰可不能这么用……非要具现化的话……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			say = "马可波罗的脑海中浮现出了一匹白马，一匹红马，一匹黑马，还有一匹苍绿色马。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 699010,
-			side = 2,
-			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "不得不说，那个女人的品位还是不错的……",
+			say = "Yes, indeed... The power of faith passes through the Lattice of God's Light and accumulates here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,12 +581,81 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "审判型机甲武装……就决定是你们了！",
+			say = "An airship fleet... I like the sound of that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 699010,
+			side = 2,
+			bgName = "bg_roma_11",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "But, if we're going to use the imagery of Rome, it's best to do so in Florence. I'll have da Vinci handle that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_roma_11",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Now, if one were to try to materialize concepts relating to God...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_roma_11",
+			hidePaintObj = true,
+			say = "Four horses in the colors white, red, black, and green crossed Marco Polo's mind.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 699010,
+			side = 2,
+			bgName = "bg_roma_11",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I have to admit, that woman has decent taste...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_roma_11",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mechanicus Harbingers, you will be my pick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

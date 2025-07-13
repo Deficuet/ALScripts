@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>七 万圣夜快乐！</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>VII 「Happy Halloween!」</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			bgm = "story-1",
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "总，总算回到地面了…",
+			say = "Finally, I'm back on the ground...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于追上你了，幽灵小姐！",
+			say = "We've finally caught up to you, Miss Ghost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…欸？这是…白布和发光的舰载机？欸？怎么大家都在这里？！",
+			say = "...Eh? ...a glowing aircraft and a white cloak? What? Why is everyone here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样！萨拉妹妹精妙的飞机控制！",
+			say = "What'd you all think! That was Sara's amazing airplane maneuvering skills!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！原来是萨拉托加的恶作剧吗！",
+			say = "Eh! So in the end, it was only Saratoga playing a prank on us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈，我也出了一份力呢！",
+			say = "Hehehe, I also helped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
-			say = "“那个，你听说了吗？听说港区的仓库闹鬼了呢！”",
+			say = "\"Hey, did you hear? Rumor has it the warehouse in port is haunted!\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 108020,
 			actorName = "???",
-			say = "“怎么可能啦！虽然说是万圣夜，但是幽灵什么的是不存在的吧！”",
+			say = "\"How is that possible!\"... \"Even though it's Halloween, actual ghosts shouldn't exist!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个时候的声音原来是大青花鱼吗！",
+			say = "The voice I heard that time was actually from Albacore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，我的演技还不错吧~",
+			say = "Hehehe, looks like my acting chops were not bad~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算幽灵是恶作剧，刚才的扫帚是怎么回事…疑、扫帚呢？",
+			say = "Even if ghost is a prank, how can you explain what happened just now with the...broomstick, eh,where is the broomstick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个的话…刚才夕张已经全收回去了，说是为了下次的试验，还有一些地方要调整……",
+			say = "Well that... Yuubari just collected all of them. She said for the next test, they still need to be adjusted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,8 +274,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 205031,
-			actorName = "纳尔逊&{namecode:48}&贝利",
-			say = "恐怖！？",
+			actorName = "Bailey & Isuzu & Nelson",
+			say = "Terror?!",
 			subActors = {
 				{
 					actor = 302051,
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是万圣节的余兴节目么…虽然已经预想过是恶作剧了，没想到连港区的科研力量都用上了…",
+			say = "Is this typical for Halloween... I mean I knew it was going to be a prank, but I didn't expect you girls to use the research tech from our port laboratory",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在天上飞的感觉贝利很喜欢呢！贝利想再来一次！",
+			say = "Bailey really enjoyed flying in the sky! Bailey wants to do it again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "那，那幽灵小姐也不会再出现了吧……",
+			say = "So, Miss ghost will not appear again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦好啦，「万圣节捣蛋作战」也算是顺利完成了喵~",
+			say = "Relax relax, we should consider this \"Happy Halloween Trick or Treat\" to be a success, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是{namecode:19}准备的南瓜派喵，大家一起来吃喵~",
+			say = "This is the pumpkin pie prepared by Kagerou? Great, let's dig in everyone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，飞行的感觉如何呢？",
+			say = "Sister, how does it feel to fly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "意外的还不错…啊！罗德尼！你一开始就知道这些的吧！",
+			say = "Wow, this turned out actually not bad... Ah! Rodney! You knew all along from the beginning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，从{namecode:98}那里拿到万圣节服装的时候就知道了，也没什么不好的嘛，姐姐不也玩得很开心~",
+			say = "Hehe, I knew right after I received the costumes from Akashi. No harm no foul, you seemed to have enjoyed yourselves~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵…经过这么一番宣传，今年的魔女服装应该不愁卖不出去了喵，{namecode:98}真是天才喵！",
+			say = "Hmm... After such a public showing, those witch costumes must be sold out by now, Akashi is such a genius!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "罪魁祸首原来是{namecode:98}吗！？",
+			say = "That means the original culprit must be Akashi?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵？！喵喵…离、离万圣夜结束还有不少时间，大家请尽情享受喵！",
+			say = "Meow?! Pur... Nya~ There's not much time left for Halloween, please take advantage and enjoy the remainder of your time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,8 +516,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 101271,
-			actorName = "贝利&{namecode:48}&恐怖",
-			say = "好！",
+			actorName = "Bailey & Isuzu & Terror",
+			say = "OK!",
 			subActors = {
 				{
 					actor = 302051,
@@ -549,7 +549,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "等等，不要岔开话题啊！",
+			say = "Wait wait! Don't change the subject! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

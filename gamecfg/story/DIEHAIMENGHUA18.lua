@@ -15,7 +15,7 @@ return {
 			bgm = "nagato-boss",
 			actor = 305120,
 			nameColor = "#a9f548",
-			say = "海面正在变得汹涌，海水的质感也发生了细微变化……这种讨厌又熟悉的感觉。看来，我们距离它们的主力很近了。",
+			say = "Do you feel that? It's giving me the chills... The enemy's main fleet will be coming soon.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -41,7 +41,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种感觉…是镜面海域么？",
+			say = "\"...A Mirror Sea...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "镜面海域？…那是什么？",
+			say = "What the heck is a Mirror-C?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…和它们战斗的时候确实经常遇到很多乱七八糟的情况，海面变得像流动金属时候也有…确实有些时候很像镜子！",
+			say = "Is that what you're talking about? We occasionally spot strange weather phenomena right before these enemies appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…这个就叫做“镜面海域”么~！",
+			say = "Ohh, so that's what you mean by Mirror Sea, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（奇怪，难道她们对抗的敌人并不是塞壬？那么迟迟未到的预备舰队难道是…不会吧……）",
+			say = "(...This \"enemy\"... Is it not the Sirens?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算了，汝等忘掉吧……",
+			say = "(Then... who is this \"Antiochus?\" Could it be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家注意，又有一个坏消息。我们刚刚和白鹰舰队也失去了联络……",
+			say = "Damn... I've completely lost contact with the Eagle Union fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 305120,
 			nameColor = "#a9f548",
-			say = "和周边舰队接二连三的失去联络？！这可不是什么好兆头啊…",
+			say = "Shit... Forget about the Eagle Union, we're even losing contact with our own perimeter fleets one after another!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "洪流要来了。",
+			say = "\"...We still haven't even reached... the enemy's main fleet...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 302130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人也是这么认为的么？我也认为刚才发现的不是敌方先锋，而是敌方主力军团本身。",
+			say = "Seems like it. We've been fighting off their recon forces, but their main fleet is still further ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 302130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为前锋来说，它们的规模未免也太大了……",
+			say = "But you'd never know it based upon how big these fleets are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "……陷阱。",
+			say = "\"...It's as if they're trying to burn us out...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "？！{namecode:182}大人，您刚刚说什么？",
+			say = "...As long we keep things under control, we won't burn out.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -276,7 +276,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………{namecode:66}，你听说过「余烬」这个词么？",
+			say = "\"...Indeed. Those who burn out will become but embers and ash...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余烬…？没有听说过名字呢。是某个组织的名字么…？",
+			say = "...No. We will not. Even if we burn out, we must continue to protect the light of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好阴沉的名字，听起来就和我们很不对付……",
+			say = "Takao...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，我们是与余烬截然相反的「火炬」，为至暗之刻带来存续的光明，在此身粉碎之前，都将永远燃烧下去！",
+			say = "Be it through the flames of my cannon or the light of hope, I shall illuminate the darkness! Even if I burn through my life, I refuse to become dying embers in the wind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "火炬……余烬。",
+			say = "(Ember... and Ash...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…………！妾身明白了，这里难道是余烬最初诞生的地方么？！）",
+			say = "(...Could this dream be... of their creation...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人，一会战斗打响之后，决战兵器的安全就拜托您了。",
+			say = "Lady Shinano, I'm entrusting you with activating our \"trump card\" when the time comes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……嗯，交给妾身吧。",
+			say = "\"......Very well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "同样的画面居然又一次出现在眼前…胡德上将，如果换做是你的话会怎么做呢…",
+			say = "If I were to face the same situation again, what would I do if I were you...Admiral Hood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "好吧",
+			say = "Very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "至少这一次，不会再逃避了…",
+			say = "At least this time... I'll face the enemy head on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "天佑女王！",
+			say = "For the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

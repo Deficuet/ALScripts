@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"Wolf Unit",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"Flagship: Kursk",
 					2
 				},
 				{
-					"塞壬第二防御圈外侧·某处",
+					"Objective: Scout the region",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯，撤到这个位置就差不多了。",
+			say = "We should be safe here.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "接下来我们要做的……就是隐藏自身的位置，耐心等待。",
+			say = "Now, we should hide and trail them from a far enough distance that they don't detect us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "喔~~我懂你意思了！",
+			say = "I think I see how you're thinking now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "不论我们在调查的异常点是什么，这里肯定对于塞壬很重要。",
+			say = "Whatever this anomalous wavelength we're looking for is, it must be something important to the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "那个META再这么行动下去的话，塞壬一定不会坐视不理。",
+			say = "And if that META keeps on wreaking havoc after what she did to those Siren ships, they're sure to come and try to stop her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "你是想先让塞壬帮我们削弱她对吧！",
+			say = "Which means if we back off, we can let the META weaken the Sirens first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "没错，两虎相争，猎人得利。",
+			say = "You are correct. We pit the META and Sirens against each other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "现在各处的战线都很顺利，我们有充足的时间完成任务。",
+			say = "The other units are doing well. We have time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "异常信号还在么？",
+			say = "Has the anomalous wavelength moved?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯，还在。看来对面在遭受到我们的干扰后也改变了行动方针。",
+			say = "It hasn't moved yet. Maybe she's already fighting Sirens?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "…………呵呵，塞壬已经去了。",
+			say = "Good. We don't know how much of a fight the Sirens will put up against her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "就让我们在阴影中，等待加入这场狩猎的最佳时机吧……",
+			say = "But let's wait and watch for now. I'll have Flea continue to monitor them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,10 +270,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "……滋……滋滋………",
+			say = "*bzzzzzt*...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯？海域中的干扰强度应该不足以扰乱我们的通讯了才对。",
+			say = "...Hm? I can't make out what's being said.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "……难道是出故障了么？",
+			say = "The jamming device should be destroyed by now... Is the communicator broken?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "这种小问题，敲一敲说不定就好了，看我的~",
+			say = "Here. Let me try this really smart method Soobrazitelny taught me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "砰————",
+			say = "*pow!* *bang!* *crash!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,11 +351,11 @@ return {
 		},
 		{
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "…[杂音]…我是…[杂音]…{namecode:530:同盟}…[杂音]…",
+			say = "Soyuz... Read me...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -371,7 +371,7 @@ return {
 			actor = 705070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……好像还有点问题……不过已经有声音了！",
+			say = "Mm... Still not fixed, huh? At least we can kinda hear people now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘……",
+			say = "I can't believe it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,10 +412,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…我们正…[杂音]…全面…[杂音]…状态…[杂音]…",
+			say = "Current situation... We are... Fully...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -424,10 +424,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…极地风暴…[杂音]…终止…[杂音]…",
+			say = "Must terminate... Mission at once...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -436,10 +436,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…所有舰队…[杂音]…于…[杂音]…集结…[杂音]…",
+			say = "Whole fleet... Assemble at... I repeat...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -448,10 +448,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "……滋……滋滋………",
+			say = "*bzzzzzt*...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -467,7 +467,7 @@ return {
 			actor = 705070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……………………？",
+			say = "Wh-what's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "虽然没听清……不过刚刚的内容是不是说…………",
+			say = "I couldn't hear that well, but she said we're terminating the mission, right?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "立刻呼叫{namecode:529:苏维埃同盟}，询问一下到底发生了什么事！",
+			say = "I'll contact Soyuz. We need to figure out what's happening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "无应答。",
+			say = "...No answer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "圣彼得伯格司令部呢……？",
+			say = "What about the port and dock?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……无应答。",
+			say = "Likewise. No Western Europa base is picking up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "直接呼叫最高苏维埃试试看！",
+			say = "There's no choice. We need to contact Comrade Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "…………也无应答。",
+			say = "I tried that, too... Still no luck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能听到么，「孤狼」分队！",
+			say = "Wolf unit, can you hear me?! Answer at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "极地风暴行动已终止，请解除无线电静默状态，立刻回复！",
+			say = "This is the Fist unit. The operation has been terminated! Break radio silence and respond immediately!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "我是伏罗希洛夫……通讯良好，请讲。",
+			say = "This is Voroshilov of the Wolf unit! We can hear you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了……还能联系到你们！",
+			say = "Oh...! Thank goodness you're safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………你们收到广播了么？",
+			say = "Did you hear Soyuz's broadcast message?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "我们已经收到了，虽然内容断断续续的……到底是怎么回事？",
+			say = "Yes, though intermittently, due to interference. What in the world is going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我们也一头雾水……",
+			say = "We don't have a full grasp of the situation, either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,7 +743,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前可以确定的是，我们已经失去了与整个圣彼得伯格的联络。",
+			say = "However, we've confirmed that we have lost all contact with Western Europa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过与极地海域中的舰队和周边基地的联络都是通畅的。",
+			say = "However, it seems we can communicate with other units and patrols in the region without issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……总而言之，我已经将北地群岛基地作为舰队集结点。",
+			say = "For the time being, we are to gather at the operation's advance base in the archipelago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请各位保持冷静，专注于摆脱塞壬舰队的追击。",
+			say = "If there are any Siren pursuers, do not panic; fight them off with cool heads.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等到脱离危险区域，回到集结点之后，我们再做下一步打算。",
+			say = "Once everyone has evacuated from the danger zone and gathered at the rendezvous point, we will gather information and consider our next moves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "就现状而言……也只能这样了。",
+			say = "Understood... I suppose this is our only choice for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，让我们北地群岛基地见。",
+			say = "Unfortunately, that seems to be the case. Anyway, I'll see you at the base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯……我们北地群岛基地见。",
+			say = "Right. See you there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=60>就这样，极地上空的风暴暂时停止了。</size>",
+					"It seemed as though the storm raging over the Polar North had ceased for the moment.",
 					2.5
 				}
 			}
@@ -897,7 +897,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=60>而更大的风暴，似乎已悄然来临——</size>",
+					"However, they were oblivious to the greater threat that approached––",
 					1
 				}
 			}

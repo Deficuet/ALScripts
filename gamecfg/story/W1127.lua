@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "也许是因为能源耗尽，塞壬增援装置停止运行了……",
+			say = "The Siren communications device has stopped running. It must've run out of power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "了解",
+					content = "Let's keep looking around.",
 					flag = 1
 				}
 			}

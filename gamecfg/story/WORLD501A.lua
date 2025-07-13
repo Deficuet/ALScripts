@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "xinnong-3",
-			say = "NA海域 核心区域外围海域",
+			say = "NA Ocean - Core Sector",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "出航之后，一直能感受到一股极具压迫感的视线……",
+			say = "It feels like someone has been watching me ever since we set off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "盯…………（无言）",
+			say = "*staaaaaare*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			},
 			options = {
 				{
-					content = "主动打招呼",
+					content = "\"Hey, Reno?\"",
 					flag = 1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊！指、指挥官，有什么需要我做的事么！",
+			say = "Whuah! Wh-what is it, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 			},
 			options = {
 				{
-					content = "放松",
+					content = "\"You seem on edge.\"",
 					flag = 1
 				},
 				{
-					content = "深呼吸",
+					content = "\"Take a deep breath.\"",
 					flag = 2
 				}
 			},
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "难……难道我的紧张被指挥官发现了……",
+			say = "Oh geesh, you noticed I'm feeling nervous, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "那种巨大的视线压迫感，没有发现才很奇怪。",
+			say = "It'd be hard NOT to notice when someone is staring at you nonstop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "整个舰队的温度都好像都因为你那热烈的眼神升高了好几度哦~",
+			say = "Yeah. You could've stared a hole through the glass with that intense gaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！！抱、抱歉！完全没有意识到……",
+			say = "Th-that bad? Sorry 'bout that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "我一直都在等待这一天……终于，第一次！能有和指挥官并肩战斗的机会了！我实在是无法抑制激动的心情嘛……",
+			say = "It's just... I'm insanely fired up to finally get to fight side-by-side with the Commander! I've been waiting for this day for ages!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（……这种时候应该说些什么好。）",
+			say = "It's great she's so enthusiastic, but I'm not sure how to respond to that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,15 +207,15 @@ return {
 			},
 			options = {
 				{
-					content = "为什么要这么激动？",
+					content = "\"Someone's really excited, huh...\"",
 					flag = 1
 				},
 				{
-					content = "很高兴能和你并肩战斗，里诺。",
+					content = "\"I'm glad to hear it.\"",
 					flag = 2
 				},
 				{
-					content = "我也一直在等待和你并肩战斗的机会",
+					content = "\"I've been waiting for a long time for this too.\"",
 					flag = 3
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "......欸，因为指挥官对我来说就是拯救世界的超级英雄一样的存在啊！",
+			say = "Yeah, and why wouldn't I be? You want to save the world, just like a superhero would!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "这么说我这次就像是指挥官身边的助手型角色………嘿嘿嘿嘿…………",
+			say = "And if you're a superhero, that makes me your sidekick, sort of! Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "啊啊啊啊啊！！请、请多指教！指挥官！我会全力支援你的，让我们潇洒的完成任务吧！",
+			say = "Heck yeah! Together, we'll beat those Sirens and save the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "能和超级英雄一样的指挥官一起行动，哎？这么说我这次就像英雄身边的助手型角色………嘿嘿嘿嘿…………",
+			say = "You'll be the superhero the world needs, and I'll be your trusty sidekick! Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "真、真的么！里诺啊，今天可能会是你记忆中最开心的一天！！",
+			say = "Seriously?! Oh my god, this is the best day of my life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 3,
-			say = "指挥官，您对于我来说就像是拯救世界的超级英雄一样的存在，本次行动我会拼尽全力支援你的，让我们潇洒的完成任务吧！",
+			say = "I'm so happy to hear that, because you're like a superhero in my eyes, Commander! I'm gonna support you 110% in this upcoming battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "不过这么说我就像是指挥官身边的助手型角色一样了？嘿嘿嘿嘿…………",
+			say = "And... if you're a superhero... then that makes me your sidekick, sort of! Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，舰队即将抵达预设侦察区域。",
+			say = "Analysis program synchronization complete. We will soon enter the mission zone.",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风暴的边缘变得越来越清晰了，这么近距离看上去真是压迫感十足。",
+			say = "It's getting easier to see through the clouds as we come closer. Looking at it now up-close, it's frightening just how huge this storm is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比我们之前在百慕大海域中心见到的夸张多了……",
+			say = "Yeah. The storm we observed in the Bermuda Triangle doesn't even hold a candle to this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "虽然尺寸和颜色有差异，不过这种怪异的压迫感会不会也是某种奇异点？",
+			say = "The color and scale being different is one thing, it's the intensity that puts it on another level. Makes me wonder... what if it's a Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "到目前为止，没有出现接近奇异点的那种异样感……",
+			say = "Doubtful. It doesn't really FEEL like the other Singularities we've encountered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过我们对于奇异点的了解还不多，如果真的是某种奇异点的话，倒是能解释余烬频繁出现在NA海域中的原因……",
+			say = "But on the other hand, we know very little about Singularities. If this is one, that could explain why the Ashes keep showing up in these waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "等我们完全肃清海域中的塞壬后，再进行进一步———",
+			say = "At any rate, we have to eliminate all the Sirens in the area, and then–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "大家小心，塞壬开始行动了。",
+			say = "Shoot, they're coming for us! Everyone, get ready to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：发现塞壬舰队正在接近。建议，舰队进行应急准备。",
+			say = "Detecting approaching Sirens. Preparing for combat is recommended.",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "居然比领航员系统的反应速度还快……真不愧是身经百战的企业！",
+			say = "(She sensed they were coming even before TB did! That's the kind of intuition that takes a thousand battles to develop!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一看到我们靠近就立刻做出反应，看来核心区中的塞壬指挥系统是在线。",
+			say = "There's a good chance they're controlled from a remote command center, judging by how quickly they reacted to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "注意避战。",
+			say = "\"Remember, we're only here to gauge the size of their forces. Don't overextend, and avoid combat if possible.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队改变航向适度远离中心区域，我们的任务是侦察，不要和塞壬硬碰硬！",
+			say = "You heard the Commander. I'll adjust our course to keep us some distance from the eye of the storm. Only engage the Sirens if you need to!",
 			effects = {
 				{
 					active = true,

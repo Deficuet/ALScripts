@@ -13,7 +13,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现指挥官！萨拉妹妹把舰队平安带来咯~",
+			say = "Commander spotted! Saratoga's making her grand entrance!",
 			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "辛苦了，干得好，基洛夫、甘古特、明斯克！",
+			say = "Gangut, Kirov, Minsk, it's great to see you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，这点小事，还难不倒我基洛夫啦~",
+			say = "Heh, there's a ton of enemies...! Can you still do this, Gangut?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈！也算是有痛快地战斗过了！不错！",
+			say = "Don't underestimate me, Kirov! Our souls burn most brilliantly only in the face of adversity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明斯克，完成任务顺利归来~嘿嘿",
+			say = "Heheh, we've managed to join with the others thanks to my inspiration!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官没事真是太好了！你们就是北方联合的主力舰队…？",
+			say = "I'm so glad you're safe, Commander! And these are the girls from the Northern Parliament?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的各位也辛苦了呢，都没有受什么伤吧？",
+			say = "Indeed, are you ready to fight with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "经过一番介绍，这次的联合作战成员算是真正地集结了。",
+			say = "The combined coalition of Eagle Union and Northern Parliament ships will intercept the Siren fleet.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -161,7 +161,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，对了！听我说啊，从刚刚路上开始通讯器就被一个嚣张的人给黑了，跟你们也联络不上了！",
+			say = "Oh, that's right! During that call we had earlier, an unknown enemy suddenly showed up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这边也遇到同样的情况了呢，呵呵，能顺利合流真是太好了~",
+			say = "We saw her too... But right now, our main priority is to defeat the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈！再来就是令人热血沸腾的最终决战了吧！",
+			say = "That's right! This is the last battle, so we've gotta make the ground run red with blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "кролик也准备好了…！",
+			say = "кролик is ready too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Давай, пойдём на войну（走吧，让我们大干一场）！",
+			say = "Follow us to glory, Eagle Union!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！让塞壬迎接她们的末日！",
+			say = "Northern Parliament Combined Fleet, prepare for battle! Give these Sirens a taste of our true power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			},
 			options = {
 				{
-					content = "目标塞壬要塞最深处，全舰前进！",
+					content = "Let's head towards the deepest part of the stronghold!",
 					flag = 1
 				}
 			}
@@ -264,9 +264,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_cccp_7",
-			actorName = "全员",
+			actorName = "Everybody",
 			dir = 1,
-			say = "Ура！/哦！",
+			say = "Let's go!!",
 			effects = {
 				{
 					active = true,

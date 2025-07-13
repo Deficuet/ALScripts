@@ -11,18 +11,18 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第二乐章\n\n<size=45>「极度的渴望～Von der großen Sehnsucht～」</size>",
+					"Third Movement\n\n<size=45>Great Longing</size>",
 					1
 				}
 			}
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我们凭什么相信你",
+			say = "... I have no reason to listen to a single word from you Sirens.",
 			useBg2 = true,
 			bgm = "bsm-2",
 			bgAspectMode = AspectMode.FitInParent,
@@ -37,12 +37,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "凭铁血目前的处境",
+			say = "Ahahaha~ Be silent and listen carefully, you insignificant being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,12 +54,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "……",
+			say = "How dare you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,12 +71,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "按照历史的进程，铁血将会很快从这片大陆上被抹消掉",
+			say = "If this continues, Iron Blood will cease to exist in this world, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "而你们的对手，将在原本属于你们的家园里享受胜利的美酒",
+			say = "Your enemies will hurt those you wish to protect, steal your riches, and make your oceans their own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "这是多么屈辱的画面啊~",
+			say = "I suppose one would call it a humiliating defeat, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,12 +122,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "想想你的战友、想想你还没服役的妹妹吧",
+			say = "None of your comrades will be spared of the bitter taste of this defeat. Especially not your dear sister Tirpitz... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,12 +139,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "难道，你们还想再品尝一次“第十一节”的屈辱吗？",
+			say = "You don't want to suffer another Article 231, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,10 +158,10 @@ return {
 			nameColor = "#ffde38",
 			side = 0,
 			bgName = "bg_bsm_5",
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			dir = 1,
 			useBg2 = true,
-			say = "闭嘴！",
+			say = "Silence!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -178,12 +178,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "铁血上千年的传承岂会因为一两次的失败而消亡？",
+			say = "The Iron Blood is not so brittle that it would crumble from a few isolated defeats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,12 +195,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我会重新带领战友和人民取得荣耀，将你们彻底赶回黑暗的海底!",
+			say = "We will seize victory and eradicate you once more, you despicable enemies of humankind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,12 +212,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "人类有一句谚语",
+			say = "Ahaha... Let me tell you something I once heard from a human...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,12 +229,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "“人跟树是一样的，越是向往高处的阳光，它的根就越要伸向黑暗的地底”",
+			say = "\"Humankind, much like a tree, wishes to grow to reach the clouds; the light; the Heavens. As its branches grow, its roots do, too. Deeper and deeper into the ground; into darkness; towards Hell.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,12 +246,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "难道，你不向往日出吗？",
+			say = "And is it not the light that you desire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			side = 0,
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "多说无用，Feuer！",
+			say = "I have no more to say to you... Main guns, feuer!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -317,12 +317,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "这样软弱的武器是无法为民族带来未来的",
+			say = "With this little power, your wish hasn't the slightest chance of being granted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,11 +334,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "好好想想，你们有什么利益是值得我们贪图的？",
+			say = "Think about it. Just what do YOU have that WE want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,12 +350,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "科技、财富、还是大洋？",
+			say = "Your inferior technology? Your nonexistent resources? Your waters, which we've already claimed for ourselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,12 +367,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "你们一无所有",
+			say = "You have nothing, not a single thing worthy of our interest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,12 +384,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,12 +401,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "皇家舰队有着数倍于你们的实力，甚至封锁了原本属于你们的海洋",
+			say = "Just the Royal Navy alone is many times powerful than you. If they so wanted, they could keep your trade routes blockaded in perpetuity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,12 +418,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "你的对手并不是我，而是一海相隔的她们",
+			say = "If you'd realize that it's they, not us, who are threatening your existence, then you'd be able to understand the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,12 +435,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "和那些愚蠢的蛮族相比，相信你更能理解大局的重要性",
+			say = "You may not believe it, but unlike those hypocrites who only pay lip service to the idea of liberty and justice, we will actually hold you in high regards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,12 +452,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "我将开启未来的钥匙交给你了。它能给你带来毁灭，也能带来希望",
+			say = "Which is why I gave you the key to your future. But how you use it is up to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,12 +469,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "至于要成为科学的牺牲品，还是成为巨轮下的残渣，就看你自己的选择了",
+			say = "Whether this forbidden power leads to a bright new future for you and your comrades or a tragic repeat of the sorrowful demise you've known before, all depends on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			useBg2 = true,
-			say = "我们还会再见面的",
+			say = "... I assure you, we will meet again. Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,12 +503,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "……",
+			say = "... Throughout the whole ordeal, I was trembling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,12 +520,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "过大的差距，在协议桌上甚至没有任何谈判筹码…么",
+			say = "Such power, vast beyond measure. There was never any room for discussion, let alone debate... I had no choice but to accept the power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,12 +537,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "宰相大人，如果是您的话…究竟会如何选择呢…",
+			say = "Chancellor... if you were in my place, what would you do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			actor = 207040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "再次发现目标，确认目标铁血战舰{namecode:435}号，请求发动空袭",
+			say = "Ahah, I've discovered Bismarck! May I scramble my planes?",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-1",
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，航空力量果然值得信赖，允许对目标发动攻击",
+			say = "Certainly. Permission granted. Show her the might of our aircraft carriers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队特殊作战所属，胜利号航空母舰，舰载机出击！天佑女王！",
+			say = "Understood! This is Victorious, commencing plane launch! God save the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

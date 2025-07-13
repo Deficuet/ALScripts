@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "经过数日航行后，{namecode:450}与{namecode:442}来到了任务书中指定的海域。",
+			say = "Mirror Seas. Pocket dimension created by the Sirens.",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "只是一眨眼之间，原本风平浪静的无垠海面上就出现了大量机械结构的人工设施。",
+			say = "These artificial dimensions are almost completely cut off from the outside world. On the inside, they have their own environment, structure, and even physical laws.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "此处名为镜面海域内侧，是一种与外侧截然不同的，另一种风景。",
+			say = "Indeed, a Mirror Sea can exist within a place that appears completely empty from the outside. That there would be a huge island inside with a large array of facilities is not beyond the realm of imagination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "铁血试验场·休息区",
+			say = "Mirror Sea - Iron Blood Encampment",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦……这里就是我们的基地么。",
+			say = "Woah, so this is our Mirror Sea research facility...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "虽然从外面看上去有点阴森，不过走进来就是另一种感觉了！",
+			say = "It looks like another gloomy Siren construct from the outside, but once you walk inside, it's actually rather comfy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "是啊~生活设施一应俱全，场地也十分宽广，简直就像度假区一样~",
+			say = "No kidding! With how spacious and fancy this place is, it seems more like a luxury resort than a base of operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "哎嘿嘿，接下来一段时间我们就要在这里度过了啊。",
+			say = "Is this where we're goin' to stay until the end of our experiment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "嘿咻————",
+			say = "Whew~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "{namecode:450}径直扑向了摆在休息室的巨大沙发，然后拿出了指令书。",
+			say = "Blücher plopped herself down on a sofa inside the rest area and opened up the mission briefs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "接下来要进行漫长的对抗演习，不好好熟悉一下这里的设施可不行。",
+			say = "That's right. We're gonna be here for a long, long while, so we might as well make ourselves at home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "让我再仔细看看哦……舰队……棋子……雕刻车间……",
+			say = "Hmm, let's take a look around. This is the rest area... And here's the fleet... Um, is this a crafting room and a workshop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 6,
-			say = "棋子和雕刻车间？我还从来没有见过棋子被生产出来的样子呢，{namecode:450}你见过么？",
+			say = "This must be where the Sirens make their Pawns! It's my first time seeing something like this! How 'bout you, Blücher?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我也完全没。毕竟塞壬在以前也不会主动让我们看嘛~",
+			say = "Well yeah. It's not like the Sirens normally let us wander around their facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "而且这次使用到的棋子是特制的，战斗力和自主作战能力得到了全方位的强化……",
+			say = "And if I'm seeing this right... This Mirror Sea can produce upgraded Pawns with enhanced combat capabilities and more autonomy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦……上面还写了我们和棋子的战斗力都会根据演习规则进行了调整。",
+			say = "I guess they've been modified for the purpose of our experiment, just like our own riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "如果像以前那样不管不顾地冲锋，说不定会全军覆没……",
+			say = "Remember to be careful though. If you charge in recklessly against these kinds of enemies, you might end up injured, experiment or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 403020,
-			say = "好可怕好可怕……",
+			say = "Heheh☆ Pretty spooky stuff, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "就在{namecode:450}研究指令书的时候，{namecode:442}正在津津有味地巡视着餐饮区。",
+			say = "While Blücher was running through operational briefs, Z16 was investigating the empty canteen next door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇！{namecode:450}，我看了一下，这里的菜单还蛮丰富的！",
+			say = "Would you look at that, Blücher, the pantries are totally stocked with goodies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "不光是本土菜，鸢尾菜皇家菜、甚至撒丁菜都有哦，{namecode:450}你要不要吃点什么？",
+			say = "They've got all sorts of food here! It's not just Iron Blood stuff, they've got Iris, Royal, and Sardegnian cuisine as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔……“如果当日战斗的舰队全灭或者旗舰被消灭，则会视为战斗失败并失去一小块海域的控制权。”",
+			say = "I see, I see... Each sea area is divided into smaller sectors. If the flagship of a sector is incapacitated, then that sector will be considered \"captured.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "然后……“在夺取了足够多的海域之后，便可以对对方的基地发动攻击。”",
+			say = "Once enough sectors have been captured, then it will be possible to attack the enemy's base of operations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401160,
-			say = "{namecode:450}！你有在听么！",
+			say = "Blücher, are you listening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "啊？！你刚才说什么……？",
+			say = "What was that again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "我在说吃饭的话题！",
+			say = "I just checked out the canteen! We've got lots of good stuff here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "真是的……走了一路你不饿么？吃完饭再看呗。",
+			say = "Aren't you hungry after we spent such a long time sailing? Let's chow down before we get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "测试战斗也不是一会就要打吧。",
+			say = "It's not like we can start the operation before startin' these facilities up anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "啊哈哈……说的也是。{namecode:442}打算吃什么？",
+			say = "Hmm, you do have a point... So, what are you gonna have?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "烤猪肘，土豆泥还有酸菜丝！",
+			say = "Schweinhaxe, Sauerkraut, and Kartoffelbrei!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "那我就蹭点你的肘子，然后再来点香肠和烤蔬菜好了！",
+			say = "Get me some Schweinhaxe as well then. And some wurst and grilled veggies to go with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔……“直到任何一边的基地被攻陷之前，实验不能停止，也不能被外部干涉。”",
+			say = "Now let's see... Until one of the operational bases has been captured, we won't be able to leave the Mirror Sea, nor will anything be able to come in from outside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "呜啊——！！",
+			say = "...What the heck is this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "……这次又怎么了？",
+			say = "Gah! What are you yelling about all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "给，饭做好了哦。用自动化生产线做菜效率就是高啊。",
+			say = "That was a close one... I almost dropped the food you asked me to bring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "“第一天的作战从下午三点开始。”",
+			say = "Appreciate it. Uhh... The operation will begin at 3 P.M. on the first day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "哈啊？！为什么会在第一天就安排作战啊！",
+			say = "Huh?! We're already going to have to fight on the first day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "……现在几点了？",
+			say = "What time is it anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "十一点半……而我们还完全没进行过舰队检查。",
+			say = "It's already 11:30, and I haven't even inspected the facilities yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 6,
-			say = "………………",
+			say = "Uh-oh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
-			say = "快点吃！吃完之后咱们快去船坞看看，该准备参战舰队了！！",
+			say = "Let's finish eating quickly and inspect the conditions of the facilities and the Pawns!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

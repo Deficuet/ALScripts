@@ -45,6 +45,7 @@ function var_0_0.OnInit(arg_1_0)
 				local var_2_2 = arg_1_0.summaryInfoVO.furnitures[var_2_1]
 				local var_2_3 = pg.furniture_data_template[var_2_1]
 
+				assert(var_2_3, var_2_1)
 				GetImageSpriteFromAtlasAsync("furnitureicon/" .. var_2_3.icon, "", arg_2_2:Find("icon/Image"), true)
 				setText(arg_2_2:Find("controll/name/Text"), var_2_3.name)
 				setText(arg_2_2:Find("from/Text"), var_2_3.gain_by)

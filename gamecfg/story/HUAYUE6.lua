@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>六　幸福将要来临</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 6 Two Footsteps, Approaching Happiness</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "四季轮转，时光飞逝，悄然又是一年新春。",
+			say = "Time would always fly by whenever we spent the day together at the garden room.",
 			bgm = "story-china",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "从春天的百花齐放，夏天的生气勃勃，再到秋天的赏心悦目，冬天的雪里暗香，四季的花景各有各的特点。",
+			say = "Sometimes colorful, sometimes lively. Sometimes gloomy, sometimes extravagant. The scenery was never the same on any two visits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "没想到就这样在花房之中与{namecode:29}一同看完了四季花景。",
+			say = "Looking back to the days of enjoying the flowers that bloomed across the four seasons, those times seemed to both last forever, yet also pass in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "报春花和冬梅，还有圣诞玫瑰……呜，您觉得哪个底色的花会比较适合做成送给同伴们的花束呢。",
+			say = "Primrose, winter plum, or Christmas roses... Commander, which do you think would serve as the best base for a bouquet to give to your friends?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -89,7 +89,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明新春宴会就快开始了，我却还没选好做花束该用的花……",
+			say = "Ugh... Another party is coming up soon, but I'm having trouble deciding once again...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -107,7 +107,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……？怎么感觉您好像在发呆的样子……",
+			say = "Um, Commander? Are you alright? You seem to be pretty out of it today...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -122,7 +122,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "抱歉，刚刚正在感慨时间的流逝与四季的轮转。",
+			say = "\"Oh, sorry. I was just thinking about all the time I've spent with you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……确实又是一年新春到了呢。",
+			say = "Mm. Yeah, I think about that too. I cherish every moment I spend with you, Commander, but it feels like it goes by way too quickly...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -153,7 +153,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过比起感叹过去，着眼于现在更重要哦……！",
+			say = "But because it feels like that, I'm always reminded... that I have to live in the present, and appreciate each and every moment that much more.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -171,7 +171,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您看，圣诞玫瑰清新又典雅，做出来的花束会非常大气漂亮呢……不过是不是有些太素了？",
+			say = "In any case... I think a white rose would make a great base. It's gorgeous and symbolizes good fortune, but... Hmm, maybe the color is a bit too light...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_157",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果用明媚灿烂的冬梅，虽说在色彩上足够了，但在香味的表达上总感觉有些欠缺……",
+			say = "Adding some winter plum flowers should really liven up the colors, but I still need to give some extra consideration to the aroma...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -206,7 +206,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于报春花……虽然漂亮的同时又有浓郁的香气，但红黄相间的颜色总让人感觉有些太热烈了呢……",
+			say = "The primrose should balance the color and fragrance out nicely, but then the question is, which flower will end up taking center stage in the display...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -224,7 +224,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我不行了……指挥官，来选一个吧————！",
+			say = "I can't decide after all... Commander, please come help me!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -236,15 +236,15 @@ return {
 			},
 			options = {
 				{
-					content = "圣诞玫瑰",
+					content = "\"The Christmas roses are fine.\"",
 					flag = 1
 				},
 				{
-					content = "冬梅",
+					content = "\"I like the winter plum flowers.\"",
 					flag = 2
 				},
 				{
-					content = "报春花",
+					content = "\"Let's go with the primroses.\"",
 					flag = 3
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好……既然指挥官觉得这样合适，那就采用这个方案了！",
+			say = "Thank you, Commander! Let's go with your suggestion then.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -274,7 +274,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼~试着搭配了一下，感觉确实很不错，不愧是已经变成花卉大师的指挥官的选择！",
+			say = "Wow, that really came out great! I'm really impressed by how knowledgeable you've become about flowers!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -309,7 +309,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！时间差不多到了……指挥官，该换衣服去参加宴会了！",
+			say = "Oh, look how late it is. Let's get dressed and head to the party.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -337,7 +337,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后如果不介意的话……请拿上这个！",
+			say = "And before we go, don't forget about this!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -352,7 +352,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "{namecode:29}转过身，拿出一束火红的蝴蝶兰。",
+			say = "Hanazuki holds up a bouquet of red moth orchids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个是{namecode:29}给指挥官做了特别的花束——专属于您一个人的！",
+			say = "This is a special bouquet I prepared just for you, Commander! Heehee~ You're the only person I'm doing this for!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -383,7 +383,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只有这一束，花的类型是由{namecode:29}自己做出的决定……希望您能喜欢！",
+			say = "I put quite a lot of time putting it together, so I hope you enjoy it!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -395,11 +395,11 @@ return {
 			},
 			options = {
 				{
-					content = "这个是在温室培育的么？",
+					content = "\"These flowers look pretty familiar...\"",
 					flag = 1
 				},
 				{
-					content = "[摸摸榵的头]",
+					content = "Pat Hanazuki on the head.",
 					flag = 2
 				}
 			}
@@ -413,7 +413,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "没错哦！不愧是已经变成花卉大师的指挥官！",
+			say = "That's right! They're the ones we planted in the garden room. I'm glad you even remember what they look like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官……诶嘿嘿……",
+			say = "C-Commander... Ehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我有一个不情之请。",
+			say = "Umm... Actually, I have one more request...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -467,7 +467,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等到宴会结束之后，可以陪我看一会的烟花么？我……有话想对您说————",
+			say = "Would you stay after the party to watch the fireworks with me? There's something I want to tell you then...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

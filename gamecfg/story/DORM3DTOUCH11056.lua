@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey，这份悸动……只属于你哦……",
+			say = "Do you feel my heart throbbing? It's all because of you...",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_gfit2_tone4",
 			typewriter = {
 				speed = 0.05,

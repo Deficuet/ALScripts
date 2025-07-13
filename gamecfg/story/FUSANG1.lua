@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>一  所寻找的物品是？</size>",
+					"After the Flowers Bloomed\n\n<size=45>1 The Lost Purse</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "为了增强舰队实力，需要在港区内建设一个新的补给仓库。",
+			say = "In order to strengthen the fleet's operational abilities, I decided to build another supply depot in port.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "一边走一边思考建造地点的问题时，发现了一个躺在路中央的抽绳袋。",
+			say = "While pacing around thinking about where to best build it, I saw a drawstring purse lying on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,23 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "捡起来摇了一下袋子，里面传来硬币碰撞的叮当声。到底会是谁落下的呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "钱包…掉到哪里去了……",
+			say = "I picked up the purse and shook it around, the ringing of coins coming from within. Who had dropped it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +86,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官殿下——",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,22 +102,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸——那个钱包是我刚才不小心掉的……您是在哪里捡到的？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			dir = 1,
-			say = "把钱包递给{namecode:78}后，告诉了她是刚刚在路中间捡到的。",
+			say = "Um, Milord...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +118,38 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了……我还担心它会不会掉到了排水沟里…",
+			say = "Oh! That's the purse I dropped earlier... Where did you find it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_103",
+			dir = 1,
+			say = "I handed the purse over to her, explaining that I had just found it on the side of the road.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh, thank goodness... I was afraid it had fallen into a gutter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到会被温柔的殿下捡到，实在是幸运呢。",
+			say = "It is truly a blessing that the kindhearted commander was able to find it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也是每天都在神社中祈福的回报吧，呵呵~",
+			say = "Perhaps this is a sign that my daily prayers are being answered. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,23 +206,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "掉了钱包这种事，怎么也不能算作走运吧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说起来，殿下在这里做什么呢？",
+			say = "There's no way that dropping your purse could be considered good luck, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +222,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……原来如此，是在为全新的补给仓库选址啊。",
+			say = "By the way, Milord, what are you doing all the way out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,22 +238,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "殿下觉得我和{namecode:79}所在的神社附近的那片土地怎么样？我觉得面积应该足够大哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			dir = 1,
-			say = "这么说起来，神社附近确实有块大小合适的空地……",
+			say = "...I see. You're looking for a place to build a new supply depot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +254,38 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果需要的话，下次我带殿下去那边看看吧。",
+			say = "There might be a plot of land spacious enough by the shrine that Yamashiro and I attend to.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_103",
+			dir = 1,
+			say = "Hmm... Now that she mentioned it, I did recall seeing an empty plot of land around the shrine...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I would be glad to show you around, should you wish me to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "看着微笑的{namecode:78}，自然而然的点头答应了一同去视察空地的邀请。",
+			say = "After seeing her gentle smile, there was no way I'd be able to turn down her generous offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

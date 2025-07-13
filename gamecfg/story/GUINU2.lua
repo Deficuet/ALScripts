@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>二  实力差距</size>",
+					"As Cool As A Demon\n\n<size=45>2 Differences in Skill</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "……想要磨炼意志力？这是刮的哪阵风……",
+			say = "Hah. I didn't expect you'd be on board with the idea right away. How fortunate.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也好，那就让我见识一下你的决心吧，今天就从体验我的日常剑道练习开始。",
+			say = "I've yet to do my daily sword practice, which I suspect would be a good starting point for building both your muscle and discipline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先，从空挥竹刀一千次开始。",
+			say = "Here we are. First off: do a thousand swings.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -108,7 +108,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你那是什么表情？太简单了所以提不起劲？",
+			say = "...What's with that look? Are you let down because you expected something much more involved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心，练完空挥后我会陪你对练的。先把竹刀拿起来吧。",
+			say = "Worry not. There is more training to be had afterward. Now take this bamboo sword and get started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不会吧，这就没力气了么？",
+			say = "Don't tell me you've exhausted yourself already?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "一千次空挥结束后，手臂早已变得酸胀不已……可是旁边的{namecode:181}似乎没有一丝疲倦的感觉。",
+			say = "My joints were burning with pain after swinging so much. Kinu, meanwhile, was maintaining her form and spacing her breaths well. She hadn't even broke a sweat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些出乎我意料啊。要是这点练习量就气喘吁吁了，也没力气接着对练了吧。",
+			say = "It seems I overestimated your strength. If you can't handle a thousand swings, you definitely can't keep up with the exercises that follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嗯？“没问题”么，那就尊重指挥官本人的意愿开始对练咯？放马过来吧！",
+			say = "...You want to try anyway? Very well. Then let us do a bit of light sparring. En garde!",
 			effects = {
 				{
 					active = true,
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "调整呼吸，与{namecode:181}拉开距离——然后，全力用竹刀向前挥去。",
+			say = "After taking a minute to catch my breath, I brandished my bamboo sword, mustered all my strength, and engaged Kinu in a duel.",
 			effects = {
 				{
 					active = false,
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "不出所料，所有的攻击都被她轻松化解了。",
+			say = "It went just as poorly as one would expect. She either dodged or intercepted almost every strike I made at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈！这股勇往直前的气势值得敬佩，不过实际效果上还要————",
+			say = "Hahahah! You lack the skill of a warrior, but you do have the mettle of one. That deserves praise, if nothing else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，从刚才开始你就一直盯着看什么呢？",
+			say = "...What? You keep staring at me. To what end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "站姿很漂亮，气息也很稳定，所以看入迷了……？",
+			say = "You're... captivated by how pretty I look, maintaining my form and not even breaking a sweat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……随你怎么想吧。把竹刀拿好，对练还在继续呢。",
+			say = "Fl-flatter me all you want, but I won't go easy on you just because of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "一瞬间，似乎看到{namecode:181}的脸有些红。不过她很快调整好表情重新摆开架势——说的没错，对练还在继续呢。",
+			say = "I caught a brief glimpse of a blush on her face before she turned around and resumed her sword practice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

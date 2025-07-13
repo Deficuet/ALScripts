@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "区域封锁没有被解除，选择错误了么……",
+			say = "The Siren blockade is still there. Looks like it didn’t work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，区域中的机关状态被重置了。",
+			say = "Scan complete. The device has been reset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

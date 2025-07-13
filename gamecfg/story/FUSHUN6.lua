@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "第二天一早，推开指挥室大门时看到的是——",
+			say = "Early the next morning, I enter my office as usual.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "所有昨晚没来得及收拾的书被归位、地毯和地图全都恢复原状，以及……",
+			say = "All of the books that had been left on the floor last night have been put back, and the carpet and map are in their rightful places. And...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，早呀~",
+			say = "Commander, good morning!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,70 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是在疑惑为什么是我出现在这里，而不是抚顺姐吗~？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……没错，今天的秘书舰应该还是抚顺才对。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501030,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那么抚顺姐去哪里了呢？欸嘿嘿，我不知道呢~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501030,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "说起来，指挥官昨天去和抚顺姐一起探险了吧，结果如何？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501030,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "有找到“不可思议事件”的真相吗？",
+			say = "Oh? You look confused. Are you wondering why I'm here instead of Fu Shun?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +66,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，最后发现所谓的不可思议和神秘生物就是留在那里检查的{namecode:525:英格拉罕}。",
+			say = "You read my mind. Isn't she my secretary ship for today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,88 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样啊~不过看到对方出现的时候，两边应该都吓了一跳吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "是啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（……但是长春，为什么会知道的这么清楚？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "正要开口询问，从外面就传来一阵巨大的响动，连带着指挥室的窗户都跟着震动起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501030,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "唔嗯……废弃工厂的爆破时间居然会这么早啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "应该是{namecode:525:英格拉罕}不想影响到太多人吧，所以才选了这个时间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501030,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "虽然刚知道的要爆破的时候我还挺惊讶的呢……不过现在已经爆破了就算啦。",
+			say = "Maybe she went off somewhere? Heheh, I don't really know~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +96,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~这下算是全收拾好了，我就先告辞啦。指挥官再见~",
+			say = "By the way, you went to the abandoned factory together, right? How'd it go?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501030,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Did you find the truth of one of the mysteries of the port?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,18 +129,24 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦了。早点回去休息吧。",
+			say = "We did. The shady figure appearing there lately was Ingraham.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看着被重新整洁起来的指挥室，忽然想起到一个刚刚被我忽略的问题——",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Oh, I see! Everyone must have been surprised when you ran into each other, I'd bet.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +158,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抚顺去哪里了？",
+			say = "Yes...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Why does she sound like she knows all this?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +181,116 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间后，抚顺终于回到了她应该当值的指挥室。",
+			say = "Before I can ask her, there's a loud noise outside. It's so intense that it rattles the windows.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501030,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hmm... Was the factory demolition supposed to be this early?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Ingraham probably scheduled such an early time so she wouldn't cause any trouble for people.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501030,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I was so surprised when I learned it was getting destroyed! Well, not that it matters, since it sounds like it's done.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501030,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Phew, okay! Everything's all cleaned up! Bye bye, Commander~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Thanks for your help. Take the rest of the day to rest, okay?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "As I look upon my restored office, I remember the question that Chang Chun had brushed off.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Now, where is Fu Shun?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "After a while, Fu Shun finally comes in to work late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官——！对不起，我完全忘记今天还有秘书舰的工作了！",
+			say = "Commander! Sorry, sorry! I totally forgot I had secretary work today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "身上有火药和硝烟的味道？啊~因为我去爆破现场啦！",
+			say = "I smell like smoke? Uhh, well, I went to the demolition site!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我来打开窗户散散味道哦~咦……？",
+			say = "Here, I'll open a window and get some fresh air in! Huh, wait...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昨天弄乱的东西已经全部被收拾好了？",
+			say = "You finished cleaning up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是指挥官自己做的吗？呜哇……对不起……！",
+			say = "Did you do it all yourself, Commander? Aww, I'm really sorry...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我原本是打算自己来整理的，但是没想到长春来得更早。",
+			say = "Not quite. I was planning to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她把这里收拾完了以后就走掉了。",
+			say = "But Chang Chun got here before me, finished it up, and went home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,53 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样啊……是长春啊……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嗯？我还以为她是和你商量好的，结果不是么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不是哦，我没有叫她来替我，毕竟我自己都忘记还有秘书舰的工作这码事……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "她来这里……啊，看来果然很在意那件事啊……（小声）",
+			say = "Wow... Chang Chun did it, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +445,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "Hm? Are you saying you didn't ask her to do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +458,53 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么！总之先开启新一天的工作吧！指挥官！",
+			say = "No? It's not like I told her to come in for me. Like I said, I forgot all about my secretary duty today...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "*whispering* If she came here, she must have been worried about that...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Hm?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Nothing! Anyway, let's start today's work, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "稍晚的时候，{namecode:525:英格拉罕}造访了指挥室。",
+			say = "Later the same day, Ingraham comes to visit my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "指挥官，这份文件是本日废弃工厂爆破行动的报告书，放你桌上了哦。",
+			say = "I'm here to bring the report on today's demolition of the abandoned factory. I'll leave it on your desk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:525:英格拉罕}！你来啦！上午的爆破好厉害！“砰”的一下——然后整栋楼就消失掉了！",
+			say = "Oh, Ingraham! That explosion was awesome! One big bang, and the building is gone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜我忘记带大礼花了，如果在你启动爆破装置的瞬间，我把礼花丢进去的话……一定会很精彩！",
+			say = "It's such a shame I forgot to bring fireworks! If I launched them when you detonated the building, that would've been a real sight to see!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "不要做那么危险的事情！",
+			say = "I wouldn't let you! That's dangerous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "……算了，总之姑且是顺利完成了爆破工作。",
+			say = "Anyway, the demolition was completed without issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，还有一件事……",
+			say = "And one more thing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "因为有些在意昨晚那个奇怪的响动，所以我早上又去废弃工厂那边做了一次确认。",
+			say = "That odd sound from last night has been on my mind, so I went to check on it one more time first thing in the morning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "结果发现了除了指挥官、抚顺和我自己之外，还有第四人存在的现场痕迹。",
+			say = "In doing so, I found evidence that there was a fourth person there—someone other than you, Fu Shun, and I.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然不清楚对方是谁，以及出于什么目的，为什么要和我们同时处于废弃的工厂……",
+			say = "I don't know who they were, why they were there, or if they were even there at the same time as us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "不过截止到爆破工作最终执行之前，我已经确人员全部疏散完毕，不会有任何人受伤了。",
+			say = "But I made an evacuation announcement before the demolition, and I confirmed nobody was inside, so they couldn't have been crushed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有关“现场第四人”的调查记录，我都附在报告书里了，指挥官可以看看。",
+			say = "My investigation on the fourth person is included in the report. Commander, take a look at it some time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“现场第四人”这种事怎么可能会有嘛！那可能是妖怪或者幽灵的痕迹吧，啊哈哈……",
+			say = "Th-there couldn't have been a fourth person! It must have been a ghost, or something, ahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肯定是{namecode:525:英格拉罕}你调查错了！不会有第四个人的啦~",
+			say = "I know! Your investigation must have been flawed, Ingraham! Yeah, there's NO way anyone else was there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（抚顺的掩饰方式……实在是太小儿科了。）",
+			say = "(Fu Shun... Could you be any more suspicious if you tried?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（长春会发现神秘身影、在指挥室里说的那些话，再加上抚顺奇怪的反应……第四人痕迹属于谁，答案呼之欲出。）",
+			say = "(Chang Chun in my office first thing in the morning, those odd remarks, Fu Shun's weird reaction... I think I know who that fourth person is already.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（也许抚顺早就发现了这件事？但是为了长春的感受才一直替她打掩护。）",
+			say = "(Fu Shun knows, too. That's why she's trying her hardest to cover up for her sister ship.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样看来平时只会捣蛋的抚顺，其实也是一位合格的姐姐啊。）",
+			say = "(I guess even a troublemaker like her can be a caring sister.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

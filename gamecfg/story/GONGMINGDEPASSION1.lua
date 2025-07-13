@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，又到了那个时间了喵！激动人心的「μ兵装实验测试」又要开始了喵！",
+			say = "Commander, it's time to bring back a classic, nya! We're doing another Muse System test, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "因为前两次的成功，大家的情绪都很高涨呢。",
+			say = "The last two were great successes. Everyone is raring to have a go at it a third time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯~听说上一次实验的时候就连恶毒都拿出了干劲，让我也有些好奇了。",
+			say = "Even Le Malin has gotten fired up about it. That alone makes me interested.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼，毕竟是大家都无法拒绝的偶像Live演唱会嘛！",
+			say = "Nyahaha! Of course she is – everyone loves to perform on the stage, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "按照惯例，μ兵装实验测试相关确实是由{namecode:98:明石}来向我汇报没错，但……",
+			say = "Another round of testing, huh? Not surprised to hear the news from Akashi's mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看了看{namecode:82:三笠}，又看了看克莱蒙梭，以及在指挥室门口来回徘徊似乎是在犹豫要不要进来的马可·波罗——",
+			say = "I look at Mikasa, then Clemenceau, then Marco Polo, who's standing by the door outside my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们为什么会和{namecode:98:明石}一起来啊……？",
+			say = "But why are the rest of you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "哼哼，这种盛事，撒丁帝国怎么可能会缺席？",
+			say = "Why am I here? Because this is a big event. Sardegna does not sit out on such things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "要举办Live，肯定就要有舞台喵；要有舞台，肯定就要有赞助的人选喵~！",
+			say = "You need a stage for the performers, nya. And to run a stage, you need stagehands, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}绝对不是觉得可以趁机大捞一笔所以才这么积极把大家都叫来了喵！",
+			say = "That is why they're here – and totally not because I rounded them up as soon as I saw an opportunity to make a big buck, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,19 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "忽略掉{namecode:98:明石}过于亢奋的情绪，将注意力集中在眼前的人选名单上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "——组合名称是「Alizarin（深红）」和「 Cyanidin（花青素）」么。",
+			say = "Ignoring the money-grubbing cat, I turn my attention to the list of new Muse talent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +240,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……倒是启发我了。",
+			say = "\"Alizarin\" and \"Cyanidin\" are the new units this time, eh.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Aha. That gives me an idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？指挥官想到什么了么？",
+			say = "An idea? What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这两个组合的名字带着明显的颜色属性……呵呵，原来如此，是要那么做啊。",
+			say = "They're both pigments. Red and blue, respectively... Are you thinking what I'm thinking?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，我确实打算那么做。",
+			say = "I sure am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵？",
+			say = "Nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "喂，事关重大，你们能不能别打哑谜了？",
+			say = "Great, you share a telepathic connection. Now can you explain your idea to us mere mortals?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我打算让这两个组合以对抗赛的形式来进行Live。",
+			say = "Simply put, I want to see these sides compete with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前两次μ兵装实验，不是也是对抗赛么？",
+			say = "Isn't that what they've been doing this whole time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "是，但又不是。之前的其实被称之为挑战赛更恰当。",
+			say = "Sort of. The Muse competitions have been rather limited in scope thus far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且，指挥官应该是想把两个组合分为两个大组吧？这样一来，也能让更多人参与其中。",
+			say = "The Commander is talking about something bigger – pitting two sides, red and blue, against each other and involving as many girls as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。之前的两次实验，除了负责测试「μ兵装」的组合以外，其他人的兴致也很高涨。",
+			say = "What she said. Girls without Muse Systems were part of it last time, and everyone loved it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此，这次干脆就调整机制，也给到她们更多享受舞台的机会。",
+			say = "Since we're doing this again, I say let's change the rules a bit and give as many people as possible the chance to be part of the show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样一来的话，大家应该都能以最闪耀的状态进行Live了。",
+			say = "Ideally, everyone should have their moment in the limelight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "原来是这样，感觉通过这种比赛机制，还能促进港区的同伴们之间的关系。",
+			say = "Ahh, I see now. By framing it like a competition, it'll bring the whole port community together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯~毕竟是要分成两个大组进行对抗，从整体实力上比拼强弱。",
+			say = "Indeed. It won't just be individual units competing against each other, but rather entire groups.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这种时候，寻求合作对象就变得至关重要了啊。",
+			say = "That means who you choose to recruit will make a big difference.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "指挥官，你是打算直接指定人选分组么？我可以为你——",
+			say = "Then the recruiter must have a discerning eye! Someone like me would be perfect for–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不。我打算让她们自己去动员。",
+			say = "Sorry, but no. The girls in each unit will pick their members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}，你先去通知这两个组合的成员新赛制的事，我要在这里和克莱蒙梭她们再讨论一下其它相关内容。",
+			say = "Akashi, go explain the rules to the new units. I and the others will stay here and work out the details.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没问题喵~包在{namecode:98:明石}身上喵~",
+			say = "Will do, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "目送着绿色的身影离开后，一旁的{namecode:82:三笠}便迎了上来。",
+			say = "The green cat disappears down the corridor. Mikasa waits until she's gone, then approaches me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在讨论后续之前，不如先决定一下要为这次的「μ兵装实验测试」起个什么名字吧？",
+			say = "Before we discuss that, I posit that we come up with a name for the project.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我想想……",
+			say = "Right. Every good project needs a good name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "用心奏响音乐时才会发挥最大力量的「μ兵装」……嗯，决定了。就叫——",
+			say = "Seeing as the Muse System is at its strongest when you sing with your whole heart... Yes, I've got it. The name is going to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

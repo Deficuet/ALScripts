@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>遗迹探险</size>",
+					"Uncharted Summer\n\n<size=45>A Ruinous Adventure</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "无人岛北方的山谷前——",
+			say = "Island - Northern Mountain Region",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于，到了探索这片遗迹的时候了。",
+			say = "The time has finally come to explore the ruins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚上岛侦察到这片区域的时候就很令人在意……",
+			say = "I've been curious about this place ever since we first arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许皇家财富小姐的藏宝图上埋藏的宝藏就在这里……",
+			say = "Maybe this is where that treasure lies that Royal Fortune talked about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我们去一探究竟吧！",
+			say = "Let's head right in and see what we find!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么指挥官，我们就出发了~",
+			say = "Not so fast. Commander, we'll go in first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在确认安全之前，指挥官不要进去哦~",
+			say = "Don't come in until we've made sure the ruins are safe, no matter what.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“特别冒险小队”，出发——",
+			say = "Adventure, here I come...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "本来想跟她们一起去，不过遗迹内部情况复杂，可能还会有守护宝藏的机关在运作。",
+			say = "I want to follow them, but they decide against it on account of the risk of traps and other dangers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "所以在{namecode:408}的强烈建议下，变成了由四人先行进入侦察的情况。",
+			say = "\"Good luck, you four. I'll be here, waiting for you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“那些随着风，在海上漂流的海盗，有时会选择无人的荒岛扎营。”",
+			say = "\"The pirate life takes you wherever the wind blows. However, sometimes, pirates set up temporary camps on uninhabited islands.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“把掠夺来的宝藏埋在岛屿最深的角落，由最为危险的海妖看守……”",
+			say = "\"It's not uncommon that they hide their ill-gotten gains in ruins and task the most vicious monsters with guarding their loot.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“只有最为勇猛的勇士，才有机会拿到那属于大海的珍贵财富——”",
+			say = "\"To seize their treasure, one must be brave.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "其实昨晚，我悄悄把这个故事塞到她们的枕头下了~",
+			say = "That's the gist of the letters I hid under their pillows last night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "…………怪不得她们会突然展现出这么高的热情，原来是你在背后煽风点火。",
+			say = "So she's the one behind their sudden urge to investigate the ruins...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "倒不如说……好几天没见你了，你又是从哪里冒出来的……？",
+			say = "\"I haven't seen you for days. Where did you even come from?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "神出鬼没可是海盗生存的诀窍，这个可不能教给你哦。",
+			say = "Appearing and disappearing without a trace is key to a pirate's survival. Sorry, it's a trade secret!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过上面的宝藏故事也不能算有假，她们肯定会有所收获的~",
+			say = "I wasn't lying about there being treasure on this island, by the way. They WILL find something, at least.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "感受到了可疑的气息……",
+			say = "\"I'm more concerned about their well-being than some promise of treasure.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "诶~别这么说嘛，手无寸铁的海盗能有什么坏心思嘛。",
+			say = "They'll be alright! Like I said, I'd never do anything to hurt you. Or those close to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到无人岛，那自然就有遗迹，有遗迹自然就有宝藏不是~",
+			say = "Besides, if you wanna explore the whole island, you'll end up in the ruins sooner or later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "再说了，这趟旅程一开始的目的就是寻宝吧~",
+			say = "And isn't finding treasure the reason you set out on this adventure to begin with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "好像……确实是这样的。",
+			say = "\"Well, I suppose I can't argue with that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "里面不会有危险吧？",
+			say = "\"Are you sure they'll be fine, though?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最多有些增加乐趣的小小障碍，不会有危险的~",
+			say = "Totally, yeah! It'll just be like an obstacle course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "对了~我突然有一个好想法！",
+			say = "Oh, hey, I just got a cracking idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道一条通往宝物室的捷径，你跟我一起去看看~？",
+			say = "I know a secret shortcut to the treasure chamber. You wanna come with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "是要提前躲过去，然后给她们一个惊喜的意思么……？",
+			say = "\"But Z23 told me not to go in no matter what.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "差不多就当是这样吧~走吧走吧，我们出发~！",
+			say = "C'mon, live a little! You'll be juuust fine. Follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1

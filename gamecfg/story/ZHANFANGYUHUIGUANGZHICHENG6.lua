@@ -8,7 +8,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "光芒自一片虚无之中迸发绽放。",
+			say = "A light erupts from the empty blackness.",
 			bgm = "theme-lightheven",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "纯白的街道与金色的穹顶相应相织。在众人震惊的目光中，一座漂浮在虚空中的环形城市出现了。",
+			say = "Then, golden arches and a pearly white road appear. A circular city emerges from nothingness to everyone's amazement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901060,
-			say = "……好漂亮啊。",
+			say = "It's... beautiful...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "……居然就如同挥手般创造出了一座城市。",
+			say = "Like a Mirror Sea, a compressed space has been freed, birthing an entire city based on a concept.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "这里可不是镜面海域，也没有大型投影装置啊……",
+			say = "All this from an object the size of only a train car. It is truly awe-inspiring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "嚯……这还是我第一次亲眼见到概念被锚定的瞬间。",
+			say = "Wooow... I've never seen anything like this before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "看来贝亚恩稳定锚，也是用类似的方式被创造出来的啊……",
+			say = "This must be how Béarn manipulates space using reality anchors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "……“贝亚恩稳定锚”，那是什么？",
+			say = "Reality anchors? What're those?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "一种被广泛引用在“圣堂”中的技术，用于稳定空间。",
+			say = "They're a reality-stabilizing technology used in Basilicas all the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "只不过……这座城市承载的是“死亡”，而稳定锚承载的……恐怕如字面意思，是“稳定”吧。",
+			say = "As their name suggests, they can anchor all kinds of concepts. In this city's case, the concept of death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "这次她要是能一起来的话，肯定要兴奋死了……真是可惜了……",
+			say = "Béarn would be sooo excited if she could see this. Shame she's not here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（一座为了展现“死亡”的概念而诞生的城市，却如此神圣又辉煌。）",
+			say = "(This doesn't really FEEL like a city based on the idea of death, though. It more brings to mind images of brilliance and holiness.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（这就是阿尔萨斯心中对于死亡的理解么……）",
+			say = "(Is it down to interpretation? Is this how Alsace views death?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "阿尔萨斯，这座金光闪闪的城市有名字么！",
+			say = "Alsace, does this city have, like, a name?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "唔……阿尔萨斯还没有想过！",
+			say = "Hm? Not that one knows of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……此景此景，宛如天国。",
+			say = "A splendid structure of gold and marble to commemorate death...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "如果还没有名字的话，就叫“辉光之城”，如何？",
+			say = "This brings to mind an idea – the Martyrium. How does that sound for a name?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "辉光之城……好名字，阿尔萨斯喜欢！就叫辉光之城吧！",
+			say = "The Martyrium... A shrine built atop a grave, yes? One approves of this idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不错的名字，而且也是不错的习惯。",
+			say = "It's a good name. Let's call it that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "虽然你们应该是没有这个意识的，但是用自己的概念来定义事物是一件很正确的事。",
+			say = "While you likely aren't conscious of it, it is good to name things according to your concept of them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "如果其他人也接受了这个概念的话，你就能……算了，扯远了。",
+			say = "If others accept the concept, it then... Bah, never mind that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "唔……有些意外情况。",
+			say = "A small problem has cropped up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "现在的锚定并不完全，被折叠的空间并没有完全在现实世界中展开。",
+			say = "We're unable to anchor the concept properly. The space the whale is occupying won't fully manifest in reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "没想到不光冲击强烈，折叠的信息量竟如此之大……用了一整节车厢居然只展开到这种程度么。",
+			say = "Our spatial impact event was strong, but the amount of data within the folded space is simply mind-boggling... Even a whole train car could only unfold this much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,12 +431,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的响声",
+			actorName = "The Whale",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			shakeTime = 5,
 			nameColor = "#5CE6FF",
-			say = "呼——————",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "伴随着巨响，鲸鱼跃入了辉光之城上空。",
+			say = "With a booming rumble, the whale suddenly appears in the sky above the Martyrium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "鲸鱼~！我的鲸鱼出来了！",
+			say = "The whale! My whale is here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "呵，看来虽然只展开了一部分，不过足够把它抓出来了。",
+			say = "Oh. So that was still all it took to lure it out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "伊丽莎白，快开车过去！我要亲自抓它回来！",
+			say = "Elizabeth, start the train! We've got to catch my whale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "很遗憾，辉光之城内部是独立空间，有着自己的规则。我们必须先进入城市，才能前往城市上空。",
+			say = "Don't be so hasty. The Martyrium is a stand-alone space akin to a Mirror Sea. We cannot catch the whale without entering the space.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "那我们就先开进城，再进去抓！快开车快开车~！",
+			say = "Then do it! Go to the city! Start the train NOW!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "唉……知道了，你安静等着——",
+			say = "You can be such a pest... Fine, starting the engine now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……等等，有其他人被辉光之城吸引过来了。",
+			say = "...Wait. The whale isn't alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "其他人？是谁？",
+			say = "What do you mean? There are others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王发现了两拨人。一波基本上没怎么藏，嗯……威奇塔·META和金伯利·META。",
+			say = "METAs, to be precise. Two groups, one of which is uncamouflaged. Wichita and Kimberly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这个成员组合……是余烬啊。",
+			say = "Judging by this duo... it's the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……没想到会在这里遇到余烬的人。",
+			say = "Even all the way out here, we're still running into them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（也不知道企业、{namecode:94:飞龙}，还有{namecode:440:腓特烈大帝}她们现在怎么样……）",
+			say = "(But, one of our own is working with them – Friedrich. Maybe we can ask them about Enterprise, or Hiryuu.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "另一波人的隐藏手段比较巧妙，本王在这个距离上判断不出来。",
+			say = "The other group is camouflaged. We can't identify them at this range.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "鲸鱼的存在应该只有我们知道……就是说这些人，恐怕是为了调查空间冲击而来的。",
+			say = "Only we know about the whale, so they're most likely here only to investigate the spatial impact event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……今天还真是热闹。",
+			say = "As if we didn't have enough to deal with...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不管她们之前知不知道，现在肯定都知道了！",
+			say = "They WILL know about the whale as soon as they look up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "快发车！不要被人抢先了！",
+			say = "Start the damn train already! Or they'll get to it first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "那就更不能着急了。现在我们在暗处，她们在明处，岂有先动的道理？",
+			say = "STOP! RUSHING! US! Furthermore, we don't know who we're up against! Rushing in blindly will be our death!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,7 +854,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "现在局势还不明朗，你们暂时留在车里隐蔽待机，本王先去探一探这些人的底细。",
+			say = "For now, everyone will stay put inside the train. We shall go and scope things out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不用担心，女王之光号的防御无人能敌。就算有人偷袭，只要你们待在列车上，就是安全的。",
+			say = "The Queen's Light's anti-conceptual defences are impregnable. You'll be safe here while we're out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "喂，指挥官，看上去你挺会带孩子的。D小姐就交给你了，别让她自己跑出来哦。",
+			say = "Commander, I've heard you're an excellent babysitter. Watch this sassy child in our absence! Make sure she doesn't run off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -905,7 +905,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯，没问题。",
+			say = "You got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "切——有助手在我才不会乱跑呢！那你先去吧，但是快一点！",
+			say = "Why would I run away from the assistant? Just go and come back quick!",
 			painting = {
 				alpha = 0.3,
 				time = 1

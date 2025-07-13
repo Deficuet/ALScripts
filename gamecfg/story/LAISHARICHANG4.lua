@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"炼金术师与秘密遗迹群岛-日常篇\n\n<size=45>四 茶会上的事</size>",
+					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>4 A Royal Tea Party</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			bgm = "story-1",
-			say = "港区·皇家宿舍",
+			say = "Port - Royal Navy dormitory",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "非常感谢你能参加这次茶会，帕特莉夏小姐。",
+			say = "We are honoured to have you at our tea party today, Miss Patricia.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "不不不！这句话应该我来说才对！非常感谢能邀请我来您的茶会。",
+			say = "Please, I'm just honored to have been invited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "我有了解过，光辉小姐在皇家，是十分了不起的大贵族吧……",
+			say = "All the more so considering you're said to be a very high-class lady, Miss Illustrious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "嘿嘿……姑且算是吧。不过既然是在港区，那大家就是同伴了，帕特莉夏小姐不用太客气哦。",
+			say = "Hehehe. You needn't be so modest. We are all friends here at port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "帕特莉夏小姐，请用茶。",
+			say = "Would you like some tea, Miss Patricia?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "既然如此……那我就不客气了！",
+			say = "Yes, please. Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "帕特莉夏端起刚刚泡好的红茶抿了一口。",
+			say = "Patricia takes a sip from her cup of tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "呼…………",
+			say = "Oh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "（这种品质的红茶，就算在王都也难得一见……不愧是货真价实的大贵族……）",
+			say = "(It's hard to find tea this sublime even in the Royal Capital... These ladies know their stuff.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "（还有这种冲泡的手法与茶水所散发出的香气……泡茶的女仆小姐也是手艺了得……）",
+			say = "(I can also tell it was intricately brewed based on this rich fragrance... That maid is definitely no ordinary housekeeper.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "怎么样，帕特莉夏小姐，您喜欢这个味道吗？",
+			say = "What do you think? I hope it is to your taste.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "十分的美味！被这样子盛情款待……荣幸之至！",
+			say = "It's delicious. I feel incredibly privileged to get to drink something this wonderful!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "呵呵，帕特莉夏小姐能够喜欢就太好了。",
+			say = "Hehe. It relieves me to know that you like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "光辉小姐，如果您不介意的话……叫我帕蒂就好！",
+			say = "By the way, Miss Illustrious, you are free to call me \"Patty\" instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "我明白了，帕蒂~在港区的生活还习惯么？",
+			say = "In that case, you're also free to simply call me \"Illustrious.\" On another subject, do you feel like you've grown accustomed to life here at port?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "嗯……多亏了指挥官和各位同伴的帮助，这几天已经完全安顿下来了。",
+			say = "Yes, I do. I've settled in quite well, thanks to the Commander and so many others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话真是太好了，有遇到什么需要帮忙的事的话，可以随时来找我哦。",
+			say = "That is good to hear. If you ever need guidance, you may come talk to me whenever you like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "帕特莉夏小姐，请用茶点。",
+			say = "I've brought biscuits. Would you like some, Miss Patricia?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "非常感谢，光辉小姐。我就不客气了！",
+			say = "Why, yes, I would. Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "就在这个小巧而精致的茶会正在进行之时————",
+			say = "The elegant and courtly tea party continues. Then, the still mood is disrupted by shouting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "光辉姐姐，我们跑远征回来了哦！我跟你说，这次……",
+			say = "Illustrious! We've returned from our expedition! You're not going to believe what we saw... out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "……………………",
+			say = "Oh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "咳……欢迎您来到皇家的茶会，帕特莉夏小姐，希望您能在这里度过一个美好的下午。",
+			say = "Ahem. Good day to you, Miss Patricia. We appreciate that you could be our guest at this tea party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "……？嗯……两位下午好！",
+			say = "Huh? Um... Thank you for having me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "帕蒂，我的妹妹可畏你应该认识了，旁边的这位是我的另一个妹妹不挠。",
+			say = "I presume you've already met Formidable. She is one of my sisters, as is this other lady. Her name is Indomitable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜胜利执行任务还没回来，不然就能把光辉级的姐妹都介绍给你了。",
+			say = "I have one more sister, Victorious, who unfortunately can't join us today as she is on a mission. I'd have loved to introduce her to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "初次见面，不挠小姐。请问刚刚可畏小姐是……",
+			say = "Ah, I see... It's a pleasure to meet you, Miss Indomitable. I'm Patricia, one of the new residents here at port. If I may ask, what was Formidable about to say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊哈哈，刚刚什么事都没发生哦！光辉姐姐和帕特莉夏小姐请继续饮茶，我们换身衣服就来~",
+			say = "N-nothing important, I'm sure! If you'll excuse me and her, we'll go and get changed now. Please do carry on with your conversation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "是……？",
+			say = "Okay...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "光辉小姐，我听莱莎说撒丁的同伴们好像在开发温泉。你们听说了这件事么？",
+			say = "Apropos of nothing, Miss Ryza told me that Sardegna plans to open a hot spring. Have you ladies heard about that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听说了哦，我们已经在为温泉建成之后的事情做准备了。",
+			say = "That we have. We've already made plans for after the hot spring has been excavated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "总之目前打算先修建一个能让大家在泡完温泉以后能够休息的地方。",
+			say = "There's also been talks of erecting a building where one can relax after they've finished bathing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "餐饮方面陛下的意思是让我们皇家来解决，必要的时候也会让女仆队去帮一下忙~",
+			say = "Yes. Her Majesty has announced that the Royal Navy will supply the food and beverages as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "……这样的话，我有一个请求！",
+			say = "Interesting. That being the case, I'd like to ask for a favor...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "温泉建成后的准备工作能让我参加吗？我也想帮上莱莎与港区同伴们的忙。",
+			say = "Would you let me assist in the hot spring's development? I want to help people out as much as I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "其实……关于温泉的装饰风格我们还没有完全和撒丁帝国统一意见。",
+			say = "Of course you can! As a matter of fact, we've yet to reach an agreement with Sardegna regarding the decorations around the hot spring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "如果帕蒂愿意的话，我们就一起来做这件事吧~",
+			say = "I'd like you to handle that detail, if you feel up to the task.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "我很乐意！",
+			say = "Yes, I'd love to!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "小巧而精致的茶会，就在这稍显热闹的氛围中继续进行着——",
+			say = "And so, the tea party became enriched with an air of enthusiasm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "阿瓦隆之门·卡美洛之庭",
+			say = "Inside the Camelot Mirror Sea...",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……一环至三环的强化工程完毕。",
+			say = "Arches one through three have all been reinforced.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来开始新增区域的修建……",
+			say = "Now let's see the new area extensions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下……差不多该出门看看了，活动的邀请函都快把办公桌压塌了。",
+			say = "Your Majesty, don't you think you should step outside for a while? You have such a large backlog of letters of invitation that even your desk cannot accommodate any more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就再搬张新桌子来！",
+			say = "Then just get another desk!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王现在在这里有更重要的事要做！",
+			say = "This is more important than attending some trifling gatherings!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿瓦隆之门的隐患排查完毕之前，本王哪儿都不去！",
+			say = "I am going nowhere until every risk with the gate has been eliminated!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯！说不去就不去！哪里都不去！",
+			say = "Nowhere, I say! Nowhere! Is that clear?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……刚才说到哪里来着……哦对，要设置防御系统的「红玫瑰区」、「白玫瑰区」，还有「蓟花区」……",
+			say = "Now, where was I? Oh, yes, the Red Rose Block, the White Rose Block, and the Thistle Block, where we are to establish defence systems...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205100,
-			say = "……她这症状持续多久了？",
+			say = "Say, Vanguard, how long has Elizabeth been like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "自从听到鸢尾宣布合并的消息后，陛下就一直是这样闷闷不乐呢。",
+			say = "Since she returned from the Iris' reunification ceremony. Although, she was already showing signs during the Hood incident.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "胡说！本王才没有闷闷不乐！",
+			say = "Oi! I'm not \"showing signs\" of anything, Vanguard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……啊啊啊！克莱蒙梭！！！！！！",
+			say = "But if I was, blame Clemenceau!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了……然后是用来代替卡美洛之庭的全新中枢区——「女王之冠」。",
+			say = "*sigh*... Forget it. Up next, the new central structure to replace the castle – The Queen's Crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要这些区域新建完成的话……阿瓦隆之门的防御就算万全了。",
+			say = "Once everything is complete, the gate's defences will be flawless.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了好了，你们要是没其他事话就别都围在这里了。",
+			say = "Warspite, if you've nothing better to do, you may go home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "堆积如山的事务就交给你们全权处理了，去吧去吧。",
+			say = "And Valiant, there is much work that needs doing, I'm sure. You may deal with that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，既然你都说到这个份上了，那我就勉为其难咯~",
+			say = "Heheheh! Well, you leave me with no choice but to comply, Your Majesty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……陛下，后天我会再来的。",
+			say = "Very well... I will be back again tomorrow, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,11 +351,11 @@ return {
 			bgName = "bg_camelot_15",
 			portrait = 9705040,
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgm = "theme-shallowoftheworld",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "噢~这套防护装置倒是有点意思。",
+			say = "This is quite an interesting defensive device you've built.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们还没走远呢，你现在出来说话不要紧么？",
+			say = "Are you sure it's such a good idea to speak? My attendants only just left.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不要紧，除了你之外没人能听到本王的声音。",
+			say = "It's alright. They can't hear us, only you can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "没想到短短数周，你居然能做到如此程度……",
+			say = "We must say, you are impressive, other Elizabeth. In just the span of a few weeks, you've already come this far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不过，对于你们即将要面对的危险而言，还是远远不够的。",
+			say = "That being said, what you have now won't be nearly sufficient for the disaster you are soon to face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不得不说，真是人不可貌相，以你们这种科技等级的实验场居然能在陆间海整出那么大的动静。",
+			say = "It's shocking that what happened in the Mediterranean happened at all, considering how scientifically primitive your branch is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "洒向虚空的光芒连本王都看得清清楚楚哦。",
+			say = "The light released by that multilayering event was so intense that we could detect it even in our branch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "因此我很确信，你们的世界已经被某些更加危险的存在盯上了。",
+			say = "It's for that reason we can confidently say your world is being targeted by a danger of even greater magnitude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "虽然本应立即开始清盘程序的塞壬却迟迟没有行动，这一点让我有些意外……",
+			say = "Ordinarily, the Sirens would have initiated the branch reset process by now, but they haven't. That concerns us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但从某种意义上来说，这样反而更糟糕，或许是它们判定这个世界已经绝对没救了吧。",
+			say = "Perhaps their lack of response isn't a fluke. Perhaps they've decided that your branch is beyond saving.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "正如之前所说，我有把皇家的所有重要人员与物资，甚至包括你们的盟友一同撤离到安全世界的能力。",
+			say = "Let us remind you that we have the ability to relocate your branch's Royal Navy and all its allies, associates, and resources to a new, safe branch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "与其在这里浪费时间，不如考虑一下本王的撤离计划如何？",
+			say = "If we were you, we'd stop wasting our time and work out an evacuation plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不考虑。",
+			say = "I will not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天下岂有未战先降的道理？本王誓要奋战到底。",
+			say = "A queen does not give up without a fight. I will defend this world to my last breath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反而是你，要是想来结盟的话，就过来全力帮我。",
+			say = "If you want to form an alliance with us then come to my world and lend me your bloody strength!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……现在明明是你有求于本王吧。",
+			say = "Excuse us? It was you who wanted an alliance, not we.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？真的么？",
+			say = "Me? Really, now?",
 			painting = {
 				alpha = 0.3,
 				time = 1

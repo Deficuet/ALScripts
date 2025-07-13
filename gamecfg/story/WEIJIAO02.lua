@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条航线上竟然真的有拦路的铁血舰队……虽然不想承认，看起来你也许是对的。快把这个家伙也解决掉去拉普拉塔河吧。",
+			say = "I can't believe it, there really is an Iron Blood fleet out here... I hate admitting it, but it seems you were right. We should hurry to the Río de la Plata Estuary and sort them out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			say = "想通过这里可没有那么简单！",
+			say = "Sorry, girls, but I can't let you pass.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，你是……Z驱吧？",
+			say = "Ahahah... you must be a Z-class, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "没错，Z驱的大姐就是我{namecode:400}——莱伯勒希特·马斯！",
+			say = "That's right. You're talking to none other than the 1st ship of the Z-class - Leberecht Maass!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹很多一定很辛苦吧？",
+			say = "It must be tough to have so many sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "欸，啊？也没有啦，妹妹们都是可爱的家伙，我这个当大姐的开心还来不及呢。",
+			say = "Tough? Uh, not really. I'm honestly blessed to have so many cute little sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和我家大姐一样是个好姐姐呢。",
+			say = "I see. You're a nice big sister to them, just like our sister Leander is to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "哪里哪里。",
+			say = "Hey, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:431}快到拉普拉塔河口了吧？",
+			say = "Shouldn't Graf Spee be arriving at the Río de la Plata Estuary any time now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "是……啊，嘁，当我是傻瓜吗！",
+			say = "Yep. ...Wait, you tryin' to make me look dumb?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "总之我是,不会让你们过去的！",
+			say = "Whatever. At any rate, I'm not letting you through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，，越是这样的对手越有捉弄的价值呢…埃克塞特，上了！",
+			say = "Ahahah, I must've struck a nerve... Now you're worth toying with... Let's go, Exeter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好吧，突然有点同情起对手了… ",
+			say = "Roger! But strangely enough now I can sympathize with Z1...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

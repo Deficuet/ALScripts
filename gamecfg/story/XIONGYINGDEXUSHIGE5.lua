@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会会场·某处",
+			say = "World Expo Venue",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "哇……这里人山人海张灯结彩，简直像过年一样热闹！",
+			say = "Woah, so many people! So many decorations! It's just like celebrating our Spring Festival back home!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "是啊，确实能感受到强烈的异域文化冲击……",
+			say = "Indeed. I can't believe how many different cultures there are here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "海天姐姐海天姐姐，天上飞的那些是什么啊？",
+			say = "Sis, what are those flying things over there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "大一点的是飞艇，稍微小一点的是观光用热气球，再小一点的那个我就不清楚了……",
+			say = "Let's see... The large one is a dirigible, the smaller one is a sightseeing hot-air balloon, and the smallest one is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "飞艇？",
+			say = "A flying boat?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "依靠气体漂浮起来的飞空船哦。原理跟热气球还有，你刚才买的氢气球一样啦。",
+			say = "Yes, the vessel can float because the gas pumped into it is lighter than air. It's the same principle as the balloon you bought earlier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "有诗云：“所愿君归时,快乘轻气球。”说的就是这种东西。",
+			say = "As once was said in a poem, \"When you wish to return home, take to the skies with a balloon lighter than air.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "原来如此……！那，那边的圆形场馆是什么呀！",
+			say = "Hmm, that makes sense. What about that building over there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "那个就是咱们一会的目的地了，本次的主场馆之一，撒丁帝国修建的博览会文化馆。",
+			say = "That's the main pavilion built by Sardegna. I heard they named it \"The Colosseum.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "这种建筑名为大剧场，样式来自于一个比撒丁帝国时代更加古老的帝国。",
+			say = "It's based on a building of the same name constructed by an ancient civilization predating Sardegna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "有古文曰：“大秦国一名犁鞬，以在海西，亦云海西国。地方数千里，有四百余城。小国役属者数十。”",
+			say = "\"To the West lies a great sea, a thousand li beyond the clouds. A kingdom to which a dozen others bend their knee, four hundred cities united and proud.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "描绘的就是那个帝国雄壮哦。",
+			say = "...I wonder what it was like to live in such a place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "原、原来如此！海天姐姐好厉害什么都知道！",
+			say = "You really know your stuff, sis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "哼哼……为了这次旅行，我可是没日没夜地苦读资料……",
+			say = "It's not that big of a deal. It's just that I've been reading a lot of books in preparation for this trip.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "已经大体上把所有能提前做功课的地方都做好了！",
+			say = "After all, we were tasked with learning as much as we can from the others, so I need to be knowledgeable enough to recognize what I'm looking at. Hehe~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "哇！那，那边举着奇怪机器对着我们的人是什么啊！",
+			say = "What about that strange thing the girl over there is pointing at us? Is that how they make cameras over here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "那个是便携式的小相机，以及举着相机……正在对着我们拍的奇怪记者？！",
+			say = "Oh my, that seems to be a camera with a special high-performance lens... Is she trying to take a picture of us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "……海圻，我们换条路走吧。",
+			say = "I hope she's not some kind of... voyeur. Hai Chi, let's go somewhere else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "是，姐姐，不过那个奇怪记者跟她的同伴好像冲着我们跑过来了哦！",
+			say = "Alright... Wait, is she running after us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啧……海圻，快跑！",
+			say = "Hurry, let's shake her off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "了解！",
+			say = "Right behind you, sis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "………………呼，呼。你们还真是执着啊。",
+			say = "*pant* *pant*... I can't feel my legs anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你们为什么要跑啊……",
+			say = "Me neither... *pant*... Why did you start running anyway?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "被奇怪的人盯上了，为什么不跑……",
+			say = "Isn't that the natural thing to do when some suspicious person is chasing after you with a camera?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "奇怪的人？奇怪的人在哪里？！",
+			say = "A suspicious person? Where? Tell me where they are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "……奇怪的人现在就在跟我说话！",
+			say = "Um... Right here. In front of my eyes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸……？那个，我们不是奇怪的人啊……",
+			say = "I don't see any... Wait a second, who are you calling suspicious?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不是奇怪的人为什么要举着相机偷拍！",
+			say = "So, why are you trying to take a picture of us without asking?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "看吧！阿尔弗雷多！我们果然被误会了！",
+			say = "Just stop talking, Alfredo! You've caused another huge misunderstanding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "非常抱歉！我是撒丁帝国的阿尔弗雷多·奥里亚尼，旁边的是我的同伴莱昂纳多·达·芬奇。",
+			say = "S-sorry... I'm Alfredo Oriani, from the Sardegnian fleet. And this is my friend, Leonardo da Vinci.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我们正在会场巡逻，顺便取材中。看到你们的服饰漂亮又独特，就忍不住拍了一张……！",
+			say = "We're patrolling the venue right now, but I've never seen clothes like yours before and just couldn't pass up the photo op! I just wanted to say hello!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "……原来是主办方的人。早说啊……",
+			say = "You're one of the organizer's ships then, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "就在打算过去和你们打招呼的时候，你们突然就跑了……",
+			say = "I just wanted to approach the two of you to introduce myself, but then you broke out into a sprint!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "………………事情我了解了。抱歉，是我误会了。",
+			say = "I apologize as well then. I suppose I jumped to conclusions too quickly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不，这次完全是由阿尔弗雷多过于随意的举止引发的事件，阿尔弗雷多全责。",
+			say = "Well, all's well that ends well. Besides, this only happened because SOMEONE can't keep her camera to herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哎嘿嘿~两位是来自东煌的客人么？",
+			say = "Ehehe, my bad, my bad~ In any case, are the two of you from the Dragon Empery?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "没错，我是海天，旁边的是我的妹妹海圻。",
+			say = "Yes, my name is Hai Tien, and this is my sister, Hai Chi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "我们是作为东煌代表团的成员来参加本次博览会的。",
+			say = "We are here as representatives of the Dragon Empery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "原本正在前往博览会文化馆的途中，现在……似乎有些迷路了。",
+			say = "Actually, we wanted to know how to get to the Colosseum...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,7 +728,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊哈哈……作为赔礼，请让我送你们过去吧！",
+			say = "Really? I'll show you the quickest way to get there. Sorry again for what happened earlier!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不用麻烦啦，我有带会场地图。既来之则安之，我们先在这片区域逛逛好了。",
+			say = "Oh, there's no need for you to trouble yourself with that. We have a map, and don't mind taking a more scenic route to see the sights and sounds. After all, \"when in Rome, do as the Romans do.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不过我正好有个问题，如果你想要赔礼的话，希望能回答我。",
+			say = "If you don't mind the inconvenience, there is one thing I'd like to ask you though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那是自然的！只要是我知道的事，我一定知无不言，你问吧！",
+			say = "Sure, fire away! I'll answer to the best of my ability!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "天上飞着的东西里，那些有着白色螺旋桨的小飞行器是什么呀？",
+			say = "What are those things floating in the sky with the little white propellers?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那些是监控会场的飞行器哦！",
+			say = "Those are probably our security drones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "它们的飞行原理是什么呢……？光靠帆布螺旋桨的话，应该做不出那么夸张的飞行动作吧。",
+			say = "Drones? At first glance, those things look so flimsy that it's a miracle they're staying in the air... How exactly is that possible?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "原理……原理的话我不知道！",
+			say = "I can't answer technical questions like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,7 +864,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过这东西就是我旁边的达·芬奇弄出来的，她肯定知道！",
+			say = "But I can refer you to the person who designed them – Leonardo da Vinci here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼~这种飞行器的名字叫做达·芬奇飞行器哦！",
+			say = "Heh heh, what you're looking at is my original flying device – the Pneumatic Spinner-Arounder Helidrone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "虽然看起来是螺旋桨加木质的复古设计，可是实际上，这种飞行器可是采用了跟舰装研发类似的尖端技术！",
+			say = "Though these things may look like flimsy pieces of wood and paper, don't be fooled! They've been fitted with the latest, cutting-edge technology by yours truly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "再多的我就不能说了。不过———这个是可以载人的！",
+			say = "They're lightweight, versatile, maneuverable, and best of all... this latest model can even carry people!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -932,7 +932,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "想不想坐上去看看？",
+			say = "Hehe, want to give it a try?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,7 +949,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "我就……",
+			say = "I... I appreciate the offer, but I think I'll pass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "我想！",
+			say = "You bet I do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "欸…………？",
+			say = "...Hai Chi?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1009,7 +1009,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "达·芬奇拿出一个遥控器对着空中招了招手。很快，一架巡逻中的达·芬奇飞行器缓缓落了下来。",
+			say = "Da Vinci pulled a controller out from nowhere and slapped at it a few times before waving at the sky, and a drone descended right after.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "没等飞行器停稳，海圻就迫不及待的跳上了上去。",
+			say = "Without even waiting for the drone's altitude to stabilize, Hai Chi jumped up acrobatically and plopped down on the disc-shaped \"seat.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,7 +1058,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "然后在达·芬奇的控制下，海圻与飞行器一起悬浮在了半空中。",
+			say = "The drone soon carried her higher and higher, the anxiety on Hai Tien's face following suit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1074,8 +1074,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "海圻",
-			say = "哇哦————视野一下子就开阔起来了！风也吹着好舒服！",
+			actorName = "Hai Chi",
+			say = "Woooo, the wind suddenly picked up! It feels great up here–!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1091,8 +1091,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "海天",
-			say = "这个装置真的没问题吧……？",
+			actorName = "Hai Tien",
+			say = "So, um, your... Pneumatic Spinner-Arounder Helidrone... is it going to be okay...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,8 +1108,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
-			say = "那是自然！这可是我达·芬奇的发明！只要不突然展开舰装，承载力是绝对没问题的！",
+			actorName = "Leonardo da Vinci",
+			say = "Of course! All of my inventions are a-hundred-percent safe and secure! As long as you don't suddenly deploy your rigging, there's no chance of falling!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1125,8 +1125,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "海圻",
-			say = "海天姐姐快看，有骑士巡逻队过来了！",
+			actorName = "Hai Chi",
+			say = "Look over there, sis! Those two girls seem to be rushing over here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,8 +1142,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "海圻",
-			say = "异国装扮的骑士，感觉真威风啊~",
+			actorName = "Hai Chi",
+			say = "They're from Sardegna's fleet, right? Their uniforms are so cool... I wonder what they're up to?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1159,8 +1159,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
-			say = "那边的是博尔扎诺和加里波第……？",
+			actorName = "Leonardo da Vinci",
+			say = "Hrmm... You're right! It's Bolzano and Garibaldi...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,8 +1176,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "莱昂纳多·达·芬奇",
-			say = "奇怪，她们不是负责维持大剧场安保的么，怎么会跑到这里来。",
+			actorName = "Leonardo da Vinci",
+			say = "I thought those two were in charge of security around the Colosseum... Now what are they doing over here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,8 +1193,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "而且在低头用通讯器交谈着什么哦……",
+			actorName = "Alfredo Oriani",
+			say = "They seem to be secretively whispering something into a communicator too... *gasp*!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1210,8 +1210,8 @@ return {
 			bgName = "bg_roma_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "阿尔弗雷多·奥里亚尼",
-			say = "我闻到了事件的味道！肯定有什么事发生了！",
+			actorName = "Alfredo Oriani",
+			say = "Come with us, Teach! Let's go check out the Dragon Empery area first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1228,7 +1228,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "二位突然表情变得这么严肃，出什么事了么？",
+			say = "What's wrong? You two look awfully serious all of a sudden...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1245,7 +1245,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "没有没有，就是突然想起来了我们作为会场巡逻队的职责！",
+			say = "There's nothing to worry about! It may not seem like it, but I'm keeping a careful eye on the venue! If there's a scoop to be had... Err, I mean, if any trouble breaks out, I'll be the first to sound the alarm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1262,7 +1262,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "原来如此。那二位就去忙吧，不用在意我们。",
+			say = "Oh, um, I see... In any case, we'll be fine over here, so don't let us keep you from your investigation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1279,7 +1279,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "等来东煌馆参观的时候务必来找我哦，我带你们去玩好玩的！",
+			say = "Hup! Give me a holler when you swing by our pavilion! I'll show you around!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1296,7 +1296,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好耶，那就约好了！",
+			say = "I'll take you up on that then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1314,7 +1314,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "（小声）走吧，达·芬奇，我们悄悄跟上去——",
+			say = "Da Vinci, let's go see what Bolzano and Garibaldi are up to!",
 			painting = {
 				alpha = 0.3,
 				time = 1

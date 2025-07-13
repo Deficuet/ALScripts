@@ -7,14 +7,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "已经击破所有塞壬据点，可以从塞壬特殊通行装置或者海域边缘离开，离开后将无法再次返回本处海域。",
+			say = "The Siren Stronghold has been dealt with. Leave the zone either by moving a fleet outside the map boundary, or by using a Transference Device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Leave this zone.",
 					flag = 0
 				}
 			}

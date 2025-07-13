@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-fbk",
 			dir = 1,
-			say = "{namecode:158}那边似乎一切顺利，把你的两名同伴救出来了，是叫绫目和诗音么？",
+			say = "... It sounds like Kawakaze has managed to group up with Nakiri and Shion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "太好了！不过，还有空前辈没有找到啊……",
+			say = "Great to hear! Though we still don't know where Miss Sora is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这位空前辈是你们的什么人啊？好像你们之间都是直呼名的，只有对这个人叫前辈？",
+			say = "I'm just wondering: is she particularly famous? You don't seem to address anyone else in your group with \"Miss,\" so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空前辈是最早加入hololive的成员，我们所有人的前辈啦，她平时就像大家的姐姐一样，对我们每个人都很好，很照顾我们。",
+			say = "That's because she was one of the first members of Hololive! And since we joined later and she always looks after us, we give her that bit of extra respect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就像{namecode:95}姐一样吧！………啊，不对，{namecode:95}姐偶尔比较毒舌呢。",
+			say = "Like how I respect my sister Shoukaku... Although she can be kind of mean from time to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？侦察机显示那边有交战反应，交战双方是……",
+			say = "Hm? My recon planes have found a familiar face! Let's see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}和你？！",
+			say = "Z23, and... Huh? Aqua?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我？",
+			say = "It's found me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少看起来和你一模一样，而且，她身边有一个棕色长发的女性。",
+			say = "Apparently. At least someone who looks like you. There's someone else there with brown hair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那一定是空前辈！和我？怎么可能！！！！！",
+			say = "That has to be Sora! But why am I there? That's impossible!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，发呆……记下来……",
+			say = "{dorm3d} is spacing out... Noted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,14 +29,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，和安克雷奇说话……记下来……",
+			say = "{dorm3d} is speaking to Anchorage... Noted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇在记什么？",
+					content = "You taking notes there?",
 					flag = 1
 				}
 			},
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把{dorm3d}，平时做什么，记下来！安克雷奇就不会忘，{dorm3d}的事！",
+			say = "I'm writing down everything {dorm3d} does! Anchorage doesn't want to forget anything about you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "生日、爱好……还有教安克雷奇的事情，很重要！记下来！不会忘！",
+			say = "Your birthday, what you like... Everything you teach me is important! Notes! No forgetting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，如果……忘了记下来，怎么办……",
+			say = "But... what if I forget to write it down?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东南E区域",
+			say = "NA Ocean - Southeast Sector E",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "一支重樱舰队正借助夜色的掩护在海面上谨慎行驶着。",
+			say = "A Sakura Empire fleet advanced cautiously under the cover of night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "虽然碧蓝航线已经清理了NA海域的塞壬，不过对于重樱来说，这片海域似乎变得更加危险了。",
+			say = "Though the Azur Lane cleared the NA Ocean of Siren forces, these waters have only become more dangerous for the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "水下情况一切正常，没有潜艇跟随的痕迹。",
+			say = "No abnormalities detected underwater. At least it doesn't seem like any submarines are tailing us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "周边海域也是哦~前方航线安全，没有发现任何敌人！",
+			say = "My recons haven't run into any enemies either, so the route ahead of us should be safe as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……停火协议算时间已经结束了。这片海域即将化为战场，航线能安全到何时还不好说……",
+			say = "But having said that, now that the ceasefire agreement's been turned into scrap paper, these waters can turn into a battlefield at any moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……前辈，我有一件事想不明白。",
+			say = "...There is one thing I don't understand though, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想问我这次为什么要带上你一起行动？",
+			say = "Why I decided to bring you along to this operation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然也有这方面的疑问……不过最主要的还是关于那个{namecode:440}的。",
+			say = "I have my own suspicions already... but it all boils down to Friedrich der Große, doesn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "面对碧蓝航线派出的舰队，铁血毫无疑问在本次战役中处于劣势，可{namecode:440}的部署却如此的……不紧不慢。",
+			say = "The Iron Blood is at a massive numbers disadvantage when compared to the entire Azur Lane, but Friedrich's deployments seem... awfully unconcerned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不但在浮岛要塞留下了大量舰队，甚至连达喀尔的驻防舰队也没有参战迹象。",
+			say = "A lot of their forces are still being kept at the Floating Fortress, and even the fleet stationed at Dakar hasn't moved out either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这种情况下，她邀请我们汇合的地方居然是皇家的斯卡帕湾锚地。",
+			say = "Despite all of this, she invited us to meet her at the Scapa Flow anchorage of all places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像大火已经烧到大门口了却还在惦记后院的事……",
+			say = "It's as if the fire has come to the front door but she's still moving things around in the back of the house...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她究竟在盘算什么……？",
+			say = "What exactly is she planning...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我这次也赞同{namecode:96}的看法。姐姐，这次{namecode:440}的邀请有蹊跷之处。",
+			say = "I find myself in agreement with Zuikaku this time. Sister, there's something strange about Friedrich's invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "斯卡帕湾距离皇家本土的距离相当近，铁血这样做就相当于自己跳进了前后夹击之中。",
+			say = "Scapa Flow is quite close to the Royal Navy's homeland. The Iron Blood has basically put themselves in an indefensible position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是一种完全不合常理的部署。",
+			say = "Their deployment decisions are completely contrary to reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然说要给重樱舰队展示“有趣的东西”，不过我们真的不是被拉去当打手的么？",
+			say = "Even though she did say she was going to \"show us something interesting,\" how do we know that we're not being dragged in to serve as her meatshields?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "也许吧。",
+			say = "It's a possibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈……我们进行如此冒险的行动，怎么说也得多带些护卫舰吧……",
+			say = "Akagi... If we're really going on such a risky mission, we should've brought more escorts, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多带些护卫舰做什么？",
+			say = "What good would that serve?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "舰队规模越大行动越容易暴露，这是其一。",
+			say = "The larger the fleet, the easier it is for our cover to be blown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其二是，带的人多了我们不就顺理成章的要被当成打手投入战斗了？正中{namecode:440}的下怀。",
+			say = "Secondly, the more numbers we bring, the more tantalizing it would be for Friedrich to use us as meatshields.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我觉得现在也不是用自身安全去赌气的时候吧……",
+			say = "Even if you feel wronged, I don't think we should be playing with our lives here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "对于这片海域的情报，我了解的要比你多得多，行军的事无须担心。",
+			say = "I have much more knowledge of this area's intel than you, so don't worry about troop deployments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "{namecode:440}总是令人捉摸不透，我也不喜欢她总是高高在上的态度。",
+			say = "Friedrich der Große has always operated from the shadows, and I'm not keen on the way she acts like a high-and-mighty puppetmaster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "不过，我知道她是不会说谎的。",
+			say = "But, I do know that she wouldn't lie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她在邀请中提到了向我们展示“可能性”，这就够了。",
+			say = "In the invitation was the mention of showing us another \"possibility.\" That alone is enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "我们千里迢迢从重樱本土来到这里的真正目的就在于此。",
+			say = "That is the true purpose why we've journeyed thousands of miles from the Sakura Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然没能率先进入NA海域的中心，那这次机会我们无论如何都不能再错过了。",
+			say = "Since we were not able to enter the heart of the NA Ocean, we must not miss this opportunity, no matter what.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“可能性”究竟指的是什么意思呢……",
+			say = "What does \"another possibility\" even mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "等看到之后你就明白了。",
+			say = "You'll understand when you see it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,42 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你好奇我为什么要带你来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 307010,
-			say = "我承认，这里面有一时兴起的成分。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307010,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "不过更重要的是，你们很好奇吧？",
+			say = "You wanted to know why I brought you along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +584,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "我知道新生重樱联合一直在暗地里打听我在做的事，也知道你们中的一些人总认为我的决策是错误的。",
+			say = "I'll admit, a part of it is just me acting on a whim.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "But more importantly, you want to know too, don't you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 307010,
+			say = "I'm aware that the new Combined Fleet has been keeping an eye on me, and that many of you disagree with my decisions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "但是你们忽视了一点————你们的所见与我的所见并不相同。",
+			say = "But there's one thing you've failed to consider – we aren't looking at the same reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我见到了我所见到的，所以我做出的行动无可更改。",
+			say = "Given what I've seen, I would make the same decisions, again and again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是你的态度呢？",
+			say = "But what about your beliefs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "当你见到了我所见到的风景之时，还会坚持你的理念么？",
+			say = "When you've seen my reality, would you still be able to hold your same beliefs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的态度也没那么容易改变的哦……！",
+			say = "My beliefs aren't that easy to shake...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……我确实很期待能见到与你所见相同的风景。",
+			say = "But... I do hope to be able to understand your point of view a bit better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样我才能真正有理有据的说服你选择不一样的道路！",
+			say = "That way, I can truly convince you to choose another path!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "那就让我们一起拭目以待吧。",
+			say = "Then, we shall wait and see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这次铁血献上的，究竟会是怎样的演出呢，呵呵呵呵……",
+			say = "What kind of performance will the Iron Blood put on for us this time? Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

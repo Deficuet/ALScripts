@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>八　扬帆起航</size>",
+					"Royal Fortune's Secret Shipyard\n\n<size=45>8 Hoist Sails!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_battleshipyard_7",
 			hidePaintObj = true,
-			say = "皇家财富造船厂·帆索组装完毕——",
+			say = "Royal Fortune's Secret Shipyard - Sails rigging finished",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "出航前的最后一步也完成了，但我还有最后一件事要讲。",
+			say = "Everything's in order to set off, but there's one last thing I wanna tell you about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，我准备说的，是关于这些船帆的事。",
+			say = "You guessed it – it's about a ship's sails.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "根据布置的位置，船帆被分类为舰艏三角帆、前主帆、主桅主帆与后桅主帆。",
+			say = "From bow to stern, you have the jib, the foresail, the mainsail, and lastly, the mizzensail.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -86,7 +86,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "将全部的帆面挂出，就是“满帆”的状态啦。",
+			say = "When all these sails are raised at the same time, it's known as a \"full sail.\"",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -105,7 +105,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "这时候，船只会以最快的速度航行。",
+			say = "And that is when the ship can cruise at its top speed.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -124,7 +124,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "不过呢~为了应对复杂的海况，船只通常会只挂“半帆”。",
+			say = "But, ships usually lower some of their sails to adapt to the sea's often turbulent whims, a technique known as \"reefing.\"",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -143,7 +143,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "要是风力微弱，就增加帆面数量，要是风力太强就减少帆面数量。",
+			say = "When the wind is weak, they raise sails to catch more of it, and when the wind is too strong, they do the opposite.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -162,7 +162,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_7",
-			say = "这样的话，船只就能维持相对稳定的速度前进。",
+			say = "Doing this allows a ship to sail at a comparatively stable speed.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除此之外，应对风暴也是掌握船帆用法的必修课之一呢。",
+			say = "Knowing what to do in a storm is also required knowledge in order to sail.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "在这些情况下，风帆战舰通常只挂上帆，其它的部位则保持光杆状态。",
+			say = "When a storm blows, you raise only your topsail and keep all other sails lowered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，战舰就能在风浪中保持舰艏的抬升，并且不会因为狂风而扭转到失控的方向。",
+			say = "That way, your bow will stay raised, and you won't go off-course 'cause of any strong winds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "因此，把掌握帆索的使用方法看作是船只航行中最为重要的内容之一也不为过呢。",
+			say = "You could argue that mastering the art of raising and lowering your sails is THE most important part of sailing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，我相信诸位早就已经准备好了，对不对？",
+			say = "Then again, I reckon you folks already know that, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就……扬帆，起航！",
+			say = "Now... Hoist sails and weigh anchor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "让我们的征程开始吧——",
+			say = "Let our great journey begin!",
 			painting = {
 				alpha = 0.3,
 				time = 1

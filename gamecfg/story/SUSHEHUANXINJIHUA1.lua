@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一大早，我就被{namecode:98:明石}约到指挥室来，说是有要事相商。",
+			say = "It's the early hours of the morning, and Akashi has told me she has something important to discuss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵~让指挥官久等了喵！",
+			say = "Good morning, nya. Good news, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这是{namecode:98:明石}准备的新提案——「宿舍焕新计划」喵~",
+			say = "I have a new proposal for you – the Dorm Extension Project, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「宿舍焕新计划」？这就是你要和我商量的要事么……",
+			say = "I see. Is this the \"important\" thing you had to discuss?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "是的喵！之所以会提出这个，是因为{namecode:98:明石}觉得随着港区的发展，大家也应该有更好的居住体验喵！",
+			say = "Sure is, nya! The port has grown over the years, and we ought to build new homes to accommodate everyone, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正好之前{namecode:525:英格拉罕}拆除了废弃工厂，现在那里有足够大的空间，很适合建新宿舍喵~",
+			say = "Conveniently, there was a disused factory that Ingraham demolished a while ago, nya. That has cleared up plenty of space, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？不是在旧宿舍的基础上焕新么？怎么变成建全新的了？",
+			say = "Wait, you're going to construct new buildings? I thought this was limited in scope to a renovation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "那当然是因为建全新的{namecode:98:明石}才有的赚喵！",
+			say = "No, we're building from the ground up, nya. It's more profitable, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这只猫，现在已经完全不掩饰自己的本性了么……！）",
+			say = "(She's not even trying to hide her intentions.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哎呀，总之这个全新宿舍区域的设计初衷，是为了让港区的同伴们更好地休息和享受闲暇时光喵~",
+			say = "My vision is to create a place where shipgirls can be more comfortable than ever and enjoy the simple pleasures of everyday life, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战斗和工作之类的也是很花精力的喵，如果能够住得更加舒适的话，平时的状态应该也会变得更好喵。",
+			say = "Combat and work both take a toll, nya. With a place to better rest and recover, they'll perform better than ever before, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官应该也认同这一点吧喵。",
+			say = "You have to agree it's a pretty good idea, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这倒是没说错。如果能好好休息一下的话，不论是工作还是战斗，效率也都能大大提高。",
+			say = "Can't deny that. It'll help them work and fight with renewed vigor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "而且为了让大家都能满意，新的宿舍房间会完完全全按照入住人的喜好来装修喵~",
+			say = "Exactly, nya. That's why each home should also be decorated to suit the occupant, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "保证房间的每一处角落都是自己喜欢的设计喵。",
+			say = "Each room is going to be tailor-made according to the inhabitant's tastes, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是所谓的“精装交房，拎包入住”么……",
+			say = "So basically, occupants can move in without packing their bags or anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没错喵，指挥官很上道喵！",
+			say = "That's precisely what I'm thinking, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "啊，虽然这个新宿舍是为了让大家好好休息，不过如果指挥官强烈要求的话……",
+			say = "Oh, also – while this project is designed first and foremost for the shipgirls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在里面预留出一个专供办公的区域也不是不行喵？",
+			say = "We CAN also build a private space exclusively for you if you want, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这倒是暂时不必了……",
+			say = "Hmm. I'll think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过这个提案我批准了。什么时候投入建造？",
+			say = "For now, proceed with just this plan. Incidentally, when will the construction start?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻就能开工喵！只是还有一件事要提前告知指挥官喵。",
+			say = "It can start right away, nya! Although, there's a catch, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "虽然以港区现有的技术设施和物资储备来说，在短时间内建起宿舍不难……",
+			say = "Given the port's resource stockpiles and technology, finishing the actual construction won't take very long...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但难的是没办法很快就让大家全都入住喵。",
+			say = "But, relocating everyone at once isn't feasible, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么？",
+			say = "How come?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟房间的装修设计需要时间嘛，如果只是千篇一律的样板间的话，大家很快就可以全搬进来喵。",
+			say = "Designing and furnishing a home takes time, nya. Everyone could move in at the same time if we were making cookie-cutter homes, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "但{namecode:98:明石}刚刚也说过了喵，要完完全全按照入住人的喜好装修喵！",
+			say = "But we aren't, nya! I've already promised to provide every person with a unique residence, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只能让大家排队登记，一间间房的设计入住了喵。",
+			say = "So, the girls will just have to wait for their turn and move in one at a time, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "分批次入住么？也不是不行……",
+			say = "Not ideal, but I suppose that's how it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是这样一来，第一个入住的人就显得至关重要了，需要她记录和反馈这个全新的宿舍的体验了。",
+			say = "Since we're doing it this way, it's important to decide who's moving in first. She'll provide valuable feedback on how it feels to live in this new dorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}也考虑到了这一点喵！所以{namecode:98:明石}特别找了女仆小姐来帮忙喵！",
+			say = "I've already picked someone, nya! One of the Royal Maids, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？女仆？是贝尔法斯特么？如果是她的话，应该能完全胜任这份工作吧。）",
+			say = "(A Royal Maid? That's probably Belfast. She's the perfect candidate for a test run of the project.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伴随着指挥室的门被开启的声音，一道熟悉的身影出现在我眼前。",
+			say = "The office door opens, and a familiar face walks in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202200,
-			say = "贵安，我骄傲的主人。",
+			say = "Good afternoon, my honourable Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202200,
-			say = "天狼星很荣幸能成为宿舍的第一位入住体验人。",
+			say = "As your humble servant, I am truly honoured to be the first resident of the new dormitory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,18 +547,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼，就是这样~{namecode:98:明石}已经按照女仆小姐的喜好设计好了图纸，指挥官现在只需要在文件上签字就好！",
+			say = "There she is, nya. The blueprints for her personalized place are already done, so all you need to do is sign this, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "事已至此，先签字吧。",
+					content = "Well, since you've already made up your mind...",
 					flag = 1
 				},
 				{
-					content = "犹豫一下",
+					content = "(Stop and think about it first.)",
 					flag = 2
 				}
 			}
@@ -568,7 +568,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "短暂思考了片刻，还是决定在文件上签下了名字。",
+			say = "After mulling it over for just a moment, I put my signature on the documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202200,
-			say = "天狼星一定不负所托，我骄傲的主人！",
+			say = "I shall perform my duty with grace and live up to your expectations, my honourable Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一个月后，港区·指挥室内——",
+			say = "One month later, in the office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官！宿舍已经建好了喵~！女仆小姐的房间也装修好了！",
+			say = "Commander, nya! The construction on the dorm extension is done and Sirius' room has been furnished, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，房间内全都是采用不含甲醛和其它有害物质的材料和家具喵！所以指挥官不用担心喵。",
+			say = "Naturally, the homes are all built with safe materials with no trace of formaldehyde or other harmful substances, nya. It's all up to standards, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？怎么只有你一个人过来，天狼星呢？",
+			say = "I... see... Hey, where's Sirius?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "女仆小姐在她的房间里等着指挥官呢！走吧！我们去找她吧！",
+			say = "In her new home, waiting for you, nya! Go and speak to her, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

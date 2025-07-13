@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "hunhe-battle",
-			say = "巴拿马要塞西侧？东侧？·迷雾中",
+			say = "Canal Stronghold? - Out at sea?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			expression = 2,
 			dir = 1,
-			say = "就是这样…一旦被反潜机咬住，潜艇就无路可逃了。",
+			say = "As soon as the anti-submarine recons detect an enemy, it will alert us as to its position and continue to track its movements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "事先带了反潜机真是太好了，有备无患。没想到塞壬居然会出动这么多潜艇。",
+			say = "Phew... I'm glad we made preparations to deal with enemy submarines beforehand. I didn't actually expect the Sirens to suddenly field them in such large numbers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "真好啊~既能对空也能反潜，还能做侦查，要是我也能带舰载机就好了~",
+			say = "It's really amazing how many different roles you can cover as an escort carrier. I wish I could have planes as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "最好能让舰载机冲开迷雾，将失踪的同伴们都找回来…",
+			say = "Even with all this mist, I'd like to be able to get a birds' eye view of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,22 +96,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "如果是水上飞机还好说。如果是航空母舰用的舰载机的话，还是考虑改装成航空巡洋舰比较好哦…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说的也是呢…",
+			say = "Well, if you want to operate seaplanes, that would be possible after being retrofitted into an aviation cruiser.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +127,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "你的姐妹舰孟菲斯也在失踪的舰队里…很担心她么？",
+			say = "Marblehead, are you worried about Memphis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "孟菲斯每天都泡在公文里难得出来一次，本来约好了这次顺便带她在巴拿马放松一下呢。",
+			say = "Memphis is always working so hard, she barely gets any time back at home. This was supposed to be a vacation for her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +158,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "欣赏一下雨林风光，或者去感受一下热带的阳光与沙滩…",
+			say = "I was going to show her around to all the neat sightseeing spots around here, as well as the best places to kick back and relax on off-duty days...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +174,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "我们奥马哈级的性能并不是很出色，她现在会不会已经出事了呢，我总忍不住会想到一些糟糕的结局…",
+			say = "But it looks like that won't be possible anymore... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +190,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "若是论性能，我与企业或者埃塞克斯她们完全无法相比。但我仍在尽我所能的战斗，然后平安的存在于这里。",
+			say = "I'm also worried about Baltimore and Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不能向你证明，不过既然同为奥马哈级的你还在拼命战斗着，我想孟菲斯自己也一定不会轻易放弃吧。",
+			say = "We may not be sister ships, but as fellow compatriots of the same great union, I pray for their safety as if they were related to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +221,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "还是笑容更适合你哦，马布尔黑德。",
+			say = "That's why I want to work even harder... So I can protect your smile and stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +237,7 @@ return {
 			actor = 102270,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，直球冲击？！噗……谢谢，卡萨布兰卡，我感觉好多了。",
+			say = "Woah, talk about a curveball! You always came across as the overly serious type. Didn't think you had an appetite for jokes like that as well~",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -273,7 +258,7 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（Yes！这么电影感的台词，早就想说一次看看了！）",
+			say = "Here's looking at you, kid~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，现在应该打起精神来，全力fight才行~",
+			say = "Let's both do our best then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +299,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "咳…你没事了就好。我们继续向下一片区域转移吧~",
+			say = "That's right. Let's make sure everyone gets home safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

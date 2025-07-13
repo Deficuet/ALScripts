@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DPAIDGIFTFEEDBACK1",
 	alpha = 0,
+	id = "DORM3DPAIDGIFTFEEDBACK1",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			bgm = "story-room-sirius",

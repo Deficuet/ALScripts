@@ -16,7 +16,7 @@ return {
 			actor = 402060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼~没有再追上来，我们成功甩开塞壬了！",
+			say = "Woo! Yeah! Watch 'em drop like flies!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "与其说没有再追上来，不如说试图追上来的敌人都被消灭了诶……",
+			say = "That takes care of the last of them. We're in the clear now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "多么夸张的打击啊……高速、大威力，而且根本没看到是从哪里打出来的。",
+			say = "So, what the hell were those things? Couldn't have been cannonfire – shells don't fly like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个真的是炮弹么？",
+			say = "But I can't think of anythin' else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不，严格来说那并不是一枚炮弹，而是一枚增程火箭。",
+			say = "If I had to guess, they were long-range rockets or something similar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "增程火箭……增程火箭…………啊！好像确实曾经有做过一次实验的记录那种武器好像也被称为导弹！",
+			say = "Rockets... Rockets! That reminds me! Haven't our scientists developed a weapon that functions similar to a rocket?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "不过那个不是在陆地上使用的武器么？已经列装了么？！",
+			say = "Those have to be launched on land, though. I suppose there could be a small island not far from here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "当然没有。我们开发的原型武器还存在问题，距离投入使用还很早，更不要说舰装化了。",
+			say = "I doubt it. If there was one, you would already have spotted it with your planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "奇异点之中果然有很多有趣的事啊。",
+			say = "It's more likely that was the might of a META ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "报告！前方发现一小型舰队正在接近。舰船数量为两艘，看不出型号、不知道所属，也没有伴随的量产型。",
+			say = "Uh-oh... I see two figures in the distance! They've got, uh, strange riggings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "不知道所属也就算了，看不出型号是什么意思？",
+			say = "Strange riggings? Who in the world could that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "怎么说呢，她们带着很奇怪的舰装……一会你们见到就明白了。",
+			say = "No clue! I'll just have to get a closer look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……啊，一会是要见的，不是要打的吧？",
+			say = "Fingers crossed they won't start shooting at me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "当然。奇怪的舰装应该就是发射导弹的工具了。",
+			say = "\"Strange riggings,\" she says... Might be what fired those shots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来者究竟会是什么人呢——让我们去一探究竟吧。",
+			say = "We'll head there to investigate. Remember, don't fight unless you have to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,12 +298,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "鞍山",
+			actorName = "An Shan",
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "东煌所属，导弹驱逐舰鞍山，舷号101，旁边的是我的妹妹，同样东煌所属，导弹驱逐舰长春，舷号103。",
+			say = "I am An Shan – Dragon Empery missile destroyer, pennant number 101. And this is my sister Chang Chun, number 103.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -336,8 +336,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:468}",
-			say = "（东煌……东煌的舰队怎么会在这里？！）",
+			actorName = "Elbe",
+			say = "What are Dragon Empery destroyers doing in a Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,8 +353,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:447}",
-			say = "（而且导弹驱逐舰是什么啊，使用导弹的驱逐舰么？！）",
+			actorName = "Magdeburg",
+			say = "And... what the hell is a missile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,8 +370,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:476}",
-			say = "（嘘——！）",
+			actorName = "U-1206",
+			say = "Maybe it's what blew up that Siren fleet just earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,8 +397,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "铁血所属，特别行动舰队旗舰，{namecode:440}特使，战列舰{namecode:463}。",
+			actorName = "Ulrich von Hutten",
+			say = "Greetings. I'm Ulrich von Hutten. I'm commanding the Iron Blood's Singularity survey fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,8 +414,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "能在这里见到各位，真是意外。",
+			actorName = "An Shan",
+			say = "Oh, you're Iron Blood ships? Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,8 +431,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "虽然不能说很高兴见到你们，不过在这种充斥着塞壬与毁灭的地方见到还能够沟通的人倒也不错。",
+			actorName = "An Shan",
+			say = "It's such a relief finding an ally in a Singularity as rife with Sirens as this. A happy coincidence indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,8 +448,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "从你们和塞壬交战的时候开始，我们就注意到你们了。",
+			actorName = "An Shan",
+			say = "For a while there, I wasn't sure whose side you were on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,8 +465,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "你们是在知道我们是铁血舰队的情况下，选择出手解围的么？",
+			actorName = "Ulrich von Hutten",
+			say = "...I do believe our respective factions are at war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,8 +482,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "嗯。我们出手，是因为在更广泛的立场上，塞壬是我们共同的敌人。",
+			actorName = "An Shan",
+			say = "That is true, but that isn't what I meant. The fact is that we shipgirls are all allies in the war against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,8 +499,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "原来如此。这是东煌的态度么？",
+			actorName = "Ulrich von Hutten",
+			say = "And us meeting here is just random chance – is that really what you're saying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,8 +516,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "只是我个人的临机判断而已。",
+			actorName = "An Shan",
+			say = "Yes, it's as simple as that. Coincidences do happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,8 +533,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "长春",
-			say = "其实只是那片区域本来就在我们的清理任务里，开打了之后才发现里面有别人的……",
+			actorName = "Chang Chun",
+			say = "Yup. We're doing recon here as per the Commander's orders, and by dumb luck I guess we both opened portals to the same Singularity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,8 +550,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "长—春——",
+			actorName = "An Shan",
+			say = "CHANG CHUN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,8 +567,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "长春",
-			say = "啊，说错话了……",
+			actorName = "Chang Chun",
+			say = "Oops. Me and my big mouth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,8 +584,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "咳、铁血舰队在这里做什么？",
+			actorName = "An Shan",
+			say = "Ugh... Now might I ask: what are you doing in this Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,8 +602,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:463}",
-			say = "东煌舰队在这里做什么？",
+			actorName = "Ulrich von Hutten",
+			say = "What is YOUR fleet doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,8 +619,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "这件事的话，无可奉告。",
+			actorName = "An Shan",
+			say = "I'm afraid that's confidential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,8 +637,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:463}",
-			say = "那我也无可奉告。",
+			actorName = "Ulrich von Hutten",
+			say = "Then my answer is the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,8 +654,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "…………",
+			actorName = "An Shan",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,8 +672,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:463}",
-			say = "不过——可以给你们一个亲眼见证的机会。要来与我们一同行动么？",
+			actorName = "Ulrich von Hutten",
+			say = "I have a proposition. Why don't we put allegiances aside and work together for the time being?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,8 +689,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "这是不可能的，我们现在并不是能相安无事并肩战斗的关系，原因我想也不会有人比你们更清楚。",
+			actorName = "An Shan",
+			say = "Sadly, we cannot. We have our reasons, and they aren't... Well, they're not ALL to do with allegiances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,8 +706,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "不过我可以给你们一句建议。",
+			actorName = "An Shan",
+			say = "However, I will offer you a piece of advice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,8 +723,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "抛弃量产型吧，量产型舰队在这里只会成为累赘。",
+			actorName = "An Shan",
+			say = "You probably shouldn't use mass-produced ships in this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,8 +741,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:463}",
-			say = "是指目标太大会暴露行踪么？确实如此，刚刚的战斗中量产型也没起到什么作用……",
+			actorName = "Ulrich von Hutten",
+			say = "Why? Because a bigger fleet draws more attention?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,8 +758,8 @@ return {
 			bgName = "bg_midgard_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鞍山",
-			say = "那就在此别过吧，奇妙的铁血舰队。这片海域正在变得愈发危险，你们还是尽快离开比较好。",
+			actorName = "An Shan",
+			say = "Partly, yes, but mainly because bringing big mass-produced ships into a Singularity seems to trigger a reciprocal response from the Sirens. Keep that in mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "东煌的两人在对话结束迅速转身，不带丝毫迟疑的加速离开了。",
+			say = "The Dragon Empery girls waved farewell at the Iron Blood fleet, then swiftly sailed away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:464}似乎还想追问什么，不过最终没有出声制止，只是目送着东煌舰队远去了。",
+			say = "Ulrich considered the option of following them, but decided not to out of trust for the Commander, and for her fellow shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "感觉和印象中的东煌差的也太多了！",
+			say = "...Man, those missile things they got are crazy stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那个导弹舰装究竟是什么东西呀，我们都还没有的东西，东煌是从哪里弄到……？",
+			say = "Here I thought they were some superweapon only the Sirens could use... I hope we'll be able to utilize those someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "知晓我们的存在，但又与认知中不太一样……也许她们是存在于这个世界的东煌？没立刻打上来也是这个原因？",
+			say = "Soooo... How did the Dragon Empery figure out how to open a Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "谁知道呢。也许在这个世界，或者说在每个世界里，阵营之间的关系都不完全一样吧……",
+			say = "Who knows. Their technology differs from ours. I'm not going to make blind conjectures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难得见你下判断的时候会犹豫呢。",
+			say = "Who knows? Not the kind of phrase I was expecting out of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "情报太少了，无法判断。",
+			say = "I can't construct a hypothesis without more information. It's as simple as that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "走吧，我们在这里耽误的时间有些久了。",
+			say = "However, I can be sure their actions won't impede our progress. The Commander wouldn't allow that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "量产型舰队怎么办？虽然剩下的还能不能称为舰队也很微妙……",
+			say = "What do we do 'bout the mass-produced ships? Do as they said and dump 'em?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +957,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就留在这里吧，带着不但危险，也起不到什么作用。",
+			say = "Moor them here. We will not scuttle a valuable asset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "留在这里说不定回去的路上还用得着。",
+			say = "They'll serve as a landmark for when it's time to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么……接下来要继续往什么方向走呀？",
+			say = "All righty. What do we do now, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "嗯……我们来的方向不能回去，东煌舰队来的方向大概也没什么值得注意的东西。",
+			say = "The same as before – we head for those wrecks Elbe sighted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就那边吧。",
+			say = "We cannot leave the Singularity empty-handed. We have to make some sort of discovery...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,7 +1042,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:464}指了一个介于遭受袭击方向和东煌舰队离开方向之间的位置。",
+			say = "The Iron Blood fleet set sail once more, traveling in the direction opposite where the Dragon Empery girls went.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1060,7 +1060,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那边充满残骸，也没有被东煌舰队探索过。我们就去那边，META永远不会离毁灭和战争太远的。",
+			say = "If we steer clear of those Dragon Empery girls, any traces of a recent battle we find should indicate a META shipgirl is nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "铁血舰队果断的留下了量产型，以更精简的编制向着新的方向驶去了。",
+			say = "They anchored their fleet of mass-produced ships and left them behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1089,7 +1089,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——14小时30分。",
+			say = "However, they were hardly prepared for what they would encounter ahead–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

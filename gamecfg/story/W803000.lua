@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "出现了两群海豹，不过似乎有一群是实验场生成的棋子，通过G.M系统的分析模块寻找出真正的海豹吧……",
+			say = "That’s a whole lot of seals! Now, which is the real one... Might be worth a scan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "城市区·东城区",
+			say = "Town - East Sector",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "这个城市也逐渐现出原形了啊……印象里今天早上还是正常的。",
+			say = "The illusion of the town is disappearing... It's gradually reverting into a regular old island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "因为发现了我们已经恢复记忆的现状，判断出没有必要维持了么。",
+			say = "I guess the Sirens decided they don't need to keep up the guise anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬还真是实用主义者。",
+			say = "These Sirens are an awfully pragmatic bunch, huh? Masks off the moment they get discovered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "去掉伪装之后，整座城市变得就像虚拟空间一样，真奇怪。",
+			say = "I've never seen anything like this though. With the disguise peeled back, it feels like we're actually stepping into cyberspace...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "不过学校那边还是正常的，反而显得这边很更加诡异了。",
+			say = "The fact that the school is still staying intact makes it seem all that much more surreal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉像是看到了这个世界的基础构成之类的……",
+			say = "It's like I'm getting a glimpse into the \"reality\" of this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "啊，别碰，可能很危险！",
+			say = "Hold on, don't just go around touching things randomly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "为什么？看起来只是块状物而已哦？",
+			say = "Huh? Isn't this just a normal brick wall?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "那些也是塞壬造物……天知道会不会搭载了什么危险的机能。",
+			say = "You never know when it comes to the Sirens. Even ordinary things can be inlaid with alien dangers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "这样啊。你们和塞壬战斗很久了么？",
+			say = "...I see. You did say you've been fighting against the Sirens for a long, long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "很久了。它们是过去的某一天突然出现的，然后就毫无征兆的向我们发动了进攻。",
+			say = "Kind of? They kinda showed up out of nowhere in our world as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "不知道诞生的原因，也不知道进攻的理由，简直也像某类怪兽一样呢。",
+			say = "So they just appeared suddenly and started attacking with no rhyme or reason? That... sounds a lot like the kaiju.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "{namecode:90}，刚刚一直在我们头顶上飞的，是飞机？",
+			say = "Oh, Ryuujou, is that an airplane that's been flying around above us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错~刚才忘了介绍了，那些叫做舰载机哦！是航空母舰的标配，不过有些轻重巡洋舰也能使用就是了。",
+			say = "Yup, that's a carrier-based aircraft, designed specifically for use by aircraft carriers. Some cruisers are able to launch seaplanes, and that's a different class of–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "那我也能用么？",
+			say = "So, does that mean I get to use them too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "净化者给你做的舰装虽然像是重巡洋舰等级的样子，不过没有搭载舰载机的模块哦！",
+			say = "Hmm... It seems that the rigging Purifier made for you has no ability to launch carrier-based aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "这样……看来必须要习惯水面上作战了啊……",
+			say = "I see... I guess I have to get used to fighting on the surface then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "啊，你的舰载机，能坐上去么？",
+			say = "What if... Hey, Ryuujou, do you think you'd be able to give me a ride on one of your planes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 306060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不能！",
+			say = "No way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

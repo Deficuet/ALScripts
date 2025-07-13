@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[2]\n\n<size=45>慵懒的春光</size>",
+					"Port Fashion Collection: Spring Festival II\n\n<size=45>2 Spring's Lackadaisical Leisure</size>",
 					1
 				}
 			}
@@ -18,9 +18,9 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			actorName = "？？？",
+			actorName = "???",
 			blackBg = true,
-			say = "指挥官，醒了吗？",
+			say = "Commander, are you awake?",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "唔……",
+			say = "Mmnh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里是……",
+			say = "Where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "终于醒了呢。",
+			say = "There you go. Finally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看来今天的指挥官是想成为饿肚子的鸟儿？",
+			say = "You're like a hungry little birdie today, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……英仙座？你怎么……躺在我旁边？",
+			say = "...Perseus? Why are you next to me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "指挥官忘了吗？",
+			say = "You really forgot, Commander? Geez.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早上，你来给我送新年礼物——",
+			say = "This morning, you came to give me a New Year's gift...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就是我身上的这件。",
+			say = "The outfit I'm wearing, y'know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "结果等我换好了衣服回来，就看到一只偷懒的鸟儿在我床上打盹。",
+			say = "When I finished changing and came back, I saw a certain lazybones asleep in my bed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,18 +221,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "混沌的大脑渐渐清晰了起来，好像……是有这么一回事。",
+			say = "My sleepy brain finally starts working. Now that she mentions it... that does seem to be the case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抱歉！",
+					content = "I'm sorry!",
 					flag = 1
 				},
 				{
-					content = "占了你的床！",
+					content = "Sorry for using your bed without permission!",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "道歉的话就不必了。",
+			say = "It's fine. You don't have to apologize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在美好的日子里偷一下懒也没什么问题。",
+			say = "There's nothing wrong with being a little lazy on such a nice day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "似乎也有些道理，不过……",
+			say = "She makes a fair point. One thing still doesn't make sense, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你为什么也躺在床上？",
+			say = "And why are you lying next to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "我？",
+			say = "Me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "自然是在扮演在打盹的虫子。",
+			say = "To be a sleeping worm, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "打盹的……虫子？",
+			say = "A... sleeping worm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "是啊——如果指挥官不介意的话，我打算继续打盹了。",
+			say = "Yep. If you're done asking questions, I'm going back to sleep...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至于你之前说的新年拜访什么的……之后再说吧。",
+			say = "As for the New Year stuff you were talking about before... We can talk about that when I wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "早起的意义……就是为了让回笼觉睡得更香甜……zZZZ",
+			say = "Waking up early... is just a way to better enjoy going back to sleep... Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早起的虫儿被鸟吃……早起的鸟儿被虫吃……zZZZ",
+			say = "The bird gets the early worm... The worm gets the early bird...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……一边说着梦话，一边进入了梦乡？",
+			say = "Did you really fall asleep mid-conversation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……感觉头也变得愈发昏沉了。",
+			say = "Oh, no... I'm getting sleepy, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "或许是因为房间里昏暗的光线，又或许仅仅是被少女均匀的呼吸声所感染。",
+			say = "Is it because of the dim lighting, or is it Perseus's sleepy breathing rhythm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……反正是假日，稍微偷懒一下好了。",
+			say = "Well, it is my day off... Might as well rest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "睡意渐渐袭来——",
+			say = "Off to dreamland I go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,8 +481,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "英仙座",
-			say = "呼呼呼……",
+			actorName = "Perseus",
+			say = "Heheheh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,8 +516,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "英仙座",
-			say = "现在，早起的虫子和鸟儿，都被早起的被窝恶魔吞噬掉了……",
+			actorName = "Perseus",
+			say = "Now the early bird and the early worm have been devoured by the evil bed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,8 +534,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "英仙座",
-			say = "好好休息吧，我最喜欢的指挥官……",
+			actorName = "Perseus",
+			say = "Get some rest, my beloved Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>四 入乡随俗？</size>",
+					"Moments with the Young Miss\n\n<size=45>4 When in Rome</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "第二天的交流对象是北方联合，活动进行得很顺利。",
+			say = "Chaser’s visit to the Northern Parliament on the second day of her mission went off without a hitch.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，追赶者小姐，今天与我们阵营的交流感觉怎么样？",
+			say = "Commander, Chaser, what do you think of our camp?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家的配合，和各队伍的敏捷反应都让人大开眼界。有许多值得皇家学习的地方，确实是让人感到受益匪浅。",
+			say = "Oh, everyone’s so cooperative, and responsive. The Royal Navy has a lot to learn from you, I think. I know I learned a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错吧？呵呵~对了，之后要和我们一起吃饭吗？",
+			say = "Did you now? Hehehe. By the way, you will join us for dinner, won’t you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，时间确实也不早了呢。机会难得，就让我们叨扰一番吧？",
+			say = "Say, now that you mention it, it is getting rather late. Since we’re here, we might as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常欢迎~这边请——",
+			say = "Excellent. This way, please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "北方联合生活区·食堂",
+			say = "Northern Parliament Dormitory - Canteen",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，好大的桌子呀。是北方联合的大家都聚在一起吃饭吗？",
+			say = "Wow! That’s a huge table! Does your whole fleet come to dinner?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也要看日子就是了。毕竟有许多性格独特的伙伴呢……",
+			say = "It depends on the day. We’ve got a lot of unique personalities among us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊…是同志酱和皇家的人。还没有回去啊……",
+			say = "Oh... Dear Comrade and the Royal Navy girl. You’re still here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呀，正好到了饭点，就来叨扰了~",
+			say = "Yes, we’re here for dinner. I trust that won’t be a problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这样。那就尝尝特制的罗宋汤吧，很好吃的。",
+			say = "Oh. Then you can try the borscht. It’s good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢~作为答谢，我给各位准备好喝的红茶吧~",
+			say = "Thank you. And in return, I’ll make you a fine tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位久等了~这就是用我特制的茶叶泡的红茶哦♪",
+			say = "Sorry to keep you waiting~ Do please enjoy my special Chaser Blend♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后……要这样！",
+			say = "Right then... here you are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………！",
+			say = "......!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冰块……？！",
+			say = "Ice...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者把冰块丢进了摆上来的红茶里。",
+			say = "Chaser plopped some ice cubes into the tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说北方联合有喝冰红茶的习惯，各位请吧♪",
+			say = "I’ve heard you Northerners like to drink iced tea. Enjoy♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还真是……令人惊叹啊……",
+			say = "It’s... astonishing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不愧是多次航行过北方联合航线的舰船……",
+			say = "...You can tell she’s run the shipping lanes to the Northern Parliament a lot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，我们也一起喝吧♪",
+			say = "Hehe, time for me to have some too♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如此这般，大家一起享用了红茶。",
+			say = "And so, we all had some tea together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……热的虽然也不错，冰的也挺有意思的呢！指挥官，快喝吧♪",
+			say = "...Hot is nice, but cold is good too! Drink up, Commander♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "本来只知道她应该很熟悉白鹰文化，没想到还学习了北方联合的风俗习惯啊……",
+			say = "I’d thought her only familiar with Eagle Union culture. I never knew she could learn the Northern Parliament just as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_shenguang_1",
-			say = "一段时间后，在仪式场地中完成了密谈的马可波罗一行人对于战场进行了重新部署。",
+			say = "A while later, Marco Polo and Raffaello returned after their secret talk at the ritual grounds and reorganized their forces.",
 			bgm = "story-shenguang-holy",
 			flashout = {
 				black = true,
@@ -31,7 +31,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"罗马城·周边海域",
+				"Rome - Surrounding waters",
 				3
 			}
 		},
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_shenguang_1",
-			say = "众人继续收缩防线，故意放任安德烈亚一方占领各处神光之网的节点。",
+			say = "They were going to withdraw their troops and allow Andrea's faction to capture every node of the Lattice of God's Light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_shenguang_1",
-			say = "同时，将军队全部集结在罗马城周边，做出了一幅为了执行某种规模浩大的神罚仪式而拼死拖延的景象。",
+			say = "At the same time, their whole army would converge upon Rome and make it appear as though they were conducting a massive ritual to buy themselves time out of desperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_shenguang_1",
-			say = "果然，在察觉到此处变故后不久，安德烈亚·多利亚带领主力如马可波罗此前预料的一般从海上袭来了。",
+			say = "Sure enough, Andrea Doria took notice and launched a naval attack with the brunt of her force, just as Marco Polo predicted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,11 +69,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "好久不见，拉斐尔，没想到是由你来带领撒丁教国的舰队。",
+			say = "We meet again, Raffaello. I'm quite surprised to see that you're leading the Ecclesia's navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "大画家，你们的圣座呢？",
+			say = "Where is your leader – Marco Polo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,11 +97,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
-			say = "她正在忙呢，所以就委托我来随便应付一下这边的麻烦啦。",
+			say = "Her Grace is, well, busy, so she kinda just threw her arms up and told me to take care of the trouble here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +111,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "“随便应付一下”，看来你们对于正在准备的那个神罚仪式很有自信啊。",
+			say = "\"Threw her arms up,\" you say? She must have put a lot of faith into this ritual of hers. No pun intended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,10 +125,10 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "为了拖延时间甚至不惜主动将神光之网的节点拱手相让……",
+			say = "And yet, she has surrendered so many nodes to buy herself some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,11 +138,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "呵呵，老实说，真不是什么明智的做法。",
+			say = "It frankly doesn't seem like the smartest idea, does it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,11 +152,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
-			say = "这个嘛~暂时先给你留个悬念咯。",
+			say = "Maybe, maybe not. I'll let you enjoy the suspense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,9 +166,9 @@ return {
 			actor = 602030,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			nameColor = "#FF9B93",
-			say = "安德烈亚，她在拖延时间。",
+			say = "Andrea, I'm starting to think Raffaello is also stalling for time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,11 +178,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "嗯，招呼也打过。接下来，让我们正面一战吧。",
+			say = "Yes, and I've said my piece. All there is to do now is attack head-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
-			say = "好啊~你等着，我马上去亲自找你！",
+			say = "Fine by me. I'll be coming at you as straight as spaghetti!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,10 +206,10 @@ return {
 			actor = 605080,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "达芬奇、阿尔弗雷多，按计划行动。",
+			say = "Da Vinci, Alfredo, remember the plan!",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -220,12 +220,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_1",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			fontsize = 24,
 			actor = 605080,
 			nameColor = "#A9F548FF",
-			say = "你们帮我拖住其他人，我去亲自找她说！",
+			say = "Do everything you can to hold the others back while I go and persuade Andrea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

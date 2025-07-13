@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>七 意料之外的头版头条</size>",
+					"The Sensationalist Sensation\n\n<size=45>Someone Else's Front-Page News</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "几日后的清晨——",
+			say = "Early morning, several days later...",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "（哈欠）早安呀，指挥官~",
+			say = "*yaaawn*... Morning, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "今日的阿尔弗雷多·奥里亚尼，似乎又恢复了没有精神的状态。倒不如说……她这几天的精神似乎都不太好。",
+			say = "Alfredo enters my office looking sleep-deprived. Again. She's been like this for the past few days, in fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哈，其实也没有那么严重啦……",
+			say = "Mgh... Hey, I'm fine. Don't worry about me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为咱们拍到的花边新闻得写成稿子嘛……这几天一直在忙各种各样的事情呢。",
+			say = "I've just been really busy making articles out of the material I got from the ball...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "也辛苦指挥官了……本该秘书舰处理的工作，好多都被指挥官揽过去做了。我都注意到了，谢谢啦~",
+			say = "Sorry 'bout my lack of energy. I know you've been singlehandedly doing all the work I'm supposed to do as your secretary. I really appreciate it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过好在终于写完啦！新一期的《港区秘闻——舞会花絮特别篇》也已经出版了，你看——",
+			say = "Now my slacking days are over, though! The latest issue of the Port Journal is finished! It's all about the ball. Check it out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "接过阿尔弗雷多·奥里亚尼递过来的新一期的《港区秘闻》，这期的人气应该不错？",
+			say = "She hands me the magazine, which does have the look of a magnum opus about it. However, her expression turns from elated to sour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊，这个……嘛。",
+			say = "Unfortunately, my work was for nothing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……………………咱们被摆了一道！",
+			say = "All because of THIS!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
-			say = "阿尔弗雷多·奥里亚尼又递过来一份报纸，头条上赫然印着——",
+			say = "She hands me another newspaper. The front page features a bold headline...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“震惊！和指挥官一起度过舞会的，居然是她？！”",
+			say = "\"You Will Not Believe Who the Commander Danced With at the Ball!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "下面配的是和阿尔弗雷多·奥里亚尼在舞会上跳舞的画面……看起来是在不知不觉之间被人偷偷记录下来了。",
+			say = "Below it is a picture of me and Alfredo in the middle of our dance. It seems someone photographed us without our knowledge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "是·犹·做·的！",
+			say = "Frickin' Aoba!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "她也发现了新闻的焦点是围绕着指挥官而动的这件事……！",
+			say = "She knew you're all the buzz right now and she beat me to it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……噫！越想越生气，居然起这种标题来吸引热度！把我《港区秘闻》的热度都给吸引走了！",
+			say = "Urgh! The headline just reeks of sensationalism, too! I can't believe she stole my spotlight with THIS of all things!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……十分很怀疑她真的能用标题这个理由去指责别人么。",
+			say = "It's pretty hypocritical to call others sensationalist, considering the headline she herself chose, but I digress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，这样倒也算以另一种方式“拿下了”高人气了对吧？",
+			say = "\"Look at this way – you still made front-page news.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "毕竟都被挂在人气最高的小报的头版头条上了。",
+			say = "\"Maybe not in the way you'd hoped, but the fact remains that you're the talk of the port now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不、不要笑啦！指挥官！",
+			say = "Oh please! That's not funny, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过……感觉也不坏就是了。",
+			say = "*sigh*... Even though I got played for a fool, somehow I don't feel salty about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "毕竟不管再怎么说，我也和指挥官留下了一段难忘的美好回忆呢~",
+			say = "Because at the end of the day, I did get to have an unforgettable dance with you♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼，要不下期就把取材的过程·稍·加·修·改，再编成故事放到《港区秘闻》里吧？",
+			say = "Hey, that gives me an idea! I could always embellish a few details and feature that story in the next issue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "然后再起个漂亮的标题，比如“指挥官和舞女的风流秘史”之类的？仔细想想好像也不错呢！",
+			say = "Then throw in a spicy headline, like... \"The Secret Romance Between the Commander and a Dancer\"! Yeah, THAT'LL cause a real sensation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "还是饶了我吧……",
+			say = "\"I invoke my right to remain anonymous.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "诶诶诶诶诶诶诶诶——————！",
+			say = "Nuooooooooooooooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1

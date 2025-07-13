@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "hunhe-battle",
-			say = "巴拿马要塞东侧？·迷雾中",
+			say = "Canal Stronghold? - Out at sea?",
 			effects = {
 				{
 					active = true,
@@ -29,7 +29,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "千钧一发之际出现的蓝鳃鱼，将被巨浪拍入水中的无畏救了上来。",
+			say = "The waves dissolved and the sea became still as if nothing had happened... except the mist still lingered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "然后不知何时，巨浪也如同出现时那么突然，迅速的平息了。",
+			say = "Bluegill had pulled Intrepid from the depths, saving her from certain demise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳…咳咳……得救了。",
+			say = "*cough* *cough*... I owe you one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "无畏，没事吧！！",
+			say = "Intrepid, are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "没事没事，就是稍微呛了点水…咳咳…",
+			say = "As fine as I will be for someone who almost drowned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蓝鳃鱼，Nice，回来的时机很完美！",
+			say = "Bluegill, thank goodness you made it in time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，执行侦察任务的蓝鳃鱼，现在完成任务归队！",
+			say = "Heheh! I just finished my recon mission and am now back to join up with the team!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			actor = 108040,
 			dir = 1,
-			say = "在侦查途中遭到塞壬舰队的拦截，回来迟了…本来想报告敌情的，看来大家已经和塞壬交战了啊！",
+			say = "On my way back, I encountered a huge swarm of Sirens before getting pulled into a huge wave, and, well, here you all are fighting the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平安回来就好，现在每一份力量都很宝贵。很遗憾现在没有休息的时间，立刻归队和我们一起迎击塞壬吧。",
+			say = "Hmm... We were fighting this whole time. Did you not notice anything before that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "等等，有轮机声正在靠近…",
+			say = "Wait, is that the sound of an engine coming towards us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "又有塞壬包抄过来了么，接招~！",
+			say = "Watch out! Something's approaching! Hurry up and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰---！",
+			say = "BOOOMM!",
 			flashN = {
 				color = {
 					1,
@@ -260,7 +260,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂~~大家都还好么~听到请回话~~~呀啊！！！",
+			say = "Woah! Everyone, are you okay? Say something if you are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 102270,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里、里诺？！！你怎么会在这里啊！",
+			say = "Reno? Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是马布尔黑德！？！",
+			say = "Marblehead?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说！刚才的一连串炮击是怎么回事呀…！要不是空包弹的话我就开火还击了哎！",
+			say = "...Why'd you suddenly shoot? Judging from the anti-air fire, I knew it wouldn't be a Siren, but still...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "呼呼，毕竟要排除一下塞壬的棋子趁乱靠近的可能性嘛，诶嘿~☆",
+			say = "Well, you can't rule out the possibility of one of the Sirens' \"pieces\" showing up, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……里诺你不是在要塞西侧驻防么，怎么跑到这里来了？",
+			say = "Huh? Was Reno supposed to be acting independently from Bunker Hill and the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "哎？！不是你们跑来西侧了么！",
+			say = "Yeah... Why'd all of you come back to the Canal Stronghold bay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "虽说刚刚我们在浓雾中遭遇了一股巨浪，但就算浪再大也不至于把我们都冲到要塞西边来吧…",
+			say = "We did just get swept up by a huge wave, but there's no way it swept us all the way back into the bay, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "啊~布莱默顿、卡萨布兰卡、邦克山这边这边~！看我发现谁了。",
+			say = "Bremerton! Casablanca! Bunker Hill! Over here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "西侧驻防舰队全员都到这里了？！",
+			say = "Everyone's back together, huh?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "哟，一会不见，大家都…挂了点彩呢，嘿嘿。",
+			say = "Woah, it's everyone on the rescue team!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "突然出现又突然消失的巨浪结束后，原本位于运河两侧的舰队汇合了…绝对不是自然现象呢。",
+			say = "Somehow, it seems like we all encountered the same weather abnormality? And we all got caught up by that huge wave...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "难道果然…迷雾内部是连通的？",
+			say = "When Bluegill was caught up in the wave, she noticed that she was somewhere altogether different. Do you think the Sirens are moving us on purpose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然难以置信，不过迷雾若是塞壬设下的机关，倒也不是完全不可能。",
+			say = "I find that hard to believe, but can't rule out that possibility either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "那我们现在到底在哪里？要塞的东侧还是西侧…？",
+			say = "In other words... where are we currently relative to the Canal Stronghold?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不清楚，如果迷雾真能联通要塞东西两侧的话，哪边也就不重要了……你们还是没找到企业么？",
+			say = "It's hard to say. My equipment has been going crazy for a while now. It's possible that we're even inside a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有…想必企业前辈现在也在迷雾中的某处战斗吧。",
+			say = "To make matters worse, we still haven't found Baltimore or Enterprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "巴尔的摩她们也有可能被困在场迷雾之中…只要我们破坏了生成迷雾的装置，大家应该就能回来了！",
+			say = "That's true, but at least we're all together now, right? What we need to do now is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事不宜迟，赶紧出发吧~前进的方向呢，对，就向着敌人最密集的方向前进吧！",
+			say = "Find the source of this mist!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "猫派还是狗派啊……",
+			say = "Cats or dogs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "猫猫非常治愈呢，但是狗狗活力的样子也不错……",
+			say = "Cats are soothing to be around, but dogs are so fun and exciting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但我觉得都不够好，因为我是兔子派！",
+			say = "Both of them fall just short, though, because I love bunnies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是能够跳进Honey心中的兔子哦，你一定会喜欢的吧~？",
+			say = "In fact, I'm the bunny who's gonna hippity-hop into your heart! Is that what you like to hear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

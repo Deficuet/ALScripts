@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "背后，不舒服……安克雷奇碰不到……{dorm3d}，帮忙！",
+			say = "My back itches... Anchorage's hands can't reach... {dorm3d}, help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "想在{dorm3d}身上，蹭蹭，蹭蹭！",
+			say = "{dorm3d}, rub my back...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

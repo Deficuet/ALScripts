@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"让我们打开<color=#ff7d36>任务日志</color>",
-	"领取<color=#ff7d36>任务奖励</color>"
+	"Why not open up your <color=#ff7d36>Mission Log</color>?",
+	"Collect your <color=#ff7d36>mission rewards.</color>"
 }
 
 return {

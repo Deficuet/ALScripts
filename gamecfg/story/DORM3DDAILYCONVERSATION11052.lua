@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不管看多少次，都觉得Honey喝咖啡的样子好成熟帅气~",
+			say = "You look so mature and cool when you drink coffee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,23 +52,11 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = 10517,
-			nameColor = "#FFFFFF",
-			hidePaintObj = true,
-			say = "唔……如果我也能喝咖啡的话……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
+			actor = 10517,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			dir = 1,
-			say = "我觉得喝果汁的{namecode:199:新泽西}就非常可爱了。",
+			say = "Mm... If only I could stomach it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +68,19 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey真是的……我会越来越喜欢你的哦！",
+			say = "You're plenty cute when you drink fruit juice.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = 10517,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "Aww, honey. You're making me fall even deeper in love!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

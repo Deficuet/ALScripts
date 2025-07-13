@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "nagato-map",
 			dir = 1,
-			say = "你们没事吧？",
+			say = "Were either of you hurt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸…欸？！！{namecode:158}！！这不是{namecode:158}么！！",
+			say = "Oh... Oh my God! It's you! It's really you, Kawakaze!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "澪快看，是{namecode:158}哎，真真正正的{namecode:158}哎！！！！",
+			say = "Look, Mio! It's the real Kawakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "…啊？这是什么展开……总之是得救了么？！",
+			say = "... What? I don't even get what just happened... But I guess we're saved now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！{namecode:158}！这凌冽的眼神，修长的身体，柔顺的尾巴！（深呼吸）",
+			say = "Squeeee! Look! Those cool eyes, that slender body, that fluffy tail! It's Kawakaze, in the flesh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "喂喂吹雪，给别人带来困扰了啊。",
+			say = "Calm down, Fubuki. You're making her uncomfortable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看起来两个人都平安无事的样子，真是太好了。",
+			say = "So here you were. Glad to see you're both all right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}也来了？！！！",
+			say = "You're here too, Zuikaku?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳嗯，刚才失态了，感谢两位在危急关头出手相救！",
+			say = "Sorry, where are my manners... Ahem, thank you for saving us when we were in danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "猫耳，而且认识我们，你们是新加入重樱的舰船吗？不对……你们没有舰装啊。",
+			say = "You don't have any rigging from what I can see... But you've got cat ears and know our names... Are you from the Sakura Empire, by any chance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "猫耳？！看这条柔顺的大尾巴，怎么看都是狐狸吧！",
+			say = "Cat ears?! Excuse me, can't you see my tail? I'm a fox!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？！原来是狐狸么…对不起",
+			say = "Oh, a fox? S-sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "算啦…初次见面，我是hololive旗下的虚拟白发兽耳女高中生白上吹雪。虽然经常被认错，不过我不是猫，是狐狸哦！",
+			say = "It's no biggie. Anyway... I'm Shirakami Fubuki, the white-haired, animal-eared high-schooler working with Hololive. Many people mistake me for a cat, but I'm 100% a fox!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "至于我为什么会认识你们，这个说起来就有些复杂了呢。",
+			say = "As for the reason why I know your names, well, that's a long story...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "我也是hololive旗下，hologamers的大神澪，叫我澪就好，请多指教。",
+			say = "And I'm Ookami Mio, I also work with Hololive. I'm one of the Hologamers, if you want to be specific. Just call me Mio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "hololive..?可以理解成两位所属的组织名吧",
+			say = "\"Hololive\"? Sounds like an organization, I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我是{namecode:95}级航空母舰·{namecode:96}，这位是{namecode:15}型驱逐舰·{namecode:158}。",
+			say = "I'm Zuikaku, Shoukaku-class aircraft carrier. And this is Kawakaze, Shiratsuyu-class destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，我知道我知道，我还把你们都誓约了哦。",
+			say = "Mhm, I know all about you. I made oaths with both of you, so how could I forget~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你在说什么奇怪的话。",
+			say = "... I don't understand what you're talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看两位都没有携带武装，不像是军事人员…你们的船在什么地方，是迷航了么？",
+			say = "Seeing as you're unarmed, I assume you're civilians? Did you get caught in the bad weather?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里是塞壬控制的镜面海域，周围的环境如你们所见，变为了极其扭曲的形象。在脱离危险前，请暂时随我们一起行动吧。",
+			say = "This area's turned into a Mirror Sea and become infested with Sirens. It's really dangerous here, so you should stay close to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "呃…严格也不算迷航，来到这里的原因我们也很困惑，不过这里的事我们多少知道一点哦！",
+			say = "I honestly don't know how or why we ended up here... But I can say this place looks familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "从外观上来看，这里是hololive服务器，或者说一个和hololive服务器十分相似的地方",
+			say = "As far as I can tell, this is the Hololive Server, or at least it was made to closely resemble it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hololive服务器是…？",
+			say = "Hololive... server...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "类似我们的基地一样的东西…平时我们会和hololive的伙伴们在服务器里一起修建建筑，一起玩耍…",
+			say = "Basically, it's like a secret base of ours. We often bring our friends here to build stuff or hang out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们的？但是从这里的情况来看，毫无疑问是镜像海域……",
+			say = "A secret base? But there was never anything in this area prior to this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "今天原本也和往常一样造着建筑，结果突然传来眼前一阵白光，然后就出现了大量塞壬舰队开始发动攻击，和同伴也失散了…",
+			say = "We were just building stuff like usual, then this blinding light appeared outta nowhere... Next thing we know, a Siren fleet is attacking us, and our friends are nowhere to be seen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…感觉以前也有过这样的事。",
+			say = "... That sounds familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "虽然不是很明白，不过应该和{namecode:13}经常说的「异世界转生」？之类差不多的…情况吧？",
+			say = "I don't watch much TV, but isn't this like that \"isekai anime\" trope Ikazuchi mentioned before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 900215,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轻而易举的接受了？！",
+			say = "You know about that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唉…之前或多或少也遇到过类似的情况，隐隐约约猜到了",
+			say = "Meh, wouldn't be the first time it's happened, so I get the gist of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们会认识我和{namecode:158}，也是因为什么…异世界的知识吧",
+			say = "Since you know our names, I can only assume we knew each other in the world you came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			actor = 900209,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈…在原本的世界里我的碧蓝航线知识可是十分丰富的哦！",
+			say = "Hah-hah! I know a lot about Azur Lane, in fact!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似曾相识的发言…",
+			say = "This is giving me deja vu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "既然这次又把你们这样的“穿越者”弄过来，塞壬恐怕又在搞些什么阴谋了",
+			say = "So from what I gather, the Sirens took us all to this place, which for some reason resembles your hideout before they took you here. Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "嗯……这倒没错。",
+			say = "Yeah, I guess so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "吹雪，在这里说话也不是办法，我们先去安全的地方吧。",
+			say = "Fubuki, this'll take ages to explain, so how about we head to the safe house for now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？你们知道这样的地方么？",
+			say = "Safe house? What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…虽然白狐咖啡也不错，不过说到基地和补给的话，果然是那个地方吧…",
+			say = "The place where we hid before we got taken here. Follow us and we'll take you there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

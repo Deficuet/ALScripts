@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样的触碰……居然让我都有点紧张呢……",
+			say = "Even I get a little nervous when we do this...",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone2",
 			typewriter = {
 				speed = 0.05,

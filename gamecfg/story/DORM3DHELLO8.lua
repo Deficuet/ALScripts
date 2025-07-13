@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "能够见到您真是太好了，我骄傲的{dorm3d}！今天的天狼星也会全力为您献上侍奉。不论是泡茶、按摩，还是……呵呵，天狼星都会第一时间满足您的所有需要哦！",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello8",
+			nameColor = "#FFFFFF",
+			say = "I'm so happy to get to see you, honourable {dorm3d}! I'll serve you will all my heart and soul today. Whether it be brewing tea, massages, or... Heehee, I'll readily respond to any of your requests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

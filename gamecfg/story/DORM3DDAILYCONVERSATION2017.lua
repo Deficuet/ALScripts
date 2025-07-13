@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……{dorm3d}刚刚叫我了？抱歉，我刚刚走神了。",
+			say = "...Did you just call for me? Sorry, I was a bit distracted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近总是在你身边的时候才会这样……",
+			say = "That's been happening a lot when I'm with you lately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要看着你，就会由衷地感到安心和可靠。",
+			say = "Just seeing you puts my heart at ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "然后就会想着和你有关的事情想入迷了……",
+			say = "That makes me think about you, and my mind wanders...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

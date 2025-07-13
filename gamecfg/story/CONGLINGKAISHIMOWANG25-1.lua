@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "眼前，是宛如炼狱的战场。",
+			say = "Before us lies a battleground like something from hell itself.",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "成百上千的飞龙在火山上空盘旋着。",
+			say = "Centuries or even millennia-old dragons circle the skies above the volcano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "其中最引人注目的，无疑是那只体长数百米，浑身燃烧着烈焰的巨龙",
+			say = "The most eye-catching of them all is a titan of a monster, its body reaching hundreds of meters in length and entirely bathed in hellfire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "那就是巨炎龙，巨龙一族的领袖，魔王最信任的领主。",
+			say = "That is the Great Fire Dragon, the leader of the dragons and the Demon King's most trusted officer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "它的每一次振翅，都仿佛与这片炎狱山脉形成了共鸣，岩浆随之雀跃涌动。",
+			say = "Each flap of its wings sends echoes across the mountains and churns the lava below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,10 +75,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仿佛要将天空遮蔽一般……这就是巨龙的大军，",
+			say = "Monsters so massive they all but blot out the sky... That's what we're up against.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,11 +92,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……依靠我们真的能打赢么？",
+			say = "Do we really have a fighting chance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,9 +110,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "敌我实力悬殊，又是正面交锋……",
+			say = "They have a crushing numbers advantage, and we're at a severe disadvantage in a head-on clash...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "没办法了……消耗品，该用的时候就要用。",
+			say = "We won't win by ordinary means. It's time to use one of our trump cards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,16 +134,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "是时候呼唤传说中的英雄们了。",
+			say = "Let's call in the legendary heroes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "发动技能“时之笛”",
+					content = "(Activate the Flute of Time.)",
 					flag = 1
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "悠扬的笛声如同一股清流，划破了灼热的空气。",
+			say = "The cool sound of the flute cuts like a knife through the sizzling hot air.",
 			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "当最后一个音节落下时，四座传送阵骤然浮现。",
+			say = "As the final note finishes, four magic portals suddenly appear from thin air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "紧接着，四道身影从传送阵中踏出。",
+			say = "From each portal emerges one of the legendary figures from long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又见面了，新时代的冒险者们~",
+			say = "Nice to see you again, heroes of the new age!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,11 +219,11 @@ return {
 			actor = 331055,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级格斗家",
+			factiontag = "Legendary Fighter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……巨炎龙，没见过的敌人，有挑战的价值。",
+			say = "I've never fought anything like that Great Fire Dragon before... This will be a worthwhile battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,11 +237,11 @@ return {
 			actor = 431232,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级战士",
+			factiontag = "Legendary Warrior",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好试试新强化完毕的斧子~",
+			say = "I just got done upgrading my axe! Let's see how well it cuts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,12 +255,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈欠……快点解决啦…………拉菲还要继续睡觉……",
+			say = "*yaaawn*... I want this over with so I can get back to my nap...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "传说中的英雄在此降临，并毫不迟疑地向着巨龙冲了过去。",
+			say = "The heroes set foot on the battlefield. Wasting not a moment, they jump straight toward the dragons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,11 +284,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "等等……如果我没猜错的话。",
+			say = "Wait a moment... These girls look familiar...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,11 +302,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "这些难道是……传说中的讨伐过上代魔王的英雄们？！",
+			say = "Aren't they the legendary party that killed the previous Demon King?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,11 +320,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，贞德入队比较晚不知道这件事呢……",
+			say = "Oh, right. We didn't tell you how we met them, did we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,11 +338,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是个可精彩的故事了，等战斗结束后讲给你听~！",
+			say = "It was an adventure in and of itself! I'll show you a pic and tell you the story after this battle's over!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新春的冒险之王\n\n<size=45>三　螳螂捕蝉！</size>",
+					"The Queen of Adventure\n\n<size=45>3 The Real Culprit</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "带飞云回到指挥室后，开始处理起本日的最后一部分工作。",
+			say = "After relieving Fei Yuen of her punishment, I return to my office to finish off the last thing on my task list.",
 			bgm = "main-chunjie3",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我给您换了一壶新茶，这次肯定不会是奇怪的味道了。",
+			say = "I've made new tea for you, Commander. There's no weird flavorings added this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "对吧，飞云——",
+			say = "Right, Fei Yuen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呜啊……孟菲斯姐姐表情好吓人~",
+			say = "Eep! Y-you're scaring me, Memphis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "还是吃点甜甜的苹果干平复一下心情吧，给你~",
+			say = "You need to eat something to calm down... Like some dried apple slices!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……苹果干？",
+			say = "Dried apple slices?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "嘿嘿，刚才从架子上偷偷拿的。总不能白白被挂在架子上一趟嘛~",
+			say = "Yeah! I snuck a few out from the kitchen! I wasn't gonna leave emptyhanded after what they did to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "当然！指挥官的份我也拿了哦~！",
+			say = "I took a few for the Commander, too, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "镇海",
+			actorName = "Chen Hai",
 			nameColor = "#A9F548FF",
-			say = "指挥官，我们能进来吗？",
+			say = "Commander, do you have a moment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "请进——",
+			say = "Sure. Come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打扰了，指挥官。",
+			say = "Thank you. It's about the tea prank again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "其实……我们抓到本次恶作剧真正的幕后黑手了。",
+			say = "We just caught the real perpetrator.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（鬼鬼祟祟，躲躲闪闪……）",
+			say = "*looks around all guilty-like*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各位，真对不起，我家妹妹给你们添麻烦了！",
+			say = "I'm so, so sorry for what she did! This is unacceptable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚顺，你也快点给大家道歉！",
+			say = "Come on, you too! Say you're sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对不起啦……",
+			say = "I'm sorryyy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……既然大家都中招了，就说明我本次恶作剧非常成功呢，哈哈哈~",
+			say = "But you have to admit, it was a pretty good prank, right? It DID get all of you! Ahahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚——顺——！！！",
+			say = "Fuuu Shuuun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呦！姐姐，您轻点！",
+			say = "Owww! My cheek! Stop! Ow, ow! Stop pulling on iiit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "……然后，我们也是来和飞云道歉的。",
+			say = "...We should also apologize to Fei Yuen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "对不起啊，飞云，之前是我们误会你了。",
+			say = "Sorry, Yuen. You really were innocent all along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……居然，真的不是飞云？",
+			say = "So it wasn't her, but Fu Shun who did it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "看起来是这样的，我们都冤枉她了。",
+			say = "Yup. All of us, me included, simply jumped to the conclusion that it was Yuen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呜呜呜——之前都说了，不是飞云大人做的！",
+			say = "Ugh... I told you so! I told you I didn't do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不过大人有大量，那些苹果干就算给飞云大人的补偿好啦~",
+			say = "Lucky for you, Lady Yuen is a lenient grownup. I'll accept these dried apple slices as an apology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然误会解除了，大家要不要干脆在这里喝茶休息一下？",
+			say = "I'm glad that the misunderstanding was cleared up. How about we celebrate with a little teatime?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "工作快结束了，等下我们可以一起回去。",
+			say = "I'm almost done with my work, so let's head to the dorm in a minute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "如果指挥官有此意的话当然没问题，不过……",
+			say = "That sounds great, but can we be sure the tea hasn't been tampered with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "大家放心，这壶茶用的是指挥室里的茶包，绝对不是被抚顺加了料的那一批！",
+			say = "Don't worry, it hasn't. It's made with teabags from the office. Fu Shun hasn't touched it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正好，刚才被鞍山姐训了好久，认错认到口都干了……",
+			say = "Yeah, let's have tea! All that apologizing to An Shan has left me parched.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "众人依次将茶倒入杯中，然后——",
+			say = "Memphis brings out cups for everyone and tops them all up with tea. We all take a sip...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳咳咳咳咳咳——！！！",
+			say = "*cough*! *cough*! *cough*!",
 			bgm = "main-chunjie4-2",
 			typewriter = {
 				speed = 0.05,
@@ -624,7 +624,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么还是怪味！！！",
+			say = "What is this?! It tastes like guaiwei AGAIN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咳、这茶明明是新泡的……！",
+			say = "How?! I brewed it just a minute ago!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哈哈哈哈哈！！！没想到吧！",
+			say = "Ahahahah! Got you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "虽然抚顺的冒险失败了！但是飞云大人的冒险圆满完成啦！",
+			say = "Where Fu Shun failed, my great adventure succeeded!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你……莫非这就叫“螳螂捕蝉，黄雀在后”！",
+			say = "No... You used me as a scapegoat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……可恶，怎么会这样！",
+			say = "That's so low! How could this happen?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哈哈哈，连你也中招了，不就代表了飞云大人才是最厉害的冒险之王么~！",
+			say = "Ahah! Even you fell for my trick, my rival! This proves beyond a doubt that Lady Yuen is the best, the most daring adventurer at the port!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳咳……所以，这次的事件你们俩都有份是吧？！",
+			say = "*cough* *cough*... So this was a two-pronged attack all along!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不，后面的部分我根本不知道啊！",
+			say = "No! I wasn't in on this! She did it without my knowing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "怎么样怎么样，指挥官？飞云大人的冒险厉害吧~",
+			say = "THIS was the ace up my sleeve, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "这就是最终方案里要留的悬念哦~",
+			say = "What do you think, huh? Aren't you impressed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorScale = 0.5,
-			say = "飞————云————————！！！！！！",
+			say = "Feeei Yueeen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,7 +892,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日，茶壶里没有再出现奇怪的液体，不过桌上却出现了两份检讨书——",
+			say = "It's the next day. A teapot sits on the table, free of any strange flavorings, next to two written apologies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,18 +921,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "署名分别是……“下次一定的抚顺”和“伟大的冒险之王”……",
+			say = "\"I'll get you next time! - Fu Shun.\" \"The crown of the best adventurer belongs to me. - Fei Yuen.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "——打回重写！",
+					content = "They'll have to write better than this!",
 					flag = 1
 				},
 				{
-					content = "——锁入柜子最深处。",
+					content = "Good enough, I suppose.",
 					flag = 2
 				}
 			}
@@ -942,7 +942,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "「新春冒险进行中」·完？",
+			say = "The End...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

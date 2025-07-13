@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "原来如此…妾身开始理解这个梦境了。",
+			say = "(No titanic enemies... No threats... No conflicts...)",
 			bgm = "bsm-2",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有敌人与纷争，各大阵营和平相处，此处港区宛如樱花色的理想之地一般。",
+			say = "(...and no Crimson Axis... Nay, this is a peaceful world in which even Azur Lane is rendered unnecessary...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅如此，就连妾身也是与预想中相同的完美状态存在于此…",
+			say = "(As Akashi said, the way I am in this world... is closest to the true \"Shinano\"...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如此的话，也许能在这里……",
+			say = "(Alas, this is the \"truth\" that I sought... the future that avoids ruination... in which both humanity and the Sakura Empire find salvation...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 2,
-			say = "真的…找到了………",
+			say = "(At last, the final fragment that I sought...)",
 			bgm = "main-newyear",
 			flashout = {
 				dur = 1,
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
-			say = "一片樱色的花瓣在眼前缓缓落下。向着风吹来的方向望去，绚烂的樱花树下停留着一个苍红色的身影。",
+			say = "Suddenly, the wind picked up, carrying a flurry of cherry blossoms that seemed to dye the entire landscape. Shinano turned her head, and saw... a girl who \"should not have been.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的诸位同僚如果见到现在的场景，不知道该作何感想啊…",
+			say = "(A...magi...? Everyone... Akagi... has wanted to see you so badly...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}…？演习就要开始了，你在这里做什么呢？",
+			say = "Shinano? Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妾身……",
+			say = "(Why... am I...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "困惑、震惊、激动、伤感…呵呵，第一次见到你脸上露出这么复杂的表情呢。",
+			say = "What's the matter? You look like you just saw a ghost... Or rather, as if you're about to cry, out of both sorrow and joy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "氛围上……也不是我所熟悉的感觉。你，是从很远的地方来到这里的吧。",
+			say = "The Shinano I know would never show such an expression. Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敏锐的观察力和绝顶的智慧，和妾身听说中的{namecode:161}一样……",
+			say = "(She's reading me...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:161}",
 			dir = 1,
-			say = "那还真是过奖了，咳咳……",
+			say = "The Shinano in front of me must surely be from a distant, distant place— *cough* *cough*...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "{namecode:161}，汝没事吧！",
+			say = "(......!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "痼疾而已，不用担心……嗯？听说的意思是…",
+			say = "Don't worry. It's just my chronic health condition... From your expression, I surmise that you've never met \"me\" before, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…你并没有直接见过我的经历，而且也没有能够与我直接会面的可能性对么？",
+			say = "...After all, the Shinano here already knows about my condition, and wouldn't act this worried. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "(............)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵，那还真是令人遗憾~感觉是在聊些梦中发生的故事呢。",
+			say = "I don't know why you've come here, but I can see how long you've been bitterly fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "那些不是梦…！汝才是…这里才是…存在于妾身的脑海之中，顷刻之间就会消散的梦境……",
+			say = "(This... is just a dream... All I am here to do is to collect these fragments and seek the future...)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉话题的哲学气息逐渐变浓了…",
+			say = "But don't worry. This dream is not yours alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不重要了。不论哪边是梦境哪边是现实，此时此刻你我都一起实际存在于此地，这样就足够了。",
+			say = "What matters most is not whether this is a dream or if it is reality— but that we are here, now, and able to experience happiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片港区怎么样，想留在这里么？",
+			say = "After all, even if this is but a fleeting dream, you can turn it into reality should you desire it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妾身，不知道…不过重樱的同僚们还在等着妾身回去吧。",
+			say = "(...Bringing the dreams that I see... into reality...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,23 +423,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊，看来你还有必须要去完成的使命呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:161}",
-			bgName = "bg_xinnong2_7",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，你那边的{namecode:91}…她还好么…？",
+			say = "Indeed. As long as you wish it so, it shall be. The butterfly's dream is yours to behold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +439,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………………………嗯，{namecode:91}一定会没问题的。",
+			say = "I.........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +455,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "令人担心的回答，再加上你现在的状态…决定了，我和你一起去参加指挥官的演习吧！",
+			say = "You look a bit worried. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +471,7 @@ return {
 			bgName = "bg_xinnong2_7",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "…哎？！",
+			say = "...Do I...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -509,7 +493,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好啦~时间也差不多了，出发出发~",
+			say = "Come with me then. Surely what you're looking for lies ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

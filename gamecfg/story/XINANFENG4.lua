@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>四　西南风与伙伴们</size>",
+					"A Gust of Motivation!\n\n<size=45>4 Libeccio's Friends</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打扰了指挥官还有西南风，我是来提交演习报告的。",
+			say = "Excuse me, Commander. I'm here to report the results of the wargame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "好的，确认收到~{namecode:408}辛苦了！",
+			say = "Got it! Good job, Z23!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "西南风也辛苦啦。工作上有什么不明白的地方欢迎随时问我哦。",
+			say = "You too, Libeccio. If there's anything you need help with, feel free to ask me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嗯~以后也拜托了，{namecode:408}真的可靠呢~",
+			say = "Mhm, I appreciate it! I'll take you up on that later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳……那么指挥官，我就先告辞了。",
+			say = "Ahem... In any case, Commander, I shall now take my leave.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:408}工作也加油哦~",
+			say = "She's quite the hard worker, isn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下午好……指挥官还有西南风……",
+			say = "Oh, good afternoon, you two...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是文件……唔，好困……",
+			say = "Here, documents... Laffey, isn't sleepy at all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "拉菲是困了吗？我有替你准备被子哦！",
+			say = "Are you tired, Laffey? Did you want something to hold on to?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "你可以在沙发那边小憩一下，等工作结束了一起去玩吧！",
+			say = "I got an extra blanket for you, so you can take a nap on the sofa if you'd like! After I'm done with work, we can go outside and play!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，好……ZZZZZZZZ",
+			say = "Mm... Okay... Zzzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "呜哇，瞬间入睡！指挥官，我去帮她把被子盖上哦~",
+			say = "Woah, she fell asleep in the blink of an eye! Commander, I'm going to fetch the blanket for her~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官，这是委托完成清单。",
+			say = "...Commander, I've brought the commission list, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有西南风……上次说好借你的游戏我带来了哦。",
+			say = "Oh, Libeccio... I also brought the game you asked me to lend you last time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "哇！谢谢你专门送过来！委托完成清单也确认收到了哦！",
+			say = "Woah! Thanks a lot! Just give me a moment to check the commissions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好……有卡关的地方记得来问我。",
+			say = "I'll be returning to my room then. If you get stuck anywhere in the game, you know how to reach me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就先回去了。",
+			say = "Ayanami out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "是~~~",
+			say = "Bye bye~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官西南风工作辛苦啦，我带了些点心来，大家稍微休息一下吧~",
+			say = "Commander! And Libe too! You two must be tired, so I brought some snacks! Want to take a break?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "好耶~标枪做的点心可好吃了！",
+			say = "Yaaay! You always make the best snacks, Javelin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿，我姑且有向女仆队好好学习过哦。",
+			say = "Ehehe~ That's because I learned from the very best, the Royal Maids!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官也觉得很好吃对吧？",
+			say = "What do you think, Commander? Pretty good, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			},
 			options = {
 				{
-					content = "非常好吃！",
+					content = "\"They're delicious!\"",
 					flag = 1
 				}
 			}
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官喜欢的话那标枪下次再多做一点！",
+			say = "Hehe! Seeing as how you're both huge fans, I'll make more next time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "就这样和西南风、标枪与睡醒的拉菲享受了愉快的下午茶时光。",
+			say = "After Laffey woke up from her nap, the three girls enjoyed the rest of their afternoon playing together",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

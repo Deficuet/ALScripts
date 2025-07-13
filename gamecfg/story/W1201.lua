@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海域压制完毕！在战场检查中，发现了塞壬的隐藏物资！",
+			say = "Sector has been secured. Let us quickly collect the spoils of war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

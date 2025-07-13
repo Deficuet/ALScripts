@@ -3,7 +3,7 @@ return {
 	events = {
 		{
 			style = {
-				text = "大型作战中的常用资源会存放在此处。",
+				text = "Here you'll find all the Operation Siren resources you have.",
 				mode = 2,
 				posY = 200,
 				char = "1",
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			style = {
-				text = "进入未探索的海域和使用G.M系统中的舰队操作指令均需要消耗行动力。",
+				text = "Action Points are needed to enter unexplored zones and to issue orders.",
 				mode = 2,
 				posY = 275.49,
 				char = "1",
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			style = {
-				text = "作战补给凭证用于在港口商店中购买道具，可以通过击败海域中的敌人或收集海域资源获得。",
+				text = "All Operation Supply Coins and Special Item Tokens you earn during the operation can be spent on items in the port shop.",
 				mode = 2,
 				posY = 304.6,
 				char = "1",

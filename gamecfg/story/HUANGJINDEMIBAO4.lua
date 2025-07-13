@@ -9,7 +9,7 @@ return {
 			actor = 100001,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "妹妹，来一决胜负吧buli！",
+			say = "Sister, fight us, bulin!",
 			dir = 1,
 			bgm = "level03",
 			dialogShake = {
@@ -41,7 +41,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			say = "没错！来一决胜负吧~purin.purin~!",
+			say = "Yeah, purin! Let's do this, purin!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么展开burin？ ",
+			say = "How did this happen, bulin?! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "来试试“工作用”装备的威力buli！",
+			say = "Come have a taste of my experimental \"work\" rigging, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "妹妹你看起来那么强，就陪我们试验一下新型装备的purin威力吧！",
+			say = "Yeah, purin! You look super strong, so come help us test this thing out, purin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "burin？！没错burin！ ",
+			say = "Bulin? Well, that's obvious, bulin! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐们都只有一种颜色，但我和“超级喵喵1号”都是彩色的，也就是什么颜色都有！所以，我比姐姐们都要强burin！ ",
+			say = "You two are just one color, but me and Kitty Kabam are all the colors of the rainbow! So, of course I'm stronger than you two, bulin! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一决胜负吧！burin！burin！！ ",
+			say = "Let's settle this once and for all then! Bulin, bulin!! ",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

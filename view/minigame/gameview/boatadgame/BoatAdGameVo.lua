@@ -140,79 +140,83 @@ function var_0_0.GetGameTplTf(arg_18_0)
 	return tf(instantiate(findTF(var_0_0.tpl, arg_18_0)))
 end
 
+function var_0_0.getUltimate(arg_19_0, arg_19_1)
+	return arg_19_1.ultimate
+end
+
 function var_0_0.GetRoundData()
 	return var_0_0.roundData
 end
 
-function var_0_0.PointInRect1(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4)
-	local var_20_0
-	local var_20_1
-	local var_20_2
-	local var_20_3
-	local var_20_4
-	local var_20_5
-	local var_20_6 = var_0_0.Sign(arg_20_0, arg_20_1, arg_20_2)
-	local var_20_7 = var_0_0.Sign(arg_20_0, arg_20_2, arg_20_3)
-	local var_20_8 = var_0_0.Sign(arg_20_0, arg_20_3, arg_20_4)
-	local var_20_9 = var_0_0.Sign(arg_20_0, arg_20_4, arg_20_1)
-	local var_20_10 = var_20_6 < 0 or var_20_7 < 0 or var_20_8 < 0 or var_20_9 < 0
-	local var_20_11 = var_20_6 > 0 or var_20_7 > 0 or var_20_8 > 0 or var_20_9 > 0
+function var_0_0.PointInRect1(arg_21_0, arg_21_1, arg_21_2, arg_21_3, arg_21_4)
+	local var_21_0
+	local var_21_1
+	local var_21_2
+	local var_21_3
+	local var_21_4
+	local var_21_5
+	local var_21_6 = var_0_0.Sign(arg_21_0, arg_21_1, arg_21_2)
+	local var_21_7 = var_0_0.Sign(arg_21_0, arg_21_2, arg_21_3)
+	local var_21_8 = var_0_0.Sign(arg_21_0, arg_21_3, arg_21_4)
+	local var_21_9 = var_0_0.Sign(arg_21_0, arg_21_4, arg_21_1)
+	local var_21_10 = var_21_6 < 0 or var_21_7 < 0 or var_21_8 < 0 or var_21_9 < 0
+	local var_21_11 = var_21_6 > 0 or var_21_7 > 0 or var_21_8 > 0 or var_21_9 > 0
 
-	return not var_20_10 or not var_20_11
+	return not var_21_10 or not var_21_11
 end
 
-function var_0_0.PointInRect2(arg_21_0, arg_21_1, arg_21_2)
-	if arg_21_0.x < arg_21_1.x or arg_21_0.y < arg_21_1.y then
+function var_0_0.PointInRect2(arg_22_0, arg_22_1, arg_22_2)
+	if arg_22_0.x < arg_22_1.x or arg_22_0.y < arg_22_1.y then
 		return false
 	end
 
-	if arg_21_0.x > arg_21_2.x or arg_21_0.y > arg_21_2.y then
+	if arg_22_0.x > arg_22_2.x or arg_22_0.y > arg_22_2.y then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.SetMovePoint(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
-	var_0_0.lpt1 = arg_22_0
-	var_0_0.lpt2 = arg_22_1
-	var_0_0.rtp1 = arg_22_2
-	var_0_0.rtp2 = arg_22_3
+function var_0_0.SetMovePoint(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
+	var_0_0.lpt1 = arg_23_0
+	var_0_0.lpt2 = arg_23_1
+	var_0_0.rtp1 = arg_23_2
+	var_0_0.rtp2 = arg_23_3
 end
 
-function var_0_0.CheckPointOutLeftLine(arg_23_0)
-	return var_0_0.PointLeftLine(arg_23_0, var_0_0.lpt1, var_0_0.lpt2)
+function var_0_0.CheckPointOutLeftLine(arg_24_0)
+	return var_0_0.PointLeftLine(arg_24_0, var_0_0.lpt1, var_0_0.lpt2)
 end
 
-function var_0_0.CheckPointOutRightLine(arg_24_0)
-	return var_0_0.PointRightLine(arg_24_0, var_0_0.rtp1, var_0_0.rtp2)
+function var_0_0.CheckPointOutRightLine(arg_25_0)
+	return var_0_0.PointRightLine(arg_25_0, var_0_0.rtp1, var_0_0.rtp2)
 end
 
-function var_0_0.PointLeftLine(arg_25_0, arg_25_1, arg_25_2)
-	return (arg_25_2.x - arg_25_1.x) * (arg_25_0.y - arg_25_1.y) - (arg_25_2.y - arg_25_1.y) * (arg_25_0.x - arg_25_1.x) < 0
+function var_0_0.PointLeftLine(arg_26_0, arg_26_1, arg_26_2)
+	return (arg_26_2.x - arg_26_1.x) * (arg_26_0.y - arg_26_1.y) - (arg_26_2.y - arg_26_1.y) * (arg_26_0.x - arg_26_1.x) < 0
 end
 
-function var_0_0.PointRightLine(arg_26_0, arg_26_1, arg_26_2)
-	return (arg_26_2.x - arg_26_1.x) * (arg_26_0.y - arg_26_1.y) - (arg_26_2.y - arg_26_1.y) * (arg_26_0.x - arg_26_1.x) > 0
+function var_0_0.PointRightLine(arg_27_0, arg_27_1, arg_27_2)
+	return (arg_27_2.x - arg_27_1.x) * (arg_27_0.y - arg_27_1.y) - (arg_27_2.y - arg_27_1.y) * (arg_27_0.x - arg_27_1.x) > 0
 end
 
-function var_0_0.CheckRectCollider(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
-	local var_27_0 = arg_27_0.x
-	local var_27_1 = arg_27_0.y
-	local var_27_2 = arg_27_2.width
-	local var_27_3 = arg_27_2.height
-	local var_27_4 = arg_27_1.x
-	local var_27_5 = arg_27_1.y
-	local var_27_6 = arg_27_3.width
-	local var_27_7 = arg_27_3.height
+function var_0_0.CheckRectCollider(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
+	local var_28_0 = arg_28_0.x
+	local var_28_1 = arg_28_0.y
+	local var_28_2 = arg_28_2.width
+	local var_28_3 = arg_28_2.height
+	local var_28_4 = arg_28_1.x
+	local var_28_5 = arg_28_1.y
+	local var_28_6 = arg_28_3.width
+	local var_28_7 = arg_28_3.height
 
-	if var_27_4 <= var_27_0 and var_27_0 >= var_27_4 + var_27_6 then
+	if var_28_4 <= var_28_0 and var_28_0 >= var_28_4 + var_28_6 then
 		return false
-	elseif var_27_0 <= var_27_4 and var_27_4 >= var_27_0 + var_27_2 then
+	elseif var_28_0 <= var_28_4 and var_28_4 >= var_28_0 + var_28_2 then
 		return false
-	elseif var_27_5 <= var_27_1 and var_27_1 >= var_27_5 + var_27_7 then
+	elseif var_28_5 <= var_28_1 and var_28_1 >= var_28_5 + var_28_7 then
 		return false
-	elseif var_27_1 <= var_27_5 and var_27_5 >= var_27_1 + var_27_3 then
+	elseif var_28_1 <= var_28_5 and var_28_5 >= var_28_1 + var_28_3 then
 		return false
 	else
 		return true

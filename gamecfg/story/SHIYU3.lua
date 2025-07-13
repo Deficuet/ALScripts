@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱操心的她可不是闹着玩的\n\n<size=45>三 打扫开始！</size>",
+					"Heart in the Right Place\n\n<size=45>3 Sweep 'n' Skip</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗷呜！{namecode:17}~我过来帮忙了哦！",
+			say = "Woof! You needed a hand, so here I am!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "目送{namecode:79}平稳离开后，我们决定多叫些帮手一同清理这漫长的山道，是{namecode:17}叫来了{namecode:16}。",
+			say = "We decided it was best to get some extra help, so Shigure went and convinced Yuudachi to join us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,23 +79,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "{namecode:17}的其他姐妹舰都在各处忙碌着，{namecode:15}也不知道能不能顺利找到这里…只能靠这里的三个人加油努力了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那么指挥官就从主殿外开始，按顺序一路打扫到一之鸟居吧~！",
+			say = "Her other sisters had their hands full, and Shiratsuyu was likely to get lost on the way, so the task of sweeping the footpath fell on just us three.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +95,23 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我和{namecode:16}的话就一起从一之鸟居开始往主殿方向打扫。感觉像在夹击敌人一样呢！",
+			say = "All right, Commander, you start from the shrine and work towards the first torii gate. That good with you? Good.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "star_level_bg_142",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Me and Yuudachi will do the opposite, and we'll meet you halfway. We'll be like a two-sided progress bar!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别忘了说好的，打扫完了以后要给我好吃的哦！",
+			say = "Forgot to ask, but what's in it for me with all this? I'm not a janny, I don't work for free!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "知道了知道了，只要你能好好帮忙的话——那么一会见啦，指挥官。",
+			say = "I know, quit barking at me. I'll make you a steak, if you actually stick around. Anyhow, see you in the middle, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "和{namecode:16}{namecode:17}暂时告别后，开始了打扫的任务——",
+			say = "Shigure and Yuudachi went down the path. I picked up my broom and started sweeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "——已经清扫到了半山腰，算距离也差不多该汇合了，可是参拜道上完全见不到{namecode:17}和{namecode:16}的身影……",
+			say = "I swept for quite some time, but still there was no sign of Shigure and Yuudachi. We should've met in the middle by now...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "笨蛋{namecode:16}————！跑到哪里去了——————！",
+			say = "Stupid, dumb meat junkie! Where are you?!",
 			effects = {
 				{
 					active = true,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "突然间听到了{namecode:17}的声音。四处张望，不知为何是从镇守森林中而不是参拜道上看到了她的身影。",
+			say = "Suddenly, I heard Shigure yell out. I looked up and saw her off the footpath and in the grove.",
 			effects = {
 				{
 					active = false,
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！指挥官，你看到{namecode:16}了吗？",
+			say = "Oh! Commander! You seen Yuudachi anywhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她在打扫的途中突然说着“好美味的肉啊！”然后就不知道跑哪里去了！简直难以置信啊……",
+			say = "It was going fine until she shouted something about \"Ooh, free-range steak spotted!\" and she just ran off! I can't believe this crap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:17}大人好不容易才答应了今天会给她做饭的……虽然打扫还没结束，指挥官能和我一起找找她吗？",
+			say = "I TOLD her I'd treat her to food if she'd just help me sweep! Ugh... I know we're not done yet, but can you help me look for her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "{namecode:17}亲手做的饭虽然很诱人，但考虑到{namecode:16}的情况，她也有可能会被其他东西吸引。",
+			say = "Knowing Yuudachi, the promise of a steak prepared by Shigure – as delicious as it would be – would not be enough to stop her from getting distracted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,23 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "正准备转身和{namecode:17}分开寻找的时候——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "等，等一下！不要就这样一个人走了啊! 不是刚说好和我一起去找的么？！",
+			say = "Seeing as it had to be done, I put down my broom and went off to look for her. But immediately, Shigure chided me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +352,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分头行动会更有效率……？你觉得单凭你一个人就能找到那个{namecode:16}吗？",
+			say = "Hey! Where are you going?! I said help me find her, as in \"follow me!\" Get it together, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,21 +368,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果你和{namecode:15}一样在森林里迷路了，那我岂不是得找两个人了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_129",
-			say = "虽然一瞬间觉得她是不是有些担心过度，不过，既然都说到这个份上了——",
+			say = "...We can cover more ground if we split up? Sound idea on paper, but this is a stupid runaway dog we're talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +384,37 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，就乖乖和{namecode:17}大人「一起」去找{namecode:16}吧，笨蛋指挥官！",
+			say = "Also, what if you pull a Shiratsuyu and get lost in this place? I do NOT wanna spend the day looking for TWO people!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_129",
+			say = "I felt she was overthinking it, but since she insisted on it...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "star_level_bg_129",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "That's a good commander! Now do as the genius tells you and follow along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_129",
 			dir = 1,
 			blackBg = true,
-			say = "点头应了应，然后与{namecode:17}并肩走回了来时的地方——",
+			say = "I complied, returning to her side. We went looking for Yuudachi together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

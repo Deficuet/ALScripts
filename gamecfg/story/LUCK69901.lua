@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 699010,
 			dir = 1,
-			say = "哦？放任我变强，就不担心我最终取代你么？",
+			say = "What, are you simply going to watch while I grow stronger? You should remember I could usurp you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 699010,
 			dir = 1,
-			say = "你说我不会这么做？哈哈哈哈！真是有趣。",
+			say = "I'd never try to steal your position, you say? Heheheh! Oh, you really are a curious individual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 699010,
 			dir = 1,
-			say = "没错，我的野心需要你的支持，你的夙愿亦需要我的力量。",
+			say = "I've reached a magnificent conclusion! I, as a matter of fact, need your support, your ambition, to realize my goals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 699010,
 			dir = 1,
-			say = "力量变强，野心也会随之膨胀。来吧，与我马可波罗一起，去实现更伟大的事业吧！",
+			say = "Greater power begets greater ambitions. So let us embark together and accomplish ever greater feats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

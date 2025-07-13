@@ -15,7 +15,7 @@ return {
 			bgm = "idom-Speed",
 			actor = 10700020,
 			nameColor = "#a9f548",
-			say = "虽说输给那样的对手情有可原…但是，单纯只把歌唱出口，是没法打动人心的。",
+			say = "It might have just been because our opponents were too strong, but the act of singing itself is not enough to convey the feelings that can move one's heart.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊哈哈，你们要好好照看好对方才行啊。",
+			say = "Ahaha... Looks like we're going to have to help each other out a whole lot.",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们的歌曲和舞蹈能帮上大家……请务必让我们帮忙。",
+			say = "If our songs and dances can make a difference... we want to do everything we can to help!",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保护同伴不是理所当然的事情嘛。",
+			say = "It's only natural to want to protect your friends!",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且要是成功了，不仅可以解除这次危机，我们也能回到原来的世界，皆大欢喜！",
+			say = "If we succeed, we can save this world from destruction, then truly go back home as heroes! That way, everyone's happy!",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -212,7 +212,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是就是！真美们的字典里可没有失败这个词—！",
+			say = "We aren't losing to some crappy clones!",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -252,7 +252,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也觉得，在所有人都能出场的大舞台上演出更好！",
+			say = "I think this is a great opportunity for everyone to come out on stage and deliver a dazzling performance!",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -287,34 +287,11 @@ return {
 		},
 		{
 			expression = 2,
+			nameColor = "#a9f548",
 			side = 2,
 			actor = 103250,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这不仅是自己的舞台，更是和伙伴们一起的舞台）",
-			flashout = {
-				black = true,
-				dur = 0.5,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.5,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
+			say = "(This concert is not mine alone. It is all of ours.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +306,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不仅是我们，还有同样使用“μ兵装”的其她舰船伙伴们）",
+			say = "(Not just us, but also the shipgirls performing with us.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +322,7 @@ return {
 			side = 2,
 			actor = 10700010,
 			dir = 1,
-			say = "（不仅如此……就连没有使用“μ兵装”舰船的大家们也在努力着。甚至这个世界的伙伴们，还有粉丝们…大家一起营造出了这个最棒的舞台！）",
+			say = "(No, it's not just them. All of the shipgirls here, as well as the fans who are watching. We're all excited about this concert!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（而且，在原来世界的伙伴们也………）",
+			say = "(And, finally, all of my friends \"over there\" who are still waiting for us...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +350,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "―――！！",
+			say = "―――ー！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -394,7 +371,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舞台的氛围产生变化了…",
+			say = "Unlike last time, there's something different about the stage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +387,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，看来担心的问题已经解决了。",
+			say = "From the looks of things, the nightmare scenario has been averted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +403,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，能量数值应该也产生变化了吧？",
+			say = "Look, Akashi, the energy readings are changing as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +419,7 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的喵！我们这边的数值已经超过对方了喵！再加把劲喵！",
+			say = "It's true, nya! The energy signature is starting to turn around, nya! We're pushing it back, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们最棒的舞台，还没有结束哦！",
+			say = "Ami's just getting started, so don't you dare go anywhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +469,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样一直到安可，一口气唱到最后吧！",
+			say = "Encore, encore! We're not gonna stop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +494,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰船的各位也能跟上吗？",
+			say = "Is everyone still hanging in there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,9 +507,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "全员",
+			actorName = "Everyone",
 			dir = 1,
-			say = "没问题——！",
+			say = "You bet!",
 			effects = {
 				{
 					active = true,
@@ -554,7 +531,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就让我们燃到最后吧~！",
+			say = "All right! Let's give it our all, until the curtains fall!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

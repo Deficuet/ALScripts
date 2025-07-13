@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>二 体贴的姐姐？</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 2: A Caring Big Sister?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，这下子委托的安排就完成了呢",
+			say = "All right, that's about all for today's missions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从上次熬夜被批评之后，{namecode:526}与我共同工作的时间就多了起来",
+			say = "Zara and I have been working together a lot more since the all-nighter incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然这样子是很好啦，但是总有种自己的作用变小了的感觉……",
+			say = "While I was thankful for the support, I couldn't help but think that my job was no longer my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,38 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 601020,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "打扰了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "敲门而入的龙骑兵鞠了一个标准的90度躬，然后看向这边",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +114,38 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如，如果打扰到{namecode:526}阁下和指挥官工作的话，万分抱歉！",
+			say = "Carabiniere, coming in!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Carabiniere knocked, entered, executed a standard 90-degree bow, and looked directly at me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 601020,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Please forgive the interruption, Commander, Chief!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么事情吗？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……其，其实属下是来向{namecode:526}阁下道谢的。",
+			say = "Well... a-actually I came to express my humblest thanks to you, Chief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多亏了{namecode:526}阁下上次的建议，属下和她们玩得很开心，也交到了新的朋友！实在是非常感谢！",
+			say = "Thanks to your wise counsel, I made some new friends and had a wonderful time! Words cannot express my gratitude!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是说上次那件事吗？哎呀，我不是说过了吗，只是举手之劳而已。同伴之间，不需要那么客套的。还有，叫我{namecode:526}就好了呢",
+			say = "Is that all? I told you before, it was nothing. You don't need to take everything so seriously. We're friends. And please drop the Chief thing. Zara will do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哪里的事！{namecode:526}阁下明明特地带我去服装店一件一件的挑选——",
+			say = "It wasn't nothing! Chief, you took me shopping for clothes, helped me try on outfit after outfit, you–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "随便打扰指挥官的工作可是不好的行为哦？如果是和舰队事务无关的话题，我想回去之后再说比较好吧",
+			say = "You can't be interrupting the Commander's work over every little thing, now can you? If you're not here on fleet business, it can wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非，非常对不起！",
+			say = "A-absolutely, Chief! Forgive my insubordination!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "龙骑兵一路倒退到了办公室的门口，又鞠了个躬，然后从外面把门轻轻地关上了。",
+			say = "Carabiniere backed out of the room, demonstrated another perfectly starched bow, and gently closed the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到那孩子连道谢都如此执着",
+			say = "Who would've thought that she even thanks people for things like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？指挥官是对我刚刚和她说的事情感兴趣吗？随便深究少女的秘密可不是绅士的行为哦？",
+			say = "Oh? Did that pique your interest? Is prodding into a young girl's private affairs one of your hobbies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，其实也不是什么特别神秘的事情",
+			say = "I guess I can tell you. It's no big deal anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "龙骑兵她不太擅长和人交往。最近好不容易交到了别的阵营的朋友，结果在一起约好出去玩之后，对自己要穿的服装烦恼了起来。",
+			say = "Carabiniere isn't so great at expressing herself. But she still managed to make a few non-Sardegnian friends. I guess they made plans to go out together and she was panicking over what to wear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是倾听了她的烦恼而已。最后还是维内托给了“试试和平时不同风格的衣服就好”的建议呢",
+			say = "She came to me for advice. Apparently, Veneto told her to \"just try wearing something outside your comfort zone.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有趣的是，最开始的时候她居然带了一堆衣服的照片让我给她提建议，实在是认真过头了。不过，衣服这东西嘛，还是要实际穿上之后才知道合不合适。",
+			say = "My favorite part was when she showed up with a mountain of photographs of different outfits. She really tries too hard in everything. But of course, when it comes to fashion, the only way to be sure is to try things on yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后还是陪她一起去挑衣服了。指挥官，下次你和谁约会的时候，也可以让我帮你你出出主意哦？",
+			say = "So I took her shopping. You know, Commander, you should have me do your look next time you've got a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "在话题飘向奇怪的方向之前，先把注意力放回工作上吧。",
+			say = "That conversation was heading in an unproductive direction, so I steered our attention back towards work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

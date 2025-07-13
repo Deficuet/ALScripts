@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>二　No more 运动！</size>",
+					"Long Island's Inner Peace\n\n<size=45>II 「No More Exercise!」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕嘟咕嘟…哈～果然薯片和可乐才是绝配～",
+			say = "*Gulp gulp, munch munch*... ha! Coke and fries are such a natural pairing~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也要吃薯片吗？",
+			say = "Commander, do you want to try some chips?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？和平时不大一样？",
+			say = "Hmm? Do I look that different?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，平时是那个啦，所谓的“社交装甲”啦……难得休假嘛～总是要放松一下啦～",
+			say = "Sigh, I left my \"social armor\" in my dorm... it’s rare to go on vacation, so we should all unwind and relax!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要保持适当的运动？诶……",
+			say = "You want me to maintain my fitness? Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在就出发？唔～放开我～我要回去——",
+			say = "You want me to start right now? Hey ~ let me go ~ I want to go back ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

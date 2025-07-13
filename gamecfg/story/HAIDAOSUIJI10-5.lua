@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你递给小狐狸一个硕大无比的红苹果，并打定主意不论它之后怎么缠着你，也不会再多给它一个。",
+			say = "You offer it a triply extra-large apple and swear to yourself not to give it any more after this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "雨一直下。小狐狸在旁边啃着苹果，你在树下百无聊赖地等待。",
+			say = "The rain keeps falling. The fox happily eats the apple while you sit there, bored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "小狐狸啃完苹果，对你摇摇尾巴，似乎很开心的样子。而后，它的身影消失在雨幕中。",
+			say = "After it finishes eating, the fox wags its tail at you, seemingly very pleased, before disappearing amidst the rainfall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "天晴了。你正要离开，突然——",
+			say = "The rain stops, and the skies over the island turn clear once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一抹棕红色出现在你的眼前。是刚刚离去的小狐狸，它的口中正叼着要赠予你的礼物.",
+			say = "Out of nowhere, a little red critter appears before you. It's the fox you fed the apples to, and it is holding a gift in its mouth..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "这是这场别样的雨中邂逅里，它对你慷慨行为的谢礼。",
+			say = "This is its way of repaying the kindness you showed it during this off encounter in the rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

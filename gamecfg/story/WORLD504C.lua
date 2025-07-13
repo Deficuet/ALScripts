@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析模块同步中：指挥官，通过前方区域的航线被塞壬的封锁设施阻挡。",
+			say = "Analysis complete. The route through the area ahead is obstructed by a Siren blockade.",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "强行摧毁和绕行都要花费不少时间啊，最好还是能直接摧毁供能设施。",
+			say = "It would take too long to break through or find a way around... Our best option is to destroy what's powering it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "领航员小姐，向周边舰队逐次询问一下吧。",
+			say = "\"I couldn't agree any more. TB, you know what to do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认：正在逐次确认中————",
+			say = "Orders issued. All able fleets are to search for the blockade's power source.",
 			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，接收到一支舰队的联络请求，通讯联络接入中——————",
+			say = "A communications request has been received from an allied fleet. Connecting...",
 			voice = "event:/tb/32/tb-32",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			actor = 801030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，需要帮助么指挥官~！",
+			say = "Hehe! Need a hand with anything, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 801040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（鲁莽……太随便了！）",
+			say = "Tem! Err... Le Téméraire! Mind your tone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 801040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳……指挥官您好，我是来自自由鸢尾的“魔法使”倔强，刚才在通讯器中显得十分鲁莽的那位是同样隶属于自由鸢尾的鲁莽。",
+			say = "Pardon her. This is L'Opiniâtre, Iris Libre magi– Excuse me, I mean Iris Libre destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,11 +136,11 @@ return {
 			},
 			options = {
 				{
-					content = "自由鸢尾的“魔法使”？",
+					content = "\"Were you about to say 'magician'?\"",
 					flag = 1
 				},
 				{
-					content = "“鲁莽”的鲁莽？",
+					content = "\"As a matter of fact, yes.\"",
 					flag = 2
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "啊，不用在意，魔法使是开玩笑的……",
+			say = "Uhh, please pretend you didn't hear that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "（刚刚还在说我！倔强不也在通讯里对指挥官说了奇怪的话！）",
+			say = "Psst. You nearly slipped up bigtime there, Opie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "（嘘——嘘————！）",
+			say = "Shh, I know, Tem, just be quiet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "总、总之，我们，以及我们所代表的自由鸢尾很荣幸能够与您并肩作战，指挥官。",
+			say = "As I was going to say: I'm honored to be taking part in this operation. Additionally, I have something to report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "才不是呢！都怪倔强乱介绍！虽然我的名字叫鲁莽，可是我一点都不鲁莽哦~",
+			say = "Hehe! See, Opie? I told you so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "很荣幸与您并肩战斗，大名鼎鼎的指挥官~！",
+			say = "We're both so excited to be fighting together with you! Oh right, we've got something to report, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "就在不久前，我们发现了一处疑似塞壬在海域中设置的供能设施。",
+			say = "We just found what appears to be a Siren power source.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 801030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要把它炸掉，海域中的障碍物就会消失了吧~！",
+			say = "All we've got to do is smash it, and that'll get rid of the blockade, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "根据以往的经验是这样的。",
+			say = "\"Based on previous experience up to this point, yes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 801030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就放心交给我们吧！自由鸢尾舰队，出击！",
+			say = "Gotcha! The Iris Libre fleet is on the case!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

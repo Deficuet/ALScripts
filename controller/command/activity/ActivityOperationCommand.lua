@@ -48,6 +48,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
+	print(var_1_0.activity_id, var_1_0.cmd, var_1_0.arg1, var_1_0.arg2)
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		activity_id = var_1_0.activity_id,
 		cmd = var_1_0.cmd,
@@ -64,6 +65,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			arg_1_0:performance(var_1_0, arg_2_0, var_2_1, var_2_0)
 		else
 			originalPrint("activity op ret code: " .. arg_2_0.result)
+			print("activity op ret code: " .. arg_2_0.result, var_1_0.cmd, var_1_0.arg1)
 
 			if var_1_2 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN or var_1_2 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN or var_1_2 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN or var_1_2 == ActivityConst.ACTIVITY_TYPE_REFLUX then
 				var_1_1.autoActionForbidden = true

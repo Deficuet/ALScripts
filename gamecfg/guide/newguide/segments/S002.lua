@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"前往查看<color=#ffde38>建造</color>详情！",
-	"点击<color=#ffde38>建造队列</color>查看建造进程",
-	"建造新船需要花上一定时间",
-	"真是等不及了~点击<color=#ffde38>快速完工</color>并使用快速建造道具吧！",
-	"点击确定<color=#ffde38>使用加速道具</color>"
+	"Let's check out <color=#ffde38>build</color> details!",
+	"Tap <color=#ffde38>queue</color> to see construction progress.",
+	"It takes time to build a new ship.",
+	"But I can't wait any longer~. Tap <color=#ffde38>Finish now</color> to instantly complete construction!",
+	"Tap confirm to use the <color=#ffde38>Quick Finisher</color>."
 }
 
 return {

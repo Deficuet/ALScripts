@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "随机事件功能已解锁！",
+				text = "You have unlocked the random event feature.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可查看可触发的随机事件",
+				text = "Tapping the Go Outside button lets you view what random events you may run into.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这里你可以查看随机事件，并选择是否消耗行动力来激活它们",
+				text = "Here you can view what random events there are and choose whether to spend action points and start or not.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "通过参与随机事件，可以获得各种状态效果",
+				text = "Random events may yield buffs.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可随时查看获得的状态详情",
+				text = "You can always tap here to view more info about any buffs you've acquired.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "包括效果说明和持续时间等",
+				text = "Their duration and an explanation of their effect are also shown here.",
 				mode = 2,
 				dir = 1,
 				char = 1,

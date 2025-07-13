@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>Wind Catcher</size>",
+					"Port Fashion Collection! Racing Special\n\n<size=45>4 Wind Catcher</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不远处，看到了正在为白鹰队加油的企业。",
+			say = "There is a lull between races, so I go for a stroll. During it, I come across Enterprise, showing support for the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官，上午好。",
+			say = "Hey, Commander. You here to watch the race?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "刚刚结束的那场对决真是精彩，让人充分感受到了竞速比赛的魅力。",
+			say = "One just ended, and it was incredible. It really taught me the appeal of watching cars speeding down the race track.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，明年的这个时候我们再办一场吧？",
+			say = "What do you think about hosting another race same time, next year?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看会场同伴们的反响，这件事应该是没问题的。",
+			say = "Based on the glowing reception to it, I think we probably will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,14 +103,14 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（只是不过……这个拉链。）",
+			say = "(Her outfit... it has unzipped to a dangerous degree.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "邀请企业去观众席观赛",
+					content = "Let's go somewhere else for a minute.",
 					flag = 1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "感谢您的关心，指挥官。",
+			say = "Into the shade, you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然我很想答应，但是很可惜，今天的我还有职责在身。",
+			say = "I appreciate the idea, but I can't. I'm not here as a mere spectator.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我已经答应了同伴们会在这里为她们应援，这身应援服就是证明。",
+			say = "See, I'm the Eagle Union's promo model. My job is to cheer them on, as evidenced by this outfit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至于烈日的话，指挥官不用担心，我准备了伞。",
+			say = "If you're worried about me getting a heatstroke, don't be. This umbrella keeps me cool.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "要是有机会的话，我也想在赛场上尽情驰骋一番。",
+			say = "Frankly, if I could, I'd get into a vehicle myself and race with the rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那应该是与在海面上驰骋所截然不同的感受吧。",
+			say = "I think it'd be a different kind of excitement to dashing across the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "不过此时此刻，我还是要扮演好自己的角色才行。",
+			say = "But, for now, all I can do is complete the task I accepted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎为了证明自己是认真接受了为同伴们应援的委托。",
+			say = "Wanting to race, but being bound by her duty. That's a very Enterprise dilemma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企业摆出了一连串帅气的姿势。",
+			say = "She turns her attention to the race track and strikes a series of poses in support for her team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那个拉链也……",
+			say = "Meanwhile, the zipper seems to move further down, nearly exposing her chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "变得愈发危险了啊……",
+			say = "(This is bad...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯？指挥官是在担心我的驾驶技术么？",
+			say = "Commander? Something the matter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "放心，如果真要上场的话，我会进行必要的技能训练的。",
+			say = "Is it about me wanting to race? Obviously, I wouldn't just jump into a car and hit it. I'd learn all the intricacies of driving on a race track first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，我不是这个意思……你的衣服……",
+			say = "That's not it. It's your outfit. It's, well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……衣服？啊~是在说今天的这身打扮？",
+			say = "Oh, this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯…确实有点夸张。",
+			say = "Yeah, I'll be the first to admit it shows a bit too much skin.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但毕竟被后辈们那样拜托了，而且她们看起来相当高兴的样子……指挥官是觉得不合身吗？",
+			say = "But, it's what my friends asked me to wear. Besides, everyone seems to love it, so there's no problem on that front... Do you think it doesn't suit me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,14 +403,14 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很合身，但是——",
+			say = "No, it looks fantastic on you. What I'm trying to say is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拉链……！",
+					content = "Zipper! The zipper!",
 					flag = 1
 				}
 			}
@@ -423,7 +423,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "周围响起一阵欢呼声，比赛已经在不知不觉间进入了白热化阶段。",
+			say = "Suddenly, the audience bursts into excited cheering. The next race has just started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企业也立刻进入了全神贯注的应援状态。",
+			say = "Enterprise has already turned around and gotten into her cheering and rooting mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那条拉链……也不出所料地开始一点点加速下滑。",
+			say = "And the zipper, of course, shows no sign of stopping...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯？指挥官刚才是在说拉链么？拉链怎么了？",
+			say = "The zipper? What about it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "显然，认真关注赛况的企业小姐并没有好好关注自己。",
+			say = "She acknowledges me calling attention to it, yet continues to wave her flag around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她完全没有理解我的意思，依旧在进行着危险的大幅度动作。",
+			say = "The larger and flashier the moves she makes, the deeper her outfit sinks into dangerous territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不行，再这样下去企业就危险了！）",
+			say = "(I need to do something!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快速上前——",
+			say = "With a deep breath, I come closer and reach for her chest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "诶？？？指、指挥官？！",
+			say = "Huh?! C-Commander?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将手伸向拉链——",
+			say = "I take hold of the zipper, which has already gone past the danger zone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在、在这里？！我、额……",
+			say = "What?! O-out here?! B-but I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事情似乎在一瞬间，变得更加混乱了。",
+			say = "The circumstances being what they are, I had to spring into action despite the looks I'd inevitably get. For a moment, the scene turns chaotic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过最终，企业小姐成功认识到了自己的拉链是多么的千钧一发。",
+			say = "Fortunately, my actions made Enterprise see that her zipper was dangerously low, and she clears my name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后就是一阵手忙脚乱……至于比赛的优胜者，已经一点印象都没有了——",
+			say = "Later, when I look back on this race, I fail to remember who won. The rush and tension of that moment made me forget...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

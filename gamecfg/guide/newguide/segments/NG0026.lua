@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"角色达到指定等级后，可以消耗一定数量的角色结晶与物资进行能量激活。",
-	"角色结晶可以通过「资讯同步」奖励获取",
-	"能量激活后会提升角色星级与大量属性。"
+	"Somatic Activation should sound familiar. Much like Limit Breaking, you just need the money and a special item called META Crystals.",
+	"META Crystals, by the way, are obtained as a reward for accumulating Sync Points.",
+	"Like with regular ships, Activation makes META ships stronger and boosts their stats!"
 }
 
 return {

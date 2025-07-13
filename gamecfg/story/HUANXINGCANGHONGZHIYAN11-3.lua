@@ -12,7 +12,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "——如浮云般消逝吧！",
+			say = "Disappear like a cloud in the sky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "如同字面意义上一般，空中飞舞的巨鸟连同其所藏身的云层一起，在{namecode:232:比叡·META}的攻击下彻底分崩离析。",
+			say = "Hiei's attack struck the phoenix of black mist hiding amongst the clouds, dispersing it into nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:140:旗风}，还撑得住么？",
+			say = "Hang in there, Hatakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:71:比叡}……？你怎么会还活着……我不会是在做梦吧？",
+			say = "Hiei? I thought we'd lost you... Am I dreaming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "对你来说，我就是一个梦。对我来说，你也一样。",
+			say = "Well, you could call this a dream of sorts, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "但就算在梦境中，我也不能对你见死不救。",
+			say = "Dream or not, though, I will not turn my back on a comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "被惊动的敌人正在蜂拥而至，我先带你离开这里。",
+			say = "Our enemies will be on to us soon, so we should leave. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "之后的事……走一步看一步吧！",
+			say = "Whatever comes next, we'll just have to deal with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

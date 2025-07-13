@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>四　环境需改造</size>",
+					"The Protector Needs Protecting\n\n<size=45>4 The Office Needs Renovating</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这办公室……太寡淡了！",
+			say = "Commander, don't you ever feel like your office is a bit too plain?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "某天，恶毒突然在指挥室里郑重其事地做出了如此宣言。",
+			say = "One day, when I was minding my own business, Le Malin offered me this bit of unsolicited commentary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太寡淡是指……？",
+			say = "But, too plain, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "整个室内的办公环境，都太寡淡了——",
+			say = "Indeed. It's all about the kind of atmosphere you surround yourself with when you work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有薯片，没有可乐，没有游戏机，没有漫画小说，没有舒服的床和枕头，诸如此类的！",
+			say = "No cola, no sweets. No game consoles, no comic books. And to top things off, you don't even have a fluffy bed or a super soft pillow to plunge your face into!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为……这里是指挥室。",
+			say = "...We are talking about an OFFICE here, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "可是这样的话，即使提前完成了工作，我也没法好好享受呀~",
+			say = "I know it's an office, but it's also where I... *cough*, *cough*, where YOU rest between jobs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "总之，这是一间很寡淡的办公室！",
+			say = "In any case, we need to do something about this bare-bones environment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "让我改造一下吧，指挥官！",
+			say = "Allow me to assist you with this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "好不好嘛~好不好嘛~",
+			say = "C'moooon, lemme do iiiiiit~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "话都说到这个份上了……反正也没什么坏处。",
+			say = "...You're really putting me on the spot here, but fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "好耶——！我会把这里改造成偷懒圣地的！",
+			say = "Wooohoo! Let's turn this place into a sanctuary where I can slack off in peace~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，请好好期待今后的偷懒生活吧！",
+			say = "Look forward to seeing what I have planned!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日，平时只会准点来到指挥室的恶毒，今天却早早等在了这里。",
+			say = "When I arrived at the office the next morning, I was incredulous to find Le Malin there already, waiting for me ahead of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "早上好，指挥官！",
+			say = "Good morning, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "因为不想占用正常的工作时间，所以今天我提早三个小时就来了！",
+			say = "Actually, I came three hours early to avoid cutting into work time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我还真是厉害呢，这么早也起得来……",
+			say = "Heh heh heh. Aren't I awesome? I can even wake up early without being woken up by Le Triomphant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不过一想到这都是为了我们今后的偷懒生活，牺牲是值得的！",
+			say = "But, this is a worthy sacrifice for the sake of securing a future where we can slack off in peace!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "好了指挥官，快来欣赏一下改造的成果吧！",
+			say = "Now then, feast your eyes upon your new office, elegantly refurbished by yours truly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "感受得到吗？指挥室里已经充满“慵懒的气息”了——",
+			say = "So, can you feel it? The moment you walk into the room, the spirit of the laze just wraps itself around you–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "首先是办公桌，办公桌的柜子上专门腾出了一个放饼干薯片的零食柜。",
+			say = "Ahem. First, I've prepared a special space in the desk's drawer exclusively for storing sweets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "在工作中感到无聊、疲惫、厌烦或者肚子饿的时候，都可以直接拿出来享用！",
+			say = "Now, you'll never go hungry on those long, boring work days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "冰箱我也装好了哦，顺便放了些可乐和冰淇淋进去。",
+			say = "Naturally, I've also added a refrigerator, pre-stocked with cola and ice cream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "可乐薯片黄金搭档嘛~",
+			say = "And where there's cola, you can't go without potato chips, a truly classic combination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有那个塞满资料的书柜，我也专门整理出了一整层放漫画和小说的空间。",
+			say = "Moving on– your file cabinets weren't being used efficiently, so I've filled them with layers of comic books and light novels, left open for convenient access.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "现在放的都是我喜欢的，指挥官要是不知道从哪里着手，我可以给你推荐哦。",
+			say = "What you see before you has been carefully curated by none other than moi, in case you don't know where to start.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "最后，最重要的就是这个——",
+			say = "And of course, most important of all is–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥室内大屏幕的改造了！",
+			say = "A total repurposing of the big monitor in your office!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说实话，在这里工作了这么多天，我就没见过这大屏幕开过。",
+			say = "Since I've started as your secretary ship, I've never once seen you use the darn thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "为了更好发挥出它存在的价值，我已经把它和游戏机接在一起了。",
+			say = "A travesty of the highest degree! Something this magnificent... should be used for games!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "耳听为虚，眼见为实，我们马上体验一番吧~",
+			say = "Heehee... Seeing is believing, so let's get started right this instant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可，现在已经是工作时间了。",
+			say = "Yes, let's get started with work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "呃，还以为能趁着气势糊弄过去，果然还是失败了……",
+			say = "Tch... I thought I'd be able to get you caught up in my sales pitch, but you're one tough customer, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,11 +615,11 @@ return {
 			},
 			options = {
 				{
-					content = "不过，稍微玩一会也不是不行。",
+					content = "Well, maybe we can spare a few minutes.",
 					flag = 1
 				},
 				{
-					content = "今天的工作结束后一起玩吧。",
+					content = "Let's play together AFTER we finish work.",
 					flag = 2
 				}
 			}
@@ -633,7 +633,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗？谢谢你，指挥官！",
+			say = "Really? You're the best, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所谓一日之计在于晨……",
+			say = "Y'know that thing I keep hearing about a day's plan starting in the morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一天的工作从打游戏开始的话，之后肯定可以事半功倍。",
+			say = "If you start off your day with a nice gaming session, I promise you'll be twice as productive! Definitely!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗？那就约好了！",
+			say = "Really? You'd better not go back on your word then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "在工作的时候，得思考一下该玩什么游戏才行。",
+			say = "Alrighty, now I need to figure out which games I want to play while I'm working...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开、开玩笑的，我会认真工作啦。",
+			say = "J-just kidding! I'll get everything done properly, okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：发现了激活中的塞壬增援装置。装置正在持续不断的向周边区域的塞壬发送增援信号，请尽快将其关闭或摧毁。",
+			say = "The Siren communications device is active. It will continue drawing in Siren reinforcements from surrounding sectors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-executor-type1",
 			dir = 1,
-			say = "打击有效，但是毫无意义。维修模块，启动————",
+			say = "A formidable blow, but ultimately futile. Initiating automatic repair functions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "什么……好不容易对塞壬造成的损伤正在高速修复！",
+			say = "She's rapidly repairing all the damage the submarines inflicted to her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不光是司特莲库斯，另外两个仲裁机关也开始了肉眼可见的修复进程。",
+			say = "And it's not just Strength... The other Arbiters are also repairing themselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是……每个人都带了一套修复系统的意思么？！太犯规了？！",
+			say = "Does that mean... all Arbiters come equipped with self-regenerating systems?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们可以修复数十上百次，吾等修复一次就叫犯规了么？",
+			say = "This vessel's self-repair mechanisms seem to be deficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "怎么了，拿出刚才的自信与气势，我们继续战斗吧。",
+			say = "...But no matter. We continue the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不行，已经差不多到舰队的极限了……",
+			say = "\"We're only going to be whittled down if this goes on, just as Saratoga said.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "余烬的{namecode:94}，你们有撤退方案么？",
+			say = "\"If only there was a way to retreat...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "这个啊，当然是没有的。",
+			say = "If you want to retreat, then go right ahead. But we have no intention of running with our tails between our legs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "我们的任务是坚守此处，排除奇异点内的敌人。没有完成任务之前我们绝不撤退。",
+			say = "Our goals are twofold. To defend the Singularity that our allies opened, to the bitter end; and to destroy all of our enemies in one fell swoop. Retreat isn't an option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，果然这个奇异点是你们开的！",
+			say = "So it really was you that created the Singularity all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哎？原来之前你们都不知道么。",
+			say = "You only figured it out just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "之前只是猜想，没想到能得到犯罪者本人的当面陈词！",
+			say = "We can speculate all we want, but we couldn't know for sure until we heard it straight from your mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "随便开个奇异点就把整个NA海域搅个天翻地覆……你们还真是。",
+			say = "(So the things that happened to the NA Ocean aren't their fault... And if anything, it was this Singularity that allowed us to finally make a decisive move against the Sirens.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么做的目的是什么？",
+			say = "What's the purpose of you doing all this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "与你们无关————虽然我想这么说。",
+			say = "It doesn't concern you... or so I'd like to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "大概还算和你们有些关系吧……",
+			say = "But that wouldn't be entirely accurate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "我明白，我不会再说更多了。",
+			say = "Yes, I know. I have no intention of saying any more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "喂！那边的指挥官，我有个提案给你。",
+			say = "Let's get down to the nitty-gritty, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "仲裁机关的目标是我们，要坚守此处的也是我们。至于你们————",
+			say = "The Arbiters are only after us. There's no reason for you to risk your lives defending this Singularity either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "你们还有抛下我们独自撤退的选择。",
+			say = "If you want to retreat like you wanted to earlier, we won't stop you. I'll even tell you the way out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "怎么样？如果你要走的话，我不会从背后偷袭哦？",
+			say = "I swear on the 2nd CarDiv's honor that we won't turn on you. Now tell me, honestly, would you rather stay and fight, or retreat to safety?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 			},
 			options = {
 				{
-					content = "同意",
+					content = "\"Retreating might be our only choice...\"",
 					flag = 1
 				},
 				{
-					content = "拒绝",
+					content = "\"I can't just abandon you.\"",
 					flag = 200
 				}
 			}
@@ -400,18 +400,18 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "<color=#ff5c5c>警告：此选项为影响结局走向的关键选项，确定要这样做么？</color>",
+			say = "<color=#ff5c5c>Warning: This choice will impact the story. Are you sure about this? You will be able to pick a different choice later.</color>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "依然同意",
+					content = "\"Yeah, we need to retreat.\"",
 					flag = 100
 				},
 				{
-					content = "还是拒绝吧",
+					content = "\"...No. I won't turn my back on you.\"",
 					flag = 200
 				}
 			}

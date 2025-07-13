@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥……啊，不对，honey……",
+			say = "Comman– I mean, honey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我刚刚都有点热晕了，呼…谢谢你准备的果蔬汁，活过来啦！",
+			say = "It's so hot that I'm getting dizzy... Oh? *gulp, gulp*... Aah! Thanks for the fruit juice! I feel reborn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，不要靠那么近啦……",
+			say = "Ah, d-don't come so close...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "也不要一直嗅鼻子啦！",
+			say = "Stop sniffing meee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

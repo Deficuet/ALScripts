@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-5",
-			say = "同日13:50:00",
+			say = "Just prior to the Royal Navy embarking on the Siren hunt",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绿色代表“行动成功”、蓝色表示“塞壬强大，需要增援”、红色表示“帝国叛变”吗？",
+			say = "So... the green one means \"Siren base found and destroyed,\" blue means \"requesting support,\" and red means \"Sardegnians have betrayed us,\" if I'm not mistaken?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，正好一基炮台塞一发烟花弹，不影响另一根炮管使用呢，呵呵呵",
+			say = "That's it. Could you please load your cannons with them now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是光辉大人，这一下魔炮的实力又增强了——",
+			say = "Of course! Now I need to come up with a name for this manoeuvre... hmm... I'll have to do it later, for we're short on time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，时间也差不多了，该去和帝国的舰队接头了，祝你们好运~God bless the queen!",
+			say = "Indeed, the Sardegnians will be grouping up with us any minute now. No matter what happens, God save the Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "God bless the queen!",
+			say = "God save the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "……",
+			actorName = "Warspite",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,10 +114,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "如果，收到的是红色信号的话，你准备怎么做呢",
+			actorName = "Warspite",
+			say = "Say York actually does fire the red flare to signal she's been attacked... what happens then, Illustrious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在我还不太想考虑这些...",
+			say = "I can only hope that it doesn't come to that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的出现了红色信号，那就只能按照陛下所言，进行「再现」了.......",
+			say = "But, if it does happen, we will simply have to spank some naughty children~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

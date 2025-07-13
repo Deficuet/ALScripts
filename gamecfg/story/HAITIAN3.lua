@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>三　出发！取材之旅！</size>",
+					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>3 Set Sail! An Inspiration-Seeking Journey!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "将海天从{namecode:98:明石}与{namecode:295:尾张}那里购入的商品带回指挥室后，进行了一番整理——",
+			say = "I brought all our freshly-purchased wares back to the office and spread them out on the floor to organize them–",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "帐篷和天幕，露营椅和躺椅……杀虫剂、湿巾、防晒霜……",
+			say = "A tent, a tarp, two camping chairs, a foldable sunbed... Insect spray, wet wipes, sunscreen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，怎么有把斧头？！",
+			say = "Wait, what? Why is there an axe here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，万一有需要用到的情况呢？比如砍掉一些树桩，或者和危险的野兽对峙……",
+			say = "Um, well, just in case we need firewood or encounter a ferocious beast... It's better to come prepared, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,11 +67,11 @@ return {
 			},
 			options = {
 				{
-					content = "港区里应该不会有危险的野兽吧……？",
+					content = "There shouldn't be any wild beasts around the port, I think...",
 					flag = 1
 				},
 				{
-					content = "危险的野兽能抗几发炮击……？",
+					content = "I'm not sure how much of a threat wild beasts pose to cannon-toting shipgirls, but...",
 					flag = 2
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啊，对哦！那斧头可以不用带了……撬棍也可以拿出来了……",
+			say = "Y-yes, you're right...! We can leave the axe behind, and the crowbar as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在将对讲机、可折叠晾衣架、电锯等等暂时派不上用处的物品进行了退货处理之后。",
+			say = "After returning a whole bunch of items we didn't plan on using such as walkie-talkies, a folding clothesrack, and a chainsaw...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "海天和我总算是正式踏上了寻找灵感的露营之旅。",
+			say = "Hai Tien and I finally set out on our camping trip in search of inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "一段时间后的林地中——",
+			say = "A bit later, in the woods behind the port...",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "呼……像这样呼吸着林间的空气，好像头脑也清晰了不少呢。",
+			say = "Phew... The air here is so crisp and refreshing. My mind already feels totally refreshed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然暂时还是没有灵感，但整个人的状态倒是松快了许多。",
+			say = "I haven't had any flashes of inspiration yet, but at least my body feels lighter than before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "说话间，一只松鼠从树干上跳下，绕着海天蹦了一圈，而后又跑入另一旁的林间深处。",
+			say = "Hai Tien has a smile on her face as she speaks. A squirrel hops down from the tree trunk, circles around her, and then darts off deeper into the woods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要跟着松鼠走去看看？",
+			say = "Want to try following the squirrel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "可以吗？太好了！",
+			say = "That sounds like an excellent idea! Thank you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "打定主意后，海天便和我一起往松鼠消失的林间深处行进。",
+			say = "The two of us head deeper into the woods as well, following the direction of the squirrel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "此时正是时节，林间不知名的花草开得正盛，我便忍不住多看了几眼。",
+			say = "It seems that we happened to go on our camping trip during the flowering season. A kaleidoscope of flowers are in full bloom everywhere we look, and I inadvertently slow down to admire them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官可是对这些花草有兴趣？小女子正好略知一二~",
+			say = "Have these flowers piqued your interest, Commander? I happen to know a thing or two about them, if you'd like to learn more about them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,18 +283,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女的脸上带着明显的雀跃神色，似乎正期待着我开口询问。",
+			say = "Hai Tien's eyes are shimmering with anticipation. She clearly wants to demonstrate her knowledge to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "向海天询问相关知识",
+					content = "\"I'd be glad to learn more.\"",
 					flag = 1
 				},
 				{
-					content = "故意装作不感兴趣",
+					content = "\"Actually, I'm not too sure...\"",
 					flag = 2
 				}
 			}
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "教教我吧！海天老师！",
+			say = "You're my teacher today, Miss Hai Tien!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "这样么……不过这里风景再好，也抵不过……",
+			say = "The scenery here is certainly beautiful, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抵不过什么？",
+			say = "...But?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "此时此刻，我的眼中所见。",
+			say = "It pales in comparison to your beauty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "咳、咳咳……指挥官是在打趣我吗……",
+			say = "*cough*, *cough*... Geez, Commander, please don't tease me like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女的双颊上浮现出淡淡的红晕。",
+			say = "But, she is unable to hide the faint blush on her cheeks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不过小女子又思索了一番，若只是空口讲述花草知识，着实有些无趣。",
+			say = "Now that I think about it, you didn't come here just to hear me yap about flowers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "嗯……不知指挥官可曾听说过「飞花令」？你我轮流说诗词，以此循环，答不上来的一方便要受罚。",
+			say = "Oh, right! Commander, have you ever heard of the Flying Flower Game? It's a game where we take turns reciting poetry verses around a particular word or theme, and the loser has to play a punishment round.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听起来很有意思，应该也能给这段路程增加不少趣味……",
+			say = "Sounds interesting. Definitely a good way to spruce up our stroll.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好！来吧！",
+			say = "Alright, let's do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "那么小女子先来~“花萼楼前春正浓”。",
+			say = "Heehee. Allow me to begin, then: \"Before the Calyx Tower, spring is in full bloom.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,18 +470,18 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（根据规则，需要第二个字是花的词。）",
+			say = "(According to the rules, I have to respond with a poetry verse that includes a flower-themed word)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看花醉去更相从。",
+					content = "\"Beneath the swirling petals, glasses clink and feelings deepen.\"",
 					flag = 1
 				},
 				{
-					content = "钱花光后肯定穷！",
+					content = "\"Flowers and spring showers? Naw, we gon' make it rain!\"",
 					flag = 2
 				}
 			}
@@ -495,7 +495,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼~不错，没想到指挥官竟然能接上。",
+			say = "Wow, that's a great response, Commander, I'm surprised.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那小女子继续了哦~",
+			say = "I shall continue then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……这句词的出处是？",
+			say = "Um, Commander... I believe we might be going a bit off-topic...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "咳……出处不记得了，或许是海天还没读到的诗集吧！",
+			say = "Ahem... Oh, is that so? It, uhh, might just be... yeah, a poem you've never heard before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "盯——是这样么~算啦，那小女子继续了。",
+			say = "Hrmm... Really now? Well, it matters not. I shall continue then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题，放马过来吧！",
+			say = "Bring it! Let's see what you've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "月移花影到窗前。",
+			say = "\"As moon waxes, floral shadows fall before the window.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "美人如花隔云端。",
+			say = "\"There rests a beauty, like a flower wreathed in clouds.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "云想衣裳花想容。",
+			say = "\"Clothes like dancing clouds, cheeks like a rosy blossom.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,11 +634,11 @@ return {
 			},
 			options = {
 				{
-					content = "春风拂槛露华浓。",
+					content = "\"The spring breeze gently caresses the steps, peonies even more beautiful in the rich dew.\"",
 					flag = 1
 				},
 				{
-					content = "千树万树梨花开。",
+					content = "\"And upon the branches bloom countless pear flowers.\"",
 					flag = 2
 				}
 			}
@@ -652,7 +652,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你的这一句可是接错了哦？",
+			say = "Hmm... Commander, are you sure this verse connects with the previous one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯，我知道。但是看到海天，忍不住就接了原句。",
+			say = "I guess not, but... When I look at you, it feels like everything wants to connect back to the starting verse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "若非群玉山头见，会向瑶台月下逢。嗯……这一首诗果然很适合形容海天。",
+			say = "\"If not a fairy descended the mountains, she must be a goddess bathed in moonlight\" ...I think those words describe you perfectly, Hai Tien.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……那、那这一轮我便不算指挥官输了哦！",
+			say = "Um... I, I guess I can overlook this and not count this as your loss...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~不错呢，那我们继续。",
+			say = "Well done! Let's keep it up–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "舟有笙歌岸有花。",
+			say = "\"As song comes from boats, flowers line the shore.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "花……糟糕，背不出来了。",
+			say = "Let me think... Urgh, I don't think I can come up with anything else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "呵呵，看来是我赢了。作为惩罚么……嗯~有道是“有花堪折直须折，莫待无花空折枝。”",
+			say = "Heehee. It appears that I'm the victor. Now then... \"A flower must be harvested when the time is right. Wait not until the branches are empty.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "就劳烦指挥官为小女子编个花冠吧？",
+			say = "Commander, would you mind making me a flower crown?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（编个花冠而已，应该不会很困难吧……）",
+			say = "(A flower crown? That shouldn't be a very difficult request...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我点点头应下了海天的要求。",
+			say = "I nod my head and agree to go along with Hai Tien's request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,7 +837,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "就在我和手中的枝条以及鲜花“搏斗”，努力将它们拼凑成一个适合头戴的圆形的时候——",
+			say = "Just as I am hard at work scavenging for flowers and branches, weaving them together into a circlet large enough to rest atop her head...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "一只净白纤细的手突然托住了我的手掌，随即将一枚小巧的草编指环放在我的掌心。",
+			say = "I feel a slender, soft hand slide into my own, gently dropping a carefully-crafted ring of grass into my palm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "而手的主人此刻正脸颊通红，就连耳廓也因羞赧染上淡淡绯色。",
+			say = "My eyes turn towards the hand's owner. It is not just her cheeks that are bright red this time – even the tips of her ears are dyed an adorable pink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "这是，花冠的回礼。",
+			say = "This is... my way of thanking you for the flower crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女的声音极轻，带着微微的颤音。",
+			say = "Her voice sounds tender, almost wavering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_33 = {
+	[90989] = {
+		cannon = 0,
+		name = "Akagi META",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90989,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "chicheng_alter",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "chicheng_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.49,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.51,
+					0.72,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.18,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.24,
+					1.69,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90990] = {
 		cannon = 0,
-		name = "冈依沙瓦号",
+		name = "Ganj-i-Sawai",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -151,7 +307,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90991] = {
 		cannon = 0,
-		name = "寂静守卫-掌灯幽影",
+		name = "Silent Sentry - Spectral Beguiler",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -293,7 +449,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90992] = {
 		cannon = 0,
-		name = "寂静守卫-掌灯幽影",
+		name = "Silent Sentry - Spectral Beguiler",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -435,7 +591,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90993] = {
 		cannon = 0,
-		name = "寂静守卫-沉眠潜伏者",
+		name = "Silent Sentry - Dormant Lurker",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -577,7 +733,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90994] = {
 		cannon = 0,
-		name = "寂静守卫-沉眠潜伏者",
+		name = "Silent Sentry - Dormant Lurker",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -719,7 +875,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90995] = {
 		cannon = 0,
-		name = "寂静之灵-掌灯幽影",
+		name = "Silent Soul - Spectral Beguiler",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -861,7 +1017,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90996] = {
 		cannon = 0,
-		name = "寂静之灵-掌灯幽影",
+		name = "Silent Soul - Spectral Beguiler",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1003,7 +1159,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90997] = {
 		cannon = 0,
-		name = "寂静之灵-沉眠潜伏者",
+		name = "Silent Soul - Dormant Lurker",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1145,7 +1301,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90998] = {
 		cannon = 0,
-		name = "寂静之灵-沉眠潜伏者",
+		name = "Silent Soul - Dormant Lurker",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1287,7 +1443,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90999] = {
 		cannon = 0,
-		name = "寂静涡流",
+		name = "Silent Whirlpool",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1430,7 +1586,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91000] = {
 		cannon = 0,
-		name = "寂静守卫-克拉肯之触",
+		name = "Silent Sentry - Kraken's Tentacles",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1572,7 +1728,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91001] = {
 		cannon = 0,
-		name = "寂静领主-克拉肯",
+		name = "Silent Sentry - Kraken",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1717,7 +1873,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91002] = {
 		cannon = 0,
-		name = "和睦号",
+		name = "Amity",
 		type = 22,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1861,7 +2017,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91003] = {
 		cannon = 0,
-		name = "朴茨茅斯冒险号",
+		name = "Portsmouth Adventure",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2001,7 +2157,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91004] = {
 		cannon = 0,
-		name = "幻想号",
+		name = "Fancy",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2141,7 +2297,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91005] = {
 		cannon = 0,
-		name = "海豚号",
+		name = "Dolphin",
 		type = 22,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2285,7 +2441,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91006] = {
 		cannon = 0,
-		name = "皇家财富号",
+		name = "Royal Fortune",
 		type = 22,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2443,7 +2599,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91007] = {
 		cannon = 0,
-		name = "迅迅猎手君",
+		name = "Speedy Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2605,7 +2761,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91008] = {
 		cannon = 0,
-		name = "风风舞者君",
+		name = "Sprightly Cruiser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2767,7 +2923,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91009] = {
 		cannon = 0,
-		name = "铁铁巨人君",
+		name = "Chunky Cruiser",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2936,7 +3092,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91010] = {
 		cannon = 0,
-		name = "轰轰霸王君",
+		name = "Boomy Battleship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3105,7 +3261,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91011] = {
 		cannon = 0,
-		name = "翔翔天翼君",
+		name = "Soaring Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3274,7 +3430,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91012] = {
 		cannon = 0,
-		name = "砰砰冲撞君",
+		name = "Bang Boomer",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3420,7 +3576,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91013] = {
 		cannon = 0,
-		name = "咕噜咕噜潜航君",
+		name = "Sinky Submarine",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3571,7 +3727,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91014] = {
 		cannon = 0,
-		name = "碧波守卫·NANA",
+		name = "Nana, Wave Guardian",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3727,7 +3883,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91015] = {
 		cannon = 0,
-		name = "猎风哨兵·MOMO",
+		name = "Momo, Wind Sentinel",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3883,7 +4039,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91016] = {
 		cannon = 0,
-		name = "钢铁护卫·HARUNA",
+		name = "Haruna, Steel Protector",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4039,7 +4195,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91017] = {
 		cannon = 0,
-		name = "暗夜重击·YAMI",
+		name = "Yami, Dark Smasher",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4209,7 +4365,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[91018] = {
 		cannon = 0,
-		name = "天翼先锋·YUI",
+		name = "Yui, Winged Vanguard",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4347,169 +4503,6 @@ pg.enemy_data_statistics_33 = {
 		},
 		specific_fx_scale = {},
 		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[91019] = {
-		cannon = 0,
-		name = "最终星耀·LALA",
-		type = 10,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 91019,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "tolove_boss01",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 10,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 12,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "tolove_boss01",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.95,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.33,
-					0.8,
-					0
-				}
-			},
-			skill = {
-				{
-					0,
-					2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.43,
-							0.69,
-							-0.09
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.66,
-							2.54,
-							-0.41
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
 			"appearQ"
 		},
 		position_offset = {

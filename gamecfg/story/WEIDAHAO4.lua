@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>四　恐怖的暴风雨</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>Storm of Terror!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……应该就是这样吧，把这个道具嵌进去……嗯，听见机关响动的声音了。",
+			say = "Oh. This should be it. Go ahead and insert that item from earlier in here... Yup, I think I heard some mechanism moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这些关卡都太简单了，完全没有游戏好玩啊……",
+			say = "This is all way too easy compared to the real deal in video games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "下次还是一起在家打游戏吧，指挥官。",
+			say = "Come over next time and I'll show you what a real challenge looks like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "轰隆隆——",
+			say = "*rumble rumble*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "房间最前方的大门打开了。可是大门通向的是一个暴风雨中的甲板，而不是温馨的离场通道。",
+			say = "The door in the back of the room slides open, but what awaits us is not a welcoming exit, but rather a deck amidst a terrible storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "明明刚刚都解完谜了……解谜错误的可能性很低……难道还有隐藏谜题吗？",
+			say = "But, didn't we do everything that we needed to do? I'm sure I didn't make any mistakes. Maybe there's some hidden component?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "走上甲板，雷声震耳欲聋，密集的雨滴砸在身上，黏腻潮湿。",
+			say = "As soon as we step out onto the deck, the deafening roar of thunder echoes around us, and we find ourselves engulfed in heavy rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "呃啊……好大的风雨……好讨厌……",
+			say = "Urgh... What an awful storm. I don't like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "那个绿头猫咪……认真过头了吧……",
+			say = "Akashi, you really don't have to be such a tryhard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "（维达有些慌张……是因为不喜欢暴风雨吧……）",
+			say = "(I've never seen her so distressed before... She must really have a bad time with storms.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,19 +181,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "往四周看了看，角落里有一处地方，顶部有可以遮挡住风雨的木板。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "维达，你去那边等我。",
+			say = "I look around the deck in a hurry, finding a small section of overhanging planks that provides some shelter from the rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +193,19 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我去找找过关线索。",
+			say = "Whydah, head over there and wait for me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I'll figure out what we have to do here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "好……那你要注意安全哦。",
+			say = "Got it... Be careful out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在甲板区域内仔细检查了一遍后，没有发现任何有用的线索。",
+			say = "I search all over the deck area, but fail to find anything vaguely resembling a clue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随着时间推移，暴风雨愈发猛烈了。海盗船的甲板上下颠簸，就像被卷入洪水中的树叶。",
+			say = "As time passes, the storm around us grows stronger and stronger, causing the pirate ship to rock violently like a leaf caught in a raging flood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "没想到密室逃脱也这么危险……好想回家……吃薯片……打游戏……",
+			say = "I never knew an escape room could be so dangerous... I just wanna go home and eat potato crisps and play games...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "维达的声音比平时更加无精打采。",
+			say = "Her voice is becoming fainter and shallower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维达，不要怕，这里的景象都是假的。",
+			say = "There's nothing to be scared of. All of this is just an elaborate set-up. It's not real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我知道都是假的……",
+			say = "Yeah... I know, but still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "不过，果然还是很讨厌呢……这种危险的场景……",
+			say = "I don't like this at all. I don't want to be in danger...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,18 +333,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "即使嘴上说着没事，少女却又努力地缩了缩，让自己躲进宽大的外套里。",
+			say = "Despite saying she knows better, she shrinks even further into her oversized coat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拥抱安慰",
+					content = "(Try to comfort her with a hug.)",
 					flag = 1
 				},
 				{
-					content = "放弃通关",
+					content = "(Call it quits.)",
 					flag = 2
 				}
 			}
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "走到维达身边，将纤瘦娇小的少女拥入怀中，她有些惊讶地在我怀中僵住。",
+			say = "When I sidle up to her to fold her delicate body into a hug, she suddenly startles as if some life is coming back into her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "不用害怕，我在这里。",
+			say = "Don't be scared. I'm right here with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "很快，维达回过神来，伸手回抱，轻轻抓住了我背后的衣服。",
+			say = "After staying still for a few moments, she regains her composure. Slowly but surely, she tugs gently at the back of my shirt and returns the hug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官的怀抱让人很安心……",
+			say = "You're so warm, Commander... I'm so glad you're here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（本来就是为了放松心情而来的，继续和这暴风雨僵持的话，维达会很难受。）",
+			say = "(We originally came out here to have a good time, but she is getting more and more miserable with each minute we spend in this storm.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "要不我们弃权吧，先离开这里。",
+			say = "Let's just give up and get out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "维达抬起头，直勾勾地看了我一会儿。",
+			say = "However, as soon as she hears the words, \"give up.\" she lifts her head and stares at me for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "接着她站起来，朝我走来，埋入我的怀中。",
+			say = "Then, she rises to her feet, turns toward me, and buries her face in my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都到这里了，累死了，现在弃权也太不值当了……",
+			say = "We've already made it through so many annoying and tiresome things... so it'd be a pity to give up now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就好了，指挥官的怀抱让人很安心……",
+			say = "I think I'll be fine now. As long as I'm in your arms...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "少女因为害怕而僵硬的身体逐渐在我的怀中放松下来。",
+			say = "Her body, which had been frozen in fear previously, starts to loosen up and relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "小小的脸蛋在我的肩头蹭了蹭。",
+			say = "She gets up on tiptoes and tries to nuzzle up against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "谢谢你，指挥官。",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "分享着彼此的温度，直至暴风雨渐歇。",
+			say = "The two of us stay like that, doing nothing except holding each other as closely as we can, all the way until the storm finally dies down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "嗯……？风暴消散了……？",
+			say = "Huh? The storm... just stopped?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "艳阳高照，晴空万里。平静的海面之上已经没有了那场猛烈风暴的痕迹。",
+			say = "The sun is shining brightly, without a single cloud in the sky. The waves are calm, as if the storm from earlier was nothing but a bad dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "而甲板之上，凭空出现了一扇门。",
+			say = "And just as suddenly, another door appears on the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "……这样就算，过关了？",
+			say = "...Is it finally over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大概……",
+			say = "Yeah, I think so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……虽说暴风雨有点恐怖，不过……",
+			say = "Urgh... That storm was pretty scary, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这么一动不动就能过关的形式……",
+			say = "Y'know, a game you can beat by staying completely AFK...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "倒是不错……",
+			say = "That might have some potential...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "指挥官……我们继续前进吧。",
+			say = "Now then, shall we continue forward?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

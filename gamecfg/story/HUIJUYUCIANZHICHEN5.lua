@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>五　熔冠</size>",
+					"Whence the Dust Settles\n\n<size=45>5 Thawing the Winter's Crown</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "极地·王冠周边海域",
+			say = "The Arctic - Winter's Crown Singularity",
 			bgm = "battle-deepecho",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "库尔斯克同志，我在收到联络之后就带领舰队赶来了，现在王冠的情况如何？",
+			say = "I brought a fleet here as soon as I received your message, Kursk. Are there any updates on the Winter's Crown?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……不容乐观，仪器读数还在持续增强。",
+			say = "It's not looking great. The Crown's readings are still rising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "唔……真奇怪。王冠只是一个从未成功开启过的奇异点遗迹，怎么会出现如此异常的能量读数。",
+			say = "How can that be? As far as I know, Code G attempted to activate the Singularity once, but she did not succeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "我也不知道……但是这种感觉，很危险。",
+			say = "I don't know either. All I know is it seems bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "……我去联系契卡洛夫，看看她和设计局的同志们有没有什么想法。",
+			say = "I'll contact Chkalov. Perhaps she knows something we don't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "还要做好战斗准备。",
+			say = "Meanwhile, I'll get ready to recapture it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "嗯，看来增援帕克菲克洋战场的行动只能延后了。",
+			say = "Alright. Our plan to reinforce the Pacific will have to wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "喂，契卡洛夫同志，我是苏维埃罗西亚，能听到么——",
+			say = "Chkalov, do you copy? This is Sovetskaya Rossiya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滋——滋——",
+			say = "BZZZT... BZZZT...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "通讯干扰……这到底——",
+			say = "Jamming? Where is–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "苏维埃罗西亚没有继续疑惑下去，因为她已经通过双眼看到了答案。",
+			say = "She could not finish her sentence, because the next thing she saw left her in awe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "王冠……正在发光？！",
+			say = "The Crown, it's glowing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "怎、怎么可能……",
+			say = "What is going on?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "滋——众目睽睽下，王冠散发出的亮度又提高了一个等级。",
+			say = "The shipgirls' gazes all converged on the glowing Winter's Crown. Its light only grew brighter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "罗西亚同志，我带来的电子仪器已经失灵过半了。",
+			say = "Half the electronics I brought have started malfunctioning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "……看来，虽然不知是何原因，但是沉寂已久的王冠要在此时开启了。",
+			say = "All units, get away from the Crown! We're evacuating the area now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "所有人立刻远离王冠，撤离这片海域！",
+			say = "I don't know how, but the Crown has probably been activated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不错不错，真是明智的决定。",
+			say = "Yeah, that's right! Run away with your tails between your legs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 900219,
-			say = "快逃吧，逃得越远越好~",
+			say = "Better run away as far as you can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "一个未曾设想过的声音突然出现在通讯器中。",
+			say = "A completely unexpected voice burst onto the comms channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "清除者？！",
+			say = "Omitter! That's her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "这段时间我们一直在找你，没想到你居然会主动现身。",
+			say = "You haven't shown yourself since we beat you in Operation Frostfall. Finally mustered the courage to show yourself again, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 900219,
-			say = "你以为不和你们打是怕了你们么？！",
+			say = "What's that? You think I've been SCARED of you sorry assholes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 900219,
-			say = "不会吧，不会你们真的这么觉得吧？！",
+			say = "That what you think, huh? That what you're saying?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 900219,
-			say = "算了，总之退远点——本清除者真正的实力你们马上就能见识到了！",
+			say = "Forget it! Just stand back while I show you my REAL strength!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "至少这一次，清除者并没有说大话。",
+			say = "With those words, a wave of sheer cold swept across the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "伴随着清除者的话语，以王冠为中心的海面开始急速冰封。",
+			say = "A ripple shot out from the Winter's Crown, freezing all the water in its path and changing even the clouds in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "而原本有些阴沉的天空中，云层也变得愈发厚重。",
+			say = "Without any warning, heavy snow, rain, and hail all began to fall while thunder boomed and gales blew. Even short-lived tornadoes raged across the frozen surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "狂风、暴雨、雷暴、冰雹、暴雪，各种天气交替出现在王冠上空，甚至还出现了短时间的龙卷风。",
+			say = "These forces of nature did not target the shipgirls, however – they targeted the Winter's Crown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "清除者这是在……攻击王冠？",
+			say = "Is she... attacking the Crown?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看上去确实对王冠造成了一定损伤，不过损伤主要来源于第一次冰封。",
+			say = "Looks like it. That initial freeze was probably the most effective attack, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "剩下的这些天气变化……不明白它是在做什么。",
+			say = "All the other weather changes – I doubt they'll do much to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "我在想……它是不是在向我们炫耀实力？",
+			say = "Then why do that? Is she just showing off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "当龙卷风也消散后，清除者似乎终于满意了。",
+			say = "As the last tornado vanished, the orchestra of abnormal weather finally ceased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "不过随即，王冠突然迸发出一阵更强大的力量。冲击力粉碎了被冰封的海面，王冠的亮度也再次提高了一个等级。",
+			say = "The Winter's Crown answered the provocation by lighting up and releasing a shockwave that instantly shattered the ice around it, as if to mock Omitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "然而就在此时——",
+			say = "Then, the next moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "世界似乎变为了纯白。",
+			say = "The world turned white.",
 			bgm = "battle-boss-deepecho",
 			typewriter = {
 				speed = 0.05,
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "在色彩消失的最后一刻，北方联合众人看到一道凭空出现的粗大光柱自上而下径直命中了王冠。",
+			say = "Right before all went blank, the Northern Parliament girls saw a beam of light appear from the sky and shoot through the Winter's Crown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "光芒消散后，清除者与宏伟的王冠全都消失不见了。",
+			say = "When they could see again, everything was gone – Omitter, the light beam, even the Winter's Crown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "留下的只有一片近乎沸腾的海面——",
+			say = "All that remained was a pool of nearly boiling water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

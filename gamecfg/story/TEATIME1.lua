@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>一 午后三时的淑女们</size>",
+					"Lively Afternoon Tea Party I\n\n<size=45>「Ladies At 3 O’Clock」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 0,
 			actorName = "{namecode:13}",
 			dir = 1,
-			say = "铛铛~下午茶，开始啰！",
+			say = "Ding Dong~ Let’s begin our afternoon tea party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等，在正式开始前，我有个问题。你们为什么要举办茶会？",
+			say = "Wait a minute, before we start I have a question. Why are we holding a tea party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 0,
 			actorName = "{namecode:13}",
 			dir = 1,
-			say = "原来如此，皇家的女仆小姐又在寻根究底吗？是那个啦——大人的原因！",
+			say = "Typical, a Royal Navy maid wishes to know of our intentions? The reason is—— only meant for adults to know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "是为了使在日渐寒冷的暮秋依旧辛勤工作的大家暖和起来啦～无论大家多疲惫，{namecode:14}与热茶都会一直在这里等候大家的！",
+			say = "We're holding a tea party for all those hard working sisters out in the cold in order to warm them up. So no matter how tired everyone gets, {namecode:14} will be here to greet everyone with a pot of hot tea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也希望能有机会慰劳大家。而且，有些人最近总是待在房间里……",
+			say = "I hope I get an opportunity to help everyone relax. What’s more, some sisters are just constantly staying in their rooms lately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			actorName = "{namecode:13}",
 			dir = 1,
-			say = "{namecode:13}才没有总待在房间里，{namecode:13}只是……那个，冬眠！对，{namecode:13}在冬眠啦",
+			say = "{namecode:13} is not always staying in her room, {namecode:13} is merely just… hibernating! Yes, {namecode:13} is hibernating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "……姐姐，七分真三分假才会被人相信",
+			say = "...Sister, you’re always telling half-truths, who’s going to believe you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总之，一直待在光辉照耀不到的地方，我会担心的……",
+			say = "If you're always hiding in dark places with no light, then I'll get worried...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 0,
 			actorName = "{namecode:13}",
 			dir = 1,
-			say = "原来如此，{namecode:13}有开电灯，所以没问题！",
+			say = "Naturally, {namecode:13} has got lamps in her room, so not to worry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "……光辉，除了{namecode:13}姐姐，另外一位重度尼特族呢？",
+			say = "...Illustrious, besides {namecode:13}, where are those other introverted sisters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是指北方的那位吗？很遗憾，她还是有点害羞……",
+			say = "Are you referring to the one from the Northern Parliament? Unfortunately, she is still a little shy to attend...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等到冬天，用雪人引诱她出来吧",
+			say = "Just wait until winter, we’ll lure her out with a snowman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "嗯……胡德小姐也没有来？",
+			say = "And… Miss. Hood is not coming as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "今天是难得的她和威尔士都休息的日子，所以大概抽不出时间到这边来",
+			say = "She and Prince of Wales were given a rare day off, so likely she won't have time to attend this tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，闲谈暂且打住，我们来品尝东方重樱的传统下午茶吧！",
+			say = "Ok, if I may interrupt this chit-chat, let’s get everyone to taste the traditional afternoon tea from the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "请品尝{namecode:13}姐姐的得意之作～",
+			say = "Please have a try of {namecode:13}'s signature dish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我期待已久了~",
+			say = "O, I’ve been highly anticipating this~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,12 +281,12 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "皇家众人",
+			actorName = "Royal Navy",
 			actorShadow = true,
 			side = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "……这个味道——！！！",
+			say = "… O my, this taste——!!!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "——为什么这么苦！眼泪都流出来了！里面绝对有放黑巧克力什么的吧！",
+			say = "—— Why is this so bitter! My eyes are getting watery! There must be some kind of dark chocolate inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呼……抹茶原来是这种味道呀，还真是别有一番滋味呢～",
+			say = "Hmm… so this is what matcha tastes like. It really is a unique flavour~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -366,7 +366,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦，{namecode:11}没有来吗？她今天应该没有任务吧？",
+			say = "Huh, {namecode:11} did not come? She shouldn’t be on a mission today, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "{namecode:11}姐姐……",
+			say = "Sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 1,
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "——她留下一张纸条就出门了！",
+			say = "—— She left a note and then headed out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纸条？",
+			say = "A note?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没有{namecode:12}的茶会，我才不会参加！{namecode:12}，等着我，我一定会带你回来！",
+			say = "I won't attend this tea party without {namecode:12}!... {namecode:12}, just wait, I'll definitely come get you!",
 			flashout = {
 				black = true,
 				dur = 1,

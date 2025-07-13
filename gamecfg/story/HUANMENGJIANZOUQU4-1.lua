@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"Iris Orthodoxy - Mont-Saint-Michel",
 					1
 				},
 				{
-					"「和平间奏曲」·演习海域",
+					"Peace Interlude Exercise Area",
 					2
 				},
 				{
-					"7月25日",
+					"July 25th",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "阳光明媚，晴空万里。圣米歇尔山上，四大阵营的旗帜随风飘扬。",
+			say = "Clear skies, calm waters. The faction flags of Europa flutter in the wind above Mont-Saint-Michel.",
 			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "此刻，各舰队所属的量产型和舰船依次就位，「和平间奏曲」演习即将开始。",
+			say = "Shipgirls and mass-produced ships have both gotten into position and await orders. The Peace Interlude is about to begin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "呜……通宵、加班、加班、通宵……总算按时准备好了。",
+			say = "Ugh... It took some ruthless all-nighters, but we got done in the nick of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "目前为止都没有出现什么差错……真是太好了。",
+			say = "At least we didn't run into any real trouble along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "了不起哦，迪普莱克斯。",
+			say = "You deserve a medal, Dupleix.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "不过也“只是到目前为止”，演习才刚刚开始呢。",
+			say = "We can't celebrate yet, though. This is where things really kick off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我知道我知道，阶段性安心，阶段性安心嘛……",
+			say = "I know, I know. I just needed a little break before continuing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "呼……接下来该专心处理演习本身上了。",
+			say = "Whew... Now it's time to focus on the exercise itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这次赛制要求每支队伍依次与其他三支队伍交手，不根据战果做排名，完成流程就算圆满结束。",
+			say = "It seems this will be a round-robin competition with each of the factions taking turns between attacking and defending. Interestingly, there is no ranking system in place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "倒确实算是体现友好交流的设计。",
+			say = "Though, I suppose there's no reason to have one. This is, after all, just an exhibition tournament meant to deepen bonds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "但是没有假定目标，直接拿彼此当做假想敌是不是有些……",
+			say = "You'd think shooting at each other rather than a designated target would have the opposite effect, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "咳，这件事得换一个角度看。",
+			say = "You're looking at it the wrong way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "没有什么比面对面直接交手更能看出彼此的优势和劣势了吧？",
+			say = "Fighting fellow shipgirls lets you figure out your own strengths and weaknesses, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯——有道理。那我们就准备出发吧。",
+			say = "You have a point. Anyway, we should start setting off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "本次演习由我们鸢尾舰队最先开始，黎塞留大人也在圣堂会场看着我们，打起精神来。",
+			say = "Our fleet is up first, AND Cardinal Richelieu is watching. We must give it our all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……斯特拉斯堡？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "抱歉。我刚刚走神了。",
+			say = "Oh, nothing. I was just lost in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……你说的没错。大家打起精神来，我们出发。",
+			say = "L'Audacieux's right. Psych yourselves up and let's show them the Orthodoxy's glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

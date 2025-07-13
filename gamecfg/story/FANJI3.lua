@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容之下的真心\n\n<size=45>三 “敏锐”的朋友</size>",
+					"The Heart Beneath the Smile\n\n<size=45>Chapter 3 - A \"Sharp\" Friend</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "反击担任秘书舰开始几天之后——",
+			say = "A few days after Repulse started working as my secretary——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "港区·学院",
+			say = "Port - Academy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反击？你居然在这里闲逛，真难得啊。",
+			say = "Repulse? I didn't expect to see you faffing about here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是吸血鬼？ 好久不见呀！",
+			say = "Oh, Vampire! It's been so long!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我听说了哦！指挥官亲自指定你做他的秘书舰啊，真甜蜜呀~",
+			say = "I've heard you're serving as the Commander's secretary! That must be stimulating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？根、根本不是这样的啦！我就是普普通通协助指挥官工作而已…唔…",
+			say = "Oh? N-no, it's nothing like that! I'm just doing busy work around the office... is all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了？为什么突然沉默了？",
+			say = "Oh? Why so quiet all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也、也没什么啦…就是仔细一想，我到底帮没帮上指挥官的忙呢，啊哈哈…",
+			say = "N- no reason... I'm just wondering whether or not I've actually been any help to the Commander at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯哼~",
+			say = "Uh huh~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "吸血鬼眯了一下眼睛，走到有些无精打采的反击身后，突然拍了一下她的背。",
+			say = "Vampire narrows her eyes, moves around to the dispirited Repulse's side, and gives her a sudden, firm clap on the back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！你，你做什么呀！",
+			say = "Hey! What was that for?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你驼背了哦，只是帮你矫正一下而已。",
+			say = "You were slouching. I'm helping you with your posture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这样啊，那还真是谢谢啦！",
+			say = "O- oh! Well thanks for that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，到底是发生了什么事呢？",
+			say = "So, what happened exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "...............",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，你姐姐来帮忙完成文书工作了啊。",
+			say = "Right then. Your sister helped you finish the work.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我对这方面的事务不是很在行，所以请姐姐来帮了点忙……",
+			say = "Yes. I'm not very good at these sorts of things, so I asked Renown for a hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…看姐姐和指挥官都在忙着处理文件，总觉得打扰她们工作不太好~",
+			say = "But... While she and the Commander were working on the documents, I couldn't shake the feeling that I oughtn't bother them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不太好？",
+			say = "Oughtn't?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…怎么说呢，总觉得有种不太好打扰她们的氛围之类的，所以我就尽量安静地进行我的工作。",
+			say = "Yes... I don't know. I just thought I should leave them be. So I went about my own business as quietly as I could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在也是为了不打扰他们，我才独自来的{namecode:98}的小卖部……",
+			say = "That's why I'm here. I came to Akashi's by myself, so as not to bother them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…哈啊，该怎么说你才好呢",
+			say = "Hm. What should I do with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？哪里让你觉得无语了啊？",
+			say = "Huh? Which part?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无语的地方多了！难道你还没看出来么，再这样自作主张下去，受损失的可是你自己哦？",
+			say = "Every part! You don't see? If you keep this up, you will be the one to suffer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的！我回去了！你就好好加油吧！",
+			say = "Honestly! I'm going home! You do what you must!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……她好像是生气了？",
+			say = "Did she seem mad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "反击疑惑地歪了歪脑袋，正准备走开时，吸血鬼的声音从远处传来。",
+			say = "Repulse tilts her head in confusion and gets up to leave, just as Vampire's voice floats in from the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,11 +506,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "吸血鬼",
+			actorName = "Vampire",
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有什么烦恼，随时来跟我商讨啊！听到了吗——！",
+			say = "Feel free to come to me with your troubles! All righty~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…好！",
+			say = "S-sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "听完了吸血鬼的话，反击觉得心中轻松了许多。",
+			say = "Vampire's words set Repulse at ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

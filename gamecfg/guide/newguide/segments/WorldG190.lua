@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "大型作战中有可能收集到信标数据，这些数据会被记录在信标记录仪中。",
+				text = "All the META Coordinates you discovered during Operation Siren are recorded here!",
 				mode = 2,
 				posY = -74.7,
 				char = "1",
@@ -15,7 +15,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "收集到的信标数据可以点击此处查看。",
+				text = "Gather enough coordinates and you’ll unlock a new feature!",
 				mode = 2,
 				posY = 335.5,
 				char = "1",

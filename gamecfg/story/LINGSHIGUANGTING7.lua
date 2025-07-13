@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·？？？？",
+			say = "Location unknown - Teleportation device",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "空气中充斥着毁灭与死亡的气息……",
+			say = "Smoke, destruction, the putrid smells of war... Seems the coordinates led me to the right place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵，看来中奖了啊……META总是不会离这两样东西太远的。",
+			say = "I detest being witness to Siren records, but I'll want to be thorough. First order of– Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "柴郡、海王星，你们觉得我们存在的意义是什么？",
+			say = "\"Drake is out on a mission, I see. Are neither of you bothered by the fact she gets to do that, while we must attend this ceremony?\"",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天一上来又是这么严肃的话题欸……",
+			say = "\"Oh dear. Monarch has entered whinge mode again.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同为计划舰，我想了解你们的想法。",
+			say = "What the... Neptune and Cheshire? They can't be out here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299030,
-			say = "好好吃好好睡，服从命令听指挥，如果能遇到一见钟情的亲爱的就更好了？",
+			say = "\"Me, I've got nothing to complain about as long as I've got food, sleep, and playtime with my Owner! You need to ease up a little.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "服从命令……哪怕这个命令是让我们永无止境的与外界隔绝下去么？",
+			say = "\"We are blueprint ships of the Royal Navy. While only one of us may be excellence itself, all of us should crave glory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的心情我也不是不能理解，不过陛下肯定有她的用意哦。",
+			say = "\"I understand how you feel. Yes, we hardly ever get to sortie, and it's odd Her Majesty sent us here to train while an operation was ongoing. I won't deny that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的存在大概是某种皇家阵营的底牌之类的？陛下大概不想轻易暴露吧。",
+			say = "\"However, orders are orders. We'll have plenty of opportunities to shine – to imprint ourselves on the Commander's memory – in the future.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299030,
-			say = "没错没错~你可以把现在的闲暇时光想象成出征前的漫长假期，在辛苦的战斗来临前，不好好养精蓄锐可不行！",
+			say = "\"When my Owner needs us, we'll jump onto the stage and show the world what we're made of! I can see it now... Yes, Owner, headpat me more, please~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "养精蓄锐……是指这永无止境的训练科目么。",
+			say = "\"*sigh*... You two are lost causes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "将精心打造的利刃放在仓库中可并非它们被打造出来的本意。",
+			say = "Hmph. So it's just a memory from before the ceremony. Damned Sirens, spying on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是那个伊丽莎白女王觉得，我们只要封闭在这里不接触外界，就算对于皇家做出贡献了呢？！",
+			say = "It's going to take much more than that to dissuade me from carrying out my mission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我对于皇家的意义与价值，将在这次行动中得以证明。",
+			say = "There must be a Black Cube – or the means to a cure for Hood – somewhere in this Mirror Sea. I need only find it and bring it back to Camelot.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "皇家舰队的荣耀，这一次就交由我来守护吧。",
+			say = "Forgive me, Your Majesty, but no one but me may have the glory of this accomplishment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

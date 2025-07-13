@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>七 新年之祝</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 7 New Year's Blessings</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼喵！不知不觉，时间已经很晚了喵！",
+			say = "Nya?! It's this late already nya?!",
 			bgm = "main-newyear",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？是那个活动吗？好像是大家要一起去神社来着！",
+			say = "Late? Does that mean it's time we go visit a shrine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还要许愿什么的……唔唔，突然忘记了叫什么……",
+			say = "We go to a shrine, say our wishes for the year, and... Umm, I can't remember what it's called...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 399011,
 			actorName = "{namecode:152}",
-			say = "神社的参拜，在新年向神明大人许下的愿望，一定能够实现。",
+			say = "It's called a <i>hatsumode</i>, the first shrine visit of the year. It's said that the first wish of the year you make will always come true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 102141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "新年的愿望吗？如果真的能实现的话……",
+			say = "New Year's wish, huh. (Whispering) I wonder if it'll really come true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？蒙彼利埃刚刚有说什么吗？",
+			say = "Hm? Did you say something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 102141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯（摇摇头）没什么。新年我也会继续以大姐头为目标加油的！",
+			say = "No, nothing. Just that I'll keep working hard to try to be more like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜有什么想实现的愿望吗？",
+			say = "Is there anything you're hoping will come true, Helena?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？我的话……只要……",
+			say = "Huh? Me? Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 399021,
 			actorName = "{namecode:151}",
-			say = "等等，愿望说出来就不灵验了哦！自己心中的愿望是只能说给神明大人听的呀。",
+			say = "Hold it. If you say your wish out loud, it won't come true. Your wishes are for the gods' ears only.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们就快出发吧喵，已经好晚了喵！",
+			say = "At any rate, we'd better go now nya! The day is coming to an end nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 399021,
 			nameColor = "#a9f548",
-			say = "港区的神社我还是第一次来，没想到竟然如此气派！",
+			say = "Whoa! I've never visited the port's shrine before, but I didn't expect it to be this magnificent!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:152}",
-			say = "港区之内也有如此虔诚的信徒，神明大人一定会护佑我们的。",
+			say = "It's marvelous that such a divine place exists on this base... I'm certain the gods will watch over it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白雪与重樱的神社，没想到港区里还有这么充满历史感的建筑啊",
+			say = "I see. I'm surprised that there'd be such an awe-inspiring building on the base's premises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +297,11 @@ return {
 		},
 		{
 			actor = 301601,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:143}",
-			say = "<size=24>（小声）{namecode:98}小姐……这里是不是去年才……</size>",
+			say = "<size=24>(Whispering) Psst, Akashi-san... last year, this place was...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +313,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=24>嘘！那种事就不要再提了喵！</size>",
+			say = "<size=24>Shh! You don't need to tell anyone that nya!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +335,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，大家快许愿吧喵！不要忘了二拜二拍手一拜哦喵！",
+			say = "Anyhow, be quick and make your wishes nya! And don't forget you have to clap twice, put your hands together, and bow nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +349,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_101",
-			say = "……",
+			say = "Yes... but first, it's time to appreciate some good anime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +361,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀，大家都用了差不多的时间呢！都许了什么样的愿望呀？",
+			say = "So what did everyone wish for?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -395,7 +394,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才不是说过，说出来就不灵了嘛！",
+			say = "Uh, didn't Izumo tell us not to say our wishes out loud or they won't come true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +411,7 @@ return {
 			actor = 205062,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无论在哪里，祈祷快乐和健康这一点都是不会变的吧。新年快乐！",
+			say = "Well, people of all cultures wish for good health and happy lives. Happy new year, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +428,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:152}",
-			say = "是啊，希望今年也能在大家的努力下，度过平安祥和的一年",
+			say = "That they do. Let's work together to restore peace and harmony to this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +444,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呵呵呵",
+			say = "...Hah hah ha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +470,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}可以说的是，作为提供衣服的报酬，明天大家都来{namecode:98}的店里帮忙喵！",
+			say = "I can tell you my wish: that tomorrow I'll have the money you owe me for renting those clothes nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,12 +481,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
-			say = "诶诶诶——！？",
+			say = "WHAAAAAT?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -505,7 +504,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "喵♪今年似乎也会是生意兴隆的一年喵！新年快乐喵！",
+			say = "Nya♪ It looks like this will be another prosperous year for me! Happy new year nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

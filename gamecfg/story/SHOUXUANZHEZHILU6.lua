@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>Project：H</size>",
+					"Path of the Chosen\n\n<size=45>6 Project H</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "熟悉的白色世界中，静静漂浮着一扇门。",
+			say = "In a familiar blank void, a lone door stands silently.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我又来到了这里，可是为什么？",
+			say = "This place again... But why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,20 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "当然，回应这句疑问的，只有一望无际的白色空间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_505",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不太对……白色空间的状态不太对。",
+			say = "The barren white space does not answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……冥冥之中，有一种被人注视的感觉。",
+			say = "No... Something feels wrong... Different, somehow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,29 +86,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然是纯白，但此处并非是真正的空旷……在纯白覆盖下的远方，似乎隐藏着什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_505",
-			hidePaintObj = true,
-			say = "徘徊了一阵后，四处依然是一望无际的纯白，以及一扇虚掩的门。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_505",
-			hidePaintObj = true,
-			say = "疑问依旧只是疑问。",
+			say = "It's like someone is watching me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +99,29 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……看来是要独自进去探寻一番了啊。",
+			say = "This space isn't a void. Everything may look completely blank, but I think I can see something in the distance...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_505",
+			hidePaintObj = true,
+			say = "I go with my gut and walk around for a while, but I'm unable to find anything except that half-open door – and pure whiteness in all directions.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_505",
+			hidePaintObj = true,
+			say = "My gut feeling was wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +134,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……也好。",
+			say = "Guess all that's left is to go through this door...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_505",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Here goes nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "The moment I touch the door, everything around me changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 900333,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撒丁共和国海军上校，大洋联邦军事顾问，特别调查委员会委员，当代加里波第，尤托比娅·萨伏伊小姐——",
+			say = "Eutopia Savoy – Colonel of the Republic of Sardegna's Navy, military advisor to the Oceanic Federation, member of the Special Investigations Committee, and the modern-day Garibaldi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "好久不见，欢迎来到白鹰。",
+			say = "It's been a while. Welcome to the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "star_level_bg_193",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "我与奥斯塔一同来到了一间布置简约的客房中，不远处，一位金发女士正带着复杂的目光注视着这一切。",
+			say = "Aoste and I enter a modestly-decorated guest room. A woman with blonde hair already inside watches us with a complicated look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_193",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "她张了张口，似乎想要说些话来对等回应这一长串连珠炮式的问候。",
+			say = "Her lips part, a response to Aoste's greeting just on her tongue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_193",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "不过最终还是化为了一句无声的叹息。",
+			say = "Or so I thought. The only thing that escapes her mouth is a sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……两位，好久不见。",
+			say = "...We meet again, you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "所谓学术交流性的拜访，指的就是“这种”？",
+			say = "I thought you were here on an academic exchange visit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "只是开场白罢了~多些幽默感，别总是绷得这么紧。",
+			say = "Forgive me, I just wanted to break the ice. No need to be so tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……所以，这个“当代加里波第”的外号是你散播出去的么？",
+			say = "Mhm. Was it you who came up with \"the modern-day Garibaldi\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "当然不是！我怎么会起这么没特色的代号，你看这像我的风格么？",
+			say = "Of course not. Do you think I would give you such a bland nickname?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "“审判者”、“神秘人”……好吧，确实不像。",
+			say = "The Magister... The Mysterious One... Yes, I suppose that's not like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "对吧，如果是我的话，肯定就是“金鹰”啊，“执剑人”啊，之类的了……",
+			say = "Exactly. I would go with something like Golden Hawk, or Swordbearer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,21 +363,7 @@ return {
 			bgName = "star_level_bg_193",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "房间里的气温似乎陡然下降了几度。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900333,
-			oldPhoto = true,
-			bgName = "star_level_bg_193",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			side = 2,
-			say = "……我开玩笑的，开玩笑。",
+			say = "It feels as though the temperature in the room dropped a few degrees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +377,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不说这些了，我们这次来的目的你应该猜到了。",
+			say = "Sorry. It was just a joke.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900333,
+			oldPhoto = true,
+			bgName = "star_level_bg_193",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			side = 2,
+			say = "At any rate, can you guess why the two of us are here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "来探口风的么……",
+			say = "Pushing the envelope, are we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "很遗憾，出于保密义务，我不能回答你与调查委员会有关的任何问题。",
+			say = "I'm under an oath of confidentiality. Don't expect me to answer any questions regarding the Special Investigations Committee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "不过……只是我自己个人对于某些事的看法的话，倒是可以聊一聊。",
+			say = "That being said... I can share my personal opinion on some matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "反正对外我也从来没有掩饰过。",
+			say = "Well, I've never concealed my opinions on those things anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "那么——想聊些什么？",
+			say = "So, what do you want to ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,22 +474,22 @@ return {
 			hidePaintObj = true,
 			recallOption = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于「▇ ▇ ▇」",
+					content = "Tell me about ■■■.",
 					flag = 1
 				},
 				{
-					content = "关于「▇ ▇ ▇ ▇」",
+					content = "What can you share about ■■■■ ■■■■■■?",
 					flag = 2
 				},
 				{
-					content = "关于「▇ ▇ ▇ ▇ ▇」",
+					content = "I'd like to know about ■■■ ■■■■■.",
 					flag = 3
 				}
 			}
@@ -503,7 +503,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……如同命名那般，我们亲手放出了可怕的怪物。",
+			say = "...As the name suggests, we let a terrible monster run free.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔方之中隐藏的秘密和危险性，已经大大超出此前我们认为的危险上限了。",
+			say = "The secrets and the dangers hidden within Wisdom Cubes have already far surpassed our expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 900333,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不包括我啊。",
+			say = "Excluding mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……已经大大超出了此前大多数人认为的危险上限。",
+			say = "Right – surpassed the expectations of MOST of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些疯狂的实验，确实有必要全部停止了。",
+			say = "I think it's necessary to put an immediate stop to these insane experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我认为他是真正的英雄。",
+			say = "I think the Colonel is a true hero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "他的正确判断救了很多人，销毁潘多拉则救了更多。",
+			say = "His decision saved the lives of many people, and the destruction of Pandora's box saved even more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只能真心希望潘多拉确实已经被完全摧毁了……",
+			say = "I can only hope that the box has been completely and utterly destroyed now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，让我们一同为挚友致敬。",
+			say = "Whatever the case, I salute our dear friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……她是个好孩子，不应该经历这些。",
+			say = "...She was a good kid. She shouldn't have met the end she did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可以保证，委员会将会进行公正的调查。",
+			say = "I promise you the Committee will carry out a fair investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……愿她安息。",
+			say = "May she rest in peace...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "关于安洁和舰船的现状呢？",
+			say = "How is the situation Anzeel and the shipgirls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……不容乐观。",
+			say = "I can't say it's very optimistic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "我的意思是，我认为不容乐观。",
+			say = "Excuse me, correction: I don't believe it's very optimistic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "我能够理解众人因为此事产生的恐惧情绪……但是太多的人屈服于恐惧，以至于影响了判断力。",
+			say = "I understand why people are so afraid about it... At the same time, far too many people have let their fear cloud their judgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "尤其是那些能够做决定的人……",
+			say = "Especially those with the power to make decisions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "「舰船」的本质如何，品性又如何……我们作为创造者本应该是最清楚的。",
+			say = "We created shipgirls... We know their essence – their nature – better than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……他们编织了足够多看上去可信的理由，也因此煽动了更多的人。",
+			say = "Yet all these fabrications are just plausible enough to whip the masses into a frenzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "是啊，而做出这一切的驱动力竟然源自恐惧。",
+			say = "Yes, and fear is the driving force behind it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "仅凭恐惧……真是荒唐。",
+			say = "The things fear makes people do... It's ridiculous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我这边正在进行一些关于舰船稳定性强化的项目，比如魔方功率限制器，报警器之类的研究周期不长，能够快速量产的辅助设备。",
+			say = "It's not all bad. I'm currently working on some projects to enhance shipgirl stability. For instance, Cube power limits and alarm systems – auxiliary equipment that can be fast-tracked into mass-production.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "局面会变好的。",
+			say = "Things will turn around soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "如果是这样的话，我很期待你的这些“强心剂”出现后的效果。",
+			say = "That's good. I'll be looking forward to the results of this \"shot in the arm,\" if you will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "我平时远在欧罗巴，对于这里发生的许多事实在是有心无力。",
+			say = "Unfortunately, I'm usually in Europa, and thus can't do much about most things happening across the pond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "不过如果有能够帮到你们的地方，不用客气。",
+			say = "Still, if I can help you in any way, don't be afraid to let me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "其实还真有一个，这次的“学术交流”，可不单纯是一个过来敲门的借口。",
+			say = "Then allow me to do so. We didn't come solely for the sake of academic exchange.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我确实在为一个全新的AI心智模型训练计划寻求合作。",
+			say = "You see, I'm looking for collaborators on a new AI mental model training program.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "撒丁共和国是个好地方，受到的风波影响最小，而且……宗教氛围浓厚。",
+			say = "The Republic of Sardegna is an excellent location. It was the least affected by the event... and it has a religious environment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……宗教氛围？",
+			say = "Come again? Religious environment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……你想利用宗教来训练你的人工智能？",
+			say = "...Are you going to use that to train your AI model?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我有一些想法，现在算是进行一些技术储备吧？",
+			say = "It's an idea. But before I decide, I want to lay out the technological groundwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "目前项目代号是「Project：H」，有兴趣了解一下么——",
+			say = "For now, I'm calling it \"Project H.\" Would you be interested to learn more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她走近玻璃，抬着头看向里面游弋的海洋生物们。",
+			say = "She approaches the glass of the tank, looks up, and eyes the aquatic life in the water with great curiosity.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你喜欢这些吗？",
+			say = "Do you like it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……很温暖。",
+			say = "Mhm. It's warm.",
 			voice = "event:/educate/tb/educate-tb-story-1-8",
 			painting = {
 				alpha = 0.3,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这在某种层面上应该算是答非所问吧……不过她还小，顺着她的思路问下去比较好。）",
+			say = "(Not the kind of answer I was expecting... Then again, she's still young, so let's follow up with a question a child can understand.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "温暖？是说这些鱼儿吗？",
+			say = "Warm? Do you mean these fish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……是蓝色的水。",
+			say = "No... The blue water.",
 			voice = "event:/educate/tb/educate-tb-story-1-9",
 			painting = {
 				alpha = 0.3,
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "蓝色的水？啊……",
+			say = "The water? Ohh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "原来是在说大海。",
+			say = "She must be talking about the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "即便是虚拟世界中的海水，也会让她产生亲切感吗？",
+			say = "Does she feel a familiarity with it, even inside this fabricated world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个是——“海水”。",
+			say = "That's what they call \"the sea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB如果喜欢的话，等你再长大一点，我们就去海边玩吧。",
+			say = "If you like it, we can go to the sea together when you're a little older.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Okay...",
 			voice = "event:/educate/tb/educate-tb-story-1-10",
 			painting = {
 				alpha = 0.3,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她有些茫然地回应着我。",
+			say = "She turns to me with a slight look of confusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "也是……以她现在所具备的认知能力，要理解这些可能还是有些困难。",
+			say = "It's understandable. She still has the cognitive ability of a child, so it must be hard for her to truly grasp some concepts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要去那边看看？还有很大很大的鱼。",
+			say = "Do you wanna go over there? There are even bigger fish there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她点了点头。",
+			say = "She answers with a nod.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

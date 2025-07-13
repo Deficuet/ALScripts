@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "咚咚咚——",
+			say = "*knock knock*",
 			side = 2,
 			bgName = "bg_endingsong_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "咚咚咚咚咚——",
+			say = "*knock knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奇怪，往常的话贝法应该早就把门打开了……",
+			say = "Strange... Her Majesty should be in her room with Belfast around this hour...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，我进来了哦。",
+			say = "Pardon, Your Majesty. I'm coming in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "厌战走进装潢古典的办公室，却发现一个人都没有。",
+			say = "Warspite opened the door to Queen Elizabeth's lavish office.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "穿过办公室，书房和卧室中也是空无一人。",
+			say = "However, the queen was not there, and neither was the maid who accompanies her almost at all times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "走廊上、大楼内、斯卡帕湾中……直到最后，厌战也没有找到那个应该出现的人。",
+			say = "She searched all over Scapa Flow, but could not find a trace of Her Majesty. The concerned Warspite called for a meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 205020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现状如各位所见，陛下失踪了。",
+			say = "Yesterday, the ceremony to celebrate Scapa Flow's reconstruction was cancelled. Today, something even worse has happened...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "连带着贝尔法斯特，谢菲尔德，以及我们的全部计划舰在内。",
+			say = "Her Majesty has gone missing, along with Belfast, Sheffield, and several of our blueprint ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事关重大，出于保密性考虑我还没有联络外部。不过万幸，在这里的人也有足够权限商讨此事了。",
+			say = "Now, this has happened before. During the last major operation at Scapa Flow, she took the Royal Maids with her to survey a Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "昨晚我离开的时候陛下还在忙，今早我去汇报工作的时候陛下就不见了。",
+			say = "This time is different, however. She's left no written message explaining her absence. Assuming she has already left these islands, she could be anywhere right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这期间一定发生了什么事才对，你们有什么头绪么？",
+			say = "Ladies of the Royal Knights, do you have any idea where she may have gone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么会发生这种事……我一直在忙庆典取消后的善后工作，没有再和陛下交流过。",
+			say = "Afraid not. As you said, Her Majesty took the Royal Maids with her during her expedition into that Singularity. The Royal Knights entrust them with matters of secrecy by a matter of precedent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "前卫，你是陛下的贴身护卫，有没有可能是陛下一时兴起跑出去了？",
+			say = "Vanguard, you're part of Her Majesty's palace guard. Did she tell you anything before she left?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "应该没有可能……我在外出记录中没有发现陛下的名字，也没有收到任何关于陛下非正式出行的报告。",
+			say = "She did not. Being the head of the patrol fleets here, I can however say that she did not sail out of Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "在庆典因意外终止后，斯卡帕湾的每个出入口都设置了比以往更多的守备力量。",
+			say = "Yesterday's air raid put us on high alert, so I deployed additional patrols around the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "这么多人是不可能悄无声息溜出去的。",
+			say = "Even if she snuck out very early in the morning, there is not a chance she could've left undetected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "况且，陛下也没有理由不通知我就带这么多人离开……",
+			say = "Especially not considering she made off with an entourage of maids and blueprint ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "也就是说，陛下并没有离开斯卡帕湾，但也没有在斯卡帕湾内。",
+			say = "The fact she took the blueprint ships with her is puzzling. The Royal Maids should be plenty for a covert operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说来难道是……陛下进入阿瓦隆之门了么？！",
+			say = "So, if nobody saw her leave Scapa Flow, yet she is nowhere to be seen, that leaves only one possibility... The Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "你是指隐藏在斯卡帕湾水面下的人工奇异点么？",
+			say = "You're saying she went through the gate to that Mirror Sea we've discovered?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "不过启动人工奇异点的话需要大量能量释放吧，昨晚我并没有看到类似现象发生。",
+			say = "\"Camelot,\" was it? Why would Her Majesty go there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你有所不知……陛下和我一直在负责阿瓦隆之门的改造工作，使其可以满足隐蔽运行的需求。",
+			say = "After the battle, we continued investigating the Mirror Sea and found a teleportation device that seems to lead to a number of other places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在阿瓦隆之门之中我们开辟了一个新的区域负责进行人员转移。",
+			say = "The name Camelot applies to not only the Mirror Sea, but also to the teleportation device and all facilities connected to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样不论如何启动，能量释放的影响都会限制在阿瓦隆之门内，从外部看来自然就没有任何异常。",
+			say = "And the way to it is through the gate we have here at Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "原来如此，这样就克服了人工奇异点的一大缺点啊。",
+			say = "In essence, our gate here at Scapa Flow is the bridge to a hub world of sorts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我不明白为什么陛下会带计划舰同去……我们的计划舰应该还有很多不完善的地方吧。",
+			say = "Correct. I suspect the reason Her Majesty left, then, is to search for a cure for Hood's illness in Siren territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "计划舰全程由我负责，这个疑问我可以回答。",
+			say = "In that case, I have a theory as to why she took those blueprint ships with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "其实现阶段，如果要参与隐秘行动的话，没有比她们更合适的护卫了。",
+			say = "If we assume that the Black Cube corrupts the foundation of our hulls, the defense mechanisms of regular shipgirls like us may be insufficient to deal with these effects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "我们的计划舰心智已基本完善，训练也基本结束。",
+			say = "On the other hand, the hulls of blueprint ships are imprinted in a completely different manner that may allow them to fare better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "陛下之前只是为了稳妥起见没有对外公开，况且局势也没有严重到需要我们动用计划舰不是么？",
+			say = "Do you think Her Majesty planned this expedition in advance, and that's why she invited them to the ceremony?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以就让她们日复一日在设施中训练啊……",
+			say = "I wouldn't go that far. Her Majesty couldn't predict Hood would become bedridden from her illness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "这是完善心智的必要过程，也是精湛战斗技能的保证——陛下是这么认为的。",
+			say = "True. If Hood had a say in the matter, she would never let others risk their well-being for her sake. Yet, we cannot simply stand by and watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德出事在前，陛下失踪在后……既然计划舰已经心智成熟……陛下难道真的进入了阿瓦隆之门？",
+			say = "Of course not. But rushing on an expedition into a Mirror Sea with no support is just reckless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "我不是很明白这两件事之间的关联性。",
+			say = "I agree. This is quite unlike how she conducted herself during the last operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "参照{namecode:440}治疗{namecode:435}的方案，我们也要寻找曾隶属于皇家的META来配合我们的治疗——",
+			say = "That one was much better organized. Her Majesty had the Iron Blood's cooperation as well as information about the META, giving the Royal Maids a chance to conduct a preliminary survey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是陛下的计划，与铁血合作制作阿瓦隆之门的原因之一也在于此。",
+			say = "Their thorough preparation was the only reason the Naval HQ was deceived into thinking that Friedrich had captured Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "原来如此……那带计划舰进行护卫确实十分合适。也许是因为计划舰的特殊性质，她们对于META化的耐性非常高。",
+			say = "Indeed. This time, she has no such advantages, and we have no idea where Camelot leads to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "不过既然如此，陛下为什么不事先通知我们一下？",
+			say = "She must have a good reason to have done all this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也想不明白……直到昨晚我离开时，陛下还认为现在进行奇异点探索的条件尚不成熟呢……",
+			say = "Last evening, I informed her it would take very long to survey Camelot. I hope that had nothing to do with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫，昨晚你有没有注意到什么异常情况？",
+			say = "Let us make doubly sure before acting. Vanguard, have you heard of unusual activity in any of Scapa Flow's facilities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "没有……陛下昨晚直接睡在了设施之内，我在巡逻完成后就一直在设施外站岗，期间没有发现任何异常。",
+			say = "I have not. The guards I assigned to this building claim Her Majesty retired here for the night without incident. Naval HQ's representatives have done nothing out of the ordinary, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "没办法，只能我们亲自去看一看了。",
+			say = "It seems Camelot is our only bet, then. We've no other leads to go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "乔治五世殿下，这个恐怕不行。",
+			say = "Let us not be too hasty, King George.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下有过命令，要是没有她的命令，任何人不得接近阿瓦隆之门……恐怕也包括您在内。",
+			say = "If we find Her Majesty in Camelot, all is fine. However, if she has used the teleporter to go to a different Mirror Sea, then what we're facing is a major emergency.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "……都这种时候了，已经进入阿瓦隆之门的陛下怎么可能对门外的我们发布命令啊！",
+			say = "Precisely, which is why I'm so concerned about Her Majesty's wellbeing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "确实如此，但是也没有证据表明这不是陛下计划中的一环。",
+			say = "You misunderstand. I am saying we must not act without thinking first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……陛下确实偶尔会因为某些理由瞒着我们之中的一些人。但是，陛下绝对没有可能，也没有理由瞒着我们所有人吧？",
+			say = "Vanguard is right. We need to plan ahead for the possibility that Her Majesty cannot be located within Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "厌战大人，这是陛下本人向我发布的命令，不论在何种情况下我都会将其遵守，这是我作为骑士的誓言。",
+			say = "To add to that, Naval HQ would become deeply suspicious if both you and King George went missing in addition to Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不过鉴于现状……我也认为陛下可能确实遭遇到了一些非正常的突发情况。",
+			say = "So allow me to make a proposition – you two shall stay here, and I shall lead a small search party into Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "因此，我愿意从有通行许可的护卫之中选择人员，组建侦察队寻找陛下的下落。",
+			say = "My fleetmates and I make up a formal Mirror Sea expedition fleet. We've been briefed on them and should be able to respond flexibly to whatever we encounter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以骑士之名起誓，我一定将陛下平安带回来！",
+			say = "Upon my honour, we will find and bring Her Majesty back safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "在此期间，就靠二位大人在外部维持局势稳定了。在陛下行踪不明的时候，也许很多事情都会冒出来。",
+			say = "In the meanwhile, I ask that you provide us with all the support you can, and that you keep the gate to Camelot guarded and maintained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "你说的有道理。我们就算全部冲进去起到的效果也未必比更熟悉那里的你带队更好。",
+			say = "Hmm... You make a good case. I'm in favour of entrusting the task to a select few specialists.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "你也没问题吧，厌战？",
+			say = "Sending in all the search parties we can muster wouldn't be more efficient. It would only result in chaos and many casualties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也只能这样了……同意。请你们谨慎行动，一定要将陛下平安带回来。",
+			say = "Indeed it would. Vanguard, you face a monumental task, but I put my faith in you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没想到你这么简单就同意了，原本以为你会再坚持一下呢。",
+			say = "Seems we have our Mirror Sea expedition team. Vanguard, Indomitable, Jervis, Janus, Revenge, and Bellona.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1073,7 +1073,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那可是前卫，骑士品行的楷模。让她灵活的理解陛下的命令恐怕不是那么容易。",
+			say = "I should feel confident that Vanguard is leading this fleet, but I still can't shake my sense of unease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且前卫是陛下直属，我们没权利命令她，磨下去也只会浪费更多时间。",
+			say = "I fear that she may lose herself in the fighting and lose sight of our goal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,7 +1108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "确实如此啊。我这个骑士团长都命令不了她~",
+			say = "You've nothing to worry about. Yes, she rarely gets to fight and becomes a little overexcited as a result. But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1126,7 +1126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "那我就先去忙了。在陛下回来之前我会处理必要的工作，同时确保这个事情的消息能够封锁到陛下回来为止。",
+			say = "In times of crisis, she knows what must be done and she does it. She wouldn't put herself over what's important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1144,7 +1144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "你呢？",
+			say = "Now, changing topics... We need to come up with an excuse to explain Hood's and Her Majesty's absence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,7 +1161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我去秘密准备一支舰队过来，等到需要的时候，我就带领舰队进去做必要的事。",
+			say = "I'll deploy a reserve fleet outside Camelot, just in case we need it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反正前卫已经先进去了，没人能够再拦住我们了，不是么？",
+			say = "The fact remains that it's Siren territory, even if we have explored Camelot before. Better to be safe than sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,35 +1193,35 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「让我们不要将其遗忘」</size>",
+					"It wasn't long ago the events at Scapa Flow unfolded.",
 					1
 				},
 				{
-					"<size=51>「曾经有一个地方，拥有短暂的辉煌」</size>",
+					"The Iron Blood rebelled against the Sirens, igniting a battle that would finally bring an end to one of their leaders.",
 					2
 				},
 				{
-					"<size=51>「当刀剑碰撞，厄运鸣响」</size>",
+					"This sent shockwaves across not just the Azur Lane and the Crimson Axis, but the entire world.",
 					3
 				},
 				{
-					"<size=51>「至暗之时，莫再彷徨」</size> ",
+					"While they all processed the news, the Royal Navy embarked on a secret expedition into their Singularity.",
 					4
 				},
 				{
-					"<size=51>「高声呼喊，那永恒之城现在何方？」</size>",
+					"Now they set out once more, in search of a cure for the Black Cube's corruption.",
 					5
 				},
 				{
-					"<size=51>「既在此处，亦在彼方」</size>",
+					"Vanguard leads the foray into the unknown, in pursuit of the missing queen.",
 					6
 				},
 				{
-					"<size=51>「卡美洛，卡美洛」</size>",
+					"What awaits them inside the fabled land of Camelot?",
 					7
 				},
 				{
-					"<size=51>「那忠诚骑士誓死捍卫的荣光——」</size>",
+					"The Holy Grail? Or something even greater?",
 					8
 				}
 			}

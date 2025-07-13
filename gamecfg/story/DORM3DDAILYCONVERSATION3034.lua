@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……决定了！要……“黑化”！",
+			say = "Anchorage... has decided! To be corrupted... and evil!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "“黑化”……？",
+					content = "Evil?!",
 					flag = 1
 				}
 			},
@@ -67,7 +67,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇听港区的同伴说……“黑化”会变酷！",
+			say = "Anchorage heard it from a friend! When you become an evil guy... you look cooler!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……头发，可以不黑吗？",
+			say = "But... can my hair stay the way it is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

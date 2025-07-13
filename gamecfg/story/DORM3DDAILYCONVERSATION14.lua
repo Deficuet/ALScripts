@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，天狼星有个不情之请……能请您能陪天狼星一起练习化妆技术么？",
+			say = "My honourable {dorm3d}, if I may, I have a favour to ask of you. I wish to practice applying makeup. Would you mind helping me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,14 +52,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "尽管练习了很多次，我的化妆技术却一直没有精进呢。",
+			say = "I've tried it myself over and over, but my skills aren't developing at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你无论什么时候都很好看。",
+					content = "Really? I think you always look beautiful.",
 					flag = 1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是……在您的面前，天狼星还是想要尽可能的……再美丽一些。",
+			say = "Thank you, but even so, I want to look MORE beautiful for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们就从……涂口红开始，可以吗？",
+			say = "Let's start with applying lipstick, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

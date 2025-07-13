@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>七　不一样的桑德菈</size>",
+					"The Iron Rose Blooms\n\n<size=45>7 Seydlitz's Change of Heart!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "一周后的休息日——",
+			say = "A week later, on my day off...",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就在思考时今天的行动路线时，休息室的门被推开了。",
+			say = "While I was thinking about the upcoming party at the port, someone opens the door to the lounge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "然后——",
+			say = "Of course, it was none other than–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早上好，长官。",
+			say = "Good morning, Commandant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，就算是休息日您也在这里……",
+			say = "I thought you might be here, even on your day off...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "就猜到是这样，果然，特地换上这身衣服是正确的。",
+			say = "(It was a good call to change into the dress the Commandant bought me. Now, I just need to...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "就、就是说……！",
+			say = "Th-thank you for your time! Commandant, if you'd be willing, umm... Before the party starts, maybe we could take a little walk together...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "要、要一起出门散步么……！我、我是说劳逸结合是很有必要的哦？！",
+			say = "It's been such a busy time that a change of pace might be nice, or–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "长、长官……？",
+			say = "C-Commandant...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "…………",
+			say = "\"............\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,18 +205,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "几乎到这时候，才勉强反应过来——",
+			say = "Seydlitz's gorgeous attire, so different from her usual style, completely takes my breath away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很漂亮！",
+					content = "\"You're beautiful!\"",
 					flag = 1
 				},
 				{
-					content = "很适合你！",
+					content = "\"It looks great on you.\"",
 					flag = 2
 				}
 			}
@@ -230,7 +230,7 @@ return {
 			actor = 404032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……？！",
+			say = "Oh my... (*blushes*)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 404032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真、真的么？",
+			say = "D-do you mean it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "欸欸欸欸？！真、真的吗！！",
+			say = "I am honored by your praise, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "您是第一个见到这身装束的，所以……还担心这样的风格适不适合我！",
+			say = "You're the first person who's seen me like this... Honestly, I was worried that it didn't work on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "不过，这样我就放心了！",
+			say = "It's such a relief to hear you say that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢您的评价！",
+			say = "Thank you for your evaluation, Commandant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然多准备了一些时间，但我想这是完全值得的。",
+			say = "It took longer than usual to doll myself up, but it was worth every second!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "我已经准备好了，长官！",
+			say = "I'm ready for the party, too. Whether you'd like a partner or a bodyguard...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "不管您期待的是什么样的{namecode:460}，我都会尽力实现您的期待的！",
+			say = "No matter what you expect of me, I will do all in my power to exceed expectations!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404032,
-			say = "请您下命令吧——",
+			say = "I await your orders, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1

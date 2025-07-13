@@ -15,7 +15,7 @@ return {
 				}
 			},
 			style = {
-				text = "在自由探索时间，可以点击任意未探索的房间进行探索",
+				text = "In Free Roam, tap any yet-to-be-explored area to explore it.",
 				mode = 1,
 				posY = 350,
 				dir = -1,

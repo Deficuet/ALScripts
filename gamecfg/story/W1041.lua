@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "提示：开启特殊补给所需的[塞壬能源存储器]数量不足。",
+			say = "The Energy Storage Device seems to have failed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

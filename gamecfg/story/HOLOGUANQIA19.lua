@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-fff-inst",
 			dir = 1,
-			say = "为什么会这样……",
+			say = "Why are you doing this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "湊阿库娅（？）",
+			actorName = "Minato Aqua(?)",
 			dir = 1,
-			say = "很遗憾，碧蓝航线的{namecode:408}，你将葬身于此。",
+			say = "My condolences, Z23 from Azur Lane, but you must die.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 900210,
 			dir = 1,
-			say = "等一下，阿库娅，不用做到这一步吧？",
+			say = "Hold on a second, Aqua, I think you may have things backwards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 900210,
 			dir = 1,
-			say = "而且，你背后的这些塞壬，我记得吹雪说过，是这个世界的敌人……",
+			say = "I'm pretty sure Fubuki once told me those Sirens behind you are the enemy in Azur Lane, not this girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,9 +73,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "湊阿库娅（？）",
+			actorName = "Minato Aqua(?)",
 			dir = 1,
-			say = "空前辈，请不要慌张，等解决了这个碧蓝航线的敌人，我会向你解释。",
+			say = "You're mistaken, Miss Sora. I will explain everything after I've dealt with this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……糟了，这样下去要被围攻了，我要找个突破口。",
+			say = "We'll be surrounded before long! Sora, we should flee immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，要是这个时候她们三个在就好了…",
+			say = "(Javelin... Laffey... Ayanami... Wherever you are, I hope you're okay...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

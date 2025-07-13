@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "首先清理掉海域中的所有塞壬支援点，再继续向前调查吧……",
+			say = "We need to destroy the Sirens’ Rally Point before we can investigate the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

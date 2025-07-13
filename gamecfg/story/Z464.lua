@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>四 思考</size>",
+					"White Poem\n\n<size=45>IV Thought</size>",
 					1
 				}
 			}
@@ -20,19 +20,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…混色（Mischfarbe）。",
+					"I am Mischfarbe, my thoughts intertwined.",
 					1
 				},
 				{
-					"思绪交织，透过名为社会的镜头反射出的精彩倒影。",
+					"A chiaroscuro of hued reflections, passing through the lens of society.",
 					3
 				},
 				{
-					"现今我正拿着指挥官交付的某样东西，",
+					"Today, I carry with me a package. Bearing instructions from the Commander, ",
 					5
 				},
 				{
-					"任务是去码头把它交到冰一般的她手上。",
+					"I am to go to the pier of the dock, to seek the one who clads herself in ice.",
 					7
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_outdoor",
-			say = "港区·码头",
+			say = "Port - Pier",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -72,7 +72,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:436}，我来给你送指挥官给的东西。",
+			say = "Tirpitz, I've come with commander's package.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:412}？谢谢，我收下了。",
+			say = "Viersechs? Thank you, I'll take care of it.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "我将小包递给冰一般的她——被称为“北方的孤独女王”的战舰，{namecode:436}。",
+			say = "To Tirpitz, the \"Lonely Queen of the North\", the battleship who clad herself in ice, I passed the package from the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:412}你还在执行秘书舰任务吧？接下来有什么预定吗？",
+			say = "Viersechs, so you're on secretary duty now? What are your plans for later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "并无其他预定，准备回自己的房间了。",
+			say = "Other than plans to return to my dorm, no other plans seem to come to my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "是吗？那你陪我聊一会儿吧。感觉还是{namecode:412}好说话呢。",
+			say = "Is that so? Then, you should keep me company for a while. I still find it easier to talk with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "没问题。不过我不会说话，大概只能听听，你不介意的话就好",
+			say = "Though that much is fine, I must warn you first: I struggle greatly to find what to say. If you do not mind, an ear I can lend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "当然没关系。就当我在自言自语也好",
+			say = "Of course, that is no problem at all. I'm no stranger to talking to myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常有趣。与其他阵营的交流、那些未完成舰如今的样子，还有因为战舰们的集会而焦头烂额的{namecode:436}自己——",
+			say = "I heard many fascinating stories. Of words exchanged with the other factions, of the state of ships not yet completed, and of the journey of Tirpitz herself, who was beaten by our combined forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常令人叹息……过去铁血的最后一刻，出现在镜面海域的“另一个自己”，投身于永无止境的战争的伙伴们的、无法确知的未来——",
+			say = "I heard many harrowing stories too. Of the demise of the past Iron Blood, of the \"other her\" from the Mirror Seas, of comrades trapped in eternal warfare, and of uncertainty towards things to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "时不时随声附和，迎合她的视线，用寥寥数语表示同感。",
+			say = "From time to time, I'd nod in agreement; seeing through her eyes, sharing her world view; with what words I knew, offering sympathy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:412}将来想做什么？",
+			say = "Viersechs, what would you like to do in the future?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "我？我想…………",
+			say = "Me? I... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "突如其来的问题。长久的沉默。",
+			say = "Suddenly confronted with this question, I once again found myself without words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_outdoor",
-			say = "我——是什么颜色？",
+			say = "What... color am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

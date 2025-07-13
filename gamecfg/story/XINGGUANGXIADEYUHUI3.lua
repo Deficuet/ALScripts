@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "翌日——",
+			say = "The next day...",
 			bgm = "story-ironblood-light",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"总部大楼·休息室",
+				"Resistance Headquarters - Guest Room",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "昨日到达抵抗军基地后，因为天色已晚，我直接前往了总部大楼中安排好的房间内休息。",
+			say = "It was late by the time I arrived at the base, so I was promptly escorted to the guest room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原定在次日午餐时间与抵抗军的领袖{namecode:542:弗里茨·鲁梅}见面……不过在清晨时分，{namecode:541:杜伊斯堡}传来了一个新消息。",
+			say = "Now it's the next day, and I'm going to meet Fritz Rumey at lunchtime today. Before that, though, I got a call from Duisburg on my communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，这里是{namecode:541:杜伊斯堡}在留言。",
+			say = "Good morning, Commander. It's Duisburg.",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "工程部门在昨日的战利品中发现了一些宝贵的设备模块。",
+			say = "We've made a few discoveries that I thought you should know about. Our engineers found some rather valuable components among the things we salvaged yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拜此所赐，我们的辐射净化装置终于可以开始维修了！",
+			say = "These will let us finally accomplish our goal of fixing our radiation purgers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅如此，我们还在一个科研船的数据核心中找到了一份辐射净化装置的改良方案。",
+			say = "They also managed to decrypt plans for improving the device from the data core of a science vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "经过评估，这份改良方案……十分具有可行性。",
+			say = "I heard those are really going to come in handy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "鲁梅女士原本就打算在净化装置维修完成后，立刻开始外围据点的夺回作战。",
+			say = "Rumey has always had plans to reclaim the surrounding island bases if we managed to repair the purgers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为这个新情况，她已经连夜修改了计划，具体内容将会在今天正午时分的公开演讲中公布。",
+			say = "Thanks to all these discoveries, we'll be able to put our big plan into action at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果有兴趣的话，希望你能来听听哦。",
+			say = "The plan will be publically announced today at noon. We'd love it if you came to listen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于会面的话，需要稍微延后一些，等到演讲结束后，我接你去鲁梅女士的办公室~",
+			say = "Once the announcement is done, I'll bring you to Rumey's office. Then you can talk secrets with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "于是，正午时分——",
+			say = "Later, at noon...",
 			bgm = "battle-ironblood-defence",
 			effects = {
 				{
@@ -252,7 +252,7 @@ return {
 				}
 			},
 			location = {
-				"抵抗军基地-中心广场",
+				"Resistance Headquarters - Central Square",
 				3
 			}
 		},
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "中心广场上，人山人海，旗帜飘扬。",
+			say = "Shipgirls gather at the base's square and hoist their banners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "而在高台之上，一位身披军大衣，英姿飒爽的女性格外引人瞩目。",
+			say = "Atop the high ground, a woman clad in the naval attire of Iron Blood makes her gallant appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "同胞们，中午好。",
+			say = "My compatriots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "相信诸位已经知道了前日临近海域出现V级残骸潮的事。",
+			say = "I presume you've all heard that a Class V Rising Tide has appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "就在昨日，先遣队已经顺利返回，并带回了第一批战利品。",
+			say = "Yesterday, our scouting party returned from it with spoils in tow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "其中回收到的设备，足够修好我们现在损坏的三台天外辐射净化装置。",
+			say = "With the equipment they recovered, we will finally be able to restore our three radiation purgers to working order!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "我们——终于可以开始夺回沦陷的外围据点了！",
+			say = "At last, we will be able to reclaim the surrounding bases that were lost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广场人群",
+			actorName = "Crowd",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "—————！（人群的欢呼声）",
+			say = "YEAHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "如同一碗水撒入热油锅，沉默的人群在此刻沸腾了。",
+			say = "The silent crowd erupts into cheers, like a long-dormant volcano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "高挑的身影摆了摆手，示意人群安静下来。",
+			say = "However, Rumey raises her hand to quell their jubilation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "好消息不仅如此。",
+			say = "It is not yet time to celebrate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "在回收到的数据核心中，我们找到了自行生产净化装置的图纸，以及一整套可行的净化装置升级方案。",
+			say = "The data core we recovered contains upgrade plans for the radiation purgers as well as blueprints for mass-producing them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "从今往后，我们不但可以夺回失地，还拥有了向着大陆沦陷区进军，夺回故土的能力！",
+			say = "This means we will be able to reclaim not just our islands, but also restricted areas on the mainland!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,11 +460,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广场人群",
+			actorName = "Crowd",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "—————！（人群的欢呼声）",
+			say = "YEAHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "回应鲁梅话语的，是一阵更热烈的欢呼声。",
+			say = "The crowd cheers even louder than the last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "因此，我决定，在三日后展开夺回失地的第一次作战。",
+			say = "Therefore, in three days, I will launch our first operation to reclaim our lost territory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "本次作战的目标为ID-AX-104号海域中，在过去有着“银星”之美名的斯贝尔腾岛。",
+			say = "The first to be reclaimed shall be area IB-AX-104, the Silberstern – the Silver Star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "我们需要物理夺回、建立控制，并长期确保该岛至基地的运输线。",
+			say = "Our goal is to seize the island, restore the base's functionality, and establish a logistics line between it and our headquarters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "该岛屿之上，拥有升级净化装置所必须的矿物资源。",
+			say = "We must reclaim this island to secure vital materials needed for the upgrade of the radiation purgers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
-			say = "夺回该岛，将为今后的大规模反击行动打下一块良好的基石——",
+			say = "Furthermore, it will serve as the springboard for future recapture operations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}的演讲还在继续着。",
+			say = "Rumey's announcement continues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "不过在不知不觉间，演讲演变为了具体的任务分配，在场的绝大多数人都分到了属于自己的任务。",
+			say = "Her briefing on the salvage mission turns first into a series of operation announcements, then into specific orders for her troops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "这一情况最初有些令人意外，不过细想之下，倒也在情理之中。",
+			say = "These rapid-fire proclamations had me confused at first, but it makes sense now that I think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（毕竟是位于前线的抵抗军基地……么。）",
+			say = "(This IS their forward operating base, so I assume everyone here is involved somehow.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			say = "待到演讲结束后，{namecode:541:杜伊斯堡}如约带我来到了抵抗军领袖的办公室之中。",
+			say = "Once the announcements wrap up, Duisburg escorts me to Rumey's office.",
 			bgm = "story-ironblood-light",
 			typewriter = {
 				speed = 0.05,
@@ -648,13 +648,13 @@ return {
 			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			say = "我得到了一个与这位英姿飒爽的抵抗军领袖面对面谈话的机会。",
+			say = "The leader of this place just finished her speech, and now I will speak to her face-to-face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"抵抗军基地-首领办公室",
+				"Resistance Headquarters - Leader's Office",
 				3
 			}
 		},
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "天外来客，{playername}阁下，对吧？",
+			say = "You must be the outlander – {playername} – or should I say \"Commander\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "你的事情我已经听说了，在来了一日之后，失忆症状有好转么？",
+			say = "I've been told about you. Did your memories return to you following a night's sleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			say = "这位领袖有些出乎意料的，直接进入了正题。",
+			say = "I shake my head in response. Without any change in expression, she cuts to the chase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "抵抗军的现状相信阁下已经看到了，当前的我们需要一切帮助。",
+			say = "I'll get straight to the point. Won't you consider joining us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "而阁下天外来客的身份……我认为一定能帮到我们。",
+			say = "As you've seen around the base, we need every pair of hands we can get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "相信阁下也有很多暂时不方便透露的秘密吧？",
+			say = "You would be of extraordinarily great help to us, especially considering your ties to other outlanders – the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由于物资匮乏，我给不出太多的利益交换条件。",
+			say = "Unfortunately, I cannot promise much in the way of tangible resources in exchange for the knowledge and intelligence you possess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "不过我能保证，如果阁下能与我们合作，我们会将你真正视为战友，从今往后与你坚定地站在一起。",
+			say = "However, if you work with us, I promise that you will be treated as an ally of the Resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "听说阁下还是一位出色的指挥官？",
+			say = "No, more than just that – you are an excellent leader, I've heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "我也会给予阁下最大程度的信任，和尽情发挥的空间的。",
+			say = "I will also give you our highest degree of trust and the space to fully display your tactical ingenuity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "当然……如果阁下坚持要去其他势力的话，我们也可以提供便利。",
+			say = "Naturally, if you wish to join another one of humanity's force, I will not stop you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "不过出于私心，我真心希望阁下能够留下来帮助我们。",
+			say = "Still, in a personal and official capacity, I sincerely hope you will choose to stay with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "阁下意下如何？",
+			say = "Please, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……简单直白，开门见山。）",
+			say = "(A frank but succinct request. It's hard to say no when she's pleading so earnestly...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这位抵抗军领袖，有些意思啊——）",
+			say = "(You sure know how to persuade, Rumey.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

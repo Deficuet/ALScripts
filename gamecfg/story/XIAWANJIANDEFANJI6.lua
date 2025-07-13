@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "{namecode:405}！终于找到你了……你怎么受了这么重的伤！",
+			say = "Z19! There you are! What happened to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "是{namecode:404}啊…刚才在躲避爱斯基摩人追击的时候，被伊卡洛斯打中了几炮。",
+			say = "Is that Z18...? While I was trying to get away from Eskimo, I took some hits from Icarus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "小心点，她们现在还在附近…其他人还好么？",
+			say = "Be careful, they're still after me... is everyone else okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "姑且还算好吧…{namecode:401}还在寻找撤退的路线。不过到处都是皇家海军，我们的弹药又快打光了…",
+			say = "Mostly. Z2 is still trying to find us a way out. But the Royal Navy is everywhere, and we're almost out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这样啊…我来拖住皇家的追兵，你快回去和{namecode:401}汇合，然后和大家一起撤退吧。",
+			say = "Then I've decided. I'll hold them off. You get back to Z2 and retreat with the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你在说什么话呀？！明明好不容易才找到你的…",
+			say = "What are you talking about?! I've been looking for you for so long!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我不同意！和我一起走吧，{namecode:405}。",
+			say = "You're coming with me, Z19!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "动力系统受损，我已经跑不出皇家的包围网了…",
+			say = "My drive system is crippled. I can't outrun the Royals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那就让我和你一起战斗，我是绝对不会抛弃你的！",
+			say = "Then I'll stay and fight with you. I'm not leaving you here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……笨蛋。",
+			say = "...Idiot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

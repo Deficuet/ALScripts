@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>一 害羞的黑猫</size>",
+					"The Timid Black Cat\n\n<size=45>The Nervous Black Cat</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*Knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,37 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这个时间的话……是委托队回来了吧——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301210,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "…那，那个……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "负责报告的是{namecode:30}吗。",
+			say = "That knocking must mean... the commission team is back now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +79,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "委，委托完成了…",
+			say = "... U-umm...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "It seems like Hatsuharu was tasked with giving me the report this time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301210,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "A-a commission has been completed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥室变得格外安静起来",
+			say = "The sound of complete silence enveloped the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "唔…对话似乎没法继续下去了",
+			say = "... The conversation won't go anywhere at this rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			},
 			options = {
 				{
-					content = "温柔地询问",
+					content = "Say something to Hatsuharu",
 					flag = 1
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "！！呜……",
+			say = "Wah?! *Whimper*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "对，对不起！",
+			say = "I-I-I'm so sorry, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=30>明明都练习过那么多遍了…</size>",
+			say = "<size=30>I practiced so hard, y-yet I still can't do it...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=30>我，我果然还是不行！！——</size>",
+			say = "<size=30>I-I should've known this would be impossible for me!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "啊…跑掉了…",
+			say = "Then, before I could say anything else, Hatsuharu hastily ran out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "委托队的情况等会再找找其它人问问吧",
+			say = "I'll have someone else check on the commission team later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过{namecode:30}的情况…稍微有点让人担心啊…",
+			say = "... But right now, Hatsuharu is on my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

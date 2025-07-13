@@ -13,7 +13,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要赶紧清理才行……",
+			say = "I'd better clean this up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "牛舍中，法戈正在清理地上打翻的牛奶。",
+			say = "I spot a certain someone cleaning up spilled milk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "法戈，有什么需要帮忙的吗？",
+			say = "Fargo? Anything I can help you with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……？",
+			say = "Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种情境下，我应该表达惊讶的情绪，重新将惊讶情绪数值上调12.51%——",
+			say = "In this situation, I should raise my surprise index by 12.5%...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？！您为什么会在这里？",
+			say = "Commander?! Why are YOU here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为你来挤牛奶后，迟迟没有回去，我就来看看。",
+			say = "Umm, well, you didn't come back when I thought you would. I got worried.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,18 +136,18 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "工作超时给大家带来的不便，我很抱歉。",
+			say = "I apologize for the inconvenience caused by my overtime work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不用太在意。",
+					content = "Don't worry about it.",
 					flag = 1
 				},
 				{
-					content = "我是在担心你。",
+					content = "I was worried about you.",
 					flag = 2
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，我明白了。",
+			say = "Okay, understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……好，我明白了，谢谢您的关心。",
+			say = "Okay, understood. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "记录指挥官此时的各项情绪数值，作为“担心”的样本之一。",
+			say = "I'm recording your emotional index to sample \"concern.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回到刚刚指挥官的问题——我有什么需要您帮忙的吗？",
+			say = "As for your previous question, whether there's anything you can help with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果可以的话，希望指挥官帮我一起清理打翻的牛奶。",
+			say = "I would like your help cleaning up this spilled milk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，我来帮你。",
+			say = "Sure. I can do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "拿来了抹布，蹲下身去与法戈一起擦拭地上打翻的牛奶。",
+			say = "I take a cloth, squat down next to her, and start wiping up milk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个时候是不是应该露出笑容，以表达感谢？",
+			say = "At such a time, should I smile and display my \"gratitude\" emotion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一般来说是这样。",
+			say = "Normally, yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "少女露出了淡淡的笑容，在阳光下越发柔软温暖。",
+			say = "Fargo smiles. It's a gentle, warm smile reminiscent of the sun itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "但很快，难得的笑容就消失不见了。",
+			say = "However, her lovely smile fades in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——数据记录完毕。是难得的情绪样本积累。",
+			say = "Data recorded. This is a rare emotional sample.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感谢您，指挥官。对了，在休息之前，我还有一件事想要拜托您。",
+			say = "Thank you, Commander. Before I rest, I have another request...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由于昨天劳作过度，我的胳膊现在很酸痛，现在无法很好地清理身上的痕迹。",
+			say = "Yesterday's overwork has left my arms sore. I can't reach the milk that splashed onto me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,18 +366,18 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想拜托您帮我把身上的这些清理干净，可以么？",
+			say = "I need you to help wipe it off. Please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（点头）",
+					content = "(Nod.)",
 					flag = 1
 				},
 				{
-					content = "没问题。",
+					content = "I'd be happy to.",
 					flag = 2
 				}
 			}
@@ -392,7 +392,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此时应将喜悦情绪继续调高1.27%，再表达感谢。",
+			say = "I must raise my joy index by 1.2% and express my gratitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢您，指挥官！",
+			say = "Big thankies, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "取来了干净的毛巾，为法戈仔细擦拭沾在身上的牛奶。",
+			say = "I grab a towel this time and help wipe the milk off of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……那里……？",
+			say = "Mm... Right there is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……指挥官……",
+			say = "...C-Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "仅有两人的空间中，少女一反常态地红了双颊。",
+			say = "It's just the two of us. Fargo's blushing – a rare sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的心跳有些快，被您触碰到的皮肤温度也在上升……",
+			say = "My heart rate is rising, and I'm heating up in the places you're touching me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据以往的数据显示，这是害羞的表现……？",
+			say = "Hmm. Based on my data so far, I believe this emotion may be... embarrassment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……需要我停下么？",
+			say = "Do you want me to stop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 102331,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不，我想我现在并不希望你停下。",
+			say = "No. I never said that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

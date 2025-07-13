@@ -11,7 +11,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然……{namecode:454}，侦察机发现了前方“塞壬”的伏击舰队，旗舰判定为执行者系列精英，执棋者。",
+			say = "I've spotted the enemy's ambush fleet. It seems our primary target this time is the humanoid-type Conductor.",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "训练场里的敌人果然变得越来越狡猾了……好厉害啊{namecode:471}！",
+			say = "Gosh, they're just popping up all over the place this time. That upgrade really took our training to the next level, Strasser!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "这种程度的分析连预测都算不上。不过我与{namecode:467}正在应付塞壬机群的反扑，暂时无法为你提供支援。",
+			say = "Yes, like the briefing said. If only you'd read it... Anyway, Weser and I will engage the aircraft. You go deal with the Conductor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "放心放心，这样的敌人我自己两三下就能解决啦~",
+			say = "Okey-dokey! I'm gonna whoop her into Siren bratwurst!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "就是有个小小的问题……执棋者，是长什么样子来着……？哎嘿嘿……",
+			say = "...Actually, quick question, what was the Conductor's gimmick, again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "………………？都在战斗这么久了，你还没分清楚塞壬的型号么？！",
+			say = "You... You absolute scatterbrain! You don't know what the Conductor does?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为！那些塞壬其实都差不多弱嘛……每次都抵抗不了太久，长得又像，一个一个分清楚很麻烦啊……",
+			say = "Hey, it's not my fault these Sirens have been total pushovers up till now! I sink 'em before they can even villainously introduce themselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要我把敌人全部消灭，那个“执棋者”也就一起被消灭了吧！",
+			say = "Anyway, uh... could I at least get a visual description?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "不行，这次无论如何你也要把敌人的型号和名字对清楚。",
+			say = "*sigh*... Fine. The Siren with a 6-pronged rigging that makes it look a bit like an octopus? That's a Conductor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "执棋者就是，唉……你每次见到之后都会将其称之为“海葵”的那个型号……",
+			say = "Now shoo, attack them already. I will not tolerate you wasting any more time than you already have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~~~我知道了，原来是大海葵啊！对嘛，这个名字又贴切又可爱，{namecode:471}~我们干脆把数据库里的名字改成这个好不好！",
+			say = "Smasher, Scavenger, Conductor... Their names are all too similar! Can't we just change her entry in the database to \"Octopus\" and be done with it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "想都别想……{namecode:470}通讯结束。",
+			say = "NO, YOU HALFWIT. Mein Gott... I'm closing the comms channel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "切~小铁，该轮到我们上了，目标大海葵，冲锋~！",
+			say = "No need to get angry at me! Geez... Come on, Eisen! Time to turn that Siren into seafood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

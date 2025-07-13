@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "公主……和王子……也像这样！",
+			say = "Princess... Prince... Just like us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

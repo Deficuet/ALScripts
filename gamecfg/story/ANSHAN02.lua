@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>二　港区不可思议</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 2 - One of the Base's 7 Wonders</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里要涂上这个…",
+			say = "Let's fill this in here...",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是这个颜色…",
+			say = "Then this color here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后这里要这样！",
+			say = "And then we use this color here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，抚顺姐姐你又涂歪了",
+			say = "Ahh! Fu Shun, you used the wrong color again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀～差不多就好了嘛～反正差一点影响不大啦～",
+			say = "Whatever, it's good enough~ No big deal, right?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，没点定性…",
+			say = "I can't even tell what this is supposed to be anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "purin！哒哒哒哒哒！我跑～今天的港区也没有异常～",
+			say = "Buli! Dadadadadadah! I'm running in circles~ Just another normal day at the base!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli！姐姐今天还是一样精神！不过我也不会输的～",
+			say = "Buli! You look hyped, buli! But I'm gonna be even more hyped, buli!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那个是！？",
+			say = "W-who are they...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“港区不可思议”之一的布里酱？",
+			say = "Aren't they one of those \"Seven Wonders of The Base,\" the Bulins?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "听说见到她们的那天一天都会特别幸运呢…",
+			say = "It's rumored that seeing a Bulin brings you luck for the rest of the day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "什么时候都有这样的港区传说了…",
+			say = "Where did that urban legend come from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，颜料…又不够了呢…",
+			say = "I think we're out of paint again...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好～这次就让我去补充颜料吧～",
+			say = "Okay! I'll go look for some more!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你只是想去追布里们吧…",
+			say = "I bet you just want to chase after the Bulins...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，没有啦～只是想出去跑跑步嘛～布里、哦不，颜料我来了～",
+			say = "Nuh-uh, no way! I just happen to feel like running around a bit! I'll go find the Buli... I mean, some paint!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

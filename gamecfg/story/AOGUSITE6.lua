@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"魔女的命运之夜\n\n<size=45>六 魔女的盛宴</size>",
+					"A Night with the Unhulde\n\n<size=45>6 The Unhulde's Feast</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "借着夕阳的余晖，我们开始准备晚餐。",
+			say = "Seizing the fading glow of sunset, August and I started making food.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}主导，我负责打下手。",
+			say = "She did most of the cooking, while I committed myself to a more supporting role.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她铺开了一块印着星图的布，将食材一一摆在上面，动作优雅得像是在进行什么仪式。",
+			say = "She spread out a tablecloth with a star map motif and placed down one dish after the next. Her motions were careful at every step, almost like she was performing a ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你连料理都是“魔女”风格吗？",
+			say = "Will dinner also be in your signature esoteric style?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "当然。我可不会放任一顿晚餐毁了今晚的气氛。",
+			say = "Naturally. I'd loathe to break up the mood tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她从篮子中取出一瓶色泽浓郁的果酱，细细抹在黑麦面包上，再撒上几片不知名的深紫色蔬菜。",
+			say = "She takes out a bottle of jam from the basket and spreads it thinly on her rye bread, then covers it with a few slices of some purple vegetable I don't recognize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "锅中则煮着混合了肉与果实的汤，香气浓郁却又带着微妙的陌生感。",
+			say = "Meanwhile, the fruit and meat stew in the pot simmers quietly. It smells rich, with a dash of the unknown mixed in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个肉汤的气味……好奇妙。",
+			say = "The soup smells like... I don't even know what.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那是“命运之味”。",
+			say = "It's the flavor of destiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "酸中带甜，柔中有刺——像我们今晚的相处。",
+			say = "There's sweetness amid the acidity, and it's soft, yet prickly – much like the distance between us tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她又拿出一只古老造型的玻璃瓶，将其中的液体倒入杯中。",
+			say = "She takes out a glass bottle with an antique shape and pours its contents into a cup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "那液体呈深红色，带着微弱的光泽，在火光下看起来几乎像是……血。",
+			say = "The liquid is deep crimson. It looks like blood under the light of the campfire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "“星辰之血”。你该庆幸，这是我亲自调的配方。",
+			say = "And this is the blood of the stars. Drink it and rejoice. I made it myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这名字听起来就挺危险。",
+			say = "I don't like the dangerous ring that name has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "危险和收获，本就是孪生姊妹。",
+			say = "With danger comes rewards – nothing ventured, nothing gained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "一切准备就绪，{namecode:482:奥古斯特}将第一份餐食递到了我面前。",
+			say = "Once she's done preparing everything, she presents me with the first dish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "来吧，我的“指挥官”，不试一口的话，我可会伤心的。",
+			say = "Enjoy, my \"Commander.\" You'll hurt my feelings if you won't even have one bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我只是想确认一下，都是可食用食材吧？",
+			say = "Uh... Just asking to make sure: All the ingredients ARE edible, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "那不重要。吃下它的人，会被魔女记住。",
+			say = "That is unimportant. What matters is that those who eat this will be etched into the Unhulde's memory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "不过你已经被我记住了，就算不吃……也逃不掉哦。",
+			say = "Granted, you already are – but still, there is no wriggling your way out of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}的嘴角轻轻勾起，语气带着熟悉的危险与温柔。",
+			say = "The corners of her lips curl upward ever so slightly. Her voice carries that familiar blend of danger and kindness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "火光映在她眼中，像两片安静燃烧的星海。",
+			say = "The campfire's light is reflected in her eyes, twinkling quietly like the stars above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,31 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "我端起餐盘，咬下那片果酱黑面包。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_557",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……意外地好吃。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_557",
-			hidePaintObj = true,
-			say = "紧接着，我又尝试了肉汤。",
+			say = "I accept the food – black bread with jam spread on top – and take a bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +314,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "肉汤香浓，夹杂着少许果味，清爽解腻。",
+			say = "It's... actually pretty good.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_557",
+			hidePaintObj = true,
+			say = "Next, I have a spoonful of the meat soup.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_557",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "The meat flavor really comes through, and the freshness of the fruit meshes well with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "你以为魔女只会下毒吗？",
+			say = "Did you perchance think the Unhulde would give you food poisoning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看你准备的那些香草和果酱，我确实有点怀疑它们会不会有致幻作用。",
+			say = "No, but I thought the herbs and weird jam you prepared were going to make me hallucinate or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "这一切对你来说，像幻觉吗？",
+			say = "Well then, do you think what I'm doing now is a hallucination?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}的纤指拂过我的脸颊与唇瓣，带来真实的触感。",
+			say = "She runs her delicate fingers along my cheek and lips, leaving them with a lingering warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……不，不像。",
+			say = "...No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "你表现得很好。",
+			say = "I'm pleased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "我还以为你会对这些食物感到抗拒。",
+			say = "I was all but certain you'd refuse to touch the food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,18 +440,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 499060,
-			say = "不少人看到第一眼就会退缩，但你不是。",
+			say = "Many flinch at the first sight of them, but you didn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "也许是我被你下了咒？",
+					content = "I must be under a spell.",
 					flag = 1
 				},
 				{
-					content = "因为我足够信任你。",
+					content = "That's because I trust you.",
 					flag = 2
 				}
 			}
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "也许是我被你下了咒？",
+			say = "I must be under a spell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "如果是咒，那也是你自愿接受的。",
+			say = "Even if you are, it's a spell that you chose to receive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "你本来就不属于“凡俗”的那一侧。",
+			say = "You've never belonged to the mundane rabble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "因为我足够信任你。",
+			say = "That's because I trust you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "信任？",
+			say = "Trust, you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "可你知道吗……一旦有了开始，就很难只停留在“信任”而已。",
+			say = "I see. Still, you'd be wise to remember this: Once you start, it's hard to stop with \"trust\" alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}为我斟上那杯“星辰之血”，杯中液体泛着诡异却优雅的色泽。",
+			say = "She pours the \"blood of the stars\" into my cup. Forebodingly, yet elegantly, the red liquid shakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "我们一起举杯，银质酒杯碰撞发出清脆的声响。",
+			say = "We cling our silver glasses together, and they produce a clear sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "液体滑入口中，先是果香，再是微苦，最后是难以言说的余韵在舌尖慢慢荡开，如同某种正在缓缓生效的魔法。",
+			say = "I taste the suspicious drink. The first thing that hits me is a fruity sweetness, then a faint bitterness. It leaves an indescribable aftertaste on the tip of my tongue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这确实是我从未尝过的味道。",
+			say = "I've never tasted anything like this before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "属于今夜，也只属于你。",
+			say = "This flavor was made specifically for this night and for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她靠得近了些，像是在观察我的反应，又像是别有用意地缩短了彼此的距离。",
+			say = "She leans closer, either probing me for a reaction or overtly cutting the distance between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "晚餐结束了，我的使魔。",
+			say = "Dinner is over, my familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "接下来，和我共赴星河吧。",
+			say = "Now, let us head into the galaxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

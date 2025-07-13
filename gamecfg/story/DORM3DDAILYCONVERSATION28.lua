@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION28",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您想知道皇家有没有流传什么怪奇故事？",
+			say = "You'd like to hear some ghost stories from the Royal Islands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +49,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……就像是剧院中会出现旧时的亡灵、酒店房间墙壁中填埋着骸骨……之类的故事吗？",
+			say = "Hmm... There's tales of old ghosts appearing in theatres, and the bones of the dead being buried in the walls of hotels. I assume that's what you're asking for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +61,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，它们在天狼星眼里都没什么区别，无论是幽灵还是别的什么超自然生物……",
+			say = "In my opinion, ghosts and other supernatural phenomena are all the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +73,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星都会击溃它们，全方位照料好{dorm3d}的一切！",
+			say = "Should they, or anyone else try to attack you, I will dispatch them no differently!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

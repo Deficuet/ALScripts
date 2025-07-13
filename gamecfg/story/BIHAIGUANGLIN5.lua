@@ -16,9 +16,9 @@ return {
 			expression = 1,
 			bgm = "deepblue-image",
 			actor = 900315,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "时间紧迫。{namecode:182}，请回答我的问题——你觉得指挥官怎么样？",
+			say = "Um, Shinano, I have to ask you something first. What do you think of the commander?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官么……一位能够对话的，有趣的人。",
+			say = "Commander... is the only one who understands what I've experienced...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,11 +62,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "醒来之后也不要忘记今天发生的事哦。",
+			say = "Then, hold tightly onto the fragments of this dream when you awaken. And never forget what happened here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "此处梦境，即将迎来结束之时了么……",
+			say = "I see... This dream, too, is about to come to an end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯，接下来我要对这里做一些“改造”。",
+			say = "Yes... I am about to rewrite the very core of this Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +119,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "虽然不清楚你梦境的具体原理，但是“改造”引发的冲击会将摧毁你所引发的脆弱干涉。",
+			say = "I do not understand the principle behind your power, but... the aftershocks from what I am about to do will likely erase the fleeting changes you've been able to effect in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你的梦境也就无法继续了。",
+			say = "That... is when your dream will come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看来妾身就要到此为止了，遗憾……真想将这趟奇妙旅程继续下去啊……",
+			say = "Very well... Our meeting has been brief, but I will remember it forever... I wish you the best of luck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "抱歉啦。",
+			say = "(whispers) ...I'm sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,11 +199,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "其余诸位，你们现在的位置…………嗯，已经确认了，就这样各自站在原位千万别动哦。",
+			say = "Do not stray from your path. Become the light in the darkness to guide your friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,11 +219,11 @@ return {
 			bgName = "bg_luoxuan_5",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			actor = 900315,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "三、二、一——————",
+			say = "Three, two, one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_luoxuan_5",
 			hidePaintObj = true,
@@ -293,7 +293,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "帕克菲克洋·重樱主力舰队",
+			say = "Sakura Empire Fleet",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-pacific",
@@ -328,7 +328,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，您休息得还好么？",
+			say = "Did you sleep well, Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "又是一个漫长，又逼真的梦境……让人忍不住想继续沉沦进去。",
+			say = "Ah... A fragment of bliss that tempts me to indulge in it for the rest of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:180}，去整理一下碧蓝航线指挥官的资料给我。",
+			say = "Kasumi... Do you know... the commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "碧蓝航线的那位指挥官的资料么？{namecode:180}明白了。",
+			say = "Mhm. Kasumi knows the commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，我们之后有和白鹰作战的行动么？",
+			say = "Do you wish to speak to the commander, Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "目前妾身还没听说过这样的计划，收集指挥官的资料只是单纯的好奇罢了。",
+			say = "Not quite... I simply... wish to learn more about that person...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队的情况如何？",
+			say = "But first... How does Shimakaze's fleet fare...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队正在按照计划前往铁血浮岛要塞，一路没有遭遇到敌人。",
+			say = "I was just informed they discovered a great castle atop an uninhabited island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过……侦察舰队在前方海域发现了一座所属不明的人工浮岛。",
+			say = "Yamakaze described it as looking just like the legendary Dragon Palace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}在汇报时将其称为“龙宫城”，这份简报请您过目。",
+			say = "I ordered them to stay put until further notice so I could ask you how to proceed. What are your orders, Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……龙宫城么，妾身在梦中也未曾见过。",
+			say = "The Dragon Palace... Never have I seen such a thing, not even in my dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的海上“奇景”通常会被塞壬隐藏在镜面海域之中。",
+			say = "We have reason to believe it's some sort of secret laboratory, as there's no record of an island ever existing there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像这样明目张胆的放出来，我觉得是诱饵的可能性极高。",
+			say = "But, seeing as they found it simply sitting out in the open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也觉得应该是塞壬的把戏，直接无视呢？",
+			say = "...It's very likely to be a trap laid by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可。塞壬对于吾等之行已有所警觉，将其布下的陷阱无防备置于身后过于危险。",
+			say = "If the Sirens are aware of us... then 'twould be folly to ignore this island...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不然集中火力直接摧毁吧？",
+			say = "Should I order them to bombard the facility, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倘若如{namecode:18}所言是一座华美的海龙宫，直接摧毁未免有些可惜。",
+			say = "We mustn't destroy this place if it is one of the Sakura Empire's secret facilities... And if it is a Siren facility, I do doubt if our cannons can even destroy it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嚱，既然是塞壬的机关，也只能如此了。",
+			say = "But at the very least... we must determine if the Sirens are behind this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:62}，带领增援与{namecode:18}队汇合。然后……{namecode:175}也同行吧。",
+			say = "Chikuma, Suruga, my request for you... is to lend aid to the Shimakaze fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？我也要去么？！可这样您的身边……",
+			say = "But Lady Shinano! We can't leave your side! It's too dangerous for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心，妾身在本阵中很安全，{namecode:180}也在。",
+			say = "Worry not for my safety... I have already seen what fate has in store...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，我明白了。",
+			say = "If so... Then very well! Chikuma and I shall join up with the vanguard fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（不知道为什么，有种非常不妙的预感…………）",
+			say = "(Ugh... I've got SUCH a bad feeling about this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

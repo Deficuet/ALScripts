@@ -8,9 +8,9 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			side = 2,
-			say = "真没想到，尔等居然追到这里来自投罗网了呢？",
+			say = "Well, well. Here you are, like a moth to the flames.",
 			bgm = "theme-akagi-inside",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "余对汝已是知根知底，不要再虚张声势了。",
+			say = "I know what you are. Your bluffs work no longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "哦？",
+			actorName = "False Amagi",
+			say = "Oh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "汝因执念而生，作为执念的化身，却又诞生了自己的执念——何其可悲。",
+			say = "You are a being born of obsession. You carry that obsession with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "汝不惜否认{namecode:161:天城}最后的存在，也要用自己的方式将其“复活”——何其可笑。",
+			say = "You denied Amagi's existence and went so far as to try to replace her concept by \"reviving her.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "一个可悲可笑之物，有何面目占用「{namecode:161:天城}」的概念苟活于世？",
+			say = "You will reappropriate Amagi's concept no longer, vile monster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,8 +109,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "……你从奈落之中听到了？",
+			actorName = "False Amagi",
+			say = "It seems you heard that from Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "那你应该知道，我是绝不会放弃的。因为，这就是我存在的全部意义。",
+			actorName = "False Amagi",
+			say = "Then you must already know that I can't be stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,8 +135,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "更何况，此时此刻在世人眼里，我就是「{namecode:161:天城}」。",
+			actorName = "False Amagi",
+			say = "I WILL become Amagi. In fact, I am already acknowledged as Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,8 +148,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "只要把你们这群自以为清醒之人全部抹杀，我的存在便再无漏洞。",
+			actorName = "False Amagi",
+			say = "Those who don't acknowledge me, like you, need only be erased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,8 +161,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "——不是么？",
+			actorName = "False Amagi",
+			say = "Then, none will doubt my identity as Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……无可救药。",
+			say = "You're hopeless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "余果然一开始就不该和汝废话……",
+			say = "I regret ever speaking to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "既然是执念化形之物，就老老实实作为执念显形，而后作为执念消散吧。",
+			say = "You are a manifestation of obsession and should disappear like one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,8 +221,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "那就要看你有没有这个本事了——",
+			actorName = "False Amagi",
+			say = "Go on! Make me disappear then, you little runt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,11 +230,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众多形为天城之物",
+			actorName = "The Many Amagis",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "啊哈哈哈哈——",
+			say = "Ahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

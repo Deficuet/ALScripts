@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "猫猫出去玩时，带回了一群小猫，获得了【喵箱SR型*5】"
+			say = "You successfully regained control of a Manjuumobile commandeered by rogue Meowfficers! You received 5 Elite Cat Boxes!"
 		}
 	}
 }

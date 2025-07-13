@@ -29,15 +29,15 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国·会场",
+					"Orthodoxy Holy Capital - Conference Venue",
 					1
 				},
 				{
-					"指挥官休息室",
+					"Commander's Lounge",
 					2
 				},
 				{
-					"“狩猎”结束后次日",
+					"Following the operation's conclusion",
 					3
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "下定决心后，轻轻推开休息室紧闭的大门。",
+			say = "I gather up my resolve and open the door to my lounge.",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "室内的一切陈设依然维持着出发前的样子，怒气冲冲的孟菲斯也没有突然出现。",
+			say = "The inside looks practically the same as I left it. There's no one here to welcome me back, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "呼……有惊无险。看来伊丽莎白和黎塞留的掩护做得确实不错。",
+			say = "(Phew. Elizabeth and Richelieu really did cover for me. No one caught on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "这次行动中值得总结的部分有很多，虽说路上已经整理了一部分……",
+			say = "(There's a lot, and I mean A LOT to think about for this operation. I've kept some notes, but they're rough.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "还是趁着记忆鲜明，一鼓作气整理完再休息吧。",
+			say = "(I'd better write down the details while they're still fresh in my memory.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,23 +103,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯终端",
+			actorName = "Computer",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "哔哔——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "嗯……？这么巧，我才刚回来就有新消息送达。",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +119,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……发信人是，圣地亚哥司令部？",
+			say = "Hm? A message as soon as I get back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +131,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“帕克菲克洋战区出现了某种尚未查明的变化。”",
+			say = "(Huh... It's from the Eagle Union.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +143,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“多个军事基地在48小时内发回了大量互相矛盾的侦察情报。”",
+			say = "\"There has been an as-of-yet unexplained incident in the Pacific.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +155,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“司令部还一度失去了与PH港的联系，好在经查明只是通讯故障。”",
+			say = "\"During a 48-hour period, a large number of naval bases received large quantities of data which all contradict one another.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +167,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“出于安全考虑，指挥官请继续留在欧罗巴主持工作。”",
+			say = "\"Additionally, contact with PH was briefly lost, determined later to be due to communication line issues.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +179,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“帕克菲克洋战区暂时继续由企业负责，直到情况明晰后，再作部署。”",
+			say = "\"Commander, you are to remain in the Orthodoxy for your own safety. Proceed with the conference as normal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +191,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这是，什么情况？",
+			say = "\"Enterprise is in charge of monitoring the Pacific situation as it develops. She will contact you with any eventual updates.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +203,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……什么叫“某种尚未查明的变化”？",
+			say = "I'm so confused by... whatever this is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +215,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "圣地亚哥司令部发出的报告从来没有如此含混不清过。",
+			say = "What do they mean by \"unexplained incident\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +227,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "也就是说，现在帕克菲克洋中一定发生了某种连白鹰司令部都无法解释的事情，不过暂时还未造成损失。",
+			say = "(I don't recognize the sender either. Could be Naval HQ, could be someone I know.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +239,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "稍晚时候，和企业与萨拉托加联系一下吧。",
+			say = "(Although, given how scarce the details are, it's probably Naval HQ. Something happened and they can't explain it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +251,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯……帕克菲克洋么……",
+			say = "I'll just let this simmer for a bit then call Enterprise and Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +263,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "北方联合、重樱和东煌本土直接与帕克菲克洋相邻。",
+			say = "(I wonder if this happened specifically in the Pacific...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +275,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "皇家、铁血、和鸢尾在其中也有势力范围……",
+			say = "(It's adjacent to many factions. The Eagle Union, Northern Parliament, Sakura Empire, even the Dragon Empery.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +287,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "也分别向它们打探一下消息好了。",
+			say = "(The Royal Navy, Iron Blood, and Iris Orthodoxy all have bases there, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +299,7 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "对于这场突如其来的“异常事件”……我有种不好的预感。",
+			say = "(At any rate, I'll make some calls and check if anyone knows something.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +311,19 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "但愿不要预感成真吧……",
+			say = "(The lack of details about this \"incident\" gives me some major premonitions, though...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "(I really hope my fears prove unfounded.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

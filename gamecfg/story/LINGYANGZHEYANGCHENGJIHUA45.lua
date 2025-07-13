@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "野生动物园里，年轻的园长娜比娅正专注地工作着。",
+			say = "I've come to the safari park, where the young zoo director is passionately performing her job.",
 			bgm = "qe-ova-2",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
-			say = "她蹲在观察区的一角，手持平板电脑，认真地记录着不远处石堆上休息的狮群的信息。",
+			say = "Navi sits down in a corner of the observation area, tablet in hand, logging a status entry about the pride of lions resting by the rocks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "娜比娅，记录工作还顺利吗？",
+			say = "Hey, Navi. How's your progress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,11 +78,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，{tb}来啦~",
+			say = "Oh, {tb}! You came.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,11 +90,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在记录它们的休息情况哦。最近天气变热，它们的作息发生了一些改变呢。",
+			say = "I just got done writing about their resting states. It's gotten pretty hot lately, and that seems to have affected their resting schedules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
-			say = "少女抬起头，温柔地眨眨眼。",
+			say = "She lifts her head and winks at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "要不要先休息一下？附近有其它可以坐下来的观察点，视野也很好。",
+			say = "How about you get some rest, too? There's a comfy spot nearby where you can continue your observations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,11 +126,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用啦，还是这边更方便呢。而且……",
+			say = "No, I'm good. This spot is more convenient. Besides...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,11 +138,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有{tb}在身边，我一点都不会觉得累哦。",
+			say = "I'd never feel tired when you're around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg36",
 			hidePaintObj = true,
-			say = "狮群懒洋洋地甩着尾巴，眼前的少女脸上洋溢着温柔的笑意。",
+			say = "She flashes a modest smile, the lions listlessly wagging their tails in the background.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

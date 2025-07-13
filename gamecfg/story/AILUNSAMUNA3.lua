@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>三 关于兴趣</size>",
+					"Three-Star Luxury Romance\n\n<size=45>3.Work Hard, Play Hard</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……唔。现在在工作中…忍耐忍耐……",
+			say = "Wonder what Cooper's doing ri– Wait, I'm supposed to be working. Save it for later, Allen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊。Juus有新通知了。大家都在说什么呢～不知有什么有趣的回信啊～",
+			say = "Oh, was that a Juustagram notification? Wonder what's trending today. Maybe the commander sent me a mes–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……糟了，现在应该是工作时间！不小心看了Juus的话奖励就没有了…",
+			say = "No, Allen! Resist the urge and focus on work! The whole afternoon's gonna pass by in a flash if you check Juustagram!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "离指挥官下班还有2个小时，就快结束了哦！一定要坚持住啊，艾伦！",
+			say = "Two hours to go until the commander's done for the day! Just gotta hang in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "艾伦在努力的同自己做着斗争。",
+			say = "Allen was engaged in a tug of war with her own impulses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊——距离上次的休息日已经两周了…好想买东西啊…哪怕只是随便逛逛街也好…",
+			say = "Ugghh! Been two weeks since my last day off work... I wanna go shoppiiiing... Heck, I'd settle for just an evening of window shopping...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要新的贴纸啊……买了的话就在夹克上再贴个星星，还有舰装上和{namecode:454}小姐那边…",
+			say = "I want more star stickers! I wanna put another on my jacket, my rigging, and on Heinrich...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "糟了，这样下去的话艾伦又要掉进消费主义的陷阱里了——",
+			say = "I had to step in, or else she may have given in to her whims.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			},
 			options = {
 				{
-					content = "提醒她一下",
+					content = "\"Keep it up. We're almost done.\"",
 					flag = 1
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，抱歉，现在还是工作时间呢！",
+			say = "Oops, right! I'm supposed to be working!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官交给我的报告得赶快完成才行……！",
+			say = "Just gimme a bit, I'll have that report written in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在被提醒了之后，艾伦又开始专心工作了。",
+			say = "She resumed work after I reminded her about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在奖励的鼓舞下，艾伦的注意力确实比以前有所提高，但还是想些别的方法比较好……",
+			say = "The incentive of a reward did increase her concentration, but it seemed a good idea to pursue another approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天出去采购的时候，要带我一起去？真的可以吗？",
+			say = "...You'll go shopping with me tomorrow? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好好放松一下的话第二天的工作确实会更有效率，不过…如果单独和指挥官在一起的话……",
+			say = "I mean, I'd work better after a day of taking it easy, but are you sure it's smart for you to tag along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "被谁看见了的话会产生奇怪的传闻吧？…嘿嘿♪",
+			say = "Y'know. People might get weird ideas and start rumors if they see us together... Actually, I've got an idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了不让指挥官困扰，我也叫上朋友们一起来吧！请多关照咯，指挥官~",
+			say = "Mind if some of my friends come with us? Great! This is gonna be awesome!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，明天和艾伦以及她的朋友们一起出门采购的事就这样决定了。",
+			say = "And so, we decided to meet tomorrow to go shopping with her friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

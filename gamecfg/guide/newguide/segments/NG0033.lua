@@ -23,7 +23,7 @@ return {
 				}
 			},
 			style = {
-				text = "让我们来看看炼金工坊中其他工具配方所需素材",
+				text = "Let's see what materials are needed for another gathering tool, shall we?",
 				mode = 1,
 				posY = 0,
 				dir = 1,

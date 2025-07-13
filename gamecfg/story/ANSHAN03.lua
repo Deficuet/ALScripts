@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>三　舌尖上的东煌</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 3 - Time For a (Lunch) Break</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我回来啦！虽然没追上布里们不过…看我带了谁来~",
+			say = "I'm back, guys! I couldn't get a hold of the Bulins... but I brought some other people with me!",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是平海和宁海姐姐~",
+			say = "Oh! Why, if it isn't Ning Hai and Ping Hai!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听抚顺说，你们好像在做些挺有趣的事情，就跟着过来看看了",
+			say = "Fu Shun said you guys are up to something fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海也要一起玩~",
+			say = "I want to have some fun too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喂！抚顺，不要给姐姐们添麻烦啊！",
+			say = "Fu Shun! Didn't I tell you not to cause trouble for people?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，鞍山还是这么认真呢",
+			say = "Ahahahah... You're as dead-serious as usual, An Shan.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们给大家带了逸仙蒸的肉包~一起吃吧~",
+			say = "I brought some meat buns Yat Sen made. Wanna eat some with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,12 +139,12 @@ return {
 		},
 		{
 			actor = 501040,
-			actorName = "太原&长春&鞍山",
+			actorName = "Tai Yuan & Chang Chun & An Shan",
 			bgName = "bg_story_school",
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "噢噢噢~~",
+			say = "Of course!",
 			subActors = {
 				{
 					actor = 501030,
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐姐的肉包子…好吃…",
+			say = "Yat Sen's meat buns are the best...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~呜~",
+			say = "Mmm~ Sho goooowd~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐姐的厨艺还是一如既往…好吃…",
+			say = "Yat Sen never disappoints with her amazing cooking... Mmm, it's delicious~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~",
+			say = "Heheheh, thanks~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可没有在夸你呢平海",
+			say = "She wasn't complimenting YOU, Ping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…总觉得好像忘了什么…",
+			say = "Hey... I feel like we're forgetting something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山你们本来不是在做什么有趣的事情吗",
+			say = "Fu Shun said you guys are up to something fun, is that what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！对了！涂色本！",
+			say = "Oh, right! We were filling in this coloring book!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

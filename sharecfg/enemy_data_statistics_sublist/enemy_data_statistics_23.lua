@@ -1,8 +1,155 @@
 pg = pg or {}
 pg.enemy_data_statistics_23 = {
+	[90687] = {
+		cannon = 0,
+		name = "Chitose",
+		type = 6,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90687,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "qiansui",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 6,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "qiansui",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.24,
+					1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.745,
+					1.131,
+					0
+				}
+			},
+			plane = {
+				{
+					1.723,
+					1.184,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90688] = {
 		cannon = 0,
-		name = "千代田",
+		name = "Chiyoda",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -149,7 +296,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90689] = {
 		cannon = 0,
-		name = "深雪",
+		name = "Miyuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -305,7 +452,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90690] = {
 		cannon = 0,
-		name = "羽黑",
+		name = "Haguro",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -461,7 +608,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90691] = {
 		cannon = 0,
-		name = "由良",
+		name = "Yura",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -618,7 +765,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90692] = {
 		cannon = 0,
-		name = "武藏",
+		name = "Musashi",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -772,7 +919,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90693] = {
 		cannon = 0,
-		name = "测试者",
+		name = "Tester",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -939,7 +1086,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90694] = {
 		cannon = 0,
-		name = "三笠",
+		name = "Mikasa",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1096,7 +1243,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90695] = {
 		cannon = 0,
-		name = "纪伊",
+		name = "Kii",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1253,7 +1400,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90696] = {
 		cannon = 0,
-		name = "土佐",
+		name = "Tosa",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1410,7 +1557,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90697] = {
 		cannon = 0,
-		name = "葛城",
+		name = "Katsuragi",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1557,7 +1704,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90698] = {
 		cannon = 0,
-		name = "小斯佩",
+		name = "Little Spee",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1713,7 +1860,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90699] = {
 		cannon = 0,
-		name = "甜品运输船",
+		name = "Candy Transport Ship",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1873,7 +2020,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90700] = {
 		cannon = 0,
-		name = "异世界自爆船",
+		name = "\"Truck Stand-In\" Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2019,7 +2166,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90701] = {
 		cannon = 0,
-		name = "雅努斯",
+		name = "Janus",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2175,7 +2322,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90702] = {
 		cannon = 0,
-		name = "曼彻斯特",
+		name = "Manchester",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2331,7 +2478,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90703] = {
 		cannon = 0,
-		name = "阿尔比恩",
+		name = "Albion",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2480,7 +2627,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90704] = {
 		cannon = 0,
-		name = "菲尔弗萨级驱逐-「Pawn」",
+		name = "Philuscha-Class Queen",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2642,7 +2789,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90705] = {
 		cannon = 0,
-		name = "菲尔弗萨级轻巡-「Knight」",
+		name = "Philuscha-Class Assassin",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2804,7 +2951,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90706] = {
 		cannon = 0,
-		name = "菲尔弗萨级重巡-「Bishop」",
+		name = "Philuscha-Class Knight",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2973,7 +3120,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90707] = {
 		cannon = 0,
-		name = "菲尔弗萨级战舰-「Rook」",
+		name = "Philuscha-Class Pawn",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3142,7 +3289,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90708] = {
 		cannon = 0,
-		name = "菲尔弗萨级航母-「Queen」",
+		name = "Philuscha-Class Rook",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3311,7 +3458,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90709] = {
 		cannon = 0,
-		name = "菲尔弗萨级自爆船「Buster」",
+		name = "Philuscha-Class Bishop",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3457,7 +3604,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90710] = {
 		cannon = 0,
-		name = "菲尔弗萨级潜艇「Assassin」",
+		name = "Philuscha-Class Buster",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3608,7 +3755,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90711] = {
 		cannon = 0,
-		name = "古代遗迹探索者",
+		name = "Ancient Ruins Conductor",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3764,7 +3911,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90712] = {
 		cannon = 0,
-		name = "古代遗迹追迹者",
+		name = "Ancient Ruins Chaser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3920,7 +4067,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90713] = {
 		cannon = 0,
-		name = "古代遗迹领洋者",
+		name = "Ancient Ruins Scavenger",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4076,7 +4223,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90714] = {
 		cannon = 0,
-		name = "古代遗迹破局者",
+		name = "Ancient Ruins Smasher",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4232,7 +4379,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90715] = {
 		cannon = 0,
-		name = "古代遗迹执棋者",
+		name = "Ancient Ruins Navigator",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4388,7 +4535,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90716] = {
 		cannon = 0,
-		name = "古代遗迹守护者原型机",
+		name = "Ancient Ruins Guardian Prototype",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4417,169 +4564,6 @@ pg.enemy_data_statistics_23 = {
 		scale = 210,
 		wave_fx = "movewave",
 		prefab = "lianjin_boss1",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.95,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.33,
-					0.8,
-					0
-				}
-			},
-			skill = {
-				{
-					0,
-					2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.43,
-							0.69,
-							-0.09
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.66,
-							2.54,
-							-0.41
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90717] = {
-		cannon = 0,
-		name = "古代遗迹守护者原型机-第二形态",
-		type = 5,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90717,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "lianjin_boss2",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 12,
-		luck = 0,
-		antisub = 0,
-		scale = 180,
-		wave_fx = "movewave",
-		prefab = "lianjin_boss2",
 		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
 		reload = 150,

@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你来了啊，{dorm3d}。今天有什么计划吗？如果没有的话，接下来就由我来为{dorm3d}安排一下吧？",
+			say = "You've arrived, {dorm3d}. Do you have any plans for today? If not, how about I help you make a schedule?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello1",
 			typewriter = {
 				speed = 0.05,

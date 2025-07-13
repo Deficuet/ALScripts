@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"你就是新来的指挥官吗？欢迎您加入碧蓝航线，接下来我将指引你完成基本教学!",
-	"首先,我们来建造新角色吧",
-	"先建造一艘<color=#ffde38>轻型舰</color>试试吧！",
-	"点击<color=#ffde38>开始建造</color>",
-	"材料充足，点击<color=#ffde38>确定</color>建造！"
+	"Are you the new Commander? Welcome to the world of Azur Lane. I'll be your teacher!!",
+	"First, let's build a new ship.",
+	"How about trying to build a <color=#ffde38>light ship</color> first?",
+	"Tap <color=#ffde38>build</color> to get started.",
+	"Once you've confirmed that you have enough resources, tap <color=#ffde38>confirm</color>!"
 }
 
 return {

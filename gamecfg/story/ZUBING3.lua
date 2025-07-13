@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>三 挥剑吧，{namecode:144}！</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 3: Ashigara, Strike!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日，从学院准备返回指挥室时，听到了{namecode:144}的声音——",
+			say = "Some time later... Ashigara's voice could be heard as one walked from the Academy back to the Command Office.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "接招！",
+			say = "Hiya!",
 			flashN = {
 				color = {
 					1,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，气势不错！",
+			say = "Good, you have a nice tempo!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，还不够！你的能力应该还不止这些吧！",
+			say = "But not good enough! Surely you can still do better than that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 303090,
-			say = "看这下如何！哈啊——！",
+			say = "Then how about this? Hiyaaa-!",
 			flashN = {
 				color = {
 					1,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以啊，比刚刚更有威胁了啊……嗯？",
+			say = "Excellent! That's even more fierce than... huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有破绽！",
+			say = "You're wide open!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -219,7 +219,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟了！",
+			say = "What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "啪——",
+			say = "Clang!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的对练就到此为止吧。{namecode:144}，你进步了许多呢",
+			say = "Let's call it here for today's training. Ashigara, you've improved a lot.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -289,7 +289,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等，{namecode:63}姐，我还可以继续——",
+			say = "W-wait, Myoukou... I can keep going-",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "练习量已经到了，再勉强自己的话可是会起反效果的。好好休息吧。",
+			say = "You've already pushed yourself today. Any more, and it will become counterproductive. Go, you've earned your rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……我知道了。",
+			say = "...I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，正好我这次调制了新的精力饮料——",
+			say = "Ah, before I forget, I just cooked up a new energy drink-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位都辛苦啦~正好我带了喝的过来了，不用客气随便享用吧。{namecode:63}的特制饮料还是留到下次吧。",
+			say = "All right, all right, you've both worked hard. I already bought some drinks for the two of you. Myoukou, why don't we set aside your special energy drinks for ever... I mean, for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = ".......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:64}姐，谢谢了！",
+			say = "Nachi, thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，{namecode:144}，我听说你前段时间给指挥官添了不少麻烦——",
+			say = "By the way, Ashigara, I heard that you had a rough time as secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶诶？你，你是怎么知道的——",
+			say = "Ehh? H-how did you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:144}遇到了什么事情，心里在想些什么，好像都不怎么愿意和别人说呢。",
+			say = "Ashigara, whenever you're worried about something, or have something on your mind, you always seem to close off from others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是这样下去再给指挥官添麻烦的话，好像不太好吧？而且……{namecode:63}居然也没注意到呢。",
+			say = "I had to speak up because it would be troublesome for you to keep inconveniencing the commander. And of course, Myoukou didn't notice as usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看指挥官没什么表示，就以为工作进行得很顺利……抱歉，是我疏忽了",
+			say = "Commander didn't say anything, so I thought everything was fine... Sorry, I didn't notice it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，之后我会详细教你有关秘书舰的工作诀窍的。不过，要做好辛苦点的心理准备咯",
+			say = "But don't worry, I'll give you some tips on how to do secretary work. Of course, you'll have to focus though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "噢噢！明白了！我也不想再给指挥官添麻烦了，我会加油的！",
+			say = "Myoukou, Nachi... I understand now! Because I also don't want to cause further trouble for Commander, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "训练内容又额外多了一项，然而{namecode:144}脸上却带着期待的神情",
+			say = "Though Ashigara's training regimen had just increased, she nevertheless had an expectant look on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

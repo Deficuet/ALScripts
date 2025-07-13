@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华裳巧展喜事长\n\n<size=45>被夺走的珍宝</size>",
+					"Spring Fashion Festa\n\n<size=45>1 Stolen Treasure</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "港区·公园内——",
+			say = "Port - Park",
 			bgm = "theme-china-jianwu",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "飞云，伏波！抓到你们啦！该你们当鬼啦——",
+			say = "Fei Yuen, Fu Po! Caught you! You're it now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "嘘——！小声点！",
+			say = "Shh! Pipe down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别鬼不鬼的了，快看那边——",
+			say = "Forget about being it! Look over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "我们可能要发现劲爆的秘密计划了哦！嘿嘿嘿~！",
+			say = "I think I've caught wind of some super-duper secret project!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么什么！我也来看看！",
+			say = "Wait, for real?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "快躲进草丛里，别被发现啦——",
+			say = "Hide, quick! It's over if they see you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "飞云与伏波一左一右将抚顺拽入了灌木丛中，而后三人一同看向了从远方走来的另一群人。",
+			say = "Fei Yuen and Fu Po pulled Fu Shun into the bushes and hid. They concentrated on the group of people walking in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们的东西都在建武那里……",
+			say = "Hmm... All our stuff is over at Chien Wu's place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "收集它们也花费了不少精力……",
+			say = "Getting them took so much work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事到如今也没办法了……毕竟那样珍贵的……也只有建武了……",
+			say = "Well, whining about it won't help... Something so precious... Only she has that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那只能等时装秀那天的结果了……",
+			say = "It seems all we can do is wait for the show...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我们先回去吧……还有需要……",
+			say = "Yeah, let's go back... Still so much to do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "几人心事重重地走远了。",
+			say = "With long faces, they turned around and left the scene.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "唔……飞云大人听不清她们说什么欸！我们能再靠近一点吗？",
+			say = "Ugh... Lady Yuen couldn't hear a word of what they said! Let's get closer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再近的话会被发现的！别小看她们的警惕性啊！",
+			say = "No! Any closer and they'll see you! Their guard is up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不管怎么说，你看她们偷偷摸摸的样子，肯定藏着什么不为人知的秘密，哼哼！",
+			say = "Fiiine... Did you see how they were sneaking around? That's suspicious! I bet they're hiding something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我听到了“花费了不少精力”，还有“东西都在建武那里”……",
+			say = "They said something about getting stuff, and it was all over at Chien Wu's place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听上去好像是在说珍宝的事啊……",
+			say = "They must've been talking about some kind of treasure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,42 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "抚顺望着可畏一行人离开的方向，露出了严肃的表情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "原来是这样，也就是说……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			say = "腾——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			say = "抚顺猛地从草丛里站起，头发中还夹杂着掉落的枯草。",
+			say = "Fu Shun adopted a serious expression while she watched the group of girls leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +372,29 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "建武大魔王夺走了大家的珍宝！",
+			say = "Hmm... I get it. That's how it is...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			say = "WHOOSH!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			say = "Caring little about the dry grass caught in her hair, Fu Shun leaped like a tiger out of the bushes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +407,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们一定要打倒她，夺回大家的珍宝——！",
+			say = "The dastardly supervillain Chien Wu must've stolen their treasure!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We've got to defeat her and take all the treasure back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊？这个听起来很好玩的样子！",
+			say = "Really? That sounds like fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "不、不是……我是说，对！我们一定要帮大家夺回珍宝！",
+			say = "Err, I mean... Agreed! We must reclaim that which has been stolen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "对了，飞云大人刚刚还听见她们提到了时装秀那天……",
+			say = "Right! And they said something about a show...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时装秀那天……我记得是两天后？",
+			say = "A show... Maybe they meant the port fashion show that's in two days?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想想……与时间有关的话……",
+			say = "Then time must somehow be a factor in this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "难道是在时装秀那天，大家的珍宝会彻底成为建武的所有物？！",
+			say = "Oh no... Is the stolen treasure going to fully become her property when the fashion show starts?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那留给我们的时间不多了，必须现在就采取行动——！",
+			say = "If so, there's no time to waste! We've got to take action now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等！",
+			say = "Hold your horses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "伏波慢悠悠地起身，托着下巴，语重心长。",
+			say = "Fu Po slowly stood up and thoughtfully put her hand under her chin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "咳咳、所谓多算胜，少算不胜，而况……而况于……呃……后面的不重要！",
+			say = "Ahem... In vain does the archer shoot his arrow before he aims – something-something success, the rest doesn't matter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个“算不算、胜不胜”什么意思？",
+			say = "What? What does archery have to do with anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "嘿嘿嘿，这你们就不懂了吧~！意思就是——要有周密的计划才能取胜！",
+			say = "Of course a layman doesn't get it. What I'm saying is: If you want to succeed, you have to think ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "所以，这次行动，我们必须先做周密的计划——！",
+			say = "That is to say, we must plan out this mission and not just rush in blindly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "喔喔！飞云大人赞成！",
+			say = "Ooh! Lady Yuen agrees!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，在周密的计划之前，还有更重要的事情——",
+			say = "Hang on! If we're going on a mission, then there's something even more important than the plan itself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——给这次行动取个名字！",
+			say = "First of all, this mission needs a name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔~也是，计划书上也得有个标题。",
+			say = "Hmm. True! Every good mission deserves an epithet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就叫——",
+			say = "Then I dub thee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「打倒建武大魔王夺宝大冒险」!",
+			say = "The Great Adventure Where We Topple Chien Wu and Take Back the Treasure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "好耶！是大冒险！",
+			say = "Hooray! An adventure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大冒险~！",
+			say = "Yeah! Adventuuure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "怎么又变成大冒险了啦！！算了，这不重要……",
+			say = "Who decided that it's an adventure now? Bah, doesn't matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我马上就去做计划，我们晚点联系！",
+			say = "I'm going to hatch a plan now! I'll call you when I'm finished!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等你——！",
+			say = "Good luck, our mastermind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

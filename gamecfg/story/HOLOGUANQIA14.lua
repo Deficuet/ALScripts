@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "holo-control-inst",
 			dir = 1,
-			say = "那边的箱形白色建筑就是holomart了，平时我们在仓库中囤积了各类道具，是收集补给品的最理想地点！",
+			say = "That white building is the Holomart. We store all our tools and stuff in there, so it's the best place to start if we wanna get resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于刚才提到的这些补给品，我有一点不理解的事。",
+			say = "Actually, I have a question about these supplies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才因为各种各样的事，没来得及自我介绍！",
+			say = "Whoopsie, I never formally introduced myself!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在重新介绍一下！大家好，初次见面，我是hololive所属虚拟女仆，湊阿库娅！",
+			say = "It's nice to meet you (again.) I'm Minato Aqua, Hololive's local virtual maid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然是女仆却并不擅长家务，不过如果是玩游戏的话，我可是超级擅长哦！！！！！！！！！",
+			say = "But just because I'm maid doesn't mean I'm good at housekeeping, that's a stereotype! Video games, however, you bet I am!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以下是来自阿库娅的特别补给品收集小贴士！",
+			say = "Not much makes sense in this world I've been thrust into, but I can tell you what I DO know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "在这个异常化的holo服务器中，除了原本就存在的食物、水、药品等道具，不知为什么，舰船能使用的各类补给品也散落在整个服务器中！",
+			say = "We kept water, food, and medicine stockpiled in our hideout back in the Hololive Server, which have all carried over, but for some reason we've also got ammunition that conveniently works with our riggings just lying around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "但是，有一样更重要的东西，那就是，TNT！这里的TNT和原本世界服务器里的那些TNT相比，在爆炸威力上完全不是一个等级！！！",
+			say = "That, and blocks of TNT. They work slightly differently compared to back on the Hololive Server, but they still explode just as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "哼哼哼，还好我以前事先在服务器的各处角落都埋藏了大量TNT，没想到这次居然能派上用场……",
+			say = "Back then I figured I'd need them at some point, so I hid stores of them all over the place, although I'm not sure if they're still there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，好像现在异常化的服务器里不知为何，也会自然生成少量TNT！",
+			say = "Anyhoo, this place you call a \"Mirror Sea\" seems to be similar to the Hololive Server in a lot of ways!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "TNT可是整个holo服务器中最强力的道具，大家一定要大量收集哦！！！！！！！！！！！！！！！",
+			say = "And since blocks of TNT are the most powerful item available on the Hololive Server, I suggest you collect as much of it as you can!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "食品药品倒不必说，矿物也许是塞壬制造舰装会用到的材料，可是TNT是…？",
+			say = "From what I understand based on Fubuki's explanation, Hololive is a talent agency that recruits and oversees \"Vtubers,\" as she called them.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么服务器里会有大量TNT也是很奇怪，根据吹雪小姐的，你们是一个，唔…偶像会社…？",
+			say = "So, if you are performers of some sort, why do you have massive amounts of TNT lying around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "偶像会社呢…",
+			say = "\"Talent agency\"... I mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "TNT的事解释起来稍微有些复杂。总之在这里，TNT是最常用的破坏道具，你看到的这些建筑基本都有它的功劳哦。",
+			say = "Don't worry about the TNT too much, just think of it as an everyday item! We need it to construct buildings, you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然用大量TNT来造房子么？和平年代还真是奢侈啊…既然是大威力的杀伤武器，我不反对多收集一些。",
+			say = "You build houses out of dynamite...? What a peaceful world you come from if explosives make the foundations of your buildings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……虽然感觉理解有些偏差，不过就当是这样吧！",
+			say = "Uhh... sure! Let's not worry about the details and just focus on the big picture!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在整片区域都被塞壬前锋部队控制了，要收集物资，首先要清理出一条道路才行。",
+			say = "But, if we're to collect this TNT as we supposedly should, we'll need to clear out the Sirens in the area first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "没问题~夏色祭，全速出航~！",
+			say = "That's easy peasy~ Let's rev up our engines and do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

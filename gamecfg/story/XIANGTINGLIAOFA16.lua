@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>“我们是在昨日黎明时分发现莫比·迪克的，而现在，又一个黎明到来了”</size>",
+					"<size=51><I wonder if something like that white whale, Moby Dick, really existed...></size>",
 					1
 				},
 				{
-					"<size=51>“今日的黎明和昨日的别无二致，只是，我们现在跟丢莫比·迪克了”</size>",
+					"<size=51><Yes, that story of the men who chased after it, a story filled with their expectations, their hope and their despair.></size>",
 					4
 				},
 				{
-					"<size=51>“当然，所有人都明白，我们和莫比·迪克一定会再见面的”</size>",
+					"<size=51><But we are not like them. In our story, there is no doubt that Moby Dick will be found.></size>",
 					7
 				},
 				{
-					"<size=51>“否则这篇故事将无法收场”</size> ",
+					"<size=51><After all, our story would never end if that was not the case.></size> ",
 					10
 				},
 				{
-					"<size=51>“而故事，不论喜剧，还是悲剧，都应该有属于它的结尾”</size>",
+					"<size=51><And all good stories - whether comedy or tragedy - must have closure.></size>",
 					15
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgName = "bg_xiangting_3",
-			say = "轰————",
+			say = "Combat Zone - Bermuda Triangle",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -92,7 +92,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们上当了…",
+			say = "Ugh... We've been had...! This was the Sirens' trap after all!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -147,7 +147,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里从一开始就是陷阱——",
+			say = "Victorious! Shangri-La!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第十一、十七特混舰队联络中断！",
+			say = "We've lost communication with Task Force 11 and Task Force 17!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人数量远超侦查情报的数倍！",
+			say = "The enemies are several times more numerous than the intelligence report claimed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们被包围了…",
+			say = "We've been completely surrounded...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			say = "轰———",
+			say = "KABOOM---!!",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			say = "稍早之前 纽约港",
+			say = "NY City - Wharf",
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢各位可以快速响应作战集结，现在由我代替指挥官为大家做本次行动的任务简报。",
+			say = "I must first extend my gratitude to each and every one of you for arriving in such a timely manner. I'll now explain the next phase of the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正如大家所知，在一周前，塞壬主力部队偷袭了纽约港。",
+			say = "As we all know, the Sirens laid siege to NY City just a week ago. Currently, many of our port facilities are still disabled from the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "包括我在内的多支巡逻舰队均因塞壬的阻碍拖延在外未能及时回援，截至目前纽约港大部分设施依然处于瘫痪状态…",
+			say = "However, due to the tenacity of our brave defenders and Commander's effective leadership, the damages ended up being a lot lighter than they could have been.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸亏防御部队的奋战和指挥官的有效指挥，本应十分惨重的伤亡才被最大限度的避免了。",
+			say = "During the time of the attack, many of us, including Cleveland and myself, were unable to come to the defense of the harbor due to jamming of our communication networks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是，即便集中资源全力修复，预期完全修复纽约港依然需要三个月以上的时间。",
+			say = "In addition, we cannot ignore the reality that the Sirens managed to disable and bypass our radar system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在此期间，由于长岛防线的毁灭，基地正毫无保留的暴露在敌方的攻击范围之内…",
+			say = "Given the status quo, the harsh reality is that we cannot deal with another potential large-scale attack from the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因而指挥部决定推迟原定举行的“重要会议”及后续作战计划。",
+			say = "As such, Headquarters has submitted a proposal - that we take the fight to the Sirens' forward base instead of waiting for our destruction. Commander has accepted this as our best plan of action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在纽约港事件后的第二日，司令部观察到原本平静的百慕大三角海域上空被突然出现的厚重乌云笼罩。",
+			say = "We've determined that the most likely location for the Sirens' forward base is in the Bermuda Triangle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与此同时，海域中心开始向外辐射高强度的电磁信号。",
+			say = "There is ample evidence to support this conclusion. When the Sirens' attack began, a dark cloud was spotted forming over that area, covering the surface of the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各种情况均与此前北方联合境内出现“王冠”前的征兆吻合。",
+			say = "Additionally, strong electromagnetic readings have been detected from that area, similar to when the \"Winter's Crown\" formed near the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点“王冠”的存在几乎拖住了北方联合的全部舰队。如果白鹰本土附近再出现一处奇异点的话，现在本就岌岌可危的战线将陷入全面崩盘。",
+			say = "Given what we know about the Winter's Crown, and the enormous manpower it took to suppress that situation, we can conclude that if a similar situation were to occur here, NY City would be in grave peril.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人已兵临城下，比起坐以待毙，是时候主动出击了。就算这是一个陷阱，我们也别无选择。",
+			say = "The primary goals of our operation are to find and destroy the Sirens' main base, secure the maritime routes around NY City, and finally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，胜利女士曾经在参与剿灭铁血舰队的任务中经历过“王冠”的出现，请她向各位分析一下“王冠”的现象。",
+			say = "Victorious, please explain what a \"singularity\" is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…贵安，各位白鹰的战士们，我是来自皇家的光辉级航空母舰，胜利号，也被你们称为“罗宾”，非常荣幸能和大家并肩作战~",
+			say = "I am Victorious, a carrier from the Royal Navy. I accompanied Commander to NY City in order to participate in a strategic meeting. Some of you might know me as \"Robin.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然曾经离开本土作为皇家友谊的象征来到白鹰时有过诸多不习惯之处，但是多亏了有萨拉老师和大家的支持…",
+			say = "Anyways...! I'm a representative of the Royal Navy. During this operation, I will be joining as an advisor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……任务简报，说重点",
+			say = "Ahem... Victorious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊不好意思~",
+			say = "Ack! My apologies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…所谓的“王冠”呢，似乎就是一种特别强大的脉冲放电现象…我在北方海域行动时曾在较远的距离上经历过。",
+			say = "Um, the Winter's Crown... The best way to describe it is as an area of anomalous weather, similar to the Mirror Seas. I first encountered one during an operation in the north.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仅仅是远距离观测，舰队半数的无线电通信就都发生了问题，各类电子设备也都受到了不同程度的影响。",
+			say = "Even from a distance, we experienced significant electromagnetic disruption to our communications equipment. About half our fleet lost radio contact temporarily, and a variety of other electronic equipment was also affected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这种情况下，瞄准、攻击等行为均会变得十分困难，能依靠的只有丰富的实战经验了…",
+			say = "Without being able to utilise radar, it became very difficult for us to control our aircraft. We had to rely on experience - and at times, sheer luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于如果被卷入其中的话…很可能就会彻底消失吧……",
+			say = "We attempted to conduct reconnaissance operations inside the Crown, but we would lose our seaplanes as soon as they entered, as if they were getting absorbed the expanding cloud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们曾经数次派出探测器进行实验，无一例外的都失去了信号，甚至连残骸都没见到过…",
+			say = "However, what we see here in the Bermuda Triangle is slightly different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以不论如何，必须赶在其完全成型前，歼灭正在制造奇异点的塞壬舰队！",
+			say = "We are still able to see into the area, meaning that we will be able to visually confirm any combat that happens inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…以上~",
+			say = "In other words, we will approach from here⁠—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次作战除了在座的各位，由埃塞克斯带领的第三特混舰队，和巴尔的摩带领的第四特混舰队也将从其他方向切入百慕大三角内。",
+			say = "If we destroy the core, we will be able to stop a full-fledged singularity from forming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从时间来看，应该已经正式出发了。",
+			say = "In this mission, Essex, Baltimore, and I will each lead a fleet into the Bermuda Triangle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，最后总结一下，本次“BM作战”的目的是，从三个方向突入百慕大海域，击溃塞壬，阻止“奇异点”的诞生。",
+			say = "Our final objective is to stop this singularity from forming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由于此时百慕大三角内强烈的的电磁干扰现象，本次作战指挥官将会同我们一起前往，请务必确保指挥舰的绝对安全。",
+			say = "In addition, Commander will directly be leading us from one of the ships, actively supporting our efforts on the front line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_xiangting_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "期待各位出色的表现，天佑白鹰！",
+			say = "Everyone, I wish you the best of luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			},
 			options = {
 				{
-					content = "“BM作战”正式开始，全舰队出击！",
+					content = "Operation Somers shall now commence!",
 					flag = 1
 				}
 			}

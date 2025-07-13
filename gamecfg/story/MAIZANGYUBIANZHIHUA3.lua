@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>重樱大结界</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>3 The Prime Barrier</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_532",
 			hidePaintObj = true,
-			say = "太阳即将落山之际，{namecode:88:瑞凤}的车辆终于离开了八云山。",
+			say = "As the sun set on the horizon, Zuikaku and Zuihou left the holy mountain's periphery.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "{namecode:96:瑞鹤}姐姐，到这里你就能安全下车啦。",
+			say = "Okay, you're in the clear now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恭喜你，完成了八云山上潜入一日游~",
+			say = "I hope you enjoyed touring the holy mountain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……今天真是多谢你了。",
+			say = "Uh, yeah, ahaha... Thanks for everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天色不早了，我打算直接回家，{namecode:96:瑞鹤}姐姐呢？",
+			say = "Nighttime is coming soon so I'm gonna go home. What about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的话……",
+			say = "Umm, I'm gonna...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（糟糕……我是偷偷留下来的，大前辈的宅邸是无论如何也不能去的。）",
+			say = "(I can't just go back to Mikasa's place now since I snuck out of Mutsu's house.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（自己家也不能去……）",
+			say = "(Going home would also raise suspicions, since Shoukaku is on a sortie in the Solomons.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:75:陆奥}宅距离太远，连夜走山路回去还不如露宿街头……）",
+			say = "(There's no port near here, either. Even if there was, I have no excuse for being all the way out here!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（等、等等，不会真的要流落街头了吧……！）",
+			say = "(Is sleeping outside my only option? Do I really have to spend the night in the middle of nowhere?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_532",
 			hidePaintObj = true,
-			say = "看着{namecode:96:瑞鹤}脸上阴晴不定的表情，冰雪聪明的{namecode:88:瑞凤}对于当前事态已经猜出了八分。",
+			say = "Zuikaku's expression grows increasingly nervous. Zuihou notices and flashes a sweet smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "嘿嘿~我可是听说{namecode:74:长门}大人早就已经出航了，可是为什么{namecode:96:瑞鹤}姐姐还留在本岛？",
+			say = "Hey, how come you're still on the mainland, anyway? Didn't Lady Nagato's fleet leave earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道——{namecode:96:瑞鹤}姐姐是偷偷留下来的，所以接下来没有地方落脚了么？",
+			say = "Did you sneak off and now you've realized there's nowhere for you to go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳、我是奉了{namecode:74:长门}大人的命令，留下来照顾生重病的{namecode:75:陆奥}大人的，所以出发时间需要延后一些！",
+			say = "No, I didn't sneak off, honest! It's just that Mutsu fell ill and I was tasked with looking after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔，照顾{namecode:75:陆奥}大人啊——",
+			say = "Ohh, she fell ill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_532",
 			hidePaintObj = true,
-			say = "{namecode:88:瑞凤}一本正经地向着远在天边的{namecode:75:陆奥}宅所在方向瞄了一眼。",
+			say = "Zuihou looked in the general direction of Mutsu's house.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳、咳咳……",
+			say = "Anyway, that doesn't matter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那{namecode:96:瑞鹤}姐姐要不要来我家休息呀？",
+			say = "I know! How about you stay at my house?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的可以么？！",
+			say = "Really? You'll let me do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "嗯嗯~之前{namecode:89:凤翔}姐姐在给我修宅子的时候，修了一个特别特别大的……我又推辞不掉。",
+			say = "Chirp, chirp! Yeah! Houshou gave me a house, and it's really, really big!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以家里有好多好多空房间……平时{namecode:90:龙骧}她们玩累了之后都是直接住我家的，也欢迎{namecode:96:瑞鹤}姐姐来玩~！",
+			say = "It has lots of empty rooms which my friends use when we have sleepovers. You can stay, no problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此……那就打扰了！",
+			say = "You're a lifesaver. Please show the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "又过了一段时间，车辆在一个巨大的院落前停了下来。月光照耀着大门，看起来格外有气势。",
+			say = "The moon shone brightly overhead as the two arrived at the house. Already from just the door, it was clear this was a majestic building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}姐姐，下车吧，我们到家了~",
+			say = "Here we are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是……你……家？看上去和{namecode:82:三笠}大前辈的宅邸一样气派啊……？！",
+			say = "THIS is what your place looks like?! It's basically as big as Mikasa's mansion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "欸嘿嘿……{namecode:89:凤翔}姐姐非要修这么大嘛……",
+			say = "Heehee. Houshou insisted that it had to be this big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，天色不早了，我们快进去吧。",
+			say = "Chirp! Look at the time. Let's go inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "家里有好多食材呢，我要拿来好好招待一下{namecode:96:瑞鹤}姐姐~",
+			say = "I'll make dinner for you! I can't let any guest of mine go hungry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "此刻，{namecode:88:瑞凤}正在开开心心地准备晚饭，{namecode:96:瑞鹤}则在庭院中闲逛着。",
+			say = "While Zuihou cooked in the kitchen, Zuikaku took a stroll around the garden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "花园里的花，种类真不少，能看出来平日里被照顾的也很好……",
+			say = "(This garden is well cared for. Look at all these flowers...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是……盛夏时节，本应该是百花齐放的时候……",
+			say = "(Wait... Why have so many of them withered? I thought these varieties bloom during the summer?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么花会枯萎了那么多……？",
+			say = "(That's weird... The garden looks tip top, but the flowers don't...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:96:瑞鹤}姐姐，准备吃饭啦~花园里的花怎么样，我可喜欢了，好看吧？",
+			say = "Dinner is ready! How do you like my flowers? Aren't they pretty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "白天虽然能看得更清楚，不过就着月光欣赏也是别有一番风味哦~",
+			say = "I think they look pretty good both in the sunlight AND the moonlight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这些花，你还是来亲自检查一下比较好……",
+			say = "Uh, I don't know if you noticed, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "欸……？！怎么会这样！我昨天离开的时候花园还是好好的呢……",
+			say = "What?! What happened to my flowers? They were blooming just yesterday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "怎么一天不见就，枯萎了那么多……",
+			say = "Can flowers even wither that quickly? They can't, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实刚才在路上的时候，我看到了不少野花枯萎的情况。",
+			say = "That reminds me – I saw a lot of withered plants back at the mountain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时没往心里去，不过看到你花园里的情况……果然这算是异常现象吧。",
+			say = "I didn't think much of it then. Now, though... Something's clearly up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……不光是我家，连路边的野花都枯萎了……难道说，是「重樱大结界」出现问题了么？",
+			say = "So it's not just my flowers... I wonder if something happened to the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“重樱大结界”？",
+			say = "The what? What's the \"Prime Barrier\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是那个笼罩重樱群岛，一直守护着我们的永久大结界啊？",
+			say = "It's the great, eternal barrier that covers the Sakura Islands and protects us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像……是听{namecode:74:长门}大人提起过。",
+			say = "Huh. I might've heard about it from Lady Nagato, but I'm not sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "欸，看来{namecode:96:瑞鹤}姐姐平时是完全不关心这些事啊，那不知道也就不奇怪了。",
+			say = "Chirp. I guess you have selective attention, but that's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「重樱大结界」保护着重樱群岛的陆地、海洋与天空，是我们抵御外部威胁的第一道防线。",
+			say = "The Prime Barrier covers the entirety of the country, protecting it from outside threats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "除此之外，大结界还有暗中调节岛屿天气的作用，比如瓦解可能出现的暴雨云，或者在干旱的地方增雨等等……",
+			say = "I've heard you can adjust it to change the weather, block out storms, and even make it rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "群岛之上一直风调雨顺，其实就和大结界脱不开关系哦。",
+			say = "Basically, it's a super-duper important barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我真不知道还有这种事，保密的也太好了吧！",
+			say = "I had no idea that existed! Is it top-secret or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "这些事确实是只有到{namecode:79:山城}姐姐的级别才能知道啦……",
+			say = "Hmm... I dunno. I'm pretty sure Yamashiro and others of her rank know about it, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那你是怎么知道的？",
+			say = "Uh-huh... So how come you know about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:79:山城}姐姐告诉我的！",
+			say = "Yamashiro told me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我就该想到的。",
+			say = "Thought so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，等等……那{namecode:74:长门}大人以前在御神木的工作……难道也和这个大结界有关？",
+			say = "Hang on, does that barrier have anything to do with the rituals Lady Nagato performs with the Sacred Sakura?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，有关哦，毕竟{namecode:74:长门}大人是重樱的神子嘛。不过现在，大结界的维护工作明面上是由{namecode:83:大和}大人负责的。",
+			say = "Yup. She IS the guardian fox, you know. Officially, though, Yamato is in charge of maintaining the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明面上？",
+			say = "Officially?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:83:大和}大人一直在天岩户闭关，而维持大结界的神木都在天岩户之外，{namecode:83:大和}大人要怎么亲自管理嘛！",
+			say = "Well, in practice, Musashi is the one who handles the barrier, because Yamato can't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "所以，实际上的管理工作都是由{namecode:84:武藏}大人负责的~",
+			say = "Yamato lives in seclusion in Heaven's Gate, and the Sacred Sakura that maintain the Prime Barrier are all located OUTSIDE Heaven's Gate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……所以你认为花朵出现大面积的异常枯萎，是因为大结界的调节功能出现了失衡？",
+			say = "Okay, so let's wind this back... You're saying you think the flowers withered because the Prime Barrier malfunctioned?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~不过看上去只是小故障，应该很快就能修好啦。",
+			say = "Mhm! It should be back in working order soon, so it's nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是……可怜这些花了。明明正是盛放的时节呢……",
+			say = "I feel bad for the poor flowers, though... This was their time to bloom... Chirp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -880,7 +880,7 @@ return {
 			actor = 306060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:88:瑞凤}，你在么，我来找你玩啦！",
+			say = "Zuihou, are you home? I have come to hang out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:90:龙骧}……？{namecode:96:瑞鹤}姐姐，你留在这里的事是不是需要保密……？",
+			say = "Oh, I think that's Ryuujou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不你先去躲一下？",
+			say = "You're not supposed to be here, right, Zuikaku? You should go hide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "{namecode:96:瑞鹤}无声地比了一个OK的手势，然后闪身躲入了一间偏房中。",
+			say = "Zuikaku answered with a quiet nod, then slid the sliding door aside and hid in the room next to the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，我在家，这就来给你开门哦~",
+			say = "I'm home! Just a minute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}，吾等了一天，你终于回来了！",
+			say = "Finally, you're back, Zuihou! I waited the whole day for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -973,7 +973,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，八云山好玩么？",
+			say = "Did you have fun visiting Yakumoyama?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "风景还是和以前一样美，不过我在路上遇到了些更有趣的事呢~",
+			say = "It was beautiful! Though it wasn't really that fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？……你等了我一天？",
+			say = "...Wait, you waited the whole day for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你今天不是有出海训练的任务么？",
+			say = "Didn't you say you had a mission today? Something about special training out at sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1027,7 +1027,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "别提了……任务取消了。吾等在准备出发前突然收到了命令，要求所有人都不许出海。",
+			say = "I did... The mission was canceled at the last minute. I was only told that I was not to set sail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,7 +1040,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾觉得奇怪就去打听了一下，结果发现不光是军舰，就连民用船只、甚至渔船都不行……",
+			say = "I thought it strange, so I asked around. Apparently, it wasn't just us shipgirls that were forbidden from sailing – civilian ships were, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "吾感觉你可能有办法打听一下到底出了什么事……所以就赶紧来找你了！",
+			say = "So, I went straight to you to ask if you knew anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "对了，{namecode:96:瑞鹤}小姐呢？",
+			say = "Incidentally, has Zuikaku paid you a visit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}……小姐？",
+			say = "Z-Zuikaku? Um, err...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "对啊，吾看到你们一起进门的，怎么没见她人？",
+			say = "I'm only asking because I saw her accompanying you inside. Is she still here, by any chance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,7 +1108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:90:龙骧}……你等了我一天……该不会是字面意义上的“等”吧？",
+			say = "Wh-what? So when you said you waited for me the whole day, you meant you waited right outside my house?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1122,7 +1122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "不错！吾一直都在门前的那片灌木丛中等你归来！",
+			say = "Precisely! I hid behind the bushes and awaited your return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}姐姐……正在准备晚餐，你先去餐厅等我们，一会边吃边聊吧。",
+			say = "Zuikaku is, uhh... making dinner. Come inside and we'll talk over some food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,7 +1161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}姐姐在我家这件事，千万不要对其他人说哦！",
+			say = "Also, you must not tell anyone that Zuikaku was here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "得令！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1191,7 +1191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "眼见行踪已暴露，{namecode:96:瑞鹤}也失去了继续隐藏的必要。",
+			say = "With her cover blown, Zuikaku had no choice but to come out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1219,7 +1219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "三位少女一边吃饭，一边交流着本日的所见所闻。",
+			say = "The three sat down around the dinner table and discussed what they saw today while they ate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1232,7 +1232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大结界如果出现轻微故障，会因此禁止所有人出海么？",
+			say = "Nobody was allowed to leave, eh... I can see why the Prime Barrier malfunctioning would lead to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1245,7 +1245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝对不会……大结界已经运行了多年，小故障也是偶有发生，影响不大的话很快就可以修好了。",
+			say = "But the barrier has been running for ages, and any minor problems with it were fixed right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1259,7 +1259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "可是从未出现过封锁海岸禁止任何人出海的事……",
+			say = "It's never resulted in all ships being prohibited from sailing out to sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1272,7 +1272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……那个什么大结界可能出现了相当严重的问题？",
+			say = "Then perhaps it was not a minor malfunction, but rather a major one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1285,7 +1285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我也说不好了。",
+			say = "I have no idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1298,7 +1298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有什么办法能去直接检查一下么？",
+			say = "Is there any way to determine what's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1311,7 +1311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大结界出现的问题究竟有多严重，我们去亲眼看一下不就清楚了？",
+			say = "I think the fastest way would be to go there ourselves and see what's up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,7 +1324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "办法是有的……不过我没有去检查的权限。",
+			say = "Sure... The problem is, I don't have access to the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1338,7 +1338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "……对了，{namecode:79:山城}姐姐就住在附近，她有检查大结界的权限。",
+			say = "Buuut... Yamashiro does!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1351,7 +1351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去拜托她的话，她肯定不会拒绝的！",
+			say = "She lives nearby, and she probably won't tell us no if we all ask her together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1364,7 +1364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:79:山城}……不是一直和{namecode:91:赤城}前辈同近同退么……）",
+			say = "(Hmm... Yeah, if anyone knows about barriers, it's got to be Yamashiro.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1377,7 +1377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（要是我去拜托她，她肯定不会帮我的忙，欸……）",
+			say = "(Although, there's the risk that she'll let it slip to Akagi that I stayed behind on the mainland...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1390,7 +1390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？怎么了，{namecode:96:瑞鹤}姐姐？",
+			say = "Zuikaku? Is something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1403,7 +1403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么啦~我只是在想今天天色已晚，要不然我们明日再去拜访吧？",
+			say = "No, it's nothing. Let's talk to Yamashiro tomorrow since it's so late now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1416,7 +1416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我也是这么想的~",
+			say = "Sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1430,7 +1430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "那今晚——就是属于吾等的时间咯？",
+			say = "Then I suppose we have the night all to ourselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1444,7 +1444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "虽然去访客为时已晚，但是玩游戏的话，时间可是刚刚好的！",
+			say = "If we can't visit Yamashiro, we can still play games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1458,7 +1458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "{namecode:85:飞鹰}和{namecode:86:隼鹰}不是也住在附近么。",
+			say = "Zuihou, shall I call over Hiyou and Junyou to join us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1472,7 +1472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "现在不能出海，大家都没事做。要不要把她们叫来，吾等一起热闹一下？",
+			say = "I believe they're sitting idle at the moment, and the more the merrier, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1485,7 +1485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好呀！唔……不过，{namecode:96:瑞鹤}姐姐……",
+			say = "Good idea! Wait... Are you okay with that, Zuikaku?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1498,7 +1498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦……反正明天见到{namecode:79:山城}之后，我偷偷留下的事也就人尽皆知了。",
+			say = "I don't mind. When we visit Yamashiro tomorrow, the cat will be out of the bag anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1511,7 +1511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多一个帮手多一份力，说不定之后的调查还需要她们帮忙呢，叫她们来一起玩吧。",
+			say = "Plus, I might need their help with my investigation later. Now's a good time to befriend them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1525,7 +1525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "……嗯？偷偷留下来？调查？你们在说什么事？",
+			say = "Pardon? What do you mean, \"the cat will be out of the bag\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1538,7 +1538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么啦，快去叫{namecode:85:飞鹰}和{namecode:86:隼鹰}吧，我来好好想想五个人一起玩什么~",
+			say = "It's nothing important! Go ahead and invite them over. I'll pick out a game for us to play meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1552,7 +1552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306060,
-			say = "好！吾去去就回！",
+			say = "Very well! I shall be right back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1588,15 +1588,15 @@ return {
 			},
 			sequence = {
 				{
-					"「神木之芯，根植于心。」",
+					"\"Starting from the core of the Sacred Sakura...\"",
 					1
 				},
 				{
-					"「现世与梦，一念即转。」",
+					"\"The waking and the sleeping world will reverse.\"",
 					2
 				},
 				{
-					"「姐姐，让我们的世界尽情扩张吧——」",
+					"\"Amagi, let us expand our world to new horizons.\"",
 					3
 				}
 			}

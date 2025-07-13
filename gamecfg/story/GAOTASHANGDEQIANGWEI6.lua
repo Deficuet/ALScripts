@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "作为实验型设备相互妥协构成集成体，辉翼太阳船并非在所有方面都是最顶尖。",
+			say = "Many of the parts from the Mesektet's experimental phase were a product of compromise, and not all of them could be said to be cutting-edge technology.",
 			bgm = "theme-lion",
 			location = {
-				"某处空域·辉翼太阳船",
+				"In the air - Aboard the Mesektet",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "或许是因为飞行速度实在不快，又或许是残骸潮的面积过于广阔，狮一行人飞了许久，才终于飞出了残骸潮的影响范围。",
+			say = "Either their cruising speed was low or the sea was just too big, but either way, it took a long while for the Mesektet to leave the Rising Tide's effective range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "头顶的天空一直是一种朦胧的灰，不分昼夜，难辨星辰。",
+			say = "All the while, the sky above them remained a hazy grey, day and night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "最后，在狮的耐心终于耗尽，命令将太阳船升至高空的过程中，众人终于发现了大陆边缘的踪迹。",
+			say = "Lion had grown sick of waiting, and ordered an ascent to high altitude. That's when they finally sighted the edge of land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啸啸（吹哨声）——陆地，我看到陆地啦！",
+			say = "Fwee-fwee! Land! I see land!",
 			soundeffect = "event:/ui/koushao",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，真不容易啊。回头一定得想办法骗艘航空母舰来我的总督区……",
+			say = "Finally. Once I return to the district, I'll need to recruit an aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从轮廓上判断，前方那座小岛似乎是怀特岛……",
+			say = "Judging by its terrain, the island ahead of us appears to be the Isle of Wight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "也就是说，其后方的大陆就是皇家本岛……",
+			say = "If so, the landmass beyond that should be... the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "总督大人，我们要回家了呢。",
+			say = "We have returned home, Miss Governor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "“回家”用在这里……真是种奇妙的感觉。",
+			say = "Using the word \"home\" to describe this place feels wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "等等……我们正直着飞向怀特岛？",
+			say = "Oh, wait a moment. We're flying toward the Isle of Wight, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这种情况下，除了怀特岛和后方的皇家三岛之外……我们却没有看到其他的陆地？",
+			say = "Despite that, I cannot see any kind of landmass beyond the Isle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "欧罗巴大陆去哪了？布列塔尼半岛呢？……鸢尾教国在哪里？",
+			say = "Where is Europa? Or the Britannian Peninsula? Where has the Iris Orthodoxy gone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "好问题……我们自己的问题导致没有观察到……的可能性似乎不存在吧。",
+			say = "Good questions. It doesn't seem like we cannot observe them due to some fault on our end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "除非这个世界皇家三岛整体顺时针转了个圈。",
+			say = "Yes. Unless the geography of this world's Royal Islands is completely inverse to ours, that shouldn't be possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "但是整片欧罗巴大陆都消失了的推测是不是有点……太荒谬了。",
+			say = "The notion that the entire continent of Europa has disappeared is, frankly, too far-fetched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "不能急于下结论，我们先落地吧。",
+			say = "We must not jump to conclusions. Let us make landfall before anything else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "求救信号是从皇家发出来的，之后找个人问问就清楚了。",
+			say = "We do know that the distress signal came from a Royal Navy source. We'll find answers if we ask around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,11 +284,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			actorName = "警报器",
-			say = "滴滴滴——（警报音）",
+			actorName = "Siren",
+			say = "BWEEEEE!",
 			bgm = "theme-brokenworld-sad",
 			location = {
-				"皇家·怀特岛",
+				"Royal Islands - Isle of Wight",
 				3
 			},
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在辉翼太阳船降落过程中，持续不断的传感器警报声警告着众人：岛屿上的土地已经受到了某种高强度的辐射污染。",
+			say = "As the Mesektet descended, the ship's sirens began to blare, warning that the land on the island was emitting serious levels of radiation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "还好船上所搭载的护盾支援装置能够有效应对此类情况。",
+			say = "Fortunately, the onboard barrier generator was able to protect against it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,21 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在太阳船落地停稳后，闪烁着金光的护盾在地表圈出了一片安全区，为其中的人员提供着源源不断的保护。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 205160,
-			say = "佩特拉和特立尼达，你们在船上留守。",
+			say = "The Mesektet landed, and then established a safe zone on the isle's surface using its golden barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +354,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "勇气和特拉法尔加随我下船，注意，太阳船护盾的保护范围有限，不要离船体太远。",
+			say = "Cleopatra, Trinidad, stay and watch the ship.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 205160,
+			say = "Gallant, Trafalgar, you'll disembark with me. The barrier has a limited range, so don't go too far from the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "荒凉、无人。废墟覆盖、满目疮痍。",
+			say = "The island was uninhabited and desolate, with ruins as far as the eye could see. The word \"wasteland\" summed it up perfectly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "狮带领勇气与特拉法尔加踏上了怀特岛的土地，但是这里的一切都与她们记忆中大不相同了。",
+			say = "Although they identified this place as the Isle of Wight, it looked nothing like how they remembered it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "这还真是……凄惨。看来至少怀特岛上不可能有幸存者了。",
+			say = "What a horrific sight. One can presume there are no survivors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "残骸早已腐朽，但自然并没有夺回这片沦陷区……没有植物，甚至连昆虫都没有。",
+			say = "Although the wreckages have long since crumbled away, there is still no sign of nature. No plants, not even a single insect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "和之前从海中残骸中看到的景象一样。",
+			say = "It's the same as the wreck we saw in the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你觉得和辐射有关？但是之前在海中残骸上涌的时候仪器并没检测到辐射。",
+			say = "Do you think it's linked to the radiation? We detected none on the wreckage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是猜测，收集样本分析一下吧。",
+			say = "That's merely conjecture. First of all, we should collect samples and analyse them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们还要在这个世界停留，多一分了解就多一分把握。",
+			say = "It's likely we'll be in this world for a while, so we need to gather as much information as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啸啸（吹哨声）——",
+			say = "Fwee-fwee!",
 			soundeffect = "event:/ui/koushao",
 			typewriter = {
 				speed = 0.05,
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总督大人、特拉法尔加大人！如果要收集样本的话，你们看那边的怎么样！",
+			say = "Miss Governor, if it's samples you want, why not start over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "顺着勇气所指的方向，众人看到了一座小山丘——或者说，原本以为是小山丘的一团巨大的物体。",
+			say = "The others looked where Gallant was pointing. There was a small hill there – or rather, a massive thing that assumed the shape of a hill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "整座小山……好像是之前回收来的那个残肢的完整尸体？！",
+			say = "My god! Is this the thing that the piece we retrieved came from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "真是夸张……与其说是尸体，更像是……混杂有金属残渣的形似某种巨大异形生物的白色矿石山。",
+			say = "Incredible. It's less like a carcass and more like... a mountain of white rock that resembles some giant creature mixed with metal shards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "这究竟是人造生物、还是机械造物？",
+			say = "Is it an artificial lifeform? Or is it a machine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 201390,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啸啸（吹哨声）——警戒汪，去切一块回来！",
+			say = "Fwee-fwee! Security pup, fetch us a sample!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "屏障外的辐射似乎并未影响到警戒汪的行动，它顺利来到目标地点，启动了切割装置。",
+			say = "The security pup worked like normal even outside the barrier. It arrived at its destination and deployed its cutting implement.",
 			bgm = "theme-lion",
 			typewriter = {
 				speed = 0.05,
@@ -624,7 +624,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "然后——大地开始摇晃，然后在众人的目瞪口呆中，残骸形成的山丘缓缓动了起来。",
+			say = "Then, the earth began to quake, and to the group's amazement, the hill of mass started moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "如同大理石一般的材质，此刻却如生物体一般延展出了一条条触手。",
+			say = "Despite appearing to be made of marble, it extended several tentacles, much like a living creature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "原本焦褐色混在一起的一坨坨不知名金属块，此刻也如同液体般在白色的身躯上流淌重组，并逐渐泛出莹莹蓝光。",
+			say = "The metal shards that were initially brown and scattered then merged into one inside the white giant and began glowing with a blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,8 +659,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "这东西……是不是要复活了？",
+			actorName = "Gallant",
+			say = "Is that thing... bringing itself back to life?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,12 +673,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "特拉法尔加",
+			actorName = "Trafalgar",
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也好，那就来试试你的强度如何吧。",
+			say = "Let it, I say. I will test how powerful it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -740,7 +740,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "特拉法尔加对一条舒展中的触手发动了攻击。炮弹贯穿了触手，将其中从中部位置炸了个粉碎。",
+			say = "Trafalgar fired a volley at a tentacle extending forward. Her shells pierced through it and shattered it in the middle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,12 +748,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "特拉法尔加",
+			actorName = "Trafalgar",
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过如此……只是体积大，看着吓人么。",
+			say = "I see. It looks more threatening than it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "受到攻击的不知名生物体像是受到了刺激一般，浑猛然膨胀了一圈，大地也随之抖动的更厉害了。",
+			say = "The attack seemed to stir something in the alien creature. It swelled like a pufferfish, which made the earth's quaking even more violent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,12 +772,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "特拉法尔加",
+			actorName = "Trafalgar",
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？还有余力么，那就继续——",
+			say = "Still moving, are you? Then let's finish it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg2",
 			hidePaintObj = true,
-			say = "特拉法尔加再次抬起了主炮。",
+			say = "Trafalgar fired her main cannons again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,8 +801,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "不是，等等……这怪物再大也不可能引发岛屿地震吧！",
+			actorName = "Lion",
+			say = "No, wait... No matter how big this monster is, it can't possibly be causing this earthquake by itself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,8 +815,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "佩特拉，周围现在到底什么情况？",
+			actorName = "Lion",
+			say = "Cleopatra! Report on our surroundings, now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,8 +829,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克利奥佩特拉",
-			say = "总督大人，四面八方都有那种怪兽敌人的复苏迹象，水下也有异动！",
+			actorName = "Royal Islands - Isle of Wight",
+			say = "Miss Governor! There are hostiles all around us trying to revive themselves! Something's moving under the water, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,8 +843,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克利奥佩特拉",
-			say = "出于安全考虑，我建议立刻撤退！",
+			actorName = "Royal Islands - Isle of Wight",
+			say = "Please retreat at once for your own safety!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,8 +857,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "这就对了……",
+			actorName = "Lion",
+			say = "I knew it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,8 +871,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "特拉法尔加",
-			say = "总督阁下，敌人并不强，我们完全有一战之力。",
+			actorName = "Trafalgar",
+			say = "A moment, please, Miss Governor. Our enemy isn't all that strong. It's worth engaging it at least once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,8 +885,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "特拉法尔加",
-			say = "皇家海军，见敌必战！",
+			actorName = "Trafalgar",
+			say = "When an enemy appears on the horizon, it is the Royal Navy's duty to face it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,8 +899,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "不是……但是它们数量多啊！",
+			actorName = "Lion",
+			say = "No! There are too many of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,8 +918,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "你们陆间海舰队是不是跟撒丁舰队待时间太久了……？正常点啊！",
+			actorName = "Lion",
+			say = "Have you in the Mediterranean fleet been getting influenced by the bloody Sardegnians?! Face reality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,8 +932,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "我是总督我说的算，佩特拉，让太阳船做好升空准备。",
+			actorName = "Lion",
+			say = "Listen to my orders! Cleopatra, prepare for takeoff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,8 +946,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "狮",
-			say = "勇气，特拉法尔加，随我立刻撤退！！",
+			actorName = "Lion",
+			say = "Gallant, Trafalgar, come with me! We're retreating immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

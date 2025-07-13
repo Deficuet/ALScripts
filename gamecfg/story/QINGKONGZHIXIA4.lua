@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"审判庭秘密据点",
+					"Secret Tribunal Building",
 					1
 				},
 				{
-					"鸢尾教国·某地",
+					"Somewhere in the New Iris Orthodoxy",
 					2
 				},
 				{
-					"地下：？？米",
+					"Underground - Several meters below the surface",
 					3
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特伦托女士，今日感觉如何？",
+			say = "How are you feeling, Trento?",
 			bgm = "theme-vichy-church",
 			painting = {
 				alpha = 0.3,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "克莱蒙梭主教，承蒙您的关心！",
+			say = "Ahahah... Your consideration is appreciated. Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实从昨天开始，我就已经没有任何不舒服的感觉了。",
+			say = "Um, I haven't been feeling any discomfort at all since yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过为了以防万一，今天还是又吃了一次药~",
+			say = "Oh, and if you're wondering, I've already taken my medicine today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "你的做法很正确，只有按照疗程吃药，才能确保病灶被根除哦。",
+			say = "That's good of you. Taking your medicine on time is key to eradicating the source of your illness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "是！克莱蒙梭主教。",
+			say = "Of course. Thank you again so much, Clemenceau.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，归根结底，审判庭能拥有这项技术，还得“感谢”你们的马可波罗呢，所以你也不用太过拘谨。",
+			say = "Don't thank me, thank Marco Polo for leaving all those gifts behind. They're what helped me bring you back to normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看到你恢复得这么好，马可波罗想必也会很开心吧。",
+			say = "If she could see you now, I'm sure she'd be over the moon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "特伦托，你恨她么？",
+			say = "I know it's an odd time to ask, but speaking of Marco Polo... How do you feel about what she did?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "唔……其实，在这期间发生的所有事对我来说就像做了一场模糊的梦。",
+			say = "Well, I still feel a bit like it was all a dream, you know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "梦醒之后，留存在脑海中的记忆……倒还不如你们告诉我的故事细致。",
+			say = "I know it wasn't, of course, and my body remembers actually being in the places I \"dreamed.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以老实说……我其实到现在都没太搞清楚状况，更不可能恨了……",
+			say = "But, truth be told, I still haven't pieced everything together, much less formed an opinion on what she did.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "原来如此，呵呵，没关系，你能这么想真是太好了。",
+			say = "That's understandable. It's fine that you feel that way. If anything, it's good that you do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭主教，请问马可波罗大人现在……情况如何？",
+			say = "How is she, by the way? Marco Polo, I mean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她啊……还在沉睡中，不过生命体征一直很平稳，不用担心。",
+			say = "She's been in a deep sleep ever since her encounter with the Commander. Don't worry, though, she's not in any danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "呼……那就太好了。",
+			say = "Oh... Thank goodness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "说起来，你近几日睡眠状况如何？有做过奇怪的梦么？",
+			say = "Another question for you. Just to be sure – have you been sleeping well? Have you had any odd dreams?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪的梦……好像也没什么特别的。",
+			say = "Odd dreams? I mean, most dreams are...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "不过偶尔有梦到过一个相同的场景……",
+			say = "Oh, but in particular, there was one where I was in a strange place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说来听听？",
+			say = "Really? Tell me about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是一片被白色覆盖的空间，天空与海水都是纯白的……",
+			say = "Everything I saw was white as snow, even the sky and the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦里的我站在白色的沙滩上，周围堆满了白色的骨螺……",
+			say = "I was on a white beach, and there were Venus combs everywhere...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "骨螺……？你的META化症状应该正在消退才对。",
+			say = "Venus combs? But your META symptoms from the superimposition should all be gone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "你与祂之间的联系难道……与META现象无关么……",
+			say = "Maybe there is some other connection between you and the META Trento...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "你在梦里，有听到什么么？骨螺有向你说话么？",
+			say = "Sorry, I'm rambling. Have you been hearing anything in your dreams?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603010,
-			say = "那倒没有……克莱蒙梭主教，骨螺……应该向我说话么？",
+			say = "Hearing? No, nothing in particular. Why? Are those Venus combs supposed to speak?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……我也不知道。",
+			say = "Maybe. I don't know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不过假如……梦里的骨螺真的向你说话了，你一定要第一时间通知我。",
+			say = "If by any chance they do speak to you, be sure to let me know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "马可波罗的安危，还有我们所有人的安危——",
+			say = "Marco Polo's safety... No, the safety of every person in this branch depends on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "——就全靠你了。",
+			say = "We're counting on you, Trento.",
 			painting = {
 				alpha = 0.3,
 				time = 1

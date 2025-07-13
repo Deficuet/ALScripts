@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击<color=#ff7d36>出击</color>",
-	"索敌结果显示了大黄蜂可能出现的位置，让我们朝着目标点前进吧~",
-	"哎呀~规避失败啦，只能硬着头皮上啦！",
-	"<color=#ff7d36>舰队的总机动值将影响规避的结果</color>，如果机动值不足，很容易出现规避失败的情况噢",
-	"点击<color=#ff7d36>出击</color>进行战斗！    出击需要<color=#ff7d36>消耗石油，消耗值取决于出战角色</color>"
+	"Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+	"We've located Hornet! Let's move towards the target.",
+	"Oh no! Evasion failed. We have to meet them head on!",
+	"<color=#ff7d36>Your fleet's total evasion</color> will determine whether or not you can evade enemies successfully or not.",
+	"Tap <color=#ff7d36>Battle</color> to start battle! You have to <color=#ff7d36>spend oil</color> in order to launch attacks. Each ship uses different amounts of oil."
 }
 
 return {

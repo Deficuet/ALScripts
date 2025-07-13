@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>扎根于往昔的执念</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>6 Obsession Rooted in the Past</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			bgm = "nagato-boss",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}，你们没事吧！",
+			say = "Zuihou, are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈……我们没事，您快救救{namecode:85:飞鹰}和{namecode:86:隼鹰}吧！",
+			say = "Great Veteran! We're just fine over here. Please, go help Hiyou and Junyou!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "头好疼……好想砍点什么东西啊！",
+			say = "Kh... I'm losing my mind here. I wanna cut something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "世界……在燃烧……啊哈哈哈，全部都烧起来吧！",
+			say = "The world is burning... Ahahaha! Yeah, let it all burn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你的意思是，“她们”，是我们的{namecode:85:飞鹰}和{namecode:86:隼鹰}？",
+			say = "Hold on a second! Zuihou, Zuikaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "冷静下来告诉我，刚才到底发生了什么事？",
+			say = "Are you saying those META ships are this branch's... OUR Hiyou and Junyou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜、呜呜……是、是这样……我，我们……",
+			say = "Mghh... Y-yeah... Basically–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我们收到{namecode:84:武藏}大人的命令后，就准备先前往外海与{namecode:208:葛城}汇合，然后一同去讨伐敌人。",
+			say = "When we got your orders, we immediately set sail to meet up with Katsuragi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是就在我们离开海岸线后不久，{namecode:85:飞鹰}和{namecode:86:隼鹰}就变得不太对劲了",
+			say = "But as soon as we left the coast, Hiyou and Junyou took a turn for the worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们先说，有奇怪的声音在她们耳边说话，随后说看到了……很多奇怪的身影。",
+			say = "They said they were hearing voices, and then they saw strange figures...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}正在检查她们情况的时候，她们就突然被黑气缠身，然后变成了如今的样子。",
+			say = "When Zuihou tried to give them a checkup, this black fog suddenly surrounded them, and then... THAT happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我之前随铁血舰队出航执行任务的时候，有遇到过类似的事。",
+			say = "I saw the same thing happen to U-556 once when I accompanied Iron Blood on a mission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海水之中一定存在有产生META化侵蚀的污染源……",
+			say = "There must be something in the water here that corrodes shipgirls and turns them META!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我们应该立刻让所有人从海中退回港口或者陆地！",
+			say = "Great Veteran, we have to get them back to dry land!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:96:瑞鹤}？",
+			say = "Agreed there, but... Why are you here instead of with Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈……我是因为{namecode:75:陆奥}大人生病，{namecode:74:长门}大人命令我——",
+			say = "Aaaah! Umm, Lady Mutsu is sick, so Lady Nagato ordered me to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了，不用解释，我明白了。我会命令所有参战部队从海中撤回来的。",
+			say = "I get it, I get it! Alright, I'll go inform everyone to retreat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢大前辈的信任！",
+			say = "Great Veteran... Thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，大前辈，我还有一个发现！",
+			say = "I have one more report, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在海水中的污染程度，远不如当时我参与的那次任务中见到的强。",
+			say = "The corrosion here isn't as strong as it was the first time I saw it. They aren't as far gone as U-556 was!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此，{namecode:85:飞鹰}和{namecode:86:隼鹰}的实际META化程度并没有看上去那么夸张！",
+			say = "If we can neutralize the two of them and purify the corrosion, then we should be able to bring them to their senses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要尽快将她们控制下来净化污染，她们一定能变回来的！",
+			say = "The Royal Navy and Orthodoxy have both succeeded at this before. I know we can do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……太好了！可是将她们控制下来这件事……",
+			say = "That's great. But if we want to neutralize them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我有办法！",
+			say = "I have a great idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "以前{namecode:79:山城}姐姐送给过我一套一次性拘束法阵，我找找……",
+			say = "Yamashiro gave me this paralyzing agent... Uhh, let's see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……找到了！只要驱动这个法阵，应该就能暂时压制住她们了！然后我们趁机一拥而上——打晕她们！",
+			say = "There! If we use this, we can temporarily suppress them! Then, we use the opportunity to rush in and go for the K.O.!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好主意！",
+			say = "Good stuff, Zuihou!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，就算我们能成功控制住她们，那接下来要带她们去哪里进行净化治疗呢？",
+			say = "But who's going to purify them once they've been neutralized, and where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个……",
+			say = "Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,11 +485,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305020,
-			say = "{namecode:82:三笠}前辈……外面发生的事，我都看到了……",
+			say = "Hey, everyone! Sorry, I was eavesdropping a little!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305020,
-			say = "我那里的防护结界十分稳固，也有实施净化仪式的条件。",
+			say = "My mansion has a defensive barrier set up around it. We should be able to purify them there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305020,
-			say = "麻烦……把{namecode:85:飞鹰}和{namecode:86:隼鹰}带到我这里来吧。",
+			say = "Please! Just get them to me, and I'll handle the rest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了，感谢你出手相助。",
+			say = "Yamashiro... Thanks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305020,
-			say = "……应该的。",
+			say = "Don't mention it. I'm just doing what's right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "那么，接下来——我们上吧！",
+			say = "There you have it, everyone. Let's ground those two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "{namecode:79:山城}的宅邸，一段时间后——",
+			say = "Sometime later, at Yamashiro's mansion...",
 			bgm = "musashi-2",
 			typewriter = {
 				speed = 0.05,
@@ -618,7 +618,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "众人抵达{namecode:79:山城}宅后，{namecode:79:山城}立刻对{namecode:85:飞鹰}和{namecode:86:隼鹰}执行了净化仪式。",
+			say = "The gang managed to drag Hiyou and Junyou to the mansion, where they quickly set upon the purification ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "结果确如{namecode:96:瑞鹤}所说，二人的META化程度并不严重。没过多久，二人就恢复如常了。",
+			say = "As Zuikaku theorized, their META corrosion hadn't advanced far enough to block their recovery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:85:飞鹰}，{namecode:86:隼鹰}，你们没事吧，现在还难受么？",
+			say = "Hey, are you two okay? Still feeling bad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉……像做了一场噩梦一样。",
+			say = "Ugh... I feel like I just woke up from a nightmare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噩梦里展现着不属于你的记忆，充斥着不属于你的情感……",
+			say = "A nightmare full of someone else's memories and emotions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是每时每刻，这些不属于你的东西都想强行挤入你的脑海，拼命想和你融为一体……",
+			say = "Forcing their way into my mind, trying to fuse until they've taken over me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种感觉真是糟糕透了。",
+			say = "That was just the worst!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……真是糟透了。如今完成了净化之后，我就像重获了新生一样。",
+			say = "Yeah. It really was... I feel reborn now that I've been purified.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种不愉快的经历，希望你们永远也不要体验到……",
+			say = "I wouldn't wish that experience on any of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "呜呜呜……你们没事就好！",
+			say = "Oooh, I'm so happy you're okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是天上……好像比我们出发前更严重了呢。",
+			say = "But look to the sky. Things are only getting worse out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "猩红的云朵、枯萎的大树……天空中仿佛有另一个世界倒扣在我们头顶一样。",
+			say = "A withered tree amidst blood-red clouds... It's like an upside-down world up above our own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大结界……肯定也被污染了。那个……应该是大结界被污染后所呈现出的异象……",
+			say = "A distortion in space... Does this mean the Prime Barrier was corroded?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，大前辈呢？",
+			say = "Probably. Where is Mikasa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈和{namecode:84:武藏}大人她们一起去开会了，到现在还没回来。",
+			say = "She went to see Musashi as soon as we got back. I guess they're still talking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样啊……好了，我休息得也差不多了。前来避难的人越来越多，我去帮忙吧！",
+			say = "Really? Well, I'm feeling great now! More people have evacuated back to land, so I'm gonna go help them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，我也去！",
+			say = "Me, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种帮助他人的事情怎么能少得了吾呢，吾也去帮忙！",
+			say = "A warrior mustn't rest when people are in need! I shall join you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那大家一起去帮{namecode:79:山城}姐姐的忙吧~",
+			say = "Yamashiro already went, too! Let's go help her out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，要去帮忙的话，不妨也带上我们吧？",
+			say = "May we join you as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:89:凤翔}前辈，{namecode:39:神通}女士？！你们也来了啊！",
+			say = "Houshou and Jintsuu?! You're here, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人已经将此处宣布为了集结点，所有作战力量在收到消息后都应该来此集结，我们焉能不来呢？",
+			say = "Musashi designated this as our gathering point. All of our mobile forces should gather here before long, and that includes us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过在帮忙之前，我觉得诸位首先得对现在的局势有所了解，这样才不会越帮越忙啊。",
+			say = "But before we all leave to help the evacuees, I think I should explain things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:39:神通}女士，不瞒你说……我们确实对于现状一无所知……还请你指点一二。",
+			say = "Yeah. \"Distortion\" doesn't really tell the whole story... Jintsuu, you mind doing the honors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们可知，天上的那个如同彼岸之景的世界，是什么？",
+			say = "Gladly. Everyone, do you know what that distortion in the sky is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "是遭受污染的大结界所展现出的异象？",
+			say = "Is it an illusion made by the contaminated Prime Barrier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那棵大树，就是重樱大结界的核心。",
+			say = "No. That very tree IS the core of the barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然污染之息正在海中肆虐，但是此刻的大结界之中并未遭受污染。",
+			say = "The Shadow of Corruption may have appeared in the sea, but the Prime Barrier has yet to be corroded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它只是卸下了伪装，露出了本来的模样而已。",
+			say = "However, the barrier's camouflage has been stripped away, revealing its true form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……原本的样子？",
+			say = "Its true form...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个布置……还要从很多年前说起了。",
+			say = "This is going to take us back... rather far in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们知道么，{namecode:91:赤城}，曾经是一艘战列巡洋舰。而她，还有一位姐姐——",
+			say = "When Akagi was still a battlecruiser, she and her sister Amagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "竟、竟然在过去还发生过这些事……我们完全不知道……",
+			say = "I-I had no idea all of that happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以您二位认为……现在所出现的一连串异状并不是因为有外部的未知敌人在对我们发动攻击……",
+			say = "If I'm understanding right... this Shadow of Corruption thing isn't an attack from the outside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,7 +1082,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而是因为……{namecode:91:赤城}前辈？！",
+			say = "It's the result of Akagi going mad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的。不过……在将{namecode:161:天城}的灵魂埋入神木后不久，我们便在神木中发现了「息」的存在。",
+			say = "Perhaps so. At any rate, we discovered that the impurity stemming from Watatsumi exists even in the sacred tree where Amagi sleeps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,7 +1108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "随着年份增加，其危害愈演愈烈……最终导致了大贤者不得不亲自出手的那一场战斗。",
+			say = "The Great Sage Unzen, Lady Nagato, and Musashi have twice combated this corrosion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,7 +1121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}，那场战斗，你应该亲眼所见过才是。",
+			say = "Zuihou, I believe you saw the second battle with your own two eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1134,7 +1134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……当时里面真的好恐怖……除了大贤者之外，没有任何人能抵抗「息」的力量……",
+			say = "Yeah... It was really scary. Nobody but Unzen could stand up to the corrosion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我们认为——{namecode:161:天城}的灵魂也未能幸免。",
+			say = "Back to the matter at hand... I believe Akagi's original intention was to use the Watatsumi's power to repair hulls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纵使当年定下了万无一失的计划，终究是……人算不如天算。",
+			say = "But, unfortunately, it seems that linking herself to the sacred tree has led to her ego being overwhelmed by the corroding impurity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}前辈明明知道这些……却还要执行这个危险的计划么？！",
+			say = "Is Akagi that hell-bent on trying to bring her sister back? That she'd give up her own self?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1186,7 +1186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她已经在执行了。",
+			say = "That's right. And the plan has already spiraled out of her control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,7 +1199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最先出现的无形之息，而后出现的那股导致人幻视幻听、甚至META化的侵蚀力，都是这个仪式的核心……{namecode:161:天城}的残魂已经被污染的证明。",
+			say = "The impurity in the ocean, the hallucinations, the corrosion that turns people META... It's all proof that Amagi has been corroded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些事她心里都清楚。",
+			say = "Akagi must have known this would happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1225,7 +1225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她只是……执念过深罢了。",
+			say = "But based on what she did, it seems to me that she fell to her own obsession.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:91:赤城}前辈……难道真的疯了？）",
+			say = "(Has Akagi really lost her mind?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（为了复活一个不知道还是不是自己姐姐的灵魂……居然、居然不惜让整个重樱都陷入危险之中？！）",
+			say = "(Putting the whole Sakura Empire in peril just to save something that might not even be her sister anymore... That's the furthest thing from sanity!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,7 +1264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……等等，这么一说，原来当年她在圣域所做的那些事，也和今日的计划有关？！）",
+			say = "(Was what she did to Shoukaku at the holy site related to this, too?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这么多年来……她所做的一切事都是为了今日的计划？）",
+			say = "(No. If that was true, why'd she give up on us so easily? Why did she participate in Musashi's game? And the reformation proposed by the Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……都是为了复活她的姐姐{namecode:161:天城}？！）",
+			say = "(Why didn't Kaga stop her?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,7 +1303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这样的人……怎么配成为领导重樱前进方向的人……！）",
+			say = "(Akagi, you said you would lead the Sakura Empire...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,7 +1316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（亏我以前有段时间……还真的拿她当成前辈对待过，真的怀疑过自己是不是太狭隘了……）",
+			say = "(I thought better of her after what happened at the holy site... I thought she was worthy of respect.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1329,7 +1329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……这么多年来，她所做的一切，都只是为了复活自己的姐姐么？！）",
+			say = "(Hold your horses, Zuikaku. I know it pisses you off, but put yourself in her shoes for a second!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1342,7 +1342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（真是……真是……！）",
+			say = "(If it was Shoukaku...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1355,7 +1355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……可，如果去世的是{namecode:95:翔鹤}姐呢？）",
+			say = "(If Shoukaku had been taken from us, and not Amagi...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:96:瑞鹤}，如果你坐在了{namecode:91:赤城}前辈的位置上，有了一个复活姐姐的可能性……你要怎么做？）",
+			say = "(And if I led the Sakura Empire, and someone offered to help me get her back...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1381,7 +1381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……不知道，我，我不知道……）",
+			say = "(I don't know what I'd do, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1394,7 +1394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（但是不论如何……我绝对做不出让整个重樱陷入危险之中的事来。）",
+			say = "(If I was in Akagi's shoes, I wouldn't sacrifice the Sakura Empire... I wouldn't put my friends' lives on the line!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1407,7 +1407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（姐姐也不会乐意看到我这么做的……！）",
+			say = "(Shoukaku wouldn't want that, either. Surely Amagi doesn't...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1420,7 +1420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（没错……相信{namecode:91:赤城}前辈的姐姐……{namecode:161:天城}大人肯定也会这么想的……！）",
+			say = "(Yeah! Amagi trusts her sister. She wouldn't want this to happen!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1433,7 +1433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（必须……在前辈做出彻底无法挽回的事之前，阻止她！）",
+			say = "(We need to stop her before she does something that can't be taken back!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,7 +1446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来，我们刚才说的话对于诸位来说信息量有些大呢。",
+			say = "I understand this is a lot to take in right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1459,7 +1459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那诸位先在此消化一下，我们先行一步了？",
+			say = "We'll go ahead for now. Take your time and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1472,7 +1472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下{namecode:89:凤翔}前辈，你知道大前辈和{namecode:84:武藏}大人她们在哪里开会么？",
+			say = "Houshou, do you know where Mikasa and Musashi are meeting right now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1485,7 +1485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒是知道……怎么了？",
+			say = "Yes. What are you planning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1498,7 +1498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊、{namecode:96:瑞鹤}姐姐——你又要去偷听啦~！",
+			say = "Aargh! Zuikaku, are you going to eavesdrop AGAIN?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

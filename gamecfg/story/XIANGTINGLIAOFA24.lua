@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结束了。",
+			say = "It's over.",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（纵使知道是假货，这种感觉…我可能永远也习惯不了吧。）",
+			say = "(Even though I knew it was a fake... the thought of sinking my own sister still makes me feel sick...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业你放心，大黄蜂已经调到远离前线的港口修整了。",
+			say = "Don't worry, Enty. Hornet is all the way back in NY Harbor, healing up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等作战结束之后，我们一起开个庆祝派对吧~",
+			say = "After we finish things up here, let's get everyone together and party hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，萨拉…",
+			say = "Ah... Thank you, Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…）",
+			say = "(Enterprise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "（走…快走…离开这里）",
+			say = "(Hurry... Get away from here...)",
 			effects = {
 				{
 					active = true,
@@ -178,7 +178,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这里是人类不应踏足的领域…）",
+			say = "(This place was not intended for the likes of you to set foot in...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "（不，继续前进吧，只有她才能改变这一切。）",
+			say = "(No, keep moving forward. Only She can change your fate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "（你们束缚了她太久了，该放开了。）",
+			say = "(You've kept her imprisoned here for too long...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "（不，我们早就已经失去世间的一切了，她现在唯一能做的就是作为兵器一直战斗下去。）",
+			say = "(Not yet. There is no other option for us. As \"weapons,\" as \"ships,\" there is no other choice but to fight...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官…！",
+			say = "Though our styles are a bit different, it usually doesn't get in the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,11 +254,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…指挥官……！",
+			say = "... Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 107030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "<size=70>指挥官！！！！！</size>",
+			say = "<size=70>Hey, earth to Commander!</size>",
 			dir = 1,
 			bgm = "battle-boss-4",
 			effects = {
@@ -298,7 +298,7 @@ return {
 			},
 			options = {
 				{
-					content = "我这是……？",
+					content = "What just happened...",
 					flag = 1
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "居然能在这样的炮火声中昏睡过去，实在是非常人所能。",
+			say = "I'm a bit jealous of your ability to fall asleep in the middle of the battlefield.",
 			effects = {
 				{
 					active = false,
@@ -327,7 +327,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（脑海里的声音变得越来越清晰了……）",
+			say = "Was I really that tired? I seem to have passed out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "But what were those voices I heard...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			},
 			options = {
 				{
-					content = "你们有听到奇怪的对话声么？",
+					content = "Do you hear anything?",
 					flag = 1
 				}
 			}
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…萨拉妹妹并没听到什么奇怪的声音哦？",
+			say = "Huh? A conversation? No, I can only hear the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这片海域里的电磁波十分不稳定，指挥官不会是接入到什么奇怪的频道里了吧~",
+			say = "Well, it's certainly true that the disturbances in this area are making our radios go haywire. Ah, Commander, did aliens maybe send you a message?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实从作战开始后，我也能感觉到一种奇怪的违和感。",
+			say = "I couldn't hear anything, but something does feel off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的情况，有一种似曾相识的感觉…",
+			say = "I can't shake the feeling... that I've seen all this before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这应该就是所谓的“既视感”了吧！不过很遗憾，我也什么都没感觉到",
+			say = "Déjà vu? I'm not getting anything of the sort though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,22 +434,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "唔……既视感、么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "从无线电通报来看，三四舰队也成功突破了塞壬的中段防御，即将进入中心海域。",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，异常状况的源头就在前方了。",
+			say = "Commander, I'll take this time to give you a status update. All our fleets have arrived safely at the rendezvous point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +464,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就在…风暴眼的中心——",
+			say = "Ahead of us is the singularity, the point in the ocean where all the anomalous weather is converging. We'll be breaking through shortly.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "We'll have our answers soon enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,9 +2,9 @@ pg = pg or {}
 pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
-		name = "休闲计划",
+		name = "Mini-Trip Plans",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 1,
 		trigger_type = 1,
 		content = {
@@ -43,9 +43,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960007,
-		name = "共进晚餐",
+		name = "Dinner Together",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 2,
 		trigger_type = 2,
 		content = {
@@ -72,9 +72,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960007,
-		name = "日出",
+		name = "Watching the Sunrise",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 3,
 		trigger_type = 2,
 		content = {
@@ -117,9 +117,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "沐浴露",
+		name = "Showel Gel",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 4,
 		trigger_type = 1,
 		content = {
@@ -148,9 +148,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "味道",
+		name = "Unique Taste",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 5,
 		trigger_type = 2,
 		content = {
@@ -186,9 +186,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "无聊",
+		name = "Boredom",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 6,
 		trigger_type = 2,
 		content = {
@@ -217,9 +217,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "爱好",
+		name = "Hobbies",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 7,
 		trigger_type = 1,
 		content = {
@@ -274,9 +274,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "夜宵",
+		name = "Evening Meal",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 8,
 		trigger_type = 2,
 		content = {
@@ -309,9 +309,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "思念",
+		name = "Longing",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 9,
 		trigger_type = 2,
 		content = {
@@ -346,9 +346,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "踩背",
+		name = "Back Massage",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 10,
 		trigger_type = 1,
 		content = {
@@ -379,9 +379,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "醉话",
+		name = "Drunk Texting",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 11,
 		trigger_type = 2,
 		content = {
@@ -413,9 +413,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "健身",
+		name = "Working Out",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 12,
 		trigger_type = 2,
 		content = {
@@ -450,9 +450,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "手机短信",
+		name = "Stamps",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 13,
 		trigger_type = 1,
 		content = {
@@ -496,9 +496,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "走失",
+		name = "Lost",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 14,
 		trigger_type = 2,
 		content = {
@@ -528,9 +528,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "失眠",
+		name = "Sleepless Night",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 15,
 		trigger_type = 2,
 		content = {
@@ -574,9 +574,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "请假",
+		name = "I Wanna Nap",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 16,
 		trigger_type = 1,
 		content = {
@@ -637,9 +637,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "下雨天",
+		name = "A Rainy Day",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 17,
 		trigger_type = 2,
 		content = {
@@ -694,9 +694,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "睡醒",
+		name = "Awakening",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 18,
 		trigger_type = 2,
 		content = {
@@ -723,8 +723,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 109,
-		name = "指挥室的宝藏",
-		unlock_desc = "时间解锁",
+		name = "Treasure-Hunting in the Office",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 19,
 		trigger_type = 3,
 		trigger_param = {
@@ -800,8 +800,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 200,
-		name = "给指挥官的惊喜",
-		unlock_desc = "时间解锁",
+		name = "A Present for the Commander",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 20,
 		trigger_type = 3,
 		trigger_param = {
@@ -884,8 +884,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 101,
-		name = "观影会筹备中",
-		unlock_desc = "时间解锁",
+		name = "Movie Screening",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 21,
 		trigger_type = 3,
 		trigger_param = {
@@ -966,8 +966,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 102,
-		name = "“遵守纪律”的北方联合",
-		unlock_desc = "时间解锁",
+		name = "Professional and Disciplined",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 22,
 		trigger_type = 3,
 		trigger_param = {
@@ -1038,8 +1038,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 103,
-		name = "聚餐",
-		unlock_desc = "时间解锁",
+		name = "Dinner Party",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 23,
 		trigger_type = 3,
 		trigger_param = {
@@ -1117,8 +1117,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 104,
-		name = "特别关注",
-		unlock_desc = "时间解锁",
+		name = "Priority Follow",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 24,
 		trigger_type = 3,
 		trigger_param = {
@@ -1208,8 +1208,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 105,
-		name = "演习成绩",
-		unlock_desc = "时间解锁",
+		name = "Exercise Review",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 25,
 		trigger_type = 3,
 		trigger_param = {
@@ -1281,8 +1281,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 106,
-		name = "频道幸运日",
-		unlock_desc = "时间解锁",
+		name = "Lucky Day",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 26,
 		trigger_type = 3,
 		trigger_param = {
@@ -1364,8 +1364,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 107,
-		name = "重樱的实力！",
-		unlock_desc = "时间解锁",
+		name = "The Sakura Empire's Strength",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 27,
 		trigger_type = 3,
 		trigger_param = {
@@ -1450,8 +1450,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 108,
-		name = "特别的茶会",
-		unlock_desc = "时间解锁",
+		name = "A Special Tea Party",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 28,
 		trigger_type = 3,
 		trigger_param = {
@@ -1533,9 +1533,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "甜品课",
+		name = "Dessert-Making Course",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 29,
 		trigger_type = 1,
 		content = {
@@ -1581,9 +1581,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "约会的行程",
+		name = "Dating Tips",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 30,
 		trigger_type = 2,
 		content = {
@@ -1624,9 +1624,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20509,
-		name = "弄脏的衣物",
+		name = "Dirty Clothes",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 31,
 		trigger_type = 2,
 		content = {
@@ -1666,9 +1666,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "音乐会邀请",
+		name = "Concert",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 32,
 		trigger_type = 1,
 		content = {
@@ -1707,9 +1707,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "不可思议事件",
+		name = "The Sports Grounds Mystery",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 33,
 		trigger_type = 2,
 		content = {
@@ -1751,9 +1751,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40503,
-		name = "健康工作小贴士",
+		name = "All in the Name of Health",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 34,
 		trigger_type = 2,
 		content = {
@@ -1790,9 +1790,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "表情包的魔法",
+		name = "Stamps Are Magic",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 35,
 		trigger_type = 1,
 		content = {
@@ -1824,9 +1824,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "魔法甘露",
+		name = "The Unhulde's Drops",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 36,
 		trigger_type = 2,
 		content = {
@@ -1867,9 +1867,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 49906,
-		name = "魔女的梦",
+		name = "The Unhulde's Dream",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 37,
 		trigger_type = 2,
 		content = {
@@ -1903,9 +1903,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "睡过头了",
+		name = "Oversleeping",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 38,
 		trigger_type = 1,
 		content = {
@@ -1937,9 +1937,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "等指挥官的地方",
+		name = "Meeting Spot",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 39,
 		trigger_type = 2,
 		content = {
@@ -1980,9 +1980,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40404,
-		name = "与指挥官约会的方法",
+		name = "How to Arrange a Date",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 40,
 		trigger_type = 2,
 		content = {
@@ -2023,9 +2023,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "高效沟通",
+		name = "Efficient Communication",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 41,
 		trigger_type = 1,
 		content = {
@@ -2071,9 +2071,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "深夜的监督者",
+		name = "The Late-Night Overseer",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 42,
 		trigger_type = 2,
 		content = {
@@ -2107,9 +2107,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40704,
-		name = "鲁梅的晚餐",
+		name = "Dinner with Rumey",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 43,
 		trigger_type = 2,
 		content = {
@@ -2143,9 +2143,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "跑酷线路",
+		name = "Parkour Route",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 44,
 		trigger_type = 1,
 		content = {
@@ -2177,9 +2177,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "雨天",
+		name = "Rainy Day",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 45,
 		trigger_type = 2,
 		content = {
@@ -2218,9 +2218,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40152,
-		name = "整理文件",
+		name = "Organizing Paperwork",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 46,
 		trigger_type = 2,
 		content = {
@@ -2263,9 +2263,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "甜品店",
+		name = "Dessert Shop",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 47,
 		trigger_type = 1,
 		content = {
@@ -2300,9 +2300,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "口红",
+		name = "Lipstick Color",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 48,
 		trigger_type = 2,
 		content = {
@@ -2334,9 +2334,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40211,
-		name = "开店构想",
+		name = "Shop Planning",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 49,
 		trigger_type = 2,
 		content = {
@@ -2375,9 +2375,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "整理文件",
+		name = "Organizing Paperwork",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 50,
 		trigger_type = 1,
 		content = {
@@ -2419,9 +2419,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "绘本",
+		name = "Picture Book Story",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 51,
 		trigger_type = 2,
 		content = {
@@ -2464,9 +2464,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40109,
-		name = "噩梦",
+		name = "Nightmare",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 52,
 		trigger_type = 2,
 		content = {
@@ -2516,9 +2516,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "新游戏",
+		name = "New Game",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 53,
 		trigger_type = 1,
 		content = {
@@ -2564,9 +2564,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "料理练习",
+		name = "Learning to Cook",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 54,
 		trigger_type = 2,
 		content = {
@@ -2608,9 +2608,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40111,
-		name = "克服家里蹲",
+		name = "Shut-In No More",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 55,
 		trigger_type = 2,
 		content = {
@@ -2653,9 +2653,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "口味调查",
+		name = "Taste Survey",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 56,
 		trigger_type = 1,
 		content = {
@@ -2693,9 +2693,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "厨房中的战场",
+		name = "A Battle in the Kitchen",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 57,
 		trigger_type = 2,
 		content = {
@@ -2731,9 +2731,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50105,
-		name = "香甜软糯？",
+		name = "Sweet and Soft?",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 58,
 		trigger_type = 2,
 		content = {
@@ -2780,9 +2780,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "细节问题",
+		name = "It's in the Details",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 59,
 		trigger_type = 1,
 		content = {
@@ -2820,9 +2820,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "晚间邀约",
+		name = "Nighttime Invitation",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 60,
 		trigger_type = 2,
 		content = {
@@ -2858,9 +2858,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "正式邀约",
+		name = "A Formal Date",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 61,
 		trigger_type = 2,
 		content = {
@@ -2898,9 +2898,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "过度关注",
+		name = "Excessive Attention",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 62,
 		trigger_type = 1,
 		content = {
@@ -2935,9 +2935,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "展览邀约",
+		name = "Know Each Other",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 63,
 		trigger_type = 2,
 		content = {
@@ -2975,9 +2975,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "心意传递",
+		name = "Colors of Emotions",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 64,
 		trigger_type = 2,
 		content = {
@@ -3023,9 +3023,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "撤回大法",
+		name = "Master Manipulator",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 65,
 		trigger_type = 1,
 		content = {
@@ -3061,9 +3061,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "恶作剧计划",
+		name = "Plotting a Prank",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 66,
 		trigger_type = 2,
 		content = {
@@ -3109,9 +3109,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "分享灵感",
+		name = "Sharing Idea",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 67,
 		trigger_type = 2,
 		content = {
@@ -3153,9 +3153,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "保持洁净",
+		name = "Keeping Things Clean",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 68,
 		trigger_type = 1,
 		content = {
@@ -3190,9 +3190,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "围裙挑选",
+		name = "Choosing Aprons",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 69,
 		trigger_type = 2,
 		content = {
@@ -3231,9 +3231,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "到达前的准备",
+		name = "Feeling at Home",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 70,
 		trigger_type = 2,
 		content = {
@@ -3272,8 +3272,8 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 103,
-		name = "新年红包",
-		unlock_desc = "时间解锁",
+		name = "New Year's Red Envelopes",
+		unlock_desc = "Unlocked at a specific time.",
 		id = 71,
 		trigger_type = 3,
 		trigger_param = {
@@ -3362,9 +3362,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "排忧解难",
+		name = "Trouble on My Mind",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 72,
 		trigger_type = 1,
 		content = {
@@ -3402,9 +3402,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "下厨",
+		name = "To the Kitchen",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 73,
 		trigger_type = 2,
 		content = {
@@ -3445,9 +3445,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50209,
-		name = "仪式感",
+		name = "It's the Little Things",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 74,
 		trigger_type = 2,
 		content = {
@@ -3479,9 +3479,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "灵感再现",
+		name = "Reinspiration",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 75,
 		trigger_type = 1,
 		content = {
@@ -3539,9 +3539,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "照片，看看",
+		name = "Pics of You",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 76,
 		trigger_type = 2,
 		content = {
@@ -3578,9 +3578,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60508,
-		name = "艺术家的饭",
+		name = "Starving Artist",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 77,
 		trigger_type = 2,
 		content = {
@@ -3613,9 +3613,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "探险！",
+		name = "No Trespassing",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 78,
 		trigger_type = 1,
 		content = {
@@ -3672,9 +3672,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "整理文件",
+		name = "Organizing Paperwork",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 79,
 		trigger_type = 2,
 		content = {
@@ -3718,9 +3718,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60803,
-		name = "心路",
+		name = "State of Mind",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 80,
 		trigger_type = 2,
 		content = {
@@ -3765,9 +3765,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "去标准化",
+		name = "Make It Casual",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 81,
 		trigger_type = 1,
 		content = {
@@ -3808,9 +3808,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "看书的地点",
+		name = "A Place to Read",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 82,
 		trigger_type = 2,
 		content = {
@@ -3851,9 +3851,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60111,
-		name = "诗歌的灵感",
+		name = "Poetic Inspiration",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 83,
 		trigger_type = 2,
 		content = {
@@ -3911,9 +3911,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "特别的作战报告",
+		name = "Special Report",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 84,
 		trigger_type = 1,
 		content = {
@@ -3959,9 +3959,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "战术饮品",
+		name = "Tactical Drink",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 85,
 		trigger_type = 2,
 		content = {
@@ -4001,9 +4001,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 60203,
-		name = "错发的快件",
+		name = "Wrong Address",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 86,
 		trigger_type = 2,
 		content = {
@@ -4051,9 +4051,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "问候之夜",
+		name = "First Chat",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 87,
 		trigger_type = 1,
 		content = {
@@ -4097,9 +4097,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "加班之夜",
+		name = "Overtime",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 88,
 		trigger_type = 2,
 		content = {
@@ -4138,9 +4138,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 90107,
-		name = "浓情之夜",
+		name = "Steamy Night",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 89,
 		trigger_type = 2,
 		content = {
@@ -4181,9 +4181,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "探险装备",
+		name = "Outdoor Gear",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 90,
 		trigger_type = 1,
 		content = {
@@ -4212,9 +4212,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "野外求生食谱",
+		name = "Survival Food",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 91,
 		trigger_type = 2,
 		content = {
@@ -4256,9 +4256,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10713,
-		name = "深夜温泉探险",
+		name = "Late Night Hot Spring Adventure",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 92,
 		trigger_type = 2,
 		content = {
@@ -4295,9 +4295,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的纸飞机",
+		name = "The GOAT's Paper Planes",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 93,
 		trigger_type = 1,
 		content = {
@@ -4324,9 +4324,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的笔记本",
+		name = "The GOAT's Notes",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 94,
 		trigger_type = 2,
 		content = {
@@ -4377,9 +4377,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10153,
-		name = "米勒大人的咖啡",
+		name = "Coffee with a Twist",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 95,
 		trigger_type = 2,
 		content = {
@@ -4414,9 +4414,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "指挥官——！！！",
+		name = "Commandeeeeer!",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 96,
 		trigger_type = 1,
 		content = {
@@ -4455,9 +4455,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "日程安排",
+		name = "Scheduling Matters",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 97,
 		trigger_type = 2,
 		content = {
@@ -4491,9 +4491,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 10234,
-		name = "八卦特刊重磅头版！",
+		name = "The Port's Top Headline",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 98,
 		trigger_type = 2,
 		content = {
@@ -4541,9 +4541,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "宠物",
+		name = "Pets",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 99,
 		trigger_type = 1,
 		content = {
@@ -4586,9 +4586,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "互相监督",
+		name = "So-Called Supervision",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 100,
 		trigger_type = 2,
 		content = {
@@ -4636,9 +4636,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70203,
-		name = "新装",
+		name = "New Dress",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 101,
 		trigger_type = 2,
 		content = {
@@ -4690,9 +4690,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110201,
-		name = "植物交流",
+		name = "Botanical Communication",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 102,
 		trigger_type = 1,
 		content = {
@@ -4727,9 +4727,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110201,
-		name = "厨房大危机",
+		name = "Kitchen Nightmare",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 103,
 		trigger_type = 2,
 		content = {
@@ -4779,9 +4779,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110201,
-		name = "孩子们的名字",
+		name = "Naming the Children",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 104,
 		trigger_type = 2,
 		content = {
@@ -4825,9 +4825,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "绿色环境",
+		name = "Green Environment",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 105,
 		trigger_type = 1,
 		content = {
@@ -4858,9 +4858,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "疗愈魔法",
+		name = "Healing Magic",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 106,
 		trigger_type = 2,
 		content = {
@@ -4892,9 +4892,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 110101,
-		name = "真是浪漫",
+		name = "How Romantic",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 107,
 		trigger_type = 2,
 		content = {
@@ -4935,9 +4935,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "送饭",
+		name = "Home Delivery",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 108,
 		trigger_type = 1,
 		content = {
@@ -4964,9 +4964,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "你觉得冷么？",
+		name = "Aren't You Cold?",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 109,
 		trigger_type = 2,
 		content = {
@@ -4994,9 +4994,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70509,
-		name = "暖夜",
+		name = "Warm Night",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 110,
 		trigger_type = 2,
 		content = {
@@ -5033,9 +5033,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "提神机器人",
+		name = "The Nap Prevention Robot",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 111,
 		trigger_type = 1,
 		content = {
@@ -5073,9 +5073,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "爆炸发明",
+		name = "Exploding Inventions",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 112,
 		trigger_type = 2,
 		content = {
@@ -5109,9 +5109,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 70208,
-		name = "专属发明",
+		name = "Personalized Inventions",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 113,
 		trigger_type = 2,
 		content = {
@@ -5159,9 +5159,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "休息的艺术",
+		name = "The Art of Taking Breaks",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 114,
 		trigger_type = 1,
 		content = {
@@ -5207,9 +5207,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "午休",
+		name = "Naptime",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 115,
 		trigger_type = 2,
 		content = {
@@ -5253,9 +5253,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20712,
-		name = "睡衣办公革命",
+		name = "The Work in PJs Revolution",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 116,
 		trigger_type = 2,
 		content = {
@@ -5299,9 +5299,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "百密一疏",
+		name = "Everyone Makes Mistakes",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 117,
 		trigger_type = 1,
 		content = {
@@ -5333,9 +5333,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "你所期望的惩罚",
+		name = "The Punishment You Desire",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 118,
 		trigger_type = 2,
 		content = {
@@ -5375,9 +5375,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "彼此的信物",
+		name = "Our Symbol",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 119,
 		trigger_type = 2,
 		content = {
@@ -5419,9 +5419,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "罪孽深重之人",
+		name = "Deeply Sinful",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 120,
 		trigger_type = 1,
 		content = {
@@ -5457,9 +5457,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "距离感",
+		name = "Sense of Distance",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 121,
 		trigger_type = 2,
 		content = {
@@ -5498,9 +5498,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "指挥官研究进行中",
+		name = "Notes on the Commander",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 122,
 		trigger_type = 2,
 		content = {
@@ -5542,9 +5542,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "尼罗河粽子",
+		name = "Nile Wrap",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 123,
 		trigger_type = 1,
 		content = {
@@ -5579,9 +5579,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "招财狮身人面像",
+		name = "Beckoning Sphinx",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 124,
 		trigger_type = 2,
 		content = {
@@ -5612,9 +5612,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "从未失去",
+		name = "Where You Least Expect It",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 125,
 		trigger_type = 2,
 		content = {
@@ -5655,9 +5655,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "惊喜",
+		name = "Surprise",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 126,
 		trigger_type = 1,
 		content = {
@@ -5695,9 +5695,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "七彩按摩仪",
+		name = "Rainbow Massager",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 127,
 		trigger_type = 2,
 		content = {
@@ -5734,9 +5734,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "各自的工作",
+		name = "Your Duties, My Duties",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 128,
 		trigger_type = 2,
 		content = {
@@ -5785,9 +5785,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "握住我的手",
+		name = "Hold My Hand",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 129,
 		trigger_type = 1,
 		content = {
@@ -5825,9 +5825,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "我会一直注视着你",
+		name = "I'm Always Watching",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 130,
 		trigger_type = 2,
 		content = {
@@ -5865,9 +5865,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "猎人与猎手",
+		name = "The Hunter and the Hunted",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 131,
 		trigger_type = 2,
 		content = {
@@ -5902,9 +5902,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "系统的日程规划",
+		name = "Proper Scheduling",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 132,
 		trigger_type = 1,
 		content = {
@@ -5937,9 +5937,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "给我好好休息",
+		name = "Mandated Rest",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 133,
 		trigger_type = 2,
 		content = {
@@ -5969,9 +5969,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40407,
-		name = "反客为主",
+		name = "A Blessing in Disguise",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 134,
 		trigger_type = 2,
 		content = {
@@ -6012,9 +6012,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "节能教学",
+		name = "Energy Saving Trick",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 135,
 		trigger_type = 1,
 		content = {
@@ -6045,9 +6045,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "睡觉的地方",
+		name = "A Place to Lie Down",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 136,
 		trigger_type = 2,
 		content = {
@@ -6087,9 +6087,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40814,
-		name = "星夜休憩",
+		name = "A Sky of Stars",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 137,
 		trigger_type = 2,
 		content = {
@@ -6126,9 +6126,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "开发顾问",
+		name = "Development Advisor",
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "Obtain the character.",
 		id = 138,
 		trigger_type = 1,
 		content = {
@@ -6167,9 +6167,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "评分系统",
+		name = "The Advice Grader",
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		id = 139,
 		trigger_type = 2,
 		content = {
@@ -6212,9 +6212,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 40113,
-		name = "恋爱大师",
+		name = "Master of Romance",
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		id = 140,
 		trigger_type = 2,
 		content = {

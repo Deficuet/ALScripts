@@ -15,7 +15,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……不愧是忍者，舰装的操作已经像模像样了呢！接下来差不多该出发了？唔……里诺……我们接下来去哪儿？",
+			say = "Wow, shinobis learn fast! You've already figured out the basics of your riggings, and now it's time to set off. So, Reno, where are we going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "从时间上算，{namecode:188:樫野}她们也应该已经进入了镜面海域，首先应该和她们汇合比较好。至于方位……",
+			say = "Kashino's team should be in the area by now, so if we're gonna regroup with anyone, it should be them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000070,
-			say = "雪泉小姐，你有感觉到雪不归小姐的气息吗？",
+			say = "Yumi, can you sense where Fubuki is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，刚才还能感觉到来自那个方向的气息，不过现在……",
+			say = "I felt her presence in that direction earlier. Now, it's... well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "那个……为什么大家……都假装没看到……那个地方？有个很可疑的地方……对吧？",
+			say = "Umm... Can we talk about the elephant in the room? You do see that very suspicious place over there, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "是的……我现在感觉到的雪不归小姐的气息也是……从那边传来的。",
+			say = "I do. It's where Fubuki's presence is coming from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "啊哈哈……可能是因为那地方显得过于可疑，所以大家都刻意将它忽略了吧……",
+			say = "I think we're all subconsciously looking the other way, 'cause that place is so suspicious it hurts. Or something like that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……希望那里能提供有着柔软床铺的房间……里诺，我稍微睡一会，领航就拜托你了！",
+			say = "I just hope there's a bed with a cushy pillow. *yaaawn*... Reno, lead the way, will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "在这种情况下还能安然入睡，不愧是{namecode:461:吕佐夫}小姐……那么大家请跟我来，向着远方的城堡进发吧！",
+			say = "What, are you gonna catch some Z's en route? You're one impressive napaholic... Girls, follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1

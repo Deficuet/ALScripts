@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "要不要也试试我的特别战术呢~？",
+			say = "Can we try a special strategy of mine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

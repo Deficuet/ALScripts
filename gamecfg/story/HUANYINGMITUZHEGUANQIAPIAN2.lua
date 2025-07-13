@@ -9,15 +9,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"虚像？？之塔",
+					"V?rt??l Tower",
 					1
 				},
 				{
-					"？？区·？？层",
+					"??? - ??th Fl??r",
 					2
 				},
 				{
-					"？？广场",
+					"??? Foy?r",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——哐！——铮！！！",
+			say = "BANG! CLANG!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……呼……没完没了。",
+			say = "Tch... This is going nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 900513,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "啊呀？已经要认输了吗？你的忍耐力只有这种程度吗？",
+			say = "Oh? Giving up already? Is that really all you've got?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "和之前也没什么两样嘛。",
+			say = "You haven't changed one bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 900512,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "……经历再多次，也不代表我会喜欢这种麻烦事。",
+			say = "...Going through this over and over doesn't mean I'll start enjoying it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 900513,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "确实是这个理。",
+			say = "That makes sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			actorName = "？？？",
 			side = 2,
-			say = "不过嘛……",
+			say = "But...",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "——哐！——铮！！！",
+			say = "BANG! CLANG!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 900513,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "告诉我还剩多少敌人，想必也不会遭天谴吧！",
+			say = "Would it kill you to at least tell me how many of them are left?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "与此同时，虚像塔内部入口大厅——",
+			say = "Meanwhile, in the entrance hall of the same tower...",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全体探索队成员生命体征检测……一切正常。",
+			say = "Checking all members' vitals... All clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据仪器也全部运转正常哦，已经开始收集数据了~",
+			say = "All instruments are in working order. I've already begun data collection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "确认：通信维持稳定连接，音频与数据传输均未发现异常。",
+			say = "Communications remain stable. No errors or loss detected in audio or data transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "数据保护屏障稳定运行，雷达和传感器的各项数值正在同步分析中。",
+			say = "The data protection barrier is operating properly, and radar and sensor values are being analyzed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "提问：你们可有感受到任何不适感？",
+			say = "Question: Do you feel any physical discomfort?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有什么异常哦，就算事先你跟我们说像是玩全息游戏一样进入虚拟空间……",
+			say = "Not particularly. You told us earlier it would be like going into a VR game, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这个体验感可是一等一逼真的。",
+			say = "But this feels so much more realistic than I'd imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "同意，我已经有点开始困了……要是这里有浴缸就好了，TB你能变一个出来么？",
+			say = "Same... I'm getting a little sleepy in here. If only this place had a bathtub. TB, can you make one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "抱歉，虚像塔中的空间并非由我主导，所以我不能在其中凭空生成物品。",
+			say = "Apologies. I do not have control over the Virtual Tower, so it is impossible for me to create objects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "这样啊……真遗憾。",
+			say = "Ah, shame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "那靠着墙也可以……？",
+			say = "Maybe I can sleep leaning on a wall...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "帝国忽然伸手触碰了墙面，随即墙壁和地面上的纹路开始接连发生变化。",
+			say = "Impero reaches out to touch a wall, and the patterns on the walls and floor suddenly start to shift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "小心！",
+			say = "Be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "奇尔沙治连忙将帝国拉离墙壁，但是纹路变化并没有停止。",
+			say = "Kearsarge quickly pulls her away from the wall, but the change does not end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "异常的纹路就像是被病毒侵蚀般地蔓延开来，铺展出一幅极不自然的景象。",
+			say = "The strange lines spread wildly like a virus, eerie and unnatural.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "唔，这是……？",
+			say = "Hmm? What is this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像某种电子病毒污染一样，好恶心……帝国，你没事吧？",
+			say = "It looks like a creepy computer virus... Do you feel okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没什么感觉哦……",
+			say = "Yeah, I'm fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "数据屏障依然在全功率运行，没有发现帝国身上出现污染现象。",
+			say = "No issues detected in the data barrier. Likewise, no contamination detected in Impero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，看来这些奇怪的变化影响不到我们呢。",
+			say = "Phew... I'm glad it doesn't seem to affect us at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以安心探索了~",
+			say = "Now we can explore with peace of mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走吧，我们首先向着推测的爆炸源前进。",
+			say = "First things first, let's check out the source of that suspected explosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "一段时间后，以奇尔沙治为首的探索队依然在虚像塔复杂的通路中穿梭着。",
+			say = "Some time later, the search team led by Kearsarge was still making its way through the complex passages of the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到此处为止。就是此前探索行动中绘制地图的尽头了。",
+			say = "This is all we have. We've reached the end of what was mapped in previous expeditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "TB，一路之上我们所见的通向别的分区的通路与节点全部都依然处于休眠中。",
+			say = "TB, all the passages and nodes leading to other areas along the way were still dormant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些覆盖其表面的纹路，似乎并没有激活这些功能不明的区块。",
+			say = "The shifting patterns from before don't seem to have activated these mysterious blocks, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情报依然不足，目前数据保护屏障依然稳定，建议继续向前方调查。",
+			say = "The data barrier holds. We still lack information, so I suggest continuing forward to investigate further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "已在地图中标出了推测可以向上方移动的区域。",
+			say = "I've marked points on the map that may lead to the upper floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白，那我们就继续向上……",
+			say = "Roger that. Then let's get...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -724,7 +724,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "一声巨响后，前方一处封闭区域的墙壁突然炸裂。从形成的大洞中，伴随着滚滚沙尘，一位全身黑衣的少女翻滚而出。",
+			say = "With a sudden blast, a wall up ahead shattered. Amidst the dust, a girl in black rolled out from the breach.",
 			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "紧接着又一位同样身着黑衣、手持大镰刀少女轻盈地落在先前那名少女身旁。",
+			say = "Another one, dressed in the same color and wielding a large scythe, landed on her feet next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "谁！？全员警戒！",
+			say = "Who goes there?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "两位少女似乎也察觉到了如今有些剑拔弩张的情况，她们轻轻地叹了口气，看向探索队一行人。",
+			say = "The girls likewise noticed the search team's presence, looked at them, and sighed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……真是运气不佳。",
+			say = "...Unlucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			actor = 900513,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "我们迄今为止，有过哪怕一次好运吗？",
+			say = "Don't sell us short. Have we ever been lucky, even once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			actor = 900513,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "光是身处此地，就已经是倒霉到极点了吧？",
+			say = "I'd think that the very fact that we're here is unlucky enough on its own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			actor = 900512,
 			actorName = "？？？",
 			nameColor = "#FF9B93",
-			say = "……确实如此。",
+			say = "...True.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -895,7 +895,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "在少女们彼此交谈之际，墙壁上又连续被炸出数个大洞。",
+			say = "While they spoke only to each other, more holes were blown out of the wall. Lights flickered behind the openings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "随后，一个又一个异形怪物从中现身。",
+			say = "The alien beings clambered through one after the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "那些身影乍看之下似乎是熟悉的塞壬，但却比往常更加怪异狰狞。",
+			say = "They resembled ordinary Sirens at first glance, but with an added element of uncanniness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "哦哦……这不简直就是稀有塞壬博览会吗！真是太有意思了！",
+			say = "Oh, oooh... It's like a rare Siren expo! Ah, how fascinating!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "话说，这里的塞壬残骸能带出虚像塔之外吗？",
+			say = "Can these Sirens be moved out of the Virtual Tower?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,7 +968,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要试试才能知道。",
+			say = "We won't know until we try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别总想着做这种危险的事啦！现在的首要任务是先把敌人解决掉！",
+			say = "Put that idea to rest at once! Right now, we focus on neutralizing them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "也是~边打也能收集数据就是了！对我来说完全没问题的！",
+			say = "Fine, fine. I can still get data mid-fight! Fine by me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……你们对它们的敌意更大。",
+			say = "...You see those as enemies, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1021,7 +1021,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是自然咯，相比塞壬……你们看上去亲切多了。",
+			say = "Obviously! At least we can communicate with you, unlike those Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先联手料理掉这些怪物如何？",
+			say = "Let's join together for now and clean up those monsters. Sound good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1047,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "不反对。",
+			say = "I have no objections.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			actor = 900512,
 			actorName = "？？？",
 			nameColor = "#A9F548FF",
-			say = "……嗯。",
+			say = "...Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "伴随着炮火的轰鸣声，两柄夸张的武器再次动了起来——",
+			say = "Again, their weapons danced and whirled, this time accompanied by the booming of artillery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1084,15 +1084,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"虚像？？之塔",
+					"V?rt??l Tower",
 					1
 				},
 				{
-					"？？区·？？层",
+					"??? - ??th Fl??r",
 					2
 				},
 				{
-					"？？矩阵",
+					"??? M?t?ix",
 					3
 				}
 			},
@@ -1118,12 +1118,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tower",
-			actorName = "净化亲",
+			actorName = "Purity",
 			bgm = "story-6",
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……",
+			say = "Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,8 +1135,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "我应该已经……重启了才对？",
+			actorName = "Purity",
+			say = "It should've restarted by now, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,9 +1148,9 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "为什么我还在这里……？",
+			say = "Why am I still here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1162,9 +1162,9 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "真麻烦……事到如今，只能自爆了。",
+			say = "This is dumb. Guess I gotta self-destruct at this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1176,9 +1176,9 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "这些被困在莫名其妙地点的莫名其妙的碎片！",
+			say = "Enough of these stupid fragments trapped in this stupid place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1188,12 +1188,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			actorName = "净化亲",
+			actorName = "Purity",
 			soundeffect = "event:/battle/boom2",
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "爆炸吧——！",
+			say = "Time to blow it all away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

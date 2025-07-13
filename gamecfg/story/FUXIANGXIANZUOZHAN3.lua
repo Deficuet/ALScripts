@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·B3浮岛-P011港",
+			say = "Floating Fortress - Platform B3",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过了长时间的升级，A1、A2、A3、B1、B3、B3六座浮岛机场终于可以重新投入使用了。本日的训练将会基于其中三处浮岛进行。",
+			say = "Now, as you all know, the Fortress' airfield facility received an upgrade just today. We will conduct a test of its functions, and carry out routine anti-air training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本次升级除了进一步扩展浮岛机场规模与生产力之外，更为重要是通过引入更精确的阵营数据以对生成“敌人”的拟真程度进行了改进。",
+			say = "The upgrade will not only make the training grounds more realistic, but also make the simulated enemy aircraft more like the Pawns they're based on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此，从本次训练开始“敌人”的种类、数量、战斗力与战斗策略都会进入一个全新的难度。",
+			say = "Additionally, we will be fighting Pawns modeled after ships from every major faction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:471}，我有问题。",
+			say = "I've got a question. May I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请讲。",
+			say = "Go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看完了作战简报，今天的训练敌人除了塞壬之外，将会主要以铁血、重樱与撒丁帝国的舰队为主么？",
+			say = "Just want to make sure: in addition to the mass-produced Sirens, we'll be fighting doppelgangers of ships from Iron Blood, the Sakura Empire, and Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的。",
+			say = "That is correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！？！是这样么，我看过……真的哎！",
+			say = "Wait, we are?! Err, I mean... Yeah, we are! Even I knew that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:471}……再怎么说，拿盟友的数据当做训练的主要打击目标也有点……",
+			say = "You sure about this, though? It feels kinda wrong to use the data we have on our allies to create Pawns...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一批数据相比碧蓝航线各阵营拥有更高的精确度，我想立刻测试一下改进后的浮岛机场能够拟真到什么程度。",
+			say = "A live test using the latest available data is the most logical way to gauge how much better the upgrade made the airfield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且我们的训练是为了在各种情况下都能做好最为充分准备的训练，这件事的必要性你应该明白。",
+			say = "You would know this if you'd actually read the briefing. I don't have the time to explain it in detail just for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "话是这么说啦……",
+			say = "Okay, that's fair...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我就当作你已经理解了，其他人针对这一点也没有疑问了吧？",
+			say = "Great that you understand. Any other questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 406010,
-			actorName = "{namecode:467}&{namecode:412}",
-			say = "了解。\n没问题。",
+			actorName = "Weser & Z46",
+			say = "- Nope.\n- None from me.",
 			subActors = {
 				{
 					actor = 401460,
@@ -297,7 +297,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次训练没有进行过多细节设计。我们要做的就是在指定区域内战斗，消灭海面和天空中见到的所有敌人，直到整片区域中不再有任何敌人为止。",
+			say = "Good. Your objective for this training – or should I say, exercise – is simple: destroy all the targets in the area through any means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同时，为了配合本次训练，我对镜面海域的参数也进行了调整，本次战斗中被训练弹击中的真实感上升了15%，请大家务必注意。",
+			say = "It's worth noting that I've increased the ammo impact parameter by 15% to better prepare you for the real deal. Keep that in mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "斯巴达式训练……",
+			say = "Talk about Spartan training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不在训练中受伤，就会在战斗中丢掉性命。",
+			say = "A hit suffered during practice may hurt, but better that than losing your life in a real battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "饱含真实感的逼真训练，我们已经进行过无数次了。本日无非是距离真正的实战又更进了一步……",
+			say = "We have already been through a multitude of realistic combat scenarios. This is simply another on the long list of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说也是…我们每天都是这么过来的~{namecode:471}，训练能开始了么，我已经等不及想要体验一下全新“敌人”的手感了！",
+			say = "Well, if you say so, Z46... So! When are we starting? I'm raring to show off the fruits of my personal training!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很有干劲啊，{namecode:454}。嗯……时间正好，演习程序启动，作——————",
+			say = "It's lovely that you're so motivated, Heinrich. Then without further ado, our test of the facility starts–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出发~~~小铁加速，装甲舰冲锋~！！",
+			say = "Time to shine, Eisen! Let's show these Pawns what we're made of!",
 			action = {
 				{
 					type = "move",
@@ -454,7 +454,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………作战开始……",
+			say = "...now.",
 			effects = {
 				{
 					active = false,
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "毕竟，「每天都是这么过来的」呢。",
+			say = "Always off before the starting shot, that girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

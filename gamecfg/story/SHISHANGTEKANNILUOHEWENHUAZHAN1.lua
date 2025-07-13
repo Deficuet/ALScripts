@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_303",
-			say = "穿过展馆迷宫般的走廊，一道微光闪过，似乎昭示着我进入了一处不寻常的场所。",
+			say = "As I walk through a maze-like series of corridors, a sudden burst of light appears. Looks like I've set foot in a certainly unusual place.",
 			bgm = "story-egypt-mystic",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_303",
-			say = "空气中弥漫着若有若无的香气，突如其来的呼唤声在耳边响起。",
+			say = "A faint aroma wafts through the air, and suddenly, someone calls out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_303",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePainting = true,
-			say = "哼哼哼~居然有“小老鼠”闯入了圣殿啊。",
+			say = "Hehehe... Looks like a rat has gotten itself lost in the holy domain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,12 +59,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_303",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePainting = true,
-			say = "作为此处的守护者，我必须要给不速之客一点惩罚呢~",
+			say = "I am the guardian of this domain, and as an uninvited guest, you must face punishment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			live2d = "login",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "循声望去，身着华丽服饰的拉斐尔出现在我面前，双眸中闪烁着审视的光芒。",
+			say = "I look to where the voice is coming from and spot Raffaello, donning a fabulous outfit and staring at me like some sort of art critic.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不速之客，是指我么？",
+			say = "Uninvited guest? Who? Me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "大约是看出了我的错愕，拉斐尔飞速地向我解释了起来。",
+			say = "She acknowledges my evident confusion and promptly explains things.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "哎呀！这次可是沉浸式的体验哦~指挥官难道忘了？您也快点投入进来嘛！",
+			say = "Yes, you! Did you forget you're in an immersive experience? Stop fooling around and get into character!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（沉浸式体验……在参观这次举办的尼罗河文化展的时候，确实是有这么个前缀来着。）",
+			say = "(Right... Someone said something like that when I entered this Nile Cultural Exhibition.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（不过没想到是角色扮演的沉浸式……）",
+			say = "(Didn't expect that I'd be asked to roleplay, though...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "嗯~？嗯嗯嗯~？",
+			say = "Hm? Hello?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "不速之客哟，在我这个守护者面前居然还敢走神么？",
+			say = "Abhorrent intruder, how dare you space out before the guardian!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "看来我应该把你这个无礼之人直接变成雕像才行呢！",
+			say = "For this, your punishment shall be... being turned into stone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,18 +206,18 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（这就直接开始了么……那我现在就配合一下吧。）",
+			say = "(We're really doing this? Okay, I'll just play along for now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "向守护者祈求宽恕",
+					content = "(Beg for forgiveness.)",
 					flag = 1
 				},
 				{
-					content = "向守护者论证参观动线不合理",
+					content = "(Point out the flaw in the exhibition's tour route.)",
 					flag = 2
 				}
 			}
@@ -232,7 +232,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "守护者大人啊，我只是来参观的，一不小心误入了此处圣殿。",
+			say = "O Great Protector, I am but a tourist who haplessly wandered into your domain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "看在我是无心之失的份上，请允许我离开吧。",
+			say = "Please have mercy! This was an accident!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~让你离开也不是不可以哦。",
+			say = "Heheh. Your change in attitude might warrant a little mercy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 605081,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但是为了让你长长记性，你需要达成一个条件我才会放你走呢~",
+			say = "But I have to teach you a lesson, so I'll only let you go on one condition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我只是顺着道路正常向前走而已，直接就进入了这里。",
+			say = "You know, I was just following the path and wound up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "这是否意味着是圣殿的动线设计本身就存在问题，才会导致有人误入呢？",
+			say = "I think the fault isn't with me, but with how the tour route is laid out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 605081,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "这这这……",
+			say = "Uhh... Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 605081,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "放你走也不是不可以啦，但是我有一个条件！",
+			say = "Fine, I'll let you off the hook, but only on one condition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "条件？",
+			say = "What condition?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "非常简单，你只要把这壶中的“永恒之饮”喝完就可以走了~",
+			say = "It's simple! You just need to drink all of this Eternal Beverage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "拉斐尔说着，拿出了一个精致的酒壶。",
+			say = "As she says this, she produces an exquisite pot.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "壶身上镌刻着暗金色的花纹，里面的琼浆似乎闪烁着微光。",
+			say = "The pot has a dull gold pattern engraved on it, and the liquid inside gives off a faint light.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "来~喝吧喝吧~！",
+			say = "Go on! Drink up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她为我变出了一个酒杯，然后开始向其中倾倒着。",
+			say = "She pulls a cup out of nowhere and pours the liquid into it.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -436,7 +436,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "一杯又一杯，不论我饮下多少，那酒壶中的液体仍未减去分毫。",
+			say = "I drink the contents of one cup, and another, and another... No matter how much I drink, the pot gets no emptier.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -452,7 +452,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯？",
+			say = "Hey... What's going on here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "欸嘿嘿……现在才发现吗~？",
+			say = "Heehee... Finally figured it out, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "看着我困扰的样子，拉斐尔动作优雅地舒展了一下身体，露出狡黠的笑容。",
+			say = "She stretches her body with an elegant motion and flashes a mischievous smile. My confusion is but a joke to her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "这壶中的可是神明的恩赐呢~恩赐可是取之不尽的哦~☆",
+			say = "This pot has received a god's blessing. The blessing in question? A bottomless source!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "怎么办呢~这位闯入者，你要不要考虑放弃呀~",
+			say = "What will you do now, intruder? Give up while you're still ahead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 605081,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……原来如此，但我不怎么喜欢放弃。",
+			say = "...I see now. Unluckily for you, I don't give up easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "想要对抗眼前坏心眼的“神明”，我又接连饮下数杯。",
+			say = "In opposition to this malicious god, I stubbornly drink several more cups of the liquid.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -549,7 +549,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "但却像是在嘲笑我抵抗一样，壶中的液体依旧未见减少。",
+			say = "My struggle, however, is futile. The pot is still just as full as when I started.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "哎呀哎呀……从未遇到你这么完美的素材，我怎么会轻易放你离开呢？",
+			say = "Heheh... You've gotta be the best material I've ever seen. I'm not letting you leave just like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "不过你不用担心哦~我不会把你变成雕像的。",
+			say = "Don't worry, though – I won't turn you into stone or anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "毕竟我可是爱与美的守护者……伤害我心中爱与美的化身这种事，我可是做不到的呢~",
+			say = "For you see, I am the Protector of Love and Beauty. Hurting a perfect work of art like you goes against everything I stand for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605081,
-			say = "我只会把你永远留在这里。",
+			say = "So I'll be keeping you here. Forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "拉斐尔忽然压低了声音，一点点靠近我，嘴角挂着胜券在握的微笑。",
+			say = "She lowers her voice and draws closer, a smugly triumphant smile on her lips.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -632,7 +632,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你的一切，都值得我用永恒来描绘呢~♪",
+			say = "Because you're worth capturing in detail. Every little part of you. For eternity♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

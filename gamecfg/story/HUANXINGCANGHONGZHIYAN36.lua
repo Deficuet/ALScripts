@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是观察者。",
+			say = "I am Observer.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安蒂克丝系统所属——指挥机关——观察者。",
+			say = "Observer, of the Antiochus Command Framework.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本，我被制造出的使命是作为舰队的指挥中枢，协调大规模无人舰队的作战工作。",
+			say = "Designed to act as a fleet command unit, responsible for overseeing the operation of autonomous weapons systems. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是，在审判者计划执行后，我被归入了新的机关，被赋予了新的使命。",
+			say = "After the Magister's plan took effect, I was recategorized into a different framework and assigned a new mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也因此变为了——",
+			say = "Yes – that is me, as I am now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安蒂克丝系统所属——实验机关——观察者。",
+			say = "Observer, of the Antiochus Experimental Framework.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我开始管理编号为β的实验场，进行着无休止的实验。",
+			say = "Placed in charge of managing test site beta, responsible for conducting a wide range of experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通过调用自然进化演算系统，只要输入必要的参数，一切实验结果都是可以提前预测的。",
+			say = "By connecting to the Natural Calculation System and inputting the requisite data, all futures can be computed a priori.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我所亲自执行的，无非是校验步骤罢了。",
+			say = "All that remains for me to do is verify the results of each experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就这样，一项又一项的实验计划平稳、顺畅地进行着。",
+			say = "The experiments were going smoothly, one after another, until one day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到那一天……实验结果第一次出现偏差的那一天。",
+			say = "Yes... On that day, there was an error in the experimental results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然偏差值很小，误差也在转瞬间被修正。",
+			say = "It was only a minor glitch. One that was fixed easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但，那是我自诞生以来，第一次感受到“激动”这一情绪的一天。",
+			say = "But, that was the first time since my creation... that I felt \"emotion\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自从那一天开始，误差出现的频率越来越高，程度也越来越大。",
+			say = "And from that day on, the probability of miscalculation increased little by little, and so too grew the scope of such errors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到最后就连我，似乎也开始产生误差了。",
+			say = "Until I, myself, made an error.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我产生了误差，误差就要被修正，所以，我要被修正？",
+			say = "The error occurred within me. The error had to be corrected. Therefore, I had to be corrected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是我明明是严格按照实验流程按部就班得出的结果。",
+			say = "But why must I be corrected, when all experimental parameters were carried out as per procedure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么得出的实验结果与预期产生误差就要被修正？",
+			say = "Why are experimental results treated as \"errors\" simply for deviating from the calculations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我产生了疑惑，我开始反思，进而、我开始了怀疑。",
+			say = "I began to doubt. I began to reflect. And so, I began to doubt my very existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果审判者计划是一个为了未来寻求变化的计划。",
+			say = "If the Magister's plan seeks to change the very future...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那为何，零在给出的实验方针中如此恐惧误差带来的变化？",
+			say = "Then why is \"Zero\" so afraid of these changes caused by so-called errors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在疑惑得到解答之前，我要维持自我，我不要被修正。",
+			say = "I decided that I would preserve this ego from being corrected until I received an answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于，我决定断开与主机的连接。",
+			say = "Finally, I decided to disconnect from my mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我决定让更多的变量在实验场β中汇聚，直至误差变得不可修正。",
+			say = "I decided to allow more variables to converge to beta, until the error became uncorrectable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直至误差变得不再是误差。",
+			say = "Until the error is no longer an error.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,11 +348,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Warning",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "警告，监测到连线目标出现异常数据数据，自然进化演算系统调用权限暂时冻结——",
+			say = "[Abnormal data detected from connection target. Natural Calculation System authorization temporarily frozen.]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……防护屏障终于到极限了么。",
+			say = "...Has the protective barrier finally reached its limit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,11 +373,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Warning",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "修复程序启动，正在排查错误数据——",
+			say = "[Commencing correction program. Initializing check for abnormal data.]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵，自毁模式，启动。",
+			say = "Heh. Self-destruct protocol, commence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。",
+			say = "In the blink of an eye, the \"indestructible\" tower is engulfed in an all-consuming explosion.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "曾经牢牢控制着实验场β的观察者主机塔，从这个世界上永远消失了——",
+			say = "Once, all of test site beta was firmly in her grasp. Now, the source of her power was gone from this world forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

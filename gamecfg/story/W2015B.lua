@@ -10,14 +10,14 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：指挥官，特殊资源点上的塞壬设备开始运转了。",
+			say = "Scan complete. Siren device at special resource node has been activated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Got it.",
 					flag = 0
 				}
 			}

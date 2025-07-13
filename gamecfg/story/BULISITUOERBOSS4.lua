@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>四 小船当家</size>",
+					"An Exercise Gone Slightly Wrong\n\n<size=45>4. Bristol with the Master Plan</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_148",
-			say = "因为艾伦·萨姆纳的报告，演习队伍暂时停止了行动。布里斯托尔则抓住这个空档开始了她的“计划”。",
+			say = "Allen relayed orders for the exercise fleet to cease fire. Bristol saw this quiet time as an opportunity to execute a plan she hatched.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "xinnong-3",
@@ -55,7 +55,7 @@ return {
 			oldPhoto = true,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			say = "借着废弃的设施中不少可以利用的东西，她学着电影中的桥段布置了一个又一个“机关”。",
+			say = "A plan inspired by a movie she watched once. Using parts scavenged from inside the abandoned base, she built and laid traps all around the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "绊线机关、踏板机关全部设置完毕，这样防御就万无一失了。",
+			say = "Tripwires and booby traps are all set. Perfect! I'd like to see them get through this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "接下来就是在这里静静等待，等待转机的出现……",
+			say = "All I have to do now is lie and wait...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			say = "演习海域·废弃基地",
+			say = "Exercise area - Abandoned naval base",
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，{namecode:525}？你不是在休假中么，怎么也跑来这边了。",
+			say = "Ingraham? Why're you here? Weren't you taking some time off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…有些在意你们的情况，所以来看看。情况还好么？",
+			say = "Just... scoping out the situation. How's the exercise going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "不太好哦。根据指挥官的命令，在查明异常情况之前，演习暂停。",
+			say = "It's on hold for now, per the Commander's orders, until we get to the bottom of the weird occurrences that've been happening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "而且就在暂停之后，我们还遇到了更多奇怪的事……",
+			say = "And believe it or not, things have only gotten weirder since they first began...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "别告诉我是布里斯托尔说下雨了让你去送伞。",
+			say = "Let me guess: Bristol asked you to bring umbrellas 'cause it started raining?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这个倒没有，更何况今天一直都是晴天诶。",
+			say = "...No? There's not been a drop of rain the whole day. Why would she need umbrellas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "其实是刚才回来的其他同伴说的，她们在路过废弃设施的时候遇到了一些奇怪的事情。",
+			say = "Y'know what, never mind. As I was gonna say: the others told me they've had weird things happen while passing by this abandoned base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "像是什么不知道从哪里砸过来的油漆桶，踩一下就会喷水的地板，还有诡异的怪叫之类的……",
+			say = "Things like paint buckets being hurled at 'em, floor tiles that spray water at you when stepped on, and weirdest of all... eerie wailing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "我说，这个废弃基地真的没问题吗？之前见到布里斯托尔的时候也感觉她有些怪怪的。",
+			say = "Almost makes me think this place is haunted. Maybe that's got something to do with why Bristol was acting strange when I saw her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个嘛……毕竟是指挥官选的，大概有问题的不是这个地方吧……",
+			say = "Haunted? Please. Nothing unusual's happened the thousand other times we've been here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "话说指挥官在这边么？",
+			say = "Anyway, is the Commander around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "不在哦，好像去忙别的事情了。",
+			say = "Nope. Had to go straight into another meeting, apparently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在演习的代理指挥是我，有什么需要我帮你转达给指挥官的么？",
+			say = "The Commander's radio channel is open though. Want me to patch you through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没、没有……",
+			say = "Nah, no need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那你就随便转转吧，我还有事先走一步，休假愉快哦~",
+			say = "All righty then. Now if you'll excuse me, I've gotta run an errand! Have a good rest-of-the-day off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "…………没想到演习真的暂停了，还有接连不断的“异常事件”……",
+			say = "To think they actually put the exercise on hold... I wonder what's causing these \"weird occurrences.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好像变成大事了呢。",
+			say = "Occurrences? What'd I miss?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "库珀？！……你是什么时候过来的？！",
+			say = "Cooper? When'd you get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "这次演习也有我一份的哦……",
+			say = "I've been here all along! I'm part of the exercise fleet, y'know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "诶，给布里斯托尔的任务是你转达的么？",
+			say = "Been meaning to ask: was it you who told Bristol to head here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "是哦，而且我觉得已经说的很清楚了，没想到……",
+			say = "Yup. Not sure she got the message though. There were some technical difficulties with our comms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我好像大概猜到些什么了。",
+			say = "Hah, so I was right on the money.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "在废弃设施里对吧……？我这就去把暴走的布里斯托尔“抓”回来。",
+			say = "Seems that little miscommunication led Bristol to hole up here and cause us all a big headache.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:525}你的话，我觉得还是提前准备一份反省书比较好哦……",
+			say = "I'm gonna go in and catch the troublemaker. Meanwhile, you should probably start thinking about the formal explanation you'll be writing soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101480,
-			say = "我的假期……唔啊啊啊————",
+			say = "*sigh*... There goes the rest of my day off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_148",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:525}短暂的假期，从这一刻起彻底结束了。",
+			say = "It was this exact moment when Ingraham's brief period of R&R came to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

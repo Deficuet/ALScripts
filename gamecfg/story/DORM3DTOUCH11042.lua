@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是你，想怎样都可以哦~",
+			say = "I can do anything with you, honey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

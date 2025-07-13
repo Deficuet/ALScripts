@@ -1,8 +1,177 @@
 pg = pg or {}
 pg.enemy_data_statistics_19 = {
+	[90541] = {
+		cannon = 0,
+		name = "Helena META",
+		type = 2,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90541,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "hailunna_alter",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "hailunna_alter",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 97,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.179,
+					0.619,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.179,
+					0.619,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.193,
+					0.234,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.179,
+					0.619,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.44,
+							2.61,
+							-0.1
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90542] = {
 		cannon = 0,
-		name = "满潮",
+		name = "Michishio",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +327,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90543] = {
 		cannon = 0,
-		name = "扶桑改",
+		name = "Fusou Retrofit",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +483,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90570] = {
 		cannon = 0,
-		name = "量产型驱逐舰(IDOL) ",
+		name = "IDOL-Type DD (Mass-Produced)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -469,7 +638,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90571] = {
 		cannon = 0,
-		name = "量产型轻巡洋舰(IDOL) ",
+		name = "IDOL-Type CL (Mass-Produced)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -631,7 +800,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90572] = {
 		cannon = 0,
-		name = "量产型重巡洋舰(IDOL) ",
+		name = "IDOL-Type CA (Mass-Produced)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -799,7 +968,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90573] = {
 		cannon = 0,
-		name = "量产型战列舰(IDOL) ",
+		name = "IDOL-Type BB (Mass-Produced)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -967,7 +1136,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90574] = {
 		cannon = 0,
-		name = "量产型航空母舰(IDOL) ",
+		name = "IDOL-Type CV (Mass-Produced)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1136,7 +1305,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90575] = {
 		cannon = 0,
-		name = "自爆船(IDOL) ",
+		name = "IDOL-Type Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1282,7 +1451,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90576] = {
 		cannon = 0,
-		name = "模拟·亚美 ",
+		name = "Ami Hologram",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1428,7 +1597,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90577] = {
 		cannon = 0,
-		name = "模拟·真美 ",
+		name = "Mami Hologram",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1574,7 +1743,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90578] = {
 		cannon = 0,
-		name = "模拟·春香 ",
+		name = "Haruka Hologram",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1730,7 +1899,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90579] = {
 		cannon = 0,
-		name = "模拟·梓 ",
+		name = "Azusa Hologram",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1879,7 +2048,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90580] = {
 		cannon = 0,
-		name = "模拟·伊织 ",
+		name = "Iori Hologram",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2035,7 +2204,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90581] = {
 		cannon = 0,
-		name = "模拟·千早 ",
+		name = "Chihaya Hologram",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2190,7 +2359,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90582] = {
 		cannon = 0,
-		name = "龙宫城机关要塞",
+		name = "Dragon Palace Mechanics ",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2356,7 +2525,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90583] = {
 		cannon = 0,
-		name = "白龙",
+		name = "Hakuryū",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2506,7 +2675,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90584] = {
 		cannon = 0,
-		name = "狮级量产型",
+		name = "Mass-Produced Lion Class",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2661,7 +2830,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90585] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型",
+		name = "Mass-Produced Conte di Cavour",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2829,7 +2998,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90586] = {
 		cannon = 0,
-		name = "「Pawn」.SSSS",
+		name = "SSSS.Pawn",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2984,7 +3153,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90587] = {
 		cannon = 0,
-		name = "「Knight」.SSSS",
+		name = "SSSS.Knight",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3146,7 +3315,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90588] = {
 		cannon = 0,
-		name = "「Bishop」.SSSS",
+		name = "SSSS.Bishop",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3314,7 +3483,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90589] = {
 		cannon = 0,
-		name = "「Rook」.SSSS",
+		name = "SSSS.Rook",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3482,7 +3651,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90590] = {
 		cannon = 0,
-		name = "「Queen」.SSSS",
+		name = "SSSS.Queen",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3651,7 +3820,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90591] = {
 		cannon = 0,
-		name = "「Buster」.SSSS",
+		name = "SSSS.Buster",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3797,7 +3966,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90592] = {
 		cannon = 0,
-		name = "「Assassin」.SSSS",
+		name = "SSSS.Assassin",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3948,7 +4117,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90593] = {
 		cannon = 0,
-		name = "探索者武装:「漫游」",
+		name = "Augmented Scavenger: Wanderer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4104,7 +4273,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90594] = {
 		cannon = 0,
-		name = "追迹者武装:「铁卫」",
+		name = "Augmented Chaser: Guardian",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4260,7 +4429,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90595] = {
 		cannon = 0,
-		name = "领洋者武装:「侵袭」",
+		name = "Augmented Navigator: Invader",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4416,7 +4585,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90596] = {
 		cannon = 0,
-		name = "破局者武装:「毁灭」",
+		name = "Augmented Smasher: Annihilator",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4538,162 +4707,6 @@ pg.enemy_data_statistics_19 = {
 						{
 							-0.64,
 							2.22,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90597] = {
-		cannon = 0,
-		name = "执棋者武装:「宿主」",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90597,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "hangmu_gulite",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 20,
-		luck = 0,
-		antisub = 0,
-		scale = 120,
-		wave_fx = "movewave",
-		prefab = "hangmu_gulite",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.31,
-					1.38,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.07,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.31,
-					1.38,
-					0
-				}
-			},
-			plane = {
-				{
-					2.08,
-					3.91,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.67,
 							0
 						}
 					}

@@ -10,11 +10,11 @@ return {
 			bgm = "theme-camelot",
 			sequence = {
 				{
-					"实验场β·皇家",
+					"Test Site Beta - Royal Navy",
 					1
 				},
 				{
-					"阿瓦隆之门-银镜湖",
+					"Gate of Avalon - Silver Mirror Lake",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "在伊丽莎白率皇家众人离开的四小时后，海伦娜·META与孟菲斯·META准时来到了阿瓦隆之门内。",
+			say = "Four hours after the departure of the Queen's Light, Helena META and Memphis META arrived at the Gate of Avalon on schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "而后，在伊丽莎白·META留下的女王之光号车厢的带领下，我们与D小姐一同驶向了银镜湖底。",
+			say = "There, they boarded a car of the train left behind by Queen Elizabeth META and dove into the Silver Mirror Lake alongside Miss D.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,10 +63,10 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在D小姐以及D小姐语音包的双重提醒中，车门缓缓开启。",
+			say = "The train door slowly opens, amidst Miss D's yelling and the announcements using her voice data.",
 			bgm = "theme-undead",
 			location = {
-				"银镜湖·「鲸鱼」内部",
+				"Silver Mirror Lake - Inside the whale",
 				3
 			},
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "海伦娜·META与孟菲斯·META率先出门，在确认安全后，我也与D小姐一同正式踏入了神秘的「鲸鱼」内部。",
+			say = "After Helena and Memphis exit first to confirm it's safe, I walk out alongside Miss D and take my first steps into the mysterious whale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "助手助手！快看快看！这里是我的鲸鱼哦！",
+			say = "Assistant! Assistant, look, look! This is my whale!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "怎么样，很大吧！比伊丽莎白的车厢大多了吧(～~▽~)～",
+			say = "It's big, huh?! WAY bigger than Elizabeth's dumb train!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一下车，D小姐就得意地转起了圈，一副对此处了如指掌的样子——但是我知道，其实并不是。",
+			say = "As soon as we've alighted, Miss D turns to me proudly. She acts as if she knows everything about the whale, but I know that isn't true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "D小姐，你先和死神之影玩，我和海伦娜她们去四处看看。",
+			say = "Go play with Death's Shadow, okay? I need to look around with the METAs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "好吧——走吧，跟屁虫，助手要开始做正事了！",
+			say = "Okay! Let's go, stalker! My assistant has important work to do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "安抚好D小姐后，我开始认真打量起这片空间。",
+			say = "After calming her down, I start by surveying my surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一处不规则的混乱区域——是我对于这片空间的第一印象。",
+			say = "My first impression of the whale's interior is that it's a space of raw chaos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "被伊丽莎白认定为安全探索区的这处鲸鱼内部空间，南北长约三百米，东西宽约二百米。",
+			say = "This space, designated by Elizabeth as a safe place to search, is approximately 300 meters in length and 200 meters in width.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "最高处约有近百米，最矮处不足两米。",
+			say = "The highest point is nearly 100 meters high, but some spots only have two meters of vertical space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "最独特的景象是，这处空间内的所有设备和建筑都是顶部与天顶连接，而后向地面下垂的。",
+			say = "Most striking of all, though, is that all of the structures and machines in here hang down from the ceiling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "观察得如何，有什么想法么？",
+			say = "So? Any thoughts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "第一反应的话……这里的建筑修建方式不像是为人类准备的。",
+			say = "My first reaction... is that it certainly wasn't made for human use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "很显然。",
+			say = "Clearly not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "其他呢，有没有什么……比如看到哪里有既视感，或者突然想起来了什么？",
+			say = "Is there anything else, though? Any sense that you've seen it before, or any memories it might bring back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "完全没有，这次我就像在逛一处完全陌生的景点一样。",
+			say = "Not at all. It's like I'm seeing a tourist attraction for the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这样。",
+			say = "Hmm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "指挥官，我从地板上拆出了一块控制台，你要不要来试一试权限认证！",
+			say = "Commander, I pulled up a part of the floor and found a control panel. Can you try authenticating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……“拆出”?",
+			say = "You... pulled up the floor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "咳……经过结构分析后的安全拆出啦，等用完之后会复原的！",
+			say = "Ahem... I did it safely after a sound structural analysis. I'll put it back when we're done, I promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,14 +363,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "于是，我跟随孟菲斯·META来到了那处已经身处地板的控制台前。",
+			say = "I follow her to the exposed control panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "进行权限认证",
+					content = "(Attempt authentication.)",
 					flag = 1
 				}
 			}
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "控制台毫无变化。",
+			say = "Nothing changes on the panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………竟然，没有反应？",
+			say = "...Nothing happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "经常在关键时刻发挥作用的安蒂克丝系统内部权限认证，在此处遭到了阻碍。",
+			say = "My Antiochus system credentials have always come in handy when I needed them, but this time, they've failed me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "很遗憾，海伦娜，看来我对这东西没办法了……你那边有什么收获么？",
+			say = "Sorry, Helena, but I don't think this lead will get us anywhere. Have you found anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "其实在我们到达此处之后，我就开始尝试黑入了。",
+			say = "I've been trying to hack into the system here since we arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "收获嘛……目前只有一条，之前迪贝路在控制这里之后……在保护层里加了很多乱七八糟的东西。",
+			say = "I have found... one thing. When Devil seized this place, she added a bunch of things to the security layer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我需要时间逐个破解过去。",
+			say = "I'll have to remove them one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……听伊丽莎白说，迪贝路在控制鲸鱼后就一直试图控制它。",
+			say = "Elizabeth told me that Devil's been trying to take total control of the whale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也就是说……她在自己黑入的同时，还留下来了很多东西防止其他人黑入？",
+			say = "Does that mean that she left pitfalls to stop others from catching up while she's hacking it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "很坏吧？",
+			say = "Devilish, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "说实话……有点。",
+			say = "Honestly, yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "指挥官——我又拆出了一块控制面板，你要不要再来试试？",
+			say = "Commander! I've uncovered another control panel. Can you try again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嘘……等等，孟菲斯，先别拆了，别让D小姐看到了，我们还是等等海伦娜的黑入进度吧。",
+			say = "Shh. Keep this up, and Miss D's going to notice. Belay digging around for now and wait for Helena to work her magic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "喔——",
+			say = "Yes, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "轰隆隆————",
+			say = "RRRUMBLE...",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -612,7 +612,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……？你们听到什么声音了么？",
+			say = "Hmm? Do you all hear that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "好像是……震动的声音。",
+			say = "It's like an earthquake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "呜啊啊啊！！！糟糕，鲸鱼又要跑啦！！！",
+			say = "GAAAH! This is bad! The whale's escaping again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "又要跑了……？你是说鲸鱼正在启动么？",
+			say = "Escaping? Are you saying that the whale is turning on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "没错，没错！是谁在控制我的鲸鱼启动的，是谁(▼へ▼メ) ！",
+			say = "Yeah, yeah! Who turned my whale on?! Out with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……情况不对，指挥官，我们立刻撤离。",
+			say = "Something is terribly wrong. Commander, we must retreat at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哦对……我们快出去，不然就要被鲸鱼带走了！！！",
+			say = "Oooh, yeah. We gotta get outta here, or else the whale's gonna take us with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "轰隆隆————",
+			say = "RRRUMBLE...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "鲸鱼的抖动频率急剧上升，仿佛即将向着未知的目标启航。",
+			say = "Its struggles quickens, as if it's desperately trying to set sail for new worlds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而伴随着抖动，海伦娜·META、孟菲斯·META，甚至女王之光号列车的车厢都在变得模糊，如同正在被鲸鱼本身所排斥一样。",
+			say = "As it rumbles, Helena, Memphis, and even the Queen's Light's cars begin to blur as the whale tries to expel them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……被算计了。孟菲斯，不要离开我身边。",
+			say = "She's got us. Memphis, stay by me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "快保护指挥官！",
+			say = "Protect the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "还用你说。构建者，去——",
+			say = "Trust me, I was already planning to... Go, Compiler.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "蓝色的洪流在轻拂而过，全副武装的构建者出现在了我的身旁。",
+			say = "A blue current rushes forth, and Compiler appears, equipped with her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指令已确认：不惜代价保护指挥官。",
+			say = "Orders received: Protect the Commander at all costs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "坚守岗位，然后等我联络。",
+			say = "Don't leave your post until you hear from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,7 +838,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜！",
+			say = "Helena!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不要离开构建者的身边，我会尽快找到你的。",
+			say = "Commander, don't leave Compiler's side. I'm going to find you ASAP.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "愈发密集的抖动中，海伦娜与孟菲斯早已不知所踪，我也只能勉强感受到身边构建者和D小姐的存在。",
+			say = "The shaking intensifies further until the METAs disappear. I can barely feel the presence of Compiler and Miss D...",
 			bgm = "bgm-waterwave",
 			typewriter = {
 				speed = 0.05,
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，一切声音都消失了。",
+			say = "And then, everything goes silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "世界，变为了纯白——",
+			say = "The world turns a pure white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

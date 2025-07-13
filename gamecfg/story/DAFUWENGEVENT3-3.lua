@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "参加新年演出获得大人气，获得了奖励【心智单元*150】"
+			say = "Your act at a party was very well received! Collect 5 Royal Gourmet!"
 		}
 	}
 }

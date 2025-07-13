@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "圣殿地下·女神主机所在地",
+			say = "Temple Underground - At the Central Unit of the Goddess",
 			bgm = "battle-nightmare-theme",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "宽广的大厅中央，矗立着一台从地面连接到天花板上的庞大机器。",
+			say = "At the center of this vast room stands a colossal machine, towering toward the heavens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,21 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "机器外壳由不规则的黑色金属片构成，金色的纹路游走其中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "（……金色纹路？作为塞壬机械来说还真是少见。）",
+			say = "An irregular, metallic shell encases it, covered in patterns and designs carved with gold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +61,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过还好，看上去只是一台比较大的机器设备而已。）",
+			say = "(What are these gold patterns? That's very unusual for the typically-utilitarian Sirens.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,11 +75,25 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（最开始听到“主机”这个词的时候，我还一度担心需要面对一座塞壬主机塔呢……）",
+			say = "(At any rate, I'm glad this machine isn't THAT big.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(Here I thought we'd have to deal with a city-sized structure, like the elite Sirens have.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人类，女神主机就在那里，去完成你的使命吧。",
+			say = "There is the central unit, human. Fulfill your mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "幻想号停留在大厅边缘，用触手示意我一个人独自前去检查。",
+			say = "Fancy stands in a corner of the massive room and gestures to the machine with a tentacle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,21 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "看来此处应该是相对安全的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "（我对于塞壬机器确实没什么操作经验，不过……应该至少能收集到些情报。）",
+			say = "Everything appears to be safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,33 +140,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（机会难得，检查一下吧。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "滴——滴滴——滴——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "就在靠近机器的途中，特米娜露突然出现了反应，一直沉寂的屏幕也亮了起来。",
+			say = "(I've never directly operated Siren machinery before... but it shouldn't be too hard to at least extract some info from it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,24 +154,33 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特米娜露……？",
+			say = "(Besides, what else should I do? Nothing?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
-			actorName = "魔导书·特米娜露",
-			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在，指挥官{playername}阁下。",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "BEEP BEEP! BEEP BEEP! ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "As soon as I approach the machine, the tablet in my backpack starts to beep. Terminal comes back to life and lights up all of a sudden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,11 +190,24 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（居然启动了……！难道真的有什么神奇的……一靠近指定区域就会自动修复的技术？）",
+			say = "Terminal? Are you back?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Grimoire Terminal",
+			bgName = "bg_jufengv2_2",
+			factiontag = "Ancient Artifact",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Terminal on standby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,24 +217,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特米娜露，汇报当前状况。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "魔导书·特米娜露",
-			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "检测到能源供应场，正在充电中。",
+			say = "(It just... started working again? Or did it activate by being in close proximity to the machine?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +231,24 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "Run a self-diagnostic.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Grimoire Terminal",
+			bgName = "bg_jufengv2_2",
+			factiontag = "Ancient Artifact",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Charging field detected. Engaging charging mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,11 +258,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（所以……之前只是因为没电了么。）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +272,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（之前从没听维达说过充电的事，看来这个设备充一次电，可以使用相当长的时间啊。）",
+			say = "(It was just out of batteries this whole time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,22 +286,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（塞壬的这项科技倒……确实不错。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "来到女神主机前，经过一番并不费力的寻找，我便找到了那个塞壬设备上基本都会设置的可视化操作窗口。",
+			say = "(Whydah didn't say anything about charging it, so it should work fine after this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,37 +300,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有权限认证……特米娜露，能处理掉这个么？",
+			say = "(Siren tech is mighty convenient.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
-			actorName = "魔导书·特米娜露",
-			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正在处理中——处理完成——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			side = 2,
-			actorName = "女神主机·栞佩拉之翼",
 			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "验证已通过——女神主机·栞佩拉之翼系统为您服务，指挥官{playername}阁下。",
+			say = "Examining it, I quickly locate the visual interface you often see on Siren machinery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +325,37 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（成了……！）",
+			say = "I need access privileges. Terminal, can you hook me up?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Grimoire Terminal",
+			bgName = "bg_jufengv2_2",
+			factiontag = "Ancient Artifact",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Orders received. Processing... Processing complete.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Central Unit - Compiler's Wings",
+			bgName = "bg_jufengv2_2",
+			factiontag = "Ancient Artifact",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Verification complete. I'm Central Unit - Compiler's Wings, at your service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,11 +365,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……栞佩拉之翼？栞佩拉……是女神的名字么？）",
+			say = "(It worked!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,11 +379,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过这个世界的典籍里，似乎并没有记录过女神的名字……)",
+			say = "(Interesting. \"Con Pyler Swings.\" Is that the Goddess' name?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,11 +393,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（栞佩拉……Kanpeila……？Canberra……？）",
+			say = "(I don't remember any of the books in this world alluding to her name before, but maybe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,11 +407,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……Compiler，构建者？！）",
+			say = "(Wait... Con Pyler Swings...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,11 +421,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……上次遇到一个出错的提斯塔已经够奇怪的了，现在又出现了一个栞佩拉之翼？）",
+			say = "(Is it... \"Compiler's Wings\"?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,22 +435,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……这个世界的塞壬是怎么回事啊。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "因为担心病毒在关键时刻捣乱，我优先查看了系统的安全性设置。",
+			say = "(Last time, it was Tester who'd gone nuts. It must be Compiler this time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,11 +449,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（状态栏显示，系统的上一次自检就在两小时前。）",
+			say = "(I'd bet every Siren in this place has a few screws loose.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "I want to ensure the virus won't interfere, so I start by running a security check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,11 +474,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（自检结果……一切正常？）",
+			say = "(The status bar says the last self-diagnostic was performed two hours ago.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,11 +488,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（奇怪，幻想号明明说主机是因为遭受了病毒的侵蚀才发生的异常。）",
+			say = "(Weird... It says it's \"working as normal\"?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,11 +502,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（怎么会一切正常……？）",
+			say = "(There should be a virus infecting the central unit which gave rise to the skelebeasts, if Fancy is to be believed.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,22 +516,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（以防万一，再启动一次吧。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "再次启动系统的自检程序后，我开始寻找日志存放区，搜索着任何可用的文件报告。",
+			say = "(That can't possibly be how the system is meant to operate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,11 +530,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "《大气环流调整计划》……《深层海洋生物改良计划》……",
+			say = "(I'll run another self-diagnostic, just to be sure.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "Once the task is complete, I pull up the logs and examine them for any useful information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,11 +555,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "《热带、亚热带海洋性气候适应性调整实验计划》……《「寂静之灵」-心智魔方拓展应用研究》……",
+			say = "Look at these files... The Atmospheric Circulation Adjustment Project... The Deep Sea Life Enhancement Project...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,11 +569,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这些都是构建者的这台设备在自发进行的实验计划么……）",
+			say = "The Tropical and Subtropical Marine Climate Adaptation Experiment... Silent Souls – Research on the Development of Wisdom Cube Applications...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,11 +583,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……看来，外界认为的女神所发生的“异常”，有部分本就实验内容的一环。）",
+			say = "(It sounds like Compiler's machine has been running experiments by itself.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,11 +597,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过……还有些对不上的地方。）",
+			say = "(Safe to say, everything that's gone wrong with the \"Goddess\" links back to these projects.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,11 +611,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（气候调整并不包括凭空创造出扭曲的风暴，寂静之灵的应用研究里，也没有提到骸骨兽作为躯体的部分……）",
+			say = "(Although, there are a few things this doesn't explain.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,22 +625,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（现在在世界上发生的异常事态，和塞壬原定的实验计划存在偏差……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "这时，系统的自检结束了，自检结果依然是一切正常。",
+			say = "(\"Adjusting the climate\" doesn't whip up storms in an instant, and this research into the silent souls makes no mention of ship parts or skeletons.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,11 +639,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……难道，系统并非出现了病毒，而是在这之前，被人为调整过？）",
+			say = "(That makes me think what's actually happening in the world is misaligned with what the Sirens had in mind.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "The self-diagnostic concludes, and the screen only shows the words, \"Nothing unusual.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,33 +664,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这样的话，是谁？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "回忆着从{namecode:525:英格拉罕}和海伦娜那里学到的相关知识，我试着寻找起系统中留存的蛛丝马迹。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "不过很快，这项努力就被证明为徒劳而无功的。",
+			say = "(Maybe it's not a virus... Maybe someone has tampered with the system?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,11 +678,33 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（技术还是不到家啊……）",
+			say = "(But then, who?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "Remembering the computer knowledge Ingraham and Helena taught me, I scour the system for any clues that might've been left behind.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "Despite my best efforts, I realize after a while that it's beyond my abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,11 +714,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（第一反应的话，存在于此处，又能够自如操控塞壬设备的幻想号嫌疑最大。）",
+			say = "(No dice...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,22 +728,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（但如果是这样的话，她没有理由带领我前来此地，又放任我对系统进行检查。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "回头看向静静站立在远方的幻想号，少女疑惑地歪了歪触手。",
+			say = "(The only people who can do anything are me and Fancy... Actually, is it possible that she did the tampering?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,11 +742,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（此处作为女神教会的隐秘圣地，一直以来都处在女神教会的控制之下，难道是女神教会……）",
+			say = "(No, that makes no sense. She wouldn't have led me here if she did.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "I turn around and look at her. She seems to shrug with her tentacles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,11 +767,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（教会对于女神系统做出了某些调整，然后导致了未曾预料的灾厄发生……这倒是可以作为一个推论。）",
+			say = "(This is a temple. A holy site dedicated to the Goddess. It's not out of the question that some internal sabotage took place within the Church.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,11 +781,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过若是如此的话……冈依沙瓦号对于此事知情么？）",
+			say = "(Or maybe someone just touched it without knowing the consequences and broke something.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,11 +795,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（还是说，她也只是一个被卷入其中的棋子呢……）",
+			say = "(If it was someone from the Church, does Sawai know about it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,11 +809,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（对了，她之前提到有一条可以从圣殿内部开启的密道。）",
+			say = "(I suppose she could know as little as I do...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,22 +823,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（如果能找到的话，就能把所有人都接进来了。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "在特米娜露的帮助下，密道被顺利启动了。",
+			say = "(Oh yeah, didn't she say there was a secret path that connects to the outside?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,11 +837,22 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（女神系统的存在，早已成为了这个世界的一部分。）",
+			say = "(I just need to find that, then lead all the others in here.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "With Terminal's help, I unlock the secret passageway leading to the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -876,11 +862,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（从实验记录来看，之前的诸多调整对于维持这个世界稳定来说也是利大于弊。）",
+			say = "(They say the Goddess has been a part of this world longer than anyone remembers.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,11 +876,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（女神的异常状况是最近才出现的……也就是说……）",
+			say = "(If these experiment logs are to be believed, the Sirens have actually helped keep the world in balance.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,24 +890,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特米娜露，你有办法修改系统中的某些实验计划，然后将女神主机的系统状态恢复到一个较为早期的版本么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "魔导书·特米娜露",
-			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我可以。要开始处理么，指挥官{playername}阁下？",
+			say = "(The influence of the \"Goddess\" only weakened very recently, so with that in mind...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,11 +904,24 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……算了，先不用处理。",
+			say = "Terminal, is it possible to revert the experiment plans and restore the system to an earlier version?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Grimoire Terminal",
+			bgName = "bg_jufengv2_2",
+			factiontag = "Ancient Artifact",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Yes. Would you like to do that now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,11 +931,25 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是飓风船团的世界，对于女神主机的处置方案，就等所有人到齐后投票表决吧。",
+			say = "Not yet. Later.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "This is Tempesta's world, and it's up to them to decide what to do with the Goddess machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

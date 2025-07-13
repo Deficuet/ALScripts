@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>四　难以言表</size>",
+					"A Whirlwind Romance\n\n<size=45>4 Hard to Explain</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（唉……上次电影里的女主角，为什么选择跟意中人分手呢……换做是我肯定不会做出这种选择。）",
+			say = "(Sigh... the heroine from the movie I watched last time... Why did she choose to say goodbye to the one she loved? I can't stand it...)",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽然能理解她是在考虑了对方的立场之后做出的选择……但只要有爱，两人之间的墙壁一定能有办法……）",
+			say = "(I understand that she did it out of consideration for her partner's position, but... surely there's a way to pull through as long as there's love...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……唉。",
+			say = "*Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说普林斯顿，在那边的是卡萨布兰卡吧？",
+			say = "Look, Princeton. Is that Casablanca over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，她看上去好像正在想事情。",
+			say = "Yup. She looks awfully lost in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听说她最近当了秘书舰，可能是有什么烦心事吧。",
+			say = "That reminds me, I heard that she recently became the secretary ship. Maybe she has a lot of stuff to think about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（然后两人就一直没有互相坦白……就像我和指挥官一样……）",
+			say = "(And she never even confessed... kind of like me and Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡萨布兰卡，你还好吗？",
+			say = "How are you doing, Casablanca?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊？！！",
+			say = "Hwah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇？！怎、怎么了？",
+			say = "Woah, what happened?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱、抱歉。没注意到附近有人……",
+			say = "Huh...? Oh, um, my apologies. I wasn't watching where I was going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想什么呢那么专心？要是有烦恼的话可以找我商量的哦。",
+			say = "Something must really be bothering you... Whatever it is, I'll be glad to lend an ear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（如果是巴丹她们的话，说不定可以……）",
+			say = "(Maybe Bataan would be able to understand...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（坦白自己的爱好，以及和指挥官之间的各种的……）",
+			say = "(About my hobbies... and about me and Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…？！我，我这是在想什么…）",
+			say = "(Wait, huh?! ...Just what's gotten into me?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没、没什么……也不是什么需要商量的事……",
+			say = "Um, it's alright, it's nothing serious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这不像平时的你啊，卡萨布兰卡。你没有在勉强自己吧？",
+			say = "You're not acting your normal self, Casablanca. It's like you're pushing yourself way too hard or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不是那样的……只不过就是……",
+			say = "Th-that's not really the case... If anything, it's that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是——什么呢？",
+			say = "What is it then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（自己代入了爱情电影的女主角然后想事情想过头了……这种事实在说不出口啊……）",
+			say = "(There's no way I can tell them that I was just comparing myself to the heroine of a romance movie... Gosh, that'd be so embarrassing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接、接下来说的是某两个舰船的故事――――",
+			say = "Well, um, let's just say that there hypothetically were two shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（对，这里就想办法把电影里描写的门第之差，模糊成普通的组织内上下级之差就好……）",
+			say = "(Yeah, I'll try to cover it up by comparing it to some hierarchical relationship in the fleet!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——就是这样…互相隐瞒了身份的两人，一旦暴露了原本的身份就没法像之前那样相处了吧？",
+			say = "—So that's the gist of things. Two people who've concealed their status from each other. Once those facts get revealed, there's no way they'd go back to the way things were before, right?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -461,7 +461,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本对等交往的两人，在身份暴露变的不平等的瞬间就将迎来悲伤的离别……不觉得太过分了吗？",
+			say = "For two people who are in an equal relationship, wouldn't it be way too ridiculous to introduce some inequality between them that would split them apart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……在同一个港区里真的会有离别吗？就算所属的地方变了，作战的时候还是会经常见面的吧。",
+			say = "Uhh... Do we have any notions of status here at port? I mean, even if you're reassigned somewhere, you'll still run into everyone at some point during battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……？啊，那，那是……",
+			say = "Huh? Oh... Good point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 107290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且，互相清楚对方的身份的话，更清晰的立场应该更有利于作战才对……",
+			say = "Besides, knowing that one person is the boss while the other is a subordinate... isn't that more conducive to the flow of combat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，不是这样的……我想说的是那种，由于至今为止的关系发生了变化，而没办法再像以前那样相处的“悲伤”……",
+			say = "Th-that's not exactly the case... It's more like being unable to go back to having the same relationship as before, and the \"sorrow\" that comes from that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,8 +565,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "普林斯顿&巴丹",
-			say = "为什么会在这里出现“悲伤”？",
+			actorName = "Princeton & Bataan",
+			say = "What does \"sorrow\" have to do anything?",
 			subActors = {
 				{
 					actor = 107290,
@@ -591,7 +591,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊……也，也不是这个意思！",
+			say = "Uhhhh... I, I didn't mean it like that! It's just that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（到底该怎么描述这份心情呢……）",
+			say = "(How do I even explain this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官和秘书舰，从一开始就该是上司和下属的感觉…但是对着坦率询问我的指挥官，我不知不觉间…）",
+			say = "(The relationship between the commander and the secretary ship should be one of boss and subordinate, and yet... because Commander keeps listening to me, it's as if...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（啊啊，是我想太多了吗……）",
+			say = "(Ugh... Why am I overthinking this in the first place...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

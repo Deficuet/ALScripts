@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "就差一点点了喵～",
+			say = "Almost there, nyaa~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "准备好就出发喵～{namecode:98}在港区等着指挥官回来喵～",
+			say = "I’m ready to go~ {namecode:98} is going to the port waiting for the Commander to return. Nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

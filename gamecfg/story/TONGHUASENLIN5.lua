@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>五　慵懒的小红帽</size>",
+					"Adventures in the Forest of Fables\n\n<size=45>5 Little Red Lying Hood</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "继续沿道路前进，身边树木逐渐稀疏。终于，几座房子出现在了眼前。",
+			say = "As I kept walking past the open field the greenery became sparser and sparser until eventually I found myself in some sort of village.",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "一个小村落……怀表兔的家会不会也在这里呢。",
+			say = "\"I wonder if one of these houses is where the White Rabbit lives.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "选择了距离道路最近的一间红顶小房子。",
+			say = "There was only one way to find out. I went up to a small house with a red roof.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			},
 			options = {
 				{
-					content = "推门而入——",
+					content = "\"Anyone home?\"",
 					flag = 1
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到小红帽的房间，你是来吃我的大灰狼么？",
+			say = "You've entered Little Red Riding Hood's house. Who are you? The Big Bad Wolf that's come to eat me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "原来这里不是怀表兔的家。",
+			say = "Needless to say, I had not found where the White Rabbit lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "不过，躺在床上等大灰狼来吃的小红帽也有些……",
+			say = "What I did find was a bizarre sight. For some reason, Little Red Riding Hood was lying on her bed in wait for the Big Bad Wolf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			},
 			options = {
 				{
-					content = "你不逃跑么？",
+					content = "\"Why are you just... lying here?\"",
 					flag = 1
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不会逃跑，因为我是慵懒的小红帽。",
+			say = "Because I'm a defenseless girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "懒到只想躺在床上睡觉。",
+			say = "And I'm trying to get into my role by assuming the most vulnerable position such a girl would be in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大灰狼肯定会来的。",
+			say = "I know the wolf is around here somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果没来我家，估计是先去别人家了。",
+			say = "Search the other houses and you will find it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你要是想代替大灰狼吃了我也可以。",
+			say = "Yes, I'm sure of it now – you're not the wolf. You don't even have jaws big enough to eat me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你没有大灰狼那么大的嘴巴，应该吃不掉我吧。",
+			say = "And even if you were to try, I'd simply gut you with my lance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你不是大灰狼，那我就要继续睡觉了。",
+			say = "So, you may leave. I must get back to rehearsing my defenseless girl act.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 901131,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走的时候顺便帮我把门关上吧，非常感谢。",
+			say = "Remember to close the door on your way out. Le Malin insisted I should rehearse in solitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对了，作为帮我关门的回礼，你可以把旁边的红色斗篷拿走哦。",
+			say = "Close the door for me, and you may take that spare red hood by the entrance for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "拿着红色斗篷若有所思的离开了小红帽的家。",
+			say = "Little Red Riding Hood sent me out of the house, though I did get a red hood as a parting gift... for whatever reason.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "附近还有一座看起来能进入的房子，那里应该就是怀表兔的家了。",
+			say = "\"I guess I'll have another look around for the White Rabbit's house.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "也许大灰狼也在里面，看来要提高警惕才行——",
+			say = "\"That wolf could mean danger, though. I'll need to be on my toes...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

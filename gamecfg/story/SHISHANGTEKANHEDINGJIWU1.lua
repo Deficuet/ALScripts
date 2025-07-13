@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚咚咚——！",
+			say = "*bum bum bum!*",
 			bgm = "story-nonightcity",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "伴随着强力的鼓点，眼前陌生的舞台之上，箱子的幕布“唰”地一下卷起——",
+			say = "With a powerful, rhythmic drum beat, the curtain rises, revealing a huge box on stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "华光乍现，幻梦摇曳……这转瞬即现于汝眼前的魔术，汝可喜欢？",
+			say = "Dazzling light, wavering dreams... How did the magic that allowed this one to appear before you in an instant look to your eyes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,18 +65,18 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "礼花炸开，聚光灯如梦如幻地笼罩在箱中少女的身上，与我对视时，她绽放出甜美的笑靥。",
+			say = "A shower of confetti bursts as a spotlight lights up the box and the girl inside. When we lock eyes, she smiles sweetly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我很喜欢。",
+					content = "It's awesome!",
 					flag = 1
 				},
 				{
-					content = "这是怎么办到的？",
+					content = "How did you do that?",
 					flag = 2
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "这种形式很新颖，我很喜欢。",
+			say = "Very unique! I like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 307084,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "汝喜欢便好，欢迎步入妾身特地为汝准备的梦境。",
+			say = "This one is glad that you enjoyed it... Welcome to the dreamscape this one has crafted just for us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "这是怎么办到的？莫非是{namecode:182:信浓}又进入了我的梦境么？",
+			say = "Help me figure this out. Did you come into my dreams again, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 307084,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不错。正是妾身进入了汝的梦境，为汝编织了此般奇术舞台。",
+			say = "Yes... This one entered your dream and created this magical stage for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "啊……还有，妾身险些将此事忘了……",
+			say = "Ah... Something very important nearly slipped my mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			live2d = "main4",
 			withoutActorName = true,
 			side = 2,
-			say = "她说着，慢悠悠抬手，对我比出了俏皮的“V”字手势。",
+			say = "Shinano slowly raises her hand and flashes a playful little peace sign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "驱逐舰们告知妾身，此般举止能够传达欢欣之意……",
+			say = "The destroyers taught me that this \"peace sign\" should convey joy to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:182:信浓}顿了顿，又在箱子中动了动，无奈尾巴几乎填满了箱子，她无法自如行动。",
+			say = "She tries to move inside the glass box, but her tail takes up so much space that it's hard for her to get anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "抱歉，此箱子的尺寸与妾身原先所想略有偏差，倒是稍显局促了……",
+			say = "Alas... The box is a little more cramped than this one intended. Apologies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "既然是在梦中，箱子的尺寸{namecode:182:信浓}不能调节么？",
+			say = "But aren't we in a dream? Can't you just make it bigger at will?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "魔术之奥妙，便藏在这箱中……若是妾身轻易调节了，便会失去惊喜。",
+			say = "The secrets of my magic are hidden in this box... If this one so readily adjusted it, the mystery would be gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯？莫非这箱子有什么机关么？",
+			say = "Hmm? So there is a mechanism, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "既然好奇，不如上前一探究竟？",
+			say = "If you wish to know... then come closer and look...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "走上舞台，围绕着箱子检查了一圈，并未发现机关。",
+			say = "I go up to the stage and look around the box, but I find no obvious mechanism.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（箱子周围并无异常，那机关会是玻璃本身么？）",
+			say = "(Nothing around the box... Does that mean the mechanism is the glass itself?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:182:信浓}带着睡意的慵懒目光一直跟随着我移动，直至我来到了她的面前——",
+			say = "After I finish investigating, I circle back and stand in front of Shinano, her drowsy yet still enchanting eyes never leaving me for a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "带着几分探查之意，我将手放在了玻璃上。",
+			say = "Curious, I gently place my hand on the glass separating us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "而她也将手覆了上来，隔着玻璃与我的手交叠。",
+			say = "She does the same, her hand overlapping mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她靠得很近，温热的气息在玻璃上晕开一片朦胧。",
+			say = "She leans in closer, and her warm breath fogs up the glass...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "深邃神秘如海洋一般蓝色眼眸中盛满柔情。",
+			say = "And her enigmatic ocean-blue eyes shimmer with tender affection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "汝找到机关了么？",
+			say = "Did you find it now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "没有找到。",
+			say = "No, not yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "呵呵，汝不妨再靠近些，检查一番箱子内部呢？",
+			say = "Heehee... Then why not come inside...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 307084,
 			actorName = "{playername}",
 			live2d = true,
-			say = "内部？难道不是要找到机关才能打……",
+			say = "Inside the box? But how am I supposed to get it open if I don't know the trick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "话还没说完，面前的玻璃便化为柔和的光粒逐渐飘散消失。",
+			say = "The glass in front of me suddenly turns into soft, dissipating particles of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "失去了面前玻璃支撑的{namecode:182:信浓}，纤长而柔软的手指借势与我十指紧扣。",
+			say = "With her support gone, Shinano falls forward. Her soft, slender fingers intertwine with mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "单薄的布料难以掩盖的温热柔软与我紧紧相依。",
+			say = "I feel her warmth and softness through the sheer cloth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "这才是这机关的精髓，指挥官。",
+			say = "This is the true mechanism, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "舞台上的灯光渐渐黯下，毛茸茸的尾巴缠了上来，将我与她包围。",
+			say = "The stage lights around us gradually dim, and her fluffy tail wraps around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307084,
-			say = "妾身予汝的美梦，还未结束……",
+			say = "And our dream has only just begun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

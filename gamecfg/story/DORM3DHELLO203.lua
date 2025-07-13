@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，快请进，要喝杯茶吗？我想想……正好有上好的绿茶呢，而且……我也还有些想法想和你分享。",
+			say = "Welcome, {dorm3d}. Care for a drink? I happen to have some premium green tea ready. Oh, and I also have a few ideas I'd like to share with you.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello3",
 			typewriter = {
 				speed = 0.05,

@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快放开爱小姐！要上了哦，{namecode:13}！",
+			say = "Let go of AI! Ikazuchi, we’re going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随时可以，{namecode:14}！去吧！",
+			say = "Ready when you are, Inazuma! Taaaake this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400010,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "………！？",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			dir = 1,
-			actorName = "{namecode:13}＆{namecode:14}",
-			say = "「「秘技・雷电乱射！」」",
+			actorName = "Ikazuchi & Inazuma",
+			say = "“Secret Technique: Raiden Overload!”",
 			effects = {
 				{
 					active = true,
@@ -88,7 +88,7 @@ return {
 			withoutActorName = true,
 			actor = 10400010,
 			dir = 1,
-			say = "咚！",
+			say = "KABOOOM!!",
 			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！打败抓住爱小姐的绊爱(伪)了！",
+			say = "We did it! We managed to free AI from the grasp of that clone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱，没事吧？…有受伤吗？",
+			say = "Kizuna AI, are you all right? Did you get hurt...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "呜呜呜呜呜——谢—谢———",
+			actorName = "Kizuna AI",
+			say = "Waaaahh... Th-thanks... Urghhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，爱酱！接下来可不能再像这样一个人冲在前面了啊！",
+			say = "Jeez, AI, you have to stand on... your own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,8 +224,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "呜——对不起～～～～～",
+			actorName = "Kizuna AI",
+			say = "Waaah... Sho... sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "乖乖，绊爱不哭不哭",
+			say = "There, there. Good girl, good girl~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

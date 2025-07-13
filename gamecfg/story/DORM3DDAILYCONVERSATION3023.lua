@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "点心，安克雷奇，之前不会做……但，安克雷奇偷偷学习了！",
+			say = "Anchorage couldn't make desserts before... but I learned how this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "做给{dorm3d}吃！{dorm3d}，喜欢什么？",
+			say = "I'll make you some! What do you like, {dorm3d}...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,18 +69,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "马卡龙、蒙布朗……还有，柠檬塔、拿破仑……",
+			say = "Macarons, Mont Blanc... lemon tarts, Napoleon cake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "种类好丰盛！",
+					content = "You've learned a lot!",
 					flag = 1
 				},
 				{
-					content = "安克雷奇好厉害！",
+					content = "Great job, Anchorage!",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……那些……安克雷奇都不会……！食谱很难……曲奇，安克雷奇，可以！",
+			say = "Oh... Anchorage can't make those! The recipes are too hard... but Anchorage can bake cookies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "硬邦邦，曲奇！{dorm3d}，尝一尝！",
+			say = "Hard cookies...! Try some, {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

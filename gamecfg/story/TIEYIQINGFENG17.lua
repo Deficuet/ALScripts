@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·重樱所罗门群岛基地",
+					"Sakura Empire - Solomon Islands Base",
 					1
 				},
 				{
-					"白鹰所罗门群岛方向特混舰队",
+					"Eagle Union Fleet",
 					2
 				},
 				{
-					"虚像幻境中",
+					"Post-Breach Illusion Breach",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "在击破了几轮阻挠的敌舰后，印第安纳一行人带领企业如法炮制，用符咒进入了幻境之中。",
+			say = "Having dispatched waves of enemies in their way, Indiana's and Enterprise's fleet then created a torii gate and breached the illusion.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "幻境之中，无边无际的樱花林在海域中延展着。视线的远方，还矗立着一棵枯萎的巨树。",
+			say = "The illusion seen from the inside was like a sprawling forest of cherry blossoms, with a lone, giant, withered tree towering in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "花朵……明明应该代表生机才对。",
+			say = "You know, flowers are a symbol of life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "这里繁花似锦，可看上去却如此衰败……",
+			say = "And yet despite how many there are in here, it just feels so desolate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "这就是困住重樱众人的虚像幻境么……",
+			say = "Is this really it? The illusion that's trapped our Sakuran friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "……海域中有战斗的痕迹，很新。",
+			say = "I see signs of fighting. They look fresh, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "企业，从空中有什么发现么？",
+			say = "Enterprise, you see anything from up above?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战斗的痕迹不止一处。",
+			say = "More signs of fighting. Loads, even.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "重樱舰队应该只是被困在幻境里了，但还在抵抗。",
+			say = "That suggests the Sakurans are not just alive, but fighting right this moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "说来也奇怪……我们能够在幻境中来去自如，多亏她们的帮助。",
+			say = "Doesn't anyone else find it strange that they're still trapped in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "为什么她们自己反而会被困其中呢？",
+			say = "The Sakurans came to US first, so shouldn't they be able to leave on their own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许因为此处幻境与别处不同……是幕后黑手专门设计来对付她们的。",
+			say = "This illusion may be unique – possibly even designed specifically to contain them. Whoever's behind all this is targeting them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "被幕后黑手专门针对……那她们的处境岂不是很糟糕啊！",
+			say = "Targeting them specifically? That sounds bad! Like, REALLY bad for them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "找到了。重樱舰队正在向中心的那颗枯萎大树移动。",
+			say = "Found them. They're heading toward that massive tree in the middle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "太好了，来得还不算迟！我们快去支援她们吧~",
+			say = "Then there's still time! We need to hurry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

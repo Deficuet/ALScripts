@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>丽日茶会</size>",
+					"Uncharted Summer\n\n<size=45>Tea by the Sea</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "晴空之下，一场茶会正在热烈地进行着——",
+			say = "Beneath a clear blue sky, a lively tea party is taking place.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -75,11 +75,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯~贝尔法斯特做的蓝莓布丁味道真不错~",
+			say = "Yum! Nobody makes blueberry pudding like our Belfast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,11 +87,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "酸酸甜甜的，这就是夏天的味道嘛~",
+			say = "It tastes like summer – sour-sweet♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "逸仙",
+			actorName = "Yat Sen",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "烘焙的手法恰到好处……甜品技巧很厉害呢。",
+			say = "And let's not forget these fluffy pastries. They're simply divine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +111,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "逸仙",
+			actorName = "Yat Sen",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵~还请贝尔法斯特小姐在茶会结束后不吝赐教哦？",
+			say = "You must share your secrets after this, Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,11 +123,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "承蒙各位青睐，不胜荣幸。",
+			say = "You flatter me so. I'm delighted to hear it is to your taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "椰子汁也很清爽，配上沙滩吹来的风，让人感觉身心都舒缓了下来。",
+			say = "Fresh coconut juice and a sea breeze to cool the body... It's so reinvigorating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +147,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "甜品还有很多，大家可以挑自己喜欢的尝一下。",
+			say = "I've prepared a wide variety of desserts today. You may pick and choose your favourites.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官，也请您尝尝这个，算是我本日的自信之作~",
+			say = "Master, if I may, I'd like you to try my chef d'oeuvre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "非常感谢。",
+			say = "\"Thanks, Belfast.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼~难得像现在这样抛掉那些烦心的工作出来度假，当然得尽兴才行！",
+			say = "We've earned this break after all that legwork. But, we need to make the most of it, as our work is far from over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,11 +199,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的计划可不仅仅是茶会而已~",
+			say = "Just look at the hot spring. It's nowhere near finished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "作为度假区来说，这座岛还有很大的开发空间嘛~！",
+			say = "Furthermore, there's untapped potential everywhere across this island!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "比如说海上游乐园、度假别墅，还有美食街什么的！",
+			say = "We could build a water park, holiday houses, and a food court serving cuisines from all corners of the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,34 +235,34 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你觉得怎么样？",
+			say = "The possibilities are endless, wouldn't you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听起来非常不错——",
+					content = "\"This will be the ultimate island resort!\"",
 					flag = 1
 				},
 				{
-					content = "如果能兼顾自然景色的保护的话——",
+					content = "\"We need to think about the environment, too.\"",
 					flag = 2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "对吧对吧~重樱正在修建度假温泉，本王这里也不能落下才是~",
+			say = "Exactly! However, we must pick up the pace, lest the Sakura Empire steal the show with their hot spring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +275,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "那是自然！本王不会连这种道理都不懂的！",
+			say = "You say that like I haven't already, servant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,11 +293,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "逸仙",
+			actorName = "Yat Sen",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在码头已经建设完毕，后续的补给物资可以通畅地运送过来了呢。",
+			say = "Now that the pier is finished, it'll be quicker to transport goods around the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,11 +305,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯！还要感谢最初选定这片区域作为码头建设地的{namecode:408}小姐呢。",
+			say = "Aye. Z23 commands praise for finding such an ideal location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,11 +317,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼~除了补给物资之外，我跟萨拉托加她们还有一个其他计划。",
+			say = "Speaking of goods, me and a couple others placed an order for something special.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,11 +329,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "过几天我们会运点其他东西过来，不过内容嘛————",
+			say = "I reckon it'll arrive in a few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,11 +341,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "暂时保密！",
+			say = "Betcha wonder what it is? That's a secret!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,11 +353,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好在意……汝以前不是一个喜欢卖关子的人啊。",
+			say = "Now I'm curious! Err... By which I mean, you are not ordinarily the secret-keeping type.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,22 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一码归一码嘛~既然是惊喜活动，自然要留点惊喜的仪式感~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			say = "多亏了各阵营的齐心协力，度假岛的建设工作正在快速推进。",
+			say = "This is a special occasion. Think of it as a surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "除了这段时间没有再见过皇家财富之外，无人岛上的方方面面都很正常。",
+			say = "This island resort project is materializing rapidly thanks to everyone's hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +391,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "说起来…………似乎在这样热烈的气氛中遗忘了一件事……",
+			say = "Aside from the fact I haven't seen Royal Fortune for a while, everything is going swimmingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +402,18 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "不过遗忘的究竟是……",
+			say = "But, I feel as though I've forgotten something amidst all this hustle and bustle...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_summerisland_cg3",
+			hidePaintObj = true,
+			say = "The question is, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,11 +421,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喂——这么好的阳光，诸位不打算来海边享受一下么？",
+			say = "Say, the weather is perfect for sunbathing. Anyone interested?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,11 +433,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "防晒油这里还有很多，请不用客气。",
+			say = "I have plenty of sunscreen to go around, so that's no issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,11 +445,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维托里奥·维内托",
+			actorName = "Vittorio Veneto",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官也来跟我们一起晒吧~",
+			say = "Sounds lovely. Will you be joining us, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,11 +457,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哇哦~去海边享用美食也不错~",
+			say = "Throw in a beachside barbecue and I'm in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,11 +469,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:199}",
+			actorName = "New Jersey",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍等一下，我马上就带着指挥官过去~！",
+			say = "Let's go, Commander! Bring your swimming gear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "在被{namecode:199}拽离座位的一瞬间，遗忘的记忆复苏了。",
+			say = "New Jersey drags me out of my seat, and that's when I remember it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
-			say = "这项行动的最初目的，好像是寻宝之旅……？",
+			say = "The reason we came here to begin with was to look for treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

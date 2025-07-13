@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "游戏中已获取的道具会放在背包内",
+				text = "You can view what things you've collected on the Items screen.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -23,7 +23,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击“背包”按钮",
+				text = "Tap the Items button to look at your inventory.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "获得和购买的道具时属性加成会立刻生效，不需要在背包中使用道具哦。",
+				text = "Simply having an item is enough to activate its effects.",
 				mode = 2,
 				dir = 1,
 				char = 1,

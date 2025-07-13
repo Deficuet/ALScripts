@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合·？？？ ",
+			say = "Somewhere in the Northern Parliament",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "一处地点不明所属机构不明的昏暗房间中，{namecode:529:苏维埃同盟}正仔细阅读着行动报告。",
+			say = "Inside a dimly-lit room, Sovetsky Soyuz repeatedly looked over the report from Avrora and Pamiat'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然是米高扬号…………",
+			say = "The Mikoyan, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这还真是，出乎意料的收获……",
+			say = "An unexpectedly major find.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,8 +92,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "看你还算满意，我也放心了。",
+			actorName = "???",
+			say = "Indeed. I'm glad to see that you're pleased with our \"work.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "从不知道摆放在某处的通讯中传来了经过处理的声音。",
+			say = "A robotic-sounding female voice came out of a communicator that had been planted somewhere without anyone's knowledge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "这份情报就当成我们在此前一系列摩擦事件中所造成损失的补偿与后续合作的诚意。",
+			actorName = "???",
+			say = "Treat this as compensation for the losses incurred during the previous \"incident,\" and for our continued cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们现在是什么状态？",
+			say = "Where are they...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "不明，我只是知道这些情报而已。",
+			actorName = "???",
+			say = "Unfortunately, I didn't have time to collect that information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,8 +174,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "具体是什么情况，就需要靠你们自己了，不是么？",
+			actorName = "???",
+			say = "If you want to find out what happened, you'll have to do the rest of the work yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们的“诚意”我收到了。",
+			say = "I see. It must've been difficult for you to procure this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过补偿的话，恐怕远远不够吧？",
+			say = "However, this \"compensation\" won't be enough. Information alone won't satisfy me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "运输航线的长期损失，边境的侵扰。",
+			say = "Prolonged loss of our shipping routes. Constant encroachment into our territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算根据协议停止了推进，初期你们非法占领的部分领土和港口呢？",
+			say = "As long as the Naval HQ does not cease their actions, an agreement between ships only carries so much weight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "我还以为这些都是过去协议的一部分呢。",
+			say = "Soyuz, you won't get anything out of guilt-tripping me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "不论如何，我们已经规避了既定的走向不是么？",
+			actorName = "???",
+			say = "But, there is something we can do. Not through Reenactments, but through our power. And the Commander's power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算继续走下去，最终的输家也会是你们就是了。",
+			say = "Yes. As you know, \"Reenactments\" will only lead to the Iron Blood's ruin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正如你我所知，曾经的铁血毫无未来。",
+			say = "There is no future for that Iron Blood. One built on Bismarck's power––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,11 +320,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你这是在讽刺，还是在夸奖？",
+			say = "Bismarck? Are you taunting me, or praising me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请当成夸奖吧，{namecode:435}确实是一位值得尊重的领袖。",
+			say = "Take it as praise. Bismarck was a respectable leader, and the two of us shared the will and vision to create change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,8 +357,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "那就进行继续进行我们的合作吧。",
+			actorName = "???",
+			say = "...Then, I trust we will be able to continue our fruitful relationship, Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,11 +370,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "随着最后一组“要素”的重现，北方联合也将摆脱禁锢，打开一条全新的道路。",
+			say = "With the final \"Key\" retrieved from the Arcana Sanctum and the Commander's power, the Northern Parliament will also be freed from the shackles of the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,8 +390,8 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
-			actorName = "？？？",
-			say = "让我们一同向着未来进发吧————",
+			actorName = "???",
+			say = "Let us both move towards a new future. Hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "通讯中断了，但是{namecode:529:苏维埃同盟}并没有做出反应。",
+			say = "After the communication ended, Soyuz remained silent for a few seconds... then dozens of seconds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "多年的悔恨、多年的等待与多年的期盼仿佛都在此刻汇聚而来。",
+			say = "Regret. Defeat. Accomplishment. Hope. And the future –– A number of words coalesced into a storm of chaotic emotions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "她仿佛在寂静的空间中聆听，在凝视，又仿佛是在沉思。",
+			say = "In that silent space, she sifted through the chaos, ordering it with her icy will and rationality, unifying that which had branched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "终于，她点亮了一个屏幕，耳边响起了专属线路独有的提示音。",
+			say = "...The time had come. Opening up a dedicated line of communication, Soyuz began to send a new message––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……鉴于“杂波”事件的情报分析与最新行动所收获的证据……",
+			say = "...Based on the information and physical evidence obtained from the Siren facility, we believe that the Polar Expedition Fleet is likely to be alive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在极地的冰封之中，昔日失踪的行动舰队依然存在生还的可能……",
+			say = "...Therefore, from the perspective of retrieving Siren technology as well as providing relief efforts, our fleet proposes the following operation in consideration of our current strength:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我已取得确切的行动坐标，也许我们还有挽回曾经失败的机会……",
+			say = "\"Form a rescue team, rescue the Polar expedition fleet, and collect information and materials related to the Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——最高联合主席团，我希望立刻组建救援队展开营救行动！",
+			say = "\"Let the responsibility for the tasks aforementioned fall upon Sovetsky Soyuz.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

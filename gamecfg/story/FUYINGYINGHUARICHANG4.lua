@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>四 新年特训？</size>",
+					"Blessings and Tidings\n\n<size=45>Chapter 4: New Year's Training?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 302081,
 			nameColor = "#a9f548",
-			say = "哈啊——！",
+			say = "Hyaahhhh!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -69,7 +69,7 @@ return {
 			actor = 304043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦~气势不错，不过，还可以更快些！像这样！",
+			say = "That's the spirit. But you need to be even faster... like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是{namecode:73}！这样又如何！喝！",
+			say = "Gah...?! As expected, Kirishima... but in that case...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 304043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，看来我也要再认真一点才行了啊！",
+			say = "Haha! Looks like I'm going to have to get serious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "木剑破风的呼啸和充满气势的呼喝持续了一段时间——",
+			say = "The clashing of bamboo swords continued to echo throughout the school's kendo clubroom for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，{namecode:181}。难得的新年，稍微休息下不好嘛~",
+			say = "Jeez, Kinu, we're getting ready to celebrate the New Year. It wouldn't kill you to take a day off from practice.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:46}、{namecode:46}吗…正因为是假日，才更不能松懈！",
+			say = "N-Nagara?! ...I have to redouble my efforts, precisely because it is the New Year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，还是感谢{namecode:73}愿意陪我做新年特训",
+			say = "Even more so if I have an opportunity to train with Kirishima.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 304043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，我不讨厌认真刻苦的人啦~而且，也算是不错的运动~感觉舒畅多了~",
+			say = "It's not like I'm purposefully trying to make you train over the New Year, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "休息一下，喝点水吧~",
+			say = "Of course, I know that. Ehehe, here's some water, you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…嗯？有什么事情吗，{namecode:46}？",
+			say = "*glug* *glug* ...So, what brings you here anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对，其实是想问问你要不要一起去神社的…{namecode:73}也要一起去吗？",
+			say = "Ah, that's right. The others invited us to go with them to make an offering at the shrine. Kirishima, are you in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 304043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说起来，今年的“初诣”还没有去过呢~一起去吧~",
+			say = "Now that I think about it, I haven't even done my hatsumode yet... All right, count me in. Wait, when are we going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔…新年的特训……",
+			say = "(At least let me finish my daily swings first...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

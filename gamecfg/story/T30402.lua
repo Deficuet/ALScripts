@@ -14,7 +14,7 @@ return {
 			bgm = "story-5",
 			actor = 307040,
 			mode = 2,
-			say = "最后的机会了，贯彻吾辈毕生修行的一击！！",
+			say = "I'll put every last ounce of my remaining strength... into this single attack!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -37,7 +37,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 107050,
 			mode = 2,
-			say = "啊！！",
+			say = "Aaaagh!!",
 			flash = {
 				delay = 0.3,
 				dur = 0.5,
@@ -60,11 +60,11 @@ return {
 			actor = 107060,
 			dir = -1,
 			blackBg = true,
-			actorName = "企业&大黄蜂",
+			actorName = "Enterprise & Hornet",
 			withoutPainting = true,
 			hideOther = true,
 			mode = 2,
-			say = "姐姐！！",
+			say = "Yorktown!!",
 			subActors = {
 				{
 					actor = 107070,
@@ -87,7 +87,7 @@ return {
 			blackBg = true,
 			actor = 307040,
 			actorName = "{namecode:94}",
-			say = "至少…为那位大人挽回了一点局面呢…",
+			say = "At least... I was able to slightly salvage the situation... for \"Their\" sake...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -110,7 +110,7 @@ return {
 			blackBg = true,
 			actor = 307040,
 			actorName = "{namecode:94}",
-			say = "吾辈此生亦无憾矣",
+			say = "I can die without any regrets...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -132,7 +132,7 @@ return {
 			nameColor = "#a9f548",
 			blackBg = true,
 			withoutPainting = true,
-			say = "你们都哭丧着个脸干啥，我们可是打了个大胜战哦",
+			say = "Why are you two crying at a time like this? We just won a decisive battle.",
 			effects = {
 				{
 					active = true,
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "很快，你们的名字就会响彻世界，成为后世所传颂的传奇军舰",
+			say = "Soon, the whole world will remember your names. You will become legendary warships, and people will sing your praises for generations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "很快，战争就会结束，人类将会相互理解，重新携手夺回这片大洋",
+			say = "And soon, the war will end as well. Humanity will understand each other better then, and reclaim these seas together...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "而我们，本就是为了实现他们的理想而诞生的，这一切都是值得的",
+			say = "And for us, who were born to realize their ideals, this is a fitting end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "…不，我不能认同这些…",
+			say = "No... I won't accept this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "差不多到了该分别的时候了…",
+			say = "Looks like... it's about time for us to part ways...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "看着你们从不懂事的孩子一直成长到现在的海军王牌，一直是我最引以为傲的事",
+			say = "Watching the two of you grow from immature children into the aces of the Navy... has been my pride and joy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			blackBg = true,
 			actor = 107050,
 			mode = 3,
-			say = "带上他，“死神”以后就得靠你来照顾了",
+			say = "Finally... I entrust my dear friend to you...",
 			effects = {
 				{
 					active = true,
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "带着他一起，把自由的意志传承下去",
+			say = "Take him with you... and spread the spirit of freedom throughout this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "是你的话一定办得到的，我的妹妹…",
+			say = "I'm sure you two will be able to do it... my beloved sisters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			fadein = 1.5,
 			hideOther = true,
 			mode = 2,
-			say = "是吗，又有无数的灵魂消散而去了",
+			say = "Once again, so many souls are dispersing...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -316,7 +316,7 @@ return {
 			blackBg = true,
 			actor = 307040,
 			mode = 2,
-			say = "看到了吗，这耀眼的光芒",
+			say = "You saw it too? This dazzling brilliance...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -339,7 +339,7 @@ return {
 			blackBg = true,
 			actor = 307040,
 			mode = 2,
-			say = "这样的进化方式还真是令人感到些许哀伤呢~",
+			say = "This form of \"evolution...\" How beautiful! How sad!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -362,7 +362,7 @@ return {
 			blackBg = true,
 			actor = 307040,
 			nameColor = "#ff0000",
-			say = "那么，计划也该进行到下一环节了…",
+			say = "It is time then, to move our \"plan\" forward as well...",
 			shake = {
 				speed = 1,
 				number = 999

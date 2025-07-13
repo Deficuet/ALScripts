@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"指挥官请点击<color=#ff7d36>出击</color>",
-	"这次我们的舰队已经比较完善啦~一定可以击破大黄蜂的！击破她的话就可以获得演习的胜利了！快上吧",
-	"索敌结果显示了大黄蜂可能出现的位置，让我们朝着目标点前进吧~"
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Our fleet is even more perfect now~! We can definitely take down Hornet! Beat her and you'll finish the drill! You can do it!",
+	"We've located Hornet! Let's move towards the target."
 }
 
 return {

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>一骑绝尘</size>",
+					"Port Fashion Collection! Racing Special\n\n<size=45>Ignition Matrician</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那么，愿诸位能在比赛中获得心仪的名次。",
+			say = "...Now then, I hope you all get the placing you're hoping for in the race.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:465}刚刚结束一场赛前动员。",
+			say = "As Ulrich finished her speech, the drivers turned towards the race track with ambition in their hearts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "代表着铁血的旗帜在空中飞扬，而穿着黑红应援服的{namecode:465}仿佛就是胜利的象征。",
+			say = "Ulrich's flag flutters in the wind, dyed in Iron Blood red and black hues, much like the outfit she's wearing. She is stately, almost like a goddess of victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "完美的赛前动员演讲。",
+					content = "That was a rousing speech.",
 					flag = 1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "多谢夸奖。",
+			say = "Thanks. It's an honor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……原来是指挥官啊，什么风把你这个大忙人吹到我这边来了？",
+			say = "...Oh, it's you, Commander. I thought you had your hands full. What weird turn of events brought you here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是偶然路过，没想到能看到一场出色的“战前动员”。",
+			say = "Nothing in particular. I just happened to be passing by when I heard you deliver that motivational speech.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "一场优秀的动员可以激发起参赛队员的斗志，从而增加获胜的几率。",
+			say = "What can I say? It inspires the racers and ups the odds of my team winning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "当然，这身衣服的贡献也必不可少。",
+			say = "Same with this outfit. It's for their sake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不但激起了参赛的同伴们的热情，也让观众席的氛围热烈了不少。",
+			say = "Even the people who aren't participating directly get a kick out of a good speech and an outfit they like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯——也让指挥官的热情提高了不少呢。",
+			say = "Looks like its magic worked on you, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，不用移开视线，光明正大的欣赏就好。",
+			say = "I know I hit the bullseye. There's no point in looking away now. If you wanna stare, be my guest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "如果我有不想让你看的意思在的话，今天就不会穿这身衣服出来了。",
+			say = "If I didn't want you looking at me, I wouldn't have worn this in public in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其他的同伴肯定也是一样的，所以不用过于在意。",
+			say = "Everyone else who's dressed up for the occasion thinks the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "堂堂正正地欣赏，然后给予夸奖的话语就好。",
+			say = "Nobody'll judge you for looking. Give 'em a complement or two and you'll be fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯~很好，这就对了。",
+			say = "There. That's how you do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "不过，夸奖的话语虽然可以分享，不过比赛的胜者只能有一家。",
+			say = "But remember – you can give compliments to everyone, but only one team can win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官觉得今天比赛，谁会成为最后的赢家？",
+			say = "Speaking of, who do you think's gonna win?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一点倒还没什么头绪……毕竟各支队伍都看上去干劲满满。",
+			say = "Every team is gunning for the gold. It's hard to say who's likely to win right now, so I answer her with a shrug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哦？指挥官是觉得我们铁血队有输给其他队伍的可能性么？",
+			say = "You dunno? So you think there's even a small chance Iron Blood will lose?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来{namecode:465}对于铁血车队的实力充满自信。",
+			say = "I raise an eyebrow at Ulrich's supreme confidence in her team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "那是自然。",
+			say = "Me, I'm 100% sure about it. We're going to win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所谓的胜利不过是排除了极小概率事件后，经由一系列的精密计算而得出的必然结果。",
+			say = "Let me tell you what victory is. It's the natural result of precise calculations after eliminating all factors that worsen your odds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是极小概率并不等于概率为零。结果的难以预测性，不正是欣赏比赛一大乐趣么？",
+			say = "Still, it's a non-zero-possibility, no matter how unlikely it is. Besides, isn't not knowing the result with perfect accuracy part of the thrill of a race?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "一般论的话，确实是这样。",
+			say = "Most people say that, sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过等你了解铁血车队的实力之后，就会明白我的自信来源于何处了。",
+			say = "If you personally knew Iron Blood's might, if you've seen its potential, you'd think differently.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,37 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……指挥官，接下来你有两小时左右的空闲时间么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_132",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "两、两小时？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405032,
-			side = 2,
-			bgName = "star_level_bg_132",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "如果要将这些事情讲明白的话，我认为至少需要两个小时。",
+			say = "Hell, I might as well ask... Do you have two hours to spare?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +469,37 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还、还请手下留情……",
+			say = "Two whole hours? Why do you ask?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405032,
+			side = 2,
+			bgName = "star_level_bg_132",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "That's at least how much time I'm gonna need to convince you.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_132",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "The race is just about to start, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "……也是，如果在这里听我唠叨两个小时，精彩的比赛就要全错过去了。",
+			say = "True... You'd miss all the action if you sat down to listen to me for two hours instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "抱歉指挥官，前言撤回，是我的提案考虑不周。",
+			say = "Never mind, that was a bad idea. Forget it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……这样好了。",
+			say = "I've got another, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "比赛之后，指挥官有时间么？",
+			say = "If you've got time AFTER the race, then I can enlighten you. Sound good?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……继续进行为时两小时的讲解？",
+			say = "Enlighten me on how Iron Blood's victory is inevitable, you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "不仅如此。我们还可以一起去训练的地方看一下。",
+			say = "More than just that. I'll give you a tour of our simulated race track as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "边看边听，比听我干讲效果更好。",
+			say = "Like they say – show, don't tell.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "而且……除了训练设施之外，我们还可以去一下后勤部门。",
+			say = "There's also our garage, and the equipment we use to keep our vehicles in top shape.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "铁血驯服这些“机械”的技巧，指挥官就不想了解一下么？",
+			say = "Because you've gotta be wondering just how we became such good racers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "只是……这样两个小时就似乎有些不太够了呢。",
+			say = "Actually... Two hours won't be nearly enough to cover everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样，今晚能抽出更多时间来么，指挥官————",
+			say = "All things considered... Think you could spare the whole night?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=45>四 直到某日再会</size>",
+					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 4 -  Until We Meet Again</size>",
 					1
 				}
 			}
@@ -22,10 +22,10 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "story-2",
+			bgm = "ai-fb-inst",
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "这里像这样…然后这样！……好！所有的病毒都驱除完毕了！",
+			say = "Aaannnnd... done! There we go! We eliminated all the viruses!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵！调查过以后，弄明白了一件事情喵，那就是随机单词生成器的内部和绊爱所在的空间是连在一起的！",
+			say = "Nya! I looked into it and I found an internal connyection between Kizuna AI and the random word genyerator nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能通过的只有绊爱本人就是了……唔唔唔，到底是什么样的世界呢，好在意",
+			say = "Seems only Kizuna AI can pass through it? Hrmmm... I'm so curious about that other world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下，爱酱小姐终于能回家了呢。虽然时间不算短也不算长，不过还是太好了",
+			say = "I suppose this means AI can finally go home now. The time really flew right by, but it was fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱，回家要小心哦。爱酱的事情…还有这段时间产生的羁绊，标枪是绝对不会忘记的！",
+			say = "Please have a safe trip home, AI. And I swear I'll never forget you as long as I live!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在原本的世界也要加油做游戏实况，的说",
+			say = "I'm expecting you to frag out in those games of yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“动画投稿”和“直播”也要加油哦！",
+			say = "Good luck with your \"tubing\" and \"streaming!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之后还要来这边的世界看看我们哦",
+			say = "Do make sure to visit us in your world from time to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！我绝对不会忘记大家的！",
+			say = "Yeah! I'll never forget you guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，对了！这个、如果能把这个当作我装饰在后宅什么的，我会很高兴的！",
+			say = "Oh, right! I'd be so glad if you thought of me while redecorating the dormitory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是……“画架”吗？非常感谢。晚点会拜托指挥官装饰在后宅的",
+			say = "This is an... easel? Thank you very much. I will ask the commander to redecorate appropriately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢…爱酱的事，拉菲绝对不会忘记",
+			say = "Thanks.... I could never forget... AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然相处时间很短，不过是段很愉快的时光哦？那个…“绊爱舰队”？也拜托你咯",
+			say = "Brief though our time together was, I certainly had fun. Your... Kizuna Fleet, was it? We appreciate what you did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱老大！只要活用你教的那些，{namecode:524}也能成为虚拟Vtuber吗？我会加油的！老大也要加油哦！",
+			say = "Boss Lady Kizuna AI, I'll put all the things you taught me to good use. Look out for VTuber San Diego because I'm comin' at ya! You keep at it too, boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "命、命运告诉我一定能再见的＞＜",
+			say = "I know we- we're fated to meet again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧。之后的事情就交给我们了。呵呵呵♪",
+			say = "Don't worry about a thing. We'll take care of it. Hehehe ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然很遗憾不能一路把您送回到那边的世界…爱殿下，我会期待着有一天与您再次相会的",
+			say = "While I regret that I cannot see you back to your own world, Lady AI, I look forward to the day we meet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！我绝对不会忘记大家的！大家要保重哦！我就算回到原来的世界，也会通过游戏一直守望着大家的！",
+			say = "Yeah! I'll treasure the memories I made here forever. Take care, everyone! I'll watch over you through the game when I get back to my world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "………",
+			say = "..........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总有一天会再会的！所以…我是不会说再见的。我最喜欢大家了！！！",
+			say = "I'm definitely going to see you all again so I won't say goodbye. I LOVE YOU ALL!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "“不会说再见”……吗，嗯，是啊！我会满怀期待地等着那一天的！",
+			say = "\"I won't say goodbye...\" Yes! You're right! I can't wait to see you again!",
 			flashN = {
 				color = {
 					1,
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "——就这样，高智能的超级AI，将港区众人的思念深藏心中，然后离开了",
+			say = "--And so, the Intelligent Super AI left a deep impression in the minds of all the denizens of the port.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "将绊爱留下的羁绊牢记于心，然后不断前行吧，直到某日再会——",
+			say = "Carrying on with their hearts bound by the ties left by Kizuna AI, they looked forward to the day they would meet again--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助赛车手调整装备，获得了奖励【强化部件T3*8】"
+			say = "You helped repair some vehicles for the big match. You received 8 T3 Gear Parts!"
 		}
 	}
 }

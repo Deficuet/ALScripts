@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-1",
-			say = "特装型布里MKIII和净化者战了五十个回合，有点落了下风————",
+			say = "After 50 fierce clashes with Purifier, Rainbow Bulin seemed to be in a losing position. But then, right on time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹，我来助你一臂之力buli！",
+			say = "The cavalry's here, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

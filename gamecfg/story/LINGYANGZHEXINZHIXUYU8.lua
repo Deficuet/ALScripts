@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-3",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的作业有道好难的题哦……我完全不会做……",
+			say = "There's a super tricky question in my homework today and I can't solve it at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}，能帮我看看要怎么做吗？",
+			say = "{tb}, could you help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们一起分析解题思路吧",
+					content = "I'll help you work out the solution.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "要不先玩一会儿再做题吧！",
+					content = "Do something else for a bit, then try again.",
 					type = 2
 				}
 			}
@@ -73,12 +73,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了~",
+			say = "Yay! Thanks a bunch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,12 +89,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是能搞懂解题思路的话，下次遇到难题也不怕啦。",
+			say = "Once I know how to solve it, it won't be so daunting the next time a similar tricky question pops up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}的意思是要放松一下大脑吗？",
+			say = "You mean to let my brain relax a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room1",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过确实玩一会儿的话就不会那么烦躁了……",
+			say = "Yeah, I guess that would be a nice change of pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,12 +136,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我等下再来做题吧~",
+			say = "Okay, I'll do my homework later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

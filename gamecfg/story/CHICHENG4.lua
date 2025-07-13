@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>四 友军与过去</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 4 - Allies and Days of Old</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "重樱·铁血交流会上",
+			say = "One day - At an Iron Blood-Sakura Empire party",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,8 +33,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "哎呀？你是铁血的……",
+			say = "Ah, you must be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +49,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我是{namecode:438}。真难得啊，你竟会来参加这种活动",
+			say = "Graf Zeppelin. How unexpected to find you of all at a gathering of this kind.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,8 +69,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "心血来潮而已…再说还得照顾年轻孩子们啊。你不也一样吗？",
+			say = "I came on a whim. Besides, someone has to look after the kids. That's why you're here, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +85,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "…我不否定。是因为我是基于你而被设计建造的吗…不只是力量，连这种方面都这么相似",
+			say = "... That, I can't deny. Perhaps it's because my design was based on yours... We are similar not just in strength, but in these matters as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +101,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "下次就能一起并肩战斗了呢。想想身边还有另一个自己就很安心啊。",
+			say = "You simply must fight alongside me next time. Having another Akagi around is reassuring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +117,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……话说回来，听说你没有选择你所谓的“神”而是加入了我们的时候，我还是吃了一惊呢",
+			say = "... By the way, I was rather taken aback when I heard you joined us instead of that \"God.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +133,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "确实，那时如果没有遇到指挥官，我应该是会继续追随“神”的哦？",
+			say = "True. Had I not met the Commander, I would likely have stayed with \"God.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +149,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "中途岛…指挥官是在那片海域和你进行着“那场大战”的…对吧？",
+			say = "It was back in Midway... You and the Commander reenacted that legendary battle there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +165,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "不断持续的战争，不惜伤害同伴，为了得到可憎敌人的力量，一味地寻求着拥有“觉醒”可能的存在……",
+			say = "Continuing the war, hurting your allies, and searching for beings with the potential to Awaken, all just to get your hands on that abhorrent power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +181,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "不，那个跟随了“神明”的我……不管是不是真的——都不过是一种可能而已。",
+			say = "That \"me\" who followed \"God\"... whether she's real or not is just a possibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +197,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "可能…？",
+			say = "A \"possibility\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +213,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "同一面镜子里倒映出的不同姿态的我…基于同样的信息而被雕刻出的，有着自我的存在都是“可能性”呦。",
+			say = "We are 2 sides of the same coin... Born of the same stuff, my own existence is also a \"possibility.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,8 +229,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "在某个时刻与你们交战的我，也不过是“可能性”的一种。在这里和你一起喝酒的我亦不过是…",
+			say = "The moment I met you in battle, that too was a \"possibility\" of sorts. As is my sitting here enjoying a nice cold beer with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +245,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "因为遇到指挥官而从“塞壬”手中得到解救的一种“可能性”……",
+			say = "All because of the \"possibility\" that I met the Commander who freed me from the \"Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +261,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "……哼，听你这个口气，指挥官还不知道吧。",
+			say = "... Hm... And does the Commander know that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +277,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "总有一天他会明白的。",
+			say = "The day will come when he understands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +293,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "我们的存在、“圣域”、“灵魂”，还有“模具”…",
+			say = "Our existence, \"Sanctuary,\" \"Soul,\" and the \"Original...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +309,7 @@ return {
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
-			say = "哼…尽说些不知所谓的话",
+			say = "Right... now I'm afraid you've lost me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,8 +325,7 @@ return {
 			bgName = "bg_night",
 			side = 0,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "呵呵…看来我也有点喝醉了呢…",
+			say = "Hehe... seems I've gone and gotten myself a bit tipsy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "离开了喧闹的会场，两人的对话还在继续。",
+			say = "Let's take this conversation someplace a bit quieter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,10 +349,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "即使如此，我也相信指挥官会爱着我……呵呵呵……",
+			say = "Regardless, I'm sure the Commander will love me... *Giggle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

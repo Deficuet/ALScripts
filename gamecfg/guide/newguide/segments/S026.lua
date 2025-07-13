@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"指挥官请点击<color=#ff7d36>出击</color>",
-	"这次我们的舰队已经比较完善啦~一定可以击破大黄蜂的！",
-	"点击<color=#ff7d36>出击</color>进行战斗！"
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Our fleet is even more perfect now~! We can definitely take down Hornet!",
+	"Tap <color=#ff7d36>Battle</color> to start the battle!"
 }
 
 return {

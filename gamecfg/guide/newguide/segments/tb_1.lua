@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "跟着目标一步步进行养成计划吧",
+				text = "First of all, tap the Growth Goal button.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -30,7 +30,7 @@ return {
 			alpha = 0.4,
 			waitScene = "EducateTargetLayer",
 			style = {
-				text = "点击领取任务奖励",
+				text = "Tap here to view the rewards.",
 				mode = 2,
 				posY = 0,
 				char = 1,
@@ -52,7 +52,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "Tap your screen to return.",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -72,7 +72,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "在设定成长目标前，需要先了解一下养成计划中的基础信息。",
+				text = "You can set growth goals here. Before that, let's have a look at the various stats.",
 				mode = 2,
 				posY = -350,
 				char = 1,

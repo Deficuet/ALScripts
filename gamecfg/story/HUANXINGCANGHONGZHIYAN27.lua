@@ -9,7 +9,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "彼岸花海中，苍红色的身影轻轻来到了红黑色的身影前。",
+			say = "The sisters meet once more in a field of red spider lilies.",
 			bgm = "story-flowerdust-soft",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "如此，可舒心了？",
+			say = "So, have you gotten everything off your chest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,11 +52,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "……为什么留手。",
+			say = "Why... did you not finish me off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "因为我感觉，你有话想对我说。",
+			say = "Heehee. Simple, really. I still wanted to have a chat with my little sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,11 +81,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "呵，想听我仔细描述一下杀掉{namecode:91:赤城}的细节？",
+			say = "Heh. What, do you want the gory details of how I killed her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我是姐姐，能听出来我的妹妹什么时候在说谎。",
+			say = "No, I'm more interested in... all the hardships you've been enduring, alone, all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,11 +110,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你的妹妹已经死了……但你既然如此执着，那我多说一些也无妨。",
+			say = "Your sister is gone. But, if you still wish to hear me out... I don't mind telling you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,11 +125,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你的妹妹{namecode:91:赤城}，主动与塞壬合作，默许其在重樱控制区内建立名为圣域的实验场。",
+			say = "Akagi, your sister, reached out to the Sirens on her own and secretly had them construct an experimental facility in the Sakura Empire known as the \"Sanctuary\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "对外全力配合塞壬的剧本，将所有人拖入战争的泥潭。",
+			say = "Corrupted by their new \"gods\", the Sakura Empire's leadership faithfully executed the Sirens' Reenactments, launching a surprise attack on the Eagle Union and diving headlong into the morass of war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "对内凭借手中权力排除异己，大权独揽。",
+			say = "In the brutal power struggle that ensued, she sought to eliminate all opposition to solidify her authority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,11 +170,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "同时肆无忌惮地算计同伴后辈，甚至放任塞壬对于重樱舰队的袭击。",
+			say = "Even her juniors were not spared from her machinations, made to participate in the Sirens' experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,11 +185,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "最后为了一己私欲，不顾伤亡，孤注一掷进行复活仪式。",
+			say = "But she did not stop at just that. To fulfill her selfish desires, she stepped over all those who had already fallen due to her designs, all in a desperate attempt to carry out a doomed resurrection ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,11 +200,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "毫无节制使用元魔方与神石海若的力量，将重樱，甚至整个世界都拉到了毁灭的边缘。",
+			say = "By misusing the power of the Origin Cube and the Watatsumi, she plunged the Sakura Empire – no, the entire world – into grave peril.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "如此，还不当诛？",
+			say = "And in the end, what did she accomplish? She failed to resurrect her sister, lost Kaga, and burned all the bridges behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "听上去，这其中一半的责任可以推卸到塞壬身上？",
+			say = "But, it seems to me... that you still did all of those things out of love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,11 +244,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "……你这人！",
+			say = "...Are you an idiot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "叫姐姐。",
+			say = "Hey, Akagi. I want you to tell me something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,11 +278,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "……我说了，你的妹妹已经死了。",
+			say = "I told you already, I'm not your Akagi. She's already dead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我也说了，我能听出来我的妹妹什么时候在说谎。",
+			say = "You're not being honest with me. An older sister can always tell when her younger sister is lying~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,11 +307,11 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePainting = true,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			actor = 900448,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "……能听出说谎的部分，那没说谎的部分你自然也能听出来。",
+			say = "Then, you should know... that I'm telling the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以姐姐，看到了么？这就是现在的我。",
+			say = "So, do you see it now, Amagi? I am the Akagi who you have never met before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在你离开之后，一路走到今日的我。",
+			say = "Everything I've done, all the sins I've committed... can never be washed away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一次，我不是为了逃避，而是为了负责。",
+			say = "Even though I am trapped and warped by my obsession, I still can't get myself to let go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就让{namecode:91:赤城}于此处死去吧，死于自己的执念之手。",
+			say = "Which is why I should die here. Along with my obsession.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这是她应负的责任。",
+			say = "I won't run anymore. I want to die as your enemy, at the hands of those dear to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "是自己的错，不要逃避。",
+			say = "That's still running away. You should atone for your own sins, however you see fit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "不是自己的错，也不要乱认过来。",
+			say = "However, you should not have to shoulder the weight of sins that are not yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,22 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_cg6",
-			say = "……哪里还分得清。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg6",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "马里兰、西弗吉尼亚、科罗拉多、亚利桑那……",
+			say = "At this point, who can even say...which sins are mine and which are not? After all, I've... hurt so many people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +475,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨拉托加、约克城、企业、大黄蜂……",
+			say = "Maryland, West Virginia, Colorado, Arizona...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +490,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:95:翔鹤}、{namecode:96:瑞鹤}、{namecode:77:日向}、{namecode:76:伊势}、{namecode:24:野分}……",
+			say = "Saratoga, Yorktown, Enterprise, Hornet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +505,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}、{namecode:75:陆奥}、{namecode:158:江风}、{namecode:82:三笠}、{namecode:70:金刚}、{namecode:71:比叡}……",
+			say = "Shoukaku, Zuikaku, Hyuuga, Ise, Nowaki...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +520,22 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}、{namecode:84:武藏}、{namecode:81:土佐}、{namecode:79:山城}、{namecode:179:龙凤}……",
+			say = "Nagato, Mutsu, Kawakaze, Mikasa, Kongou, Hiei...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg6",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Shinano, Musashi, Tosa, Yamashiro, Ryuuhou... and Kaga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "别忘了{namecode:92:加贺}。",
+			say = "That's right, even Kaga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……特别是{namecode:92:加贺}，我的妹妹……",
+			say = "Kaga, my precious... sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "然而，被你算计过的同伴后辈，一路上都在为你挺身而出。",
+			say = "But despite that, even if you plotted against them – your friends and comrades still came. They're here to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们不过是被我骗了……",
+			say = "I brainwashed them... Nothing more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "被你伤害过的世界，如今在为了你的回归而战。",
+			say = "All the people you've hurt are now out there fighting for your sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是为了她们的指挥官能平安回去！",
+			say = "They're fighting for the Commander! Not for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "一位死而复生的姐姐，正在劝说她的妹妹回心转意。",
+			say = "And above all, the sister you gave everything to save... is now fighting for you to give yourself another chance at life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "{namecode:91:赤城}，你并未被世人所抛弃。你剩下的罪，也远未到无可赦的程度。",
+			say = "The mistakes you've made, Akagi, do not deserve punishment by death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我现在回来了。",
+			say = "Your obsessions, twisted as they may be, are still not entirely beyond your control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "不论你之前做错了什么，需要如何弥补。我都会与你一同承担。",
+			say = "I, as your sister, will help you shoulder this burden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……姐姐，我——",
+			say = "Amagi, I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "感慨不着急，先回答我一个问题。",
+			say = "Calm down. You don't need to worry about Kaga right now. I'd like you to answer my question first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？",
+			say = "...What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "漂浮在你身边的我与{namecode:92:加贺}之影，是真正的灵魂数据，没错吧？",
+			say = "These shadows of Kaga and myself floating around us right now – they're our souls from the world you came from, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "而且恰好是我和她现在所缺失的部分。",
+			say = "In other words, they're also precious parts of who we are – the people you once knew, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错……她在消失前留给我的。",
+			say = "That's right... She left them with me before she disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也不知道她是怎么做到的，又为什么要这么做……",
+			say = "I don't know how she did it, or why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "她终究基于你而生。你从心底不想做的事，她也不会做。",
+			say = "In the end, she was still a reflection of your heart. Deep down, she would not do anything that you didn't want to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我可没她算计得这么厉害。",
+			say = "She was born from my obsession... Even if I erase her, she will just come back one day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "那倒是。",
+			say = "I wouldn't worry too much about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_cg6",
-			say = "……姐姐！",
+			say = "Huh? What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "呵呵，好了。刚才想感慨什么，现在可以感慨了。",
+			say = "Who knows~? A certain someone once said to me, \"Give me all her obsession! I can fix her!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………………",
+			say = "What are you even...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "不感慨了？那我们回去吧，别让大家等太久了。",
+			say = "Heehee. Are you feeling better now? Let's head back before the others start to get impatient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯。",
+			say = "...Mm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_cg6",
-			say = "走吧……姐姐。",
+			say = "Let's go... dear sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "苍红色的少女搀扶着朱红色的少女缓步离开。",
+			say = "With the support of her older sister's shoulder, the younger sister slowly starts to walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "世界残片逐渐崩溃，彼岸花海亦随风飘散——",
+			say = "As the world segment crumbles, the falling petals of the red spider lilies are swept up by the wind and start dancing in mid-air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

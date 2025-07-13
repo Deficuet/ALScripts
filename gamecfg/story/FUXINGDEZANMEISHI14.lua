@@ -16,7 +16,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔……是一个比预想中还要麻烦的大迷宫呢。",
+			say = "Are Maestrale and Aquila back yet?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "没想到别说出口，就连看起来像迷宫中心点的位置都没找到…………而且还有不少无法侦查的区域。",
+			say = "She's not used to flying her planes around under these conditions, so she went closer to the labyrinth to investigate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "托里拆利，你有什么想法么？",
+			say = "We'll work on getting whatever information we can from the air. In the meantime, do you have anything new for us, Torricelli?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……哎？我、我的看法么…………嗯，我确实有一些想法…………",
+			say = "Me...? Um, possibly, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "结合现有情报，最合理的解释就是塞壬利用某种装置生成了大量屏障，然后将其伪装成了迷宫的样式……",
+			say = "Um... I found some power generators and energy storage devices, but... I did the usual thing but nothing happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "也许是某种和塞壬护盾原理相同的装置，不过规模上要夸张许多……或许装置本身就是镜面海域维持设备的一部分也说不定。",
+			say = "So yeah, I'm thinking... it's probably in the back. There's no way of destroying the device without entering the Labyrinth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "想要突破屏障，破坏这些设备或者它们的供能系统是最简单的方式…不过塞壬可能早就将装置藏在了复杂的迷宫结构中。",
+			say = "Also, I don't think we can do anything about the walls... I tried shooting at 'em with a torpedo, but it didn't even leave a scratch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "虽然可以尝试一下直接破坏，不过大概率仅凭我们的火力是无法击穿的。",
+			say = "Littorio even tried firing a salvo at it, but same deal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "塞壬既然有能力维持这样夸张的屏障迷宫，应该也会设置有屏障之间彼此传导冲击和补充能量的装置……",
+			say = "In other words, we probably shouldn't expect to smash our way through the labyrinth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……也就是说除了顺着迷宫前进以外，我们没有别的选择了么？",
+			say = "As expected, we have no choice but to find our way through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "目前看起来是这样的。因为不是实体，塞壬说不定还在其中准备了更多的机关……",
+			say = "Mm, yeah, that's what I think... Maybe this whole labyrinth is like, some sort of giant shield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "好、好厉害……托里拆利你平时在角落里的时候其实是一个人研究这些么！",
+			say = "Torricelli, you did all of that while the rest of us were goofing off?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔呼呼…我只是喜欢呆在角落里而已。研究这些只是兴趣、顺便的事……",
+			say = "Ehe, hehehe... No way I'd be able to join in a tea party, so... I had some free time, hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说到克里特岛上的迷宫，指的就是那个神话中残暴怪物米诺陶诺斯居住的克诺索斯迷宫吧……",
+			say = "So, the Sirens are trying to recreate the Labyrinth of Crete? In the legend, there's also supposed to be a Minotaur inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我有种塞壬在前方的迷宫中准备了某中特殊强敌的预感，进去之后大家需要格外注意才是。",
+			say = "If they followed the script and there is such a ferocious monster waiting for us inside, we'll be in for a tough battle. Proceed with caution, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "既然要决定探索迷宫的话，得尽快规划航行路线才行哦！",
+			say = "My navigator skills might not work in here, but leave it to me to keep track of our route!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，这件工作就拜托你了哟，帝国舰队的航海家。用天鹰收集到的情报为我们规划一条正确的航路吧。",
+			say = "Hehe~ I brought some balls of yarn that we can use to find our way back to the entrance in case we get lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是，维内托大人！请放心交给我吧~！",
+			say = "Great! Leave it to me then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也有一种预感，本次行动我们一定会成功的。",
+			say = "We have Aquila surveying the situation from the air, Torricelli's field intel, and da Recco's navigation. With them, we are given new hope!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后本次行动，将会为撒丁帝国史献上一页新的辉煌！",
+			say = "We fear no Siren or Minotaur, and this Labyrinth shall be ours!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child2_ending = {
 	{
 		pic = "bg_project_oceana_cg23",
-		name = "继续升学",
+		name = "New Grade",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA32",
 		id = 1,
@@ -12,7 +12,7 @@ pg.child2_ending = {
 				{
 					300041
 				},
-				"完成养成计划"
+				"Growth Complete"
 			}
 		},
 		condition = {
@@ -24,7 +24,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg24",
-		name = "甜品能手",
+		name = "Pastry Chef",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA33",
 		id = 2,
@@ -34,13 +34,13 @@ pg.child2_ending = {
 				{
 					300001
 				},
-				"总属性>2000"
+				"Stat Total >2000"
 			},
 			{
 				{
 					300002
 				},
-				"性格-乖巧"
+				"Personality – Mild"
 			}
 		},
 		condition = {
@@ -53,7 +53,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg25",
-		name = "调酒师",
+		name = "Bartender",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA34",
 		id = 3,
@@ -63,13 +63,13 @@ pg.child2_ending = {
 				{
 					300001
 				},
-				"总属性>2000"
+				"Stat Total >2000"
 			},
 			{
 				{
 					300003
 				},
-				"性格-叛逆"
+				"Personality – Rebellious"
 			}
 		},
 		condition = {
@@ -82,7 +82,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg26",
-		name = "自然摄影",
+		name = "Nature Photographer",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA35",
 		id = 4,
@@ -92,7 +92,7 @@ pg.child2_ending = {
 				{
 					300004
 				},
-				"性格-乖巧>80"
+				"Personality – Mild>80"
 			}
 		},
 		condition = {
@@ -104,7 +104,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg27",
-		name = "爆破大师",
+		name = "Demolitionist",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA36",
 		id = 5,
@@ -114,7 +114,7 @@ pg.child2_ending = {
 				{
 					300005
 				},
-				"性格-叛逆>80"
+				"Personality – Rebellious>80"
 			}
 		},
 		condition = {
@@ -126,7 +126,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg28",
-		name = "心理咨询师",
+		name = "Therapist",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA37",
 		id = 6,
@@ -136,13 +136,13 @@ pg.child2_ending = {
 				{
 					300027
 				},
-				"知识>6000"
+				"Knowledge>6000"
 			},
 			{
 				{
 					300023
 				},
-				"完成特殊结局事件"
+				"Unlock Special Ending"
 			}
 		},
 		condition = {
@@ -155,7 +155,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg29",
-		name = "安全专家",
+		name = "Cybersecurity Specialist",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA38",
 		id = 7,
@@ -165,7 +165,7 @@ pg.child2_ending = {
 				{
 					300028
 				},
-				"实践>7200"
+				"Dexterity>7200"
 			}
 		},
 		condition = {
@@ -177,7 +177,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg30",
-		name = "露营指导",
+		name = "Camping Instructor",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA39",
 		id = 8,
@@ -187,13 +187,13 @@ pg.child2_ending = {
 				{
 					300029
 				},
-				"感知>6000"
+				"Sensitivity>6000"
 			},
 			{
 				{
 					300024
 				},
-				"外出旅游次数>=20"
+				"Go Sightseeing 20+ Times"
 			}
 		},
 		condition = {
@@ -206,7 +206,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg31",
-		name = "摩托骑士",
+		name = "Motorcyclist",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA40",
 		id = 9,
@@ -216,13 +216,13 @@ pg.child2_ending = {
 				{
 					300030
 				},
-				"体能>6000"
+				"Fitness>6000"
 			},
 			{
 				{
 					300022
 				},
-				"完成特殊结局事件"
+				"Unlock Special Ending"
 			}
 		},
 		condition = {
@@ -235,7 +235,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg32",
-		name = "宠物医生",
+		name = "Veterinarian",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA41",
 		id = 10,
@@ -245,13 +245,13 @@ pg.child2_ending = {
 				{
 					300033
 				},
-				"知识>4000"
+				"Knowledge>4000"
 			},
 			{
 				{
 					300031
 				},
-				"总属性>10000"
+				"Stat Total>10000"
 			}
 		},
 		condition = {
@@ -264,7 +264,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg33",
-		name = "摇滚歌手",
+		name = "Rockstar",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA42",
 		id = 11,
@@ -274,13 +274,13 @@ pg.child2_ending = {
 				{
 					300034
 				},
-				"体能>4000"
+				"Fitness>4000"
 			},
 			{
 				{
 					300031
 				},
-				"总属性>10000"
+				"Stat Total>10000"
 			}
 		},
 		condition = {
@@ -293,7 +293,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg34",
-		name = "闪耀明星",
+		name = "Shining Idol",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA43",
 		id = 12,
@@ -303,13 +303,13 @@ pg.child2_ending = {
 				{
 					300035
 				},
-				"感知>4000"
+				"Sensitivity>4000"
 			},
 			{
 				{
 					300031
 				},
-				"总属性>10000"
+				"Stat Total>10000"
 			}
 		},
 		condition = {
@@ -322,7 +322,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg35",
-		name = "见习护士",
+		name = "Nurse-in-Training",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA44",
 		id = 13,
@@ -332,19 +332,19 @@ pg.child2_ending = {
 				{
 					300036
 				},
-				"实践>1600"
+				"Dexterity>1600"
 			},
 			{
 				{
 					300032
 				},
-				"总属性>4000"
+				"Stat Total>4000"
 			},
 			{
 				{
 					300003
 				},
-				"性格-叛逆"
+				"Personality – Rebellious"
 			}
 		},
 		condition = {
@@ -358,7 +358,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg36",
-		name = "动物园园长",
+		name = "Zoo Director",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA45",
 		id = 14,
@@ -368,13 +368,13 @@ pg.child2_ending = {
 				{
 					300037
 				},
-				"感知>1600"
+				"Sensitivity>1600"
 			},
 			{
 				{
 					300032
 				},
-				"总属性>4000"
+				"Stat Total>4000"
 			}
 		},
 		condition = {
@@ -387,7 +387,7 @@ pg.child2_ending = {
 	},
 	{
 		pic = "bg_project_oceana_cg37",
-		name = "修理达人",
+		name = "Capable Mechanic",
 		character = 1,
 		performance = "LINGYANGZHEYANGCHENGJIHUA46",
 		id = 15,
@@ -397,13 +397,13 @@ pg.child2_ending = {
 				{
 					300038
 				},
-				"体能>1600"
+				"Fitness>1600"
 			},
 			{
 				{
 					300032
 				},
-				"总属性>4000"
+				"Stat Total>4000"
 			}
 		},
 		condition = {

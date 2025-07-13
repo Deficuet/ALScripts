@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，达芬奇已经前往了佛罗伦萨共和国开始创造飞空艇舰队，拉斐尔则前往了神光之网的核心节点着手于设计审判型机甲。",
+			say = "With the power of conception in her hand, Marco Polo materialized the Mechanicus Harbingers, familiar sights from both the World Expo and the Kerguelen Islands.",
 			bgm = "story-shenguang-holy",
 			flashout = {
 				black = true,
@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·地下某处",
+				"Cathedral - Somewhere underground",
 				3
 			}
 		},
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在马可波罗圣座的英明指挥下，战局充满希望。",
+			say = "At the same time, she ordered Raffaello to travel to Florence and manifest a fleet of airships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,12 +51,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不够……还不够。",
+			say = "It's a start... but it's not enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能利用神光之基重现陆上神国，让神真正降临的话……",
+			say = "If I can use the Sources of God's Light to replicate God's Kingdom and bring Him to us, then maybe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "与此同时，无垠的纯白之中。",
+			say = "Meanwhile, in the boundless land of white...",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这是怎么回事？",
+			say = "Huh? What the hell is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,20 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "很显然，马可波罗突然做出的这一系列部署正是我此前才想到的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "如果排除“心有灵犀”这种明显不可能的选项的话……结论就只有一个了。",
+			say = "Marco Polo suddenly issued a series of orders that were identical to what I came up with just a moment ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，一定是你做的。",
+			say = "I'm going to assume she didn't develop and master telepathy all of a sudden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而在得到你的提示后，她已经开始进行陆上神国的准备了？",
+			say = "That leaves just one option. Hierophant, are you relaying my thoughts to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +162,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以这才是你的真正目的？",
+			say = "That's why she began manifesting all those weapons and got ready for you to descend to earth. Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,18 +175,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……你是想让她，在这里重现陆上天国，再次引导你降临？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			say = "雕像依然沉默无声。",
+			say = "Was this your goal all along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +188,18 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不对……如果你只是想做到这些的话，你根本无需把我卷入进来。",
+			say = "Was it all to replicate the conditions of the near-superimposition event in a new test site so she could herald your arrival?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			say = "There is nothing but silence from the statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +212,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……你一定还有别目的。",
+			say = "No... If that was your goal, there would've been no need to involve me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +225,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但不管怎么说，放任马可波罗进行陆上神国的仪式都太危险了。",
+			say = "Then you must have some other motive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +238,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "上次就算有着镜面海域进行约束，还是险些造成惊人的后果。",
+			say = "Whatever that may be, I know one thing for sure: That ritual is far too dangerous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这一部分你打算怎么收场？",
+			say = "Even with the limitations of a Mirror Sea during your first attempt, the superimposition almost came to be. There would've been no turning back then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +264,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，我需要知道你的计划。",
+			say = "How are you going to finish it this time?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Tell me, Hierophant. I want to know your plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "于是，我向着面前的雕像寻求答案。",
+			say = "I ask the statue for answers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "而后在不远处，一扇门出现了。",
+			say = "Not long after, another door appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			stopbgm = true,
 			mode = 1,
 			asideType = 3,
-			say = "记录04800501-17",
+			say = "Record 04800501-17",
 			blackBg = true,
 			bgm = "theme-thehierophantv",
 			flashout = {
@@ -359,7 +359,7 @@ return {
 			},
 			sequence = {
 				{
-					"记录04800501-17",
+					"Record 04800501-17",
 					1
 				}
 			}
@@ -373,7 +373,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说，你晚叫停一会多好，实验机关的局部清理协议保证能把撒丁岛给你清理得干干净净。",
+			say = "I wish you would've delayed the shutdown just a little, Lady Hierophant. The protocol would've wiped Sardegnia Island completely clean by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在还得我来费尽心思的给你藏好。",
+			say = "Now I must go to great lengths to hide it for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是是，知道你一窍不通，里面的META化研究设施也给你修好了。",
+			say = "I'm aware that you know nothing about this task. That's why I restored the META research facilities for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来还有什么活？",
+			say = "Is there anything else I can do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………不是，我就是客气客气，你还真不客气啊！",
+			say = "...I only asked out of politeness. You weren't supposed to actually ask for more help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……要修这么多东西？你认真的？",
+			say = "...I have to repair ALL of it? Are you pulling my leg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……什么叫“你不会？”",
+			say = "...You can't do it by yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "知道你动手能力差，但是我没想到能差到这个地步……！",
+			say = "I knew you were inept, but not to THIS extent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你有没有一点身为超级人工智能兵器的矜持啊？！",
+			say = "Have you no pride as a self-improving AI weapon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是……我这次答应来帮你真是倒了血霉了。",
+			say = "...You are so, so lucky that I promised I would assist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次再有事去找迪贝路帮你，我绝对不和你搭伙了！",
+			say = "If you have trouble in the future, save it for Devil. I'm done working with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……神之遗迹我还能理解，神之军械库也勉强可以，但什么叫神之花园和神之造船厂……？",
+			say = "...I can understand the Ruins of God. Same with the Armories of God – but what in the world is the \"Shipyard of God\" and \"Garden of God\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了……我放弃了，谁让我确实对你这次的实验内容有兴趣呢。",
+			say = "You know what? Forget I asked. This is what I get for having an interest in someone's experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对外投放的心智魔方，就按照你的喜好包装成神赐之物好了。",
+			say = "The Wisdom Cubes will be distributed as \"gifts from God,\" as you asked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不知道你的这场实验最终会以什么结果收场呢，还真是令人期待啊~啊哈哈哈~",
+			say = "Let's hope the final result of your experiment will be... interesting. Heheheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像依然无声。",
+			say = "As it has this whole time, the statue maintains its silence.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……感觉，无意中见到了海洛芬特不为人知的一面。）",
+			say = "(I feel like I just got a glimpse of a side of Hierophant that few ever get.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（提尔瑞特，以战车为名的仲裁机关么。）",
+			say = "(Chariot, huh? Another Arbiter whose image I should commit to memory.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "而后，是另一扇门。",
+			say = "Another door appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			stopbgm = true,
 			mode = 1,
 			asideType = 3,
-			say = "记录14531224-472",
+			say = "Record 14531224-472",
 			blackBg = true,
 			bgm = "theme-thehierophantV",
 			flashout = {
@@ -714,7 +714,7 @@ return {
 			},
 			sequence = {
 				{
-					"记录14531224-472",
+					"Record 14531224-472",
 					1
 				}
 			}
@@ -723,13 +723,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在穿过帷幕之后，天空与海洋都发生了巨变……",
+			say = "The sky and sea change so dramatically once you pierce the Veil...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,12 +756,12 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凯撒，没想到传闻是真的……撒丁岛真的没有被毁灭，而是被神藏起来了！",
+			say = "The rumors were true, Cesare. Sardegnia Island wasn't obliterated – it was just hidden by God!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,13 +771,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好惨，这里就像经历过一场大战一样。",
+			say = "What a hideous sight... It's as though a war took place here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,12 +787,12 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 605060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安德烈亚，我发现了一片完好无损的建筑区，上面的古字我不认识，你来看看。",
+			say = "Andrea, I've sighted a cluster of remarkably intact buildings. There's some writing that I can't read. Mind taking a look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,12 +802,12 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？我看看哦——",
+			say = "Sure. Let me see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,13 +817,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "牌子上写着……“心念与META双向干涉实验研究所”？",
+			say = "It says... \"Conceptual and META Bidirectional Interference Experiment Laboratory\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,13 +833,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然是研究所“研究所”……在这种地方？",
+			say = "A laboratory? In this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,12 +849,12 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凯撒，你有没有感觉到，自从进入这片特殊的空间后……我们就感受不到那股无处不在的、对于神的信仰之力了？",
+			say = "Hey, is it just me... or have you also not been able to sense the power of faith since we came in here? It should be able to be felt from anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,13 +864,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还真是如此……",
+			say = "Yes, now that you mention it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,13 +880,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			oldPhoto = true,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这片被神所隐藏起来的战争之地中一定有重大的秘密……",
+			say = "There must be earthshaking secrets lying in this hidden battleground...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,12 +896,12 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "star_level_bg_504",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 605070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们要暗中控制这里，然后……把秘密挖出来！",
+			say = "We have to scour this place thoroughly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像依然无声。",
+			say = "As it has this whole time, the statue maintains its silence.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以，这就是实验场ES-131618拥有这么多META的原因。",
+			say = "...That's why test site ES-13161 is home to so many METAs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她们是利用塞壬留下的设施，以自己的意志选择进行META化的。",
+			say = "They took advantage of the Sirens' abandoned facilities and willingly underwent METAmorphosis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……“可控META化”技术……只希望它确实可控吧。",
+			say = "So there exists technology that can induce controlled METAmorphosis... Assuming it really can be controlled, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，是另一扇门。",
+			say = "Another door appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			stopbgm = true,
 			mode = 1,
 			asideType = 3,
-			say = "记录04800924-51",
+			say = "Record04800924-51",
 			blackBg = true,
 			bgm = "theme-thehierophantV",
 			flashout = {
@@ -1012,7 +1012,7 @@ return {
 			},
 			sequence = {
 				{
-					"记录04800924-51",
+					"Record 04800924-51",
 					1
 				}
 			}
@@ -1025,7 +1025,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "好了，安保系统也帮你重建完毕了。",
+			say = "Restructuring of the security system is complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还贴心地设置了255个细分挡位来满足你的不同测试需求呢。",
+			say = "I have also created 255 sub-options to meet the various needs of your experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "看到了么，就在这里，按键1~255，都给你封装好了，别的部分别乱动！",
+			say = "The buttons for options 1 through 255 are all here. Don't touch anything besides these.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，251~255号方案也别乱动，那是我替你准备的几个极端处理方案。",
+			say = "Also refrain from touching buttons 251 through 255. They initiate emergency backup plans I set up for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,7 +1100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我专门留了一台审判机「战车」在这里呢。",
+			say = "Finally, I've positioned one of my own MECHArbitrators here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,7 +1115,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你也别嫌少，就你这个级别的实验场，就算再运转个一千年的联合舰队加在一起，也不是一台审判机「战车」的对手。",
+			say = "Don't say anything about it not being enough. One MECHArbitrator can endure more punishment than a combined fleet can dish out in over a thousand years.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,7 +1130,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之我再忙几天写份详细说明书给你，然后这里就和我没关系了。",
+			say = "I'm going to be busy for a few days now while I write a manual for you. When that's done, I'm not coming back here ever again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,7 +1145,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我对结果很好奇，但是我可不想盯着看几百年。",
+			say = "While I'd love to see the experiment's results, I'm not going to sit around for centuries waiting for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,7 +1159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "等出了结果之后记得联系我哟~",
+			say = "Let me know when the results are in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,7 +1170,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像依然无声。",
+			say = "As it has this whole time, the statue maintains its silence.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -1199,7 +1199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "等了一段时间后，门也不再出现了。",
+			say = "I wait for a minute or two, but no other doors appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以你想告诉我，实验场ES-131618现在的防御系统是由提尔瑞特修建的，且只能由你来控制。",
+			say = "What I gathered from that is that Chariot constructed the defense system of test site ES-131618 and only you can control it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1225,7 +1225,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但由于你现在的状态，实验场的防御设施预计将会自动运行。",
+			say = "But, since you're in your... current state, the defense system is working automatically.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这套防御设施里，最具有威胁的是一台名为审判机「战车」的设备，其战斗能力或许会超过整个实验场各国战斗力的总和。",
+			say = "The fiercest part of the system is a MECHArbiter, and apparently, it would be impossible to take down even if the whole test site worked together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "因此，让马可波罗执行陆上神国仪式是她们唯一的机会……？",
+			say = "Therefore, the one and only way they could survive was if you used Marco Polo to bring you down to earth, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,7 +1264,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "考虑到让仪式不受控的副作用最小化，所以你是在暗示让她去撒丁岛的镜面海域中进行仪式准备？",
+			say = "Did you nudge her in the direction of the Sardegnia Island Mirror Sea in order to minimize potential collateral damage caused by the ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "反正那里一直都处于安德烈亚·多利亚·META的控制之下。",
+			say = "Seeing as it's under the control of Andrea's side, they should be able to keep collateral fairly low.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1290,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "到这一步为止我都理解了，她们所面对的情况确实十分严峻。",
+			say = "Now I understand everything that's happened so far. Marco Polo and that world face a potential apocalypse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,7 +1303,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过我依然对于马可波罗能否控制住陆上神国仪式的副作用保持怀疑……",
+			say = "I'm not sure how well Marco Polo will be able to control the collateral of the ritual, either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,7 +1316,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而且……我依然不清楚你希望我来帮你做什么？",
+			say = "You still have yet to tell me – what exactly do you want my help with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1329,7 +1329,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "整个流程不是已经被你安排得明明白白了么？",
+			say = "Is there anything that isn't going exactly how you planned it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1340,7 +1340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默，无垠的纯白之中，唯有回声。",
+			say = "Silence. The statue offers no answers, and my voice echoes hollowly in this horizonless stretch of white nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 				}
 			},
 			signDate = {
-				"东大洋——坐标，28.502085, -177.914427",
+				"North Pacific Ocean\n—— 28° 30' N, 177° 54' W",
 				0.2,
 				{
 					600,
@@ -28,7 +28,7 @@ return {
 			actor = 307040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "还没准备好吗！？对方已经展开反击了！",
+			say = "Are we ready yet?! The enemy's counterattack is incoming!",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一航战二航战全员听令，立刻将舰载机换装鱼雷武装，准备展开对舰攻击！",
+			say = "...1st and 2nd Carrier Divisions, load your planes with torpedoes. Prepare for anti-ship combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，在这个时候换装！？",
+			say = "What?! Change equipment right now?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "兵贵神速，一步千金，如果被对手抓住了这个机会的话…",
+			say = "Nee-sama, I can't do that! What if the enemy attacks while we're unprepared?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "方位0630，高度2000，发现复数敌机，高速接近中！",
+			say = "Multiple enemy aircraft approaching at an altitude of 2000!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正后方？！",
+			say = "They're coming from behind?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所有战机立刻回防，展开防空火…",
+			say = "Dammit! Call back the fighters! We need anti-air now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 307020,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "啊——",
+			say = "Graaaaghhh!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -255,15 +255,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>…………</size>",
+					"<size=51>............</size>",
 					2
 				},
 				{
-					"<size=51>……</size>",
+					"<size=51>......</size>",
 					4
 				},
 				{
-					"<size=51>真是失算啊…居然在关键时刻犯了如此兵家大忌…</size>",
+					"<size=51>To let my guard down... at such a critical time...</size>",
 					6
 				},
 				{
@@ -271,15 +271,15 @@ return {
 					8
 				},
 				{
-					"<size=51>…对不起，辜负了您的期待…</size>",
+					"<size=51>...I'm sorry. Looks like I couldn't live up to your expectations...</size>",
 					10
 				},
 				{
-					"……",
+					"......",
 					12
 				},
 				{
-					"<size=51>{namecode:161}…大人</size>",
+					"<size=51>Amagi... san...</size>",
 					14
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>                                                              ——苍红的回响</size>",
+					"<size=51>                                                              ——Crimson Echoes</size>",
 					2
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…这样就将死了",
+			say = "*Giggle*... checkmate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			actorName = "{namecode:92}",
 			dir = 1,
-			say = "啊——！！！",
+			say = "Argh!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人已经十连胜了！",
+			say = "That makes this your tenth consecutive victory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然这样把我的金将诱骗进了斜行，太狡猾了！",
+			say = "You dirty little...! You baited out my Gold General! You're not playing fair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，谁叫{namecode:92}你总是急于进攻呢，当你的王将走到中段时结局就已经显而易见了~",
+			say = "You focus too much on offense. Your fate was already sealed when you left your King in the middle of the board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有的时候，以守为攻把猎物悄悄的诱骗进包围网反而能取得意外的收获哦~",
+			say = "Let's just say that going on the offensive while appearing to be on the defensive to lure out your opponent can sometimes be an effective strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛，一副得意洋洋的样子，尾巴都翘得老高了，这局不过是我疏忽大意了而已……",
+			say = "Look at you being all smug and wagging your tails... You were just lucky to catch me off guard! I'll show you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收拾好驹台，我们再战一局！",
+			say = "Come on, we're having another match!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,11 +456,11 @@ return {
 			},
 			options = {
 				{
-					content = "再战一局",
+					content = "Have one more match",
 					flag = 1
 				},
 				{
-					content = "见好就收",
+					content = "Call it quits",
 					flag = 2
 				}
 			}
@@ -472,7 +472,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "啊——！！！",
+			say = "Aaahh! God dammit!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -494,7 +494,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "姐姐大人十一连胜～",
+			say = "That makes this your eleventh consecutive victory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间不早了，{namecode:91}，我们也该回去了，再待下去就要打扰到{namecode:92}大人修行了~",
+			say = "I'm afraid it's gotten quite late... Akagi, we should head home soon. I wouldn't want to get in the way of Kaga's training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，好——",
+			say = "Ah, certainly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赢完就想要逃跑吗！",
+			say = "What, are you leaving because you're scared of actually losing to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "才不是呢～别忘了，重樱一年一度最重要的联合演习后天就要开始了。",
+			say = "Not at all. The fact is that in two days, the Sakura Empire will be having its annual naval exercise. You haven't forgotten about it, have you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想{namecode:92}大人也不会想在战场上输得像今天一样惨吧？呵呵呵~",
+			say = "Speaking of which, don't you agree we would be more evenly matched in a wargame than in a board game?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…哼，既然如此…究竟谁才是最强的新世代战舰，就放到实战中见分晓吧！",
+			say = "...That's true. Then we shall have a real battle to see who is the most powerful modern ship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,11 +602,10 @@ return {
 		},
 		{
 			actor = 305060,
-			stopbgm = true,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人，我去探查了一下~这一届的候选者们都很兴致昂扬呢，这一次的演习有得看了。",
+			say = "Sis, I checked out the participants for this year... and they all seem really motivated! I'm so excited!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -638,7 +637,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是说过，周围有人的时候注意不要叫我“姐姐”嘛…！",
+			say = "Haven't I told you to refrain from calling me \"Sis\" when others are present?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +652,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～为什么不能叫姐姐大人姐姐大人呀？",
+			say = "Aww! But you're my big sister, so why can't I call you \"Sis\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +667,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔…随你喜欢吧……",
+			say = "*Groan*... Call me whatever you wish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +682,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的联合演习吗？可能会和以往略有不同…希望一切都能顺利就好了…",
+			say = "*Sigh*... That aside, we have our exercise tomorrow... I hope that will go well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

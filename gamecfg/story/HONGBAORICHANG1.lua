@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"各自的春节\n\n<size=45>一 爆竹声中除旧岁</size>",
+					"Spring Festival Party\n\n<size=45>The Mother of All Firecrackers</size>",
 					1
 				}
 			}
 		},
 		{
-			say = " 临近春节的港区",
+			say = "At night, right before the start of the Lunar New Year...",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轻轻地，轻轻的……",
+			say = "All right, carefully, slowly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~点着了！大家快跑！",
+			say = "There, I've lit the fuse! Everyone, scamper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 501031,
-			actorName = "长春&莲&松",
-			say = "哇~~~~~",
+			actorName = "Chang Chun & Yukikaze & Mutsuki",
+			say = "Whuah?!",
 			subActors = {
 				{
 					actor = 301162,
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_102",
 			soundeffect = "event:/battle/firework",
 			dir = 1,
-			say = "砰——！啪啦啪啦啪啦——！砰——！",
+			say = "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 301162,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "爆竹居然弄出了小型烟花的效果？！",
+			say = "How can a firecracker go off with the flash of a small firework?! That's ridiculous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 301323,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇，好厉害！",
+			say = "Wooow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺特制爆竹，鞍山7号，引爆成功！",
+			say = "It's the result of my sweat and tears and Chang Chun's technical know-how!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在长春的技术支持和我的不断试验之下，跨时代的“鞍山7号”终于成功了！",
+			say = "That, my friends, was the mother of all firecrackers! We've named it the An Shan #7!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 301323,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:33}也想要放放看！",
+			say = "I wanna light one too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 301162,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有吗还有吗？我也想要玩！！",
+			say = "Do you have more of them? Yukikaze the Great demands to get to set one off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前面顺手还做了不少，想玩的话都可以玩哦，不过…",
+			say = "Um, we *did* make a whole batch of them, expecting most to fail, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿…在玩之前，我们先来试试另一个重头戏…",
+			say = "Sure, but first, there's one more thing we need to do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,8 +308,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 301323,
-			actorName = "松&莲",
-			say = "噢噢？",
+			actorName = "Mutsuki & Yukikaze",
+			say = "What's that?",
 			subActors = {
 				{
 					actor = 301162,
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重磅级爆竹！“超级鞍山1号”！！",
+			say = "We need to prototype the Mega An Shan #1! It's the grandmother of all firecrackers!",
 			effects = {
 				{
 					active = true,
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…真要说起来，那个只是塞满了火药的易拉罐吧…算了…能有什么效果也挺令人好奇的…嘿嘿…",
+			say = "Hang on, isn't that the one that's just a can stuffed with gunpowder? Still... I *am* curious to see how it'll explode.",
 			effects = {
 				{
 					active = false,
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！这是我收集了很多很多鞭炮才制作出来的！只要点着它的话……",
+			say = "It's not just a can with some gunpowder! It's a cocktail of gunpowder from a *whole bunch of firecrackers* stuffed into a can! Let's light this thing and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚——顺——！",
+			say = "FUUUUUU SHUUUUUUN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…糟了，是鞍山姐——",
+			say = "Zoinks, it's An Shan herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是说了要和平海宁海她们一起包饺子的吗！竟然敢跑到这里来摸鱼！",
+			say = "What are you doing out here playing with firecrackers? You said you were going to help Ning and Ping make dumplings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我知道了啦！现在就过去…别拉我耳朵呀疼疼疼——",
+			say = "Ow! Okay, I'll do it! Ow! OWW! Stop dragging me by my ear, you're gonna rip it off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,8 +485,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 501031,
-			actorName = "长春&莲&松",
-			say = "……",
+			actorName = "Chang Chun & Yukikaze & Mutsuki",
+			say = "Uhh...",
 			subActors = {
 				{
 					actor = 301162,
@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…那…{namecode:22}和{namecode:33}你们要不要放放看？我这里还有一些“鞍山7号”",
+			say = "So, do you two still want to set off some An Shan #7's? We've got plenty left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,8 +535,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 301323,
-			actorName = "松&莲",
-			say = "要！！",
+			actorName = "Yukikaze & Mutsuki",
+			say = "Yeah! Of course!",
 			subActors = {
 				{
 					actor = 301162,
@@ -569,7 +569,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "不远处…",
+			say = "Meanwhile, just a short walk away...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -603,7 +603,7 @@ return {
 			actor = 403044,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，爆竹吗…看起来也不过是个冒火花的小玩具罢了",
+			say = "Setting off firecrackers, are they? Those little cracklers are no more than playthings for lowly animals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			actor = 404011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，还是舰炮齐射更有意思啊！不过，最后那个倒是有点让人期待啊，简单粗暴的设计反而有种原始的美感",
+			say = "Pretty much. If they want a loud bang, just do a damn cannon salute. I've gotta say though, that mega-whatever they spoke of has a jury-rigged charm to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 404011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可惜没能见识到，啧啧…不过，{namecode:429}啊，你如果想要一起玩，就过去呗？",
+			say = "That's why I hoped to see it go off. Speaking of which, isn't that the whole reason you came here? To watch the firecrackers go off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "瞎说什么呢？",
+			say = "N-No! Why would I?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

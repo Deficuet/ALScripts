@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "帕克菲克洋，理应是{namecode:524:圣地亚哥}司令部周边的某处海域——",
+			say = "Somewhere, in the waters around the base at SD...",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "约克城姐……我总觉得，我们刚才是不是已经来过这片海域了！",
+			say = "Hey, Yorktown, we JUST passed through this area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "好像是这样的……",
+			say = "You're right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 103260,
-			say = "约克城女士，根据导航信息，我们应该早就抵达{namecode:524:圣地亚哥}司令部了才对，",
+			say = "The GPS says we should've arrived at the base long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 103260,
-			say = "可是如今却连海岸线都没看到，或许我们的导航系统遭受到了干扰。",
+			say = "And yet, I can't even see land on the horizon. Do you think the GPS is malfunctioning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 102310,
-			say = "不……导航信息一路上都是正确的，只有在接近{namecode:524:圣地亚哥}司令部的时候没有将我们带到正确的地方。",
+			say = "Could be... It was working fine until we got close to the base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 102310,
-			say = "或许出问题的不是导航系统，而是这片海域。",
+			say = "Wait, maybe it's not the GPS, maybe it's this particular area that's acting up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是推测，我们驶入了镜面海域？",
+			say = "Are you saying that we've entered a Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，这样还可以解释为什么我们也与DC特区和星海失去了联络。",
+			say = "That's exactly what I'm saying! I can't get in contact with DC and the Sea of Stars, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等！在{namecode:524:圣地亚哥}司令部周边出现了镜面海域？！这可是超大问题啊！",
+			say = "A Mirror Sea THIS close to the base?! That's a big, BIG problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "是超大问题呢……不过还是不对啊，镜面海域里，总得有敌人吧。",
+			say = "Yeah, no kidding. But if we're in a Mirror Sea, where are all the enemies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是你们看，敌人在哪儿？天上，水面，水下，我的雷达可什么目标都没看到。",
+			say = "Look around. Not a plane in the sky, not a ship in the water, not even a blip on the radar. There's nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你真是言出法随，现在再看看雷达呢？",
+			say = "Ugh! Look at that! You jinxed us, Hornet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "再看看雷达……等等，还真有目标飞来了？",
+			say = "What, are you picking something up? Oh, you're right – I see blips on the radar, and they're getting closer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克城姐，我立刻升空……迎……击？",
+			say = "Yorktown, let's launch our planes and intercept them before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "不对啊约克城姐，我这里显示飞来的是己方目标啊。",
+			say = "Wait, cancel that... Apparently, those are allied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这里也是如此显示的。而且在舰载机之中，还混入了最先进的高速无人机……？",
+			say = "Yes, mine says the same. What's even stranger is, there are even drones mixed in with the aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "舰载机和无人机混编……会被无人机拖慢航速的，好奇怪的搭配组合。",
+			say = "That's really weird. Drones can't fly as fast as an aircraft, so putting them together would slow the formation down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,20 +261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在众人惊诧的目光下，有些奇怪的混编舰载机群驶过了众人的头顶，然后在半空中展开了一个鸟居。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 101500,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "哈、哈曼的眼睛没看错吧，为什么在半空中会出现一个鸟居？",
+			say = "The formation flew over the girls' heads and airdropped a package. The next moment, a pink light flashed, and a torii gate appeared in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +274,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且那些飞机都钻入鸟居消失了啊？！",
+			say = "Is that Bell's voice? And what the heck is that?! Why's there a gate in the air?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 101500,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Look! Those drones and aircraft flew into it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我懂了……或许不是我们在镜面海域里，而是整个{namecode:524:圣地亚哥}司令部在镜面海域里！",
+			say = "I've got it! We're not the only ones trapped in a Mirror Sea – the base is, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "可是镜面海域虽然无法观测，不过只要驶入其影响范围内就会被自动卷入么？",
+			say = "That explains why we can't reach 'em. But if we're both in the same Mirror Sea, why can't we reach them no matter where we go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我们从那里过了好几次，都没被卷进去啊。",
+			say = "Well, I guess there are Mirror Seas that utilize that fog that bends the laws of physics...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 103260,
-			say = "我在资料里见到过一种需要用特定的方法才能进入的加密镜面海域。",
+			say = "I've read some documents that described a Mirror Sea similar to this – a locked Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 103260,
-			say = "铁血最初在{namecode:435:俾斯麦}海建造并隐藏浮岛要塞群时，使用的就是类似的技术。",
+			say = "It works like Iron Blood's Floating Fortress. You can only access the Fortress itself through some specific method.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一无所知的人可以正常驶过那片区域，而知道如何输入密码的人，才能进入要塞内部。",
+			say = "If you don't know what it is, you'll either wander around aimlessly forever, or just casually come out the other side of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢！塞壬的主机空间，是不是也是用了类似的技术？",
+			say = "That reminds me a bit of the space surrounding a Siren's mainframe. Works kinda like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个要复杂很多，不过……我觉得在这一点上的原理是相同的。",
+			say = "I see where you're coming from, even if those ones are WAY more intricate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……看来就现状而言，{namecode:524:圣地亚哥}司令部确实陷入了镜面海域的笼罩中。",
+			say = "If I understood that right, then we're only at the border of the Mirror Sea while the base is locked deeper inside, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "而派出这支舰载机编队的人，肯定对于当前事态有所了解。",
+			say = "Presumably, that Sakuran gate is the \"specific method\" Northampton just mentioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "作为入口的鸟居还没消失……",
+			say = "Speaking of that gate, it's still just sitting there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "大黄蜂、奇尔沙治，我们一同用舰载机追进去看个究竟！",
+			say = "Hornet, Kearsarge, let's all use our aircraft to get inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

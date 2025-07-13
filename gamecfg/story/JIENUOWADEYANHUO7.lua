@@ -10,7 +10,7 @@ return {
 			bgm = "battle-boss-italy",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "轰——————————！",
+			say = "BOOOOOM!",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
@@ -78,7 +78,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇……这次不光是通讯和动力模块，连电力系统都被打出了损伤。",
+			say = "Whew... That's that fleet dealt with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她回去之后不大修一下是不行了……",
+			say = "Hey, you really ought to take a breather, Algérie. You'll exhaust yourself if you keep this up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是我的实力哦，最优秀的重巡洋舰可不是说说而已。",
+			say = "Please. I don't want to hear that from you, Ms. Knight who's always busting her butt in battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过你的身手也不差，稍微有点出乎我的意料了……看来你在后方的时候也没有疏于训练啊。",
+			say = "You have to give it your all in war. You of all people should know that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然！我也是教廷的骑士，不论身处何地何职，战斗的本领可不能落下。",
+			say = "Hahah, I suppose we're both overachievers by nature, huh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过和你还差不少啦……我已经深刻认识到差距了！",
+			say = "Although, I'm glad I don't have to make a show out of using my rigging, like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~请继续加油努力哦。",
+			say = "What can I say? Conducting yourself with elegance is demanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们不期待战斗，但是战火既已燃烧——",
+			say = "(I have no desire to turn my weapons upon fellow shipgirls, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为圣教骑士，我们能做的唯有拼死奋战，为敌人降下名为正义的审判，为祖国带来胜利与凯旋。",
+			say = "(Because the Vichya wills it... we have no choice but to use force to achieve our \"ideals.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那——刚刚已经被你击垮的那位敌人，你打算怎么办？",
+			say = "Let's keep moving. We're going to reach our target soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你觉得怎么办好呢，“大参谋”？",
+			say = "Is there anything else we should be keeping our eyes on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和之前一样吧，本次行动中她已经无法对我们构成威胁，等同于被“消灭”了。",
+			say = "Probably not. I'm pretty sure we've taken out all the patrols around the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就听你的吧，“大参谋”。",
+			say = "I wonder how many checkboxes we'll be able to tick before their main force arrives~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~那就继续加速前进！看起来没有撒丁舰队会比我们更早到达目的地了。",
+			say = "Yeah. This is going to come down to a race against time more than a battle against enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "等待我们的只有空虚的港口，继续加速向前——！",
+			say = "All righty, let's get this job done quickly!",
 			effects = {
 				{
 					active = true,

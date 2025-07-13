@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「我行走在七丘之上。」",
+			say = "(What is this... that I'm seeing? It feels so nostalgic... yet also so strange...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「人群向我发出了邀请。」",
+			say = "\"I cross the Seven Hills, the peoples' voices calling out to me.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「来一同战斗么？加入这场为了新生的战斗。」",
+			say = "\"Fight, for the beginning of a new world.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我同意了。」",
+			say = "\"Fight, for the beginning of a new splendor.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我与罗穆路斯同行。」",
+			say = "\"I shall not walk alongside the hero newly-born.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「敌人蜂拥而至。」",
+			say = "\"The enemies come, innumerable as the teeming tides.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「但是，有谁能阻止我们呢？」",
+			say = "\"But, who is capable of stopping us?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

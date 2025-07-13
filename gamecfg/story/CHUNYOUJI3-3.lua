@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "参加春节演出获得大人气，获得了奖励【心智单元*150】"
+			say = "You brought Shinano a really fluffy cushion, and she loved it! Collect 150 Cognitive Chips!"
 		}
 	}
 }

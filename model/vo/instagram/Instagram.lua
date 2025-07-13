@@ -24,6 +24,9 @@ function var_0_0.InitByServer(arg_2_0, arg_2_1)
 	arg_2_0.text = arg_2_1.text
 	arg_2_0.picture = arg_2_1.picture
 	arg_2_0.time = arg_2_1.time
+
+	print(pg.TimeMgr.GetInstance():GetServerTime(), "------------", arg_2_0.time)
+
 	arg_2_0.optionDiscuss = {}
 	arg_2_0.discussList = {}
 	arg_2_0.allReply = {}

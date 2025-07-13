@@ -15,14 +15,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，今天要一起看电影吗？",
+			say = "{dorm3d}, do you want to watch another movie with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "Sure.",
 					flag = 1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……那我们一起挑选要看的电影影片吧。",
+			say = "Alright. Let's pick out what to watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "对了，要不要约定一天作为我们每周的专属电影时间呢？",
+			say = "Ah, in fact, how about we have a weekly movie night?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "抛开工作的烦恼，依偎在一起，享受安静的二人时光。",
+			say = "We can forget about work, huddle up, and have a comfy, quiet time together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

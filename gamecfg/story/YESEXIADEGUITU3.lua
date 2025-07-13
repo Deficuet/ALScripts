@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-french1",
 			dir = 1,
-			say = "呼，这样就算解决了呢。",
+			say = "We managed to push them back for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "是呀是呀，要是能这样一路顺利回到土伦就好了~",
+			say = "I hope we don't run into any more trouble on the way to Toulon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "怎么啦，敦刻尔克？",
+			say = "What's wrong, Dunkerque?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们最后还是和皇家全面开战了呢。",
+			say = "I was just thinking about the Royal Navy. We ended up waging an all-out war against them after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "没事啦，我们都已经习惯了。虽然主要都是撒丁帝国在和她们交战，不过我们偶尔也会和她们产生摩擦。",
+			say = "I wonder indeed... The Vichya Dominion and Iris Libre used to be on the same side... and the Royal Navy as well, but I guess a lot happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "既然现在是敌人，也没办法的事。",
+			say = "There's no point thinking about all that now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = ".........Mm, you're right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，敦刻尔克，已经过了一年多了，现在感伤这个也没用了。",
+			say = "(What a depressing mood...) Dunkerque, now's probably not the best time to think about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "我们只能着眼于现在眼前能做到的事而已啦~",
+			say = "Let's focus on getting back to Toulon so you can rest up and recover!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉。这一年我都在船坞里休整，一点都没帮上你们的忙。",
+			say = "Hehe. I've had plenty of time to rest up in the docks... But, I also haven't been able to contribute to the Vichya's war efforts as a result...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？不是不是，我不是想说这个！",
+			say = "That's not true at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "敦刻尔克你会受这么重的伤是因为英勇面对皇家背叛的结果，不会有人怪你啦",
+			say = "The only reason you've been out of commission is because of the treachery of that Perfidious Albion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "不对不对，我也不是想说这个，唔……",
+			say = "So basically, umm, what I'm trying to say is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 900236,
-			actorName = "沃克兰",
-			say = "(塔尔图救我！快帮我想想怎么安慰敦刻尔克，我应付不来这种场合啊！）",
+			actorName = "Vauquelin",
+			say = "(Hey, Tartu! Help me find something I can say to reassure Dunkerque!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道了，不要摇我，我在听的，都说了我不会不分轻重地走神……",
+			say = "Hmm...? Sorry, I only heard about half of it... But, in any case, I don't think you need to blame yourself, Dunkerque.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 901020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敦刻尔克，和皇家进行战斗、和自由鸢尾进行战斗。现在的局面就是这样，不是我们能够改变的。",
+			say = "Regardless of the camp - Royal Navy, Iron Blood, or Iris... I don't think there's anything we can do about the fact that their leaders think of us as weapons of war.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "但是，眼前重要的事是，在土伦港还有相信我们，期盼我们回去的同伴。",
+			say = "What's more important is that there are comrades who are worried about you and eagerly awaiting your return, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "对哦、对哦！太久没吃到敦刻尔克的甜点，大家都快要暴走了！",
+			say = "That's right! Without your sweets, our morale is about to fall through the floor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "噗……等我回去之后一定让你们吃个够啦。",
+			say = "Hehe. I guess I'll be busy cooking after I get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "要是让斯特拉斯堡看到我这个做姐姐的现在这幅样子，肯定会笑话我吧……",
+			say = "I can't afford to let Strasbourg see me in such a sorry state after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "谢谢你们，我现在感觉好多了，让我们继续前进吧。",
+			say = "Vauquelin, Tartu, let's continue to push forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

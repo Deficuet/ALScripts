@@ -8,7 +8,7 @@ return {
 				1
 			},
 			style = {
-				text = "请点击回忆按钮",
+				text = "Tap the Memories button.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -34,7 +34,7 @@ return {
 				2
 			},
 			style = {
-				text = "在养成过程内获取到的CG，会保存在记忆分类中。",
+				text = "You can review the photographs unlocked during TB's growth on the Events screen.",
 				mode = 2,
 				posY = -369.3,
 				char = 1,
@@ -54,7 +54,7 @@ return {
 				2
 			},
 			style = {
-				text = "除此之外的剧情内容，则会保存在回忆分类中。",
+				text = "You can review story scenes unlocked during TB's growth on the Memories screen.",
 				mode = 2,
 				posY = -349.6,
 				char = 1,
@@ -74,7 +74,7 @@ return {
 				3
 			},
 			style = {
-				text = "根据行程安排与选择的不同，能够捕捉到的精彩瞬间也不同。具体请在养成过程中多多尝试哦！",
+				text = "You will unlock various memories and moments as you raise TB. The choices you make also determine what scenes you'll see.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "通过解锁「瞬间」以开放领航员-TB的不同外形模块。",
+				text = "Gathering Moments will unlock different outfits for TB to wear as your special secretary.",
 				mode = 2,
 				dir = 1,
 				char = 1,

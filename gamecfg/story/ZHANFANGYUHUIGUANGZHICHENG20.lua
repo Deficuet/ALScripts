@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这里是……之前的那片空间。",
+			say = "Is this... that same space again?",
 			blackBg = true,
 			bgm = "story-startravel",
 			typewriter = {
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "看来，我已经在那场黑色风暴中迎来了“死亡”，而后……又来到了此处。",
+			say = "Miss D says I got lost when I came in here, but... I think this might be the narrow gap between life and death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			blackBg = true,
-			say = "无垠、广袤、虚无，方位与时间似乎在此处失去了意义。",
+			say = "(I must've been brought here after I'd died – before the black tornado could corrode me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			blackBg = true,
-			say = "蓝色的清泉依然包裹着我的意识，让它不至于在此消散。",
+			say = "The foam still covers my mind, protecting my \"self\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "……你又来了。",
+			actorName = "???",
+			say = "...Back again, \"I\" see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,22 +94,22 @@ return {
 			nameColor = "#5CE6FF",
 			recallOption = true,
 			blackBg = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是谁？",
+					content = "Who are you?",
 					flag = 1
 				},
 				{
-					content = "这是哪里？",
+					content = "Where am I?",
 					flag = 2
 				},
 				{
-					content = "只有我一个人来了么？",
+					content = "Am I the only one here?",
 					flag = 3
 				}
 			}
@@ -121,8 +121,8 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			actorName = "？？？",
-			say = "这个问题没有意义。",
+			actorName = "???",
+			say = "A meaningless question.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,8 +139,8 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actorName = "？？？",
-			say = "虚无。",
+			actorName = "???",
+			say = "Nowhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,8 +157,8 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 3,
-			actorName = "？？？",
-			say = "嗯。",
+			actorName = "???",
+			say = "Yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,8 +175,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "该我提问了。",
+			actorName = "???",
+			say = "It's \"my\" turn to ask the questions now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,8 +193,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "你知道么，此前之景只为虚像。",
+			actorName = "???",
+			say = "Do you know that what you've been witnessing are mere images?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,8 +211,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "一切已成定局，如过往云烟，注定消散。",
+			actorName = "???",
+			say = "Foregone conclusions, all illusions, all destined to fade away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "知道。",
+			say = "Yeah. I know that very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,8 +240,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "既知如此，何必苦苦挣扎，在痛苦中迎来毁灭？",
+			actorName = "???",
+			say = "Why struggle? Why resist? Why suffer and face death?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,10 +255,10 @@ return {
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
-			say = "你做这一切，有什么意义？",
+			say = "What meaning is there to all of it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "……不论身处真实，还是身处虚像，我就是我。",
+			say = "Well... It's something only I can do. Doesn't matter if it's real or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "我永远会遵循本心，坚持自我，做出“我”应该做出的选择。",
+			say = "I follow my heart, stick to my sincere beliefs, and do what I must do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "至于意义……意义是被赋予的。可以是他人，也可以是自己。",
+			say = "What does the meaning matter, as long as I understand it? If I must, I can share it with someone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "只要自己还在坚信，事情就总有意义，不是么？",
+			say = "I think there's inherent meaning in treading a path you believe in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "况且谁也不知道，一个无意间的轻轻振翅，会在彼方掀起多大风暴啊。",
+			say = "Even if it seems meaningless at a glance, nobody knows what effects it might lead to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,10 +327,10 @@ return {
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
-			say = "……你的回答，我收到了。",
+			say = "...Answer received.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,8 +347,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "……你对于改变既定的现实，还心存幻想。",
+			actorName = "???",
+			say = "You're still under the illusion that you can change established reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "曾经有人跟我说过，“现实未必等于真实。只有深信不疑的现实，才会变成真实。”",
+			say = "Recently, somebody told me, \"Reality and truth are not always one and the same. Reality can only be truth if enough faith goes into it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "这段时间以来，我一直在思考这句话的含义。",
+			say = "I've spent a long time trying to figure out what that means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "而在今天，我终于得出自己的答案了。",
+			say = "But now, it makes perfect sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,8 +398,8 @@ return {
 			actor = 9705050,
 			dir = 1,
 			blackBg = true,
-			actorName = "？？？",
-			say = "……答案是“做徒劳无功的事”？",
+			actorName = "???",
+			say = "What? That all vain effort will be rewarded?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "是“不认可”。",
+			say = "No. It means that you can't always accept reality as the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "在我记忆中不存在的事，就不算我所亲身见证的事。",
+			say = "If something doesn't exist in my memory, then it may be truth to others, but it isn't necessarily truth to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "既然如此，对于那些“盖棺定论的现实”，我不认可。",
+			say = "Reality may be set in stone for all I care, but if you don't accept it as the truth, then it isn't your truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "不论在任何环境中，在任何预设前提下，我都不认可。",
+			say = "No matter the situation, no matter the established premise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "即使所有人都说这就是“真实”，我都要予以否定。",
+			say = "Until I, as an individual, experience something, make decisions, and see things to their conclusion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "因为只有我自己所经历、所见证的现实，才是属于我自己的真实。",
+			say = "I won't accept it as the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "因此，我要改变它们。",
+			say = "So I'm going to fight for the sake of my truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			blackBg = true,
-			say = "哪怕看上去只是一次又一次的徒劳无功，我也决不放弃。",
+			say = "If that sounds like a vain effort to you, well, too bad. That's not enough reason for me to give up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "光芒消散后，映入眼帘的是一片斑驳树影。",
+			say = "When the light fades, I see the shadows of trees.",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "温暖的阳光自叶片的空隙间洒下，伴随着花香与鸟鸣声，此处是一片祥和之地。",
+			say = "The warm light shining through the leaves, the scent of flowers, the sounds of baby birds... An incredibly peaceful scene.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "长椅子上，我与一位少女同向而坐。在我们的中间，放置着一盒精致的点心。",
+			say = "Next to me on this bench is a girl dressed in the style of the Royal Navy. In the space between us sits a small box of sweets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,12 +557,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "嗯……这里真是个好地方啊。",
+			say = "Mmm... This is such a nice place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "你知道这是什么地方么……？",
+			say = "Do you know where we are?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,12 +588,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "为什么要问我？",
+			say = "You're asking \"me\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,9 +609,9 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			side = 2,
-			say = "这里不是自你内心之中呈现出的光景么？",
+			say = "This is a place that you constructed, that you interpreted, that you wished for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,12 +625,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "由你的内心所诠释的「终结」。",
+			say = "It is your \"end.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "由我的内心所诠释的……“终结”？",
+			say = "My... end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不……我完全不明白这是怎么回事，以及这个地方为什么会突然出现……",
+			say = "I don't understand. What happened, and how did I end up here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,9 +670,9 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			side = 2,
-			say = "……但是我明白了。",
+			say = "You don't, but \"I\" do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,12 +686,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "呵呵……去吧。",
+			say = "You must go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,12 +705,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "回到你的战场之上，进行那徒劳的抗争吧——",
+			say = "Go back to your battlefield. Continue your vain struggle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,8 +727,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "我会一直注视着你的，「指挥官」。",
+			actorName = "Rodney",
+			say = "\"I'll\" be watching you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1

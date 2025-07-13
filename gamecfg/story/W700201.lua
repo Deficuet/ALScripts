@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "成功击败了本月普通难度仲裁者量产型机体。回到作战港口后再次进入，可以挑战本月的困难难度仲裁者量产型机体。",
+			say = "Monthly goal of Arbiter eliminations has been reached. You may challenge an Arbiter on Hard mode upon reentering the zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 1
 				}
 			}

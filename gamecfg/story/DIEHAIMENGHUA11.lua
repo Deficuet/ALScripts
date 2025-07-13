@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "xinnong-2",
-			say = "夜色下，一个蓝色的身影向着海边疾驰着。",
+			say = "In the night, gossamer sheets of blue silk fluttered towards the flames burning upon the ocean's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在发动袭击的难道就是上次的神秘入侵者……",
+			say = "(...They're going to take Watatsumi... No, their goal is to destroy it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			actor = 307080,
 			dir = 1,
-			say = "余烬……这次一定要看到汝等的真面目！",
+			say = "(...The one who goes by \"Ember\"...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 306090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎…？{namecode:182}大人？！您醒过来了…！",
+			say = "L-Lady Shinano?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			actor = 307080,
 			dir = 1,
-			say = "（{namecode:188}、{namecode:103}和{namecode:104}…？出席祭典的人员中应该没有她们才对。）",
+			say = "(Kashino... Chitose, and Chiyoda...? My dreams did not show them as being present at the ritual...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			actor = 307080,
 			dir = 1,
-			say = "（现世经历开始扰动梦境了么）",
+			say = "(Has reality began to bleed into the Dreamworld?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汝等在这里做什么？",
+			say = "\"What are you doing here?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本我们是来为祭典运送补给的，没想到在离开之前突然遭受了塞壬的袭击…",
+			say = "We originally came to deliver supplies for the ceremony, but we didn't expect to get attacked by Sirens before we left...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 306090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，好不容易解决了成群结队的塞壬，现在又出现了一个从来没见过的敌人！",
+			say = "Yeah, and just as soon as we managed to mop up the Sirens, a brand new enemy showed up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			actor = 306090,
 			dir = 1,
-			say = "也不知道是不是塞壬的新型兵器…",
+			say = "I have no idea if it's some new Siren weapon, but it looks different than anything we've faced before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			actor = 306080,
 			dir = 1,
-			say = "现在，其他人正在带领舰队迎击神秘之敌，但是敌我差距悬殊，战况危机……",
+			say = "The others are trying to hold them back, but enemies keep pouring at us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那汝等现在是在…？",
+			say = "\"Will you return to lend them your aid...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			actor = 319010,
 			dir = 1,
-			say = "啊，{namecode:182}大人您误会了，我们不是从前线逃回来的哦。",
+			say = "Um, Lady Shinano, there appears to be some misunderstanding. We didn't retreat from the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			actor = 319010,
 			dir = 1,
-			say = "{namecode:82}大前辈判断对方的目标是摧毁神石，彻底摧毁天宇启户祭的举行。因此命令我们立刻护送神石转移。",
+			say = "Mikasa surmised that the enemy's objective was to completely sever the ceremony by destroying Watatsumi, so we were ordered to take Watatsumi to a safe place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（居然让余烬这么感兴趣，果然海若不只是集聚信仰的载体这么简单……）",
+			say = "(If Ember is interested in Watatsumi, the sacred relic of the Sakura Empire... then what is the nature of my existence...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			actor = 307080,
 			dir = 1,
-			say = "……妾身去拖住敌人的行动，汝等一定要保护海若的安全。",
+			say = "\"...This one shall hold back the enemy. See to it that Watatsumi is kept safe.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 319010,
 			dir = 1,
-			say = "遵命，祝您武运隆昌。",
+			say = "Very well. Good luck, Lady Shinano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 306080,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？{namecode:182}大人要亲自出马了么，太好了！",
+			say = "Huh? Lady Shinano herself is going to fight by herself...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这样一来形势就逆转了。{namecode:182}大人，向敌人展现一下重樱最强航母的威力吧~！",
+			say = "Hehe, now we'll be able to turn the tides! Lady Shinano, show our enemies the power of the Sakura Empire's mightiest carrier~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			actor = 307080,
 			dir = 1,
-			say = "…………交给妾身吧。",
+			say = "\"...Very well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

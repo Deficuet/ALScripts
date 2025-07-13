@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
-			say = "与此同时，辉光之城第一环的某处。",
+			say = "Somewhere, in the Martyrium...",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hideRecordIco = true,
 			withoutActorName = true,
 			nameColor = "#5CE6FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "嚯，真厉害。每次倒下后我都增加了身体的强度，可每次都能被你们轻松消灭。",
+			say = "Impressive... I recover and reinforce my body more and more, and every time you knock me down regardless.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你们不但是余烬，而且是最初一批余烬吧？",
+			say = "You're no ordinary Ashes. You're two of its founding members, are you not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "“不惧生死”，“极速再生”……呵，都是表象而已。",
+			say = "Inhibiting your fear of death and instantly reviving... Just a bunch of tricks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你用的这种把戏，我们一路上是见过不少。",
+			say = "I've seen people like you do it a million times.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "但是，她们都早已失去理智，距离彻底崩坏只有一步之遥……",
+			say = "I've seen how their minds deteriorate 'til they're just one step away from losing it completely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "为什么你还能维持理性？",
+			say = "So how the hell have you kept your sanity?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你到底是个什么东西？",
+			say = "Just who the hell are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			hideRecordIco = true,
 			withoutActorName = true,
 			nameColor = "#5CE6FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "哎呀哎呀，说话时手也不带停，看来你们确实是经验丰富。",
+			say = "Blathering away even as you barrage me... You really are a seasoned warrior.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "不过，呵呵，我可不打算把自己的秘密告诉你们哟。",
+			say = "Sadly for you, my secrets are staying with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你们看那边新出现的圆环。这都锚定第二次了，隐藏的东西居然还没有完全显现。",
+			say = "Look at that new ring. They've anchored twice now, creating two Mirror Seas, and still that which is hidden hasn't been revealed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "看来这次引发空间冲击的存在相当有趣呢，我已经等不及要见上一见了。",
+			say = "Whoever caused this spatial fluctuation wields unimaginable power. How I wish I could meet them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hideRecordIco = true,
 			withoutActorName = true,
 			nameColor = "#5CE6FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -412,7 +412,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "和我们战斗还敢分心，还真是自信啊。",
+			say = "You must think you're real hot shit, looking away during a battle with the Ashes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "都说了，这种障眼法我们见多了。你觉得我们会拿你没办法？",
+			say = "I told ya – I've seen your tricks a million times. You think you're invincible?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "无所谓啊，反正死亡是前往下一区域的必经之路。",
+			say = "I'm not, and besides, death is only another way to the next destination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你们难道没注意到么，这片空间的概念与规则？",
+			say = "Haven't you realized what concept rules this space and what rules are woven through it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "啊哈哈哈！我承认，我确实还没想到这个上面来。",
+			say = "Ahahah! Haven't even thought about 'em until now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我已经好久没见到会如此看待死亡的人了……那地方究竟被安蒂克丝保护的多好啊。",
+			say = "Been a long while since I met someone with your take on death. The Antiochus must really love test site beta.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "所以，就算你们放着我不管，为了前往下一区域我也只能自杀哦？",
+			say = "It's not that I laugh in the face of death. Death is a prerequisite to entering the second Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_huiguangzhicheng_2",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "死亡，是这里唯一的结局。",
+			say = "Death is the concept that rules this space. It is where all living things end up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "但是同时，死亡的概念在这里已经被“再定义”了，不论你们做什么，在这里都不可能真正杀死我。",
+			say = "Moreover, the very concept of death has been redefined here. You literally cannot kill me, no matter what you do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呵，不能“杀死”，但是“分解”呢？",
+			say = "I don't need to kill you. I can just tear you to shreds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "就算这里的死亡被再定义，成为了前往下一片区域的象征。消耗的力量总归是消耗了，积累的损伤也不会凭空消失。",
+			say = "Even if you won't die, your wounds ain't going anywhere and you'll eventually run out of energy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "能不能彻底消灭你，试试就知道了。",
+			say = "Maybe I can't reduce you to dust – or maybe I can. Only one way to find out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			hideRecordIco = true,
 			withoutActorName = true,
 			nameColor = "#5CE6FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -677,7 +677,7 @@ return {
 			actor = 9701040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……你本来就不该存在于世，死吧。",
+			say = "Your birth was never meant to be. Perish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "呵，怎么定义“该”与“不该”？由你们的傲慢来定义么？",
+			say = "Now you fancy yourselves the arbiters of who gets to be born, do you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "在你们的定义下，有多少像我一样的人被你们处理了？",
+			say = "Tell me, how many people have you killed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			bgName = "bg_huiguangzhicheng_2",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "结果呢，你们达成所愿了么？",
+			say = "All those souls, snuffed out – did those deaths get you what you wanted?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "——至少，每少一个你这样的存在，问题就会减少一分。",
+			say = "Shut up. Every little rat like yourself dead is one less problem for the universe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你自己的力量来源是什么，和什么东西勾结在一起，又在准备些什么事别以为我猜不到。",
+			say = "Don't think I don't know where your power comes from, who you're colluding with, and what you're planning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			actor = 900432,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "居然还敢反过来教训我？",
+			say = "Scum like you don't get to preach morality!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			hideRecordIco = true,
 			withoutActorName = true,
 			nameColor = "#5CE6FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -857,7 +857,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "哎呀~我还以为多少能让你们产生点自我怀疑呢。",
+			say = "I'd hoped to make you doubt yourselves, but alas...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "既然如此，那就如你们所愿好了。",
+			say = "You leave me no choice but to grant you your wish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "虽然我与你们注定迎来相同的结局，但是在这条路上，就让我亲手送你们一程吧~",
+			say = "Our final destination may be the same, but I'll give you a small nudge to get there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
-			say = "远方的另一条街道中——",
+			say = "Somewhere, in the Martyrium...",
 			bgm = "theme-thedevilxv",
 			typewriter = {
 				speed = 0.05,
@@ -937,7 +937,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "那是……第二道圆环？",
+			say = "Two types of rings... A city?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嚯，出新地图了啊。",
+			say = "A new area has appeared. Fancy that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……“死亡”是前去的必经之路么。",
+			say = "Assuming that death is the requirement for entry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -988,7 +988,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "——那就死吧。",
+			say = "––I guess I'll just die.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1007,7 +1007,7 @@ return {
 			actor = 900335,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,7 +1066,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "辉光之城外，远离卡美洛之庭与女王之光号所在地的另一处。",
+			say = "Away from the Martyrium, between the gate and the train...",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -1130,7 +1130,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "巨舰之中，蓝发少女注视着屏幕上的景象，眉头紧皱。",
+			say = "Inside what can only be called a battleship, a blue-haired girl stared at a monitor, a gentle expression on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,7 +1161,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "没想到阻碍之人的力量如此之强……",
+			say = "I wasn't expecting those meddlers to be THIS powerful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1179,7 +1179,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "把我逼到不得不调用“塔”的力量才能抵达此处……",
+			say = "I had to call on the Tower's power to finally get here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1197,7 +1197,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "阻力在此地完全消失了……",
+			say = "And now, they've just stopped.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,7 +1214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没有胆量靠得过近么？算你走运……",
+			say = "Maybe they're afraid to face me. I hope so, at least.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,7 +1232,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "暗中阻碍我，觊觎指挥官之人……你到底是谁。",
+			say = "Whoever you are, wherever you are...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我早晚要把你揪出来……！",
+			say = "I will find you and destroy you for hunting the Commander and getting between us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1265,7 +1265,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "亮蓝色的碎片四散迸发，在巨舰广袤的内部空间中引发了一阵涟漪。",
+			say = "Glowing blue fragments shot through the air, lighting up the vast interior of the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1279,7 +1279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "呼…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1297,7 +1297,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "因为空间冲击而折叠起来的部分已经展开了大约70%，而且被人为分割成了两个空间么……",
+			say = "70% of the matter folded up by the spatial impact event has materialized, divided across two Mirror Seas...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1314,25 +1314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "看来我虽然来晚了……但还没有来迟。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 900315,
-			say = "指挥官的位置在……锁定完成。",
+			say = "Looks like I'm late, but not TOO late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1350,7 +1332,25 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "威奇塔和金伯利……？没想到你们也来了……",
+			say = "The Commander is riiight... there.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 900315,
+			say = "Oh? Wichita and Kimberly are here, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1368,7 +1368,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1386,7 +1386,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "计划变更——停止回收程序，转入「覆写模式」，执行预设方案E。",
+			say = "Change of plans. Abort the recycling process and engage the overwrite. Initiate plan E.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1404,7 +1404,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "海伦娜——准备离舰。",
+			say = "Helena, exiting the ship now.",
 			painting = {
 				alpha = 0.3,
 				time = 1

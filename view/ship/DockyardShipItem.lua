@@ -181,6 +181,7 @@ function var_0_0.flush(arg_6_0)
 				if var_6_5[1] == "shipstatus" then
 					arg_6_0.iconStatus.sizeDelta = Vector2(195, 36)
 					arg_6_0.iconStatusTxt.fontSize = 30
+					arg_6_0.iconStatusTxt.transform.sizeDelta = Vector2(195, 36)
 				end
 
 				arg_6_0.iconStatusMask.enabled = false

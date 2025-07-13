@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>三 清晨，爱睡懒觉的……</size>",
+					"Lively Afternoon Tea Party III\n\n<size=45>「Dawn, Love To Sleep In...」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，该起床啦～",
+			say = "Your Majesty, it’s time to wake up~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "Zzzz……",
+			say = "Zzzz…...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（贴近伊丽莎白的耳朵）今天早餐是陛下最喜欢吃的奶酪三明治哟～",
+			say = "(Leans close to Queen Elizabeth’s ear) Today’s breakfast is your favourite buttered toast~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕噜……给我留一份……Zzzz……",
+			say = "Moan... Give me a moment... Zzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再睡下去，起床后陛下就只能一个人吃早餐啦",
+			say = "If you continue to sleep, then I'm afraid you'll be eating breakfast alone your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……贝法……会陪我的……Zzzz",
+			say = "...Belfast... Will accompany me... Zzzz",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没办法……陛下，今天好像会来新同伴哟～",
+			say = "It really can't be helped... your Majesty, there will be a new sister arriving today~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzz……新的同伴……真的！？是我认识的吗……头好沉……贝法……拽我起来啦……",
+			say = "Zzzz... A new girl... Really?! Do I know her... My head hurts... Belfast... Help me get up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……贝法？",
+			say = "...Belfast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……对不起，我说谎了，今天没有新同伴来，陛下再睡一会儿也没关系",
+			say = "...Sorry, I lied, there is no one coming, you can sleep a little longer your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是吗……那就……Zzzz",
+			say = "...Is that so... well then... Zzzz",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明才劝谏过工作不要太过拼命……陛下就请再稍微休息一会儿……唉，粗心大意的女仆，今天早晨又忘记去叫醒女王了（笑）",
+			say = "I'm simply advising you to not work all night long… Your Majesty should rest a little longer… Argh, I'm such a careless maid, I forgot to wake up the Queen this morning (smiles).",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……时间上还有些余裕，再稍微看10分钟陛下的睡脸吧～",
+			say = "Hmm… we still got some time left, let me enjoy glancing at your Majesty’s face while you sleep for another 10 minutes more~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻～陛下的睡脸，真是可爱～",
+			say = "Hehe~ That sleeping face your Majesty makes is so cute~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			say = "回到茶会中——",
+			say = "Back at the tea party——",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -278,7 +278,7 @@ return {
 			side = 1,
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "这个点心好好吃，是谁做的？",
+			say = "This snack is delicious, who made this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是我姐姐做的哟，司康饼是她最擅长的点心",
+			say = "My sister made these, scones are her speciality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，我还以为是贝法做的，你们两人的茶点味道真是一模一样啊",
+			say = "Oh? I thought you made them, Belfast. Both of you make very similar tea and snacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿、嘿嘿嘿……",
+			say = "Hehehehe….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这是在变相夸奖我吗？",
+			say = "Haha, I'll take that as a compliment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			actorName = "{namecode:14}",
 			dir = -1,
-			say = "这个味道……怎么说呢，嗯，真是满溢着姐妹之情……",
+			say = "This snack tastes… how should I put it—— right. You can taste all love and effort from you sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "{namecode:14}，不要这么看着我啦……好啦，我知道了，我会向爱丁堡学司康饼的做法啦——虽然不一定能做得这么好吃",
+			say = "{namecode:14}, don't look at me that way, enough I get it already, I'll learn how to bake scones the way Edinburgh makes it—— Even though I might not be able to make it as tasty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 0,
 			actorName = "{namecode:14}",
 			dir = -1,
-			say = "没关系，在姐姐的烘焙技艺登堂入室前，我会一直等待下去的！",
+			say = "It’s ok, I can wait, not matter how long it takes for you to learn to bake this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
+			say = "At the same time, {namecode:11}...",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			say = "【北纬28°东经167°】",
+			say = "[North Latitude 28° East Longitude 167°]",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -474,7 +474,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "重樱的北边也这么温暖吗……温室效应，好可怕！",
+			say = "Should the northern side of the Sakura Empire be this warm… might be caused by greenhouse effects, scary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

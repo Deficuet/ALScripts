@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_3",
 			dir = 1,
-			say = "？？？？·卡美洛之庭",
+			say = "Location unknown - Camelot(?)",
 			effects = {
 				{
 					active = true,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "我们还在卡美洛之庭中……但是，外面的环境彻底改变了？！",
+			say = "Are we still in Camelot? Did the teleporter malfunction?",
 			effects = {
 				{
 					active = false,
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……居然真的成功了。我也只是之前听陛下解释过操作原理而已……",
+			say = "No, we definitely warped. Janus and Sheffield are gone, and I see no recording devices. It seems we've been taken to a separate instance of Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "金光过后，众人发现自己跟随卡美洛之庭转移到了一处全新的区域。",
+			say = "The gate shone and transported the search party to a remarkably similar castle hall, but the fine details differed much from the last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "蔚蓝的天空、郁郁葱葱的草地、一望无垠的森林和远处连绵的丘陵……",
+			say = "Sunshine, islands covered with greenery, and forests that stretch on forever. Quite similar to the last Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "感觉身心都被治愈了……",
+			say = "*yaaawn*... It's all so tranquil it's making me sleepy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "外侧那些看起来十分夸张的圆环也改变位置了哦。",
+			say = "Curiously, the rings on this gate are aligned differently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "那一部分我也不清楚，只听陛下说过好像跟坐标定位有关……",
+			say = "The Royal Maids had a theory on that – their arrangement clues you in to which version of Camelot you're in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "来吧，我们去附近探索一下。有一半概率陛下就在这里！",
+			say = "Let me just make sure we can go back... All right, we're good. Let's go, ladies – time to look around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "这个森林……已经堪称原始森林了吧。不挠小姐，侦察机有什么发现么？",
+			say = "This forest seems like a terrible nuisance to get through... Indomitable, do your eyes in the sky see anything noteworthy?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "森林的面积广阔又繁茂，空中搜索有点困难……",
+			say = "I'm afraid not. This Mirror Sea does appear to be nothing but dense forest stretching in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我没有看到任何城市或者小镇，倒不如说……几乎没看到人类活动的痕迹。",
+			say = "Err, wait, is that a small castle? It looks pretty run down though, and there don't appear to be any signs of activity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "我们究竟跑到什么地方来了啊……",
+			say = "That leaves us two options – head there to search for Her Majesty, or look behind every tree in this endless forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "这个我无法回答你。我只是操作机器来到了坐标记录的位置而已。",
+			say = "Guess we'll have to make the trek there by foot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "那个坐标里有表示时间的部分么？",
+			say = "While on the topic, does anyone know what this place is actually supposed to be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "也许有，不过很遗憾，陛下没有教给我阅读的方法。",
+			say = "No idea. A Mirror Sea, obviously, but beyond that – maybe it's a re-creation of some place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸~你说来看看，也许我能解出来呢。",
+			say = "Hmm... Do you think it's supposed to serve as a Reenactment site?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "有一个数字好像是负四百六十三亿多，你有什么头绪么？",
+			say = "Likely, which means it's possible we'll run into Pawns. I wouldn't be surprised, but that would be annoying to deal with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "公元四百六十三亿年之前…………？",
+			say = "Annoying? Why's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "虽然我不是相关领域的专家，但我觉得你说的完全不对。",
+			say = "Because the Pawns could take on Her Majesty's form to try to deceive us. Every time we encounter someone, we'd have to confirm whether or not they're real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "…………诶嘿，那我就完全没有思路了！我继续去搜索啦~你加油哦。",
+			say = "Oh, I see... Good gosh, just thinking about it drains my energy... Excuse me while I return to surveying from above instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "抱歉，我也不打算闷头解读。毕竟只要找到陛下，一切疑问就迎刃而解了。",
+			say = "By all means, do that. Our top priority is finding any trace that someone's been here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "有发现了！在我们前方大约一小时路程有一座小城堡！",
+			say = "I see someone over by that castle! It will take around an hour to reach it from here!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不远不近的距离……不过总算有线索了。",
+			say = "That's plenty reachable by foot. An hour is nothing if it takes us to our goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "这座城堡是附近唯一明显的标志物，如果陛下来了肯定会去那里的！",
+			say = "It's the only place I imagine Her Majesty would go to. All that's left is a bunch of trees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "很好。我在前面开路，大家跟我来。",
+			say = "I'll lead the way. Indomitable, maintain a high altitude so your planes won't be spotted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "前卫拔出佩剑斩断前方的藤蔓，小心翼翼地踏入了丛林。",
+			say = "The palace guard drew her sword and led the way through the wilderness toward the castle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "林中漫步啊……贾维斯，你带除虫药了么！",
+			say = "We're really going to wade through the woods, I see. Jervis, did you bring insect repellant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉，不挠小姐，我的医疗箱里并不包含除虫这一项。",
+			say = "Afraid not. I would have the foresight of a fortune teller if I did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸——好吧，那就勉强打起干劲来，出发咯~",
+			say = "How unfortunate... *sigh*... I know this is an important mission, but now I really wish I stayed home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

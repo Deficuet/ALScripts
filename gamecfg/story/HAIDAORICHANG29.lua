@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>马可波罗的计划</size>",
+					"Uncharted Summer\n\n<size=45>Marco Polo's Grand Ambition</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "火山的山腰，一支队伍正向着那高耸入云的峰顶前进着。",
+			say = "A group of girls are industriously scaling the volcano. They are halfway to the summit.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "除去领头的马可波罗之外，似乎大家都是一副愁眉苦脸的样子……",
+			say = "Aside from the leader, Marco Polo, all the girls bear looks of reluctance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "啊……救命……登山……好累……啊……",
+			say = "*pant*... Help... I can't keep climbing... I'm too tired...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "再坚持一下……马上……就要到了……呼……",
+			say = "We're almost at the summit... Hang in there... *pant*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……是撒丁和铁血混编的登山队。",
+			say = "It seems they're a mountaineering team made up of both Sardegnian and Iron Blood girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "马可波罗以“登山踏青”的名义，带着她们向着这座岛上的最高处——火山山顶——前进着。",
+			say = "The team eventually reaches the mouth of the volcano. Marco Polo led them there under the pretense that the climb is \"a pleasurable hike through nature.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这一路上也没碰见什么值得取材的事情……早知道就不上来了……",
+			say = "I climbed all this way, and for what? There's nothing to report on up here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "新闻记者不是要有着克服一切艰难险阻，去最危险最困难的地方取材的觉悟么？",
+			say = "Is overcoming challenges and finding scoops in dangerous places not the job of a journalist?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "怎么遇到这么点小小的挫折就想退缩了？",
+			say = "Don't tell me you're giving up already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "虽然但是……这次是马可波罗大人您非要拉着我们上来的啊……",
+			say = "You insisted that we tag along, that's the only reason we're here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼……为了{namecode:435}大人的任务……",
+			say = "But... Bismarck said this is an important mission...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "坚持，坚持……",
+			say = "Just... Just hang in there, ladies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "哼哼哼，就快了，马上就快到山顶了~",
+			say = "Yes, exactly. The summit isn't far now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "接下来，你们就敬请见证吧！",
+			say = "You must be present for this historic moment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "见、见证？",
+			say = "What \"historic moment\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "见证我马可波罗……对这座岛屿的征服——！",
+			say = "The moment that I, the great Marco Polo, conquer this island!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,12 +314,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			actorName = "{namecode:491}",
+			actorName = "Jade",
 			dir = 1,
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "登上岛屿最高的山峰就算征服了这座岛了吗……呃呃……",
+			say = "I don't think merely reaching the island's highest point grants you ownership of it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那当然不只是这样。达·芬奇，你那边也已经准备好了吧！",
+			say = "Of course not. There's more to it than that. Da Vinci, is everything ready on your end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一切准备就绪~多谢慷慨的经费了~",
+			say = "Ready as can be! Appreciate the huge grant, by the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "呵呵呵，我一向是不会在这方面吝啬的人。",
+			say = "Magnificent. I'm not afraid to splurge if it means achieving my goals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "“那东西”就放在……嗯，没错，那个位置就好了。",
+			say = "Now let's see... Yes, over there will do just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "马可波罗环顾四周，思考片刻后用手指向了山顶边缘一处平坦的地面。",
+			say = "Marco Polo scans her surroundings. After weighing her options for a second, she points to a flat stretch of land on the summit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里吗？OK，达·芬奇物流速递，为您服务~！",
+			say = "That over there? Got it! Da Vinci Express is on the way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "空气中响起无人机的噪声，而后巨大的黑影浮现在众人的眼前。",
+			say = "The sound of a colossal drone booms through the air, and a large shadow is cast upon the spot Marco Polo designated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这、这个是……！",
+			say = "Oh my god...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "伴随着震耳欲聋的冲撞声，一尊巨大的纪念碑建筑被安置在了火山的最高处。",
+			say = "A giant monument lands on the summit with a loud rumble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "纪念碑的顶部，是马可波罗的塑像。",
+			say = "At the top of the monument is a statue of Marco Polo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~！这就是我为纪念此次“撒丁的征服”而定做的纪念碑~！",
+			say = "Yes! THIS is a monument befitting the Sardegnian Conqueror of Islands!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "呜哇……！这个倒是挺气派的呢！",
+			say = "Whoooa! It's really well-made!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "对对对（无关心地鼓掌）。",
+			say = "*clap clap clap*... (I couldn't care less.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢噢噢噢————！这还真是，不错的镜头！",
+			say = "Hoooly cannoli! This is a picturesque statue if I ever saw one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一来也不枉我辛苦这一趟了！",
+			say = "I take back what I said. It WAS worth it to climb up here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "记得要写成一篇壮阔华丽的新闻哦？",
+			say = "I expect you to turn this into front-page news, with a long article to go with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题没问题~！灵感已经在涌现出来了！",
+			say = "Oh, you bet! I've got a million things to say about this already!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "怎么样都好了……比起这些——",
+			say = "None of which have any substance, I'm sure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "——达·芬奇，你那个巨型无人机能送我们下山么？",
+			say = "Ahem. Da Vinci, would you please use your drone to take us back down?",
 			painting = {
 				alpha = 0.3,
 				time = 1

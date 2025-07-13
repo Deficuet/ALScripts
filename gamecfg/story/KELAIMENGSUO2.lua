@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>二　温柔、周密又贴心</size>",
+					"Veiled in White\n\n<size=45>2 Gently, Minutely</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "港区·指挥室外",
+			say = "Port - Hallway Outside Office",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "今天因为突发的临时会议，要迟一些才能去指挥室。",
+			say = "Due to an urgent meeting today, I arrive at my office a little late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "克莱蒙梭担任秘书舰也已经有一段时间了，仰仗于她优秀的工作能力，让我最近的下班时间都提前了不少。",
+			say = "Clemenceau has been working as my secretary ship for a while now. Her excellent work has been a huge help, to the point that we even leave work early sometimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
-			say = "但是只有她自己留在指挥室的话，多少还是有些放心不下。希望不会出什么问题吧……",
+			say = "(But I still don't feel comfortable leaving her alone in my office. I hope nothing bad has happened in my absence...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "克莱蒙梭，你觉得晚餐会上的甜点组合我是准备烤布蕾和马卡龙好呢，还是蒙布朗和巧克力麦芬比较好？",
+			say = "Clemenceau, do you think crème brûlée and macarons are a good combination for the party? Or would Mont Blanc and chocolate muffins be better?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "奶油蛋糕和慕斯蛋糕好像也不错……嗯……或者准备玛德琳和松露巧克力？",
+			say = "Cream cake and mousse cake are a timeless combo, too... Oh, but what about madeleines and chocolate truffles?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，每一种都很不错……难以抉择啊。",
+			say = "Hmm... They're all so delicious that I can't even begin to choose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我觉得，还是要搭配饮品的种类来考虑比较好哦。",
+			say = "Have you considered picking a pair that matches the drink selection?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果是红茶或者绿茶，那么甜点的口味甜腻一些也无妨。",
+			say = "Black tea and green tea would demand a sweeter array of pastries...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果搭配咖啡，那就要更要考虑到咖啡的做法，以及咖啡豆自身的风味……然后再去选择与之相匹配的甜品。",
+			say = "If it's to go with coffee, then you'd want to base it on the type and recipe of the coffee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不过大家的喜好都各有不同，不如多准备一些不同的品类以供挑选，你觉得如何？",
+			say = "Either way, knowing the number of participants, there are going to be a wide range of preferences. Don't you think you'd be better off preparing multiple combinations?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "有道理，那我就先回去准备啦~",
+			say = "Yeah... Thank you, Clemenceau. I'll go work on it right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801040,
-			say = "克莱蒙梭大人，你觉得我在晚餐会上表演什么魔法比较好呢！",
+			say = "Lady Clemenceau, what sorts of spells would be best for the party?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "请选择不会爆炸的。你也不想在茶会上演一场“烟花秀”吧？",
+			say = "Nothing explosive, please. We don't want to turn the tea party into a fireworks show, now, do we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801040,
-			say = "绝对不会有意外啦！只要没人动我的道具的话……",
+			say = "No explosions, check! Well, as long as nobody touches my props...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯……或者你可以去问问{namecode:98}小姐，她那里有没有安全系数高一点的道具？",
+			say = "Oh, my... You should ask Akashi if she has anything safer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我、我也想要帮忙布置会场！有什么是我可以做的吗？",
+			say = "I'll help decorate the venue, too! ...Is there anything I can do, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801040,
-			say = "嗯……不要恶作剧？",
+			say = "Just sit there quietly. No pranks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901030,
-			say = "才不会啦！我是真的想要帮忙的！",
+			say = "I won't play any pranks! I really wanna help!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "那……不如就和恶毒一起准备茶饮吧？",
+			say = "Hmm. In that case... Help Le Malin and the others prepare drinks, would you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "啊~要记得帮可怖准备一些温水哦~那孩子总是喝不了刚泡好的红茶。",
+			say = "Don't forget to have cold water for more sensitive tongues like Le Terrible's.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901030,
-			say = "没问题！对了，要帮黎塞留大人准备红酒吗？",
+			say = "Okay! Oh, should we have wine for Cardinal Richelieu, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯……黎塞留不一定有时间参加，不过，为她准备一瓶红酒我觉得也无妨。",
+			say = "Ah, yes... Richelieu may not come given her busy schedule, but having one ready couldn't possibly hurt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901030,
-			say = "好~为大家准备茶饮的事就包在我身上吧！",
+			say = "Got it! Leave those drinks to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "回到指挥室时，看到了被鸢尾的同伴们包围的克莱蒙梭。",
+			say = "When I enter my office, I find Clemenceau surrounded by other Iris girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,18 +481,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "虽然身边围满了人，问题也一个接着一个，但是克莱蒙梭处理手中文件的速度却一点都没有变慢。",
+			say = "Even when the crowd lobs question after question at her, she answers without slowing her paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "令人恐惧……",
+					content = "\"You're scary...\"",
 					flag = 1
 				},
 				{
-					content = "真厉害！",
+					content = "\"Very impressive!\"",
 					flag = 2
 				}
 			}
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "就算是这样夸奖我，也不会得到任何奖励哦？",
+			say = "Well, if it isn't the Commander. Flatter me all you want, but you'll receive no gifts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不过，如果是工作时间之外的话……",
+			say = "Oh, but outside working hours, we could...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~玩笑话罢了~这些不过是些举手之劳，不会影响工作的。",
+			say = "Heehee, I'm kidding. This is trivial, really, so it doesn't affect my secretary ship work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且能帮大家解决一些可爱的小烦恼也是我的荣幸。",
+			say = "Besides, it's an honor to get to solve our comrades' cute little worries.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可爱的小烦恼？",
+			say = "Worries such as...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "与晚餐会准备工作有关的琐事，为了甜品、茶饮，以及要表演的节目而产生的烦恼，指挥官不觉得很可爱吗？",
+			say = "I mean preparing for the coming party. Little worries regarding the sweets, drinks, and entertainment... Don't you find it adorable to worry about such things?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么说的话，倒确实……",
+			say = "Now that you mention it, I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且过几天有一场重要的演习。如果让大家带着烦恼上场，万一因为分心而发挥失常就不好了。",
+			say = "We have an important joint exercise in just a few days. It would be a problem if people couldn't perform to their potential just because they were troubled by such silly things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我还是有所期待的。——对于鸢尾能否拿到优胜这件事。",
+			say = "I care quite a bit about whether the Iris can win, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没想到克莱蒙梭会在这方面有胜负心。",
+			say = "You're surprisingly competitive when it comes to this stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "只是一点小小的期待罢了~",
+			say = "Oh, not really. I'm just excited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "联合演习的开幕式，指挥官要不要和我一起参加呢?",
+			say = "Commander, may I trouble you to attend the exercise's opening ceremony with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1

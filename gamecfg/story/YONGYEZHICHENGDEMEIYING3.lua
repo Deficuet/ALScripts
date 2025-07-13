@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>三 不胜的诅咒</size>",
+					"Tales From the Count's Castle\n\n<size=45>3 Neverending Stalemate</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "果然，结果是平局。",
+			say = "To nobody's surprise, the game ended in a draw.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来，和之前相比并没有什么变化呢。",
+			say = "Nothing has changed, it would seem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "持续在这棋局里的诅咒，终究无法被打破，实在可惜。",
+			say = "Alas, so not even you can break the eternal curse within this tablet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "但就这么吸干你的话，也只能解一时之渴，无法排解这困扰吾许久的乏闷感……",
+			say = "Drinking every drop of blood you have to offer may quench our thirst, but it does naught to dispel our grievance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我改变主意了~如果你愿意服从于我，今后永远留在这里作为我的宠物取悦我，我就将给予你无忧无虑的生活，以及人类梦寐以求的永生~",
+			say = "\"I've changed my mind, human. Submit to Emden and become our pet. You will be granted eternal life and experience boundless pleasure as our pet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402071,
-			say = "亦或是，吾再给予你一次对弈的机会。但你若没能把握住这最后的机会，等待你的就只有成为食粮的悲惨下场了。",
+			say = "You may instead try one more time if you wish, my darling human. But, if you fail, I'm afraid your last moments shall be spent atop a dinner plate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "识时务者为俊杰，你应该知道哪一边才是对你而言是正确的选择吧~?",
+			say = "\"The choice is obvious. Now make it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "这是要做出选择的意思么……如果选错的话，看来会有非常危险的后果……",
+			say = "To give up, or press on. The pressure was mounting on me. I answered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,11 +169,11 @@ return {
 			},
 			options = {
 				{
-					content = "选择「服从」",
+					content = "Submit to Emden",
 					flag = 1
 				},
 				{
-					content = "选择「再次对弈」",
+					content = "Challenge Emden to a second match",
 					flag = 2
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，居然选择了服从么，真是软弱呢~",
+			say = "So you chose submission. Humans really are deplorably weak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错，这才是你最正确的选择~现在，到我的身边来吧，我可爱的小宠物。",
+			say = "Be that as it may, it's what Emden was hoping for. Come hither, our darling pet♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "我还需要时间准备隶属之契与初拥之仪，在那之前就在我的怀里好好躺着，于梦乡之中静静等待吧~",
+			say = "\"Your induction into the family comes later. For now, just rest your head on Emden's chest and be whisked away to sleep♥\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "无须担心，不必害怕，只需要稍微睡一会就好~",
+			say = "\"Be not afraid.\" Have no worries. It will feel like no more than a brief nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "轻柔而又魅惑的声音叩击着心防，而且为什么……好像真的……有点……困……了……",
+			say = "Emden's soft whispers were like anesthesia. I felt my mind slip away... into... a slumber...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>BAD END 01：眷属</size>",
+					"Bad Ending – Emden's Eternal Vassal",
 					2
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "醒来的时候，{namecode:457}和{namecode:448}已经不见了，桌上只剩下了一个镶嵌着红宝石的项链。",
+			say = "When I woke up, both Emden and Yorck were nowhere to be seen. The stone tablet was gone, replaced by a ruby necklace.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -336,7 +336,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎呀，没想到指挥官在第一个关卡就走到坏结局了呢。不过既然是试玩，就请继续吧。",
+			say = "You jumped straight into that bad ending... Oh well, since this is a demo, we'll let you keep playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "桌上的“血之诅咒项链”原本是通过这一关时获得的奖励物品，请务必带上哦~",
+			say = "That item – the Cursed Blood Necklace – is your prize for... \"beating\" this trial. Take it with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "从与携带的“通讯器”完全不同的方向传来了{namecode:428}的声音。",
+			say = "Eugen's voice echoed through the hall. It wasn't coming from the communicator, but rather somewhere in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "通往下一关的门我已经打开了哦。失败的关卡无法重来，下一关再加把劲吧~",
+			say = "The path to the next trial's open. Good luck, little human~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哼……敬酒不吃吃罚酒呢。",
+			say = "\"You have some damn nerve, filthy human.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "{namecode:448}的语气突然严肃了起来。",
+			say = "Emden's tone took a drastic turn after I asked for a second match.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那这就是你最后的机会了，人类。",
+			say = "Are you certain, my dear human? This is your last chance to break the curse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果给不出让我们满意的答卷，等待你的就只有成为食粮的悲惨结局。",
+			say = "Should you not present a satisfying solution, Emden shall – with no exaggeration – devour you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "要破解的谜面是“不胜的诅咒”，而不是“赢下{namecode:448}”。",
+			say = "Emden only said I have to change the outcome of the match, not that I have to win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "那么也许，这个思路能行……",
+			say = "I reasoned that was the key to lifting the curse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对局结束。取得胜利的是……{namecode:448}。",
+			say = "The match is over... Emden is the victor.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "没有试图赢下对局，而是故意将胜利拱手相让么！",
+			say = "Fascinating. You knew you could not win, so you conceded victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯……“不胜的诅咒”确实只需要任何一方获胜就能视为破除。",
+			say = "Congratulations, my darling human. You've dispelled the curse of perpetual draws.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "虽然很可惜，不过我也必须按规则办事……你可以离开了，人类。",
+			say = "As Emden promised, you shall be granted passage through this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 402071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对了，在离开之前……{namecode:457}，把那个东西拿出来吧。",
+			say = "\"Yorck, hand the human its prize.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过了{namecode:457}递来的东西——一个镶嵌着红宝石的项链。",
+			say = "Yorck stepped up and handed me a necklace adorned with a ruby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "这个项链叫做“血之诅咒项链”。记住它的名字，以后你会用上的。",
+			say = "This relic is the Cursed Blood Necklace. Remember its name, for it will surely be of use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			blackBg = true,
-			say = "通往其他房间的门打开了，这一关……就算过了吧？",
+			say = "The doors to my front gave way to a corridor. It seemed I'd passed the first trial.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

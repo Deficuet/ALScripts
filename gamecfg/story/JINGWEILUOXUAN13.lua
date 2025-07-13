@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "AF 西南方海域",
+			say = "New Jersey Fleet",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，既然明白了原理，那就无需侦查，径直朝向曾经的坐标飞去就是~",
+			say = "I've been following the trail for a while now, but still haven't actually seen this Pawn we're after yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "哦？因为飞的太快，反而撞上了正在预警的重樱机群么？",
+			say = "We're still keeping up with the aircraft for the time being, but—",
 			effects = {
 				{
 					active = true,
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用在意，一鼓作气正面突破~！",
+			say = "What's wrong, Ty?",
 			effects = {
 				{
 					active = false,
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题——咦？！",
+			say = "Wait, hold on... Something's shooting at the aircraft!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "重樱战斗机群从其它方向遭到了攻击？！发动袭击的是……我们的舰载机？",
+			say = "Are those our colors? What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "哈啊？！怎么会有这种事，我们舰队里不是只有你一艘航空母舰么。",
+			say = "Eagle Union planes? Do we have any other ships deployed here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是AF派来的支援么……？我、这就确认一下！",
+			say = "Not that I'm aware of... Ticonderoga should be the only carrier deployed here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "额，空中支援……？我什么都没做哦。",
+			say = "\"We're still hanging in there, but AF's runways got torn up pretty badly by the first wave of airstrikes. In any case, don't expect any air support from us~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 101450,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "岛上机场受损严重，为数不多的航空力量正在专注于岛屿防卫，我并没有派出任何打击群。",
+			say = "\"If this really is a Reenactment as you said, New Jersey, the Sirens sure are pulling out all the stops...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就奇怪了……这些飞机是从哪儿冒出来的。",
+			say = "If the attack didn't come from a \"real\" allied plane, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确认完毕，这些飞机的型号与我们的舰载机一致。",
+			say = "Maybe there are Eagle Union Pawns out there as well...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "它们在击破了重樱的拦截后，正在与我一同飞向重樱舰队的位置！",
+			say = "The planes are heading in the same direction as that \"Sakura Empire\" plane...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "等等等等，所以说事情很奇怪啊！我们不可能有友军舰载机的增援啊？！",
+			say = "Are there any other planes that you're able to track?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "这个你问我也……它们刚刚消灭了重樱棋子舰载机可是事实哦。",
+			say = "Unfortunately, no. The ones I was tracking have all been shot down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "难道真有什么我不清楚的调动存在么……{namecode:200}，总之你先把飞机调到后方位置，让这支机群在前面开路。",
+			say = "Welp, change in plans then. Let's track those Eagle Union planes instead... and oh, be mindful of the altitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:197}和{namecode:198}，你们带领一部分舰队搜索一下，看看海雾之中是否真的存在我们尚不得知的友方舰队！",
+			say = "Boise, Morrison, please continue to take up the vanguard. I have no idea what's going on right now, but we're gonna have to charge right into that sea fog!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

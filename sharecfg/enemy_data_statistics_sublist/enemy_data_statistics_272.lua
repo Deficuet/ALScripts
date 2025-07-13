@@ -1,8 +1,108 @@
 pg = pg or {}
 pg.enemy_data_statistics_272 = {
+	[16502103] = {
+		cannon = 54,
+		name = "Joffre Mechanicus Pawn - Striker",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 136,
+		antiaircraft_growth = 3380,
+		reload = 150,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 1500,
+		base = 90648,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 2800,
+		antiaircraft = 88,
+		hit_growth = 280,
+		armor = 0,
+		durability = 4420,
+		torpedo = 58,
+		id = 16502103,
+		durability_growth = 41600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1101092,
+			1101097,
+			1101102,
+			1101107
+		}
+	},
+	[16502104] = {
+		cannon = 78,
+		name = "Joffre Mechanicus Pawn - Annihilator",
+		type = 5,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 11,
+		speed = 14,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 136,
+		antiaircraft_growth = 4680,
+		reload = 150,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 3400,
+		base = 90648,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 106,
+		hit_growth = 280,
+		armor = 0,
+		durability = 6630,
+		torpedo = 0,
+		id = 16502104,
+		durability_growth = 65600,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100032,
+			1100552,
+			1100917,
+			1100737
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
 	[16502105] = {
 		cannon = 36,
-		name = "霞飞统御武装-「宿主」",
+		name = "Joffre Mechanicus Pawn - Moderator",
 		type = 7,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -49,7 +149,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502111] = {
 		cannon = 22,
-		name = "勒马尔统御武装-「漫游」",
+		name = "Le Mars Mechanicus Pawn - Wanderer",
 		type = 1,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -95,7 +195,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502112] = {
 		cannon = 38,
-		name = "勒马尔统御武装-「铁卫」",
+		name = "Le Mars Mechanicus Pawn - Defender",
 		type = 2,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -142,7 +242,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502113] = {
 		cannon = 54,
-		name = "勒马尔统御武装-「侵袭」",
+		name = "Le Mars Mechanicus Pawn - Striker",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -189,7 +289,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502114] = {
 		cannon = 78,
-		name = "勒马尔统御武装-「毁灭」",
+		name = "Le Mars Mechanicus Pawn - Annihilator",
 		type = 5,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -242,7 +342,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502115] = {
 		cannon = 36,
-		name = "勒马尔统御武装-「宿主」",
+		name = "Le Mars Mechanicus Pawn - Moderator",
 		type = 7,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -289,7 +389,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502121] = {
 		cannon = 22,
-		name = "埃米尔统御武装-「漫游」",
+		name = "Émile Bertin Mechanicus Pawn - Wanderer",
 		type = 1,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -335,7 +435,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502122] = {
 		cannon = 38,
-		name = "埃米尔统御武装-「铁卫」",
+		name = "Émile Bertin Mechanicus Pawn - Defender",
 		type = 2,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -382,7 +482,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502123] = {
 		cannon = 54,
-		name = "埃米尔统御武装-「侵袭」",
+		name = "Émile Bertin Mechanicus Pawn - Striker",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -429,7 +529,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502124] = {
 		cannon = 78,
-		name = "埃米尔统御武装-「毁灭」",
+		name = "Émile Bertin Mechanicus Pawn - Annihilator",
 		type = 5,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -482,7 +582,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502125] = {
 		cannon = 36,
-		name = "埃米尔统御武装-「宿主」",
+		name = "Émile Bertin Mechanicus Pawn - Moderator",
 		type = 7,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -529,7 +629,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502201] = {
 		cannon = 80,
-		name = "霞飞统御武装-「铁卫」",
+		name = "Joffre Mechanicus Pawn - Defender",
 		type = 2,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -577,7 +677,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502202] = {
 		cannon = 82,
-		name = "霞飞统御武装-「侵袭」",
+		name = "Joffre Mechanicus Pawn - Striker",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -624,7 +724,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502203] = {
 		cannon = 82,
-		name = "勒马尔统御武装-「侵袭」",
+		name = "Le Mars Mechanicus Pawn - Striker",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -671,7 +771,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502204] = {
 		cannon = 140,
-		name = "勒马尔统御武装-「毁灭」",
+		name = "Le Mars Mechanicus Pawn - Annihilator",
 		type = 5,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -724,7 +824,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502205] = {
 		cannon = 98,
-		name = "拉·加利索尼埃统御武装-「侵袭」",
+		name = "La Galissonnière Mechanicus Pawn - Annihilator",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -771,7 +871,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502206] = {
 		cannon = 140,
-		name = "拉·加利索尼埃统御武装-「毁灭」",
+		name = "La Galissonnière Mechanicus Pawn - Striker",
 		type = 5,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -824,7 +924,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502301] = {
 		cannon = 180,
-		name = "霞飞统御武装-「侵袭」",
+		name = "Joffre Mechanicus Pawn - Striker",
 		type = 3,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -875,7 +975,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502302] = {
 		cannon = 81,
-		name = "勒马尔统御武装-「宿主」",
+		name = "Le Mars Mechanicus Pawn - Moderator",
 		type = 7,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -926,7 +1026,7 @@ pg.enemy_data_statistics_272 = {
 	},
 	[16502303] = {
 		cannon = 255,
-		name = "拉·加利索尼埃统御武装-「毁灭」",
+		name = "La Galissonnière Mechanicus Pawn - Striker",
 		type = 5,
 		speed_growth = 0,
 		pilot_ai_template_id = 20006,
@@ -1315,92 +1415,6 @@ pg.enemy_data_statistics_272 = {
 			1000713,
 			1000718,
 			1000723
-		}
-	},
-	[16503102] = {
-		cannon = 38,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 936,
-		battle_unit_type = 55,
-		air = 0,
-		base = 90249,
-		dodge = 11,
-		durability_growth = 30400,
-		antiaircraft = 156,
-		speed = 24,
-		reload_growth = 0,
-		dodge_growth = 162,
-		luck = 0,
-		antisub = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 3744,
-		torpedo = 76,
-		durability = 3570,
-		armor_growth = 0,
-		torpedo_growth = 3366,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		fog_fx = "",
-		id = 16503102,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000683,
-			1000688,
-			1000693,
-			1000698
-		}
-	},
-	[16503103] = {
-		cannon = 54,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 1500,
-		battle_unit_type = 60,
-		air = 0,
-		base = 90250,
-		dodge = 11,
-		durability_growth = 41600,
-		antiaircraft = 88,
-		speed = 18,
-		reload_growth = 0,
-		dodge_growth = 136,
-		luck = 0,
-		antisub = 0,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 3380,
-		torpedo = 58,
-		durability = 4420,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		luck_growth = 0,
-		hit_growth = 280,
-		armor = 0,
-		fog_fx = "",
-		id = 16503103,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000743,
-			1000748,
-			1000753,
-			1000758
 		}
 	}
 }

@@ -16,18 +16,18 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "（这段时间天狼星都没提过什么要求……还是问问她吧。）",
+			say = "(Sirius hasn't asked for anything for a while now. I should ask about that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要不要添置一些家具？",
+					content = "Do you want new furniture?",
 					flag = 1
 				},
 				{
-					content = "有没有想要的东西？",
+					content = "Is there anything you could use?",
 					flag = 2
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "感谢您的关怀和慷慨，不过天狼星目前还不需要这些，我的{dorm3d}。",
+			say = "I truly, truly appreciate your consideration, my honourable {dorm3d}. However, I don't need anything at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要能够留在这里，并且还能够这样侍奉您，天狼星就满足了。",
+			say = "I am content simply to live here and have the privilege of serving you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

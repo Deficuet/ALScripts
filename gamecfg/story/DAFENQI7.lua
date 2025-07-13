@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>七　最甜蜜的发明</size>",
+					"Your Dear Inventor\n\n<size=45>7 Inspired by You</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "失败发明展后的某个工作日——",
+			say = "Many days after the expedition...",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "盯——",
+			say = "*stare*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,18 +69,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在指挥室中，达芬奇会时不时投来谜之视线。",
+			say = "(I can't help but notice da Vinci sneaking glances at me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我脸上有什么吗？",
+					content = "\"Is there something on my face?\"",
 					flag = 1
 				},
 				{
-					content = "发生什么事了吗？",
+					content = "\"Anything wrong?\"",
 					flag = 2
 				}
 			}
@@ -94,7 +94,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你脸上什么也没有哦。",
+			say = "No. That's not it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么事也没发生哦。",
+			say = "Nah. I'm fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "怎么突然这么问？",
+			say = "Why do you ask?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "见你一直盯着我，所以……",
+			say = "\"Because you're staring.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我最近在研究一项非常厉害的发明。",
+			say = "I've been thinking up this really awesome invention for a while now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "说是发明……不过其实有人已经先发明出来了。",
+			say = "Well, it's less of an invention, and more of an existing idea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "所以我这应该算是改良……或者定制化？",
+			say = "It's better called an improvement... Hmm, or a customization?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不论如何，我到现在还没有什么成果，令我非常不甘心。",
+			say = "But no matter how much I rack my brain, I can't visualize its final form. It's getting on my nerves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "原来如此……不过这和盯着我似乎没什么关系？",
+			say = "\"I think I get the situation... though that doesn't explain why you were staring at me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过居然还能有人比你更早得到成果……那人是谁？托里拆利吗？",
+			say = "\"Besides, if you want someone to help you implement an idea, I'd think Torricelli would be better.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "并不是托里拆利……而是指挥官你哦！",
+			say = "It's you, not Torricelli!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……什么？",
+			say = "\"Come again?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错！这件事和你的关系可大了！",
+			say = "We'll call it... the Da Vinci Inspirifier!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "居然擅自在我的心中发明了如此甜蜜的作品，指挥官还真狡猾呢。",
+			say = "Look at you, making the perfect invention when I wasn't even looking... You're a foxy one, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "稍微……有点跟不上达芬奇的思考节奏。",
+			say = "\"I get it... Except, I don't actually get it at all.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没关系！现在搞不清楚也没事。",
+			say = "It's okay! You don't have to understand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "总而言之……这个酸痛肩膀按摩机，我先带走了哦！",
+			say = "Anyway, I'll be needing that Massaginator!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇回避了我的疑问，抱着按摩机离开了。",
+			say = "Without explaining a thing, da Vinci leaves with the massage device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日——",
+			say = "The next day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，看！酸痛肩膀按摩机已经改进完毕了！",
+			say = "Tadaaa! I fixed it up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "现在它的名字叫——酸痛肩膀按摩机二世！",
+			say = "I call it the Stiffy Shoulder Massaginator Junior!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "经过改进后的酸痛肩膀按摩机二世，虽然按摩的效果不可避免降低了一些，但是你听——",
+			say = "So, we did lose some of the massage functionality, buuut...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇启动了按摩机，按摩器的锤头部开始震动，但预想中的噪音并没有出现。",
+			say = "Da Vinci flips the switch. It turns on, but I don't hear the loud noise from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在滴的一声启动音后，眼前的机器只传来了如同扇子扇风般，微不可查的运动音。",
+			say = "After the starting beep, there's so little noise that I can't even hear it unless I listen carefully for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼，这是根据之前你提出来的意见进行改进的。",
+			say = "Cool, right? I improved it based on your feedback.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "现在的按摩机二世你还满意吗？",
+			say = "Are you satisfied with this iteration?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,11 +527,11 @@ return {
 			},
 			options = {
 				{
-					content = "满意。",
+					content = "\"It's basically flawless.\"",
 					flag = 1
 				},
 				{
-					content = "非常满意！",
+					content = "\"That's awesome!\"",
 					flag = 2
 				}
 			}
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼~满意就好。",
+			say = "Heheh! Glad to hear it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "满意就好……",
+			say = "Yeah... Really glad.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……说起来，你之前不是觉得这是失败的发明，所以对它不感兴趣么？",
+			say = "\"I'm surprised you bothered to try again after you called the first Massaginator a failure.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗯。不过……之后心境发生了一点变化。",
+			say = "The thing is... my way of thinking has undergone some changes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "因为发明展的原因，让你意识到了使用者看法的重要性了？",
+			say = "\"Because of everyone's feedback during the exhibition?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "使用者的看法……么。",
+			say = "Well, that helped, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官当时同意我举办展览，果然是怀有某些“不可告人”的目的啊。",
+			say = "Eureka! You had your own reasons for letting me hold the exhibition, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "比如我在看到失败的发明被其他人夸赞之后，就会改变评价的标准或者发明的初衷之类的？",
+			say = "You were hoping I'd see people complimenting my failures, and change my attitude toward them, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "被发现了……",
+			say = "\"You got me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼，我可是莱昂纳多·达·芬奇。",
+			say = "Heh. Your mistake for thinking you could hide anything from ol' da Vinci!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "发明的作品在它诞生那一刻，它的意义就已经从创造者那里分离。",
+			say = "The moment I give birth to an invention, it's out of my hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "任何人，都能赋予它意义。",
+			say = "It's up to the user how they give it meaning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我无权干涉他人的想法，也不在意。",
+			say = "I can't change what other people think, and really, I don't think I care.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那——",
+			say = "\"In that case...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "那我为什么改进了酸痛肩膀按摩机？",
+			say = "Why did I revise this invention instead of moving on to a new one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "答案不是很明显嘛——这是我为了你而特意改进的。",
+			say = "Isn't it obvious? I did it for you♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "同时，这也是我第一次主动为了他人的想法而变更发明的初衷。",
+			say = "Also, there's a reason that I decided to change my concept for once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，你明白这是什么意思么？",
+			say = "Do you know what I'm trying to say, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇的双眼非常坚定，仿佛闪烁着某种决心。",
+			say = "Da Vinci's eyes bear a glint of determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "因为这是你的愿望，为了满足你的愿望，我才会这么做的。",
+			say = "I did it all to make you happy, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我的设计初衷，已经和指挥官的愿望牢牢的连结一起了。",
+			say = "In other words, your wishes were incorporated into the concept itself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "总有一天，我会发明出指挥官所有愿望的发明！",
+			say = "And I'm going to keep on doing that until I satisfy all of your needs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "…………………………",
+			say = "...............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "呼呼呼~从指挥官的表情上来看，你已经明白我的意思了呢。",
+			say = "Heheh. That look on your face tells me you already understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "与此同时，我的研究也终于取得成果了。",
+			say = "The existing idea I had my mind on...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -964,7 +964,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我所进行的定制化改良发明，指挥官已经在感受到了吧~",
+			say = "The customized invention I made... Are the pieces coming together?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,7 +979,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "终于，明白了达芬奇昨天那段话的意思。",
+			say = "\"They are. I think I get it now...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她在研究的正是只为了某个人而定制化存在的，名为“爱”的伟大发明。",
+			say = "The great Da Vinci Inspirifier, a device that inspires inventions for the sake of people you care about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "此刻，我终于能看懂达·芬奇的这份设计图了。",
+			say = "Its blueprint lies square in her heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "来，指挥官，说出你的愿望吧。",
+			say = "Now, Commander, tell me all of your needs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,7 +1033,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "接下来，我要为你发明出什么才好呢————",
+			say = "I'll invent whatever it takes to make you happy!",
 			painting = {
 				alpha = 0.3,
 				time = 1

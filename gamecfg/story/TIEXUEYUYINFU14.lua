@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第五乐章\n\n<size=45>「科学与学习～Von der Wissenschaft～」</size>",
+					"Sixth Movement\n\n<size=45>Of Science and Learning</size>",
 					1
 				}
 			}
@@ -20,9 +20,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "{namecode:435}女士，就算是这样的局面，也不打算使用“那个”吗？",
+			say = "Miss Bismarck... You almost lost your life, and yet you still refuse to use \"that?\"",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "…这里不需要你们插手",
+			say = "I don't need help from the likes of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,9 +53,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "到了最后时刻也还在嘴硬啊。明明只需要一点点的决心，就可以把这些敌人送入海底——",
+			say = "Still acting tough even in this condition? You could have sent your enemies to the bottom of the sea so easily. All you needed was a little bit of... determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,55 +70,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我在和胡德战斗后就明白了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#ffde38",
-			side = 2,
-			actor = 405010,
-			dir = 1,
-			say = "那般不公平的对决是不会给我们带来丝毫荣耀的",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#ffde38",
-			side = 2,
-			actor = 405010,
-			dir = 1,
-			say = "无知的我窥探了深渊，却发现深渊也凝视着我——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#ffde38",
-			side = 2,
-			actor = 405010,
-			dir = 1,
-			say = "那个黑色的魔方…正在蚕食着我的心智…",
+			say = "After dueling with Hood, I had a realization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +86,55 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "它在我的脑海中不断的回放着嘈杂的音乐",
+			say = "Winning with such an unfair advantage would not bring us glory at all...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#ffde38",
+			side = 2,
+			actor = 405010,
+			dir = 1,
+			say = "I knew nothing then, except that I had allowed the abyss to gaze back into me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#ffde38",
+			side = 2,
+			actor = 405010,
+			dir = 1,
+			say = "Even now, that heart of darkness eats away at my Wisdom Cube...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#ffde38",
+			side = 2,
+			actor = 405010,
+			dir = 1,
+			say = "It plays an endless scherzo, constantly jeering at me from within my own mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "它让我变得极端，变得疯狂",
+			say = "It beckons me to give in to its violence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,9 +164,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我让{namecode:428}提前离开，因为我不知道接下来会发生什么",
+			say = "I had Eugen leave because there is no telling what will become of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但是我知道，是时候结束这一切了",
+			say = "But I now know that it is time to end this farce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,9 +212,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "汇报记录：第151号测试结果：negative，非关键点，请求指示",
+			say = "Uploading Report: Results of Experiment No. 151 - Negative. Status: Statistically Insignificant. Requesting further directives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actorName = "？？？",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "情况了解，建议执行回收协议——",
+			say = "Received. Recommendation: Execute Reconversion Agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 		{
 			side = 2,
 			stopbgm = true,
-			say = "轰——",
+			say = "Kaboom!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "bsm-1",
-			say = "{namecode:435}用最后一门主炮朝着正在发送信号的测试者开火",
+			say = "(Bismarck turned her last remaining battery and aimed at Tester, who was still transmitting her message.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "吾之荣耀即忠诚——",
+			say = "My loyalties are not to some weapon, but to the people of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我所忠于的不是武器，而是由铁和血所铸成的民族！",
+			say = "For the glory of the Iron Blood!!",
 			effects = {
 				{
 					active = true,
@@ -347,9 +347,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "…",
+			say = "...",
 			effects = {
 				{
 					active = false,
@@ -369,9 +369,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "请求：修改第151号测试结果，测试目标正朝本机开火",
+			say = "Issuing Errata to Experiment No. 151 - Test subject has opened fire upon Self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actorName = "？？？",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "终于发生变动了吗，很好～接下来请尝试执行觉醒流程～",
+			say = "Finally, some excitement! I was starting to get bored here! Next, Execute Awakening Protocol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,9 +400,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "了解，根据协议，区域内存在不可控目标，优先确保目标的独立性——",
+			say = "Understood. Regarding the Agreement–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "罗德尼，报告战损！",
+			say = "Rodney, give me a damage report!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已执行紧急损管，虽然A炮塔被摧毁，但仍可作战！",
+			say = "I've begun damage control. Battery A has been destroyed, but I'm still operational.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "很好，不论是铁血还是塞壬，不要放过任何一个敌人！",
+			say = "Excellent. We won't let our enemies get away from us, Siren or Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

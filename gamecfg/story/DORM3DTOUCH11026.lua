@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还想要尝试新的方式吗？我当然会配合你哦~",
+			say = "Wanna try something new? Okay, I'm happy to play along!",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone6",
 			typewriter = {
 				speed = 0.05,

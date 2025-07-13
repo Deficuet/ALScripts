@@ -9,10 +9,10 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "theme-lion",
 			location = {
-				"某处空域·辉翼太阳船",
+				"In the air - Aboard the Mesektet",
 				3
 			},
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在狮的正确判断下，众人及时返回了太阳船，太阳船也及时升了空，一切看上去都是最好的安排。",
+			say = "The crew safely returned to the Mesektet thanks to Lion's quick thinking. The ship took to the air, and everything seemed to have gone well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "可是，这些异形之敌显然并不甘心就这样放到手的猎物离去。",
+			say = "The giant, white creatures, however, were not going to let their prey flee just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "成群结队的飞行类敌人如同蝗虫一般升空，它们环飞在太阳船周边，持续攻击着护盾。",
+			say = "Swarms of flying creatures rose into the air and encircled the Mesektet like a swarm of locusts, chipping away at the shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "为了维持护盾的防护性能，太阳船只好将能源更多分配至护盾模块，进一步降低了本就不快的飞行速度。",
+			say = "This forced them to reroute energy to the shield generator just to keep it up, which reduced their already low speed even further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "总督阁下，让太阳船下水吧。",
+			say = "Miss Governor, we need to land in the water!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "……下水之后我们还有一战之力，留在空中只有死路一条。",
+			say = "We're sitting ducks in the air. At least in the water, we can fight back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "不要慌，相信帝国的尖端科技。",
+			say = "Stay calm. Have faith in the Realm's technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "太阳船上搭载有紧急逃生系统，千钧一发之际我们可以脱身回家的。",
+			say = "The Mesektet has an emergency evacuation system. If worse comes to worst, we can still go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "只是，这场备受瞩目的新世界远征……便只能折戟了。",
+			say = "Should it come to that, though... the new world expedition I've yearned for will meet an anticlimactic end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我实在是有点不甘心……",
+			say = "I would hate for that to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "那我们先去海面打一场，如果打输了再撤离如何？",
+			say = "That's all the more reason for us to land. Then we can fight, and if we start losing, we can just retreat again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "风险太高了，我拒绝！",
+			say = "No. It's far too risky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "啧……没办法了，不甘心也得甘心，远征可以准备第二次，生命只有一次。",
+			say = "Urgh... No, you're sadly right. I can come back for another expedition, but I cannot come back from death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "佩特拉，校准引航灯塔，准备启动归航信标，我们——",
+			say = "Cleopatra, calibrate the Lighthouse. Prepare a homeward beacon as well, and then we'll–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "刹那间，一辆飞驰的豪华列车自耀眼的白光中飞出。",
+			say = "With a dazzling light, an opulent train manifested in mid-air.",
 			bgm = "theme-camelot-up",
 			typewriter = {
 				speed = 0.05,
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "它以极快的速度向着太阳船驶来，并以密集的火力，撕碎了途经区域的所有敌人。",
+			say = "It flew toward the Mesektet at breakneck speed and used its tremendous firepower to rip apart all the enemies in its path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "大家快看，火车居然在天上飞欸！",
+			say = "A train?! In the air?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔~！是这个世界本地人派来的援军吗？真是天无绝人之路啊！",
+			say = "Hahaha! Reinforcements from the world's inhabitants! The darkest hour is just before the dawn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "这辆本地人的火车……说实话有点厉害。",
+			say = "That's quite the stunning train.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "总督大人，如果连她们都陷入了危机，我们之后能帮得上忙么……？",
+			say = "Miss Governor, if that train ends up in deep water, I don't think we'll be able to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呃……之后的事之后再说，总之，现在配合盟友，消灭这些敌人！",
+			say = "Whatever happens, happens! Right now, assist them in taking out these enemies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "终于要降落了么？",
+			say = "So we're going to land, I presume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "她们那么厉害都在空中，我们就更不能下去了！！继续维持凌空射击——",
+			say = "Like hell we will! They're airborne and still fighting valiantly! Stay in the air and pound the enemy to dust!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

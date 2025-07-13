@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 499070,
 			dir = 1,
-			say = "怎么？这时候又想起我的好啦？你果然还是离不开我～",
+			say = "Huh? What's your deal? Oh, did you finally realize how great I am? See, you can't do a thing without me after all~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 499070,
 			dir = 1,
-			say = "你说是我请求你才……哼，我不管，做决定的是你又不是我。",
+			say = "What? It's because I begged you for this...? H-hmph! Not my problem! You were the one who signed off on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且我强大又能干，对你也……反正多照顾照顾我本来就是你应该做的嘛！",
+			say = "And besides, given how strong and capable I am... it's only natural that I look after pitiful little you, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 499070,
 			dir = 1,
-			say = "赶紧承认你是属于本小姐的吧！不这样做的话，我可不会心甘情愿帮你的哦？",
+			say = "S-so hurry up and admit that you belong to me already! Otherwise I'm not gonna do everything you want me to!",
 			painting = {
 				alpha = 0.3,
 				time = 1

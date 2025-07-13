@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我在想，要不要干脆试试把头发盘起来呢……？",
+			say = "I've been thinking about tying up my hair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "毕竟头发太长，如果转身太快的话，头发可能会打到你……咳。",
+			say = "With long hair like this, it's likely to hit you in the face if I turn around suddenly. Ahem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你呢？你比较喜欢怎样的发型呢？",
+			say = "Apropos nothing, what hairstyles do you like?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不用急着回答，等下坐下来一起慢慢挑选参考看看吧。",
+			say = "You don't need to answer now. We can see some hairstyle photos later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

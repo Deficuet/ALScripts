@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>我要保守秘密…</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>The Blackout Nightmare</size>",
 					1
 				}
 			}
@@ -20,15 +20,15 @@ return {
 			bgm = "xinnong-3",
 			sequence = {
 				{
-					"<size=51>「……不知沉睡了多久……我的任务……唔……」</size>",
+					"<size=51>'How long have I been out? I still have a mission to do...'</size>",
 					2.5
 				},
 				{
-					"<size=51>「……记忆有些紊乱……」</size>",
+					"<size=51>'Dammit... Brain fog makes it impossible to think...'</size>",
 					3
 				},
 				{
-					"<size=51>「……昏迷剂的效果……还没消退么……」</size>",
+					"<size=51>'Guess the sleeping med hasn't worn off yet...'</size>",
 					3.5
 				}
 			}
@@ -40,8 +40,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "现场状况我知道了，继续执行任务吧。",
+			actorName = "Avrora?",
+			say = "I get the picture now. Continue with the job.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -66,8 +66,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "再强调一下，带回来的时候，我要的是还能喘气的。",
+			actorName = "Avrora?",
+			say = "I'll say this one last time – bring 'em back ALIVE. Got it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "发号施令完后，阿芙乐尔？终于注意到了这边。",
+			say = "A figure I can only assume is Avrora barks out an order, then turns her attention to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,8 +107,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "你醒啦？比之前预计的时间要早一些呢。",
+			actorName = "Avrora?",
+			say = "Heh. You're finally awake. That was earlier than I expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,8 +125,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "正好，早开工早收工，你也可以早点上路。",
+			actorName = "Avrora",
+			say = "Better that way. The soon this is over with, the sooner I can send you away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,8 +143,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "说吧，把你知道的都说出来。",
+			actorName = "Avrora",
+			say = "Now spit it out. Tell me everything you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,11 +155,11 @@ return {
 			},
 			options = {
 				{
-					content = "……说什么？",
+					content = "\"What are you talking about?\"",
 					flag = 1
 				},
 				{
-					content = "我什么都不知道。",
+					content = "\"I don't know anything.\"",
 					flag = 2
 				}
 			}
@@ -168,12 +168,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora",
 			dir = 1,
 			optionFlag = 1,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "嚯？是装作不知道，或者是昏迷剂药效还没过吗？",
+			say = "What was that? Are you playing dumb with me, or are you still drugged out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,12 +187,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora?",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "很经典的回答，我每天都要听到很多次呢。",
+			say = "Of course you don't. Like you don't all tell me that every single day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,8 +209,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "不过也无所谓，本来也不指望你会乖乖把情报都说出来。",
+			actorName = "Avrora?",
+			say = "Doesn't matter. I didn't expect you to spill the beans just because I asked nicely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,8 +227,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "看来得先让你吃点苦头了。",
+			actorName = "Avrora?",
+			say = "Since you didn't want to do this the easy way, we'll do it the hard way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "毕竟……坏孩子总是要吃点苦头，才会老老实实的。",
+			actorName = "Avrora?",
+			say = "Let's see how much pain it takes to make you squeal. Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "快住手，阿芙乐尔！",
+			say = "\"Avrora, no! Stop!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "等等，冷静下来。眼前这位绝对不是我所认识的阿芙乐尔。",
+			say = "Wait a second. Avrora would never say or do anything like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,18 +298,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "所以…………",
+			say = "The only answer is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我可能在做梦？",
+					content = "\"I'm in a dream?\"",
 					flag = 1
 				},
 				{
-					content = "我什么都不会说的！",
+					content = "\"I'm not telling you anything! Just kill me!\"",
 					flag = 2
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "当脑海里出现了这个想法之后，周围的一起都黯淡了下去。",
+			say = "The second the thought forms in my head, my surroundings start to fade out, like a light being dimmed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "世界重新回归到了昏昏沉沉的黑暗中。",
+			say = "The world is once more engulfed in a confused, groggy darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,8 +346,8 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "哦~居然知道我的名字？看来我们这边出现了内鬼呢~",
+			actorName = "Avrora?",
+			say = "Oh? So you know my name. That means there's a rat in our ranks.~",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -381,12 +381,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora?",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "正好，把内鬼的情报也告诉我，不然……",
+			say = "Thanks for the tip. That gives me two cans of beans to crack open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "我绝对不会说出情报的……！",
+			say = "\"I don't care what you do to me! I'm not telling you a damn thing!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "秘密……决不能透露给敌人……！",
+			say = "\"My secrets... will die with me!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,12 +434,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora?",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "哦~哦，看来是个硬骨头呢，连我都稍微兴奋起来了~",
+			say = "Hah! Been long since I dealt with someone with an actual backbone. Now you've got me excited.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,12 +453,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora?",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "让我看看你能撑到什么时候~哼哼~",
+			say = "I'm gonna enjoy finding out how long you'll last. Hehehe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "啊————！",
+			say = "\"AAAAHHHH!\"",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -504,12 +504,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "Avrora?",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "叫吧，再叫大声一些哦，哦呵呵~",
+			say = "Cry! Scream! Eat this goddamn piroshki!~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 702010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "指挥官……好像做噩梦了……",
+			say = "Oh dear... The Commander is tossing and turning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……膝枕的腿稍微有些麻了……但是……",
+			say = "Maybe a lap pillow wasn't the brightest idea. My legs are getting numb...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了指挥官的话……",
+			say = "Although... This is the least I can do, after that blunder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "快住手，阿芙乐尔！",
+			say = "\"Avrora! Stop!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什、什么？",
+			say = "*gasp*! St-stop what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……你究竟梦到了什么……？",
+			say = "What kind of awful dream did you have?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -574,20 +574,15 @@ end
 function var_0_0.initData(arg_40_0)
 	arg_40_0.storylist = pg.mini_game[arg_40_0:GetMGData().id].simple_config_data.story
 
-	local var_40_0 = pg.mini_game[arg_40_0:GetMGData().id].simple_config_data.stroy_act
+	local var_40_0 = Application.targetFrameRate or 60
 
-	arg_40_0.storyFinal = pg.activity_template[var_40_0].config_client.story
-	arg_40_0.storyBefore = pg.activity_template[var_40_0].config_client.beforestory
-
-	local var_40_1 = Application.targetFrameRate or 60
-
-	if var_40_1 > 60 then
-		var_40_1 = 60
+	if var_40_0 > 60 then
+		var_40_0 = 60
 	end
 
 	arg_40_0.timer = Timer.New(function()
 		arg_40_0:onTimer()
-	end, 1 / var_40_1, -1)
+	end, 1 / var_40_0, -1)
 end
 
 function var_0_0.initUI(arg_42_0)
@@ -665,18 +660,8 @@ function var_0_0.initUI(arg_42_0)
 		})
 	end, SFX_CANCEL)
 	onButton(arg_42_0, findTF(arg_42_0.menuUI, "btnStart"), function()
-		if arg_42_0:getGameTimes() > 0 then
-			local var_53_0 = arg_42_0:getGameUsedTimes() + 1
-			local var_53_1 = pg.mini_game[arg_42_0:GetMGData().id].simple_config_data.drop[var_53_0]
-
-			arg_42_0:checkOverflow(var_53_1, function()
-				setActive(arg_42_0.menuUI, false)
-				arg_42_0:readyStart()
-			end)
-		else
-			setActive(arg_42_0.menuUI, false)
-			arg_42_0:readyStart()
-		end
+		setActive(arg_42_0.menuUI, false)
+		arg_42_0:readyStart()
 	end, SFX_CANCEL)
 
 	local var_42_1 = findTF(arg_42_0.menuUI, "tplBattleItem")
@@ -695,11 +680,11 @@ function var_0_0.initUI(arg_42_0)
 
 		local var_42_4 = iter_42_0
 
-		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui_atlas", "battleDesc" .. var_42_4, function(arg_55_0)
-			setImageSprite(findTF(var_42_3, "state_open/buttomDesc"), arg_55_0, true)
-			setImageSprite(findTF(var_42_3, "state_clear/buttomDesc"), arg_55_0, true)
-			setImageSprite(findTF(var_42_3, "state_current/buttomDesc"), arg_55_0, true)
-			setImageSprite(findTF(var_42_3, "state_closed/buttomDesc"), arg_55_0, true)
+		GetSpriteFromAtlasAsync("ui/minigameui/ropingcowgameui_atlas", "battleDesc" .. var_42_4, function(arg_54_0)
+			setImageSprite(findTF(var_42_3, "state_open/buttomDesc"), arg_54_0, true)
+			setImageSprite(findTF(var_42_3, "state_clear/buttomDesc"), arg_54_0, true)
+			setImageSprite(findTF(var_42_3, "state_current/buttomDesc"), arg_54_0, true)
+			setImageSprite(findTF(var_42_3, "state_closed/buttomDesc"), arg_54_0, true)
 		end)
 
 		local var_42_5 = findTF(var_42_3, "icon")
@@ -725,430 +710,392 @@ function var_0_0.initUI(arg_42_0)
 	UpdateBeat:AddListener(arg_42_0.handle)
 end
 
-function var_0_0.initGameUI(arg_57_0)
-	arg_57_0.gameUI = findTF(arg_57_0._tf, "ui/gameUI")
+function var_0_0.initGameUI(arg_56_0)
+	arg_56_0.gameUI = findTF(arg_56_0._tf, "ui/gameUI")
 
-	onButton(arg_57_0, findTF(arg_57_0.gameUI, "topRight/btnStop"), function()
-		arg_57_0:stopGame()
-		setActive(arg_57_0.pauseUI, true)
+	onButton(arg_56_0, findTF(arg_56_0.gameUI, "topRight/btnStop"), function()
+		arg_56_0:stopGame()
+		setActive(arg_56_0.pauseUI, true)
 	end)
-	onButton(arg_57_0, findTF(arg_57_0.gameUI, "btnLeave"), function()
-		arg_57_0:stopGame()
-		setActive(arg_57_0.leaveUI, true)
+	onButton(arg_56_0, findTF(arg_56_0.gameUI, "btnLeave"), function()
+		arg_56_0:stopGame()
+		setActive(arg_56_0.leaveUI, true)
 	end)
 
-	arg_57_0.gameTimeS = findTF(arg_57_0.gameUI, "top/time/s")
-	arg_57_0.scoreTf = findTF(arg_57_0.gameUI, "top/score")
-	arg_57_0.btnCapture = findTF(arg_57_0.gameUI, "btnCapture")
-	arg_57_0.captureButton = GetOrAddComponent(arg_57_0.btnCapture, "EventTriggerListener")
+	arg_56_0.gameTimeS = findTF(arg_56_0.gameUI, "top/time/s")
+	arg_56_0.scoreTf = findTF(arg_56_0.gameUI, "top/score")
+	arg_56_0.btnCapture = findTF(arg_56_0.gameUI, "btnCapture")
+	arg_56_0.captureButton = GetOrAddComponent(arg_56_0.btnCapture, "EventTriggerListener")
 
-	arg_57_0.captureButton:AddPointDownFunc(function(arg_60_0, arg_60_1)
-		if arg_57_0._playerController then
-			arg_57_0._playerController:throw()
+	arg_56_0.captureButton:AddPointDownFunc(function(arg_59_0, arg_59_1)
+		if arg_56_0._playerController then
+			arg_56_0._playerController:throw()
 		end
 	end)
 
-	local var_57_0 = findTF(arg_57_0.sceneTf, "cowContainer")
-	local var_57_1 = {}
+	local var_56_0 = findTF(arg_56_0.sceneTf, "cowContainer")
+	local var_56_1 = {}
 
-	for iter_57_0 = 1, var_0_12 do
-		local var_57_2 = findTF(arg_57_0.sceneTf, "cow" .. iter_57_0)
+	for iter_56_0 = 1, var_0_12 do
+		local var_56_2 = findTF(arg_56_0.sceneTf, "cow" .. iter_56_0)
 
-		table.insert(var_57_1, var_57_2)
+		table.insert(var_56_1, var_56_2)
 	end
 
-	arg_57_0.sceneScoreTf = findTF(arg_57_0.sceneTf, "score")
-	arg_57_0._playerController = var_0_32(findTF(arg_57_0.sceneTf, "player"), arg_57_0)
-	arg_57_0._cowController = var_0_31(var_57_1, var_57_0, arg_57_0)
-	arg_57_0._sceneItemController = var_0_33(arg_57_0.backSceneTf)
+	arg_56_0.sceneScoreTf = findTF(arg_56_0.sceneTf, "score")
+	arg_56_0._playerController = var_0_32(findTF(arg_56_0.sceneTf, "player"), arg_56_0)
+	arg_56_0._cowController = var_0_31(var_56_1, var_56_0, arg_56_0)
+	arg_56_0._sceneItemController = var_0_33(arg_56_0.backSceneTf)
 end
 
-function var_0_0.Update(arg_61_0)
-	arg_61_0:AddDebugInput()
+function var_0_0.Update(arg_60_0)
+	arg_60_0:AddDebugInput()
 end
 
-function var_0_0.AddDebugInput(arg_62_0)
-	if arg_62_0.gameStop or arg_62_0.settlementFlag then
+function var_0_0.AddDebugInput(arg_61_0)
+	if arg_61_0.gameStop or arg_61_0.settlementFlag then
 		return
 	end
 
-	if IsUnityEditor and Input.GetKeyDown(KeyCode.S) and arg_62_0._playerController then
-		arg_62_0._playerController:throw()
+	if IsUnityEditor and Input.GetKeyDown(KeyCode.S) and arg_61_0._playerController then
+		arg_61_0._playerController:throw()
 	end
 end
 
-function var_0_0.updateMenuUI(arg_63_0)
-	local var_63_0 = arg_63_0:getGameUsedTimes()
-	local var_63_1 = arg_63_0:getGameTimes()
+function var_0_0.updateMenuUI(arg_62_0)
+	local var_62_0 = arg_62_0:getGameUsedTimes()
+	local var_62_1 = arg_62_0:getGameTimes()
 
-	for iter_63_0 = 1, #arg_63_0.battleItems do
-		setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_open"), false)
-		setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_closed"), false)
-		setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_clear"), false)
-		setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_current"), false)
+	for iter_62_0 = 1, #arg_62_0.battleItems do
+		setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_open"), false)
+		setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_closed"), false)
+		setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_clear"), false)
+		setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_current"), false)
 
-		if iter_63_0 <= var_63_0 then
-			SetParent(arg_63_0.dropItems[iter_63_0], findTF(arg_63_0.battleItems[iter_63_0], "state_clear/icon"))
-			setActive(arg_63_0.dropItems[iter_63_0], true)
-			setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_clear"), true)
-		elseif iter_63_0 == var_63_0 + 1 and var_63_1 >= 1 then
-			setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_current"), true)
-			SetParent(arg_63_0.dropItems[iter_63_0], findTF(arg_63_0.battleItems[iter_63_0], "state_current/icon"))
-			setActive(arg_63_0.dropItems[iter_63_0], true)
-		elseif var_63_0 < iter_63_0 and iter_63_0 <= var_63_0 + var_63_1 then
-			setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_open"), true)
-			SetParent(arg_63_0.dropItems[iter_63_0], findTF(arg_63_0.battleItems[iter_63_0], "state_open/icon"))
-			setActive(arg_63_0.dropItems[iter_63_0], true)
+		if iter_62_0 <= var_62_0 then
+			SetParent(arg_62_0.dropItems[iter_62_0], findTF(arg_62_0.battleItems[iter_62_0], "state_clear/icon"))
+			setActive(arg_62_0.dropItems[iter_62_0], true)
+			setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_clear"), true)
+		elseif iter_62_0 == var_62_0 + 1 and var_62_1 >= 1 then
+			setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_current"), true)
+			SetParent(arg_62_0.dropItems[iter_62_0], findTF(arg_62_0.battleItems[iter_62_0], "state_current/icon"))
+			setActive(arg_62_0.dropItems[iter_62_0], true)
+		elseif var_62_0 < iter_62_0 and iter_62_0 <= var_62_0 + var_62_1 then
+			setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_open"), true)
+			SetParent(arg_62_0.dropItems[iter_62_0], findTF(arg_62_0.battleItems[iter_62_0], "state_open/icon"))
+			setActive(arg_62_0.dropItems[iter_62_0], true)
 		else
-			setActive(findTF(arg_63_0.battleItems[iter_63_0], "state_closed"), true)
-			setActive(arg_63_0.dropItems[iter_63_0], false)
+			setActive(findTF(arg_62_0.battleItems[iter_62_0], "state_closed"), true)
+			setActive(arg_62_0.dropItems[iter_62_0], false)
 		end
 	end
 
-	arg_63_0.totalTimes = arg_63_0:getGameTotalTime()
+	arg_62_0.totalTimes = arg_62_0:getGameTotalTime()
 
-	local var_63_2 = 1 - (arg_63_0:getGameUsedTimes() - 3 < 0 and 0 or arg_63_0:getGameUsedTimes() - 3) / (arg_63_0.totalTimes - 4)
+	local var_62_2 = 1 - (arg_62_0:getGameUsedTimes() - 3 < 0 and 0 or arg_62_0:getGameUsedTimes() - 3) / (arg_62_0.totalTimes - 4)
 
-	if var_63_2 > 1 then
-		var_63_2 = 1
+	if var_62_2 > 1 then
+		var_62_2 = 1
 	end
 
-	scrollTo(arg_63_0.battleScrollRect, 0, var_63_2)
-	setActive(findTF(arg_63_0.menuUI, "btnStart/tip"), var_63_1 > 0)
-	arg_63_0:CheckGet()
+	scrollTo(arg_62_0.battleScrollRect, 0, var_62_2)
+	setActive(findTF(arg_62_0.menuUI, "btnStart/tip"), var_62_1 > 0)
+	arg_62_0:CheckGet()
 end
 
-function var_0_0.CheckGet(arg_64_0)
-	setActive(findTF(arg_64_0.menuUI, "got"), false)
+function var_0_0.CheckGet(arg_63_0)
+	setActive(findTF(arg_63_0.menuUI, "got"), false)
 
-	if arg_64_0:getUltimate() and arg_64_0:getUltimate() ~= 0 then
-		setActive(findTF(arg_64_0.menuUI, "got"), true)
+	if arg_63_0:getUltimate() and arg_63_0:getUltimate() ~= 0 then
+		setActive(findTF(arg_63_0.menuUI, "got"), true)
 	end
 
-	if arg_64_0:getUltimate() == 0 then
-		if arg_64_0:getGameTotalTime() > arg_64_0:getGameUsedTimes() then
+	if arg_63_0:getUltimate() == 0 then
+		if arg_63_0:getGameTotalTime() > arg_63_0:getGameUsedTimes() then
 			return
 		end
 
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
-			hubid = arg_64_0:GetMGHubData().id,
+			hubid = arg_63_0:GetMGHubData().id,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
 			args1 = {}
 		})
-		setActive(findTF(arg_64_0.menuUI, "got"), true)
+		setActive(findTF(arg_63_0.menuUI, "got"), true)
 	end
 end
 
-function var_0_0.openMenuUI(arg_65_0)
-	setActive(findTF(arg_65_0._tf, "scene_front"), false)
-	setActive(findTF(arg_65_0._tf, "scene_background"), false)
-	setActive(findTF(arg_65_0._tf, "scene"), false)
+function var_0_0.openMenuUI(arg_64_0)
+	setActive(findTF(arg_64_0._tf, "scene_front"), false)
+	setActive(findTF(arg_64_0._tf, "scene_background"), false)
+	setActive(findTF(arg_64_0._tf, "scene"), false)
+	setActive(arg_64_0.gameUI, false)
+	setActive(arg_64_0.menuUI, true)
+	arg_64_0:updateMenuUI()
+end
+
+function var_0_0.clearUI(arg_65_0)
+	setActive(arg_65_0.sceneTf, false)
+	setActive(arg_65_0.settlementUI, false)
+	setActive(arg_65_0.countUI, false)
+	setActive(arg_65_0.menuUI, false)
 	setActive(arg_65_0.gameUI, false)
-	setActive(arg_65_0.menuUI, true)
-	arg_65_0:updateMenuUI()
 end
 
-function var_0_0.clearUI(arg_66_0)
-	setActive(arg_66_0.sceneTf, false)
-	setActive(arg_66_0.settlementUI, false)
-	setActive(arg_66_0.countUI, false)
-	setActive(arg_66_0.menuUI, false)
-	setActive(arg_66_0.gameUI, false)
-end
-
-function var_0_0.readyStart(arg_67_0)
-	setActive(arg_67_0.countUI, true)
-	arg_67_0.countAnimator:Play("count")
+function var_0_0.readyStart(arg_66_0)
+	setActive(arg_66_0.countUI, true)
+	arg_66_0.countAnimator:Play("count")
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_0_2)
 end
 
-function var_0_0.gameStart(arg_68_0)
-	setActive(findTF(arg_68_0._tf, "scene_front"), true)
-	setActive(findTF(arg_68_0._tf, "scene_background"), true)
-	setActive(findTF(arg_68_0._tf, "scene"), true)
-	setActive(arg_68_0.gameUI, true)
+function var_0_0.gameStart(arg_67_0)
+	setActive(findTF(arg_67_0._tf, "scene_front"), true)
+	setActive(findTF(arg_67_0._tf, "scene_background"), true)
+	setActive(findTF(arg_67_0._tf, "scene"), true)
+	setActive(arg_67_0.gameUI, true)
 
-	arg_68_0.gameStartFlag = true
-	arg_68_0.scoreNum = 0
-	arg_68_0.playerPosIndex = 2
-	arg_68_0.gameStepTime = 0
-	arg_68_0.heart = 3
-	arg_68_0.gameTime = var_0_5
+	arg_67_0.gameStartFlag = true
+	arg_67_0.scoreNum = 0
+	arg_67_0.playerPosIndex = 2
+	arg_67_0.gameStepTime = 0
+	arg_67_0.heart = 3
+	arg_67_0.gameTime = var_0_5
 
-	if arg_68_0._cowController then
-		arg_68_0._cowController:start()
+	if arg_67_0._cowController then
+		arg_67_0._cowController:start()
 	end
 
-	if arg_68_0._playerController then
-		arg_68_0._playerController:start()
+	if arg_67_0._playerController then
+		arg_67_0._playerController:start()
 	end
 
-	arg_68_0:updateGameUI()
-	arg_68_0:timerStart()
+	arg_67_0:updateGameUI()
+	arg_67_0:timerStart()
 end
 
-function var_0_0.getGameTimes(arg_69_0)
-	return arg_69_0:GetMGHubData().count
+function var_0_0.getGameTimes(arg_68_0)
+	return arg_68_0:GetMGHubData().count
 end
 
-function var_0_0.getGameUsedTimes(arg_70_0)
-	return arg_70_0:GetMGHubData().usedtime
+function var_0_0.getGameUsedTimes(arg_69_0)
+	return arg_69_0:GetMGHubData().usedtime
 end
 
-function var_0_0.getUltimate(arg_71_0)
-	return arg_71_0:GetMGHubData().ultimate
+function var_0_0.getUltimate(arg_70_0)
+	return arg_70_0:GetMGHubData().ultimate
 end
 
-function var_0_0.getGameTotalTime(arg_72_0)
-	return (arg_72_0:GetMGHubData():getConfig("reward_need"))
+function var_0_0.getGameTotalTime(arg_71_0)
+	return (arg_71_0:GetMGHubData():getConfig("reward_need"))
 end
 
-function var_0_0.changeSpeed(arg_73_0, arg_73_1)
+function var_0_0.changeSpeed(arg_72_0, arg_72_1)
 	return
 end
 
-function var_0_0.onTimer(arg_74_0)
-	arg_74_0:gameStep()
+function var_0_0.onTimer(arg_73_0)
+	arg_73_0:gameStep()
 end
 
-function var_0_0.gameStep(arg_75_0)
-	arg_75_0.gameTime = arg_75_0.gameTime - Time.deltaTime
+function var_0_0.gameStep(arg_74_0)
+	arg_74_0.gameTime = arg_74_0.gameTime - Time.deltaTime
 
-	if arg_75_0.gameTime < 0 then
-		arg_75_0.gameTime = 0
+	if arg_74_0.gameTime < 0 then
+		arg_74_0.gameTime = 0
 	end
 
-	arg_75_0.gameStepTime = arg_75_0.gameStepTime + Time.deltaTime
+	arg_74_0.gameStepTime = arg_74_0.gameStepTime + Time.deltaTime
 
-	if arg_75_0._cowController then
-		arg_75_0._cowController:step(arg_75_0.gameStepTime)
+	if arg_74_0._cowController then
+		arg_74_0._cowController:step(arg_74_0.gameStepTime)
 	end
 
-	if arg_75_0._playerController then
-		arg_75_0._playerController:step(arg_75_0.gameStepTime)
+	if arg_74_0._playerController then
+		arg_74_0._playerController:step(arg_74_0.gameStepTime)
 	end
 
-	if arg_75_0._sceneItemController then
-		arg_75_0._sceneItemController:step(arg_75_0.gameStepTime)
+	if arg_74_0._sceneItemController then
+		arg_74_0._sceneItemController:step(arg_74_0.gameStepTime)
 	end
 
-	arg_75_0:updateGameUI()
+	arg_74_0:updateGameUI()
 
-	if arg_75_0.gameTime <= 0 then
-		arg_75_0:onGameOver()
+	if arg_74_0.gameTime <= 0 then
+		arg_74_0:onGameOver()
 
 		return
 	end
 end
 
-function var_0_0.timerStart(arg_76_0)
-	if not arg_76_0.timer.running then
-		arg_76_0.timer:Start()
+function var_0_0.timerStart(arg_75_0)
+	if not arg_75_0.timer.running then
+		arg_75_0.timer:Start()
 	end
 end
 
-function var_0_0.timerStop(arg_77_0)
-	if arg_77_0.timer.running then
-		arg_77_0.timer:Stop()
+function var_0_0.timerStop(arg_76_0)
+	if arg_76_0.timer.running then
+		arg_76_0.timer:Stop()
 	end
 end
 
-function var_0_0.updateGameUI(arg_78_0)
-	setText(arg_78_0.scoreTf, arg_78_0.scoreNum)
-	setText(arg_78_0.gameTimeS, math.ceil(arg_78_0.gameTime))
+function var_0_0.updateGameUI(arg_77_0)
+	setText(arg_77_0.scoreTf, arg_77_0.scoreNum)
+	setText(arg_77_0.gameTimeS, math.ceil(arg_77_0.gameTime))
 
-	if not arg_78_0.captureCdMaskImg then
-		arg_78_0.captureCdMaskImg = GetComponent(findTF(arg_78_0.btnCapture, "cd"), typeof(Image))
+	if not arg_77_0.captureCdMaskImg then
+		arg_77_0.captureCdMaskImg = GetComponent(findTF(arg_77_0.btnCapture, "cd"), typeof(Image))
 	end
 
-	if arg_78_0._playerController then
-		local var_78_0 = arg_78_0._playerController:getThrowTime()
+	if arg_77_0._playerController then
+		local var_77_0 = arg_77_0._playerController:getThrowTime()
 
-		if var_78_0 and var_78_0 > 0 then
-			local var_78_1 = var_78_0 / var_0_10
+		if var_77_0 and var_77_0 > 0 then
+			local var_77_1 = var_77_0 / var_0_10
 
-			arg_78_0.captureCdMaskImg.fillAmount = var_78_1
+			arg_77_0.captureCdMaskImg.fillAmount = var_77_1
 		else
-			arg_78_0.captureCdMaskImg.fillAmount = 0
+			arg_77_0.captureCdMaskImg.fillAmount = 0
 		end
 	end
 end
 
-function var_0_0.addScore(arg_79_0, arg_79_1)
-	arg_79_0.scoreNum = arg_79_0.scoreNum + arg_79_1
+function var_0_0.addScore(arg_78_0, arg_78_1)
+	arg_78_0.scoreNum = arg_78_0.scoreNum + arg_78_1
 
-	if arg_79_0.scoreNum < 0 then
-		arg_79_0.scoreNum = 0
+	if arg_78_0.scoreNum < 0 then
+		arg_78_0.scoreNum = 0
 	end
+
+	setActive(arg_78_0.sceneScoreTf, false)
+
+	for iter_78_0 = 0, arg_78_0.sceneScoreTf.childCount - 1 do
+		local var_78_0 = arg_78_0.sceneScoreTf:GetChild(iter_78_0)
+
+		if var_78_0.name == tostring(arg_78_1) then
+			setActive(var_78_0, true)
+		else
+			setActive(var_78_0, false)
+		end
+	end
+
+	setActive(arg_78_0.sceneScoreTf, true)
+end
+
+function var_0_0.onGameOver(arg_79_0)
+	if arg_79_0.settlementFlag then
+		return
+	end
+
+	arg_79_0:timerStop()
+
+	arg_79_0.settlementFlag = true
 
 	setActive(arg_79_0.sceneScoreTf, false)
+	setActive(arg_79_0.clickMask, true)
 
-	for iter_79_0 = 0, arg_79_0.sceneScoreTf.childCount - 1 do
-		local var_79_0 = arg_79_0.sceneScoreTf:GetChild(iter_79_0)
-
-		if var_79_0.name == tostring(arg_79_1) then
-			setActive(var_79_0, true)
-		else
-			setActive(var_79_0, false)
-		end
+	if arg_79_0._cowController then
+		arg_79_0._cowController:clear()
 	end
 
-	setActive(arg_79_0.sceneScoreTf, true)
-end
+	LeanTween.delayedCall(go(arg_79_0._tf), 0.1, System.Action(function()
+		arg_79_0.settlementFlag = false
+		arg_79_0.gameStartFlag = false
 
-function var_0_0.onGameOver(arg_80_0)
-	if arg_80_0.settlementFlag then
-		return
-	end
-
-	arg_80_0:timerStop()
-
-	arg_80_0.settlementFlag = true
-
-	setActive(arg_80_0.sceneScoreTf, false)
-	setActive(arg_80_0.clickMask, true)
-
-	if arg_80_0._cowController then
-		arg_80_0._cowController:clear()
-	end
-
-	LeanTween.delayedCall(go(arg_80_0._tf), 0.1, System.Action(function()
-		arg_80_0.settlementFlag = false
-		arg_80_0.gameStartFlag = false
-
-		setActive(arg_80_0.clickMask, false)
-		arg_80_0:showSettlement()
+		setActive(arg_79_0.clickMask, false)
+		arg_79_0:showSettlement()
 	end))
 end
 
-function var_0_0.showSettlement(arg_82_0)
-	setActive(arg_82_0.settlementUI, true)
-	GetComponent(findTF(arg_82_0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
+function var_0_0.showSettlement(arg_81_0)
+	setActive(arg_81_0.settlementUI, true)
+	GetComponent(findTF(arg_81_0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
-	local var_82_0 = arg_82_0:GetMGData():GetRuntimeData("elements")
-	local var_82_1 = arg_82_0.scoreNum
-	local var_82_2 = var_82_0 and #var_82_0 > 0 and var_82_0[1] or 0
+	local var_81_0 = arg_81_0:GetMGData():GetRuntimeData("elements")
+	local var_81_1 = arg_81_0.scoreNum
+	local var_81_2 = var_81_0 and #var_81_0 > 0 and var_81_0[1] or 0
 
-	setActive(findTF(arg_82_0.settlementUI, "ad/new"), var_82_2 < var_82_1)
+	setActive(findTF(arg_81_0.settlementUI, "ad/new"), var_81_2 < var_81_1)
 
-	if var_82_2 <= var_82_1 then
-		var_82_2 = var_82_1
+	if var_81_2 <= var_81_1 then
+		var_81_2 = var_81_1
 
-		arg_82_0:StoreDataToServer({
-			var_82_2
+		arg_81_0:StoreDataToServer({
+			var_81_2
 		})
 	end
 
-	local var_82_3 = findTF(arg_82_0.settlementUI, "ad/highText")
-	local var_82_4 = findTF(arg_82_0.settlementUI, "ad/currentText")
+	local var_81_3 = findTF(arg_81_0.settlementUI, "ad/highText")
+	local var_81_4 = findTF(arg_81_0.settlementUI, "ad/currentText")
 
-	setText(var_82_3, var_82_2)
-	setText(var_82_4, var_82_1)
+	setText(var_81_3, var_81_2)
+	setText(var_81_4, var_81_1)
 
-	if arg_82_0:getGameTimes() and arg_82_0:getGameTimes() > 0 then
-		local var_82_5 = arg_82_0:getGameUsedTimes() + 1
-		local var_82_6 = pg.NewStoryMgr.GetInstance()
-		local var_82_7 = arg_82_0.storylist[var_82_5] and arg_82_0.storylist[var_82_5][1] or nil
+	if arg_81_0:getGameTimes() and arg_81_0:getGameTimes() > 0 then
+		local var_81_5 = arg_81_0:getGameUsedTimes() + 1
+		local var_81_6 = pg.NewStoryMgr.GetInstance()
+		local var_81_7 = arg_81_0.storylist[var_81_5] and arg_81_0.storylist[var_81_5][1] or nil
 
-		if var_82_7 and not var_82_6:IsPlayed(var_82_7) then
-			arg_82_0.sendSuccessFlag = true
+		if var_81_7 and not var_81_6:IsPlayed(var_81_7) then
+			arg_81_0.sendSuccessFlag = true
 
-			var_82_6:Play(var_82_7, function()
-				local var_83_0 = true
-
-				if not var_82_6:IsPlayed(arg_82_0.storyFinal[1][1]) then
-					for iter_83_0, iter_83_1 in ipairs(arg_82_0.storyBefore) do
-						if not var_82_6:IsPlayed(iter_83_1[1]) then
-							var_83_0 = false
-						end
-					end
-				else
-					var_83_0 = false
-				end
-
-				if var_83_0 then
-					var_82_6:Play(arg_82_0.storyFinal[1][1], function()
-						arg_82_0:SendSuccess(0)
-					end)
-				else
-					arg_82_0:SendSuccess(0)
-				end
+			var_81_6:Play(var_81_7, function()
+				arg_81_0:SendSuccess(0)
 			end)
 		else
-			arg_82_0.sendSuccessFlag = true
+			arg_81_0.sendSuccessFlag = true
 
-			arg_82_0:SendSuccess(0)
+			arg_81_0:SendSuccess(0)
 		end
 	end
 end
 
-function var_0_0.resumeGame(arg_85_0)
-	arg_85_0.gameStop = false
+function var_0_0.resumeGame(arg_83_0)
+	arg_83_0.gameStop = false
 
-	setActive(arg_85_0.leaveUI, false)
-	arg_85_0:changeSpeed(1)
-	arg_85_0:timerStart()
+	setActive(arg_83_0.leaveUI, false)
+	arg_83_0:changeSpeed(1)
+	arg_83_0:timerStart()
 end
 
-function var_0_0.stopGame(arg_86_0)
-	arg_86_0.gameStop = true
+function var_0_0.stopGame(arg_84_0)
+	arg_84_0.gameStop = true
 
-	arg_86_0:timerStop()
-	arg_86_0:changeSpeed(0)
+	arg_84_0:timerStop()
+	arg_84_0:changeSpeed(0)
 end
 
-function var_0_0.checkOverflow(arg_87_0, arg_87_1, arg_87_2)
-	local var_87_0 = getProxy(PlayerProxy):getRawData()
-	local var_87_1 = pg.gameset.urpt_chapter_max.description[1]
-	local var_87_2 = LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(var_87_1)
-	local var_87_3, var_87_4 = Task.StaticJudgeOverflow(var_87_0.gold, var_87_0.oil, var_87_2, true, true, {
-		arg_87_1
-	})
-
-	if var_87_3 then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_ITEM_BOX,
-			content = i18n("award_max_warning_minigame"),
-			items = var_87_4,
-			onYes = arg_87_2
-		})
+function var_0_0.onBackPressed(arg_85_0)
+	if not arg_85_0.gameStartFlag then
+		arg_85_0:emit(var_0_0.ON_BACK_PRESSED)
 	else
-		arg_87_2()
-	end
-end
-
-function var_0_0.onBackPressed(arg_88_0)
-	if not arg_88_0.gameStartFlag then
-		arg_88_0:emit(var_0_0.ON_BACK_PRESSED)
-	else
-		if arg_88_0.settlementFlag then
+		if arg_85_0.settlementFlag then
 			return
 		end
 
-		if isActive(arg_88_0.pauseUI) then
-			setActive(arg_88_0.pauseUI, false)
+		if isActive(arg_85_0.pauseUI) then
+			setActive(arg_85_0.pauseUI, false)
 		end
 
-		arg_88_0:stopGame()
-		setActive(arg_88_0.leaveUI, true)
+		arg_85_0:stopGame()
+		setActive(arg_85_0.leaveUI, true)
 	end
 end
 
-function var_0_0.willExit(arg_89_0)
-	if arg_89_0.handle then
-		UpdateBeat:RemoveListener(arg_89_0.handle)
+function var_0_0.willExit(arg_86_0)
+	if arg_86_0.handle then
+		UpdateBeat:RemoveListener(arg_86_0.handle)
 	end
 
-	if arg_89_0._tf and LeanTween.isTweening(go(arg_89_0._tf)) then
-		LeanTween.cancel(go(arg_89_0._tf))
+	if arg_86_0._tf and LeanTween.isTweening(go(arg_86_0._tf)) then
+		LeanTween.cancel(go(arg_86_0._tf))
 	end
 
-	if arg_89_0.timer and arg_89_0.timer.running then
-		arg_89_0.timer:Stop()
+	if arg_86_0.timer and arg_86_0.timer.running then
+		arg_86_0.timer:Stop()
 	end
 
 	Time.timeScale = 1
-	arg_89_0.timer = nil
+	arg_86_0.timer = nil
 end
 
 return var_0_0

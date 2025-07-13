@@ -2,7 +2,7 @@ pg = pg or {}
 pg.open_systems_limited = {
 	{
 		scene = "MAINUI",
-		name = "后宅",
+		name = "Dorm",
 		story_id = "SYG001",
 		id = 1,
 		mediator = "CourtYardMediator",
@@ -10,7 +10,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "每日副本",
+		name = "Daily Stage",
 		story_id = "",
 		id = 2,
 		mediator = "DailyLevelMediator",
@@ -18,7 +18,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "大舰队",
+		name = "Guild",
 		story_id = "SYG002",
 		id = 3,
 		mediator = "NewGuildMediator",
@@ -26,7 +26,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军事委托",
+		name = "Commission",
 		story_id = "SYG003",
 		id = 4,
 		mediator = "EventMediator",
@@ -34,7 +34,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军事演习",
+		name = "Exercises",
 		story_id = "SYG004",
 		id = 5,
 		mediator = "MilitaryExerciseMediator",
@@ -42,7 +42,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "排行榜",
+		name = "Rankings",
 		story_id = "SYG005",
 		id = 6,
 		mediator = "BillboardMediator",
@@ -50,7 +50,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "模拟战",
+		name = "Simulation",
 		story_id = "",
 		id = 7,
 		mediator = "ShamPreCombatMediator",
@@ -58,7 +58,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "核心兑换·月度",
+		name = "From Core Shop (Mo.)",
 		story_id = "",
 		id = 8,
 		mediator = "ShamShop",
@@ -66,7 +66,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "大讲堂",
+		name = "Lecture Hall",
 		story_id = "",
 		id = 9,
 		mediator = "ClassMediator",
@@ -74,7 +74,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "开发船坞",
+		name = "Dev. Dock",
 		story_id = "",
 		id = 10,
 		mediator = "ShipBluePrintMediator",
@@ -82,7 +82,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "军部科研室",
+		name = "Research Lab",
 		story_id = "",
 		id = 11,
 		mediator = "TechnologyMediator",
@@ -90,7 +90,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "商路护航",
+		name = "Trade Convoy",
 		story_id = "",
 		id = 12,
 		mediator = "Escort",
@@ -98,7 +98,7 @@ pg.open_systems_limited = {
 	},
 	[14] = {
 		scene = "MAINUI",
-		name = "指挥喵",
+		name = "Meowfficer ",
 		story_id = "",
 		id = 14,
 		mediator = "CommanderCatMediator",
@@ -106,7 +106,7 @@ pg.open_systems_limited = {
 	},
 	[15] = {
 		scene = "MAINUI",
-		name = "限界挑战",
+		name = "Challenge Mode ",
 		story_id = "",
 		id = 15,
 		mediator = "ChallengeMainMediator",
@@ -114,7 +114,7 @@ pg.open_systems_limited = {
 	},
 	[16] = {
 		scene = "MAINUI",
-		name = "原型商店",
+		name = "Prototype Shop ",
 		story_id = "",
 		id = 16,
 		mediator = "FragmentShop",
@@ -122,7 +122,7 @@ pg.open_systems_limited = {
 	},
 	[17] = {
 		scene = "MAINUI",
-		name = "meta研究室",
+		name = "META Lab ",
 		story_id = "",
 		id = 17,
 		mediator = "MetaCharacterMediator",
@@ -130,7 +130,7 @@ pg.open_systems_limited = {
 	},
 	[18] = {
 		scene = "MAINUI",
-		name = "装备改造",
+		name = "Gear R&D",
 		story_id = "",
 		id = 18,
 		mediator = "EquipmentTransformTreeMediator",
@@ -138,7 +138,7 @@ pg.open_systems_limited = {
 	},
 	[19] = {
 		scene = "MAINUI",
-		name = "大型作战",
+		name = "Operation Siren",
 		story_id = "",
 		id = 19,
 		mediator = "WorldMediator",
@@ -146,7 +146,7 @@ pg.open_systems_limited = {
 	},
 	[20] = {
 		scene = "MAINUI",
-		name = "大世界收藏",
+		name = "Collection ",
 		story_id = "",
 		id = 20,
 		mediator = "WorldMediaCollectionRecordMediator",
@@ -154,7 +154,7 @@ pg.open_systems_limited = {
 	},
 	[21] = {
 		scene = "MAINUI",
-		name = "小游戏大厅",
+		name = "Arcade",
 		story_id = "",
 		id = 21,
 		mediator = "GameHallMediator",
@@ -162,7 +162,7 @@ pg.open_systems_limited = {
 	},
 	[22] = {
 		scene = "MAINUI",
-		name = "核心兑换·限定",
+		name = "From Core Shop (Ltd.)",
 		story_id = "",
 		id = 22,
 		mediator = "QuotaShop",
@@ -178,7 +178,7 @@ pg.open_systems_limited = {
 	},
 	[24] = {
 		scene = "MAINUI",
-		name = "养成系统",
+		name = "Project Identity",
 		story_id = "",
 		id = 24,
 		mediator = "EducateMediator",
@@ -186,7 +186,7 @@ pg.open_systems_limited = {
 	},
 	[25] = {
 		scene = "MAINUI",
-		name = "宿舍计划",
+		name = "Private Quarters",
 		story_id = "",
 		id = 25,
 		mediator = "SelectDorm3DMediator",
@@ -194,7 +194,7 @@ pg.open_systems_limited = {
 	},
 	[26] = {
 		scene = "MAINUI",
-		name = "养成系统",
+		name = "Project Identity",
 		story_id = "",
 		id = 26,
 		mediator = "NewEducateSelectMediator",

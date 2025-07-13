@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我献上永远忠诚的{dorm3d}，真希望时间愿意为今天多停留片刻。因为……天狼星想用全身全心来服侍您，爱您。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
+			nameColor = "#FFFFFF",
+			say = "{dorm3d}, to whom I've pledged my eternal fealty, I wish today would go on forever... because I want to serve you, and to love you with all my heart, for as long as I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

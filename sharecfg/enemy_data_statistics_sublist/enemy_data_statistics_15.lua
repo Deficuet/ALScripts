@@ -1,8 +1,162 @@
 pg = pg or {}
 pg.enemy_data_statistics_15 = {
+	[90415] = {
+		cannon = 0,
+		name = "Dido",
+		type = 2,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90415,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "daiduo",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "daiduo",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 2,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.148,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.19,
+					0.968,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.031,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.155,
+					0.919,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.558,
+							2.246,
+							-0.568
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90416] = {
 		cannon = 0,
-		name = "侵扰者",
+		name = "Intruder Type II",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -165,7 +319,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90417] = {
 		cannon = 0,
-		name = "驱逐「Pawn」III型",
+		name = "\"Pawn\" Destroyer Type III",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -327,7 +481,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90418] = {
 		cannon = 0,
-		name = "轻巡「Knight」III型",
+		name = "\"Knight\" Light Cruiser Type III",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -489,7 +643,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90419] = {
 		cannon = 0,
-		name = "重巡「Bishop」III型",
+		name = "\"Bishop\" Heavy Cruiser Type III",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -658,7 +812,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90420] = {
 		cannon = 0,
-		name = "战舰「Rook」III型",
+		name = "\"Rook\" Battleship Type III",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -827,7 +981,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90421] = {
 		cannon = 0,
-		name = "航母「Queen」III型",
+		name = "\"Queen\" Aircraft Carrier Type III",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -996,7 +1150,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90422] = {
 		cannon = 0,
-		name = "自爆船「Buster」III型",
+		name = "Bombing Ship - \"Buster\" Mk. III",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1142,7 +1296,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90423] = {
 		cannon = 0,
-		name = "探索者III型",
+		name = "Explorer III",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1298,7 +1452,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90424] = {
 		cannon = 0,
-		name = "追迹者III型",
+		name = "Tracker III",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1454,7 +1608,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90425] = {
 		cannon = 0,
-		name = "领洋者III型",
+		name = "Oceana III",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1610,7 +1764,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90426] = {
 		cannon = 0,
-		name = "破局者III型",
+		name = "Peace Breaker III",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1780,7 +1934,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90427] = {
 		cannon = 0,
-		name = "执棋者III型",
+		name = "Strategist III",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1936,7 +2090,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90428] = {
 		cannon = 0,
-		name = "清除者",
+		name = "Omitter ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2086,7 +2240,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90429] = {
 		cannon = 0,
-		name = "驱逐「Pawn」II型",
+		name = "\"Pawn\" Destroyer Type II",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2248,7 +2402,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90430] = {
 		cannon = 0,
-		name = "轻巡「Knight」II型",
+		name = "\"Knight\" Light Cruiser Type II",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2410,7 +2564,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90431] = {
 		cannon = 0,
-		name = "重巡「Bishop」II型",
+		name = "\"Bishop\" Heavy Cruiser Type II",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2579,7 +2733,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90432] = {
 		cannon = 0,
-		name = "战舰「Rook」II型",
+		name = "\"Rook\" Battleship Type II",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2748,7 +2902,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90433] = {
 		cannon = 0,
-		name = "航母「Queen」II型",
+		name = "\"Queen\" Aircraft Carrier Type II",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2917,7 +3071,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90435] = {
 		cannon = 0,
-		name = "钻头艇",
+		name = "Drill Boat",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3063,7 +3217,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90436] = {
 		cannon = 0,
-		name = "试作型布里MKII",
+		name = "Trial Bulin MKII",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3216,7 +3370,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90437] = {
 		cannon = 0,
-		name = "自爆船「Buster」II型",
+		name = "Bombing Ship - \"Buster\" Mk. II",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3362,7 +3516,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90438] = {
 		cannon = 0,
-		name = "构建者",
+		name = "Compiler ",
 		type = 17,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3516,7 +3670,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90439] = {
 		cannon = 0,
-		name = "潜艇「Assassin」",
+		name = "\"Assassin\" Submarine ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3667,7 +3821,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90440] = {
 		cannon = 0,
-		name = "纳尔逊",
+		name = "Nelson",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3830,7 +3984,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90441] = {
 		cannon = 0,
-		name = "沃克兰",
+		name = "Vauquelin",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3999,7 +4153,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90442] = {
 		cannon = 0,
-		name = "拉·加利索尼埃",
+		name = "La Galissonnière",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4155,7 +4309,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90443] = {
 		cannon = 0,
-		name = "阿尔及利亚",
+		name = "Algérie",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4304,7 +4458,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90444] = {
 		cannon = 0,
-		name = "加斯科涅",
+		name = "Gascogne",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4453,7 +4607,7 @@ pg.enemy_data_statistics_15 = {
 	},
 	[90445] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "Mass-Produced Borrasque Class",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4601,171 +4755,6 @@ pg.enemy_data_statistics_15 = {
 		appear_fx = {
 			"appearsmall",
 			"qianghuamo_kuangfeng"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			3
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90446] = {
-		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
-		type = 2,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 1,
-		id = 90446,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "aimierbeierdingdanchuan",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 180,
-		wave_fx = "danchuanlanghuazhong2",
-		prefab = "aimierbeierdingdanchuan",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 8,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			13,
-			7.5,
-			9
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.84,
-					1.15,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.33,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.84,
-					1.15,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smokebig",
-						{
-							0.72,
-							1,
-							-0.56
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-1.29,
-							1.48,
-							-0.84
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			qianghuamo_aimierbeierding = 1.8
-		},
-		appear_fx = {
-			"appearsmall",
-			"qianghuamo_aimierbeierding"
 		},
 		position_offset = {
 			0,

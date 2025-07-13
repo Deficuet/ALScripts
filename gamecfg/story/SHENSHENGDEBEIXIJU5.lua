@@ -5,12 +5,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "前方就是拉{namecode:432}齐亚了——",
+			say = "The Sardegna Empire's territory lies just ahead of us...",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -25,10 +25,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "这片海域果然有塞壬出没…看来不可松懈呢",
+			actorName = "Warspite",
+			say = "It seems there are still Sirens loitering in these parts... Let's stay alert and move forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "所以，皇家舰队的使者远道而来，就是希望我们重新回归碧蓝航线？",
+			say = "Let me see if I got this right. The Royal Navy came all this way just to ask us to rejoin the Azur Lane?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "是的，希望帝国能以大局为重，与我们一同对抗塞壬，维护陆间海的和平",
+			say = "That's right. With the Siren threat looming over the Mediterranean, now more than ever we should join forces and fight side by side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "陆间海的和平？别逗了，破坏和平的不正是你们皇家吗？",
+			say = "The \"Siren\" threat? Surely you jest. Are you not the ones threatening us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,10 +107,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "皇家舰队一直在致力于维护陆间海航线的安全与畅通，绝无破坏和平的半点想法。",
+			actorName = "Warspite",
+			say = "As I just said, the Royal Navy is simply concerned with freedom of navigation for all peoples. We have never had any ulterior motives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "从我们手里骗走陆间海的控制权，逼迫鸢尾与帝国进行军备竞赛，最后又将曾经的盟友抛弃",
+			say = "So the Royal Navy intervenes when the Sirens attack the Mediterranean, but sit and watch as hostilities escalate between us and Iris Libre, who happens to bend the knee to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "现在还将塞壬放进陆间海，迫使帝国出动舰队战斗，这就是你们所谓的“维持和平”吗？",
+			say = "And now that you've allowed the Sirens to slip into the Mediterranean past your oh-so-vigilant eyes, you want Sardegna to clean up after your mess. Is this your idea of keeping the peace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,10 +156,10 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "皇家的封锁线一直非常牢固。塞壬本不可能进入陆间海的才对…",
+			actorName = "Warspite",
+			say = "Littorio, I know you're smarter than this. They may have been mass-produced units, but I find it very hard to believe that Sardegna would not have detected a Siren fleet of that size sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "陆间海仅有的两个出海口都在你们皇家牢牢地掌控之下。难道这年头塞壬的杂鱼舰队都能轻松出入皇家的封锁线了？",
+			say = "So, if you didn't let them through, and our recon didn't spot them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,12 +186,11 @@ return {
 		},
 		{
 			expression = 5,
+			nameColor = "#ffde38",
 			side = 2,
-			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 605020,
 			dir = 1,
-			actorName = "厌战",
-			say = "或者…这批塞壬舰队根本没有经过皇家的封锁线，而是在陆间海的某个区域制造了据点",
+			say = "... you're saying that a Mirror Sea has appeared somewhere within the Mediterranean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,12 +201,28 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "在从皇家三岛来此的路上，我们分析过了沿途出现的塞壬和海流的关系，基本可以确认塞壬来自陆间海的东南部方向",
+			say = "Indeed. We control both entrances to this sea, therefore the Sirens could only have appeared here through the presence of a Mirror Sea.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900199,
+			nameColor = "#a9f548",
+			side = 2,
+			actorName = "Warspite",
+			dir = 1,
+			say = "As they were first spotted near your southern sea border, chances are high that the Mirror Sea is somewhere in that area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +238,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "……指望我们相信这样的说辞么？",
+			say = "I see. So how does the Royal Navy plan to act?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +249,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "皇家舰队接下来将会彻底搜索陆间海东南部，寻找并摧毁一切可能的塞壬据点，这一点请你们放心。这也是皇家进行谈判的诚意。",
+			say = "For now, the Royal Fleet plans to scour the southeastern Mediterranean for the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "如果这样的话，帝国舰队希望加入这次作战行动",
+			say = "Then allow us to assist you with it. You'll have a lot of ocean to search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +285,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "陆间海作为撒丁帝国的生命之海，我们不会容忍任何污秽之物的存在",
+			say = "Furthermore, the Mediterranean is the birthplace of our civilization. No Sardegnian could sit idly and let the Sirens defile it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +301,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "如果这次行动真是皇家的诚意的话，就以此为契机，用联合作战改善我们的关系吧。",
+			say = "In fact, allow me to make a proposition: how about we use this joint mission as a way to improve relations between us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,10 +315,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "……",
+			actorName = "Warspite",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +334,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "帝国舰队在得到真正的信任之前是不会考虑回归碧蓝航线的",
+			say = "Did you think we had forgotten about what you did to Vichya? Surely you understand that our trust must be earned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "为了达成伟大的最终目标，互相信任确实是有必要的",
+			say = "I must admit you have a point... The success of this operation depends on our mutual trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,12 +361,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "那么，在条件达成之前，皇家允许撒丁帝国的舰队进行陆间海域搜索任务",
+			say = "Our mission is as follows: search the Mediterranean for the source of Siren activity and eliminate it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,10 +380,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "——但是",
+			actorName = "Warspite",
+			say = "However, I'm going to have to add a condition to your participation in this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,10 +397,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "不允许动用战列舰力量，否则将作为违反协议的表现，皇家舰队将会作出相应措施",
+			actorName = "Warspite",
+			say = "No Sardegnian battleships will be allowed to join the search. Violators of this rule will be dealt with accordingly by the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +416,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "（哼…用了“允许”这个词吗，真是皇家一如既往强硬的语气呢）",
+			say = "(Ah, making arbitrary rules when it suits you... The Royal Navy still uses the same old bag of tricks.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +432,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "（迟早有一天…迟早！)",
+			say = "(But just you wait. Soon, you shall all dance upon my stage...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +451,7 @@ return {
 			actor = 900198,
 			nameColor = "#ffde38",
 			hidePaintObj = true,
-			say = "这么说，协议谈妥了？",
+			say = "Littorio, how are matters developing? Is my assistance needed?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -469,7 +484,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是的，目前一切都按着计划在行进着",
+			say = "Not for now. All is going as planned.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -490,7 +505,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "为了取得陆间海的控制权，无论如何都要首先夺回马耳他防线",
+			say = "To gain control over the Mediterranean, we will need to break the Royal Navy's blockade. We will need Malta in order to do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +522,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "从马耳他起飞的侦察机无时无刻不在监视着我们的一举一动",
+			say = "As long as the Royal Navy has their hands on that island, their little queen will be able to monitor our every move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +538,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "只要能够夺回马耳他防线，皇家就失去了在陆间海的眼睛，以及她们引以为傲的陆航制空权",
+			say = "On the other hand, if we wrest Malta away from the Royal Navy, it would not be long until the entire Mediterranean belongs to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +555,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "现在得到了皇家的临时许可，我们可以将佯攻舰队派去东南方向寻找塞壬据点而不引起皇家的起疑",
+			say = "As long as we send a few ships to aid Warspite with her little Siren hunt, we should be able to avoid any suspicion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +571,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "同时在夜晚避开侦察机将主力舰调至离马耳他最近的塔兰托港…",
+			say = "Using the cover of night, I will send our strongest ships to lie in wait at Taranto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +588,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "等到黎明时刻，两线夹击马耳他防线！",
+			say = "At the dawn of the next day, we will pincer Malta while the Royal Navy is still occupied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +604,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "就算皇家舰队再强大，也不可能在这么短的时间内做出反应，届时马耳他防线就是我们的了",
+			say = "Warspite may have a reputation for being swift, but even she won't be able to react to this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "确实是个妙计，可是…这么做就意味着正式和皇家宣战了",
+			say = "Your plan sounds good, but this would be a formal declaration of war against the Royal Navy... Do you really think we can win...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +638,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "帝国总旗舰受万众瞩目，率领着陆间海最强的海军",
+			say = "Veneto, what are we to do if our own flagship is this hesitant about taking action?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +655,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "维托里奥，身为总旗舰的你怎么可以如此踌躇？",
+			say = "You are the flagship that leads the mightiest fleet in the land. You need simply have faith in me and our glorious fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +672,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "要是这么不自信的话，仅限本次行动，让我来当代理总旗舰也可以哦~？",
+			say = "If you're not going to have more confidence in both yourself and in your fleet, then you should just let me be flagship for this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "比起服役时间，你才应该是我的姐姐啊~呵呵",
+			say = "Ahaha... Sometimes, it seems like you're the big sister here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "利托里奥，每次在我犹豫不决的时候，总是你能站出来帮我一把",
+			say = "Littorio, you always know what to say when my resolve wavers. Let's carry out your plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "我早就说过，其实这个总旗舰的位置应该…",
+			say = "Well, except that part about letting you be the flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +741,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "停下，姐姐，这样就好",
+			say = "If that is what you want, then so it shall be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +757,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "帝国需要像你这样谨慎的领袖才能走得更远，我只需要成为你的矛，为你打赢每场战斗便满足了",
+			say = "Besides, with you as our flagship, I can dedicate all my attention to fighting instead. One of us will earn their glory in the planning room, and the other will earn it on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "……",
+			say = "Hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +790,7 @@ return {
 			bgName = "bg_story_italy",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "啊，不久之后就要开始行动了，趁着这个夜色",
+			say = "Now that we've decided on our next move, we should treasure the night ahead of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +807,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "方便请您一起跳支舞吗？——美丽的女士",
+			say = "It would be such a tragedy for you spend this night alone, my beautiful signora. Care to join me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#ffde38",
 			actor = 900198,
-			say = "…呵呵呵，乐意之极~",
+			say = "Why, I would love to~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

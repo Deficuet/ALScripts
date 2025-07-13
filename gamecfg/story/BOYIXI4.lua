@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>四  信心动摇？</size>",
+					"Me and the Boise\n\n<size=45>4.Defeat?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的工作看起来还算轻松……一口气解决掉吧。",
+			say = "Today's workload seems rather manageable... Shall we finish everything at once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}今天的心情好像很不错。",
+			say = "Boise appeared to be in high spirits today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指挥官需要上一次演习的报告吗？我这就拿过来……",
+			say = "The results from the latest exercise? I'll get that for you right away...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（指挥官果然完全不在意面具的事情……很好。）",
+			say = "(Commander still doesn't seem concerned about my mask... Rather, I don't think it's ever been an issue...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（这样下去的话，和路易斯的赌约就能赢下来了……）",
+			say = "(Maybe I'll actually win at St. Louis's game...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "指挥官！我来给你送文件了！",
+			say = "Commander! I've brought you your documents!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "指挥官——哇啊啊啊！敌……原来是{namecode:197}啊……",
+			say = "...Wait, wh-who's that?! Oh, it's just Boise...",
 			action = {
 				{
 					type = "shake",
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "唔……是我的面具吓到你了么？",
+			say = "Sorry... D-did I scare you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "库、库珀才不会被区区面具吓到呢！我还有事，先走啦！",
+			say = "Not at all! The pursuit of justice never ends though, so I'll be off now!",
 			action = {
 				{
 					type = "shake",
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把文件放在了办公桌后，库珀迅速离开了指挥室。",
+			say = "After placing the documents on my desk, Cooper quietly slipped out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然是被吓到了吧……唔，这样下去会影响到指挥官工作的……",
+			say = "I, I knew it, my mask is scaring people off... Commander, if it's getting in the way of your work, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			},
 			options = {
 				{
-					content = "安慰{namecode:197}",
+					content = "\"Don't worry, you're doing just fine.\"",
 					flag = 1
 				}
 			}
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "谢谢指挥官……现在还是工作时间，{namecode:197}会努力履行好秘书舰的职责的……",
+			say = "Th-thank you, Commander... I'll try to stay focused on finishing the work...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "稍作休整，{namecode:197}迅速恢复到了之前的工作状态。",
+			say = "After a quick break, Boise seemed to have recovered and continued to work as hard as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "指挥官，我从资料室过来找你啦！嘿！",
+			say = "Commander! I've brought you something from the intel room!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "呜哇！这是什么！",
+			say = "...Woah, what's that?!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "是面具……抱歉，吓到你了么？",
+			say = "S-sorry! Did I scare you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "没、没事！只是稍微吃惊了一下而已！指挥官！快在回执上打勾啦！",
+			say = "N-no, I just wasn't expecting to see that! Anyway, please sign right here, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "指挥官再见！有空再来找你！",
+			say = "Well then, see you later, Commander! Come play with us sometime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "西南风展开双手跑出了指挥室。",
+			say = "Libeccio darted from the office, almost as quickly as she had swept in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "……果然还是影响到大家了……",
+			say = "...I knew it, this is a problem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在西南风离开了指挥室后，{namecode:197}整理文件的速度明显慢了下来。",
+			say = "After Libeccio left the office, Boise clearly was letting something affect the speed of her work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "戴上面具的话会吓到大家，但是不戴的话……",
+			say = "I keep scaring people with my mask on, but if I was to take it off... I'm not sure I'd be able to function...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}的情绪好像有些变化，果然是在在意面具的事。",
+			say = "The situation seemed to be getting a little out of hand, and I had to do something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			},
 			options = {
 				{
-					content = "提议明天一起去散心",
+					content = "\"Want to go shopping with me tomorrow?\"",
 					flag = 1
 				}
 			}
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢指挥官……其实不用为我特意安排的。",
+			say = "Um, thank you, but... you don't have to go out of your way to change your shopping schedule because of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "哎？原来是指挥官想让我陪你出去散心的意思吗……{namecode:197}明白了。",
+			say = "Wait, you just want to help me relax? I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（还好…指挥官没有提到摘掉面具的事情……）",
+			say = "(Phew... Commander still hasn't said anything about the mask...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "既然如此执着的带着面具，一定有{namecode:197}自己的道理。",
+			say = "I could tell that the way Cooper and Libeccio acted had a negative effect on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "不过如果……她能够摘下面具的话……会是一副怎样的景象呢？",
+			say = "While it was none of my business why she always wears her mask... I was very curious about the face underneath it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

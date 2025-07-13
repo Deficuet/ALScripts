@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "hunhe-battle",
-			say = "巴拿马要塞西侧？ 迷雾中",
+			say = "Canal Stronghold? - Out at sea?",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "吃我一炮，再见了哟！",
+			say = "Say your prayers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰----！",
+			say = "KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "疑似目标排除，塞壬指挥系统…未发现异常。",
+			say = "We've destroyed our target! The enemy's movements... haven't changed at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又错了么…这是排除的第多少个疑似目标了？",
+			say = "Another swing and a miss... How many times has it been now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "二十一个…",
+			say = "Twenty-one times!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "没想到会在这里碰上塞壬的新型号啊…每一艘看上去都好可疑！",
+			say = "I didn't expect a new type of Siren to show up here... Plus, they all look creepy as hell...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家加油，加油~打起精神来！只要坚持下去，总会找到我们的目标哦！",
+			say = "Don't give up, everyone! Remember, the hero always gets to have the last laugh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "里诺还是一贯的有活力…很有成为拉拉队员的素质啊。",
+			say = "Reno, have you considered a future as a cheerleader?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "在乐观这一点上，我还是很有自信的~这种时候就让我为大家加油打气吧，Fight~！",
+			say = "Maybe, but we need to make it out of this mess first. Come on, everyone! Let's see that fighting spirit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也是…如果分不清指挥舰的话，就这么沿路全部干掉就是了~",
+			say = "Well, since we can't seem to figure out which one is commanding them, we might as well annihilate them all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "用巴尔的摩的话来讲就是---英雄可不能临阵退缩啊！",
+			say = "As Baltimore would say, \"fight if you want to survive, girls!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "哦？！就是这种感觉，布莱默顿小姐，Cool~!",
+			say = "Woah, that feels really heroic. Very cool, Bremerton!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，又来了一个目标，感觉这个也很像指挥舰，要上了哦！",
+			say = "Heh, another target's coming our way. Maybe this one's the flagship. Let's gooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

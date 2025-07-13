@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>四 和平的世界</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 4: A Peaceful World</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "疼疼疼……",
+			say = "Owww...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "忍一忍，马上就包扎好了哦。",
+			say = "There, there. It'll be better soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太莽撞了，诗音。如果我没有及时赶到，受的伤可就不止这么点了。",
+			say = "You're too reckless, Shion. If I hadn't been there, you wouldn't have gotten away with just these injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是敌人只有那么一点了，我以为没关系的……",
+			say = "But there were only a few enemies, so I thought I'd be fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场上没有但是和以为。",
+			say = "There are no buts on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起……",
+			say = "Sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，{namecode:158}，hololive的各位是客人，不能说的太过分哦？",
+			say = "Kawakaze, don't be too harsh on them, all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………………",
+			say = "... Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，果然适应新的环境还需要不少时间啊",
+			say = "Ahaha... We'll need some time to get used to a new environment after all. Mmhmm!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前在镜面海域里没有时间细问。你们所处的世界，究竟是一个什么样的世界？",
+			say = "I didn't get to ask you before while we were in the Mirror Seas, but, just what kind of world are you from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来的世界？还算一个挺普通的世界吧。虽然偶尔也会发生奇怪的事，但是远远没有这里危险哦！",
+			say = "The world we're from, huh? Hmm, I guess it's pretty normal? Strange things happen every now and then, but it's not as dangerous as this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有大规模的阵营冲突，也没有塞壬的入侵，总而言之是一个和平的世界",
+			say = "Yeah, that's true... We don't have any large-scale global conflicts or Siren invasions... So I guess it's pretty peaceful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以从这样的世界而来的我们，就算突然进入前线，也很难在短时间内产生实感啦……",
+			say = "So, when we came to this world and were told that we have to fight, we didn't really know what to think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗可不是游戏",
+			say = "War is not a game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起……虽然我们都知道眼前的是敌人，要像{namecode:158}那样毫不犹疑的攻击还是很难",
+			say = "Sorry... Even though we know that the enemy is right in front of us, we can't really get ourselves to attack without hesitation like you can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………这样啊",
+			say = "... I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于你们的世界，可以再告诉我一些情报么？",
+			say = "Could you tell me a bit more about where you're from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是有些好奇，能让你们这样不懂得战斗的人都能活下去的「普通的世界」，是什么样的世界。",
+			say = "I want to learn more about this \"normal world,\" a place without wars. It has me interested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实就和在港区的日常生活差不多啦，大家做着自己想做的事，过着自己喜欢的生活，为自己的目标拼尽全力……",
+			say = "Well, daily life is about the same as it is here. Do what you want to do, live life the way you want... and sometimes, work hard to make your dreams come true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然其实也不是完全彻底和平的世界……不过，至少我们hololive的所有人，在原来的世界是不用去考虑战斗的。",
+			say = "And in reality, things aren't always peaceful either. But at least where we come from, none of us ever have to think about fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从和平的世界而来的人，是你们这个样子么…",
+			say = "I see, so that's what your world is like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……倒是很像那家伙梦想的世界。",
+			say = "... It seems kind of like what that person envisioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那家伙，是指指挥官吗？",
+			say = "By \"that person,\" do you mean the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定，就这样让那家伙跟你回去也是个不错的选择",
+			say = "Who knows. Maybe sending that person back along with you might not be a bad idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，虽然看起来那么冷漠，{namecode:158}果然还是很关心指挥官的嘛。",
+			say = "Ehehe~ Even though you're always cool and collected, you really care about the commander, don't you, Kawakaze? Whew~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……别说蠢话。",
+			say = "... Nobody said that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是~",
+			say = "Sure, sure~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂，你们别把我这个伤员撇在一边擅自营造出很好的氛围啊！倒是来扶我一下啊！",
+			say = "Hey, you have an injured person here still! Shouldn't you be taking care of me more...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……能喊得这么大声就说明没有大碍，好好休息吧，接下来还有许多任务要执行呢。",
+			say = "... If you can yell that loudly, you probably aren't that injured. Anyway, try to rest up for the time being, since we will have more missions later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，诗音酱，悄悄告诉你，今天{namecode:158}知道你一个人冲出去时，可是第一个赶过去救你的。",
+			say = "Hey Shion, just between the two of us, but after you charged out alone, Kawakaze was the first one to go after you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然她话是那么说的，不过她也许在心里是最关心同伴的人哦~",
+			say = "Even though she talks like that, she might care the most about her companions deep down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是这样吗……",
+			say = "Is that so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，顺便一提，我早就和游戏里的{namecode:158}缔结了誓约，所以是肯定知道啦~",
+			say = "Ah, but I already knew that because I gave Kawakaze a pledge ring a long time ago in the game. She's super nice and friendly, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不要加这种破坏气氛而且只有你懂的吐槽啦！",
+			say = "All that buildup was just for that...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>五　不可思议的兔子</size>",
+					"Full Steam Ahead!\n\n<size=45>5 Double Bunny Trouble</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "港区·游乐园",
+			say = "City - Amusement Park",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "想着巡览下街道上的设施应该对今后有益，便和{namecode:18}来到了这里——",
+			say = "After how successful our museum trip was, I decided to take Shimakaze out to see another one of the city's attractions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜哇！今天来到的地方是游乐园欸！有种来玩的感觉呢！",
+			say = "Holy smoke! I see we're visiting an amusement park this time! This is going to be awesome!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "虽然是以视察的名义来的，不过能看到她欢天喜地的样子，这点小小的偷懒也没问题吧。",
+			say = "We'd only just arrived, and she was already bubbling with excitement. Things were off to a good start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那么就马上开始巡览吧！",
+			say = "All right then, time to conduct our \"inspection tour\"! I'll catch up with you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			},
 			options = {
 				{
-					content = "你要一个人去哪？",
+					content = "\"Wait, you're going alone?\"",
 					flag = 1
 				}
 			}
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}可快了哦ーー！",
+			say = "Gotta go fast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "还没来得及让{namecode:18}等等，她就已经跑远了——",
+			say = "And just like that, she ran off on her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "噜~噜噜~♪",
+			say = "La-de-dum~♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦，这里就是镜子屋了对吧！里面有好多样子奇怪的{namecode:18}呢ー！",
+			say = "Ooh, so this place is a house of mirrors! Everywhere I look there's a funny-looking clone of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "star_level_bg_108",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "盯……",
+			actorName = "???",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇！{namecode:18}的表情变奇怪了！",
+			say = "Whoa! Now this is a truly wacky take on my appearance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲的脸是奇异系的吗……？",
+			say = "Am I... a wacky clone to you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶……吓？！镜，镜子说话了……！难道这里是鬼屋吗……？！",
+			say = "Whuah?! Did... Did the mirror just speak?! I must've entered a haunted house instead...",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是的，是拉菲在说话。",
+			say = "I'm not a mirror. I'm Laffey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………啊！！是白鹰的拉菲吗……？！",
+			say = "...Oh! It's you! Laffey from the Eagle Union!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "终于在镜子屋中追上了{namecode:18}，不过————",
+			say = "Finally, with the guidance of a Manjuu park employee, I managed to catch up with Shimakaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最恐怖的驱逐舰，可怕的拉菲……",
+			say = "Mhm... The Eagle Union's scariest destroyer... And I'm here to haunt yooouu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呀！{namecode:18}很怕恐怖的东西——！别吓我啦——！！",
+			say = "Aaahhh! Noooo! My heart can't handle hauntings, or scary stuff in generaaaaal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_108",
 			dir = 1,
-			say = "……这是什么情况？",
+			say = "And what a strange situation I found her in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶然遇见，却被请客了，拉菲很开心。",
+			say = "Thanks for treating me to lunch. I guess it's lucky I happened to come here today...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎呀，能碰到白鹰里的名人，我才更开心呢！请客的事就不要在意啦！",
+			say = "No, thank you for gracing me with your presence! I'm simply honored to meet one of the Eagle Union's most renowned destroyers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "star_level_bg_108",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指挥官。结账就拜托你了。",
+			say = "Well, sure... Who's paying, by the way...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			},
 			options = {
 				{
-					content = "交给我吧！",
+					content = "\"It's on me.\"",
 					flag = 1
 				}
 			}
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_108",
 			dir = 1,
 			blackBg = true,
-			say = "虽然没怎么视察这里的娱乐设施，不过作为替代，与白鹰的“兔子”一起享用了美味的午餐。",
+			say = "In the end, I hardly got to try any of the park's rides. Instead, I had a pleasant lunch with two rabbits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

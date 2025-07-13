@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，昨晚我做了一个梦。",
+			say = "{dorm3d}, I had a dream last night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "梦见我们在陪伴着彼此，一直、一直……直到时间尽头。",
+			say = "We were together, huddled up next to each other, and we stayed like that until the end of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "醒来的时候我很开心，但却没有太多的期待。",
+			say = "I woke up feeling happy, and it didn't bother me that the dream ended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "因为我知道，现在的我们已经在朝着这样的未来前进着，对吗？",
+			say = "After all, we're already moving toward that future, aren't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>七　甜蜜之后</size>",
+					"Date with an Angel\n\n<size=45>7 After Our Moment</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "昨晚和霞飞分别已是半夜。",
+			say = "When all was said and done, it was quite late by the time Joffre and I parted ways.",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在回去好好睡了一觉补充精力后，我便准备投身至新一天的工作当中。",
+			say = "I went back to my room, got a good night's sleep, and was now getting ready to tackle the challenges of a new workday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "早安，您比我预想中要来得更早呢。",
+			say = "Good morning. You're earlier than usual today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "霞飞级航空母舰—霞飞，从今天开始担任秘书舰一职。",
+			say = "I am Joffre, lead ship of the Joffre-class aircraft carriers. From now on, I shall be serving as your secretary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "昨晚休息的如何？精力有全部恢复吗？",
+			say = "Were you able to get enough rest yesterday? How is your energy level right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……休息的挺好。",
+			say = "Slept like a baby, thanks to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "那就好。这是今天的日程表，我拿给您过目。",
+			say = "I'm glad to hear that. Here's today's itinerary – please look it over whenever convenient.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一上午就在熟悉的忙碌节奏中度过。",
+			say = "As usual, the morning disappeared in a flurry of paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我终于签完面前最后一份文件，伸了个懒腰准备放松一下的时候——",
+			say = "I finally plant my stamp on the last document and lean back to stretch–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "这些是我刚刚分类处理完的文件。",
+			say = "Here are the documents I organized earlier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "好不容易清空的桌面再度出现了堆积成山的文件。",
+			say = "Another pile of documents instantly materialize on the desk that I had worked so hard to tidy up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "任务繁重，您可没有更多的时间发呆了哦？",
+			say = "There's still a lot of stuff to get through. Now's no time to be getting absent-minded, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "当然，如果您是打算犯下怠惰之罪的话……",
+			say = "Of course, if you intend to commit the cardinal sin of sloth...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我也不会留情的。",
+			say = "I will show you no mercy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,11 +254,11 @@ return {
 			},
 			options = {
 				{
-					content = "等等，昨晚你不是这么说的！",
+					content = "\"Wait, I thought you said last night–\"",
 					flag = 1
 				},
 				{
-					content = "不是说失去制裁我的资格了吗？",
+					content = "\"What happened to 'no longer having the right to judge me?!'\"",
 					flag = 2
 				}
 			}
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我可以叫鸢尾的其他同伴来帮我制裁您……开玩笑的。",
+			say = "Yes, and I can still call my colleagues over to exact judgment upon you... Just kidding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "刚刚那只是身为秘书舰的监督提醒。",
+			say = "This is nothing more than my warning to you as your secretary ship. Or rather, just a word of advice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "不过像这种可以与指挥官长时间相处的情况，我还是更期待它发生在约会的场合。",
+			say = "On a personal level, if we have to spend long stretches of time together, I would prefer it to be on a date rather than here at work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "所以，为了我们彼此着想，您还是快些处理工作吧？",
+			say = "Which is why, for both our sakes, you should strive to complete your sacred duties as quickly as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "毕竟在工作中可无法好好展现爱您的心意呢。",
+			say = "After all, it would be difficult for me to carry out my sacred duty of loving you while on the job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我说的对么，指——挥——官——？",
+			say = "You do understand, Commander, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1

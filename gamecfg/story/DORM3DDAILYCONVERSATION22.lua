@@ -7,16 +7,13 @@ return {
 	id = "DORM3DDAILYCONVERSATION22",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actor = 0,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星会觉得错过夕阳可惜么？",
+			say = "Do you ever feel disappointed when you miss the sunset?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +25,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可惜……？是因为错失了景色的可惜吗？天狼星不太明白。",
+			say = "Miss... the sunset? Is it a shame that you're missing out on the beauty of it? I'm not sure I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +60,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您说夕阳是白天与晚上的重要分界线，错过了就觉得一天过得很混沌？",
+			say = "Are you saying that you miss seeing the transition from dusk to night, so the line between days blurs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +72,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那，天狼星之后会帮{dorm3d}一起处理文书工作！努力让您早点下班……！",
+			say = "In that case, I shall help you with your papers every day from now on so you may finish your work sooner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +84,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是{dorm3d}的愿望，天狼星无论如何都会替您达成！",
+			say = "Whatever you wish for, I strive to make come true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

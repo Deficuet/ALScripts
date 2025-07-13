@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>一 井然有序的准备</size>",
+					"Halloween Chaos!\n\n<size=45>Chapter 1: Everything According to Plan</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "需要的物资、食物，以及其他材料的清单我已经核实过了，可以直接向{namecode:98}下订单了",
+			say = "I've compiled all of the food, supplies, and other materials we'll be needing onto this list. Please take it to Akashi, we need it filled post haste.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是{namecode:434}，帮大忙了，谢啦",
+			say = "Thank you, Gneisenau. You've been a great help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用客气，能和孟菲斯这样的对象合作是件很让人愉快的事情。",
+			say = "Don't mention it. It's my pleasure to be of assistance to one such as yourself, Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，那还真是多谢夸奖了~",
+			say = "Oh my! You do go on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看，这样一来为万圣夜的特别活动进行的准备就还剩下——",
+			say = "Alright, now we're almost done with everything we need for the Halloween party. All that's left is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯哼！万圣节糖果的准备交给爱丁堡大人就行啦！",
+			say = "Aye! Halloween candy! You can let yours truly take care of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦、哦！也要感谢爱丁堡才行，糖果的准备，辛苦啦！毕竟港区里还是有许多喜欢糖果的孩子呢…",
+			say = "Oh! Yes! Thank you very much for volunteering, Edinburgh. We've got a lot of kids running around here who certainly can't go without their candy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，你这身是…魔女吗？",
+			say = "Edinburgh, you're dressed as... a witch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿~怎么样！这一身还不错吧！这可是我亲自设计的呢！因为做都做好了，就干脆先穿起来啦~",
+			say = "Hehehe... what do you think? I designed it myself. When I finished it ahead of time, I figured I might as well put it on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(虽然实际的制作还是贝法就是了……）",
+			say = "(Let's not talk about how Bel actually put it together for me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿~还是挺有品味的嘛~",
+			say = "Heh~ You have good taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是~本来还想让贝法也看看这一身的，不过那家伙又忙着女仆队的事情去了…",
+			say = "Right? Hmph, if only Bel could see. She said she's too busy with her Head Maid duties to join us... is it really so hard to make some time for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…真是难办呢",
+			say = "Seems like there are several problems here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 202112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就不能偶尔和姐姐一起享受下节日嘛！",
+			say = "I'd like to celebrate a holiday with my sister, you know. It's not like they come around often~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(贝尔法斯特小姐也辛苦了呢……）",
+			say = "(I understand where she's coming from though...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万圣节的换装大会吗…似乎还挺有趣的呢",
+			say = "A costume party, is it? Maybe I should look into it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？{namecode:434}也对这种感兴趣吗？有点意外…",
+			say = "Oh? You like this sort of thing, Gneisenau? I had no idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻…要不要我也给你准备一套呀？",
+			say = "Ah, if you'd like, I could ask the Maid Team to prepare an outfit for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢，不过不用了。关于这个，我稍微有些想法…",
+			say = "Oh, thank you very much, but no. I have an idea of my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,8 +378,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "爱丁堡&孟菲斯",
-			say = "…欸？",
+			actorName = "Edinburgh & Memphis",
+			say = "... You do?",
 			subActors = {
 				{
 					actor = 102160,
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在孟菲斯的主导下，万圣夜的活动准备井然有序地进行着，不过…不稳的黑影，却在暗中悄悄靠近着——",
+			say = "Under Memphis's expert direction, the preparations proceeded apace. But unbeknownst to the team, a dark shadow was about to descend upon their Halloween party...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘿嘿…万圣节的糖果吗…这下有好玩的事情可以做啦！",
+			say = "Hee hee hee... Halloween candy, huh? ... I think things are going to get interesting...!",
 			flashout = {
 				black = true,
 				dur = 0.5,

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey！帮我把这个切……等等！",
+			say = "Honey, help me cut this... Ack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "把手给我看看，你怎么这么不小心……",
+			say = "Show me your hand! Geez, you need to be more careful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "chu……接下来我们去紧急处理一下吧！不行，还是联系医务处吧？",
+			say = "We gotta treat this, and fast! Actually, maybe we should go straight to the medical team?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只是割伤而已，简单处理一下就好了。",
+			say = "It's just a scrape. Regular first aid will do just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真的吗？Honey？我感觉心都快跳出来了，真的！",
+			say = "Are you sure? Ugh, I feel like I'm about to have a heart attack. Are you SURE you're okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

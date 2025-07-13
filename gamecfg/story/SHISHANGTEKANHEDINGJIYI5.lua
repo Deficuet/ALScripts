@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>丝竹喧阗</size>",
+					"Port Fashion Collection! Part 1\n\n<size=45>5 The Unseen Katana</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刀刀刀刀刀刀！？呜呜，我的刀跑到哪里去了……！？",
+			say = "Aaaah?! Wh-where did my katana go...?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "真是的，指挥官马上就要来了，这怎么会找不到的……！",
+			say = "The Commander will be here any minute now! Why can't I find it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（把、把刀藏起来的明明是我自己啊……！）",
+			say = "(Even though I'm the one who hid it...!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "...Hakuryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "呜哇！？",
+			say = "Whoa?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊疼疼疼，指挥官？！你、你怎么来的这么早啊……",
+			say = "Ouch... Commander?! Wh-why are you here so early...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（从{namecode:204}眼泪汪汪的表情判断，应该是她的刀又找不到了。）",
+			say = "What's the matter? You look panicked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官～我的刀不见了……！",
+			say = "Commandeeer! I can't... I can't find my katana...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……果然。）",
+			say = "That is a problem, to be sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "明明是我自己藏起来的，结果想不起藏到哪里去了！",
+			say = "I was the one who hid it, but I forgot where I put it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "找不到刀……没法开始练习乐器啊，呜呜呜……",
+			say = "I can't practice my instrument without it... *sniffle*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一边说着，{namecode:204}一边将座位腾出来一部分，示意我上前帮她一起找。",
+			say = "Hakuryuu sobbed as she scooted over and gave me room to sit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然一时找不到刀的{namecode:204}表现出的反差感很有趣。",
+			say = "Given her usual attitude, I could never have imagined her being so helpless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过还是尽快帮她恢复状态，开始演奏练习吧——",
+			say = "(Either way, this won't do. I should help her look for it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "周边区域、座位下方、还有屏风前后都找过了，完全没有发现刀的位置。",
+			say = "We searched her room from top to bottom, but we couldn't find her katana anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩下没有寻找的地方只有——",
+			say = "(Then all that's left is...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,18 +290,18 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "莫非……",
+			say = "Maybe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "藏在乐器里？",
+					content = "\"Could it be in your instrument?\"",
 					flag = 1
 				},
 				{
-					content = "藏在衣服里？",
+					content = "\"Is it in your clothes?\"",
 					flag = 2
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "重樱的剑客里似乎确实有人做出过把武器藏在乐器中的事。",
+			say = "(I have heard masters of swordplay sometimes hide their weapons in other things.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢！确实有可能！",
+			say = "G-good idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我、我找找看哦……！",
+			say = "Yeah! I'll take a look...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:204}仔细抚摸着乐器，似乎是在感受着什么。",
+			say = "Hakuryuu gently put her fingers on the instrument, as if trying to sense something within.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也来帮一下忙吧……像这里、还有这里……",
+			say = "Commander, can you help me, please? Like here... Oh, and here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？好像……有了！",
+			say = "Hm? ...There it is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "或许今天的刀是一把短刀，这样没准就可以藏在——",
+			say = "(Maybe today's katana is more of a wakizashi, or a knife, or...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哇哇！？指挥官要做什么！？",
+			say = "Eep?! C-Commander?! What are you doing?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这样坐不稳啦……",
+			say = "I'm going to lose balance... Aah?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……指挥官，请温柔一点……",
+			say = "Oooh... Commander, b-be gentle...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？这个感觉是？",
+			say = "...Hmm? Is that...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "等等……你这家伙又想趁人之危吗！？",
+			say = "Wait a second. Are you trying to take advantage of my moment of weakness?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和{namecode:204}紧贴着身体四处摩挲了一番，突然{namecode:204}性情大变（？），一把抓住了我的手。",
+			say = "Despite how much she was invading my personal space, Hakuryuu had a sudden change of heart and seized my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过不知道什么原因，这手上并没有多少力气……",
+			say = "She wasn't very forceful, though, for some reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "总、总之！刀已经找到了你就不要靠的那么近了！",
+			say = "A-anyway! I've found my katana, so back off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "快回去快回去，坐到观众席去！",
+			say = "You've occupied my seat for long enough! Go take your seat in the audience!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "哼，今天本来是想请你听一下乐器练习的，没想到会发生这种事……",
+			say = "Hmph. I was GOING to offer to let you watch me practice, but you've just disappointed me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "刀究竟藏在哪里……？",
+			say = "What? Where was I hiding my katana?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这个你不是刚才摸到了…………",
+			say = "You felt it, did you not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仔细回想了一下。只记得双手触碰到的都是温软的感觉，至于刀……",
+			say = "(All I felt was something soft. I didn't find anything like a katana...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "不、不能告诉你！",
+			say = "Th-then I won't tell you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好了好了，不要再想了！",
+			say = "Aaaagh! I've had enough of this conversation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "该开始练习了！练、练习！",
+			say = "I'm going to practice! Right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "杂乱的乐声唐突响起。",
+			say = "Hakuryuu suddenly began playing loud music to distract herself from what just happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来{namecode:204}的刀究竟藏在哪里，要成为未解之谜了……",
+			say = "Unfortunately, it seemed the mystery of where she'd hidden her katana would remain a mystery to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

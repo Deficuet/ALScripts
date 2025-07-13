@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店功能现已开启！",
+				text = "You have unlocked the Shop function.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可看到新增的商店地点",
+				text = "Tap the Go Outside button to see the location of the new Shop.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在请点击「商店」",
+				text = "Now tap on the Shop.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -68,7 +68,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店每回合会自动更新商品，这里出售各类增加属性和状态的道具",
+				text = "The Shop sells items that increase Navi's parameters, among other things. The stock is refreshed every turn.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -81,7 +81,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在商店进行购物时，不会消耗行动力",
+				text = "Buying items at the Shop does not consume action points.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "还请善用商店资源，更加有效地帮助娜比娅的成长吧",
+				text = "Making good use of the Shop can help you raise Navi more efficiently.",
 				mode = 2,
 				dir = 1,
 				char = 1,

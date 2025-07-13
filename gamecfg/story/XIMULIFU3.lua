@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"祈愿与祝福之宴\n\n<size=45>三　与君共舞</size>",
+					"A Prayer for Peace\n\n<size=45>Chapter 3 - May I Have This Dance?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "宴会场的一隅——",
+			say = "Towards the back of the Banquet Hall...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果…还是换上了这套礼服，哎",
+			say = "It's a shame this was really the closest thing to a fitting party outfit I had... *sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 102052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没什么不好吧，挺适合你的不是吗，克利夫兰？",
+			say = "*giggles* I don't see anything wrong. It's cute and suits you well.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…谢谢你，海伦娜。不过，还是你的礼服更棒啊，就像星空下的梨花一样~",
+			say = "Ahaha... Well, thanks. It doesn't hold a candle to yours though, Helena.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉现在的克利夫兰，可以很轻松地俘获大部分女孩子的心呢，哈哈",
+			say = "Thank you. By the way, Cleve, there's a rumor going around about you. Something about how \"you can wrap any girl around your little finger.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，真是的。不要拿这个逗我了啦！",
+			say = "Ah jeez, again with that. Cut it out with the teasing already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 102052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是发自内心的赞扬呀～",
+			say = "I'm sorry. You know I meant that as a compliment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…我姑且也是女孩子啦……",
+			say = "Et tu, Helena? I'm still a girl, after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 102052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是…音乐声？到了舞会的环节了吗",
+			say = "I know, I know. Ah, is the music starting? The ball must have begun...",
 			bgm = "bsm-7",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舞会吗…咳咳，既、既然都这样了…",
+			say = "The ball, huh... Since we're already here... It's decided!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…美丽的小姐，我能请你跳一支舞吗？",
+			say = "Would this ravishing beauty allow me to have a dance with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 102052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…噗，呵呵呵，这是我的荣幸～",
+			say = "Ah... of course! Hehe, it'd be my pleasure~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "你可要好好引导我哦，帅气的“骑士大人”～",
+			say = "Um, in that case, make sure to escort my properly... my knight in shining armor~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "解锁了新的地点，一起去看看吧",
+				text = "You have unlocked a new location.",
 				mode = 2,
 				posY = -406.14,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请先前往度假庄园",
+				text = "This time, go to the Holiday Resort.",
 				mode = 2,
 				posY = -290.9,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "就在度假庄园随便逛逛吧",
+				text = "Take a walk around the Holiday Resort and get some fresh air.",
 				mode = 2,
 				posY = -150.4,
 				char = 1,

@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋",
+					"Pacific Ocean",
 					1
 				},
 				{
-					"测试者主机周边海域",
+					"Area Around Tester's Mainframe",
 					2
 				},
 				{
-					"指挥舰内",
+					"Commander's Vessel",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "睁开双眼，映入眼帘的是指挥舰办公室的天花板——以及一脸焦急的孟菲斯。",
+			say = "When I open my eyes to reality once again, I see the ceiling of my command vessel above me, and a worried-looking Memphis at my side.",
 			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，您和海伦娜·META小姐的谈话结束了么？",
+			say = "Are you done talking with Helena?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "为了防止在会谈期间遭遇突发事件，我要与海伦娜·META进行情报交流的事，还是事先跟孟菲斯进行了报备。",
+			say = "To prevent any unexpected incidents from happening, I informed Memphis beforehand that I'd be communicating with Helena META at some point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,19 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过一些更具体的细节，比如会谈的对象包括了观察者，会谈的目的是和观察者达成合作之类的事……自然是没有说的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嗯，奈落的危险性，以及我们接下来要采取行的应对方式，我已经心中有数了。",
+			say = "Needless to say, I did omit certain details – such as meeting with Observer and getting her to help us with the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +93,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不得不说，我们远远低估了奈落将会带来的危险。",
+			say = "Yeah. Now I have a good grasp on how dangerous Naraka is, and I have an idea for how to deal with it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "We're facing a much bigger threat than I first anticipated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……远远低估？星海已经将其判定是灾难级了，比之前NA海域中心的奇异点还危险……这也是低估了么？",
+			say = "It's even worse than we thought? TB called it \"cataclysmic\" and \"more dangerous than the NA Ocean Singularity.\" Is it THAT bad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，依然是远远低估。",
+			say = "It is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来我要进行的一系列部署，你或许会感到很困惑。",
+			say = "I will need to start issuing some instructions, but won't have time to explain all of them in detail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是我现在没办法向你解释原因……只能说，这确实是此时此刻的最优解，希望你能够相信我。",
+			say = "But, I hope you – and everyone else – will trust me when I say that this is our best shot at success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯……您的话，我当然相信。更何况指挥官的命令，我也没有理由不听。",
+			say = "Of course. There's no one in our ranks who will question your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯，记录命令。",
+			say = "Thanks. Do you have a pen ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是！",
+			say = "Yep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第一，停止针对测试者主机的解析工作，将星海和东煌超算中心的全部算力投入对于奇异点奈落的情报解析中。",
+			say = "One – cease analysis of Tester's Mirror Sea and focus the Sea of Stars' and Celestial Tower's computing resources on analyzing Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第二，停止对于测试者主机的进攻准备，所有舰队立刻进行出发准备，半小时后前往新的集合地点，准备对于奇异点奈落的作战行动。",
+			say = "Two – all units around Tester's Mirror Sea will head to the rendezvous point I'll send to them. There, they will prepare for a combat mission against Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第三……",
+			say = "Three...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "半小时后，原本热闹的测试者主机周边海域，此时已被彻底清空。",
+			say = "Shortly afterward, the fleet finishes withdrawing from the territory around Tester's mainframe.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "空气中，首先传来了一阵似有似无的蜂鸣声。",
+			say = "The relative calm does not last, however. Out of nowhere, a deafening roar suddenly rips through the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "而后，海面之上突然出现了一座被建筑群环绕包围的高塔。",
+			say = "An edifice of dark metal appears on the ocean's surface, surrounded by a city of glowing buildings – the tower housing Tester's mainframe once again materializing in the real world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "测试者的主机塔，就这样第一次毫无保留地展现在现实世界中。",
+			say = "For a moment, the mainframe and the glowing city remain suspended serenely upon the water's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "再之后——",
+			say = "But then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。",
+			say = "In the blink of an eye, the \"indestructible\" tower is engulfed in an all-consuming explosion.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "曾经牢牢控制着帕克菲克洋的测试者主机塔，从这个世界上永远消失了——",
+			say = "Only a day ago, the Pacific was firmly in her grasp. Now, the source of her being is gone from this world forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey真是狡猾~总是知道怎么让我开心~！",
+			say = "You're no fair, honey. You always know how to make me happy!",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_gfit2_tone5",
 			typewriter = {
 				speed = 0.05,

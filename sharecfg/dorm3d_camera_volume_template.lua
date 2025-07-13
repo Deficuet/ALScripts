@@ -1,23 +1,23 @@
 pg = pg or {}
 pg.dorm3d_camera_volume_template = {
 	[2] = {
-		unlock_text = "契合度1级解锁",
-		name = "反差",
+		unlock_text = "Unlocked at Intimacy Lv. 1.",
+		name = "Contrast",
 		volume = "contrast_volume",
 		rarity = 2,
 		id = 2,
 		icon = "Props/drom3d_camera1001",
-		desc = "获得后可在相机功能中解锁反差滤镜",
+		desc = "Unlocks the Contrast filter for the camera feature.",
 		unlock = {}
 	},
 	[3] = {
-		unlock_text = "契合度9级解锁",
-		name = "黄昏",
+		unlock_text = "Unlocked at Intimacy Lv. 9.",
+		name = "Twilight",
 		volume = "dusk_volume",
 		rarity = 2,
 		id = 3,
 		icon = "Props/drom3d_camera1001",
-		desc = "获得后可在相机功能中解锁黄昏滤镜",
+		desc = "Unlocks the Twilight filter for the camera feature.",
 		unlock = {
 			1,
 			20220,
@@ -25,13 +25,13 @@ pg.dorm3d_camera_volume_template = {
 		}
 	},
 	[4] = {
-		unlock_text = "契合度13级解锁",
-		name = "柔光",
+		unlock_text = "Unlocked at Intimacy Lv. 13.",
+		name = "Soft Light",
 		volume = "soft_volume",
 		rarity = 2,
 		id = 4,
 		icon = "Props/drom3d_camera1001",
-		desc = "获得后可在相机功能中解锁柔光滤镜",
+		desc = "Unlocks the Soft Light filter for the camera feature.",
 		unlock = {
 			1,
 			20220,

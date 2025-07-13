@@ -16,7 +16,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~这边。",
+			say = "Commander, this way~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "循着声音的方向看去，露天泳池中，一道熟悉的身影正坐在充气床上朝我打招呼。",
+			say = "I turn around and see a familiar friend lying on a pool air mattress, waving at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚在祈祷的时候就期待与您相遇，没想到您真的就出现了……",
+			say = "I was just praying that I'd get to see you, and here you are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,18 +77,18 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，果然在幸运日的时候愿望很快就能实现呢。",
+			say = "Heehee, wishes come true quickly on lucky days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "今天是你的幸运日么？",
+					content = "Is today your lucky day?",
 					flag = 1
 				},
 				{
-					content = "今天也是我的幸运日",
+					content = "It's my lucky day, too, you know.",
 					flag = 2
 				}
 			}
@@ -102,7 +102,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，是的。而且根据预测的结果，今天还很适合约会……",
+			say = "Yes, it is. My fortune says that today is perfect for a date, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "约会？",
+			say = "A date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没、没什么……让您见笑了……///",
+			say = "N-nothing... I'm sorry you had to hear that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……？指挥官的意思……觉得遇见我很幸运么……///？",
+			say = "Huh? Are you saying... that you feel lucky to see me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯，毕竟我也是因为工作调整，才能这个时间回来休息。",
+			say = "Sure am. Especially since my plans changed and gave me an unexpected moment to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "在这种情况下偶遇伴尔维，也算是幸运。",
+			say = "That's lucky, and even more so that I got to see you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……这样啊……说的也是呢……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，指挥官最近都在忙拍电影的事吧。",
+			say = "Come to think of it, you've been busy with the filming, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然现在是休息时间，就请来我身边吧？在泳池里好好放松一下。",
+			say = "If you'd like, you could come relax in the pool with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "踏入池水，立刻带来了一片凉意，驱赶了炎热带来的不适感。",
+			say = "I step into the pool on her suggestion. The chilly water quickly overwhelms the heat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等坐到伴尔维身边时——",
+			say = "Then, I lie on the air mattress and scoot over next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个，指挥官，能麻烦您帮我拿一下草莓芭菲么？",
+			say = "U-umm... Commander, could you hold this parfait for a moment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚一直只顾着看您了……芭菲融化得太快，有些滴到身上了……呜……",
+			say = "I've been so focused on you that I ended up spilling it... Eep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一手举着玻璃杯，另一只手试图擦拭着滴落在胸前的粘稠液体。",
+			say = "Holding the parfait in one hand, she tries to wipe the cream off of her chest with the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "我帮你拿着，你先清理吧。",
+			say = "Sure. Clean yourself up, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢指挥官……不过指挥官也要小心不要弄脏手哦……",
+			say = "Thank you. Oh, and be careful you don't spill it on yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从伴尔维手中接过玻璃杯后，少女再度开始了清理的动作。",
+			say = "She hands me the parfait and focuses her attention back on her chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……稍微有些不好意思……啊，也、也不是让您移开目光的意思……",
+			say = "It's a little embarrassing... Oh, not that I'd ask you to look away for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，还是有些黏黏的……",
+			say = "Ooh, it's a little sticky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一边说着，一边将手伸入泳池中捧了些水，洒在了自己的身上。",
+			say = "To make it easier to get off, she scoops water out of the pool and wets the affected area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轻薄的白色布料被水濡湿，以半透明的姿态紧紧包裹住少女的肌肤。",
+			say = "The dripping water wets her swimsuit. The thin, white fabric sticks to her skin, becoming semi-transparent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这样就清理干净了。",
+			say = "Phew... That's better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "待伴尔维清理干净，重新坐好后，将手中的草莓芭菲朝她递过去。",
+			say = "After she sits back up, I return her parfait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这份草莓芭菲其实是我今日的幸运物品哦。",
+			say = "This parfait is actually my lucky item for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女接过芭菲后，有些羞涩地笑了笑，淡淡的红晕浮上她的面颊。",
+			say = "Painlevé smiles bashfully and blushes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个……我希望能将这份幸运分享给指挥官。",
+			say = "Umm... I'd like to share my fortune with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "分享给我？",
+			say = "You wanna share?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……就是……让我来喂您吃芭菲的意思……///",
+			say = "Yes. Basically... What I mean to say is, I'd like to feed you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然这杯芭菲上面的部分有些融化了，但……这个味道，我想指挥官一定会喜欢的……",
+			say = "It's a little melted... but I just know you'll like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着少女的靠近，冰淇淋与草莓的香甜一同在口中化开。",
+			say = "She gives me a spoonful of it. The sweetness of strawberry and cream blesses my tongue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,18 +548,18 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如、如何呢……？这个味道……",
+			say = "H-how do you like it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确实很喜欢",
+					content = "(Compliment the taste.)",
 					flag = 1
 				},
 				{
-					content = "还想再品味一次",
+					content = "(Ask for another spoonful.)",
 					flag = 2
 				}
 			}
@@ -574,7 +574,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "这个味道，我确实很喜欢",
+			say = "That is tasty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那就好……！",
+			say = "I'm glad to hear that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			actor = 807022,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "这个味道，我还想再品味一次。",
+			say = "I think I need another taste first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官……///",
+			say = "C-Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后与伴尔维一同享用着幸运草莓芭菲，共同度过了难得休闲的夏日午后。",
+			say = "Thus, the two of us share the parfait and a relaxing afternoon together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

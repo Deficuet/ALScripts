@@ -11,7 +11,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:454}，听得到吗？",
+			say = "Heinrich, do you copy?",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听得很清楚哦！",
+			say = "Loud and clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "敌方航空队的部署发生了变化，你已经开始对浮岛机场进行压制了么？",
+			say = "The enemy aircraft have changed their attack pattern. Are you en route to the airfield?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~机场周边敌军已经清理完毕，现在正在向机场接近！",
+			say = "Yep-yep! Headed there to take out some stray enemies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "稍等，我先让战斗机侦察一下，别忘了这次敌人的战斗策略也得到了升级，小心敌人的伏击。",
+			say = "Hold. Before you enter battle, first check the Stronghold's Control status so you don't get blindsided by enemy aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "那就拜托你咯，{namecode:471}~",
+			say = "Roger-dodger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

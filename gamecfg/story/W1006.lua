@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "设备运行中…………",
+			say = "Operating scanning device... Scan complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：探测到了海域中塞壬隐藏的资源点。",
+			say = "Data received. Transmitting coordinates of Siren cache.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			},
 			options = {
 				{
-					content = "了解",
+					content = "Got it.",
 					flag = 0
 				}
 			}

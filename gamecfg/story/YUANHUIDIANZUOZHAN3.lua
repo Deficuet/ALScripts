@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "铁血试验场·雕刻车间",
+			say = "Mirror Sea - Pawn Fleet",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "{namecode:450}与{namecode:442}来到了被标注为雕刻车间的场所。然后，二人随即被映入眼帘的景象惊呆了。",
+			say = "Following the map depicted in the mission briefs, Blücher and Z16 arrived at the production area. What they found there left them speechless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "划分为无数分区的巨大车间被棋子填得满满当当，“熟面孔”们安静的屹立着，有如一整支严整的克隆军队。",
+			say = "The place was like a massive factory. At its center stood uncountably many Pawns, silent and motionless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "量产型军团……",
+			say = "This... This is one giant fleet of Pawns!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "好、好厉害，这些全都是自动化生产的么？我还是第一次见这么夸张的东西！",
+			say = "Is this where they're created? Like machines out of a factory, then sent into battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "{namecode:400}、{namecode:401}、{namecode:422}、哇！这边是{namecode:428}和{namecode:426}……",
+			say = "There's Z1, Z2, Karlsruhe... even Pawns of Eugen and Hipper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我还看到了{namecode:434}和{namecode:433}……甚至连{namecode:435}大人的棋子都有！",
+			say = "Boy, there's still more! Gneisenau, Scharnhorst... Bismarck, too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "嚯嚯嚯，这不就没剩多少给对面了嘛~",
+			say = "With this many of 'em, even their original selves would lose if they all attacked at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "咱们有了这样的阵容，我根本想不到该怎么输啊！",
+			say = "Which means we have this mission in the bag! Right, Blücher?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "你们觉得是不是啊——",
+			say = "What about you all? Am I right, or am I right? Hahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "因眼前的景象而兴奋不已的{namecode:442}蹦蹦跳跳地跑到大群的{namecode:401}的棋子跟前，伸出手来跟其中一位打招呼。",
+			say = "Z16 was jumping with anticipation for the upcoming battle. She turned and chatted up a Pawn of Z2.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "喂——{namecode:401}，中午好！",
+			say = "I know you agree for sure, Thiele! We'll get to go all-out this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "……你在做什么？跟棋子聊天没意义的吧…？",
+			say = "I hope you're not expecting an answer... Pawns aren't able to communicate with us normally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,8 +188,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:401}？",
-			say = "中午好。",
+			actorName = "Z2?",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "？！竟、竟然回话了！",
+			say = "Still as creepy as I remember them... But I know from fighting them that they're able to change their expressions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "但是只回了一句……我再问问其他人！",
+			say = "Come on, I wasn't serious! Even I know Pawns are another one of the Sirens' sick jokes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "喂——{namecode:427}！你知道这里是哪里么？",
+			say = "They're the reason we're here – to test 'em in combat! ...Oh look, someone's left a tape recorder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "关于这个问题，建议你好好查看一下任务指令书呢。",
+			actorName = "Prinz Eugen?",
+			say = "\"Operation Convergence experiment summary.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "这里是用于远汇点作战的实验型镜面海域，而你和{namecode:450}是这次作战的红方指挥官。",
+			actorName = "Prinz Eugen?",
+			say = "\"The fleet of Pawns is to be activated and guided into simulated enemy territory. They are to destroy the flagship of each area.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +265,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "你们的目标只有一个，通过合理的舰队指挥，尽快取得本次测试的最终胜利。",
+			actorName = "Prinz Eugen?",
+			say = "\"After a set amount of areas have been secured, the assault on the enemy base begins. The experiment will conclude upon successful takeover.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,8 +278,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "直到任何一边的基地被攻陷之前，实验不能停止，也不能被外部干涉哦。",
+			actorName = "Prinz Eugen?",
+			say = "\"Nobody is permitted to enter or exit the Mirror Sea until one of the experiment parties has achieved victory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "好……好厉害！说明的内容跟作战指令书里一模一样……",
+			say = "Huh? We already know about that. She's just reading off the briefs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "那我们要怎么才能取胜呢？！",
+			say = "Is this a jab at me or something? Does Eugen think I don't know how to read or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,8 +316,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "你们需要通过合理的舰队指挥，尽快获取本次测试的最终胜利。",
+			actorName = "Prinz Eugen?",
+			say = "\"Operation Convergence experiment summary.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "……对话是不是跟刚才重复了。",
+			say = "Huh? Is it stuck on repeat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "你能解释一下什么才叫合理的舰队指挥么！",
+			say = "Maybe there's more on the tape, like details about our mystery opponent. Let me try something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,8 +354,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "关于这个问题，建议你好好查看一下任务指令书呢。",
+			actorName = "Prinz Eugen?",
+			say = "\"Operation Convergence experiment summary.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "喂——{namecode:427}，你的发言是不是重复了！",
+			say = "No, it's just sayin' the same thing over and over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,8 +380,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:427}？",
-			say = "是的，因为我只是一个用于实验的棋子而已，你指望我能说些什么呢？",
+			actorName = "Prinz Eugen?",
+			say = "\"If you want to know more about your opponent, listen closely... It's a secret, sorry. Heehee♪\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 401160,
-			say = "……………………被、被棋子吐槽了？！但是又好有道理……不愧是{namecode:428}！",
+			say = "What?! Did Eugen really predict I'd try this and left a message just to mess with me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "再怎么说……和棋子对话也太怪了，咱们还是继续视察舰队吧。",
+			say = "Let's just move on, alright? Knowing Eugen, she probably has more than one way of getting in your head~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "坏消息是，在没开始第一场战斗之前，我们完全不知道对手的情报。",
+			say = "...Actually, now that I think about it, maybe this message isn't even specifically meant for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "但是相应的，对手应该也不了解我们才对。",
+			say = "We might even be playing the baddies, but neither side has any way of knowing that yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "既然如此，那就让咱们拿出最强的阵容，狠狠地教训一下对面吧！",
+			say = "Alright, let's round up these Pawns and mop the floor with whoever our mystery opponent is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

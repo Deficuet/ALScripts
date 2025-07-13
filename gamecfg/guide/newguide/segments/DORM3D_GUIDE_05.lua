@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请再次点击天狼星，打开互动面板",
+				text = "Now tap Sirius again!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -43,7 +43,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "点击赠礼按钮，进入赠礼界面",
+				text = "Tap the Gifts button to give presents to the quarters' inhabitants!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -60,7 +60,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "可在礼物列表中选择需要赠送的礼物",
+				text = "You can select your gift over here.",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -79,7 +79,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "通过赠送礼物，即可增加与天狼星的契合度哦！",
+				text = "Giving gifts will raise the character's Intimacy with you.",
 				mode = 4,
 				dir = 1,
 				char = "char",

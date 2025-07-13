@@ -13,8 +13,8 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "那群反抗军还是找到了没被炸毁的入口，这可是严重失职哦，军师",
+			actorName = "Tester?",
+			say = "It seems that Resistance brats have discovered an entrance that hasn't been destroyed yet. That's a huge failure, right, Advisor?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,10 +37,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "现在之前战斗中损坏的棋子还没修好吧，你打算怎么办？",
+			say = "As far as I know, the damaged \"pieces\" that have taken damage during this time have yet to finish being repaired. What do you plan to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,10 +54,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "请您放心，一切都还在计划之中",
+			say = "Please rest assured. Everything is still going just as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,10 +71,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "我已经提前改变了过山车的轨道。过山车通向的不是此处的本社大楼，而是另一边的岩浆坑哦",
+			say = "We have already swapped out the rails for the rollercoaster. The destination of the Resistance will not be the headquarters, but instead, in a pit of magma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,10 +88,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "不愧是军师，想的真周到啊。",
+			say = "Hmm, making the first move was a very good move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,10 +105,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "毕竟曾经学习了很多“孔明的陷阱”嘛~这次我会亲自出马，请您继续专心于权限的取回上",
+			say = "It is because I have studied \"Zhuge Liang's Strategems\" very thoroughly. This time, I have prepared an ambush for the Resistance. Please continue to focus wholly on taking back power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			say = "MIOSHIO-COASTER之上",
+			say = "At the MioShio Coaster",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "哇哦，高--速--空--中--过--山--车----！",
+			say = "FAAAAAAAAAAAAAASSSSSSSSTTTTTTTTTTTTTTTTTTT!",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "巨大化的过山车，比以前的版本酷几亿倍啊！！！",
+			say = "THE ROLLER COASTER IS A MILLION TIMES COOLER THAN BEFORE IT BECAME BIGGERRRRRRRRRRRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "漂浮在空中的过山车…奇妙的感觉。",
+			say = "(A roller coaster that floats in the sky... What a strange device.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}平时都不来玩，明明游乐园也有的，对吧，{namecode:408}？",
+			say = "(Next time, let's build a roller coaster at the naval base. Zed, get on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你不要提那个，上次坐那个之后我一天都吃不下东西……",
+			say = "(I-I really don't want to so I'll pass!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我不适合这种东西。",
+			say = "(Like I thought. I really don't fit in.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，风景还不错，不是吗？",
+			say = "(It's good to let your guard down from time to time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯",
+			say = "(... Okay.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

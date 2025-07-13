@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>七 兴趣与好奇心</size>",
+					"Moments with the Young Miss\n\n<size=45>7 Excitement and Curiosity</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚时分，太阳渐渐西沉",
+			say = "In the evening, the sun slowly sank into the west...",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……工作都完成了吗？",
+			say = "We’re done for the day, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "抬起头，发现追赶者站在眼前。",
+			say = "I lifted my head to see Chaser standing in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "从重樱那里离开后，让准备回皇家的追赶者晚些时候再来趟指挥室。",
+			say = "After leaving the Sakura dorms, I told Chaser to come by later as she prepared to return to the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "需要提交这段时间的总结报告，以及……",
+			say = "She had to submit her report on her visits, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，那时候看到指挥官认真的侧脸——",
+			say = "Hehe, it was quite nice to see the Commander’s serious side this afternoon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就让人不禁想要稍微捉弄你一下了嘛",
+			say = "I had to subject you to a little unladylike teasing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "被她这么一说，又想起了白天那件事情……",
+			say = "She reminded me what happened that afternoon by the Sakura training grounds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之后虽然向{namecode:66}和{namecode:11}解释了，却还是没能让她们平息下来，{namecode:11}喊着“哇哇哇”，{namecode:66}则是怒斥“不知廉耻！”，总之是遭了一番罪……",
+			say = "Takao and Akatsuki were rather cross with me. The former called me shameless and the latter grumbled out her “aagghh” growling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然每个阵营，每位伙伴都有着各自独特的不同呢。",
+			say = "It’s not only the different camps, but all the individuals within them that have their own unique characters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "追赶者一边诉说着感慨，一边优雅地走到窗边，夕阳洒在她的身上，让她看起来仿佛散发着光芒一般。",
+			say = "Chaser walked gracefully to the window, glowing in the lustrous light of the setting sun as she shared her thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我也算是去过不少地方了，不过，果然还有许多地方未曾到访，还有许多的事物等待着发现呢。",
+			say = "Over the course of my service, I’ve been to so many different places, and yet there are still so many more I haven’t seen, with so many things waiting to be discovered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样和指挥官一起，确实让人感到非常充实。白天那时候，也算是想给指挥官一点“回报”吧♪",
+			say = "When I’m here with you like this, I feel so fulfilled. I guess you could say that little prank this afternoon was a sort of “payback,” eh♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "追赶者微笑着转过身来。",
+			say = "She smiled and turned to face me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……所以呢，喊我过来是为了什么？",
+			say = "Now then, why did you ask me here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "另一件事自然是——",
+			say = "The reason should have been obvious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希望之后也能秘书舰辅助你？当然可以啦。不过，能告诉我原因吗？",
+			say = "You want me to continue as your secretary? I’d be happy to, of course, but why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "本以为是个大小姐，不过却有着出奇旺盛的好奇心；以为是个莽撞的女孩子，却又意外低有着细腻的为她人着想的心思。",
+			say = "Her youthful appearance belies her curious nature. I’d expect recklessness from her, but she’s surprisingly compassionate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "接二连三的出人意料的举动……确实让人感到十分的“快乐”。",
+			say = "Every one of her unexpected outbursts was also... “fun.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢~我不会让你失望的，指挥官。",
+			say = "Thank you. I’ll do my best to live up to your expectations, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我很高兴，能够像这样优雅而快乐的生活哦♪",
+			say = "I’m glad to live in such grace and joy♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

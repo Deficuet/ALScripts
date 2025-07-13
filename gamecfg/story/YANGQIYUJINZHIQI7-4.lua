@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "终于，海岸回归了寂静。",
+			say = "At long last, peace and quiet returns to the shore.",
 			bgm = "battle-tulipa",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "破晓的第一缕光芒洒下，新的一天开始了——",
+			say = "The first light of dawn shines down, and a new day begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

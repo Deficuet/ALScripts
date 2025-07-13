@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>七  黑糖味的喜悦</size>",
+					"Me and the Boise\n\n<size=45>7.The Sweetness of Tiramisu</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "晚餐时间，按照与{namecode:197}的约定来到了白鹰宿舍的小餐吧内。",
+			say = "Boise asked to have dinner with me, and I met her at a little bar by the Eagle Union dorms.",
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "晚餐邀请，感觉有些不太像是{namecode:197}的风格……",
+			say = "I felt like she wasn't the kind of person who'd do something as proactive as asking me out for dinner though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指、指挥官……",
+			say = "C-Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "顺着声音的方向看去——",
+			say = "My eyes followed the sound of her voice back to its source–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "戴着兔耳，穿着可爱服装的{namecode:197}正撩起头发掩住嘴唇……视线相交了。",
+			say = "Boise stood there dressed in an alluring bunnygirl outfit, hiding her mouth with her hair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "呼……呼……（深呼吸、深呼吸）",
+			say = "Haah... Haah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "按照指挥官的要求，{namecode:197}摘下面具了……",
+			say = "I took off the mask... just like you asked me to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "指挥官……要、要喝点什么吗……",
+			say = "Um, umm... would you like something to drink...",
 			action = {
 				{
 					type = "shake",
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "光顾着看脱下面具的{namecode:197}的脸，结果却忘记问她为什么会穿上这身衣服……",
+			say = "For whatever reason, the two of us were the only people at the bar tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且，整个小餐吧内只有{namecode:197}一个人……",
+			say = "My mind was racing to come up with reasons as to why she was dressed like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我和路易斯打了个赌……根据赌约，如果指挥官这周内希望我摘下面具的话，我就要穿上这身衣服和指挥官约会……",
+			say = "I made a promise with St. Louis... If you asked to see my face, I'd change into this outfit and then... ask you out on a date...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "如果没有的话……路易斯就要告诉我怎样给指挥官挑礼物……",
+			say = "And if I did that, she'd help me pick out a gift that you like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "原来是这样……",
+			say = "Is that why she put herself through all this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "指、指挥官…一直这样盯着我的话…我会不知道应该说什么的…",
+			say = "C-Commander, um... Now that you see me, what do you think...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "摘下面具以及换上可爱服装，{namecode:197}带来的双重新鲜感让人有种不知所措的感觉。",
+			say = "Seeing her without her mask, and in this outfit... made her seem like a completely different person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "呼…深呼吸……感觉稍微好一点了…",
+			say = "D-deep breaths... Haah... Haah... Okay, I feel a lot better...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指、指挥官，担任秘书舰以来一直承蒙关照了……",
+			say = "Commander... Umm, thanks for always treating me so well...",
 			action = {
 				{
 					type = "shake",
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能待在指挥官的身边，{namecode:197}感觉很幸福…虽然之前因为各种原因也给你添了不少麻烦……",
+			say = "I know I've caused you a lot of trouble, but I'm glad you've always been so patient and understanding with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "即便如此……如果指挥官依然愿意接纳{namecode:197}的话……{namecode:197}一定会努力在更多的地方上帮到你的……",
+			say = "If you like what you see, then, um... I'll do everything I can to support you, so, um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:197}脸颊通红，小声诉说着自己的真情实感。",
+			say = "Despite the fact that her face was beet-red from embarrassment, she mustered the courage to put her feelings forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102291,
-			say = "对了…现在还是晚餐时间……",
+			say = "Oh, um, I think the food is here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 102291,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "总、总之，请指挥官将这当做{namecode:197}的决心…然后…以后也请多多关照了…",
+			say = "Um, tonight was my way of saying... I've become stronger, and I want to continue being with you... is that okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

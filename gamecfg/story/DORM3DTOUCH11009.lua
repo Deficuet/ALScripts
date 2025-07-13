@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在期待什么吗~？",
+			say = "Expecting something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

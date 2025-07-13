@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：塞壬的强化型增援舰队正在接近，建议尽快摧毁海域中的剩余塞壬增援点。",
+			say = "Detecting powerful Siren reinforcements. Destruction of Siren Rally Point is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

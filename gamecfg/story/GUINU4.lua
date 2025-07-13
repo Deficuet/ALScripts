@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>四  独一无二的东西</size>",
+					"As Cool As A Demon\n\n<size=45>4 One of a Kind</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "…………",
+			say = "Hmm...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从瀑布修行结束后，{namecode:181}似乎总在思考着什么。",
+			say = "It had been a while since the waterfall training. Every now and then, I would catch Kinu seemingly deep in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "某一天，从侧面悄悄观察凛冽沉思中的{namecode:181}时——",
+			say = "One day, I was overcome with curiosity over what she might be thinking about, and I glanced a little too long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你在看什么？",
+			say = "What are you staring at me for, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "连忙将目光移开，不过好像已经晚了……",
+			say = "She called me out on it. I promptly averted my gaze, but it was too late. She had noticed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……原来如此。",
+			say = "...Oh, I see how it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于注意到我的魅力所在啊。哼，真够晚的……",
+			say = "Don't be shy, feast your eyes. What you see is quality. It was made to be gazed at and admired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,11 +144,11 @@ return {
 			},
 			options = {
 				{
-					content = "魅力？",
+					content = "\"Quality? You mean...?\"",
 					flag = 1
 				},
 				{
-					content = "嗯，其实是被{namecode:181}吸引了——",
+					content = "\"All right, I'll admit it. I can't take my eyes off–\"",
 					flag = 2
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这布料的色调，触感，还有上面的小装饰，都很不错吧？",
+			say = "My cloak? Yes. It's tailor-made to suit my needs. Come, have a closer look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想要走近点看看吗？或者说直接用手摸摸也可以哦。",
+			say = "See the fabric, the exquisite color, and the little ornaments adorning it? They're all at no cost to practicality or comfort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为定制披风，功能性上虽然不如外套或者大衣，但是在外观上是绝对独一无二的。",
+			say = "Of course, it isn't a full mantle, which makes it ill-suited for cold weather, but that's a small price to pay for this one-of-a-kind masterpiece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，总而言之——超帅对吧？",
+			say = "All this is to say: you think it looks cool, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（关于披风，{namecode:181}滔滔不绝讲了很多……）",
+			say = "Her intuition was completely off the mark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "要配合她继续聊么……？不过……现在还是工作时间。",
+			say = "At first, I considered going with it anyway, but decided against it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "还是赶紧提醒她回到工作中吧，不然这关于披风的话题不知何时才能停下来……",
+			say = "I had a feeling she could gush about her cloak for quite some time, so rather than indulge her, I pointed out the need for me to finish my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……抱、抱歉。",
+			say = "Huh? Oh, of course...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一不小心聊太久了。咳……",
+			say = "Forgive me, I got carried away there. Ahem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官也干脆以这个为契机穿上披风试试吧？虽然肯定没有我合适就是了~",
+			say = "Just out of curiosity: have you ever considered wearing a cloak? Naturally, you wouldn't look as good in one as I do, but still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:181}变得比平常话多了不少，看来她对披风有着非同寻常的感情啊……",
+			say = "If there is one thing I took away from this exchange, it's that Kinu is strangely talkative when it comes to cloaks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

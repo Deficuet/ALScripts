@@ -4,7 +4,7 @@ pg.world_chapter_template_reset = {
 		id = 8000,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to NY City Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			800
 		},
@@ -16,7 +16,7 @@ pg.world_chapter_template_reset = {
 		id = 8030,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to NY City Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			803
 		},
@@ -28,7 +28,7 @@ pg.world_chapter_template_reset = {
 		id = 8060,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to NY City Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			806
 		},
@@ -40,7 +40,7 @@ pg.world_chapter_template_reset = {
 		id = 8090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>NY港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to NY City Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			809
 		},
@@ -52,7 +52,7 @@ pg.world_chapter_template_reset = {
 		id = 8200,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			820
 		},
@@ -64,7 +64,7 @@ pg.world_chapter_template_reset = {
 		id = 8230,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			823
 		},
@@ -76,7 +76,7 @@ pg.world_chapter_template_reset = {
 		id = 8260,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			826
 		},
@@ -88,7 +88,7 @@ pg.world_chapter_template_reset = {
 		id = 8290,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			829
 		},
@@ -100,7 +100,7 @@ pg.world_chapter_template_reset = {
 		id = 8400,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			840,
 			841
@@ -113,7 +113,7 @@ pg.world_chapter_template_reset = {
 		id = 8410,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			840,
 			841
@@ -126,7 +126,7 @@ pg.world_chapter_template_reset = {
 		id = 8430,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			843,
 			844
@@ -139,7 +139,7 @@ pg.world_chapter_template_reset = {
 		id = 8440,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			843,
 			844
@@ -152,7 +152,7 @@ pg.world_chapter_template_reset = {
 		id = 8460,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			846,
 			847
@@ -165,7 +165,7 @@ pg.world_chapter_template_reset = {
 		id = 8470,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			846,
 			847
@@ -178,7 +178,7 @@ pg.world_chapter_template_reset = {
 		id = 8490,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			849,
 			850
@@ -191,7 +191,7 @@ pg.world_chapter_template_reset = {
 		id = 8500,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			849,
 			850
@@ -204,7 +204,7 @@ pg.world_chapter_template_reset = {
 		id = 8600,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			860
 		},
@@ -216,7 +216,7 @@ pg.world_chapter_template_reset = {
 		id = 8630,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			863
 		},
@@ -228,7 +228,7 @@ pg.world_chapter_template_reset = {
 		id = 8660,
 		transport = 2,
 		transport_colormask = 2,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			866
 		},
@@ -245,7 +245,7 @@ pg.world_chapter_template_reset = {
 		id = 8690,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定离开塞壬实验场，返回<color=#92fc63>利维浦港</color>近海？（离开后实验场入口依然存在，再次挑战时会重置为初始状态）",
+		tip = "Are you sure you want to leave the Siren zone and return to Liverpool Port? (The position of the Sirens will be reset).",
 		reset_map = {
 			869
 		},
@@ -257,7 +257,7 @@ pg.world_chapter_template_reset = {
 		id = 110000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -297,7 +297,7 @@ pg.world_chapter_template_reset = {
 		id = 110010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -337,7 +337,7 @@ pg.world_chapter_template_reset = {
 		id = 110020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -377,7 +377,7 @@ pg.world_chapter_template_reset = {
 		id = 110030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -417,7 +417,7 @@ pg.world_chapter_template_reset = {
 		id = 110040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -457,7 +457,7 @@ pg.world_chapter_template_reset = {
 		id = 110050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -497,7 +497,7 @@ pg.world_chapter_template_reset = {
 		id = 110060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -537,7 +537,7 @@ pg.world_chapter_template_reset = {
 		id = 110070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -577,7 +577,7 @@ pg.world_chapter_template_reset = {
 		id = 110080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -617,7 +617,7 @@ pg.world_chapter_template_reset = {
 		id = 110090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -657,7 +657,7 @@ pg.world_chapter_template_reset = {
 		id = 111000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -697,7 +697,7 @@ pg.world_chapter_template_reset = {
 		id = 111010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -737,7 +737,7 @@ pg.world_chapter_template_reset = {
 		id = 111020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -777,7 +777,7 @@ pg.world_chapter_template_reset = {
 		id = 111030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -817,7 +817,7 @@ pg.world_chapter_template_reset = {
 		id = 111040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -857,7 +857,7 @@ pg.world_chapter_template_reset = {
 		id = 111050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -897,7 +897,7 @@ pg.world_chapter_template_reset = {
 		id = 111060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -937,7 +937,7 @@ pg.world_chapter_template_reset = {
 		id = 111070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -977,7 +977,7 @@ pg.world_chapter_template_reset = {
 		id = 111080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1017,7 +1017,7 @@ pg.world_chapter_template_reset = {
 		id = 111090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1057,7 +1057,7 @@ pg.world_chapter_template_reset = {
 		id = 112000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1097,7 +1097,7 @@ pg.world_chapter_template_reset = {
 		id = 112010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1137,7 +1137,7 @@ pg.world_chapter_template_reset = {
 		id = 112020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1177,7 +1177,7 @@ pg.world_chapter_template_reset = {
 		id = 112030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1217,7 +1217,7 @@ pg.world_chapter_template_reset = {
 		id = 112040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1257,7 +1257,7 @@ pg.world_chapter_template_reset = {
 		id = 112050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1297,7 +1297,7 @@ pg.world_chapter_template_reset = {
 		id = 112060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1337,7 +1337,7 @@ pg.world_chapter_template_reset = {
 		id = 112070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1377,7 +1377,7 @@ pg.world_chapter_template_reset = {
 		id = 112080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1417,7 +1417,7 @@ pg.world_chapter_template_reset = {
 		id = 112090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1457,7 +1457,7 @@ pg.world_chapter_template_reset = {
 		id = 113000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1497,7 +1497,7 @@ pg.world_chapter_template_reset = {
 		id = 113010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1537,7 +1537,7 @@ pg.world_chapter_template_reset = {
 		id = 113020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1577,7 +1577,7 @@ pg.world_chapter_template_reset = {
 		id = 113030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1617,7 +1617,7 @@ pg.world_chapter_template_reset = {
 		id = 113040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1657,7 +1657,7 @@ pg.world_chapter_template_reset = {
 		id = 113050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1697,7 +1697,7 @@ pg.world_chapter_template_reset = {
 		id = 113060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1737,7 +1737,7 @@ pg.world_chapter_template_reset = {
 		id = 113070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1777,7 +1777,7 @@ pg.world_chapter_template_reset = {
 		id = 113080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1817,7 +1817,7 @@ pg.world_chapter_template_reset = {
 		id = 113090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1857,7 +1857,7 @@ pg.world_chapter_template_reset = {
 		id = 114000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1897,7 +1897,7 @@ pg.world_chapter_template_reset = {
 		id = 114010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1937,7 +1937,7 @@ pg.world_chapter_template_reset = {
 		id = 114020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -1977,7 +1977,7 @@ pg.world_chapter_template_reset = {
 		id = 114030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2017,7 +2017,7 @@ pg.world_chapter_template_reset = {
 		id = 114040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2057,7 +2057,7 @@ pg.world_chapter_template_reset = {
 		id = 114050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2097,7 +2097,7 @@ pg.world_chapter_template_reset = {
 		id = 114060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2137,7 +2137,7 @@ pg.world_chapter_template_reset = {
 		id = 114070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2177,7 +2177,7 @@ pg.world_chapter_template_reset = {
 		id = 114080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2217,7 +2217,7 @@ pg.world_chapter_template_reset = {
 		id = 114090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2257,7 +2257,7 @@ pg.world_chapter_template_reset = {
 		id = 115000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2297,7 +2297,7 @@ pg.world_chapter_template_reset = {
 		id = 115010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2337,7 +2337,7 @@ pg.world_chapter_template_reset = {
 		id = 115020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2377,7 +2377,7 @@ pg.world_chapter_template_reset = {
 		id = 115030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2417,7 +2417,7 @@ pg.world_chapter_template_reset = {
 		id = 115040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2457,7 +2457,7 @@ pg.world_chapter_template_reset = {
 		id = 115050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2497,7 +2497,7 @@ pg.world_chapter_template_reset = {
 		id = 115060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2537,7 +2537,7 @@ pg.world_chapter_template_reset = {
 		id = 115070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2577,7 +2577,7 @@ pg.world_chapter_template_reset = {
 		id = 115080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2617,7 +2617,7 @@ pg.world_chapter_template_reset = {
 		id = 115090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			21,
@@ -2657,7 +2657,7 @@ pg.world_chapter_template_reset = {
 		id = 120000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2697,7 +2697,7 @@ pg.world_chapter_template_reset = {
 		id = 120010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2737,7 +2737,7 @@ pg.world_chapter_template_reset = {
 		id = 120020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2777,7 +2777,7 @@ pg.world_chapter_template_reset = {
 		id = 120030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2817,7 +2817,7 @@ pg.world_chapter_template_reset = {
 		id = 120040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2857,7 +2857,7 @@ pg.world_chapter_template_reset = {
 		id = 120050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2897,7 +2897,7 @@ pg.world_chapter_template_reset = {
 		id = 120060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2937,7 +2937,7 @@ pg.world_chapter_template_reset = {
 		id = 120070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -2977,7 +2977,7 @@ pg.world_chapter_template_reset = {
 		id = 120080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3017,7 +3017,7 @@ pg.world_chapter_template_reset = {
 		id = 120090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3057,7 +3057,7 @@ pg.world_chapter_template_reset = {
 		id = 121000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3097,7 +3097,7 @@ pg.world_chapter_template_reset = {
 		id = 121010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3137,7 +3137,7 @@ pg.world_chapter_template_reset = {
 		id = 121020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3177,7 +3177,7 @@ pg.world_chapter_template_reset = {
 		id = 121030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3217,7 +3217,7 @@ pg.world_chapter_template_reset = {
 		id = 121040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3257,7 +3257,7 @@ pg.world_chapter_template_reset = {
 		id = 121050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3297,7 +3297,7 @@ pg.world_chapter_template_reset = {
 		id = 121060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3337,7 +3337,7 @@ pg.world_chapter_template_reset = {
 		id = 121070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3377,7 +3377,7 @@ pg.world_chapter_template_reset = {
 		id = 121080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3417,7 +3417,7 @@ pg.world_chapter_template_reset = {
 		id = 121090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3457,7 +3457,7 @@ pg.world_chapter_template_reset = {
 		id = 122000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3497,7 +3497,7 @@ pg.world_chapter_template_reset = {
 		id = 122010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3537,7 +3537,7 @@ pg.world_chapter_template_reset = {
 		id = 122020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3577,7 +3577,7 @@ pg.world_chapter_template_reset = {
 		id = 122030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3617,7 +3617,7 @@ pg.world_chapter_template_reset = {
 		id = 122040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3657,7 +3657,7 @@ pg.world_chapter_template_reset = {
 		id = 122050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3697,7 +3697,7 @@ pg.world_chapter_template_reset = {
 		id = 122060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3737,7 +3737,7 @@ pg.world_chapter_template_reset = {
 		id = 122070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3777,7 +3777,7 @@ pg.world_chapter_template_reset = {
 		id = 122080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3817,7 +3817,7 @@ pg.world_chapter_template_reset = {
 		id = 122090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3857,7 +3857,7 @@ pg.world_chapter_template_reset = {
 		id = 123000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3897,7 +3897,7 @@ pg.world_chapter_template_reset = {
 		id = 123010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3937,7 +3937,7 @@ pg.world_chapter_template_reset = {
 		id = 123020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -3977,7 +3977,7 @@ pg.world_chapter_template_reset = {
 		id = 123030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4017,7 +4017,7 @@ pg.world_chapter_template_reset = {
 		id = 123040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4057,7 +4057,7 @@ pg.world_chapter_template_reset = {
 		id = 123050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4097,7 +4097,7 @@ pg.world_chapter_template_reset = {
 		id = 123060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4137,7 +4137,7 @@ pg.world_chapter_template_reset = {
 		id = 123070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4177,7 +4177,7 @@ pg.world_chapter_template_reset = {
 		id = 123080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4217,7 +4217,7 @@ pg.world_chapter_template_reset = {
 		id = 123090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4257,7 +4257,7 @@ pg.world_chapter_template_reset = {
 		id = 124000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4297,7 +4297,7 @@ pg.world_chapter_template_reset = {
 		id = 124010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4337,7 +4337,7 @@ pg.world_chapter_template_reset = {
 		id = 124020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4377,7 +4377,7 @@ pg.world_chapter_template_reset = {
 		id = 124030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4417,7 +4417,7 @@ pg.world_chapter_template_reset = {
 		id = 124040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4457,7 +4457,7 @@ pg.world_chapter_template_reset = {
 		id = 124050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4497,7 +4497,7 @@ pg.world_chapter_template_reset = {
 		id = 124060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4537,7 +4537,7 @@ pg.world_chapter_template_reset = {
 		id = 124070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4577,7 +4577,7 @@ pg.world_chapter_template_reset = {
 		id = 124080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4617,7 +4617,7 @@ pg.world_chapter_template_reset = {
 		id = 124090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4657,7 +4657,7 @@ pg.world_chapter_template_reset = {
 		id = 125000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4697,7 +4697,7 @@ pg.world_chapter_template_reset = {
 		id = 125010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4737,7 +4737,7 @@ pg.world_chapter_template_reset = {
 		id = 125020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4777,7 +4777,7 @@ pg.world_chapter_template_reset = {
 		id = 125030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4817,7 +4817,7 @@ pg.world_chapter_template_reset = {
 		id = 125040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4857,7 +4857,7 @@ pg.world_chapter_template_reset = {
 		id = 125050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4897,7 +4897,7 @@ pg.world_chapter_template_reset = {
 		id = 125060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4937,7 +4937,7 @@ pg.world_chapter_template_reset = {
 		id = 125070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -4977,7 +4977,7 @@ pg.world_chapter_template_reset = {
 		id = 125080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -5017,7 +5017,7 @@ pg.world_chapter_template_reset = {
 		id = 125090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			22,
@@ -5057,7 +5057,7 @@ pg.world_chapter_template_reset = {
 		id = 130000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5097,7 +5097,7 @@ pg.world_chapter_template_reset = {
 		id = 130010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5137,7 +5137,7 @@ pg.world_chapter_template_reset = {
 		id = 130020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5177,7 +5177,7 @@ pg.world_chapter_template_reset = {
 		id = 130030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5217,7 +5217,7 @@ pg.world_chapter_template_reset = {
 		id = 130040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5257,7 +5257,7 @@ pg.world_chapter_template_reset = {
 		id = 130050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5297,7 +5297,7 @@ pg.world_chapter_template_reset = {
 		id = 130060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5337,7 +5337,7 @@ pg.world_chapter_template_reset = {
 		id = 130070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5377,7 +5377,7 @@ pg.world_chapter_template_reset = {
 		id = 130080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5417,7 +5417,7 @@ pg.world_chapter_template_reset = {
 		id = 130090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5457,7 +5457,7 @@ pg.world_chapter_template_reset = {
 		id = 131000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5497,7 +5497,7 @@ pg.world_chapter_template_reset = {
 		id = 131010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5537,7 +5537,7 @@ pg.world_chapter_template_reset = {
 		id = 131020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5577,7 +5577,7 @@ pg.world_chapter_template_reset = {
 		id = 131030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5617,7 +5617,7 @@ pg.world_chapter_template_reset = {
 		id = 131040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5657,7 +5657,7 @@ pg.world_chapter_template_reset = {
 		id = 131050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5697,7 +5697,7 @@ pg.world_chapter_template_reset = {
 		id = 131060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5737,7 +5737,7 @@ pg.world_chapter_template_reset = {
 		id = 131070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5777,7 +5777,7 @@ pg.world_chapter_template_reset = {
 		id = 131080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5817,7 +5817,7 @@ pg.world_chapter_template_reset = {
 		id = 131090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5857,7 +5857,7 @@ pg.world_chapter_template_reset = {
 		id = 132000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5897,7 +5897,7 @@ pg.world_chapter_template_reset = {
 		id = 132010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5937,7 +5937,7 @@ pg.world_chapter_template_reset = {
 		id = 132020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -5977,7 +5977,7 @@ pg.world_chapter_template_reset = {
 		id = 132030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6017,7 +6017,7 @@ pg.world_chapter_template_reset = {
 		id = 132040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6057,7 +6057,7 @@ pg.world_chapter_template_reset = {
 		id = 132050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6097,7 +6097,7 @@ pg.world_chapter_template_reset = {
 		id = 132060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6137,7 +6137,7 @@ pg.world_chapter_template_reset = {
 		id = 132070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6177,7 +6177,7 @@ pg.world_chapter_template_reset = {
 		id = 132080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6217,7 +6217,7 @@ pg.world_chapter_template_reset = {
 		id = 132090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6257,7 +6257,7 @@ pg.world_chapter_template_reset = {
 		id = 133000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6297,7 +6297,7 @@ pg.world_chapter_template_reset = {
 		id = 133010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6337,7 +6337,7 @@ pg.world_chapter_template_reset = {
 		id = 133020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6377,7 +6377,7 @@ pg.world_chapter_template_reset = {
 		id = 133030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6417,7 +6417,7 @@ pg.world_chapter_template_reset = {
 		id = 133040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6457,7 +6457,7 @@ pg.world_chapter_template_reset = {
 		id = 133050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6497,7 +6497,7 @@ pg.world_chapter_template_reset = {
 		id = 133060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6537,7 +6537,7 @@ pg.world_chapter_template_reset = {
 		id = 133070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6577,7 +6577,7 @@ pg.world_chapter_template_reset = {
 		id = 133080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6617,7 +6617,7 @@ pg.world_chapter_template_reset = {
 		id = 133090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6657,7 +6657,7 @@ pg.world_chapter_template_reset = {
 		id = 134000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6697,7 +6697,7 @@ pg.world_chapter_template_reset = {
 		id = 134010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6737,7 +6737,7 @@ pg.world_chapter_template_reset = {
 		id = 134020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6777,7 +6777,7 @@ pg.world_chapter_template_reset = {
 		id = 134030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6817,7 +6817,7 @@ pg.world_chapter_template_reset = {
 		id = 134040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6857,7 +6857,7 @@ pg.world_chapter_template_reset = {
 		id = 134050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6897,7 +6897,7 @@ pg.world_chapter_template_reset = {
 		id = 134060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6937,7 +6937,7 @@ pg.world_chapter_template_reset = {
 		id = 134070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -6977,7 +6977,7 @@ pg.world_chapter_template_reset = {
 		id = 134080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7017,7 +7017,7 @@ pg.world_chapter_template_reset = {
 		id = 134090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7057,7 +7057,7 @@ pg.world_chapter_template_reset = {
 		id = 135000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7097,7 +7097,7 @@ pg.world_chapter_template_reset = {
 		id = 135010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7137,7 +7137,7 @@ pg.world_chapter_template_reset = {
 		id = 135020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7177,7 +7177,7 @@ pg.world_chapter_template_reset = {
 		id = 135030,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7217,7 +7217,7 @@ pg.world_chapter_template_reset = {
 		id = 135040,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7257,7 +7257,7 @@ pg.world_chapter_template_reset = {
 		id = 135050,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7297,7 +7297,7 @@ pg.world_chapter_template_reset = {
 		id = 135060,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7337,7 +7337,7 @@ pg.world_chapter_template_reset = {
 		id = 135070,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7377,7 +7377,7 @@ pg.world_chapter_template_reset = {
 		id = 135080,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7417,7 +7417,7 @@ pg.world_chapter_template_reset = {
 		id = 135090,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {
 			23,
@@ -7457,7 +7457,7 @@ pg.world_chapter_template_reset = {
 		id = 140000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7467,7 +7467,7 @@ pg.world_chapter_template_reset = {
 		id = 140004,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7477,7 +7477,7 @@ pg.world_chapter_template_reset = {
 		id = 140005,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7487,7 +7487,7 @@ pg.world_chapter_template_reset = {
 		id = 140006,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从深渊海域离开？\n（警告：离开后将无法再次返回挑战强敌！）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7497,7 +7497,7 @@ pg.world_chapter_template_reset = {
 		id = 200000,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20020
 		},
@@ -7511,7 +7511,7 @@ pg.world_chapter_template_reset = {
 		id = 200010,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20020
 		},
@@ -7525,7 +7525,7 @@ pg.world_chapter_template_reset = {
 		id = 200020,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20020
 		},
@@ -7539,7 +7539,7 @@ pg.world_chapter_template_reset = {
 		id = 200030,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20020
 		},
@@ -7553,7 +7553,7 @@ pg.world_chapter_template_reset = {
 		id = 200040,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20020
 		},
@@ -7567,7 +7567,7 @@ pg.world_chapter_template_reset = {
 		id = 200100,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20021
 		},
@@ -7581,7 +7581,7 @@ pg.world_chapter_template_reset = {
 		id = 200110,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20021
 		},
@@ -7595,7 +7595,7 @@ pg.world_chapter_template_reset = {
 		id = 200120,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20021
 		},
@@ -7609,7 +7609,7 @@ pg.world_chapter_template_reset = {
 		id = 200130,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20021
 		},
@@ -7623,7 +7623,7 @@ pg.world_chapter_template_reset = {
 		id = 200140,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20021
 		},
@@ -7637,7 +7637,7 @@ pg.world_chapter_template_reset = {
 		id = 200200,
 		transport = 1,
 		transport_colormask = 1,
-		tip = "是否确定从该处档案海域离开？\n（离开后再次回到该海域，作战进度将会重置，需要重新击破所有敌舰。） ",
+		tip = "All enemy fleets within the zone will respawn if you retreat. \nAre you sure you want to leave? ",
 		reset_map = {
 			20022
 		},
@@ -7651,7 +7651,7 @@ pg.world_chapter_template_reset = {
 		id = 890140,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7661,7 +7661,7 @@ pg.world_chapter_template_reset = {
 		id = 890150,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7671,7 +7671,7 @@ pg.world_chapter_template_reset = {
 		id = 890160,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7681,7 +7681,7 @@ pg.world_chapter_template_reset = {
 		id = 890170,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从该处隐秘海域离开？\n（离开后将无法再次返回）",
+		tip = "Are you sure you want to leave this Siren zone?\n(You cannot re-enter the area after leaving).",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7691,7 +7691,7 @@ pg.world_chapter_template_reset = {
 		id = 430000,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从普通难度：仲裁者·天帕岚斯·XIV中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		tip = "End the battle against Arbiter: Temperance XIV on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7701,7 +7701,7 @@ pg.world_chapter_template_reset = {
 		id = 430010,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从普通难度：仲裁者·司特莲库斯·VIII中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		tip = "End the battle against Arbiter: Strength VIII on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7711,7 +7711,7 @@ pg.world_chapter_template_reset = {
 		id = 430020,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从普通难度：仲裁者·赫米忒·IX中离开？\n（离开后当前作战进度将会保留，本月内再次进入可继续挑战）",
+		tip = "End the battle against Arbiter: The Hermit IX on Normal? \nYour progress will be saved and you may resume the battle at any point this month.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7721,7 +7721,7 @@ pg.world_chapter_template_reset = {
 		id = 430100,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从困难难度：仲裁者·天帕岚斯·XIV中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		tip = "End the battle against Arbiter: Temperance XIV on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7731,7 +7731,7 @@ pg.world_chapter_template_reset = {
 		id = 430110,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从困难难度：仲裁者·司特莲库斯·VIII中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		tip = "End the battle against Arbiter: Strength VIII on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7741,7 +7741,7 @@ pg.world_chapter_template_reset = {
 		id = 430120,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从困难难度：仲裁者·赫米忒·IX中离开？\n（离开后当前作战进度将会重置，已获得的奖励无法重复领取）",
+		tip = "End the battle against Arbiter: The Hermit IX on Hard? \nEnding the battle will reset your progress. You will not be able to re-earn any rewards you've already claimed.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},
@@ -7751,7 +7751,7 @@ pg.world_chapter_template_reset = {
 		id = 430200,
 		transport = 0,
 		transport_colormask = 0,
-		tip = "是否确定从困难模拟战：仲裁机关中离开？\n（离开后当前作战进度将会重置）",
+		tip = "End the practice battle? \nEnding the battle will reset your progress.",
 		reset_map = {},
 		reset_trigger = {},
 		reset_item = {},

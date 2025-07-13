@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 19903,
 			nameColor = "#FFFFFF",
-			say = "呜哇……是惊讶……惊喜！是老师……给安克雷奇的！",
+			say = "Wow... A surprise! From Teacher... for Anchorage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

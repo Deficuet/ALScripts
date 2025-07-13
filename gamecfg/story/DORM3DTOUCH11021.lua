@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey~你怎么突然……不过我很开心哦~",
+			say = "What's gotten into you, honey? Oh... No, I love this, too♡",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone1",
 			typewriter = {
 				speed = 0.05,

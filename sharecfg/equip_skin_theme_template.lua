@@ -2,7 +2,7 @@ pg = pg or {}
 pg.equip_skin_theme_template = {
 	{
 		id = 1,
-		name = "海豹系列",
+		name = "Seal Series",
 		ids = {
 			1,
 			2,
@@ -12,7 +12,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 2,
-		name = "咸鱼系列",
+		name = "Salted Fish Series",
 		ids = {
 			3,
 			4,
@@ -22,7 +22,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 3,
-		name = "新年快乐",
+		name = "Happy New Years",
 		ids = {
 			5,
 			6,
@@ -33,7 +33,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 4,
-		name = "圣诞快乐",
+		name = "Merry Christmas",
 		ids = {
 			7,
 			8,
@@ -47,7 +47,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 5,
-		name = "游戏业界",
+		name = "Gamindustri",
 		ids = {
 			1001,
 			1002,
@@ -68,7 +68,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 6,
-		name = "小海豹",
+		name = "Spirit Seals",
 		ids = {
 			22,
 			23,
@@ -79,7 +79,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 7,
-		name = "恭贺新春",
+		name = "Welcoming the Spring",
 		ids = {
 			27,
 			28,
@@ -97,7 +97,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 8,
-		name = "开学季",
+		name = "Back to School",
 		ids = {
 			50,
 			51,
@@ -120,7 +120,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 9,
-		name = "炎炎夏日",
+		name = "Scorching Summer",
 		ids = {
 			101,
 			102,
@@ -144,7 +144,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 10,
-		name = "猪突猛进",
+		name = "Attack on Boars",
 		ids = {
 			120,
 			121,
@@ -168,7 +168,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 11,
-		name = "皇家格调",
+		name = "A Royal Touch",
 		ids = {
 			140,
 			141,
@@ -190,33 +190,9 @@ pg.equip_skin_theme_template = {
 			157
 		}
 	},
-	{
-		id = 12,
-		name = "传颂之物",
-		ids = {
-			1051,
-			1052,
-			1053,
-			1054,
-			1055,
-			1056,
-			1057,
-			1058,
-			1059,
-			1060,
-			1061,
-			1062,
-			1063,
-			1064,
-			1065,
-			1066,
-			1067,
-			1068
-		}
-	},
-	{
+	[13] = {
 		id = 13,
-		name = "绊爱系列",
+		name = "Kizuna AI Collab Series",
 		ids = {
 			1101,
 			1102,
@@ -239,9 +215,9 @@ pg.equip_skin_theme_template = {
 			1119
 		}
 	},
-	{
+	[14] = {
 		id = 14,
-		name = "撒丁风情",
+		name = "Slice of Sardegna",
 		ids = {
 			160,
 			161,
@@ -263,33 +239,9 @@ pg.equip_skin_theme_template = {
 			177
 		}
 	},
-	{
-		id = 15,
-		name = "激奏Live",
-		ids = {
-			180,
-			181,
-			182,
-			183,
-			184,
-			185,
-			186,
-			187,
-			188,
-			189,
-			190,
-			191,
-			192,
-			193,
-			194,
-			195,
-			196,
-			197
-		}
-	},
-	{
+	[16] = {
 		id = 16,
-		name = "hololive",
+		name = "Hololive Collab Series",
 		ids = {
 			200,
 			201,
@@ -311,9 +263,9 @@ pg.equip_skin_theme_template = {
 			217
 		}
 	},
-	{
+	[17] = {
 		id = 17,
-		name = "北联风云",
+		name = "Northern Parliament Style",
 		ids = {
 			220,
 			221,
@@ -335,9 +287,9 @@ pg.equip_skin_theme_template = {
 			237
 		}
 	},
-	{
+	[18] = {
 		id = 18,
-		name = "白鹰风格",
+		name = "Eagle Union Staples",
 		ids = {
 			240,
 			241,
@@ -359,9 +311,9 @@ pg.equip_skin_theme_template = {
 			257
 		}
 	},
-	{
+	[19] = {
 		id = 19,
-		name = "鸢尾印象",
+		name = "Iris Libre Specialties",
 		ids = {
 			260,
 			261,
@@ -383,9 +335,9 @@ pg.equip_skin_theme_template = {
 			277
 		}
 	},
-	{
+	[20] = {
 		id = 20,
-		name = "啾啾野战医院",
+		name = "Medical Supplies",
 		ids = {
 			280,
 			281,
@@ -407,9 +359,9 @@ pg.equip_skin_theme_template = {
 			297
 		}
 	},
-	{
+	[21] = {
 		id = 21,
-		name = "重樱匠心",
+		name = "Sakura Empire Classics",
 		ids = {
 			300,
 			301,
@@ -431,9 +383,9 @@ pg.equip_skin_theme_template = {
 			317
 		}
 	},
-	{
+	[22] = {
 		id = 22,
-		name = "激唱Universe",
+		name = "Universe in Unison",
 		ids = {
 			320,
 			321,
@@ -455,9 +407,9 @@ pg.equip_skin_theme_template = {
 			337
 		}
 	},
-	{
+	[23] = {
 		id = 23,
-		name = "女神假期",
+		name = "Venus Vacation",
 		ids = {
 			340,
 			341,
@@ -479,9 +431,9 @@ pg.equip_skin_theme_template = {
 			357
 		}
 	},
-	{
+	[24] = {
 		id = 24,
-		name = "铁血风情",
+		name = "Iron Blood Essentials",
 		ids = {
 			360,
 			361,
@@ -503,9 +455,9 @@ pg.equip_skin_theme_template = {
 			377
 		}
 	},
-	{
+	[25] = {
 		id = 25,
-		name = "敬贺新禧",
+		name = "Lunar New Year",
 		ids = {
 			380,
 			381,
@@ -527,9 +479,9 @@ pg.equip_skin_theme_template = {
 			397
 		}
 	},
-	{
+	[26] = {
 		id = 26,
-		name = "啾啾乐园 ",
+		name = "Manjuuland ",
 		ids = {
 			400,
 			401,
@@ -551,9 +503,9 @@ pg.equip_skin_theme_template = {
 			417
 		}
 	},
-	{
+	[27] = {
 		id = 27,
-		name = "偶像大师",
+		name = "The Idolmaster",
 		ids = {
 			420,
 			421,
@@ -575,9 +527,9 @@ pg.equip_skin_theme_template = {
 			437
 		}
 	},
-	{
+	[28] = {
 		id = 28,
-		name = "啾啾牛仔",
+		name = "Wild West",
 		ids = {
 			440,
 			441,
@@ -599,9 +551,9 @@ pg.equip_skin_theme_template = {
 			457
 		}
 	},
-	{
+	[29] = {
 		id = 29,
-		name = "水上乐园",
+		name = "Floating Funland",
 		ids = {
 			460,
 			461,
@@ -623,9 +575,9 @@ pg.equip_skin_theme_template = {
 			477
 		}
 	},
-	{
+	[30] = {
 		id = 30,
-		name = "SSSS",
+		name = "SSSS ",
 		ids = {
 			480,
 			481,
@@ -654,9 +606,9 @@ pg.equip_skin_theme_template = {
 			806
 		}
 	},
-	{
+	[31] = {
 		id = 31,
-		name = "女仆咖啡",
+		name = "Port Café",
 		ids = {
 			500,
 			501,
@@ -678,9 +630,9 @@ pg.equip_skin_theme_template = {
 			517
 		}
 	},
-	{
+	[32] = {
 		id = 32,
-		name = "东煌意境",
+		name = "Dragon Empery Icons",
 		ids = {
 			520,
 			521,
@@ -702,9 +654,9 @@ pg.equip_skin_theme_template = {
 			537
 		}
 	},
-	{
+	[33] = {
 		id = 33,
-		name = "红月之夜",
+		name = "Blood Moon",
 		ids = {
 			540,
 			541,
@@ -726,9 +678,9 @@ pg.equip_skin_theme_template = {
 			557
 		}
 	},
-	{
+	[34] = {
 		id = 34,
-		name = "东煌时尚",
+		name = "Empery Chic",
 		ids = {
 			560,
 			561,
@@ -750,9 +702,9 @@ pg.equip_skin_theme_template = {
 			577
 		}
 	},
-	{
+	[35] = {
 		id = 35,
-		name = "童话世界",
+		name = "Fairy Tale",
 		ids = {
 			580,
 			581,
@@ -774,9 +726,9 @@ pg.equip_skin_theme_template = {
 			597
 		}
 	},
-	{
+	[36] = {
 		id = 36,
-		name = "舞蹈空间",
+		name = "Stage Dance",
 		ids = {
 			600,
 			601,
@@ -798,9 +750,9 @@ pg.equip_skin_theme_template = {
 			617
 		}
 	},
-	{
+	[37] = {
 		id = 37,
-		name = "铁血之志",
+		name = "Iron Blood Icons",
 		ids = {
 			620,
 			621,
@@ -822,9 +774,9 @@ pg.equip_skin_theme_template = {
 			637
 		}
 	},
-	{
+	[38] = {
 		id = 38,
-		name = "啾啾学园庆典",
+		name = "Academy Festival",
 		ids = {
 			638,
 			639,
@@ -846,9 +798,9 @@ pg.equip_skin_theme_template = {
 			655
 		}
 	},
-	{
+	[39] = {
 		id = 39,
-		name = "异世界冒险",
+		name = "RPG Adventure",
 		ids = {
 			656,
 			657,
@@ -877,9 +829,9 @@ pg.equip_skin_theme_template = {
 			947
 		}
 	},
-	{
+	[40] = {
 		id = 40,
-		name = "幽灵狂欢",
+		name = "Spectral Festival",
 		ids = {
 			670,
 			671,
@@ -901,9 +853,9 @@ pg.equip_skin_theme_template = {
 			687
 		}
 	},
-	{
+	[41] = {
 		id = 41,
-		name = "炼金工房",
+		name = "Alchemist's Workshop",
 		ids = {
 			1200,
 			1201,
@@ -926,9 +878,9 @@ pg.equip_skin_theme_template = {
 			1218
 		}
 	},
-	{
+	[42] = {
 		id = 42,
-		name = "南方假日",
+		name = "Beach Holiday",
 		ids = {
 			690,
 			691,
@@ -950,9 +902,9 @@ pg.equip_skin_theme_template = {
 			707
 		}
 	},
-	{
+	[43] = {
 		id = 43,
-		name = "东煌美食",
+		name = "Empery Gourmet",
 		ids = {
 			710,
 			711,
@@ -974,16 +926,16 @@ pg.equip_skin_theme_template = {
 			727
 		}
 	},
-	{
+	[44] = {
 		id = 44,
-		name = "甜蜜之礼",
+		name = "Sweet Presents",
 		ids = {
 			1300
 		}
 	},
-	{
+	[45] = {
 		id = 45,
-		name = "皇家教室",
+		name = "Royal Academy",
 		ids = {
 			730,
 			731,
@@ -1005,9 +957,9 @@ pg.equip_skin_theme_template = {
 			747
 		}
 	},
-	{
+	[46] = {
 		id = 46,
-		name = "海岛冒险",
+		name = "Deserted Island",
 		ids = {
 			750,
 			751,
@@ -1029,9 +981,9 @@ pg.equip_skin_theme_template = {
 			767
 		}
 	},
-	{
+	[47] = {
 		id = 47,
-		name = "精灵之森",
+		name = "Faerie Forest",
 		ids = {
 			771,
 			772,
@@ -1040,9 +992,9 @@ pg.equip_skin_theme_template = {
 			775
 		}
 	},
-	{
+	[48] = {
 		id = 48,
-		name = "办公时光",
+		name = "On the Job",
 		ids = {
 			780,
 			781,
@@ -1064,9 +1016,9 @@ pg.equip_skin_theme_template = {
 			797
 		}
 	},
-	{
+	[49] = {
 		id = 49,
-		name = "夏日梦幻",
+		name = "Midsummer Night Dreamin'",
 		ids = {
 			810,
 			811,
@@ -1088,9 +1040,9 @@ pg.equip_skin_theme_template = {
 			827
 		}
 	},
-	{
+	[50] = {
 		id = 50,
-		name = "常世夜游",
+		name = "Spirits Eve",
 		ids = {
 			830,
 			831,
@@ -1112,9 +1064,9 @@ pg.equip_skin_theme_template = {
 			847
 		}
 	},
-	{
+	[51] = {
 		id = 51,
-		name = "航海集结",
+		name = "Pirate Gathering",
 		ids = {
 			850,
 			851,
@@ -1136,9 +1088,9 @@ pg.equip_skin_theme_template = {
 			867
 		}
 	},
-	{
+	[52] = {
 		id = 52,
-		name = "闪乱神乐",
+		name = "Senran Kagura",
 		ids = {
 			1400,
 			1401,
@@ -1160,9 +1112,9 @@ pg.equip_skin_theme_template = {
 			1417
 		}
 	},
-	{
+	[53] = {
 		id = 53,
-		name = "港区喧嚣夜",
+		name = "Night Club",
 		ids = {
 			870,
 			871,
@@ -1184,9 +1136,9 @@ pg.equip_skin_theme_template = {
 			887
 		}
 	},
-	{
+	[54] = {
 		id = 54,
-		name = "轩辕秘宝",
+		name = "Mythical Trove",
 		ids = {
 			890,
 			891,
@@ -1209,9 +1161,9 @@ pg.equip_skin_theme_template = {
 			908
 		}
 	},
-	{
+	[55] = {
 		id = 55,
-		name = "罪恶都市",
+		name = "Thieville",
 		ids = {
 			910,
 			911,
@@ -1233,9 +1185,9 @@ pg.equip_skin_theme_template = {
 			927
 		}
 	},
-	{
+	[56] = {
 		id = 56,
-		name = "共鸣Passion",
+		name = "Heart-Linking Harmony",
 		ids = {
 			950,
 			951,
@@ -1257,9 +1209,9 @@ pg.equip_skin_theme_template = {
 			967
 		}
 	},
-	{
+	[57] = {
 		id = 57,
-		name = "邮轮假日",
+		name = "Pleasure Cruise",
 		ids = {
 			970,
 			971,
@@ -1281,9 +1233,9 @@ pg.equip_skin_theme_template = {
 			987
 		}
 	},
-	{
+	[58] = {
 		id = 58,
-		name = "童心学院",
+		name = "Little Academy",
 		ids = {
 			4001,
 			4002,
@@ -1306,9 +1258,9 @@ pg.equip_skin_theme_template = {
 			4019
 		}
 	},
-	{
+	[59] = {
 		id = 59,
-		name = "西部往事",
+		name = "Wild West",
 		ids = {
 			4021,
 			4022,
@@ -1330,9 +1282,9 @@ pg.equip_skin_theme_template = {
 			4038
 		}
 	},
-	{
+	[60] = {
 		id = 60,
-		name = "梦幻乐园",
+		name = "Dream Park",
 		ids = {
 			4041,
 			4042,
@@ -1354,9 +1306,9 @@ pg.equip_skin_theme_template = {
 			4058
 		}
 	},
-	{
+	[61] = {
 		id = 61,
-		name = "恐怖狂潮",
+		name = "Halloween Horrors",
 		ids = {
 			4059,
 			4060,
@@ -1378,9 +1330,9 @@ pg.equip_skin_theme_template = {
 			4076
 		}
 	},
-	{
+	[62] = {
 		id = 62,
-		name = "To LOVE-Ru ",
+		name = "To LOVE-Ru",
 		ids = {
 			1450,
 			1451,
@@ -1402,9 +1354,9 @@ pg.equip_skin_theme_template = {
 			1467
 		}
 	},
-	{
+	[63] = {
 		id = 63,
-		name = "荒野力量",
+		name = "Wilderness Force",
 		ids = {
 			4077,
 			4078,
@@ -1426,9 +1378,9 @@ pg.equip_skin_theme_template = {
 			4094
 		}
 	},
-	{
+	[64] = {
 		id = 64,
-		name = "瑞光迎岁 ",
+		name = "Spring Auspices",
 		ids = {
 			4095,
 			4096,
@@ -1450,9 +1402,9 @@ pg.equip_skin_theme_template = {
 			4112
 		}
 	},
-	{
+	[65] = {
 		id = 65,
-		name = "黄金法老的秘器 ",
+		name = "Pharaoh's Golden Treasures",
 		ids = {
 			4113,
 			4114,
@@ -1474,9 +1426,9 @@ pg.equip_skin_theme_template = {
 			4130
 		}
 	},
-	{
+	[66] = {
 		id = 66,
-		name = "病院冒险",
+		name = "Medical Adventures",
 		ids = {
 			4131,
 			4132,
@@ -1498,9 +1450,9 @@ pg.equip_skin_theme_template = {
 			4148
 		}
 	},
-	{
+	[67] = {
 		id = 67,
-		name = "郁金乡间",
+		name = "Tulipan Poems",
 		ids = {
 			4149,
 			4150,
@@ -1522,9 +1474,9 @@ pg.equip_skin_theme_template = {
 			4166
 		}
 	},
-	{
+	[68] = {
 		id = 68,
-		name = "假日海滨 ",
+		name = "Seaside",
 		ids = {
 			4167,
 			4168,
@@ -1546,7 +1498,7 @@ pg.equip_skin_theme_template = {
 			4184
 		}
 	},
-	{
+	[69] = {
 		id = 69,
 		name = "BLACK★ROCK SHOOTER",
 		ids = {
@@ -1562,9 +1514,9 @@ pg.equip_skin_theme_template = {
 			1480
 		}
 	},
-	{
+	[70] = {
 		id = 70,
-		name = "铁道之旅",
+		name = "Journey by Rail",
 		ids = {
 			4186,
 			4187,
@@ -1588,7 +1540,7 @@ pg.equip_skin_theme_template = {
 	},
 	[101] = {
 		id = 101,
-		name = "星辰无垠",
+		name = "Power of the Stars",
 		ids = {
 			2001,
 			2002,
@@ -1607,7 +1559,7 @@ pg.equip_skin_theme_template = {
 	},
 	[102] = {
 		id = 102,
-		name = "魔术剧场",
+		name = "Magic Show",
 		ids = {
 			2014,
 			2015,
@@ -1628,7 +1580,7 @@ pg.equip_skin_theme_template = {
 	},
 	[103] = {
 		id = 103,
-		name = "风云万象",
+		name = "Call of the Elements",
 		ids = {
 			2029,
 			2030,
@@ -1648,7 +1600,7 @@ pg.equip_skin_theme_template = {
 	},
 	[104] = {
 		id = 104,
-		name = "复古电玩",
+		name = "Retro Style",
 		ids = {
 			2043,
 			2044,
@@ -1668,7 +1620,7 @@ pg.equip_skin_theme_template = {
 	},
 	[105] = {
 		id = 105,
-		name = "魔力纪元 ",
+		name = "Magic Era",
 		ids = {
 			2061,
 			2062,
@@ -1688,7 +1640,7 @@ pg.equip_skin_theme_template = {
 	},
 	[106] = {
 		id = 106,
-		name = "赛博纪元",
+		name = "Cyber Era",
 		ids = {
 			2075,
 			2076,
@@ -1708,7 +1660,7 @@ pg.equip_skin_theme_template = {
 	},
 	[107] = {
 		id = 107,
-		name = "光与暗",
+		name = "Flame and Fulminance",
 		ids = {
 			2089,
 			2090,
@@ -1726,7 +1678,7 @@ pg.equip_skin_theme_template = {
 	},
 	[199] = {
 		id = 199,
-		name = "其他",
+		name = "Misc",
 		ids = {
 			398,
 			3001,
@@ -1797,10 +1749,8 @@ pg.equip_skin_theme_template = {
 		9,
 		10,
 		11,
-		12,
 		13,
 		14,
-		15,
 		16,
 		17,
 		18,

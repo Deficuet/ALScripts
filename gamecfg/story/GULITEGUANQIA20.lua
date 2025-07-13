@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "城市区·东城区近海",
+			say = "Town - Waters near East Sector",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可靠的女仆队成员啊……",
+			say = "The Royal Maids... are supposed to be reliable, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……明明我也是女仆队的成员，怎么很少有人这么夸奖我。",
+			say = "Even though I'm a Royal Maid myself... I almost never get complimented like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "听说你有一个十分可靠的妹妹，是叫贝尔法斯特么？",
+			say = "I heard you have a little sister who's made quite the name for herself... Belfast, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，贝法是现在女仆队的女仆长，做什么都很厉害，赢得的夸奖也很多。",
+			say = "She's the Head Maid. There's nothing she can't do, and she's earned everyone's trust and praise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，我可是这么厉害的家伙的姐姐哦！夸我的人就很少……",
+			say = "Then... there's me. *Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "因为有一个厉害的妹妹，多少感觉被压制在光环下了，所以没什么发挥空间？",
+			say = "It must be really hard living in her shadow... I mean, I can imagine people always comparing the two of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对对对，就是这种感觉！我要是能做的话，也是能做的很厉害的哦！",
+			say = "Yeah, totally! I want others to see me for who I am as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "这次你妹妹不在，不正好是展现你自己的时候？",
+			say = "Well, your sister isn't here this time, so now's your chance, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也是这么想的，而且姑且在努力中……！",
+			say = "That's also what I thought at first, but... this whole thing has gone bottoms up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "那就好办了。刚刚你在谈旗舰的问题，我去了解过了，旗舰确实很重要吧。",
+			say = "If you ask me, I think you've already proven yourself. Earlier, when you made the call to retreat, that was a good showing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "因为净化亲的突然发言，选旗舰的事又被搁置了哦。所以现在应该……",
+			say = "Because Purity interjected earlier, we never decided who would be flagship. I think it's your time to shine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,8 +237,8 @@ return {
 			bgName = "bg_ssss_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "爱丁堡",
-			say = "你的意思是……可是我真的行么。",
+			actorName = "Edinburgh",
+			say = "Me...? I'm not sure I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,8 +254,8 @@ return {
 			bgName = "bg_ssss_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "南梦芽",
-			say = "你可是那么厉害的贝法的姐姐，肯定行的，刚刚的自信哪去了？",
+			actorName = "Yume Minami",
+			say = "I'm sure you'll be fine. After all, a remarkable little sister... must've looked up to a remarkable big sister! It all starts with believing in yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			bgName = "bg_ssss_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "爱丁堡",
-			say = "说的没错！我可是爱丁堡大人，在这种情况下当旗舰合情合理！",
+			actorName = "Edinburgh",
+			say = ".........You're right. Edinburgh's not gonna get done in by whatever that thing is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,8 +288,8 @@ return {
 			bgName = "bg_ssss_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "爱丁堡",
-			say = "谢谢你梦芽，我这就去找{namecode:439}她们商量！",
+			actorName = "Edinburgh",
+			say = "Thanks for the advice, Yume. I'll go talk to the others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 10800050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不客气……好好展现自己，等再次见到妹妹的时候，让她大吃一惊吧。",
+			say = "You're welcome. Do your best, and give your little sister another thing to be proud of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

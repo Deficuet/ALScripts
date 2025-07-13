@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>六　最珍贵的宝藏</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>The Greatest Treasure</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "离开宝物库，经过一段狭长的走廊后，我们进入了一个具有现代化装修的房间中。",
+			say = "The golden glimmer of the treasure vault turns into a mere speck behind us as we head down a long, narrow corridor, until we finally arrive at a modern-looking room.",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "房间的中央摆着一小块台子，周围用蓝色的绳子围了起来，标识着“宝藏展示区”。",
+			say = "At the center of the room is a small display stand cordoned off by blue rope, a nearby sign reading, \"Treasure Display Area\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "Speaker",
+			say = "Please place your greatest treasure in the designated area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "唔……看来是要把宝藏放到这个台子上才行呢……",
+			say = "Hmm... Looks like I'm supposed to put the treasure on this stand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "指挥官，你站到“宝藏展示区”那个台子上去吧。",
+			say = "Well then, Commander, mind standing in the treasure display area for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来维达选择的最珍贵的宝藏是……）",
+			say = "(I see, it all makes sense now. Her greatest treasure...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "结合眼下的情况，我很快明白了维达的意思，走过去站到了台子上。",
+			say = "Now that I understand what she was trying to say, I quickly walk over and take my place on the stand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "然而——什么都没有发生。",
+			say = "...But, nothing happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,8 +134,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "Speaker",
+			say = "Please place your greatest treasure in the designated area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "……我已经提交了最珍贵的宝物了。",
+			say = "But I've already shown you my treasure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "指挥官就是最珍贵的宝藏……",
+			say = "The Commander is worth more to me than any bauble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "请将最珍贵的宝藏提交至指定地点。",
+			actorName = "Speaker",
+			say = "Please place your greatest treasure in the designated area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绿头猫咪做的笨蛋系统……连指挥官是我最珍贵的宝藏都听不懂……",
+			say = "What a stupidly designed system, Akashi... The Commander is the greatest treasure to us all. How do you not understand this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "维达轻轻叹了口气，然后抬起红扑扑的脸，看了过来。",
+			say = "She lets out a soft sigh, then turns toward me with a slight blush on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "能来到港区，能在这样风平浪静的地方生活，都是因为指挥官……",
+			say = "It's all thanks to you that I was able to come to this port, living a life of peace and comfort, with no storms to worry about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "能与指挥官相遇，能够留在指挥官的身边，我真的很开心……",
+			say = "I'm so glad I was able to meet you, Commander. Thank you for letting me be at your side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "所以指挥官是我最珍贵的宝藏……",
+			say = "All of this is why... you're my greatest treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "笨蛋系统，这样子听懂了吗？",
+			say = "See? Do you get it now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,14 +272,14 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "如果不能提交“指挥官”的话，那么我要哭要闹……要差评要退票了哦……",
+			say = "If you don't accept the Commander as my answer, I'm gonna complain and raise a stink. I'll even demand a refund and review-bomb you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸维达的头",
+					content = "(Pat her on the head.)",
 					flag = 1
 				}
 			}
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能与维达相遇，我也很开心。",
+			say = "I'm glad I got to meet you, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "唔……会长不高的，指挥官！",
+			say = "Ugh... Commander, I won't grow taller if you keep doing that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "算了，抗议也很麻烦，想摸就摸吧……",
+			say = "*sigh*... Well, filing a complaint is too much of a hassle. Let's just get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,8 +330,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "……喵？！",
+			actorName = "Speaker",
+			say = "...Nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "咳……正在重新评定通关条件。",
+			actorName = "Speaker",
+			say = "Ahem... The clear conditions are being re-evaluated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,9 +360,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			actorName = "广播音响提示",
+			actorName = "Speaker",
 			nameColor = "#A9F548FF",
-			say = "恭喜喵~指挥官是最珍贵的宝藏，恭喜通关喵！",
+			say = "Congratulations, nya! The Commander is indeed the greatest treasure, nya! And that means, you've cleared the game, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "砰砰——砰——",
+			say = "*pop pop pop*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "伴随着广播中的通关宣言，彩带礼花随即从四处爆开。",
+			say = "As soon as the announcement that the game has been cleared is made, crackers start to go off all around us, shooting confetti into the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "呼呼呼……这样总算顺利通关了。",
+			say = "Heh-heh. Looks like victory is ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "伟大的维达号与指挥官的大胜利~",
+			say = "Another win for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

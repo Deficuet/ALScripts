@@ -15,7 +15,7 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "感谢大家来接我，容我稍作收整便和各位一起离开~",
+			say = "\"Thank you for coming. It would be my pleasure to contribute to this operation with a speech and tactical advice.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天是胡德离开的日子。女仆队、骑士团，熙攘的人群让死寂的环境也热闹了起来。",
+			say = "Morale was high among the Royal Navy during Operation Siren. They were eager to join arms with the Eagle Union and repel the Sirens from the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们应该以为这里只是普通的疗养所吧……或者，她们真的了解胡德的病情么……",
+			say = "This goes further back... The other blueprint ships and I were put in the reserve and ordered to guard the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，这些也与仍要留在这里的我无关了。",
+			say = "\"Another operation where I don't get the sortie order...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在地下的设施中，君主正通过监控设备看着逐渐远去的人群。",
+			say = "The handful of girls who weren't part of the operation proper were gathered in a briefing room on the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……该去训练了。",
+			say = "\"I recognise her... That's Vanguard, of Her Majesty's palace guard.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（护送终于结束了……杂志已经提前委托女仆队的孩子送到了房间……）",
+			say = "\"*sigh*... Stuck here again while the others brave the frontlines.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（只要再站一会岗，就可以回去休息了>~<!）",
+			say = "\"Standing guard during Her Majesty's meetings is an important duty, sure, but I was hoping for a little action.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个是……伊丽莎白女王的近卫骑士前卫？",
+			say = "I felt a strange sense of closeness to her after overhearing her little monologue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫在这里，也就说明那个伊丽莎白女王也过来了吧……明明就没有出现在刚才迎接胡德的人群里。",
+			say = "She scarcely sees any action as she's usually tasked with VIP protection... I, meanwhile, am a blueprint ship who is next to impossible to field.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是冷漠啊……就像对待我一样。",
+			say = "\"...It makes me wonder. What is 'glory' to her?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这倒是个机会，如果能击败前卫的话……",
+			say = "\"As a shipgirl and a Royal Knight, she must yearn to fight alongside her compatriots as well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打扰了，前卫小姐。",
+			say = "\"We've both been relegated to benchwarmer duty, it seems.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "你是……计划舰君主？请问有什么事么？",
+			say = "\"Hm? Yeah, apparently. I'm going to be restless for a good while.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "附近有一处不错的演习场，虽然有些唐突，不过你有意愿与我切磋一下么？",
+			say = "\"Likewise. Say, you know about the upcoming exercise? Why don't we have a friendly duel around then?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（切磋……大老远跑过来还要演习也太麻烦了……先随便应付一下以后再补上吧。）",
+			say = "\"I'm up for that. Let me just check if my schedule allows for it...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "抱歉，这个恐怕不行。如您所见，我现在正于此处执勤中，恕我无法擅离职守。",
+			say = "\"...Oh, it seems sadly not. I have important business on the day of the exercise.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果日后有机会的话，请务必与我交手！",
+			say = "\"But rest assured, we will have our duel the next time the circumstances permit it!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊……我明白了。那就不打扰了，告辞。",
+			say = "My chance to ask Vanguard how she felt about being excluded from Operation Siren slipped me by...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（社交辞令……果然现在的我连与其交手的资格都没有么……）",
+			say = "Looking back at it now, what even was that \"important business\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

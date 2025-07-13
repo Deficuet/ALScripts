@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"响彻碧海的偶像之歌-日常篇\n\n<size=45>四 关于休息和游戏</size>",
+					"Azur Anthem - Side Story\n\n<size=45>4 Fun and Games</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·重樱生活区",
+			say = "Port - Sakura Empire Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿！呀！哼！还没完~！",
+			say = "Hiyah! Yaargh! Gaah! Not yet—!!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太天真了。跳跃，左勾拳，发动技能。",
+			say = "Too naive. Jump. Left hook. Activate skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊~！不要老盯着我打啦！",
+			say = "Aaaahhhh!! Why are you attacking me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼哼~趁着所有人聚在一起……看我的必杀！究极燃烧拳！",
+			say = "Nihihi~! The three of you seem to be forgetting about someone! Finishing move...! Ultraaa... Burning... Punch!!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			bgName = "bg_story_room",
 			actor = 10700070,
 			dir = 1,
-			actorName = "双海真美·{namecode:6}·{namecode:2}",
+			actorName = "Futami Mami・Ayanami・Fubuki",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "啊——！",
+			say = "Ahhhhh——!!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "耶~胜利是亚美的~！",
+			say = "Hooray! It's Ami's win~!",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…输了…亚美、真美，都很擅长玩游戏…的说。",
+			say = "Ugh... I can't believe I lost... I must say, the two of you are quite good at this game, yes.",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -237,7 +237,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟在那边也经常玩游戏嘛~♪这边也有这么多好玩的游戏真是太棒了~还能像这样和大家一起玩~",
+			say = "We played a whole lot of games back home as well~♪ But, I'm glad that there are a lot of fun games here that we can all play together~!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能和亚美真美一起玩我们也很开心哦！…那，再来要玩什么游戏？",
+			say = "Yeah, we love having new friends to play together with too! So, which game do you want to try next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~…要不玩这个？",
+			say = "Hmm... How about this one?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新出的音游…不过，这个只能双人对战，不能四个人玩…的说。",
+			say = "This is a rhythm game that just came out recently... But, it's only for two players.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在放弃还为时过早！！…锵锵！",
+			say = "Don't give up just like that! ......Tadah~!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "四根一次性筷子…？这是要…？",
+			say = "Four disposable chopsticks? ...What are we doing with those?",
 			effects = {
 				{
 					active = false,
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来抽签吧，抽签！我们分成两队进行比赛，赢下两局比赛的团队取得胜利！这样就能大家一起玩啦！",
+			say = "Drawing lots, of course! Let's have a team battle! Best of three takes the whole thing!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有趣…的说。马上抽签吧。",
+			say = "That sounds interesting. Let's draw our lots quickly then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…大家都选好了吗？那就一口气抽出来…一、二~！",
+			say = "Everyone got theirs? Alrighty, let's see what we got! One... two...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -399,11 +399,11 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actorName = "双海亚美·{namecode:6}",
+			actorName = "Futami Ami",
 			hidePaintEquip = true,
 			actor = 10700060,
 			nameColor = "#a9f548",
-			say = "A队！",
+			say = "Team A!",
 			effects = {
 				{
 					active = true,
@@ -433,11 +433,11 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actorName = "双海真美·{namecode:2}",
+			actorName = "Futami Mami",
 			hidePaintEquip = true,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			say = "B队！",
+			say = "Team B!",
 			subActors = {
 				{
 					actor = 301010,
@@ -462,7 +462,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好！真美和{namecode:2}亲一队呢！请多指教~！",
+			say = "All right, Booky, we're partners! Let's kick some butt!",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是音游呢！对于乐感我有不输任何人的自信哦！这次一定要赢！",
+			say = "I'm pretty confident in my rhythm game skills. Victory will be ours for sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放马过来吧！我们可不会轻易地输给你们哦！对吧，{namecode:6}亲？",
+			say = "That's what I want to hear! Of course, we don't plan on losing either! Right, Nommy~?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然的说。不要小看{namecode:6}的游戏实力…A队的第一战，就从{namecode:6}开始…的说。",
+			say = "Of course. Don't underestimate my gamer skills... I'll take the first round.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我来我来！B队~真美出战~！…那就~~游戏开始！",
+			say = "You're on! Mami Futami from Team B will be your opponent! Let's get started!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -562,7 +562,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "右…左…啊，这里是右……失败了……",
+			say = "Right... Left... Crap, right again? Ugh... My combo...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "右~右~左~♪哼哼，这首歌有点意思~",
+			say = "Right... Right... Left~♪ Hehe, this is a pretty catchy song~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -596,7 +596,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…游戏结束？分数是…真美更高！",
+			say = "...And that's the end of the round. The winner is... Mami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "B队一胜~！{namecode:2}亲，耶！",
+			say = "That's one point to Team B! Get us over the finish line, Booky!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不甘心…的说…亚美，接下来就交给你了。",
+			say = "I apologize... It's in your hands, Ami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧！亚美一定会阻止B队继续胜利的！",
+			say = "Just leave it to me~! I wonder if I'll be able to snatch victory from the jaws of defeat~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -683,7 +683,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽管放马过来吧！…第二战…开始！",
+			say = "Let's see if you can stop me! All right then, let's start the second round!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上~下~♪好~特殊奖励时间！右连打！",
+			say = "Up~ Down~♪ Piece of cake! I've even got bonus time! Dadadada~♪",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -717,7 +717,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上、下、左……奇怪，搞错了吗？啊啊啊~要跟不上了！",
+			say = "Up, down, left... H-huh? Where'd that note come from? Argh, I can't keep up at all...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…游戏结束，亚美赢了…的说。",
+			say = "...The second round goes to Ami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来还挺有自信来着~……咦？这样一来…岂不是平局？",
+			say = "I thought I was ready for anything... So, uhh, does this mean it's a draw?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平局。…第一次就能玩得这么好，偶像的节奏感果然与众不同…的说。",
+			say = "Idols really do have a better sense of rhythm, considering they're trying this for the first time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是经验的差距哦……虽然只是险胜而已啦。{namecode:6}玩游戏真的好厉害！",
+			say = "That's a difference in experience! But I must say, Nommy, you're a really great gamer! Our scores were really close!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -819,7 +819,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊是啊♪{namecode:2}亲也玩得很投入呢，亚美都忍不住要跟着跳起舞来了~",
+			say = "Yeah, totally~♪ Also, Booky, you did great too! It was like we were dancing together~!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -837,7 +837,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是就是！{namecode:2}亲{namecode:2}亲，来和真美对战一局吧？",
+			say = "Yup, yup! Hey, hey, Booky~ How about playing against me next?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -855,7 +855,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "亚美也想和{namecode:6}亲对战！我们再比一场怎么样？",
+			say = "Ah, I want to play with you too, Nommy! ...So how about a tiebreaker?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -872,7 +872,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！我已经熟悉这个游戏了！不会再像刚才那样输掉了！",
+			say = "Challenge accepted! That first time was just the warm-up! I won't make the same mistake twice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赌上{namecode:6}的尊严，一决胜负…的说。这次绝对不会输的说。",
+			say = "My pride is on the line, and I won't lose again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,13 +912,13 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "双海亚美·双海真美",
+			actorName = "Futami Ami",
 			dir = 1,
 			blackBg = true,
 			hidePaintEquip = true,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			say = "嗯哼哼~放马过来吧！",
+			say = "Nihihi~! We'll see about that~!",
 			subActors = {
 				{
 					actor = 10700060,

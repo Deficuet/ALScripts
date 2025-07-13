@@ -15,7 +15,7 @@ end
 var_0_0.nameCodeMap = {}
 var_0_0.nameEquipCodeMap = {}
 var_0_0.nameCodeMap_EN = {
-	IJN = "IRN"
+	IJN = "IJN"
 }
 
 function var_0_0.init()
@@ -60,8 +60,6 @@ function var_0_0.init()
 					var_1_2[0],
 					var_1_3
 				}
-
-				System.IO.File.WriteAllLines(var_1_1, var_1_4)
 			else
 				var_1_3 = var_1_2[1]
 			end

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "过去仅仅作为女仆侍奉在您左右，就足以让天狼星感到满足。",
+			say = "I used to be an ordinary maid, happy with just being by your side and serving you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "现在明明与{dorm3d}的关系已经……我却还是越来越贪心……",
+			say = "Now, though, as our relationship deepens... I'm becoming increasingly selfish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是您让天狼星改变了呢，我骄傲的{dorm3d}。",
+			say = "Thank you, my honourable {dorm3d} – for changing me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是变得更好，还是……？",
+			say = "Was it a good change, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星不知道哦……天狼星只知道自己现在越发无法离开您了，我骄傲的{dorm3d}。",
+			say = "I'm not sure, myself... However, I do know that I can no longer be without you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

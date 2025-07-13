@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "太阳已经完全升起，可理论上应该一边倒的战斗却像永无止境一般持续进行着。",
+			say = "The ships continued to exchange fire as the sun took its place in the morning sky.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的好强……利托里奥果然不是仅凭我们就能应对的人。",
+			say = "As expected, we're simply no match for Littorio...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，实力的差距是显而易见的。",
+			say = "How unfortunate. If only I hadn't used up so much ammo during our operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "弹药快要见底了，福煦……至少要有人可以安全返回鸢尾教国，告诉她们这里发生的事。",
+			say = "Foch, I'll hold Littorio back. Take advantage of the opportunity to get out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会留下来拖住利托里奥的进攻，你趁此机会——",
+			say = "As long as one of us makes it back to the Vichya, then the operation––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "阿尔及利亚调整姿态，准备向着利托里奥发起近身战。",
+			say = "Steeling her resolve, Algérie adjusted her rigging and prepared to face Littorio in close combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "可就在此时，福煦一言不发地挡在了她的身前。",
+			say = "However, Foch rushed forward to block her advance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……阿尔及利亚，现在战况确实不容乐观，但是…越是这种时候越不能失去冷静。",
+			say = "Wait, calm down first, Algérie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "牺牲很容易，但牺牲必须要有意义。毫无意义的牺牲只会让教国的局势变得更加凶险。",
+			say = "Anyone can play the hero, but very few sacrifices are worth it. Unnecessary sacrifices only endanger us down the road.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即便是圣教骑士也不用把所有重担都背在自己身上……你，对自己稍微有些勉强过度了。",
+			say = "No matter what the operation plan calls for, I want you to think things through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的一切都是属于教廷的，如果教廷需要我牺牲，那我的牺牲就有充分的意义。",
+			say = "I understand. But I vowed to lay down my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其他我并不想考虑太多，也不在乎……",
+			say = "And if the Vichya needs me to make that sacrifice, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是教廷并没有让你牺牲啊！这次作战是我参与制定并亲自传达的，我就是本次行动中教廷的意志的代表。",
+			say = "Sure, sure, but I don't recall \"fight until you sink\" being a part of our orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论最后袭击的战果如何，所有人必须全部平安回去！",
+			say = "That being the case, isn't returning home safely a higher priority?",
 			effects = {
 				{
 					active = true,
@@ -259,7 +259,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……太强人所难了吧。",
+			say = "...That sounds like an unreasonable request.",
 			effects = {
 				{
 					active = false,
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说难道……你已经想到破局的方法了？！",
+			say = "How are we to achieve that when we're facing Littorio?",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -303,7 +303,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是以前的阿尔及利亚，不可能连这都看不出来。不过现在过于勉强而变得疏于观察的你，看来只能靠我点醒咯~",
+			say = "Goodness, sometimes you're so stubborn that you can't even see what's in front of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……别卖关子了，福煦。",
+			say = "Foch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们跟利托里奥之间的差距显而易见，那么为什么战斗到现在都没结束呢？",
+			say = "If Littorio was going all-out with the intention of destroying us, how would we still be alive to have this conversation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗到现在我们还能站在这里聊天本身就是问题的关键。",
+			say = "Remember what Littorio said just before engaging us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很明显，利托里奥并没有用尽全力。",
+			say = "...that she'd test our mettle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也不是说她在故意手下留情…只是她格外在意回避攻击导致战法十分保守，以至于火力根本没有发挥出来。",
+			say = "In other words, even if she has her orders, she's trying to avoid going all-out for whatever reason!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这么一说，好像确实是这样？！按理说就算正面强攻吃亏的也不会是她，选择这种战术难道是……",
+			say = "Now that you mention it, that does make sense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！撒丁帝国显然比我们更加注意战斗力的保存。",
+			say = "Sardegna is known to be very careful with preserving their forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥收到的命令应该是必须完好无损的返航吧。这才导致战斗起来显得束手束脚，一丁点危险的举动都不愿采取。",
+			say = "Littorio's orders probably also were to return home in one piece. The risk of her being injured here is probably too great a risk for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………这次被你救了一命啊，“大参谋”。",
+			say = "...Because of the incident with the Cardinal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们可是同伴，别这么客气。",
+			say = "See, aren't you glad that I'm here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是要维持足够密度的鱼雷网殿后，剩下的量产型怕是都保不住了。而且恐怕还得……",
+			say = "Littorio has given us a bit of breathing room, but let's settle this situation and go home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嘛，也罢……就当送给对面的礼物好了。",
+			say = "Let's offer up our mass-produced ships so we can get away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

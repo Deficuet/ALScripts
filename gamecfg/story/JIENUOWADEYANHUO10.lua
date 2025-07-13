@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-italy",
-			say = "伴随着舰队的疾驰，后方的火光变得越来越微弱。",
+			say = "The light from the flames of the burning port grew dimmer and dimmer as the Vichya ships made their retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "终于，在第一缕曙光降临之时，舰队已经彻底驶入茫茫大海之中了。",
+			say = "By the time the first rays of light illuminated the surrounding waters, the fleet had already vanished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "呼——看来是顺利甩开了。",
+			say = "Phew... We made it back in one piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			actor = 903020,
 			dir = 1,
-			say = "最后来的舰队规模很大，但航速并不快，看来是编入了战列舰的主力舰队。",
+			say = "A fleet of capital ships doesn't exactly make for the most agile hunters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "是啊，还好跑得快……要是被堵在港口附近可就惨了。",
+			say = "Yeah, and it's also good that we were able to disable the port's defenses. It would've been awful if they cut off our retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在两人为胜利感到欣喜，紧绷的神经有一丝放松的时候，前方海域中出现了一个人影。",
+			say = "Just when the two Vichya ships sighed a breath of relief, a sole Sardegnian battleship appeared before them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "各位散步中的美丽小姐，不打招呼就随便去别人家大闹可不是淑女该有的行为哦~",
+			say = "Is it customary for the esteemed Templar Knights to be sneaking around without saying hello first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 903010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利托里奥？！",
+			say = "Battleship Littorio...?!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -136,7 +136,7 @@ return {
 			actor = 903020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有一个人……她的速度不可能比我们还快，也就是说…早就等在这里了么！",
+			say = "They sent two fleets...? Was the first one just to lure us into a false sense of security...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "我的航速不如你们，如果跟在目标明显的大舰队里是永远追不上你们吧。",
+			say = "Who knows? There's no way a lumbering main fleet would be able to catch up to you, no matter how hard it tried.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "所以……那支舰队只是用来驱赶我们的佯攻，真正的主攻是等在这里的你？！",
+			say = "So that was a bluff to flush us out of the port...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "没错~猎犬、猎人与猎物，就像狩猎一样不是么？",
+			say = "That's right. Nobody said that there was only a single fleet chasing after you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "…………您会亲自在此等候是我们的荣幸，不过这也意味着您没打算放我们回去吧。",
+			say = "It would be my honor to exchange fire with you right here, Littorio, but why don't we try to resolve this without violence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "倒也未必？袭击虽说突然了一些，不过你们并没有给帝国造成特别严重的损失。",
+			say = "A bit rich considering what you just did, but... it's not like you actually accomplished anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "倒不如说我很好奇，鸢尾教国究竟出了什么问题才会只派你们这点人发动突袭。",
+			say = "I can consider taking you up on that offer... but don't think that means I'll just let you go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "如果能好好回答我的问题，说不定我会当成没有遇见过你们哦？",
+			say = "First, you'll answer a few of my questions––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 903020,
 			dir = 1,
-			say = "要我们泄露情报给敌人？真是痴人说梦。",
+			say = "That's not on the table, Littorio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			actor = 903020,
 			dir = 1,
-			say = "向我们投降，或者与我们战斗，我们之间没有第三个选项。",
+			say = "You already know what the Templar Knights' Code dictates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "阿尔及利亚……？再怎么说利托里奥的身份也是……必要的尊敬还是要有的啊。",
+			say = "(Do we really have to fight? I'm not sure I like the odds...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			actor = 903010,
 			dir = 1,
-			say = "果然好奇怪，最近实在太不像你的风格了。",
+			say = "(Considering it's Littorio we're up against...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			actor = 903020,
 			dir = 1,
-			say = "………出发之前也跟你说过，现在已经没有优雅的余地了。",
+			say = "(I know there are some battles that you shouldn't take, but... Sometimes, you don't have a choice and just have to leave things to fate, right?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "这就是你们的回答么？",
+			say = "I see. Is that a part of your plan as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "也罢~对于你们昨夜对{namecode:526}和特伦托做的事，我不好好回一下礼可不行啊~",
+			say = "Considering what you did to Trento and Zara last night, it would be unbecoming of me not to return the courtesy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吾乃撒丁帝国禁卫军所属，维托里奥·维内托级战列舰二号舰利托里奥。",
+			say = "Littorio, Vittorio Veneto-class battleship of Sardegna...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 605020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "来自鸢尾教国的美丽骑士们，亮出你们的利刃吧！",
+			say = "...will now test your mettle, Templar Knights!",
 			effects = {
 				{
 					active = true,

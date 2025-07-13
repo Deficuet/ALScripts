@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无效节能\n\n<size=45>七 安然的不挠</size>",
+					"Ineffective Energy Saving\n\n<size=45>7 Indomitable to the End</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "终于回到指挥室后，不挠瘫在沙发上，显得有些沮丧。",
+			say = "One long and eventful journey later, Indomitable and I are finally back in my office. She flops down on the couch, looking somewhat bummed out.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "她的双手轻轻揉着额头，试图缓解那份由今天的出行计划带来的疲惫。",
+			say = "She rubs her forehead with both hands, trying to relieve the fatigue from today's outing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "唉，今天的计划实在是有点失败呢……",
+			say = "*sigh*... This plan was a bit of a failure, it seems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "原本想着能轻松悠闲地度过一天，结果……简直要累脱力了。",
+			say = "I thought it would be relaxing and low-effort, only to end up drained of all energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "头疼，手臂疼，还有腿和脚腕，呜……",
+			say = "My head, my arms, my feet – they all hurt... Ow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我帮你揉揉吧。",
+			say = "Want me to give you a massage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "这……实在是难以抗拒呢，那我就不客气了。",
+			say = "I... see no reason to refuse. Yes, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,46 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "不挠将腿搭在我膝上，我用适中的力度帮她轻轻揉捏着小腿。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 207120,
-			say = "哈啊……太舒服了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 207120,
-			say = "抱歉，指挥官，这个时候还是要你照顾我……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			say = "嘴上说着抱歉，实际上不挠抽回了小腿，自然地将我的手又挪到了她的肩膀上。",
+			say = "She puts her legs in my lap. I start massaging her calves, applying a modest amount of pressure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "这里也拜托指挥官了……",
+			say = "Ohh yes... This is divine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +155,46 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "嗯……就是这里……",
+			say = "Forgive me for making you take care of me like this, Commander...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			say = "She slowly withdraws her legs, changes her position, then casually takes my hand and places it on her shoulder.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 207120,
+			say = "Could you massage these as well?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 207120,
+			say = "Ahh... Yes, that's it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "嘶，好酸……",
+			say = "That feels so good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,86 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "休息了一会儿，不挠才重新有了开口说话的力量。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 207120,
-			say = "和指挥官在一起的时间，绝对是愉快的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 207120,
-			say = "但要是没有运动就更好了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "今天虽然有些出乎意料的波折，但总的来说，我们还是度过了愉快的一天。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			say = "不挠的衣领歪向一边，她紧紧闭着双眼，享受着力度适中的按摩。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "看得出来，你确实累得不轻。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 207120,
-			say = "是啊……这次的计划有点失败呢。",
+			say = "After massaging her for a while, she finally regains enough energy to talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +233,86 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "不过，指挥官在制定计划这方面很擅长吧？",
+			say = "It goes without stating that I love spending time with you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 207120,
+			say = "It's just... ideally, spending time with you would involve no physical activity.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "A lot of things didn't go as expected, but in the end, it was a ton of fun.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			say = "She responds with a small nod and closes her eyes, relishing the pleasure of the massage.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Geesh, you really are exhausted.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 207120,
+			say = "Yes, and that's why this was a failure...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 207120,
+			say = "Come to think of it, aren't you an expert at making plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……我就应该早点想到拜托指挥官来做计划。",
+			say = "Bugger... I should've let you handle it all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "虽然这次已经来不及了，但下次的计划能不能……",
+			say = "While it's too late now, you can still plan for the next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,18 +350,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "不挠贴了上来，几乎环抱住了我，虽然目的明显，但这种撒娇方式实在令人难以拒绝。",
+			say = "Coming closer, she all but embraces me. It's obvious she's trying to coax me, and yet, it's almost impossible to refuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我会制定悠闲的计划",
+					content = "Alright. I'll come up with a relaxing plan.",
 					flag = 1
 				},
 				{
-					content = "我会制定魔鬼训练计划",
+					content = "Alright. I'll come up with a hellish plan.",
 					flag = 2
 				}
 			}
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "好啊，我会制定一个能让你悠闲享受的计划。",
+			say = "Sure, you won't have to exert yourself in the slightest next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是太懂我了~",
+			say = "That's what I like to hear. You know me well, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "好啊，我会制定一个魔鬼训练计划。",
+			say = "Alright. I'll make a training regimen we can both keep up with so you can work on your stamina.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官自己训练就够了吧？请务必让我担任战术顾问，躺着的那种~",
+			say = "You should be able to handle such a regimen by yourself, no? I shall be your coach, offering you advice from the comfort of a sofa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你今天的任务还没结束呢——晚上吃点什么？",
+			say = "At any rate, that's for another time. More immediately – what do you want to eat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "又是动脑子的活儿吗，哦呀……",
+			say = "Must I exert my brain again? Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "不挠一副头晕晕的模样，无力地倒在了我怀中。",
+			say = "With a languid motion, she moves her body and mutters a response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "既然指挥官下次要制定计划，不如先拿这个小任务练练手？",
+			say = "Seeing as you'll be devising the plans for next time, why not get into the planning mindset with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "嗯……就由指挥官来选择今天的晚饭吧。",
+			say = "Which is to say... I leave the dinner menu up to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "放心……我没有任何要求，来者不拒哦。",
+			say = "Don't worry, I don't have any requirements. Please just choose whatever you like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你又把活儿推给我了。",
+			say = "You're kind of pushing all the work onto me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "能者多劳嘛~",
+			say = "I'm simply saying that the more capable one between us should take on more responsibilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "为了表示感谢……换我来给指挥官按摩吧。",
+			say = "As thanks for your hard work, I'll return this gesture and give you a massage now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "说是按摩，不挠其实只是靠在我怀中，随意地在我身上捏来揉去。",
+			say = "She calls it a \"massage,\" but really, she's just lackadaisically kneading my body with her fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "舒服吗？",
+			say = "Does it feel good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……",
+			say = "Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "指挥官总是这么可靠，让人安心。",
+			say = "You know, you're always so reliable, and that puts everyone around you at ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "剩下的事，就全部……交给你了……呼……",
+			say = "So I entrust you to... take care of all the rest... Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "话还没说完，不挠就靠在我身上安然睡了过去，手甚至还在搭在我的胸前。",
+			say = "She dozes off right in the middle of the conversation, leaning softly against me with her hand still resting on my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "一天的疲惫，在这个温暖的时刻全部化作了宁静。",
+			say = "In the warmth of this moment, all the physical stress of the day turns into a gentle tranquility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

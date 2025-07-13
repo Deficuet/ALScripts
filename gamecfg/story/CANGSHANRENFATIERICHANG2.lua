@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"苍闪忍法帖-「日常篇」\n\n<size=45>修行！修行！修行！-其一</size>",
+					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Trainers Training Trainees - Part 1</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "港区·体育馆",
+			say = "Port - Gymnasium",
 			bgm = "sk-theme",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "「忍」的特训中————",
+			say = "The shinobis were undergoing intensive training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "得分了！",
+			say = "Gotcha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "太天真了！那只是个残影哦！！",
+			say = "I'm afraid not! That is only an illusion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "——砰！",
+			say = "BONK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "疼疼疼……呜～被骗了～",
+			say = "Owwww... You pulled a fast one on me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果会被这种程度的幻影误导，说明里诺作为机甲忍者还有很长的路要走啊。",
+			say = "You've got a lot of training to do if you're falling for simple tricks like that, mecha-ninja.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 303100,
-			say = "机甲忍者这叫法是受哪个游戏的影响啊……哎呀！",
+			say = "\"Mecha-ninja\"... Wonder which game you got that name from– Oof!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "在训练中分心，真是小看我斑鸠了呢……该罚！",
+			say = "To get distracted during training is to underestimate your teacher. It's time for punishment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "等、等等！抱歉啦！我会认真训练的……啊呀！！！！",
+			say = "W-wait! I'm sorry! I'll take this seriously from now o– Aaahhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……刚刚得了一分立刻就被打回原形，{namecode:65:羽黑}，你昨晚又熬夜了？",
+			say = "Scoring a point only for this to happen... Cramming all night clearly backfired on you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 303100,
-			say = "非常抱歉……",
+			say = "Yeah, sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "战斗时需要仔细观察，对于局面进行准确的判断。鲁莽冒险——对忍者的行动来说乃是下下之策。",
+			say = "You must watch the battle carefully and make the right decisions accordingly. Taking all-or-nothing risks is the worst thing shinobis can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "出现在眼前之物究竟是本体还是幻象，是真实行动还是诱敌之策？这些不论在什么时候都应该一眼看穿！",
+			say = "They should be able to determine if what they see is real or an illusion, a commitment or a feint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "这我其实也明白……但是该怎么说呢……斑鸠，好像有点太魔鬼教练了吧……？",
+			say = "I know that, it's just... How do I put this... Your way of teaching is pretty punishing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "噗！",
+			say = "Pfft!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "焰小姐！？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "班委大人，你暴露本性了呢！",
+			say = "Your draconian nature is showing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "体育馆外的一角——",
+			say = "Meanwhile, outside the gymnasium...",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "里诺她们正在进行忍者特训……真好啊……",
+			say = "How I envy them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……之前并肩作战时明明能轻松跟大家搭话，回到港区后就突然觉得好害羞……",
+			say = "Speaking to them was so easy during the mission, but now, back at the port, I feel too shy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于在下来说向真正的忍者请教，果然还是有些……",
+			say = "Asking a genuine ninja for their teachings is so, so discourteous!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "咦？{namecode:11:晓}，你在这里做什么呢？",
+			say = "Akatsuki? Whatcha doin' in there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:12:响}？！呜呜呜，原来是布莱默顿阁下……别吓我啊……",
+			say = "Hibiki?! Oh, it's you, Bremerton... Please don't scare me so.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "你躲在墙角的阴影里做什么呢……不是要和大家一起训练么？",
+			say = "Uh, sorry. So, why aren't you training with the others?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "还是说，这是在做什么特别的修行？",
+			say = "Are you hiding here as part of some special training or whatever?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……那个……其实……",
+			say = "No, I'm just... Well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……就是这么回事",
+			say = "...And that's essentially it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "呃……我说啊，都已经是并肩和塞壬战斗过的关系了，你怎么到现在还忸忸怩怩的……",
+			say = "Ahh... I mean, you fought the Sirens side-by-side with 'em. It makes no sense to be afraid now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "算啦~没关系，接下来就交给我布莱默顿吧！",
+			say = "You know what? You've got a problem, and I'm gonna help you solve it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？啊，等、等一下——",
+			say = "What? No, wait! Wait a second!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好意思打扰到各位的训练了！",
+			say = "Hey! Sorry to interrupt!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "请问现在有空吗？我想请大家帮忙指导一下{namecode:11:晓}的修炼——",
+			say = "I just was wondering if you could instruct Akatsuki on her training. You folks got the time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊？我才没空，现在可忙了。在大家看不到的地方非常忙呢~啊，好忙啊～",
+			say = "Huh? No, I don't, I'm busy. Really busy with something. Haven't been this busy in aaages.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "啊——！我懂了？因为是焰算是恶忍所以不能用这种普通的方法拜托是吧！",
+			say = "Ohhh, I see. You can't just walk up and ask an evil ninja for something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "哐当——（主炮装填音）",
+			say = "KA-CLICK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂、喂！等一下！？为什么突然拿出这样的大炮来……",
+			say = "Whoa, whoa! Easy! What's the deal with the huge cannon all of a sudden?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "你有时间的，对吧？稍微指导一下{namecode:11:晓}修行的时间还是有的，对吧？",
+			say = "C'mon, you've got time. At least enough to help Akatsuki out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，嗯！有的！我有的所以别用那个对着我啦ー！！！",
+			say = "Okay, okay! I'll do it, just put that thing away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那就好♪那么，请多关照了♡",
+			say = "Great! Be nice to her now, 'kay?",
 			painting = {
 				alpha = 0.3,
 				time = 1

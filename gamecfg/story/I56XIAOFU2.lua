@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"角落的向日葵\n\n<size=45>二 误会与交友</size>",
+					"Wallflower in the Corner\n\n<size=45>Chapter 2 - Misunderstandings and Making Friends</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 308051,
 			nameColor = "#a9f548",
-			say = "噫！！！",
+			say = "Eek!!!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -69,7 +69,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "哇啊！？我、我有这么可怕吗…",
+			say = "Woah?! Am... I really that scary...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是{namecode:252}啊…",
+			say = "Oh, it's just I-25...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没、没什么，只、只是觉得这边草丛挺凉快的而已…——",
+			say = "It's n-nothing... I j-just thought the grass here feels pretty cool...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "啊…是168和哈曼呀，今天还是一如既往呢…",
+			say = "Oh... It's Iroha and Hammann. Going at it again, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "你这是在…观察她们吗？",
+			say = "Were you... spying on them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嗯。",
+			say = "Um... Mhm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊，我知道了！原来是这样啊。",
+			say = "Aha, I knew it! So that's what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，什么？",
+			say = "Huh? What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "因为{namecode:254}你出任务总是一个人，而且在校园里也是一个人，还以为你不喜欢和别人交流——",
+			say = "Well, you always go on missions alone, and you're always by yourself at school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，我确实……",
+			say = "Well, that's because...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "还以为你不喜欢和别人交流……其实{namecode:254}也是很想和大家交朋友的吧！",
+			say = "There's nothing to be shy about~ You want to be friends with everyone else, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我不是…",
+			say = "Um, I don't particularly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "不要害羞啦，嘿嘿，就让我来做你的第一个朋友…怎么样？",
+			say = "Don't be shy! Hehe~ I'll be your first friend... how does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？！不、不用，我没……",
+			say = "Huh? Th-there's no need, I didn't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就这么决定了，从今天开始，我们就是好朋友啦！",
+			say = "All right, that's decided! From now on, we're going to be best friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔唔……",
+			say = "Urkkk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这样就不用担心孤单啦…嗯嗯，好孩子…",
+			say = "Can I call you 56 from now on? Let's head back to do some training. How does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔……胸部……呼吸……",
+			say = "*gasp* ... Boobs... Can't breathe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 308041,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "啊，抱歉抱歉！我一不小心就…",
+			say = "Ah, sorry... 26 keeps telling me that I scare people away. I didn't scare you, did I?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没有……（{namecode:252}平时也是这么补充指挥官成分的吗…）",
+			say = "N-not at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，你们两个在草地上...做什么呢？好像挺有趣的，也算我一个！",
+			say = "Ehh? What are you two doing over there? Lemme get in on the fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "star_level_bg_103",
 			actorName = "？？？",
 			dir = 1,
-			say = "我跳！",
+			say = "Cannonbaaall!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噫！！！",
+			say = "Eeeek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

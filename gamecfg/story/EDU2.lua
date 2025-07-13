@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>二　工作需奖励</size>",
+					"The Protector Needs Protecting\n\n<size=45>2 Hard Work Needs Rewarding</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……无趣的工作又要开始了。",
+			say = "Siiiigh... Another long day of booooring work...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不行，光是看到这么多文件就已经觉得困了。",
+			say = "Don't wanna... I'm gonna pass out if I have to look at another pile of papers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "自从恶毒的本性暴露之后，她在指挥室内的行为就变得愈发随意了。",
+			say = "While Le Malin did continue to get her work done, she no longer made any attempts to hide her inner thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "好，认真工作了十分钟，该给自己一点奖励了——",
+			say = "Alright, ten minutes of work done. Time to treat myself to a little reward!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "那就是二十分钟的休息时间~",
+			say = "That's right! Twenty minutes of relaxation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "对工作的抱怨和暂时逃避工作的歇息，都不再遮遮掩掩，而是变得“光明正大”。",
+			say = "She started to liberate her slacker tendencies and her complaints about work, venting them openly. But alas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "糟糕，再休息就来不及了……！",
+			say = "Geh! If I laze around for any longer, I won't have enough time to finish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……总算是赶在下班之前全部完成了，今天的我还真是努力啊。",
+			say = "Phew, I actually managed to get everything done for the day. Now that's what I call a job well done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "啊……指挥官你这个表情，是想问我为什么不从最开始就把工作一口气处理掉对吧？",
+			say = "Huh? You're gonna say, \"why didn't you just do that from the very beginning,\" aren't you? I see it written all over your face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想法确实很美好，可惜我做不到。",
+			say = "Perfectly reasonable of you to think that, but nope, can't do it. Literally impossible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "毕竟工作，实在是太累人了……",
+			say = "Because, me and hard work is like... letting the air out of a balloon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我倒是反而想问指挥官是怎么坚持天天像上满发条的机器人一样工作的。",
+			say = "If anything, I'm curious how you can endure this amount of work every single day...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我没有奖励的话，根本不可能，做不到~~~~",
+			say = "I can't get any work done unless I'm rewarded!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "做不到~就是做不到~~",
+			say = "Otherwise, nope! No way! Not gonna do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "恶毒突然……在沙发上打起滚来。",
+			say = "Le Malin started flailing around on top of my sofa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,18 +312,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（如果……要点在于奖励的话。）",
+			say = "If it's a reward you want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "提议用敦刻尔克的点心作为奖励。",
+					content = "How would you like some of Dunkerque's treats?",
 					flag = 1
 				},
 				{
-					content = "提议用睡觉作为奖励。",
+					content = "I'll give you extra time to laze around.",
 					flag = 2
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是我能提前完成工作，那我就可以享用敦刻尔克小姐的点心？",
+			say = "So what you're saying is, if I finish work ahead of time, you'll treat me with some of Miss Dunkerque's handmade sweets?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "何等狡猾的指挥官，居然用这个来当诱饵……",
+			say = "*gulp*... You scoundrel... There's no way any sane person could turn down her mouth-watering desserts...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不过很可惜，单凭这诱饵不足以让我全力以赴的！",
+			say = "HOWEVER! That level of temptation isn't enough to make me work hard––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "那就再加上睡觉吧。",
+			say = "How about I also give you extra time to laze around then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是我能提前完成工作，那我就能在办公室内睡觉？而且还是在工作时间内？",
+			say = "So what you're saying is, if I finish work ahead of time, you'll let me roll around on the sofa as much as I want? Even during work hours?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "何等狡猾的指挥官，居然用这个来当诱饵……",
+			say = "Urgh... You scoundrel... Trying to bait me with the sweet, soft embrace of the sofa...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过很可惜，单凭这诱饵不足以让我全力以赴的！",
+			say = "HOWEVER! That level of temptation isn't enough to make me work hard––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "那就加上敦刻尔克的点心吧。",
+			say = "What if I threw in Dunkerque's handmade sweets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "成交。",
+			say = "Deal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "可绝对不要食言哦，指挥官~",
+			say = "But you'd better not go back on your word, Commander!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……突然有种被恶毒摆了一道的感觉。",
+			say = "...All of a sudden, I felt like I was getting the short end of the stick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "一口气完成工作，然后再品尝敦刻尔克小姐的点心，最后在沙发上睡觉休息……",
+			say = "Muahaha... As long as I finish work ahead of time, I'll get to enjoy Miss Dunkerque's sweets WHILE rolling around on the sofa...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "光是想想，全身就充满动力了！",
+			say = "Just the thought of that level of bliss is making me extra-motivated!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "好！从明天开始，要努力了哦——！",
+			say = "All right! Starting tomorrow, we're gonna give it our all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "自那以后，认真工作的恶毒、品尝点心的恶毒，以及在沙发上打滚的恶毒……三者构成了指挥室内独特风景。",
+			say = "Indeed, all of Le Malin's facets were on display at once – the side of her that was elegant and serious, the side of her that loved stuffing her face with sweets, and the side of her that wanted to spend the day rolling around on the sofa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

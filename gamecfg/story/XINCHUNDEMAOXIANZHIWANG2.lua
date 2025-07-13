@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新春的冒险之王\n\n<size=45>二　现场抓获？</size>",
+					"The Queen of Adventure\n\n<size=45>2 Caught Red-Handed?</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "晚饭后，被空地方向传来的喧闹声吸引了注意力。",
+			say = "After eating dinner, I decide to go for a walk. That's when I hear a voice coming from an empty spot of land.",
 			bgm = "main-chunjie2",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜——真的不是我啦！你们抓错人了！",
+			say = "I swear it wasn't me! This is a misunderstanding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "案发现场直接人赃并获……飞云，乖乖认错吧。",
+			say = "All the evidence points to you, Fei Yuen. Just admit you did it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "龙武姐今天喝到被你加料的茶之后，可是陷入了暴怒状态哦！",
+			say = "Lung Wu flew off the handle from drinking that tea you spiked with some weird stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我不是我没有！真的不是飞云做的QAQ——",
+			say = "It wasn't me! I didn't spike the tea! I haven't done anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的不是你吗？",
+			say = "Really? Nothing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "那为什么我们进入厨房的时候，看到你手里拿着被加了料的茶罐？",
+			say = "Then what were you doing with a teapot full of foul tea when I came into the kitchen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……那是因为……总而言之，这次真的不是飞云啦QAQ！",
+			say = "I was just... That's unrelated! It wasn't me, okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,9 +190,9 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "英勇",
+			actorName = "Valiant",
 			nameColor = "#A9F548FF",
-			say = "大老远就听到这里有说话声，你们这里还真热闹啊~",
+			say = "What a racket. I heard you lot from all the way over there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "原来如此……今天茶叶的品质出现问题，原来是和飞云小姐的恶作剧有关么。",
+			say = "So that's why the tea tasted so off. Fei Yuen put something in it as a prank.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "其实……我觉得味道上还蛮有创意的哦",
+			say = "I thought it gave the tea a unique flavour profile.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……那不叫创意，相信我。",
+			say = "There is such a thing as TOO unique, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此……飞云一个人去“冒险”被发现了么。）",
+			say = "(Look at that. Our little adventurer has been caught.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官，您也来了啊……",
+			say = "Oh, hello, Commander. I didn't see you there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "抱歉让诸位见笑了。",
+			say = "You've caught us in the middle of something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "我向诸位保证，在接下来的一个月内，不会让飞云接近厨房和储藏室了。",
+			say = "I assure you that Fei Yuen will not be allowed near the canteen or the storeroom for a month hereafter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "现在先把她挂在这里略施惩戒，相信她在认识到自己的错误之后，一定就……",
+			say = "For now, we're going to leave her like this until she acknowledges her wrongdoings and...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "……飞云，你在吃什么？",
+			say = "...What are you snacking on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "架子上晒着的果干啊？甜甜的……好吃~",
+			say = "Um, dried fruit? It's sweet and yummy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "啊！那是龙武姐才挂上去的苹果干！",
+			say = "Hey! Those are Lung Wu's!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "她之前就叮嘱过我好生看管，不准别人偷吃……",
+			say = "And I was supposed to stand guard to make sure nobody snuck a bite out of them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "完了完了！被姐姐知道肯定更生气了！",
+			say = "Oh nooo! She was already mad, but now she's really gonna blow a gasket!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿……苹果干的味道真不错，你们吃么？",
+			say = "It's really, really good. You should all taste one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "完全没有在反省……！",
+			say = "Ugh! You're not at all sorry for what you've done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，抓人要讲究证据！",
+			say = "Because I haven't done anything wrong!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是人赃并获，可是你们实际看到飞云大人把调料加到茶罐里的瞬间了么！",
+			say = "You all say you have evidence, but none of you actually saw me put anything in the teapot, did you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒……确实没有。",
+			say = "Well... No.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对吧对吧~所以说，这件事真的不是飞云大人干的！",
+			say = "Exactly! Just because you saw me holding a teapot doesn't mean I put anything in it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "等等……但也不能因此认定你与这件事完全无关。",
+			say = "That doesn't clear you of suspicion, though. You're staying right where you are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "站在那边的指挥官——！快来救救飞云大人嘛~！寰昌姐姐好不讲道理……",
+			say = "Commandeeer! Help Lady Yuen dooown! They're punishing me for something I didn't dooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			actor = 501071,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指~挥~官~大~人——救~命~啊QAQ~",
+			say = "Come ooon! Help meee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,14 +638,14 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不放！",
+					content = "You're on your own.",
 					flag = 1
 				}
 			}
@@ -657,7 +657,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "欸……飞云保证接下来一个月再也不接近厨房了，就放飞云下来吧~",
+			say = "Pleeease! I promise I won't go anywhere near the kitchen and the storeroom for a month! Just let me dooown!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "好不好嘛~好不好嘛QAQ",
+			say = "Get me dooown... Waaahhh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,14 +712,14 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（……是，眼泪攻势！）",
+			say = "(She knows how to pull on my heartstrings...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "出手放人！",
+					content = "Okay, I'll help.",
 					flag = 2
 				}
 			}
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "最后，还是将飞云从架子上放了下来。",
+			say = "It's too much to bear. I cave in and decide to let her down anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "指挥官最好了~！",
+			say = "Yay! I love you, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……既然这是指挥官的决定，这次就先放你一马。",
+			say = "*sigh*... If you insist, then I'll let her off the hook just this once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是别忘了，一个月不许接近厨房和储藏室哦。",
+			say = "But you have to promise you'll not go into the kitchen or the storeroom for a month.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "好~飞云大人说到做到！",
+			say = "Okay, I won't! Lady Yuen is a woman of her word!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "没、没有了喵！？{namecode:98}收集了好久的材料不见了喵！！",
+			say = "Th.. there’s no more?! Those materials collected by {namecode:98} from a long time ago are all gone!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "啊啊啊啊！装着材料的袋子破了喵！果然是时间太长了喵……",
+			say = "Ahhhh! The bag holding the material is broken! After all, I’ve been using it for such a long time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "难道是掉在那里了…？喵喵…那里好像也很可疑…",
+			say = "Could it have fallen somewhere? Nyaa... That spot seems to be very suspicious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "——指挥官来的正好喵！帮{namecode:98}找东西喵！那是对{namecode:98}来说很重要的东西喵，一定都在港区里喵！",
+			say = "--- Great timing Commander, nyaa! Help {namecode:98} find something! It's very important to {namecode:98}, hmm it must be in the port area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "帮{namecode:98}全部找回来的话，{namecode:98}会非常感谢指挥官的喵！",
+			say = "If you help {namecode:98} find it all, then {namecode:98} will be very grateful to you Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

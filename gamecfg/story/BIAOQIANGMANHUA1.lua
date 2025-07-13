@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>一　标枪，早安！</size>",
+					"Javelin's Monthly Manga\n\n<size=45>Chapter 1 - Good Morning, Javelin!</size>",
 					1
 				}
 			}
@@ -43,18 +43,18 @@ return {
 					0
 				},
 				{
-					"<size=60>「本作品中的登场角色纯属虚构，与现实的人物、组织没有任何关系…」</size>",
+					"<size=60>\"This is a work of fiction. Names, characters, events, and incidents are products of the author's imagination, and maybe a World War II documentary. Any resemblance to actual persons, living or dead, or actual events... well, might actually be somewhat intended but that's not really what's important...\"</size>",
 					0
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Zzzzzzz……",
+			say = "Zzzzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "朱诺",
+			actorName = "Juneau",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "标枪…标枪！",
+			say = "Javelin... Javelin...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "…………朱诺…？",
+			say = "J-Juneau...?",
 			bgm = "story-1",
 			flashout = {
 				dur = 0.5,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快起床了！已经到了要去学校的时间了哦…？",
+			say = "Javelin, hurry and get up! We're going to be late for school!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学校……啊哇哇哇！要迟到了！",
+			say = "School...? Awawawa! I'm gonna be late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我的名字叫标枪，是一名在港区就任的再普通不过的J级驱逐舰！）",
+			say = "(My name's Javelin. I'm just a normal J-class destroyer who's just arrived at port!)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（将来的梦想是和指挥官……啊，暂时保密！）",
+			say = "(My dream is to be Commander's– Ahhh! That's a secret!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！标枪今天也要全力以……呀啊！？",
+			say = "Well then, Javelin's gonna give it her all today... eek?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「我正在寻找像你这样的女孩子喵」",
+			say = "<I've been searching for a girl like you, nya!>",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵喵…说话了！？",
+			say = "The Meowfficer is... talking?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「这是预言喵，标枪，你将会——」",
+			say = "<Yes, Javelin. You are the prophecied one...>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「在今天遇到命运之人！喵」",
+			say = "<You are destined to have a fateful encounter today, nya!>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（指挥喵应该是不会说话的吧？）",
+			say = "(Is the Meowfficer really talking...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，大概是{namecode:98}又做了什么奇怪的东西吧~",
+			say = "... Akashi probably just had another weird lab accident again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇，已经这么晚了！要跑步去教室了！",
+			say = "W-wait, what time is it? I've gotta hurry to school!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊不行不行！下午还要给指挥官提交报告，不好好整理发型一下可不行——！",
+			say = "Oh no, oh no! I have to report to Commander this afternoon, so I have to make sure my hair is all perfect~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "「标枪的故事，仍在继续——」",
+			say = "Javelin's story is only just beginning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

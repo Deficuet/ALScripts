@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>三 突击！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 3 - Prepare To Strike!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "对潜/反对潜演习作战中，“猫鲨”小分队——",
+			say = "An exercise focusing on Gato-class submarines was being held.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔唔……没有什么好的目标吗……",
+			say = "Darn, can't find any good targets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊，难道这次一根鱼雷也没机会发射出去了吗！",
+			say = "Yeah! I'm gonna be super disappointed if we have to head back without firing even a single torp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是空着手回去的话，一定会被铁血和重樱的潜艇嘲笑的！",
+			say = "You said it! We'll be the laughing stock of the other subs if we return empty-handed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有护卫的模拟货船已经被{namecode:414}她们给抢了，{namecode:155}她们也不知道在哪里得到了击破点数，这下可不太好办啊……",
+			say = "Sadly, U-81's team has already sunk the primary target, and I dunno how but I-26's team also got points for sinking something. We're in a real herringed pickle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "*Yawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我有主意了！",
+			say = "Heheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们看，是拉菲！她好像还没睡醒的样子，我们就趁机偷袭她吧！",
+			say = "Guys, you see how tired Laffey is looking over there...? It's the perfect opportunity for an ambush!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？认真的吗？对手可是驱逐舰啊！",
+			say = "Huh?! Are you serious?! Laffey's a destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题，我已经有办法了！",
+			say = "I know, which is why I've thought up a plan~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "棘鳍，你去吸引她的注意力，我和鲦鱼在旁边等待机会。一旦她露出破绽，我们就发动攻击！",
+			say = "Cavalla, you act as bait to lure her attention, then Dace and I will wait for an opening to strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧！",
+			say = "Sounds like a plan! Let's do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鲦鱼，我们往这边走！",
+			say = "All right! Over here, Dace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好困……为什么要这么早举行演习……拉菲好想回去睡觉……",
+			say = "So tired... I definitely don't wanna go sleep in my room... Nope, not at all...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？！",
+			say = "... What the...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（就是这样！之后只要等到拉菲的注意力完全被吸引过去——）",
+			say = "(That's it, Cavalla! You have her on the hook!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈！",
+			say = "WRAAAGH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（欸？）",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看招！",
+			say = "Have a taste of my cannons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "潜艇，居然直接出水了……拉菲被小看了……",
+			say = "You're trying to fight on the surface, even though you're a submarine...? Don't underestimate me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啧，被躲过了吗",
+			say = "What the?! She evaded my attacks?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那家伙，在干什么啊！）",
+			say = "(What the heck is Cavalla doing?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自我限制解除……",
+			say = "Deactivating self-imposed limiter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种程度的攻击我才不怕——欸，欸，欸！？呜哇——",
+			say = "Destroyers don't scare m– Oh, God! That nearly hit me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鲦鱼，就是现在！",
+			say = "Dace! Do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等候多时了！鱼雷全数发射！",
+			say = "Take this! Total torpedo turmoil attaaaack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个……莫非是陷阱！",
+			say = "An attack from beneath...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "哔——",
+			say = "Laffey was (in this exercise scenario) sunk.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，被击沉了……",
+			say = "You got me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！作战成功！",
+			say = "Hooray! Mission successful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的..我只是让你做诱饵，没说要做到这种地步呀",
+			say = "... Okay, I DID tell you to act as bait, but you didn't need to do crazy things like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，棘鳍真的非常勇敢哎，指挥官现在肯定大吃一惊了吧~",
+			say = "Still, I'm sure Cavalla's actions gave the commander quite a surprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哎嘿嘿~",
+			say = "Eheheheh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

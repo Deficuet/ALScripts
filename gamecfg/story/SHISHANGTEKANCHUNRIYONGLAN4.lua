@@ -15,7 +15,7 @@ return {
 			bgm = "story-richang-sooth",
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "指挥官……现在应该还在睡梦中吧……",
+			say = "The Commander must still be deep in dreams...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "不知道会不会梦见阿尔比恩呢……毕竟昨天的约会真的很开心~",
+			say = "I hope I'm the one in those dreams... Our date yesterday was so much fun.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "完全没有战术理解上的分歧，战场规划也配合得相当完美……",
+			say = "We were totally in sync with tactics, and our battle plans were perfectly aligned...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……咦？等等……咦？！",
+			say = "Huh? W-wait...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "这么说，难道我……我竟然让指挥官，陪我学习了一整天的战术分析……？！",
+			say = "Did I... make the Commander study combat tactics with me all day?!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "这、这样不好吧！宝贵的约会日，竟然全都用在学习上了……！！",
+			say = "Oh, no... We were supposed to be on a date, and I wasted it all on studying!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "虽然能和指挥官一起学习也很开心……但约会的时候，果然还是应该做些更浪漫的事吧~！！",
+			say = "Of course, I do like learning with the Commander... but dates must be used for more romantic things!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……怎么办，现在说这些好像已经来不及了……",
+			say = "What do I do... It feels like I've missed the chance now.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……呜，不能就这样自暴自弃！阿尔比恩要挽回印象分……！",
+			say = "Ugh, I can't be down like this. I need to fix the Commander's impression of me!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "正好是早饭时间……有主意了~",
+			say = "Now's the time for breakfast... Oh!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "冰箱里现有的食材，只有面包和牛奶了吗？……不过，够用了！",
+			say = "All we have in the fridge are milk and bread...? Well, I can manage with this!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "把面包放进烤面包机里……然后加热牛奶……",
+			say = "Into the toaster you go... And I heat up the milk...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "唔？牛奶加热之后的温度，和指挥官的体温很接近呢……嘿嘿……呜、呜哇！",
+			say = "Phew. The milk is almost as warm as the Commander's body now... Heehee... Ah, whoooa!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -266,7 +266,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "阿尔比恩慌乱地轻呼出声，随后响起了玻璃器皿碰撞的脆响。",
+			say = "Albion lets out a startled cry, followed by the clattering of glass.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -284,7 +284,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "我本不想打扰阿尔比恩的自言自语，但眼下情况似乎不容迟疑。我只好快步走进客厅，一探究竟。",
+			say = "Alerted by this, I hurried to the living room to check on her.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -303,7 +303,7 @@ return {
 			hideRecordIco = true,
 			actor = 206073,
 			actorName = "{playername}",
-			say = "阿尔比恩，出什么事了？你没受伤吧……嗯？",
+			say = "Albion, are you okay? You're not hurt, are... Hm?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -322,7 +322,7 @@ return {
 			hideRecordIco = true,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "映入眼帘的是阿尔比恩紧张的神情……这是意料之中。",
+			say = "The first thing I notice is how flustered she is.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -341,7 +341,7 @@ return {
 			hideRecordIco = true,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "意料之外的……是她现在“湿漉漉”的状态——",
+			say = "The second is... her sheer wetness.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -359,7 +359,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "受害者“牛奶杯”正静静地倒在吧台上，乳白色的液体在桌面上缓缓蔓延……",
+			say = "The overturned cup lies on the bar counter, while the milky liquid slowly spreads across the surface...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -377,7 +377,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "而造成这一“惨剧”的“凶器”，正苦恼地轻轻磨蹭着桌面——“凶手”本人显然有些不知所措。",
+			say = "Still leaning against the counter, Albion seems totally oblivious to what she just did.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "唔……咦？！指、指挥官……！！",
+			say = "Oh, no... Huh?! C-Commander?!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -412,7 +412,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么回事……阿尔比恩走神的时候，不小心把牛奶打翻了吗……？",
+			say = "Wait... am I the reason the milk spilled? Am I that clumsy?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -431,7 +431,7 @@ return {
 			hideRecordIco = true,
 			actor = 206073,
 			actorName = "{playername}",
-			say = "还溅到自己身上了。",
+			say = "It's all over you, too.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "欸……欸欸欸？！是胸口……！请、请不要看我，指挥官……！",
+			say = "Whaaat?! It's all over my chest...! C-Commander, please don't look at me!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "阿尔比恩这幅样子，好羞耻……",
+			say = "It's just too embarrassing...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -478,11 +478,11 @@ return {
 			},
 			options = {
 				{
-					content = "主动帮忙",
+					content = "Need some help?",
 					flag = 1
 				},
 				{
-					content = "递上纸巾",
+					content = "Here, I got tissues.",
 					flag = 2
 				}
 			}
@@ -497,7 +497,7 @@ return {
 			hideRecordIco = true,
 			actor = 206073,
 			actorName = "{playername}",
-			say = "我来帮你擦干净。",
+			say = "I can wipe up the milk or something, if you want...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -516,7 +516,7 @@ return {
 			optionFlag = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "这怎么好麻烦指挥官……",
+			say = "But you shouldn't have to clean up my mistake...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -535,7 +535,7 @@ return {
 			optionFlag = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "不过……阿尔比恩自己确实擦不到一些位置……呜……",
+			say = "Umm... Actually, if you don't mind... *sniffle*",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -554,7 +554,7 @@ return {
 			optionFlag = 2,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "谢谢指挥官……但是，牛奶溅到了阿尔比恩看不到的位置……",
+			say = "Thank you, Commander... But the milk's somewhere I can't quite see...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -573,7 +573,7 @@ return {
 			optionFlag = 2,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "阿尔比恩自己看不到……能帮帮我吗，指挥官……",
+			say = "Would you please help me wipe it up?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -591,7 +591,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "随着距离拉近，阿尔比恩的肌肤染上了一层绯色。",
+			say = "As I come closer, a soft blush spreads across Albion's skin.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……呀……谢、谢谢你，指挥官……",
+			say = "Ah... Th-thank you, Commander...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "快……快结束了吗……？阿尔比恩这样有点、有点……",
+			say = "Oh... Are you done already? I'm not sure if I...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -644,7 +644,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不不不！不是在烦恼，是开心哦！很开心！",
+			say = "No! I'm not upset! I'm happy, I really am...!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……倒也不是因为麻烦了指挥官而开心啦。能像这样被您关心着，我感觉非常……幸福……",
+			say = "I mean, not because I caused trouble for you... But because you took your time to help me. It makes me very happy...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "……呼，这样就、就好了吗……",
+			say = "Phew... Is everything clean now?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "啊，纸巾都湿透了///……又给指挥官添麻烦了……",
+			say = "Ah, the tissues are a mess... I'm so sorry.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -716,7 +716,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "她靠向我，露出了略显苦恼的神情——就像犯了错的小鹿。",
+			say = "She approaches, her expression troubled like a scared fawn.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "指挥官，阿尔比恩这个样子，会被讨厌吗……",
+			say = "Commander, will you stop liking me because I'm so clumsy...?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "摇头……是不会讨厌阿尔比恩的意思吗？",
+			say = "Umm... Should I take that to mean that you don't mind?",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "太好了，阿尔比恩下次一定会更注意的——",
+			say = "Thank goodness. I'll be more careful next time!",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "所以，我想拜托您……",
+			say = "But first, there's a favor I want from you...",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -806,7 +806,7 @@ return {
 			withoutActorName = true,
 			hideRecordIco = true,
 			nameColor = "#A9F548FF",
-			say = "与她的距离愈发近了，少女湿润的眼眸看向我。",
+			say = "Albion leans in close, gazing at me with her watercolor eyes.",
 			actorPosition = {
 				x = 0,
 				y = 50
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			actor = 206073,
 			nameColor = "#A9F548FF",
-			say = "请您和阿尔比恩相伴，一起享受这温暖的春日吧……",
+			say = "Would you please... stay with me on this warm spring day?",
 			actorPosition = {
 				x = 0,
 				y = 50

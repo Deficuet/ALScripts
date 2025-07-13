@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼哼~想要我投降是不可能的哦？我还可以继续呢~！",
+			say = "Heheh, you'll never make me back down! I've still got lots of fight in me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "米德加尔特之塔内部，{namecode:435}一行人正在复杂的机械结构中飞奔着。",
+			say = "Mirror Sea - α phase, inside the tower",
 			bgm = "story-midgard",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "刚刚的声音是炮击没错吧！？",
+			say = "That sounded like cannon fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "没错，塔里有人正在战斗！",
+			say = "I heard it too! Someone must be fighting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "声音是从外环平台上传出来的，那里地形开阔，{namecode:491}，让舰载机先去侦察一下！",
+			say = "It's coming from the outer ring platform. Jade, send some planes there to see what's happening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "遵命！",
+			say = "On it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "还有一段距离，大家再加快些速度！",
+			say = "Quickly now, everyone! We have quite some distance to cover!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_3",
 			hidePaintObj = true,
-			say = "？？？·米德加尔特之塔-外环平台",
+			say = "Mirror Sea - α phase, tower outer ring",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼……呼…………发现失踪目标了！",
+			say = "*pant*... *pant*... I've found the target!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "第一眼看到舰载机还以为是敌人袭击，原来是增援……",
+			say = "I had a hunch it was you all when I saw those Iron Blood aircraft.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "{namecode:435}大人，看起来革律翁的调试已经完毕了啊。",
+			say = "I see you've learned to use the Type Zwei rigging, Bismarck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这就是新型舰装完成后的样子。",
+			say = "Ah, I've never shown it to you before, have I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "多亏了你的协助，我才能再次站在这里，再次向你表示感谢。",
+			say = "I owe you and the Commander thanks for helping me stand once more. You have my gratitude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……不用客气，这……是我应该做的。",
+			say = "Don't mention it. I only did what needed to be done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96}小姐，你平安无事真是太好了。",
+			say = "Zuikaku, I'm glad you're safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？！我、我没关系的！",
+			say = "Y-yeah, I'm fine! Hope I didn't make you worry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个，您、您是{namecode:435}阁下没错吧！",
+			say = "(Is that really Bismarck? I'm still a bit woozy after waking up...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这……这幅身姿究竟是？！",
+			say = "(Her rigging seems completely different, both in looks and size!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这才是您康复后的真正实力么？！",
+			say = "Sorry for asking, but... is that rigging yours?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "以这幅姿态见面还是第一次吧，{namecode:96}小姐。",
+			say = "Indeed. This is the Type Zwei rigging, a collaborative effort with my life on the line, quite literally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "如你所见，这就是铁血的下一代舰装的原型。",
+			say = "But, you can just call him \"Geryon.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我并非要故意隐瞒实力，只是这项技术尚未进行充分的技术验证，如果不是事出紧急我本来是不打算投入实战的。",
+			say = "I didn't mean to hide his existence from you, but this technology is still highly experimental.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "既然你有兴趣的话，等回去之后一定满足你的好奇心。",
+			say = "Had we not encountered an emergency situation, I would've preferred to not bring him into combat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过现在，我需要搞清楚浮岛要塞到底发生了什么事。",
+			say = "After we get back, I'll be glad to answer any questions you have. Before that, however, I'm afraid we need to talk business first–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔为什么会被启动，还有……{namecode:464}呢？",
+			say = "Why was the Tower of Midgard activated, and where is Ulrich?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "让我来回答这个问题吧，是这样的——",
+			say = "It's a bit complicated, but let me explain–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……概念上的攻击，长睡不醒的铁血成员……开启米德加尔特之塔的{namecode:464}。",
+			say = "So, this began as a conceptual attack that placed everyone from Iron Blood into a deep sleep. Ulrich was manipulated through these hallucinations to activate the Tower of Midgard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "情况我都了解了，不用担心昏睡中同伴的安全。",
+			say = "It's at least a relief to know that their lives are not in any imminent danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我们抵达浮岛要塞后，第一时间就将把她们转移到医疗舱了。",
+			say = "Thank you, both of you, for explaining the situation and for coming to aid Ulrich.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，这样就没有后顾之忧了……",
+			say = "I mean, I haven't done anything worthy of thanks yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你们真的完全没感受到那阵冲击么？",
+			say = "Just curious, did you guys not sense the shockwave that knocked me and Gneisenau out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时我们正忙着应付塞壬IV型舰队的攻击呢。",
+			say = "Uhh, don't think so? We had our hands full with the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "也没注意到有什么冲击之类的……",
+			say = "If it even reached us, it probably had already fizzled out to the point of not being noticeable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "嗯，我也没有什么特别的感觉。",
+			say = "I didn't sense anything of the sort either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "况且当时要是睡着的话，立刻就会被塞壬火力命中的。",
+			say = "If it had the same effect on us, the Sirens would've turned us into mincemeat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "我也一样。",
+			say = "Didn't notice anything here. Regina says the same thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……也许这道冲击的影响会随距离衰减。",
+			say = "That makes sense... Energy does dissipate as it travels, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但既然如此……为什么{namecode:416}会突然离开队伍呢……",
+			say = "But, if none of you felt anything... What happened to U-556?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "{namecode:435}大人，{namecode:416}……是不是已经META化了？",
+			say = "If I had to speculate, I'd say she started undergoing METAmorphosis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎？！META化？！",
+			say = "METAmorphosis? You really think so?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你怎么知道的？",
+			say = "What makes you say that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我能从噩梦中醒来，是因为受到了她的攻击。",
+			say = "I was actually trapped in a hallucination myself during that time frame. I only was able to snap out of it because U-556 attacked me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "而导致冲击出现的时间与您提到的{namecode:416}发生异常的时间非常接近……",
+			say = "I clearly remember, she looked very similar to how I look now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她向什么方向走了？",
+			say = "I see... Where is she now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "应该是米德加尔特之塔的出发区。",
+			say = "She likely went inside the Tower of Midgard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我还没有完全摆脱噩梦影响的时候，看到米德加尔特之塔的光束抖动了一下。",
+			say = "Before I managed to completely shrug off the influence of the hallucination, I saw a pillar of light in the distance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "那是有人使用了传送功能的信号。",
+			say = "That's a signal that someone activated the gate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "…………我们得快点行动了。",
+			say = "...I need you two to come with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,7 +901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "控制室与出发区在同一条路线上，我们先去看一下{namecode:464}的情况。",
+			say = "We must head for the control center and see if Ulrich is there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
-			say = "？？？·米德加尔特之塔-控制室",
+			say = "Mirror Sea - α phase, inside the tower",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,11 +951,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:491}",
+			actorName = "Jade",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，发现{namecode:464}阁下了！",
+			say = "There she is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,11 +963,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:510}",
+			actorName = "Otto von Alvensleben",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}大人————",
+			say = "Ulrich!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,11 +975,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "Gneisenau META",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "等等！所有人都不许靠近过去！",
+			say = "No! Stay away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,8 +1001,8 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
-			actorName = "{namecode:477}",
-			say = "…………{namecode:435}大人，你应该已经感受到了吧，控制室里传来的不寻常气息。",
+			actorName = "Gneisenau META",
+			say = "Bismarck, you feel it too, don't you? The aura coming from the control room is making my stomach turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,11 +1016,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "Gneisenau META",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "贸然进去实在是太危险了。我们应该另想办法。",
+			say = "Going in unprepared is dangerous. We should find another way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,11 +1028,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，那些是，强烈的META化侵蚀气息……",
+			say = "I know that feeling. Her hull is undergoing corrosion as we speak, but it might not be too late if we act now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,11 +1040,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所有人都在门外待机。",
+			say = "Gneisenau, take the others away from the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1052,11 +1052,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不……离房间远一点，到走廊的尽头待机，剩下的就交给我吧。",
+			say = "Wait outside the door. No, just to be safe, at the end of the corridor. I'll handle this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,11 +1064,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:477}",
+			actorName = "Gneisenau META",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:435}大人？！这种程度的侵蚀，尤其是你更不应该去接触啊！？！",
+			say = "You can't be serious, Bismarck! You already know the risks of being exposed to further corruption–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,11 +1076,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我不会有事的，放心吧。",
+			say = "Don't worry about me. I'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,11 +1088,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你也和大家在一起等，剩下的交给我就好————",
+			say = "Stick together. I'll call you once I'm done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾锚地·周边海域",
+			say = "Scapa Flow - Nearby Waters",
 			side = 2,
 			bgName = "bg_endingsong_12",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然是来自{namecode:435}的广播………这还真是令人震撼。",
+			say = "So Bismarck returns to formally declare war against the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "你不是说已经没有藏着的牌了么？",
+			say = "Was this your trump card, Friedrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:435}阁下可是操牌手，负责发牌之人哦。",
+			say = "No, this was always Bismarck's will... For she is no card, but rather the dealer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "那她还真是做出了不得了的宣言，没想到你们会做出这种选择。",
+			say = "Quite a refreshing turn of events compared to the usual plotting. Do you have any idea what it means to turn against the Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "如你所见，如你所听。",
+			say = "Of course. But it is the path the Iron Blood must walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这只是铁血的决定，我不会要求你们做出保持一致的。",
+			say = "Naturally, the Sakura Empire is not obligated to follow us down this path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "欸~刚舰船化没多久，居然遇到了这么多戏剧性展开！",
+			say = "\"Hehehe... How lucky we are to witness such a thrilling show just after waking up.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 402070,
-			say = "活着真是太好了。",
+			say = "Yes, I'm glad that I'm here to witness this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，只有活下去才能见证历史的发展。",
+			say = "If you want to see the course of history change with your own eyes, you'll have to stay alive though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "……我才刚理解之前的局势，现在的发展又看不懂了。",
+			say = "I don't even know what's going on anymore. Weren't we gearing up to fight the Azur Lane just a moment ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "所以我们接下来不用和碧蓝航线来一场了对么？",
+			say = "Was that all a ruse then? Our only enemies are the Sirens, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你想先打一打？",
+			say = "Why, did you want to try your hand against the Azur Lane?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "那倒也不用……我们跟她们无冤无仇，打一场也挺累的。",
+			say = "Nah, I don't have anything against them. Whatever lets me go back to sleep sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果说与其他阵营之间是立场之争的话，与塞壬之间就是生存之战了。",
+			say = "While the Crimson Axis and Azur Lane have ideological differences, those are nothing in comparison to the existential threat posed by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404030,
-			say = "此为最优先。",
+			say = "The single enemy of all humanity has always been clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "没错，我现在对于塞壬依然有着满满仇恨哦！",
+			say = "Hehe. In that case, shall we make sure to pay one back for our warship predecessors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "刚才的那些量产型实在不够看，现在这些要更耐打吧？",
+			say = "Taking these Sirens down should be worth a lot more than those small fries back in the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 403110,
-			say = "越是强大的敌人，越有攻略的价值哦，呵呵呵~",
+			say = "It'll be exciting to hunt down stronger enemies. Don't you agree, Elbing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:457}突然气场变得好像邪恶的反派……好可怕……",
+			say = "I-I don't think I'll ever be able to beat the Sirens... I'm just gonna drag everyone down and be a hindrance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这种发言不是很符合我现在的气质么，哼哼~",
+			say = "That sounds like you're ready to go to me! You heard it, Friedrich. Lead us into battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "那么，我想已经不需要特意询问了。",
+			say = "None of you are obligated to follow me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 402070,
-			say = "那是当然，直接进行下一步计划吧。",
+			say = "Will you direct me to my enemies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们要去哪里打？",
+			say = "\"Yes, tell us who we are to flay.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "构建者。既然出战，自然选择价值最高的目标。",
+			say = "A high-ranking Siren by the name of Compiler. She is the one responsible for the weather anomalies here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "直接瞄准对面的舰队总指挥的斩首战术呢~不错！",
+			say = "Going straight for the enemy's head, huh? A daring strategy – I like it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 404040,
-			say = "就是对面的舰队指挥官已经开始行动了，我们也得加速，拖拖拉拉可就抢不到了！",
+			say = "Oh, looks like the Azur Lane is starting to make their move too. Let's pick up the pace, or we'll get left behind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哦对，临行之前还有一件事。",
+			say = "Indeed. Let us begin our attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:482}，还有{namecode:480}，能听到么？",
+			say = "August, Ägir, proceed to the next phase of the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499020,
-			say = "玩够了就回来，要进行计划的下一步了。",
+			say = "You two have another goal other than simply defeating the Sirens here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499050,
-			say = "我们原本想在你回来之前赶回来呢，不知不觉已经这个时候了啊~",
+			say = "Understood. I didn't expect you to come back so soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 499060,
-			say = "遵命，我们这就返回「阿瓦隆之门」进行准备。",
+			say = "The gateway to the Singularity, yes? Leave it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "姐姐，我们怎么办？",
+			say = "Akagi, what are we going to do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "全员跟随在铁血舰队后方，但是在遭到攻击之前，重樱舰队不主动对任何一方发动进攻。",
+			say = "We'll follow the Iron Blood for now. But don't stick your head out unless we're under attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 307010,
-			say = "尤其是你，{namecode:96}，听到了么？",
+			say = "That goes especially for you, Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff5c5c",
-			say = "是……遵命。",
+			say = "H-hey, what's that supposed to mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

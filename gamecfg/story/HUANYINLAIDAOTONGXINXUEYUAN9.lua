@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "终于，在击败了最终、最初、也是最强的石膏喵后，以其为核心的镜面海域土崩瓦解。",
+			say = "When the first, final, and most powerful Meowfficer bust is defeated, the Mirror Sea loses its core and collapses.",
 			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}也得以关闭了校园陪伴系统。",
+			say = "Yuubari manages to safely shut down the Academy Companion System, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "一段时间后的童心学院——",
+			say = "Some time after, at Little Academy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是指挥官，学院中的不可思议就这样被解决了！",
+			say = "Great work, Commander. You solved the school's problems in the blink of an eye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~大家也都很有成为冒险之王的潜力嘛~",
+			say = "Heheh~ I think you all have the makings of adventurers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好累……我要找个地方躺下狠狠玩手机……",
+			say = "Tiiired... I wanna lie down and scroll on my phone for hours now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "终于可以回来保护指挥官的安全了~让我摸摸…闻闻……",
+			say = "I can finally go back to guarding the Commander. Heheh~ I need a whiff so bad right now~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "你这家伙，离指挥官大人远一点啦！",
+			say = "Stay away from the Commander, you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "大家吵吵嚷嚷闹作一团，在彼此的追逐打闹声中，“奖励”如约而至。",
+			say = "While everyone rejoices over our victory, their promised reward is brought to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "大家久等了——这是指挥官特别叮嘱我为大家准备的凯旋甜点。",
+			say = "Thank you all for waiting. The Commander ordered this dessert be made to celebrate your triumphant return.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "一份份精美的蛋糕和马卡龙送到了孩子们的手中。",
+			say = "Exquisitely decorated cakes and macarons are given to the shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "好美味——指挥官，敦刻尔克，我希望每天都可以吃到！",
+			say = "Mmm! I wanna eat tasty cake every day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102190,
-			say = "会变胖……可是……好吃！指挥官也一起吃！",
+			say = "Ugh... I'd put on so much weight, but... It's too good! Commander, eat with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "慢慢吃，别噎到了。企业她们去拿饮料了，等下记得去喝。",
+			say = "Eat slowly, now. You don't want to choke. Enterprise and the others went to get drinks, so make sure you all get one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207130,
-			say = "知道啦~",
+			say = "Okaaay♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "一场在学院中举行的简易庆功茶话会就此开始——",
+			say = "Thus, we begin a simple victory celebration on the academy campus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "与此同时，总控室内——",
+			say = "Meanwhile, in the control room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}一行人正在维修校园陪伴系统。",
+			say = "Yuubari is hard at work on the Academy Companion System.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到“陪伴情感”模块这一小段错误代码会导致陪伴系统变得异常极端。",
+			say = "Man... I can't believe a little bit of erroneous code in the companion module drove the whole system crazy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不仅强制大家执行任务，还产生了异化石膏喵监督大家……",
+			say = "It forced missions on them all, and it even made Meowfficer busts to supervise them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "本来应该是引导大家去做开心的事情，享受校园时光，却因为极端的情感而变成了强制享受校园时光……",
+			say = "A program meant to guide people and help them enjoy their academy life became overly emotional and forced them to do things they didn't want to do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "万幸没有人受伤……",
+			say = "Count your lucky stars that nobody got hurt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "欸……维护，升级……是个大工程呢……",
+			say = "Ugh... Maintenance, updates... Too much to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "操场那边轻松愉快的欢笑声传来，伴随着柔和而温暖的阳光。",
+			say = "Soft sunlight filters in through the window, followed by the voices and giggles of the little shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "不过还是有必要给陪伴系统做维护升级的……",
+			say = "It doesn't matter how much work it takes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "毕竟它的设计初衷是——",
+			say = "I hope you haven't forgotten the point of this system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}回想起了不久以前，小小的女孩们结伴来到了她的工作室。",
+			say = "Yuubari recalls how the little shipgirls visited her workshop not long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102190,
-			say = "{namecode:37:夕张}，能拜托一件事吗？",
+			say = "Yuubari, can I ask you a favor?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "怎么了？如果是梳头发的话……我可能不大擅长哦。",
+			say = "What is it? I'm no good at brushing others' hair.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其他姐姐们说之后会时常抽空来学院陪我们玩，指挥官也说要常来。",
+			say = "The Commander and older shipgirls said they'd come to the academy when they could make time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "{namecode:37:夕张}能帮我们做一个系统，引导我们带着大家一起玩么？",
+			say = "Yuubari, can you make a guidance system that'll show them how fun our school can be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "“愿所有人都能够度过开心、快乐的一天。”",
+			say = "It's here to help make their every day as happy and fun as can be, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「欢迎来到童心学院」·END",
+					"END",
 					2
 				}
 			}

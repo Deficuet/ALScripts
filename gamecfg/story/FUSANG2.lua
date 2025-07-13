@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>二  甜美的购物时光</size>",
+					"After the Flowers Bloomed\n\n<size=45>2 Shopping for Sweets</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "向{namecode:78}询问了携带大量硬币的原因——",
+			say = "Curiosity overtook me, and I asked Fusou what she had planned on doing with the money.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实……我打算去商店买些甜食，犒劳那些经常来神社帮忙的孩子们。",
+			say = "Actually... I was headed to the store to buy some sweets for the girls who help out at the shrine every day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有空的话，殿下要不要一起去看看？",
+			say = "Would you like to accompany me, Milord?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得前面的商店里有卖那种放满了豆沙馅的美味大福饼呢——",
+			say = "There's a shop just ahead that sells daifuki mochi stuffed richly with red bean paste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "在走进商店时，发现了一同进来的{namecode:147}。",
+			say = "When we arrived at the shop, we ran into Michishio, who had come at about the same time as us.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是指挥官和{namecode:78}？你们是一起来买点心的吗？",
+			say = "Oh, hi there, Commander~ And Miss Fusou as well! Did the two of you also come to buy some sweets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢，想给在神社的大家买些点心……啊，大福麻糬只剩一个了。",
+			say = "Indeed. I wanted to prepare a treat for everyone at the shrine... Oh, is there only one daifuku left?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，{namecode:78}小姐也是来买大福的吗？！",
+			say = "Ehh? You're also here for the daifuku?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜~咱最喜欢这里的大福了，如果{namecode:78}小姐是给在神社帮忙的同伴买的话，那就让给你吧……",
+			say = "Ugh... They're my favorite, but... I can't just put myself over all the girls helping out at the shrine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系哦，{namecode:147}想要就买吧。我打算直接买些材料，回去亲手做给她们好了。",
+			say = "It's alright, Michishio. I'll just buy the ingredients for dango instead and make them by hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？可、可以吗？",
+			say = "Huh? S-seriously? Are you sure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然可以哦，放心拿吧。",
+			say = "Don't worry about it. Please enjoy your treats~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢{namecode:78}小姐！耶！大福大福~♪",
+			say = "Thanks, Fusou, you're the best! Ahh, I love daifuku~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "{namecode:147}开心地买下了大福，离开了商店。",
+			say = "Michishio happily bounced out of the store with the purchased daifuku in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这样一来，做大福的材料就买齐了。",
+			say = "...Very good. We have everything we need to prepare some dango.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了感谢殿下帮我捡到钱包，到时请务必来尝尝我亲手做的大福哦。",
+			say = "Milord, you're more than welcome to stop by if you'd like. As a special token of my appreciation for finding my purse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会亲自喂给您的，您只要“啊”地张开嘴就好了~",
+			say = "I'd be glad to feed you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:78}开心地笑了起来。说实话有点分不清她是开玩笑还是认真的…",
+			say = "I wasn't sure if Fusou was joking or not, but she was giggling lightheartedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

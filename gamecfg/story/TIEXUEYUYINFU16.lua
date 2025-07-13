@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第六乐章\n\n<size=45>「新生～Der Genesende～」</size>",
+					"Seventh Movement\n\n<size=45>The Convalescent</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "哈啊啊啊！！————",
+			say = "Ahahahahaha~!!",
 			bgm = "story-8",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 205050,
 			dir = -1,
-			say = "啧！装甲被——",
+			say = "Ugh! My armour...",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当心！这个不是普通的炮击！",
+			say = "Watch out! This is no ordinary cannon that we're up against!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（战列舰的装甲……居然一击就……）",
+			say = "(Unbelievable... it melted through battleship armor just like that...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "雾气散去后，{namecode:435}逐渐出现在视野里，浑身被一道黑色泛红的光芒所围绕着",
+			say = "As the mist began to settle, Bismarck gradually came back into view, but she was different from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "散发出一股不祥的气息",
+			say = "Surrounding her was a ghastly black and red aura, pulsing ominously as if oozing blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "而测试者，早已不知去向",
+			say = "Tester was nowhere to be found.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "曾经有个伟人说过",
+			say = "A great man once said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "“这个世界上没有神,假使有的话,我岂能忍受自己不是那个神?所以,这个世界上没有神!”",
+			say = "There is no God in this world. Even if there was, I would have slain him with my own hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 205050,
 			dir = -1,
-			say = "终于露出原型了吗，铁血的战舰！",
+			say = "You've finally shown your true colors, Iron Blood battleship!",
 			flashN = {
 				color = {
 					1,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "曾经有那么一瞬间，我还以为你有着那么一点属于战士的荣耀",
+			say = "For a moment there, I almost thought you had some honour as a warrior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "看来只是我多心了",
+			say = "Turns out, my concerns were wasted on the likes of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "皇家舰队从来不畏惧失败和死亡，而你却在最后放弃了身为战舰的尊严",
+			say = "We of the Royal Navy will never sacrifice our dignity out of fear of death or failure, but you threw away yours so easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不论你自诩为神亦或是太阳",
+			say = "Whether you deem yourself to believe in God or the sun matters not to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "我们都会将你和你的阴谋彻底击败！",
+			say = "All you need to know is that we will put an end to you and your plot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

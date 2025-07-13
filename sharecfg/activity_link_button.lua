@@ -245,22 +245,6 @@ pg.activity_link_button = {
 			73
 		}
 	},
-	[106] = {
-		type = 2,
-		name = "event_blackFriday",
-		text_pic = "text_event_blackfriday",
-		id = 106,
-		group_id = 11,
-		pic = "event_blackfriday",
-		order = 1,
-		time = {
-			"default",
-			5702
-		},
-		param = {
-			"BlackFridaySales"
-		}
-	},
 	[107] = {
 		type = 2,
 		name = "event_tolove",
@@ -359,9 +343,6 @@ pg.activity_link_button = {
 		event_boat_ad_game = {
 			105
 		},
-		event_blackFriday = {
-			106
-		},
 		event_tolove = {
 			107
 		},
@@ -388,7 +369,6 @@ pg.activity_link_button = {
 		103,
 		104,
 		105,
-		106,
 		107,
 		108,
 		109

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"淑女的小小提案\n\n<size=45>五 妹妹的一言</size>",
+					"A Lady's Modest Proposal\n\n<size=45>Chapter 5 - The Little Sister's Opinion</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "光辉去找女仆队商量茶会用的杯子的安排，几十分钟后——",
+			say = "It's been a bit since Illustrious went to the Royal Maids' headquarters to give them the cups they would use during the tea party...",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "正闲得慌的时候，终于听到了从入口坡道处传来的声音。",
+			say = "Just as I was getting bored out of my mind, I heard someone's voice from near the foot of the hill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼~原来如此…这里就是姐姐找到的举办下次茶会的地方啊~",
+			say = "I see, so this is where you're planning on holding your tea party~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "站在返回的光辉身旁的，是她的妹妹胜利。",
+			say = "Standing next to Illustrious was her little sister, Victorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈罗，指挥官。刚刚从姐姐那里听说了这个地方，感觉好像还挺有意思的，所以让她带我来这里了~",
+			say = "Hello there, Commander. My sister just told me about this place and it sounded interesting, so I had her bring me over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，你觉得如何呢，胜利？是不是一个很棒的地方~？",
+			say = "How is it, Victorious? Don't you think I've found quite the spectacular place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风景确实不错呢~不过…两位是不是漏掉了一个很重要的部分？",
+			say = "Well, it certainly has a nice view, but... aren't the two of you forgetting about something veeery important?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很重要的部分…？是什么呢……？",
+			say = "Something important? What could that be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然是“通往美丽地方的路，一定要是美丽的！”的意思呀！",
+			say = "You're forgetting that the road that leads to a beautiful place should be beautiful as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来之前的坡道上全是树枝和落叶，很难走呢…",
+			say = "The road to this hill just won't do. It's hard to walk up here because it's covered with branches and fallen leaves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…仔细一想，确实是这样……",
+			say = "Now that you mention it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "低头的时候总是很容易失去平衡，所以不知不觉忽略了地面的事情呢…真是不好意思了……",
+			say = "I always lose my balance when I look down, so I never look at the ground...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要随便炫耀自己太大的事实！",
+			say = "Don't brag about how big your knockers are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？太大……？炫耀……？",
+			say = "Brag... about my... knockers...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜…姐姐你真是的！",
+			say = "Ugh... You really are something else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，好好看着姐姐，别让她在扫除的时候不小心摔倒了!",
+			say = "Commander, keep an eye on my sister, would you? Make sure she doesn't fall over when cleaning and such!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…指挥官，对不起，能请你能再帮我一下吗？",
+			say = "Commander, I apologise, but... Would you mind helping me just a bit more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,51 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "拒绝的选项什么的自然是不存在的，迅速地向他伸出了手，然而——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_twilight",
-			say = "马上要天黑了，该加紧速度才是。但不知为什么，她却一脸不可思议地看着自己伸出的手。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_twilight",
-			say = "嗯…这个举动有这么出人预料么……",
+			say = "Of course I had no intention of turning her down. I extended my hand toward her to show my willingness, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +341,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…好的，那就麻烦指挥官了",
+			say = "Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +355,51 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "光辉略带拘谨地握住了自己伸过去的手，柔软纤细的指尖缠绕的触感传了过来。",
+			say = "I was trying to express that we should hurry because the day was getting dark, but she didn't seem to understand that, and looked at my hand with perplexment.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_twilight",
+			say = "As I was wondering if what I did was really that strange, Illustrious suddenly spoke.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_main_twilight",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...Okay. Thank you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_twilight",
+			say = "Illustrious hesitantly reached for my hand, and wrapped her thin, soft fingers around mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "准备工作也差不多要结束了。想到这里，不禁有有种恋恋不舍的感觉——",
+			say = "Everything was almost ready for the tea party. Knowing that this would soon end, I felt a bit regretful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

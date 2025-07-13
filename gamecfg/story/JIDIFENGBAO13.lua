@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"Wolf Unit",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"Flagship: Kursk",
 					2
 				},
 				{
-					"佩韦克前哨站外围海域·北方联合控制区",
+					"Objective: Scout the region",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "雪片在风中飞舞，距离战役开始已经过了一段时间。",
+			say = "Some time had passed since the beginning of the operation. All five shipgirl units had charged into the snowy region of ocean.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在这期间，舰队一直在战役部署中未被提及的角落低调地航行着。",
+			say = "In a sea route separated from the main battlefield, an unannounced sixth unit stole undetected along the waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "正如她们的分队代号一样，这支舰队就是“极地风暴”中的“孤狼”。",
+			say = "Code name Wolf was led by a single woman, one who truly was a fitting choice for a lone wolf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "呼呼呼~其实所有方向的进攻都是佯攻哦，目的是为了掩护我们的行动！",
+			say = "Hahahahah! So all of the other units are feints, and we're the real stars!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。",
+			say = "Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "……也就是说，我们才是整场战役的核心哦！",
+			say = "Rejoice, Kursk! You have been designated as she who will lead our revolution!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。",
+			say = "Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "…………我发现了，库尔斯克同志，你是不是不爱聊天？",
+			say = "...Cold. Are you no good at talking or something, Comrade Kursk?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。",
+			say = "Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "……、、、、、、",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……单独行动久了，不太习惯聊天。",
+			say = "...Yes. As you said, I'm not much of a communicator. I'm used to working alone, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "原来如此原来如此……那没关系，等多聊聊之后就习惯了！",
+			say = "I see, I see! Well... No worries! You'll open up in no time, I'm sure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "好。",
+			say = "Mm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "啊哈哈…………对了对了，我带了点好东西！",
+			say = "Aahahahah... By the way! I brought something fun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "现在还没进入塞壬控制区，稍微享用一下也不碍事……",
+			say = "We're not in the Sirens' sphere of influence yet, so we might as well partake just a little...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "稍等，我找找哦…………",
+			say = "Let's see, where are you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "…………诶？我的……“特别补给物资”去哪儿了？！",
+			say = "...Hm? Where did my special supplies go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "因为作战期间禁止饮酒，所以我划掉了。",
+			say = "No drinking on the job. I left it back at our point of departure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "啊啊啊………………！",
+			say = "Noooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "那个是像现在这样有空闲的时候……以及，庆祝胜利的时候喝的啊！",
+			say = "It's not like I'm Gangut! I drink wine, not vodka! Wine is made for celebrating victories!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "在我们离开佩韦克前哨的时候，作战就正式开始了。",
+			say = "We celebrate victories after the battle is over. There's no reason for you to have it with you during the battle, now, is there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "至于庆祝胜利，等到作战结束之后再说吧。",
+			say = "...Sevastopol, you can drink to your heart's content after the battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "库尔斯克同志也没意见吧？",
+			say = "Sound good to you, Kursk?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。",
+			say = "Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "很好。你看，少数服从多数。",
+			say = "Two versus one. Seems like this argument is settled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "等等！库尔斯克同志，在离开我们的控制区之前，稍微喝几口也没问题对吧！",
+			say = "Hey, nobody said we were keeping score! This is for the sake of a revolution, so what's wrong with a few sips?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。",
+			say = "Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "你看，她也没意见！这么说来你才是少数！",
+			say = "SEE?! Now you're in the minority this time, Voroshilov!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "也许你说的有一定道理。但是我们现在已经启航了，你打算折回去拿么？",
+			say = "Then why don't you go back and get it? Time is ticking, and the mission has already started.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "我真是、败给你了…………",
+			say = "...Fiiine. I give up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "风雪中，一个雪白的身影从远处飞回库尔斯克的身边。",
+			say = "It was then that a white owl emerged from the curtain of snow and approached the group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "它抖落身上的积雪，之后静静地站立在库尔斯克的肩上。",
+			say = "The bird, seemingly unaffected by the Sirens' severe weather , shook the snow off of its wings and quietly landed on Kursk's shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……即将进入冲突海域，侦察机显示，前方无异常。",
+			say = "We're almost in Siren territory. My recon drone tells me that there is nothing abnormal on our route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "欸……侦、侦察机？我只看到了你的雪鸮啊！",
+			say = "Recon drone? You mean that little owl...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "侦察机飞在更前方的位置……在你的视野之外。",
+			say = "No, this is just an owl. My recon drone is beyond our current field of vision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "那、那为什么是你的雪鸮飞回来之后你就知道消息了啊！",
+			say = "Okay, but that's an easy mistake to make, right? Like, c'mon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "听到了呼唤，库尔斯克肩上的雪鸮180度转过头，塞瓦斯托波尔冲它做了个鬼脸。",
+			say = "Sevastopol shot a glance at the owl. It turned its head around 180 degrees to face her, and apparently sensing her confusion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "而它却并未回应，只是默默地闭上了双眼。",
+			say = "It closed its eyes in silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "……好、我理解，你不擅长聊天…………",
+			say = "...Heheh. It's a lot like you, Kursk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "风雪越来越大，跟紧我，不要掉队了。",
+			say = "Disagreed. Regardless, the snow is getting stronger. Don't stray away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			actor = 705070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是——————",
+			say = "Heh. Don't you worry about me!",
 			painting = {
 				alpha = 0.3,
 				time = 1

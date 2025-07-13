@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，遭受了异常电磁干扰，G.M系统显示暂时失效。",
+			say = "System is being jammed. Navigation menu cannot be displayed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

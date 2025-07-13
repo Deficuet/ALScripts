@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
-			say = "阳光、鸟鸣、青草与花朵的芳香……",
+			say = "(The warm sunlight... The sound of birds chirping... The gentle aroma of the free-flowing wind...)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			bgm = "story-1",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "这里是……长椅上？",
+			say = "(...Where am I...?)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………？",
+			say = "(Who is this girl...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔………zzZ",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请问…？",
+			say = "(Her ears are... Nay, these are fake ears...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲没有睡觉哦，没有睡觉…",
+			say = "Laffey... isn't sleeping... Nope...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在是…什么情况？请问汝是…",
+			say = "(Laffey...? I haven't heard of any... Oh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}也睡糊涂了么…我是拉菲，白鹰的拉菲。",
+			say = "I'm Laffey, from the Eagle Union. You were also sleeping here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的，拉菲号驱逐舰…？！",
+			say = "(Laffey... from the Eagle Union...)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拉菲想起来了，指挥官让拉菲来通知演习舰队的成员。{namecode:182}准备好了之后，就去港口集合哦。",
+			say = "I remember now... Commander asked me to gather everyone at the harbor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲还要去通知其他人，先离开了…zzZ",
+			say = "I still need to call the others... so I'll be off now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没有感受到敌意，也没有向妾身发动攻击？",
+			say = "(I feel no hostility or wariness from her... It is as if it is natural for us to coexist...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "又是和白鹰联合的梦么，可是并没有感受到硝烟的气息…这种感觉是……总之先收集情报吧。",
+			say = "(A dream where the Eagle Union and the Sakura Empire are friends? ...What am I seeing...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

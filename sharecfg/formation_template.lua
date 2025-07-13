@@ -2,7 +2,7 @@ pg = pg or {}
 pg.formation_template = {
 	[10001] = {
 		id = 10001,
-		name = "单纵阵",
+		name = "Simple line",
 		pos_offset = {
 			{
 				z = 0,
@@ -38,7 +38,7 @@ pg.formation_template = {
 	},
 	[10002] = {
 		id = 10002,
-		name = "复纵阵",
+		name = "Complex line",
 		pos_offset = {
 			{
 				z = 0,
@@ -74,7 +74,7 @@ pg.formation_template = {
 	},
 	[10003] = {
 		id = 10003,
-		name = "轮形阵",
+		name = "Wheel",
 		pos_offset = {
 			{
 				z = 0,
@@ -110,7 +110,7 @@ pg.formation_template = {
 	},
 	[10004] = {
 		id = 10004,
-		name = "锥形阵",
+		name = "Cone",
 		pos_offset = {
 			{
 				z = 0,
@@ -146,7 +146,7 @@ pg.formation_template = {
 	},
 	[10005] = {
 		id = 10005,
-		name = "单横阵",
+		name = "Simple row",
 		pos_offset = {
 			{
 				z = 0,
@@ -182,7 +182,7 @@ pg.formation_template = {
 	},
 	[10006] = {
 		id = 10006,
-		name = "雁形阵",
+		name = "Flying V",
 		pos_offset = {
 			{
 				z = 0,

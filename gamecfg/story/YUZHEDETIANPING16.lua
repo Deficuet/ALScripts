@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"维希教廷所属",
+					"Vichya Dominion - Waters around Toulon",
 					1
 				},
 				{
-					"土伦·海军要塞",
+					"After the Gazer appearance",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			bgm = "story-french1",
-			say = "危险正在逼近土伦港，维希教廷舰队已经驶出港口，然而——",
+			say = "The Vichya Dominion and Iris Libre formed a coalition fleet to respond to the imminent crisis. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "回港？不，克莱蒙梭，你不明白现场的情况！",
+			say = "Return to the anchorage?! You can't be goddamn serious, Clemenceau!",
 			action = {
 				{
 					type = "shake",
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "白色的不明物质正在陆地上快速扩散，还有许多从天而降的怪异机甲正在大肆破坏。",
+			say = "That unknown substance will cause unimaginable damage if we don't do somethin' about the enemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "国土正在燃烧，我们必须要有所行动才行！",
+			say = "We're shipgirls, dammit! Our duty is to protect humanity!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "现状我很明白，我的命令也很明确。",
+			say = "Yes, I'm well aware. That is why I'm telling you to return to the anchorage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "土伦舰队不得离港。",
+			say = "Don't let the lives I saved from the Commander go to waste.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "你想做战斗准备可以自便，但是除非港口遭到了正面袭击，否则就算有流弹飞进来，也禁止开火还击。",
+			say = "I'm not telling you not to fight, alright? If the Gazers launch a direct attack on Toulon, then you may counterattack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你在开什么玩笑？！现在这种情况下，你就让我们白白看着？！",
+			say = "Piss off! You think I'm just gonna sit with my thumb up my ass while everything goes to hell around me?!",
 			action = {
 				{
 					type = "shake",
@@ -195,7 +195,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我不想把命令重复第三遍了。",
+			say = "For goodness' sake... I'm tired of repeating myself over and over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "加斯科涅，劝说{namecode:523}大人执行命令。",
+			say = "Gascogne, be a dear and \"persuade\" her, will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:523}大人，请不要违抗教廷司令部的命令。",
+			say = "Jean Bart. Requesting that you accept the anchorage plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "否则，我将被迫执行紧急情况应对协议。",
+			say = "Continued refusal will result in Gascogne engaging coercion protocols.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵……也是，现在你说的算……",
+			say = "Tsk... So what the hell are you trying to achieve here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "很好，后续有情况的话，我会再联络的。",
+			say = "Don't worry, I'll explain once everything is over. Be a good girl, now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………可恶！",
+			say = "...God dammit!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:523}用力锤向通讯器，在其外壳上留下了一处凹陷。",
+			say = "Jean Bart smashed her communicator into her rigging's armor, leaving a dent in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 904010,
-			say = "对通讯器生气也没用。要是弄坏了，维修起来也挺麻烦的。",
+			say = "Taking your anger out on your communicator won't solve anything. If it breaks, you'll need to get it repaired.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……要是收到的都是这种命令，坏了也就坏了吧。",
+			say = "You'd be pissed too if you were in my shoes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "唉……你们都听到命令了，回港。",
+			say = "I'm not 'bout to train my guns on an ally... We'll head to that damn anchorage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 807020,
-			say = "{namecode:523}大人，您别生气，克莱蒙梭大人或许有自己的苦衷。",
+			say = "Please don't feel too downcast, Jean Bart. I would suspect Clemenceau has a plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "您是她的姐姐，更应该理解她才对。",
+			say = "You are blessed sister ships, after all. She must want what's best for–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭已经变了。",
+			say = "No. Clemenceau's changed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……我已经理解不了她了。",
+			say = "She's not the same person I used to know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 807020,
-			say = "至少您应该相信她……",
+			say = "Still, don't you think you should have faith in her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "也许吧……但是我已经做不到了。",
+			say = "I should. But right now, I can't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你们没感觉到，此情此景有些似曾相识么……？",
+			say = "She saved me once, but I can't forgive her for what she's done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……当我离开冰冷的海水再次睁开双眼时，我就发过誓。",
+			say = "When I stepped out of the freezing-cold water and opened my eyes again, I made a promise to myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这一次，我要做出不同的选择。",
+			say = "That I'd make a different decision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "历史，决不会在我眼前重演。",
+			say = "That I wouldn't let the Reenactments play out once again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "鸢尾舰队作为筹码和棋子的日子，该结束了……",
+			say = "That I wouldn't let my friends become puppets and pawns ever again.",
 			painting = {
 				alpha = 0.3,
 				time = 1

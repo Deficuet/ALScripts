@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，能陪我做件事吗？",
+			say = "Honey, there's something I want you to do for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然可以",
+			say = "Yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是什么事情呢？",
+			say = "What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只是想要模仿一下以前看的电影而已啦，刚刚放学的男主角被女主角在窗前抱住……",
+			say = "There's this scene in a movie I saw... Near the end, the girl runs up and hugs the boy by the window after school. I wanna try it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "想象一下……",
+			say = "Just imagine it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿嘿~感觉怎么样？有没有对我怦然心动的感觉呢？{dorm3d}？",
+			say = "Hehe, did it excite you as much as it does me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

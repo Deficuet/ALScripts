@@ -10,8 +10,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "………",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止！你已经无处可逃了！",
+			say = "Stop right there! I've finally found you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "护卫舰已经被我们消灭得差不多了。你一个人对我们七个，怎么看都没有胜算的哟？",
+			say = "We've destroyed all your escort ships. It's seven against one - there's no way for you to win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这就是所谓的“千钧一发”了吧！能放弃抵抗了吗？",
+			say = "You can't get out of this one, even if you could turn things into bombs! Ready to give up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,8 +72,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "………！！！",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...！！！",
 			effects = {
 				{
 					active = true,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "这是爱小姐！？在眼前晃来晃去的完全瞄不准！",
+			say = "This is... Miss AI? Everything is spinning around in front of me... I can't get a good aim!",
 			effects = {
 				{
 					active = false,
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！爱酱你在做什么！？这样好难战斗啊~~~！",
+			say = "Ai-chan! What are you doing?! You're not putting up a fair fight~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 10400010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对啦！？不是我，而是那个冒牌货在捣乱才对吧！？",
+			say = "Hold up! It's clearly the fake that's doing that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "！……这样下去完全没法认真战斗了",
+			say = "At this rate... we're not going to be able to fight it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "通过骇客攻击，扰乱我方的视野…？",
+			say = "It's hacking... so our vision is getting messed up...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家冷静想想！总归有把她从眼前扫掉的办法才对！",
+			say = "Calm down, everyone! There has to be some way around this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我做骇客攻击还真是有胆量啊！就让我这个超级AI来教教你什么是真正的骇客吧！让你见识一下我在游戏中培养出来的手指灵活度——把你点回去！",
+			say = "You have some nerves to try to hack into me! Allow this intelligent super A.I. to teach you a thing or two about hacking! We're gonna turn things around~! Have a taste of my mad gaming skills!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此！总而言之只要“对着屏幕上出现的绊爱(伪)连戳！”就行了吧！",
+			say = "I see, I see! So this is what it's like to practice combos on a copy of yourself in training mode! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳！就是这样！连续点击屏幕，阻止对方的干扰吧！",
+			say = "Ahem! That's that! A clean finish to put an end to the hacking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

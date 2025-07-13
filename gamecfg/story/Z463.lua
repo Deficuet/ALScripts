@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>三 幕间I</size>",
+					"White Poem\n\n<size=45>III Interlude I</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_room",
-			say = "港区·宿舍",
+			say = "Port - Dormitory",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "这件感觉如何？我还不太会选衣服，希望能听到更多的建议",
+			say = "What opine you all, about this outfit? I am not yet sure what clothes I should choose; thus I hope, you can offer me guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "这件有点……{namecode:412}你可以打扮更漂亮点的嘛～又不是{namecode:408}～",
+			say = "This is a bit lacking... You're no Zed. You can dress in something a bit prettier, Viersechs~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,7 +83,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "是啊……你人太认真了容易选到土里土气的衣服，干脆去问问{namecode:410}？",
+			say = "That's right... You're the overly serious type, so you're likely to choose clothes that are too bland. Wouldn't asking Miss Fünf be more helpful?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "我觉得这件衣服也不错啊……",
+			say = "I think this outfit is just fine though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "{namecode:405}跟{namecode:408}半斤八两，都不算！",
+			say = "You're just as bad as Zed, so you don't count!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "诶诶！？",
+			say = "Ehhhhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "{namecode:410}和{namecode:400}的打扮都太扎眼了，问问{namecode:404}的话怎么样？",
+			say = "Fünf and Lebe dress way too gaudily. How about asking Lüde?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "问{namecode:404}的话什么都说好，不算啦。啊！{namecode:411}说不定行！",
+			say = "Lüde just goes along with anything, so that's out. Ah! Sechs might be the one we're looking for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "{namecode:411}的衣服不都是{namecode:410}给她挑的吗……？",
+			say = "I thought Sechs' clothes were picked out by Fünf...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "那{namecode:411}也不行了……所以{namecode:412}的衣服还是由我们三个决定吧……",
+			say = "Then, Sechs won't work either... In that case, I suppose the three of us should come up with something for Viersechs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "啊！抱歉{namecode:412}！我们光顾着自说自话了>_<",
+			say = "Ah! I'm so sorry, Viersechs. We got lost in our own conversation here >_<>_<",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "呃，反正这件怎么看都是冬天才穿的衣服，夏天应该……嗯，这个跟这个，防止晒伤再加件卫衣，怎么样？",
+			say = "Um... this is winter attire anyway, so you'd probably need something else for summer. Uhh... let's pair this with this, and add a parka to avoid sunburns. How's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "好。就这样。",
+			say = "It looks fine to me, let's go with this then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "大家真是的，把{namecode:412}晾在一边自己说个没完……{namecode:412}你挑自己喜欢的衣服就行啦！",
+			say = "Jeez, everyone, you tossed Viersechs aside to prattle on with your own conversations. Shouldn't it be enough to just let her pick what she wants?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "谢谢，我会照做的。",
+			say = "Thank you very much, I'll do as you said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_room",
-			say = "为何我会觉得，她们的对话如此难以加入呢。",
+			say = "For some reason, I found it difficult; to join their discussion, delicately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

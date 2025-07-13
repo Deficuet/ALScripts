@@ -1,12 +1,12 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>编队</color>，将角色编入队伍",
-	"但需要注意，<color=#ffde38>前排先锋和后排主力都只能编入指定类型的舰种 </color>",
+	"<color=#ff7d36>Formation</color> lets you assemble your shipgirls into fleets.",
+	"Note that <color=#ffde38>shipgirls have hull classifications and can only be slotted into your Main Fleet or your Vanguard Fleet accordingly</color>!",
 	"",
-	"点击<color=#ff7d36>添加</color>来编入新角色",
-	"选择需要上场的角色",
-	"点击<color=#ff7d36>确定</color>按钮",
-	"看！新角色成功入队！舰队实力大幅度提升！",
-	"让我们返回到主界面吧！"
+	"Tap <color=#ff7d36>Formation</color> to add your shipgirls to a fleet.",
+	"Pick a shipgirl you want to battle with!",
+	"Now tap on <color=#ff7d36>Confirm</color>!",
+	"Voila! She's been added to your fleet! This raises your fleet's combat capabilities!",
+	"Return to the main screen."
 }
 
 return {

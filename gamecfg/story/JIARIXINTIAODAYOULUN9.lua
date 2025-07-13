@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "房间内的电话响个不停。",
+			say = "The phone in my cabin won't stop ringing.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "扣好衬衫的扣子后，我接通了电话。",
+			say = "I put on my shirt, button up, then pick up the receiver.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂喂——指挥官~今天也是幽灵小姐来汇报日程哦~",
+			say = "Hiii! Ghostie here, ready to give you your schedule for today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前我们还在按照计划航行，没什么特别的问题的话明天就会到达目的地了哦~",
+			say = "The ship is cruising on just as planned. Assuming nothing happens, we'll reach our destination by tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，本来今天长岛是想亲自过来汇报的~但是呢……",
+			say = "By the way, I WAS going to give you my report in-person today, buuut...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是？",
+			say = "But...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是今天晚上有长岛期待已久的游戏之夜！所以长岛要提前开始打游戏寻找手感！",
+			say = "But tonight is finally game night! I want to start practicing right away to find my flow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你根本只是单纯想打游戏吧！",
+			say = "Get real! You just want to play games all day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~在说什么~长岛听不见——进入极地之后信号太差了，听~不~见~",
+			say = "What was that? I can't hear you! The reception is really bad here at the North Pole!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~对了，指挥官想参加游戏之夜的话，记得来娱乐室哦！就这样，拜拜~",
+			say = "Oh, also, you should come to the arcade if you wanna participate in the game night! That's all – bye-bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "电话挂断了。",
+			say = "She hangs up right on the spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还真是一如既往……不过，“游戏之夜”？到时候去看看是什么样的好了。）",
+			say = "(Ugh... Typical Long Island. Nobody told me about a \"game night\" until now, though. Maybe I'll check it out later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "离开了舱室，踏上甲板时，理所应当地看见了北方联合的众人。",
+			say = "I exit my cabin and get on the deck. Unsurprisingly, many from the Northern Parliament are here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……嗯，完全不意外她们会在这里呢。）",
+			say = "(Yup. Not the least surprised to see them out here right now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "阿芙乐尔、基洛夫和水星纪念身边已经有了很多的空瓶，库尔斯克一个人靠在栏杆上看着冰原。",
+			say = "On one side, I see Avrora, Kirov and Pamiat' surrounded by empty, rolled-over bottles. On the other, Kursk is standing alone, gazing at the ice field.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "别喝太多，免得晚上参与不了活动。",
+			say = "Try not to have too much or you'll be too drunk for the event later tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "啊、啊嚏——也快点给我倒一杯啦！",
+			say = "Ah... Achoo! Someone pour me a glass!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "可恶，明明已经裹上了最厚的毯子……怎么还是这么……啊、啊嚏！",
+			say = "Bleh... I brought my warmest blanket, and I'm still freezin' my ass off here! Achoo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "唉，你还是先回居住舱室暖和暖和吧。",
+			say = "Have you considered going back to the cabin area to warm up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "才不要！我没问题的啦！啊、啊嚏——",
+			say = "Hell no! I can handle a little co– Achoo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "你不听我的话，那指挥官的话你总该听了吧~？",
+			say = "Fine. If you won't listen to me, maybe you'll listen to the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,11 +394,11 @@ return {
 			},
 			options = {
 				{
-					content = "配合波尔塔瓦",
+					content = "(Side with Poltava.)",
 					flag = 1
 				},
 				{
-					content = "靠近凶猛，帮她取暖",
+					content = "(Get closer and warm Svirepy up.)",
 					flag = 2
 				}
 			}
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "没错，先回房间里去吧。",
+			say = "You heard the lady. Let's get you back to your cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "万一冻坏了身体，之后的旅途里也没办法好好玩，对吧？",
+			say = "Or would you rather catch a cold and be stuck indoors for the rest of the trip?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你你你、你做什么呐你！突然靠得这么近……",
+			say = "H-h-hey! Give me room to breathe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "算了！我、我还是回房间里取暖吧！",
+			say = "Okay, okay! I'll go back to my damn cabin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "凶猛裹着毯子回房间后，我重新看向聚集在甲板上的众人。",
+			say = "Svirepy retires indoors with her blanket, after which I turn around and address all the Northern Parliament girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们这么早就聚在这里……是因为极地的感觉很亲切么？",
+			say = "You're all out here awfully early. Have you missed the ice and the snow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "算是吧。其实也有另一重原因——说不定可以看见新的动物……咳嗯，指挥官难道不会因此感到兴奋吗？",
+			say = "Partly, yes, but I'm also secretly hoping we'll run into new animals of some kind. Are you not hoping the same, Comrade Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "指挥官同志，北方联合虽然也处于极地，但是南方的极地区域对我们来说还算是很新鲜的。",
+			say = "Yes, our motherland lies in the Arctic Circle, but this is the ANTARCTIC circle, Comrade Commander. It's a completely different experience for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "而且，在这样的地方也还有生命顽强地存在着……但或许这就是不屈的精神吧。",
+			say = "It is amazing that life persists out here. It's a representation of nature's indomitable spirit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "嗯……而且这里还有圆滚滚的、看起来很胖但是腿却很细的企鹅。",
+			say = "Yes. Just think of the round and fluffy penguins with comparatively small feet that live here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "像这样奇妙的可爱生物，真是让人充满期待！",
+			say = "My heart races just imagining such strange and adorable creatures walking around!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不过，我们大家能像今天这样聚在一起，当然不光是我们，还有邮轮上的其他同伴。",
+			say = "Also, I think it's worth stating that we aren't the only ones gathered here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我们之所以能享受这样美妙的时光，都是因为你。",
+			say = "All of us are here on this ship, and we've all shared such wonderful times. Most of all, it couldn't have happened without you, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "没错，是因为指挥官同志的存在！",
+			say = "I'll drink to that. Thanks for everything, Comrade Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "这一杯就敬指挥官同志吧！",
+			say = "I raise this toast to you, Comrade Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "指挥官同志，你的杯子呢？我给你倒上一杯！",
+			say = "Where's your glass? Go get one and I'll pour you a drink!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我就不喝了，用水代替吧。",
+			say = "Thanks, but I'm good. I'll just have water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "也行。同志们！让我们为指挥官干杯，Ура！",
+			say = "Very well. Then once again, comrades, let's give a toast to Comrade Commander! Uraaa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,11 +721,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "北联众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Ура——！",
+			say = "Uraaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "被这股热闹的气氛所感染，随后又有不少人加入了这场临时的“聚会”。",
+			say = "More of our friends gather one after another, drawn by the lively mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "大家一起畅谈着对目的地和极光的期待，不知不觉中便度过了这个平凡又不平凡的清晨。",
+			say = "This extraordinary morning passes by in a flash as we all chat excitedly about our expectations for the destination and the aurora waiting there for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "离{dorm3d}很近……安克雷奇，能听到心跳！",
+			say = "Near {dorm3d}... Anchorage can hear your heartbeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "咚咚~咚咚~……和{dorm3d}近，听得清楚！",
+			say = "Thump thump, thump thump... When we're close, I can hear it really well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……{dorm3d}……现在，心跳快了！咚咚咚！",
+			say = "{dorm3d}... It just got faster! Thump thump!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……也在咚咚咚~！{dorm3d}靠近，听听！",
+			say = "Anchorage is thump thumping, too...! Listen, {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

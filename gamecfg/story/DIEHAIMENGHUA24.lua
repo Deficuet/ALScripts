@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，我们的航速比白鹰潜艇快得多，保持这个速度的话甩开它们轻而易举~",
+			say = "There's no way the enemy subs can keep up with Yukikaze the Great's speed! As long as we keep this up, we'll be done here in no time!",
 			bgm = "battle-boss-3",
 			flashin = {
 				delay = 0.5,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冲锋~冲锋~！关原就在前方等着我们，正义在西军！",
+			say = "Charge! Charge! Upon our honor, crush the Army of the West~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:143}，这个比喻应该不适合用在这里……",
+			say = "...I don't see any \"Army of the West.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？{namecode:182}大人，您怎么突然慢下来了…需要休息一下么？",
+			say = "Hmm, Lady Shinano? What's the matter? You slowed down all of a sudden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……妾身的动力系统突发故障，无法全速航行了。",
+			say = "\"My movement... seems a bit sluggish... Even at full output...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是过度赶工留下的问题……",
+			say = "I knew it was a bad idea to push up the construction timetable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕…{namecode:182}大人现在的航速只有，15节？！这么下去很快就会被白鹰潜艇追上哦！",
+			say = "We're gonna be in trouble if Shinano can't outpace the submarines and they catch up to us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边又发现了白鹰潜艇的雷达信号…！",
+			say = "Just our luck...! I've detected their signals already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与之前的是同一艘么？",
+			say = "\"Is it... the same one you mentioned earlier...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个…无法判断，也许不是…可能我们真的已经落入白鹰潜艇的包围网了。",
+			say = "Let's see... Actually, I can't even tell. We might already be surrounded...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			dir = 1,
-			say = "「——————立刻转向，躲避潜艇的伏击。」　",
+			say = "——Evade. Steer away from the submarines. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……舰队立刻转向，躲避潜艇的埋伏。",
+			say = "\"All hands, turn hard to the southwest. Avoid the submarine ambush.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（这里是妾身的梦境，脑中的情报也是这么说的，不会错…！）",
+			say = "(Is that not the voice I heard in the previous dream? What is going on...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng6",
 			dir = 1,
-			say = "咕噜…咕噜噜…….",
+			say = "... ... ...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "…我是……",
+			say = "... I am...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "{namecode:92}，你可终于睡醒了啊？",
+			say = "Kaga, you're awake?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "{namecode:91}…姐姐…？我这是怎么了…?",
+			say = "Big sister... Akagi...? What... happened to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "没什么，不过是吃了次败仗，顺便昏睡到现在而已。",
+			say = "Nothing in particular. Although, you sure took a beating during that last battle and slept all the way until now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "在睡梦中还一直喊着令人怀念的名字呢，呵呵呵~",
+			say = "And while you were asleep, you kept calling out a rather nostalgic name... *giggles*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "对了，炸弹…！额，修理已经完成了么…？",
+			say = "Right... I remember an explosion... Have I already been repaired?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "谁知道呢，其实我也才刚起来没多久。不说这个，你有没有看到我经常带着的挂饰啊？！",
+			say = "Who knows~? I just woke up not too long ago myself. More importantly, have you seen the brooch I always wear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "到底掉到哪里去了呢….难道会有专门瞄准这个下手的人？！这样的话不准备点惩罚可不行了呢…呵呵呵…",
+			say = "Just where could I have dropped it...? Don't tell me that someone was after it...! If that's the case, I'll have to prepare some \"punishment\" for them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "………",
+			say = ".... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "姐姐，你….",
+			say = "Akagi, you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "（虽然长得一样，果然是天差地别的性格啊…）",
+			say = "(Even though she looks the same, her personality couldn't be more different...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "别说梦话了。既然现在清醒了，赶紧回到圣域去完成我们的杰作吧~",
+			say = "Are you still sleeptalking? Let's hurry up and get back to our \"Sanctuary.\" I have much \"planning\" to do~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "计划还在顺利的进行中~很快…",
+			say = "Of course, my \"plans\" are proceeding smoothly. Just a little more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "很快就能见到「那位大人」了哦，呵呵呵….",
+			say = "Soon, we will be able to meet \"her.\" Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

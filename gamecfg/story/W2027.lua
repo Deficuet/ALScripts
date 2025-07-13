@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，触发了塞壬隐藏在海域中的警报装置，周边区域被封锁了。",
+			say = "On-site Siren security system has been activated. A part of this zone has been blockaded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH港·指挥室 七小时后",
+			say = "PH Harbor - Temporary Office, Hours Later",
 			side = 2,
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "像一阵风暴一样席卷而过了呢，{namecode:199}……",
+			say = "Hey there, Puddin'! Your new office is looking hella spiffy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从今天到达PH港到{namecode:199}离开，感觉像过了五天那么漫长，又像一眨眼之间。",
+			say = "After sending New Jersey and Ticonderoga off on their patrol mission, I started to head back to the office to finish organizing the documents I brought with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你看这些报告，别看她是那种性格，工作做得还是很细致哦。",
+			say = "Just when I was about to sit back down, I noticed someone on the sofa in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "这些真的不是{namecode:194}帮她整理的嘛~",
+			say = "Oh, did Ticonderoga already hook you up with the goods?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不、不会吧……还是老样子么？",
+			say = "This new girl was waving around the documents I had painstakingly sorted as if they were cheap magazines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "哼哼，指挥官缺乏观察力了吧。但是名侦探{namecode:195}已经注意到了，笔记上的两种不同字体就是毋庸置疑的事实！",
+			say = "Jeez, that girl sure moves fast, huh... What the heck's with this handwriting? Look at these hearts and curlicues!",
 			effects = {
 				{
 					active = true,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还真是一点也没变…………",
+			say = "\"I'm not sure what the problem is... Doesn't everyone have their little quirks when it comes to handwriting?\"",
 			effects = {
 				{
 					active = false,
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官和{namecode:199}认识很久了么？",
+			say = "That's only barely scratching the surface, I tell you. If you know how to interpret these things, there's a whole bunch of hints from the way these papers are ordered to how the pages are folded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最早是在通过心智魔方适应性测定之后，调入指挥部的特别军事学院期间认识的，算起来确实有段时间了……",
+			say = "\"Sounds impressive, but overly complicated.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "同期生？",
+			say = "Haha, you're way too dense, Puddin'~ But that's part of what makes you so delicious~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "同期倒也算不上……那座军事学院也不是面向舰船的，充其量只能算是来相互交流的？",
+			say = "\"By the way, when you say 'pudding,' are you referring... to me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "那就是访问留学生了！？",
+			say = "A girl's gotta make her mark, yeah? Tell ya what, hang out with me for a while, and I'll teach you how to become popular!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "硬要说的话，也可以这么算……",
+			say = "This girl was completely beyond my grasp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "真棒啊~青春美妙的学院生活，我也好想体验一下啊~！",
+			say = "Ahaha! I can't believe you'd fall for that! All these documents were typed up to begin with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当时的局面还没有这么紧张，{namecode:199}也是恰好在等待舰装的全部完工，现在的你肯定没机会了。",
+			say = "So this was the San Francisco I had heard so much about... a fun-loving girl who tries to live it up every waking moment of her life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "真遗憾啊~我们还要像这样和重樱对峙多久？指挥部有什么方针么？",
+			say = "Anyway, if these documents are straight from the Naval HQ, is the Crimson Axis somehow involved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "现有停火协议并没有把帕克菲克洋纳入其中，虽然指挥部有将其转变为全面停战协议的意图……",
+			say = "\"The Crimson Axis... Nominally, an organization that serves as our geopolitical enemies...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是在这一意图达成之前我们这里还是与重樱交战的前线，不可掉以轻心。",
+			say = "\"Regardless of the feelings and sentiments of the various shipgirls, the politics between our two major organizations have always been opaque and inscrutable.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "话虽如此，帕克菲克洋内的塞壬在那次袭击之后就牢牢控制了大片水域。重樱想过来恐怕也很困难吧~",
+			say = "Do you think it's because the Sakura Empire's fleet also appeared during the last Reenactment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "指挥官，深夜打扰了。收到了来自NY司令部的紧急联络。",
+			say = "Commander, I've received a message from NY City.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,41 +388,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "NY司令部的……？转过来吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_luoxuan_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			hidePaintObj = true,
-			say = "咦，指挥官？你不是今天才赶回PH港么，怎么立刻就开始熬夜工作了啊？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
-			dir = 1,
-			say = "离开这里太久，很多情况都发生了变化，现在需要尽快重新掌握局势才行……而且你不也还没休息么？",
+			say = "\"Naval HQ, huh? Put them through.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +407,41 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "额……我其实是已经睡了的啦……只不过被紧急情报吵醒了！",
+			say = "Sister Sara is soooooo worried about you, Commander! Is everything okay?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_luoxuan_2",
+			hidePaintObj = true,
+			dir = 1,
+			say = "The excessively lively voice of Saratoga, the fleet idol, bubbled over from the other side of the communicator.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_luoxuan_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "Actually, there's a little something that I need your advice on~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "长话短说。指挥官，情报部门发现重樱舰队正在进行一场大规模舰队调动。",
+			say = "So, this is actually pretty far from where you are, but I've gotten information that suggests the Sakura Empire is amassing a large fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然舰队成员信息不明，绝对是包含重要人物在内的大型舰队哦。",
+			say = "We don't know who's leading it, or what their purpose is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "舰队在完成集结后很快就消失在帕克菲克洋中，尚不清楚是大规模军事演习还是一次作战行动……",
+			say = "But the fact that they're doing it now of all times has the Naval HQ on edge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "这么气势汹汹的舰队调动——不像是能够突然决定的行动呢……",
+			say = "Woah, speak of the devil...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "因为在NA海域中没能成功进入中心区域，所以愤怒的重樱打算从帕克菲克方向进行一场打击行动么？",
+			say = "Weren't we supposed to be working together in staving off the Sirens, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不能排除这个可能。我们会进一步收集信息，指挥官你们也一定要小心哦！",
+			say = "Yeah! That's why I'd like to remind you to avoid hostilities with them if possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果发生交火的话，你们那里就是战斗最前线了！",
+			say = "Just saying, be careful out there! You never know what kind of craziness might happen if you get thrown into another Reenactment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明白，我会注意的。",
+			say = "\"Understood. I'll keep that in mind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107030,
-			say = "那就这样，萨拉托加通讯结束。",
+			say = "Anyway, that's all from Sister Sara! Be careful out there, Commander~ Mwah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "天啊……一回来就碰到了不得了的大事件！",
+			say = "I have a bad feeling about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……确实值得在意的调动。最新的海域布防图在……",
+			say = "\"Me too. Too much is happening at once...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "今天时间已经很晚了，指挥官，先睡觉！剩下的事明天再说嘛~",
+			say = "That's not what I'm talking about... Why's that girl– Well, whatever, I'm not gonna let it keep me up at night!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103140,
-			say = "重樱舰队就算真有什么打算，以那个航速过来还要好久好久呢！",
+			say = "Catch ya later, Puddin'~ Keep me posted if anything new happens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,11 +695,11 @@ return {
 			},
 			options = {
 				{
-					content = "再看一份报告！",
+					content = "\"Wait, San Francisco, why are you taking the documents with you?\"",
 					flag = 1
 				},
 				{
-					content = "说的也是，今天先休息吧……",
+					content = "Watch San Francisco leave.",
 					flag = 2
 				}
 			}
@@ -713,7 +713,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不行~！既然现在我是秘书舰，就有维护指挥官健康的义务！",
+			say = "Forgot to mention it, but I'm also in charge of looking after your health while you're here, Commander. No overtime while I'm here, got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "您还是放弃抵抗，乖乖跟我去休息吧！",
+			say = "If you want these back so badly, you'll have to follow me back to the bedroom~♪ Ahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			actor = 103140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官这边请~您的床铺可是我亲自铺的，满意请给五星好评哦！",
+			say = "Oh yeah, forgot to mention it, but I'm also in charge of looking after your health while you're here, Commander. There won't be any overtime under my watch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后翌日——",
+			say = "When I woke up the next day...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -809,7 +809,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "AF基地与PH港区彻底失去了联系。",
+			say = "I learned that we had lost contact with the AF base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

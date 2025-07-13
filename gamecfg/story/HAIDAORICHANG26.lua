@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>阶段性座谈会</size>",
+					"Uncharted Summer\n\n<size=45>Progress Update</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "据点的会议室中，正在举行一场小小的座谈会。",
+			say = "Over in the camp's conference room, a small discussion is taking place.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "讨论的内容还是以当前岛屿建设的相关进度汇报为主。",
+			say = "The topic – a progress update on the island's state of development.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……岛屿与港区之间的货运航线已经稳定。",
+			say = "Well, we've established a cargo route between us and the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "码头内各项基础与附加设施也已建设完成，联络码头……嗯，算是完全竣工了吧。",
+			say = "Work on the island's main infrastructure is done too. And the pier can be considered complete.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "温泉乡也已经建设完毕了，欢迎各位随时前去体验喵~",
+			say = "The hot spring is finished too, nya. Drop in whenever you want, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，指挥官……等着你哦？",
+			say = "Heehee... I'll be waiting for you there, Commander♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的矿物采集设施和木材采集设施也已经就位了。",
+			say = "On the mineral and lumber extraction front, things are going quite well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "目前每日会开机两小时，在以工业风景点的方式进行运作。",
+			say = "They're currently configured to operate for two hours a day. We also plan to develop them into scenic industrial spots eventually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "平海和宁海的花田也在{namecode:29}的帮助下完成了。",
+			say = "With assistance from Hanazuki, Ning Hai and Ping Hai have got their flower garden set up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官在有空的时候请务必去赏花哦。",
+			say = "I'm sure they'd love it if you came to have a look, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "花田……？之前记得和她们讨论的时候，似乎是要开辟一块菜地才对……？",
+			say = "\"Flower garden? Last time I spoke to them, they said they wanted to establish a VEGETABLE garden.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "之后去看一看究竟是什么情况吧。",
+			say = "\"Wonder what changed their minds... I'll look into it later.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然岛屿的建设已经结束，那么……",
+			say = "It sounds like our work on the island is done, so–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等！目前岛上还缺一个重要的东西没有建设好！",
+			say = "Not so fast! You've forgotten one very, very important thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "倒不如说，这段时间根本就没人提啊！",
+			say = "You're some of the brightest minds I know, so how could you not notice?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……被众人忽视的重要设施？居然会有这样的设施存在么。",
+			say = "There's an important facility that we've all forgotten about? That can't be possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "当然了！哼哼哼，那就是——————果然这里还是先不说比较好。",
+			say = "But it is! And I shall tell you what it is... another time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体的就交给我来带人负责，你们就拭目以待吧！",
+			say = "Worry not, I will personally see to its construction. Just wait and see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "哈哈哈哈哈~",
+			say = "Hehehehehehe♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "怎么弄得神秘兮兮的……",
+			say = "I don't like that she's making this needlessly mysterious...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（马可波罗的计划……千万别在最后关头弄出乱子来。）",
+			say = "(Whatever she's planning, I hope it isn't a nasty last-minute surprise.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……既然涉及到建设工作，铁血也来一起协助好了。",
+			say = "...Iron Blood will assist with the construction. We're free at the moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳！",
+			say = "Ahem. As I was going to say!",
 			fontsize = 60,
 			painting = {
 				alpha = 0.3,
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然！岛上的建设！已经！接近！结束！",
+			say = "It sounds like our work on the island is ALMOST done!",
 			fontsize = 60,
 			painting = {
 				alpha = 0.3,
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王建议举办一场盛大的宴会来庆祝如何？！",
+			say = "Which I think calls for a grand celebration!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,18 +473,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是个不错的注意！",
+					content = "\"Great idea!\"",
 					flag = 1
 				},
 				{
-					content = "其实，还有……",
+					content = "\"But Marco said to wait and see.\"",
 					flag = 2
 				}
 			}
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯~很有品味！这种时候就是应该举办庆功宴才是啊！",
+			say = "I knew you'd agree, servant! Nothing says \"job well done\" quite like a banquet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "等等！先让本王说完！",
+			say = "Be quiet, servant! Let me finish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宴会的地点就定在黄金海滩附近好了~",
+			say = "We'll host it on the beach near the camp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王已经调查过了，那里是整个岛上景色最好的地方。",
+			say = "I've already been there. It has the best scenery anywhere on the island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "餐点就由女仆队来负责——",
+			say = "As for the food, the Royal Maids will provide it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "等等，既然是庆祝无人岛建设成功的所有人的庆功宴，在食物准备的时候也让大家都参与进来会比较好吧？",
+			say = "Your Majesty, since this is a banquet for everyone who's helped develop the island, don't you think everyone should be involved in making the food as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……这里是本王思考不周。那就这样好了，由女仆队为各阵营提供协助，有什么拿手菜就全部混在一起上吧！",
+			say = "You have a point... Apologies. The Royal Maids will take a more supporting role instead so we can all bring our best dishes to the table.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "哇哦~感觉会变得很热闹呢！",
+			say = "Sounds sweet! Now you've got me excited!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "我们这边只有一个要求，关于披萨的部分，请全权交给撒丁帝国负责。",
+			say = "If it's not too much to ask, I'd like Sardegna to be in charge of preparing any and all pizza dishes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~看来要变得忙碌起来了~",
+			say = "Heehee. It seems I'll be quite busy soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "自从上次的帆船比赛结束后，皇家财富就再次消失了。",
+			say = "Suddenly, I remember that I haven't seen a trace of Royal Fortune since the yacht race.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "一连过去好几天，她一直都没有再出现过。",
+			say = "In fact, nobody has seen her for the past few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "能够发现这座岛屿，也与她提供的藏宝图有关。",
+			say = "I hope she'll turn up soon so she can partake in the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "希望她能准时赶上庆功宴举办的时间啊——",
+			say = "After all, she deserves recognition for leading us to this island in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

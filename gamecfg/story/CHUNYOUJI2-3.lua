@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "赢得了啾啾大酒楼的大胃王比赛，获得了奖励【石油*100】"
+			say = "You won first prize in an eating competition at the Canteen! Collect 100 Oil!"
 		}
 	}
 }

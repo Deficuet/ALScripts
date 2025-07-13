@@ -14,9 +14,9 @@ return {
 			bgmDelay = 1,
 			bgm = "theme-richard",
 			actor = 900322,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "你好哦，来自远方的迷途者。",
+			say = "Hmm? Are you all alone out here?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "在一片火光与硝烟之中，在君主的前方突然出现了一位白发蓝瞳的少女。",
+			say = "From the veil of black smoke suddenly emerged a white-haired girl clad in some type of naval uniform, facing Monarch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白发蓝瞳……？不对，你是白发红瞳吧。",
+			say = "(Did I imagine it, or did her appearance change for just a flash?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "哟，真是惊人，一眼就看穿了么。",
+			say = "Figures my disguise doesn't work on you. You've got a sharp eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是什么人？",
+			say = "Who are you? An elite Siren?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,9 +107,9 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "作为闯进别人家的不速之客，首先自报姓名才是应有的礼仪吧？",
+			say = "Hey now, you're on my turf, so at least tell me your own name first. It's only polite, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这还真是失礼了，我是来自皇家的君主。请问站在我面前的优雅女士可以告诉我她的名字么？",
+			say = "I am the Royal Navy blueprint ship Monarch. Now state your name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "可以哦，我是好人理查德，目前正住在这一片。你为什么要来这里呢？",
+			say = "Sure. I'm Bon Homme Richard, and this is my home for now. What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在寻找希望。",
+			say = "(She doesn't appear to be a Siren, but she may be a Pawn. I'll want to keep my distance, just to–)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "希望？如你所见，这里除了毁灭与死亡之外，什么都不剩了哦。",
+			say = "Be safe? No need to, I'm not a threat. We're both KAN-SEN, you and I!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很巧的是，我这次所寻找的希望恰好总是距离这两样东西不远。",
+			say = "(She read my mind?! Whoever this girl is, she is no ordinary shipgirl. Perhaps she's META?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你了解META么？或者说……你是META么，好人理查德小姐？",
+			say = "There's no use beating around the bush, then. I'm searching for a black Wisdom Cube, or rather, the remedy to the effects of one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "欸~那你可是问对人了~没有人比我更懂META哦！",
+			say = "Oh! Guess what, you're in luck! You're talking to the world expert on METAmorphosis right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "META是一种趋势，也是一种本质。是变化的过程，也是变化的必然。",
+			say = "METAmorphosis is a restructuring of the hull, whether or not induced by a Black Cube. It's a one-way trip with no turning back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果对META有兴趣的话，要不要成为META亲自感受一下？",
+			say = "I could explain all day, but as they say – show, don't tell. So let me show you what it feels like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "面前的少女神色飞舞的介绍着META的含义。其中涉及到力量的部分尤其引人在意，也尤其的危险……",
+			say = "The girl broke out into a sinister grin that only grew wider as she spoke more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，我虽然在寻找META，不过并没有成为META的打算。",
+			say = "You're right. Actions speak more than words, and hands-on experience teaches best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢你的介绍，理查德小姐。我还有别的事情要忙，就先告辞了。",
+			say = "But I'll pass on your twisted offer. I've no interest in falling victim to METAmorphosis! Now get out of my way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "等等——————差点被你蒙混过去了。",
+			say = "Hahaha! No, I get it. It's not like YOU could experience it just by wishing for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你的构造……很特殊哦。怪不得在来这里之后没有受到丝毫影响。",
+			say = "Your hull is very special, for better or worse. You need a little help to jumpstart the process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "也怪不得能一眼看出我的伪装……你的全身都在对于META化进行着抗拒，就像残次品一样哦。",
+			say = "See, you have hardly any essence compared to ordinary shipgirls. Which basically means, you're a tool to be used.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵，残次品？不着边际的妄语。如果想挑衅我的话，还是不要白费功夫了。",
+			say = "You have some nerve. I'm not a tool, and I'm not being used.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "难道我说错了么？",
+			say = "Yes you are, and we both know it. Let's be real here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "身为残次品，所以才会被祖国和同伴排挤，只能孤身一人的来到死亡的荒原之中寻找虚无缥缈的希望不是么？",
+			say = "You know what your special status as a blueprint ship entails. You are an outcast, a defective monster kept on a tight leash for when your firepower is needed... Only to be discarded afterwards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放肆。我与皇家之间的关系不容他人评断。",
+			say = "Lies! I'm here right now entirely of my own volition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "放肆的是你吧！这里是我的家。想来就来想走就走，未免也缺乏礼教了！",
+			say = "Because you're a tool! You chase \"glory,\" but what IS glory? Medals? Money? Oh, I know – it's in pursuit of the accomplishments your hull lacks in comparison to your peers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "嗯~虽然有些困难，不过也不是完全不可能。",
+			say = "But don't you worry, lady. I shall give all that you ever want, and more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我也是很乐于接受挑战的哟。",
+			say = "Succumb. All you need to reshape reality is enough power. Come, and I shall give you just that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "上一句充斥着怒火，下一句就又如此无邪。自称好人理查德的少女正在变得愈发不安定，也愈发危险。",
+			say = "The more the girl spoke, the more of her unassuming demeanor peeled off to reveal the insanity beneath. The sea around her churned, birthing a vortex that grew increasingly violent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "必须赶紧离开，否则恐怖的事情就要发生了。君主的内心正在极速报警着，可是————",
+			say = "Richard's lunacy invoked an instinctual fear in Monarch. She knew she had to get out of here – now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "留下来陪我玩吧，大姐姐。",
+			say = "Don't leave already. Stay here and have fun with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………声音直接从脑海里出现了？！",
+			say = "Urgh? What?! Her voice is...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶……从我的脑海中滚出去！",
+			say = "GET OUT OF MY HEAD!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "君主向着远方的少女开火了。炮弹击中了少女的舰装，在甲板上留下了一个大口子。",
+			say = "Monarch's voice boomed, and so too did her main cannons. She scored a crippling direct hit on Richard... or so she thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "何等出色的威力……如果你能成为META的话，该是何等优秀的杰作啊……",
+			say = "Nice shot there, lady. Just imagine what a devastating weapon you could be if you became META...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "呵呵呵……呵呵呵呵呵…………你可以继续开炮哦？",
+			say = "Hahaha... Ahahahah! AHAHAHAHAHA! Light me up! Reduce me to a pile of ash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "尽情的向我倾泻愤怒与不甘的哀嚎吧。",
+			say = "Release all your pent-up loneliness, bitterness, stress, and anger! Take it all out on me! Don't think, just SHOOT ME!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "君主没有丝毫迟疑的开火了。这一次，炮火击伤了少女的手臂。",
+			say = "A moment's hesitation held back Monarch's trigger finger before she discharged the next shot, this time hitting the water to the left of Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "准头太差啦~是你在手下留情，还是你一点实战经验都没有呢？",
+			say = "That one missed. You're holding yourself back, lady. Or maybe you just don't know where to shoot a person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "住口…………",
+			say = "Shut your gob!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "没办法，那就教教你基础知识好了。",
+			say = "It's no big deal. I'll teach you the ABC of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "这里是我的头，这里是我的心脏。瞄准这两个位置开火效果会更好哦？",
+			say = "This is the head, this is the heart. If you want someone dead, those are where you start. Easy to remember, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -885,7 +885,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "呵呵~这次开始有些像话了。",
+			say = "There you go! Now we're cooking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#BDBDBD",
-			say = "那么接下来是我的回合————让我们来相互厮杀吧，大姐姐~",
+			say = "Still, I can sense you're clinging on to a shred of sanity... Fine, have it your way! Let's throw some friends into the mix!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

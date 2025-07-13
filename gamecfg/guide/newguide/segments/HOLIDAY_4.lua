@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.6,
 			style = {
-				text = "室外娱乐区重建完成，解锁功能「假日大浴场」  ",
+				text = "The beach area has been fully rebuilt! You've unlocked the Vacay Thermae feature.",
 				mode = 2,
 				dir = -1,
 				char = "char",

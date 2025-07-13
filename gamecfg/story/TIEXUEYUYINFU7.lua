@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "bsm-3",
 			dir = 1,
-			say = "{namecode:435}中弹确认，但仍在高速前进",
+			say = "Direct hit on Bismarck confirmed! ... Hold on, it didn't have any effect on her speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在回收舰载机，开始准备下一轮攻击波",
+			say = "Once I've recovered my aircraft, I'll prepare a second strike! Just you wait, Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "作为初阵，你的表现很好，胜利！",
+			say = "Hahahah! Well done, Victorious!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -62,7 +62,7 @@ return {
 			side = 1,
 			actor = 205050,
 			dir = 1,
-			say = "不过这家伙居然在遭到雷击后还能保持全速航行，真是可怕的战斗力",
+			say = "(... If she can maintain her speed in spite of her injuries, she must be a terribly powerful battleship.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再拖下去，就要进入维希教廷的领海了，届时战况将对我方不利…",
+			say = "(And if she manages to seek refuge in Vichian waters, the going will get tough for us.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			actor = 205050,
 			dir = 1,
-			say = "无论如何，必须让目标的速度减慢下来！",
+			say = "(We must slow her down through any means necessary...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到司令部电报，H舰队已经从南方海域赶往拦截目标，预计30分钟后接触",
+			say = "I received a message that Force H should be arriving soon! They'll make contact with Bismarck in 30 minutes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			actor = 205050,
 			dir = 1,
-			say = "这下可算是倾巢而出了呀",
+			say = "So, all of the Royal Navy's most capable ships are in pursuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			actor = 205050,
 			dir = 1,
-			say = "赌上皇家舰队的荣耀，绝对不能放走{namecode:435}！",
+			say = "The Royal Family's honour hinges upon us. We shall sink Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

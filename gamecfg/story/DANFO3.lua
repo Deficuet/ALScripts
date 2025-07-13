@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>三 骑士也需要建议</size>",
+					"Denver's Quest!\n\n<size=45>3.Knights Need Advice</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "按照委托书上的内容来到仓库后，奥斯本和斯彭斯已经在那里等着我们了。",
+			say = "We did as the quest said and headed to just outside the storehouse, where Spence and Charles Ausburne greeted us.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！ 还有丹佛！",
+			say = "Salutations, Commander! And Denver, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你，你们拿着委托书，那就是要……帮我们消灭害虫？",
+			say = "A-are you here to take care of the pests? I see you've got the q-quest papers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！",
+			say = "Sure are, sure do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能把有困难的孩子放在一边不管，这就是正义啊！",
+			say = "Answering the call of those who need help, now that's what real heroes do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~委托书上提到的害虫就在这座仓库里没错吧？",
+			say = "Clue me in on the deets. Where are the pests? There in the storehouse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，嗯。是这样没错……",
+			say = "Y-yes. J-just have a look...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "用奥斯本给的钥匙打开门后，发现这里是用于储藏零件和物资仓库。",
+			say = "Charles produced a key and opened the door to the storehouse. The interior was lined with tons of rations and food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在几个袋子下发现虫蛀的痕迹……虽然情况还不严重，但还是立即处理比较好。",
+			say = "I spotted a few bags which had holes chewed through the bottom. The infestation hadn't yet grown out of control, but it had to be dealt with posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽说为了正义必须要把害虫除掉！……但是我找遍了整个仓库都没找到害虫……",
+			say = "I did what a hero would and searched every nook and cranny for those pesky pests, but I couldn't find them anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……对手比想象中要狡猾得多呢。要把它们引出来恐怕也不简单……哈！",
+			say = "We're up against sneaky little buggers, eh? I doubt it'll be easy luring them out of... Hey! There!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,37 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话音未落，丹佛从仓库里拿起了一个机枪零件，摆出警戒的姿态。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102150,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "居然明目张胆地从我眼皮底下经过……这次别想逃了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "伴随着响亮的一声，丹佛以极快的速度消灭了其中一只发着黑色光的害虫。",
+			say = "Denver interrupted herself. She armed herself with a machine gun barrel lying around in the storage and went on the offensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +235,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼，照这个样子看，估计还得有几十只啊。",
+			say = "I saw one right there! Get back here, you little bug!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Denver swung her improvised weapon with unbelievable speed and took out a lone cockroach.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102150,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Whew! That's one, but we should expect to find dozens more, based on the look of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎怎怎怎怎么会这样……",
+			say = "D-d-d-dozens more?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这样下去不是办法。如果是对付害虫的话……",
+			say = "\"We'll never get them all with this approach,\" I thought. A change of strategy was necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "走出仓库后，寻找着能够提供帮助的“花坛”。",
+			say = "I walked out of the storehouse and inspected the flower bed by the entrance.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -337,7 +337,7 @@ return {
 			},
 			options = {
 				{
-					content = "叫丹佛",
+					content = "\"Out here, Denver.\"",
 					flag = 1
 				}
 			}
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，指挥官？",
+			say = "Yeah? What's up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "来到花坛旁，指了一丛盛开的鲜花给丹佛看。",
+			say = "I called her attention to the white flowers growing on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是……具有杀虫效果的植物？",
+			say = "What about 'em? ...Wait, I see now! Columbia told me about these flowers, they work as a natural insecticide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,10 +399,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 102150,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "机会难得，要不要用这个做成天然杀虫剂试一下？",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "If we use these, we can take out the all bugs in one fell swoop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,23 +420,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，好像挺有意思的！用这个办法就能一次性把仓库里的害虫全部消灭掉了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102150,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官，感谢你的建议！果然就算最勇敢的骑士也会需要指挥官的帮助呢！",
+			say = "Good thinking, Commander! Just goes to show that every knight could use the advice of a commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "眼睛闪闪发光的丹佛迅速采摘着花朵，为制作简单的天然杀虫剂做准备。",
+			say = "She looked at me with gleaming eyes and thanked me, then promptly picked the flowers and got to work on concocting a simple pesticide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +449,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "海上骑士和指挥官（？） 的冒险故事，今天还在继续着——",
+			say = "I didn't know it yet, but our knightly adventure had only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

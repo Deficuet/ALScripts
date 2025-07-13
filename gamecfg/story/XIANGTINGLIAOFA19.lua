@@ -10,7 +10,7 @@ return {
 			actor = 900193,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "巴尔的摩？",
+			actorName = "Baltimore?",
 			dir = 1,
 			say = "……",
 			bgm = "battle-boss-4",
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真正的巴尔的摩小姐可比你强一万倍！",
+			say = "The real Baltimore is ten thousand times stronger than you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "可悲的人偶，和你丑陋的塞壬造物主一同沉入冰冷的海底吧！",
+			say = "Accursed puppet, sink to the bottom of the sea along with your nasty creators!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼♪这样前方的海域就清理完毕了~指挥官~",
+			say = "Hehe~♪ Looks like the way forward is clear now, Commander~ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官？",
+			say = "Commander? What's wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "啊……",
+			say = "Sorry, I thought I heard a voice in my head. It's probably just my imagination...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			},
 			options = {
 				{
-					content = "只是有点头疼，不要紧的",
+					content = "Tell Victorious that you're all right",
 					flag = 1
 				}
 			}
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官似乎自从进入百慕大海域后情况就不太对劲哎？",
+			say = "Commander, once we head deeper in, the waters are only going to get rougher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这个地方总感觉让人十分的不自在，而且…",
+			say = "It's true... Just being here is making my chest feel uncomfortable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（脑海中会偶尔听到只言片语的对话…）",
+			say = "Sometimes I feel like something is probing inside my head, whispering...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道指挥官被“塞壬”的歌声迷惑了~？明明萨拉妹妹就在这里的说！",
+			say = "Ah, Commander, perhaps you've been bewitched by a Siren's song? In that case, Sara will bring you to your senses with a song of her own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			},
 			options = {
 				{
-					content = "我没事的",
+					content = "\"Sorry for making you worry, Saratoga.\"",
 					flag = 1
 				}
 			}
@@ -191,7 +191,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仪表的度数还在增长，情况刻不容缓，继续前进吧。",
+			say = "For their sake, I can endure much more than this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

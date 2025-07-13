@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "level02",
 			dir = 1,
-			say = "返航咯，返航~",
+			say = "Sweet, finally! Time to go home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，萨拉老师？刚才开始就若有所思的？",
+			say = "Saratoga, what's the matter? You've looked deep in thought for some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，没事没事。我只是在想，真是一场辛苦的战斗呀！",
+			say = "Oh, it's nothing! I was just thinking about what a long and exhausting operation this was!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实如此，真是恶战一场，大家都能平安无事简直像奇迹一样……",
+			say = "Right? It's nothing short of a miracle that we managed to keep everyone safe through all that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义的伙伴大胜利~！",
+			say = "Of course we're okay! We're allies of justice after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果真的如“神秘人”所说，纽约港袭击只是为了诬陷她们，塞壬引诱我们进入百慕大的目的又是什么呢？",
+			say = "But if what they said is true - that the attack on NY City was just a ploy to lure us into the Bermuda Triangle - then what were the Sirens trying to achieve...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且直到奇异点消失也没看到逃跑的测试者，十分在意它在暗中做什么。",
+			say = "Even up until the singularity disappeared, Tester didn't even show her face. I'm concerned about what she's brewing up next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在塞壬彻底投降前，总会在某处再遇到吧。",
+			say = "Until the Sirens have unconditionally surrendered, I'm sure we'll clash with her again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次没算完的账，以后可以慢慢算…",
+			say = "We'll have plenty of opportunities to slowly settle the score in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动观测到的结果显示，已存在的奇异点依然可以通过某种方法被安全瓦解。",
+			say = "I would say that our discovery - that we can disrupt a singularity from forming - is a great leap forward for our knowledge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "如果能依据这一存在性早日研究出瓦解奇异点的具体方法就好了……",
+			say = "Hopefully, this will help progress our understand of the singularity's mechanisms and lead to the development of a safe method of eliminating them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说你们在推进的时候还遇到了假的大黄蜂…？",
+			say = "Commander, I heard you came across a Hornet impostor as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是卑鄙，是瞄准了企业行进的线路特意安排的吗！",
+			say = "How underhanded. They clearly were targeting Enterprise with a move like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和塞壬战斗了这么久，它们还真是一如既往钟情于这种心理战。",
+			say = "After fighting the Sirens more, I think I'm starting to understand why they make these clones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然绝大多数情况下都不会造成实际影响，不过对着亲密的人发动攻击的感觉，总归或多或少会在心理上留下负担…",
+			say = "We didn't have any problems dealing with the clones, but it's clear that they strive to confuse and demoralize us by forcing us to aim at the likeness of our own comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（即便如此，企业前辈也没有一丝迷茫的奋战到今日，我也……)",
+			say = "(But Enterprise wouldn't fall for such cheap tricks! I wish I was more like her...))",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "说起来，出发前碰到孟菲斯的时候，她好像阴沉着脸说了些什么“呼呼呼，真是一场愉快的旅行啊”之类的意义不明的话呢……",
+			say = "That reminds me... Before we sortied, we ran into Memphis. She looked quite gloomy, grumbling things like, \"heh heh heh, let's hope you have a pleasant voyage\" to herself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊--先是在筹备会议，然后又跑去各部门联络，整理作战资料，最近一段时间真是辛苦她了……",
+			say = "We did, too. She's been working extremely hard behind the scenes for us. I heard she went above and beyond by contacting headquarters, planning the operation, and writing documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，旅行啊…等战争结束后，去做个长期旅行好了~大家都有什么打算呢？",
+			say = "S-so that's the reason why she seemed like a whole other person when we saw her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果战争结束了，那就为了维护和平而四处奔波吧！海上骑士可是不会退休的哦~",
+			say = "Well, the operation went off without a hitch, so I think we should go on a vacation somewhere~ How about you guys?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我和大姐头一样。大姐头选择去哪里，我就去哪里。",
+			say = "I'll go with you. Wherever you're heading, I will follow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "我的话...想去世界各地看看呢。去追寻一下真正的香格里拉也不错？",
+			say = "Hmm... If I get the time, I think I'd like to go someplace far away... Perhaps like the valley I was named after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "企业前辈呢？",
+			say = "Where would you go, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战争结束以后、么…我还没思考过这个问题……",
+			say = "I... don't really know. Even if the war was over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，如果战争结束了，你有什么打算呢？",
+			say = "Commander... have you thought about what you'll do once this war is over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我————",
+					content = "\"Of course. I would...\"",
 					autochoice = 1
 				}
 			}

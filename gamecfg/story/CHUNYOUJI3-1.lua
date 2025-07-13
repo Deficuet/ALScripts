@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助逸仙找到了贪玩的平海，获得了奖励【心智单元*10】"
+			say = "You found cookies made by Howe left on your desk! Collect 10 Cognitive Chips!"
 		}
 	}
 }

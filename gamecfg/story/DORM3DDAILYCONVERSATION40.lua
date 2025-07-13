@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？{dorm3d}手里拿着梳子，是想要帮天狼星梳头发……？",
+			say = "Oh? What is that comb for, {dorm3d}? Are you going to graciously comb my hair?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从您的表情来看，是觉得天狼星的反应有点太惊讶了？",
+			say = "Judging by your expression... was my reaction to that a bit too surprising?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因、因为……之前听东煌的同伴们讲过一些有关“梳头”的典故……///",
+			say = "Well, um... I've heard some stories about combing hair from my friends in the Dragon Empery, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总、总之，请您为天狼星梳头吧，我骄傲的{dorm3d}！",
+			say = "N-never mind! Please go ahead and comb my hair, my honourable {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

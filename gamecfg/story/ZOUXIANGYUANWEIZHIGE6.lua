@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"Years ago...",
 					1
 				},
 				{
-					"鸢尾教国·首都",
+					"Capital of the Iris Orthodoxy",
 					2
 				},
 				{
-					"EP1-「破碎」",
+					"Marseillaise's recollection",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-vichy-church",
 			bgmDelay = 1,
-			say = "在首都居民敬畏的注视中，黑红色的队伍正缓缓前行着。",
+			say = "The Iris Orthodoxy's shining Holy City was consumed by the flames of conflict.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "这条在首都享有盛名的道路曾被用于纪念一场伟大的胜利。",
+			say = "Its intricate, ornate roads once welcomed back heroes returning from magnificent victories...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "现在，它被用于纪念另一场毫不留情的胜利。",
+			say = "But now, upon them rumbled the cold, heartless engines of war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			say = "几天后，教国覆灭的消息将随着刚刚洗好的照片，飘向这个世界的每一个角落。",
+			say = "The gruesome sight of the burning Holy City would soon spread to every corner of the world through every conceivable form of communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "观礼台上是……{namecode:523}。",
+			say = "So in the end, all she chose to do was watch from the balcony...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来……骑士团也做出了决定，一切都要尘埃落定了。",
+			say = "Not just the Tribunal, but even the Templar Knights as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "………………",
+			say = "Then, I am left with no other choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……至少骑士团坚持了比审判庭更长的时间。",
+			say = "Both the Tribunal and the Templar Knights knew. They both made this decision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我是鸢尾教国的首席天使，不能质疑教廷的决定。",
+			say = "I am the Fighting Angel of the Iris Orthodoxy, and her chief executor. It is not my place to question the orders I have been given.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "就算是放弃抵抗，留在城里见证教国的失败这样的命令。",
+			say = "Even if I am told to lay down my arms, even if I am told to watch our Holy City burn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我也不能质疑。",
+			say = "Even if the Iris Orthodoxy is to be split in two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……就算是让我前往维希，见证教国的分裂这样的命令。",
+			say = "It is not my place, because all I can do is fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……我也不能质疑。",
+			say = "I know nothing but the Holy Iris' teachings. I cannot say anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……因为我是鸢尾教国的首席天使，不能质疑教廷的决定。",
+			say = "It is not my place, because I am but a ship, a vessel of war...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "………………",
+			say = "Then, I am left with no other choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "我不能倒下，也不能逃离。",
+			say = "But still, there has to be something I can do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "教国还需要我，这片土地还需要我……",
+			say = "If I allow myself to be struck down here, if I don't climb back up... how can I be worthy of the title of Fighting Angel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "因为我是鸢尾教国的首席天使……",
+			say = "As long as the Iris Orthodoxy needs me, I will...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "嗯……",
+			say = "I will...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "……我不能倒下，也不能逃离。",
+			say = "Fight, continue to fight, and never back down––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,11 +399,11 @@ return {
 			},
 			sequence = {
 				{
-					"此刻",
+					"Present day",
 					1
 				},
 				{
-					"圣赫勒拿岛·要塞周边",
+					"Waters near Saint Helena Island",
 					2
 				},
 				{
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "红黑色的雾气中，黎塞留向着目标艰难接近着。",
+			say = "Richelieu struggled to push through the waters choked with the black-and-red haze, alone.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "这些到底是什么东西……",
+			say = "What in the world... is this haze?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "阻力越来越大，仿佛有实体一样……",
+			say = "The deeper in I go, the more it pushes back against me, like a wall of some sort...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "仿佛要，窒息了……",
+			say = "At this rate, I'm not going to be able to breathe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "力气正在流失……可恶！",
+			say = "I... My body's starting to give out on me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "雾气被炮火冲散了，不过转瞬间又再次聚拢。",
+			say = "She mustered her strength, discharging her cannons in a desperate attempt to blow away the haze. However, it quickly flooded back into the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,9 +586,9 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#ff5c5c",
-			say = "一次次抵抗，一次次失败。",
+			say = "Again and again, I fought. Again and again, I failed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,9 +600,9 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#ff5c5c",
-			say = "你现在做的事毫无意义。",
+			say = "What you are doing now is futile. Utterly meaningless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,9 +614,9 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#ff5c5c",
-			say = "放弃吧，姐姐。",
+			say = "Give up, sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "让……巴尔？",
+			say = "Jean... Bart...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不对，你不是{namecode:523}……",
+			say = "No, you're not Jean Bart at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "{namecode:523}绝对不会说出这种话！",
+			say = "She would never say something like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "你是幻象……和圣堂里的“污染”是一个东西。",
+			say = "This is just an illusion... Just like the Infection back in the basilica's facility...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "要冷静……保持冷静，不能幻象被影响。",
+			say = "Calm down, Richelieu... Don't let your emotions get the better of you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,12 +739,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "冷静？",
+			say = "Calm down, you say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,12 +758,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你应该要做的是愤怒才对。",
+			say = "Shouldn't you be angry, if anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,12 +777,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你抛弃了祖国，抛弃了同伴，抛弃了妹妹。",
+			say = "You abandoned your friends, your sister, and even the Iris Orthodoxy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,12 +796,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "忍辱负重换来的是什么？",
+			say = "You've been gritting your teeth, enduring it all until now. But for what? What have you achieved?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,12 +815,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "无尽的嘲讽，与唾骂。",
+			say = "Endless ridicule, scorn, slander, and abuse... Nothing else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,12 +834,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "你为什么要冷静？",
+			say = "So why calm down?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -857,7 +857,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 805010,
-			say = "——闭嘴！",
+			say = "Don't say another word! Please...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -927,12 +927,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "嗯？生气了？",
+			say = "Hmph. Now, you finally understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,12 +946,12 @@ return {
 			actorShadow = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 905010,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "就是这种感觉，接受自己的愤怒吧！",
+			say = "Yeah, that's right. Look into the light! Let the wrath flow through you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 805010,
-			say = "我、说、闭、嘴————",
+			say = "Shut... your... mouth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			bgm = "theme-vichy-church",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -1046,7 +1046,7 @@ return {
 			actor = 805010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "什……么，又是这轮黑色的太阳……？！",
+			say = "Please, give me strength... Give me the strength to dispel this illusion!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			bgm = "theme-vichy-revelation",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "转瞬即逝，黑色的太阳消失了。",
+			say = "In the blink of an eye, the black sun disappeared from her consciousness.",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -1111,7 +1111,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "黎塞留的意识重新回到了雾气之中。",
+			say = "Her mind snapped back to the middle of the ominous haze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "但是——",
+			say = "But, this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,7 +1138,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……幻象消失了。",
+			say = "*pant*... *pant*... I'm finally... free from the illusion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1157,7 +1157,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "…………不适的感觉，也消失了。",
+			say = "That overwhelming, crushing aura I felt just now... is also gone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,7 +1173,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "同时，黎塞留意识到自己手中的旗帜也发生了变化。",
+			say = "Just like it had once before, the banner in her hand shimmered with countless specks of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1188,7 +1188,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "光芒……正逐渐汇聚到旗帜上，就像曾经在圣堂中的情况一样。",
+			say = "The light is gradually converging on my banner just as before... Have my prayers been answered?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "信仰的象征与审判的象征……",
+			say = "Has my faith been made manifest?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1226,7 +1226,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……看来，连日不消的黑日也是你手笔了。",
+			say = "...I see, so this must be a core component of the Iris Orthodoxy's facilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1245,7 +1245,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "可你究竟是怎么做到的……",
+			say = "Not just the basilica itself, but the entire idea of conceptual manifestation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "还有拉·加利索尼埃和审判型机甲的事……",
+			say = "If the Four Horsemen of the Apocalypse were a physical application of that phenomenon, then the black sun–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1283,7 +1283,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "你究竟在用圣堂做什么……！",
+			say = "...Clemenceau, what have you done?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————————！",
+			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -1356,7 +1356,7 @@ return {
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "远方传来的炮击声打断了黎塞留的思考。",
+			say = "The sound of distant cannonfire interrupted her thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1371,7 +1371,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "马赛曲还在战斗……",
+			say = "Marseillaise and the others are still fighting out there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1390,7 +1390,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "趁着现在这股力量还在，救人要紧。",
+			say = "As long as I can wield this power, I have to save everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,7 +1409,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "但是这件事……总有一天我会找你问清楚的。",
+			say = "But, I swear that I will get my answers – about the Tribunal, no, about the Iris' Sacraments.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1428,7 +1428,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……希望你能给我一个满意的答案。",
+			say = "I swear... that I will lead the Iris Orthodoxy into the future.",
 			painting = {
 				alpha = 0.3,
 				time = 1

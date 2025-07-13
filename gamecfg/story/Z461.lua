@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>一 初诞</size>",
+					"White Poem\n\n<size=45>I Birth</size>",
 					1
 				}
 			}
@@ -20,11 +20,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…透明（Klarheit）。",
+					"I am Klarheit.",
 					1
 				},
 				{
-					"生于虚无，被唤醒的钢铁之虚像。",
+					"Born from the nothingness; an image of steel given consciousness.",
 					3
 				},
 				{
@@ -32,11 +32,11 @@ return {
 					4
 				},
 				{
-					"为守护文明的灯火而建，",
+					"Born into this world, I am a weapon;",
 					6
 				},
 				{
-					"为妥善使用力量生于此世。",
+					"to guard the light of civilization, the purpose for which I was constructed.",
 					8
 				}
 			}
@@ -45,7 +45,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -74,7 +74,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "经过应当是与我同样之存在的同型舰的介绍，我正向面前这位“指挥官”做着就任的自我介绍——",
+			say = "From the mouths of lifeforms like me explained. in front stood the one they called \"Commander\", to whom I was to introduce myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,33 +86,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "根据从过去获得的常理知识，将最适合的答案借由发声器官吟咏而出。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "是你在召唤我吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "个体名称识别、阶级确认。与方才介绍来的信息核对后确定一致。",
+			say = "Utilizing the knowledge I had gleaned; the proper way to address this person, was now to sing forth with my vocal chords.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +100,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我是……",
+			say = "Was it you who summoned me to this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,19 +112,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——这才意识到，我并没有可以说出口的名字。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "方才热心地向我介绍的铁血女孩，似乎是叫做{namecode:410}吧……",
+			say = "Call sign recognized, class has been confirmed. They also match the info from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +126,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很可惜，现在我还没有名字，你就暂时叫我{namecode:412}吧。",
+			say = "I am...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +138,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "“名字象征着自身的存在”…若是如此，虽说是急中生智，这么轻易地定义自己似乎是步坏棋…",
+			say = "... only now did I discover, I knew not a name which I could utter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,45 +150,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "突然对这临时起意而生的名字是否合适感到一阵不安…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "如何？对这个名字可有不满？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "……居然轻易就接受了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "这身体本就是被赐予的存在，只需听从命令即可。既然如此——",
+			say = "The Iron Blood girl who introduced herself; before me, eagerly, as Z35...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +164,31 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "直到寻找到真正的名字为止，{namecode:412}这个名字就是维系你我的丝线。",
+			say = "It pains me to say, I still lack a name. Just for the time being, please call me Viersechs.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "\"Your name symbolizes your existence\" ...if that is the case, what I did just now; casually assigning myself a name, may well have been a foolish thing to do.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "A wave of uneasiness flowed through me; I lost confidence in this sudden name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +202,59 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我的主人啊，请你牵引这丝线，指引我前进的方向吧！",
+			say = "What do you think? Is it not apropos?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "... Turns out, it was accepted easily.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "To begin with, this body was granted. My calling is to follow orders, but...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Until I can discover my real name, Viersechs shall become the string that binds us.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Now, my new master, take hold of this string. Please become my light, guide me down my path!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_task",
-			say = "至少在你以这个名字呼唤我的时候，让透明的我看到世界的色彩吧。",
+			say = "Even if you must call me by this name; show this Klarheit, me, colors of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

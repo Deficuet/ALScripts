@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女仆的另一面\n\n<size=45>摇摆不定的女仆</size>",
+					"The Many Lives of Maids\n\n<size=45>The Maid on Her Last Legs</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了皇家女仆店内那个熟悉的包厢。",
+			say = "I'd wrapped up the day's work and decided to pay a leisurely visit to the Royal Navy's teahouse in port.",
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "就在这里消解今日工作的疲劳吧。听说前卫也参加了女仆体验，不知道她怎样了……嗯？",
+			say = "Apparently, Vanguard was helping out around the store as part of the teahouse's maid trial program. Maybe I'll get to see her, I thought to myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊——",
+			say = "...Oh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和前卫的目光对上了。",
+			say = "Wouldn't you know it, there she was. We made eye contact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么你会在这……不对不对，现在应该说台词对吧……",
+			say = "Wh-why are you here, Commander? Err, excuse me, I forgot to say the line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“欢、欢迎回来，主人……”",
+			say = "Ahem... \"Welcome back, M-Master.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 			},
 			options = {
 				{
-					content = "不用这么勉强……",
+					content = "\"Your delivery could use some work...\"",
 					flag = 1
 				},
 				{
-					content = "有模有样！",
+					content = "\"Hey, that wasn't half-bad.\"",
 					flag = 2
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "果然你也是这么觉得的么？",
+			say = "You're not the first to say that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "多谢夸奖，以及，希望你不是在挖苦我取乐！",
+			say = "I'm honoured. Thank you. Assuming you mean it, anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，让我扮演女仆什么的陛下也太恶趣味了……",
+			say = "*sigh*... I'm so not cut out to be a maid. Who thought putting me on this programme was a good idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本来想着找个没什么人的地方休息一下，结果你正好在这个时候来了……",
+			say = "I'd just sat down to have a break since there were no customers, and then you show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说吧，要点些什么？我这就去下单。",
+			say = "Oh well... What would you like to order? I'll tell the kitchen staff to ready up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			},
 			options = {
 				{
-					content = "不继续休息一会么？",
+					content = "\"You're cutting your break short?\"",
 					flag = 1
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那可不行~要是让人知道了堂堂近卫骑士在指挥官的包厢偷懒可就大事不妙了。",
+			say = "Well, yes? People would be right mad if they caught a Royal Knight slacking around the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再说了，把你的点单拿回来之后我不就能光明正大在这里休息了么~",
+			say = "I guess I could have my break after you've ordered something. Not like anyone could complain then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果你没法决定的话，我就帮你点了。一份司康饼，一杯橙汁，怎么样？",
+			say = "So, what will it be? I can recommend the house's scones and a glass of orange juice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +286,11 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "\"I'll have that, then.\"",
 					flag = 3
 				},
 				{
-					content = "摇头",
+					content = "\"I'm not really sure what I want.\"",
 					flag = 4
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "哼哼，有眼光~我们的店里不光是红茶，橙汁的味道也很不错哦。",
+			say = "Great, thanks. I know everyone raves about the tea, but our freshly squeezed orange juice is quite good as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "你在这里稍候片刻，等东西做好了我再送过来。",
+			say = "I'll be back in a minute. Just kick back and get comfy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#a9f548",
-			say = "那就还是红茶……？",
+			say = "A cup of tea then, as always?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			},
 			options = {
 				{
-					content = "继续摇头",
+					content = "\"Hmm...\"",
 					flag = 1
 				}
 			}
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "……我懂了。“主人想要的是一份古法制作的仰望星空派。”",
+			say = "Ugh... \"Thank you for ordering, Master. We'll have your stargazy pie ready soon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“主人请在这里稍候片刻，等东西做好了我就给您送过来！“",
+			say = "\"Please make yourself at home until then. I'll be back shortly.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让您久等了，这是为您准备的餐品，请您慢用~",
+			say = "\"Thank you for your patience. Here is your order. Bon appétit.\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -432,7 +432,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，忘了把营业模式切换回来了……那你慢用，我在沙发上休息会~",
+			say = "Oops. Brain got stuck in maid mode there. Enjoy your meal while I go lie on the sofa in the next room over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			},
 			options = {
 				{
-					content = "女仆体验感觉如何？",
+					content = "\"How's the maid program treating you?\"",
 					flag = 1
 				}
 			}
@@ -455,7 +455,7 @@ return {
 			live2d = "detail",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不适应……！女仆工作不但没有能释放能量的地方，反而会成倍积攒压力！",
+			say = "I told you before, I'm NOT cut out for this bloody job. \"It's great stress relief,\" they said... Yeah, right, my stress is going through the roof here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "女仆队的孩子可真厉害，长时间维持那个状态我可是受不了……",
+			say = "Hats off to the Royal Maids who do this every day. I'd go mental if I had to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			live2d = "main5",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊……已经积攒几天压力了。指挥官，明天你会让我出击的吧？",
+			say = "God, I need something to unwind from these past few days... Do me a favour and let me sortie tomorrow, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,11 +500,11 @@ return {
 			},
 			options = {
 				{
-					content = "可以安排一下。",
+					content = "\"Consider it done.\"",
 					flag = 5
 				},
 				{
-					content = "请再做一阵女仆的工作！",
+					content = "\"You're almost through with this. Hang in there.\"",
 					flag = 6
 				}
 			}
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			optionFlag = 5,
 			nameColor = "#a9f548",
-			say = "太好了，你还是懂我的！",
+			say = "Awesome! I knew you'd show compassion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			optionFlag = 5,
 			nameColor = "#a9f548",
-			say = "等明天出了海就把这些不快感通通发泄出去♪~",
+			say = "Just need to get through today, then I'll finally get to vent some steam!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "开、开什么玩笑？！",
+			say = "You're kidding, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "不过……你要是真这么想看我演女仆，只是偶尔的话……",
+			say = "I mean... If you really enjoy having me as a maid, then I guess I'll bear with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			optionFlag = 6,
 			nameColor = "#a9f548",
-			say = "……也许也不是不行！",
+			say = "Don't expect me to put on this uniform too frequently, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好了，我要继续休息了。指挥官也请好好享受这来之不易的休憩时光哦~",
+			say = "...Anyway, the sofa's calling! I'm going to have my break now. Take your time and enjoy the food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

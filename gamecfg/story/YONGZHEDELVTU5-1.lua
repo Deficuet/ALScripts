@@ -6,10 +6,10 @@ return {
 		{
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			actorName = "魔王",
+			actorName = "The Demon King",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "嚯嚯嚯，居然活着来到我的城堡了么。",
+			say = "Mwahahah! I'm surprised you made it to my lair alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,9 +18,9 @@ return {
 		{
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			actorName = "魔王",
+			actorName = "The Demon King",
 			side = 2,
-			say = "但是，接下来本魔王会亲自来当你们的对手！",
+			say = "But you won't be for much longer! I will see to that myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,9 +29,9 @@ return {
 		{
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			actorName = "魔王",
+			actorName = "The Demon King",
 			side = 2,
-			say = "你们的冒险就在此结束吧————",
+			say = "Your little adventure ends right here and n–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

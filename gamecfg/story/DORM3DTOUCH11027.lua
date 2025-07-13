@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个距离……刚刚好呢……",
+			say = "This is just the perfect distance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

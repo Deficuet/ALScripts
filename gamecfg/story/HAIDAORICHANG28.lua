@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>泳池与佳人</size>",
+					"Uncharted Summer\n\n<size=45>Poolside Beauty</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_164",
-			say = "闲暇的间隙，据点的室内游泳池内。",
+			say = "I decide to pay a visit to the island's indoor pool.",
 			bgmDelay = 2,
 			bgm = "bar-soft",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_164",
-			say = "窈窕的身影从水波之中探出，而后坐到了岸边——",
+			say = "Bismarck is there. She comes up after a quick swim and sits by the poolside. She is drenched – and looking gorgeous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "呼……果然得先处理一下头发才行。下去游了一圈，都黏在身体上了……",
+			say = "Whew... My hair keeps getting caught on my body. I should've tied it up before going in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "嗯，指挥官，水温正好，这里的空间也很开阔。",
+			say = "Fancy seeing you here, Commander. The water is perfect – neither too hot nor cold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,83 +100,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "能在岛上建起来这样的泳池，稍微有点出乎意料呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_164",
-			spine = true,
-			dir = 1,
-			actorName = "{namecode:435}",
-			actor = 405051,
-			nameColor = "#A9F548FF",
-			say = "作为泳池来说算是合格了。不过作为约会地点……呵呵，你觉得呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_164",
-			spine = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
-			actor = 405051,
-			actorName = "{namecode:435}",
-			say = "——在休息的时候，接到了{namecode:435}游泳的邀请。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_164",
-			spine = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
-			actor = 405051,
-			actorName = "{namecode:435}",
-			say = "不过目的当然不仅限于游泳……自然还有约会。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_164",
-			spine = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
-			actor = 405051,
-			actorName = "{namecode:435}",
-			say = "今天的泳池显得格外开阔，似乎不会有人来打扰的样子。",
+			say = "A splendid pool is among the last things I thought we could build on this remote island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +119,83 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "因为今天这里被我包场了。",
+			say = "It's a great place to swim, but leaves much desired as a date spot... But never mind that. What do you think about the pool?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_164",
+			spine = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			actor = 405051,
+			actorName = "{namecode:435}",
+			say = "Frankly, the main reason I'm here is because she invited me to swim with her.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_164",
+			spine = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			actor = 405051,
+			actorName = "{namecode:435}",
+			say = "Not just to burn calories, of course, but also to enjoy some time together. Go on a date, in other words.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_164",
+			spine = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			actor = 405051,
+			actorName = "{namecode:435}",
+			say = "\"I noticed that we're alone in here.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_164",
+			spine = true,
+			dir = 1,
+			actorName = "{namecode:435}",
+			actor = 405051,
+			nameColor = "#A9F548FF",
+			say = "Yes. That's because I reserved it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "……你应该懂我的意思吧？呵呵，不要故作迟钝哦。",
+			say = "We all want to be left undisturbed sometimes. Especially now, when... You know what I mean, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "泳装？我自己选的哦，觉得你应该会喜欢，所以就选了这件。",
+			say = "Incidentally, I chose this swimsuit myself. I thought you might like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "从暴露的程度上来说，应该算是恰到好处吧。",
+			say = "It strikes a good balance between form and function.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "之前在泳衣的选择上，还想着参考下{namecode:428}的意见……",
+			say = "In truth, I did ask Eugen for suggestions, but all the swimsuits she picked out were...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "结果她给我选的那些泳衣都……咳咳……",
+			say = "The kinds that draw undesirable attention. Let's just say that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 405051,
 			actorName = "{namecode:435}",
-			say = "{namecode:435}的脸上爬上一抹难以察觉的绯红。",
+			say = "Bismarck is not usually one to mince her words. Through squinted eyes, I notice that she's blushing ever so faintly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "那个，指挥官的热身运动做完了的话，应该可以下水了——",
+			say = "Ahem... I see you've done your warmups. Aren't you going in the pool?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "等、等下，让我缓一下……真是的，头发还是湿的，现在就拉我下水，真是心急啊……",
+			say = "...Together? Someone's impatient... I just got up a minute ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "算了，反正这里也只有你在……",
+			say = "Oh, never mind. We're alone here – there's no point fussing over appearances.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "{namecode:435}",
-			say = "来吧。在水里等着我就好。",
+			say = "Go on in. I'll join you in a second.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actorName = "{namecode:435}",
 			actor = 405051,
 			nameColor = "#A9F548FF",
-			say = "……也可以当作比拼泳技的挑战书哦？呵呵，可不要让我失望了哦——",
+			say = "Care for a challenge? Let's see who's the best swimmer. I'm not going to go easy on you.",
 			painting = {
 				alpha = 0.3,
 				time = 1

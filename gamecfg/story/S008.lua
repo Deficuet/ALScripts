@@ -6,11 +6,11 @@ return {
 		{
 			sequence = {
 				{
-					"世界分崩离析…拥有力量之人站了起来，想要对抗历史的洪流",
+					"The world order is crumbling... Those with power must stand up and fight against the currents of evil and the torrents of history.",
 					2
 				},
 				{
-					"殊不知，力量与力量之间互相吸引，唤起了更大的波澜",
+					"It is known, however, that power begets power, bringing forth even stronger waves...",
 					4
 				}
 			}

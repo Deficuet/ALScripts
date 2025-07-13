@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>三　近处、无法对焦</size>",
+					"A View For Two, With You\n\n<size=45>3 Out of Focus</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "指挥室的门被轻轻的推开，佩萨格诺垂头丧气的走了进来。",
+			say = "The door to my office slowly opens, and one dejected Ema appears.",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "早上好……指挥官……",
+			say = "Hi, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "随后佩萨格诺坐到自己座位上，一言不发，麻木地整理起文件。",
+			say = "After weakly greeting me, she takes a seat and stares vacantly at the documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……整理文件，开始工作……",
+			say = "So I organize these files... And then these...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……同一摞文件被整理了一遍又一遍，佩萨格诺却完全没意识到。",
+			say = "(I don't think she realizes that she's been sorting the same pile of documents over and over.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,18 +110,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "像是丢了魂一样，看来她的身上一定发生了什么。",
+			say = "(She's clearly not all here... Something must be wrong.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "文件们现在很痛苦",
+					content = "\"I think you've sorted those enough.\"",
 					flag = 1
 				},
 				{
-					content = "出什么事了么？",
+					content = "\"Is something wrong?\"",
 					flag = 2
 				}
 			}
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……啊？",
+			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊！文件！",
+			say = "Oh, the files!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "抱歉……指挥官，我好像做了非常失职的事……",
+			say = "Sorry... I'm not getting any work done at all, am I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "没事，重复整理文件也可以被解释为工作认真细致。",
+			say = "\"It's not a big deal. Checking and rechecking your work is good practice.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "比起这个，是在来指挥室的路上出什么事了么?",
+			say = "\"If there's anything bothering you, though, I'm happy to listen.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "是这样的……",
+			say = "Well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺失落地讲述起她刚刚遇到的事情。",
+			say = "She's still sad, but Ema tells me what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一段时间前的港区——",
+			say = "Earlier, at the port...",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（清晨的风光，真是别有一番风味……！稍微绕个路真是正确的决定。）",
+			say = "(Morning at the port is pretty in such a different way! Good thing I took this little detour.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（啊，那那棵树上一闪而过的难道是……松鼠？）",
+			say = "(Oh, what just jumped up that tree? A squirrel...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哇！好夸张的望远镜！",
+			say = "Whoooa, big telescope!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "是在看什么有趣的风景么~？",
+			say = "Whatcha looking at? Something cool?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（好像有什么声音……应该不会是在叫我吧。）",
+			say = "(I hear someone talking, but... I doubt they're talking to me.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（再……看看那棵树好了，也许能找到松鼠的家。）",
+			say = "(Focus on that tree... You might find a little house of squirrels!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水星纪念，我们还是不要打扰人家了。",
+			say = "Now, now. Don't disturb her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯……确实看上去很忙的样子。",
+			say = "Aww... Yeah, I know I shouldn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不过这个样子反而更让人在意她究竟在看什么呀！",
+			say = "But now I really wanna know what she's looking at!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（好像……真的是在叫我？）",
+			say = "(Hmm... Are they talking to me?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊！两位是……北方联合的？",
+			say = "Oh! You two are from the Northern Parliament, right...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿芙乐尔和水星纪念，你是撒丁帝国的佩萨格诺吧？",
+			say = "Yes. I'm Avrora, and this is Pamiat' Merkuria. You would be Sardegna's Emanuele Pessagno, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "没错！非常抱歉，刚刚没注意到两位是在跟我说话。",
+			say = "Right! Sorry... I didn't realize you were talking to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "请问是有什么事么？",
+			say = "Umm, do you need something...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我跟阿芙乐尔正在附近考察。",
+			say = "Me and Avrora here were just investigating this area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "看你这身装备，你应该对这周边的风景很懂吧，有什么推荐的地方么？",
+			say = "With that huge telescope, you must know which places have a good view, right? Any recommendations?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "推荐的地方……具、具体是用于什么场景的呢？",
+			say = "Recommendations? Umm... For what, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "那当然是——用来约会啦~",
+			say = "Duh—for a date with the Commander, of course♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "约、约约会？！",
+			say = "D-date?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "是啊~有什么推荐么~！",
+			say = "Yeah! I need date ideas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "有么有么！",
+			say = "C'mon, tell me any places that you can think of!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，啊，呃——",
+			say = "U-umm, well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（约会的话，之前其实也考虑过不少地方……）",
+			say = "(I have gotten curious and looked for fun date destinations, but...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（首先当然强烈推荐那里！然后是……还有……最后是一个特别推荐的……）",
+			say = "(A first date would be... There, of course. And after that, erm... Right, I'd have to recommend...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（当然，如果有时间的话，那里……还有那里……也是很推荐的，啊，还有……）",
+			say = "(Then, if you had time, you'd go there... Oh, and you can't miss that one... Hmm...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯，你怎么不说话？",
+			say = "Hellooo? You there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "涉及到约会地点所以想要保密了？",
+			say = "...Yeah, forget it. She's overheating so much, her head's gonna start smoking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我、我……",
+			say = "I-I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（糟糕……脑海里已经生成了一篇完美的攻略了，但要怎么告诉她们呢？）",
+			say = "(This is bad... I already have the perfect route in mind, but how do I even begin to tell them...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水星纪念，不要再欺负人家啦，对不起哦，我们打扰到你了。",
+			say = "Kuku, it's not nice to tease. We're sorry for disturbing you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "啊哈哈哈……抱歉抱歉，我跟阿芙乐尔其实只是路过而已。",
+			say = "Ahaha... Yeah, my bad. We actually just happened to be passing by, y'know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "考察约会地点的事只是开玩笑，你别在意~",
+			say = "I was kidding about the date thing! Calm down a little.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "啊，阿芙乐尔别推我啦！我自己会走！",
+			say = "Okay! Geez, Avrora, I'm coming! You don't have to pull!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "才不是想保密……",
+			say = "I wasn't really worried or unwilling to tell them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊……明明有好多想介绍的地点，却不知道怎么表达出来……",
+			say = "There are so many places I want people to know about, but I just don't know how to communicate it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我真是……",
+			say = "Ugh, come on, Ema...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -957,7 +957,7 @@ return {
 			actor = 601090,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "就是这样，我其实是想告诉她们的……但我……不知道怎么说出口……",
+			say = "I really wanted to tell them, but for some reason, the words won't come out.",
 			effects = {
 				{
 					active = false,
@@ -997,7 +997,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，之前收到的评价是对的……",
+			say = "Maybe it's true what they say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我就是不擅长表达、不知道在想什么……还有……难相处……",
+			say = "I'm not very good company, it's impossible to tell what I'm thinking, and I don't express myself enough...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,14 +1030,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺越来越消沉，感觉再过一会她就要融化了……得想想办法。",
+			say = "(She's only making herself feel worse. I should do something.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有没有想去的地方？",
+					content = "\"Is there anywhere you'd like to go?\"",
 					flag = 1
 				}
 			}
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "有！",
+			say = "Y-yeah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊……",
+			say = "But... *sigh*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1083,7 +1083,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "很好。虽然佩萨格诺还是很消沉，但至少不会再继续融化下去了。",
+			say = "(I was able to get her mind off of it, if only for a moment. Let's keep this up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

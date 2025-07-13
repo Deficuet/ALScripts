@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于，到了最后的决赛阶段了……！",
+			say = "Today is the day at last! The finals!",
 			bgm = "votefes-up",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是呀~终于到这一天了！",
+			say = "Yeah! I've been waiting for this day to come!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:408:Z23}……乐在其中？",
+			say = "Are you... having fun?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也、也许吧……？我很喜欢这种热闹的氛围的！",
+			say = "I-I guess I am. I just love it when the mood's lively like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，一想到决赛结束后的冷清……就稍微有点失落呢。",
+			say = "It's going to suck when it's over, though. Just thinking about the finals wrapping up makes me kind of sad.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天下没有不散的筵席……的说。",
+			say = "All good things come to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是如此呢……但是，在活动中留下的珍贵回忆是不会消失的！",
+			say = "Yeah, sadly. Still, it's better to miss it than to never have experienced it at all. Plus, you'll still have your memory of it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！就让我们一同努力，让这场决赛成为我们最珍贵回忆吧！",
+			say = "You're right. Let's enjoy this while we can and make it the most memorable poll yet!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区·演出海域",
+			say = "Port - Concert Sea Area",
 			side = 2,
 			bgName = "bg_map_idom",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我回来了！{namecode:408}、大家，都没事吧？！",
+			say = "I'm on my way back! Is everyone okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢，大家都没事。",
+			say = "Not a scratch on us. Thank you very much.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有点被吓到…不过，多亏各位及时营救所以没什么事……",
+			say = "That was quite a shocking experience...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼哼！说明亚美们的支援时机非常完美！",
+			say = "Nihihi! We came in clutch, isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯！也刚好展示了真美们的μ兵装！",
+			say = "Yeah, that was the perfect time to unveil our brand new Muse System rigging!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 301057,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "必败事件之后驰援而来的新伙伴，是神演出的说。",
+			say = "Bringing new friends in and getting new powers— that's the perfect way to wrap up a training arc after a bitter defeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401236,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，刚才状况还是挺危险的呢……",
+			say = "Jeez, I hope you two realize how much danger you put yourselves in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也还好~本来亚美和真美就一直在跟着舰队的信号。",
+			say = "Actually, there wasn't anything to worry about. I had already been tracking their signals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以才能在状况变危险之前赶来支援。",
+			say = "If there was any real threat of danger, I was ready to step in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！这个μ兵装是潜艇型！也就是说…",
+			say = "See, there's no problem! By the way, as you can see, this rigging is a submarine-type! That means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在春香她们不知道的情况下，我们一直跟在舰队后面哦！",
+			say = "We've been trailing the mass-produced ships without you knowing it, Harurun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的能够潜水吗…？！真是超乎想象的技术力…",
+			say = "Wait, so you two can dive now?! The level of technology here is pretty wild...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不能一整天都潜在水里…嗯，是{namecode:98}的功劳…的说。",
+			say = "It wasn't developed overnight, but Akashi managed to pull through, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看，兵装的设计跟服装也很搭~♪",
+			say = "Plus, don'tcha think this outfit suits us perfectly~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "律子的也很让人期待呢~♪",
+			say = "Ritsuko has some big news for us, right~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀…这究竟是…？",
+			say = "Um... What is this...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那时候律子咨询了那个叫{namecode:98}的小伙伴，我们的冒牌货装备的那个机械究竟是什么。",
+			say = "Ritsuko went to ask that Akashi girl about the rigging that my clone had equipped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "按{namecode:98}所说，那个似乎是“跟这边的舰船们装备的『μ兵装』相似”的东西呢。",
+			say = "Apparently, \"those ships were equipped with rigging very similar to our Muse System.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我在想，我们是不是也能装备“μ兵装”。",
+			say = "That gave her the idea to see if we could also equip the Muse System rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来只是顺口问问，没想到居然真的帮我们做出来了……",
+			say = "I was just curious, but I had no idea she'd actually go and make it...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也能“战斗”啦！这样不是很好嘛？",
+			say = "But it worked out, because now we're totally able to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！接下来亚美们会打倒很多敌人的！",
+			say = "Yup yup! We can't just be relying on others the whole time we're here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此~",
+			say = "I see, that makes sense~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们愿意“一起战斗”真是太好了，不过千万别太勉强哦。",
+			say = "We're grateful that you have the will to fight alongside us, but remember, don't push yourselves too hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才看到{namecode:6}、亚美和真美一起冲出去支援的时候，真是吓了一跳啊。别忘了是大家要“互相帮助”的哦？",
+			say = "To be honest, I was a bit surprised when Ayanami, Ami, and Mami popped up out of nowhere. Let's make sure we support each other properly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 301057,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉…的说。",
+			say = "My apologies...",
 			action = {
 				{
 					type = "shake",
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用道歉啦，保护同伴不是理所当然的事情嘛。",
+			say = "There's nothing to apologize for. It's only natural to want to protect your friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 108050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算发生了紧急事态，还有大青花鱼在呢！嘻嘻~",
+			say = "And in case things go south, just remember that I've got your back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就先继续前进，看看舞台的状况再回去吧！",
+			say = "All right then, let's finish scouting out the venue before we head back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

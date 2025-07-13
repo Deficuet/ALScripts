@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[1]\n\n<size=45>虎舞迎春</size>",
+					"Port Fashion Collection: Spring Festival I\n\n<size=45>3 Prancing Tiger Welcomes the Spring</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "灯笼与烟花点缀下的夜晚，漫步在颇具节日气息的街道上——",
+			say = "I walk down the festive street under the light of lanterns and fireworks.",
 			bgm = "main-chunjie-pv",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜~嗷呜~！",
+			say = "Grooar! Grooooar!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "一只非常特别的“生物”从阴影中窜出，拦在了我的散步路线上。",
+			say = "With a roar, a very odd creature jumps out from the shadows and locks her arm around mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜~嗷呜~嗷呜呜！",
+			say = "Groar groooar! Grooooar!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "此刻，这只“嗷呜”叫的拦路虎……",
+			say = "The shipgirl – no, tiger – blocking my path continues to roar, shaking her huge \"head\" gleefully from side to side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,18 +90,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "不，“拦路狮”正摇晃着硕大的脑袋在我面前左右摇摆。",
+			say = "Or... No. That is clearly a lion's head. Is this one of those ligers I've heard about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "往左走一步",
+					content = "(Take a step left.)",
 					flag = 1
 				},
 				{
-					content = "往右走一步",
+					content = "(Take a step right.)",
 					flag = 2
 				}
 			}
@@ -112,7 +112,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "它跟着往左移动了一步。",
+			say = "The liger takes a step left as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "它跟着往右移动了一步。",
+			say = "The liger takes a step right as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜呜~嗷呜呜呜！",
+			say = "Grooar, groaroar!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……这只“拦路狮”，正在得意地眨眼睛。）",
+			say = "(The lion head is just blinking back at me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,18 +166,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "（看来得换一种突围方式……）",
+			say = "(Guess I'll have to find another way...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "掀开它的头罩",
+					content = "(Try taking the lion head off of her.)",
 					flag = 1
 				},
 				{
-					content = "跳过去吧",
+					content = "(Jump over her.)",
 					flag = 2
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "“拦路狮”敏捷地向后一跳，成功躲掉了我的突袭。",
+			say = "The liger swiftly jumps back and evades my ambush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不行，这个高度只有梦里能做到。",
+			say = "As a Commander, if I can just command my legs to jump high enough... Yeah, that's not happening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈哈哈哈~耶~恶作剧大成功！",
+			say = "Hahahaha~ Yaaay, my prank worked perfectly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（哦？这声音……）",
+			say = "(Hm? I know that voice...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虎贲，原来是你啊。",
+			say = "Hu Pen? I didn't realize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "“拦路狮”张开的“嘴巴”里露出了虎贲得意的笑脸。",
+			say = "Within the beast's gaping maw, I see Hu Pen grinning proudly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿~指挥官有没有吓一跳呀~",
+			say = "Heheheh, did I getcha?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我和姐姐正在练习舞狮，不过现在是休息时间。",
+			say = "Lung Wu and I are practicing our lion dance! We're on break right now, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚远远就看到指挥官在散步，就想过来给你个惊喜。",
+			say = "I saw you walking from far away, so I decided to play a little prank on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？我的舞狮形态是不是很厉害？",
+			say = "See? My lion dance is awesome, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,11 +337,11 @@ return {
 			},
 			options = {
 				{
-					content = "很厉害！",
+					content = "It sure is!",
 					flag = 1
 				},
 				{
-					content = "狮子为什么要嗷呜叫？",
+					content = "I'm not sure lions roar like that...",
 					flag = 2
 				}
 			}
@@ -356,7 +356,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是吧是吧，我可是用了2000%的努力去练习的！",
+			say = "It better be! I gave 2,000% percent of my effort to learn it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……因为嗷呜比吼吼可爱嘛！",
+			say = "Y-yeah, well... It's cuter the way I do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……问我们怎么会想到要表演舞狮？",
+			say = "Why did we decide to do the lion dance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，因为狮子是能消灾除害的瑞兽呀！",
+			say = "Heheh, because lions are auspicious beasts that can ward off disaster.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你说老虎和龙本来也是瑞兽？",
+			say = "...Dragons and tigers are, too? Heheh, you sure know your stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……那今年由我和姐姐来表演舞狮，大家一定能福气加倍，幸福加倍的！",
+			say = "Yep! Lung Wu and I are doing the lion dance, so our tiger and dragon elements will blend in and make it the perfect good-luck dance for everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,9 +468,9 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "龙武",
+			actorName = "Lung Wu",
 			nameColor = "#A9F548FF",
-			say = "虎贲——快点回来练习——不要偷懒啦——",
+			say = "Hu Pen! Quit slacking off and come back to practice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马上来——",
+			say = "Oh, comiiing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "在龙武的呼唤下，虎贲再次戴好舞狮头套——",
+			say = "Hu Pen dons her lion head once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么指挥官之后就好好期待我们精彩的演出吧~",
+			say = "Bye, Commander! Hope you're excited to see our lion dance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "留下这句话后，“拦路狮”便朝着龙武的方向飞奔而去。",
+			say = "With that, the lion-tiger hybrid scampers energetically back to Lung Wu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "看来今年的新春表演，要新增一个亮眼的节目了——",
+			say = "(Seems like our New Year's festival has an exciting new program coming up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "小兔子，折好的，以前送给{dorm3d}过！",
+			say = "Paper bunny! I gave you one... as a present before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，还可以折，别的小动物……小羊，和小马！",
+			say = "Anchorage can fold other animals, too... Like sheep and ponies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……？{dorm3d}说，想要，机器人模型……糕达？",
+			say = "Hm...? {dorm3d} wants a robot? ...Gunboy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那是……什么……不懂……安克雷奇，试试看！",
+			say = "What's that...? I don't know... but I'll try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

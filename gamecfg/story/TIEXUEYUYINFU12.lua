@@ -12,7 +12,7 @@ return {
 			side = 0,
 			bgm = "bsm-3",
 			dir = -1,
-			say = "真是坚硬的装甲…14英寸主炮居然也难以击穿",
+			say = "Quite impressive armor you have there... Even my 14-inch guns are having trouble breaking through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			actor = 405010,
 			dir = 1,
-			say = "对于钢铁的领悟，铁血…可是在皇家之上——",
+			say = "Our mastery of metallurgy far surpasses anything the Royal Navy is capable of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 1,
 			actor = 405010,
 			dir = 1,
-			say = "！来自右舷的炮击！？",
+			say = "What... from starboard?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "这个火力…难道是——",
+			say = "Gah... this kind of firepower... it can't be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，逢敌必战！",
+			say = "Ships of the Royal Navy, now we triumph over the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赌上Big Seven之名！16英寸主炮瞄准——",
+			say = "You face one of the Big Seven! Let's see how your vaunted armor stands against my 16-inch guns!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开火！",
+			say = "Fiiiiire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

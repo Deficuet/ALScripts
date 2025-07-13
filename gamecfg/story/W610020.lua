@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中异常的海雾消失了。",
+			say = "Scan complete. Abnormal weather and haze within zone has been eliminated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

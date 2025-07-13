@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指挥官，你知道什么样的人最容易受到欢迎和尊敬喵？",
+			say = "Commander, do you know what type of person will most likely be welcomed and respected?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "就让{namecode:98}来教教你喵！那就是~~~~~",
+			say = "Why don’t you let {namecode:98} teach you her ways! Which is ~~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "懂得坚持到底的人喵！！",
+			say = "Learn how to persevere to the end, nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "让{namecode:98}看看指挥官的毅力喵～持之以恒，积少成多喵！",
+			say = "Let {namecode:98} witness your will to persevere~ Push forward, many a little makes a muckle! Nyaa~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "{namecode:66}也是这么说的喵！",
+			say = "{namecode:66} also said so! Nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

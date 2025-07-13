@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"康克德与甜食\n\n<size=45>二　Let's buffet！</size>",
+					"Sugary Concord\n\n<size=45>Chapter 2: It's Buffet Time!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在这之后的某一天——",
+			say = "Some number of days later...",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "受邀和奥马哈级的三人去甜品店。",
+			say = "I was invited to go to a confectionery with three members of the Omaha-class.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂~快点，甜品店就在前面！",
+			say = "Hey~ hurry up, the confectionery is just ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢！一看到甜品店的招牌，就充满了斗志呢！甜品也是零食的一部分！",
+			say = "Ohh! Just seeing the sign is filling me with fighting spirit! Sweets are a form of snacks, after all!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -117,7 +117,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一说到有吃的就情绪高涨…真是的……",
+			say = "Getting excited whenever food is mentioned... jeez...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧~小罗利吃不下的部分，就由我来帮你品尝~",
+			say = "Don't worry, Li'l Raleigh! Whatever you can't finish, I will take care of~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说了很多次了，我可是姐姐！CALL ME SISTER！",
+			say = "How many times do I have to tell you, I'm the elder sister! Address me accordingly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "进去再说进去再说嘛~",
+			say = "Save it 'til after we're inside, okay~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这边品种可不少哦~果然首先还得品尝草莓圣代——",
+			say = "The variety here isn't half bad~ gotta try the strawberry sundae first though!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姑且……姑且选点精致的马卡龙好了。",
+			say = "F-for the time being... I'm going to go with one of these exquisite macarons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~有拿破仑蛋糕，我也不客气了！",
+			say = "Ooohh~ a Napoleon cake! I'm not gonna hold back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐，你不是说要减肥么…一来就拿了五人份的蛋糕——",
+			say = "Sis, didn't you say you were trying to lose weight? As soon as you come here, you grab enough cake for five people.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，甜品也是零食的一部分！为了好吃的零食，减肥这种话题就让它消失吧！",
+			say = "Haha, sweets are also a form of snacks! For the sake of delicious snacks, we won't talk about stuff like weight loss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "话说回来，康克德你不也拿了很多甜品了嘛。",
+			say = "Having that said, Concord, you're awfully loaded with desserts over there as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "康克德的面前已经不知不觉堆上了大大小小的碟子。就象是被甜品和糖分包围了一样。",
+			say = "Before she realized it, in front of Concord was an ever-growing array of plates of various shapes and sizes. It was as if she was being surrounded by an army of sweets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，像这样不知节制的吃零食，也不怕以后衣服都穿不上…",
+			say = "Jeez, if you don't show some restraint in your snacking, you're soon going to need a new wardrobe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘁、嘁、嘁，补充糖分可是我的日常义务！",
+			say = "Tisk tisk tisk! Don't you know, refuelling my sugar supply is a daily obligation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糖分和其他零食是有区别的啦~",
+			say = "There's a difference between sugar and casual snacks, you know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以就放开吃吧~嘻嘻~",
+			say = "So, let's just cut loose and eat, hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯~做什么事都需要毅力，康克德补充糖分的毅力真让人感动！",
+			say = "Hmm~ doing anything requires willpower, and Concord's determination to fill up with more sugar is certainly awe-inspiring!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说你们啊……",
+			say = "You guys...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			say = "在康克德的带动下，今天也补充了很多糖分。",
+			say = "Goaded onward by Concord, I ended the day filled to the brim with sugar once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "哼——果然帝国的那班战舰到了关键时刻一点都靠不住",
+			say = "Hah. When it came down to it, those Sardegnian warships weren't worth a damn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "平时鼓吹的陆间海第一舰队、欧罗巴最先进的海上力量，到了实战中居然没有一点反手之力",
+			say = "After all that talk about being the greatest fleet in the Mediterranean, in the end they couldn't even fight their way out of a wet paper bag.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "之前承诺把陆间海交给她们掌控就是一个错误的决定！",
+			say = "Turns out it was a mistake to entrust the Mediterranean to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家不但首次在夜战中出动了航空母舰，夜战雷达也使她们的战舰炮击命中率大幅提高",
+			say = "With their night carrier operations and improved shelling accuracy from their radars, the Royal Navy's victory was practically guaranteed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "部分观测数据已经通过塞壬的数据网络传递回开发部了，希望能对新兵器的研发有所帮助",
+			say = "The observation data has already been forwarded to the research and development department. They should prove invaluable in the development of new weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "曾经不可一世的帝国海军，最后的价值也就只有这点了…吗，呵呵呵",
+			say = "And in the end that's all those insufferably arrogant Sardegnians were worth... Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "另外，{namecode:435}级战列舰的服役测试已经通过了最终阶段，预计再过1个月就可以正式服役",
+			say = "Furthermore, Bismarck has finally begun to stir.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "等到{namecode:435}服役，“欧罗巴大陆第一战舰”的名号就会回到我们手上了",
+			say = "When she returns once more, all the lands and seas will soon belong to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼，敢于和狼群为敌的愚昧之徒，最终都将受到铁与血的制裁",
+			say = "Those who betray the Iron Blood shall quickly find that we are their judge, jury, and executioner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:434}！",
+			say = "Gneisenau, can I trust you to monitor the Sardegna Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在",
+			say = "Aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "严格监视帝国舰队日后的行动，一旦出现可能的叛逃行为，立刻向司令部汇报！",
+			say = "I want eyes on their fleet around the clock. Report any signs of treachery immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "遵命，Eisen und Blut über alles！",
+			say = "Affirmative! Long live Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

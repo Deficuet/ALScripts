@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>七　她的价值，大家都知道</size>",
+					"Uniquely \"Me\"\n\n<size=45>7 Everyone Knows Her Worth</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在爱丁堡下班之后，突然想到了一件需要她来处理的事——",
+			say = "After Edinburgh left the office for the day, I suddenly remember something that I need her to do.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh？指挥官会来皇家宿舍区的厨房还真是稀奇！",
+			say = "Oh? I don't see you come to the kitchen often, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡去买调味料了，不在这里哦。",
+			say = "If you're asking about Edinburgh, she's not here right now. Said she had to buy some seasonings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,71 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "真不巧，那只好等明天再说了——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官，爱丁堡也当了挺久的秘书舰了，她做的还好吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说实话，我觉得你的喜好也够奇怪的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "Hey! 谢菲说过头了哦！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "一开始大家听说时都觉得指挥官你真有眼光呢！",
+			say = "Unfortunate. Guess I have to come back another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡虽然有些冒失，但总能不可思议地能温暖到身边的人。",
+			say = "...By the way, Commander. Edinburgh has been the secretary ship for a pretty long time now. Is she doing well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +127,71 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是独属于爱丁堡的，爱丁堡的价值。",
+			say = "Indeed. I always knew you had strange preferences, but this is...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hey! That's rude, Sheffield!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But the truth is, ever since you appointed her, we've all been talking about how you have a good eye for talent!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Right. Even though Edinburgh may seem a bit rough around the edges, she has a mysterious ability to warm the hearts of everyone around her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...I suppose that's something only Edinburgh can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官。",
+			say = "––Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后，也请您多关照姐姐了哦~",
+			say = "Thank you for continuing to look after my sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "刚走出皇家宿舍后，恰好遇上了买完东西回来的爱丁堡。",
+			say = "Right after leaving the Royal Navy dorms, I just happen to bump into Edinburgh, who was returning from her shopping trip.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，为什么指挥官来宿舍了，有事的话先等我放一下东西——啊啊！",
+			say = "Oh my, what brings you to the dorms, Commander? Wait, huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不见了！不见了！爱丁堡的钱包不见了啊？！难道是买东西的时候拿出来之后就……",
+			say = "It's gone! It's gone! My wallet's not with me?! I thought I had it a moment ago to pay for the groceries!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定是就直接放在柜台上了！……呜呜，为什么我总是这样……",
+			say = "I must've left it behind at the cash register... Ugh, why am I always like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,11 +323,11 @@ return {
 			},
 			options = {
 				{
-					content = "这样就能一起走了。",
+					content = "\"We'll get to take a walk together now.\"",
 					flag = 1
 				},
 				{
-					content = "这也是令人喜爱的地方呢。",
+					content = "\"I think that side of you is cute.\"",
 					flag = 2
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想法好乐观……！不过被指挥官这么一说，我也开始这么觉得了。",
+			say = "What a positive way of spinning things... But, hearing those words from you really makes me believe the same thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那事不宜迟，我们就赶紧一起去把钱包找回来吧！",
+			say = "*sigh*... Are you sure you're fine with someone like me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "点了点头，牵起爱丁堡的手，然后指了指手上挂着的购物袋。",
+			say = "I nod before taking Edinburgh's hand. Her smile is shy, but genuinely happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哎嘿嘿，那就拜托指挥官先帮我拿一下了~虽然是什么都做不好的我，不过指挥官，今后也请多多关照了！",
+			say = "Thank you, Commander! I hope I'll be able to do more to prove my worth to you in the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

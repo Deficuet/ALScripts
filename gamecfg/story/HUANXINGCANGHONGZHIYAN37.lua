@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_port_liwupu",
 			hidePaintObj = true,
-			say = "皇家·利维浦港",
+			say = "Royal Islands – Liverpool Port",
 			bgm = "theme-themagiciani",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "呼呼呼~大姐姐们，是皇家的人吧？",
+			say = "Ahahaha! Nice ladies over there! Yeah, you're all from the Royal Navy, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我来找你们玩了哦~",
+			say = "I came to see you! Let's play a little game together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……欸？",
+			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_port_buleisite",
 			hidePaintObj = true,
-			say = "鸢尾教国·布雷斯特港",
+			say = "Iris Orthodoxy – Brest Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "在皇家发生的怪事，鸢尾应该知道的一清二楚。",
+			say = "I see, I see. So, the Iris Orthodoxy has a hand in some of the shenanigans going on over in the Royal Navy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "看看从这里能得到什么情报呢~",
+			say = "Let's see if I can dig up anything fun and exciting here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……？",
+			say = "...Say what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_port_talantuo",
 			hidePaintObj = true,
-			say = "撒丁帝国·塔兰托港",
+			say = "Sardegna – Taranto Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "可恶，撒丁帝国一向事情最少的……",
+			say = "You Sardegna folks really like walking the straight-and-narrow, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "来这边总不会遇到问题了吧……",
+			say = "Shouldn't run into any strange issues here, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "………………",
+			say = "...Spoke too soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我就不信了……",
+			say = "Unbelievable. The hell is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
-			say = "铁血·基尔港",
+			say = "Iron Blood – Kiel Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "铁血！",
+			say = "Alright, Iron Blood this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……好。",
+			say = "...Oh yeah, real funny this time. VERY funny!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_port_shenbidebao",
 			hidePaintObj = true,
-			say = "北方联合·圣{namecode:471:彼得}伯格港",
+			say = "Northern Parliament – St. Petersburg Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "北方联合！",
+			say = "Good ol' Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……行。",
+			say = "Look at that! You're the exact freakin' same!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "bg_port_niuyue",
 			hidePaintObj = true,
-			say = "白鹰·NY港",
+			say = "Eagle Union – NY City Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "白鹰！",
+			say = "Eagle Uniooooooon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……看得见摸不着，是……幻影？",
+			say = "Bahahahaha! I can see it, right there! But I can't touch it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "整个实验场，全部都是……幻影？",
+			say = "This whole damn test site... Everything, is just an illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "到底是怎么回事……",
+			say = "What the actual hell is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我的实验场β呢，我的实验场β去哪儿了？！",
+			say = "Heyo, where did MY test site beta go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "是谁做的！",
+			say = "WHO WAS IT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actorScale = 1.2,
-			say = "给我出来——！",
+			say = "WHO WAS IT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actorScale = 1.4,
-			say = "出来————！",
+			say = "SHOW YOURSELF!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actorScale = 1.6,
-			say = "出来——————！",
+			say = "GET YOUR ASS OVER HERE RIGHT NOW!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

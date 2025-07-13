@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>六 比赛开始！</size>",
+					"Denver's Quest!\n\n<size=45>6.Leveling Up!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "按时来到篮球场后，球场上已经聚集了相当多的人，是比赛的消息传出去了么？",
+			say = "It was time for the match, and I'd arrived at the basketball court. Word of the game must have gotten around, as the spectator seats were starting to fill up.",
 			side = 2,
 			bgName = "star_level_bg_112",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加加加加油……！丹佛！",
+			say = "G-give it your all, D-Denver!",
 			effects = {
 				{
 					active = true,
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平时我不会看这些比赛，不过{namecode:38}和丹佛的就另当别论了。",
+			say = "I normally wouldn't spectate a game. But it's a different story when Sendai and Denver are playing.",
 			effects = {
 				{
 					active = false,
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼~考虑到综合实力，{namecode:38}的技术要更好一些吧？",
+			say = "Hmm. Between the two though, wouldn't it be fair to argue that Sendai has the most potential?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，那是因为你从来没有看过丹佛的篮球比赛所以才会这么说啦！",
+			say = "I wouldn't be so sure! You've never seen Denver play before, so you can't gauge her ability!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,53 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "在观众的热烈的视线中，{namecode:38}一边看着走进赛场的丹佛，一边用缠着绷带的食指转着球。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 302120,
-			side = 2,
-			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "规则是每次投篮得1分，三分线外投篮得2分，先得10分的选手获胜。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102150,
-			side = 2,
-			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "简单易懂的规则呢。那就让我们开始吧!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_112",
-			say = "掷硬币的结果是{namecode:38}先攻，然后激烈的比赛正式开始了——！",
+			say = "The spectators were clamoring as Sendai walked from across the court. She looked at Denver while spinning the ball with her bandage-covered index finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,21 +155,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先让我看看你的本事吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_112",
-			say = "{namecode:38}快速运球冲到了篮下。对位的丹佛则在判断着她会往左边还是右边突破。",
+			say = "The rules are simple. Scored shots from the three-point line are worth 2 points. Any other shot's worth 1 point. First to 10 points wins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +171,21 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "左边！",
+			say = "Simple is just the way I like it. Well? I'm ready when you are!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_112",
+			say = "Sendai won the coin flip to determine who starts off with the ball. The whistle blew, and the match officially started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +201,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天真！是右边！",
+			say = "Let's see what you've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "{namecode:38}巧妙而华丽地闪开了丹佛，然后精准投篮。目前{namecode:38}一分领先。",
+			say = "Sendai swiftly dribbled her way towards the goal. Denver intended to intercept, and had to gauge whether she was coming in left or right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +231,53 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次轮到我了！我上了哦！",
+			say = "It's gotta be the left!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 302120,
+			side = 2,
+			bgName = "star_level_bg_112",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Nice try! It's the right!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_112",
+			say = "Sendai gracefully swirled past Denver's defense and threw a well-aimed shot into her basket. Sendai gained the lead with 1 point.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102150,
+			side = 2,
+			bgName = "star_level_bg_112",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now it's my turn! Watch this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管你从哪边突破——啊？！",
+			say = "Go on. I'm ready to intercept where– What the hell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "丹佛就在拿到球的地方，于三分线外投篮。球以一个漂亮的弧线精准入框，为丹佛得到两分。",
+			say = "Denver threw the ball right from where she stood at the three-point line. Incredibly, the ball went right into Sendai's basket, scoring Denver 2 points.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我擅长的位置，可是得分后卫哦……！",
+			say = "Gotcha! By the way, I play my best in the position of shooting guard!",
 			effects = {
 				{
 					active = true,
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……那我就用彻彻底底的进攻击败你！",
+			say = "Hmph, not bad... Then I'll just have to double down on my defense!",
 			effects = {
 				{
 					active = false,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "你来我往的比赛还在继续，现在丹佛和{namecode:38}的比分是8比9，可以说是相当焦灼——",
+			say = "The lead switched back and forth repeatedly, until the game reached a decisive point. The board stood at 9 to 8 for Sendai.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼……川，{namecode:38}的运球，太巧妙了，根本跟不上啊……！",
+			say = "*pant*... S-Sendai's dribbling is so deceptive... I can't predict where she's going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "丹佛的远距离投篮战术，被{namecode:38}的贴身防守完全封锁了。",
+			say = "Denver's strategy had become almost impossible to pull off as Sendai gradually improved her defense game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧啧……丹佛，我已经完全掌握了你的动作……我不会让你再进一球的……！",
+			say = "Heh, it's over, Denver... I can read your movements like an open book. You're not gettin' the ball from me again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有输……！不，这场比赛我不能输!",
+			say = "Don't count your chickens until they've hatched! I'm gonna win this, whatever it takes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，终于我们彼此都该拿出真本事了啊……！",
+			say = "You sure sound cocksure. Hope that means you're finally gonna bust out your A-game!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			say = "{namecode:38}解开了手上缠着的绷带。丹佛则是仰望天空，调整起自己的呼吸来。",
+			say = "Sendai undid the bandages covering her hands, while Denver gazed up into the vast blue sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_112",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，大姐头，请看着我，看着丹佛闪耀的那一瞬间吧……！",
+			say = "Commander, Cleveland... I hope you're watching me. I'm gonna make you proud!",
 			effects = {
 				{
 					active = true,
@@ -514,7 +514,7 @@ return {
 			bgName = "star_level_bg_112",
 			dir = 1,
 			blackBg = true,
-			say = "（看起来样子有些奇怪的）丹佛的战斗，终于进入了最后阶段——！",
+			say = "The tense match had reached its final stage, and victory seemed within grasp of either player's hands.",
 			effects = {
 				{
 					active = false,

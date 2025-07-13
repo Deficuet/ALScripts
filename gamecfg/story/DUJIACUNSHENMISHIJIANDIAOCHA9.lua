@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "风波结束后又过去了数日，温泉度假村已经完全恢复了假日的气息。",
+			say = "Several days have passed since the incident, and the onsen resort is back in holiday mode.",
 			bgm = "map-longgong",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "入夜后前往结界内欣赏妖怪剧团的剧目，变成了一项在绝大多数同伴中备受好评的活动。",
+			say = "Plays are held daily at night, and they've become a hugely popular attraction with the guests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,19 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "然而，在某个清晨，假日办公桌上出现了这样一份文件——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_516",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……《度假村神秘事件调查报告》，布里斯托尔撰写。",
+			say = "I'm still on vacation now, and this morning, I received a report on the so-called \"Spirited-Away Incident\" slid in under my door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +47,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我们栖身在愚昧无知的封闭岛屿上，全然不知祂已悄然降临……」",
+			say = "\"The Onsen Resort Spiriting-Away Incident - By investigator Bristol.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +59,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，在狂风暴雪的阴影里，白色的雪变得不再是雪……」",
+			say = "\"...We live on an isolated island, completely unaware that the Great One is already in our midst.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +71,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，在肮脏的海水中，不可名状的海怪正疯狂吞噬着扭曲的同类……」",
+			say = "\"...I saw that in the shadow of that violent storm, the white snow ceased to be snow.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +83,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我看见，暴雨之后，天空露出怪异的微笑。黑影们舞蹈着、扭曲着，渐渐吞噬了唯一的火光……」",
+			say = "\"...I saw that in the grimy ocean water, an indescribable beast was madly devouring its own twisted kind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +95,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……平凡人类的法则、思维，在这里一切都没有意义……」",
+			say = "\"...I saw that when the rain gave way, the sky bared a foreboding smile. The dark shadows twisted and danced madly, blotting out the light of the lone flame.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +107,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……我本不应前行，我本早该掉头折返，但我依然在前行，在探寻，在见证……」",
+			say = "\"...Human logic, human laws, they are meaningless here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +119,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「……这些由无数伟大与奥秘所混合而成的禁忌奇迹……」",
+			say = "\"...I should not have dove deeper. I should have turned back. Yet, I keep moving deeper and deeper even now, searching for more...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,18 +131,30 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "附带：《调查小组检讨书》4份，基洛夫、萨拉托加监制。",
+			say = "\"...For the forbidden miracles that are a mixture of unfathomable beings and mystery.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_516",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "\"By the way, we've also attached copies of the other investigation team members' reports. Signed, Kirov and Saratoga.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是什么……？",
+					content = "What the hell is this?",
 					flag = 1
 				},
 				{
-					content = "将整份报告书锁进档案柜最深处。",
+					content = "Feels like I lost some sanity just from reading this...",
 					flag = 2
 				}
 			}
@@ -163,11 +163,11 @@ return {
 			actor = 312010,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "纯路人喵",
+			factiontag = "The Fat Cat Mastermind",
 			dir = 1,
 			blackBg = true,
 			hidePaintObj = true,
-			say = "《度假村神秘事件调查》——全剧终喵~",
+			say = "Hehehe... The onsen resort, the Youkai Troupe, even the spiriting away... they earned me a pretty penny, nya♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

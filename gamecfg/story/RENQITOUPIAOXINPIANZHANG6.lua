@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里就是换票处了！",
+			say = "This is the place where missions get turned into ballots!",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来，投票所用的票据都要从这里进行兑换呢！",
+			say = "Do what's listed on the mission board, and they'll give you ballots to use in the vote!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……拉菲要换一万张。",
+			say = "I want ten... thousand ballots.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等一下！人气票不是想要兑换多少就能兑换多少啦！",
+			say = "Don't be silly, Laffey! You can't just ask for as many as you want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想要获取投票券，需要遵守一定的规则才行！",
+			say = "You'll need to follow the rules if you want to participate in the vote.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们看，都写在旁边的公告栏里了。",
+			say = "Give that billboard a read. It's all laid out on there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好多……好长……好复杂……",
+			say = "So many rules... So many words... Too complicated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些票甚至还要通过作战任务累计贡献兑换呢……",
+			say = "Boy, that's a lot of missions. There must be a lot of hard work behind every vote.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果每一票都来之不易的话，那每一次投票前就需要慎之又慎——",
+			say = "Yes, so you need to think hard and long before casting it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得这就是设置这些复杂兑换规则的原因哦。",
+			say = "I get the feeling that they made these rules so complicated because they want you to think of each vote as precious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……只有先刷到足够多的票，才能有任性投票的权利……对吧。",
+			say = "Okay... Then I just need a lot of ballots before I can vote on a whim.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你是怎么得出这个结论的？",
+			say = "How'd you reach THAT conclusion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那拉菲……先接下这组海域歼灭任务了。",
+			say = "This eradication mission looks good... Yoink.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……我们今天先参观投票会场啦！",
+			say = "Please don't run off on us just yet. We're supposed to look around the venue!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>三　外部异质</size>",
+					"Whence the Dust Settles\n\n<size=45>3 Higher-Level Aberration</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "NA海域·核心区域周边海域",
+			say = "NA Ocean - Central Sector",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "这片原本危险层出不穷的海域，在与构建者的那场激战结束后，如今已经彻底归于平静。",
+			say = "Once, these waters were rife with danger. However, Siren activity in the area fell off following the defeat of Compiler, and some calm returned to the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "就连海域中心那个由永不停歇的风暴构成的奇异点都仿佛被世界遗忘了。",
+			say = "Even the tempestuous Singularity at its heart was evaluated as less dangerous following that monumental battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "但是在今日，越来越多的舰队正在汇聚而来。",
+			say = "However, after the events in the Pacific and the appearance of the Naraka singularity, shipgirls were once more gathering en masse in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "中心风暴虽然看上去变化不大，不过仪器的读数已经上升到夸张的程度了……",
+			say = "Seems the storm's threat readings have increased, even though the storm itself looks no different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让各舰队每隔五分钟汇报一次检测结果，同时绝对不能擅自进入危险区域中！",
+			say = "Have each fleet report their measurements every five minutes. Also, nobody is allowed to enter the storm without permission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "放心，我已经安排下去了。",
+			say = "I've already notified them all, so don't worry about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "唉，本来各地出现的异常情况就已经令人焦头烂额了。",
+			say = "Man, it's bad enough with the phenomena happening across the globe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "真没想到，中心风暴会在这个时间点进入不稳定状态……",
+			say = "Now the NA Ocean storm is becoming unstable. At the worst possible time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 102290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}，我发现了两个肉眼可见的目标正在向你的位置高速接近。",
+			say = "New Jersey! Two shipgirls were just detected exiting the storm! They're moving toward our position!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？我的雷达上什么都没看到啊——",
+			say = "What? But I don't see anything on the radar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦，是她俩对吧？",
+			say = "Oh, wait! It's THEM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102290,
-			say = "嗯。",
+			say = "You mean... Ashes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要阻拦，让她们过来吧。她们既然从风暴内部出来，应该清楚到底发生了什么事。",
+			say = "Let 'em through. If they got here through the storm, they probably know what's happening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "对了，和往常一样把补给物资准备好。",
+			say = "In fact, let's ready some supplies for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 102290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，明白。",
+			say = "Okay. On it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "自从NA海域大型作战结束后，余烬的{namecode:94:飞龙}与皇家方舟便一直驻扎在中心风暴这个永久奇异点中。",
+			say = "Following the conclusion of Operation Siren, Hiryuu and Ark Royal META had been keeping a close eye on the NA Ocean Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "由于她们在奇异点中与联合舰队一同对抗塞壬仲裁机关的经历，再加上其在陆上神国事件期间出手相助的事。",
+			say = "They had aided this world not just in Operation Siren, but also during the near-superimposition event, and people's views of them had improved accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "各阵营对她们都颇有好感，碧蓝航线指挥部也不例外。",
+			say = "So much so that the Commander ordered the fleet garrisoned in the area to provide the two Ashes with supplies, should they need them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "根据指挥官下达的命令，在NA海域核心区域驻防的舰队，要定期为驻守在中心风暴中的余烬成员提供补给物资。",
+			say = "All in all, the Eagle Union's attitude toward them had done a complete 180.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "余烬的{namecode:94:飞龙}在这件事上倒也不客气，每次都是大大方方地照单全收。",
+			say = "The two Ashes readily accepted the Commander's goodwill and took the supplies offered to them with no qualms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "光明正大地来，光明正大地走。有时候还会留下来吃个饭。",
+			say = "Both sides shared not only resources, but meals as well, and even exchanged information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一来二去，在此处驻防的舰队，对这两位余烬成员早已十分熟悉了。",
+			say = "They started out hostile to one another – now, it was like they were neighbors in the NA Ocean, on mutually good terms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 9707010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哟~诸位今天摆这么大的阵仗，看来是已经发现奇异点内部出现的问题了啊。",
+			say = "Seeing as so many of you are here, I'm going to assume you already know what's happening inside the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "{namecode:94:飞龙}女士，请问中心风暴的漩涡之中到底出了什么事？",
+			say = "Let's say we don't. Could you tell us what's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "别急，我们这次专程出来，其中一个目的就是为了告诉你们正在发生的事。",
+			say = "Sure thing. In fact, telling you was one of our reasons for coming here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "首先呢，需要告诉你们两个坏消息。",
+			say = "Unfortunately, I have two pieces of bad news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "第一，中心风暴的突然异变不是其自发产生的。",
+			say = "First – the abnormality did not happen spontaneously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "此时此刻，有某种外部异质正在涌入奇异点中，并且试图穿过它，入侵你们的实验场β。",
+			say = "Some sort of higher-level aberration is trying to enter the Singularity and invade test site beta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "第二，过去被击退的仲裁者·赫米忒·IX、仲裁者·司特莲库斯·VIII以及仲裁者·天帕岚斯·XIV重新出现在了中心旋涡中。",
+			say = "Second – the Arbiters Hermit, Strength, and Temperance have reappeared inside the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "看来这次也是冲着你们的实验场β来的。",
+			say = "I suspect they're going after your test site soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "不过嘛~还有一个好消息。",
+			say = "While these are both bad, I do have one bit of good news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "好消息……该不会是？！",
+			say = "Let me guess – the Arbiters and this \"aberration\" have begun fighting each other, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不错~仲裁机关在发现那些威胁等级更高的外部异质后，就先和它们打成一团了。",
+			say = "Correct. The Arbiters identified it as a danger to entire branches, so eliminating it became their number one priority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "所以……中心风暴突然出现的异常是因为……其中正在进行着激烈的战斗？！",
+			say = "So... the storm is acting up all of a sudden because those two are fighting?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不错。",
+			say = "Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:94:飞龙}，那些仲裁机关、以及听上去同样危险的外部异质……不论哪一方最终胜利，对于我们来说都很麻烦吧？",
+			say = "The enemy of my enemy and all that, but aren't we in serious trouble regardless of which side wins?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "没错，所以你们赶紧想办法把这个奇异点彻底关了吧。",
+			say = "You are. That's why I'd suggest closing the Singularity as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "关……？要是有办法关，我们早就关了！",
+			say = "If we knew HOW to close it, we would've done so ages ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个奇异点当初是你们的企业创造出来的，你要不问问她有没有什么办法？",
+			say = "Hey, didn't your Enterprise make this Singularity in the first place? Can't you ask her for help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "距离太远，我联系不上企业，只能等她联系我。",
+			say = "I would, but I cannot get in touch with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "都过去这么久了，我还担心她是不是把我俩给忘在这儿了呢……",
+			say = "I fear she might even have forgotten about me since it's been so long since I left for this branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707020,
-			say = "……{namecode:94:飞龙}。",
+			say = "Hiryuu, come on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "哎呀，吃人家的嘴短，没什么不能说的！",
+			say = "I know what you're going to say. Listen to me – it's OUR time to ask for help from THEM this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707020,
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "你们余烬这种松散的组织结构……到底是怎么活到现在的。",
+			say = "No offense, but I'm surprised you Ashes have managed to survive this long when you're so loosely organized.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "第一，我们都很能打，而企业是我们中最强的，她比我们都能打。",
+			say = "Our members are powerful, that's why. Enterprise especially so. Her power is greater than any one of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "第二，我们有很多可以预测危险的手段，所有成员之间保持紧密联络反而很危险。",
+			say = "We've also developed a keen sixth sense for danger, and we've learned that working as a unit actually makes it harder for us to adapt to a situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "放心，余烬不是什么冷酷无情的组织。",
+			say = "Say what you will about our individual members, but Ashes itself is not a cold and uncaring organization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "这场危机如果把我们也卷进去了，关键时刻一定会有人来支援的。",
+			say = "Others will come to our rescue if we end up smack-dab in the middle of this ordeal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "（……大概。）",
+			say = "(Well, probably...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "（而且再怎么说，海伦娜也不会见死不救的！）",
+			say = "(The only one we can count on is Helena.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "总之别想太多啦~计划赶不上变化。兵来将挡水来土掩，走一步看一步吧~",
+			say = "Anyway, panicking won't help anyone. For now, we can only wait and see how the battle unfolds and improvise accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "……我真欣赏你的豁达。",
+			say = "True. Better that than rushing out a plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "对了，你刚才在来的时候说，其中一个目的是为了告诉我们奇异点内正在发生的事……另一个目的是什么？",
+			say = "To wind back a bit, you said earlier that, \"telling us was one of your reasons for coming here.\" Are there more reasons?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "神仙打架凡人遭殃，当然是出来避难咯~！",
+			say = "How observant of you. The other reason is – we saw the writing on the wall and got out while we could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

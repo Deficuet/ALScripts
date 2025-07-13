@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>七　守护之刃的愿望</size>",
+					"The Protector Needs Protecting\n\n<size=45>7 The Protector's Wish</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一天的工作完成了，接下来是——",
+			say = "All done with today's work! You know what that means–",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "冰淇淋时间~",
+			say = "Ice cream time~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "提前完成了工作的恶毒，从冰箱里拿出来两个甜筒，然后径直坐到了我的腿上。",
+			say = "Le Malin, who had finished her work ahead of time, grabbed two portions of soft-serve ice cream from the freezer and plopped down in my lap as usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？指挥官，桌子上的这两张游乐园门票……",
+			say = "Hmm? Commander, these two tickets on your desk are...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "是今天早上{namecode:98}做推销的时候塞过来的？",
+			say = "Is that the thing Akashi tried to force onto me this morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊……你对游乐园有兴趣么？",
+			say = "It seems like the port's amusement park facilities have been completed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我才不想去那种地方呢。",
+			say = "Sounds nice. Not exactly my cup of tea though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,82 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一半时间用于在设施间奔波，剩下一半时间用来排队。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 901110,
-			say = "与其说是带来欢乐的乐园，我看更像是刑场。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "看来，恶毒对于游乐场有很不好的回忆。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "没办法，为了避免浪费只好送出去了——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 901110,
-			say = "送出去……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 901110,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（意思是，指挥官要将其中一张送给别人，然后再和那人一起到游乐园约会？）",
+			say = "You spend half the time running around between attractions and the other half waiting in line. Surely that's not your idea of fun, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +171,47 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（两人先玩过山车、跳楼机、超级大摆锤，然后再去玩鬼屋、镜子迷宫舒缓一下……）",
+			say = "L'Indomptable might be more into that kind of stuff, but it's just not for me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "Apparently, she had some pretty unfortunate experiences with amusement parks in the past.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "I went out of my way to get these tickets, but maybe it would be better to pass them on to someone else.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 901110,
+			say = "So what's the plan? Are you gonna give them to someone else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（最后再一起坐浪漫的摩天轮？）",
+			say = "(Wait a second... Does that mean... that the Commander's going to invite some other girl?!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +246,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（不行不行！绝对不行！）",
+			say = "(Together with the Commander... alone in a haunted house, zipping around in a roller coaster, dropping from a tower, getting thrown around by the Screamin' Swing, getting lost in the Mirror Maze...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 901110,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(And then, getting cozy with each other when they get to the top of the Ferris wheel...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 901110,
+			say = "(Nonononononononono! I can't afford to pass up this opportunity!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "咳、多亏了刚才的冰淇淋，现在的我又充满活力了，一点也不觉得累！",
+			say = "Ahem! Now as I was about to say... I happen to be in a particularly good mood because of this ice cream, so I would be more than glad to wait in line!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "仔细想想把票送人也挺麻烦的，不如就我们两个，一会就去吧！",
+			say = "Now that I think about it, it would be quite troublesome to find someone to hand this ticket to, so I would not mind accompanying you to the amusement park!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "来到游乐园后，首先体验旋转木马——",
+			say = "And so, that's how the two of us ended up in the port's brand new amusement park.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "先玩旋转木马？我还以为先体验过山车才是正确的游乐园游玩方式呢。",
+			say = "Are we going on the merry-go-round first? I was expecting something more exciting like a roller coaster though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没有那种说法？那就由你决定咯。",
+			say = "Well, if it doesn't matter, then you lead the way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "然后是旋转咖啡杯——",
+			say = "Next up was the teacup bumper cars...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "一个休闲项目紧接着另一个吗？我是无所谓啦。",
+			say = "Do I think the slow-paced attractions are boring? Erm, not really.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不如说，我还蛮喜欢这种。",
+			say = "If anything, they're more my style.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "之后是海盗船——",
+			say = "And then, the pirate ship cruise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "这个……开始有些刺激了。",
+			say = "Th-th-things are starting to get a bit more exciting now, aren't they?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不过，哪有舰船怕海盗船的道理！",
+			say = "B-but, who's ever heard of a shipgirl being scared of a pirate ship?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "一个又一个游玩着游乐场中的项目。",
+			say = "Le Malin and I went on attraction after attraction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "恶毒虽然嘴上喊累，不过也十分享受着这趟旅途。",
+			say = "She kept complaining about how tired she was, but she clearly was having a lot of fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "毕竟说到底……这里是港区的游乐场。",
+			say = "Well, in the end, this was basically a private amusement park for the port's use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "设施之间的移动可以坐车，也没有排队的问题——",
+			say = "Neither the transportation nor the lines were really an issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "不知不觉，恶毒的体力槽差不多快要见底，到了该回去的时候了。",
+			say = "...But considering Le Malin's physical state, maybe it was better to wrap it up for the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官……在走之前，最后，我们能去一次摩天轮么？",
+			say = "Oh right, Commander... How about finishing our trip with a Ferris wheel ride?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "缓缓上升的座舱中，彻底耗尽体力的恶毒轻轻贴了过来。",
+			say = "As the cabin started to rise higher into the air, Le Malin, who had been sitting at my side, suddenly leaned into me.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，我有一个愿望，已经考虑有一段时间了……",
+			say = "You know, Commander, I've been thinking about this for a long time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是以前，我肯定会嫌麻烦然后逃避吧。",
+			say = "The old me would've never brought this up, because it's so much less of a headache to just run away and avoid the issue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "但每当工作结束和你分开的时候，我都觉得必须把愿望说出来才行……",
+			say = "But now, every day when I finish work, I always feel myself wanting to get these words off my chest...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不论多么疲惫，只要在你身边，我总是可以重新打起精神、充满干劲。",
+			say = "Commander, there are some times... when I feel super motivated just by being by your side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "想要偷懒的时候……在你身边也能安心偷懒个够。",
+			say = "Of course, there are also lots of times when I want to slack off... But you always let me do just that, without judging me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我的意思是说……",
+			say = "So, umm, basically...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，我想从今往后，永远和你在一起……",
+			say = "Commander, umm, I'd like you to be with me forever...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "相应的，我，驱逐舰恶毒，保证今后将永远保护您，向您贡献我永远的爱。",
+			say = "And in return, I swear to offer you the protection of my sword, as well as my eternal love!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……可以吗？指挥官。",
+			say = "Umm... how does that sound?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,11 +817,11 @@ return {
 			},
 			options = {
 				{
-					content = "嗯，当然可以。",
+					content = "I accept your trade offer.",
 					flag = 1
 				},
 				{
-					content = "一起构筑未来吧。",
+					content = "Yes, I'd love to be with you.",
 					flag = 2
 				}
 			}
@@ -835,7 +835,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢你，指挥官！",
+			say = "Th-thank you so much, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,7 +854,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……嘿嘿，要一起构筑慵懒又幸福的未来哦。",
+			say = "Commander... That's right! Here's to our future where we can slack off together as much as we want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "那接下来……",
+			say = "Phew... Now that I've said what I've always wanted to say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，我有个追加的愿望。",
+			say = "Do you mind if I ask you a bit of a selfish question, since we're still riding the Ferris wheel and whatnot?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不知道你愿不愿意……",
+			say = "Commander, umm, if you don't mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "她紧紧地贴了上来——",
+			say = "With those words, Le Malin leaned in a little closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在摩天轮中的短暂时光，成为了我们二人专属的秘密。",
+			say = "And that brief, precious moment in the Ferris wheel became a secret, just between the two of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

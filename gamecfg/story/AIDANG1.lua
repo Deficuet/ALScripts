@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>一 约会的邀请</size>",
+					"A Date With Atago\n\n<size=45>Chapter 1: A Date Invitation</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "值班——港区的日常工作模式之一。",
+			say = "Duty shift - One of the daily work modes in port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "即使是无须战斗的日常，港区中仍有大大小小的事务需要处理。",
+			say = "Even when there are no battles, there are various administrative tasks that need to be handled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,20 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因此，偶尔也会有着即便第二天是休息日，但前一天的夜晚也需要值班的情况存在。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			side = 2,
-			dir = 1,
-			actorName = "{namecode:67}",
-			say = "指挥官？都0点了，你是不是该睡了？",
+			say = "Even if the next day is a day off, there are cases where one has to stay overnight in the office the night before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,12 +77,23 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "明天不用值班，你只管休息，夜班就交给姐姐我吧。",
+			say = "Commander? It's already midnight, shouldn't you consider going to sleep?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303120,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "You're off duty tomorrow, so just focus on resting. Let me handle the night shift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,19 +104,18 @@ return {
 			},
 			options = {
 				{
-					content = "向{namecode:67}提出明天的邀约。",
+					content = "Bring up the \"date\" for tomorrow that Atago mentioned.",
 					flag = 1
 				}
 			}
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "啊啦，约会？……开玩笑的。",
+			say = "Oh my, a date? That was a joke, you know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +127,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "不过“明天陪我去买东西吧”这种话，未免太无趣了吧？姐姐想听的是别的话呢。",
+			say = "Don't you think your whole \"please accompany me to go shopping as part of our joint activities\" was a bit too bland? Your big sister wanted to hear something a bit spicier~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,12 +143,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "反正明天看来也没什么事，什么时候回去都没关系，陪陪你也行啊。",
+			say = "Since we don't have anything to do tomorrow, I wouldn't mind staying with you as long as you'd like, you know~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +159,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "然后呢，你想买什么？",
+			say = "So, what do you need to buy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,19 +174,18 @@ return {
 			},
 			options = {
 				{
-					content = "把事先准备好的购物清单拿给{namecode:67}看。",
+					content = "Show her your shopping list",
 					flag = 1
 				}
 			}
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "唔，还真是“港区买不到但也不至于出远门网购又太麻烦的”东西大集合啊……",
+			say = "Hmm, I suppose this is one of the few things that you can't get here, but also would be too much of a hassle to order online...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,12 +197,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "你还真是准备充分呢，这样一来姐姐也可以放心让你带路啦。",
+			say = "Since you've done your homework so thoroughly, your big sister will feel safe being escorted~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,12 +213,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "好了，明天还要早起，今天你就早点睡吧。",
+			say = "All right, let's go nice and early in the morning, so you should probably sleep soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +229,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "我很期待和指挥官逛街哦♪",
+			say = "I'm looking forward to our little outing~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

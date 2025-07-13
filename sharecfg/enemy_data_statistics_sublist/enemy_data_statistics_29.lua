@@ -1,8 +1,155 @@
 pg = pg or {}
 pg.enemy_data_statistics_29 = {
+	[90867] = {
+		cannon = 0,
+		name = "Yumi",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90867,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "xuequan",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "xuequan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 110,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.24,
+					1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.481,
+					1.049,
+					0
+				}
+			},
+			plane = {
+				{
+					1.48,
+					1.081,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90868] = {
 		cannon = 0,
-		name = "紫",
+		name = "Murasaki",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -149,7 +296,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90869] = {
 		cannon = 0,
-		name = "夕烧",
+		name = "Yūyaki",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -305,7 +452,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90870] = {
 		cannon = 0,
-		name = "雪不归",
+		name = "Fubuki",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -459,7 +606,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90871] = {
 		cannon = 0,
-		name = "基洛夫·META",
+		name = "Kirov META",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -616,7 +763,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90872] = {
 		cannon = 0,
-		name = "闪流",
+		name = "Vspyshka",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -772,7 +919,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90873] = {
 		cannon = 0,
-		name = "彗星",
+		name = "Kometa",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -921,7 +1068,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90874] = {
 		cannon = 0,
-		name = "掠食者型浮空炮艇",
+		name = "Raptor-Class Floating Gunship",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1074,7 +1221,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90875] = {
 		cannon = 0,
-		name = "共赴级浮空护卫舰",
+		name = "Ensemble-Class Floating Corvette",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1227,7 +1374,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90876] = {
 		cannon = 0,
-		name = "联盟级浮空护卫舰",
+		name = "Alliance-Class Floating Corvette",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1387,7 +1534,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90877] = {
 		cannon = 0,
-		name = "誓言级浮空战舰",
+		name = "Klyatva-Class Floating Battleship",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1547,7 +1694,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90878] = {
 		cannon = 0,
-		name = "长空级浮空航母",
+		name = "Chang Kong-Class Floating Aircraft Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1714,7 +1861,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90879] = {
 		cannon = 0,
-		name = "使命级浮空指挥舰",
+		name = "Errand-Class Floating Command Ship",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1874,7 +2021,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90880] = {
 		cannon = 0,
-		name = "伊克西翁级维修中心",
+		name = "Ixion-Class Repair Ship",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2034,7 +2181,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90881] = {
 		cannon = 0,
-		name = "旗舰「卡拉布里亚之骄傲」",
+		name = "Flagship - Calabrian Pride",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2208,7 +2355,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90882] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "War Protocol Fortress",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2353,7 +2500,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90883] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "War Protocol Fortress",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2505,7 +2652,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90884] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "War Protocol Fortress",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2657,7 +2804,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90885] = {
 		cannon = 0,
-		name = "水星纪念",
+		name = "Pamiat' Merkuria",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2814,7 +2961,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90886] = {
 		cannon = 0,
-		name = "水星纪念改",
+		name = "Pamiat' Merkuria (Retrofit)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2971,7 +3118,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90887] = {
 		cannon = 0,
-		name = "水星纪念·META",
+		name = "Pamiat' Merkuria META",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3128,7 +3275,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90888] = {
 		cannon = 0,
-		name = "罗德尼·META",
+		name = "Rodney META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3285,7 +3432,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90891] = {
 		cannon = 0,
-		name = "飞云",
+		name = "Fei Yuen",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3441,7 +3588,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90892] = {
 		cannon = 0,
-		name = "济安",
+		name = "Chi An",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3598,7 +3745,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90893] = {
 		cannon = 0,
-		name = "龙武",
+		name = "Lung Wu",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3754,7 +3901,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90894] = {
 		cannon = 0,
-		name = "虎贲",
+		name = "Hu Pen",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3910,7 +4057,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90895] = {
 		cannon = 0,
-		name = "寰昌",
+		name = "Huan Ch'ang",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4066,7 +4213,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90896] = {
 		cannon = 0,
-		name = "锦鲤礼花",
+		name = "Koi Firework",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4195,7 +4342,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90897] = {
 		cannon = 0,
-		name = "仙鹤礼花",
+		name = "Crane Firework",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4324,7 +4471,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90898] = {
 		cannon = 0,
-		name = "甘醴之瓶",
+		name = "Jug of Sweet Wine",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4436,148 +4583,6 @@ pg.enemy_data_statistics_29 = {
 		},
 		hp_bar = {
 			150,
-			3
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90899] = {
-		cannon = 0,
-		name = "宝箱啾莱姆",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90899,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "jiulaimu_quzhu",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 170,
-		wave_fx = "",
-		prefab = "jiulaimu_quzhu",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 98,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			13,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
 			3
 		},
 		equipment_list = {},

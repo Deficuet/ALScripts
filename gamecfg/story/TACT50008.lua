@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:55}",
-			say = "呼……终于解决了，我们的夜战水平果然不是盖的嘛~要不然乘胜追击把他们的登陆部队也给解决掉吧？",
+			say = "Phew, looks like it's over. As expected, there's no one who can match our expertise in night battles. Should we finish chasing down those transports?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			actorName = "{namecode:53}",
-			say = "是啊，我们受的伤也都不太重，完全可以继续战斗的。",
+			say = "That's right. We didn't sustain any major injuries, so we can probably keep fighting on.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "{namecode:55}，{namecode:53}，不要太得意了，虽然不知道为什么对方会这么毫无防备，空中支援到现在也没有出现，但是这充其量只是我们运气好而已。",
+			say = "Aoba, Furutaka, don't gloat too much. I'm wary as to why the enemies were so underprepared. Plus, their air support hasn't shown up yet, so we should consider ourselves lucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "一旦对方的机动部队反应过来或者分散开的舰队聚集起来，我们就走不了了。",
+			say = "If the enemy air force shows up, or if their stragglers manage to regroup, we won't even have a retreat path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
-			say = "就是，姐姐，而且你难道忘了出发前喊着这次绝对没戏喊得最响的人是谁了吗？",
+			say = "You have a point. By the way, before we left, who was it yelling \"I absolutely don't wanna go?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			actorName = "{namecode:55}",
-			say = "是、是谁呢，姐姐我什么都不知道呢~",
+			say = "W-who knows?! I have n-no clue what you're talking about~!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
-			say = "唉，如果不是AF作战时的损失太大，我们现在承担不起在这里让自己失去战斗能力的风险，不然倒是真的可以拼一下给敌人多造成一些损失就是了。",
+			say = "If not for the fact that we sustained devastating losses at AF, we would be able to really strike hard at the enemy. But we can't afford to take any more unnecessary losses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "可惜这个世上没有如果。走吧，今晚我们能做的，只有这么多了。虽然很不甘心，不过敌人在瓜岛的登陆作战还是成功了，而我们也不能放弃这里。",
+			say = "Unfortunately, there are no \"if's\" in the world. Let's go, there is only so much we can do tonight. It's a pity that we couldn't stop the enemies from landing, but I won't give up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
-			say = "接下来，围绕着这座岛屿，会是一场漫长的战斗呢。",
+			say = "We'll have to continue to give it our all. There will surely be a large battle around this island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:69}转头看向瓜岛，这座处于热带气候，常年高温潮湿，被雨林均匀覆盖而且人迹罕至的岛屿，此时在月光之下，依然显得十分安静。",
+			say = "Choukai turned her head to look at the tropical island, its dense rainforest making it look even more inaccessible than before. With that, the island, as well as the sounds of battle, faded into the stillness of the moonlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "不过这份安静，马上将被战火所打破……",
+			say = "But this was only an intermission, a brief period of quiet before the curtains would rise again with the fanfare of cannons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

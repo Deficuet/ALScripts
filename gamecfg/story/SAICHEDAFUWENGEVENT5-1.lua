@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "捡到了掉落在赛道边的零件，获得了【强化部件T3*2】"
+			say = "Every time the Northern Parliament team stops for maintenance, some parts always end up getting tossed around... You received 2 T3 Gear Parts!"
 		}
 	}
 }

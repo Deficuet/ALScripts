@@ -13,7 +13,7 @@ return {
 			actor = 301790,
 			dir = -1,
 			stopbgm = true,
-			say = "呼，就这样吧，我认输，火力根本不在一个层面上呀…",
+			say = "It's over. There's nothing one can do when facing superior firepower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "承让了~你已经尽到你的职责了。",
+			say = "You still carried out your duty well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "……{namecode:161}，你是认真的吗？",
+			say = "...Amagi, are you actually going for it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你是指？",
+			say = "What do you mean by that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "重樱联合舰队的旗舰之位。",
+			say = "Do you seriously want to be the Combined Fleet's next flagship?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "…… ",
+			say = "... ... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "虽然你表现得和往常一样，但是和你交手就感觉出来了……",
+			say = "You still behave like the person I know, but I could sense you were different when we fought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "我从未感觉过你的战意如此昂扬。",
+			say = "You're fighting with determination the likes of which I've never seen from you before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "按照以往的作战风格，你只需在后方运筹帷幄就可以掌控全局，根本不需要采用如此激进的战术..",
+			say = "I can think of no other reason why you would come to the front when you could get the same results by commanding your team from the back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "一味的停留在过去是不够的。 ",
+			say = "Who is to say that... Perhaps it's just time for a change of pace. It might turn out to be necessary. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,38 +169,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "时代在改变。如果每次演习我们都采用同样的战法，在未来瞬息万变的实战里迟早是要吃大亏的。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 0,
-			actor = 304050,
-			dir = -1,
-			say = "正如{namecode:74}所说，乱世就在眼前。在这种时期，要是我再想着独善其身可就不好了。 ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 304050,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = -1,
-			say = "正因为是演习，对于不同战术的尝试和利用都将成为后辈们学习或者引以为戒的课题。 ",
+			say = "Times are changing; if we just keep practicing the same things each year, we'll quickly be left behind on the actual battlefield. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +185,38 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "演习能达到这样的成果，对我来说就已经有足够的价值了 ",
+			say = "As Nagato-sama said, the world around us is in chaos. We can't afford to wallow in our isolationism.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 304050,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "Precisely because this is a wargame, I'd like to test some new strategies. ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 0,
+			actor = 304050,
+			dir = -1,
+			say = "If we can gather some new insight, or even learn what not do in the future, that would make this exercise a success. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "真像是一个伟大的领导者会说出的话啊…..",
+			say = "Spoken like a true commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "嗯，我明白了。",
+			say = "I understand now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "不论你们是谁赢得了最后的胜利，我都会全力的支持她的。",
+			say = "No matter who wins, I will always support the flagship of the Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "{namecode:140}说完便转身驶开了。",
+			say = "With these words, Hatakaze left the exercises premises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "叮叮——",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首日的演习结束，进入战果统计阶段 ",
+			say = "\"We will now review the results of the first day of the Naval Exercise!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "{namecode:75}敲响了首日演习结束的信号钟",
+			say = "And with that, the first day of the Combined Fleet's Naval Exercise had come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "呼，呼…终于结束了吗…差点就要暴露了… ",
+			say = "*Cough, cough*... At last, it's over... She came too close to figuring out my plan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "太久没有运动身体，居然连这么点时间都要坚持不了了…咳… ",
+			say = "This is what happens when I don't exercise for so long... *Cough, cough*... I feel like I could faint... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "…再坚持一下，还有两战就可以… ",
+			say = "I need to hold on... just a little longer... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

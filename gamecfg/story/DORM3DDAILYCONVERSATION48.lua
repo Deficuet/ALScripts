@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION48",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "之前天狼星在打扫指挥室的时候，有看到书架上有一些侦探小说呢。",
+			say = "I found a few detective novels on the bookcase whilst I was cleaning your office the other day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,18 +49,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然知道推理案件之类的内容很有趣，但天狼星之前很少看这类型的小说呢。",
+			say = "The cases sound interesting, but I'm afraid I haven't really read much from this genre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们可以一起看。",
+					content = "Let's read one together.",
 					flag = 1
 				},
 				{
-					content = "我可以讲给你听。",
+					content = "I could read one of them to you.",
 					flag = 2
 				}
 			}
@@ -74,7 +71,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那、那么，和您一起读侦探小说，能作为睡前的必备环节吗？",
+			say = "In that case, perhaps we could make a habit out of reading a detective novel before bedtime?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +83,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次……您应该不会再拒绝天狼星的请求了吧？",
+			say = "Then you won't turn down my request again, will you? Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

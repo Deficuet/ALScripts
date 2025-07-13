@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_plan = {
 	[1101] = {
 		cost_resource2 = 0,
-		name = "吃饭",
+		name = "Cook Food",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -61,7 +61,7 @@ pg.child_plan = {
 	},
 	[1102] = {
 		cost_resource2 = 0,
-		name = "洗漱",
+		name = "Wash Up",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -115,7 +115,7 @@ pg.child_plan = {
 	},
 	[1103] = {
 		cost_resource2 = 0,
-		name = "读故事",
+		name = "Read a Story",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -169,7 +169,7 @@ pg.child_plan = {
 	},
 	[1104] = {
 		cost_resource2 = 0,
-		name = "搭积木",
+		name = "Play with Wooden Blocks",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -223,7 +223,7 @@ pg.child_plan = {
 	},
 	[1105] = {
 		cost_resource2 = 0,
-		name = "锻炼",
+		name = "Exercise",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -277,7 +277,7 @@ pg.child_plan = {
 	},
 	[1106] = {
 		cost_resource2 = 0,
-		name = "洗澡",
+		name = "Bathe",
 		icon = "jiatingjiaoyu",
 		type = 1,
 		rare = 1,
@@ -336,7 +336,7 @@ pg.child_plan = {
 	},
 	[1107] = {
 		cost_resource2 = 1,
-		name = "初级研修",
+		name = "Basic Reading",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -425,7 +425,7 @@ pg.child_plan = {
 	},
 	[1108] = {
 		cost_resource2 = 1,
-		name = "中级研修",
+		name = "Intermediate Reading",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -523,7 +523,7 @@ pg.child_plan = {
 	},
 	[1109] = {
 		cost_resource2 = 2,
-		name = "高级研修",
+		name = "Advanced Reading",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -621,7 +621,7 @@ pg.child_plan = {
 	},
 	[1110] = {
 		cost_resource2 = 0,
-		name = "初级体能",
+		name = "Basic Gymnastics",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -710,7 +710,7 @@ pg.child_plan = {
 	},
 	[1111] = {
 		cost_resource2 = 0,
-		name = "中级体能",
+		name = "Intermediate Gymnastics",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -808,7 +808,7 @@ pg.child_plan = {
 	},
 	[1112] = {
 		cost_resource2 = 2,
-		name = "高级体能",
+		name = "Advanced Gymnastics",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -906,7 +906,7 @@ pg.child_plan = {
 	},
 	[1113] = {
 		cost_resource2 = 0,
-		name = "初级手工",
+		name = "Basic Handicrafts",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -995,7 +995,7 @@ pg.child_plan = {
 	},
 	[1114] = {
 		cost_resource2 = 0,
-		name = "中级手工",
+		name = "Intermediate Handicrafts",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -1093,7 +1093,7 @@ pg.child_plan = {
 	},
 	[1115] = {
 		cost_resource2 = 2,
-		name = "高级手工",
+		name = "Advanced Handicrafts",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -1191,7 +1191,7 @@ pg.child_plan = {
 	},
 	[1116] = {
 		cost_resource2 = 0,
-		name = "初级声乐",
+		name = "Basic Music",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -1280,7 +1280,7 @@ pg.child_plan = {
 	},
 	[1117] = {
 		cost_resource2 = 1,
-		name = "中级声乐",
+		name = "Intermediate Music",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -1378,7 +1378,7 @@ pg.child_plan = {
 	},
 	[1118] = {
 		cost_resource2 = 2,
-		name = "高级声乐",
+		name = "Advanced Music",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -1476,7 +1476,7 @@ pg.child_plan = {
 	},
 	[1119] = {
 		cost_resource2 = 0,
-		name = "初级美术",
+		name = "Basic Art",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -1581,7 +1581,7 @@ pg.child_plan = {
 	},
 	[1120] = {
 		cost_resource2 = 1,
-		name = "中级美术",
+		name = "Intermediate Art",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -1689,7 +1689,7 @@ pg.child_plan = {
 	},
 	[1121] = {
 		cost_resource2 = 3,
-		name = "高级美术",
+		name = "Advanced Art",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -1797,7 +1797,7 @@ pg.child_plan = {
 	},
 	[1122] = {
 		cost_resource2 = 0,
-		name = "初级形体",
+		name = "Basic Dancing",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -1902,7 +1902,7 @@ pg.child_plan = {
 	},
 	[1123] = {
 		cost_resource2 = 1,
-		name = "中级形体",
+		name = "Intermediate Dancing",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -2010,7 +2010,7 @@ pg.child_plan = {
 	},
 	[1124] = {
 		cost_resource2 = 3,
-		name = "高级形体",
+		name = "Advanced Dancing",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -2118,7 +2118,7 @@ pg.child_plan = {
 	},
 	[1125] = {
 		cost_resource2 = 0,
-		name = "初级表演",
+		name = "Basic Stagecraft",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -2223,7 +2223,7 @@ pg.child_plan = {
 	},
 	[1126] = {
 		cost_resource2 = 2,
-		name = "中级表演",
+		name = "Intermediate Stagecraft",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -2331,7 +2331,7 @@ pg.child_plan = {
 	},
 	[1127] = {
 		cost_resource2 = 3,
-		name = "高级表演",
+		name = "Advanced Stagecraft",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -2439,7 +2439,7 @@ pg.child_plan = {
 	},
 	[1128] = {
 		cost_resource2 = 1,
-		name = "初级书法",
+		name = "Basic Calligraphy",
 		icon = "kecheng",
 		type = 1,
 		rare = 1,
@@ -2544,7 +2544,7 @@ pg.child_plan = {
 	},
 	[1129] = {
 		cost_resource2 = 1,
-		name = "中级书法",
+		name = "Intermediate Calligraphy",
 		icon = "kecheng",
 		type = 1,
 		rare = 2,
@@ -2652,7 +2652,7 @@ pg.child_plan = {
 	},
 	[1130] = {
 		cost_resource2 = 1,
-		name = "高级书法",
+		name = "Advanced Calligraphy",
 		icon = "kecheng",
 		type = 1,
 		rare = 3,
@@ -2760,7 +2760,7 @@ pg.child_plan = {
 	},
 	[1201] = {
 		cost_resource2 = 5,
-		name = "初级烹饪",
+		name = "Basic Cooking",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -2859,7 +2859,7 @@ pg.child_plan = {
 	},
 	[1202] = {
 		cost_resource2 = 6,
-		name = "中级烹饪",
+		name = "Intermediate Cooking",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -2961,7 +2961,7 @@ pg.child_plan = {
 	},
 	[1203] = {
 		cost_resource2 = 6,
-		name = "高级烹饪",
+		name = "Advanced Cooking",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -3063,7 +3063,7 @@ pg.child_plan = {
 	},
 	[1204] = {
 		cost_resource2 = 5,
-		name = "初级园艺",
+		name = "Basic Gardening",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -3162,7 +3162,7 @@ pg.child_plan = {
 	},
 	[1205] = {
 		cost_resource2 = 6,
-		name = "中级园艺",
+		name = "Intermediate Gardening",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -3264,7 +3264,7 @@ pg.child_plan = {
 	},
 	[1206] = {
 		cost_resource2 = 7,
-		name = "高级园艺",
+		name = "Advanced Gardening",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -3366,7 +3366,7 @@ pg.child_plan = {
 	},
 	[1207] = {
 		cost_resource2 = 6,
-		name = "初级运动",
+		name = "Basic Exercise",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -3460,7 +3460,7 @@ pg.child_plan = {
 	},
 	[1208] = {
 		cost_resource2 = 7,
-		name = "中级运动",
+		name = "Intermediate Exercise",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -3557,7 +3557,7 @@ pg.child_plan = {
 	},
 	[1209] = {
 		cost_resource2 = 8,
-		name = "高级运动",
+		name = "Advanced Exercise",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -3654,7 +3654,7 @@ pg.child_plan = {
 	},
 	[1210] = {
 		cost_resource2 = 4,
-		name = "初级写生",
+		name = "Basic Sketching",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -3753,7 +3753,7 @@ pg.child_plan = {
 	},
 	[1211] = {
 		cost_resource2 = 5,
-		name = "中级写生",
+		name = "Intermediate Sketching",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -3855,7 +3855,7 @@ pg.child_plan = {
 	},
 	[1212] = {
 		cost_resource2 = 5,
-		name = "高级写生",
+		name = "Advanced Sketching",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -3957,7 +3957,7 @@ pg.child_plan = {
 	},
 	[1213] = {
 		cost_resource2 = 5,
-		name = "初级茶道",
+		name = "Basic Tea Making",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -4066,7 +4066,7 @@ pg.child_plan = {
 	},
 	[1214] = {
 		cost_resource2 = 6,
-		name = "中级茶道",
+		name = "Intermediate Tea Making",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -4178,7 +4178,7 @@ pg.child_plan = {
 	},
 	[1215] = {
 		cost_resource2 = 6,
-		name = "高级茶道",
+		name = "Advanced Tea Making",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -4290,7 +4290,7 @@ pg.child_plan = {
 	},
 	[1216] = {
 		cost_resource2 = 5,
-		name = "初级戏剧",
+		name = "Basic Acting",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -4389,7 +4389,7 @@ pg.child_plan = {
 	},
 	[1217] = {
 		cost_resource2 = 6,
-		name = "中级戏剧",
+		name = "Intermediate Acting",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -4491,7 +4491,7 @@ pg.child_plan = {
 	},
 	[1218] = {
 		cost_resource2 = 7,
-		name = "高级戏剧",
+		name = "Advanced Acting",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -4593,7 +4593,7 @@ pg.child_plan = {
 	},
 	[1219] = {
 		cost_resource2 = 5,
-		name = "初级演奏",
+		name = "Basic Performance",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -4692,7 +4692,7 @@ pg.child_plan = {
 	},
 	[1220] = {
 		cost_resource2 = 6,
-		name = "中级演奏",
+		name = "Intermediate Performance",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -4794,7 +4794,7 @@ pg.child_plan = {
 	},
 	[1221] = {
 		cost_resource2 = 6,
-		name = "高级演奏",
+		name = "Advanced Peformance",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -4896,7 +4896,7 @@ pg.child_plan = {
 	},
 	[1222] = {
 		cost_resource2 = 5,
-		name = "初级拓展",
+		name = "Basic Mending",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -5005,7 +5005,7 @@ pg.child_plan = {
 	},
 	[1223] = {
 		cost_resource2 = 6,
-		name = "中级拓展",
+		name = "Intermediate Mending",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -5117,7 +5117,7 @@ pg.child_plan = {
 	},
 	[1224] = {
 		cost_resource2 = 7,
-		name = "高级拓展",
+		name = "Advanced Mending",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -5229,7 +5229,7 @@ pg.child_plan = {
 	},
 	[1225] = {
 		cost_resource2 = 4,
-		name = "初级音乐剧",
+		name = "Basic Musical Performance",
 		icon = "xingquban",
 		type = 2,
 		rare = 1,
@@ -5338,7 +5338,7 @@ pg.child_plan = {
 	},
 	[1226] = {
 		cost_resource2 = 5,
-		name = "中级音乐剧",
+		name = "Intermediate Musical Performance",
 		icon = "xingquban",
 		type = 2,
 		rare = 2,
@@ -5450,7 +5450,7 @@ pg.child_plan = {
 	},
 	[1227] = {
 		cost_resource2 = 6,
-		name = "高级音乐剧",
+		name = "Advanced Musical Performance",
 		icon = "xingquban",
 		type = 2,
 		rare = 3,
@@ -5562,7 +5562,7 @@ pg.child_plan = {
 	},
 	[1301] = {
 		cost_resource2 = 4,
-		name = "初级绘画",
+		name = "Beginner Street Artist",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -5661,7 +5661,7 @@ pg.child_plan = {
 	},
 	[1302] = {
 		cost_resource2 = 3,
-		name = "初级书店店员",
+		name = "Beginner Bookstore Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -5755,7 +5755,7 @@ pg.child_plan = {
 	},
 	[1303] = {
 		cost_resource2 = 4,
-		name = "初级庄园助手",
+		name = "Beginner Farmhand",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -5854,7 +5854,7 @@ pg.child_plan = {
 	},
 	[1304] = {
 		cost_resource2 = 4,
-		name = "初级运动指导",
+		name = "Beginner Instructor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -5948,7 +5948,7 @@ pg.child_plan = {
 	},
 	[1305] = {
 		cost_resource2 = 3,
-		name = "初级舞台表演",
+		name = "Beginner Theater Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6047,7 +6047,7 @@ pg.child_plan = {
 	},
 	[1306] = {
 		cost_resource2 = 3,
-		name = "初级歌手活动",
+		name = "Beginner Singer",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6141,7 +6141,7 @@ pg.child_plan = {
 	},
 	[1307] = {
 		cost_resource2 = 4,
-		name = "初级英雄表演",
+		name = "Beginner Superhero Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6240,7 +6240,7 @@ pg.child_plan = {
 	},
 	[1308] = {
 		cost_resource2 = 5,
-		name = "初级促销专员",
+		name = "Beginner Promotion Manager",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6339,7 +6339,7 @@ pg.child_plan = {
 	},
 	[1310] = {
 		cost_resource2 = 3,
-		name = "初级便利店店员",
+		name = "Beginner Store Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6427,7 +6427,7 @@ pg.child_plan = {
 	},
 	[1311] = {
 		cost_resource2 = 3,
-		name = "初级咖啡店店员",
+		name = "Beginner Barista",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 1,
@@ -6526,7 +6526,7 @@ pg.child_plan = {
 	},
 	[1312] = {
 		cost_resource2 = 4,
-		name = "中级绘画",
+		name = "Intermediate Street Artist",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -6628,7 +6628,7 @@ pg.child_plan = {
 	},
 	[1313] = {
 		cost_resource2 = 3,
-		name = "中级书店店员",
+		name = "Intermediate Bookstore Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -6725,7 +6725,7 @@ pg.child_plan = {
 	},
 	[1314] = {
 		cost_resource2 = 5,
-		name = "中级庄园助手",
+		name = "Intermediate Farmhand",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -6827,7 +6827,7 @@ pg.child_plan = {
 	},
 	[1315] = {
 		cost_resource2 = 5,
-		name = "中级运动指导",
+		name = "Intermediate Instructor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -6924,7 +6924,7 @@ pg.child_plan = {
 	},
 	[1316] = {
 		cost_resource2 = 4,
-		name = "中级舞台表演",
+		name = "Intermediate Theater Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7026,7 +7026,7 @@ pg.child_plan = {
 	},
 	[1317] = {
 		cost_resource2 = 4,
-		name = "中级歌手活动",
+		name = "Intermediate Singer",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7123,7 +7123,7 @@ pg.child_plan = {
 	},
 	[1318] = {
 		cost_resource2 = 5,
-		name = "中级英雄表演",
+		name = "Intermediate Superhero Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7225,7 +7225,7 @@ pg.child_plan = {
 	},
 	[1319] = {
 		cost_resource2 = 6,
-		name = "中级促销专员",
+		name = "Intermediate Promotion Manager",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7327,7 +7327,7 @@ pg.child_plan = {
 	},
 	[1320] = {
 		cost_resource2 = 4,
-		name = "中级便利店店员",
+		name = "Intermediate Store Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7418,7 +7418,7 @@ pg.child_plan = {
 	},
 	[1321] = {
 		cost_resource2 = 4,
-		name = "中级咖啡店店员",
+		name = "Intermediate Barista",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 2,
@@ -7520,7 +7520,7 @@ pg.child_plan = {
 	},
 	[1322] = {
 		cost_resource2 = 5,
-		name = "高级绘画",
+		name = "Expert Street Artist",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -7622,7 +7622,7 @@ pg.child_plan = {
 	},
 	[1323] = {
 		cost_resource2 = 3,
-		name = "高级书店店员",
+		name = "Expert Bookstore Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -7719,7 +7719,7 @@ pg.child_plan = {
 	},
 	[1324] = {
 		cost_resource2 = 5,
-		name = "高级庄园助手",
+		name = "Expert Farmhand",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -7821,7 +7821,7 @@ pg.child_plan = {
 	},
 	[1325] = {
 		cost_resource2 = 6,
-		name = "高级运动指导",
+		name = "Expert Instructor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -7918,7 +7918,7 @@ pg.child_plan = {
 	},
 	[1326] = {
 		cost_resource2 = 5,
-		name = "高级舞台表演",
+		name = "Expert Theater Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8020,7 +8020,7 @@ pg.child_plan = {
 	},
 	[1327] = {
 		cost_resource2 = 4,
-		name = "高级歌手活动",
+		name = "Expert Singer",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8117,7 +8117,7 @@ pg.child_plan = {
 	},
 	[1328] = {
 		cost_resource2 = 6,
-		name = "高级英雄表演",
+		name = "Expert Superhero Actor",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8219,7 +8219,7 @@ pg.child_plan = {
 	},
 	[1329] = {
 		cost_resource2 = 7,
-		name = "高级促销专员",
+		name = "Expert Promotion Manager",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8321,7 +8321,7 @@ pg.child_plan = {
 	},
 	[1330] = {
 		cost_resource2 = 5,
-		name = "高级便利店店员",
+		name = "Expert Store Clerk",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8412,7 +8412,7 @@ pg.child_plan = {
 	},
 	[1331] = {
 		cost_resource2 = 4,
-		name = "高级咖啡店店员",
+		name = "Expert Barista",
 		icon = "shehuihuodong",
 		type = 3,
 		rare = 3,
@@ -8514,7 +8514,7 @@ pg.child_plan = {
 	},
 	[1404] = {
 		cost_resource2 = 2,
-		name = "做家务",
+		name = "Beginner Housekeeper",
 		icon = "shehuihuodong",
 		type = 5,
 		rare = 1,
@@ -8619,7 +8619,7 @@ pg.child_plan = {
 	},
 	[1402] = {
 		cost_resource2 = 0,
-		name = "宅家睡觉",
+		name = "Relax At Home",
 		icon = "ziyouxingcheng",
 		type = 4,
 		rare = 1,

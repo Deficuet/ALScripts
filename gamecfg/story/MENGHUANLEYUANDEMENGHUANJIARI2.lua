@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "离开了{namecode:188:樫野}的牛奶小摊，继续向着活动广场区域闲逛。",
+			say = "Leaving Kashino's milk stall behind, I resume my walk around the park.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "忽然，一阵诱人的香气飘来。",
+			say = "Then, a delicious smell wafts by my nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？这香味是……",
+			say = "Hm? What's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "就在{namecode:188:樫野}的牛奶小摊后方不远处，其它各色摊位也开始了忙碌。",
+			say = "Not that far from the milk stall, I see a group of girls setting up their own stands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官？既然来了，就快来尝尝我的新作吧！",
+			say = "Oh, hello, Commander. I have freshly made pastries. Care to try one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "敦刻尔克举着一盘造型各异却又不失精致的甜点，脸上笑容灿烂。",
+			say = "Dunkerque smiles at me, holding a tray lined with all kinds of finely-decorated pastries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有这个！指挥官，龙武的特制炒面！",
+			say = "Try these, too! They're my special-made fried noodles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "体型娇小的少女站在灶台前搭起的小凳上，挥舞着铲子，锅中腾起阵阵热气。",
+			say = "The petite Lung Wu stands on a chair, working a spatula while dishing up a plate of Empery cuisine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？龙武姐，你确定一大早要让指挥官吃炒面么？",
+			say = "C'mon, Lung! You can't feed the Commander fried noodles for breakfast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为早餐来说，最合适的应该是包子才对吧！",
+			say = "If you're gonna serve Empery breakfast, make it baozi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐说的没错，这是刚出锅的包子，指挥官快拿一个吧~",
+			say = "Yeah! On that note – here, Commander. Fresh baozi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,19 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "平海端着冒着热气的蒸笼靠近，属于面点的香味扑鼻而来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_181",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（记得这些美食小摊就是被抚顺爆改方案之前的规划……）",
+			say = "Ping Hai walks up to me holding a plate of steaming hot baozi. The savory smell they give off fills my nose in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +170,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在梦里一致用回了初版方案么。）",
+			say = "(Ah, the food stalls. If I remember right, these were Lung Wu's and Hu Pen's plan before Fu Shun's radical revisions.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +182,19 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过没看到抚顺的设计，多少还是有些可惜啊。）",
+			say = "(Looks like they unanimously agreed to bring the plan back down to earth.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_181",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(The pragmatist in me is happy, but the idealist in me is sad that Fu Shun's version didn't make it into the dream.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官~面对美食发呆可不是好习惯哦？",
+			say = "What's the matter, Commander? The food will go cold if you just stare at it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是就是！俗话说得好，一日之计在于晨！指挥官的早餐一定要吃饱喝好！",
+			say = "Yeah! Breakfast is the most important meal of the day, so you gotta eat big in the morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~！说到吃饱喝好，柴郡可是为亲爱的准备了早餐红茶呢！",
+			say = "Owneeer! I've got morning tea just for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299031,
-			say = "融入了柴郡满满的爱意，亲爱的快来喝喝看吧~",
+			say = "I made it with lots and lots of love, and you'll definitely taste it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "失策了啊，早知道就准备一些更适合早上吃的食物了。",
+			say = "Geesh. If I'd known this would happen, I'd have made more food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "唔，不过没关系~冰淇淋反正就是饭后甜点。",
+			say = "That's fine, though! There's always room for dessert, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "Honey吃完早餐以后就来尝尝我的手工冰淇淋吧！",
+			say = "Once you've had your fill, come here and try my handmade ice cream!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "不知不觉中，便被拿着各色食物的少女们包围。",
+			say = "It's not long before I'm surrounded by shipgirls, all offering their food to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来还是全都吃掉比较好……）",
+			say = "(You can't put on weight in a dream. Time to eat it all!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "在吃掉了所有食物，准备前往游乐园中的其它区域时。",
+			say = "After chowing down all that food, I decide to move to the next area of the amusement park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "突然，一声凄厉的惨叫划破天际。",
+			say = "But then, I hear a scream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！救命啊！",
+			say = "Aaahhh! Somebody help meee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？是{namecode:226:酒匂}的声音。）",
+			say = "(Huh? Was that Sakawa?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（按{namecode:161:天城}所说，在这个游乐园中理论上不会遇到危险才对……）",
+			say = "(Is she in danger? But there shouldn't BE any danger in an idealized place like this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "一边想着，一边匆匆朝着惨叫声发出的方向赶去。",
+			say = "My feet move quicker than my doubts, rushing me to the source of the scream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "不要！{namecode:226:酒匂}是绝对不可能尝试的！",
+			say = "No! Anything but that, pleeease!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "哎呀~可以捏住鼻子试一试嘛，其实很美味呢。",
+			say = "Just hold your nose and it'll be fiiine. Trust me, it's good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "这道“油淋腐乳鲱鱼罐头”可是我们的自信之作哦~",
+			say = "C'mon, it's fried canned herring with fermented bean curd! It's my masterpiece!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "在美食小摊尽头道路的某个隐蔽拐角之中，找到了{namecode:226:酒匂}，以及——",
+			say = "I spot Sakawa and Herring off in a side alley along the food stall district.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "油淋腐乳鲱鱼罐头……？",
+			say = "With fermented bean curd? Oh boy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官来得正好~要不要试试姐姐我和鲱鱼的创意结合美食？",
+			say = "Well, well, fancy meeting you here, Commander. Care to try some of my and Herring's innovative cuisine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "尝一口吧，保证让你胃口大开哦~",
+			say = "One bite, and I promise you'll want more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "看着这个隐蔽无比的摊位上散发着诡异气息的“美食”，不禁倒吸了一口凉气。",
+			say = "Their food gives off a smell that I cannot put into words. Its intensity makes me reflexively back away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这个绝对不能吃……！",
+			say = "Whatever you do, do NOT eat that stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "一向活泼俏皮的少女此刻一脸凝重，拽着我的衣角。",
+			say = "Even the mischievous Sakawa is trying to pull me away by the hem, a serious expression on her face. That's how you know it's bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，别和姐姐我客气嘛，来，张嘴~",
+			say = "Now, now, don't be shy! I'll even feed you. Say \"ahh\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……我刚吃饱……",
+			say = "Uh... Thanks, but I just had breakfast and I'm full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "吃饱了也没关系哦~反正只是试一下味道嘛！",
+			say = "If your stomach can't fit it, just a lick is good enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "就在思考着如何拒绝越靠越近的鲱鱼时，衣角又被{namecode:226:酒匂}轻轻拽了一下。",
+			say = "As I rack my brains thinking of a way to excuse myself, Sakawa tugs on my clothes again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "指挥官，待会儿{namecode:226:酒匂}会数三二一，记得牢牢握紧{namecode:226:酒匂}的手哦？",
+			say = "I'll count down from three. When I reach zero, grab my hand and hold on tight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "虽然不理解少女要做什么，但还是点了点头。",
+			say = "I nod in acknowledgment, even though I have no idea what she's going to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "三……二……一！",
+			say = "Okay. Three... two... one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "少女倒数完毕后，趁鲱鱼和济安不注意，抓住我的手突然拔腿狂奔。",
+			say = "As soon as she reaches zero, she takes my hand and runs away with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸、欸？{namecode:226:酒匂}，指挥官……你们跑什么呀？",
+			say = "Yo, wait! Where're you going?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "莫非是姐姐我做的菜真的没救了么……呜……",
+			say = "Is my cooking really that bad? *sniffle*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "两人的声音从身后传来，这让{namecode:226:酒匂}牵着我跑得更快了。",
+			say = "Hearing their shouting, Sakawa kicks into fifth gear and runs even faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "直到来到游乐园的中心城堡附近，少女才停下脚步。",
+			say = "We run and run, only stopping when we reach the castle near the center of the amusement park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "呼……总算是逃出来了。",
+			say = "Phew... I think we shook them off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "原本只是想在美食小摊那里转转，随便吃点东西，没想到……",
+			say = "I was just going from stall to stall, then those two weirdos cornered me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还好指挥官来了，欸嘿嘿♪",
+			say = "If you hadn't come by, I'd be a rotten herring by now. Heehee♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就只有你自己一个人在那里逛么？",
+			say = "So you were going around on your own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~指挥官莫非是在好奇{namecode:49:阿贺野}姐还有{namecode:50:能代}姐在哪里？",
+			say = "Yes? Oh, let me guess – you're wondering where Agano and Noshiro are, riiight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "为了创造和指挥官独处的机会，{namecode:226:酒匂}今天可是没和她们一起哦~♪",
+			say = "Heheh. I'll let you in on a secret. I'm here alone so I can have you all to myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "不过明明已经有这么可爱的{namecode:226:酒匂}了，还想着其他女孩子，指挥官不专心呢。",
+			say = "You break my heart, Commander. You have a sweetie like me by your side, and you're still thinking about other girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,7 +838,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "接下来就罚指挥官和{namecode:226:酒匂}一起散步当做赔礼吧，欸嘿嘿~",
+			say = "As punishment, you're going to come with me for a little walk! Heehee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "之后和{namecode:226:酒匂}在附近散了步，在和{namecode:226:酒匂}分别后，看向了城堡的方向。",
+			say = "Sakawa and I go on a stroll for a while. After she lets me go, my attention drifts back to the castle at the heart of the park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（说起来，刚进入梦境的时候，{namecode:161:天城}说可以去城堡里找她。）",
+			say = "(Before she left, Amagi said she'd be waiting for me there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（现在就动身吧。）",
+			say = "(I think it's time to pay her a visit.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

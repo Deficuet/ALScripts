@@ -14,7 +14,7 @@ return {
 			actor = 305070,
 			dir = -1,
 			stopbgm = true,
-			say = "{namecode:161}，你究竟在想什么！现在来参加这种演习你…",
+			say = "Amagi, what's the meaning of this? Why are you at this exercise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,23 +29,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "{namecode:140}已经都告诉你了吧？我身体的状况…留给我的时间已经不多了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#ff0000",
-			side = 1,
-			actor = 304050,
-			dir = 1,
-			say = "这个世界将会改变，大舰巨炮的时代将会逐步走向终结吧…",
+			say = "I take it that Hatakaze has already told you... about the condition of my body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,22 +45,7 @@ return {
 			side = 1,
 			actor = 304050,
 			dir = 1,
-			say = "未来…是属于航空母舰的时代。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 304050,
-			side = 1,
-			nameColor = "#ff0000",
-			dir = 1,
-			say = "…也许你可能会笑，不过我真的很想再以战列巡洋舰的身份尽情地奏响主炮！…哪怕只有最后一次也好。",
+			say = "The world has already begun to change. The era of large capital ships and cannons will soon come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +61,38 @@ return {
 			side = 1,
 			actor = 304050,
 			dir = 1,
-			say = "因此，我选择了前来参加这场演习。",
+			say = "From here on out... is the era of the aircraft carrier.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 304050,
+			side = 1,
+			nameColor = "#ff0000",
+			dir = 1,
+			say = "Perhaps you'll find this laughable... but I want to feel the pulse of my cannons firing while I am still a battlecruiser... one last time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#ff0000",
+			side = 1,
+			actor = 304050,
+			dir = 1,
+			say = "That is why I chose to come here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			actor = 305070,
 			dir = -1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			actor = 304050,
 			dir = 1,
-			say = "来吧，{namecode:92}，你不是视我为“一生的对手”么，你可还一次都没有赢过我哦？",
+			say = "Come, Kaga, if you still consider me your rival. You have yet to best me even a single time, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			actor = 304050,
 			dir = 1,
-			say = "如果你敢放水，我一生都不会原谅你的。",
+			say = "If you dare go easy on me, I won't forgive you for the rest of my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			actor = 305070,
 			dir = -1,
-			say = "……我明白了。",
+			say = "...Understood. I truly am blessed... aren't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			actor = 305070,
 			dir = -1,
-			say = "能拥有这像你这样直到最后都在贯彻理念的对手，我可真是幸运呢。",
+			say = "To have an opponent like you who can be true to herself until the very end, Amagi... I truly am blessed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "<size=52.5>{namecode:92}级战列舰首舰——{namecode:92}号！</size>",
+			say = "...I am the Tosa-class battleship Kaga!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			side = 1,
 			actor = 304050,
 			dir = 1,
-			say = "<size=52.5>{namecode:161}级战列巡洋舰——{namecode:161}号！</size>",
+			say = "...I am the Amagi-class battlecruiser Amagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,8 +211,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = -1,
-			actorName = "{namecode:92}&{namecode:161}",
-			say = "<size=60>参上！！！</size>",
+			actorName = "Amagi and Kaga",
+			say = "<size=60>Come!!</size>",
 			bgm = "theme",
 			subActors = {
 				{

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "新年……？要说……新年快乐！安克雷奇，学会了……！",
+			say = "New Year...? Umm... Happy New Year! Anchorage learned that...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

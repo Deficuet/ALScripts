@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指挥官表现得不错喵！下一个喵！",
+			say = "Nice one Commander! Next target, nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

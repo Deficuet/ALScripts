@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "{namecode:95}姐，看我们找到了什么！这就是前往“圣域”的钥匙！",
+			say = "Sis, check it out! This is the key to the Sanctuary!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -33,7 +33,7 @@ return {
 			actorName = "{namecode:95}",
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "这是…你是从哪里得到的？",
+			say = "The key... But how did you find it?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -53,7 +53,7 @@ return {
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "嘿嘿，要说情报工作的话，自然是{namecode:11}的功劳！这一次，你不会拒绝我了吧~",
+			say = "Heheh, that would be thanks to Akatsuki's intel! Surely you believe me this time, right?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:95}",
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "如果情报属实，确实得立刻行动了，立即召集大家出发",
+			say = "If it really is the key, then we have to act now... Have everyone mobilize immediately!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -93,7 +93,7 @@ return {
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "这一次，一定要揭穿她们的阴谋！",
+			say = "This time we'll expose their plan for what it really is!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			actorName = "{namecode:96}",
-			say = "回头一想，也许连这个圈套也只是阴谋的一部分…",
+			say = "Now that I think about it, maybe this trap was also part of their plan...",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -144,7 +144,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "可恶的前辈，又被她们暗算了么！",
+			say = "Damn...! They tricked us, again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

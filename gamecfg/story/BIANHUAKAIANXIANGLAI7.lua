@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"重樱■■·■■■■",
+					"Sakura Emp■■ - ■■■■",
 					1
 				},
 				{
-					"■■■■赏花会",
+					"■■■■Flower-Viewing",
 					2
 				},
 				{
-					"■■■■■■■■■■",
+					"Akagi",
 					3
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "石板路上，两个红色的身影正在花海中穿行。",
+			say = "Akagi and Amagi walked together on a stony path lined with trees.",
 			bgm = "story-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐大人~已经能看到亭子了！",
+			say = "Akagi, I can already see it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看上去赏花会已经开始了……",
+			say = "The flower-viewing has already begun...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "不过位置还留着，看来我们也没有迟到很久。",
+			say = "There's still space, though. I don't think we're too late at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，让诸位久等了。",
+			say = "Apologies for keeping you all waiting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "非常抱歉，让诸位久等了！",
+			say = "We're really sorry for making you wait so long!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,8 +155,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "神风",
-			say = "你看，我就说{namecode:161:天城}大人本日虽会迟到，但不会错过吧。",
+			actorName = "Kamikaze",
+			say = "See? I told you Amagi wouldn't miss this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,8 +173,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "神风",
-			say = "你输了，点心拿来。",
+			actorName = "Kamikaze",
+			say = "You lose, Naka. Your snacks are mine!☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,8 +191,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "神通",
-			say = "都和你说了，别和她打赌。",
+			actorName = "Jintsuu",
+			say = "I told you not to take that bet. Hahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,10 +208,10 @@ return {
 			bgName = "bg_map_tiancheng",
 			portrait = 302140,
 			dir = 1,
-			actorName = "那珂",
+			actorName = "Naka",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……给。",
+			say = "Uuugh... Just take it all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}大人，{namecode:91:赤城}大人，欢迎两位本日赏光而来。",
+			say = "Amagi, Akagi. Thank you for coming to today's flower-viewing event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "让你久等了，{namecode:89:凤翔}大人。",
+			say = "Oh, please. We should be the ones to thank you for waiting for us, Houshou.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像没看到{namecode:82:三笠}大人的身影，她还没到么？",
+			say = "Incidentally, I don't see Miss Mikasa around... Is she not here yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82:三笠}她在来的路上被抓去参加紧急会议了。",
+			say = "She was summoned to an emergency meeting on her way here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还担心你这边也出现了同样的“惨状”呢……",
+			say = "Here I thought maybe you had been delayed for the same reason...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说来，是路上遇到了突发事件？",
+			say = "Did you run into any unexpected incidents along the way?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "这个嘛……",
+			say = "Well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "多半是在家里照顾妹妹耽误了太长时间呗。",
+			say = "It was obviously that little sister of hers that delayed her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}的妹妹可是出了名的让人不省心呢~",
+			say = "I heard she was needy, but this is something else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "还好{namecode:82:三笠}前辈没来，不然看你这么不守时，肯定得好好说教你一下。",
+			say = "You're lucky Mikasa isn't here, or she'd lecture you over your irresponsibility in front of the whole group.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "喂——！",
+			say = "Kaga!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "为什么你这个白毛老妖怪也来了啊！",
+			say = "Hmph. I was wondering who that greying old lady was. If it isn't Kaga!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我收到邀请函不是理所当然~",
+			say = "Of course I'm here. I was invited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "不过某些人是不是因为沾了自己姐姐的光就说不定了~",
+			say = "But you weren't, were you? You just got to tag along because big sister's a big shot, isn't that right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啊~原来{namecode:81:土佐}的邀请函是这么来的啊~",
+			say = "Aww, look who got invited? Big deal! Back me up, Tosa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,8 +506,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:81:土佐}",
-			say = "……请不要扩大火力伤及无辜，谢谢。",
+			actorName = "Tosa",
+			say = "...I'd appreciate if you didn't get bystanders wrapped up in this silly argument, thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "你、几天不见嘴巴倒是厉害了不少！",
+			say = "You don't see us for a few days, and you grow up to have such a big mouth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "都是跟那个老——",
+			say = "Remember, all you are is that damn –",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "Hmmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "老……老谋深算的{namecode:161:天城}学的吧！",
+			say = "D-damn... damn smart Amagi's pupil!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "好啦，先让我们入座吧，可以么，{namecode:92:加贺}大人？",
+			say = "Now, now, I think that's enough talk. Would you allow us to sit now, Kaga?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "……干嘛要问我，请自便。",
+			say = "...Why are you asking me? I don't care what you do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "呵呵~",
+			say = "Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "略~",
+			say = "Pffbbft!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "红衣少女做了个鬼脸，随{namecode:161:天城}前往了自己的座位。",
+			say = "After blowing raspberries at Kaga, Akagi followed Amagi to their seats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "左右摇动的尾巴宣告着少女此刻胜利的心情。",
+			say = "Her tail wagged all the way – a symbol of her triumph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "落座后，红衣少女发现自己正身处一片花海之中。",
+			say = "Upon sitting, Akagi realized that she was in a sea of flowers.",
 			bgm = "theme-akagi-inside",
 			typewriter = {
 				speed = 0.05,
@@ -733,9 +733,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "{namecode:91:赤城}，我在路上摘了朵花给你。",
+			say = "I picked a flower for you on the way here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,9 +747,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "你看这是什么？",
+			say = "Look, Akagi. What do you think this one is called?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "一抹朱红从少女的茶杯中绽放。",
+			say = "Amagi showed her a flower of deep, bloody crimson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这朵花……难道是彼岸花？",
+			say = "Red spider lily...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,9 +790,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "没错。",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,9 +804,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "彼岸花，艳丽、张扬、有毒。",
+			say = "Gorgeous, bewitching, magnificent, yet poisonous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,9 +818,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "就像你一样，不是么？",
+			say = "Just like you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "像我一样……",
+			say = "Just like... me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,9 +850,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "让彼岸花开满世界，让这抹朱红点燃世界吧。",
+			say = "Let these flowers bloom all over the world. See their petals light the world ablaze in crimson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,9 +864,9 @@ return {
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城？",
+			actorName = "Amagi?",
 			actorShadow = true,
-			say = "——我的妹妹。",
+			say = "My dear sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -284,17 +284,17 @@ function var_0_0.GetAchieveDesc(arg_8_0, arg_8_1)
 	end)
 
 	if var_8_1.type == var_0_0.AchieveType1 then
-		return "击破敌方旗舰"
+		return "Defeat flagship"
 	elseif var_8_1.type == var_0_0.AchieveType2 then
-		return string.format("击破护卫舰队（%d/%d）", math.min(var_8_1.count, var_8_1.config), var_8_1.config)
+		return string.format("Defeat escort fleet（%d/%d）", math.min(var_8_1.count, var_8_1.config), var_8_1.config)
 	elseif var_8_1.type == var_0_0.AchieveType3 then
-		return "击破所有敌舰"
+		return "Defeat all enemies"
 	elseif var_8_1.type == var_0_0.AchieveType4 then
-		return string.format("出击人数不多于%d", var_8_1.config)
+		return string.format("Deployed ships≤ %d", var_8_1.config)
 	elseif var_8_1.type == var_0_0.AchieveType5 then
-		return string.format("出击舰娘不包含XX", ShipType.Type2Name(var_8_1.config))
+		return string.format("XX not deployed", ShipType.Type2Name(var_8_1.config))
 	elseif var_8_1.type == var_0_0.AchieveType6 then
-		return "Full Combo完成关卡"
+		return "Clear with a Full Combo"
 	end
 
 	return var_8_0

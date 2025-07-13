@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-italy",
 			dir = 1,
-			say = "切，夜晚和驱逐舰队纠缠上果然没什么好事……",
+			say = "Her speed... I really can't deal with these tight turns in night battles...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "哼哼哼，鱼雷成功命中！皇家纳尔逊航速减半了~",
+			say = "Ahaha! A direct hit! That's the power of a Vichya knight's torpedoes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要恋战，全速向土伦港方向行驶，我们就快成功了。",
+			say = "Don't overextend. It's our victory as long as we make it back to Toulon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "等、等等，敦刻尔克！就凭维希教廷现在的处境，就算你回去又能怎么样，你又能做到什么？",
+			say = "Wait, Dunkerque! What do you possibly hope to achieve returning to the Vichya Dominion in its current state?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "只要你们老老实实返回凯比尔港，皇家可以保证你们在接下来战争中的安全！",
+			say = "Upon the honor of Her Majesty, we will guarantee your safety if you surrender yourself to the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "...You're right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "维希教廷是我的祖国，是我宣誓效忠的对象。我要守护的一切事物都在那里。",
+			say = "...I might not be able to make a difference after I return...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果它大厦将倾，要用身体将它支撑起来。如果它即将堕落，就用信仰将它净化回来。",
+			say = "But I am one of Vichya's Templar Knights. If the Vichya is ever in danger...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要还有需要我守护的同伴存在，我就会坚定不移的战斗下去。",
+			say = "As long as I still have friends who place their trust within me, I will return to their sides.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即使那里是深渊之中，我也会让她们在黑暗中睡的安详一些。",
+			say = "My purpose is to fight for my friends and the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "………",
+			say = "Dunkerque...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "祝你好运，鸢尾教国的敦刻尔克。",
+			say = "I see... May Iris watch over you, Dunkerque.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！终于要结束了啊，漫长的一夜~",
+			say = "F-Finally, I can see the light of Toulon... I'm exhausted...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "我们还没有进入土伦港，现在放心还太早了。",
+			say = "We're almost there, but let's stay alert until we've arrived in port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "是是是，我知道啦~区区塔尔图，今天感觉怎么总是在被你说教啊！",
+			say = "I know, I know! Tartu, why does it feel like you're hyper focused today~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "往日恶作剧的回礼。",
+			say = "Huh? I was just thinking about the best way to dock...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂喂喂，什么叫恶作剧的回礼啊！喂！好好听我说话啊！",
+			say = "Oh, I guess you're not that focused after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "不要摇我，我在听…",
+			say = "Hm? Vauquelin? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "呵呵，好了，让我们回家吧。",
+			say = "Hehe~ Now that we've arrived, it feels like we can finally take a deep breath~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………………………………………",
+			say = ".......................................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就这样，伴随着少女们的嬉戏声，夜色下的归途也进入了尾声……",
+			say = "After crossing the perilous sea in the darkness, battlecruiser Dunkerque and the ships escorting her safely arrive at Toulon in the Vichya Dominion. But at the same time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "观测结束——呼呼…这也是一种'可能性'呢。",
+			say = "In this \"Simulation,\" the Royal Navy will be dismantled after dozens of their ships sink to the hands of battleship Jean Bart...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "虽然还只是自然进化演算系统的演算，不过要是真的这么发展下去可就困扰了。",
+			say = "But of course, I would not allow such an outcome to take place. After all, my \"Experiment\" must continue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "那么，实际上的“这边”的话……",
+			say = "After all... What kind of future can these ships, who have been saved by humanity, find at the intersection of light and shadow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "呵呵，是时候开始接下来的试验了——",
+			say = "Ahaha... I shall continue my observation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

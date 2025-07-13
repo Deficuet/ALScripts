@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "伴随着一声巨响，拥有着庞大又怪异舰装的{namecode:437}最终倒在了海面上。",
+			say = "The Pawn's airstrikes proved futile, and the duo succeeded in eliminating it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "敌方舰队旗舰，{namecode:437}击破！",
+			say = "That Pawn looked like a flagship to me, so that's one sector secured!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "嚯？不愧是量产型舰队！在击破了旗舰之后立刻就失去统一指挥了！",
+			say = "Whoa, did you see that? The mass-produced ships are going haywire now that we've taken out their boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "接下来交给我们的量产型收尾就好啦~",
+			say = "Now our own mass-produced ships will make quick work of them. Piece of cake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "呼……到底是航空母舰，真是费了一番功夫啊。",
+			say = "Phew, that Pawn really surprised me. Carriers don't play fair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "要不是遵循演习规则的战斗力调整，我们早就解决了！",
+			say = "That's just part of the experiment! We would've won in a heartbeat if there weren't all these rules in place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "可是那样就失去演习的意义了吧！",
+			say = "Yeah, but there'd be no point to the experiment if we were allowed to go all-out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "好、好像也有道理……",
+			say = "True...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "真是的~接下来海域里只剩下一坨敌人了。",
+			say = "Heheh☆ In any case, all we have to do is wait for our ships to finish their jobs, so we can kick back and relax for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "唔……其中有一个没见过的名字，系统识别名为{namecode:462}，战列巡洋舰，你有听说过么？",
+			say = "...Oh, hang on a sec. I'm picking up another shipgirl's signal. A battlecruiser named Brünhilde? Uhh, who's that again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "{namecode:462}……？我没听说过，但是名字听起来好酷！",
+			say = "Brünhilde? Don't think I know her... But that's one badass name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "嚯嚯~我对于这个秘密计划越来越好奇了！",
+			say = "Wonder if she is playing the baddie! Heheh☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不过对话要等战斗结束之后——",
+			say = "Shame we're not allowed to talk to each other until the fighting part is over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "对面就剩了一艘战列巡洋舰，而我们还有四艘战列舰，优势在我！",
+			say = "Wait, since she's a shipgirl, that might mean she's bringing reinforcements here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			expression = 3,
 			blackBg = true,
-			say = "全军出击，让对面看看咱们的厉害！",
+			say = "Then we've gotta get back into gear and drive out all the enemies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

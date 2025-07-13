@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"东欧罗巴平原",
+					"Somewhere in Eastern Europa",
 					1
 				},
 				{
-					"装甲列车「司晨女神」",
+					"Northern Parliament - Armored Train",
 					2
 				},
 				{
-					"？？？·？？？",
+					"Sovetsky Soyuz",
 					3
 				}
 			},
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "列车规律的颠簸让{namecode:529:苏维埃同盟}有些困倦。",
+			say = "The dull, rhythmic clunking of cold steel against the rail tracks lulled the train's passengers to sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不知不觉中，{namecode:529:苏维埃同盟}的意识远去了。",
+			say = "Among them, Sovetsky Soyuz. She closed her tired eyes and her consciousness slipped into darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "我记得……我正在列车上看文件。",
+			say = "Where... am I? Is this a dream?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "因为有些疲倦，所以眯了一会。",
+			say = "Wasn't I reading documents aboard the train just a moment ago?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说来……这是梦？",
+			say = "Yes. I must've rested my eyes for a moment and fallen asleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			say = "无人回应{namecode:529:苏维埃同盟}的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "There was no one to answer Soyuz's questions. Only the black sun, burning silently overhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "……燃烧得很剧烈，但没有感受到丝毫炎热。",
+			say = "What a peculiar sun. I don't feel its warmth on my face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反而让人觉得有些冰冷……",
+			say = "If anything... its light feels like a cold, forlorn wind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "这幅景象究竟是……",
+			say = "What IS this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "罗西亚同志……？",
+			say = "Who's there? Is that you, comrade Rossiya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，我听不清你说的话，请再说一遍。",
+			say = "I didn't quite catch that. Could you say that again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 900220,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-deepecho",
-			say = "吱——————",
+			say = "SCREEECH!",
 			soundeffect = "event:/ui/liecheshache",
 			effects = {
 				{
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在列车的减速声中，{namecode:529:苏维埃同盟}睁开了双眼。",
+			say = "Its brakes flipped, the train ground to a shrill halt, pulling Soyuz from her dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "燃烧的黑日，与言语不清的罗西亚，真是奇怪的梦……",
+			say = "The burning black sun and Rossiya, trying to tell me something... What a strange dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "难道是因为日有所思，所以“夜”有所梦么……",
+			say = "Did they show up in my dream because I have too much on my mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "唉，还是专心处理掉眼前的事，早日结束早日返回吧。",
+			say = "Whatever the case, I need to focus on the task in front of me. The sooner I can head back, the better...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}整理起手边的文件，进行下车前的准备。",
+			say = "Sovetsky Soyuz put away the documents she was perusing, and prepared to get off the train.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，极地风暴行动正在有序进行。",
+			say = "So far, Operation Frostfall, the Northern Parliament's coalition operation, had been progressing smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原本{namecode:529:苏维埃同盟}也应该坐镇中枢指挥。",
+			say = "This major assault centered around employing feint attacks on Siren positions, pushing the frontlines forward while searching for Omitter's critical weakness – her mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过，因为收到了秘密合作方克莱蒙梭想要尽快获取计划舰「香槟」的联络。",
+			say = "However, the situation changed when Clemenceau, the Tribunal's liaison with who Soyuz had secretly been in correspondence, provided an urgent update on the status of the ongoing blueprint ship project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而黑海造船厂的技术部门给出的反馈则是——「香槟」计划遇到了一些状况，进度有延后风险。",
+			say = "One of the Northern Parliament's shipyards involved in researching prototype armaments for this project had encountered unexpected delays, potentially jeopardizing the success of the entire project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "所以{namecode:529:苏维埃同盟}不得不离开指挥中心，来到黑海造船厂来处理一下这边的问题。",
+			say = "As a result, Soyuz passed the role of operation commander to her trusted comrade, and left to tackle this urgent problem herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "每一艘计划舰都是独一无二的，可不是什么轻松就能量产的奇迹……",
+			say = "Blueprint ship Champagne... You are a greatness waiting to be born.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,11 +487,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "Train PA System",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:529:苏维埃同盟}同志，列车已到站。",
+			say = "Comrade Sovetsky Soyuz, we have arrived at your destination. Please ensure you have all your documents and personal belongings with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,11 +499,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "Train PA System",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "下车前请检查随身携带的机密文件。安全局的喀琅施塔得同志正在等待您。",
+			say = "Kronshtadt from the Intelligence Bureau is waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "算了……车到山前必有路，走一步看一步吧。",
+			say = "...The solution will present itself, in due time.",
 			painting = {
 				alpha = 0.3,
 				time = 1

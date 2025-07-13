@@ -153,12 +153,8 @@ pg.skill_data_display = setmetatable({
 		6260,
 		6270,
 		6280,
-		6300,
-		6310,
-		6360,
-		6370,
-		6551,
 		6741,
+		6750,
 		6751,
 		6761,
 		6770,
@@ -189,29 +185,11 @@ pg.skill_data_display = setmetatable({
 		60545,
 		7000,
 		7500,
-		7510,
-		7511,
-		7520,
-		7521,
-		7530,
-		7531,
-		7540,
-		7541,
-		7550,
-		7551,
-		7560,
-		7561,
 		8521,
 		8530,
 		8533,
 		8540,
 		8609,
-		8610,
-		8611,
-		8612,
-		8613,
-		8615,
-		8616,
 		8640,
 		8641,
 		8642,
@@ -2271,8 +2249,6 @@ pg.skill_data_display = setmetatable({
 		22253,
 		22254,
 		22255,
-		22256,
-		22257,
 		22261,
 		22262,
 		23011,
@@ -2596,22 +2572,6 @@ pg.skill_data_display = setmetatable({
 		101130,
 		102010,
 		102020,
-		103010,
-		103020,
-		103030,
-		103040,
-		103050,
-		103051,
-		103060,
-		103061,
-		103062,
-		103063,
-		103070,
-		103080,
-		103090,
-		103100,
-		103110,
-		103120,
 		104010,
 		104011,
 		104012,
@@ -3679,591 +3639,591 @@ pg.base = pg.base or {}
 pg.base.skill_data_display = {
 	[4] = {
 		id = 4,
-		name = "损害管制"
+		name = "Damage control"
 	},
 	[10] = {
 		id = 10,
-		name = "维修Lv1"
+		name = "Repair Ⅰ"
 	},
 	[11] = {
 		id = 11,
-		name = "维修Lv2"
+		name = "Repair Ⅱ"
 	},
 	[12] = {
 		id = 12,
-		name = "维修Lv3"
+		name = "Repair Ⅲ"
 	},
 	[13] = {
 		id = 13,
-		name = "维修Lv4"
+		name = "Repair IV"
 	},
 	[42] = {
 		id = 42,
-		name = "游刃有余"
+		name = "Future Content "
 	},
 	[43] = {
 		id = 43,
-		name = "绝地反击"
+		name = "Future Content "
 	},
 	[44] = {
 		id = 44,
-		name = "游刃有余"
+		name = "Future Content "
 	},
 	[46] = {
 		id = 46,
-		name = "绝地反击"
+		name = "Future Content "
 	},
 	[1001] = {
 		id = 1001,
-		name = "炮术指挥·驱逐舰"
+		name = "Artillery Command: Destroyers"
 	},
 	[1002] = {
 		id = 1002,
-		name = "炮术指挥·巡洋舰"
+		name = "Artillery Command: Cruisers"
 	},
 	[1003] = {
 		id = 1003,
-		name = "炮术指挥·战列舰"
+		name = "Artillery Command: Battleships"
 	},
 	[1004] = {
 		id = 1004,
-		name = "炮术指挥·先锋"
+		name = "Artillery Command: Vanguard"
 	},
 	[1005] = {
 		id = 1005,
-		name = "炮术指挥·主力"
+		name = "Artillery Command: Main Fleet"
 	},
 	[1006] = {
 		id = 1006,
-		name = "炮术指挥·全员"
+		name = "Artillery Command: All"
 	},
 	[1011] = {
 		id = 1011,
-		name = "雷击指挥·驱逐舰"
+		name = "Torpedo Command: Destroyers"
 	},
 	[1012] = {
 		id = 1012,
-		name = "雷击指挥·巡洋舰"
+		name = "Torpedo Command: Cruisers"
 	},
 	[1013] = {
 		id = 1013,
-		name = "雷击指挥·先锋"
+		name = "Torpedo Command: Vanguard"
 	},
 	[1021] = {
 		id = 1021,
-		name = "航空指挥·全员"
+		name = "Aviation Command: All"
 	},
 	[1031] = {
 		id = 1031,
-		name = "装填指挥·驱逐舰"
+		name = "Reload Command: Destroyers"
 	},
 	[1032] = {
 		id = 1032,
-		name = "装填指挥·巡洋舰"
+		name = "Reload Command: Cruisers"
 	},
 	[1033] = {
 		id = 1033,
-		name = "装填指挥·战列舰"
+		name = "Reload Command: Battleships"
 	},
 	[1034] = {
 		id = 1034,
-		name = "装填指挥·先锋"
+		name = "Reload Command: Vanguard"
 	},
 	[1035] = {
 		id = 1035,
-		name = "装填指挥·主力"
+		name = "Reload Command: Main Fleet"
 	},
 	[1036] = {
 		id = 1036,
-		name = "装填指挥·全员"
+		name = "Reload Command: All"
 	},
 	[1037] = {
 		id = 1037,
-		name = "装填指挥·轻航"
+		name = "Reload Command: Light Carriers"
 	},
 	[1041] = {
 		id = 1041,
-		name = "防空指挥·驱逐舰"
+		name = "Anti-Air Command: Destroyers"
 	},
 	[1042] = {
 		id = 1042,
-		name = "防空指挥·巡洋舰"
+		name = "Anti-Air Command: Cruisers"
 	},
 	[1043] = {
 		id = 1043,
-		name = "防空指挥·战列舰"
+		name = "Anti-Air Command: Battleships"
 	},
 	[1044] = {
 		id = 1044,
-		name = "防空指挥·先锋"
+		name = "Anti-Air Command: Vanguard"
 	},
 	[1045] = {
 		id = 1045,
-		name = "防空指挥·主力"
+		name = "Anti-Air Command: Main Fleet"
 	},
 	[1046] = {
 		id = 1046,
-		name = "防空指挥·全员"
+		name = "Anti-Air Command: All"
 	},
 	[1051] = {
 		id = 1051,
-		name = "战术指挥·驱逐舰"
+		name = "Tactical Command: Destroyers"
 	},
 	[1052] = {
 		id = 1052,
-		name = "战术指挥·巡洋舰"
+		name = "Tactical Command: Cruisers"
 	},
 	[1053] = {
 		id = 1053,
-		name = "战术指挥·战列舰"
+		name = "Tactical Command: Battleships"
 	},
 	[1054] = {
 		id = 1054,
-		name = "战术指挥·先锋"
+		name = "Tactical Command: Vanguard"
 	},
 	[1055] = {
 		id = 1055,
-		name = "战术指挥·主力"
+		name = "Tactical Command: Main Fleet"
 	},
 	[1056] = {
 		id = 1056,
-		name = "战术指挥·全员"
+		name = "Tactical Command: All"
 	},
 	[1061] = {
 		id = 1061,
-		name = "侧翼掩护"
+		name = "Flank Defense"
 	},
 	[1071] = {
 		id = 1071,
-		name = "前线侦查"
+		name = "Frontline Recon"
 	},
 	[1081] = {
 		id = 1081,
-		name = "空袭引导"
+		name = "Air Raid Assistance"
 	},
 	[1091] = {
 		id = 1091,
-		name = "水雷战队"
+		name = "Torpedo Squadron"
 	},
 	[2001] = {
 		id = 2001,
-		name = "快速装填"
+		name = "Quick Reload"
 	},
 	[2011] = {
 		id = 2011,
-		name = "火力全开"
+		name = "Full Firepower"
 	},
 	[2021] = {
 		id = 2021,
-		name = "装填号令"
+		name = "Reload Order"
 	},
 	[2031] = {
 		id = 2031,
-		name = "强袭号令"
+		name = "Assault Order"
 	},
 	[2041] = {
 		id = 2041,
-		name = "重点打击"
+		name = "Focused Assault"
 	},
 	[2051] = {
 		id = 2051,
-		name = "鱼雷连射"
+		name = "Double Torpedo"
 	},
 	[2061] = {
 		id = 2061,
-		name = "主炮连射"
+		name = "Double Gun"
 	},
 	[2071] = {
 		id = 2071,
-		name = "火力覆盖"
+		name = "Cover Fire"
 	},
 	[2081] = {
 		id = 2081,
-		name = "穿甲弹精通"
+		name = "Piercing Shells"
 	},
 	[2091] = {
 		id = 2091,
-		name = "磁性鱼雷"
+		name = "Magnetic Torpedoes"
 	},
 	[2101] = {
 		id = 2101,
-		name = "鱼雷发射"
+		name = "Torpedo Launch"
 	},
 	[2111] = {
 		id = 2111,
-		name = "袭扰战术"
+		name = "Disturbance Strategy"
 	},
 	[2121] = {
 		id = 2121,
-		name = "集火信号-鱼雷"
+		name = "Target Designator - Torpedo"
 	},
 	[2131] = {
 		id = 2131,
-		name = "防空支援"
+		name = "Aerial Support"
 	},
 	[2141] = {
 		id = 2141,
-		name = "驱逐战强化"
+		name = "Anti-Destroyer Tactics"
 	},
 	[2151] = {
 		id = 2151,
-		name = "均衡鱼雷"
+		name = "Impartial Destruction"
 	},
 	[2160] = {
 		id = 2160,
-		name = "预备雷击"
+		name = "Lightning Strikes Twice"
 	},
 	[2161] = {
 		id = 2161,
-		name = "预备雷击"
+		name = "Lightning Strikes Twice"
 	},
 	[2171] = {
 		id = 2171,
-		name = "防空警戒"
+		name = "Anti-Air Vigilance"
 	},
 	[2181] = {
 		id = 2181,
-		name = "全面戒备"
+		name = "Comprehensive Defense"
 	},
 	[2190] = {
 		id = 2190,
-		name = "备弹指令"
+		name = "Ammunition Command"
 	},
 	[2191] = {
 		id = 2191,
-		name = "备弹指令"
+		name = "Ammunition Command"
 	},
 	[2200] = {
 		id = 2200,
-		name = "空海切换"
+		name = "Air-Surface Switch"
 	},
 	[2201] = {
 		id = 2201,
-		name = "空海切换"
+		name = "Air-Surface Switch"
 	},
 	[3001] = {
 		id = 3001,
-		name = "快速起飞"
+		name = "Quick Takeoff"
 	},
 	[3011] = {
 		id = 3011,
-		name = "强袭空母"
+		name = "Assault Carrier"
 	},
 	[3021] = {
 		id = 3021,
-		name = "舰队空母"
+		name = "Fleet Carrier"
 	},
 	[3031] = {
 		id = 3031,
-		name = "支援空母"
+		name = "Support Carrier"
 	},
 	[3041] = {
 		id = 3041,
-		name = "制空支援"
+		name = "Air Support"
 	},
 	[3051] = {
 		id = 3051,
-		name = "航空掩护"
+		name = "Air Cover"
 	},
 	[3511] = {
 		id = 3511,
-		name = "额外供氧"
+		name = "Extra Oxygen"
 	},
 	[3521] = {
 		id = 3521,
-		name = "水面作战"
+		name = "Surface Combat"
 	},
 	[3531] = {
 		id = 3531,
-		name = "缓速鱼雷"
+		name = "Slow Torpedoes"
 	},
 	[3571] = {
 		id = 3571,
-		name = "轻巡猎手"
+		name = "Light Cruiser Hunter"
 	},
 	[3581] = {
 		id = 3581,
-		name = "重巡猎手"
+		name = "Heavy Cruiser Hunter"
 	},
 	[3591] = {
 		id = 3591,
-		name = "航母猎手"
+		name = "Carrier Hunter"
 	},
 	[3611] = {
 		id = 3611,
-		name = "狼群战术"
+		name = "Wolf Pack Tactics"
 	},
 	[3621] = {
 		id = 3621,
-		name = "空域确认"
+		name = "Airspace Affirmation"
 	},
 	[3631] = {
 		id = 3631,
-		name = "远洋支援"
+		name = "Open Ocean Support"
 	},
 	[4001] = {
 		id = 4001,
-		name = "防御姿态"
+		name = "Defensive Stance"
 	},
 	[4011] = {
 		id = 4011,
-		name = "防御号令"
+		name = "Defense Order"
 	},
 	[4021] = {
 		id = 4021,
-		name = "重点防护"
+		name = "Vice Defense"
 	},
 	[4031] = {
 		id = 4031,
-		name = "损害管制"
+		name = "Damage Control"
 	},
 	[4041] = {
 		id = 4041,
-		name = "吸引火力"
+		name = "Draw Fire"
 	},
 	[4051] = {
 		id = 4051,
-		name = "正面装甲"
+		name = "Forward Armor"
 	},
 	[4061] = {
 		id = 4061,
-		name = "侧面装甲"
+		name = "Side Armor"
 	},
 	[4071] = {
 		id = 4071,
-		name = "紧急回避"
+		name = "Emergency Maneuvers"
 	},
 	[4081] = {
 		id = 4081,
-		name = "烟雾弹"
+		name = "Smokescreen"
 	},
 	[4091] = {
 		id = 4091,
-		name = "防空模式"
+		name = "Anti-Air Mode"
 	},
 	[4101] = {
 		id = 4101,
-		name = "烟雾弹·轻巡"
+		name = "Smokescreen: Light Cruisers"
 	},
 	[4102] = {
 		id = 4102,
-		name = "烟雾弹·轻巡"
+		name = "Smokescreen: Light Cruisers"
 	},
 	[4111] = {
 		id = 4111,
-		name = "穿甲防护"
+		name = "AP Protection"
 	},
 	[4121] = {
 		id = 4121,
-		name = "防护装甲"
+		name = "Protective Armor"
 	},
 	[4130] = {
 		id = 4130,
-		name = "冲突禁止"
+		name = "Ramming Prohibited"
 	},
 	[4131] = {
 		id = 4131,
-		name = "冲突禁止"
+		name = "Ramming Prohibited"
 	},
 	[4141] = {
 		id = 4141,
-		name = "机动护卫"
+		name = "Swift Defender"
 	},
 	[4150] = {
 		id = 4150,
-		name = "机动制压"
+		name = "Mobility Mastery"
 	},
 	[4151] = {
 		id = 4151,
-		name = "机动制压"
+		name = "Mobility Mastery"
 	},
 	[4160] = {
 		id = 4160,
-		name = "空域辅助"
+		name = "Supporting Wings"
 	},
 	[4161] = {
 		id = 4161,
-		name = "空域辅助"
+		name = "Supporting Wings"
 	},
 	[4176] = {
 		id = 4176,
-		name = "空域辅助"
+		name = "Supporting Wings"
 	},
 	[4180] = {
 		id = 4180,
-		name = "机动制压"
+		name = "Mobility Mastery"
 	},
 	[4181] = {
 		id = 4181,
-		name = "机动制压"
+		name = "Mobility Mastery"
 	},
 	[5001] = {
 		id = 5001,
-		name = "火力干扰"
+		name = "Interference"
 	},
 	[5011] = {
 		id = 5011,
-		name = "弱点侦测"
+		name = "Vulnerability Detection"
 	},
 	[5021] = {
 		id = 5021,
-		name = "空母护航"
+		name = "Carrier Escort"
 	},
 	[5031] = {
 		id = 5031,
-		name = "战舰护航"
+		name = "Battleship Escort"
 	},
 	[5041] = {
 		id = 5041,
-		name = "照明弹"
+		name = "Flares"
 	},
 	[5042] = {
 		id = 5042,
-		name = "照明弹"
+		name = "Flares"
 	},
 	[5051] = {
 		id = 5051,
-		name = "旗舰掩护"
+		name = "Flagship Cover"
 	},
 	[5061] = {
 		id = 5061,
-		name = "驱逐编队"
+		name = "Destroyer Squadron"
 	},
 	[5060] = {
 		id = 5060,
-		name = "驱逐编队"
+		name = "Destroyer Squadron"
 	},
 	[5071] = {
 		id = 5071,
-		name = "骑士之盾"
+		name = "Chevalier's Bouclier"
 	},
 	[5070] = {
 		id = 5070,
-		name = "骑士之盾"
+		name = "Chevalier's Bouclier"
 	},
 	[5081] = {
 		id = 5081,
-		name = "骑士之剑"
+		name = "Chevalier's Sabre"
 	},
 	[5080] = {
 		id = 5080,
-		name = "骑士之剑"
+		name = "Chevalier's Sabre"
 	},
 	[5101] = {
 		id = 5101,
-		name = "应急战备"
+		name = "Rapid Response "
 	},
 	[5102] = {
 		id = 5102,
-		name = "应急战备"
+		name = "Rapid Response "
 	},
 	[5103] = {
 		id = 5103,
-		name = "应急战备"
+		name = "Rapid Response "
 	},
 	[5111] = {
 		id = 5111,
-		name = "航空辅助"
+		name = "One For All"
 	},
 	[6000] = {
 		id = 6000,
-		name = "小海狸中队"
+		name = "Beaver Squad"
 	},
 	[6010] = {
 		id = 6010,
-		name = "防鱼雷隔舱T1"
+		name = "Anti-Torpedo Bulge Ⅰ"
 	},
 	[6020] = {
 		id = 6020,
-		name = "防鱼雷隔舱T2"
+		name = "Anti-Torpedo Bulge Ⅱ"
 	},
 	[6030] = {
 		id = 6030,
-		name = "防鱼雷隔舱T3"
+		name = "Anti-Torpedo Bulge Ⅲ"
 	},
 	[6040] = {
 		id = 6040,
-		name = "SG雷达T1"
+		name = "SG Radar Ⅰ"
 	},
 	[6050] = {
 		id = 6050,
-		name = "SG雷达T2"
+		name = "SG Radar Ⅱ"
 	},
 	[6060] = {
 		id = 6060,
-		name = "SG雷达T3"
+		name = "SG Radar Ⅲ"
 	},
 	[6070] = {
 		id = 6070,
-		name = "航空副油箱T1"
+		name = "Aviation Oil Tank Ⅰ"
 	},
 	[6080] = {
 		id = 6080,
-		name = "航空副油箱T2"
+		name = "Aviation Oil Tank Ⅱ"
 	},
 	[6090] = {
 		id = 6090,
-		name = "航空副油箱T3"
+		name = "Aviation Oil Tank Ⅲ"
 	},
 	[6100] = {
 		id = 6100,
-		name = "维修工具T1"
+		name = "Repair Tools Ⅰ"
 	},
 	[6110] = {
 		id = 6110,
-		name = "维修工具T2"
+		name = "Repair Tools Ⅱ"
 	},
 	[6120] = {
 		id = 6120,
-		name = "维修工具T3"
+		name = "Repair Tools Ⅲ"
 	},
 	[6130] = {
 		id = 6130,
-		name = "珍珠之泪"
+		name = "Pearl's Tears"
 	},
 	[6140] = {
 		id = 6140,
-		name = "灭火器T1"
+		name = "Fire Suppressor Ⅰ"
 	},
 	[6150] = {
 		id = 6150,
-		name = "灭火器T2"
+		name = "Fire Suppressor Ⅱ"
 	},
 	[6160] = {
 		id = 6160,
-		name = "灭火器T3"
+		name = "Fire Suppressor Ⅲ"
 	},
 	[6170] = {
 		id = 6170,
-		name = "喵喵治愈"
+		name = "Cat Potency"
 	},
 	[6180] = {
 		id = 6180,
-		name = "空中侦察"
+		name = "Aerial Recon"
 	},
 	[6190] = {
 		id = 6190,
-		name = "九一式穿甲弹"
+		name = "Type 91 Piercing Shell"
 	},
 	[6200] = {
 		id = 6200,
-		name = "一式穿甲弹"
+		name = "Type 1 Piercing Shell"
 	},
 	[6210] = {
 		id = 6210,
-		name = "超重弹"
+		name = "Super Heavy Shell"
 	},
 	[6230] = {
 		id = 6230,
-		name = "幸运之Z"
+		name = "Z Flag"
 	},
 	[6231] = {
 		id = 6231,
-		name = "正义之Z"
+		name = "Z Flag"
 	},
 	[6240] = {
 		id = 6240,
-		name = "SBD无畏(麦克拉斯基队)"
+		name = "Focused Bombing"
 	},
 	[6250] = {
 		id = 6250,
@@ -4271,1179 +4231,1091 @@ pg.base.skill_data_display = {
 	},
 	[6260] = {
 		id = 6260,
-		name = "精确锁定"
+		name = "Precision Lock-on"
 	},
 	[6270] = {
 		id = 6270,
-		name = "机动回避"
+		name = "Powered Evasion"
 	},
 	[6280] = {
 		id = 6280,
-		name = "对空搜索"
-	},
-	[6300] = {
-		id = 6300,
-		name = "高效燃油"
-	},
-	[6310] = {
-		id = 6310,
-		name = "归航引导"
-	},
-	[6360] = {
-		id = 6360,
-		name = "延时射击"
-	},
-	[6370] = {
-		id = 6370,
-		name = "潜母特攻"
-	},
-	[6551] = {
-		id = 6551,
-		name = "！？"
+		name = "Aircraft Detection"
 	},
 	[6741] = {
 		id = 6741,
-		name = "开拓者勋章"
+		name = "Frontier Medal"
+	},
+	[6750] = {
+		id = 6750,
+		name = "Elite Damage Control Manjuu (Eagle Union)"
 	},
 	[6751] = {
 		id = 6751,
-		name = "白鹰精英损管"
+		name = "Elite Damage Control Manjuu (Eagle Union)"
 	},
 	[6761] = {
 		id = 6761,
-		name = "华盛顿海军条约"
+		name = "Naval Treaty"
 	},
 	[6770] = {
 		id = 6770,
-		name = "纳尔逊的旗语"
+		name = "Pennant of Victory"
 	},
 	[60130] = {
 		id = 60130,
-		name = "赋予火伤"
+		name = "Inflict Burns"
 	},
 	[60140] = {
 		id = 60140,
-		name = "丧失速度"
+		name = "Slowdown"
 	},
 	[60150] = {
 		id = 60150,
-		name = "丧失感觉"
+		name = "Senselessness"
 	},
 	[60160] = {
 		id = 60160,
-		name = "最大风力"
+		name = "Maximum Wind"
 	},
 	[60170] = {
 		id = 60170,
-		name = "核心驱动—四星极光"
+		name = "Core Drive - Four-Star Aurora"
 	},
 	[60180] = {
 		id = 60180,
-		name = "大海呼应"
+		name = "Echoing Seas"
 	},
 	[60181] = {
 		id = 60181,
-		name = "大海呼应"
+		name = "Echoing Seas"
 	},
 	[60190] = {
 		id = 60190,
-		name = "泡泡四溢"
+		name = "Bubbly Prison"
 	},
 	[60191] = {
 		id = 60191,
-		name = "泡泡四溢"
+		name = "Bubbly Prison"
 	},
 	[60200] = {
 		id = 60200,
-		name = "核心驱动—重力挤压"
+		name = "Core Drive - Gravity Press"
 	},
 	[60210] = {
 		id = 60210,
-		name = "摄魂刻印"
+		name = "Soulstealer's Engraving"
 	},
 	[60211] = {
 		id = 60211,
-		name = "摄魂刻印"
+		name = "Soulstealer's Engraving"
 	},
 	[60220] = {
 		id = 60220,
-		name = "无限大的爆炸"
+		name = "Infinite Explosion"
 	},
 	[60221] = {
 		id = 60221,
-		name = "无限大的爆炸"
+		name = "Infinite Explosion"
 	},
 	[60222] = {
 		id = 60222,
-		name = "核心驱动—遗言陨石"
+		name = "Core Drive - Testament Meteor"
 	},
 	[60230] = {
 		id = 60230,
-		name = "核心驱动—遗言陨石"
+		name = "Core Drive - Testament Meteor"
 	},
 	[60240] = {
 		id = 60240,
-		name = "回避率提升"
+		name = "Evasion Up"
 	},
 	[60250] = {
 		id = 60250,
-		name = "HP回复"
+		name = "HP Recovery"
 	},
 	[60260] = {
 		id = 60260,
-		name = "核心驱动—天使的拥抱"
+		name = "Core Drive - Angelic Embrace"
 	},
 	[60270] = {
 		id = 60270,
-		name = "绚丽旋律"
+		name = "Glorious Melody"
 	},
 	[60334] = {
 		id = 60334,
-		name = "「预定事项-茶歇」"
+		name = "Rest Mode"
 	},
 	[60335] = {
 		id = 60335,
-		name = "「预定事项-会议」"
+		name = "Work Mode"
 	},
 	[60541] = {
 		id = 60541,
-		name = "光明与正义之加护...?"
+		name = "Blessing of Light and Justice?"
 	},
 	[60543] = {
 		id = 60543,
-		name = "坚韧与团结之加护...?"
+		name = "Blessing of Unity and Toughness?"
 	},
 	[60545] = {
 		id = 60545,
-		name = "茶会与点心之加护...?"
+		name = "Blessing of Desserts and Tea Parties?"
 	},
 	[7000] = {
 		id = 7000,
-		name = "莱茵演习"
+		name = "Rhine Drill"
 	},
 	[7500] = {
 		id = 7500,
 		name = "？？？？？"
 	},
-	[7510] = {
-		id = 7510,
-		name = "久远的支援"
-	},
-	[7511] = {
-		id = 7511,
-		name = "久远的支援"
-	},
-	[7520] = {
-		id = 7520,
-		name = "猫音的支援"
-	},
-	[7521] = {
-		id = 7521,
-		name = "猫音的支援"
-	},
-	[7530] = {
-		id = 7530,
-		name = "露露缇耶的支援"
-	},
-	[7531] = {
-		id = 7531,
-		name = "露露缇耶的支援"
-	},
-	[7540] = {
-		id = 7540,
-		name = "乌璐露的支援"
-	},
-	[7541] = {
-		id = 7541,
-		name = "乌璐露的支援"
-	},
-	[7550] = {
-		id = 7550,
-		name = "萨拉娜的支援"
-	},
-	[7551] = {
-		id = 7551,
-		name = "萨拉娜的支援"
-	},
-	[7560] = {
-		id = 7560,
-		name = "芙米露露的支援"
-	},
-	[7561] = {
-		id = 7561,
-		name = "芙米露露的支援"
-	},
 	[8521] = {
 		id = 8521,
-		name = "新生重樱联合"
+		name = "Reborn Combined Fleet Flagship"
 	},
 	[8530] = {
 		id = 8530,
-		name = "战术模拟-装填大幅提高"
+		name = "Battle Simulation - Fast Reload"
 	},
 	[8533] = {
 		id = 8533,
-		name = "弱者的苦痛之源"
+		name = "Tormentor of the Weak"
 	},
 	[8540] = {
 		id = 8540,
-		name = "战术模拟-空袭加载时间减少"
+		name = "Battle Simulation - Airstrike Loading Time Shortened"
 	},
 	[8609] = {
 		id = 8609,
-		name = "全力以赴"
-	},
-	[8610] = {
-		id = 8610,
-		name = "开火限制解除I"
-	},
-	[8611] = {
-		id = 8611,
-		name = "开火限制解除II"
-	},
-	[8612] = {
-		id = 8612,
-		name = "开火限制解除III "
-	},
-	[8613] = {
-		id = 8613,
-		name = "开火限制解除IV"
-	},
-	[8615] = {
-		id = 8615,
-		name = "精疲力竭"
-	},
-	[8616] = {
-		id = 8616,
-		name = "奋起之鹤"
+		name = "Surpass Limits "
 	},
 	[8640] = {
 		id = 8640,
-		name = "战术解放I"
+		name = "Suruga Fleet I"
 	},
 	[8641] = {
 		id = 8641,
-		name = "战术解放II"
+		name = "Suruga Fleet II"
 	},
 	[8642] = {
 		id = 8642,
-		name = "战术解放III"
+		name = "Suruga Fleet III"
 	},
 	[8643] = {
 		id = 8643,
-		name = "战术解放IV "
+		name = "Suruga Fleet IV"
 	},
 	[8652] = {
 		id = 8652,
-		name = "塞壬供能装置"
+		name = "Siren Charging Device"
 	},
 	[8653] = {
 		id = 8653,
-		name = "二重存在"
+		name = "Two-Faced Fox"
 	},
 	[8654] = {
 		id = 8654,
-		name = "白狐的加护"
+		name = "White Fox's Divine Protection"
 	},
 	[8655] = {
 		id = 8655,
-		name = "万组的羁绊"
+		name = "Gammadion Gang's Bond"
 	},
 	[8662] = {
 		id = 8662,
-		name = "扫除开始"
+		name = "Battle Begins"
 	},
 	[8663] = {
 		id = 8663,
-		name = "女仆的心得·力"
+		name = "Royal Maids Support - \"A\" Mode"
 	},
 	[8664] = {
 		id = 8664,
-		name = "女仆的心得·技"
+		name = "Royal Maids Support - \"B\" Mode"
 	},
 	[8671] = {
 		id = 8671,
-		name = "水面航行模式"
+		name = "Surface Mode"
 	},
 	[8685] = {
 		id = 8685,
-		name = "精密操作协议"
+		name = "Precision Salvo Protocol"
 	},
 	[8688] = {
 		id = 8688,
-		name = "热风之炽焰"
+		name = "Bellowing Gusts of Fire"
 	},
 	[8691] = {
 		id = 8691,
-		name = "适应性装甲"
+		name = "Adaptable Armor "
 	},
 	[8700] = {
 		id = 8700,
-		name = "开火限制解除I"
+		name = "Power Inhibition Release Ⅰ"
 	},
 	[8701] = {
 		id = 8701,
-		name = "开火限制解除II"
+		name = "Power Inhibition Release Ⅱ"
 	},
 	[8702] = {
 		id = 8702,
-		name = "开火限制解除III "
+		name = "Power Inhibition Release Ⅲ"
 	},
 	[8703] = {
 		id = 8703,
-		name = "开火限制解除IV"
+		name = "Power Inhibition Release Ⅳ"
 	},
 	[8705] = {
 		id = 8705,
-		name = "精疲力竭"
+		name = "Exhaustion"
 	},
 	[8709] = {
 		id = 8709,
-		name = "潜行猎杀"
+		name = "Silent Hunter"
 	},
 	[8711] = {
 		id = 8711,
-		name = "不破之盾"
+		name = "Unbreakable Shield"
 	},
 	[8714] = {
 		id = 8714,
-		name = "吞噬天地的璀璨星河"
+		name = "Sea-Sundering Destructive Light"
 	},
 	[8718] = {
 		id = 8718,
-		name = "吞噬天地的超究极璀璨星河 "
+		name = "All-Eclipsing Beam of Annihilation"
 	},
 	[8731] = {
 		id = 8731,
-		name = "蝴蝶之梦"
+		name = "Blessing of the Butterfly"
 	},
 	[8734] = {
 		id = 8734,
-		name = "蝴蝶之梦"
+		name = "Blessing of the Butterfly"
 	},
 	[8737] = {
 		id = 8737,
-		name = "蝴蝶之梦"
+		name = "Blessing of the Butterfly"
 	},
 	[8740] = {
 		id = 8740,
-		name = "蝴蝶之梦"
+		name = "Blessing of the Butterfly"
 	},
 	[8760] = {
 		id = 8760,
-		name = "情绪高涨"
+		name = "Fever Mode "
 	},
 	[8790] = {
 		id = 8790,
-		name = "护盾充能器"
+		name = "Barrier Charger "
 	},
 	[8804] = {
 		id = 8804,
-		name = "浮岛要塞支援"
+		name = "Floating Fortress Support "
 	},
 	[8807] = {
 		id = 8807,
-		name = "浮岛要塞支援"
+		name = "Floating Fortress Support "
 	},
 	[8810] = {
 		id = 8810,
-		name = "浮岛要塞支援"
+		name = "Floating Fortress Support "
 	},
 	[8813] = {
 		id = 8813,
-		name = "浮岛要塞支援"
+		name = "Floating Fortress Support "
 	},
 	[8816] = {
 		id = 8816,
-		name = "浮岛要塞支援"
+		name = "Floating Fortress Support "
 	},
 	[8818] = {
 		id = 8818,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8819] = {
 		id = 8819,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8820] = {
 		id = 8820,
-		name = "五航战支援"
+		name = "5th CarDiv Support "
 	},
 	[8821] = {
 		id = 8821,
-		name = "防御模块启动"
+		name = "Compiled Barrier "
 	},
 	[8824] = {
 		id = 8824,
-		name = "应急模块启动 "
+		name = "Emergency Procedures "
 	},
 	[8832] = {
 		id = 8832,
-		name = "火力支援"
+		name = "Artillery Support "
 	},
 	[8844] = {
 		id = 8844,
-		name = "璀璨"
+		name = "Radiance"
 	},
 	[8847] = {
 		id = 8847,
-		name = "璀璨"
+		name = "Radiance"
 	},
 	[8850] = {
 		id = 8850,
-		name = "璀璨"
+		name = "Radiance"
 	},
 	[8853] = {
 		id = 8853,
-		name = "璀璨"
+		name = "Radiance"
 	},
 	[8856] = {
 		id = 8856,
-		name = "璀璨"
+		name = "Radiance"
 	},
 	[8859] = {
 		id = 8859,
-		name = "魔弹射手"
+		name = "Renegade Sniper"
 	},
 	[8860] = {
 		id = 8860,
-		name = "海妖之歌"
+		name = "Song of the Sirens"
 	},
 	[8865] = {
 		id = 8865,
-		name = "空军支援 "
+		name = "Aerial Support"
 	},
 	[8867] = {
 		id = 8867,
-		name = "空军支援 "
+		name = "Aerial Support"
 	},
 	[8869] = {
 		id = 8869,
-		name = "空军支援 "
+		name = "Aerial Support"
 	},
 	[8880] = {
 		id = 8880,
-		name = "镜面侵入"
+		name = "Mirror Hacking "
 	},
 	[8882] = {
 		id = 8882,
-		name = "镜面侵入"
+		name = "Mirror Hacking "
 	},
 	[8884] = {
 		id = 8884,
-		name = "镜面侵入"
+		name = "Mirror Hacking "
 	},
 	[8897] = {
 		id = 8897,
-		name = "「零」象限展开-5%"
+		name = "Zeroth Quadrant Expansion -5%"
 	},
 	[8899] = {
 		id = 8899,
-		name = "北方的孤独女王"
+		name = "Lonely Queen of the North"
 	},
 	[8903] = {
 		id = 8903,
-		name = "最后的反击"
+		name = "Final Counter"
 	},
 	[8989] = {
 		id = 8989,
-		name = "骑士的决意I"
+		name = "Repulse's Resolve - I"
 	},
 	[8990] = {
 		id = 8990,
-		name = "骑士的决意II"
+		name = "Repulse's Resolve - II"
 	},
 	[8991] = {
 		id = 8991,
-		name = "骑士的决意III"
+		name = "Repulse's Resolve - III"
 	},
 	[8944] = {
 		id = 8944,
-		name = "燃烧"
+		name = "Inferno"
 	},
 	[8945] = {
 		id = 8945,
-		name = "旋涡"
+		name = "Maelstrom"
 	},
 	[8946] = {
 		id = 8946,
-		name = "电磁干扰"
+		name = "Electronic Jamming"
 	},
 	[8953] = {
 		id = 8953,
-		name = "铁血战役支援"
+		name = "Iron Blood Support"
 	},
 	[8955] = {
 		id = 8955,
-		name = "铁血战役支援"
+		name = "Iron Blood Support "
 	},
 	[8957] = {
 		id = 8957,
-		name = "铁血战役支援"
+		name = "Iron Blood Support "
 	},
 	[8959] = {
 		id = 8959,
-		name = "铁血战役支援"
+		name = "Iron Blood Support "
 	},
 	[8962] = {
 		id = 8962,
-		name = "航空阵列"
+		name = "Covering Formation"
 	},
 	[8963] = {
 		id = 8963,
-		name = "LuckyE"
+		name = "Lucky E"
 	},
 	[8964] = {
 		id = 8964,
-		name = "混沌的奏鸣曲"
+		name = "Sonata of Chaos"
 	},
 	[8966] = {
 		id = 8966,
-		name = "先手必胜"
+		name = "Preemptive Strike"
 	},
 	[8967] = {
 		id = 8967,
-		name = "一航战"
+		name = "First Carrier Division"
 	},
 	[8968] = {
 		id = 8968,
-		name = "战役级后勤保障"
+		name = "Logistics Line"
 	},
 	[8970] = {
 		id = 8970,
-		name = "鹤之奋进"
+		name = "Crane's Endeavor"
 	},
 	[8971] = {
 		id = 8971,
-		name = "先手必胜"
+		name = "Preemptive Strike"
 	},
 	[8972] = {
 		id = 8972,
-		name = "领向自由的炮火"
+		name = "Freedom Through Firepower"
 	},
 	[8973] = {
 		id = 8973,
-		name = "雷闪炎舞"
+		name = "Blazing Blitz"
 	},
 	[9010] = {
 		id = 9010,
-		name = "东煌之绊"
+		name = "Eastern Bonds"
 	},
 	[9020] = {
 		id = 9020,
-		name = "抗击重樱"
+		name = "Sakura Resistance"
 	},
 	[9030] = {
 		id = 9030,
-		name = "布里发动了技能！ "
+		name = "BULIN used SKILL!"
 	},
 	[9031] = {
 		id = 9031,
-		name = "然而什么都没有发生 "
+		name = "But nothing happened!"
 	},
 	[9204] = {
 		id = 9204,
-		name = "龙宫机关-怒涛 "
+		name = "Dragon Palace's Boon - White Waves"
 	},
 	[9205] = {
 		id = 9205,
-		name = "龙宫机关-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9206] = {
 		id = 9206,
-		name = "龙宫机关-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9207] = {
 		id = 9207,
-		name = "龙宫机关-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9215] = {
 		id = 9215,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9218] = {
 		id = 9218,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9221] = {
 		id = 9221,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9224] = {
 		id = 9224,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9227] = {
 		id = 9227,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9235] = {
 		id = 9235,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9238] = {
 		id = 9238,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9241] = {
 		id = 9241,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9244] = {
 		id = 9244,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9247] = {
 		id = 9247,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9255] = {
 		id = 9255,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9258] = {
 		id = 9258,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9261] = {
 		id = 9261,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9264] = {
 		id = 9264,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9267] = {
 		id = 9267,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9275] = {
 		id = 9275,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9278] = {
 		id = 9278,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9281] = {
 		id = 9281,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9284] = {
 		id = 9284,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9287] = {
 		id = 9287,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9292] = {
 		id = 9292,
-		name = "龙宫秘宝-生机 "
+		name = "Dragon Palace's Boon - Verdant Gales"
 	},
 	[9296] = {
 		id = 9296,
-		name = "龙宫秘宝-坚石 "
+		name = "Dragon Palace's Boon - Azure Vortexes "
 	},
 	[9300] = {
 		id = 9300,
-		name = "龙宫秘宝-烈焰 "
+		name = "Dragon Palace's Boon - Scarlet Flames "
 	},
 	[9304] = {
 		id = 9304,
-		name = "龙宫秘宝-怒涛 "
+		name = "Dragon Palace's Boon - White Waves "
 	},
 	[9306] = {
 		id = 9306,
-		name = "天雷"
+		name = "Sky-Rending Aurum"
 	},
 	[9307] = {
 		id = 9307,
-		name = "锋焰 "
+		name = "Flame-Anointed Argentum"
 	},
 	[9308] = {
 		id = 9308,
-		name = "云影 "
+		name = "Ryugu's Shadow"
 	},
 	[9404] = {
 		id = 9404,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9407] = {
 		id = 9407,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9410] = {
 		id = 9410,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9413] = {
 		id = 9413,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9416] = {
 		id = 9416,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9424] = {
 		id = 9424,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9427] = {
 		id = 9427,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9430] = {
 		id = 9430,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9433] = {
 		id = 9433,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9436] = {
 		id = 9436,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9444] = {
 		id = 9444,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9447] = {
 		id = 9447,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9450] = {
 		id = 9450,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9453] = {
 		id = 9453,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9456] = {
 		id = 9456,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[9464] = {
 		id = 9464,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9467] = {
 		id = 9467,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9470] = {
 		id = 9470,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9473] = {
 		id = 9473,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9476] = {
 		id = 9476,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9484] = {
 		id = 9484,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9487] = {
 		id = 9487,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9490] = {
 		id = 9490,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9493] = {
 		id = 9493,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9496] = {
 		id = 9496,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[9497] = {
 		id = 9497,
-		name = "防御模块启动"
+		name = "Compiled Barrier "
 	},
 	[9499] = {
 		id = 9499,
-		name = "应急模块启动 "
+		name = "Emergency Procedures "
 	},
 	[9601] = {
 		id = 9601,
-		name = "夜战灯塔扫描"
+		name = "Lighthouse"
 	},
 	[9602] = {
 		id = 9602,
-		name = "夜战灯塔扫描"
+		name = "Lighthouse"
 	},
 	[9651] = {
 		id = 9651,
-		name = "照明弹"
+		name = "Flare Shell"
 	},
 	[9652] = {
 		id = 9652,
-		name = "照明弹"
+		name = "Flare Shell"
 	},
 	[9672] = {
 		id = 9672,
-		name = "照明弹"
+		name = "Flare Shell"
 	},
 	[9673] = {
 		id = 9673,
-		name = "照明弹"
+		name = "Flare Shell"
 	},
 	[9701] = {
 		id = 9701,
-		name = "调查报告·篇章一 "
+		name = "Data, Go Investigate!"
 	},
 	[9702] = {
 		id = 9702,
-		name = "调查报告·篇章二"
+		name = "Keep It Up, Data!"
 	},
 	[9703] = {
 		id = 9703,
-		name = "调查报告·篇章三"
+		name = "Hang In There, Data!"
 	},
 	[9711] = {
 		id = 9711,
-		name = "布里之誓·purin"
+		name = "Band of Bulin·purin"
 	},
 	[9712] = {
 		id = 9712,
-		name = "布里之誓·buli"
+		name = "Band of Bulin·buli"
 	},
 	[9713] = {
 		id = 9713,
-		name = "布里之誓·burin"
+		name = "Band of Bulin·burin"
 	},
 	[10010] = {
 		id = 10010,
-		name = "浴火重生"
+		name = "Baptismal Flames"
 	},
 	[10020] = {
 		id = 10020,
-		name = "水上狂飙"
+		name = "Aquatic Vortex"
 	},
 	[10030] = {
 		id = 10030,
-		name = "姐姐气质"
+		name = "Sister's Temperament"
 	},
 	[10040] = {
 		id = 10040,
-		name = "31节伯克"
+		name = "31-knot Burke"
 	},
 	[10050] = {
 		id = 10050,
-		name = "彩虹计划"
+		name = "Operation Rainbow"
 	},
 	[10060] = {
 		id = 10060,
-		name = "真红の不死鸟"
+		name = "Red Phoenix"
 	},
 	[10070] = {
 		id = 10070,
-		name = "雷达支援"
+		name = "Radar Scan"
 	},
 	[10080] = {
 		id = 10080,
-		name = "战争之殇"
+		name = "Martyr"
 	},
 	[10090] = {
 		id = 10090,
-		name = "我是NO.1！"
+		name = "I Am No. 1!"
 	},
 	[10100] = {
 		id = 10100,
-		name = "爪哇海岸的跳跳鬼"
+		name = "Ghost of Java Coast"
 	},
 	[10110] = {
 		id = 10110,
-		name = "妹妹真是太棒了！"
+		name = "Best Sister"
 	},
 	[10120] = {
 		id = 10120,
-		name = "潘多拉的魔盒"
+		name = "Pandora's Box"
 	},
 	[10121] = {
 		id = 10121,
-		name = "潘多拉的魔盒"
+		name = "Pandora's Box"
 	},
 	[10130] = {
 		id = 10130,
-		name = "崩姐"
+		name = "Sister Penn"
 	},
 	[10131] = {
 		id = 10131,
-		name = "崩姐"
+		name = "Sister Penn"
 	},
 	[10140] = {
 		id = 10140,
-		name = "白鹰之泪"
+		name = "Eagle's Tears"
 	},
 	[10150] = {
 		id = 10150,
-		name = "威压"
+		name = "Coercion"
 	},
 	[10160] = {
 		id = 10160,
-		name = "最强之盾"
+		name = "The Strongest Shield"
 	},
 	[10170] = {
 		id = 10170,
-		name = "航空先驱"
+		name = "First-Generation Carrier"
 	},
 	[10180] = {
 		id = 10180,
-		name = "舰炮掩护"
+		name = "Artillery Cover"
 	},
 	[10190] = {
 		id = 10190,
-		name = "复仇打击"
+		name = "Vengeance"
 	},
 	[10191] = {
 		id = 10191,
-		name = "复仇打击"
+		name = "Vengeance"
 	},
 	[10200] = {
 		id = 10200,
-		name = "LuckyE"
+		name = "Lucky E"
 	},
 	[10210] = {
 		id = 10210,
-		name = "大黄蜂-轰炸"
+		name = "Doolittle Airstrike"
 	},
 	[10220] = {
 		id = 10220,
-		name = "损害管制"
+		name = "Damage Control"
 	},
 	[10230] = {
 		id = 10230,
-		name = "原型舰·驱逐"
+		name = "Prototype Destroyer"
 	},
 	[10240] = {
 		id = 10240,
-		name = "彗星头槌"
+		name = "Meteor Slam"
 	},
 	[10250] = {
 		id = 10250,
-		name = "标枪突袭"
+		name = "Javelin Raid"
 	},
 	[10260] = {
 		id = 10260,
-		name = "魔炮-Armageddon！"
+		name = "Armageddon Cannon"
 	},
 	[10270] = {
 		id = 10270,
-		name = "最后的荣耀"
+		name = "Final Glory"
 	},
 	[10280] = {
 		id = 10280,
-		name = "“Z”的反击"
+		name = "Z's Counterattack"
 	},
 	[10290] = {
 		id = 10290,
-		name = "皇家舰队的荣耀"
+		name = "Royal Navy's Glory"
 	},
 	[10291] = {
 		id = 10291,
-		name = "皇家舰队的荣耀"
+		name = "Royal Navy's Glory"
 	},
 	[10300] = {
 		id = 10300,
-		name = "女王号令"
+		name = "Queen's Orders"
 	},
 	[10310] = {
 		id = 10310,
-		name = "神射手"
+		name = "Divine Marksman"
 	},
 	[10320] = {
 		id = 10320,
-		name = "BIG SEVEN"
+		name = "Big Seven"
 	},
 	[10330] = {
 		id = 10330,
-		name = "剑鱼出击！"
+		name = "Swordfishes, Strike!"
 	},
 	[10340] = {
 		id = 10340,
-		name = "装甲空母"
+		name = "Armored Carrier"
 	},
 	[10350] = {
 		id = 10350,
-		name = "无限之darkness"
+		name = "Infinite Darkness"
 	},
 	[10360] = {
 		id = 10360,
-		name = "所罗门的噩梦"
+		name = "Nightmare of Solomon"
 	},
 	[10370] = {
 		id = 10370,
-		name = "佐世保{namecode:17}"
+		name = "Shigure of Sasebo"
 	},
 	[10380] = {
 		id = 10380,
-		name = "Z系先驱"
+		name = "Z Vanguard"
 	},
 	[10381] = {
 		id = 10381,
-		name = "Z系先驱"
+		name = "Z Vanguard"
 	},
 	[10390] = {
 		id = 10390,
-		name = "不破之盾"
+		name = "Unbreakable Shield"
 	},
 	[10400] = {
 		id = 10400,
-		name = "旗舰掩护"
+		name = "Flagship Cover"
 	},
 	[10410] = {
 		id = 10410,
-		name = "所罗门的战神"
+		name = "Wargod of Solomon"
 	},
 	[10420] = {
 		id = 10420,
-		name = "先手必胜"
+		name = "Preemptive Strike"
 	},
 	[10430] = {
 		id = 10430,
-		name = "一航战"
+		name = "First Carrier Division"
 	},
 	[10440] = {
 		id = 10440,
-		name = "一航战"
+		name = "First Carrier Division"
 	},
 	[10450] = {
 		id = 10450,
-		name = "最后的反击"
+		name = "Final Counter"
 	},
 	[10460] = {
 		id = 10460,
-		name = "二航战"
+		name = "Second Carrier Division"
 	},
 	[10470] = {
 		id = 10470,
-		name = "二航战"
+		name = "Second Carrier Division"
 	},
 	[10480] = {
 		id = 10480,
-		name = "姐妹同心"
+		name = "Sisterly Bond"
 	},
 	[10490] = {
 		id = 10490,
-		name = "姐妹同心"
+		name = "Sisterly Bond"
 	},
 	[10500] = {
 		id = 10500,
-		name = "抗击重樱"
+		name = "For The Dragon Empery"
 	},
 	[10510] = {
 		id = 10510,
-		name = "改变时代的炮声"
+		name = "Revolyutsiya"
 	},
 	[10530] = {
 		id = 10530,
-		name = "铁血先锋"
+		name = "Iron Blood Vanguard"
 	},
 	[10540] = {
 		id = 10540,
-		name = "皇家同盟"
+		name = "Royal Alliance"
 	},
 	[10541] = {
 		id = 10541,
-		name = "皇家同盟"
+		name = "Royal Alliance"
 	},
 	[10550] = {
 		id = 10550,
-		name = "后勤维修"
+		name = "Logistics Repair"
 	},
 	[10560] = {
 		id = 10560,
-		name = "终结旅程"
+		name = "Journey's End"
 	},
 	[10570] = {
 		id = 10570,
-		name = "纵火狂魔"
+		name = "Arsonist"
 	},
 	[10580] = {
 		id = 10580,
-		name = "吸血鬼之吻"
+		name = "Vampire's Kiss"
 	},
 	[10590] = {
 		id = 10590,
-		name = "原型舰·巡洋"
+		name = "Prototype Cruiser"
 	},
 	[10600] = {
 		id = 10600,
-		name = "万夜·忉利天"
+		name = "Myriad Nights: Heaven"
 	},
 	[10601] = {
 		id = 10601,
-		name = "万夜·忉利天"
+		name = "Myriad Nights: Heaven"
 	},
 	[10610] = {
 		id = 10610,
-		name = "燃烧号令"
+		name = "Burn Order"
 	},
 	[10620] = {
 		id = 10620,
-		name = "六驱精锐·{namecode:13}"
+		name = "Destroyer Division 6: {namecode:13}"
 	},
 	[10630] = {
 		id = 10630,
-		name = "六驱精锐·{namecode:14}"
+		name = "Destroyer Division 6: {namecode:14}"
 	},
 	[10640] = {
 		id = 10640,
-		name = "铁翼陨灭"
+		name = "Iron Wing Annihilation"
 	},
 	[10650] = {
 		id = 10650,
-		name = "袖珍战列舰"
+		name = "Pocket Battleship"
 	},
 	[10660] = {
 		id = 10660,
-		name = "狙击手"
+		name = "Sniper"
 	},
 	[10670] = {
 		id = 10670,
-		name = "北方的孤独女王"
+		name = "Lonely Queen of the North"
 	},
 	[10680] = {
 		id = 10680,
-		name = "铁血之翼"
+		name = "Iron Blood Wings"
 	},
 	[10690] = {
 		id = 10690,
-		name = "铁血之鹰"
+		name = "Iron Blood Hawk"
 	},
 	[10700] = {
 		id = 10700,
-		name = "破交作战"
+		name = "Battle Buster"
 	},
 	[10710] = {
 		id = 10710,
-		name = "巨兽猎手"
+		name = "Giant Hunter"
 	},
 	[10711] = {
 		id = 10711,
-		name = "巨兽猎手"
+		name = "Giant Hunter"
 	},
 	[10720] = {
 		id = 10720,
-		name = "守卫之盾"
+		name = "Guarding Shield"
 	},
 	[10730] = {
 		id = 10730,
-		name = "鬼神"
+		name = "The Demon"
 	},
 	[10740] = {
 		id = 10740,
-		name = "历战之躯"
+		name = "Body of War"
 	},
 	[10750] = {
 		id = 10750,
@@ -5451,159 +5323,159 @@ pg.base.skill_data_display = {
 	},
 	[10760] = {
 		id = 10760,
-		name = "东煌之绊"
+		name = "Dragon Empery Bond"
 	},
 	[10770] = {
 		id = 10770,
-		name = "六驱精锐·{namecode:11}"
+		name = "Destroyer Division 6: {namecode:11}"
 	},
 	[10780] = {
 		id = 10780,
-		name = "幸运舰？"
+		name = "Lucky(?) Ship"
 	},
 	[10781] = {
 		id = 10781,
-		name = "幸运回避"
+		name = "Lucky Roll - Evasion"
 	},
 	[10782] = {
 		id = 10782,
-		name = "幸运暴击"
+		name = "Lucky Roll - Critical"
 	},
 	[10783] = {
 		id = 10783,
-		name = "厄运集火"
+		name = "Unlucky Roll - Sunder"
 	},
 	[10790] = {
 		id = 10790,
-		name = "五航战"
+		name = "Fifth Carrier Division"
 	},
 	[10800] = {
 		id = 10800,
-		name = "五航战"
+		name = "Fifth Carrier Division"
 	},
 	[10810] = {
 		id = 10810,
-		name = "鹤之加护"
+		name = "Crane's Protection"
 	},
 	[10820] = {
 		id = 10820,
-		name = "鹤之奋进"
+		name = "Crane's Endeavor"
 	},
 	[10821] = {
 		id = 10821,
-		name = "鹤之奋进"
+		name = "Crane's Endeavor"
 	},
 	[10830] = {
 		id = 10830,
-		name = "航空预备"
+		name = "Aviation Preparations"
 	},
 	[10840] = {
 		id = 10840,
-		name = "决死突袭"
+		name = "Death Raid"
 	},
 	[10850] = {
 		id = 10850,
-		name = "命运的阴暗面"
+		name = "Dark Side of Fate"
 	},
 	[10860] = {
 		id = 10860,
-		name = "强袭模式·EX"
+		name = "Assault Mode"
 	},
 	[10870] = {
 		id = 10870,
-		name = "华之二水战"
+		name = "2nd Torpedo Squadron"
 	},
 	[10880] = {
 		id = 10880,
-		name = "LuckyLou"
+		name = "Lucky Lou"
 	},
 	[10890] = {
 		id = 10890,
-		name = "不屈之神通"
+		name = "The Unyielding Jintsuu"
 	},
 	[10900] = {
 		id = 10900,
-		name = "救援组"
+		name = "Rescue Operations"
 	},
 	[10910] = {
 		id = 10910,
-		name = "新生重樱联合"
+		name = "Reborn Combined Fleet Flagship"
 	},
 	[10920] = {
 		id = 10920,
-		name = "T字战法"
+		name = "T-Cross Formation"
 	},
 	[10930] = {
 		id = 10930,
-		name = "威光"
+		name = "Prestige"
 	},
 	[10931] = {
 		id = 10931,
-		name = "威光"
+		name = "Prestige"
 	},
 	[10940] = {
 		id = 10940,
-		name = "鬼神演舞"
+		name = "Demon Dance"
 	},
 	[10950] = {
 		id = 10950,
-		name = "尚武之魂"
+		name = "Warrior Soul"
 	},
 	[10960] = {
 		id = 10960,
-		name = "特型领舰"
+		name = "Special Lead Ship"
 	},
 	[10970] = {
 		id = 10970,
-		name = "好斗的玛丽"
+		name = "Fighting Mary"
 	},
 	[10980] = {
 		id = 10980,
-		name = "对空掩护"
+		name = "Air Cover"
 	},
 	[10990] = {
 		id = 10990,
-		name = "防空火力"
+		name = "AA Firepower"
 	},
 	[11000] = {
 		id = 11000,
-		name = "英勇炮击"
+		name = "Courageous Shelling"
 	},
 	[11001] = {
 		id = 11001,
-		name = "英勇炮击"
+		name = "Courageous Shelling"
 	},
 	[11010] = {
 		id = 11010,
-		name = "铁底湾之夜"
+		name = "Night of the Iron Bottom Sound"
 	},
 	[11011] = {
 		id = 11011,
-		name = "铁底湾之夜"
+		name = "Night of the Iron Bottom Sound"
 	},
 	[11020] = {
 		id = 11020,
-		name = "胡蜂双螫"
+		name = "Double Sting"
 	},
 	[11030] = {
 		id = 11030,
-		name = "奇迹之风"
+		name = "Miracle Wind"
 	},
 	[11040] = {
 		id = 11040,
-		name = "鞍山级领舰"
+		name = "An Shan Name Ship"
 	},
 	[11050] = {
 		id = 11050,
-		name = "尖锐突击"
+		name = "Rezkiy Assault"
 	},
 	[11060] = {
 		id = 11060,
-		name = "互助同盟"
+		name = "Mutual Assistance"
 	},
 	[11070] = {
 		id = 11070,
-		name = "团结一致"
+		name = "United As One"
 	},
 	[11080] = {
 		id = 11080,
@@ -5611,183 +5483,183 @@ pg.base.skill_data_display = {
 	},
 	[11090] = {
 		id = 11090,
-		name = "曙光"
+		name = "The Light of Dawn"
 	},
 	[11100] = {
 		id = 11100,
-		name = "血雾之奏鸣"
+		name = "Concerto of Blood"
 	},
 	[11110] = {
 		id = 11110,
-		name = "灭亡之悲叹"
+		name = "Trepidation of Destruction"
 	},
 	[11120] = {
 		id = 11120,
-		name = "胜利之歌"
+		name = "Victorious Song"
 	},
 	[11130] = {
 		id = 11130,
-		name = "第一驱逐舰"
+		name = "First Destroyer"
 	},
 	[11140] = {
 		id = 11140,
-		name = "闪耀的谢菲"
+		name = "Shiny Sheff"
 	},
 	[11141] = {
 		id = 11141,
-		name = "闪耀的谢菲"
+		name = "Shiny Sheff"
 	},
 	[11150] = {
 		id = 11150,
-		name = "巴伦支海的逆袭"
+		name = "Counterattack of the Barents Sea"
 	},
 	[11160] = {
 		id = 11160,
-		name = "克里特岛战役"
+		name = "Crete's Black Cloud"
 	},
 	[11170] = {
 		id = 11170,
-		name = "正义的伙伴"
+		name = "Allies of Justice"
 	},
 	[11180] = {
 		id = 11180,
-		name = "校准射击"
+		name = "Calibrated Firing"
 	},
 	[11190] = {
 		id = 11190,
-		name = "伴随之风"
+		name = "Accompanying Wind"
 	},
 	[11200] = {
 		id = 11200,
-		name = "所罗门的传说"
+		name = "Legend of the Solomons"
 	},
 	[11210] = {
 		id = 11210,
-		name = "歼灭模式"
+		name = "Annihilation Mode"
 	},
 	[11220] = {
 		id = 11220,
-		name = "持续打击"
+		name = "Suppression Fire"
 	},
 	[11230] = {
 		id = 11230,
-		name = "吴港之{namecode:22}"
+		name = "Yukikaze of Kure"
 	},
 	[11231] = {
 		id = 11231,
-		name = "吴港之{namecode:22}"
+		name = "Yukikaze of Kure"
 	},
 	[11240] = {
 		id = 11240,
-		name = "不沉的幸运舰"
+		name = "The Unsinkable Lucky Ship"
 	},
 	[11250] = {
 		id = 11250,
-		name = "萨沃岛突袭"
+		name = "Leyte Gulf's Blitz"
 	},
 	[11251] = {
 		id = 11251,
-		name = "萨沃岛突袭"
+		name = "Leyte Gulf's Blitz"
 	},
 	[11260] = {
 		id = 11260,
-		name = "鹰之顽抗"
+		name = "Eagle's Defiance"
 	},
 	[11270] = {
 		id = 11270,
-		name = "闪耀之星"
+		name = "Blaze of Glory"
 	},
 	[11271] = {
 		id = 11271,
-		name = "闪耀之星"
+		name = "Blaze of Glory"
 	},
 	[11272] = {
 		id = 11272,
-		name = "闪耀之星"
+		name = "Blaze of Glory"
 	},
 	[11280] = {
 		id = 11280,
-		name = "完美的娇小女仆"
+		name = "The Perfect Mini-Maid"
 	},
 	[11290] = {
 		id = 11290,
-		name = "淑女们的下午茶"
+		name = "Ladies' Tea Time"
 	},
 	[11300] = {
 		id = 11300,
-		name = "压制炮击"
+		name = "Artillery Volley"
 	},
 	[11310] = {
 		id = 11310,
-		name = "重樱舰队旗舰-{namecode:74}"
+		name = "4th Combined Fleet Flagship"
 	},
 	[11320] = {
 		id = 11320,
-		name = "毁灭模式"
+		name = "Destruction Mode"
 	},
 	[11330] = {
 		id = 11330,
-		name = "荣光的一番舰"
+		name = "Roaring Glory"
 	},
 	[11340] = {
 		id = 11340,
-		name = "烈光的武勋舰"
+		name = "Dazzling Dawn"
 	},
 	[11350] = {
 		id = 11350,
-		name = "第八驱逐舰队"
+		name = "8th Destroyer Division"
 	},
 	[11360] = {
 		id = 11360,
-		name = "塔萨法隆格逆袭"
+		name = "Lunga Point's Strike"
 	},
 	[11370] = {
 		id = 11370,
-		name = "致命穿透"
+		name = "Fatal Perforation"
 	},
 	[11380] = {
 		id = 11380,
-		name = "谢幕演出"
+		name = "Departing Strike"
 	},
 	[11381] = {
 		id = 11381,
-		name = "谢幕演出"
+		name = "Departing Strike"
 	},
 	[11390] = {
 		id = 11390,
-		name = "潜行猎杀"
+		name = "Silent Hunter"
 	},
 	[11400] = {
 		id = 11400,
-		name = "魔女的恶作剧"
+		name = "Witch's Prank"
 	},
 	[11410] = {
 		id = 11410,
-		name = "狼群战术-{namecode:414}"
+		name = "Wolf Pack Formation - U81"
 	},
 	[11420] = {
 		id = 11420,
-		name = "BIG SEVEN-樱"
+		name = "Big Seven: Sakura"
 	},
 	[11430] = {
 		id = 11430,
-		name = "BIG SEVEN-樱"
+		name = "Big Seven: Sakura"
 	},
 	[11440] = {
 		id = 11440,
-		name = "斯卡帕湾之牛"
+		name = "The Bull of Scapa Flow"
 	},
 	[11450] = {
 		id = 11450,
-		name = "过载炮击"
+		name = "Firepower Overload"
 	},
 	[11460] = {
 		id = 11460,
-		name = "独狼"
+		name = "Lone Wolf"
 	},
 	[11461] = {
 		id = 11461,
-		name = "独狼"
+		name = "Lone Wolf"
 	},
 	[11470] = {
 		id = 11470,
@@ -5795,43 +5667,43 @@ pg.base.skill_data_display = {
 	},
 	[11480] = {
 		id = 11480,
-		name = "库拉湾之战"
+		name = "Battle of Kula Gulf"
 	},
 	[11481] = {
 		id = 11481,
-		name = "库拉湾之战"
+		name = "Battle of Kula Gulf"
 	},
 	[11490] = {
 		id = 11490,
-		name = "正面火力"
+		name = "Frontal Fire"
 	},
 	[11491] = {
 		id = 11491,
-		name = "正面火力"
+		name = "Frontal Fire"
 	},
 	[11500] = {
 		id = 11500,
-		name = "鸢尾之光"
+		name = "Radiant Iris"
 	},
 	[11501] = {
 		id = 11501,
-		name = "鸢尾之光"
+		name = "Radiant Iris"
 	},
 	[11510] = {
 		id = 11510,
-		name = "攻防转换"
+		name = "Sword or Shield"
 	},
 	[11520] = {
 		id = 11520,
-		name = "爱丽丝之心"
+		name = "Heart of Iris"
 	},
 	[11530] = {
 		id = 11530,
-		name = "海盗之魂"
+		name = "Pirate's Soul"
 	},
 	[11540] = {
 		id = 11540,
-		name = "最后的炮火"
+		name = "Final Shot"
 	},
 	[11550] = {
 		id = 11550,
@@ -5839,331 +5711,331 @@ pg.base.skill_data_display = {
 	},
 	[11560] = {
 		id = 11560,
-		name = "2700磅的正义"
+		name = "2,700 Pounds of Justice"
 	},
 	[11561] = {
 		id = 11561,
-		name = "2700磅的正义"
+		name = "2,700 Pounds of Justice"
 	},
 	[11570] = {
 		id = 11570,
-		name = "侦查支援"
+		name = "Recon Support"
 	},
 	[11580] = {
 		id = 11580,
-		name = "剑鱼出击·改"
+		name = "Swordfishes, Attack!"
 	},
 	[11581] = {
 		id = 11581,
-		name = "剑鱼出击·改"
+		name = "Swordfishes, Attack!"
 	},
 	[11590] = {
 		id = 11590,
-		name = "空域控制"
+		name = "Airspace Dominance"
 	},
 	[11600] = {
 		id = 11600,
-		name = "格斗炮术"
+		name = "Melee Artillery"
 	},
 	[11610] = {
 		id = 11610,
-		name = "航空战队"
+		name = "Aviation Battleship Fleet"
 	},
 	[11611] = {
 		id = 11611,
-		name = "航空战队"
+		name = "Aviation Battleship Fleet"
 	},
 	[11612] = {
 		id = 11612,
-		name = "航空战队"
+		name = "Aviation Battleship Fleet"
 	},
 	[11620] = {
 		id = 11620,
-		name = "命运之骰"
+		name = "Predestined Launch"
 	},
 	[11621] = {
 		id = 11621,
-		name = "群星之怒"
+		name = "Ryuusei's Descent"
 	},
 	[11622] = {
 		id = 11622,
-		name = "多彩祥云"
+		name = "Saiun's Foresight"
 	},
 	[11623] = {
 		id = 11623,
-		name = "复仇怨火"
+		name = "Suisei's Coruscation"
 	},
 	[11626] = {
 		id = 11626,
-		name = "群星之怒"
+		name = "Ryuusei's Descent"
 	},
 	[11627] = {
 		id = 11627,
-		name = "多彩祥云"
+		name = "Saiun's Foresight"
 	},
 	[11628] = {
 		id = 11628,
-		name = "复仇怨火"
+		name = "Suisei's Coruscation"
 	},
 	[11630] = {
 		id = 11630,
-		name = "重樱装母"
+		name = "Heavily Armored"
 	},
 	[11640] = {
 		id = 11640,
-		name = "善战之舰"
+		name = "Valorous Avengers"
 	},
 	[11641] = {
 		id = 11641,
-		name = "善战之舰"
+		name = "Valorous Avengers"
 	},
 	[11650] = {
 		id = 11650,
-		name = "航空阵列"
+		name = "Covering Formation"
 	},
 	[11651] = {
 		id = 11651,
-		name = "航空阵列"
+		name = "Covering Formation"
 	},
 	[11660] = {
 		id = 11660,
-		name = "绝对回避"
+		name = "Absolute Evasion"
 	},
 	[11670] = {
 		id = 11670,
-		name = "意外赠礼"
+		name = "Surpriiiiiiiise!"
 	},
 	[11680] = {
 		id = 11680,
-		name = "熟练的猎手"
+		name = "Experienced Hunter"
 	},
 	[11690] = {
 		id = 11690,
-		name = "湖之都的蛮牛"
+		name = "Thrill of the Hunt"
 	},
 	[11691] = {
 		id = 11691,
-		name = "湖之都的蛮牛"
+		name = "Thrill of the Hunt"
 	},
 	[11700] = {
 		id = 11700,
-		name = "猛进射击"
+		name = "Bold But Reckless"
 	},
 	[11710] = {
 		id = 11710,
-		name = "杜尔拉汗"
+		name = "Dullahan"
 	},
 	[11720] = {
 		id = 11720,
-		name = "星之歌"
+		name = "Sparkling Battle Star!"
 	},
 	[11721] = {
 		id = 11721,
-		name = "星之歌"
+		name = "Sparkling Battle Star!"
 	},
 	[11730] = {
 		id = 11730,
-		name = "LittleStar"
+		name = "Little Star"
 	},
 	[11740] = {
 		id = 11740,
-		name = "风之加护"
+		name = "Wind Rider"
 	},
 	[11750] = {
 		id = 11750,
-		name = "蛮啾,猫猫,小枭!"
+		name = "Light Carrier Unit"
 	},
 	[11760] = {
 		id = 11760,
-		name = "空袭信号"
+		name = "Raid Signal"
 	},
 	[11761] = {
 		id = 11761,
-		name = "请等一下"
+		name = "Hold on, I'm not ready yet"
 	},
 	[11762] = {
 		id = 11762,
-		name = "可以上啦"
+		name = "Ready to go"
 	},
 	[11770] = {
 		id = 11770,
-		name = "Terror Field"
+		name = "Darkness Field"
 	},
 	[11780] = {
 		id = 11780,
-		name = "千年之凤"
+		name = "Ageless Phoenix"
 	},
 	[11790] = {
 		id = 11790,
-		name = "运筹千里"
+		name = "Efficacious Planning"
 	},
 	[11800] = {
 		id = 11800,
-		name = "克敌机先"
+		name = "Crippling Strike"
 	},
 	[11801] = {
 		id = 11801,
-		name = "克敌机先"
+		name = "Crippling Strike"
 	},
 	[11810] = {
 		id = 11810,
-		name = "战无不胜"
+		name = "Fight to Win!"
 	},
 	[11811] = {
 		id = 11811,
-		name = "战无不胜"
+		name = "Fight to Win!"
 	},
 	[11820] = {
 		id = 11820,
-		name = "攻无不取"
+		name = "Conquer to Loot!"
 	},
 	[11830] = {
 		id = 11830,
-		name = "花之牌"
+		name = "Flowers of Fate"
 	},
 	[11831] = {
 		id = 11831,
-		name = "五光"
+		name = "Five Brights"
 	},
 	[11832] = {
 		id = 11832,
-		name = "猪鹿蝶"
+		name = "Boar, Deer, Butterfly"
 	},
 	[11833] = {
 		id = 11833,
-		name = "月见酒"
+		name = "Moonlight Sake"
 	},
 	[11834] = {
 		id = 11834,
-		name = "种"
+		name = "Seeds"
 	},
 	[11840] = {
 		id = 11840,
-		name = "花之牌"
+		name = "Flowers of Fate"
 	},
 	[11841] = {
 		id = 11841,
-		name = "五光"
+		name = "Five Brights"
 	},
 	[11842] = {
 		id = 11842,
-		name = "青短"
+		name = "Lesser Blue"
 	},
 	[11843] = {
 		id = 11843,
-		name = "花见酒"
+		name = "Flower Sake"
 	},
 	[11844] = {
 		id = 11844,
-		name = "滓"
+		name = "Scraps"
 	},
 	[11850] = {
 		id = 11850,
-		name = "苏腊巴亚的刃光"
+		name = "Flashing Blade of Surabaya"
 	},
 	[11860] = {
 		id = 11860,
-		name = "苍狼之印"
+		name = "Mark of Sirius"
 	},
 	[11870] = {
 		id = 11870,
-		name = "神射手·改"
+		name = "Divine Marksman (R)"
 	},
 	[11871] = {
 		id = 11871,
-		name = "神射手·改"
+		name = "Divine Marksman ®"
 	},
 	[11880] = {
 		id = 11880,
-		name = "皇家传奇"
+		name = "The Royal Navy Legend"
 	},
 	[11890] = {
 		id = 11890,
-		name = "光焰中的奇迹"
+		name = "Miracle Within The Flames"
 	},
 	[11900] = {
 		id = 11900,
-		name = "816中队"
+		name = "Protector of The North Passage"
 	},
 	[11910] = {
 		id = 11910,
-		name = "鹰击长空"
+		name = "Patriotic Spirit"
 	},
 	[11920] = {
 		id = 11920,
-		name = "天之骑士"
+		name = "Knights of the Sky"
 	},
 	[11921] = {
 		id = 11921,
-		name = "天之骑士"
+		name = "Knights of the Sky"
 	},
 	[11922] = {
 		id = 11922,
-		name = "天之骑士"
+		name = "Knights of the Sky"
 	},
 	[11923] = {
 		id = 11923,
-		name = "天之骑士"
+		name = "Knights of the Sky"
 	},
 	[11924] = {
 		id = 11924,
-		name = "天之骑士"
+		name = "Knights of the Sky"
 	},
 	[11930] = {
 		id = 11930,
-		name = "杜立特空袭.改"
+		name = "Fantastical Takeoff "
 	},
 	[11940] = {
 		id = 11940,
-		name = "天与海的观测者"
+		name = "Observer of the Sky and Sea "
 	},
 	[11941] = {
 		id = 11941,
-		name = "天与海的观测者"
+		name = "Observer of the Sky and Sea "
 	},
 	[11942] = {
 		id = 11942,
-		name = "天与海的观测者"
+		name = "Observer of the Sky and Sea "
 	},
 	[11950] = {
 		id = 11950,
-		name = "不冻港的协奏曲"
+		name = "Concerto of the Unfreezing Port"
 	},
 	[11960] = {
 		id = 11960,
-		name = "峡湾之星"
+		name = "Star of the Shimmering Fjord"
 	},
 	[11970] = {
 		id = 11970,
-		name = "战意提升"
+		name = "Morale Boost"
 	},
 	[11980] = {
 		id = 11980,
-		name = "特混分队旗舰"
+		name = "Task Force Leader"
 	},
 	[11981] = {
 		id = 11981,
-		name = "特混分队旗舰"
+		name = "Task Force Leader"
 	},
 	[11990] = {
 		id = 11990,
-		name = "恪尽职守"
+		name = "Unwavering Resolution"
 	},
 	[11991] = {
 		id = 11991,
-		name = "恪尽职守"
+		name = "Unwavering Resolution"
 	},
 	[11992] = {
 		id = 11992,
-		name = "恪尽职守"
+		name = "Unwavering Resolution"
 	},
 	[12000] = {
 		id = 12000,
-		name = "远东的羁绊"
+		name = "Here to Help"
 	},
 	[12001] = {
 		id = 12001,
-		name = "远东的羁绊"
+		name = "Here to Help"
 	},
 	[12010] = {
 		id = 12010,
@@ -6171,79 +6043,79 @@ pg.base.skill_data_display = {
 	},
 	[12030] = {
 		id = 12030,
-		name = "火力倾泻"
+		name = "The Dark-Dispelling Flame"
 	},
 	[12041] = {
 		id = 12041,
-		name = "试作乙型主炮！"
+		name = "Prototype Type-0 Main Gun"
 	},
 	[12042] = {
 		id = 12042,
-		name = "速射鱼雷发射器！"
+		name = "Prototype Torpedo Tube"
 	},
 	[12043] = {
 		id = 12043,
-		name = "烟花炸弹！"
+		name = "Special Pyrotechnics Bomb"
 	},
 	[12044] = {
 		id = 12044,
-		name = "抑制屏障！"
+		name = "Repulsion Shield"
 	},
 	[12046] = {
 		id = 12046,
-		name = "虚拟屏障！"
+		name = "Projection Barrier"
 	},
 	[12047] = {
 		id = 12047,
-		name = "便携修理装置！"
+		name = "Portable Repair Kit"
 	},
 	[12048] = {
 		id = 12048,
-		name = "家用创可贴！"
+		name = "Value Bandages"
 	},
 	[12050] = {
 		id = 12050,
-		name = "鱼雷、发射！"
+		name = "Torpedoes: Ready!"
 	},
 	[12060] = {
 		id = 12060,
-		name = "圣山的小巫女"
+		name = "Priestess of the Sacred Mountain"
 	},
 	[12070] = {
 		id = 12070,
-		name = "先发制人"
+		name = "Take the Initiative!"
 	},
 	[12080] = {
 		id = 12080,
-		name = "赤红的加护"
+		name = "Crimson God's Protection"
 	},
 	[12090] = {
 		id = 12090,
-		name = "吃我一炮!"
+		name = "Taste My Wrath!"
 	},
 	[12091] = {
 		id = 12091,
-		name = "炮击准备~"
+		name = "Prepare to launch~"
 	},
 	[12092] = {
 		id = 12092,
-		name = "吃我一炮!!"
+		name = "Taste My Wrath!!"
 	},
 	[12100] = {
 		id = 12100,
-		name = "铁血第一航母！"
+		name = "Iron Blood Hatchling"
 	},
 	[12111] = {
 		id = 12111,
-		name = "暗炎弹"
+		name = "Blackburn Fire Blast"
 	},
 	[12112] = {
 		id = 12112,
-		name = "爆裂的破灭疾风弹"
+		name = "Swordfish Bombardment of Destruction"
 	},
 	[12113] = {
 		id = 12113,
-		name = "万把刀"
+		name = "Obnoxious Carpet Bombing"
 	},
 	[12120] = {
 		id = 12120,
@@ -6255,211 +6127,211 @@ pg.base.skill_data_display = {
 	},
 	[12130] = {
 		id = 12130,
-		name = "不屈的力量"
+		name = "Unwavering Strength"
 	},
 	[12131] = {
 		id = 12131,
-		name = "不屈的力量"
+		name = "Unwavering Strength"
 	},
 	[12132] = {
 		id = 12132,
-		name = "不屈的力量"
+		name = "Unwavering Strength"
 	},
 	[12135] = {
 		id = 12135,
-		name = "不屈的力量"
+		name = "Unwavering Strength"
 	},
 	[12140] = {
 		id = 12140,
-		name = "铁血的意志"
+		name = "Will of the Iron Blood"
 	},
 	[12150] = {
 		id = 12150,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12151] = {
 		id = 12151,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12152] = {
 		id = 12152,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12153] = {
 		id = 12153,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12160] = {
 		id = 12160,
-		name = "日不落的辉光"
+		name = "The Glory of the Never-Setting Sun"
 	},
 	[12161] = {
 		id = 12161,
-		name = "日不落的辉光"
+		name = "The Glory of the Never-Setting Sun"
 	},
 	[12170] = {
 		id = 12170,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12171] = {
 		id = 12171,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12172] = {
 		id = 12172,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12173] = {
 		id = 12173,
-		name = "最适化武装"
+		name = "Armament Optimization"
 	},
 	[12180] = {
 		id = 12180,
-		name = "誓言之光"
+		name = "The Light of an Oath"
 	},
 	[12181] = {
 		id = 12181,
-		name = "誓言之光"
+		name = "The Light of an Oath"
 	},
 	[12182] = {
 		id = 12182,
-		name = "誓言之光"
+		name = "The Light of an Oath"
 	},
 	[12190] = {
 		id = 12190,
-		name = "魔力猛击"
+		name = "Devilish Strike"
 	},
 	[12191] = {
 		id = 12191,
-		name = "魔力猛击"
+		name = "Devilish Strike"
 	},
 	[12200] = {
 		id = 12200,
-		name = "尽职守护"
+		name = "Kolibri Assault"
 	},
 	[12210] = {
 		id = 12210,
-		name = "蜂鸟侵扰"
+		name = "Kolibri Assault"
 	},
 	[12280] = {
 		id = 12280,
-		name = "毁灭模式·原型"
+		name = "Destruction Mode - Prototype"
 	},
 	[12290] = {
 		id = 12290,
-		name = "安全第一！"
+		name = "Safety First!"
 	},
 	[12291] = {
 		id = 12291,
-		name = "安全第一！"
+		name = "Safety First!"
 	},
 	[12220] = {
 		id = 12220,
-		name = "纯洁之光"
+		name = "Youthful Light"
 	},
 	[12230] = {
 		id = 12230,
-		name = "天真烂漫的少女"
+		name = "Girls' Support"
 	},
 	[12233] = {
 		id = 12233,
-		name = "天真烂漫的少女"
+		name = "Girls' Support"
 	},
 	[12240] = {
 		id = 12240,
-		name = "骑士之心"
+		name = "Calibur's Heart"
 	},
 	[12250] = {
 		id = 12250,
-		name = "未经磨练的骑士"
+		name = "Calibur's Carrier"
 	},
 	[12251] = {
 		id = 12251,
-		name = "未经磨练的骑士"
+		name = "Calibur's Carrier"
 	},
 	[12260] = {
 		id = 12260,
-		name = "闪耀登场"
+		name = "Starlit Debut"
 	},
 	[12270] = {
 		id = 12270,
-		name = "Star Spark!"
+		name = "Sparkling Star"
 	},
 	[12300] = {
 		id = 12300,
-		name = "对空指令"
+		name = "Swift Shooting"
 	},
 	[12301] = {
 		id = 12301,
-		name = "对空指令"
+		name = "Swift Shooting"
 	},
 	[12310] = {
 		id = 12310,
-		name = "先进火控系统"
+		name = "Swift Analysis"
 	},
 	[12320] = {
 		id = 12320,
-		name = "Gassing Breath"
+		name = "Poisonous Sting"
 	},
 	[12321] = {
 		id = 12321,
-		name = "Gassing Breath"
+		name = "Poisonous Sting"
 	},
 	[12330] = {
 		id = 12330,
-		name = "兴奋之毒"
+		name = "Vichya's Vindictive Blade"
 	},
 	[12350] = {
 		id = 12350,
-		name = "不服输的小魔女"
+		name = "Unyielding Magician"
 	},
 	[12351] = {
 		id = 12351,
-		name = "不服输的小魔女"
+		name = "Unyielding Magician"
 	},
 	[12360] = {
 		id = 12360,
-		name = "爱的使者"
+		name = "Messenger of Love"
 	},
 	[12361] = {
 		id = 12361,
-		name = "爱的使者"
+		name = "Messenger of Love "
 	},
 	[12362] = {
 		id = 12362,
-		name = "爱的使者"
+		name = "Messenger of Love "
 	},
 	[12370] = {
 		id = 12370,
-		name = "格伦的问候"
+		name = "Glen Assault"
 	},
 	[12380] = {
 		id = 12380,
-		name = "临别之礼"
+		name = "Destructive Departure"
 	},
 	[12390] = {
 		id = 12390,
-		name = "复仇之刃"
+		name = "Turning The Tables!"
 	},
 	[12391] = {
 		id = 12391,
-		name = "复仇之刃"
+		name = "Turning The Tables!"
 	},
 	[12400] = {
 		id = 12400,
-		name = "大鱼突击！"
+		name = "Great Shark's Bite"
 	},
 	[12401] = {
 		id = 12401,
-		name = "大鱼突击！"
+		name = "Great Shark's Bite"
 	},
 	[12410] = {
 		id = 12410,
-		name = "狼群战术-{namecode:418}"
+		name = "Wolf Pack Formation - U-101"
 	},
 	[12411] = {
 		id = 12411,
-		name = "狼群战术-{namecode:418}"
+		name = "Wolf Pack Formation - U-101"
 	},
 	[12420] = {
 		id = 12420,
@@ -6487,287 +6359,287 @@ pg.base.skill_data_display = {
 	},
 	[12440] = {
 		id = 12440,
-		name = "领向和平的力量"
+		name = "Just Gettin' Fired Up"
 	},
 	[12443] = {
 		id = 12443,
-		name = "领向和平的力量"
+		name = "Just Gettin' Fired Up"
 	},
 	[12444] = {
 		id = 12444,
-		name = "领向和平的力量"
+		name = "Just Gettin' Fired Up"
 	},
 	[12460] = {
 		id = 12460,
-		name = "鱼群守护"
+		name = "Just Gettin' Fired Up"
 	},
 	[12461] = {
 		id = 12461,
-		name = "鱼群守护"
+		name = "Just Gettin' Fired Up"
 	},
 	[12470] = {
 		id = 12470,
-		name = "陨翼双鲨"
+		name = "Double The Gato"
 	},
 	[12471] = {
 		id = 12471,
-		name = "陨翼双鲨"
+		name = "Double The Gato"
 	},
 	[12472] = {
 		id = 12472,
-		name = "陨翼双鲨"
+		name = "Double The Gato"
 	},
 	[12480] = {
 		id = 12480,
-		name = "Final-AP-Ride"
+		name = "APsolute Ammunition"
 	},
 	[12490] = {
 		id = 12490,
-		name = "多面手"
+		name = "Adaptive Tactics"
 	},
 	[12491] = {
 		id = 12491,
-		name = "多面手"
+		name = "Adaptive Tactics"
 	},
 	[12500] = {
 		id = 12500,
-		name = "咆哮的挑战者"
+		name = "Hellcat's Roar"
 	},
 	[12501] = {
 		id = 12501,
-		name = "咆哮的挑战者"
+		name = "Hellcat's Roar"
 	},
 	[12520] = {
 		id = 12520,
-		name = "奋战的守护者"
+		name = "Tenacious Knight of the Sea"
 	},
 	[12521] = {
 		id = 12521,
-		name = "奋战的守护者"
+		name = "Tenacious Knight of the Sea"
 	},
 	[12530] = {
 		id = 12530,
-		name = "海上骑士的觉悟"
+		name = "Resolute Knight of the Sea"
 	},
 	[12531] = {
 		id = 12531,
-		name = "海上骑士的觉悟"
+		name = "Resolute Knight of the Sea"
 	},
 	[12540] = {
 		id = 12540,
-		name = "禁航警告"
+		name = "I'll Handle This!"
 	},
 	[12541] = {
 		id = 12541,
-		name = "禁航警告"
+		name = "I'll Handle This!"
 	},
 	[12550] = {
 		id = 12550,
-		name = "伍德斯托克的长弓"
+		name = "Longbow of Woodstock"
 	},
 	[12560] = {
 		id = 12560,
-		name = "乘风的贝奇"
+		name = "Bache In The Sky"
 	},
 	[12561] = {
 		id = 12561,
-		name = "乘风的贝奇"
+		name = "Bache In The Sky"
 	},
 	[12570] = {
 		id = 12570,
-		name = "随伴之翼"
+		name = "Supporting Wings"
 	},
 	[12571] = {
 		id = 12571,
-		name = "随伴之翼"
+		name = "Supporting Wings"
 	},
 	[12572] = {
 		id = 12572,
-		name = "随伴之翼"
+		name = "Supporting Wings"
 	},
 	[12580] = {
 		id = 12580,
-		name = "机关禁止"
+		name = "Don't Move An Inch!"
 	},
 	[12581] = {
 		id = 12581,
-		name = "机关禁止"
+		name = "Don't Move An Inch!"
 	},
 	[12582] = {
 		id = 12582,
-		name = "机关禁止"
+		name = "Don't Move An Inch!"
 	},
 	[12590] = {
 		id = 12590,
-		name = "盒式装甲"
+		name = "Armoured Hangar"
 	},
 	[12591] = {
 		id = 12591,
-		name = "盒式装甲"
+		name = "Armoured Hangar"
 	},
 	[12592] = {
 		id = 12592,
-		name = "盒式装甲"
+		name = "Armoured Hangar"
 	},
 	[12600] = {
 		id = 12600,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12601] = {
 		id = 12601,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12602] = {
 		id = 12602,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12603] = {
 		id = 12603,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12605] = {
 		id = 12605,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12606] = {
 		id = 12606,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12607] = {
 		id = 12607,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12608] = {
 		id = 12608,
-		name = "Rose Bombardamento"
+		name = "Rosa Bombardamento"
 	},
 	[12610] = {
 		id = 12610,
-		name = "撒丁的矜持"
+		name = "Sardegnian Discipline"
 	},
 	[12611] = {
 		id = 12611,
-		name = "撒丁的矜持"
+		name = "Sardegnian Discipline"
 	},
 	[12612] = {
 		id = 12612,
-		name = "撒丁的矜持"
+		name = "Sardegnian Discipline"
 	},
 	[12620] = {
 		id = 12620,
-		name = "特尔尼之盾"
+		name = "Terni Shields"
 	},
 	[12621] = {
 		id = 12621,
-		name = "特尔尼之盾"
+		name = "Terni Shields"
 	},
 	[12630] = {
 		id = 12630,
-		name = "弹药特性增强"
+		name = "Semi-Armor Piercing High-Explosive"
 	},
 	[12631] = {
 		id = 12631,
-		name = "弹药特性增强"
+		name = "Semi-Armor Piercing High-Explosive"
 	},
 	[12640] = {
 		id = 12640,
-		name = "撒丁的威压"
+		name = "Sardegnian Coercion"
 	},
 	[12650] = {
 		id = 12650,
-		name = "变迁的记忆"
+		name = "Fading Memories of Glory"
 	},
 	[12651] = {
 		id = 12651,
-		name = "变迁的记忆"
+		name = "Fading Memories of Glory"
 	},
 	[12660] = {
 		id = 12660,
-		name = "特殊装弹"
+		name = "Ricarica!"
 	},
 	[12670] = {
 		id = 12670,
-		name = "巨龙之链"
+		name = "Fuoco di Copertura!"
 	},
 	[12680] = {
 		id = 12680,
-		name = "风雨舞踏"
+		name = "Rain and Snow"
 	},
 	[12681] = {
 		id = 12681,
-		name = "风雨舞踏"
+		name = "Rain and Snow"
 	},
 	[12690] = {
 		id = 12690,
-		name = "Enigma"
+		name = "Codebreaking Game"
 	},
 	[12691] = {
 		id = 12691,
-		name = "信号—开火"
+		name = "Passcode: Offense Boost"
 	},
 	[12692] = {
 		id = 12692,
-		name = "信号—防御"
+		name = "Passcode: Defense Boost"
 	},
 	[12693] = {
 		id = 12693,
-		name = "信号—集中"
+		name = "Passcode: Battle Focus"
 	},
 	[12694] = {
 		id = 12694,
-		name = "信号—命中"
+		name = "Passcode: Ballistics Calculation"
 	},
 	[12695] = {
 		id = 12695,
-		name = "信号—防空"
+		name = "Passcode: Anti-Air Support"
 	},
 	[12696] = {
 		id = 12696,
-		name = "信号—机动"
+		name = "Passcode: Evasion Increase"
 	},
 	[12700] = {
 		id = 12700,
-		name = "追随的Spiritual"
+		name = "Spirited Guidance"
 	},
 	[12710] = {
 		id = 12710,
-		name = "降星的Passion"
+		name = "Passionate Tempo"
 	},
 	[12720] = {
 		id = 12720,
-		name = "精准直击Arrow"
+		name = "Armor-Penetrating Arrow"
 	},
 	[12730] = {
 		id = 12730,
-		name = "闪耀起舞"
+		name = "Shining Steps"
 	},
 	[12740] = {
 		id = 12740,
-		name = "Dualism"
+		name = "Airborne Dualism"
 	},
 	[12741] = {
 		id = 12741,
-		name = "Dualism"
+		name = "Airborne Dualism"
 	},
 	[12743] = {
 		id = 12743,
-		name = "Dualism"
+		name = "Airborne Dualism"
 	},
 	[12744] = {
 		id = 12744,
-		name = "Dualism"
+		name = "Airborne Dualism"
 	},
 	[12750] = {
 		id = 12750,
-		name = "Overture"
+		name = "Crimson Overture"
 	},
 	[12760] = {
 		id = 12760,
-		name = "热情火炎Fever"
+		name = "High-Explosive Volley Fever"
 	},
 	[12770] = {
 		id = 12770,
-		name = "沉着冷静Shield"
+		name = "Soothing Shield"
 	},
 	[12780] = {
 		id = 12780,
@@ -6783,107 +6655,107 @@ pg.base.skill_data_display = {
 	},
 	[12790] = {
 		id = 12790,
-		name = "乐队领袖"
+		name = "Polaris Protocol"
 	},
 	[12791] = {
 		id = 12791,
-		name = "乐队领袖"
+		name = "Polaris Protocol"
 	},
 	[12792] = {
 		id = 12792,
-		name = "乐队领袖"
+		name = "Polaris Protocol"
 	},
 	[12793] = {
 		id = 12793,
-		name = "乐队领袖"
+		name = "Polaris Protocol"
 	},
 	[12800] = {
 		id = 12800,
-		name = "战术解放"
+		name = "Unleashed Tactics"
 	},
 	[12810] = {
 		id = 12810,
-		name = "战术解放"
+		name = "Unleashed Tactics"
 	},
 	[12820] = {
 		id = 12820,
-		name = "不灭之盾"
+		name = "Unyielding Shield"
 	},
 	[12821] = {
 		id = 12821,
-		name = "不灭之盾"
+		name = "Unyielding Shield"
 	},
 	[12822] = {
 		id = 12822,
-		name = "不灭之盾"
+		name = "Unyielding Shield"
 	},
 	[12830] = {
 		id = 12830,
-		name = "从容指顾"
+		name = "Noshiro's Hoarfrost"
 	},
 	[12840] = {
 		id = 12840,
-		name = "新锐之刃"
+		name = "Skyslayer's Edge"
 	},
 	[12850] = {
 		id = 12850,
-		name = "恶鬼怒刀"
+		name = "Demonblade"
 	},
 	[12860] = {
 		id = 12860,
-		name = "樱绽凤华"
+		name = "Swirling Cherry Blossoms"
 	},
 	[12862] = {
 		id = 12862,
-		name = "樱绽凤华"
+		name = "Swirling Cherry Blossoms"
 	},
 	[12870] = {
 		id = 12870,
-		name = "缘结舞鲸"
+		name = "Dancing Waves"
 	},
 	[12871] = {
 		id = 12871,
-		name = "缘结舞鲸"
+		name = "Dancing Waves"
 	},
 	[12873] = {
 		id = 12873,
-		name = "缘结舞鲸"
+		name = "Dancing Waves"
 	},
 	[12875] = {
 		id = 12875,
-		name = "缘结舞鲸"
+		name = "Dancing Waves"
 	},
 	[12880] = {
 		id = 12880,
-		name = "恶鬼之愿"
+		name = "Demon's Wish"
 	},
 	[12882] = {
 		id = 12882,
-		name = "恶鬼之愿"
+		name = "Demon's Wish"
 	},
 	[12890] = {
 		id = 12890,
-		name = "霞光之绊"
+		name = "Foo and Friends"
 	},
 	[12891] = {
 		id = 12891,
-		name = "噗噗被鬼火吓跑了..."
+		name = "Foo was scared away..."
 	},
 	[12892] = {
 		id = 12892,
-		name = "霞光之绊"
+		name = "Foo and Friends"
 	},
 	[12900] = {
 		id = 12900,
-		name = "不死鸟之羽"
+		name = "Phoenix's Plumage"
 	},
 	[12901] = {
 		id = 12901,
-		name = "不死鸟之羽"
+		name = "Phoenix's Plumage"
 	},
 	[12910] = {
 		id = 12910,
-		name = "六驱精锐·{namecode:12}"
+		name = "Destroyer Division 6: Hibiki"
 	},
 	[12930] = {
 		id = 12930,
@@ -6911,251 +6783,251 @@ pg.base.skill_data_display = {
 	},
 	[12960] = {
 		id = 12960,
-		name = "守护之焰"
+		name = "Protective Blaze"
 	},
 	[12970] = {
 		id = 12970,
-		name = "实战教导"
+		name = "Practical Instruction"
 	},
 	[12980] = {
 		id = 12980,
-		name = "天蓝色的巡洋舰"
+		name = "The Blue Cruiser"
 	},
 	[12982] = {
 		id = 12982,
-		name = "天蓝色的巡洋舰"
+		name = "The Blue Cruiser"
 	},
 	[12990] = {
 		id = 12990,
-		name = "火力向导"
+		name = "Trajectory Marking"
 	},
 	[12992] = {
 		id = 12992,
-		name = "火力向导"
+		name = "Trajectory Marking"
 	},
 	[13000] = {
 		id = 13000,
-		name = "虚空的白骑兵"
+		name = "Cavalier of the Ether"
 	},
 	[13010] = {
 		id = 13010,
-		name = "精准诱导"
+		name = "Cavalier's Acumen"
 	},
 	[13020] = {
 		id = 13020,
-		name = "冰结锋芒"
+		name = "Lod Obstrel"
 	},
 	[13025] = {
 		id = 13025,
-		name = "冰结锋芒"
+		name = "Lod Obstrel"
 	},
 	[13030] = {
 		id = 13030,
-		name = "北联的狂放"
+		name = "Warcry of Unity"
 	},
 	[13031] = {
 		id = 13031,
-		name = "北联的狂放"
+		name = "Warcry of Unity"
 	},
 	[13040] = {
 		id = 13040,
-		name = "Mercury Memorial"
+		name = "Mercurial Memories"
 	},
 	[13041] = {
 		id = 13041,
-		name = "Mercury Memorial"
+		name = "Mercurial Memories"
 	},
 	[13050] = {
 		id = 13050,
-		name = "为革命献上祝福"
+		name = "Long Live the Revolution!"
 	},
 	[13051] = {
 		id = 13051,
-		name = "为革命献上祝福"
+		name = "Long Live the Revolution!"
 	},
 	[13060] = {
 		id = 13060,
-		name = "破冰移转"
+		name = "Icebreaker"
 	},
 	[13070] = {
 		id = 13070,
-		name = "翱翔的战斗者"
+		name = "Soaring Silver Wings"
 	},
 	[13080] = {
 		id = 13080,
-		name = "双重战斗模式"
+		name = "Formation Shift"
 	},
 	[13081] = {
 		id = 13081,
-		name = "双重战斗模式"
+		name = "Formation Shift"
 	},
 	[13090] = {
 		id = 13090,
-		name = "英勇无畏"
+		name = "The Fearless Fighting I"
 	},
 	[13100] = {
 		id = 13100,
-		name = "火翼燎原"
+		name = "Blazing Burst Wings"
 	},
 	[13101] = {
 		id = 13101,
-		name = "火翼燎原"
+		name = "Blazing Burst Wings"
 	},
 	[13110] = {
 		id = 13110,
-		name = "Stand by Me"
+		name = "One for the Team"
 	},
 	[13111] = {
 		id = 13111,
-		name = "Stand by Me"
+		name = "One for the Team"
 	},
 	[13120] = {
 		id = 13120,
-		name = "锐目的支援者"
+		name = "Vigilant Supporter"
 	},
 	[13121] = {
 		id = 13121,
-		name = "锐目的支援者"
+		name = "Vigilant Supporter"
 	},
 	[13130] = {
 		id = 13130,
-		name = "CHANGE NEKO!"
+		name = "Black Cat Cyclone"
 	},
 	[13131] = {
 		id = 13131,
-		name = "CHANGE NEKO!"
+		name = "Black Cat Cyclone"
 	},
 	[13140] = {
 		id = 13140,
-		name = "I AM RENO！"
+		name = "Reno Reactor"
 	},
 	[13142] = {
 		id = 13142,
-		name = "I AM RENO！"
+		name = "Reno Reactor"
 	},
 	[13150] = {
 		id = 13150,
-		name = "无情的猎食者"
+		name = "Blue Hunter"
 	},
 	[13160] = {
 		id = 13160,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13161] = {
 		id = 13161,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13162] = {
 		id = 13162,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13163] = {
 		id = 13163,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13166] = {
 		id = 13166,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13167] = {
 		id = 13167,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13168] = {
 		id = 13168,
-		name = "勇无不克"
+		name = "Accomplish Any Feat!"
 	},
 	[13170] = {
 		id = 13170,
-		name = "敌无不击"
+		name = "Crush Any Contender!"
 	},
 	[13171] = {
 		id = 13171,
-		name = "敌无不击"
+		name = "Crush Any Contender!"
 	},
 	[13180] = {
 		id = 13180,
-		name = "隆加角之宴"
+		name = "Legacy of Lunga Point"
 	},
 	[13190] = {
 		id = 13190,
-		name = "攻守自如"
+		name = "I'm Not Afraid Anymore!"
 	},
 	[13191] = {
 		id = 13191,
-		name = "攻守自如"
+		name = "I'm Not Afraid Anymore!"
 	},
 	[13200] = {
 		id = 13200,
-		name = "小骑士的射击训练"
+		name = "Knight's Shooting Training"
 	},
 	[13201] = {
 		id = 13201,
-		name = "小骑士的射击训练"
+		name = "Knight's Shooting Training"
 	},
 	[13202] = {
 		id = 13202,
-		name = "小骑士的射击训练"
+		name = "Knight's Shooting Training"
 	},
 	[13203] = {
 		id = 13203,
-		name = "小骑士的射击训练"
+		name = "Knight's Shooting Training"
 	},
 	[13210] = {
 		id = 13210,
-		name = "小骑士的团队演练"
+		name = "Knight's Formation Drill"
 	},
 	[13220] = {
 		id = 13220,
-		name = "敌无不击"
+		name = "Crush Any Contender!"
 	},
 	[13225] = {
 		id = 13225,
-		name = "敌无不击"
+		name = "Crush Any Contender!"
 	},
 	[13230] = {
 		id = 13230,
-		name = "圣裁之Z"
+		name = "Arbiter of Z"
 	},
 	[13240] = {
 		id = 13240,
-		name = "爱丽丝之帜"
+		name = "The Iris's Flagbearer"
 	},
 	[13250] = {
 		id = 13250,
-		name = "爱丽丝之焰"
+		name = "The Iris's Holy Flame"
 	},
 	[13251] = {
 		id = 13251,
-		name = "爱丽丝之焰"
+		name = "The Iris's Holy Flame"
 	},
 	[13256] = {
 		id = 13256,
-		name = "爱丽丝之焰"
+		name = "The Iris's Holy Flame"
 	},
 	[13260] = {
 		id = 13260,
-		name = "爱丽丝之怒"
+		name = "The Iris's Vindication"
 	},
 	[13270] = {
 		id = 13270,
-		name = "热风之炽焰"
+		name = "Bellowing Gusts of Fire"
 	},
 	[13271] = {
 		id = 13271,
-		name = "热风之炽焰"
+		name = "Bellowing Gusts of Fire"
 	},
 	[13272] = {
 		id = 13272,
-		name = "热风之炽焰"
+		name = "Bellowing Gusts of Fire"
 	},
 	[13280] = {
 		id = 13280,
-		name = "神穹之盾"
+		name = "Divine Aegis"
 	},
 	[13281] = {
 		id = 13281,
-		name = "神穹之盾"
+		name = "Divine Aegis"
 	},
 	[13290] = {
 		id = 13290,
@@ -7163,131 +7035,131 @@ pg.base.skill_data_display = {
 	},
 	[13300] = {
 		id = 13300,
-		name = "圣女的祷告 "
+		name = "Holy Prayer"
 	},
 	[13301] = {
 		id = 13301,
-		name = "圣女的祷告 "
+		name = "Holy Prayer"
 	},
 	[13310] = {
 		id = 13310,
-		name = "间隙装甲"
+		name = "Critical Component Protection"
 	},
 	[13311] = {
 		id = 13311,
-		name = "间隙装甲"
+		name = "Critical Component Protection"
 	},
 	[13320] = {
 		id = 13320,
-		name = "审判之弹"
+		name = "Shells of Judgment"
 	},
 	[13321] = {
 		id = 13321,
-		name = "审判之弹"
+		name = "Shells of Judgment"
 	},
 	[13330] = {
 		id = 13330,
-		name = "集群引导"
+		name = "Sonnez la Charge!"
 	},
 	[13340] = {
 		id = 13340,
-		name = "变迁之秘"
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13341] = {
 		id = 13341,
-		name = "变迁之秘"
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13342] = {
 		id = 13342,
-		name = "变迁之秘"
+		name = "Sacrament: Holy Bombardment"
 	},
 	[13350] = {
 		id = 13350,
-		name = "后备武装"
+		name = "Sacrament: Sacred Second Wing"
 	},
 	[13351] = {
 		id = 13351,
-		name = "后备武装"
+		name = "Sacrament: Sacred Second Wing"
 	},
 	[13360] = {
 		id = 13360,
-		name = "舰载机，出击！"
+		name = "Take Off!"
 	},
 	[13361] = {
 		id = 13361,
-		name = "舰载机，出击！"
+		name = "Take Off!"
 	},
 	[13370] = {
 		id = 13370,
-		name = "圣光之愿"
+		name = "Prayer for Love and Peace"
 	},
 	[13371] = {
 		id = 13371,
-		name = "圣光之愿"
+		name = "Prayer for Love and Peace"
 	},
 	[13380] = {
 		id = 13380,
-		name = "库拉湾之梦"
+		name = "The Wonder of Kula Gulf"
 	},
 	[13381] = {
 		id = 13381,
-		name = "库拉湾之梦"
+		name = "The Wonder of Kula Gulf"
 	},
 	[13390] = {
 		id = 13390,
-		name = "尝尝这个！"
+		name = "Lemme At 'Em! "
 	},
 	[13400] = {
 		id = 13400,
-		name = "雷达扫描·改"
+		name = "Radar Scan Plus"
 	},
 	[13401] = {
 		id = 13401,
-		name = "雷达扫描·改"
+		name = "Radar Scan Plus"
 	},
 	[13410] = {
 		id = 13410,
-		name = "翔翼的Talaria"
+		name = "Acoustic Preload"
 	},
 	[13411] = {
 		id = 13411,
-		name = "翔翼的Talaria"
+		name = "Acoustic Preload"
 	},
 	[13421] = {
 		id = 13421,
-		name = "弹射起飞试行"
+		name = "Athena's Catapult "
 	},
 	[13422] = {
 		id = 13422,
-		name = "弹射起飞试行"
+		name = "Athena's Catapult "
 	},
 	[13423] = {
 		id = 13423,
-		name = "弹射起飞试行"
+		name = "Athena's Catapult "
 	},
 	[13430] = {
 		id = 13430,
-		name = "广域舰船维护"
+		name = "Waters of Styx "
 	},
 	[13431] = {
 		id = 13431,
-		name = "广域舰船维护"
+		name = "Waters of Styx "
 	},
 	[13440] = {
 		id = 13440,
-		name = "射击Synchronize"
+		name = "Synchronized Strike "
 	},
 	[13450] = {
 		id = 13450,
-		name = "骑士不朽之约"
+		name = "Covenant of the Immortal Knights "
 	},
 	[13451] = {
 		id = 13451,
-		name = "骑士不朽之约"
+		name = "Covenant of the Immortal Knights "
 	},
 	[13460] = {
 		id = 13460,
-		name = "Blast Geminio"
+		name = "Bombarda Geminio "
 	},
 	[13461] = {
 		id = 13461,
@@ -7295,63 +7167,63 @@ pg.base.skill_data_display = {
 	},
 	[13470] = {
 		id = 13470,
-		name = "砥柱下的应援 "
+		name = "Supporting Role "
 	},
 	[13471] = {
 		id = 13471,
-		name = "砥柱下的应援 "
+		name = "Supporting Role "
 	},
 	[13480] = {
 		id = 13480,
-		name = "全弹压制射击"
+		name = "All Out Assault, Open Fire! "
 	},
 	[13490] = {
 		id = 13490,
-		name = "雷击集中模式"
+		name = "Torpedo Mode? ...Sure! "
 	},
 	[13495] = {
 		id = 13495,
-		name = "雷击集中模式"
+		name = "Torpedo Mode? ...Sure! "
 	},
 	[13500] = {
 		id = 13500,
-		name = "气魄一击"
+		name = "Leading the Way "
 	},
 	[13510] = {
 		id = 13510,
-		name = "正面突袭"
+		name = "Forward! "
 	},
 	[13520] = {
 		id = 13520,
-		name = "变迁之秘"
+		name = "Royal Arts: Knight's Arsenal "
 	},
 	[13521] = {
 		id = 13521,
-		name = "变迁之秘"
+		name = "Royal Arts: Knight's Arsenal "
 	},
 	[13522] = {
 		id = 13522,
-		name = "变迁之秘"
+		name = "Royal Arts: Knight's Arsenal "
 	},
 	[13530] = {
 		id = 13530,
-		name = "翔鹰之剑"
+		name = "Royal Arts: Swordbearing Eagle "
 	},
 	[13540] = {
 		id = 13540,
-		name = "广域舰船维护"
+		name = "Waters of Styx "
 	},
 	[13545] = {
 		id = 13545,
-		name = "广域舰船维护"
+		name = "Waters of Styx "
 	},
 	[13550] = {
 		id = 13550,
-		name = "微笑猎手"
+		name = "The Smiling Sawfish"
 	},
 	[13560] = {
 		id = 13560,
-		name = "狼群战术-{namecode:473}"
+		name = "Wolf Pack Formation - U-96"
 	},
 	[13570] = {
 		id = 13570,
@@ -7363,419 +7235,419 @@ pg.base.skill_data_display = {
 	},
 	[13580] = {
 		id = 13580,
-		name = "星夜之云"
+		name = "Hope's Tempest"
 	},
 	[13581] = {
 		id = 13581,
-		name = "星夜之云"
+		name = "Hope's Tempest"
 	},
 	[13590] = {
 		id = 13590,
-		name = "幽蝶之梦"
+		name = "Dreamwaker's Bow"
 	},
 	[13591] = {
 		id = 13591,
-		name = "幽蝶之梦"
+		name = "Dreamwaker's Bow"
 	},
 	[13600] = {
 		id = 13600,
-		name = "守护之樱"
+		name = "Protector of the New Moon"
 	},
 	[13601] = {
 		id = 13601,
-		name = "守护之樱"
+		name = "Protector of the New Moon"
 	},
 	[13610] = {
 		id = 13610,
-		name = "战术解放·{namecode:80}"
+		name = "Kii Fleet Strategy"
 	},
 	[13615] = {
 		id = 13615,
-		name = "战术解放·{namecode:80}"
+		name = "Kii Fleet Strategy"
 	},
 	[13620] = {
 		id = 13620,
-		name = "英勇奋进"
+		name = "Stalwart Advance"
 	},
 	[13630] = {
 		id = 13630,
-		name = "突击之{namecode:27}"
+		name = "Suzutsuki, Breaking Through!"
 	},
 	[13640] = {
 		id = 13640,
-		name = "守卫之{namecode:27}"
+		name = "Suzutsuki, Causing Confusion!"
 	},
 	[13641] = {
 		id = 13641,
-		name = "守卫之{namecode:27}"
+		name = "Suzutsuki, Causing Confusion!"
 	},
 	[13642] = {
 		id = 13642,
-		name = "守卫之{namecode:27}"
+		name = "Suzutsuki, Causing Confusion!"
 	},
 	[13650] = {
 		id = 13650,
-		name = "损伤警备"
+		name = "Robust Ballasts"
 	},
 	[13651] = {
 		id = 13651,
-		name = "损伤警备"
+		name = "Robust Ballasts"
 	},
 	[13660] = {
 		id = 13660,
-		name = "小心火焰！"
+		name = "Cargo Fire Precautions"
 	},
 	[13670] = {
 		id = 13670,
-		name = "事不过三！"
+		name = "Veil of Night"
 	},
 	[13671] = {
 		id = 13671,
-		name = "事不过三！"
+		name = "Veil of Night"
 	},
 	[13672] = {
 		id = 13672,
-		name = "事不过三！"
+		name = "Veil of Night"
 	},
 	[13680] = {
 		id = 13680,
-		name = "千之羽"
+		name = "Strike Team, Attack!"
 	},
 	[13681] = {
 		id = 13681,
-		name = "千之羽"
+		name = "Strike Team, Attack!"
 	},
 	[13685] = {
 		id = 13685,
-		name = "千之羽"
+		name = "Strike Team, Attack!"
 	},
 	[13686] = {
 		id = 13686,
-		name = "千之羽"
+		name = "Strike Team, Attack!"
 	},
 	[13690] = {
 		id = 13690,
-		name = "千之羽"
+		name = "Chiyoda's Domain?"
 	},
 	[13691] = {
 		id = 13691,
-		name = "千之羽"
+		name = "Chiyoda's Domain?"
 	},
 	[13695] = {
 		id = 13695,
-		name = "千之羽"
+		name = "Chiyoda's Domain?"
 	},
 	[13696] = {
 		id = 13696,
-		name = "千之羽"
+		name = "Chiyoda's Domain?"
 	},
 	[13700] = {
 		id = 13700,
-		name = "幽蝶之梦"
+		name = "Dreambound Bow"
 	},
 	[13701] = {
 		id = 13701,
-		name = "幽蝶之梦"
+		name = "Dreambound Bow"
 	},
 	[13705] = {
 		id = 13705,
-		name = "幽蝶之梦"
+		name = "Dreambound Bow"
 	},
 	[13710] = {
 		id = 13710,
-		name = "遁入雨云"
+		name = "Evasive Scramble"
 	},
 	[13711] = {
 		id = 13711,
-		name = "反击时刻"
+		name = "Counterattack!"
 	},
 	[13720] = {
 		id = 13720,
-		name = "燃烧禁令"
+		name = "Extinguishing Gale"
 	},
 	[13730] = {
 		id = 13730,
-		name = "破灭的Encore"
+		name = "Encore Flare"
 	},
 	[13740] = {
 		id = 13740,
-		name = "环绕的Melody"
+		name = "Bilateral Accompaniment"
 	},
 	[13750] = {
 		id = 13750,
-		name = "鲜红的Waltz"
+		name = "Scarlet Waltz"
 	},
 	[13751] = {
 		id = 13751,
-		name = "鲜红的Waltz"
+		name = "Scarlet Waltz"
 	},
 	[13760] = {
 		id = 13760,
-		name = "破灭的Opening"
+		name = "Soaring Opening"
 	},
 	[13761] = {
 		id = 13761,
-		name = "破灭的Opening"
+		name = "Soaring Opening"
 	},
 	[13770] = {
 		id = 13770,
-		name = "Lumière des Anges"
+		name = "Heavenly Hymn"
 	},
 	[13780] = {
 		id = 13780,
-		name = "怠惰天使"
+		name = "Moment of Slackery"
 	},
 	[13781] = {
 		id = 13781,
-		name = "怠惰天使"
+		name = "Moment of Slackery"
 	},
 	[13782] = {
 		id = 13782,
-		name = "怠惰天使"
+		name = "Moment of Slackery"
 	},
 	[13790] = {
 		id = 13790,
-		name = "星占之歌"
+		name = "Auspice of the Stars"
 	},
 	[13791] = {
 		id = 13791,
-		name = "星占之歌·I"
+		name = "Auspice of the Stars"
 	},
 	[13792] = {
 		id = 13792,
-		name = "星占之歌·III"
+		name = "Auspice of the Stars"
 	},
 	[13793] = {
 		id = 13793,
-		name = "星占之歌·II"
+		name = "Auspice of the Stars"
 	},
 	[13800] = {
 		id = 13800,
-		name = "星落之辉"
+		name = "Blue Spirit"
 	},
 	[13810] = {
 		id = 13810,
-		name = "合奏的叙事歌"
+		name = "Lyrical Dedication"
 	},
 	[13811] = {
 		id = 13811,
-		name = "合奏的叙事歌"
+		name = "Lyrical Dedication"
 	},
 	[13813] = {
 		id = 13813,
-		name = "合奏的叙事歌"
+		name = "Lyrical Dedication"
 	},
 	[13814] = {
 		id = 13814,
-		name = "合奏的叙事歌"
+		name = "Lyrical Dedication"
 	},
 	[13820] = {
 		id = 13820,
-		name = "闪光的练习曲"
+		name = "An Opener to Our Friends"
 	},
 	[13821] = {
 		id = 13821,
-		name = "闪光的练习曲"
+		name = "An Opener to Our Friends"
 	},
 	[13830] = {
 		id = 13830,
-		name = "冰晶印记"
+		name = "Beckoning of Ice"
 	},
 	[13840] = {
 		id = 13840,
-		name = "γpa！"
+		name = "Blue-Purple Tenacity"
 	},
 	[13841] = {
 		id = 13841,
-		name = "γpa！"
+		name = "Blue-Purple Tenacity"
 	},
 	[13850] = {
 		id = 13850,
-		name = "寰宇的赠礼"
+		name = "Universal Surprise!"
 	},
 	[13851] = {
 		id = 13851,
-		name = "寰宇的赠礼"
+		name = "Universal Surprise!"
 	},
 	[13852] = {
 		id = 13852,
-		name = "寰宇的赠礼"
+		name = "Universal Surprise!"
 	},
 	[13860] = {
 		id = 13860,
-		name = "超限充能"
+		name = "Armor-Piercing Hypercharge"
 	},
 	[13870] = {
 		id = 13870,
-		name = "星辰的振付师"
+		name = "Blazing Choreography"
 	},
 	[13880] = {
 		id = 13880,
-		name = "迅击铁翼"
+		name = "Iron Blood Falcon "
 	},
 	[13890] = {
 		id = 13890,
-		name = "侵攻之时"
+		name = "Paralyzing Advance "
 	},
 	[13891] = {
 		id = 13891,
-		name = "侵攻之时"
+		name = "Paralyzing Advance "
 	},
 	[13900] = {
 		id = 13900,
-		name = "血翼之盟"
+		name = "Iron Wings, Blood Pinions "
 	},
 	[13901] = {
 		id = 13901,
-		name = "血翼之盟"
+		name = "Iron Wings, Blood Pinions "
 	},
 	[13910] = {
 		id = 13910,
-		name = "Eisen Bite"
+		name = "Sic 'em, Eisen! "
 	},
 	[13911] = {
 		id = 13911,
-		name = "Eisen Bite"
+		name = "Sic 'em, Eisen! "
 	},
 	[13920] = {
 		id = 13920,
-		name = "直感之拳"
+		name = "Heinrich's Hunch Punch "
 	},
 	[13930] = {
 		id = 13930,
-		name = "西进之戟"
+		name = "Westward Trident "
 	},
 	[13931] = {
 		id = 13931,
-		name = "西进之戟"
+		name = "Westward Trident "
 	},
 	[13940] = {
 		id = 13940,
-		name = "狼群战术-{namecode:474}"
+		name = "Wolf Pack Formation - U-37 "
 	},
 	[13951] = {
 		id = 13951,
-		name = "孤城的瞭望者"
+		name = "The Lonesome Lookout "
 	},
 	[13952] = {
 		id = 13952,
-		name = "孤城的瞭望者"
+		name = "The Lonesome Lookout "
 	},
 	[13953] = {
 		id = 13953,
-		name = "孤城的瞭望者"
+		name = "The Lonesome Lookout "
 	},
 	[13955] = {
 		id = 13955,
-		name = "孤城的瞭望者"
+		name = "The Lonesome Lookout "
 	},
 	[13960] = {
 		id = 13960,
-		name = "铁血之盾"
+		name = "Galvanizing Shield "
 	},
 	[13971] = {
 		id = 13971,
-		name = "训练有素"
+		name = "Follow My Lead... Please! "
 	},
 	[13972] = {
 		id = 13972,
-		name = "训练有素"
+		name = "Follow My Lead... Please! "
 	},
 	[13980] = {
 		id = 13980,
-		name = "空之戍卫"
+		name = "No Strange Ideas, Please! "
 	},
 	[13981] = {
 		id = 13981,
-		name = "空之戍卫"
+		name = "No Strange Ideas, Please! "
 	},
 	[13990] = {
 		id = 13990,
-		name = "魔王之庇护"
+		name = "Boon of Crimson Darkness "
 	},
 	[13993] = {
 		id = 13993,
-		name = "魔王之庇护"
+		name = "Boon of Crimson Darkness"
 	},
 	[14001] = {
 		id = 14001,
-		name = "魔王之愤怒"
+		name = "Fiendish Rampage"
 	},
 	[14002] = {
 		id = 14002,
-		name = "魔王之愤怒"
+		name = "Fiendish Rampage"
 	},
 	[14010] = {
 		id = 14010,
-		name = "Z系领航"
+		name = "I Love My Sisters!"
 	},
 	[14020] = {
 		id = 14020,
-		name = "护航精英"
+		name = "I'll Protect the Vanguard!"
 	},
 	[14030] = {
 		id = 14030,
-		name = "回转的Ontology"
+		name = "Ontological Rudder"
 	},
 	[14040] = {
 		id = 14040,
-		name = "闪耀的Protorogia"
+		name = "Protologia of Illumination"
 	},
 	[14050] = {
 		id = 14050,
-		name = "怒放之紫"
+		name = "Viola Spear"
 	},
 	[14051] = {
 		id = 14051,
-		name = "怒放之紫"
+		name = "Viola Spear"
 	},
 	[14052] = {
 		id = 14052,
-		name = "怒放之紫"
+		name = "Viola Spear"
 	},
 	[14060] = {
 		id = 14060,
-		name = "无惧挑战"
+		name = "Audacious Challenger"
 	},
 	[14070] = {
 		id = 14070,
-		name = "除恶务尽"
+		name = "Purge Evil"
 	},
 	[14071] = {
 		id = 14071,
-		name = "除恶务尽"
+		name = "Purge Evil"
 	},
 	[14080] = {
 		id = 14080,
-		name = "丹青不渝"
+		name = "Unfading Dyes"
 	},
 	[14081] = {
 		id = 14081,
-		name = "丹青不渝"
+		name = "Unfading Dyes"
 	},
 	[14090] = {
 		id = 14090,
-		name = "除恶务尽"
+		name = "Cleanse Impurity"
 	},
 	[14091] = {
 		id = 14091,
-		name = "除恶务尽"
+		name = "Cleanse Impurity"
 	},
 	[14100] = {
 		id = 14100,
-		name = "舞衫歌扇"
+		name = "Enrapturing Dance"
 	},
 	[14101] = {
 		id = 14101,
-		name = "舞衫歌扇"
+		name = "Enrapturing Dance"
 	},
 	[14110] = {
 		id = 14110,
-		name = "马耳他的英雄"
+		name = "Heroes of Malta"
 	},
 	[14111] = {
 		id = 14111,
-		name = "马耳他的英雄"
+		name = "Heroes of Malta"
 	},
 	[14120] = {
 		id = 14120,
@@ -7783,603 +7655,603 @@ pg.base.skill_data_display = {
 	},
 	[14130] = {
 		id = 14130,
-		name = "奇袭战术"
+		name = "Mysterious Huntress"
 	},
 	[14140] = {
 		id = 14140,
-		name = "调皮的小雪球"
+		name = "Scalawaggish Little Snowball"
 	},
 	[14150] = {
 		id = 14150,
-		name = "陨落冰耀"
+		name = "Curtain of Rime"
 	},
 	[14151] = {
 		id = 14151,
-		name = "陨落冰耀"
+		name = "Curtain of Rime"
 	},
 	[14155] = {
 		id = 14155,
-		name = "陨落冰耀"
+		name = "Curtain of Rime"
 	},
 	[14156] = {
 		id = 14156,
-		name = "陨落冰耀"
+		name = "Curtain of Rime"
 	},
 	[14160] = {
 		id = 14160,
-		name = "战况把握"
+		name = "Ingenious Tactician"
 	},
 	[14161] = {
 		id = 14161,
-		name = "战况把握"
+		name = "Ingenious Tactician"
 	},
 	[14162] = {
 		id = 14162,
-		name = "战况把握"
+		name = "Ingenious Tactician"
 	},
 	[14163] = {
 		id = 14163,
-		name = "战况把握"
+		name = "Ingenious Tactician"
 	},
 	[14170] = {
 		id = 14170,
-		name = "Kirov Reporting!"
+		name = "Kirov, Reporting!"
 	},
 	[14171] = {
 		id = 14171,
-		name = "Kirov Reporting!"
+		name = "Kirov, Reporting!"
 	},
 	[14180] = {
 		id = 14180,
-		name = "重击冰魄"
+		name = "Revolutionary Strike"
 	},
 	[14181] = {
 		id = 14181,
-		name = "重击冰魄"
+		name = "Revolutionary Strike"
 	},
 	[14190] = {
 		id = 14190,
-		name = "冰击之盾"
+		name = "Bulwark of Rime"
 	},
 	[14191] = {
 		id = 14191,
-		name = "冰击之盾"
+		name = "Bulwark of Rime"
 	},
 	[14192] = {
 		id = 14192,
-		name = "冰击之盾"
+		name = "Bulwark of Rime"
 	},
 	[14200] = {
 		id = 14200,
-		name = "冰与血之忆"
+		name = "Memorial of Ice and Iron"
 	},
 	[14201] = {
 		id = 14201,
-		name = "冰与血之忆"
+		name = "Memorial of Ice and Iron"
 	},
 	[14202] = {
 		id = 14202,
-		name = "冰与血之忆"
+		name = "Memorial of Ice and Iron"
 	},
 	[14210] = {
 		id = 14210,
-		name = "骁勇近卫"
+		name = "Thunderous Guardian"
 	},
 	[14220] = {
 		id = 14220,
-		name = "隐匿雷鸣"
+		name = "Silent Advance"
 	},
 	[14221] = {
 		id = 14221,
-		name = "隐匿雷鸣"
+		name = "Silent Advance"
 	},
 	[14230] = {
 		id = 14230,
-		name = "不冻港之炎"
+		name = "Capricious Firing"
 	},
 	[14231] = {
 		id = 14231,
-		name = "不冻港之炎"
+		name = "Capricious Firing"
 	},
 	[14240] = {
 		id = 14240,
-		name = "英雄城之姿"
+		name = "Laid-Back Defending"
 	},
 	[14250] = {
 		id = 14250,
-		name = "舍身救援"
+		name = "Selfless Aid"
 	},
 	[14251] = {
 		id = 14251,
-		name = "舍身救援"
+		name = "Selfless Aid"
 	},
 	[14260] = {
 		id = 14260,
-		name = "满怀爱意！"
+		name = "From Merkuria With Love! "
 	},
 	[14261] = {
 		id = 14261,
-		name = "满怀爱意！"
+		name = "From Merkuria With Love! "
 	},
 	[14270] = {
 		id = 14270,
-		name = "星火之光 "
+		name = "Shooting Gun-Star"
 	},
 	[14271] = {
 		id = 14271,
-		name = "星火之光 "
+		name = "Shooting Gun-Star"
 	},
 	[14280] = {
 		id = 14280,
-		name = "喧闹之焰 "
+		name = "Bang for Your Buck"
 	},
 	[14281] = {
 		id = 14281,
-		name = "喧闹之焰 "
+		name = "Bang for Your Buck"
 	},
 	[14282] = {
 		id = 14282,
-		name = "喧闹之焰 "
+		name = "Bang for Your Buck"
 	},
 	[14290] = {
 		id = 14290,
-		name = "轻飘飘的守卫者 "
+		name = "Whimsical Protector"
 	},
 	[14291] = {
 		id = 14291,
-		name = "轻飘飘的守卫者 "
+		name = "Whimsical Protector"
 	},
 	[14300] = {
 		id = 14300,
-		name = "掩护救援"
+		name = "Dutiful Support"
 	},
 	[14301] = {
 		id = 14301,
-		name = "掩护救援"
+		name = "Dutiful Support"
 	},
 	[14310] = {
 		id = 14310,
-		name = "引导未来的重击"
+		name = "The Eternal Flagship"
 	},
 	[14311] = {
 		id = 14311,
-		name = "引导未来的重击"
+		name = "The Eternal Flagship"
 	},
 	[14320] = {
 		id = 14320,
-		name = "撒丁帝国的威光"
+		name = "Eternal Light of Sardegna"
 	},
 	[14330] = {
 		id = 14330,
-		name = "驱逐永夜的晨光"
+		name = "Banner of Splendor"
 	},
 	[14331] = {
 		id = 14331,
-		name = "驱逐永夜的晨光"
+		name = "Banner of Splendor"
 	},
 	[14340] = {
 		id = 14340,
-		name = "荣光的紫焰"
+		name = "Halo of Flames"
 	},
 	[14341] = {
 		id = 14341,
-		name = "荣光的紫焰"
+		name = "Halo of Flames"
 	},
 	[14350] = {
 		id = 14350,
-		name = "缓慢而热烈"
+		name = "Solemn Zealotry"
 	},
 	[14360] = {
 		id = 14360,
-		name = "仅仅只是轻伤！"
+		name = "Just a Scratch"
 	},
 	[14361] = {
 		id = 14361,
-		name = "仅仅只是轻伤！"
+		name = "Just a Scratch"
 	},
 	[14362] = {
 		id = 14362,
-		name = "仅仅只是轻伤！"
+		name = "Just a Scratch"
 	},
 	[14370] = {
 		id = 14370,
-		name = "领航之箭"
+		name = "Freccia dell'Aquila"
 	},
 	[14380] = {
 		id = 14380,
-		name = "星辰之光"
+		name = "Rain of Starlight"
 	},
 	[14381] = {
 		id = 14381,
-		name = "星辰之光"
+		name = "Rain of Starlight"
 	},
 	[14382] = {
 		id = 14382,
-		name = "星辰之光"
+		name = "Rain of Starlight"
 	},
 	[14390] = {
 		id = 14390,
-		name = "精巧防御"
+		name = "Disarming but Deadly"
 	},
 	[14391] = {
 		id = 14391,
-		name = "精巧防御"
+		name = "Disarming but Deadly"
 	},
 	[14400] = {
 		id = 14400,
-		name = "陆间海的西北风"
+		name = "The Northwesterly Wind"
 	},
 	[14401] = {
 		id = 14401,
-		name = "陆间海的西北风"
+		name = "The Northwesterly Wind"
 	},
 	[14410] = {
 		id = 14410,
-		name = "乘风破浪西北风"
+		name = "Northwesterly Ace Student"
 	},
 	[14420] = {
 		id = 14420,
-		name = "陆间海的西南风"
+		name = "The Southwesterly Wind"
 	},
 	[14422] = {
 		id = 14422,
-		name = "陆间海的西南风"
+		name = "The Southwesterly Wind"
 	},
 	[14430] = {
 		id = 14430,
-		name = "迎风踏浪西南风"
+		name = "Southwesterly Sailor"
 	},
 	[14440] = {
 		id = 14440,
-		name = "扬帆起航"
+		name = "The Exploration Sensation"
 	},
 	[14441] = {
 		id = 14441,
-		name = "扬帆起航"
+		name = "The Exploration Sensation"
 	},
 	[14450] = {
 		id = 14450,
-		name = "勇往直前"
+		name = "Navigator's Intrepidity"
 	},
 	[14460] = {
 		id = 14460,
-		name = "背水一战"
+		name = "Turn the Tide"
 	},
 	[14461] = {
 		id = 14461,
-		name = "背水一战"
+		name = "Turn the Tide"
 	},
 	[14472] = {
 		id = 14472,
-		name = "随机应变"
+		name = "Absolute Adaptability"
 	},
 	[14473] = {
 		id = 14473,
-		name = "随机应变"
+		name = "Absolute Adaptability"
 	},
 	[14474] = {
 		id = 14474,
-		name = "随机应变"
+		name = "Absolute Adaptability"
 	},
 	[14475] = {
 		id = 14475,
-		name = "随机应变"
+		name = "Absolute Adaptability"
 	},
 	[14480] = {
 		id = 14480,
-		name = "未雨绸缪"
+		name = "Prescient Planning"
 	},
 	[14481] = {
 		id = 14481,
-		name = "未雨绸缪"
+		name = "Prescient Planning"
 	},
 	[14490] = {
 		id = 14490,
-		name = "小熊的庇护"
+		name = "Emergency Beardrop"
 	},
 	[14491] = {
 		id = 14491,
-		name = "小熊的庇护"
+		name = "Emergency Beardrop"
 	},
 	[14501] = {
 		id = 14501,
-		name = "Lucky E-防御"
+		name = "Lucky E - Defend!"
 	},
 	[14502] = {
 		id = 14502,
-		name = "Lucky E-减速"
+		name = "Lucky E - Impede!"
 	},
 	[14504] = {
 		id = 14504,
-		name = "Lucky E-攻击"
+		name = "Lucky E - Attack!"
 	},
 	[14510] = {
 		id = 14510,
-		name = "吐息之焰"
+		name = "Dragon's Breath"
 	},
 	[14511] = {
 		id = 14511,
-		name = "吐息之焰"
+		name = "Dragon's Breath"
 	},
 	[14520] = {
 		id = 14520,
-		name = "领向自由的炮火"
+		name = "Freedom Through Firepower"
 	},
 	[14530] = {
 		id = 14530,
-		name = "Big J"
+		name = "Don'tcha Just Love It?"
 	},
 	[14531] = {
 		id = 14531,
-		name = "Big J"
+		name = "Don'tcha Just Love It?"
 	},
 	[14540] = {
 		id = 14540,
-		name = "流火之翼"
+		name = "Wings of Soaring Flames"
 	},
 	[14550] = {
 		id = 14550,
-		name = "航空装甲"
+		name = "Shielded Advance"
 	},
 	[14551] = {
 		id = 14551,
-		name = "航空装甲"
+		name = "Shielded Advance"
 	},
 	[14560] = {
 		id = 14560,
-		name = "编队掩护"
+		name = "Advanced Support Formation"
 	},
 	[14561] = {
 		id = 14561,
-		name = "编队掩护"
+		name = "Advanced Support Formation"
 	},
 	[14570] = {
 		id = 14570,
-		name = "星光连打"
+		name = "Get Starstruck!"
 	},
 	[14571] = {
 		id = 14571,
-		name = "星光连打"
+		name = "Get Starstruck!"
 	},
 	[14580] = {
 		id = 14580,
-		name = "久经沙场"
+		name = "Right Place at the Right Time"
 	},
 	[14581] = {
 		id = 14581,
-		name = "久经沙场"
+		name = "Right Place at the Right Time"
 	},
 	[14582] = {
 		id = 14582,
-		name = "久经沙场"
+		name = "Right Place at the Right Time"
 	},
 	[14583] = {
 		id = 14583,
-		name = "久经沙场"
+		name = "Right Place at the Right Time"
 	},
 	[14590] = {
 		id = 14590,
-		name = "鱼群之光"
+		name = "Hottie Hunters"
 	},
 	[14591] = {
 		id = 14591,
-		name = "鱼群之光"
+		name = "Hottie Hunters"
 	},
 	[14600] = {
 		id = 14600,
-		name = "射手的赠礼"
+		name = "Parting Gift"
 	},
 	[14601] = {
 		id = 14601,
-		name = "射手的赠礼"
+		name = "Parting Gift"
 	},
 	[14610] = {
 		id = 14610,
-		name = "瞄准最大的！"
+		name = "The Bigger They Are..."
 	},
 	[14611] = {
 		id = 14611,
-		name = "瞄准最大的！"
+		name = "The Bigger They Are..."
 	},
 	[14622] = {
 		id = 14622,
-		name = "沉稳抉择"
+		name = "Breathe In, Breathe Out"
 	},
 	[14623] = {
 		id = 14623,
-		name = "沉稳抉择"
+		name = "Breathe In, Breathe Out"
 	},
 	[14630] = {
 		id = 14630,
-		name = "空域辅助·独立"
+		name = "Supporting Wings - Independence"
 	},
 	[14641] = {
 		id = 14641,
-		name = "领向自由的炮火"
+		name = "Freedom Through Firepower"
 	},
 	[14642] = {
 		id = 14642,
-		name = "领向自由的炮火"
+		name = "Freedom Through Firepower"
 	},
 	[14651] = {
 		id = 14651,
-		name = "协同作战"
+		name = "Strike Orders Received!"
 	},
 	[14660] = {
 		id = 14660,
-		name = "水雷先锋"
+		name = "Torpedo Orders Received!"
 	},
 	[14661] = {
 		id = 14661,
-		name = "水雷先锋"
+		name = "Torpedo Orders Received!"
 	},
 	[14670] = {
 		id = 14670,
-		name = "鱼雷！蓄势待发"
+		name = "Gales and Thunder"
 	},
 	[14671] = {
 		id = 14671,
-		name = "鱼雷！蓄势待发"
+		name = "Gales and Thunder"
 	},
 	[14680] = {
 		id = 14680,
-		name = "空袭引导-{namecode:203}"
+		name = "Kazagumo's Air Raid Assistance"
 	},
 	[14681] = {
 		id = 14681,
-		name = "空袭引导-{namecode:203}"
+		name = "Kazagumo's Air Raid Assistance"
 	},
 	[14700] = {
 		id = 14700,
-		name = "霞光之绊·改"
+		name = "Foo and Friends and Kasumi Too"
 	},
 	[14701] = {
 		id = 14701,
-		name = "噗噗和{namecode:20}是好朋友！"
+		name = "Shiranui is our friend now!"
 	},
 	[14702] = {
 		id = 14702,
-		name = "霞光之绊·改"
+		name = "Foo and Friends and Kasumi Too"
 	},
 	[14703] = {
 		id = 14703,
-		name = "霞光之绊·改"
+		name = "Foo and Friends and Kasumi Too"
 	},
 	[14710] = {
 		id = 14710,
-		name = "破灭枪弹"
+		name = "Destruction Bolt "
 	},
 	[14711] = {
 		id = 14711,
-		name = "破灭枪弹"
+		name = "Destruction Bolt "
 	},
 	[14712] = {
 		id = 14712,
-		name = "破灭枪弹"
+		name = "Destruction Bolt "
 	},
 	[14720] = {
 		id = 14720,
-		name = "Assist Robot"
+		name = "Support Robot Mk IV"
 	},
 	[14730] = {
 		id = 14730,
-		name = "战场技师"
+		name = "Combat Mechanic"
 	},
 	[14741] = {
 		id = 14741,
-		name = "莽撞的鹦鹉螺"
+		name = "The Intrepid Nautilus"
 	},
 	[14744] = {
 		id = 14744,
-		name = "莽撞的鹦鹉螺"
+		name = "The Intrepid Nautilus"
 	},
 	[14745] = {
 		id = 14745,
-		name = "莽撞的鹦鹉螺"
+		name = "The Intrepid Nautilus"
 	},
 	[14760] = {
 		id = 14760,
-		name = "邪魔退散 "
+		name = "Sunglint Phantasm"
 	},
 	[14762] = {
 		id = 14762,
-		name = "邪魔退散 "
+		name = "Sunglint Phantasm"
 	},
 	[14764] = {
 		id = 14764,
-		name = "邪魔退散 "
+		name = "Sunglint Phantasm"
 	},
 	[14770] = {
 		id = 14770,
-		name = "「那个我」的祝福 "
+		name = "Blessed Self"
 	},
 	[14781] = {
 		id = 14781,
-		name = "回避之「眼」"
+		name = "All-Obscuring Eye"
 	},
 	[14782] = {
 		id = 14782,
-		name = "水上机侦测+"
+		name = "Seaplanes, Deploy! +"
 	},
 	[14783] = {
 		id = 14783,
-		name = "水上机侦测"
+		name = "Seaplanes, Deploy!"
 	},
 	[14790] = {
 		id = 14790,
-		name = "回避之「眼」"
+		name = "All-Obscuring Eye"
 	},
 	[14792] = {
 		id = 14792,
-		name = "回避之「眼」"
+		name = "All-Obscuring Eye"
 	},
 	[14800] = {
 		id = 14800,
-		name = "水雷演练"
+		name = "Reverent and Graceful"
 	},
 	[14810] = {
 		id = 14810,
-		name = "轻灵之风"
+		name = "Delicate but Devoted"
 	},
 	[14820] = {
 		id = 14820,
-		name = "干劲满满"
+		name = "Motivating Roooaaar"
 	},
 	[14830] = {
 		id = 14830,
-		name = "陌上花开"
+		name = "Late-Blooming Airstrike"
 	},
 	[14831] = {
 		id = 14831,
-		name = "陌上花开"
+		name = "Late-Blooming Airstrike"
 	},
 	[14840] = {
 		id = 14840,
-		name = "拟态装甲"
+		name = "Veil of Azaleas"
 	},
 	[14850] = {
 		id = 14850,
-		name = "风斩雷逸"
+		name = "Upon the Wind's Edge "
 	},
 	[14851] = {
 		id = 14851,
-		name = "风斩雷逸"
+		name = "Upon the Wind's Edge "
 	},
 	[14860] = {
 		id = 14860,
-		name = "雷光石火"
+		name = "Before the Lightning's Flash"
 	},
 	[14870] = {
 		id = 14870,
-		name = "迅光雷袭"
+		name = "Within the Thunder's Roar"
 	},
 	[14880] = {
 		id = 14880,
-		name = "迅光雷袭"
+		name = "Within the Thunder's Roar"
 	},
 	[14881] = {
 		id = 14881,
-		name = "迅光雷袭"
+		name = "Within the Thunder's Roar"
 	},
 	[14882] = {
 		id = 14882,
-		name = "迅光雷袭"
+		name = "Within the Thunder's Roar"
 	},
 	[14890] = {
 		id = 14890,
-		name = "所罗门的噩梦.改"
+		name = "Nightmare of Solomon+"
 	},
 	[14900] = {
 		id = 14900,
-		name = "焰舞之爪"
+		name = "Feral Claws"
 	},
 	[14901] = {
 		id = 14901,
-		name = "焰舞之爪"
+		name = "All Out Assault III"
 	},
 	[14912] = {
 		id = 14912,
-		name = "新月城之绊"
+		name = "Crescent City Bonds"
 	},
 	[14920] = {
 		id = 14920,
@@ -8387,591 +8259,591 @@ pg.base.skill_data_display = {
 	},
 	[14930] = {
 		id = 14930,
-		name = "Terrible Terror "
+		name = "Terrific Terror"
 	},
 	[14931] = {
 		id = 14931,
-		name = "Terrible Terror "
+		name = "Terrific Terror"
 	},
 	[14940] = {
 		id = 14940,
-		name = "一起竞速吧！"
+		name = "I'll Give You A Head Start~"
 	},
 	[14950] = {
 		id = 14950,
-		name = "正义之姿"
+		name = "Templar's Holy Advance"
 	},
 	[14951] = {
 		id = 14951,
-		name = "正义之姿"
+		name = "Templar's Holy Advance"
 	},
 	[14960] = {
 		id = 14960,
-		name = "胜利意志"
+		name = "The Flawless Knife-Thrower"
 	},
 	[14970] = {
 		id = 14970,
-		name = "侦测支援"
+		name = "Circumspect Vigilance"
 	},
 	[14980] = {
 		id = 14980,
-		name = "愈战愈勇"
+		name = "Get Hyped!"
 	},
 	[14981] = {
 		id = 14981,
-		name = "愈战愈勇"
+		name = "Get Hyped!"
 	},
 	[14985] = {
 		id = 14985,
-		name = "愈战愈勇"
+		name = "Get Hyped!"
 	},
 	[14990] = {
 		id = 14990,
-		name = "火舌飞舞"
+		name = "Scorching Combo"
 	},
 	[14991] = {
 		id = 14991,
-		name = "火舌飞舞I"
+		name = "Scorching Combo I"
 	},
 	[14992] = {
 		id = 14992,
-		name = "火舌飞舞II"
+		name = "Scorching Combo II"
 	},
 	[14993] = {
 		id = 14993,
-		name = "火舌飞舞III"
+		name = "Scorching Combo III"
 	},
 	[14995] = {
 		id = 14995,
-		name = "火舌飞舞"
+		name = "Scorching Combo"
 	},
 	[15000] = {
 		id = 15000,
-		name = "急袭轰炸"
+		name = "Bad Girl's Surprise Strike"
 	},
 	[15010] = {
 		id = 15010,
-		name = "侵袭之盾"
+		name = "Good Girl at Heart"
 	},
 	[15012] = {
 		id = 15012,
-		name = "侵袭之盾"
+		name = "Good Girl at Heart"
 	},
 	[15032] = {
 		id = 15032,
-		name = "攻守有度"
+		name = "Taking One for the Team"
 	},
 	[15033] = {
 		id = 15033,
-		name = "攻守有度"
+		name = "Taking One for the Team"
 	},
 	[15034] = {
 		id = 15034,
-		name = "攻守有度"
+		name = "Taking One for the Team"
 	},
 	[15041] = {
 		id = 15041,
-		name = "这...这只是意外！"
+		name = "Th-That Was an Accident!"
 	},
 	[15050] = {
 		id = 15050,
-		name = "桂冠诗人的韵律论"
+		name = "The Laurel of Prosody"
 	},
 	[15051] = {
 		id = 15051,
-		name = "桂冠诗人的韵律论"
+		name = "The Laurel of Prosody"
 	},
 	[15052] = {
 		id = 15052,
-		name = "桂冠诗人的韵律论"
+		name = "The Laurel of Prosody"
 	},
 	[15060] = {
 		id = 15060,
-		name = "致无名者的愚弄状"
+		name = "In Ridicule of Fools"
 	},
 	[15061] = {
 		id = 15061,
-		name = "致无名者的愚弄状"
+		name = "In Ridicule of Fools"
 	},
 	[15070] = {
 		id = 15070,
-		name = "变革者的现实谈"
+		name = "Revolutionary's Prosaic"
 	},
 	[15080] = {
 		id = 15080,
-		name = "变革者的现实谈"
+		name = "Revolutionary's Prosaic"
 	},
 	[15081] = {
 		id = 15081,
-		name = "变革者的现实谈"
+		name = "Revolutionary's Prosaic"
 	},
 	[15082] = {
 		id = 15082,
-		name = "变革者的现实谈"
+		name = "Revolutionary's Prosaic"
 	},
 	[15083] = {
 		id = 15083,
-		name = "变革者的现实谈"
+		name = "Revolutionary's Prosaic"
 	},
 	[15090] = {
 		id = 15090,
-		name = "The Approaching Whirlpool"
+		name = "Whirlpool Warning?"
 	},
 	[15091] = {
 		id = 15091,
-		name = "The Approaching Whirlpool"
+		name = "Whirlpool Warning?"
 	},
 	[15100] = {
 		id = 15100,
-		name = "Tunnel Vision "
+		name = "Single-Minded"
 	},
 	[15110] = {
 		id = 15110,
-		name = "惊涛中的文墨客 "
+		name = "Scrollbearer of Turbulent Seas"
 	},
 	[15111] = {
 		id = 15111,
-		name = "惊涛中的文墨客 "
+		name = "Scrollbearer of Turbulent Seas"
 	},
 	[15120] = {
 		id = 15120,
-		name = "雾洒碧海前路迷 "
+		name = "Wanderer of Azure Mists"
 	},
 	[15130] = {
 		id = 15130,
-		name = "骇浪里的戏曲家 "
+		name = "Wave-Breaking Speardancer"
 	},
 	[15131] = {
 		id = 15131,
-		name = "骇浪里的戏曲家 "
+		name = "Wave-Breaking Speardancer"
 	},
 	[15140] = {
 		id = 15140,
-		name = "驰游沧海天地间 "
+		name = "A Journey from Heaven to Sea"
 	},
 	[15150] = {
 		id = 15150,
-		name = "情报调查"
+		name = "Lights On!"
 	},
 	[15160] = {
 		id = 15160,
-		name = "DATA-857"
+		name = "Let's Go, Data 857!"
 	},
 	[15161] = {
 		id = 15161,
-		name = "DATA-857"
+		name = "Let's Go, Data 857!"
 	},
 	[15162] = {
 		id = 15162,
-		name = "DATA-857"
+		name = "Let's Go, Data 857!"
 	},
 	[15163] = {
 		id = 15163,
-		name = "DATA-857"
+		name = "Let's Go, Data 857!"
 	},
 	[15170] = {
 		id = 15170,
-		name = "星罗棋布"
+		name = "Star-Studded Formation"
 	},
 	[15171] = {
 		id = 15171,
-		name = "星罗棋布"
+		name = "Star-Studded Formation"
 	},
 	[15175] = {
 		id = 15175,
-		name = "星罗棋布"
+		name = "Star-Studded Formation"
 	},
 	[15176] = {
 		id = 15176,
-		name = "星罗棋布"
+		name = "Star-Studded Formation"
 	},
 	[15180] = {
 		id = 15180,
-		name = "诈谋奇计"
+		name = "Cunning Stratagem"
 	},
 	[15181] = {
 		id = 15181,
-		name = "诈谋奇计"
+		name = "Cunning Stratagem"
 	},
 	[15182] = {
 		id = 15182,
-		name = "诈谋奇计"
+		name = "Cunning Stratagem"
 	},
 	[15190] = {
 		id = 15190,
-		name = "青龙演武"
+		name = "Azure Dragon's Dance"
 	},
 	[15200] = {
 		id = 15200,
-		name = "虎虎生威"
+		name = "White Tiger's Prance"
 	},
 	[15210] = {
 		id = 15210,
-		name = "鞍山级领舰.改"
+		name = "An Shan Name Ship+"
 	},
 	[15220] = {
 		id = 15220,
-		name = "互助同盟.改"
+		name = "Mutual Assistance+"
 	},
 	[15240] = {
 		id = 15240,
-		name = "锐不可当"
+		name = "Can I Attack Now?"
 	},
 	[15241] = {
 		id = 15241,
-		name = "锐不可当"
+		name = "Can I Attack Now?"
 	},
 	[15242] = {
 		id = 15242,
-		name = "锐不可当"
+		name = "Can I Attack Now?"
 	},
 	[15250] = {
 		id = 15250,
-		name = "共济不弃"
+		name = "Hang in There? Sure..."
 	},
 	[15260] = {
 		id = 15260,
-		name = "破冰之击"
+		name = "Noble Strike"
 	},
 	[15270] = {
 		id = 15270,
-		name = "权御战场"
+		name = "Revenge Served Cold"
 	},
 	[15281] = {
 		id = 15281,
-		name = "天才机械师"
+		name = "A Genius Keeps Things Simple!"
 	},
 	[15282] = {
 		id = 15282,
-		name = "天才机械师-维修"
+		name = "Ingenious Repairs!"
 	},
 	[15290] = {
 		id = 15290,
-		name = "钢武冰锋 "
+		name = "Indomitable Ice"
 	},
 	[15291] = {
 		id = 15291,
-		name = "钢武冰锋 "
+		name = "Indomitable Ice"
 	},
 	[15292] = {
 		id = 15292,
-		name = "钢武冰锋 "
+		name = "Indomitable Ice"
 	},
 	[15293] = {
 		id = 15293,
-		name = "钢武冰锋 "
+		name = "Indomitable Ice"
 	},
 	[15300] = {
 		id = 15300,
-		name = "冷峻冰芒 "
+		name = "Tempered Prudence"
 	},
 	[15301] = {
 		id = 15301,
-		name = "冷峻冰芒 "
+		name = "Tempered Prudence"
 	},
 	[15302] = {
 		id = 15302,
-		name = "冷峻冰芒 "
+		name = "Tempered Prudence"
 	},
 	[15310] = {
 		id = 15310,
-		name = "共进意志 "
+		name = "Strong-Willed Support"
 	},
 	[15311] = {
 		id = 15311,
-		name = "共进意志 "
+		name = "Strong-Willed Support"
 	},
 	[15320] = {
 		id = 15320,
-		name = "破空的水与焰"
+		name = "Meteoric Hope"
 	},
 	[15321] = {
 		id = 15321,
-		name = "破空的水与焰"
+		name = "Meteoric Hope"
 	},
 	[15330] = {
 		id = 15330,
-		name = "冰裂坠晶"
+		name = "Crystals of the Great River"
 	},
 	[15331] = {
 		id = 15331,
-		name = "冰裂坠晶"
+		name = "Crystals of the Great River"
 	},
 	[15340] = {
 		id = 15340,
-		name = "友爱团结"
+		name = "Motherly Heart"
 	},
 	[15341] = {
 		id = 15341,
-		name = "友爱团结"
+		name = "Motherly Heart"
 	},
 	[15342] = {
 		id = 15342,
-		name = "友爱团结"
+		name = "Motherly Heart"
 	},
 	[15350] = {
 		id = 15350,
-		name = "共进意志 "
+		name = "Strong-Willed Support"
 	},
 	[15351] = {
 		id = 15351,
-		name = "共进意志 "
+		name = "Strong-Willed Support"
 	},
 	[15352] = {
 		id = 15352,
-		name = "共进意志 "
+		name = "Strong-Willed Support"
 	},
 	[15370] = {
 		id = 15370,
-		name = "重振帝国荣光"
+		name = "Impero is Brilliant"
 	},
 	[15371] = {
 		id = 15371,
-		name = "重振帝国荣光"
+		name = "Impero is Brilliant"
 	},
 	[15373] = {
 		id = 15373,
-		name = "重振帝国荣光"
+		name = "Impero is Brilliant"
 	},
 	[15374] = {
 		id = 15374,
-		name = "重振帝国荣光"
+		name = "Impero is Brilliant"
 	},
 	[15380] = {
 		id = 15380,
-		name = "帝国睡眼惺忪"
+		name = "Impero is Charitable"
 	},
 	[15390] = {
 		id = 15390,
-		name = "旭日的凯旋"
+		name = "March on Towards Triumph!"
 	},
 	[15391] = {
 		id = 15391,
-		name = "旭日的凯旋"
+		name = "March on Towards Triumph!"
 	},
 	[15400] = {
 		id = 15400,
-		name = "风之城的护佑"
+		name = "Tough Love"
 	},
 	[15410] = {
 		id = 15410,
-		name = "征服者的荣耀"
+		name = "With Victory Comes Glory!"
 	},
 	[15361] = {
 		id = 15361,
-		name = "往昔之影·{namecode:460}"
+		name = "Marvels of History - Seydlitz"
 	},
 	[15451] = {
 		id = 15451,
-		name = "往昔之影·{namecode:466}"
+		name = "Marvels of History - Thüringen"
 	},
 	[15460] = {
 		id = 15460,
-		name = "斯卡格拉克的勇气"
+		name = "Bravery at Skagerrak"
 	},
 	[15461] = {
 		id = 15461,
-		name = "斯卡格拉克的勇气"
+		name = "Bravery at Skagerrak"
 	},
 	[15470] = {
 		id = 15470,
-		name = "狩猎时刻"
+		name = "The Hunt is On"
 	},
 	[15480] = {
 		id = 15480,
-		name = "往昔之影·{namecode:461}"
+		name = "Marvels of History - Lützow"
 	},
 	[15481] = {
 		id = 15481,
-		name = "往昔之影·{namecode:461}"
+		name = "Marvels of History - Lützow"
 	},
 	[15490] = {
 		id = 15490,
-		name = "精准射击"
+		name = "Devotion to Precision"
 	},
 	[15491] = {
 		id = 15491,
-		name = "精准射击"
+		name = "Devotion to Precision"
 	},
 	[15500] = {
 		id = 15500,
-		name = "往昔之影·{namecode:457}"
+		name = "Marvels of History - Yorck"
 	},
 	[15501] = {
 		id = 15501,
-		name = "往昔之影·{namecode:457}"
+		name = "Marvels of History - Yorck"
 	},
 	[15510] = {
 		id = 15510,
-		name = "Eeny meeny miny moe"
+		name = "Duet of Alternation"
 	},
 	[15511] = {
 		id = 15511,
-		name = "Schwarz"
+		name = "Duet of Alternation"
 	},
 	[15512] = {
 		id = 15512,
-		name = "Eeny meeny miny moe"
+		name = "Duet of Alternation"
 	},
 	[15513] = {
 		id = 15513,
-		name = "weiß"
+		name = "Duet of Alternation"
 	},
 	[15520] = {
 		id = 15520,
-		name = "往昔之影·{namecode:448}(?)"
+		name = "Marvels of History - Emden(?)"
 	},
 	[15521] = {
 		id = 15521,
-		name = "往昔之影·{namecode:448}(?)"
+		name = "Marvels of History - Emden(?)"
 	},
 	[15524] = {
 		id = 15524,
-		name = "Paragraph Elf"
+		name = "Marvels of History - Emden(?)"
 	},
 	[15530] = {
 		id = 15530,
-		name = "攻击！攻击！"
+		name = "I Won't Hit Anyway..."
 	},
 	[15531] = {
 		id = 15531,
-		name = "攻击！攻击！"
+		name = "I Won't Hit Anyway..."
 	},
 	[15532] = {
 		id = 15532,
-		name = "攻击！攻击！"
+		name = "I Won't Hit Anyway..."
 	},
 	[15540] = {
 		id = 15540,
-		name = "不破之盾盾盾！"
+		name = "Shields! More Shields!"
 	},
 	[15560] = {
 		id = 15560,
-		name = "往昔之影·{namecode:449}"
+		name = "Marvels of History - Elbing"
 	},
 	[15561] = {
 		id = 15561,
-		name = "往昔之影·{namecode:449}"
+		name = "Marvels of History - Elbing"
 	},
 	[15562] = {
 		id = 15562,
-		name = "往昔之影·{namecode:449}"
+		name = "Marvels of History - Elbing"
 	},
 	[15574] = {
 		id = 15574,
-		name = "携手同行"
+		name = "Please Take Care"
 	},
 	[15581] = {
 		id = 15581,
-		name = "幸运到临"
+		name = "Lucky Jervis"
 	},
 	[15620] = {
 		id = 15620,
-		name = "不挠之焰"
+		name = "One Iota of Effort"
 	},
 	[15630] = {
 		id = 15630,
-		name = "空域警戒"
+		name = "Two Can Play at That Game"
 	},
 	[15631] = {
 		id = 15631,
-		name = "空域警戒"
+		name = "Two Can Play at That Game"
 	},
 	[15640] = {
 		id = 15640,
-		name = "航空护卫"
+		name = "Together We Shine Brighter"
 	},
 	[15650] = {
 		id = 15650,
-		name = "破敌强击"
+		name = "Revengeful Strike"
 	},
 	[15660] = {
 		id = 15660,
-		name = "火力移转"
+		name = "Trajectory Recalibration"
 	},
 	[15670] = {
 		id = 15670,
-		name = "独角兽的应援"
+		name = "Yuni's Aid"
 	},
 	[15671] = {
 		id = 15671,
-		name = "独角兽的应援"
+		name = "Yuni's Aid"
 	},
 	[15673] = {
 		id = 15673,
-		name = "独角兽的应援"
+		name = "Yuni's Aid"
 	},
 	[15680] = {
 		id = 15680,
-		name = "导引的荣耀之光"
+		name = "Glisten, Light of Glory!"
 	},
 	[15681] = {
 		id = 15681,
-		name = "导引的荣耀之光"
+		name = "Glisten, Light of Glory!"
 	},
 	[15690] = {
 		id = 15690,
-		name = "威慑的忠义之刃"
+		name = "Scatter, Minions of Darkness!"
 	},
 	[15691] = {
 		id = 15691,
-		name = "威慑的忠义之刃"
+		name = "Scatter, Minions of Darkness!"
 	},
 	[15700] = {
 		id = 15700,
-		name = "闪耀的皇家之剑"
+		name = "Behold, My Royal Sabre!"
 	},
 	[15711] = {
 		id = 15711,
-		name = "威慑的忠义之刃"
+		name = "Scatter, Minions of Darkness!"
 	},
 	[15722] = {
 		id = 15722,
-		name = "梦幻秘仪"
+		name = "Sacraments of Illusion"
 	},
 	[15723] = {
 		id = 15723,
-		name = "梦幻秘仪"
+		name = "Sacraments of Illusion"
 	},
 	[15740] = {
 		id = 15740,
-		name = "审判之枪"
+		name = "Vichya's Black Lance"
 	},
 	[15750] = {
 		id = 15750,
-		name = "不屈意志"
+		name = "I Will Not Yield!"
 	},
 	[15756] = {
 		id = 15756,
-		name = "意志"
+		name = "Will"
 	},
 	[15757] = {
 		id = 15757,
-		name = "不屈"
+		name = "Unyielding"
 	},
 	[15759] = {
 		id = 15759,
-		name = "意志"
+		name = "Will"
 	},
 	[15770] = {
 		id = 15770,
-		name = "清扫开始！"
+		name = "Time to Clean"
 	},
 	[15791] = {
 		id = 15791,
-		name = "“小袋鼠”共同出击！"
+		name = "Get 'Em, Canguro!"
 	},
 	[15821] = {
 		id = 15821,
-		name = "不过如此！"
+		name = "Knock It Off...!"
 	},
 	[15840] = {
 		id = 15840,
-		name = "王政者的意志"
+		name = "Inheritor's Will"
 	},
 	[15841] = {
 		id = 15841,
-		name = "王政者的意志"
+		name = "Inheritor's Will"
 	},
 	[15850] = {
 		id = 15850,
@@ -8987,275 +8859,275 @@ pg.base.skill_data_display = {
 	},
 	[15860] = {
 		id = 15860,
-		name = "奥古斯都的威光"
+		name = "Exalted Light"
 	},
 	[15870] = {
 		id = 15870,
-		name = "前线情报"
+		name = "Frontline Scoop"
 	},
 	[15871] = {
 		id = 15871,
-		name = "前线情报"
+		name = "Frontline Scoop"
 	},
 	[15880] = {
 		id = 15880,
-		name = "紧急事态"
+		name = "Paparazza's Retreat"
 	},
 	[15883] = {
 		id = 15883,
-		name = "紧急事态"
+		name = "Paparazza's Retreat"
 	},
 	[15890] = {
 		id = 15890,
-		name = "不惧风浪"
+		name = "Lookout's Courage"
 	},
 	[15891] = {
 		id = 15891,
-		name = "不惧风浪"
+		name = "Lookout's Courage"
 	},
 	[15902] = {
 		id = 15902,
-		name = "救援行动"
+		name = "Lookout's Support"
 	},
 	[15903] = {
 		id = 15903,
-		name = "救援行动"
+		name = "Lookout's Support"
 	},
 	[15912] = {
 		id = 15912,
-		name = "正义的力量"
+		name = "Beavers, Assemble!"
 	},
 	[15913] = {
 		id = 15913,
-		name = "正义的力量"
+		name = "Beavers, Assemble!"
 	},
 	[15930] = {
 		id = 15930,
-		name = "冒失甜心"
+		name = "Daredevil Sweetheart"
 	},
 	[15931] = {
 		id = 15931,
-		name = "冒失甜心"
+		name = "Daredevil Sweetheart"
 	},
 	[15940] = {
 		id = 15940,
-		name = "无所畏惧的爱"
+		name = "Unstoppable Love"
 	},
 	[15942] = {
 		id = 15942,
-		name = "无所畏惧的爱"
+		name = "Unstoppable Love"
 	},
 	[15950] = {
 		id = 15950,
-		name = "命运的枪火"
+		name = "Urd's Fate-Piercer"
 	},
 	[15951] = {
 		id = 15951,
-		name = "命运的枪火"
+		name = "Urd's Fate-Piercer"
 	},
 	[15960] = {
 		id = 15960,
-		name = "砥砺的女武神"
+		name = "Pantheon of War"
 	},
 	[15961] = {
 		id = 15961,
-		name = "砥砺的女武神"
+		name = "Pantheon of War"
 	},
 	[15983] = {
 		id = 15983,
-		name = "灵机迎战"
+		name = "Adaptive Bladework"
 	},
 	[15984] = {
 		id = 15984,
-		name = "灵机迎战"
+		name = "Adaptive Bladework"
 	},
 	[15985] = {
 		id = 15985,
-		name = "灵机迎战"
+		name = "Adaptive Bladework"
 	},
 	[16000] = {
 		id = 16000,
-		name = "川流不息"
+		name = "Swallow's Sword-Dance"
 	},
 	[16010] = {
 		id = 16010,
-		name = "风平浪静"
+		name = "Imperturbable Heart"
 	},
 	[16013] = {
 		id = 16013,
-		name = "风平浪静"
+		name = "Imperturbable Heart"
 	},
 	[16014] = {
 		id = 16014,
-		name = "风平浪静"
+		name = "Imperturbable Heart"
 	},
 	[16015] = {
 		id = 16015,
-		name = "风平浪静"
+		name = "Imperturbable Heart"
 	},
 	[16020] = {
 		id = 16020,
-		name = "战争之殇.改"
+		name = "Martyr+"
 	},
 	[16021] = {
 		id = 16021,
-		name = "战争之殇.改"
+		name = "Martyr+"
 	},
 	[16025] = {
 		id = 16025,
-		name = "战争之殇.改"
+		name = "Martyr+"
 	},
 	[16026] = {
 		id = 16026,
-		name = "战争之殇.改"
+		name = "Martyr+"
 	},
 	[16030] = {
 		id = 16030,
-		name = "静海惊雷"
+		name = "Violet Lightning Storm"
 	},
 	[16031] = {
 		id = 16031,
-		name = "静海惊雷"
+		name = "Violet Lightning Storm"
 	},
 	[16032] = {
 		id = 16032,
-		name = "静海惊雷"
+		name = "Violet Lightning Storm"
 	},
 	[16033] = {
 		id = 16033,
-		name = "静海惊雷"
+		name = "Violet Lightning Storm"
 	},
 	[16034] = {
 		id = 16034,
-		name = "静海惊雷"
+		name = "Violet Lightning Storm"
 	},
 	[16040] = {
 		id = 16040,
-		name = "舞樱刃豪"
+		name = "Tempestuous Blade"
 	},
 	[16041] = {
 		id = 16041,
-		name = "舞樱刃豪"
+		name = "Tempestuous Blade"
 	},
 	[16050] = {
 		id = 16050,
-		name = "公方之护"
+		name = "Musashi's Guardianship"
 	},
 	[16051] = {
 		id = 16051,
-		name = "公方之护"
+		name = "Musashi's Guardianship"
 	},
 	[16060] = {
 		id = 16060,
-		name = "公方之护"
+		name = "Musashi's Guardianship"
 	},
 	[16061] = {
 		id = 16061,
-		name = "公方之护"
+		name = "Musashi's Guardianship"
 	},
 	[16062] = {
 		id = 16062,
-		name = "公方之护"
+		name = "Musashi's Guardianship"
 	},
 	[16070] = {
 		id = 16070,
-		name = "勇战无隙"
+		name = "Plumes of Darkest Night"
 	},
 	[16071] = {
 		id = 16071,
-		name = "勇战无隙"
+		name = "Plumes of Darkest Night"
 	},
 	[16072] = {
 		id = 16072,
-		name = "勇战无隙"
+		name = "Plumes of Darkest Night"
 	},
 	[16080] = {
 		id = 16080,
-		name = "气运共济"
+		name = "Follow the Trends"
 	},
 	[16081] = {
 		id = 16081,
-		name = "气运共济"
+		name = "Follow the Trends"
 	},
 	[16082] = {
 		id = 16082,
-		name = "气运共济"
+		name = "Follow the Trends"
 	},
 	[16083] = {
 		id = 16083,
-		name = "气运共济"
+		name = "Follow the Trends"
 	},
 	[16090] = {
 		id = 16090,
-		name = "“铁爪爪”出击"
+		name = "Metal Gauntlet Mash!"
 	},
 	[16100] = {
 		id = 16100,
-		name = "伙伴的力量"
+		name = "For My Friends!"
 	},
 	[16101] = {
 		id = 16101,
-		name = "伙伴的力量"
+		name = "For My Friends!"
 	},
 	[16102] = {
 		id = 16102,
-		name = "伙伴的力量"
+		name = "For My Friends!"
 	},
 	[16105] = {
 		id = 16105,
-		name = "伙伴的力量"
+		name = "For My Friends!"
 	},
 	[16111] = {
 		id = 16111,
-		name = "携手并进"
+		name = "Pl-Please Take Care"
 	},
 	[16112] = {
 		id = 16112,
-		name = "携手并进"
+		name = "Pl-Please Take Care"
 	},
 	[16115] = {
 		id = 16115,
-		name = "同行并进"
+		name = "L-Let's Go Together?"
 	},
 	[16121] = {
 		id = 16121,
-		name = "碧波中的小天使！"
+		name = "Charming Janus"
 	},
 	[16130] = {
 		id = 16130,
-		name = "一心二用"
+		name = "Multitasking Maid"
 	},
 	[16131] = {
 		id = 16131,
-		name = "一心二用"
+		name = "Multitasking Maid"
 	},
 	[16141] = {
 		id = 16141,
-		name = "过早的赠礼"
+		name = "Premature Gift"
 	},
 	[16142] = {
 		id = 16142,
-		name = "过早的赠礼"
+		name = "Premature Gift"
 	},
 	[16150] = {
 		id = 16150,
-		name = "指引之箭"
+		name = "Skyraiders, Advance!"
 	},
 	[16160] = {
 		id = 16160,
-		name = "启示之岛"
+		name = "Unblemished White Cliffs"
 	},
 	[16170] = {
 		id = 16170,
-		name = "海神之佑"
+		name = "Guardian Faerie"
 	},
 	[16200] = {
 		id = 16200,
-		name = "深海的守护"
+		name = "Guardian of the Deep"
 	},
 	[16201] = {
 		id = 16201,
-		name = "深海的守护"
+		name = "Guardian of the Deep"
 	},
 	[16212] = {
 		id = 16212,
@@ -9263,67 +9135,67 @@ pg.base.skill_data_display = {
 	},
 	[16221] = {
 		id = 16221,
-		name = "跨越悲伤之城"
+		name = "Waltzing Beyond Tragedy"
 	},
 	[16222] = {
 		id = 16222,
-		name = "跨越悲伤之城"
+		name = "Waltzing Beyond Tragedy"
 	},
 	[16231] = {
 		id = 16231,
-		name = "翱翔天际之鹰"
+		name = "The Eagle Soars Free"
 	},
 	[16250] = {
 		id = 16250,
-		name = "强袭之刺"
+		name = "Hornet's Sting"
 	},
 	[16251] = {
 		id = 16251,
-		name = "强袭之刺"
+		name = "Hornet's Sting"
 	},
 	[16260] = {
 		id = 16260,
-		name = "空战精英"
+		name = "Flying Ace"
 	},
 	[16270] = {
 		id = 16270,
-		name = "战场幽灵"
+		name = "The Dancing Grey Ghost"
 	},
 	[16271] = {
 		id = 16271,
-		name = "战场幽灵"
+		name = "The Dancing Grey Ghost"
 	},
 	[16280] = {
 		id = 16280,
-		name = "前辈的自觉"
+		name = "Ms. Langley's Guidance"
 	},
 	[16290] = {
 		id = 16290,
-		name = "严格的指导"
+		name = "Ms. Langley's Strict Discipline"
 	},
 	[16291] = {
 		id = 16291,
-		name = "严格的指导"
+		name = "Ms. Langley's Strict Discipline"
 	},
 	[16311] = {
 		id = 16311,
-		name = "战场戒备"
+		name = "Cautious Caprice"
 	},
 	[16320] = {
 		id = 16320,
-		name = "炮火破袭"
+		name = "Artillery Overload"
 	},
 	[16321] = {
 		id = 16321,
-		name = "炮火破袭"
+		name = "Artillery Overload"
 	},
 	[16322] = {
 		id = 16322,
-		name = "炮火破袭"
+		name = "Artillery Overload"
 	},
 	[16323] = {
 		id = 16323,
-		name = "炮火破袭"
+		name = "Artillery Overload"
 	},
 	[16335] = {
 		id = 16335,
@@ -9335,51 +9207,51 @@ pg.base.skill_data_display = {
 	},
 	[16351] = {
 		id = 16351,
-		name = "希望是厄运的忠实姐妹"
+		name = "Hope is Calamity's Handmaiden"
 	},
 	[16352] = {
 		id = 16352,
-		name = "希望是厄运的忠实姐妹"
+		name = "Hope is Calamity's Handmaiden"
 	},
 	[16360] = {
 		id = 16360,
-		name = "广结善缘"
+		name = "Blessings Through Benevolence"
 	},
 	[16362] = {
 		id = 16362,
-		name = "广结善缘"
+		name = "Blessings Through Benevolence"
 	},
 	[16370] = {
 		id = 16370,
-		name = "巾帼英姿"
+		name = "Brave Beauty"
 	},
 	[16380] = {
 		id = 16380,
-		name = "明鉴万里"
+		name = "All-Knowledgeable Appraiser"
 	},
 	[16381] = {
 		id = 16381,
-		name = "明鉴万里"
+		name = "All-Knowledgeable Appraiser"
 	},
 	[16390] = {
 		id = 16390,
-		name = "利析秋毫"
+		name = "Tricks of the Trade"
 	},
 	[16391] = {
 		id = 16391,
-		name = "利析秋毫"
+		name = "Tricks of the Trade"
 	},
 	[16392] = {
 		id = 16392,
-		name = "利析秋毫"
+		name = "Tricks of the Trade"
 	},
 	[16400] = {
 		id = 16400,
-		name = "迷途不返之咒"
+		name = "Ariadne's Conundrum"
 	},
 	[16410] = {
 		id = 16410,
-		name = "咏唱繁星之歌"
+		name = "Phaedra's Longing"
 	},
 	[16421] = {
 		id = 16421,
@@ -9391,107 +9263,107 @@ pg.base.skill_data_display = {
 	},
 	[16430] = {
 		id = 16430,
-		name = "东煌之绊.改"
+		name = "Dragon Empery Bond+"
 	},
 	[16440] = {
 		id = 16440,
-		name = "寒夜语梅"
+		name = "Plum Flower in the Cold Night"
 	},
 	[16441] = {
 		id = 16441,
-		name = "寒夜语梅"
+		name = "Plum Flower in the Cold Night"
 	},
 	[16450] = {
 		id = 16450,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[16460] = {
 		id = 16460,
-		name = "予怨予还的信条"
+		name = "May God Forgive You, For I Shall Not"
 	},
 	[16464] = {
 		id = 16464,
-		name = "予怨予还的信条"
+		name = "May God Forgive You, For I Shall Not"
 	},
 	[16467] = {
 		id = 16467,
-		name = "予怨予还的信条"
+		name = "May God Forgive You, For I Shall Not"
 	},
 	[16468] = {
 		id = 16468,
-		name = "予怨予还的信条"
+		name = "May God Forgive You, For I Shall Not"
 	},
 	[16470] = {
 		id = 16470,
-		name = "守护羁绊的执着"
+		name = "Who Will Answer Your Prayers?"
 	},
 	[16480] = {
 		id = 16480,
-		name = "予怨予还的信条"
+		name = "May God Forgive You, For I Shall Not"
 	},
 	[16482] = {
 		id = 16482,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[16483] = {
 		id = 16483,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[16484] = {
 		id = 16484,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[16485] = {
 		id = 16485,
-		name = "【怨仇】 3/9"
+		name = "[No Mercy] 3/9"
 	},
 	[16486] = {
 		id = 16486,
-		name = "【怨仇】 6/9"
+		name = "[No Mercy] 6/9"
 	},
 	[16487] = {
 		id = 16487,
-		name = "【怨仇】 9/9"
+		name = "[No Mercy] 9/9"
 	},
 	[16493] = {
 		id = 16493,
-		name = "金叶反击"
+		name = "Senior Knight's Counterattack"
 	},
 	[16503] = {
 		id = 16503,
-		name = "屹立不倒"
+		name = "Senior Knight's Tenacity"
 	},
 	[16505] = {
 		id = 16505,
-		name = "Mighty oak，屹立不倒"
+		name = "The Steadfast Mighty Oak"
 	},
 	[16509] = {
 		id = 16509,
-		name = "Mighty oak，屹立不倒"
+		name = "The Steadfast Mighty Oak"
 	},
 	[16512] = {
 		id = 16512,
-		name = "空域辅助·百眼巨人"
+		name = "Supporting Wings - Argus"
 	},
 	[16521] = {
 		id = 16521,
-		name = "荣光的开拓者"
+		name = "Glory's Trailblazer"
 	},
 	[16522] = {
 		id = 16522,
-		name = "荣光的开拓者"
+		name = "Glory's Trailblazer"
 	},
 	[16530] = {
 		id = 16530,
-		name = "【怨仇】 3/9"
+		name = "[No Mercy] 3/9"
 	},
 	[16531] = {
 		id = 16531,
-		name = "【怨仇】 6/9"
+		name = "[No Mercy] 6/9"
 	},
 	[16532] = {
 		id = 16532,
-		name = "【怨仇】 9/9"
+		name = "[No Mercy] 9/9"
 	},
 	[16540] = {
 		id = 16540,
@@ -9503,463 +9375,463 @@ pg.base.skill_data_display = {
 	},
 	[16550] = {
 		id = 16550,
-		name = "六头海妖之拥"
+		name = "Scylla's Embrace"
 	},
 	[16551] = {
 		id = 16551,
-		name = "六头海妖之拥"
+		name = "Scylla's Embrace"
 	},
 	[16560] = {
 		id = 16560,
-		name = "英雄、登场！"
+		name = "Your Hero is Here~☆"
 	},
 	[16561] = {
 		id = 16561,
-		name = "英雄、登场！"
+		name = "Your Hero is Here~☆"
 	},
 	[16570] = {
 		id = 16570,
-		name = "英雄、守护？"
+		name = "Lookin' Out For My Sidekicks~♪"
 	},
 	[16571] = {
 		id = 16571,
-		name = "英雄、守护？"
+		name = "Lookin' Out For My Sidekicks~♪"
 	},
 	[16572] = {
 		id = 16572,
-		name = "英雄、守护？"
+		name = "Lookin' Out For My Sidekicks~♪"
 	},
 	[16573] = {
 		id = 16573,
-		name = "英雄、守护？"
+		name = "Lookin' Out For My Sidekicks~♪"
 	},
 	[16581] = {
 		id = 16581,
-		name = "飞雪中的孤狼"
+		name = "Lone Wolf of the Snowstorm"
 	},
 	[16605] = {
 		id = 16605,
-		name = "雪狼利爪"
+		name = "Hunter's Stealth – Submersibles"
 	},
 	[16610] = {
 		id = 16610,
-		name = "变革的指导论"
+		name = "Revolutionary Standard-Bearer"
 	},
 	[16620] = {
 		id = 16620,
-		name = "顽强的坚守者"
+		name = "Fortitude of Ice"
 	},
 	[16631] = {
 		id = 16631,
-		name = "冷彻冰结"
+		name = "Voroshilov's Icebind"
 	},
 	[16640] = {
 		id = 16640,
-		name = "沉着应对"
+		name = "Revolutionary Composure"
 	},
 	[16641] = {
 		id = 16641,
-		name = "沉着应对"
+		name = "Revolutionary Composure"
 	},
 	[16642] = {
 		id = 16642,
-		name = "沉着应对"
+		name = "Revolutionary Composure"
 	},
 	[16650] = {
 		id = 16650,
-		name = "Lady的训练时间"
+		name = "Lumbersome Lessons"
 	},
 	[16651] = {
 		id = 16651,
-		name = "训练评定：C"
+		name = "Lesson Grade: C"
 	},
 	[16652] = {
 		id = 16652,
-		name = "训练评定：B"
+		name = "Lesson Grade: B"
 	},
 	[16653] = {
 		id = 16653,
-		name = "训练评定：A"
+		name = "Lesson Grade: A"
 	},
 	[16654] = {
 		id = 16654,
-		name = "训练评定：S????"
+		name = "Lesson Grade: S???"
 	},
 	[16660] = {
 		id = 16660,
-		name = "Lady的甜点时间"
+		name = "Light Snacktime"
 	},
 	[16664] = {
 		id = 16664,
-		name = "Lady的甜点时间"
+		name = "Light Snacktime"
 	},
 	[16670] = {
 		id = 16670,
-		name = "勇敢争先"
+		name = "Making a Splash!"
 	},
 	[16671] = {
 		id = 16671,
-		name = "勇敢争先"
+		name = "Making a Splash!"
 	},
 	[16680] = {
 		id = 16680,
-		name = "踏浪疾行"
+		name = "Slip and Slide!"
 	},
 	[16681] = {
 		id = 16681,
-		name = "踏浪疾行"
+		name = "Slip and Slide!"
 	},
 	[16682] = {
 		id = 16682,
-		name = "踏浪疾行"
+		name = "Slip and Slide!"
 	},
 	[16683] = {
 		id = 16683,
-		name = "踏浪疾行"
+		name = "Slip and Slide!"
 	},
 	[16691] = {
 		id = 16691,
-		name = "BIG SEVEN·纳尔逊"
+		name = "Big Seven - Nelson"
 	},
 	[16701] = {
 		id = 16701,
-		name = "纳尔逊的旗语"
+		name = "Nelson's Pennant of Victory"
 	},
 	[16702] = {
 		id = 16702,
-		name = "再靠近一点点"
+		name = "Close Engagement"
 	},
 	[16711] = {
 		id = 16711,
-		name = "Ferro regina，钢铁女王"
+		name = "Regina, the Iron Empress"
 	},
 	[16713] = {
 		id = 16713,
-		name = "Ferro regina，钢铁女王"
+		name = "Regina, the Iron Empress"
 	},
 	[16714] = {
 		id = 16714,
-		name = "Ferro regina，钢铁女王"
+		name = "Regina, the Iron Empress"
 	},
 	[16721] = {
 		id = 16721,
-		name = "绯红超新星壁垒"
+		name = "Scarlet Supernova Fortress"
 	},
 	[16722] = {
 		id = 16722,
-		name = "绯红超新星壁垒 +"
+		name = "Scarlet Supernova Fortress+"
 	},
 	[16730] = {
 		id = 16730,
-		name = "大小姐的特殊鼓励"
+		name = "A Good Girl's Caprice"
 	},
 	[16731] = {
 		id = 16731,
-		name = "大小姐的特殊鼓励"
+		name = "A Good Girl's Caprice"
 	},
 	[16732] = {
 		id = 16732,
-		name = "大小姐的特殊鼓励"
+		name = "A Good Girl's Caprice"
 	},
 	[16740] = {
 		id = 16740,
-		name = "好孩子的褒奖"
+		name = "Naughty, Naughty"
 	},
 	[16741] = {
 		id = 16741,
-		name = "好孩子的褒奖"
+		name = "Naughty, Naughty"
 	},
 	[16750] = {
 		id = 16750,
-		name = "绯暗寂灭之息"
+		name = "Calamitous Voidflame"
 	},
 	[16753] = {
 		id = 16753,
-		name = "绯暗寂灭之息"
+		name = "Calamitous Voidflame"
 	},
 	[16760] = {
 		id = 16760,
-		name = "探求破灭之龙"
+		name = "Geryon, the Ruin-Eater"
 	},
 	[16761] = {
 		id = 16761,
-		name = "舰装分离模式"
+		name = "Synchro-Link"
 	},
 	[16762] = {
 		id = 16762,
-		name = "嵌载结合模式"
+		name = "Synchro-Release"
 	},
 	[16770] = {
 		id = 16770,
-		name = "讴歌真理之耀"
+		name = "Reborn Temple of Iron"
 	},
 	[16780] = {
 		id = 16780,
-		name = "讴歌真理之耀"
+		name = "Reborn Temple of Iron"
 	},
 	[16781] = {
 		id = 16781,
-		name = "讴歌真理之耀"
+		name = "Reborn Temple of Iron"
 	},
 	[16782] = {
 		id = 16782,
-		name = "讴歌真理之耀"
+		name = "Reborn Temple of Iron"
 	},
 	[16792] = {
 		id = 16792,
-		name = "{namecode:291}的护卫之甲"
+		name = "Taihou-chan's Talisman of Hardening"
 	},
 	[16831] = {
 		id = 16831,
-		name = "幻象紫雨"
+		name = "Porpora Strike"
 	},
 	[16832] = {
 		id = 16832,
-		name = "幻象紫雨"
+		name = "Porpora Strike"
 	},
 	[16841] = {
 		id = 16841,
-		name = "不畏艰险"
+		name = "In Arduis Intrepida"
 	},
 	[16852] = {
 		id = 16852,
-		name = "黑白兔公爵的拥抱"
+		name = "Help Me! Duke Monochrome Rabbit!"
 	},
 	[16863] = {
 		id = 16863,
-		name = "童话王国的小仙子"
+		name = "Princess of the Fairytale Kingdom"
 	},
 	[16864] = {
 		id = 16864,
-		name = "童话王国的小仙子"
+		name = "Princess of the Fairytale Kingdom"
 	},
 	[16870] = {
 		id = 16870,
-		name = "向着光荣前进"
+		name = "The Day of Glory Arrives"
 	},
 	[16871] = {
 		id = 16871,
-		name = "向着光荣前进"
+		name = "The Day of Glory Arrives"
 	},
 	[16872] = {
 		id = 16872,
-		name = "向着光荣前进"
+		name = "The Day of Glory Arrives"
 	},
 	[16880] = {
 		id = 16880,
-		name = "奏响自由赞歌"
+		name = "Anthem of Beloved Freedom"
 	},
 	[16881] = {
 		id = 16881,
-		name = "奏响自由赞歌"
+		name = "Anthem of Beloved Freedom"
 	},
 	[16911] = {
 		id = 16911,
-		name = "时辰颂祷"
+		name = "Liturgia Horarum"
 	},
 	[16912] = {
 		id = 16912,
-		name = "时辰颂祷"
+		name = "Liturgia Horarum"
 	},
 	[16920] = {
 		id = 16920,
-		name = "魔法还是舰炮？"
+		name = "Shells or Sorcery?"
 	},
 	[16921] = {
 		id = 16921,
-		name = "魔法还是舰炮？"
+		name = "Shells or Sorcery?"
 	},
 	[16930] = {
 		id = 16930,
-		name = "预见到临的魔女"
+		name = "Prophetic Witch"
 	},
 	[16931] = {
 		id = 16931,
-		name = "预见到临的魔女·炮击"
+		name = "Prophetic Witch - FP"
 	},
 	[16932] = {
 		id = 16932,
-		name = "预见到临的魔女·雷击"
+		name = "Prophetic Witch - TRP"
 	},
 	[16933] = {
 		id = 16933,
-		name = "预见到临的魔女·命中"
+		name = "Prophetic Witch - ACC"
 	},
 	[16937] = {
 		id = 16937,
-		name = "预见到临的魔女"
+		name = "Prophetic Witch"
 	},
 	[16941] = {
 		id = 16941,
-		name = "BIG SEVEN·西弗吉尼亚"
+		name = "Big Seven - West Virginia"
 	},
 	[16942] = {
 		id = 16942,
-		name = "BIG SEVEN·西弗吉尼亚"
+		name = "Big Seven - West Virginia"
 	},
 	[16951] = {
 		id = 16951,
-		name = "莱特湾的见证者"
+		name = "Leyte Gulf's Witness"
 	},
 	[16960] = {
 		id = 16960,
-		name = "审判庭的意志"
+		name = "Will of the Tribunal"
 	},
 	[16970] = {
 		id = 16970,
-		name = "指引希望的炮火"
+		name = "Guiding Flames of Intrigue"
 	},
 	[16972] = {
 		id = 16972,
-		name = "指引希望的炮火"
+		name = "Guiding Flames of Intrigue"
 	},
 	[16980] = {
 		id = 16980,
-		name = "教廷的审判"
+		name = "Holy See's Judgment"
 	},
 	[16990] = {
 		id = 16990,
-		name = "星辰指引"
+		name = "Morningstar's Guidance"
 	},
 	[17000] = {
 		id = 17000,
-		name = "鸢尾之愿"
+		name = "Holy Iris's Wishes"
 	},
 	[17002] = {
 		id = 17002,
-		name = "鸢尾之愿"
+		name = "Holy Iris's Wishes"
 	},
 	[17010] = {
 		id = 17010,
-		name = "涤罪裁决"
+		name = "Absolving Light"
 	},
 	[17020] = {
 		id = 17020,
-		name = "神圣庇护"
+		name = "Sanctification"
 	},
 	[17031] = {
 		id = 17031,
-		name = "荡涤诸恶"
+		name = "Exorcism for the Mortal Realm"
 	},
 	[17051] = {
 		id = 17051,
-		name = "荡涤诸恶"
+		name = "Exorcism for the Mortal Realm"
 	},
 	[17060] = {
 		id = 17060,
-		name = "结缘同行"
+		name = "Power o' Friendship"
 	},
 	[17062] = {
 		id = 17062,
-		name = "结缘同行"
+		name = "Power o' Friendship"
 	},
 	[17064] = {
 		id = 17064,
-		name = "结缘同行"
+		name = "Power o' Friendship"
 	},
 	[17071] = {
 		id = 17071,
-		name = "羁绊之力"
+		name = "Don't Mess With My Best Buds!"
 	},
 	[17080] = {
 		id = 17080,
-		name = "鹿灵之月斩"
+		name = "As Evening Weaves, the Moon Sunders"
 	},
 	[17081] = {
 		id = 17081,
-		name = "鹿灵之月斩"
+		name = "As Evening Weaves, the Moon Sunders"
 	},
 	[17090] = {
 		id = 17090,
-		name = "鹿灵之灵息"
+		name = "As Leaves Fall, Geese Take Flight"
 	},
 	[17091] = {
 		id = 17091,
-		name = "鹿灵之灵息"
+		name = "As Leaves Fall, Geese Take Flight"
 	},
 	[17100] = {
 		id = 17100,
-		name = "必杀铁拳！"
+		name = "Fists of Fury!"
 	},
 	[17111] = {
 		id = 17111,
-		name = "可靠的战友？"
+		name = "Ol' Reliable"
 	},
 	[17120] = {
 		id = 17120,
-		name = "“平沼”的守护"
+		name = "Hiranuma's Protection"
 	},
 	[17121] = {
 		id = 17121,
-		name = "“平沼”的守护"
+		name = "Hiranuma's Protection"
 	},
 	[17123] = {
 		id = 17123,
-		name = "“平沼”的守护"
+		name = "Hiranuma's Protection"
 	},
 	[17130] = {
 		id = 17130,
-		name = "迸发，隐藏之力！"
+		name = "Secret Cheat Code Powers!"
 	},
 	[17131] = {
 		id = 17131,
-		name = "迸发，隐藏之力！"
+		name = "Secret Cheat Code Powers!"
 	},
 	[17132] = {
 		id = 17132,
-		name = "迸发，隐藏之力！"
+		name = "Secret Cheat Code Powers!"
 	},
 	[17133] = {
 		id = 17133,
-		name = "迸发，隐藏之力！"
+		name = "Secret Cheat Code Powers!"
 	},
 	[17146] = {
 		id = 17146,
-		name = "太空城之击"
+		name = "Space City Strike"
 	},
 	[17147] = {
 		id = 17147,
-		name = "太空城之击"
+		name = "Space City Strike"
 	},
 	[17150] = {
 		id = 17150,
-		name = "混乱中的坚毅"
+		name = "Fortitude in Chaos"
 	},
 	[17160] = {
 		id = 17160,
-		name = "暗影无形"
+		name = "Unseen Phantom"
 	},
 	[17161] = {
 		id = 17161,
-		name = "暗影无形"
+		name = "Unseen Phantom"
 	},
 	[17171] = {
 		id = 17171,
-		name = "深海的幽灵"
+		name = "Ghost Ship of the Deep"
 	},
 	[17181] = {
 		id = 17181,
-		name = "深海的幽灵"
+		name = "Ghost Ship of the Deep"
 	},
 	[17231] = {
 		id = 17231,
-		name = "困了…"
+		name = "What a Pain..."
 	},
 	[17240] = {
 		id = 17240,
-		name = "迷雾之境"
+		name = "Pierce the Mistveil"
 	},
 	[17250] = {
 		id = 17250,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[17251] = {
 		id = 17251,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[17252] = {
 		id = 17252,
-		name = "深海的恩典"
+		name = "Hindhorn's Grace"
 	},
 	[17280] = {
 		id = 17280,
@@ -9967,79 +9839,79 @@ pg.base.skill_data_display = {
 	},
 	[17290] = {
 		id = 17290,
-		name = "淑女的进击"
+		name = "The Lady's Advance"
 	},
 	[17291] = {
 		id = 17291,
-		name = "淑女的进击"
+		name = "The Lady's Advance"
 	},
 	[17303] = {
 		id = 17303,
-		name = "兔兔打击者"
+		name = "Bunbun Strikers"
 	},
 	[17304] = {
 		id = 17304,
-		name = "【战意】1/5"
+		name = "Motivation - 1/5"
 	},
 	[17305] = {
 		id = 17305,
-		name = "【战意】2/5"
+		name = "Motivation - 2/5"
 	},
 	[17306] = {
 		id = 17306,
-		name = "【战意】3/5"
+		name = "Motivation - 3/5"
 	},
 	[17307] = {
 		id = 17307,
-		name = "【战意】4/5"
+		name = "Motivation - 4/5"
 	},
 	[17308] = {
 		id = 17308,
-		name = "【战意】5/5"
+		name = "Motivation - 5/5"
 	},
 	[17309] = {
 		id = 17309,
-		name = "歼灭模式"
+		name = "Annihilation Mode"
 	},
 	[17311] = {
 		id = 17311,
-		name = "哨戒支援"
+		name = "Scout Support"
 	},
 	[17312] = {
 		id = 17312,
-		name = "任务完成"
+		name = "Mission Complete"
 	},
 	[17321] = {
 		id = 17321,
-		name = "背水之战"
+		name = "Fiercer When Cornered"
 	},
 	[17330] = {
 		id = 17330,
-		name = "战斗之星·对空焰火"
+		name = "Battle Star Fireworks"
 	},
 	[17331] = {
 		id = 17331,
-		name = "战斗之星·对空焰火"
+		name = "Battle Star Fireworks"
 	},
 	[17340] = {
 		id = 17340,
-		name = "共演嘉宾！"
+		name = "Guest Incoming!"
 	},
 	[17350] = {
 		id = 17350,
-		name = "战况报告·现场放送"
+		name = "On-Air Broadcast Assistance"
 	},
 	[17351] = {
 		id = 17351,
-		name = "战况报告·现场放送"
+		name = "On-Air Broadcast Assistance"
 	},
 	[17360] = {
 		id = 17360,
-		name = "战况报告·现场放送"
+		name = "On-Air Broadcast Assistance"
 	},
 	[17362] = {
 		id = 17362,
-		name = "战况报告·现场放送"
+		name = "On-Air Broadcast Assistance"
 	},
 	[17370] = {
 		id = 17370,
@@ -10051,195 +9923,195 @@ pg.base.skill_data_display = {
 	},
 	[17380] = {
 		id = 17380,
-		name = "奔袭的逐星者"
+		name = "Soaring Star-Chaser"
 	},
 	[17390] = {
 		id = 17390,
-		name = "幼鹰的守护者"
+		name = "Young Eagles' Roost"
 	},
 	[17391] = {
 		id = 17391,
-		name = "幼鹰的守护者"
+		name = "Young Eagles' Roost"
 	},
 	[17400] = {
 		id = 17400,
-		name = "“复仇”的恶作剧"
+		name = "Playful Avengers"
 	},
 	[17401] = {
 		id = 17401,
-		name = "“复仇”的恶作剧"
+		name = "Playful Avengers"
 	},
 	[17411] = {
 		id = 17411,
-		name = "开启狩猎！"
+		name = "Teary-Eyed Huntress"
 	},
 	[17421] = {
 		id = 17421,
-		name = "小鱼们的伙伴"
+		name = "Fish Are Friends"
 	},
 	[17445] = {
 		id = 17445,
-		name = "兔兔打击者"
+		name = "Bunbun Strikers"
 	},
 	[17463] = {
 		id = 17463,
-		name = "居安资深"
+		name = "For Safe Returns, Schemes Shaped"
 	},
 	[17470] = {
 		id = 17470,
-		name = "伟大“冒险”"
+		name = "Lady Yuen's Grand \"Adventure\""
 	},
 	[17471] = {
 		id = 17471,
-		name = "冒险开始！"
+		name = "Adventure Time!"
 	},
 	[17472] = {
 		id = 17472,
-		name = "冒险失败……"
+		name = "Adventure Failed..."
 	},
 	[17473] = {
 		id = 17473,
-		name = "冒险成功？"
+		name = "Adventure... Succeeded?"
 	},
 	[17474] = {
 		id = 17474,
-		name = "冒险成功！"
+		name = "Adventure Succeeded!"
 	},
 	[17480] = {
 		id = 17480,
-		name = "云飞墨舞画山水"
+		name = "Inkscape of Dancing Clouds"
 	},
 	[17481] = {
 		id = 17481,
-		name = "云飞墨舞画山水"
+		name = "Inkscape of Dancing Clouds"
 	},
 	[17482] = {
 		id = 17482,
-		name = "云飞墨舞画山水"
+		name = "Inkscape of Dancing Clouds"
 	},
 	[17501] = {
 		id = 17501,
-		name = "纵横方圆"
+		name = "Unfettered Freedom"
 	},
 	[17511] = {
 		id = 17511,
-		name = "波涛龙武"
+		name = "Dragon's Dance"
 	},
 	[17531] = {
 		id = 17531,
-		name = "虎之一拳！"
+		name = "Tiger Thrasher!"
 	},
 	[17570] = {
 		id = 17570,
-		name = "因势利导-先锋舰队"
+		name = "Into Insight - Vanguard"
 	},
 	[17571] = {
 		id = 17571,
-		name = "因势利导-主力舰队"
+		name = "Into Insight - Main Fleet"
 	},
 	[17572] = {
 		id = 17572,
-		name = "因势利导-攻"
+		name = "Into Insight - Offense"
 	},
 	[17573] = {
 		id = 17573,
-		name = "因势利导-守"
+		name = "Into Insight - Defense"
 	},
 	[17574] = {
 		id = 17574,
-		name = "因势利导-攻"
+		name = "Into Insight - Offense"
 	},
 	[17575] = {
 		id = 17575,
-		name = "因势利导-守"
+		name = "Into Insight - Defense"
 	},
 	[17581] = {
 		id = 17581,
-		name = "朝乾夕惕"
+		name = "Always Prepared, Always Vigiliant"
 	},
 	[17582] = {
 		id = 17582,
-		name = "朝乾夕惕"
+		name = "Always Prepared, Always Vigiliant"
 	},
 	[17583] = {
 		id = 17583,
-		name = "朝乾夕惕"
+		name = "Always Prepared, Always Vigiliant"
 	},
 	[17601] = {
 		id = 17601,
-		name = "风雨同舟的荣耀"
+		name = "Irradiance, to Extol Solidarity's Glory"
 	},
 	[17602] = {
 		id = 17602,
-		name = "风雨同舟的荣耀"
+		name = "Irradiance, to Extol Solidarity's Glory"
 	},
 	[17623] = {
 		id = 17623,
-		name = "如沐暖阳"
+		name = "The Strength of Gentle Sunlight"
 	},
 	[17631] = {
 		id = 17631,
-		name = "超强火力！火力全开！"
+		name = "Max Firepower! Max Cuteness!"
 	},
 	[17640] = {
 		id = 17640,
-		name = "坚如磐石的堡垒"
+		name = "Adamantine, the Walls of Forts Impregnable"
 	},
 	[17641] = {
 		id = 17641,
-		name = "坚如磐石的堡垒"
+		name = "Adamantine, the Walls of Forts Impregnable"
 	},
 	[17661] = {
 		id = 17661,
-		name = "守护之链"
+		name = "Protecting Links"
 	},
 	[17670] = {
 		id = 17670,
-		name = "涂鸦喷射"
+		name = "Creative Burst"
 	},
 	[17680] = {
 		id = 17680,
-		name = "重振精神"
+		name = "Undeniable Rip-Roaring Spirit"
 	},
 	[17681] = {
 		id = 17681,
-		name = "重振精神"
+		name = "Undeniable Rip-Roaring Spirit"
 	},
 	[17690] = {
 		id = 17690,
-		name = "女仆模式"
+		name = "Service Mode"
 	},
 	[17691] = {
 		id = 17691,
-		name = "女仆模式"
+		name = "Service Mode"
 	},
 	[17694] = {
 		id = 17694,
-		name = "女仆模式"
+		name = "Service Mode"
 	},
 	[17700] = {
 		id = 17700,
-		name = "必杀模式"
+		name = "Slayer Mode"
 	},
 	[17730] = {
 		id = 17730,
-		name = "扫除时间"
+		name = "It's Cleaning Time!"
 	},
 	[17740] = {
 		id = 17740,
-		name = "发现灰尘！"
+		name = "Every Last Speck!"
 	},
 	[17741] = {
 		id = 17741,
-		name = "发现灰尘！"
+		name = "Every Last Speck!"
 	},
 	[17769] = {
 		id = 17769,
-		name = "调和"
+		name = "Harmony"
 	},
 	[17770] = {
 		id = 17770,
-		name = "Aufführung beginnt!"
+		name = "The Performance Begins!"
 	},
 	[17772] = {
 		id = 17772,
@@ -10251,739 +10123,739 @@ pg.base.skill_data_display = {
 	},
 	[17780] = {
 		id = 17780,
-		name = "深红之歌"
+		name = "Crimson Song"
 	},
 	[17781] = {
 		id = 17781,
-		name = "深红之歌"
+		name = "Crimson Song"
 	},
 	[17782] = {
 		id = 17782,
-		name = "深红之歌"
+		name = "Crimson Song"
 	},
 	[17783] = {
 		id = 17783,
-		name = "深红之歌"
+		name = "Crimson Song"
 	},
 	[17790] = {
 		id = 17790,
-		name = "火力压制指令"
+		name = "Suppressive Fire Order"
 	},
 	[17791] = {
 		id = 17791,
-		name = "火力压制指令"
+		name = "Suppressive Fire Order"
 	},
 	[17792] = {
 		id = 17792,
-		name = "火力压制指令"
+		name = "Suppressive Fire Order"
 	},
 	[17800] = {
 		id = 17800,
-		name = "运动系女仆"
+		name = "Fit to Serve!"
 	},
 	[17801] = {
 		id = 17801,
-		name = "运动系女仆"
+		name = "Fit to Serve!"
 	},
 	[17812] = {
 		id = 17812,
-		name = "重音摇滚"
+		name = "Royal Lady of Rock 'n' Roll"
 	},
 	[17842] = {
 		id = 17842,
-		name = "深红调律"
+		name = "Alizarin Melody"
 	},
 	[17851] = {
 		id = 17851,
-		name = "强音共鸣"
+		name = "Resonant Fortissimo"
 	},
 	[17852] = {
 		id = 17852,
-		name = "强音共鸣"
+		name = "Resonant Fortissimo"
 	},
 	[17880] = {
 		id = 17880,
-		name = "舞台掌控"
+		name = "Upon an Elegant Stage"
 	},
 	[17881] = {
 		id = 17881,
-		name = "舞台掌控"
+		name = "Upon an Elegant Stage"
 	},
 	[17882] = {
 		id = 17882,
-		name = "舞台掌控"
+		name = "Upon an Elegant Stage"
 	},
 	[17890] = {
 		id = 17890,
-		name = "气氛高涨"
+		name = "Rising Passion!"
 	},
 	[17891] = {
 		id = 17891,
-		name = "气氛高涨"
+		name = "Rising Passion!"
 	},
 	[17911] = {
 		id = 17911,
-		name = "闪耀的完美舞台"
+		name = "Perfect Dazzling Stage"
 	},
 	[17942] = {
 		id = 17942,
-		name = "阵斩罪恶之斧"
+		name = "Cleaver of All Sin"
 	},
 	[17952] = {
 		id = 17952,
-		name = "加速连射"
+		name = "Speed Follow-Up"
 	},
 	[17961] = {
 		id = 17961,
-		name = "弱点连射"
+		name = "Weak Spot Follow-Up"
 	},
 	[17970] = {
 		id = 17970,
-		name = "BIG SEVEN·科罗拉多"
+		name = "Big Seven - Colorado"
 	},
 	[17982] = {
 		id = 17982,
-		name = "未褪去的荣光"
+		name = "The Light of Glory Yet Shines"
 	},
 	[150370] = {
 		id = 150370,
-		name = "盐腌鲱鱼便当"
+		name = "Salted Herring Mealkit"
 	},
 	[150382] = {
 		id = 150382,
-		name = "禁止靠近"
+		name = "You'd Better Keep Your Distance"
 	},
 	[150000] = {
 		id = 150000,
-		name = "迎接终结之剑"
+		name = "Sword of Final Judgment"
 	},
 	[150001] = {
 		id = 150001,
-		name = "迎接终结之剑"
+		name = "Sword of Final Judgment"
 	},
 	[150004] = {
 		id = 150004,
-		name = "迎接终结之剑"
+		name = "Sword of Final Judgment"
 	},
 	[150010] = {
 		id = 150010,
-		name = "变革世界之剑"
+		name = "Sword of a New Era"
 	},
 	[150012] = {
 		id = 150012,
-		name = "【审判之剑】0/6"
+		name = "Sword of a New Era (0/6)"
 	},
 	[150013] = {
 		id = 150013,
-		name = "【审判之剑】1/6"
+		name = "Sword of a New Era (1/6)"
 	},
 	[150014] = {
 		id = 150014,
-		name = "【审判之剑】2/6"
+		name = "Sword of a New Era (2/6)"
 	},
 	[150015] = {
 		id = 150015,
-		name = "【审判之剑】3/6"
+		name = "Sword of a New Era (3/6)"
 	},
 	[150016] = {
 		id = 150016,
-		name = "【审判之剑】4/6"
+		name = "Sword of a New Era (4/6)"
 	},
 	[150017] = {
 		id = 150017,
-		name = "【审判之剑】5/6"
+		name = "Sword of a New Era (5/6)"
 	},
 	[150018] = {
 		id = 150018,
-		name = "【审判之剑】6/6"
+		name = "Sword of a New Era (6/6)"
 	},
 	[150020] = {
 		id = 150020,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150021] = {
 		id = 150021,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150022] = {
 		id = 150022,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150025] = {
 		id = 150025,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150027] = {
 		id = 150027,
-		name = "『裁决之怒』12/12"
+		name = "Divine Sanction 12/12"
 	},
 	[150030] = {
 		id = 150030,
-		name = "战斗共识 『裁决之怒』"
+		name = "Divine Sanction"
 	},
 	[150040] = {
 		id = 150040,
-		name = "情感失控 『临界爆发』"
+		name = "Critical Flashpoint"
 	},
 	[150043] = {
 		id = 150043,
-		name = "情感失控 『临界爆发』"
+		name = "Critical Flashpoint"
 	},
 	[150050] = {
 		id = 150050,
-		name = "玫瑰王牌"
+		name = "Ace of Roses!"
 	},
 	[150051] = {
 		id = 150051,
-		name = "玫瑰王牌"
+		name = "Ace of Roses!"
 	},
 	[150063] = {
 		id = 150063,
-		name = "华丽谢幕"
+		name = "The Most Elegant Curtain Call!"
 	},
 	[150064] = {
 		id = 150064,
-		name = "华丽谢幕"
+		name = "The Most Elegant Curtain Call!"
 	},
 	[150070] = {
 		id = 150070,
-		name = "超重剑舞"
+		name = "It's Pretty Heavy... Isn't It?"
 	},
 	[150071] = {
 		id = 150071,
-		name = "超重剑舞"
+		name = "It's Pretty Heavy... Isn't It?"
 	},
 	[150081] = {
 		id = 150081,
-		name = "阵线守护者"
+		name = "As Long As I Can Hold On..."
 	},
 	[150082] = {
 		id = 150082,
-		name = "阵线守护者"
+		name = "As Long As I Can Hold On..."
 	},
 	[150083] = {
 		id = 150083,
-		name = "阵线守护者"
+		name = "As Long As I Can Hold On..."
 	},
 	[150090] = {
 		id = 150090,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150091] = {
 		id = 150091,
-		name = "攻击指令 『裁决降临』"
+		name = "Attack Command: Holy Judgment"
 	},
 	[150121] = {
 		id = 150121,
-		name = "试演的交响曲"
+		name = "Symphony Rehearsal"
 	},
 	[150140] = {
 		id = 150140,
-		name = "贯穿邪恶之矛"
+		name = "Muspel-Piercing Spear"
 	},
 	[150141] = {
 		id = 150141,
-		name = "贯穿邪恶之矛"
+		name = "Muspel-Piercing Spear"
 	},
 	[150150] = {
 		id = 150150,
-		name = "全智的女武神"
+		name = "Rune of Omniscience"
 	},
 	[150151] = {
 		id = 150151,
-		name = "全智的女武神"
+		name = "Rune of Omniscience"
 	},
 	[150152] = {
 		id = 150152,
-		name = "全智的女武神"
+		name = "Rune of Omniscience"
 	},
 	[150180] = {
 		id = 150180,
-		name = "永恒之魔瞳"
+		name = "Eternal Demon-Eye"
 	},
 	[150181] = {
 		id = 150181,
-		name = "永恒之魔瞳"
+		name = "Eternal Demon-Eye"
 	},
 	[150190] = {
 		id = 150190,
-		name = "贯彻正义的恶魔！"
+		name = "Rebel for Justice!"
 	},
 	[150191] = {
 		id = 150191,
-		name = "贯彻正义的恶魔！"
+		name = "Rebel for Justice!"
 	},
 	[150201] = {
 		id = 150201,
-		name = "当心水下！"
+		name = "Danger From Below!"
 	},
 	[150202] = {
 		id = 150202,
-		name = "当心水下！"
+		name = "Danger From Below!"
 	},
 	[150210] = {
 		id = 150210,
-		name = "文员之怒"
+		name = "Office Clerk's Fury"
 	},
 	[150211] = {
 		id = 150211,
-		name = "文员之怒"
+		name = "Office Clerk's Fury"
 	},
 	[150212] = {
 		id = 150212,
-		name = "文员之怒"
+		name = "Office Clerk's Fury"
 	},
 	[150220] = {
 		id = 150220,
-		name = "绝对“理性”"
+		name = "Keenly Rational"
 	},
 	[150221] = {
 		id = 150221,
-		name = "绝对“理性”"
+		name = "Keenly Rational"
 	},
 	[150230] = {
 		id = 150230,
-		name = "强袭突击"
+		name = "Eight Virtues Charge"
 	},
 	[150231] = {
 		id = 150231,
-		name = "强袭突击"
+		name = "Eight Virtues Charge"
 	},
 	[150232] = {
 		id = 150232,
-		name = "强袭突击"
+		name = "Eight Virtues Charge"
 	},
 	[150240] = {
 		id = 150240,
-		name = "骑士屹立于此"
+		name = "The Chevalier is Here"
 	},
 	[150243] = {
 		id = 150243,
-		name = "骑士屹立于此"
+		name = "The Chevalier is Here"
 	},
 	[150246] = {
 		id = 150246,
-		name = "骑士屹立于此"
+		name = "The Chevalier is Here"
 	},
 	[150248] = {
 		id = 150248,
-		name = "骑士屹立于此"
+		name = "The Chevalier is Here"
 	},
 	[150251] = {
 		id = 150251,
-		name = "审判的变奏曲"
+		name = "Variations on Judgment"
 	},
 	[150272] = {
 		id = 150272,
-		name = "高速无人机支援"
+		name = "Fast and Reliable Drone Transport"
 	},
 	[150275] = {
 		id = 150275,
-		name = "高速无人机支援"
+		name = "Fast and Reliable Drone Transport"
 	},
 	[150280] = {
 		id = 150280,
-		name = "情绪数据模块"
+		name = "Emotionalization Module"
 	},
 	[150281] = {
 		id = 150281,
-		name = "情绪数据模块"
+		name = "Emotionalization Module"
 	},
 	[150291] = {
 		id = 150291,
-		name = "怒涛连打"
+		name = "Followup Combo"
 	},
 	[150301] = {
 		id = 150301,
-		name = "防御架势-反击"
+		name = "Defensive Stance - Counterattack"
 	},
 	[150320] = {
 		id = 150320,
-		name = "电气功率MAX！"
+		name = "Max Voltage!"
 	},
 	[150323] = {
 		id = 150323,
-		name = "电气功率MAX！"
+		name = "Max Voltage!"
 	},
 	[150330] = {
 		id = 150330,
-		name = "焰引裂切"
+		name = "Firestarter's Shredders"
 	},
 	[150331] = {
 		id = 150331,
-		name = "焰引裂切"
+		name = "Firestarter's Shredders"
 	},
 	[150332] = {
 		id = 150332,
-		name = "焰引裂切"
+		name = "Firestarter's Shredders"
 	},
 	[150334] = {
 		id = 150334,
-		name = "焰引裂切"
+		name = "Firestarter's Shredders"
 	},
 	[150340] = {
 		id = 150340,
-		name = "微醺的御风之盾"
+		name = "Tipsy Wind-Breaker"
 	},
 	[150341] = {
 		id = 150341,
-		name = "微醺的御风之盾"
+		name = "Tipsy Wind-Breaker"
 	},
 	[150342] = {
 		id = 150342,
-		name = "微醺的御风之盾"
+		name = "Tipsy Wind-Breaker"
 	},
 	[150343] = {
 		id = 150343,
-		name = "微醺的御风之盾"
+		name = "Tipsy Wind-Breaker"
 	},
 	[150350] = {
 		id = 150350,
-		name = "破茧成蝶"
+		name = "From Chrysalis to Butterfly"
 	},
 	[150351] = {
 		id = 150351,
-		name = "破茧成蝶"
+		name = "From Chrysalis to Butterfly"
 	},
 	[150352] = {
 		id = 150352,
-		name = "破茧成蝶"
+		name = "From Chrysalis to Butterfly"
 	},
 	[150353] = {
 		id = 150353,
-		name = "破茧成蝶"
+		name = "From Chrysalis to Butterfly"
 	},
 	[150360] = {
 		id = 150360,
-		name = "蝴蝶的蓄势一击"
+		name = "Float Like a Butterfly, Sting Like a Bee"
 	},
 	[150391] = {
 		id = 150391,
-		name = "高速无人机支援"
+		name = "Fast and Reliable Drone Transport"
 	},
 	[150403] = {
 		id = 150403,
-		name = "瑞彩祥云"
+		name = "I'll Share My Luck With You, Chirp!"
 	},
 	[150411] = {
 		id = 150411,
-		name = "凤奏鸾鸣"
+		name = "Phoenix Tender"
 	},
 	[150420] = {
 		id = 150420,
-		name = "刃锋破浪"
+		name = "Wavesplitter's Edge"
 	},
 	[150422] = {
 		id = 150422,
-		name = "刃锋破浪"
+		name = "Wavesplitter's Edge"
 	},
 	[150430] = {
 		id = 150430,
-		name = "流影随行"
+		name = "Amidst Flowing Shadows"
 	},
 	[150431] = {
 		id = 150431,
-		name = "流影随行"
+		name = "Amidst Flowing Shadows"
 	},
 	[150433] = {
 		id = 150433,
-		name = "流影随行"
+		name = "Amidst Flowing Shadows"
 	},
 	[150442] = {
 		id = 150442,
-		name = "终结一击"
+		name = "Final Bound"
 	},
 	[150474] = {
 		id = 150474,
-		name = "破一役以破全局"
+		name = "From Advantage Seized, Victory Bequeathed"
 	},
 	[150481] = {
 		id = 150481,
-		name = "先手必胜"
+		name = "Preemptive Strike"
 	},
 	[150492] = {
 		id = 150492,
-		name = "幸运的白兔"
+		name = "White Rabbit's Fortune"
 	},
 	[150501] = {
 		id = 150501,
-		name = "三籁之布阵"
+		name = "Three-Tranquilities Formation"
 	},
 	[150502] = {
 		id = 150502,
-		name = "三籁之布阵"
+		name = "Three-Tranquilities Formation"
 	},
 	[150551] = {
 		id = 150551,
-		name = "狩猎行动"
+		name = "A Void Dance"
 	},
 	[150561] = {
 		id = 150561,
-		name = "炮火洗礼"
+		name = "Abyssal Baptism"
 	},
 	[150570] = {
 		id = 150570,
-		name = "深渊魔影"
+		name = "Phantom of the Deep"
 	},
 	[150571] = {
 		id = 150571,
-		name = "深渊魔影"
+		name = "Phantom of the Deep"
 	},
 	[150591] = {
 		id = 150591,
-		name = "聚宝船与守护者"
+		name = "Guardian of Treasures"
 	},
 	[150596] = {
 		id = 150596,
-		name = "聚宝船与守护者"
+		name = "Guardian of Treasures"
 	},
 	[150601] = {
 		id = 150601,
-		name = "深海的回音"
+		name = "Dolphin's Echoes"
 	},
 	[150610] = {
 		id = 150610,
-		name = "深海的加护"
+		name = "Dolphin's Protection"
 	},
 	[150611] = {
 		id = 150611,
-		name = "深海的加护"
+		name = "Dolphin's Protection"
 	},
 	[150612] = {
 		id = 150612,
-		name = "深海的加护"
+		name = "Dolphin's Protection"
 	},
 	[150631] = {
 		id = 150631,
-		name = "暴风的追击者"
+		name = "Stormchaser"
 	},
 	[150632] = {
 		id = 150632,
-		name = "暴风的追击者"
+		name = "Stormchaser"
 	},
 	[150640] = {
 		id = 150640,
-		name = "烈酒与秘药"
+		name = "\"Spiritual\" Healing"
 	},
 	[150642] = {
 		id = 150642,
-		name = "烈酒与秘药"
+		name = "\"Spiritual\" Healing"
 	},
 	[150670] = {
 		id = 150670,
-		name = "爆燃灼印"
+		name = "Thundering Seal"
 	},
 	[150671] = {
 		id = 150671,
-		name = "爆燃灼印"
+		name = "Thundering Seal"
 	},
 	[150673] = {
 		id = 150673,
-		name = "爆燃灼印"
+		name = "Thundering Seal"
 	},
 	[150680] = {
 		id = 150680,
-		name = "跃动心火"
+		name = "Soaring Heart"
 	},
 	[150683] = {
 		id = 150683,
-		name = "防空炮，部署！"
+		name = "Anti-Air Guns, Fire!"
 	},
 	[150690] = {
 		id = 150690,
-		name = "雷火守护"
+		name = "Thunder Guardian"
 	},
 	[150691] = {
 		id = 150691,
-		name = "雷火守护"
+		name = "Thunder Guardian"
 	},
 	[150702] = {
 		id = 150702,
-		name = "跃动心火"
+		name = "Soaring Heart"
 	},
 	[150730] = {
 		id = 150730,
-		name = "冲击之盾"
+		name = "Shocking Shield"
 	},
 	[150731] = {
 		id = 150731,
-		name = "冲击之盾"
+		name = "Shocking Shield"
 	},
 	[150740] = {
 		id = 150740,
-		name = "布雷作战"
+		name = "Simple-Yet-Flashy DIY"
 	},
 	[150741] = {
 		id = 150741,
-		name = "布雷作战"
+		name = "Simple-Yet-Flashy DIY"
 	},
 	[150781] = {
 		id = 150781,
-		name = "英勇者的无畏之翼"
+		name = "Dauntless Wings of the Hero"
 	},
 	[150650] = {
 		id = 150650,
-		name = "小哭包的布雷战术"
+		name = "Tearful Torpedo Tactics"
 	},
 	[150652] = {
 		id = 150652,
-		name = "小哭包的布雷战术"
+		name = "Tearful Torpedo Tactics"
 	},
 	[150660] = {
 		id = 150660,
-		name = "鼓起勇气的守护"
+		name = "Spirited Defense"
 	},
 	[150761] = {
 		id = 150761,
-		name = "破坏者的毁灭之刃"
+		name = "Ruinous Blade of the Slayer"
 	},
 	[150790] = {
 		id = 150790,
-		name = "严加管教"
+		name = "Strict and Rigorous"
 	},
 	[150791] = {
 		id = 150791,
-		name = "严加管教"
+		name = "Strict and Rigorous"
 	},
 	[150800] = {
 		id = 150800,
-		name = "扫尘迎春 "
+		name = "Spring Cleaning"
 	},
 	[150802] = {
 		id = 150802,
-		name = "扫尘迎春 "
+		name = "Spring Cleaning"
 	},
 	[150810] = {
 		id = 150810,
-		name = "措置裕如"
+		name = "Emergency Measures"
 	},
 	[150820] = {
 		id = 150820,
-		name = "履险如夷"
+		name = "Effortless Crisis Response"
 	},
 	[150851] = {
 		id = 150851,
-		name = "秀甲乾坤"
+		name = "Intoxicating Beauty"
 	},
 	[150880] = {
 		id = 150880,
-		name = "“周密”诡计"
+		name = "Fu Po's \"Masterstroke\""
 	},
 	[150881] = {
 		id = 150881,
-		name = "“周密”诡计"
+		name = "Fu Po's \"Masterstroke\""
 	},
 	[150882] = {
 		id = 150882,
-		name = "“周密”诡计"
+		name = "Fu Po's \"Masterstroke\""
 	},
 	[150883] = {
 		id = 150883,
-		name = "“周密”诡计"
+		name = "Fu Po's \"Masterstroke\""
 	},
 	[150884] = {
 		id = 150884,
-		name = "“周密”诡计"
+		name = "Fu Po's \"Masterstroke\""
 	},
 	[150890] = {
 		id = 150890,
-		name = "燎竹除旧"
+		name = "Blast Off Into the Future"
 	},
 	[150900] = {
 		id = 150900,
-		name = "战术分析完毕！"
+		name = "Combat Analysis Complete!"
 	},
 	[150901] = {
 		id = 150901,
-		name = "战术分析完毕！"
+		name = "Combat Analysis Complete!"
 	},
 	[150910] = {
 		id = 150910,
-		name = "威严的撒丁之花"
+		name = "Strict Flower of Sardegna"
 	},
 	[150920] = {
 		id = 150920,
-		name = "野蛮颂歌"
+		name = "Odi Barbare"
 	},
 	[150930] = {
 		id = 150930,
-		name = "三月的歌"
+		name = "Il Canto di Marzo"
 	},
 	[150958] = {
 		id = 150958,
-		name = "白颜料"
+		name = "Pearlescent Paint"
 	},
 	[150961] = {
 		id = 150961,
-		name = "超级艺术家-白颜料"
+		name = "Apex Artist - Pearlescent Paint"
 	},
 	[150962] = {
 		id = 150962,
-		name = "超级艺术家-神光加护"
+		name = "Apex Artist - Artist's Blessing"
 	},
 	[150963] = {
 		id = 150963,
-		name = "超级艺术家-艺术献身"
+		name = "Apex Artist - Artist's Dedication"
 	},
 	[150964] = {
 		id = 150964,
-		name = "超级艺术家-黑颜料"
+		name = "Apex Artist - Jet-Black Paint"
 	},
 	[150968] = {
 		id = 150968,
-		name = "超级艺术家"
+		name = "Apex Artist"
 	},
 	[150981] = {
 		id = 150981,
-		name = "危险等级上升！"
+		name = "Thrill-Seeker"
 	},
 	[150982] = {
 		id = 150982,
-		name = "危险等级上升！"
+		name = "Thrill-Seeker"
 	},
 	[150992] = {
 		id = 150992,
-		name = "天生的冒险家"
+		name = "Born Adventurer"
 	},
 	[150993] = {
 		id = 150993,
-		name = "天生的冒险家"
+		name = "Born Adventurer"
 	},
 	[151001] = {
 		id = 151001,
-		name = "最厉害的米勒大人"
+		name = "Your GOAT is Here!"
 	},
 	[151002] = {
 		id = 151002,
-		name = "最酷的米勒大人"
+		name = "Too Cool for School!"
 	},
 	[151010] = {
 		id = 151010,
-		name = "不良少女登场"
+		name = "Bad Girls in the House!"
 	},
 	[151013] = {
 		id = 151013,
-		name = "不良少女登场"
+		name = "Bad Girls in the House!"
 	},
 	[151020] = {
 		id = 151020,
-		name = "海空强袭"
+		name = "Sea-Air Strike"
 	},
 	[151021] = {
 		id = 151021,
-		name = "海空强袭"
+		name = "Sea-Air Strike"
 	},
 	[151030] = {
 		id = 151030,
-		name = "光辉突进"
+		name = "Glorious Advance"
 	},
 	[151041] = {
 		id = 151041,
-		name = "灵愈之盾"
+		name = "Restorative Cocoon"
 	},
 	[151051] = {
 		id = 151051,
-		name = "探索之谕"
+		name = "Exploring a New World"
 	},
 	[151060] = {
 		id = 151060,
@@ -10999,63 +10871,63 @@ pg.base.skill_data_display = {
 	},
 	[151070] = {
 		id = 151070,
-		name = "浴火的奇迹"
+		name = "Flame-Bathed Miracle"
 	},
 	[151080] = {
 		id = 151080,
-		name = "蝶影叶岚"
+		name = "Pixiedust Storm"
 	},
 	[151081] = {
 		id = 151081,
-		name = "蝶影叶岚"
+		name = "Pixiedust Storm"
 	},
 	[151091] = {
 		id = 151091,
-		name = "青空圣御"
+		name = "Welkin Blessing"
 	},
 	[151102] = {
 		id = 151102,
-		name = "天才直感"
+		name = "Genius's Intuition"
 	},
 	[151115] = {
 		id = 151115,
-		name = "钻头啊转啊转"
+		name = "Spin-spin Goes the Drill"
 	},
 	[151111] = {
 		id = 151111,
-		name = "机械龙虾维修者"
+		name = "Mechanical Lobster Repairer"
 	},
 	[151112] = {
 		id = 151112,
-		name = "自动反击系统"
+		name = "Automatic Counterattack System"
 	},
 	[151113] = {
 		id = 151113,
-		name = "“肯定会爆炸”"
+		name = "\"Will Absolutely Explode!\""
 	},
 	[151120] = {
 		id = 151120,
-		name = "极地巨熊的怒涛"
+		name = "Raging Polar Bear of the Distant Sea"
 	},
 	[151121] = {
 		id = 151121,
-		name = "极地巨熊的怒涛"
+		name = "Raging Polar Bear of the Distant Sea"
 	},
 	[151122] = {
 		id = 151122,
-		name = "极地巨熊的怒涛"
+		name = "Raging Polar Bear of the Distant Sea"
 	},
 	[151130] = {
 		id = 151130,
-		name = "雪原的摇篮曲"
+		name = "Lullaby of the Snowy Plains"
 	},
 	[151131] = {
 		id = 151131,
-		name = "雪原的摇篮曲"
+		name = "Lullaby of the Snowy Plains"
 	},
 	[151132] = {
 		id = 151132,
-		name = "雪原的摇篮曲"
+		name = "Lullaby of the Snowy Plains"
 	},
 	[151141] = {
 		id = 151141,
@@ -11063,111 +10935,111 @@ pg.base.skill_data_display = {
 	},
 	[151151] = {
 		id = 151151,
-		name = "深渊之国"
+		name = "To My Abyssal Kingdom!"
 	},
 	[151161] = {
 		id = 151161,
-		name = "噬甜之颚 "
+		name = "Sweet-Toothed Awful Jawful"
 	},
 	[151163] = {
 		id = 151163,
-		name = "噬甜之颚 "
+		name = "Sweet-Toothed Awful Jawful"
 	},
 	[151164] = {
 		id = 151164,
-		name = "噬甜之颚 "
+		name = "Sweet-Toothed Awful Jawful"
 	},
 	[151170] = {
 		id = 151170,
-		name = "完美猎手"
+		name = "The Flawless Hunt"
 	},
 	[151180] = {
 		id = 151180,
-		name = "狩猎标记"
+		name = "Crimson Killmark"
 	},
 	[151191] = {
 		id = 151191,
-		name = "萤火虫撤离！"
+		name = "Glowworm Retreat!"
 	},
 	[151192] = {
 		id = 151192,
-		name = "萤火虫破敌！"
+		name = "Glowworm Breakthrough!"
 	},
 	[151211] = {
 		id = 151211,
-		name = "警戒汪，出击！"
+		name = "Dogged Pursuit"
 	},
 	[151224] = {
 		id = 151224,
-		name = "万象烬灭之炎"
+		name = "Worldgorging Lionflame"
 	},
 	[151262] = {
 		id = 151262,
-		name = "沐光辉域"
+		name = "Upon This Corpus, Shall Irradiance Adorn"
 	},
 	[151280] = {
 		id = 151280,
-		name = "太阳神的辉光"
+		name = "Sun God's Radiance"
 	},
 	[151281] = {
 		id = 151281,
-		name = "太阳神的辉光"
+		name = "Sun God's Radiance"
 	},
 	[151290] = {
 		id = 151290,
-		name = "星象指引"
+		name = "Guidance of the Stars"
 	},
 	[151291] = {
 		id = 151291,
-		name = "星象指引"
+		name = "Guidance of the Stars"
 	},
 	[151292] = {
 		id = 151292,
-		name = "星象指引"
+		name = "Guidance of the Stars"
 	},
 	[151293] = {
 		id = 151293,
-		name = "星象指引"
+		name = "Guidance of the Stars"
 	},
 	[151302] = {
 		id = 151302,
-		name = "运筹帷幄之中"
+		name = "Thus Moves the King"
 	},
 	[151312] = {
 		id = 151312,
-		name = "恪尽其责"
+		name = "By This Power, Shall Duty be Done"
 	},
 	[151321] = {
 		id = 151321,
-		name = "临界演算"
+		name = "Threshold Computation"
 	},
 	[151341] = {
 		id = 151341,
-		name = "灵光一现的战术"
+		name = "Bespoke Tactics!"
 	},
 	[151342] = {
 		id = 151342,
-		name = "灵光一现的战术"
+		name = "Bespoke Tactics!"
 	},
 	[151343] = {
 		id = 151343,
-		name = "灵光一现的战术"
+		name = "Bespoke Tactics!"
 	},
 	[151344] = {
 		id = 151344,
-		name = "灵光一现的战术"
+		name = "Bespoke Tactics!"
 	},
 	[151345] = {
 		id = 151345,
-		name = "灵光一现的战术"
+		name = "Bespoke Tactics!"
 	},
 	[151351] = {
 		id = 151351,
-		name = "战略顾问的从容"
+		name = "Consultant's Gotta Strut!"
 	},
 	[151352] = {
 		id = 151352,
-		name = "战略顾问的从容"
+		name = "Consultant's Gotta Strut!"
 	},
 	[151361] = {
 		id = 151361,
@@ -11179,31 +11051,31 @@ pg.base.skill_data_display = {
 	},
 	[18010] = {
 		id = 18010,
-		name = "MKV型穿甲弹 +"
+		name = "MKV-Class AP Shells 194/160+"
 	},
 	[18040] = {
 		id = 18040,
-		name = "底力爆发 +"
+		name = "Against the Current +"
 	},
 	[18041] = {
 		id = 18041,
-		name = "底力爆发 +"
+		name = "Against the Current +"
 	},
 	[18050] = {
 		id = 18050,
-		name = "心神合一 +"
+		name = "Body and Soul +"
 	},
 	[18070] = {
 		id = 18070,
-		name = "神话之传承 +"
+		name = "A Legend's Inheritance +"
 	},
 	[18071] = {
 		id = 18071,
-		name = "神话之传承 +"
+		name = "A Legend's Inheritance +"
 	},
 	[18100] = {
 		id = 18100,
-		name = "全方位装甲 +"
+		name = "Well-Rounded Armor +"
 	},
 	[18120] = {
 		id = 18120,
@@ -11211,335 +11083,335 @@ pg.base.skill_data_display = {
 	},
 	[18130] = {
 		id = 18130,
-		name = "飞行NG! +"
+		name = "No-Fly Zone!+ "
 	},
 	[18131] = {
 		id = 18131,
-		name = "飞行NG! +"
+		name = "No-Fly Zone!+ "
 	},
 	[18150] = {
 		id = 18150,
-		name = "Iron Sight Caliber +"
+		name = "Iron Sight Caliber+ "
 	},
 	[18180] = {
 		id = 18180,
-		name = "{namecode:164}流·六莲雷 +"
+		name = "Kitakaze Style - Lotus Torpedoes+ "
 	},
 	[18181] = {
 		id = 18181,
-		name = "{namecode:164}流·六莲雷 +"
+		name = "Kitakaze Style - Lotus Torpedoes+ "
 	},
 	[18200] = {
 		id = 18200,
-		name = "战场嗅觉 +"
+		name = "Mizuho's Intuition+"
 	},
 	[18210] = {
 		id = 18210,
-		name = "特殊炮击训练 +"
+		name = "Special Gunnery Training+ "
 	},
 	[18211] = {
 		id = 18211,
-		name = "特殊炮击训练 +"
+		name = "Special Gunnery Training+ "
 	},
 	[18212] = {
 		id = 18212,
-		name = "特殊炮击训练 +"
+		name = "Special Gunnery Training+ "
 	},
 	[18213] = {
 		id = 18213,
-		name = "特殊炮击训练 +"
+		name = "Special Gunnery Training+ "
 	},
 	[18214] = {
 		id = 18214,
-		name = "特殊炮击训练 +"
+		name = "Special Gunnery Training+ "
 	},
 	[18220] = {
 		id = 18220,
-		name = "破坏的交响曲 +"
+		name = "Symphony of Destruction+"
 	},
 	[18222] = {
 		id = 18222,
-		name = "破坏的交响曲 +"
+		name = "Symphony of Destruction+"
 	},
 	[18240] = {
 		id = 18240,
-		name = "暗黑的狂想曲 +"
+		name = "Rhapsody of Darkness+"
 	},
 	[18250] = {
 		id = 18250,
-		name = "感知抑制模块 +"
+		name = "Emotion Inhibition Module+ "
 	},
 	[18252] = {
 		id = 18252,
-		name = "感知抑制模块 +"
+		name = "Emotion Inhibition Module+ "
 	},
 	[18270] = {
 		id = 18270,
-		name = "柴郡PowerUp！ +"
+		name = "Bounce Right Back+"
 	},
 	[18271] = {
 		id = 18271,
-		name = "柴郡PowerUp！ +"
+		name = "Bounce Right Back+"
 	},
 	[18272] = {
 		id = 18272,
-		name = "柴郡PowerUp！ +"
+		name = "Bounce Right Back+"
 	},
 	[18290] = {
 		id = 18290,
-		name = "勇斗的Privateer +"
+		name = "The Fearless Privateer+"
 	},
 	[18291] = {
 		id = 18291,
-		name = "勇斗的Privateer +"
+		name = "The Fearless Privateer+"
 	},
 	[18292] = {
 		id = 18292,
-		name = "勇斗的Privateer +"
+		name = "The Fearless Privateer+"
 	},
 	[18293] = {
 		id = 18293,
-		name = "勇斗的Privateer +"
+		name = "The Fearless Privateer+"
 	},
 	[18300] = {
 		id = 18300,
-		name = "断罪之炎 +"
+		name = "Flintlock Burst+"
 	},
 	[18301] = {
 		id = 18301,
-		name = "断罪之炎 +"
+		name = "Flintlock Burst+"
 	},
 	[18320] = {
 		id = 18320,
-		name = "「Ausgewogen」 +"
+		name = "Ausgewogen+"
 	},
 	[18322] = {
 		id = 18322,
-		name = "「Ausgewogen」 +"
+		name = "Ausgewogen+"
 	},
 	[18340] = {
 		id = 18340,
-		name = "贯穿之轰雷 +"
+		name = "Herteitr's Rolling Thunder+"
 	},
 	[18350] = {
 		id = 18350,
-		name = "辅助机构「S.P.」 +"
+		name = "Augmenting Mechanism: Setzer Principle+"
 	},
 	[18351] = {
 		id = 18351,
-		name = "辅助机构「S.P.」 +"
+		name = "Augmenting Mechanism: Setzer Principle+"
 	},
 	[18352] = {
 		id = 18352,
-		name = "辅助机构「S.P.」 +"
+		name = "Augmenting Mechanism: Setzer Principle+"
 	},
 	[18380] = {
 		id = 18380,
-		name = "天雷罪灭 +"
+		name = "Sky-Rending Retribution+"
 	},
 	[18400] = {
 		id = 18400,
-		name = "白龙云影 +"
+		name = "The Great One's Shadow+"
 	},
 	[18401] = {
 		id = 18401,
-		name = "白龙云影 +"
+		name = "The Great One's Shadow+"
 	},
 	[18402] = {
 		id = 18402,
-		name = "白龙云影 +"
+		name = "The Great One's Shadow+"
 	},
 	[18440] = {
 		id = 18440,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18441] = {
 		id = 18441,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18442] = {
 		id = 18442,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18443] = {
 		id = 18443,
-		name = "Riddle a riddle +"
+		name = "Riddle Me This+"
 	},
 	[18460] = {
 		id = 18460,
-		name = "洞察技术-思想掌握 +"
+		name = "Hex-Principle of Insight+"
 	},
 	[18461] = {
 		id = 18461,
-		name = "洞察技术-思想掌握 +"
+		name = "Hex-Principle of Insight+"
 	},
 	[18490] = {
 		id = 18490,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[18491] = {
 		id = 18491,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[18492] = {
 		id = 18492,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[18493] = {
 		id = 18493,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[18495] = {
 		id = 18495,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[18500] = {
 		id = 18500,
-		name = "野心与恩泽之威 +"
+		name = "Il Milione+"
 	},
 	[18501] = {
 		id = 18501,
-		name = "野心与恩泽之威 +"
+		name = "Il Milione+"
 	},
 	[18550] = {
 		id = 18550,
-		name = "邪龙舰装·欲求之刃 +"
+		name = "Lindwurm - Devouring Fang+"
 	},
 	[18551] = {
 		id = 18551,
-		name = "邪龙舰装·欲求之刃 +"
+		name = "Lindwurm - Devouring Fang+"
 	},
 	[18552] = {
 		id = 18552,
-		name = "邪龙舰装·欲求之刃 +"
+		name = "Lindwurm - Devouring Fang+"
 	},
 	[18590] = {
 		id = 18590,
-		name = "炮火，倾泻如瀑！ +"
+		name = "Blazing Battledance+"
 	},
 	[18591] = {
 		id = 18591,
-		name = "炮火，倾泻如瀑！ +"
+		name = "Blazing Battledance+"
 	},
 	[18610] = {
 		id = 18610,
-		name = "辅助试验·冻结射击 +"
+		name = "Contingency Experiment - Suppressive Fire+"
 	},
 	[18621] = {
 		id = 18621,
-		name = "弱者的苦痛之源 +"
+		name = "Tormentor of the Weak+"
 	},
 	[18730] = {
 		id = 18730,
-		name = "战斗命令「急袭突破」 +"
+		name = "Apotheosis: Flourishing Assault+"
 	},
 	[18731] = {
 		id = 18731,
-		name = "战斗命令「急袭突破」 +"
+		name = "Apotheosis: Flourishing Assault+"
 	},
 	[18732] = {
 		id = 18732,
-		name = "战斗命令「急袭突破」 +"
+		name = "Apotheosis: Flourishing Assault+"
 	},
 	[18761] = {
 		id = 18761,
-		name = "水龙神威 +"
+		name = "Divine Presence+"
 	},
 	[18762] = {
 		id = 18762,
-		name = "水龙神威 +"
+		name = "Divine Presence+"
 	},
 	[18763] = {
 		id = 18763,
-		name = "水龙神威 +"
+		name = "Divine Presence+"
 	},
 	[19000] = {
 		id = 19000,
-		name = "塞壬之敌"
+		name = "Siren Killer Ⅰ"
 	},
 	[19001] = {
 		id = 19001,
-		name = "塞壬之敌"
+		name = "Siren Killer Ⅱ"
 	},
 	[19002] = {
 		id = 19002,
-		name = "塞壬之敌"
+		name = "Siren Killer Ⅲ"
 	},
 	[19010] = {
 		id = 19010,
-		name = "MKV型穿甲弹"
+		name = "MKV-Class AP Shell"
 	},
 	[19020] = {
 		id = 19020,
-		name = "海之女神"
+		name = "Goddess of the Sea"
 	},
 	[19030] = {
 		id = 19030,
-		name = "君王之睥睨 "
+		name = "Monarch's Coercion"
 	},
 	[19031] = {
 		id = 19031,
-		name = "君王之睥睨 "
+		name = "Monarch's Coercion"
 	},
 	[19040] = {
 		id = 19040,
-		name = "底力爆发"
+		name = "Against the Current"
 	},
 	[19041] = {
 		id = 19041,
-		name = "底力爆发"
+		name = "Against the Current"
 	},
 	[19050] = {
 		id = 19050,
-		name = "心神合一"
+		name = "Body and Soul"
 	},
 	[19060] = {
 		id = 19060,
-		name = "一闪"
+		name = "Flash of Lightning"
 	},
 	[19070] = {
 		id = 19070,
-		name = "神话之传承"
+		name = "A Legend's Inheritance"
 	},
 	[19080] = {
 		id = 19080,
-		name = "特殊护甲"
+		name = "Specialized Armor"
 	},
 	[19090] = {
 		id = 19090,
-		name = "专业装填手"
+		name = "Expert Loader"
 	},
 	[19091] = {
 		id = 19091,
-		name = "专业装填手"
+		name = "Expert Loader"
 	},
 	[19100] = {
 		id = 19100,
-		name = "全方位装甲"
+		name = "Well-Rounded Armor"
 	},
 	[19110] = {
 		id = 19110,
-		name = "高爆穿甲弹"
+		name = "Augmented HE Ammo"
 	},
 	[19120] = {
 		id = 19120,
-		name = "Engine boost"
+		name = "Engine Boost"
 	},
 	[19130] = {
 		id = 19130,
-		name = "飞行NG!"
+		name = "No-Fly Zone!"
 	},
 	[19131] = {
 		id = 19131,
-		name = "飞行NG!"
+		name = "No-Fly Zone!"
 	},
 	[19140] = {
 		id = 19140,
-		name = "两手准备"
+		name = "Dual Nock"
 	},
 	[19141] = {
 		id = 19141,
-		name = "两手准备"
+		name = "Dual Nock"
 	},
 	[19150] = {
 		id = 19150,
@@ -11555,103 +11427,103 @@ pg.base.skill_data_display = {
 	},
 	[19170] = {
 		id = 19170,
-		name = "{namecode:164}流·一致斩"
+		name = "Kitakaze Style - Horizon Splitter"
 	},
 	[19180] = {
 		id = 19180,
-		name = "{namecode:164}流·六莲雷"
+		name = "Kitakaze Style - Lotus Torpedoes"
 	},
 	[19181] = {
 		id = 19181,
-		name = "{namecode:164}流·六莲雷"
+		name = "Kitakaze Style - Lotus Torpedoes"
 	},
 	[19190] = {
 		id = 19190,
-		name = "怒火连峰"
+		name = "Blazing Peaks"
 	},
 	[19191] = {
 		id = 19191,
-		name = "怒火连峰"
+		name = "Blazing Peaks"
 	},
 	[19200] = {
 		id = 19200,
-		name = "战场嗅觉"
+		name = "Mizuho's Intuition"
 	},
 	[19210] = {
 		id = 19210,
-		name = "特殊炮击训练"
+		name = "Special Gunnery Training"
 	},
 	[19211] = {
 		id = 19211,
-		name = "特殊炮击训练"
+		name = "Special Gunnery Training"
 	},
 	[19212] = {
 		id = 19212,
-		name = "特殊炮击训练"
+		name = "Special Gunnery Training"
 	},
 	[19213] = {
 		id = 19213,
-		name = "特殊炮击训练"
+		name = "Special Gunnery Training"
 	},
 	[19214] = {
 		id = 19214,
-		name = "特殊炮击训练"
+		name = "Special Gunnery Training"
 	},
 	[19220] = {
 		id = 19220,
-		name = "破坏的交响曲"
+		name = "Symphony of Destruction"
 	},
 	[19221] = {
 		id = 19221,
-		name = "破坏的交响曲"
+		name = "Symphony of Destruction"
 	},
 	[19230] = {
 		id = 19230,
-		name = "混沌的奏鸣曲"
+		name = "Sonata of Chaos"
 	},
 	[19231] = {
 		id = 19231,
-		name = "混沌的奏鸣曲"
+		name = "Sonata of Chaos"
 	},
 	[19240] = {
 		id = 19240,
-		name = "暗黑的狂想曲"
+		name = "Rhapsody of Darkness"
 	},
 	[19241] = {
 		id = 19241,
-		name = "暗黑的狂想曲"
+		name = "Rhapsody of Darkness"
 	},
 	[19242] = {
 		id = 19242,
-		name = "暗黑的狂想曲"
+		name = "Rhapsody of Darkness"
 	},
 	[19250] = {
 		id = 19250,
-		name = "感知抑制模块"
+		name = "Emotion Inhibition Module"
 	},
 	[19260] = {
 		id = 19260,
-		name = "精密操作协议"
+		name = "Precision Salvo Protocol"
 	},
 	[19261] = {
 		id = 19261,
-		name = "精密操作协议"
+		name = "Precision Salvo Protocol"
 	},
 	[19262] = {
 		id = 19262,
-		name = "精密操作协议"
+		name = "Precision Salvo Protocol"
 	},
 	[19263] = {
 		id = 19263,
-		name = "精密操作协议"
+		name = "Precision Salvo Protocol"
 	},
 	[19270] = {
 		id = 19270,
-		name = "柴郡PowerUp！"
+		name = "Bounce Right Back "
 	},
 	[19271] = {
 		id = 19271,
-		name = "柴郡PowerUp！"
+		name = "Bounce Right Back "
 	},
 	[19280] = {
 		id = 19280,
@@ -11663,2495 +11535,2423 @@ pg.base.skill_data_display = {
 	},
 	[19291] = {
 		id = 19291,
-		name = "勇斗的Privateer"
+		name = "The Fearless Privateer "
 	},
 	[19292] = {
 		id = 19292,
-		name = "勇斗的Privateer"
+		name = "The Fearless Privateer "
 	},
 	[19300] = {
 		id = 19300,
-		name = "断罪之炎"
+		name = "Flintlock Burst "
 	},
 	[19301] = {
 		id = 19301,
-		name = "断罪之炎"
+		name = "Flintlock Burst "
 	},
 	[19302] = {
 		id = 19302,
-		name = "断罪之炎"
+		name = "Flintlock Burst "
 	},
 	[19311] = {
 		id = 19311,
-		name = "反击之盾"
+		name = "Retaliatory Shield "
 	},
 	[19312] = {
 		id = 19312,
-		name = "反击之盾"
+		name = "Retaliatory Shield "
 	},
 	[19320] = {
 		id = 19320,
-		name = "「Ausgewogen」"
+		name = "Ausgewogen "
 	},
 	[19321] = {
 		id = 19321,
-		name = "「Ausgewogen」"
+		name = "Ausgewogen "
 	},
 	[19322] = {
 		id = 19322,
-		name = "「Ausgewogen」"
+		name = "Ausgewogen "
 	},
 	[19330] = {
 		id = 19330,
-		name = "求知之贤眼"
+		name = "Mímir's Keen Eyes "
 	},
 	[19331] = {
 		id = 19331,
-		name = "求知之贤眼"
+		name = "Mímir's Keen Eyes "
 	},
 	[19340] = {
 		id = 19340,
-		name = "贯穿之轰雷"
+		name = "Herteitr's Rolling Thunder "
 	},
 	[19350] = {
 		id = 19350,
-		name = "辅助机构「S.P.」"
+		name = "Augmenting Mechanism: Setzer Principle "
 	},
 	[19351] = {
 		id = 19351,
-		name = "辅助机构「S.P.」"
+		name = "Augmenting Mechanism: Setzer Principle "
 	},
 	[19352] = {
 		id = 19352,
-		name = "辅助机构「S.P.」"
+		name = "Augmenting Mechanism: Setzer Principle "
 	},
 	[19360] = {
 		id = 19360,
-		name = "代行机构「E.E.」"
+		name = "Substitute Mechanism: Holy Thurible "
 	},
 	[19361] = {
 		id = 19361,
-		name = "代行机构「E.E.」"
+		name = "Substitute Mechanism: Holy Thurible "
 	},
 	[19362] = {
 		id = 19362,
-		name = "代行机构「E.E.」"
+		name = "Substitute Mechanism: Holy Thurible "
 	},
 	[19363] = {
 		id = 19363,
-		name = "代行机构「E.E.」"
+		name = "Substitute Mechanism: Holy Thurible "
 	},
 	[19380] = {
 		id = 19380,
-		name = "天雷罪灭"
+		name = "Sky-Rending Retribution"
 	},
 	[19390] = {
 		id = 19390,
-		name = "锋焰显征"
+		name = "Flame-Anointed Conquest"
 	},
 	[19391] = {
 		id = 19391,
-		name = "锋焰显征"
+		name = "Flame-Anointed Conquest"
 	},
 	[19392] = {
 		id = 19392,
-		name = "锋焰显征"
+		name = "Flame-Anointed Conquest"
 	},
 	[19393] = {
 		id = 19393,
-		name = "锋焰显征"
+		name = "Flame-Anointed Conquest"
 	},
 	[19400] = {
 		id = 19400,
-		name = "白龙云影"
+		name = "The Great One's Shadow"
 	},
 	[19401] = {
 		id = 19401,
-		name = "白龙云影"
+		name = "The Great One's Shadow"
 	},
 	[19410] = {
 		id = 19410,
-		name = "吞噬之漩"
+		name = "Engulfer of the Golden Vortex"
 	},
 	[19420] = {
 		id = 19420,
-		name = "映照之渊"
+		name = "Abyssal Banquet"
 	},
 	[19421] = {
 		id = 19421,
-		name = "映照之渊"
+		name = "Abyssal Banquet"
 	},
 	[19422] = {
 		id = 19422,
-		name = "映照之渊"
+		name = "Abyssal Banquet"
 	},
 	[19430] = {
 		id = 19430,
-		name = "噬啮之颚"
+		name = "Jöttun's Jaws"
 	},
 	[19431] = {
 		id = 19431,
-		name = "噬啮之颚"
+		name = "Jöttun's Jaws"
 	},
 	[19432] = {
 		id = 19432,
-		name = "噬啮之颚"
+		name = "Jöttun's Jaws"
 	},
 	[19433] = {
 		id = 19433,
-		name = "噬啮之颚"
+		name = "Jöttun's Jaws"
 	},
 	[19434] = {
 		id = 19434,
-		name = "噬啮之颚"
+		name = "Jöttun's Jaws"
 	},
 	[19440] = {
 		id = 19440,
-		name = "Riddle a riddle"
+		name = "Riddle Me This"
 	},
 	[19441] = {
 		id = 19441,
-		name = "Riddle a riddle"
+		name = "Riddle Me This"
 	},
 	[19442] = {
 		id = 19442,
-		name = "Riddle a riddle"
+		name = "Riddle Me This"
 	},
 	[19443] = {
 		id = 19443,
-		name = "Riddle a riddle"
+		name = "Riddle Me This"
 	},
 	[19450] = {
 		id = 19450,
-		name = "Hide and seek"
+		name = "Hide and Seek"
 	},
 	[19451] = {
 		id = 19451,
-		name = "Hide and seek"
+		name = "Hide and Seek"
 	},
 	[19452] = {
 		id = 19452,
-		name = "Hide and seek"
+		name = "Hide and Seek"
 	},
 	[19460] = {
 		id = 19460,
-		name = "洞察技术-思想掌握"
+		name = "Hex-Principle of Insight"
 	},
 	[19461] = {
 		id = 19461,
-		name = "洞察技术-思想掌握"
+		name = "Hex-Principle of Insight"
 	},
 	[19470] = {
 		id = 19470,
-		name = "攻击技术-本我轰击"
+		name = "Hex-Principle of Shattering"
 	},
 	[19480] = {
 		id = 19480,
-		name = "特殊技术-铁血翅翼"
+		name = "Hex-Principle of Dominance"
 	},
 	[19481] = {
 		id = 19481,
-		name = "特殊技术-铁血翅翼"
+		name = "Hex-Principle of Dominance"
 	},
 	[19482] = {
 		id = 19482,
-		name = "特殊技术-铁血翅翼"
+		name = "Hex-Principle of Dominance"
 	},
 	[19490] = {
 		id = 19490,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[19491] = {
 		id = 19491,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[19492] = {
 		id = 19492,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[19495] = {
 		id = 19495,
-		name = "跃动与回复之勇"
+		name = "Legendary Voyage"
 	},
 	[19500] = {
 		id = 19500,
-		name = "野心与恩泽之威"
+		name = "Il Milione"
 	},
 	[19501] = {
 		id = 19501,
-		name = "野心与恩泽之威"
+		name = "Il Milione"
 	},
 	[19502] = {
 		id = 19502,
-		name = "野心与恩泽之威"
+		name = "Il Milione"
 	},
 	[19510] = {
 		id = 19510,
-		name = "开拓与探险之途"
+		name = "Untold Tales"
 	},
 	[19511] = {
 		id = 19511,
-		name = "开拓与探险之途"
+		name = "Untold Tales"
 	},
 	[19520] = {
 		id = 19520,
-		name = "开拓与探险之途"
+		name = "Untold Tales"
 	},
 	[19521] = {
 		id = 19521,
-		name = "开拓与探险之途"
+		name = "Untold Tales"
 	},
 	[19522] = {
 		id = 19522,
-		name = "开拓与探险之途"
+		name = "Untold Tales"
 	},
 	[19530] = {
 		id = 19530,
-		name = "绽盛之威光"
+		name = "Rejoice in Radiance"
 	},
 	[19540] = {
 		id = 19540,
-		name = "探究之雾雨"
+		name = "Pathfinder's Shroud"
 	},
 	[19541] = {
 		id = 19541,
-		name = "隐雾"
+		name = "Shrouded"
 	},
 	[19550] = {
 		id = 19550,
-		name = "邪龙舰装·欲求之刃"
+		name = "Lindwurm - Devouring Fang"
 	},
 	[19551] = {
 		id = 19551,
-		name = "邪龙舰装·欲求之刃"
+		name = "Lindwurm - Devouring Fang"
 	},
 	[19552] = {
 		id = 19552,
-		name = "邪龙舰装·欲求之刃"
+		name = "Lindwurm - Devouring Fang"
 	},
 	[19560] = {
 		id = 19560,
-		name = "邪龙舰装·守护之环"
+		name = "Lindwurm - Protector's Oculus"
 	},
 	[19561] = {
 		id = 19561,
-		name = "邪龙舰装·守护之环"
+		name = "Lindwurm - Protector's Oculus"
 	},
 	[19562] = {
 		id = 19562,
-		name = "邪龙舰装·守护之环"
+		name = "Lindwurm - Protector's Oculus"
 	},
 	[19563] = {
 		id = 19563,
-		name = "邪龙舰装·守护之环"
+		name = "Lindwurm - Protector's Oculus"
 	},
 	[19580] = {
 		id = 19580,
-		name = "鱼雷，矢无虚发！"
+		name = "Impactful Torpedoes"
 	},
 	[19581] = {
 		id = 19581,
-		name = "鱼雷，矢无虚发！"
+		name = "Impactful Torpedoes"
 	},
 	[19582] = {
 		id = 19582,
-		name = "鱼雷，矢无虚发！"
+		name = "Impactful Torpedoes"
 	},
 	[19590] = {
 		id = 19590,
-		name = "炮火，倾泻如瀑！"
+		name = "Blazing Battledance"
 	},
 	[19591] = {
 		id = 19591,
-		name = "炮火，倾泻如瀑！"
+		name = "Blazing Battledance"
 	},
 	[19600] = {
 		id = 19600,
-		name = "飞航试验·一齐攻击"
+		name = "Aviation Experiment - Coordinated Bombardment"
 	},
 	[19601] = {
 		id = 19601,
-		name = "飞航试验·一齐攻击 +"
+		name = "Aviation Experiment - Coordinated Bombardment+"
 	},
 	[19602] = {
 		id = 19602,
-		name = "飞航试验·一齐攻击"
+		name = "Aviation Experiment - Coordinated Bombardment"
 	},
 	[19603] = {
 		id = 19603,
-		name = "飞航试验·一齐攻击 +"
+		name = "Aviation Experiment - Coordinated Bombardment+"
 	},
 	[19610] = {
 		id = 19610,
-		name = "辅助试验·冻结射击"
+		name = "Contingency Experiment - Suppressive Fire"
 	},
 	[19630] = {
 		id = 19630,
-		name = "精灵的合奏曲"
+		name = "Ensemble of Exultation"
 	},
 	[19640] = {
 		id = 19640,
-		name = "侧风的赞颂歌"
+		name = "Aria of Alacrity"
 	},
 	[19650] = {
 		id = 19650,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19651] = {
 		id = 19651,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19652] = {
 		id = 19652,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19653] = {
 		id = 19653,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19654] = {
 		id = 19654,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19655] = {
 		id = 19655,
-		name = "复苏的叙事诗"
+		name = "Panacea's Paean"
 	},
 	[19670] = {
 		id = 19670,
-		name = "增幅机制-炮击增幅"
+		name = "Amplifier - Shelling"
 	},
 	[19671] = {
 		id = 19671,
-		name = "增幅机制-航空增幅"
+		name = "Amplifier - Aviation"
 	},
 	[19672] = {
 		id = 19672,
-		name = "空袭引导·奇尔沙治"
+		name = "Air Raid Assistance - Kearsarge"
 	},
 	[19673] = {
 		id = 19673,
-		name = "增幅机制-炮击增幅"
+		name = "Amplifier - Shelling"
 	},
 	[19680] = {
 		id = 19680,
-		name = "作战模块-海域引燃"
+		name = "Adaption - Oceanic Blaze"
 	},
 	[19681] = {
 		id = 19681,
-		name = "作战模块-精准打击"
+		name = "Adaption - Precision Strike"
 	},
 	[19683] = {
 		id = 19683,
-		name = "作战模块-战机侵袭"
+		name = "Adaption - Airstrike"
 	},
 	[19684] = {
 		id = 19684,
-		name = "作战模块-海域引燃"
+		name = "Adaption - Oceanic Blaze"
 	},
 	[19685] = {
 		id = 19685,
-		name = "作战模块-海域引燃"
+		name = "Adaption - Oceanic Blaze"
 	},
 	[19690] = {
 		id = 19690,
-		name = "弱者的苦痛之源"
+		name = "Tormentor of the Weak"
 	},
 	[19691] = {
 		id = 19691,
-		name = "弱者的苦痛之源"
+		name = "Tormentor of the Weak"
 	},
 	[19700] = {
 		id = 19700,
-		name = "迂缓在欲望之渊"
+		name = "Drown in the Abyss of Desire"
 	},
 	[19702] = {
 		id = 19702,
-		name = "迂缓在欲望之渊"
+		name = "Drown in the Abyss of Desire"
 	},
 	[19710] = {
 		id = 19710,
-		name = "寻乐的战场游戏"
+		name = "The Most Dangerous Game"
 	},
 	[19711] = {
 		id = 19711,
-		name = "寻乐的战场游戏"
+		name = "The Most Dangerous Game"
 	},
 	[19712] = {
 		id = 19712,
-		name = "寻乐的战场游戏"
+		name = "The Most Dangerous Game"
 	},
 	[19720] = {
 		id = 19720,
-		name = "寻乐的战场游戏"
+		name = "The Most Dangerous Game"
 	},
 	[19721] = {
 		id = 19721,
-		name = "愉悦的追灭猎杀"
+		name = "Doombringer's Euphoria"
 	},
 	[19722] = {
 		id = 19722,
-		name = "愉悦的追灭猎杀"
+		name = "Doombringer's Euphoria"
 	},
 	[19730] = {
 		id = 19730,
-		name = "战斗命令「急袭突破」"
+		name = "Apotheosis: Flourishing Assault"
 	},
 	[19731] = {
 		id = 19731,
-		name = "战斗命令「急袭突破」"
+		name = "Apotheosis: Flourishing Assault"
 	},
 	[19740] = {
 		id = 19740,
-		name = "增益命令「羽翼重丰」"
+		name = "Apotheosis: Lightplume Vestments"
 	},
 	[19741] = {
 		id = 19741,
-		name = "增益命令「羽翼重丰」"
+		name = "Apotheosis: Lightplume Vestments"
 	},
 	[19750] = {
 		id = 19750,
-		name = "怒涛惩戒"
+		name = "Torrential Wrath"
 	},
 	[19751] = {
 		id = 19751,
-		name = "怒涛惩戒"
+		name = "Torrential Wrath"
 	},
 	[19754] = {
 		id = 19754,
-		name = "怒涛惩戒"
+		name = "Torrential Wrath"
 	},
 	[19760] = {
 		id = 19760,
-		name = "水龙神威"
+		name = "Divine Presence"
 	},
 	[19761] = {
 		id = 19761,
-		name = "水龙神威"
+		name = "Divine Presence"
 	},
 	[19762] = {
 		id = 19762,
-		name = "水龙神威"
+		name = "Divine Presence"
 	},
 	[19770] = {
 		id = 19770,
-		name = "无惧无畏的典范骑士"
+		name = "The Dauntless Exemplar"
 	},
 	[19771] = {
 		id = 19771,
-		name = "无惧无畏的典范骑士"
+		name = "The Dauntless Exemplar"
 	},
 	[19780] = {
 		id = 19780,
-		name = "承接期望的鸢尾之剑"
+		name = "Blade of Iris Aspirations"
 	},
 	[19781] = {
 		id = 19781,
-		name = "承接期望的鸢尾之剑"
+		name = "Blade of Iris Aspirations"
 	},
 	[19791] = {
 		id = 19791,
-		name = "暗夜的制裁"
+		name = "Nocturnal Judgment"
 	},
 	[19800] = {
 		id = 19800,
-		name = "血族的完美主义"
+		name = "Pedigree of Perfection"
 	},
 	[19801] = {
 		id = 19801,
-		name = "血族的完美主义"
+		name = "Pedigree of Perfection"
 	},
 	[19802] = {
 		id = 19802,
-		name = "血族的完美主义"
+		name = "Pedigree of Perfection"
 	},
 	[19804] = {
 		id = 19804,
-		name = "血族的完美主义"
+		name = "Pedigree of Perfection"
 	},
 	[19807] = {
 		id = 19807,
-		name = "血族的完美主义"
+		name = "Pedigree of Perfection"
 	},
 	[19831] = {
 		id = 19831,
-		name = "可信任平台模块"
+		name = "Authorization Module: Trusted Certificate"
 	},
 	[19864] = {
 		id = 19864,
-		name = "因果锚定·追加鱼雷"
+		name = "Causality Anchor – Additional Torpedo"
 	},
 	[19865] = {
 		id = 19865,
-		name = "因果锚定·附加点燃"
+		name = "Causality Anchor – Burn Imbue"
 	},
 	[19866] = {
 		id = 19866,
-		name = "因果锚定·锚定解除"
+		name = "Causality Anchor – Release Anchor"
 	},
 	[19870] = {
 		id = 19870,
-		name = "福佑于身"
+		name = "Blessings and Purity"
 	},
 	[19871] = {
 		id = 19871,
-		name = "福佑于身"
+		name = "Blessings and Purity"
 	},
 	[19872] = {
 		id = 19872,
-		name = "福佑于身"
+		name = "Blessings and Purity"
 	},
 	[19891] = {
 		id = 19891,
-		name = "终焉裁决·斩击之翼"
+		name = "Ultimatum: Flügelsturm"
 	},
 	[19892] = {
 		id = 19892,
-		name = "终焉裁决·斩击之翼"
+		name = "Ultimatum: Flügelsturm"
 	},
 	[19911] = {
 		id = 19911,
-		name = "制约限界·不破障壁"
+		name = "Overlimit: Unbreakable Barrier"
 	},
 	[19912] = {
 		id = 19912,
-		name = "制约限界·不破障壁"
+		name = "Overlimit: Unbreakable Barrier"
 	},
 	[19921] = {
 		id = 19921,
-		name = "光坠星陨"
+		name = "Starfall"
 	},
 	[19941] = {
 		id = 19941,
-		name = "空灵回响"
+		name = "Spiritual Echoes"
 	},
 	[19942] = {
 		id = 19942,
-		name = "空灵回响"
+		name = "Spiritual Echoes"
 	},
 	[19943] = {
 		id = 19943,
-		name = "空灵回响"
+		name = "Spiritual Echoes"
 	},
 	[19981] = {
 		id = 19981,
-		name = "蓄能爆发"
+		name = "Chargeburst"
 	},
 	[19986] = {
 		id = 19986,
-		name = "蓄能爆发"
+		name = "Chargeburst"
 	},
 	[19993] = {
 		id = 19993,
-		name = "以坚挫锐"
+		name = "Bladebreaker's Bastion"
 	},
 	[20007] = {
 		id = 20007,
-		name = "蓄能爆发"
+		name = "Chargeburst"
 	},
 	[20011] = {
 		id = 20011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20012] = {
 		id = 20012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20021] = {
 		id = 20021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20022] = {
 		id = 20022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20031] = {
 		id = 20031,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20032] = {
 		id = 20032,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20041] = {
 		id = 20041,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20042] = {
 		id = 20042,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20051] = {
 		id = 20051,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20052] = {
 		id = 20052,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20061] = {
 		id = 20061,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20062] = {
 		id = 20062,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20071] = {
 		id = 20071,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20072] = {
 		id = 20072,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20081] = {
 		id = 20081,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20082] = {
 		id = 20082,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20111] = {
 		id = 20111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20112] = {
 		id = 20112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20121] = {
 		id = 20121,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20122] = {
 		id = 20122,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20131] = {
 		id = 20131,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20132] = {
 		id = 20132,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20133] = {
 		id = 20133,
-		name = "全弹发射III"
+		name = "All Out Assault Ⅲ"
 	},
 	[20141] = {
 		id = 20141,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20142] = {
 		id = 20142,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20211] = {
 		id = 20211,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20212] = {
 		id = 20212,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20221] = {
 		id = 20221,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20222] = {
 		id = 20222,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20231] = {
 		id = 20231,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20232] = {
 		id = 20232,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20241] = {
 		id = 20241,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20242] = {
 		id = 20242,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20251] = {
 		id = 20251,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20252] = {
 		id = 20252,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20261] = {
 		id = 20261,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20262] = {
 		id = 20262,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[20271] = {
 		id = 20271,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[20272] = {
 		id = 20272,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21011] = {
 		id = 21011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21012] = {
 		id = 21012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21016] = {
 		id = 21016,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21017] = {
 		id = 21017,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21021] = {
 		id = 21021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21022] = {
 		id = 21022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21031] = {
 		id = 21031,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21032] = {
 		id = 21032,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21041] = {
 		id = 21041,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21042] = {
 		id = 21042,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21051] = {
 		id = 21051,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21052] = {
 		id = 21052,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21061] = {
 		id = 21061,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21062] = {
 		id = 21062,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21071] = {
 		id = 21071,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21072] = {
 		id = 21072,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21081] = {
 		id = 21081,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21082] = {
 		id = 21082,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21091] = {
 		id = 21091,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21092] = {
 		id = 21092,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21111] = {
 		id = 21111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21112] = {
 		id = 21112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21121] = {
 		id = 21121,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21122] = {
 		id = 21122,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21131] = {
 		id = 21131,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21132] = {
 		id = 21132,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21141] = {
 		id = 21141,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21142] = {
 		id = 21142,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21151] = {
 		id = 21151,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21152] = {
 		id = 21152,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21161] = {
 		id = 21161,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21162] = {
 		id = 21162,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21171] = {
 		id = 21171,
-		name = "全弹发射I"
+		name = "All Out Assault: Ceres-Class I"
 	},
 	[21172] = {
 		id = 21172,
-		name = "全弹发射II"
+		name = "All Out Assault: Ceres-Class II"
 	},
 	[21211] = {
 		id = 21211,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21212] = {
 		id = 21212,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21221] = {
 		id = 21221,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21222] = {
 		id = 21222,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21231] = {
 		id = 21231,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21232] = {
 		id = 21232,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21241] = {
 		id = 21241,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21242] = {
 		id = 21242,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22011] = {
 		id = 22011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22012] = {
 		id = 22012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22021] = {
 		id = 22021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22022] = {
 		id = 22022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22031] = {
 		id = 22031,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22032] = {
 		id = 22032,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22041] = {
 		id = 22041,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22042] = {
 		id = 22042,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22051] = {
 		id = 22051,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22052] = {
 		id = 22052,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22056] = {
 		id = 22056,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22057] = {
 		id = 22057,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22061] = {
 		id = 22061,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22062] = {
 		id = 22062,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22071] = {
 		id = 22071,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22072] = {
 		id = 22072,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22081] = {
 		id = 22081,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22082] = {
 		id = 22082,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22091] = {
 		id = 22091,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22092] = {
 		id = 22092,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22111] = {
 		id = 22111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22112] = {
 		id = 22112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22121] = {
 		id = 22121,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22122] = {
 		id = 22122,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22131] = {
 		id = 22131,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22132] = {
 		id = 22132,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22141] = {
 		id = 22141,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22142] = {
 		id = 22142,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22151] = {
 		id = 22151,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22152] = {
 		id = 22152,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22161] = {
 		id = 22161,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22162] = {
 		id = 22162,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22211] = {
 		id = 22211,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22212] = {
 		id = 22212,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22221] = {
 		id = 22221,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22222] = {
 		id = 22222,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22231] = {
 		id = 22231,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22232] = {
 		id = 22232,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22241] = {
 		id = 22241,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22242] = {
 		id = 22242,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22251] = {
 		id = 22251,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22252] = {
 		id = 22252,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22253] = {
 		id = 22253,
-		name = "全弹发射改"
+		name = "All Out Assault - Retrofit"
 	},
 	[22254] = {
 		id = 22254,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22255] = {
 		id = 22255,
-		name = "全弹发射II"
-	},
-	[22256] = {
-		id = 22256,
-		name = "全弹发射I"
-	},
-	[22257] = {
-		id = 22257,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[22261] = {
 		id = 22261,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[22262] = {
 		id = 22262,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23011] = {
 		id = 23011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23012] = {
 		id = 23012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23031] = {
 		id = 23031,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23032] = {
 		id = 23032,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23041] = {
 		id = 23041,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23042] = {
 		id = 23042,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23051] = {
 		id = 23051,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23052] = {
 		id = 23052,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23111] = {
 		id = 23111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23112] = {
 		id = 23112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23121] = {
 		id = 23121,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23122] = {
 		id = 23122,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23131] = {
 		id = 23131,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23132] = {
 		id = 23132,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23211] = {
 		id = 23211,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23212] = {
 		id = 23212,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23221] = {
 		id = 23221,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23222] = {
 		id = 23222,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23241] = {
 		id = 23241,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23242] = {
 		id = 23242,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23311] = {
 		id = 23311,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23312] = {
 		id = 23312,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23321] = {
 		id = 23321,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23322] = {
 		id = 23322,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23411] = {
 		id = 23411,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23412] = {
 		id = 23412,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23511] = {
 		id = 23511,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23512] = {
 		id = 23512,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[23611] = {
 		id = 23611,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[23612] = {
 		id = 23612,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[24011] = {
 		id = 24011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[24012] = {
 		id = 24012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[24061] = {
 		id = 24061,
-		name = "全弹发射I"
+		name = "All Out Assault I"
 	},
 	[24062] = {
 		id = 24062,
-		name = "全弹发射II"
+		name = "All Out Assault II"
 	},
 	[24021] = {
 		id = 24021,
-		name = "专属弹幕-青龙I"
+		name = "Special Barrage - Qinglong Ⅰ"
 	},
 	[24022] = {
 		id = 24022,
-		name = "专属弹幕-青龙II"
+		name = "Special Barrage - Qinglong Ⅱ"
 	},
 	[24031] = {
 		id = 24031,
-		name = "全弹发射I"
+		name = "Special Barrage - Zhuque Ⅰ"
 	},
 	[24032] = {
 		id = 24032,
-		name = "全弹发射II"
+		name = "Special Barrage - Zhuque Ⅱ"
 	},
 	[24033] = {
 		id = 24033,
-		name = "专属弹幕-朱雀I"
+		name = "All Out Assault I"
 	},
 	[24034] = {
 		id = 24034,
-		name = "专属弹幕-朱雀II"
+		name = "All Out Assault II"
 	},
 	[24041] = {
 		id = 24041,
-		name = "全弹发射I"
+		name = "Special Barrage - Baihu I"
 	},
 	[24042] = {
 		id = 24042,
-		name = "全弹发射II"
+		name = "Special Barrage - Baihu II"
 	},
 	[24043] = {
 		id = 24043,
-		name = "专属弹幕-白虎I"
+		name = "All Out Assault I"
 	},
 	[24044] = {
 		id = 24044,
-		name = "专属弹幕-白虎II"
+		name = "All Out Assault II"
 	},
 	[24051] = {
 		id = 24051,
-		name = "专属弹幕-玄武I"
+		name = "Special Barrage - Xuanwu I"
 	},
 	[24052] = {
 		id = 24052,
-		name = "专属弹幕-玄武II"
+		name = "Special Barrage - Xuanwu II"
 	},
 	[24111] = {
 		id = 24111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[24112] = {
 		id = 24112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[24113] = {
 		id = 24113,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[24114] = {
 		id = 24114,
-		name = "全弹发射IV"
+		name = "All Out Assault IV"
 	},
 	[24121] = {
 		id = 24121,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[24122] = {
 		id = 24122,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[24151] = {
 		id = 24151,
-		name = "全弹发射I"
+		name = "All Out Assault I"
 	},
 	[24152] = {
 		id = 24152,
-		name = "全弹发射II"
+		name = "All Out Assault II"
 	},
 	[25011] = {
 		id = 25011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[25012] = {
 		id = 25012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[25021] = {
 		id = 25021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[25022] = {
 		id = 25022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[25211] = {
 		id = 25211,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[25212] = {
 		id = 25212,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[25221] = {
 		id = 25221,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[25222] = {
 		id = 25222,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[26011] = {
 		id = 26011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[26012] = {
 		id = 26012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[26021] = {
 		id = 26021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[26022] = {
 		id = 26022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[26111] = {
 		id = 26111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[26112] = {
 		id = 26112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[28011] = {
 		id = 28011,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[28012] = {
 		id = 28012,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[28021] = {
 		id = 28021,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[28022] = {
 		id = 28022,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[28031] = {
 		id = 28031,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[28032] = {
 		id = 28032,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[28111] = {
 		id = 28111,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[28112] = {
 		id = 28112,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[28231] = {
 		id = 28231,
-		name = "全弹发射I"
+		name = "All Out Assault I"
 	},
 	[28232] = {
 		id = 28232,
-		name = "全弹发射II"
+		name = "All Out Assault II"
 	},
 	[28241] = {
 		id = 28241,
-		name = "全弹发射I"
+		name = "All Out Assault I"
 	},
 	[28242] = {
 		id = 28242,
-		name = "全弹发射II"
+		name = "All Out Assault II"
 	},
 	[28271] = {
 		id = 28271,
-		name = "全弹发射I"
+		name = "All Out Assault I"
 	},
 	[28272] = {
 		id = 28272,
-		name = "全弹发射II"
+		name = "All Out Assault II"
 	},
 	[29011] = {
 		id = 29011,
-		name = "专属弹幕-英格兰I"
+		name = "EX Barrage: England Ⅰ"
 	},
 	[29012] = {
 		id = 29012,
-		name = "专属弹幕-英格兰II"
+		name = "EX Barrage: England Ⅱ"
 	},
 	[29021] = {
 		id = 29021,
-		name = "专属弹幕-埃尔德里奇I"
+		name = "EX Barrage: Eldridge Ⅰ"
 	},
 	[29022] = {
 		id = 29022,
-		name = "专属弹幕-埃尔德里奇II"
+		name = "EX Barrage: Eldridge Ⅱ"
 	},
 	[29031] = {
 		id = 29031,
-		name = "专属弹幕-威廉·D·波特I"
+		name = "EX Barrage: William D. Porter Ⅰ"
 	},
 	[29032] = {
 		id = 29032,
-		name = "专属弹幕-威廉·D·波特II"
+		name = "EX Barrage: William D. Porter Ⅱ"
 	},
 	[29041] = {
 		id = 29041,
-		name = "专属弹幕-约翰斯顿I"
+		name = "EX Barrage: Johnston Ⅰ"
 	},
 	[29042] = {
 		id = 29042,
-		name = "专属弹幕-约翰斯顿II"
+		name = "EX Barrage: Johnston Ⅱ"
 	},
 	[29051] = {
 		id = 29051,
-		name = "专属弹幕-拉菲I"
+		name = "EX Barrage: Laffey Ⅰ"
 	},
 	[29052] = {
 		id = 29052,
-		name = "专属弹幕-拉菲II"
+		name = "EX Barrage: Laffey Ⅱ"
 	},
 	[29061] = {
 		id = 29061,
-		name = "专属弹幕-萤火虫I"
+		name = "EX Barrage: Glowworm Ⅰ"
 	},
 	[29062] = {
 		id = 29062,
-		name = "专属弹幕-萤火虫II"
+		name = "EX Barrage: Glowworm Ⅱ"
 	},
 	[29071] = {
 		id = 29071,
-		name = "专属弹幕-勇敢I"
+		name = "EX Barrage: Brave Ⅰ"
 	},
 	[29072] = {
 		id = 29072,
-		name = "专属弹幕-勇敢II"
+		name = "EX Barrage: Brave Ⅱ"
 	},
 	[29081] = {
 		id = 29081,
-		name = "专属弹幕-标枪I"
+		name = "EX Barrage: Javelin Ⅰ"
 	},
 	[29082] = {
 		id = 29082,
-		name = "专属弹幕-标枪II"
+		name = "EX Barrage: Javelin Ⅱ"
 	},
 	[29091] = {
 		id = 29091,
-		name = "专属弹幕-吸血鬼I"
+		name = "EX Barrage: Vampire Ⅰ"
 	},
 	[29092] = {
 		id = 29092,
-		name = "专属弹幕-吸血鬼II"
+		name = "EX Barrage: Vampire Ⅱ"
 	},
 	[29101] = {
 		id = 29101,
-		name = "专属弹幕-贝尔法斯特I"
+		name = "EX Barrage: Belfast Ⅰ"
 	},
 	[29102] = {
 		id = 29102,
-		name = "专属弹幕-贝尔法斯特II"
+		name = "EX Barrage: Belfast Ⅱ"
 	},
 	[29111] = {
 		id = 29111,
-		name = "专属弹幕-{namecode:6}I"
+		name = "EX Barrage: {namecode:6} Ⅰ"
 	},
 	[29112] = {
 		id = 29112,
-		name = "专属弹幕-{namecode:6}II"
+		name = "EX Barrage: {namecode:6} Ⅱ"
 	},
 	[29121] = {
 		id = 29121,
-		name = "专属弹幕-{namecode:16}I"
+		name = "EX Barrage: {namecode:16} Ⅰ"
 	},
 	[29122] = {
 		id = 29122,
-		name = "专属弹幕-{namecode:16}II"
+		name = "EX Barrage: {namecode:16} Ⅱ"
 	},
 	[29131] = {
 		id = 29131,
-		name = "专属弹幕-{namecode:22}I"
+		name = "EX Barrage: {namecode:22} Ⅰ"
 	},
 	[29132] = {
 		id = 29132,
-		name = "专属弹幕-{namecode:22}II"
+		name = "EX Barrage: {namecode:22} Ⅱ"
 	},
 	[29141] = {
 		id = 29141,
-		name = "专属弹幕-{namecode:18}I"
+		name = "EX Barrage: {namecode:18} Ⅰ"
 	},
 	[29142] = {
 		id = 29142,
-		name = "专属弹幕-{namecode:18}II"
+		name = "EX Barrage: {namecode:18} Ⅱ"
 	},
 	[29151] = {
 		id = 29151,
-		name = "专属弹幕-{namecode:44}I"
+		name = "EX Barrage: {namecode:44} Ⅰ"
 	},
 	[29152] = {
 		id = 29152,
-		name = "专属弹幕-{namecode:44}II"
+		name = "EX Barrage: {namecode:44} Ⅱ"
 	},
 	[29161] = {
 		id = 29161,
-		name = "专属弹幕-{namecode:45}I"
+		name = "EX Barrage: {namecode:45} Ⅰ"
 	},
 	[29162] = {
 		id = 29162,
-		name = "专属弹幕-{namecode:45}II"
+		name = "EX Barrage: {namecode:45} Ⅱ"
 	},
 	[29171] = {
 		id = 29171,
-		name = "专属弹幕-{namecode:400}I"
+		name = "EX Barrage: Z1 Ⅰ"
 	},
 	[29172] = {
 		id = 29172,
-		name = "专属弹幕-{namecode:400}II"
+		name = "EX Barrage: Z1 Ⅱ"
 	},
 	[29173] = {
 		id = 29173,
-		name = "专属弹幕-{namecode:400}I"
+		name = "All Out Assault I"
 	},
 	[29174] = {
 		id = 29174,
-		name = "专属弹幕-{namecode:400}II"
+		name = "All Out Assault II"
 	},
 	[29181] = {
 		id = 29181,
-		name = "专属弹幕-鞍山I"
+		name = "EX Barrage: Anshan Ⅰ"
 	},
 	[29182] = {
 		id = 29182,
-		name = "专属弹幕-鞍山II"
+		name = "EX Barrage: Anshan Ⅱ"
 	},
 	[29191] = {
 		id = 29191,
-		name = "专属弹幕-阿芙乐尔I"
+		name = "EX Barrage: Avrora Ⅰ"
 	},
 	[29192] = {
 		id = 29192,
-		name = "专属弹幕-阿芙乐尔II"
+		name = "EX Barrage: Avrora Ⅱ"
 	},
 	[29201] = {
 		id = 29201,
-		name = "专属弹幕-{namecode:408}I"
+		name = "EX Barrage: Z23 Ⅰ"
 	},
 	[29202] = {
 		id = 29202,
-		name = "专属弹幕-{namecode:408}II"
+		name = "EX Barrage: Z23 Ⅱ"
 	},
 	[29211] = {
 		id = 29211,
-		name = "专属弹幕-{namecode:412}I"
+		name = "EX Barrage: Z46 Ⅰ"
 	},
 	[29212] = {
 		id = 29212,
-		name = "专属弹幕-{namecode:412}II"
+		name = "EX Barrage: Z46 Ⅱ"
 	},
 	[29214] = {
 		id = 29214,
-		name = "专属弹幕-{namecode:412}II"
+		name = "EX Barrage: Z46 II"
 	},
 	[29221] = {
 		id = 29221,
-		name = "专属弹幕-海王星I"
+		name = "EX Barrage: {namecode:152} Ⅰ"
 	},
 	[29222] = {
 		id = 29222,
-		name = "专属弹幕-海王星II"
+		name = "EX Barrage: {namecode:152} Ⅱ"
 	},
 	[29231] = {
 		id = 29231,
-		name = "专属弹幕-伊吹I"
+		name = "EX Barrage: Neptune Ⅰ"
 	},
 	[29232] = {
 		id = 29232,
-		name = "专属弹幕-伊吹II"
+		name = "EX Barrage: Neptune Ⅱ"
 	},
 	[29241] = {
 		id = 29241,
-		name = "专属弹幕-{namecode:439}I"
+		name = "EX Barrage: Roon Ⅰ"
 	},
 	[29242] = {
 		id = 29242,
-		name = "专属弹幕-{namecode:439}II"
+		name = "EX Barrage: Roon Ⅱ"
 	},
 	[29251] = {
 		id = 29251,
-		name = "专属弹幕-路易九世I"
+		name = "EX Barrage: Saint Louis Ⅰ"
 	},
 	[29252] = {
 		id = 29252,
-		name = "专属弹幕-路易九世II"
+		name = "EX Barrage: Saint Louis Ⅱ"
 	},
 	[29281] = {
 		id = 29281,
-		name = "专属弹幕-{namecode:158}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29282] = {
 		id = 29282,
-		name = "专属弹幕-{namecode:158}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29291] = {
 		id = 29291,
-		name = "专属弹幕-22I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29292] = {
 		id = 29292,
-		name = "专属弹幕-22II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29301] = {
 		id = 29301,
-		name = "专属弹幕-33I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29302] = {
 		id = 29302,
-		name = "专属弹幕-33II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29311] = {
 		id = 29311,
-		name = "专属弹幕-{namecode:413}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29312] = {
 		id = 29312,
-		name = "专属弹幕-{namecode:413}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29321] = {
 		id = 29321,
-		name = "专属弹幕-絮库夫I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29322] = {
 		id = 29322,
-		name = "专属弹幕-絮库夫II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29331] = {
 		id = 29331,
-		name = "专属弹幕-凯旋I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29332] = {
 		id = 29332,
-		name = "专属弹幕-凯旋II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29333] = {
 		id = 29333,
-		name = "专属弹幕-凯旋II +"
+		name = "All Out Assault Ⅱ +"
 	},
 	[29341] = {
 		id = 29341,
-		name = "专属弹幕-大青花鱼I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29342] = {
 		id = 29342,
-		name = "专属弹幕-大青花鱼II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29351] = {
 		id = 29351,
-		name = "专属弹幕-{namecode:524}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29361] = {
 		id = 29361,
-		name = "专属弹幕-天狼星I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29362] = {
 		id = 29362,
-		name = "专属弹幕-天狼星II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29371] = {
 		id = 29371,
-		name = "专属弹幕-{namecode:163}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29372] = {
 		id = 29372,
-		name = "专属弹幕-{namecode:163}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29381] = {
 		id = 29381,
-		name = "专属弹幕-{namecode:164}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29382] = {
 		id = 29382,
-		name = "专属弹幕-{namecode:164}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29391] = {
 		id = 29391,
-		name = "专属弹幕-西雅图I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29392] = {
 		id = 29392,
-		name = "专属弹幕-西雅图II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29401] = {
 		id = 29401,
-		name = "专属弹幕-确捷I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29402] = {
 		id = 29402,
-		name = "专属弹幕-确捷II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29411] = {
 		id = 29411,
-		name = "专属弹幕-恶毒I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29412] = {
 		id = 29412,
-		name = "专属弹幕-恶毒II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29421] = {
 		id = 29421,
-		name = "专属弹幕-伊168I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29422] = {
 		id = 29422,
-		name = "专属弹幕-伊168II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29431] = {
 		id = 29431,
-		name = "专属弹幕-{namecode:418}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29432] = {
 		id = 29432,
-		name = "专属弹幕-{namecode:418}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29441] = {
 		id = 29441,
-		name = "专属弹幕-棘鳍I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29442] = {
 		id = 29442,
-		name = "专属弹幕-棘鳍II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29451] = {
 		id = 29451,
-		name = "专属弹幕-克利夫兰(μ兵装)I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29452] = {
 		id = 29452,
-		name = "专属弹幕-克利夫兰(μ兵装)II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29461] = {
 		id = 29461,
-		name = "专属弹幕-谢菲尔德(μ兵装)I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29462] = {
 		id = 29462,
-		name = "专属弹幕-谢菲尔德(μ兵装)II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29471] = {
 		id = 29471,
-		name = "专属弹幕-{namecode:451}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29472] = {
 		id = 29472,
-		name = "专属弹幕-{namecode:451}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29481] = {
 		id = 29481,
-		name = "专属弹幕-{namecode:50}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29482] = {
 		id = 29482,
-		name = "专属弹幕-{namecode:50}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29491] = {
 		id = 29491,
-		name = "专属弹幕-黛朵I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29492] = {
 		id = 29492,
-		name = "专属弹幕-黛朵II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29493] = {
 		id = 29493,
-		name = "专属弹幕-黛朵II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29501] = {
 		id = 29501,
-		name = "专属弹幕-塔什干I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29502] = {
 		id = 29502,
-		name = "专属弹幕-塔什干II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29511] = {
 		id = 29511,
-		name = "专属弹幕-恰巴耶夫I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29512] = {
 		id = 29512,
-		name = "专属弹幕-恰巴耶夫II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29521] = {
 		id = 29521,
-		name = "专属弹幕-里诺I"
+		name = "Reno Barrage Ⅰ"
 	},
 	[29523] = {
 		id = 29523,
-		name = "专属弹幕-里诺I"
+		name = "Reno Barrage Ⅱ"
 	},
 	[29531] = {
 		id = 29531,
-		name = "专属弹幕-里诺II"
+		name = "Reno Barrage Ⅰ"
 	},
 	[29533] = {
 		id = 29533,
-		name = "专属弹幕-里诺II"
+		name = "Reno Barrage Ⅱ"
 	},
 	[29541] = {
 		id = 29541,
-		name = "专属弹幕-圣女贞德I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29542] = {
 		id = 29542,
-		name = "专属弹幕-圣女贞德II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29551] = {
 		id = 29551,
-		name = "专属弹幕-柴郡I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29552] = {
 		id = 29552,
-		name = "专属弹幕-柴郡II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29561] = {
 		id = 29561,
-		name = "专属弹幕-德雷克I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29562] = {
 		id = 29562,
-		name = "专属弹幕-德雷克II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29571] = {
 		id = 29571,
-		name = "专属弹幕-{namecode:479}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29572] = {
 		id = 29572,
-		name = "专属弹幕-{namecode:479}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29691] = {
 		id = 29691,
-		name = "专属弹幕-艾伦·萨姆纳I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29692] = {
 		id = 29692,
-		name = "专属弹幕-艾伦·萨姆纳II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29731] = {
 		id = 29731,
-		name = "专属弹幕-{namecode:27}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29732] = {
 		id = 29732,
-		name = "专属弹幕-{namecode:27}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29741] = {
 		id = 29741,
-		name = "专属弹幕-安克雷奇I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29742] = {
 		id = 29742,
-		name = "专属弹幕-安克雷奇II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29751] = {
 		id = 29751,
-		name = "专属弹幕-{namecode:525}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29752] = {
 		id = 29752,
-		name = "专属弹幕-{namecode:525}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29800] = {
 		id = 29800,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[29801] = {
 		id = 29801,
-		name = "专属弹幕-青龙III"
+		name = "All Out Assault III"
 	},
 	[29802] = {
 		id = 29802,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[29803] = {
 		id = 29803,
-		name = "专属弹幕-青龙III"
+		name = "All Out Assault III"
 	},
 	[29810] = {
 		id = 29810,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[29811] = {
 		id = 29811,
-		name = "专属弹幕-白虎III"
+		name = "All Out Assault III"
 	},
 	[29812] = {
 		id = 29812,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[29813] = {
 		id = 29813,
-		name = "专属弹幕-白虎III"
+		name = "All Out Assault III"
 	},
 	[29841] = {
 		id = 29841,
-		name = "专属弹幕-{namecode:448}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29842] = {
 		id = 29842,
-		name = "专属弹幕-{namecode:448}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29891] = {
 		id = 29891,
-		name = "专属弹幕-普利茅斯I"
+		name = "All Out Assault I"
 	},
 	[29892] = {
 		id = 29892,
-		name = "专属弹幕-普利茅斯II"
+		name = "All Out Assault II"
 	},
 	[29901] = {
 		id = 29901,
-		name = "专属弹幕-{namecode:224}I"
+		name = "All Out Assault I"
 	},
 	[29902] = {
 		id = 29902,
-		name = "专属弹幕-{namecode:224}II"
+		name = "All Out Assault II"
 	},
 	[29981] = {
 		id = 29981,
-		name = "专属弹幕-斯库拉I"
+		name = "All Out Assault I"
 	},
 	[29982] = {
 		id = 29982,
-		name = "专属弹幕-斯库拉II"
+		name = "All Out Assault II"
 	},
 	[29983] = {
 		id = 29983,
-		name = "专属弹幕-斯库拉II"
+		name = "All Out Assault II"
 	},
 	[29984] = {
 		id = 29984,
-		name = "专属弹幕-斯库拉II"
+		name = "All Out Assault II"
 	},
 	[30003] = {
 		id = 30003,
-		name = "专属弹幕-{namecode:510}I"
+		name = "All Out Assault I"
 	},
 	[30013] = {
 		id = 30013,
-		name = "专属弹幕-{namecode:510}II"
+		name = "All Out Assault II"
 	},
 	[30021] = {
 		id = 30021,
-		name = "专属弹幕-{namecode:516}I"
+		name = "All Out Assault I"
 	},
 	[30022] = {
 		id = 30022,
-		name = "专属弹幕-{namecode:516}II"
+		name = "All Out Assault II"
 	},
 	[30023] = {
 		id = 30023,
-		name = "专属弹幕-{namecode:516}II +"
+		name = "All Out Assault II+"
 	},
 	[30043] = {
 		id = 30043,
-		name = "专属弹幕-{namecode:518}I"
+		name = "All Out Assault I"
 	},
 	[30053] = {
 		id = 30053,
-		name = "专属弹幕-{namecode:518}II"
+		name = "All Out Assault II"
 	},
 	[30071] = {
 		id = 30071,
-		name = "专属弹幕-{namecode:292}I"
+		name = "All Out Assault I"
 	},
 	[30072] = {
 		id = 30072,
-		name = "专属弹幕-{namecode:292}II"
+		name = "All Out Assault II"
 	},
 	[30081] = {
 		id = 30081,
-		name = "专属弹幕-马赛曲I"
+		name = "All Out Assault I"
 	},
 	[30082] = {
 		id = 30082,
-		name = "专属弹幕-马赛曲II"
+		name = "All Out Assault II"
 	},
 	[30111] = {
 		id = 30111,
-		name = "专属弹幕-{namecode:189}I"
+		name = "All Out Assault - Hatsuzuki I"
 	},
 	[30112] = {
 		id = 30112,
-		name = "专属弹幕-{namecode:189}II"
+		name = "All Out Assault - Hatsuzuki II"
 	},
 	[30131] = {
 		id = 30131,
-		name = "专属弹幕-玛丽·西莱斯特号I"
+		name = "All Out Assault I"
 	},
 	[30132] = {
 		id = 30132,
-		name = "专属弹幕-玛丽·西莱斯特号II"
+		name = "All Out Assault II"
 	},
 	[30190] = {
 		id = 30190,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[30191] = {
 		id = 30191,
-		name = "专属弹幕-玄武III"
+		name = "All Out Assault - Xuanwu III"
 	},
 	[30192] = {
 		id = 30192,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[30193] = {
 		id = 30193,
-		name = "专属弹幕-玄武III"
+		name = "All Out Assault - Xuanwu III"
 	},
 	[30201] = {
 		id = 30201,
-		name = "专属弹幕-火力I"
+		name = "All Out Assault I"
 	},
 	[30202] = {
 		id = 30202,
-		name = "专属弹幕-火力II"
+		name = "All Out Assault II"
 	},
 	[30203] = {
 		id = 30203,
-		name = "火力提升！"
+		name = "Cute Firepower Boost!"
 	},
 	[30221] = {
 		id = 30221,
-		name = "专属弹幕-{namecode:532}I"
+		name = "All Out Assault - Prinz Eugen μ"
 	},
 	[30222] = {
 		id = 30222,
-		name = "专属弹幕-{namecode:532}II"
+		name = "All Out Assault II"
 	},
 	[30223] = {
 		id = 30223,
-		name = "专属弹幕-{namecode:532}I"
+		name = "All Out Assault - Prinz Eugen μ"
 	},
 	[30224] = {
 		id = 30224,
-		name = "专属弹幕-{namecode:532}II"
+		name = "All Out Assault - Prinz Eugen μ"
 	},
 	[30271] = {
 		id = 30271,
-		name = "专属弹幕-布伦努斯I"
+		name = "All Out Assault I"
 	},
 	[30272] = {
 		id = 30272,
-		name = "专属弹幕-布伦努斯II"
+		name = "All Out Assault II"
 	},
 	[30291] = {
 		id = 30291,
-		name = "专属弹幕-贝亚德I"
+		name = "All Out Assault I"
 	},
 	[30292] = {
 		id = 30292,
-		name = "专属弹幕-贝亚德II"
+		name = "All Out Assault II"
 	},
 	[30321] = {
 		id = 30321,
-		name = "专属弹幕-果敢I"
+		name = "All Out Assault I"
 	},
 	[30322] = {
 		id = 30322,
-		name = "专属弹幕-果敢II"
+		name = "All Out Assault II"
 	},
 	[30331] = {
 		id = 30331,
-		name = "专属弹幕-法戈I"
+		name = "All Out Assault I"
 	},
 	[30332] = {
 		id = 30332,
-		name = "专属弹幕-法戈II"
+		name = "All Out Assault II"
 	},
 	[30341] = {
 		id = 30341,
-		name = "专属弹幕-{namecode:231}I"
+		name = "All Out Assault I"
 	},
 	[30342] = {
 		id = 30342,
-		name = "专属弹幕-{namecode:231}II"
+		name = "All Out Assault II"
 	},
 	[30351] = {
 		id = 30351,
-		name = "专属弹幕-和睦号I"
+		name = "All Out Assault I"
 	},
 	[30352] = {
 		id = 30352,
-		name = "专属弹幕-和睦号II"
+		name = "All Out Assault II"
 	},
 	[30361] = {
 		id = 30361,
-		name = "专属弹幕-幻想号I"
+		name = "All Out Assault I"
 	},
 	[30362] = {
 		id = 30362,
-		name = "专属弹幕-幻想号II"
+		name = "All Out Assault II"
 	},
 	[30371] = {
 		id = 30371,
-		name = "专属弹幕-海豚号I"
+		name = "All Out Assault I"
 	},
 	[30372] = {
 		id = 30372,
-		name = "专属弹幕-海豚号II"
+		name = "All Out Assault II"
 	},
 	[30410] = {
 		id = 30410,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[30415] = {
 		id = 30415,
-		name = "专属弹幕-朱雀III"
+		name = "All Out Assault III"
 	},
 	[30412] = {
 		id = 30412,
-		name = "全弹发射III"
+		name = "All Out Assault III"
 	},
 	[30416] = {
 		id = 30416,
-		name = "专属弹幕-朱雀III"
+		name = "All Out Assault III"
 	},
 	[30421] = {
 		id = 30421,
-		name = "专属弹幕-巴拉卡少校I"
+		name = "All Out Assault I"
 	},
 	[30422] = {
 		id = 30422,
-		name = "专属弹幕-巴拉卡少校II"
+		name = "All Out Assault II"
 	},
 	[30431] = {
 		id = 30431,
-		name = "专属弹幕-圣塔菲I"
+		name = "All Out Assault I"
 	},
 	[30432] = {
 		id = 30432,
-		name = "专属弹幕-圣塔菲II"
+		name = "All Out Assault II"
 	},
 	[30441] = {
 		id = 30441,
-		name = "专属弹幕-七省I"
+		name = "All Out Assault I"
 	},
 	[30442] = {
 		id = 30442,
-		name = "专属弹幕-七省II"
+		name = "All Out Assault II"
 	},
 	[30461] = {
 		id = 30461,
-		name = "专属弹幕-克利奥佩特拉II"
+		name = "All Out Assault II"
 	},
 	[30462] = {
 		id = 30462,
-		name = "专属弹幕-克利奥佩特拉II"
+		name = "All Out Assault II"
 	},
 	[30485] = {
 		id = 30485,
-		name = "专属弹幕-{namecode:545}I"
+		name = "All Out Assault – U-552 I"
 	},
 	[30486] = {
 		id = 30486,
-		name = "专属弹幕-{namecode:545}II"
+		name = "All Out Assault – U-552 II"
 	},
 	[30501] = {
 		id = 30501,
-		name = "专属弹幕-迪米特里·顿斯科伊I"
+		name = "All Out Assault I"
 	},
 	[30502] = {
 		id = 30502,
-		name = "专属弹幕-迪米特里·顿斯科伊II"
+		name = "All Out Assault II"
 	},
 	[39000] = {
 		id = 39000,
-		name = "强化-I"
+		name = "Optimize I"
 	},
 	[39001] = {
 		id = 39001,
-		name = "强化-II"
+		name = "Optimize II"
 	},
 	[39002] = {
 		id = 39002,
-		name = "强化-III"
+		name = "Optimize III"
 	},
 	[39003] = {
 		id = 39003,
-		name = "强化-IV"
+		name = "Optimize IV"
 	},
 	[39004] = {
 		id = 39004,
-		name = "超载"
+		name = "Overload"
 	},
 	[39010] = {
 		id = 39010,
-		name = "强化-I"
+		name = "Optimize I"
 	},
 	[78000] = {
 		id = 78000,
-		name = "火力支援"
+		name = "Volley Fire Support"
 	},
 	[78010] = {
 		id = 78010,
-		name = "航空支援"
+		name = "Aerial Support"
 	},
 	[78102] = {
 		id = 78102,
-		name = "余烬·幻影强袭"
+		name = "Shadow Skirmisher"
 	},
 	[78110] = {
 		id = 78110,
-		name = "IX=XIV连协干扰机制"
+		name = "IX-XIV Linked Jamming Protocol"
 	},
 	[78122] = {
 		id = 78122,
-		name = "女王号令·火力支援"
+		name = "Queen's Orders - Fire Support"
 	},
 	[78123] = {
 		id = 78123,
-		name = "航空打击"
+		name = "Aerial Support"
 	},
 	[78124] = {
 		id = 78124,
-		name = "余烬·烬火之刃"
+		name = "Scorched Blade"
 	},
 	[78130] = {
 		id = 78130,
-		name = "IX=VIII连协干扰机制"
+		name = "IX-VIII Linked Jamming Protocol"
 	},
 	[78142] = {
 		id = 78142,
-		name = "战役级后勤维修系统"
+		name = "Emergency Maintenance Support"
 	},
 	[78150] = {
 		id = 78150,
-		name = "VIII=IX连协干扰机制"
+		name = "VIII-IX Linked Jamming Protocol"
 	},
 	[78160] = {
 		id = 78160,
-		name = "VIII=XIV连协干扰机制"
+		name = "VIII-XIV Linked Jamming Protocol"
 	},
 	[78172] = {
 		id = 78172,
-		name = "全弹发射"
+		name = "All-Out Assault"
 	},
 	[78180] = {
 		id = 78180,
-		name = "表面清洁系统"
+		name = "Surface Cleaner"
 	},
 	[78192] = {
 		id = 78192,
-		name = "火烬余灰"
+		name = "Resplendent Embers"
 	},
 	[78202] = {
 		id = 78202,
-		name = "空中支援"
+		name = "Aerial Support"
 	},
 	[78212] = {
 		id = 78212,
-		name = "{namecode:94}的反击"
+		name = "Hiryuu's Counter"
 	},
 	[101010] = {
 		id = 101010,
-		name = "主人公补正"
+		name = "Protagonist Aura"
 	},
 	[101020] = {
 		id = 101020,
-		name = "冥想·S"
+		name = "Medistation S"
 	},
 	[101030] = {
 		id = 101030,
-		name = "限阻破坏"
+		name = "Power Break"
 	},
 	[101031] = {
 		id = 101031,
-		name = "限阻破坏"
+		name = "Power Break"
 	},
 	[101040] = {
 		id = 101040,
-		name = "联结·阿萨姆"
+		name = "Assam Link"
 	},
 	[101050] = {
 		id = 101050,
-		name = "十字缔结"
+		name = "Cross Combination"
 	},
 	[101060] = {
 		id = 101060,
-		name = "胜利刺穿"
+		name = "Victory Slash"
 	},
 	[101070] = {
 		id = 101070,
-		name = "烈焰崩袭"
+		name = "Blaze Break"
 	},
 	[101080] = {
 		id = 101080,
-		name = "三色秩序"
+		name = "Tricolor Order"
 	},
 	[101090] = {
 		id = 101090,
-		name = "蕾丝狂舞"
+		name = "Lacy Dance"
 	},
 	[101100] = {
 		id = 101100,
-		name = "幻影刃舞·风暴"
+		name = "Tänzerin Trombe"
 	},
 	[101110] = {
 		id = 101110,
-		name = "众神之怒·雪崩雷震"
+		name = "Getter Ravine"
 	},
 	[101120] = {
 		id = 101120,
-		name = "怒旋·大吉岭"
+		name = "Darjeeling Rotation"
 	},
 	[101121] = {
 		id = 101121,
-		name = "怒旋·大吉岭"
+		name = "Darjeeling Rotation"
 	},
 	[101122] = {
 		id = 101122,
-		name = "怒旋·大吉岭"
+		name = "Darjeeling Rotation"
 	},
 	[101123] = {
 		id = 101123,
-		name = "怒旋·大吉岭"
+		name = "Darjeeling Rotation"
 	},
 	[101130] = {
 		id = 101130,
-		name = "宝石枪雨"
+		name = "Rainy Ratnapura"
 	},
 	[102010] = {
 		id = 102010,
-		name = "bili看板娘"
+		name = "Future Content "
 	},
 	[102020] = {
 		id = 102020,
-		name = "bili看板娘"
-	},
-	[103010] = {
-		id = 103010,
-		name = "四神变幻"
-	},
-	[103020] = {
-		id = 103020,
-		name = "十姊妹"
-	},
-	[103030] = {
-		id = 103030,
-		name = "白虹"
-	},
-	[103040] = {
-		id = 103040,
-		name = "夕星"
-	},
-	[103050] = {
-		id = 103050,
-		name = "生命的鼓动"
-	},
-	[103051] = {
-		id = 103051,
-		name = "生命的鼓动"
-	},
-	[103060] = {
-		id = 103060,
-		name = "百合根"
-	},
-	[103061] = {
-		id = 103061,
-		name = "百合根"
-	},
-	[103062] = {
-		id = 103062,
-		name = "百合根"
-	},
-	[103063] = {
-		id = 103063,
-		name = "百合根"
-	},
-	[103070] = {
-		id = 103070,
-		name = "锁之巫女"
-	},
-	[103080] = {
-		id = 103080,
-		name = "双影无双"
-	},
-	[103090] = {
-		id = 103090,
-		name = "锁之巫女"
-	},
-	[103100] = {
-		id = 103100,
-		name = "双影无双"
-	},
-	[103110] = {
-		id = 103110,
-		name = "百華蜜"
-	},
-	[103120] = {
-		id = 103120,
-		name = "蜜月"
+		name = "Future Content "
 	},
 	[104010] = {
 		id = 104010,
-		name = "爱碳光线！"
+		name = "Kizuna Beam"
 	},
 	[104011] = {
 		id = 104011,
-		name = "爱碳光线！"
+		name = "Kizuna Beam"
 	},
 	[104012] = {
 		id = 104012,
-		name = "爱碳光线！"
+		name = "Kizuna Beam"
 	},
 	[104013] = {
 		id = 104013,
-		name = "爱碳光线！"
+		name = "Kizuna Beam"
 	},
 	[104014] = {
 		id = 104014,
-		name = "爱碳光线！"
+		name = "Kizuna Beam"
 	},
 	[104020] = {
 		id = 104020,
-		name = "危机规避！"
+		name = "Crisis Prevention!"
 	},
 	[104030] = {
 		id = 104030,
-		name = "链接着的羁绊"
+		name = "Connected"
 	},
 	[104031] = {
 		id = 104031,
-		name = "链接着的羁绊"
+		name = "Connected"
 	},
 	[104040] = {
 		id = 104040,
-		name = "绝对清楚宣言"
+		name = "Everything Is In Order"
 	},
 	[104050] = {
 		id = 104050,
@@ -14163,27 +13963,27 @@ pg.base.skill_data_display = {
 	},
 	[104070] = {
 		id = 104070,
-		name = "描边大师"
+		name = "Super AIming Adjustments"
 	},
 	[104071] = {
 		id = 104071,
-		name = "描边大师"
+		name = "Super AIming Adjustments"
 	},
 	[104080] = {
 		id = 104080,
-		name = "智能寻路系统"
+		name = "Coercion Assistance Mode"
 	},
 	[105010] = {
 		id = 105010,
-		name = "2.25马赫之华"
+		name = "Mach 2.42 Blossom"
 	},
 	[105020] = {
 		id = 105020,
-		name = "二重存在之狐"
+		name = "Two-Faced Fox"
 	},
 	[105021] = {
 		id = 105021,
-		name = "二重存在之狐"
+		name = "Two-Faced Fox"
 	},
 	[105030] = {
 		id = 105030,
@@ -14191,111 +13991,111 @@ pg.base.skill_data_display = {
 	},
 	[105040] = {
 		id = 105040,
-		name = "比大海更深邃的天空下"
+		name = "Beneath the Deep Blue Sky"
 	},
 	[105041] = {
 		id = 105041,
-		name = "比大海更深邃的天空下"
+		name = "Beneath the Deep Blue Sky"
 	},
 	[105050] = {
 		id = 105050,
-		name = "室内系女仆"
+		name = "Shutin Maid"
 	},
 	[105051] = {
 		id = 105051,
-		name = "室内系女仆"
+		name = "Shutin Maid"
 	},
 	[105060] = {
 		id = 105060,
-		name = "废柴天使"
+		name = "Fallen (Hopeless) Angel"
 	},
 	[105061] = {
 		id = 105061,
-		name = "天使之音—开火"
+		name = "Angel's Voice - Offense"
 	},
 	[105062] = {
 		id = 105062,
-		name = "天使之音—防御"
+		name = "Angel's Voice - Defense"
 	},
 	[105063] = {
 		id = 105063,
-		name = "天使之音—机动"
+		name = "Angel's Voice - Evasion"
 	},
 	[105064] = {
 		id = 105064,
-		name = "天使之音—命中"
+		name = "Angel's Voice - Accuracy"
 	},
 	[105065] = {
 		id = 105065,
-		name = "天使之音—回复"
+		name = "Angel's Voice - Healing"
 	},
 	[105070] = {
 		id = 105070,
-		name = "向日葵的约定"
+		name = "Promise to the Sunflower"
 	},
 	[105071] = {
 		id = 105071,
-		name = "向日葵的约定"
+		name = "Promise to the Sunflower"
 	},
 	[105080] = {
 		id = 105080,
-		name = "与你眺望的夏日之花"
+		name = "The Summer Flower We Watch"
 	},
 	[105090] = {
 		id = 105090,
-		name = "第三日的见异思迁"
+		name = "Cheating on the Third Day"
 	},
 	[105100] = {
 		id = 105100,
-		name = "鬼神☆百鬼！"
+		name = "Nakiri☆The☆Demon"
 	},
 	[105101] = {
 		id = 105101,
-		name = "强化失败了..."
+		name = "Failed to enhance..."
 	},
 	[105110] = {
 		id = 105110,
-		name = "阿修罗修罗刹鬼神斩"
+		name = "Demon Cutter Asura-Rakshasa"
 	},
 	[105120] = {
 		id = 105120,
-		name = "梦见好梦的「WAVE」"
+		name = "The Wave of a Pleasant Dream"
 	},
 	[105131] = {
 		id = 105131,
-		name = "MP「2/3」"
+		name = "MP 2/3"
 	},
 	[105132] = {
 		id = 105132,
-		name = "MP清零的「EXPLOSION」"
+		name = "MP Burst - Explosion"
 	},
 	[105133] = {
 		id = 105133,
-		name = "MP「1/3」"
+		name = "MP 1/3"
 	},
 	[105140] = {
 		id = 105140,
-		name = "野性的二元论"
+		name = "Wild Dualism"
 	},
 	[105141] = {
 		id = 105141,
-		name = "野性的二元论"
+		name = "Wild Dualism"
 	},
 	[105150] = {
 		id = 105150,
-		name = "塔罗占卜师"
+		name = "Tarot Card Divination"
 	},
 	[105151] = {
 		id = 105151,
-		name = "AA UP!"
+		name = "AA INCREASED!"
 	},
 	[105152] = {
 		id = 105152,
-		name = "RLD UP!"
+		name = "RLD INCREASED!"
 	},
 	[105153] = {
 		id = 105153,
-		name = "ATK UP!"
+		name = "ATK INCREASED!"
 	},
 	[105154] = {
 		id = 105154,
@@ -14303,203 +14103,203 @@ pg.base.skill_data_display = {
 	},
 	[105155] = {
 		id = 105155,
-		name = "占卜中"
+		name = "Divining…"
 	},
 	[106010] = {
 		id = 106010,
-		name = "玫瑰边刺"
+		name = "Rose's Thorns"
 	},
 	[106011] = {
 		id = 106011,
-		name = "玫瑰边刺"
+		name = "Rose's Thorns"
 	},
 	[106020] = {
 		id = 106020,
-		name = "活泼的小步舞曲"
+		name = "Vibrant Minuet"
 	},
 	[106021] = {
 		id = 106021,
-		name = "活泼的小步舞曲"
+		name = "Vibrant Minuet"
 	},
 	[106030] = {
 		id = 106030,
-		name = "必杀☆猜拳"
+		name = "Rock-Paper-Cannon Salvo "
 	},
 	[106031] = {
 		id = 106031,
-		name = "必杀☆猜拳"
+		name = "Rock-Paper-Cannon Salvo "
 	},
 	[106032] = {
 		id = 106032,
-		name = "必杀☆猜拳"
+		name = "Rock-Paper-Cannon Salvo "
 	},
 	[106033] = {
 		id = 106033,
-		name = "必杀☆猜拳"
+		name = "Rock-Paper-Cannon Salvo "
 	},
 	[106034] = {
 		id = 106034,
-		name = "必杀☆猜拳"
+		name = "Rock-Paper-Cannon Salvo "
 	},
 	[106040] = {
 		id = 106040,
-		name = "必杀☆大爆发"
+		name = "Super Mega Explosion"
 	},
 	[106045] = {
 		id = 106045,
-		name = "必杀☆大爆发"
+		name = "Super Mega Explosion"
 	},
 	[106050] = {
 		id = 106050,
-		name = "樱花天舞袭"
+		name = "Sakura Petal Dance"
 	},
 	[106051] = {
 		id = 106051,
-		name = "樱花天舞袭"
+		name = "Sakura Petal Dance"
 	},
 	[106060] = {
 		id = 106060,
-		name = "霞镜花"
+		name = "Misty Mirror Flower"
 	},
 	[106070] = {
 		id = 106070,
-		name = "害羞的助理少女"
+		name = "Humble Part-Timer"
 	},
 	[106071] = {
 		id = 106071,
-		name = "害羞的助理少女"
+		name = "Humble Part-Timer"
 	},
 	[106080] = {
 		id = 106080,
-		name = "维纳斯之友"
+		name = "Venus Friends"
 	},
 	[106081] = {
 		id = 106081,
-		name = "维纳斯之友"
+		name = "Venus Friends"
 	},
 	[106090] = {
 		id = 106090,
-		name = "温柔？的姐姐"
+		name = "Not-So-Gentle Sister"
 	},
 	[106091] = {
 		id = 106091,
-		name = "温柔？的姐姐"
+		name = "Not-So-Gentle Sister"
 	},
 	[106100] = {
 		id = 106100,
-		name = "神秘的维纳斯"
+		name = "Venus' Unpredictability"
 	},
 	[106101] = {
 		id = 106101,
-		name = "神秘的维纳斯"
+		name = "Venus' Unpredictability"
 	},
 	[106110] = {
 		id = 106110,
-		name = "鬼牌游戏"
+		name = "Joker Card"
 	},
 	[106111] = {
 		id = 106111,
-		name = "鬼牌游戏"
+		name = "Joker Card"
 	},
 	[106112] = {
 		id = 106112,
-		name = "鬼牌游戏"
+		name = "Joker Card"
 	},
 	[106113] = {
 		id = 106113,
-		name = "鬼牌游戏"
+		name = "Joker Card"
 	},
 	[106114] = {
 		id = 106114,
-		name = "鬼牌游戏"
+		name = "Joker Card"
 	},
 	[106120] = {
 		id = 106120,
-		name = "皇家同花顺"
+		name = "Royal Flush"
 	},
 	[106121] = {
 		id = 106121,
-		name = "皇家同花顺"
+		name = "Royal Flush"
 	},
 	[106130] = {
 		id = 106130,
-		name = "飞天之舞"
+		name = "Dance of the Heavens"
 	},
 	[106131] = {
 		id = 106131,
-		name = "飞天之舞"
+		name = "Dance of the Heavens"
 	},
 	[106140] = {
 		id = 106140,
-		name = "花神乐"
+		name = "Hanakagura"
 	},
 	[106141] = {
 		id = 106141,
-		name = "花神乐"
+		name = "Hanakagura"
 	},
 	[106150] = {
 		id = 106150,
-		name = "学者的海上调查"
+		name = "Scholar's Ocean Investigation"
 	},
 	[106160] = {
 		id = 106160,
-		name = "忙碌后的饥饿感"
+		name = "Hunger After Work"
 	},
 	[106171] = {
 		id = 106171,
-		name = "玫瑰边刺 +"
+		name = "Rose's Thorns+"
 	},
 	[106172] = {
 		id = 106172,
-		name = "玫瑰边刺 +"
+		name = "Rose's Thorns+"
 	},
 	[106190] = {
 		id = 106190,
-		name = "忙碌后的饥饿感 +"
+		name = "Hunger After Work+"
 	},
 	[106210] = {
 		id = 106210,
-		name = "必杀☆大爆发 +"
+		name = "Super Mega Explosion+"
 	},
 	[106215] = {
 		id = 106215,
-		name = "必杀☆大爆发 +"
+		name = "Super Mega Explosion+"
 	},
 	[106240] = {
 		id = 106240,
-		name = "霞镜花 +"
+		name = "Misty Mirror Flower+"
 	},
 	[106241] = {
 		id = 106241,
-		name = "霞镜花 +"
+		name = "Misty Mirror Flower+"
 	},
 	[106260] = {
 		id = 106260,
-		name = "神秘的维纳斯 +"
+		name = "Venus' Unpredictability+"
 	},
 	[106261] = {
 		id = 106261,
-		name = "神秘的维纳斯 +"
+		name = "Venus' Unpredictability+"
 	},
 	[106280] = {
 		id = 106280,
-		name = "花神乐 +"
+		name = "Hanakagura+"
 	},
 	[106281] = {
 		id = 106281,
-		name = "花神乐 +"
+		name = "Hanakagura+"
 	},
 	[106282] = {
 		id = 106282,
-		name = "花神乐 +"
+		name = "Hanakagura+"
 	},
 	[106290] = {
 		id = 106290,
-		name = "皇家同花顺 +"
+		name = "Royal Flush+"
 	},
 	[106291] = {
 		id = 106291,
-		name = "皇家同花顺 +"
+		name = "Royal Flush+"
 	},
 	[106320] = {
 		id = 106320,
@@ -14543,147 +14343,147 @@ pg.base.skill_data_display = {
 	},
 	[107010] = {
 		id = 107010,
-		name = "冒失娘？"
+		name = "Cutesy Clumsy?"
 	},
 	[107020] = {
 		id = 107020,
-		name = "idol的向上心"
+		name = "An Idol's Ambitions"
 	},
 	[107021] = {
 		id = 107021,
-		name = "idol的向上心"
+		name = "An Idol's Ambitions"
 	},
 	[107030] = {
 		id = 107030,
-		name = "PositiveBurst！"
+		name = "Positivity Burst!"
 	},
 	[107040] = {
 		id = 107040,
-		name = "响彻天空的碧蓝之歌"
+		name = "Cerulean Song"
 	},
 	[107041] = {
 		id = 107041,
-		name = "响彻天空的碧蓝之歌"
+		name = "Cerulean Song"
 	},
 	[107050] = {
 		id = 107050,
-		name = "努力成就之景"
+		name = "The Fruits of Labor"
 	},
 	[107051] = {
 		id = 107051,
-		name = "努力成就之景"
+		name = "The Fruits of Labor"
 	},
 	[107060] = {
 		id = 107060,
-		name = "协行的海之翼"
+		name = "Alongside the Ocean's Wings"
 	},
 	[107070] = {
 		id = 107070,
-		name = "伊织Strike!"
+		name = "Iori Strike!"
 	},
 	[107071] = {
 		id = 107071,
-		name = "伊织Strike!"
+		name = "Iori Strike!"
 	},
 	[107080] = {
 		id = 107080,
-		name = "伊织Defence!"
+		name = "Iori Defense!"
 	},
 	[107081] = {
 		id = 107081,
-		name = "伊织Defence!"
+		name = "Iori Defense!"
 	},
 	[107090] = {
 		id = 107090,
-		name = "天然系？招牌姿势"
+		name = "Feigned Innocence?"
 	},
 	[107100] = {
 		id = 107100,
-		name = "治愈系占卜"
+		name = "Healing Augury"
 	},
 	[107101] = {
 		id = 107101,
-		name = "治愈系占卜①"
+		name = "Healing Augury"
 	},
 	[107102] = {
 		id = 107102,
-		name = "治愈系占卜②"
+		name = "Healing Augury"
 	},
 	[107103] = {
 		id = 107103,
-		name = "治愈系占卜③"
+		name = "Healing Augury"
 	},
 	[107104] = {
 		id = 107104,
-		name = "治愈系占卜④"
+		name = "Healing Augury"
 	},
 	[107110] = {
 		id = 107110,
-		name = "迷路的偶像"
+		name = "Directionally Challenged"
 	},
 	[107111] = {
 		id = 107111,
-		name = "？"
+		name = "Directionally Challenged"
 	},
 	[107112] = {
 		id = 107112,
-		name = "迷路的偶像"
+		name = "Directionally Challenged"
 	},
 	[107120] = {
 		id = 107120,
-		name = "前行航路Management"
+		name = "Fleet Course Management"
 	},
 	[107121] = {
 		id = 107121,
-		name = "前行航路Management"
+		name = "Fleet Course Management"
 	},
 	[107122] = {
 		id = 107122,
-		name = "前行航路Management"
+		name = "Fleet Course Management"
 	},
 	[107123] = {
 		id = 107123,
-		name = "前行航路Management"
+		name = "Fleet Course Management"
 	},
 	[107124] = {
 		id = 107124,
-		name = "前行航路Management"
+		name = "Fleet Course Management"
 	},
 	[107130] = {
 		id = 107130,
-		name = "运输的好伙伴"
+		name = "Logistics Buddy"
 	},
 	[107140] = {
 		id = 107140,
-		name = "恶作剧Cheering·亚美"
+		name = "Prankster's Cheer - Ami"
 	},
 	[107150] = {
 		id = 107150,
-		name = "双子共舞·亚美"
+		name = "Double Trouble - Ami"
 	},
 	[107160] = {
 		id = 107160,
-		name = "恶作剧Cheering·真美"
+		name = "Prankster's Cheer - Mami"
 	},
 	[107170] = {
 		id = 107170,
-		name = "双子共舞·真美"
+		name = "Double Trouble - Mami"
 	},
 	[108010] = {
 		id = 108010,
-		name = "古立特光线"
+		name = "Grid Beam"
 	},
 	[108013] = {
 		id = 108013,
-		name = "极限古立特光线"
+		name = "Max Grid Beam"
 	},
 	[108015] = {
 		id = 108015,
-		name = "古立特光线"
+		name = "Grid Beam"
 	},
 	[108017] = {
 		id = 108017,
-		name = "双重爆裂古立特光线"
+		name = "Twin Buster Grid Beam"
 	},
 	[108020] = {
 		id = 108020,
@@ -14699,19 +14499,19 @@ pg.base.skill_data_display = {
 	},
 	[108030] = {
 		id = 108030,
-		name = "古立特修正光线"
+		name = "Grid Fixer Beam"
 	},
 	[108032] = {
 		id = 108032,
-		name = "古立特修正光线"
+		name = "Grid Fixer Beam"
 	},
 	[108040] = {
 		id = 108040,
-		name = "能量脉冲"
+		name = "Energy Pulse"
 	},
 	[108045] = {
 		id = 108045,
-		name = "能量脉冲"
+		name = "Energy Pulse"
 	},
 	[108050] = {
 		id = 108050,
@@ -14719,35 +14519,35 @@ pg.base.skill_data_display = {
 	},
 	[108060] = {
 		id = 108060,
-		name = "不死之焰"
+		name = "Ever-Burning Flame"
 	},
 	[108061] = {
 		id = 108061,
-		name = "不死之焰"
+		name = "Ever-Burning Flame"
 	},
 	[108070] = {
 		id = 108070,
-		name = "圣剑终结"
+		name = "Calibur End"
 	},
 	[108071] = {
 		id = 108071,
-		name = "圣剑终结"
+		name = "Calibur End"
 	},
 	[108080] = {
 		id = 108080,
-		name = "巨坦炮击"
+		name = "Tanker Cannon "
 	},
 	[108081] = {
 		id = 108081,
-		name = "巨坦炮击"
+		name = "Tanker Cannon "
 	},
 	[108090] = {
 		id = 108090,
-		name = "一齐射击"
+		name = "Coordinated Volley"
 	},
 	[108091] = {
 		id = 108091,
-		name = "一齐射击"
+		name = "Coordinated Volley"
 	},
 	[108100] = {
 		id = 108100,
@@ -14759,639 +14559,639 @@ pg.base.skill_data_display = {
 	},
 	[108110] = {
 		id = 108110,
-		name = "必烧大火炎·暴龙怒吼"
+		name = "Blazing Inferno Rex Roar"
 	},
 	[108120] = {
 		id = 108120,
-		name = "那什么光线！"
+		name = "Something Beam"
 	},
 	[108122] = {
 		id = 108122,
-		name = "那什么光线！"
+		name = "Something Beam"
 	},
 	[108130] = {
 		id = 108130,
-		name = "DYNAZENON FULL BURST！"
+		name = "Dynazenon Full Burst"
 	},
 	[108140] = {
 		id = 108140,
-		name = "共战乘风"
+		name = "Ride the Wind"
 	},
 	[108141] = {
 		id = 108141,
-		name = "共战乘风"
+		name = "Ride the Wind"
 	},
 	[108150] = {
 		id = 108150,
-		name = "炎龙展翼"
+		name = "Take to the Skies"
 	},
 	[108151] = {
 		id = 108151,
-		name = "炎龙展翼"
+		name = "Take to the Skies"
 	},
 	[108210] = {
 		id = 108210,
-		name = "古立特光线 +"
+		name = "Grid Beam+"
 	},
 	[108213] = {
 		id = 108213,
-		name = "极限古立特光线 +"
+		name = "Max Grid Beam+"
 	},
 	[108215] = {
 		id = 108215,
-		name = "古立特光线 +"
+		name = "Grid Beam+"
 	},
 	[108217] = {
 		id = 108217,
-		name = "双重爆裂古立特光线 +"
+		name = "Twin Blaster Grid Beam+"
 	},
 	[108252] = {
 		id = 108252,
-		name = "那什么光线！ +"
+		name = "Something Beam+"
 	},
 	[108280] = {
 		id = 108280,
-		name = "Soundlath Full Burst +"
+		name = "Sounderous Full Blast+"
 	},
 	[108290] = {
 		id = 108290,
-		name = "打起精神！+"
+		name = "Hang in There!+"
 	},
 	[108291] = {
 		id = 108291,
-		name = "打起精神！+"
+		name = "Hang in There!+"
 	},
 	[108292] = {
 		id = 108292,
-		name = "打起精神！+"
+		name = "Hang in There!+"
 	},
 	[108300] = {
 		id = 108300,
-		name = "Soundlath Full Burst"
+		name = "Sounderous Full Blast"
 	},
 	[108310] = {
 		id = 108310,
-		name = "Melodic Blaster"
+		name = "Melodic Blaster"
 	},
 	[108320] = {
 		id = 108320,
-		name = "打起精神！"
+		name = "Hang in There!"
 	},
 	[108321] = {
 		id = 108321,
-		name = "打起精神！"
+		name = "Hang in There!"
 	},
 	[108330] = {
 		id = 108330,
-		name = "约定、爱与保质期"
+		name = "Promises, Love, and Expiration Dates"
 	},
 	[108331] = {
 		id = 108331,
-		name = "约定、爱与保质期"
+		name = "Promises, Love, and Expiration Dates"
 	},
 	[108415] = {
 		id = 108415,
-		name = "古立特光线 +"
+		name = "Grid Beam+"
 	},
 	[108417] = {
 		id = 108417,
-		name = "古立特光线 +"
+		name = "Grid Beam+"
 	},
 	[108454] = {
 		id = 108454,
-		name = "那什么光线！ +"
+		name = "Something Beam+"
 	},
 	[109010] = {
 		id = 109010,
-		name = "闪光爆裂"
+		name = "Shining Blast"
 	},
 	[109011] = {
 		id = 109011,
-		name = "闪光爆裂"
+		name = "Shining Blast"
 	},
 	[109015] = {
 		id = 109015,
-		name = "闪光爆裂"
+		name = "Shining Blast"
 	},
 	[109020] = {
 		id = 109020,
-		name = "炼金术之师"
+		name = "Alchemy Teacher"
 	},
 	[109030] = {
 		id = 109030,
-		name = "北斗七星"
+		name = "Grand Chariot"
 	},
 	[109040] = {
 		id = 109040,
-		name = "北斗七星 +"
+		name = "Grand Chariot+"
 	},
 	[109041] = {
 		id = 109041,
-		name = "北斗七星 +"
+		name = "Grand Chariot+"
 	},
 	[109050] = {
 		id = 109050,
-		name = "冰结百合"
+		name = "Frozen Lily"
 	},
 	[109055] = {
 		id = 109055,
-		name = "冰结百合"
+		name = "Frozen Lily"
 	},
 	[109060] = {
 		id = 109060,
-		name = "祝福旋律"
+		name = "Blessed Melody"
 	},
 	[109061] = {
 		id = 109061,
-		name = "祝福旋律"
+		name = "Blessed Melody"
 	},
 	[109062] = {
 		id = 109062,
-		name = "祝福旋律"
+		name = "Blessed Melody"
 	},
 	[109063] = {
 		id = 109063,
-		name = "祝福旋律"
+		name = "Blessed Melody"
 	},
 	[109064] = {
 		id = 109064,
-		name = "祝福旋律"
+		name = "Blessed Melody"
 	},
 	[109070] = {
 		id = 109070,
-		name = "纯白镇魂歌"
+		name = "White Requiem"
 	},
 	[109080] = {
 		id = 109080,
-		name = "纯白镇魂歌 +"
+		name = "White Requiem+"
 	},
 	[109081] = {
 		id = 109081,
-		name = "纯白镇魂歌 +"
+		name = "White Requiem+"
 	},
 	[109090] = {
 		id = 109090,
-		name = "红焰斩"
+		name = "Red Flame Slash"
 	},
 	[109095] = {
 		id = 109095,
-		name = "红焰斩"
+		name = "Red Flame Slash"
 	},
 	[109100] = {
 		id = 109100,
-		name = "武装魅惑"
+		name = "Arms Enchantment"
 	},
 	[109110] = {
 		id = 109110,
-		name = "完美愿望"
+		name = "Flawless Desire"
 	},
 	[109120] = {
 		id = 109120,
-		name = "完美愿望 +"
+		name = "Flawless Desire+"
 	},
 	[109121] = {
 		id = 109121,
-		name = "完美愿望 +"
+		name = "Flawless Desire+"
 	},
 	[109130] = {
 		id = 109130,
-		name = "野性生长"
+		name = "Wild Growth"
 	},
 	[109131] = {
 		id = 109131,
-		name = "野性生长"
+		name = "Wild Growth"
 	},
 	[109140] = {
 		id = 109140,
-		name = "自然守护者"
+		name = "Spirit Gift"
 	},
 	[109141] = {
 		id = 109141,
-		name = "获得木精"
+		name = "Gained Wood Element"
 	},
 	[109150] = {
 		id = 109150,
-		name = "永恒盛开"
+		name = "Eternity Bloom"
 	},
 	[109160] = {
 		id = 109160,
-		name = "永恒盛开 +"
+		name = "Eternity Bloom+"
 	},
 	[109161] = {
 		id = 109161,
-		name = "永恒盛开 +"
+		name = "Eternity Bloom+"
 	},
 	[109170] = {
 		id = 109170,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109171] = {
 		id = 109171,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109172] = {
 		id = 109172,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109173] = {
 		id = 109173,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109174] = {
 		id = 109174,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109175] = {
 		id = 109175,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109176] = {
 		id = 109176,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109177] = {
 		id = 109177,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109178] = {
 		id = 109178,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109179] = {
 		id = 109179,
-		name = "元素链接"
+		name = "Elemental Link"
 	},
 	[109180] = {
 		id = 109180,
-		name = "精灵之力"
+		name = "Elemental Power"
 	},
 	[109181] = {
 		id = 109181,
-		name = "精灵之力"
+		name = "Elemental Power"
 	},
 	[109190] = {
 		id = 109190,
-		name = "一骑当千"
+		name = "Einzelkampf"
 	},
 	[109200] = {
 		id = 109200,
-		name = "一骑当千 +"
+		name = "Einzelkampf+"
 	},
 	[109201] = {
 		id = 109201,
-		name = "一骑当千 +"
+		name = "Einzelkampf+"
 	},
 	[109210] = {
 		id = 109210,
-		name = "暗黑灵体"
+		name = "Dark Spirit"
 	},
 	[109211] = {
 		id = 109211,
-		name = "暗黑灵体"
+		name = "Dark Spirit"
 	},
 	[109212] = {
 		id = 109212,
-		name = "暗黑灵体"
+		name = "Dark Spirit"
 	},
 	[109220] = {
 		id = 109220,
-		name = "圣光轨迹"
+		name = "Holy Trail"
 	},
 	[109221] = {
 		id = 109221,
-		name = "圣光轨迹"
+		name = "Holy Trail"
 	},
 	[109222] = {
 		id = 109222,
-		name = "圣光轨迹"
+		name = "Holy Trail"
 	},
 	[109223] = {
 		id = 109223,
-		name = "圣光轨迹"
+		name = "Holy Trail"
 	},
 	[109230] = {
 		id = 109230,
-		name = "月之审判"
+		name = "Luna Judgment"
 	},
 	[109240] = {
 		id = 109240,
-		name = "月之审判 +"
+		name = "Luna Judgment+"
 	},
 	[109241] = {
 		id = 109241,
-		name = "月之审判 +"
+		name = "Luna Judgment+"
 	},
 	[109242] = {
 		id = 109242,
-		name = "月之审判 +"
+		name = "Luna Judgment+"
 	},
 	[110010] = {
 		id = 110010,
-		name = "双刀追斩"
+		name = "Twin Blades - Followup Slash"
 	},
 	[110011] = {
 		id = 110011,
-		name = "双刀追斩"
+		name = "Twin Blades - Followup Slash"
 	},
 	[110021] = {
 		id = 110021,
-		name = "刀刃交锋"
+		name = "Twin Blades Combo Strike"
 	},
 	[110022] = {
 		id = 110022,
-		name = "刀刃交锋"
+		name = "Twin Blades Combo Strike"
 	},
 	[110023] = {
 		id = 110023,
-		name = "追斩-刀刃交锋"
+		name = "Twin Blades Combo Strike"
 	},
 	[110024] = {
 		id = 110024,
-		name = "追斩-刀刃交锋"
+		name = "Twin Blades Combo Strike"
 	},
 	[110030] = {
 		id = 110030,
-		name = "刀刃交锋 +"
+		name = "Twin Blades Combo Strike+"
 	},
 	[110031] = {
 		id = 110031,
-		name = "半蔵流百花齐放"
+		name = "Twin Blades Combo Strike+"
 	},
 	[110032] = {
 		id = 110032,
-		name = "半蔵流百花齐放"
+		name = "Twin Blades Combo Strike+"
 	},
 	[110033] = {
 		id = 110033,
-		name = "追斩-半蔵流百花齐放"
+		name = "Followup - Hanzō-Style Full Bloom"
 	},
 	[110034] = {
 		id = 110034,
-		name = "追斩-半蔵流百花齐放"
+		name = "Followup - Hanzō-Style Full Bloom"
 	},
 	[110040] = {
 		id = 110040,
-		name = "烈空凰闪"
+		name = "Fierce Sky Phoenix Flash"
 	},
 	[110043] = {
 		id = 110043,
-		name = "烈空凰闪"
+		name = "Fierce Sky Phoenix Flash"
 	},
 	[110051] = {
 		id = 110051,
-		name = "凤华炎舞"
+		name = "Phoenix's Superb Fire Dance"
 	},
 	[110060] = {
 		id = 110060,
-		name = "烈空凰闪 +"
+		name = "Fierce Sky Phoenix Flash+"
 	},
 	[110063] = {
 		id = 110063,
-		name = "烈空凰闪 +"
+		name = "Fierce Sky Phoenix Flash+"
 	},
 	[110070] = {
 		id = 110070,
-		name = "殉身飞舞"
+		name = "Blaze of Sacrifice"
 	},
 	[110080] = {
 		id = 110080,
-		name = "红莲之焰"
+		name = "Flaming Crimson"
 	},
 	[110090] = {
 		id = 110090,
-		name = "殉身飞舞 +"
+		name = "Blaze of Sacrifice+"
 	},
 	[110091] = {
 		id = 110091,
-		name = "殉身飞舞 +"
+		name = "Blaze of Sacrifice+"
 	},
 	[110130] = {
 		id = 110130,
-		name = "管理委员的威严"
+		name = "Management Member's Pressure"
 	},
 	[110140] = {
 		id = 110140,
-		name = "紫冰爆破"
+		name = "Purple Ice Blast"
 	},
 	[110141] = {
 		id = 110141,
-		name = "紫冰爆破"
+		name = "Purple Ice Blast"
 	},
 	[110142] = {
 		id = 110142,
-		name = "紫冰爆破"
+		name = "Purple Ice Blast"
 	},
 	[110150] = {
 		id = 110150,
-		name = "紫冰爆破 +"
+		name = "Purple Ice Blast+"
 	},
 	[110151] = {
 		id = 110151,
-		name = "紫冰爆破 +"
+		name = "Purple Ice Blast+"
 	},
 	[110152] = {
 		id = 110152,
-		name = "紫冰爆破 +"
+		name = "Purple Ice Blast+"
 	},
 	[110160] = {
 		id = 110160,
-		name = "小贝贝Hide!"
+		name = "Bebeby, Hide Me!"
 	},
 	[110162] = {
 		id = 110162,
-		name = "小贝贝Hide!"
+		name = "Bebeby, Hide Me!"
 	},
 	[110170] = {
 		id = 110170,
-		name = "祸魂紫舞"
+		name = "Root of Calamity Storm"
 	},
 	[110172] = {
 		id = 110172,
-		name = "祸魂之力"
+		name = "Root of Calamity's Wrath"
 	},
 	[110174] = {
 		id = 110174,
-		name = "祸魂紫舞"
+		name = "Root of Calamity Storm"
 	},
 	[110181] = {
 		id = 110181,
-		name = "祸魂紫舞 +"
+		name = "Root of Calamity Storm+"
 	},
 	[110182] = {
 		id = 110182,
-		name = "祸魂之力"
+		name = "Root of Calamity's Wrath"
 	},
 	[110190] = {
 		id = 110190,
-		name = "远野之魂"
+		name = "Soul of Tohno"
 	},
 	[110191] = {
 		id = 110191,
-		name = "远野之魂"
+		name = "Soul of Tohno"
 	},
 	[110192] = {
 		id = 110192,
-		name = "远野之魂"
+		name = "Soul of Tohno"
 	},
 	[110200] = {
 		id = 110200,
-		name = "连环斩击"
+		name = "Enka Tuypa"
 	},
 	[110210] = {
 		id = 110210,
-		name = "远野之魂 +"
+		name = "Soul of Tohno+"
 	},
 	[110211] = {
 		id = 110211,
-		name = "远野之魂 +"
+		name = "Soul of Tohno+"
 	},
 	[110212] = {
 		id = 110212,
-		name = "远野之魂 +"
+		name = "Soul of Tohno+"
 	},
 	[111051] = {
 		id = 111051,
-		name = "坚强的意志力"
+		name = "Overpowering Will"
 	},
 	[111071] = {
 		id = 111071,
-		name = "异星植物伙伴"
+		name = "Alien Plant Friend"
 	},
 	[111074] = {
 		id = 111074,
-		name = "异星植物伙伴"
+		name = "Alien Plant Friend"
 	},
 	[111081] = {
 		id = 111081,
-		name = "异星植物伙伴 +"
+		name = "Alien Plant Friend+"
 	},
 	[111084] = {
 		id = 111084,
-		name = "异星植物伙伴 +"
+		name = "Alien Plant Friend+"
 	},
 	[111094] = {
 		id = 111094,
-		name = "计划执行"
+		name = "Plan Execution"
 	},
 	[111098] = {
 		id = 111098,
-		name = "神秘计划"
+		name = "Secret Schemes"
 	},
 	[111099] = {
 		id = 111099,
-		name = "神秘计划"
+		name = "Secret Schemes"
 	},
 	[111100] = {
 		id = 111100,
-		name = "武装变幻"
+		name = "Armament Swap"
 	},
 	[111104] = {
 		id = 111104,
-		name = "变形·拳"
+		name = "Swap - Fists"
 	},
 	[111106] = {
 		id = 111106,
-		name = "变形·刃"
+		name = "Swap - Sword"
 	},
 	[111110] = {
 		id = 111110,
-		name = "武装变幻 +"
+		name = "Armament Swap+"
 	},
 	[111114] = {
 		id = 111114,
-		name = "变形·拳 +"
+		name = "Swap - Fists+"
 	},
 	[111116] = {
 		id = 111116,
-		name = "变形·刃 +"
+		name = "Swap - Sword+"
 	},
 	[111120] = {
 		id = 111120,
-		name = "鲷鱼烧，超喜欢"
+		name = "I Love Taiyaki!"
 	},
 	[111121] = {
 		id = 111121,
-		name = "鲷鱼烧，超喜欢"
+		name = "I Love Taiyaki!"
 	},
 	[111130] = {
 		id = 111130,
-		name = "深藏于心的感情"
+		name = "Love Concealed"
 	},
 	[111135] = {
 		id = 111135,
-		name = "深藏于心的感情"
+		name = "Love Concealed"
 	},
 	[111140] = {
 		id = 111140,
-		name = "深藏于心的感情+"
+		name = "Love Concealed+"
 	},
 	[111144] = {
 		id = 111144,
-		name = "深藏于心的感情+"
+		name = "Love Concealed+"
 	},
 	[111145] = {
 		id = 111145,
-		name = "深藏于心的感情+"
+		name = "Love Concealed+"
 	},
 	[111151] = {
 		id = 111151,
-		name = "平静不下的心"
+		name = "Be Still, My Heart!"
 	},
 	[111154] = {
 		id = 111154,
-		name = "不要过来！！"
+		name = "Don't Touch Me!!"
 	},
 	[111156] = {
 		id = 111156,
-		name = "不要过来！！"
+		name = "Don't Touch Me!!"
 	},
 	[111160] = {
 		id = 111160,
-		name = "不知廉耻！"
+		name = "Scandalous!"
 	},
 	[111170] = {
 		id = 111170,
-		name = "不知廉耻！+"
+		name = "Scandalous!+"
 	},
 	[111171] = {
 		id = 111171,
-		name = "不知廉耻！+"
+		name = "Scandalous!+"
 	},
 	[111180] = {
 		id = 111180,
-		name = "强气下的温柔"
+		name = "Overbearing Outside, Softie Inside"
 	},
 	[111181] = {
 		id = 111181,
-		name = "强气下的温柔"
+		name = "Overbearing Outside, Softie Inside"
 	},
 	[112011] = {
 		id = 112011,
-		name = "超越世界·限制解除"
+		name = "Transcend Worlds - Limit Released"
 	},
 	[112012] = {
 		id = 112012,
-		name = "超越世界·限制解除"
+		name = "Transcend Worlds - Limit Released"
 	},
 	[112021] = {
 		id = 112021,
-		name = "超越世界·限制解除 +"
+		name = "Transcend Worlds - Limit Released+"
 	},
 	[112022] = {
 		id = 112022,
-		name = "超越世界·限制解除 +"
+		name = "Transcend Worlds - Limit Released+"
 	},
 	[112031] = {
 		id = 112031,
-		name = "守护信念之心"
+		name = "Heart of Faith"
 	},
 	[112032] = {
 		id = 112032,
-		name = "守护信念之心"
+		name = "Heart of Faith"
 	},
 	[112033] = {
 		id = 112033,
-		name = "守护信念之心"
+		name = "Heart of Faith"
 	},
 	[112041] = {
 		id = 112041,
@@ -15399,1467 +15199,1467 @@ pg.base.skill_data_display = {
 	},
 	[112051] = {
 		id = 112051,
-		name = "死亡领域·锁链囚笼"
+		name = "Death's Domain - Imprisoning Chains"
 	},
 	[112052] = {
 		id = 112052,
-		name = "死亡领域·锁链囚笼"
+		name = "Death's Domain - Imprisoning Chains"
 	},
 	[112061] = {
 		id = 112061,
-		name = "死律审判"
+		name = "Trial of Death"
 	},
 	[112062] = {
 		id = 112062,
-		name = "死律审判"
+		name = "Trial of Death"
 	},
 	[112063] = {
 		id = 112063,
-		name = "死律审判"
+		name = "Trial of Death"
 	},
 	[112070] = {
 		id = 112070,
-		name = "死律审判 +"
+		name = "Trial of Death+"
 	},
 	[112071] = {
 		id = 112071,
-		name = "死律审判 +"
+		name = "Trial of Death+"
 	},
 	[112072] = {
 		id = 112072,
-		name = "死律审判 +"
+		name = "Trial of Death+"
 	},
 	[112073] = {
 		id = 112073,
-		name = "死律审判 +"
+		name = "Trial of Death+"
 	},
 	[112074] = {
 		id = 112074,
-		name = "死律审判 +"
+		name = "Trial of Death+"
 	},
 	[190001] = {
 		id = 190001,
-		name = "钢铁洪流的和声"
+		name = "Steelsurge Concerto"
 	},
 	[190002] = {
 		id = 190002,
-		name = "钢铁洪流的和声"
+		name = "Steelsurge Concerto"
 	},
 	[190003] = {
 		id = 190003,
-		name = "钢铁洪流的和声"
+		name = "Steelsurge Concerto"
 	},
 	[190011] = {
 		id = 190011,
-		name = "凛冬生存准则"
+		name = "Winter Survival Rules"
 	},
 	[190012] = {
 		id = 190012,
-		name = "凛冬生存准则"
+		name = "Winter Survival Rules"
 	},
 	[190013] = {
 		id = 190013,
-		name = "凛冬生存准则"
+		name = "Winter Survival Rules"
 	},
 	[200026] = {
 		id = 200026,
-		name = "侵攻之时"
+		name = "Paralyzing Advance "
 	},
 	[200203] = {
 		id = 200203,
-		name = "昨日重现"
+		name = "Yesterday Once More"
 	},
 	[600031] = {
 		id = 600031,
-		name = "星之歌"
+		name = "Song of the Stars"
 	},
 	[600034] = {
 		id = 600034,
-		name = "星之歌"
+		name = "Song of the Stars"
 	},
 	[600036] = {
 		id = 600036,
-		name = "星之歌"
+		name = "Song of the Stars"
 	},
 	[600042] = {
 		id = 600042,
-		name = "威胁感知"
+		name = "Threat Detection"
 	},
 	[600043] = {
 		id = 600043,
-		name = "炮击抵抗"
+		name = "Cannon Protection"
 	},
 	[600044] = {
 		id = 600044,
-		name = "雷击抵抗"
+		name = "Torpedo Protection"
 	},
 	[600045] = {
 		id = 600045,
-		name = "航空抵抗"
+		name = "Aircraft Protection"
 	},
 	[600046] = {
 		id = 600046,
-		name = "平衡砝码"
+		name = "Weights of Equilibrium"
 	},
 	[600047] = {
 		id = 600047,
-		name = "平衡"
+		name = "Equilibrial"
 	},
 	[600048] = {
 		id = 600048,
-		name = "略微失衡"
+		name = "Uneven"
 	},
 	[600049] = {
 		id = 600049,
-		name = "失衡"
+		name = "Skewed"
 	},
 	[600050] = {
 		id = 600050,
-		name = "极度失衡"
+		name = "Equilibrial Collapse"
 	},
 	[600060] = {
 		id = 600060,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600061] = {
 		id = 600061,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[600070] = {
 		id = 600070,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600071] = {
 		id = 600071,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[600072] = {
 		id = 600072,
-		name = "蝎毒之雾"
+		name = "Scorpion's Mist"
 	},
 	[600073] = {
 		id = 600073,
-		name = "致命毒刺"
+		name = "Fatal Sting"
 	},
 	[600080] = {
 		id = 600080,
-		name = "致盲之箭"
+		name = "Blinding Burst"
 	},
 	[600084] = {
 		id = 600084,
-		name = "百步穿杨"
+		name = "Surefire Shot"
 	},
 	[600090] = {
 		id = 600090,
-		name = "百步穿杨"
+		name = "Surefire Shot"
 	},
 	[600091] = {
 		id = 600091,
-		name = "百步穿杨"
+		name = "Surefire Shot"
 	},
 	[600092] = {
 		id = 600092,
-		name = "愤怒积攒"
+		name = "Charging Fury"
 	},
 	[600100] = {
 		id = 600100,
-		name = "星之辉"
+		name = "Morning Star's Light"
 	},
 	[600102] = {
 		id = 600102,
-		name = "星之暗"
+		name = "Darkness of Dawn"
 	},
 	[600140] = {
 		id = 600140,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600141] = {
 		id = 600141,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600142] = {
 		id = 600142,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600143] = {
 		id = 600143,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600144] = {
 		id = 600144,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600145] = {
 		id = 600145,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600146] = {
 		id = 600146,
-		name = "双鱼之绊"
+		name = "The Bond of Ichthys"
 	},
 	[600147] = {
 		id = 600147,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600148] = {
 		id = 600148,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600149] = {
 		id = 600149,
-		name = "守望相助-英王乔治五世"
+		name = "Sentinels of Gardiane - KGV"
 	},
 	[600150] = {
 		id = 600150,
-		name = "双鱼之绊"
+		name = "The Bond of Ichthys"
 	},
 	[600151] = {
 		id = 600151,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600152] = {
 		id = 600152,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600153] = {
 		id = 600153,
-		name = "守望相助-约克公爵"
+		name = "Sentinels of Gardiane - DoY"
 	},
 	[600163] = {
 		id = 600163,
-		name = "不沉之力"
+		name = "I Am Unsinkable"
 	},
 	[600164] = {
 		id = 600164,
-		name = "不沉之力"
+		name = "I Am Unsinkable"
 	},
 	[600165] = {
 		id = 600165,
-		name = "不沉之力"
+		name = "I Am Unsinkable"
 	},
 	[600170] = {
 		id = 600170,
-		name = "生命之球"
+		name = "Multiple Lifelines"
 	},
 	[600171] = {
 		id = 600171,
-		name = "生命之球"
+		name = "Multiple Lifelines"
 	},
 	[600172] = {
 		id = 600172,
-		name = "生命之球"
+		name = "Multiple Lifelines"
 	},
 	[600180] = {
 		id = 600180,
-		name = "钢刃架势"
+		name = "Steel Blade Stance"
 	},
 	[600181] = {
 		id = 600181,
-		name = "钢刃架势"
+		name = "Steel Blade Stance"
 	},
 	[600182] = {
 		id = 600182,
-		name = "钢刃架势"
+		name = "Steel Blade Stance"
 	},
 	[600183] = {
 		id = 600183,
-		name = "光风霁月"
+		name = "Silver Reflection"
 	},
 	[600184] = {
 		id = 600184,
-		name = "光风霁月"
+		name = "Silver Reflection"
 	},
 	[600185] = {
 		id = 600185,
-		name = "光风霁月"
+		name = "Silver Reflection"
 	},
 	[800010] = {
 		id = 800010,
-		name = "烬火枪焰"
+		name = "Shadowflame Torch"
 	},
 	[800020] = {
 		id = 800020,
-		name = "幻影强袭"
+		name = "Shadow Skirmisher"
 	},
 	[800021] = {
 		id = 800021,
-		name = "幻影强袭"
+		name = "Shadow Skirmisher"
 	},
 	[800030] = {
 		id = 800030,
-		name = "荣光之锋"
+		name = "Glorious Onslaught"
 	},
 	[800031] = {
 		id = 800031,
-		name = "荣光之锋"
+		name = "Glorious Onslaught"
 	},
 	[800032] = {
 		id = 800032,
-		name = "荣光之锋"
+		name = "Glorious Onslaught"
 	},
 	[800033] = {
 		id = 800033,
-		name = "荣光之锋"
+		name = "Glorious Onslaught"
 	},
 	[800040] = {
 		id = 800040,
-		name = "烬火之刃"
+		name = "Scorched Blade"
 	},
 	[800041] = {
 		id = 800041,
-		name = "烬火之刃"
+		name = "Scorched Blade"
 	},
 	[800050] = {
 		id = 800050,
-		name = "光暗花札"
+		name = "Cards of Light and Dark"
 	},
 	[800051] = {
 		id = 800051,
-		name = "光暗花札"
+		name = "Cards of Light and Dark"
 	},
 	[800052] = {
 		id = 800052,
-		name = "光暗花札"
+		name = "Cards of Light and Dark"
 	},
 	[800060] = {
 		id = 800060,
-		name = "战忆之樱"
+		name = "The Cherry Petal Memento"
 	},
 	[800061] = {
 		id = 800061,
-		name = "战忆之樱"
+		name = "The Cherry Petal Memento"
 	},
 	[800062] = {
 		id = 800062,
-		name = "战忆之樱"
+		name = "The Cherry Petal Memento"
 	},
 	[800063] = {
 		id = 800063,
-		name = "战忆之樱"
+		name = "The Cherry Petal Memento"
 	},
 	[800075] = {
 		id = 800075,
-		name = "破敌之炬·{namecode:94}I"
+		name = "Ashen Might·Hiryuu"
 	},
 	[800077] = {
 		id = 800077,
-		name = "破敌之炬·{namecode:94}II"
+		name = "Ashen Might·Hiryuu"
 	},
 	[800085] = {
 		id = 800085,
-		name = "破敌之炬·皇家方舟I"
+		name = "Ashen Might·Ark Royal"
 	},
 	[800087] = {
 		id = 800087,
-		name = "破敌之炬·皇家方舟II"
+		name = "Ashen Might·Ark Royal"
 	},
 	[800090] = {
 		id = 800090,
-		name = "烬火鹰翼"
+		name = "Shadow-Wing Torch"
 	},
 	[800091] = {
 		id = 800091,
-		name = "烬火鹰翼"
+		name = "Shadow-Wing Torch"
 	},
 	[800092] = {
 		id = 800092,
-		name = "烬火鹰翼"
+		name = "Shadow-Wing Torch"
 	},
 	[800100] = {
 		id = 800100,
-		name = "雷达扫描·Hacking"
+		name = "Scanner Hacking"
 	},
 	[800101] = {
 		id = 800101,
-		name = "雷达扫描·Hacking"
+		name = "Scanner Hacking"
 	},
 	[800110] = {
 		id = 800110,
-		name = "情报掌握"
+		name = "Information Addiction"
 	},
 	[800111] = {
 		id = 800111,
-		name = "情报掌握"
+		name = "Information Addiction"
 	},
 	[800121] = {
 		id = 800121,
-		name = "破敌之炬·海伦娜I"
+		name = "Ashen Might - Helena I"
 	},
 	[800122] = {
 		id = 800122,
-		name = "破敌之炬·海伦娜II"
+		name = "Ashen Might - Helena II"
 	},
 	[800125] = {
 		id = 800125,
-		name = "破敌之炬·海伦娜I"
+		name = "Ashen Might - Helena I"
 	},
 	[800127] = {
 		id = 800127,
-		name = "破敌之炬·海伦娜II"
+		name = "Ashen Might - Helena II"
 	},
 	[800130] = {
 		id = 800130,
-		name = "焰舞花札"
+		name = "Akatan of Blossoming Flame "
 	},
 	[800131] = {
 		id = 800131,
-		name = "焰舞花札"
+		name = "Akatan of Blossoming Flame "
 	},
 	[800132] = {
 		id = 800132,
-		name = "焰舞花札"
+		name = "Akatan of Blossoming Flame "
 	},
 	[800140] = {
 		id = 800140,
-		name = "剑锋暗曳"
+		name = "Aotan of Shadow-Sealing "
 	},
 	[800141] = {
 		id = 800141,
-		name = "剑锋暗曳"
+		name = "Aotan of Shadow-Sealing "
 	},
 	[800142] = {
 		id = 800142,
-		name = "剑锋暗曳"
+		name = "Aotan of Shadow-Sealing "
 	},
 	[800150] = {
 		id = 800150,
-		name = "惊雷乱舞"
+		name = "Cards of Beast and Butterfly "
 	},
 	[800151] = {
 		id = 800151,
-		name = "惊雷乱舞"
+		name = "Cards of Beast and Butterfly "
 	},
 	[800152] = {
 		id = 800152,
-		name = "惊雷乱舞"
+		name = "Cards of Beast and Butterfly "
 	},
 	[800153] = {
 		id = 800153,
-		name = "惊雷乱舞"
+		name = "Cards of Beast and Butterfly "
 	},
 	[800161] = {
 		id = 800161,
-		name = "摇曳之火·{namecode:205}I"
+		name = "Flickering Light - Souryuu I "
 	},
 	[800162] = {
 		id = 800162,
-		name = "摇曳之火·{namecode:205}II"
+		name = "Flickering Light - Souryuu II"
 	},
 	[800165] = {
 		id = 800165,
-		name = "摇曳之火·{namecode:205}I"
+		name = "Flickering Light - Souryuu I "
 	},
 	[800167] = {
 		id = 800167,
-		name = "摇曳之火·{namecode:205}II"
+		name = "Flickering Light - Souryuu II"
 	},
 	[800181] = {
 		id = 800181,
-		name = "幽蝶终归海"
+		name = "The Butterfly's Last Gasp"
 	},
 	[800205] = {
 		id = 800205,
-		name = "破敌之炬·{namecode:78}I"
+		name = "Ashen Might - Fusou"
 	},
 	[800207] = {
 		id = 800207,
-		name = "破敌之炬·{namecode:78}II"
+		name = "Ashen Might - Fusou"
 	},
 	[800210] = {
 		id = 800210,
-		name = "幽蝶终归海"
+		name = "The Butterfly's Last Gasp"
 	},
 	[800211] = {
 		id = 800211,
-		name = "幽蝶终归海"
+		name = "The Butterfly's Last Gasp"
 	},
 	[800220] = {
 		id = 800220,
-		name = "翱翔之翼"
+		name = "Stormchasing Blade"
 	},
 	[800230] = {
 		id = 800230,
-		name = "鹰之合击"
+		name = "Falcon's Talons"
 	},
 	[800240] = {
 		id = 800240,
-		name = "戢羽待发"
+		name = "Concealing Downpour"
 	},
 	[800241] = {
 		id = 800241,
-		name = "戢羽待发"
+		name = "Concealing Downpour"
 	},
 	[800255] = {
 		id = 800255,
-		name = "破敌之炬·{namecode:85}I"
+		name = "Ashen Might - Hiyou I"
 	},
 	[800257] = {
 		id = 800257,
-		name = "破敌之炬·{namecode:85}II"
+		name = "Ashen Might - Hiyou II"
 	},
 	[800260] = {
 		id = 800260,
-		name = "焰光之链"
+		name = "Seething Chains"
 	},
 	[800270] = {
 		id = 800270,
-		name = "波乱雷光"
+		name = "Disruption Wave"
 	},
 	[800271] = {
 		id = 800271,
-		name = "波乱雷光"
+		name = "Disruption Wave"
 	},
 	[800280] = {
 		id = 800280,
-		name = "血忆之宴"
+		name = "Memory Mining"
 	},
 	[800281] = {
 		id = 800281,
-		name = "血忆之宴"
+		name = "Memory Mining"
 	},
 	[800295] = {
 		id = 800295,
-		name = "逐光之焰·{namecode:434}I"
+		name = "Cinders of Hope - Gneisenau I"
 	},
 	[800297] = {
 		id = 800297,
-		name = "逐光之焰·{namecode:434}II"
+		name = "Cinders of Hope - Gneisenau II"
 	},
 	[800300] = {
 		id = 800300,
-		name = "畅游之翼"
+		name = "Stormchasing Spirit"
 	},
 	[800310] = {
 		id = 800310,
-		name = "鹰之合击"
+		name = "Falcon's Talons"
 	},
 	[800320] = {
 		id = 800320,
-		name = "待时而动"
+		name = "Reforged Bond"
 	},
 	[800321] = {
 		id = 800321,
-		name = "待时而动"
+		name = "Reforged Bond"
 	},
 	[800335] = {
 		id = 800335,
-		name = "破敌之炬·{namecode:86}I"
+		name = "Ashen Might – JunyouI"
 	},
 	[800337] = {
 		id = 800337,
-		name = "破敌之炬·{namecode:86}II"
+		name = "Ashen Might – JunyouII"
 	},
 	[800340] = {
 		id = 800340,
-		name = "双重狙击"
+		name = "Dual Snipe"
 	},
 	[800341] = {
 		id = 800341,
-		name = "双重狙击"
+		name = "Dual Snipe"
 	},
 	[800342] = {
 		id = 800342,
-		name = "双重狙击"
+		name = "Dual Snipe"
 	},
 	[800350] = {
 		id = 800350,
-		name = "雷闪焰舞"
+		name = "Blazing Blitz"
 	},
 	[800360] = {
 		id = 800360,
-		name = "钢火战烬"
+		name = "Iron Embers"
 	},
 	[800361] = {
 		id = 800361,
-		name = "钢火战烬"
+		name = "Iron Embers"
 	},
 	[800362] = {
 		id = 800362,
-		name = "钢火战烬"
+		name = "Iron Embers"
 	},
 	[800371] = {
 		id = 800371,
-		name = "破敌之炬·{namecode:433}I"
+		name = "Ashen Might - Scharnhorst I"
 	},
 	[800372] = {
 		id = 800372,
-		name = "破敌之炬·{namecode:433}II"
+		name = "Ashen Might - Scharnhorst II"
 	},
 	[800375] = {
 		id = 800375,
-		name = "破敌之炬·{namecode:433}I"
+		name = "Ashen Might - Scharnhorst I"
 	},
 	[800377] = {
 		id = 800377,
-		name = "破敌之炬·{namecode:433}II"
+		name = "Ashen Might - Scharnhorst II"
 	},
 	[800380] = {
 		id = 800380,
-		name = "血厄狂乱"
+		name = "Blood Sacrifice"
 	},
 	[800381] = {
 		id = 800381,
-		name = "血厄狂乱"
+		name = "Blood Sacrifice"
 	},
 	[800390] = {
 		id = 800390,
-		name = "灾厄还复来"
+		name = "Cursed Outset"
 	},
 	[800391] = {
 		id = 800391,
-		name = "灾厄还复来"
+		name = "Cursed Outset"
 	},
 	[800392] = {
 		id = 800392,
-		name = "灾厄还复来"
+		name = "Cursed Outset"
 	},
 	[800393] = {
 		id = 800393,
-		name = "灾厄还复来"
+		name = "Cursed Outset"
 	},
 	[800400] = {
 		id = 800400,
-		name = "碎忆-{namecode:79}"
+		name = "Echoes of Annihilation – Yamashiro I"
 	},
 	[800401] = {
 		id = 800401,
-		name = "碎忆-{namecode:79}"
+		name = "Echoes of Annihilation – Yamashiro II"
 	},
 	[800415] = {
 		id = 800415,
-		name = "摇曳之火·{namecode:79}I"
+		name = "Echoes of Annihilation – Yamashiro I"
 	},
 	[800417] = {
 		id = 800417,
-		name = "摇曳之火·{namecode:79}II"
+		name = "Echoes of Annihilation – Yamashiro II"
 	},
 	[800420] = {
 		id = 800420,
-		name = "压制与掌握"
+		name = "Decelerative Fire"
 	},
 	[800430] = {
 		id = 800430,
-		name = "目标与共识"
+		name = "Target Recognition"
 	},
 	[800431] = {
 		id = 800431,
-		name = "目标与共识"
+		name = "Target Recognition"
 	},
 	[800440] = {
 		id = 800440,
-		name = "看破与协作"
+		name = "Cooperation Order"
 	},
 	[800451] = {
 		id = 800451,
-		name = "构造之理·孟菲斯I"
+		name = "Framework of Logic - Memphis I"
 	},
 	[800452] = {
 		id = 800452,
-		name = "构造之理·孟菲斯II"
+		name = "Framework of Logic - Memphis II"
 	},
 	[800455] = {
 		id = 800455,
-		name = "构造之理·孟菲斯I"
+		name = "Framework of Logic - Memphis I"
 	},
 	[800457] = {
 		id = 800457,
-		name = "构造之理·孟菲斯II"
+		name = "Framework of Logic - Memphis II"
 	},
 	[800460] = {
 		id = 800460,
-		name = "熔岩之刃"
+		name = "Blazing Slash!"
 	},
 	[800470] = {
 		id = 800470,
-		name = "反击焰火"
+		name = "Repulsing Pyrotechnics"
 	},
 	[800473] = {
 		id = 800473,
-		name = "反击焰火"
+		name = "Repulsing Pyrotechnics"
 	},
 	[800480] = {
 		id = 800480,
-		name = "历战之炎"
+		name = "Ever-Burning Flames"
 	},
 	[800481] = {
 		id = 800481,
-		name = "历战之炎"
+		name = "Ever-Burning Flames"
 	},
 	[800500] = {
 		id = 800500,
-		name = "殇视之剑"
+		name = "Blade of Shattered Dreams"
 	},
 	[800501] = {
 		id = 800501,
-		name = "殇视之剑"
+		name = "Blade of Shattered Dreams"
 	},
 	[800502] = {
 		id = 800502,
-		name = "殇视之剑"
+		name = "Blade of Shattered Dreams"
 	},
 	[800510] = {
 		id = 800510,
-		name = "殇视之怒"
+		name = "Fury of Shattered Dreams"
 	},
 	[800520] = {
 		id = 800520,
-		name = "殇视之盾"
+		name = "Bulwark of Shattered Dreams"
 	},
 	[800521] = {
 		id = 800521,
-		name = "殇视之盾"
+		name = "Bulwark of Shattered Dreams"
 	},
 	[800523] = {
 		id = 800523,
-		name = "殇视之盾"
+		name = "Bulwark of Shattered Dreams"
 	},
 	[800540] = {
 		id = 800540,
-		name = "火焰浇铸的剑锋"
+		name = "Flameforged Edge"
 	},
 	[800550] = {
 		id = 800550,
-		name = "历战骑士的荣耀"
+		name = "Knights of Renown"
 	},
 	[800551] = {
 		id = 800551,
-		name = "历战骑士的荣耀"
+		name = "Knights of Renown"
 	},
 	[800560] = {
 		id = 800560,
-		name = "信念誓言的守护"
+		name = "Guardian's Pledge"
 	},
 	[800610] = {
 		id = 800610,
-		name = "命运的未来视"
+		name = "Eyes of Fate"
 	},
 	[800612] = {
 		id = 800612,
-		name = "命运的未来视"
+		name = "Eyes of Fate"
 	},
 	[800613] = {
 		id = 800613,
-		name = "命运的未来视"
+		name = "Eyes of Fate"
 	},
 	[800620] = {
 		id = 800620,
-		name = "回击的因果律"
+		name = "Fortune and Causality"
 	},
 	[800621] = {
 		id = 800621,
-		name = "回击的因果律"
+		name = "Fortune and Causality"
 	},
 	[800622] = {
 		id = 800622,
-		name = "回击的因果律"
+		name = "Fortune and Causality"
 	},
 	[800652] = {
 		id = 800652,
-		name = "不再哭泣"
+		name = "No More Tears"
 	},
 	[800653] = {
 		id = 800653,
-		name = "不再哭泣"
+		name = "No More Tears"
 	},
 	[800654] = {
 		id = 800654,
-		name = "不再哭泣 +"
+		name = "No More Tears+"
 	},
 	[800656] = {
 		id = 800656,
-		name = "不再哭泣"
+		name = "No More Tears"
 	},
 	[800662] = {
 		id = 800662,
-		name = "昨日重现"
+		name = "Yesterday Once More"
 	},
 	[800664] = {
 		id = 800664,
-		name = "昨日重现"
+		name = "Yesterday Once More"
 	},
 	[800701] = {
 		id = 800701,
-		name = "破敌之炬·谢菲尔德I"
+		name = "Ashen Might - Sheffield I"
 	},
 	[800702] = {
 		id = 800702,
-		name = "破敌之炬·谢菲尔德II"
+		name = "Ashen Might - Sheffield II"
 	},
 	[800705] = {
 		id = 800705,
-		name = "破敌之炬·谢菲尔德I"
+		name = "Ashen Might - Sheffield I"
 	},
 	[800707] = {
 		id = 800707,
-		name = "破敌之炬·谢菲尔德II"
+		name = "Ashen Might - Sheffield II"
 	},
 	[800710] = {
 		id = 800710,
-		name = "光影之间的女王"
+		name = "Ruler of Light and Darkness"
 	},
 	[800711] = {
 		id = 800711,
-		name = "光影之间的女王"
+		name = "Ruler of Light and Darkness"
 	},
 	[800720] = {
 		id = 800720,
-		name = "矛盾交织的暗影"
+		name = "Paradoxical Charisma"
 	},
 	[800721] = {
 		id = 800721,
-		name = "矛盾交织的暗影"
+		name = "Paradoxical Charisma"
 	},
 	[800730] = {
 		id = 800730,
-		name = "回应祈祷的恩赐"
+		name = "Answerer of Prayers"
 	},
 	[800731] = {
 		id = 800731,
-		name = "回应祈祷的恩赐"
+		name = "Answerer of Prayers"
 	},
 	[800732] = {
 		id = 800732,
-		name = "回应祈祷的恩赐"
+		name = "Answerer of Prayers"
 	},
 	[800733] = {
 		id = 800733,
-		name = "女王的恩赐"
+		name = "Queen's Blessing"
 	},
 	[800750] = {
 		id = 800750,
-		name = "审判之锤"
+		name = "Inquisition's Hammer"
 	},
 	[800751] = {
 		id = 800751,
-		name = "审判之锤"
+		name = "Inquisition's Hammer"
 	},
 	[800760] = {
 		id = 800760,
-		name = "裁决之斧"
+		name = "Inquisition's Axe"
 	},
 	[800771] = {
 		id = 800771,
-		name = "逐光之焰·拉·加利索尼埃I"
+		name = "Cinders of Hope - La Galissonnière"
 	},
 	[800772] = {
 		id = 800772,
-		name = "逐光之焰·拉·加利索尼埃II"
+		name = "Cinders of Hope - La Galissonnière"
 	},
 	[800775] = {
 		id = 800775,
-		name = "逐光之焰·拉·加利索尼埃I"
+		name = "Cinders of Hope - La Galissonnière"
 	},
 	[800777] = {
 		id = 800777,
-		name = "逐光之焰·拉·加利索尼埃II"
+		name = "Cinders of Hope - La Galissonnière"
 	},
 	[800780] = {
 		id = 800780,
-		name = "迷惘混乱的内心"
+		name = "Beyond the Lost Vales"
 	},
 	[800781] = {
 		id = 800781,
-		name = "迷惘混乱的内心"
+		name = "Beyond the Lost Vales"
 	},
 	[800790] = {
 		id = 800790,
-		name = "自由随性的骑士"
+		name = "Free-Spirited Parzival"
 	},
 	[800791] = {
 		id = 800791,
-		name = "自由随性的骑士"
+		name = "Free-Spirited Parzival"
 	},
 	[800803] = {
 		id = 800803,
-		name = "铭记在心的誓言"
+		name = "Grail of Kept Promises"
 	},
 	[800807] = {
 		id = 800807,
-		name = "铭记在心的誓言"
+		name = "Grail of Kept Promises"
 	},
 	[800809] = {
 		id = 800809,
-		name = "小小骑士的守护"
+		name = "Parzival's Protection"
 	},
 	[800820] = {
 		id = 800820,
-		name = "构造调整·碎裂化"
+		name = "Structural Tuning: Overload"
 	},
 	[800821] = {
 		id = 800821,
-		name = "构造调整·碎裂化"
+		name = "Structural Tuning: Overload"
 	},
 	[800830] = {
 		id = 800830,
-		name = "构造调整·活性化"
+		name = "Structural Tuning: Activation"
 	},
 	[800851] = {
 		id = 800851,
-		name = "堕天使的追放"
+		name = "Sinner's Pursuit"
 	},
 	[800863] = {
 		id = 800863,
-		name = "堕天使的低语"
+		name = "Sinner's Whispers"
 	},
 	[800872] = {
 		id = 800872,
-		name = "堕天使的焰火"
+		name = "Cinders of the Exiled"
 	},
 	[800881] = {
 		id = 800881,
-		name = "逐光之焰·阿尔及利亚I"
+		name = "Cinders of Hope - Algérie I"
 	},
 	[800882] = {
 		id = 800882,
-		name = "逐光之焰·阿尔及利亚II"
+		name = "Cinders of Hope - Algérie II"
 	},
 	[800885] = {
 		id = 800885,
-		name = "逐光之焰·阿尔及利亚I"
+		name = "Cinders of Hope - Algérie I"
 	},
 	[800887] = {
 		id = 800887,
-		name = "逐光之焰·阿尔及利亚II"
+		name = "Cinders of Hope - Algérie II"
 	},
 	[800902] = {
 		id = 800902,
-		name = "护卫变幻"
+		name = "Guard Shift"
 	},
 	[800921] = {
 		id = 800921,
-		name = "不屈之华的盛放"
+		name = "Unyielding, the Flower Blooms"
 	},
 	[800941] = {
 		id = 800941,
-		name = "慎与勇的抉择"
+		name = "Decisions, Prudent Yet Audacious"
 	},
 	[800971] = {
 		id = 800971,
-		name = "反击时刻"
+		name = "Counterattack!"
 	},
 	[800990] = {
 		id = 800990,
-		name = "于噩梦中降临"
+		name = "Descend Upon a Nightmare"
 	},
 	[800991] = {
 		id = 800991,
-		name = "于噩梦中降临"
+		name = "Descend Upon a Nightmare"
 	},
 	[801000] = {
 		id = 801000,
-		name = "于黑暗中消亡"
+		name = "Fade into Darkness"
 	},
 	[801015] = {
 		id = 801015,
-		name = "逐光之焰·黑暗界I"
+		name = "Cinders of Hope - Erebus"
 	},
 	[801017] = {
 		id = 801017,
-		name = "逐光之焰·黑暗界II"
+		name = "Cinders of Hope - Erebus"
 	},
 	[801020] = {
 		id = 801020,
-		name = "闪流咆哮"
+		name = "Vspyshka's Roar"
 	},
 	[801030] = {
 		id = 801030,
-		name = "冰魄逐光"
+		name = "Kometa's Brilliance"
 	},
 	[801031] = {
 		id = 801031,
-		name = "冰魄逐光"
+		name = "Kometa's Brilliance"
 	},
 	[801032] = {
 		id = 801032,
-		name = "冰魄逐光"
+		name = "Kometa's Brilliance"
 	},
 	[801040] = {
 		id = 801040,
-		name = "冰舞与炮火"
+		name = "Coordinated Dance"
 	},
 	[801041] = {
 		id = 801041,
-		name = "冰舞与炮火"
+		name = "Coordinated Dance"
 	},
 	[801121] = {
 		id = 801121,
-		name = "摇曳之火·水星纪念I"
+		name = "Flickering Light - Pamiat' Merkuria"
 	},
 	[801122] = {
 		id = 801122,
-		name = "摇曳之火·水星纪念II"
+		name = "Flickering Light - Pamiat' Merkuria II"
 	},
 	[801123] = {
 		id = 801123,
-		name = "摇曳之火·水星纪念I +"
+		name = "Flickering Light - Pamiat' Merkuria I +"
 	},
 	[801124] = {
 		id = 801124,
-		name = "摇曳之火·水星纪念II +"
+		name = "Flickering Light - Pamiat' Merkuria II +"
 	},
 	[801136] = {
 		id = 801136,
-		name = "「我」的投影"
+		name = "My Phantoms"
 	},
 	[801137] = {
 		id = 801137,
-		name = "「我」的投影"
+		name = "My Phantoms"
 	},
 	[801152] = {
 		id = 801152,
-		name = "降临的「终结」"
+		name = "Demise's Arrival"
 	},
 	[801191] = {
 		id = 801191,
-		name = "逐光之焰·吸血鬼I"
+		name = "Ashen Might - Vampire"
 	},
 	[801192] = {
 		id = 801192,
-		name = "逐光之焰·吸血鬼II"
+		name = "Ashen Might - Vampire"
 	},
 	[801202] = {
 		id = 801202,
-		name = "魔导书的审判"
+		name = "Keeper of the Grimoire"
 	},
 	[801203] = {
 		id = 801203,
-		name = "魔导书的审判"
+		name = "Keeper of the Grimoire"
 	},
 	[801204] = {
 		id = 801204,
-		name = "魔导书的审判"
+		name = "Keeper of the Grimoire"
 	},
 	[801211] = {
 		id = 801211,
-		name = "暴风降临"
+		name = "Holy Tempest's Descension"
 	},
 	[801212] = {
 		id = 801212,
-		name = "暴风降临"
+		name = "Holy Tempest's Descension"
 	},
 	[801214] = {
 		id = 801214,
-		name = "暴风降临"
+		name = "Holy Tempest's Descension"
 	},
 	[801221] = {
 		id = 801221,
-		name = "秘仪之力-航空"
+		name = "Sacrament's Empowering Rite - Airstrike"
 	},
 	[801222] = {
 		id = 801222,
-		name = "秘仪之力-炮击"
+		name = "Sacrament's Empowering Rite - Barrage"
 	},
 	[801223] = {
 		id = 801223,
-		name = "秘仪之力"
+		name = "Sacrament's Empowering Rite"
 	},
 	[801261] = {
 		id = 801261,
-		name = "逐光之焰·福煦I"
+		name = "Cinders of Hope - Foch"
 	},
 	[801262] = {
 		id = 801262,
-		name = "逐光之焰·福煦II"
+		name = "Cinders of Hope - Foch"
 	},
 	[801294] = {
 		id = 801294,
-		name = "理事会制式MKXIII型外置轨道炮"
+		name = "Council-Style MK XIII Orbital Cannon"
 	},
 	[801321] = {
 		id = 801321,
-		name = "幽绽之炎"
+		name = "Secluded Spiritflame"
 	},
 	[801333] = {
 		id = 801333,
-		name = "霞之守护"
+		name = "Kasumi's Protection"
 	},
 	[801363] = {
 		id = 801363,
-		name = "月亏月盈"
+		name = "The Moon Waxes and Wanes"
 	},
 	[801371] = {
 		id = 801371,
-		name = "雨织雨散III"
+		name = "The Rain Weaves and Disperses III"
 	},
 	[801373] = {
 		id = 801373,
-		name = "雨织雨散I"
+		name = "The Rain Weaves and Disperses I"
 	},
 	[801374] = {
 		id = 801374,
-		name = "雨织雨散II"
+		name = "The Rain Weaves and Disperses II"
 	},
 	[801390] = {
 		id = 801390,
-		name = "穿云的天斩"
+		name = "Skysieging Slash"
 	},
 	[801391] = {
 		id = 801391,
-		name = "穿云的天斩"
+		name = "Skysieging Slash"
 	},
 	[801392] = {
 		id = 801392,
-		name = "穿云的天斩"
+		name = "Skysieging Slash"
 	},
 	[801393] = {
 		id = 801393,
-		name = "穿云的天斩"
+		name = "Skysieging Slash"
 	},
 	[801401] = {
 		id = 801401,
-		name = "破影的辉光"
+		name = "Shadowscattering Shimmer"
 	},
 	[801402] = {
 		id = 801402,
-		name = "破影的辉光"
+		name = "Shadowscattering Shimmer"
 	},
 	[801410] = {
 		id = 801410,
-		name = "勇气的奇迹"
+		name = "Bravery Begets Boons"
 	},
 	[801411] = {
 		id = 801411,
-		name = "勇气的奇迹"
+		name = "Bravery Begets Boons"
 	},
 	[801460] = {
 		id = 801460,
-		name = "veni,vidi,vici!"
+		name = "Veni, Vidi, Vici!"
 	},
 	[801470] = {
 		id = 801470,
-		name = "帝国的征服者"
+		name = "Conqueror of the Empire"
 	},
 	[801471] = {
 		id = 801471,
-		name = "帝国的征服者"
+		name = "Conqueror of the Empire"
 	},
 	[801472] = {
 		id = 801472,
-		name = "帝国的征服者"
+		name = "Conqueror of the Empire"
 	},
 	[801481] = {
 		id = 801481,
-		name = "逐光之焰·朱利奥·凯撒I"
+		name = "Cinders of Hope - Giulio Cesare I"
 	},
 	[801482] = {
 		id = 801482,
-		name = "逐光之焰·朱利奥·凯撒II"
+		name = "Cinders of Hope - Giulio Cesare II"
 	},
 	[801485] = {
 		id = 801485,
-		name = "逐光之焰·朱利奥·凯撒I"
+		name = "Cinders of Hope - Giulio Cesare I"
 	},
 	[801487] = {
 		id = 801487,
-		name = "逐光之焰·朱利奥·凯撒II"
+		name = "Cinders of Hope - Giulio Cesare II"
 	},
 	[801542] = {
 		id = 801542,
-		name = "攻守转换"
+		name = "Hot-and-Cold Armaments"
 	},
 	[801551] = {
 		id = 801551,
-		name = "陌路同行"
+		name = "The Grumbling Ally"
 	},
 	[801561] = {
 		id = 801561,
-		name = "逐光之焰·{namecode:425}I"
+		name = "Cinders of Hope - Admiral Hipper I"
 	},
 	[801562] = {
 		id = 801562,
-		name = "逐光之焰·{namecode:425}II"
+		name = "Cinders of Hope - Admiral Hipper II"
 	},
 	[801565] = {
 		id = 801565,
-		name = "逐光之焰·{namecode:425}I"
+		name = "Cinders of Hope - Admiral Hipper I"
 	},
 	[801567] = {
 		id = 801567,
-		name = "逐光之焰·{namecode:425}II"
+		name = "Cinders of Hope - Admiral Hipper II"
 	},
 	[801571] = {
 		id = 801571,
-		name = "光与焰"
+		name = "Flame and Fulminance"
 	},
 	[801573] = {
 		id = 801573,
-		name = "光与焰"
+		name = "Flame and Fulminance"
 	},
 	[801581] = {
 		id = 801581,
-		name = "独行的骑士"
+		name = "The Lone Knight"
 	},
 	[801591] = {
 		id = 801591,
-		name = "逐光之焰·博尔扎诺I"
+		name = "Cinders of Hope - Bolzano I"
 	},
 	[801592] = {
 		id = 801592,
-		name = "逐光之焰·博尔扎诺II"
+		name = "Cinders of Hope - Bolzano II"
 	},
 	[801595] = {
 		id = 801595,
-		name = "逐光之焰·博尔扎诺I"
+		name = "Cinders of Hope - Bolzano I"
 	},
 	[801597] = {
 		id = 801597,
-		name = "逐光之焰·博尔扎诺II"
+		name = "Cinders of Hope - Bolzano II"
 	},
 	[801602] = {
 		id = 801602,
-		name = "永夜之暗"
+		name = "Shadow of Eternal Night"
 	},
 	[801611] = {
 		id = 801611,
-		name = "永夜战旗"
+		name = "Banner of Eternal Night"
 	},
 	[801621] = {
 		id = 801621,
-		name = "永夜帷幕"
+		name = "Veil of Eternal Night"
 	},
 	[801652] = {
 		id = 801652,
-		name = "强化打击-已就绪"
+		name = "Augmented Strike - Ready"
 	},
 	[801661] = {
 		id = 801661,
-		name = "幽灵行动"
+		name = "Operation Ghost"
 	},
 	[801712] = {
 		id = 801712,
-		name = "应尽之责"
+		name = "Uncompromising Duty "
 	},
 	[801713] = {
 		id = 801713,
-		name = "应尽之责"
+		name = "Uncompromising Duty "
 	},
 	[801714] = {
 		id = 801714,
-		name = "应尽之责"
+		name = "Uncompromising Duty "
 	},
 	[801721] = {
 		id = 801721,
-		name = "枪火连射"
+		name = "Gunfire Blitz"
 	},
 	[801723] = {
 		id = 801723,
-		name = "枪火连射"
+		name = "Gunfire Blitz"
 	},
 	[801726] = {
 		id = 801726,
-		name = "枪火连射"
+		name = "Gunfire Blitz"
 	},
 	[801741] = {
 		id = 801741,
-		name = "逐光之焰·格伦维尔I"
+		name = "Cinders of Hope - Grenville I"
 	},
 	[801742] = {
 		id = 801742,
-		name = "逐光之焰·格伦维尔II"
+		name = "Cinders of Hope - Grenville II"
 	},
 	[801745] = {
 		id = 801745,
-		name = "逐光之焰·格伦维尔I"
+		name = "Cinders of Hope - Grenville I"
 	},
 	[801747] = {
 		id = 801747,
-		name = "逐光之焰·格伦维尔II"
+		name = "Cinders of Hope - Grenville II"
 	},
 	[801771] = {
 		id = 801771,
-		name = "【荆棘反击】40/40"
+		name = "Thorned Reprisal 40/40"
 	},
 	[801772] = {
 		id = 801772,
-		name = "【荆棘反击】20/40"
+		name = "Thorned Reprisal 20/40"
 	},
 	[801777] = {
 		id = 801777,
-		name = "【荆棘反击】5/40"
+		name = "Thorned Reprisal 5/40"
 	},
 	[801778] = {
 		id = 801778,
-		name = "【荆棘反击】10/40"
+		name = "Thorned Reprisal 10/40"
 	},
 	[801779] = {
 		id = 801779,
-		name = "【荆棘反击】30/40"
+		name = "Thorned Reprisal 30/40"
 	},
 	[902201] = {
 		id = 902201,
-		name = "幻想之环"
+		name = "Fantastic Loop"
 	},
 	[1010140] = {
 		id = 1010140,
-		name = "白鹰之泪 +"
+		name = "Eagle's Tears+"
 	},
 	[1010143] = {
 		id = 1010143,
-		name = "白鹰之泪 +"
+		name = "Eagle's Tears+"
 	},
 	[1010144] = {
 		id = 1010144,
-		name = "白鹰之泪 +"
+		name = "Eagle's Tears+"
 	},
 	[1010147] = {
 		id = 1010147,
-		name = "白鹰之泪 +"
+		name = "Eagle's Tears+"
 	},
 	[1010390] = {
 		id = 1010390,
-		name = "不破之盾 +"
+		name = "Unbreakable Shield+"
 	},
 	[1010410] = {
 		id = 1010410,
-		name = "所罗门的战神 +"
+		name = "Wargod of Solomon+"
 	},
 	[1010411] = {
 		id = 1010411,
-		name = "所罗门的战神 +"
+		name = "Wargod of Solomon+"
 	},
 	[1010412] = {
 		id = 1010412,
-		name = "所罗门的战神 +"
+		name = "Wargod of Solomon+"
 	},
 	[1010610] = {
 		id = 1010610,
-		name = "燃烧号令 +"
+		name = "Burn Order+"
 	},
 	[1010611] = {
 		id = 1010611,
-		name = "燃烧号令 +"
+		name = "Burn Order+"
 	},
 	[1010612] = {
 		id = 1010612,
-		name = "燃烧号令 +"
+		name = "Burn Order+"
 	},
 	[1010690] = {
 		id = 1010690,
-		name = "铁血之鹰 +"
+		name = "Iron Blood Hawk+"
 	},
 	[1010691] = {
 		id = 1010691,
-		name = "铁血之鹰 +"
+		name = "Iron Blood Hawk+"
 	},
 	[1011380] = {
 		id = 1011380,
-		name = "谢幕演出 +"
+		name = "Departing Strike+"
 	},
 	[1011381] = {
 		id = 1011381,
-		name = "谢幕演出 +"
+		name = "Departing Strike+"
 	},
 	[1011592] = {
 		id = 1011592,
-		name = "空域控制 +"
+		name = "Airspace Dominance+"
 	},
 	[1012670] = {
 		id = 1012670,
-		name = "巨龙之链 +"
+		name = "Fuoco di Copertura!+"
 	},
 	[1012671] = {
 		id = 1012671,
-		name = "巨龙之链 +"
+		name = "Fuoco di Copertura!+"
 	},
 	[1012400] = {
 		id = 1012400,
-		name = "大鱼突击！ +"
+		name = "Great Shark's Bite+"
 	},
 	[1012401] = {
 		id = 1012401,
-		name = "大鱼突击！ +"
+		name = "Great Shark's Bite+"
 	},
 	[1013050] = {
 		id = 1013050,
-		name = "为革命献上祝福 +"
+		name = "Long Live the Revolution!+"
 	},
 	[1013051] = {
 		id = 1013051,
-		name = "为革命献上祝福 +"
+		name = "Long Live the Revolution!+"
 	},
 	[1010310] = {
 		id = 1010310,
-		name = "神射手 +"
+		name = "Divine Marksman+"
 	},
 	[1010311] = {
 		id = 1010311,
-		name = "王家之剑"
+		name = "Royal Sword"
 	},
 	[1010312] = {
 		id = 1010312,
-		name = "王家之剑"
+		name = "Royal Sword"
 	},
 	[1011870] = {
 		id = 1011870,
-		name = "神射手·改 +"
+		name = "Divine Marksman (R)+"
 	},
 	[1011871] = {
 		id = 1011871,
-		name = "神射手·改 +"
+		name = "Divine Marksman (R)+"
 	},
 	[1011872] = {
 		id = 1011872,
-		name = "神射手·改 +"
+		name = "Divine Marksman (R)+"
 	},
 	[1011873] = {
 		id = 1011873,
-		name = "神射手·改 +"
+		name = "Divine Marksman (R)+"
 	},
 	[1011874] = {
 		id = 1011874,
-		name = "神射手·改 +"
+		name = "Divine Marksman (R)+"
 	},
 	[200002] = {
 		id = 200002,
-		name = "飞空战舰支援"
+		name = "Air Armada Support"
 	},
 	[200005] = {
 		id = 200005,
-		name = "飞空战舰支援"
+		name = "Air Armada Support"
 	},
 	[200008] = {
 		id = 200008,
-		name = "飞空战舰支援"
+		name = "Air Armada Support"
 	},
 	[200038] = {
 		id = 200038,
-		name = "破敌之炬-烈"
+		name = "Ashen Might - Storm"
 	},
 	[200040] = {
 		id = 200040,
-		name = "破敌之炬-静"
+		name = "Ashen Might - Lull"
 	},
 	[200102] = {
 		id = 200102,
-		name = "亿万斩击"
+		name = "ENDLESS SLASH"
 	},
 	[200116] = {
 		id = 200116,
-		name = "冲裂波"
+		name = "Shockwave"
 	},
 	[200117] = {
 		id = 200117,
-		name = "侵蚀之手"
+		name = "Corrosion Arm"
 	},
 	[200118] = {
 		id = 200118,
-		name = "昏睡之门"
+		name = "Gate of Torpor"
 	},
 	[200119] = {
 		id = 200119,
-		name = "生命转换"
+		name = "Life Conversion"
 	},
 	[200120] = {
 		id = 200120,
-		name = "属性支配"
+		name = "Element Domination"
 	},
 	[200121] = {
 		id = 200121,
-		name = "击灭尘"
+		name = "Destruction Dust"
 	},
 	[200143] = {
 		id = 200143,
-		name = "极天·黑洞"
+		name = "Heaven's Black Cave"
 	},
 	[200159] = {
 		id = 200159,
@@ -16875,103 +16675,103 @@ pg.base.skill_data_display = {
 	},
 	[200167] = {
 		id = 200167,
-		name = "核心支援-点燃Lv1"
+		name = "Core Upgrade - Covering Fire Lv.1"
 	},
 	[200168] = {
 		id = 200168,
-		name = "核心支援-点燃Lv1"
+		name = "Core Upgrade - Covering Fire Lv.1"
 	},
 	[200171] = {
 		id = 200171,
-		name = "核心支援-点燃Lv2"
+		name = "Core Upgrade - Covering Fire Lv.2"
 	},
 	[200172] = {
 		id = 200172,
-		name = "核心支援-点燃Lv2"
+		name = "Core Upgrade - Covering Fire Lv.2"
 	},
 	[200175] = {
 		id = 200175,
-		name = "核心支援-点燃Lv3"
+		name = "Core Upgrade - Covering Fire Lv.3"
 	},
 	[200176] = {
 		id = 200176,
-		name = "核心支援-点燃Lv3"
+		name = "Core Upgrade - Covering Fire Lv.3"
 	},
 	[200180] = {
 		id = 200180,
-		name = "核心支援-易伤Lv1"
+		name = "Core Upgrade - Anti-Armor Volley Lv.1"
 	},
 	[200184] = {
 		id = 200184,
-		name = "核心支援-易伤Lv2"
+		name = "Core Upgrade - Anti-Armor Volley Lv.2"
 	},
 	[200188] = {
 		id = 200188,
-		name = "核心支援-易伤Lv3"
+		name = "Core Upgrade - Anti-Armor Volley Lv.3"
 	},
 	[200192] = {
 		id = 200192,
-		name = "核心支援-损伤管控Lv1"
+		name = "Core Upgrade - Damage Control Lv.1"
 	},
 	[200193] = {
 		id = 200193,
-		name = "核心支援-损伤管控Lv2"
+		name = "Core Upgrade - Damage Control Lv.2"
 	},
 	[200194] = {
 		id = 200194,
-		name = "核心支援-损伤管控Lv3"
+		name = "Core Upgrade - Damage Control Lv.3"
 	},
 	[200201] = {
 		id = 200201,
-		name = "珍珠之泪"
+		name = "Pearl's Tears"
 	},
 	[200202] = {
 		id = 200202,
-		name = "啊，这个是……"
+		name = "Oh... This is..."
 	},
 	[200244] = {
 		id = 200244,
-		name = "空间净化系统"
+		name = "Reorigination System"
 	},
 	[200325] = {
 		id = 200325,
-		name = "圣堂统御装置-失控"
+		name = "Basilica Control Device - Inoperable"
 	},
 	[200326] = {
 		id = 200326,
-		name = "圣堂统御装置-恢复"
+		name = "Basilica Control Device - Recovering"
 	},
 	[200327] = {
 		id = 200327,
-		name = "圣堂统御装置-稳定"
+		name = "Basilica Control Device - Stable"
 	},
 	[200345] = {
 		id = 200345,
-		name = "爱丽丝之帜"
+		name = "The Iris's Flagbearer"
 	},
 	[200346] = {
 		id = 200346,
-		name = "爱丽丝之焰"
+		name = "The Iris's Holy Flame"
 	},
 	[200347] = {
 		id = 200347,
-		name = "爱丽丝之怒"
+		name = "The Iris's Vindication"
 	},
 	[200348] = {
 		id = 200348,
-		name = "听其言"
+		name = "Words of Power"
 	},
 	[200349] = {
 		id = 200349,
-		name = "行其谕"
+		name = "Higher Will"
 	},
 	[200351] = {
 		id = 200351,
-		name = "信仰加护-Iris"
+		name = "The Blessed Faithful - Iris Orthodoxy"
 	},
 	[200352] = {
 		id = 200352,
-		name = "信仰加护-Royal"
+		name = "The Blessed Faithful - Royal Navy"
 	},
 	[200353] = {
 		id = 200353,
@@ -16983,727 +16783,727 @@ pg.base.skill_data_display = {
 	},
 	[200359] = {
 		id = 200359,
-		name = "「伊丽莎白」象限展开"
+		name = "Dominion Expansion"
 	},
 	[200383] = {
 		id = 200383,
-		name = "劈云斩雾的绚烂赠礼"
+		name = "Cloud-Parting, Mountain-Splitting Strike of Great Magnificence"
 	},
 	[200434] = {
 		id = 200434,
-		name = "构造之理-援护"
+		name = "Framework of Logic – Support"
 	},
 	[200455] = {
 		id = 200455,
-		name = "焰光之链"
+		name = "Seething Chains"
 	},
 	[200456] = {
 		id = 200456,
-		name = "「机关系统IX=XV连协支援接入」"
+		name = "IX-XV Support Protocol Engaged"
 	},
 	[200457] = {
 		id = 200457,
-		name = "「机关系统IX=XV连协支援接入」"
+		name = "IX-XV Support Protocol Engaged"
 	},
 	[200458] = {
 		id = 200458,
-		name = "「机关系统IX=XV连协支援接入」"
+		name = "IX-XV Support Protocol Engaged"
 	},
 	[200459] = {
 		id = 200459,
-		name = "「机关系统IX=XV连协支援接入」"
+		name = "IX-XV Support Protocol Engaged"
 	},
 	[200461] = {
 		id = 200461,
-		name = "涤罪之焰"
+		name = "Expurgating Flame"
 	},
 	[200463] = {
 		id = 200463,
-		name = "堕天之柱"
+		name = "Pillar of Sin"
 	},
 	[200487] = {
 		id = 200487,
-		name = "戴拿赛诺"
+		name = "Dynazenon"
 	},
 	[200497] = {
 		id = 200497,
-		name = "古立特(宇宙斗士)"
+		name = "Gridman (Universe Fighter)"
 	},
 	[200500] = {
 		id = 200500,
-		name = "亚历克西斯·凯利夫(新秩序)"
+		name = "Alexis Kerib (New Order)"
 	},
 	[200512] = {
 		id = 200512,
-		name = "机甲支援"
+		name = "Mecha Support"
 	},
 	[200513] = {
 		id = 200513,
-		name = "怪兽支援"
+		name = "Kaiju Support"
 	},
 	[200519] = {
 		id = 200519,
-		name = "桑德拉斯(要塞模式)"
+		name = "Kaiju Battleship Sounderous"
 	},
 	[200539] = {
 		id = 200539,
-		name = "审判庭支援"
+		name = "Tribunal's Support"
 	},
 	[200541] = {
 		id = 200541,
-		name = "审判庭支援"
+		name = "Tribunal's Support"
 	},
 	[200547] = {
 		id = 200547,
-		name = "陆上神国-I"
+		name = "False God's Domain I"
 	},
 	[200548] = {
 		id = 200548,
-		name = "陆上神国-II"
+		name = "False God's Domain II"
 	},
 	[200549] = {
 		id = 200549,
-		name = "陆上神国-III"
+		name = "False God's Domain III"
 	},
 	[200552] = {
 		id = 200552,
-		name = "联合舰队电子战支援"
+		name = "Alliance Fleet - EM Support"
 	},
 	[200554] = {
 		id = 200554,
-		name = "联合舰队空袭支援"
+		name = "Alliance Fleet - Aerial Support"
 	},
 	[200556] = {
 		id = 200556,
-		name = "联合舰队炮击支援"
+		name = "Alliance Fleet - Shelling Support"
 	},
 	[200558] = {
 		id = 200558,
-		name = "联合舰队雷击支援"
+		name = "Alliance Fleet - Torpedo Support"
 	},
 	[200559] = {
 		id = 200559,
-		name = "「▅■停▆▅」"
+		name = "\"▅■Cease▆▅\""
 	},
 	[200560] = {
 		id = 200560,
-		name = "联合舰队后勤支援"
+		name = "Alliance Fleet - Logistics Support"
 	},
 	[200561] = {
 		id = 200561,
-		name = "「机关系统V=XV连协支援接入」"
+		name = "V-XV Linked Support Protocol"
 	},
 	[200564] = {
 		id = 200564,
-		name = "联合舰队后勤支援"
+		name = "Alliance Fleet - Logistics Support"
 	},
 	[200565] = {
 		id = 200565,
-		name = "构造之理探查"
+		name = "Framework of Logic - Data Analysis"
 	},
 	[200575] = {
 		id = 200575,
-		name = "谋断的铁壁"
+		name = "Ironclad Ultimatum"
 	},
 	[200580] = {
 		id = 200580,
-		name = "难违的天命"
+		name = "Inevitable Fate"
 	},
 	[200584] = {
 		id = 200584,
-		name = "无形侵蚀"
+		name = "Encroaching Dark Mist"
 	},
 	[200587] = {
 		id = 200587,
-		name = "根源加护"
+		name = "Sacred Sakura's Protection"
 	},
 	[200591] = {
 		id = 200591,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[200594] = {
 		id = 200594,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[200597] = {
 		id = 200597,
-		name = "信仰之河"
+		name = "Estuary of Faith"
 	},
 	[200619] = {
 		id = 200619,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200621] = {
 		id = 200621,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200623] = {
 		id = 200623,
-		name = "传奇旗舰"
+		name = "Legendary Flagship"
 	},
 	[200632] = {
 		id = 200632,
-		name = "流星轰炸"
+		name = "Meteor Missiles"
 	},
 	[200635] = {
 		id = 200635,
-		name = "流星轰炸"
+		name = "Meteor Missiles"
 	},
 	[200774] = {
 		id = 200774,
-		name = "英勇炮击"
+		name = "Courageous Shelling"
 	},
 	[200775] = {
 		id = 200775,
-		name = "命运的枪火"
+		name = "Urd's Fate-Piercer"
 	},
 	[200776] = {
 		id = 200776,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[200777] = {
 		id = 200777,
-		name = "英勇炮击"
+		name = "Courageous Shelling"
 	},
 	[200778] = {
 		id = 200778,
-		name = "命运的枪火"
+		name = "Urd's Fate-Piercer"
 	},
 	[200779] = {
 		id = 200779,
-		name = "无法回避的命运"
+		name = "You Can't Escape♪"
 	},
 	[200782] = {
 		id = 200782,
-		name = "实验型轰炸机支援"
+		name = "Experimental Bomber Support"
 	},
 	[200785] = {
 		id = 200785,
-		name = "实验型轰炸机支援"
+		name = "Experimental Bomber Support"
 	},
 	[200791] = {
 		id = 200791,
-		name = "「我们」的终结"
+		name = "Rodney's Demise"
 	},
 	[200792] = {
 		id = 200792,
-		name = "维度跨越"
+		name = "Dimensional Transcendence"
 	},
 	[200830] = {
 		id = 200830,
-		name = "勇者十字斩"
+		name = "Hero's Cross Slash"
 	},
 	[200831] = {
 		id = 200831,
-		name = "神圣之光"
+		name = "Holy Light"
 	},
 	[200832] = {
 		id = 200832,
-		name = "优酱来我身边"
+		name = "Yuni's Aid"
 	},
 	[200833] = {
 		id = 200833,
-		name = "尝尝这个！"
+		name = "Eat This!"
 	},
 	[200835] = {
 		id = 200835,
-		name = "陨石术"
+		name = "Meteor Fall"
 	},
 	[200836] = {
 		id = 200836,
-		name = "冰爆术"
+		name = "Ice Breath"
 	},
 	[200837] = {
 		id = 200837,
-		name = "「Explosion」"
+		name = "Explosion"
 	},
 	[200838] = {
 		id = 200838,
-		name = "炽焰斩"
+		name = "Blazing Slash"
 	},
 	[200839] = {
 		id = 200839,
-		name = "审判之枪"
+		name = "Spear of Judgment"
 	},
 	[200840] = {
 		id = 200840,
-		name = "闪耀的王家之剑"
+		name = "Royal Saber"
 	},
 	[200841] = {
 		id = 200841,
-		name = "圣女的祷告"
+		name = "Saint's Prayer"
 	},
 	[200843] = {
 		id = 200843,
-		name = "祝福之光"
+		name = "Blessed Light"
 	},
 	[200845] = {
 		id = 200845,
-		name = "审判之炎"
+		name = "Fire of Judgment"
 	},
 	[200847] = {
 		id = 200847,
-		name = "所有权变更-「勇者之剑」"
+		name = "Another's Blade - Hero's Sword"
 	},
 	[200848] = {
 		id = 200848,
-		name = "所有权变更-「神圣之剑」"
+		name = "Another's Blade - Holy Sword"
 	},
 	[200849] = {
 		id = 200849,
-		name = "「Explosion」"
+		name = "Explosion"
 	},
 	[200854] = {
 		id = 200854,
-		name = "光明与正义之加护"
+		name = "Blessing of Light and Justice"
 	},
 	[200856] = {
 		id = 200856,
-		name = "钢铁与巨龙之加护"
+		name = "Blessing of Steel and Dragons"
 	},
 	[200858] = {
 		id = 200858,
-		name = "火焰与净化之加护"
+		name = "Blessing of Fire and Purity"
 	},
 	[200866] = {
 		id = 200866,
-		name = "坚韧与团结之加护"
+		name = "Blessing of Unity and Toughness"
 	},
 	[200868] = {
 		id = 200868,
-		name = "平安与守护之加护"
+		name = "Blessing of Peace and Protection"
 	},
 	[200876] = {
 		id = 200876,
-		name = "复兴与浴室的赐福"
+		name = "The Might of Revivals and Baths"
 	},
 	[200880] = {
 		id = 200880,
-		name = "战争之加护"
+		name = "Blessing of War"
 	},
 	[200888] = {
 		id = 200888,
-		name = "欢愉之加护"
+		name = "Blessing of Joy"
 	},
 	[200892] = {
 		id = 200892,
-		name = "英勇之冲锋！"
+		name = "Brave Charge"
 	},
 	[295002] = {
 		id = 295002,
-		name = "开拓与冒险之加护"
+		name = "Blessing of Pioneering and Adventure"
 	},
 	[295003] = {
 		id = 295003,
-		name = "起始与终焉之加护"
+		name = "Blessing of Beginnings and Ends"
 	},
 	[295004] = {
 		id = 295004,
-		name = "黑暗与诡计之加护"
+		name = "Blessing of Darkness and Conspiracy"
 	},
 	[295005] = {
 		id = 295005,
-		name = "秩序与规则之加护"
+		name = "Blessing of Order and Rules"
 	},
 	[295006] = {
 		id = 295006,
-		name = "幸运与财富之加护"
+		name = "Blessing of Luck and Riches"
 	},
 	[295007] = {
 		id = 295007,
-		name = "茶会与点心之加护"
+		name = "Blessing of Desserts and Tea Parties"
 	},
 	[295008] = {
 		id = 295008,
-		name = "复兴与浴室之加护"
+		name = "Blessing of Revivals and Baths"
 	},
 	[295009] = {
 		id = 295009,
-		name = "智慧之加护"
+		name = "Blessing of Wisdom"
 	},
 	[200897] = {
 		id = 200897,
-		name = "铁爪突袭"
+		name = "Iron Claw Sweep"
 	},
 	[200933] = {
 		id = 200933,
-		name = "辉光之城-绽放"
+		name = "Martyrium of Noble Sacrifice"
 	},
 	[200958] = {
 		id = 200958,
-		name = "理事会制式MKXIII型外置轨道炮"
+		name = "Council-Style MK XIII Orbital Cannon"
 	},
 	[200964] = {
 		id = 200964,
-		name = "“铁爪爪”出击"
+		name = "Metal Gauntlet Mash!"
 	},
 	[200977] = {
 		id = 200977,
-		name = "白鹰精英损管"
+		name = "Eagle Union Elite Damage Control"
 	},
 	[200983] = {
 		id = 200983,
-		name = "苍红之息"
+		name = "Crimson Shade"
 	},
 	[200986] = {
 		id = 200986,
-		name = "冻雨打击支援"
+		name = "Freezing Rain Rocket Support"
 	},
 	[200989] = {
 		id = 200989,
-		name = "冻雨打击支援"
+		name = "Freezing Rain Rocket Support"
 	},
 	[200992] = {
 		id = 200992,
-		name = "冻雨打击支援"
+		name = "Freezing Rain Rocket Support"
 	},
 	[201025] = {
 		id = 201025,
-		name = "静海惊雷"
+		name = "Musashi's Thunder"
 	},
 	[201028] = {
 		id = 201028,
-		name = "变革之路"
+		name = "Mikasa's Resolve"
 	},
 	[201030] = {
 		id = 201030,
-		name = "苍蓝之约"
+		name = "Kaga's Duty"
 	},
 	[201091] = {
 		id = 201091,
-		name = "世界切片-苍红"
+		name = "World Segment"
 	},
 	[201092] = {
 		id = 201092,
-		name = "世界切片-苍红"
+		name = "World Segment"
 	},
 	[201093] = {
 		id = 201093,
-		name = "世界切片-苍红"
+		name = "World Segment"
 	},
 	[201097] = {
 		id = 201097,
-		name = "苍红之炎"
+		name = "Twinflamed Inferno"
 	},
 	[201098] = {
 		id = 201098,
-		name = "苍红之炎"
+		name = "Twinflamed Inferno"
 	},
 	[201099] = {
 		id = 201099,
-		name = "苍红之炎"
+		name = "Twinflamed Inferno"
 	},
 	[201117] = {
 		id = 201117,
-		name = "苏醒的苍红之炎"
+		name = "Crimson Flames of Resurrection"
 	},
 	[201132] = {
 		id = 201132,
-		name = "云开雾散"
+		name = "Disappear Like the Clouds"
 	},
 	[201133] = {
 		id = 201133,
-		name = "盛放的彼岸花"
+		name = "Blooming of the Red Spider Lilies"
 	},
 	[201135] = {
 		id = 201135,
-		name = "御狐哮天"
+		name = "Thundering Fox"
 	},
 	[201136] = {
 		id = 201136,
-		name = "新生之炎"
+		name = "Flames of Resurrection"
 	},
 	[201158] = {
 		id = 201158,
-		name = "幻想之力"
+		name = "Fancy's Might"
 	},
 	[201168] = {
 		id = 201168,
-		name = "为长夜带来光辉"
+		name = "Light Up the Long Night"
 	},
 	[201169] = {
 		id = 201169,
-		name = "联合舰队，出击！"
+		name = "Combined Fleet, Set Sail!"
 	},
 	[201171] = {
 		id = 201171,
-		name = "百鬼之影·壹之卷"
+		name = "Spiritshadow Procession: Act I"
 	},
 	[201172] = {
 		id = 201172,
-		name = "百鬼之影·贰之卷"
+		name = "Spiritshadow Procession: Act II"
 	},
 	[201173] = {
 		id = 201173,
-		name = "百鬼之影·叁之卷"
+		name = "Spiritshadow Procession: Act III"
 	},
 	[201175] = {
 		id = 201175,
-		name = "彼岸领域"
+		name = "Otherworldly Domain"
 	},
 	[201191] = {
 		id = 201191,
-		name = "ID-50-飞剑龙"
+		name = "IB-50 Pterosaur"
 	},
 	[201192] = {
 		id = 201192,
-		name = "ID-50-飞剑龙"
+		name = "IB-50 Pterosaur"
 	},
 	[201193] = {
 		id = 201193,
-		name = "ID-50-飞剑龙"
+		name = "IB-50 Pterosaur"
 	},
 	[201196] = {
 		id = 201196,
-		name = "永恒之星"
+		name = "Eternal Star"
 	},
 	[201197] = {
 		id = 201197,
-		name = "永恒之星"
+		name = "Eternal Star"
 	},
 	[201198] = {
 		id = 201198,
-		name = "永恒之星"
+		name = "Eternal Star"
 	},
 	[201199] = {
 		id = 201199,
-		name = "永恒之星"
+		name = "Eternal Star"
 	},
 	[201200] = {
 		id = 201200,
-		name = "永恒之星"
+		name = "Eternal Star"
 	},
 	[201220] = {
 		id = 201220,
-		name = "以希佩尔海军上将级之名"
+		name = "In the Name of the Admiral Hipper Class"
 	},
 	[201238] = {
 		id = 201238,
-		name = "过热射击"
+		name = "Overclocked Shooting"
 	},
 	[201240] = {
 		id = 201240,
-		name = "自适应型护盾"
+		name = "Adaptive Barrier"
 	},
 	[201289] = {
 		id = 201289,
-		name = "飞空战舰支援"
+		name = "Aerial Support"
 	},
 	[201295] = {
 		id = 201295,
-		name = "非凡圣座之力"
+		name = "The Great Apostle's Might"
 	},
 	[201303] = {
 		id = 201303,
-		name = "极性偏转"
+		name = "Polarization"
 	},
 	[201307] = {
 		id = 201307,
-		name = "天国裁决"
+		name = "Heaven's Judgment"
 	},
 	[201308] = {
 		id = 201308,
-		name = "光学迷彩"
+		name = "Optical Camouflage"
 	},
 	[201309] = {
 		id = 201309,
-		name = "电磁脉冲"
+		name = "Electromagnetic Pulse"
 	},
 	[201352] = {
 		id = 201352,
-		name = "黄金（Golden）觉醒"
+		name = "Golden Awakening"
 	},
 	[201353] = {
 		id = 201353,
-		name = "毁天灭地的武装！"
+		name = "Heaven and Earth Annihilation Gear"
 	},
 	[201354] = {
 		id = 201354,
-		name = "恢复出厂设置中"
+		name = "Restoring to Factory Settings"
 	},
 	[201368] = {
 		id = 201368,
-		name = "塞壬支援"
+		name = "Support – Siren"
 	},
 	[201378] = {
 		id = 201378,
-		name = "辉翼狮支援"
+		name = "Support – Luxwing Lion"
 	},
 	[201379] = {
 		id = 201379,
-		name = "辉翼狮支援"
+		name = "Support – Luxwing Lion"
 	},
 	[201380] = {
 		id = 201380,
-		name = "辉翼狮支援"
+		name = "Support – Luxwing Lion"
 	},
 	[201381] = {
 		id = 201381,
-		name = "辉翼狮支援"
+		name = "Support – Luxwing Lion"
 	},
 	[201382] = {
 		id = 201382,
-		name = "女王之光号"
+		name = "Support – Queen's Light"
 	},
 	[201383] = {
 		id = 201383,
-		name = "女王之光号"
+		name = "Support – Queen's Light"
 	},
 	[201384] = {
 		id = 201384,
-		name = "女王之光号"
+		name = "Support – Queen's Light"
 	},
 	[201385] = {
 		id = 201385,
-		name = "女王之光号"
+		name = "Support – Queen's Light"
 	},
 	[201419] = {
 		id = 201419,
-		name = "女王之光号"
+		name = "Support – Queen's Light"
 	},
 	[201420] = {
 		id = 201420,
-		name = "二刀流·夕照"
+		name = "Nitouryuu - Sunset Glow"
 	},
 	[201426] = {
 		id = 201426,
-		name = "过去之影"
+		name = "Shadows of the Past"
 	},
 	[201454] = {
 		id = 201454,
-		name = "超越世界·限制解除"
+		name = "Transcend Worlds - Limit Released"
 	},
 	[1011540] = {
 		id = 1011540,
-		name = "最后的炮火 +"
+		name = "Final Shot+"
 	},
 	[1011541] = {
 		id = 1011541,
-		name = "最后的炮火 +"
+		name = "Final Shot+"
 	},
 	[1090010] = {
 		id = 1090010,
-		name = "舰队空母·光荣"
+		name = "Fleet Carrier - Glorious"
 	},
 	[1010731] = {
 		id = 1010731,
-		name = "鬼神 +"
+		name = "The Demon+"
 	},
 	[1010732] = {
 		id = 1010732,
-		name = "鬼神 +"
+		name = "The Demon+"
 	},
 	[1011620] = {
 		id = 1011620,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011621] = {
 		id = 1011621,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011622] = {
 		id = 1011622,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011623] = {
 		id = 1011623,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011624] = {
 		id = 1011624,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011625] = {
 		id = 1011625,
-		name = "命运之骰 +"
+		name = "Predestined Launch+"
 	},
 	[1011900] = {
 		id = 1011900,
-		name = "816中队 +"
+		name = "Protector of The North Passage+"
 	},
 	[1010250] = {
 		id = 1010250,
-		name = "标枪突袭 +"
+		name = "Javelin Raid+"
 	},
 	[1010251] = {
 		id = 1010251,
-		name = "标枪突袭 +"
+		name = "Javelin Raid+"
 	},
 	[1010380] = {
 		id = 1010380,
-		name = "Z系先驱 +"
+		name = "Z Vanguard+"
 	},
 	[1090030] = {
 		id = 1090030,
-		name = "防空模式·蒙彼利埃"
+		name = "Anti-Air Mode - Montpelier"
 	},
 	[1090031] = {
 		id = 1090031,
-		name = "防空模式·蒙彼利埃"
+		name = "Anti-Air Mode - Montpelier"
 	},
 	[1090032] = {
 		id = 1090032,
-		name = "防空模式·蒙彼利埃"
+		name = "Anti-Air Mode - Montpelier"
 	},
 	[1090033] = {
 		id = 1090033,
-		name = "防空模式·蒙彼利埃"
+		name = "Anti-Air Mode - Montpelier"
 	},
 	[1010340] = {
 		id = 1010340,
-		name = "装甲空母 +"
+		name = "Armored Carrier+"
 	},
 	[1010511] = {
 		id = 1010511,
-		name = "改变时代的炮声 + "
+		name = "Revolyutsiya+"
 	},
 	[1010580] = {
 		id = 1010580,
-		name = "吸血鬼之吻 +"
+		name = "Vampire's Kiss+"
 	},
 	[1011500] = {
 		id = 1011500,
-		name = "鸢尾之光 +"
+		name = "Radiant Iris+"
 	},
 	[1011501] = {
 		id = 1011501,
-		name = "鸢尾之光 +"
+		name = "Radiant Iris+"
 	},
 	[1011521] = {
 		id = 1011521,
-		name = "爱丽丝之心 +"
+		name = "Heart of Iris+"
 	},
 	[1011522] = {
 		id = 1011522,
-		name = "爱丽丝之心 +"
+		name = "Heart of Iris+"
 	},
 	[1011523] = {
 		id = 1011523,
-		name = "爱丽丝之心 +"
+		name = "Heart of Iris+"
 	},
 	[1011711] = {
 		id = 1011711,
-		name = "杜尔拉汗 +"
+		name = "Dullahan+"
 	},
 	[1011360] = {
 		id = 1011360,
-		name = "塔萨法隆格逆袭 +"
+		name = "Lunga Point's Strike+"
 	},
 	[1011361] = {
 		id = 1011361,
-		name = "塔萨法隆格逆袭 +"
+		name = "Lunga Point's Strike+"
 	},
 	[1012350] = {
 		id = 1012350,
-		name = "不服输的小魔女 +"
+		name = "Unyielding Magician+"
 	},
 	[1012351] = {
 		id = 1012351,
-		name = "不服输的小魔女 +"
+		name = "Unyielding Magician+"
 	},
 	[1012353] = {
 		id = 1012353,
-		name = "不服输的小魔女 +"
+		name = "Unyielding Magician+"
 	},
 	[1012600] = {
 		id = 1012600,
@@ -17715,115 +17515,115 @@ pg.base.skill_data_display = {
 	},
 	[1010540] = {
 		id = 1010540,
-		name = "皇家同盟 +"
+		name = "Royal Alliance+"
 	},
 	[1010541] = {
 		id = 1010541,
-		name = "皇家同盟 +"
+		name = "Royal Alliance+"
 	},
 	[1010100] = {
 		id = 1010100,
-		name = "爪哇海岸的跳跳鬼 +"
+		name = "Ghost of Java Coast+"
 	},
 	[1010101] = {
 		id = 1010101,
-		name = "爪哇海岸的跳跳鬼 +"
+		name = "Ghost of Java Coast+"
 	},
 	[1010102] = {
 		id = 1010102,
-		name = "爪哇海岸的跳跳鬼 +"
+		name = "Ghost of Java Coast+"
 	},
 	[1013271] = {
 		id = 1013271,
-		name = "热风之炽焰 +"
+		name = "Bellowing Gusts of Fire+"
 	},
 	[1010160] = {
 		id = 1010160,
-		name = "最强之盾 +"
+		name = "The Strongest Shield+"
 	},
 	[1011970] = {
 		id = 1011970,
-		name = "战意提升 +"
+		name = "Morale Boost+"
 	},
 	[1011441] = {
 		id = 1011441,
-		name = "斯卡帕湾之牛 +"
+		name = "The Bull of Scapa Flow+"
 	},
 	[1011120] = {
 		id = 1011120,
-		name = "胜利之歌 +"
+		name = "Victorious Song+"
 	},
 	[1011121] = {
 		id = 1011121,
-		name = "胜利之歌 +"
+		name = "Victorious Song+"
 	},
 	[1017160] = {
 		id = 1017160,
-		name = "暗影无形 +"
+		name = "Unseen Phantom+"
 	},
 	[1017161] = {
 		id = 1017161,
-		name = "暗影无形 +"
+		name = "Unseen Phantom+"
 	},
 	[1017251] = {
 		id = 1017251,
-		name = "深海的恩典 +"
+		name = "Hindhorn's Grace+"
 	},
 	[1017252] = {
 		id = 1017252,
-		name = "深海的恩典 +"
+		name = "Hindhorn's Grace+"
 	},
 	[1012620] = {
 		id = 1012620,
-		name = "特尔尼之盾 +"
+		name = "Terni Shields+"
 	},
 	[1012621] = {
 		id = 1012621,
-		name = "特尔尼之盾 +"
+		name = "Terni Shields+"
 	},
 	[1012622] = {
 		id = 1012622,
-		name = "特尔尼之盾 +"
+		name = "Terni Shields+"
 	},
 	[1011940] = {
 		id = 1011940,
-		name = "天与海的观测者 +"
+		name = "Observer of the Sky and Sea+"
 	},
 	[1011941] = {
 		id = 1011941,
-		name = "天与海的观测者 +"
+		name = "Observer of the Sky and Sea+"
 	},
 	[1011942] = {
 		id = 1011942,
-		name = "天与海的观测者 +"
+		name = "Observer of the Sky and Sea+"
 	},
 	[1012160] = {
 		id = 1012160,
-		name = "日不落的辉光 +"
+		name = "The Glory of the Never-Setting Sun+"
 	},
 	[1011370] = {
 		id = 1011370,
-		name = "致命穿透 +"
+		name = "Fatal Perforation+"
 	},
 	[1011371] = {
 		id = 1011371,
-		name = "致命穿透 +"
+		name = "Fatal Perforation+"
 	},
 	[1005080] = {
 		id = 1005080,
-		name = "骑士之剑 +"
+		name = "Chevalier's Sabre+"
 	},
 	[1005081] = {
 		id = 1005081,
-		name = "骑士之剑 +"
+		name = "Chevalier's Sabre+"
 	},
 	[1005082] = {
 		id = 1005082,
-		name = "骑士之剑 +"
+		name = "Chevalier's Sabre+"
 	},
 	[1005083] = {
 		id = 1005083,
-		name = "骑士之剑 +"
+		name = "Chevalier's Sabre+"
 	},
 	[1012940] = {
 		id = 1012940,
@@ -17831,215 +17631,215 @@ pg.base.skill_data_display = {
 	},
 	[1013000] = {
 		id = 1013000,
-		name = "虚空的白骑兵 +"
+		name = "Cavalier of the Ether+"
 	},
 	[1013001] = {
 		id = 1013001,
-		name = "虚空的白骑兵 +"
+		name = "Cavalier of the Ether+"
 	},
 	[1010980] = {
 		id = 1010980,
-		name = "对空掩护 +"
+		name = "AA Protection+"
 	},
 	[1010981] = {
 		id = 1010981,
-		name = "对空掩护 +"
+		name = "AA Protection+"
 	},
 	[1010660] = {
 		id = 1010660,
-		name = "狙击手 +"
+		name = "Sniper+"
 	},
 	[1010661] = {
 		id = 1010661,
-		name = "狙击手 +"
+		name = "Sniper+"
 	},
 	[1012320] = {
 		id = 1012320,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1012322] = {
 		id = 1012322,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1012323] = {
 		id = 1012323,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1013551] = {
 		id = 1013551,
-		name = "微笑猎手 +"
+		name = "The Smiling Sawfish+"
 	},
 	[1012990] = {
 		id = 1012990,
-		name = "火力向导 +"
+		name = "Trajectory Marking+"
 	},
 	[1012993] = {
 		id = 1012993,
-		name = "天蓝色的巡洋舰"
+		name = "The Blue Cruiser"
 	},
 	[1011491] = {
 		id = 1011491,
-		name = "甜品制作·蒙布朗"
+		name = "Handmade Mont Blancs"
 	},
 	[1011492] = {
 		id = 1011492,
-		name = "甜品制作·甜甜圈"
+		name = "Handmade Donuts"
 	},
 	[1011493] = {
 		id = 1011493,
-		name = "甜品制作·马卡龙"
+		name = "Handmade Macarons"
 	},
 	[1011496] = {
 		id = 1011496,
-		name = "正面火力 +"
+		name = "Frontal Fire+"
 	},
 	[1011003] = {
 		id = 1011003,
-		name = "英勇炮击 +"
+		name = "Courageous Shelling+"
 	},
 	[1011004] = {
 		id = 1011004,
-		name = "英勇炮击 +"
+		name = "Courageous Shelling+"
 	},
 	[10150570] = {
 		id = 10150570,
-		name = "深渊魔影 +"
+		name = "Phantom of the Deep+"
 	},
 	[10150571] = {
 		id = 10150571,
-		name = "深渊魔影 +"
+		name = "Phantom of the Deep+"
 	},
 	[10150601] = {
 		id = 10150601,
-		name = "深海的回音 +"
+		name = "Dolphin's Echoes+"
 	},
 	[10150640] = {
 		id = 10150640,
-		name = "烈酒与秘药 +"
+		name = "\"Spiritual\" Healing+"
 	},
 	[10150642] = {
 		id = 10150642,
-		name = "烈酒与秘药 +"
+		name = "\"Spiritual\" Healing+"
 	},
 	[1010481] = {
 		id = 1010481,
-		name = "姐妹同心 +"
+		name = "Sisterly Bond+"
 	},
 	[1010491] = {
 		id = 1010491,
-		name = "姐妹同心 +"
+		name = "Sisterly Bond+"
 	},
 	[1019021] = {
 		id = 1019021,
-		name = "海之女神 +"
+		name = "Goddess of the Sea+"
 	},
 	[1019090] = {
 		id = 1019090,
-		name = "专业装填手 +"
+		name = "Expert Loader+"
 	},
 	[1019091] = {
 		id = 1019091,
-		name = "专业装填手 +"
+		name = "Expert Loader+"
 	},
 	[1019092] = {
 		id = 1019092,
-		name = "专业装填手 +"
+		name = "Expert Loader+"
 	},
 	[1019110] = {
 		id = 1019110,
-		name = "高爆穿甲弹 +"
+		name = "Augmented HE Ammo+"
 	},
 	[1019111] = {
 		id = 1019111,
-		name = "高爆穿甲弹 +"
+		name = "Augmented HE Ammo+"
 	},
 	[1019112] = {
 		id = 1019112,
-		name = "高爆穿甲弹 +"
+		name = "Augmented HE Ammo+"
 	},
 	[1014070] = {
 		id = 1014070,
-		name = "除恶务尽 +"
+		name = "Purge Evil+"
 	},
 	[1014071] = {
 		id = 1014071,
-		name = "除恶务尽 +"
+		name = "Purge Evil+"
 	},
 	[1014090] = {
 		id = 1014090,
-		name = "除恶务尽 +"
+		name = "Cleanse Impurity+"
 	},
 	[1014091] = {
 		id = 1014091,
-		name = "除恶务尽 +"
+		name = "Cleanse Impurity+"
 	},
 	[1010260] = {
 		id = 1010260,
-		name = "魔炮-Armageddon！ +"
+		name = "Armageddon Cannon+"
 	},
 	[1010261] = {
 		id = 1010261,
-		name = "魔炮-Armageddon！ +"
+		name = "Armageddon Cannon+"
 	},
 	[1013020] = {
 		id = 1013020,
-		name = "冰结锋芒+"
+		name = "Lod Obstrel+"
 	},
 	[1013021] = {
 		id = 1013021,
-		name = "冰结锋芒+"
+		name = "Lod Obstrel+"
 	},
 	[1013022] = {
 		id = 1013022,
-		name = "冰结锋芒+"
+		name = "Lod Obstrel+"
 	},
 	[1013023] = {
 		id = 1013023,
-		name = "冰结锋芒+"
+		name = "Lod Obstrel+"
 	},
 	[1013883] = {
 		id = 1013883,
-		name = "迅击铁翼 +"
+		name = "Iron Blood Falcon+"
 	},
 	[1011560] = {
 		id = 1011560,
-		name = "2700磅的正义 +"
+		name = "2,700 Pounds of Justice+"
 	},
 	[1011561] = {
 		id = 1011561,
-		name = "2700磅的正义 +"
+		name = "2,700 Pounds of Justice+"
 	},
 	[1010960] = {
 		id = 1010960,
-		name = "特型领舰 +"
+		name = "Special Lead Ship+"
 	},
 	[1010961] = {
 		id = 1010961,
-		name = "特型领舰 +"
+		name = "Special Lead Ship+"
 	},
 	[1010962] = {
 		id = 1010962,
-		name = "特型领舰 +"
+		name = "Special Lead Ship+"
 	},
 	[1011150] = {
 		id = 1011150,
-		name = "巴伦支海的逆袭 +"
+		name = "Counterattack of the Barents Sea+"
 	},
 	[1011151] = {
 		id = 1011151,
-		name = "巴伦支海的逆袭 +"
+		name = "Counterattack of the Barents Sea+"
 	},
 	[1011152] = {
 		id = 1011152,
-		name = "巴伦支海的逆袭 +"
+		name = "Counterattack of the Barents Sea+"
 	},
 	[1011154] = {
 		id = 1011154,
-		name = "巴伦支海的逆袭 +"
+		name = "Counterattack of the Barents Sea+"
 	},
 	[1012481] = {
 		id = 1012481,
-		name = "Final-AP-Ride"
+		name = "APsolute Ammunition"
 	},
 	[1012482] = {
 		id = 1012482,
@@ -18047,318 +17847,318 @@ pg.base.skill_data_display = {
 	},
 	[1010881] = {
 		id = 1010881,
-		name = "LuckyLou +"
+		name = "Lucky Lou+"
 	},
 	[1010883] = {
 		id = 1010883,
-		name = "LuckyLou +"
+		name = "Lucky Lou+"
 	},
 	[1011250] = {
 		id = 1011250,
-		name = "萨沃岛突袭 +"
+		name = "Leyte Gulf's Blitz+"
 	},
 	[1011251] = {
 		id = 1011251,
-		name = "萨沃岛突袭 +"
+		name = "Leyte Gulf's Blitz+"
 	},
 	[1090020] = {
 		id = 1090020,
-		name = "火力全开·{namecode:422}"
+		name = "Full Firepower - Karlsruhe"
 	},
 	[1090042] = {
 		id = 1090042,
-		name = "一分钱硬币（少量）"
+		name = "A Few 1-Cent Coins"
 	},
 	[1090043] = {
 		id = 1090043,
-		name = "一分钱硬币（普通）"
+		name = "A Fistful of 1-Cent Coins"
 	},
 	[1090044] = {
 		id = 1090044,
-		name = "一分钱硬币（大量）"
+		name = "A Boatload of 1-Cent Coins"
 	},
 	[1090050] = {
 		id = 1090050,
-		name = "火力全开·{namecode:46}"
+		name = "Full Firepower - Nagara"
 	},
 	[1090071] = {
 		id = 1090071,
-		name = "炮术指挥·西姆斯"
+		name = "Artillery Command - Sims"
 	},
 	[1090080] = {
 		id = 1090080,
-		name = "雷击指挥·{namecode:19}"
+		name = "Torpedo Command - Kagerou"
 	},
 	[1090090] = {
 		id = 1090090,
-		name = "变迁的记忆·加富尔伯爵"
+		name = "Fading Memories of Glory - Cavour"
 	},
 	[1090091] = {
 		id = 1090091,
-		name = "变迁的记忆·加富尔伯爵"
+		name = "Fading Memories of Glory - Cavour"
 	},
 	[1090092] = {
 		id = 1090092,
-		name = "变迁的记忆·加富尔伯爵"
+		name = "Fading Memories of Glory - Cavour"
 	},
 	[1090110] = {
 		id = 1090110,
-		name = "鱼雷发射·{namecode:434}"
+		name = "Torpedo Launch - Gneisenau"
 	},
 	[1090111] = {
 		id = 1090111,
-		name = "鱼雷发射·{namecode:434}"
+		name = "Torpedo Launch - Gneisenau"
 	},
 	[1090120] = {
 		id = 1090120,
-		name = "穿甲弹精通·{namecode:412}"
+		name = "Piercing Shells – Z46"
 	},
 	[1090121] = {
 		id = 1090121,
-		name = "穿甲弹精通·{namecode:412}"
+		name = "Piercing Shells – Z46"
 	},
 	[1090141] = {
 		id = 1090141,
-		name = "舰炮掩护·萨拉托加"
+		name = "Artillery Cover - Saratoga"
 	},
 	[1090150] = {
 		id = 1090150,
-		name = "水面作战·絮库夫"
+		name = "Surface Combat - Surcouf"
 	},
 	[1090151] = {
 		id = 1090151,
-		name = "水面作战·絮库夫"
+		name = "Surface Combat - Surcouf"
 	},
 	[1090170] = {
 		id = 1090170,
-		name = "穿甲防护·{namecode:57}"
+		name = "AP Protection - Mogami"
 	},
 	[1090171] = {
 		id = 1090171,
-		name = "穿甲防护·{namecode:57}"
+		name = "AP Protection - Mogami"
 	},
 	[1090172] = {
 		id = 1090172,
-		name = "穿甲防护·{namecode:57}"
+		name = "AP Protection - Mogami"
 	},
 	[1090191] = {
 		id = 1090191,
-		name = "重点打击·{namecode:66}"
+		name = "Focused Assault - Takao"
 	},
 	[1090210] = {
 		id = 1090210,
-		name = "紧急回避·命运女神"
+		name = "Emergency Maneuvers - Fortune"
 	},
 	[1090211] = {
 		id = 1090211,
-		name = "紧急回避·命运女神"
+		name = "Emergency Maneuvers - Fortune"
 	},
 	[1090220] = {
 		id = 1090220,
-		name = "装填指挥·{namecode:421}"
+		name = "Reload Command - Königsberg"
 	},
 	[1090221] = {
 		id = 1090221,
-		name = "装填指挥·{namecode:421}"
+		name = "Reload Command - Königsberg"
 	},
 	[1090230] = {
 		id = 1090230,
-		name = "穿甲弹精通·{namecode:404}"
+		name = "Piercing Shells - Z18"
 	},
 	[1090231] = {
 		id = 1090231,
-		name = "穿甲弹精通·{namecode:404}"
+		name = "Piercing Shells - Z18"
 	},
 	[1090240] = {
 		id = 1090240,
-		name = "水雷战队·{namecode:38}"
+		name = "Torpedo Squadron - Sendai"
 	},
 	[1090242] = {
 		id = 1090242,
-		name = "水雷战队·{namecode:38}"
+		name = "Torpedo Squadron - Sendai"
 	},
 	[1090243] = {
 		id = 1090243,
-		name = "水雷战队·{namecode:38}"
+		name = "Torpedo Squadron - Sendai"
 	},
 	[1090260] = {
 		id = 1090260,
-		name = "快速装填·斯彭斯"
+		name = "Quick Reload - Spence"
 	},
 	[1090261] = {
 		id = 1090261,
-		name = "快速装填·斯彭斯"
+		name = "Quick Reload - Spence"
 	},
 	[1090273] = {
 		id = 1090273,
-		name = "战术指挥·{namecode:424}"
+		name = "Tactical Command – Leipzig"
 	},
 	[1090283] = {
 		id = 1090283,
-		name = "快速起飞·长岛 +"
+		name = "Quick Takeoff - Long Island+"
 	},
 	[1090284] = {
 		id = 1090284,
-		name = "快速起飞·长岛"
+		name = "Quick Takeoff - Long Island"
 	},
 	[1090285] = {
 		id = 1090285,
-		name = "快速起飞·长岛"
+		name = "Quick Takeoff - Long Island"
 	},
 	[1090290] = {
 		id = 1090290,
-		name = "鱼雷连射·{namecode:20}"
+		name = "Double Torpedo - Shiranui"
 	},
 	[1090291] = {
 		id = 1090291,
-		name = "鱼雷连射·{namecode:20}"
+		name = "Double Torpedo - Shiranui"
 	},
 	[1090310] = {
 		id = 1090310,
-		name = "火力全开·埃克塞特"
+		name = "Full Firepower - Exeter"
 	},
 	[1090320] = {
 		id = 1090320,
-		name = "紧急回避·大斗犬"
+		name = "Emergency Maneuvers – Bulldog"
 	},
 	[1090321] = {
 		id = 1090321,
-		name = "紧急回避·大斗犬"
+		name = "Emergency Maneuvers – Bulldog"
 	},
 	[1090331] = {
 		id = 1090331,
-		name = "雷击指挥·{namecode:15}"
+		name = "Torpedo Command - Shiratsuyu"
 	},
 	[1090341] = {
 		id = 1090341,
-		name = "快速起飞·博格"
+		name = "Quick Takeoff - Bogue"
 	},
 	[1090343] = {
 		id = 1090343,
-		name = "再来一球！"
+		name = "One More Ball!"
 	},
 	[1090344] = {
 		id = 1090344,
-		name = "快速起飞·博格"
+		name = "Quick Takeoff - Bogue"
 	},
 	[1090360] = {
 		id = 1090360,
-		name = "制空支援·{namecode:89}"
+		name = "Air Support - Houshou"
 	},
 	[1090363] = {
 		id = 1090363,
-		name = "制空支援·{namecode:89}"
+		name = "Air Support - Houshou"
 	},
 	[1090350] = {
 		id = 1090350,
-		name = "火力全开·{namecode:37}"
+		name = "Full Firepower - Yuubari"
 	},
 	[1090351] = {
 		id = 1090351,
-		name = "便携式落雷制造器"
+		name = "Portable Thunderbolt Generator"
 	},
 	[1090352] = {
 		id = 1090352,
-		name = "六连鱼雷发射器"
+		name = "Sextuple Torpedo Mount"
 	},
 	[1090353] = {
 		id = 1090353,
-		name = "烟雾发生装置"
+		name = "Smokescreen Generator"
 	},
 	[1090354] = {
 		id = 1090354,
-		name = "水雷布置器"
+		name = "Depth Charge Layer"
 	},
 	[1090355] = {
 		id = 1090355,
-		name = "试作新型主炮"
+		name = "Prototype New Main Gun"
 	},
 	[1090356] = {
 		id = 1090356,
-		name = "爆发式装填"
+		name = "Explosive Loading Mechanism"
 	},
 	[1090358] = {
 		id = 1090358,
-		name = "对空火力加强装置"
+		name = "Anti-Air Augmenter"
 	},
 	[1090359] = {
 		id = 1090359,
-		name = "引擎过载装置"
+		name = "Main Drive Overloader"
 	},
 	[1090364] = {
 		id = 1090364,
-		name = "护盾发生装置"
+		name = "Shield Generator"
 	},
 	[1090380] = {
 		id = 1090380,
-		name = "鱼雷连射·{namecode:67}"
+		name = "Double Torpedo - Atago"
 	},
 	[1090381] = {
 		id = 1090381,
-		name = "鱼雷连射·{namecode:67}"
+		name = "Double Torpedo - Atago"
 	},
 	[1090390] = {
 		id = 1090390,
-		name = "防空模式·哥伦比亚"
+		name = "Anti-Air Mode - Columbia"
 	},
 	[1090391] = {
 		id = 1090391,
-		name = "防空模式·哥伦比亚"
+		name = "Anti-Air Mode - Columbia"
 	},
 	[1090400] = {
 		id = 1090400,
-		name = "火力全开·{namecode:423}"
+		name = "Full Firepower - Köln"
 	},
 	[1090401] = {
 		id = 1090401,
-		name = "战术记录:毁灭模式"
+		name = "Tactical Record: Destruction Mode"
 	},
 	[1090402] = {
 		id = 1090402,
-		name = "战术记录:跃动心火"
+		name = "Tactical Record: Soaring Heart"
 	},
 	[1090403] = {
 		id = 1090403,
-		name = "战术记录:勇敢争先"
+		name = "Tactical Record: Making a Splash!"
 	},
 	[1090404] = {
 		id = 1090404,
-		name = "战术记录:Schwarz"
+		name = "Tactical Record: Duet of Alternation"
 	},
 	[1090405] = {
 		id = 1090405,
-		name = "战术记录:Ausgewogen"
+		name = "Tactical Record: Ausgewogen"
 	},
 	[1090406] = {
 		id = 1090406,
-		name = "战术记录:火舌飞舞"
+		name = "Tactical Record: Scorching Combo"
 	},
 	[1090407] = {
 		id = 1090407,
-		name = "战术记录:直感之拳"
+		name = "Tactical Record: Heinrich's Hunch Punch"
 	},
 	[1090408] = {
 		id = 1090408,
-		name = "战术记录:愉悦的追灭猎杀"
+		name = "Tactical Record: Doombringer's Euphoria"
 	},
 	[1090409] = {
 		id = 1090409,
-		name = "战术记录:冒失甜心"
+		name = "Tactical Record: Daredevil Sweetheart"
 	},
 	[1090410] = {
 		id = 1090410,
-		name = "战术记录:噬啮之颚"
+		name = "Tactical Record: Jöttun's Jaws"
 	},
 	[1090420] = {
 		id = 1090420,
-		name = "火力全开·威严"
+		name = "Full Firepower - Grozny"
 	},
 	[1090421] = {
 		id = 1090421,
-		name = "火力全开·威严"
+		name = "Full Firepower - Grozny"
 	},
 	[1090422] = {
 		id = 1090422,
-		name = "火力全开·威严"
+		name = "Full Firepower - Grozny"
 	}
 }

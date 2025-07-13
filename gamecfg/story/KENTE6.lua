@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"GO！肯特选手！\n\n<size=45>六 黑夜里的光！ </size>",
+					"Unbridled Positivity\n\n<size=45>Chapter 6 - A Light in the Darkness! </size>",
 					1
 				}
 			}
 		},
 		{
-			say = "夜深了，总算在跨天之前把报告处理到只剩下最后一份了。",
+			say = "Here in the dead of night, just before the clock ticks over to the new day, I come to the very last of my reports.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在准备动手解决时，突然发现，文件少了一张。…难道是那时候——",
+			say = "As I’m about to clear it, I suddenly realize I’m missing a page... I think I know what happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——那我就按你说的先去休息啦！指挥官今天也辛苦了！",
+			say = "Then I’ll be off, if you insist! You’ve also been working very hard today, Commander!",
 			effects = {
 				{
 					active = true,
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊！相关的文件已经按你吩咐的都归档收好了！晚安啦——",
+			say = "Oh! I already filed all the papers just the way you asked me to! Good night!",
 			effects = {
 				{
 					active = true,
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…缺少的部分，大概是混在其他文件里被归档了吧。",
+			say = "...The missing page must be in with those documents she filed earlier.",
 			effects = {
 				{
 					active = false,
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "快速翻了下文件柜，依然没能找到需要的那份文件。",
+			say = "A quick rummage through the filing cabinets didn’t turn up what I was looking for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "姑且是今天必须完成的工作…还是去找她问问吧。",
+			say = "But I need this done today... I guess I have to go ask her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "――下次再来聊关于老虎的话题吧！",
+			say = "―We’ll talk about tigers later!",
 			effects = {
 				{
 					active = true,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "脑海里突然闪过救小猫时肯特的话。",
+			say = "Kent’s words after the kitten rescue suddenly flash through my head.",
 			effects = {
 				{
 					active = false,
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她不会真在房间里养了只老虎吧…怀着忐忑的心情来到了肯特的房门前。",
+			say = "There’s no way she’s actually got a pet tiger... right? With some apprehension, I drag myself to Kent’s door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "轻轻敲了敲肯特的房门。",
+			say = "I knock lightly.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "……没有反应。试着旋了下把手，没想到居然很轻松地就打开了房门。",
+			say = "...No answer. I try turning the handle, not expecting it to so easily swing open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,37 +280,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "也太没防备了…试着在房间外面喊喊她吧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "――呼啊……指挥官？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			blackBg = true,
-			say = "很快，从房间里传来了肯特带着睡意的声音。总算松了口气，走进房间找起了她的位置。",
+			say = "She needs to be more careful... I try calling out to her from the entryway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +296,37 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……怎么了吗？这么晚了还来喊我…呼……",
+			say = "―Huh...? Commander?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			blackBg = true,
+			say = "Her sleepy voice calls back from the inside room. Relieved, I walk in and try to find her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "...What is it? I didn’t expect you so late... Yawn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "一边说明情况，一边在墙上想摸到电灯开关，不过却一直没摸到。",
+			say = "I grope around for the light switch while explaining the situation, to no avail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊，房间里唯一的灯光就是现在床边的台灯。你等一下哦――",
+			say = "Oh, the only light in the room is my bedside lamp over here. Just a second...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "话音刚落，房间深处亮起了一盏小灯――",
+			say = "The small lamp flickering on punctuates her sentence―",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "――？！！",
+			say = "Woah...?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wow！指、指挥官，干嘛突然叫那么大声？！",
+			say = "Wow! C-Commander, why the scream? !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "灯光的照耀下，显现出的是粗糙的毛皮，巨大的獠牙，还有一双锐利的眼瞳。",
+			say = "The glow of the lamp reveals course fur, huge fangs, and a pair of deadly sharp pupils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "怎么看都是——一只老虎！",
+			say = "No matter which way you look at it, that’s a tiger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait！别激动！肯特选手在这里！",
+			say = "Wait! Stay calm! Kent’s here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？你说有猛兽……啊！！难道是说这孩子吗？！",
+			say = "Huh? A wild animal...? Oh! You don’t mean this guy? !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,23 +519,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "肯特似乎终于反应过来，从恐怖的”老虎”身后探出头来，开始解释起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "…这孩子是我以前睡觉时经常抱着的玩偶啦。",
+			say = "Kent finally puts it together and peeks out from behind her terrifying “tiger” to explain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +535,23 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "造型还是挺逼真的，在这么暗的地方看到，被吓一跳也是正常的吧…哈哈……",
+			say = "...It’s a stuffed animal I used to sleep with.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I guess it’s pretty realistic. With the lights out and all, I could see how he’d give you a fright... Haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "房间的幽暗使得这只“老虎”更平添了几分逼真和魄力……",
+			say = "The room’s gloomy environs only make the “tiger” that much more lifelike...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "工作仍然还没有完成，却有种已经筋疲力尽的感觉……",
+			say = "My work’s still not done, and I’m already exhausted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

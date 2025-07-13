@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "鼎沸的人声中，相约而来的四人正兴奋地环顾着五彩斑斓的会场。",
+			say = "The polling venue glowed with vivid colors while passersby chatted and laughed. Four girls walked around, admiring the scene.",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是热闹啊……没想到港区的大家对这次活动这么有热情……",
+			say = "Look how bustling this place is. I didn't expect people to get this fired up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那是当然的啦！人气投票可是两年一度的盛大庆典呢~！",
+			say = "I mean, of course they would! Everyone's aching to catch the Commander's eye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这次我也认真做了一番准备呢。",
+			say = "She's right. Even I prepared for this. In my own way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:408:Z23}，也要参加？",
+			say = "You're running in the vote, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然！为了让所有同伴都能享受这场盛事，参与投票是没有任何门槛的。",
+			say = "Yes! They're letting everyone participate so we can all have fun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，已经进入荣耀殿堂的伙伴们不可以再次成为候选人就是了。",
+			say = "Well, everyone except those already in the Hall of Fame, that is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此…………呼……zzZ……",
+			say = "Uh-huh... Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀——！不能直接睡在地板上啦！",
+			say = "Laffey, please! You can't sleep on the ground!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……拉菲回去睡……",
+			say = "Okay... Then I'll go home and sleep in my bed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，记得盖好被子别着凉哦……",
+			say = "And make sure you tuck in under the sheets, or you'll catch a cold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……才不对啦！！今天我们不是约好了一起去逛会场的么！",
+			say = "...Wait, no! Forget sleeping! You promised you'd look around the place with us today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……好像有道理……",
+			say = "Oh... Right, I almost forgot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就，先不睡觉了……",
+			say = "I'll catch my z's later instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来……我们从哪里开始逛呢？",
+			say = "Great. So, where do we start?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……根据我的情报，本次投票会场的可行动区域进行了大幅度扩展。",
+			say = "From what I've gathered, they've greatly expanded the polling venue this time. There'll be a lot more room to walk around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此我们必须先获取会场发放的宣传册，才能规划出最合理的参观路线。",
+			say = "So, first of all, let's get our hands on the pamphlets they're distributing and work out the most logical route to take.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这次投票活动的会场布置和赛程，都在宣传册上哦。",
+			say = "Agreed. Those pamphlets come with a map of the venue and the complete schedule.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……要去哪里才能拿到宣传册呢？",
+			say = "Aaand... where do we get those pamphlets?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宣传册的事，就交给{namecode:6:绫波}吧……让你们见识下“鬼神”的力量——",
+			say = "I'll get them. Prepare to witness the demon's power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呼、呼。真没想到港区的同伴们都这么有热情……",
+			say = "*pant*... *pant*... Didn't think EVERYONE would be gunning for the pamphlets...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还好你抢到一本……辛苦了，{namecode:6:绫波}……",
+			say = "At least we managed to get one copy. Great job, Ayanami.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系……事不宜迟，让我们来查看一下攻略书吧。",
+			say = "You're welcome. Now let's have a look at this strategy guide.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是会场宣传册才对啦，让我看看哦~",
+			say = "It's NOT a strategy guide. Anyway...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，宣传册上说，这次会场分称了五个区域。",
+			say = "It says the venue is divided into five parts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从我们拿到宣传册的地方再向前走一点，就是领取「投票券」的换票处。",
+			say = "First, there are the missions right ahead of us. Completing those tasks is how we'll get our ballots.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沿路继续向前的话，就可以看到位于会场中心的赛程信息展示牌。",
+			say = "Then in the heart of the venue, there's the results board, which shows the current voting round and our respective rankings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "据说里面的票数统计是实时变更的哦。",
+			say = "It looks like the vote numbers update in real-time, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后……举办投票活动的主舞台位于会场的西北方，位于会场东北方的则是本次新增的荣耀殿堂纪念馆……",
+			say = "What else... Ah, there are the booths for the main poll results and the Hall of Fame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……拉菲好像还看到了一个舞台……那个是什么。",
+			say = "There's one more place worth mentioning...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个是本次人气投票新增的副舞台区域。",
+			say = "Right. That's the new special vote stage they're hosting for this year's poll.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本次人气投票将分为“预选赛”、“小组赛”、“复活赛”以及“决赛”四个阶段，各阶段之间均有休赛时间。",
+			say = "The main poll is divided into four categories – qualifiers, groups, repechages, and the finals, but there will also be intervals between these.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而那处副舞台，会在休赛举行一些“有趣”的活动。",
+			say = "And it's during these intervals when the special vote will be available as a sideshow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“有趣”的活动？",
+			say = "A... sideshow?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宣传册上没有写更具体的活动内容了……也许我们去副舞台参观之后就知道了？",
+			say = "It doesn't elaborate beyond that... Should we go check it out and see what it's about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……在制造悬念呢……有趣，值得调查一下。",
+			say = "There is no question of \"maybe.\" We will have a look-see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们快出发吧，我已经等不及要探索会场了~",
+			say = "Then what are we waiting for? Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

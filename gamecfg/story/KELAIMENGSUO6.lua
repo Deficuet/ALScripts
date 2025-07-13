@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>六　如猎人般智慧</size>",
+					"Veiled in White\n\n<size=45>6 Cats and the Hunter</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "多亏克莱蒙梭的协助，今天也是能在日落前准点下班的一天。",
+			say = "Thanks to Clemenceau, we once again finish work early.",
 			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "突然，在前方的树丛中听到了少女们交谈的声音。",
+			say = "While I'm walking through the woods, I hear girls' voices up ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我说……你们就这样看着，都不打算来帮帮我吗？",
+			say = "C'mon... You're really just gonna stand there and not help me out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯？我听你的声音都激动到颤抖了，还以为你和小猫们玩得挺开心的呢？",
+			say = "Oh, did you need help? You sounded so excited, I thought you were having fun with those kitties.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你……！",
+			say = "Argh...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "{namecode:523}，你先不要动，挂在你身上的小橘猫要掉下去了。",
+			say = "Oh, Jean Bart, don't move. You'll make that poor little tabby fall.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好……",
+			say = "Yeah, yeah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算冒着掉下去的风险也要往身上爬，真是的，这些孩子到底是为什么这么喜欢你呢？",
+			say = "Even when they're about to fall off, they keep trying to climb you... Heehee, these kitties really love you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "可能{namecode:523}对于这群孩子来说就像猫薄荷一样吧？=真是令人羡慕。",
+			say = "You might just be as exciting as catnip to them! Haha, I'm jealous~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我完全不觉得！",
+			say = "Gonna have to disagree there...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "{namecode:523}，能被可爱的动物喜欢可是神赐给你的福音，你应该心怀感激才是哦。",
+			say = "Being loved by cute little animals is a blessing from the Iris. You should be grateful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……姐姐！",
+			say = "Richelieu, please...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "穿过树丛，映入眼帘的是身上爬满了小猫，如同人型猫爬架一般僵硬不动的{namecode:523}。",
+			say = "I follow the voices and find Jean Bart, covered in cats like some kind of cat tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "手拿逗猫棒，看上去饶有兴致的黎塞留。",
+			say = "Richelieu waves a cat toy around next to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "以及站在一旁带着某种“某种目的得逞”的笑容，“冷眼旁观”的克莱蒙梭。",
+			say = "...And Clemenceau looks on from the sidelines with a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "日安，指挥官。",
+			say = "Good day, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！快、快来把这些家伙带走！",
+			say = "Commander! Get over here and get these things off me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "难得没有下班后一起走，结果还是遇到了呢，真是巧啊。",
+			say = "We didn't leave the office together for once, and yet we run into each other again. Heehee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……难得，什么？",
+			say = "\"For once\"...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "咳……指挥官是来散步的么？",
+			say = "Enjoying a stroll, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是随便走走，你们这是在……玩什么惩罚游戏么？",
+			say = "I was just walking around, is all... Anyway, what are you punishing Jean Bart for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "无论怎么看，这都像是游戏结束后的惩罚环节，毕竟{namecode:523}并不擅长应对猫这样的动物。",
+			say = "I can't imagine this is anything but a cruel punishment, especially knowing how bad Jean Bart is with small animals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "怎么会呢~只是黎塞留说想帮忙找回昨天从猫咖中意外跑丢的猫。",
+			say = "Oh, please~ Richelieu simply said that she wanted to search for the lost kitty from the cat café.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "所以我就建议{namecode:523}来一起帮忙了。",
+			say = "We had Jean Bart join in the search.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "托她的福，走失的猫找到了，黎塞留姐姐也度过了一段开心的时光。",
+			say = "Thanks to her help, we found the lost kitty. And we had such a good time in the process...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此。利用{namecode:523}来吸引走失的猫……真是聪明的作战。",
+			say = "So you used Jean Bart's innate characteristics to attract the cat... That's a clever strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "多谢指挥官阁下的夸奖~",
+			say = "Aww, thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过既然猫已经找到了，是不是尽快解救一下{namecode:523}比较好？",
+			say = "But now that you've found it, surely you could release her...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯……我觉得她可以再坚持坚持，让黎塞留姐姐再多开心一会儿吧~",
+			say = "That is true... But I think she has some willpower left in her, so we're going to put her to work to keep Richelieu smiling!♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

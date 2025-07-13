@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔·内环区",
+			say = "Tower of Midgard - Singularity Generator",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "近距离一看这个人工奇异点……造型就像新型抽水马桶一样啊，我们真的要进到里面去么？！",
+			say = "This is how a Singularity looks, eh... Didn't expect it to be this shape, whatever it's called.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听你这么一说，心情突然有点微妙了……",
+			say = "Yeah, what is it called? Can't remember.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "不要用奇怪的比喻啊！",
+			say = "If I'm not mistaken, I think it's a halo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我倒是觉得更像甜甜圈之类的。现在还在发光，就像甜甜圈上的巧克力脆壳一样。",
+			say = "Or a donut, with the shimmering layer being the glaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不不不！不管从哪个角度来看都很像马桶吧——至少也是马桶圈！",
+			say = "Halo! That's the word! And what the heck do you mean \"donut\"?! There's no \"shimmering layer\" either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那只是你的个人兴趣吧，还有为什么会把这两样东西放在一起争论啊……",
+			say = "Adalbert clearly has food on the brain. We just ate, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……因为都是圈？而且都和吃东西有关？",
+			say = "I'm no expert on the names of shapes, but even I can tell ya that ain't no donut.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "停！不要再说了，快停下来！真是的，怎么连{namecode:447}也被卷进这种奇怪的讨论里了……",
+			say = "Let's just put this whole topic to rest. No more talking about food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "因为实在太无聊嘛……米德加尔特之塔启动的好慢啊，明明外面正在激战，我们却只能在这里干等。",
+			say = "Fair. Feels like we should be doin' something besides twiddlin' our thumbs while the others defend the Tower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "启动速度确实比预想中要慢，也许是因为将启动所需的能源部分转移到防御设施上了吧。",
+			say = "Be patient. It's only taking longer than expected because our defensive installations are drawing power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "那不是很不妙吗？我们出去帮忙吧！",
+			say = "That's what I'm sayin'! Shouldn't we be out there helping 'em?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用。这种程度的滞后尚在计划之内。",
+			say = "Stop worrying. Everything is still proceeding as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "之前{namecode:472}应该也同你们说过，她们有她们的任务，我们有我们的。之后我们的探索任务比现在危险的多，需要保留实力。",
+			say = "Helping them would only waste energy and resources. We can't just get a replacement for you after we enter the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "况且，{namecode:470}不可能连这点情况都搞不定，静静等着。",
+			say = "Besides, dispatching those Sirens should be a breeze for someone of Strasser's caliber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 402060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是~",
+			say = "Well... All right, if you say so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

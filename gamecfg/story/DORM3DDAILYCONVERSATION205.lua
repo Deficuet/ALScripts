@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}~有时间的话要不要一起吃个饭啾？",
+			say = "{dorm3d}! If you've got a twittle bit of time, do you wanna tw-eat dinner with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……啊，不、不行，果然我这么说话很奇怪吧？",
+			say = "...No, I can't pull it off. I sound like an oddball when I speak like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,18 +62,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "“流行的可爱说话方式”本身就是不可信的吧……",
+			say = "They say talking like this is \"cute and trendy\" – but it clearly isn't, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "明明就很可爱！",
+					content = "I think it's adorable!",
 					flag = 1
 				},
 				{
-					content = "一点也不奇怪！",
+					content = "You don't sound like an oddball at all.",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欸？{dorm3d}是这么觉得的吗？",
+			say = "Huh? You really think so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那我就继续这么说话了啾……？",
+			say = "Well... Maybe I'll keep chirping like this a twittle longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

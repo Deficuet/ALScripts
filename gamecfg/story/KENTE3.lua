@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"GO！肯特选手！\n\n<size=45>三 感激的心</size>",
+					"Unbridled Positivity\n\n<size=45>Chapter 3 - Feelings of Gratitude!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "今天肯特比往常来要晚。莫非是女仆队的工作太忙了…？",
+			say = "Kent is later than usual today. Maybe she had a lot of maid business to take care of...?",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "――Sorry！指挥官！今天女仆队工作有点多，不小心迟到了！",
+			say = "―Sorry, Commander! I had a lot of maid business to take care of, that’s why I’m late!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "马上给你倒茶――说起来，水壶在哪？记得应该是在柜子上――",
+			say = "I’ll have your tea in a moment― Oh, where’s the kettle? I thought I left it in the cupboard―",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,23 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看着肯特手忙脚乱的样子，赶紧起身对她摇了摇头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "先不用茶水…？唔？“太着急可能会出现奇怪的失误”……？",
+			say = "Seeing Kent scurrying around all flustered, I get up and shake my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +123,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "S,Stop！！挥官真是的…不过，确实没法否认呢……",
+			say = "You don’t want tea...? Hm? I’ll make mistakes when I’m too anxious...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "C-come on! Commander, I... Well, you’re not wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~~吸……呼~~吸……",
+			say = "Inhaaale... Exhaaale...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……OK！嘿嘿，我已经冷静下来啦。",
+			say = "...Okay! Hehe, I’m nice and calm now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,37 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "肯特说完，一边抚着胸口一边坐了下来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "Anyway,Anyway，指挥官已经很了解肯特选手了呀？感觉都被你看透了呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "不如说，还有很多事情想要问肯特——",
+			say = "After finishing her thought, Kent pats at her chest and sits down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说话方式和自称肯特选手的原因…？啊哈哈，原来想问的就这个呀？",
+			say = "Anyway,Anyway, you really know me well, eh, Commander? I feel like you can see right through me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "肯特露出奇妙的笑容，两手握拳， 高举向天花板。",
+			say = "I’d say there are still a lot of things I’d like to ask Kent—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +241,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有――特别的理由哦！",
+			say = "Why do I talk like this? And why do I call myself Contestant Kent...? Ahaha, that’s what you’re wondering about?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Kent flashes a wonderful smile, balls her hands into fists, and raises them to the ceiling.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "For absolutely no particular reason whatsoever!",
 			effects = {
 				{
 					active = true,
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是觉得呢，像这样有精神地和别人说话，听的人也会觉得精神些吧！",
+			say = "I just think that if you put a lot of energy into your words, you’ll get other people excited along with you!",
 			effects = {
 				{
 					active = false,
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然肯特说得似乎轻描淡写，但这里面多少也包含着她对其它人的关怀吧。",
+			say = "She’s downplaying a bit, sure, but her explanation still shows how she cares for the people around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh！对了！机会难得，指挥官也来模仿肯特的口吻，随便说些什么吧！",
+			say = "Oh! How about this! Let’s have you give it a try, Commander! Come out and say something just like I would! Anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "面对突如其来的挑战，多少内心有些动摇，不过——",
+			say = "She rattles me with her sudden challenge, but——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			},
 			options = {
 				{
-					content = "――Thanks，非常感谢。",
+					content = "Thank you, you really mean a lot to me.",
 					flag = 1
 				}
 			}
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…对肯特表达了发自内心的感谢之意。",
+			say = "...I express my heartfelt gratitude to Kent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……！？",
+			say = "......?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到…到此为止！指挥官…你这该说太直接还是…啊，真是的！口都渴了！我去泡红茶！",
+			say = "L-let’s call it a day here! Commander... You, you can’t be so direct with these things... Oh my! I’m thirsty! I’ll make some tea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看着肯特为了遮掩害羞而猛地站起身来的样子，连忙跟着也站了起来。",
+			say = "After watching Kent rocket to her feet and hurry off to hide her embarrassment, I stand up to go after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看她这副样子，要是不注意，大概真的会打破好几个杯子了——",
+			say = "She’s sure to be careless in her heightened emotional state, and all my teaware is in danger—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

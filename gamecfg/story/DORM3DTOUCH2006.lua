@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，我会一直陪着{dorm3d}的，所以……",
+			say = "Yes. I will always be with you, {dorm3d}. Don't worry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

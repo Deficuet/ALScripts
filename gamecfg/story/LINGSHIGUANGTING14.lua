@@ -16,7 +16,7 @@ return {
 			actor = 900233,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "到了，前面的系统是由理事会直接控制的。为了避免暴露，我只能送你们到这里了。",
+			say = "This is as far as I can go. The permanent anchorage is just up ahead.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "前方的建筑就是关押你们女王的设施，记得避开海上的扫描仪。",
+			say = "You'll find Elizabeth in there. Steer clear of the surveillance cameras and you'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "救完人之后你们可以自行选择离开的方式。记住！不要！闹的！太夸张！",
+			say = "Go get her then make a break for it. Don't go messing with stuff, and don't make a damn scene!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化者，好啰嗦……",
+			say = "Not to be rude, but you've been making a scene since we first met you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "还不是你们太让人不省心了！",
+			say = "What was that, you little–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "从刚才开始我这边一直在被呼叫，要组织舰队搜捕刚才引发混乱的恐怖分子！",
+			say = "<Protocol revision. Task \"Mainframe Protection\" has been prioritized over \"Reenactment.\" Immediate action required to preserve branch.>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "所以我现在要去忙了！一会搜捕舰队位置会发给你们，记得避开！",
+			say = "...What? You gotta be shittin' me, Observer! You want me to take THAT thing on by myself?! Ugghh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_7",
-			say = "净化者大方地把后背暴露给皇家舰队，转身离开了，",
+			say = "Purifier suddenly became possessed, and just as suddenly went back to normal. Without saying another word, she turned her back on the shipgirls and ran off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个时候如果对着她开炮的话……",
+			say = "Vanguard, I have a clear shot. Shall I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在不是做那种事的时候，先找到陛下再说。",
+			say = "Hold your fire. She's up to something, but rescuing Her Majesty comes first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

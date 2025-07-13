@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>三 被体贴的指挥官</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 3: Caring for the Commander</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "（指挥室）",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，还剩下科研经费的安排……",
+			say = "Now all that's left is the research and development budget...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打扰了~",
+			say = "Pardon me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呃，特伦托小姐？",
+			say = "Is that Trento?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,24 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:526}少见地面露难色",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 603010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "啊，指挥官，太好了，你在呢",
+			say = "Zara looked uncharacteristically rattled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,37 +135,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "昨天带我去品尝重樱美食的事情，多谢你了呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "我记得只是带她去了那边的食堂而已……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 603010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我说过要答谢指挥官的呢，但是那天吃完之后就一直没找到指挥官",
+			say = "Ah, Commander. Just who I was looking for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +152,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过果然说到指挥官，在工作的时候就一定会在办公室里呢！",
+			say = "I came to thank you for taking me to try that Sakura cuisine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +166,23 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这不是理所当然的吗",
+			say = "Huh? All I recall was showing her to the cafeteria...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 603010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "As I said, I wanted to thank you, but by the time I finished eating, you were nowhere to be found.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +199,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿！",
+			say = "But then it dawned on me: why, during working hours, the Commander would have to be in the command office!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +213,24 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "？！",
+			say = "That certainly was a logical conclusion.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 603010,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "In any case... yay~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +244,21 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "脑袋突然被特伦托埋在了她的胸前。",
+			say = "Hmmff?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Even more startling was when I found my face buried in her voluptuous bosom.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -292,7 +292,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好孩子好孩子，姐姐要好好谢谢你呢！",
+			say = "Good Commander, good Commander, you did great. I'm so proud of you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "唔，头被埋在胸口里，有些喘不过气来了……",
+			say = "I struggled to breathe, smothered by her pillowy chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "特伦托，再怎么说在办公室里做这些也——唔嗯？！",
+			say = "Trento, why is it you feel the need to come to the office and– HMMFF?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:526}也被抱住了",
+			say = "She pulled Zara right in with me.",
 			action = {
 				{
 					type = "shake",
@@ -364,7 +364,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "差点忘了小{namecode:526}也在这里呢。上次龙骑兵交到朋友，也多亏了小{namecode:526}呢！好孩子好孩子~",
+			say = "And how could I forget my sweet little Zara? You helped Carabiniere make friends. You deserve a reward too! Good girl, good girl~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我就走了哦，两位工作也要加油哦！",
+			say = "I should take my leave now. Good luck with work, you two~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（关门声）",
+			say = "Trento closed the door behind her as she left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉……特伦托小姐还是一如既往地乱来呢。而且我只是是帮龙骑兵她挑衣服而已，交到新朋友是她自己努力的成果",
+			say = "She just comes and goes like a storm, that girl... I really have a hard time dealing with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "连平时游刃有余的{namecode:526}都感到头疼的人物，真要相处起来的话我应该也会比较难应付吧",
+			say = "If she was able to even shake Zara up like this, perhaps I should be careful around her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，还沉浸在特伦托小姐的温暖中吗？我也想体验下她的心情呢",
+			say = "Commander, you seemed to be pretty happy cozying up to Trento earlier. Maybe you'd like to give mine a try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……嗯？",
+			say = "Hmmmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼……",
+			say = "Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "！(这是今天第二次“感受温暖”了)",
+			say = "Despite being the second time today, I was no less startled to be once again be drowning in softness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官的脸真红啊。我的和特伦托姐的，指挥官觉得哪个更好呢？",
+			say = "You're beet red, Commander! Now, mine or Trento's, which did you like better?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "这究竟是天堂，还是地狱？",
+			say = "I couldn't be sure if I was in heaven, or in hell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

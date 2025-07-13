@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "通过与{namecode:182}的交谈，可以认定她也是在毫不知情的情况下被卷入了这场塞壬的实验。",
+			say = "I learned from Shinano that she drifts between possible realities in the form of \"dreams,\" and has a limited ability to \"project\" herself into reality.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
@@ -44,7 +44,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然她本人坚持称这是一场“梦”，并有一套自己的解释逻辑……",
+			say = "Her words were certainly hard to believe, and her unique vocabulary only compounded that problem. With the help of Archerfish's \"translations,\" however, I gradually started to make some sense of what she was saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过{namecode:182}本人似乎的确不可能出现在AF附近，难道她拥有不可思议力量的传闻是真的……",
+			say = "However, she was often a bystander in her own dreams, powerless to actually change anything in reality...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "哎？！在重樱那里棒球也很流行么？",
+			say = "Shinano, girl, you'd definitely benefit from some exercise and Vitamin D. Trust me, if you spend all day in bed, your muscles definitely will tell you that you're powerless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "据妾身所知，人气异常，赛事也数量繁多。",
+			say = "Mm... My consciousness may travel between realities... but my actual body is unable to move...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "太酷了……有机会的话去重樱打一圈比赛也不错啊~！",
+			say = "Translator? Where you at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "那{namecode:182}你也会去打棒球么？",
+			say = "Hmm... I guess she has significant downsides to her abilities. Like being able to see a bunch of dreams but not able to influence any of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "妾身的话……因为身份所限，还未尝试过呢。",
+			say = "I apologize... Again and again, the endless cycles consume my consciousness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "身份……你们重樱净在奇怪的地方纠结……运动可是能够超越国界和身份的哦！",
+			say = "You'll get nowhere if you allow yourself to get stuck on every little thing though, right? Even if your power's also a bit of a curse, you've already made it this far!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呵呵……说的也是。有机会的话，妾身也试一试好了。",
+			say = "That... may well be the case... Thank you for your advice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "说起来，如果妾身没认错的话，汝应该是……{namecode:196}？",
+			say = "Yet I have tried to change my fate before... Time and time again, it fails to bear any fruit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回答正确~咦？我们在哪里见过么？",
+			say = "That's no reason to get depressed! When life knocks you down, you have to keep getting back up! I can tell that you'll be able to overcome your situation, little by little!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "秘密。",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "从刚才开始就感觉和你这个人说话真难受哎…………",
+			say = "S-sorry, I'm not trying to lecture you or anything... I'm usually not the kind of girl you'd want to take advice from anyway~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呼呼~道可道非常道。此时此刻，如此便好。",
+			say = "No, I appreciate your honesty. Your words carry truth within them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "…………反而变本加厉了！？！",
+			say = "Hehe, Albacore would probably be bullying the heck out of you if she was here! I dunno what it is, but I feel like I have some kind of special connection with you~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这般友好交流的景象……仿佛令人回到了曾经各阵营同在碧蓝航线的旗帜下并肩作战的时光。",
+			say = "Seeing the two of them talk so frankly filled my heart with warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 307040,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "……抱歉，联络迟了。",
+			say = "\"Sorry for the delay since my last report. This is Hiryuu.\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "换弹工作，没有来得及完成…………航空舰队在更换工作进行中遭到了白鹰舰队的俯冲轰炸。",
+			say = "\"While we were changing equipment, our carrier force was ambushed by the Eagle Union. Akagi, Kaga, and Souryuu have all been...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "{namecode:91}大人，{namecode:92}大人以及{namecode:93}均出现损伤，但是我依然可以全力战斗！",
+			say = "\"I am still standing though. I will now begin the counterattack.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "我在此申请后续攻击命令，{namecode:94}将会独自对白鹰航空编队发起反击！",
+			say = "\"I will avenge my comrades!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "不好……这样发展下去的话约克城就会……！",
+			say = "Commander! The Sakura Empire Pawns are moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "不要发动反击，立刻撤退！",
+			say = "Are we in danger here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "为什么？！我不能理解，请解释一下这条命令的合理性。",
+			say = "\"But... Why did you give me those orders...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "因、因为……额…………只有现在撤退才……能……（指挥官快救我>_<！）",
+			say = "Commander, what do I say? Our cover's gonna get blown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:94}，冷静下来观察局势。只要在损伤进一步扩大之前让舰队撤离战场，一切还来得及。",
+			say = "Through the dense fog outside the porthole, the flash of lights could be seen in the night sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,25 +514,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "立刻将全部战斗机升空，掩护航空编队撤离。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffff4d",
-			actor = 307040,
-			say = "……是要我们承认作战失败然后逃跑的意思么？！",
+			say = "I knew it was a bad idea for San Francisco to stick her head into an in-progress Reenactment, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,22 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "白鹰的舰载机也在撕扯中损失惨重！只要趁现在发动袭击，一定能取得有效战果的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
-			dir = 1,
-			say = "但是代价呢？整个航空编队会因此错过最佳撤退时机，从而落到无可挽回的局面。",
+			say = "\"Why... Am I supposed to flee with my tail between my legs...? Why...?!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +550,22 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "如果保持现在的状态撤退才是真正无可挽回的局面！",
+			say = "[Adjusting Reenactment parameters. Lifting maximum combat power of the Sakura Empire fleet. Conditions for defeating Aircraft Carrier \"YORKTOWN\" now met——]",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_1100",
+			hidePaintObj = true,
+			dir = 1,
+			say = "Wait, what? The Pawns are scaling their combat power autonomously...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +583,25 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "这样回去的话……重樱海军只会沦为世间的笑柄啊！",
+			say = "[After modulation, change production capabilities to match new specifications.]",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#ffff4d",
+			actor = 307040,
+			say = "[Resetting and reinitializing Reenactment.]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "…………放弃吧，汝等的努力皆为徒劳。",
+			say = "So tragic... These lost souls... Doomed to suffer and burn in the flames of the past for all of eternity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "为什么？！这种时候果断撤退保存实力才是最好的选择吧，你难道看不出来么？！",
+			say = "Shinano... Is there no way to stop them...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "妾身的看法无关紧要。",
+			say = "This one cannot even break free of her own fetters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "诚然，倘若就此撤退，一航战便不会卷入圣域之事，与五航战的关系也能缓和许多，很多事情也许就会改变了吧。",
+			say = "(The Mirror Sea is nothing more than a Siren research facility, and the \"Pawns\" here are but puppets...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "但有因即有果。已发生之因引来已发生之果。未发生之因引来未发生之果。孰优孰劣岂可臆断？",
+			say = "(Each \"Pawn\" is carved from the history that gives us form, but torn from the cycle of causation... They are suspended only within the past...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "更何况……此处仅为镜中花、水中月。对于身为过客的吾等来说，一切皆已注定。",
+			say = "(Akagi must have known this... How much of our past is now serving as fuel for the Sirens...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "如若并非梦境，而是现实之中的话，汝等真以为仅凭此等蹩脚演技混在重樱指挥系统之中能不被揭穿么？",
+			say = "Involution... a spiral that wrings out all hope from our past to serve as weapons of war... An experiment I am powerless to stop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的意思是指，这里只是设定好内容的棋盘……无论我们发出什么命令都不会改变已经决定好的走向么？",
+			say = "Do we have no choice but to let this cruel cycle play out to its end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "一切均会与汝等当年所见之景相同。",
+			say = "Indeed... It is the fate that has been inscribed within our hulls long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,31 +816,31 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>指挥官……AF作战也请让我参加吧……！</size>",
+					"\"Enterprise, Hornet, please don't worry about me.\"",
 					1
 				},
 				{
-					"<size=51>重樱一定坚信我们只有两艘航空母舰能够投入作战，如果我能参加的话……</size>",
+					"\"Even if the two of you come, we would still be heavily outnumbered, and victory still be unlikely.\"",
 					2
 				},
 				{
-					"<size=51>呼呼，一点小伤而已……指挥官不用担心。</size>",
+					"\"Don't worry... The two of you have hit me harder during our training sessions...\"",
 					3
 				},
 				{
-					"<size=51>如果这次作战失败，就没什么后方可言了哦。</size>",
+					"\"Besides, Enterprise, didn't you used to say that you'll never be able to win if you're always scared of death?\"",
 					4
 				},
 				{
-					"<size=51>…………三天，只要三天我就能恢复到正常作战的状态。</size>",
+					"\"Hehe... I always thought that was a bit morbid, but we'll both need to make it back if you want to rub it in my face.\"",
 					5
 				},
 				{
-					"<size=51>……指挥官，珊瑚海是一次精彩的战斗，相信列克星敦小姐也是这么认为的。</size>",
+					"\"Give me three days, just three days and I'll show you how tough I am.\"",
 					6
 				},
 				{
-					"<size=51>……所以，你不打起精神来可不行啊，接下来的战斗大家还要依靠你呢。</size>",
+					"\"Because I cherish the two of you, my precious little sisters, I have to keep you safe.\"",
 					7
 				}
 			}
@@ -867,23 +867,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>……嗯？指挥官还有什么事么？</size>",
+					"\"What's the matter? You look just like Hammann with that pout on your face.\"",
 					1
 				},
 				{
-					"<size=51>一路上紧急维修都没有停止，我现在真的已经完全没有问题了。</size>",
+					"\"Are you still worried about me? I told you, I'm doing just fine~\"",
 					2
 				},
 				{
-					"<size=51>比起我，你还有更需要担心的事吧。</size>",
+					"\"Hehe~ Besides, aren't there more pressing issues for you to be worried about?\"",
 					3
 				},
 				{
-					"<size=51>哎~就算职务提升了，风格还是没有变嘛。</size>",
+					"\"That's right, you can't spend your entire life on the front lines.\"",
 					4
 				},
 				{
-					"<size=51>今后像这样无法亲临前线的时候会越来越多，还是尽早习惯比较好哦。</size>",
+					"\"As the hero leading everyone forward, you sometimes have to stay in the back to help give others a little push~\"",
 					5
 				}
 			}
@@ -909,23 +909,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>舰载机队正在做最后的起飞准备，即将出发搜寻重樱航空编队的位置。</size>",
+					"\"Aircraft launched. I'm going to scout out the enemy's carrier task force.\"",
 					1
 				},
 				{
-					"<size=51>重樱会有多吃惊我才不在乎，我在乎的只有取得胜利而已！</size>",
+					"\"We'll be at a disadvantage in a shelling battle... I have to do something to give us the advantage from the air.\"",
 					2
 				},
 				{
-					"<size=51>哼哼~这是一场属于空中的对决，可能等不到进行炮击战的时候战斗就结束了哦~</size>",
+					"\"The enemy thinks that they've pulled one over us by attacking AF... But that overconfidence will be their downfall.\"",
 					3
 				},
 				{
-					"<size=51>虽然尚未发现重樱主力舰队，不过总之，这支航空编队就由我们约克城级三姐妹收下了~</size>",
+					".........",
 					4
 				},
 				{
-					"<size=51>指挥官就在远方静静等待我们胜利的消息吧~！</size>",
+					"\"This... is a battle I cannot afford to lose.\"",
 					5
 				}
 			}

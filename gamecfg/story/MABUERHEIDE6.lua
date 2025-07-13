@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>六　夕阳下的真心话</size>",
+					"Light Up My Day\n\n<size=45>6 Sunlit Backstory</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "在港区内闲逛了一会后，与马布尔黑德来到后山。不知不觉，时间已经来到了傍晚。",
+			say = "Marblehead and I continued our stroll around the port until we noticed the sun had begun to set. We made way to higher ground to watch it.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论什么时候看，港区的景色都是这么美啊——",
+			say = "Man, I'll never tire of seeing the sun set.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我最喜欢从这里看到的港区了。指挥官也是吧？",
+			say = "Especially here, where the view's just stunning. Am I right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这是在看哪儿呢——啊，你注意到我胸前的照片了？",
+			say = "...My eyes are up here, y'know. Or are you just curious 'bout this photo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "马布尔黑德将外套胸前的照片递了过来。",
+			say = "The photograph attached to her uniform by a clip had caught my eye. She took it off and showed it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我其实本来是个很不起眼的人。刚才对贝壳那么详细的说明也是因为我过去性格的残留吧。",
+			say = "This is me. Used to be me, anyway. I was a lame, nerdy girl who stuffed her head with useless knowledge, like that pink noise stuff. Kinda just slipped out of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然！比起以前，现在的我才是真正的我。我可完全没有想要回到过去的打算哦？",
+			say = "Anyway, I'm happy with the way I am now. I don't wanna go back to the old me, not at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为――――要是那样的话，我肯定不会像现在这样跟指挥官约会啦――！",
+			say = "I mean, like, old me wouldn't have the courage to go on a date with you! Not in a million years!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "夕阳映照着她的表情，那是比之前看到的任何表情都要可爱的笑容——",
+			say = "Then, she flashed a smile at me. The cutest smile I'd ever seen, enhanced by the glow of the setting sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？难道刚刚你看呆了吗？",
+			say = "Wow, you look captivated~ Really dig my smile, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "生活不光是学习和工作——这是我从现在的自己这里学到的。",
+			say = "Listen, Commander, I'd be happy to hang out with you anytime you've got too much work on your plate and need a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，今后要是工作上遇到困难的话，就约我出来好好玩一场吧~",
+			say = "You can't devote your whole life to work or studies or whatever, it'd be a total crap life. I'd know, trust me. Promise you'll give me a call sometime?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,23 +243,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_twilight",
 			dir = 1,
-			say = "伸出小指，与马布尔黑德拉勾约定。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯，这样就约好啦☆",
+			say = "She extended her pinky towards me. I obliged and hooked mine around hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +259,23 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天玩得很开心！指挥官接下来的工作加油哦~",
+			say = "Good! This pinky promise is like, legally binding, yeah? Hehe~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "bg_main_twilight",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Today was a boatload of fun! Let's do it again sometime! Now, if you don't mind, I've gotta head off and complete some missions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果再陷入烦恼中的话……下次玩一些更开心怎么样~？",
+			say = "Looking forward to hanging out with you again soon, Commander! Buh-bye for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

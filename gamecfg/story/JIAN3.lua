@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"指挥官，该动筷了！\n\n<size=45>三　制作美食的方法！</size>",
+					"Commander, It's Time to Eat!\n\n<size=45>3 How to Make Tasty Food!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "温热的触感自身下传来，耳畔是急切又略带愧疚的呼唤。",
+			say = "A warm feeling cradles the back of my head, and a panicked and guilty voice reaches my ears.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Hmm...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "再度睁开眼时，映入眼中的便是济安放大的面庞。",
+			say = "When I open my eyes, I see Chi An's face right in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,18 +70,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "而我正被她揽在怀中，枕在她的双腿上。",
+			say = "My head seems to be lying in her lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备起身",
+					content = "(Get up.)",
 					flag = 1
 				},
 				{
-					content = "继续躺着",
+					content = "(Stay still.)",
 					flag = 2
 				}
 			}
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "意识到自己现在所处的位置后，我便准备起身。",
+			say = "Understanding the situation, I try to sit up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "然而仅是稍稍有所动作，便被济安略显强硬地按了回去。",
+			say = "But when I move even a little, she pulls me back to my previous position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "刚想起身，太阳穴传来的疼痛便阻止了我的意图。",
+			say = "Before I can try to sit up, pain shoots through my temples, forcing me back down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "哎呀，您才刚刚醒过来……就先别动，再躺着休息一下吧。",
+			say = "Aww, you just woke up. Why not stay a little while?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "您刚才无缘无故地晕倒，我吓了一跳呢。",
+			say = "You just collapsed out of nowhere. It scared me so badly, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Oh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "简单的思考过后，我决定选择一个不伤害济安自尊心的说法。",
+			say = "I think for a moment, carefully picking words that won't hurt her feelings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可能是之前疲劳过度导致的……不过不要紧，我现在已经好了。",
+			say = "I think I was just too tired. I'm fine now, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，不过就是不知道姐姐我特制的美食有没有抚慰到您……",
+			say = "I'm glad, but I just hope my special recipe served as some kind of comfort for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "在您晕倒之后，虎贲她们就冲了进来把东西全都扔掉了呜呜……",
+			say = "Right after it happened, my sisters rushed in and threw away all of my food. *sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "听到济安的话后，我顺势起身，打量了一下四周。",
+			say = "Upon hearing that, I quickly sit up and look around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "先前济安端出的那些让人“印象深刻”食物早已不知所踪。",
+			say = "The... \"striking\" food that she'd served me was all gone, as if it had never been there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "此刻，清新的空气赶走了厨房内原本的浑浊烟气。",
+			say = "Fresh air filled the kitchen, leaving no traces of the turbid odor from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,19 +250,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "被重新打理的一尘不染的操作台上，摆放上了新鲜时蔬。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_606",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "原来是这样。",
+			say = "The kitchen table is spotless again, with fresh veggies neatly organized on plates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +262,19 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抚慰效果么……倒是起了，确实是冲击性的“美味”。",
+			say = "I see.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_606",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Did it soothe me? I think so. In a way, it was shockingly delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "呼……那就好。那之后姐姐我也经常为您下厨吧！",
+			say = "Phew... I'm so happy to hear that! I'll cook for you often from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等。",
+			say = "Hold it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在正好有机会，能让我观摩一下你下厨的过程么？正好食材也是现成的。",
+			say = "Now is the perfect opportunity. Can I watch you cook? We already have all the ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然还是从源头找出问题所在比较好。）",
+			say = "(I seriously need to figure out how the hell this is happening.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "可是，虎贲她们清理厨房的时候说龙武快回来了……",
+			say = "But after they cleaned the kitchen, they said Lung Wu would be back soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，龙武那边我来出面说明就好。你就向我展示一下吧。",
+			say = "It's okay. I'll explain everything to her. You just show me your skills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "既然您都这么说了……就让您见识一下我的手艺吧~",
+			say = "If you say so... I would be happy to~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就请您站在我身后来？",
+			say = "Stand behind me, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "毕竟，我从龙武那里学到的——厨房，可是像战场一样危险呢~！",
+			say = "Lung Wu taught me that the kitchen is as dangerous as a battlefield!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "人脑有一种保护措施叫做“动机性遗忘”。",
+			say = "The human brain has a defensive feature called motivated forgetting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "大抵正是如此，我才将济安展示厨艺的过程遗忘的七七八八。",
+			say = "No doubt that's what led to me forgetting everything I saw after that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "万幸的是这次厨房并没有遭受什么毁灭性的破坏，只是——",
+			say = "Fortunately, the kitchen wasn't utterly destroyed by her acts. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "欸……？锅里的菜为什么会消失呢……？爆炒难道不就是要猛火么？",
+			say = "Huh? Why did the food in my pan just disappear? Isn't stir-frying supposed to be done on high heat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "怎么全都烧没了呀……呜呜……",
+			say = "Why did it all burn away? Oh, no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（济安的厨艺恐怕只有一样样专项指导才能有起色。）",
+			say = "(I have no other choice. Someone needs to teach her how to cook, step by step.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（龙武她们应该已经彻底放弃了这件事，但让其他阵营的同伴来也不大合适。）",
+			say = "(Her sisters seem to have given up on her entirely, and it's not really appropriate for the girls from other factions to help either.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样下去，她不能进厨房，也自然就没有好好磨炼厨艺的机会……）",
+			say = "(At this rate, she'll never be able to enter the kitchen and naturally won't have the chance to properly hone her skills...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……济安，针对你的厨艺，我正好有些想法。",
+			say = "Hmm... I think I have an idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "欸？什么想法~？",
+			say = "Oh? What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要来一场，以让你至少拥有随时随地进入厨房的权力为目的的——厨艺特训？",
+			say = "We're going to have cooking drills until you're good enough to go into the kitchen on your own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厨艺特训？",
+			say = "Cooking drills?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

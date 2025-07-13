@@ -15,7 +15,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——「御狐哮天，起舞于天原。」",
+			say = "O thundering fox, prance betwixt the spirit-realms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "咳……不过是临时性的META化，你怎么会拥有这种力量……",
+			actorName = "False Amagi",
+			say = "Gah! How?! How does a mere temporary META possess such power?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "汝已经失败了，知道也无用。",
+			say = "The loser deserves not the knowledge of the winner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "不过余可以告诉另你一件事——复活{namecode:161:天城}之事并非不可能，{playername}阁下已经正在做了。",
+			say = "All I will tell you is this – Amagi will be revived. Not by you, but by {playername}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "余之所以追汝来此，就是因为汝占用了「{namecode:161:天城}」之概念，是其真正复活的阻碍。",
+			say = "You taking her concept and pretending to be her has only delayed her revival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,8 +150,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "…………",
+			actorName = "False Amagi",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "……呵，真是一派胡言。",
+			actorName = "False Amagi",
+			say = "What nonsense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "这种事能否做到，难道我还不清楚么？",
+			actorName = "False Amagi",
+			say = "I know better than anyone else that it's not as simple as you make it sound!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "——有破绽！",
+			say = "You're wide open!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "{namecode:71:比叡}？！汝怎么会在此处？",
+			say = "Hiei?! Is that really you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "而且汝现在的状态……",
+			say = "What happened to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "我没事的，{namecode:74:长门}大人，先解决敌人再说！",
+			say = "I'm fine, Milady! Let us concentrate on defeating her first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "好，就用接下来的一击结束战斗吧！",
+			say = "Aye. This next blow shall end this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "等等，情况有些不对。",
+			say = "Wait, Lady Nagato! Something isn't right with her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……我能感受到伪物正在消散，「{namecode:161:天城}」的概念已经不再被占用了。",
+			say = "Her concept... it's changing. She has ceased to be Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "但是……我们的敌人，依然存在。",
+			say = "So why... is she still here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,9 +378,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			nameColor = "#FF9B93",
-			say = "呵呵……呵呵呵……",
+			say = "Hehehe... Hahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,9 +397,9 @@ return {
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			side = 2,
-			say = "让我以执念原本的形式面对你们，好啊？",
+			say = "You want to face the root of this obsession, do you?",
 			bgm = "theme-akagi-meta",
 			typewriter = {
 				speed = 0.05,
@@ -429,9 +429,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "我来了。",
+			say = "Fine! Let me grant your wish, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,9 +443,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "如此，你们可满意了么？",
+			say = "How's this? Are you happy now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "竟然是依靠神石海若……将自身的执念直接转化为了META化……实体……？",
+			say = "Did... Did she use the Watatsumi to manifest her own concept?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "嚯……令人大开眼界。",
+			say = "I've never seen such a sight before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "等等……汝身旁的两个幻影是……",
+			say = "Those phantoms beside you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "{namecode:161:天城}的残魂与{namecode:92:加贺}的灵魂……全都在汝身上！？",
+			say = "No... You have both what remains of Amagi's soul AND Kaga's soul!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,9 +518,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "……呵，感谢你们无数次地重复那个我早就已经知道的现实。",
+			say = "Heehee. What are you on about now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,8 +532,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			side = 2,
-			actorName = "{namecode:91}·META",
-			say = "——姐姐已经死了。",
+			actorName = "Akagi META",
+			say = "Amagi is gone. My sister is gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,9 +545,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "是的，姐姐已经死了。那为什么你们还活着？",
+			say = "She is never coming back, so why are you still alive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "……你这是什么逻辑？",
+			say = "Huh? What kind of leap of logic is that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "算了{namecode:71:比叡}，和执念的化形没什么好说的。",
+			say = "Waste no time trying to understand an embodiment of obsession, Hiei.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,9 +587,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "呵呵呵呵……既然世上已经没有姐姐的存在了，那你们就都去那个世界陪她吧！",
+			say = "Heehee... Amagi is no longer in this world, so I'll graciously send all of you to the next!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,9 +606,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "而后——我也会去的。",
+			say = "Once that is done... I'll join you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,9 +620,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "如此一来，亦是圆满。",
+			say = "Then everything will be as it should.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,9 +634,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FFC960",
-			say = "啊哈哈哈哈哈哈哈哈哈——",
+			say = "Hahahaha! AHAHAHAHAHA!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

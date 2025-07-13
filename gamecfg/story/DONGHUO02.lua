@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是神秘信号所指示的海域吗……看样子我们还是来迟了一步",
+			say = "This is the area indicated by that mysterious signal... Seems like we were too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "真是过分啊，已经完全化作一片废墟了",
+			say = "How terrible. Everything's been reduced to rubble.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是什么人……居然能把塞壬的实验场摧毁成这样…",
+			say = "Who exactly... has the capacity to wipe out a Mirror Sea, the Sirens' testing grounds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会不会是之前“新生重樱联合”的那些家伙们干的？",
+			say = "You reckon the Sakura Empire's \"Reborn Combined Fleet\" is behind this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "从破坏的痕迹来看——不像是重樱或者皇家的武器…倒不如说…更像是我们的火力所造成的",
+			say = "Doubt it. The traces left behind point to the Eagle Union's own weapons rather than anything from the Sakura Empire or Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！！真是一头雾水！！",
+			say = "Damn it! What the hell's the meaning of this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过算了，不管怎样，省下了和敌人折腾的时间，还真是得好好感谢下这位“神秘人”先生了",
+			say = "...Well, whoever it is, they spared us the trouble of having to mop up the enemy ourselves. I'll make sure to buy 'em a drink if we ever get a chance to meet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先四处探索一下，看有没可收集的情报吧——",
+			say = "In any case, let's take a look around and see if we can gather any useful intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

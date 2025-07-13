@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此，这就是让龙神大人变得更强的方式啊。",
+			say = "Aha, so this is how you make me stronger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 399060,
 			dir = 1,
-			say = "不过呢，我的力量增强之后，指挥官所需要献上的贡品也需要加倍哦。",
+			say = "However, because my power grows, it's only natural that your offerings to the Dragon God double as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 399060,
 			dir = 1,
-			say = "实现愿望当然是要付出代价的——这一点，指挥官应该很清楚的吧？",
+			say = "To receive, you have to give. Surely you understand this principle, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 399060,
 			dir = 1,
-			say = "也就是说……今后献给龙神大人的零食种类和数量都要越多、越好才行哦！",
+			say = "What I'm saying is... Offer the Dragon God more snacks, and make the contents of the snacks better!",
 			painting = {
 				alpha = 0.3,
 				time = 1

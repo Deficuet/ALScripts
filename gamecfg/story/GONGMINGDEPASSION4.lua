@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间前——",
+			say = "Sometime before the announcement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "上一次我记得是由皇家提供了赞助，那……不如干脆就按照阵营轮流来提供好了？",
+			say = "The Royal Navy sponsored the last test, and I think we could try a rotation system with a different faction sponsoring it each time from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我没意见。",
+			say = "No objections here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次的赞助干脆就交给我们撒丁帝国吧！",
+			say = "In fact, I propose that Sardegna be the sponsor this time around!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "可是……如果按照这种阵营轮流提供赞助的方式来，不知道多久才能全部轮换完。",
+			say = "Aye, 'tis a good idea... but it'll be a long, long while before everyone has had their turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "那不如这次由各家联合赞助？配合这次规则的改变，把舞台和Live做得更加声势浩大一些。",
+			say = "In that case, how about every faction chips in for now? We've already changed the rules, and the extra funds would allow us to construct a spectacular stage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "倒是个好主意。",
+			say = "Good idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯~之后其它阵营方面就由我去传讯通知吧。",
+			say = "Then we have a plan. I'll notify all the faction leaders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞助方的事姑且算是定下来了，我们来讨论一下奖品要提供什么吧？",
+			say = "I suppose that settles the sponsor question. What shall be done about the prize, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "奖品啊……你们有什么主意么？",
+			say = "Prize, prize... Does anyone have any ideas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我觉得，不如把奖品设置成“最终胜出者可以让主办方实现一个愿望”这种。",
+			say = "I think letting the winners choose for themselves makes the most sense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "把选择权交给对方——这种形式也更合理一些。",
+			say = "In practice, that means something like... letting them make a wish, perhaps?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我同意马可·波罗阁下的提议。",
+			say = "I like that. I support this idea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果大奖是指定的、某种物质上的奖励，应该很难满足所有人的诉求。",
+			say = "A predetermined prize, no matter what it is, won't please everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "但是由获胜者自己许愿的话，就不会存在这种矛盾了哦~",
+			say = "Letting the victors decide for themselves has universal appeal and gives us more flexibility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "确实。而且这样由各方联合赞助，奖品的预算也可以被拔高。",
+			say = "Agreed. The increased budget has room for even lavish wishes, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们有两个大组，只满足第一名的愿望的话，第二名要怎么办？",
+			say = "Hang on. Letting the winning team wish for anything is good and all, but what about the losing team?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "就从奖品预算上做区别吧！很简单的！",
+			say = "What remains of the budget can dictate what they'll get. Simple.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……那之后针对奖品预算方面的内容清单，就由{namecode:98:明石}出具一份吧。",
+			say = "Fair enough. Akashi, I'll leave the budgeting in your capable hands... or paws.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和预算有关的内容就放心交给{namecode:98:明石}吧喵~！",
+			say = "You got it, nya! I'll make the most of every last penny, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "话说回来，本次的赞助方该怎么署名？直接写由各阵营联合赞助么？",
+			say = "Oh, one more thing – what do we formally call this joint sponsorship? Do we just say \"sponsored by all factions\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "各阵营联合赞助，等于是集合了港区所有的力量……也就等于是指挥官你在进行赞助……",
+			say = "Think of it this way: a joint sponsorship is the product of all factions coming together. Who unites all the factions? You, Commander. You are the sponsor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，署名就署指挥官你的名字吧？",
+			say = "If nothing else, \"the Commander\" rolls off the tongue a lot better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下，总感觉中间缺少了一环逻辑……",
+			say = "What? I think you're making a leap of logic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯？听下来没有什么问题哦~指挥官也不用有所顾虑。",
+			say = "You think so? Sounds perfectly fine to me. You should just accept the honor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没错喵，指挥官快点签字吧喵~！",
+			say = "Exactly, nya. Now put your signature here, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "之后，在众人的包围下签署了相关的所有文件。",
+			say = "I shrug and go with the flow, signing all the relevant paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "港区·港口",
+			say = "Port - Dock",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "现在——",
+			say = "Back to the present...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "在{namecode:98:明石}宣布赞助方后，港口的气氛突然变得空前热烈。",
+			say = "A wave of enthusiasm swept through the port practically the minute Akashi announced who the sponsor was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403080,
-			say = "啊……由指挥官来实现一个愿望……原来有了这样的奖品啊……",
+			say = "Ahh... The Commander will make the winners' wishes come true. What a fabulous prize...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202280,
-			say = "能让主人满足黛朵一个愿望……不不不，黛朵不应该产生这样的想法，可是……",
+			say = "When I win, I'm going to wish for... No, no, no! It's wrong of me to think this way! But at the same time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206035,
-			say = "为了得到哥哥的奖励……独角兽也要加油……",
+			say = "I'd really like that wish... I can't afford to hold anything back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "等、等一下？从宣布奖励开始，这里的氛围可畏已经搞不懂了啊？",
+			say = "Ladies, please! It's lovely that you're enthusiastic and all, but aren't you getting a little ahead of yourselves?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "还是先回去练习比较好吧……",
+			say = "If we want to win, we're going to need a lot of practice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "你们不觉得现在才有“对抗赛”的氛围么？越激烈越好~",
+			say = "What's wrong with them being so fired up? The more competitive they get, the better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~哈~大家……因为指挥官而变得情绪高涨了……",
+			say = "Huff... Puff... Hearing about this reward has really turbocharged them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "很好~看来我们招募成员应该会很顺利~！",
+			say = "It's gonna be easy peasy to recruit members now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "但愿如此吧……",
+			say = "Let's hope so...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在本章战斗中，可以使用\n「支援舰队」功能",
+				text = "You may assemble a Support Fleet to sortie to this stage!",
 				mode = 1,
 				posY = 214,
 				dir = 1,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在「支援舰队」栏位中设置需要编入支援舰队的角色吧",
+				text = "Tap the \"Support\" slot to configure this fleet.",
 				mode = 1,
 				posY = 3,
 				dir = 1,
@@ -30,7 +30,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "选择任意一名角色编入「支援舰队」",
+				text = "Now, choose a ship to add to this fleet!",
 				mode = 1,
 				posY = 289.2,
 				dir = -1,
@@ -44,7 +44,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击确认",
+				text = "Confirm",
 				mode = 1,
 				posY = -134,
 				dir = 1,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "有关支援舰队的机制说明可以随时在本界面点击问号查看哦",
+				text = "Tap the Help button (?) to see more information about special mechanisms in effect on this map!",
 				mode = 1,
 				posY = 93.5,
 				dir = 1,

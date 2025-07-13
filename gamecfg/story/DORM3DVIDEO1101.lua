@@ -5,12 +5,12 @@ return {
 	label = "dorm3d_VIDEO_CHAT_LABEL",
 	scripts = {
 		{
-			say = "感应到Honey正在想我，所以我瞅准时机打来电话了~",
+			say = "I felt your intense yearning from afar, so I called you just in time!",
 			wait = 2,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone49",
 			options = {
 				{
-					content = "听起来更像是你突然想起我了。",
+					content = "It sounds more like you were the yearner.",
 					flag = 1
 				}
 			},
@@ -44,32 +44,32 @@ return {
 			}
 		},
 		{
-			say = "听起来不赖，不过Honey你就得接收我的通讯轰炸了~",
+			say = "If I was, you'd be getting TONS of spam calls and texts from me.",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone50"
 		},
 		{
-			say = "好了，开玩笑的~虽然是开玩笑，不过想你也是真的哦~♪",
+			say = "Pssh, I'm kidding. But it is true that I'm yearning for you!",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone51"
 		},
 		{
-			say = "提醒你别忘记晚上的约会，才是我这通电话的主要目的呢。",
+			say = "Anyway, the real reason I'm calling you is to remind you about our date tonight.",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone52"
 		},
 		{
-			say = "Honey你对行程安排有想法吗？或者说……更期待我专门为你准备的惊喜呢？",
+			say = "Do you have any plans in store? Or... should I presume that you're looking forward to my plans?",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone53"
 		},
 		{
-			say = "不过，这种放纵的事情，可不能在通讯里说明哦……♡",
+			say = "Oh, but maybe we should talk about \"indulgences\" in person, hmm?♡",
 			wait = 2,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone54",
 			options = {
 				{
-					content = "放纵……是指？。",
+					content = "Indulgences, as in...?",
 					flag = 1
 				}
 			},
@@ -103,22 +103,22 @@ return {
 			}
 		},
 		{
-			say = "当然是……做些会让我们都很开心的事情~♡",
+			say = "Something that's tons of fun for both of us, of course...♡",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone55"
 		},
 		{
-			say = "Honey靠过来一点！乖~这个距离还不够近，再过来一些~",
+			say = "Honey, come a little closer. Just come here... Yeah, good.",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone56"
 		},
 		{
-			say = "能…听…到…吗？",
+			say = "Can... you... hear... me?",
 			wait = 2,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone57",
 			options = {
 				{
-					content = "能听到，不过为什么要压低声音说话……？",
+					content = "I can, but why are we whispering?",
 					flag = 1
 				}
 			},
@@ -152,37 +152,37 @@ return {
 			}
 		},
 		{
-			say = "那当然是因为这样比较有氛围啦~！",
+			say = "Because it suits the vibe better, duh!",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone58"
 		},
 		{
-			say = "想象一下……就我们两个人紧紧靠在一起……",
+			say = "Just imagine... You and I, skin against skin...",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone59"
 		},
 		{
-			say = "在最适合感受到彼此体温的距离下……",
+			say = "So close that we feel each other's warmth...",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone60"
 		},
 		{
-			say = "让我喂你吃那些我准备好的冰淇淋~",
+			say = "Me feeding you the ice cream I made...",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone61"
 		},
 		{
-			say = "看着你投入地、愉悦地……融化在冰淇淋甜腻轻盈的味道中~",
+			say = "Watching you go wild over its sweet, refreshing flavor...",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone62"
 		},
 		{
-			say = "是不是听起来就很幸福~？",
+			say = "Doesn't the thought of it fill you with bliss?",
 			wait = 2,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone63",
 			options = {
 				{
-					content = "这就是你说的，让我们两个都开心的事么？",
+					content = "Is that fun for both of us?",
 					flag = 1
 				}
 			},
@@ -216,27 +216,27 @@ return {
 			}
 		},
 		{
-			say = "是或不是，你比较期待哪个答案呢~♪",
+			say = "What answer are you expecting? Yes, or no?",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone64"
 		},
 		{
-			say = "不过我觉得，与你共度的时间才是最开心的~",
+			say = "Haha, as for me, any time spent with you is tons of fun!",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone65"
 		},
 		{
-			say = "好啦~我要去为晚上的约会做准备了~就先挂电话了哦~！",
+			say = "Anyway, I gotta get ready for the date. I'll hang up now!",
 			wait = 1,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone66"
 		},
 		{
-			say = "等会直接见面吧~我最爱的Honey！",
+			say = "We'll meet again tonight, my beloved honey!",
 			wait = 2,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone67",
 			options = {
 				{
-					content = "嗯，等下见",
+					content = "Yep. See you later.",
 					flag = 1
 				}
 			},
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			say = "mua~（Kiss音）",
+			say = "Mwah!",
 			wait = 0.5,
 			voice = "event:/dorm/drom3d_NewJersey_other/dorm3d_newjersey_telephone68"
 		}

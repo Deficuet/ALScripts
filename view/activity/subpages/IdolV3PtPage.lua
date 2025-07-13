@@ -254,7 +254,7 @@ function var_0_0.flushTrainPanel(arg_19_0)
 			local var_19_1 = pg.benefit_buff_template[iter_19_1.id].icon
 
 			setImageSprite(arg_19_0:findTF("icon", arg_19_0.trainSkillBtns[iter_19_1.group]), LoadSprite(var_19_1))
-			setText(arg_19_0:findTF("name", arg_19_0.trainSkillBtns[iter_19_1.group]), shortenString(pg.benefit_buff_template[iter_19_1.id].name, 7))
+			setText(arg_19_0:findTF("name", arg_19_0.trainSkillBtns[iter_19_1.group]), shortenString(pg.benefit_buff_template[iter_19_1.id].name, 12))
 		end
 	end
 

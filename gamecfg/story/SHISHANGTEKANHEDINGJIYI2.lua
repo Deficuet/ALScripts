@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>九月恋夏</size>",
+					"Port Fashion Collection! Part 1\n\n<size=45>2 Splashing, Merrymaking, Love</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿，终于来了呢，指挥官~",
+			say = "Heehee, you're finally here, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:189}可是在这里等你好——久了。",
+			say = "You don't know how looooong I've been waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "作为惩罚，指挥官今天一整天都要陪{namecode:189}哦~",
+			say = "As punishment for making me wait... You're gonna spend time with me all day!♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由于{namecode:189}的一时兴起，在艳阳高照的某个夏日，我们来到了水上乐园。",
+			say = "On this perfect, cloudless day, Hatsuzuki brought me to the waterpark on a whim.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "对了，指挥官还没告诉我泳装的感想呢。",
+			say = "Hey, by the way, what do you think about my swimsuit?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "指挥官快看快看，这可是{namecode:189}特意挑的~",
+			say = "Tadaaa! I got it just for today. Do you like it?♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,11 +122,11 @@ return {
 			},
 			options = {
 				{
-					content = "太可爱了！",
+					content = "\"Very cute!\"",
 					flag = 1
 				},
 				{
-					content = "彻底迷上了！",
+					content = "\"I like you more and more.\"",
 					flag = 2
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对吧对吧！",
+			say = "Heehee♪ Riiight?♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然被{namecode:225}说款式太成熟不合适，但{namecode:189}的选择果然没错！",
+			say = "Wakatsuki said it was \"too mature,\" but I'm glad I picked it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "彻、彻底迷上！？",
+			say = "Wh-wha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呜哇哇，这也太直球了吧！）",
+			say = "(I didn't think the Commander would be this direct...!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳、咳咳！毕竟我长得这么可爱，指挥官会迷上我也是自然……",
+			say = "A-ahem! O-of course, you're obsessed with me♪ Obviously!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "嗯？指挥官，你的脸怎么这么红？",
+			say = "Hey... Commander, what's got you blushing so much?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊呀，难道……你害羞了？",
+			say = "Someone feeling shy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "哈哈哈，看来{namecode:189}这身泳装对指挥官的冲击力太大了呢~",
+			say = "Heehee♪ Was my new swimsuit too much for you to take in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "来，指挥官，既然你这么喜欢，快给{namecode:189}多拍几张照片吧！",
+			say = "Well, since you like it so much, snap a few more pictures of me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "拍完后，可要将这些照片设定为你的屏保哦，不同的通讯器要各设一张呢。",
+			say = "If you get a cute one, make it your lock screen background! Oh, and you'll need one each for all of your other devices♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:189}边说着，一边努力摆出模特杂志中才会看见的专业姿势——",
+			say = "Hatsuzuki did her best to pose like a model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "怎样？{namecode:189}够可爱吗？",
+			say = "So? Am I cute, or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还是说，指挥官有想要指定的姿势~？",
+			say = "If you want to request any poses, I'm happy to oblige!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:189}的身体可是很柔软呢，你看，连这种姿势都能摆出……哇！",
+			say = "I'm very flexible, so I can even do... Ack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "千钧一发之际，抱住了即将失去平衡的{namecode:189}。",
+			say = "Hatsuzuki lost her balance, but I managed to catch her just in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "（哇、哇哇哇——）",
+			say = "(Whoa, whoa, whoa!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,37 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（手、手碰到了！不、不仅是手，其他地方也……）",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_117",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "{namecode:189}，你没受伤吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301891,
-			side = 2,
-			bgName = "star_level_bg_117",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "………………小。",
+			say = "(O-our hands are touching! No, not just our hands... We're pressed up against each other!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +440,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "小？",
+			say = "Are you okay, Hatsuzuki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +454,37 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "小、小女子不才，请您多多指教！！！！！！！！！！！",
+			say = "I...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_117",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Yes?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301891,
+			side = 2,
+			bgName = "star_level_bg_117",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "I may be incompetent, but I hope you'll take care of me forever, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1

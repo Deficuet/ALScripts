@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_1",
 			dir = 1,
-			say = "舰队离开了天岩岛，向着一望无际的远方行驶着。",
+			say = "After joining up with Shinano, Kii's fleet left the Diadem of Light, making its way back towards the Sakura Empire's main island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是在现世中，进行远洋航行的感觉么……",
+			say = "So this is the sensation of sailing through the present world's oceans...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人是第一次离开天岩岛吧，乘风破浪的感觉怎么样~！",
+			say = "Lady Shinano, this is your first time leaving the Diadem of Light, yeah? So, like, how's it feel having the wind and waves at your side?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有什么太特殊的感觉，与在那里的感觉相似，又有些不同……",
+			say = "It is a familiar one. Slightly different, but not by much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…对了对了！身体状况呢，{namecode:182}大人的的身体状况还好吗…？",
+			say = "Um... Yeah, by the way! Did you know that fortune-telling apps are all the rage these days?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……目前为止，除了感受不到力量之外，没有出现其他值得注意的问题…",
+			say = "...Fortune-telling? This one's dreams have already shown the future... And, um, what is an \"app\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心不用担心~等到了信仰充沛的本岛，肯定会有什么解决的办法啦！",
+			say = "Aaahhhh, don't worry about it! Forget I asked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是那样就好了……",
+			say = "...... Very well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…………炒热气氛计划大失败…）",
+			say = "(......Damnit, did I bring up a sensitive topic? So much for my plan to lighten up the mood a bit...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:182}大人有一种冰冷又梦幻的氛围呢，就算是活泼的{namecode:60}也接近不了啊……）",
+			say = "(It's probably fine... Lady Shinano has been asleep for such a long time, she probably has no idea about the latest trends...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那当然了，{namecode:182}大人现在虽然状态不佳，不过依然是{namecode:83}级的三号舰哦。）",
+			say = "(What'd you expect? Though she's in this state, Lady Shinano is still the third ship of the Yamato-class and has the weighty duty of leading the Sakura Empire into the future.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（说起来{namecode:74}大人曾经也是这种感觉，其实私下里有着非常可爱的一面，也许{namecode:182}大人也是…）",
+			say = "(I used to feel the same way about Lady Nagato, but she has a cutesy side to her in private. I wonder if Lady Shinano also...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（私下里可爱的一面啊…毛茸茸，好多毛茸茸的大尾巴…盯——）",
+			say = "(I can picture that... Can you imagine floofing those big, fluffy tails... Haah...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:27}，汝是想躺进这尾巴之中么？",
+			say = "Suzutsuki, do you wish to rest upon this one's tail...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "被发现了？！哎！？不……真、真的可以么？",
+			say = "Eh?! Did she read my mind? Wha- No, I mean... C-can I really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，{namecode:27}…",
+			say = "Pfft. Look at you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊！是我失礼了…！",
+			say = "Ahh, umm... I really shouldn't! I apologize for my indiscretion...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊，遗憾……感觉稍微有些困了…Zzzzzz",
+			say = "No? That's too bad... then... Nnh......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，如果您不介意的话，请到我的量产型上休息一下吧。",
+			say = "(I've heard the rumors, but Shinano really does seem to be awfully sleepy...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里离重樱本岛不远，航路也十分通畅，应该不会遇到什么危险。",
+			say = "Lady Shinano, should you have no objections, I would recommend you rest upon one of my mass-produced ships. We're not far from the Sakura Empire's main island, and there should be little risk of encountering Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "当然，如果有不速之客胆敢拦路的话，以{namecode:80}之名起誓，定让它们有来无回！",
+			say = "Of course, if anyone seeks to block our way, I shall see to it that they do not live to tell the tale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

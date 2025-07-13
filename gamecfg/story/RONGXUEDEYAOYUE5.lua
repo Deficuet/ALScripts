@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>温泉约会物语</size>",
+					"Invitation of Melting Snow\n\n<size=45>Thawing in the Snow</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "雪原，雾气朦胧。温泉的青石上，伏罗希洛夫此刻正在等待着——",
+			say = "In a misty open-air hot spring, there's a girl sitting on the blue-tinted stones, watching the snow around her melt.",
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如约来了呢，指挥官。",
+			say = "There you are. Glad you kept your word, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			},
 			options = {
 				{
-					content = "等很久了么？",
+					content = "\"I'm not late, am I?\"",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "我也是刚刚才到，没有等多久哦。",
+			say = "Nope, you're on time. I finished changing just a minute ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "嗯，这里就是我选的……“温泉约会”的地点。觉得指挥官平时工作累了的话，在这里或许能稍稍舒缓一下身心。",
+			say = "What do you think of this place? I felt it'd be good to have a hot spring date, since you're always working so hard and deserve some relief.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "这里的环境还挺不错的吧？有温热的泉水，雪松林，还有静悄悄的落雪……",
+			say = "The water is the perfect temperature, and the scenery is pretty gorgeous as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "是我喜欢的地方。能静静地看着落雪在温泉旁融化，云朵在天上游移，心情也会随着流逝的时间慢慢地好起来。",
+			say = "It's definitely one of my favorite spots. You can watch the snow fall and melt for hours while you rest up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "咳，所以……指挥官，还待在那里干什么？该、该进来和我一起泡一下了吧？",
+			say = "Ahem... What are you waiting for? Come on, let's go in the water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和伏罗希洛夫一起享受了雪松林中的温泉。",
+			say = "Voroshilov and I have a great time in the hot spring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能感觉到身体里泛着暖意，只是不知道这温度是来自身边的温泉水，还是来自缠在身边的她。",
+			say = "While the water warms my body, her touch warms my heart. I almost feel like I'm going to overheat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "指挥官，是不是泡得有点太久了？",
+			say = "Are you okay? Are you in over your head?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是说温泉的水温太热了？感觉指挥官好像脸稍微有点红的样子……",
+			say = "Maybe the water is just a touch too hot? It would explain why you're blushing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还没等我做出反应，眼前的少女就把身体凑了过来——",
+			say = "I don't get the chance to explain myself before she starts clinging to me with a look of concern.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,15 +265,15 @@ return {
 			},
 			options = {
 				{
-					content = "水温好像有点高……",
+					content = "\"The temperature's a bit high...\"",
 					flag = 1
 				},
 				{
-					content = "倒是没有觉得多热……",
+					content = "\"Not really. The temperature's fine.\"",
 					flag = 2
 				},
 				{
-					content = "精神焕发！",
+					content = "\"That's just because I feel so refreshed.\"",
 					flag = 3
 				}
 			}
@@ -287,7 +287,7 @@ return {
 			optionFlag = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "果然是这样……我也感觉自己的身体慢慢热起来了。",
+			say = "Oh... Yeah, I see what you mean. I'm starting to sweat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			optionFlag = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "应该是温泉的功效吧……呼，能和指挥官像这样单独相处的机会也不太多呢。",
+			say = "That's why they call it a HOT spring, I suppose...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			optionFlag = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "得好好珍惜才行。",
+			say = "(Moments alone with Comrade Commander don't come every day... I need to seize this opportunity!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "不过自从她缠到身边之后，总感觉温泉越来越热起来了。",
+			say = "It's not the water that's making me feel so hot. It's the fact that I'm rubbing shoulders with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "应、应该是泡太久了的原因吧……",
+			say = "Then you've probably been soaking for too long...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			optionFlag = 3,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "欸？指挥官比想象中更有活力呢……或许是我不太适应这样温暖的环境？",
+			say = "O-oh. That's all? You clearly handle the heat a lot better than I do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			optionFlag = 3,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "不管怎样，您能享受这里就好了。",
+			say = "That's good, though. I'm glad to hear it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "指挥官，泡完温泉之后要一起去看看附近的雪景么？飘雪，雪松林，落雪的屋檐下，都是挺不错的景色呢.",
+			say = "Whew... By the way, there's more stuff to do after this bath. We can go on a stroll through the forest or the city and take in the snowy vistas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "其实是想跟你再单独相处一会，毕竟难得有这样的机会……不许拒绝哦。",
+			say = "Anything you want, as long as I can be with you. I want you all to myself, at least for today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伏罗希洛夫轻轻地握住了我的手。温度从她的指尖传来。",
+			say = "She holds my hand. It feels even warmer than the water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			actor = 702071,
 			nameColor = "#A9F548FF",
-			say = "（小声）就当做“与指挥官的温泉约会物语”的下半篇好了。",
+			say = "This is only the start of our date. The best has yet to come.",
 			painting = {
 				alpha = 0.3,
 				time = 1

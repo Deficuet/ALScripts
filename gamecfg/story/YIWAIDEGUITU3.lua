@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"意外的旅途\n\n<size=45>三 泥沼</size>",
+					"Letters and Travels\n\n<size=45>3 A Cure</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "斯卡帕湾·某处",
+			say = "Scapa Flow - Harbor Facility",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "分析结果怎么说？",
+			say = "Did Hood's inspection reveal anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，胡德的身体依然在逐渐恶化，这么下去的话恐怕……",
+			say = "Yes, Your Majesty. As you surmised, there's indeed something left within the wounds she suffered. Whatever it is, it's getting progressively worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "设施明明已经根据最新研究结果进行了改进……",
+			say = "Then it won't be long before she'll be confined to her sickbed for the rest of her days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就算再加上铁血和北方联合提供的资料还不够么。",
+			say = "All the samples and information we've received from Bismarck, Algérie, and so many others have been insufficient to develop a permanent cure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "使用了元魔方的阿尔及利亚很简单就完成了净化，就连陷入那种状态的{namecode:435}都已经好转了。",
+			say = "Perhaps different hulls respond differently and there is no universal, permanent cure. But then what options do we have left to pursue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么胡德就不行……她只不过是被元魔方的能量击中了而已……",
+			say = "Hood never used the power of the Black Cube, so why would a normal injury cause...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德是被铁血打伤的，如果想要补偿的话，她们应该负责修复这一切！",
+			say = "Your Majesty, we could try asking Bismarck to examine Hood directly.",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算铁血不做，自有塞壬来做。斯卡帕湾的例子还不够惨重么？",
+			say = "No bloody way. Naval HQ and the Sirens would catch on to us instantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………不论听了多少次，“既定事件”这种事还是无法让我彻底相信。",
+			say = "But procuring a Black Cube of our own is beyond the scope of what the Royal Navy can do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但这是事实。如果不是铁血配合塞壬搞到了一部分“剧本”，我们现在所有人还都被它们耍得团团转呢。",
+			say = "I'm aware of that, but we cannot continue relying on others for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然确实很不爽……虽然好处都让她们占了……",
+			say = "Naval HQ knows what the Iron Blood did during that battle, and they've taken measures to prevent anything like that from happening again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可就结果而言，我们因此而取得了一场真正的胜利……真是令人不爽的唯结果论的家伙…………",
+			say = "It would be pure recklessness to collude with other factions right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然……不论原因如何，做过的事就是做过了，代价总是要慢慢付的。",
+			say = "Friedrich no doubt anticipated this, and that's why she chose to bow out at such a convenient time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在胡德的事情上，从样本到资料再到设施，铁血确实已经提供了能提供的一切。",
+			say = "The most anyone can do for us at the moment is share information. Everything beyond that is up to us and us alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结果还是不行……我们对于这种力量的本质了解的还是太少了……",
+			say = "We know the Sirens are never going to deliver us a Black Cube on a silver platter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶啊……早知道在NA海域核心的时候我就好好劝余烬的皇家方舟跟我们回来了！",
+			say = "Therefore, we must look beyond the Black Cube and another approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是我认真下来好好劝的话，怎么也得有个两三成胜算吧！",
+			say = "We already have the means to do so. The Iron Blood's gateway is now under our control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明是我们主动承担了NA海域的稳定工作，在那之后却完全找不到她的踪迹了……",
+			say = "You didn't think I agreed to aid Friedrich just to sink some Sirens, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "您不必自责，陛下。",
+			say = "Ah, of course! The question is, how will it help us find a cure for Hood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "治疗{namecode:435}的方案对于胡德无法完全复用是当时我们所有人都没有料到的意外情况。",
+			say = "...Oh, I get it now! It's our door into the Sirens' home territory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且当时那个场景下，我们也不可能当着其他阵营的面劝说META加入。",
+			say = "And if we're able to find information that can explain her sickness, there'll be no need to obtain something as hazardous as a Black Cube!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于其实无法做到的事，就不用后悔了。",
+			say = "With some luck, we might even be able to learn more about the Ashes or the META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说的没错，我只是感到有些可惜罢了……",
+			say = "Correct. We could skip that entire step if we had a META ally to ask questions to, like the Iron Blood, but alas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不谈这个了。",
+			say = "No matter. If it must be done, so it shall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的大方针不变，对于META化的研究，最好还是找一个配合我们的皇家阵营META来进行。",
+			say = "Let me add that finding a cure for Hood is our top priority here. Recruiting new allies comes after that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「阿瓦隆之门」的准备怎么样？",
+			say = "Now, let's talk about the Mirror Sea – or rather, \"Camelot.\" How is it looking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "设备运转正常，但坐标验证还需要时间……",
+			say = "The singularity remains stable and is anchored to the Mirror Sea that we've designated as Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还需要多久？",
+			say = "How long would it take to investigate Camelot and the areas linked to it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……半年，或者一年。",
+			say = "Erm... Somewhere between six months and a year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德她还能坚持到那个时候么…？",
+			say = "Hood doesn't have that kind of time. Why will it take so long?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉陛下，我不知道。",
+			say = "It's due to the number of Sirens in the area. Even \"abandoned\" Siren facilities are home to countless stragglers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们有几处未经验证的备选坐标，虽然也有赌一把强行启动的选项。",
+			say = "Sending in mass-produced ships isn't an option, I'm afraid. It would require a tremendous amount of energy to enlarge the gateway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是贸然前往风险未知的世界可能会因为事故导致探索队的全灭。",
+			say = "Our best option currently is sending in an expedition team mainly consisting of Your Majesty's palace guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为自己的事让同伴深入险境，胡德是绝对不会同意这个方案的。",
+			say = "It will be a dangerous task, and pursuing both objectives will already stretch our resources thin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊……她是绝对不会同意的。",
+			say = "Hood would never tolerate others being put in danger for her sake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "验证工作不能加快么？",
+			say = "Can we not simply send in more expedition teams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉陛下，恐怕不能。科技上的大步跨越对我们来说还是太困难了……如果强行提速的话，可能会出现更多意外情况。",
+			say = "I'm afraid not. The logistics of supplying and supporting even just one expedition team takes a huge number of people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说得对……阿瓦隆之门可是我们最后的希望了，绝不能让这最后的希望在鲁莽中付之一炬。",
+			say = "You're right... It's too dangerous to send in several teams if they're all underprepared, and we cannot afford to lose Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是不论如何，我绝对不能允许眼睁睁的看着胡德离开我们！",
+			say = "But we cannot afford to lose Hood either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "让我再想想，再想想…………",
+			say = "Time is of the essence... There must be another way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

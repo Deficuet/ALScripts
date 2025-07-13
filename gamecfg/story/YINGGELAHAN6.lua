@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>六　眼中的光</size>",
+					"Searching for the Light\n\n<size=45>6 That Glimmer In Their Eyes</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			bgmDelay = 2,
 			soundeffect = "event:/ui/knockdoor1",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "门的另一边没有回应。",
+			say = "There's no answer from the other side of the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（虽然已经是晚上了，但她应该不会这么早就睡才对……）",
+			say = "(I know it's already nighttime, but isn't it too early for her to be asleep?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "过了一会，大门被缓缓拉开一条缝隙。",
+			say = "After a long while, the door cracks open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "是{namecode:525}呀……晚上好……",
+			say = "Oh, Ingraham... Good evening...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "布里斯托尔，我带着你的提灯来了哦。",
+			say = "Bristol, I've brought your lantern.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前你不是说有时候会接触不良吗，我就帮你看了一下，顺便改良了电路。",
+			say = "You mentioned something about the circuitry being a bit shaky before, right? So, I took a look at that for you and made some upgrades.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "你要不要试试？",
+			say = "Want to give it a try?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "{namecode:525}轻声询问着，言语中透露出一丝不安。",
+			say = "Ingraham poses this question softly, with a hint of hesitation in her voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "因为这是她自那之后，耗费数周时间精心完成的第一件物品。",
+			say = "After all, this lantern is the first project she completed since her talk with Cooper a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哇哦？！我的提灯修好了么！你真是太厉害了————！",
+			say = "Woah! It's as good as new now! You're amazing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			say = "布里斯托尔从{namecode:525}的手中接过提灯，在手中晃了几下，然后扭动开关。",
+			say = "Bristol takes the lantern from Ingraham's hands and gives it a good shake before flipping the switch on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "光芒在提灯的玻璃容器中跳动着，像是在有节奏地呼吸一般。",
+			say = "The mote of light inside the glass cage dances rhythmically, as if living and breathing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哇哦…………这个光芒！究竟是加入了什么机关呢……",
+			say = "Woah... what's going on with this light? What'd you do to it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "真是太厉害了！传奇调查员现在回归咯————！",
+			say = "I'll say it again: you're way too amazing! With this, the legendary investigator is back in action!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "布里斯托尔像个拿到新玩具的小孩子，光着脚在房间里来回奔跑着。",
+			say = "Bristol runs around her room in circles, like a child with a new toy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "{namecode:525}再一次见识到了那在眼中闪烁着的光芒。",
+			say = "There is that unmistakable glimmer of wonder in her eyes once more, a fact that does not escape Ingraham's notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "那样的光芒，或许也曾出现在{namecode:525}自己的眼中。",
+			say = "That glimmer may well have existed in Ingraham's eyes at one point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "在每一次的攻破难关之后，在每一次有关巧妙设计的灵光乍现之后……",
+			say = "After each obstacle she overcame, after each flash of brilliance in her designs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "她深思着。",
+			say = "She falls into deep contemplation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "为什么她会忽略掉这一点呢，为其他人修复所珍视之物，最重要的或许不是效率，而在于沉淀。",
+			say = "Why would she overlook something this important? How could she forget that the most important thing when it came to her repair work was not efficiency, but that extra touch of attentiveness?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "如果没有潜心沉淀的那段时间，或许里诺的“振银盾牌”就不会有自动变形的功能。",
+			say = "Had she not been so attentive to Reno's wants, that vibranium shield would not have had an auto-transform feature. It would've just been a regular old toy shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "布里斯托尔的提灯就不会闪烁着如此美丽的光芒。",
+			say = "Bristol's lantern would not have been able to shine with such an enchanting, beautiful light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "而这些心思是再昂贵的机器设备也无法提供的。",
+			say = "And no amount of expensive machinery or equipment could have produced these things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "她看着布里斯托尔，久违地露出了微笑。",
+			say = "She continues to look at Bristol, her lips finally curling into a gentle smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（或许这才是大家一直来找我帮忙的原因吧？）",
+			say = "(Maybe this is why everyone keeps coming to me for help?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（所谓的修理不仅仅是修复了物件，更像是修补了时光，抹平了时间的伤痕。）",
+			say = "(Maybe repairs and maintenance aren't just about fixing up an object, but more like undoing and smoothing over the scars left by time.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（而且回想一下，大家也确实从未因为我的进度缓慢而抱怨过。）",
+			say = "(And now that I think about it, nobody ever really complained about my work taking a long time.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "（真是的……）",
+			say = "(Seriously, what was I doing...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和布里斯托尔道别后，在回去的路上，{namecode:525}突然又有了一个想法。",
+			say = "After saying goodbye to Bristol, Ingraham suddenly has another flash of inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她快步返回自己的工作室。",
+			say = "Her steps become faster and faster until she breaks out into a run, heading back towards her workshop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在开始制作的话，应该还来得及……",
+			say = "If she starts now, it might not be too late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

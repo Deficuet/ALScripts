@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "领结的样式，要不要试着系成蝴蝶结的样子？",
+			say = "Do you think I should tie this ribbon into a bow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "偶尔做出一些改变，也很不错吧？",
+			say = "Variety is the spice of life, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "毕竟我想再多增加一些新鲜感……///",
+			say = "Plus, I want to look fresh to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

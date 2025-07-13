@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>二　下午茶的烦恼相谈</size>",
+					"An Ode to the Sea\n\n<size=45>2 Tea and Personal Problems</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，阳台——",
+			say = "Office - Balcony",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然阳伞与桌椅早就准备完毕，但今天的一切多少还是有些与众不同。",
+			say = "A parasol, a table, and two chairs. Everything is set for our little tea party... yet something feels out of the ordinary today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谢谢。",
+			say = "Thanks, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "茶的香气让人放松……指挥官的茶艺真不错呢。",
+			say = "Mmh, it smells lovely. You've practiced tea-making, haven't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "总该有放松的时候。列克星敦，有想过当妹妹是什么样的感觉么？",
+			say = "\"Now and then, in my spare time. Say, have you ever wanted to swap roles with Saratoga? As in, be the little sister instead?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，是萨拉托加和您说了什么吗？",
+			say = "Be the little sister? Did she tell you to ask that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,11 +114,11 @@ return {
 			},
 			options = {
 				{
-					content = "你觉得呢，Sis.列克星敦？",
+					content = "\"No, I'm just curious.\"",
 					flag = 1
 				},
 				{
-					content = "你还真是关心她啊，Sis.列克星敦~",
+					content = "\"Is it that obvious?\"",
 					flag = 2
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "欸……？！",
+			say = "Hmm... I have wondered what it's like to be the younger one, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "只是下意识的……欸？！",
+			say = "She's not known for being subtle, is she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "列、列克星敦妹妹？这、唔……",
+			say = "To answer your question, I'm happy being everyone's big sister figure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，您不会是和萨拉一样在恶作剧吧……？",
+			say = "Besides, you can't pick if you're the big or little sister. It's something you're born as.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "所以，想被这么叫么？",
+			say = "\"True. It was a silly question. I just thought it might take your mind off things.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,23 +225,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呃……太奇怪了，还是算了吧……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "……………………",
+			say = "Heehee. Well, we may not be related, but I see you as my own little sibling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +241,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过也是呢，既然如此，偶尔不做大家的大姐姐也可以……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +257,23 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，我有一件很苦恼的事情，可以和您说么？",
+			say = "I suppose I can always pretend. Pretend not to be everyone's big sister.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Listen, something's been bothering me for a while... Will you hear me out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头。",
+					content = "\"Of course.\"",
 					flag = 1
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……唔，我最近遇到了一些舞台上的问题。问题的根源，我称之为“Live统计学”……",
+			say = "I'm... I'm planning my next concert, and I don't know what kind of performance it should be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "简单来说，就是依靠统计数字和数学计算，就能得出观众最期待什么，最喜爱什么。",
+			say = "\"Can't you use statistics and focus groups?\" you may ask, and yes, I can. They're an easy way to figure out audience expectations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要遵循数学公式，就能举办一场能成为绝对焦点的演出。",
+			say = "But I don't want to base everything on numbers, or I feel like it'll cease to be my concert, my music.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明明演出举办的更加成功了，结果萨拉抱怨说，Live好像变得无聊了。",
+			say = "The crowds might love it, but I agree with Sara: there's no soul in it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "归根结底，是我擅自将Live的大家想传达的真情实感量化了，这样的演出是没有灵魂的。",
+			say = "That's when it hit me. Without knowing it, I've been treating my concerts as a means to gather data, rather than a way to bring joy to people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家用心准备演出时付出的努力还有拼搏，就没有意义了……我好像起了个坏头，指挥官。",
+			say = "And in the process, I've squandered the hard work people put into making my concerts happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——还真是独特而奇妙的忧愁，带着列克星敦特有的哲学与诗意。",
+			say = "This problem of hers is very specific, but I understand why it bothers her. Being an idol is more than a job to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,14 +399,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，哲学大师虽然难找，懂统计学的——倒还真有这么一个。",
+			say = "Luckily, I know someone who can do the number-crunching for her. It would also do her some good to take a day off and clear her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "讲述解决方法。",
+					content = "(Tell her you have an idea.)",
 					flag = 1
 				}
 			}
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这样就能解决问题么？……欸？如果解决不了，整个下午都会一直帮我解决问题？",
+			say = "You think that'll solve it? Hmm... If it doesn't work out, at least we'll spend a day together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，真是让人安心呢……",
+			say = "Let's give it a try. I knew I could count on you, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1

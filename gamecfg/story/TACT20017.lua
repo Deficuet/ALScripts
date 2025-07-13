@@ -7,7 +7,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "刚才的一切，你都记录下来了吗",
+			say = "Did you record all that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "嗯…已经不存在的舰队突然出现了什么的...情况似乎远远超过我们想象呢",
+			say = "Yeah... I don't know how this fleet managed to appear again when it doesn't exist anymore... The situation is even worse than I thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "？？？",
-			say = "呵呵，我还以为是哪两个出了BUG的【棋子<Piece>】，原来是有两条小鱼混了进来呀",
+			say = "Why, hello. I thought you 2 were bugs in our system, but you're no bugs, you're just little fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…被发现了，声呐完全没有收到警告",
+			say = "They found us... She never even showed up on my sonar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "情况…不妙…紧急下潜",
+			say = "We might be in trouble here... Submerge at max speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,8 +78,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "既然已经被你们发现了这里的情报，看来没办法让你们轻易离开了~",
+			actorName = "Observer",
+			say = "I can't just let you leave now that you've come this far.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "就让你们成为新的【棋子<Piece>】好了。有了新的种类，测试数据会更有意思的~",
+			actorName = "Observer",
+			say = "So what do you say about becoming my new Pawns? I could turn you into a new species so we can gather more fascinating data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "必须把这里发生的一切告诉指挥官…",
+			say = "We need to get this intel to the commander...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "47酱，你快走…只要潜到足够的深度，它们就抓不到你了",
+			say = "U-47, go on without me... The enemy shouldn't be able to follow us down to our maximum depth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "你的速度比我快，这里就由我先拖住它",
+			say = "You're faster than me anyway. I'll try to buy you some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…明白了，祝你好运",
+			say = "...Okay. I wish you good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,8 +178,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "嗯，铁血的小鱼们逃跑的速度果然和记录的一样是真的挺快的，呵呵呵",
+			actorName = "Observer",
+			say = "Well, look at that. Our data was right; you sure are good at running away. Hahah~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "那么，被留下的你，要打算怎么和我对抗呢？",
+			actorName = "Observer",
+			say = "Now, how do you plan to get out of this one, little Miss. Left Behind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…人们总是说我是一艘厄运缠身的潜艇…至少到现在为止确实是对的",
+			say = "...I used to be called an unlucky sub... and up until now I thought that was true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "但是…这一次，结果究竟会如何呢…",
+			say = "But now... it isn't anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "姐姐，请给予我像您一样的勇气！",
+			say = "My sisters, give me courage...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

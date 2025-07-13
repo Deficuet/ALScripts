@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>三　看板娘与小伙伴们</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 3: The Shopkeeper's Little Buddies</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·军火商店",
+			say = "Port - Supply Shop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这个休息日，又躲在商店外的灌木里，悄悄观察店内的情况。",
+			say = "On this day off, I once again concealed myself next to the shop, quietly observing the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托了，{namecode:20}，看在过去交情的份上，接受这次采访吧！",
+			say = "Please,  Shiranui, just think about the deep bond we used to share, and let me interview you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们之间也没有熟到那份上吧。",
+			say = "I don't remember ever doing anything with you that would resemble a \"deep bond.\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让人难以接近又充满神秘感，如同幽灵般的舰队商店老板娘，这个访谈一定会大卖的！",
+			say = "Unapproachable and mysterious, the ghostly owner of the Supply Shop- this interview is gonna sell like hotcakes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……如果你在报道中帮我宣传店铺的话，倒不是不能考虑。",
+			say = "If you used your segment to promote my shop, I might consider it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题！那就让我们马上开始吧！",
+			say = "No problem! Let's get started right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先，头上的耳朵果然是因为幽灵的原因故意这样的吗？",
+			say = "First and foremost, those disheveled animal ears on your head! Is it true that the ghosts make you wear them like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……只是整理东西里碰坏过几次，觉得换掉比较浪费，就修补了一下。",
+			say = "... I bumped them a few times while organizing things. I thought it'd be a waste to replace them, so I didn't bother getting them fixed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃……那传闻其实是幽灵体质是真的吗？",
+			say = "Uhh... the rumor that you're actually a ghost... Is it true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是笨蛋吗？",
+			say = "Are you an idiot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那身边的鬼火呢？！",
+			say = "What about that will-o'-wisp circling you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为比较有趣，从{namecode:98}那里拿来的飞行道具而已。",
+			say = "That's just a floating prop that I got from Akashi because it looked cool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸欸……那、那能看到幽灵也是……？",
+			say = "Th-then... the rumor that you can see ghosts as well...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个倒是偶尔确实能看到呢。",
+			say = "I suppose that does happen every now and then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，果然也是编造的……",
+			say = "Ah, so that's also a fabrica-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？？？是真的吗？！",
+			say = "Ehhh??? It's true?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的，比如现在趴在你背上就有一只……",
+			say = "It's true. For example, there's one crawling up your back right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊！",
+			say = "Waaaaaaaaaaaaahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然是骗你的就是了……",
+			say = "Of course, that's just a lie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，本来我们的存在就超出了科学的范畴，能看到一些奇怪的东西也没什么好奇怪的就是了。",
+			say = "However, our very existence already defies the laws of science. It shouldn't be strange at all to see strange things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天，似乎从别的方面了解了一些{namecode:20}。",
+			say = "Today, I feel like I learned a bit more about another side of Shiranui.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过，总觉得她刚才瞟了一眼这边，大概是错觉……吧？",
+			say = "However, I feel like she just shot a glance over here. It's just my imagination... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

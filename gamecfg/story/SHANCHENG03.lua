@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>三 遗失的礼物·上</size>",
+					"Winter Offensive\n\n<size=45>Chapter 3 - A Lost Gift Pt. 1</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "冬泳…冬泳吗…虽然说作为巫女…在冬天也会有需要用冰冷的清水洁净身躯的时候……",
+			say = "Cold-water swim meet, huh... That reminds me, I had to do a purification ritual like that last New Year's... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "似乎最近…确实有些怠惰了呢……",
+			say = "I suppose... I have been a bit lazy recently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "夏天时候的泳装…指挥官送的…",
+			say = "Milord did give me a swimsuit for the summer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "我记得是收在这里了……",
+			say = "If I remember correctly, it should be over here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？怎么找不到了？",
+			say = "Huh? It's not here...?",
 			flashout = {
 				black = true,
 				dur = 1,

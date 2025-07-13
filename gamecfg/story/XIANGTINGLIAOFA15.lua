@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个装甲…203mm炮的威力还不足以击穿吗…",
+			say = "Gah...! My 8-inch guns aren't enough to penetrate her armor...!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -64,9 +64,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "这么快就陷入穷途末路了，你刚才的那股气势呢？",
+			say = "Is that all you've got? What happened to the bravado from earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呵呵",
+			say = "Not yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 103160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈哈！塞壬，你犯了一个很大的错误。",
+			say = "You seem to have overlooked something, Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你以为，防卫舰队的旗舰就一定是这片区域里最强的战舰吗？",
+			say = "Did you think that we'd blindly challenge a monster like you without having made our own preparations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 103160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚持了这么久，终于把你引到目标位置了！",
+			say = "You're exactly where our Commander wants you to be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			},
 			options = {
 				{
-					content = "「就是现在，阿拉巴马，用超重弹！」",
+					content = "Alabama, now!! Fire your superheavy shells!",
 					flag = 1
 				}
 			}
@@ -158,9 +158,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "！！！！",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -276,9 +276,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "居然是…406mm炮弹的远距离灌顶——",
+			say = "Long-distance barrages from a 16-inch battery...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————",
+			say = "KABOOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这片海域里，还有一位优秀的战士一直默默的守护着大家呢，你们居然将她忽略了。",
+			say = "Hehe~! Tester, while you were rambling on, those joke fleets you brought along with you have been reduced to rubble!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,9 +357,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "阿拉巴马",
+			actorName = "Alabama",
 			dir = 1,
-			say = "…打中了吗？距离太远…无法观测…",
+			say = "Did I miss 'er? Can't tell from this distance...",
 			effects = {
 				{
 					active = true,
@@ -381,7 +381,7 @@ return {
 			actor = 103160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打得很准，和训练时一样，做得很好！",
+			say = "No, it was a direct hit. Well done.",
 			effects = {
 				{
 					active = false,
@@ -400,9 +400,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "阿拉巴马",
+			actorName = "Alabama",
 			dir = 1,
-			say = "你的引导也很…好。",
+			say = "Mm... it was only possible 'cause you provoked her.",
 			effects = {
 				{
 					active = true,
@@ -422,9 +422,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "…………",
+			say = "... ....",
 			effects = {
 				{
 					active = false,
@@ -444,9 +444,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "进化与变革，必然带来苦难与牺牲。相比于结果带来的救赎，过程中的牺牲简直不值一提。",
+			say = "Evolution and progress necessarily bring about suffering and sacrifice. The salvation granted in the end pales before the desolation wrought through the means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "变革与进化？呵，话虽然说的冠冕堂皇，事却做的卑劣无耻至极。",
+			say = "Evolution and progress? You may talk like you're a savior, but your actions are utterly despicable.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -480,7 +480,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们只是疯了的屠夫，仅此而已。",
+			say = "You are nothing more than a crazed butcher, an enemy to all of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,9 +494,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "一面摆出无知的架势，一面尽情的释放仇恨，这倒确实是实验素材应该有的反应。",
+			say = "So much ignorance, but so much hatred. This falls within the expected behavior of this test subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~！真是够了。什么无知不无知的，不是因为你们从来都没有说清楚过么！",
+			say = "I've had enough of all of you! What do you mean, ignorance? You keep prattling on about evolution and all these experiments without telling us anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自顾自的出现，自顾自的打过来，自顾自的说着难懂的话，自顾自的撤退。",
+			say = "I hate the way you bunch always show up smugly, start attacking us smugly, start rambling on smugly, and then disappear smugly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们一次都没有，把话说明白啊！！",
+			say = "Why can't you tell us what you want, like normal people?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,9 +565,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "……",
+			say = "... ... ...... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜利…",
+			say = "V-Victorious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "指挥官，萨拉妹妹前来支援了~！",
+			say = "Sister Sara has arrived on the stage! Commander, I've got your back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，测试者，在你喋喋不休的时候，你布下的挡路喽啰已经被清理得差不多了！",
+			say = "Hehe~! Tester, while you were rambling on, I've reduced all your little underlings to scrap metal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此萨拉妹妹强烈推荐将此时此刻，作为投降的最佳时间哦~",
+			say = "If you know what's good for you, you should just surrender!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,9 +642,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "呵呵呵，确实说的有些多了。",
+			say = "That's true... I suppose I've said too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,9 +658,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "很遗憾，预定的时间到了。",
+			say = "But too bad for you. Time's already up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
+			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！！",
+			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -777,7 +777,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，还有残余的敌机？！这是…F4U海盗？？萨拉托加，你在做什么！？",
+			say = "Another enemy airstrike?! Wait, this is a Corsair! Saratoga, what are you doing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…不是人家的飞机啦！！",
+			say = "Eek! These aren't my planes, though!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么回事，全员立刻汇报情况！！！",
+			say = "What's going on? Commander, quickly contact the other ships...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,25 +839,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Transmitter",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋滋滋…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207040,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "无线电被完全屏蔽了，暂时无法联系到各部队，而且…",
+			say = "BZZZZZT...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +857,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬主力趁乱开始高速撤退，指挥官，现在该怎么办？",
+			say = "Our radio communications are down! We're going to be surrounded at this rate...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207040,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wait, are you trying to run away?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			actor = 103160,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "休想逃跑！！",
+			say = "What are you doing? Answer me, Tester!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -939,9 +939,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "哪里，真正的测试，从现在才正式开始呢。",
+			say = "Running away? No, the experiment has only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,9 +955,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "剧场的大幕已经拉开，主角也已经登场，在名为“历史”的舞台上尽情演义吧，各位“演员们”———",
+			say = "This is not a \"reproduction\" of your \"history,\" but it is your reality. Do show me how you all dance, my little \"Actors.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶！跑的可真快…",
+			say = "Argh...! She disappeared in a flash of light...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...没想到塞壬对逃跑也这么在行",
+			say = "The Siren fleets are withdrawing en masse. We should stop trying to chase them and prioritize defending the harbor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岛沿岸还有大量塞壬残存舰队。萨拉妹妹强烈建议暂缓追击，以保护纽约港为最优先目标！",
+			say = "The corsair came from that way... Maybe it's some kind of secret message from an ally!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有就是，急需查清不明敌机的来源。",
+			say = "Hey! Whoever you are, Saratoga's coming to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "它们居然用的是和我们…一样的型号，可是速度却完全不是一个等级的！",
+			say = "All that remained... was a sea of flames.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1047,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一点很令人担忧…看来今晚将是个不眠夜了。",
+			say = "No... impossible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1060,7 +1060,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +1073,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "静静停留在远方——",
+			say = "An unbelievable sight unfolded before us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仿佛总指挥一般的——",
+			say = "There \"she\" was, standing quietly in the midst of the Siren fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1099,7 +1099,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那个身影，简直像…",
+			say = "It was almost as if...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,13 +1111,13 @@ return {
 		},
 		{
 			actor = 900189,
-			actorName = "？？？",
+			actorName = "？？",
 			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff6100",
-			say = "新的“奇异点”很快就要完成了，就在这片海域上。",
+			say = "The next singularity is nearing completion.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1148,10 +1148,10 @@ return {
 			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
-			say = "…",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1165,10 +1165,10 @@ return {
 			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？",
 			dir = 1,
 			blackBg = true,
-			say = "你这么肯定这次我们的目标就是…？",
+			say = "And you're sure that the Master's target is... that person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1182,10 +1182,10 @@ return {
 			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
-			say = "我能感觉到…我能感觉到那个人。",
+			say = "Yes... I can feel their presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,10 +1199,10 @@ return {
 			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？",
 			dir = 1,
 			blackBg = true,
-			say = "在那个人的身边，一定还有“她”存在吧，到时候你要如何处置？",
+			say = "Surely \"she\" will also be there. Are you ready to face her again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,10 +1216,10 @@ return {
 			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "I threw away my regrets long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1233,10 +1233,10 @@ return {
 			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
-			say = "行吧，到时候我会帮你一把的。",
+			say = "Very well. In that case, I shall lend you aid when the time comes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1250,10 +1250,10 @@ return {
 			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？",
 			dir = 1,
 			blackBg = true,
-			say = "你只要，坚定地往前走就好。",
+			say = "But let me warn you, you must keep moving forward...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,10 +1267,10 @@ return {
 			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
+			actorName = "？？",
 			dir = 1,
 			blackBg = true,
-			say = "不要回头——",
+			say = "... and never look back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

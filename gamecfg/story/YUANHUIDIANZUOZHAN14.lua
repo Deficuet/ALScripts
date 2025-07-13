@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			stopbgm = true,
-			say = "其实早在战斗开始前，双方就已经都对战斗的结果心知肚明了。",
+			say = "The battle for the final area immediately adjacent to the base began, both sides knowing how it would end.",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "不过，所有人都没有丝毫懈怠。{namecode:450}与{namecode:442}集中手头所有力量，进行了一场竭尽全力的正面较量。",
+			say = "Nevertheless, they fought with all their might. Blücher and Z16 mobilized a desperate last defense, bringing with them every Pawn they could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			say = "在那之后，随着象征两人基地的标靶被摧毁，漫长的实验终于迎来了终止符。",
+			say = "After much fighting, the victor's flag was finally hoisted over the loser's base. Brünhilde had won.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "终于……都要结束了啊。突然有点不真实感……",
+			say = "Welp, guess that's it, even if the loss hasn't set in yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "虽然我们最后还是输了……",
+			say = "No surprise we lost in the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不要太在意输赢——虽然由赢得了胜利的我来说这句话看起来不太合适。",
+			say = "I want to say there's more to a battle than winning or losing, but that would be in bad taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "我们的舰队实力是不同的，作战方式方面也受到了诸多规则的限制。",
+			say = "In your defense, the Pawns were unfairly distributed from the very beginning, and you were also subject to a variety of restrictions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "谁输谁赢，其实是早就注定的事情。我们彼此都只是在承担测试人员的职责罢了。",
+			say = "It wouldn't surprise me if the results of the experiment were predetermined, and our only role was to see it to completion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "这个我也清楚啦——不过不管怎么说，赢都比输好不是！",
+			say = "I know it wasn't fair and all that, but I still wanted to win! Winning's obviously more fun than losing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "那倒也是……",
+			say = "Of course. That goes without saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "你们看，海面上的量产型和棋子都在撤退，接下来它们会怎么办呢？",
+			say = "I suppose the Pawns have served their purpose now that the experiment's over. What's gonna happen to them now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "量产型舰队的话，应该会被主机直接拆解回收。",
+			say = "In the case of the mass-produced ships, they'll be taken apart for materials per the central terminal's command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "棋子的话，应该会先去档案室上传最后一次数据，然后去回收室进行销毁。",
+			say = "As for the Pawns, they'll likely also be taken apart after they've uploaded their combat data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "它们的使命也算圆满完成了么……一直以来也辛苦它们了。",
+			say = "Doing your job only to get scrapped in the end... I know they're our enemy, but man, I kinda feel bad for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "你们看，镜面海域控制系统正在对整片区域进行善后处理。",
+			say = "Look around you. The Mirror Sea itself is changing – presumably because the experiment ended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "残骸正在减少，建筑也正在重组。",
+			say = "See how the wreckages are being salvaged and the structures are changing form?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "等到彻底清理之后，离开的道路应该就会出现，到那时候我们就能回去了。",
+			say = "I believe our exit will appear once everything is back the way it was. Then we will be able to go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "……{namecode:462}，在回去之前还有点时间，要不要来一场解除测试规则限制的较量？",
+			say = "Well, while we're still here, why don't we end things with a proper shipgirl-on-shipgirl battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "我想不受约束的展现一下自己的实力，也想见识一下你的真正实力。",
+			say = "The Pawns have gotten almost all the action this whole time, and I wanna see how we actually compare to each other. What do you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "就算是使用演习弹，也有可能受伤哦？",
+			say = "Are you sure you want to? While I do have blanks to spare, they still hurt if they hit you in the wrong places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "这个风险对于两边来说都是均等的，你要是没意见的话我们自然不会退缩。",
+			say = "The same goes for you. If you don't have a problem with that, then I'm all for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "就是我们这边可是二对一哦，你要是退缩也没问题就是了~",
+			say = "Me too, on Blücher's side! Think you can handle that? I wouldn't hold it against you for chickening out versus the one-and-only ME!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 404050,
-			say = "呵呵，重巡洋舰和驱逐舰加起来，也未必能打的过战列巡洋舰吧。",
+			say = "Hah. I'm a battlecruiser. It's child's play keeping up with one heavy cruiser and a destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "那可不好说，战场上见真章咯~",
+			say = "I wouldn't be so sure about that~! So, wanna settle this over at that exercise area?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			blackBg = true,
-			say = "嗯，战场上见真章。让我们拿出彼此的真本事，为这场漫长的测试划上真正的句号吧！",
+			say = "Fine by me. May our all-out battle be a satisfying climax to this long operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

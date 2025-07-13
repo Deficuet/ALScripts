@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>四　交错的水线</size>",
+					"Crosswave\n\n<size=45>Crossing New Waves</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好，就这样把对方引诱至最终防卫线被突破前的临界位置——",
+			say = "Good. Keep this up, and we'll be able to lure them over before they breach our last line of defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，还没好吗！就算是无敌的{namecode:22}大人，也快撑不下去了～",
+			say = "We still aren't done?! Yukikaze the Great may be second to none, but even I don't have limitless stamina!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拜托再坚持一下就好！——{namecode:97}，时间不多了！",
+			say = "Just hold on a bit longer! But we're also nearly out of time! Taihou, any news?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "找到了！是指挥官大人的味道…嘻嘻❤",
+			say = "I can smell it! This is my dear Commander's fragrance... Hehehehe...",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -170,7 +170,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了！{namecode:22}，到达指定地点后，以最大航速调头，进行夹击！",
+			say = "Great! Yukikaze, once you're at the location I told you about, turn around and head back at maximum speed! We'll get them in a pincer attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！{namecode:175}你那边没问题吧！",
+			say = "Understood! And how's it going for you over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我已经与对方接触了！……啊啊，真讨厌，明明打心底里不想接这种差事的……！",
+			say = "I'm drawing closer to the opponent! ... *Sigh*, and I wish I wasn't. Why did I agree to this in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，反正这种距离下只要变成乱战，不管谁干了什么都不会被注意到的，对于我来说反而方便——",
+			say = "But it's fine... At this range, everything turns into an all-out brawl, and it'll be impossible to keep track of what every ship is doing. This is my best opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听得到吗，{namecode:97}！旗舰权限全部转交给你了！等我方炮击结束后，让所有轰炸机都往我这边飞！",
+			say = "Taihou, do you read me? I've transferred my flagship status to you! The moment my gunfire stops, send your bombers over to my location!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}！你！难道想独自一人冲到指挥官的主力舰队里去？！？",
+			say = "Are you seriously going to thrust deep into the Commander's fleet all on your own?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "跟说好的不一样啊！这时候不是该让我扑倒指挥官的怀里吗！？",
+			say = "This isn't what you promised! Didn't we agree I would be the one to dive straight into the Commander's heart?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是航母啊！给我专心索敌！要是看丢了指挥官，作战可就打水漂了！",
+			say = "You're a carrier; that's not happening! And keep your mind on your recon! If we lose sight of the Commander, the whole mission will fail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就只限这一次啊！？",
+			say = "Fine! But just this one time!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}、{namecode:97}居然妥协了！？",
+			say = "D-did you just get Taihou to back down?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "槽点在这里吗！？",
+			say = "Wait, is this really the right time to be cracking a joke?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:22}、{namecode:97}，感谢二位信任我的指挥！",
+			say = "Thank you for having faith in my command, Yukikaze, Taihou!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "总之按照作战方案行动吧！见识一下{namecode:80}级战列舰的全力吧啊啊啊啊啊啊！",
+			say = "Now's the time! I'll show them what a Kii-class battleship is capable of! Chaaaaaarge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

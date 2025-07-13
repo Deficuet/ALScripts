@@ -6,251 +6,251 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 2,
-		actor_name = "杉冈洋美"
+		actor_name = "Hiromi sugioka"
 	},
 	{
 		code = 3,
-		actor_name = "阿部里果"
+		actor_name = "Rika Abe"
 	},
 	{
 		code = 4,
-		actor_name = "绫宫由希子"
+		actor_name = "Yukiko Ayamiya"
 	},
 	{
 		code = 5,
-		actor_name = "伊藤明日香"
+		actor_name = "Asuka Itou"
 	},
 	{
 		code = 6,
-		actor_name = "雨宫天"
+		actor_name = "Sora Amamiya"
 	},
 	{
 		code = 7,
-		actor_name = "横田彩"
+		actor_name = "Aya Yokota"
 	},
 	{
 		code = 8,
-		actor_name = "加隈亜衣"
+		actor_name = "Ai Kakuma"
 	},
 	{
 		code = 9,
-		actor_name = "茅野爱衣"
+		actor_name = "Ai Kayano"
 	},
 	{
 		code = 10,
-		actor_name = "吉冈香织"
+		actor_name = "Kaori Yoshioka"
 	},
 	{
 		code = 11,
-		actor_name = "久野美咲"
+		actor_name = "Misaki Kuno"
 	},
 	{
 		code = 12,
-		actor_name = "桥本千波"
+		actor_name = "Chinami Hashimoto"
 	},
 	{
 		code = 13,
-		actor_name = "桑原由气"
+		actor_name = "Yuuki Kuwahara"
 	},
 	{
 		code = 14,
-		actor_name = "五十岚裕美"
+		actor_name = "Hiromi Igarashi"
 	},
 	{
 		code = 15,
-		actor_name = "御手洗果林"
+		actor_name = "Karin Mitarai"
 	},
 	{
 		code = 16,
-		actor_name = "向山直美"
+		actor_name = "Naomi Mukaiyama"
 	},
 	{
 		code = 17,
-		actor_name = "高森奈津美"
+		actor_name = "Natsumi Takamori"
 	},
 	{
 		code = 18,
-		actor_name = "高田忧希"
+		actor_name = "Yuuki Takada"
 	},
 	{
 		code = 19,
-		actor_name = "黑泽朋世"
+		actor_name = "Tomoyo Kurosawa"
 	},
 	{
 		code = 20,
-		actor_name = "佐久间比吕美"
+		actor_name = "Hiromi Sakuma"
 	},
 	{
 		code = 21,
-		actor_name = "佐仓绫音"
+		actor_name = "Ayane Sakura"
 	},
 	{
 		code = 22,
-		actor_name = "三宅麻理惠"
+		actor_name = "Marie Miyake"
 	},
 	{
 		code = 23,
-		actor_name = "山根希美"
+		actor_name = "Nozomi Yamane"
 	},
 	{
 		code = 24,
-		actor_name = "山本希望"
+		actor_name = "Nozomi Yamamoto"
 	},
 	{
 		code = 25,
-		actor_name = "篠原成美"
+		actor_name = "Narumi Shinohara"
 	},
 	{
 		code = 26,
-		actor_name = "篠田南"
+		actor_name = "Minami Shinoda"
 	},
 	{
 		code = 27,
-		actor_name = "小泉乔生"
+		actor_name = "Takao Koizumi"
 	},
 	{
 		code = 28,
-		actor_name = "上坂堇"
+		actor_name = "Sumire Uesaka"
 	},
 	{
 		code = 29,
-		actor_name = "森田皐月"
+		actor_name = "Satsuki Morita"
 	},
 	{
 		code = 30,
-		actor_name = "石上静香"
+		actor_name = "Shizuka Ishigami"
 	},
 	{
 		code = 31,
-		actor_name = "石川由依"
+		actor_name = "Yui Ishikawa"
 	},
 	{
 		code = 32,
-		actor_name = "大地叶"
+		actor_name = "You Taichi"
 	},
 	{
 		code = 33,
-		actor_name = "丹下樱"
+		actor_name = "Sakura Tange"
 	},
 	{
 		code = 34,
-		actor_name = "中条智世"
+		actor_name = "Tomoyo Chuujou"
 	},
 	{
 		code = 35,
-		actor_name = "长绳麻理亚"
+		actor_name = "Maria Naganawa"
 	},
 	{
 		code = 36,
-		actor_name = "田中敦子"
+		actor_name = "Atsuko Tanaka"
 	},
 	{
 		code = 37,
-		actor_name = "白壁爽子"
+		actor_name = "Sawako Shirakabe"
 	},
 	{
 		code = 38,
-		actor_name = "福原绫香"
+		actor_name = "Ayaka Fukuhara"
 	},
 	{
 		code = 39,
-		actor_name = "堀江由衣"
+		actor_name = "Yui Horie"
 	},
 	{
 		code = 40,
-		actor_name = "堀笼沙耶"
+		actor_name = "Saya Horigome"
 	},
 	{
 		code = 41,
-		actor_name = "野方小春"
+		actor_name = "Koharu Nogata"
 	},
 	{
 		code = 42,
-		actor_name = "优木加奈"
+		actor_name = "Kana Yuuki"
 	},
 	{
 		code = 43,
-		actor_name = "hanser"
+		actor_name = "hancer"
 	},
 	{
 		code = 44,
-		actor_name = "中原麻衣"
+		actor_name = "Mai Nakahara"
 	},
 	{
 		code = 45,
-		actor_name = "吉田幸代"
+		actor_name = "Sachiyo Yoshida"
 	},
 	{
 		code = 46,
-		actor_name = "种田梨沙"
+		actor_name = "Risa Taneda"
 	},
 	{
 		code = 47,
-		actor_name = "大原沙耶香"
+		actor_name = "Sayaka Ohara"
 	},
 	{
 		code = 48,
-		actor_name = "影山灯"
+		actor_name = "Akari Kageyama"
 	},
 	{
 		code = 49,
-		actor_name = "大久保瑠美"
+		actor_name = "Rumi Okubo"
 	},
 	{
 		code = 50,
-		actor_name = "佳村遥"
+		actor_name = "Haruka Yoshimura"
 	},
 	{
 		code = 51,
-		actor_name = "朝日奈丸佳"
+		actor_name = "Madoka Asahina"
 	},
 	{
 		code = 52,
-		actor_name = "高野麻里佳"
+		actor_name = "Marika Kouno"
 	},
 	{
 		code = 53,
-		actor_name = "铃木实里"
+		actor_name = "Minori Suzuki"
 	},
 	{
 		code = 54,
-		actor_name = "佐佐木望"
+		actor_name = "Nozomi Sasaki"
 	},
 	{
 		code = 55,
-		actor_name = "荒浪和沙"
+		actor_name = "Kazusa Aranami"
 	},
 	{
 		code = 56,
-		actor_name = "石见舞菜香"
+		actor_name = "Manaka Iwami"
 	},
 	{
 		code = 57,
-		actor_name = "小原莉子"
+		actor_name = "Riko Kohara"
 	},
 	{
 		code = 58,
-		actor_name = "高桥智秋"
+		actor_name = "Chiaki Takahashi"
 	},
 	{
 		code = 59,
-		actor_name = "日高里菜"
+		actor_name = "Rina Hidaka"
 	},
 	{
 		code = 60,
-		actor_name = "茅原实里"
+		actor_name = "Minori Chihara"
 	},
 	{
 		code = 61,
-		actor_name = "山冈百合"
+		actor_name = "Yuri Yamaoka"
 	},
 	{
 		code = 62,
-		actor_name = "木村珠莉"
+		actor_name = "Juri Kimura"
 	},
 	{
 		code = 63,
-		actor_name = "铃木绘理"
+		actor_name = "Eri Suzuki"
 	},
 	{
 		code = 64,
@@ -258,223 +258,223 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 65,
-		actor_name = "佐藤利奈"
+		actor_name = "Rina Satou"
 	},
 	{
 		code = 66,
-		actor_name = "木户衣吹"
+		actor_name = "Ibuki Kido"
 	},
 	{
 		code = 67,
-		actor_name = "田村睦心"
+		actor_name = "Mutsumi Tamura"
 	},
 	{
 		code = 68,
-		actor_name = "渡边明乃"
+		actor_name = "Akeno Watanabe"
 	},
 	{
 		code = 69,
-		actor_name = "上原明里"
+		actor_name = "Akari Uehara"
 	},
 	{
 		code = 70,
-		actor_name = "加藤英美里"
+		actor_name = "Emiri Kato"
 	},
 	{
 		code = 71,
-		actor_name = "小清水亚美"
+		actor_name = "Ami Koshimizu"
 	},
 	{
 		code = 72,
-		actor_name = "下田麻美"
+		actor_name = "Asami Shimoda"
 	},
 	{
 		code = 73,
-		actor_name = "内山夕实"
+		actor_name = "Yumi Uchiyama"
 	},
 	{
 		code = 74,
-		actor_name = "浅川悠"
+		actor_name = "Yuu Asakawa"
 	},
 	{
 		code = 75,
-		actor_name = "后藤邑子"
+		actor_name = "Yuuko Gotou"
 	},
 	{
 		code = 76,
-		actor_name = "喜多村英梨"
+		actor_name = "Eri Kitamura"
 	},
 	{
 		code = 77,
-		actor_name = "金元寿子"
+		actor_name = "Hisako Kanemoto"
 	},
 	{
 		code = 78,
-		actor_name = "小野凉子"
+		actor_name = "Ryoko Ono"
 	},
 	{
 		code = 79,
-		actor_name = "田中理惠"
+		actor_name = "Rie Tanaka"
 	},
 	{
 		code = 80,
-		actor_name = "今井麻美"
+		actor_name = "Asami Imai"
 	},
 	{
 		code = 81,
-		actor_name = "阿澄佳奈"
+		actor_name = "Kana Asumi"
 	},
 	{
 		code = 82,
-		actor_name = "鬼头明里"
+		actor_name = "Akari Kito"
 	},
 	{
 		code = 83,
-		actor_name = "小仓唯"
+		actor_name = "Yui Ogura"
 	},
 	{
 		code = 84,
-		actor_name = "根本流风"
+		actor_name = "Ruka Nemoto"
 	},
 	{
 		code = 85,
-		actor_name = "沼仓爱美"
+		actor_name = "Manami Numakura"
 	},
 	{
 		code = 86,
-		actor_name = "诹访彩花"
+		actor_name = "Ayaka Suwa"
 	},
 	{
 		code = 87,
-		actor_name = "大西沙织"
+		actor_name = "Saori Onishi"
 	},
 	{
 		code = 88,
-		actor_name = "小原好美"
+		actor_name = "Konomi Kohara"
 	},
 	{
 		code = 89,
-		actor_name = "钉宫理惠"
+		actor_name = "Rie Kugimiya"
 	},
 	{
 		code = 90,
-		actor_name = "榊原由依 "
+		actor_name = "Yui Sakakibara"
 	},
 	{
 		code = 91,
-		actor_name = "山田悠希"
+		actor_name = "Yuki Yamada"
 	},
 	{
 		code = 92,
-		actor_name = "花守由美里"
+		actor_name = "Yumiri Hanamori"
 	},
 	{
 		code = 93,
-		actor_name = "三瓶由布子"
+		actor_name = "Yuuko Sanpei"
 	},
 	{
 		code = 94,
-		actor_name = "中村绘里子"
+		actor_name = "Eriko Nakamura"
 	},
 	{
 		code = 95,
-		actor_name = "春村奈奈"
+		actor_name = "Nana Harumura"
 	},
 	{
 		code = 96,
-		actor_name = "新名彩乃 "
+		actor_name = "Ayano Niina"
 	},
 	{
 		code = 97,
-		actor_name = "秦佐和子"
+		actor_name = "Sawako Hata"
 	},
 	{
 		code = 98,
-		actor_name = "小松未可子"
+		actor_name = "Mikako Komatsu"
 	},
 	{
 		code = 99,
-		actor_name = "渕上舞"
+		actor_name = "Mai Fuchigami"
 	},
 	{
 		code = 100,
-		actor_name = "芳野由奈"
+		actor_name = "Yuna Yoshino"
 	},
 	{
 		code = 101,
-		actor_name = "伊濑茉莉也"
+		actor_name = "Maria Ise"
 	},
 	{
 		code = 102,
-		actor_name = "高柳知叶"
+		actor_name = "Tomoyo Takayanagi"
 	},
 	{
 		code = 103,
-		actor_name = "井泽美香子"
+		actor_name = "Mikako Izawa"
 	},
 	{
 		code = 104,
-		actor_name = "泽城美雪 "
+		actor_name = "Miyuki Sawashiro"
 	},
 	{
 		code = 105,
-		actor_name = "长妻树里"
+		actor_name = "Juri Nagatsuma"
 	},
 	{
 		code = 106,
-		actor_name = "濑户麻沙美"
+		actor_name = "Asami Seto"
 	},
 	{
 		code = 107,
-		actor_name = "福圆美里"
+		actor_name = "Misato Fukuen"
 	},
 	{
 		code = 108,
-		actor_name = "上田丽奈"
+		actor_name = "Reina Ueda"
 	},
 	{
 		code = 109,
-		actor_name = "佐藤聪美"
+		actor_name = "Satomi Sato"
 	},
 	{
 		code = 110,
-		actor_name = "奥野香耶"
+		actor_name = "Kaya Okuno"
 	},
 	{
 		code = 111,
-		actor_name = "上仓万实"
+		actor_name = "Mami Kamikura"
 	},
 	{
 		code = 112,
-		actor_name = "日冈夏海"
+		actor_name = "Natsumi Hioka"
 	},
 	{
 		code = 113,
-		actor_name = "下屋则子"
+		actor_name = "Noriko Shitaya"
 	},
 	{
 		code = 114,
-		actor_name = "日笠阳子"
+		actor_name = "Yoko Hikasa"
 	},
 	{
 		code = 115,
-		actor_name = "田中美海"
+		actor_name = "Minami Tanaka"
 	},
 	{
 		code = 116,
-		actor_name = "M・A・O"
+		actor_name = "Mao Ichimichi"
 	},
 	{
 		code = 117,
-		actor_name = "小泽亚李"
+		actor_name = "Ari Ozawa"
 	},
 	{
 		code = 118,
-		actor_name = "大野柚布子"
+		actor_name = "Yuko Ono"
 	},
 	{
 		code = 119,
-		actor_name = "MAKO"
+		actor_name = "Mako Sakurai"
 	},
 	{
 		code = 120,
@@ -482,291 +482,291 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 121,
-		actor_name = "石原夏织"
+		actor_name = "Kaori Ishihara"
 	},
 	{
 		code = 122,
-		actor_name = "稻村优奈"
+		actor_name = "Yuuna Inamura"
 	},
 	{
 		code = 123,
-		actor_name = "大桥彩香"
+		actor_name = "Ayaka Oohashi"
 	},
 	{
 		code = 124,
-		actor_name = "长谷川明子"
+		actor_name = "Akiko Hasegawa"
 	},
 	{
 		code = 125,
-		actor_name = "樱咲千依"
+		actor_name = "Chiyo Ousaki"
 	},
 	{
 		code = 126,
-		actor_name = "持月玲依"
+		actor_name = "Rei Mochizuki"
 	},
 	{
 		code = 127,
-		actor_name = "原田彩枫"
+		actor_name = "Sayaka Harada"
 	},
 	{
 		code = 128,
-		actor_name = "松浦知惠"
+		actor_name = "Chie Matsuura"
 	},
 	{
 		code = 129,
-		actor_name = "楠木灯"
+		actor_name = "Tomori Kusunoki"
 	},
 	{
 		code = 130,
-		actor_name = "山崎遥"
+		actor_name = "Haruka Yamazaki"
 	},
 	{
 		code = 131,
-		actor_name = "高桥李依"
+		actor_name = "Rie Takahashi"
 	},
 	{
 		code = 132,
-		actor_name = "白石晴香"
+		actor_name = "Haruka Shiraishi"
 	},
 	{
 		code = 133,
-		actor_name = "筏井かなえ"
+		actor_name = "Kanae Ikadai"
 	},
 	{
 		code = 134,
-		actor_name = "巽悠衣子"
+		actor_name = "Yuiko Tatsumi"
 	},
 	{
 		code = 135,
-		actor_name = "苍乃辉"
+		actor_name = "Hikaru Aono"
 	},
 	{
 		code = 136,
-		actor_name = "吉田圣子"
+		actor_name = "Seiko Yoshida"
 	},
 	{
 		code = 137,
-		actor_name = "井口裕香"
+		actor_name = "Yuka Iguchi"
 	},
 	{
 		code = 138,
-		actor_name = "斋藤千和"
+		actor_name = "Chiwa Saito"
 	},
 	{
 		code = 139,
-		actor_name = "阳向溜"
+		actor_name = "Ryuu Hinata"
 	},
 	{
 		code = 140,
-		actor_name = "八卷安奈"
+		actor_name = "Anna Yamaki"
 	},
 	{
 		code = 141,
-		actor_name = "谷野悠里子"
+		actor_name = "Yuriko Yano"
 	},
 	{
 		code = 142,
-		actor_name = "伊藤静"
+		actor_name = "Shizuka Ito"
 	},
 	{
 		code = 143,
-		actor_name = "坂井芳江"
+		actor_name = "Yoshie Sakai"
 	},
 	{
 		code = 144,
-		actor_name = "津田美波"
+		actor_name = "Minami Tsuda"
 	},
 	{
 		code = 145,
-		actor_name = "悠木碧"
+		actor_name = "Aoi Yuki"
 	},
 	{
 		code = 146,
-		actor_name = "种崎敦美"
+		actor_name = "Atsumi Tanezaki"
 	},
 	{
 		code = 147,
-		actor_name = "伊波杏树"
+		actor_name = "Anju Inami"
 	},
 	{
 		code = 148,
-		actor_name = "井上麻里奈"
+		actor_name = "Marina Inoue"
 	},
 	{
 		code = 149,
-		actor_name = "水桥香织"
+		actor_name = "Kaori Mizuhashi"
 	},
 	{
 		code = 150,
-		actor_name = "后藤沙绪里"
+		actor_name = "Saori Goto"
 	},
 	{
 		code = 151,
-		actor_name = "小堀幸"
+		actor_name = "Miyuki Kobori"
 	},
 	{
 		code = 152,
-		actor_name = "末柄里惠"
+		actor_name = "Rie Suegara"
 	},
 	{
 		code = 153,
-		actor_name = "嶋村侑"
+		actor_name = "Yuu Shimamura"
 	},
 	{
 		code = 154,
-		actor_name = "森永千才"
+		actor_name = "Chitose Morinaga"
 	},
 	{
 		code = 155,
-		actor_name = "礒部花凛"
+		actor_name = "Karin Isobe"
 	},
 	{
 		code = 156,
-		actor_name = "仪武佑子"
+		actor_name = "Yuuko Gibu"
 	},
 	{
 		code = 157,
-		actor_name = "水濑祈"
+		actor_name = "Inori Minase"
 	},
 	{
 		code = 158,
-		actor_name = "后藤麻衣"
+		actor_name = "Mai Goto"
 	},
 	{
 		code = 159,
-		actor_name = "椎名碧流"
+		actor_name = "Hekiru Shiina"
 	},
 	{
 		code = 160,
-		actor_name = "浅仓杏美"
+		actor_name = "Azumi Asakura"
 	},
 	{
 		code = 161,
-		actor_name = "藤田茜"
+		actor_name = "Akane Fujita"
 	},
 	{
 		code = 162,
-		actor_name = "斋藤绫"
+		actor_name = "Aya Saitou"
 	},
 	{
 		code = 163,
-		actor_name = "洲崎绫"
+		actor_name = "Aya Suzaki"
 	},
 	{
 		code = 164,
-		actor_name = "内田彩"
+		actor_name = "Aya Uchida"
 	},
 	{
 		code = 165,
-		actor_name = "田边留依"
+		actor_name = "Rui Tanabe"
 	},
 	{
 		code = 166,
-		actor_name = "大龟明日香"
+		actor_name = "Asuka Ohgame"
 	},
 	{
 		code = 167,
-		actor_name = "藤村鼓乃美"
+		actor_name = "Konomi Fujimura"
 	},
 	{
 		code = 168,
-		actor_name = "诸星堇"
+		actor_name = "Sumire Morohoshi"
 	},
 	{
 		code = 169,
-		actor_name = "青木瑠璃子"
+		actor_name = "Ruriko Aoki"
 	},
 	{
 		code = 170,
-		actor_name = "七瀬彩夏"
+		actor_name = "Ayaka Nanase"
 	},
 	{
 		code = 171,
-		actor_name = "藤沢玲香"
+		actor_name = "Reika Fujisawa"
 	},
 	{
 		code = 172,
-		actor_name = "河濑茉希"
+		actor_name = "Maki Kawase"
 	},
 	{
 		code = 173,
-		actor_name = "下地紫野"
+		actor_name = "Shino Shimoji"
 	},
 	{
 		code = 174,
-		actor_name = "生天目仁美"
+		actor_name = "Hitomi Nabatame"
 	},
 	{
 		code = 175,
-		actor_name = "安野希世乃"
+		actor_name = "Kiyono Yasuno"
 	},
 	{
 		code = 176,
-		actor_name = "绊爱"
+		actor_name = "Kizuna AI"
 	},
 	{
 		code = 177,
-		actor_name = "嵩马美步"
+		actor_name = "Miho Takauma"
 	},
 	{
 		code = 178,
-		actor_name = "岛袋美由利"
+		actor_name = "Miyuri Shimabukuro"
 	},
 	{
 		code = 179,
-		actor_name = "市之濑加那"
+		actor_name = "Kana Ichinose"
 	},
 	{
 		code = 180,
-		actor_name = "岩佐夏芽"
+		actor_name = "Natsume Iwasa"
 	},
 	{
 		code = 181,
-		actor_name = "和气杏未"
+		actor_name = "Azumi Waki"
 	},
 	{
 		code = 182,
-		actor_name = "内田真礼"
+		actor_name = "Maaya Uchida"
 	},
 	{
 		code = 183,
-		actor_name = "川澄绫子"
+		actor_name = "Ayako Kawasumi"
 	},
 	{
 		code = 184,
-		actor_name = "结名美月"
+		actor_name = "Mizuki Yuina"
 	},
 	{
 		code = 185,
-		actor_name = "原纱友里"
+		actor_name = "Sayuri Hara"
 	},
 	{
 		code = 186,
-		actor_name = "柳原可奈子"
+		actor_name = "Kanako Yanagihara"
 	},
 	{
 		code = 187,
-		actor_name = "真野步"
+		actor_name = "Ayumi Mano"
 	},
 	{
 		code = 188,
-		actor_name = "大和田仁美"
+		actor_name = "Hitomi Ohwada"
 	},
 	{
 		code = 189,
-		actor_name = "铃代纱弓"
+		actor_name = "Sayumi Suzushiro"
 	},
 	{
 		code = 190,
-		actor_name = "山村响"
+		actor_name = "Hibiku Yamamura"
 	},
 	{
 		code = 191,
-		actor_name = "高桥未奈美"
+		actor_name = "Minami Takahashi"
 	},
 	{
 		code = 192,
-		actor_name = "能登麻美子"
+		actor_name = "Mamiko Noto"
 	},
 	{
 		code = 193,
@@ -790,1082 +790,1018 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 198,
-		actor_name = "大桥歩夕"
+		actor_name = "Ayuru Ohashi"
 	},
 	{
 		code = 199,
-		actor_name = "久保由利香"
+		actor_name = "Yurika Kubo"
 	},
 	{
 		code = 200,
-		actor_name = "长谷川里桃"
+		actor_name = "Rimo Hasegawa"
 	},
 	{
 		code = 201,
-		actor_name = "清水彩香"
+		actor_name = "Ayaka Shimizu"
 	},
 	{
 		code = 202,
-		actor_name = "立花理香 "
+		actor_name = "Rika Tachibana"
 	},
 	{
 		code = 203,
-		actor_name = "渡部纱弓 "
+		actor_name = "Sayumi Watabe"
 	},
 	{
 		code = 204,
-		actor_name = "金子彩花 "
+		actor_name = "Sayaka Kaneko"
 	},
 	{
 		code = 205,
-		actor_name = "紫苑雪"
+		actor_name = "Yuki Shion"
 	},
 	{
 		code = 206,
-		actor_name = "白上吹雪"
+		actor_name = "Fubuki Shirakami"
 	},
 	{
 		code = 207,
-		actor_name = "夏色祭"
+		actor_name = "Matsuri Natsuiro"
 	},
 	{
 		code = 208,
-		actor_name = "湊阿库娅"
+		actor_name = "Minato Aqua"
 	},
 	{
 		code = 209,
-		actor_name = "大神澪"
+		actor_name = "Ookami Mio"
 	},
 	{
 		code = 210,
-		actor_name = "百鬼绫目"
+		actor_name = "Nakiri Ayame"
 	},
 	{
 		code = 211,
-		actor_name = "时乃空"
+		actor_name = "Tokino Sora"
 	},
 	{
 		code = 212,
-		actor_name = "紫咲诗音"
+		actor_name = "Murasaki Shion"
 	},
 	{
 		code = 213,
-		actor_name = "岩仓梓"
+		actor_name = "Azusa Iwakura"
 	},
 	{
 		code = 214,
-		actor_name = "矢作纱友里"
+		actor_name = "Sayuri Yahagi"
 	},
 	{
 		code = 215,
-		actor_name = "远藤绫"
+		actor_name = "Aya Endou"
 	},
 	{
 		code = 216,
-		actor_name = "武田麻里子"
+		actor_name = "Mariko Takeda"
 	},
 	{
 		code = 217,
-		actor_name = "小松郁"
+		actor_name = "Kaoru Komatsu"
 	},
 	{
 		code = 218,
-		actor_name = "桃河里香"
+		actor_name = "Rika Momokawa"
 	},
 	{
 		code = 219,
-		actor_name = "吉冈麻耶"
+		actor_name = "Maya Yoshioka"
 	},
 	{
 		code = 220,
-		actor_name = "井泽诗织"
+		actor_name = "Shiori Izawa"
 	},
 	{
 		code = 221,
-		actor_name = "都丸千代"
+		actor_name = "Chiyo Tomaru"
 	},
 	{
 		code = 222,
-		actor_name = "绪乃冬华"
+		actor_name = "Fuyuka Ono"
 	},
 	{
 		code = 223,
-		actor_name = "田泽茉纯"
+		actor_name = "Masumi Tazawa"
 	},
 	{
 		code = 224,
-		actor_name = "中村樱"
+		actor_name = "Sakura Nakamura"
 	},
 	{
 		code = 225,
-		actor_name = "法伊鲁兹·爱"
+		actor_name = "Ai Fairouz"
 	},
 	{
 		code = 226,
-		actor_name = "长谷川育美"
+		actor_name = "Ikumi Hasegawa"
 	},
 	{
 		code = 227,
-		actor_name = "首藤志奈"
+		actor_name = "Yukina Shuto"
 	},
 	{
 		code = 228,
-		actor_name = "原优子"
+		actor_name = "Yuuko Hara"
 	},
 	{
 		code = 229,
-		actor_name = "冈咲美保"
+		actor_name = "Miho Okasaki"
 	},
 	{
 		code = 230,
-		actor_name = "武田罗梨沙多胡"
+		actor_name = "Takeda Rarisa Tago"
 	},
 	{
 		code = 231,
-		actor_name = "川崎芽衣子"
+		actor_name = "Meiko Kawasaki"
 	},
 	{
 		code = 232,
-		actor_name = "黑木穗乃香"
+		actor_name = "Honoka Kuroki"
 	},
 	{
 		code = 233,
-		actor_name = "明日叶yomogi"
+		actor_name = "Yomogi Ashitaba"
 	},
 	{
 		code = 234,
-		actor_name = "幸村惠理"
+		actor_name = "Eri Yukimura"
 	},
 	{
 		code = 235,
-		actor_name = "高野麻美"
+		actor_name = "Asami Takano"
 	},
 	{
 		code = 236,
-		actor_name = "甲斐田裕子"
+		actor_name = "Yuko Kaida"
 	},
 	{
 		code = 237,
-		actor_name = "松冈由贵"
+		actor_name = "Yuki Matsuoka"
 	},
 	{
 		code = 238,
-		actor_name = "牧野由依"
+		actor_name = "Yui Makino"
 	},
 	{
 		code = 239,
-		actor_name = "水泽史绘 "
+		actor_name = "Fumie Mizusawa"
 	},
 	{
 		code = 240,
-		actor_name = "西明日香"
+		actor_name = "Asuka Nishi"
 	},
 	{
 		code = 241,
-		actor_name = "大空直美"
+		actor_name = "Naomi Ohzora"
 	},
 	{
 		code = 242,
-		actor_name = "田口宏子"
+		actor_name = "Hiroko Taguchi"
 	},
 	{
 		code = 243,
-		actor_name = "近藤玲奈"
+		actor_name = "Reina Kondo"
 	},
 	{
 		code = 244,
-		actor_name = "关根瞳"
+		actor_name = "Hitomi Sekine"
 	},
 	{
 		code = 245,
-		actor_name = "小岩井小鸟"
+		actor_name = "Kotori Koiwai"
 	},
 	{
 		code = 246,
-		actor_name = "峰田茉优"
+		actor_name = "Mayu Mineda"
 	},
 	{
 		code = 247,
-		actor_name = "天野聪美"
+		actor_name = "Satomi Amano"
 	},
 	{
 		code = 248,
-		actor_name = "高桥春香"
+		actor_name = "Haruka Takahashi"
 	},
 	{
 		code = 249,
-		actor_name = "汐见雪菜"
+		actor_name = "Yukina Shiomi"
 	},
 	{
 		code = 250,
-		actor_name = "桑岛法子"
+		actor_name = "Houko Kuwashima"
 	},
 	{
 		code = 251,
-		actor_name = "野中蓝"
+		actor_name = "Ai Nonaka"
 	},
 	{
 		code = 252,
-		actor_name = "相泽舞"
+		actor_name = "Mai Aizawa"
 	},
 	{
 		code = 253,
-		actor_name = "佐藤朱"
+		actor_name = "Akemi Sato"
 	},
 	{
 		code = 254,
-		actor_name = "原由实"
+		actor_name = "Yumi Hara"
 	},
 	{
 		code = 255,
-		actor_name = "新田日和"
+		actor_name = "Hiyori Nitta"
 	},
 	{
 		code = 256,
-		actor_name = "七濑彩夏"
+		actor_name = "Ayaka Nanase"
 	},
 	{
 		code = 257,
-		actor_name = "木村千咲"
+		actor_name = "Chisa Kimura"
 	},
 	{
 		code = 258,
-		actor_name = "远野光"
+		actor_name = "Hikaru Tono"
 	},
 	{
 		code = 259,
-		actor_name = "西本里美"
+		actor_name = "Rimi Nishimoto"
 	},
 	{
 		code = 260,
-		actor_name = "森嶋优花"
+		actor_name = "Yuuka Morishima"
 	},
 	{
 		code = 261,
-		actor_name = "藤本彩花"
+		actor_name = "Ayaka Fujimoto"
 	},
 	{
 		code = 262,
-		actor_name = "吉冈美咲"
+		actor_name = "Misaki Yoshioka"
 	},
 	{
 		code = 263,
-		actor_name = "柿村桃希"
+		actor_name = "Momoki Kakimura"
 	},
 	{
 		code = 264,
-		actor_name = "山田麻莉奈"
+		actor_name = "Marina Yamada"
 	},
 	{
 		code = 265,
-		actor_name = "小坂井祐莉绘"
+		actor_name = "Yurie Kozakai"
 	},
 	{
 		code = 266,
-		actor_name = "荻野叶月"
+		actor_name = "Hazuki Ogino"
 	},
 	{
 		code = 267,
-		actor_name = "杉浦诗织"
+		actor_name = "Shiori Sugiura"
 	},
 	{
 		code = 268,
-		actor_name = "永野爱理"
+		actor_name = "Airi Eino"
 	},
 	{
 		code = 269,
-		actor_name = "古贺葵"
+		actor_name = "Aoi Koga"
 	},
 	{
 		code = 270,
-		actor_name = "平田宏美"
+		actor_name = "Hiromi Hirata"
 	},
 	{
 		code = 271,
-		actor_name = "田中贵子"
+		actor_name = "Takako Tanaka"
 	},
 	{
 		code = 272,
-		actor_name = "本渡枫"
+		actor_name = "Kaede Hondo"
 	},
 	{
 		code = 273,
-		actor_name = "富田美忧 "
+		actor_name = "Miyu Tomita"
 	},
 	{
 		code = 274,
-		actor_name = "赤尾光"
+		actor_name = "Hikaru Akao"
 	},
 	{
 		code = 275,
-		actor_name = "岭内知美"
+		actor_name = "Tomomi Mineuchi"
 	},
 	{
 		code = 276,
-		actor_name = "筱原侑"
+		actor_name = "Sasahara Yuu"
 	},
 	{
 		code = 277,
-		actor_name = "並木樱"
+		actor_name = "Sakura Namiki"
 	},
 	{
 		code = 278,
-		actor_name = "美波和嘉菜"
+		actor_name = "Wakana Minami"
 	},
 	{
 		code = 279,
-		actor_name = "伊藤彩沙"
+		actor_name = "Ayasa Itou"
 	},
 	{
 		code = 280,
-		actor_name = "三泽纱千香"
+		actor_name = "Sachika Misawa"
 	},
 	{
 		code = 281,
-		actor_name = "若林直美"
+		actor_name = "Naomi Wakabayashi"
 	},
 	{
 		code = 282,
-		actor_name = "河野日和"
+		actor_name = "Hiyori Kono"
 	},
 	{
 		code = 283,
-		actor_name = "凉本秋穗"
+		actor_name = "Akiho Suzumoto"
 	},
 	{
 		code = 284,
-		actor_name = "早见沙织"
+		actor_name = "Saori Hayami"
 	},
 	{
 		code = 285,
-		actor_name = "河井晴菜"
+		actor_name = "Haruna Kawai"
 	},
 	{
 		code = 286,
-		actor_name = "户田惠"
+		actor_name = "Megumi Toda"
 	},
 	{
 		code = 287,
-		actor_name = "野口瑠璃子"
+		actor_name = "Ruriko Noguchi"
 	},
 	{
 		code = 288,
-		actor_name = "芹泽优"
+		actor_name = "Yu Serizawa"
 	},
 	{
 		code = 289,
-		actor_name = "藤原夏海"
+		actor_name = "Natsumi Fujiwara"
 	},
 	{
 		code = 290,
-		actor_name = "藤井美波"
+		actor_name = "Minami Fujii"
 	},
 	{
 		code = 291,
-		actor_name = "前田佳织里"
+		actor_name = "Kaori Maeda"
 	},
 	{
 		code = 292,
-		actor_name = "岛田爱野"
+		actor_name = "Aino Shimada"
 	},
 	{
 		code = 293,
-		actor_name = "宫本侑芽"
+		actor_name = "Yume Miyamoto"
 	},
 	{
 		code = 294,
-		actor_name = "三森铃子"
+		actor_name = "Suzuko Mimori"
 	},
 	{
 		code = 295,
-		actor_name = "若山诗音"
+		actor_name = "Shion Wakayama"
 	},
 	{
 		code = 296,
-		actor_name = "安济知佳"
+		actor_name = "Chika Anzai"
 	},
 	{
 		code = 297,
-		actor_name = "原奈津子"
+		actor_name = "Natsuko Hara"
 	},
 	{
 		code = 298,
-		actor_name = "松田飒水"
+		actor_name = "Satsumi Matsuda"
 	},
 	{
 		code = 299,
-		actor_name = "稗田宁宁"
+		actor_name = "Nene Hieda"
 	},
 	{
 		code = 300,
-		actor_name = "野村真悠华"
+		actor_name = "Mayuka Nomura"
 	},
 	{
 		code = 301,
-		actor_name = "伊达朱里纱"
+		actor_name = "Arisa Date"
 	},
 	{
 		code = 302,
-		actor_name = "风间万裕子"
+		actor_name = "Mayuko Kazama"
 	},
 	{
 		code = 303,
-		actor_name = "绫濑有"
+		actor_name = "Yuu Ayase"
 	},
 	{
 		code = 304,
-		actor_name = "花井美春"
+		actor_name = "Miharu Hanai"
 	},
 	{
 		code = 305,
-		actor_name = "茜屋日海夏"
+		actor_name = "Himika Akaneya"
 	},
 	{
 		code = 306,
-		actor_name = "久保田未梦"
+		actor_name = "Miyu Kubota"
 	},
 	{
 		code = 307,
-		actor_name = "芝崎典子"
+		actor_name = "Noriko Shibasaki"
 	},
 	{
 		code = 308,
-		actor_name = "会泽纱弥"
+		actor_name = "Saya Aizawa"
 	},
 	{
 		code = 309,
-		actor_name = "大森日雅"
+		actor_name = "Nichika Oomori"
 	},
 	{
 		code = 310,
-		actor_name = "井上穗乃花"
+		actor_name = "Honoka Inoue"
 	},
 	{
 		code = 311,
-		actor_name = "田中有纪"
+		actor_name = "Yuki Tanaka"
 	},
 	{
 		code = 312,
-		actor_name = "三上枝织"
+		actor_name = "Shiori Mikami"
 	},
 	{
 		code = 313,
-		actor_name = "关根明良"
+		actor_name = "Akira Sekine"
 	},
 	{
 		code = 314,
-		actor_name = "杉山里穗"
+		actor_name = "Riho Sugiyama"
 	},
 	{
 		code = 315,
-		actor_name = "中岛由贵"
+		actor_name = "Yuki Nakashima"
 	},
 	{
 		code = 316,
-		actor_name = "佐藤美由希"
+		actor_name = "Miyuki Satou"
 	},
 	{
 		code = 317,
-		actor_name = "伊藤美来"
+		actor_name = "Miku Itou"
 	},
 	{
 		code = 318,
-		actor_name = "早濑莉花"
+		actor_name = "Marika Hayase"
 	},
 	{
 		code = 319,
-		actor_name = "东城日沙子"
+		actor_name = "Hisako Toujou"
 	},
-	{
-		code = 320,
-		actor_name = "宴宁"
-	},
-	{
-		code = 321,
-		actor_name = "多多poi"
-	},
-	{
-		code = 322,
-		actor_name = "陈阳"
-	},
-	{
-		code = 323,
-		actor_name = "菊花花"
-	},
-	{
-		code = 324,
-		actor_name = "龟娘"
-	},
-	{
+	[325] = {
 		code = 325,
-		actor_name = "辻步美"
+		actor_name = "Ayumi Tsuji"
 	},
-	{
+	[326] = {
 		code = 326,
-		actor_name = "藤井雪代"
+		actor_name = "Yukiyo Fujii"
 	},
-	{
+	[327] = {
 		code = 327,
-		actor_name = "村上真夏"
+		actor_name = "Manatsu Murakami"
 	},
-	{
+	[328] = {
 		code = 328,
-		actor_name = "麻仓桃"
+		actor_name = "Momo Asakura"
 	},
-	{
+	[329] = {
 		code = 329,
-		actor_name = "柚木凉香"
+		actor_name = "Ryouka Yuzuki"
 	},
-	{
+	[330] = {
 		code = 330,
-		actor_name = "千本木彩花"
+		actor_name = "Sayaka Senbongi"
 	},
-	{
+	[331] = {
 		code = 331,
-		actor_name = "近藤唯"
+		actor_name = "Yui Kondou"
 	},
-	{
+	[332] = {
 		code = 332,
-		actor_name = "丸冈和佳奈"
+		actor_name = "Wakana Maruoka"
 	},
-	{
+	[333] = {
 		code = 333,
-		actor_name = "指出毬亚"
+		actor_name = "Maria Sashide"
 	},
-	{
+	[334] = {
 		code = 334,
-		actor_name = "夏吉优子"
+		actor_name = "Yuuko Natsuyoshi"
 	},
-	{
+	[335] = {
 		code = 335,
-		actor_name = "前川凉子"
+		actor_name = "Ryouko Maekawa"
 	},
-	{
+	[336] = {
 		code = 336,
-		actor_name = "法元明菜"
+		actor_name = "Akina Houmoto"
 	},
-	{
+	[337] = {
 		code = 337,
-		actor_name = "爱美"
+		actor_name = "Aimi"
 	},
-	{
+	[338] = {
 		code = 338,
-		actor_name = "大木咲绘子"
+		actor_name = "Saeko Ooki"
 	},
-	{
+	[339] = {
 		code = 339,
-		actor_name = "饭田光"
+		actor_name = "Hikaru Iida"
 	},
-	{
+	[340] = {
 		code = 340,
-		actor_name = "铃木爱奈"
+		actor_name = "Aina Suzuki"
 	},
-	{
+	[341] = {
 		code = 341,
-		actor_name = "菱川花菜"
+		actor_name = "Hana Hishikawa"
 	},
-	{
+	[342] = {
 		code = 342,
-		actor_name = "和多田美咲"
+		actor_name = "Misaki Watada"
 	},
-	{
+	[343] = {
 		code = 343,
-		actor_name = "相良茉优"
+		actor_name = "Mayu Sagara"
 	},
-	{
+	[344] = {
 		code = 344,
-		actor_name = "白城奈央"
+		actor_name = "Nao Shiraki"
 	},
-	{
+	[345] = {
 		code = 345,
-		actor_name = "木野日菜"
+		actor_name = "Hina Kino"
 	},
-	{
+	[346] = {
 		code = 346,
-		actor_name = "田中爱美"
+		actor_name = "Aimi Tanaka"
 	},
-	{
+	[347] = {
 		code = 347,
-		actor_name = "田中那实"
+		actor_name = "Tomomi Tanaka"
 	},
-	{
+	[348] = {
 		code = 348,
-		actor_name = "野口百合"
+		actor_name = "Yuri Noguchi"
 	},
-	{
+	[349] = {
 		code = 349,
-		actor_name = "照井春佳"
+		actor_name = "Haruka Terui"
 	},
-	{
+	[350] = {
 		code = 350,
-		actor_name = "羊宫妃那"
+		actor_name = "Hina Yomiya"
 	},
-	{
+	[351] = {
 		code = 351,
-		actor_name = "土屋李央"
+		actor_name = "Rio Tsuchiya"
 	},
-	{
+	[352] = {
 		code = 352,
-		actor_name = "村上奈津实"
+		actor_name = "Natsumi Murakami"
 	},
-	{
+	[353] = {
 		code = 353,
-		actor_name = "田中千惠美"
+		actor_name = "Chiemi Tanaka"
 	},
-	{
+	[354] = {
 		code = 354,
-		actor_name = "贯井柚佳"
+		actor_name = "Yuka Nukui"
 	},
-	{
+	[355] = {
 		code = 355,
 		actor_name = "张琦"
 	},
-	{
+	[356] = {
 		code = 356,
 		actor_name = "Yukana"
 	},
-	{
+	[357] = {
 		code = 357,
-		actor_name = "高木美佑"
+		actor_name = "Miyu Takagi"
 	},
-	{
+	[358] = {
 		code = 358,
-		actor_name = "樱庭有纱"
+		actor_name = "Arisa Sakuraba"
 	},
-	{
+	[359] = {
 		code = 359,
-		actor_name = "进藤天音"
+		actor_name = "Amane Shindo"
 	},
-	{
+	[360] = {
 		code = 360,
-		actor_name = "春花兰"
+		actor_name = "Ran Haruka"
 	},
-	{
+	[361] = {
 		code = 361,
-		actor_name = "衣川里佳"
+		actor_name = "Rika Kinugawa"
 	},
-	{
+	[362] = {
 		code = 362,
-		actor_name = "冰青"
+		actor_name = "Hyosei"
 	},
-	{
+	[363] = {
 		code = 363,
-		actor_name = "爱原亚里沙"
+		actor_name = "Arisa Aihara"
 	},
-	{
+	[364] = {
 		code = 364,
-		actor_name = "春野杏"
+		actor_name = "Anzu Haruno"
 	},
-	{
+	[365] = {
 		code = 365,
-		actor_name = "香月遥"
+		actor_name = "Haruka Kouduki"
 	},
-	{
-		code = 366,
-		actor_name = "村雨"
-	},
-	{
-		code = 367,
-		actor_name = "秦紫翼"
-	},
-	{
+	[368] = {
 		code = 368,
-		actor_name = "蓝原琴美"
+		actor_name = "Kotomi Aihara"
 	},
-	{
+	[369] = {
 		code = 369,
-		actor_name = "津田里穗"
+		actor_name = "Riho Tsuda"
 	},
-	{
+	[370] = {
 		code = 370,
-		actor_name = "富士原晴乃"
+		actor_name = "Haruno Fujiwara"
 	},
-	{
+	[371] = {
 		code = 371,
-		actor_name = "青山吉能"
+		actor_name = "Yoshino Aoyama"
 	},
-	{
+	[372] = {
 		code = 372,
-		actor_name = "松井惠理子"
+		actor_name = "Eriko Matsui"
 	},
-	{
+	[373] = {
 		code = 373,
-		actor_name = "泽田姬"
+		actor_name = "Hime Sawada"
 	},
-	{
+	[374] = {
 		code = 374,
-		actor_name = "齐藤朱夏"
+		actor_name = "Shuka Saito"
 	},
-	{
+	[375] = {
 		code = 375,
-		actor_name = "守屋亨香"
+		actor_name = "Kyoka Moriya"
 	},
-	{
+	[376] = {
 		code = 376,
-		actor_name = "高桥花林"
+		actor_name = "Karin Takahashi"
 	},
-	{
+	[377] = {
 		code = 377,
-		actor_name = "天海由梨奈"
+		actor_name = "Yurina Amami"
 	},
-	{
+	[378] = {
 		code = 378,
-		actor_name = "山根绮"
+		actor_name = "Aya Yamane"
 	},
-	{
+	[379] = {
 		code = 379,
-		actor_name = "和泉风花"
+		actor_name = "Fuuka Izumi"
 	},
-	{
+	[380] = {
 		code = 380,
-		actor_name = "岩桥由佳"
+		actor_name = "Yuka Iwahashi"
 	},
-	{
+	[381] = {
 		code = 381,
 		actor_name = "Machico"
 	},
-	{
+	[382] = {
 		code = 382,
-		actor_name = "野中深爱"
+		actor_name = "Mio Nonaka"
 	},
-	{
+	[383] = {
 		code = 383,
-		actor_name = "仓持若菜"
+		actor_name = "Wakana Kuramochi"
 	},
-	{
+	[384] = {
 		code = 384,
-		actor_name = "HINATA YUKA"
+		actor_name = "Yuka Hinata"
 	},
-	{
+	[385] = {
 		code = 385,
-		actor_name = "佐藤日向"
+		actor_name = "Hinata Satou"
 	},
-	{
+	[386] = {
 		code = 386,
-		actor_name = "川口莉奈"
+		actor_name = "Rina Kawaguchi"
 	},
-	{
+	[387] = {
 		code = 387,
-		actor_name = "叶山郁美"
+		actor_name = "Ikumi Hayama"
 	},
-	{
+	[388] = {
 		code = 388,
-		actor_name = "原田瞳"
+		actor_name = "Hitomi Harada"
 	},
-	{
+	[389] = {
 		code = 389,
-		actor_name = "各务华梨"
+		actor_name = "Karin Kagami"
 	},
-	{
+	[390] = {
 		code = 390,
-		actor_name = "佐伯伊织"
+		actor_name = "Iori Saeki"
 	},
-	{
+	[391] = {
 		code = 391,
-		actor_name = "深川瑠华"
+		actor_name = "Ruka Fukagawa"
 	},
-	{
+	[392] = {
 		code = 392,
-		actor_name = "依田菜津"
+		actor_name = "Natsu Yorita"
 	},
-	{
+	[393] = {
 		code = 393,
-		actor_name = "佐土原香织"
+		actor_name = "Kaori Sadohara"
 	},
-	{
+	[394] = {
 		code = 394,
-		actor_name = "又吉爱"
+		actor_name = "Ai Matayoshi"
 	},
-	{
+	[395] = {
 		code = 395,
-		actor_name = "佐佐木未来"
+		actor_name = "Mikoi Sasaki"
 	},
-	{
+	[396] = {
 		code = 396,
-		actor_name = "牧野天音"
+		actor_name = "Amane Makino"
 	},
-	{
+	[397] = {
 		code = 397,
-		actor_name = "羽月理惠"
+		actor_name = "Rie Hazuki"
 	},
-	{
+	[398] = {
 		code = 398,
-		actor_name = "户松遥"
+		actor_name = "Haruka Tomatsu"
 	},
-	{
+	[399] = {
 		code = 399,
-		actor_name = "佳穗成美"
+		actor_name = "Narumi Kaho"
 	},
-	{
+	[400] = {
 		code = 400,
 		actor_name = "Marika"
 	},
-	{
+	[401] = {
 		code = 401,
-		actor_name = "西田望见"
+		actor_name = "Nozomi Nishida"
 	},
-	{
+	[402] = {
 		code = 402,
-		actor_name = "岩井映美里"
+		actor_name = "Emiri Iwai"
 	},
-	{
+	[403] = {
 		code = 403,
-		actor_name = "真野美月"
+		actor_name = "Mizuki Mano"
 	},
-	{
+	[404] = {
 		code = 404,
-		actor_name = "佐仓薰"
+		actor_name = "Kaoru Sakura"
 	},
-	{
+	[405] = {
 		code = 405,
-		actor_name = "丰崎爱生"
+		actor_name = "Aki Toyosaki"
 	},
-	{
+	[406] = {
 		code = 406,
-		actor_name = "日野麻里"
+		actor_name = "Mari Hino"
 	},
-	{
+	[407] = {
 		code = 407,
-		actor_name = "菊池纱矢香"
+		actor_name = "Sayaka Kikuchi"
 	},
-	{
+	[408] = {
 		code = 408,
-		actor_name = "高岸美里亚"
+		actor_name = "Miria Takagishi"
 	},
-	{
+	[409] = {
 		code = 409,
-		actor_name = "栗坂南美"
+		actor_name = "Minami Kurisaka"
 	},
-	{
-		code = 410,
-		actor_name = "杨梦露"
-	},
-	{
-		code = 411,
-		actor_name = "陈雨"
-	},
-	{
-		code = 412,
-		actor_name = "四白"
-	},
-	{
-		code = 413,
-		actor_name = "陈婷婷"
-	},
-	{
-		code = 414,
-		actor_name = "刘雯"
-	},
-	{
+	[415] = {
 		code = 415,
-		actor_name = "鹫见友美Jiena"
+		actor_name = "Tomomi Jiena Sumi"
 	},
-	{
+	[416] = {
 		code = 416,
-		actor_name = "伊驹百合绘"
+		actor_name = "Yurie Igoma"
 	},
-	{
+	[417] = {
 		code = 417,
-		actor_name = "立花日菜"
+		actor_name = "Hina Tachibana"
 	},
-	{
+	[418] = {
 		code = 418,
-		actor_name = "潘惠美"
+		actor_name = "Megumi Han"
 	},
-	{
+	[419] = {
 		code = 419,
-		actor_name = "宫咲明里"
+		actor_name = "Akari Miyazaki"
 	},
-	{
+	[420] = {
 		code = 420,
-		actor_name = "平山笑美"
+		actor_name = "Emi Hirayama"
 	},
-	{
+	[421] = {
 		code = 421,
-		actor_name = "齐藤佑圭"
+		actor_name = "Yuka Saito"
 	},
-	{
+	[422] = {
 		code = 422,
-		actor_name = "小市真琴"
+		actor_name = "Makoto Koichi"
 	},
-	{
+	[423] = {
 		code = 423,
-		actor_name = "美坂朱音"
+		actor_name = "Akane Misaka"
 	},
-	{
+	[424] = {
 		code = 424,
-		actor_name = "伊藤结衣奈"
+		actor_name = "Yuina Ito"
 	},
-	{
+	[425] = {
 		code = 425,
-		actor_name = "月城日花"
+		actor_name = "Hika Tsukishiro"
 	},
-	{
+	[426] = {
 		code = 426,
-		actor_name = "直田姬奈"
+		actor_name = "Hina Suguta"
 	},
-	{
+	[427] = {
 		code = 427,
-		actor_name = "涩谷彩乃"
+		actor_name = "Ayano Shibuya"
 	},
-	{
+	[428] = {
 		code = 428,
-		actor_name = "德井青空"
+		actor_name = "Sora Tokui"
 	},
-	{
+	[429] = {
 		code = 429,
-		actor_name = "柚木燕"
+		actor_name = "Tsubame Yuzuki"
 	},
-	{
+	[430] = {
 		code = 430,
-		actor_name = "稻垣好"
+		actor_name = "Konomi Inagaki"
 	},
-	{
+	[431] = {
 		code = 431,
-		actor_name = "十二稜子"
+		actor_name = "Ryouko Jyuni"
 	},
-	{
+	[432] = {
 		code = 432,
-		actor_name = "汐入明日香"
+		actor_name = "Asuka Shioiri"
 	},
-	{
+	[433] = {
 		code = 433,
-		actor_name = "伊藤加奈惠"
+		actor_name = "Kanae Ito"
 	},
-	{
+	[434] = {
 		code = 434,
-		actor_name = "名冢佳织"
+		actor_name = "Kaori Nazuka"
 	},
-	{
+	[435] = {
 		code = 435,
-		actor_name = "恒松步"
+		actor_name = "Ayumi Tsunematsu"
 	},
-	{
+	[436] = {
 		code = 436,
-		actor_name = "新井里美"
+		actor_name = "Satomi Arai"
 	},
-	{
+	[437] = {
 		code = 437,
-		actor_name = "菅野真衣"
+		actor_name = "Mai Kanno"
 	},
-	{
+	[438] = {
 		code = 438,
-		actor_name = "寺泽百花"
+		actor_name = "Momoka Terasawa"
 	},
-	{
+	[439] = {
 		code = 439,
-		actor_name = "水野朔"
+		actor_name = "Saku Mizuno"
 	},
-	{
+	[440] = {
 		code = 440,
-		actor_name = "咲川雏乃"
+		actor_name = "Hinano Sakikawa"
 	},
-	{
+	[441] = {
 		code = 441,
-		actor_name = "朝井彩加"
+		actor_name = "Ayaka Asai"
 	},
-	{
+	[442] = {
 		code = 442,
-		actor_name = "结川麻希"
+		actor_name = "Asaki Yuikawa"
 	},
-	{
+	[443] = {
 		code = 443,
-		actor_name = "藤本侑里"
+		actor_name = "Yuri Fujimoto"
 	},
-	{
+	[444] = {
 		code = 444,
-		actor_name = "永濑安娜"
+		actor_name = "Anna Nagase"
 	},
-	{
+	[445] = {
 		code = 445,
-		actor_name = "平塚纱依"
+		actor_name = "Sae Hiratsuka"
 	},
-	{
+	[446] = {
 		code = 446,
-		actor_name = "橘杏咲"
+		actor_name = "Azusa Tachibana"
 	},
-	{
+	[447] = {
 		code = 447,
-		actor_name = "花岩香奈"
+		actor_name = "Kana Hanaiwa"
 	},
-	{
+	[448] = {
 		code = 448,
-		actor_name = "寺崎裕香"
+		actor_name = "Yuka Terasaki"
 	},
-	{
+	[449] = {
 		code = 449,
-		actor_name = "三川华月"
+		actor_name = "Haruna Mikawa"
 	},
-	{
+	[450] = {
 		code = 450,
-		actor_name = "内田爱美"
+		actor_name = "Mami Uchida"
 	},
-	{
+	[451] = {
 		code = 451,
-		actor_name = "金泽舞"
+		actor_name = "Mai Kanazawa"
 	},
-	{
+	[452] = {
 		code = 452,
-		actor_name = "米泽圆"
+		actor_name = "Madoka Yonezawa"
 	},
-	{
+	[453] = {
 		code = 453,
-		actor_name = "薄井友里"
+		actor_name = "Yuri Usui"
 	},
-	{
+	[454] = {
 		code = 454,
-		actor_name = "樱木tsugumi"
+		actor_name = "Tsugumi Sakuragi"
 	},
-	{
-		code = 455,
-		actor_name = "徐慧"
-	},
-	{
-		code = 456,
-		actor_name = "阿妄"
-	},
-	{
-		code = 457,
-		actor_name = "一口井"
-	},
-	{
-		code = 458,
-		actor_name = "葛子瑞"
-	},
-	{
+	[459] = {
 		code = 459,
-		actor_name = "花泽香菜"
+		actor_name = "Kana Hanazawa"
 	},
-	{
+	[460] = {
 		code = 460,
-		actor_name = "广濑有纪 "
+		actor_name = "Yuuki Hirose "
 	},
-	{
+	[461] = {
 		code = 461,
-		actor_name = "葵梓 "
+		actor_name = "Azusa Aoi"
 	},
-	{
+	[462] = {
 		code = 462,
-		actor_name = "引坂理绘 "
+		actor_name = "Rie Hikisaka"
 	},
-	{
+	[463] = {
 		code = 463,
-		actor_name = "井上喜久子"
+		actor_name = "Kikuko Inoue"
 	},
-	{
+	[464] = {
 		code = 464,
-		actor_name = "伊濑茉莉也"
+		actor_name = "Mariya Ise"
 	},
-	{
+	[465] = {
 		code = 465,
-		actor_name = "根本京里"
+		actor_name = "Miyari Nemoto"
 	},
-	{
+	[466] = {
 		code = 466,
-		actor_name = "松田利冴"
+		actor_name = "Risae Matsuda"
 	},
-	{
+	[467] = {
 		code = 467,
-		actor_name = "春咲暖"
+		actor_name = "Non Harusaki"
 	}
 }

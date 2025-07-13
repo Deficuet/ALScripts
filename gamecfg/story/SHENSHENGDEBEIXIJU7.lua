@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-italy",
-			say = "晚间19:30:00",
+			say = "Nighttime",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			actor = 203070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "怎..怎么回事！？哪里来的攻击？！",
+			say = "What?! What is the meaning of this?!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "来自皇家的贵族小姐啊~你可能还没了解清楚目前的局面——",
+			say = "Sorry, what was your name again? Oh, right, \"York.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "由于任务需要，能麻烦你，在这里被我们击败吗？",
+			say = "Apologies, but we'll have to take you out in the name of the Empire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "此时，约克等人才发现自己已被四面八方涌来的量产型帝国舰艇包围了",
+			say = "Fleet after fleet of mass-produced Sardegnian ships appeared out of thin air, completely surrounding the Royal fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "对不起，真的是任务需要，所以…",
+			say = "Sorry about this. We're just following orders~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利用侦察任务，将皇家舰队诱导至此么...！",
+			say = "So this was your plan all along! To lead us here and ambush us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "与此同时，其他搜查舰队应该都被我们控制住了，你们没有机会发出无线电的",
+			say = "Yep. Your other fleets are also being dealt with as we speak. Also, we never intended to let you contact each other in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "束手就擒吧",
+			say = "Now, lay down your arms and surrender.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，愚蠢之人，让你们一窥「净化之战」的真实也无妨",
+			say = "Hahaha! If this is how you want it, then I shall reveal to you the true purpose of this Operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照计划，第二兵装展开，概念武器充能——",
+			say = "Gaze upon my Secondary Weapons, granted to me by Her Majesty herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "....诶？",
+			say = "What...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“若撒丁帝国图谋陆间海的霸权，推翻了与皇家共同作战协议——”",
+			say = "Here I stand, trapped in the lion's den, surrounded by the wicked machinations of these fiends. Everything rests on this! I alone stand against the impending ruin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "届时，就动用重型魔导巡洋舰真正的力量，将审判之箭投射至天际",
+			say = "Yes, Her Majesty's orders were clear - if the Sardegna Empire betray you during this joint operation in their quest to subjugate the Mediterranean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "漆黑的魔炮使，约克，概念武器充能完毕",
+			say = "... then use your Force to reveal the blackness of their treachery with these Divine Cannons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 203070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "去吧，魔炮弹——Bethlehem！",
+			say = "Cannons of Bethlehem, I call upon you! Fireeeeeeeeee!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -347,7 +347,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "随着炮火声，一朵红色的巨大礼花弹在高空中绽放，发出的耀眼光芒照亮了数十海里的夜空",
+			say = "The shell launched into the night sky and burst, casting a light that spanned tens of miles as if turning night into day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "什么？！主炮里居然装填着礼花弹！",
+			say = "What...?! They prepared signal rounds ahead of time?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽情震惊吧，绿色的魔王！你们的诡计女王陛下已经全部预料到了",
+			say = "Warspite! Illustrious! Hear me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉大人，厌战大人，作战开始！",
+			say = "Our mission begins now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喷嚏——",
+			say = "Achoo...!!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -439,10 +439,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "红色信号吗…真可惜，本以为还有机会能够挽留一个盟友的——",
+			actorName = "Warspite",
+			say = "The signal flare has been fired... They should have been wiser than this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔....没时间多愁善感了，快派支援舰队和潜艇部队去帮孩子们解围吧",
+			say = "We don't have time to be sentimental. Give me your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "了解，非常感谢您能亲自来前线支援，光辉女士",
+			say = "Of course, we'll take action as planned. Illustrious, prepare to launch your aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "情况不妙，作战计划泄露了，必须立刻通知主力舰队！",
+			say = "Carabiniere, hurry back and tell our main forces that we've been compromised...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -520,7 +520,6 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰---！",
 			flashN = {
 				color = {
 					1,
@@ -572,7 +571,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绿色舰队的家伙们哟，你们可别就这样把我给忘了",
+			say = "Haha! Now it is my turn to Halt you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +586,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让你们在此付出背叛盟约的代价吧。约克级重型魔导巡洋舰，约克参上！",
+			say = "Nothing personal, but I can't let you leave!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

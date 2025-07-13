@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>第五话　『图书馆请保持安静』</size>",
+					"<size=45>Chapter 5 - Keep Quiet In The Library</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这里就是学院的图书馆…好大，看来藏书量很值得期待",
+			say = "...This must be the academy's library... It's huge. This many books is something worth getting excited about.",
 			bgm = "story-nepu1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉如何，布兰小姐？有没有让你满意？",
+			say = "What do you think of the library, Blanc? Do you find it to be to your liking?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}……嗯，我很喜欢。看起来能找到我想找的东西",
+			say = "Oh, hi, Z23... Yeah, I like this place. I think I'll be able to make good progress on my investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你喜欢就再好不过了。果然，还是对镜面海域很在意吗？",
+			say = "That's all that matters. I take it you're interested in Mirror Seas and such?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这也是其中一点，不过对于这个世界的历史和构成…还有这里和我们所在的游戏业界的关系，能搞清楚这些就好了",
+			say = "...That too, but after reading about this world's history and the way it came into existence... I think I've started to understand the connection this world has with Gamindustri...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…布兰小姐是个聪明的人呢",
+			say = "I see... You must be a very enlightened individual, Blanc.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……请不要拿我和涅普顿或贝露相提并论。她们一直都是什么都不考虑的",
+			say = "...Don't compare Neptune or Vert to me. They have the intellectual capacity of a rock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…那不妨让我也帮点忙吧。如果有想看的资料跟我说，我会帮你找的",
+			say = "Ahaha... Well then, would you mind if I assisted you? If there happens to be any documents you skimmed past then you can tell me and I will go look for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，帮大忙了。谢谢你,{namecode:408}…………！",
+			say = "Sure, I'd love some help. Thanks, Z23...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是……！？",
+			say = "W-wait, what is this...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发现什么了吗，布兰小姐？…啊啊，那是长岛和{namecode:6}在通贩上买的漫画和小说吧",
+			say = "Is something the matter, Blanc? ...Ah, that would appear to be the manga and novellas that Long Island and Ayanami bought on the internet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得，这种小说是叫做轻小说来着……",
+			say = "Although I do believe they refer to the novellas as \"light novels\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……游戏业界没有的类型…标题、简介、插图……！",
+			say = "...You'd never find genres, titles, plots, or art like this back in Gamindustri...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……想、想看！想要全部看完！想要把这些当作新刊的梗…！就算通宵也没关系……",
+			say = "...I-I want to read them! All of them! From start to finish! I want them as references for my next book...! I don't care if I'll have to pull an all-nighter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……额，布兰小姐？没事吧？",
+			say = "...Um, excuse me, but... Are you feeling okay, Blanc?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是{namecode:408}吗。怎么了？在这里做什么呢？",
+			say = "Oh, hello, Z23. What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突击者老师，日安。老师你又在这里做什么呢？",
+			say = "Good day, Miss Ranger. I should be the one asking you! What are you doing here?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？也没什么，就是想来图书馆看看有没有能在给指挥官君指导时用的上的书…啊！",
+			say = "Hmm? Ah, you know, I was wondering if there might be any books I could use to teach the commander about leadership, so I went here to search for some... Ah, oh no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——哗啦啦啦",
+			say = "BA-THUMP, THUMP, THUMP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…书、掉了吧？嗯…《交响情人梦》？",
+			say = "...Hey, you dropped your books. Let's see... \"Sixty Shades of Grey\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这本是…《蜂蜜与三叶草》？《NANAKO》？",
+			say = "And these are... \"An Echo on the Phone\"? \"Seduced by a Commander\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不是！这是、那个…整理书架的时候碰巧拿出来的！",
+			say = "I-it's not what it looks like! I was just... sorting some books and I happened to have these on me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…这些、全是、少女漫画啊……",
+			say = "...These are all romance stories...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……突击者老师",
+			say = "...Miss Ranger?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不要用这种眼神看着我哦！……老师我才没有看少女漫画什么的！才没有想着“和指挥官这样那样的话就好了”什么的呢！",
+			say = "D-don't look at me like that! ...I'm a teacher! I would never read a romance story! The thought of being together with the commander and doing stuff like this... h-has never even cross my mind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突击者老师，日安。怎么了吗？",
+			say = "Good day, Miss Ranger. Is there a problem?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z、{namecode:405}！？",
+			say = "K-Künne?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您好像搬了很多书呢…可以的话，要我帮您拿一点吗？",
+			say = "You seem to be in possession of quite the number of books... If you don't mind, would you like me to help you carry them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不用……没关系，老师自己就拿得动…{namecode:405}去找自己想看的书吧",
+			say = "I-it's fine... I can carry them on my own... You should go look for the ones you came for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，没关系的！不能放着有困难的老师不管！",
+			say = "Not at all, I would like to help! I can't simply stand aside and watch you struggle with this many books!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拿这些书就可以了吧？这是什么科目的教科书呢？",
+			say = "I'll carry these for you, will that be okay? By the way, what kind of subject are these textbooks intended for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，那个，那不是……",
+			say = "Umm, you see, they're not for any subject in…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "《琉璃假面》《凡尔赛百合》……是有好多漫画一样图画的参考书呢！",
+			say = "The Devil Wears Nada and \"Sax and the City\"...? Your reference materials have some quite interesting titles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊……布兰、{namecode:408}，别一脸微笑地看着，快来帮帮我啊！？",
+			say = "Ahhh... Blanc, Z23, could you stop grinning at me and back me up here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…不好意思，因为太有趣了",
+			say = "...Sorry. I couldn't help but find this situation funny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得看到了突击者老师意外的一面呢",
+			say = "Somehow I feel like I've seen a side of you very different from your usual self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "哎呀，今天的图书馆真热闹呢…大家在干吗呢？",
+			say = "Why, for being a library, it's awfully lively in here... What did I miss?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在捉弄突击者老师玩",
+			say = "...We were just having fun teasing Ranger a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰酱，放过我吧……",
+			say = "Blanc, please, have some mercy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:93}小姐也是来借书的吗？",
+			say = "Are you here to borrow some books as well, Souryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "嗯，感觉需要学习一下了，就过来了",
+			say = "I am. I was thinking that I probably have to study a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "《提高学生理解力的教师心得》、《提高成绩的学习方法》、《愚钝的学生也能教会的最强教育术》…都是面向老师的参考书呢",
+			say = "A Teacher's Tips For Making Your Students Understand Better... \"10 Tricks To Improve Your Students' Grades\"... \"How To Make Even Idiots Pay Attention In Class\"... These reference materials are all intended for teachers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:93}……老师？",
+			say = "So... does that make you Miss Souryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "连突击者小姐都这么说……哈啊，这样下去，我的角色真的要固定变成老师了……",
+			say = "What are you saying now, Ranger? ...Sigh, at this rate I'm actually going to become established as a teacher character...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这学院，老师有点多啊？",
+			say = "...Sure are a lot of teachers at this academy, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许是吧…其实…我也当过老师呢……",
+			say = "You may be right... On that note, I too was once a teacher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,8 +11,8 @@ return {
 			actor = 701030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，欢迎来到北方联合的战时情报局。哼哼，是个很有趣的地方吧~！",
-			bgm = "main",
+			say = "Comrade, welcome to the Intelligence Division of the Northern Parliament! Hehe, it's a super fun place to be!",
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			actor = 701030,
-			say = "基本上战时的情报处理都在这里进行，作战中回收的情报也可以送到这里来解析哦~",
+			say = "Actually, this is where we decrypt all the intel you've collected. We send the results straight to the top brass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 701030,
 			dir = 1,
-			say = "害怕漫长的破译时间？别担心别担心，这里的同志们的工作效率可是超级高的~",
+			say = "In short, the more intelligence points you collect, the more rewards you'll be able to earn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，让我们一同去解开塞壬隐藏着的邪恶秘密吧！",
+			say = "Come on, let's hurry up and get to work! If you need any more help, tap the \"Help\" button for a more detailed explanation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

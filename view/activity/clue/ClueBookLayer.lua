@@ -72,10 +72,10 @@ function var_0_0.InitData(arg_6_0)
 	arg_6_0.storyTaskId = var_6_0.storyTaskId
 	arg_6_0.afterStory = var_6_0.afterStory
 	arg_6_0.bgm = var_6_0.bgm2
-	arg_6_0.contextData.indexInfo.pageIndex = arg_6_0.contextData.indexInfo.pageIndex or 1
-	arg_6_0.contextData.indexInfo.subPageSiteIndex = arg_6_0.contextData.indexInfo.subPageSiteIndex or 1
-	arg_6_0.contextData.indexInfo.subPageCharaIndex = arg_6_0.contextData.indexInfo.subPageCharaIndex or 1
-	arg_6_0.contextData.indexInfo.subPageEndingIndex = arg_6_0.contextData.indexInfo.subPageEndingIndex or 1
+	arg_6_0.pageIndex = 1
+	arg_6_0.subPageSiteIndex = 1
+	arg_6_0.subPageCharaIndex = 1
+	arg_6_0.subPageEndingIndex = 1
 	arg_6_0.endingIndex = 1
 	arg_6_0.storyIndex = 1
 	arg_6_0.playerId = getProxy(PlayerProxy):getRawData().id
@@ -84,15 +84,15 @@ end
 
 function var_0_0.InitView(arg_7_0)
 	for iter_7_0, iter_7_1 in ipairs(arg_7_0.pageTgs) do
-		setActive(arg_7_0:findTF("selected", iter_7_1), arg_7_0.contextData.indexInfo.pageIndex == iter_7_0)
+		setActive(arg_7_0:findTF("selected", iter_7_1), arg_7_0.pageIndex == iter_7_0)
 		onToggle(arg_7_0, iter_7_1, function(arg_8_0)
 			if arg_8_0 then
-				arg_7_0.contextData.indexInfo.pageIndex = iter_7_0
+				arg_7_0.pageIndex = iter_7_0
 
 				for iter_8_0 = 0, arg_7_0.pages.childCount - 1 do
 					setActive(arg_7_0.pages:GetChild(iter_8_0), iter_8_0 == iter_7_0 - 1)
 					setActive(arg_7_0:findTF("tip", arg_7_0.pageTgs[iter_8_0 + 1]), var_0_0.ShouldShowTip(iter_8_0 + 1))
-					setActive(arg_7_0:findTF("selected", arg_7_0.pageTgs[iter_8_0 + 1]), arg_7_0.contextData.indexInfo.pageIndex == iter_8_0 + 1)
+					setActive(arg_7_0:findTF("selected", arg_7_0.pageTgs[iter_8_0 + 1]), arg_7_0.pageIndex == iter_8_0 + 1)
 				end
 
 				if iter_7_0 == 1 then
@@ -110,7 +110,7 @@ function var_0_0.InitView(arg_7_0)
 end
 
 function var_0_0.UpdateView(arg_9_0)
-	triggerToggle(arg_9_0.pageTgs[arg_9_0.contextData.indexInfo.pageIndex], true)
+	triggerToggle(arg_9_0.pageTgs[arg_9_0.pageIndex], true)
 end
 
 function var_0_0.SetClueGroup(arg_10_0, arg_10_1, arg_10_2)
@@ -158,9 +158,9 @@ function var_0_0.SetClueGroup(arg_10_0, arg_10_1, arg_10_2)
 		PlayerPrefs.SetInt("investigatingGroupId_" .. arg_10_0.activityId .. "_" .. arg_10_0.playerId, arg_10_1)
 		setActive(arg_10_0:findTF("goBtn/selected", arg_10_2), true)
 
-		if arg_10_0.contextData.indexInfo.pageIndex == 1 then
+		if arg_10_0.pageIndex == 1 then
 			arg_10_0:ShowSitePage()
-		elseif arg_10_0.contextData.indexInfo.pageIndex == 2 then
+		elseif arg_10_0.pageIndex == 2 then
 			arg_10_0:ShowCharaPage()
 		end
 
@@ -240,17 +240,17 @@ function var_0_0.ShowSitePage(arg_19_0)
 
 			setText(arg_20_2:Find("Text"), "PAGE  " .. string.format("%02d", arg_20_1 + 1))
 			setText(arg_20_2:Find("selected/Text"), "PAGE  " .. string.format("%02d", arg_20_1 + 1))
-			setActive(arg_20_2:Find("Text"), arg_19_0.contextData.indexInfo.subPageSiteIndex ~= arg_20_1 + 1)
-			setActive(arg_20_2:Find("selected"), arg_19_0.contextData.indexInfo.subPageSiteIndex == arg_20_1 + 1)
+			setActive(arg_20_2:Find("Text"), arg_19_0.subPageSiteIndex ~= arg_20_1 + 1)
+			setActive(arg_20_2:Find("selected"), arg_19_0.subPageSiteIndex == arg_20_1 + 1)
 			setActive(arg_20_2:Find("completed"), var_20_2 == 2)
 			setActive(arg_20_2:Find("tip"), var_20_2 == 1)
 			onToggle(arg_19_0, arg_20_2, function(arg_21_0)
 				if arg_21_0 then
-					arg_19_0.contextData.indexInfo.subPageSiteIndex = arg_20_1 + 1
+					arg_19_0.subPageSiteIndex = arg_20_1 + 1
 
 					for iter_21_0 = 1, #arg_19_0.clueSite do
-						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("Text"), arg_19_0.contextData.indexInfo.subPageSiteIndex ~= iter_21_0)
-						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("selected"), arg_19_0.contextData.indexInfo.subPageSiteIndex == iter_21_0)
+						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("Text"), arg_19_0.subPageSiteIndex ~= iter_21_0)
+						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("selected"), arg_19_0.subPageSiteIndex == iter_21_0)
 					end
 
 					for iter_21_1 = 1, 3 do
@@ -263,7 +263,7 @@ function var_0_0.ShowSitePage(arg_19_0)
 				end
 			end, SFX_PANEL)
 
-			if arg_19_0.contextData.indexInfo.subPageSiteIndex == arg_20_1 + 1 then
+			if arg_19_0.subPageSiteIndex == arg_20_1 + 1 then
 				triggerToggle(arg_20_2, true)
 			end
 		end
@@ -288,18 +288,18 @@ function var_0_0.ShowCharaPage(arg_22_0)
 				setText(arg_23_2:Find("selected/Text"), var_0_2[var_23_0].title)
 			end
 
-			setActive(arg_23_2:Find("Text"), arg_22_0.contextData.indexInfo.subPageCharaIndex ~= arg_23_1 + 1)
-			setActive(arg_23_2:Find("selected"), arg_22_0.contextData.indexInfo.subPageCharaIndex == arg_23_1 + 1)
+			setActive(arg_23_2:Find("Text"), arg_22_0.subPageCharaIndex ~= arg_23_1 + 1)
+			setActive(arg_23_2:Find("selected"), arg_22_0.subPageCharaIndex == arg_23_1 + 1)
 			setActive(arg_23_2:Find("Text/completed"), var_23_2 == 2)
 			setActive(arg_23_2:Find("selected/Text/completed"), var_23_2 == 2)
 			setActive(arg_23_2:Find("tip"), var_23_2 == 1)
 			onToggle(arg_22_0, arg_23_2, function(arg_24_0)
 				if arg_24_0 then
-					arg_22_0.contextData.indexInfo.subPageCharaIndex = arg_23_1 + 1
+					arg_22_0.subPageCharaIndex = arg_23_1 + 1
 
 					for iter_24_0 = 1, #arg_22_0.clueChara do
-						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("Text"), arg_22_0.contextData.indexInfo.subPageCharaIndex ~= iter_24_0)
-						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("selected"), arg_22_0.contextData.indexInfo.subPageCharaIndex == iter_24_0)
+						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("Text"), arg_22_0.subPageCharaIndex ~= iter_24_0)
+						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("selected"), arg_22_0.subPageCharaIndex == iter_24_0)
 					end
 
 					arg_22_0:SetClueGroup(var_23_0, arg_22_0:findTF("right", arg_22_0.charaPage))
@@ -307,7 +307,7 @@ function var_0_0.ShowCharaPage(arg_22_0)
 				end
 			end, SFX_PANEL)
 
-			if arg_22_0.contextData.indexInfo.subPageCharaIndex == arg_23_1 + 1 then
+			if arg_22_0.subPageCharaIndex == arg_23_1 + 1 then
 				triggerToggle(arg_23_2, true)
 			end
 		end
@@ -347,8 +347,8 @@ function var_0_0.ShowEndingPage(arg_27_0)
 
 			setText(arg_28_2:Find("Text"), var_0_3[var_28_0[#var_28_0]].title2)
 			setText(arg_28_2:Find("selected/Text"), var_0_3[var_28_0[#var_28_0]].title2)
-			setActive(arg_28_2:Find("Text"), arg_27_0.contextData.indexInfo.subPageEndingIndex ~= arg_28_1 + 1)
-			setActive(arg_28_2:Find("selected"), arg_27_0.contextData.indexInfo.subPageEndingIndex == arg_28_1 + 1)
+			setActive(arg_28_2:Find("Text"), arg_27_0.subPageEndingIndex ~= arg_28_1 + 1)
+			setActive(arg_28_2:Find("selected"), arg_27_0.subPageEndingIndex == arg_28_1 + 1)
 			setActive(arg_28_2:Find("Text/completed"), var_28_2 == 2)
 			setActive(arg_28_2:Find("selected/Text/completed"), var_28_2 == 2)
 
@@ -377,11 +377,11 @@ function var_0_0.ShowEndingPage(arg_27_0)
 			setActive(arg_28_2:Find("tip"), var_28_3)
 			onToggle(arg_27_0, arg_28_2, function(arg_29_0)
 				if arg_29_0 then
-					arg_27_0.contextData.indexInfo.subPageEndingIndex = arg_28_1 + 1
+					arg_27_0.subPageEndingIndex = arg_28_1 + 1
 
 					for iter_29_0 = 1, #arg_27_0.clueEnding do
-						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("Text"), arg_27_0.contextData.indexInfo.subPageEndingIndex ~= iter_29_0)
-						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("selected"), arg_27_0.contextData.indexInfo.subPageEndingIndex == iter_29_0)
+						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("Text"), arg_27_0.subPageEndingIndex ~= iter_29_0)
+						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("selected"), arg_27_0.subPageEndingIndex == iter_29_0)
 					end
 
 					table.sort(var_28_0, function(arg_30_0, arg_30_1)
@@ -516,7 +516,7 @@ function var_0_0.ShowEndingPage(arg_27_0)
 				end
 			end, SFX_PANEL)
 
-			if arg_27_0.contextData.indexInfo.subPageEndingIndex == arg_28_1 + 1 then
+			if arg_27_0.subPageEndingIndex == arg_28_1 + 1 then
 				triggerToggle(arg_28_2, true)
 			end
 		end

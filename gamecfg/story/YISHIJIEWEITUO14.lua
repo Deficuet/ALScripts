@@ -9,7 +9,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "究竟是谁的委托，居然会委托冒险者来钓鱼。",
+			say = "Apparently, someone was in need of fish, so you went fishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在湖边钓到了好多大鱼！",
+			say = "You reeled in a huge catch of big fish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "可以获取委托奖励了！",
+			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

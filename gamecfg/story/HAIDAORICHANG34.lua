@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>晚风的送行</size>",
+					"Uncharted Summer\n\n<size=45>Epilogue</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "傍晚的黄金海滩，落日的余晖在海滩上留下暗金色的影子。",
+			say = "Evening has come, and the sun is setting on the golden beach.",
 			bgmDelay = 2,
 			bgm = "theme-tempest",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "人群散尽，海浪冲刷着沙滩，大海依然清澈。",
+			say = "With the party over, the girls clean up and retreat from the shore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "正在我沉浸于落日的美景时，那位风一样的少女又回到了我身边，坐下，面对着夕阳。",
+			say = "While I'm admiring the sunset's beautiful glow, I suddenly realize that Royal Fortune is right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "哈~！今天真的是太尽兴了~！",
+			say = "Ahoy! Fun was had by all today, eh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到这座荒凉的岛会在这么短的时间内变成这副模样！",
+			say = "Crazy to think how quickly this remote island turned into a real resort.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "佩服，佩服！",
+			say = "Hat's off to you, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "你也是玩累了来休息的？",
+			say = "\"What brings you here? Come to admire the sunset?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……也没错啦。当然，还有别的事情咯。",
+			say = "I guess you could say that. But it's not the only reason, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "不用客气。尽情休息吧，夕阳和海滩可还是免费的呢。",
+			say = "\"Then enjoy the view and stay as long as you want. I won't charge you anything.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "可还是……？你、你还想以后收我的钱么！",
+			say = "Charge? You're gonna start CHARGING for this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "不愧是实力雄厚的官军……比海盗还黑啊！",
+			say = "Never took you for the money-grubbing type, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "…………噗。",
+			say = "...Pfft.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "服了你了……好好的气氛都沉不下来了。",
+			say = "Don't worry. I know you're kidding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "猜到我想说的事了？",
+			say = "Let's be serious for a sec. You already know what I'm here to tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "又到了该走的时间了？",
+			say = "\"That it's time for you to leave again?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "嗯…………",
+			say = "Sort of...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "所以这次到底是怎么回事，真的只是单纯的寻宝么？",
+			say = "\"Before you go, I want to know – was this all part of your plan? Or was it really meant to be a simple treasure hunt?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "哼哼哼，可以算是吧~",
+			say = "Heehee~ In a way, yeah.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟藏宝图是货真价实的，实际的收获也是货真价实的~",
+			say = "The treasure map was authentic, and this island was the real treasure all along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "旅途是宝物，无人岛是宝物，遗迹里找到的罗盘也是宝物。",
+			say = "Think about it. The bumpy ride here, the adventure in the ruins, the compass...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "漂亮的风景，美好的天际线，金灿灿的沙滩，再加上让人愉悦的宴会——",
+			say = "The wonders of nature, the sun fading over the horizon, the warm beach, and all the fun activities we got up to over the past few days...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "可以算收获颇丰吧~？",
+			say = "The memories we've made are worth more than any old pile of doubloons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "在这里面，哪个才是你留下藏宝图希望我找到的？",
+			say = "\"You're right. But which of those things was your treasure map meant to lead me to?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "是啊，到底是哪个呢~",
+			say = "You mean, what did I WANT you to find? Good question!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然把答案告诉你也可以，不过相信经历了这段时间后，你也有自己心中的答案吧？",
+			say = "I could tell you, but I think you already know the answer after everything leading up to now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "我就不破坏这份浪漫了~",
+			say = "In other words, there's no point in me spelling it out~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "啊，时间不早了。晚风是最适合送行的风，就选择这个时候吧。",
+			say = "Ah, it's getting late... The ideal moment for goodbyes arrives with the evening winds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "趁着还看得见路，我先告辞咯~",
+			say = "It's getting cold, too. I think we should say bye-bye now while we're ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "光着脚的皇家财富在沙滩上蹦蹦跳跳走了几步之后，忽然转身，向着我的方向，嘿嘿地笑了一下。",
+			say = "After taking a few bouncy steps along the beach, the barefoot Royal Fortune turns around and smiles warmly to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "这次是真的要走啦，也许会很长一段时间都见不到我了哦？",
+			say = "This really is farewell for now. It could be a long, long time before we meet again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,15 +536,15 @@ return {
 			},
 			options = {
 				{
-					content = "我会想你的。",
+					content = "\"You're going away forever?\"",
 					flag = 1
 				},
 				{
-					content = "但还会再见的，对吧？",
+					content = "\"I have a feeling we'll see each other soon.\"",
 					flag = 2
 				},
 				{
-					content = "也或许就在明天日出之后？",
+					content = "\"In other words, tomorrow morning?\"",
 					flag = 3
 				}
 			}
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我也会想你的！",
+			say = "Not forever! I'll be back eventually!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "那是自然~",
+			say = "You know what, I think so too~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，记性不错嘛，指挥官~",
+			say = "Ahaha! Not quite THAT soon, I'm afraid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "不过我也有自己的船团需要照顾嘛~",
+			say = "As much as I wish I could stay, the girls in Tempesta need me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "还有规则之类的……",
+			say = "We have our rules, and we all have to follow them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "在提到“规则”的时候，皇家财富的脸上似乎出现了转瞬即逝的阴沉。",
+			say = "A brief look of gloom appears on her face at the use of the word \"rules.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，这次真的要过段时间了，我会再来信的。",
+			say = "Don't worry. I'll write you while I'm gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "愿海风赐予你永恒的祝福————",
+			say = "May the winds be with you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "伴随着突然吹起的清凛的海风，她的身影消失在大海当中。",
+			say = "A sudden, salty gust blows along the beach, and she is now gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "下次再会，乘风而来的使者————",
+			say = "Gone with the wind. And hopefully, she will soon return with the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

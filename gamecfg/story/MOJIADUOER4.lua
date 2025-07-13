@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"风暴中心的依偎\n\n<size=45>四 请帮我拿一下毛巾</size>",
+					"Warmth in the Storm\n\n<size=45>Bring Me a Towel</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "诡谲的海风卷起房间里的尘埃和废纸，在月光的映衬下就如起舞的幽灵一般。",
+			say = "An eerie breeze stirs up dust and old papers. That, combined with the moonlight, makes it almost look like there's a ghost with us.",
 			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
@@ -47,18 +47,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "莫加多尔的指尖微微用力，将我的手又握紧了些。",
+			say = "Mogador tightens her grip on my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "口头安慰一下她",
+					content = "(Soothe her with words.)",
 					flag = 1
 				},
 				{
-					content = "拍拍她的肩膀",
+					content = "(Soothe her with physical touch.)",
 					flag = 2
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "只是海风，别怕。",
+			say = "Don't be afraid. It's just the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "我环住她的肩膀轻轻拍打，安抚着她的情绪。",
+			say = "I wrap my arms around her shoulders and pat her back to calm her down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "感受到我的安慰，莫加多尔也顺势贴紧了我。",
+			say = "My comforting helps. She relaxes and leans against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（啊，能借此机会和指挥官靠得这么近……）",
+			say = "(Ahh... An excuse to embrace the Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（指挥官的外套，好温暖……好想一直这样被包裹着……）",
+			say = "(Such a warm coat... I wish I could be held like this forever♥)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（怪谈，真棒啊……！）",
+			say = "(I love ghost stories now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,19 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "莫加多尔就这样顺势整个人都缩入了我的外套之中，一动不动地紧贴着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（窗户……）",
+			say = "She caves in to her impulse and slips in under my coat, clinging to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +157,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（我还是自己去关吧…………）",
+			say = "(I can't move like this...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Ugh... Need to close that window.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "经历了走廊的小小风波后，后续的路途一路顺畅，我们顺利找到并进入了休息室中。",
+			say = "After the minor \"incident\" in the corridor, we arrived inside the break room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天晚上，我们就在此处将就一下吧。",
+			say = "Only one bed. We'll just have to make do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（休息室……和指挥官独处……嘿嘿嘿……）",
+			say = "(We have this place all to ourselves... Heheheh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我检查过了，房间的状态完好，门窗也没问题，不会再出现窗户突然被刮开的情况了。）",
+			say = "Okay, I just had a look around the room. The doors and windows are all firmly shut, so there won't be any repeats of what happened in the corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（一间房……我和指挥官……呵呵呵……♥）",
+			say = "(We'll be sleeping in the same room... Heheheheh♥)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "浴室的状态也是完好的，供电和供水都正常，一会你可以先去洗个澡，暖和一下身体。",
+			say = "The power works and there's running water, so the shower room should be usable. You go ahead and take a shower to warm up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（居然还有浴室，嘿嘿嘿……不知道能不能想办法把指挥官也拉进去……）",
+			say = "(Drats... I need to think of a way to drag the Commander with me into the shower...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "应急食物储备也很充足，等洗漱完毕之后我们就吃点东西吧。",
+			say = "There are plenty of rations and even candles for emergencies. I'll set things up and prep some food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（……荒岛上的烛光晚餐……）",
+			say = "(Food and candles... A candlelit dinner on a desert island...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……莫加多尔，你哪里不舒服么，怎么呆住了？",
+			say = "Mogador? Hello? You look a bit distracted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "啊、没事没事……不愧是指挥官，考虑得很周到呢！",
+			say = "Oh, uh, I'm fine. You really plan for everything, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这些都是之前探索队提前准备好的，要说也是她们的准备周到才是。",
+			say = "Thank the girls who came here before us. I didn't bring the supplies – they left them here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "没错没错……她们的准备也很周到呢！",
+			say = "Of course. They're all so diligent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "那指挥官，我就先去沐浴了哦~等我！",
+			say = "Anyway, I'm gonna take a shower. Be back in a bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔突然如一阵风一般离开了。",
+			say = "She runs off into the shower room without a moment's delay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……突然这么积极？",
+			say = "What's up with her...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "随着沐浴间的水流声逐渐停止，一只手从淋浴间的门缝伸出。",
+			say = "The sound of the shower ceases, and a hand pokes out through the gap in the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "指挥官~这里竟然没有浴巾，要不然你来——",
+			say = "Commaaander, there's no towel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（…………原来在这里等着呢。）",
+			say = "(Don't tell me this was her plan...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，外面的储备物资里有，稍等我一下。",
+			say = "One sec. There should be one among the supplies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "我起身寻找了一番后，将浴巾递给了莫加多尔。",
+			say = "I get up, find a towel, and just as I reach out to give it to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "没想到莫加多尔并没有来接浴巾，而是紧紧抓住了我的手腕。",
+			say = "Rather than take the towel, she takes a firm hold of my wrist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "呼呼……指挥官……您也全身湿透很久了……♥",
+			say = "Commaaander... You've been drenched for a pretty long time now...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我……来……好好照顾您吧…♥",
+			say = "Come in here and let me take care of you♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "没等我反应过来，一股力量便将我带入浴室中。",
+			say = "Before I can even react, she pulls me inside the shower room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "浴室内充斥着温热的水汽，好在一张半透明的浴帘挡在中间。",
+			say = "The room is thick with warm steam. Fortunately, there's a translucent shower curtain separating me and her.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "指挥官，你今天真是受累了，让我帮你洗个热水澡吧，很舒适哦～",
+			say = "You must be exhausted! Let me help you wash with some hot water. It feels sooo good, trust me...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "莫加多尔想要拉开浴帘，我试图制止。",
+			say = "She grabs the curtain, getting ready to pull it aside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "然后失败了——",
+			say = "I try to stop her, but it's no use. Inhuman strength courses through her in this moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "有指挥官的关心，我一点也不觉得冷。",
+			say = "Thanks to your thoughtfulness, I don't feel cold at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "相反，我感觉好热好热……脑子也昏昏沉沉的……",
+			say = "If anything, I feel hot. My body is so warm, and my head is spinning...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她握着我的手，左右摇晃着。我感觉自己的手指正触碰着炽热的绵软……",
+			say = "She takes my hand and shakes it side to side. I feel the soft, warm touch of her fingers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "指挥官也是这种感觉吧……",
+			say = "I'll bet you feel the same...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "是不是很热……脑子也昏昏沉沉的……",
+			say = "Just so unbearably hot, not able to think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "这是濒临生病的表现哦……必须要在浴室里好好地洗一洗……",
+			say = "That's an early sign you're coming down with a cold, you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好地舒缓一下疲劳才好呢……♥",
+			say = "I'll need to make you feel relaxed and real good tonight...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

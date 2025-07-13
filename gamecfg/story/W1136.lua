@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：探测到了海域中塞壬隐藏的资源点。",
+			say = "Scan complete. Siren resource node located.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

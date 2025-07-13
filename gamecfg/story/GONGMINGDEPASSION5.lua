@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "港区·东煌区域",
+			say = "Port - Dragon Empery Dorm",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502033,
-			say = "姐姐……今天在港口通知的消息我听说了，我们要不要重出江湖？",
+			say = "Sis, I heard the news! I think it's time for us to make a comeback!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "当然要！是时候让“东煌姐妹”组合给她们一些小小的震撼了！",
+			say = "You got that right! Let's do what the Dragon Sisters do best and burn the competition!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "唔，不过在参加之前还是先让寰昌替我们卜上一卦吧~！",
+			say = "But first, we should get Huan Ch'ang to read our fortunes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "我已经用糖饺子做报酬请她过来了哦。",
+			say = "She's already on her way, and I've got sweet dumplings ready for her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502033,
-			say = "不愧是姐姐~考虑的就是周到~",
+			say = "Wow, you're always one step ahead of the rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "一段时间后，寰昌如约而至。",
+			say = "Sometime later, Huan Ch'ang dropped by as promised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "原来如此，你们想问的是哪一方会赢啊。",
+			say = "Ah. So you want to know who'll be the victor in this competition between red and blue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，我便为你们——嗯？是何人如此鬼祟？出来！",
+			say = "I shall tell you who– Hey! Whoever's eavesdropping over there, show yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "就在寰昌准备起卦之时，她瞥见了一道正在厨房前探头探脑的身影。",
+			say = "Just as she was about to divine, she caught a glimpse of somebody peeping from in front of the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,11 +202,11 @@ return {
 			bgName = "star_level_bg_165",
 			actor = 502023,
 			dir = 1,
-			actorName = "平海＆宁海",
+			actorName = "Ping Hai & Ning Hai",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有贼人？！",
+			say = "A spy?!",
 			subActors = {
 				{
 					actor = 502033,
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "好嘛好嘛……是姐姐我啦，还以为我挑这个时间悄悄去厨房就不会被发现呢……",
+			say = "Take it easy! It's me, Chi An! I was just going to the kitchen since I figured it would be empty at this time of day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "你又去厨房练手？",
+			say = "You thought you could practice cooking again, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "等等，这个“又”是怎么回事……？",
+			say = "Wait, \"again\"? What do you mean by that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳……！！",
+			say = "Oof!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平海和宁海还在呢，就先别提我去厨房的事了吧……",
+			say = "(Huan, please don't bring up the kitchen thing in front of them...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "话说回来，你们是在请寰昌卜卦吗？",
+			say = "S-so, what's your business with her? Did you want her to read your fortune?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502033,
-			say = "嗯，姐姐和我要去参加这次的Live，想算算看是加入「红组」还是「青组」好。",
+			say = "Yup! We're going to enter the performance competition and want to know if the red or blue team is going to win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "可是如果靠卜卦提前预知了答案，不就变得很没意思了么~？",
+			say = "Won't knowing the answer spoil the fun, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "的确。提前预知了答案，便会少了途中的乐趣。",
+			say = "True. It would. Knowing what is to come will ruin the fun along the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "不如……你们凭感觉选一组？",
+			say = "That being the case, I say go with your gut.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,11 +421,11 @@ return {
 			bgName = "star_level_bg_165",
 			actor = 502023,
 			dir = 1,
-			actorName = "平海＆宁海",
+			actorName = "Ping Hai & Ning Hai",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这……",
+			say = "Laaame...",
 			subActors = {
 				{
 					actor = 502033,
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "呼~那个……打扰了……",
+			say = "Huff... Um, hello.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "我想问问大家有没有兴趣加入「青组」……",
+			say = "I heard you girls might want to join the blue team, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502033,
-			say = "姐姐？",
+			say = "Sis, what do we say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "来得早不如来得巧，这应该也是天意吧~我们就加入「青组」好了！",
+			say = "Fate must be trying to tell us something. Let's join the blue team!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "与此同时，其他人也正在为了招募成员而努力——",
+			say = "At the same time, others were also running to and fro to recruit new members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "啊啊……这种会累趴下的事情……好麻烦……",
+			say = "Ugh... Do you really think I want to waste precious energy on that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "你去拜托别人会比较好吧……",
+			say = "No thanks. You should ask somebody else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确定么~？赢了的话，可是有愿望可以许哦~？",
+			say = "Aww, really? You don't want to have a wish granted if you win?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "不管是睡懒觉，还是不用工作之类的事都可以通过许愿，光明正大的得到实现哦~？",
+			say = "You could wish to sleep in all you want or say goodbye to work forever, but you do you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我会参加的…！",
+			say = "Okay, I'm in!",
 			painting = {
 				alpha = 0.3,
 				time = 1

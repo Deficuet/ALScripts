@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"炼金术师与秘密遗迹群岛-日常篇\n\n<size=45>一 温泉竞速赛</size>",
+					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>1 Hot Spring Race</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			bgm = "story-1",
-			say = "这是在镜面海域事件结束不久后发生的，平静的日常故事————",
+			say = "This story takes place after the trouble in the Mirror Sea. It was an ordinary day like any other...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "某一天，距离港区一段距离的某个小岛上————",
+			say = "Somewhere in a place some distance away from the port...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼………果然和传闻中一样，这片区域有被开发成优质温泉的潜力喵……",
+			say = "Hehehe. The rumors are true, nya! There IS a nice hot spring hidden among the rocks here, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能在这里开一家温泉旅馆的话……",
+			say = "I just have to set up an inn, and I'll make a pretty penny off of...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………嗯？有其他人接近的声音喵？！",
+			say = "...Huh? Oh shoot, someone's coming, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "佩萨格诺，快一点，快一点，传闻中埋藏温泉的地方就是这里对么！",
+			say = "Come here, quick, Ema! I've found it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……从地貌特征上来看，就是这里了。",
+			say = "Hmm... Yeah, I think you're right. You couldn't ask for better conditions for a hot spring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "如果好好开发一下的话，说不定可以修一个了不起的温泉浴场……",
+			say = "With a bit of work, you could make this place into something special.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嚯嚯嚯，撒丁帝国决定建造一个全新的温泉大浴场——这可是个了不起的大新闻啊！",
+			say = "Heheheh! I can see the headlines already – \"Sardegna reveals plans to construct a new hot spring\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "但是这里的岩石十分坚硬，开发温泉的恐怕需要从军火库里搬出大量炸药吧……",
+			say = "There's a problem, though... These rocks are extremely sturdy. We'd need a literal ton of explosives to break through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唔……对了，去找莱莎帮忙吧！她不是特别擅长用炼金术制作炸弹么！",
+			say = "That's true... Oh, I know! We'll just ask Ryza to help out! She's like, the leading expert in the field of making bombs with alchemy, isn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "莱莎小姐啊……确实，拜托她的话不知道能做出什么厉害的东西来……",
+			say = "Hey, yeah... She might be able to put together something for us if we ask nicely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿嘿，那就事不宜迟，开始我们的温泉开发计划吧！",
+			say = "Sounds like a plan! Then Operation Hot Spring is a go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……喵喵喵？撒丁帝国是怎么知道这个消息的……",
+			say = "God dangit, nya! I thought nobody else knew about this place, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真不能小看记者的八卦能力啊喵……",
+			say = "Lesson learned – never underestimate a journalist's info-gathering skills, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "撒丁帝国似乎是在担心预算要请帮手，但是喵呼呼……{namecode:98}的预算可是——无限的喵！",
+			say = "But luckily, they need assistance to make up for their lack of budget, nya... Mwahaha! My budget is infinite, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过{namecode:98}这边也有困扰，来到这里的路上有塞壬出没，需要暗中寻觅一下护卫才是喵……",
+			say = "That doesn't mean this'll be a walk in the park though, nya. I'll probably run into Sirens going to and from this place, nya. I'll need to hire bodyguards, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidepaintobj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来接下来要进行的是速度的比拼……该行动起来了喵！",
+			say = "It's now a race to claim the hot spring for yourself, nya... I need to get a move on, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "阿瓦隆之门内侧·？？？",
+			say = "Inside the Singularity...",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "众人穿过阿瓦隆之门，映入眼帘的是与之前并无区别的港湾。只不过，港湾变成了一片静静燃烧的战场。",
+			say = "The other side of the gateway appeared to be the same place that the group had just come from, except...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里莫非是......斯卡帕湾？",
+			say = "This is... also Scapa Flow? But look at all the destruction here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好惨…………已经是被完全毁灭的状态了。",
+			say = "How terrible... An entire fleet reduced to burning scrap metal, just like the reports said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "正如{namecode:96}所言，这里的斯卡帕湾已经遭受到了毁灭性打击。",
+			say = "Friedrich had described this place as a projection of Siren records, but the palpable destruction in the air leaves the onlookers in shock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "而且，袭击似乎已经结束了一段时间。",
+			say = "According to the preliminary investigations that were conducted, the events recorded here directly followed the destruction of the Iron Blood fleet by the Sirens at Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "没有幸存者，没有抵抗，也没有敌人。有的只是静静燃烧的建筑和废墟。",
+			say = "Yet no Sirens are present at the scene, as if they had either all withdrawn, or were simply omitted from the recording.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,24 +125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "面对侦察机发回的结果，{namecode:96}有些不敢相信自己的眼睛。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_endingsong_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "被破坏的如此彻底的大型锚地，我还是第一次见……",
+			say = "The only things that remain are smoke, flames, and the slowly sinking debris of destroyed warships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +142,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算是主力航空舰队的多轮空袭也无法造成这样的惨状啊？！",
+			say = "Look at all the old-fashioned warships here... They're simply no match for the Sirens.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_endingsong_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "The port's facilities look like they've been ripped apart as well. Does the Royal Navy have any records of such extensive damage being done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………第十一节发生之时的现场，比本王之后见到的要惨烈得多啊……",
+			say = "None. But as we can clearly see, the anchorage was rebuilt following the incident at some point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "你说什么……？那次事件已经过去几十年了，这里怎么会是当时的现场？！",
+			say = "I see. This is quite literally a Reenactment of the events from back then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "你们通过奇异点带我们回到了过去么？！！！",
+			say = "But you didn't actually take us into the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "非也。这里确实是第十一节的现场。但并非是我们的过去，只是可能性而已。",
+			say = "What you see here indeed transpired in the past, but we did not rip open the fabric of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说你能明白么？",
+			say = "It is not necessarily our past, but rather one of many possibilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "…………只是逼真还原的记录么。",
+			say = "...That doesn't tell me anything. The contents here could've been tampered with in a number of ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相似，但有所不同。此处发生的战斗是真实的，沉没在此处的舰队也是真实的。",
+			say = "Indeed, but the destruction that you see here is, in fact, a reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "此处却无疑问为曾经的战场，铁血战士的尸骸堆叠之处。",
+			say = "This is a Siren experimental site, a Reenactment of a battle that took place in our world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "何等惨状啊……铁血庞大的公海舰队就这样沉没在斯卡帕湾里。",
+			say = "I can't believe how many Iron Blood ships were lost here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家当时在做什么？！果然和记录中的一样在袭击前抛弃铁血舰队，放任这一切发生么？",
+			say = "So, the thing about Azur Lane not helping was true after all...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "关于这个问题，现在不是正好有一个适合回答你问题的人在么？",
+			say = "Isn't there someone here better suited to answer that question?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白，你虽然没有直接经历这次事件，不过还是知道很多第一手情报吧。",
+			say = "Even though we were not firsthand witnesses to this incident, there should still be direct accounts of what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "我接下来要集中精神做正事了。",
+			say = "It is about time we hear the other side of the story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然是同为来观光的，不如你直接回答一下重樱的问题如何？",
+			say = "Since we invited them all the way here, why don't we share the truth with our guests here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………欸。",
+			say = "...Hmph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "面对{namecode:440}略显恶意的提案，伊丽莎白女王面色难看地长叹了一口气，似乎算是默许了。",
+			say = "Queen Elizabeth hesitates for a while, but eventually lets out a sigh of resignation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以，这是出卖对么？",
+			say = "How could the Azur Lane betray them like that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………怎么可能。看到眼前的惨状，你还相信那种胡乱的记载么。",
+			say = "...Betray? After seeing all this destruction in front of you, do you still believe something like that happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "虽然听说是赤色中轴的流行观点，不过未免也太离谱了些。",
+			say = "First of all, Scapa Flow belongs to the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "斯卡帕湾，首先是皇家的斯卡帕湾。",
+			say = "Have you ever considered how grave the consequences of losing Scapa Flow would be to the Royal Islands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你有没有想过如果这里失守，皇家本土将会面临怎样的威胁？",
+			say = "What good would selling out the Iron Blood do if it resulted in us losing our very homeland?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "皇家在这种时候出卖铁血舰队能得到什么好处？以牺牲自己重要锚地和舰队为代价，和铁血同归于尽么？",
+			say = "Additionally, the Iron Blood aren't the only ones who suffered terrible losses that day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………皇家，也有舰队沉没在这里？",
+			say = "Wow, you're right... There are shipwrecks with Royal Navy insignias as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "既然有舰载机在天上飞的话，不如让它们看得更仔细点如何。",
+			say = "Not just a few of them, either. I'm sure you'll find more if you fly your airplanes around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…………",
+			say = "Ugh... Then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "所以，还是更早之前的观点接近真相咯？",
+			say = "The Iron Blood tried to carry out a Siren capture operation, which ended up failing and angering the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "公海舰队向着塞壬发动了盲目进攻，其结果不但导致了主力舰队覆灭，连带着皇家的斯卡帕湾和驻扎舰队也被一同波及。",
+			say = "They fled for their lives to Scapa Flow, leading the Sirens right to it... resulting in the destruction of Scapa Flow and both of the fleets there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这个观点其实也是我们这边放出去的舆论宣传，不能全信……",
+			say = "Naturally, this account originated from the Royal Navy's upper echelons. Take that information with a grain of salt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不然……对于当时选择在此处奋战到底的舰队来说，有些太不公平了。",
+			say = "Having that said... It should be clear that the Royal Navy fought alongside the Iron Blood here – and shared the same fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "公海舰队没有沉没在斯卡帕湾近海，而是与整个斯卡帕湾防御体系一同被毁灭在斯卡帕湾内。",
+			say = "However, any trace of that happening was erased... along with what happened to our ships as well as Scapa Flow itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这个现状或许能说明很多问题了。",
+			say = "The question on everyone's mind at this point probably is, how could destruction of this scale avoid the public eye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………皇家，在当时选择了和铁血进行合作应敌？",
+			say = "...They wanted to stamp out any evidence that the Royal Navy worked together with the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "也许吧……我也在寻求答案。",
+			say = "That may well be the case. There is still much we don't know about this Singularity – and what occurred here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "既然已经来到了这里，剩下的事还是直接让亲历者自己说好了。",
+			say = "What we see here at best can be understood to be the Sirens' point of view. The only ones who can truly tell us what happened... are the ones who were actually here at the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "……亲历者？这里已经没有幸存者了，难道你是指这遍地残骸么？",
+			say = "...Judging by the looks of things, there weren't any survivors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，现在存在于海水之中的，其遭遇尚未被世人知晓，也尚未被世人未被遗忘的……残骸。",
+			say = "That is why I decided to cooperate with the Iron Blood – so that the people who were here can reveal the truth to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,12 +799,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:440}",
+			actorName = "Friedrich der Große",
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们听见了么，这里的低吼声。",
+			say = "Yes... Can you hear their whispers upon these waters?",
 			bgm = "theme-frederick",
 			typewriter = {
 				speed = 0.05,
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "你说什么……？我什么都没……",
+			say = "What are you talking about? I don't get it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,25 +838,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "你们感受到了么，遍地的不甘与绝望。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:91}",
-			say = "………………",
+			actorName = "Friedrich der Große",
+			say = "Do you feel the resentment of their shattered forms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +856,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "{namecode:96}，来我的身后，有什么事要发生了。",
+			say = ".........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "{namecode:91}",
+			say = "Stand behind me, Zuikaku. Something's about to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:96}",
-			say = "……哎？是！",
+			say = "Y-yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,8 +906,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "你们可曾认真思考过，酿成那场惨剧的真实原因？",
+			actorName = "Friedrich der Große",
+			say = "Even in this place, I can see the shape of the history written around them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,8 +923,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "她们被当做耻辱，被当成笑话。被戏谑、被抹黑、被遗忘。",
+			actorName = "Friedrich der Große",
+			say = "Their glory, their shame. Their achievements, their oblivion. The flames burning across the sea are an ode from the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,8 +940,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "直至彻底消散，变为没有丝毫生机的，无药可救的残骸。",
+			actorName = "Friedrich der Große",
+			say = "Their joy, their sorrow. Their melancholy, their anger. Each sound that echoes through this hollow sky gives form to their suffering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,8 +957,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "……………………",
+			actorName = "Queen Elizabeth",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,8 +974,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "她们曾是我们的战友，她们不该得到这种结局。",
+			actorName = "Friedrich der Große",
+			say = "The truth is inviolably carved into this space. And thus, their emotions yet linger as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "{namecode:440}来到了一片残骸密集区的中央，拿出了数个心智魔方。",
+			say = "A number of Wisdom Cubes began to spin around Friedrich der Große as she walked to the middle of the Singularity's waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,24 +1003,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "仿佛受到了某种牵引一般，心智魔方缓缓的漂浮在她的身边，发出逐渐耀眼的光芒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_6",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:440}",
-			say = "归来吧，昔日的战友们。",
+			say = "As they spun faster and faster, a dazzling halo of blue light rippled outwards to quash the ominous red of the burning sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1036,8 +1019,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "用你们的声音，向世人诉说那段历史的真实！",
+			actorName = "Friedrich der Große",
+			say = "May your minds be etched. May history give you form. May your hulls inherit your essence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1053,8 +1036,8 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "用你们的面容，向世人展现你们的愤怒与不甘！",
+			actorName = "Friedrich der Große",
+			say = "May your new bodies become the Arks to bear our history forward––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,8 +1053,25 @@ return {
 			bgName = "bg_endingsong_6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "用你们的力量，为昔日的仇恨带来终结吧！",
+			actorName = "Friedrich der Große",
+			say = "A ship that is neither a ship, a human that is neither a human – become the blade that shall strike down our foes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_6",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "...Open your eyes to the light of creation, my friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "心智魔方在{namecode:440}的身前旋转着，仿佛与之相呼应，海面也如沸腾一般，浪花互相交叠碰撞。",
+			say = "The surrounding waters became turbulent from the blinding oscillation of the Cubes, kicking up waves that knock on the shattered coffins of ruined warships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1099,7 +1099,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "光芒越来越耀眼，使得旁观的众人不禁张开手掌遮挡强光。",
+			say = "The light shone brighter and brighter, blue turning into an incandescent gold, so bright that the onlookers had to shield their eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1113,7 +1113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_6",
-			say = "不过在手指的缝隙中，她们见到了令其永生难忘的景象————",
+			say = "But from between the gaps in their fingers, they witnessed a sight they would never be able to forget––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,7 +1127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "没有涌动的云霭，也亦无震撼的雷霆。",
+			say = "The overflowing light from the Cubes began to dissipate, and the Cubes soon followed suit as if dissolving into the sky.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -1156,7 +1156,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "心智魔方在空中瓦解，象征着构造的淡蓝色圆环向四方拓展开来，将整个斯卡帕湾笼罩在静谧之中。",
+			say = "From the silence that once again fell over the ruined battlefield, the sound of soft breathing could be heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1172,8 +1172,8 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？？",
-			say = "呼………………",
+			actorName = "????",
+			say = "..........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,7 +1187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "来自本源的呼唤让{namecode:91}有些恍惚，但她——包括所有的在场者，都知道究竟有什么正在发生。",
+			say = "The ever-so-faint sound shook Akagi to her core. Not just her – but everyone else there – knew what had just happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "这是从无序向有序的构筑。在灵魂的嗡鸣中，由尘世创造的生命降临于世，属于神的权柄正被握在凡人的手中。",
+			say = "The ordering of disorder into order. The humming of the soul, given form from the earth. The authority of the divine, held within mortal hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1215,7 +1215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "毫无疑问的，这正是——",
+			say = "Without a doubt, they had witnessed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1229,7 +1229,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_7",
-			say = "——舰船的诞生。",
+			say = "The birth of a shipgirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1245,8 +1245,8 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:460}",
-			say = "呼………………",
+			actorName = "Seydlitz",
+			say = "..........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,8 +1262,8 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:460}",
-			say = "…………这里是，你是……？",
+			actorName = "Seydlitz",
+			say = ".......Where... am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1279,8 +1279,8 @@ return {
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "……………………",
+			actorName = "Friedrich der Große",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1292,13 +1292,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:440}",
+			actorName = "Friedrich der Große",
 			bgName = "bg_endingsong_7",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……好久不见啊，老朋友。",
+			say = "Welcome to our world, battlecruiser Seydlitz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

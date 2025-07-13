@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "被赛场热烈的气氛感染，超常发挥，前进一格"
+			say = "The excitement of the venue is making you feel extra energetic as well! Move forward 1 space!"
 		}
 	}
 }

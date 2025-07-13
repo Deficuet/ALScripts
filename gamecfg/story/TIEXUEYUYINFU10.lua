@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第四乐章\n\n<size=45>「挽歌～Das Grablied～」</size>",
+					"Fifth Movement\n\n<size=45>Songs of the Grave</size>",
 					1
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>「保持礼仪，反击，我们现在可是代表着皇家的威仪——」</size>",
+					"<size=60>「Mind your etiquette, Repulse. Now more then ever, we represent the glory of the Royal Navy.」</size>",
 					0
 				}
 			}
@@ -54,7 +54,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「声望，可别又走神了，淑女就应该步步为营——」</size>",
+					"<size=60>「Don't get distracted again, Renown. A proper lady minds her every step.」</size>",
 					0
 				}
 			}
@@ -73,7 +73,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「敦刻尔克，希望你能理解现在的局势，为了真正的和平——」</size>",
+					"<size=60>「Dunkerque, hopefully you understand now that we fight for a lasting peace.」</size>",
 					0
 				}
 			}
@@ -88,7 +88,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「威尔士，和你并肩作战是我的荣幸——」</size>",
+					"<size=60>「Wales, fighting side by side with you was my greatest honour.」</size>",
 					0
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
-					"<size=60>「……」</size>",
+					"<size=60>「......」</size>",
 					0
 				}
 			}
@@ -114,7 +114,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「最后，终于可以放下这个沉重的头衔了吗」</size>",
+					"<size=60>「May I finally be able to put down this crown of thorns」</size>",
 					0
 				}
 			}
@@ -148,7 +148,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「——天佑女王」</size>",
+					"<size=60>「... God save the Queen.」</size>",
 					0
 				}
 			}

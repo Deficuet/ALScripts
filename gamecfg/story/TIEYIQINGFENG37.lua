@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "安塔迪卡洋·某处",
+			say = "Somewhere, in the Antarctic Ocean...",
 			bgm = "theme-merkuriameta",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "哼哼哼♪~哼哼哼♪~",
+			say = "Hm-hmmm-hmmm-hm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_544",
-			say = "身披黑色大衣的少女哼着歌，若无其事地整理着衣帽。",
+			say = "Pamiat' Merkuria META straightened out her cap and coat, humming cheerfully all the while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_544",
-			say = "在她的四周，无数残骸在燃烧中崩塌着。",
+			say = "Around her, a massive graveyard of wreckages lay turned over like dead animals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "到底是没有和主机连线的观察者，这种程度的防线怎么可能拦住我嘛~",
+			say = "Silly little Observer. You're disconnected from your mainframe, and you thought you could stop me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "还有那个什么……带着奇怪棋子一起行动的奇怪META。",
+			say = "Not even your weirdo META with a weirdo Pawn could save you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "上次是我大意了才让你偷袭成功的，这次我一认真起来，还不是只有落荒而逃的份？",
+			say = "See, the only reason I lost last time was because I got too careless! When I put on my serious gloves, that's when it's time to run.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "略略略♪~",
+			say = "Hm-hm-hm-hmmm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "现在世界各处都乱成了一锅粥，根本就没人注意到我~",
+			say = "Your test site is in chaos right now. I could do anything and nobody would know it was me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "这次行动真可以算是势在必得啊~！",
+			say = "This is gonna be so easy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,8 +150,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			portrait = 900315,
-			actorName = "海伦娜·META",
-			say = "噢？真的么？",
+			actorName = "Helena META",
+			say = "Easy? Are you sure about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "哈啊……这观察者的保镖还挺多，怎么打完一个又来一个？",
+			say = "Oh, look, another one of Observer's bodyguards. Who is it this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "快点出招，有什么本事都使出来吧，我今天赶时间！",
+			say = "Just hurry up and do your thing! I've got stuff to do, so make it quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900315,
-			say = "数据遮蔽分离模式，调用执行——",
+			say = "Data separation – activate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "蓝色的洪流倾泻而出，转瞬间淹没了海洋与天空——",
+			say = "A torrent of blue data rushed forth from the Tower and filled the sky and sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是——璀璨的星河。",
+			say = "A vast stretch of space filled with stars stretched on in all directions.",
 			bgm = "theme-thetowerxvi",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "这里是……？",
+			say = "What... What is this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "——「°ţŔëśřşóąťÇýÖđ°É」",
+			say = "YLTVCL HUK LEWLS",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "无、无法调动力量了……你、你究竟是谁？",
+			say = "Ugh... You blocked my access to my resources! Who the hell are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你不需要知道。罗德尼。",
+			say = "You don't need to know. Rodney, deal with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_port_chongdong",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "时间已到，迎接属于你的「终结」吧——",
+			say = "The time has come – for your demise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "身披黑色大衣的少女消失了，就仿佛从来不曾出现在这片空间中一样。",
+			say = "Pamiat' Merkuria META was gone without a trace, almost like she was deleted from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "作为让指挥官内心觉醒的对手，你做得很好。",
+			say = "You did a good job, waking the Commander up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "现在你的使命已经完成，干净利落的退场吧。",
+			say = "But, now you've served your purpose. It's time to get off the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实是干净利落，你这算是把她挫骨扬灰了？",
+			say = "Impressive work. Is she gone for good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "没那么简单，不过能让她消停很长一段时间就是了。",
+			say = "I doubt it, though this will keep her quiet for some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "走吧，接下来该去安塔迪卡做我们的正事了——",
+			say = "Let's go. We have things to do in Antarctica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

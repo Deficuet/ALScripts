@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "能源矩阵被成功激活，周边海域安全了。",
+			say = "The Energy Matrix appears to be functioning again. This will make this sector safer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

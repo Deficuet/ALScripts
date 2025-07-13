@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>六  证人</size>",
+					"Sea Star on Shore\n\n<size=45>6: The Witness</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所、以、说！我也是刚回来，看到有衣服散在那里，才打算捡起来收拾一下的啊！",
+			say = "Like I said! I got back and found all these clothes scattered around, and was just about to pick them up!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "毕竟平时的皇家方舟小姐…",
+			say = "In the end, considering it's Ark Royal-san...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "怎么看都像早晚会犯下大错的样子呢…",
+			say = "Any way you look at it, she was bound to make a big mistake sooner or later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "而且还是人赃俱获…",
+			say = "And we did catch her in the act...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我也不知道这些衣服怎么跑到我的房间里来的啊！",
+			say = "I have no idea how all these clothes ended up in my room, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "噗哈、哈哈哈哈…",
+			say = "Muahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吸、吸血鬼？",
+			say = "V-Vampire?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "一早就吵吵闹闹的，觉得有趣就跟过来看了下，还真是…有趣啊哈哈哈",
+			say = "You've been so loud all this time. If you're interested, come take a look. It's...to die for, hahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "凶手不是皇家方舟小姐哦",
+			say = "The culprit wasn't Ark Royal-san",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哈啊哈啊，吸血鬼妹妹今天还是一如既往地…不对，你知道这些衣服怎么来的吗？",
+			say = "Hahaha...Vampire's the same as usual today...Wait, do you know how these clothes got here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "吸血鬼知道事情的真相吗？！",
+			say = "Does Vampire know the truth?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我看到了哦，衣服从驱逐住宿区被吹到了航母居住区这边，昨天、不是一直在刮大风吗",
+			say = "I saw it all, those clothes were blown from the destroyers' dorms here to the carriers' quarters. The wind was strong yesterday, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "这么说…出门急匆匆的，窗户都忘记关了，难怪我说怎么房间里这么乱七八糟的…",
+			say = "Now that you mention it...I left in a hurry and forgot to close my window. No wonder my room was such a mess..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "难道…",
+			say = "Does this mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "小天鹅的衣服被大风吹跑了，正好飘进了皇家方舟小姐的房间？",
+			say = "Cygnet's clothes were blown away and landed perfectly in Ark Royal-san's room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "皇家方舟&小天鹅",
-			say = "诶？！！！",
+			actorName = "Ark Royal and Cygnet",
+			say = "Huh?!?!?",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

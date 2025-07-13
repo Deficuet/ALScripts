@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>融化的野兔</size>",
+					"Invitation of Melting Snow\n\n<size=45>Melting in the Heat</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 701025,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "从来没感受过这样的温度……",
+			say = "I've never felt this hot in my whole life...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好热……威严要受不了了……",
+			say = "Ugghh... I think I'm going to croak...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，把……把冰水给我递过来……",
+			say = "Comrade Commander, get me water... Cold water... Hurry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢……",
+			say = "*gulp gulp*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咕嘟咕嘟……呼呀~身体冷下来之后明显就清爽多了。哈，短暂复活了……",
+			say = "...Pfahh! Ahh, that's much better. I'm back from the brink.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是一会又会热起来……感觉要被翻来覆去的热浪给融化掉了。",
+			say = "It won't be long before it feels hot again, though. This back-and-forth is gonna make me melt...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "突然想起来，指挥官为什么会出现在这里？",
+			say = "...Why are you here anyway, Comrade Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,11 +172,11 @@ return {
 			},
 			options = {
 				{
-					content = "担心威严所以来看看",
+					content = "\"Making sure you don't melt like ice cream.\"",
 					flag = 1
 				},
 				{
-					content = "来和威严一起体验蒸桑拿",
+					content = "\"I want to enjoy the sauna with you.\"",
 					flag = 2
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然说桑拿房里确实热的不行，但是威严又不会真的化掉……",
+			say = "I'll be fine. The melting thing is just hyperbole, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "北联的大家虽然不怕冷，但是对热的耐性都比较差。",
+			say = "Heat just isn't my strong suit. I'm used to the cold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官要是担心威严的话，可以坐威严的旁边……嘿咻嘿咻，给你空出位置来了。",
+			say = "If you really need to keep an eye on me, at least sit down. Here, I'll make some space.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "原来如此……嗯，给指挥官空出位置来了，坐在威严的旁边就好。",
+			say = "Oh, okay. I'll make some space so you can sit next to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "北联的同伴们说这样可以促进血液循环什么的，对身体有好处。",
+			say = "They say saunas are good for your circulation. A lot of my Northern Parliament friends use them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "但是威严在这里呆了一会之后，最大的感觉就是……要融化了……",
+			say = "But in my case, they don't do anything. Other than making me feel like I'll melt, anyway...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "如果威严是雪人的话，现在一定已经变成液体从地板下面流走了吧……呼呀……",
+			say = "If I were a snowman, I'd already be a puddle on the ground by now... Aahh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "坐到了威严的旁边，向她详细解释正确的蒸桑拿过程。",
+			say = "I sit down beside her and proceed to explain how saunas are meant to be used.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一段时间后要去冷水池清洗身体，再去休息室休息一会，然后循环……？",
+			say = "...So after warming up a bit, you go out to take a cold bath, then have a break, rinse and repeat?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样，怪不得哪里不对劲……多喝点冰的可乐好了——咕咚咕咚——",
+			say = "That explains a lot... Yeah. Let me have an ice-cold oxy-cola to clear my head. *gulp gulp*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能带吃的进桑拿房，饮、饮料也不能在桑拿房里面喝？",
+			say = "...Food isn't allowed in the sauna? No drinks either?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不行不行，那样绝对不行！待在这种温度里还不能喝饮料的话，威严就真的要融化掉了！",
+			say = "But I need to rehydrate! I won't leave this sauna alive without something to wet my whistle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个，指挥官，再去帮我拿一杯冰的饮料！",
+			say = "Pl-please, one more glass with ice in it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就、就这一杯！最后一杯！喝完威严就该去休息一会了~",
+			say = "I promise, just this one glass, then I'll go out and rest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……不过感觉身体确实慢慢舒服起来了呢……",
+			say = "...Pfahh! That hits the spot. I'm starting to enjoy this...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,8 +10,8 @@ return {
 			bgName = "bg_story_ailevel",
 			side = 2,
 			dir = 1,
-			actorName = "绊爱",
-			say = "各位！快看快看！",
+			actorName = "Kizuna AI",
+			say = "Everyone~! Look, look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，又取回新的衣服了",
+			say = "Ooh, you've recovered another outfit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可爱～！好多轻飘飘的褶边，像公主一样！爱酱，很合身呢！",
+			say = "Cuuuute~! It's all frilly and princess-like~! AI, it suits you really well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是所谓的“人靠衣装”对吧！{namecode:13}！也觉得很可爱哦！",
+			say = "I see, I see! So this is someone who looks good in everything! I also agree that this is super cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10400030,
-			actorName = "绊爱",
-			say = "诶嘿嘿，谢谢～！",
+			actorName = "Kizuna AI",
+			say = "Ehehe~ Thanks, everyone~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，大事不好了喵！不是悠闲地品评新衣服的时候了喵！",
+			say = "There's big trouble, nya! This isn't the time to be fawning over clothes, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}？为什么这么慌张？",
+			say = "Akashi? What's the fuss all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新的虚拟镜面海域又出现了喵！",
+			say = "A new Virtual Mirror Sea has appeared, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放着不管的话，病毒又要越变越多，到时候就不妙了呢。希望各位能尽快赶去",
+			say = "If we leave it alone, the virus will rapidly multiply until it is nearly impossible to contain! Please hurry before we're out of time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的虚拟镜面海域和之前的都不太一样，以防万一请装备上这个喵",
+			say = "This Virtual Mirror Sea is a bit different than the ones you've encountered previously, so take this equipment just in case, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			bgName = "bg_story_ailevel",
 			side = 2,
 			dir = 1,
-			actorName = "绊爱",
-			say = "谢谢{namecode:98}酱！我们赶紧出发吧，大家！",
+			actorName = "Kizuna AI",
+			say = "Thanks, Akashi-chan! Let's get over there proto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			say = "虚拟镜面海域上空·高度4000m",
+			say = "Virtual Mirror Sea - 4 kilometers above sea level",
 			flashN = {
 				color = {
 					1,
@@ -234,8 +234,8 @@ return {
 			bgName = "bg_story_ailevel",
 			side = 2,
 			dir = 1,
-			actorName = "绊爱",
-			say = "…………诶？",
+			actorName = "Kizuna AI",
+			say = ".........Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10400030,
-			actorName = "绊爱",
-			say = "呀啊啊啊啊啊啊啊啊啊啊啊！为-什-么--开-始-会-从-这-么-高-的-地-方-往-下-掉-啊啊啊啊啊啊——",
+			actorName = "Kizuna AI",
+			say = "GYAAAAAAAAAAAAAAAAAAAAAHHH! WHY DID WE GET WARPED UP HEREEEEEEEE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "掉～～～下～～～去～～～～了！！！",
+			say = "We're faaaaaaaaaalling------!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊啊啊啊啊啊啊啊啊啊！",
+			say = "Woooooooaaaaahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,8 +329,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10400030,
-			actorName = "绊爱",
-			say = "拉菲酱救救我~~~~~~！",
+			actorName = "Kizuna AI",
+			say = "Laffey-channnnnnn~ saaaaaave meeeeeeeeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（昏迷）",
+			say = "(Unconscious)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,8 +381,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10400030,
-			actorName = "绊爱",
-			say = "居然晕过去了~~~~~~！？",
+			actorName = "Kizuna AI",
+			say = "... She passed out------?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这种时候不正是{namecode:98}给的装备登场的时候吗！",
+			say = "*gasp* That's right... now is the perfect time to use that equipment that Akashi gave us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来是有这么个东西——{namecode:98}特制空降模式展开…的说！",
+			say = "Come to think of it, we do have something like that... Akashi's prototype parachute, deploying! ...Hopefully!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,11 +425,9 @@ return {
 			}
 		},
 		{
-			actor = 301120,
-			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…总算是平安降落到海里了呢",
+			side = 2,
+			say = "………",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -457,13 +455,28 @@ return {
 			}
 		},
 		{
+			actor = 301120,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Pheww... we somehow managed to land safely onto the water... Thanks, Akashi!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "还以为要完蛋了～",
+			actorName = "Kizuna AI",
+			say = "I thought we were done for... Thanks, Akashi-chan~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +491,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸亏这个装备是自动开启的…要谢谢{namecode:98}了",
+			say = "I'm glad the one Akashi gave me was self-deploying... Thanks, Akashi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +506,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？不过，为什么周围会有像雾一样的东西慢慢靠过来呢……？",
+			say = "Huh? But, uhh, why are we surrounded by some weird fog? It seems to be creeping closer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +521,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是什么呢……？总有种不祥的预感……",
+			say = "Somehow... I have a bad feeling about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +536,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！只要被雾追上了，就会受到“伤害”对吧！",
+			say = "I see, I see! This must be like one of those games where you take damage if you stand inside the cloud!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,8 +552,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "（抖）额…？这个场景，总觉得在哪里见过……？",
+			actorName = "Kizuna AI",
+			say = "*shivers* Eh...? Why is this giving me a sense of deja vu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,8 +579,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "超级智能的直觉在告诉我，这时候应该全力往海域中央逃跑才对！！",
+			actorName = "Kizuna AI",
+			say = "My super intelligent AI senses are telling me that we won't last anywhere near a fortnight here unless we get to the center of this zone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +595,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意不要呆在雾的区域里，小心前进吧",
+			say = "Let's proceed carefully. Make sure you don't get caught inside the fog!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

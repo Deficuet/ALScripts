@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>海风带来的好消息</size>",
+					"Uncharted Summer\n\n<size=45>The Winds Bring Good Tidings</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "翌日，第一缕阳光洒在金色的沙滩上时，从远方传来汽笛的声音。",
+			say = "As the morning light paints the beach a golden color, a battleship appears over the horizon.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -75,11 +75,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大家快看，我们就快到目的地了哦~",
+			say = "Avast, ladies! Our destination is in sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,19 +87,19 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜哇~！真是好漂亮的一座岛欸~！"
+			say = "And boy, what a bloody brilliant sight it is!"
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "天气宜人，食物也很美味~嘿嘿，谢谢你们的招待啦~",
+			say = "Lemme thank you all for being such gracious hosts! The food was scrumptious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……丝毫没有身为罪魁祸首的自觉呢。",
+			say = "The cheek on you. Don't you feel the least bit responsible?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以这位名叫皇家财富号的小姐，你对这次的行为作何解释？",
+			say = "The Commander wouldn't have gotten stranded had you not sent that letter. Care to explain why you did it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可那是宝藏的信息哦？",
+			say = "What's there to explain? All I did was share information with my first mate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我作为指挥官的亲密战友，只是进行一下信息共享而已啦！",
+			say = "We share secrets, so what's wrong with sharing knowledge on some treasure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我可不记得你什么时候跟指挥官成为这种关系了！",
+			say = "I don't remember you ever being that close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,11 +172,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我跟指挥官可是一起度过了那次万圣节的危机哦~",
+			say = "Let's say we grew on each other quickly during last Halloween♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,11 +184,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那场“危机”是你自己引起来的吧！",
+			say = "By basically keeping the Commander hostage? Sounds like Stockholm syndrome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,11 +201,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（装傻）",
+			say = "So? Is a pirate not allowed to take hostages? Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再、再说了，出海可是指挥官自己的选择！",
+			say = "Besides, the Commander CHOSE to go on this treasure hunt. I didn't force anyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,11 +225,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀哎呀~这种探索未知的勇气也让我十分钦佩呢！",
+			say = "I'm glad the Commander went, though. Sailing into uncharted seas in pursuit of adventure takes a lot of courage! Courage that I envy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,11 +237,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然只有在风浪当中寻找生命真谛的生活才有意义！这是专属于海盗的浪漫~！",
+			say = "Oh, to seek the meaning of life amid tempestuous storms. THAT is the pirate life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,11 +249,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可惜……看起来你没办法理解这种浪漫呢。",
+			say = "Not that I expect some desk jockey to understand~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,11 +261,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你……！",
+			say = "Watch your mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,11 +278,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唉……算啦，实际上也没出什么大事。",
+			say = "Calm down, now. On the bright side, nobody was injured.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,11 +290,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "针对皇家财富小姐的处理方案还是等见到指挥官后再决定吧。",
+			say = "At the same time, everyone gets to forget their troubles and have a leisurely vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,11 +302,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼，难得能像这样把烦心的事情都抛到脑后，出来畅快地晒晒太阳。感觉倒也不错呢。",
+			say = "I say let the Commander decide how to deal with Royal Fortune while we enjoy ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,11 +314,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯小姐，皇家财富小姐，请用茶。",
+			say = "Miss Memphis, Miss Royal Fortune, may I interest you in a cup of tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,11 +326,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "多谢多谢~",
+			say = "Cheers, darling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,11 +338,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……谢谢。",
+			say = "*sigh*... Thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,11 +350,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无所属的无人岛……指挥官一出门就有了了不起的大发现啊。",
+			say = "When you think about it, the Commander's made an amazing discovery. A whole uninhabited island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,11 +362,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，那都是多亏了我的藏宝图哦~",
+			say = "Hey now, the Commander didn't do it alone! I deserve credit too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,11 +374,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以为什么不把指挥官一定会遇到风暴这种事在最开始的信里说明白呢？",
+			say = "I guess so. The shipwrecked thing could've been avoided if you'd mentioned a storm in your letter, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,11 +386,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……之前写的时候光顾着思考怎么把引导词写得更帅点，把这件事忘了。",
+			say = "Err, well, I was so focused on making a fitting poem that I forgot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,11 +398,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等我发现之后就急忙跑来找你们……结果还是晚了一步！",
+			say = "At any rate, the Commander DID get in touch with us! It took nearly a day, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,11 +410,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "非常抱歉，下次不会了！",
+			say = "Alright, I'm sorry! I won't do something like that again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,11 +427,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "下次再遇到这种事，我会在行动之前先把你抓过来当面解释清楚的。",
+			say = "Good. But if you do, I'll personally bring you to the Commander to answer for your criminal negligence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,11 +439,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜啊——好可怕——————",
+			say = "(Blimey, she's terrifying!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,11 +456,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大家注意，已经能看到海滩上的指挥官和拉菲她们了。",
+			say = "Ladies, we've sighted the Commander and friends by the shoreline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,11 +468,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃罗西亚",
+			actorName = "Sovetskaya Rossiya",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "居然一天内就搭建了一个像模像样的据点么，有一套啊~",
+			say = "They built a whole camp in just one day. Talk about impressive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,11 +480,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？指挥官发来了一个坐标，希望我们从那里登陆和装卸物资。",
+			say = "Hm? What are these coordinates? The supply drop-off point?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,11 +492,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那里是……噢~打算在那个地方修建港口的意思么？",
+			say = "I think I see what they're going for. They plan to build a pier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,11 +504,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不错的眼光。",
+			say = "A splendid idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,12 +516,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "逸仙",
+			actorName = "Yat Sen",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有了港口之后，不论是人员运输还是物资调配都很方便，不错的选择。",
+			say = "I have to agree. It would be much easier to load and offload cargo and people with a pier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,11 +533,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "维托里奥·维内托",
+			actorName = "Vittorio Veneto",
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来接下来一段时间会很有趣呢，我们快准备登陆吧~",
+			say = "It sounds like a fun endeavor as well. Everyone, let's get ready to disembark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "港区支援舰队在登岛之后，立刻开始了无人岛开发计划。",
+			say = "To be frank, I'm all but floored by the girls' enthusiasm.",
 			bgm = "theme-SeaAndSun-image",
 			typewriter = {
 				speed = 0.05,
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "各阵营展现出的热情令人大吃一惊……",
+			say = "They set out to explore the island almost as soon as they set foot on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "相信很快，这座岛屿就会被改造成不错的度假胜地了。",
+			say = "If we keep this pace up, I think we'll have the resort built in close to no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "不过当然，在此之前还有一件不得不解决的事——",
+			say = "But before that, I need to deal with a certain someone who led me here in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "Ahoy matey！好久没见面咯，老朋友~",
+			say = "Ahoy, matey! How ya been, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，有没有想我呀？",
+			say = "Missed me? Wanted to thank me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……这场落难都在你的计划中？",
+			say = "\"Sure, but first, there's something I wanted to ask.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算是吧~不过我向你保证，我绝对没有害你的意思哦。",
+			say = "I know what you're thinking. I promise I didn't mean for you to get hurt, on my honour!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "实际上来说也没有遇到危险嘛~",
+			say = "On one hand, my carelessness got you shipwrecked, but on the other, it led you to this pristine piece of resort real estate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "况且你还收获了一个风景秀丽的无人岛，这次就原谅我吧。",
+			say = "So, I'd say we're square, right? I mean, surely?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "啊…………时间差不多了，我该回去了。",
+			say = "...Oops, I just remembered I have a meeting with my Tempesta mates. I've got to scurry back home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过几天后我会再来的，在这期间好好探寻这座岛屿的秘密吧。",
+			say = "Don't worry, I'll be back in a few days. Meanwhile, go on and explore the island!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "Matey，寻宝之旅可才刚刚开始哦~",
+			say = "Until then, keep me in your thoughts – and heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "那么再会了——",
+			say = "And remember, the treasure hunt has only begun. Toodles!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "与万圣夜时相同，皇家财富号如风一般离去了。",
+			say = "In a reprise of our Halloween encounter, Royal Fortune disappeared just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……虽然有些没太明白她的意思，不过还是先着眼于无人岛的开发计划吧——",
+			say = "I'm not quite sure that she's telling the truth about there being treasure, but for now, I'll focus on looking around the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			actor = 502023,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于，要开始东煌组合“东煌姐妹”的登场秀了！冷静一点...冷静一点宁海。",
+			say = "It's finally time for us to make our grand debut! All right, slow and easy...",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			actor = 502033,
 			dir = 1,
-			say = "那个，姐姐……平海饿了，可以先吃点东西吗？",
+			say = "Sis, I'm hungry... Can I grab something to eat first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要今天的演出圆满成功，回去之后姐姐请你吃肉包吃到饱哦！",
+			say = "Hey, hang in there a bit longer! If our concert goes well, I'll let you have as many pork buns as you can stomach!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 502033,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吃肉包子...到饱？！不论唱歌跳舞还是功夫，平海一定全力以赴！",
+			say = "As many as I can stomach...?! All right, I'll do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			actor = 502023,
 			dir = 1,
-			say = "没错，一定要跳出最优美的舞蹈，给世界各地的人看看！",
+			say = "That's the spirit! We have to blow everyone away with our performance...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 502023,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次是东煌选派我们参加活动的...绝对不能丢我们东煌的脸哦！",
+			say = "(We're representing the entire Dragon Empery! We can't afford to put on an unsightly performance that would cause everyone back home to lose face!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			actor = 502033,
 			dir = 1,
-			say = "姐姐，Polaris的各位来了",
+			say = "Sis, Polaris is here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟~东煌的两位新人偶像，组合名叫“东煌姐妹”么，简单易懂的名字呢~",
+			say = "If I'm not mistaken... Umm, you two are the Dragon Sisters, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			actor = 502023,
 			dir = 1,
-			say = "克利夫兰小姐，还有Polaris的各位，今天我们的演出就请多多指导了",
+			say = "Well met, Polaris! We challenge you to a battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，这边干就是……",
+			say = "All right, all right, let's get to work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧！东煌姐妹！",
+			say = "Show us what you're made of, Dragon Sisters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可不要小瞧了装备了μ兵装的Polaris的实力！",
+			say = "I'll show you what happens when you underestimate our power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

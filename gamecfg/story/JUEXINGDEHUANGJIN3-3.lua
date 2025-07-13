@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "激战中，钢铁巨龙的铁爪再次将超级钻头MKII劈成两段。",
+			say = "Once again, the Mechadrake suddenly brandished its iron claws and charged forward, splitting the Prototype Super Drill MKII in half.",
 			hidePaintObj = true,
 			bgm = "story-battle-16bit-sfc",
 			typewriter = {
@@ -17,7 +17,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "但是——",
+			say = "But then...",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一刻也没有来得及为试作型超级钻头MKII量产型而哀悼，立刻赶来战场的是试作型超级钻头MKII量产型。",
+			say = "Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -37,11 +37,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "……真难缠。",
+			say = "So stubborn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,11 +50,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "重生吧，我的半身——巨龙机甲·铁爪！",
+			say = "Come back to me, my second half – Iron Claw Mechadrake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伴随着铁爪恶魔的话语，钢铁巨龙再次完全恢复了损伤。",
+			say = "The Iron Claw Demon cried out, and her iron beast was restored to full health!",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -72,10 +72,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨龙机甲·铁爪",
+			actorName = "Iron Claw Mechadrake",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌",
+			say = "ROOOOOOAAAAARRRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来不得不拿出真本事了purin！",
+			say = "I'm done messing around with you, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "三倍速冲破天际吧，试作型超级钻头MKII！",
+			say = "Prototype Super Drill MKII, pierce the heavens at triple speed, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "又有两台增援的黄金机甲降落至海面。",
+			say = "Another two golden mechs descended upon the battlefield.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "冲突，继续升级——",
+			say = "The already fierce battle grew even fiercer.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,

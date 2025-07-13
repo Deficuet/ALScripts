@@ -11,14 +11,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "此刻，舰队正以直线距离向基地方向全速行驶着。",
+			say = "Rumey's Resistance fleet rushed back for headquarters at flank speed.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"ID-AX-98号海域",
+				"Sea Region IB-AX-98",
 				3
 			},
 			flashout = {
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "鲁梅女士，指挥官，如果继续直线行驶的话，舰队将会驶入高危海域中。",
+			say = "Rumey, Commander. Continuing along this direct route will bring us into treacherous waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……高危海域？）",
+			say = "(Treacherous waters?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "高危海域对于我们主力舰队的危险程度如何？",
+			say = "How much of a threat does this route pose to our main fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "有一定威胁，但是能应对。",
+			say = "There is a level of risk. An acceptable level, though, given the size of our force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "那我们接下来……？",
+			say = "So you're saying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "情况危急，我们必须尽快赶回去……航线不变。",
+			say = "Every second counts. We stay the course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "……是！",
+			say = "Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

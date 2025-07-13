@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg3",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "稍早前的会客室中——",
+			say = "Sanctuary Pagoda - Reception Room",
 			bgm = "theme-musashi-inside",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "只是一次试探性的进攻，{namecode:74}大人就这样入场了……",
+			say = "Nagato, I wasn't expecting you to enter the battle so soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如此结果也有点出乎我的预料……依我之见，此时并非入场的最佳时机吧？",
+			say = "To think that a bit of testing the waters would trigger such a strong rebuke... Perhaps I underestimated that girl's resolve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……看来，这是{namecode:74}决定了自己想要贯彻的道路。",
+			say = "Maybe not. That might've just been what Nagato wanted the whole time - to stand on the front lines.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "覆巢之下岂有完卵，皮之不附,毛将焉存？",
+			say = "She would put herself in harm's way just to prevent unnecessary conflict...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "为了保护弱小之人而置大局于不顾，真是无趣……",
+			say = "Because of that antiquated ego, she fails to see the bigger picture. Her fixation on \"protecting\" what is dear to her may well cause her to lose everything. How foolish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "{namecode:84}，所有的结算都已经完成了么。",
+			say = "There is no future to be had down that road, with or without fighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "嗯。因为{namecode:74}大人的樱之结界，所有战斗都被消除了，侍从们的重叠状态也自然散开，的确没有任何人受伤。",
+			say = "Regardless, by sacrificing her advantage as a \"player\" in this match, her forces now vastly eclipse ours in combat effectiveness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "呵……那就如此吧。大前辈，「变革之路」这张事件卡是你准备的吧？",
+			say = "So, she insists on standing in the way... Mikasa, do you have what it takes to keep up with her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "正是。当陷入僵局之时，唯有变革，才能从困境中走出一条新的道路。",
+			say = "Keep up? Hah, I don't have the energy or determination that girl has. The most I can do is to fill in the gaps behind her as she forges a new path forward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "对应到棋局之上，所有侍从对据点造成伤害后可以获得移动力的增益。希望大家多清理据点，少相互战斗呢。",
+			say = "Now that the balance of power has been broken, shouldn't we go back to securing as many bases as we can instead of fighting each other?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "对于需要变革这一点，我与大前辈观点相同。确实有不少东西都需要变一变了。",
+			say = "You may be right in saying that Nagato is forging a new path forward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "不过应该选择一条怎样的道路进行变革，究竟怎样的道路才是正确的。",
+			say = "But does it not fall upon us to determine if that path leads to the light... or to the abyss?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "要回答这个问题，恐怕还是需要从实践中寻找答案，而不能仅凭大前辈的臆测来决定吧。",
+			say = "As someone responsible for shouldering the Sakura Empire's future, there are many other things to consider than your own narrow sense of justice. One cannot make judgments based on speculation and assumptions alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "此次欧罗巴之行，我认为已经足以说明一些问题了。",
+			say = "I cannot deny what you have done for us. But at the same time, it is too dangerous to work with the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "欧罗巴各国如同一团散沙，唯有铁血内部团结一致。",
+			say = "The Commander informed me about the Iron Blood incident not too long ago. Unlike in our case, the Commander was involved with their plan to a far greater degree.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "纵使出现了领导层的巨变，铁血依然快速提升了实力，实现了了不起的战果。",
+			say = "Plus, both Bismarck and Friedrich shared the same vision despite their diverging paths... That is why they were able to complete their lengthy project in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "内部团结一心，外部独立自主，战略上明辨敌我，战术上谨慎心细。",
+			say = "If Nagato and I could understand the path that you've chosen, perhaps we might've also been able to work together towards a common goal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "只有这样的国家，才能取得成功。",
+			say = "But, your heart is just as opaque as the sea fog concealing this board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "大前辈，反将塞壬一军的前提，是要先加入其中哦？",
+			say = "...In order to outwit the Sirens, you must first learn the taste of the poison they serve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "你的意思是，也有此意？",
+			say = "Akagi, you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "我的意思是，塞壬接下来会对这种事格外提防吧。",
+			say = "After the success of the Iron Blood rebellion, the Sirens have become much more vigilant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:91}",
-			say = "……感觉屋里的气氛实在有些沉闷，我还是追随{namecode:74}大人的脚步，先去大棋盘内恭候各位好了。",
+			say = "Now that Nagato has made her intentions clear, I will crush her and demonstrate the superiority of my vision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg3",
 			hidePaintObj = true,
-			say = "{namecode:91}将此前{namecode:84}赠送的邀请函飞入棋盘，潇洒地摆了摆手。",
+			say = "With Akagi's declaration, a dazzling light enveloped both her and the board, just as it had with Nagato previously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "随即在一阵光芒中，{namecode:91}与邀请函一同从房间中消失了。",
+			say = "When the light faded, only two people remained around the board.",
 			flashout = {
 				black = false,
 				dur = 1,
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "又是如同{namecode:74}一般，突兀又果断的入场啊。",
+			say = "She also wants to prove herself, huh... Just like Nagato, she too can only do things in her own way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非也，她的行为虽然看起来突兀，不过时机上恰到好处。",
+			say = "The balance of power has again been restored with Akagi's entry into the battle.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看，{namecode:91}大人首先使用了指挥卡「赤红之誓」，然后配合自己的入场能力「猩红绽放」亲手打出了高额伤害。",
+			say = "She will most likely join up with Miyuki to cut you off from Nagato's forces.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只用了两回合就拿下了区域据点哦。",
+			say = "Now the question is, will she try to gobble up your bases, or will she launch an attack on the central tower?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "猩红绽放……没想到她给自己设置的技能也是如此激昂。",
+			say = "She's not here anymore, so it'll be harder to read her intentions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……过度锋芒毕露，犹如燎原烈火，终会反噬自身的。",
+			say = "It would appear that the youngsters are too impatient to keep our little game of chess going. Hahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鲁莽和冲动可是年轻人的特权，{namecode:82}大人以前也有过这种血气充盈的时光吧？",
+			say = "Hehe. I'm sure you were no less hot-blooded yourself during that war. Isn't that right, Great Veteran?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒也是……不过对我来说已经是很久之前了。",
+			say = "But that was a completely different era, Musashi. A long, long time ago, wasn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如今没有可供交付后背的人，我就算想要鲁莽一次，也没有信心和资本啊。",
+			say = "Even if I tried to run off like them, my body wouldn't move. After all, there are people leaning on me now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}，这次棋盘的核心部分，是镜面海域吧。",
+			say = "...Musashi, be honest with me. This exercise area is actually a Mirror Sea, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为何这么说？",
+			say = "What makes you say that?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这将梦幻映射入现实的棋盘，再加上刚刚{namecode:74}与{namecode:91}消失的状态，实在与我认知中“结界”所能做到的事相距甚远。",
+			say = "Mapping one's mental imagery into existence, the sudden disappearance of Nagato and Akagi... Those aren't things that should be possible through the Sakura Islands' rituals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，{namecode:82}大人对于“结界”并不了解吧？",
+			say = "I wonder, do you really know everything there is to know about our rituals?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……很不巧，我对于这方面的事几乎一窍不通。",
+			say = "...Probably not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以刚刚只是猜测，如果猜错了我很抱歉。",
+			say = "But, that's why I want to know. Pardon me if it seemed like I was accusing you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,112 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，你猜得很对。{namecode:91}在与塞壬合作的时候，也送了我一处自由支配的镜面海域。",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900330,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我没什么要特别实验的，就想着不如改造成棋盘作为游乐之用好了。",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人还真洒脱啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900330,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "也可以这么解释吧~怎么样，还满意么？",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "满意又惊奇。这套棋盘稍微改造一下，就是十分出色的战斗模拟设施了",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而且安全，与那些直接用同伴做实验之人的选择完全不一样。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900330,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:91}大人在那次之后也十分注意了哦，也不能因为一件事做得不好就一直无休止地苛责下去嘛。",
+			say = "No, there's no need for that. Your instincts were correct - this is indeed a Mirror Sea, entrusted to Akagi by the Sirens.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -840,7 +735,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望{namecode:82}大人与{namecode:74}大人之间不要再生芥蒂，既然都是为了重樱，那更应该同心协力才是。",
+			say = "Originally, it was a Siren experimental site that none of us could use. But after combining it with spirit barriers, I was able to turn it into the domain you now see.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -858,41 +753,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是自然，我现在对于{namecode:91}的一举一动都格外关注，以期能修正心中的看法呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "之前{namecode:74}入场的时候正好是行动结束之时所以看得不是很仔细。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:91}控制区上的棋子正在自行移动，这代表她已经在场内开始指挥了么？",
+			say = "I'm not sure if what you've done is amazing or borderline heretical...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +770,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错。在她的行动全部都结束之后会出现和之前一样的提示，届时，就该你进行行动了。",
+			say = "I'll take that as high praise from the Great Veteran. I do wonder though... Has this place been to your liking?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -927,7 +788,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，那在棋盘外指挥和棋盘内指挥有什么区别么？依我看来二者都是对侍从下达命令吧。",
+			say = "I don't think it matters whether or not I \"like\" it. The reality is, I'm stunned by the number of things here that seem to defy conventional wisdom.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "And even more impressively, you're able to control these things. Perhaps the stories of the Iron Blood singularity aren't as far-fetched as I initially believed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +822,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "区别自然是有的。",
+			say = "I've also heard of a Sculpting Room that generates storms to keep everyone who does not possess the \"Key\" away.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -962,43 +840,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果大将坐于场外，则其对于侍从的命令有着规则上的强制性。而进场之后，其命令的执行就不能依靠规则了。",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900330,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过在大将入场之后，其可以与侍从直接交流，通过并肩作战增强彼此间的联系，这是处于场外时无法做到的。",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900330,
-			side = 2,
-			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "入场与不入场皆有利弊哦。",
+			say = "In any case, the actual Mirror Sea itself is sealed away, but I did not disclose this to you or Nagato knowing the suspicions both of you have towards Siren technology.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1016,7 +858,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是在入场之后，就无法进行此时一般的场外闲谈了吧~",
+			say = "There was once a period of time when I was paranoid of Akagi's every move. At least now, I have fewer doubts about her intentions.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "By the way, how do you command your allies after entering the battlefield? To my understanding, our communications are not affected the way they would be in a Mirror Sea?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We're able to give instructions directly to the entire fleet from here, and losing that ability would be a huge disadvantage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,7 +909,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，那是自然。",
+			say = "Don't worry. You won't be able to immediately grasp everyone's positions at once, but you will still be able to issue commands to them as before.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1051,7 +927,79 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，既然如此，那我可要尽可能在这里坐得久一点呢。",
+			say = "I see, so there aren't as many disadvantages as I imagined. So, for our allies inside, there's no difference in how they're getting their orders?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900330,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Correct.",
+			hidePaintEquip = true,
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900330,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "There is a key difference though: when the retainer is unable to hear the player's voice, she has no choice but to obey the order. But if she is able to voice her opinions, she may be able to influence those orders.",
+			hidePaintEquip = true,
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900330,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You will also be able to directly observe the condition of your forces, and that may cause you to make different decisions than if you treated them as pieces on a board.",
+			hidePaintEquip = true,
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900330,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I wonder if Nagato and Akagi were aware of this before they made their decisions.",
+			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1016,59 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？棋盘的颜色改变了，那我就继续了哦，{namecode:84}大人。",
+			say = "I'd imagine so. They chose to fight alongside their friends rather than sit out here enjoying tea with us.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900330,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hehe. Can't blame them.",
+			hidePaintEquip = true,
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hahaha. Well then, as I told Akagi, I will remain here a bit longer.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_wuzang_bg0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Show me what kind of moves the three of you will make.",
 			painting = {
 				alpha = 0.3,
 				time = 1

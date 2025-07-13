@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·D11防御模块至D12防御模块之间",
+			say = "Floating Fortress - Area between D11 and D12 defense lines",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:412}、{namecode:467}、{namecode:454}……很好，人都到齐了。那么五分钟后训练继续开始。",
+			say = "Z46, Heinrich.. The time is now. We will commence training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的任务是清理上午剩下的“重樱”舰队和“铁血”舰队么？",
+			say = "We just have to defeat the Pawns' Sakura Empire and Iron Blood fleets, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，不过这些作为下午的训练内容来说还是有些少。我又补充了一些混合舰队进去。",
+			say = "That's right. However, such meager forces as you faced before would hardly classify as training, so I threw in some extra Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，没关系，来多少都一样，一鼓作气解决战斗吧！",
+			say = "Heh, keep 'em coming! I'll knock down whatever you throw at me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就按照和上午一样的配置，{namecode:454}负责前锋，{namecode:412}负责护卫，我与{namecode:467}负责对空战。",
+			say = "Brave words. We'll maintain the same formation we had this morning. Heinrich and Z46 in the Vanguard Fleet, Weser and I will be air support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,44 +133,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "哦对了，有一点要特别交代一下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 407030,
-			side = 2,
-			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "因为发生通讯故障的原因尚未查明，以防万一我提高了基地防御设施的警戒等级。",
+			say = "Aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +154,40 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "具体来说，不论如何不要越过D12防御模块前往更外部的区域。",
+			say = "There's one more thing you should be mindful of.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 407030,
+			side = 2,
+			bgName = "bg_fuxiangxian_1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Because I haven't been able to ascertain the exact cause of the communication failure, I've raised the security level of the research facility just in case.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_fuxiangxian_1",
+			actor = 407030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Therefore, all defense areas beyond D12 are off limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算是追击训练目标也不行么？",
+			say = "So, we shouldn't enter them even to pursue a training target?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可以。不过不用担心，接近D13防御模块的训练目标会被防御设施自动清理掉的。",
+			say = "Don't make me repeat myself. Besides, past D13, even the mass-produced ships there are equipped with live ammunition. Anything that makes it through will quickly get turned to fine dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在查明真实原因之前，为了防止情报欺骗和可能发生的潜在进攻威胁，从D13开始防御模块都进行了实弹装填，并设定了最高的警戒等级。",
+			say = "I'm going to maintain these security measures at least until I can determine the source of the communication abnormality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最高警戒等级，是指对进入射程内的一切目标进行无差别攻击吧……",
+			say = "Live ammunition...? Are they programmed to attack all intruders indiscriminately?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？！……从D13开始就启用最高级警戒别会不会有点反应过度了？万一有路过的友方舰队的话……",
+			say = "Woah, isn't that overkill? What if an allied fleet happens to wander into the wrong neighborhood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里可是被“塞壬常年占据”的原铁血海外基地哦。会不经申请来到这里的，只有塞壬做小动作的舰队，以及碧蓝航线的进攻舰队吧。",
+			say = "I have no plans to be anywhere near there, and I've already notified any relevant allies. In case someone does end up getting caught up, I trust you'll be able to clear out the mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是……算啦，这么复杂的事，只要{namecode:471}觉得对那肯定就没错了！",
+			say = "A true maestro of the battlefield! You've already thought everything out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你偶尔也多学点战略战术怎么样？",
+			say = "This is perfectly normal. Observers from the outside will see this as another Siren \"Mirror Sea.\" If anything, it would be abnormal for them not to encounter any resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什~~~么~~~~风太大了，听不见！",
+			say = "Good point. Well, how about we get the show on the road then with this next exercise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，还是老样子又冲出去了……{namecode:471}？",
+			say = "Can you try not being hyperactive for once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "唉，虽然提早了三十五秒……我宣布，本日训练继续开始！",
+			say = "...C'mon, we've wasted enough time here. Let's hurry it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

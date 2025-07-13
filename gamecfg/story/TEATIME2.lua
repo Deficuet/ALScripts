@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>二 怕寂寞的女王陛下</size>",
+					"Lively Afternoon Tea Party II\n\n<size=45>「A Queen Afraid of Loneliness」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸好贝法有带红茶……",
+			say = "Thank goodness Belfast brought black tea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "作为一名女仆，随身携带红茶是理所当然的",
+			say = "As a maid of the Royal Navy, having tea on-hand is a given.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嘟嘴）我也是女仆啊，至、至少……编制上应该还是？",
+			say = "(Bites lip) I’m also a maid, so, so… tea should be a must-have?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			actorName = "{namecode:14}",
 			dir = 1,
-			say = "品尝抹茶的醍醐味后，会更珍惜其他食物的甜蜜与温暖哟",
+			say = "After tasting the bitterness of matcha, I will cherish even more the sweetness of other foods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样在抹茶之后来一杯红茶，刚好两种妙处都能品得",
+			say = "Having black tea after tasting matcha tea, what an opportunity to compare the two flavours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "原来如此，{namecode:13}也要尝尝贝尔法斯特泡的红茶！",
+			say = "{namecode:13} also wants to try the black tea prepared by Belfast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,9 +115,9 @@ return {
 			actor = 205010,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
-			say = "等、等等——！",
+			say = "Wait, wait for me——!",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们、你们举办茶会竟然没有邀请本王！",
+			say = "Hey, all of you didn’t care to invite me to this tea party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "哎，陛下之前不是说“本王日理万机，肩挑兆民之责，哪有时间陪庶民玩闹，哼！”吗？",
+			say = "Hmm, didn't your Majesty once say to me, “As Queen, I have a tremendous amount of tasks and responsibilities, how can I possibly spend time with you commoners!”",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,7 +167,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可、可你们都不在，本王一个人，很、很……哼，你们难道不欢迎我吗！",
+			say = "But, but everyone is gone and I am all alone. It’s very.... Wait, are you telling me I'm not welcomed here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然欢迎~陛下能于百忙之中屈尊下顾我等的茶会，我等着实铭感五内，不胜荣幸~陛下，请坐这里",
+			say = "Of course you're welcome here~ You honour us with your presence. The fact that your Majesty can take time out of your busy schedule to join us for this tea party makes me feel privileged~ Please take a seat your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼～说回来还是贝法不好！我昨天睡前有吩咐你今日叫我起床吧！我睡到中午都是你的错！",
+			say = "Come to think of it, Belfast you failed in your duties! I told you last night before bed to wake me up this morning! I ended up sleeping until noon, it’s all your fault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是，女仆贝尔法斯特，对没能叫醒贪睡的陛下深感抱歉，这次失职贝尔法斯特一定铭记于心——",
+			say = "Yes of course your Majesty, I failed in my duties as maid to wake you from your sleep. I will take to heart this dereliction of duty as a serious offense——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，如果以后每天都给本王讲睡前故事，本王就原谅你。昨晚我睡得确实有一点点晚啦，对了，茶呢？",
+			say = "No matter, if you’ll tell me bedtime stories every night henceforth then I shall forgive you. I slept a little late last night indeed. So, where’s my tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "给～这是重樱人士特意为陛下泡制的茶，希望陛下务必能尝一尝～",
+			say = "Here~ this tea was especially prepared for you by the Sakura Empire. I hope that your Majesty likes it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
+			say = "At the same time, {namecode:11}...",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			say = "【北纬34°东经140°】",
+			say = "[North Latitude 34° East Longitude 140°]",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "一个人果然还是有点……不过——忍者•{namecode:11}即便孤身一人也绝不会放弃！北方联合，我来了！",
+			say = "A single person alone can be a bit… but——Ninja {namecode:11} will never give up even if I'm facing danger alone! Here I come, Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

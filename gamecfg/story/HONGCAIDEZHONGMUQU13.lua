@@ -9,7 +9,7 @@ return {
 			bgm = "theme-highseasfleet-reborn",
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "敌方战舰命中！",
+			say = "Direct hit! Damn, I'm good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "哼哼♪这种灵活的身体真棒啊~",
+			say = "Fighting with a rigging is pretty fun, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "体型变小，动力增加了，就像把一整艘船浓缩成一个人一样。",
+			say = "All the power of a warship compressed into a weapon on the scale of a human...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "曾经需要多部门合作的复杂操作如今仅依靠一个念头就能完成……",
+			say = "With a rigging, a single soldier can accomplish what once took an entire crew to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "真是让战斗效率大幅提高的跨越时代的技术。",
+			say = "It's no wonder that shipgirls made warships obsolete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "而且变小之后被击中的概率也变低了，真好。",
+			say = "Plus, we're way smaller targets, so they're gonna miss most shots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这就是你站在原地一动不动的理由么？",
+			say = "Yes, but that doesn't mean you should make like a sitting duck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "反正也不会被打到，还是这样比较轻松~",
+			say = "I'm cool with being a sitting duck if it can't hit me regardless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……………………",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "……{namecode:460}，你在做什么？",
+			say = "What's the matter, Seydlitz?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "嗯？我正在旋转主炮调整射击角度。舰装比想象中要便于控制很多……真是太方便了。",
+			say = "It's just... As I was calibrating my main guns, it dawned on me that it will be a long while before I master my rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "……可是，你直接转一下腰进行瞄准不是更方便么？",
+			say = "Want some help with that? Heavy cruisers and battlecruisers must have at least a few attributes in common.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "确实……！用现在这幅身体的话确实可以办到！",
+			say = "Yes, please! First of all, if you could look at this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "敌人命中……敌人状态观测中…………",
+			say = "I... I hit the target?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人……………确认摧毁？！",
+			say = "I sank it, too?! How in the world did my peashooter cannons manage that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "欸？！{namecode:449}只是巡洋舰哦，依靠炮击就能摧毁那种敌人么……？",
+			say = "Oh, it must be because of my wish that I wouldn't land any successful hits. Thank goodness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "这就是我们确实变强的证据啊。",
+			say = "It wasn't a fluke, Elbing. You've simply become stronger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "如此的威力与射速在以前真是想都不敢想……",
+			say = "Put your faith in yourself and your rigging, and you'll realize your full potential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "也不知道这身装备能不能改造……要是能再加个七门八门炮塔就完美了！",
+			say = "I believe in you. These insignificant Sirens are no match for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "大家小心，空中有敌人来袭！",
+			say = "Enemy planes on the horizon! Ready your anti-air weapons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "塞壬果然开始使用飞机应战了……这可不妙，我们还没有专门对空作战的装备呢！",
+			say = "Planes, eh? Time to put this baby's AA capabilities to the test!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "没办法，只好和之前一样用高平两用炮应付一下了。能打飞艇，总能打飞机吧！",
+			say = "Ditto. The more acquainted we become with our arsenals, the better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "飞机即将接近！这里还是先躲开……",
+			say = "I-I think I should just fall back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "来不及了，这里由我用装甲硬抗，你们快闪开！",
+			say = "There is no need to, Elbing! Get behind me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "数枚炸弹在{namecode:460}周边爆炸，溅起大量水花和浓烟，不过在转瞬之后发动攻击的舰载机就被火炮击落了。",
+			say = "The aircraft dropped their payloads over Seydlitz, but only scored near misses. Her allies trained their AA guns on the planes and promptly shot them down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "咳咳……敌方飞机击落。果然这身装甲还是很可靠的啊。",
+			say = "Enemy aircraft neutralized! Excellent. Now I also have a good idea of what our armor can withstand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起硬吃，我觉得加速绕过去也来得及哦~就像这样一样。",
+			say = "Why weather the enemy's attacks when one can evade them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "{namecode:448}灵活的在海上划出优美的线路，一边躲避一边射击着天上的飞机。",
+			say = "The Swan of the East gracefully moved out of the way of incoming machine-gun fire, then retaliated with attacks of her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "好像在跳舞一样……{namecode:448}已经彻底习惯这幅身体的作战方式了么？",
+			say = "Wow, look at you. You've already become a pro at this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "彻底熟悉还算不上，不过基础运用应该没问题了哦。",
+			say = "\"Emden's strength is not to be scoffed at, Lützow.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "毕竟这是我们一起努力的结果呢~",
+			say = "We are a long way away from perfection, but an average battle poses no issue to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "……我们？",
+			say = "...You have it easy just 'cause there's two of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "呵呵，关于这一点暂时保密~",
+			say = "If you have something you wish to say, speak up and look us in the eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "大家注意观察我的动作，尽快熟悉一下这幅身体，然后消灭敌人吧~",
+			say = "\"And if you've the time for that, use it on fighting instead. Emden will not tolerate any laziness.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>五　意想不到的邀请</size>",
+					"Uniquely \"Me\"\n\n<size=45>5 An Unexpected Invitation</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "几天后——",
+			say = "A few days later...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看上去爱丁堡的秘书舰工作已经像模像样了。",
+			say = "The quality of Edinburgh's work as the secretary ship has been quite satisfactory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，差不多该休息了吧？今天我准备了新的点心哦。",
+			say = "Commander, shouldn't you be getting ready to retire for the day? I prepared a new dessert for you today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？看来有客人。门开着，请进——",
+			say = "Hm? It seems like we have guests. Come in––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，秘书舰的工作顺利吗？",
+			say = "Edinburgh, how goes your secretary work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡，你好！",
+			say = "Hey there, Edinburgh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃米尔？还有回声也在一起，有什么事么？",
+			say = "Émile? And Echo too? What brings the two of you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样的……很不幸，你本来的舞伴因为突发情况没法出场了。她托我来向你表示歉意。",
+			say = "So the thing is, your partner for the dance can't make it due to an emergency. She asked me to come and apologize to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶！这，这样啊……这下可不好办了……",
+			say = "Eh? Oh no... that's quite troublesome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……舞会和舞伴是指？",
+			say = "Seeing the confusion on my face, Echo explains the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实，皇家和鸢尾这次要举办一个交流会。",
+			say = "There's going to be a social party between the Royal Navy and Iris Libre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 201290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本来爱丁堡要在会上跳舞的♪她跳舞可棒了呢！",
+			say = "Edinburgh has been preparing a dance for the party. She's totally amazing, you know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回声？！太，太夸张了啦！",
+			say = "Echo! You're exaggerating way too much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是碰巧跳得好而已……埃米尔也这么觉得吧？",
+			say = "I just barely manage to avoid stepping on peoples' toes... Isn't that right, Émile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，爱丁堡跳舞可漂亮了，有机会的话真想让指挥官看看呢……",
+			say = "Heh heh, Edinburgh is so dazzling on the stage that you should go see her when you have the time, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了~难得的机会，指挥官要不要来一起参加？这样爱丁堡的舞伴问题也解决了~",
+			say = "Wait, that's perfect! How about pairing our secretary ship here with the Commander for the dance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 201290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让指挥官和爱丁堡一起跳！好主意！",
+			say = "Woah, that's a great idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……诶诶诶诶诶！！！",
+			say = "Eh...? EHHHHHHH?!!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定会是非常浪漫的一晚吧~那么指挥官，请收下这个～",
+			say = "Doesn't that sound so romantic? Then this is for you, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………顺势从埃米尔手中接过了邀请函。是有备而来的？！",
+			say = "Edinburgh never recovered from her state of panic, but I take the invitation from Émile's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "为，为什么会变成这样……？！",
+			say = "H-how did this end up happening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>五 黑暗之中</size>",
+					"A Date With Atago\n\n<size=45>Chapter 5: Engulfed by Darkness</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（咔嚓咔嚓咔嚓）",
+			say = "(Clatter... clatter... clatter...)",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,10 +47,9 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
 			dir = 1,
 			blackBg = true,
-			say = "……………",
+			say = "..................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（咕咚咕咚咕咚）",
+			say = "(BANGBANGBANGBANGBANG!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,10 +73,9 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
 			dir = 1,
 			blackBg = true,
-			say = "……………",
+			say = "..................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +89,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（无声）",
+			say = "(Silence...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,10 +99,9 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
 			dir = 1,
 			blackBg = true,
-			say = "……………",
+			say = "..................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（我——好——恨——）",
+			say = "(BWWWAAAAAARRRRRRRRRGGGGHHHH!!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,12 +123,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "！！！！！",
+			say = "! ! ! ! !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "好痛痛痛！",
+					content = "Yowwwwch!!",
 					flag = 1
 				}
 			},
@@ -160,7 +156,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "突然被坐在身边的{namecode:67}用力捏住了手。",
+			say = "Suddenly, Atago clamped down onto my hand, hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,10 +166,9 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
 			dir = 1,
 			blackBg = true,
-			say = "（哆哆嗦嗦……）",
+			say = "*shudders*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,18 +182,18 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "回头一看，她一声不吭地低着头——在发抖。",
+			say = "When I turned to look, I saw Atago burying her face in my arm, silently trembling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "用力回握她的手",
+					content = "Squeeze her hand back",
 					flag = 1
 				},
 				{
-					content = "将{namecode:67}搂过来",
+					content = "Pull her in for a hug",
 					flag = 2
 				}
 			}
@@ -206,12 +201,11 @@ return {
 		{
 			actor = 303120,
 			side = 2,
-			optionFlag = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			actorName = "{namecode:67}",
-			say = "……………！",
+			optionFlag = 1,
+			say = "...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +228,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "她回握的力气也更大了。",
+			say = "In response, her grip became even tighter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "无暇在意电影的内容，我们只能以紧握的手感受彼此的体温。",
+			say = "The things happening on the screen seemed to fade into the background. We could feel each others' temperature swell through our tightly clasped hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +247,11 @@ return {
 		{
 			actor = 303120,
 			side = 2,
-			optionFlag = 2,
+			blackBg = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			actorName = "{namecode:67}",
-			say = "…………指挥官……？",
+			optionFlag = 2,
+			say = "Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,12 +263,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…………嗯……我不怕，不怕……",
+			say = "Um... I'm not scared... I'm not scared anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +290,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "时而英气，时而魅惑，但总是不慌不忙的{namecode:67}……此时显得柔弱了不少。",
+			say = "Sometimes stalwart, and sometimes seductive, Atago was always calm and, until now, had never shown her vulnerable side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,14 +300,14 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "电影结束的时候，能听到在怀中睡着的{namecode:67}微微的呼吸声。",
+			say = "As the movie ended, I could feel her gentle breath against me as she slipped off into slumber, exhausted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（一小时后）",
+			say = "(One hour later...)",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -349,8 +341,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "刚才谢谢啦。就算是姐姐我，对幽灵也是有点怕的……",
+			say = "Thanks, for earlier. Even I have, umm, things that I'm not great with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,8 +357,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "不是有这么个说法，再完美的人也会有一两个弱点嘛？",
+			say = "You know what they say. Nobody's perfect after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,8 +373,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "姐姐我也一样啊。倒是指挥官你，能了解到我的另一面也挺好不是吗？",
+			say = "Your big sis gets pretty close though~ If anything, you should consider yourself lucky for being able to see another side of me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,8 +389,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "啊不过，千万别告诉其他人哦？除了{namecode:66}……",
+			say = "Oh, but surely you know what happens if a single word of this gets out, right? Except maybe Takao...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "又恢复到往常的{namecode:67}了。",
+			say = "Atago seemed to slowly be returning to her usual self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,13 +411,12 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actorName = "{namecode:67}",
-			say = "只有指挥官一个人知道的“秘密”，很珍贵对吧？呵呵。",
+			say = "Commander, only you know about our little secret. Make sure to treasure it, okay? Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

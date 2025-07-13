@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，Honey！你让我等得好急！这是为你特制的冰激凌，让我们一边吃一遍分享今天的开心和不快吧！",
+			say = "Haha, I've been waiting AGES, honey! Finally I get to give you the ice cream I made just for you! Let's eat together and chat about what a day we've had!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello15",
 			typewriter = {
 				speed = 0.05,

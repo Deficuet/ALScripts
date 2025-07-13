@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "光芒消散后，{namecode:435}一行人发现自己来到了一片开阔水域中。",
+			say = "After passing through the gate, Bismarck and her party found themselves in the middle of a vast, unknown ocean.",
 			bgm = "main-arbitrationsystem-theme",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "这样就算，移动成功了么？",
+			say = "All readings look normal. Seems we made it safely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "跳进漩涡里的时候真是吓人，还好有惊无险。",
+			say = "Yeah, we made it. But, we have no idea where we are or what this place is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太神奇了，我还是第一次用人工奇异点。",
+			say = "Heehee. Elbe will be so jealous when she finds out I've seen the other side of a Singularity~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这个水，这个天，还有空气都感觉不一样！",
+			say = "*sniff, sniff*... Wow, even the air around here smells totally different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这就是神奇的人工奇异点穿越！",
+			say = "So this is what it's like to travel to a different world!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不太对……",
+			say = "This isn't right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "穿过人工奇异点之后，我们应该以装置的位置为基础向外探索。",
+			say = "When using transference devices, the gate back to the original location should stay open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "距离米德加尔特之塔基座的位置不该太远才对。",
+			say = "And yet I see nothing of the sort around here, or something to anchor this place to the Tower of Midgard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "但是现在，我们只能依稀看到在远方闪耀的光柱。",
+			say = "The closest thing to a gate would likely be that pillar of light in the distance, but even that seems too far away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "距离实在是太远了……",
+			say = "What do you make of this, Regensburg?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:464}阁下之前在对米德加尔特之塔进行升级，会不会与此有关？",
+			say = "I heard Ulrich was making upgrades to the Tower of Midgard's functionalities. Think it might be related to that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "距离太远的话，不论是撤离还是增援都会变得困难，{namecode:464}应该很清楚这样改动的危险性。",
+			say = "It doesn't make any sense. Having the gate be accessible is crucial for logistics and evacuation. Ulrich should be well aware of the dangers of messing with the gate's location.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "确实如此……看来只能等找到{namecode:464}阁下之后向她询问清楚了。",
+			say = "That's a good point. I guess we'll have to find her and ask what's going on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（等等……也许和那个模糊的坐标有关。）",
+			say = "(We don't have much of a lead to work with except these undecipherable coordinates, and the fact that three people are missing.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（传送到远方这个结果或许是幕后黑手想要的……但其目的究竟是……）",
+			say = "(We also can't use a brute-force method to search this place given our lack of manpower and resources. What exactly is the purpose of this place?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "{namecode:435}大人，我的侦察机看到了奇怪的东西。",
+			say = "Bismarck, I think my recon planes have found something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔周围，此刻正围绕着一圈巨型立方体，立方体的附近还有正在运作的未知建筑群。",
+			say = "That light is coming from a structure that resembles the Tower of Midgard. There are also these strange cubes floating in the waters surrounding it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……我从来没听说过米德加尔特之塔周边还有这些设施。",
+			say = "We obviously don't have anything of the sort around our Tower of Midgard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "这些该不会是……巨石阵！",
+			say = "Do you think it's some kind of alchemy circle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "这种布局，确实好像某种仪式场地。",
+			say = "If they're arranged in a discernable pattern, perhaps they serve a function?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "还有一件事……这片海域似乎存在“边缘”，边缘之外的水面是红色的……感觉离远一点最好。",
+			say = "Also, this place seems to be a closed system. After a certain point, the water blurs into a red haze.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "一处海域的海水有……两种颜色？好奇妙！",
+			say = "That definitely sounds like a Mirror Sea to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……这里的天空也与我们熟悉的不同哦。",
+			say = "There's also not a single star in the sky. It looks almost like they're under the water's surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我没有看到太阳或者月亮，星空也和记录中的星图对不上。",
+			say = "Basically, I think we've been sent to a different dimension.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "哇哦…………难道说，我们现在是在外星球上？！",
+			say = "Whoa! So like, we're on an alien planet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "我突然感觉……好像有点，喘不上气……",
+			say = "That's so cool! My heart's racing now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "我也……",
+			say = "Yeah, mine too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那你们是怎么一口气说了这么多话才感觉到的……",
+			say = "Try not to have a heart attack, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这里的空气成分似乎是正常的哦，有问题的只有天空而已。",
+			say = "In any case, it's good that we can at least breathe here, but there's still an unsettling aura about this whole place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "……恐怕又是某个独特的镜面海域吧。",
+			say = "That's right. We still don't know the full extent of what Mirror Seas are capable of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塞壬在镜面海域中做出天文奇观不是第一次，这次虽然……夸张了些，但也不用大惊小怪。",
+			say = "We already know the Sirens are capable of creating all sorts of meteorological anomalies. I wouldn't put it past them to be able to make something that messes with your mind too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，接下来我们应该从哪里着手调查？",
+			say = "But, no point in speculation. What do we do next, Bismarck?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "嗯……{namecode:491}，空中有什么发现么？",
+			say = "Any signs of Ulrich or the other missing people, Jade?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还在搜索中，目前没有发现。",
+			say = "Sorry, not yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "海域空旷视野良好，如果她们三人没有进入那些立方体周边的设施里，应该很快就能找到了。",
+			say = "I'll bring my planes closer to the water's surface. Assuming they haven't entered the tower itself, I should have a pretty clear view of everything in the surrounding waters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "敌人呢？",
+			say = "No Sirens either, I take it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "也没有发现任何可疑目标。",
+			say = "So far, nothing. Believe it or not, there's pretty much nothing here except the ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "既然如此，在{namecode:491}进行海域侦察的同时，我们向着水中的巨型立方体建筑群前进吧。",
+			say = "Alright. Let's move ahead to investigate the tower. Jade, keep your planes out and let me know if you find anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "虽然我也很在意边缘水域的情况，不过立方体周边的设施更加异常。",
+			say = "We'll need to examine those strange cubes as well as the \"boundary\" around this area, but those things are lower priority.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "也许{namecode:464}已经进去调查了。",
+			say = "We need to locate Ulrich first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:416}，水下的侦查与护卫就交给你了，如果有异常情况立刻报告。",
+			say = "U-556, submerge and keep your eyes open. Report to me if you spot anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "了解，各位的护卫就交给我吧，海上骑士开始下潜——",
+			say = "Got it! Parzival of the Seas won't let anything slip by undetected!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "真是可靠的骑士呢，那我们也出发吧~",
+			say = "What a reliable knight. Now, let's go.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>二 铁血讨论会</size>",
+					"Tonic and Tea\n\n<size=45>2. Impromptu Strategy Meeting</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·铁血会议室",
+			say = "Port - Iron Blood Assembly Room",
 			side = 2,
 			bgName = "bg_guild_red",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "——事情就是这样。既然我已经担任了店长，就会认真负责到底。",
+			say = "Seeing as you've appointed me, I will give it my utmost effort to the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "为了能在这次与皇家的竞争中胜出，我们需要在开店前确定好经营方针。",
+			say = "To emerge victorious over the Royal Navy, we need a well thought out business plan before we set up shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家有什么想法和建议都可以提出来。",
+			say = "If anyone has ideas or suggestions, don't be afraid to share them right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然取胜的关键在于指挥官的个人喜好，单独对这些情报进行调查，做针对性对策怎么样？",
+			say = "Since the Commander will be the final judge, how about we focus our theme and menu accordingly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "可以考虑。不过……皇家同时还有扩展其影响力的目的，我们铁血也不能落后。",
+			say = "I see where you're coming from, but we can't pigeonhole ourselves into solely pleasing the Commander. Let's not forget the Royal Navy's original goal with all this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然指挥官是最重要的，但也不能因此而忽略港区其他同伴的体验。",
+			say = "It's to make an exhibit Elizabeth's status. The Commander's evaluation is a factor too, of course, but we cannot put the cart before the horse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家在女仆服务方面有着无与伦比的丰富经验，从这方面超过她们恐怕十分困难。",
+			say = "The Royal Maids are experts when it comes to service. I doubt we'll beat them when it comes to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们铁血的咖啡在港区里一直评价很高，开发一些新的咖啡调制饮品，以此来作为卖点如何？",
+			say = "So our efforts should go into our menu. The Commander is a known fan of Iron Blood coffee, so why don't we center our theme around that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "扬长避短之策，想法不错。",
+			say = "Focusing on our strengths. I like that idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的碳酸饮料也很棒哦！我觉得可以给各种饮料都加上碳酸试试！",
+			say = "Ooh, I have one! It'd be cool if we could offer all kinds of fizzy drinks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "什么碳酸咖啡、碳酸果汁、碳酸牛奶都可以试一下！一定会好喝的！",
+			say = "You know, bubbly coffee, juice, soda, and so on! I think people would love that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "碳酸的发酵饮品也可以尝试一下！",
+			say = "Splendid idea. We could even offer carbonated wine and the like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "在咖啡之外开辟出碳酸饮料的新维度么……也许是一个不错的选择。",
+			say = "Now that's a novel idea. Maybe excessively so for the wine... But the rest of those drinks may suit our menu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "除了饮料之外，吃的方面感觉也可以创新一下哎！",
+			say = "Think we're covered in the drinks front. What 'bout the food?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "不如把我们的招牌食品做个结合，尝试一下黑森林肘子或者华夫饼肘子怎么样！？",
+			say = "Black Forest cake would be a sure hit. Some sausages plus other light side dishes would be good too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "确实很有创新性，有尝试的价值…不过食物最终还要以味道作为评价标准。",
+			say = "Hmm... A café serving traditional Iron Blood cuisine might be a novelty, but I'm not sure our food has universal appeal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只有吃喝的话，感觉有点单调……",
+			say = "I've got another suggestion, and it ain't for food or drinks. I'm thinking we add...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "要不然设置一个搏击擂台，来一个热血主题的咖啡店怎么样？",
+			say = "A cage of death. Perfect for burning calories after you wolf down a bunch of pastries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "这样做会影响到前来用餐的客人的，我不同意。",
+			say = "No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "欸，我还以为一定是个好主意呢……",
+			say = "Darn. Here I thought I was onto something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……既然是要做服务生一样的工作的话，应该会需要一套……新的衣服？",
+			say = "Umm... Shouldn't we wear uniforms, if we're going to be serving customers...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果穿着平时的服装接待客人的话……好像有点破坏气氛……",
+			say = "They'll have maid uniforms after all. It'd be strange if we just... wore what we have now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "有道理，确实考虑下统一制服比较好。",
+			say = "You raise a good point. We need new uniforms as part of the theme.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405010,
-			say = "嗯…咖啡店最重要的名字也需要定一下，这方面你们有什么想法么？",
+			say = "Another thing we must decide on is the café's name. Any suggestions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_guild_red",
 			dir = 1,
 			blackBg = true,
-			say = "在{namecode:435}的主持下，铁血咖啡店的准备工作在有序的氛围中稳步推进着————",
+			say = "With Bismarck as the director, the planning phase for the Iron Blood's themed café went swimmingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

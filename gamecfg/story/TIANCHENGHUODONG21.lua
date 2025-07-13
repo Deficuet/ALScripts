@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:92}，这块勾玉送给你。把它戴在身上，必要的时候可是会救你一命的哦~",
+			say = "Kaga, this jade brooch is for you. Wear it, and it shall keep you safe.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "其实我给{namecode:91}也准备了一个，给你的是一对...-不，是备用的~",
+			say = "Actually, I also have another one for Akagi. The one I'm giving you is pair- I mean, a spare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "怎么突然送我这么贵重的东西，你是无事献殷勤，还是有所图谋？",
+			say = "(Amagi, why are you giving me something like this all of a sudden... ? Don't tell me...)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "想什么呢，不过是去祈愿时顺便买的便宜货，你也顺便收下就是了，呵呵呵~",
+			say = "What's with that conflicted expression? I just picked it up while passing by a flea market. Don't think too hard about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这么说来，这也算是你第一次送我的礼物吧。哼，那我就不客气了！",
+			say = "(Having that said, isn't this the first time Amagi has given me something?) I-I'll be sure to treasure it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵~这样便好~记得一定要随身带着哦？",
+			say = "Yes, I'd appreciate it if you wore it at all times~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "好好好，{namecode:161}—大—人！",
+			say = "If you say so, Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（又被你提前算到了一步…最后果然还是输给了你啊)",
+			say = "(The era of aircraft carriers, huh... It's just as you said, Amagi.)",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（遵照您的嘱托，我一直努力地守护着作为航空母舰活跃着的{namecode:91})",
+			say = "(I have been hard at work protecting Akagi, who is now serving as an aircraft carrier. Just like you asked me to...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（没想到，当年的那个跟屁虫，如今已经成长为了独当一面的领导者)",
+			say = "(Back then, who would have thought that bootlicker would become one of the leaders of the Sakura Fleet...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（有时，我甚至能在她的身上看到您的影子)",
+			say = "(From time to time, I can almost see your face when I look at her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（...也许只是错觉吧)",
+			say = "(... but it's probably just an illusion, caused by my own immaturity.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（不论如何，现在的她对我来说就如同亲姐妹一样，请您放心)",
+			say = "(Rest assured though. Now, she is like a true sister to me, bound by blood.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（不过，对于塞壬...现在的情况似乎有点超出你的预料之外了…)",
+			say = "(Although the situation with the Sirens... has perhaps escalated beyond what you could have imagined.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "（如果是你的话，能告诉我接下来该如何选择吗？)",
+			say = "(Amagi, if you were here, what would you do...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "呵呵呵，又有烦人的“老鼠”突破暴风圈闯进圣域了啊…测试者，检测出单位了吗",
+			say = "Hehehe, it looks like a little mouse has snuck into our \"Sanctuary\"... Tester, have you located them yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			say = "已经将监视投影下放权限了哦，尽情使用吧，呵呵呵",
+			say = "Wide-range monitoring... this is something I have quite a bit of experience with, ahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "居然是五航战的那帮孩子啊。真是一群碍事的家伙～",
+			say = "Fifth Carrier Division, you foolish children... You do not know anything yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "既然如此，不如将计就计…就让我来看看你们究竟有多大的本事吧～",
+			say = "Let me test your abilities with this weapon that transcends the Gods!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

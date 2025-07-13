@@ -15,7 +15,7 @@ return {
 			actor = 403100,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你们看前面，水面上是不是漂着个人……？",
+			say = "Heeey, look! Someone's over there!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊！那个是余烬的{namecode:433}吧！",
+			say = "It's the Ashes' Scharnhorst!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "在一片残骸中心，众人终于发现了此行的搜寻目标。",
+			say = "The Iron Blood fleet found their target inside a small \"lake\" of mangled shipwrecks.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "浑身伤痕的{namecode:433}仰天漂浮着，舰装，或者曾经属于舰装的某些部分随意的散落在一旁。",
+			say = "The gravely-wounded Scharnhorst laid there motionless, her rigging barely holding together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,38 +110,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_7",
-			say = "任凭海浪拍打与残骸撞击，她都没有做出任何反应。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:476}",
-			say = "喂，能听见么，醒一醒啊——！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_7",
-			say = "从水面下上浮的{namecode:476}努力的拍打着，不过海面上的人依然毫无回应。",
+			say = "U-1206 hurried over to the unconscious girl's side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +126,22 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:476}",
-			say = "不行……已经彻底昏过去了。",
+			actorName = "U-1206",
+			say = "Hang in there, Scharnhorst! We're here to help!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_7",
+			say = "She cried for her with all of her might, but there was no response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,8 +157,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:468}",
-			say = "才分开几小时而已，到底发生了什么事？",
+			actorName = "U-1206",
+			say = "It's no good... She's completely lost consciousness...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +174,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:447}",
-			say = "她可是顷刻间就能毁灭一队代行者的余烬哎……怎么弄成这样了？！",
+			actorName = "Elbe",
+			say = "What in the world happened here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +191,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:455}",
-			say = "那只有等她醒过来之后才能知道了……",
+			actorName = "Magdeburg",
+			say = "Who knows. Judging from the wreckage around here, she probably ran into the Arbiter Vessel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,8 +208,8 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:476}",
-			say = "执行拆解作业的代行者冲着这边过来了……难道是想把她也当成残骸拆了？！",
+			actorName = "Prinz Adalbert",
+			say = "Let's bring her back, and hurry. The Sirens will surely be back soon to finish the job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +225,25 @@ return {
 			bgName = "bg_midgard_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:447}",
-			say = "这样可不好，万幸我们来得还算及时！",
+			actorName = "U-1206",
+			say = "Too late, they're already here! So is this what the Sirens were doing in that pile of wrecks? They're trying to retrieve her!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Magdeburg",
+			say = "Like hell we'd let them get away with that! Get ready for battle, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "………………",
+			say = ".....Nngh... Arghh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "{namecode:434}！……冷静。",
+			say = "Calm down, Gneisenau.",
 			effects = {
 				{
 					active = true,
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就现状而言，没办法继续避战了。",
+			say = "We'll escape the Singularity once we take care of these guys. We have no intention of leaving Scharnhorst here.",
 			effects = {
 				{
 					active = false,
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "{namecode:476}专注于救援作业，其他人趁塞壬还在专心拆解工作时先下手为强。",
+			say = "U-1206, secure Scharnhorst. Everyone else, intercept the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗的目的是为了救人和突围，不要进行过度追击，明白了么？",
+			say = "Don't pursue them if they run. Once we break through their line, we're heading straight to the Tower. Understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……这次就听你的好了。",
+			say = "...Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好。各舰注意，准备战斗！",
+			say = "Siren bastards, this ammo is wasted on you lot...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

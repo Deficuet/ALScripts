@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			say = "某处不知名的海岛。",
+			say = "Somewhere, on one distant, unknown island...",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "金色的阳光洒在细软的沙滩上，海浪轻轻拍打着岸边，带来阵阵清凉海风。",
+			say = "Golden sunlight showered the soft beach sands. Waves lapped upon the shore, followed by a cool sea breeze.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "而就在沙滩之上，几位少女东倒西歪地躺在地上。",
+			say = "Several girls lay on the sand.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "随着涨潮，微凉的海水触碰到其中一位短发少女的指尖，使她从沉睡中醒来。",
+			say = "As the tide rose, a cold wave caressed one girl's finger, waking her.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "短发少女睁开双眼，发现自己身处陌生的环境，连忙坐了起来。",
+			say = "Realizing that she was in an unfamiliar place, she sat up in a panic.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这里是……海边？我们怎么会在这里……梦梦，快醒醒！",
+			say = "The beach? Why in the world am I here... Momo, wake up!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "短发少女连忙叫醒了距离自己最近的另一位少女。",
+			say = "Frantic, she shakes the girl closest to her.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……春菜？……怎么了？",
+			say = "*yaaawn*... Haruna? What's going on?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？这里是……哪里……？",
+			say = "Huh? Where... are we?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "被称作梦梦的少女迷迷糊糊地睁开双眼，入目是刺眼的阳光，耳边传来的是陌生的海浪声。",
+			say = "The girl named Momo opened her eyes. Dazzling sunlight and the sound of waves made her realize that something is off.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			actor = 11100050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也不知道……我们不是应该在教室里上课吗......怎么到海边来了?",
+			say = "Well... We were just sitting in class, weren't we? Why are we on the beach?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "......总之先把姐姐大人和大家都叫醒吧。",
+			say = "I say we start by waking up the others.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "二人分别将剩下几人叫醒，众人面面相觑，似乎都对眼前的状况难以理解。",
+			say = "The two of them got to work waking up the others on the beach, but they were all equally confused. Nobody had a clue what was going on.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			actor = 11100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么回事啊……我记得我们刚刚还在学校里对吧？怎么一觉醒来就到这种地方了？",
+			say = "What the heck is this... We were just in school, right? And before we know it, we're on some beach in the middle of god-knows-where?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "难道说是被绑架了？",
+			say = "Do you think we were... kidnapped?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			actor = 11100060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冷静点，娜娜，就算是绑架，也不会把我们扔在沙滩上不管吧……",
+			say = "Stay calm, Nana. If this was a kidnapping, I doubt they'd leave us on a beach.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -234,7 +234,7 @@ return {
 			actor = 11100060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且我们也没有被绑起来什么的……",
+			say = "And it's not like we were tied up, or anything.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -248,7 +248,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~……说起来，这附近的沙子和学校附近那座山的沙坑很像呢，难道说这其中有什么关联……",
+			say = "Huh~ Come to think of it, isn't the sand here kinda like the mountains near our school? I wonder if it's related.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……难道是恶作剧？",
+			say = "...Some kind of prank, maybe?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			soundeffect = "event:/ui/didi",
-			say = "嘀——嘀——",
+			say = "BEEP BEEP!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "正当众人七嘴八舌讨论的时候，埋在沙子里的一个奇怪机器突然嘀嘀作响。",
+			say = "While everyone debated the cause, an odd machine buried in the sand began to beep.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？那边是不是有什么声音……？",
+			say = "Hey, does anyone else hear something over there?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊——那个是！",
+			say = "Ah! That's it!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "菈菈连忙上前拨开沙子，拿起一个形状怪异的机器端详。",
+			say = "Lala tore into the sand, yanked out the oddly-shaped machine, and gazed at it.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -347,7 +347,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦……这不是我做的“超级游戏制作机”吗？怎么会在这里？",
+			say = "This is Questy MacGuffin, my game-developing invention! Why's it here, though?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐大人，该不会就是这个机器……",
+			say = "Lala, did that machine cause all of this?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……因为想要给大家玩，所以最近一直在通宵开发……没想到居然还没完成就启动了……",
+			say = "I've been working all-nighters to get it working for everyone to play, but... I might've accidentally started it up before it was done.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -385,7 +385,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "发现菈菈的奇特发明还未完成后，大家都有点感到不安。",
+			say = "When they learned that Lala's newest invention was unfinished, everyone shuddered from fear.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然知道是为什么来到这里了，不过这个东西都没有完成我们要怎么回去啊……",
+			say = "So we know why it happened. But can we return with an unfinished machine?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -412,7 +412,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在测试的时候还是好好的，只要这样……嗯？等一下，我明明输入指令了但是它还是不理我……",
+			say = "It was in testing mode, so maybe if I do this... Huh? Wait a sec. I entered a command, but it didn't take.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让我来试试看吧~！这种时候就是要这样——！",
+			say = "Okay, leave it to me~! At times like this, you just gotta hit stuff!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -446,7 +446,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "娜娜冲到机器前，对着上面狠狠拍了两下。",
+			say = "Nana ran over to the machine and struck it twice as hard as she could.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "机器停止了嘀嘀声，随后屏幕发出光芒，显示出一行形状古怪的文字。",
+			say = "Upon the attack, Lala's invention stopped beeping. The screen lit up, and a line of text appeared.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好像写着些什么呢。",
+			say = "Look, it's saying something.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -484,7 +484,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，让我看看。",
+			say = "I'll read it~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“对象：菈菈、梦梦、娜娜、小暗、春菜、唯，共六人。”",
+			say = "\"Targets: Lala, Momo, Nana, Yami, Haruna, Yui. Total: six.\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -512,7 +512,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“已成功接入当前世界。”",
+			say = "\"Successfully connected to current world.\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -526,7 +526,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接入……当前世界……？",
+			say = "Current world...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -539,7 +539,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "果然是因为超级游戏制作机的故障，把我们带到了异世界呢……",
+			say = "Yeah... I think Questy MacGuffin might've malfunctioned and sent us to another world.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -576,11 +576,11 @@ return {
 			},
 			sequence = {
 				{
-					"「一场突兀的交汇，一段奇妙的旅程。」",
+					"\"An unexpected encounter. The start of a journey of wonders.\"",
 					1
 				},
 				{
-					"「异世界？游戏？亦或是其他？」",
+					"\"Another world? A game? Or something else entirely?",
 					2
 				}
 			}
@@ -608,11 +608,11 @@ return {
 			},
 			sequence = {
 				{
-					"「冒险的序幕已然拉开。」",
+					"\"The way to adventure has opened.\"",
 					1
 				},
 				{
-					"「全新的故事将在这片碧海蓝天下上演——」",
+					"\"Atop this deep blue sea, a new tale begins.\"",
 					2
 				}
 			}

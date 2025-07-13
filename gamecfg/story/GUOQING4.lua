@@ -10,7 +10,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "你们这些量产的冒牌货可真是烦人，究竟还有多少，一起上吧！",
+			say = "These damn mass-produced piles of junk just keep coming... Bring it on! I'll take you all down if I have to!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -48,7 +48,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "这不是{namecode:11}吗！？来得真是时候，刚才在暴风雨中走散之后就一直担心你们，平安无事真是太好了",
+			say = "Is that you, Akatsuki?! Good timing! I was worried about you ever since we got separated in the storm, but I'm glad to see you're okay!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -67,7 +67,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "快来帮我一起赶走这些烦人的虫子！",
+			say = "Help me finish off these mindless drones so we can talk!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -87,7 +87,7 @@ return {
 			mode = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			say = "…任务…破坏…",
+			say = "MISSION... DESTROY...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "！！！你这是做什么，差一点就要击中我了，小心…",
+			say = "What the hell?! Watch where you're shooting! Hey, friendly fire! I'm not an enemy!",
 			soundeffect = "event:/battle/boom2",
 			shake = {
 				speed = 1,
@@ -122,7 +122,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "一点…{namecode:11}，你这是…",
+			say = "... Don't tell me you're...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -142,7 +142,7 @@ return {
 			mode = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			say = "…任务…歼灭…",
+			say = "EXTERMINATE... EXTERMINATE...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "棋子么...明明才进入“圣域”没多久，好快的速度。",
+			say = "Son of a... They've made a Pawn out of Akatsuki...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,7 +176,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "可怜又可憎的人偶...就让我来把你从诅咒解放出来吧。",
+			say = "It seems I was too late... Don't worry! I'll free you from this curse!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -195,7 +195,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "“灵”式战机，全数起飞！",
+			say = "Rei planes, take off!",
 			shake = {
 				speed = 1,
 				number = 3

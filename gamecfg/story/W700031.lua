@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "困难难度已解锁，通过前方的特殊通行装置可以挑战困难难度的仲裁机关。",
+			say = "Hard difficulty has been unlocked. Use the devices around the map to commence an Arbiter Battle on Hard difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>四 橱窗反射的约会</size>",
+					"Three-Star Luxury Romance\n\n<size=45>4.Shopping in the Daylight</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "科学部要的东西我们去买，文书用品的话就交给波特了～",
+			say = "A'ight, we'll head down the street and look for the stuff the R&D girls wanted. Leaving the office supplies to you all~",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题~艾伦和指挥官的话，去买这条清单上的东西吧～",
+			say = "Works for me. Here's the shopping list, folks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "OK！大家一会在这里汇合哦！",
+			say = "Sweet! Let's meet up here after we're done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			say = "清单上的东西基本都买到了，该和大家汇合了——",
+			say = "After buying mostly everything on the shopping list, we returned to the meeting spot. Strangely, though...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -121,7 +121,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一、一个人也没有吗……",
+			say = "They're still not back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			say = "汇合地点不知道为什么只有艾伦一个人在。",
+			say = "Allen and I were the only ones there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的…本来为了不想被传出奇怪的传闻才会叫大家一起来的，为什么大家都心照不宣的想到奇怪的部分上去了呢……",
+			say = "This is awkward... The whole reason I invited 'em was so people wouldn't mistake us for a couple or something. Why'd they bail on us like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,52 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			say = "联系了一下布莱默顿她们，大家都以“买的东西太沉，不能继续逛了”为借口直接返回港区了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_105",
-			actor = 101450,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "对不起指挥官，要不我们也回去吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_105",
-			say = "艾伦有点遗憾的朝这边问道。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_105",
-			say = "本想借着和大家一起买东西的机会来让她好好放松一下的，如果就这么回去的话——",
+			say = "We gave Bremerton a call. She said the things they bought were really heavy, so she and Stephen Potter went back to port early.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +183,52 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指、指挥官的意思是陪我再逛一会吗？",
+			say = "Welp. What do we do now, Commander? Go home?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_105",
+			say = "Allen sounded let down by this turn of events.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_105",
+			say = "I arranged this outing expressly for Allen's sake. It would be a shame to conclude her day of leisure prematurely.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_105",
+			actor = 101450,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "...We can have a look around the stores I wanna check out? Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了！！！",
+			say = "Oh my gosh, thank you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过…指挥官也不用为了我做到这个份上的……",
+			say = "Don't get me wrong, I'm so happy you'd do that with me, but you don't HAVE to go that far just for me, you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			say = "反正之后也没有别的安排，今天本来就是为了艾伦才出来的。",
+			say = "I didn't have any obligations to tend to on that day, so I decided to spend it together with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然指挥官都这么说了，我这边肯定是没问题的啦，那个……",
+			say = "Well, if you say it's fine, then I'm not gonna argue with that. Let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			blackBg = true,
-			say = "接下来，不如去逛街吧？",
+			say = "And with that, our shopping trip continued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

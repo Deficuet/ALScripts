@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "三色蝴蝶构成的空间中，我见到了早已等候在此的人。",
+			say = "I was finally reunited with my friends in the magic circle, surrounded by a kaleidoscope of butterflies.",
 			bgm = "theme-akagi-meta",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯&{namecode:91:赤城}",
+			actorName = "Memphis&{namecode:91:赤城}",
 			side = 0,
-			say = "指挥官！\n{playername}阁下！",
+			say = "Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,9 +67,9 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯&{namecode:91:赤城}",
+			actorName = "Memphis&{namecode:91:赤城}",
 			side = 0,
-			say = "哼。\n呵。",
+			say = "- You're finally home! - I've been waiting for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咳……两位久等了，我回来了。",
+			say = "Ahem... Sorry for the long wait. It's over now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,12 +104,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "引导标记",
+			factiontag = "Guiding Mark",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎回来，指挥官！",
+			say = "It hasn't been that long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "追踪指针",
+			factiontag = "Tracking Pointer",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯，事情这么快就办完了？",
+			say = "We're honestly surprised how fast you were. Have you already finished everything you needed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……快？",
+			say = "...Fast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在那之后你们在这里等了多久？",
+			say = "How much time has passed since we last talked?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,12 +159,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "追踪指针",
+			factiontag = "Tracking Pointer",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不到三分钟。",
+			say = "Less than three minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（时间的流逝速度不同步……？）",
+			say = "(Time passed at a different speed there?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……难道是M女士看到她们维持法阵辛苦，所以特意做的调整？）",
+			say = "(...Did Madam M do that out of consideration for these two?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……仲裁机关里，也有这样的存在么。）",
+			say = "(I had no idea one of the Arbiters could do that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "引导标记",
+			factiontag = "Guiding Mark",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你怎么突然呆住了，还有什么事要办么？",
+			say = "Commander? You just froze up... Did you forget something you needed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没有了，没有了。",
+			say = "No, no. I'm fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这次意外出差已经够辛苦的了，我们先回家，其他事等回去之后再说！",
+			say = "I'm fed up with this little business trip. Let's go home and leave the discussion for another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "引导标记",
+			factiontag = "Guiding Mark",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我们回家！",
+			say = "Yes, let's!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,11 +268,11 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "star_level_bg_589",
-			factiontag = "追踪指针",
+			factiontag = "Tracking Pointer",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……走吧。",
+			say = "I'd be happy to accompany you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,23 +286,23 @@ return {
 			bgm = "story-mirrorheart-mystic",
 			sequence = {
 				{
-					"「一场交错的旅程」",
+					"\"Journeys intertwined.\"",
 					1
 				},
 				{
-					"「一场意外的邂逅」",
+					"\"Encounters unexpected.\"",
 					2
 				},
 				{
-					"「波折已然平复，危机亦已解除」",
+					"\"The chaos has ended, the danger passed.\"",
 					3
 				},
 				{
-					"「自此之后，诸事如常」",
+					"\"From now on, life will be peaceful once more.\"",
 					4
 				},
 				{
-					"「……么？」",
+					"\"Or... will it?\"",
 					5
 				}
 			}
@@ -313,7 +313,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"——「星光下的余晖」·END",
+					"Substellar Crepuscule - The End",
 					1
 				}
 			}

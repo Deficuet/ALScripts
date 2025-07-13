@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在补给站中找到了用剩的油桶，获得了奖励【石油*50】"
+			say = "The lucky ships helped you find a warehouse with excess oil reserves! Received 50 Oil!"
 		}
 	}
 }

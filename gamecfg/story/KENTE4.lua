@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"GO！肯特选手！\n\n<size=45>四 意外遭遇！ </size>",
+					"Unbridled Positivity\n\n<size=45>Chapter 4 - Just Happened To! </size>",
 					1
 				}
 			}
 		},
 		{
-			say = "工作暂告一段落，伸着懒腰看了眼窗外，发现今天是个阳光明媚的好天气。",
+			say = "With my work done, for the time being, I stretch and peer out the window to find a beautiful, sunny day.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Comfortable……指挥官。今天天气这么好，偶尔外出散散步也不错吧？",
+			say = "Lovely... Commander. Heading out for a walk on such a nice day would hit the spot, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，感觉最近一直闷在室内呢……",
+			say = "And after being cooped up in the office so much lately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "正如肯特所言，最近由于工作太忙，连太阳都没怎么晒。",
+			say = "She’s right. I’ve been so busy with work, I haven’t seen much of the sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "偶尔出门走走也好，就和肯特一起去散散步好了。",
+			say = "A walk every now and then is fine. I’ll head out with Kent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "港区·室外",
+			say = "Port - Outside the Office",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走得差不多了 呢！该回指挥室——嗯？那是…{namecode:435}…和威尔士亲王？",
+			say = "That’s about enough! Back to the office th— Hm? Is that... Bismarck... and Prince of Wales?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "顺着肯特指的方向看去，发现了两个人正站在一棵大树下。",
+			say = "Following Kent’s pointer finger, I see two figures standing under a large tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是指挥官和――肯特吗…",
+			say = "If it isn’t the Commander and... Kent, is it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“罕见的组合”…？不，我们只是偶然在这里碰到而已。",
+			say = "\"An unusual pairing\"v...? No, we just bump into each other here from time to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Accidentally？那你们在这里做什么――",
+			say = "You just happen to, eh? So what do you do here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "就在这时，微弱的鸣叫声从头上传了下来。",
+			say = "Suddenly, I hear a faint mewling sound overhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…猫叫？",
+			say = "Is that... a cat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，你看那里。",
+			say = "Oh, there you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "{namecode:435}扶着帽檐，以目光示意，比了比大树上的位置。",
+			say = "Bismarck lifts the brim of her hat and gestures with her eyes toward the top of the tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "顺着她的目光仰望，便能看到一只小猫紧紧趴在大树的高枝上。",
+			say = "Following her gaze, I see a kitten clinging tightly to a high branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 205060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "似乎是好奇心作祟爬上去以后就下不来了的样子。",
+			say = "It seems its curiosity spurred it upwards, and now it can no longer get down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "威尔士亲王望着小猫，语气中透露出些许的担心，{namecode:435}似乎也是如此，不过…",
+			say = "Wales looks at the kitten, her tone revealing her concern. Bismarck seems to share that, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "要救下这只小猫并没有那么简单，要不要找明石准备下梯子什么的呢……",
+			say = "Getting the cat down will be no easy feat. We could get a ladder or something from Akashi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey！这种事就交给肯特选手吧！",
+			say = "Hey! You can leave this to Contestant Kent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "肯特突然发出了自信满满的宣言。",
+			say = "Kent makes her bold declaration without hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯特选手拥有的可不只是体力！我的运动神经在女仆队里也是数一数二的哦！",
+			say = "I have more than just physical strength! My competitive spirit is unrivaled among the Royal Maids!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "爬树什么的对肯特选手来说小菜一碟，交给我吧！看我马上把那孩子救下来！",
+			say = "Climbing a tree is a piece of cake for this Kent! Watch me get that kitty right down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "完成了{namecode:525}工坊的赛车部件技术检测任务，获得了奖励【强化部件T3*20】"
+			say = "You ran a car part equipment test over at Ingraham's workshop. You received 20 T3 Parts!"
 		}
 	}
 }

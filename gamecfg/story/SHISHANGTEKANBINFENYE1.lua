@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>魅力舞台</size>",
+					"Port Fashion Collection: Resplendent Night\n\n<size=45>1 Stage-Setting Charmer</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎光临兔兔主题店~",
+			say = "Hello there~ Welcome to the Bunny Bar!♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚走进店门，关岛热情的声音就迎面而来。",
+			say = "The instant I enter the bar, I'm greeted by Guam's enthusiastic voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是在进行什么艺人的活动么……？",
+			say = "I hear the shipgirl talents are putting on a show here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "嗨嗨~现在开始，是关岛兔兔的魔术时间——关岛变变变！",
+			say = "That's right~ It's time for Bunny Guam's big magic show! I call it Guam's Prize Disguise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接下来，就是见证奇迹的时刻！",
+			say = "Get ready to witness a miracle♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（变魔术？没想到关岛会的技能还挺多啊？）",
+			say = "(Magic? Does Guam do magic tricks, too...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不知道会变出什么……）",
+			say = "(I fear what comes next...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "锵锵~首先，关岛兔兔要骑上这辆独轮车！",
+			say = "Tadaaa~ First, I'll ride this unicycle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不是要变魔术么？不过……居然把独轮车凭空变出来了，好厉害——）",
+			say = "(Wasn't this supposed to be a magic circle? Also, where did she get that unicycle—)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "现在，关岛兔兔已经靠着她完美的平衡力顺利骑上了独轮车♪~",
+			say = "With my incredible sense of balance, I'm able to ride this unicycle with ease♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "以为这样就要结束了吗？当然不是~接下来，关岛兔兔要让手中的3个沙包消失——",
+			say = "Did you think that was all? Well, it isn't~ Next, I'll make these three sandbags disappear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（居然又变出来了三个沙包在手里……究竟是从什么地方……）",
+			say = "(When did she grab those sandbags?! And from where...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "然后变出三只美丽又可爱的白鸽！不要眨眼哦~",
+			say = "I'll turn them into three cute little pigeons! Don't look away, or you might miss it♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独轮车上的少女将手中的小沙包一个个接连抛向半空中。",
+			say = "Guam tosses the sandbags into the air and catches them one after another, as if juggling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快速抛动的双手让人眼花缭乱，在用力将沙包同时抛向高空后，她拿下了头上的礼帽。",
+			say = "Then, with dazzling speed, she throws all three up into the air. With her free hand, she reaches for the hat on her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "千万千万不要眨眼哦~",
+			say = "Don't blink, now~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "奇迹——即将发生！",
+			say = "Here comes a miracle♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三个沙包稳稳地掉进了礼帽中。",
+			say = "She catches all three sandbags perfectly in her hat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "3、2、1——",
+			say = "Three, two, one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女用手中凭空出现的指挥棒轻轻点了点帽子的边缘，伴随着“呯”——的一声。",
+			say = "With a magic wand, which she again pulls out of thin air, she gently taps the brim of her hat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三只美丽的白鸽和彩带同时从帽子里飞出——",
+			say = "There's a bang as ribbons and three doves come flying out of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "关岛兔兔的表演现在结束，让我们下一场演出见~",
+			say = "Thanks for watching Bunny Guam's magic show! I hope to see you again next time~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "短暂又精彩的表演结束了。",
+			say = "The short, yet lovely performance comes to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "但穿着侍者服装的关岛骑在独轮车上抛沙包变魔术的画面，怎么也忘不掉……",
+			say = "I recall the striking sight of Guam on the unicycle, juggling and doing magic tricks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "真是一次令人印象深刻的新奇体验……",
+			say = "I'm certain that I'll never forget that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "关岛，真不愧是你！",
+			say = "That's Guam for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

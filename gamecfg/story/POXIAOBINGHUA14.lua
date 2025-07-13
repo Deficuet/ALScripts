@@ -7,11 +7,11 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-undermoon",
+			bgm = "bgm-cccp3",
 			side = 2,
 			bgName = "bg_cccpv2_5",
 			dir = 1,
-			say = "道路真的出现了，但是是以一种超乎所有人预料之外的形式出现的。",
+			say = "The Gate gave way to a new path, but in a way nobody had expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			say = "冰墙变得透明到几乎完全消失，就像一层可通行的薄膜。而在透明的薄膜后方，一座完全由光芒构成的璀璨都市出现在原本空无一物的镜面海域中。",
+			say = "The wall of ice became thin and translucent, as if turning into a gossamer membrane that could disappear at any time. And on the other side of the veil, a radiant city comprised entirely of light rose from the formerly empty Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			say = "眼前令人震撼的场景实在无法单纯用语言进行形容……",
+			say = "My jaw dropped once more at the indescribable majesty shimmering before my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这还真是，意料之外的情况…………",
+			say = "Incredible... A truly unexpected development...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真漂亮啊…………",
+			say = "Woooow... It’s so pretty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_cccpv2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在如此宏伟的都市面前，就算百米高的浮冰也只能当做陪衬了。",
+			say = "Holy... this makes the towering icebergs we saw before seem insignificant in comparison...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像童话故事中才会出现的梦幻城堡一样……",
+			say = "It’s like a fairytale castle straight out of the storybooks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来一直以来中央的两条悬空轨道真正的功能是通往城市的道路……",
+			say = "Those streams of water above us actually turned out to be suspended tracks leading to the city...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬还真是在这里隐藏了一个夸张的奇观，难以想象就凭塞壬的审美竟会创造出如此美丽的东西。",
+			say = "The Sirens truly hid a magnificent work of art here. I can’t imagine their ugly sense of aesthetics giving birth to something this beautiful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			say = "面前的都市完全不像塞壬造物的风格，反而更像是……人类的建筑风格…………",
+			say = "The buildings here... they don’t look like Siren architecture... Rather, there’s something... human-like about them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_cccpv2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是白鹰现在也没有这么夸张的都市吧，更何况还是纯粹由光芒构成的。",
+			say = "Not even the most advanced countries can pull off an engineering marvel like this... not to mention, this entire city seems to be composed entirely of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这个风格也确实不像是塞壬的感觉……",
+			say = "But you have a point... this doesn’t feel like something the Sirens would do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“大门”开启之后，出现的不是一个被秘密保护起来的房间，而是一整座不知名造物者创造的璀璨都市，真是意外又有趣的展开。",
+			say = "Now this is an unexpected development. Instead of getting some secret backroom or lab, an entire city of light materializes out of nowhere, and we don’t have any clues as to who built it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_cccpv2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，怎么样，要继续陪我们探险下去么？",
+			say = "Comrade, now that you’ve seen this, will you continue this expedition with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			say = "当然，我也有想从这里寻找的答案。",
+			say = "Of course. I’m also searching for my own answers here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么就让我们穿越这道已然变为光幕的“大门”，向着璀璨的都市进发吧！",
+			say = "Then, let us pass through the Gate and discover what awaits us in this city of light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

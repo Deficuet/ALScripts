@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>尚未放松的人</size>",
+					"Uncharted Summer\n\n<size=45>Safety...First?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "在岛上的侦察与开发工作正如火如荼地进行时——",
+			say = "Our scouting and development of the island continue without issue.",
 			bgmDelay = 2,
 			bgm = "level02",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "海上无人岛·周边海域",
+			say = "In the seas around the island...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "岛屿北部方向目前侦察无异常。",
+			say = "Our northern patrols are complete. Nothing out of the ordinary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东部方向目前也无异常哦~",
+			say = "East's all good, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "西部方向也是，正在向着距离岛屿更远的地方搜索。",
+			say = "The west is safe, as well. Our recon is proceeding outward in the same direction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "了解，南部方向目前也无异常，请继续进行行动。",
+			say = "At present, nothing unusual has been spotted to the south. Everyone, continue as planned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "我说……搜索了这么多遍，差不多可以安心了吧。",
+			say = "Cardinal, we've been at it for so long now. How about we just call it safe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "这里归根结底也是一处来历不明的原始荒岛。",
+			say = "That won't do. We know nothing about this island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 903020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然要当做度假地进行开发，那就必须要排除方方面面的安全隐患才行。",
+			say = "And we plan to turn it into a resort, don't we? We should take safety seriously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要抱怨，专心执行任务哦。",
+			say = "Instead of complaining, La Galissonnière, focus on your work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是————",
+			say = "Yeah, yeah.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就为了指挥官和同伴们的安全，看我就算潜入水中也要把危险找出来——",
+			say = "I'm EVEN willing to dive and search underwater if it means making sure the coast is clear for the Commander and our friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 808010,
-			say = "水下的问题不用担心，我和量产型潜艇正在全方位负责哦，目前也是一切正常。",
+			say = "No worries! I've already checked underwater with my mass-produced ships~ We didn't find anything, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我刚刚那是比喻啦！比喻……！",
+			say = "I-I was just kidding, geez!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "噗……看来这里确实只是一处安全的无人荒岛。",
+			say = "(Hahaha! It seems there's nothing to worry about at this time.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "虽然资源有些过于丰富了……",
+			say = "(But something tells me this island is a little bit too bountiful...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过摸中头奖这种偶然事件，也是会偶尔发生的。",
+			say = "Regardless, it must be thanks to the blessing of the Iris that we were able to happen upon such natural riches.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "等这一遍结束之后，后续工作就交给量产型，我们也加入无人岛的开发行动吧~",
+			say = "We'll leave the next round of patrols to the mass-produced ships. As for us, it's about time we help develop the island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,11 +374,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸢尾众人",
+			actorName = "Everyone",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "收到————",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

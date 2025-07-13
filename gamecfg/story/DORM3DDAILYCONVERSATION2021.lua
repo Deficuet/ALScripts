@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}带甜点过来了？",
+			say = "A dessert for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我……唔……抱歉，这次还是不吃了……",
+			say = "Umm... Sorry, I'm afraid I'll have to pass on it for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "Why so?",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近甜点吃得有些多了……毕竟皮肤管理的秘诀之一就是控制糖分的摄入。",
+			say = "I've been eating too many sweets lately. Cutting down on sugar is one of the secrets to healthy skin, they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你、你也不准说什么“不在乎”之类的话，那会影{namecode:12:响}我的决心的。",
+			say = "D-don't tell me it's \"perfectly fine to eat\"! You'll make my resolve waver with those words!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "之后也不可以拿点心来诱惑我哦……",
+			say = "And please, no more tempting me with desserts from now on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

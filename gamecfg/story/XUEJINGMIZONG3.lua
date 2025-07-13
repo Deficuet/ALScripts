@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "很快，水星纪念将一打饮品带到了众人等候的桌前。",
+			say = "The submarine's voyage continued. Meanwhile, the girls had all gathered in the mess hall.",
 			bgm = "theme-antarctica",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "谢谢~",
+			say = "Thank you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "呃……为什么是果汁？",
+			say = "Is this... juice? Seriously?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然啦，现在喝醉的话会很不妙吧？",
+			say = "Duh. We can't get drunk on a mission!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，我们已经暴露了位置，正是需要提高警惕的时候。做得好，水星纪念。",
+			say = "I'd love a drink as much as the next girl, but we should stay alert. The liquor stays in the cupboard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿~那之前凶猛的问题，到底是怎么回事呢？就请{namecode:530:同盟}给大家讲一讲吧~",
+			say = "Well, Soyuz? Everyone's seated. Let's hear the answer to Svirepy's question!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……关于这个问题，要分成几个阶段来进行描述。",
+			say = "Right. I'll now tell you about the history of Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}抿了一口杯中的果汁，思绪似乎飘向了远方。",
+			say = "Sovetsky Soyuz also raises the glass of juice to her lips, but her mind has already begun to embark on another voyage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "在很多年前，碧蓝航线还没有分裂的时候，各阵营曾经针对安塔迪卡的归属问题进行过一场讨论。",
+			say = "In the last great war, before the Azur Lane splintered, the factions of the world came together to discuss who would control Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "经过旷日持久的会议，各阵营终于达成了一致，并一同缔结了《安塔迪卡条约》，并于次年生效。",
+			say = "After many long debates, humanity finally reached an agreement – one that came to be known as the Antarctic Treaty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "在条约生效后，一切针对安塔迪卡领土的主权声明与要求随即被冻结。",
+			say = "The treaty had many provisions. First and foremost, all claims made over Antarctica's territory were suspended.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时，条约规定，安塔迪卡战区不归属于任何一个司令部，而是由碧蓝航线指挥部直接负责。",
+			say = "The entire continent would not belong to any single government, but would be under the management of the Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "各阵营仅可以在得到指挥部的许可后，在安塔迪卡部署科学研究用的科考站，或者针对塞壬战争用的必要军事基地。",
+			say = "The construction of research bases or naval outposts to defend against Sirens would only be allowed with permission from the Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "根据条约中的条款，安塔迪卡战区相比由各战区司令部管辖的八大战区拥有超然地位。",
+			say = "Furthermore, the command structure in Antarctica was to be equal to or higher than anti-Siren operational areas in each sea sector.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "——当然，在赤色中轴分裂后，战区司令部在增减调整后已经变成七个了。",
+			say = "Even after the Crimson Axis was established, the Azur Lane's attitude toward Antarctic remained the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这片区域内，碧蓝航线指挥部在任何情况下，都拥有高于各阵营政府与各战区司令部的指挥权。",
+			say = "The Azur Lane may also, for any reason, freely take command of fleets or ships belonging to its member states stationed in Antarctica or its surrounding ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "可以自由调动安塔迪卡战区内的一切军事力量，干涉战区内的一切军事行动。",
+			say = "It may also intervene in any and all armed conflicts within its borders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "在任何情况下……不管是否是针对塞壬的战争？",
+			say = "Does that include... Reenactments?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "没错。",
+			say = "It does.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……指挥官同志如果来到安塔迪卡的话，拥有的权力就是无限的……？",
+			say = "In other words, the Commander's power is infinite here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "说是无限权力也夸张了些，不过安塔迪卡战区确实和其它战区的情况有所不同。",
+			say = "\"Infinite\" might be an overstatement, but it is true that Comrade Commander's authority is greater here than anywhere else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "指挥官要是来的话，也确实能在这里获得更大的自主权。",
+			say = "Such is the power of the naval commander of the Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "但具体能做到哪一步，就不好说了。",
+			say = "On paper, this authority supersedes that of the governments around the world, though in practice, it has yet to be exercised.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟在安塔迪卡战区，别说大型战役，这里连一次大规模冲突都没发生过。",
+			say = "There are no Reenactments around Antarctica, and there have never been any significant encounters against the Sirens here either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "所以其本身更像是各阵营博弈之后形成的妥协产物吧。",
+			say = "If anything, one could say that the Antarctic Treaty is a forgotten remnant from the last great war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当初在塞壬的进攻下，各国的近海防线都岌岌可危，一片荒芜的安塔迪卡大陆在战略上的重要程度本就为零。",
+			say = "Back then, the Sirens had such an insurmountable advantage that even certain coastal regions were hard to defend. The strategic value of a place as distant as Antarctica... was less than zero.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "再加上这一条规定，各阵营自然就顺理成章将安塔迪卡的问题束之高阁了。",
+			say = "Essentially, things boiled down to this simple principle: \"We won't touch it if nobody else does.\" Rarely are things so straightforward on the international stage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "……不过，这一切在碧蓝航线分裂后发生了改变。",
+			say = "And so it remained... until after the war, when the Azur Lane split. Then, things began to change.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "由于安塔迪卡条约对于加入赤色中轴的阵营不再具有约束力，铁血率先打响了控制安塔迪卡大陆的第一枪。",
+			say = "It started with Iron Blood, which took advantage of the \"anti-Siren outposts\" part of the treaty to construct military bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其依靠当时在外界看来“突飞猛进”的科技实力，最先在这片大陆上修建了一处军事要塞。",
+			say = "Thanks to the knowledge they'd gained from reverse-engineering Siren technology, those bases got finished in the blink of an eye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "鉴于这种情况，在指挥部的批准下，白鹰也紧随其后在安塔迪卡大陆修建了军事要塞并派遣了常驻舰队。",
+			say = "Then, as part of a gambit by its higher-ups, the Eagle Union built a military stronghold and stationed a permanent fleet in the area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "我们、皇家与鸢尾其实也有过相似的计划……不过，在实际落地之前，我们与赤色中轴的全面战争爆发了。",
+			say = "The Northern Parliament, Royal Navy, and Iris Orthodoxy all attempted to follow suit with our own bases, but due to the ensuing Reenactments, none of us made any real progress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "紧接着，鸢尾战败分裂，从此彻底与安塔迪卡无缘。",
+			say = "Afterwards, the Iris Orthodoxy was split into two, forcing them to withdraw any claims on the continent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皇家则收缩力量，放弃了在安塔迪卡维持军事要塞的想法，将舰队撤回了悉尼司令部。",
+			say = "The Royal Navy downsized their forces, eventually giving up their goals of maintaining a military base on Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "我们也放弃了将科考站升级成要塞的计划，将视线聚焦回了咫尺之遥的极地。",
+			say = "As for us, we largely abandoned our hopes of militarizing our research bases and shifted our attention back towards more pressing issues in the Arctic North.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "再之后，铁血和白鹰之间倒是真在安塔迪卡发生过几场零星战斗，但是也就仅此而已了。",
+			say = "There are recorded incidents of the governments of the Eagle Union and Iron Blood exchanging blows through mass-produced ships, but beyond that, no major conflicts have broken out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "毕竟在这一时期，这片大陆上的事，实在是不那么重要。",
+			say = "However, you must take note that a single truth underpinned all these events – that Antarctica had no strategic value.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后时间到了现在，安塔迪卡的问题也来到了第三个阶段。",
+			say = "Which brings us to the current day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "你们都知道，碧蓝航线已经与赤色中轴达成了全面停火协议。",
+			say = "As you all know, the Azur Lane and the Crimson Axis have reached a comprehensive ceasefire agreement.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "双方代表正在鸢尾首都的会议室中对于「联盟合并」进行着协商。",
+			say = "As we speak, representatives from all over the world are gathered at the reunited Iris Orthodoxy to discuss the reformation of a single Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在「联盟合并」的条款中有一条，就是赤色中轴的各阵营需要重新加入碧蓝航线分裂前曾签署并生效至今的所有条约与协定。",
+			say = "Naturally, one of the terms for this process would be that all parties would assume their roles in upholding the existing treaties and agreements of the Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "其中自然也包含《安塔迪卡条约》。",
+			say = "And of course, the Antarctic Treaty would be no exception.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "且不论这场「联盟合并」的最终结果如何，至少在各方还有意愿进行谈判的当下，安塔迪卡的格局是不会有任何变化的。",
+			say = "Having all that said, regardless of how this negotiation process actually goes, as long as all of the factions are still willing to come to the table, there shouldn't be any major power shifts in Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是，目前在安塔迪卡拥有科考站的只有白鹰、皇家、北方联合、铁血四家。",
+			say = "The Royal Navy, Northern Parliament, Eagle Union, and Iron Blood – these are the factions that still have research bases in Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "其中有军事要塞级别建设的，只有白鹰和铁血两家。",
+			say = "Of these factions, only the last two have any sort of military presence here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "顺带一提，我们的科考站是基于与铁血的合作协定，才得以如此迅速地建设完毕哦~",
+			say = "Yup! Also, fun fact – our research station was made in collaboration with Iron Blood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "……什么，竟然是通过与铁血的合作？！",
+			say = "Wait, what? That's news to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "这件事连我都不太清楚……",
+			say = "I never knew that, either. Our Intelligence Bureau must keep that fact close to the vest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "水星纪念说的没错，我们的科考站确实是和铁血合作的产物。",
+			say = "Pamiat' is correct. Our station was indeed built with borrowed Iron Blood technology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事知道的人很少，不过也算不上什么机密。",
+			say = "It's not strictly confidential information, just a little-known fact.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "当时，我们和铁血都已经知晓了塞壬剧本的存在。",
+			say = "We knew about the Reenactments and shared our intel with Iron Blood. Around this time, we decided to build a base hidden from Naval HQ's prying eyes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "{namecode:441:腓特烈}与我的志向相同，我们决定打破这一由塞壬构建的世界格局，一系列合作也是在那时候定下来的。",
+			say = "Me, Friedrich, and many others... we all came together in preparation for the coming war with the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "其中就包括在安塔迪卡建设我们自己的科考站。",
+			say = "This included building our own research station in Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "与塞壬的战争总会迎来尽头。",
+			say = "We built it because this war with the Sirens will one day be over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "而这个世界对我们来说还有太多的未知。",
+			say = "We built it because the world still has so many discoveries waiting to be made.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "未来还有太多的可能性在等待着我们探索。",
+			say = "We built it because the future holds countless possibilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果我们将文明与社会彻底打造为一台轰鸣的战车。",
+			say = "We built it because, if human society dedicates itself solely to war...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "那在战争结束之后，这台战车又将开向何方呢？",
+			say = "Then what will we do once there is no more war to fight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "这也是各阵营即便在战争期间，依旧维持着科考站运作的原因。",
+			say = "This is why we built the research station. In preparation for a better tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "原来如此……确实是一个很有智慧的选择。",
+			say = "My... Really makes you think.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "我算是听明白了！",
+			say = "Okay, so if I got this right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "也就是说因为安塔迪卡大陆没什么人，所以没有引来塞壬的袭击。",
+			say = "Nobody lives in Antarctica, so the Sirens don't attack it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,7 +1123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而因为没有塞壬的袭击，所以也就越来越没人关注。",
+			say = "The Sirens don't attack it, so nobody really cares about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,7 +1141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "等到终于有人想关注的时候，当时的条件又不允许。",
+			say = "Nobody really cares about it, so humanity signed a treaty, agreeing to just share it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1158,7 +1158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等到条件终于允许了，局势又不允许了……",
+			say = "And because nobody cares about it, the research station gets away with doing stuff in secret. That right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,7 +1176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "没错，总结的很到位~",
+			say = "Pretty much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1194,7 +1194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "哼哼，不愧是我~",
+			say = "(Huh? When'd Pamiat' get here?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不过安塔迪卡大陆虽说没什么人，不过倒是有不少可爱的小动物哦~",
+			say = "Also, while it's true no PEOPLE live there, it's still home to a whole ecosystem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,7 +1229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在换我来当老师了~让我来考考你们，你们知道有什么可爱的小动物生活在南极么？",
+			say = "On that subject, now it's my turn to play the teacher! Can anyone name an Antarctic animal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "这个我知道，有企鹅！",
+			say = "Me, me! Penguins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1275,7 +1275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "企鹅胖嘟嘟圆滚滚，实在是太可爱了~",
+			say = "Round penguins! Cute penguins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1292,7 +1292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一会儿我们上岸之后，能够见到企鹅么？",
+			say = "Will we, um, get to see any of those here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1310,7 +1310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "可以，我们的科考站距离一处企鹅栖息地并不远。",
+			say = "Most likely. The research station isn't far from a penguin habitat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1327,7 +1327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了~嘿嘿……嗯？凶猛，你在想什么呢？怎么笑得那么恐怖……",
+			say = "Hooray! Heehee... Hm? What is it, Svirepy? You look like something's on your mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1345,7 +1345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "我在想……企鹅圆滚滚的、富含脂肪，用来做烧烤说不定会很好吃……",
+			say = "Round means fat. Fat means ancient people probably ate 'em.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "而且还会下蛋，用来做肉蛋卷似乎也不错……",
+			say = "And they lay eggs, don't they? Betcha somebody's made a penguin egg omelet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1381,7 +1381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "……咦？企鹅明明那么可爱……太、太残忍了吧！",
+			say = "Whuh? But penguins are such cute little things... How could anyone be so cruel?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,7 +1409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "那么可爱……一定很好吃……嘿嘿。",
+			say = "Round penguins. Tasty penguins. I wonder if we can catch one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "停——停止你危险的想法！",
+			say = "Let me stop you right there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,7 +1455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "很遗憾，《安塔迪卡条约》里有明确的规定，安塔迪卡大陆上的所有动物，不论是地上走的还是天上飞的都受到保护。",
+			say = "Remember the Antarctic Treaty? Yeah, it explicitly says all Antarctic animals are protected, whether they fly in the sky or walk on land!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1473,7 +1473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不能随便吃哦！绝对不可以哦！",
+			say = "Don't even THINK about eating any of them! It's not gonna happen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "欸——好可惜，还想来一场愉快的狩猎呢……",
+			say = "Damn. You live to see another day, penguins...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1509,7 +1509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "呼……安心了。",
+			say = "Phew... That's a relief to hear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1527,7 +1527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "呵呵，我们此行携带的补给非常充足，不但足够我们使用，还能为科考站提供一次补给。",
+			say = "You won't have to worry about food. In addition to the supplies for our expedition, we're also bringing rations to resupply our research station.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1545,7 +1545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "不会饿着你的，还是放过可爱的企鹅吧。",
+			say = "Please don't do anything to the little penguins other than adore them, Svirepy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,7 +1563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "也不是担心食物不够的问题啦……",
+			say = "Yeah, yeah, I know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1580,7 +1580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~我懂了！",
+			say = "Ahh, I get it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1598,7 +1598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "你是感觉难得来到了万里之外的安塔迪卡，却没吃上什么特色食物有些失落对吧！",
+			say = "We've come all the way to Antarctica, and you'd hate to leave without trying some of the local cuisine, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1615,7 +1615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对对，就是这种感觉！",
+			say = "Yeah? I guess?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,7 +1633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "那这么说来，安塔迪卡还确实有些可以吃的……比如海里游的。",
+			say = "Then have I got good news for you! All the animals that fly or walk on land are off-limits...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1650,7 +1650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从海里捕捞上来的鱼虾不受《安塔迪卡条约》保护，我们可以随便吃哦。",
+			say = "But all the ones that swim in the water are fair game!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1668,7 +1668,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "比如磷虾，其实还蛮好吃的。",
+			say = "Like krill, for one! It's pretty good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1686,7 +1686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "至于企鹅肉——其实企鹅肉去掉脂肪处理之后，和鸡肉口感差不多。",
+			say = "And don't feel too bummed out about the penguins. According to ancient Antarctic hunters, it hardly tastes any different from chicken.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1703,7 +1703,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不然我给你做一道宫廷秘制烤鸡，就当假装吃了怎么样？",
+			say = "If you're REALLY craving chicken, then I can roast one for you. You'll just have to make do with that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1721,7 +1721,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "再来一份磷虾汤面，这道也是宴会菜单上的菜哦，美味保证。",
+			say = "Or I could make krill noodle soup. Royalty used to have that at their banquets long ago, so it's gotta be delicious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1738,7 +1738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，菜单上的版本用的不是磷虾就是了~",
+			say = "Granted, they didn't use krill back then, but still!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1756,7 +1756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "哇……听上去就好吃。",
+			say = "Doesn't SOUND that good, but like they say – don't knock it 'til you've tried it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1783,7 +1783,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到水星纪念同志还会做这些啊！",
+			say = "Wait, you never said you can cook, Pamiat'!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1801,7 +1801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "偶尔会动动手，还原一下记忆中的味道嘛~",
+			say = "Well, I do! Sometimes. I make old dishes to keep the taste alive in my memory!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1813,11 +1813,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1849,7 +1849,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是北方联合基地科考站「和平」站。",
+			say = "This is research station Mirny.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1868,7 +1868,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「卡林卡」号，你们的身份核实已通过，欢迎来到安塔迪卡。",
+			say = "Kalinka, your signal has been verified. Welcome to Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1886,7 +1886,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "好久不见，塔林同志。",
+			say = "Thank you. It's been a while, Comrade Tallinn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1904,7 +1904,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "我们带来了远方的问候，还有一批补给。",
+			say = "We've brought you supplies – and gratitude from back home for your commitment to the motherland.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1923,7 +1923,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来今天可以做一顿美味的晚餐为诸位接风了。",
+			say = "Yeah, thanks. I'll have to cook up something special tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1942,7 +1942,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实是好久不见了，{namecode:530:同盟}同志，收到你要亲自来的消息的时候我真是相当震惊。",
+			say = "Have to say, you were the last person I was expecting, Soyuz. I really didn't think you'd visit in person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1960,7 +1960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "总之，我把这片海域最新的情况发给你们了，航线已经规划完毕。",
+			say = "One sec... There. I sent you the latest map data. There's your route to the station.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1979,7 +1979,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请根据航线行驶，避开冰山，我们港口汇合。",
+			say = "Look out for icebergs and hold on to your wheel. I'll come meet you outside the station.",
 			painting = {
 				alpha = 0.3,
 				time = 1

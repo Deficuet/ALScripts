@@ -12,7 +12,7 @@ return {
 			actor = 408080,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "带了这么多深水炸弹，魔鬼",
+			say = "So many depth charges... You island ape meanies...",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这叫战术上的英明决断！英·明·决·断！",
+			say = "Hmph! If it gives us a tactical advantage, we'll use it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "…唔…{namecode:416}还没来——",
+			say = "... Ugh. Maybe U-556 isn't coming baaaack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不玩了。{namecode:420}要撤退了。回去要泡个澡——",
+			say = "I don't wanna fight anymore. I'm going home. Then I'm gonna take a baaaath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么话等跟我们回去了再说！给我乖乖听话！",
+			say = "We'll listen to your prattle later! Hold still and stop struggling!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——澡堂啊….说起来，女将有时候会“若有所思”地凝视大家的胸部呢",
+			say = "Speaking of baths, I remember seeing you check out people's chests in the bathhouse, Amazon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "等——！？",
+			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -121,11 +121,11 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ff5c5c",
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "嗯嗯。感谢分享有趣的情报",
+			say = "Hmm, hmm... Thanks for the infoooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:420}也会看。嗯，大的和小的",
+			say = "I check them out toooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}也喜欢大的吗？说起来，女将也经常盯着小天鹅的看呢。",
+			say = "Do you like big ones, U-110? Amazon seemed especially fixated on Cygnet's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔，不是很懂。{namecode:426}的话好像是挺喜欢大的",
+			say = "Hmmm, I dunno. But I'm sure Hipper likes those.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要再以澡堂为中心进行话题了啊！全都是见不得人的内容啊！！！",
+			say = "Why are you discussing such an inappropriate topic?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总是想追求得不到手的东西，这就是可悲的人性吧",
+			say = "Desiring that which one cannot have is a sign of maturity, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "明明你自己也是半斤八两！",
+			say = "Oh yeah? But you're just as flat!",
 			action = {
 				{
 					type = "shake",
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你这么一说，倒也是。",
+			say = "Now that you mention it, that is true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所·以·说！这个话题就到此为止！好了！",
+			say = "Exactly! Which means this conversation is done and over! Full stop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女将，她要逃跑了哦",
+			say = "It seems someone's using this as a running-away opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "大斗犬伸出食指，指着半个脑袋已经潜入水中的{namecode:420}。",
+			say = "Bulldog pointed her finger at U-110, who was trying to dive and get away again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊，露馅了",
+			say = "Shoot, the jig is uuuup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——好危险！真是一点都不能大意！！",
+			say = "You little...! Don't you try to flee when people are talking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "话说完了，{namecode:420}可以回去了吗？",
+			say = "Then can I leave when you're done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "怎么可能放你回去啊？！！！",
+			say = "Why do you think we would just let you get away?",
 			action = {
 				{
 					type = "shake",
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "不行么？",
+			say = "Why not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "…不行！真是的，这家伙怎么一点紧张感都没有啊！",
+			say = "Oh, for the love of... Do any of you have any sense of urgency?",
 			action = {
 				{
 					type = "shake",

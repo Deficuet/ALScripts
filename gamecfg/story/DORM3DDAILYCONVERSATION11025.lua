@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "视频记录生活的方式吗……？",
+			say = "You want to record stuff from our lives on video?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊……那Honey岂不是就会知道，你不在的时候我也在一直想你啊~",
+			say = "Ah! If you do, you'll see me thinking about you the whole time you're gone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

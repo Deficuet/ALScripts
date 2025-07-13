@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-4",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……好麻烦哦。",
+			say = "Ugh... This is so lame...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "我今天能不能不整理房间啊？",
+			say = "Can't I clean my room later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我在旁边陪你收拾",
+					content = "I'll help you out.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "那今天就休息吧",
+					content = "You can put it off for today.",
 					type = 2
 				}
 			}
@@ -73,12 +73,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么嘛，区区{tb}还想来旁边指手画脚……",
+			say = "Seriously? I think you just wanna give me orders, you dweeb.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			dynamicBgType = -2,
-			say = "这样能快点完成。",
+			say = "With my help, it'll get done faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哼！收拾就收拾，不过我才不是因为你陪我我才收拾的！",
+			say = "Hmph! Fine... I'll do it, but not just because you're helping!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +119,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~杂鱼{tb}也有很开明的时候嘛~",
+			say = "Heheh! Guess even a dweeb can be understanding from time to time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			dynamicBgType = -2,
-			say = "不过明天必须收拾哦。",
+			say = "You won't get off the hook tomorrow, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,12 +149,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼~明天的事明天再说啦~反正你也管不住我~",
+			say = "I can think about tomorrow's problem tomorrow! Besides, it's not like you can stop me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

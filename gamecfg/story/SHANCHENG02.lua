@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>二　冬泳大会？</size>",
+					"Winter Offensive\n\n<size=45>Chapter 2 - Cold-Water Swim Meet?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "哈…哈啾！",
+			say = "Aah... Aachoo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呜…果然好冷啊外面…咦？前面的是？",
+			say = "Ughh... I knew it'd be freezing outside... Huh? Who's that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:77}",
 			dir = 1,
-			say = "哟！这不是{namecode:79}吗，出来散步吗？",
+			say = "Yo, if it isn't Yamashiro! Are you out for a stroll?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "没有啦…只是出来买点东西，呜…好冷……",
+			say = "Umm... not quite... I'm just on my way to the store... Brrr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			actorName = "{namecode:76}",
 			dir = 1,
-			say = "不行啊{namecode:79}～作为重樱的一员，怎么能被区区冷空气打倒呢！",
+			say = "A poor showing, Yamashiro! How could a battleship of the Sakura Empire allow herself to be bested by a little cold?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "{namecode:77}、{namecode:76}…你们都好厉害啊～不觉得冷吗？",
+			say = "Ise, Hyuuga... you two aren't cold...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			actorName = "{namecode:77}",
 			dir = 1,
-			say = "哼哼，寒冷这种东西，靠气势就能赶跑啦！",
+			say = "Heh. All you need is a little guts, and the cold won't be an issue at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			actorName = "{namecode:76}",
 			dir = 1,
-			say = "我们还准备办个冬泳大会呢！哼哼，把白鹰那些家伙们也叫上，让她们见识一下重樱的气魄！",
+			say = "As a matter of fact, we're organizing a cold-water swim meet. Heheh, we're also going to grab those Eagle Union blokes and let them see what the Sakura Empire is made of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			actorName = "{namecode:77}",
 			dir = 1,
-			say = "怎么样？{namecode:79}你也要一起参加吗？",
+			say = "How 'bout it, Yamashiro? Want to join?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呜…我就……算了…哈…哈啾！",
+			say = "Eep... I, um, I think I'm good... achoo!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

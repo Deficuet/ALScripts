@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>二　与鲜花簇拥之下</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 2 Embraced by Flowers </size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "然后，约定赏花之日到了——",
+			say = "On the day of the flower viewing...",
 			blackBg = true,
 			bgm = "story-richang-7",
 			flashout = {
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "越靠近目的地，花朵的芬芳边更加馥郁。拐过拐角，就在水边不远处，一座鲜花簇拥下的花房映入眼帘。",
+			say = "As soon as I turn the corner, I can already smell the incredible fragrance from the garden room sitting amidst flowers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}正在静静地给花浇水。不过看她的神色……似乎稍微有些愁眉不展。",
+			say = "Hanazuki is already there watering the plants, but her brow is wrinkled as if she is worried about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里放一盆茉莉好呢，还是紫丁香好呢……呜，真是让人纠结……",
+			say = "Should I put jasmine here, or lilac? Ugh, I just can't decide...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -124,7 +124,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "茉莉的话，一会跟指挥官参观到这里之后，就可以顺势提出给指挥官做一壶茉莉花茶……",
+			say = "If I go with jasmine, I'd be able to use that as a segway to offer Commander some tea during the tour...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -148,7 +148,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是紫丁香花馥郁的香气也很让人陶醉……",
+			say = "But, the scent of lilac provides just the right atmosphere for flower-viewing that it would be a shame to go without it...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -172,7 +172,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟指挥官是和我约好来一起来赏花的……如果是紫丁香的话，到时候就可以一起欣赏它的浓香……",
+			say = "I hope I'm not putting too much emphasis in the aroma aspect of the flower-viewing experience... But if I were to leave out the jasmine flowers, that would also reduce the variety...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -196,7 +196,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜，好难选择啊……要不干脆移一盆玫瑰花，但、但是，玫瑰会不会有点太直接了……！",
+			say = "Urgh, I just can't make up my mind... Maybe I should just take apart this entire arrangement... B-but then we'd be left with only roses, and that would be...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -214,7 +214,7 @@ return {
 			},
 			options = {
 				{
-					content = "轻声咳嗽。",
+					content = "\"Ahem...\"",
 					flag = 1
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！指、指挥官？！居然已经这个时间了么……！",
+			say = "*gasp*! C-Commander, when did you get here?!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -260,7 +260,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢、欢迎！快请坐！我，我这就去给您泡茶……",
+			say = "Oh, um, in any case, I'm glad you could make it! Please have a seat over here while I go make tea for you!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "要摆在这里的花已经决定是茉莉了么？",
+			say = "\"Were you just watering the jasmines?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "茉莉……？啊！指、指挥官……原来被您听到了啊……",
+			say = "Jasmines? Oh my... Did you overhear me talking to myself too?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -324,7 +324,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实还在犹豫中……您觉得哪一种比较好呢？",
+			say = "To be honest, I still can't make up my mind... Which of the two do you prefer, Commander?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "本来想说三种花都挺好的，不过这样一来问题完全没有得到解决……",
+			say = "As much as I'd like to say \"I trust your judgment,\" a response like that is only going to deepen her worries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "那就选一种吧——",
+			say = "\"Hanazuki, I think you should display...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,15 +374,15 @@ return {
 			},
 			options = {
 				{
-					content = "茉莉花",
+					content = "\"The jasmines.\"",
 					flag = 1
 				},
 				{
-					content = "紫丁香花",
+					content = "\"The lilacs.\"",
 					flag = 2
 				},
 				{
-					content = "玫瑰花",
+					content = "\"The roses.\"",
 					flag = 3
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "茉莉花的花朵芬芳清秀……{namecode:29}也很喜欢呢。但是紫丁香的令人陶醉的香味也让人很难割舍……",
+			say = "I'm also quite fond of jasmine flowers myself. They have a simple yet refreshing fragrance. But, it'd be a pity to leave out the enchanting scent of the lilacs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "紫丁香……是种姿态和味道俱佳的花呢，但是……放在入口处会不会有些太抢风头了。",
+			say = "They have a wonderful fragrance and are beautiful to look at, but I'm afraid they might be too flashy to place right at the entrance...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "玫、玫瑰花？！那个刚刚只是随口一说，不能算数啦，不能算数！",
+			say = "R-roses?! Ah, um, I was just talking to myself! P-please pretend you didn't hear that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "真是的，指挥官也是坏心眼啊……",
+			say = "Jeez, Commander, don't tease me like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "要不然……干脆一起都再种一些？",
+			say = "\"Since you're having so much trouble deciding, why don't we plant them together?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？从现在开始种的话，指挥官今天可是看不到它们长大的哦？",
+			say = "Plant them together? I thought we were going to go flower-viewing today...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "感觉以后也许会常来这里，而且看着自己种下的花朵成长也是一种十分有趣的过程。",
+			say = "\"There's always next time. Besides, I get the feeling I'll be spending more and more time here. I want to see those flowers grow up nice and healthy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官以后要常来么？！太好了……咳，我是说……看着花朵从种子开始成长确实是一件十分有趣的事！",
+			say = "Y-you'll keep coming back here?! I'm so glad that you, um... are interested in growing flowers as well!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -584,7 +584,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那指挥官请稍等一下，我这就去拿种子来！",
+			say = "In that case, please give me a minute. I'll go fetch the seeds.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -602,11 +602,11 @@ return {
 			},
 			options = {
 				{
-					content = "注意脚下——",
+					content = "\"I'm not going anywhere, Hanazuki. You don't need to run.\"",
 					flag = 1
 				},
 				{
-					content = "茶水的事呢？",
+					content = "\"Umm... Do you need any help with the tea?\"",
 					flag = 2
 				}
 			}
@@ -620,7 +620,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嗯~指挥官可以先在这里随便看看，我马上回来！",
+			say = "Okay, I'll be right back! Just wait for me right over there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "欸？（茶水、种子……茶水、种子……）咳咳……指挥官请稍等，我还是先把茶水准备好好了！",
+			say = "Oh... Huh? (Oh no, which one am I supposed to get first, the seeds or the tea?) G-give me just a moment, I'll bring the tea out to you first!",
 			painting = {
 				alpha = 0.3,
 				time = 1

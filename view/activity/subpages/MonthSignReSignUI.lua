@@ -59,14 +59,13 @@ function var_0_0.displayAwards(arg_8_0)
 
 		local var_8_2 = findTF(var_8_0, "name")
 		local var_8_3 = findTF(var_8_0, "name_mask")
-		local var_8_4 = findTF(var_8_0, "name_mask/name"):GetComponent("ScrollText")
 
 		setActive(var_8_2, false)
 		setActive(var_8_3, true)
 
-		local var_8_5 = var_8_1.name or getText(var_8_2)
+		local var_8_4 = var_8_1.name or getText(var_8_2)
 
-		var_8_4:SetText(var_8_5)
+		setScrollText(findTF(var_8_0, "name_mask/name"), var_8_4)
 		onButton(arg_8_0, var_8_0, function()
 			if arg_8_0.inAniming then
 				return

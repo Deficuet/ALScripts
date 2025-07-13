@@ -5,10 +5,10 @@ pg.guardian_template = {
 		guardian_painting = "lisailiu",
 		type = 1,
 		buff = 200852,
-		guardian_gain_desc = "向力量神像祈求$1/10次",
-		guardian_desc = "战斗中，每隔一段时间释放一次支援弹幕",
+		guardian_gain_desc = "Pray to the Statue of Power $1/10 times.",
+		guardian_desc = "Supporting barrages periodically appear during battle.",
 		id = 1,
-		guardian_name = "光明与正义之神",
+		guardian_name = "Goddess of Light and Justice",
 		guardian_gain = {
 			17,
 			10
@@ -26,10 +26,10 @@ pg.guardian_template = {
 		guardian_painting = "chicheng",
 		type = 1,
 		buff = 200857,
-		guardian_gain_desc = "向力量神像祈求$1/30次",
-		guardian_desc = "战斗开始后，所有敌人会持续受到特殊灼烧效果",
+		guardian_gain_desc = "Pray to the Statue of Power $1/30 times.",
+		guardian_desc = "At the beginning of battle, all enemies are inflicted with a special Burn ailment.",
 		id = 2,
-		guardian_name = "火焰与净化之神",
+		guardian_name = "Goddess of Fire and Purity",
 		guardian_gain = {
 			17,
 			30
@@ -47,10 +47,10 @@ pg.guardian_template = {
 		guardian_painting = "kelaimengsuo",
 		type = 1,
 		buff = 200863,
-		guardian_gain_desc = "向力量神像祈求$1/70次",
-		guardian_desc = "己方角色伤害提升15%，但每5秒会流失0.5%耐久",
+		guardian_gain_desc = "Pray to the Statue of Power $1/70 times.",
+		guardian_desc = "Increases your fleet's DMG dealt by 15.0%, but causes them to lose 0.5% of their max HP every 5s.",
 		id = 3,
-		guardian_name = "黑暗与诡计之神",
+		guardian_name = "Goddess of Darkness and Conspiracy",
 		guardian_gain = {
 			17,
 			70
@@ -68,10 +68,10 @@ pg.guardian_template = {
 		guardian_painting = "bisimaiZ",
 		type = 1,
 		buff = 200855,
-		guardian_gain_desc = "向力量神像祈求$1/120次",
-		guardian_desc = "可召唤一头钢铁巨龙加入战斗",
+		guardian_gain_desc = "Pray to the Statue of Power $1/120 times.",
+		guardian_desc = "Summons a steel dragon to join the battle.",
 		id = 4,
-		guardian_name = "钢铁与巨龙之神",
+		guardian_name = "Goddess of Steel and Dragons",
 		guardian_gain = {
 			17,
 			120
@@ -89,10 +89,10 @@ pg.guardian_template = {
 		guardian_painting = "mingshi",
 		type = 1,
 		buff = 200871,
-		guardian_gain_desc = "向丰饶神像祈求$1/10次",
-		guardian_desc = "战斗中，己方角色航速增加10%，幸运增加66点",
+		guardian_gain_desc = "Pray to the Statue of Harvest $1/10 times.",
+		guardian_desc = "Increases your fleet's SPD by 10.0% and LCK by 66.",
 		id = 5,
-		guardian_name = "幸运与财富之神",
+		guardian_name = "Goddess of Luck and Riches",
 		guardian_gain = {
 			18,
 			10
@@ -110,10 +110,10 @@ pg.guardian_template = {
 		guardian_painting = "yilishabai",
 		type = 1,
 		buff = 200872,
-		guardian_gain_desc = "向丰饶神像祈求$1/30次",
-		guardian_desc = "战斗中，每过10秒回复己方全体角色1%耐久",
+		guardian_gain_desc = "Pray to the Statue of Harvest $1/30 times.",
+		guardian_desc = "During battle, your ships recover 1.0% of their max HP every 10s.",
 		id = 6,
-		guardian_name = "茶会与点心之神",
+		guardian_name = "Goddess of Desserts and Tea Parties",
 		guardian_gain = {
 			18,
 			30
@@ -131,10 +131,10 @@ pg.guardian_template = {
 		guardian_painting = "yixian",
 		type = 1,
 		buff = 200868,
-		guardian_gain_desc = "向丰饶神像祈求$1/70次",
-		guardian_desc = "旗舰获得40%减伤，但会分担其余己方角色受到伤害的20%",
+		guardian_gain_desc = "Pray to the Statue of Harvest $1/70 times.",
+		guardian_desc = "Your flagship takes 40.0% less DMG, but will tank 20.0% of the DMG dealt to other allies.",
 		id = 7,
-		guardian_name = "平安与守护之神",
+		guardian_name = "Goddess of Peace and Protection",
 		guardian_gain = {
 			18,
 			70
@@ -152,10 +152,10 @@ pg.guardian_template = {
 		guardian_painting = "salatuojia",
 		type = 1,
 		buff = 200862,
-		guardian_gain_desc = "向丰饶神像祈求$1/120次",
-		guardian_desc = "可让己方全体角色的最终护甲类型变为重甲",
+		guardian_gain_desc = "Pray to the Statue of Harvest $1/120 times.",
+		guardian_desc = "Changes the Armor type of all your ships to Heavy.",
 		id = 8,
-		guardian_name = "起始与终焉之神",
+		guardian_name = "Goddess of Beginnings and Ends",
 		guardian_gain = {
 			18,
 			120
@@ -173,10 +173,10 @@ pg.guardian_template = {
 		guardian_painting = "weineituo",
 		type = 1,
 		buff = 200873,
-		guardian_gain_desc = "向智慧神像祈求$1/10次",
-		guardian_desc = "每过20秒会随机使一名己方角色在8秒内伤害提升30%",
+		guardian_gain_desc = "Pray to the Statue of Wisdom $1/10 times.",
+		guardian_desc = "Every 20s, increases the DMG dealt by a random ship in your fleet by 30.0% for 8s.",
 		id = 9,
-		guardian_name = "复兴与浴室之神",
+		guardian_name = "Goddess of Revivals and Baths",
 		guardian_gain = {
 			19,
 			10
@@ -194,10 +194,10 @@ pg.guardian_template = {
 		guardian_painting = "huangjiacaifu",
 		type = 1,
 		buff = 200860,
-		guardian_gain_desc = "向智慧神像祈求$1/30次",
-		guardian_desc = "战斗开始时，己方角色伤害提升15%，60秒后效果变更为己方角色伤害降低10%",
+		guardian_gain_desc = "Pray to the Statue of Wisdom $1/30 times.",
+		guardian_desc = "Increases your fleet's DMG dealt by 15.0% for the first 60s after the start of battle; afterward, decreases their DMG dealt by 10.0%.",
 		id = 10,
-		guardian_name = "开拓与冒险之神",
+		guardian_name = "Goddess of Pioneering and Adventure",
 		guardian_gain = {
 			19,
 			30
@@ -215,10 +215,10 @@ pg.guardian_template = {
 		guardian_painting = "tbniang",
 		type = 1,
 		buff = 200864,
-		guardian_gain_desc = "向智慧神像祈求$1/70次",
-		guardian_desc = "开启自律战斗时，改变自律移动轨迹",
+		guardian_gain_desc = "Pray to the Statue of Wisdom $1/70 times.",
+		guardian_desc = "Changes the movement algorithm of your fleet during Auto Combat.",
 		id = 11,
-		guardian_name = "秩序与规则之神",
+		guardian_name = "Goddess of Order and Rules",
 		guardian_gain = {
 			19,
 			70
@@ -236,10 +236,10 @@ pg.guardian_template = {
 		guardian_painting = "suweiaitongmengnew",
 		type = 1,
 		buff = 200865,
-		guardian_gain_desc = "向智慧神像祈求$1/120次",
-		guardian_desc = "己方角色全属性将随编队中的阵营数增加而提升",
+		guardian_gain_desc = "Pray to the Statue of Wisdom $1/120 times.",
+		guardian_desc = "Increases your fleet's stats depending on how many different factions are represented.",
 		id = 12,
-		guardian_name = "坚韧与团结之神",
+		guardian_name = "Goddess of Unity and Toughness",
 		guardian_gain = {
 			19,
 			120
@@ -258,9 +258,9 @@ pg.guardian_template = {
 		type = 2,
 		buff = 200877,
 		guardian_gain_desc = "???",
-		guardian_desc = "BOSS出现时释放支援弹幕，令其损失30%最大耐久",
+		guardian_desc = "When the Boss appears, fires a supporting barrage that deals damage equal to 30.0% of its max HP.",
 		id = 13,
-		guardian_name = "战争之神",
+		guardian_name = "Goddess of War",
 		guardian_gain = {
 			1,
 			2,
@@ -281,9 +281,9 @@ pg.guardian_template = {
 		type = 2,
 		buff = 200884,
 		guardian_gain_desc = "???",
-		guardian_desc = "每次跨射/空袭/雷击都能为己方全体提供2%/2%/1%增伤",
+		guardian_desc = "When your fleet fires a Main Gun salvo, launches an airstrike, or fires torpedoes, increases the whole fleet's DMG dealt by 2.0%/2.0%/1.0%, respectively.",
 		id = 14,
-		guardian_name = "智慧之神",
+		guardian_name = "Goddess of Wisdom",
 		guardian_gain = {
 			5,
 			6,
@@ -304,9 +304,9 @@ pg.guardian_template = {
 		type = 2,
 		buff = 200887,
 		guardian_gain_desc = "???",
-		guardian_desc = "战斗开始时，召唤一名忠心勇猛的伙伴协助战斗",
+		guardian_desc = "When the battle starts, summons a loyal and brave ally to fight for your fleet.",
 		id = 15,
-		guardian_name = "欢愉之神",
+		guardian_name = "Goddess of Joy",
 		guardian_gain = {
 			9,
 			10,

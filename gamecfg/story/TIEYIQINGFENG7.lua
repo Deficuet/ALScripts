@@ -11,15 +11,15 @@ return {
 			bgm = "airraidalarm",
 			sequence = {
 				{
-					"白鹰·长岛防线",
+					"Pacific Ocean - Kiritimati",
 					1
 				},
 				{
-					"白鹰与重樱联合舰队",
+					"Eagle Union-Sakura Empire Joint Fleet",
 					2
 				},
 				{
-					"此时此刻",
+					"Present Time",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "燃烧的海面上，一支临时拼凑的舰队缓缓行驶着。",
+			say = "The motley fleet sailed gently onward through the blazing seas.",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "经历了激烈的战斗后，整片区域的防御力量已经遭到了毁灭性打击。",
+			say = "The defense line had suffered catastrophic damage following the intense fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "舰队虽然做了最大程度的努力挽救局势。但是，依然杯水车薪。",
+			say = "Though the shipgirls fought for dear life to try to prevent this, their best simply was not enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101340,
-			say = "……怎么会这样。",
+			say = "Why... How could this happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明打赢了敌人，但……没能阻止它们的破坏行为。",
+			say = "We defeated all the Sirens, and still they caused all this damage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "长岛防线……在我们手里沦陷了。",
+			say = "The line fell all because of us... We were weak...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "如今的局面，不是你们的错。",
+			say = "No, that's not true. It wasn't your fault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此重要的防线，却只交由你们几人来守护，原本就是不可能完成的任务。",
+			say = "There were so many of them, and so few of you. As important as this line of defense is, you could've never protected it alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "你们能活下来，还能击退敌人的第一轮进攻，已经很棒了。",
+			say = "You not only survived the battle, you even repelled the first attack. You should be commended for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "{namecode:161:天城}女士……感谢您的仗义相助。",
+			say = "Thank you... Thank you, Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果没有您的帮助……恐怕现在，我们也已经葬身海底了。",
+			say = "And thank you for helping us. Without you, we'd be on the bottom of the sea by now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无需言谢，身为盟友，此时不出手更待何时？",
+			say = "You're welcome. My conscience wouldn't let me stand by and leave an ally to their fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "欸……早就听闻NY司令部连月来持续不断的抽调，让长岛防线变得脆弱不堪。",
+			say = "You know, this wouldn't have happened if you had more support. Instead, your higher-ups rerouted forces away from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此次来访，原本就是想与NY司令部讨论此事，早日消除风险……没想到还是晚了一步。",
+			say = "I saw the writing on the wall and came here, hoping to resolve your manpower shortage... Alas, I was too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "塞壬的下一波攻击随时都会到来，此地不宜久留，你们还是跟随我一同撤向内陆吧。",
+			say = "The Sirens' next attack could come at any minute. We should leave as soon as possible. Come with me and we'll retreat inland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是印第安纳，杜威，你们的情况如何？",
+			say = "This is Indiana. Dewey, what's your status?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "印第安纳……？你怎么会在这里？",
+			say = "I-Indiana? Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "当然是专程来找你们的啦~不光是我，匹兹堡、法戈、鲱鱼还有贝尔都在。",
+			say = "What do you think? To save your asses! Pittsburgh, Fargo, Herring, and Bell are here with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "……你们是来支援我们的么。",
+			say = "We're glad you came for us, but I'm afraid it's too late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "可是……已经晚了。我们虽然设法击退了塞壬的第一波进攻，但是长岛防线已经在此次进攻中彻底毁灭了……",
+			say = "Although we managed to push back the first wave of Sirens, the defense line has been utterly destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "我们也联系不到周边驻地……你们是今夜唯一前来支援的舰队……",
+			say = "Worse yet, we're unable to reach anyone nearby. You're the only ones who have come to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "塞壬的高阶指挥者尚未现身，它们随时都有可能卷土重来。",
+			say = "You shouldn't stick around! The Siren command unit has yet to show itself, so their next attack could come at any second!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "我们正在和来访的重樱使团一起向内陆撤退，你们要一起来么？",
+			say = "We're going to pull back with the Sakuran delegation. You should come with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "我们去后方重整防线。",
+			say = "We need to retreat and regroup, then we can mount a new defense!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……去后方？",
+			say = "What was that? You're gonna retreat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们也不想放弃，可是……面对如此局势，只靠我们实在是……",
+			say = "Affirmative! I hate to admit it, but we are woefully unprepared to fend off another assault at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "敌人来势凶猛，除了长岛防线外，你们的周边军事驻地也遭到了打击。",
+			say = "The Sirens are going all-out. This line is only one of the many, many fortifications around the Eagle Union that they're attacking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而此时此刻，你们的主力舰队却远在千里之外。",
+			say = "To think that the capital fleets are so far away at such a crucial moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "不要做无谓的逞强，及时撤离保存实力才是上策。",
+			say = "Regardless, staying here is foolish. Retreating and conserving your strength is your best option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎哟，你怎么突然这么关心起我们的事来了？",
+			say = "Nobody asked for your advice, \"Amagi.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "干扰人心的怪物，这里没有你说话的份。",
+			say = "Yeah. Keep it to yourself, you manipulative monster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……怪物？{namecode:161:天城}女士刚刚救了我们，你们究竟在说什么啊……",
+			say = "M-monster? But she saved our lives!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "杜威，听我说，你在今夜所经历的一切，并不是现实，而是一场梦。",
+			say = "No. Listen up, Dewey. None of what she did for you is real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "一场利用你心中的裂隙而滋生的虚像幻境。",
+			say = "This is a dream – an illusion she conjured up to exploit your weakness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "当日发生在长岛防线上的战斗，我虽然没能亲历，但是也从亲历者那里听来了许多。",
+			say = "My fleet wasn't there when the line was attacked, but we looked into what happened after the fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "那一日，塞壬的突袭如同今夜一般突然，你们同样被打了个措手不及。",
+			say = "The Sirens caught you off-guard. They caused serious damage to the line. That's all true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "可是之后呢？",
+			say = "But that's not the whole story, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在我听到的故事里，纵使敌众我寡，纵使伤痕累累，你们依然坚持战斗，从未有一刻考虑过放弃。",
+			say = "The Sirens sent a huge force at you, but you stood your ground, fighting until the end. None of you even thought about giving up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "至于周围的战局如何，支援舰队如何……当日的你们，除了坚守岗位完成任务之外，可曾考虑过这些事？",
+			say = "Despite having no backup, despite the huge gap in strength, you held the line – with the aid of one person in particular!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们……当日……？",
+			say = "One person? Wait...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "法拉格特级驱逐舰杜威，向指挥官报到。",
+			say = "Farragut-class destroyer, Dewey, reporting for duty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101400,
-			say = "同样是法拉格特级驱逐舰，艾尔温，向指挥官报到。",
+			say = "I'm another Farragut-class destroyer, Aylwin. Reporting for duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "法拉格特级驱逐舰...你们就是现在留守长岛的防御舰队么？",
+			say = "Are you two from the defense line?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "是的……胜利小姐。",
+			say = "Yes we are, Miss Victorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其他人情况怎么样？！",
+			say = "What about the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "佯攻舰队成功吸引了塞壬的注意，我们才能趁机带着伤员突围出来……",
+			say = "The diversion force managed to draw the Sirens' attention away, giving us the opportunity to retreat with the wounded. But after that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101400,
-			say = "可是又能撤到哪里去呢，NY港已经被包围，海面上又都是塞壬舰队",
+			say = "We'd like to check back with the others, but the Siren fleet is blocking the way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101400,
-			say = "只靠我们实在是……",
+			say = "It's too much for just us to handle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "不、不过，既然指挥官来了，就一定有办法……对吧！",
+			say = "B-but... as long as you're here, Commander, you'll think of something, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，不用担心。",
+			say = "Yeah. It'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103160,
-			say = "放心，后面包在我们身上了！",
+			say = "Don't worry. You've done well. With the Commander's help, we'll get through this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "保持距离在后方航行，我们来保护你们的安全。",
+			say = "The goddess of victory is with you! We'll keep you two safe – just stay behind us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "对、对了！伯明翰和朱诺还在带领舰队拖延塞壬净化者的行动",
+			say = "V-Victorious! We received a transmission from Juneau and Birmingham, informing us that they made contact with an elite Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "指挥官快去救救她们吧！",
+			say = "Commander, we should go save them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "指挥官……没错，当日……是我们与指挥官一同战斗，最后取得了彻底的胜利的！",
+			say = "I remember now! The Commander fought with us and we WON that day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "当日……根本就没有重樱使团的到来。",
+			say = "No Sakuran delegation came by back then, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,7 +854,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "……你到底是谁？",
+			say = "But then... Who are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,9 +867,9 @@ return {
 			dir = 1,
 			bgm = "theme-akagi-inside",
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			hidePaintObj = true,
-			say = "——呵呵，清醒过来了啊。",
+			say = "Heheh. So you've opened your eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,13 +894,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "虽说是受到了来自外部的干涉……不过能这么快清醒过来，主要依靠的还是回忆中的力量么……",
+			say = "Even with outside help, I didn't think you'd wake up so quickly... Memories can be powerful things, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,13 +908,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "有趣，实在有趣。",
+			say = "This is interesting. VERY interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,13 +922,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "既然清醒过来了，那就永远留下吧~",
+			say = "Now that you've awoken, enjoy your perpetual stay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "眼见被识破，头戴面具的苍红色身影也干脆利落地放弃了伪装。",
+			say = "The moment her fake identity was stripped away, the masked person laid bare her rigging while black mist coiled up around her body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "她的身上陡然喷涌出黑色的雾气，将周围的重樱量产型转换为了另一种更加危险的形态。",
+			say = "The similarly sinister mass-produced ships, too, began radiating a foreboding aura the very next moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "糟、糟糕了……",
+			say = "O-oh no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "局势急转直下，不久前还承载着温暖与安心的舰队，转瞬间杀机四伏。",
+			say = "Gone was the warm embrace of safety the dream gave them, replaced entirely with a bursting lust for blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -986,7 +986,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "就在这危机时刻——一抹樱色闪过，一个刚毅的身影从半空中的鸟居中纵身跃下。",
+			say = "All of a sudden, a torii gate appeared in the sky with a flash of pinkish light. Their savior leaped out from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,12 +1022,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要——！",
+			say = "Leave!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -1047,12 +1047,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欺负——！",
+			say = "Our!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -1066,12 +1066,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的——！",
+			say = "DESTROYERS!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -1085,12 +1085,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "驱逐舰——！",
+			say = "ALOOOONE!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -1107,7 +1107,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
-			say = "猛烈的炮火，在转瞬间清理掉了包围而来的敌舰，头戴面具的苍红色身影也只能拉开距离躲闪。",
+			say = "Relentless cannon fire rained down upon the mass-produced ships, forcing the masked figure to back off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1138,12 +1138,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "杜威",
+			actorName = "Dewey",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从天……",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,12 +1151,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈尔西鲍威尔",
+			actorName = "Halsey Powell",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而降……？",
+			say = "Did she just jump out of the sky?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,12 +1164,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哈尔西鲍威尔",
+			actorName = "Halsey Powell",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好帅……！",
+			say = "That's SO COOL!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1177,12 +1177,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，怪物，有什么事冲我来。",
+			say = "If you've got something to say, say it to me, monster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,12 +1190,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "印第安纳",
+			actorName = "Indiana",
 			bgName = "bg_tieyiqingfeng_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，真正的敌人已经露出獠牙。随我消灭它们，杀出这片幻境！",
+			say = "Girls! The wolf in sheep's clothing has shown her true colors! Let's kick her ass then get the hell out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

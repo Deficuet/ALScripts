@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-italy",
 			dir = 1,
-			say = "嗯嗯，根据热情她们的情报，解决前面的这支舰队，应该就暂时安全啦~",
+			say = "Mmhmm, according to Fougueux's information, we'll have some breathing room once we beat back the enemies ahead of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "唔……塔尔图，一会战斗的时候可千万别走神啊！",
+			say = "Tartu, you'd better not start daydreaming in the middle of battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "我才不会这么不分轻重呢。",
+			say = "I wouldn't do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "最好是这样啦！",
+			say = "I sure hope so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "唉，感觉大家都很努力的在做侦察，我和塔尔图成了最偷懒的了……",
+			say = "*sigh* I'm supposed to be escorting Dunkerque, but here I am also babysitting Tartu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "呵呵，没有的事。沃克兰和塔尔图都是出色又可靠的先锋哦。",
+			say = "Haha... I think she's doing just fine. You should try to have a bit more faith in her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

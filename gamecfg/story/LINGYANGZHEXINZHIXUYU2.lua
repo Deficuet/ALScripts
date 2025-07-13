@@ -11,12 +11,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-4",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看天气预报说明天是个大晴天，那今晚的星星应该很好看呢~",
+			say = "The forecast said the weather's gonna be good today. We should have an amazing view of the stars tonight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}，要不然晚上带我去天台上看星星吧~？",
+			say = "{tb}, whaddya say we go up on the roof and watch them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "找个安全的地方看星星吧",
+					content = "I'd rather we did it from a safer place.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "我知道个好地方",
+					content = "I know just the spot.",
 					type = 2
 				}
 			}
@@ -72,12 +72,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胆小鬼！一点冒险精神都没有……",
+			say = "Wow, what a coward! Where's your sense of adventure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			dynamicBgType = -2,
-			say = "阳台就能看到很多星星。",
+			say = "You can still see lots of stars from the balcony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼！真是个无聊的笨蛋！",
+			say = "Hmph! You are such a boring dweeb, I swear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦~？没想到笨蛋{tb}也有点冒险精神呢~",
+			say = "Oh really? I didn't think you had the adventurer's spirit in you, dweeb!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,12 +134,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就交给你咯~",
+			say = "Alright, we'll go with your spot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

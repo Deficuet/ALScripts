@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>六  失意之雨</size>",
+					"After the Flowers Bloomed\n\n<size=45>6 Rain of Disappointment</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "到了傍晚时，外面已是狂风暴雨，纷乱的雨点敲打着指挥室窗上的玻璃。",
+			say = "Come evening, the port had been completely engulfed by a storm. Rain pelted down rhythmically against the office's windows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来明天的约会要泡汤了……",
+			say = "At this rate, I'm not sure we'll be able to go on our trip tomorrow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官，打扰了。",
+			say = "Coming through, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥室响起了敲门声，然后{namecode:57}走了进来。",
+			say = "I heard the sound of knocking at the office's doors, and Mogami soon let herself in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我把最近的天气数据图表打印了出来，接下来的两三天内港区都会被暴风雨笼罩。",
+			say = "I've printed out the current weather map. Apparently, the storm's going to be sitting right over the port for the next few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，{namecode:57}？",
+			say = "What's wrong, Mogami?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我在想……会不会是因为我查了数据，暴风雨才会……",
+			say = "Maybe this ended up happening because I went to look up the data...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会呢。{namecode:57}拿来的天气图帮了很多忙哦，谢谢你。",
+			say = "There's no way you had anything to do with this. Besides, this data is very helpful for us. Thank you, Mogami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个……下次能帮我驱邪吗？",
+			say = "Um, is it okay if I stop by the shrine next time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎……如果你希望的话当然可以。不过我觉得没有必要哦？",
+			say = "Mm, if you'd like. Though, I don't think it's really necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我果然还是想拜托你一次……那我先告辞了，不能让{namecode:58}等我太久。",
+			say = "I see. Well, I wanted to at least get it out there. Sorry for taking up your time then. Wouldn't want to keep Mikuma waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "目送着{namecode:57}离开，{namecode:78}略显疲惫地叹了口气。",
+			say = "After Mogami left, Fusou exhaled as if something was weighing heavily upon her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这场暴风雨……说不定把樱花都吹落了。",
+			say = "Do you think that... all the cherry blossoms are going to get scattered by this storm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明我每天都在祈祷，结果还是发生了这种不幸之事……",
+			say = "I've never missed my prayers or broken my strict practices, and yet... misfortunes continue to befall me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果……我不是这种不幸体质的话——",
+			say = "If only I wasn't so unlucky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,23 +332,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "话音刚落，{namecode:78}突然轻轻地摇了摇头，恢复精神露出了笑容。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说起来，殿下，我带了亲手做的大福来配茶哦。",
+			say = "Before she finished her words, Fusou shook her head around vigorously and smiled as if warding off her anxiety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅给{namecode:157}她们，也给指殿下准备了一份呢。不知殿下…还记得我之前说的吗？",
+			say = "Right, I was supposed to finish making those dango. They'd go great with this tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,22 +364,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来，请张开嘴。啊——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "虽然有些害羞，但还是照着{namecode:78}说的张开了嘴。{namecode:78}亲手做的美味大福就这样进入了口中。",
+			say = "I originally intended to share them with Harutsuki and the others, but you can help yourself if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +380,22 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，就算没能一起赏樱，只要做到这个我就已经觉得很满足了……",
+			say = "Here, open your mouth. Say \"ahhn\"~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Though caught off guard by Fusou's embarrassing request, I opened my mouth obediently and chewed on the tasty dango as instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +411,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的，这样就已经很幸福了…",
+			say = "Hehe... Even though we weren't able to view the cherry blossoms together, just being able to have this moment together is enough for me...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Maybe I truly am blessed after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "也许是{namecode:78}的话和窗外的雨声混在一起了吧，整个房间里弥漫着一股朦胧湿润的气息。",
+			say = "I thought I heard a quiver in her voice, but it might have just been the timbre of the rain coming down around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,12 +5,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……为什么鱼不上钩呢！明明卜算的位置是正确的啊……",
+			say = "Why won't the fish bite?! The divination I did should've been accurate!",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "游轮码头，钓鱼大赛已经轰轰烈烈地拉开了序幕。",
+			say = "A lively fishing competition is taking place over by the docks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "随着报名人数增多，码头处的海域也被渔网划分成了不同的参赛区。",
+			say = "Due to the growing number of participants, the competition area has been divided into several zones along the shore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "距离我最近的选手——是寰昌。她携带着极其专业的钓鱼装备，旁边还放着一个八卦罗盘。",
+			say = "Closest to me is Huan Ch'ang, fully decked out in professional fishing gear. There is a hexagram compass lying next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "虽然摆出了钓鱼大师的派头，她的自言自语却暴露出了陷入苦战的事实。",
+			say = "She certainly has the aura of a master angler, but the grumbling under her breath betrays her struggles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,12 +80,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "位置计算和装备都没问题的……“空军”的原因到底是什么呢……",
+			say = "My position and equipment are all in order, too, so why am I getting nothing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "先稳住心态，说不定就会迎来转机。",
+			say = "Don't lose your cool. Maybe your luck will turn around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？指、指挥官？！",
+			say = "Hm? C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +119,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，你说得对。看来在垂钓方面，我还有需要更多积累和沉淀。",
+			say = "Well, yes, you're right. I admit that I need further practice when it comes to the art of fishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,12 +132,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……这显然不是颗粒无收的理由吧！",
+			say = "But that obviously doesn't mean I shouldn't be able to catch a single one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你的占卜，会告诉你鱼群聚集的位置吧？",
+			say = "You, uh, used divination to work out where all the fish are, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,12 +158,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的……",
+			say = "Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "向鱼群聚集的位置抛竿，鱼钩入水的动静可能把鱼吓跑。还是适当隔开距离吧。",
+			say = "When you throw your hook at a load of fish, the ripples it creates will scare them off. Try throwing it further away from them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,12 +184,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……仔细一想，你说得很有道理呢……我这就试试。",
+			say = "You... You have a point. I'll try that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（寰昌这边应该没什么问题了，上面似乎是拉菲的水域……过去看看吧。）",
+			say = "(She should be fine on her own now. Looks like Laffey is just over there. I'll go check on her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "拉菲坐在躺椅上，手里只拿了一根普普通通的钓鱼竿，脑袋一沉一沉的，总感觉会随时躺下睡着。",
+			say = "The sleepy bunny in question is sitting on a chair, her hand gripping a wholly average fishing rod. Her head droops from time to time, as though she's about to fall asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,8 +243,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "鱼……还没上钩……好困……唔……",
+			actorName = "Laffey",
+			say = "The fish aren't nibbling... I'm sleepy... Mmh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,8 +257,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "Zzzz……",
+			actorName = "Laffey",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（果然……）",
+			say = "(Figures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "我刚想上前叫醒她，忽然有两只海鸥掠过视线——随后稳稳地停落在鱼桶边缘。",
+			say = "Right as I go to wake her up, two seagulls pass by in front of me, stopping by the fishing bucket by Laffey's side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,20 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "只见它们默契地一甩头，就有两条鱼被丢进桶内。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_villaisland_cg2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "那是……小白和小黑？又来帮拉菲抓鱼了么。",
+			say = "Both the birds shake their heads knowingly, then drop two fish into the bucket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +306,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（有它们帮忙，那就不用担心了……说不定能够躺赢……真好啊。）",
+			say = "Was that Blanc and Noir? Are they helping her catch fish?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_villaisland_cg2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Well, she'll be fine as long as they're here. In fact, she might win despite doing nothing. Lucky her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,8 +332,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "法戈",
-			say = "指挥官？法戈正在进行钓鱼比赛中，有什么吩咐吗？",
+			actorName = "Fargo",
+			say = "Ah, Commander. I'm trying to focus on the fishing competition. Do you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "法戈没有持竿，而是专注操作着手中的遥控器。四架挂着钓竿的无人机悬停在她面前的海域上，正在默契地进行钓鱼作业。",
+			say = "Fargo wields a controller in lieu of a fishing rod, silently catching fish using four drones to her front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "法戈，你拿的……根本不是鱼竿吧？",
+			say = "...That's no fishing rod, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,8 +387,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "法戈",
-			say = "没错，这是法戈开发的新型钓鱼设备——通过同时操控多个无人机同时进行钓鱼工作，能够将个人效率提升至397.21%.",
+			actorName = "Fargo",
+			say = "Indeed it's not. This is new fishing equipment that I invented. It allows me to control several drones at once to catch fish. It can raise fishing efficiency by up to 397.21%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这已经完全超出钓鱼的范畴了。",
+			say = "I think that's beyond the scope of regular fishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过，钓鱼比赛允许使用无人机么？",
+			say = "Does the competition even allow you to use drones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "法戈",
-			say = "规则里并未提到禁止使用无人机，因此我判断比赛依旧是公平、公正的。",
+			actorName = "Fargo",
+			say = "The rules said nothing against it, so I concluded that it's still fair and just.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,8 +441,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "法戈",
-			say = "不过目前效率并不理想，与计划值偏差了21.36%，还在上升中。",
+			actorName = "Fargo",
+			say = "My current efficiency isn't so great, however. It's 21.36% below the anticipated value, and that number is getting larger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "无人机的旋翼风压似乎会干扰水面，让它们飞高一点试试？",
+			say = "The drones' rotors are disturbing the waters. Have you tried flying them a little higher?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,8 +468,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "法戈",
-			say = "嗯……判断完毕，这个提议很合理，我会采纳的。",
+			actorName = "Fargo",
+			say = "Hmm. A sound suggestion. I'll do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（感觉其他选手的压力增加了啊……）",
+			say = "(Now the pressure is piling on for the other competitors.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "还没走到{namecode:292:四万十}的赛区，就远远看到一条纸龙在海上翻腾，纸龙每次入水都能刺中一长串大鱼。",
+			say = "I haven't even made it to Shimanto's zone yet when I catch sight of her shikigami dragon out on the water, twisting and plunging, pulling up loads of large fish every time it surfaces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "而{namecode:292:四万十}本人果然也只是站在岸边施法，等纸龙身上挂满了鱼才让它回到身边，将鱼抖入桶里。",
+			say = "Shimanto herself is just controlling the shikigami from the shore. She waits until the dragon is laden with fish before recalling it to shake the catch into her bucket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,8 +534,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:292:四万十}",
-			say = "指挥官，你也是来参观钓鱼比赛的吗？",
+			actorName = "Shimanto",
+			say = "Here to watch the competition, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，让纸龙抓鱼的想法不错啊，按这个进度夺冠的几率会很大。",
+			say = "Yep. Pretty smart idea you had with shikigami. You'll nab first place if you keep this up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,8 +561,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:292:四万十}",
-			say = "唔……其实……这片水域的鱼好像快被抓完了，很奇怪……",
+			actorName = "Shimanto",
+			say = "Yeah, about that... There are almost no fish to be caught in this zone. It's weird.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（？……虽然有用渔网分开各处赛区，但海域深处还是互通的，不该出现这种情况。）",
+			say = "(Huh? I know they use nets to divide the fishing zones, but the fish should be able to pass under them. It shouldn't be possible for a zone to run out of fish.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg2",
 			hidePaintObj = true,
-			say = "朝码头尽头的水域望去，突然发现有一架无人机吊着什么，顺着{namecode:292:四万十}的水域边缘不断移动。",
+			say = "Looking out toward the water at the far end, I suddenly notice a drone dangling something beneath it, moving steadily along the border of Shimanto's area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（原来罪魁祸首是她啊……嗯……如此看来确实胜负未定呢。）",
+			say = "(That explains it. It's Fargo. Seems this match is nowhere near finished.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "几小时后，处在同一小组的四人已经决出了胜负，获得晋级权的选手就是——",
+			say = "A few hours later, a winner had emerged from the group of four. The person who advanced to the next stage was none other than...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就这么稀里糊涂地成为了晋级选手嘛……我还以为自己被分到了“死亡之组”呢。",
+			say = "I thought I'd be dead last, and yet, I advanced through some miraculous means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但没想到，{namecode:292:四万十}小姐在无人机干扰下，后半场几乎颗粒无收……",
+			say = "Shimanto did well in the first half, but caught nothing in the second due to one of Fargo's drones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就连帮助拉菲小姐的海鸥，也被无人机带来的薯条吸引走了……",
+			say = "Laffey's seagull helpers were carrying her well. That is, until a drone distracted them with some fries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于法戈小姐本人，则因为派出了两架无人机，效率大大降低……",
+			say = "As for Fargo herself, her efficiency fell off a cliff after she dispatched those two drones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我则因为你的建议而成功改进钓法，最终实现了惊天逆转。",
+			say = "Meanwhile, the advice you gave me allowed me to make a tremendous comeback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "综上所述，这场比赛，可以说是正统派的完全胜利呢。",
+			say = "I suppose you could say this is a blowout victory for old-school fishing by hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "就这样，寰昌成功晋级下一轮赛事！她将始终恪守本格钓鱼人的精神信条，在赛场上续写传奇——",
+			say = "And thus, Huan Ch'ang made it through to the next stage. Her code of honest fishing will carry her onward and allow her to make waves in the next competition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

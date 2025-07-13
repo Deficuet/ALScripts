@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>三　一起来偷懒吧！</size>",
+					"Slacking Off with the \"Good\" Girl\n\n<size=45>3.Loafing Around with Friends!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约好的偷懒时间到了哦～",
+			say = "Hello, hello! It's your scheduled slack-off time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "今天我把{namecode:468}也带过来了。听说能和指挥官偷懒，她可是非常高兴呢。",
+			say = "I brought Elbe with me this time. When she heard she'd get to hang out with you, she came running.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406020,
-			say = "没错！和指挥官偷懒，以及让指挥官完不成工作，我当然是不会放过这种做坏事的机会的！",
+			say = "Naturally! This isn't just a chance to hang out; it's an opportunity to waste the Commander's time and make work even harder. I wouldn't miss this for the world!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406020,
-			say = "就让我们一起变成坏孩子，肆意挥霍宝贵的时间吧！",
+			say = "Let's waste your valuable time together like the naughty people we are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以、真的没问题吗，占用指挥官工作时间什么的……",
+			say = "Or... So I say, but are you sure it's okay for me to take up the Commander's time, Jade?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧，不是“占用”，而是“借用”，指挥官自己也答应过的。",
+			say = "It's okay. You aren't taking up time; you're using it together to be lazy. The Commander understands and consents.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，今天的“偷懒计划”就稍微热闹一点，主题为——",
+			say = "As you can see, our slacking will be a little livelier than usual today. In other words...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "“三个人的抽鬼牌惩罚大会”！",
+			say = "Today, we're playing Old Maid with a punishment game on top!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "附加规则就是，第一个出完牌的人可以对最后一个出完牌的人提一个小小的惩罚。",
+			say = "The rules are simple. The first winner gets to choose a punishment for the loser to undergo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不可以太过分哦~",
+			say = "But keep it clean, okay? Nothing cruel or unusual!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就让我们开始吧～",
+			say = "Now, let's get it started!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不知不觉间，第一轮抽鬼牌已经进入了最终战。",
+			say = "Before long, our first round had reached the final battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，只要抽到{namecode:468}手上不是鬼牌的那张，这局游戏就是{namecode:468}的败北哦？",
+			say = "There are two routes at this point. If the Commander pulls something other than the Joker, then Elbe loses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不过没抽到的话就是指挥官的败北了~",
+			say = "But if the Commander pulls a Joker, then it'll be Elbe's turn... Of course, that could be fun in its own right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406020,
-			say = "哼，放马过来吧，你一定会抽到鬼牌的！",
+			say = "Bring it on, I say! I'll make sure you take the Joker!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "试探性地把手伸向右边的牌——",
+			say = "I tried reaching out for the card on the right to see what would happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406020,
-			say = "！！！",
+			say = "!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,18 +379,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "明显的不安啊……这下想不知道哪张是鬼牌都难了。",
+			say = "Elbe was clearly anxious. It'd be harder to not know which one was the Joker at this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "左边",
+					content = "(Go for the left card anyway.)",
 					flag = 1
 				},
 				{
-					content = "右边",
+					content = "(Pick the right card.)",
 					flag = 2
 				}
 			}
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "抽到的牌是——鬼牌。",
+			say = "As expected, I pulled the Joker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了！轮到{namecode:468}了！",
+			say = "Woohoo! Now it's my turn!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拜托了不是鬼牌——拜托了不是鬼牌——我抽！",
+			say = "Please no Joker, please no Joker... Anything but a Joker... Here goes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完美！这下{namecode:468}就不用接受惩罚了！",
+			say = "Yaaaay! Phew... Now I don't have to take the punishment...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵……指挥官对{namecode:468}真温柔啊。",
+			say = "Hahaha. You're too soft on Elbe, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据规则，输了的指挥官要接受第一个出完牌的我一个小小的惩罚……那就这样吧？",
+			say = "In accordance with the rules, you will now have to take a punishment of my choosing, since I was the first to win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要用可爱的声线，像小狗一样汪汪叫两声就好了哦。很简单吧？",
+			say = "I know... How about you bark like a cute puppy three times? Easy, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "这就是仁慈的代价么……愿赌服输。",
+			say = "(This is what I get for letting Elbe win. Well, rules are rules.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "照着{namecode:491}说的做了——",
+			say = "\"Woof, woof! Woof!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯，乖孩子乖孩子～摸摸头～",
+			say = "Aww, good doggy~ Here's a little scritch on the head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——这种程度就够了么？如果是我赢了，我一定会提一个更坏更难的惩罚！",
+			say = "Th-that's all? If I won, I'd have picked something that would really embarrass the Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不出所料，{namecode:468}输掉了这一局游戏。",
+			say = "As expected, Elbe lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎，怎么可能！你是怎么知道这张牌不是鬼牌的！",
+			say = "Wh-what?! How did you know?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼～{namecode:468}，愿赌服输哦？",
+			say = "Heheheh~ Elbe, just admit defeat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心，提出惩罚的是我，不会难为你的～",
+			say = "Don't worry. As a good girl, I won't make things TOO bad for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……",
+			say = "Urk...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "我想想……那就这样好了~",
+			say = "Now, for your punishment...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亲一下指挥官的左脸，很简单吧？",
+			say = "How about you kiss the Commander on the cheek? Easy, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,7 +748,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等等等一下！？你说什么！？",
+			say = "Wh-wh-wh-why that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行不行，我怎么能做这种事！太太太太羞耻了！！！",
+			say = "I-I-I could never do that! That's too embarrassing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，我只是想逗你一下，不会真的让你亲的。",
+			say = "Hahaha! I was just teasing you, but I didn't expect you to get so flustered... Out of deference to the Commander, I'll choose something else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就换一个？模仿猫叫——这个也很简单吧？",
+			say = "Hmm... Meow like a cat. That's an easy one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,7 +841,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是很羞耻！不过比刚刚的好一些……我、我做就是了！",
+			say = "Y-you bully... It's embarrassing, but that's at least better... I-I'll do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			actor = 406020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵、喵……",
+			say = "A-ahem. Meow, meow...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯，不错不错～",
+			say = "There you go! Well done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "继续第二轮游戏吧！要一直到偷懒时间结束为止～",
+			say = "Now, it's about time we get to round two.",
 			painting = {
 				alpha = 0.3,
 				time = 1

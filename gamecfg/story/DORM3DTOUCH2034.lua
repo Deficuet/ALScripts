@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……怎么了？{dorm3d}？",
+			say = "Mmh... {dorm3d}? What's the matter?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture2_tone1",
 			typewriter = {
 				speed = 0.05,

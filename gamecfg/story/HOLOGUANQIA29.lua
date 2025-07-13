@@ -11,11 +11,11 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「……模具」，「……情感」，「……暗示」</size>",
+					"<size=51>\"... Molds.\" \"... Emotions.\" \"... Intimations.\"</size>",
 					1
 				},
 				{
-					"<size=51>“然后是……”</size>",
+					"<size=51>And...</size>",
 					3
 				},
 				{
@@ -23,11 +23,11 @@ return {
 					4.5
 				},
 				{
-					"<size=51>「……伪物」，「……巨大」，「……门」</size> ",
+					"<size=51>\"... Falsehood.\" \"... Greatness.\" \"... Gates.\"</size> ",
 					6.5
 				},
 				{
-					"<size=51>“最后是……”</size>",
+					"<size=51>And finally...</size>",
 					8
 				}
 			}
@@ -75,8 +75,8 @@ return {
 			bgmDelay = 2,
 			bgm = "story-6",
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "呵呵，这样一来这群反叛军就没办法继续前进了。处理得十分得当，军师。",
+			actorName = "Tester?",
+			say = "And with this, the Resistance will have their hands tied behind their backs. Well done, Fubu– I mean, my \"Advisor.\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -113,10 +113,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "请放心，她们绝对破坏不了这道利用您的能量发生器制造的屏障。",
+			say = "Don't worry. Those fools have no way to break the barriers created by your energy generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,10 +130,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "不过，这些机械还是有些不听使唤啊。",
+			say = "However, this Mirror Sea's control unit has a tendency to disobey me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,10 +147,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "是因为权限验证还没通过么？",
+			say = "Is that because... full authorization has not been granted yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,10 +164,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "太奇怪了吧，明明我才是这片镜面海域的管理者，为什么权限认证始终通不过啊！",
+			say = "Look there. This device has not fully acknowledged me. Me, Tester, the manipulator of space and time! The one who rules these seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,10 +181,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
+			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
-			say = "请不要着急，一定是之前的实验事故导致了机械故障。随着启动越来越多的机械，最终权限一定会恢复正常的",
+			say = "This must be the result of a prior faulty experiment. If you activate more of its functions, surely authorization will be restored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,10 +198,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "说的也是，那外部防御就交给你了哦，军师。",
+			say = "Most likely. In that case, I will leave the defense of the perimeters to you, \"Advisor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			say = "波乱万丈迷宫作战结束后，面对任何手段都无法破坏，切割了海面的黑色光幕",
+			say = "After teaming up to defeat the fake Ookami Mio, Azur Lane and the Hololive members found themselves hindered again by some sort of barrier.",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			say = "夏色祭提出的解决方案是----",
+			say = "At that time, Hololive's Natsuiro Matsuri proposed a completely unprecedented strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们从地下绕过去就好了嘛！",
+			say = "We'll just go underneath it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭…那个，水下的方案路上已经让阿库娅潜下去试过了…",
+			say = "Huh? That's impossible! Aqua won't be able to go through the route that the other Mio told us about because of her submarine equipment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "水底绕行方案绝对行不通啦。这座屏障根！本！看不到底",
+			say = "There's no way we'll be able to get through the water! The barrier also extends underneath the surface, so it's a dead end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕屏障已经一直延伸到海床了哦",
+			say = "I wonder if this extends all the way to the bottom of the sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…所以说也许可以尝试从地下，而不是水下绕过去",
+			say = "That's why we're not going underwater. We're going to be going underground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么意思，祭？",
+			say = "Underground? Do you plan to dig a tunnel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等，难道说……不会吧……",
+			say = "Wait, what... No way... You're kidding, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅和诗音，脸色变了。",
+			say = "Aqua, Shion, what will you two do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 10500060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说…要利用那个一直挖到岩浆层的混沌大坟墓么？！",
+			say = "If you dig over there, you'll probably just end up in \"the cemetery\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "地下…大坟墓…？",
+			say = "The cemetery...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳…那是诗音的比喻啦，比喻！正式名称叫hololive之暗，就是一个设置有大量机关的秘密基地啦",
+			say = "Ahem! ... That's just how Shion describes it! Its actual name is \"Dark Hololive.\" It's a secret base filled with all sorts of traps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明是恐怖屋吧！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+			say = "But it's a haunted mansion!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（无视）",
+			say = "(Ignore)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…按照现在收集的情报来看，整个服务器应该是在变成镜面海域的时候整体巨大化了",
+			say = "... In any case, according to the new intel we've collected, the Mirror Sea built from \"Holoserver\" is much larger than the original.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~天空变得更高，大地变得更宽阔，同时出现了大片的海洋",
+			say = "That's right. The earth and the sky... This place is a lot bigger than the Holoserver we know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，虽然尺寸改变了，如果利用以前就位于海底之下的秘密基地，也许就能用里面的水道绕过屏障了，祭是这么想的",
+			say = "In other words, if we use the secret passageway that was originally located underneath the seabed, we should be able to pass through the barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,8 +549,8 @@ return {
 			bgName = "bg_story_holosaba1",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "原来如此，就算是测试怪人，也不会浪费能量把防护罩遮到岩浆层吧",
+			actorName = "Purity",
+			say = "Hmm, if it's the Tessy that I know... No, she wouldn't extend the barrier all the way into the lava.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来是当前状况下最有可行性的方案，有试一试的价值！",
+			say = "I suppose this is the best bet we have right now. It's worth a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			black = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来作战计划决定了呢，目标---hololive之暗！作战开始~",
+			say = "That settles it! Our objective is to get to Dark Hololive! Let's begin the operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔唔……看在Honey这么努力的份上，或许该给你一个奖励呢……",
+			say = "Mm... You're working so hard, it makes me want to reward you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

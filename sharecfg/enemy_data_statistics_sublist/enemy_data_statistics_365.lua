@@ -1,5 +1,80 @@
 pg = pg or {}
 pg.enemy_data_statistics_365 = {
+	[16735534] = {
+		cannon = 20,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		battle_unit_type = 55,
+		dodge = 11,
+		base = 90274,
+		durability_growth = 0,
+		antiaircraft = 28,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 25,
+		luck = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 27,
+		durability = 80,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 16735534,
+		equipment_list = {
+			1001119
+		}
+	},
+	[16736001] = {
+		cannon = 500,
+		battle_unit_type = 49,
+		hit_growth = 0,
+		speed_growth = 0,
+		pilot_ai_template_id = 70278,
+		air = 0,
+		luck = 0,
+		dodge = 0,
+		cannon_growth = 0,
+		fog_fx = "",
+		reload = 600,
+		reload_growth = 0,
+		dodge_growth = 0,
+		id = 16736001,
+		torpedo = 500,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		durability_growth = 0,
+		base = 91098,
+		durability = 100000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		speed = 20,
+		armor = 0,
+		antiaircraft = 100,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		scale = 100,
+		hp_bar = {
+			150,
+			2.8
+		},
+		equipment_list = {
+			90173,
+			680315
+		},
+		buff_list = {}
+	},
 	[16736002] = {
 		cannon = 250,
 		reload = 150,
@@ -936,7 +1011,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[16739101] = {
 		cannon = 250,
-		name = "净化者？",
+		name = "Purifier?",
 		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 20006,
@@ -1099,7 +1174,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[16739105] = {
 		cannon = 150,
-		name = "废案测试者？？型",
+		name = "Abandoned Tester Model?",
 		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 20006,
@@ -1147,7 +1222,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[16739106] = {
 		cannon = 150,
-		name = "废案测试者？？型",
+		name = "Abandoned Tester Model?",
 		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 20006,
@@ -1195,7 +1270,7 @@ pg.enemy_data_statistics_365 = {
 	},
 	[16739107] = {
 		cannon = 150,
-		name = "废案测试者？？型",
+		name = "Abandoned Tester Model?",
 		hit_growth = 0,
 		speed_growth = 0,
 		pilot_ai_template_id = 20006,
@@ -1239,129 +1314,6 @@ pg.enemy_data_statistics_365 = {
 				ID = 50500,
 				LV = 5
 			}
-		}
-	},
-	[16739108] = {
-		cannon = 300,
-		name = "废案测试者？？型",
-		hit_growth = 0,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 25,
-		dodge = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		reload = 150,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 200,
-		base = 90693,
-		durability = 120000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		durability_growth = 0,
-		antiaircraft = 200,
-		id = 16739108,
-		battle_unit_type = 95,
-		scale = 150,
-		bound_bone = {
-			cannon = {
-				{
-					-0.27,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.13,
-					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					3.87,
-					4.63,
-					0
-				}
-			},
-			plane = {
-				{
-					0.94,
-					4.3,
-					0
-				}
-			}
-		},
-		specific_fx_scale = {
-			heisewuqi_stg = 2
-		},
-		appear_fx = {
-			"heisewuqi_stg",
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
-	},
-	[16740001] = {
-		cannon = 5,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		battle_unit_type = 25,
-		dodge = 0,
-		base = 91103,
-		durability_growth = 4000,
-		antiaircraft = 25,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 800,
-		torpedo = 27,
-		durability = 105,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 16740001,
-		fog_fx = "",
-		antisub = 0,
-		scale = 200,
-		specific_fx_scale = {},
-		equipment_list = {
-			3289000,
-			3289005,
-			3289010
 		}
 	}
 }

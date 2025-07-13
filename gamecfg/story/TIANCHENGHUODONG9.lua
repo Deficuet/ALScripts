@@ -12,7 +12,7 @@ return {
 			side = 0,
 			bgm = "battle-boss-tiancheng",
 			dir = -1,
-			say = "“以包围迫近玉将”——你已经无路可退了。",
+			say = "The King draws closer as if engulfing you... You cannot escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			actor = 305070,
 			dir = 1,
-			say = "居然不知不觉地被包围了吗…原来之前的你一直都在隐藏实力…",
+			say = "And suddenly, I'm surrounded... So you've been hiding your talent for combat all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "兵不厌诈，这可是我从演习的第一天就开始筹备的计策呢~",
+			say = "\"All warfare is based on deception.\" I planned this before the wargames had even begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			actor = 305070,
 			dir = 1,
-			say = "最后还是输给了你一手…",
+			say = "Guh...! How is that humanly possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			actor = 305070,
 			dir = 1,
-			say = "在这样的炮火硝烟间还能保持如此冷静的思考与指挥，真是不愧“鬼谋”之名。",
+			say = "Even in the midst of gunfire and explosions you manage to stay calm and adjust your strategy and issue commands...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "好吧，输给这样的你，我心服口服。",
+			say = "I admit total defeat. Deal with me however you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "呵呵呵~那么，首先，叫一声{namecode:161}大人来听听吧？",
+			say = "Ahaha... Then could I ask you to start calling me \"Amagi-san\" from now on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "喂！你这家伙，可别得寸进尺啊！",
+			say = "You witch...! Stop being so full of yourself...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 		{
 			dir = -1,
 			side = 0,
-			say = "不过原本还在笑着戏弄{namecode:92}的{namecode:161}，表情突然又严肃了起来。",
+			say = "Their lighthearted conversation continued for a short while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不管怎么说，你在战斗时完全不顾周围一切的行动也太鲁莽了！",
+			say = "One thing has been on my mind. Your strategies involve throwing caution to the wind somewhat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "如果这次不是演习而是实战的话，{namecode:92}你现在可就…",
+			say = "Then what if today had not been a wargame, but a real battle...? Could you have actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

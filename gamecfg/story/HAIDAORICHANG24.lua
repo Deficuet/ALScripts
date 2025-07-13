@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>也许是宝物？</size>",
+					"Uncharted Summer\n\n<size=45>Treasure?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "无人岛遗迹·地下区域",
+			say = "Island Ruins - Underground Dungeon",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "道路蜿蜒曲折，在遗迹下方形成了一个向四面八方延伸的立体迷宫。",
+			say = "\"Countless serpentine corridors combine to form an enormous underground dungeon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "似乎在每一个拐角，每一个房间内都隐藏着机关与陷阱。",
+			say = "\"In every corner and every room are devious traps.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "隆隆的敲击声从遗迹的更深处传来，似乎预示着危险的存在。",
+			say = "\"The rumbling coming from the belly of the dungeon signals the existence of a menacing beast.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "每向下移动一层，距离死亡便更近了一分——",
+			say = "\"To press forward is to inch ever closer to certain death.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "————的情况均未出现。",
+			say = "Or so you'd think; nothing like that actually happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么说呢……感觉好普通。",
+			say = "Y'know... There's only one path here, and it's more boring than I expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像一个普通的地下走道一样……",
+			say = "We're just walking down a normal path...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但、但是也有机关哦！",
+			say = "B-but there were traps!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚我们不是都被吓到了好几次么！",
+			say = "They scared the heck out of us, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那也仅仅是被吓到而已嘛……甚至连衣服都没脏。",
+			say = "Yeah, they did, but that's all they did. They didn't even get our clothes dirty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种遗迹里真的会有宝物么……",
+			say = "Are we sure there's treasure in these ruins?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………不对。",
+			say = "Something's... off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们注意到了么……原本这里并不是只有一条路，只是所有的岔路都已经被堵死了。",
+			say = "Have you all noticed it? This wasn't originally a single corridor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似乎是什么人在我们之前清理过这片遗迹，让它变得安全了而已。",
+			say = "Someone may have dealt with all of the traps before we entered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？！有人赶在我们前面向着宝物进发了？！",
+			say = "So you're saying... Someone came in here before us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宝物……要被夺走了。",
+			say = "They're gonna steal the treasure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们加速前进！",
+			say = "Let's hurry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……呼…………这里就是遗迹的最深处了。",
+			say = "*pant*... *pant*... We made it to the end of the ruins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们看，前面出现了一座厚重的大门，宝物一定就在这后面！",
+			say = "There's a big door up ahead. If there's treasure, it must be in the room beyond.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等一下！我记得那个诗歌里是不是有提到过，宝物正由危险的海妖看守……",
+			say = "Hold on a second, Ayanami! Didn't Royal Fortune say there was a monster guarding the treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "危险的海妖……要准备战斗了。",
+			say = "The most dangerous sea monster... I'll fight, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是我们一路上都没遇到什么真正的危险哦？也许海妖一样是编出来吓唬人的。",
+			say = "But it hasn't felt like that so far, has it? What if it's just a lie meant to keep people away from the treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有道理……那就先研究一下怎么开这扇门好了。",
+			say = "That may be. Regardless, I'll try to figure out how to open this door...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "冒险小队的四人站在门前，观察着眼前的巨大门扉。",
+			say = "The four shipgirls approach the large door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,24 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301050,
-			side = 2,
-			bgName = "star_level_bg_500",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "从大门上没有看到钥匙孔，也没看见凹槽。",
+			say = "Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +499,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是在附近有其他机关，或者需要什么咒语……",
+			say = "I don't see a lock. No slot to fit anything into the door, either.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301050,
+			side = 2,
+			bgName = "star_level_bg_500",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Maybe it's the kind that opens through a nearby device or requires some special incantation...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我推——",
+			say = "Let's try giving it a nudge—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "伴随着巨石震动的声音，门缓缓打开了一条缝——",
+			say = "The door slowly opens a bit, rumbling loudly all the while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……门好像开了呢……",
+			say = "It opened...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？",
+			say = "Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸欸？这么普通就打开了么？！",
+			say = "It did?! Just from Laffey pushing it a little?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为……门，没有上锁……",
+			say = "Yeah. It's not locked...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这难道就是极密的奥义——“空城计”？！",
+			say = "Ah! Could this be the Empty Fort Strategy, 32nd of the 36 Stratagems?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不简单，居然能骗过我的眼睛。",
+			say = "What an incredible stratagem. It had us fooled!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,9 +682,9 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "遗迹的最终Boss",
+			actorName = "Final Boss of the Ruins",
 			side = 2,
-			say = "各位勇者们，不简单啊，居然能走到这一步——",
+			say = "Ahoy, heroes! Ye did well to make it this far!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,12 +698,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			actorName = "遗迹的最终Boss",
+			actorName = "Final Boss of the Ruins",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经在这里恭候多时了！",
+			say = "I've been waiting for ye here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？你就是这座遗迹的最终Boss，守护财宝的海妖么？",
+			say = "Hm? YOU'RE the final boss of this dungeon, the sea monster who protects the pirates' treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哈？",
+			say = "Um...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,12 +761,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			actorName = "遗迹的最终Boss",
+			actorName = "Final Boss of the Ruins",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼，没错！我就是这座遗迹的最终Boss，守护财宝的海妖！",
+			say = "Hahahah, that'd be me! Final boss, sea monster, and all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不不……",
+			say = "No, you're clearly—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然是海妖那就没办法了……大家准备战斗，消灭她。",
+			say = "If she's a monster, then we have no choice... Everyone, get ready to fight. We're taking her down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,12 +824,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			actorName = "遗迹的最终Boss",
+			actorName = "Final Boss of the Ruins",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等！千辛万苦来到此地的勇者哟，我投降！财宝是你们的了！",
+			say = "Avast! Ye heroes who have conquered the ruins, I yield! The treasure be yours, as long as ye spare me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊？",
+			say = "...Hwuh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢……海妖小姐。",
+			say = "Thank you, sea monster.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等等等！那怎么看都是皇家财富小姐吧！",
+			say = "Again, you're clearly just Royal Fortune! Anyone can tell!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有指挥官，为什么你也在这里啊……！",
+			say = "And Commander! Why are you here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "其实——————",
+			say = "\"Well, the thing is...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是指挥官……居然能领先我们一步……",
+			say = "I'm impressed. You're always one step ahead, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皇家财富小姐，你偷跑！",
+			say = "Hey... This is just cheating, isn't it, Royal Fortune?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1028,7 +1028,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本来还想帮指挥官排除威胁的……一路上的危险都是你们提前处理的么？",
+			say = "Here I was planning to disable the traps before the Commander came in... Oh! Are you actually the ones who dealt with the other traps?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,7 +1043,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "一路上的危险是……？",
+			say = "\"What other traps?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "咳咳咳！细节就不用在意了嘛~",
+			say = "Ah-ah-ah! Forget all that small stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "而且你们看，这里的宝物可是货真价实的哦~",
+			say = "The treasure you're after is right here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1102,7 +1102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢……噢噢————",
+			say = "Ooh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有水晶，有宝石……还有金矿石？！",
+			say = "Crystals, jewels... Even gold?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1136,7 +1136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，咱们发财了！",
+			say = "Whoa! This all looks really valuable, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "其实倒也没那么夸张……相比洞窟中的矿石，眼前少女们的笑容才是更有价值的宝物。",
+			say = "(The treasure might fetch a high price, but to me, the girls' smiles and fun are much more valuable treasures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "哇哦~很懂嘛，指挥官~",
+			say = "Heheh. You get it, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "你的心声没漏出来哦？只是我读你的表情读懂了~",
+			say = "I'm not reading your mind. It's written all over your face!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1210,7 +1210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "把这些都打包装好————我们就可以回去了。",
+			say = "Heave-ho... Once we've got it all packed up, let's go back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1227,7 +1227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……冒险结束，该回冒险公会美餐一顿了。",
+			say = "Phew... This marks the end of our adventure. I'm going back to the guild's bar to celebrate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1244,7 +1244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲也……有些困了。",
+			say = "I'm not sleepy... Not one bit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1261,7 +1261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么大家收拾一下，我们就返回地面吧~",
+			say = "Right... Let's collect our spoils and get back to the surface~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1278,7 +1278,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "正当与其他四人拉开了一点距离时，皇家财富突然从身后凑了过来。",
+			say = "When I'm not close to the four adventurers, Royal Fortune suddenly approaches me from behind.",
 			bgm = "theme-tempest",
 			typewriter = {
 				speed = 0.05,
@@ -1307,7 +1307,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "她塞过来一个点缀有宝石的黄金罗盘，然后用微不可查的声音说道——",
+			say = "She hands me a golden compass adorned with a single jewel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1320,7 +1320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个罗盘是遗迹中真正的宝物，也是通过试炼的证明。",
+			say = "This compass is the real treasure. You get it for overcoming the trial of the ruins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1338,7 +1338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "哼哼~虽然试炼中危险的部分已经被我全部搞定了。",
+			say = "Heheh, though I'm the one who handled the trial!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1356,7 +1356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "千万保管好哦，以后一定会用得上的~",
+			say = "Either way, it'll help you out someday. Keep it safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1373,7 +1373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，我们也快追上去吧——",
+			say = "Anyway, we'll be right behind you before long~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1388,7 +1388,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "就在还想问些什么的时候，她已如风一般，消失在远方的拐角了——",
+			say = "I try to ask her what she means, but before I know it, she's disappeared... like usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

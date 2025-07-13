@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "帮助进行了塞壬能源矩阵测试，任务完成！",
+			say = "You’ve successfully completed the Energy Matrix experiment. Mission complete!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

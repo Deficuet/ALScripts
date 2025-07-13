@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"Inside the Naraka Singularity",
 					1
 				},
 				{
-					"世界切片·「苍红」",
+					"World Segment",
 					2
 				},
 				{
-					"冲突海域",
+					"Engagement Zone",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "与{namecode:161:天城}一行人赶到集合点时，{namecode:38:川内}等人也刚勉强摆脱敌人的追击而来。",
+			say = "I arrive at the rendezvous point with the Sakurans in tow. We cross paths with Sendai's unit, who just shook off their attackers.",
 			bgm = "theme-akagi-inside",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，{namecode:161:天城}大人……敌人的火力十分凶猛，我们完全没有招架之力。",
+			say = "Sorry, Amagi. I underestimated their firepower and couldn't do anything to 'em...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "此处海域，本就不应当有敌人出现才是。你们能平安回来就是最好的了。",
+			say = "What matters is that you're all alright. They caught you by surprise – there shouldn't be any enemies here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……多谢{namecode:161:天城}大人。请问……与您一同前来的几位是？",
+			say = "Thanks for the kind words. So, who are these people?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "客人——兼可靠的援军哦。",
+			say = "Our guests and our reliable reinforcements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……诸位的装备与{namecode:89:凤翔}大人有些相似，难道是……",
+			say = "You've got carrier gear like what Houshou's got... Are you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "不错，{namecode:96:瑞鹤}和{namecode:179:龙凤}，这两位可靠的后辈都是航空母舰。",
+			say = "Yes. I'm a carrier, much like Zuikaku and Ryuuhou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是可恶，不过是些孱弱的无形之息，竟然敢欺负到我们头上来！",
+			say = "I'm shocked that the corrosion has even made it into Amagi's world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}、{namecode:179:龙凤}，接下来随我一同进攻，在此展现一下重樱航空舰队的力量！",
+			say = "Zuikaku, Ryuuhou, show them what our carrier fleet is capable of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +151,12 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_canghongzhiyan_3",
-			actorName = "{namecode:96:瑞鹤}&{namecode:179:龙凤}",
+			actorName = "Zuikaku & Ryuuhou",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命。\n遵命！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:38:川内}，你和受伤较重的人在后方休整，无需参战。",
+			say = "Sendai, take the severely injured and bring them to the rear. They're not fit for this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "护航舰队改由{namecode:39:神通}带领，战斗中注意不要距离我们太远，时刻警惕来自天空和水下的威胁。",
+			say = "Jintsuu, you'll lead the escort fleet. Don't stray too far and be aware of threats both above and below the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92:加贺}，你也一起来。不过……呵呵，我感觉这些乌合之众不可能活着冲过来就是了。",
+			say = "Kaga, you're coming with me. I'm not letting any of those things near you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "至于碧蓝航线的指挥官——既然你说要来帮忙，那也别闲着，和你的人一起来护航吧。",
+			say = "Finally, have the girls of the other factions link up with the escort fleet. Does that sound good, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……又变脸了。",
+			say = "She's completely back to her old self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！{namecode:91:赤城}，别忘了这次行动的指挥官是——",
+			say = "Should she really be issuing orders, though? This is YOUR fleet, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "算了，孟菲斯，重樱海域的情况确实是她更熟悉。",
+			say = "It's fine. Real or not, these are Sakuran waters, and Akagi is more familiar with them than I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}，这场战斗的指挥就由你来进行。",
+			say = "She can be in charge of this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "哼，正确的判断。",
+			say = "Oh, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……啊？",
+			say = "She's leading us? That needy woman?",
 			bgm = "theme-amagi-cv",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……{namecode:161:天城}大人……这？",
+			say = "Crap... Sorry, Amagi. Body moved faster than my brain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啊………………",
+			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，姐姐……我、我不是有意要……",
+			say = "Forgive me, sister... I'm no good at this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "呵呵，这不是很好的布置么？",
+			say = "No, you're doing great. This is a spectacular formation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……姐姐？",
+			say = "Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "诸位，这场战斗就交由{namecode:91:赤城}全权指挥。",
+			say = "Remember the Commander's words. You're in charge of this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:91:赤城}，今天机会难得，也让我见识一下后世的航空战战法如何？",
+			say = "It's your time to shine now. Show us how the carriers of the future fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……遵命，姐姐！",
+			say = "Okay! I will!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "诸位，随我迎战！",
+			say = "Get ready, everyone! The fight starts now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

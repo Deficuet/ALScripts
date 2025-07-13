@@ -2,11 +2,11 @@ pg = pg or {}
 pg.child_site_option = {
 	[1102] = {
 		replace = 0,
-		name = "好味餐厅",
+		name = "Diner",
 		id = 1102,
 		type = 3,
 		label = "",
-		desc = "每一种口味都是对食材的独特表达，愿为你的味蕾献上美好。",
+		desc = "Our every flavor is a culinary expression. Spoil your tastebuds.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -22,7 +22,7 @@ pg.child_site_option = {
 	},
 	[1103] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1103,
 		type = 2,
 		label = "",
@@ -75,7 +75,7 @@ pg.child_site_option = {
 	},
 	[11032] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 11032,
 		type = 2,
 		label = "",
@@ -128,7 +128,7 @@ pg.child_site_option = {
 	},
 	[11033] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 11033,
 		type = 2,
 		label = "",
@@ -181,7 +181,7 @@ pg.child_site_option = {
 	},
 	[1104] = {
 		replace = 0,
-		name = "试吃活动",
+		name = "Gastronomy District Food Fiesta",
 		id = 1104,
 		type = 2,
 		label = "",
@@ -225,7 +225,7 @@ pg.child_site_option = {
 	},
 	[1105] = {
 		replace = 0,
-		name = "厨神大赛",
+		name = "A cooking competition",
 		id = 1105,
 		type = 2,
 		label = "",
@@ -271,7 +271,7 @@ pg.child_site_option = {
 	},
 	[1106] = {
 		replace = 0,
-		name = "厨神大赛",
+		name = "A cooking competition",
 		id = 1106,
 		type = 2,
 		label = "",
@@ -317,7 +317,7 @@ pg.child_site_option = {
 	},
 	[1107] = {
 		replace = 0,
-		name = "厨神大赛",
+		name = "A cooking competition",
 		id = 1107,
 		type = 2,
 		label = "",
@@ -363,7 +363,7 @@ pg.child_site_option = {
 	},
 	[1108] = {
 		replace = 0,
-		name = "试吃活动",
+		name = "Gastronomy District Food Fiesta",
 		id = 1108,
 		type = 2,
 		label = "",
@@ -407,7 +407,7 @@ pg.child_site_option = {
 	},
 	[1109] = {
 		replace = 0,
-		name = "试吃活动",
+		name = "Gastronomy District Food Fiesta",
 		id = 1109,
 		type = 2,
 		label = "",
@@ -451,7 +451,7 @@ pg.child_site_option = {
 	},
 	[1110] = {
 		replace = 0,
-		name = "试吃活动",
+		name = "Gastronomy District Food Fiesta",
 		id = 1110,
 		type = 2,
 		label = "",
@@ -495,7 +495,7 @@ pg.child_site_option = {
 	},
 	[1111] = {
 		replace = 0,
-		name = "用餐",
+		name = "Order",
 		id = 1111,
 		type = 1,
 		label = "",
@@ -524,7 +524,7 @@ pg.child_site_option = {
 	},
 	[11112] = {
 		replace = 0,
-		name = "用餐",
+		name = "Order",
 		id = 11112,
 		type = 1,
 		label = "",
@@ -553,7 +553,7 @@ pg.child_site_option = {
 	},
 	[11113] = {
 		replace = 0,
-		name = "用餐",
+		name = "Order",
 		id = 11113,
 		type = 1,
 		label = "",
@@ -582,7 +582,7 @@ pg.child_site_option = {
 	},
 	[1112] = {
 		replace = 0,
-		name = "打工",
+		name = "Work",
 		id = 1112,
 		type = 2,
 		label = "",
@@ -631,7 +631,7 @@ pg.child_site_option = {
 	},
 	[11122] = {
 		replace = 0,
-		name = "打工",
+		name = "Work",
 		id = 11122,
 		type = 2,
 		label = "",
@@ -680,7 +680,7 @@ pg.child_site_option = {
 	},
 	[11123] = {
 		replace = 0,
-		name = "打工",
+		name = "Work",
 		id = 11123,
 		type = 2,
 		label = "",
@@ -729,11 +729,11 @@ pg.child_site_option = {
 	},
 	[1201] = {
 		replace = 0,
-		name = "五金商店",
+		name = "Hardware Store",
 		id = 1201,
 		type = 1,
 		label = "",
-		desc = "五金渔具应有尽有。",
+		desc = "From fishing tackles to woodworking tools, it's all here.",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -783,11 +783,11 @@ pg.child_site_option = {
 	},
 	[1203] = {
 		replace = 0,
-		name = "静谧之峰",
+		name = "Tranquil Summit",
 		id = 1203,
 		type = 3,
 		label = "",
-		desc = "寻找内心宁静的绝佳去处，据说山上还有一座非常灵验的神庙哦。",
+		desc = "A sublime place to wind down.",
 		is_limit = 0,
 		icon = "",
 		order = 5,
@@ -803,7 +803,7 @@ pg.child_site_option = {
 	},
 	[1204] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1204,
 		type = 2,
 		label = "",
@@ -855,7 +855,7 @@ pg.child_site_option = {
 	},
 	[12042] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 12042,
 		type = 2,
 		label = "",
@@ -907,7 +907,7 @@ pg.child_site_option = {
 	},
 	[12043] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 12043,
 		type = 2,
 		label = "",
@@ -959,7 +959,7 @@ pg.child_site_option = {
 	},
 	[1205] = {
 		replace = 0,
-		name = "第一届钓鱼达人赛",
+		name = "The 1st Angling Competition",
 		id = 1205,
 		type = 2,
 		label = "",
@@ -1005,7 +1005,7 @@ pg.child_site_option = {
 	},
 	[1206] = {
 		replace = 0,
-		name = "第二届钓鱼达人赛",
+		name = "The 2nd Angling Competition",
 		id = 1206,
 		type = 2,
 		label = "",
@@ -1051,7 +1051,7 @@ pg.child_site_option = {
 	},
 	[1207] = {
 		replace = 0,
-		name = "第三届钓鱼达人赛",
+		name = "The 3rd Angling Competition",
 		id = 1207,
 		type = 2,
 		label = "",
@@ -1097,7 +1097,7 @@ pg.child_site_option = {
 	},
 	[1211] = {
 		replace = 0,
-		name = "去写生",
+		name = "Sketch",
 		id = 1211,
 		type = 2,
 		label = "",
@@ -1148,7 +1148,7 @@ pg.child_site_option = {
 	},
 	[12112] = {
 		replace = 0,
-		name = "去写生",
+		name = "Sketch",
 		id = 12112,
 		type = 2,
 		label = "",
@@ -1199,7 +1199,7 @@ pg.child_site_option = {
 	},
 	[12113] = {
 		replace = 0,
-		name = "去写生",
+		name = "Sketch",
 		id = 12113,
 		type = 2,
 		label = "",
@@ -1250,7 +1250,7 @@ pg.child_site_option = {
 	},
 	[1212] = {
 		replace = 0,
-		name = "去露营",
+		name = "Go Camping",
 		id = 1212,
 		type = 2,
 		label = "",
@@ -1294,7 +1294,7 @@ pg.child_site_option = {
 	},
 	[12122] = {
 		replace = 0,
-		name = "去露营",
+		name = "Go Camping",
 		id = 12122,
 		type = 2,
 		label = "",
@@ -1338,7 +1338,7 @@ pg.child_site_option = {
 	},
 	[12123] = {
 		replace = 0,
-		name = "去露营",
+		name = "Go Camping",
 		id = 12123,
 		type = 2,
 		label = "",
@@ -1382,7 +1382,7 @@ pg.child_site_option = {
 	},
 	[1213] = {
 		replace = 0,
-		name = "去钓鱼",
+		name = "Go Fishing",
 		id = 1213,
 		type = 2,
 		label = "",
@@ -1431,7 +1431,7 @@ pg.child_site_option = {
 	},
 	[12132] = {
 		replace = 0,
-		name = "去钓鱼",
+		name = "Go Fishing",
 		id = 12132,
 		type = 2,
 		label = "",
@@ -1480,7 +1480,7 @@ pg.child_site_option = {
 	},
 	[12133] = {
 		replace = 0,
-		name = "去钓鱼",
+		name = "Go Fishing",
 		id = 12133,
 		type = 2,
 		label = "",
@@ -1529,11 +1529,11 @@ pg.child_site_option = {
 	},
 	[1302] = {
 		replace = 0,
-		name = "潮流市集",
+		name = "Trendy Market",
 		id = 1302,
 		type = 1,
 		label = "",
-		desc = "不管是书籍还是乐器，都能在这里找到。",
+		desc = "Everything you could want, from the hottest books to the latest instruments.",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -1558,11 +1558,11 @@ pg.child_site_option = {
 	},
 	[13022] = {
 		replace = 0,
-		name = "潮流市集",
+		name = "Trendy Market",
 		id = 13022,
 		type = 1,
 		label = "",
-		desc = "不管是书籍还是乐器，都能在这里找到。",
+		desc = "Everything you could want, from the hottest books to the latest instruments.",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -1587,11 +1587,11 @@ pg.child_site_option = {
 	},
 	[13023] = {
 		replace = 0,
-		name = "潮流市集",
+		name = "Trendy Market",
 		id = 13023,
 		type = 1,
 		label = "",
-		desc = "不管是书籍还是乐器，都能在这里找到。",
+		desc = "Everything you could want, from the hottest books to the latest instruments.",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -1616,11 +1616,11 @@ pg.child_site_option = {
 	},
 	[1303] = {
 		replace = 0,
-		name = "影像工作室",
+		name = "Photo Studio",
 		id = 1303,
 		type = 3,
 		label = "",
-		desc = "捕捉瞬间的美，让每一帧都成为永恒的记忆。",
+		desc = "Capture and immortalize those beautiful moments in time.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -1636,7 +1636,7 @@ pg.child_site_option = {
 	},
 	[1304] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1304,
 		type = 2,
 		label = "",
@@ -1688,7 +1688,7 @@ pg.child_site_option = {
 	},
 	[13042] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 13042,
 		type = 2,
 		label = "",
@@ -1740,7 +1740,7 @@ pg.child_site_option = {
 	},
 	[13043] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 13043,
 		type = 2,
 		label = "",
@@ -1792,7 +1792,7 @@ pg.child_site_option = {
 	},
 	[1305] = {
 		replace = 0,
-		name = "第一届摄影大赛",
+		name = "The 1st Photography Contest",
 		id = 1305,
 		type = 2,
 		label = "",
@@ -1838,7 +1838,7 @@ pg.child_site_option = {
 	},
 	[1306] = {
 		replace = 0,
-		name = "商业街乐队表演",
+		name = "Commercial Area Street Performance",
 		id = 1306,
 		type = 2,
 		label = "",
@@ -1887,7 +1887,7 @@ pg.child_site_option = {
 	},
 	[1307] = {
 		replace = 0,
-		name = "第二届摄影大赛",
+		name = "The 2nd Photography Contest",
 		id = 1307,
 		type = 2,
 		label = "",
@@ -1933,7 +1933,7 @@ pg.child_site_option = {
 	},
 	[1308] = {
 		replace = 0,
-		name = "第三届摄影大赛",
+		name = "The 3rd Photography Contest",
 		id = 1308,
 		type = 2,
 		label = "",
@@ -1979,7 +1979,7 @@ pg.child_site_option = {
 	},
 	[1309] = {
 		replace = 0,
-		name = "商业街乐队表演",
+		name = "Commercial Area Street Performance",
 		id = 1309,
 		type = 2,
 		label = "",
@@ -2028,7 +2028,7 @@ pg.child_site_option = {
 	},
 	[1310] = {
 		replace = 0,
-		name = "商业街乐队表演",
+		name = "Commercial Area Street Performance",
 		id = 1310,
 		type = 2,
 		label = "",
@@ -2077,7 +2077,7 @@ pg.child_site_option = {
 	},
 	[1321] = {
 		replace = 0,
-		name = "商业街乐队表演",
+		name = "Commercial Area Street Performance",
 		id = 1321,
 		type = 2,
 		label = "",
@@ -2126,7 +2126,7 @@ pg.child_site_option = {
 	},
 	[1311] = {
 		replace = 0,
-		name = "日常生活的照片",
+		name = "Everyday Life Photo",
 		id = 1311,
 		type = 2,
 		label = "",
@@ -2180,7 +2180,7 @@ pg.child_site_option = {
 	},
 	[1312] = {
 		replace = 0,
-		name = "记录运动的照片",
+		name = "Sports Photo",
 		id = 1312,
 		type = 2,
 		label = "",
@@ -2234,7 +2234,7 @@ pg.child_site_option = {
 	},
 	[1313] = {
 		replace = 0,
-		name = "更突显自己的照片",
+		name = "TB in the Spotlight Photo",
 		id = 1313,
 		type = 2,
 		label = "",
@@ -2288,7 +2288,7 @@ pg.child_site_option = {
 	},
 	[1314] = {
 		replace = 0,
-		name = "记录青春的照片",
+		name = "Youth Life Photo",
 		id = 1314,
 		type = 2,
 		label = "",
@@ -2337,7 +2337,7 @@ pg.child_site_option = {
 	},
 	[1315] = {
 		replace = 0,
-		name = "甜品店主题写真",
+		name = "Pastry Shop-Themed Photo",
 		id = 1315,
 		type = 2,
 		label = "",
@@ -2386,7 +2386,7 @@ pg.child_site_option = {
 	},
 	[1316] = {
 		replace = 0,
-		name = "樱花主题写真",
+		name = "Cherry Blossom-Themed Photo",
 		id = 1316,
 		type = 2,
 		label = "",
@@ -2435,7 +2435,7 @@ pg.child_site_option = {
 	},
 	[1317] = {
 		replace = 0,
-		name = "古堡主题写真",
+		name = "Old Castle-Themed Photo",
 		id = 1317,
 		type = 2,
 		label = "",
@@ -2484,7 +2484,7 @@ pg.child_site_option = {
 	},
 	[1318] = {
 		replace = 0,
-		name = "度假主题写真",
+		name = "Vacation-Themed Photo",
 		id = 1318,
 		type = 2,
 		label = "",
@@ -2533,7 +2533,7 @@ pg.child_site_option = {
 	},
 	[1319] = {
 		replace = 0,
-		name = "学校主题写真",
+		name = "School-Themed Photo",
 		id = 1319,
 		type = 2,
 		label = "",
@@ -2582,7 +2582,7 @@ pg.child_site_option = {
 	},
 	[1320] = {
 		replace = 0,
-		name = "东方主题写真",
+		name = "Eastern-Themed Photo",
 		id = 1320,
 		type = 2,
 		label = "",
@@ -2631,7 +2631,7 @@ pg.child_site_option = {
 	},
 	[13112] = {
 		replace = 0,
-		name = "日常生活的照片",
+		name = "Everyday Life Photo",
 		id = 13112,
 		type = 2,
 		label = "",
@@ -2685,7 +2685,7 @@ pg.child_site_option = {
 	},
 	[13122] = {
 		replace = 0,
-		name = "记录运动的照片",
+		name = "Sports Photo",
 		id = 13122,
 		type = 2,
 		label = "",
@@ -2739,7 +2739,7 @@ pg.child_site_option = {
 	},
 	[13132] = {
 		replace = 0,
-		name = "更突显自己的照片",
+		name = "TB in the Spotlight Photo",
 		id = 13132,
 		type = 2,
 		label = "",
@@ -2793,7 +2793,7 @@ pg.child_site_option = {
 	},
 	[13142] = {
 		replace = 0,
-		name = "记录青春的照片",
+		name = "Youth Life Photo",
 		id = 13142,
 		type = 2,
 		label = "",
@@ -2842,7 +2842,7 @@ pg.child_site_option = {
 	},
 	[13152] = {
 		replace = 0,
-		name = "甜品店主题写真",
+		name = "Pastry Shop-Themed Photo",
 		id = 13152,
 		type = 2,
 		label = "",
@@ -2891,7 +2891,7 @@ pg.child_site_option = {
 	},
 	[13162] = {
 		replace = 0,
-		name = "樱花主题写真",
+		name = "Cherry Blossom-Themed Photo",
 		id = 13162,
 		type = 2,
 		label = "",
@@ -2940,7 +2940,7 @@ pg.child_site_option = {
 	},
 	[13172] = {
 		replace = 0,
-		name = "古堡主题写真",
+		name = "Old Castle-Themed Photo",
 		id = 13172,
 		type = 2,
 		label = "",
@@ -2989,7 +2989,7 @@ pg.child_site_option = {
 	},
 	[13182] = {
 		replace = 0,
-		name = "度假主题写真",
+		name = "Vacation-Themed Photo",
 		id = 13182,
 		type = 2,
 		label = "",
@@ -3038,7 +3038,7 @@ pg.child_site_option = {
 	},
 	[13192] = {
 		replace = 0,
-		name = "学校主题写真",
+		name = "School-Themed Photo",
 		id = 13192,
 		type = 2,
 		label = "",
@@ -3087,7 +3087,7 @@ pg.child_site_option = {
 	},
 	[13202] = {
 		replace = 0,
-		name = "东方主题写真",
+		name = "Eastern-Themed Photo",
 		id = 13202,
 		type = 2,
 		label = "",
@@ -3136,7 +3136,7 @@ pg.child_site_option = {
 	},
 	[1401] = {
 		replace = 0,
-		name = "漫海商坊",
+		name = "Souvenir Shop",
 		id = 1401,
 		type = 1,
 		label = "",
@@ -3165,11 +3165,11 @@ pg.child_site_option = {
 	},
 	[1402] = {
 		replace = 0,
-		name = "星光舞台",
+		name = "Stellar Stage",
 		id = 1402,
 		type = 3,
 		label = "",
-		desc = "每一场演出都是一次沉浸之旅。",
+		desc = "Every performance is a chance to immerse yourself in another world.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -3185,7 +3185,7 @@ pg.child_site_option = {
 	},
 	[1403] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1403,
 		type = 2,
 		label = "",
@@ -3236,7 +3236,7 @@ pg.child_site_option = {
 	},
 	[14032] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 14032,
 		type = 2,
 		label = "",
@@ -3287,7 +3287,7 @@ pg.child_site_option = {
 	},
 	[14033] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 14033,
 		type = 2,
 		label = "",
@@ -3338,7 +3338,7 @@ pg.child_site_option = {
 	},
 	[1404] = {
 		replace = 0,
-		name = "第一届明日之星",
+		name = "The 1st Star of Tomorrow Awards",
 		id = 1404,
 		type = 2,
 		label = "",
@@ -3384,7 +3384,7 @@ pg.child_site_option = {
 	},
 	[1405] = {
 		replace = 0,
-		name = "第二届明日之星",
+		name = "The 2nd Star of Tomorrow Awards",
 		id = 1405,
 		type = 2,
 		label = "",
@@ -3430,7 +3430,7 @@ pg.child_site_option = {
 	},
 	[1406] = {
 		replace = 0,
-		name = "第三届明日之星",
+		name = "The 3rd Star of Tomorrow Awards",
 		id = 1406,
 		type = 2,
 		label = "",
@@ -3476,7 +3476,7 @@ pg.child_site_option = {
 	},
 	[1411] = {
 		replace = 0,
-		name = "《爱情与责任》",
+		name = "Love and Duty",
 		id = 1411,
 		type = 2,
 		label = "",
@@ -3535,7 +3535,7 @@ pg.child_site_option = {
 	},
 	[1412] = {
 		replace = 0,
-		name = "《一千个答案》",
+		name = "A Thousand Answers",
 		id = 1412,
 		type = 2,
 		label = "",
@@ -3594,7 +3594,7 @@ pg.child_site_option = {
 	},
 	[1413] = {
 		replace = 0,
-		name = "《偷一块面包》",
+		name = "A Stolen Loaf of Bread",
 		id = 1413,
 		type = 2,
 		label = "",
@@ -3653,7 +3653,7 @@ pg.child_site_option = {
 	},
 	[1414] = {
 		replace = 0,
-		name = "《度假村、迷案与妖怪剧团！》",
+		name = "Spirited Away, featuring the Youkai Troupe",
 		id = 1414,
 		type = 2,
 		label = "",
@@ -3707,7 +3707,7 @@ pg.child_site_option = {
 	},
 	[1415] = {
 		replace = 0,
-		name = "《落樱时节》",
+		name = "When the Cherry Blossoms Bloom",
 		id = 1415,
 		type = 2,
 		label = "",
@@ -3761,7 +3761,7 @@ pg.child_site_option = {
 	},
 	[1416] = {
 		replace = 0,
-		name = "《雨夜惊魂》",
+		name = "A Bump in the Rainy Night",
 		id = 1416,
 		type = 2,
 		label = "",
@@ -3815,7 +3815,7 @@ pg.child_site_option = {
 	},
 	[1417] = {
 		replace = 0,
-		name = "《下课后的奇妙历险》",
+		name = "Amazing After-Class Adventures",
 		id = 1417,
 		type = 2,
 		label = "",
@@ -3869,7 +3869,7 @@ pg.child_site_option = {
 	},
 	[1418] = {
 		replace = 0,
-		name = "《海盗的秘密工坊》",
+		name = "The Pirate's Secret Shipyard",
 		id = 1418,
 		type = 2,
 		label = "",
@@ -3923,7 +3923,7 @@ pg.child_site_option = {
 	},
 	[1419] = {
 		replace = 0,
-		name = "《夏日的小小作战》",
+		name = "The Smallest Summer Plan",
 		id = 1419,
 		type = 2,
 		label = "",
@@ -3977,7 +3977,7 @@ pg.child_site_option = {
 	},
 	[1420] = {
 		replace = 0,
-		name = "《飨宴的秘密》",
+		name = "Feast of Blood",
 		id = 1420,
 		type = 2,
 		label = "",
@@ -4031,7 +4031,7 @@ pg.child_site_option = {
 	},
 	[14112] = {
 		replace = 0,
-		name = "《爱情与责任》",
+		name = "Love and Duty",
 		id = 14112,
 		type = 2,
 		label = "",
@@ -4085,7 +4085,7 @@ pg.child_site_option = {
 	},
 	[14122] = {
 		replace = 0,
-		name = "《一千个答案》",
+		name = "A Thousand Answers",
 		id = 14122,
 		type = 2,
 		label = "",
@@ -4139,7 +4139,7 @@ pg.child_site_option = {
 	},
 	[14132] = {
 		replace = 0,
-		name = "《偷一块面包》",
+		name = "A Thousand Answers",
 		id = 14132,
 		type = 2,
 		label = "",
@@ -4193,7 +4193,7 @@ pg.child_site_option = {
 	},
 	[14142] = {
 		replace = 0,
-		name = "《度假村、迷案与妖怪剧团！》",
+		name = "Spirited Away, featuring the Youkai Troupe",
 		id = 14142,
 		type = 2,
 		label = "",
@@ -4247,7 +4247,7 @@ pg.child_site_option = {
 	},
 	[14152] = {
 		replace = 0,
-		name = "《落樱时节》",
+		name = "When the Cherry Blossoms Bloom",
 		id = 14152,
 		type = 2,
 		label = "",
@@ -4301,7 +4301,7 @@ pg.child_site_option = {
 	},
 	[14162] = {
 		replace = 0,
-		name = "《雨夜惊魂》",
+		name = "A Bump in the Rainy Night",
 		id = 14162,
 		type = 2,
 		label = "",
@@ -4355,7 +4355,7 @@ pg.child_site_option = {
 	},
 	[14172] = {
 		replace = 0,
-		name = "《下课后的奇妙历险》",
+		name = "Amazing After-Class Adventures",
 		id = 14172,
 		type = 2,
 		label = "",
@@ -4409,7 +4409,7 @@ pg.child_site_option = {
 	},
 	[14182] = {
 		replace = 0,
-		name = "《海盗的秘密工坊》",
+		name = "The Pirate's Secret Shipyard",
 		id = 14182,
 		type = 2,
 		label = "",
@@ -4463,7 +4463,7 @@ pg.child_site_option = {
 	},
 	[14192] = {
 		replace = 0,
-		name = "《夏日的小小作战》",
+		name = "The Smallest Summer Plan",
 		id = 14192,
 		type = 2,
 		label = "",
@@ -4517,7 +4517,7 @@ pg.child_site_option = {
 	},
 	[14202] = {
 		replace = 0,
-		name = "《飨宴的秘密》",
+		name = "Feast of Blood",
 		id = 14202,
 		type = 2,
 		label = "",
@@ -4571,11 +4571,11 @@ pg.child_site_option = {
 	},
 	[1501] = {
 		replace = 0,
-		name = "水族馆",
+		name = "Aquarium",
 		id = 1501,
 		type = 2,
 		label = "",
-		desc = "透明的海底世界，与海洋生物近距离。",
+		desc = "Across the glass, a world full of aquatic life just waiting to meet you.",
 		is_limit = 0,
 		icon = "",
 		order = 1,
@@ -4636,11 +4636,11 @@ pg.child_site_option = {
 	},
 	[1502] = {
 		replace = 0,
-		name = "游乐园",
+		name = "Amusement Park",
 		id = 1502,
 		type = 2,
 		label = "",
-		desc = "烦恼留给我，欢乐带回家！",
+		desc = "Adios, troubles! Fun has come to town!",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -4700,11 +4700,11 @@ pg.child_site_option = {
 	},
 	[1503] = {
 		replace = 0,
-		name = "童心乐园",
+		name = "World of Wonder",
 		id = 1503,
 		type = 2,
 		label = "",
-		desc = "色彩斑斓，充满欢笑。 ",
+		desc = "Colorful and full of smiles. Heaven on Earth for a child.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -4764,11 +4764,11 @@ pg.child_site_option = {
 	},
 	[1504] = {
 		replace = 0,
-		name = "童心乐园",
+		name = "World of Wonder",
 		id = 1504,
 		type = 2,
 		label = "",
-		desc = "色彩斑斓，充满欢笑。 ",
+		desc = "Colorful and full of smiles. Heaven on Earth for a child.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -4819,7 +4819,7 @@ pg.child_site_option = {
 	},
 	[1601] = {
 		replace = 0,
-		name = "体育锻炼",
+		name = "Exercise",
 		id = 1601,
 		type = 2,
 		label = "",
@@ -4865,7 +4865,7 @@ pg.child_site_option = {
 	},
 	[16012] = {
 		replace = 0,
-		name = "体育锻炼",
+		name = "Exercise",
 		id = 16012,
 		type = 2,
 		label = "",
@@ -4911,7 +4911,7 @@ pg.child_site_option = {
 	},
 	[16013] = {
 		replace = 0,
-		name = "体育锻炼",
+		name = "Exercise",
 		id = 16013,
 		type = 2,
 		label = "",
@@ -4957,7 +4957,7 @@ pg.child_site_option = {
 	},
 	[1602] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1602,
 		type = 2,
 		label = "",
@@ -5009,7 +5009,7 @@ pg.child_site_option = {
 	},
 	[16022] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 16022,
 		type = 2,
 		label = "",
@@ -5061,7 +5061,7 @@ pg.child_site_option = {
 	},
 	[16023] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 16023,
 		type = 2,
 		label = "",
@@ -5113,7 +5113,7 @@ pg.child_site_option = {
 	},
 	[1603] = {
 		replace = 0,
-		name = "第一届运动大赛",
+		name = "The 1st Sports Competition",
 		id = 1603,
 		type = 2,
 		label = "",
@@ -5159,7 +5159,7 @@ pg.child_site_option = {
 	},
 	[1604] = {
 		replace = 0,
-		name = "第二届运动大赛",
+		name = "The 2nd Sports Competition",
 		id = 1604,
 		type = 2,
 		label = "",
@@ -5205,7 +5205,7 @@ pg.child_site_option = {
 	},
 	[1605] = {
 		replace = 0,
-		name = "第三届运动大赛",
+		name = "The 3rd Sports Competition",
 		id = 1605,
 		type = 2,
 		label = "",
@@ -5251,7 +5251,7 @@ pg.child_site_option = {
 	},
 	[1606] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "Soccer Match",
 		id = 1606,
 		type = 2,
 		label = "",
@@ -5300,7 +5300,7 @@ pg.child_site_option = {
 	},
 	[1607] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "Soccer Match",
 		id = 1607,
 		type = 2,
 		label = "",
@@ -5349,7 +5349,7 @@ pg.child_site_option = {
 	},
 	[1608] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "Soccer Match",
 		id = 1608,
 		type = 2,
 		label = "",
@@ -5398,7 +5398,7 @@ pg.child_site_option = {
 	},
 	[1609] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "Soccer Match",
 		id = 1609,
 		type = 2,
 		label = "",
@@ -5447,11 +5447,11 @@ pg.child_site_option = {
 	},
 	[1701] = {
 		replace = 0,
-		name = "校图书馆",
+		name = "Library",
 		id = 1701,
 		type = 2,
 		label = "",
-		desc = "校图书馆，藏书量非常惊人。据说还收藏了一些神秘的……",
+		desc = "The library has a staggering collection of books and, apparently, some of them are quite mysterious...",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -5491,11 +5491,11 @@ pg.child_site_option = {
 	},
 	[17012] = {
 		replace = 0,
-		name = "校图书馆",
+		name = "Library",
 		id = 17012,
 		type = 2,
 		label = "",
-		desc = "校图书馆，藏书量非常惊人。据说还收藏了一些神秘的……",
+		desc = "The library has a staggering collection of books and, apparently, some of them are quite mysterious...",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -5535,11 +5535,11 @@ pg.child_site_option = {
 	},
 	[17013] = {
 		replace = 0,
-		name = "校图书馆",
+		name = "Library",
 		id = 17013,
 		type = 2,
 		label = "",
-		desc = "校图书馆，藏书量非常惊人。据说还收藏了一些神秘的……",
+		desc = "The library has a staggering collection of books and, apparently, some of them are quite mysterious...",
 		is_limit = 0,
 		icon = "",
 		order = 2,
@@ -5579,11 +5579,11 @@ pg.child_site_option = {
 	},
 	[1702] = {
 		replace = 0,
-		name = "音乐教室",
+		name = "Basic Performance",
 		id = 1702,
 		type = 2,
 		label = "",
-		desc = "足以启发未来的音乐家的灵感。",
+		desc = "A source of inspiration for future musicians.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -5628,11 +5628,11 @@ pg.child_site_option = {
 	},
 	[17022] = {
 		replace = 0,
-		name = "音乐教室",
+		name = "Basic Performance",
 		id = 17022,
 		type = 2,
 		label = "",
-		desc = "足以启发未来的音乐家的灵感。",
+		desc = "A source of inspiration for future musicians.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -5677,11 +5677,11 @@ pg.child_site_option = {
 	},
 	[17023] = {
 		replace = 0,
-		name = "音乐教室",
+		name = "Basic Performance",
 		id = 17023,
 		type = 2,
 		label = "",
-		desc = "足以启发未来的音乐家的灵感。",
+		desc = "A source of inspiration for future musicians.",
 		is_limit = 0,
 		icon = "",
 		order = 3,
@@ -5726,7 +5726,7 @@ pg.child_site_option = {
 	},
 	[1705] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 1705,
 		type = 2,
 		label = "",
@@ -5780,7 +5780,7 @@ pg.child_site_option = {
 	},
 	[17052] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 17052,
 		type = 2,
 		label = "",
@@ -5836,7 +5836,7 @@ pg.child_site_option = {
 	},
 	[17053] = {
 		replace = 0,
-		name = "随便逛逛",
+		name = "Wander Around",
 		id = 17053,
 		type = 2,
 		label = "",
@@ -5890,7 +5890,7 @@ pg.child_site_option = {
 	},
 	[1706] = {
 		replace = 0,
-		name = "第一届文学大奖赛",
+		name = "The 1st Open Submissions Literary Award",
 		id = 1706,
 		type = 2,
 		label = "",
@@ -5936,7 +5936,7 @@ pg.child_site_option = {
 	},
 	[1707] = {
 		replace = 0,
-		name = "第一届绘画大奖赛",
+		name = "The 1st Art Contest",
 		id = 1707,
 		type = 2,
 		label = "",
@@ -5982,7 +5982,7 @@ pg.child_site_option = {
 	},
 	[1708] = {
 		replace = 0,
-		name = "第一届歌者之声大奖赛",
+		name = "The 1st Singing Competition",
 		id = 1708,
 		type = 2,
 		label = "",
@@ -6028,7 +6028,7 @@ pg.child_site_option = {
 	},
 	[1709] = {
 		replace = 0,
-		name = "图书馆写作限时指导",
+		name = "Writing Course at the Library",
 		id = 1709,
 		type = 2,
 		label = "",
@@ -6077,7 +6077,7 @@ pg.child_site_option = {
 	},
 	[1710] = {
 		replace = 0,
-		name = "绘画教室限时指导",
+		name = "Drawing Course at the Art Class",
 		id = 1710,
 		type = 2,
 		label = "",
@@ -6126,7 +6126,7 @@ pg.child_site_option = {
 	},
 	[1711] = {
 		replace = 0,
-		name = "声乐教室限时指导",
+		name = "Singing Course at the Music Class",
 		id = 1711,
 		type = 2,
 		label = "",
@@ -6175,7 +6175,7 @@ pg.child_site_option = {
 	},
 	[1712] = {
 		replace = 0,
-		name = "第二届文学大奖赛",
+		name = "The 2nd Open Submissions Literary Award",
 		id = 1712,
 		type = 2,
 		label = "",
@@ -6221,7 +6221,7 @@ pg.child_site_option = {
 	},
 	[1713] = {
 		replace = 0,
-		name = "第三届文学大奖赛",
+		name = "The 3rd Open Submissions Literary Award",
 		id = 1713,
 		type = 2,
 		label = "",
@@ -6267,7 +6267,7 @@ pg.child_site_option = {
 	},
 	[1714] = {
 		replace = 0,
-		name = "第二届绘画大奖赛",
+		name = "The 2nd Art Contest",
 		id = 1714,
 		type = 2,
 		label = "",
@@ -6313,7 +6313,7 @@ pg.child_site_option = {
 	},
 	[1715] = {
 		replace = 0,
-		name = "第三届绘画大奖赛",
+		name = "The 3rd Art Contest",
 		id = 1715,
 		type = 2,
 		label = "",
@@ -6359,7 +6359,7 @@ pg.child_site_option = {
 	},
 	[1716] = {
 		replace = 0,
-		name = "第二届歌者之声大奖赛",
+		name = "The 2nd Singing Competition",
 		id = 1716,
 		type = 2,
 		label = "",
@@ -6405,7 +6405,7 @@ pg.child_site_option = {
 	},
 	[1717] = {
 		replace = 0,
-		name = "第三届歌者之声大奖赛",
+		name = "The 3rd Singing Competition",
 		id = 1717,
 		type = 2,
 		label = "",
@@ -6451,7 +6451,7 @@ pg.child_site_option = {
 	},
 	[1718] = {
 		replace = 0,
-		name = "图书馆写作限时指导",
+		name = "Writing Course at the Library",
 		id = 1718,
 		type = 2,
 		label = "",
@@ -6500,7 +6500,7 @@ pg.child_site_option = {
 	},
 	[1719] = {
 		replace = 0,
-		name = "绘画教室限时指导",
+		name = "Drawing Course at the Art Class",
 		id = 1719,
 		type = 2,
 		label = "",
@@ -6549,7 +6549,7 @@ pg.child_site_option = {
 	},
 	[1720] = {
 		replace = 0,
-		name = "声乐教室限时指导",
+		name = "Singing Course at the Music Class",
 		id = 1720,
 		type = 2,
 		label = "",
@@ -6598,7 +6598,7 @@ pg.child_site_option = {
 	},
 	[1721] = {
 		replace = 0,
-		name = "图书馆写作限时指导",
+		name = "Writing Course at the Library",
 		id = 1721,
 		type = 2,
 		label = "",
@@ -6647,7 +6647,7 @@ pg.child_site_option = {
 	},
 	[1722] = {
 		replace = 0,
-		name = "绘画教室限时指导",
+		name = "Drawing Course at the Art Class",
 		id = 1722,
 		type = 2,
 		label = "",
@@ -6696,7 +6696,7 @@ pg.child_site_option = {
 	},
 	[1723] = {
 		replace = 0,
-		name = "声乐教室限时指导",
+		name = "Singing Course at the Music Class",
 		id = 1723,
 		type = 2,
 		label = "",

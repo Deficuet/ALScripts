@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……这种感觉……有些难以形容呢。",
+			say = "Umm... I-I can't quite put this feeling into words...",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture2_tone6",
 			typewriter = {
 				speed = 0.05,

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>四　约好了？</size>",
+					"A Knight's Promise\n\n<size=45>Chapter 4 - It's a Date!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "距{namecode:416}开始担任秘书舰已经过去了一段时间",
+			say = "Under my tireless tutelage, she had managed to get her playful impulses under control, at least long enough to finish out a day's work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,21 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与最开始一副玩闹的样子不同，现在的她已经可以分担处理一些日常事务了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "当然，秘书舰的工作远不止如此。今天要教些什么好呢…",
+			say = "But there was so much more to being a secretary ship. I still had much to teach her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好……",
+			say = "Good morning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:416}看起来……有点无精打采的样子？",
+			say = "U-556 seemed... rather blue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +110,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，稍微有些走神，抱歉……今天要做些什么吗？",
+			say = "Oh, I was just spacing out a bit, sorry... What's on the agenda for today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +121,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生了什么事么？",
+					content = "Ask her what's bothering her.",
 					flag = 1
 				}
 			}
@@ -146,7 +132,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，果然瞒不过指挥官吗……其实——",
+			say = "Hm, I guess nothing gets past you, Commander. Here's the story...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +149,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:435}姐姐！我来找你玩啦！",
+			say = "Lord Bismarck! Let's play!",
 			effects = {
 				{
 					active = true,
@@ -185,7 +171,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是{namecode:416}吗。",
+			say = "Oh? Is that U-556?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -206,7 +192,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，我还有些事情要和皇家那边商讨。",
+			say = "Forgive me, I have some matters to discuss with the Royal Navy. It will have to wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +208,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:435}姐姐，有空吗？",
+			say = "Lord Bismarck, are you busy?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -256,7 +242,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊。",
+			say = "Oh...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -276,7 +262,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如你所见，我正在为下次的演习制定方案，暂时抽不出身。",
+			say = "As you can see, I am making preparations for our next exercise. I'm afraid I can't tear myself away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +279,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最近姐姐她总是很忙的样子……",
+			say = "I guess she's just been really busy lately...",
 			effects = {
 				{
 					active = false,
@@ -315,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道大姐身为铁血舰队的领袖，要处理的事情有很多。但是，没有大姐在身边，我还是觉得很寂寞……",
+			say = "I get that she's the leader of the Iron Blood, and she's got a lot on her plate. But it's just, without Lord Bismarck to play with, I feel kinda lonely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +315,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原来如此。",
+			say = "It was all becoming clear to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +329,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这样的话，能做到的事就是----",
+			say = "The solution to this predicament was quite simple, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +346,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？指挥官……下个休息日会陪我玩吗？",
+			say = "Huh? Commander... you'll spend your next day off with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗？",
+			say = "Really!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +383,7 @@ return {
 			},
 			options = {
 				{
-					content = "约好了。",
+					content = "I made a promise to her.",
 					flag = 1
 				}
 			}
@@ -409,7 +395,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那，那就约好了！可不能反悔！",
+			say = "Okay, it's a date! No takebacks allowed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +411,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿！",
+			say = "Eheheh~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +426,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "总之先这样让她稍微开心点吧。",
+			say = "I figured that would cheer her up, at least for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

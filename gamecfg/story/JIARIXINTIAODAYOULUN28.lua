@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在散步的时候来到了居住船舱附近。",
+			say = "On my walk, I happen upon the cabin area.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "Hi~Everybody~这里是白鹰CB-2美少女艺人关岛——",
+			say = "Hiii, everyone! This is the beautiful and talented Eagle Union CB-2, Guam, coming at you live!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皇家所属的卡律布狄斯，很荣幸能成为本次关岛小姐的采访嘉宾。",
+			say = "And I'm Charybdis of the Royal Navy. I'm honoured to be here as a guest interviewer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这个声音……关岛？还有卡律布狄斯？她们在做什么？）",
+			say = "(Is that Guam I hear? Charybdis, too? What are they doing together?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "一边思考着她们在做什么的时候，不知不觉中已经到达了走廊的拐角。",
+			say = "While I'm pondering various reasons, I suddenly realize that their voices are just around the corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "视线中突然出现了一个硕大的话筒，还不等我反应，关岛已经将话筒递到了我的嘴边。",
+			say = "Before I can respond, a large black object suddenly appears in my field of vision – a microphone, held by Guam.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "让我们看看，我们发现了什么意外之喜呢？是大家最爱的指挥官出现了喔！",
+			say = "Look at that! We've got a surprise guest! It's none other than the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我刚刚有听到你们在说采访……是在做邮轮度假体验的采访么？",
+			say = "What are you two up to? Interviewing people on their holiday?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦！指挥官很接近正确答案了呢~不过这个问题就让我们的嘉宾卡律布狄斯来解答吧！",
+			say = "Ooh, you almost got it right on the first try! I think we'll let our guest interviewer handle this question.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "让我们把画面给到卡律布狄斯小姐那边~！",
+			say = "Pow, pow! Over to you, Charybdis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "日安，指挥官。其实是关岛小姐正在进行客房舒适度调查。",
+			say = "Good evening, Master. To answer your question, Guam is doing a survey to measure passenger satisfaction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,42 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原定作为嘉宾的贝尔法斯特女仆长因为行程冲突，便将作为嘉宾的事托付于我了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 202300,
-			say = "本次的邮轮之旅，客房服务全部由皇家女仆队负责。“不论何处、不论什么”就是我们的宗旨。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 202300,
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呵呵，前情就解释到这里。对了，指挥官是为什么突然来到了居住船舱附近呢？",
+			say = "Originally, a different Royal Maid was going to be the guest interviewer, but she had to cancel due to urgent business and the task fell on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +209,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "您平时居住的指挥官船舱离这里应该还有一段距离才对。",
+			say = "Speaking of the Royal Maids, we're actually responsible for all the service onboard the ship. Our motto is, \"Any task – anywhere.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 202300,
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I hope that answers your question. By the way, Master, what brings you to the cabin area?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 202300,
+			say = "I believe your personal cabin is on another deck entirely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "散步的时候听到这边有说话声，就过来看看了。",
+			say = "I was just walking around, then I heard you two and I came to check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿~刚刚我也说过，指挥官可是送上门的惊喜~",
+			say = "Whoa, so it's just like I said! You really ARE a surprise guest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "作为艺人的关岛当然不会放过这个爆点啦！我们可以先从指挥官开始采访~！",
+			say = "You're also a golden goose for news and I need an egg! You'll be our first interviewee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "而且我也很好奇卡律布狄斯小姐会怎么提问哦。",
+			say = "Admit it, you're curious to hear what questions we've got!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……可以允许我向您提问吗？指挥官？",
+			say = "Well, Master? Would you please answer a few questions?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然可以，既然是配合采访的话。",
+			say = "Sure. If it helps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……首先是……",
+			say = "Whew... Okay, let's begin.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "指挥官，这两天睡得怎么样呢？床垫的软硬是否合适？提供的枕头种类您是否还满意呢？",
+			say = "Have you slept well the past two days? Was your bed neither too soft nor too hard? Are you satisfied with your selection of pillows?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "开始提问了呢！关岛的镜头已经准备好捕捉指挥官回答问题的瞬间了！",
+			say = "Wow, listen to you go! Alright, my camera's prepped and ready to capture the Commander's answers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这两天睡得很好。床垫的选择软硬适中，枕头目前还只尝试了一种……不过很贴合颈部，很舒服。",
+			say = "Well, uh, I've been sleeping well and my bed was perfect. I've only tried one type of pillow so far, but it fits my neck well and feels nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您能给出这样的评价是我们的荣幸。接下来的问题是，房间的清洁程度怎么样呢？",
+			say = "Thank you. Your praise honours all of us. Next question – how was your experience with your room cleaning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哪怕前一天床上再乱，早上离开房间、下午回去后房间都会变得非常干净整洁。",
+			say = "Even if I leave my bed a total mess, it looks as good as new when I come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有种每天都是第一天入住的感觉。",
+			say = "In a word, every day feels as fresh as the first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "呵呵，因为是重要的指挥官的房间，我们的服务更要精益求精呢。",
+			say = "Heehee. Your cabin matters the most to us, so we strive to meet the highest possible standards for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "嗯……接下来是向指挥官、也是向镜头前的大家展现皇家女仆队实力的时候了呢。",
+			say = "Now, let's put the questions on hold and instead demonstrate the Royal Maids' capabilities both to you and the viewers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，关岛小姐，可以与我移步下一间房间吗？接下来要展示的是客房服务的SOP流程。",
+			say = "Master, Miss Guam, would you please come with me into the next cabin? I'd like to show you our SOP.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "SOP？指的是标准作业程序吗？在这里说的是对客房的流程化清洁？",
+			say = "\"SOP\"? You make it sound so technical. Although, you do need procedures when cleaning so many cabins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，没错哦。是贝尔法斯特女仆长制定的关于客房的清洁及服务流程。",
+			say = "Indeed. Belfast calls it the SPOCC, short for, \"standards and procedures of cabin cleaning.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "卡律布狄斯一边说着，一边向前走。我和关岛跟着她来到了一间房间前。",
+			say = "Charybdis escorts me and Guam to the door to a cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "这间房间目前正在清扫中，那么，展示和记录就拜托关岛小姐了。",
+			say = "This cabin is being cleaned right now. Miss Guam, I trust you to handle the camerawork.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "包在我身上~摄像机准备——",
+			say = "No problemo. Recordiiing... now! Action!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "伴随着房间门开启的，还有砰砰的枪声。",
+			say = "As Charybdis opens the door, a loud gunshot rings out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "即使枪上已经装上了消音器，在如此近的距离之下，也还是能听到一些声响。",
+			say = "The firearm has a silencer equipped, but it does little to stifle the noise at such close range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portraitNoise = true,
-			say = "你们无处可逃。",
+			say = "You have nowhere left to run.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "是谢菲尔德正在用手枪射击一只在地面上高速移动的黑色物体。",
+			say = "Inside the cabin, Sheffield has her gun trained on a small creature crawling along the floor at high speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和预计情况有所出入，不过没关系——喝哈！",
+			say = "This isn't quite what I expected, but that won't be a problem. Hi-yah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "而格罗斯特英姿飒爽地用铁拳锤爆了地面上一块带有显著污渍的地板。",
+			say = "Gloucester swings gallantly, smashing a striking stain on the floor with her clenched fist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portraitNoise = true,
-			say = "哎呀，我们走错了呢。",
+			say = "Oh dear! Wrong room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "卡律布狄斯保持着从容的微笑，飞快地关上了门。",
+			say = "Charybdis maintains a professional smile as she swiftly closes the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这种时候……我应该说什么……？）",
+			say = "(Well, uh... What should I even say here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "卡律……",
+			say = "Chary–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "关岛小姐。",
+			say = "Miss Guam.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "关岛不由自主地吞咽了咽口水。",
+			say = "Guam gulps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "是……是？",
+			say = "Y-yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "这段可以拜托您剪掉，不要播出吗？",
+			say = "Do you think you could send this part to the cutting room floor?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202300,
-			say = "以及……指挥官可以把这段记忆从脑海中删除吗？",
+			say = "And, Master, if you'd be so kind, please try to obliterate all memory of this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没问题。",
+			say = "Uh... Consider it done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "之后在确认关岛及时掐断了信号，以及删除了摄像机中的存储片段后，卡律布狄斯终于放我们离开了。",
+			say = "Charybdis switches off the camera immediately and makes absolutely sure the recording has been wiped. Only then does she let me and Guam go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "差不多要到约好的时间了，先去露天水上乐园吧。",
+			say = "I have plans to visit the water park soon, so I should go there now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "和菈菈一起，将制作完成的发明交给了在商业街的{namecode:98:明石}。",
+			say = "Lala and I visit the shopping area to give Akashi her completed invention.",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（希望这只绿头猫咪不会滥用这个发明……）",
+			say = "(I just hope that furball doesn't use it for evil...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "到了第二天晚上，怀着不安的心情与菈菈一起来到远比平时热闹的商业街。",
+			say = "The following evening, I'm so beside myself with worry that I bring Lala to the unusually busy shopping area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~这次的道具可以读取客人的心声，方便{namecode:98:明石}她推销商品用的，看来卓有成效呢~！",
+			say = "Ooh. My invention lets Akashi know what customers are thinking, so she can advertise more effectively than ever before! And it sure looks like it's working!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哎呀~是指挥官和菈菈小姐喵，多亏了你们的道具，{namecode:98:明石}的销售额直线上升了喵。",
+			say = "Nya~ Commander and Lala, nya! Thanks to you, sales are up like never before, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "只要有这台道具就可以听到顾客的心声，然后肆无忌惮……不对，合理制定价格了喵。",
+			say = "This bad boy gives me hidden customer insights that let me scalp... ahem, adjust prices on the fly, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然被拿来乱用了啊……",
+			say = "I knew you were up to no good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "不对不对喵，这只是合理的定价喵~",
+			say = "Nuh-uh! This is a perfectly legal price adjustment, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "“警告！警告！本店95%的商品都存在价格虚高问题！”",
+			say = "\"WARNING! WARNING! Prices at this location may be 95% higher than average!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这，这是怎么回事喵？？",
+			say = "Wh-what the hell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "看起来是“嗡嗡倾听君”受到大家的心声影响，在播放大家不满的情绪呢。",
+			say = "I think the Sales Boosta-Bot is picking up customers' dissatisfaction and automatically broadcasting it out loud~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这，这可不行喵！菈菈小姐，请你赶快把机器停下来喵！",
+			say = "Th-this is real bad, nya! Lala, shut this thing up right now, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "各位顾客，请听{namecode:98:明石}解释 ，这、这都是误会喵！",
+			say = "D-dearest customers, don't listen to it! This is all a huge misunderstanding, nyaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>四　秘书舰的自主原则</size>",
+					"Work Hard, Play Harder!\n\n<size=45>4 A Surprising Performance</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "几天后的指挥室——",
+			say = "A few days later...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "早上好，指挥官~",
+			say = "Yoohoo, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "信件在那边哦，我给你做了整理，不过你得自己去拿~",
+			say = "I've sorted your letters and left them over there. Go get 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这边是今日演习的文件资料，已经做好分类了！",
+			say = "And over here I have today's exercise papers and data, all categorized neatly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "还有这份远洋演习的报告书，需要你来审阅和批示~",
+			say = "Lastly, there's the open sea exercise report. All you need to do is read through it and then sign off on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "吩咐我的工作都做完了~怎么样，还不错吧？",
+			say = "And that's that. I've done pretty much everything you asked for. Way to go me, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "水星纪念的秘书舰工作已经持续了几天。",
+			say = "It's already been several days since Pamiat' became my secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不得不说有些出乎意料，没想到水星纪念在工作上意外的上手……",
+			say = "Surprisingly, she picked up on the job real quick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "果然是人不可貌相，怎么说她也是拥有漫长服役经历的————",
+			say = "As they say, never judge a book by its cover. There's a reason she has such a long and rich history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指—挥—官————！",
+			say = "Commaaaaandeeeeer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "你是不是在想什么失礼的事！",
+			say = "Hellooooo? I'm trying to talk to you here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "水星纪念突然把脸凑了过来，在吐息之中闻到了薰衣草的芳香。",
+			say = "I got lost in thought and the next thing I know, she's up in my face. Her hair smells faintly of lavender-scented shampoo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哼哼哼~既然如此，指挥官，晚上我想吃拉面哦~做完工作之后要记得带我去！",
+			say = "Oh, forget it. Just know that I want some more of that \"ramen\" as a reward for my hard work! Take me to a restaurant once we're done today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "所以说……",
+			say = "At first, I tried to motivate her with rewards. While that did succeed, she's now taking full advantage of my miscalculation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不，我不想听~总而言之，晚上指挥官请吃拉面！",
+			say = "And of course – your treat, per usual, right? Hehehe~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "剩下的工作还有很多呢，该继续工作咯~",
+			say = "Now chop chop, Commander! There's still tons of work to be done!",
 			painting = {
 				alpha = 0.3,
 				time = 1

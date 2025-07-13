@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日重建！海岛别墅度假计划！\n\n<size=45>复活吧！别墅与岛</size>",
+					"Midsummer Returns: The Villa Reconstruction\n\n<size=45>1 Can We Fix It? Yes We Can!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "——不久前，我们还沉浸在假期即将到来的欢乐氛围之中。",
+			say = "It wasn't that long ago when we were basking in the excitement of our upcoming vacation.",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "谁曾想，一场凶猛袭来的台风，竟让我们的海岛别墅度假计划彻底偏离正轨……",
+			say = "That was until, without warning, a furious storm arrived and completely wrecked the villa resort – and our plans with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "如今，暴雨平息，潮水褪去，天空再次恢复了往日的宁静和湛蓝。",
+			say = "Now the storm has gone, the tides have receded, and the skies are blue and calm again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,34 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}的心境却与损毁的海岛别墅一样，再也回不到从前了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 312010,
-			say = "{namecode:98:明石}的心……碎成海岛别墅了喵……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "零点一折……就零点一折……",
+			say = "One thing hasn't changed, though. Akashi's mental state is much like the villa – broken and shattered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +83,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "呜呜，这不是在卖房，是在割{namecode:98:明石}的心头肉喵……！！",
+			say = "My heart has been torn to shreds, just like the villa, nya...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "1%... One single percent is all I get, nya...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "This isn't a property sale, this is cutting out my heart and selling it for pennies on the dollar, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "就这样，原定的海岛别墅度假计划出现了意料之外的转折——",
+			say = "And that is how our villa resort plan took quite an unexpected turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,14 +132,14 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_1",
 			hidePaintObj = true,
-			say = "在签署完地产合同后，我们很快乘坐运输船来到了别墅度假岛之上。",
+			say = "Once I'd signed the contract, all of us boarded a ship and headed for the resort island.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"别墅度假岛·码头区",
+				"Villa Resort Island - Pier Area",
 				3
 			},
 			flashout = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_1",
 			hidePaintObj = true,
-			say = "而后，亲眼见到了这片被天灾摧毁的{namecode:98:明石}精选度假胜地。",
+			say = "After some travel time, we now see what remains of Akashi's premium resort that the natural disaster mercilessly ravaged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……果然是一地狼藉。",
+			say = "Geesh. This is utter devastation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "应该再压些价格的……",
+			say = "Perhaps I should've haggled further for a slightly lower price.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咳……虽然实地查看的情况，比侦察机发来的更糟糕……",
+			say = "Ahem. It looks much worse in person than it did from the aerial footage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但只要理清思路，循序渐进，就能一步步完成重建工作。",
+			say = "Still, as long as we plan ahead and take it step by step, we'll be able to rebuild it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也只能这样了……",
+			say = "It's that or nothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "从资料上来看，这处曾经的超优质海岛别墅房产，目前可以简单分为六个待维修区。",
+			say = "According to the files, this resort is currently divided generally into six reconstruction sites.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "分别是我们现在所处的货物码头区，别墅生活区、室内娱乐区、室外娱乐区，以及海滩区和灯塔区。",
+			say = "There's the pier area where we are now, the residential area, the indoor amusement area, the outdoor amusement area, the beach area, and the lighthouse area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "为了保证后续物资运输车能够顺利停靠，我建议优先解决眼前这处彻底停摆的货物码头区。",
+			say = "I think we should rebuild the pier area first of all. It's completely out of service, and rebuilding it will make delivering goods easier in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在修复期间我们要住在什么地方呢？",
+			say = "And where are we supposed to sleep during the reconstruction period, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "后勤部门的建议是让大家在运输船的船舱中休息，当然喜欢亲近自然的同伴可以选择在岛上露营。",
+			say = "The logistics department proposed sleeping in the cabins on the ship we came in. There's also the option of camping outdoors for nature lovers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔~~我很喜欢这个安排！",
+			say = "Ooh! I like that one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你给我晚上回船上睡。",
+			say = "Be back in the cabin before bedtime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……噢！",
+			say = "Ugh... Fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家还有其他疑问么？",
+			say = "Anyone else have any questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "没有的话——大家就为了我们共同的假期一起努力吧~",
+			say = "No? In that case, let's get out there and rebuild our vacation villa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真好，就算是休假，也要从加班工作开始。",
+			say = "Starting my vacation by having to do hard labor. Perfect. Just perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199050,
-			say = "是啊，感觉充满了干劲~终于可以大家所有人一起加班了！",
+			say = "Yes, it's deplorable, yet I still feel motivated! At last, we all get to work overtime together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102340,
-			say = "？？",
+			say = "\"Get to\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "？？？",
+			say = "Is that sarcasm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_1",
 			hidePaintObj = true,
-			say = "于是，在大家众志成城、团结一心下，海岛别墅重建计划正式拉开了序幕——",
+			say = "And so, with all of us banding together, our vacation villa reconstruction plan officially takes off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "只是一场阵雨而已，很快天空就再次放晴。",
+			say = "The rain shortly stops, and the weather clears up again. You go on your way, leaving the shelter behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你离开了树下。这只是夏雨中一次微不足道的邂逅。",
+			say = "You feel nothing special. It was just an insignificant encounter in the rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

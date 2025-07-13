@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无法坦率的心意\n\n<size=45>二  别看穿我啊！</size>",
+					"The Virtue of Being Earnest\n\n<size=45>2.Stop Seeing Right Through Me!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "翌日——",
+			say = "The day after Nelson returned from her mission...",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（昨天晚上，指挥官似乎真的把工作都做完了…不过那副憔悴的样子…）",
+			say = "(I've never seen the commander this worn-out before, but I guess all the paperwork is done...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…这可不是在担心那家伙，只是…唔，那时候要稍微说些慰劳的话就好了…）",
+			say = "(Well, it's not like there's any point for me to waste any pity on that dolt, but perhaps some words of encouragement would be appropriate...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走路的时候想事情可是很危险的哦？",
+			say = "Nelson, it's dangerous to walk around while lost in thought~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——罗、罗德尼！？像你这样突然搭话吓人才更危险一点吧！",
+			say = "Huh?!... R-Rodney?! Right back at you! It's dangerous to randomly yell at people if they're lost in thought!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既没有突然，也没打算吓人哦。我只是在跟指挥官汇报结束之后路过这里而已。",
+			say = "Nothing random about it. I'm just heading back after reporting on our successful operation~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这样…向指挥官汇报任务…么……",
+			say = "Is, is that so... to the commander, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为指挥官看起来非常疲劳的样子，所以我顺便给稍微按摩了一下。",
+			say = "Yup~ Commander looked awfully in need of a gentle massage, so I was more than happy to oblige~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按、按摩……？",
+			say = "A massage...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，只是简单的肩部按摩而已。",
+			say = "Yup, nice and slow around the shoulders~ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（呼……原来只是普通的按摩而已嘛……）",
+			say = "(Phew... I, I guess it's fine if it was a normal massage...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，指挥官要是因为那点工作量就受不了的话，我可是会很困扰的！",
+			say = "Well, if the commander can't even handle that quantity of work, we're going to have serious issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了港区的未来，指挥官必须发挥领导才能兢兢业业的工作才行，我可不允许那家伙被宠坏了！",
+			say = "It's the commander's responsibility to work tirelessly for the well-being of the port. I won't permit any derelictions of those duties!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼~",
+			say = "Teehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有，有什么好笑的啊……",
+			say = "Wh-what are you giggling about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为纳尔逊太容易看穿，一下子没忍住~虽然你嘴上这么说，内心其实担心的不得了吧？",
+			say = "You're so easy to read, it's adorable. I bet you're like this because you can't get the commander off your mind~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不可能好吧？！",
+			say = "Wh-what are you blathering on about?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真、真是的……一直站在这里聊天也太摸鱼了，我该走了，回头见！",
+			say = "A-anyways, we've been idling about for way too long! I've got things to do, so I'll be off now! Cheers, Rodney!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,23 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "不等罗德尼回复，纳尔逊就快步离开了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "（……真是的！罗德尼总是给人一副成熟而且无懈可击的感觉，和她聊天的时候老是被她带走节奏！）",
+			say = "Without even waiting for a reply, Nelson rushed off, leaving Rodney behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +354,23 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（但就是因为这样…她才能将内心的想法轻松说出口，相比之下我就……）",
+			say = "(...Geez! Rodney looks so meek, but she's actually ironclad—I can't even control the flow of my own conversation!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(She's the opposite of me... It irritates me to no end to admit it, but that's probably why she's easy to talk to.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔……那就试着对那家伙说一下“一直以来辛苦你了”好了……？",
+			say = "Sigh... maybe I should make an effort to praise the commander next time I'm at the office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

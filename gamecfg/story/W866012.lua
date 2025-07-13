@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "实验场气候调节装置I周边浮冰完全恢复！控制塔可以再次使用了。",
+			say = "The ice floes have reformed. Use the 1st Weather Control Device to melt them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

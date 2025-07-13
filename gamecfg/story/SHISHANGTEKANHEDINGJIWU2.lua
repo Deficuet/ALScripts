@@ -15,7 +15,7 @@ return {
 			actor = 699021,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官，我在这里躺一会儿就好，谢谢你。",
+			say = "I'll just lie here for a while. Thank you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "在我的搀扶下，那不勒斯暂时躺在了桌上休息。",
+			say = "I lend my shoulder to Napoli and help her lie down on the poker table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她的眼眸中氤氲着雾气，白皙的脸颊染着淡淡的绯红，目光迷离地注视着我。",
+			say = "Her cheeks are delicately flushed a soft pink, and her eyes hold a hesitant, almost dreamy gaze as she looks intently at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "抱歉，明明是我拜托了指挥官来教我扑克游戏的，现在却这般失态……",
+			say = "Sorry... I'm the one who asked you to teach me poker, and now I can't even focus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "我也不知道为什么突然头会这么晕……",
+			say = "Why am I so dizzy all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "那不勒斯是酒量不好么？",
+			say = "Are you actually a lightweight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "欸？酒量？",
+			say = "Huh? A lightweight...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			live2d = "home",
 			withoutActorName = true,
 			side = 2,
-			say = "那不勒斯微微偏过头，看向了一旁的杯子。",
+			say = "Napoli cocks her head and glances at the drink next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "……原来这个是酒精饮料么？",
+			say = "...Was that drink alcoholic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯？你一直没发现么……？",
+			say = "Oh. You didn't know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "因为之前喝过类似口味的风味饮料，我以为这个也是呢……",
+			say = "No... I've had drinks that tasted similar before, so I just thought it was one of those...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "不过这么看来，包装确实也不大一样……",
+			say = "But now that I'm looking at it, the packaging is a little different...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "指挥官，对不起，我是不是又给你添麻烦了呢？",
+			say = "I'm really sorry, Commander. Am I causing trouble for you again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,18 +213,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "总是要你分心来照顾我……",
+			say = "Ugh, just like always...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没关系",
+					content = "I don't mind at all.",
 					flag = 1
 				},
 				{
-					content = "这也是那不勒斯依赖我的表现",
+					content = "I like being relied on.",
 					flag = 2
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "没关系的，照顾你也不是什么麻烦事。",
+			say = "It's fine. I don't feel troubled in the slightest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不要这么说，而且这也是那不勒斯依赖我的表现。",
+			say = "Not at all. I'm happy that you are willing to rely on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "更何况，照顾那不勒斯也不麻烦。",
+			say = "Besides, you're hardly causing me trouble to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "话虽如此，但我也不能一直任性地给指挥官添麻烦……",
+			say = "I appreciate that, but I can't rely on you forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "那不勒斯用手撑着桌面，尝试着支起身体。",
+			say = "She puts a hand on the poker table and tries to support herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "伸手想要扶住她时，她却重新躺倒在桌面上，然后抬起手攥住了我的衣袖。",
+			say = "But she loses balance and falls again. Then, she grabs my sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "抱歉，指挥官，我还是有些晕……",
+			say = "I'm sorry... I'm still a little dizzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "你应该还有工作吧？要不你先回去忙吧，不必陪我在这里浪费时间 。",
+			say = "You have work to attend to, don't you? Please, just go back. There's no need to waste all your time on me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "那不勒斯的语气中带着淡淡的失落。",
+			say = "There's some sadness in her voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "我一个人也没关系的，只是可能要在这里多躺一会儿了……",
+			say = "I'll be fine by myself. Just means I'll be stuck resting here for a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,18 +379,18 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "攥着我衣袖的手松开了片刻，又握住了我的手，交迭的掌心传递着彼此的温度。",
+			say = "She lets go of my sleeve, and then grabs my hand... Our palms share a quiet warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我留下来陪你吧。",
+					content = "I'm staying with you.",
 					flag = 1
 				},
 				{
-					content = "你才是最重要的。",
+					content = "I worry too much to do that.",
 					flag = 2
 				}
 			}
@@ -405,7 +405,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我留下来陪你吧，让你一个人留在这里，我不放心。",
+			say = "I'll be right here. I'd be worried if I left you alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "工作可以之后加班补上进度，眼下你的情况才是最重要的。",
+			say = "Who cares about work? Some overtime will fix that. Right now, my focus is solely on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 699021,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不用担心，我留下来陪你。",
+			say = "Don't worry. I'm staying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女眸中的雾气悄然消散，眼底又漾起更深的柔情。",
+			say = "The glaze in her eyes fades a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她轻轻眨了眨眼，长长的睫毛微微颤动，遮住了眼中一闪而过的清明。",
+			say = "Her long eyelashes flutter as she blinks, hiding the faint sparkle in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "随即柔软的脸颊贴上了我的掌心，那不勒斯像只撒娇的兔子一般亲昵地蹭了蹭。",
+			say = "She presses her soft cheek against my palm and nuzzles it, like a bunny in need of pets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699021,
-			say = "那就再多陪伴我一会儿吧，指挥官。",
+			say = "In that case... Please stay right by my side, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是低气压的状况呢。",
+			say = "Ugh, I can feel the low pressure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}也会受影响吗？",
+			say = "Does it affect you, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多多少少吧，只是感觉到你的烦闷因此也变得焦躁了许多呢。",
+			say = "A little. Seeing you so down makes me feel a little prickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "要是可以的话，真想用炮弹吹散这一切，这样也许就会畅快了，你觉得呢，Honey？",
+			say = "I wish I could blow all this glum energy away with my cannons! Honey, don't you agree?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

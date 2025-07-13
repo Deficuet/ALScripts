@@ -1,51 +1,51 @@
 pg = pg or {}
 pg.world_item_data_origin = {
 	{
-		origin_text = "缺省配置提醒"
+		origin_text = "No data available"
 	},
 	{
-		origin_text = "剧情道具"
+		origin_text = "Main Campaign Item"
 	},
 	{
-		origin_text = "大型作战战斗掉落"
+		origin_text = "Operation Siren Random Drop "
 	},
 	{
-		origin_text = "资源点拾取"
+		origin_text = "Resource Node"
 	},
 	{
-		origin_text = "异常海域调查"
+		origin_text = "Zone Investigation"
 	},
 	{
-		origin_text = "海域调查奖励"
+		origin_text = "Exploration Reward"
 	},
 	{
-		origin_text = "海域压制奖励"
+		origin_text = "Zone Control Reward"
 	},
 	{
-		origin_text = "碎片海域通道封锁"
+		origin_text = "Blockade Zone Clear Reward"
 	},
 	{
-		origin_text = "碎片海域压制奖励"
+		origin_text = "Blockade Zone Control Reward"
 	},
 	{
-		origin_text = "塞壬试验场封锁奖励"
+		origin_text = "Siren Stronghold Recapture Reward"
 	},
 	{
-		origin_text = "深渊守卫战斗奖励"
+		origin_text = "Siren Boss Battle Reward"
 	},
 	{
-		origin_text = "月度BOSS战斗奖励"
+		origin_text = "Arbiter Battle Rewards (Monthly)"
 	},
 	[100] = {
-		origin_text = "港口商店兑换"
+		origin_text = "Port Shop"
 	},
 	[101] = {
-		origin_text = "重置商店兑换"
+		origin_text = "Operation Siren Shop"
 	},
 	[201] = {
-		origin_text = "港口日常任务奖励"
+		origin_text = "Daily Port Mission Reward"
 	},
 	[202] = {
-		origin_text = "指挥喵搜寻获取"
+		origin_text = "Meowfficer Scavenging Reward"
 	}
 }

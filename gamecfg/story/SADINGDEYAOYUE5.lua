@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>五　虚像的凯旋</size>",
+					"Where All Roads Lead\n\n<size=45>5 Holographs of Triumph</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "东阿非利加·某处",
+			say = "Somewhere in Africa...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "我们这边的情况就是这样。",
+			say = "Cardinal Richelieu, this concludes our arrangements for the exhibition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "自由鸢尾应该也收到了撒丁帝国的邀请，不知道黎塞留大人有何打算呢？",
+			say = "I do believe Iris Libre was also invited to attend the World Expo, but what is your opinion on this matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "陛下说了，如果自由鸢尾决定参加的话，场馆的建设费用也可以由皇家一并承担。",
+			say = "Her Majesty stated that should you choose to participate, the Royal Navy would shoulder the construction costs of your pavilion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "我已经去会场所在的群岛视察过了，有一个岛足够大，可以让我们两家的场馆修在一起哦。",
+			say = "There is still plenty of space in the venue, and we would certainly love to have Iris Libre hold a joint exhibition with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 805010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常感谢伊丽莎白女王陛下的慷慨协助。",
+			say = "I truly appreciate Queen Elizabeth's generous offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "不过很抱歉，眼下我已经离开了陆间海，我还需要一些时间进行思考与安排。",
+			say = "But... I'm sorry. I'm afraid I need more time to think this over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "这并非自由鸢尾要拒绝参展，对于撒丁帝国那边我也是如此回复的。",
+			say = "I promise to provide you with an answer after consulting with my friends and colleagues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "这样啊，那就先祝你一切顺利了。",
+			say = "Very well, do take your time. We all sympathize with Iris Libre's present situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207030,
-			say = "期待我们能在博览会会场上相遇哦~",
+			say = "In any case, I eagerly await your response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 900053,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "恕我直言，眼下我们要处理的事已经堆积如山了。",
+			say = "Cardinal, with all due respect, Iris Libre has too many things on its plate right now to justify going.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900053,
-			say = "况且还有维希教廷的问题，我觉得目前实在不是大张旗鼓进行庆祝的好时机。",
+			say = "While the issue with the Vichya remains unresolved, I fear that there is little room for celebration and fanfare...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "正相反，贞德。我觉得现在是一个难得的机会哦？",
+			say = "If I may, Jeanne. Iris Libre ought to participate precisely because the Vichya will be there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "正是由于维希教廷的存在，我们才更应该去参展。",
+			say = "Simply stated, the World Expo is a rare opportunity for the various camps to show off their culture, prestige, and... legitimacy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "维希教廷一定会参加，因为它想要证明自己作为鸢尾教国继承者的正统性。",
+			say = "If the Vichya participates while we do not, that will be taken as a sign that the Vichya is the legitimate heir of the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "如果我们不去的话，就算我们的盟友想支持我们，又要去哪里支持呢？",
+			say = "Besides, awkward as it may be, I do not think any disagreements between our two sides will devolve into conflict.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "届时，这个时隔多年的大型国际活动将会变成维希教廷的一言堂。",
+			say = "After all, the World Expo is ultimately a celebration of peace, and we are all expected to set aside our differences during this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "那在世人眼里，鸢尾教国岂不就真的完全被维希教廷代言了？",
+			say = "If we do end up running into each other, I don't think that's a particularly difficult situation to diffuse. Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900053,
-			say = "可怖，我承认你说的有道理……但是这样岂不是，我们要与维希教廷在同一个地方参展了么？",
+			say = "I see, you do have a point... But, what will the other factions make of us sharing the same space with the Vichya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "现状已经是这样了。",
+			say = "Who knows? It is what it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "我们现在实力太弱。与其在意面子上的问题，我觉得不如挣点实惠更好哦。",
+			say = "The reality is, Iris Libre and the Vichya Dominion are at a complete stalemate, with neither side having the power to break through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900237,
-			say = "况且，这样各阵营齐聚的场合是外交官的天堂，我们应该也能借此争取到更多朋友吧。",
+			say = "Regardless of what the Vichya decides to do, this is still a good opportunity for Iris Libre to make itself known on the world stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900053,
-			say = "……好吧，你说服我了。",
+			say = "You've convinced me. Cardinal Richelieu, I'm now in support of attending the expo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "看来你们已经达成一致了呢。",
+			say = "Phew... I'm glad we were able to reach a consensus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "既然决定参展，场馆的话，用凯旋门如何？",
+			say = "As for our exhibition, how about we use the technology of the Basilica to put on a holographic display?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "一座由虚像构成的凯旋门————",
+			say = "The quintessence of our technological development, and a representation of our piety...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 805010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "致敬那尚在远方，虚无缥缈，遥不可及，但又真实存在，必将到来的凯旋————",
+			say = "A spectacular dome that embodies the resurgence of the Iris... Nay, of all of humanity––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

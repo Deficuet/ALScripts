@@ -12,7 +12,7 @@ return {
 			actor = 102230,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪…太轻松了。",
+			say = "Something isn't right... That was too easy.",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算兵力再空虚，这里也是负责保护司令部的长岛防线。",
+			say = "What were they thinking, sending such small numbers? This is still the headquarters' defensive line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬真的以为靠这些杂鱼就能把要塞打下来么。",
+			say = "Did the Sirens really think they could breach our defenses with such a ragtag fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "除非————",
+			say = "Unless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————",
+			say = "BOOOOOOM--------!!",
 			flashN = {
 				color = {
 					1,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要塞被？！",
+			say = "We've been breached?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…不好了！！",
+			say = "Th-this is real bad!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞、塞壬的高阶单位…出现了！",
+			say = "The Sirens' elite... they're here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,9 +189,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "♪~",
+			say = "Ahahahaha! Ayoooo~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化者————",
+			say = "Purifier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "立刻撤回要塞近海。苦战，要开始了。",
+			say = "Juneau, we need to retreat to the harbor! We cannot defeat this Siren on our own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

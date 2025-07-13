@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，要不要和天狼星一起尝试一下冲浪呢？",
+			say = "Would you like to go surfing with me, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，一起试试吧。",
+					content = "Sure. Let's do it.",
 					flag = 1
 				},
 				{
-					content = "我不太擅长冲浪……",
+					content = "I'm not the best surfer.",
 					flag = 1
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没关系的，我骄傲的{dorm3d}，天狼星也不是很擅长，一起尝试最重要~！",
+			say = "It's okay if you're not the best at it. I'm not very good, myself. What matters is that we both have fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样的话……就能和{dorm3d}一起……",
+			say = "This way, we can be together more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有更多肌肤相亲的机会了……///",
+			say = "And perhaps we can even get a little physical...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

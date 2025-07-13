@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "成为爆破大师的娜比娅，总算找到了最适合自己的舞台。",
+			say = "Navi took to demolition work in no time. The job was a perfect fit for her.",
 			bgm = "qe-ova-4",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "每一次精确的爆破作业，都让她愈发热爱这份充满刺激的工作。",
+			say = "With each highly precise blasting operation, her love for the thrilling work deepened ever more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "废弃建筑在爆破声中轰然倒塌。",
+			say = "Boom – down goes another abandoned building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "橙红色的火光冲天而起，照亮了整片荒野。",
+			say = "Bright orange flames shoot into the sky, illuminating the surrounding wilderness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "娜比娅踏着轻快的步伐向前走去，脸上挂着张扬的笑容。",
+			say = "Navi walks over, her back to the explosion. There's a pep in her step and a big grin on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你还真是乐在其中啊……",
+			say = "Someone sure is having fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +111,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊哈~废柴{tb}你说对了哦~",
+			say = "Haha♪ Even you could tell, dweeb?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,11 +123,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟整个世界上也就只有人家能把毁灭变成这么棒的艺术呢。",
+			say = "I'm the only one in the world who can make destruction this much of an art!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么样，是不是被我的才能震惊到说不出话了？",
+			say = "What's wrong? So shocked by my genius that you can't even speak?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "身后的火光映衬着她格外闪亮的双眸。",
+			say = "The flames illuminate her from head to toe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,11 +158,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这份工作，简直就是为人家量身定做的呢！超完美~♪",
+			say = "You could say this job was basically made for me! I love it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

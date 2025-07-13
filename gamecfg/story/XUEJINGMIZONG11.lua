@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "电梯依然安稳地运行着。",
+			say = "The shipgirls proceeded deeper into the shelter.",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "众人已经不知道这是第几部电梯了——就像她们已经快数不清自己经过了多少安保区域一样。",
+			say = "As Soyuz said, they had to traverse through many security areas and ride several elevators.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "其中，甚至夹杂了几段需要换乘有轨电车通行的区域。",
+			say = "Then, they followed a long corridor and boarded a shuttle system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "在繁复的换乘后，众人终于来到了第一个目的地——大概。",
+			say = "Now, at long last, they had reached their destination – the manufacturing area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "不得不说，这里设计的也太复杂了……",
+			say = "Urgh, this place is drivin' me nuts...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "区域间用电梯隔断，设置多重检查……这些都还能理解，但轨道电车是不是有点太夸张了……？",
+			say = "It's one thing to have security checkpoints between areas and multiple elevators, but a frickin' SHUTTLE?! Come on, you must be joking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这还不简单~当然不可能设计成直上直下的基地啦。",
+			say = "Listen, this isn't some small missile silo. It's an enormous complex.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不然直接从地上入口附近向下一路打洞就好了，所谓的层层安保不就成摆设了？",
+			say = "If you could just ride an elevator all the way down to the bottom, you might as well get rid of all the security 'cause it could be so easily bypassed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "经过几次的电车换乘，你现在已经给分不清自己距离入口电梯的位置有多远了吧~",
+			say = "Getting confused by the bunker's layout? Guess what, that's on purpose. If you feel lost, imagine how lost an intruder would feel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "确实……我已经完全分不清了。",
+			say = "Good point. Breaking in would be one thing, but breaking out would be much harder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "我还是第一次在地下走这么远……",
+			say = "I'm... I'm running out of breath here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "这里真是太压抑了，有点怀念广阔的天空……",
+			say = "I've never walked underground this long before... I miss seeing the sky...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不用担心，你们的一路所见只是这座地堡的一小部分。",
+			say = "Hang in there. We're almost at the underground cave system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这座地堡的主体，其实都在位于最下方的广阔空间中。",
+			say = "That is where the heart of the bunker is located. We can take a break there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "……最下方的广阔空间？",
+			say = "Wait... underground cave system?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "据说千米冰层之下，可是有一片汪洋大海哦~",
+			say = "Yup! People have been saying for a long time that there's a sea underneath Antarctica's ice sheets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "冰层之下……有大海！？",
+			say = "Come again? An UNDERGROUND sea?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水星纪念说的没错。",
+			say = "Yes, it's true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "以前有理论认为，安塔迪卡的冰层下方有一处海洋——不过在得到验证前，一直就是理论罢了。",
+			say = "From a geographical viewpoint, the possibility of a subglacial sea in Antarctica has long been theorized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们最初也是将信将疑，直到我们真的把冰层挖穿。",
+			say = "Then, when we constructed this bunker, we found actual evidence for the theory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "总之，等到了最下方的「圆环区」你们自然就能见到了。",
+			say = "You'll see it for yourself once we arrive at the Ring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "至于现在么，我们还是得先完成首要目标才行。",
+			say = "First, though, we're going to find out what the intruder made in the manufacturing area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前方就是工厂区了。继续前进吧。",
+			say = "The production line is just up ahead. Let's hurry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "工厂区的大门打开的瞬间，刺骨的冷风迎面吹向了众人的脸庞。",
+			say = "The girls arrived in front of a roller shutter in the hallway connecting to the manufacturing area. As soon as it opened, a cold wind rushed out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "好冷！",
+			say = "Achoo! Sh-shit, that's cold!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "为什么只有这里没开供暖！",
+			say = "We're still underground, ain't we? Why isn't the AC workin'?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "生产线还在运作……这么冷的环境中，居然还能全自动生产啊。",
+			say = "This place is being cooled, not heated. Strange. It shouldn't be too cold at this depth, but it's as chilly as it was on the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟这是一座为了应对末日环境而修建的地堡，这种程度的温度自然不会让它的工作停摆。",
+			say = "It's a production feature. The environmental temperature is optimized over in manufacturing, so it's not surprising that the temperature may not be very comfortable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不过……还是先把照明和供暖打开吧。",
+			say = "Anyway, let's turn off the cooling and switch on the lights.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "带着暖意的光芒逐次亮起，隐藏在黑暗中的景象也渐渐展现在众人面前。",
+			say = "The lamps came on in sequence, casting a warming light over the dark area, slowly revealing more and more of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "RF-17-36制造区，是这一区域在「智者之环」中的正式命名。",
+			say = "Before them was Production Line HL-17-36.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "是地堡中数百个生产区域中的一个，规格等同于「大地设计局」一个标准工厂的大小。",
+			say = "This was but one of hundreds of manufacturing lines inside the bunker, and its scale was on par with that of a standard factory. A Zemlya Design Bureau factory, to be precise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "在原本的规划中，RF-17-36制造区作为军用品生产区，生产的应该是用于冰原作战的陆地载具。",
+			say = "Originally, this line was designed to produce mainly land vehicles for traversing ice fields and machine parts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "不过此刻，生产带上源源不断完成组装并被运输至地堡上层的“物品”，与原本的规划天差地别——",
+			say = "That was not what was being produced now, however. The production line was creating something else and transporting it up into the bunker's superstructure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "这，这是在用什么，加工……什么？",
+			say = "What on Earth is going on here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "进去的是冰块和土石……",
+			say = "The machines are taking ice, rock, and sand... and using them to create those crystals!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "出来的竟然是我们在寻找的、那些淡蓝色的晶体？",
+			say = "The crystals are manmade?! How is that possible?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "无法理解……",
+			say = "This doesn't make any sense...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "也就是说……“融雪区”是我们自己的设施做出来的……“特殊矿物”也是我们自己的设施做出来的？",
+			say = "Those crystals discovered in the snowmelt area... they came from here? They were made in a bunker? A bunker that WE built?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是用的……冰和土石块？",
+			say = "And outta ice and rock, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用这种东西要怎么做出来那种纯净结晶啊！",
+			say = "How the hell do you create crystals out of rock and ice?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "而且，结晶不是确实有效的么？！",
+			say = "Soyuz, are these crystals the real deal? They can't be, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "……这该不会，是什么炼金术吧。",
+			say = "This has to be alchemy... Or black magic, or something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们的流水线系统被重新编程了，因此导致了工艺流程发生变化。",
+			say = "No... These crystals are genuine. The production line has been repurposed to produce them through some mysterious means.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不过很可惜，数据已经被删除了。",
+			say = "It doesn't seem like we'll learn how, either. The manufacturing machines have all been destroyed from the inside, and there are no logs left...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "被删除了，什么时候？",
+			say = "Destroyed from the inside? When?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "看上去是在我们开灯后。这里毕竟是低温制造区……供暖启动之后，会触发停机程序。",
+			say = "The moment we entered this area, I believe. Most likely, the change in temperature served as a trigger for the logs and machines to self-destruct.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我们的对手，很狡猾的将其设置为了一旦停机就会自行清空数据，让我们一无所获。",
+			say = "I'm afraid that we won't find anything useful here beyond more crystal samples.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "话音未落，流水线的轰鸣声骤然停止了。",
+			say = "With a sudden loud bang, the production line came to a complete stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "用这种方式让我们产生失之交臂的挫败感么……可恶。",
+			say = "My hopes were low, but I didn't expect we'd have THIS poor luck...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "我还是无法理解生产线上发生的一切……",
+			say = "Ognevoy might be right. What happened here falls in the domain of magic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我也无法理解……但事实就是如此。",
+			say = "Yes, I can't begin to grasp it either. All we know is that it DID happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓的矿物，就是由这两种常见的材料人为生产出来的。",
+			say = "Through some means, the ice and rock were combined to form the crystals, which were then carried to the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "至于是如何做到的，为什么会有共鸣特性，我们还需要进一步调查。",
+			say = "We will need to conduct research into how this was done, and how the mechanism behind the rigging resonance works.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "接下来要去的是数据处理中心……希望数据之中会存在我们想要的答案。",
+			say = "We didn't find much here, so it's time to try the data center. I hope we'll find what we're looking for there.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -15,7 +15,7 @@ return {
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指~挥官~！",
+			say = "Commandeeer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "大厅之中，一个悄悄前进潜伏多时的身影飞扑了上来。",
+			say = "I greet the girls as they rush inside the room hosting the central unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,13 +65,13 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			hidePainting = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂——！我才是飓风船团的团长，迎接胜利的拥抱应该让我来才对！",
+			say = "Oi! I'm the leader, that means I get first dibs on hugging the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,12 +86,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看到您没事真是太好了。",
+			say = "My darling! I'm so glad you're safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,12 +101,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又是一次有惊无险的胜利呢。",
+			say = "Looks like the plan worked in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,11 +116,11 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，就是好累……",
+			say = "Even if it was a real pain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +130,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，指挥官我跟你说，朴茨茅斯冒险号这人，太有意思了！",
+			say = "Commander, you gotta hear what Portsmouth did!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +145,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是没看到她刚才用出来那些稀奇古怪的手段……噗哈哈哈。",
+			say = "She took her ship, right, and then she just... Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,12 +159,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~既然说是方法不论，那自然可以畅快释放一下了~",
+			say = "Said we could take care of 'em any way we wanted, didn'tcha? So I took my ship 'n' rammed the buggers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一点都不优雅……真不知道我一开始为什么会选择跟你组队。",
+			say = "You're such a kid. Why do I work with you again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,12 +187,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "魔导书·特米娜露",
+			actorName = "Grimoire Terminal",
 			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
+			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很高兴再次见到您，伟大的维达大人。",
+			say = "It's good to see you again, Whydah the Magnificent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,12 +202,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，特米娜露！",
+			say = "No way! Terminal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +217,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你把它修好了？！",
+			say = "You fixed it, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "激动的维达竟突然小跑了起来，将特米娜露抱入了怀中。",
+			say = "Whydah runs up and pulls the tablet into her embrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔啊~亲一个~",
+			say = "Terminal, my beloved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +258,11 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "云墙守卫",
+			factiontag = "The Golden Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "云墙守卫",
+			factiontag = "The Golden Tempesta",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，旁边的那位是？",
+			say = "Who is that, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,21 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "众人的目光集中到了一旁静静站立的幻想号的身上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这位，就是将我从海中风暴中救出，而后又协助我联系诸位，并将我安全带到这里的人。",
+			say = "Martinho's words get everyone else's attention. The girls all look at Fancy, who's next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,22 +298,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自称为从幻想之中诞生的深海魔物，幻想号。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			hidePaintObj = true,
-			say = "幻想号似乎对这个介绍很满意，微微昂起了头，触手也翘了起来。",
+			say = "Well, she's the one who saved me from the storm, put me in touch with you, and showed me to this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,11 +312,36 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这位幻想号，或许和女神教会，还有冈依沙瓦号小姐有些缘分呢？",
+			say = "Her name is Fancy. She's a shipgirl and an abyssal being.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			hidePaintObj = true,
+			say = "Fancy raises her chin, satisfied with that introduction.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "She might even have ties to Ganj-i-Sawai and the Church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,13 +351,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "……嗯？",
+			say = "Pardon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,13 +367,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "{playername}阁下的意思我不是很明白，我应该是第一次见到这位幻想号小姐才是……",
+			say = "I don't know what you mean. I've never seen her before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,11 +383,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在特米娜露的帮助下，我已经完成了对于女神主机的检查。",
+			say = "That aside, Grimoire Terminal allowed me to have a look at the Goddess' central unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,11 +397,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "检查的结果、关于幻想号的情报，以及我这一路上的经历的事，就由我来向诸位进行说明吧。",
+			say = "Let me run you through what happened and what the deal is with this huge machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,23 +430,23 @@ return {
 			},
 			sequence = {
 				{
-					"就这样，我将一路上的战斗、女神主机所进行的实验，",
+					"I explained the gist of everything I had learned.",
 					1
 				},
 				{
-					"以及幻想号的能力对众人进行了说明。",
+					"The silent souls, the cause behind the monsters, the reason why Fancy is here.",
 					2
 				},
 				{
-					"同时，将女神主机的当前状态进行了选择性交代。",
+					"Although, I withheld some details about the central unit and its status.",
 					3
 				},
 				{
-					"隐去了与塞壬有关的部分，而着重强调了女神主机是因为人为原因而陷入异常状态的。",
+					"All I told them was that someone had tinkered with it, leaving the Sirens completely unmentioned.",
 					4
 				},
 				{
-					"果然，冈依沙瓦号对此似乎并不意外。",
+					"As you'd expect, they were all shocked, especially Ganj-i-Sawi on account of her Church involvement.",
 					5
 				}
 			}
@@ -457,11 +457,11 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"再之后，我将对于女神主机可选的处理方案向众人做了介绍。",
+					"I finished by bringing up a few ideas on what to do about the central unit.",
 					1
 				},
 				{
-					"现在，到了飓风船团做出决定的时候了。",
+					"Now it's time for Tempesta to decide the fate of their world.",
 					2
 				}
 			}
@@ -470,11 +470,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到，女神和青春之泉一样……都是一台旧纪元遗留的大机器……",
+			say = "Can you believe it? The Goddess was an ancient artifact, just like the Fountain of Youth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,12 +501,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神的庇护……也只是预设好的东西……",
+			say = "To think her graces were just nothing more than an attempt to maintain balance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,11 +516,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们女神教会早就知道这个秘密了吧！为什么不说出来嘛！",
+			say = "The Church must've known that for ages. Why didn't you tell us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,13 +530,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "至少女神的庇佑是真实有效的，不是么？",
+			say = "You say that, but her protection IS real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,13 +546,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "而且……你真的喜欢一个真实存在的，有着自己喜怒哀乐的“神”，站在高高在上的地方俯瞰你么？",
+			say = "Also, don't you like her more now? Isn't this better than a real deity who judges you from the heavens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,12 +562,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……想了想，还是没有比较好。",
+			say = "Hmm. That's true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,13 +577,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "对吧？所以要来加入女神教会么？",
+			say = "So now that you know the truth, won't you join the Church? Come and praise the Goddess with us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……啊？我还没开始拉人……怎么先被你拉了！",
+			say = "What's with the sudden recruitment attempt? You join Tempesta first and I'll think about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,13 +608,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "因为现在对于女神主机的未来，你们打算投票解决吧？",
+			say = "I'm not going to let outsiders to the Church decide what to do with the Goddess' powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,13 +624,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "可是女神主机是教会的信仰来源，从立场上来说，我不能允许这种事的发生。",
+			say = "Unless you join, I won't accept the results of anything you vote on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,13 +640,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "所以只要诸位先加入教会，我们之间统一阵营，矛盾自然也就不存在了？",
+			say = "At the same time, you'll no longer be outsiders if you join, and you can vote with the rest of the Church on what to do with the central unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,11 +656,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果你是这么想的话，那倒是多虑了。",
+			say = "Sod that. I'm not joining any bloody church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,12 +670,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我虽然对于女神教会无感，不过对于女神主机的看法，恐怕和你还有指挥官差不多。",
+			say = "Besides, whether we join or not, we all have the same idea of what to do with the unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,11 +685,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我在刚才的描述中应该没有暴露出我自身的观点倾向吧。",
+			say = "I don't remember stating my take on what we should do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,11 +699,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有哦，你的描述很客观。",
+			say = "You didn't. You just gave us the facts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,12 +713,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过——我可是这里最了解你的人哦。",
+			say = "But let's not forget I know you better than anyone else here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,11 +728,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果你真心认为这台机器对我们来说是极其危险又有害的，我们还能完整看到它么？",
+			say = "Assuming this thing really is a threat and a burden, why should we waste time voting on what to do with it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "迎着我无奈的目光，皇家财富号俏皮地眨了眨眼。",
+			say = "Royal Fortune winks playfully at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,12 +753,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，都考虑的差不多了吧？",
+			say = "So! What's it going to be, folks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,11 +768,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对于女神主机是修是毁，大家来投票吧~",
+			say = "Do we bring it back to normal, or do we wreck it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,12 +782,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "云墙守卫",
+			factiontag = "The Golden Tempesta",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "修复女神，让风与海洋再度庇护我们吧。",
+			say = "Let it be restored so the wind and the sea will protect us once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,12 +797,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯！我也觉得有这么一位女神比较好。",
+			say = "Agreed! Better to have a Goddess than not, in my opinion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,12 +812,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁机卖女神教会一个大大的人情可是笔好生意，我也选修。",
+			say = "The Church will be greatly indebted to us if we fix it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,12 +827,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，毕竟是旧纪元的遗物，如果能修好的话还是应该修的。",
+			say = "It's an ancient artifact. Repairing it is the best option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,11 +842,11 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我都行~",
+			say = "I don't really care either way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,12 +856,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可以选择“偷”么……？",
+			say = "Is there a \"Portsmouth can have it\" option?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,12 +871,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行！",
+			say = "No!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,12 +886,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就修吧……",
+			say = "Damn. Fix, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,11 +901,11 @@ return {
 			actor = 9600090,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，当然是要修啦。",
+			say = "Fixing it is the obvious thing to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,12 +915,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "船团新人",
+			factiontag = "Rookie Pirate",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们修好女神吧~！",
+			say = "Let's fix up the Goddess!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,12 +930,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最终结果，九票同意，零票反对，一票弃权~",
+			say = "Alright, nine support fixing it, zero want to break it, and one just doesn't care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,11 +945,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看，冈依沙瓦号，我们之间不存在矛盾吧？",
+			say = "See, Sawai? It's unanimous, and nobody even had to join any church!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,13 +959,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "浮动宝库",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "诸位的决定真是英明又睿智，我代表女神教会向诸位表示感谢。",
+			say = "Wonderful! On behalf of the Church, thank you all for your resolution!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,11 +975,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特米娜露，按照修复方案调整女神主机系统吧。",
+			say = "That's that. Terminal, proceed with the system backup plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,12 +987,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "魔导书·特米娜露",
+			actorName = "Grimoire Terminal",
 			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
+			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指令已确认——正在执行修复程序中——",
+			say = "Orders received. Starting system restore program.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,12 +1000,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "魔导书·特米娜露",
+			actorName = "Grimoire Terminal",
 			bgName = "bg_jufengv2_2",
-			factiontag = "旧世遗产",
+			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "预计耗时——15小时23分钟。",
+			say = "Estimated time until completion: 15 hours and 23 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,12 +1015,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时间好长！",
+			say = "This is gonna take all day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,12 +1030,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来，只能慢慢等了呢。",
+			say = "Well, seems we'll just have to wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,11 +1045,11 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "飓风船团",
+			factiontag = "The Pactsworn Tempesta",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……那我先去睡一觉，晚安。",
+			say = "*yaaawn*... You do that... I'm gonna catch some z's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1059,12 +1059,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯——说起来，这里是女神教会的圣殿对吧？",
+			say = "Oh, right, I just remembered!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,11 +1074,11 @@ return {
 			actor = 9600100,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，幻想号小姐，幻想号小姐~？",
+			say = "Fancy! Fancy, ya there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,11 +1088,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？",
+			say = "Pardon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,12 +1102,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你一直待在这里，对这里了如指掌对吧？",
+			say = "You live in this place, yeah? So ya gotta know this place inside out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,11 +1117,11 @@ return {
 			actor = 9600100,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣殿里有什么储藏室一类的么？有什么吃的喝的么？",
+			say = "There a pantry or pub 'round here? Got any grub 'n' spirits?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,12 +1131,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“吃的”，“喝的”？",
+			say = "Spirits, you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,11 +1146,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有，有很多，到处都是。",
+			say = "Yes. Those are everywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,11 +1160,11 @@ return {
 			actor = 9600100,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇……真是太好了！快带我去！带我去！",
+			say = "Jackpot! Get in there! Where're they at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,12 +1184,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……？你也想吃么？",
+			say = "You want to consume them, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,12 +1199,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我带你去雾池。",
+			say = "I'll show you to the Misty Pond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1214,11 +1214,11 @@ return {
 			actor = 9600100,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "寻宝猎人",
+			factiontag = "Treasure Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈，走吧走吧~！",
+			say = "Brilliant name for a bar! Let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,11 +1238,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（…………）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1252,11 +1252,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（祝你好运，加油。）",
+			say = "(Port's mouth is in for an adventure.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

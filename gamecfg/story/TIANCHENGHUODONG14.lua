@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-tiancheng",
 			dir = -1,
-			say = "{namecode:92}！",
+			say = "Kaga!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…{namecode:161}…？！你怎么会在这里！！",
+			say = "Amagi...?! What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "怎么会在这里…还不是因为你这家伙的无理取闹！！",
+			say = "I could ask you the same thing. Why are you doing this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "什么“联合舰队和重樱的未来就拜托你了”…丢下一句话就想一了百了了吗！",
+			say = "For the future of the Combined Fleet? The Sakura Empire? Are you trying to sound cool, acting like death will solve all your problems?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 305070,
 			dir = 1,
-			say = "……哼，我说过了，这不过是弱者的…",
+			say = "I already told you! If I'm going to be converted into something as weak and pathetic as a carrier, I'd rather...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "啪——！",
+			say = "Slap-!",
 			flashN = {
 				color = {
 					1,
@@ -121,7 +121,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:161}在{namecode:92}的脸上狠狠的扇了一个耳光",
+			say = "Before Kaga could finish her sentence, Amagi's palm whipped across her face sharply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "天天把强者弱者挂在嘴边，你是哪门子的悲剧英雄么！现在害得这么多同僚为了你陷入危险！",
+			say = "Every day, you prattle on about the \"strong\" and the \"weak\" as if you were the tragic hero of some opera. But while you wallow in fantasies of your own making, your comrades now bleed because of your selfishness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,23 +153,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "这个世界上，强者与弱者从来都不是由外部因素决定的。你口中的“弱者”不过是逃避自我的借口罢了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			actor = 305070,
-			dir = 1,
-			say = "……",
+			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +169,23 @@ return {
 			side = 2,
 			actor = 305070,
 			dir = 1,
-			say = "就算你这么说，现在这个被条约所束缚的我…也没有战斗下去的资格了……！",
+			say = "... ... ....",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 2,
+			actor = 305070,
+			dir = 1,
+			say = "Then tell me... now that I am shackled by the Treaty, how am I supposed to fight?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这点我已经想好办法了。在此之前我已经向{namecode:74}大人请求过了",
+			say = "I've already taken care of that. I consulted Nagato-sama before coming here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只要你能回到港区再举行一次演习，展现自己的实力的话，退役什么的都是可以取消的！",
+			say = "As long as you can make it back to port and display your power at the next wargame, you can prevent being decommissioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此…此话当真？！",
+			say = "... Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也没有骗你的理由吧？",
+			say = "What reason would I have to lie to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:92}惊诧的看着{namecode:161}，简直不敢相信自己的命运又有了转机",
+			say = "Kaga could only stare at Amagi in surprise, as if not allowing herself to believe that a path still was in front of her. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "不过…在此之前，我们要先想想如何才能从这里全身而退了…",
+			say = "But before we get ahead of ourselves... we have to find some way to get everyone out of here safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看着再次铺满天际的敌机，{namecode:161}深深吸了一口气，将精力重新集中到了舰队指挥之上",
+			say = "Amagi turned once more to face the sky darkened by enemy aircraft. Drawing a deep breath, she steeled her resolve and focused her energy towards commanding the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "不要放弃！我们的侦察机已经锁定了塞壬航空母舰的位置，只要我们突破这里，就能直取敌将首级了！",
+			say = "Do not lose hope! Our recon planes have already located the Siren carrier's location. If we hold out here, we will be able to break through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "全员，准备对空对海作战，目标只有一个------塞壬的航空母舰！",
+			say = "Everyone, prepare for anti-air combat! We have but one target - the Siren carrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

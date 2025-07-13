@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "理应瓦解天地万物的光束终于遇到了对手，一股更加柔和的力量正在一寸寸将其中和着。",
+			say = "That which I'd seen destroy the world before was halted by a gentler force, which weakened it more with every passing second.",
 			bgm = "story-ironblood-light",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "天地在此刻无声，万物在此刻沉寂。",
+			say = "Silence took over the battlefield, engulfing all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "就这样过了许久——",
+			say = "Ages seemed to pass in this moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "终于，光芒逐渐消散，星之兽也随之一同消失了。",
+			say = "When the light disappeared, so too did the Star Beast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "我们……胜利了？",
+			say = "Did we... win?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,173 +107,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "完美胜利哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 403020,
-			nameColor = "#5CFFC0",
-			hidePaintObj = true,
-			say = "吼呀~姐妹同心，其利断金！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			nameColor = "#FFC960",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 9703050,
-			say = "简直像做梦一样……我们胜利了啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 407040,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:450:布吕歇尔}，{namecode:428:欧根}……？！你们这是……复活了么？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 403030,
-			nameColor = "#5CFFC0",
-			hidePaintObj = true,
-			say = "好久不见啊，鲁梅，连你都变成抵抗军的领袖了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 403030,
-			nameColor = "#5CFFC0",
-			hidePaintObj = true,
-			say = "很遗憾，我们这不能算复活，顶多算随着心念而诞生的一现昙花呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#FFC960",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 9703050,
-			say = "昙花一现……你们要走了么？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CFFC0",
-			actor = 403030,
-			say = "嗯，既然你所期望的未来已经出现，我们也该功成身退了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#FFC960",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 9703050,
-			say = "……这样啊，能知道你们还以这种方式存在着，我就放心了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			nameColor = "#FFC960",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 9703050,
-			say = "我什么时候能去找你们？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 403030,
-			nameColor = "#5CFFC0",
-			hidePaintObj = true,
-			say = "嗯——好好保重身体，然后等你变得更强一些？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CFFC0",
-			actor = 403030,
-			say = "或许这样你就能找到我们了~亦或许，你会意识到——我们其实从未分离过。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#FFC960",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 9703050,
-			say = "……虽然我不太懂，但我一定会好好保重身体，继续变强，然后找到你们的！",
+			say = "It was a perfect victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +122,48 @@ return {
 			actor = 403020,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "姐姐，加油！",
+			say = "Heheh☆ Our bond can beat anything!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			nameColor = "#FFC960",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 9703050,
+			say = "I swear, I must be dreaming... We really, really won?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 407040,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Blücher? Eugen?! Have you come back to life somehow?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 403030,
+			nameColor = "#5CFFC0",
+			hidePaintObj = true,
+			say = "It's been a while, Rumey. Who knew you'd become the leader of the Resistance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,31 +178,20 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "也别忘了好好补充营养哦，姐姐~",
+			say = "Sorry, but we haven't. Consider us just a fleeting illusion born from hopes and dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 2,
+			expression = 5,
 			nameColor = "#FFC960",
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "哼，用你说！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			say = "一阵海风吹过，{namecode:427:欧根亲王}和{namecode:450:布吕歇尔}的幻影似乎又淡了一些。",
+			say = "A fleeting illusion... Does that mean you're leaving me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +205,143 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			actor = 403030,
-			say = "时间差不多了~非常感谢一直以来诸位对于姐姐的照顾，从今往后，姐姐也继续拜托你们了哦~",
+			say = "The future you dreamed of is reality now. Our job here is done.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#FFC960",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 9703050,
+			say = "Oh... Well, knowing that you two live on in this state is still a relief.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			nameColor = "#FFC960",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 9703050,
+			say = "When can I see you again?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 403030,
+			nameColor = "#5CFFC0",
+			hidePaintObj = true,
+			say = "Take care of yourself and keep getting stronger, and maybe then...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CFFC0",
+			actor = 403030,
+			say = "You might just be able to find us... Or you might even realize that we've been with you all along.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#FFC960",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 9703050,
+			say = "Doesn't make much sense to me. But okay... I'll take care of myself. I'll get stronger. And someday, I will find you two!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 403020,
+			nameColor = "#5CFFC0",
+			hidePaintObj = true,
+			say = "We're cheering you on, Hipper!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 403030,
+			nameColor = "#5CFFC0",
+			hidePaintObj = true,
+			say = "Sure are. And keep an eye on your nutrition, got it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#FFC960",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 9703050,
+			say = "You don't have to tell me that!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			say = "A sea breeze blows through, and Prinz Eugen and Blücher begin to fade.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CFFC0",
+			actor = 403030,
+			say = "It's time for us to go... Thank you all for taking such good care of our sister. Keep her safe for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "放心吧，{namecode:428:欧根}，我们一定会取得这场战争的最终胜利的！",
+			say = "No worries there, Eugen. We will win this war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "我相信你们。",
+			say = "I believe you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "刷刷——",
+			say = "SHUFFLE...",
 			soundeffect = "event:/ui/xipai",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "耳边传来了洗牌的声音。这一次的声音又轻又慢，仿佛在刻意留出时间，让人做好准备一般。",
+			say = "There's the sound of shuffling cards again. But it's softer and slower, as if giving me time to prepare before I'm taken away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,20 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "我知道，离别的时间要到了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "诸位，我们一同取得了一场伟大的胜利。",
+			say = "It's time to say goodbye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +434,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "今天之后，星之兽将不再是一柄悬在世界头上的利剑，而是一个胜利的符号，一个希望的象征。",
+			say = "Everyone, we've achieved a great victory today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +447,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "恭喜你，{namecode:542:弗里茨·鲁梅}女士，你的反攻行动迈出了坚实的第一步。",
+			say = "From now on, the Star Beast is no longer a sword hanging over the world – it's a symbol of victory and hope.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Congratulations, Fritz Rumey. Your counteroperation has taken a great leap forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "指挥官……多谢。",
+			say = "Commander... Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "{playername}阁下，你也要走了么？！",
+			say = "You're not leaving too, are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯。",
+			say = "...I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "我们还有机会再见么？",
+			say = "Will we ever see you again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "一定有的。",
+			say = "Of course. I'm certain of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "{playername}阁下，你永远是铁血抵抗军的指挥官，一路保重。",
+			say = "You will forever be the Commander of the Iron Blood Resistance. Take care of yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "呵呵——指挥官。",
+			say = "Heheh... Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			actor = 403030,
-			say = "我该说好久不见——还是回头再见呢？",
+			say = "Long time no see... Or perhaps should I say, \"I'll see you soon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（……？！）",
+			say = "(What?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

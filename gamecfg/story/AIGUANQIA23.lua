@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "港区，皇家宿舍附近",
+			say = "Port - Near the Royal Dorms",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（爱酱回到原来的世界也过了一段时间了，最近的港区一片和平）",
+			say = "(Some time has passed since AI returned to her original world. Since then, the waters near the port have been peaceful.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（爱酱有说过回到原来的世界以后会投稿动画什么的呢。我们在港区也能看到就好了……）",
+			say = "(AI mentioned that after she returns to her world, she would post a video of some sort. I wish we could see it from this side...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我们最近都过得很好哦！爱酱在原来的世界也过得好吗？拍摄动画的时候有没有不小心又捅出什么篓子之类的，标枪很担心呢）",
+			say = "(We've been having a good time here! How have things been for you on your world, AI? You didn't accidentally pick up a scorpion while shooting your video, did you? I'm a bit worried...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（哈啊，如果能联络爱酱就好了……）",
+			say = "(Haah... I wish I could send this to AI somehow...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱，过得还好吗……",
+			say = "AI... I wonder how you're doing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			stopbgm = true,
-			say = "摸摸摸摸，这位小姐真可爱啊～～！能告诉姐姐你的名字吗？",
+			say = "Rubrubrubrub~! This little cutie over here is soooo precious~! Could you tell big sis' your name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……诶？",
+			say = ".......Eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱～～～～！！！？？？",
+			say = "AIIIIIIII----------?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "如此如此这般这般，似乎随机单词生成器以我的3D模型为原型制作了拷贝呢，我也是不久前才注意到的，也是吓了一跳呢～",
+			say = "By the way, it seems that the random word generator made a copy of my 3D model. I only discovered this recently, so imagine how surprised I was~!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的～！这种事情要早点说嘛～～～！",
+			say = "Jeez~! You should have said that earlier~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，爱酱又回到港区了，绫波很高兴，的说",
+			say = "However, AI is back again. Ayanami is very happy, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊！这下就能一直在一起了吧？",
+			say = "That's right! Will you be able to stay this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！和原来世界的我能够随时同步记忆，所以算是同一人物，设定上没有问题，嗯！",
+			say = "Mmhmm! I will be able to synchronize my memories with my other self in the original world, so we're the same person. There's no problem with the setting, yup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是智能的超级AI。拉菲，越来越想知道绊爱世界的事情了",
+			say = "As expected of a super intelligent A.I. I... want to know more and more about Kizuna AI's world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是虚拟的嘛！无论什么事情都是可能做到的哦！",
+			say = "It's because I'm virtual! Anything is possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是“HappyEnd”吧！",
+			say = "I see, I see! So this is that obligatory \"happy ending!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直是{namecode:14}也想“点赞”一样的展开呢",
+			say = "I'd like to try clicking on the \"Like\" button.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是什么事情，都放心交给我这个智能超级AI吧♪",
+			say = "No matter what it is, you can count on me! I'm an intelligent super A.I. after all~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来，也请多多关照绊爱咯！",
+			say = "From here on out, I'll continue to be in your care!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,23 +371,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>只要伸手 总有一天终能触及</size>",
+					"<size=51>As long as you reach out, there will come a day when our hands can connect.</size>",
 					2
 				},
 				{
-					"<size=51>始于纯白无际之处的「奇点」</size>",
+					"<size=51>The \"Singularity\" that begins from beyond the boundaries of Pure White...</size>",
 					4
 				},
 				{
-					"<size=51>孕育出本不应存在的「羁绊」</size>",
+					"<size=51>Builds a bond between those that would never meet.</size>",
 					6
 				},
 				{
-					"<size=51>那是 诞生于这片纯白之人</size> ",
+					"<size=51>That is the reason why I was born into Pure White.</size> ",
 					8
 				},
 				{
-					"<size=51>与 苍蓝行星孕育出的生命之间的誓约</size>",
+					"<size=51>To make a promise with those who were born onto a star streaked with lanes of azur...</size>",
 					10
 				},
 				{
@@ -395,7 +395,7 @@ return {
 					11
 				},
 				{
-					"<size=51>                                                              ——「世界同步、执行——」</size>",
+					"<size=51>                                                              -- \"Synchronicity.\"</size>",
 					12
 				}
 			}

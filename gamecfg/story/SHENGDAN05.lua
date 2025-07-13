@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>五 大家的圣诞老人</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 5 - Our Beloved Santa</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "港区•白鹰生活区",
+			say = "Port - Eagle Union Dormitory",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "服装就绪、礼物就绪，好！",
+			say = "Clothes, check... Presents, check!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "企业酱，围巾都没戴好哦。当心着凉呢，来~好，这下就没问题了~",
+			say = "Your muffler isn't on right, Enterprise... We can't let you get sick again, can we? There, now you look perfect.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "咳、咳咳…现在的我不是企业！是为孩子们带来梦想与欢笑的“圣诞老人”！",
+			say = "Ahem! ...Didn't I tell you? Today I'm not Enterprise, I'm Santa Claus, adored by children around the world. Got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是~路上小心，要加油哦~“圣诞老人”~",
+			say = "Of course. Take care delivering all those presents, now... Santa Claus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "首先是——",
+			say = "...So, the first present goes to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！是企业！？吓得我冰棒都要掉了……",
+			say = "Yikes! Enterprise?! You almost made me drop my popsicle...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -144,7 +144,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是企业，是“圣诞老人”哦~来，这是你的礼物，圣诞快乐~",
+			say = "I'm not Enterprise, I'm Santa Claus. I've got a present for you. Merry Christmas.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢，有种不知该说是惊喜还是惊吓的感觉呢……",
+			say = "T-thanks... I'm not sure if I should be happy or surprised...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企、企业？！",
+			say = "Is that you, Enterprise?!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -210,7 +210,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是企业，是“圣诞老人”，接着你的礼物~圣诞快乐~",
+			say = "I'm not Enterprise, I'm Santa Claus. Here, have a present. Merry Christmas.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~谢谢~",
+			say = "T-thank you very much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是企、——",
+			say = "Enter...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是企业，我是“圣诞老人”。",
+			say = "No, not Enterprise. I'm Santa Claus.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -295,7 +295,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "圣、诞老人…",
+			say = "S-Santa Claus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞快乐~努力的乖孩子应当得到礼物~",
+			say = "Correct. Merry Christmas. Here, a present for a girl who's always exerting herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是、是！克雷文接下来也会继续努力的！",
+			say = "Th-thank you! I'll keep giving it all I've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "！——",
+			say = "Ack!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -372,7 +372,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是“圣诞老人”，平时辛苦啦~圣诞快乐~接着礼物~",
+			say = "I'm Santa Claus. And you're a hard worker. Merry Christmas. Here, have a present.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -391,7 +391,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦、哦哦！谢谢！",
+			say = "Oh, sure...! Muchas gracias!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姐、姐姐…？",
+			say = "E-Enterprise...?!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -438,7 +438,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不是姐姐，是“圣诞老人“…呼，差不多也快说厌了呢……",
+			say = "I'm not Enterprise. I'm Santa Claus. ...Ugh, I'm so tired of all these people calling me Enterprise...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -457,7 +457,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给乖孩子的礼物，圣诞快乐~接着~",
+			say = "Here, a nice present for a nice girl. Take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姐、姐姐…我早就已经不是小孩子了啦——",
+			say = "Come on, Enterprise... I stopped being 10 long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发现圣诞老人！",
+			say = "Hey, look! I found Santa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "啊哈，这里还一个需要礼物的孩子，来~圣诞快乐~",
+			say = "Hahah! Looks like someone else has to hand out presents too. Here, Merry Christmas.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -521,7 +521,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！我也有份吗~谢谢圣诞老人~",
+			say = "Whoa! One for me?! Thank you, Santa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这张照片就叫《驯鹿之主》吧，虽然没驾着驯鹿来，但也是圣诞老人呢~",
+			say = "I guess I'll name this one \"Reindeer Master.\" Because Santa doesn't need reindeer to still be Santa!",
 			flashout = {
 				black = false,
 				dur = 0.35,

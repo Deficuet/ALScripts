@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>三　从「风筝」开始的联系</size>",
+					"Full Steam Ahead!\n\n<size=45>3 Ride the Island Breeze</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "Port - Daytime",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "正午刚过。{namecode:18}就已经把本日的工作都做完了。",
+			say = "Shimakaze finished her last task for the day, sat down, and yawned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，到头来检讨书才是最费事的工作……啊，当然我很用心地写了哦！",
+			say = "Gosh, writing that report was easily the most taxing thing I did today... That said, I really did pour my heart into it!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "为了犒劳她这段时间的努力，批准她今天剩下的时间可以自由行动。",
+			say = "After thanking her for her hard work, I decided to give her a break which she could spend however she wanted.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "当然，这里面也多少有点想借机观察下{namecode:18}的想法。",
+			say = "That wasn't to say I was done with her for today. I just wanted to see Shimakaze in her \"natural habitat,\" so to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "那么{namecode:18}现在在哪呢——",
+			say = "And so, I went to look around in order to see what she was up to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，做好了呢。",
+			say = "Wow. It's finished already...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶嘿嘿！挺不错的吧！只用塑料袋和吸管就能做一个风筝！",
+			say = "Mhm! Making a kite is easy, you know! All you need is a plastic bag and a bit of string!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！{namecode:18}的“个人档案”里也写了喜欢收集风筝呢！",
+			say = "I see, I see! The dev notes did mention that your hobby is collecting kites, no wonder you're an expert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "你很懂嘛~不过我自己没什么有在哪里写过这个的印象哎……总之就觉得光是收集还不够，于是自己也学会制作了！",
+			say = "I didn't think you'd know that! Though, I'm not sure what those \"dev notes\" are... In any case, it started with me collecting them, but then I got really into making them myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会难得，放飞这个风筝前，我想再装饰装饰。",
+			say = "Now, before we fly it, I think we should paint something pretty on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让{namecode:13}大人画上可爱的图案吧！",
+			say = "Good idea! Lemme go get some brushes and paint!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来{namecode:18}在和{namecode:14}、{namecode:13}一起热闹地扎着风筝。继续观望吧————",
+			say = "Shimakaze was hanging out with Inazuma and Ikazuchi, and the three of them were making a kite together. I observed them from a distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "做好了！画了可爱的{namecode:18}插图贴上去了。",
+			say = "All done! I drew a cute little picture of you and stuck it to the kite.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哇——！这个是{namecode:18}哎！呜……我果然是一副不讨喜的样子么……",
+			say = "That's me? Oh my god! I really do have a face only a mother could love, don't I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是艺术的夸张表现啦，你要是这么在意我可就头疼了。",
+			say = "Don't put yourself down like that. It's a caricature. It's supposed to be exaggerated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且比画{namecode:18}舰装的时候进步了哦。",
+			say = "Yeah. At least it looks a lot better than the one I drew on your rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊哈哈，原来如此原来如此，那个我现在也很喜欢呢！",
+			say = "Hahaha! You know, I'm still quite fond of that one even now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦好啦，快点放风筝吧！",
+			say = "Art aside, come on! Let's fly this thing already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "好啊，不过这里不太适合放风筝……啊稍等一下。",
+			say = "Of course, in just a bit. This place isn't ideal for flying a kite, though. Hmm... Actually, wait here for a moment, I'll be right back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "（嗯……？手机响了……是{namecode:18}？）",
+			say = "Suddenly, my comms device started ringing. Shimakaze was calling me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "指挥官，打扰了。我现在和{namecode:13}、{namecode:14}在一起……接下来要去海岸边放风筝。我会尽早回去的！",
+			say = "Commander, I'm, uh, with Inazuma and Ikazuchi, and we want to fly a kite. We're going down to the coast, just letting you know. I promise I'll be back on time, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "同意了{namecode:18}的请求。这次她会好好地进行联络了呢。",
+			say = "It made me happy to hear she had taken my words to heart. I acknowledged her report and let her be on her way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

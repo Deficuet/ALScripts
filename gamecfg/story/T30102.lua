@@ -4,11 +4,10 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307020,
+			actor = 307040,
 			side = 2,
-			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
-			say = "！！！正上方，发现敌机，“灵”式编队紧急升空！！",
+			say = "Are we ready yet?! The enemy's counterattack is incoming!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -26,9 +25,119 @@ return {
 			actor = 307010,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "{namecode:91}",
 			dir = -1,
-			say = "所有轰炸机立刻停止作业，换装鱼雷对敌方航母编队发动攻击！",
+			say = "...1st and 2nd Carrier Divisions, load your planes with torpedoes. Prepare for anti-ship combat!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			side = 2,
+			nameColor = "#ff0000",
+			say = "What?! Change equipment right now?!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			side = 2,
+			nameColor = "#ff0000",
+			say = "Akagi, I can't do that! What if the enemy attacks while we're unprepared?!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#ff0000",
+			dir = -1,
+			say = "We need to be ready for when the enemy fleet appears!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307030,
+			side = 2,
+			nameColor = "#ff0000",
+			dir = -1,
+			say = "Multiple enemy aircraft approaching at an altitude of 2000m, bearing 235°!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#ff0000",
+			dir = -1,
+			say = "They're coming from behind?!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			side = 2,
+			nameColor = "#ff0000",
+			say = "Dammit! Call back the fighters! We need anti-air now!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -47,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "太晚了！麦克拉斯基队，俯冲！",
+			say = "Too late! McClusky squadron, attaaack!!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

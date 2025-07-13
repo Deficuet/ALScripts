@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>一　这里是哪里？</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 1 - Where Are We?</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "这是，小小的钢之勇者们的冒险谭(Epos)——",
+			say = "Once upon a time, there were several brave little heroes of steel. This is their Epic...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港区·仓库",
+			say = "Port - Warehouse",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "所以说，我们一定是被诱拐来的！",
+			actorName = "???",
+			say = "That's why I'm telling you, we were kidnapped for sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 407020,
-			actorName = "？？？",
-			say = "哼…！那个可恶的指挥官！一定是趁着我大意的时候干的！不能原谅！一定要给点惩罚！",
+			actorName = "???",
+			say = "Hmph...! That dumb \"commander\" must have taken advantage of me when I wasn't paying attention! Unforgivable! I'll have to prepare some punishment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "你也这么认为的吧！{namecode:71}！",
+			actorName = "???",
+			say = "You think so too, right? Hiei!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,8 +120,8 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			actorName = "？？？",
-			say = "是、是吗…指挥官大人把我们…诱拐来的吗？理由也不明不白…",
+			actorName = "???",
+			say = "R-really...? C-Commander kidnapped us...? But why...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -142,8 +142,8 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			actor = 304060,
-			actorName = "？？？",
-			say = "说到底，小{namecode:438}也没见过指挥官吧…？",
+			actorName = "???",
+			say = "Zeppy, you've never even seen the commander's face, have you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系！话说哪有诱拐犯会特意让被诱拐的对象看到脸的啊！",
+			say = "That doesn't matter! What kind of perps show their face to the victims anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "唔……我们应该是作为指挥官大人的部下来报道的才对，到底是怎么回事呢…",
+			say = "Uhh... I thought we were summoned to lend aid to Commander, so how did this end up happening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过{namecode:71}应该是要为更了不起的大人准备宴会才……啊！",
+			say = "But, I was supposed to be meant for a much more accomplished person... Ahh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "难道说指挥官是为了让{namecode:71}一直留在身边才诱拐哦我们的！？",
+			say = "Could it be that Commander kidnapped us to keep us on base?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呒呒…没想到还有这一手…！很好！你终于弄明白自己现在所处的状况了！",
+			say = "Hm, hmm... I didn't think of that possibility...! Excellent! You finally understand the situation that we're in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这样！赶紧离开这里，回铁血去吧！{namecode:71}也没问题吧！",
+			say = "So that's the gist of things! Let's get out of here and return to the Iron Blood! Hiei, you're welcome to come with us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:71}是重樱的来着……",
+			say = "But I'm from the Sakura Empire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这种事无所谓啦！现在正是脱离港区的好时机！我们要出击了！",
+			say = "... Formalities, formalities! The most important thing right now is to escape from port! Let's get moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果那个维修舰说得没错的话，只要从这里出去直走就能到海上了…！",
+			say = "If what the weird cat ship said is true, we only need to go straight from here, and we'll be out on the open sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小{namecode:438}！……别把我丢在这里啦！",
+			say = "Zeppy... don't leave me here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，现在正是让你们见识一下，铁血第一艘航母·{namecode:437}的力量的时……好痛！",
+			say = "Hmph! Now, you shall all bear witness to the might of the Iron Blood's first carrier, Graf Zepp... Owww!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么嘛！从这里出来直走明明就是墙啊！那个维修舰，早就算好要骗我了吧…!",
+			say = "What the heck! That wall just came out of nowhere and punched me! That stupid cat was trying to trick me all along...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小{namecode:438}！没事吧？！",
+			say = "Zeppy! Are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "……这下看来光是找到路就要花不少时间呢……",
+			say = "... Looks like it will take a while to find our way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

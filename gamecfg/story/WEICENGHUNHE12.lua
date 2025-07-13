@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "？？？·？？？",
+			say = "??? ???",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "企业顺着轮机声传来的方向在迷雾中行驶着。",
+			say = "...A lone ship continued to sail through the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "不知道时间过去了多久，终于，一个身影从浓雾中显现在企业的视野内。",
+			say = "...How much time had passed? Then, a shadow coalesced in front of Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇……皇家方舟？！",
+			say = "You're... Ark Royal?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -97,7 +97,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂，那边的是皇家方舟么！你也被迷雾困在这里了？",
+			say = "Ark Royal! Did you get lost here too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "仿佛是对企业的喊话做出了反应，皇家方舟停止前进转过身来。",
+			say = "The shadow turned around and spoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "企业？你终于到了，我在这等你好久了。",
+			say = "\"So you came, Enterprise? I've been waiting.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "能顺利脱身的人应该都到齐了，不过，比预期中的要少不少…",
+			say = "\"It seems like we're still missing some people... No, everyone who needs to be here is already here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "顺利脱身的人…你在说些什么？皇家方舟，现在我们在什么地方。",
+			say = "\"Everyone\"...? Who else is here? Where are we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "如果继续等下去的话，也许还会有人赶到…总之现在先和我去和大家汇合吧。",
+			say = "In due time, my friend. Until then, maybe another friend will join us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！皇家方舟，能听到我说话么！喂！",
+			say = "Answer me, Ark Royal! Ark Royal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "皇家方舟没有理会企业的询问，转过身径直向海雾的深处驶去了。",
+			say = "The shadow turned her back and stepped forward into the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到底怎么回事，皇…！",
+			say = "What the hell was that?! Ark Royal...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "企业加速上前试图抓住皇家方舟的肩膀，但是，手却如同触碰到雾气一般划了个空。",
+			say = "As soon as Enterprise extended her hand to touch the shadow, it disappeared as if melting into the mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个皇家方舟是，幻影…?",
+			say = "Was that... an illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这片海域究竟是什么情况……看来只能跟上去看看了。",
+			say = "Sirens... what are you plotting...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

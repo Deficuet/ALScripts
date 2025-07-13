@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>三　有如天助！</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 3 - An Angel's Aid?!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "你好。我是爱丁堡级轻巡洋舰，皇家女仆队见习女仆贝尔法斯特",
+			say = "Good day. I am the Edinburg-class light cruiser and maid-in-training, Belfast. ",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都叫我“小贝法”",
+			say = "But everyone calls me Bel, or Little Bel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "初、初次见面。我是重樱的战列巡洋舰，我叫{namecode:71}",
+			say = "P-pleased to meet you. I am Hiei, a battlecruiser of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我乃铁血第一艘航母，{namecode:437}！",
+			say = "You gaze upon the first aircraft carrier of the Iron Blood, Graf Zeppelin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,11 +112,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "三人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………………………………（沉默）",
+			say = "..................................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，有什么需要帮忙的吗…？",
+			say = "Um, do you require assistance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们是被指挥官诱拐来的舰船，想要逃离港区结果却迷路了",
+			say = "We were kidnapped by the commander, and want to find out how to escape from here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "youguai……？是和我一样被主人或者陛下邀请到这里的吗？",
+			say = "Kid... napped? Did Master also summon you two here, just like me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "这就不好说了…总之，我们想要看看海，能为我们带带路吗……？",
+			say = "That's hard to say... but in any case, we'd like to see the ocean. Could you show us the way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了！当向导对吧",
+			say = "Understood! Allow me to guide you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是大讲堂，现在正在上课，所以大家都在教室里哦",
+			say = "This is the academy. Right now, classes are in session, so everyone is in class.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是小贝法吗。后面两位是新朋友吗？",
+			say = "Heyyo, if it isn't Little Bel! Are those your friends behind you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是、是的！",
+			say = "Y-yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "（大家在一起上课……真和平啊……）",
+			say = "(Everyone attending classes together... how peaceful...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（诶，小{namecode:438}急着去哪？）",
+			say = "(Huh...? Where is Zeppy rushing off to?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这里再往前走就是后山的重樱神社了。新年的时候大家都会来参拜呢",
+			say = "If we keep going straight here, we'll see the Sakura shrine. People go there to pray during the New Year.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早安。这是来参观的客人吗？",
+			say = "Good morning. Are you here to sit in on the lecture?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！当向导辛苦了！小贝法今天也很努力呢！",
+			say = "Ohhh! Keep up the good work, Little Bel! You're the best tour guide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗅嗅……有{namecode:71}的味道",
+			say = "*sniff* *sniff*... smells like Hiei...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚不是才在厨房遇到过{namecode:71}小姐吗。一定是你搞错了啦。快走吧？",
+			say = "Didn't you just run into her in the kitchen? Surely you must be mistaken. Let's go, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(这里的大家都是“朋友”吗…有点羡慕…而且这里也有铁血的人……）",
+			say = "(Are all the people here \"friends?\" ... and there are even people from the Iron Blood here... I wonder if I can also...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（嗯？{namecode:71}在发抖……为什么？）",
+			say = "(Huh? Hiei is shaking... why?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "累、累死了……",
+			say = "Ahhh, I'm beat...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "结果沿着和刚才一样的路线又绕了港区一圈啊……",
+			say = "We just followed the same route as before and went in a big circle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "？？你们的港区参观不是从码头开始的吗？",
+			say = "Hmm? Didn't your port visit start at the docks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

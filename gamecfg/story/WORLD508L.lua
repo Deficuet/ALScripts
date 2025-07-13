@@ -11,7 +11,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哦？居然拒绝了，我觉得还是个不错的提案呢。",
+			say = "So, you'll fight with us?",
 			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就算没有正式结盟，一同对抗塞壬已是事实，怎么能在这时候抛下你们？",
+			say = "\"We may not be in a formal alliance, but we're still allies in the fight against the Sirens. We're not leaving you to fend for yourselves.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "所以说还轮不到你来担心我们啊…………",
+			say = "Cut it out. We're not your allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "不过你的心意我领了，多谢~",
+			say = "...But, we are grateful for your help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "方舟，你有什么感想？",
+			say = "You're fine with this arrangement, right? Ark Royal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "…………没想到能得到这种不理性的回复。",
+			say = "...You really are a puzzling personality, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "看来指挥官和那些精于算计的塞壬不同，能够在关键时刻做出意想不到的决定。",
+			say = "The Sirens are heartless creatures, basing their decisions entirely on what benefits they stand to gain. I suppose you are the opposite of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "只是……就算我们留下来也无法阻止战局恶化，希望你们的坚守是为了等待援军到来。",
+			say = "\"As we've established, we're all in this together. Despite our combined efforts, though, we're still slowly getting worn down. I'm sure you both already know we are going to lose if this battle drags on.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "援军啊……",
+			say = "In other words, we need reinforcements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "比如你们那边的企业，或者{namecode:66}？",
+			say = "\"Can you request assistance from the other Ashes? Like Enterprise, or Takao?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "她们现在外出办事不在家，归期未定。所以我们才要像这样拼命看门啊！",
+			say = "I wouldn't hold my breath. Nobody knows when they'll come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "不过当然，也不能说完全没有杀手锏吧……",
+			say = "However, there are still other options available to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "嗯……决定了！方舟，给我一波全力掩护，我要准备超载攻击了~！",
+			say = "Ark Royal, go with the Commander, and call for reinforcements! I'm going to boost my output up to the very limits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "{namecode:94}，你是认真的么……？！",
+			say = "What?! Are you bloody mental, Hiryuu?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "当然。",
+			say = "Did you just notice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "（希望企业的判断是对的……）",
+			say = "(I've got no choice but to pray that Enterprise's judgment was correct...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "————安蒂克丝，来尝尝这招怎么样！",
+			say = "––––Antiochus! See how you like THIS!",
 			effects = {
 				{
 					active = true,

@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"NY司令部专机",
+					"Airspace Above Eagle Union",
 					1
 				},
 				{
-					"白鹰境内空域",
+					"NY City Fleet Communications Plane",
 					2
 				},
 				{
-					"MST 1:26",
+					"1:26 AM MST",
 					3
 				}
 			},
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "一架隶属于NY司令部的飞机正平稳地穿行在无云的夜色中。",
+			say = "A lone airplane serving the NY City Coastal Defense soared through the cloudless night sky.",
 			bgm = "theme-starsea-explo",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "机型虽然不大，不过对于仅有的两名乘客来说，经过改造的机舱依然可以被称为宽敞又舒适。",
+			say = "The narrow-body aircraft sported a remodeled cabin, spacious and pleasant to its only two passengers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "舱内时间显示，现在是白鹰山地时间深夜1点26分。",
+			say = "The time was 1:26 AM, very late into the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,96 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "机舱中的一名乘客早已进入梦乡，而另一名乘客却是辗转反侧，难以入眠——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107230,
-			say = "……真没想到传说中的神秘机构「星海」，居然是真实存在的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107230,
-			say = "汇聚着各行各业的顶尖人才……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107230,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "传说中至少领先外界三十年的科技……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107230,
-			say = "而且……嘿嘿嘿……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107230,
-			say = "不但萨拉前辈深度参与了星海的建造过程……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "One of the passengers was already asleep, while the other was still rolling around in bed, kept awake by both nervousness and anticipation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "令人敬佩的阿拉斯加所长也在其中任职！",
+			say = "...I thought the Sea of Stars was just a myth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +104,96 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "而我、普林斯顿！",
+			say = "Not only is it real, but it's also home to some of the greatest minds in the country.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107230,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "And they have technology that's decades ahead of the rest of the world.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107230,
+			say = "Heheheh...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107230,
+			say = "Everything I hear about it is more amazing than the last.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107230,
+			say = "Saratoga even works with them. As does the Commander, and the famed Alaska.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107230,
+			say = "You're such a lucky girl, Princeton...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "居然也收到了前往星海的调动命令！！",
+			say = "Because starting tomorrow, you'll be part of the Sea of Star's research team!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "真是——何其幸运啊！",
+			say = "I still can't believe it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸运！！！",
+			say = "THIS IS THE BEST THING EVER!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……普林斯顿，好吵。",
+			say = "Princeton... I'm trying to sleep...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "啊，抱歉抱歉，吵到你了么，我会小声一些的！",
+			say = "Oh, sorry! I didn't mean to wake you. I'll be quiet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯……晚安……zZZZ",
+			say = "Thanks... Good night... Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "晚安~拉菲~！",
+			say = "Good night, Laffey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼、呼呼……嘿嘿嘿……",
+			say = "Heheh... Heheheh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉前辈……阿拉斯加所长……还有星海的「银河之心」……",
+			say = "Saratoga, Alaska, Commander... I'll be there soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107230,
-			say = "美好的未来——我、来、了！",
+			say = "In the bright future, with you, at the Sea of Stars!",
 			painting = {
 				alpha = 0.3,
 				time = 1

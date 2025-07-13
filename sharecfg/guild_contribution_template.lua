@@ -3,7 +3,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "物资筹备",
+		name = "Funds Contribution",
 		type = 1,
 		type_id = 1,
 		guild_active = 10,
@@ -14,7 +14,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "燃料筹备",
+		name = "Oil Contribution",
 		type = 1,
 		type_id = 2,
 		guild_active = 10,
@@ -25,7 +25,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "粮食筹备",
+		name = "Ration Contribution",
 		type = 2,
 		type_id = 50001,
 		guild_active = 10,
@@ -36,7 +36,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "粮食筹备",
+		name = "Ration Contribution",
 		type = 2,
 		type_id = 50002,
 		guild_active = 10,
@@ -47,7 +47,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备I",
+		name = "Resource Contribution I",
 		type = 2,
 		type_id = 17001,
 		guild_active = 10,
@@ -58,7 +58,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备I",
+		name = "Resource Contribution I",
 		type = 2,
 		type_id = 17011,
 		guild_active = 10,
@@ -69,7 +69,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备I",
+		name = "Resource Contribution I",
 		type = 2,
 		type_id = 17021,
 		guild_active = 10,
@@ -80,7 +80,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备I",
+		name = "Resource Contribution I",
 		type = 2,
 		type_id = 17031,
 		guild_active = 10,
@@ -91,7 +91,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备I",
+		name = "Resource Contribution I",
 		type = 2,
 		type_id = 17041,
 		guild_active = 10,
@@ -102,7 +102,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备II",
+		name = "Resource Contribution II",
 		type = 2,
 		type_id = 17002,
 		guild_active = 10,
@@ -113,7 +113,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备II",
+		name = "Resource Contribution II",
 		type = 2,
 		type_id = 17012,
 		guild_active = 10,
@@ -124,7 +124,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备II",
+		name = "Resource Contribution II",
 		type = 2,
 		type_id = 17022,
 		guild_active = 10,
@@ -135,7 +135,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备II",
+		name = "Resource Contribution II",
 		type = 2,
 		type_id = 17032,
 		guild_active = 10,
@@ -146,7 +146,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备II",
+		name = "Resource Contribution II",
 		type = 2,
 		type_id = 17042,
 		guild_active = 10,
@@ -157,7 +157,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备III",
+		name = "Resource Contribution III",
 		type = 2,
 		type_id = 17003,
 		guild_active = 10,
@@ -168,7 +168,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备III",
+		name = "Resource Contribution III",
 		type = 2,
 		type_id = 17013,
 		guild_active = 10,
@@ -179,7 +179,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备III",
+		name = "Resource Contribution III",
 		type = 2,
 		type_id = 17023,
 		guild_active = 10,
@@ -190,7 +190,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备III",
+		name = "Resource Contribution III",
 		type = 2,
 		type_id = 17033,
 		guild_active = 10,
@@ -201,7 +201,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "材料筹备III",
+		name = "Resource Contribution III",
 		type = 2,
 		type_id = 17043,
 		guild_active = 10,
@@ -212,7 +212,7 @@ pg.guild_contribution_template = {
 	{
 		award_tech_exp = 2,
 		award_capital = 1,
-		name = "战功提交",
+		name = "Naval Contribution",
 		type = 1,
 		type_id = 3,
 		guild_active = 10,

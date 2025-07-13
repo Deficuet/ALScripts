@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "今天是和TB一起去游乐园的日子。",
+			say = "Today, TB and I are going to the amusement park.",
 			bgm = "qe-ova-12",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "只是看着这样的TB，多少生出了一些不真实感。",
+			say = "Just looking at her and seeing how much she has changed makes me question if what I'm seeing is real or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我准备了饮料和零食，需要的话随时告诉我。",
+			say = "I got us some snacks and drinks. Just let me know when you want a bite or a sip.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB现在变得很会照顾人啊……彻底长大了。",
+			say = "That's so thoughtful of you... You've really grown into a fine adult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……您怎么发出了那种像是上了年纪的爷爷奶奶才会发出的感慨呢？",
+			say = "Heehee. Listen to you. You sound like an old lady speaking to her grandchild.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来到了游乐园，就开心一些吧。",
+			say = "Remember where we are? That's right, the amusement park. Let's go enjoy ourselves already, shall we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好……",
+			say = "Right, yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "不自觉就被她的话引导着走了。",
+			say = "Oops. I got distracted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……您有什么想先开始玩的项目吗？",
+			say = "So, what attraction would you like to go on first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天的目的是让你尽兴，可以先不用考虑我。",
+			say = "Ask yourself that. We're here for YOU to have fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然您这么说了……",
+			say = "Well, if you're sure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那，旋转木马怎么样？",
+			say = "Then how about the merry-go-round?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "旋转木马？",
+			say = "The merry-go-round?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……您、您该不会觉得我很幼稚，还喜欢这种小孩子喜欢的东西吧……",
+			say = "Oh... You don't think that's a childish ride, do you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "TB看上去有些不好意思。",
+			say = "She looks down at the ground, feeling embarrassed for suggesting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没有没有，我只是觉得这一点很可爱。",
+			say = "No, not at all. I was just surprised. It's a cute choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "毕竟，领航员小姐状态下的TB可不会主动向我提出“想坐旋转木马”这种请求。",
+			say = "I would've never imagined the TB I know simply coming forward and saying, \"I want to ride the merry-go-round.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出发！去坐旋转木马吧！",
+			say = "Alright, let's go. To the merry-go-round!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "旋转木马缓缓启动，我抓准时机，坐上了TB旁边的木马。",
+			say = "I take a seat on the wooden horse just next to hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，看这边。",
+			say = "Hey, TB, look here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,12 +331,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~",
+			say = "Okay!",
 			voice = "event:/educate/tb/educate-tb-story-31-1",
 			painting = {
 				alpha = 0.3,
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "她看向镜头，伸出了手。",
+			say = "She extends her hand towards the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您在拍摄的时候可不要手抖哦。",
+			say = "Make sure I'm in focus!",
 			voice = "event:/educate/tb/educate-tb-story-31-2",
 			painting = {
 				alpha = 0.3,
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "放心吧。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "咔嚓——我按下拍摄键，将眼前的这幅光景定格。",
+			say = "The camera shutter clicks, and I snap a photograph of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,12 +401,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……回去之后，把今天拍下来的照片全都打印出来吧。",
+			say = "Heehee. When we're home again, you should print out all the photos we take today.",
 			voice = "event:/educate/tb/educate-tb-story-31-3",
 			painting = {
 				alpha = 0.3,
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "之后和TB在游乐园度过了一段难忘的时光。",
+			say = "Our amusement park visit continues after that, and we make some unforgettable memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>睡意满满忙碌DAY</size>",
+					"Port Fashion Collection: Resplendent Night\n\n<size=45>2 Sleepy on a Busy Day</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "不远处，一位穿着侍者制服的娇小少女正端着托盘穿梭在店里。",
+			say = "When I enter the pop-up restaurant, I find Laffey in uniform and carrying a tray.",
 			bgm = "bar-soft",
 			typewriter = {
 				speed = 0.05,
@@ -33,14 +33,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "不过，她一直睡眼惺忪地打着哈欠，令人不禁有些担心托盘中饮料的安危……",
+			say = "She's so visibly sleepy that I have to worry about the drinks balancing on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "main1",
@@ -48,7 +48,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎光临……指挥官，随便坐……只要是空位都可以的。大概……",
+			say = "Welcome... Commander, sit wherever you want... Any open seat is probably fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -67,7 +67,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官今天……是特意来捧场的吗？",
+			say = "Commander... Did you come to check on the restaurant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,14 +100,14 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟是开业第一天，就特地抽空过来看看。拉菲呢？",
+			say = "Since it's opening day, I made time to stop by. Why are you dressed like that, Laffey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "touch",
@@ -115,7 +115,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……拉菲……是答应了来帮忙……哈啊——好困……",
+			say = "Yep... Laffey promised to help everyone around the restaurant... *yawn*... Sleepy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -134,7 +134,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……指挥官放心……只是把托盘从吧台运到桌子上就行了。",
+			say = "But don't worry, Commander... All Laffey has to do is take this tray from the counter to the tables...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -153,7 +153,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲……没问题的……嗯，大概。",
+			say = "I'm just fine... Probably, yup...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -172,7 +172,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了……指挥官，要点餐么？",
+			say = "Oh... Do you want to order, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "main3",
@@ -191,7 +191,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这是今天的菜单……有什么需要……都可以和拉菲说……",
+			say = "Here's the menu for today... If you want anything, let Laffey know...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -210,7 +210,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……推荐的饮品？拉菲的话……推荐……可乐！",
+			say = "...The recommended drinks? Laffey likes... the soda...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -229,7 +229,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰爽的口感，还有……碳酸气泡爆炸的感觉……",
+			say = "It's cold and refreshing, and... the feeling of the bubbly carbonation popping...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -248,7 +248,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官一定会喜欢的……",
+			say = "You'll like it a lot, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "话虽如此，但是可乐……",
+			say = "Well, yes, but soda...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,14 +276,14 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没有必要特意来店里喝啊……？）",
+			say = "(Who would go all the way to a restaurant just for soda?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "main2",
@@ -291,7 +291,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……不喜欢可乐吗？",
+			say = "Commander... Do you hate soda?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,14 +307,14 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，不是不喜欢……",
+			say = "No, that's not what I mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "main3",
@@ -322,7 +322,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（——盯）",
+			say = "*stare*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,17 +333,17 @@ return {
 			},
 			options = {
 				{
-					content = "……好、好吧，就可乐吧！",
+					content = "O-okay. I'll take the soda!",
 					flag = 1
 				},
 				{
-					content = "麻烦来一杯可乐！",
+					content = "Soda, please!",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "mission_complete",
@@ -351,7 +351,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一杯可乐……请指挥官稍等一下，马上就来。",
+			say = "One glass of soda... Wait a minute, Commander. I'll be right back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -370,7 +370,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，久等了……你的可乐。",
+			say = "Thanks for waiting, Commander... Here's your soda.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,14 +405,14 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女将可乐放在了桌上，然后直接在身旁坐下。",
+			say = "Laffey puts the soda on the table and sits down right next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
@@ -420,7 +420,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，可乐……指挥官，尝尝？",
+			say = "Oh, the soda... Try it, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,14 +431,11 @@ return {
 			}
 		},
 		{
-			actor = 101511,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰凉的液体划过口腔，碳酸气泡在口中破裂炸开……嗯，就是普通的加冰可乐呢。",
+			say = "The cold drink runs through me, and the carbonated bubbles burst... Yep. That's just soda with ice in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +447,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "拉菲，可乐很好喝，谢——",
+			say = "It's good. Thanks, Laff—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,14 +458,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "手臂上，突然感受到一阵重量。",
+			say = "Suddenly, something heavy falls on my arm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "拉菲",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = "touch",
@@ -476,7 +473,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼——呼——",
+			say = "Kkh... Nnh... Zzzzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,28 +484,30 @@ return {
 			}
 		},
 		{
-			actor = 101511,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
+			withoutactorName = true,
+			actor = 101511,
+			actorName = "Laffey",
 			hidePaintObj = true,
-			say = "少女浅浅的呼吸拂过我的手臂，她闭着眼睛，如同小白兔一样进入了梦乡。",
+			say = "An exhale touches my arm. When I turn to look, I see Laffey asleep, leaning on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 101511,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
 			live2d = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
+			withoutactorName = true,
+			actor = 101511,
+			actorName = "Laffey",
 			hidePaintObj = true,
-			say = "看来，手中的这杯可乐得多喝一段时间才行了——",
+			say = "It seems like I'll have to finish off this soda slowly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

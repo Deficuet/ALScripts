@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>六　围炉煮茶</size>",
+					"From Farm to Fork!\n\n<size=45>6 Tea and Hearth</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "窗外细雨淅沥，凉风送入屋内。",
+			say = "As the rain continues to fall outside, tendrils of cold drift into the room.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "烤炉中炭火微红，架在烤网上的茶壶冒着热气，茶香氤氲。",
+			say = "The heat from the glowing coals sends steam rising from the kettle on the grate, and the aroma of tea gently wafts around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "小锅中的河蚌汤汁沸腾，散发着浓郁的香气。",
+			say = "The light fragrance of the tea is soon joined by a deeper, richer aroma – that of mussels boiling away in a clay pot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "龙武正小心翼翼地拆着包裹着鳜鱼的锡纸——蒜香四溢，鱼皮微焦红亮，看起来极为诱人。",
+			say = "The sound of tin foil being peeled back is followed by an explosion of garlicky, buttery goodness. The skin of the mandarin fish she's been cooking looks perfectly crispy and delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "呼——好香！看来成功了！",
+			say = "Mmmmh... that smells so good! It turned out really well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "龙武夹出一块鳜鱼放到餐盘中，稍微吹凉了以后，放到了我的面前。",
+			say = "Lung Wu places a slice of the fish on a small plate, gently blows on it to cool it down, then sets it in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "指挥官快尝尝吧！",
+			say = "Commander, this is for you! Please enjoy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "接过餐盘，开始品尝新鲜出炉的干烧鳜鱼。",
+			say = "I excitedly take a bite of the freshly cooked fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "鱼肉细腻却不失韧性，鲜美可口，蒜香的调味恰到好处。",
+			say = "The flesh has just the right amount of firmness while also melting in my mouth. The garlic and butter accentuate the fish's natural flavor perfectly without overpowering it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,18 +144,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "指挥官，怎么样？",
+			say = "Commander, how's the taste?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "美味！太好吃了！",
+					content = "Amazing! It's mouth-wateringly good!",
 					flag = 1
 				},
 				{
-					content = "龙武大厨名副其实！",
+					content = "Excellent! As one would expect from Master Chef Lung Wu!",
 					flag = 2
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "我竖起大拇指以示赞许。",
+			say = "It's so delicious that I can't help but to beam at Lung Wu and give her a thumbs up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "虽然用这种方法烤制，味道和传统干烧略有不同，不过食材新鲜，反而别有风味呢！",
+			say = "The taste might be a bit different from what you're used to since it wasn't cooked in the traditional manner. But with such great ingredients, I think it turned out pretty okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "来，再尝尝这个河蚌汤！",
+			say = "Now, please try the mussel soup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "龙武盛了一碗河蚌汤，笋片和贝肉的香气扑鼻而来。",
+			say = "Lung Wu ladles a bowl of soup for me, and the aroma of bamboo shoots and mussels immediately wafts up, tickling my nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，我来尝尝！",
+			say = "Mmm, I can't wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "伴着窗外细雨，我们享用完这顿别致的晚餐。",
+			say = "We enjoy the rest of our rustic dinner while listening to the pitter-patter of the rain outside the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "新鲜的食材真是太棒了……！之后如果能邀请大家一起来就好了！",
+			say = "Fresh ingredients really are the best, aren't they? Next time, I want to invite everyone to try this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "择日不如撞日？",
+			say = "Sounds like a plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "明天如果天晴，就邀请大家来吧？",
+			say = "If the weather's better tomorrow, let's get everyone here together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "真的可以么！那真是太好了！",
+			say = "Wow, really? That'd be amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "费用的话，就由我来……",
+			say = "I should probably cover the expenses, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个交给我，我和{namecode:98:明石}{namecode:295:尾张}她们说“就当是宣传了”，应该能免单。",
+			say = "No worries. If we talk to Akashi and Owari and explain it can be a great opportunity for promotion, I'm sure they'll be able to cover the cost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，那我现在就去邀请大家~",
+			say = "Okay! I'll go send out the invites!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

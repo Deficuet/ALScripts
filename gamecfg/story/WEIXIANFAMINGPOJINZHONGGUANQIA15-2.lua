@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "经过一番奋战，众人终于来到了信号所示的位置。",
+			say = "After a hard-fought battle, the Royal Navy had finally reached their destination.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "春菜！唯！你们在哪？！",
+			say = "Haruna! Yui! Where are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 11100060,
 			nameColor = "#A9F548FF",
-			say = "我们在这儿！",
+			say = "Over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "菈菈的呼唤很快有了回应。——不远处的唯和春菜正被复制体看守着。",
+			say = "Someone quickly replied to Lala's calls – it was Yui, who was being restrained by a doppelganger alongside Haruna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,10 +70,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "碧波守卫·NANA",
+			actorName = "Nana, Wave Guardian",
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,10 +101,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "猎风哨兵·MOMO",
+			actorName = "Momo, Wind Sentinel",
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "哦~复制体么？让本尊来会会你们！",
+			say = "Hah! A doppelganger of me, huh? Well, get ready to see what the real one can do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "别担心，这就来救你们哦！",
+			say = "Haruna! Yui! We're gonna come save you right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "……大家小心！总感觉那些敌人有所准备！",
+			say = "Everyone, be careful! They're definitely plotting something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "是想利用人质令我们出手有所顾虑么……真可恶！",
+			say = "They're using hostages to keep us from fighting them?! Grr, that's a coward's move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵，如果是这么想的，那它们的算盘可是要落空了。",
+			say = "Hmph. If they think that's going to work, then they're quite wrong!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "金色暗影小姐，如果本王给你制造一个机会，你能把人救出来么？",
+			say = "Golden Darkness. If I give you an opening, can you save the hostages?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "交给我吧。",
+			say = "Leave it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那也是时候，让本王准备的后备力量出手了。",
+			say = "I'll mobilize my own reserve forces, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,10 +233,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "光辉，舰载机群是否到位？",
+			say = "Illustrious. Status on the carrier-based craft?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
-			say = "舰载机群已就位，等待您的命令。",
+			say = "Launch preparations are complete. We await your orders, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "……居然还有支援？伊丽莎白好厉害！",
+			say = "You have even more reinforcements? You're not half bad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵，本王可是皇家的伊丽莎白女王！",
+			say = "Don't underestimate the queen of the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "从我手里劫持人质？",
+			say = "Taking hostages is a foolish move against Queen Elizabeth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "光辉，发动奇袭，制造机会。",
+			say = "Illustrious, launch the carrier-based craft. Make an opening to save the hostages!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "其余人同时掩护。",
+			say = "Everyone else, provide cover!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "金色暗影，准备救人——！",
+			say = "Let the operation begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

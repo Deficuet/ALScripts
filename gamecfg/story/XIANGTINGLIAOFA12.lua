@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_1",
 			dir = 1,
-			say = "白鹰·纽约港 不久前",
+			say = "Eagle Union - NY Harbor, at about the same time",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉酱——刚刚收到紧急联络，塞壬净化者正在发动猛烈进攻，外围防线告急，请求紧急支援！",
+			say = "W-what do we do?! The Sirens have totally broken through the defensive line!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "方位105发现塞壬主力舰队，方位120发现多艘塞壬执行者，方位125至140还有多支小型舰队在快速接近！",
+			say = "We've detected the Sirens' main fleet! In addition to the massive numbers of production-type ships, there are also many humanoid-type Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不好了，纽波特港彻底陷入一片火海了！！",
+			say = "We're getting distress calls from Newport Harbor as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的空袭越来越密，防空阵地也快支撑不住了！",
+			say = "Their airstrikes are becoming more and more oppressive! Our anti-air won't be able to keep up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜啊啊，一波接着一波，这是蓄谋已久的偷袭！",
+			say = "Jeez, they just keep coming one after another! You can't even call this a sneak attack anymore - this is total war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业酱和指挥官还是没有回应，难道说…",
+			say = "Ugh... I still can't get in touch with Enterprise or Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…通讯不畅肯定是塞壬在捣鬼，应该不会有事的，反倒是我们这边…",
+			say = "Argh... we're going to be in serious trouble if their communications are being jammed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，撤离工作无法顺利开展…再继续拖下去司令部就危险了！",
+			say = "Headquarters is going to be in danger at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家冷静下来。小海狸中队，近海的小型舰队交给你们处理。",
+			say = "Okay everyone, let's calm down first. Ausburne, can your Little Beaver Squadron handle the surrounding light fleets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义必胜！",
+			say = "You betcha! Your local allies of justice are on the case!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +214,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "富特&奥利克",
-			say = "哦、哦——！",
+			actorName = "Foote & Aulick",
+			say = "Rah! Rah!",
 			subActors = {
 				{
 					actor = 101130,
@@ -223,10 +223,6 @@ return {
 						x = 1185
 					}
 				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
 			painting = {
 				alpha = 0.3,
@@ -239,7 +235,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让我去支援长岛防线吧。",
+			say = "Erm... is there anything I can do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +251,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意安全哦！OK，我们这边也要行动起来了。",
+			say = "Bataan, can I count on you to check on the status of the defense line?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +267,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "兰利、博格，跟我一起去迎战塞壬航空队。",
+			say = "Langley, Bogue, follow me. We'll wrest air superiority from those Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +283,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然护卫舰压制性的不足，不过总会有办法啦~",
+			say = "We won't have as many escorts as we'd normally like, but where there's a will, there's a way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +299,7 @@ return {
 			bgName = "bg_xiangting_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然敢来偷袭这里，让它们见识一下白鹰舰队的厉害吧！",
+			say = "(Everyone, please be safe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +326,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（...各位，千万注意安全)",
+			say = "Let's get going! We'll show those Sirens what happens when you mess with the Eagle Union!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

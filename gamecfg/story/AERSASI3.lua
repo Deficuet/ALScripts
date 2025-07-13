@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>三　帅气的阿尔萨斯？</size>",
+					"Emotional Overload\n\n<size=45>3 Alsace, Are You Cool After All?</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥室里，我收拾起因为阿尔萨斯强制散热而被吹落在地的文件。",
+			say = "Here I am, picking up the documents that got scattered all throughout my office. How did that happen, you ask? Alsace overheated.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而阿尔萨斯像是犯错了的小孩子一样，缩在办公椅上低着头，看起来受了不小打击。",
+			say = "Speaking of which, it seems the overheating was quite shocking to her – she's sitting on her chair, cradling her legs like a child who's been naughty.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……对不起，指挥官……",
+			say = "One is sorry, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "小事而已，不用放在心上。",
+			say = "It's no big deal. Honestly.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是阿尔萨斯……明明已经努力训练过了……每天都在脑海中模拟与指挥官相处的情景……",
+			say = "This happened despite all one's efforts, practicing day after day, simulating what it's like to be with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每天都在想着指挥官的事，在脑海里模拟了无数和指挥官相处的事……",
+			say = "One imagined everything, from everyday scenarios to edge cases...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后指挥官的手……阿尔萨斯身上……阿尔萨斯努力忍耐着……不、不行的，那种事……",
+			say = "And even... your hands on my... Oh gosh, no, I'm ticklish there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（姑且还是别深究她都模拟了什么吧……）",
+			say = "(Not going to ask for particulars – I can guess...)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但没想到还是失控了……对不起……指挥官……",
+			say = "All that is to say... One couldn't control oneself, and for that, one asks for forgiveness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯情绪不稳定的事我也有些了解，是最近开始的状况吧。",
+			say = "I understand. Your emotion module is unstable. I assume this is a fairly recent thing.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "但我不觉得这是缺点，换个角度考虑，我更想把它当做是你的优点。",
+			say = "Regardless, I don't have any problems with it. In fact, I think it's one of your strong points.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯的优点……？",
+			say = "Really? A strong point?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "没错，你之所以这么容易失控，是因为你对周围环境有着敏锐的感知能力吧？",
+			say = "Really. Think of it this way – if you easily lose control of your emotions, that means you're sensitive to your surroundings.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "我想这一定是为了提升战斗性能而同时带来的影响。",
+			say = "I think that's a side-effect of you becoming better attuned to the battlefield.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +232,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是……是这样吗？指挥官是这样看阿尔萨斯的吗？",
+			say = "Oh... Is that how you see this one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，所以尽管放心吧，我也会想办法帮帮阿尔萨斯的。",
+			say = "I know you still think it's an issue. I'll help you come up with a solution.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（阿尔萨斯失控的主要原因就是情感模块……所以只要提升对这部分的控制能力应该就可以了。）",
+			say = "(That emotion module is the main culprit. That being the case, I just need to teach her how to control it.)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（让我想想……该怎么做……）",
+			say = "(The question is – how?)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官要帮阿尔萨斯？阿、阿尔萨斯准备好配合了！",
+			say = "Y-you mean you'll help me? I'm o-one hundred percent ready for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，提升对情感模块的控制能力，简单来说就是提升对情绪的控制力吧。",
+			say = "Absolutely. So, learning to control your emotion module is synonymous with learning to control your emotions, period.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "而说到影响情绪的关键因素，心境应该排在首位。",
+			say = "And, controlling your emotions is a matter of mindset. With the right mindset, you should be able to keep yourself in check.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "初次见面时阿尔萨斯非常帅气和大方，如果能找回当初那种心境的话应该可行？",
+			say = "Take earlier this morning, for example. You were pretty cool and detached then. What if you adopted THAT state of mind?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那是要……模仿当初那样试试吗？",
+			say = "So... you're suggesting that I emulate my earlier self?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，可以试一下。",
+			say = "Exactly. Give it a try.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "阿尔萨斯深呼吸了一下后，起身重新站到了我面前。",
+			say = "She takes a deep breath, rises to her feet, then walks up to me.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -380,7 +380,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "启动情感深度解析算法，分析过往数据。",
+			say = "Initiating deep analysis algorithm of analysis module. Examining data logs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同步到往过数据，尝试进行情感模块数据覆盖。",
+			say = "Synchronizing status logs to overwrite emotion module data...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，现在的阿尔萨斯一、一定能成为你最可靠的助手。",
+			say = "Complete. One may now function as your most r-reliable secretary.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -420,7 +420,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她的声音和呈现出的状态渐渐恢复了最初的冷静。",
+			say = "Her tone of voice and expression alike harbor that spotless composure she had earlier...",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过，依然能看出来阿尔萨斯的身体有些发抖，似乎是在忍耐着。",
+			say = "However, I can see a tremble running through her, like she's fighting for her life to hold something back.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			},
 			options = {
 				{
-					content = "鼓励阿尔萨斯",
+					content = "(Give her some words of encouragement.)",
 					flag = 1
 				}
 			}
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "加油！阿尔萨斯！我相信你一定能做到！",
+			say = "Hold steady! I believe in you!",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -467,7 +467,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不不不不行啦……！！阿尔萨斯真的做不到！！",
+			say = "N-no, I can't do it! I'm going to explode!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

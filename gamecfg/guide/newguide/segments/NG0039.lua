@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "每周可以在柜台领取10枚游戏币，消耗游戏币可以获得能够兑换物品的游戏奖券！",
+				text = "You can get 10 Credits from Akashi every week! Use your Credits to get Game Tickets that can be exchanged for prizes!",
 				mode = 1,
 				posY = 289.2,
 				dir = -1,
@@ -18,7 +18,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击游戏机或者开始游戏按钮，可以进入游戏选择界面\t ",
+				text = "Choose a minigame by tapping on the game console or the Start Game button!\t ",
 				mode = 1,
 				dir = 1,
 				posX = -370,
@@ -49,7 +49,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击游戏图标，进入对应的游戏",
+				text = "Choose the minigame you'd like to play!",
 				mode = 1,
 				posY = 237.49,
 				dir = -1,
@@ -59,7 +59,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "这里可以投入游戏币来获取游戏奖券，最多一次能投入5枚！不过就算不投入游戏币也是可以游玩的，指挥官在闲暇之余多来玩玩吧！",
+				text = "Choose how many Credits you'd like to use before starting a game! You can still play the minigame even if you don't have any Credits.",
 				mode = 1,
 				posY = 269.39,
 				dir = -1,
@@ -78,7 +78,7 @@ return {
 				}
 			},
 			style = {
-				text = "接下来让我们回去看看奖券兑换处！",
+				text = "The Game Tickets you earn by playing minigames can be spent at the Prize Shop for various rewards!",
 				mode = 1,
 				posY = 365.75,
 				dir = -1,

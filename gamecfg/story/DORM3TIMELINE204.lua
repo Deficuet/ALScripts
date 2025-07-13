@@ -28,7 +28,7 @@ return {
 							options = {
 								{
 									{
-										content = "能代?"
+										content = "Noshiro?"
 									}
 								}
 							},

@@ -11,7 +11,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "历尽千难万险，分散在各处的英雄们重新联合起来吹响反攻的号角…",
+			say = "The scattered heroes joined forces to face the supervillain...",
 			bgm = "hunhe-battle",
 			effects = {
 				{
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直就像超级英雄剧一样的展开，令人热血沸腾啊！",
+			say = "A bit cliché, but it's still an exciting plot development!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我懂这种感觉！！正义的英雄大团结！",
+			say = "Heroes of justice, assemble! This is our climax!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？你们都很喜欢超级英雄呀~",
+			say = "I see we have multiple comic fans in the house here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "超喜欢~！超级英雄拯救世界的英姿…守护同伴的身影…真是太帅了！",
+			say = "Hmm? Cooper, are you into this stuff as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错~库珀也要像英雄们一样，为了伙伴们和世界的明天而战斗~",
+			say = "Of course I am! Heroes who put it all on the line to save the world are the only ones as cool as me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~大家看我的手甲，如果按下这个按钮的话…",
+			say = "(Woah, she has the same hobby as me?!) Well, wait until you take a look at this gadget here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "发、发出了强光？！",
+			say = "Is that a gauntlet? It's glowing too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "不止如此哦，如果再摁下这个按钮的话---",
+			say = "Heheh, and if you push this button right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "变形了？！太厉害了~！",
+			say = "It transforms?! Amazing!",
 			soundeffect = "event:/battle/cannon-main-prepared",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，超级英雄的装备只有你们想不到，没有我没有的~！",
+			say = "I made this myself! Hehe, pretty cool, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "震惊！！里诺你真的很喜欢英雄呢！",
+			say = "I want one too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "呼呼呼~虽然这次没有见到传说中的指挥官，有点遗憾。",
+			say = "Sure, I'll whip something up for you. Just give me a design and a budget you'd like me to work with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "不过面对不利局面依然奋战在第一线的各位，对我来说已经就像英雄一样了哦。",
+			say = "However, I sure didn't expect to meet other superhero fans here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能这么近距离支援大家的战斗，我也感到十分开心！",
+			say = "I'd love to show you my collection once we get back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "哎？里诺，你没有想过成为英雄的一员么？",
+			say = "Really? Show me once we get back to the stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "我不是能做英雄的类型啦。能作为英雄的粉丝在这么近距离的为英雄加油打气就已经很满足了~",
+			say = "Sure thing! Look at all the gadgets I've got here! I'm a true hero's supporter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "唔…里诺一路上出色的护航，让我们的战斗压力少了很多！我觉得里诺已经是出色的英雄了哦！",
+			say = "And don't forget to make one for me! I've always been afraid of not having the right tools for the job even though I already have my special move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "只是成为超级英雄团队里的一员，不代表能成为超级英雄，我是这么认为的…",
+			say = "Now now, heroes should be iconic for their abilities, even without their gadgets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "有句话说得好，“他们成为英雄不是因为他们有特殊能力，而是因为他们选择用这些能力来做什么”",
+			say = "\"It's not the superpower that makes the hero, but rather the super things that they do.\" Isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…哎？！布莱默顿也听说过这句话么！",
+			say = "...Huh? Where have I heard that line before?！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "我偶尔也会跟着巴尔的摩一起看看关于英雄的作品啦。",
+			say = "It's a new show that Baltimore and I sometimes watch together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "如果你一直紧随英雄的脚步，你终究会变为英雄的一份子，巴尔的摩是这么认为的。",
+			say = "I'm not as invested as Baltimore is, but I know what she'd say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也觉得现在的里诺完全符合英雄的定义哦！",
+			say = "\"You become a hero not by looking the part, but by following in their footsteps.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，库珀也赞同~感觉之后会和巴尔的摩很很合得来呢！",
+			say = "Yeah! That's exactly right! I agree one hundred percent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "好像…确实是这样哎！",
+			say = "And right now, the heroic thing to do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "那接下来的战斗护航也都拜托你了哦，英雄里诺~",
+			say = "Reno, you'll be the hero who protects us from enemy planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，不论是天上飞的还是水里游的，都放心包在我身上吧，英雄库珀~！",
+			say = "Cooper, you'll be the hero who protects us from enemy subs! Right~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

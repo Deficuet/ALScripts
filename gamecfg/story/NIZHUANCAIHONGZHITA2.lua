@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "某处海域·清晨",
+			say = "Operation Area - Morning",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "黎明到来，第一缕阳光照射在如同集市般忙碌的海面上。",
+			say = "The sun rose over the horizon and cast its light on an enormous Iron Blood fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "巨大的钢铁要塞林立，无数量产型军舰穿行其中，一切都在有条不紊地进行着。",
+			say = "Their numbers were truly staggering, as if every Iron Blood ship in existence was partaking in this massive operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "不过最引人注目的，还是远方那个巨大的环形区域。",
+			say = "Across the sea from them, situated in the middle of the ocean, a group of structures stood arranged into the shape of a ring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那个就是「米德加尔特之塔」啊……没想到这么快就组装好了。",
+			say = "That's the Tower of Midgard, huh? I'm frankly astonished they managed to complete it this fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "真壮观……她们这里忙碌了这么久，接下来该轮到我们来大闹一场咯！",
+			say = "And man, it's a marvel to behold! Now our job's to get in there and wreak some havoc.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（咕噜咕噜）——唔哇！{namecode:476}顺利上浮！",
+			say = "Resurfacing! Steer clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "水面下除了被吓坏的鱼群，并没有发现什么可疑的迹象。",
+			say = "U-1206, having just finished a patrol of the area, emerged from the sea. She gazed on inquisitively at the structure in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "说不定这次的行动根本不会有奇怪的敌人前来搅局——不过大概是不可能的吧……",
+			say = "No enemies in the area! Let's keep our fingers crossed and hope it stays that way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，要是有不听话的坏孩子，不是正好可以惩罚一番吗。",
+			say = "Well, if anyone foolish enough comes along to challenge us, they're in for the beating of a lifetime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "{namecode:468}，心里话说出来了哦。",
+			say = "Heh, yeah. It'd be suicide tryin' to stop us now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欢迎各位的到来，我是此处的负责人，也是铁血第二舰队旗舰{namecode:470}。",
+			say = "It looks like everyone's here. Good. I'm Peter Strasser. I'll be overseeing the Towers for this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "好久不见，{namecode:471}~",
+			say = "Ah, Strasser! Always right on time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到你在这边做这么有趣的事，最初听到的时候我真的大吃一惊呢！",
+			say = "Your team never ceases to amaze. First you built the flying fortress, and now this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好久不见，你也变成能独当一面的出色铁血航空母舰了啊。",
+			say = "Anyone can accomplish great feats if they don't fall for distractions and just focus on their job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "这里与其说是有趣，不如说是充满了危险与挑战之地。趁着各位还在接近途中，请允许我先介绍一下情况。",
+			say = "Now, you should know a few things before you enter the Singularity. I'll be brief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如同各位所见，呈现在诸位面前的巨大建筑物就是吾等铁血科技的结晶，人工奇异点「米德加尔特之塔」。",
+			say = "What you see before you is the Tower of Midgard. Let us not waste time pointing out how it does not resemble a tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "宏伟又气派！要在海面上建造这么大的东西……路上的运输一定很困难吧。",
+			say = "You sayin' these structures collectively make up the Tower of Midgard?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "嗯，确实出现了一定程度的问题，不过并没有你想象中的困难哦。",
+			say = "Correct. They were first built inside the flying fortress, then assembled on-site here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "为了保证运输过程的隐蔽和效率，「米德加尔特之塔」的主体是由数十个在基地中提前造好的浮岛构成的。",
+			say = "Of course, these \"building blocks\" on their own are each already the size of a small island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "各个浮岛依靠自身动力航行至此，之后再进行现场组装。",
+			say = "But transporting them was not difficult. We have the Sirens' tech to thank for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "原来如此，就跟我们修建大型浮岛要塞群的技术差不多呢。",
+			say = "Now that you mention it, those structures do resemble the flying fortress a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "以往技术的升级版。当然，一些隐蔽手段是必不可少的。",
+			say = "Correct. They're essentially derived from the same technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不论是运输的过程还是这个组装现场本身，都是对于幻光系统大规模应用的测试。",
+			say = "We're able to conceal them using an active camouflage system to ensure neither Naval HQ nor the other factions find out about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "目前看来一切顺利。因为信号被伪装了，所以就算进行如此大规模的行动也没有被任何势力注意到。",
+			say = "This same system can also be used to create hologram fleets, like in our last Reenactment with the Royal Navy. Quite nifty, I'll say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊……等等，我怎么记得资料上写的是……{namecode:468}，这次舰队真的是你带领的么？",
+			say = "Now... Your group will spearhead the attack on the Singularity. Ulrich will be your leader. Ulrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "怎么可能，舰队旗舰的是{namecode:463}阁下哦。",
+			say = "...Ulrich, that's your cue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………非常抱歉，{namecode:464}阁下，刚才您一直没有发言，我一时间没有注意到。",
+			say = "Ah. Thank you for gracing us with... some sort of response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "请不用在意，{namecode:472}阁下。本来作为客人，应该由我主动打招呼才对。",
+			say = "Yeah, yeah. Sorry for not being very chatty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "只是……见到眼前如此恢宏之景，稍微有些呆住了。是我礼数不周。",
+			say = "Let's just say the Tower has me speechless. Starstruck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正式介绍一下，我是{namecode:463}，本次作为{namecode:440}的特使到此，在本次行动中拥有最高指挥权。",
+			say = "Anyway... I'm Ulrich von Hutten. I'll serve as your field commander for this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是！我已经在此前收到相关命令了。「米德加尔特之塔」的要塞设施，以及在此驻防的铁血第二主力舰队听从您的调遣。",
+			say = "Excellent. One minute while I grant you access to the Tower's systems and control over the mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "很好。{namecode:472}阁下，在米德加尔特之塔启动之后，幻光系统的伪装功能还能正常生效么？",
+			say = "Thanks. Just one question: after the Tower is activated, will we be able to create hologram fleets and the like?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "我们尚未进行过类似的测试，如果时间能再充足一些的话……",
+			say = "Well, there's no guaranteeing you'll be able.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没时间了。实际性能就用实战来检验。说说理论分析？",
+			say = "So it's not a no. Good enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "理论上来说……也许不行。人工奇异点运行时产生的巨大能量旋涡预计会对幻光系统产生强烈干扰。",
+			say = "More or less. Creating a Singularity takes immense amounts of energy. It's unlikely we'll have much left to spare for creating holograms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "果然如此。虽然现在看上去风平浪静，不过真正的挑战要从奇异点启动之后才开始算啊。",
+			say = "Got it. We'll just have to see for ourselves what we can do once we're inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:472}阁下，请给出汇合点，之后的事我们去会议室里详谈吧。",
+			say = "That about does it for the briefing. See you on the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没问题，各位请遵从引导前往第一码头停泊，我们米德加尔特之塔内部见。",
+			say = "Sending you coordinates for the anchor point right now. Strasser out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"合雅之宴\n\n<size=45>四　晚宴</size>",
+					"The Graceful Banquet\n\n<size=45>4 The Banquet</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宴会厅",
+			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "终于到这个时候了啊。",
+			say = "The time's finally come, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我已经做了很久的微笑练习，现在应该能露出比较自然的笑容了。）",
+			say = "(I've been training my ass off. I SHOULD be able to crack a natural smile now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "（放轻松吧华盛顿，宴会上大家都在享受着，你只要像她们一样享受这个氛围就好了！）",
+			say = "(Take it easy, Washington. Just enjoy the banquet like everyone else and you'll be fine!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "贵、贵安！",
+			say = "N-nice to meet you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "（一眼看上去就非常紧张的人出现了！？我记得她好像是鸢尾的勒马尔……）",
+			say = "(Man, she's tense, just like me! Pretty sure she's... Le Mars, from the Vichya Dominion?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "那、那个……白鹰的华盛顿小姐，您，您好！",
+			say = "Ahem, um... G-good evening, Miss Washington!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你现在正紧张得不行，对吧？",
+			say = "You're worked up like crazy, aren'tcha?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "欸？您是怎么知道的……",
+			say = "Pardon?! H-how could you tell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "这不是一眼就能看出来的事么。",
+			say = "I mean, it's written all over your face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "对、对不起，让您见笑了……",
+			say = "So it's that obvious... Apologies for my embarrassing display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（呼……不知道为什么，碰到比自己还紧张的人后就完全紧张不起来了……）",
+			say = "(Geesh... Somehow seeing someone more stressed than me is helping me ease up considerably...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "还不太适应宴会的气氛么？",
+			say = "This your first time at a banquet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "是啊！在宴会厅门口站岗的经验倒是有很多，实际参加的经验可就……",
+			say = "It is! I've been on guard duty by the entrance numerous times, but never been here as a guest before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "况且这次还换上了这么正式的礼服……还要注意礼仪什么的……呜呜呜…………",
+			say = "Not only that, I have to wear a dress and pay attention to so many little things... It's so much all at once... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧，宴会上都是同伴，礼仪保持在适可而止的程度就好。",
+			say = "You don't gotta worry so much. We all know each other here – no point stressing over being prim and proper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "你要是太过拘谨了，也会让其他人不好意思的。",
+			say = "In fact, you'll probably struggle to hold a conversation if you act so stiff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "噢——好像是这个道理！",
+			say = "Actually, now that you mention it, that's true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来——像我一样微笑，是不是感觉轻松一些了？",
+			say = "Right? Try smiling like me, and I'm sure you'll feel more comfortable too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "像您一样微笑——————嗯！好像轻松了很多！",
+			say = "...You're right! It's helping quite a lot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 901013,
-			say = "非常感谢，华盛顿小姐！我好像开始渐渐习惯这里的气氛了！",
+			say = "Thank you so much, Miss Washington! I feel I'm getting used to this already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "呵呵，那就好，尽情享受今晚的东煌风宴会吧。我对今晚的菜单可是充满了期待哦。",
+			say = "Good to hear it. Go on and enjoy yourself now. I'm gonna hit the dinner table and help myself to some grub.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（她刚刚没有对我的“笑容”有任何奇怪的反应……也就是说，我刚刚终于做到了“成功的微笑”么？）",
+			say = "(She didn't comment on my smile at all... Do I take that to mean she thought it was natural?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "（真是太好了——不过，我刚刚具体是微笑到什么弧度了呢……）",
+			say = "(Hell yeah! Actually, hang on... How'd the muscles in my face move to pull that off...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105131,
-			say = "（这很重要！快想起来啊华盛顿————！）",
+			say = "(Consarnit! Need to remember now, before I forget!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "刚刚解决了别人烦恼的华盛顿，似乎又陷入了新的烦恼——",
+			say = "Washington solved someone's problem only to quickly end up with one of her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "与此同时的会场内——",
+			say = "Some time later, after the banquet had begun...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "新鲜出炉的饼干来了~大家不用客气，尽情选用哦~",
+			say = "I've brought freshly baked cookies. If anyone wants one, don't be shy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我要吃这个灯笼造型的，啊呜——",
+			say = "Lemme have that one shaped like a garden lantern... Nom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个折扇造型的看起来不错，就选它了。",
+			say = "I think I'll have... this one that looks like a folding fan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102293,
-			say = "那我就拿一个这个文字一样的饼干吧，非常感谢~",
+			say = "Thanks, Howe... I'll take the one that looks like a Dragon Empery character...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼……登台表演，这是我从未经历过的体验……",
+			say = "Whew... I suppose it's time to perform in front of a big audience.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "还在紧张么？",
+			say = "Are you still nervous?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "我也不太清楚……或许现在的情感更接近兴奋吧。",
+			say = "No, I'm fine. What I'm feeling could be better described as exhilaration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "呵呵，那不是正好？",
+			say = "Heehee. That's just what I like to hear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "将你此刻的感情融入演奏之中，尽情地释放出来吧——",
+			say = "Pour that feeling into your performance, and let's give them a passionate duet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			}
 		},
 		{
-			say = "咔嚓————",
+			say = "*click*",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,
@@ -734,7 +734,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“今日良宴会，欢乐难具陈。弹筝奋逸响，新声妙入神。”",
+			say = "\"A gathering of lovely guest seats – a banquet more pleasant than words can describe. A reverberating duet of wind and string instruments – a melody so wondrous in the air.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "不如这一张，就叫“合雅之宴”好了。",
+			say = "This one I shall title, \"The Graceful Banquet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "宴会已经开始，也到了把工作放在一旁，尽情沉浸其中的时刻了。",
+			say = "I think that's enough photographs for today. The banquet is underway, and now it's time to focus on having a good time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			actor = 506011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有没有兴趣与我共跳一曲呢，指挥官——？",
+			say = "Speaking of which... Commander, would you like to join me for a dance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

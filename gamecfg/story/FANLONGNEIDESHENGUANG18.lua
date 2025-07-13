@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在修改了五版之后，马可波罗圣座终于满意了。",
+			say = "After five rounds of revision, Marco Polo finally found herself satisfied.",
 			bgm = "theme-marcopolo",
 			flashout = {
 				black = true,
@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·地下某处",
+				"Cathedral - Somewhere underground",
 				3
 			}
 		},
@@ -40,12 +40,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错……不错，不愧是大画家……画得真好看啊！",
+			say = "Hmm... Not bad! Great painter, indeed – your rendition is nothing short of beautiful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老板你满意就好！",
+			say = "I'm glad you're happy, Your Grace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,13 +70,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			fontsize = 24,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好最后没说改回第一版……（小声）",
+			say = "At least you didn't tell me to undo all of the revisions in the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,12 +86,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳，现在画有了，接下来你打算怎么做？",
+			say = "Anyway! Now that the painting is done, what do you want to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~本圣座想要修改一下末日审判仪式的流程，进而修改仪式的最终结果。",
+			say = "Heheh... I plan to modify the Rite of the Final Judgment to yield new results!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,12 +115,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简而言之，就是利用仪式的力量，但不唤醒那些所谓的神之兵器，而是直接让真正的神降临！",
+			say = "Not to awaken these so-called divine armies, but to herald the appearance of the one true God!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
@@ -145,12 +145,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这眼神是什么意思……是在怀疑我会失败吗？",
+			say = "What is that look in your eye? Do you think the Apostle Marco Polo would fail?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,12 +160,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不不不，这方面的事没有人比您更懂，我懂！",
+			say = "No, no! I know that nobody knows God better than you, Your Grace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			actor = 605080,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的意思是，说真的……这张画里的形象真的很奇怪啊……",
+			say = "But to be honest... the God in this painting is strange. Like, really weird.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +194,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再奇怪能有那些神之兵器奇怪么？",
+			say = "Do you find it any stranger than divine weapons and armies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,11 +209,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本圣座也不瞒你了，安德烈亚说的关于剧本、枷锁的事都是真的。",
+			say = "I won't hide the truth from you. Andrea's talk of stories and cages? It's all true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,12 +223,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就在刚才，本圣座在那个操作台里真的看到了一个剧本。",
+			say = "I saw the script of said story with my own two eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +238,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要本圣座乖乖听话，这个世界上将会迎来第二次神光圣裁。",
+			say = "If I carry out the rite as written, Paradise Lost will befall this world once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后，教廷将会一家独大，而凡世，将永远受制于神。",
+			say = "The divine weapons will return, an Apostle will hold all the power, and the world will be forever ruled by God's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,12 +268,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可本圣座偏偏还知道，这些所谓的神其实还有另外一个名字，叫作塞壬。",
+			say = "Your God has another name: The Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,40 +283,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而这里，就是一个塞壬的实验场。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
-			dir = 1,
-			actor = 699010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "信仰是它们的实验项，你们——则是实验品。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 699010,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "世界，即是樊笼。",
+			say = "This very world is but another of their twisted test sites.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +297,41 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Here they test faith, and you – and everyone else born here – are their guinea pigs.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 699010,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "\"Cage\" is an apt descriptor for this world, really.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……世界，即是樊笼。",
+			say = "The world is a cage...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,12 +341,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像你这么聪明的人，肯定早就有所察觉吧？",
+			say = "Please. You must have had some inkling of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,11 +356,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "达芬奇肯定也发现了，不然你们不会坚持把信仰之力叫作心念，老实说我还挺喜欢这个称呼的。",
+			say = "Da Vinci realized it, too. Otherwise, you two wouldn't use \"brain power\" to describe the so-called power of faith. To be quite honest, I happen to like that phrase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,12 +370,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……果然瞒不过你。",
+			say = "Ahahaha... Nothing gets past you, Your Grace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,12 +385,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我确实是支持安德烈亚她们对于教廷和信仰进行改革的大方向啦。",
+			say = "I do generally support Andrea's idea of reforming faith and the Church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,12 +400,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是我没想到她们会这么激进，甚至到了开战这一步！",
+			say = "But I didn't think she would be so radical, let alone that she'd start a war over it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,11 +415,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，她们看到本圣座的出现，想到了本圣座可能调动的神之兵器，所以慌乱了。",
+			say = "She panicked when she learned of my appearance, because she thought I would mobilize the divine army.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,12 +429,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是怎么就没人在打之前先来问问本圣座，我到底想不想打呢？",
+			say = "Yet nobody ever stopped to question whether I wanted to fight in the first place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,11 +444,11 @@ return {
 			actor = 605080,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那你想打么？",
+			say = "Umm... DO you want to fight, Your Grace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,11 +458,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不想啊！",
+			say = "Absolutely not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,12 +472,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "早跟我说的话我就直接加入了啊！",
+			say = "Hell, if she'd come and TALKED to me, I would've joined her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,12 +492,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一起阴一把塞壬不好么！",
+			say = "Better we fight our common enemy together than squabble among ourselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,12 +507,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你这算不算是造自己的反？",
+			say = "...The Apostle herself would rebel against the Holy See?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,12 +522,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顶多算是反乱拨正罢了。",
+			say = "It's called righting the course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,12 +537,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……可惜现在已经打成了一团，说什么都晚了。",
+			say = "But our factions are already fighting. There's nothing we can do now, is there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,12 +552,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不晚……我们的损失主要在于神光之网的节点，军队基本没有损失，对面也一样。",
+			say = "There's still time! We may have lost the nodes of the Lattice of God's Light, but fortunately, there has been little loss of actual life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,12 +567,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既足够骗过去，又没有真的伤筋动骨……堪称恰到好处啊！",
+			say = "Our army can still act. It's the perfect time for a bit of deceit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,11 +582,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，本圣座在上一次失败之后，可是做了充分的反思的。",
+			say = "Heheh, I might've failed last time, but I am the kind of woman who knows how to learn from mistakes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,12 +596,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在神给了我一个重来一次的机会……",
+			say = "God's given me a second chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,12 +611,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一次，我一定要成功！",
+			say = "And damn it, I'll do it right this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,12 +626,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……上一次？",
+			say = "Did you say \"last time\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,40 +641,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳，那就是一个复杂的故事了，以后有机会跟你说。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 605080,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……那“骗过去”呢，又是指什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
-			dir = 1,
-			actor = 699010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我其实有一个大胆的计划，不过光靠咱们两个人不行……",
+			say = "It's a long story. I'll tell you another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,11 +655,11 @@ return {
 			actor = 605080,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简单，把卡尔杜齐她们也拉入伙，她们虽然嘴上不说，不过心里怎么想的我知道，你放心吧！",
+			say = "Okay, what about the whole deceit thing? What are we doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,26 +669,26 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巧了——我也是这么想的。",
+			say = "I have a plan, but the two of us can't accomplish it alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 699010,
+			actor = 605080,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样，你回去一趟，就说仪式准备出现了一些问题，把她们先骗过来。",
+			say = "Then let's get Carducci and the others involved! They won't say it out loud, but I know how they feel, so don't worry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,12 +698,41 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而后，我们就——",
+			say = "Well, well, what a coincidence. I was just thinking the same thing.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 699010,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Go back to them and tell them there was an issue with the Rite. Have them come to me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "Sardegna Ecclesia",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "And then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "该处塞壬实验场的谜题较为困难，是否向领航员-TB寻求帮助？（寻求帮助后，领航员-TB会直接解开海域中的谜题）",
+			say = "We’re probably going to need TB’s help if we hope to figure this thing out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,15 +18,15 @@ return {
 			},
 			options = {
 				{
-					content = "寻求帮助",
+					content = "Ask TB for help.",
 					flag = 1
 				},
 				{
-					content = "再努力一下",
+					content = "Try for a little longer first.",
 					flag = 2
 				},
 				{
-					content = "本次探索不需要帮助",
+					content = "Manage on your own (you cannot ask for TB’s help again later.)",
 					flag = 3
 				}
 			}

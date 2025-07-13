@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>一 青空下的青春之声</size>",
+					"Moments with the Young Miss\n\n<size=45>1 The First Sound Under the Sky</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "工作告一段落后外出散了会步，不知不觉额上已经沁出了汗珠。",
+			say = "As I was taking a walk after finishing work, I noticed some beads of sweat forming on my brow.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "早上感觉还没这么热才对…就在仰望晴朗蓝天发出感慨的时候——",
+			say = "“It wasn’t this hot earlier this morning,” I thought to myself as I looked towards the crisp, blue sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "梆——！！",
+			say = "CRAAAAACK——!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊！？怎么又被打到了啦~~~~！！",
+			say = "Gahh!! How are you so good at hitting these?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "阿基里斯懊悔的喊声，与白色的小球一同划破了平静的蓝天。",
+			say = "A solitary white baseball cut across the calm sky— along with Achilles’ remorseful voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀…这已经是第几个“全垒打”了…？",
+			say = "Oh my... How many home runs does that make now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "十球以后就没傻傻再数了，谁知道已经几次了呢……",
+			say = "I stopped counting after about ten or so. Who knows how many we’re at by now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来是利安得级的三位在打棒球玩的样子，顺着声音看了过去——",
+			say = "It seemed like the three Leander-class sisters were playing baseball. Deciding to take a look, I turned towards the direction of their voices...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼♪如果我没记错的话，这是第16个全垒打了哦。",
+			say = "Hehe~♪ If my memory serves me correctly, that would make 16 home runs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "差不多已经找回挥棒击球的感觉了，再来一次吧~",
+			say = "Looks like I’m starting to get a good feel for this. Give me a few more pitches, please~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸~饶了我吧~就算全力投球再怎么开心，像这样一直被轻松击中也会泄气的啦~",
+			say = "Ehhh... Give me a break already... No matter how blazing my fastballs are, you always hit them back easily...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "阿基里斯蹲在地上痛苦地摇着头。看来这三个人一直在当追赶者的对手。",
+			say = "Achilles was crouching over the ground, clutching her head in distress. Apparently, the three sisters had been keeping Chaser company.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "以原博格级姐妹舰的追赶者为对手，果然是没那么简单啊。",
+			say = "I certainly did not envy those girls, having to play baseball against one of the Bogue-class sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，这就开始打退堂鼓了吗？开始之前还那么自信满满的样子呢。",
+			say = "Oh my, isn’t it a bit early to be giving up? What happened to all that bravado from earlier~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早知道你这么强，就不挑战你了啦！",
+			say = "I never would’ve challenged you if I knew you were so stroooong~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，算了，今天差不多到这里就好——嗯？这不是指挥官吗？",
+			say = "Hehe, fine by me. Let’s call it for the day then— Hey, isn’t that the commander over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "向着看过来的追赶者和利安得级三姐妹挥了挥手。",
+			say = "Having noticed me, Chaser and the three Leander sisters waved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官是看到我打出去的球才过来看看的吗？",
+			say = "Did you come here after seeing all those home runs I hit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,11 +349,11 @@ return {
 			},
 			options = {
 				{
-					content = "声音很棒的一球",
+					content = "Your hits had a really pleasant ring to them.",
 					flag = 1
 				},
 				{
-					content = "腰部的旋转很精彩",
+					content = "Your batting form was wonderful.",
 					flag = 2
 				}
 			}
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能得到您的称赞是我的荣幸——虽然我根本打不中博格投出的球就是了…",
+			say = "Thanks for the compliment— but having that said, I still can’t return a single one of Bogue’s pitches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，指挥官，一会能耽误您点时间吗？有件事想和您商量下。",
+			say = "Oh right, Commander, are you busy right now? I’d like to talk to you if possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "正好工作已经告一段落，之后也没有别的计划。应该没什么问题。",
+			say = "Luckily, I had already finished my work and had no plans for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "答应以后，追赶者笑着走了过来。",
+			say = "When I said that to her, Chaser smiled and walked up next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了，指挥官，能请您送我一程吗？",
+			say = "Great. Can I count on you to escort me then, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "向着玩笑般提出请求的追赶者点了点头，告别了利安得她们，与追赶者一起向着指挥室走去。",
+			say = "I nodded in response to her joking tone, and we headed to the office together after she waved goodbye to the Leander sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

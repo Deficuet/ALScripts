@@ -8,7 +8,7 @@ return {
 			actor = -1,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "发现敌方攻击部队旗舰！",
+			say = "Hostile enemy flagship ahead!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,7 +29,7 @@ return {
 			actorName = "？？？",
 			dir = -1,
 			nameColor = "#ffffff",
-			say = "呵呵呵呵，一群蝼蚁们居然嗅着味道找上门来了",
+			say = "Hehehe, another group of bugs to squash. I'm surprised you managed to find your way here.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -49,7 +49,7 @@ return {
 			actorShadow = true,
 			actorName = "？？？",
 			nameColor = "#ffffff",
-			say = "…外围的防御舰队居然被突破了么…这可是在计划之外的情况",
+			say = "They managed to break through our outter defences... This is not going according to plan.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -70,7 +70,7 @@ return {
 			actorName = "？？？",
 			dir = -1,
 			nameColor = "#ffffff",
-			say = "无妨，主要任务已经达成，剩下的就是陪这群蝼蚁们好好玩耍的时间了~呵呵呵呵~",
+			say = "Our main objective has already been completed. All that remains is for us to play with these bugs... hehehe...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -91,7 +91,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			actorName = "{namecode:91}",
-			say = "「重樱」第一航空战队，{namecode:91}",
+			say = "Sakura First Carrier Division, Akagi!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorShadow = true,
 			nameColor = "#ff0000",
 			actorName = "{namecode:92}",
-			say = "「重樱」第一航空战队，{namecode:92}",
+			say = "Sakura First Carrier Division, Kaga!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -128,11 +128,11 @@ return {
 		{
 			actor = 307010,
 			actorShadow = true,
-			actorName = "{namecode:91}&{namecode:92}",
+			actorName = "Akagi & Kaga",
 			side = 0,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "                                                                <size=45>参上！</size>",
+			say = "                                                                <size=45>Forward!</size>",
 			subActors = {
 				{
 					actor = 307020,

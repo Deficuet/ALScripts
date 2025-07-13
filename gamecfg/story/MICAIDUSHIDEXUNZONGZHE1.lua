@@ -13,19 +13,19 @@ return {
 			bgm = "story-antarctica-serious",
 			sequence = {
 				{
-					"霓虹之下，人们将谎言织成迷彩，以生存作为底色。",
+					"Beneath the neon lights, people drape themselves in lies to survive, staking their lives on a game.",
 					1
 				},
 				{
-					"当爆炸的火光点亮城市的暗角，谁在演绎剧本，谁又在书写结局？",
+					"Who's playing out the script, and who's writing the ending as the flames of explosions light up the streets?",
 					2
 				},
 				{
-					"今晚，警视厅特别顾问——",
+					"There is but one truth waiting to be uncovered.",
 					3
 				},
 				{
-					"将找寻那唯一的真相。",
+					"By the special advisor of the police force.",
 					4
 				}
 			}
@@ -33,13 +33,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			bgm = "story-spycity-fashion",
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~终于要开始了喵~",
+			say = "Nyahaha, we're finally starting, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,22 +66,22 @@ return {
 			actor = 312013,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主演，剧本都记住了么喵？",
+			say = "So, dear main character, do you remember your lines, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……什么主演？",
+					content = "What? Main character?",
 					flag = 1
 				},
 				{
-					content = "……什么剧本？",
+					content = "Huh? My lines?",
 					flag = 2
 				}
 			}
@@ -90,12 +90,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵？主演就是主演，剧本就是剧本喵？",
+			say = "Yes, you're the main character and you have lines, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官真是贵人多忘事喵，不过没有关系喵！",
+			say = "Have you been so busy that it escaped your memory, nya? That's fine, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们直接开拍吧喵！",
+			say = "Let's skip the rehearsal and go straight to filming, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……我很确定我确实没有收到过剧本，也不知道主演是怎么回事。",
+			say = "Wait, slow down. I really haven't even gotten the script, and nobody told me I had a starring role.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是收到了{namecode:55:青叶}的联络过来配合她取材……",
+			say = "All I got was a call from Aoba to come and help her get some material for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +163,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们是一伙的！",
+			say = "Oh. You two were in cahoots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,12 +177,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~没有剧本就是最好的剧本！",
+			say = "Nyahaha! The best kind of script is no script at all, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 			actor = 312013,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的本色出演才卖座的喵~",
+			say = "You're playing yourself, and that's what'll make this such a hit, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,12 +206,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之——警视厅特别顾问，希望你在接下来也能一直保持这份敏锐的观察力呢~",
+			say = "Here's the gist: You're a special advisor for the police, and I want you to put your keen deductive skills on display, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +221,11 @@ return {
 			actor = 312013,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各部门注意，主演已经就位喵！",
+			say = "Calling all teams, nya. Our star is on set, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,12 +235,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			actor = 312013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三、二、一 ——Action~喵！",
+			say = "Three, two, one... Action, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

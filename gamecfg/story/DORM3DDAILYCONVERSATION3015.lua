@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天气预报……好神奇！为什么知道，明天的天气？",
+			say = "Weather forecast... Weird! How do they know... what will happen tomorrow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……难道是，预知未来？",
+			say = "…Can they... see the future?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "向安克雷奇解释了天气预报的原理。",
+			say = "I explain how weather forecasting works to Anchorage.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……好复杂……{dorm3d}，知道，明天的天气吗？",
+			say = "That's hard... {dorm3d}, do you know tomorrow's weather?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}知道……安克雷奇，问{dorm3d}！",
+			say = "If you do... then I'll ask you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿~安克雷奇，聪明！",
+			say = "Hehe~ Anchorage is so smart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

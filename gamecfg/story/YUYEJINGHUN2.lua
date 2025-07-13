@@ -9,11 +9,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			actorName = "一本正经的后辈KP",
-			factiontag = "真相只有一个",
+			actorName = "Essex",
+			factiontag = "Serious Protégé GM",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大失败……这可不太妙啊。",
+			say = "You roll a 100... Critical failure. Oh boy, that's really bad.",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -24,10 +24,10 @@ return {
 			portrait = 107060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "享受剧本吧",
+			factiontag = "Serious GM",
 			hidePaintObj = true,
-			actorName = "一本正经的KP",
-			say = "我记得这一幕的设计是……嗯，确实不太妙。",
+			actorName = "Enterprise",
+			say = "What's the outcome? Oh... Yeah, that sucks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掷骰失败，会发生什么事么……？",
+			say = "What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,10 +48,10 @@ return {
 			portrait = 107090,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "真相只有一个",
+			factiontag = "Serious Protégé GM",
 			hidePaintObj = true,
-			actorName = "一本正经的后辈KP",
-			say = "这一点的话……稍后您就知道了。那么，让我们继续吧——",
+			actorName = "Essex",
+			say = "You'll, uh, find out soon enough. Go on, please continue the investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "因为担心浮冰的情况，所以前往了驾驶台。",
+			say = "I suddenly feel apprehensive of icebergs, so I head to the bridge.",
 			bgm = "theme-tempest-up",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，情况如何？",
+			say = "TB, report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认：回答，海上浮冰增多，前方发现冰山。基于常理，我应该发出海冰预警。",
+			say = "Orders received. The number of ice floes is increasing. An iceberg has been spotted ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但，基于当前航速及路线，系统判断撞击概率极低，可轻松回避。",
+			say = "At the current speed and bearing, probability of collision is extremely low. It can be easily maneuvered around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样么……",
+			say = "Alright...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过越是这样说，就感觉越容易出事啊……）",
+			say = "(When you think you're safe, THAT'S when accidents happen.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "仿佛是为了印证我的糟糕预感，就在这时，邮轮突然发出了一声巨响。",
+			say = "Almost as if to prop up my fears, the interior of the ship makes a sudden, loud bang.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警报：指挥官船舱安保系统遭遇武力强行突破，致使邮轮动力部出现异常。",
+			say = "Breaching attempt into your cabin's security system has been detected. Anomaly detected in ship's engine room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Wait, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警报：航速过快，无法修正航道。预计撞击概率上升，概率为：100%。",
+			say = "Unable to correct course at ship's current speed. Probability of iceberg collision has increased to 100%.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（指挥官舱室遭遇武力突破的事情之后再说……）",
+			say = "(The breaching attempt will have to wait...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（如果是对于常规邮轮来说，此时已经是千钧一发之际了吧……）",
+			say = "(We'll hit the iceberg in no time at this rate. This would be a cause for panic for a normal cruise ship.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还好，我们这不是一艘常规邮轮。）",
+			say = "(It's a good thing this is no NORMAL cruise ship.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，接通通讯频道。",
+			say = "TB, patch me in to the lookouts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解。",
+			say = "Orders received.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "战斗小组现在立刻下船，摆出攻击阵型，准备击沉冰山！",
+			say = "Lookouts, disembark at once and get in combat formation. Sink that iceberg!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "邮轮正以极快的速度朝着冰山的方向冲去。",
+			say = "The ship remains on course, heading straight for the iceberg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听我指令，5……4……3、2、1……开火！",
+			say = "On my mark. Five, four, three, two, one... Fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "伴随着我的指令，负责进攻的{namecode:199:新泽西}等人开炮了。",
+			say = "On my command, flames burst from the guns of New Jersey's squadron.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "战列舰主炮强大的破坏力让整个冰山开始四分五裂，原本会撞击在邮轮上的那部分冰山结构被彻底破坏。",
+			say = "The iceberg is pummeled by the might of the battleships' main batteries, decimating the section of it that would have hit the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "正如我预估的一样，这部分的冰山结构很松散，水面下的部分会随着轰击而下沉。邮轮安全地通过了冰山区域。",
+			say = "Just as I expected, the iceberg's integrity is quite poor, and its two halves will split easily thanks to the bombardment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "确认：警报解除。指挥官，不愧是您。",
+			say = "Status updated. Emergency alert rescinded. Excellent work, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……总算可以松口气了。嗯？甲板那边是？",
+			say = "Phew. Now I can breathe easy... Hey, who's that on the deck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "顺着窗户看去，{namecode:224:哈尔滨}正带着东煌的几人，还有北联的同伴们对着形状较为完整的冰块比划着什么。",
+			say = "I look out the window and see Harbin and some Empery and Parliament girls, eyes turned to the relatively intact ice floats and talking among themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（出去看看她们要做什么吧。）",
+			say = "(Might as well go talk to them.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "哎呀，机会难得，我给你们露一手！",
+			say = "Hahah! This is a rare opportunity to show you one of my skills!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "冰雪大世界听过没？就是把冰雕成雕塑搁那儿展出的，可有意思了！",
+			say = "Ever heard of the Ice and Snow Sculpture Festival? It's this big exhibit of ice sculptures from carvers 'round the world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "来来来，指挥官也来搭把手，咱们一起整个冰雪大邮轮！",
+			say = "C'mere and gimme a hand, Commander! We're gonna make an ice cruise ship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "之后在{namecode:224:哈尔滨}的倾情教学下，除了东煌及北联之外的同伴也纷纷加入了刻冰雕的行列。",
+			say = "With Harbin's guidance, our group – and more, as others join later – carve a collection of impressive ice sculptures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "差不多雕完了，之后四处转转欣赏一下大家的作品吧。",
+			say = "That ought to do it for my sculpture. I should see what the others made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

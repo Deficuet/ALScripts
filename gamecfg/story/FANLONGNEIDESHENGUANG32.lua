@@ -8,18 +8,18 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "NA海域中心奇异点",
+			say = "Inside NA Ocean Central Singularity",
 			sequence = {
 				{
-					"NA海域中心奇异点",
+					"Inside NA Ocean Central Singularity",
 					1
 				},
 				{
-					"审判庭特殊行动舰队",
+					"Tribunal Special Fleet",
 					2
 				},
 				{
-					"下层船舱",
+					"Cabin below deck",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "回过神来时，我正维持着用手推开舱门的姿势。",
+			say = "The next thing I knew, I'd returned to the very moment when I was going to open the door to Marco Polo's cabin.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我这是，回来了？",
+			say = "Am I... Am I back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "时间——",
+			say = "What time is–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "怀表的指针只过去了数秒而已。",
+			say = "The second hand on my pocket watch has only advanced a handful of ticks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,20 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不远处，“帽子小姐”依然在酣睡之中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "没有醒过来啊……",
+			say = "Just a short distance away, Miss Hat – Marco Polo – is still in a deep sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +91,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "此行，她和海洛芬特之间的关联更密切了……也不知道是福是祸。",
+			say = "Still sleeping, huh...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Safe to assume the bond between her and Hierophant grew deeper after all of this. Only time will tell whether that's for better or for worse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,9 +115,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "指挥官，数据记录完成了么？",
+			say = "Commander, have you finished logging that entry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，已经记录完毕了。“帽子小姐”还在沉睡中，可以进行交接了。",
+			say = "Yeah. I'm done. Miss Hat is still asleep. I'll hand her over to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好，我们这就来。",
+			say = "Roger. We'll go there now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对了，麻烦帮我转达一下海伦娜。",
+			say = "Oh, could you pass on a word to Helena for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "让她忙完手头的事之后立刻联系我，我有一件重要的事要跟她说。",
+			say = "Tell her to call me as soon as this business is done with, and that I have something important to discuss with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "好的，一定转达。",
+			say = "Will do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 9712010,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "那么指挥官，奇异点内情况变幻莫测，请您尽快返航吧~",
+			say = "There is no knowing what may happen inside the Singularity, Commander. Please return as quickly as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

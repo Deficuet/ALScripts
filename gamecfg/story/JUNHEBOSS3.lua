@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>三　领导能力</size>",
+					"Crosswave\n\n<size=45>A Leader's Prowess</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被干掉啦——！",
+			say = "They got meeeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到此为止了吗……{namecode:22}，后撤至我方防卫线！之后就交给我和{namecode:97}吧！",
+			say = "Another dead end... Yukikaze, fall back to our line of defense! Taihou and I will cover you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是会使唤人……！{namecode:22}，趁现在！",
+			say = "You certainly know how to work someone hard... Yukikaze, now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！……哼，今天就先这样放过你们哒！",
+			say = "Understood! ... I mean, consider yourselves off the hook for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好不容易撑过了指挥官舰队的猛攻……不过这样下去战况只会慢慢恶化……",
+			say = "Somehow, we managed to fend off the Commander's onslaught... But as the battle gets drawn out, we'll surely get whittled down...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……没想到有本{namecode:22}大人在，竟然也无法阻止指挥官吗……",
+			say = "Grrr... How is it possible that not even Yukikaze the Great could put a halt to the Commander's fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法的事…以指挥官率领的舰队战力，一旦认真起来来，我方就算加上演习补正之类的，也很难撑得住吧",
+			say = "It seems we're at a loss. We can adjust our strategy all we want, but Commander's fleet seems to always be a step ahead of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是有白鹰舰船成功做到过啊……",
+			say = "There are Eagle Union ships that have managed it before, you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我个人是不介意被指挥官大人打得落花流水，不过确实也关系到重樱这边的面子呢……",
+			say = "And, while I wouldn't mind suffering a crushing defeat at my Commander's hands, that would reflect poorly on the Sakura Empire's reputation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "的确，战况如此一边倒的话，大家的士气都会受到影响……但就算如此，也不能去使用{namecode:22}所说的那种赖招啊……",
+			say = "I'll admit, one's motivation starts to diminish when a battle feels as one-sided as this... Having said that, we must not resort to using cheap tricks, like Yukikaze said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除此之外，别无他法了……！",
+			say = "They're forcing my hand...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:97}，{namecode:22}，我有个策略。",
+			say = "Taihou, Yukikaze, please listen. I have an idea for how we can turn this around.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么策略？先说好，加上演习补正把战力变三倍这种事我可不干啊！",
+			say = "But how? And let me just get this out of the way; I might be lucky, but even I can't magically triple our fleet power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种状况下还有什么逆转的方法吗？",
+			say = "There's still a way for us to get the upper hand in this situation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——无视其他舰船，直接突击指挥官。",
+			say = "Yes. By ignoring all the other opponents and going straight for the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可能哒！要冲进那样的大舰队正中央，就算是{namecode:22}大人也……",
+			say = "No way! Not even Yukikaze the Great could plow through to the center of that massive fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是让{namecode:22}去突击，而是将指挥官引诱到我方大本营，然后全军一起将其击破。",
+			say = "You won't be alone. We'll bait the ship the Commander is on to come here, then attack all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "炮击、轰炸，怎样都好，总之就是要将对方的旗舰击溃！听明白了吧！",
+			say = "It doesn't matter if you use cannons or bombs, just take out that flagship! Got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，如何得知指挥官大人的位置呢……",
+			say = "But how do you know where the Commander is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀？我本以为是{namecode:97}的话，一定能确实地找出来呢……索敌就交给你咯？",
+			say = "Why, I thought you of all people would know, Taihou... Would you mind doing some recon for us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "！？……嘴巴挺能说的嘛{namecode:175}，{namecode:97}今天就做给你看！",
+			say = "Me?! ... Need I even answer that question? I would absolutely love to locate the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "十分感谢。详细的指示之后再说，现在注意不要指挥官发现我们的计划",
+			say = "Appreciate it. I'll give you specific instructions later, so for now just try not to let the Commander catch wind of our plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——{namecode:175}舰队，出击！",
+			say = "Set sail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

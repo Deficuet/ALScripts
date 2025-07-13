@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DTOUCH1204",
 	alpha = 0,
+	id = "DORM3DTOUCH1204",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "欸？{dorm3d}？您难道对这里也感兴趣吗……？",
+			say = "Hm? Do you have a fondness for these?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

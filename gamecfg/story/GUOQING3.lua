@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "居然用暴风雨把这片海域完全覆盖住了，真是惊人的力量…",
+			say = "What a sight to behold... The sea is entirely encompassed by the storm...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "估计想来揭晓谜底的家伙们早就已经填满海底了吧…要不是我运气好…",
+			say = "This looks like a graveyard for those who sought out the Sanctuary... Had I not been so lucky, this would have been my final resting place, too...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "……不管怎样，必须先试图联系上{namecode:95}姐才行，这个地方…给我一种很不舒服的感觉",
+			say = "... Anyway, I need to establish radio contact with Shoukaku. This place is giving me the creeps...",
 			shake = {
 				speed = 1,
 				number = 3

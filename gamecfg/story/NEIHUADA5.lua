@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与牛仔的旅途\n\n<size=45>五　运动之后是休息</size>",
+					"Song of Nevada\n\n<size=45>5 Break Time for the Bronco Buster</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_wild",
 			bgm = "story-richang-6",
-			say = "傍晚，夕日欲颓，鎏金洒满了整片荒野的大地。",
+			say = "Moved by the sight of the badlands lit by the golden evening light, I let out an emotional sigh.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "一天的骑行之旅结束，虽然全身酸痛，但依旧能感受到一种来源于亲近自然的喜悦感。",
+			say = "My body, weary and aching from all the desk work, has difficulty adjusting to the bumpy horseback ride. However, that doesn't stop the joy of being surrounded by nature from resounding within me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "斜倚在旅馆的栏杆旁，和内华达并排在一起。风从辽远的荒野吹来，带着枯草特有的微苦气味。",
+			say = "I lean on the balcony handrail next to Nevada and savor the sensation of the wind and the scent of dry grass emanating from the badlands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年，今天的骑行之旅感觉如何？",
+			say = "How'd you like your first ride, young'un?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "感觉倒还不错，只是……有点太过颠簸了。",
+			say = "\"It's not bad... But honestly, it might've been a little too rough for my liking.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈！在马背上摸爬滚打可是牛仔的必经之路，等你习惯了这点就好了。",
+			say = "Hahaha! Like ridin' a boat, ya just have to get used to it over time. Experience is the only way to grow and overcome it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来少年，你知道牛仔为什么被称为牛仔么？",
+			say = "By the way, do you know where the name cowboy comes from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,11 +126,11 @@ return {
 			},
 			options = {
 				{
-					content = "因为在以前主要负责放牛？",
+					content = "\"They herded cows.\"",
 					flag = 1
 				},
 				{
-					content = "不是很清楚……",
+					content = "\"I have no idea.\"",
 					flag = 2
 				}
 			}
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是指挥官，学识渊博啊~没错，就是这样的。",
+			say = "Correct! You got a good head on those shoulders, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 2,
-			say = "说起来……为什么被称为牛仔但是却不骑牛呢？",
+			say = "\"It's strange, if you really think about it. You're a cowboy, but you ride horses?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 2,
-			say = "既然是骑马的话，不是更应该被称作马仔……？",
+			say = "\"Why not call them horseboys?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,24 +183,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "少年哟，牛仔可不是因为骑牛而被称为牛仔，而是因为牧牛而被称为牛仔的啊！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "接下来，要不要陪我去马厩转转？",
+			say = "Well, 'tain't about what ya ride. Cowboys herded cows, so they called 'em cowboys.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +200,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果想亲自体验一下骑马的话，最好首先跟马儿构建一下情感基础哦。",
+			say = "Okay. Wanna visit the stable with me?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Ya gotta get to know broncs if you wanna ride broncs, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "与内华达来到了马厩中，接下来——",
+			say = "I follow Nevada to the stable. The best way to get along with these horses would be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,15 +255,15 @@ return {
 			},
 			options = {
 				{
-					content = "给马喂食胡萝卜",
+					content = "\"Let's give them carrots.\"",
 					flag = 1
 				},
 				{
-					content = "梳理马的鬃毛",
+					content = "\"How about we groom their manes?\"",
 					flag = 2
 				},
 				{
-					content = "帮马洗澡",
+					content = "\"I say we should bathe them.\"",
 					flag = 3
 				}
 			}
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不错的选择~不过要注意，最好还是把胡萝卜切成小块哦。用整根胡萝卜的话可能会呛到它。",
+			say = "Now there's a good idea. They can choke if you give it to 'em as-is, though, so I suggest cutting the carrots.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 1,
-			say = "手掌托起内华达切碎的胡萝卜向马的嘴边伸去。",
+			say = "Nevada cuts the carrots, and I give the pieces to a horse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 1,
-			say = "马伸出舌头，把手掌上的胡萝卜块卷进嘴里，津津有味地咀嚼起来。",
+			say = "It eats them happily. Before I knew it, it has cleaned them out of my palm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "已经开心到摇头晃脑了呢~你们之间的关系肯定已经前进一大步了！",
+			say = "She loves ya. Keep it up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "梳理鬃毛也不失为和马儿亲近的一种手段。不过不要太用力，你就当成梳理女孩子的头发好了~",
+			say = "Brushin' their manes is a good way to make horses like ya. Be gentle, now. Easy does it... Pretend you're brushin' a cute li'l lady's hair.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 2,
-			say = "接过内华达递来的毛刷，顺着鬃毛的方向轻轻梳理着。",
+			say = "Nevada gives me a brush, which I use to slowly brush along the horse's mane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 2,
-			say = "马抖了抖身体，看起来很享受的样子。",
+			say = "The horse snorts happily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "很好~一般的马都很喜欢鬃毛被梳理的感觉哦。你们之间的关系肯定已经前进一大步了！",
+			say = "Good work! Horses love it when you brush their manes. Keep it up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "这个难度会稍微有点高，但是很有趣哦~",
+			say = "That sounds a little tough, but I'm always in for a laugh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 3,
-			say = "用水枪缓缓冲洗着马身和马腿上的污泥。",
+			say = "I use the methods Nevada taught me to handle the horse and wash its body and hooves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_story_wild",
 			optionFlag = 3,
-			say = "马看起来稍微有些不愉快，但还是乖乖地站在原地，等待着冲洗的结束。",
+			say = "The horse stamps unhappily a few times, but luckily, it is patient enough to let me wash it without any violence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,24 +432,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "它看起来不太很喜欢水枪的感觉啊……不过还是乖乖等你冲完，你们之间的关系肯定已经前进一大步了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯嗯~感觉和马的感情已经联络的差不多了。",
+			say = "The horses ain't real fans of it, but when it's all over, I wager you'll be closer than ever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +449,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年，接下来要不要上来实际试一下？只要掌握了技巧的话，骑马可是很有趣的哦————",
+			say = "Phew... I reckon that oughta do it.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "How's about you try ridin' alone now, young'un? Don't worry; I'll be right there. Once ya get the hang of it, that's where the fun really begins!",
 			painting = {
 				alpha = 0.3,
 				time = 1

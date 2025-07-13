@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>四　食物是派对的关键！</size>",
+					"A Party for the Ages\n\n<size=45>4.Setting the Table</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_room",
-			say = "十多分钟后，和西雅图一起拜访了重樱的宿舍区——",
+			say = "Next item on the party preparations list: the food. Seattle and I arrive at the Sakura Empire dorm to hammer out our plans.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官还有西雅图……？",
+			say = "Oh, good day, Commander and Miss Seattle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欢迎来到重樱宿舍区，请二位稍等……现在还有客人在，我去准备些茶水来。",
+			say = "Welcome to our dormitory. Please have a seat and I'll bring tea out to you shortly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没想到两位会突然前来拜访，让两位久等了，请用茶。",
+			say = "Here we are. Enjoy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，没关系，毕竟我们才算是突然登门拜访的那边。",
+			say = "Appreciate it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比起那个……我更好奇，为什么逸仙小姐也在这边？",
+			say = "Yat Sen, random question, but what brings you here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……啊，倒也不是什么不能说的事。",
+			say = "Oh, no reason in particular.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我和{namecode:71}小姐正讨论一些菜的做法。",
+			say = "I just wanted to have a small chat with Hiei.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……？厨师间的讨论吗？",
+			say = "A chat, eh? Let's see, things you have in common... Is it about food?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不光如此，还关系到接下来一周食堂的菜谱呢。",
+			say = "Yes, in fact. We were discussing the canteen's menu for this upcoming week.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "逸仙小姐，我们刚刚说到哪里了？",
+			say = "Would you remind me where we left off, Yat Sen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "说到关于素菜咸淡口味的问题。有同伴觉得最近港区的饮食口味偏重了一点，在想下周或许可能换一下口味比较好。",
+			say = "Of course. I brought up how some have complained that the vegetables were seasoned too strongly. Perhaps we could work out a menu with milder seasoning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是这样的话，适应原本口味的同伴就……如果同一道菜准备多份口味的话，又不太好拿捏具体的分量……",
+			say = "But then, those who prefer a stronger taste may complain that it needs more seasoning. Accounting for everyone's tastes is a tall order, I'm afraid...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,8 +263,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "逸仙&{namecode:71}",
-			say = "…………",
+			actorName = "Yat Sen & Hiei",
+			say = "......",
 			subActors = {
 				{
 					actor = 304020,
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_room",
-			say = "两人同时陷入了思考。",
+			say = "It sounds like they're at an impasse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，虽然没搞明白但是我懂了！",
+			say = "Hey, could I chime in for a sec?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位，我要是说完全可以全都要呢？",
+			say = "It COULD be that people just aren't used to the seasoning itself, rather than how strong it is. Different strokes, and all that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "其实是这样的，我计划举办一个“环球”风格的派对。",
+			say = "You can always experiment and see what people like. And I've got the perfect occasion for you to do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果两位愿意的话，可以一起加入我的派对筹备团队。",
+			say = "See, I'm throwing a party with a multinational theme on our next holiday, and I'd like you two to do the catering!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "两位可以一起作为主厨，毕竟这次可是需要很多风格的菜品。两位见多识广，正巧合适哦！",
+			say = "You'll have people from all different factions trying your food, and you can use their feedback to find that seasoning sweet spot. Whaddya say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？这倒确实是个不错的机会，可以借此了解下喜欢各个口味的同伴数量。",
+			say = "Interesting... That would let us figure out everyone's tastes to a more exact degree.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然如此，我也没有意见。",
+			say = "It's the perfect solution. We'd be happy to assist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "太好了，欢迎上船~",
+			say = "Aw yeah! I'm glad you're both on board!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			actor = 199010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们就告辞了，接下来还得找更多帮手才行呢——",
+			say = "That's that solved. Let's see if we can recruit some more peeps, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……人生好无趣啊……毁灭吧……",
+			say = "Ugh. Life is so dull. I just wanna throw it all away...",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502100,
-			say = "这……这就是我的人生……戛然而止的……",
+			say = "So this is how my life ends. Disappointingly and too soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "神啊……",
+			say = "O, Holy Iris, please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚——顺——！！",
+			say = "FUUU SHUUUN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊！！都是你们自己抽的卡，不能怪我哇！救命啊！！",
+			say = "Whoa, easy! It was you who drew the card, so don't pin this on me! Whuah?! Somebody heeelp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_571",
 			hidePaintObj = true,
-			say = "故事还要从半小时前讲起……",
+			say = "It all started 30 minutes ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是……飞行棋？为什么飞行棋会配套有卡牌？",
+			say = "What is this? Aeroplane chess? Why would chess come with a set of cards?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，这可是我新开发的“人生飞行棋”！那些卡牌里包含着各种各样的属性和事件哦~",
+			say = "Because this is a new game I came up with – LIFETIME aeroplane chess! These cards have all kinds of attributes and events on 'em.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我拿到的卡面信息是……",
+			say = "Let's see what my cards say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "属性：偶像？事件：秘书舰连任？",
+			say = "\"Attribute: Idol\"? \"Event: Reappointed as secretary\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "看起来蛮有趣的欸~",
+			say = "Hey, this might actually be interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这和飞行棋有什么关系？",
+			say = "So what does that have to do with aeroplane chess?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "玩飞行棋的时候，大家都想尽快抵达终点，对吧？",
+			say = "You know how, in regular aeroplane chess, everyone's just scrambling to get to the end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而“人生飞行棋”的规则恰恰相反！一旦代表个人的棋子走到终点，就相当于人生结束啦！",
+			say = "Well, lifetime aeroplane chess is the complete opposite of that! When your piece reaches the finish line, your life ends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如何能在有限的回合数内走到人生巅峰——全凭各位的操作和运气啦~",
+			say = "So it becomes a game of how to reach the peak of life within a limited number of rounds. It's all about skill and luck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502100,
-			say = "在游戏内进行新的人生吗，这么说我还挺感兴趣的。",
+			say = "Meaning, you get to experience a different life in the game. Now you have my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "不一样的人生，也会有神明的祝福吗……",
+			say = "I pray that the Holy Iris will bless me, even in this other life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，我这个飞行棋最多能有6人一起玩呢，大家都来试试吧！",
+			say = "Up to six people can play at a time, so we can all play together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_571",
 			hidePaintObj = true,
-			say = "一番准备后，开始了第一回合。",
+			say = "The game was set up, and the first round began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恶毒骰到了6点，人生前进6年，在未成年卡牌区抽卡——抽到了属性：学霸！",
+			say = "Le Malin, you rolled a six, which means your life advances by six years. Now to pull a card from the minors pile... You got the child prodigy attribute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "哇！学霸嘛，那就算上课睡觉也可以拿满分了吧？",
+			say = "Oh! Surely this means I sleep during classes and still get straight A's, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那得看之后会抽到什么事件啦~下一位是巴拉卡少校，也是骰了6点，抽卡——获得属性：病弱体质！",
+			say = "That depends on your event card! Okay, Baracca also rolled a six. Let's see what attribute she gets. Iiit's... sickly constitution!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "欸！竟然是负面的体质啊！不过……病弱美少女也不错呢~",
+			say = "Maaan, there are negative attributes, too? Well, I guess being a frail but beautiful girl isn't so bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来到我……5点，抽卡——稀有属性：镜花水月？完全不明白是什么意思？",
+			say = "Now it's my turn. I got a five, and my card, says... \"Rare attribute: Flowers in the mirror, moon on the water.\" What does that mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！伴尔维的运气好好哦！这种稀有卡一共也没几张，效果是……所有强正面、强负面的事件都对你无效~",
+			say = "Whoa! You lucky son of a gun! There are only a small handful of rare cards, and the effect of this one makes you immune to events, good or bad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，接下来是海容姐和鞍山姐……",
+			say = "Alright, let's see what Hai Yung rolls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_571",
 			hidePaintObj = true,
-			say = "五回合后……",
+			say = "Five rounds later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502100,
-			say = "创业者的成就吗……从头开始打拼获得越来越多的成就，这感觉倒也不错……",
+			say = "An entrepreneurship achievement... Starting out broke and slowly building up a fortune and accumulating achievements is pretty fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总感觉我的都好普通啊，是中庸之道属性的影响吗……",
+			say = "Meanwhile, I haven't achieved much of anything. I suppose that's what the path of moderation attribute does to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "抽到事件：涨薪？虽然是好事件，但是……怎么感觉我一直都在学习和工作啊！完全没有休息和享受的事件啊喂！",
+			say = "Event: Salary raise? That's nice and all, but I've been doing nothing but studying and working this whole time! Can't I get an event that gives me a vacation or a little luxury?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "人生已经过了20多年了，病弱美少女也该迎来一些新鲜的变化了吧……？",
+			say = "It's been over 20 years for me now, and I want something new to happen to my frail beauty already...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_571",
 			hidePaintObj = true,
-			say = "十回合后……",
+			say = "10 rounds later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，海容姐抽到了事件：公司倒闭！",
+			say = "Uh-oh, looks like Hai Yung drew the corporate bankruptcy event!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "综合结算之后，对应该事件的结局是……很遗憾，人生就此结束了呢~",
+			say = "Time to calculate your lifetime and see what you get... Aww, looks like your life ends here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502100,
-			say = "创业失败负债数亿……就这么结束了吗……戛然而止的……我的人生……",
+			say = "My business flopped and I ended up with hundreds of thousands worth of debt... Just like that, it's curtains for my whole life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "啊哈哈，又抽到幸运事件了呢，好无趣……资产累积到这个程度之后，钱就只是数字了……",
+			say = "Ahaha – another lucky event. Same old, same old... When you have THIS much money, it loses all meaning and just becomes a number.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608030,
-			say = "没有冒险……没有伴侣……只有钱，一点波澜都没有的人生……累了，毁灭吧——",
+			say = "No adventures, no partners, just me and a mountain of cash... That's so dull. Makes me wanna just throw it all away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "啊啊……我的愿望，都被无效了……很顺利但没有一次愿望实现的人生……神啊……",
+			say = "*sigh*... All my wishes have been denied. Even though my life is going smoothly, what kind of life is one where none of your wishes come true? O, Holy Iris...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下、下一位！到恶毒的回合了——她怎么睡着了？！",
+			say = "Uhh, next round! Le Malin, it's– Wait, is she seriously asleep?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "估计是代入了被叠加的工作狂属性之后，累到长眠了吧……",
+			say = "She must have collapsed from overwork after getting all those stacking workaholic attributes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那鞍山姐你……啊，对了，你在刚有起势的时候抽到事件：中道崩殂人生结束了……",
+			say = "Oookay then, it's your turn, An Shan... Oh, just as your luck was turning around, you drew the mid-life collapse event and your life ended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚——顺——！！",
+			say = "FUUU SHUUUN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊！！这是你自己抽的卡！不能怪我哇！",
+			say = "Hey, it was you who drew the card, so don't pin this on me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊啊~我当然不怪你，我只是想陪你一起去小小的改进一下这个游戏，仅·此·而·已！",
+			say = "I'm NOT pinning it on you! I'm just calling for you to make some tiny little improvements to your game! That's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然了，要改到能让大家玩得开心的程度才行——身为游戏的制作者，这种觉悟还是有的吧？",
+			say = "At a minimum, you need to retune it until everyone can have a good time! Isn't that your responsibility as the developer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那、那个，突然想到接下来和飞云有约！就先走……呜哇啊？！你别过来！救命啊！！",
+			say = "I, uhh, just remembered I promised Fei Yuen something, so if you'll excuse– Whuah?! Stay away from me! Somebody heeelp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伴尔维！巴拉卡！海容……姐……？",
+			say = "Aaaahhh! Stop chasing meee! Painlevé! Baracca! Hai... Yung...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_571",
 			hidePaintObj = true,
-			say = "海容等人眼神空洞地坐着，直到抚顺被鞍山拽出房间都没有任何反应……",
+			say = "Fu Shun called all their names, but none responded – they just sat there with empty eyes. None of them moved an inch until An Shan dragged Fu Shun out of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

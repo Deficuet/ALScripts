@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "呼，你是重樱的{namecode:157:春月}？",
+			say = "Harutsuki! You okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "非、非常感谢……",
+			say = "I-I'm fine, thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "塞壬IV型舰队与我们以往作战过的任何敌人都不同，不要大意哦。",
+			say = "These Type IV Sirens mean business. Don't let your guard down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "嗯！我明白了。",
+			say = "Okay! I'll be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "{namecode:157:春月}小姐，请跟我来，我带你返回重樱舰队。",
+			say = "Come with me. We're gonna regroup with the Sakurans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "非常感谢……啊！",
+			say = "As you say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "印第安纳女士，小心后面！",
+			say = "Wait! Indiana, behind you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "呵，我只是故意留个破绽而已，它果然没沉住气。",
+			say = "God dammit! Turn around for one second and they rush you like hyenas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg8",
-			say = "偷袭的鼠辈，以为我没发现么？！",
+			say = "Think you can catch me off guard?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg9",
-			say = "战绩加一，测试者的量产机又少了一台。",
+			say = "Another Tester vessel destroyed. One point for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg9",
-			say = "哼哼，马里亚纳群岛要塞正在多点开花。",
+			say = "Phew. Sure looks like that enemy stronghold is getting cooked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg9",
-			say = "按照这个速度的话，看来很快就能收工了啊，哈哈哈~",
+			say = "This'll be done in no time at this rate. Hahah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，镇海发来消息，目前大风暴控制设施已被彻底摧毁。",
+			say = "Got a report from Chen Hai! They've destroyed what they believe to be the Storm's control device!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海域中各处塞壬要塞也皆陷入战火之中，我们很快就要达成战役目标了。",
+			say = "Also, the coordinated attack on the stronghold is going well! The mission objective should be completed pretty soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很好，我们这次并没有做好进攻塞壬主机塔的充足准备。在彻底摧毁要塞群后就撤离，不要久留。",
+			say = "Alright! Once the fortress is destroyed, all fleets will pull out of the area. Destroying Tester's mainframe will have to come another time when we're better prepared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，恐怕我们不想打，塞壬却是想要我们来打啊。",
+			say = "Well, about that mainframe – I think she's exposing it to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我发了你一份刚收到的侦察情报，你看这是什么？",
+			say = "Sending you the recon data I took. Take a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "大黄蜂发来了一组坐标，还有一张清晰的照片。",
+			say = "Hornet sends me a picture and a set of coordinates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "照片中，一道巨大的裂隙赫然悬浮在海面上，将空间撕裂成如同破碎的镜面一般。",
+			say = "The picture depicts a great rupture suspended above the sea, almost like someone punched a giant hole through space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "而透过裂隙，能看到无数游走的电流和五颜六色的光。那是与外界截然不同的另一番景象——一座被电子海洋所包裹的机械都市。",
+			say = "On the other side of the hole, there are thousands of faintly glowing lines, and in the background, a sprawling city of steel situated in a sea of electronics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "那是……测试者的主机塔？！",
+			say = "Is that really it? Her mainframe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "测试者竟然……主动暴露了自己主机塔的位置？！",
+			say = "She's showing it for the whole world to see?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,9 +473,9 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
-			say = "阻敌方案必须被执行——大风暴必须被构建——",
+			say = "Invasion prevention plan must be executed... Storm must be reconstructed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,8 +504,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "此处实验海域相较于预设实验方案所产生的偏差已远超危险阈值。",
+			actorName = "Tester",
+			say = "Actual test site values... far exceed projected values...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,8 +517,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "局部清理指令申请中————",
+			actorName = "Tester",
+			say = "Requesting local cleanup authorization...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们听到了么……局部清理模式？！",
+			say = "\"Cleanup\"? That sounds bad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不妙，之前构建者在主机塔受到威胁的时候，就启动了这个模式。",
+			say = "Very bad. Compiler tried to initiate the same thing when we breached her mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "评估，我们需要在局部清理模式生效之前立刻撤退。",
+			say = "Our forces are too spread out to take her on. I say we retreat before she can activate it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "可是我们这次根本就没想打它的主机塔啊？！是它自己暴露出来的……",
+			say = "Why the hell is she escalating like this?! We aren't even after her damn mainframe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是……钓鱼执法？！",
+			say = "Maybe it's not us... It's someone else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,9 +622,9 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
-			say = "——申请已被驳回。",
+			say = "REQUEST DENIED.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,8 +653,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "结论：测试者机体存在遭受外部控制的迹象，请先完成故障检测。",
+			actorName = "Tester",
+			say = "YOUR VESSEL IS SHOWING SIGNS OF MANIPULATION. SUBMIT TO A SELF-DIAGNOSTIC.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,8 +666,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "故障检测……？",
+			actorName = "Tester",
+			say = "A self-diagnostic NOW?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,8 +679,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "可笑，本机哪里有故障……",
+			actorName = "Tester",
+			say = "I'm perfectly fine! Do I look like I'm malfunctioning?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,8 +692,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "哪、哪哪里有、故故故故故、故障——",
+			actorName = "Tester",
+			say = "Look-look-look-look li-li-like mal-mal-mal-mal–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -751,7 +751,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			dir = 1,
@@ -759,7 +759,7 @@ return {
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "故障，这不就有了么？",
+			say = "Oh dear. You should see a repairman about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "一切都发生在电光石火之间。",
+			say = "From seemingly nowhere, the Amagi doppelganger appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "那个一路之上都在警戒的目标——头戴狐面之人凭空出现，消灭了堵在主机塔入口的最后一台测试者量产型。",
+			say = "With that, the final Tester vessel on the path toward her mainframe was destroyed instantaneously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,13 +806,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "嗯~测试者的主机塔，就由我来物尽其用吧。",
+			say = "I'll make good use of your mainframe, if you don't mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "由黑色气息构成的洪流从狐面之下喷涌而出。",
+			say = "Dark tendrils pulsated forth from her fox mask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "一部分涌向测试者主机空间在海域中留下的裂隙，另一部分则席卷了海域中残存的塞壬量产型与残骸。",
+			say = "Black mist shot through the air, aiming for the rift in space where the wrecks of Tester and her ships lay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "涌向空间入口的黑色洪流，似乎被某种看不见的屏障所阻止，激起了炫目的火花。",
+			say = "But, just as they were about to enter the rift, they hit an invisible wall, sending sparks flying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "而席卷海域的黑色洪流则将塞壬量产型转换为了某种新的存在，残骸也在相互靠近拼接着，最终变为了一艘艘巨舰。",
+			say = "Meanwhile, more of the black mist had covered the wreckages of the mass-produced ships. It pulled them together, transmutating them into a single, enormous vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,11 +864,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -901,7 +901,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这些敌人就是吾一路之上遇到的那些！",
+			say = "It's her! That's the Shadow of Corruption!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "那个怪物想要夺取塞壬的主机塔！它想把塞壬的主机塔转变为巨大的神木，使其与神石网络相连！",
+			say = "She is trying to seize control of Tester's mainframe and connect the Watatsumi to her false Sacred Sakura!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快让你的舰队阻止它！",
+			say = "Commander, you must stop her IMMEDIATELY!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,13 +938,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "算力——灵魂——躯体——",
+			say = "Computational resources. A soul. A body...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,13 +969,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "呵呵，万事已具备。",
+			say = "Now I have them all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,13 +983,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "「蟒蛇」——于风云之中化形吧！",
+			say = "Orochi! Reveal yourself to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "侵蚀伴随着黑色洪流在海域中肆虐。很快，洪流变为了飓风，飓风变为了风暴——噩兆天象出现了。",
+			say = "The sea was blanketed in the black mist of corrosion. It first became a gust, then a tornado, then assumed its final form as a corrosion entity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "风暴中，名为「蟒蛇」的巨舰纷纷散发出苍红色的光芒。",
+			say = "The colossal battleship dubbed \"Orochi\" radiated a foreboding crimson light, its form distorting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "而后——庞大的舰体逐步瓦解，取而代之的是一具人型。",
+			say = "Then, it shrunk down, taking the form of a human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,7 +1040,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "两具三具，十具百具。",
+			say = "First, there was one, then two, then three, ten, a hundred...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "不多时，一支美丽而又诡异的苍红色大军出现在海面上。",
+			say = "Finally, a crimson crowd of people stood there ominously, like an army of Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这些，根本不是舰船。",
+			say = "Those... things... they're not shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1272,7 +1272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "可，也不能简单称为量产型……",
+			say = "Nor are they Pawns, nor are they ships... and they're certainly not people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1287,7 +1287,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胡来，疯了……！",
+			say = "This is mad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1302,7 +1302,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "竟然堂而皇之用海若创造出这些伪物！！！",
+			say = "What have you done?! You've horribly misused the Watatsumi's power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1315,11 +1315,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众多形为天城之物",
+			actorName = "The Many Amagis",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "啊哈哈哈哈——",
+			say = "Ahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,11 +1423,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众多形为天城之物",
+			actorName = "The Many Amagis",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "成功了——成功了——",
+			say = "I've done it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1531,11 +1531,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众多形为天城之物",
+			actorName = "The Many Amagis",
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "好开心——好开心——",
+			say = "I'm so, so happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1642,7 +1642,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
-			say = "诡异的笑声回荡在海域中。",
+			say = "Cacophonous laughter echoed across the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1655,7 +1655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……噩兆天象已经生成，噩兆实体正在出现，在加上那些诡异的敌人……局面正在失控。",
+			say = "Abnormal weather detected! Corrosion entities are appearing... and mass-produced ships... My god, there are so many of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1670,7 +1670,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个伪物的力量正在增强……它本不能在幻境外活动才对。",
+			say = "The impostor's strength is still growing... How? She should have no power outside of an illusion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1685,7 +1685,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝等，绝对不能让它成功入侵测试者的主机塔，否则后患无穷！",
+			say = "The mainframe! That's it! If need be, we must put our lives on the line to stop her from reaching it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1698,7 +1698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是现在这个情况你让我们怎么打……迎着风暴冲进去么？",
+			say = "But how? That corrosion storm is too dangerous to get close!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1713,7 +1713,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，噩兆天象的出现需要特定条件，而且比常规风暴更不稳定。",
+			say = "There is a solution! That storm is very similar to the one we destroyed just earlier! What's more, it's already very unstable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1728,7 +1728,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「冻雨」型火力投射舰既然可以瓦解大风暴，我认为同样能够瓦解噩兆天象。",
+			say = "I believe we can dissipate it using the Dongyus' rockets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1740,7 +1740,7 @@ return {
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话……还有办法。",
+			say = "Doesn't hurt to try! Do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1752,7 +1752,7 @@ return {
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "东煌舰队和铁血舰队负责保护「冻雨」型火力投射舰驱散噩兆天象。",
+			say = "Dragon Empery units, target the corrosion storm with your Dongyus! Iron Blood units, protect them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1764,7 +1764,7 @@ return {
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "企业、邦克山、匹兹堡分别带领各自舰队清缴海域中的那些诡异人形。",
+			say = "Enterprise, Bunker Hill, Pittsburgh, disperse the crowd of Amagi doppelgangers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1776,7 +1776,7 @@ return {
 			bgName = "bg_tieyiqingfeng_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其余各舰队向着测试者主机塔的入口处进军，一定要阻止它的阴谋！",
+			say = "We'll head for Tester's mainframe and stop the head Amagi from getting in at any cost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,13 +10,13 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "文学少女KP",
+			factiontag = "Bookworm GM",
 			dir = 1,
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，完结撒花~！",
+			say = "Congratulations, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,12 +47,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "代理KP",
+			factiontag = "Impromptu Replacement GM",
 			dir = 1,
 			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……居然真的，完整体验了所有的BE。",
+			say = "Yes. Who would have thought you'd actually see every last ending?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,11 +66,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡女仆长",
+			factiontag = "As Castle Maid",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你都不知道一边看见你骰运不济，一边憋笑，然后还要一本正经演出有多困难。",
+			say = "You wouldn't believe how hard it was to play my character while watching you fail your dice rolls!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,12 +84,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "As Lord's 2nd Daughter",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也忍得很辛苦。",
+			say = "Yup. Acting was such a pain...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,11 +103,11 @@ return {
 			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡大小姐",
+			factiontag = "As Lord's Daughter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是~",
+			say = "Agreed~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,12 +121,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：布莱克勋爵",
+			factiontag = "Script Writer & Technician",
 			dir = 1,
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在机关室也笑得很厉害哦，花时间设计这个剧本也算物有所值了。",
+			say = "On the other hand, the Commander had fun, and so did everyone in the control room. All the time spent scripting was worth it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,11 +140,11 @@ return {
 			actor = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "运势高涨的KP大人",
+			factiontag = "LCK-Maxed GM",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以说，都让{namecode:22:雪风}大人来扔骰子就好啦！",
+			say = "I told you, you should've let Yukikaze the Great do all the dice rolls!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,11 +158,11 @@ return {
 			actor = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "代理KP",
+			factiontag = "Impromptu Replacement GM",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行，那样会破坏游戏平衡。",
+			say = "That would utterly ruin the game's balance, I'm afraid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,10 +176,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "As Investigator",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，最后的TE结局里，布莱克勋爵的结婚对象难道是……",
+			say = "Just wondering... In that one ending, who was the woman in the wedding dress at the banquet? Don't tell me it was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,12 +189,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，当然是复活的妻子啦~",
+			say = "She was Lord Manjuu's wife, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,10 +208,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "As Investigator",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有一个疑问，关于二小姐。她到底从校博物馆顺回了多少道具？",
+			say = "What about the charm from the Miskatonic University? Why did Whydah sneak those out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,10 +221,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "As Investigator",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉她好像早就洞察了所有真相？",
+			say = "Did she know what was going on back home from the very start?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +234,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这点，我只能说女仆长没有受到影响就是因为二小姐的缘故。",
+			say = "It's possible. Maybe the maid wasn't affected by the cult's influence because the second daughter had those items.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,11 +253,11 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于其它的细节，还是留给指挥官自己回味好啦。",
+			say = "I'm sure there are other minor contrivances, but I think they're best left as mysteries.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,12 +271,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一千个人心中有一千个哈姆雷特，就算是设计剧本的我们，也不能剥夺您回味剧本的乐趣。",
+			say = "Explaining every little thing would just take away the fun of speculating.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,12 +290,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "Serious GM",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于剧情的讨论就先到这里吧？既然指挥官已经体验了全部内容，有什么想反馈的么？",
+			say = "You can analyze the story later. What we really wanna hear now is your overall impression, while it's fresh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,11 +306,11 @@ return {
 			},
 			options = {
 				{
-					content = "有！",
+					content = "Darkness, mystery, horror... It's everything I expected!",
 					flag = 1
 				},
 				{
-					content = "恐怖要素太多了！",
+					content = "It was scary as hell!",
 					flag = 2
 				}
 			}
@@ -319,12 +319,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……毕竟是为了契合主题嘛！",
+			say = "That's what Halloween is all about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,11 +338,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古老神祇之影",
+			factiontag = "As Phantom of the Ancient God",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，剧中很多逼真的效果是我用阿尔戈做出来的哦。",
+			say = "And giving people the creeps – that's what we ghost ships are all about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,12 +356,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "Serious GM",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这么一想……港区中胆小的同伴也有不少。",
+			say = "Good to hear. Then again, there's a lot of squeamish people at the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,11 +375,11 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "Serious GM",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉确实有一定的改进空间。",
+			say = "There's probably room for improvement, and accessibility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,11 +390,11 @@ return {
 			},
 			options = {
 				{
-					content = "增加全年龄模式！",
+					content = "You should add a faint-of-heart mode.",
 					flag = 1
 				},
 				{
-					content = "提供多人探索模式！",
+					content = "Let's include teamplay as an option.",
 					flag = 2
 				}
 			}
@@ -403,12 +403,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "Serious GM",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……这确实是个可行的方案。",
+			say = "Huh... Good idea. I think we can do that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,12 +422,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "As Lord's 2nd Daughter",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管怎么改剧本，还请继续让二小姐留在房间里被游戏和可乐薯片包围！",
+			say = "I don't care what the story is as long as my character gets to chill in her room, surrounded by crisps and cola.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,12 +441,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "As Lord's 2nd Daughter",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "————非常感谢！",
+			say = "So... please don't change that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜惊魂\n\n<size=45>END</size>",
+					"A Bump in the Rainy Night",
 					1
 				}
 			}

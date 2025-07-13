@@ -1,8 +1,166 @@
 pg = pg or {}
 pg.enemy_data_statistics_11 = {
+	[90295] = {
+		cannon = 0,
+		name = "Yorktown",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90295,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "yuekecheng",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "yuekecheng",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 1,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.5,
+					0.8,
+					0
+				},
+				{
+					-0.5,
+					0.8,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.5,
+					0.5,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.549,
+							0.503,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.385,
+							0.667,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90296] = {
 		cannon = 0,
-		name = "弗莱彻级量产型",
+		name = "Fletcher-class Production Model",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -162,7 +320,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90297] = {
 		cannon = 0,
-		name = "弗莱彻",
+		name = "Fletcher",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -322,7 +480,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90298] = {
 		cannon = 0,
-		name = "奥利克",
+		name = "Aulick",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -482,7 +640,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90299] = {
 		cannon = 0,
-		name = "克利夫兰级量产型",
+		name = "Cleveland-class Production Model",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -642,7 +800,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90300] = {
 		cannon = 0,
-		name = "彭萨科拉级量产型",
+		name = "Pensacola-class Production Model",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -808,7 +966,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90301] = {
 		cannon = 0,
-		name = "亚特兰大级量产型",
+		name = "Atlanta-class Production Model",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -968,7 +1126,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90302] = {
 		cannon = 0,
-		name = "海伦娜",
+		name = "Helena",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1138,7 +1296,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90303] = {
 		cannon = 0,
-		name = "圣地亚哥",
+		name = "San Diego",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1303,7 +1461,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90304] = {
 		cannon = 0,
-		name = "威奇塔",
+		name = "Wichita",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1463,7 +1621,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90305] = {
 		cannon = 0,
-		name = "北卡罗来纳级量产型",
+		name = "North Carolina-class Production Model",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1623,7 +1781,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90306] = {
 		cannon = 0,
-		name = "科罗拉多级量产型",
+		name = "Colorado-class Production Model",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1789,7 +1947,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90307] = {
 		cannon = 0,
-		name = "华盛顿",
+		name = "Washington",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1936,7 +2094,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90308] = {
 		cannon = 0,
-		name = "北卡罗来纳",
+		name = "North Carolina",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2083,7 +2241,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90309] = {
 		cannon = 0,
-		name = "约克城级量产型",
+		name = "Yorktown-class Production Model",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2250,7 +2408,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90310] = {
 		cannon = 0,
-		name = "G级量产型",
+		name = "G-class Production Model",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2410,7 +2568,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90311] = {
 		cannon = 0,
-		name = "J级量产型",
+		name = "J-class Production Model",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2570,7 +2728,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90312] = {
 		cannon = 0,
-		name = "小猎兔犬",
+		name = "Beagle",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2737,7 +2895,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90313] = {
 		cannon = 0,
-		name = "大斗犬",
+		name = "Bulldog",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2904,7 +3062,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90314] = {
 		cannon = 0,
-		name = "斐济级量产型",
+		name = "Fiji-class Production Model",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3064,7 +3222,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90315] = {
 		cannon = 0,
-		name = "乔治五世级量产型",
+		name = "King George V-class Production Model",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3230,7 +3388,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90316] = {
 		cannon = 0,
-		name = "伊丽莎白女王级量产型",
+		name = "Queen Elizabeth-class Production Model",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3396,7 +3554,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90317] = {
 		cannon = 0,
-		name = "光辉级量产型",
+		name = "Illustrious-class Production Model",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3563,7 +3721,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90318] = {
 		cannon = 0,
-		name = "胜利",
+		name = "Victorious",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3703,7 +3861,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90319] = {
 		cannon = 0,
-		name = "皇家方舟",
+		name = "Ark Royal",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3856,7 +4014,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90320] = {
 		cannon = 0,
-		name = "德意志级量产型",
+		name = "Deutschland-class Production Model",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4022,7 +4180,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90321] = {
 		cannon = 0,
-		name = "柯尼斯堡级量产型",
+		name = "Königsberg-class Production Model",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4182,7 +4340,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90322] = {
 		cannon = 0,
-		name = "希佩尔海军上将级量产型",
+		name = "Admiral Hipper-class Production Model",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4348,7 +4506,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90323] = {
 		cannon = 0,
-		name = "沙恩霍斯特级量产型",
+		name = "Scharnhorst-class Production Model",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4514,7 +4672,7 @@ pg.enemy_data_statistics_11 = {
 	},
 	[90324] = {
 		cannon = 0,
-		name = "齐柏林级量产型",
+		name = "Zeppelin-class Production Model",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4609,166 +4767,6 @@ pg.enemy_data_statistics_11 = {
 				{
 					1.25,
 					2.101,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smokebig",
-						{
-							0.95,
-							0.99,
-							-0.48
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smokebig",
-						{
-							-1.08,
-							1.77,
-							-0.66
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			5
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90325] = {
-		cannon = 0,
-		name = "克列孟梭级量产型",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 1,
-		id = 90325,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "keliemengsuodanchuan",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "danchuanlanghuazhong3",
-		prefab = "keliemengsuodanchuan",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 9,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			13,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.7,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
 					0
 				}
 			}

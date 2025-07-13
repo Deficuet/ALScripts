@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "……附近，有其他人。",
+			say = "(Did I... fall asleep...?) \"Others... approach...\"",
 			bgm = "story-4",
 			flashin = {
 				delay = 0.5,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人在休息的时候也有如此敏锐的感知力么！没错，我们前方确实驶来了一支重樱舰队。",
+			say = "Lady Shinano, is your perception so keen even when you're asleep? Indeed, there's another Sakura Empire fleet in front of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我确认一下！好像是一支以{namecode:188}为核心的运输队，正在由{namecode:103}等人护送前往本岛方向。",
+			say = "Let me confirm! It seems to be the munition ship, Kashino, being escorted back to the main island by Chitose and Chiyoda's group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:188}么……",
+			say = "\"Munition ship... Kashino...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……这次运输行动不在我的掌握之中。不过{namecode:188}的身份特殊，也许是上层部的某位大人直接下的命令吧。",
+			say = "Hmm... I don't remember hearing anything about a transport operation. It's unusual that a munition ship would be sailing with a sortieing fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话…她正在运输的东西就很令人好奇了！",
+			say = "I wonder what she's carrying with her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到{namecode:188}，自然想到的就是{namecode:83}级~在{namecode:182}大人之后明明已经没有新的{namecode:83}级计划了，难道说……",
+			say = "Kashino's been in charge of carrying stuff for Yamato-class guns, right? I know there weren't any Yamato-class ships planned after Lady Shinano, but do you think that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有句俗话说得好，“好奇心害死猫”。对于上层部各种各样的隐秘计划，我觉得还是保持一些距离比较好哦……",
+			say = "Curiosity kills the cat, Kumano. Weren't you specifically prohibited from talking about this stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}和{namecode:95}好像就是知道了某些事之后，才会和{namecode:91}大人的关系闹得很僵吧。上次在祭典上感觉她们的目光都快擦出火花了……",
+			say = "Suzutsuki is right. It seems that Zuikaku and Shoukaku learned something that put them at odds with Akagi. I remember how thick the tension was between them at the last festival...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可怕好可怕…说的也是，这些事就让关心它的人去关心吧~",
+			say = "Spooky, spooky... Guess I really should leave this stuff alone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…至少这支舰的目的地与我们的很近，如果一起行动的话，途中也会变得更加安全。",
+			say = "But, at least we're headed in the same direction. If we work together, we'll all be safer along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要命令她们与我们合流么，{namecode:182}大人？",
+			say = "Will you order them to join us, Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（如今这样虚弱的妾身，真的值得让众多的人为之旋转么…)",
+			say = "(Does such a weakly individual as myself truly deserve to be surrounded by so many retainers...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……比起为妾身护航，她们还有更重要的使命要完成。",
+			say = "\"...They have a much more important duty to accomplish than escorting one such as myself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "命运勾画出了不同的航迹。既然伊始之时彼此独立，终焉之时也彼此独立吧。",
+			say = "\"It would be best to not force the convergence of different commands.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！……{namecode:27}，刚才{namecode:182}大人说的是什么意思来着…？",
+			say = "Yeah, exactly! ...Hey, Suzutsuki, the heck is she talking about...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人应该是在说，既然两支舰队之间的任务不同，就没必要让她们陪我们一起行动了。",
+			say = "I think she's trying to say that because our missions are different, there's no need for them to accompany us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之意思就是各自走各自的对吧？唔，又少了一件有趣的事…",
+			say = "So, we're gonna pass each other by then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:80}，对方主动发来了通讯请求，要进行回应么？",
+			say = "Kii, we're receiving an incoming communication from the other fleet. Will you respond?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，接过来吧。既然同为重樱所属，虽然大家没有结队而行，不过海上相遇的基本礼节可不能忘哦。",
+			say = "Sure, put me through. Even if we're not working together, we at least shouldn't forget common courtesy on the high seas as fellow members of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是{namecode:103}。我们正在执行前往本岛的运输任务中，很高兴能与你们相遇。",
+			say = "This is Chitose. We are currently carrying out a transport mission to the main island. It's a pleasure to see you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是{namecode:80}，我们也在向着本岛方向行驶。后勤运输也是不输给正面战场的重要的工作，你们也辛苦了！",
+			say = "This is Kii, also currently on the back to the main island. We appreciate your hard work in escorting our transport ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "编队中的航空母舰难道是…哎？！{namecode:182}大人？！",
+			say = "There's an aircraft carrier among their formation... Eh?! Is that Lady Shinano?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊！真幸运，居然遇到了{namecode:182}大人的首次航行么！！！",
+			say = "Woahh! How lucky, are we witnessing Lady Shinano's maiden voyage?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "是汝等啊…好久不见。",
+			say = "\"Long has it been since we last met... It is good to see you all...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好久不见…？欸欸，难道{namecode:182}大人在什么时候见过我们了么！",
+			say = "Since we last...? Have we met before, Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，那些都不是现世发生的事…那就是初次见面。",
+			say = "\"Nay, those events... were not of this world... This would be our first meeting.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，能和在清醒状态下的您见面还是第一次呢。可以说是好久不见，也可以说是初次见面吧~",
+			say = "Hehe, this would be my first time seeing you awake! Pleased to meet you, Lady Shinano. I am Kashino, munition ship, currently carrying out a transport mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "醒来的感觉还好么，身体的状态如何？有没有什么不习惯的地方？",
+			say = "By the way, I heard you just awakened not long ago? Do you feel alright? Is there anything you're having trouble with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "刚刚，感觉力量恢复了一些……{namecode:188}，感谢汝在吾的诞生中所做的贡献。",
+			say = "\"Just now... This one felt a flicker of strength from within... Kashino, thank you for your contribution to this one's rebirth.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~这都是我职责内的事啦，没有什么值得被您道谢的地方。",
+			say = "Hehe~ It's all part of my job. No need to thank me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么{namecode:182}大人，我们就不打扰了。能像这样遇到您是我们的荣幸，愿你们接下来也能一路顺风。",
+			say = "In any case, Lady Shinano, we won't delay you any further. It is an honor to meet you, and I hope that the rest of your journey is smooth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			blackBg = true,
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "嗯…愿汝等也能得到神明的庇佑，平安到达旅途的终点。",
+			say = "Mm... May the gods watch over you and ferry you safely to your destination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

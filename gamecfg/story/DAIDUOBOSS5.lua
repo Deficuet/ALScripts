@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队2nd\n\n<size=45>五　对她的赞美</size>",
+					"Fight On, Royal Maids!\n\n<size=45>Her Reward</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "与女仆队的联合演习顺利结束了",
+			say = "The joint exercise with the Maid Team drew to a close.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "胜负姑且不论，无论是舰队的协作，同伴间的交流",
+			say = "More important than winning or losing was the ability for the members of each fleet to work with each other and communicate properly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "还是伊丽莎白所说的“通过女仆队的战斗发扬皇家风范”——",
+			say = "Or, as Her Majesty Queen Elizabeth said, for the Maid Team to \"display the glory of the Royal Navy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "即便不能说十全十美，至少也是让参加者全员都感到满意的结果",
+			say = "Even though the exercise was not perfect, both sides achieved the results that they had hoped for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "然后，到了今天——",
+			say = "And now, we arrive at the present...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "主人，黛朵已经将联合演习的报告整理完毕，并备份到相应的资料室了",
+			say = "Master, I've finished passing out the results of the joint exercise. I've already archived the data within the intelligence room, as well as with the registries of the individual factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "黛朵在指挥室内作着关于这次联合演习的报告",
+			say = "While my secretary was gone, this maid somehow made herself comfortable sitting in my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "回顾起来，本次联合演习的成功，自然多亏了大家的努力，不过，在最前线全力战斗到最后一刻的黛朵，无疑是最大的功臣",
+			say = "Thinking back about that training exercise, everyone did an outstanding job, but the way she fought all-out until she was the last one standing left a deep impression within me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "所以，对于这么努力并完美地完成了任务的黛朵，除了常规的奖励，自然还需要——",
+			say = "For going above and beyond the line of duty, perhaps she deserves a little bonus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,15 +165,15 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸头",
+					content = "Pat her on the head",
 					flag = 1
 				},
 				{
-					content = "「GIVE ME FIVE」",
+					content = "Give me a high five!",
 					flag = 2
 				},
 				{
-					content = "陷入沉思",
+					content = "Lose yourself in thought",
 					flag = 3
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "啊哇哇哇哇哇哇……",
+			say = "Hawawawa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "啊…呜…啊啊………",
+			say = "Haah... Ahh... Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "黛朵陷入了慌乱之中",
+			say = "Dido quickly became flustered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "击掌…吗？啊，是白鹰的运动吗？",
+			say = "High... five...? Oh right, wasn't this some kind of Eagle Union exercise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "区区女仆黛朵…怎么有资格和主人……",
+			say = "This lowly maid has no right to touch the Master's hand! At least...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "就、就让这孩子来……",
+			say = "Um, let this one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "于是，和黛朵的人偶（?)击掌表示了庆贺",
+			say = "Dido lifted the hand of a stuffed doll and pressed it against my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "主人……？您在忙吗……？",
+			say = "Master...? Are you busy right now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "嗯…黛朵现在应该做什么……？",
+			say = "Umm, is there something that I can do to help...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			optionFlag = 3,
 			actor = 202040,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "是吗…是这样啊…主人准备抛弃黛朵了啊……",
+			say = "Aww... I knew it... Master intended to cast me aside after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊…主人，求求你不要…不要吧黛朵放在一边……！！！",
+			say = "Waaah... Master! Please don't throw me away... Please let me stay by your side...! ！ ！ ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "黛朵…黛朵如果没有了主人的话…！是不行的……！主人…啊啊…主人！",
+			say = "I can't live without you, Master! I'll seriously die! Please! Master! Please! ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "…只是没注意到而已吗…？太好了…主人…",
+			say = "Oh... you didn't notice I was here...? I'm so relieved, Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "拼命安慰黛朵，终于让她冷静了下来",
+			say = "I calmed Dido down and consoled her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就这样，港区的大家迎来了新的伙伴——",
+			say = "As such, we welcomed some new friends to the port...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -574,7 +574,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有什么需要黛朵做的工作吗？什么都可以！只要为了主人，黛朵什么都愿意做…！",
+			say = "Is there any work that I can help you with? Just ask, and I'll do it for you! I'll handle anything for you, no matter the request!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "因为黛朵——是主人的女仆啊！",
+			say = "That's because I... I'm your maid after all, Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

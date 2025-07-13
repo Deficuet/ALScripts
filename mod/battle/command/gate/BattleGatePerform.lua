@@ -5,6 +5,9 @@ var_0_0.__name = "BattleGatePerform"
 
 function var_0_0.Entrance(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_0.stageId
+
+	print(var_1_0)
+
 	local var_1_1 = pg.expedition_data_template[var_1_0].dungeon_id
 	local var_1_2 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(var_1_1).fleet_prefab or {}
 	local var_1_3 = {}

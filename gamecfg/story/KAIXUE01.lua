@@ -12,7 +12,7 @@ return {
 			sequenceSpd = 2,
 			sequence = {
 				{
-					"<size=45>新一年的春风造访了港区，昭示着「新学期」的开始</size>",
+					"<size=45>The first autumn winds have come and gone, and a new school term has begun.</size>",
 					2
 				},
 				{
@@ -20,7 +20,7 @@ return {
 					4
 				},
 				{
-					"<size=45>在盛放的樱花之下，春日的「开学祭」、开幕——</size>",
+					"<size=45>Under the sakura blossoms, Spring Festival’s “Opening School Ceremony”, has begun!</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>一　「迟到了迟到了！」</size>",
+					"School Day Celebrations\n\n<size=45> I　「Being Late!」</size>",
 					1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			bgm = "story-1",
 			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "呜哇哇哇！！迟到了迟到了！！",
+			say = "Woaaaa! I am late, I am late!!",
 			effects = {
 				{
 					active = true,
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "呜呜呜…为什么那么多妹妹，就没有一个叫我起床的啦！！",
+			say = "Whining... so many sisters, but none of them cared to wake me up!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯～～果然不良少女就应该光明正大的翘课才对吧～？",
+			say = "Hmmm～～ As a bully girl, I should skip my classes without feeling ashamed, right? ",
 			effects = {
 				{
 					active = false,
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "啊…果然还是不大好吧…姐姐又要生气了",
+			say = "Ahh... That's a terrible idea, big sis will be angry again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "不、不过，既然有风纪委员，就应该有不良少女才对吧！嗯嗯！",
+			say = "B-but, without bully girls, there would be no taskmaster girls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？",
+			say = "Eh?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "哎呀！",
+			say = "Ouch!",
 			flashN = {
 				color = {
 					1,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "谁啊！走路都不看路的吗！",
+			say = "Who’s there! Don’t you look where you’re walking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "疼疼疼…对、对不起…",
+			say = "It hurts... S-sorry...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "原来是{namecode:2}啊…慌慌张张的做什么呢…",
+			say = "So, it's {namecode:2}... Why are you in such a hurry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "快、快迟到了不是吗——啊咧？{namecode:94}、{namecode:94}？你这一身…",
+			say = "B-because I'm late — — Eh? {namecode:94}? Are you {namecode:94}? You look like a...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "不、不良少女？！",
+			say = "B-bully girl?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哼哼哼，怎么样！是不是挺像的！这下姐姐也——",
+			say = "Heeheehee. Impressed? Looks like the real deal, right? My sister will be surprised — —",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}～～～！！！",
+			say = "{namecode:94}～～～!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "呜哇！姐姐这么快就来了！",
+			say = "Woaaa! She's coming this way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "赌上{namecode:63}托付给我的风纪委员之名，就算是妹妹，不、正因为是妹妹，才更要纠正你！",
+			say = "{namecode:63} entrusted me to be a taskmaster girl. I shall not fail her. Sister or not, I'll teach you a lesson!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "Whining — —",
 			subActors = {
 				{
 					actor = 301011,
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "咦，怎么{namecode:2}也在这里…",
+			say = "What? {namecode:2}, what are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "啊，都这时间了…总、总之先去学校吧！都快迟到了…",
+			say = "Ah, there’s no time left...A-anyways, let’s head to school first! We are late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}！回头我再找你！",
+			say = "{namecode:94}! We are not done, I'll deal with you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:94}",
-			say = "是……",
+			say = "Fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

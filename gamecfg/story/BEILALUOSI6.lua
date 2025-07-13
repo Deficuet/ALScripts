@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>六 清朗的早晨</size>",
+					"White Gallantry\n\n<size=45>6 A Refreshing Morning</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "原来如此，利用心智魔方制作独立于舰装的辅助作战装置啊……有趣。",
+			say = "A rigging power system that uses Wisdom Cubes as an energy source... Now this is fascinating.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有机会把这个想法跟指挥官同志提一下，然后和科学部门商量一下好了。",
+			say = "I should discuss it with the commander, then posit the idea to the R&D department. But first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同志指挥官也差不多该醒了吧？",
+			say = "How are you doing? Are you awake yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			},
 			options = {
 				{
-					content = "这里是……",
+					content = "\"Where am I...?\"",
 					flag = 1
 				}
 			}
@@ -96,7 +96,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，早安，要我准备醒酒药吗？",
+			say = "Good morning, Comrade. Should I get you a remedy for your hangover?",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说要准备早饭呢？这个时间的话，你可以一个人在不被发现的情况下去到宿舍的沙龙吃哦。",
+			say = "Or would you rather have breakfast? At this hour, you could enjoy a quiet meal in the dormitory salon and nobody would notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "身着睡衣的贝拉罗斯放下手中厚厚的书，用以一如既往飒爽的声音发来了问候。",
+			say = "Belorussiya put down a heavy book she was reading and greeted me good morning in her regular gallant fashion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "看来昨晚最终没有战胜酒力，就这样直接倒在她房间的沙发上睡着了……",
+			say = "From the look of things, I'd had far too much to drink and passed out on the couch in her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉啊，虽说为了指挥官同志避免在宴会上变成烂醉如泥的状态，我也是努力喝了不少才创造出了那个状况的。",
+			say = "I really must apologize. My intention was to exhaust the party's liquor reserves so you wouldn't need to get drunk. And I tried, but as you saw, things didn't pan out that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过作为设计人的我也被灌倒的话……这个计划最多也就是及格分吧。",
+			say = "Ironically, my plan only resulted in us both collapsing. That's only a passing grade at absolute best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "如她所说，如果再继续喝下去的话确实会对今天的工作产生影响……",
+			say = "I would've had to keep drinking if she hadn't pulled me out of there, which would've impacted my work the following day. Her plan was by no means a failure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不过……抛开醉倒的结果不说，能和伙伴们度过一晚快乐的时光还是要感谢贝拉罗斯才是。",
+			say = "What's more, I had a great night with good company thanks to her. If anything, I owe her my gratitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在还不到凌晨5点，驱逐舰们都还在睡觉，甘古特她们就更不用说了……如果出去的时候跑快点的话，或许也不会被其他阵营的人发现？",
+			say = "It's five in the morning. The destroyers are still asleep, and I think you can imagine where everyone else is. You can avoid being seen if you're quick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来打个赌吧，指挥官同志，你肯定会选择先回自己房间一趟，而不是就这样和我一起去指挥室。",
+			say = "How about a bet? I think you'd rather return to your private quarters than head straight to the office with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,23 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 705040,
-			side = 2,
-			bgName = "star_level_bg_109",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哈哈哈，看来又是我赢了呢。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +280,7 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别担心，我会帮你的。毕竟让你深陷这种状况的人也是我嘛。",
+			say = "Hahahah! I win once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +296,23 @@ return {
 			bgName = "star_level_bg_109",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "15分钟后我会向外面扔一个烟雾弹，你就借着烟雾的隐蔽直接离开北方联合宿舍区就好。",
+			say = "Rest assured, I'll help you get there unnoticed. After all, I had you carry me all the way here, so I do owe you one.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 705040,
+			side = 2,
+			bgName = "star_level_bg_109",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'll set off smoke grenades in 15 minutes to cover your escape. Nobody should see you, assuming you run straight for your room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "不管怎么说，现在的情况确实有些不妙。这里还是老实接受贝拉罗斯的提案比较好。",
+			say = "I found myself in a somewhat precarious situation. My only real choice was to go along with her plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，那就这么定了。快来准备一下吧~",
+			say = "Splendid, then that's what we'll do. I'll have the preparations done in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "贝拉罗斯来到沙发旁，然后伸出了双手。",
+			say = "She got out of bed, stood up, and offered me a hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呼呼，我终于知道指挥官同志为什么被这么多人所爱戴了~",
+			say = "I've finally understood why you're adored by so many, Comrade. Hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

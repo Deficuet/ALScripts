@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>五　如侦探般敏锐</size>",
+					"Veiled in White\n\n<size=45>5 A Sharp Glare</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "休息日，与克莱蒙梭一同来到了书店——",
+			say = "On one day off, I go to the bookstore with Clemenceau.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯…………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "…………嗯？",
+			say = "...Oh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭？",
+			say = "Clemenceau?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "啊，原来是指挥官。抱歉，刚才有点看入迷了。",
+			say = "Oh, Commander, I'm sorry. I was so absorbed in this book.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "克莱蒙梭正在看的书是……《戏剧的结构与解构》。",
+			say = "The book she's reading is called \"On the Structure and Deconstruction of Drama.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "没想到克莱蒙梭还对戏剧创作有兴趣，有些意外。",
+			say = "I'm a little surprised that she's interested in theater.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "哦~？这是在说我看上去不像是喜欢这种高雅艺术的人吗？",
+			say = "Heehee, what's the matter? Do I look like I wouldn't be interested in fine arts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么会呢——",
+			say = "That's not it, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是觉得你平时应该不太有时间去看话剧或者音乐剧之类的。",
+			say = "From what I've seen of you, you don't seem the time to watch theater or opera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯……平日的工作确实不少，不过既然我要求鸢尾的孩子们劳逸结合。",
+			say = "Because you've only seen me busy. But of course, as someone who always preaches to the girls about the importance of rest...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "那我自然也会做些表率。",
+			say = "Sometimes, I need to be a good example.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，你真的会在空闲的时候去看戏剧？",
+			say = "And you do that by watching plays?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "偶尔吧~指挥官如果还没看过的话，下次和我一起去吧。",
+			say = "Exactly. If you'd like, you should come with me next time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不过以后的事以后再说。展望未来的同时，也要享受当下才是。",
+			say = "But let's leave talk of the future for later. For now, let's enjoy... this one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "克莱蒙梭笑着，晃了晃手中新拿起的书本——似乎，她找到了新的阅读目标。",
+			say = "Clemenceau smiles and takes a new book off the shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "侦探小说……？",
+			say = "A mystery novel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不错。挑选一部侦探小说，只看一半，然后做一下分析报告和人物解析图，推断出凶手和作案动机。",
+			say = "Yes. I like to pick a mystery novel, read only half of it, organize character relationships in my mind, and try to guess the culprit and their motive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "最后回去把小说看完，看看自己的推理有没有出错。",
+			say = "Once I'm done, I read the rest and check whether I'm right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这也是我在休息时会进行的放松游戏哦。",
+			say = "This is how I relax in my spare time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,18 +342,18 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是非同一般的“放松”方式，不过我很好奇——",
+			say = "Well, that's unique. In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "如果推理对了呢？",
+					content = "What happens if you're right?",
 					flag = 1
 				},
 				{
-					content = "如果推理错了呢？",
+					content = "And if you're wrong, then...?",
 					flag = 2
 				}
 			}
@@ -367,7 +367,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果推理对了，就证明我的思维活跃度没问题，放松游戏的价值也得到了体现。",
+			say = "It means my mind is still sharp, and I've gotten value from my relaxation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……那就需要思考一下是不是这本小说的作者设置谜题的技巧是否过于青涩了呢……",
+			say = "In that case, either the author is inexperienced at setting up satisfying puzzles, or...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开玩笑的~",
+			say = "Heehee. I'm just kidding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "其实戏剧也好，推理也罢，都只是一个载体。",
+			say = "Whether it's theater or deduction, really, there's no functional difference.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我真正喜欢的是大脑在新情报的刺激下，变得活跃起来的感觉。",
+			say = "What satisfies me is new information stimulating my brain and feeling my mind sharpened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不但十分有趣，偶尔也会带来意想不到的启发。",
+			say = "It's fun, and sometimes, it brings inspiration.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……启发？",
+			say = "Inspiration?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯~不过再往下说就复杂了，还是先完成本日的目标。",
+			say = "Hmm, I think we'd be here for a long time if I tried to explain. First, why don't we just pick out our books?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……就选这本书好了。指挥官，你选好了么？",
+			say = "...I know. I choose this one. How about you, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（糟糕……光顾着和克莱蒙梭聊天，完全没有把心思放在选书上。）",
+			say = "(Oops. I was so busy chatting with Clemenceau that I didn't pick a book...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~看来指挥官还在犹豫呢。",
+			say = "Still not sure, hm? Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这样的话，由我来冒昧给您推荐一本如何？",
+			say = "Then why don't I presumptuously take the liberty of recommending one to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "克莱蒙梭笑着，再次晃了晃不知何时新拿起的书本——",
+			say = "Clemenceau smirks and takes another book from the shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（《尼罗河上的惨案》……好像是本很有名的侦探小说。）",
+			say = "(\"Death on the Nile.\" That's a famous one, isn't it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此，克莱蒙梭是想让我试着用类似的方法“放松”一下么。）",
+			say = "(Okay, so she wants me to try relaxing like she does. Is that it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就试试看好了！",
+			say = "Thanks. I'll give it a read.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~我很期待您的读后感哦，指挥官阁下~",
+			say = "Good! I look forward to your thoughts, heehee♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

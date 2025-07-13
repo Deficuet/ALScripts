@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "油料出现，海面被点燃了……",
+			say = "The fuel... there's more fire spreading all over the water's surface...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 301480,
 			dir = 1,
-			say = "我们在护盾里不会受到影响，{namecode:204}可就不一样了~",
+			say = "Maaan, I'm lucky I at least have this barrier protecting me, but talk about a tough nut to crack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "切……",
+			say = "A third mechanism? Cheap tricks, but troublesome nevertheless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 302070,
 			dir = 1,
-			say = "快看，{namecode:204}终于开始进行回避动作了……",
+			say = "She's going on the defensive...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "我说{namecode:204}，和我们交手下来你没觉得哪里奇怪么。比如在装备设计上……",
+			say = "Listen to me, Hakuryuu! If we're both from the Sakura Empire, I have no desire to fight you! Let's talk things through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "对啊！尤其是舰载机的部分，你跟我一样都是符咒式吧？！",
+			say = "That's right! I need you to tell me how to use massive cannons like that as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再加上有些奇怪的言行……{namecode:204}，你不会是失忆在这里的吧？",
+			say = "K-Katsuragi, now really isn't the time for that...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "失忆……说起来确实，吾没有来龙宫城之前的记忆。",
+			say = "How... to use...? Look, I don't know every little thing about how this place works!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "但是这依然不能证明吾与汝等口中重樱有任何关系。",
+			say = "But tell you what, if you can beat me, I'll hear you out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "想要通过这里靠花言巧语可不行，拿出让吾认可的实力来吧！",
+			say = "If that's what you want, don't you dare hold back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

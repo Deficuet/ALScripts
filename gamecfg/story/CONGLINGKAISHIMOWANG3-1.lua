@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "光芒散去后，出现在眼前的是一片茂密的森林。",
+			say = "Once the blinding light recedes, a vast and lush forest unfolds before me.",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "挥舞手臂、抬起双腿，一切都如同操控自己身体一般自然。",
+			say = "I walk and wave my arms to see how it feels. I can move freely, just as though I were in the real world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "用手触摸树皮，手心中传来了混合着冰冷与湿润的粗糙触感。",
+			say = "I touch the bark of a nearby tree. It feels faintly damp and cold under my fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,19 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "耳边传来了清脆的林间鸟鸣，植物特有的清新气息夹杂着泥土的腥气进入鼻腔。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
-			nameColor = "#A9F548FF",
-			say = "五感完全察觉不出任何异常……",
+			say = "Birds sing overhead, and the plants and the ground under my feet smell just like the real deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,9 +65,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "拟真到这个程度，简直就像真的来到了异世界一样。",
+			say = "Wow. All my senses give the impression that this is real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,9 +77,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}和TB弄出的这个系统还真是厉害……",
+			say = "It doesn't get much more immersive than this. It really feels like I've gone to another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,9 +89,21 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "但……如果是这样的话，似乎有很重要的事要优先确认一下！",
+			say = "Akashi's funding and TB's computing power make for an incredible duo.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_520",
+			factiontag = "Commander",
+			nameColor = "#A9F548FF",
+			say = "Ah, I'm getting ahead of myself. There's something important I need to check!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,18 +114,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			recallOption = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "寻找退出按钮！",
+					content = "The logout button!",
 					flag = 1
 				},
 				{
-					content = "测试痛觉！",
+					content = "If I can feel pain or not!",
 					flag = 2
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "你有些慌乱地打开系统菜单。",
+			say = "I fumble around until I bring out the adventure interface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "在选项面板最下方的按钮上，赫然写着“退出冒险”四个大字。",
+			say = "At the bottom of the menu, there's a button with just two words in all-caps: \"END ADVENTURE.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "太好了……可以主动退出！",
+			say = "So I can leave if I so want. Good to know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
-			say = "没错，如果这个系统在各方面的拟真度真的如此之高，那痛觉呢？",
+			say = "If this place is able to perfectly simulate touch, smell, hearing, and so on, then simulating pain should be child's play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
-			say = "怀揣着这样的疑惑，你举起拳头，对着眼前粗壮的树干用力锤了下去。",
+			say = "With my heart beating a touch quickly, I turn to a tree and punch it with all my strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
-			say = "砰——！",
+			say = "Hiyah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "嗯……感受到了明确又强而有力的撞击感，但几乎没有痛感。",
+			say = "I could feel not just the tree, but also the impact – yet hardly any pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "看来她们考虑过这个安全性问题，将痛觉反馈设定在相当低的程度了……",
+			say = "It's like my sense of pain is dulled. I assume that was done for safety reasons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,10 +229,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "不错，很细心。",
+			say = "They really thought of everything, even quality of life things like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,9 +242,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "接下来……查看一下角色信息卡吧。",
+			say = "With that out of the way, it's time to check my build.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "这次她们设定的固定信息卡，究竟是什么样的呢……",
+			say = "Let's see... What stats do I have this time around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,9 +266,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……职业：指挥官，等级：1。",
+			say = "...Job: Commander. Level 1.",
 			bgm = "ryza-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……守护神：幸运与财富之神——{namecode:98:明石}。",
+			say = "...Guardian Deity: Goddess of Luck and Riches. Akashi, in other words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,9 +308,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……基础属性，生命值100，魔法值50，攻击力11，防御力9，速度12，幸运750。",
+			say = "...Base stats: 100 HP, 50 MP, 11 ATK, 9 DEF, 12 SPD, 750 LCK.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,9 +320,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "...Wait, did I read that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,19 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "你怀疑自己眼花了，又盯着面板仔细看了一遍。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
-			nameColor = "#A9F548FF",
-			say = "幸运……750。",
+			say = "I rub my eyes and look again. Yes, I did read that right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,9 +342,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "比其它所有属性加起来的总和还要高……",
+			say = "My luck stat... is 750?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,9 +354,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "然后是技能……居然有6个初始技能啊。",
+			say = "That's more than all my other stats combined four times over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,9 +366,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "投掷C、奔跑B、战场指挥SSS、情报记录SSS、情报分析SSS……",
+			say = "Let's see, skills, skills... There. Looks like I've got 6 starting skills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,9 +378,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……也行吧，至少没有魅惑术之类奇怪的东西存在。",
+			say = "Throwing: C, Sprinting: B, Battlefield Command: SSS, Info Recording: SSS, Info Analysis: SSS...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,9 +390,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……我已经完全理解这次的人设了。",
+			say = "Doesn't sound like they have anything to do with charming or enamoring people this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,9 +402,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "一个手无缚鸡之力，但幸运度异常高，指挥能力也异常强的指挥官。",
+			say = "I think I get the picture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,9 +414,21 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……这种设定的角色，如果没有战斗力出色的队友配合，是没办法在冒险旅程中活下去的呢。",
+			say = "My character is a frail but exceedingly lucky and gifted battlefield commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_520",
+			factiontag = "Commander",
+			nameColor = "#A9F548FF",
+			say = "Which is to say... I won't live long on my own. I need a party of teammates I can rely on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "就在这时，由远及近，一阵嘈杂的鼓声出现了。",
+			say = "Just then, I hear a loud drumming noise coming from inside the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "与此同时，冒险终端中也出现了一些信息。",
+			say = "At the same time, a blurb of information appears on my adventure interface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,10 +456,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
-			say = "「在无尽树海中，栖息着不计其数的啾莱姆部落。」",
+			say = "\"The Endless Woods are inhabited by an endless herd of Slimejuus.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,10 +475,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
-			say = "「而远方的鼓声，就来自于一支由啾莱姆王带领的啾莱姆巡逻队。」",
+			say = "\"That drumming sound came from one of their patrols, commanded by a King Slimejuu.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,9 +496,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "终端自动获取到了远方敌人的情报……这就是情报分析或者情报记录能力的发动效果么。",
+			say = "Aha, so this thing automatically gives me data on the enemy. That must be one of my Info skills doing their work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,9 +508,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "确实是很关键的能力……",
+			say = "This is a pretty good thing to have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,20 +520,20 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "敌人正在接近，接下来应该——",
+			say = "But it's useless for actually dealing with the enemy. I should...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "使用投掷技能尝试战斗",
+					content = "Use my Throwing skill to fight them!",
 					flag = 1
 				},
 				{
-					content = "使用奔跑技能尝试逃离",
+					content = "Use my Sprinting skill to run away!",
 					flag = 2
 				}
 			}
@@ -542,10 +542,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "现在的位置应该在新手村附近的森林，这里的魔物在通常设定上，都是给新人练手用的。",
+			say = "This has to be some sort of tutorial level. The enemies can't be THAT strong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,10 +555,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "既然是异世界冒险……那自然要选择战斗！",
+			say = "Besides, everyone knows a good adventure needs fisticuffs. I'll take 'em on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,10 +568,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "初始状态虽然没有任何武器……但是利用投掷技能，再加上森林中随处可见的树枝石块……",
+			say = "While I don't have any weapons, there are heaps of sticks and stones lying around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,10 +581,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "未必没有一战之力！",
+			say = "Time to break some bones!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "下定决心后，你选择了一块视野中你能拿起的最大块石头，向着远方的啾莱姆之王用力扔了出去。",
+			say = "I pick up the largest rock I can find and throw it with all my might at the King Slimejuu in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "砰——！",
+			say = "Hiyah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "你看到啾莱姆之王的血量微不可查的减少了一点点。",
+			say = "It put a small dent in the King Slimejuu's health bar!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
-			say = "然后，因为愤怒而膨胀了三圈的啾莱姆之王，向着你的方向高速冲来。",
+			say = "But then, it swells up with fury and starts making a beeline straight for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,10 +659,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "在没有装备与战斗技能，基础面板也惨不忍睹的情况下，应该避免与任何敌人交战。",
+			say = "I have no real combat skills, and my base stats are pathetic. I should avoid combat altogether when possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,10 +672,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "还是用奔跑技能逃走吧……",
+			say = "I'll just use my skill to get the hell out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,20 +686,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
-			say = "咔嚓——你在奔跑中踩到的树枝传来了清脆的碎裂声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
-			say = "……我不是有750点幸运值么？！",
+			say = "I start running, but then... snap. A fallen branch cracks loudly under my foot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,10 +696,23 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "哦对……这个不是事事都需要过检定的游戏，幸运在有些时候并没有太大用处……！",
+			say = "Great! So much for that luck stat!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_520",
+			factiontag = "Commander",
+			nameColor = "#A9F548FF",
+			optionFlag = 2,
+			say = "No, what am I saying? This isn't a game of dice rolls. Being lucky or not has nothing to do with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
-			say = "远方的啾莱姆之王察觉到了这声异响，向着你的方向高速冲来。",
+			say = "The King Slimejuu in the distance, now aware of me, starts coming toward me at full speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,9 +741,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "糟糕……",
+			say = "Crap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,9 +753,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "为什么这些人会在新手出生地附近，安排一个新手完全无法解决的魔物啊！",
+			say = "Why is that thing so strong?! It has no right being in a beginner area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,9 +765,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "难道我异世界冒险之旅要在迈出第一步时就结束了么……",
+			say = "I guess this is it. My adventure is over before it could even start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "轰——————！",
+			say = "SHWING!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,11 +838,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呔！你的对手是本勇者抚顺才对！魔物纳命来！",
+			say = "Hey! Vile monster! Leave that one alone and face the hero!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,12 +866,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥不要怕，我们来帮你了！",
+			say = "Big brother! We're gonna save you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,12 +895,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，快来我的防护阵里！",
+			say = "Master, get inside my magic circle! It'll protect you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
-			say = "……这是勇者抚顺的冒险小队？支援的真及时，准备战斗！",
+			say = "A party! Led by Fu Shun, too! You girls came not a moment too soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

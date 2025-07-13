@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
-			say = "数日后·纽约司令部",
+			say = "Days later, NY City",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥部居然在这个时候调指挥官去北方联合，真是搞不懂到底在想什么。",
+			say = "You're going to stay with the Northern Parliament? What's the meaning of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是暂时性的调动，不用太担心了。你怀疑皇家跟这件事有关系？",
+			say = "It's just a visit, nothing more to it. What did you think was going to happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "八九不离十吧。算了…她应该知道自己在做什么。",
+			say = "I guess so. Well, it's not like the commander is beholden to the Eagle Union, and I'm sure all the other factions feel the same way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些先不说，之前给你的资料看了么？",
+			say = "More importantly, look at all these photos I managed to get. What do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是北方联合在极地作战的主力舰队？和预想中的差距还真的挺大的…",
+			say = "I was quite surprised. I've never seen anything like it before... the riggin that the Northern Parliament fleet was equipped with, that is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知不觉间，北方联合对于心智魔方的研究似乎走在前面了。",
+			say = "They seem to be making more progress on their wisdom cube research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔~以前只是怀疑，但看了这些情报之后基本可以认定北方联合在极北之地发现什么东西了。",
+			say = "I suspect that rigging is a product of some breakthrough they made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬遗迹，或者从塞壬缴获的什么东西么？",
+			say = "Any possibility that it might have been captured or discarded Siren technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许是类似的东西吧，具体什么东西只有北方联合自己才清楚了…",
+			say = "There's a possibility, but we can't know for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬科技的危险性，她们究竟什么时候才能------",
+			say = "Siren technology, huh... Are they also going down that path...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "……指挥官去往北",
+			say = "...the commander has headed north...",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			side = 2,
 			stopbgm = true,
-			say = "…方联合乃终末…",
+			say = "...the final overture...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			stopbgm = true,
-			say = "之序曲的开始……",
+			say = "...has begun to play...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业…你刚刚说什么？",
+			say = "Enterprise, did you say something?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -294,7 +294,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…？刚刚出现的，是什么？",
+			say = "No... (What was that... just now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

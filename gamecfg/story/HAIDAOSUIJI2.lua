@@ -10,7 +10,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			stopbgm = true,
-			say = "{namecode:510}，虽然能理解你想要快点找到岛上可能存在“宝藏”的心情——",
+			say = "Look, Otto, I'm as eager to find the hidden treasure on this island as you are...",
 			bgm = "main-SeaAndSun",
 			painting = {
 				alpha = 0.3,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "但我还是建议你小心森林中可能存在的危险哦？就像之前给你讲过的那个故事一样。",
+			say = "But you need to watch your step. Remember what I told you about the vines?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……欸？哪个故事？",
+			say = "What vines?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "“栖息在森林深处的阴暗角落，随时准备捕获过路客人的、会主动出击的藤蔓群”。",
+			say = "Ahem... \"The creep vine lurks in the forest's dark corners. It ensnares reckless travelers who pass by it.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 401990,
 			dir = 1,
-			say = "一眼看上去就像是廉价的童话故事……怎么可能真的有会动的藤蔓——",
+			say = "Creep vine? Yeah, right. That's just a story meant to scare kids who–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "话音未落，{namecode:510}就踩到了什么奇怪的东西。",
+			say = "Before she could finish speaking, Otto felt something squirm under her feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 401990,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸欸欸欸欸欸——！！！",
+			say = "Aaaaahhhh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "——而后整个人被纠缠的藤蔓给拉到了空中。",
+			say = "In the blink of an eye, the vine has suspended her in the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "嗯……果然是会主动出击的藤蔓，看起来其他人的报告很准确呢。",
+			say = "Well, well... A predatory vine. Just like the reports said.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "生长的方式也很独特，看起来值得拿回去好好研究研究呢。",
+			say = "Its morphology is also quite unique. I should bring a sample back for study.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 401991,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "喂——！！所以说你早就知道这里有这种东西的吗？",
+			say = "Seriously?! You knew this vine hangs around these parts?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			actor = 406030,
 			dir = 1,
-			say = "嗯哼。",
+			say = "Well, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那你怎么不早说——！！！",
+			say = "Then you could've warned me about it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你也没问我嘛。而且总得有一个人把它们给引出来，看你跑得那么快，就——",
+			say = "I literally did not even a minute ago. You chose to ignore my warning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 401991,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啧……缠得更紧了——不要一本正经地在旁边观察，先过来把我放下来再说！！！！",
+			say = "Urgh... It's tightening its grip... Don't just stand there! Get me down!",
 			painting = {
 				alpha = 0.3,
 				time = 1

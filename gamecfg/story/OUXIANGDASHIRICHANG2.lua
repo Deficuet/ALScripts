@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"响彻碧海的偶像之歌-日常篇\n\n<size=45>二 关于港区</size>",
+					"Azur Anthem - Side Story\n\n<size=45>2 Port</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·中庭",
+			say = "Port - Courtyard",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再自我介绍一次，我是负责人带各位参观港区的标枪~请多关照！",
+			say = "My name is Javelin, and I'll be showing you around the port. I hope we can become good friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请多关照！和大家一起参观港区，总觉得充满期待呀~♪",
+			say = "Nice to meet you, Javelin! It's kind of exciting getting to know everyone~♪",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这算是…观光之旅？很期待你们会带我们去参观哪些景点哦。",
+			say = "So you'll be taking us on a tour, I take it? I wonder what kind of place this is...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就，出发……",
+			say = "Let's get going...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先是……欸，维内托小姐！？这里什么时候多了个…斗技场？！",
+			say = "First of, this is our... Hey, Miss Veneto! When'd you put a miniature Colosseum in here...?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -176,7 +176,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好壮观…！",
+			say = "Woah...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我们的世界也有类似的建筑物…但看到这个还是觉得好厉害…！",
+			say = "So they also have a Colosseum in this world, but... I'm frankly blown away...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，是不是被象征着撒丁威光的斗技场折服了？",
+			say = "Hehe~ You can't help but to marvel at the symbol of Sardegna's majesty, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有宣传手册和特产专柜…这里是什么地方来着？",
+			say = "There's even a stack of promotional pamphlets in the corner... Just what kind of place is this?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,23 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯哼，这里是为了让港区的各位以及新来的朋友们能更加了解撒丁帝国而临时特别搭建出来的地方哦。",
+			say = "Why, this is the place I've prepared to let everyone learn about the glory of Sardegna. By the way, would you be interested in some more information?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(It's just our normal visitors' center!) ...Umm, I think we're good! I'm just showing everyone around the port today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "顺便问一下 大家在这是要做什么吗？",
+			say = "I see, in that case... why not show them to one of our famous locations, like our canteen or the shrine behind the mountains? They're both nice spots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,40 +305,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不不，怎么看都是只个观光咨询处吧维内托小姐！？）那个…我们正带着大家参观港区！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 605010,
-			side = 2,
-			bgName = "bg_main_day",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "参观港区啊…那可以考虑去餐厅，还有后山的神社看看。这两处都是值得一去的好地方呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201210,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "非常感谢！神社有点远就放在最后…接下来我们去食堂吧。",
+			say = "Thanks for the suggestions! The shrine is a bit out of the way, so we should save that for the end... Why don't we head to the canteen first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +322,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问，这里不用继续参观了吗…？",
+			say = "Excuse me, is it okay to take a look in this place?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -356,7 +339,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里不算是港区的设施，随便看看就好……",
+			say = "This isn't one of the port's buildings, but... it's probably okay to take a look...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +353,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "港区·餐厅",
+			say = "Port - Canteen",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -403,7 +386,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "餐厅在这边…大家会在这里吃饭…然后这里是吧台……",
+			say = "Canteen's right here... This is where you eat... More importantly, the place you go to drink is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +403,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（哇，好有大人的氛围啊……我们真的可以来这里吗……）",
+			say = "(Woah, this place gives off totally mature vibes... Should we even be in here...?)",
 			hidePaintEquip = true,
 			flashout = {
 				black = true,
@@ -454,7 +437,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？原来是别的世界来的客人啊。塔林，请给这些孩子每人来一杯。",
+			say = "Hm? Ahh... Visitors from another world. Tallinn, would you mind serving our guests a glass?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +454,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶！？我、我还未成年，是不能喝酒的……",
+			say = "Ehh?! Um, we're still underage, so we can't...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -489,7 +472,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧，这个不含酒精。",
+			say = "Don't worry, it's just fruit juice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +488,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…那就稍微来一点…哇！是苹果汁？…好好喝！",
+			say = "...Ah, um, then I suppose I'll try a bit... Woah! Apple juice? ...It's so crisp and refreshing!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -522,7 +505,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯~这酸酸甜甜的味道…",
+			say = "Ohhhh, it's deliciously sweet with just the right amount of sour...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -540,7 +523,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "莫非是用很名贵的苹果榨的？",
+			say = "Did you make these from super expensive apples or something?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -558,7 +541,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "材料并不重要，重要的是这里面蕴含的欢迎之情。各位能喜欢就好。",
+			say = "Consider this a token of our hospitality. I'm glad you're all enjoying it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +558,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢！真的很好喝♪",
+			say = "Thank you very much! That sure hit the spot~♪",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -592,7 +575,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然已经有点晚了…不过，也快参观完了！从这里上去就是{namecode:78}小姐她们的神社啦！",
+			say = "It's getting pretty late... But there's one last place for us to go. After we head up these stairs, we'll get to meet Fusou and see the shrine!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -643,7 +626,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(在这里体验了许多有趣的事情，舰船的各位也都很友好。不过，果然这里…是和我们生活的地方完全不同的其他世界呢…)",
+			say = "(There's a ton of fun stuff to do here, and everyone seems super nice, but it really is a much different world here compared to back home...)",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +643,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到了。",
+			say = "Let's keep going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +657,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_church_jp",
-			say = "港区·神社",
+			say = "Port - Shrine",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -707,7 +690,7 @@ return {
 			bgName = "bg_church_jp",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇……！灯光…好漂亮……",
+			say = "Woah... Such pretty lights...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -724,7 +707,7 @@ return {
 			bgName = "bg_church_jp",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，有客人？晚上好，各位。",
+			say = "Oh, visitors at this hour? Good evening~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +723,7 @@ return {
 			bgName = "bg_church_jp",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是来自其他世界的偶像们呀。感谢各位特意来到这里参观~",
+			say = "You're the idols from another world, right? I've been wanting to meet you all sooo badly~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +739,7 @@ return {
 			bgName = "bg_church_jp",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个世界也有这么大的神社啊……",
+			say = "They have huge shrines in this world too, huh...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -774,7 +757,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，总觉得涌出了一股不可思议的安心感呢……",
+			say = "Hehe, it's nice to know that we have so much in common~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -792,7 +775,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是的…感觉一下子放松了…",
+			say = "Mhm, I feel the same way!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -809,7 +792,7 @@ return {
 			bgName = "bg_church_jp",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（参观了一天的港区，看到了各种新奇的东西，虽然也很开心，不过……）",
+			say = "I'm so glad I got to see all these amazing places around the port today!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -829,7 +812,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			say = "（当看到这里也有熟悉的事物，总感觉心里突然轻松了许多呢…呵呵）",
+			say = "All these familiar sights and sounds are finally letting me calm down... Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

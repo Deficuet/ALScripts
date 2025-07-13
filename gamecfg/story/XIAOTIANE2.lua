@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>二  中断的线索</size>",
+					"Sea Star on Shore\n\n<size=45>2: An Interrupted Clue</size>",
 					1
 				},
 				bgName = "bg_story_school"
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，这种时候，就交给我吧！",
+			say = "Heheh, at times like this...just leave it to me!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "小天鹅&彗星&新月",
-			say = "哦哦哦…",
+			actorName = "Cygnet, Comet, and Crescent",
+			say = "Ohhh...",
 			subActors = {
 				{
 					actor = 201080,
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "（嗅嗅）我对自己的鼻子可是很有自信的呢！",
+			say = "(Sniff Sniff) I'm pretty confident in my nose, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "狐提酱…好像汪——",
+			say = "Foxhound...looks like she's ready to bark--",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "只、只是鼻子比较灵而已啦！",
+			say = "It's just my nose that's strong, got it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,8 +126,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "彗星&新月",
-			say = "是、是吗……",
+			actorName = "Comet and Crescent",
+			say = "I-Is that so...",
 			subActors = {
 				{
 					actor = 201090,
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "总、总之！往这边走——",
+			say = "A-Anyways! This way--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "气味到这里就没了呢…",
+			say = "The scent disappears here...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这里是……",
+			say = "This...This place is...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "嗯…皇家航母的住宿区…呢",
+			say = "Yep...The Royal Navy Dorm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

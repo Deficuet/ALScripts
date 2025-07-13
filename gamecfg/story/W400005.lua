@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，深渊海域中的守卫已击破，现在可以使用塞壬特殊通行装置离开了。",
+			say = "Scanning complete. The Arbiter support program... the Enforcer-type Siren has been defeated. Use the transference device to leave this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

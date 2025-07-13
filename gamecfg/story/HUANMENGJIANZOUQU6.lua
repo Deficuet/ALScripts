@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"Iris Orthodoxy - Mont-Saint-Michel",
 					1
 				},
 				{
-					"晚宴会场",
+					"Banquet Hall",
 					2
 				},
 				{
-					"7月25日",
+					"July 25th",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "符合鸢尾刻板印象的华丽大厅中，一场招待晚宴正在柔和的乐声中进行着——",
+			say = "Slow music fills the hall, furnished with classical Orthodoxy ornamentation. Members of all factions are present at the party.",
 			bgm = "story-musicanniversary-gorgeous",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不得不说，餐点算是颇有水平。",
+			say = "Hmph... As much as I hate to admit it, this food is pretty good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "明明是临时决定的日程，准备的倒是真不错。",
+			say = "You lot have prepared quite the party, considering how little time you had.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，确实有心了。",
+			say = "Yes. You really get the feeling that they pulled all the stops out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，面对此等盛会，自然是不能马虎的。",
+			say = "Thank you. I'm humbled. With so many factions in attendance, I wouldn't dare give my guests anything less than the best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			side = 2,
-			say = "正在演奏音乐的人，好像是斯特拉斯堡？",
+			say = "Who's that playing the music? Strasbourg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯，是她。经过了一天的劳累，原本她是应该坐在观众席上好好放松一下的。",
+			say = "Indeed. I actually wanted her to relax at the party, since she worked so hard setting up the exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不过她说演奏就是最好的放松，也就随她了。",
+			say = "However, she insisted that playing music is her way of relaxing, and wouldn't back down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			side = 2,
-			say = "原来如此。",
+			say = "I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_cg1",
 			hidePaintObj = true,
-			say = "乐声如细水般自琴弦潺潺而出，在大厅中肆意流淌着。",
+			say = "Strasbourg's music flows through the banquet hall like the water of a crystal-clear river.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_cg1",
 			hidePaintObj = true,
-			say = "沉浸在音乐中的黑发少女，已然没有了白天那般心神不宁的神色。",
+			say = "The weariness I saw in her expression earlier today is nowhere to be seen now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,33 +192,33 @@ return {
 			bgName = "bg_story_shengmixieer_cg1",
 			hidePaintObj = true,
 			side = 2,
-			say = "不得不说……这位美丽的演奏者，着实为这场宴会确实增色了不少。",
+			say = "I can tell she's been working really hard. Her efforts have really brought this banquet to the next level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，指挥官喜欢便好。",
+			say = "Heehee. I'm sure she'd be overjoyed to hear you say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "黎塞留",
+			actorName = "Richelieu",
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "此刻，就让我们暂时忘却烦恼，一同欣赏这场美妙的乐音吧。",
+			say = "I know you're a busy person, but for now, try to forget all your troubles and enjoy yourself, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "指挥官休息室，晚宴之后——",
+			say = "Commander's Private Room - Nighttime",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官，黎塞留……圣座让我来找您。",
+			say = "Cardinal Richelieu told me to come, so... Do you have a minute, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "……嗯？黎塞留是有什么事么？",
+			say = "Strasbourg? Did something happen to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "嗯……不过，其实也算是我自己的事了。",
+			say = "No. It's about me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……这几日，我一直噩梦缠身。不光是我，我身边的人也一样。",
+			say = "I, and everyone else at Mont-Saint-Michel had the exact same nightmare just a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "黎塞留大人说您对于梦境的事比较了解……而且正在调查与梦境有关的异常现象，所以让我前来向您汇报。",
+			say = "I've been told you know a lot about dreams. Then there's the fact that people all across the Pacific have been experiencing phenomena involving nightmares...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "原来如此……噩梦是从什么时候开始的？",
+			say = "I've heard about that. How long ago was the nightmare?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "两日前出现了第一次噩梦。",
+			say = "Just two days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（两日前……也就是23号，或者22号夜……？）",
+			say = "(Two days... Today's the 25th, so then it happened on the 23rd.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（收到{namecode:524:圣地亚哥}司令部奇怪报告的时间也是22日……）",
+			say = "(And the report concerning the Pacific came in on the 22nd...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（可是，受到异常现象影响的应该仅限于帕克菲克洋周边才对，这里可是欧罗巴啊……？）",
+			say = "(Similar phenomena were reported across Europa in the days leading up to the World Expo... but this time, it's being reported in the Pacific. How's it reaching all the way over here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "请坐，不用紧张。把噩梦的内容详细说一下吧。",
+			say = "Anyway, come in. We'll talk inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "大概就是这些了……",
+			say = "And that's the long and short of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（三个人做了同一个梦，而且提前梦到了联合演习的事……）",
+			say = "(They ALL had the same nightmare about a disaster happening in this exercise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "（果然是非同寻常的梦……）",
+			say = "(Yeah. There's no way this is a coincidence.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "斯特拉斯堡，你提供的情报十分有用。",
+			say = "Thanks for telling me about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "白天在演习中，我看你有些心神不宁，也是因为噩梦的影响么？",
+			say = "I saw you were a bit out of it during the exercise. You were thinking about this, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……没想到您连这点小事都注意到了，不愧是指挥官。",
+			say = "Ah... So you noticed. Nothing escapes you, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过——下手时倒是没受到丝毫影响，为我们贡献了一连串精彩的战斗呢。",
+			say = "You're a real fighter, you know. Working this hard with something so heavy weighing on your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "咳、嗯……多谢您的夸奖~",
+			say = "Ahem... Well, thank you for the compliment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "今天你已经很累了，早点回去休息吧。噩梦的事我会继续调查的。",
+			say = "You must be exhausted. I say call it for today and get some sleep. I'll investigate this, meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "如果今夜又做噩梦的话，明天一定要再来找我。",
+			say = "And if you have another nightmare, come see me and I'll make you feel better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "好的~那我就不打扰了，指挥官也好好休息哦。",
+			say = "Thanks for being so considerate. I wish you sweet dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……说到噩梦，那可没有人比她更懂噩梦了。",
+			say = "(When it comes to dreams, nobody knows better than Shinano.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			side = 2,
-			say = "{namecode:182:信浓}今日也来到了圣米歇尔山港，去找她问问吧——",
+			say = "(I heard she's here at Mont-Saint-Michel. I'll go talk to her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

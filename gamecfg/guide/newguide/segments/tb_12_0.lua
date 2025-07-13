@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "TB好像有话想说",
+				text = "TB wants to talk to you.",
 				mode = 2,
 				dir = 1,
 				char = 1,

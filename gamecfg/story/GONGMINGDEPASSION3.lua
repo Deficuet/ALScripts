@@ -12,7 +12,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我拒绝。",
+			say = "Thanks, but no thanks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "可是，之前参与μ兵装实验的时候，你不是也很乐在其中吗，“{namecode:91:赤城}前辈”？",
+			say = "Not interested? You seemed to enjoy yourself quite a lot during the last Muse System test, Ms. Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "那时候和现在的意义可完全不一样。还有，不要叫我“前辈”！",
+			say = "That was a unique case. Also, would you stop calling me \"Ms.\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我确实参与μ兵装实验比你早，但你这么叫我感觉突然增加了不少年纪……",
+			say = "I don't like being referred to like some old school teacher just because I took part in a Muse System test some time ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "好吧。那我要怎么做，你才愿意加入我们「青组」？",
+			say = "As you wish. Then let me ask you this – what would it take for you to help us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……",
+			say = "Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "光辉姐姐，你真的不打算加入「红组」吗？",
+			say = "Are you absolutely certain you don't wish to join our team?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "呵呵，我只是觉得现在还不是合适的时机。",
+			say = "Heehee. I do want to join you, just not right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说一开始就从参加过μ兵装实验的、有经验的舰船中招募是个很省心的方式……",
+			say = "I understand why you'd want to recruit me. I have experience with the Muse System, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "但是这次的对抗赛，目的是让更多同伴参与其中吧？",
+			say = "But to my understanding, the point of this event is to let new people experience it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "话是这么说没错啦……",
+			say = "I know that, but still...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "如果最后你们的组员招募不够，到时候再来找我也不迟呀？",
+			say = "I'm not saying \"no.\" Come and see me again if you really can't find anyone else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喂喂——信号测试喵~",
+			say = "Ahem. Testing, one, two, three...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很抱歉打断大家喵，{namecode:98:明石}这边接到通知要让大家来港口集合喵~",
+			say = "Sorry for butting in, nya. I've been asked to tell everyone to gather at the dock, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "是针对本次的「μ兵装实验测试」补充说明喵~",
+			say = "There are a few more things about the Muse System I need to explain, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以上就是本次通讯的内容喵，{namecode:98:明石}在港口等着大家喵~",
+			say = "That's the message, nya. See you there, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "真麻烦……看来我们得先去港口了呢。",
+			say = "What a pain in the bum... I'm off to the dock.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "可畏，注意礼仪。",
+			say = "Language! Remember your manners.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "知道啦~",
+			say = "Of course, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "港区·港口",
+			say = "Port - Dock",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很抱歉如此仓促地将诸位召集在此处。",
+			say = "Thank you all for coming here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "相信大家一定会很在意这次分为大组对抗的理由，以及本次的赞助方究竟是谁……",
+			say = "I'm sure you have some questions, like \"why do we have to split into groups and compete?\" or \"who is the sponsor?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "现在就将为大家说明。",
+			say = "We hope to answer those now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "哈哈哈，之前也只拜托了{namecode:98:明石}通知大家新的规则，但是关键的内容都还没透露呢。",
+			say = "Ahahah! Akashi forgot to mention something important to you when she explained the rules.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "总之，赞助方为了调动大家的积极性，会满足最终的胜出者一个愿望。",
+			say = "Important indeed. To make things more exciting, the sponsor will grant everyone on the winning team one wish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "也就是说，可以利用这一点去……",
+			say = "Think of the things you could wish for! For a start, there's–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "咳咳，关于这个愿望能做什么，就由胜出者自己去考虑吧。",
+			say = "Ahem! Let's let the participants decide for themselves how to use their wishes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "实现一个愿望？哎呀，感觉事态要往更有趣的方向发展了呢~",
+			say = "Grant one wish? Heehee, now things are getting interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "……",
+			say = "Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "看来大家的情绪已经被奖励调动起来了喵~！现在{namecode:98:明石}就为大家公布本次的赞助方名单喵~",
+			say = "If hearing that got you fired up, just wait until you hear who the sponsor is, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼，本次的赞助方是——指挥官喵~！",
+			say = "It is none other thaaan... the Commander, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "大家可以根据这个提前思考一下愿望的范围了喵~",
+			say = "If I were you, I'd think long and hard about what I'd use my wish for, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "等等……谁……？指挥官？！愿望……",
+			say = "Wait... the Commander is the sponsor? And I can wish for anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "呵呵呵……{namecode:70:金刚}，我现在就同意你的邀请……！",
+			say = "Hehehe... Hahahaha! Kongou, I've changed my mind! I'll join you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "哇哦~甚至连μ兵装都突然装备上了……",
+			say = "Whoa! Talk about a quick wardrobe change!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307110,
-			say = "{namecode:97:大凤}也要参加！",
+			say = "I shall participate in this event as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "总感觉……事态要朝着奇怪的方向变化了……",
+			say = "Oh boy... This news will really change the course of this competition.",
 			painting = {
 				alpha = 0.3,
 				time = 1

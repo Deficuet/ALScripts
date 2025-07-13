@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在水星纪念和阿芙乐尔的护送下，米高扬号破冰船安全抵达了北联军港。",
+			say = "The icebreaker, escorted by Pamiat' Merkuria and Avrora, was safely brought back to one of the Northern Parliament's ports.",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……关于那场“失败行动”你还有多少印象？",
+			say = "Pamiat', how much do you know about that \"failed\" Polar Expedition?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以说是印象深刻诶，毕竟那么宏大的开局最后只迎来了惨淡的收尾……",
+			say = "Probably nothing that you don't already know. Even after all our hard work, we went home empty-handed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "记得那是极地舰队刚建立没多久的时候吧，信心满满的我们在计划着向极地中更深的未知探索。",
+			say = "If I remember, that was around the time the Crown first appeared. We were so confident that we'd be able to push deeper into the Polar region's unknown depths with our new powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本一切都进展顺利，结果突然在某一天收到了行动失败的消息。",
+			say = "Things seemed to be going so well, but before I knew it, the Mikoyan had disappeared, along with all the research outposts we had set up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……最初极地舰队的主力，实验型潜航舰，还有包括这艘米高扬号破冰船在内的所有人员设备，甚至规模庞大的基地本身都消失了。",
+			say = "Just like that, we lost everything. The fleet, the experimental submarine, even the massive base and outposts we had.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我了解的也是这样，不过细节上知道的比你稍微多一点。",
+			say = "Indeed... There's a bit more to it from my end though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最初顺利，舰队在出发后正常的进行着定期联络。",
+			say = "At first, all the communications we were receiving from the base were normal. Then suddenly, we got a distress signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一段时间后，基地收到了舰队遭遇敌方舰队阻拦的消息。当然，我们第一时间就派出了空军支援。",
+			say = "But when we tracked down the signal, we couldn't find any trace of the ship that had sent it. No signs of movement, no wreckage, nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是在空军抵达之后，看到的只有茫茫的冰海，非但没有敌人，连航道都没有看到。",
+			say = "By the time we got there, all we saw was an empty sea of ice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧接着，空军在向基地汇报的时候，发现基地也彻底失去了联络。",
+			say = "We searched around, but couldn't find any traces of the base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是你所知道的彻底失踪……",
+			say = "Eventually, the search was called off and the operation was deemed a failure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，我们怀疑过进入镜面海域的可能性，也实际组织舰队前往了任务所在区域数次。",
+			say = "Of course, we suspected the possibility of a Mirror Sea and assembled several fleets to search the area near the operation site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:529:苏维埃同盟}甚至在舰装尚未完成的时候就亲自加入了一线搜索行动。",
+			say = "Even Soyuz herself joined the search efforts, but to no avail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事我倒是第一次知道，这么慌张也太不符合她的性格了。",
+			say = "And that was the first time you ever saw Soyuz lose her cool, huh? It's crazy that something like that happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……也不是不能理解，我记得那次行动就是她亲自送舰队出发的吧……",
+			say = "But, I think I can understand how she felt. She personally saw that fleet off too, didn't she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……但是所有行动均一无所获。",
+			say = "Yes... It must've been a serious blow for her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来在出现“王冠”后，极地塞壬的进攻加剧，铁血也开始施压，寻找行动就慢慢终止了。",
+			say = "After that, between the Singularity and the Arctic Stronghold, their persistent attacks thinned out our resources. We were never able to conduct a follow-up expedition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再之后的事我也不清楚了。过去的这份行动也被封入机密档案，渐渐成为了一次没有存在过的行动……",
+			say = "Since then, that expedition has remained buried under a mountain of documents as a \"failed\" operation. Only recently has it been dug back out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来在无数次复盘中唯一相对合理的解释就是，基地的实际位置可能并不是我们以为它所在的位置。",
+			say = "After replaying the situation again and again, the only plausible explanation I could come up with is – the actual location of the base might not have been where we thought it to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许基地一开始就建立在一片异常的海域里，只不过我们所有人都没发现。",
+			say = "The base, as well as the Mikoyan, must have traveled through a Mirror Sea and \"moved\" to another location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎……？是指也许一开始我们的探索基地就建立在一片特殊的镜面海中么？",
+			say = "So, in other words, our base might've been built on top of a Mirror Sea site from the very beginning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实有点可能……！这次米高扬号也是在镜面海域内被找到的。",
+			say = "Yeah, that does make sense! Anomalies can occur inside a Mirror Sea even in the absence of Sirens, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是这没法解释为什么只有米高扬号在镜面海域里被我们发现了。",
+			say = "The fact that we found the Mikoyan at a Siren facility supports that hypothesis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，解释不了。但是如果将另一件事与之关联或许就能解释得通了。",
+			say = "Right, and I have one other piece of evidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你听说过“杂波”事件么？",
+			say = "The SOS signal we received in the first place might've been fake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……杂波事件？",
+			say = "Fake?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来没有呢。大概在最近的密室行动之后，我们从回收的资料中改进了对塞壬进行监听的雷达。",
+			say = "During the time of the Arcana Sanctum exploration, we received some information from Belorussiya and the Commander regarding the Sirens' transmission frequency.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后在某个方向发现了一些不定时出现的信号。",
+			say = "After we repaired the radar, we started receiving a mysterious ping from an unknown location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最开始我们以为是杂波，不过在某一天之后，我们终于注意到那是一段使用停用密码的加密通讯。",
+			say = "At first, we wrote it off as background noise, but one day, we realized that it was actually an encrypted communication with a deactivated password.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "内容很简单，是遭遇敌人呼叫支援的联络，只不过……“恰好”和曾经在舰队失踪之前收到的信号一模一样。",
+			say = "The contents read, \"We are under attack, requesting support immediately,\" which matched up perfectly with the SOS signal we responded to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么“恰好”啊……这不就是发送通讯的设备至今还在某处工作的意思么？！",
+			say = "Wait a minute, doesn't that mean that whatever device sending the junk signal is still in operation somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们也是这么猜测的。而现在突然出现的米高扬号也许就能当做某种证实……",
+			say = "Yes, and we reached the same conclusion as well. The appearance of the Mikoyan here may well confirm our suspicions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也巧过头了……简直就像故意让我们在这时候发现一样。",
+			say = "Ugh... That seems way too convenient, almost like someone WANTED us to find it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。看来{namecode:529:苏维埃同盟}可能在行动之前就已经有所预感了，只不过需要我们寻找铁证而已。",
+			say = "I agree. In any case, Soyuz seemed to have some inkling about all these things happening. We were just sent to retrieve the proof.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们那位在铁血的可靠情报提供人还真是神通广大啊~",
+			say = "Whoever our \"trustworthy informant\" is must be really formidable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……现在电子仪器和所有纸质档案都在分析中，相信很快就会有结果了。",
+			say = "Yeah... And hopefully we'll learn more once the analysis on the Mikoyan finishes running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这艘船也是当年的随行船只之一，那么就一定会有记录。",
+			say = "If we're lucky, we might even find out about that base's disappearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一些不但能告诉我们当时发生了什么，甚至提供一些寻找失踪舰队线索的记录……",
+			say = "Even if this is a trap, we must find out how it works in order to secure the safety of our waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这恐怕才是{namecode:529:苏维埃同盟}想要的“答案”……",
+			say = "(And in all likelihood, what Soyuz truly wants to know––)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

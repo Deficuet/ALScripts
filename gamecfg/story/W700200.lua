@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "与仲裁者量产型机体作战取得了阶段性胜利，获得了阶段性胜利奖励。",
+			say = "Elimination of Arbiter vessel confirmed. Rewards have been distributed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

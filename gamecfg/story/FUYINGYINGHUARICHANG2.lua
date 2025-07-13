@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>二 新年懒洋洋？</size>",
+					"Blessings and Tidings\n\n<size=45>Chapter 2: Sleepy Shougatsu</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "呼…暖炉、橘子…还有没营养的电视节目…果然这样才像是在过年啊~",
+			say = "Hanging out inside a kotatsu, munching on tangerines, watching some television... Yeah, that's the New Year's spirit I like...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 305141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以不用想太多，尽情地放空——",
+			say = "It's great not having to worry about anything, just rolling around like this all day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 331050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "暖炉…真是可怕的存在，{namecode:6}感觉都要融化了…的说",
+			say = "The kotatsu... is truly terrifying. Ayanami is melting into it as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 301811,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过…好舒服…噗噗也一副快要融化了的样子呢…",
+			say = "Amazing... Even Foo is melting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 305141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯…就这么融化吧……欸！！？？你们两个什么时候出现的！？",
+			say = "Yesh... this is the real melting pot... Wait a sec! Since when did you two get in here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 331050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“果然这样才像是在过年啊~”的时候…？",
+			say = "\"Yeah, that's the New Year's spirit I like.\" Since that time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}正在放空的时候……",
+			say = "\"Just rolling around like this all day.\" Right then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 305141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘎啊！？！！一、一定是听错了，我只是稍微发了下呆——",
+			say = "Geh?! ...Wh-who'd you hear that from? It must've been your imagination!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 331050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用遮遮掩掩也没关系地说。想要缩在暖炉里是再正常不过的欲望…的说",
+			say = "You don't have to hide anything. It is human nature to seek the comfort of a kotatsu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 301811,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "噗噗?嗯…嗯嗯…噗噗说，要诚实面对自己的欲望",
+			say = "\"Release your inhibitions and give in to your deepest desires.\" That's what Foo said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 305141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然之前就一直想吐槽噗噗…不过算了…哈啊…",
+			say = "That Foo character seems awfully self-interested... *sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 305141,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一年难得这么一次…就让我懒一会吧…你们两个也是，吃点橘子吧…？",
+			say = "Well, I suppose all is fine. Let's retreat into the kotatsu together. Want a tangerine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:180}带了年糕…要一起吃吗？",
+			say = "Kasumi... might want some red bean soup...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 331050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奇妙的组合…",
+			say = "Eating red bean soup inside a kotatsu...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这样组合不会吃坏肚子吧……",
+			say = "What happened to my tangerine...? Eh? Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

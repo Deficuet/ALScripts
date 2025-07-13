@@ -9,7 +9,7 @@ return {
 			actor = 107110,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这次是真的全部解决了~！用飞机打潜艇也意外的有趣呢。",
+			say = "Phew... looks like this is the last one. Anti-submarine warfare is no fun at all.",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "要不然以后认真考虑一下做做反潜任务好了…",
+			say = "I'm glad everyone was prepared for this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "总感觉比上次见你的时候更厉害了，背地里看来没少努力啊。",
+			say = "We've destroyed a group of the new Siren ships, but nothing has fundamentally changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "嘿嘿，我在维修期间的时候也没闲着，姑且各方面的理论知识都储备了不少哦。",
+			say = "A tactical defeat, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "可惜一直没什么好的实践机会…要是我没有总是那么倒霉就好了（小声）",
+			say = "(I guess stuff like this happens too...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "不要灰心嘛~运气只是实力的一部分！运气缺失掉的部分，用更强的实力弥补就好啦！",
+			say = "I did all I can, but... guess it wasn't enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看这次作战，到目前为止不还是很顺利么。",
+			say = "I'll make sure to do better next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "确实呢…歼灭敌人的战斗很顺利，前进途中也很顺利，只要能这么继续顺利下去-------",
+			say = "Yeah! Things haven't been going well for us so far, but I'm sure we'll be able to find the source of this mist in no time! At this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "从远方突然传来的巨大拍击声，打断了无畏刚刚有些自信的话语。",
+			say = "Suddenly, the surface of the ocean trembled as a thunderous roar swallowed the bold words that were just uttered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "然后几乎顷刻之间，滔天巨浪一排排的向着众人袭来，整个海面仿佛遭受风暴袭击一般，剧烈的上下抖动起来。",
+			say = "Out of nowhere, a massive wave rose out of the thick mist, the surface undulating turbulently as if seized by a storm.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -177,7 +177,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风暴？哎不对，是海面擅自变的波涛汹涌了？！大家小心规避，千万别被巨浪卷下水了！",
+			say = "What?! Watch out...! This storm feels unnatural, just like the mist!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提醒得……有些晚了…埃塞克斯………咕噜咕噜……咕噜……",
+			say = "You don't need to state the obvious...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一个在近处生成的巨浪，将躲闪不及的无畏一口卷入了水面之下。",
+			say = "Shockwaves, thunderous crashes, and violent waves tore through the fleet, dying the white mist into a deep, ominous blue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……咕噜，咕噜咕噜……咕噜咕噜…！（……好强大的冲击力！身体被拍到水下了……怎么还会有这种事…！）",
+			say = "(Wait... No way... I was swallowed by the ocean...?! Impossible...!)",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "无畏挣扎着尝试向水面方向游动，然而身体却事与愿违的下坠着。",
+			say = "She was sinking... Deeper and deeper, as if pulled by some unknown weight. She continued to sink, seemingly for an eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…航母的舰装无法在水下自由行动，没用的知识增加了…）",
+			say = "(My rigging is falling apart...? Was it a Siren attack...?! No, we should have defeated all of them...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（…真是的，明明到刚才为止还那么顺利…）",
+			say = "(Impossible... Did I just lose my balance...?!)",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -353,7 +353,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……还想着这次终于能帅气的大显身手了呢）",
+			say = "(Damn it, Intrepid! You're always ruining everything! You're always messing up! It's always you being sent to the docks!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（为什么，我总是这么倒霉啊………）",
+			say = "(You can't even accomplish a single thing... Everyone is better than you...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！喂~~~喂~~~~！？前方正在游泳的是无畏么？！",
+			say = "Hey! Intrepid, are you still alive?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（……？！出去侦察的蓝鳃鱼居然在这个时候赶回来了么，千钧一发啊！）",
+			say = "(Oww! This voice... it's Bluegill! She's returned from her patrol!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -457,7 +457,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快点…咕噜咕噜…救我上去…！",
+			say = "H-help me...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无畏…你你你变成潜艇了么？！（震惊）",
+			say = "Woahh, Intrepid, when did you get converted into a submarine?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -510,7 +510,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……咕噜咕噜，咕……咕噜咕噜咕噜…！（…怎么可能啊笨蛋！我明显是遇难了啊！）",
+			say = "*glug* *glug* (Who the hell would do that...?! I'm drowning over here!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -536,7 +536,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊？！！坚、坚持住无畏，我马上就救你上去！！！",
+			say = "Woah woah, don't get mad at me! I'll carry you up right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

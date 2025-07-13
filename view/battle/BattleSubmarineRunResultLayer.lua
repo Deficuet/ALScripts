@@ -113,7 +113,6 @@ end
 function var_0_0.showPainting(arg_10_0)
 	local var_10_0
 	local var_10_1
-	local var_10_2
 
 	SetActive(arg_10_0._painting, true)
 
@@ -127,23 +126,23 @@ function var_0_0.showPainting(arg_10_0)
 	SetActive(arg_10_0._failPainting, false)
 
 	if arg_10_0.contextData.score > 1 then
-		local var_10_3, var_10_4
+		local var_10_2
 
-		var_10_3, var_10_4, var_10_1 = ShipWordHelper.GetWordAndCV(900180, ShipWordHelper.WORD_TYPE_MVP)
+		var_10_0, var_10_2 = Ship.getWords(900180, "win_mvp")
 	else
-		local var_10_5, var_10_6
+		local var_10_3
 
-		var_10_5, var_10_6, var_10_1 = ShipWordHelper.GetWordAndCV(900180, ShipWordHelper.WORD_TYPE_LOSE)
+		var_10_0, var_10_3 = Ship.getWords(900180, "lose")
 	end
 
-	setText(arg_10_0._chat:Find("Text"), var_10_1)
+	setText(arg_10_0._chat:Find("Text"), var_10_0)
 
-	local var_10_7 = arg_10_0._chat:Find("Text"):GetComponent(typeof(Text))
+	local var_10_4 = arg_10_0._chat:Find("Text"):GetComponent(typeof(Text))
 
-	if #var_10_7.text > CHAT_POP_STR_LEN then
-		var_10_7.alignment = TextAnchor.MiddleLeft
+	if #var_10_4.text > CHAT_POP_STR_LEN then
+		var_10_4.alignment = TextAnchor.MiddleLeft
 	else
-		var_10_7.alignment = TextAnchor.MiddleCenter
+		var_10_4.alignment = TextAnchor.MiddleCenter
 	end
 
 	SetActive(arg_10_0._chat, true)

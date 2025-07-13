@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey的手……让人有些难以集中注意力了呢……",
+			say = "Your hand is making it really hard for me to concentrate...",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_gfit2_tone2",
 			typewriter = {
 				speed = 0.05,

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 999020,
 			dir = 1,
-			say = "这种温暖的感觉……嗯，有了这份力量，弗兰德尔今后应该能更好地履行指挥官的命令了。",
+			say = "Ah, this warmth... This power will allow me to execute Your orders more impeccably.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 999020,
 			dir = 1,
-			say = "欸？您是希望弗兰德尔今后不受束缚的、更自由更快乐地做自己想做的事……？",
+			say = "What? You want me to feel free of all constraints and simply do what I want to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 999020,
 			dir = 1,
-			say = "但弗兰德尔最想做的事就是永远留在指挥官的身侧，陪伴、侍奉着您。",
+			say = "So You say, but the thing I want most is to serve You in perpetuity, always by Your side...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 999020,
 			dir = 1,
-			say = "还请您请准许弗兰德尔的请求吧，指挥官……",
+			say = "I beseech You, please grant this request of mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1

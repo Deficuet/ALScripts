@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"素无法坦率的心意\n\n<size=45>六  想说的只有一件事</size>",
+					"The Virtue of Being Earnest\n\n<size=45>6.There's Something I Wanted to Tell You</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "会议结束后，和纳尔逊一起返回指挥室对会议讨论的演习细节进行整理。",
+			say = "After parting ways with Nelson and the others, I returned to the office to sum up what we had just discussed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,37 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…从刚才开会的时候就觉得脑袋有点沉…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官！有件事忘了告诉你，关于刚才的作战方案——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "纳尔逊明明就坐在不远处，但声音却像从遥远的地方传来……",
+			say = "Ever since the meeting, however, my head's been feeling a bit heavy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…真是的！指挥官，至少要给个回应——哎，指挥官？你怎么了？！",
+			say = "Hey, Commander! There was something I forgot to tell you about the mission earlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,37 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "眼前景色逐渐暗淡、大脑无法思考，也无法做出回应，只有她的声音在耳边一遍遍回荡……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "—挥官，你还好吗？指挥官？！——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "意识陷入了黑暗中——",
+			say = "I heard Nelson's voice reverberating from the hallway outside the office, but... I felt so dizzy that words wouldn't leave my lips...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +113,67 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……终于醒了吗？",
+			say = "...Good grief! At least respond when someone calls out to you... Wait, Commander? What's wrong?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "My vision blurred, and all I could think of was her voice echoing inside my head, over and over again...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...mmander!!! Hey, are you alright?! Answer me!!!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "And just like that, everything went black...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...Have you come to?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			say = "再次缓过神来，自己已经身处医务室中了。",
+			say = "When I came back to my senses, I was lying down on bed, and I could see Nelson's figure sitting by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的……因为工作累昏过去，真不像是指挥官会犯的错误。",
+			say = "Good grief... Do you know how unbecoming it is for someone of your stature to pass out because of work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "照顾好自己的身体可是基础中的基础哦？实在忙不过来的时候，多向我求助就好了啊！",
+			say = "...Don't you know? There's nothing more important than taking care of your condition. Don't disappoint me like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,23 +250,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			say = "坦率的向纳尔逊表示感谢……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼…！记住了哦。",
+			say = "There certainly was merit in what she said. I sincerely apologized for all the trouble I had caused.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +266,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "剩下的总结工作先由我来弄，今天你要给我好好睡一觉。",
+			say = "As long as you know, it's fine. Hmph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,21 +282,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝不允许下次再出现这种事情，明白了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_138",
-			say = "说完，纳尔逊起身准备离开。",
+			say = "But... for today, make sure you take it easy and get some sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +298,21 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有，有一句一直想对你说的话…正好机会合适…我、我只说一遍，听仔细哦！",
+			say = "If, by any chance, you do the same thing in the future, I will never forgive you. Got it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_138",
+			say = "Saying that, Nelson got up to leave the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +328,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一……一直以来……辛苦你了……",
+			say = "By the way... there's something I have to say. Or rather, it's more like... there's something I've always wanted to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +344,23 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样！我走了！",
+			say = "G... Good job, on everything so far...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "star_level_bg_138",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "W-wait, that's not what I wanted to say at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_138",
 			dir = 1,
 			blackBg = true,
-			say = "纳尔逊砰地一声关上医务室的大门离开了。…总觉得这场面似曾相似，又似乎有些不同。",
+			say = "Nelson left, slamming the door shut in her wake. Was she blushing though, or was I just imagining things...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 705040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，怎么一路上都沉默不语的，有心事？",
+			say = "Comrade, you’ve been unusually quiet this whole time. Is something troubling you?",
 			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "只是在思考一些事情……作战简报中关于行动的目的和需要我进行协助的部分倒还算详细，可是关于“密室”本身的描述则极其含混不清，甚至有一些明显经过篡改的痕迹。",
+			say = "I’ve been trying to piece everything together... The operation briefings laid out the specifics of the operation as well as the necessity of my participation in great detail, but any references of the Arcana Sanctum itself have been extremely vague. It’s almost as if the information has been tampered with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "能跟我多说一些“密室”相关的情报么？",
+			say = "What are you able to tell me about this \"Arcana Sanctum?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "哦？敏锐的观察。因为“密室”的性质太过独特，即便是在对内发布的作战简报中也需要慎之又慎。如果放任未经修饰的情报传播出去可就就麻烦了啊……",
+			say = "Hmm... The best way of putting it is, the nature of the Sanctum is extremely unique, to the point where we have to be cautious even in our internal briefings. If unredacted information was somehow allowed to spread...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "当然，只要不留下记录的话，跟指挥官同志说明倒是完全没问题。",
+			say = "Of course I’d be willing to explain things to you, Comrade, as long as you don’t record anything down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "就是应该从哪里开始呢…………",
+			say = "Now, where do I begin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，你知道最初的舰船是在什么时候，以怎么样的形式诞生的么？",
+			say = "Comrade, do you know when and how the first shipgirls were born?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "最初的舰船……记得是在塞壬入侵之后，由各国成立的碧蓝航线集合世界的力量研制出了心智魔方，然后制作出舰船逆转了战争局势对吧？",
+			say = "Let’s see if I remember my history... After the Siren invasion, various countries came together to form the Azur Lane and assembled the world’s resources to develop the Wisdom Cube. From there came the shipgirls that were able to turn the tides of the war, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "从公开资料上来说确实是这样。但是这个说法对，也不全对。",
+			say = "That would be true, according to the information that has been publicly disclosed. But this explanation is only a half-truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "在碧蓝航线成立之后，并不是先出现心智魔方再出现的舰船，舰船与心智魔方其实大约是在同一时间出现的。",
+			say = "It’s not quite accurate to say that the Wisdom Cubes gave rise to the shipgirls. Rather, the two appeared at roughly the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "什么？心智魔方和舰船的诞生没有明显的先后顺序……？",
+			say = "What? Are you saying... the appearance of the shipgirls wasn't due to the invention of Wisdom Cubes...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -177,7 +177,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "你们是从哪里得到的这个情报？",
+			say = "Where did you get this information?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "详细的说明先留一个悬念，假设这个情报是真的，指挥官同志觉得最初诞生的舰船是谁呢~？",
+			say = "Haha, it's just a fanciful conjecture. But assuming that what we just told you is true, Comrade, who do you think was the first shipgirl?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "唔………………",
+			say = "Hm......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "总之，在得到这个情报之后我们回到诞生最初舰船的海域进行了深入探索，然后在调查中发现了“密室”的存在。",
+			say = "Long story short, after we discovered this information, we returned to the sector to conduct an in-depth exploration, and that’s when we discovered the existence of the Arcana Sanctum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "所谓“密室”，经过日后的分析其实是一处塞壬要塞。也许是塞壬还没有做好我们已经拥有舰船的准备，我们最终得以通过突袭将其完整的控制下来。",
+			say = "Turns out, we later discovered that the Sanctum was actually a Siren stronghold. Perhaps the Sirens weren’t prepared for the forces we had on hand, but we were able to seize control of it through a surprise attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是利用了从“密室”之中回收的众多资料，我们北方联合才得以在遭受塞壬重创的短时间内重新恢复战斗能力。",
+			say = "The reason why the Northern Parliament was able to make such a miraculous recovery after being devastated by the Sirens previously... is because of the contents of the Sanctum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……北方联合在此后对于如何看待塞壬科技的问题上态度一直模糊不清就是因为这样的经历么？",
+			say = "I see... And is this why the Northern Parliament has been tiptoeing around the issue of how to handle Siren technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "被强敌逼到濒死之际抓住最后一丝稻草的感觉，白鹰和皇家它们应该很难明白吧。",
+			say = "The Royal Navy and Eagle Union will never understand what it feels like to desperately struggle for air when being strangled by an overwhelmingly powerful enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "然后大约在同一时间，指挥部成功研发并量产了心智魔方，接着就是为我们广为熟知的历史，各个阵营利用心智魔方打造出了舰船舰队，逆转了濒临崩溃了的战局。",
+			say = "In any case, around that time, the Naval HQ managed to successfully develop and mass-produce the Wisdom Cube, and the rest is history. Various countries utilized the Wisdom Cubes to create their own fleets, eventually tipping the scales in our favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "你是在暗示指挥部也是利用了“密室”中的某些回收物才完成了心智魔方的研发？",
+			say = "Are you implying that the development of the Wisdom Cube hinged upon whatever was in that Sanctum?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "啊，不是这样的。虽然我们没有并没有参与心智魔方的研发过程，不过“密室”中回收的资料本身也没有关于心智魔方的记载。",
+			say = "No, that’s not quite what I’m getting at. We had no hand in the development of the Wisdom Cube, and the resources recovered from the Sanctum didn’t have any records of Wisdom Cubes either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "现阶段我倾向于这两件事彼此无关。不过心智魔方与舰船是几乎同时出现的，这件事本身就有足够值得深思了不是么？",
+			say = "If anything, I’m inclined to say that the two are unrelated. However, Wisdom Cubes appeared at around the same time as the first shipgirl,and this alone is something worth thinking about, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没想到早已成为常识的事情居然隐藏着不为人知的一面，等回去之后从指挥部的记录里寻找一下蛛丝马迹好了……",
+			say = "Who knew that such a shocking revelation would lie beneath something long-considered common sense? I’ll have to thoroughly comb through the files at the Naval HQ when I get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

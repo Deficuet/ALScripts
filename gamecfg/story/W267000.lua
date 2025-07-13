@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "大型作战第五章剧情已全部结束，未被选择的结局可以前往回忆中进行查看。请前往情报面板确认后续任务。",
+			say = "Congratulations for clearing Chapter 5 of the Operation Siren Campaign. Additional dialogue choices for the story can be viewed in Memories. To challenge follow-up missions, tap on the Information button in the Operation Siren main interface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

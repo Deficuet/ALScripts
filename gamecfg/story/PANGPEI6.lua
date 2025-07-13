@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>六　多管齐下！</size>",
+					"Captain Pompey Has You Covered!\n\n<size=45>6 Teamwork Makes the Dream Work</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "临近傍晚的时候，在众人的努力下，总算是将困意难消的帝国送回了住处。",
+			say = "Evening was drawing near. Though it took considerable effort, the girls eventually managed to escort the sleepyhead Impero to her dorm room.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "眼下，针对贴着“今日完成”标签的文件的大作战正在有序进行中。",
+			say = "Now the three remaining Sardegnians were waging war on the hill of paperwork to be finished before the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "达·芬奇，仓库零件的数目还没有统计出来吗？",
+			say = "Da Vinci, have we gotten inventory on the depot yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经问过{namecode:98:明石}了，因为堆积的东西太多可能还需要一点时间。",
+			say = "Not yet. Akashi said there's just too much stuff in there, so it's gonna take a while longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "学院走廊的灯坏了三天了，怎么还没有换上新的呢？",
+			say = "It's been three days since the lights in the academy's corridor broke. Why haven't they been replaced yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "我去打听了一下，据说是那天负责维修的{namecode:525:英格拉罕}突然接到了紧急任务……",
+			say = "Oh, one of the documents mentioned that. Ingraham was in charge of maintenance that day, but then she got assigned an urgent mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "所以导致维修的时机被错过了。",
+			say = "She missed the opportunity to replace them as a result.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "那能拜托达·芬奇你跑一趟吗？",
+			say = "Okay then. Da Vinci, do you reckon you could do it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "小事一桩~",
+			say = "Sure. I'm on it~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "对了，还要给你一张物资领取的证明，这个我记得是放在……",
+			say = "Wait, right! I need to issue you a certificate of supplies withdrawn. Where was that again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "已经帮你写好了哦。",
+			say = "Here. I've already filled one out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "不愧是天鹰，太可靠了！",
+			say = "Oh! You're way ahead of me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "那我就趁着天还没黑，先去一趟学院那边咯。",
+			say = "Alrighty, I'd better head to the academy before it gets dark.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "注意安全！",
+			say = "Take care!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "放心放心~",
+			say = "Will do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么接下来要处理的事情是……",
+			say = "Now for the next thing to deal with...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "对了庞培，我问过维内托大人了，她说签名的部分直接签秘书舰的名字或者“批准通过”都可以哦。",
+			say = "Apropos of nothing, I heard from Veneto that when signing documents, the secretary may use either her name or simply write, \"Request approved.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "那当然是要签上伟大的庞培队长的名字！",
+			say = "In that case, I'll write Captain Pompey the Great!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "呃……“伟大的庞培队长”恐怕不行。",
+			say = "Umm... I'm not sure that will fly with the admiralty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳……那就，庞培·马格诺！",
+			say = "Oh... Okay, I'll just write Pompeo Magno, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "呵呵~笔给你，在这里签名就可以了哦。",
+			say = "There we go. Just sign here and you should be good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "签名完成~然后下一件事是……",
+			say = "Pompeo... Magno... There! Okay, next.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在众人的努力下，伟大的庞培队长终于成功规避了通宵办公的命运——么？",
+			say = "Thanks to everyone's efforts, Captain Pompey the Great had evaded the fate of a forced all-nighter... or did she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

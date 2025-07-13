@@ -237,6 +237,7 @@ function var_0_0.UpdateSlot(arg_24_0, arg_24_1, arg_24_2)
 	if var_24_4 then
 		setActive(arg_24_1:Find("Avaliable/Selecting"), var_24_3)
 		setActive(arg_24_1:Find("Avaliable/Item"), var_24_1 > 0)
+		setActive(arg_24_1:Find("Avaliable/Item"):GetChild(2), arg_24_0.slotFull)
 		setActive(arg_24_1:Find("Avaliable/Image"), var_24_1 == 0)
 
 		if var_24_1 > 0 then

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "三日的时间转瞬即逝，到了出击的时候了。",
+			say = "Three days passed in the blink of an eye. The time to fight has finally come.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"基地周边·舰队集结海域",
+				"Resistance Headquarters - Assembly Point",
 				3
 			}
 		},
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "{playername}阁下，根据鲁梅女士的命令，这支舰队由你作为指挥官负责指挥。",
+			say = "Commander {playername}, Rumey has directed me to relinquish command of this fleet to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "鉴于这是你的首次作战，所以由我作为副官从旁协助，这样安排可以么？",
+			say = "But given the fact that this is your first mission, may I serve as your second-in-command?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "自然没问题。",
+			say = "I'd be happy to have you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "不论是对于此处海况的了解，还是对于天外之兽的作战经验，{namecode:541:杜伊斯堡}无疑都拥有比我丰富的经验。",
+			say = "Duisburg knows a million times more than I do about these seas and so-called extradimensionals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "作为首次作战来说，有这样一位副官从旁协助真是再好不过了。",
+			say = "I wouldn't dream of turning down an offer like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，我会尽力而为的~",
+			say = "Heheh. I'll make you proud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "目前{namecode:540:Z52}带领的侦察舰队先行前往了ID-AX-108至110一线，鲁梅女士带领主力舰队也已经起航。",
+			say = "Z52's recon fleet is en route from IB-AX-108 to 110, and Rumey has already set sail with her main fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "登陆舰队和护航舰队还在待命中。",
+			say = "The amphibious and escort fleets are still on standby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "我们作为猎杀舰队，任务是配合其余舰队在基地至ID-AX-104海域的运输线周边巡逻，消灭见到的每一个敌人，并回收其生物质。",
+			say = "As for our own hunting fleet, our job is to secure the supply route at IB-AX-104, eliminate every enemy in sight, and collect samples from them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真没想到，天外之兽的生物质会有一天成为升级净化装置不可或缺的材料呢。",
+			say = "But to think that we would need a sample from an extradimensional, of all things, to fix our radiation purgers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "不用担心~这片区域虽然广阔，不过历来都是相对安全的。",
+			say = "IB-AX-104 is vast, but it's long been seen as relatively safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "八小时前进行的战前侦察也显示情况无变化。",
+			say = "Recon shows nothing out of the ordinary as of eight hours ago, as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，很好。",
+			say = "Well, isn't that convenient...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（只要海域安全，如此分散兵力倒确实是效率最大化的方式。）",
+			say = "(If it really is safe, then dispersing our fleets makes for a more efficient search, yes. But something is fishy here...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，指挥官，我们也出发吧~",
+			say = "Anyway, we'd best get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

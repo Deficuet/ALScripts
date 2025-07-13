@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "马可波罗彷徨在无垠的纯白之中，时间与空间仿佛在此处失去了意义。",
+			say = "An endless stretch of pure white. A space where time and space were meaningless. It was through here that Marco Polo wandered.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "呼……真是糟糕。",
+			say = "Ugh... This is horrible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里四处都是一个样……向哪里走才能回家啊。",
+			say = "Wherever I look, it's all the same... How am I supposed to find my way home?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……累了，想念本圣座的王座。",
+			say = "I'm exhausted... I miss my Apostle's throne.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			side = 2,
-			say = "于是，马可波罗端坐在了王座之上。",
+			say = "She muttered to herself, then sat down on a throne.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "那本圣座……想要一个更酷的王座！",
+			say = "You know, I think I'd like a more lavish throne!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			side = 2,
-			say = "于是，马可波罗端坐在了更酷的王座之上。",
+			say = "She muttered again, and this time, sat down on a throne more lavish than the last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "哇——这、这是怎么回事？！",
+			say = "Wh-what in the world?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇——圣座冕下，你这个王座好帅啊？！",
+			say = "Whoooa! That's a real lavish throne you got, Marco!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "…………拉斐尔？！你怎么到这里来了？！",
+			say = "Raffaello?! What are you doing here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605080,
-			say = "呃……我就记得在庆功宴上多喝了点然后就……",
+			say = "Uhh... I had too much to drink at the banquet, so I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605080,
-			say = "圣座冕下，这里是什么地方啊？",
+			say = "What is this place, anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "关于这个问题……",
+			say = "An excellent question...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——我也不知道啊！",
+			say = "I haven't the faintest clue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

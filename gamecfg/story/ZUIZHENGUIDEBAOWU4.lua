@@ -13,7 +13,7 @@ return {
 			actor = 408080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第二艘补给舰，击沉。{namecode:420}，天生的猎手。嘎哦—",
+			say = "That's my second cargo ship destroyed. U-110 is a shark. Raaaawr.",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发现新的目标，GO——",
+			say = "Off to find a new targeeeet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你们是——",
+			say = "Huh? Who are you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是皇家的驱逐舰，可不是补给船哦。",
+			say = "We are Royal Navy destroyers. Unfortunately for you, we are not cargo ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于找到了，铁血的潜艇！这次可别想逃！！！！",
+			say = "There you are, submarine! You won't escape us a second time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……咕噜咕噜（开始下潜）",
+			say = "... *Blub blub blub*",
 			action = {
 				{
 					type = "move",
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要无视我！",
+			say = "Don't you try to leave without saying a word!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 408080,
 			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "一轮机炮子弹在水面掀起水花，{namecode:420}不情不愿地从水里露出头来。",
+			say = "Amazon fired a warning shot at U-110, who'd only dove just beneath the water. U-110 resurfaced and poked her head above the surface.",
 			actorPosition = {
 				x = 0,
 				y = -1000
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "好凶的皇家小姑娘…",
+			say = "What a rude little girl...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你自己不也是小姑娘啊！！！！",
+			say = "State your name! And aren't you a little girl yourself?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:420}，是大鲨鱼，超凶的。",
+			say = "U-110 is a shaaaark. Fear meeee.",
 			action = {
 				{
 					type = "shake",
@@ -260,7 +260,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			say = "{namecode:420}抖动着背鳍(?)，做出威胁的样子",
+			say = "U-110 shook her \"dorsal fin\" side to side, seemingly trying to intimidate the Royal Navy destroyers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这是在干嘛？",
+			say = "... Excuse me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蒜头…？",
+			say = "Are you... garlic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…蒜头？",
+			say = "... Garlic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，是蒜头啊。",
+			say = "Yes, garlic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……你们到底在说什么……",
+			say = "... What sort of conversation even is this...",
 			action = {
 				{
 					type = "shake",
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想，鲨鱼应该是很帅的。嗯。",
+			say = "Sharks are rather cool. At least, in my opinion, they are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，很帅气，而且很可怕的哦，嘎哦—",
+			say = "Mhm, I'm coooool. And scaaaryyy. Raaaawr.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			say = "{namecode:420}对着大斗犬发出了威胁的咆哮(?)",
+			say = "Whatever cry sharks supposedly make, U-110 imitated it in an attempt to scare Bulldog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这不是鲨鱼，只是单纯的蒜头脑袋吧。失望…",
+			say = "You, however, are not a shark. You are a bulb of garlic. I am thoroughly disappointed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "{namecode:420}不是蒜头脑袋，是鲨鱼—",
+			say = "I'm not a bulb of garlic, I'm a shaaaark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于看不起鲨鱼的对手，{namecode:420}，要在这里解决你们！",
+			say = "You'll be sorry for making fun of U-110!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）女将，趁现在",
+			say = "(Whispering) Amazon, it's time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "欸？",
+			say = "Come again?",
 			action = {
 				{
 					type = "shake",
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）趁着她现在不跑了，抓住她",
+			say = "(Whispering) She's stopped moving; this is our chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸…？啊，对！对啊！",
+			say = "What? ... Oh, right, I remember!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼！就让本小姐给你示范一下什么叫做反潜战吧！",
+			say = "Hah hah! It's time for an example of how anti-submarine warfare is really done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

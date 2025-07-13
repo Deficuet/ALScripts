@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "今天的赛程已经基本结束，只剩下最后的颁奖仪式了。",
+			say = "The day's races end. All that remains is the award ceremony.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "从维修站离开后，就被{namecode:473}迎风招展的旗帜吸引了目光。",
+			say = "When I step out of the pit, my eyes are first drawn to a pennant blowing in the breeze–and then to U-96.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "哟，指挥官，来这里！",
+			say = "Yo. Over here, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "有着明媚笑容的少女轻轻拍了拍身边的空位，示意我再靠近一些。",
+			say = "She smiles brightly and pats the seat next to her, beckoning me to approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "刚刚我可是看着你的赛车冲过终点的，接下来是不是要准备去领奖台开香槟了？",
+			say = "I saw the moment your car crossed the finish line. You gonna crack open some champagne on the first-place podium?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "不是，距离颁奖仪式还有一段时间，就先出来活动活动。",
+			say = "Well, there's still time until the ceremony. I was thinking of taking a walk to clear my mind a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,18 +97,18 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "原来如此。不过指挥官今天冲线的样子很帅哦，和我预想中的一样夺得了冠军。",
+			say = "Uh-huh? Well, you were cool as hell today, Commander. I knew you'd take first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你的预想之中一样？",
+					content = "You knew?",
 					flag = 1
 				},
 				{
-					content = "可是万一输了怎么办？",
+					content = "What if I lost?",
 					flag = 2
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 1,
-			say = "{namecode:473}对我会赢这件事，这么有自信么？",
+			say = "Well, thank you for your bid of confidence. Were you that certain?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 408093,
-			say = "那还用说？因为你是我的指挥官嘛。",
+			say = "Course I was. You're my Commander, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 408093,
-			say = "那也没办法~输了的话我就帮你加油打气，然后拭目以待你的下一次胜利咯。",
+			say = "I'd figure it out on the spot. Probably cheer ya up and wait for your next victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "而且指挥官从来不会让我失望呢。",
+			say = "Besides, you'd never betray my expectations. No shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "再说了，就是因为指挥官参赛，所以我才会来应援嘛。",
+			say = "You're the whole reason I came to cheer at this event, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "啊啊，不说这个问题了！指挥官，你不觉得有点热吗？",
+			say = "Argh, enough of that! Is it hot, or what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "太阳肆意散发着恐怖的热量，暴露在阳光下的燥热令人感到坐立不安。",
+			say = "The dazzling sun scorches the earth, heedless of our suffering. We can't stay in its burning rays for too long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "热辣的阳光，甚至让空气在视线中都变得扭曲。",
+			say = "It's so hot, in fact, that I realize that I can see the air distorting over the racetrack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "要不要，我们去个阴凉一些的地方？",
+			say = "Wanna go cool down, or somethin'?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "那一起去P房吧？那边有空调。",
+			say = "How about the pit? The AC in there feels great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "啊，出发去P房之前，指挥官，就这样先别动哦。",
+			say = "Oh, first... Stay still for me a sec.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "啵~",
+			say = "*mwah*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "脸上传来了柔软的触感，还有轻柔的吐息。",
+			say = "A soft sensation touches my cheek, accompanied by hot breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "手持旗帜的胜利女神在我的面颊上落下轻飘飘的吻。",
+			say = "The goddess of victory, wielding her flag in hand, has bequeathed me with a kiss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女不自觉地转过了脑袋，因为羞涩，脸上扬起一片红霞。",
+			say = "Apparently bashful for once, U-96 looks away a little. From this angle, it looks like she's blushing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 408093,
-			say = "咳……别这样看着我，这是给指挥官的奖励！",
+			say = "What, are you just gonna stare at me now? That was just your prize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "而且指挥官今天肌肉也应该僵硬了吧？需要好好按摩放松一下。",
+			say = "Your muscles must be stiff from all that driving, right? Someone's gonna have to give ya a massage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "反正……在颁奖仪式前的时间还足够。",
+			say = "Besides... We've got time before the ceremony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "总之我会给努力得到第一名的指挥官奖励，指挥官也要给努力为你应援的{namecode:473}奖励。",
+			say = "I'll treat you for winning first place. In return, you gotta reward ME for all the work I did cheering you on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "好了，我们现在出发吧——！",
+			say = "Alright! Let's goooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

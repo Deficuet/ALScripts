@@ -2,7 +2,7 @@ pg = pg or {}
 pg.guild_technology_template = {
 	[1000] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 100,
@@ -19,7 +19,7 @@ pg.guild_technology_template = {
 	},
 	[1001] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 114,
@@ -36,7 +36,7 @@ pg.guild_technology_template = {
 	},
 	[1002] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 132,
@@ -53,7 +53,7 @@ pg.guild_technology_template = {
 	},
 	[1003] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 154,
@@ -70,7 +70,7 @@ pg.guild_technology_template = {
 	},
 	[1004] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 180,
@@ -87,7 +87,7 @@ pg.guild_technology_template = {
 	},
 	[1005] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 210,
@@ -104,7 +104,7 @@ pg.guild_technology_template = {
 	},
 	[1006] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 244,
@@ -121,7 +121,7 @@ pg.guild_technology_template = {
 	},
 	[1007] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 282,
@@ -138,7 +138,7 @@ pg.guild_technology_template = {
 	},
 	[1008] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 324,
@@ -155,7 +155,7 @@ pg.guild_technology_template = {
 	},
 	[1009] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 370,
@@ -172,7 +172,7 @@ pg.guild_technology_template = {
 	},
 	[1010] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 420,
@@ -189,7 +189,7 @@ pg.guild_technology_template = {
 	},
 	[1011] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 474,
@@ -206,7 +206,7 @@ pg.guild_technology_template = {
 	},
 	[1012] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 532,
@@ -223,7 +223,7 @@ pg.guild_technology_template = {
 	},
 	[1013] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 594,
@@ -240,7 +240,7 @@ pg.guild_technology_template = {
 	},
 	[1014] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 660,
@@ -257,7 +257,7 @@ pg.guild_technology_template = {
 	},
 	[1015] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 730,
@@ -274,7 +274,7 @@ pg.guild_technology_template = {
 	},
 	[1016] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 804,
@@ -291,7 +291,7 @@ pg.guild_technology_template = {
 	},
 	[1017] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 882,
@@ -308,7 +308,7 @@ pg.guild_technology_template = {
 	},
 	[1018] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 964,
@@ -325,7 +325,7 @@ pg.guild_technology_template = {
 	},
 	[1019] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 1050,
@@ -342,7 +342,7 @@ pg.guild_technology_template = {
 	},
 	[1020] = {
 		level_max = 20,
-		name = "大舰队席位扩充",
+		name = "Guild Roster Expansion",
 		group = 1,
 		need_guild_active = 0,
 		exp = 0,
@@ -359,7 +359,7 @@ pg.guild_technology_template = {
 	},
 	[2000] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 0,
 		exp = 100,
@@ -376,7 +376,7 @@ pg.guild_technology_template = {
 	},
 	[2001] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 100,
 		exp = 124,
@@ -393,7 +393,7 @@ pg.guild_technology_template = {
 	},
 	[2002] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 200,
 		exp = 152,
@@ -410,7 +410,7 @@ pg.guild_technology_template = {
 	},
 	[2003] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 300,
 		exp = 184,
@@ -427,7 +427,7 @@ pg.guild_technology_template = {
 	},
 	[2004] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 400,
 		exp = 220,
@@ -444,7 +444,7 @@ pg.guild_technology_template = {
 	},
 	[2005] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 500,
 		exp = 260,
@@ -461,7 +461,7 @@ pg.guild_technology_template = {
 	},
 	[2006] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 600,
 		exp = 304,
@@ -478,7 +478,7 @@ pg.guild_technology_template = {
 	},
 	[2007] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 700,
 		exp = 352,
@@ -495,7 +495,7 @@ pg.guild_technology_template = {
 	},
 	[2008] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 800,
 		exp = 404,
@@ -512,7 +512,7 @@ pg.guild_technology_template = {
 	},
 	[2009] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 900,
 		exp = 460,
@@ -529,7 +529,7 @@ pg.guild_technology_template = {
 	},
 	[2010] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1000,
 		exp = 520,
@@ -546,7 +546,7 @@ pg.guild_technology_template = {
 	},
 	[2011] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1100,
 		exp = 584,
@@ -563,7 +563,7 @@ pg.guild_technology_template = {
 	},
 	[2012] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1200,
 		exp = 652,
@@ -580,7 +580,7 @@ pg.guild_technology_template = {
 	},
 	[2013] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1300,
 		exp = 724,
@@ -597,7 +597,7 @@ pg.guild_technology_template = {
 	},
 	[2014] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1400,
 		exp = 800,
@@ -614,7 +614,7 @@ pg.guild_technology_template = {
 	},
 	[2015] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1500,
 		exp = 880,
@@ -631,7 +631,7 @@ pg.guild_technology_template = {
 	},
 	[2016] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1600,
 		exp = 964,
@@ -648,7 +648,7 @@ pg.guild_technology_template = {
 	},
 	[2017] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1700,
 		exp = 1052,
@@ -665,7 +665,7 @@ pg.guild_technology_template = {
 	},
 	[2018] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1800,
 		exp = 1144,
@@ -682,7 +682,7 @@ pg.guild_technology_template = {
 	},
 	[2019] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 1900,
 		exp = 1240,
@@ -699,7 +699,7 @@ pg.guild_technology_template = {
 	},
 	[2020] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2000,
 		exp = 1340,
@@ -716,7 +716,7 @@ pg.guild_technology_template = {
 	},
 	[2021] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2100,
 		exp = 1444,
@@ -733,7 +733,7 @@ pg.guild_technology_template = {
 	},
 	[2022] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2200,
 		exp = 1552,
@@ -750,7 +750,7 @@ pg.guild_technology_template = {
 	},
 	[2023] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2300,
 		exp = 1664,
@@ -767,7 +767,7 @@ pg.guild_technology_template = {
 	},
 	[2024] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2400,
 		exp = 1780,
@@ -784,7 +784,7 @@ pg.guild_technology_template = {
 	},
 	[2025] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2500,
 		exp = 1900,
@@ -801,7 +801,7 @@ pg.guild_technology_template = {
 	},
 	[2026] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2600,
 		exp = 2024,
@@ -818,7 +818,7 @@ pg.guild_technology_template = {
 	},
 	[2027] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2700,
 		exp = 2152,
@@ -835,7 +835,7 @@ pg.guild_technology_template = {
 	},
 	[2028] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2800,
 		exp = 2284,
@@ -852,7 +852,7 @@ pg.guild_technology_template = {
 	},
 	[2029] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 2900,
 		exp = 2420,
@@ -869,7 +869,7 @@ pg.guild_technology_template = {
 	},
 	[2030] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3000,
 		exp = 2560,
@@ -886,7 +886,7 @@ pg.guild_technology_template = {
 	},
 	[2031] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3100,
 		exp = 2704,
@@ -903,7 +903,7 @@ pg.guild_technology_template = {
 	},
 	[2032] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3200,
 		exp = 2852,
@@ -920,7 +920,7 @@ pg.guild_technology_template = {
 	},
 	[2033] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3300,
 		exp = 3004,
@@ -937,7 +937,7 @@ pg.guild_technology_template = {
 	},
 	[2034] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3400,
 		exp = 3160,
@@ -954,7 +954,7 @@ pg.guild_technology_template = {
 	},
 	[2035] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3500,
 		exp = 3320,
@@ -971,7 +971,7 @@ pg.guild_technology_template = {
 	},
 	[2036] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3600,
 		exp = 3484,
@@ -988,7 +988,7 @@ pg.guild_technology_template = {
 	},
 	[2037] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3700,
 		exp = 3652,
@@ -1005,7 +1005,7 @@ pg.guild_technology_template = {
 	},
 	[2038] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3800,
 		exp = 3824,
@@ -1022,7 +1022,7 @@ pg.guild_technology_template = {
 	},
 	[2039] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 3900,
 		exp = 4000,
@@ -1039,7 +1039,7 @@ pg.guild_technology_template = {
 	},
 	[2040] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4000,
 		exp = 4180,
@@ -1056,7 +1056,7 @@ pg.guild_technology_template = {
 	},
 	[2041] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4100,
 		exp = 4364,
@@ -1073,7 +1073,7 @@ pg.guild_technology_template = {
 	},
 	[2042] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4200,
 		exp = 4552,
@@ -1090,7 +1090,7 @@ pg.guild_technology_template = {
 	},
 	[2043] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4300,
 		exp = 4744,
@@ -1107,7 +1107,7 @@ pg.guild_technology_template = {
 	},
 	[2044] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4400,
 		exp = 4940,
@@ -1124,7 +1124,7 @@ pg.guild_technology_template = {
 	},
 	[2045] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4500,
 		exp = 5140,
@@ -1141,7 +1141,7 @@ pg.guild_technology_template = {
 	},
 	[2046] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4600,
 		exp = 5344,
@@ -1158,7 +1158,7 @@ pg.guild_technology_template = {
 	},
 	[2047] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4700,
 		exp = 5552,
@@ -1175,7 +1175,7 @@ pg.guild_technology_template = {
 	},
 	[2048] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4800,
 		exp = 5764,
@@ -1192,7 +1192,7 @@ pg.guild_technology_template = {
 	},
 	[2049] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 4900,
 		exp = 5980,
@@ -1209,7 +1209,7 @@ pg.guild_technology_template = {
 	},
 	[2050] = {
 		level_max = 50,
-		name = "物资存储技术",
+		name = "Coin Storage Expansion",
 		group = 2,
 		need_guild_active = 5000,
 		exp = 0,
@@ -1226,7 +1226,7 @@ pg.guild_technology_template = {
 	},
 	[3000] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 0,
 		exp = 100,
@@ -1243,7 +1243,7 @@ pg.guild_technology_template = {
 	},
 	[3001] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 100,
 		exp = 124,
@@ -1260,7 +1260,7 @@ pg.guild_technology_template = {
 	},
 	[3002] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 200,
 		exp = 152,
@@ -1277,7 +1277,7 @@ pg.guild_technology_template = {
 	},
 	[3003] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 300,
 		exp = 184,
@@ -1294,7 +1294,7 @@ pg.guild_technology_template = {
 	},
 	[3004] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 400,
 		exp = 220,
@@ -1311,7 +1311,7 @@ pg.guild_technology_template = {
 	},
 	[3005] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 500,
 		exp = 260,
@@ -1328,7 +1328,7 @@ pg.guild_technology_template = {
 	},
 	[3006] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 600,
 		exp = 304,
@@ -1345,7 +1345,7 @@ pg.guild_technology_template = {
 	},
 	[3007] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 700,
 		exp = 352,
@@ -1362,7 +1362,7 @@ pg.guild_technology_template = {
 	},
 	[3008] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 800,
 		exp = 404,
@@ -1379,7 +1379,7 @@ pg.guild_technology_template = {
 	},
 	[3009] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 900,
 		exp = 460,
@@ -1396,7 +1396,7 @@ pg.guild_technology_template = {
 	},
 	[3010] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1000,
 		exp = 520,
@@ -1413,7 +1413,7 @@ pg.guild_technology_template = {
 	},
 	[3011] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1100,
 		exp = 584,
@@ -1430,7 +1430,7 @@ pg.guild_technology_template = {
 	},
 	[3012] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1200,
 		exp = 652,
@@ -1447,7 +1447,7 @@ pg.guild_technology_template = {
 	},
 	[3013] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1300,
 		exp = 724,
@@ -1464,7 +1464,7 @@ pg.guild_technology_template = {
 	},
 	[3014] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1400,
 		exp = 800,
@@ -1481,7 +1481,7 @@ pg.guild_technology_template = {
 	},
 	[3015] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1500,
 		exp = 880,
@@ -1498,7 +1498,7 @@ pg.guild_technology_template = {
 	},
 	[3016] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1600,
 		exp = 964,
@@ -1515,7 +1515,7 @@ pg.guild_technology_template = {
 	},
 	[3017] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1700,
 		exp = 1052,
@@ -1532,7 +1532,7 @@ pg.guild_technology_template = {
 	},
 	[3018] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1800,
 		exp = 1144,
@@ -1549,7 +1549,7 @@ pg.guild_technology_template = {
 	},
 	[3019] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 1900,
 		exp = 1240,
@@ -1566,7 +1566,7 @@ pg.guild_technology_template = {
 	},
 	[3020] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2000,
 		exp = 1340,
@@ -1583,7 +1583,7 @@ pg.guild_technology_template = {
 	},
 	[3021] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2100,
 		exp = 1444,
@@ -1600,7 +1600,7 @@ pg.guild_technology_template = {
 	},
 	[3022] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2200,
 		exp = 1552,
@@ -1617,7 +1617,7 @@ pg.guild_technology_template = {
 	},
 	[3023] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2300,
 		exp = 1664,
@@ -1634,7 +1634,7 @@ pg.guild_technology_template = {
 	},
 	[3024] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2400,
 		exp = 1780,
@@ -1651,7 +1651,7 @@ pg.guild_technology_template = {
 	},
 	[3025] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2500,
 		exp = 1900,
@@ -1668,7 +1668,7 @@ pg.guild_technology_template = {
 	},
 	[3026] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2600,
 		exp = 2024,
@@ -1685,7 +1685,7 @@ pg.guild_technology_template = {
 	},
 	[3027] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2700,
 		exp = 2152,
@@ -1702,7 +1702,7 @@ pg.guild_technology_template = {
 	},
 	[3028] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2800,
 		exp = 2284,
@@ -1719,7 +1719,7 @@ pg.guild_technology_template = {
 	},
 	[3029] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 2900,
 		exp = 2420,
@@ -1736,7 +1736,7 @@ pg.guild_technology_template = {
 	},
 	[3030] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3000,
 		exp = 2560,
@@ -1753,7 +1753,7 @@ pg.guild_technology_template = {
 	},
 	[3031] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3100,
 		exp = 2704,
@@ -1770,7 +1770,7 @@ pg.guild_technology_template = {
 	},
 	[3032] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3200,
 		exp = 2852,
@@ -1787,7 +1787,7 @@ pg.guild_technology_template = {
 	},
 	[3033] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3300,
 		exp = 3004,
@@ -1804,7 +1804,7 @@ pg.guild_technology_template = {
 	},
 	[3034] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3400,
 		exp = 3160,
@@ -1821,7 +1821,7 @@ pg.guild_technology_template = {
 	},
 	[3035] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3500,
 		exp = 3320,
@@ -1838,7 +1838,7 @@ pg.guild_technology_template = {
 	},
 	[3036] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3600,
 		exp = 3484,
@@ -1855,7 +1855,7 @@ pg.guild_technology_template = {
 	},
 	[3037] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3700,
 		exp = 3652,
@@ -1872,7 +1872,7 @@ pg.guild_technology_template = {
 	},
 	[3038] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3800,
 		exp = 3824,
@@ -1889,7 +1889,7 @@ pg.guild_technology_template = {
 	},
 	[3039] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 3900,
 		exp = 4000,
@@ -1906,7 +1906,7 @@ pg.guild_technology_template = {
 	},
 	[3040] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4000,
 		exp = 4180,
@@ -1923,7 +1923,7 @@ pg.guild_technology_template = {
 	},
 	[3041] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4100,
 		exp = 4364,
@@ -1940,7 +1940,7 @@ pg.guild_technology_template = {
 	},
 	[3042] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4200,
 		exp = 4552,
@@ -1957,7 +1957,7 @@ pg.guild_technology_template = {
 	},
 	[3043] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4300,
 		exp = 4744,
@@ -1974,7 +1974,7 @@ pg.guild_technology_template = {
 	},
 	[3044] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4400,
 		exp = 4940,
@@ -1991,7 +1991,7 @@ pg.guild_technology_template = {
 	},
 	[3045] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4500,
 		exp = 5140,
@@ -2008,7 +2008,7 @@ pg.guild_technology_template = {
 	},
 	[3046] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4600,
 		exp = 5344,
@@ -2025,7 +2025,7 @@ pg.guild_technology_template = {
 	},
 	[3047] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4700,
 		exp = 5552,
@@ -2042,7 +2042,7 @@ pg.guild_technology_template = {
 	},
 	[3048] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4800,
 		exp = 5764,
@@ -2059,7 +2059,7 @@ pg.guild_technology_template = {
 	},
 	[3049] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 4900,
 		exp = 5980,
@@ -2076,7 +2076,7 @@ pg.guild_technology_template = {
 	},
 	[3050] = {
 		level_max = 50,
-		name = "石油存储技术",
+		name = "Oil Storage Expansion",
 		group = 3,
 		need_guild_active = 5000,
 		exp = 0,
@@ -2093,7 +2093,7 @@ pg.guild_technology_template = {
 	},
 	[4000] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 0,
 		exp = 500,
@@ -2110,7 +2110,7 @@ pg.guild_technology_template = {
 	},
 	[4001] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 300,
 		exp = 580,
@@ -2127,7 +2127,7 @@ pg.guild_technology_template = {
 	},
 	[4002] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 600,
 		exp = 690,
@@ -2144,7 +2144,7 @@ pg.guild_technology_template = {
 	},
 	[4003] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 900,
 		exp = 830,
@@ -2161,7 +2161,7 @@ pg.guild_technology_template = {
 	},
 	[4004] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 1200,
 		exp = 1000,
@@ -2178,7 +2178,7 @@ pg.guild_technology_template = {
 	},
 	[4005] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 1500,
 		exp = 1200,
@@ -2195,7 +2195,7 @@ pg.guild_technology_template = {
 	},
 	[4006] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 1800,
 		exp = 1430,
@@ -2212,7 +2212,7 @@ pg.guild_technology_template = {
 	},
 	[4007] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 2100,
 		exp = 1690,
@@ -2229,7 +2229,7 @@ pg.guild_technology_template = {
 	},
 	[4008] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 2400,
 		exp = 1980,
@@ -2246,7 +2246,7 @@ pg.guild_technology_template = {
 	},
 	[4009] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 2700,
 		exp = 2300,
@@ -2263,7 +2263,7 @@ pg.guild_technology_template = {
 	},
 	[4010] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 3000,
 		exp = 2650,
@@ -2280,7 +2280,7 @@ pg.guild_technology_template = {
 	},
 	[4011] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 3300,
 		exp = 3030,
@@ -2297,7 +2297,7 @@ pg.guild_technology_template = {
 	},
 	[4012] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 3600,
 		exp = 3440,
@@ -2314,7 +2314,7 @@ pg.guild_technology_template = {
 	},
 	[4013] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 3900,
 		exp = 3880,
@@ -2331,7 +2331,7 @@ pg.guild_technology_template = {
 	},
 	[4014] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 4200,
 		exp = 4350,
@@ -2348,7 +2348,7 @@ pg.guild_technology_template = {
 	},
 	[4015] = {
 		level_max = 15,
-		name = "船坞扩容技术",
+		name = "Additional Dock Slots",
 		group = 4,
 		need_guild_active = 4500,
 		exp = 0,
@@ -2365,7 +2365,7 @@ pg.guild_technology_template = {
 	},
 	[5000] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 0,
 		exp = 500,
@@ -2382,7 +2382,7 @@ pg.guild_technology_template = {
 	},
 	[5001] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 300,
 		exp = 580,
@@ -2399,7 +2399,7 @@ pg.guild_technology_template = {
 	},
 	[5002] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 600,
 		exp = 690,
@@ -2416,7 +2416,7 @@ pg.guild_technology_template = {
 	},
 	[5003] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 900,
 		exp = 830,
@@ -2433,7 +2433,7 @@ pg.guild_technology_template = {
 	},
 	[5004] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 1200,
 		exp = 1000,
@@ -2450,7 +2450,7 @@ pg.guild_technology_template = {
 	},
 	[5005] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 1500,
 		exp = 1200,
@@ -2467,7 +2467,7 @@ pg.guild_technology_template = {
 	},
 	[5006] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 1800,
 		exp = 1430,
@@ -2484,7 +2484,7 @@ pg.guild_technology_template = {
 	},
 	[5007] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 2100,
 		exp = 1690,
@@ -2501,7 +2501,7 @@ pg.guild_technology_template = {
 	},
 	[5008] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 2400,
 		exp = 1980,
@@ -2518,7 +2518,7 @@ pg.guild_technology_template = {
 	},
 	[5009] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 2700,
 		exp = 2300,
@@ -2535,7 +2535,7 @@ pg.guild_technology_template = {
 	},
 	[5010] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 3000,
 		exp = 2650,
@@ -2552,7 +2552,7 @@ pg.guild_technology_template = {
 	},
 	[5011] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 3300,
 		exp = 3030,
@@ -2569,7 +2569,7 @@ pg.guild_technology_template = {
 	},
 	[5012] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 3600,
 		exp = 3440,
@@ -2586,7 +2586,7 @@ pg.guild_technology_template = {
 	},
 	[5013] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 3900,
 		exp = 3880,
@@ -2603,7 +2603,7 @@ pg.guild_technology_template = {
 	},
 	[5014] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 4200,
 		exp = 4350,
@@ -2620,7 +2620,7 @@ pg.guild_technology_template = {
 	},
 	[5015] = {
 		level_max = 15,
-		name = "仓库扩容技术",
+		name = "Warehouse Expansion",
 		group = 5,
 		need_guild_active = 4500,
 		exp = 0,
@@ -2637,7 +2637,7 @@ pg.guild_technology_template = {
 	},
 	[6000] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 0,
 		exp = 200,
@@ -2654,7 +2654,7 @@ pg.guild_technology_template = {
 	},
 	[6001] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 150,
 		exp = 300,
@@ -2671,7 +2671,7 @@ pg.guild_technology_template = {
 	},
 	[6002] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 300,
 		exp = 450,
@@ -2688,7 +2688,7 @@ pg.guild_technology_template = {
 	},
 	[6003] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 450,
 		exp = 650,
@@ -2705,7 +2705,7 @@ pg.guild_technology_template = {
 	},
 	[6004] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 600,
 		exp = 900,
@@ -2722,7 +2722,7 @@ pg.guild_technology_template = {
 	},
 	[6005] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 750,
 		exp = 1200,
@@ -2739,7 +2739,7 @@ pg.guild_technology_template = {
 	},
 	[6006] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 900,
 		exp = 1550,
@@ -2756,7 +2756,7 @@ pg.guild_technology_template = {
 	},
 	[6007] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1050,
 		exp = 1950,
@@ -2773,7 +2773,7 @@ pg.guild_technology_template = {
 	},
 	[6008] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1200,
 		exp = 2400,
@@ -2790,7 +2790,7 @@ pg.guild_technology_template = {
 	},
 	[6009] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1350,
 		exp = 2900,
@@ -2807,7 +2807,7 @@ pg.guild_technology_template = {
 	},
 	[6010] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1500,
 		exp = 3450,
@@ -2824,7 +2824,7 @@ pg.guild_technology_template = {
 	},
 	[6011] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1650,
 		exp = 4050,
@@ -2841,7 +2841,7 @@ pg.guild_technology_template = {
 	},
 	[6012] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1800,
 		exp = 4700,
@@ -2858,7 +2858,7 @@ pg.guild_technology_template = {
 	},
 	[6013] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 1950,
 		exp = 5400,
@@ -2875,7 +2875,7 @@ pg.guild_technology_template = {
 	},
 	[6014] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2100,
 		exp = 6150,
@@ -2892,7 +2892,7 @@ pg.guild_technology_template = {
 	},
 	[6015] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2250,
 		exp = 6950,
@@ -2909,7 +2909,7 @@ pg.guild_technology_template = {
 	},
 	[6016] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2400,
 		exp = 7800,
@@ -2926,7 +2926,7 @@ pg.guild_technology_template = {
 	},
 	[6017] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2550,
 		exp = 8700,
@@ -2943,7 +2943,7 @@ pg.guild_technology_template = {
 	},
 	[6018] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2700,
 		exp = 9650,
@@ -2960,7 +2960,7 @@ pg.guild_technology_template = {
 	},
 	[6019] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 2850,
 		exp = 10650,
@@ -2977,7 +2977,7 @@ pg.guild_technology_template = {
 	},
 	[6020] = {
 		level_max = 20,
-		name = "喵箱购买折扣",
+		name = "Cat Box Discount",
 		group = 6,
 		need_guild_active = 3000,
 		exp = 0,

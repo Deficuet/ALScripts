@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"{namecode:30}的烦恼\n\n<size=45>五 徒劳的努力？</size>",
+					"The Timid Black Cat\n\n<size=45>Fruitless Efforts?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·演习海域",
+			say = "One day at the Practice Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}这次又拿了第一呢！不愧是我的姐妹舰呢~",
+			say = "I saw you nab that MVP like nobody's business, Ayanami! That's my sister!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:2}姐，也很活跃…",
+			say = "I would say you did fairly well too.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，{namecode:6}还是这么谦虚呢~{namecode:30}也辛苦啦~秘书舰的工作也要加油哦，我们先走咯~",
+			say = "Hey, you don't have to be so modest~ And Hatsuharu, you did great too~ Good luck with your secretary work! See ya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…啊！谢、谢谢！你、你们也……",
+			say = "T-thank you! Y-you did great too! See you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…这次也没什么表现呢…",
+			say = "... I really didn't do all that great...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（明明已经下定决心要克服胆小了，但是在演习的时候，在那么多人的面前还是会紧张得动弹不得…没办法像她们一样…）",
+			say = "(I can give it my all in a real battle, but when I'm training with Fubuki and the rest, I can't maneuver as well as they do...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（明明指挥官也在一直陪我做对话练习，明明秘书舰的工作也能处理好了…）",
+			say = "(Practicing with the Commander has really improved my sociability, and I've slowly gotten better at doing secretary work, yet I still can't do well in combat with people I don't know...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这就是我的极限了吗…）",
+			say = "(This really is just impossible for me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这段时间的努力，会不会其实都是无用功…既然如此，秘书舰要不也——",
+			say = "Maybe all my hard work has been in vain... If so, I probably don't need to force myself to be the Commander's secretary anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟！",
+			say = "Yo, Hatsuharu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀！呜、呜呜…{namecode:85}小姐！请、请不要每次都这样吓人啦！",
+			say = "*Eek*?! ... It's you, Hiyou? Please stop s-scaring me like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，抱歉。不过…从刚刚演习结束就觉得你的样子有点奇怪，怎么了嘛？",
+			say = "Oh, sorry... I saw you standing over here, alone, and I was just wondering: did something bad happen?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没，没什么啦！只不过是有点累了——",
+			say = "N-no, nothing at all! I'm just a little t-tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的动摇都写在脸上了哦？",
+			say = "Something's obviously happened. It's written all over your face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸？有，有吗？",
+			say = "W-what?! N-no, I'm just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（叹气）本人没什么自觉吗…我听到你的自言自语了哦…我问你啊，你真的打算辞去秘书舰的职务吗？",
+			say = "*Sigh*... I wasn't trying to eavesdrop, but I overheard your little monologue. Are you really gonna resign from being the secretary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…那、那个是…",
+			say = "W-well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，所谓自信，就是无论遇到什么，都要去直面它的勇气啊！",
+			say = "Listen. Confidence isn't about being able to have a smooth conversation, it's about having the courage to face and overcome your own shortcomings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好不容易坚持到了现在，难道你要用简单一句话就把之前的努力全盘否定掉吗？",
+			say = "You don't want all your efforts up to this point to have been for nothing, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果现在转身逃跑的话，就再也没机会去正面面对了哦",
+			say = "If you give up now, you'll never muster the courage to try again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可、可是……",
+			say = "B-but I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:30}姐，逃避可是解决不了问题的哦",
+			say = "She's right, you know. You won't solve your problems by running away from them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:30}姐姐，不要灰心，{namecode:141}会一直给你加油的！",
+			say = "Don't give up, Hatsuharu! I'll support you the whole way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:129}…{namecode:141}……你们是什么时候——",
+			say = "Hatsushimo... Wakaba... Why are you here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，因为某人一直很担心你呀~是吧，那边的指挥官？你也有什么话要说的吧？",
+			say = "Because a certain someone was worried about you and went looking for you. Isn't that right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官？！",
+			say = "C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"从内到外魅力MAX！\n\n<size=45>四　{namecode:80}型意味着什么</size>",
+					"Hidden Charm\n\n<size=45>4 To Be a Kii</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢各位在今天聚集在此。",
+			say = "To all who are joining us on this day: thank you for coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "重樱智囊团之一的{namecode:161}，浅咳着现身了。",
+			say = "After coughing a few times, one of the Sakura Empire's brightest minds – Amagi – addressed the crowd.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也欢迎主上。感谢您的亲自出席。",
+			say = "Of course, that includes you, Commander. Your presence is greatly appreciated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "邀请我来这里的缘由，我也是十分清楚的。",
+			say = "I hadn't been invited just as a friendly gesture. There was an important role for me to fulfill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "来自重樱的舰船们将在此处进行演习，而自己就是本次演习的裁判。",
+			say = "I was to serve as the referee for this naval exercise. It would be a friendly battle between Amagi's great apprentices, and other shipgirls connected by the threads of history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼！{namecode:175}，来得好！我就先夸你没有不战而逃吧！",
+			say = "Well, well! You came after all, Suruga. Congratulations on taking the first step!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该不会这次赢的人还是我吧？",
+			say = "Yeah, me again. Ready to get whooped again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就逞逞嘴上威风吧……！",
+			say = "You know, it's just like you to count your chickens before they've hatched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "一对一的拟真实战。从规格上来看{namecode:80}和{namecode:175}两人旗鼓相当，可实际上{namecode:80}似乎更占上风。",
+			say = "Tension was building. Kii and Suruga were about on par in terms of rigging specs, but it sounded like Kii had an advantage from the get-go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多是时候了。主上，拜托您了。",
+			say = "It's time to begin. Commander, if you would.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "感受着会场观众的热情，还有{namecode:175}和{namecode:80}蓄势待发的气势，宣布了演习的开始。",
+			say = "After taking a look across the spectators, Kii, and Suruga, I gave the starting signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看我这招华丽的攻击！！你能接下来么！",
+			say = "Let's give the audience what they came for! Say goodnight!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:80}间不容发地动身了。她边接近{namecode:175}边发出连射，打算一口气打倒对方。",
+			say = "Kii immediately sprung into action. She held nothing back, firing several volleys at Suruga in an effort to take her out quickly.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是来这套……我已经看腻了！",
+			say = "You've used this strategy a million times already! Get new material!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "{namecode:175}发出了此前在相处中从未出现过的锐利声音，同时巧妙地躲避着{namecode:80}的猛攻。",
+			say = "Suruga dodged the volleys while firing back with sharp remarks the likes of which I'd never heard from her before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么会？！{namecode:175}，怎么了！！这可不像你ー！！",
+			say = "Whoa, what?! What's changed with you between now and last time, Suruga?",
 			effects = {
 				{
 					active = true,
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "与面对超出预料状况却仍有余力的{namecode:80}形成鲜明对比，{namecode:175}正边喘着气边尝试着反击。",
+			say = "Kii was taken aback, but kept firing even so. Despite Suruga's evasive maneuvers wearing away at her stamina, she now went on the offensive.",
 			effects = {
 				{
 					active = false,
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（今，今天一定要……！）",
+			say = "(This time will be different! I'll win, I swear it!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "她那对胜利的执念之深切，甚至传达到了观众席这边。",
+			say = "Suruga's desire to win could be felt even from the spectator rows. Her heart was on fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "尽管{namecode:80}的气势很强，但{namecode:175}此时完全不输于她，同样地引人注目。",
+			say = "Of course, Kii burned with a similar desire, but Suruga's passion stood out particularly much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿呀啊啊啊！！",
+			say = "YOU'RE MIIIINE!",
 			effects = {
 				{
 					active = true,
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哼哼！",
+			say = "Hmph! Nice try!",
 			effects = {
 				{
 					active = false,
@@ -528,7 +528,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——看来，这下要决出胜负了。",
+			say = "After much passionate fighting... It seems we have ourselves a victor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>六　热闹的“环球”派对</size>",
+					"A Party for the Ages\n\n<size=45>6.It's Party Time!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "准备许久的派对如期举行——",
+			say = "Finally, the day of the party arrives...",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "大家都到齐了吧？",
+			say = "Yo! Is everyone here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，节~日~快~乐~！欢迎大家来到美妙的派对！",
+			say = "I just wanted to say, thank you all for coming today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "希望大家在热闹的派对氛围中能尽情放松，一起来感受这派对的热情吧！",
+			say = "Whether you like partying, chilling, or anything in between, I hope you have a great time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "祝大家玩得开心——",
+			say = "Without further ado, let's get this world cruise party started!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "在西雅图充满热情的宣告中，派对正式开始了。",
+			say = "Seattle delivers a brief speech, and the party begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这边！让我们一起享受派对吧！",
+			say = "Commander, come here! Let's have a look around!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "与西雅图穿梭于派对中——",
+			say = "First up, the entertainment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "给，指挥官，戴上这个眼镜！",
+			say = "Check these out! Da Vinci invented these. Called 'em \"Warpy-Worpy VR Lenses,\" I think? Wonder what they do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "怎么样，有没有瞬间感觉置身于撒丁的城市中？",
+			say = "Whoa! We're in a virtual Sardegnian city. It's so realistic it's like I'm really there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就好像真的和指挥官一起在撒丁开派对了呢！",
+			say = "Next time I'm throwing a party, I'm so doing it in the place this is based on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "决定了，以后要把这个技术拓展到指挥室里去~",
+			say = "You could put this in your office, too. Would be sweet to play around with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "循着晚餐的香气前进——",
+			say = "Next, the food...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "指挥官，看这道菜！",
+			say = "You've gotta have a taste of this, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这好像是逸仙和{namecode:71}一起制作的……两种风格居然浑然一体了！",
+			say = "These are the hors d'oeuvres Hiei and Yat Sen made. They're based on the cuisine of several different factions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "除此之外，还有好多好多各种不同口味的菜！多到光是尝都要尝不过来了呢！",
+			say = "They're far from the only thing on the menu! Hell, I'd get full before I could even try everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你也尝尝吧！",
+			say = "C'mon, pick something and have a bite!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "穿过惊呼不断的特别惊喜区——",
+			say = "Then, the surprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，“特制惊喜果酱小蛋糕”，给你也来一份……",
+			say = "Hey, they're serving jam cake! Here, have some.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "欸，果酱呢……哇啊！",
+			say = "Huh. I don't see any jam in the cake. Maybe– Whoa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这是……大青花鱼的立牌？好像是巧克力做的……",
+			say = "They put a chocolate cutout of Albacore inside the cake? That's... interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦哦，果酱从巧克力里面流出来了！原来是这样的设计！",
+			say = "Oh! There's jam when you bite into the chocolate! Man, there's layers to this surprise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这边，指挥官——！",
+			say = "Ooh, that one looks cool!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这边好像也有有趣的东西！我们也去看看吧！",
+			say = "We've gotta check it out, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "西雅图正全新全意地享受着自己策划的派对，仿佛有着用不完的热情。",
+			say = "Everywhere she looks, Seattle finds something new to marvel at, despite having already inspected it all as the party's organizer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "在她的感染下，自己不禁也完全沉浸在了热闹的氛围中——",
+			say = "Her sheer enthusiasm rubs off on me. I follow her all around the party, having a great time by her side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，被指挥官和娜比娅发现了呢♪",
+			say = "Oh, looks like the Commander and Navi have spotted me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "先声明一下，好孩子{namecode:491:亚德}是来帮忙的哦~可不是在偷懒呢。",
+			say = "Let me make this clear – as a good girl, I came here to help. I'm not slacking on the job. Understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "只是有点好奇，所以才在这里感受一下下午茶而已哦~",
+			say = "I simply felt like having some afternoon tea and enjoying the mood in this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哼哼~来都来了，指挥官要不要也来点甜点？这可是限定款哦~",
+			say = "Heehee. Since you're already here, why don't you have a taste? This cake is only available for a limited time, for your information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不过呢，想要品尝的话，是要付出相应的代价的♪",
+			say = "I should say it comes at a rather hefty \"price,\" however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "谁让指挥官是坏孩子嘛~",
+			say = "Alas, that's the consequence of being as naughty as you are, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,23 +113,23 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_166",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			fontsize = 24,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用这种方式戏弄{tb}也行得通啊……",
+			say = "You really like teasing {tb}, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问{namecode:491:亚德}想要什么代价",
+					content = "(Ask her what she means by \"price.\")",
 					flag = 1
 				},
 				{
-					content = "拒绝{namecode:491:亚德}的提议",
+					content = "(Reject her offer of cake.)",
 					flag = 2
 				}
 			}
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "你想要什么代价？",
+			say = "Okay, so what is the \"price\" in question?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔~这个嘛~让{namecode:491:亚德}好好想一想……",
+			say = "Hmm. Yes, what is the price, indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不如陪{namecode:491:亚德}再坐一会儿？或者答应{namecode:491:亚德}一个小小的要求？",
+			say = "I know – why not sit with me here for a while longer? Or perhaps you could entertain a request of mine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "不会是什么过分的要求吧？",
+			say = "Depends on the request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心啦，{namecode:491:亚德}是好孩子呢。不会提太过分的要求的…大概？呵呵♪",
+			say = "Don't worry, I'm a good girl. I wouldn't ask anything totally outrageous of you... Probably. Heehee ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,12 +211,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_166",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来和{tb}说话还可以这样呢……",
+			say = "Wow, she really pushes the envelope when talking with {tb}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "想了想，还是拒绝了{namecode:491:亚德}的提议。",
+			say = "After thinking about it for a while, I decide to reject her offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "吃甜点就算了。",
+			say = "I'm not in a dessert mood today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "那真是太可惜了呢……明明{namecode:491:亚德}还想让指挥官品尝的……~",
+			say = "A pity. I really wanted you to taste it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过既然这样，那下次{namecode:491:亚德}给指挥官带些别的好了？",
+			say = "In that case, maybe I should offer you something else next time, hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为交换，指挥官要答应{namecode:491:亚德}一个要求哦♪",
+			say = "In exchange, you must grant me any request I make of you ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "嗯？为什么突然就要答应一个要求……？",
+			say = "And why would I agree to that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为{namecode:491:亚德}是好孩子嘛，答应好孩子的要求也是天经地义的事情啦~",
+			say = "Because I'm a good girl? Indulging a good girl's request is the most natural thing on the planet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,12 +325,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_166",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？想让{tb}答应要求原来还可以这样啊。",
+			say = "Wait...? You can just force requests on {tb} like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然了呢~",
+			say = "I sure can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呵呵，说起来{namecode:491:亚德}今天的任务已经完成了呢♪",
+			say = "Well, now I've finished my work for today ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "看来娜比娅也学到了不少有趣的东西~",
+			say = "I'm sure you picked up many practical things and had your share of amusement, Navi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那{namecode:491:亚德}就先告辞啦，下次见面的时候，指挥官要记得补偿{namecode:491:亚德}哦~",
+			say = "Now, however, I must take my leave. Should we cross paths again, Commander, kindly don't forget my compensation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "目送{namecode:491:亚德}离去之后，娜比娅还是一副若有所思的模样。",
+			say = "I see Jade off, and Navi still seems to be deep in thought about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在想什么呢，娜比娅？",
+			say = "What's up, Navi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,9 +423,9 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "啊……没什么。",
+			say = "Ahh? It's nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,9 +437,9 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "我只是在想……{namecode:491:亚德}小姐真的很厉害呢……",
+			say = "I was just... impressed with Jade's way of doing things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

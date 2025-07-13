@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"博览会闭幕式四日前",
+					"A few days before the World Expo's closing",
 					1
 				},
 				{
-					"圣赫勒拿岛·审判庭要塞",
+					"Saint Helena Island - Secret Tribunal Stronghold",
 					2
 				}
 			},
@@ -34,7 +34,7 @@ return {
 			bgm = "theme-vichy-church",
 			side = 2,
 			bgName = "bg_story_italy",
-			say = "就在黎塞留刚刚审阅完一份文件时，敲门声响了起来。",
+			say = "Days had passed since the Crown of the Holy See was lost. Richelieu was reviewing documents at her desk when she heard a knock at the door.",
 			bgmDelay = 0.5,
 			soundeffect = "event:/ui/knockdoor1",
 			nameColor = "#A9F548FF",
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "请进。",
+			say = "Come in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打扰了，黎塞留大人",
+			say = "I do hope I'm not interrupting you, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是可怖啊，请坐。有什么事么？",
+			say = "Ah, Le Terrible. Please have a seat. Have any news for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "嗯，岛屿修复的第一阶段工作已经完成了。",
+			say = "Yes. The first stage of repairs on the stronghold has been completed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "总体来说相当顺利，报告我已经整理好了，请过目。",
+			say = "In broad strokes, it went smoothly. If you'd like the finer details, I've prepared a written report for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "辛苦了。",
+			say = "Thank you. I commend your tireless efforts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "您的气色，看上去也相当不错呢。审判庭的药物起作用了？",
+			say = "I'm only doing my duty. Incidentally, you look much more alive now, Cardinal. Did that dubious Tribunal medicine actually work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "应该算立竿见影吧，最近几天再没有梦到过那些奇怪的东西了。",
+			say = "It did. My dreams have been completely free of the black sun ever since I took that medicine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过你看上去倒是非常疲惫，还好么？",
+			say = "You, on the other hand, don't look so well. Is there something I should know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……只是有些没休息好，没事的。",
+			say = "Oh, don't worry about me. I just haven't been getting enough rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "清点工作也不用那么着急，循序渐进，慢慢来就好。",
+			say = "Have you been staying up late analyzing the things the Tribunal left behind? Please, take your time. They're not going anywhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "我知道了……多谢您的关心。",
+			say = "And I suppose neither will we, for some time. You're right, Cardinal. I'll take your advice to heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，这一份是关于教廷资产清理完成部分的清单——",
+			say = "Speaking of the Tribunal's assets, I've also prepared an inventory list of what I've found so far if–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor1",
-			say = "（敲门声）",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "请进。",
+			say = "Come in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留主教~！",
+			say = "Lady Richelieu! Got a report to make!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我都打听清楚了，克莱蒙梭大人现在人已经去了撒丁，精力全都在博览会上。",
+			say = "Lady Clemenceau has gone to Sardegna to attend the World Expo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去一些偏远的审判庭站点收集情报应该没什么问题，间谍计划还是很有可行性的！",
+			say = "With her gone, the Tribunal's the most vulnerable it's ever gonna be. So, now's the time to act if you wanna spring that Gali double agent plan into action!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你就是耐不住寂寞……是么？",
+			say = "You're still thinking about that? Sounds to me like taking an inventory is simply too demanding for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这是什么意思嘛，可怖！",
+			say = "Hey! What's that supposed to mean?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "清点工作我又帮不上什么忙，在这里待着也只能出出苦力。",
+			say = "Filling out paperwork is sooo not my thing, alright? I'm tired of sitting around on my ass all day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还不如去适合我的领域发光发热，你说对吧~！",
+			say = "You don't really need me around here lifting boxes, right? Then, put me to good use and let me go do what I do best!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我觉得还是，再等等。",
+			say = "Or, hear me out here – you can just stay put.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "在圣赫勒拿再等一段时间……再行动。",
+			say = "We're almost finished here. After that, we'll go look for the Crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可怖，你是不是还有什么事瞒着我们？",
+			say = "Le Terrible, you still haven't told me about how exactly we're going to locate the Crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………圣赫勒拿不光藏着冠冕，还隐藏着一套审判庭的重要设备。",
+			say = "I was just getting to that. You see, the Tribunal prepared a contingency plan in the event the Crown was stolen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冠冕虽然被夺走了，但设备并没有被敌人发现。",
+			say = "They developed a device that is capable of tracking down the Crown's location, and hid it somewhere on this island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "这套设备，才是我们逆转局势的关键。",
+			say = "This device will be key to our ability to retrieve the Crown. Or... so the document I read says.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这段时间内，我们一定要守在这里，保护设备的同时……静待时机。",
+			say = "All that remains... is for us to wait around until the opportunity presents itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "时机…………什么时机？",
+			say = "Huh? Wait around? Wouldn't the logical next step be to search for this device?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还不知道准确时间……",
+			say = "Uhh... We're people of faith, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只要一直等在圣赫勒拿，就会有好事发生，大概……",
+			say = "I'm sure if we just keep waiting here, something good will happen~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,11 +598,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "黎塞留大人，白鹰舰队即将进入圣赫勒拿港口。",
+			say = "Cardinal Richelieu, the Eagle Union's fleet has docked at Saint Helena Island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			actor = 807010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以及，“路易九世”向您问好。",
+			say = "Additionally, Saint Louis is accompanying them. She sends her greetings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "终于到这一刻了么……我们的计划舰终于要入列了！",
+			say = "Ah... Saint Louis, blueprint ship and holy knight. It's delightful to hear that another dependable ally joins our ranks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，两位，我要优先去港口处理一下这件事。",
+			say = "Le Terrible, La Galissonnière, I'm sorry to cut our conversation short, but I must go and speak to the Eagle Union's representatives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "黎塞留丢下一句“失陪了”，就匆匆离开了房间。",
+			say = "Richelieu left the room in a hurry, a multitude of important thoughts jostling around her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "看来我们又有了一把锋利的剑……",
+			say = "That Saint Louis is a powerful sword to have by our side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉·加利索尼埃，你这几天要实在闲着无聊，就配合黎塞留主教做一下计划舰的对抗训练如何？",
+			say = "Say, La Galissonnière, why don't you have a few training sessions with her? You did say you had nothing better to do, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "额……我对计划舰有着不太好的回忆，你还是另请高明吧。",
+			say = "Yeeeah... No. I've sparred with a blueprint ship before. Let's just say... it's a really bad memory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "我自己……嗯，可以找其它事情做！",
+			say = "Thanks for the concern, but I'll find another way of passing the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们还没和好……？",
+			say = "Come on. Surely it wasn't THAT bad.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "与其说和好不如说……加斯科涅的性格你也知道。",
+			say = "Have you never met Gascogne before? You know how she can get...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,25 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——“无法理解，「和解」的意义。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 902010,
-			say = "——“判定，没有必要。”",
+			say = "Y'know, \"Language processor cannot grasp meaning of 'reconcile.'\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +822,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "你说这接下去还怎么聊啊。",
+			say = "Something-something, \"Analysis: action deemed unnecessary.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_italy",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 902010,
+			say = "That sort of stuff sticks with you for life.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -857,7 +857,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那还真是辛苦呢……",
+			say = "Hmm... I see. That must've been quite hard on you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "对了，药你那里还有么，再给我一瓶。",
+			say = "By the way, do you still have some medicine left? I could use another phial.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "你……应该不只是为了备用这么简单吧。",
+			say = "Another? What happened to the extra one I gave you \"just in case?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -910,7 +910,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你在消除什么的负面影响？",
+			say = "Have you been dreaming about the black sun or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "————暂时保密。",
+			say = "That... would be a secret.",
 			painting = {
 				alpha = 0.3,
 				time = 1

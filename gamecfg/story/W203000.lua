@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前海域内事件已经全部完成，即将回到通常海域。",
+			say = "Every point of interest in this zone has been investigated. Let’s move on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

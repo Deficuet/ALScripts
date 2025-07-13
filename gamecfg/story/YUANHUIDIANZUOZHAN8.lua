@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "铁血试验场·休息区 一段时间后",
+			say = "Mirror Sea - Iron Blood Encampment",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "锵锵锵——{namecode:442}，今天的晚饭来了哦~豪华鸢尾大餐！",
+			say = "Tonight we're having – drumroll please – tadah! A full course of Iris cuisine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦，看起来真丰盛啊！",
+			say = "Holy crap, that's a lot of food! And it all looks delish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "对吧对吧！平时在外面执行任务的时候可吃不到这么好的东西~",
+			say = "Mhm! It's not every day we get to pig out like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "啊，饮品请去自取哦，我只拿了我的。",
+			say = "There are drinks too, if you want something. Just go pour it yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "没问题没问题~今天喝点什么好呢♪",
+			say = "Sweet! Maybe I'll have a soda or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "话说，{namecode:435}大人她们呢，不需要吃东西么？",
+			say = "Speaking of food, what do Pawns eat? Do they even eat at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "说起来……好像从来也没见它们来过食堂呢。",
+			say = "I was thinking, wouldn't it be surreal if they just all walked in and started queuing up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "你是指棋子的事…？棋子又不需要吃东西，自然也不用来食堂。",
+			say = "I can't imagine them needing to eat. I mean, they're basically just Siren-created robots, right? I doubt they'd need food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我想，它们现在应该正在档案中心上传今天的战斗数据吧。",
+			say = "The survey notes say that when Pawns returns to the workshop, the first thing they do is upload their combat data to a separate facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "等上传完成之后会接着去……一个我忘了名字的地方与外面传进来的新数据进行同步！",
+			say = "Then they go to... I forget what it's called, but some place where they compare their data amongst each other to reflect on their performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "再然后……应该会去船坞休眠吧。",
+			say = "After that, I guess they just head into storage and take a nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "从雕刻车间新补充出来的棋子就不用走这个流程了。它们会直接在雕刻车间内休眠，等待我们将其编制到舰队之中。",
+			say = "That's when they recharge, regroup with the other Pawns for the next day, and get ready for the next experiment. Seems simple enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "好、好厉害！{namecode:450}已经完全变成专家了啊……",
+			say = "Interesting... I'm surprised you know all this stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "明明在来之前还跟我一样什么都不知道！",
+			say = "Before we got here, I just assumed we were both equally clueless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "……在路上的时候我还是姑且仔细研究过这里啦。",
+			say = "You'd have known too if you maybe read the briefs. It's all in there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "除非明确地分出胜负，否则测试就不能结束。里面的人不能出去，外面的人也不能进来。",
+			say = "Think about the situation we're in here. Nobody's allowed in or out of the Mirror Sea until a victor's been determined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "仔细想想……不是挺恐怖的么？",
+			say = "Meaning, we're stuck here until the experiment's over. Isn't that really scary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "{namecode:442}肯定也有想早点出去，早点见到的人吧。",
+			say = "Learning everything you can is super important if you want to leave as soon as possible and reunite with our friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "？！这么一说，好像是诶！……我居然完全没想过！",
+			say = "Oof. You're absolutely right... I just assumed this would be like any regular exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "这么一想确实好恐怖……感觉胃口都不好了！",
+			say = "Maaan, realizin' that we're stuck here is making my appetite go away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "额，那倒是也不至于啦……从今天战斗的情况来看，我们的优势还是挺大的。",
+			say = "Hey, it's not all bad. Our opponent is one of our own and she's not a Pawn, meaning that we can communicate with her in case something goes wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "要是能继续这么赢下去，说不定我们很快就能回去了哦？",
+			say = "But more importantly, as long as we keep winning, we'll be out of here in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 401160,
-			say = "说的也是，那就————再来一份餐包！",
+			say = "Yeah, you're right! You know what, I think I'll have a burger as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

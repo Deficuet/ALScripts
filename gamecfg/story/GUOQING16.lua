@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "【棋子】终究只有这种水平的战斗力吗，趁这个时候…先手必胜！！",
+			say = "Of course this is all a Pawn would be capable of... It's over. Come here!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "你的灵魂，我们就收下了！",
+			say = "Your soul is mine!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "！！！可恶，来不及回避了",
+			say = "Gah...! I can't... move...!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
-			say = "……{namecode:95}…{namecode:95}姐？",
+			say = "What...?! Sho... Shoukaku?!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.3,
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:95}",
-			say = "…约定……守护…………永远…",
+			say = "I promised... I would always... protect you...!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -136,7 +136,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐...？",
+			say = "Sis, you're...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -156,7 +156,7 @@ return {
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "？！棋子居然……？",
+			say = "The Pawn defied us? How?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,7 +176,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "呵呵呵，制造出的棋子居然会在这时候选择为“妹妹”挺身而出么。",
+			say = "She saved her sister from danger. Interesting...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -196,7 +196,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "（只是制造出的棋子，竟然会为了妹妹.....）",
+			say = "(So even a Pawn will rush to protect those they love...)",
 			shake = {
 				speed = 1,
 				number = 3
@@ -216,7 +216,7 @@ return {
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "这…这就是所谓的觉醒反应么…只要在合适的地点激发出心底最重要的一段类似的经历就…",
+			say = "This must be an Awakening Response... Brought on by remembering something important from the depths of her mind at just the right time...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -236,7 +236,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "{namecode:92}、先撤退，如果有棋子出现“觉醒”的反应，按照和神明的约定应当作为最高优先级日志上报",
+			say = "Kaga, let's retreat. Our priority right now is to report to the Creator that a Pawn has Awakened.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -256,7 +256,7 @@ return {
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "了解",
+			say = "Understood.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -275,7 +275,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "...等！",
+			say = "Hey, wait!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -294,7 +294,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "呜......",
+			say = "Argh... is that you... Zuikaku?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -313,7 +313,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐？我终于找到你了，你没事吧！",
+			say = "Sis?! Yeah, it's me! But more importantly, what did Akagi do to you?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -332,7 +332,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:96}...你来了啊...感觉好像做了一个很长的梦。",
+			say = "I don't know... It... it feels like I just woke up from a long dream.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -351,7 +351,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "在梦里...我......",
+			say = "And don't worry, I feel fine.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -370,7 +370,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "那个棋子...看来都结束了啊...唔，头好痛。",
+			say = "In fact, I should apologize. For making you worry about your fool of a big sister.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -389,7 +389,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐…对不起，这么久了，我一直没有成长，总是这么鲁莽的只顾看着眼前…",
+			say = "Sis... I'm sorry... I haven't matured one bit... I'm still so reckless and shortsighted...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -408,7 +408,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "只要你能够平安无事，我们就还有希望...只有你，能够战胜那个对手....",
+			say = "As long as you're safe and well, there is still hope... You are the only one who can defeat the enemy that is upon us...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -427,7 +427,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "在那之前，姐姐会一直在你身边...一直守护着你...",
+			say = "I will always be by your side... always protecting you...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -446,7 +446,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "你只要…放心的看着前方…看着那个目标就好…",
+			say = "Always look forward, confidently... and stay true to our goals...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -465,7 +465,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐…",
+			say = "Sis...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -484,7 +484,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "去吧…追上她们，问清楚她们的动机，不能让重樱的未来…毁在她们手中…",
+			say = "Now go, chase after Akagi and Kaga... We cannot let them sully the Sakura Empire's future...",
 			shake = {
 				speed = 1,
 				number = 3

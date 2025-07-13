@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION92",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION92",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，您是怎么看待“下雨天”的呢？",
+			say = "主人，您是怎么看待“下雨天”的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +104,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "相比之下{dorm3d}您这里就要好的多了",
+			say = "相比之下主人您这里就要好的多了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

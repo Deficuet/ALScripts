@@ -12,7 +12,7 @@ return {
 			actor = 599010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这下有点棘手啊。",
+			say = "Huh. Looks like we've got a teensy tiny issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让萨拉妹妹也来看看~！",
+			say = "What? Lemme see!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼~在经历了各组舰船偶像们拼尽全力的Live之后，目前「红组」和「青组」的比分情况是——",
+			say = "Nyahaha! Both teams have put on some incredible performances so far, nya! Now it's time to announce their current scores, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "平局喵！",
+			say = "...Nya? Unbelievable, nya! They're perfectly tied, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在压力完全来到了最后登台的两个组合身上喵~",
+			say = "It's anyone's game now, nya! The final two units will determine the outcome of the whole competition, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哪一方能取得最终的胜利呢？",
+			say = "The question is – who'll win, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "——是激进、热烈，充满力量的「Alizarin」？",
+			say = "Will it be the determined, passionate, and powerful Alizarin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——还是鲜活、元气，暖阳一般的「 Cyanidin」？",
+			say = "Or will Cyanidin clutch the win with their fresh vibes and beaming energy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就让我们拭目以待吧喵！",
+			say = "Stay tuned until the end to find out, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1

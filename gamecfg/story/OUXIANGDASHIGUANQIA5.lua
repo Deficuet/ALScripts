@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区・临时事务所",
+			say = "Port - Temporary Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿咻…就放在这里好啦～",
+			say = "Heave, ho... All righty, I'll leave this over here~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好的！谢谢梓小姐！",
+			say = "Great! Thanks a ton!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 101176,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉菲累了…睡了…",
+			say = "Laffey is out of energy... Going back to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉菲~不可以在音乐设备上睡觉哦~！",
+			say = "Laffey, please don't fall asleep on the equipment!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			actor = 101176,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就…去沙发……",
+			say = "Then, the sofa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，拉菲也来帮忙呀！整理这些设备可麻烦了！",
+			say = "Jeez, Laffey, come help out a bit more! It's not easy setting up all the equipment in the office!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，像这样把设备整好以后，一下子就有种“动真格”的感觉了呢。",
+			say = "I thought we were just doing a test run, but I guess we ended up doing a full-scale setup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是专业的偶像…和萨拉托加她们的意见完全一致。",
+			say = "I suppose this is part of being a pro idol, huh... I remember Saratoga saying the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻嘻，果然要开始偶像活动，就先要有个事务所。先从形式着手也方便大家有个准备。",
+			say = "Hehe. You've got to look the part first, after all~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢，毕竟偶像并不是港区各位的本职工作。",
+			say = "Indeed. I can see that being a full-time idol isn't an emphasis for the shipgirls here, so in addition to the normal lessons...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，不仅是特训，先从日常生活中尝试体验偶像如何……春香是这么建议的。",
+			say = "Haruka suggested that it's important for you to get a taste of what it's like to live as an actual idol.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个主意被皇家的女王陛下爽快采用了呢。",
+			say = "Queen Elizabeth was wise enough to adopt this plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿…",
+			say = "Ahaha...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么问题。你们会协助我们进行训练，对吧？",
+			say = "No problem. Naturally, you'll be helping us with our training, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "手臂像这样转起来~自然的感觉~",
+			say = "All right, turn your arm just like this~",
 			hidePaintEquip = true,
 			flashout = {
 				black = true,
@@ -338,7 +338,7 @@ return {
 			actor = 10700070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇呜哇！一下就练习舞步会受伤的啦~！",
+			say = "Woah, don't start practicing your dance steps before warming up first!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			actor = 307110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶…指挥官看不到的演唱会什么的…得跟{namecode:439}商量一下，让她好好录下来……",
+			say = "Ugh... A performance that my Commander has never seen before... I'll have to consult Roon and have this recorded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 901120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊…哈啊……不，不行了…没想到会这么累……",
+			say = "*gasp* *gasp*... No more... I'm not built for this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 201234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这训练是不是太魔鬼了一点…？",
+			say = "Art thou not being too draconian?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这点训练算什么！光是这样可成为不了偶像哦",
+			say = "Not at all. You'll never become a real idol if you can't even get through this!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			actor = 201234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，我同意~",
+			say = "Hehehe~ Not that I disagree with that sentiment~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以…吸血鬼你不用练习吗？",
+			say = "Are you not going to practice?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			actor = 201234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了！我先去买点喝的~回头见~♪",
+			say = "Oh, that reminds me! 'tis necessary for me to procure beverages, so I shall take my leave thusly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 10700030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…真是的，这里的小伙伴一个个也都挺个性鲜明的呢…",
+			say = "...Good grief, some of the girls here really are quite something...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -515,7 +515,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，大家都在努力练习呢~",
+			say = "Keep up the good work, everyone! Just like that!",
 			hidePaintEquip = true,
 			flashout = {
 				black = true,
@@ -550,7 +550,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜，好辛苦的感觉＞＜",
+			say = "Woah, I'm not sure I'd be able to handle that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要加油训练，正式演出一定会顺利！",
+			say = "If you can't be perfect during practice, how are you going to be perfect on-stage?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -611,7 +611,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以，标枪和拉菲也和我们一起加油训练吧！",
+			say = "We'll also be joining the lessons, so keep hanging in there!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢。而且我们也是，在这的期间也要注意不能荒废了日常训练呢。",
+			say = "That's right. We can't neglect our idol training either just because we're stuck here.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，量产舰的准备好了。",
+			say = "Everyone, the mass-produced ships are ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家久等了——",
+			say = "Sorry to keep you waiting—",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			blackbg = true,
 			nameColor = "#a9f548",
-			say = "是时候前往会场了—！",
+			say = "It's time to head down to the venue!",
 			hidePaintEquip = true,
 			effects = {
 				{

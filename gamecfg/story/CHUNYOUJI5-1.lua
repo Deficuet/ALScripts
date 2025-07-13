@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "捡到了掉在草丛中的零件，获得了【强化部件T3*2】"
+			say = "You discovered parts that had been washed ashore! Collect 2 T3 Parts!"
 		}
 	}
 }

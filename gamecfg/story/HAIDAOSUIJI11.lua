@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "探索过程中路过森林里的小河，碰到一只不慎落水的啾啾……",
+			say = "As you're exploring the island, you stumble across a manjuu that appears to be drowning in a small river in the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -13,9 +13,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "某只啾啾",
+			actorName = "Manjuu in Distress",
 			nameColor = "#A9F548FF",
-			say = "啾啾————！！！救、啾……咕噜噜咕噜……",
+			say = "Plrblrblrbhh! Help! Help me, peep! Blrlbrph...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……你正准备下水营救时，一尊巨大的啾啾河神突然从河中破水而出！~",
+			say = "Just as you get ready to jump in the river, a manjuu seemingly with the aura of a god emerges from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,9 +32,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "充满仁慈与智慧的探索者啾……你对落难之啾施以援手的好意，我已心领啾……",
+			say = "O, wise and kind warrior, I commend thy willingness to put thyself in harm's way to save a manjuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,24 +42,24 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "只是不知道，刚刚落水的是这只金啾啾，还是这只银啾啾？",
+			say = "So, tell me, which manjuu fell in the river? This one of gold, or this one of silver?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "金啾啾！",
+					content = "\"The golden one.\"",
 					flag = 1
 				},
 				{
-					content = "银啾啾！",
+					content = "\"The silver one.\"",
 					flag = 2
 				},
 				{
-					content = "都不是",
+					content = "\"Am I hallucinating?!\"",
 					flag = 3
 				}
 			}

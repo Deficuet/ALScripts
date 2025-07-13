@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>三　寻找灵感的假日</size>",
+					"Your Dear Inventor\n\n<size=45>3 Look Around You</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "某个风和日丽的假日——",
+			say = "Outside, on a sunny holiday...",
 			bgmDelay = 2,
 			bgm = "story-richang-7",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不仔细看都不知道，原来还有这样的细节啊……",
+			say = "Huh. There are some things in this world you'll only notice if you have a close look...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "在运动场散步时，看见了达芬奇正聚精会神地盯着跨栏用的栏架。",
+			say = "As I'm walking around the stadium, I catch sight of da Vinci. She's standing by the hurdles, muttering to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官？早啊。",
+			say = "Oh, Commander! Morning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "你这是在？",
+			say = "\"What are you up to?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "思考体育场运动设施的改良发明！",
+			say = "I'm coming up with inventions that could improve the equipment around here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "时代在发展，运动器材也应该与时俱进才是。",
+			say = "After all, technology should get better with the passage of time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "比如这些栏架，每次用的时候都要手动一个一个的摆放整齐，非常麻烦对吧。",
+			say = "Take these hurdles, for instance. Whenever you want to use them, you have to carry and put them in place, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如果我能想到什么改良方法的话……",
+			say = "Now imagine a machine that could do it for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "运动设施的改良……确实是一件很有意义的事。",
+			say = "\"I see where you're coming from. That would be convenient.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "是因为收到了其他人的委托么？",
+			say = "\"Did somebody ask you to do this, by any chance?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不是啊，单纯是我想这么做而已。",
+			say = "Nope. I'm doing it because I want to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "今天正好是外出收集灵感的日子，指挥官要一起来么？",
+			say = "By the way, I'm gonna go around looking for inspo in a bit. You wanna come with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "那就，一同去散散步吧——",
+			say = "\"Sure, why not? I was just on a walk anyway.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
-			say = "港区·咖啡店",
+			say = "Port - Café",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "一到港区的休假日，这里的店员就会十分繁忙呢。",
+			say = "Poor staff. It always gets super busy here during holidays.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如果能让发明出根据客人们的点单来自行调制咖啡的机器人，那就能大大减少店员的工作量了。",
+			say = "Maybe I could invent a robot that makes coffee exactly the way you tell it to. That'd lighten the baristas' workload!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,11 +310,11 @@ return {
 			},
 			options = {
 				{
-					content = "咖啡机器人也会有噪音吗？",
+					content = "\"I pray it won't be deafeningly loud.\"",
 					flag = 1
 				},
 				{
-					content = "得先询问店长的意见。",
+					content = "\"You should ask for the staff's opinion first.\"",
 					flag = 2
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不会，设计目的包括维持咖啡店内的舒适度，所以我会考虑噪音控制。",
+			say = "It won't be! A café has got to have a chill atmosphere, and I can account for that in my designs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，指挥官你原来这么在意按摩机器人的噪音吗！？",
+			say = "Why'd you even bring that up? Don't tell me it's something to do with my Massaginator...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是当然的，我可不会将自己的内心想法强塞于人。",
+			say = "Obviously. I'm not just going to push an invention on them without hearing them out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这家店是皇家的还是铁血的、还是重樱的来着……",
+			say = "But, on the contrary... with some people, it's best if you don't ask.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			say = "港区·户外泳池",
+			say = "Port - Swimming Pool",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "每次游水上岸全身都湿沥沥的。",
+			say = "You know what sucks about getting out of the pool?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这时候被冷风一吹，就会冷得瑟瑟发抖，容易感冒。",
+			say = "You're soaking wet. And if it's windy while you're wet, it's chilly as heck and you'll probably catch a cold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如果发明一件在上岸后自动发热保暖的泳衣，那就不怕了！",
+			say = "But, imagine if you had swimwear that automatically warmed you up! Then you could get up without fear of freezing your butt off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,11 +478,11 @@ return {
 			},
 			options = {
 				{
-					content = "听着很不错。",
+					content = "\"Brilliant idea.\"",
 					flag = 1
 				},
 				{
-					content = "希望在水中不会漏电。",
+					content = "\"What if there's an electric leakage?\"",
 					flag = 2
 				}
 			}
@@ -496,7 +496,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对吧！",
+			say = "I know, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到时候咱们就穿着我发明的发热保暖泳衣，一起去游泳吧！",
+			say = "I shall name it... the Swimmy Warmy Swimwear. Once it's finished, we should both wear one and go for a swim!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦对……对于指挥官来说太危险了。",
+			say = "Oh, right! You'd get shocked! Well, everyone would...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的话，采用化学能发热会不会更稳妥一些呢……",
+			say = "Hmm... Yeah, I'd better use a chemical heating agent instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "港区·教室",
+			say = "Port - Classroom",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "黑板空间不足时，每次都要重新擦干净，这动作既麻烦又容易吸入粉笔尘。",
+			say = "Every now and then, you've got to clean the blackboard. Not only is that a chore, but you're also at risk of inhaling unhealthy chalk powder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "好，那就发明一块自动脱粉的黑板吧！",
+			say = "That's the problem the Automatic Anti-Specky Blackboard Eraser aims to solve!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "只需要按一下按钮，黑板上的粉尘就会自动脱落，然后被边缘上的风口抽干！",
+			say = "Just press a button and the powered air intakes will clear all traces of chalk as well as suck up any powder residue on the blackboard's rim!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,11 +646,11 @@ return {
 			},
 			options = {
 				{
-					content = "感觉好方便。",
+					content = "\"It's so easy that anyone could use it.\"",
 					flag = 1
 				},
 				{
-					content = "要是不小心碰到了按钮……",
+					content = "\"But what if you press it by mistake?\"",
 					flag = 2
 				}
 			}
@@ -664,7 +664,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官喜欢的话，到时候也给指挥室里的黑板添加上同样的功能吧。",
+			say = "Heh! Exactly! And if you want, I could give you one for the blackboard in your office!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然自从有了新型显示器，指挥官好像再也没有用过那块黑板……",
+			say = "Then again... That blackboard hasn't seen any use since you had the new monitor installed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那好不容易写满一黑板的东西……瞬间就没了！",
+			say = "Then it'll erase everything on the blackboard whether you want it or not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说得对，我会加个需要当事人再次确认的安全措施的！",
+			say = "...Without a two-step confirmation mechanism, anyway. I'll be sure to add that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "那之后，我们又去了各种各样的地方。每一个地方，达芬奇都能收获灵感。",
+			say = "Together, we toured many more places across the port. It was a joy to see her get so fired up when she found inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "最后，我们回到了指挥室外——",
+			say = "Now, we're back in my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼哼~没想到今天的收获居然会如此丰富。",
+			say = "Heehee♪ I definitely didn't expect to find this much inspiration all around me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "明明平常一个人的时候不是这样……难道是因为指挥官今天陪在我身边的原因？",
+			say = "If I had to point at what was so different, it's that you were with me the whole day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，今后寻找灵感的时候我可以继续邀请你吗？",
+			say = "When you're with me, I get good ideas left and right. Plus you point out things I would've never noticed myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "总感觉在指挥官的身边，我的思路更加清晰，更容易抓准设计的方向了！",
+			say = "So, I have to ask you a favor – will you tag along from now on whenever I need some inspo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,11 +843,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "\"I'd love to.\"",
 					flag = 1
 				},
 				{
-					content = "我能拒绝么？",
+					content = "\"Do I have a choice?\"",
 					flag = 2
 				}
 			}
@@ -861,7 +861,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就这么决定了咯~",
+			say = "Thanks! I really appreciate it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不能！",
+			say = "You sure as heck don't♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在伊丽莎白女王的操作下，名为「阿瓦隆之门」的人工奇异点已经完全开启了。",
+			say = "Under the instructions of Queen Elizabeth, a new Singularity rose above the waters of Scapa Flow.",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "{namecode:91}低头看向海面，“红日”之下的海水正源源不断倾泻进空洞中，形成了几乎垂直的壮观瀑布。",
+			say = "A steady stream of energy seeped from the ring of light surrounding the gate, evaporating the surrounding seawater into a fine mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "激起的水汽在天空中飘洒，折射着阳光形成了一道若有若无的彩虹围绕在“红日”之边。",
+			say = "In contrast to its intimidating form, a rainbow glistened within the shining mist, like a road stretching beyond the gateway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "这还……………又是出乎意料的景色……………………",
+			say = "My... This is rather unexpected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "这就是铁血的人工奇异点技术么？",
+			say = "Is this based on the Iron Blood's Singularity research? No... this is much more advanced than anything I've seen before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……虽然看现状也能明白，皇家多少也参与其中了。",
+			say = "Judging by the looks on the little queen's face, the Royal Navy seems to have played a part in this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于这个提问，我既不打算承认，也不打算否认。",
+			say = "I'll leave it to your imagination. What I will say is, none of this conflicts with my child's wishes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们刚才提到的，关于“亲自去看看”的部分，和这个人工奇异点有关吧。",
+			say = "I see... I'll also assume that you didn't put on this show just to ask us to close the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不错。阿瓦隆之门将会带我们回到事发的现场，找到那个问题的答案。",
+			say = "Correct. Beyond the Singularity lies the truth of what happened at Scapa Flow, as well as the answers you seek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是要穿过这个看起来就极其危险的空洞对么……",
+			say = "Wait, hold on, this is a bit much to take in all at once... What's the deal with this Singularity, and are you saying we have to go THROUGH it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然。无须担心，之前的行动已经充分证明过这项技术的可靠与安全了。",
+			say = "It is another branch, a world parallel to ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "阿瓦隆之门是米德加尔特之塔的改良版本，虽然体积更小，不过定位更加精准也更加稳定。",
+			say = "But this gateway does not lead directly to another world, but rather a Mirror Sea of sorts that projects the records of the Natural Calculation System.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前那次行动我们的远程观测从途中就断开了，后面的事全都是从你们的报告上读来的。",
+			say = "So if I'm understanding this correctly, it's different from the realm where you retrieved those META ships?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当时在米德加尔特之塔外部发生的战斗和受损情况也没有写入其中。",
+			say = "The only information we have comes from the reports you've given us. How do we know that it's safe to pass through this Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……姐姐，你们的出入口需要有人防守。你和{namecode:96}进去，外面就交给我们吧。",
+			say = "What proof can you offer that beyond this door lies the things that you promised?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "……你不想去见证一下么，可能性。",
+			say = "...I want to see the truth, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你见到了，就等于我见到了。",
+			say = "Then I shall remain here until you return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，那就这样吧。",
+			say = "Suit yourself, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:480}与{namecode:482}也留在这里与重樱的盟友防御斯卡帕湾，等待我们的归来。",
+			say = "Ägir and August von Parseval will remain behind as well then. If the Azur Lane comes, you know what to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。",
+			say = "Understood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里交给我们肯定万无一失，放心去吧~",
+			say = "Hehe. Don't underestimate me, Friedrich der Große. Just who do you think I am?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "喂，伊丽莎白女王，该出发了。",
+			say = "Jintsuu, contact Yamashiro's group. Provide them the instructions on how to get here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才不是就你最着急么？怎么现在又开始面对大海沉思了。",
+			say = "...Will you be coming with us as well, little queen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哼！女王的事，你不用搞得那么清楚！",
+			say = "Of course! And stop it with the little, and the queen! Just Elizabeth will do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "出发吧，出发！",
+			say = "We've already done some preliminary scouting, so follow my lead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "似乎是为了掩盖沉思被打断时的慌乱，伊丽莎白女王突然鼓起气势，孤身一人率先冲向了空洞。",
+			say = "With those words, Queen Elizabeth was the first to disappear through the gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么突然又这么着急……",
+			say = "Man, I'm still not so sure about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "真是个心情阴晴不定的女王，我都有些真心为皇家的女仆队感到悲伤了。",
+			say = "It's fine. She may seem moody and fickle at times, but she is the leader of the Royal Navy for a reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这也能证明，这扇门的安全性是有绝对保证的……",
+			say = "The fact that she went in first should be solid enough proof that it's safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "{namecode:96}，我们也走吧。在进去之后，要全程严格遵循我的指令。可以保留意见，但是要绝对服从命令。",
+			say = "We can trust her for now. Zuikaku, await my instructions once you're inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧前辈，这种事我还是知道的。",
+			say = "Got it, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "在目送{namecode:91}与{namecode:96}消失在视野之中后，{namecode:440}也从容走向了「阿瓦隆之门」。",
+			say = "Akagi and Zuikaku disappeared into the Singularity as well, with Friedrich der Große following right behind them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 499020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………让我们开始吧，奏响铁血乐章的最终章。",
+			say = "At long last, our rondo finally begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

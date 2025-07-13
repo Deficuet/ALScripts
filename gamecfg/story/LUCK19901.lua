@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这感觉真不赖啊，指挥官！我现在甚至有种我什么都做得到的错觉！多谢多谢~",
+			say = "Oh yeah, it's all coming together! Really feeling like I could take on the world right now! Thanks for everything, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "哈哈，我现在迫不及待地想要把大家聚集起来开个大型派对呢！",
+			say = "Y'know, I've been thinkin' it's time to get everyone together and throw the most hype party ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "不过，总觉得还有一些缺憾……嗯……就是说，我感觉我应该还能变得更强一点？",
+			say = "Buuut... Feels like we're not 100% done, y'know? Like we've still got some potential left in me to wring out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 199010,
 			dir = 1,
-			say = "哎呀，不管了，大型派对就等到那个时候好了，今天先开个小派对吧！",
+			say = "So let's put that party to end all parties on hold for now and just have ourselves a medium-sized one instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，记得来参加哦！",
+			say = "I'll do the prep, and you go give that Fate Simulation thing a look, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

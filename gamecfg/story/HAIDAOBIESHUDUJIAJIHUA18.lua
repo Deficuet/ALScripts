@@ -12,7 +12,7 @@ return {
 			actor = 501090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有——人——吗——！！！",
+			say = "Someone! Anyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "救——命——哇——！！！",
+			say = "Help uuus!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "不会有人来救我们的……那时候的预感果然没错，灯塔的地下室是被诅咒的……",
+			say = "Nobody's coming... My gut was right back then. The cellar under the lighthouse is cursed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这个地下室……貌似是储备重要物资的地方。",
+			say = "This cellar apparently is a warehouse for storing important supplies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "你们看这面墙，敲起来只会发出闷闷的声音，应该是厚厚的钢筋混凝土墙吧。",
+			say = "The walls answer with almost a thud when you knock on them. They're probably made of reinforced concrete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这样的话，声音根本传不出去了呢♪",
+			say = "Which is to say, nobody will hear you however loud you shout.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……我们都被困在这里了？！要在这里度过余生什么的，这种事情不要啊！！",
+			say = "So we're, like, trapped?! I don't wanna spend the rest of my life in this dank place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901130,
-			say = "等等！别这么快就下负面结论啊喂！你们有谁带着通讯器吗？",
+			say = "Do not lose hope yet! Does anyone have a communicator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我带了，不过……果然没信号啊~",
+			say = "I do, but guess what – we're out of cell range!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呜呜呜——飞云大人错了，不该带大家到这里冒险的，以后再也不随便冒险了……",
+			say = "Waaahh! It's all Lady Yuen's fault for bringing you along! I'm never going on a risky adventure like this again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "玩、玩大了，没想到真的出不去了……我再也不随便计划了……",
+			say = "I messed up... I didn't expect us to actually get locked in here... I'm never making a plan like this again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "啊啊，我没准备就来探险也有问题……",
+			say = "Part of the blame lies with me for hardly preparing at all before going on this investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前的日子真好呐……现在已经一去不回了……",
+			say = "Farewell, good old days – I hardly knew thee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂喂喂！你们别陷入绝望的氛围里啦，现在还不是放弃的时候！",
+			say = "Straighten up! Don't give up! It's too soon to start wallowing in despair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "可、可是在没有食物的情况下被困，能坚持几天呢……",
+			say = "But there's nothing to eat. We won't even last a few days down here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如在墙上画正字计时吧，每过1分钟画一笔……",
+			say = "Might as well start making tallies on the wall. One for each minute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "一般画正字都是按天算的吧……？",
+			say = "I'm pretty sure it's supposed to be one per day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊，既然大家都放弃了，那就来狂欢吧！我要作首新歌……就叫《末日狂想曲》吧！！",
+			say = "Ahahaha! Since we've already given up, might as well cheer up! I'm gonna make a new song! I'll call it the Rhapsody of the End!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "等等，不要再浪费力气啦！在没有食物和饮用水的情况下，少说少动才能坚持更长时间……",
+			say = "No! Don't squander your energy! When there's no food or water, you should move as little as possible to survive longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "啊啊~这边找到食物了哦♪",
+			say = "Look at that – I found food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……？",
+			say = "You WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就说物资储备仓库不可能没有食品物资嘛！你们看，甚至有自热火锅和自热米饭哦~",
+			say = "It's a supply storage, so of course there's food in here. See? There's instant hot pot and rice. And they're the self-heating kind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actorName = "飞云&伏波&{namecode:524:圣地亚哥}",
+			actorName = "Fei Yuen & Fu Po & San Diego",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………？",
+			say = "Hm?",
 			actorPosition = {
 				x = -555,
 				y = 0
@@ -368,12 +368,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actorName = "飞云&伏波&{namecode:524:圣地亚哥}",
+			actorName = "Fei Yuen & Fu Po & San Diego",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有救啦！！！",
+			say = "THANK GOD!",
 			actorPosition = {
 				x = -555,
 				y = 0
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还没吃过自热食品呢！没有火就能变热的食物！好神奇！！",
+			say = "Never had self-heating hot pot before! Kinda crazy you can make it without fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "有火锅又有米饭！！既然如此不如来开火锅派对吧！！",
+			say = "Since we've got the ingredients for it, let's have a hot pot party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "（啊，这些家伙……转头就把刚才的危机忘得一干二净了啊！）",
+			say = "(Oh boy. They've all already forgotten that we're in dire straits here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，现在应该要计算剩余物资合理分配吧！",
+			say = "Not so fast! We must first take inventory of all the supplies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再合理，我们也会走到尽头的，末日的狂欢……此生只有这一次了……",
+			say = "What's it matter? We're done for anyway! Might as well have our last meal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "一起来开末日的火锅派对吧！",
+			say = "Then let's at least make it a pleasant last meal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "大家又搜刮了一波物资，真的开始认真地布置起了这场在地下室的末日火锅派对。",
+			say = "After gathering all the supplies they could find, the girls began earnestly preparing for their final hot pot party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "呼……呼……热腾腾的火锅和米饭简直太棒了！！……之后就再也吃不到了！",
+			say = "*huff puff*... Having steaming hot pot with rice rules! It just sucks I won't ever have it again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "好吃！这个番茄锅底配米饭好香！！……会是最后一顿嘛？",
+			say = "This tomato broth goes great with the rice! But... is this really gonna be our last meal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "呜呜呜……比想象中好吃太多了……这就是末日来临前的心理作用吗……",
+			say = "Man... It tastes so much better than I thought. Is it 'cause of the psychological effect of knowing this is the end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901130,
-			say = "嗯……嗯……（嚼嚼嚼）不论怎样，（嚼嚼嚼）保证体力才是最优先的！",
+			say = "Om, nom... Wheffeh ih's fhe emd ow noh, confervim youf emergih if effential!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿咻！末日偶像之{namecode:524:圣地亚哥}闪亮登场！",
+			say = "It's time for idol Sandy's final performance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来为大家带来的歌曲是……芝麻——开门——！",
+			say = "This song goes out to you, friends – open sesame!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "吱哐————",
+			say = "CLICK!",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "门……门门门开了？！！是{namecode:524:圣地亚哥}的魔法吗？",
+			say = "W-wait, the door OPENED?! How did you do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们——躲在这种地方——在干嘛？",
+			say = "Why are you all hiding in here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901130,
-			say = "……原来这个门，是朝这个方向就能轻易拉开的吗？",
+			say = "Are you serious?! You can simply open the door from this direction?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呜呜呜……长风姐！！（扑）",
+			say = "Waaahhhh! Chang Fee-hee-heeeng!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "长风姐！我想死你啦QAQ！！",
+			say = "Siiis! I missed you so muuuch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501080,
-			say = "？？？嗯？",
+			say = "...What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501080,
-			say = "你们……是跑到地下室胡闹的时候，意外被关起来了吗……？",
+			say = "Did you get locked inside here, or something? While on an \"adventure\" in the cellar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501090,
-			say = "没有！绝对没有！我们是在里面开火锅派对来着……",
+			say = "N-n-no! We just, uh, wanted to have a hot pot party with our friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "对！对对对！我们还找到了不得了的东西哦！自热火锅超棒的……嘿，嘿嘿……",
+			say = "Um, yeah! We found this incredible thing called instant hot pot, and... Aha... haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501080,
-			say = "呵呵呵……看来……还得再好好管教你们一番呢~！",
+			say = "Heehee. I see you're both in need of a stern lecture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,11 +825,11 @@ return {
 			bgName = "star_level_bg_148",
 			actor = 501070,
 			dir = 1,
-			actorName = "飞云&伏波",
+			actorName = "Fei Yuen & Fu Po",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咿！！！不要哇——！！！",
+			say = "EEK! HEEELP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

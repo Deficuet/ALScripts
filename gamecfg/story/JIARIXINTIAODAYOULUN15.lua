@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "今夜，线人飞云和大青花鱼汇报，邮轮各处再次出现了不可思议事件。",
+			say = "According to our informants, Albacore and Fei Yuen, more mysteries have cropped up all over the cruise ship.",
 			bgm = "login_us_0401",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "受影响的区域包括、水族馆、教室、弹药库等地。",
+			say = "The aquarium, classroom, ammunition depot, and more have been affected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "因此，邮轮不可思议事件特别调查小队再次进行了紧急会议。",
+			say = "Thus, the Cruise Mystery-Solving Investigation Committee holds an emergency meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "咳！感谢大家在百忙之中抽空而来。",
+			say = "Ahem! Thank you all for coming on such short notice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信大家在来的路上已经明白本次特别会议召开的原因了！",
+			say = "I trust you were all briefed on the reason for this emergency meeting on your way here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805030,
-			say = "阿尔萨斯表示诧异……没想到异常事件居然再次发生了。",
+			say = "One admits utmost surprise... How could it happen again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~我就知道没有那么简单！",
+			say = "Heheh. I knew we solved those last three too easily. There had to be more to it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明是七大不可思议事件，怎么可能只解决到第三个就彻底结束了！",
+			say = "After all, it's supposed to be SEVEN mysteries. Three is less than seven!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "那么首先有请一号嫌疑人，玛丽·西莱斯特。关于这件事，你有什么要供述的么？",
+			say = "Now, suspect number one, we'd like your testimony. Do you have anything to say about this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你有权保持沉默，但你所说的话将被记录下来，并作为呈堂证供！",
+			say = "You have the right to remain silent. Anything you say can and will be used against you in a court of law.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "我发誓，新出现的异常事件绝对不是我做的。",
+			say = "I didn't do anything this time! I swear on my afterlife!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "你们想，飓风船团已经成功“劫船”。我的目的已经达成，根本没必要继续藏下去了。",
+			say = "This cruise has already been hijacked by Tempesta, right? We did what we came here for. Why would I have anything left to hide?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "况且……恶作剧既然已经被发现了，再继续进行下去岂不是太自讨没趣了？",
+			say = "Besides, you got me on my pranks already. I'm not stupid enough to keep trying.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "嗯——很有道理。",
+			say = "Hmm... You do have a point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "……也就是说，这次是——真正的不可思议事件！",
+			say = "In that case... Is this one a real mystery?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601090,
-			say = "或者说……还有另一个人在幕后捣鬼。",
+			say = "Or could there be another mastermind lurking in the shadows?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（之前就隐隐有这种感觉……果然是这样么。）",
+			say = "(I had a feeling already. This seems to confirm it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,14 +319,14 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于这个幕后捣鬼的人，我还有一些要确认的事。",
+			say = "I'd like to confirm a few things about the chance of someone else pulling the strings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于第一件要确认的事……",
+					content = "The first thing I want to ask is...",
 					flag = 1
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 0,
-			say = "玛丽，你知道“无法逃离的走廊事件”么？",
+			say = "Mary, have you heard the rumors of an inescapable corridor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "无法逃离的……走廊？那是什么。",
+			say = "Inescapable corridor... Nope. First I've heard of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之前我们在调查中，发现居住区的某条走廊会出现使人迷失方向的浓雾，那个是你做的么？",
+			say = "During our previous investigation, we discovered a certain corridor in the cabin quarters where thick sea fog caused people to lose their sense of direction. Did you set that up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "唔……不是。",
+			say = "Hmm... Nah, doubt that's me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "我虽然在因为寻找食物的原因多次经过了走廊，不过并没有在那里释放海雾作掩护，毕竟我也不需要。",
+			say = "I went through plenty of corridors when I was looking for food, and I didn't make any fog to throw people off. Never needed to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,14 +416,14 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……果然。",
+			say = "I thought so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于第二件要确认的事……",
+					content = "Next, I want to ask you...",
 					flag = 1
 				}
 			}
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "埃塞克斯，如果在和我去露天水吧喝一杯与作为侦探继续调查事件中二选一，你会选哪个？",
+			say = "Essex, if you had to choose between joining me for a drink at the open bar or continuing your work as a detective, which would you choose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "当然是和你去露天水吧喝一杯~这个还用选么！",
+			say = "I don't even have to think! I'd choose going to the bar with you, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……我了解了。",
+			say = "Hmm... Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（然后……还有一件无法在这里进行求证的事。）",
+			say = "(Now... We can't answer the last question here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（关于那张在最开始发现的，只能辨认出“遥远”和“敬上”的字条。）",
+			say = "(It's about the very first mystery – that note that said \"come\" and \"afar.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（或许……我已经知道另一个在背后捣鬼的人是谁了。）",
+			say = "(No... I might just have my guess already.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……现在还缺少证据，再继续观察一下吧。）",
+			say = "(But I lack evidence. I'd better observe for a little longer.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

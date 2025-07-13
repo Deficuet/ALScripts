@@ -15,7 +15,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "滴滴滴，现在插播一条重要消息！",
+			say = "I, I found something!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "现在前方出现了一处正在战斗中的区域，而在区域的中心，你们猜我发现了什么~",
+			say = "There's probably still a battle going on around here! Just look at all the fresh wreckage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "更多的残骸……？",
+			say = "Right-o! Over here, everyone! Wait, what the heck, is there even more rubble and debris than before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "这个是当然的吧！",
+			say = "Of course! That's the proof that we're getting closer to the middle of the action!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怪兽……之类的？",
+			say = "Think we'll run into an actual monster?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "并没有看到类似的存在哦~",
+			say = "Th-there's no such thing as monsters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那究竟是什么，别卖关子了，{namecode:468}。",
+			say = "Then what is it, Elbe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哼哼，是一个倾泻着大量火力却无法被雷达捕捉的目标哦！",
+			say = "Well, whatever it is, it's not showing up on my radars, it's fighting against the Sirens, and it's freakin' powerful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "火力凶猛却无法被雷达捕捉……那岂不就是——",
+			say = "That can only mean one thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "META，我们的目标终于出现了！",
+			say = "META is here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

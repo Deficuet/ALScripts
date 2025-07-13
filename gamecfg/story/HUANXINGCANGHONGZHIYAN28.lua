@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
-			say = "一段时间后，{namecode:161:天城}不但平安归来，身后还多跟着一个人。",
+			say = "Slowly but surely, the Amagi sisters return to us.",
 			bgm = "theme-amagi-cv",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "事情都解决了？",
+			say = "Manage to talk things through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "…………",
+			say = "Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "顺利解决，多谢{playername}阁下留出的时间与空间。",
+			say = "Heehee. Indeed, all's well that ends well. Thanks for your time and understanding, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不客气，不过，接下来我们没有多少时间可以浪费了。",
+			say = "Speaking of time, that's not something we have a lot of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "一切全凭阁下安排。",
+			say = "In that case, please give us your instructions~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 305070,
-			say = "嗯……？",
+			say = "Akagi? You're still alive?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "{namecode:161:天城}大人，这到底是怎么回事！",
+			say = "Amagi... What in the world is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "她到底是……",
+			say = "I thought Akagi was devoured by her META self...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "她，就是我的妹妹，你们所认识的{namecode:91:赤城}。",
+			say = "Nope. This is the same Akagi that we've always known.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "那个形如{namecode:91:赤城}之物，终究只是被创造出来的幻影，无法长期存在。",
+			say = "The \"META\" we saw was but a temporary state. Without a concept to anchor itself to, it cannot persist for long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "于是她选择抓走了{namecode:91:赤城}，并在即将消失前附着在了她的身上。",
+			say = "Which is why it possessed Akagi and took control of her will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "之后的事，诸位就都知道了。",
+			say = "But after exhausting its power during the course of battle, Akagi's consciousness naturally returned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "经过刚才的战斗后，其残留的最后力量耗尽，{namecode:91:赤城}原本的意识因此而得以苏醒。",
+			say = "And thanks to that, I was able to carry out the Commander's plan and bring her back to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……抱歉，给诸位添麻烦了。",
+			say = "Everyone... I'm so, so sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是虚惊一场……没关系没关系！前辈没事就好！",
+			say = "Wow, what a crazy turn of events! But right now, I'm just glad you're back in one piece!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "嗯……{namecode:91:赤城}前辈，您平安回来就好！",
+			say = "And Amagi too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "果然是……净化之炎！",
+			say = "So, it was your purifying flames...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不，{namecode:182:信浓}，这个真不是……！）",
+			say = "(Err, sorry, Shinano, but there's a bit of a misunderstanding here...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "呵呵，{namecode:182:信浓}阁下这样的性格也是十分有趣呢。稍后我去解释下吧~",
+			say = "(Heehee. Don't worry, Commander. I'll explain things to her later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "对了，{playername}阁下，刚才我在“净化”{namecode:91:赤城}·META的过程中，有了些意外发现。",
+			say = "Oh right, Commander. I found something while purifying the META corruption's remnants...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "不知道，你可知此物的用法？",
+			say = "Might this be something useful to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}轻轻挥手，从衣袖之中飘出了两个光团。",
+			say = "Amagi waves her hands gracefully, and two tendrils of light start to flow from her sleeves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个是……",
+			say = "What is this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（{namecode:161:天城}和{namecode:92:加贺}的灵魂数据……或许正好是她们所缺失的部分。）",
+			say = "(Data pertaining to Amagi's and Kaga's souls. With this, we will be able to fully restore them with all their prior memories and experiences.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……怪不得选择进攻的是测试者的主机。）",
+			say = "(It makes sense now. So that's why that META targeted Tester's mainframe.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（你先收下来，我在处理完返航的安排之后，抽空处理。）",
+			say = "(Go ahead and store it somewhere safe. I'll deal with rebuilding their hulls later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……没想到真的会有奇迹发生。）",
+			say = "(Looks like miracles do come true after all, huh?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（返航安排还顺利么？）",
+			say = "(By the way, how's the escape route coming along?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（不用担心，十分钟后出发。）",
+			say = "(Everything looks good. Give me ten more minutes.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（——很好，任务顺利完成，许可返航！）",
+			say = "(Alrighty, another good deed in the books. Time to go home!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（噗……）",
+			say = "(Seconded.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

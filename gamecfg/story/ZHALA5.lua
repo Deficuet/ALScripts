@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>五 恶魔的耳语</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 5: Devil's Whispers</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到休息时间了哦，稍微喘口气吧，指挥官",
+			say = "Break time, Commander. Put your work down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么想让{namecode:526}帮你做的吗？不用顾虑太多，什么事情都可以的",
+			say = "Hehe... Is there anything your secretary can do for you? Just say the first thing on your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			},
 			options = {
 				{
-					content = "让{namecode:526}帮忙掏耳朵",
+					content = "Ask her to clean your ears.",
 					flag = 1
 				}
 			}
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？掏耳朵吗？我可以试试的",
+			say = "Huh? Clean your ears? I guess I can try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这样子应该就能够看到一点不一样的她了吧",
+			say = "I figured this was a good way to see another side of Zara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=30>呼呼~</size>",
+			say = "<size=30>Hehehe~</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，就先请指挥官躺在我的腿上吧。不要紧张，放轻松。",
+			say = "Now then, come rest your head right here on my lap. Don't be nervous, just relax.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，还请戴上这个。",
+			say = "Ah, that's it, and put this on for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "眼罩？虽然不知道有什么玄机，还是按照她的要求戴上了。",
+			say = "It was an eye mask. I didn't know what she was up to, but I decided to go along with her anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +195,8 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "{namecode:526}",
-			say = "那么，我要开始了。指挥官，不要动哦~",
+			actorName = "Zara",
+			say = "Alright, here we go. Don't move, Commander~",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "似乎有什么坚硬的金属碰到了耳朵。",
+			say = "I felt something hard and metallic press against my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "掏耳棒的摩擦感在耳边慢慢回转着，随后渐渐深入耳朵内。",
+			say = "Zara's earpick made slow gentle circles around the edge of my ear, before gently making its way inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "耳道被异物进入的排斥感，和掏耳棒在耳道上摩擦的愉悦感交织在一起，带来一种不可名状的体验。",
+			say = "The contrast of my ear rejecting a foreign object against the tingly pleasure of the earpick sliding through my narrow ear canal was an indescribable experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "金属最后在似乎是耳道底的地方停了下来，慢慢地回转起来。微微旋转着的轻微摩擦感，似乎像是挠痒痒一般，刺激着里面最敏感的神经。",
+			say = "The earpick rubbed up against the deepest part of my ear, where Zara started to slowly and gently twist it around. The tiny circular motions lightly tickled the sensitive nerves near my eardrum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "愉悦感渐渐传到了深处，酥酥麻麻的感觉很快袭遍整个头皮。由于视觉被剥夺，这种感觉愈发强烈，加上另一边丝织品的触感，让人飘飘欲仙。",
+			say = "Waves of pleasure surged from my ear, washing over my brain and sending tingles out over my entire head. With my vision blocked by the eye mask, the feelings were only that much more intense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,65 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "自己的意识似乎正慢慢下沉……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			actorName = "{namecode:526}",
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			say = "不~行~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			blackBg = true,
-			say = "？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			blackBg = true,
-			say = "带着呼气的耳语瞬间顺着前面的快感占据了整个大脑，让我脖子以上的所有神经高鸣起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			blackBg = true,
-			say = "突然意识到，自己仿佛一只落入陷阱的小鸟，只能任由{namecode:526}摆布。",
+			say = "I began to lose consciousness as I drowned in the soothing joy of Zara's ear cleaning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,11 +318,69 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "{namecode:526}",
+			actorName = "Zara",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "在享受完{namecode:526}的服务之前，指挥官可不能睡着哦？",
+			say = "Nau~ghty~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			blackBg = true,
+			say = "Huh?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			blackBg = true,
+			say = "Her breathy whisper flooded my brain with pleasure, making every nerve from my neck up cry out in ecstasy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			blackBg = true,
+			say = "I suddenly realized I had once again played right into Zara's hands. She had me trapped, completely at her mercy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			actorName = "Zara",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			say = "Commander, you're not allowed to fall asleep until after I'm done. Okay? Hehehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

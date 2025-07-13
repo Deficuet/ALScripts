@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "奇异点「奈落」·周边海域",
+			say = "Naraka - Surrounding Waters",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "指挥舰正在接近目标区域。在这个距离下，奇异点奈落所散发出的血红色已经清晰可见了。",
+			say = "Naraka's blood-red color becomes clearly visible on the horizon as my command vessel draws closer and closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "不久前，幸存的重樱舰队已经从大结界的缺口处成功撤离到了安全海域，{namecode:74:长门}也成功稳定住了{namecode:91:赤城}的情绪。",
+			say = "Thanks to Musashi, a crack has appeared on its surface, large enough for several Sakuran shipgirls to exit through. They've grouped up with our fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,19 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一路之上，我们针对现状与即将要面对的危险进行了深入的情报交换。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（重樱在本次事件中的损失，远比我的预期中要大。）",
+			say = "Their reports have provided me with enough intel to figure out what's happening inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +71,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然重樱舰队在发现无力抵抗侵蚀影响时便转换了思路，成功保存了有生力量。）",
+			say = "(Akagi tried to revive Amagi, but her longing was twisted by some unknown force, and used to open the Naraka Singularity.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +83,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（但依然有包括{namecode:84:武藏}、{namecode:82:三笠}、{namecode:92:加贺}在内的一众重樱高层、三成以上的舰船以及几乎全部量产型被摧毁。）",
+			say = "(Seeing how far the corruption had spread, Mikasa and Musashi immediately switched to their backup plan and took people to Yakumoyama for their safety.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +95,19 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（——当然，这一切都在海伦娜的预期内。）",
+			say = "(However, the casualties have been immense. Kaga has disappeared, a third of their shipgirls including Mikasa and Musashi are incapacitated, and nearly all of their mass-produced ships have been destroyed or taken over by the corruption.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(It's hardly any different from the projected worst-case scenario... If only I'd known sooner.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "在与重樱核对损失时，你会发现她们的损失大到了一个令人瞠目结舌的程度。",
+			say = "Indeed, the Sakura Empire's fleets have taken catastrophic damage.",
 			bgm = "story-startravel",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这就是奇异点奈落危险性的最直观体现。",
+			say = "This is the most proximal threat posed by the Naraka Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不过无需担心，重樱内部还是有一个正常人的。",
+			say = "Fortunately, someone among their highest echelons managed to foresee this situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是指……？",
+			say = "You mean...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:83:大和}。",
+			say = "Yamato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "在重樱的领导层中，{namecode:39:神通}给予最高评价的就是{namecode:83:大和}了。",
+			say = "It's little wonder why Jintsuu META spoke so highly of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这一次，她也果然没有令人失望。",
+			say = "Sure, Mikasa and Musashi came up with emergency plans as well, but she was a step ahead of even them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "在奈落出现前后，她在情报受限、行动亦受限的情况下，凭借正确的布局做了一系列完全正确——甚至超出我预期的举动。",
+			say = "\"A step ahead\" is underselling it, actually. With the limited intel she's had access to, she has done almost everything right before and after Naraka appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "正是因为这一系列行动，让重樱在本次奈落之中所产生的所有“死亡”都有了挽回的余地。",
+			say = "It's thanks to her that those who were caught in Naraka were able to be saved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……“死亡”……有挽回余地？",
+			say = "Saved? You mean from hull corrosion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "心智魔方损坏的瞬间，其中的信息会同步消散，才会导致舰船的真正死亡。",
+			say = "When a foundational hull sustains too much damage, the data inside it disperses, eventually leading to the shipgirl's death both as a vessel and as a \"person\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "可是，如果本应消散的信息被保留下来了呢？",
+			say = "But what if all that data – their feelings and memories – or in other words, their \"soul\", could be safely preserved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "心智魔方损坏……但信息被保留了下来……这怎么可能？",
+			say = "What are you suggesting? That as long as their individual identity remains, they can be healed? That can't be true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你忘记{namecode:91:赤城}在复活{namecode:161:天城}的仪式中所使用的，{namecode:161:天城}的“灵魂”了么？",
+			say = "That's exactly what a \"soul\" is. It's also what Akagi attempted to use in her ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "总之，这些问题回头再解释。",
+			say = "A union between a vessel's concept and a person's memories. By using this information as the basis for a \"soul,\" it is possible to reconstruct the existence known as Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你现在只需要知道，一切的关键都在于{namecode:161:天城}的复活。",
+			say = "And herein lies the crux of the matter. Everything about Naraka is related to the existence of Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "只要计划能顺利进行，一切问题自然会迎刃而解的。",
+			say = "So, as long as the plan proceeds smoothly, all else will fall into place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（目前，总算是稳定住了{namecode:91:赤城}，开始与重樱商讨执行计划的事了……）",
+			say = "(Then we worked out the details of the plan for dealing with Naraka...)",
 			flashout = {
 				black = false,
 				dur = 0.5,
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "指挥官，在本次行动中，奇异点奈落、观察者，以及“你”是三个至关重要的要素，缺一不可。",
+			say = "There are three critical pieces to this plan, Commander. You, Observer, and the Naraka Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "奇异点奈落，是以重樱的神石海若为核心，基于元魔方的力量诞生出的奇异点。",
+			say = "See, Naraka was created with the power of an Origin Cube, using the Watatsumi as its core.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "其依然具有神石，即通古斯陨石样本所具有的性质——同化周边环境，以及化“梦想”为“现实”。",
+			say = "Therefore, it has the same properties as the Watatsumi – the same properties as the meteorite that struck the Northern Parliament so long ago. It has the power to merge with its surroundings and turn dreams into reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "在这一点上，{namecode:91:赤城}之前的思路是正确的，我们也要沿用这条思路。",
+			say = "We can use this to our advantage. Akagi was on the right track, so we will employ the same method as her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,47 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过，与她使用被侵蚀的{namecode:161:天城}灵魂信息不同，我们的手段要高明和可靠得多。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 900315,
-			say = "在这么多年与塞壬打交道的过程中，你应该听说过“自然进化演算系统”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900315,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "这个系统，是安蒂克丝执行审判者计划的核心，也是其最重要的设备之一，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900315,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "系统的主机由观察者零直接管理，谁也不知道其具体存放位置。",
+			say = "Only, we will be using far more sophisticated and reliable data instead of the corrupted soul she had to work with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +498,47 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不过，每一个实验场的观察者都有与该系统连接的权限，这也是观察者能够完全掌控实验场的根本原因。",
+			say = "In all your years of dealing with the Sirens, you should already be familiar with the Natural Calculation System, yes?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900315,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "It is the beating heart of the Magister's plan, and the Antiochus' most important piece of equipment.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900315,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "Observer Zero personally oversees its use, and nobody knows where the machine itself actually is.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 900315,
+			say = "However, every Observer has permission to connect to it. That's how she gains full control over the test sites she oversees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "否则，实验场β的观察者就是下场。",
+			say = "When an Observer doesn't access the system, she ends up like the one in your branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "本次行动中，我们需要让观察者重新连接自然进化演算系统，依靠该系统，创造出一段往昔世界指定区域的「世界切片」。",
+			say = "I'm getting sidetracked. In short, we will reconnect Observer to the Natural Calculation System to create a world segment based on records of the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而后将这段往昔世界的切片投射到奈落中，使其变为奈落之中存在的“投影”。",
+			say = "Then, we will project this world segment into Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这样，我们就可以通过进入奈落的方式，进入世界切片之中了。",
+			say = "What this means is that upon entering Naraka, we will be able to step into this world segment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "至于复活{namecode:161:天城}所必须的灵魂信息，从世界切片中直接获取就好。",
+			say = "From there, we will retrieve the information needed to reconstitute Amagi's soul, in that realm frozen in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……就这么简单？",
+			say = "Sounds simple enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那岂不是……我们可以用这种方法复活任意一个因为心智魔方损坏而消逝的舰船了？！",
+			say = "If this works for Amagi, can we do the same for others who've had their hulls corroded or damaged?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "很遗憾，并非如此。",
+			say = "I'm afraid not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "奇异点奈落的核心是重樱的神石海若，而其诞生的原因，来自于{namecode:91:赤城}多年来的执念。",
+			say = "The factors at play here – Naraka, Watatsumi, the Origin Cube, and above all else, Akagi's strong emotions – give shape to what is possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "而{namecode:91:赤城}执念的根源，只有{namecode:161:天城}。当然，这里稍微拓展一下到所有她在意的人也可以。",
+			say = "Amagi is Akagi's principal fixation. Of course, one could argue that this extends to the other people she cares about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "但总之，“任意一个人”是不可能的。",
+			say = "But at the end of the day, it is not something that can be done for everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而且这一过程，必须由你亲自带队进入，亲自执行才能成功。",
+			say = "Moreover, you personally have to be the one to recover her data and lead the fleet through what's inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "更不用说奇异点奈落本身对于世界的危险性了。",
+			say = "One last, but important thing – if you don't deal with Naraka, the corrosion it has attracted will leak past the Prime Barrier and eventually consume your whole branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "在你进入奇异点后，所有舰队必须死守奇异点外部，不停削弱它的力量，防止其将污染向外扩散。",
+			say = "While you're inside recovering the data, those outside the Singularity will need to guard the gaps to prevent the corrosion from spreading. Even if it costs them their lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "同时，还必须有另一队人承受着侵蚀进入原本的奈落之中，追踪在测试者主机被摧毁后逃入其中的{namecode:161:天城}伪物。",
+			say = "Beyond that, you will also need to lead a separate fleet into Naraka to defeat the twisted amalgamations of Amagi birthed within the Singularity, and \"release\" her concept once and for all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "目前在实验场β中，{namecode:161:天城}已经死亡的现实已经被{namecode:91:赤城}成功扭转。",
+			say = "Keep in mind that Akagi has already successfully overturned Amagi's death in this branch. It is no longer possible to erase people's memories of the imposter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "但是，其创造出的伪物同时占据了「{namecode:161:天城}」的概念。",
+			say = "For the true Amagi to return, you will need to destroy this concept in its entirety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "如果不除掉伪物，我们就无法真正将属于实验场β的{namecode:161:天城}复活。",
+			say = "...We're lucky that Akagi has a soft spot for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "但是，也不用太担心~这支小队的行动虽然危险，不过我已经有了安排。",
+			say = "If you weren't here now, your branch's odds wouldn't look as optimistic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "至于安排的内容——先留个悬念，你一会就知道了~",
+			say = "Ahem... I'll put together a fleet to help you deal with the amalgamations. In the meantime, assemble the team you plan to take with you into Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（海伦娜的话语仍然清晰在耳。她给过来的计划，也已经反复阅读了好几遍……）",
+			say = "(Contain the corrosion, eliminate the false versions of Amagi, and recover the real Amagi's hull data. That's the operation we drafted.)",
 			flashout = {
 				black = false,
 				dur = 0.5,
@@ -857,7 +857,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（依靠自然进化演算系统的力量，这项计划看上去确实十分具有可行性。）",
+			say = "(The fact that we'll be using the power of the Natural Calculation System to enter a superimposed world segment seems almost inconceivable still...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是有几个最为关键的点，海伦娜写的含混不清……）",
+			say = "(Then there's my role in this. How exactly do I go about collecting this hull data, and reconstituting the true Amagi's concept?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（被占用的「{namecode:161:天城}」概念，还有需要“我”亲自去做的事……）",
+			say = "(There are still too many uncertainties.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -906,7 +906,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，打扰了。",
+			say = "Commander, is everything fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}的情况如何了？",
+			say = "Yeah. How is Akagi holding up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}的情绪再次稳定了下来，可以进行下一轮会谈了。",
+			say = "She's a lot calmer than before, but she still refuses to be cleansed of the corrosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她还是拒绝净化身上的META化侵蚀么？",
+			say = "She must be going through a lot, seeing as she hasn't come to see me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是。",
+			say = "Yeah, seems that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,7 +968,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……那就暂时先这样吧。",
+			say = "...Let's give her some space for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有一件事，在{namecode:74:长门}和{namecode:91:赤城}此前的交谈中，我们发现了双方存在情报差异的情况。",
+			say = "One more thing. While getting testimonies from Akagi and Nagato previously, we noticed that some information didn't line up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如，{namecode:74:长门}提到了自己被袭击，而{namecode:71:比叡}代替自己被抓走了，可是{namecode:91:赤城}却表示她没下过这个命令，也根本不知道这件事。",
+			say = "For example, Nagato mentioned that she was attacked in the Pacific and Hiei was abducted in her place, but Akagi denied knowing about this and said she ordered no such attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,7 +1007,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而在{namecode:74:长门}询问{namecode:91:赤城}为什么要占领测试者主机的时候，{namecode:91:赤城}依旧表示她不知道这件事。",
+			say = "Akagi also said she knew nothing about the impostors' attempt to hijack Tester's mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……那个诡异的狐面{namecode:161:天城}果然拥有自我意识，其行动的一部分是出于自身的某种意图……",
+			say = "In other words, they're not a reflection of Akagi's will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,7 +1031,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来另一支行动小队在应对她的时候需要更加小心了……",
+			say = "We'll need to be extra careful when we face them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……指挥官，我们真的要和观察者合作么？",
+			say = "Hey, by the way... Is it really a good idea to work with Observer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}就是在和观察者合作后，才一步一步变成了今天的样子……",
+			say = "Bismarck and Akagi did the same once, and look how that turned out for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我有点担心……",
+			say = "I'm not accusing you of anything, I'm just concerned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,19 +1083,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "虽然在第一时间没有和孟菲斯说与观察者进行合作的事。可是随着部署的深入，这终究是个绕不过去的话题。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我和你一样，完全不相信观察者。",
+			say = "Memphis isn't alone in that regard. Others looked anxious when I briefed them on the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,7 +1095,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过我相信海伦娜·META，而且我相信她一定给观察者开出了一个它无法拒绝的条件。",
+			say = "It's not that I trust Observer. She's no ally of mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,7 +1107,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次行动一定会顺利的。",
+			say = "However, I do trust Helena META, and I believe this arrangement with Observer will save us.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Sure, it's a risky deal, but it's what we need right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,7 +1133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "可……再怎么说，也不用你亲自带队去吧，实在太危险了……",
+			say = "Okay, but do you, personally, really need to enter the Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,7 +1145,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜·META说，必须由我亲自去才能完成这次行动。",
+			say = "I do. It has to be me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1158,7 +1158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……理由呢？",
+			say = "Why? Because Helena said so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,7 +1170,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "理由她还没说，不过我相信她。",
+			say = "That's not the only reason. Akagi and many Sakurans are counting on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,7 +1183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,7 +1198,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……海伦娜，海伦娜，你就那么相信她么。",
+			say = "Helena, Helena, Helena... Why do you trust her so much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1210,7 +1210,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？你刚才说什么，我没听清。",
+			say = "Pardon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1223,7 +1223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是说！指挥官，我也相信你！",
+			say = "Oh, sorry! What I meant to say is that I trust you, Commander!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -1237,11 +1237,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -1255,7 +1255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？联络人自称是……重樱的{namecode:133:水无月}？",
+			say = "A call? And from Minazuki of all people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她是谁……怎么会有指挥舰的联系方式？",
+			say = "Why is she calling you? How did she reach your command vessel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1280,7 +1280,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她……是{namecode:83:大和}的人。这件事我来处理吧。",
+			say = "In all likelihood, that's Yamato speaking through Minazuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1293,7 +1293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……？好。那和{namecode:91:赤城}的会谈怎么办？",
+			say = "Oh, I see. Should I notify Akagi about this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1305,7 +1305,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}那边的话……",
+			say = "Well, when it comes to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1319,7 +1319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "指挥官阁下，这位就是{namecode:91:赤城}。",
+			say = "Akagi, I'm putting you through to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1356,7 +1356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:91:赤城}，这位是碧蓝航线的指挥官。",
+			say = "Commander, this is Nagato. I've rescued Akagi and Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}，自构建者主机战一别，好久不见。",
+			say = "Akagi? Can you hear me? Are you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是你。",
+			say = "Comman...der...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1397,7 +1397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你现在来做什么，看我笑话么？",
+			say = "Forgive me... I've made a grave mistake... I'll never...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "还是说，你是来跟我讲笑话的？",
+			say = "I... You must abhor me for the things that I've done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,7 +1423,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……？）",
+			say = "Calm down, I'm not going anywhere. I'm coming to see you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1438,7 +1438,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐已经不可能复活了，这一点没有人比我更清楚。",
+			say = "Kaga's gone... Amagi's never coming back... And now, there won't even be a place for me to go back to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1453,7 +1453,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你现在突然跑过来说这些……只是单纯想找个借口介入重樱的事务吧？",
+			say = "I've betrayed everyone and everything... just to open this Singularity. It's too late now. Even for someone like you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1468,7 +1468,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我反正也无力善后了，你自便。",
+			say = "I'm sorry... All I wanted was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1482,7 +1482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "赶紧把奈落关了，让这场噩梦结束吧……",
+			say = "Please... Put an end to this nightmare...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1494,7 +1494,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……？？？）",
+			say = "I will. I promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1506,7 +1506,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……算了，再让她冷静冷静比较好。",
+			say = "(I've tried to comfort her the best that I can, but words can only do so much for wounds of the heart.)",
 			flashout = {
 				black = false,
 				dur = 0.5,
@@ -1541,7 +1541,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你先把作战计划书发她，一会再和她谈。",
+			say = "(Unfortunately, all I can do is to be there for her as she navigates through her own trauma.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1553,7 +1553,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，告诉她，完成META化净化是执行行动的必要条件。",
+			say = "I'll try again later to persuade her to have the corrosion cleansed. It's too dangerous to leave it unchecked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1567,7 +1567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好的，明白。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1579,7 +1579,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:83:大和}此时前来联络，难道是……出现了什么变故么。）",
+			say = "(Why would Yamato be contacting me now? Did something unexpected happen?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1587,11 +1587,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -1604,7 +1604,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我是碧蓝航线的指挥官。{namecode:133:水无月}小姐，请问有什么事找我么——",
+			say = "Minazuki, it's me. Would you mind putting Yamato on the line?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

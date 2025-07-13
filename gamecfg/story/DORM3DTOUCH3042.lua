@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "七夕……？安克雷奇……不懂！但是，要和{dorm3d}……一起……！对么……？",
+			say = "Qixi...? Anchorage doesn't know it! But I get to be with you...! Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

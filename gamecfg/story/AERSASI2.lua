@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>二　秘书舰当然不在话下……？</size>",
+					"Emotional Overload\n\n<size=45>2 It's Okay, One is the Secretary</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在阿尔萨斯前来报到后，向她简单地说明了今天的工作。",
+			say = "I brief Alsace on her responsibilities today as my new secretary.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯明白了。指挥官就放心地交给阿尔萨斯吧。",
+			say = "Understood. Rest assured, one shall handle these tasks competently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~哼哼~♪",
+			say = "Hmm-hm-hmm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女哼着自创的曲调，在属于自己的座位上坐下后，正式开始了她的工作。",
+			say = "She takes a seat and gets to work as she starts humming a distinctive song.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "阿尔萨斯将各类文件处理地井井有条，在她的协助下，工作效率确实提升了不少。",
+			say = "She has gracefully sorted out my disorganized paperwork. Already, my working efficiency has shot through the roof.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（看来任命阿尔萨斯为秘书舰是个明智的决定。）",
+			say = "(Appointing her as my secretary was a brilliant move on my part.)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（不过为了避免她在兴奋下努力过头……还是让她休息一下吧。）",
+			say = "(Having said that, there is such a thing as working TOO hard. She needs a break.)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "阿尔萨斯？差不多该休息一下了。",
+			say = "Alsace, I think it's time you took a break.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休、休息？阿尔萨斯现在是高效率秘书舰模式，完全不累不需要休息哦！",
+			say = "Pardon? One is operating in maximum secretary proficiency mode. One has no need for breaks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯，上午的工作你已经出色地完成了。要注意劳逸结合，努力过头也不好。",
+			say = "You finished your morning work in a flash. I'd like you to pace yourself so you don't burn yourself out.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯明白了。不、不过，指……指挥官这是……在夸、夸奖阿尔萨斯吗……？",
+			say = "Understood. C-Commander, um... should I interpret that as praise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像这样夸奖阿尔萨斯的话……情感模块会……啊啊……！",
+			say = "While I love to hear praise from you, I'm afraid... m-my emotion module can't... handle it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在少女的自言自语中，指挥室中的温度骤然开始上升。",
+			say = "All of a sudden, the temperature in the office starts to skyrocket.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯……先冷静下来！",
+			say = "Whoa, whoa! Take it easy!",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -279,7 +279,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对、对不起！阿尔萨斯要……先切断一下视觉和感知模块……",
+			say = "S-sorry! I need to disable my vision and perception modules...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "阿尔萨斯在说完后便低下头陷入了一段时间的沉默，指挥室内的温度也开始下降。",
+			say = "She hangs her head and falls silent. At the same time, the office starts to cool down.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -319,7 +319,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "等到再度抬起头时，她的声音已经恢复了最初的镇定。",
+			say = "A while later, she raises her head again, her tone of voice indicating that she's regained her composure.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -335,7 +335,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，指挥官，刚刚是阿尔萨斯失态了。",
+			say = "Forgive this one for losing one's composure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为道歉，阿尔萨斯这就去帮指挥官拿冰镇汽水过来。",
+			say = "As atonement, one shall fetch you a cold can of soda at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说完后，阿尔萨斯便马上起身。等到她再回来时，手上已经多了一瓶冰汽水。",
+			say = "She rises to her feet and swiftly leaves my office, returning just a short while later with a can of soda in hand.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "谢谢。",
+			say = "Thanks.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "从少女手中接过汽水时，不知为何感受到了一股充满期待的视线……",
+			say = "As I accept the can from her, I get the feeling that someone is staring daggers through me.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（嗯……？为什么隔着面具也能感受到阿尔萨斯的目光……？）",
+			say = "(That's weird... Is it her looking at me, from behind that mask?)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "出于这种奇妙的感受，忍不住仔细打量了一下戴着面具的阿尔萨斯。",
+			say = "Spurred on by that strange hunch, I turn my gaze to her – and unknowingly stare daggers through HER this time.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -427,7 +427,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官……指挥官看了阿尔萨斯……16秒……17秒……",
+			say = "Y-you've been looking at me for 16 seconds... 17...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "阿尔萨斯……？",
+			say = "You okay?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -455,7 +455,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行不行不行不行……这种距离和强度……阿尔萨斯要……撑不住了！！？",
+			say = "Oh no, oh no... This distance and intensity, it's... It's too much for meee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

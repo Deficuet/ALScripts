@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>轰鸣的银轮</size>",
+					"Port Fashion Collection! Racing Special\n\n<size=45>1 Moonlit Chrome</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官，妾身现在这样的姿势。",
+			say = "Mmh... Ah... How is this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……如何？",
+			say = "Is this posture... suitable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉已经到位了。不过，或许选用这个姿势的话……效果会更好。",
+			say = "While it works perfectly fine, you could change it a little and see if it's even better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "唔……确如汝所言。那就——",
+			say = "Very well... This one shall do as you ask...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，身着赛车女郎服的{namecode:182}正趴在车顶小心调整着姿势。",
+			say = "Shinano, donning a pit babe outfit, is leaning atop a race car. She's trying hard to find just the right pose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而我则手持相机立于一旁。",
+			say = "Meanwhile, I'm standing just off to the side, camera in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要问事情为什么会变成这样……",
+			say = "How did I end up in this position? Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还要从同意前来应援的{namecode:182}，以及拍照到一半因为急事离开的{namecode:55}开始说了……",
+			say = "Aoba wanted pictures for her newspaper and asked Shinano to pose for some photos. She agreed, but Aoba had to tend to some urgent matter, and so I was the only one left who could do the photography.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "这个姿势……汝觉得如何？",
+			say = "Perhaps... this pose? What are your thoughts...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎，{namecode:182}终于选定了拍照的姿势。",
+			say = "It looks like she's settled on one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "可如{namecode:55}所给的参考图上一般？",
+			say = "It does differ somewhat from the reference pictures...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,14 +197,14 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "That is true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "非常完美！",
+					content = "But it looks perfect!",
 					flag = 1
 				}
 			}
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呼……汝能喜欢就好。",
+			say = "Whew... Very well, if you're certain...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过……这般姿势，稍微有些害羞呢……",
+			say = "Admittedly... this is a tad embarrassing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "也罢……既同意了应援之事，妾身必定全力以赴……",
+			say = "Nonetheless... I will do anything in my power to show support for the racers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，我们就先试着拍几张吧？",
+			say = "Alright. Let's take a few photos and see how they look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "嗯……汝尽管拍吧！",
+			say = "Of course... Take as many as needed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知为何，{namecode:182}突然鼓起了一股气势。",
+			say = "Shinano is bashful but determined. I offer her a few words of encouragement and psych myself up before starting the shoot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "也因此，抓到了一个不错的镜头呢——",
+			say = "Thanks to that, I manage to capture some good photos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

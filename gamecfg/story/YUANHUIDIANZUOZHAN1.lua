@@ -12,7 +12,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "某处铁血港口，数年之前——————",
+			say = "Some time ago, before the incident with Bismarck's Black Cube...",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "抱歉啊……虽说是为了未来铁血的军事进步，不过让你们去参加这种漫长的测试，多少还是辛苦你们了。",
+			say = "Thank you for coming, and forgive me for dragging you into such a time-consuming operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "没关系没关系！身为铁血的一员，这种情况下我们当然义不容辞！",
+			say = "It's all good! We're happy to be contributing to Iron Blood science!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "而且去镜面海域的话，不就能拥有一支供我指挥的舰队了？说实话我其实挺感兴趣的！",
+			say = "Just making sure – we're basically doing an experiment to test the Mirror Sea's functions, yeah? I've always wanted some Pawns of my own to play with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "是的，{namecode:435}大人不用在意我们啦~我们都很乐意能为铁血的舰队发展做出贡献！",
+			say = "You've got nothing to worry about with the one-and-only ME here! I'll do anything for the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你们能这么想真是太好了。",
+			say = "Your readiness is admirable. I'm glad I chose you two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "那在出发之前，关于这场行动还有什么疑问么？我可以尽可能为你们进行解答。",
+			say = "Before we start, do either of you have any further questions? I'll try to give you everything you need to know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "关于行动本身倒是没什么了……就是我们不在的这段时间，你们没问题吧？",
+			say = "We'll be fine for this operation, but... are you sure you don't need us here with a major battle just around the corner?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "听说现在各处局势都挺紧张的，我这艘主力重巡洋舰再远离前线的话，不知道会不会出什么问题……",
+			say = "Everyone has been on edge recently, and I'm worried you might be in danger if we split up our forces too much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "放心，我们已经有了充分的安排，铁血一定会平安无事的。",
+			say = "You needn't worry about that. Neither I nor Iron Blood has anything to fear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "不愧是{namecode:435}大人！那我就放心了！",
+			say = "Alright, if you're sure. I'll focus only on my own mission, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "不过，{namecode:428}呢？明明我这个姐姐都要出发了，她怎么也不来送送！",
+			say = "Oh, also, where's Eugen? I can't believe my own little sister isn't coming to wish me good luck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "难道——还是在闹别扭么~？",
+			say = "Heheh☆ Well, maybe she stayed up late worrying about me and ended up oversleeping or something~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "{namecode:428}她……是我没让她来。",
+			say = "No. She and Hipper are taking part in a different operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "有一些突发任务需要她和{namecode:426}一起去处理一下。放心吧，她在以后会理解的。",
+			say = "Let's just say some urgent business cropped up. I'll inform them of this operation later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "哈哈哈，都跟她说过一万次测试很安全了，她也太过于爱担心啦！",
+			say = "That's probably not needed, right? This Mirror Sea's top secret AND fully explored, and I'm sure she has her own things to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "那{namecode:435}大人，我们就准备出发咯？",
+			say = "In any case, I don't have anything else to ask, so let's get this show on the road!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嗯，准备好之后就出发吧。不过……你们真的没有其他问题了么？",
+			say = "If your preparations are done then you're free to set sail... But I do have one last question before you go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "比如……有关“你们的对手是谁”之类的。",
+			say = "Who'll be playing the enemy this time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "咦？难道我的对手不是{namecode:442}吗？！",
+			say = "I mean, who else but this little dork?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "对啊！我们这次两个人不是一人负责一边么？",
+			say = "Exactly! It's me against the big dork here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "咳……现在请两位打开任务书，翻到第十五页，然后默读一下上面的内容。",
+			say = "...I suggest you take another look at page 15 of the mission briefs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "唔…………等下等下，第十五页……让我看看哦……",
+			say = "Page 15? Okay, let's see... Oh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,11 +369,11 @@ return {
 			side = 0,
 			bgName = "bg_port_jier",
 			actor = 403020,
-			actorName = "{namecode:450}&{namecode:442}",
+			actorName = "Blücher & Z16",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎？！{namecode:442}和我原来是队友么！\n什么！我们原来是一边的么？！",
+			say = "- Hold up, we're on the same side?! - I'm supposed to work together with HER?!",
 			effects = {
 				{
 					active = true,
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你们居然两个人都，完全没看过任务书么……",
+			say = "Please don't tell me you haven't even opened the briefs until now.",
 			effects = {
 				{
 					active = false,
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "…至少什么时候出发和去哪里这些内容我都是看过的啦，哈哈……",
+			say = "I have! I remember every little detail about the operation, where it's taking place, and what the surveys said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "至于其他的……我不是还没看到这么后面嘛！",
+			say = "Although I kinda stopped reading before page 15. Heheh☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 8,
-			say = "我也是！呜呜呜……我精心准备的打败{namecode:450}的计划没用了……",
+			say = "Same here! This means all my efforts devisin' a winning strategy against Blücher was for nothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我也是啊！原本打算在路上花点时间思考策略，到时候给你一个下马威呢！",
+			say = "That makes two of us! I racked my brain sooo hard figuring out my great plan to take you down, and it's worthless now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "唉，你们两个……算了。",
+			say = "No matter. There is still time to explain the rest to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "{namecode:435}大人，我现在有问题了！",
+			say = "Excuse me, question!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "指令书上只写了我和{namecode:442}是一队的，那我们的对手是谁呀！",
+			say = "So if she and I are on the same team, who ARE we fighting against?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "对啊！现在从这里出发的也只有我们两个人而已！",
+			say = "My thoughts exactly! Our names are the only ones in here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "终于等到你们问这个关键问题了——",
+			say = "That's just what I was about to tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "是这样，你们的对手只有一个人。她的名字与舰种目前都属于保密内容，也因此不能在这里与你们一同出发。",
+			say = "Your opponent's identity is sadly classified information at the present. Just think of her as a fellow shipgirl.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "感觉好神秘……那我们什么时候能知道呢？",
+			say = "Teasing us, eh... Alright, so when will we get to meet her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "等到测试开始之后。",
+			say = "After the experiment begins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "演习作战并不是高强度连续进行的，在停战期间红蓝双方之间可以自由聊天，到时候谜题自然会揭晓。",
+			say = "Rest assured, you won't be fighting the whole time. You may also communicate freely with her while the area's facilities are inactive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "我的好奇心也被勾起来了！不知道会是一个什么样的人呢~",
+			say = "Now you've got me excited to see who it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "也许是一个会让你们大吃一惊的人哦。",
+			say = "I'm happy to hear it. You may be quite surprised when you find out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_port_jier",
 			hidePaintObj = true,
 			side = 2,
-			say = "哇哦——那真是太好了！",
+			say = "Interesting... Can't wait to learn more about this new friend of mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "{namecode:435}大人，我们差不多该出发了。",
+			say = "If you're that eager, finish the rest of the briefs so we can get started!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "未知的对手与未知的海域正在呼唤着我们！在我们不在的时候，您一定要多保重哦——",
+			say = "And Bismarck, good luck on your own operation! Say hi for me to any familiar faces you meet! Heheh☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

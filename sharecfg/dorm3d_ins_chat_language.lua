@@ -392,7 +392,7 @@ pg.dorm3d_ins_chat_language = setmetatable({
 pg.base = pg.base or {}
 pg.base.dorm3d_ins_chat_language = {
 	{
-		param = "主人，宿舍内的陈设您还满意吗？",
+		param = "Master, are you satisfied with the furnishings in the room?",
 		ship_group = 20220,
 		flag = 0,
 		type = 1,
@@ -400,12 +400,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是天狼星整理的吗？"
+				"Was it you who picked them?"
 			}
 		}
 	},
 	{
-		param = "莫非……宿舍里的这些东西都是天狼星挑选整理的吗？",
+		param = "Was it you who picked them?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -413,7 +413,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，是的。",
+		param = "Yes, that is correct.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -421,7 +421,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "如果房间内的布置陈设得当的话，是能够让人感到轻松和舒适的。",
+		param = "A properly decorated room can calm the mind and bring comfort, particularly when all is arranged harmoniously.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -429,7 +429,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "而天狼星身为您的女仆，做到这一点是理所当然的。",
+		param = "As your humble maid, ensuring this is my natural duty.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -437,7 +437,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "因此，为了能让主人能更容易放松下来，天狼星便特意布置了一番。",
+		param = "Therefore, I made some arrangements to provide you with a more relaxing experience.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -445,7 +445,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不知道……主人您是否感到满意呢？",
+		param = "If I may ask, are the results to your liking?",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -461,12 +461,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"确实能感受到……"
+				"I can tell you worked hard on this..."
 			}
 		}
 	},
 	{
-		param = "天狼星的这份心意，我确实感受到了。",
+		param = "I can tell you worked hard on this. I appreciate the sentiment.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -474,7 +474,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不过，我还是更希望天狼星能稍微多考虑一下自己。",
+		param = "That being said, I want you to prioritize your own comfort a little more.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -482,7 +482,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "可、可是……",
+		param = "But...",
 		ship_group = 20220,
 		flag = 2,
 		type = 1,
@@ -490,12 +490,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"因为对我来说……"
+				"The reason for that being..."
 			}
 		}
 	},
 	{
-		param = "因为对我来说，每当天狼星陪伴着我的时候。",
+		param = "The reason for that being...",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -503,7 +503,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我都会感到非常的轻松与安心。",
+		param = "Whenever you're here with me, I feel so at ease.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -511,7 +511,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "所以，我更希望天狼星能够一直待在我的身边。",
+		param = "I want you by my side forever, and I want you to feel relaxed when you are there.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -519,7 +519,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……！！",
+		param = "Oh!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -527,7 +527,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "天狼星……能够明白！",
+		param = "I understand now!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -535,7 +535,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "因为在主人身边的时候，天狼星也同样会感到安心！",
+		param = "Likewise, I also feel at ease when you're by my side, my honourable Master!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -543,7 +543,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯？莫非主人对天狼星的东西很感兴趣吗？",
+		param = "My honourable Master, are you perhaps interested in my collection?",
 		ship_group = 20220,
 		flag = 0,
 		type = 1,
@@ -551,12 +551,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是的。"
+				"I am."
 			}
 		}
 	},
 	{
-		param = "是的。",
+		param = "I am.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -564,7 +564,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "因为其中的一些东西……让我感到稍微有点在意。",
+		param = "Some of them make me feel a little... concerned.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -572,7 +572,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊……",
+		param = "Oh...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -580,7 +580,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "真是万分抱歉，竟然让主人您看到了天狼星如此不成体统的一面。",
+		param = "Forgive me, Master, for letting you see this unseemly side of me...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -588,7 +588,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "身为主人的女仆，居然因大意而出现了不该存在的纰漏。",
+		param = "A maid in your service should never commit such a careless faux pas...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -596,7 +596,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "请惩罚失职的女仆吧，我……骄傲的主人。",
+		param = "Please punish me for this shameful digression, my honourable Master!",
 		ship_group = 20220,
 		flag = 1,
 		type = 1,
@@ -604,12 +604,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"没关系。"
+				"It's no big deal."
 			}
 		}
 	},
 	{
-		param = "没关系的。",
+		param = "It's no big deal.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -617,7 +617,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "倒不如说……这副模样的天狼星我也同样非常喜欢。",
+		param = "In fact, I like this side of you.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -633,7 +633,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊……我明白了。",
+		param = "Very well... I understand.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -641,7 +641,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我骄傲的主人，您是希望与露出这副不成体统的模样的天狼星……",
+		param = "Despite my evident indecency, you still wish to be with me and engage in...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -649,7 +649,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "……",
+		param = "...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -657,7 +657,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那个……",
+		param = "Umm, it just occurred to me...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -665,7 +665,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "莫非是我又会错意了吗？实在是非常抱歉……",
+		param = "I once again jumped to conclusions, didn't I? I'm terribly sorry...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -673,7 +673,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "主人，您看起来好像非常在意天狼星呢。",
+		param = "You seem to express a great deal of care for me, my honourable Master.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -681,7 +681,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "莫非是遇到了什么事想要跟天狼星商量吗？",
+		param = "Is there anything you would like to discuss with me?",
 		ship_group = 20220,
 		flag = 0,
 		type = 1,
@@ -689,12 +689,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没什么。"
+				"No, nothing in particular."
 			}
 		}
 	},
 	{
-		param = "没什么，只不过是因为每当我看到天狼星的时候。",
+		param = "No, nothing in particular.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -702,7 +702,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我就感觉疲劳仿佛被一扫而空了。",
+		param = "Though I will say that every time I look at you, it feels like all my stress goes away.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -710,7 +710,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "……！！",
+		param = "Oh!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -718,7 +718,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "为主人排忧解难，是天狼星的应分职责。",
+		param = "Easing your mind is but one of my duties as your humble maid.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -726,7 +726,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "只要您期望，我就会一直一直待在您的身边。",
+		param = "Should you request it, I am always ready to be by your side.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -734,7 +734,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可听您刚才那么说，主人您现在肯定还有残存的疲惫吧！",
+		param = "Judging by your phrasing, am I correct in assuming that some stress still lingers within you?",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -742,7 +742,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然如此，那就由天狼星来好好慰劳您吧。",
+		param = "If that is the case, please allow me to take care of it.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -750,7 +750,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "肯定能够让您恢复精神，重新干劲满满的！",
+		param = "I pledge to help you completely regain your spirits so that you may resume work at full capacity!",
 		ship_group = 20220,
 		flag = 1,
 		type = 1,
@@ -758,12 +758,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"但是……"
+				"The thing is..."
 			}
 		}
 	},
 	{
-		param = "但是……",
+		param = "The thing is...",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -771,7 +771,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我一会还有其他工作要做……",
+		param = "I have work I need to do right after this, so I'm short on time...",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -779,7 +779,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "没关系的！天狼星只不过是想侍奉主人洗个热水澡而已！",
+		param = "That's not a problem! All I ask for is that you allow me to run a bath for you!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -787,7 +787,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "所以，接下来主人您只要好好享受天狼星的服侍就可以了。",
+		param = "The only thing you need to do is lie back, relax, and allow me to give you my service.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -795,7 +795,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "当然，如果您愿意的话……",
+		param = "Furthermore, if you should ever ask for it...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -803,7 +803,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "天狼星也随时都已经做好了让您享用的准备！",
+		param = "I'm fully prepared to offer myself to you!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -811,7 +811,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "主人……您似乎很喜欢天狼星的这副模样呢？",
+		param = "Master... are you fond of my appearance?",
 		ship_group = 20220,
 		flag = 0,
 		type = 1,
@@ -819,12 +819,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没错。"
+				"Yeah."
 			}
 		}
 	},
 	{
-		param = "没错，因为刚才的天狼星太可爱了。",
+		param = "Yeah. You're just so cute.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -832,7 +832,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可爱到我不由自主地将它们给记录了下来。",
+		param = "I couldn't help but snap a photo.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -840,7 +840,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呜……",
+		param = "Oh my goodness...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -848,7 +848,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可、可爱什么的……天狼星实在是不敢当。",
+		param = "You flatter me with your compliments, Master.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -856,7 +856,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "但如果这是主人的期待的话，那么天狼星一定会努力做得更好。",
+		param = "While I don't believe I deserve to be called cute, if cuteness is what you want, I shall strive to be more like that!",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -864,7 +864,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "竭尽全力满足我骄傲的主人的需要，这正是天狼星身为女仆的职责。",
+		param = "It is, after all, a maid's duty to do everything in power to live up to her Master's hopes and desires.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -872,7 +872,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不过……",
+		param = "On the subject of photographs...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -880,7 +880,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "如果可以的话，天狼星还希望以后自己也能为主人您拍摄一张照片。",
+		param = "Would it be alright if I took a picture of you next time?",
 		ship_group = 20220,
 		flag = 1,
 		type = 1,
@@ -888,12 +888,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"为我拍照吗？"
+				"A picture of me?"
 			}
 		}
 	},
 	{
-		param = "为我拍照吗？",
+		param = "A picture of me?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -901,7 +901,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "天狼星怎么会突然有这个想法？",
+		param = "What do you want that for?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -909,7 +909,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "对天狼星来说，主人的身姿无论何时都值得铭记。",
+		param = "You always maintain an air of nobility, and I would like something to remember that by.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -917,7 +917,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "因此……天狼星也同样想要将主人的身姿给记录下来，永远珍藏。",
+		param = "Just as your photo preserved my look in an instant, I want to preserve yours to cherish it.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -925,7 +925,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "主人，这是送给天狼星的礼物吗？",
+		param = "Master, is this a gift for me?",
 		ship_group = 20220,
 		flag = 0,
 		type = 1,
@@ -933,12 +933,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是的"
+				"Yep."
 			}
 		}
 	},
 	{
-		param = "是的。",
+		param = "Yep.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -946,7 +946,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "因为我觉得这个东西非常适合天狼星，所以就送给你了。",
+		param = "The moment I saw this, I knew it was perfect for you. So I got it for you as a gift.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -954,7 +954,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "……真是万分抱歉。",
+		param = "You are too kind...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -962,7 +962,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "天狼星明明身为您的女仆，却还要让您费心。",
+		param = "I am but your humble maid, and still you go out of your way for me like this...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -970,7 +970,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那个……",
+		param = "If I may ask, though...",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -978,7 +978,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我收下这个，真的没问题吗？",
+		param = "Will you permit me to accept this gift?",
 		ship_group = 20220,
 		flag = 1,
 		type = 1,
@@ -986,12 +986,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"这是我的愿望。"
+				"Of course. I WANT you to have it."
 			}
 		}
 	},
 	{
-		param = "这是我的愿望。",
+		param = "Of course. I WANT you to have it.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -999,7 +999,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "一名合格的女仆是会想办法尽力实现主人的愿望的对吧？",
+		param = "Any maid worth her salt would do everything she could to grant her master's request, right?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1007,7 +1007,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "既然如此，你愿意实现我这个任性的愿望吗？",
+		param = "So here's a request: take my gift.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1015,7 +1015,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "这……天狼星明白了。",
+		param = "Well... then I shall oblige.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -1023,7 +1023,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "谢谢您，我骄傲的主人。",
+		param = "Thank you dearly, my honourable Master.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -1031,7 +1031,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "天狼星一定会将它带在身边好好珍惜的。",
+		param = "I shall look after this gift with great care.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -1039,7 +1039,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不过……在明晚的这个时候，天狼星将会送上回礼。",
+		param = "At the risk of sounding brazen, please allow me to give you a gift in return at this same time tomorrow.",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -1047,7 +1047,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "到时候，还请主人您不要拒绝哦？",
+		param = "And furthermore, please don't turn it down, okay?",
 		ship_group = 20220,
 		type = 1,
 		option = "",
@@ -1055,7 +1055,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊……指挥官，你来了。",
+		param = "Ah, you came to visit, Commander.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1063,7 +1063,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "感谢你特地为我准备了这间宿舍。",
+		param = "I have to really thank you for giving me this place to live.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1071,7 +1071,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "关于宿舍内的这些布置……您意下如何呢？",
+		param = "Also, I was wondering... what do you think about the layout?",
 		ship_group = 30221,
 		flag = 0,
 		type = 1,
@@ -1079,12 +1079,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么说呢……"
+				"How do I put it..."
 			}
 		}
 	},
 	{
-		param = "怎么说呢……感觉非常有{namecode:50}的风格。",
+		param = "How do I put it... It has a strong \"you\" aura.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1092,7 +1092,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "但是，我所喜欢的正是这番风格的{namecode:50}。",
+		param = "And I like the aura that you have.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1100,7 +1100,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "所以，这间宿舍我也非常喜欢。",
+		param = "So I like your quarters a lot, too.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1116,7 +1116,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我……我明白了。",
+		param = "I see...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1124,7 +1124,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然指挥官你这么说的话……",
+		param = "I'm glad to hear you say that.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1132,7 +1132,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我会努力回报你的心意的。",
+		param = "I'll do my best to repay your kindness.",
 		ship_group = 30221,
 		flag = 1,
 		type = 1,
@@ -1140,12 +1140,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"如果有其他需要的话……"
+				"If you ever need anything else..."
 			}
 		}
 	},
 	{
-		param = "如果有其他需要的话……随时都可以告诉我。",
+		param = "If you ever need anything else, don't be afraid to let me know.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1153,7 +1153,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "感谢您如此挂心……",
+		param = "You really are too kind... Thank you so much.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1161,7 +1161,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不过，只要是指挥官所希望的，我都毫无怨言。",
+		param = "In return, I promise to try to make anything you like come true.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1169,7 +1169,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "无论目标为何，我都一定会去努力完成的。",
+		param = "Whatever it is, I'll pursue it with all my energy.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1177,7 +1177,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "{namecode:50}，随时等待着您的指令。",
+		param = "Know that I'm always ready for your orders.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1185,7 +1185,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那个……指挥官，打扰一下。",
+		param = "Excuse me, could I have your attention?",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1193,7 +1193,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你是在寻找什么东西吗？",
+		param = "Are you looking for something?",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1201,7 +1201,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "毕竟，你似乎有些在意我的宿舍内的东西呢？",
+		param = "It looked like you were checking out the things in my quarters...",
 		ship_group = 30221,
 		flag = 0,
 		type = 1,
@@ -1209,12 +1209,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"其实……"
+				"Not exactly..."
 			}
 		}
 	},
 	{
-		param = "其实……我正在尝试通过它们来更加了解{namecode:50}。",
+		param = "Not exactly. I just hoped to learn something new about you through the things you have.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1222,7 +1222,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "总感觉隐隐约约抓住了什么，但是还不是很能理解。",
+		param = "I feel like I've almost grasped something, but not quite.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1230,7 +1230,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "原……原来是这样……",
+		param = "Oh, I see...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1238,7 +1238,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我还有些担心指挥官是不是因为觉得我的宿舍有些凌乱……",
+		param = "I was a bit concerned you might have thought my room looked cluttered.",
 		ship_group = 30221,
 		flag = 1,
 		type = 1,
@@ -1246,12 +1246,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"当然不会。"
+				"Not at all."
 			}
 		}
 	},
 	{
-		param = "当然不会。",
+		param = "Not at all.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1259,7 +1259,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "倒不如说，{namecode:50}的宿舍就跟{namecode:50}一样认真。",
+		param = "In fact, it's straight-faced, tidy, and orderly, just like you are.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1267,7 +1267,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "认真这个形容是不是太奇怪了点……",
+		param = "\"Straight-faced\" is a strange word to describe someone's home with...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1275,7 +1275,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "总之，如果只是想知道关于我的事的话，你可以尽管找我商量的。",
+		param = "At any rate, if you want to learn more about me, you can just ask directly.",
 		ship_group = 30221,
 		flag = 2,
 		type = 1,
@@ -1283,12 +1283,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"可这么做的话……"
+				"Sure, but..."
 			}
 		}
 	},
 	{
-		param = "可这么做的话……会打扰{namecode:50}休息的吧？",
+		param = "Sure, but won't I be disturbing you during your free time?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1296,7 +1296,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "没关系的，为指挥官排忧解难本就是属于我们的责任。",
+		param = "Don't worry about that. It's our responsibility to help resolve your problems.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1304,7 +1304,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "所以……虽然我可能没有阿贺野姐姐那么可靠。",
+		param = "Granted, I may not be as capable as some other people at the port are...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1312,7 +1312,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "但是你再多多依赖我一些也是没有关系的哦？",
+		param = "But still, feel free to rely on me a little more.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1320,7 +1320,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "就像……就像我如此依赖您那样……",
+		param = "In the same way... that I rely on you.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1328,7 +1328,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "跟你在一起的时候，总觉得有聊不完的话题呢。",
+		param = "Whenever we talk, it somehow feels like there are always more things to chat about.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1336,7 +1336,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不论是多么不起眼的小事，都会情不自禁地想要跟你分享。",
+		param = "You make me want to tell you about even little things.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1344,7 +1344,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那个……难道给你带来困扰了吗？",
+		param = "You don't find that... annoying, do you?",
 		ship_group = 30221,
 		flag = 0,
 		type = 1,
@@ -1352,12 +1352,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"当然不会。"
+				"Of course I don't."
 			}
 		}
 	},
 	{
-		param = "当然不会，可以和{namecode:50}像这样聊天，我很开心。",
+		param = "Of course I don't. I'm glad I get to chat so much with you.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1373,7 +1373,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "能听到你这么说，我也非常开心。",
+		param = "I'm really glad to hear you say that.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1381,7 +1381,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "毕竟我即便是在面对姐姐她们的时候，也从未有过这种感觉。",
+		param = "I've never felt this way when talking with anyone else, not even my sisters.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1389,7 +1389,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "只有在你身边的时候，我的内心才会涌现出这样的冲动。",
+		param = "This urge only rises in me when I'm talking with you.",
 		ship_group = 30221,
 		flag = 1,
 		type = 1,
@@ -1397,12 +1397,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"如果说冲动的话……"
+				"An urge, you say..."
 			}
 		}
 	},
 	{
-		param = "如果说冲动的话……我也有类似的感觉。",
+		param = "An urge, you say... I actually think I get the same thing.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1410,7 +1410,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "因为{namecode:50}总是可以为我带来有意思的话题，所以我每次都会非常期待。",
+		param = "You always bring such interesting topics to the table and I'm always excited about what the next one will be.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1418,7 +1418,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "更何况，在讲述这些事物的时候，认真的{namecode:50}看起来也很可爱。",
+		param = "Also, you look so cute when you speak seriously.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1426,7 +1426,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "什……///",
+		param = "Cute...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1434,7 +1434,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "真是的，请不要在这种时候突然说这种话好吗？",
+		param = "Please don't call me cute out of the blue like that.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1442,7 +1442,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官您就是这一点……",
+		param = "You really have a penchant for saying unprompted things...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1450,7 +1450,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "总之，既然您喜欢的话，下次我一定会准备更有意思的话题。",
+		param = "But anyway... I'll be sure to come up with more interesting topics for next time.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1458,7 +1458,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "到时候，还请您一定要耐心听完哦？",
+		param = "I hope you'll pay attention the whole way through.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1466,7 +1466,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "唔……被指挥官您如此关注着，总觉得有点害羞。",
+		param = "Don't take this the wrong way, but... it's a little embarrassing with all your attention.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1474,7 +1474,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "但是，有种难以言喻的……",
+		param = "Although, the happiness it makes me feel is much stronger in comparison...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1482,7 +1482,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "非常开心的感觉。",
+		param = "Stronger than I can put into words.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1490,7 +1490,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我们之间会变得如此亲密，在此之前真是完全想象不到呢。",
+		param = "I would've never imagined we'd one day become as close as we are now.",
 		ship_group = 30221,
 		flag = 0,
 		type = 1,
@@ -1498,12 +1498,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"但我从最开始就……"
+				"Truth be told..."
 			}
 		}
 	},
 	{
-		param = "但我从最开始就希望可以和{namecode:50}打好关系。",
+		param = "Truth be told, I wanted to build a good relationship with you since the very beginning.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1511,7 +1511,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "因为我想要跟{namecode:50}一起向未来迈进。",
+		param = "I want to move into the future with you by my side.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1519,7 +1519,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "未来吗……",
+		param = "Into the future...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1527,7 +1527,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "虽然不知道未来会发生什么，但有一件事我非常清楚——",
+		param = "It's a mystery what the future has in store for us, but I know one thing for certain:",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1535,7 +1535,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "在我的未来当中，一定会有指挥官您。",
+		param = "You are there with me in my future.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1543,7 +1543,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "也许在我们相遇的那一刻，便已经确定下了这样的未来。",
+		param = "I think we were destined for that ever since the moment we met.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1551,7 +1551,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "正是因为您会永远与我在一起。",
+		param = "Because you're always with me...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1559,7 +1559,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "所以，我才会觉得自己什么都能够做得到。",
+		param = "I feel like there's nothing I can't do.",
 		ship_group = 30221,
 		flag = 1,
 		type = 1,
@@ -1567,12 +1567,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那么……"
+				"And I'll do all I can..."
 			}
 		}
 	},
 	{
-		param = "那么为了不让{namecode:50}失望，我也会继续加油的。",
+		param = "And I'll do all I can not to disappoint you and make sure that future comes true.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1580,7 +1580,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯，我也十分期待呢。",
+		param = "I can't wait for it.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1588,7 +1588,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "从今往后还请多多关照咯，指挥官。",
+		param = "My fate, or should I say our fate, is in your hands, Commander.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1596,7 +1596,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯？指挥官也觉得今夜景色宜人吗？",
+		param = "Don't you think the moon looks beautiful tonight?",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1604,7 +1604,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "月亮洒下的柔和光芒，让人感到非常温暖。",
+		param = "Feeling its soft light on my skin warms my heart...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1612,7 +1612,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "每当我仰望夜空，就会回想起与你相识至今的点点滴滴。",
+		param = "And when I look up at the night sky, so many memories we've shared come flooding back.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1620,7 +1620,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "自从来到指挥官的身边，我就逐渐了解了许多事物。",
+		param = "Ever since I came to your side, I've learned more things than I can count.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1628,7 +1628,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "尽管它们或大或小，但对我来说无疑都是新奇且前所未有的体验。",
+		param = "Each and every one of them is precious and unlike anything I've ever experienced before.",
 		ship_group = 30221,
 		flag = 0,
 		type = 1,
@@ -1636,12 +1636,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我也从{namecode:50}这里学到了许多东西。"
+				"You've taught me so much, too."
 			}
 		}
 	},
 	{
-		param = "我也从{namecode:50}这里学到了许多东西。",
+		param = "You've taught me so much, too.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1649,7 +1649,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呵呵。",
+		param = "Really? Heheh.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1657,7 +1657,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "如果是这样的话那真是太令人高兴了。",
+		param = "I'm glad you think so.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1665,7 +1665,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "但或许从现在开始……才是我真正的使命的起点。",
+		param = "Something tells me that perhaps now, my true mission in life begins...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1673,7 +1673,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这不仅仅是为了完成自己的使命。",
+		param = "Well, actually, it's more than just a mission.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1681,7 +1681,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "同时，也是为了能够变得像姐姐那样更加成熟。",
+		param = "It's a heartfelt desire to grow as a person and become more mature like my sister.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1689,7 +1689,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "以及……为了指挥官您的期望。",
+		param = "And to meet the expectations you have for me...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1697,7 +1697,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我打从心底希望，接下来也能够与指挥官同行。",
+		param = "I sincerely hope we'll move forward together, now and forever.",
 		ship_group = 30221,
 		flag = 1,
 		type = 1,
@@ -1705,12 +1705,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"嗯。"
+				"Me, too."
 			}
 		}
 	},
 	{
-		param = "嗯，我也希望今后可以继续与{namecode:50}在一起。",
+		param = "Me, too. I want to be right beside you.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1718,7 +1718,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好的。与您同行的话，无论天涯海角……",
+		param = "I'm glad. As long as you're with me, no matter where we are...",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1726,7 +1726,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "所以……指挥官请一定不要放开我的手哦？",
+		param = "Please... just never let go of my hand.",
 		ship_group = 30221,
 		type = 1,
 		option = "",
@@ -1734,7 +1734,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师",
+		param = "Teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1742,7 +1742,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "安克雷奇……软软的……",
+		param = "I feel soft",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1750,7 +1750,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "被子……床……都软软的",
+		param = "The bed and the bedsheets too... so soft",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -1758,12 +1758,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是累了吗？"
+				"Going to bed?"
 			}
 		}
 	},
 	{
-		param = "安克雷奇是累了，准备睡觉了？",
+		param = "Feeling tired? Are you going to bed?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1771,7 +1771,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "睡觉……",
+		param = "Sleepy...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1779,7 +1779,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "宿舍很舒服……想睡觉……",
+		param = "My room is so nice... I'm sleepy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1787,7 +1787,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "也……很想老师……",
+		param = "But I want you here",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1795,7 +1795,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "一起……在软软的里……",
+		param = "Together... feel the softness",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1803,7 +1803,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "睡觉",
+		param = "And sleep",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -1811,12 +1811,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"困了的话，就先乖乖闭上眼睛"
+				"If you're sleepy, start by closing your eyes."
 			}
 		}
 	},
 	{
-		param = "困了的话，就先乖乖闭上眼睛",
+		param = "If you're sleepy, start by closing your eyes.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1824,7 +1824,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇……听老师的话……",
+		param = "Okay... I will listen to you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1832,7 +1832,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "可是……",
+		param = "But...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1840,7 +1840,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "故事里……两个人……",
+		param = "In the stories about the two people...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1848,7 +1848,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是……牵手、拥抱才能……睡觉",
+		param = "They hold hands and hug when they sleep",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1856,7 +1856,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师……安克雷奇……想要老师",
+		param = "Please... Come here",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1864,7 +1864,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "牵手 拥抱 才能睡觉",
+		param = "Hold my hand and hug me... then we can sleep",
 		ship_group = 19903,
 		flag = 2,
 		type = 1,
@@ -1872,12 +1872,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等我回来"
+				"Wait until I come back."
 			}
 		}
 	},
 	{
-		param = "等我回来，但要闭上眼睛等哦",
+		param = "Just wait until I come back. Keep your eyes closed until then.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1885,7 +1885,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "好！",
+		param = "Okay!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1893,7 +1893,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师……宿舍……",
+		param = "Teacher...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1901,7 +1901,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "来",
+		param = "Come to my room",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -1909,12 +1909,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好，等下就到"
+				"Alright. I'll be right there."
 			}
 		}
 	},
 	{
-		param = "好，等下就到",
+		param = "Alright. I'll be right there.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1922,7 +1922,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "你缺什么吗？我来的时候可以带给你",
+		param = "Is there something you're missing? I can bring it with me.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1930,7 +1930,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "缺什么……不知道……",
+		param = "Something I'm missing? I don't know",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1938,7 +1938,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，老师知道……",
+		param = "But teacher knows",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1946,7 +1946,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师看到，就知道安克雷奇缺什么……",
+		param = "You'll know what's missing when you see it",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -1954,12 +1954,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那就等我到了之后……"
+				"Wait for me to get there..."
 			}
 		}
 	},
 	{
-		param = "那就等我到了之后再看缺什么吧",
+		param = "Wait for me to get there, then I'll take a look around.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1967,7 +1967,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "现在如果累了的话，可以先休息一会儿",
+		param = "If you get sleepy, you can take a nap.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -1975,7 +1975,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好……",
+		param = "Okay",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1983,7 +1983,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇不累……等老师……",
+		param = "I'm not tired so I'll wait",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1991,7 +1991,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "想要老师……",
+		param = "I want you teacher...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -1999,7 +1999,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师在身边……摸摸……",
+		param = "When you're with me and I touch you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2007,7 +2007,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "就会开心……很开心……",
+		param = "It makes me so happy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2015,7 +2015,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "……！想到",
+		param = "Oh I got an idea!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2023,7 +2023,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是老师",
+		param = "Teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2031,7 +2031,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇缺什么……想到了……",
+		param = "I know what I'm missing",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2039,7 +2039,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是……老师",
+		param = "It's you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2047,7 +2047,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "最需要的……是老师",
+		param = "The thing I want most is you teacher!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2055,7 +2055,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师……安克雷奇的宿舍",
+		param = "Teacher, my room",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2063,7 +2063,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "今天有一个……很特别……",
+		param = "It's very special today",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2071,12 +2071,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"特别……？"
+				"Special?"
 			}
 		}
 	},
 	{
-		param = "特别……？怎么样呢？",
+		param = "Special? What do you mean?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2084,7 +2084,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嘿嘿",
+		param = "Hehe",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2092,7 +2092,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "安克雷奇……准备了……超级软软……",
+		param = "It's ready... and so soft",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2100,7 +2100,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "还香香的……",
+		param = "And it smells nice",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2108,7 +2108,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师……可以先享受",
+		param = "It's for you teacher!",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -2116,12 +2116,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"？是吃的东西吗？"
+				"Did you make food for me?"
 			}
 		}
 	},
 	{
-		param = "？是吃的东西吗？",
+		param = "Did you make food for me?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2129,7 +2129,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是和老师……抱……很像的……",
+		param = "No... It's like the thing when we hug",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2137,7 +2137,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇……喜欢！",
+		param = "I love it!",
 		ship_group = 19903,
 		flag = 2,
 		type = 1,
@@ -2145,12 +2145,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我猜……"
+				"Hang on..."
 			}
 		}
 	},
 	{
-		param = "我猜……",
+		param = "Hang on, are you talking about...",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2158,7 +2158,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "是抱枕？",
+		param = "A hug pillow?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2166,7 +2166,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯嗯！",
+		param = "Yes!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2174,7 +2174,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "安克雷奇……喜欢抱……",
+		param = "I love hugging",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2182,7 +2182,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……安克雷奇……不想给老师了……",
+		param = "But now... I don't wanna give it to you teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2190,7 +2190,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师……应该……抱安克雷奇",
+		param = "I want you to hug me!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2198,7 +2198,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "安克雷奇……也香香……",
+		param = "I smell nice...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2206,7 +2206,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "也……超级软软",
+		param = "And I'm soft...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2214,7 +2214,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嘿嘿！老师……喜欢！",
+		param = "Hehe I love you teacher!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2222,7 +2222,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师找到……安克雷奇的……",
+		param = "Wow teacher...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2230,7 +2230,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "好多……找不到的东西……",
+		param = "You found so many things I lost",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2238,7 +2238,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "可……还有一个……秘密……",
+		param = "But there's still a secret...",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2246,12 +2246,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"秘密？"
+				"Secret?"
 			}
 		}
 	},
 	{
-		param = "秘密？是什么~很好奇",
+		param = "Secret? What kind? Now I'm curious.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2259,7 +2259,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "其实……安克雷奇……忘了秘密……在哪里",
+		param = "I have a secret somewhere... but I forgot where",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2267,7 +2267,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "因为，想要……到时间……再给老师",
+		param = "I wanted to give it to you at a special time",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2275,7 +2275,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可是……先忘记……在哪里了……",
+		param = "But now I dunno where it is...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2291,12 +2291,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"等我来的时候一起找找……"
+				"We'll look for it together."
 			}
 		}
 	},
 	{
-		param = "等我来的时候一起找找……既然是忘记在哪里……",
+		param = "We'll look for it together.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2304,7 +2304,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是不是把秘密记在什么东西上了呢？",
+		param = "By the way, is the secret written down, by any chance?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2312,7 +2312,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "……写了字……给老师……",
+		param = "I wrote something for you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2320,7 +2320,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "可是……安克雷奇的话……写不出来……",
+		param = "But...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2328,7 +2328,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师会……看不懂……",
+		param = "You might not understand what it says teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2336,7 +2336,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "想起来了",
+		param = "Oh I remembered",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2344,7 +2344,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "画画……安克雷奇画下来了",
+		param = "I drew something too! A picture!",
 		ship_group = 19903,
 		flag = 2,
 		type = 1,
@@ -2352,12 +2352,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"是在画本上么？"
+				"Did you draw it in your sketchbook?"
 			}
 		}
 	},
 	{
-		param = "是在画本上么？",
+		param = "Did you draw it in your sketchbook?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2365,7 +2365,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "画本上……有过……",
+		param = "I did",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2373,7 +2373,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "然后安克雷奇……取下来……藏在哪……",
+		param = "But then I took the drawing and hid it somewhere...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2381,7 +2381,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师……安克雷奇……没有藏起来",
+		param = "Ah, I didn't hide it",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2389,7 +2389,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……已经……给老师了……",
+		param = "I gave it to you teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2397,7 +2397,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "给老师的画……和字……变成折纸小狗",
+		param = "I turned the drawing and words into a paper puppy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2413,7 +2413,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "在老师……身边……",
+		param = "It's right next to you!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2421,7 +2421,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嘿嘿……安克雷奇……超级开心",
+		param = "Hehe... I'm so happy right now",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2429,7 +2429,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "老师……今天也来找安克雷奇……",
+		param = "You came to see me again",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2437,7 +2437,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "最喜欢老师……一起……做所有的事情",
+		param = "I like you more than anyone else teacher... I'll do anything with you",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2445,12 +2445,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还想要一起做什么事情呢？"
+				"Anything in particular you want to do?"
 			}
 		}
 	},
 	{
-		param = "还想要一起做什么事情呢？",
+		param = "Is there anything in particular you want to do?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2458,7 +2458,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可以说说看吗？",
+		param = "Just name it.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2466,7 +2466,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "安克雷奇不知道……只是希望……老师能一直一直……和安克雷奇一起",
+		param = "I don't know... I just want to be with you forever and ever",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2474,7 +2474,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "想要……更多的……",
+		param = "I want more",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2482,7 +2482,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "就像……",
+		param = "Like...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2490,7 +2490,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师教安克雷奇画画……老师的手脏了……不要自己洗",
+		param = "You teach me how to draw... and when your hands get dirty you don't wash them by yourself",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2498,7 +2498,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "要安克雷奇……给老师洗……",
+		param = "I'll wash them for you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2506,7 +2506,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "会像老师一样……温柔……安克雷奇也要温柔……让老师幸福",
+		param = "I want to become as warm as you and make you happy",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -2514,12 +2514,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"下次就交给你了"
+				"Alright. You can do it."
 			}
 		}
 	},
 	{
-		param = "下次就交给你了，这就是安克雷奇要的“更多”？",
+		param = "Alright. You can wash my hands. Is that the \"more\" you want?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2527,7 +2527,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "还有……",
+		param = "Not just that...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2535,7 +2535,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师……陪安克雷奇……整理床……好整齐……",
+		param = "You help me tidy up the bed and make it pretty",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2543,7 +2543,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "可是……安克雷奇不想……整齐",
+		param = "But I don't want it to be pretty...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2551,7 +2551,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师整理好……安克雷奇……舍不得弄乱",
+		param = "Because you made it pretty I don't wanna make it messy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2559,7 +2559,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "老师……要一起……",
+		param = "I want to be with you teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2567,7 +2567,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "床……乱了也可以……",
+		param = "Even if it means making the bed messy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2575,7 +2575,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "躺在一起……安克雷奇……更幸福",
+		param = "Lie down with me... I'll be so happy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2583,7 +2583,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "礼物……老师给安克雷奇很多……",
+		param = "You've given me so many gifts",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2591,7 +2591,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "都喜欢……老师好厉害！",
+		param = "I love them all they're so good",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2599,12 +2599,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还会收到更多礼物的"
+				"I have even more gifts for you."
 			}
 		}
 	},
 	{
-		param = "还会收到更多礼物的，期待一下吧",
+		param = "I have even more gifts for you. Look forward to them.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2612,7 +2612,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "期待！",
+		param = "I will!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2620,7 +2620,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "安克雷奇绘本…上面说……",
+		param = "My picture book... it says",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2628,7 +2628,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "谢谢……是很重要的话……",
+		param = "\"Thanks\" is an important word",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2636,7 +2636,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师对安克雷奇非常好……",
+		param = "You're always so nice to me teacher...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2644,7 +2644,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "安克雷奇要说谢谢……好好说……要认真……",
+		param = "I want to tell you thanks in a big way",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2652,7 +2652,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师，安克雷奇感激……谢谢老师",
+		param = "I'm really grateful for you teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2660,7 +2660,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "超级谢谢",
+		param = "Thank you super duper much",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -2668,12 +2668,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"超级不客气"
+				"You're super duper welcome."
 			}
 		}
 	},
 	{
-		param = "超级不客气，安克雷奇带给我的快乐更多",
+		param = "You're super duper welcome. You bring me so much happiness, so it's the least I could do.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2681,7 +2681,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "超级不客气……不客气……是不需要谢谢吗？",
+		param = "I'm super duper welcome... Does that mean you don't need thanks?",
 		ship_group = 19903,
 		flag = 2,
 		type = 1,
@@ -2689,12 +2689,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"是希望安克雷奇放心接受"
+				"It just means I want you to enjoy the gifts..."
 			}
 		}
 	},
 	{
-		param = "是希望安克雷奇放心接受",
+		param = "It just means I want you to enjoy the gifts and not feel indebted or anything.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2702,7 +2702,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不需要像客人一样道谢，家人是不需要道谢的",
+		param = "You don't need to thank family members like you thank a guest.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2710,7 +2710,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "安克雷奇……是家人……",
+		param = "Family...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2718,7 +2718,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "开心……超级开心……",
+		param = "I'm family... That makes me so happy",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2726,7 +2726,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "说谢谢……就可以知道……",
+		param = "Say \"thank you\" and know...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2734,7 +2734,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师和安克雷奇……是家人……",
+		param = "That me and you are family teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2742,7 +2742,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "安克雷奇喜欢给老师谢谢……永远……",
+		param = "I like saying \"thank you\" forever",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2750,7 +2750,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "老师……安克雷奇为什么总是……输",
+		param = "Teacher how come I always lose?",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2758,7 +2758,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "游戏……难……",
+		param = "Games are so hard...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2766,7 +2766,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "但是……要赢",
+		param = "But I wanna win",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2774,7 +2774,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "！",
+		param = "!!",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2782,12 +2782,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"为什么呢？"
+				"Why?"
 			}
 		}
 	},
 	{
-		param = "为什么呢？",
+		param = "Why?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2795,7 +2795,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "想要……奖励……",
+		param = "I want a reward...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2803,7 +2803,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "赢了……就要求奖励……",
+		param = "If I win I get a reward",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2811,7 +2811,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嘿嘿……想要老师的……抱抱！",
+		param = "A big hug from you! Hehe",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -2819,12 +2819,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"输了也不要紧"
+				"It's okay if you lose."
 			}
 		}
 	},
 	{
-		param = "输了也不要紧",
+		param = "It's okay if you lose.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2832,7 +2832,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "？……",
+		param = "Huh?",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2840,7 +2840,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "也有……奖励？",
+		param = "Does that mean I still get a reward?",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2848,7 +2848,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇……想要老师……奖励",
+		param = "I want your reward teacher...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2856,7 +2856,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "之前……输了的奖励……",
+		param = "I lost... last time",
 		ship_group = 19903,
 		flag = 2,
 		type = 1,
@@ -2864,12 +2864,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"想要什么奖励？"
+				"What would you like?"
 			}
 		}
 	},
 	{
-		param = "安克雷奇想要什么奖励？",
+		param = "What would you like?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2877,7 +2877,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "要……摸摸安克雷奇！",
+		param = "I... want headpats!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2885,7 +2885,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯……赢就奖励……抱抱",
+		param = "If I could choose... a hug if I win",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2893,7 +2893,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "输了……摸摸……就可以了",
+		param = "And if I lose, I get headpats then",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2901,7 +2901,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "安克雷奇……喜欢和老师……玩儿游戏",
+		param = "I love playing games with you teacher",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2909,7 +2909,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "礼物……在安克雷奇怀里……",
+		param = "Your gift is in my hands...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2917,7 +2917,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我们一起看……天空",
+		param = "We look at the sky together",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2925,7 +2925,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "可……安克雷奇……难过……",
+		param = "But I'm sad...",
 		ship_group = 19903,
 		flag = 0,
 		type = 1,
@@ -2933,12 +2933,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？为什么难过？"
+				"What's wrong? Why are you sad?"
 			}
 		}
 	},
 	{
-		param = "怎么了？为什么难过？",
+		param = "What's wrong? Why are you sad?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2946,7 +2946,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "是不喜欢送给你的礼物吗？",
+		param = "Did you not like my gift?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -2954,7 +2954,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "喜欢",
+		param = "No I do",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2962,7 +2962,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "最喜欢",
+		param = "I love it",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2970,7 +2970,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "最喜欢……老师的礼物",
+		param = "Gifts from you are my favorite",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2978,7 +2978,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "是安克雷奇……想要送老师",
+		param = "But I wanna give you something",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2986,7 +2986,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "天空……闪闪亮亮……星星",
+		param = "The sparkles in the sky... The stars",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -2994,7 +2994,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "最好看",
+		param = "The prettiest one",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3002,7 +3002,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "可是……太远了",
+		param = "But it's so far away",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3010,7 +3010,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "安克雷奇……想不到办法",
+		param = "I don't know what to do...",
 		ship_group = 19903,
 		flag = 1,
 		type = 1,
@@ -3018,12 +3018,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"如果想用星星当做回礼……"
+				"If you want to give me a star..."
 			}
 		}
 	},
 	{
-		param = "如果想用星星当做回礼的话……",
+		param = "If you want to give me a star...",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3031,7 +3031,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "要不要试试画下来呢？",
+		param = "Why don't you draw one for me?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3039,7 +3039,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "画下来……",
+		param = "Draw...",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3047,7 +3047,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好！",
+		param = "Okay!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3055,7 +3055,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "安克雷奇……要画星星……给老师",
+		param = "I'll draw a star and give it to you",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3063,7 +3063,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "画最好的……最亮晶晶的……星星",
+		param = "I'll make the prettiest sparkliest star!",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -3071,7 +3071,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "刚刚窝在Honey身边，睡了个好觉呢~",
+		param = "I had such a nice nap next to you, honey!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3079,7 +3079,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不过你啊……",
+		param = "But listen...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3087,7 +3087,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "怎么可以趁我睡着，就偷偷回去工作了呢~！！",
+		param = "Why'd you just go back to work while I was asleep?!",
 		ship_group = 10517,
 		flag = 0,
 		type = 1,
@@ -3095,12 +3095,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"不忍心叫醒你"
+				"I'd feel bad waking you up."
 			}
 		}
 	},
 	{
-		param = "看你睡得香，不忍心叫醒你",
+		param = "You were sleeping so soundly that I couldn't bear to wake you.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3108,7 +3108,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "明明是被我的睡颜迷住了吧~",
+		param = "Was someone mesmerized by my cute sleeping face?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3116,7 +3116,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "再说，要不是玩得太开心了，我才不会轻易睡过去呢",
+		param = "Besides, I only fell asleep because we had so much fun together.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3124,7 +3124,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不过，你竟然还有力气加班……",
+		param = "I'm just amazed that you had enough energy left to work...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3132,7 +3132,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "明明是两个人的游戏，你怎么能偷懒呢！",
+		param = "We're supposed to be playing together, so don't flake on me!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3140,7 +3140,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "最重要的是——",
+		param = "And most of all...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3148,7 +3148,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "下次，可不许再消失了哦~！",
+		param = "Don't you disappear again next time, got it?!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3156,7 +3156,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "一想到醒来后看不到Honey，我都要做噩梦啦！",
+		param = "Waking up and not having you there, honey... that thought alone gives me nightmares!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3172,7 +3172,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "让女孩子这样担心可不行呢！",
+		param = "You can't worry delicate girls like me so much!",
 		ship_group = 10517,
 		flag = 1,
 		type = 1,
@@ -3180,12 +3180,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"下次不会再让你担心了"
+				"I won't worry you again."
 			}
 		}
 	},
 	{
-		param = "下次不会再让你担心了",
+		param = "I won't worry you again.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3193,7 +3193,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我啊~希望每次醒来的时候，都能看到Honey你呢",
+		param = "When I wake up, I want you to be there with me.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3201,7 +3201,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "要永远留在我身边哦，Honey♪",
+		param = "Stay with me together forever, okay, honey?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3209,7 +3209,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好啦，快点搞定工作回来找我吧！",
+		param = "Now, finish up that work and come back to me~",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3217,7 +3217,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我在软软的床上~等你哦~",
+		param = "I'll be waiting for you... in my soft, fluffy bed.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3225,7 +3225,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啾♡",
+		param = "Mwah♡",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3233,7 +3233,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "Honey~看这里看这里♪",
+		param = "Honey! Check this out~♪",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3241,7 +3241,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "准备好接受“Big J”的超高密度短信轰炸了嘛~",
+		param = "Are you ready to get hardcore spammed by Big J?",
 		ship_group = 10517,
 		flag = 0,
 		type = 1,
@@ -3249,12 +3249,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"很有活力呢……"
+				"Someone's excited…"
 			}
 		}
 	},
 	{
-		param = "很有活力呢。房间布置得怎么样了，需要帮忙吗？",
+		param = "Someone's excited. Is your room ready? Do you need any help?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3262,7 +3262,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "入住很顺利，不过，感觉还需要补充些生活必需品……",
+		param = "It's all good~ I just need to stock up on some daily necessities, is all...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3270,7 +3270,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "冰箱也空荡荡的……",
+		param = "My fridge is basically empty...",
 		ship_group = 10517,
 		flag = 1,
 		type = 1,
@@ -3278,12 +3278,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"附近的商业街……"
+				"Let's go shopping…"
 			}
 		}
 	},
 	{
-		param = "附近的商业街入驻了不少店家，可以解决你的需求",
+		param = "Let's go shopping downtown. I'm sure we can get everything you need.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3291,7 +3291,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "还是Honey想得周到~",
+		param = "That's my honey! You're so thoughtful.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3299,7 +3299,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "正好你有空，就过来陪我一起逛街吧~",
+		param = "Since we'll go out, how about we do some other stuff, too?",
 		ship_group = 10517,
 		flag = 2,
 		type = 1,
@@ -3307,12 +3307,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好啊，想逛什么？"
+				"Sure. Where do you wanna go?"
 			}
 		}
 	},
 	{
-		param = "好啊，想逛什么？",
+		param = "Sure. Where do you wanna go?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3320,7 +3320,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "关于行程安排，我已经有规划了呢",
+		param = "Hehe, I've already made a whole plan!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3328,7 +3328,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "首先嘛，当然要从填饱肚子开始——",
+		param = "First order of business... Filling our tummies!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3344,12 +3344,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				4,
-				"难道是……冰淇淋畅享套餐？"
+				"Let me guess. Is it an ice cream buffet?"
 			}
 		}
 	},
 	{
-		param = "难道是……冰淇淋畅享套餐？",
+		param = "Let me guess. Is it an ice cream buffet?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3357,7 +3357,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "哦？这个想法很不错！",
+		param = "Ooh, good idea!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3365,7 +3365,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不过在Honey眼中，我就是那种会把甜点当主食的人吗~！",
+		param = "Wait, do you just see me as nothing but a sweets-loving piggy?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3373,7 +3373,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "虽然这么想也没错~嘿嘿♪",
+		param = "...Well, you're right, hehehe♪",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3381,7 +3381,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "总之，你来了就知道了~",
+		param = "Anyway, I'll let you know when you get here!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3389,7 +3389,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那就约好在商业街路口碰头了！",
+		param = "See you at the corner of the shopping district!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3397,7 +3397,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "现在——出发吧~！",
+		param = "Aaaand off we go!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3405,7 +3405,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "晚到的人，会被惩罚哦~♪",
+		param = "By the way, you're getting punished if you're not on time~♪",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3413,7 +3413,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "Honey~上次，我们一起看的那部动作电影……",
+		param = "Honey~ Remember that action movie we watched?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3421,7 +3421,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你觉得好看吗？晚点要一起看续集吗？",
+		param = "Did you like it? Wanna go see the sequel?",
 		ship_group = 10517,
 		flag = 0,
 		type = 1,
@@ -3429,12 +3429,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"动作片……？"
+				"Action movie...?"
 			}
 		}
 	},
 	{
-		param = "哪种动作片？",
+		param = "Action movie...? Which one?",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3442,7 +3442,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "就是那部男女主各自使出了神奇招式缠斗在一起——",
+		param = "You know! The one where the hero and heroine both go all out with their special abilities, and then they clash, and it's just–",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3458,7 +3458,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "唔，不过细说的话……",
+		param = "Hmm, buuut...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3466,7 +3466,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我最喜欢的，其实是片里超——高燃的爆炸特效哦♪",
+		param = "The part I liked the most was that crazy explosion!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3474,7 +3474,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "感觉比暗夜下杀出的黑龙之炎还要帅气啊~",
+		param = "It was almost as cool as the flames of the Black Dragon ripping through the night!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3482,7 +3482,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "还有电影结尾的时候……",
+		param = "And the ENDING!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3490,7 +3490,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那个主角，竟然被奇怪的魔法变成冰淇淋球了~！",
+		param = "The way the main character was magically turned into a giant ball of ice cream?!",
 		ship_group = 10517,
 		flag = 1,
 		type = 1,
@@ -3498,12 +3498,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"编剧栏应该写你的名字"
+				"They should've put your name in the writing credits."
 			}
 		}
 	},
 	{
-		param = "编剧栏应该写你的名字",
+		param = "They should've put your name in the writing credits.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3511,7 +3511,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "只有热爱冰淇淋的人，才能想出这么有趣的情节",
+		param = "Nobody would come up with that unless they really loved ice cream deep down.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3519,7 +3519,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "唔，真想对Honey施展这个魔法呢~",
+		param = "Hehe~ I wanna cast a spell like that on you, honey~",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3527,7 +3527,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "如果Honey你也被变成了冰淇淋球的话……",
+		param = "If you turned into an ice cream...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3535,7 +3535,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "会是什么味道呢~",
+		param = "What flavor would you be?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3543,7 +3543,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "哈密瓜、西瓜、菠萝——大概会比这些更美味吧~",
+		param = "Melon? Watermelon? Pineapple? Hmm, I bet you'd taste even better than all of them combined~",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3551,7 +3551,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我已经忍不住想尝一尝了~呼呼~♡",
+		param = "Now I really want a taste♡ Hehehe...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3559,7 +3559,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "哼哼，看起来……",
+		param = "Heheheh... What have we here?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3567,7 +3567,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "Honey在我房间里发现了不少有趣的宝贝嘛~",
+		param = "Looks like you found my treasure hoard!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3575,7 +3575,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不愧是Honey，已经对我了如指掌了啊~",
+		param = "That's my honey. You know me like the back of your hand!",
 		ship_group = 10517,
 		flag = 0,
 		type = 1,
@@ -3583,12 +3583,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				1,
-				"找到一个笔记本……"
+				"I found a notebook…"
 			}
 		}
 	},
 	{
-		param = "找到一个笔记本，封皮上写着「恋爱作战笔记」",
+		param = "I found a notebook. It says \"Notes on the War of Love.\"",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3596,7 +3596,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "咦、咦~？！！",
+		param = "WHAAAAT?!?!?!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3604,7 +3604,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这可是我特地藏在角落里的秘密~！",
+		param = "That's a secret! That's why it was hidden in the corner!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3612,7 +3612,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "Honey你没有翻开看过吧！",
+		param = "You didn't read it, DID YOU?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3620,7 +3620,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "快向我承诺~绝对~绝对没有吧~！！！",
+		param = "TELL ME! Tell me you totally have NOT read it!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3636,12 +3636,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				2,
-				"放心，我放回原位了"
+				"I put it back."
 			}
 		}
 	},
 	{
-		param = "放心，我放回原位了",
+		param = "Don't worry. I put it back.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3649,7 +3649,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "Honey……爱你哟♡",
+		param = "Honey... I love you so much!♡",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3657,7 +3657,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不过，你真的完全不好奇笔记的内容吗？",
+		param = "But aren't you curious what I wrote in it?",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3665,7 +3665,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "难道不怕我在悄悄~说你的坏话嘛~！",
+		param = "You're not worried that I'm secretly complaining about you?",
 		ship_group = 10517,
 		flag = 2,
 		type = 1,
@@ -3673,12 +3673,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我相信{namecode:199}"
+				"I trust you, New Jersey."
 			}
 		}
 	},
 	{
-		param = "我相信{namecode:199}",
+		param = "I trust you, New Jersey.",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -3686,7 +3686,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……嘿嘿~安心吧Honey",
+		param = "Hehe... Don't you worry.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3694,7 +3694,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我也要用100%的信任来回馈你的坦诚呢！",
+		param = "I'll repay your honesty with 100% faith!",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3702,7 +3702,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "正好借着今天的机会，一起告诉你吧~",
+		param = "Okay, for that, you get to know one secret...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3710,7 +3710,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "所谓恋爱，可是一场不见硝烟的战争哦~♪",
+		param = "Love is like an invisible war~♪",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3718,7 +3718,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "选择合适的时机，把握进退的时机",
+		param = "You watch for the perfect time to attack, the perfect time to retreat...",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3726,7 +3726,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "而在这场紧张的攻略战中，唯一不变的原则就是——",
+		param = "Even in these tense battles of wits, though, there's one ironclad rule.",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -3734,7 +3734,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "“世界第一好的honey——最爱你了哟♡”",
+		param = "\"My honey's the best in the world, and I love you more than anyone!♡\"",
 		ship_group = 10517,
 		type = 1,
 		option = "",

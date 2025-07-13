@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，距离你的下个工作日程还有一段时间，先好好休息吧。",
+			say = "There is a while to go until the next planned task. Get some rest, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "在你休息的这段时间里，我正好也要规划一些更长远的事了。",
+			say = "I'll hammer out some long-term plans while you relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "下月的规划？",
+					content = "Plans for next month?",
 					flag = 1
 				},
 				{
-					content = "明年的规划？",
+					content = "Plans for next year?",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不，是更加长远的……有关两个人未来的规划，真是想想就很期待呢。",
+			say = "No, longer than that... They're plans for our future together. Just thinking about it makes me all giddy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

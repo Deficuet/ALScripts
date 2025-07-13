@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"点击这里可以查看指挥喵的技能和天赋！",
-	"点击这里可以查看指挥喵带来的属性加成！",
-	"通过“陪玩”和“天赋”操作可以对指挥喵进行进一步培养，这部分就由指挥官自己去感受吧~"
+	"Tap here to view the Meowfficer's Skills and Talents!",
+	"Tap here to view the stat bonuses received from the Meowfficer!",
+	"You can make the Meowfficer better by Enhancing them and leveling their Talents!"
 }
 
 return {

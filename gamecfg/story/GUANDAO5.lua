@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>五　暗中行事</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>5.Secret Plans</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊~今天的工作都处理完了！指挥官你来检查一下吧~！",
+			say = "Phew! I've finished everything now. Just need you to review it, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "下班前，关岛一脸得意地将一沓厚厚的文件递了过来。",
+			say = "Just before she clocks out, Guam hands me a thick stack of documents with a smug look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "仔细抽查了几份。虽然存在一些瑕疵，但没有发现能被称之为错误的问题，看来少女这段时间的努力并没有白费。",
+			say = "I pick a few papers at random and scrutinize them thoroughly. While there are some faults, I can't find anything I would call outright incorrect. It seems her efforts to improve have paid off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（工作质量有了明显提升，是不是该给一点奖励了呢？我记得她周日的行程应该空着……）",
+			say = "You've gotten a lot better, and that deserves a reward. You're free this Sunday, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "欸？要约关岛出去玩吗？当然好啦！",
+			say = "Hang on, are you asking me on a date? Because hell yeah, I'm game!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "不过周日……？呜啊啊啊……！为什么偏偏挑了这周日啊……",
+			say = "Sunday, though... Gaaahhh! Why Sunday of all days?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女的表情就像是夏日里的天空，晴转多云，再由多云转阴。",
+			say = "Her expression lights up like a midsummer day, but then the rain clouds come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道已经有了其它安排？",
+			say = "Do you have something else planned for that day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "是……呜……难得指挥官约我了……",
+			say = "Yeah... I can't reschedule for it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然已经有了安排那就没办法了，改到下个周日如何？",
+			say = "It's fine, it's out of your control. How about next Sunday, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "好！",
+			say = "That works!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊对了，指挥官，我能不能拜托您一件事？",
+			say = "Oh, on a random note, can I ask you a favor?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "我想申请本周日指挥室的使用权！",
+			say = "I'd like to use your office this Sunday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥室的使用权？用来做什么？",
+			say = "Use... my office? What for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用来录节目！不过具体内容请允许我先保密！等到播出的时候你就知道了!",
+			say = "I'm gonna record something for my show! That's all I can say, 'cause the rest is top secret. You'll see for yourself when it airs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "放心好啦，我保证不会乱动乱翻的！",
+			say = "Don't worry, I won't make a mess of the place! Promise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,18 +281,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然十分好奇，不过她为了这项安排甚至推掉了周末一起出行的邀请……）",
+			say = "(Frankly, I have big concerns about this, but she did turn down my offer in favor of whatever she has planned, so...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表示同意",
+					content = "Alright, it's yours.",
 					flag = 1
 				},
 				{
-					content = "同意前，先开个玩笑",
+					content = "(Tease her first, then approve it.)",
 					flag = 2
 				}
 			}
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "也就是说，只要我不同意你周日使用指挥室的申请——",
+			say = "For the sake of argument, let's say I don't let you use it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "你的日程就空出来了,我们就能一起出去玩了对吧？",
+			say = "Then you'll be free on Sunday, and we can hit the city together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……逻辑居然是通顺的！指、指挥官你是魔鬼么！",
+			say = "I... guess that's reasoning is airtight. You cunning demon, you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "只是开个玩笑——你的申请被通过了。",
+			say = "I'm just messing with you. You're free to use the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "太好了！指挥官你最好了！",
+			say = "Shweet! You're awesome, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女举臂欢呼，脸上的表情随即阴转晴空万里。",
+			say = "She throws her hands into the air and exclaims in joy. The clouds dimming her expression give way in a heartbeat, and she smiles brightly as the sun again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "啊~不过指挥官周日的时候可不许来偷看~",
+			say = "But remember, no peeking on Sunday! Got it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "千万千万、千万不许来偷看哦！",
+			say = "Promise on your life and honor! No peeking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "下班前，关岛递来了一份填写完毕的正式指挥室借用申请书。",
+			say = "Guam casually submits a formal application to use the office before she wraps up her day's work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（居然知道要写书面申请了，看来她在学习如何做好秘书舰这一点上又进步了。）",
+			say = "She's even submitting forms now. It's great to see that she's developing a secretary's mindset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（下周末的日程安排，也该做起来了——）",
+			say = "I'd better start filling out the schedule for next week...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

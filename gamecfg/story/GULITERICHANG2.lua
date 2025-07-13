@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"交汇世界的弧光-日常篇\n\n<size=45>二 港区大采访！</size>",
+					"Dynamic Days\n\n<size=45>2 On-Location Shoot</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 10800041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "锵锵！欢迎收看莲与奈美子的旅游节目「港区大探索」！大家好我是奈美子！",
+			say = "What's going on, guys! I'm Namiko, and this is Hass. Hass, would you tell 'em where we are today?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是莲哟~",
+			say = "Hey. So, we're at a naval port, and we're gonna talk to some people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本期为大家带来特别篇——「突发采访，舰船们的特长？！」，让我们看看舰船们在镜头前都会如何回答吧~",
+			say = "Uh-huh! We'll be interviewing some of the brave shipgirls who fight for humanity and learn what their talents are.",
 			effects = {
 				{
 					active = true,
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有请本次节目的四位嘉宾~请大家自我介绍一下哦。",
+			say = "Awesome. These are the shipgirls joining us today. Say hello to...",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家好~我是港区NO.1的偶像{namecode:524}~",
+			say = "Hiiiii! It's me, San Diego! Everyone's number one favorite idol!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是{namecode:175}，那个……我只是刚好路过……",
+			say = "My name is Suruga, and... I just happened to be in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家好，叫我{namecode:432}就行。",
+			say = "Hello. Call me Spee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉菲……好困。",
+			say = "I'm sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天请来的四位各有不同的气质呢，感觉本次的节目会很有意思哦~",
+			say = "Nice, what a colorful cast. We're glad to have you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "那么进入正题，请问各位有什么特长或者特技吗？",
+			say = "So without further ado, tell us about your strengths and talents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:524}有很多很多特长！但是要说一个的话，果然还是擅长唱歌哦！",
+			say = "Oh, I've got a buttload of talents! But if I have to choose just one, it's easily singing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很不错的特长啊，活力系的偶像{namecode:524}，听起来就超可爱的！",
+			say = "A sweet, happy-go-lucky idol with a knack for singing! I'm sure tons of people would subscribe to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的话，好像没什么能说的……",
+			say = "I don't have any real strengths...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:432}的打扮很可爱~和性格气质很配呢，这也算是一种特长嘛。",
+			say = "Sure you do, Spee. You've got a cute fashion sense. You dress to match your personality, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "化妆什么的其实都是{namecode:428}她们教我的……多亏了铁血的同伴们。",
+			say = "I'm just wearing what my friends suggested... They deserve the credit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉菲，拉菲的特长是……",
+			say = "In my case... I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？！拉菲高高举起了双手！请大家屏息以待，看看她究竟要说什么——",
+			say = "Oh, Laffey knows how to build suspense. Go on, tell us! What's your greatest talent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在任何地方，都能睡得着……",
+			say = "The ability to... fall asleep anywhere, anytime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Zzz……",
+			say = "Goodnight... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好、好厉害，居然还能现场演示！",
+			say = "Wow, what a unique talent. Complete with a demonstration, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "真好啊，偶尔晚上睡不着的时候也会想要这样的特长呢~",
+			say = "Oh, man. I'd kill to say goodbye to sleepless nights forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这是什么，毫无计划的真人秀？我只是路过而已，怎么就………）",
+			say = "(Why are they commentating like show hosts? What is this? Low-budget reality TV?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢拉菲小姐带来的即兴表演~接下来到{namecode:175}小姐啦，请问{namecode:175}小姐有什么特长吗？",
+			say = "Thanks for the performance, Laffey. Now last, but not least... Suruga! Would you tell us your greatest strength?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 305142,
-			say = "说、说到特长的话…………嗯……",
+			say = "St-strength...? Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:175}阁下的记忆力很厉害哦！不管是什么，只要看过一遍都能记得很清楚！",
+			say = "Suruga has a photographic memory! All she needs is one glance to perfectly memorize anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 305142,
-			say = "{namecode:18}？！从哪里跑出来的啊！",
+			say = "Don't answer on my behalf! Where'd you come from, anyway?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？意想不到的节目效果来了！同伴们印象中的{namecode:175}会是什么样的呢？",
+			say = "Wow, we have a surprise guest! I wonder what she has to say about her friend Suruga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "听起来像是某种世界纪录榜单上会出现的才华哎~还有日常一些的特长吗？",
+			say = "A photographic memory is a bit TOO great, don't you think? Got anything more ordinary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:175}阁下还很擅长快速剪指甲！我跟你们说哦，上次{namecode:175}阁下……",
+			say = "Well, she can cut her nails really quickly! I saw it for myself the other day when she–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800041,
-			say = "{namecode:175}小姐的脸红的好快啊~诶？她突然把{namecode:18}……提溜起来了！啊，{namecode:175}小姐逃跑了呢！",
+			say = "Oh dear, she must've really set off Suruga. She's trying to grapple Shimakaze like she's– Oops! Shimakaze ran away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "跑得好快，原来{namecode:18}还能当做加速挂件吗？",
+			say = "Look at her run... Does she have rocket boosters or something...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "（突发情况呢……奈美子先说结束词啦！）",
+			say = "That's going in the blooper reel... Psst, Namiko, we've gotta wrap things up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感、感谢大家看到最后，接下来就请{namecode:524}为本次节目献唱一首吧！",
+			say = "Err, right... Thanks for watching, guys! That's almost it for today, but before we go, let's hear a song from San Diego. Sandy, take it from here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然事发突然？不过就交给{namecode:524}吧~我♪是♪No♪One♪~",
+			say = "You got it! A-one and a-two and a-I am number one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "这些就是昨天的录制内容哦，{namecode:175}小姐？",
+			say = "And that's everything we recorded. What did you want edited out, Suruga?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 305142,
-			say = "请把我的采访片段剪掉吧，拜托了！！！",
+			say = "All the footage I'm in, thank you very much! Every second of it!",
 			effects = {
 				{
 					active = true,
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800031,
-			say = "既然这是{namecode:175}小姐的意思，那就只好照做了呢……",
+			say = "Welp. That's a bummer, but if you say so...",
 			effects = {
 				{
 					active = false,
@@ -772,7 +772,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "至于被单独「剪出」的{namecode:175}采访片段差点由于「意外」泄露的事，就又是后话了……",
+			say = "This deleted footage ended up nearly being leaked to the public. How that happened, though, is a story for another time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

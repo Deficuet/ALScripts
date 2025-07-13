@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg5",
 			stopbgm = true,
-			say = "大棋盘·{namecode:84}控制区 第二回合",
+			say = "Exercise Area, Dragon Palace Base - Turn 2 (Musashi's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……技能释放！{namecode:225}流之奥义！羽刃阵风！",
+			say = "I, I'm coming through! W-Wakatsuki-style secret technique – Twin-Blade Tornado!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "KABOOM––––!!",
 			flashN = {
 				color = {
 					1,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "伴随着呼喊出的招式名，{namecode:225}的身上闪烁出耀眼的光芒，然后从众人眼中消失了。",
+			say = "Wakatsuki swung her single katana with as much resolve as it took to name her secret technique.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "紧接着，无数{namecode:225}的残影出现在半空中，闪耀的刀光如同疾风骤雨般劈砍在测试者身上。",
+			say = "Her body blurred into a flash of blue light, a flurry of blows raining down onto the Tester vessel as if she indeed was wielding two blades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "当刀光终于结束后，{namecode:225}重新出现在众人眼前。",
+			say = "The Siren vessel staggered back, as if struck senseless both by the ferocity of the attack and how unexpected it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚的场景就是……发动了设置好的技能？",
+			say = "Wh-what the heck was THAT, Wakatsuki?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也太帅了啊！{namecode:225}，你刚刚是怎么做到的？！平时也没见你这么厉害啊。",
+			say = "You've been hiding that from us this whole time?! We'll never have to worry about the Sirens again if you can pull that off every day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也不太清楚……因为规则上没说只能写自己能做到的事，我就设计了一套梦幻剑法。",
+			say = "Um... I have no idea how that happened either... I just knew I had to defeat that enemy, and was thinking about a show I watched the other day...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "梦幻，自然是只有想象中能做到的事，没想到居然真的实现了……",
+			say = "Is this what Musashi meant by this place being able to \"reflect your mental state?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实很梦幻呢，我们只看到你唰地一下消失，然后紧接着就出现了无数的残影……刚刚你有什么具体的感觉么？",
+			say = "So, um... You thought about defeating the enemy using a special killer move...? C-could you teach me how to do that as well...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……有点难以形容，大概是“心想事成”的感觉？",
+			say = "Umm... Well, I had an idea of what I wanted to do in my head...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我先是在脑中回想着进行斩击的画面，然后就好像真的在一瞬间获得了力量，回过神来自己就已经出现在半空中了。",
+			say = "So then I swung my katana, and before I knew it, I was unleashing blow after blow into the enemy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真好啊……早知如此，我应该和{namecode:104}一起设计些更华丽的招式的……",
+			say = "Wow... I wish I could come up with a special move for myself as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……{namecode:103}姐！这次可是亏大了……",
+			say = "There's no need to worry about that, sis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们设计的技能具体是什么？",
+			say = "Hmm? Did you come up with something good?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我和{namecode:103}姐一样，都叫「千之羽」，是连协技能哦~当我们都在场的时候可以对据点发动超强的攻击！",
+			say = "This might seem a bit obvious, but we've always had great teamwork together, right? Next time, let's try launching a combo attack together and see what happens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从刚才的轰炸中你也感受到了吧，虽然没有全部命中，不过威力还是不错的哦~",
+			say = "That last attack felt a lot better than usual... We didn't even land all our attacks, but there's already a noticeable difference...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:226}呢，你设计的是什么样的技能？",
+			say = "Sakawa, you should come up with a special move as well! We might never get another chance to do something this cool ever again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，其名为「{namecode:226}鬼神斩」！一个不输给{namecode:225}的华丽剑技哦！",
+			say = "That's true... In that case, allow me to demonstrate my \"Demon-Banishing Slash,\" a dazzling display of swordsmanship that does not pale at all before Wakatsuki's technique.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等用到的时候你们就知道了~啊……好期待实际的效果啊……那个真的好帅的！",
+			say = "Wait, hold on a sec... I shouldn't waste my ace-in-the-hole technique right here and now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……我有个小问题，发动技能必须要喊出名字么？",
+			say = "By the way, how do we even activate our special abilities anyway? Do we have to call out their names or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "规则书上确实是这么写的，不过好像不论大声喊还是小声喊都可以……",
+			say = "I'd assume not, but shouting the name should form a clearer image of the ability in your mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是{namecode:103}和{namecode:104}刚刚一声都没喊啊！",
+			say = "Makes sense. Chiyoda and Chitose didn't have to shout anything out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因为我们是被动技能啦！欸……光注重效果而忽略了表现形式……",
+			say = "Hey, it's not like we were trying to come up with a special technique anyway? Chitose and I are in sync, so we already have the mental imagery of how we want to fight with each other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……那我得赶紧想一个呼喊出招式名的帅气方式了！",
+			say = "Thanks for the tip. I'll keep that in mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，大家都已经完全乐在其中了啊——————",
+			say = "Wait, Tester still hasn't been defeated, right? We got too caught up in the moment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "通讯器中的话音未落，{namecode:27}就伴随着一片光芒出现在{namecode:226}等人面前。",
+			say = "When everyone turned around, Wakatsuki, who had just landed a devastating blow on the Tester vessel, was nowhere to be found. Instead––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "而原先在众人面前的{namecode:225}则同时出现在了先前{namecode:27}所在的位置上。",
+			say = "Her position in the vanguard of the fleet had been replaced by Suzutsuki, a ring of light beneath her feet symbolizing the usage of a special command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "？！这个是{namecode:84}大人指挥卡「退避三舍」的效果！",
+			say = "Woah, woah, how'd I get here all of a sudden?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……是在看到航空作战不够理想之后，选择让我来协助么。",
+			say = "I was wondering where Wakatsuki went off to, but turns out we swapped positions!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:27}设计了什么技能呢？",
+			say = "Maybe Musashi was afraid of Wakatsuki getting too badly damaged and swapped her with Suzutsuki.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「攻防兼备之{namecode:27}」！在防空战上进行了特化的技能，只要在我身边，就不用担心来自空中的威胁！",
+			say = "That's fine by me. I was just looking for an opportunity to test out my special technique too! Suzutsuki, causing confusion! Unparalleled Blade-Dance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为普通的被动技能，用来收拾一下测试者的浮游机十分合适，缺点嘛……可能就是不够帅吧，哈哈~",
+			say = "I love having aerial targets to aim at as well. Luckily, this Siren has a bunch of floating cannons, so I'm really able to show off my keen aim! Too bad there's only one enemy though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只要能帮上忙，又有什么关系呢！",
+			say = "Well, as long as I get to do what I'm best at, I'm one happy camper!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:225}，刚才在最前排吃测试者的反击辛苦了，在后方好好休息一下，接下来的就交给我吧！",
+			say = "Now that I'm here, you have the strength of a hundred ships on your side! I'll be taking your mark, Wakatsuki!",
 			painting = {
 				alpha = 0.3,
 				time = 1

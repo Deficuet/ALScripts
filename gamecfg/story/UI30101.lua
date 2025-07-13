@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "“AF可能缺少淡水，攻击部队带足淡水”？看来我们这次可是钓到大鱼了",
+			say = "Hornet i'm receiving a decrypted telegram. \"AF is short on water, should the attack plan consider this?\" Looks like something big just took our bait.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "再狡猾的狐狸，到了关键时刻也是会露出尾巴的呀，哈哈哈",
+			say = "Even the most cunning fox cannot hide its tail, hehe.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -49,7 +49,7 @@ return {
 			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "既然已经知道了AF指的就是中途岛，那么我们就该尽快动身了",
+			say = "Now that we've confirmed \"AF\" is indeed Midway, we should move out immediately.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "可是姐姐你之前受的伤…",
+			say = "But Yorktown, your injuries...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -86,7 +86,7 @@ return {
 			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "不要紧，港区的维修员奇迹般的只用了三天，就让我复原到了原来的状态~ 他们真是太可靠了",
+			say = "Don't worry. The maintenance crew were working around the clock for three days to bring me back up to shape. They're so reliable.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -104,7 +104,7 @@ return {
 			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "倒是企业你呀，要是再受了点什么意外擦伤，让女灶神小姐找上门告状的话，我可就没法交代了呵呵",
+			say = "Enterprise, how about you? If you get hurt again because of me, Vestal will never let me hear the end of it.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔…",
+			say = "F-fine...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -141,7 +141,7 @@ return {
 			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "这一次可是我们三姐妹难得的一起出击，一定要让大家看看我们约克城级的实力！",
+			say = "Considering it's not every day that all three of us get to fight together, we've got to show off the power of the Yorktown-class!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -158,12 +158,12 @@ return {
 		{
 			actor = 107060,
 			actorShadow = true,
-			actorName = "企业&大黄蜂",
+			actorName = "Enterprise & Hornet",
 			side = 0,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "好的！——为了碧蓝色的自由意志，天佑白鹰！",
+			say = "Yes ma'am! For freedom, and the glory of the Eagle Union!",
 			subActors = {
 				{
 					actor = 107070,
@@ -181,7 +181,7 @@ return {
 			actor = 107050,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "白鹰第16、第17特遣舰队，出击！",
+			say = "Union Task Force 16, 17, sortieing!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -207,7 +207,7 @@ return {
 			},
 			sequence = {
 				{
-					"          第三章   命运的五分钟 <size=34.5>Five minutes of fate</size> \n\n\n\n",
+					"          Chapter 3 - <size=34.5>Five Minutes of Fate</size> \n\n\n\n",
 					2
 				}
 			}

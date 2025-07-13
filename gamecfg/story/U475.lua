@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>五  无法保持冷静的地方</size>",
+					"Days of Tranquility\n\n<size=45>5.Breaking the Silence</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "对于{namecode:413}来说漫长而平静的日子，突然迎来了完结之时——",
+			say = "U-47's days of peace and quiet had gone on for long, but that was about to change very suddenly.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -57,7 +57,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:413}，你果然躲在这里！下次轮到我来躲了，什么时候开始？",
+			say = "Would ya look at that! You were here all this time, eh, U-47? That means you're the seeker now. When are we playing the next round?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:413}躲在如此明显的地方都没被找到，果然是因为我运气不好吧……",
+			say = "This is such an obvious spot, and you still struggled to find her...? Maybe my bad luck is rubbing off on you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天的指挥室异常嘈杂——这也是当然的，现在正有三个潜艇聚集在这里。",
+			say = "The office was unusually rackety, which was no surprise given that three submarines had gathered this day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "每天都（躲）到这里来的{namecode:413}，最终还是被同伴们发现了。",
+			say = "It was almost a miracle how U-47 had managed to fly under their radar for so long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:414}，我知道你想玩捉迷藏。但是现在先安静下来，指挥官正在工作。",
+			say = "Yeah, I know, I'm the seeker. Could you pipe down? Commander's trying to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我知道了，我会安静的！",
+			say = "All right, I'll be quiet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也会乖乖呆在这里……就算我要做什么，也只会因为运气不好而给大家带来麻烦而已……",
+			say = "I'll just keep to myself... Lord knows what damage my bad luck could cause if I do anything else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然三人彼此之间性格迥异，不过{namecode:413}说过，她呆在这里并不是因为不喜欢她们。",
+			say = "The trio couldn't seem any more different, but U-47 did say she doesn't dislike them, so I assumed they were at least on friendly terms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "比起以指挥官的身份说些什么，还是让她们自己解决问题吧。就这样想着决定再次投入工作时——",
+			say = "Rather than order the other two to leave, I decided to just focus on my work instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，有件事我忘记说了！",
+			say = "Oh right, I forgot to tell ya something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:414}。从我叫你安静到现在还不到十秒钟。",
+			say = "U-81, please... I told you to be quiet not even ten seconds ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是很重要的事情啦！下次演习，我们三个在同一组哦！",
+			say = "It's important, though! The three of us are gonna be a team for the next mock battle!",
 			effects = {
 				{
 					active = true,
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说起来，确实有这件事来着……",
+			say = "I'd heard about this before during a meeting with the Iron Blood's leaders. There was to be a mock battle to improve their submarines' skills.",
 			effects = {
 				{
 					active = false,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有几天就要演习了，我们三个人应该一起去训练一下嘛！怎么样，怎么样！？",
+			say = "It's only a few days away, so it'd be a good idea to get together and practice. Whaddya say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……知道了。但是——",
+			say = "Sure, but on one condition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:413}砰地一声合上正在看的书，从沙发上站起来。",
+			say = "U-47 closed the book she was reading, then rose from the couch and walked over to the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的我没办法心平气和地参加练习，之后再说吧。总之先让我冷静一下……",
+			say = "I'd like some time alone first, then we can practice. I'm kinda in a restless mood right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "丢下{namecode:414}和{namecode:416}两人，{namecode:413}一个人从指挥室走了出去。",
+			say = "U-47 left the office before the other two had time to answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔——{namecode:413}真的会来吗……她总是独来独往的……",
+			say = "Question is whether she'll turn up or not... Always goes off on her own, that girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有办法训练磨合……在之后的演习中我们也许会搞砸的吧。",
+			say = "Yeah, she's not much of a team player... My biggest concern is just making sure I don't mess up during the battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原本是一次为了强化潜艇作战的演习，如果就这么放任下去的话……",
+			say = "The conversation between the remaining submarines made me think. It was likely they would run into teamwork problems with U-47.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我们应该怎么办才好啊！？",
+			say = "Any advice on what we should do, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "配合{namecode:413}的个性，制定一个能让她在团队中发挥更顺利的作战方案吧。",
+			say = "\"Maybe. Let me see if I can devise a plan that'll let you all perform to the best of your abilities.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

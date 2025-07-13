@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，我无法通过侦察模块获取前方海域的任何信息。海域之中存在未知强敌的概率接近100%。",
+			say = "Confirming Siren coordinates. Synchronizing information from scanning mode... Sync failure. Commander, there is a near-certain probability of an incredibly powerful enemy being here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请确认是否解除塞壬区域封锁装置进入海域的深处？",
+			say = "Please confirm if you would like to lift the Siren blockade and proceed deeper into this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,15 +38,15 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "确认",
+					content = "Let’s go.",
 					autochoice = 1
 				},
 				{
-					content = "查阅作战说明",
+					content = "Check the details of the Siren coordinates.",
 					flag = 2
 				},
 				{
-					content = "离开",
+					content = "Leave.",
 					flag = 3
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "指令已确认：正在尝试解除塞壬区域封锁装置——————",
+			say = "Attempting to lift Siren blockade...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

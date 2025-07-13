@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在信号弹升空的那刻，原本寂静的水域便躁动了起来。",
+			say = "The calm sea begins bursting with activity as soon as the signal flare goes off.",
 			bgm = "story-temepest-2",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "长着触手的船只一艘接一艘浮出海面，摆出了战斗姿态。",
+			say = "One by one, wreckages infested with tentacles rise to the surface and set their sights on our vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "不过随即，它们便同另一个更为巨大的“触手生物”打了起来。",
+			say = "But, Mary Celeste puts a swift stop to them using what one could only call her \"rigging.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是…………",
+			say = "What the heck is that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,11 +64,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的宠物，深海生物阿尔戈。",
+			say = "Argo. She's my companion and rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,12 +82,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦、哦……",
+			say = "Oookay then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,12 +101,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真没想到会见到活着的深海生物……",
+			say = "That's gotta be the biggest deep-sea creature I've ever seen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,11 +120,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，有这种事早说啊，玛丽。",
+			say = "You shoulda told us earlier you had this ace up your sleeve!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,11 +138,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……主要是怕你们一时间接受不了……",
+			say = "Ahahah! I was worried you wouldn't accept her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,11 +156,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，现在我们可以悠闲地看着深海生物和触手船打擂台赛？",
+			say = "So what do the rest of us do now? Sit back and watch while you do the fighting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,12 +174,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们的世界还真是魔幻……",
+			say = "What a world we live in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,11 +193,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还不能高兴太早，这些怪船似乎并不简单。",
+			say = "No, we cannot be complacent. These beasts are no ordinary haunted ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们有没有发现，阿尔戈造成的那些损伤正在修复？",
+			say = "See how they've recovered from the damage Mary inflicted?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,12 +221,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔戈确实反馈了同样的情况。",
+			say = "I can see it, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,11 +240,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看样子，它给这些怪船造成的“伤口”会结痂愈合……",
+			say = "Wherever Argo leaves a cut, they fill the gap and heal back up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,12 +258,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你好像是在说，这些怪船是活着的。",
+			say = "Why, it's almost as if these ships are alive~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,12 +277,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比起说是船活着，不如说是有什么生物把这些沉船当成安乐窝了吧……",
+			say = "More like, aquatic life has made its home inside the ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,11 +296,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……寄居蟹？",
+			say = "Oh! Like how a hermit crab does?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,12 +314,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "差不多，但寄居蟹可不会长着张牙舞爪的触手。",
+			say = "Probably! Crabs don't usually have razor-sharp tentacles, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,11 +333,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然还是不能在一边光是看着啊，必须想办法延缓它们的愈合速度。",
+			say = "At any rate, it'll never end if they keep healing like this! We need to find a way to stop or slow down their regeneration!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,12 +351,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然这些怪船是活着的，我们可以试试把炮弹烧红打过去，这招肯定管用。",
+			say = "I know one thing that works on all living things – fire! I'll blast 'em till my cannons glow red!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,12 +370,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……！要、要那么做吗？",
+			say = "F-fire? You're gonna fight them with fire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,11 +389,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，我先躲远点……",
+			say = "I'll, uh, stand back a little...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,12 +407,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也不至于躲这么远吧……？",
+			say = "\"A little\"? You just went to the opposite end of the ship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……怕火？",
+			say = "I believe Mary may have a fear of fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,11 +440,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的假的……？",
+			say = "Really? Is that true?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,12 +458,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……！说怕、怕火也太直白了哟？",
+			say = "N-no! It's not a phobia or anything like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,11 +477,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "玛丽我，可是能隐身的幽灵船哟？",
+			say = "It's for practical reasons! I'm a ghost ship, remember?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,12 +495,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会、会躲避火光是当然的哟？",
+			say = "I need to stay out of the light to go invisible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,48 +514,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈~我想也是……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "嗯，不知道这些怪船里的东西能不能吃。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600010,
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "要是能就好了，等这仗打完，我看看能不能给大家做一顿正宗烤肉。",
+			say = "Heheh. Fair enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,12 +532,49 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特别是玛丽你…………咦？玛丽呢？",
+			say = "Do you girls think the flesh of these monsters is edible? I sure hope so.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600010,
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			factiontag = "The Rising Star",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Ooh, I've got an idea! Let's make barbacoa after the fighting's over!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			factiontag = "The Rising Star",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mary, you're gonna love the– Huh? Where'd Mary go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,11 +588,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她好像隐身了，我们还是抓紧时间对付这些怪船吧，皇家财富。",
+			say = "She likely vanished again. Never mind her – focus on wiping out these creatures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,12 +602,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的~烧红的炮弹来咯！",
+			say = "Okay! Let's turn these bastards to calamari!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,11 +621,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开炮开炮！！",
+			say = "Fire! Fireee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "然而，一道火光比皇家财富的炮弹更先一步命中了怪船。",
+			say = "Before Royal Fortune's guns could hit their target, a barrage flew in from the opposite direction and struck the monster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "只是眨眼的功夫，怪船就只剩下了还在滋滋冒着蒸汽的半边。",
+			say = "Columns of water shoot up, briefly obscuring the half-destroyed wreckage. The creature that calls it home has been nicely grilled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,12 +713,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还挺香？……不对，就这么一下就烧熟了？是谁做的？",
+			say = "You smell that? It's already crisp and ready to eat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,11 +732,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们看到了吗？",
+			say = "But how? Who else fired besides me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,11 +750,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是加里冒险！加里冒险她过来了！",
+			say = "Look! It was Adventure Galley! She's coming towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,11 +764,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你总算回来了，维达，她到底是怎么回事？",
+			say = "There ya are, Whydah! Why's she coming after us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,10 +782,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我、我不知道……？",
+			say = "Y-you think I'd know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "还没等皇家财富多问什么，一道愤怒的咆哮声就响了起来。",
+			say = "While Royal Fortune pulls a puzzled expression, a roar rings out from somewhere in the sea.",
 			bgm = "battle-temepest-1",
 			typewriter = {
 				speed = 0.05,
@@ -808,7 +808,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "紧接着，一道赤色流星猛地冲出了水面，带起了磅礴的巨浪。",
+			say = "A purple shadow jumps out of the water, leaving a great spray of brine in her wake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,73 +819,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "待水花散去后，众人才看清，那是一个神色狂傲的紫发少女。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "好大的铁爪……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600010,
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这就是你们说的加里冒险了吧？很符合我对加里冒险的想象欸……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			hidePaintObj = true,
-			say = "似乎是听到有人提及了自己的名字，加里冒险将视线缓缓地转了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600060,
-			side = 2,
-			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……嗯？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Her eyes, filled with bitterness, glare at us. Adventure Galley has sighted us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,12 +829,78 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "The Rising Star",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Those claws, and that vibrant purple hair...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600010,
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			factiontag = "The Rising Star",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "That's it! It's Adventure Galley! She's just how I imagined her!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			hidePaintObj = true,
+			say = "Galley's gaze slowly moves towards Royal Fortune, the one who called her name.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600060,
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			factiontag = "Retiree",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hmm?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_jufengv1_1",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是你们几个打扰了我的清静？",
+			say = "So it's you lot that ruined my slumber.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,12 +914,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………呵、呵呵呵呵！",
+			say = "Heehee... Hahahahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,7 +934,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "搞清楚了制造噪音的罪魁祸首后，加里冒险的神色变得愈加不善了。",
+			say = "Having identified the person behind all the noise, Galley's expression warps into something grim.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,11 +944,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哇哇哇……！",
+			say = "Uh-oh! UH-OH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,11 +968,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加里冒险生气啦！肯定是起床气犯了！糟、糟了……！",
+			say = "She is FUMING! I think we angered her by waking her up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,12 +992,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈……？",
+			say = "Uhh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "在众人的慌乱中，加里冒险发出了蕴含怒火的咆哮声。",
+			say = "Galley lets out a furious roar from having her peaceful sleep disturbed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,12 +1022,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这 是 我 家 门 口！！",
+			say = "THIS IS MY DOMAIN!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1041,12 +1041,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吵 死 啦！！！！！",
+			say = "YOU WILL PAY DEARLY FOR YOUR RACKET!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1061,7 +1061,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "加里冒险直接向着“伟大的皇家财富”猛攻过来，但势大力沉的一击却被探过来的长枪直接挑开。",
+			say = "Brandishing her great steel claws, she starts charging straight towards the Great Royal Fortune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,11 +1071,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你的对手，是我。",
+			say = "...I, São Martinho, shall be your opponent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1085,12 +1085,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是……",
+			say = "You...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,12 +1104,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我知道了，你就是那个“无敌”的象征。",
+			say = "Hahahahah! I know you! You're the Invincible Crown!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,11 +1123,11 @@ return {
 			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好、你很好！",
+			say = "Perfect! Absolutely perfect!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,12 +1141,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "隐居者",
+			factiontag = "Retiree",
 			dir = 1,
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "足够做我的对手了——！！",
+			say = "I couldn't ask for a more worthy opponent!",
 			painting = {
 				alpha = 0.3,
 				time = 1

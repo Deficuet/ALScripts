@@ -14,7 +14,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈！被你们看到本涂鸦艺术大师的创作过程了！",
+			say = "Hah! You've found the graffiti master at work.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是在画什么……？",
+			say = "What are you drawing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "这可是要让这个无聊的小镇焕然一新的艺术作品！",
+			say = "I'm making art to revitalize this dull-ass town!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "怎么样？是不是很有叛逆精神？嘿嘿~",
+			say = "Whaddya think? This is some real art of rebellion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "这些画确实很特别……",
+			say = "That sure is a... unique drawing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,18 +101,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "什么啊，你那犹犹豫豫的语气……该不会是在小看我吧？！",
+			say = "Why'd ya hesitate? \"Unique\" is all you've got? You think I'm dumb, huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这样到处涂鸦不太好吧？",
+					content = "(Lecture her on leaving graffiti all over the place.)",
 					flag = 1
 				},
 				{
-					content = "这些画得不错！",
+					content = "(Compliment her artistic talent.)",
 					flag = 2
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "这样到处涂鸦，不太好吧？",
+			say = "Hey now, you can't just spray-paint wherever you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切，这种墨守成规的想法最无趣了！",
+			say = "Hmph! It's 'cause of all that stick-in-the-mud thinking that everything's so lame around here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "艺术就是要打破常规！要让这个小镇的每个角落都充满个性！",
+			say = "Art is about breaking the rules! And I'm gonna break 'em by styling up every wall in this whole town!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,12 +165,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_704",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}，你看，这些颜色搭配得确实很漂亮呢。",
+			say = "Look, {tb}, these colors indeed complement each other well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！你这种说法是在敷衍我吗？！这可是艺术！",
+			say = "Come on! This is real ART, like I said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说了，看到我的艺术创作……指、指挥官心情也会变好的吧！",
+			say = "Besides, s-seeing this art ought to, like, lift the Commander's spirits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "少女气势汹汹的话语突然变得有些磕磕绊绊。",
+			say = "Svirepy's tone suddenly changes from confrontational to stuttering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "这些画得不错！而且构图也很独特！",
+			say = "This looks amazing, Svirepy! The composition is so unique and eye-catching!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是当然！这可是我独创的风格！",
+			say = "Of course it is! That's my signature style!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不要我教你们几手？……当、当然，不是说我很期待你们来学！",
+			say = "If ya want some pointers, I can give ya a few. N-not that I'm eager to teach someone or nothin'!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,12 +266,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_704",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}觉得怎么样？我是感觉很有意思哦，而且凶猛小姐好像也很期待。",
+			say = "What do you think, {tb}? It sounds quite interesting. Svirepy seems keen on the idea, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你这家伙……！",
+			say = "You... Hey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "笑着摇了摇头，抬手摸了摸两位少女的发顶。",
+			say = "I crack a stiff smile and pat them both on the head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那今天就一起进行“艺术创作”吧！",
+			say = "Alright, let's dive into the world of art today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "好耶！",
+			say = "Sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "之后和凶猛度过了一起肆意挥洒创意的时光。",
+			say = "After that, we spent some time with Svirepy, allowing our creativity to run wild.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "离开时，娜比娅似乎受到了新的启发。",
+			say = "On our way home, Navi seemed to have gained some inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

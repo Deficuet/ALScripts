@@ -11,7 +11,7 @@ return {
 			bgName = "bg_banama_1",
 			bgm = "hunhe-story",
 			dir = 1,
-			say = "巴拿马要塞东侧·外海",
+			say = "Canal Stronghold - Eastern region",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,24 +26,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "企业一个人向着外海驶去，四周如同来的时候那样风平浪静，柔和的阳光洒在略带温热的水面上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_banama_1",
-			actor = 107060,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "………失踪舰队和求救通讯。",
+			say = "With the help of her allies, Enterprise launched a search in the waters to the east of the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +43,24 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明收到求援通讯，却没有发现任何战斗痕迹…",
+			say = "...An entire fleet, vanished without a trace. And a mysterious SOS signal...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_banama_1",
+			actor = 107060,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "According to Baltimore's message, they did in fact encounter Sirens. We've found no signs of any sort of battle despite that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果塞壬想要切断通讯的话，怎么可能偏偏漏过最重要的救援通讯。",
+			say = "So far, we've known that our communications equipment always breaks down when entering a Mirror Sea. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是为了把我们调离NY司令部么？",
+			say = "If you can't count on that assumption...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对…NY司令部在遭受袭击后现在的防守已经堪称密不透风了。更何况现在也没什么袭击价值…",
+			say = "Doesn't that only make this phenomenon even more suspicious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总觉得，有哪一环很奇怪……",
+			say = "Think harder. It's normal for fog to roll in along the coast, but there's no way it should extend so far out to sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海雾……嗯？海雾……？",
+			say = "What could it mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰队在失踪之前，好像遇到了大面积的海雾。",
+			say = "No... could something like that be possible...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果在海雾中遭遇敌人的话，确实可能会发出求援通讯。然后紧接着，通讯就被干扰了……",
+			say = "The mist was originally created by the Sirens, but its purpose is not necessarily to jam our equipment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来所谓海雾不单纯就是“海雾”而已呢。",
+			say = "But to dare us to use it, to lure me into a trap...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "就在企业沉思时，企业连同身边的海面在内，被不知不觉中出现的海雾包围了。",
+			say = "Before she could finish her thought, Enterprise's surroundings quickly became enveloped in a thick, white mist.",
 			dir = 1,
 			bgm = "xinnong-3",
 			effects = {
@@ -235,7 +235,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "？！这些海雾是什么时候出现的？！",
+			say = "When did they find me?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -257,7 +257,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟了，果然是塞壬的--------",
+			say = "So, the Sirens were behind this after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

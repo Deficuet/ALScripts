@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}！安克雷奇，变了吗？……有没有，成长？",
+			say = "{dorm3d}, has Anchorage changed? Have I grown?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "多喝牛奶，会长大！安克雷奇，喝很多！",
+			say = "When you drink lots of milk... you get big and strong! Anchorage will drink lots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "变大一点，{dorm3d}喜欢，对吗？",
+			say = "When I'm big and strong, you'll be happy... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……还在成长期！",
+			say = "Anchorage... is still growing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "战斗早已结束，海面上遍布着塞壬IV型的残骸。",
+			say = "When the fighting ended, the once calm waters had been littered with Siren wreckages.",
 			bgm = "theme-bismark-reborn",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "在{namecode:435}展现出全新的力量后，原本危险的战斗就变为了单方面的碾压。",
+			say = "Bismarck's display of overwhelming power rallied her allies and neutralized the threat of what should have been a deadly enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "本来应该是一场辉煌的胜利，不过众人的心已经全然不在这上面了。",
+			say = "Yet, never had the nectar of victory tasted more bitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "刚刚究竟发生了什么事……",
+			say = "What happened to U-556?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "为什么{namecode:416}会突然……陷入那种状态？",
+			say = "Why did she suddenly... get swallowed up by that black mist?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:416}原本有伤……",
+			say = "I don't know, but I have a theory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "正如各位所知，在与皇家的遭遇战后，沉入水下的我被{namecode:416}救出了重围。",
+			say = "When I sank following the battle with the Royal Navy long ago, she dove into the water to save me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这期间，她受到了水下塞壬舰队的追击，并在近距离接受了元魔方的影响。",
+			say = "While she did manage to drag me to safety, I was severely corrupted by my use of the Black Cube at the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "虽然没有我那么严重，不过也是和我一起休养至今的。",
+			say = "Her close proximity to me must've caused some erosion to her Wisdom Cube, though not to the same extent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………也许她刚才发生的异常事件，会与此有关。",
+			say = "What we just witnessed... might be related to that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "…………难道是旧伤复发？",
+			say = "Just like an old wound opening back up, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不好说……明明临行前所有检查都显示无异常……她又一再坚持我才……",
+			say = "I can't say for sure... She's reassured me again and again that all her inspections have come back normal, but I should've been more attentive...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "……她会发生异常是因为使用了新型舰装么？",
+			say = "How did you get better? Can't you give her a brand new rigging like yours?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，并没有那样的计划，她只是单纯的养伤而已。",
+			say = "It's hard to say. Her recovery seemed on-track with standard medical treatment, and there are still limitations with the rigging technology...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "或许正因为如此，如果换上之后也许就不会有问题了……",
+			say = "(Without the Commander's help, there's no way of connecting to her Wisdom Cube...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……",
+			say = "This is my fault for underestimating the extent of the Black Cube's corruption...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "{namecode:435}的脑海中又回想起{namecode:416}的向她伸出的手。",
+			say = "Just then, the vivid imagery of U-556 just before she disappeared beneath the waves flashed through Bismarck's mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_2",
 			hidePaintObj = true,
-			say = "黑色的气息逐渐吞没她的脸庞，那种迸发而出的冲击却令{namecode:435}感到似曾相识。",
+			say = "Her trembling, outstretched hand, her anguished scream, that look of desperation and fear on her face. The fear of becoming something else–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（…………刚刚的气息，和强行分离元魔方时遭受的冲击感觉类似……）",
+			say = "(The Black Cube's corruption... METAmorphosis...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,42 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（难道……海域中存在某个以元魔方为核心的装置？）",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 405050,
-			say = "（在与塞壬的激战中没有第一时间察觉到，而引起了{namecode:416}的旧伤复发……）",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（如果是这样的话……依靠革律翁，接下来的战斗多少能提前应对一下。）",
+			say = "(That's right... Something in this Mirror Sea must be amplifying the effects of the Black Cube corruption...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（然后只要把{namecode:416}尽快找回来，还能处理……！）",
+			say = "(I didn't notice it during the battle, but that must've been what caused U-556 to relapse.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +372,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:491}，侦察结果如何，找到她了么？",
+			say = "(If we can take it out, it might not be too late to save U-556.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_bsmre_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 405050,
+			say = "(I can't put anyone else at risk... This is my duty as the wielder of the Zwei rigging!)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405050,
+			side = 2,
+			bgName = "bg_bsmre_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "This might be a long shot, Jade, but can you see if you can find U-556?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "还没有……但，有了一些其他发现！",
+			say = "Sadly, I can't see much of anything right now other than Sirens in the distance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "海域中又出现了一些塞壬IV舰队，似乎正在追击什么目标！",
+			say = "Several fleets of mass-produced ships, in fact. They're moving towards the Tower of Midgard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "方向呢？！",
+			say = "That must be it. What's the quickest way there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "东北方向，向着米德加尔特之塔的位置笔直前进！",
+			say = "To the northwest. It's a straight line for the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "好，我们也跟上。",
+			say = "Everyone, follow me. We're going after the Siren fleets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "调整航向，全速向着米德加尔特之塔前进！",
+			say = "Full speed ahead to the tower!",
 			painting = {
 				alpha = 0.3,
 				time = 1

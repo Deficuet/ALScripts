@@ -9,7 +9,7 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如何，看得还算满意么？",
+			say = "Are you satisfied now?",
 			bgm = "theme-themagiciani",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——悬疑、紧张又出人意料的设计确实很多。",
+			say = "Hmm... I enjoyed the suspense, thrills, and unexpected plot twists.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大场面和血流成河也有了……",
+			say = "The flashy battles were a nice touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "百分制能给个八十二，还不错？",
+			say = "82 points. Not bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这次费尽心思激发「死神之镰」，是为了解决沐恩那边的问题吧？",
+			say = "Going so far as activating Death's Scythe was your way of solving Moon's problem, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "这是将实验推入三阶段的必要条件，如何，有兴趣了么？",
+			say = "It was a prerequisite to progress the experiment to stage three. Does that pique your interest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "没兴趣。仲裁机关的实验和我有什么关系？",
+			say = "It does not. What should your experiments have to do with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "更何况是「越界实验」。",
+			say = "Especially not the transboundary experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "你知道我对于「越界实验」的态度。",
+			say = "You already know my feelings about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "这些实验可是零传承审判者大人的意志亲自定下来的。",
+			say = "Zero formulated these experiments based on her interpretation of Master Arbiter's wishes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "她说传承了就传承了？",
+			say = "Oh, it's her \"interpretation,\" hmm? Pretty words, if meaningless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "为什么「塔」里没有记录呢？",
+			say = "Strange how the Tower has no records of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "「塔」的问题你比我更清楚……",
+			say = "I admit that you would know the Tower better than I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "我不打算在这个早有定论的问题上和你继续争论下去了。",
+			say = "But the matter is settled, and I have no inclination to relitigate it with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也不打算——",
+			say = "Likewise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "等等……气氛不太对，讲话都别扭。",
+			say = "Wait... Something is off. Now isn't the time for chit-chat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~这下舒服了。",
+			say = "Phew... That's better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看在这次剧本还不错，加上你一忙起来就不会再烦我了——你的忙我帮了。",
+			say = "Out of deference toward your competent script-writing, and with the knowledge that you'll leave me alone while you're busy, I'll help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "我会给你留一处空间放“特别教室”的，保证不会受到除了我之外任何人的监控哦~",
+			say = "I'll leave space for you to place your special classroom. Rest assured that nobody will monitor it, save for myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "……我还没提你的「塔」给我造成了多少麻烦呢。",
+			say = "You know, that Tower of yours has been a thorn in my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "又不是我用的，谁用的你去找谁嘛~",
+			say = "And whose fault is that? Not mine. Quarrel with whoever's troubling you, not me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再说了，我也没找你要「塔」的维修费啊？",
+			say = "You're lucky I haven't pressed you to compensate me for repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那我给你维修费，你帮我暂时把「塔」给停了可好？",
+			say = "If I compensate you with resources, will you stop its operation for a time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "那可不行，龙猫可比你的维修费可爱多了。",
+			say = "I think not. I like my little pets more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你干嘛死盯着她们不放？",
+			say = "Why are you so obsessed with them, anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "还要感谢你的「塔」，我在应对她们的时候，也被她们拖住了。",
+			say = "Because of your Tower. They got in my way when I was trying to deal with other pests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "我信了。",
+			say = "Mmm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "看来我们是无法达成一致了。",
+			say = "Well, I can see that we won't reach an agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "我们在等着看好戏这方面很一致啊？",
+			say = "But don't we agree that we both like a good show?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "……我在等我的计划结果，你在等什么？",
+			say = "...I'm waiting for the results of my plan. What about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你究竟在盘算什么？",
+			say = "What's going on in that head of yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "怎么宅家？如何养宠物？追什么剧？",
+			say = "Home security, pet-rearing, soap operas–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900490,
-			say = "告辞。",
+			say = "Goodbye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "切——还是那么没意思，不经逗。",
+			say = "She never could take a joke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "我说不参与实验，又没说不去看戏，笨。",
+			say = "I won't take part in the experiment, but I never said I wouldn't enjoy the show. Silly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "不但要去看那边的戏，还要看这边的！",
+			say = "Now I have two to watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "有只小灰鸟偷偷飞进来了，但是谁都没发现呢——",
+			say = "It's a wonder that nobody noticed this little birdie flying in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "呵呵~那我就谁也不告诉~",
+			say = "Heehee. Don't worry, I'll never tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "等着看好戏咯~",
+			say = "Make sure you entertain me, now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

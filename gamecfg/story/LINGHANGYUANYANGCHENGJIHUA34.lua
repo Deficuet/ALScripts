@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-27",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "……嗯？这样对眼睛不好？",
+			say = "...Hm? It's bad for the eyes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,12 +24,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……已经习惯了，所以没关系。",
+			say = "Don't worry about it. I adjusted to it a long time ago.",
 			voice = "event:/educate/tb/educate-tb-story-32-28",
 			painting = {
 				alpha = 0.3,
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "毕业后的TB继续在艺术之路上探索着。",
+			say = "Post-graduation, TB committed herself to the art of painting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "她从家中搬了出去，在工作室中整日创作。",
+			say = "She moved out and found a studio apartment. There, she spends day and night refining her craft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "就连我和她之间，绝大多数时间只能通过手机联络。",
+			say = "Because of the distance between us, we mostly communicate via phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唉……要按时吃饭啊。",
+			say = "Remember, you need to eat. Is that clear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,12 +87,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，我知道，今天我会回来住的。",
+			say = "Yeah, I know. I'll be coming over to your house today.",
 			voice = "event:/educate/tb/educate-tb-story-32-29",
 			painting = {
 				alpha = 0.3,
@@ -105,12 +105,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……做些好吃的吧。",
+			say = "So... please make something tasty.",
 			voice = "event:/educate/tb/educate-tb-story-32-30",
 			painting = {
 				alpha = 0.3,
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "她小声对我承诺。",
+			say = "She whispers a promise to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

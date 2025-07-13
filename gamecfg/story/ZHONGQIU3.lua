@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……中秋潮汛呢……明明是出海口居然没有朔望雨……",
+			say = "….Where are those Mid-Autumn tides…obviously we're clearing the seaport, but there's no hope for rain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "本来，不同的地方海潮大小就不同呢……",
+			say = "After all, tidal waves differ from coast to coast...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且……能被选为港口，本身就说明不会有太大的海潮呢……",
+			say = "Also, since it's chosen as a seaport...naturally the tidal waves will not be too strong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……我竟然会犯下如此愚蠢的差错……",
+			say = "How could I have made such a stupid mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "逸仙姐姐宛如化石般一动不动——",
+			say = "Yan Set sister is motionless like a fossil---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……毕竟她一直很期待中秋的朔望雨……",
+			say = "After all, she was eagerly anticipating for rain during the Mid-Autumn Festival",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "咦？好像有什么声音传过来啦",
+			say = "Huh? Seems like there is a sound that's coming closer",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutPainting = true,
-			say = "我都换上泳装了，胡德你也不要害羞嘛~",
+			say = "I've already changed into my swimsuit, don't be shy now, Hood~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutPainting = true,
-			say = "我只说会陪你来海边，可没承诺会换上泳装。而且，在秋天冰凉的海水里游泳可不是淑女的风范",
+			say = "I said I'll only accompany you to the beach, I didn't promise you that I'll change into a swimsuit. Also, swimming in cold waters during the Autumn season is no demeanor of a lady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutPainting = true,
-			say = "胡德姐姐……可是咱昨天才看到你在海里练习游泳，还——",
+			say = "Sister Hood…but I saw you only yesterday practicing on your swimming in the sea, so----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutPainting = true,
-			say = "小！天！鹅！",
+			say = "Cy-g-net!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			withoutPainting = true,
-			say = "呀——！！！",
+			say = "Ahhhh!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "咦，有个孩子好像朝我们冲来了，速度好快！那个驱逐舰的名字是什么来着？",
+			say = "Oh, that child over there is rushing towards us, so fast! What's the name of that Destroyer again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "呀……不，我不想再被她打击了，快跑——",
+			say = "Ugh...no, I don't want to be traumatized anymore. Let's book it----",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

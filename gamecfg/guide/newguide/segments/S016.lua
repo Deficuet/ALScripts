@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"返回主界面"
+	"Head back to the main screen."
 }
 
 return {

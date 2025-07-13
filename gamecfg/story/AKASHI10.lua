@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "全部找回来了喵！指挥官好棒喵～{namecode:98}的大恩人喵～",
+			say = "You’ve found it all, nyaa~ Commander, you’re the best! You’re {namecode:98}’s savior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "这下{namecode:98}多年的夙愿终于要完成了喵！",
+			say = "After all those years, {namecode:98}’s long-cherished wish will come true at last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "一直以来辛苦收集的材料！加上早就准备好的设计图！终于能得到“那个”了喵！",
+			say = "After all that hard work, the materials have been collected! Plus all those retrofit blueprints that I’ve been preparing for a long time. I can now finally get “that”!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "——喵？指挥官愿意帮我到最后吗？",
+			say = "---Nyaa? Will the Commander help me till the end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指挥官真是好人喵…好吧！材料和设计图都给你喵！把“那个”完成了交给{namecode:98}，{namecode:98}就加入指挥官的舰队喵！",
+			say = "You’re such a good person Commander... fine! All these materials and blueprints are for you! But give “that” to {namecode:98}, and have {namecode:98} join Commander’s fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

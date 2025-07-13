@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"点击后退按钮回到主界面"
+	"Tap here to return to the main screen."
 }
 
 return {

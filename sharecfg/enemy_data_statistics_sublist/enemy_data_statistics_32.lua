@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_32 = {
+	[90959] = {
+		cannon = 0,
+		name = "Alfredo Oriani",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90959,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "aerfuleiduo",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 32,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "aerfuleiduo",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 6,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.847,
+					0.864,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.865,
+					0.872,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.342,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.776,
+							2.067,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90960] = {
 		cannon = 0,
-		name = "朱塞佩·加里波第",
+		name = "Giuseppe Garibaldi",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +314,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90961] = {
 		cannon = 0,
-		name = "果敢",
+		name = "L'Audacieux",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +470,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90962] = {
 		cannon = 0,
-		name = "迪普莱克斯",
+		name = "Dupleix",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -470,7 +626,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90963] = {
 		cannon = 0,
-		name = "斯特拉斯堡",
+		name = "Strasbourg",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -617,7 +773,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90964] = {
 		cannon = 0,
-		name = "「苍红之息-海洋」",
+		name = "Crimson Shade - Shionami",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -773,7 +929,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90965] = {
 		cannon = 0,
-		name = "「苍红之息-信风」",
+		name = "Crimson Shade - Shinpuu",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -929,7 +1085,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90966] = {
 		cannon = 0,
-		name = "「苍红之息-环流」",
+		name = "Crimson Shade - Kanryuu",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1085,7 +1241,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90967] = {
 		cannon = 0,
-		name = "「苍红之息-大地」",
+		name = "Crimson Shade - Chikai",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1255,7 +1411,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90968] = {
 		cannon = 0,
-		name = "「苍红之息-天空」",
+		name = "Crimson Shade - Soukyuu",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1411,7 +1567,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90969] = {
 		cannon = 0,
-		name = "「苍红之息-深渊」",
+		name = "Crimson Shade - Shin'en",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1555,7 +1711,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90970] = {
 		cannon = 0,
-		name = "鳐",
+		name = "Amagi",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1711,7 +1867,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90971] = {
 		cannon = 0,
-		name = "「无形之息-苍红」",
+		name = "Shadow of Corruption",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1867,7 +2023,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90972] = {
 		cannon = 0,
-		name = "素体舰-「蟒蛇」",
+		name = "Orochi, Concept Given Form",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1986,7 +2142,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90973] = {
 		cannon = 0,
-		name = "素体舰-「蟒蛇」",
+		name = "Orochi, Concept Given Form",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2105,7 +2261,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90974] = {
 		cannon = 0,
-		name = "「冻雨」型火力投射舰",
+		name = "Dongyu-Class Arsenal Ship",
 		type = 21,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2258,7 +2414,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90975] = {
 		cannon = 0,
-		name = "「幻形之息-兔」",
+		name = "Spawn of Corruption - Usagi",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2400,7 +2556,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90976] = {
 		cannon = 0,
-		name = "「幻形之息-猫」",
+		name = "Spawn of Corruption - Neko",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2542,7 +2698,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90977] = {
 		cannon = 0,
-		name = "「幻形之息-鬼」",
+		name = "Spawn of Corruption - Oni",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2684,7 +2840,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90978] = {
 		cannon = 0,
-		name = "「幻形之息-狐」",
+		name = "Spawn of Corruption - Kitsune",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2826,7 +2982,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90979] = {
 		cannon = 0,
-		name = "「幻形之息-凰」",
+		name = "Spawn of Corruption - Ootori",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2968,7 +3124,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90980] = {
 		cannon = 0,
-		name = "「幻形之息-鸦」",
+		name = "Spawn of Corruption - Karasu",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3089,7 +3245,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90981] = {
 		cannon = 0,
-		name = "「幻形之息-鱼」",
+		name = "Spawn of Corruption - Sakana",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3235,7 +3391,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90982] = {
 		cannon = 0,
-		name = "「幻形之息-朱红」",
+		name = "Spawn of Corruption - Crimson",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3391,7 +3547,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90983] = {
 		cannon = 0,
-		name = "长门·META",
+		name = "Nagato META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3548,7 +3704,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90984] = {
 		cannon = 0,
-		name = "「自在之息-九尾天狐」",
+		name = "Shadow of Corruption – Unbound Celestial Fox",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3690,7 +3846,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90985] = {
 		cannon = 0,
-		name = "「青蓝之息-九尾幻狐」",
+		name = "Shadow of Corruption – Jade Nine-Tailed Scourge",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3832,7 +3988,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90986] = {
 		cannon = 0,
-		name = "「朱红之息-九尾幻狐」",
+		name = "Shadow of Corruption – Crimson Nine-Tailed Scourge",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3974,7 +4130,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90987] = {
 		cannon = 0,
-		name = "苍蓝之影",
+		name = "Jadeite Shadow",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4130,7 +4286,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90988] = {
 		cannon = 0,
-		name = "苍红之影",
+		name = "Crimson Shadow",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4166,162 +4322,6 @@ pg.enemy_data_statistics_32 = {
 		reload_growth = 0,
 		hit = 0,
 		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.49,
-					0.74,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.51,
-					0.72,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.18,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.24,
-					1.69,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90989] = {
-		cannon = 0,
-		name = "凰·META",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90989,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "chicheng_alter",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "chicheng_alter",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 97,
 		durability_growth = 0,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,

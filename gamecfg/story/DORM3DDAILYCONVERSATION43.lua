@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，您的脸摸上去有点烫……要不要天狼星帮您降降温呢？",
+			say = "{dorm3d}, you appear to be feeling hot. Shall I help you bring down your temperature?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你打算怎么做？",
+			say = "How?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,18 +63,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "先解开您的衣服，然后天狼星会用毛巾包裹住冰块，为您擦拭身体。",
+			say = "First, I'll need to take off your clothes, then I will dry your body with an ice cube wrapped in a towel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "会感冒的吧？",
+					content = "Won't I catch a cold from that?",
 					flag = 1
 				},
 				{
-					content = "是不是有点太刺激了？",
+					content = "Isn't that pretty overkill?",
 					flag = 2
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "完全不会哦！如果{dorm3d}担心着凉的话，天狼星会用自己的体温给{dorm3d}保暖的！",
+			say = "Not at all! If you're worried about a cold, don't be. If you catch one, I will keep your body warm with my own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

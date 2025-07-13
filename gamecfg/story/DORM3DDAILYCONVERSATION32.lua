@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说到拍照，平时是{dorm3d}替天狼星拍照的时候比较多呢。",
+			say = "On the topic of photographs, I've noticed you take quite a lot of pictures of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果可以的话，天狼星也想多拍拍{dorm3d}。",
+			say = "If you don't mind, I'd like to take a lot of you as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后记录下对天狼星而言，最珍贵、最有价值的、{dorm3d}的身姿……",
+			say = "I want to build a vast collection of pictures of you, my dear, precious {dorm3d}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "永远珍藏。",
+			say = "Then I will treasure them forever and ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

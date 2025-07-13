@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "眼前巨大的鸟巢吸引了视线，宛如遮天蔽日的云。",
+			say = "An enormous bird's nest, almost as big as a cloud, catches your attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,7 +14,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "站在鸟巢的旁边，声音忽然从脑海当中响起——",
+			say = "You approach it, and suddenly hear a strange voice inside your head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "“咕咕咕……置换……”",
+			say = "\"Cock-a-doodle-doo... I shall trade with you...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,24 +32,24 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "“放入……咕咕咕……贡品……”",
+			say = "\"Leave an offering... buk-buk-buk... and be rewarded...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "放入10粗糙木料",
+					content = "Offer 10 unprocessed wood.",
 					flag = 1
 				},
 				{
-					content = "放入1宝石原矿",
+					content = "Offer 1 unprocessed ores.",
 					flag = 2
 				},
 				{
-					content = "转身离开",
+					content = "Back off.",
 					flag = 0
 				}
 			}

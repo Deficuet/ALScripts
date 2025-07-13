@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日重建！海岛别墅度假计划！\n\n<size=45>重建！海滩区的黄金</size>",
+					"Midsummer Returns: The Villa Reconstruction\n\n<size=45>6 A Sparkling Golden Beach</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_168",
 			hidePaintObj = true,
-			say = "海滩曾被台风打碎，如同一地散落的琉璃。",
+			say = "The beach on the resort island was utterly ruined, torn to shreds when the storm passed over it.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_168",
 			hidePaintObj = true,
-			say = "而如今，海风轻柔拂过白沙与碧波，这片海滩又回归了它全盛时期的完美状态。",
+			say = "Now, though, the wind is gentle and brushes against the white sands and azure waves, signaling the beach area's full restoration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "哈哈~最棒的黄金沙滩~♪",
+			say = "Haha, wow! This is the spitting image of a golden beach!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "泳装和海浪~这才有假期的样子嘛~",
+			say = "Swimsuits and waves! Now this is what a vacay looks like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此令人欢欣鼓舞的场合，必须以一场伟大的音乐会来迎接呢。",
+			say = "This exciting achievement calls for a grand concert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499022,
-			say = "有意参加者，可以来我这里报名哦。",
+			say = "All who wish to participate, please report to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的演奏可不会输给任何人。",
+			say = "My music shall be outdone by none.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105100,
-			say = "音乐场上的决斗吗？哈哈哈，真是令人热血沸腾啊！",
+			say = "We fighting with beats now? Hahah! You're getting me fired up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307070,
-			say = "呵呵，这种能独占指挥官目光的好事，怎么能让其他人抢占先机呢……",
+			say = "Heehee. This may be an opportunity to steal my Commander's eyes... An opportunity I must seize before anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这边的战况看起来已经激烈起来了……还是去别的地方避避风头吧。）",
+			say = "(Things are heating up here... I should lay low and find somewhere else to go.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "抱着这样的想法来到了邮轮码头，这里似乎也在筹备着什么活动。",
+			say = "For some reason, I've come to the docks. There is also some kind of event being held here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302210,
-			say = "钓鱼大赛吗？确实呢……没有这个游戏的话，感觉度假都不完整了~",
+			say = "A fishing competition? Hmm. Yes, I think this vacation would feel a little lacking without one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，钓竿的手感……很适合挥出居合斩……",
+			say = "How curious... Holding this fishing rod puts me in the mood to perform an iai slash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家有点小瞧钓鱼这项运动了呢。不过，习惯未雨绸缪的人更容易获得好运的垂怜。",
+			say = "Fishing as an activity is often underestimated. Those who plan ahead, however, are more likely to be rewarded with good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,18 +220,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "指挥官对此又是怎么看的呢？",
+			say = "What are your thoughts, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "寰昌一定会大丰收的。",
+					content = "I'm confident you'll catch a ton of fish.",
 					flag = 1
 				},
 				{
-					content = "不“空军”是最后的底线。",
+					content = "Here's hoping that you don't finish emptyhanded.",
 					flag = 2
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "呵呵，您说得对呢。借钓鱼磨砺心性，方能以不变应万变……",
+			say = "Heh. What you say is true. Tempering your character through fishing is how you learn to adapt to changing situations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "丰收也好“空军”也好，都是刹那间的注定。",
+			say = "Whether you reel in a big catch or come up empty, it's all determined in one blink of destiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "虽然话是这样说，但“专业人士”的尊严不允许她因此懈怠。",
+			say = "Despite her talk of destiny, her dignity as a supposed \"professional\" won't allow her to get sloppy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那就期待你的表现了，钓友。",
+			say = "Can't wait to see you in action, my fishing buddy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "事在人为，我会全力应战的，钓友。",
+			say = "I will do everything in my power, then wait for destiny's hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "正要告别眼中燃烧着胜负欲的寰昌，孟菲斯的声音就在身旁响起。",
+			say = "As I'm about to say goodbye to Huan Ch'ang amidst her ever-increasing enthusiasm, Memphis comes to speak to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，海滩区的重建工作告一段落了呢。",
+			say = "Commander, work on the beach area is more or less done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下个区域，也就是我们重建工作的最后一步——灯塔区。",
+			say = "Up next, the finale of our reconstruction project – the lighthouse area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "舰载机发回的实地考察视频显示，灯塔顶部的航标灯受损严重，已经无法起到引航作用。",
+			say = "Based on the footage the recon planes sent, the lights atop the lighthouse have suffered extensive damage and can no longer perform their duty of guiding ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们需要翻过别墅后的山林，前往灯塔区完成维修工作。",
+			say = "We'll have to go through the forest behind the villa to reach the lighthouse and complete the work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "很好——先前为野外冒险做的准备就可以派上用场了！",
+			say = "Perfect. All the outdoor equipment we set up the other day is gonna come in handy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这是重建工作的最后一步了，等灯塔区恢复正常，大家就能好好休整度假了~",
+			say = "Again, this is the last part of the reconstruction project. Once the lighthouse area is finished, we can all fully enjoy this vacation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那就即刻启程吧——目标，灯塔区！",
+			say = "Let's set off right now, then. To the lighthouse area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "就这样，针对灯塔区的重建工作正式开始了——",
+			say = "And so, reconstruction work on the lighthouse area officially began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

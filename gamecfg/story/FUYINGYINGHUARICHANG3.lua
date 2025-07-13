@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>三 新年对决！</size>",
+					"Blessings and Tidings\n\n<size=45>Chapter 3: New Year's Challenge!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "克利夫兰加油啊~~！",
+			say = "Do your best, Cleveland~!",
 			bgm = "newyear2",
 			flashout = {
 				black = true,
@@ -68,7 +68,7 @@ return {
 			actor = 102094,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看我的黄金扣杀！嘿！",
+			say = "Let's see if you can handle my Golden Smash! Yah!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -90,7 +90,7 @@ return {
 			actor = 301101,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~太天真了！看我的！",
+			say = "Too naive, Eagle Union girl! Take this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 102094,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇？！",
+			say = "Woahh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…！{namecode:12}得分！",
+			say = "Ohh! Hibiki scored again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈~果然还要多加练习啊，羽板球什么的…",
+			say = "Ahaha... You got me good there... I'll have to train harder...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 301101,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这可是重樱新年的传统运动呢~而且一开始说“不要放水”的可是克利夫兰那边吧~",
+			say = "Well, y'know, this is a traditional game here, so I have the home court advantage. Besides, Cleveland, weren't you the one who asked for me to go all out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 302211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作战失误了呢，克利夫兰",
+			say = "Strategic shortsightedness on your part, Cleveland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 401351,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜~本来对运动多少还有点自信的说~",
+			say = "Boo...! I thought this game would be a walk in the park for an athletic idol like me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 102094,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "板子也好，球也好，都不太习惯…不过还是挺有趣的~重樱的活动，还真是都挺有意思的呢~",
+			say = "All right, all right, I admit defeat. Gotta say though, this game is a lot of fun! Seriously!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次和皇家的小伙伴们也玩玩好了~",
+			say = "I'd love to bring some of the others girls from the Royal Navy to play!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 302211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能得到各位的赞赏是我们的荣幸，既然胜负已分，接下来就是…啊，{namecode:12}，你有跟 她们说过惩罚的事情吗？",
+			say = "Thank you very much. Now then... Oh, Hibiki, did you tell our guests about the punishment for losing a hanetsuki match?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 301101,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "HOHOHO~当然说过啦~我早就准备好啦！做好心理准备吧！！",
+			say = "Of course I did~? Nihihi, this is going to be so much fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,8 +304,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "克利夫兰&{namecode:410}",
-			say = "欸？",
+			actorName = "Both",
+			say = "Punishment? Wait...",
 			subActors = {
 				{
 					actor = 401351,
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…好像是…“输掉的人要被人在脸上涂鸦作为惩罚！”…来着？",
+			say = "You're going to vandalize my face...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,8 +347,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "克利夫兰&{namecode:410}",
-			say = "啊！",
+			actorName = "Both",
+			say = "Ahhhhh!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

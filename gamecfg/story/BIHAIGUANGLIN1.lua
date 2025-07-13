@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "达喀尔港·重樱休息区",
+			say = "Sakura Empire Encampment",
 			side = 2,
 			bgName = "bg_port_dakaer",
 			hidePaintObj = true,
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，铁血发来的邀请函你怎么看？",
+			say = "Sister– Ahem... Akagi. About that invitation from the Iron Blood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那份希望我们派遣舰队出访浮岛要塞的邀请函啊。",
+			say = "Yes, I know the one. The invitation to their floating fortress for a demonstration of their latest technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说什么作为天宇启户祭之行的回礼…呵呵呵。",
+			say = "I believe they said it's to return the gesture after we invited them to participate in one of our sacred rites.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "礼尚往来倒是没什么问题，我对铁血的实用化浮岛基地也很有兴趣。",
+			say = "It's a favorable trade for what we let them see at the Diadem of Light, for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题在于现在这个时间点实在有些不巧。",
+			say = "Although, the timing of this invitation is inopportune. We cannot send a sizable fleet to the Iron Blood right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错……我们位于远离本土的达喀尔港，一时半会根本没法回去。",
+			say = "Mhm. And if we ourselves go, it'll complicate our joint operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没想到碧蓝航线居然趁我们修整的时候攻陷了中心区域……！",
+			say = "Sure, we might gain some technological insight, but we'd also be inviting our enemies to take advantage of our absence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算啦算啦~没能率先进入核心区虽然有些可惜，不过也只是本次远征的一个小小挫折而已。",
+			say = "Precisely. Monitoring the Sirens and gaining more valuable intel is our top priority. Focus on that instead, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在达成目的之前，我们绝不返航哦。",
+			say = "Until we have what we need, the Sakura Empire will not mobilize on any large scale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，姐姐。那铁血的邀请果然还是应该拒绝掉么？",
+			say = "As you say. I'll tell them we have to decline their invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拒绝盟友的盛情邀约也太有失礼数了，自然是同意下来比较好~",
+			say = "Who said anything about declining it? The Iron Blood is our closest ally. We can't say we're too busy for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是，舰队出访应该是姐姐负责的外务工作……",
+			say = "Then what do you suggest? It's not like we could send Lady Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次只能换人了吧~反正只是单纯的礼节性回访而已。",
+			say = "Then I suppose we have to find someone suited for the job, won't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人选上你们有什么建议么？",
+			say = "Anyone come to mind, Kaga? While I doubt the Iron Blood will show us anything too spectacular... you never know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果姐姐和我都不能去的话……{namecode:83}怎么样？",
+			say = "Since you and I are both out of the question... I think we have to appoint another envoy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:83}身份尊贵，又是联合舰队的总旗舰，作为出访人选来说我觉得十分合适。",
+			say = "Perhaps we should request someone higher up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "合适是合适，就是合适的过头了些……这种小事还不值得劳烦{namecode:83}亲自出马。",
+			say = "Surely you don't think they'd concern themselves with such trivial matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那{namecode:84}呢？同样身为高贵的{namecode:83}级，{namecode:84}的威严与实力均可以胜任外事访问工作。",
+			say = "You have a point. They have more important things to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次远征的诸多琐事都是{namecode:84}在后方负责的，将她调离岗位会影响到我们的后续行动。",
+			say = "Yes, and while it would be interesting to see them make a move, it would also place more eyes upon us–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我有个建议！让{namecode:82}大前辈去怎么样？！",
+			say = "If... If I might make a suggestion! What about sending the Great Veteran?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你这句话真的过脑子了么，把大前辈搅进来要做什么？！",
+			say = "What about her, indeed? Am I supposed to laugh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在她身处闲职应对起来都这么麻烦，要是给到正式职位的话……",
+			say = "Mikasa is completely off the table. She's too prone to sticking her nose into places it absolutely does not belong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿……那不然……",
+			say = "Oh, well... In that case, maybe–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:74}也不行！你这不只是给新生重樱联合换个人而已么……",
+			say = "Shoukaku's merry gang? Not a snowball's chance in hell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！你是怎么知道我要推荐{namecode:74}大人的？！",
+			say = "I see... Was it really that obvious what I was going to say...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你还是暂时不要发言了比较好……",
+			say = "Better to hold your tongue than to let the world know that you are a fool. Jintsuu, care to share your wisdom with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，你觉得{namecode:182}大人怎么样？",
+			say = "Certainly, if you're willing to lend an ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人除了尊贵的身份之外，更拥有敏锐的洞察力，也许能通过此行收获些意想不到的情报。",
+			say = "If what you need is someone with an esteemed name who'll mind only her own business, then I can think of none better suited than Lady Shinano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}啊……她现在确实在本岛休息，职务上也很清闲，而且……嗯，就让{namecode:182}去吧~",
+			say = "(Not a bad idea. Knowing her, she'd rather get her beauty sleep than try to pry where she shouldn't.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_port_dakaer",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我去安排司令部下达命令，具体执行细节继续让{namecode:84}负责好了。",
+			say = "Excellent idea, Jintsuu. I will take this proposal to our higher-ups. Shinano will act as our envoy to the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于我们……呵呵~差不多也该开始下一步行动了。",
+			say = "Finally... It's time to spring the next step of the plan into action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,23 +585,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「在山的那边，海的那边，有一座龙宫城」</size>",
+					"\"Watatsumi Ritual held at the Diadem of Light, despite interference from Ashes members. Priority package from Akagi recovered.\"",
 					1
 				},
 				{
-					"<size=51>「时而在水面之上，时而在碧波之下」</size>",
+					"\"Transmission detailing Shinano's course for the mainland received. Used to infer authenticity of the package.\"",
 					2
 				},
 				{
-					"<size=51>「楼阁亭台鳞次栉比，机关千重星罗其中」</size>",
+					"\"Operation planned by Friedrich commenced. Floating fortress came under attack from Sirens. Peter Strasser's unit, with Sardegnian backup, fended the Sirens off.\"",
 					3
 				},
 				{
-					"<size=51>「到达此处的旅人，笔直前行吧」</size> ",
+					"\"Result: insight into process of controlling Mirror Seas gained. Equipment testing concluded.\"",
 					4
 				},
 				{
-					"<size=51>「只有深埋的秘宝，才是最适合勇者的嘉奖」</size>",
+					"\"Invitation to Sakura Empire higher-ups stamped and sent.\"",
 					5
 				}
 			}
@@ -615,23 +615,23 @@ return {
 					1
 				},
 				{
-					"<size=51>「……写完了，您还满意么？」</size>",
+					"\"I'm finished. Is my summary satisfactory?\"",
 					2
 				},
 				{
-					"<size=51>「不错不错~没想到你还会写这种文章啊？」</size>",
+					"\"Mhm. Sounds good to me. Well done, Thiele.\"",
 					3
 				},
 				{
-					"<size=51>「耳濡目染罢了……还有别的事么？」</size>",
+					"\"Please, don't pat me on the head. It's infantilizing. Now, do you need anything else?\"",
 					4
 				},
 				{
-					"<size=51>「故事现在才要开始呢，准备迎接客人的到来吧~」</size>",
+					"\"Nope. The stage has been set. Now we just wait for the guests to arrive.\"",
 					5
 				},
 				{
-					"<size=51>「……时差……好困」</size>",
+					"\"I see. In that case, I'll take a short nap. Wake me when it's time...\"",
 					6
 				}
 			}

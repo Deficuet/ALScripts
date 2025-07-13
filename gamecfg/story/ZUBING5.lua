@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>五 慌乱的{namecode:144}</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 5 - Ashigara, Confused!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "“心中的故乡”…我一直在意的东西…没有什么头绪啊",
+			say = "Uplifting my heart... fulfilling my desires... just what in the world...",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "算了，现在不是该烦恼这个的时候。",
+			say = "Forget it, it's not the time to be worried about that kind of stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "自从有了{namecode:63}姐的指导，秘书舰的工作变得越来越得心应手了。",
+			say = "Ever since I started studying with Myoukou, secretary duties have become easier and easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官看起来也很高兴，真的是太好了呢",
+			say = "And I'm really glad that Commander looks happy too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "要是能这样保持下去的话，指挥官一定会更加关注我的吧…",
+			say = "If I can keep this up, maybe Commander will pay attention me even more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "然后就能…咦……？就能怎么样呢……？",
+			say = "And when that happens... Um... Ehh...? Then what happens...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔唔，今天的训练好累……感觉要睡着了……",
+			say = "Uh, umm... I must be tired from today's training... and getting sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "居然真的还在睡……这样睡下去可不行啊！",
+			say = "She's still asleep? It's going to be bad if she doesn't wake up soon!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -210,7 +210,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "喂，{namecode:144}，赶紧起来啦！",
+			say = "Heyyy! Ashigara! Get up already!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -232,7 +232,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔唔……怎么了……是紧急任务吗……",
+			say = "Nnnnhh... what is it... an emergency task?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 303090,
-			say = "啊已经这个时间了吗！",
+			say = "...w-w-what time is it?!",
 			bgm = "story-1",
 			flashN = {
 				color = {
@@ -297,7 +297,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要、要迟到了！（手忙脚乱）衣，衣服穿反了？怎么会这样？头发、头发…平时都是{namecode:63}姐帮我弄的……",
+			say = "I-I'm going to be late! ...I'm not even dressed yet?! Afterwards, my hair... my hair! But Myoukou's the one who usually does it for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官要是看到我这幅样子的话，一定会……",
+			say = "How can I let Commander see me like this? Surely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:144}，先冷静一下。这样只会越忙越乱哦",
+			say = "Easy there, missy. Hold your horses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:124}、{namecode:124}前辈？你怎么会在这里？",
+			say = "K-Kamikaze?! What are you doing here?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "路过指挥室的时候看到你不在，有点在意就过来看看，没想到真的有情况啊，嚯嚯",
+			say = "When I passed by the office, I noticed you weren't there. I dropped by just in case something had happened, and lo and behold, do we have a little incident on our hands! Ho ho!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，指挥官那边我帮你请假了，以“身体抱恙”的理由呢。",
+			say = "But don't worry, I asked Commander to give you a day off for \"sick leave.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其它的事情就交给我吧，难得有次能照顾后辈的机会呢，哼哼~",
+			say = "All righty? Just leave the rest to me. It's not every day I get to look after you young folks, ho ho~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉",
+			say = "...Sorry for the trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不必道歉，人人都有状态不对的时候嘛~",
+			say = "What are you apologizing for? Everyone has bad days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定是训练太累了，休息不足才会这样，今天你就好好休息吧。",
+			say = "You must have burnt yourself out from all the training. This is a sign of fatigue, so make sure you properly rest today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过说起来，嘿嘿，刚才好像听到谁说了“要是被指挥官看到这幅样子”…之类的话呢。",
+			say = "Although~ Ho ho, I did hear something juicy just now. \"Ahhhn, I can't let Commander see me like this~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说……你其实很在意指挥官对你的看法~？",
+			say = "Could it be... that you've taken a fancy to the chief?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？那，那是因为——",
+			say = "Eh? That, that's because...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯嚯嚯~答案是什么，自己清楚就好啦～",
+			say = "Ho ho, you don't need to answer me. As long as you figure it out, that is all that matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我在意指挥官的看法？等等，我为什么对指挥官这么在意……）",
+			say = "(I've... taken a fancy to Commander...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（难道说，其实我……）",
+			say = "(Could it be, I'm actually...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

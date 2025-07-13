@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>四　贾维斯与雅努斯</size>",
+					"Nursing Honesty\n\n<size=45>4 Jervis and Janus</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "打、打扰了！",
+			say = "I-I'm coming in!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "来访者是与贾维斯同为J级驱逐舰的雅努斯。",
+			say = "A visitor came to my office. It was Janus, one of Jervis' sister ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "雅努斯？是有什么事情要找指挥官么？",
+			say = "Janus? Are you here to talk to the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "嗯，是、是的！",
+			say = "Um, uh, y-yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不要紧张，深呼吸——",
+			say = "Calm down. Take a deep breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "呼——",
+			say = "Huff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "现在好些了吧？",
+			say = "Better?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "嗯，谢谢你贾维斯。",
+			say = "Mhm. That helped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "那、那个，我是来提交演习申请的！",
+			say = "Umm, I'm here to turn in my naval exercise application!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "这是申请书，请收下……",
+			say = "I have the document right here. Please pass it on to the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "好的，书面申请我收下了，等指挥官审批后会通知具体的演习时间。",
+			say = "Very well. I will let you know when and where it's taking place if the Commander accepts your entry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "那、那我就先告辞了！指挥官还有贾维斯，工作加油哦！",
+			say = "Thank you. I-I'll be taking my leave now! I've got to practice for the exercise! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "我也要为演习好好做准备才行！",
+			say = "Good luck with your work, you two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "雅努斯离开后，感觉贾维斯好像难得的有些心不在焉。",
+			say = "After Janus had left, I felt Jervis seemed uncharacteristically tense.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大概是因为雅努斯要参加演习的事？",
+			say = "I surmised it had something to do with her sister's plan to participate in the exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			},
 			options = {
 				{
-					content = "开口询问",
+					content = "\"Something wrong? Is it about Janus?\"",
 					flag = 1
 				}
 			}
@@ -410,7 +410,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唔，被你看出来了么？",
+			say = "Oh. Is it that obvious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我确实有些担心雅努斯那孩子…………",
+			say = "Yes. I'm concerned about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然她很懂事也很听话，但是在与人相处这方面稍微有些过于内向了。",
+			say = "She's a kind and polite girl, but she's very withdrawn around strangers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而演习这种事是很需要沟通的……",
+			say = "Communication is vital in everyday life. In an exercise, all the more so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "既然如此————",
+			say = "An idea popped into my head...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			},
 			options = {
 				{
-					content = "之后一起去看演习吧。",
+					content = "\"Then let's be there and watch over her.\"",
 					flag = 2
 				}
 			}
@@ -508,7 +508,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈？！",
+			say = "P-pardon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

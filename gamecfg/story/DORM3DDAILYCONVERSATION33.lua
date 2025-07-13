@@ -14,7 +14,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			side = 2,
-			say = "在和天狼星说话的时候，忍不住打了个哈欠。",
+			say = "While Sirius and I are chatting away, I carelessly let a yawn slip through.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，需要在这里小憩一下吗？您需要的话，随时告诉天狼星就好。",
+			say = "Do you wish to lie down, {dorm3d}? Please don't be hesitant to inform me whenever you do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "房间里有新换好的床品、松软的枕头……还有状态绝佳的天狼星本人……！",
+			say = "You'll be greeted by fresh linen sheets, soft pillows... and a maid fully ready for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然……！您需要哄睡服务的话，天狼星也准备了小说、采耳工具，还有……",
+			say = "And, of course, if you need help falling asleep, I can read you a story or clean your ears. I can also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "咦……？难道您其实不需要天狼星的哄睡服务吗？看、看来是天狼星又会错意了……",
+			say = "Huh? You don't need any of that? I-I shouldn't have made such hasty assumptions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

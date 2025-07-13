@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：在周边区域发现了塞壬实验场气候调节装置。",
+			say = "Abnormal weather detected. Destruction of Siren weather control device is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

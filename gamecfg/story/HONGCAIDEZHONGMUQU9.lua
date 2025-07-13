@@ -15,7 +15,7 @@ return {
 			actor = 404040,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我还在想你什么时候会问呢。",
+			say = "Oh boy. I was half-expecting this question. *yaaawn*...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前发生的事，能回忆起来么？",
+			say = "Would you mind answering it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "作为情报来说没问题哦。",
+			say = "No can do. We're not the ships that sank back then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "之前发生的事仿佛一场身临其境的逼真梦境。",
+			say = "Buuut... Strange as it sounds, I have hazy memories of what happened here, like a distant dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "有强烈的印象，能记住细节，但就是不太像真实的回忆……",
+			say = "Can't tell you whether they're real or not, and even if they are, who's to say my account is accurate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "痛苦和仇恨呢，都淡化了么？",
+			say = "Don't worry about that. Whatever you remember is what really happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "这么一说好像确实是这样……毕竟变得像梦境一样的东西了。",
+			say = "Really, huh? Then let me warn you: what I do remember is no cozy campfire story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过也不错吧？要是我们全都苦大仇深的，接下来的旅途不就要无聊死了。",
+			say = "Not even sure why you're so keen on knowing. I'm not gonna like telling it, and you're not gonna like hearing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "而且你放心，经历了那种事之后……火焰是不会熄灭的，我随时等待发起复仇的冲锋哦。",
+			say = "I've got better things to do with this life, so why not just move on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一点我完全放心。回到回忆上来，还有什么变化么？",
+			say = "There's no need to lament what could have been, for either of us. We simply want to know the truth behind what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……确实还有些变化。",
+			say = "Hmm... It might be hard to explain things to you though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "回忆场景中的人物，好像被替换了。",
+			say = "There were no shipgirls around back then, so we aren't \"eyewitnesses\" in a literal sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在见到舰船化的同伴之后，认知里涉及到对应军舰的回忆部分都被舰船的姿态替换掉，对么？",
+			say = "But your connection to this place has left an imprint upon your hulls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "没错！就是这种感觉。",
+			say = "You do have a point. My memories seem not to be from the perspective of a warship, but rather from that of a person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "就仿佛当时的事是我们以现在的这副姿态经历的一样……",
+			say = "Almost as if... we had witnessed the event as we are now – as shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过相应的……没有被舰船化，依然是军舰形态的同伴的部分在回忆中就变得更加模糊了些。",
+			say = "But as Lützow said, it's all quite hazy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………果然不是我的记忆出错，而是确实会发生这种现象。",
+			say = "A restructuring of cognition... So it wasn't just my imagination...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为自我认知被强化了，还是因为认知被重塑了呢……确实是一个值得深入研究的问题。",
+			say = "There is a dramatic shift from a warship's passive perception to a shipgirl's active cognition. The nature of this process is beyond our current understanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过这些都不影响接下来的说明啦~",
+			say = "Confused? Yeah, I am too. Don't worry about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "反正你们想听的也不是军舰操作细节一类的事，就用这种感觉来讲不是挺好的？",
+			say = "Look, you don't wanna hear a long-winded explanation, do you? I've got a better, more fun alternative.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "你们好奇真相，那就由我来讲述吧，这件对我们来说仅仅发生在不久之前的事的真相——",
+			say = "We'll just act out what happened. The good ol' show, don't tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			say = "斯卡帕湾锚地·周边海域  一段时间之前",
+			say = "Scapa Flow - Surrounding Waters",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:461}小姐，观测结果确认，塞壬舰队的航速慢下来了。",
+			say = "Hits confirmed, Lützow! The Siren fleet is losing speed!",
 			effects = {
 				{
 					active = true,
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~看来之前的多次炮击命中终于起到效果了。",
+			say = "See? It was worth it to practice your gunnery.",
 			effects = {
 				{
 					active = true,
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "继续追击继续追击！我们的任务是带回尽可能多的塞壬军舰残骸样本回去！",
+			say = "Great, keep it up. I wanna see at least a hundred Siren wrecks by the time you're done.",
 			effects = {
 				{
 					active = true,
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "消灭了前方那支舰队，我们就能达成任务回家睡觉了！",
+			say = "*yawn*... Crushing victories always make me sleepy.",
 			effects = {
 				{
 					active = true,
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "可、可是前面就是皇家的控制区了，再继续前进的话……就算被无情击毁也说不定哦……",
+			say = "We're nearing Royal Navy territory... I bet they're going to designate us as hostiles and open fire...",
 			effects = {
 				{
 					active = true,
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对我们发动攻击可是彻头彻尾的战争行为，皇家敢么？",
+			say = "\"That would be a damned declaration of war. The Royal Navy wouldn't dare.\"",
 			effects = {
 				{
 					active = true,
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错~反正我们是去打塞壬的。",
+			say = "Don't worry about them. The Sirens are our only target today.",
 			effects = {
 				{
 					active = true,
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "虽然拒绝了成立什么同盟，不过既然我们在对抗共同的敌人，皇家应该也会大度一些吧。",
+			say = "Sure, we're not allied with Azur Lane, but we're all allies in humanity's fight against the Siren menace. The Royal Navy will have to pardon a little trespassing.",
 			effects = {
 				{
 					active = true,
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "大敌当前，不拘小节。不过最好还是事先通报一下比较好。",
+			say = "Indeed, this isn't the time for petty infighting. Although, we should let them know we're here, just to be safe.",
 			effects = {
 				{
 					active = true,
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "{namecode:466}对什么事都不会直接否定呢……",
+			say = "That's a good idea. Let's do i– Err, I mean... Terrible idea! Let's not do that!",
 			effects = {
 				{
 					active = true,
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "那是当然，一切观点的提出皆有其因果所在，只要不会危及到行动，尝试一下又有何妨。",
+			say = "Thanks for the blessings. Once we get to Scapa Flow, I'll message the Royal Navy about the incoming Sirens, then we resume our attack.",
 			effects = {
 				{
 					active = true,
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "那就这么决定了！向着皇家控制区出发，出发————",
+			say = "Sounds like a plan! Fleet, head for Scapa Flow and attack!",
 			effects = {
 				{
 					active = true,
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "欸，{namecode:461}，事前通报，事前通报别忘了啊——————",
+			say = "The message, Lützow! Don't omit so many crucial details!",
 			effects = {
 				{
 					active = false,
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸…………那最后你们发申请了么？",
+			say = "...I'm gonna assume this didn't all stem from someone forgetting to send a message, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "唔……好像在进去之后，{namecode:466}发了！",
+			say = "Nah. Thüringen did it after we entered the Royal Navy's waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先闯入在前啊！这是不是多少有些过分…………毕竟是其他阵营的控制区。",
+			say = "So you DID enter without permission! Being chased by Sirens isn't a valid excuse for breaking international law!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "你也听到了嘛，大敌当前不拘小节！",
+			say = "Relaaax. You're making a mountain out of a molehill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "……反正也不是第一次这么做了（小声）",
+			say = "Besides, this wasn't the first time we'd done it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么明目张胆的闯入皇家控制区的行为居然已经不是第一次了么！",
+			say = "Not even the first time, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "是哦。虽然她们好像确实比较不满，不过有什么关系嘛。",
+			say = "Yeah, the Royal Navy didn't like it, but what's it matter anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "皇家海军在此前的塞壬袭击中已经受损严重了，又没什么力量阻止我们~",
+			say = "They'd suffered big casualties in one of the Sirens' previous attacks, so they weren't in any position to stop us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "再说我们也不是去做坏事的，攻击塞壬，研究塞壬，也是为了尽快结束战争嘛。",
+			say = "Plus, this was a good chance to salvage Siren tech to end the war sooner. Is that excuse not good enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "冠冕堂皇的得寸进尺………………",
+			say = "You're giving me less and less reason to side with you right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -926,7 +926,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "后来呢，后来发生什么事了？",
+			say = "So? What happened after that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,7 +944,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "后来嘛…… 皇家这次看来终于还是打算有所行动了。",
+			say = "Well, you see... That's when the Royal Navy showed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "前方发现皇家舰队，目视观测中……",
+			say = "Multiple Royal Navy ships sighted! Straight to our... Wait, they're using light signals!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1002,7 +1002,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "收到了对面发来的灯光信号，它们示意我们立刻停船接受检查。",
+			say = "They're saying... \"Halt immediately and submit to an inspection.\"",
 			effects = {
 				{
 					active = true,
@@ -1026,7 +1026,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "停船接受检查……我们又不是来送货的海上商船队，皇家变得越来越爱开玩笑了。",
+			say = "\"An inspection? What do they take us for, merchant vessels? I am insulted.\"",
 			effects = {
 				{
 					active = true,
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这么直接过去吧，反正皇家也拦不住我们。",
+			say = "Ignore their message. They haven't the forces to even try to stop us.",
 			effects = {
 				{
 					active = true,
@@ -1073,7 +1073,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "唔……{namecode:448}小姐，皇家在前方似乎出动了斯卡帕湾驻防舰队的大半对我们进行拦截。",
+			say = "But Emden, almost their entire defense fleet is advancing towards us!",
 			effects = {
 				{
 					active = true,
@@ -1096,7 +1096,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "斯卡帕湾驻防舰队的大半……？那不还是比我们少得多么。",
+			say = "\"Their 'entire fleet'? You're talking about a handful of ships. We outnumber them.\"",
 			effects = {
 				{
 					active = true,
@@ -1120,7 +1120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "没错，皇家舰队的规模比我们少很多，但是依然有伊丽莎白女王级战列舰带队的数艘战列舰和战列巡洋舰组同行。",
+			say = "While, yes, our numbers are superior, their force consists of battleships and battlecruisers!",
 			effects = {
 				{
 					active = true,
@@ -1143,7 +1143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一旦发生战斗，我们应该不可能全身而退。",
+			say = "Should a firefight break out, we are highly likely to suffer casualties.",
 			effects = {
 				{
 					active = true,
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "要是打起来就糟糕了哦……别说带回塞壬残骸，{namecode:449}都要变成残骸被带回去了……",
+			say = "Yeah... Some of us will end up on the pile of wrecks we're supposed to capture...",
 			effects = {
 				{
 					active = true,
@@ -1191,7 +1191,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "不要这么消极啦，{namecode:449}！",
+			say = "\"Like hell we will. Damn the Royal Navy... What is with them?\"",
 			effects = {
 				{
 					active = true,
@@ -1215,7 +1215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "我知道了，那就听听皇家到底想说什么好了。",
+			say = "\"Fine, we'll play nice. Patch them through.\"",
 			effects = {
 				{
 					active = true,
@@ -1239,7 +1239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "{namecode:460}，给对面回话吧，我们愿意停船。",
+			say = "Seydlitz, tell 'em we'll come to a stop.",
 			effects = {
 				{
 					active = true,
@@ -1263,7 +1263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过只允许它们接近，对话，登船免谈哦！",
+			say = "Oh, but also tell them we're not submitting to a patdown.",
 			effects = {
 				{
 					active = true,
@@ -1281,12 +1281,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "厌战号",
+			actorName = "Warspite",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "铁血舰队，你们已经在未经允许的情况入侵了皇家控制区。",
+			say = "\"Iron Blood! You're, like, totally not supposed to be in Royal Navy waters. Get outta here!\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -1321,12 +1321,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "英勇号",
+			actorName = "Valiant",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你们听从了命令在海面上停船，是我们现在还没有发动攻击的唯一原因。",
+			say = "\"You were smart enough to stop, so we'll be nice and not open fire on your bratwursty butts!\"",
 			effects = {
 				{
 					active = true,
@@ -1344,12 +1344,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "英勇号",
+			actorName = "Valiant",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "立刻掉头离开，我们可以考虑不追究你们本次入侵的责任问题。",
+			say = "\"Turn around and leave, lassies! Be on your way now and we'll overlook this little whoopsie-daisy!\"",
 			effects = {
 				{
 					active = true,
@@ -1372,7 +1372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "英勇和厌战…………",
+			say = "Are those exact quotes, or...?",
 			effects = {
 				{
 					active = false,
@@ -1395,7 +1395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，打断一下，皇家的英勇和厌战早就已经舰船化了哦。",
+			say = "Doesn't sound like the Warspite and Valiant I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1413,7 +1413,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			side = 2,
-			say = "她们的形象是这样的（厌战↑）",
+			say = "For reference, Warspite looks like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1431,7 +1431,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			side = 2,
-			say = "以及这样的——（英勇↑）",
+			say = "And Valiant like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1449,7 +1449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "额……皇家的战列舰是不是在身材上都有点………………",
+			say = "Really, huh? I'm seeing a pattern here – all Royal Navy battleships are flat as boards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1467,7 +1467,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "这个是皇家特色么……？",
+			say = "Must run in the family, seeing as they're all dwarves too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1484,7 +1484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "才 不 是 啊！要 你 多 嘴 ！",
+			say = "That is blatantly untrue, hussy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1511,7 +1511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "快点讲后面的事，接下来发生什么了？！",
+			say = "Drop this digression at once and get back on topic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1529,7 +1529,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "呜啊~好凶好凶……是是是。",
+			say = "Guess I struck a nerve, huh? Fine, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1547,7 +1547,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "皇家舰队让我们掉头返航，我们肯定是不会老老实实回去啊。",
+			say = "Actually, this would be easier to just explain than to show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1565,7 +1565,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "这种时候就是要果断对峙，展现一下公海舰队的实力和气势。",
+			say = "Basically, we stayed right where we were. After all, what reason did we have to leave?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1582,7 +1582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种时候还对峙……？",
+			say = "Other than, I dunno, the whole TRESPASSING thing? None, I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1600,7 +1600,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "是啊——也许皇家舰队见到这么强硬的表态之后就会退让了，我们当时是这么想的。",
+			say = "Back then, I guess we thought they'd break off if we just stood our ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1618,7 +1618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过皇家这次不知道是收到了什么命令，始终没有退让……",
+			say = "But as fate would have it, they didn't. They stood their ground too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1635,7 +1635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟你们也无视了太多次，皇家终于忍无可忍了吧……",
+			say = "Keep treading thin ice and it's eventually gonna collapse beneath you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1653,7 +1653,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "现在想想，好像做的是有点过火，诶嘿。",
+			say = "Hmm. Maybe we were pushing our luck after all. Maybe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1670,7 +1670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你们是在追击塞壬舰队途中吧……塞壬舰队怎么样了？",
+			say = "Hold on a minute. Weren't Sirens pursuing you? What became of them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1688,7 +1688,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "…………塞壬舰队在重整旗鼓之后，向我们反攻回来了。",
+			say = "Well, we got in formation again and fired at them. What else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1705,7 +1705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "在对峙的时候？",
+			say = "WHILE the Royal Navy had its guns trained on you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1723,7 +1723,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "嗯……在对峙的时候。",
+			say = "Exactamundo. It was as simple as that. *yawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1741,7 +1741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "哎不对，为什么我要被你催着讲故事啊。",
+			say = "Man, explaining all this is so tiring and boring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1758,7 +1758,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉睡意又上来了……{namecode:449}{namecode:460}，之后交给你们了zZZZ",
+			say = "Elbing, Seydlitz, take it from here. Peace ooouut– Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1775,7 +1775,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "喂————！",
+			say = "Did she just fall asleep mid-sentence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1804,7 +1804,7 @@ return {
 			actor = 404030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "伊丽莎白女王陛下稍安勿躁，塞壬折返之后发生的事，就交给我来说明吧————",
+			say = "I sincerely apologize for her discourtesy, Your Majesty! Allow me to continue where she left off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

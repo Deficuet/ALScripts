@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>躲避于角落之中</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Spotlight-Shy</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "As much as I want to check out the venue, I feel that I should have a look around the palace.",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "那是{namecode:523}？她正在大厅的一角，似乎在思考什么。",
+			say = "Over there, in a quiet corner of the palace, I spot Jean Bart. She seems lost in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "她好像注意到我了？",
+			say = "Our eyes lock for a moment. I wait for her to say the first word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "……嗯？为什么立刻扭头过去，眼神还在闪躲。",
+			say = "...But she doesn't, and she turns her gaze elsewhere. Maybe she's feeling absentminded?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "稍微有些放心不下，还是去看一下吧。",
+			say = "Whatever the case, I should go over and say hello.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "啧，还是被发现了……",
+			say = "Of course you saw me. Tsk...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "你……在躲着我？",
+			say = "An angered look flashes on her face for an instant before she turns away from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "抱歉了啊，指挥官。我并没有刻意躲着你……",
+			say = "...Okay, sorry. I'm not avoidin' you on purpose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "只是希望我能不被别人注意到。",
+			say = "It's just that wherever you go, a crowd follows. I don't like the attention.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "毕竟……指挥官是很容易聚焦他人目光的类型呢。",
+			say = "That's why I'm here, trying to stay low so ya wouldn't find me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "总而言之，来特意找我这个躲在角落里的人有什么事么？",
+			say = "Or was. No point in that anymore. So, what is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,18 +240,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "回忆起刚才{namecode:523}闪躲的目光——",
+			say = "She explains herself matter-of-factly, still looking away from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "感觉有些担心",
+					content = "\"I thought you could use some company.\"",
 					flag = 1
 				},
 				{
-					content = "感觉有些可疑",
+					content = "\"You're acting strangely.\"",
 					flag = 2
 				}
 			}
@@ -265,7 +265,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那还真是……多谢。",
+			say = "How considerate of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊？！今天是鸢尾主办的宴会，在会场里最不可疑的就是我了吧！",
+			say = "Strangely? The hell ya talking about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大概……",
+			say = "This is our banquet. There's nothin' odd about me being here. At least nothin' I can think of...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "还有，礼服，很适合你。",
+			say = "\"You didn't put on a beautiful dress just to stand in a corner, did you? You should be enjoying yourself. Go talk to people, enjoy a drink or two.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "……连你也这么说。",
+			say = "Second time hearing that tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "姐姐也说了一样的话，看来不只是单纯的恭维呢。",
+			say = "Richelieu said the same thing. Maybe she wasn't just bein' polite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "……感觉{namecode:523}似乎非常不开心。",
+			say = "I grab a drink and pull up a chair beside her. Something tells me she wants somebody to talk to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不……鸢尾为今天这场庆典准备了许久，我可是真心为这场宴会感到开心的。",
+			say = "...Don't get me wrong – I am enjoyin' myself. The whole Orthodoxy pulled all the stops to organize this thing, and the mood's great.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我只是单纯感到十分郁闷。",
+			say = "It's not the banquet itself I'm miffed about, but it's related.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我怎么想都没想到，姐姐居然要我——",
+			say = "See, Richelieu told me to deliver the Orthodoxy's speech later ton–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "指挥官，打扰了……",
+			say = "Evening, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "请问，有看到埃塞克斯么？",
+			say = "You haven't seen Essex around, have you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "我跟她一起来的，然后……走散了。",
+			say = "We came here together, but we got separated after a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "……！！",
+			say = "M-Massachusetts! Aw, shit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "啊……{namecode:523}，好久不见。",
+			say = "Long time no see, Jean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "马萨诸塞……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "哇，你的礼服，很适合你呢。",
+			say = "Beautiful dress you have.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "我今天……也穿了礼服哦……{namecode:523}觉得怎么样呢？",
+			say = "Speaking of dresses... Thoughts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "什么……怎么样？",
+			say = "About what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "感想……？",
+			say = "Um, my dress?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "等等！{namecode:523}……？！",
+			say = "All of a sudden, Jean Bart hooks her arm around mine and escorts me out of the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105191,
-			say = "啊……{namecode:523}，逃走了……",
+			say = "Huh. She didn't even rate my dress...",
 			painting = {
 				alpha = 0.3,
 				time = 1

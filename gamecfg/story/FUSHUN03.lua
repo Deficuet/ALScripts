@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>三　勇者的旅途</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 3 - The Hero's Journey Begins</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "欢迎光临~喵喵？东煌的小妹妹找{namecode:98}有什么事情喵？要买东西喵？",
+			say = "Welcome, nya~ Oh? What brings you here, nya? Shopping for supplies, nya?",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~这里就是购买部吗~好多看起来很好玩的东西啊~",
+			say = "So this is the legendary Shop... There are a lot of interesting-looking things!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊不对，我不是来买东西的，{namecode:98}{namecode:98}~能帮我看看这个东西嘛~",
+			say = "...Wait, no no no, I'm not here for supplies! Akashi, could you examine this for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "这个是…游戏机？",
+			say = "A game console, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是！长岛说，修理机械找{namecode:98}就对了~",
+			say = "Yeah, apparently! Long Island said you're the best at repairs, ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "真、真拿你没办法喵…这次就破例给你免费服务好了喵…",
+			say = "F-fine, nya... Just this one time I'll examine it for free, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "我看看喵…还真是古老的机器喵…这里要这样…然后这里再这样……",
+			say = "Unya... This is a pretty old model, nya... First we'll fix this... then replace this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦……",
+			say = "Whoa...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼…修好了喵！",
+			say = "Phew... It's fixed, nya!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~{namecode:98}好厉害~",
+			say = "Awesome! You're amazing, Akashi!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -214,7 +214,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "虽然零件太古老费了一番功夫，但这点小问题还难不住{namecode:98}喵~",
+			say = "It took some time to replace the old parts, but now it should be fine, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢{namecode:98}~",
+			say = "I knew I could count on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春~掌机修好了哟~一起来玩吧~",
+			say = "Chang Chun~ I got the handheld fixed~ Wanna play some games?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还真的修好了啊…",
+			say = "You actually managed to get it fixed...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，游戏启动~",
+			say = "I know, right! Now let's power it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看…哦哦…还要起名字呢…那就…Fu…shun…",
+			say = "Let's see... Right, enter name... I'll go with... F-u-s-h-u-n...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺是会在游戏里起自己名字的类型啊…",
+			say = "You're one of those people that use their real name...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这样才有代入感嘛~",
+			say = "Yep! I guess it's more immersive that way, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~大勇者抚顺拯救世界的旅程要开始啦~",
+			say = "Here we go! The hero, Fu Shun, has set off on her journey to save the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

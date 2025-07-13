@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：遭遇了塞壬增援点的守备舰队，即将发生战斗。",
+			say = "Encounter with Siren defense fleet imminent. Prepare to engage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

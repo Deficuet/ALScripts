@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱操心的她可不是闹着玩的\n\n<size=45>一 暴风雨后的第二天</size>",
+					"Heart in the Right Place\n\n<size=45>1 The Day After the Storm</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "——某天夜晚，港区遭到了可怕的风暴袭击。",
+			say = "It was a windy night. A tremendous storm swept across the port.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "等风暴平息之后必须要开始进行清理工作了啊……一边这样想着，一边听着窗外的雨声睡了过去……",
+			say = "As I lied down in bed, I knew the next day would be spent assessing and repairing the damage from the storm. I fell asleep to the noise of raindrops banging on the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "翌日清晨，正当查看受损情况时——",
+			say = "I woke up at dawn and went for a look outside.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "一个熟悉的身影从对面的楼房中走了出来。",
+			say = "While I was inspecting a building, a familiar face approached me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊、这不是指挥官么，在这种地方摸鱼还真是惬意呀~",
+			say = "Well, look who it is. What are you doing? Watching paint dry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哎？正在检查受损情况？明明看起来只是在摸鱼嘛！",
+			say = "...Assessing the damage? Really? And I'm supposed to believe you're not just making excuses for standing around, wasting time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "确实看上去是这样……？没想到一边思考一边行走，在不知不觉中已经来到了重樱宿舍区……",
+			say = "There was much on my mind, and only when she pointed it out did I notice I'd thoughtlessly walked to the Sakura Empire's dormitory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,37 +158,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "令人惊讶的是，在经历了昨晚的风暴后，面前重樱宿舍楼居然没有丝毫受损，连玻璃窗都没有碎掉一面。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼哼～不是因为这里有{namecode:17}大人在嘛？这点小风小雨小意思啦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "…幸运舰还有这种方面的功效么？说起来，{namecode:22}好像也住在这栋楼……",
+			say = "I raised my head to take a proper look, and much to my surprise, the building was completely unscathed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +174,37 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……喂！你正在想{namecode:22}吧！这栋宿舍完全是靠着{namecode:17}大人的加护才能平安无事的！",
+			say = "Of course it is! My luck just won't allow any damage to come to the place I live. Especially not some stupid smalltime storm!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "Indeed, her luck was extraordinary. However, she wasn't the sole lucky inhabitant of this dorm – Yukikaze lives here, too.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...You just thought about Yukikaze, didn't you? You are SO wrong if you think she had anything to do with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟 {namecode:22} 一 点 关 系 都 没 有！你给我好好记住这一点哦！",
+			say = "It was all thanks to MY luck! Got that? Heck, she might as well not even have existed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯！这样我就不会输给{namecode:22}了……至少也是平局？……不对，还是算我赢！！",
+			say = "Hmph! I'm not handing the win to that stupid cat... Maybe I'll settle for a tie... Wait, no I won't! I'm the winner here, duh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,51 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "看来{namecode:17}的心里燃起了奇怪的竞争欲，还是不要管了…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……对了！你知道{namecode:79}姐姐的神社情况怎么样了么？我打算去看一下！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "还不清楚。不过重樱神社的构造并不如宿舍楼这样结实……很可能出现受损情况。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "而且神社周围有着繁茂的镇守森林，森林在风暴中受损的可能性也很高……还是去看一下比较好。",
+			say = "A battle raged inside of Shigure. A battle I felt it was best not to involve myself in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +276,51 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官如果想一起来的话就快点做准备，时间不等人哦！",
+			say = "...I just remembered something. Tell you what, come along. We need to see how Yamashiro's shrine fared after the storm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "She raised a good point. The shrine, unlike the dormitory, was not built with extreme weather accounted for.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "Furthermore, the shrine was surrounded by a thick grove. It was very likely it had been damaged during the storm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "So, are you coming or not? I don't have all day, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "如此这般，和{namecode:17}一起往重樱神社进发——",
+			say = "And so, I agreed to accompany her to the shrine and assess the damage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

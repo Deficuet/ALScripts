@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "独自在河边漫步。似乎听见了附近传来的水声？",
+			say = "You are walking along the river when, out of the blue, you hear repeated splashing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——向着发出声音的地方看去。一只小动物正在水中挣扎，看起来是不小心落水了。",
+			say = "You turn your head to the source of the sound and spot a small animal, trying its hardest to stay afloat. It seems it fell into the river.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "仔细看看，河水深不见底。但小动物依然在呼救……",
+			say = "The river is so deep you can't see the bottom. The animal flails about, desperately crying for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,18 +33,18 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "于是，你最终决定——",
+			say = "You steel yourself and decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "下水营救",
+					content = "Save it on your own.",
 					flag = 1
 				},
 				{
-					content = "寻求帮助",
+					content = "Ask someone else for help.",
 					flag = 2
 				}
 			}

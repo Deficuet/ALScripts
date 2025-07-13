@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，请您不要乱动。",
+			say = "My honourable {dorm3d}, please hold still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您的眼睛，果然很漂亮呢。",
+			say = "You have such beautiful eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只是这样看着……就让人忍不住沉溺在您的目光之中了。",
+			say = "And your pupils, your gaze... I find myself getting lost in them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那么，就请允许天狼星用这种方式来开启全新的一天吧，还请您闭上眼……",
+			say = "Please close your eyes and let me mark the start of a new day with a small gesture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			side = 2,
-			say = "感受到了一个轻柔的吻落在了面颊上。",
+			say = "I feel the grace of a gentle kiss on my cheek.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,

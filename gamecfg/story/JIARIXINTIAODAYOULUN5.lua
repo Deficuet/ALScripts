@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "醒过来时，舱室内一片安静。",
+			say = "I open my eyes. It is dead quiet inside my cabin.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "{namecode:448:埃姆登}既没有出现在床边，也没有接到孟菲斯的通讯。",
+			say = "There is no Emden sitting beside my bed, nor is there any call from Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（已经是早上了……如果今天来汇报的既不是{namecode:448:埃姆登}，也不是孟菲斯的话，那么答案只有一个了。）",
+			say = "(Rise and shine... If neither of those are here to wake me, that leaves only one option.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "此时，房间内的电话铃声也适时的响了起来。",
+			say = "Just as I'm thinking, a ringtone plays in my cabin.",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂喂——指挥官，我是长岛~你有彻底清醒吗？要是没清醒的话就先去洗把脸哦~",
+			say = "Hiii. It's your favorite ghost calling. You awake yet, Commander? If not, go wash your face and come out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为接下来长岛要用电话的方式来和指挥官汇报，所以要是指挥官不清醒，没记住日程的话可不要怪长岛哦~",
+			say = "I'm gonna give you your report over the phone. If you're still half-asleep and forget something, don't go blaming it on me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（长岛这完全就是在偷懒吧……不过这次就放过她好了，毕竟是在度假。）",
+			say = "(She's literally phoning it in... Then again, she IS on vacation, so I'll let it pass.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你说吧，我已经醒了。",
+			say = "Okay, I'm awake. Continue your report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那长岛就开始说了哦~我们目前已经从无人岛起航，邮轮上的状况一切正常。",
+			say = "You got it. The ship has departed from Seabreeze Island and everything is running as normal onboard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "下一站的目的地是……长岛懒得翻记录所以不知道~反正指挥官到了就知道了！",
+			say = "We're on course tooo... uh, I don't know, actually. Reading notes takes effort. You'll know when we get there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩下的是……啊，今天下午在弹药库有安全演习，指挥官必须配合参加~就是这样~挂啦~！",
+			say = "There's also a... right, a security drill in the ammo storage later today! Remember that, 'cause you're participating. That's my report! Buh-bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，安全演习？喂——",
+			say = "Wait, what was that about a security drill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "电话被干净利落地挂断了。",
+			say = "No response. She really hung up just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算了，起码知道了大概的情况，先去外面看看好了。）",
+			say = "(Eh, it's no big deal since I got the gist of it. Let's head out and see what's up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "洗漱完毕后离开舱室，到达了甲板的露天区域。",
+			say = "I put on new clothes and leave my cabin, stepping out onto the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "正巧遇到了正在严肃商讨着什么事情的北方联合的众人。",
+			say = "Right away, I stumble upon a group of Northern Parliament girls earnestly discussing something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们必须杜绝参与者直接Rush B的情况，让进攻方有秩序地进行进攻计划。",
+			say = "...The last thing I want to see is a rush B-scenario. The defenders have their plan, and we have ours. Carry it out in an orderly manner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "尤其是不能出现5发爆弹连带保护目标一起击杀的情况，即使这样是为了爆破墙体！",
+			say = "Moreover, do NOT use cluster charges if it risks the hostage's safety, or your breaching attempt will blow up a lot more than just a wall.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这些确实是需要注意的部分，还有其他更多的内容吗，喀琅施塔得？",
+			say = "Yes, that is something we must be aware of. Is there anything else we should bear in mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次的对手是皇家和白鹰的混成编队，为了模拟最真实的情况，在必要的时候即使顶着护盾把防守方撞飞也无所谓。",
+			say = "Yeah. We're fighting a mixed Royal Navy-Eagle Union force this time, so in the name of simulating a realistic scenario, don't be afraid to use shields to push the defenders around if need be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "欸~就不能用一个抱抱让指挥官心甘情愿过来嘛？",
+			say = "B-but that's so violent! Can't I make the enemy surrender by giving Comrade Commander a biiig hug?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "这可是在模拟战斗！抱抱怎么可能会管用啦！",
+			say = "This is a battlefield, not a sleepover! Huggin' ain't gonna do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "呵呵，不过不论采用什么手段，只要把指挥官同志收容在我们的控制下就成功了。",
+			say = "Maybe it will? All that matters is that we capture Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "也就是说通过攻坚战术，用最快的速度冲散对方的队形随后收容并控制指挥官同志吗……值得一行的战术。",
+			say = "Then we could surprise the enemy with an aggressive assault, putting them in disarray while we capture Comrade Commander... Yes, that could work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "嗯……？指挥官同志，你在那边听了多久？",
+			say = "Oh, speak of the devil. How long have you been here, Comrade Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "欸？作为本次的被保护对象，指挥官同志现在不是应该已经到达场地做准备了吗？",
+			say = "What? Comrade Commander, shouldn't you be at the ammo storage, getting ready? You're the VIP.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来长岛说的必须配合参加指的就是我要被保护么……）",
+			say = "(So by \"participating,\" Long Island meant I'd be playing a hostage, huh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "看指挥官同志的样子，可能是传达工作出现了失误……具体是哪个环节出现问题之后再排查吧。",
+			say = "Judging by your reaction, there has been a miscommunication somewhere. We'll find out where it happened sometime later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本次的安全演习，是针对指挥官同志被劫持或安全受到威胁的情况下紧急应对的演练。",
+			say = "To make it clear, this drill was designed to prepare us in case you are ever kidnapped or if your safety is threatened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "当然~本次我们充当的就是“劫持”您的角色呢。",
+			say = "In this case, our side is the one trying to kidnap you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "作为被保护的目标对象，指挥官同志需要到达现场参加演习，同时确保自己知晓紧急情况下的应对手段。",
+			say = "As the VIP, you need to be part of the drill both for realism and to learn how to act in emergency situations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "嗯……按照计划，您现在应该去找孟菲斯小姐。",
+			say = "Let's see... The schedule says that you should go and talk to Memphis now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "总之接下来的演习安排就交给我们吧，指挥官同志只需要确保自己能够熟悉流程就足够了。",
+			say = "We'll handle any future drills ourselves, so don't worry about that. You just need to be familiar with how the process works.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Alright then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不过……看来我们要准备Plan B了。",
+			say = "All that said... I think we need to formulate a plan B.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 718010,
-			say = "确实，指挥官同志刚刚听见了我们全部的战术呢，需要重新准备一个计划……",
+			say = "Yeah. Comrade Commander just overheard everything, so we need to start from scratch...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在离开甲板区域准备去其他地方的时候，遇到了寻找自己的孟菲斯。",
+			say = "I leave the deck and bump into Memphis, who's been looking for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官！原来你在这里呀，安全演习的事情长岛应该和你说了吧？",
+			say = "There you are, Commander. Long Island told you about the drill, didn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "实际上，很多细节我是刚刚才知道的，不过演习的大概情况我已经了解了。",
+			say = "Technically, yes, but I didn't get any details until just a minute ago. I've got the general idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "欸？我准备好的日志长岛没有交给你吗……？",
+			say = "Wait, what? Did she not give you the notes I wrote for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "长岛今天是用电话汇报的工作，有些事情没有交代清楚，所以……",
+			say = "All she gave me was a call this morning. She skipped over most of the important things, I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这样太马虎了！让指挥官漏过关键的信息怎么办……不行，下次还是我自己来汇报好了。",
+			say = "You've got to be kidding me! She could've omitted crucial things you need to know about! Ugh... I'll just give you the report next time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天{namecode:529:苏维埃同盟}也会参加的吧，既然如此……那我要去准备一下秘密武器了。",
+			say = "Oh, by the way, I saw Soyuz is on the attacking team. I'm going to get a secret weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "秘密武器？嗯……那指挥官别忘了要准时过来哦！我先去准备演习相关的其它工作了。",
+			say = "A what now? Forget I asked. Just please be at the drill on time! I've got a lot to do, so excuse me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在和我又重新说完安全演习的大概后，孟菲斯抱着文件跑去邮轮的下层区域了。",
+			say = "But, before she runs off to the lower decks, Memphis explains the gist of the drill one more time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（准备好“那个”以后，作为被保护对象而言应该没什么别的要注意的了，先去转转吧。）",
+			say = "(As long as I can get that secret weapon, I'll have nothing to worry about. I'll roam around the ship a bit until it's time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

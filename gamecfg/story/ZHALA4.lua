@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>四 午后闲聊</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 4: Afternoon Chat</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "今天带了午餐过来哦！叫……“便当”什么的，是重樱的朋友教我做的。",
+			say = "I brought lunch today. Apparently the Sakura girls call this kind of lunchbox a \"bento\".",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -66,7 +66,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "中午就好好尝尝{namecode:526}的手艺吧~",
+			say = "Want to eat together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，中午的指挥室，我和{namecode:526}两个人正在享用着便当。",
+			say = "When lunchtime rolled around, Zara and I stayed in the office to share the bento.",
 			effects = {
 				{
 					active = false,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的茶会吗？我上次也试着去参加了一下，还受到了热情的款待，感觉挺不错的呢。如此庄重的茶会，想必要长时间的精心准备才能举行一次吧。",
+			say = "So, I got invited to one of those Royal Navy tea parties once, and had a pretty good time. I wonder if they have to orchestrate something like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，她们几乎每天都开茶会吗？皇家也有我搞不懂的地方呢……",
+			say = "Eh... they don't? And they throw one of these almost every day...? Those Royal Navy girls really are something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊对了，你知道加富尔和凯撒吗？她们两个看起来总是在较劲，谁也不服谁。",
+			say = "Oh, you know how Cavour and Cesare are always trying to one-up each other?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，她们两个的关系其实比谁都好呢。",
+			say = "They might look that way, but they're closer than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:526}很健谈，好像什么话题都能够聊上一些。",
+			say = "Zara was the talkative sort. There was nothing she couldn't squeeze a conversation out of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "中午的休息时间也应该就在这个轻松的氛围中结束吧",
+			say = "We spent our time discussing the fleet and her homeland, the Sardegna Empire, when suddenly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，可以问你一个问题吗？",
+			say = "Commander, can I ask you a question?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果要从两个里面选一个的话。你是喜欢龙骑兵那样认真的孩子，还是特伦托那样温柔的小姐姐呢？",
+			say = "Gun to your head, would you rather have a hardworking girl like Carabiniere or a warm and gentle lady like Trento?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，告诉我吧！我不会把指挥官的回答告诉任何人的，放心吧",
+			say = "Come on, spit it out! I promise not to tell anyone. Just between you and me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这，这是什么问题啊",
+			say = "I had been placed in a difficult position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "突如其来的“超级难题”，让我陷入了思考",
+			say = "I had no idea why, but it somehow felt like my life was at a crossroads...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,15 +286,15 @@ return {
 			},
 			options = {
 				{
-					content = "龙骑兵",
+					content = "Carabiniere",
 					flag = 1
 				},
 				{
-					content = "特伦托",
+					content = "Trento",
 					flag = 2
 				},
 				{
-					content = "喜欢{namecode:526}你这种",
+					content = "Actually, you're my type, Zara.",
 					flag = 3
 				}
 			}
@@ -306,7 +306,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "指挥官喜欢认真的类型吗？原来如此啊。",
+			say = "So you like them more honest and hardworking, huh Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "不过和认真的孩子相处的话，可能会遇到一点问题呢。比如说，嗯，约会的时候对方因为考虑衣服的问题而迟到了好几个小时",
+			say = "But you know there are some issues with that type. Like, for example, if you're going out on a date, she might end up fretting over her outfit only to show up hours late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "然后中午的时候因为菜单的营养性两人争执了起来，浪费了几个小时。接着想要拍照留念的时候，纠结拍照的背景而又过去了好几个小时。",
+			say = "At the restaurant, she could waste a few hours debating the nutritional value of each menu item. When you want to take a picture, she might end up spending hours getting the background juuuust right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "最后约会就这样结束了。虽然过程不怎么有趣，但是两个人经历的时光确是实实在在的，可喜可贺呢。",
+			say = "And then when it's all said and done, even though the process was kind of a slog, the two of you still had a nice time together. Hooray.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "先不管这些，尝尝我做的牛排吧。啊~",
+			say = "Enough about that though. Shouldn't you be tasting my steak right about now? Open up~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "虽然没怎么听懂她的自言自语，不过这牛排的味道真不错啊……",
+			say = "I didn't quite get what she was going for with that hypothetical, but the steak was pretty good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "等等，我刚刚是不是做了一件超级羞耻的事情？",
+			say = "I had to be careful not to talk with my mouth full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官，喜欢一切都被包容的那种感觉吗？",
+			say = "So you like the caring type, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "是啊，谁不希望自己伤心，失落，迷惘的时候，有一个温柔的声音，告诉自己“什么都不用担心哦”呢？只要在那个人面前，自己就像个小孩子一样容易安心……",
+			say = "Naturally, who wouldn't want a sweet-voiced beauty telling you \"everything's going to be okay\" whenever you're feeling down? Who wouldn't want someone who washes away all your worries?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "只是，一直处在温柔当中的话，自己也会渐渐变得软弱起来，最后变成废柴也说不定呢",
+			say = "The only problem is, giving into that kind of gentle sweetness turns you weak. Before long, you won't even be able to fend for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "“没关系的，即使指挥官变成了小孩子，只要一切都交给我就好了哦”特伦托小姐估计会这样说吧。所以，即使变成了废柴也没关系的",
+			say = "I can hear Trento now. \"No need to worry. Just let the Commander turn into a little baby. I can take care of everything.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "那么，废柴指挥官，姐姐来喂你吃吧？来，张开嘴，啊~",
+			say = "Perhaps you like being babied like that? Here comes the choo-choo train, say ahhn~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "已经把废柴的设定给加上去了吗。唔唔，这个牛排挺好吃的嘛……",
+			say = "It seemed like my descent into an impotent juveline form was a foregone conclusion, but the steak was really good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "等等，我刚刚是不是做了一件超级羞耻的事情？",
+			say = "I had to be careful not to talk with my mouth full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "指挥官是个优秀的人呢。",
+			say = "You're an excellent naval strategist, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "被发卡了",
+			say = "I got commanderzoned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "虽然知道是个玩笑，不过被这么说还是难免有点伤心啊",
+			say = "Even though she was playing around, I couldn't help but feel a little hurt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "嗯哼？指挥官，看你的表情有些沮丧啊。该不会是……当真了吧？",
+			say = "Oh? Commander, if I didn't know better I'd say you were disappointed. Don't tell me... you were serious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "别放在心上啦。无论如何，{namecode:526}都会兑现当初的承诺：为你的舰队带来胜利与荣光，以及作为秘书舰陪伴在你的身边。",
+			say = "Don't take it to heart. No matter what happens, I will honor my promise: to bring victory and glory to your fleet. That includes serving you as your secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "好啦好啦，你那沮丧的样子要是给同伴们看到，会引起误会的。先尝一口我做的牛排吧，来，啊~~",
+			say = "Now now, I can't have my colleagues seeing you with that dejected face. You know how they talk. Open up and let me feed you some of my juicy steak. Ah~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "是啊，只是个玩笑而已，自己不必那么放在心上。而且这牛排口感非常不错啊……",
+			say = "Of course I knew it was just a joke and I shouldn't take it to heart. And the texture of the steak was really delightful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "等等，刚刚是不是做了一件超级羞耻的事情？",
+			say = "I had to be careful not to talk with my mouth full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和指挥官聊天感觉真有趣呢。不过工作时间到了呢，下次有机会继续吧！",
+			say = "Talking to you is so much fun, Commander, but we do need to be getting back to work. Let's do this again sometime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总感觉自己一直在被{namecode:526}牵着鼻子走，她永远一副游刃有余的样子。",
+			say = "Somehow, I felt like Zara was always two steps ahead of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "总觉得有点…不甘心？",
+			say = "And I can't say I liked that very much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

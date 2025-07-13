@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在塞壬实验场中出现了一群正在游动的可爱海豹？追上去调查一下吧……",
+			say = "A group of seals are playing in the water. This warrants closer investigation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "真是失态，妾身居然会被异常的氛围震慑住而找借口逃跑……",
+			say = "(I almost got swept up by the craziness... but at least I managed to make it out...)",
 			bgm = "story-1",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这个没有敌人也感受不到敌意的世界里…究竟有何事是需要妾身去做的……",
+			say = "(There is a warmth to this world... that I have never experienced before... Why...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…有读书的声音，前面的建筑是…学院？",
+			say = "(And that building over there...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么本学期的课程就到这里，大家假期的时候要注意安全，作业也记得认真完成！",
+			say = "And that concludes class for this semester! Be careful during summer vacation, and remember to do your homework!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -104,9 +104,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
-			actorName = "驱逐舰们",
+			actorName = "Destroyers",
 			dir = 1,
-			say = "是~~~",
+			say = "Yes ma'am!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总算各种事情都告一段落了，只剩下今天的演习了呢……",
+			say = "Phew... Now that class is out, all that's left is today's drills, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后就是激动人心的假期，可以尽情沉浸在花田之中了，真期待啊~",
+			say = "Yes! I'll finally be able to tend to my flowers after that... I wonder which flower I should start with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要忘了像小山一样多的假期作业哦！一想到这个……感觉假期来临的热情已经要消散掉了。",
+			say = "Jeez, didn't you say you were going to do your homework first? ...Woah! Pooky! You can't come out yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没有走出校门热情就消散掉可不行哦！{namecode:27}，来喝点花茶打起精神吧~",
+			say = "Um... If you're worried about Ms. Amazon chewing you out, why not leave Pooky in the dorms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你身上总是会提前准备好这些东西啊，真是太厉害了，{namecode:29}！",
+			say = "Well, Pooky would be lonely then! I could ask Commander to help out, but that'd probably be a nuisance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎嘿嘿，如果{namecode:27}有兴趣的话，假期的时候我可以好好教教你哦。",
+			say = "I can take care of Pooky if you'd like? He seems to be fond of sunflower seeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！那就拜托了，我有兴趣~",
+			say = "Really? Thanks a ton~ I owe you one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放学的场面啊…驱逐舰们的话，应该是在学习雷击、护航和夜战技术吧。",
+			say = "(Destroyers... going to school together...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然各个阵营如此之多的舰船都聚集在同一个港区之中……",
+			say = "(The children of the Sakura Empire... hand in hand with children of the Royal Navy... I see, this is a dream of Azur Lane, reunited...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难以想象这样的港区会在任何情况下存在…果然只是单纯由梦境拼接出来的场所么…",
+			say = "(This idyllic scenery of friendship... Alas, 'tis but a dream...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那个角落里的是…皇家的…皇家方舟号？",
+			say = "(...Wait, who is that figure staring intently at the destroyers...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "被，被发现了！啊、啊啊！在、在下只是在巡逻校园，维持治安、绝、绝对不是什么可疑的人哦！",
+			say = "Eh?! Wh-what's your problem? I'm just watching my cute little destroyers leave school together! I'm not up to anything suspicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……很可疑。",
+			say = "\"Your unasked-for justification... only makes you more suspicious...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳！在学校放假的时候，所有学生都一哄而散的离开校园，这个时候在回家的路上非常容易发生危险！{namecode:182}也是这么认为的吧！",
+			say = "No, no! You see, with so many energetic destroyers frolicking about, it would be dangerous if they all started running around and bumping into one another! Therefore, it is my duty to watch over them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…？",
+			say = "(Sigh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 207020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯，看来你也是认可我的说法的！那就应该理解我了！那么，鄙人还有事，就先告辞了！",
+			say = "Makes sense, right? Besides, you look like you hit your head on the way here, so surely you would understand such dangers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "………雷厉风行。",
+			say = "(I understand... nothing at all...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

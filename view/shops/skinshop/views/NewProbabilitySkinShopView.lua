@@ -65,7 +65,7 @@ function var_0_0.UpdateCommodity(arg_8_0, arg_8_1)
 	arg_8_0.icon:SetNativeSize()
 
 	arg_8_0.nameTxt.text = arg_8_1:getConfig("name_display")
-	arg_8_0.priceTxt.text = GetMoneySymbol() .. arg_8_1:getConfig("money")
+	arg_8_0.priceTxt.text = "$" .. arg_8_1:getConfig("money")
 	arg_8_0.limitTxt.text = arg_8_1:GetLimitDesc()
 	arg_8_0.descTxt.text = arg_8_1:getConfig("descrip")
 

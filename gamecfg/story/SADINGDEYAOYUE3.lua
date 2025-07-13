@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>三　事难巨细</size>",
+					"Where All Roads Lead\n\n<size=45>3 The Commander's Worries</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "白鹰·？？？",
+			say = "Somewhere in the Eagle Union...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -58,7 +58,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗨~指挥官，工作辛苦了！",
+			say = "W-wow, this isn't good... It's actually double plus ungood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "萨拉托加？例行联络的时间还没到，外面出什么事了么？",
+			say = "Imagine my confusion when I got an \"Invitation to the World Expo\" from just about every camp in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其实……司令部又收到名义上发给指挥官的私人邮件了！",
+			say = "They're all asking for you to go with them... right? And the communications are all private too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………又是{namecode:529:苏维埃同盟}发的么？",
+			say = "I don't think anyone has any ill intentions, which is exactly why it's hard for me to say anything... Though, there's at least one sender who's doing this to mess with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "猜对了！真是的……我已经可以100%确定她是故意的了！",
+			say = "But Sister Sara was just about to ask you if you had some free time in your schedule...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "现在对外联络受限，她们一时联络不到也还算正常……",
+			say = "For whatever reason, Saratoga looked like she was about to cry on the other side of the communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然理论上是这样！不过这件事北方联合肯定不知道，所以还是故意的！",
+			say = "Commander, listen to me! It's all one big conspiracy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……这次通讯说了什么？",
+			say = "\"Now that you mention it, it IS extremely unlikely that I'd receive pretty much the same message from everyone at roughly the same time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，你知道撒丁帝国想要举办世界博览会的事了么？",
+			say = "That's right! I knew this would happen the moment Sardegna announced that they'd be rebooting the World Expo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像从前几天的报告里看到过，世界博览会已经很多年没举办过了吧？",
+			say = "A festival held in the beautiful seas of Sardegna, where shipgirls from all over the world come together to compete and represent their proud cultures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错~真不知道撒丁帝国是怎么突然想起来这件事的。",
+			say = "Of course there's nothing wrong with inviting you, Commander, but the question of whose invitation you'll accept is a major crisis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看来她们这次是野心勃勃地想要做一次世界焦点呢~",
+			say = "I also sent you an invitation, and you didn't even respond... But you were happily laughing and chatting with THAT girl as if you two were dating... *sniffle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "既然是采用和平的方式，倒也没什么不好。",
+			say = "I wanted to correct the record and say that wasn't what was going on at all, and that I just wanted to participate as a regular, uninvolved party, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "你提到这件事……难道说，跟北方联合的联络内容有关？",
+			say = "There will definitely be a major problem if I make a wrong move. Plus, the Naval HQ will be watching my every move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错！",
+			say = "So, what are you going to do? You're going to go with Sister Sara after all so that nobody else gets the wrong idea, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……该不会是，参会邀请函？",
+			say = "...I had to carefully think about what I wanted to do with these invitations. Except one. I slapped a big, fat \"NO\" on it, before sending it back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错~指挥官有兴趣去撒丁帝国度个假么？",
+			say = "This sucks... We won't even be able to relax and have a good time there at this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……现在正是测试的紧要关头，我怎么能抛下这里不管去博览会玩呢。",
+			say = "\"There's nothing wrong with being in a festive mood, but the World Expo is a weeks-long event. It's not worth getting into trouble.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然对不住北方联合的一番好意，不过这件事就代我拒绝了吧。",
+			say = "\"Let's focus on the task at hand first, and once everything blows over, we'll enjoy the rest of the event like ordinary people.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，没问题哦~",
+			say = "F-fine, I suppose you're right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "至于白鹰这边，我们计划派埃塞克斯带队前往，场馆的主题也想好了。",
+			say = "In case you were wondering, Essex is the Eagle Union's representative, so there's nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "资料我一会发过来，指挥官可以当成调剂用的画册看看哦。",
+			say = "Oh, before I forget! I know you can't go right now, but here are some pictures of Eagle Union's pavilion! It has sci-fi vibes and looks super badass, doesn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这次场馆的设计特别有科幻感，肯定会吸引全世界的目光的——",
+			say = "When you get there, you definitely have to go check it out... *click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……新一轮设备调试即将开始……",
+			say = "Commander... Eldridge is here to remind you... that the next round of equipment testing is starting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "领航员小姐已经在等你了……",
+			say = "Um... I thought I heard Saratoga's voice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，那指挥官你先忙，我就继续去进行博览会的准备工作了~",
+			say = "Anyway, I'll leave it there for now! We're still busy setting up for the expo over there, so I'll talk to you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯，你也注意休息。",
+			say = "After seeing Eldridge come into the room, Saratoga scrambled to end the call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "了解~萨拉托加通讯结束。",
+			say = "Bye bye! Sister Sara out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101260,
-			say = "……指挥官，累了么？",
+			say = "Commander, are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "累的话，就睡一觉……我去让领航员小姐……换个时间。",
+			say = "If you're tired... Eldridge will try to... get the tests pushed back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不用不用，我们出发吧————",
+			say = "\"No, I'm fine. You know what they say: work hard, play hard––\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -28,15 +28,15 @@ return {
 							options = {
 								{
 									{
-										content = "{namecode:50}?"
+										content = "Noshiro?"
 									}
 								},
 								{
 									{
-										content = "恶作剧的{namecode:50}也很可爱"
+										content = "You're cute when you tease me."
 									},
 									{
-										content = "{namecode:50}做什么都很可爱"
+										content = "Nonsense. Anything you do is cute."
 									}
 								}
 							},

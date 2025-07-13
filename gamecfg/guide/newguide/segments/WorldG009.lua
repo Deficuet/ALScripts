@@ -21,7 +21,7 @@ return {
 				"openCompass"
 			},
 			style = {
-				text = "打开罗经",
+				text = "Open the compass.",
 				mode = 2,
 				posY = 232,
 				dir = 1,

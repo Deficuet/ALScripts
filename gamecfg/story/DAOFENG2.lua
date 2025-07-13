@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>二　莽撞也要适可而止</size>",
+					"Full Steam Ahead!\n\n<size=45>2 Cool that Hot Head</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "Port - Office",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "第二天一大早，{namecode:18}就充满精力地做起了秘书舰的工作。",
+			say = "Shimakaze came into my office the next morning and wholly devoted herself to her secretarial duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "把这个移到那边，再确认下洗衣机的状况…然后顺便把文件放回原来的地方…！",
+			say = "Right... I'll take out the trash while going to check on the laundry, and then return this folder to its storage cabinet in the archives!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "打扫、清洗衣服外加整理资料，不论怎么看都是令人赞叹的多线程工作场面。",
+			say = "\"All at once? I've never seen this level of multitasking before. It's incredible.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哼哼！小菜一碟！虽然小菜刚才都被我吃光了！",
+			say = "Heheh! Please, this is all child's play to me! I'd know, because I played with a few destroyers on the way here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然她兴致勃勃工作的样子真的很有感染力，但……",
+			say = "It pleased me to see her working hard and enjoying herself. There was one thing that was bothering me, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯？指挥官有什么话要对{namecode:18}说吗？",
+			say = "Hmm? You look as if you want to ask me something, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "问了问她，今天一开始交代去做的事情怎么样了。",
+			say = "\"In fact, I do. Did you do the task I gave to you first thing in the morning today?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "咕呜——",
+			say = "Erp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,25 +197,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然忘记了啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "嗯，那个，这个……是指“写检讨书”对吧……",
+			say = "\"I was concerned because I had wanted you to prioritize finishing that task.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +215,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}记得哦……就是那件事对吧？昨天迎击塞壬量产舰那个……",
+			say = "Right, uhh... Err... The formal report, I presume...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "That's the one, right? For the incident with the mass-produced ships yesterday...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为处置及时，不知道为何出现在近海的塞壬舰队并没有来得及造成任何危害。",
+			say = "\"Not quite. Thanks to your valiant efforts, we successfully defeated the enemies before they could cause any damage...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那，那就，没什么问题对吧……额，难道是指我报到迟了这件事吗？",
+			say = "Then what is there to explain? It was standard proce– Wait... Is this about how I was late to the meeting yesterday?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			},
 			options = {
 				{
-					content = "当然也包括在内。",
+					content = "\"That's part of it, but not all.\"",
 					flag = 1
 				}
 			}
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "原来并不是没问题啊……",
+			say = "Figures...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "海域中通讯并未遭到干扰，但直到收到警报组织舰队并抵达现场之前，并没有获得来自{namecode:18}的任何汇报。",
+			say = "\"You could have reached me by radio or sent me a message. How come I didn't hear a single word from you yesterday before you went straight into battle?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "发现塞壬之后，应该先报告的……很抱歉给大家添麻烦了！！",
+			say = "You are absolutely right, Commander... I should've communicated that I'd found the enemies right away! Forgive me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "从她沮丧的眼神和口吻中，能感受到她确实有在好好反省，但……",
+			say = "\"I hear the sincerity in your voice. Rest assured, you're pardoned. But listen, there's one thing I want to stress here...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "诶，没有添麻烦的意思……？",
+			say = "Huh...? And what... would that be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "战斗中应该学习保护自己和依靠同伴，不应该不向港区确认就进行那么危险的战斗。",
+			say = "\"Please, try not to get into any more dangerous situations without notifying me ahead of time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "指挥官……！没想到您这么担心{namecode:18}……我现在就写检讨书！！",
+			say = "Commander...! I'm honored that you're so concerned with my safety! I'll begin writing my report at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "目前看来，{namecode:18}是那种一但做好决定就会迅速行动起来的类型。",
+			say = "And she did just that, picking up a pen and paper without a moment's delay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊！写字太用力把纸弄破了——！",
+			say = "Aahh! Nooo! I pressed too hard and punctured the paper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "只不过，看来{namecode:175}的评价大体是对的呢……",
+			say = "It was starting to seem like Suruga was more or less right on the money with her appraisal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

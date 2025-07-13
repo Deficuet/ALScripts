@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>消除恐惧的方法</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Don't Be Scared</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "被{namecode:523}裹挟着来到了城堡中的某处。",
+			say = "Jean Bart leads me arm-in-arm to a quiet place elsewhere inside the palace.",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——到这里的话，应该就安全了……",
+			say = "Phew... This place feels safe enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,14 +69,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "为什么突然逃走？",
+					content = "\"What was that about?\"",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "因为被发现了。",
+			say = "Didn't ya hear me earlier? I don't wanna be noticed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "为什么被发现了……就要逃走？",
+			say = "\"So you led me all this way to avoid attention? Sounds a bit excessive.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不然呢？",
+			say = "Not like I had any damn choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,11 +129,11 @@ return {
 			},
 			options = {
 				{
-					content = "不擅长应对马萨诸塞？",
+					content = "\"Was it to get away from Massachusetts?\"",
 					flag = 1
 				},
 				{
-					content = "下次跑之前说一声！",
+					content = "\"Is this my fault?\"",
 					flag = 2
 				}
 			}
@@ -147,7 +147,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算是吧……不过不是主要原因。",
+			say = "Yeah. I can't stand being around her. That's not the only reason, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，好。",
+			say = "*sigh*... Listen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "唉……接待贵宾、宴会致辞这些工作听上去哪一个和我沾边了？",
+			say = "The shit Richelieu expects from me – the speech and all – I ain't cut out for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "虚伪的笑，繁文缛节，再加上像个花瓶一样让人参观……",
+			say = "Forcing smiles, minding my manners, people staring at me like some painting...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "都跟她说做不来这些了……还是一股脑全推过来，这跟让我出丑有什么区别。",
+			say = "I can't do it. I even told her that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我知道她忙不开，克莱蒙梭也忙不开。",
+			say = "I know she's got her hands tied. Same with Clemenceau. Someone's gotta represent the Orthodoxy out there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "那也不一定非要是我吧……贞德和马赛曲不也可以。",
+			say = "But that doesn't mean it HAS to be me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "而且做的肯定比我更好……",
+			say = "Why not have Jeanne do it? Why not Marseillaise? They'd do much better than me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "黎塞留肯定也知道这一点，不过她还是选择了你。",
+			say = "\"Maybe so, but the fact is that she entrusted YOU with the speech.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "你觉得她是想看你出丑么，还是？",
+			say = "\"And I can't imagine she did so just to make a fool of you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是她打算扔过来更多工作的预兆，还是因为想让我习惯这种场合。",
+			say = "Oh, for sure. She doesn't have bad intentions or anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是因为我是她的妹妹……黎塞留级战列舰二号舰，{namecode:523}。",
+			say = "If I had to guess, I think her goal is to get me used to being one of the Orthodoxy's representatives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "看来你都明白。",
+			say = "\"So you understand where she's coming from. Then why did you run?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "明白归明白，但是……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这样好了，我去跟黎塞留说你身体不适，让她把这件工作交给马赛曲或者圣女贞德——",
+			say = "\"Okay. Here's what we'll do: I'll try to convince Richelieu to replace you with Jeanne so you don't have to–\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "等等——！",
+			say = "No.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我又没说不干……而且鸢尾骑士岂能出尔反尔临阵退缩……",
+			say = "I'm still gonna do it. I already said I would. I'm a Templar Knight, dammit – I don't back down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "但是你现在的状态……",
+			say = "\"Then I have to ask again – why DID you run?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "嗯……我明白了。",
+			say = "Do I really gotta spell it out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会的工作……虽然很让人头疼，但不能让鸢尾蒙羞。",
+			say = "I'm not denyin' I'm nervous about it, but the Orthodoxy's reputation matters more than a bit of discomfort.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "消除恐惧的最好方法就是面对恐惧。",
+			say = "Jean Bart being upfront about her feelings is a rare and welcome sight. I can think of only one thing to say here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "加油——{namecode:523}！",
+			say = "\"I believe in you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "哼……不愧是指挥官，还是那么能说会道。",
+			say = "Thanks. I appreciate it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——我们回会场去吧，指挥官。",
+			say = "Anyway... 'bout time we head back now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "刚刚突然从马萨诸塞面前跑开，此等失礼行为，首先需要对她有个解释才行。",
+			say = "I ran away from Massachusetts without sayin' a word. Oughta go and formally apologize to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "一上来就是这么高难度的目标？",
+			say = "\"That's a tall order right out of the gate. Do you want me to help? Chime in when you need it, maybe?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不是你说的么，消除恐惧的最好方法就是面对恐惧。",
+			say = "Nah. I've gotta face my fears on my own. No two ways about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会正在进行中，没有时间让我慢慢习惯了。",
+			say = "Besides, I haven't got the time to psych myself up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "嗯，决定了，第一个要接待的客人就是她了。",
+			say = "So I just gotta do it – find Massachusetts and say sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不过……指挥官，帮人帮到底。",
+			say = "Also... I know it's a lot to ask, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "你会陪我一起回去的，对吧？",
+			say = "You'll stick with me until it's time, won't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1

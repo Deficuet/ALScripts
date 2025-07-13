@@ -221,14 +221,14 @@ pg.activity_banner = {
 		pic = "limit_skin"
 	},
 	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
 		time = "stop",
 		type = 10,
 		id = 100,
 		pic = "dumpling"
 	},
 	[101] = {
-		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "Kagami Mochi| Make sure to unwrap it first before digging in! <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
 		time = "stop",
 		type = 10,
 		id = 101,

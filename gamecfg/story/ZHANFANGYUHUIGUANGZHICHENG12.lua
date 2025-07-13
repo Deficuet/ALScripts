@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "结束了与伊丽莎白的通讯后，我们在辉光之城中向着鲸鱼的方向移动着。",
+			say = "With Elizabeth's cooperation, our team starts heading toward the whale.",
 			bgm = "theme-lightheven",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "行进过程中，阿尔萨斯率先发现，流淌在城市四处的云似乎有着水面一般的性质。",
+			say = "At first, we walked, until we realized that the \"clouds\" around us had identical properties to water. So the girls deployed their riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "舰船可以在上面行驶，也可以凭借其走势向天空前进。",
+			say = "We should be able to reach the whale by traveling from cloud to cloud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "这使我们似乎找到了一个接近天空中鲸鱼的方法。不过，顺利的旅途很快遭遇了第一个阻碍——",
+			say = "Before we do that, though, there's an issue that needs to be resolved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……指挥官，我们被包围了。",
+			say = "*sniff sniff*... The Commander was right. Somebody's up ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "欸？！什么时候？！阿尔萨斯在雷达上什么都没有发现哦！",
+			say = "What? But one's sensors aren't detecting anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "……因为，包围我们的人……有办法规避我们雷达的捕捉。",
+			say = "I think they're using cloaking technology...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……余烬？",
+			say = "Yeah. That's the Ashes' modus operandi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "没错，她们正从两个方向紧盯着我们……",
+			say = "Signals detected! They are approaching from opposite directions! Requesting orders!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（凭借一直以来和余烬打交道的经验来判断，摆出这种架势……应该是想和我们聊聊吧。）",
+			say = "(Considering our previous encounters, they probably just want to talk.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "或许我们可以通过对话避免冲突，大家保持警惕，不要率先开火。",
+			say = "Let's see if we can solve this with words. Stay on your guard, but don't fire the first shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "我们去聊聊。",
+			say = "I'll try to reason with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "在发现我们的意图后，余烬的二人也主动从建筑的阴影中走出，表示了谈话之意。",
+			say = "The Ashes acknowledge our non-hostile intent and turn off their cloaking devices, showing themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "余烬所属，威奇塔和金伯利。看你们的表情，对于我们的存在并不吃惊呢？",
+			say = "I'm Wichita, this is Kimberly. We're with the Ashes. You don't look the least bit surprised to see us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "在你们进入辉光之城之前，我们就已经发现你们的存在了。",
+			say = "No. We knew you were here before we even set foot in the Martyrium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "喔！原来这座城叫辉光之城啊，你们的手笔？",
+			say = "Set foot in the what now? Oh, you mean this place. You created it, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "算是吧。",
+			say = "You could say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "你们背后有很厉害的人在帮你们呢，我们能见见么？",
+			say = "I want to know who exactly. Which one of you did it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "恐怕不行。不过我知道我们之间没必要发生冲突。",
+			say = "I'm afraid I can't tell you. Let's change the topic. What do you say to a cease-fire while we're here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "哦？何以见得？",
+			say = "Why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "因为我们与你们的{namecode:94:飞龙}、皇家方舟并肩作战过。而且你们那边，还有一支我们同伴的舰队。",
+			say = "I know your Hiryuu and Ark Royal. I've fought side by side with them. Friedrich from our timeline is also working with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "……你们来自β实验场。",
+			say = "Ahh. So you're the people from test site beta.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "噢~那个神奇的β实验场啊，那你们弄出今天的事也就不奇怪了。",
+			say = "You're test site beta? That explains a lot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "之前你们放的那个大烟花，我们可是都看在眼里呢。",
+			say = "We know all about you. Had a big battle a while back, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（大烟花，是在说陆上神国的事么……看来那次事件的影响比想象中要更广……）",
+			say = "(Big battle? Is she talking about the near-superimposition event? They know more than they let on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（机会难得，得多打探一些{namecode:440:腓特烈大帝}的情报，如果能和她们在此次行动中结盟就更好了。）",
+			say = "(Assuming Friedrich has been feeding them intel, maybe I can get these two to agree to a temporary alliance.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "{namecode:440:腓特烈大帝}她们还好么？",
+			say = "I appreciate what you've done for Friedrich. How's she been holding up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "不用担心，她们好得很。现在她们正在我们安全的后方准备一项重要工程呢。",
+			say = "Just fine. She's working on something big back at our hideout.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "对了，正好有个事问你，你知道你们那里的指挥官是谁么？",
+			say = "You sure seem to know a lot. I'm guessing you're the Commander I've heard so much about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "在这个语境下，我想你大概指的是我。",
+			say = "In the flesh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "嚯……果然是你啊。和{namecode:94:飞龙}说的一样，看到你之后我就产生了一种难以言喻的熟悉感。",
+			say = "Figures. Hiryuu was right – just seeing ya brings back fond memories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "金伯利，你也有相同的感觉么？",
+			say = "Know what I mean, Kimberly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "嗯……我也一样。",
+			say = "Yes. I'm... reminded, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "企业也是，自从见了你之后整个人就不太对劲了……这段时间做了不少奇怪的决定，包括同意让{namecode:440:腓特烈大帝}加入余烬也是。",
+			say = "A lot has changed since you and Enterprise met. Been making some odd decisions lately. Her letting in Friedrich was one of 'em.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "虽然我承认，她确实有点水平。",
+			say = "Have to admit, though, she's been doing good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "所以——你到底是谁？",
+			say = "Tell ya what, I'll bite – who are you, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这个问题，也是我自己想弄明白的。",
+			say = "Good question. You're probably familiar with my future self, whereas I'm not. I'd like to know more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "实不相瞒，我这次带队前来，就是想看看是否能寻找到一些有关于我身份的线索。",
+			say = "In fact, that's why I'm here. To find out more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哼！早都说了！这是助手，神秘人助手！",
+			say = "I've already told you who you are! You're the mysterious assistant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "……神秘人助手是………欸……是谁来着？金伯利，你能想起来么？",
+			say = "Never heard of a \"mysterious assistant\" before. Ring any bells, Kimberly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "……或许曾经听过……或许没有，我不知道……",
+			say = "Not sure. If I have any memories of such a person, they're buried deep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "奇怪……回去问问企业好了。倒是你是谁，为什么会知道这个代号？",
+			say = "I'll ask Enterprise later back at the base. You there, the shortie – how do you know the \"assistant\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "呃……我……我是D小姐！",
+			say = "I have a name! It's Miss D!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "完全没听过的名字呢……还是说这是什么掩饰真名用的代号？",
+			say = "Sure ain't a name I've ever heard before. You got something to hide?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "唔……总之，我就是D小姐！D小姐就是我的名字！",
+			say = "None of your business! All you need to know is my name is Miss D!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "有种可疑的气息呢…… 你长得也像安蒂克丝……难道是安蒂克丝潜入β实验场的间谍机体？",
+			say = "I don't trust that rat. She's obviously a damn Antiochus! Bet she's a spy who's infiltrated test site beta!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "你才是间谍呢！",
+			say = "YOU'RE a spy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "不否认是安蒂克丝呢~",
+			say = "Ya hear that? She didn't deny being an Antiochus!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "或许……D小姐就是塞壬的仲裁者·戴斯·XIII。",
+			say = "She's an Arbiter. Arbiter XIII: Death, to be precise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "哈啊？！你可真会开玩笑。我们可是和戴斯打过很多交道了。",
+			say = "Bullshit. I've fought Death more times than I can remember and that sure ain't her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "看到天上那头大虎鲸了么？那个才是戴斯，至于这个小豆丁……不像，实在是不像。",
+			say = "Ya see that whale in the sky? THAT'S Death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哈啊？！笨蛋！笨蛋！被冒牌货骗的大笨蛋！",
+			say = "Huh?! You're a big fat moron! The faker duped you, moron!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "你说谁是笨蛋，找打么？",
+			say = "Call me a moron again and you're getting it, you little shit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = ">_<！（瑟瑟发抖）",
+			say = "Eek!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "……威奇塔，别欺负小孩子。",
+			say = "She's just a kid. Don't threaten her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "知道知道~就是吓吓她嘛。",
+			say = "Sure, she's a kid, and kids need to be put in their place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "事到如今，我们也算和你们实验场β关系匪浅了，不管你是不是安蒂克丝，只要你是站我们这边的，我就不会对你怎么样。",
+			say = "Anyway... If that half-pint is with you people, that changes things. We'll leave the Antiochus alone as long as she doesn't mess with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1024,55 +1024,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过，妥善处置引发空间冲击的存在是我们的任务，希望我们之后不会因此而刀兵相向。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 900432,
-			say = "你们也是被这场惊天动地的冲击吸引过来的，不是么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "其实，我们这次行动的主要目标是捕获鲸鱼，调查空间冲击事件只是顺便的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 900432,
-			say = "哦？我们也是在到了之后才发现戴斯的存在的，你们居然能事先追踪到它的行动。",
+			say = "We've still gotta do something about that spatial impact event, though. Just hope we won't have to fight each other over it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1090,7 +1042,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "你们的情报源还真是不得了啊……",
+			say = "That's what you came here for, right? To measure it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,19 +1058,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "既然我们彼此间的目标不同，要不要合作行动？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "目前在辉光之城中，还有迪贝路带领的另一方势力。它和我们处于敌对状态，相信跟你们也一样吧。",
+			say = "In a way. Our goal here is to catch the whale. Getting data on the event is just a side objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,7 +1072,67 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "呵，迪贝路么。确实，在入城之后我就发现它的存在了，同时还有另一个难缠的家伙。",
+			say = "Really, huh? We didn't know about the whale 'til we got here. Guessing you knew about it from the start.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 900432,
+			say = "That thing is a giant database with fins, you know.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "Interesting. So, what's your stance on us working together on this?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "There's an Arbiter – Devil – somewhere in this place, and I don't think she's just a vessel. She's our enemy, and yours as well.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 900432,
+			say = "Speak of the devil, as they say... Yeah, we detected her as soon as we stepped inside the... \"Martyrium.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "行吧，我们可以在本次行动中不攻击你们，不过我们独自行动习惯了，这次也不打算破例。",
+			say = "But here's the thing. We work best alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1167,7 +1167,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "大家还是各走各的吧。",
+			say = "Best I can do is agree to keep out of your hair if you keep out of ours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,7 +1183,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（余烬的人一个两个都是这种行事风格么……看来没法强求了。）",
+			say = "(I almost forgot the Ashes is filled with lone wolves. If that's how they want it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1195,7 +1195,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没问题，希望你们能得偿所愿。",
+			say = "That's fine by me. Good luck on your task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1209,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "你们也一样~",
+			say = "Yeah. Same to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1

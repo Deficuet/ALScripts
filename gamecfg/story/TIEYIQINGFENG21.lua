@@ -12,7 +12,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "报告指挥官，南海风暴解析舰队第一轮饱和式打击已结束，目标依然健在。",
+			say = "Commander, this is the South Sea Storm Analysis Fleet. First round of saturation attack is complete. Target still intact!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "报告指挥官，北海风暴解析舰队第一轮饱和式打击已结束，目标依然健在。",
+			say = "This is the North Sea Storm Analysis Fleet, reporting identical results. First round of attack is finished, but target shows no sign of weakening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "报告指挥官，东海风暴解析舰队第一轮饱和式打击已结束，目标依然健在。",
+			say = "East Sea Storm Analysis Fleet here. Completed first round of saturation attack. It did nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至此，第一轮全线饱和式打击已经结束，四个目标均健在，各舰正在重新装填中，准备进行下一轮打击。",
+			say = "That was all our first attacks. Storms Alpha through Delta are all unscathed. Fleets will reload and resupply then initiate second round of attacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，明白了。待装填结束后，立刻进行第二轮打击。",
+			say = "Understood. When that's done, commence the second round on my command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是。待装填结束后，立刻进行第二轮打击。",
+			say = "Roger that. Will begin second round following resupply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（第一轮打击没有效果是在预料之中的事。）",
+			say = "(This is about what I expected from the first round.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过，最快三轮、至多四轮，这道坚不可摧的风暴之壁，必将粉碎！）",
+			say = "(It didn't look like it did anything, but the third round should do it. Or the fourth at most.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "第二轮打击结束后，四个目标风暴依然健在，不过风力均已有了明显减弱。",
+			say = "The second round of attacks came. While the Storm itself looked unchanged, the abnormal ambient weather blanketing the area clearly let up somewhat.",
 			movableNode = {
 				{
 					time = 1000,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "第三轮打击结束后，较弱的壹号和肆号风暴已经奄奄一息，贰号风暴和叁号风暴也开始难以为继了。",
+			say = "Then came the third round. Storms Alpha and Delta, which were already comparatively weak, were struggling even to sustain themselves. Meanwhile, storms Beta and Gamma were starting to weaken.",
 			movableNode = {
 				{
 					time = 1000,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "终于，在第四轮打击结束后，大海仿佛在这一刻平静了下来。",
+			say = "Finally, the fourth round finished. The seas had turned silent.",
 			movableNode = {
 				{
 					time = 1000,
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "四个预定打击目标已全部烟消云散，位于东煌海岸线那道终年不息的大风暴，如今正在连锁反应中快速崩溃着。",
+			say = "The Storm was fading away before everyone's eyes while the unusual weather above, too, cleared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "成功了……我们终于成功了。",
+			say = "We did it... We defeated the Storm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，塞壬舰队向我们集中而来了。",
+			say = "Commander, approaching Sirens spotted! They're coming toward us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大风暴已经开始瓦解，干扰正在减弱，各舰队航空立刻开始侦察敌情。",
+			say = "With the Storm gone, their jamming should be a lot weaker! Send out scouts, recon from the air, and commence a wide-area radar sweep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其余诸舰，准备迎敌。",
+			say = "Vanguard fleets, intercept the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，指挥官~早就听说过你在战场上的厉害。",
+			say = "On it! I've heard a lot of stories about what you're capable of, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "今日有幸并肩作战，咱们一起大干一场吧~！",
+			say = "Let's send these Sirens back where they came from!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

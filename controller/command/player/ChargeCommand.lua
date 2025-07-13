@@ -27,6 +27,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	}, Goods.TYPE_CHARGE)
 
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_CLICK, var_1_0)
+	print("=================ChargeCommand test======================")
+	print(tostring(PLATFORM))
 	pg.ConnectionMgr.GetInstance():Send(11501, {
 		shop_id = var_1_0,
 		device = PLATFORM

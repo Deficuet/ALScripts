@@ -139,7 +139,7 @@ function var_0_0.getTypesStr(arg_16_0)
 		local var_16_3 = ""
 
 		for iter_16_2, iter_16_3 in ipairs(ShipType.FilterOverQuZhuType(var_16_1)) do
-			local var_16_4 = iter_16_2 == #arg_16_0.template.ship_type and "" or "、"
+			local var_16_4 = iter_16_2 == #arg_16_0.template.ship_type and "" or ", "
 
 			var_16_3 = var_16_3 .. var_16_0[iter_16_3].type_name .. var_16_4
 		end

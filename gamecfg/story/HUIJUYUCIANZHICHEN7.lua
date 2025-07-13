@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>七　各有所图</size>",
+					"Whence the Dust Settles\n\n<size=45>7 Plans and Goals</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "一处广袤无垠的空间中，悬浮着一个精巧的庭院。",
+			say = "An exquisite garden sat in the middle of an otherwise barren place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "唉……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9705030,
-			say = "你已经是第二十六次叹气了哦。",
+			say = "That's your 26th sigh, Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "唉……！",
+			say = "*siiigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9705030,
-			say = "第二十七次。",
+			say = "27th.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "你们说……海伦娜留下任务安排之后，就再也不接电话了。",
+			say = "I haven't heard a word from Helena since she left us with this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "……这算是什么意思？",
+			say = "Why? I don't get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "现在局面对指挥官来说那么危险……她为什么不让我去！",
+			say = "The Commander is in so much danger, so why won't she come to the rescue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9712010,
-			say = "……海伦娜这么安排一定是有自己的考虑的，而且约克城不是也同意了么？",
+			say = "She must have her reasons for it, I'm sure. Besides, didn't Yorktown sign off on the idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "还有你！你和{namecode:180:霞}明明都很适合这次任务，可是她选了{namecode:180:霞}却没选你！",
+			say = "Hey, aren't you bothered by the fact that Helena chose Kasumi for this mission, even though you and she are both suited for it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "你说……她是不是故意把咱俩排除在外，想独占指挥官的？",
+			say = "I'm starting to think she wants to keep the Commander all to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9712010,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "咳……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "啊、{namecode:180:霞}，你已经准备好出发了？",
+			say = "Oh, hey, Kasumi. Setting off so soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "一路小心哦，指挥官的安全就拜托你了。",
+			say = "Look after yourself – and the Commander as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "嗯……放心吧，孟菲斯。",
+			say = "Mhm. I will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "一阵蓝色光芒闪过，名为{namecode:180:霞}的少女从庭院中消失了。",
+			say = "Kasumi vanished from the garden in a burst of blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "唔……还是不放心。",
+			say = "No... I can't stop worrying about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702020,
-			say = "{namecode:39:神通}是不是还在线上……我得再去嘱咐她两句！",
+			say = "Jintsuu's still online. I'm going to go and give her some advice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,12 +305,12 @@ return {
 			actor = 9705030,
 			side = 0,
 			bgName = "star_level_bg_177",
-			actorName = "亚利桑那·META&女灶神·META",
+			actorName = "Arizona META & Vestal META",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……眼前看到的危险，并不一定是真正的危险。",
+			say = "The ostensible danger may not be the real danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900316,
-			say = "不论如何，我会尽我所能保护你的。",
+			say = "No matter what happens, I will protect you with all my might...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "一切小心……指挥官。",
+			say = "Be on your guard... Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "实验场β·中层防线",
+			say = "Test Site Beta - Arbiters' Defensive Line, Central Layer",
 			bgm = "theme-richard",
 			typewriter = {
 				speed = 0.05,
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "这里是拉沃斯与恩普雷斯为防御X而设立的防御体系的中层。",
+			say = "The Lovers and Empress constructed this defensive line to ward off the X in the event of an attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "自从好人理查德入侵至此处后，拉沃斯布设的防御力量一下陡增数倍。",
+			say = "Then came Bon Homme Richard. Ever since her assault began, Lovers' defense force expanded to several times its original size.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "近一周来，好人理查德没有将战线再向前推进一步。",
+			say = "This fierce pushback prevented Bon Homme Richard from gaining any ground for a week.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "直至今日——",
+			say = "Then, a new day came...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "嗯……？怎么从刚才开始抵抗就变弱了？",
+			say = "What's this? Your forces aren't pushing back like they used to.",
 			bgm = "theme-themagiciani",
 			typewriter = {
 				speed = 0.05,
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……舰队正在撤离？",
+			say = "Are you taking your fleet and retreating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "不是说要跟我比耐心么，这就撑不住了？",
+			say = "You asked for a battle of attrition, and now you're just giving up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "啊哈哈哈哈——！",
+			say = "Ahahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "说大话，真丢人。",
+			say = "I'd be ashamed if I ran off after bragging like you did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "嗯~看上去实验场β里好玩的事才刚刚开始呢~！",
+			say = "Ooh, lookie here. Fun stuff is happening over in test site beta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "拉沃斯~既然你不打了，那我就过去咯？",
+			say = "Not gonna stop me, Lovers? Because I WILL pay them a visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "熟悉的声音没有响起，四周只有一片死寂。",
+			say = "She expected to hear Lovers' familiar voice, but there was no response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "真的走了啊……那我真的过去了哦？",
+			say = "She really did pack up... Alrighty then, I'm off to test site beta!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "四周依然只有一片死寂。",
+			say = "The dead silence continued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "欸嘿嘿，那我就不客气啦？",
+			say = "Okay, here we go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "实验场β~我·来·啦~！",
+			say = "Test site beta, here I come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

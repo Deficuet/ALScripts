@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "还是换一颗新的吧"
+										content = "Have another."
 									}
 								}
 							},

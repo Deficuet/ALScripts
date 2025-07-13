@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>四　小小插曲</size>",
+					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>4 A Short Story</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼♪~",
+			say = "Hum hum~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "海天的头上戴着出自我手的、勉强可以称之为花冠的环状物体，步履轻快。",
+			say = "Hai Tien walks next to me with a sprightly spring in her step, wearing the semblance of a flower crown that I had crafted on her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "而我则将那枚草编的指环戴在了左手上。",
+			say = "As I follow her, I also wear the ring of grass she had made for me on my left hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我们顺着林间的小路继续行进，不多时便来到了一处适合作为营地的所在。",
+			say = "We continue to pass through a tiny trail in the forest, and eventually arrive at a pleasant clearing that seems perfect for camping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，我们在这里搭帐篷吧？我来帮忙。",
+			say = "Commander, shall we pitch the tent? I'd be glad to help out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，那就麻烦你和我一起了。",
+			say = "Sure, good idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "尽管我与海天都是露营的新手，但搭帐篷这种小事还是不在话下。",
+			say = "Though this is the first time camping for both of us, we still manage to get the tent set up without any difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……阳光等会儿应该会变得很刺眼吧，把天幕也搭起来好了。）",
+			say = "(Hmm... The sun might get pretty intense soon. Maybe I should throw up the tarp?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，还有什么我能帮忙的地方么？",
+			say = "Commander, is there anything else I can help with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用，我把椅子组装好了，海天就坐着休息一会儿吧。看看风景，找找灵感什么的。",
+			say = "Uhh, I think I'll be fine. Here, I just finished unfolding the chairs. Take a breather and see if you can come up with any inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "天幕我一个人来搭就好。",
+			say = "I can put up the tarp by myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "那我就恭敬不如从命啦~",
+			say = "Well then, I'll leave it to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "天幕搭建到中途，突然听到了海天的声音。",
+			say = "As I go to set up the tarp, I suddenly hear Hai Tien's voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不可以哦~这里的情绪不对，你的眼神要再深情一点！",
+			say = "No, not like that! The emotion here is completely off! There needs to be more intimacy in your expression!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "嗯嗯，这样才对嘛，就是要用这种眼神看着心上人才可以！",
+			say = "Yes, yes, that's it! That's exactly how you should be looking at your crush!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？奇怪……这附近明明没有其他人，海天在和谁说话？）",
+			say = "(Hmm? That's weird... I don't think there's anyone else here, so who is she talking to...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "带着疑惑，我暂停了手上的动作，转身看向海天所在的方向——",
+			say = "Curiosity gets the better of me, and I stop what I'm doing to head back to where Hai Tien is–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "不知何时聚集了一堆松鼠，在她的面前一字排开。",
+			say = "At some point, a whole bunch of squirrels had lined up in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "而她正颇有兴致地教导着这群松鼠……演戏。",
+			say = "And Hai Tien is... enthusiastically teaching them to act.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我又安静地听了一会儿，台词似乎正是她先前放入碎纸机的内容",
+			say = "When I listen in a bit more, I notice that the content of her \"playbook\" seems to be from the novel she was working on before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,11 +300,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "松鼠",
+			actorName = "Squirrel",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "吱吱吱、吱吱！",
+			say = "Squeak, squeak!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,11 +312,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "松鼠",
+			actorName = "Squirrel",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "吱吱！吱吱吱吱！",
+			say = "Squeak! Squeak squeak squeak!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "很好~保持这个情绪~！接下来会有一场大雨！",
+			say = "You're doing great~ That's exactly the emotion you want! Next, the storm scene is about to start!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "你要紧紧地抱住她，让她在你的胸前感受到你的心跳声~",
+			say = "Hold your lover tight, and let her feel your heartbeat–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "这犹如童话故事一般的画面不禁让人哑然失笑。",
+			say = "There's a certain magic to her fairytale-like story that puts a wide smile on my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "不过，海天是怎么教会松鼠讲台词，而且还能听懂松鼠在讲什么的……？",
+			say = "The question is, how is Hai Tien able to teach the lines to the squirrels? Does she know how to communicate with them...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

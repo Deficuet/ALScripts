@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "这部分则是在设定了成长目标后，为了达成目标所需完成的任务。",
+				text = "A new mission has appeared since you've completed a growth goal.",
 				mode = 2,
 				posY = -79.5,
 				char = 1,
@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "将成长目标任务的完成度提升至一定值，可获取奖励。",
+				text = "After completing enough missions, you can claim rewards.",
 				mode = 2,
 				posY = -395.1,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "需要格外注意的是，所有的任务都有时间限制。当下一个时间段开始时，上一个时间段内未做完的任务会直接消失哦。\t ",
+				text = "These missions are only available for a limited time. You need to complete them within the time limit, or they will disappear.\t ",
 				mode = 2,
 				posY = -406.9,
 				char = 1,
@@ -53,7 +53,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "领取刚刚完成的成长目标设定的奖励，现在，就先继续完成主线任务吧 。",
+				text = "Claim your rewards and continue where you left off. 。",
 				mode = 2,
 				posY = -47.1,
 				char = 1,

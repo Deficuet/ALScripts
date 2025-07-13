@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "轰————————————————！",
+			say = "(Yes, Isokaze, go...)",
 			dir = 1,
 			bgm = "level02",
 			flashN = {
@@ -65,7 +65,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "目标“消灭”，下一个目标在哪里？",
+			say = "Target eliminated... The next one is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊…好奔放的打法…感觉今天的{namecode:182}心情很差的样子…",
+			say = "Lady Shinano, you seem more focused than usual today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过反常的作战方式反而吸引了指挥官的注意力，让我方暂时取得了优势。",
+			say = "As a result, the commander's forces have no choice but to fully focus on Shinano's movements. Now's our time to shine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题是这么持续下去的话…拿大将当诱饵的战术可是很危险的哟。",
+			say = "That may be the case, but letting our general draw all the fire is a risky strategy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白。大家紧跟{namecode:182}，小心指挥官来自水下，或者空中的奇袭！",
+			say = "Sure thing. I can't let Suruga have a better record than me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

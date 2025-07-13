@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "腐蚀区域正在海面上逐渐扩散，舰队进入腐蚀区域后将返回实验场的起始点，能源矩阵也会返回初始位置，注意规避。",
+			say = "If we enter a region with corrosion, we’ll lose the Energy Matrix and be forced to retreat to the zone’s entry point. Let’s plan our moves carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "阿瓦隆之门内侧·斯卡帕湾近海",
+			say = "Inside the Singularity - Mirror Sea",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "公海舰队排列成纵队向着前方燃烧的天边追去，{namecode:96}也放出舰载机在空中导航，一行人在海面上疾驰。",
+			say = "The Iron Blood ships were the backbone of this new combined fleet. Led by Zuikaku's planes, they set out to sea in search of Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "这里是{namecode:96}，前方十点钟方向发现塞壬舰队，距离的话……以你们的速度大概20分钟航程。",
+			say = "This is Zuikaku. Sirens spotted, 10 o'clock! They'll be on us momentarily!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "情报已收到，非常感谢你的侦察协助。",
+			say = "Thank you kindly, Lady Zuikaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "没事没事~反正也是我硬要来帮忙的。",
+			say = "Don't mention it – I'm here to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "那只会让我们的谢意更深一分。",
+			say = "Then I have all the more reason to thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "舰队修正航线，我们从侧面斜切向敌人前方。",
+			say = "Replotting course. We shall cut in diagonally and attack from their side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "这就是舰载机的运用战术啊……真的能改变海战格局的兵器。",
+			say = "So these are the kinds of tactics a carrier employs. Neato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过我们的主炮也不会输哦————！",
+			say = "Let's see you try to sink more tonnage than my main guns can, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "那我就拭目以待了。各位前辈，敌人类型已判明。",
+			say = "The enemy force consists only of mass-produced ships. No humanoid Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "前方舰队全部由II型量产型战舰构成，没有发现量产型人型与精英的存在。",
+			say = "Should be good for a warmup! Just don't get too cocky because these are Mark II's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "II型量产型战舰构成的舰队，按照你们的命名法来说应该叫“塞壬II型量产型舰队”对么？",
+			say = "Mark II's? Is that their official designation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "没错！不过…………等等？！",
+			say = "Yeah? Why do you ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "塞壬是用量产型II型舰队袭击的斯卡帕湾么？！！",
+			say = "Are they the same model that attacked Scapa Flow, by any chance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "这样的话II型的实际使用记录比正式目击到的记录早了很多年啊？！",
+			say = "...Never mind, I'm dumb. Mark II's didn't start appearing until waaay after Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "II型的标志性特征，是指船体上那些提供了奇怪防护能力的蓝色花纹么？",
+			say = "How can you tell they're Mark II's? Is it the blue, glowing patterns on their hulls...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "嗯……怪不得你们毫无抵抗能力。",
+			say = "Yup! That means they have reinforced armor, which... Oh, that explains why regular warships couldn't damage them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "我们的量产型也是在不久前的强化之后才差不多和II型塞壬量产型打平的。",
+			say = "Even modern mass-produced ships would struggle with these Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "以你们当时的船体来说，面对差距如此过大的敌人，真的只有被单方面消灭的份啊…………",
+			say = "It wouldn't even be a fight if we pitted the warships of Scapa Flow against them... It'd be a one-sided slaughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "倒也没那么惨，我们还是击沉了几艘的哦~",
+			say = "Well, if the records are right, those warships DID manage to sink one or two Siren vessels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "啊……？靠你们当时的船体是怎么做到的啊！？",
+			say = "But how?! They couldn't even break through their armor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "良好的训练，绝对的服从，以及绝不动摇的气概。",
+			say = "With sheer willpower, training, and most important of all, an unbending fighting spirit. That is what I believe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "以前听故事的时候就觉得你们很厉害……在那种压制性不利的局面下还能不畏牺牲的战斗。",
+			say = "I... I can believe that. You can overcome numbers and equipment with enough determination...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "实际见到之后，真的对你们愈发尊敬！",
+			say = "It's as Mikasa once said... On-paper stats aren't what's important – your will to fight is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "正是各位前辈，还有与各位前辈同时代的人的牺牲与奋斗，才能换来我们的诞生机会与战局的转机！",
+			say = "That's how you overcame the trials of the first great war. Not thanks just to strength, but also with a desire to protect humanity and its seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "欸~这么直球被夸反而让人有些不好意思啊~",
+			say = "Yeah, but that wasn't exactly us. Thank the people who actually fought in that war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "我说的都是真心话！",
+			say = "(I wonder if Akagi and Kaga ended up the way they did because they lost their way – and their will to fight...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307060,
-			say = "而且请放心，相较于各位前辈的新姿态，塞壬II型量产型才是老旧型号。",
+			say = "Listen! These Sirens are pushovers for shipgirls like us! They don't stand a chance against our riggings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前辈们请不要顾虑，尽情战斗吧！",
+			say = "So go and give 'em hell!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

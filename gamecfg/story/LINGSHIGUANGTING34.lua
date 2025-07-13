@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡",
+			say = "Location unknown - Castle Dining Room",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大姐姐，我来找你们玩了哦。",
+			say = "Hi, ladies. I've come to play~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "…………嗯？",
+			say = "...Huh? Hello?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "大姐姐们，跑掉了呢……",
+			say = "Aww, there's nobody here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "故意来这里兜了一圈么……",
+			say = "I guess the queen intentionally left these coordinates to trick me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这下麻烦了，踪迹在这里断掉，没办法继续追了……",
+			say = "Bummer. The trail's gone cold and they could be anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "嗯~我不讨厌挑战。这件事我记下了。",
+			say = "Oh well, it's no big deal. I know who you all are now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_camelot_8",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "你们已经引起了我的注意，如果不好好躲起来的话————",
+			say = "And next time, you won't even know I'm there. Heheheh... Hahahahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵呵，就让我们在某一天再相见吧~大姐姐们~",
+			say = "I promise you we'll meet again soon, lady♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

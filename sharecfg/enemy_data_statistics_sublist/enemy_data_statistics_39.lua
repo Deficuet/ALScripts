@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_39 = {
+	[770] = {
+		cannon = 72,
+		battle_unit_type = 95,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		speed = 27,
+		dodge = 35,
+		id = 770,
+		cannon_growth = 0,
+		rarity = 5,
+		reload_growth = 0,
+		dodge_growth = 0,
+		armor = 0,
+		star = 6,
+		hit = 36,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90282,
+		durability = 20000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		luck = 88,
+		torpedo = 103,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 186,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[771] = {
 		cannon = 162,
 		battle_unit_type = 95,
@@ -128,7 +166,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[800] = {
 		cannon = 25,
-		name = "新手护卫舰",
+		name = "Novice Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -197,7 +235,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[801] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -343,7 +381,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[810] = {
 		cannon = 35,
-		name = "标准护卫舰",
+		name = "Adept Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -412,7 +450,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[811] = {
 		cannon = 50,
-		name = "标准巡逻舰",
+		name = "Adept Frigate",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -484,7 +522,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[812] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -630,7 +668,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[820] = {
 		cannon = 45,
-		name = "熟练护卫舰",
+		name = "Experienced Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -699,7 +737,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[821] = {
 		cannon = 65,
-		name = "熟练巡逻舰",
+		name = "Experienced Frigate",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -771,7 +809,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[822] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -955,7 +993,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[830] = {
 		cannon = 55,
-		name = "精锐护卫舰",
+		name = "Veteran Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1024,7 +1062,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[831] = {
 		cannon = 80,
-		name = "精锐巡逻舰",
+		name = "Veteran Frigate",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1096,7 +1134,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[832] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -1318,7 +1356,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[840] = {
 		cannon = 65,
-		name = "王牌护卫舰",
+		name = "Ace Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1387,7 +1425,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[841] = {
 		cannon = 95,
-		name = "王牌巡逻舰",
+		name = "Ace Frigate",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1459,7 +1497,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[842] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -1568,45 +1606,6 @@ pg.enemy_data_statistics_39 = {
 			300189,
 			300190,
 			300191
-		}
-	},
-	[844] = {
-		cannon = 0,
-		battle_unit_type = 15,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		speed = 15,
-		dodge = 0,
-		id = 844,
-		cannon_growth = 0,
-		rarity = 1,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 1,
-		hit = 80,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90139,
-		durability = 250,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		luck = 0,
-		torpedo = 200,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			300185
 		}
 	}
 }

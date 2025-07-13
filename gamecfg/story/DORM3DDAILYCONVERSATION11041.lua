@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？",
+			say = "New Jersey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey？嗯……再稍等一下，好了！",
+			say = "Honey? Hmm... Wait a sec. Okay, now we're good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "刚刚是在？",
+			say = "What were you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是在化妆了，就算是誓约以后也不能松懈呢。",
+			say = "My makeup, of course! We may have made our oath, but I'm still not gonna let myself go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不让Honey每天看到最美最可爱的{namecode:199:新泽西}，怎么可以呢？",
+			say = "I need to show you my prettiest and best self every day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

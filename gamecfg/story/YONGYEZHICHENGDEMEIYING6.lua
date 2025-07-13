@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>六 猝不及防的攻势</size>",
+					"Tales From the Count's Castle\n\n<size=45>6 You Never Expect Them</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了一处宽阔的大厅。",
+			say = "A short walk later, I arrived in the third hall.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于来到这里了啊，人类~多亏你的所作所为，现在城堡变得一团乱了哦。",
+			say = "Ah, the human's here. Your little escapade has well and truly messed this whole castle up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "不过放心吧，我暂时不打算对你做些什么，毕竟我的目的和你一样——要离开这座城堡。",
+			say = "Then again, I don't really care one way or the other because I want to get outta this place too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "大小姐每天都嚷嚷着要出去看看，但从来没有得到过许可。所以这次计划瞒着所有人趁乱逃出去。",
+			say = "The princess is obsessed with the outside world, but she's forbidden to leave, you see. The bedlam you've caused today serves as her getaway opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "理由是什么不重要吧？重要的是我们目的一致~",
+			say = "So let's set our differences aside. What matters is that we share the same goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "你不知道出口在哪里，但是我知道，所以跟我走吧~",
+			say = "You don't know the way out, do you? Well, I do, heehee. Follow me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "跟着{namecode:461}与{namecode:466}二人一同宽敞的大厅中走着。",
+			say = "I followed Lützow and Thüringen through the great hall.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "总感觉很安静呢……",
+			say = "It was quiet. Too quiet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "？！",
+			say = "FWOMP!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "肩膀突然被{namecode:461}抱住了。",
+			say = "Without any warning, Lützow wrapped her arms around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "哎呀，带人类你走了这么久的路，突然有些饿了呢。不补充下体力的话，我可就没法离开这里了。",
+			say = "Ugghhh... I'm already beat just trying to keep pace with you. You've gotta give me some of your juice, or we'll never make it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "所以呀，人类，对不起啦~变成我的食粮吧！",
+			say = "All I need is a little. C'mon, let me have a taste, human~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,11 +262,11 @@ return {
 			},
 			options = {
 				{
-					content = "放弃抵抗",
+					content = "Stop struggling",
 					flag = 1
 				},
 				{
-					content = "十字架……",
+					content = "Brandish the cross at her",
 					flag = 2
 				}
 			}
@@ -280,7 +280,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那就多谢款待，我开动啦~",
+			say = "Aha! There we go! Don't mind if I have a bite♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "脖子被吸血鬼咬住，血液一点点地流出体内，意识也逐渐变得黯淡……",
+			say = "Lützow sank her teeth into my neck. She drew gulp after gulp of blood, until eventually, I collapsed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>BAD END 03：祭品</size>",
+					"Bad Ending – Sucked Dry",
 					2
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "虽说刚才都是脑海中想象出的画面，但实际上……好疼？！",
+			say = "...Is what it felt like. While she didn't pierce my skin, she did leave a small mark.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "居然真的咬了一下，甚至还舔了一口……",
+			say = "Frankly, I wasn't expecting her to bite me at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼呼，这就是指挥官的味道吗？我记住了哦~",
+			say = "Oooh... You taste interesting, Commander... I'll remember that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "毕竟剧本这里写着“人类没能反应过来，被任性的吸血鬼大小姐咬住脖子吸干了血液”，所以不象征性地咬一下可不行吧~",
+			say = "Why the shocked look? I was just following the script. See? \"The vampire princess struck while the human was stunned.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "按照流程，这里就该游戏结束了。不过，既然是试玩，那么就请当做无事发生过，继续前进吧。",
+			say = "Under normal circumstances, this would spell game over for you. Luckily, you get to continue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "千钧一发之际，拿出之前得到的十字架对准{namecode:461}。",
+			say = "Right as I sensed Lützow was going to bite me, I took out my cross and pointed it at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "眼前的两名“吸血鬼”如同雕塑般定住不动了……接下来，应该能够轻易挣脱————",
+			say = "Instantly, the two vampires froze in place as though they'd turned to stone. It seemed my quick thinking had saved my skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "~~~~~~~",
+			say = "Mrrghhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……奇怪，{namecode:461}依然将整个身体用力压过来，完全无法挣脱……这是怎么回事？",
+			say = "Key word: seemed. Lützow then leaned on me with all her weight, effectively locking me in place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……{namecode:461}，按照剧本，你应该表现出一副受了攻击的样子，然后松开指挥官。",
+			say = "Lützow! You're going off-script. Release the Commander and act like the cross is repelling you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸？我好不容易才抓住了指挥官，就这么放开也太可惜了！你说是吧，指挥官？",
+			say = "But why? I've caught the Commander. No point letting our prisoner go. Right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……原来不是解密出了问题，而是流程本身出了问题。",
+			say = "Apparently the problem was with the staff, not the script.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 405041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我不会直接干涉你这么做，不过我会把情况都如实反馈，至于{namecode:428}听了之后会不会考虑换个NPC……",
+			say = "Very well. I won't terminate the game immediately, but I will report this to Eugen. She'll decide whether or not you'll be replaced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎好吧好吧~那就……“哇！你怎么会有那个东西！”",
+			say = "Hrmph. Fiiine... Nooo, not the croooss, what will I dooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "{namecode:461}以相当夸张的姿势退后了几步。",
+			say = "Lützow cried out in a very monotone voice and backed off from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呜……没想到你会有这种力量，那我就忍一忍肚子饿好了。我们的目的姑且还是一致的，继续跟我来吧~",
+			say = "You're clever, human... So be it. I'll have to bear with my thirst and keep guiding you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人类，只要穿过这个很——长的走廊，就可以离开这座城堡了哦~",
+			say = "Here we are. Just keep going down this long-ass corridor and you'll be out of the woods.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "（不过——没记错的话，该到下一幕的角色登场的时候了呢~）",
+			say = "(Little does the Commander know there's another puzzle coming in hot right abooout... now!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			}
 		},
 		{
-			say = "砰————",
+			say = "FWOOOOSH!",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "不知从何处而来的烟雾弹在狭窄的走廊中爆炸了。",
+			say = "Someone threw a smoke grenade at us from the other end of the corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "烟雾之中隐约出现了两个身影——是{namecode:460}和谢菲尔德。",
+			say = "Through the veil of the smoke, I could just barely make out two people – Seydlitz and Sheffield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "站住！你们要去哪里！",
+			say = "Halt! You're going nowhere!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "居然是吸血鬼猎人……趁乱进入城堡中的么，这下可麻烦了。",
+			say = "Vampire hunters?! They must've snuck in amid the chaos. Dammit... This is about to get ugly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是吸血鬼还是其眷属，所有的血族都应接受圣裁，做好觉悟吧！",
+			say = "You vampires and your filthy vassal shall face divine judgment! Choose a god and pray!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会让你们逃跑的。",
+			say = "I'm afraid this is the end for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人类，看来与我们一同行动的你被吸血鬼猎人当成眷属了哦。",
+			say = "Vassal? So you think the human is our vassal because we brought it with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "别担心，跑就完事了~我才不会乖乖被她们抓住呢！",
+			say = "Whatever, we can just skedaddle outta here. Try to catch us if you can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			actor = 404041,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "最后的终点就在眼前了。人……不对，同伴啊，一起加油逃出这里吧~",
+			say = "Exit's right over there. Come on, human... or should I say, my vassal! Better start running!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 900215,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…哈啊…不行了，咱实在跑不动了…一步都跑不动了！",
+			say = "*Pant*... *Pant*... Fubuki, just leave me... I can't take another step…",
 			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			actor = 900209,
 			dir = -1,
-			say = "澪…澪酱……如果在这里停下来的话----",
+			say = "No, Mio! Don't stop there, you'll–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 900215,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊----啊啊！！",
+			say = "AAAAAHHH!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬的炮弹就会像这样打过来的哦…",
+			say = "... get shot by the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "吹雪快想想办法，咱不想死在这种莫名其妙的状况里啊！",
+			say = "You've gotta come up with something and help! I don't wanna die here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			actor = 900209,
 			dir = -1,
-			say = "考虑到敌我双方绝望的实力对比…嗯，万策尽了",
+			say = "We're outnumbered and outgunned... This is looking bleak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 900215,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要放弃啊，吹雪！！！！",
+			say = "Focus, Fubuki! We can't just give up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在二人停驻之际，一架塞壬战机呼啸着投下了一枚炸弹",
+			say = "The Sirens' aircraft release their payloads over the fleeing girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 1,
 			actor = 900209,
 			dir = -1,
-			say = "澪，最后的时光能和你在一起---",
+			say = "Mio, I'm glad I at least get to spend my final moments with–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,22 +284,7 @@ return {
 			side = 2,
 			bgm = "nagato-map",
 			dir = 1,
-			say = "现在放弃还太早了！你们快去避难，这里交给我",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "重樱所属，驱逐舰{namecode:158}，参上！",
+			say = "Nobody's dying on my watch! I'll take care of them, so just stay out of danger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

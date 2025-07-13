@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "比预想之中更加强大……那层花纹外壳，大大增加了其防御力。",
+			say = "Stronger than expected... That patterned shell makes it incredibly tough to crack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "完全找不到破绽……要加大火力输出了！",
+			say = "I can't find an opening at all. Guess I'll just have to ratchet up the firepower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不对，大家后退。",
+			say = "Stand back, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：检测到高能量体反应。",
+			say = "Warning: extremely high energy levels detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "就在BLACK★ROCK SHOOTER与TB一同发出警告时，空间突然炸裂，一道凌厉的剑光一闪而过。",
+			say = "The instant BLACK★ROCK SHOOTER and TB shouted their warnings, space itself seemed to rupture, and a searing flash of steel streaked past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "电光石火之间，扭曲的净化者机体被一击切断，瘫痪在地上。",
+			say = "The lightning-fast strike cleaved the twisted Purifier in two. Its mangled body collapsed to the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "而在其身边，已然多出一名黑衣少女的身影——那正是DEAD MASTER。",
+			say = "Next to the wreckage was the other girl in black, DEAD MASTER.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "DEAD MASTER小姐？见到你平安无事真是太好了。",
+			say = "DEAD MASTER? Thank goodness you're safe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "来得好快……感谢支援。",
+			say = "You're fast. Thanks for the backup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……等一下。",
+			say = "...Wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "BLACK★ROCK SHOOTER出面制止了想要前去打招呼的探索队员们。",
+			say = "BLACK★ROCK SHOOTER's voice interrupted the shipgirls' approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……仔细看，DEAD MASTER和她身上的装备。",
+			say = "Look closer. DEAD MASTER and her rigging...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "？！和那台净化者机体一样的花纹和扭曲装甲附着物……",
+			say = "Huh?! She has that same messed-up pattern as that Purifier... and her rigging is all weird, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "不不不不会吧……！？",
+			say = "Could it be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "BLACK★ROCK SHOOTER没有回答，只是默默地重新举起了自己的剑。",
+			say = "Without a word, BLACK★ROCK SHOOTER silently raised her sword once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "似乎是被她的动作所触发，DEAD MASTER也望向她，同时举起大镰，摆出战斗的姿态。",
+			say = "As if triggered by this move, DEAD MASTER turned to her, lifting her massive scythe and assuming a battle-ready stance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "而她那双眼中毫无焦点，空洞的眼眶中浮现出的唯有一片虚无——",
+			say = "Her eyes were lifeless, the hollow sockets holding nothing but void.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "一击如闪电般袭来，BLACK★ROCK SHOOTER迅速迎击。",
+			say = "Like a bolt of lightning, an attack struck; BLACK★ROCK SHOOTER instantly countered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "毫无预兆地——她与DEAD MASTER的死斗就此展开——",
+			say = "Thus, another battle to the death had begun between these two fated rivals...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "——了么？",
+			say = "...Or had it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "华丽的斩击不断交错，炮击在空中飞舞，双方全力以赴，展开了激烈对决。",
+			say = "A dazzling exchange of strikes flew constantly between them. This time, their all-out duel was backed by fierce artillery fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "——但，某些地方似乎有些不对劲。",
+			say = "But something was wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "不知为何，她们战斗的余波始终没有波及奇尔沙治一行人所在的位置。",
+			say = "For some reason, the shockwaves from their clashes always stopped just short of reaching the search team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "甚至连一块瓦砾的碎片，都没有飞溅过来——",
+			say = "Not so much as a speck of rubble grazed them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "恶作剧就到此为止吧。",
+			say = "...Put an end to this stupid prank.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "……这么快就被你发现了？真没劲啊。",
+			say = "You already figured me out? Always such a buzzkill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过嘛，我刚才可是真的在“认真”战斗哟？",
+			say = "But I'll have you know that I'm fighting every bit as seriously as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你知道什么叫“看时间、分场合”吗？",
+			say = "Do you know the phrase, \"time and place\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "如果现在就把这场战斗分出个胜负……我也不是不行啦～",
+			say = "If I really wanted to put an end to our little contest here and now, I could do it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "——但现在不是时候。",
+			say = "Now is not the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "所以……也就是说……",
+			say = "Does this mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "扫描完成：确认该个体存在被侵蚀情况。但，只停留在表层。",
+			say = "Scanning... Corrosion confirmed, but only at a surface level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "……就像是“穿了一件衣服”那样？",
+			say = "So she's wearing it like clothes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "那就是说，她并没有失去自我……而是借着这层“掩护”跟我们开了个玩笑？",
+			say = "That means... her mind is totally intact? She's just like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还顺便袭击我们玩了玩……？",
+			say = "And she attacked us for the hell of it because she had an excuse?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "可能是因为和数量奇多的敌人战斗太久，积攒了一点压力吧。",
+			say = "Maybe she's a little stressed from fighting so many enemies for so long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以才想趁着机会，全力活动一下筋骨。",
+			say = "That's why she wants to stretch and have \"fun.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……",
+			say = "Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……总之，暂时收敛一点吧",
+			say = "Be patient for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等问题解决了，想打多久都可以。",
+			say = "When this problem is solved, we'll have all the time in the world to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "好啦好啦，知道了知道了～",
+			say = "Okay, okay. I get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "……所以你们说完了是吧？那接下来，能不能解释一下，你们之间的关系到底是回事？",
+			say = "Are we done now? Can anyone explain what the deal is between you two?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走了走了！大家别磨磨蹭蹭的！",
+			say = "Let's go, everyone! No more dilly-dallying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "喂——！",
+			say = "Come ON!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "——咯嘣！",
+			say = "CLUNK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "等等，你们有没有听到什么声音？",
+			say = "Hey, did anyone else hear that just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好像是从那堆净化者机体的残骸中发出的，不会要诈尸了吧？",
+			say = "It came from that Purifier vessel's wreckage. No way... Is it coming back to life?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "满地残骸中，净化亲再次睁开了双眼。",
+			say = "From within the scattered debris, Purity's eyes opened anew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,8 +747,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "呃……没想到那些污染这么厉害……",
+			actorName = "Purity",
+			say = "Uuugh... I didn't think the contamination would be this bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,9 +760,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "好像玩过头了……",
+			say = "I might've gotten a little carried away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "不远处，见到此景的奇尔沙治一行人默默抬起了炮口。",
+			say = "The search team watched, stunned, and quietly raised their cannons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,8 +785,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "等等——",
+			actorName = "Purity",
+			say = "WHOA, WHOA, WHOA, WAIT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,9 +798,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "别开炮——我要投降！！！",
+			say = "DON'T SHOOT! I SURRENDEEER!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

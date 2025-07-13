@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……失算了，居然是狩猎部队，不是商队……",
+			say = "...I was wrong. You aren't merchant ships, you're... hunters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "哎呀，我说为什么明明射程上是你有利却比我们还要急着近身，原来是看错了吗，堂堂{namecode:431}，也不过如此嘛~",
+			say = "Ah, so rather than make use of your cannons' range, you decided to draw closer... Oh ho... you mistook us for yesterday's convey, didn't you? Ahahah, I didn't think the notorious Graf Spee would be so careless...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "……就算这样，你们也不是我的对手。",
+			say = "...Even so... you can't defeat me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可就说不准了！",
+			say = "I wouldn't be so sure about that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "夹击吗……小聪明！",
+			say = "Flanking me, huh... You must think you're so clever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是不是小聪明，可要打过才知道了呢……姐姐，上了。",
+			say = "You don't know if something is clever until you try it. ...Let's get her, Achilles.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -109,7 +109,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没问题~",
+			say = "Aye-aye, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

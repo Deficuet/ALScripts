@@ -11,7 +11,7 @@ return {
 			actor = 301480,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "屏障启动！略略略~你的攻击打不穿我们了，{namecode:204}！",
+			say = "Barrier! Nah~ nah~ Can't touch this~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "雕虫小技。",
+			say = "Impudent rodent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "看起来你不是塞壬，也不是塞壬的棋子，为什么一定要在这里与我们战斗？",
+			say = "(Hakuryuu seems to have a single-minded fixation on fighting strong foes. In that case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明有着这么好的身手……比起跟我们战斗，外面拥有无尽广阔的海域能让你自由驰骋呢！",
+			say = "What good does it do for you to wait for prey to fall into your lap here in the Dragon Palace? Hakuryuu, why not test your mettle in the outside world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "无需多言，吾乃守护此地的存在。面对闯入者，此处就是吾的战场！",
+			say = "...You speak the truth. But that has nothing to do with our current battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 399050,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "临。兵。斗。者。皆。阵。列。在。前。",
+			say = "You shall see that I am the sole master of this domain! By thunder is sky rent, by flame shall you be cleansed!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，她的舰装结构发生改变了！",
+			say = "What's that rising out of the water...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 307120,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开开开开什么玩笑！她不是航空母舰么？！那两个夸张的炮管是什么啊？！！",
+			say = "Wh-wh-what kind of sick joke is this? What happened to a duel between aircraft carriers? Her rigging just combined with those massive cannons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家注意，炮击要开始了……！",
+			say = "She's coming at us...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在辉翼太阳船升空后的数分钟内，原本死寂一片的海水便仿佛沸腾了起来。",
+			say = "Not even a few minutes after the Mesektet had taken flight, the dead-silent sea suddenly bubbled, as if boiling.",
 			bgm = "theme-lion",
 			location = {
-				"？？？·未知海域",
+				"??? - Unknown sea",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "无数残骸从水面下浮出，相互撞击倾轧碾压着，层层叠叠，无穷无尽。",
+			say = "A blanket of debris rose to the surface, with bits and pieces colliding and piling onto each other endlessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "有些竟然混作一团形成了某种稳定结构变成了漂浮在海面上的小岛。",
+			say = "Some mixed to form stable structures of sorts, creating islands that floated on the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "自然，有些原本看似小岛的区域，则在这轮残骸潮的冲击下分崩离析，从海面上彻底消失了。",
+			say = "A few of the existing spots that Lion's party had believed to be islands were crushed and wiped off the face of the ocean by this Rising Tide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "呼……还好我们会飞！要是跑得慢点就要被残骸淹没了！",
+			say = "Phew... Good thing we can fly! We could've ended up swallowed by all that debris!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "新世界远征军在抵达片刻后被当地世界的垃圾之海吞噬，全军覆没——",
+			say = "\"The expedition was engulfed by a sea of garbage shortly after their arrival, never to be seen again.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "要是我们这么被人记入史书……那可真就是帝国历史上最大的笑话了。",
+			say = "Imagine if that were what the history books said. We'd be the biggest laughingstock in the Realm's history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "放心吧，如果我们真的全灭了，没人能把我们全灭的准确原因传回去的哦……",
+			say = "Don't worry about that! If we did all die just now, there would be nobody left to tell them how it happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "……我完全不需要这种安慰，谢谢你，佩特拉小姐。",
+			say = "That didn't really make me feel better. Thanks for trying, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "我也是！欸，这都飞了半个多小时了，还没飞出去……",
+			say = "Same! Hmm... We've been flying for more than half an hour now, but we still haven't gotten past the wreckage yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "残骸、无穷无尽的残骸……就算在当年在塞壬战争的时候，也没出现过这么夸张的景象啊。",
+			say = "It's debris as far as the eye can see. I've never seen anything like it, even during the war with the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "而且都在战后分类回收利用了！",
+			say = "But at least we sorted it all out and recycled it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "是呀，像这样放任其在大海中无穷无尽地堆积下去，怪不得这里的环境会变得这么差。",
+			say = "Right... If it's been neglected and allowed to pile up for so long, then it's no wonder this world's environment is in poor condition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "我感觉重点不在你们说的这里吧……？",
+			say = "I don't think that's what she meant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "……重点不是沉在水下的残骸，为什么会无缘无故地冲上海面么？",
+			say = "What matters is why so much sunken debris would rise up to the surface without reason, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "我猜——或许是有某种巨型生物在水下搅动！",
+			say = "Is it being stirred up by a giant sea monster?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "噫！这又不是在拍什么尼罗河神话故事！",
+			say = "Ugh! Now isn't the time to get scared of your Nile legends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "可是刚才你捞上来的残骸，就像某种生物组织呀？",
+			say = "But the debris that you fished up resembled biological matter, did it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "那……那也不可能！……说是某种海底大型机械装置我还更相信一点。",
+			say = "E-even then, it's just not possible! I'd believe it more if it were some kind of giant underwater machine, maybe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202350,
-			say = "那要不要去水下调查一下？",
+			say = "Should we not just go down and investigate for ourselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "我的警戒汪可潜不下那么深！……况且现在进入会被立刻挤扁的！",
+			say = "My security pup can't go that deep! Besides, we'll totally get crushed if we go in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在勇气几人因为受到升空的刺激与残骸潮的震撼而热烈讨论之际，总督这边的气氛则沉重了许多。",
+			say = "While they talked about the joys of flight and argued over the Rising Tide, Lion and Trafalgar discussed something graver.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你发现了么，总督阁下，残骸的类型五花八门，而且……虽然锈蚀程度不一，但都已经有些年头了。",
+			say = "Miss Governor. As you may have noticed, the debris is remarkably varied. And... though the rust levels differ, I believe all of it is old.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时，没有任何水生物或者植物跟随残骸一起上浮。",
+			say = "No aquatic flora or fauna rose with the debris, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……会不会是战争某方投下了某种大规模毒杀性兵器，连水下生物都杀绝了？",
+			say = "...One side of a war may have used a poisonous weapon that killed everything in the water along with their enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "你觉得完全灭绝大洋中的所有生物需要多久？十年？二十年？五十年？",
+			say = "How long would it take to exterminate all life in the ocean? Ten years? Twenty, fifty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是我们接收到的求救信号里明明说的是“还在抵抗”。",
+			say = "The distress signal we received made it clear that a conflict was ongoing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "就现状而言。她们要么是夸大了其所拥有的力量，要么就是……那个假设性时空理论了。",
+			say = "Knowing what we know now, either they've greatly overestimated their enemy... or it may be the result of a particular space-time hypothesis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您的手中就有亚历山引航灯塔，应该也清楚才是。",
+			say = "You wield the Lighthouse of Alexandria, so you must understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……时间的流逝速率不同么，必须尽快找到这个世界的本地人问问情况。",
+			say = "As in, time flows differently here? We'll have to find locals and ask them about the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在是茫茫大海中，找人之前要先找到陆地。",
+			say = "Agreed. We're still in a vast ocean, so our first priority is to find terra firma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "一路上的天空都是灰蒙蒙的，仿佛被上了一层含混不清的滤镜一样，我没法通过星辰辨位。",
+			say = "The skies are grey in all directions, as if someone's put a filter on them. We won't be able to navigate using the stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总督阁下，作为帝国尖端技术的结晶，这艘狮翼太阳船上有没有什么能够准确定位的设备？",
+			say = "Miss Governor, does the Mesektet have any cutting-edge geolocation equipment that can help us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "唔……倒是搭载有一个扫描效果极强的雷达，如果我们能飞得足够高的话……或许能够扫描到大陆的位置。",
+			say = "Hmm... We do have radars with strong scanning features. If we ascend to a high enough altitude, then locating a continent may be feasible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "但是，要是启动那设备的话，造成的动静可不是刚来的时候能比的……我们可就要变成整个世界的焦点了！",
+			say = "Using it will draw worldwide attention to us, though. It'll cause more of a commotion than when we first arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "鉴于现在局势扑朔迷离……不到万不得已我不是很想用。",
+			say = "Given the current mess we already face, I mean to avoid using it unless absolutely necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "还是先找找有没有清晰一点的天空，根据星辰定位吧。",
+			say = "For now, let's find clearer skies. The stars will have to do for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

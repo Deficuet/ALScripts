@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在大型作战中，战斗失败会导致参战舰队士气下降，进而导致这支舰队在后续战斗中造成的伤害下降。",
+			say = "Losing a battle will result in your ships losing both HP and Resolve. If you lose several battles, they’ll be too fatigued and won’t be able to win against the boss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "使用G.M系统舰队指令模块中的舰队休整指令，可以为所有舰队恢复士气。",
+			say = "You can order your ships to regroup and rest. This will repair the damage they’ve sustained, and restore their Resolve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰船的耐久值可以利用维修类道具恢复，也可以在己方港口所在海域使用舰队部署指令回复所有舰队成员的耐久。",
+			say = "You can restore your ships’ HP by docking them at a port, changing your fleet composition, using certain items, or issuing a regroup and rest order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

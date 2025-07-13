@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"北方联合大使馆",
+					"Northern Parliament Embassy",
 					2
 				},
 				{
-					"三日后",
+					"Three days after the conference",
 					3
 				}
 			},
@@ -42,7 +42,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "水星纪念同志，还有阿芙乐尔同志，开会辛苦了。",
+			say = "Pamiat', Avrora, thank you for your work at the conference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这样的结果并不意外，不必焦躁。",
+			say = "I've heard about the results, and they're what I expected. Don't feel anxious about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "会议进程……宛若泥潭呢。",
+			say = "Meh, I had a feeling the talks wouldn't go anywhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "撒丁帝国还是太天真了，妄图依靠外交协议来拼合破碎的联盟。",
+			say = "They want to reform the Azur Lane through diplomacy... While it's a nice idea, it's just too sudden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碧蓝航线之所以分裂，除了塞壬的挑唆之外……更重要的是原本就存在的理念分歧。",
+			say = "We can't set aside our ideological differences just like that, even with the Commander orchestrating things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而这一问题时至今日依然没有解决。",
+			say = "Then there's Naval HQ's role in the matter...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此这般的两个群体，就算真的依靠脆弱的条约合二为一了。",
+			say = "Even supposing all factions agree to a temporary pact, there's still no guarantee that true unity will bloom from it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果也只是为第二次分裂做准备罢了。",
+			say = "It will just be a repeat of the past, with us fragmenting once again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还不如破而后立，浴火新生。",
+			say = "If anything, we should thoroughly destroy the current order and–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "咳……在审判庭的地盘，加密线路也不能保证100%的安全，阿芙乐尔同志……",
+			say = "Avrora, be careful what you say. Though we are on the Tribunal's encrypted channel, we do not know if someone is listening in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……",
+			say = "Oh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "咳咳……",
+			say = "Ahem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不过倒是没想到，鸢尾居然愿意陪撒丁一起胡闹，主动提供了场地和一半的费用！",
+			say = "You know, it's really nice how the Orthodoxy paid part of this AND provided a venue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "嗯……倒也不能简单称之为“胡闹”。",
+			say = "It's convenient for us, yes, but \"nice\" isn't the word I'd use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "鸢尾合并后，其在两大阵营中的归属可是十分棘手的问题。",
+			say = "Since the Vichya Dominion and Iris Libre have reunited, the question of the Iris Orthodoxy's return to the Azur Lane has become front-and-center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "而问题，如果一直放着不解决，只会变得愈发严重。",
+			say = "If they're left on their own, they're likely to become prime targets for exploitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "鸢尾选择在这场会议中承担重要角色，就是在做出正在试图解决这个问题的姿态。",
+			say = "The Cardinal is surely aware of this, and so she \"nicely\" sprung into action to petition Comrade Commander for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "至于这个会议的结果，反而是次要的了。",
+			say = "Therefore, by establishing this conference, they'll at least be able to protect their homeland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "这么说来，只有撒丁帝国是真心相信这场会议能起到作用的参会方呢。",
+			say = "What about Sardegna, then? They don't really expect one conference to resolve everything, do they?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这个嘛……毕竟是撒丁帝国。",
+			say = "...Knowing them, maybe they do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不过各大阵营都卖了她们这个面子，说明此前的博览会也算没有白开。",
+			say = "Perhaps they are also trying to regain the honor that the near-superimposition event cost them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "就是接下来还要麻烦你们再应付一阵子了。",
+			say = "I think we've spoken enough for now. Pamiat', Avrora, keep up your work at the conference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "会议虽然沉闷，但也要有始有终才行。",
+			say = "Though I don't expect anything to come out of this, we should let them have their moment of glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然，鸢尾这边的事就放心交给我们吧。",
+			say = "Of course. Leave it to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "除此之外，还有一件事需要你们留意一下。",
+			say = "Before I go, there's one thing I want you to bear in mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "喀琅施塔得近日发现，在审判庭各级部门往来的消息中，“安塔迪卡”这个词的出现频率陡然增加。",
+			say = "Kronshtadt has informed me that the frequency of the term \"Antarctica\" has risen drastically in the Tribunal's transmissions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "考虑到鸢尾在安塔迪卡并未拥有科研基地，所以我们猜测，或许是铁血在那里有所发现，并将消息告知了审判庭。",
+			say = "One possibility is that one of the Orthodoxy's Basilicas lie there, but another is that Iron Blood has found something and told the Tribunal about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "我已经让我们在安塔迪卡驻扎的人员展开调查了，你们也帮我留意一下审判庭和铁血的动向。",
+			say = "I have already tasked a team to investigate further. In the meantime, I ask the two of you to keep an eye on the other factions at the conference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安塔迪卡方向么……明白，这件事也交给我们吧。",
+			say = "Antarctica... Understood. We'll look into it as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1

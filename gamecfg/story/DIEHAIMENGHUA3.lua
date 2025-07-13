@@ -12,7 +12,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如同太阳的光晕一样，环绕着本岛的数个离岛…看来没错，这里就是天岩岛了！",
+			say = "Just like the sun's rays, there are several islands surrounding the main island... This must be the Diadem of Light!",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与外界的盛况相比截然不同的冷清破败呢，怎么也不像是{namecode:182}大人居住的地方……",
+			say = "You'd think this place was pretty fancy judging from its name, but it's totally run down! How can Lady Shinano live in a dump like this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“最强航空母舰的苏醒将如同耀眼烈日一般，一举驱散阴霾引领重樱走向新的辉煌。”",
+			say = "\"The awakening of the mightiest carrier will be as the radiant sun breaking through the clouded skies, dispelling the darkness and leading the Sakura Empire into new glory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通过上层部卖力的宣传，现在所有地方都对这件事讨论的沸沸扬扬的。",
+			say = "Why do they always have to put this weird poetic stuff onto our orders? Who the heck knows what this is trying to say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果让民众们知道了{namecode:182}大人的真实情况……",
+			say = "I guess, like, Shinano's supposed to be super badass and able to defeat any enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:60}！",
+			say = "Isn't that enough for ordinary people?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -117,7 +117,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，抱歉，是我失言了……",
+			say = "Meh, guess so.……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…不但天宇启户祭遭到了不速之客的干扰，连神石都被掉包了…现在的{namecode:182}大人恐怕不是正常醒来的。",
+			say = "Well, of course they'd intentionally leave it a bit vague. You really think they're gonna put \"Protect Shinano at all costs because Watatsumi's about to be stolen\" on it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:84}大人也是有许多考虑在，才选择让我们护送{namecode:182}大人离开吧。",
+			say = "After Nagato was attacked alone by the Sirens, we've all had to be more vigilant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上次战斗后留下的痕迹还十分明显…让{namecode:182}大人一直住在这样的地方确实不好。",
+			say = "This place is still scarred by the battle that occurred here... It would be best that Lady Shinano not remain here should the Siren attack again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果回到本岛之后{namecode:182}大人能恢复力量就好了呢！",
+			say = "For sure! Besides, I'd love to see Shinano show off her powers back at the main island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:84}大人应该也是这么想的，希望如此吧。",
+			say = "Yeah. It's better for us all around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔？有舰队从岛上的港口驶出来了…那个就是{namecode:182}大人么！好漂亮……",
+			say = "Hm? Some ships are leaving port... Is that Lady Shinano? She's so gorgeous...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇，隔着这么远{namecode:60}已经能感受到不输给{namecode:84}大人的威压了……",
+			say = "Woah, her presence is just as imposing as Musashi's. I can feel it from all the way out here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？{namecode:182}大人身旁的是{namecode:50}么。计划里应该只有{namecode:182}大人一人出航才对…",
+			say = "What's Noshiro doing there? According to the plan, Lady Shinano was supposed to come alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我倒觉得原本只让{namecode:182}大人一人动身的计划才有问题…既然是大将出行，身旁有一两个近侍陪伴是理所当然的吧。",
+			say = "I also think it would be unwise to let Lady Shinano set sail alone... As such an important person, it's only natural that she'd have an attendant or two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的有道理啊…{namecode:182}大人这么做也一定有她的考虑。",
+			say = "You have a point... In any case, I'm sure she has her reasons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好了，不能让她们等太久，我们也加快速度吧！",
+			say = "All right, let's not keep them waiting. Everyone, let's pick up our pace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

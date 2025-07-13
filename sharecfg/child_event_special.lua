@@ -89,7 +89,7 @@ pg.child_event_special = {
 		result = 5,
 		child_attr2 = 0,
 		id = 104,
-		main_desc = "水族馆之行",
+		main_desc = "Aquarium Visit",
 		show = 0,
 		date = {
 			{
@@ -117,7 +117,7 @@ pg.child_event_special = {
 		result = 7,
 		child_attr2 = 0,
 		id = 106,
-		main_desc = "幼儿园开放日",
+		main_desc = "Open Day",
 		show = 1,
 		date = {
 			{
@@ -145,7 +145,7 @@ pg.child_event_special = {
 		result = 8,
 		child_attr2 = 0,
 		id = 108,
-		main_desc = "校园运动会",
+		main_desc = "Sports Day",
 		show = 1,
 		date = {
 			{
@@ -173,7 +173,7 @@ pg.child_event_special = {
 		result = 9,
 		child_attr2 = 0,
 		id = 109,
-		main_desc = "修学旅行",
+		main_desc = "Field Trip",
 		show = 1,
 		date = {
 			{
@@ -201,7 +201,7 @@ pg.child_event_special = {
 		result = 10,
 		child_attr2 = 0,
 		id = 110,
-		main_desc = "夏日祭",
+		main_desc = "Summer Festival",
 		show = 1,
 		date = {
 			{
@@ -229,7 +229,7 @@ pg.child_event_special = {
 		result = 11,
 		child_attr2 = 0,
 		id = 111,
-		main_desc = "露营前的准备",
+		main_desc = "Go Camping",
 		show = 1,
 		date = {
 			{
@@ -257,7 +257,7 @@ pg.child_event_special = {
 		result = 12,
 		child_attr2 = 0,
 		id = 112,
-		main_desc = "考前复习",
+		main_desc = "Exam Reviews",
 		show = 1,
 		date = {
 			{
@@ -285,7 +285,7 @@ pg.child_event_special = {
 		result = 13,
 		child_attr2 = 201,
 		id = 114,
-		main_desc = "游乐场之行",
+		main_desc = "Amusement Park Visit",
 		show = 1,
 		date = {
 			{
@@ -313,7 +313,7 @@ pg.child_event_special = {
 		result = 14,
 		child_attr2 = 203,
 		id = 115,
-		main_desc = "游乐场之行",
+		main_desc = "Amusement Park Visit",
 		show = 1,
 		date = {
 			{
@@ -341,7 +341,7 @@ pg.child_event_special = {
 		result = 15,
 		child_attr2 = 202,
 		id = 116,
-		main_desc = "游乐场之行",
+		main_desc = "Amusement Park Visit",
 		show = 1,
 		date = {
 			{
@@ -369,7 +369,7 @@ pg.child_event_special = {
 		result = 16,
 		child_attr2 = 201,
 		id = 118,
-		main_desc = "圣诞节",
+		main_desc = "Christmas",
 		show = 1,
 		date = {
 			{
@@ -397,7 +397,7 @@ pg.child_event_special = {
 		result = 17,
 		child_attr2 = 203,
 		id = 119,
-		main_desc = "圣诞节",
+		main_desc = "Christmas",
 		show = 1,
 		date = {
 			{
@@ -425,7 +425,7 @@ pg.child_event_special = {
 		result = 18,
 		child_attr2 = 202,
 		id = 120,
-		main_desc = "圣诞节",
+		main_desc = "Christmas",
 		show = 1,
 		date = {
 			{
@@ -453,7 +453,7 @@ pg.child_event_special = {
 		result = 19,
 		child_attr2 = 201,
 		id = 121,
-		main_desc = "温泉之旅",
+		main_desc = "Hot Spring Visit",
 		show = 1,
 		date = {
 			{
@@ -481,7 +481,7 @@ pg.child_event_special = {
 		result = 20,
 		child_attr2 = 203,
 		id = 122,
-		main_desc = "温泉之旅",
+		main_desc = "Hot Spring Visit",
 		show = 1,
 		date = {
 			{
@@ -509,7 +509,7 @@ pg.child_event_special = {
 		result = 21,
 		child_attr2 = 202,
 		id = 123,
-		main_desc = "温泉之旅",
+		main_desc = "Hot Spring Visit",
 		show = 1,
 		date = {
 			{
@@ -537,7 +537,7 @@ pg.child_event_special = {
 		result = 22,
 		child_attr2 = 201,
 		id = 124,
-		main_desc = "毕业舞会",
+		main_desc = "Graduation Party",
 		show = 1,
 		date = {
 			{
@@ -565,7 +565,7 @@ pg.child_event_special = {
 		result = 23,
 		child_attr2 = 203,
 		id = 125,
-		main_desc = "毕业舞会",
+		main_desc = "Graduation Party",
 		show = 1,
 		date = {
 			{
@@ -593,7 +593,7 @@ pg.child_event_special = {
 		result = 24,
 		child_attr2 = 202,
 		id = 126,
-		main_desc = "毕业舞会",
+		main_desc = "Graduation Party",
 		show = 1,
 		date = {
 			{
@@ -1341,7 +1341,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1101,
-		main_desc = "第一届厨神大赛",
+		main_desc = "The 1st Great Cook-Off",
 		show = 2,
 		date = {
 			{
@@ -1368,7 +1368,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1102,
-		main_desc = "第二届厨神大赛",
+		main_desc = "The 2nd Great Cook-Off",
 		show = 2,
 		date = {
 			{
@@ -1395,7 +1395,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1103,
-		main_desc = "第三届厨神大赛",
+		main_desc = "The 3rd Great Cook-Off",
 		show = 2,
 		date = {
 			{
@@ -1422,7 +1422,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1104,
-		main_desc = "美食坊试吃活动",
+		main_desc = "Gastronomy District Food Fiesta",
 		show = 2,
 		date = {
 			{
@@ -1448,7 +1448,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1105,
-		main_desc = "美食坊试吃活动",
+		main_desc = "Gastronomy District Food Fiesta",
 		show = 2,
 		date = {
 			{
@@ -1474,7 +1474,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1106,
-		main_desc = "美食坊试吃活动",
+		main_desc = "Gastronomy District Food Fiesta",
 		show = 2,
 		date = {
 			{
@@ -1500,7 +1500,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1107,
-		main_desc = "美食坊试吃活动",
+		main_desc = "Gastronomy District Food Fiesta",
 		show = 2,
 		date = {
 			{
@@ -1526,7 +1526,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1201,
-		main_desc = "第一届钓鱼达人赛",
+		main_desc = "The 1st Angling Competition",
 		show = 2,
 		date = {
 			{
@@ -1553,7 +1553,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1202,
-		main_desc = "第二届钓鱼达人赛",
+		main_desc = "The 2nd Angling Competition",
 		show = 2,
 		date = {
 			{
@@ -1580,7 +1580,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1203,
-		main_desc = "第三届钓鱼达人赛",
+		main_desc = "The 3rd Angling Competition",
 		show = 2,
 		date = {
 			{
@@ -1607,7 +1607,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1301,
-		main_desc = "第一届摄影大赛",
+		main_desc = "The 1st Photography Contest",
 		show = 2,
 		date = {
 			{
@@ -1634,7 +1634,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1302,
-		main_desc = "商业街乐队表演",
+		main_desc = "Commercial Area Street Performance",
 		show = 2,
 		date = {
 			{
@@ -1660,7 +1660,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1303,
-		main_desc = "第二届摄影大赛",
+		main_desc = "The 2nd Photography Contest",
 		show = 2,
 		date = {
 			{
@@ -1687,7 +1687,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1304,
-		main_desc = "第三届摄影大赛",
+		main_desc = "The 3rd Photography Contest",
 		show = 2,
 		date = {
 			{
@@ -1714,7 +1714,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1305,
-		main_desc = "商业街乐队表演",
+		main_desc = "Commercial Area Street Performance",
 		show = 2,
 		date = {
 			{
@@ -1740,7 +1740,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1306,
-		main_desc = "商业街乐队表演",
+		main_desc = "Commercial Area Street Performance",
 		show = 2,
 		date = {
 			{
@@ -1766,7 +1766,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1307,
-		main_desc = "商业街乐队表演",
+		main_desc = "Commercial Area Street Performance",
 		show = 2,
 		date = {
 			{
@@ -1792,7 +1792,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1401,
-		main_desc = "第一届明日之星",
+		main_desc = "The 1st Star of Tomorrow Awards",
 		show = 2,
 		date = {
 			{
@@ -1819,7 +1819,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1402,
-		main_desc = "第二届明日之星",
+		main_desc = "The 2nd Star of Tomorrow Awards",
 		show = 2,
 		date = {
 			{
@@ -1846,7 +1846,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1403,
-		main_desc = "第三届明日之星",
+		main_desc = "The 3rd Star of Tomorrow Awards",
 		show = 2,
 		date = {
 			{
@@ -1873,7 +1873,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1601,
-		main_desc = "第一届运动大赛",
+		main_desc = "The 1st Sports Competition",
 		show = 2,
 		date = {
 			{
@@ -1900,7 +1900,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1602,
-		main_desc = "第二届运动大赛",
+		main_desc = "The 2nd Sports Competition",
 		show = 2,
 		date = {
 			{
@@ -1927,7 +1927,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1603,
-		main_desc = "第三届运动大赛",
+		main_desc = "The 3rd Sports Competition",
 		show = 2,
 		date = {
 			{
@@ -1954,7 +1954,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1604,
-		main_desc = "精彩体育赛事举行",
+		main_desc = "Sports Competitions Underway",
 		show = 2,
 		date = {
 			{
@@ -1980,7 +1980,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1605,
-		main_desc = "精彩体育赛事举行",
+		main_desc = "Sports Competitions Underway",
 		show = 2,
 		date = {
 			{
@@ -2006,7 +2006,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1606,
-		main_desc = "精彩体育赛事举行",
+		main_desc = "Sports Competitions Underway",
 		show = 2,
 		date = {
 			{
@@ -2032,7 +2032,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1607,
-		main_desc = "精彩体育赛事举行",
+		main_desc = "Sports Competitions Underway",
 		show = 2,
 		date = {
 			{
@@ -2058,7 +2058,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1701,
-		main_desc = "第一届文学大奖赛",
+		main_desc = "The 1st Open Submissions Literary Award",
 		show = 2,
 		date = {
 			{
@@ -2085,7 +2085,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1702,
-		main_desc = "第一届绘画大奖赛",
+		main_desc = "The 1st Art Contest",
 		show = 2,
 		date = {
 			{
@@ -2112,7 +2112,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1703,
-		main_desc = "第一届歌者之声大奖赛",
+		main_desc = "The 1st Singing Competition",
 		show = 2,
 		date = {
 			{
@@ -2139,7 +2139,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1704,
-		main_desc = "图书馆写作限时指导",
+		main_desc = "Writing Course at the Library",
 		show = 2,
 		date = {
 			{
@@ -2165,7 +2165,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1705,
-		main_desc = "绘画教室限时指导",
+		main_desc = "Drawing Course at the Art Class",
 		show = 2,
 		date = {
 			{
@@ -2191,7 +2191,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1706,
-		main_desc = "声乐教室限时指导",
+		main_desc = "Singing Course at the Music Class",
 		show = 2,
 		date = {
 			{
@@ -2217,7 +2217,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1707,
-		main_desc = "第二届文学大奖赛",
+		main_desc = "The 2nd Open Submissions Literary Award",
 		show = 2,
 		date = {
 			{
@@ -2244,7 +2244,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1708,
-		main_desc = "第三届文学大奖赛",
+		main_desc = "The 3rd Open Submissions Literary Award",
 		show = 2,
 		date = {
 			{
@@ -2271,7 +2271,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1709,
-		main_desc = "第二届绘画大奖赛",
+		main_desc = "The 2nd Art Contest",
 		show = 2,
 		date = {
 			{
@@ -2298,7 +2298,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1710,
-		main_desc = "第三届绘画大奖赛",
+		main_desc = "The 3rd Art Contest",
 		show = 2,
 		date = {
 			{
@@ -2325,7 +2325,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1711,
-		main_desc = "第二届歌者之声大奖赛",
+		main_desc = "The 2nd Singing Competition",
 		show = 2,
 		date = {
 			{
@@ -2352,7 +2352,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1712,
-		main_desc = "第三届歌者之声大奖赛",
+		main_desc = "The 3rd Singing Competition",
 		show = 2,
 		date = {
 			{
@@ -2379,7 +2379,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1713,
-		main_desc = "图书馆写作限时指导",
+		main_desc = "Writing Course at the Library",
 		show = 2,
 		date = {
 			{
@@ -2405,7 +2405,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1714,
-		main_desc = "绘画教室限时指导",
+		main_desc = "Drawing Course at the Art Class",
 		show = 2,
 		date = {
 			{
@@ -2431,7 +2431,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1715,
-		main_desc = "声乐教室限时指导",
+		main_desc = "Singing Course at the Music Class",
 		show = 2,
 		date = {
 			{
@@ -2457,7 +2457,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1716,
-		main_desc = "图书馆写作限时指导",
+		main_desc = "Writing Course at the Library",
 		show = 2,
 		date = {
 			{
@@ -2483,7 +2483,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1717,
-		main_desc = "绘画教室限时指导",
+		main_desc = "Drawing Course at the Art Class",
 		show = 2,
 		date = {
 			{
@@ -2509,7 +2509,7 @@ pg.child_event_special = {
 		result = 0,
 		child_attr2 = 0,
 		id = 1718,
-		main_desc = "声乐教室限时指导",
+		main_desc = "Singing Course at the Music Class",
 		show = 2,
 		date = {
 			{

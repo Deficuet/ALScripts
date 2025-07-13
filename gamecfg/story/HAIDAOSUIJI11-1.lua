@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "告诉了河神自己的答案——",
+			say = "You gave the godlike manjuu your answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,9 +14,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "金啾啾，你确定啾？",
+			say = "Is that so? Was it really the golden one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "……啾，本啾似乎也忘记之前落水的是哪只啾了……",
+			say = "...Actually, to be frank with thee, I forgot which one it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河神啾",
+			actorName = "River God Manjuu",
 			nameColor = "#A9F548FF",
-			say = "也罢。我相信你的诚实，这只金啾啾就送给你了——！要好好对待它啾！",
+			say = "No matter. In light of thy sincerity, I shall give thee the golden manjuu. Treat the little peep well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

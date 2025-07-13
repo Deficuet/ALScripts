@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=45>三　前辈</size>",
+					"Enterprise Troubles\n\n<size=45>Chapter 3: Enterprise</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，今天的工作事项也处理得差不多了！指挥官，请确认下这些报告，确认完今天就——",
+			say = "All right. We're almost done with today's tasks. Commander, once you finish checking this report, we'll be done for the...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了",
+			say = "Pardon me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？前、前辈！？我、我先去倒杯水！",
+			say = "Huh? E-Enterprise?! I, I'll go get you some water!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯吗，现在是你担任秘书舰吗，辛苦了。啊，水就不用了",
+			say = "So you're the secretary now, Essex? Thanks for the hard work. I'm fine without the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那、那茶呢，前辈要喝茶吗？！",
+			say = "H-how about tea?! Do you drink tea?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冷静下来，我只是有事过来通报一下而已",
+			say = "You don't need to be so tense. I'm just here to give a status update.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样的，白鹰打算组织一场针对航母的个人演习",
+			say = "Anyway, that's the situation. The higher-ups at the Eagle Union have staged an individual mock battle tournament for the carriers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "个人演习？",
+			say = "Individual mock battles?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，你还不清楚规则吧。简单来说就是这样的……",
+			say = "Sorry, I guess nobody's briefed you about them before. To keep things short...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概就是这样，怎么样，埃塞克斯你也要参加吗？",
+			say = "That's pretty much how it goes. So, Essex, are you going to participate?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让大家也见识一下新型航母的实力",
+			say = "It'd be a good opportunity to show off your specs as a state-of-the-art carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（也就是说，这样的话，我就有机会和前辈直接对决了。）",
+			say = "(In other words, I'll finally have a chance to square off with Enterprise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请务必让我参加！",
+			say = "Please allow me to join!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错的气势，我很期待和你的对决哦",
+			say = "That's the spirit. I look forward to facing off against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也一样，不会轻易输给前辈的！",
+			say = "Same here. I won't go down without a fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然在前辈面前这么说了，但毕竟对手是那个企业前辈…",
+			say = "I... I said all that to sound tough, but I'm going to facing Enterprise for real...",
 			flashout = {
 				black = true,
 				dur = 1.5,
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好好准备的话，是没办法战胜的呢",
+			say = "If I don't make the proper preparations, I'm just going to make a fool of myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天——不，现在就开始制定训练计划吧！",
+			say = "Starting tomorrow... no, today, I've got to plan things out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你愿意帮我一起训练吗？",
+			say = "Sorry, Commander, but can I ask you to help me train?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，和埃塞克斯开始了针对演习的特别训练——",
+			say = "And with that, Essex's special training regimen began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

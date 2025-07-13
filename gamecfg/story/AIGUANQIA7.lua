@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是下一片镜面海域吗…感觉有点吵闹呢",
+			say = "So this is the next Virtual Sea Area... it’s a bit noisier than the last one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "―――！",
+			actorName = "Kizuna AI clone",
+			say = "————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,8 +43,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10400010,
-			actorName = "绊爱(伪)",
-			say = "………！",
+			actorName = "Kizuna AI clone",
+			say = "————!",
 			subActors = {
 				{
 					expression = 1,
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是……演唱会……？{namecode:524}…？",
+			say = "This sound is... a concert...? Is that San Diego...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么会在这种地方开演唱会啦～～！？",
+			say = "Why is someone putting on a concert here...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "咚！",
+			say = "KABOOOM!!!",
 			flashN = {
 				color = {
 					1,
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一起打过来了…！",
+			say = "They're all coming at us at once...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此！这就是所谓的“人海战术”吧！",
+			say = "I see, I see! So this is what \"rushing B\" looks like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法，只能一边打倒绊爱(伪)一边进行调查了",
+			say = "We have no choice but to defeat the fake Kizuna AI and then keep searching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,8 +226,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			hideOther = true,
-			actorName = "绊爱",
-			say = "明白了！有如今的我在，消灭敌人什么的，简直就是小菜一碟啦！",
+			actorName = "Kizuna AI",
+			say = "Got it! With the way I am now, taking out the enemies will be a piece of cake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "就从那个绊爱(伪)开始吧～！嘿呀～！",
+			actorName = "Kizuna AI",
+			say = "I’ll start things off by taking care of my clone~! Take this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，爱小姐，不可以一个人冲那么快啦！",
+			say = "Ah...! Miss AI, stop! Don’t charge in by yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,8 +294,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400010,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "………！！！",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...!！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "咚！",
+			say = "KABOOOM!!!",
 			flashN = {
 				color = {
 					1,
@@ -357,8 +357,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "啊啊啊啊啊啊啊啊啊啊啊啊！",
+			actorName = "Kizuna AI",
+			say = "AAAAAAAAAAAAAAAAAHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "大～家～救～救～我～～～～！！！",
+			actorName = "Kizuna AI",
+			say = "SOME~ONE~! SAAAVE MEEEEE——!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，这就是所谓的“一级插旗师”吧！好厉害！",
+			say = "I see, I see, so this is what we call a “death flag architect!” Impressive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "迅如疾风的flag回收速度，佩服…的说",
+			say = "Setting off all those flags by herself, how admirable.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -443,7 +443,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱是一级插旗师…",
+			say = "Kizuna AI is an expert flagsweeper...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这种有点冒冒失失的感觉，是不是更讨指挥官的喜欢呢……？",
+			say = "Does Commander like the scatterbrained type...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别在那发表感想了，我们快去帮帮她吧！",
+			say = "Stop standing there gawking at her, we need to go help out!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，不过…果然还是很难分清哪个才是本尊呢……",
+			say = "Ugh... but from here, it’s hard to tell which is the real one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

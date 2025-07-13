@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，累了……想靠在{dorm3d}身上，休息……！",
+			say = "Anchorage is tired... I'll sleep against you, {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……暖暖的，很舒服……适合休息！",
+			say = "{dorm3d} is warm... Feels nice... Perfect for sleep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在{dorm3d}身边……安克雷奇……活力……满分！",
+			say = "Together with {dorm3d}... Anchorage is energetic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，一直在安克雷奇身边……！",
+			say = "Anchorage and {dorm3d}... Together forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

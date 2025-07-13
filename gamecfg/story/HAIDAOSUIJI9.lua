@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在岛上探险时迷失了道路，不知走到了森林深处的哪片角落。",
+			say = "You got lost during your adventure and wound up deep inside an unmapped forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,18 +14,18 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在这里，似乎生长着许多颜色怪异的巨大发光蘑菇。你决定——",
+			say = "All around you are giant, unusually-colored mushrooms that give off a faint light. You decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有些累了，躺上去休息一会。",
+					content = "Rest your weary bones.",
 					flag = 1
 				},
 				{
-					content = "转身离开",
+					content = "Go elsewhere.",
 					flag = 0
 				}
 			}

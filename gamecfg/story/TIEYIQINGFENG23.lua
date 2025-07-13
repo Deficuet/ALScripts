@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，量产型的损失速度突然开始加快了。",
+			say = "Commander, we're losing mass-produced ships at an increasing rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这是侦察机拍下的照片。您看，是不是资料里的塞壬IV型量产型有些相似？",
+			say = "The Sirens have deployed Type IVs. Here, we caught a picture of one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "被抓拍时，那艘量产型正试图下潜……或许它们在更早之前就已经混入敌舰队之中了！",
+			say = "It's half-submerged, but it's possible it's been there for quite a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "IV型……？！",
+			say = "Wait, Type IV?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（塞壬IV型量产型，是目前已知的塞壬实验机关所使用的最先进的量产型型号。）",
+			say = "(I know that one. It's a rare model that was mentioned in Bismarck's files and showed up during Operation Frostfall.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没想到会在今天遇上……）",
+			say = "(This is more of them than we've ever seen before.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……听说IV型量产型战斗力相比III型在作战性能上有着飞跃式提高。）",
+			say = "(Chkalov told me they're a big upgrade to the previous model, as you'd expect.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（从战场情况来看，确实和情报中一致。）",
+			say = "(The fact they're attacking in such large numbers only makes them even more dangerous.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（东煌舰队中舰船数量不足，主要依靠的就是各类定制化量产型舰队。）",
+			say = "(The Empery is heavily reliant on its mass-produced ships, owing to the fact that they have few shipgirls.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是东煌这支能够压制III型的量产型舰队，对上少量IV型就已经有些吃力了。）",
+			say = "(While our mass-produced ships can handle their Type IIIs, Type IVs are a much bigger ask.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在IV型在数量占有绝对优势时，甚至可以压制常规舰船舰队……）",
+			say = "(We'll be forced into a dragged-out losing battle if we keep fighting like this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……要改变计划先与北方联合舰队汇合么）",
+			say = "(Our best hope is to regroup with the Northern Parliament ASAP.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,11 +224,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "指挥官，我方在交战中发现塞壬投入IV型量产型舰队加入了战斗，目前已经对我们的常规量产型造成了一定杀伤。",
+			say = "Commander, they've sent in Type IVs. Our mass-produced ships are taking heavy casualties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "我提议改变战术，投入「冻雨」型火力投射舰对其进行集中攻击。",
+			say = "I have a plan, though. We'll bombard the enemy using our Dongyus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们之前进行过模拟，被冻雨集束增程火箭弹集攻击的话，就算是IV型量产型也抵挡不住的。",
+			say = "The Type IVs may be powerful, but even they can't survive a volley of cluster rockets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？北方联合已经向你们同步过IV型的情报了么？",
+			say = "Are you sure that's going to work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "嗯，在了解到存在IV型量产型这一强敌后，BP司令部就已经在研究对策了。",
+			say = "I'm sure! We gathered intel on the Type IV and ran combat simulations back at the base to test the theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "指挥官请放心，「冻雨」型火力投射舰肯定会不辱使命的！",
+			say = "Trust me! It's going to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

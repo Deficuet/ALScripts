@@ -12,7 +12,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，好无聊。",
+			say = "Nothing's happening...",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "我们在执行护送任务，无聊点才好。",
+			say = "We're on an escort mission, so isn't it better if nothing is happening...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "哇，难得塔尔图你居然会接我的话！",
+			say = "Touché... Wait, since when did you learn how to make retorts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "我又不是整天在想事情……",
+			say = "Hm...? Am I not allowed to...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得你就是在整天想事情……而且我是说陆间海很无聊啦。",
+			say = "No, I just assumed you would always be off thinking about other things by yourself until someone else grabbed your attention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "明明现在是二月，冬天哎！但是陆间海却和其他季节一样温暖。",
+			say = "By the way, is it just me, or was the Mediterranean always this chilly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "原本我们是可以去北方看雪的嘛，现在却被困在陆间海哪里都去不了。",
+			say = "Once we get back, if there are no other missions waiting for me, maybe I'll take a trip somewhere~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "我好想看雪啊……",
+			say = "It'd be nice to head up north to see the snow, or even an aurora... What do you think, Tartu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "不要突然提出无理的要求。",
+			say = "I bet you'd want to go with one of your Iris girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "嘿嘿嘿~",
+			say = "Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

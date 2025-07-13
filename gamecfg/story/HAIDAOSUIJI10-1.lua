@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你手边有些在森林里采集到的苹果，于是喂了一个给它。",
+			say = "You take out an apple you picked in the forest and give it to the little fox.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,18 +14,18 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "小狐狸很快吃完了苹果，而后依然眼巴巴地看着你，似乎依旧饥饿的样子。",
+			say = "It promptly wolves down on it, and when it's finished, the fox looks up at you with eyes that seem to yearn for more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "再喂一个……(消耗50探险币)",
+					content = "Give it an apple.",
 					flag = 1
 				},
 				{
-					content = "无视它",
+					content = "Do nothing.",
 					flag = 0
 				}
 			}

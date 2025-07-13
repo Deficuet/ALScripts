@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "港区·皇家花园",
+			say = "Port - Royal Garden",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在晴朗的蓝天之下，港区正在举办一场不同寻常的茶会。",
+			say = "Under a clear blue sky, the port is holding a special tea party to welcome their new guests from another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢您今日能莅临皇家茶会。",
+			say = "Thank you all for attending today's royal tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我等皇家女仆队必将不负港区的优雅之名，为您提供最顶级的招待服务。",
+			say = "We, the Royal Maids, will provide you with the utmost hospitality befitting the port's fine reputation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "茶桌上整齐地摆放着昂贵且规格统一的茶具——它们正同样等待着这场茶会的开幕。",
+			say = "A matching tea set with exquisite design is neatly arranged on the table, all waiting for the tea party to begin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我说啊——这位女仆小姐。你这么严肃的话，弄得我也有些拘束了哦？",
+			say = "Excuse me, Miss Maid? Don't you worry that being so formal might make your guests feel uneasy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那肯特选手这样你觉得如何？ 这位小姐，欢迎来到本日的茶会，希望你吃好喝好玩好！",
+			say = "How about this one? \"Welcome to our humble tea party, everyone! Eat up, drink up, and have a grand time!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……肯特，你这样有些太散漫了吧。",
+			say = "Ahem. Kent, do not embarrass us in front of the guests, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "哦~没关系没关系，倒不如说，这样的氛围我觉得反而更轻松一些~",
+			say = "Heehee, it's okay. I happen to prefer the casual greeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女仆长，你看客人都这么说了，不也挺好的嘛？",
+			say = "See? Our guest likes it. Isn't that what matters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果客人感到舒适的话，那本日便如此吧。",
+			say = "*sigh*... As you wish, milady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是由精心挑选的夏摘茶制成的上等红茶，您觉得味道如何呢？",
+			say = "We've prepared the finest black tea made from carefully selected second flush leaves. I hope it suits your palate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 202350,
-			say = "当然，如果您有其他更喜欢的茶叶或者偏好的温度，还请不要顾虑尽管提出来就好。",
+			say = "If you'd prefer a different type of tea, or have a specific water temperature in mind, please just let me know! I'll happily take your requests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "另外，我们还准备了一些点心和甜品，不知道客人您是否喜欢吃甜食呢？",
+			say = "Naturally, we have snacks and desserts as well. Do you like sweet foods, milady?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我没有吃甜食的习惯，不过我并不讨厌。",
+			say = "I don't go out of my way to eat sweets, but I don't mind them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次的点心是由萨福克精心准备的，要是合您口味的话就再好不过了。",
+			say = "Suffolk kindly made today's snacks for us. We hope that you enjoy them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "随着这句话，摆放于托盘架上的蛋糕、司康饼以及三明治等点心被陆续摆到了桌面上。",
+			say = "Cakes, scones, sandwiches, and other such treats from the tiered serving stand are brought over and laid on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "紧接着，萨福克将这些餐点依次端到了在座的众人的面前。",
+			say = "Suffolk personally divides them and serves them to each guest one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "谢谢。嗯~口感清爽，造型精致。虽然我不怎么习惯吃这类食物，但我非常喜欢。",
+			say = "Thanks. Mmm... Very refreshing, and the presentation is exquisite. I may not eat sweets often, but I really love these.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 203040,
-			say = "咦？非常荣幸能够得到您的喜欢！",
+			say = "Oh? I'm happy you do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……虽然以前很少有机会能像这样放松下来，不过这种感觉……还不赖。而且——",
+			say = "Phew... I don't usually get the opportunity to relax like this, but it's actually not bad at all. Moreover...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "这里虽然同样弥漫着战斗的紧张感，但却能够恰到好处地抚慰紧绷的神经……真是个不错的地方啊。",
+			say = "The tension of battle fills this place, yet somehow it still manages to calm the nerves... It's perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正因如此，我甚至能感受到这里的主人能够温柔地接纳我。",
+			say = "Is that why I feel such a sense of... tolerance? That even I can be accepted here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想……可能是因为居住于此的我们，本质上也是“为战而生”的存在吧。",
+			say = "That may be because everyone here is born for battle, just like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "呵呵，大概就像你说的那样吧。或者也可以说是物以类聚？",
+			say = "Heehee, maybe. We're all birds of a feather, aren't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是充满危险气息的发言呢……这种话题应该不太适合跟优雅的淑女们探讨吧？",
+			say = "Enough talk of violence. This is hardly an appropriate topic among elegant young ladies at a tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在旁边同样享受着茶会的皇家战舰们也加入了这场谈话。",
+			say = "Other Royal Navy shipgirls nearby cut into the conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请问我们可以加入这场茶会吗？",
+			say = "Mind if I join in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "当然，我也非常期待能够与诸位出色的骑士交谈呢。",
+			say = "Be my guest. I've looked forward to chatting with Royal Knights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也没什么特别的地方吧……",
+			say = "Don't get your hopes up too much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别这么冷淡嘛……更何况，君主与DEAD MASTER阁下总给我一种非常相似的感觉。",
+			say = "Don't be so cold, Monarch. Somehow, you and DEAD MASTER seem like kindred spirits to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "这种时候，我是不是应该说……我很荣幸？",
+			say = "Hmm... Should I be honored, I wonder?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "虽然君主一如既往地面色冷淡，但还是和同伴们一起坐到了茶桌旁。",
+			say = "Monarch's expression is as cold as usual, but she still sits at DEAD MASTER's table along with the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "她的茶具早已准备齐全，刚一落座，便斟上了她最喜爱的茶。",
+			say = "Her tea set is already prepared, and as soon as she takes her seat, the maids pour her favorite tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "当少女们于清凉的海风中享受着茶点时，远处因BLACK★ROCK SHOOTER的训练而骤然激起的滚滚烟尘让她们为之侧目。",
+			say = "While the girls enjoy their tea in the cool sea breeze, smoke rises in the distance – the result of BLACK★ROCK SHOOTER's training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "BLACK★ROCK SHOOTER大人似乎每天都在不懈地锻炼呢。",
+			say = "Miss BLACK★ROCK SHOOTER never goes a day without training, does she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202260,
-			say = "真是个相当努力的人啊。",
+			say = "What a hard worker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "嗯……我想她本人并没有“努力”的意识。或者说更像是“除此之外别无选择”的感觉吧？",
+			say = "Mmm... I don't know about that. It's more like that's all she has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你难道不去帮帮她吗？你应该“不讨厌”那种事吧？",
+			say = "You're not going to join in? I thought you liked that stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "……我看起来像是喜欢这种事的人吗？我可不认为自己像那孩子那么野蛮呢~",
+			say = "...Do I look like I do? I'm far from as barbaric as her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是么？",
+			say = "Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "欸……抱歉啦，君主平时说话就是这种风格，她其实并没有恶意的。",
+			say = "Yikes, I'm sorry. Monarch can be a little too direct...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "是么~？",
+			say = "Is that so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哼，我只不过是讨厌拐弯抹角罢了。",
+			say = "Hmph. I just don't like beating around the bush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "不拐弯抹角啊——那一会要来打一场么？",
+			say = "Oh, really? Then how about you and I spar a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "我对于皇家骑士的战斗技巧，其实颇为好奇呢。",
+			say = "I've been interested in how the Royal Knights fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "话题为什么会突然变成这种方向……？",
+			say = "Why did the conversation suddenly shift in that direction?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等茶会结束吧，现在可不是谈论这些事的好时间。",
+			say = "After the tea party. Now isn't the time to talk about violence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "宁静的茶会，和平的日常……嗯，你说的不错，现在确实不是谈论这些事的好时间。",
+			say = "Quiet tea parties, a peaceful life... I agree. Now isn't the time or place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "女仆小姐，可以帮我再来杯茶吗？",
+			say = "Miss Maid, may I have another cup?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然当然，热茶来咯~",
+			say = "Sure~ I'll bring it right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "这场不同寻常的茶会，维持着微妙的平衡继续进行着——",
+			say = "Thus, the tea party carries on, though perhaps more precariously than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

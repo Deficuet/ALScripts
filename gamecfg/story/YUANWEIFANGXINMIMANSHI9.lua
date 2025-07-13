@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"「就这样，宴会的氛围进入了高潮——」",
+					"And so, the festivity in the banquet venue reached its peak.",
 					2
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			bgmDelay = 1,
-			say = "出现在眼前的是——",
+			say = "Palace - Banquet Hall",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:84}",
 			nameColor = "#A9F548FF",
-			say = "指挥官，欢迎您的到来。",
+			say = "Well, well, there's the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,12 +69,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仆从，你可让本王好等！",
+			say = "You sure took your sweet time, servant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,12 +86,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王……见不到你会不高兴的……",
+			say = "Do you know what a banquet without you is? Dull, that's what!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,12 +103,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "Avrora",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白，这种时候要再坦率一些吧~",
+			say = "I have to agree. We all missed you, Commander.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,12 +120,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "Avrora",
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎您的到来！指挥官！",
+			say = "Now, shall I get you something to drink?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:435}",
 			nameColor = "#A9F548FF",
-			say = "指挥官，你能感受到今天会场热烈的氛围吗？",
+			say = "Spirits are high tonight, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:435}",
 			nameColor = "#A9F548FF",
-			say = "我很享受这种氛围，希望你也一样。",
+			say = "I hope you enjoy the atmosphere as much as I do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,12 +173,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:523}",
+			actorName = "Jean Bart",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天若招待不周，还请多多包涵。呃——",
+			say = "If ya see anything less than perfect, please try to ignore it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,12 +190,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:523}",
+			actorName = "Jean Bart",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不像是能从我嘴里说出来的话……不过……",
+			say = "Yeah, I know it's not my style to say \"please,\" but still.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,12 +207,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:523}",
+			actorName = "Jean Bart",
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天能招待你，我真的很开心，请好好享受接下来的庆典。",
+			say = "What I'm trying to say is – I hope you have a hell of a time tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,9 +228,9 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
-			say = "指挥官，庆典的氛围，逐渐热烈起来了呢。",
+			say = "Commander! Can you feel the excitement in the air? I sure can!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,9 +246,9 @@ return {
 			bgName = "bg_chengbaoqingdian_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
-			say = "但这还不是最高潮，之后还会有更多有意思的活动哦~",
+			say = "This is only the start, though! Peak excitement will be when the performances start!~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,9 +264,9 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
-			say = "指挥官，不管是过去还是现在，你都一直陪伴在我们身边，指引着我们航行的方向。",
+			say = "Commander, thank you for always being here for us. You are the wind in our sails and the lighthouse that shows us the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,9 +282,9 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
-			say = "未来的航线……也请你继续指引我们，与我们一同向着更美好的未来进发吧。",
+			say = "...That sounded more wistful than I meant it to. Ahem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,9 +300,9 @@ return {
 			bgName = "bg_chengbaoqingdian_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
-			say = "庆典快乐，指挥官————",
+			say = "Happy anniversary, Commander. Cheers.",
 			painting = {
 				alpha = 0.3,
 				time = 1

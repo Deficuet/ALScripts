@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·学院",
+			say = "Port - Academy",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "古手川唯此刻正漫步在学院走廊上，目光扫视着周围的环境。",
+			say = "Yui Kotegawa marched through the halls of the academy, ever vigilant of her surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "嗯，这里的一切都井井有条，和彩南高校的学生会管理区域一样令人安心呢。",
+			say = "Good. Everything here is in perfect order. It's just as peaceful as the student admin back at Sainan High School.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 900201,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀！！",
+			say = "Aaaaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 900201,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快抓住它！别让食材跑掉了！",
+			say = "Catch that thing! Don't let my meal get awaaay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "突然，一阵刺耳的尖叫声从走廊尽头的厨房传来，打破了方才的宁静。",
+			say = "A sudden cry from the kitchen down the hall broke through the peace and quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "啊，那边的是……",
+			say = "Over there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女立刻向声音传来的方向赶去。",
+			say = "She rushed for the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "来到厨房门口后，她拉开了门——",
+			say = "When she got there, she flung the door open–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "映入眼的是一片狼藉。",
+			say = "And before her eyes was something that could only be described as a mess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "散落的锅碗瓢盆中，{namecode:233:绫濑}正慌慌张张地追逐着在地上翻滚的鳗鱼，{namecode:298:朝凪}则在另一旁手持锅盖准备“守株待鱼”。",
+			say = "Scattered cooking implements. Ayase, scrambling to follow an eel that rolled all over the floor. And Asanagi, holding a pot lid in its path, ready to ambush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，古手川小姐，来得正好！",
+			say = "Heheh. Great timing, Kotegawa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "……现在的情况是？",
+			say = "Umm, what's going on here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜……都是因为鳗鱼太狡猾了才会这样……",
+			say = "Urgh... Dumb, slippery eel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "理解了……",
+			say = "I... see?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "虽然我也不能保证一定能成功，但是我会尽量帮忙的！",
+			say = "I'm not sure I can catch it myself, but I'll do my best to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女屏住了呼吸，准备和{namecode:233:绫濑}形成包抄之势，将鳗鱼驱赶到方便{namecode:298:朝凪}扣下锅盖的地方。",
+			say = "Yui stifled her breathing and positioned herself to corner it alongside Ayase, hoping to drive it into a place where Asanagi could catch it in the pot lid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就、就保持这样接近！我会及时扣下去的！",
+			say = "Good, good! Keep it up! I'm ready to catch the fiend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "嘘……",
+			say = "Shh....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女比了个噤声的手势，然后猛然向前跨出了一步。",
+			say = "Yui gave a quiet signal and took a single, decisive step forward...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "原本只是在地上翻滚的鳗鱼像是受到了什么刺激似的高高跃起——",
+			say = "But then, the eel – which had just been rolling and slithering until now – somehow jumped directly up into the air...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "跳到了少女身上。",
+			say = "...And landed right onto Yui.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "呀！",
+			say = "Eeeeeek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "怎，怎么会这样啊……！",
+			say = "G-geez! Why'd this have to happen to me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女努力想要抓住身上的鳗鱼，然而越是拼命去抓，越是无法抓住。",
+			say = "The more she scrambled to grab the eel, the more easily it slipped out of her grasp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "这种滑溜溜的感觉……好讨厌！",
+			say = "Ewww, it's so slippery... Gross!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 900201,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别担心~！交给我吧！",
+			say = "Don't you worry! Liverpool's here to save the day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "只见利物浦如同旋风一般冲了进来，三两下就制服了不听话的鳗鱼。",
+			say = "The Royal Maid Liverpool gallantly rushed onto the scene and suppressed the feisty eel in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "……得救了，多谢你。",
+			say = "Thanks... You basically saved my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "哼，这次谢谢了啊！",
+			say = "Hah! You have my gratitude – for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "话说回来，你们是在做鳗鱼料理吗？",
+			say = "No problem at all♪ By the way, are you cooking that eel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是、是的……都怪我不小心，让它跑了……",
+			say = "Y-Yes... But in my clumsiness, I accidentally let it go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302260,
-			say = "而且还让古手川小姐受到了惊吓，衣服也被弄脏了，真是不好意思……",
+			say = "I even scared poor Kotegawa here, and it ended up with her getting her clothes dirty... Oh, I'm so sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "不用在意啦。之后洗一洗就没问题了。",
+			say = "Don't worry about it. I can just wash these.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302260,
-			say = "不行的！你明明是港区的客人，是我们考虑不周……",
+			say = "I insist on worrying about it! You're a dear guest to our port, and here I go causing you trouble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302260,
-			say = "啊，对了，为了表达歉意，不如就让我们烹饪这条鳗鱼来招待你吧！",
+			say = "I-I know! I'm going to cook this eel. Would you like some as apology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "这个……",
+			say = "Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，烹饪鳗鱼料理怎么少得了我呢~！",
+			say = "Heheh, nobody cooks an eel without me in the equation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "而且不光是烹饪，我还要把我总结的鳗鱼料理的精髓都教给古手川小姐哦！",
+			say = "I won't just teach you to cook it – Kotegawa, I'll impart to you the ultimate secrets of eel cuisine☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301900,
-			say = "怎么突然说到要传授了啊！？",
+			say = "Hey! Who said anything about teaching?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "唔，毕竟有句话叫“教会一个人钓鱼，你就能让她终生受益。”嘛！",
+			say = "As they say, \"Teach a shipgirl to fish, you feed her for a lifetime.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万一回去了之后还想念我做的鳗鱼料理呢~？这时候不就可以自己做了嘛。",
+			say = "Then, when you go back to your own world, you can remember my teachings and introduce them to your people♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……倒是有几分道理。",
+			say = "I hate how much sense that makes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302260,
-			say = "嗯……嗯！也请利物浦小姐来教教我吧！",
+			say = "E-excuse me! Liverpool, could you please teach me, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302260,
-			say = "{namecode:67:爱宕}她们说过做饭好吃是成为合格新娘的前提……///",
+			say = "Umm, Atago and the others tell me that being a good cook is part of being a good bride...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100060,
-			say = "合、合格新娘？！这种事情……",
+			say = "A-a good bride?! I don't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "尽管一开始选择了拒绝，但古手川唯还是难以拒绝几人的热情。",
+			say = "Despite her initial attempts to refuse, Yui was overwhelmed by their enthusiasm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "最后，少女决定留下来品尝并学习鳗鱼料理的做法——",
+			say = "As such, she ended up staying, being treated to eel, and learning how to cook it Liverpool-style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

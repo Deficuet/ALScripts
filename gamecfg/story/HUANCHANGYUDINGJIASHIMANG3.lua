@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "寰昌邸·客厅",
+			say = "Huan Ch'ang's Place - Living Room",
 			bgm = "china-party",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "诸位请坐。",
+			say = "Have a seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我今日粗略占得将有意外登门，但没想到这“意外”竟是指诸位。",
+			say = "My divinations told me unexpected visitors were coming, but I sure didn't think it would you and an entourage of Empery girls, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是有事需要我帮忙么？",
+			say = "What brings you here? Do you need my help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哇啊！不愧是寰昌姐姐……这都被你算到了！",
+			say = "So you knew we were coming! That's our bagua fortune-teller for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "我们确实是有事想请你帮忙！",
+			say = "And yeah, that's exactly why we're here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "其实会这样不请自来，都是因为我啦……",
+			say = "See, we're actually in a real pickle here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "因为晚上请了其它阵营的客人，龙武姐又不在，所以只能我来做主厨……",
+			say = "We invited another faction to dine with us tonight, but Lung Wu is away and I'm the only one who can cook the food.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "但我的实力确实不如龙武姐嘛……",
+			say = "And I'm not even half the chef she is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "所以我想的是，如果有优秀的食材，应该能弥补技术上的不足才对……",
+			say = "But! I can make up for it if I can just get some good ingredients!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "所以……那个，寰昌姐姐，能帮忙卜算下，那种能做出发光菜肴的食材在哪里么？",
+			say = "Which is what we need help with! Huan Ch'ang, can you please divine where to find ingredients that'll make delicious food?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……卜算一事，需把所占之事的前因后果告诉我，方能起卦。",
+			say = "In order to do that, I need to know the cause and consequences of the events that led you to this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "所以，你们最好把情况说得更清楚些。",
+			say = "You'll need to give me more details.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "比如——既然龙武不在，又为何要发出邀请呢？",
+			say = "For a start, why did you suddenly invite them to dinner if Lu Wung wasn't there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "……对不起，其实是飞云吹牛圆不上了。",
+			say = "...It was because I ran my mouth and made a promise I couldn't keep. Sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "寰昌姐姐请千万不要生气……",
+			say = "Please don't be mad at Lady Yuen...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "但、但现在已经是这个情况了！",
+			say = "L-look, what's done is done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "说什么也不能给龙武姐和东煌菜丢脸啊！",
+			say = "We can't let down our guests, or we'll sully both Lung Wu's name and the rep of our cuisine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "济安，当真是如此？",
+			say = "Chi An, are they telling the truth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "这……这……",
+			say = "Um... Umm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不用多说了……你们的心意我领了，不过也没必要给姐姐我遮掩到这种地步啦。",
+			say = "It's okay, little ones. I know you don't want to be rude, but you don't need to walk on eggshells for my sake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "其实，完全是我的问题，要不是我——",
+			say = "In truth, this was all my fault. I was in the kitchen, and–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "——执意下厨，结果引发了巨大动静，不小心引来了附近的撒丁访客？",
+			say = "You insisted on cooking, caused an accident, and just by pure bad luck, the Sardegnians happened to be visiting at the same time. Is that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "你什么时候算的？……不是，我是说……",
+			say = "Huh? Wait, did you divine all that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "呃，好吧，就是这样……我把厨房搞爆炸了。",
+			say = "No, it doesn't matter. Yes, you're exactly right. I caused an explosion in the kitchen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "……想笑就笑吧。",
+			say = "It's fine. You can laugh at me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "当真？",
+			say = "I can?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "嗯。",
+			say = "Yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "噗嗤……",
+			say = "Heh... Heheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "把厨房搞爆炸算什么啊，我从来不知道你还能做到这种事！",
+			say = "You actually blew up the kitchen. Wow. I knew you were a bad cook, but this is something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "没有直接大笑出来我真是谢谢你啊……",
+			say = "Hmph. It's not THAT funny.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "但有一说一，又不是哪个东煌的同伴都有一手好厨艺！",
+			say = "Just because I'm from the Empery doesn't mean I was born with great cooking skills.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们要排除刻板印象！",
+			say = "That's a stereotype, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "再说，天赋不足不是更应该用后天的努力补足嘛！",
+			say = "What I lack in talent, I'm trying to make up for with hard work and practice. I'll get good at it eventually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这倒是像你会说的话了。那你想要我怎么帮你？",
+			say = "Of course. Keep at it. Now, how do you want me to help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很简单哦，只要你这次格外开恩，稍微帮虎贲她们卜算下就好~",
+			say = "It's simple. We'd like you to divine where to find the ingredients Hu Pen needs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "明明刚刚才说要努力呢？",
+			say = "Just to be sure – you're not going to \"help\" in the kitchen, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "嘿嘿，人贵在有自知之明嘛~",
+			say = "Heehee, no. I know my limits.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "那指挥官——我的门是你今天敲开的，你的意见是什么呢？",
+			say = "One last thing, then. Commander, as the one who knocked on my door, what is your opinion on this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "天机无大小利害之别。",
+			say = "The heavens discern not between matters great and small, good or evil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "想要我卜算的话，就给我个说得过去的理由吧。",
+			say = "I'd like to hear a reason for me to call upon the bagua.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（是要我来做决断的意思么……）",
+			say = "(Is she asking me to give the final push?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,22 +711,22 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（那就……）",
+			say = "(Alright then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "天时地利人和，缺一不可！",
+					content = "We already have the right time and right place. What we need is the right person.",
 					flag = 1
 				},
 				{
-					content = "谋事在人，成事在天！",
+					content = "We'll never know what the heavens decide if we don't at least try.",
 					flag = 2
 				},
 				{
-					content = "帮帮我吧！寰昌姐姐！",
+					content = "I need your help, my lovely Huan Ch'ang!",
 					flag = 3
 				}
 			}
@@ -739,7 +739,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 504010,
-			say = "诡辩……",
+			say = "Such sophistry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 504010,
-			say = "倒也不是不行……",
+			say = "But, given the current situation, I suppose it's not beyond the realm of possibility...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 504010,
-			say = "既然如此——",
+			say = "If you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 504010,
-			say = "不是这么用的吧……",
+			say = "So you're leaving it to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "倒也不是不行……",
+			say = "But, given the current situation, I suppose it's not beyond the realm of possibility...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 504010,
-			say = "既然如此——",
+			say = "If you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,13 +818,13 @@ return {
 			expression = 9,
 			side = 0,
 			bgName = "star_level_bg_157",
-			actorName = "虎贲&飞云",
+			actorName = "Hu Pen & Fei Yuen",
 			dir = 1,
 			optionFlag = 3,
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哇哦。",
+			say = "...Wow.",
 			subActors = {
 				{
 					expression = 10,
@@ -862,7 +862,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 504010,
-			say = "……喂！",
+			say = "Hey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 504010,
-			say = "真、真是的……当着小孩子的面呢！",
+			say = "Wh-what's with you? You don't say that in front of people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 504010,
-			say = "咳……既、既然这样，容我算算……",
+			say = "Ahem... Alright... I'll start divining now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "嗯…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "大道五十，天衍四九，人遁其一……",
+			say = "Of paths fiftyfold, only forty-nine may be divined. The hidden truth is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……有了。",
+			say = "...I've got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "港区的人工淡水湖里，今天会有不错的大鱼哦。",
+			say = "You can catch good fish at the port's freshwater lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,19 +980,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "寰昌说完，朝我眨了下眼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_157",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（咦，这不是前些日子和寰昌一起钓鱼的那个地方……？）",
+			say = "For some reason, she shoots me a glance when she says that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +992,19 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来她是想钓鱼了么……）",
+			say = "(Hm? Is she talking about the same freshwater lake where we went fishing the other day?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_157",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Does she want to fish some more?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "真、真的吗！",
+			say = "Really?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1036,7 +1036,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "太好了！我们这就出发吧！",
+			say = "Hooray! Let's get going, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1063,7 +1063,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我也随你们一起去吧。",
+			say = "I'll come with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然是卜算出的结果，对那里的食材，我也稍微来了些兴致呢——",
+			say = "Since the bagua pointed us there, now I'm curious to see what ingredients we'll get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

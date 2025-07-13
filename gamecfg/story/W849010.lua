@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海面上出现复数了实验场机关。通过观察光点亮起的顺序，按照顺序解除机关吧。",
+			say = "Let’s send our fleets through in the same pattern as the lights flashing on the device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "注意，海域中的黄色区域仅可正常触发一次，重复触发将导致舰队返回起始点。",
+			say = "We can only pass over the yellow tiles once. If we do it a second time, we’ll be sent back to the entry point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队需要在不重复触发任意黄色区域的情况下，一次性将所有黄色区域和实验场机关全部触发。",
+			say = "We need to work out a route that takes us over every yellow tile only once, in the correct order, and also flip all the switches along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

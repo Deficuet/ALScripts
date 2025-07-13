@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：8。",
+			say = "The battle has concluded. Control of Siren node has been seized.There are 8 Siren nodes remaining in this zone. Proceed to the next node.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

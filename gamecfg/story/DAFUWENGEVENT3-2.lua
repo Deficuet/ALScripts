@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "带领走丢的哈曼找到了约克城，获得了奖励【心智单元*50】"
+			say = "You found Shiratsuyu when she'd gotten lost! Collect 10 Boiled Dumplings!"
 		}
 	}
 }

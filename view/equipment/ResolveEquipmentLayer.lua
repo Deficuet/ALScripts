@@ -211,11 +211,8 @@ function var_0_0.OnResolveEquipDone(arg_24_0)
 
 		for iter_24_2, iter_24_3 in ipairs(arg_24_0.equipmentVOs) do
 			local var_24_3 = Clone(iter_24_3)
-			local var_24_4 = iter_24_3.count - var_24_1(iter_24_3.id)
 
-			if var_24_4 > 0 then
-				var_24_3.count = var_24_4
-
+			if iter_24_3.count - var_24_1(iter_24_3.id) > 0 then
 				table.insert(var_24_2, var_24_3)
 			end
 		end

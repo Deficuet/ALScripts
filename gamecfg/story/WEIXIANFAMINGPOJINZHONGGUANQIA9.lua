@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "在美味的甜点和红茶的香气之中，菈菈一行人讲述了很多关于自己世界的事。",
+			say = "The girls talked about Planet Deviluke over delicious tea and snacks.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……真是些有趣的事。",
+			say = "Heehee... What interesting things I've learned today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心吧，本王还有港区会竭尽全力帮助你们的。",
+			say = "Well, don't you worry. The port and I will do our very best to help you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那个，我有一个问题，伊丽莎白小姐。你刚才一直提到的“港区”是什么？",
+			say = "Say, Miss Elizabeth? When you say \"the port\" will help, what exactly do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果说本王是诸位在此处的后盾，那么港区就是本王的后盾。",
+			say = "I suppose you could say... While I support you, I am also receiving support from elsewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "菈菈小姐。本王记得你刚才说，只要收集到足够的能量石你们就能回去？",
+			say = "Incidentally, Lala, I believe you said that you'd be able to go home if you gathered enough Energy Stones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯！没错！",
+			say = "Yep~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "我在修复港口的时候发现……制作这些能量石的素材，本来就是维持超级游戏制作机正常运作的能源。",
+			say = "I noticed something when I was fixing up the base. The Energy Stone is made out of the same material as Questy MacGuffin's power source~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "可能因为我的设定，或者是其它的某些原因……",
+			say = "I dunno if it's just how I set it up, or if there's another reason...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "能源变成了这种能量石的形式，被转移到了复制体的体内，这也导致了超级游戏制作机的异常。",
+			say = "But energy condensed into an Energy Stone and went into the doppelganger. That might be why Questy went haywire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "难道说，本来的游戏或许是要把我们送到一个陌生的世界，并在那里制造敌人，给我们提供冒险的体验……",
+			say = "So Questy's original game was to send us into an unfamiliar world, generate enemies, and give us an adventure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "但是超级游戏制作机在跨越世界和制造敌人的时候就把所有能量都用光了……所以才导致了异常状态？",
+			say = "But it used up all of its energy sending us here and making enemies, so it started malfunctioning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "听着倒是有点道理啊……",
+			say = "Ooh! This is starting to make some sense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这，这种情况也不是不可能啦，啊哈哈……",
+			say = "Th-that might be possible... H-haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……嗯~本王大概了解情况了。",
+			say = "Hmm... I think I've grasped the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "菈菈小姐所掌握的科技和能源，应该更谨慎对待。",
+			say = "In that case, we must be more cautious with Lala's technology and said \"energy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果放任不管的话，那些复制体身上的能量石……如果被我们的敌人所用，也会产生难以预料的新威胁。",
+			say = "If left unchecked, the doppelgangers' Energy Stones could fall into enemy hands and become an even greater threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝法，港区那边怎么说，支援舰队什么时候到？",
+			say = "Bel, when will the reinforcements from port arrive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，我们和港区的通讯中断了。",
+			say = "Your Majesty... I'm afraid our communication link with port has been severed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "……嗯？中断了？难道是港区也遭受袭击了么？",
+			say = "Severed...? Is the enemy attacking there, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝无可能。",
+			say = "No, that's patently impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该是由于诸位在海域中带来的异常现象，这片海域被封锁了。",
+			say = "It's more likely that the abnormal phenomena you've brought into this world have isolated this region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过本王不确定，但这件事眼下不重要。",
+			say = "...But now isn't the time to worry about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然暂时和港区联系不上，本王就用调动港口周边的驻防舰队协助我们好了。",
+			say = "If there's no way to communicate with port, then we'll simply have to mobilize the forces garrisoned nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "真的吗？！太感谢你了！伊丽莎白~！",
+			say = "Really?! Thanks, Elizabeth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐大人，冷静一点。",
+			say = "Lala, please. Calm yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "啊， 抱歉抱歉，我太高兴了。",
+			say = "Oh, sorry~ I was just a little excited...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "太好了……",
+			say = "Umm, so... Things are going to be okay, as I understand it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "非常感谢您。",
+			say = "Thank you so much for all of your help, Miss Elizabeth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~不必客气，助人为乐一直是本王的美德。",
+			say = "Heehee~ Don't mention it! Selflessness is a well-known virtue of mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "对了，为了能更快找到能量石，我刚才特意做了一个方便寻找能量石的装置！",
+			say = "By the way, I made this to help us find the Energy Stones faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "说着，菈菈从口袋里掏出了一个造型奇特的天线状装置。",
+			say = "Lala took an oddly-shaped antenna out of her pocket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "只要把它安装到超级游戏制作机上面，就能探测到能量石所在的大概方位了哦~",
+			say = "If I attach this to Questy, it'll show us the general location of each stone~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "少女说着将天线装到了超级游戏制作机上。",
+			say = "She attached the antenna to Questy MacGuffin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "在她的调试下，超级游戏制作机发出一阵奇异的波动。",
+			say = "Questy emitted a few radar-like waves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "接着在它的屏幕上，显示出了一些闪烁的光点。",
+			say = "...And several flashing dots appeared on the screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "可以了！那些光点的位置，应该就是能量石反应强烈的地方。",
+			say = "It worked! These dots show the places with the strongest Energy Stone reactions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝尔法斯特，去调动舰队吧。",
+			say = "Bel, have the fleet prepare to sortie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，陛下。",
+			say = "It will be done, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位稍等片刻，等贝法安排妥当之后，我们也出发~",
+			say = "Just you wait, girls! As soon as they're ready, we're weighing anchor, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

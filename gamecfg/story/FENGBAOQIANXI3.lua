@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "level02",
 			dir = 1,
-			say = "哎嘿嘿，货物平稳送达~",
+			say = "Phew... We all made it in one piece...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "大家护航辛苦了",
+			say = "That you did. Job well done getting those ships back to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "咦，孟菲斯？你不是留在司令部进行会议准备么",
+			say = "Memphis? I thought you were preparing for a meeting?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "为了筹备会议嘛...物资调配，布防调整的资料报告，人员联络的事项...要准备的工作像山一样多！",
+			say = "Among other things... I've got goods to relocate, strategic documents to draft, and messages to relay... Basically, up to my neck in paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在司令部又人手紧张，我就只好过来顶一下啦...我的周末啊...咳咳，失态了！",
+			say = "Note to self: never tempt fate again by telling people about your weekend vacation plans... Oh, did I say that out loud?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，不用这么拘谨，你们也辛苦了。",
+			say = "Sounds stressful. Wouldn't want to be in your shoes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "企业，按照原计划你们要与冲突海域的克利夫兰舰合流，之后前往护卫指挥官的舰队对吧？",
+			say = "Have to get through it somehow. Anyway, you three are going to group up with Cleveland's fleet and head out on a mission, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！接下就要去和克利夫兰姐姐的舰队汇合了！",
+			say = "Eyup! Groupin' up and headin' out, that's the plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，确实是。",
+			say = "What she said. Why do you ask? Did something happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那之后的计划可能要变动一下了，这里有一份司令部下达的特别作战计划",
+			say = "Actually, yes: your AO has changed. The higher-ups have ordered you to go on a special mission instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别作战计划...？没听说过啊",
+			say = "A special mission...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "关于护航舰队，司令部已经与指挥官重新进行了安排，请不用担心。",
+			say = "I've already informed the Commander about it, so consider that done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "其它情况我也不是很清楚，总之先看一下文件吧",
+			say = "Here, this mission briefing outlines your orders. Read it later when you have time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "如果要进入危险区域作战的话，一定要注意装备保养和物资补给哟",
+			say = "The mission is in Siren-occupied waters, so prepare yourselves accordingly. If you need to, contact me by radio...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的孟菲斯比往常还要热情啊...",
+			say = "Gotta say, I'm really impressed by your dedication today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别热情...么？",
+			say = "Dedication? That's just the coffee doing the talking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "呼呼，可能是受到热烈气氛的调动，我不知不觉中鼓起精神了吧~",
+			say = "Either that, or all this paperwork is driving me crazy and I'm just ecstatic to catch a break from it. Dunno really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			actor = 102160,
 			dir = 1,
-			say = "那么，司令部的指令就算传达完毕，我还有别的工作要做就先失陪了。",
+			say = "Anyway... that should be everything you need to know. Now, if you'll excuse me, I need to move on to the next task at hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，工作加油哦",
+			say = "Thanks, Memphis. Hope your work goes well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...根据作战计划，我们需要前往塞壬威胁等级4的海域执行侦察任务",
+			say = "Let's see... Recon mission in an AO with a STAR rating of 4... Interesting...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请大家充分检查装备和补给情况，整备结束后就出发。",
+			say = "All right, everyone. Inspect your gear and restock on supplies and ammo. Soon as everyone's done, we'll sortie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "装备和补给呐...顺便也给克利夫兰姐姐带点补给好了~",
+			say = "Gotcha, Enty! I'll just need to find a gift for Cleve real quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得附近的特产----",
+			say = "There's that gift shop we went by earlier. Might be worth a look...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actorName = "？？？",
 			stopbgm = true,
 			dir = 1,
-			say = "呵呵呵~一路小心哦",
+			say = "Heh heh heh... Let's hope you have a \"pleasant\" voyage...",
 			flashout = {
 				black = true,
 				dur = 0.5,

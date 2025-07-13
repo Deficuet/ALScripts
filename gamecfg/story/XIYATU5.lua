@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>五　惊喜是派对的灵魂！</size>",
+					"A Party for the Ages\n\n<size=45>5.Setting the Scene</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "傍晚，白鹰休息室门前——",
+			say = "We arrive at the Eagle Union dorm to look for a set piece for the party.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "呼……花了一整天时间跑遍港区，终于只剩下最后一个阵营了！",
+			say = "Whew... We've been all over the place today. Hope this'll be our final stop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看你的表情，好像是在好奇我为什么要把白鹰放在最后？",
+			say = "I know that look. You're wondering why we're checking this place out last, am I right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "\"Because you're from the Eagle Union yourself?\"",
 					flag = 1
 				}
 			}
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "因为留到最后的，往往是最惊喜的！",
+			say = "I guess that's part of it, but it's mainly 'cause the party's gotta have a surprise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "我觉得发出邀请本身也是派对惊喜的一环，这样的惊喜，自然也要留给白鹰的同伴们！",
+			say = "To keep the surprise, y'know, a surprise, it's gotta stay a secret from the other factions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "啊，说到惊喜，这也是需要白鹰的大家才能准备的派对环节，也就是白鹰式的派对惊喜~",
+			say = "The Eagle Union's our best option in this case, since we're the ones hosting the event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是不可或缺的环节，就像东煌那个词……对，画龙点睛！",
+			say = "A party without a surprise is like a cake without icing, see. Still good, but could be better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "没有准备小惊喜的派对，就像是没菠萝的披萨一样无趣，自然也就热闹不起来了！",
+			say = "And when it comes to surprises, nobody does them better than the Eagle Union!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "这个的意思是，要有能准备惊喜的人么。",
+			say = "\"Let me guess – we're going to recruit the master of surprises herself?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，指挥官你已经理解到我的思路了。",
+			say = "Exactamundo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "我们这里最会准备派对惊喜的，莫过于——",
+			say = "They say if you look in the mirror and say her name three times, she'll–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "——嘭！",
+			say = "\"––Whuuaah?!\"",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "Surprise！有吓到了吗！",
+			say = "Surpriiiiiiise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "在西雅图推开休息室正门的瞬间，礼炮声从上方爆响开来。",
+			say = "As soon as we step into the dorm's common lounge, a firecracker goes off above our heads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "伴随着垂落的丝带一同落下的，还有一个敏捷的身影。",
+			say = "And in a shower of ribbons and confetti, the queen of pranks herself appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎，指挥官还有西雅图，今天听说你们在到处拜访哦！算时间也该来这里了~",
+			say = "Here I am! I knew you two were coming, so I stayed hidden, lying in wait~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "嘿嘿，出其不意的礼炮，果然是永恒的小惊喜主题呢！",
+			say = "Gotcha good, huh? The ol' firecracker freakout is simple, but effective.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,11 +392,11 @@ return {
 			},
 			options = {
 				{
-					content = "我明白你的意思了……",
+					content = "\"For god's sake, Albacore!\"",
 					flag = 1
 				},
 				{
-					content = "这就是你要找的惊喜大师？",
+					content = "\"Must we go with her?\"",
 					flag = 2
 				}
 			},
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这位惊喜大师就在我们身边。",
+			say = "Haha, not every day I get to see you make a face like that, Commander... Attagirl, Albacore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要策划一个真正的惊喜，不光是要出奇的创意，还得要周密的计算才行。",
+			say = "If you wanna create a REAL surprise, you need someone with both the creativity and the drive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "大青花鱼她是最适合的人选~",
+			say = "Nobody's better suited for this job than her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，相信我，不会有比她更合适的人选了！",
+			say = "I mean, she's the best girl for the job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要知道，想策划一个真正的惊喜，也必须要进行缜密的准备才行。",
+			say = "If you wanna create a REAL surprise, you need someone with both the creativity and the drive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "在这方面，大青花鱼是大师中的大师哦！",
+			say = "After all, she's the master of surprises, the queen of pranks! Who else could be better for the job than her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "不得不说，西雅图的理论让人大开眼界——",
+			say = "\"That's true. You won't find anyone else as skilled at her craft.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "咦？在说什么谜语呢？和我有关？",
+			say = "Whatcha whispering about? Me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "感觉是超有趣的事件，别卖关子了，让我也听听！",
+			say = "Come on, speak up! I wanna hear it~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "原来如此，派对惊喜可是我们的拿手绝活~",
+			say = "A set piece for your party? Sounds right up my alley!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家听到了吗？",
+			say = "All our alleys, even! What do you girls think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听起来超有趣！",
+			say = "As long as I get to fire torpedoes, heck yeah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108040,
-			say = "参加，当然参加！",
+			say = "I'm in if the rest of you are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108030,
-			say = "派对！五颜六色的气球、五颜六色的花，还有五颜六色的好吃的东西！",
+			say = "A party with colorful balloons, flowers, and food? Sign me up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "纸箱下、橱柜里、天花板上……休息室在一瞬间就热闹了起来。",
+			say = "The empty lounge suddenly erupts with cheering as submarines burst out of hiding from cardboard boxes, from the ceiling, and even from under the couch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "哦……！这下就连我都惊讶到了……",
+			say = "Whoa! All this time you had another surprise up your sleeve!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，邀请你们是不会错的！那就把你们都算上~期待你们的表现哦~",
+			say = "Anyone who wants to help is totally welcome to. Can't wait to see what you girls come up with!",
 			painting = {
 				alpha = 0.3,
 				time = 1

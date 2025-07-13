@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION91",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION91",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "……{dorm3d}？",
+			say = "……主人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +19,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "就算天狼星的料理水平再怎么不尽如人意，也绝对不会用微波炉泡茶的！",
+			say = "就算Sirius的料理水平再怎么不尽如人意，也绝对不会用微波炉泡茶的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +156,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "开个玩笑而已，不过没想到天狼星的反应意外地有趣……",
+			say = "开个玩笑而已，不过没想到Sirius的反应意外地有趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +166,7 @@ return {
 			actorName = 20220,
 			nameColor = "#FFFFFF",
 			optionFlag = 2,
-			say = "其它任何事都可以，唯独在这件事上，请恕天狼星无法妥协。",
+			say = "其它任何事都可以，唯独在这件事上，请恕Sirius无法妥协。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +203,7 @@ return {
 			},
 			options = {
 				{
-					content = "天狼星的反应好有趣",
+					content = "Sirius的反应好有趣",
 					flag = 1
 				}
 			}
@@ -214,7 +211,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "欸？原来您是在和天狼星开玩笑啊……",
+			say = "欸？原来您是在和Sirius开玩笑啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

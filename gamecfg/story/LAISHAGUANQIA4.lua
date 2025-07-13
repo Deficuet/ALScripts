@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -42,8 +42,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "哼哼哼♪~哼哼哼♪~",
+			actorName = "Purity",
+			say = "Hum-dee-dum~♫",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝的心情，看上去很不错啊。",
+			say = "You're in awfully high spirits.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,8 +76,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "那是自然~~既然已经解决了测试者，那就意味着——这片海域的资源都归我了！",
+			actorName = "Purity",
+			say = "Duh, I'm in an awesome mood! 'Cause I just smoked Tester, and now this place's resources are all mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,8 +104,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "剩下的事情交给回收程序就好。在回收完成之前，我们可以好好休息一下~",
+			actorName = "Purity",
+			say = "I just gotta make the salvage program handle the rest... There! Now, we can kick back until the recycling process is all done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那妾身在这里的事情就算结束了。汝快承担起那1%的责任，送妾身回去吧。",
+			say = "Then is my job here done? I expect you to make up for your \"1% of the blame\" and send me back from whence I came.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,8 +138,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "当然当然~不过在那之前……为了之后来的人的安全，这片海域总还是要做些特殊处理才好。",
+			actorName = "Purity",
+			say = "Yeah, yeah, cool it. I'm gonna have to work my magic on this sea so it'll be safer for your five buddies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,8 +156,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "让我先看一下测试者的数据库哦，原本它为这次实验准备的内容是……",
+			actorName = "Purity",
+			say = "Might as well take a look at Tester's database. Let's see here… What did she prepare for this experiment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,8 +174,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "………遗迹……菲尔弗萨………异界…………炼金术…………嗯？",
+			actorName = "Purity",
+			say = "Ruins, Philuscha, another world, alchemy... Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,8 +191,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "嚯嚯嚯…………我有想法了。反正要修安全区，不如我们把整片海域变成遗迹群岛怎么样？",
+			actorName = "Purity",
+			say = "Heheh... I've got a heck of an idea. Since we have to recycle this whole place regardless, why not just turn everything into a bunch of ruins?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……敢问汝在得出这个结论之前，进行了何种思考？",
+			say = "...I have to wonder what train of thought led to that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,8 +235,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "你想啊，接下来要来的人原本应该会遇到测试者设下的各种机关障碍，可那些东西都被我们清理掉了。",
+			actorName = "Purity",
+			say = "I mean, your buddies were gonna run into Tester's stupid traps. But we broke 'em all, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,8 +253,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "如果我们什么准备都不做的话，等她们来的时候看到的将会是只有一座传送门的空白海域。",
+			actorName = "Purity",
+			say = "So if we leave without doing anything, they're just gonna arrive at an empty patch of water with a portal sitting in the middle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,8 +270,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "难得有这种前往异世界的机会，结果就这么直接回去，是不是也太令人遗憾了？",
+			actorName = "Purity",
+			say = "That's too boring! They're going to another world, for goodness' sake!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,8 +298,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "来都来了，不如我们来负起责任修一些相对安全的遗迹，让她们冒险一番再走好了~",
+			actorName = "Purity",
+			say = "So I'm thinking, how about we make some safe ruins for them to explore before sending them off?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,8 +316,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "反正这里是现成的战场，废墟和残骸要多少有多少！怎么样，这个主意还不错吧？",
+			actorName = "Purity",
+			say = "Fortunately, we just happen to have kicked a whole lot of butt around here. There's plenty of destruction and remains to go around. Pretty sick idea, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在妾身的见闻中，总是宏伟的建筑随着时间流逝而变成废墟，直接修建废墟的人，还真是少见……",
+			say = "...I've watched the finest of buildings succumb to ruin with the passage of time, but never have I witnessed someone attempting to create ruins themselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身要是说“不好”呢？",
+			say = "Incidentally, what would you do if I were to refuse?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,8 +368,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "那就是你不太有眼光，没法理解本净化亲天才一般跳跃的想法！",
+			actorName = "Purity",
+			say = "That would just mean you're too lame to recognize the genius of the great Purity's plans!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,8 +395,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "我们现在做的遗迹不光是为了有趣，更是一种一起冒险过、一起并肩战斗过的痕迹不是么？",
+			actorName = "Purity",
+			say = "Besides, making these ruins isn't just for fun. It'll be proof that we fought side by side and had an awesome adventure together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……一同冒险过，存在过的痕迹啊……既然如此，随便你了。",
+			say = "Proof of our adventure, hm? That makes sense. I suppose I have no reason to stop you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "遗迹群岛·起始之地 此刻",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
 			typewriter = {
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "进行了充分的休息后，众人正在分析当前所处的海域情报——",
+			say = "Now fed and rested, the girls set out to gather information about the place they found themselves in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 207050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海域的侦查已经结束了哦。结果显示，这片群岛由四个大的岛屿组成。",
+			say = "My aerial survey is finished. It would appear we are on an archipelago made up of four large islands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "除了塞壬防御严密无法仔细侦查的北方要塞岛之外，其他三个分别是我们现在所在的，有着大量石质结构残骸的中心岛。",
+			say = "Unfortunately, I couldn't get a closer look on the northern island as it's home to strong Siren defences. I have more details on the remaining three, however. This island we're on is littered with the ruins of stone buildings...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			actor = 207050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一片由紫色森林笼罩的西方岛，以及一片被钢铁都市废墟所覆盖的东方岛。碑文的解读怎么样？",
+			say = "The island to the west is shrouded in purple woodlands, and the last island to the east seems to be dotted with metallic city ruins. Miss Ryza, have you managed to decipher that stone monument?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碑文上的内容虽然有岁月侵蚀的痕迹，不过内容是完整的，总算是解读下来了！",
+			say = "I've figured out the gist of it. It looks pretty ancient, but the text is just barely legible.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "总结一下就是说，遗迹群岛由五个岛构成，中心是我们现在的位置，而这座刻有碑文的石碑可以指引我们前进的方向。",
+			say = "Basically, there are five islands in this archipelago, and the island we're on lies in the center. There's also a few hints that tell us what we have to do.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -555,7 +555,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首先 ，在这五个岛上好像有一些配方，获得之后可以得到新的力量。这个配方可能就是炼金术的配方呢。",
+			say = "First, we have to find hidden recipes, presumably alchemy recipes, spread out across the islands. Apparently we'll get new powers if we do that.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -573,7 +573,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时，在五个岛上还藏有四把钥匙，收集四把钥匙可以打开一个地方的壁障。",
+			say = "There are also four keys we have to gather. It says they'll be needed to break through a barrier somewhere.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -591,7 +591,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后是…北方的核心之所，也就是归乡希望的封印所在的地方，只要到达那里我们就能回家了吧？",
+			say = "Finally, there's one island to the north called the \"Central Foundation,\" which apparently is our way back home.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你们看，有一把钥匙就这样直接放在石碑的正下方哦，我们已经不费吹灰之力达成四分之一的进度了~",
+			say = "That's good to– Hey, there's a key right under the monument! We get a freebie!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			side = 2,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "获得道具：「遗迹之钥·起始之地」",
+			say = "Item obtained: Land of Beginnings Key",
 			icon = {
 				scale = 1.5,
 				image = "Props/ryza_item_28-1",
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过可畏，你的侦察确定没错么？莱莎刚说石碑上写了有五个岛，你只看到了四个岛哦。",
+			say = "Also, Formidable, are you SURE you surveyed everything? You said there are four islands, while the monument says there are five, according to Ryza.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "这一点确实很奇怪，但是侦察的结果绝对没错，也许塞壬在海域里还有什么机关吧。",
+			say = "That is strange, yes, but I can assure you I was thorough. If I had to hazard a guess, the fifth island is likely concealed by some Siren technology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "嗯嗯嗯……这样也和“失落之都”的描述对上了。而且从碑文上来看，这个失落之都里可是隐藏着宝藏哦！",
+			say = "Hmm... Based on your description, I think that's where the \"Desolate Capital\" is. There's treasure there, so why else would they hide it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我已经忍不住要开始遗迹探险了！让我们先去寻找这个失落之都吧！",
+			say = "I say we head there and try to find it. I'm dying to investigate some ruins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "等等！我对于那个“争斗之城”很有兴趣，里面隐藏着往昔的残酷真相哦，你们难道不好奇么！",
+			say = "Hold your horses! I wanna check out the Castle of Strife first. Doesn't that \"where the brutal truth lay buried\" part sound interesting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "当然是宝藏的部分最令人在意！",
+			say = "Are you kidding me? Treasure sounds way more interesting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不，真相的部分才最令人在意！",
+			say = "The truth matters more than riches!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家好像对于探索的方向产生分歧了呢……",
+			say = "We have a conflict of opinions, I see...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -821,7 +821,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "不对不对，布里斯托尔阁下，阿尔弗雷多阁下，炼金术的部分才最让人在意吧！",
+			say = "Bristol, Alfredo, let's all calm down here! After all, isn't the prospect of seeing real-life alchemy the most exciting thing of all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊！确实……莱莎好像从最开始就称自己是炼金术士，刚才在战斗中还用了一些夸张的爆炸物！",
+			say = "Hey, that reminds me... Ryza mentioned something about alchemy when we met her, and she used some weird bombs in that last battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些都是用炼金术制作的道具哦~如各位所见，我，莱莎琳・斯托特可是一名如假包换的炼金术士！哎嘿~",
+			say = "I made those myself using alchemy. It's what I do, 'cause I'm a real, honest-to-goodness alchemist!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -884,7 +884,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……总感觉这句话好像之前说过了。不过如果不亲眼看一下的话，果然还是很难相信吧？",
+			say = "...Right, I said that earlier. I guess it does sound ridiculous if you haven't seen it with your own eyes...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -902,7 +902,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎，刚刚我们找到的那口大锅，那个是不是可以用来进行调合呢？",
+			say = "Then why don't you give them a demonstration with the cauldron we found?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -920,7 +920,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~我倒是想露一手试试啦，不过手头没有可以用来调合的素材呢。",
+			say = "Well, I'd totally love to, but I don't have any materials on me.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "没关系！素材的话，你说需要的物品，我们来帮你一起收集就好！",
+			say = "In that case, just tell us what you need and we'll help you find them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的么？！不过这片区域有哪些东西可以作为素材我现在还不是很清楚，能拜托大家先跟我一起去侦察一下么？",
+			say = "You will? Awesome! Having that said, this place is completely foreign to me, so I also have no idea what kind of alchemy materials we can find here. Could you all take a look around first?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -975,7 +975,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "当然没问题，同伴之间理应相互帮忙，而且我对于炼金术其实也十分感兴趣。",
+			say = "Of course, anything to help a friend. I, too, would like to see this alchemy in action.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -992,7 +992,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢！那事不宜迟，大家先跟我一起来探索一下这片位于海域中心的“起始之地”吧~！",
+			say = "Thanks! Okay, let's see what there is to find in this \"Land of Beginnings!\"",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

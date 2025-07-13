@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION6",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说起来，似乎存在这样的刻板印象呢……像“皇家的人都会喜欢茶会”之类的。",
+			say = "I take it you're aware of the stereotype that everyone from the Royal Islands loves tea parties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以，天狼星喜欢茶会吗？",
+			say = "Do YOU like them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +60,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我吗……硬要说的话，可能会更喜欢负责茶会的警备工作之类的？",
+			say = "If I had to say, I think I like being the security at a tea party more than the tea party itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +72,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星更想去成为守护这种平和、悠闲时光的人呢。",
+			say = "I want to be the one who protects the tranquility and calm of moments such as those.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

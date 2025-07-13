@@ -7,11 +7,29 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
-			side = 2,
-			dir = 1,
 			blackBg = true,
-			say = "北方联合某处·？？？ ",
+			side = 2,
+			say = "Somewhere in the Northern Parliament... ",
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "bgm-cccp2",
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,10 +40,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 705050,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "接受了苏维埃罗西亚的请求，在北方联合多待了一阵子…",
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "I'm glad you decided to stay with us for a bit longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +62,9 @@ return {
 			bgName = "bg_cccp_8",
 			actor = 701020,
 			dir = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
-			say = "…指挥官同志，外面虽然很冷，不过到屋里来就没问题了。热可可，要喝么？还是要…罗宋汤？",
+			say = "Hehe... Commander, it's cold outside, but warm in here. Want some hot chocolate?",
 			effects = {
 				{
 					active = true,
@@ -59,10 +81,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "北方联合的气候，真的很寒冷啊…",
+			dir = 1,
+			blackBg = true,
+			say = "It really is cold here in the Northern Parliament...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,8 +101,9 @@ return {
 			bgName = "bg_cccp_8",
 			actor = 702020,
 			dir = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
-			say = "指挥官别客气，虽然品种上不如白鹰的丰富，不过味道上我可是很自信的哦~",
+			say = "We might not have as much variety as you do in the Eagle Union, but I can assure you, the taste is unbeatable~",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -112,8 +136,9 @@ return {
 			bgName = "bg_cccp_8",
 			actor = 702020,
 			dir = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嗯？你在想什么呢，当然不是我做的啦！",
+			say = "What are you fantasizing about? Of course it wasn't I who made this for you~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,10 +149,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "北方联合的料理，果然还是挺棒的",
+			dir = 1,
+			blackBg = true,
+			say = "The food here was undoubtedly delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +169,9 @@ return {
 			bgName = "bg_cccp_8",
 			actor = 702030,
 			dir = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
-			say = "数十年来我们和塞壬之间的战斗从未中断，来自皇家和白鹰的援助还是十分有必要的呢。",
+			say = "Indeed. The fight against the Sirens is only going to escalate and get drawn out from here, so we'll continue to request aid from the other factions.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -172,10 +199,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "持续数十年的拉锯战…就算这样，北方联合依然在顽强地坚持着…",
+			dir = 1,
+			blackBg = true,
+			say = "The war between the Sirens and the Northern Parliament continues. Nevertheless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +219,8 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同志酱，这里就是回港之后，塔什干和伙伴们休息的地方。",
+			blackBg = true,
+			say = "This is where Tashkent and company go to relax.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -224,8 +253,9 @@ return {
 			bgName = "bg_cccp_8",
 			actor = 701040,
 			dir = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很壮观？…这样。坐下，然后和塔什干聊聊外面的事情吧。",
+			say = "Pretty nice scenery, right? ...Right. Come on, take a seat. Let's have a chat, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,10 +266,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "这里是…北方联合的住宅区？！宏伟的住宅楼简直像大厦一样…",
+			dir = 1,
+			blackBg = true,
+			say = "I was guided to the roof of a khrushchyovka, a tall building overlooking the city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "这几天，在北方联合被热情的邀请参观了很多地方啊…",
+			say = "The members of the Northern Parliament introduced me to a variety of different places.",
 			effects = {
 				{
 					active = false,
@@ -273,7 +304,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "到处充满着强大的凝聚力和必胜的信心，与白鹰皇家的氛围都不同，有种奇妙的感觉。",
+			say = "The whole experience was different from what I had experienced anywhere else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "而今天，则是受到邀请，在苏维埃罗西亚的陪同下与北方联合某位很重要的人会面——",
+			say = "And today, Sovetskaya Rossiya would take me to meet a certain \"important person\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +334,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…关于指挥官的数据报告、吗",
+			say = "\"We've received your reports and data.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -336,7 +367,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "如此独特的心智魔方适应性…果然还是应该——",
+			say = "\"Wisdom cube compatibility, commanding ability, personality, political assessment... everything has been reviewed...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（敲门声）",
+			say = "——！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +397,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "…来了吗？",
+			say = "\"Are they here?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +413,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，就是这里了，请进",
+			say = "Comrade, this way please.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -413,7 +444,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "明媚的阳光突然突然从敞开的大门中涌入昏暗的走道，覆盖了整个视野。",
+			say = "Light poured into the room from the window.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -442,7 +473,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "眼睛逐渐适应后，一位身穿白色长袍的女性出现在视野中。",
+			say = "When my eyes adjusted, I saw a woman clad in white standing inside the room, her garb resembling that of the other members of the Northern Parliament fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +487,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_white",
-			say = "她放下手中的书，清澈而坚定地目光向这边看来。",
+			say = "The deliberate and dignified words she spoke seemed to echo directly into my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +504,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "来加入北方联合吧，指挥官同志！",
+			say = "\"Commander, would you join the Northern Parliament?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

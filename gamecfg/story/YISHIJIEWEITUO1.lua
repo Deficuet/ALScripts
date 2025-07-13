@@ -9,7 +9,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "接到王国军的委托前来修缮守望长城。",
+			say = "The Royal Army asked for help with repairing the wall at Sentinel Bastion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "随着小队成员的不懈努力，城墙缺口正在逐渐变小！",
+			say = "Everyone worked together and made the hole in the wall that much smaller!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "可以获取委托奖励了！",
+			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

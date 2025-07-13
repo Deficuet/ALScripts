@@ -6,7 +6,7 @@ return {
 			actor = 900007,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "全舰立刻将目标切换至尾舰，尾舰才是{namecode:435}！",
+			say = "All ships, focus fire on the ship hiding in the back. That's Bismarck, our target!",
 			shake = {
 				speed = 2,
 				number = 3
@@ -24,8 +24,7 @@ return {
 			actor = 900009,
 			nameColor = "#ff0000",
 			side = 1,
-			actorAlpha = 0,
-			say = "哎呀哎呀，被发现了=w=不愧是英王乔治五世呢",
+			say = "We've been figured out... To be expected from King George V, I suppose...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -35,7 +34,7 @@ return {
 				speedUp = 0.01
 			},
 			painting = {
-				alpha = 0,
+				alpha = 0.3,
 				time = 0.5
 			}
 		},
@@ -43,7 +42,7 @@ return {
 			actor = 900007,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "对不起，我是威尔士亲王号，你们可是也认错人了哦",
+			say = "Excuse me, but I'm Prince of Wales... You've mistaken me for someone else.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -61,8 +60,7 @@ return {
 			actor = 900009,
 			nameColor = "#ff0000",
 			side = 1,
-			actorAlpha = 0,
-			say = "哎呀呀不管啦，波斯猫酱，人家都替你抗了那么久了，你也该发挥一下实力了吧！",
+			say = "Who cares, all you sisters look the same to me. Let's see what you've got!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -80,7 +78,7 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			side = 2,
-			say = "辛苦你了，看来这场战斗已经是没法避免了，Jot Dora！",
+			say = "Well, it seems like a fight is inevitable. Jot Dora!",
 			shake = {
 				speed = 1,
 				number = 3

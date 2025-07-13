@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=45>三 姐妹？</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 3 - Sisters?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "现在·港区",
+			say = "Port - Present",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "受到照射的心智魔方反射出了更耀眼的光喵！",
+			say = "The prismatic light dancing from the irradiated Wisdom Cube was spectacular, nya!",
 			action = {
 				{
 					number = 1,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "当贝尔法斯特被光线直射的时候，一时还慌了神喵…",
+			say = "Belfast did take a direct hit from the beam, that was indeed a concern, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "不过出现异状的却是另一边喵…",
+			say = "But on the other hand, the results were...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另一边？",
+			say = "On the other hand?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "原本固定在那里的心智魔方不见了喵！",
+			say = "The Wisdom Cube we were testing just disappeared, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "然后出现的就是这孩子了喵…",
+			say = "And this little kid appeared in its place, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，贝尔法斯特姐姐大人也来了",
+			say = "Oh, my sister Madam Belfast is here too.",
 			action = {
 				{
 					number = 1,
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来你们在这里，贵安，殿下、厌战",
+			say = "Here you are. Good day, Your Majesty, Madam Warspite.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也来啦～小贝法原来在这里呀～来来快让姐姐抱抱～",
+			say = "Oh, uhhh... good day, your majesty... Come now, Little Bel, give your big sister a hug~",
 			action = {
 				{
 					type = "shake",
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱、爱丁堡姐姐…这样好难受的啦——",
+			say = "Er, Edinburgh, Dear Sister, this... hurts...",
 			action = {
 				{
 					type = "shake",
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊～～小贝法真是太可爱啦～～～",
+			say = "Awwww, you're so cute, Little Bel!",
 			action = {
 				{
 					type = "shake",
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……凡事适可而止啊，姐姐",
+			say = "Calm yourself, Dear Sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，贝法也想要来个抱抱吗～？",
+			say = "Awww, does Big Bel want a hug too~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这样看还真是三姐妹呢…",
+			say = "So... does this mean there are three sisters now...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，这孩子算是贝尔法斯特的妹妹？",
+			say = "That is to say, this child is Belfast's little sister, right?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -334,7 +334,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "这孩子开始介绍自己的时候也是用“贝尔法斯特”喵",
+			say = "When she first appeared, she introduced herself as \"Belfast,\" nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "为了防止混乱，于是就叫她“小贝法”了喵…",
+			say = "So as not to mix them up, I wanted to call her \"Bel-chan\" in the Sakura Empire way, but Yuubari reminded me she ought to have a Royal Navy name, nya. Hence \"Little Bel,\" nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们自诞生便是现在的模样，真要说起来，并没有幼时的体验…",
+			say = "I feel it needs to be said that I was born in precisely this form, having never known a childhood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过身为皇家女仆队的队长，自然要担负起培养新人的责任",
+			say = "However, it is my duty as head of the Royal Maids to instruct, raise, and nurture new recruits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会努力跟上姐姐们的脚步的！",
+			say = "I shall proudly follow in the footsteps of my older sister!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "很好！本王看好你哦！",
+			say = "Very good, then. Proceed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为姐姐的我也会好好疼爱你的～",
+			say = "And it is my duty as your big sister to love you ever so dearly~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "爱丁堡姐姐……",
+			say = "Big Sister Edinburgh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

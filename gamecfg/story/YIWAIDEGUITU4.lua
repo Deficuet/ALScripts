@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"意外的旅途\n\n<size=45>四 抉择</size>",
+					"Letters and Travels\n\n<size=45>4 Call to Arms</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "斯卡帕湾地下设施的某处，君主正像往常一样巡逻着。",
+			say = "Scapa Flow - Harbor Facility",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与斯卡帕湾外部盛大的庆典装饰相比，设施中的情况就只能用清冷来形容了。",
+			say = "Not far from the ceremony venue, there was a newly constructed building. A battleship by the name of Monarch was wandering alone through its corridors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，倒是很符合我的心情。",
+			say = "Strolling through a place without a soul in sight is strangely relaxing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到庆典活动因为塞壬的袭击终止了……",
+			say = "Seems they're going to cancel the ceremony due to a Siren air raid... What a shame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是难以理解，明明让我去前线战斗就好了。",
+			say = "I alone could have disposed of their aircraft, yet they send me here, far away from any action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么要日复一日的在这种地方训练与配合科研工作……",
+			say = "George, York, Wales, and I all swore an oath to fight for Royal Navy... So why am I not allowed to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,24 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在经过某处设施得时候，君主听到了对话的声音。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……可我一直忘不了大型作战中大家充满精神的面容……",
+			say = "She passed by a door and heard voices coming from inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,8 +151,25 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "……频率正在加大，这是你的身体状况依然在恶化的表现……",
+			actorName = "???",
+			say = "...It's no wonder you passed out and had to be carried in here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...There is no healing my wounds, is there? The Royal Navy lacks the cure Bismarck had...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么……？",
+			say = "Is that... Hood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然经过厚重的墙壁，声音传到君主耳中时已经难以分辨说话人的身份和对话的全部内容了。",
+			say = "Though the voices on the other side were muffled, Monarch could still easily make sense of their conversation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,38 +214,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但是她依然立刻明白了正在发生的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 299020,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "胡德女士，又来治疗了啊……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "熟悉的场景，熟悉的对话，以及熟悉的人。这已经不是胡德第一次造访此处了。",
+			say = "It became clear that the reason Hood was absent during the ceremony was that she was very sick, and there was no cure for her illness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +231,21 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然知道胡德女士因为身体状况恶化需要定期来这里修养。",
+			say = "Good Lord... What happened to you, Hood?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "She had seen Hood many times on the Royal Islands. It came as a shock that the very symbol of the Royal Navy's glory was mortally ill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,106 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但没想到，她的情况竟然已经恶化到这种程度了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "屋内的对话还在继续。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……我们有几处未经验证的备选坐标，虽然也有赌一把强行启动的选项……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……但是贸然前往风险未知的世界可能会因为事故导致探索队的全灭……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……因为自己的事让同伴深入险境，胡德是绝对不会同意这个方案的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……不论如何，我绝对不能允许眼睁睁的看着胡德离开我们……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
-			say = "……让我再想想，再想想…………",
+			say = "You meant to deliver a speech today, but couldn't... What's more, the Siren air raid is only a facade...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +279,106 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵……这不是还有方案么。",
+			say = "This raises the question... Why is Her Highness keeping this a secret?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "The conversation went on.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...Sending in mass-produced ships isn't an option, I'm afraid...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...Our best option currently is sending in an expedition team mainly consisting of Your Majesty's palace guard...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...Pursuing both objectives will already stretch our resources thin...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...The logistics of supplying and supporting even just one expedition team takes a huge number of people...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "???",
+			say = "...We cannot afford to lose Camelot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愿意因为自己的事让同伴深入险境？",
+			say = "Camelot... I assume that's what they call the Mirror Sea beyond the gateway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对于不曾被外界知晓，也没有被当成同伴的我来说，这不是最适合的工作么？",
+			say = "The place to where they must go and find a Black Cube, or information leading to one, or else Hood will never wake again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不论皇家如何对我，我对皇家的感情都不会改变。",
+			say = "I can understand why Her Majesty is at a loss. Those Cubes have shown to be immensely dangerous. It's wise of her to want to minimise contact with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "畏手畏脚，优柔寡断，成何体统……",
+			say = "Hmph... Then I shall be the answer to her prayers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +463,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家海军的荣耀，就让我君主来拯救吧……",
+			say = "I'll gladly put my very life on the line if it means proving to all the world that I, Monarch, am excellence itself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 299020,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I shall undertake this mission, bring the Royal Navy glory, and aid Hood in her hour of need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "屋内的对话还在继续，但是君主像是下定了什么决心一般，转身离去了。",
+			say = "Monarch left the scene with a resolve of steel in her heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

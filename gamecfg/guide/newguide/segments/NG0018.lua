@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"点击这里可以对这条动态进行点赞",
-	"点击这里可以分享这条动态",
-	"点击这里可以对这条动态进行评论"
+	"Tap here to Like this post",
+	"Tap here to Share this post",
+	"Tap here to comment on this post"
 }
 
 return {

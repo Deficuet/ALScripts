@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>『异色海域GREEN』</size>",
+					"<size=45>\"Odd-Colored Seas - GREEN\"</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "这个就是ーー{namecode:98}努力了一晚上的结果喵！",
+			say = "Here you have it... the fruits of Akashi's hard work last night, nya!",
 			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:37}",
 			dir = 1,
-			say = "呒呒呒...这话可不能当作没听见呐，明明我也在技术上有帮助的说......",
+			say = "pouts... Don't act like I didn't hear that. I helped with the technical stuff...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇ー！新装备耶！而且是我们的专属装备ー！",
+			say = "Whew! Brand spankin' new equipment! And what's more - it's super epic and exclusive to us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:98}酱，{namecode:37}酱，谢谢你们！我会好好珍惜的！",
+			say = "Akashi, Yuubari, thank you very much. I'll be sure to treasure it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喔喔！好拉风ー！这是主炮？啊，还能发射鱼雷吗！？把这些噼里啪啦一顿乱射就好了吧！",
+			say = "Wooahh! Badass! Is this a cannon? Ah this thing shoots torpedoes too! I can't wait to unload all these explosives into someone's face!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "喵喵喵！不能对着别人喵！？",
+			say = "Nya nya nya! Don't point those at other people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉抱歉！我会注意下的！",
+			say = "Sorry, sorry! I'll be more careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			actorName = "{namecode:37}",
 			dir = 1,
-			say = "舰装都是用大家的想法自由操纵的...所以只要不走神应该是不会走火的......不要炮口朝这边啊！",
+			say = "Your ship rigging can be controlled freely with just your thoughts. As long as you don't space out, there shouldn't be any risk of misfiring... Woah, don't point those guns over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这边的和涅普顿又有些不同呢，以炮塔为主。因此是重火力的型号吧......用色也挺配的，不错！",
+			say = "Mine seems to be different from Neptune's, with these main turrets. This one focuses on heavy firepower, doesn't it? The color also matches, not bad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "符合我的形象的舰装呢。以白色为基调色......这个好像是以发射鱼雷为主.....",
+			say = "This rigging fits my image nicely... it has a nice white theme. Looks like it focuses on launching torpedoes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的这个是舰载机吗？用发射舰载机战斗的舰装......这些舰载机真的好可爱，真是绝配",
+			say = "Are these carrier aircraft? And this rigging lets you launch them? What's more, these planes are adorable. It's a perfect fit for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......说来能把舰载机的样子变成可爱的女孩子嘛？",
+			say = "... Say, is it possible to make these planes into cute girls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "这个服务要另加收费喵",
+			say = "There would be an additional charge, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...贝露，到了这里也还是老样子啊",
+			say = "Vert, you're the same as ever, even over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那个那个，想把我的鱼雷换成可爱的海豚呀",
+			say = "Then, then, can I turn my torpedoes into cute dolphins?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "使用物资可以买到专用的外观装备箱喵。价格大概是这样...",
+			say = "You can purchase these exclusive equipment skin boxes. The pricing goes something like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些等下再说吧！先优先把我们的冒牌货给解决掉！",
+			say = "Save that discussion for later! Our first priority should be to take care of those clones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总之，这样我们也可以一同战斗了！向着镜面海域Let's go！",
+			say = "In short, we can all fight together now! Onwards to the Mirror Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,12 +299,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "虽然不是很清楚是为什么，但是她们还没有发挥出全力......包含了我们所不知的可能性",
+			say = "We don't quite understand the circumstances, but they have not been able to draw out their full power. There still appear to be possibilities that remain hidden from our understanding.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -335,10 +335,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "之后，适应这个次元，同时获得了新的力量......",
+			say = "Next, we must adapt to this dimension, and attain new power as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,10 +352,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼哼...比预想要更有趣起来了",
+			say = "Hehehe... Things have gotten more interesting than I originally imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,10 +369,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "真是好想看到她们蕴含的更进一步的可能性啊...... 再稍微观察一下吧",
+			say = "I want to further witness the possibilities these girls contain... Let us observe them a bit longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

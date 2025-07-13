@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>二　协助发明的发明</size>",
+					"Your Dear Inventor\n\n<size=45>2 Inventing an Invention to Invent Inventions</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "自那以后，达芬奇每一天都会非常积极地完成秘书舰的工作。",
+			say = "Since then, da Vinci has been working hard every day as my secretary, just as she said she would.",
 			bgmDelay = 2,
 			bgm = "story-richang-6",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "然后，她就会仔细阅读提交上来的各类申请书，以此获取创作的灵感。",
+			say = "After she finishes the day's work, she sits down and looks through her paperwork with a fine comb, searching for inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哈哈哈！恶毒的想法真有趣，居然希望能在港口建一间放满零食可乐的休息室！",
+			say = "...Huh. Le Malin wants to establish a lounge which provides snacks and oxy-cola for all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "何必这么麻烦？",
+			say = "Sounds like more hassle than it's worth, though. You'd still have to walk there yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "直接造一些空投零食可乐的专用无人机不就可以了嘛~",
+			say = "I've got a better idea – building custom drones that can airdrop snacks directly to people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这样在空中随手一挥，就有无人机送来零食和可乐了！",
+			say = "You could make it so you just wave your hand at a drone in the air and it'll fetch the goods for you in a minute or two!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……已经可以想象到经过剧烈摇晃的可乐在被打开的瞬间制造的惨状了。",
+			say = "\"The snacks would be fine, but cola is a volatile substance and doesn't react well to being shaken.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没问题！因为空投存在一定高度，所以无人机不会被波及！",
+			say = "Dang, you're right... There needs to be a balance between stability and convenience...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "问题的重点应该不在这里才对……？",
+			say = "I can almost hear the gears in her head turning at max RPM.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "想法有了！纸和笔呢？得马上把设计图画出来才行！",
+			say = "Wait, I've got it! Need a pen and paper! I've got to sketch this out right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就这样，在每天的工作结束前，她都能画出三、四张设计图，记录五个以上的灵感点子。",
+			say = "At the end of a day's work, da Vinci will typically have drawn three to four blueprints and sketched out five or more concepts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "呼，设计图画成这样就差不多了吧？",
+			say = "M'kay... This'll do as a rough outline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，可以麻烦你帮忙看看吗！",
+			say = "Commander, could you come here and have a look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "然后，她会将设计图端到我面前，希望得到我的反馈与建议。",
+			say = "As always, she's curious to hear what I have to say about her latest ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "刚刚递送过来的设计图上，画着一个上半部分是风扇，下半部分是鸟腿的……物品。",
+			say = "I examine the blueprint for a while, trying to understand what it is. The only way I could describe it is, 'an electric fan standing on bird legs.'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,18 +290,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "………………",
+			say = "So, if I had to guess, it's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是……新发明的风扇？",
+					content = "\"Some sort of... bipedal fan?\"",
 					flag = 1
 				},
 				{
-					content = "这是……新发明的机器人？",
+					content = "\"A new breed of... robot?\"",
 					flag = 2
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "上面的不是风扇，是螺旋桨啦！",
+			say = "Uhh... No. That's not a fan on top, it's a propeller!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "底下的则是参考了鸟在降落时脚的动作而制作的起落架！",
+			say = "And that on the bottom is the landing gear. It's inspired by how birds' feet move when they land.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是新式飞行器啦！硬要说的话……算是机器鸟？",
+			say = "Kind of – it's an aircraft. Or, well, a bird-like drone, I guess you could say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "上面的部分是螺旋桨，底下的则是参考了鸟在降落时脚的动作而制作的起落架！",
+			say = "That on top is the propeller, and that on the bottom is the landing gear. It's inspired by how birds' feet move when they land.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这些都是小意思啦！这个发明最厉害的部分，请看这里——",
+			say = "The real highlight, however, is this part right here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇激动地用手指着飞行器中部绘制的一团漆黑色涂鸦。",
+			say = "With twinkling eyes, she points to a compartment at the machine's center, painted black.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这里是我特别设计的货仓！",
+			say = "My specially-engineered storage space!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你看，这一部分是携带可乐的，那一部分则是携带薯片的！",
+			say = "See this? That's where you store the cola, and this is where the snacks go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我还设计了一个特制的卡扣，能保证零食能被飞行器安全运输的同时，也能被人轻易取出！",
+			say = "By adding a buckle, you can ensure the cola doesn't roll around during transport without any complicated systems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你觉得怎么样，指挥官~！",
+			say = "Pretty smart, if I say so myself! What do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "跟随达芬奇的手指和讲解努力地辨认着图纸，不过依然无法从涂鸦中领悟出什么。",
+			say = "\"Even with the explanation, I can't make heads or tails of anything in your sketch.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "额……确实画的有一点点潦草啦。",
+			say = "Oh... Well, I drew it in a hurry, so it's probably hard to grasp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "毕竟灵感有时候接二连三地涌现，根本画不过来嘛！",
+			say = "What can I say? My pen can't move as fast as the flashes of my inspiration.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "自己看还好，但是给他人介绍的时候确实会带来不便呢……",
+			say = "Which is a problem when I try to introduce my ideas to others...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不能发明什么东西来解决这个问题吗？",
+			say = "\"Maybe you could invent something that solves that problem?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……发明协助发明的发明？！",
+			say = "You mean... make an invention that makes it easier to make inventions?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "噢————就是这个！",
+			say = "Wait, that's ingenious!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "多谢提醒！指挥官，等我的好消息吧！",
+			say = "Thanks for the idea! Expect good news soon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日——",
+			say = "The next day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，协助发明的发明已经做好了哦——",
+			say = "Commander! I managed to build it overnight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "其名为“简单便利快速精准绘图机”！",
+			say = "I've dubbed it... the Fully Automatic Blueprint Drafter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "功能就是字面意思，能够简单便利的帮我快速又精准的画出设计图！",
+			say = "Quite simply, this little baby helps me sketch out a design quickly, accurately, and in an easily-readable format.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "再也不用担心指挥官看不懂我的设计图啦！",
+			say = "Now you won't have to scratch your head trying to understand my blueprints anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……听上去十分厉害。那事不宜迟，马上试试吧。",
+			say = "\"That sounds extremely promising. Could I get a demonstration?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗯！",
+			say = "Sure thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "首先——先在这个地方给我画一个轮胎……",
+			say = "Alright, let's start by drawing a tire here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不对，在这之前得把支架都画好才行。",
+			say = "Actually, no. Gotta start with the frame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,7 +850,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊啊啊，这地方不能画过界，不然座舱就变小了！",
+			say = "...What the heck is this? That takes up way too much space! The cockpit will get pressurized if you draw it like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "等等，座舱的位置好像可以挪到另一边……",
+			say = "Hang on, maybe I can fix it if I move the cockpit to the other side...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……不对不对，发动机才不应该画在这个地方啊！",
+			say = "...No! You can't put the engine there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,7 +941,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "刚开始绘图机还能跟上达·芬奇的指令，快速又精准地绘制出设计图。",
+			say = "Initially, the machine is able to keep up with her instructions, making an accurate blueprint at stunning speed. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但随着达·芬奇思维的多次跳跃，很快它就变得挣扎起来。不久后进入了过载状态，再起不能……",
+			say = "Her instructions quickly become too much for it to follow. Pushed past its limits, the machine lets out a screech and overheats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "算了，还是由我自己亲手来画吧！",
+			say = "Bah! I'll just do it on my own!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "最终，她舍弃了这一发明，如往常那样亲手完成了设计图。",
+			say = "She gives up on her new invention and goes back to drawing her designs by hand, like she normally does.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "失策了，语言传递的效率比神经传递差得多……",
+			say = "I should've known better... Words just can't compete with the speed of electric signals in your brain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "设计图果然还是自己亲自画最方便！",
+			say = "This just confirmed my hunch – drawing blueprints myself is the quickest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1028,7 +1028,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "对于达芬奇这样的天才来说或许是这样的。",
+			say = "Da Vinci has no real use for this machine. She's faster than it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过对于日常办公来说——",
+			say = "But, it may one day see use in someone else's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1050,7 +1050,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达·芬奇，拜托你之后一定要把“简单便利快速精准绘图机”修好哦！",
+			say = "Perhaps not for the purpose of drawing blueprints, as she envisioned, but for filling out paperwork, it could be quite the powerhouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

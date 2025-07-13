@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>五 所谓傲娇</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 5: Attitudes</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·学院",
+			say = "Port - Academy",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我戳！",
+			say = "Over here, over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？我有允许你碰我吗？",
+			say = "Haah?! Did I give you permission to touch me?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -103,7 +103,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇，一模一样的声音！",
+			say = "W-woah, it's the same reaction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这家伙是怎么回事，怎么在说些怪话。",
+			say = "... What's the matter with you, weirdo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不好意思，我是刚加入舰队的，hololive的白上吹雪，请多指教！",
+			say = "Ah, sorry! I'm Shirakami Fubuki, and I just recently joined the fleet. It's a pleasure to meet you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚加入舰队的孩子……我是铁血的{namecode:425}号哦",
+			say = "A new face, huh... I'm Iron Blood's Admiral Hipper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可以和你交朋友吗？",
+			say = "Can I be your friend?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？！随……随你高兴。",
+			say = "Haah? F-fine, do as you please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，{namecode:426}，一遇到直球就手足无措了呢。",
+			say = "Oh my, Hipper. I see you're as bad at dealing with the straightforward types as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:428}，你这家伙从哪里冒出来的，不要偷听啊！",
+			say = "Eugen, when'd you get here?! How many times have I told you not to go around eavesdropping?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是偶然路过而已哦。",
+			say = "Eavesdropping? I was just passing through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你叫白上吹雪是么，如果要和这家伙做朋友的话，还是要小心一点。我家的{namecode:426}脾气稍微有点差哦~",
+			say = "You're Shirakami Fubuki, right? You should be careful if you want to be Hipper's friend. She has a pretty short temper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她是要和我交朋友，不用你多事啦！",
+			say = "Haah? It's none of your business, so buzz off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好，那就祝你不要把新朋友气跑了哦。",
+			say = "Sure, sure. Hope you don't scare her off then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧——根——",
+			say = "Eu...gen...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可怕好可怕~",
+			say = "Ooh, scary~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此原来如此，会和{namecode:428}之间有这样的对话呢。",
+			say = "I see, I see~! That's how it is! So that's how you two talk to each other~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，总之，你不要听{namecode:428}的鬼话。",
+			say = "Don't pay any heed to what she said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，放心，我知道的~",
+			say = "Sure thing! I already know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你知道什么？……总之，我现在正好要去找指挥官那个笨蛋，你要一起来吗？",
+			say = "Know what...? In any case, I'm going to see that dumb Commander right now. Want to come with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哦哦，这可是个好机会！我当然要一起去~",
+			say = "Ooh, this is my chance! I'd love to~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

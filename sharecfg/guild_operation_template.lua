@@ -2,12 +2,12 @@ pg = pg or {}
 pg.guild_operation_template = {
 	{
 		consume = 1000,
-		name = "米德维岛哨卫作战",
+		name = "Pacific Base Patrol",
 		unlock_guild_level = 1,
 		theme = "midway",
 		id = 1,
-		profile = "近期米德维岛附近的塞壬反应异常强烈，敌人也许正在酝酿新的攻击，请加强戒备！",
-		scale = "小型远征：1~5人(推荐)",
+		profile = "Sirens have been detected near Midway! Patrol the surrounding waters and prevent their offensive!",
+		scale = "Scale: Small (Rec. Participants: 1-5)",
 		difficulty = 1,
 		event_type_list = {
 			1,
@@ -33,12 +33,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 2000,
-		name = "北方商路护航作战",
+		name = "Northern Shipping Escort",
 		unlock_guild_level = 3,
 		theme = "northern",
 		id = 2,
-		profile = "NA海域中的商路航线最近频繁遭遇塞壬规模不等舰队的袭扰，请带领舰队确保航线通畅，注意安全！",
-		scale = "中型远征：3~8人(推荐)",
+		profile = "The Sirens are attacking a Northern shipping route! Dispatch a fleet and secure the safety of our merchant vessels!",
+		scale = "Scale: Medium (Rec. Participants: 3-8)",
 		difficulty = 2,
 		event_type_list = {
 			1,
@@ -63,12 +63,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 3000,
-		name = "半岛攻略战",
+		name = "Peninsular Raid",
 		unlock_guild_level = 5,
 		theme = "norskehavet",
 		id = 3,
-		profile = "为了确保重要物资，指挥部需要取得北地半岛的完全控制权。请集结舰队，准备战斗！",
-		scale = "大型远征：6~14人(推荐)",
+		profile = "Dispatch a fleet to escort a convoy of cargo ships through dangerous territory!",
+		scale = "Scale: Large (Rec. Participants: 6-14)",
 		difficulty = 3,
 		event_type_list = {
 			1,
@@ -95,12 +95,12 @@ pg.guild_operation_template = {
 	},
 	{
 		consume = 5000,
-		name = "达古康纳尔岛海空战",
+		name = "Solomon Air-Sea Battle",
 		unlock_guild_level = 7,
 		theme = "guadalcanal",
 		id = 4,
-		profile = "达古康纳尔岛处于群岛争夺作战中的关键位置，敌人航空力量强大，但我们绝对不能失去它！",
-		scale = "大型远征：8~20人(推荐)",
+		profile = "Send out a fleet to help secure the airspace over a remote Pacific island and eliminate the Siren presence!",
+		scale = "Scale: Very Large (Rec. Participants: 8-20)",
 		difficulty = 3,
 		event_type_list = {
 			1,

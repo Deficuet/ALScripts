@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "众人在漆黑的曲折洞穴里走了许久，忽然——",
+			say = "Continuing deeper through the dark, dank cave, you come across another surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,9 +15,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "绫波",
+			actorName = "Ayanami",
 			nameColor = "#A9F548FF",
-			say = "等等……大家先停一下，似乎有奇怪的声音……！",
+			say = "Halt, everyone! I just heard something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——从洞穴的身处传来一声巨大的动物怒吼声。",
+			say = "The deafening roar of an animal echoes from further in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			nameColor = "#A9F548FF",
-			say = "好、好像惹到洞穴的主人了……！快跑呀！",
+			say = "I-I think we've angered the cave's resident! Let's get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连续战斗了这么多场，肚子饿了…",
+			say = "I'm feeling a bit hungry...",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "坚持一下，马上就到土伦港了。",
+			say = "We're almost there. Just hold on a bit longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是肚子饿了就是肚子饿了嘛！唔，带的物资里应该还有吃的来着，放到哪里去了……",
+			say = "But I'm hungryyyyy... Ah! I'm sure I saw some snacks among the stuff you brought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "其实…我带了一些甜点，原本是预定到土伦之后分给大家吃的。",
+			say = "My handmade sweets? I planned to give them to everyone after we got back to Toulon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "不过毕竟饿着肚子也没办法好好战斗，现在先给你吃一些也可以哦。",
+			say = "I know how hard it is to fight on an empty stomach... You can have some, but try not to go overboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！真的么！让我看看……",
+			say = "R-really? You're the best, Dunkerque!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "马卡龙、蒙布朗、泡芙、拿破仑……种类居然有这么多？！敦刻尔克万岁！",
+			say = "Macarons, Montblancs, profiteroles, mille-feuille... there's so much stuff here I don't know where to start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "……这些是要分给大家的，不要吃太多了，沃克兰。",
+			say = "That's because I made enough for everyone. Vauquelin, try not to eat too much, all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "放心放心，我知道啦~唔嗯！好吃！！！塔尔图也来一块么？",
+			say = "I know! Now, where to start... Mmmmm! So good! Tartu, do you want some as well? Dunkerque, can Tartu also have some?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "呵呵，没问题哦。等到了土伦之后，我再做一批就好了。趁着现在没有敌人出现，塔尔图也好好休息一下吧。",
+			say = "Hehe, sure. I can always make more later. Tartu, did you also want to take a break?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "那……我也来一块。",
+			say = "...Um, thank you. In that case, I'll also help myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "令人怀念的味道………好吃。",
+			say = "This nostalgic aroma... Delicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "（果然…甜点和大家坐在一起吃会变的更加美味呢）",
+			say = "(It'd be nice to be able to enjoy sweets with everyone again...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "（如果大家能再一次，坐在一起享受甜点的话，一定是很幸福的光景吧。）",
+			say = "(I wonder if there will ever come a day...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（………………）",
+			say = "(...when Jean Bart and Richelieu can enjoy these sweets together again...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

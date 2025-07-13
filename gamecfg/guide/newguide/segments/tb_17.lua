@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.05,
 			style = {
-				text = "再次点击回忆按钮，养成计划的结局内容可以在这里进行回顾。",
+				text = "On the Endings screen, you can rewatch endings you've unlocked and see your overall ending completion rate.",
 				mode = 2,
 				posY = -325.4,
 				char = 1,
@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "现在可以点击重置，开始进行新一轮的养成计划了。",
+				text = "You can tap Restart to begin TB's growth from the beginning.",
 				mode = 2,
 				posY = -184.51,
 				char = 1,

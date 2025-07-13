@@ -13,7 +13,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果脑海中情报是真实的话，这个世界不存在塞壬，也不存在余烬。存在的只是各阵营之间的战火。",
+			say = "(This world is also different from any other that I have known...)",
 			bgm = "xinnong-3",
 			flashin = {
 				delay = 0.5,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神石海若不存在，天宇启户祭也不存在，妾身只是被赶工建造出来，即将投入摇摇欲坠的前线。",
+			say = "(There is no Watatsumi. No ritual. Yet I exist, though I cannot tell whether I am a ship... or a human...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诞生即是诞生，沉没即为沉没。不过……",
+			say = "(To be born as a ship... To fight, and then to sink...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吾等本是随着与塞壬战斗中发现的心智魔方而诞生出的存在。",
+			say = "(To be born from a Wisdom Cube... Yet there are those born into a world not cowering beneath the shadows of the Sirens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妾身曾不止一次怀疑过心智魔方与塞壬的关系，现在看来心智魔方也许与其无关…",
+			say = "(There has been reason to doubt the connection between the Sirens and the Wisdom Cubes... and the Wisdom Cubes may well be uninvolved in all of this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即便是塞壬完全不存在的世界，吾等也可以诞生出来么…",
+			say = "(Perhaps... that connection was false to begin with...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然，也不能排除这也是塞壬的某种模拟实验的可能性…它们的各种实验，在其他梦境中妾身已经见识的足够多了。",
+			say = "(...But such a conclusion is premature... This may yet be another dream, or rather, a fragment of a world operated by the Sirens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话，它们这次究竟在模拟什么…隐藏了自己的存在，又预制好了大量情报，它们究竟想要还原什么…？",
+			say = "(...If that is the case, what do they seek to gain from hiding, simulating a world without their existence...? Hm...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意注意，{namecode:22}大人回来咯~！",
+			say = "Behold the triumphant return of Yukikaze the Great!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦~{namecode:182}大人已经醒过来了么！",
+			say = "Are you still sleeping, Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉这句话妾身今天已经听过无数遍了…",
+			say = "\"Nay... This one is awake.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎、是这样么！唔…不光是{namecode:182}大人，感觉大家都没什么精神呀…",
+			say = "I see... It's not just you though, everyone seems to be having a hard time staying awake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经晚上十点多了，好困…{namecode:22}就没什么感觉么？",
+			say = "Of course I'm getting sleepy, it's already 2200... Yukikaze, you're not tired?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "HO,HO,HO，{namecode:22}大人已经是成熟大人了，成熟大人才不会像孩子一样这么早就犯困呢~！",
+			say = "Wa ha ha! See, Yukikaze the Great is a grown-up, so there's no way she'd doze off like you guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…这种话只有小孩子才会这么说哦…算了，侦查的情况呢？",
+			say = "Even though you're always the first to crash... Anyway, any updates from the scouts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~{namecode:22}大人已经找过三个方向了，完全没有发现任何敌人哦。",
+			say = "They haven't spotted any enemies in the three directions we sent them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪…之前确实发现了白鹰潜艇的雷达信号，敌人放弃追击么…那还有一个方向也拜托咯~",
+			say = "Weird... I thought an Eagle Union submarine was chasing us... Did it give up? Let me check one more direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了…白鹰潜艇，就在那边。",
+			say = "\"Nay... The enemy is over there...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，怎么可能？！！！明明{namecode:22}大人刚刚找了一大圈都没有遇到…！",
+			say = "Really? I didn't see anything when I scouted over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该说是{namecode:22}运气实在太好了，连敌人都绕着走么……",
+			say = "Luckily, Yukikaze didn't run into any enemies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌方开始下潜了！{namecode:182}大人，只有一艘潜艇而已，交给我吧！",
+			say = "Lady Shinano, we're picking up that one enemy submarine again! Allow me to—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，那就拜托汝——————————————",
+			say = "(Yes, Isokaze, go...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			soundeffect = "event:/ui/fengling",
 			dir = 1,
-			say = "「——————可能是诱饵哦。」　",
+			say = "——It's a trap. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诱饵…？可是敌人只有一艘潜艇而已…",
+			say = "(A trap...? What? Where's this voice coming from...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			say = "「——————航行计划已经暴露，这一艘引诱汝等走向包围网的诱饵。」　",
+			say = "——The enemy has deciphered your plans. You have already fallen into their hands. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			soundeffect = "event:/ui/fengling",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………{namecode:143}，停止追击。",
+			say = "\"Isokaze, stop...\"",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人…？！！",
+			say = "Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "依然不能排除白鹰潜艇群设置伏击的可能性，不要纠缠，全速脱离接触……",
+			say = "\"You'll get ambushed by a wolfpack... Hurry... Avoid them...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

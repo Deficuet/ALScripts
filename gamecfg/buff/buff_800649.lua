@@ -17,8 +17,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -53,8 +53,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -89,8 +89,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -125,8 +125,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -161,8 +161,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -197,8 +197,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -233,8 +233,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -269,8 +269,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -305,8 +305,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -341,8 +341,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}
@@ -377,8 +377,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				time = 1,
+				quota = 6,
+				time = 0.5,
 				target = "TargetSelf",
 				skill_id = 800641
 			}

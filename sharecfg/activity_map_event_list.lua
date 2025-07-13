@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_map_event_list = {
 	[1001] = {
-		node_name = "露营前的准备",
+		node_name = "Lush Jungle",
 		event_id = 1001,
 		id = 1001,
 		type = 1,
@@ -23,7 +23,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1002] = {
-		node_name = "码头的选址",
+		node_name = "Wharf Construction Site",
 		event_id = 1002,
 		id = 1002,
 		type = 1,
@@ -45,7 +45,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1003] = {
-		node_name = "海鸟的赠礼",
+		node_name = "Seabird Habitat",
 		event_id = 1003,
 		id = 1003,
 		type = 1,
@@ -67,7 +67,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1004] = {
-		node_name = "灰烬与宝石",
+		node_name = "Foot of the Volcano",
 		event_id = 1004,
 		id = 1004,
 		type = 1,
@@ -89,7 +89,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1005] = {
-		node_name = "临时据点",
+		node_name = "Temporary Base",
 		event_id = 1005,
 		id = 1005,
 		type = 1,
@@ -116,7 +116,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1006] = {
-		node_name = "尚未放松的人",
+		node_name = "Patrol Fleet",
 		event_id = 1006,
 		id = 1006,
 		type = 1,
@@ -140,7 +140,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1007] = {
-		node_name = "椰林的“赠礼”",
+		node_name = "Coconut Forest",
 		event_id = 1007,
 		id = 1007,
 		type = 1,
@@ -164,7 +164,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1008] = {
-		node_name = "另类捕鱼法",
+		node_name = "School of Fish",
 		event_id = 1008,
 		id = 1008,
 		type = 1,
@@ -188,7 +188,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1009] = {
-		node_name = "海边的白日梦",
+		node_name = "Leisurely Beach",
 		event_id = 1009,
 		id = 1009,
 		type = 1,
@@ -212,7 +212,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1010] = {
-		node_name = "海龟栖息地",
+		node_name = "Sea Turtle Habitat",
 		event_id = 1010,
 		id = 1010,
 		type = 1,
@@ -236,7 +236,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1011] = {
-		node_name = "温泉谷",
+		node_name = "Hot Springs",
 		event_id = 1011,
 		id = 1011,
 		type = 1,
@@ -260,7 +260,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1012] = {
-		node_name = "落日烧烤会",
+		node_name = "BBQ Beach",
 		event_id = 1012,
 		id = 1012,
 		type = 1,
@@ -289,7 +289,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1013] = {
-		node_name = "丽日茶会",
+		node_name = "Blossom Hill",
 		event_id = 1013,
 		id = 1013,
 		type = 1,
@@ -313,7 +313,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1014] = {
-		node_name = "开辟菜地的计划！",
+		node_name = "In-Development Garden",
 		event_id = 1014,
 		id = 1014,
 		type = 1,
@@ -337,7 +337,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1015] = {
-		node_name = "密林调查组",
+		node_name = "Mysterious Woods",
 		event_id = 1015,
 		id = 1015,
 		type = 1,
@@ -361,7 +361,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1016] = {
-		node_name = "温泉乡抢先体验",
+		node_name = "In-Development Hot Springs",
 		event_id = 1016,
 		id = 1016,
 		type = 1,
@@ -385,7 +385,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1017] = {
-		node_name = "心跳的日光浴时间",
+		node_name = "Sunbathing Beach",
 		event_id = 1017,
 		id = 1017,
 		type = 1,
@@ -409,7 +409,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1018] = {
-		node_name = "海龙的邀约",
+		node_name = "Seaside Stroll Beach",
 		event_id = 1018,
 		id = 1018,
 		type = 1,
@@ -433,7 +433,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1019] = {
-		node_name = "遗迹探险",
+		node_name = "Mountain Ruins",
 		event_id = 1019,
 		id = 1019,
 		type = 1,
@@ -457,7 +457,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1020] = {
-		node_name = "并不危险的旅途",
+		node_name = "Underground Ruins' Entrance",
 		event_id = 1020,
 		id = 1020,
 		type = 1,
@@ -481,7 +481,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1021] = {
-		node_name = "也许是宝物？",
+		node_name = "Deserted Island Ruins",
 		event_id = 1021,
 		id = 1021,
 		type = 1,
@@ -505,7 +505,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1022] = {
-		node_name = "乘风破浪之行",
+		node_name = "Yacht Course",
 		event_id = 1022,
 		id = 1022,
 		type = 1,
@@ -537,7 +537,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1024] = {
-		node_name = "奇妙的钓鱼比赛",
+		node_name = "Coastal Fishing Spot",
 		event_id = 1024,
 		id = 1024,
 		type = 1,
@@ -561,7 +561,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1025] = {
-		node_name = "波光粼粼的游泳课",
+		node_name = "Newbie Beach",
 		event_id = 1025,
 		id = 1025,
 		type = 1,
@@ -585,7 +585,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1026] = {
-		node_name = "马可波罗的计划",
+		node_name = "Volcano Summit",
 		event_id = 1026,
 		id = 1026,
 		type = 1,
@@ -609,7 +609,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1027] = {
-		node_name = "菜地变花田",
+		node_name = "Repurposed Garden",
 		event_id = 1027,
 		id = 1027,
 		type = 1,
@@ -633,7 +633,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1028] = {
-		node_name = "泳池与佳人",
+		node_name = "Private Pool",
 		event_id = 1028,
 		id = 1028,
 		type = 1,
@@ -657,7 +657,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1029] = {
-		node_name = "黄金海滩的尾音",
+		node_name = "Golden Sand Beach",
 		event_id = 1029,
 		id = 1029,
 		type = 1,
@@ -685,7 +685,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1030] = {
-		node_name = "晚风的送行",
+		node_name = "Evening Breeze Beach",
 		event_id = 1030,
 		id = 1030,
 		type = 1,
@@ -709,7 +709,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1050] = {
-		node_name = "临时据点",
+		node_name = "Temporary Base",
 		event_id = 1050,
 		id = 1050,
 		type = 5,
@@ -735,7 +735,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1051] = {
-		node_name = "临时据点",
+		node_name = "Temporary Base",
 		event_id = 1051,
 		id = 1051,
 		type = 5,
@@ -761,7 +761,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1052] = {
-		node_name = "临时据点",
+		node_name = "Temporary Base",
 		event_id = 1052,
 		id = 1052,
 		type = 5,
@@ -787,7 +787,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1053] = {
-		node_name = "临时据点",
+		node_name = "Temporary Base",
 		event_id = 1053,
 		id = 1053,
 		type = 5,
@@ -813,7 +813,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1054] = {
-		node_name = "温泉谷",
+		node_name = "Hot Springs",
 		event_id = 1054,
 		id = 1054,
 		type = 5,
@@ -839,7 +839,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1055] = {
-		node_name = "露天温泉",
+		node_name = "Open-Air Bath",
 		event_id = 1055,
 		id = 1055,
 		type = 5,
@@ -869,7 +869,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1056] = {
-		node_name = "花田",
+		node_name = "Robust Garden",
 		event_id = 1056,
 		id = 1056,
 		type = 5,
@@ -895,7 +895,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1101] = {
-		node_name = "啾啾搬运工",
+		node_name = "Manjuu Mining Battle",
 		event_id = 1101,
 		id = 1101,
 		type = 5,
@@ -921,7 +921,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1102] = {
-		node_name = "啾啾打捞团",
+		node_name = "Manjuu Salvaging Crew",
 		event_id = 1102,
 		id = 1102,
 		type = 5,
@@ -947,7 +947,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1103] = {
-		node_name = "啾啾大冒险",
+		node_name = "Manjuu Misadventures",
 		event_id = 1103,
 		id = 1103,
 		type = 5,
@@ -973,7 +973,7 @@ pg.activity_map_event_list = {
 		}
 	},
 	[1201] = {
-		node_name = "啾啾清扫队",
+		node_name = "Seaside Cleanup",
 		event_id = 1201,
 		id = 1201,
 		type = 2,
@@ -997,7 +997,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1202] = {
-		node_name = "过分的“亲密接触”？",
+		node_name = "Perilous Jungle Area",
 		event_id = 1202,
 		id = 1202,
 		type = 2,
@@ -1021,7 +1021,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1203] = {
-		node_name = "丛林中的嬉戏",
+		node_name = "Cabbajuus",
 		event_id = 1203,
 		id = 1203,
 		type = 2,
@@ -1045,7 +1045,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1204] = {
-		node_name = "当心坠落！",
+		node_name = "Dangerous Cliff",
 		event_id = 1204,
 		id = 1204,
 		type = 2,
@@ -1069,7 +1069,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1205] = {
-		node_name = "旅行中的小憩",
+		node_name = "Wild Side Barbecue",
 		event_id = 1205,
 		id = 1205,
 		type = 2,
@@ -1093,7 +1093,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1301] = {
-		node_name = "诡异的洞穴？",
+		node_name = "Suspicious Cave",
 		event_id = 2001,
 		id = 1301,
 		type = 3,
@@ -1117,7 +1117,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1302] = {
-		node_name = "紧急援助行动！",
+		node_name = "Jungle Watering Hole",
 		event_id = 2101,
 		id = 1302,
 		type = 3,
@@ -1141,7 +1141,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1303] = {
-		node_name = "咕咕鸟置换巢",
+		node_name = "Monster Bird Nest",
 		event_id = 2201,
 		id = 1303,
 		type = 3,
@@ -1163,7 +1163,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1304] = {
-		node_name = "大梦奇遇记",
+		node_name = "Shroom Colony",
 		event_id = 2301,
 		id = 1304,
 		type = 3,
@@ -1185,7 +1185,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1305] = {
-		node_name = "抉择时刻",
+		node_name = "Who Fell Into the Lake?",
 		event_id = 2501,
 		id = 1305,
 		type = 3,
@@ -1207,7 +1207,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1306] = {
-		node_name = "雨中的邂逅",
+		node_name = "Encounter in the Rain",
 		event_id = 2401,
 		id = 1306,
 		type = 3,
@@ -1229,7 +1229,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1401] = {
-		node_name = "据点隐藏宝箱",
+		node_name = "Base Camp Treasure Chest",
 		event_id = 3001,
 		id = 1401,
 		type = 4,
@@ -1260,7 +1260,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1402] = {
-		node_name = "森林隐藏宝箱",
+		node_name = "Eastern Forest Treasure Chest",
 		event_id = 3002,
 		id = 1402,
 		type = 4,
@@ -1287,7 +1287,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1403] = {
-		node_name = "椰子林隐藏宝箱",
+		node_name = "Western Forest Treasure Chest",
 		event_id = 3003,
 		id = 1403,
 		type = 4,
@@ -1316,7 +1316,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1404] = {
-		node_name = "火山隐藏宝箱",
+		node_name = "Central Volcano Treasure Chest",
 		event_id = 3004,
 		id = 1404,
 		type = 4,
@@ -1343,7 +1343,7 @@ pg.activity_map_event_list = {
 		params = {}
 	},
 	[1405] = {
-		node_name = "遗迹隐藏宝箱",
+		node_name = "Northern Ruins Treasure Chest",
 		event_id = 3005,
 		id = 1405,
 		type = 4,

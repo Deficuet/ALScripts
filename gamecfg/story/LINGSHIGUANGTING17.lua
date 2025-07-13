@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐，贵安。",
+			say = "\"Why, hello there, Monarch.\"",
 			bgm = "hunhe-level",
 			flashin = {
 				delay = 1,
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贵安，胡德女士。又来休养身体了么？",
+			say = "\"Wales said you'd been hospitalised. What happened?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是稍微休养一阵罢了。和之前一样，身体没有什么大碍哦。",
+			say = "\"Don't worry, it's just my old wounds acting up a little. I'll be cleared to leave in just three days.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐近来可好？",
+			say = "\"You brought me lunch? My, you're too kind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "............…………",
+			say = "A different memory this time... What the hell is the point of this, Richard?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看你的表情应该是有很多话想说呢，我们找个地方坐下慢慢聊吧~",
+			say = "\"I'm afraid this is a bit much to eat alone, though... Oh, I know. Why don't you stay and enjoy it with me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德女士，我的心中充满了困惑。",
+			say = "I stuck around and decided to confide in Hood after a while of conversing with her.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自诞生以来我一直都在这里进行着训练，日复一日重复着相同的事情。",
+			say = "\"No, it's nothing in the way of romance... It's just... I feel miserable, always being kept away from the frontlines.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的我究竟有什么存在的意义呢？",
+			say = "\"We are shipgirls, we are Her Majesty's swords. What purpose do our lives have if we cannot fight?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "每天我都会进行剑术的练习，可我手中的剑究竟是为了什么而挥动的呢？",
+			say = "...And what purpose is there to my training, if I will never get to see the battlefield like my sisters in arms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这一成不变的日子里我无法找到答案……",
+			say = "\"Hood, you must have an idea of what Her Majesty wants from me. I need to know – how can I seize glory for the Royal Navy?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "虽然给人的第一印象十分冰冷，不过在熟识之后就会发现，君主其实十分健谈。",
+			say = "Hood did not return an immediate response to Monarch abruptly opening up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "这已经不是君主第一次向胡德抒发内心的烦闷了。",
+			say = "Not because she couldn't sympathize – quite the opposite – but because she wanted to give Monarch a minute to sort her own emotions out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "大多数时间，胡德都只是在静静倾听着，并没有急于肯定或否定任何事。",
+			say = "Hood's style of solving problems is to let her conversation partner speak their mind in full, then she offers her advice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉啊，明明你是来休养的，我却只顾着说自己的事......",
+			say = "\"...S-sorry. I lost my composure there.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "会感到困惑，就是你存在的证明。而存在，一定伴随着意义哦。",
+			say = "\"Don't be. I understand why you feel the way you do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主小姐只是还需要一点时间来寻找而已。",
+			say = "\"All I'll say is this. Glory is not always something tangible that can be grasped.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但愿如此吧……那么我就不打扰你休息了，谢谢你听我说了这些。",
+			say = "\"What... does that mean?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然只是暂时的，不过我也要一个人独自在这里待一阵了。",
+			say = "\"The glory you seek is the feeling of being needed by others – of being admired by others.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是你明天也能来找我聊天的话，可就帮了大忙了哦~",
+			say = "\"As for what I seek... That would be elegance, of course. Hehe~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "看着露出温柔笑容的胡德，君主感觉内心的阴云渐渐消散了——",
+			say = "Hood giggled, and Monarch looked strangely reassured. Then, the memory of the patient room slowly dissipated into mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

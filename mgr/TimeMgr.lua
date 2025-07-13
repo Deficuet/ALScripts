@@ -208,11 +208,17 @@ function var_0_1.CTimeDescC(arg_26_0, arg_26_1, arg_26_2)
 end
 
 function var_0_1.STimeDescC(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
+	originalPrint("Before : ", arg_27_1)
+
 	arg_27_2 = arg_27_2 or "%Y/%m/%d %H:%M:%S"
 
 	if arg_27_3 then
+		originalPrint("2after : ", os.date(arg_27_2, arg_27_1))
+
 		return os.date(arg_27_2, arg_27_1 + os.time() - arg_27_0:GetServerTime())
 	else
+		originalPrint("1after : ", os.date(arg_27_2, arg_27_1))
+
 		return os.date(arg_27_2, arg_27_1)
 	end
 end

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>四　到达终点！</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 4 - Final Destination!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "这里就是码头了。出击或是执行委托的时候大家会从这里出海哦",
+			say = "And here is the pier. Everyone gathers here before going on sortie or commission.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里就是……码头……",
+			say = "This is.. the pier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳！是叫小贝法吧，辛苦了！感谢",
+			say = "A-ahem! Yes, you, Little Bel or whatever! Thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有别的需要的话，尽管吩咐我吧（鞠躬",
+			say = "If you have any other requests, please call upon me at any time. *curtsies*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "那个，嗯…小贝法？",
+			say = "Ah... um, Little Bel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，有什么事吗？",
+			say = "Yes, can I help you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来你也和我们一样，和舰装比起来身体相当娇小",
+			say = "It looks like you're the same as us. Your body is quite small compared to your rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道你也是被指挥官诱拐来的……",
+			say = "Perhaps you were also kidnapped by the commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就和我们一起逃离魔掌，前往碧蓝的大海吧！",
+			say = "Let us disappear from this place and sail the azur waves together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是。如果需要的话，我出海完全没有问题，不过——",
+			say = "Of course. If necessary, I have no objections to sailing with you. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里有主人、陛下，还有姐姐大人在。这里就是我的归宿",
+			say = "My master is here. As well as Her Majesty, and my sisters. This is the place where I belong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，在这里和大家在一起也很开心的哦？",
+			say = "Above all, I am very happy to be here with everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "小贝法……",
+			say = "Little Bel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎、怎么……",
+			say = "Wh-what...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过没问题吗？{namecode:438}大人和{namecode:71}大人，刚才似乎就很难认到方向",
+			say = "But will you two be all right? Miss Zeppy, Miss Hiei, you two seemed to have a hard time with the directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能顺利找到回家的路吗……",
+			say = "Would you be able to navigate your way home?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……",
+			say = "Erm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "呼……——",
+			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来在这里啊",
+			say = "So that's the situation, huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，真是给人添麻烦",
+			say = "Hmph. What a bunch of troublemakers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说。这种时候才正是大人出场的时候不是吗",
+			say = "There's no need for that. After all, it's finally time for the adults to make their debut.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵！{namecode:98}一个人的话怎么都找不到的喵！",
+			say = "That's right, nya! I couldn't find them by myself, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,12 +404,12 @@ return {
 			actor = 304060,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actorName = "小{namecode:438}&小{namecode:71}",
+			actorName = "Zeppy & Hiei-chan",
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "那些人是——！？",
+			say = "Those people are...?!",
 			subActors = {
 				{
 					actor = 407020,

@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Appeal",
-			say = "演出海域·中央舞台",
+			say = "Port - Concert Sea Area Center Stage",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——接下来该轮到我们上台了呢。",
+			say = "It's finally time for us to make our debut!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			actor = 103250,
 			dir = 1,
-			say = "大家的“冒牌货”都出现了。看来对方也准备好“一决胜负”了呢。",
+			say = "Your clones appear to already be in position. They also seem to have already decided on their program.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于来到最后的舞台了啊。我们只要站上舞台就可以了吗？",
+			say = "This feels quite like a boss fight. Can we head up on stage now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，即使要调查能量来源，也要先在舞台上打败那些冒牌货才行。",
+			say = "Yes, I'm continuing to monitor the energy signatures, but you'll have to defeat those clones first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果通路还开着的话，就直接把你们送回原来的世界。",
+			say = "If the portal stays open, we'll be able to send you back to your original world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直到最后一刻都不能放松，加油吧。",
+			say = "Don't let your guard down until we can get you through, though. Do your best out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 10700040,
 			dir = 1,
-			say = "真是奇妙的感觉…就好像对着镜子做彩排一样呢。",
+			say = "This whole thing feels so weird... almost like rehearsing in front of a mirror.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 10700010,
 			dir = 1,
-			say = "因为“冒牌货”的外表跟我们一样吗……？",
+			say = "Because our clones are standing right across from us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 10700060,
 			dir = 1,
-			say = "不仅如此，连给人的感觉也挺像呢。",
+			say = "That's not all. They even seem to have our mannerisms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "不过还是很明显能看出不是本人…真是奇妙的感觉！",
+			say = "But you can tell that they're not real...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 10700030,
 			dir = 1,
-			say = "现在可不是在意这种事的时候了，我们要把精力集中在舞台上才行！",
+			say = "Don't think too much about it, or you won't be able to stay focused. Direct all your focus on the performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			actor = 10700040,
 			dir = 1,
-			say = "伊织说得对。我们要——",
+			say = "What Iori says is right. We are who we are—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能量反应变强了喵！",
+			say = "The energy signature is spiking, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "有种不祥的预感…谢菲，这个反应难道是…",
+			say = "I'm getting a bad feeling about this... Hey, Sheffy, do you think this is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，和各位偶像来到这边的那天很像。",
+			say = "Indeed... It reminds me of the day the idols arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 10700050,
 			dir = 1,
-			say = "意思是…会变成和我们过来的那天相同的状况吗？",
+			say = "What do you mean by that? Are we going to have a repeat of the thing that happened when we arrived?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			actor = 307100,
 			dir = 1,
-			say = "只能说很可能会变成那样了呢。联络负责护卫的标枪她们，让她们也集合到舞台这边来吧。",
+			say = "There's no telling what might happen. Gather Javelin and the other escort ships and have them meet up with us here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			actor = 10700020,
 			dir = 1,
-			say = "不要紧吗？负责护卫的各位还肩负着吸引量产型的任务…",
+			say = "Are you sure? I thought our escorts were drawing the mass-produced ships away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不是没有μ兵装就不能站上舞台，她们也可以助演出一臂之力哦！",
+			say = "Ships that aren't equipped with the Muse System can't provide you with any assistance on-stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 108050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然说了要全力以赴，就得拿出全部的战力才行呢！",
+			say = "That's why when it's your time to shine, you've gotta give it your all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

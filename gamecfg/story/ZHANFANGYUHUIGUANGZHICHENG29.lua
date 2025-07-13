@@ -7,7 +7,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "与此同时，辉光之城中心的雕像前——",
+			say = "Martyrium Core - At the Basilica",
 			bgm = "theme-thehierophantv",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			actor = 805030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯，即将打开前往大水晶的道路！",
+			say = "One will now secure the path to the crystal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你只可至此，不可越过。",
+			say = "This is as far as you go, youngling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……{namecode:522:旗风·META}！",
+			say = "The META Hatakaze...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 805030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "指挥官，{namecode:522:旗风·META}出现了！",
+			say = "Commander, Hatakaze spotted! Requesting orders!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "果然雕像中心的水晶是关键位置。不用担心，天空的战斗已经结束，她无处可逃了。",
+			say = "That really is the control center, then. Rodney's been neutralized! It's about time you surrender!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "哈啊……你们还真是给我惊喜不断，我确实没想过事情最后会变成这样。",
+			say = "Heheh, heheheh... You never cease to amaze.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "不过别忘了，辉光之城的控制权依然在我手中呢。",
+			say = "But you seem to have forgotten something. Control of the Martyrium is still in my hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "哦？真的么？",
+			say = "Is it really, now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_camelot_15",
-			say = "伴随着又一阵耀眼金光，一座在三道华丽圆环环绕下的城堡出现在辉光之城的斜上方。",
+			say = "After a burst of dazzling light, another structure appears above the holy icon – the gate of Camelot.",
 			bgm = "theme-elizabeth-andmeta",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "……竟然还藏了一个？！",
+			say = "Wha–?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "一路上，就看你在算计这个算计那个，你以为本王就没留后手么？",
+			say = "Our train is still parked at Camelot. Mirror Sea or not, did you think that a single car could carry more information than the entire train?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "刚才不出手，只是害怕不小心伤了本王的车厢。",
+			say = "We were only reluctant to use this method because we wanted to avoid damaging the train.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "此刻你的本体已经现身，而经过指挥官的清理，你对于辉光之城的控制力也减弱了不少。",
+			say = "You've appeared in person, and our servant has already cleaned up the corrosion of the Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_camelot_15",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "现在就是下手的最好时机！",
+			say = "How, pray tell, do you expect to control this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "「天球一线，诸环合一」——给我从本王的车厢上滚出去！",
+			say = "\"In this glorious celestial orbit, there is but one train.\" Get out of our train!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "可恶……",
+			say = "Kh...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "实验场β是么……我记住你们了……",
+			say = "Test site beta... I won't forget this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "但是，你们终究还是漏算一步……",
+			say = "Blundering like this on the final step...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			actor = 9701030,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我失败了不假，可你们也没赢哦，呵呵呵……",
+			say = "I admit defeat. But rest assured, you have not won!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "死到临头还嘴硬。",
+			say = "You've said enough, rat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "接下来再净化一下，污染的问题应该就彻底解决了。",
+			say = "Now, with a little cleaning, that corrosion problem will be as good as gone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "辉光之城中心雕像上，本已闭合的羽翼再次打开。",
+			say = "The holy icon in the center of the Martyrium spreads its wings once more.",
 			bgm = "theme-lightheven",
 			typewriter = {
 				speed = 0.05,
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "不过这一次，城市散发出了与之前截然不同的圣洁光芒。",
+			say = "This time, the crystal exudes a holy light that shines upon the city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "各处的侵蚀性络合物都在光芒中燃烧着。很快，辉光之城便重新绽放出了圣洁的光辉。",
+			say = "Under the power of the Iris, the complex loses its source of corrosion and turns to ash. Before long, the Mirror Sea is purified.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯——完美。",
+			say = "Phew... Perfect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "接下来只要回收了鲸鱼……",
+			say = "All that's left is to recover the whale–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,12 +607,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的响声",
+			actorName = "The Whale",
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			shakeTime = 5,
 			nameColor = "#5CE6FF",
-			say = "呼——————",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "这个声音是，鲸鱼？",
+			say = "That was my whale calling!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哇啊啊啊！鲸鱼！我的鲸鱼开始起飞了！！！",
+			say = "Gaaaaah! The whale! My whale's running away again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "伴随着巨响，鲸鱼跃入了辉光之城的上空，而后向着远方游去。",
+			say = "An earsplitting roar accompanies the whale's ascent into the Martyrium sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "咦？我们明明消灭了死神之影，鲸鱼应该处于无人操控的状态才对！",
+			say = "Death's Shadow is defeated. If Miss D doesn't have control of the whale, then who could possibly...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "糟糕……原来{namecode:522:旗风·META}最后是这个意思！",
+			say = "Damn it! Devil?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "我本来以为迪贝路直到最后关头都没露面，是因为发现没有胜算所以跑掉了……",
+			say = "She lay in hiding all this time just to make us fight Hatakaze so she could steal the whale at the last minute?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没想到它的真正目标是鲸鱼？！",
+			say = "She played us like a fiddle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "还真是一如既往的狡猾……之前它说的那些大话，只是为了转移我们的注意力啊。",
+			say = "As cunning as ever... Had us fooled, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……我也被分心了，抱歉。",
+			say = "Likewise. I'm sorry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "现在不是反思的时候吧！",
+			say = "Nuh-uh! No apologizing right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "鲸鱼，快去追鲸鱼！",
+			say = "Whale time! Follow that whaaale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "…………本王还没回收车厢呢。",
+			say = "Wait! We need to recover the train car first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -857,7 +857,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "别管车厢了！鲸鱼鲸鱼鲸鱼鲸鱼！！！",
+			say = "Forget the damn train! Whale, whale, whale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "我的鲸鱼！！！！！",
+			say = "WHAAAAALE!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "唉…………………………………………………………………………好吧。",
+			say = "Ugh... Fine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "事不宜迟，我们马上返回女王之光号！",
+			say = "Let's get back to the Queen's Light first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "等等，你不许去。",
+			say = "Hold on. I can't let you go, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,7 +949,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……海伦娜？",
+			say = "Helena?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王赞同。接下来的追击战危险难料，且明显不属于本次狩猎的预定计划中。",
+			say = "Agreed. This pursuit is fraught with danger. It isn't part of the original plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "对于你和阿尔萨斯小队来说，行动已经结束，接下来你们要做的，只有平安回家而已。",
+			say = "Commander, return with the Iris fleet. Be careful on the way – you're in a battlefield until you're home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "伊丽莎白女王以无可置疑的语气宣布了此项决定，然后将一个小册子塞到了我的手中。",
+			say = "Elizabeth dismisses me before I can speak up. Then, she thrusts a small pamphlet into my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1009,7 +1009,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这是卡美洛之庭的简单入门版操作笔记，你根据上面的流程操作就能顺利返回实验场β了。",
+			say = "An instruction manual on the gate of Camelot. Use it as directed, and you will make it to test site beta just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1026,7 +1026,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "无需如此，我来教指挥官就好。",
+			say = "That isn't necessary. I can teach the Commander myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1044,7 +1044,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……你好胜心是有多强啊。那随你便吧。",
+			say = "Why must you argue over this... Fine. Do as you please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你的辉光之城，不能一直停在这个地方。",
+			say = "The Martyrium can't be left in this state.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "之前空间冲击的动静那么大，这里很快还会有别的势力抵达。出于安全，我要消除这里的所有痕迹。",
+			say = "Such an enormous spatial impact event will attract other factions before long. We have to eliminate all traces of it while we still can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1115,7 +1115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……在此过程中，我可以顺便帮你将辉光之城转换回车厢一同送回实验场β。",
+			say = "...I'll turn this Mirror Sea back into train cars and deliver it back to test side beta.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,7 +1133,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "多谢，本王不会忘记的。那本王就先告辞了。",
+			say = "Much obliged. We leave it in your hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "拜拜~神秘人助手！我们回头见！",
+			say = "Bye, mysterious assistant! See ya later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,7 +1176,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
-			say = "随着女王之光号重回星河，另一批人也做好了启程的准备。",
+			say = "While the Queen's Light disappeared – a few cars lighter than it had arrived – the Ashes prepared to depart as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1206,7 +1206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "鉴于罗德尼·META此时的状态，我们认定其已经失去了威胁性。",
+			say = "That resculpted META Rodney isn't a threat anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1224,7 +1224,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "再加上……恐怕她也不愿意随我们一起走。海伦娜，我们就把她留给你了？",
+			say = "I doubt she'll come with us. Mind if we leave her with you, Helena?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,7 +1242,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "嗯。你们打算离开了？",
+			say = "Not at all. Are you two going already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1259,7 +1259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "是啊，追捕迪贝路可不算在我们的任务之内。",
+			say = "Yeah. Hunting down Arbiters isn't our job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1277,7 +1277,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "既然已经确认了引发空间冲击的存在，那我们也该回去了。",
+			say = "We confirmed the cause of the spatial impact event, so it's about time for us to go home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1295,7 +1295,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "很高兴能再次与你并肩作战。还是一如既往的可靠啊，海伦娜。",
+			say = "...It was a pleasure to fight alongside you. You're as reliable as ever, Helena.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1313,7 +1313,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我听不懂你在说什么。",
+			say = "I have no idea what you're talking about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1331,7 +1331,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "啊哈哈哈——那我们就在此别过了！",
+			say = "Ahahahaha! Guess there's nothing to do but say goodbye, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1348,7 +1348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "海伦娜，我们有缘再见。",
+			say = "Hope we meet again, Helena.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1366,7 +1366,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "至于实验场β的诸位嘛~还是希望你们以后不要再见到我们了吧。",
+			say = "And boy, do I hope I never run into you test site beta folk again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1382,7 +1382,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "正值多事之秋，我可不敢保证……",
+			say = "I'm afraid I can't make any guarantees there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1394,7 +1394,7 @@ return {
 			bgName = "bg_huiguangzhicheng_6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "此次很荣幸与你们并肩作战，帮我向{namecode:440:腓特烈大帝}也带去一份问候吧。",
+			say = "It's been an honor. Give Friedrich my regards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1408,7 +1408,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "成~",
+			say = "Will do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1425,7 +1425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "好了。指挥官，你先带阿尔萨斯她们回卡美洛之庭，我稍后就到。",
+			say = "Commander, take those girls back to Camelot. I won't be far behind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1459,19 +1459,19 @@ return {
 			},
 			sequence = {
 				{
-					"于是，这场突如其来的狩猎之旅在此迎来了归途。",
+					"Thus, our part in the impromptu hunting trip had come to an end.",
 					2
 				},
 				{
-					"四方而来之人，转眼间四散而去。",
+					"Our visitors from other branches returned to their respective homes, too.",
 					4
 				},
 				{
-					"怀揣着各自的理想，计算着各自的未来。",
+					"All with their own ideals in mind. All ruminating on the future.",
 					6
 				},
 				{
-					"而那彼方之音，依然在星间回荡着——",
+					"All listening in to the distant voice echoing amidst the stars.",
 					8
 				}
 			}

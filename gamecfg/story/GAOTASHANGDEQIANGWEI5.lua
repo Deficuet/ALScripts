@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "在确认了岛屿上的残骸存在X眷属化侵蚀现象后，伊丽莎白·META立刻让众人返回了女王之光号。",
+			say = "After confirming the presence of X's subjugative corrosion on the island, Elizabeth META immediately ordered everyone back into the Queen's Light.",
 			bgm = "theme-brokenworld-sad",
 			location = {
-				"某处空域·女王之光号",
+				"Unknown location - Queen's Light",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "而后列车在空中开动，将小岛甩在了远方。",
+			say = "The train rode through the air, leaving the small island behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "情况不容乐观，既然出现了X眷属的残骸，这个世界可能已经没救了。",
+			say = "The situation is grave. If X-like wreckage has already appeared here, then this world may be too far gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "伊丽莎白，我们要改变计划了。",
+			say = "Elizabeth, change of plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来那些信号就算真的是幸存者，数量也不可能太多……",
+			say = "Even if that distress signal did come from survivors, there can't possibly be many left...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……确实没有必要建立永久据点和投入后续救援部队了。",
+			say = "I doubt we have any reason to establish a base or request aid at this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下，伊丽莎白大人，我有点不明白……",
+			say = "Your Majesty, I don't understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "我们不是在收到求救信号之后就以最快的速度前来支援了么，为什么……还会来晚呢？",
+			say = "We came to help as soon as we received the distress signal. Why didn't we make it in time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算这片地区的战况不容乐观……肯定还会有其他状态更好的区域吧？",
+			say = "No matter how poorly the battle was going, we should've found SOME place where things were okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "因为不同世界的时间流逝速率不同步。",
+			say = "The flow of time is not equal between worlds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "可是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王知道你想问什么，你先别急。",
+			say = "We understand your question. Patience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "在彼此间互不观测的情况下，因为不存在统一且有意义的参考系，所以不同世界间的时间流速比是完全不可预测且没有意义的。",
+			say = "In the absence of mutual observation between worlds, the flow of time in the one you cannot observe is both immeasurable and fundamentally meaningless to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "归根结底，只有能观测到的世界才有讨论的意义。",
+			say = "In other words, you can only measure and discuss the world you can observe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但若仅仅如此，你看到了一个世界便直接一头扎了进去——",
+			say = "Your mistake is carrying a one-sided perspective into a second world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "你所前往的世界的时间流动速率和你的感知同步了，可是由于你失去了对于来时世界的观测，那边的时间流动速率对你又变成了未知。",
+			say = "Your observations must now be based on the target world, and you can no longer perceive the source world. The flow of time back home is now impossible to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "等你再返回原本的世界，那里的时间可能过去了很久，也可能只过去了一瞬间，完全随机且不可预测。",
+			say = "When you return home to the source world, it may have been years – or it may have been mere seconds. Consider it entirely random and thus unpredictable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "我们之所以没有遇到过这种情况，是因为我们依靠技术对于两边的世界同时进行了观测——更进一步，对时间的流速比进行调节。",
+			say = "We have avoided such a situation by using technology to observe two worlds simultaneously and adjusting the ratio of time's flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "比如我们的卡美洛之庭，此前你们铁血制造的米德加尔特之塔等。",
+			say = "For example, Camelot and the Tower of Midgard built by your world's Iron Blood are two such machines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这种装置的特点是会同时存在于来源世界和目标世界。",
+			say = "A main characteristic of such a machine is that it must exist simultaneously in both worlds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "米德加尔特之塔不会动，只能傻乎乎开在那里被人当靶子，而卡美洛之庭经过了升级不但会动还能隐蔽自身的存在。",
+			say = "The Tower of Midgard doesn't move, but the upgraded Camelot CAN. It also has the power to conceal its own existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "更进一步的，米德加尔特之塔据我所知只有维持两边世界时间流速统一的能力。",
+			say = "Furthermore, as far as we know, the Tower of Midgard only has the power to synchronise the flow of time between worlds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但是卡美洛之庭经过升级后，可以根据需要，将两边世界的局部时间流动速率比在0.5~2之间调节。",
+			say = "Meanwhile, the upgraded Camelot is able to make time flow anywhere from half as fast to twice as fast in localised areas in both worlds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "嗯……这一部分涉及到镜面海域技术的另一类升级应用，太复杂先不展开了。",
+			say = "Hmm. This relates to further applications of Mirror Sea technology, so it may be too complex for you to understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也就是说，这个世界的皇家，之前并没有用这样的装置和我们保持时间流动速率的同步，所以才发生了现在的状况么？",
+			say = "Umm... So what you're saying is, the Royal Navy here doesn't have a device that can synchronise time with us, and that's why this happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不全对，毕竟我和伊丽莎白在选择了盟友之后不可能不考虑到这种情况。",
+			say = "Half correct. Now that we and the Elizabeth here have designated each other as partners for this process, she should have anticipated this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "在交流中，我们曾帮助这里建立了一个简易同步装置。",
+			say = "We once helped her build a basic synchronisation device for this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这个同步装置可以保证我们两边的时间流速比稳定在一个大致区间内，以避免像如今这样的极端情况。",
+			say = "That device should be able to mutually stabilise time between us within a set geographic radius, avoiding extreme circumstances like the ones we face now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "……现状而言，装置大概早就毁于战火了。",
+			say = "...Which means it must've been destroyed in the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是啊……虽然本王依然有些疑惑，不过这恐怕就是目前能得出的最合理结论。",
+			say = "Indeed. Some of this still eludes us, but that is the most logical conclusion given the information we have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王正在根据之前的扫描结果绘制地形图。虽然还没全部完成，不过推测我们现在所在的位置应该在NA海域中。",
+			say = "We're generating a topographical map based on our scan results. It isn't finished yet, but we can speculate that we should be in this world's NA Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "而那些经过改造的塞壬信号，大概是从皇家三岛的方向发来的……多少算是个好消息吧。",
+			say = "As for the modified Siren signal, it came from the direction of the Royal Isles. Good news, more or less.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "绘制完地形图后，直奔LD港的位置？",
+			say = "Once the map is completed, shall we head directly to the LD Port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同意。",
+			say = "Agreed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

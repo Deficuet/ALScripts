@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我骄傲的{dorm3d}，见到您之后，天狼星的心情都变得雀跃而明媚了呢。不知道您会不会产生同样的想法呢……？",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello7",
+			nameColor = "#FFFFFF",
+			say = "Seeing you has truly brightened up my day, {dorm3d}. Do you feel the same...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

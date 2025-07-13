@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>六 你依然会……喜欢我吗？</size>",
+					"'Tis the Season of Love!\n\n<size=45>6.Would You Still... Love Me?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 202261,
 			nameColor = "#a9f548",
-			say = "我，我……",
+			say = "I, I mean...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "格拉斯哥因突如其来的问题而动摇着，若是平时，一定会彼此害羞而强行结束这个话题，然而。",
+			say = "Glasgow was shaken by the sudden question. It was a topic that the two of them normally avoided.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "突，突然怎么了，这样一点都不像你哦？",
+			say = "Wh-why are you acting like that anyway? It’s not like you at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "率直的目光，让格拉斯哥有种内心都被看透的感觉。",
+			say = "I gazed at Glasgow intently, as if peering into her soul.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不行…的啦…",
+			say = "Wait, we can’t...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对……不行的。我们不只是同学，我还是你的女仆。",
+			say = "We... really can’t. We’re not just classmates... We’re also master and maid...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而、而且我还是…这种性格……不知道该如何温柔待人…又怎么能…",
+			say = "And my personality is no good either... I don’t know how to treat you tenderly... or how to get close to your heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "「但我喜欢格拉斯哥。」",
+			say = "“But I still love you, Glasgow.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "过于直接的告白让格拉斯哥不禁睁大了眼睛。",
+			say = "Glasgow’s eyes opened wide in surprise upon hearing my confession.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都，都说不行了啊！ 我…还是保持以前那样的距离就好…！",
+			say = "Wh-what are ye saying?! I... I prefer for things to stay the way they are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果再靠近些……我一定会被你讨厌的！！",
+			say = "If we got any closer... you’d just end up hating me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "格拉斯哥放下打扫工具，试图逃开，但是——",
+			say = "Glasgow tried to put down her cleaning tools and escape, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…！？",
+			say = "Ah, Master?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "打算从身旁穿过逃开的格拉斯哥，却被温柔的臂膀抱住了——仿佛田径比赛时跑过终点线一般。",
+			say = "The master’s arms gently wrapped around the maid, like goal tape embracing an athlete for crossing the finish line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "格拉斯哥无法挣脱，只能直直地看着那双眼睛。",
+			say = "Unable to escape, Glasgow felt herself sinking into the passionate gaze of the person in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请…放开我……",
+			say = "Master... Please... Let go of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这份爱意…我没有承受的自信……肯定会说些不讨人喜欢的冷言冷语…",
+			say = "I don’t know if I am worthy of your love... I just know I’ll end up saying something cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肯定会像以往那样…恶言相向……",
+			say = "I don’t think... I can be any less ill-mannered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "即便如此，抱住格拉斯哥的臂膀依然没有松开，满溢而出的都是“我不在乎”的坚定心意。",
+			say = "Despite her words, I continued to embrace her tightly as if to transmit to her the chorus of “I don’t care” throbbing within my chest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的没关系吗…？即使是像我这样不可爱的女孩，你依然会……喜欢我吗…？依然会…跟我在一起吗？",
+			say = "Are you sure...? Are you sure... you want an uncute girl like me? Would you still... love me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "擦干了格拉斯哥不知何时泛上来的泪花，看着她湿润的双眼，坚定地点了点头。",
+			say = "I wiped the tears from Glasgow’s eyes, not knowing when they had formed. Looking straight into her moist eyes, I nodded slowly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "主人…",
+			say = "Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			},
 			options = {
 				{
-					content = "「再让给我看看你的脸……」",
+					content = "“I want to see more of your lovely face...”",
 					flag = 1
 				}
 			}
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（啊…像这样…温柔地抚摸下巴——）",
+			say = "(Ah... Master... is stroking my chin~)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（……太幸福了……就像做梦一样）",
+			say = "(......I must be dreaming... I’ve never been so happy...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，二人的嘴唇渐渐地贴在了一起——",
+			say = "Slowly, tenderly, our lips found each other, as if never having meant to be apart—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

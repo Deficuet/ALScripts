@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夺回甜蜜美梦！\n\n<size=45>五　安睡时刻</size>",
+					"Sweet Dreams, Come Back to Me\n\n<size=45>5 Back at Home</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "港区·{namecode:461:吕佐夫}宿舍",
+			say = "Port - Lützow's Quarters",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "夜幕降临，我送{namecode:461:吕佐夫}回到了她的房间中。",
+			say = "The sun has set, night has come, and I'm back at Lützow's home to see her off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊~今天真是难得的……悠闲又充实的日子呢……",
+			say = "Ahh... This was an exceptionally relaxing and fulfilling day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "明明说好只是散个步的，结果最后还让指挥官陪我去商业街玩抓娃娃了。",
+			say = "I really thought we'd wrap it up after just a walk – then we went to the city and played the claw machine together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "没想到指挥官在抓娃娃方面还挺有天赋的呢~",
+			say = "You even showed me how surprisingly good you are at nabbing those plushies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,61 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "她指了指我刚刚放在地上的两袋从娃娃机中抓到的毛绒玩具战利品。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 404040,
-			say = "啊，对了，指挥官你看这个~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 404040,
-			say = "这只海豹玩偶，是不是超像你的？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "是因为那个梦……你才特地抓了这只海豹玩偶么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不过我之前就想问了，我哪里很像海豹么？",
+			say = "She gestures toward the spoils – the two plastic bags she just put on the floor, stuffed with stuffed animals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,18 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "我个人是觉得眼神很像哦~很温柔，又让我觉得很可爱。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			say = "少女将海豹玩偶举到我眼前，像是要为自己的话增加几分说服力。",
+			say = "Oh, right, check this seal plushie out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +127,33 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "唔，要不把这只玩偶送给指挥官好了。",
+			say = "See that? Doesn't it look just like you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Did you get that plushie just because of that dream you had?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Moreover – and I've been wondering this the whole time – how am I like a seal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,20 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "你抱着它睡觉的话，说不定能梦到和我一起在海里游泳哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "嗯……既然如此，我也有一个要给你。",
+			say = "Just in terms of looks. Vaguely. You're also both gentle and lovable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,18 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "从一堆毛绒玩具中翻找着，很快找到了特地抓来的抱枕。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			say = "——一条鲨鱼，正紧闭着双眼呼呼大睡。",
+			say = "She holds the plushie in front of her again, as if to lend weight to her argument.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +192,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "欸——你什么时候抓到的这个？明明我们在一起的时候你都没有去过有它的机器……",
+			say = "I think you should have it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 404040,
+			say = "Hug it when you go to sleep and you might even dream of the sea just like me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,20 +219,29 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "趁你去兑换游戏币的时候。",
+			say = "Hmm. Then it's only fair that I give you something, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
+			say = "I excavate a pillow from under the pile of stuffed animals.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
 			side = 2,
-			portrait = "zhihuiguan",
-			say = "我把它藏在其它毛绒玩具下面了，算是给你一个惊喜。",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			say = "It's a shark pillow, looking like it's soundly asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +255,47 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "那我就不客气地收下咯~",
+			say = "Whoa! When did you get that? I'm pretty sure that wasn't in any of the claw machines we played.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "I got it while you went off to exchange for tokens.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Then I hid it under the other plushies so I could surprise you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 404040,
+			say = "Aww, you're so sweet. Thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "{namecode:461:吕佐夫}将海豹玩偶塞进我怀里后，又拿走了我手上的鲨鱼抱枕。",
+			say = "She stuffs the stuffed seal into my arms, then with joy accepts my shark pillow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "她用脸颊蹭了蹭鲨鱼抱枕毛茸茸的外表，接着用手指抚过它的睡眼。",
+			say = "Rubbing her cheek against its fluffy surface, she gently runs her finger along its sleepy eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "唔，还真有点像呢……又软又爱睡觉的小鲨鱼。",
+			say = "A soft little shark that likes to sleep... That's kinda like me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊……说到睡觉，指挥官，这下我真的有点困啦……",
+			say = "*yaaawn*... You know what? This sleep talk has actually made me eepy for realsies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那我帮你再做些辅助入睡的准备？我们一鼓作气让睡意达到最大。",
+			say = "I could fetch some stuff that'll turbocharge your urge to sleep. Want me to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~那姑且就都交给你了~",
+			say = "Sure. Thanks a bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "热牛奶、安神的香薰……播放助眠白噪音的音响设备。",
+			say = "A cup of hot chocolate, some sleep-promoting scented candles, a speaker playing white noise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，这样就差不多了。",
+			say = "Yep, that should be everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,42 +424,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "将一切准备妥当后，轻轻推开了{namecode:461:吕佐夫}的卧室门。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "露……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			say = "床榻上的少女早已阖上眼，呼吸平稳绵长。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			say = "她紧紧地抱着鲨鱼抱枕，嘴角还噙着一丝笑意。",
+			say = "After confirming all is in order, I quietly open the door to her bedroom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +437,29 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（看来这下是用不上这些了……也好，她总算是睡着了，这样也能安心一些了。）",
+			say = "Lüt–",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			say = "Alas, there she is – in bed, eyes already closed, softly snoring.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			say = "And hugging her shark pillow with a small smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +472,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（该回去把落下的工作处理完了。）",
+			say = "(All that prep was for nothing, but that's fine. She finally managed to fall asleep. I'll just stay a little while longer.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Ah, wait, I should go and fetch my unfinished work.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "轻手轻脚地退出她的卧室后，我离开了{namecode:461:吕佐夫}的房间。",
+			say = "Without making a sound, I leave her bedroom and walk out of her home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：塞壬的强化型「棋子」已被击败，但是周边出现了新的强化型「棋子」。",
+			say = "Hostile augmented Pawns have been defeated. Augmented Pawn reinforcements have been detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

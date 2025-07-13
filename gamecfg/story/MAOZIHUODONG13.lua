@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			say = "塞壬要塞近海 白鹰主力舰队",
+			say = "Waters around Siren stronghold - Eagle Union Task Force",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,11 +23,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哥伦比亚",
+			actorName = "Columbia",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…这是…怎么回事啊……",
+			say = "*cough*... What just happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,11 +39,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "蒙彼利埃",
+			actorName = "Montpelier",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大的…冰山?",
+			say = "Cleve! Look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,11 +55,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利夫兰",
+			actorName = "Cleveland",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家…都没事吧？！",
+			say = "Is this a... giant iceberg?! Hey, is everyone okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,9 +73,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_cccp_2",
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			dir = 1,
-			say = "呜…头晕脑胀的…这是什么鬼东西啊！",
+			say = "Dizzy, but okay... And confused! Where'd this thing come from?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -92,11 +92,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大的冰墙…好高…这也是塞壬设下的机关吗！？",
+			say = "Straight outta nowhere, that's where... Wait, where's the Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,11 +108,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "南达科他",
+			actorName = "South Dakota",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官…还有北方联合的各位似乎被隔在冰墙的另一侧了",
+			say = "The Commander should be with the Northern Parliament ships on the other side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,11 +124,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利夫兰",
+			actorName = "Cleveland",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯呢？哥伦比亚，快联系指挥官看看！",
+			say = "Columbia, can you reach them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哥伦比亚",
+			actorName = "Columbia",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…指挥官的通讯器没有响应，其他频道也是杂音，似乎受到了什么干扰",
+			say = "No... I can't get a line through to either of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就靠舰载机——",
+			say = "I know! My planes can find where th– Whuah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			say = "哒哒哒——",
+			say = "BOOOOM!",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
@@ -187,11 +187,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "哥伦比亚",
+			actorName = "Columbia",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冰墙的冰块之间竟然藏着防空炮？！",
+			say = "They've even stationed artillery on the iceberg?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,11 +203,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利夫兰",
+			actorName = "Cleveland",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来不是简单的冰墙啊…简直就是要塞的一部分",
+			say = "That isn't just some iceberg! It's one of the stronghold's defense mechanisms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,11 +219,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有萨拉托加在还是让大家陷入了陷阱，呜呜…失策了",
+			say = "We're in biiig trouble!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,11 +235,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总、总之先往前进吧！寻找突破口，想办法和指挥官尽快会合！",
+			say = "First things first, get the hell out of its range! Those cannons will shoot us to bits if we stay here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,11 +251,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "南达科他",
+			actorName = "South Dakota",
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定要平安无事啊，指挥官！",
+			say = "Dammit... We have no choice! Let us pray the Commander is safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "冰墙的另一侧",
+			say = "Meanwhile, on the other side of the iceberg...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，你还好么，指挥官？",
+			say = "Wake up! C'mon, wake up, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "……",
+			say = "Mrgh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂~~~指挥官！别睡觉啦！！！",
+			say = "WAKE! UP! WE NEED YOU!",
 			effects = {
 				{
 					active = true,
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			say = "！！这里是哪里？！",
+			say = "Hagh!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
@@ -396,24 +396,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "早上好，指挥官~这里是我控制的量产型上哦，你的指挥舰已经在刚才的战斗中被摧毁了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_cccp_6",
-			actor = 702020,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "现在我们因为和主力舰队分离，正在绝赞逃跑中",
+			say = "There you are, sleepyhead! Hope my wake-up call did you good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +410,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			say = "战斗？分离？……是那座巨大的冰墙吗",
+			say = "Wake-up call...? Never mind, where are the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +426,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官，理解能力很强嘛，就是这么回事！",
+			say = "What a thoughtful commander you are. Sorry to say, but your Eagle Union buddies are on the other side of this wall of ice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +443,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在有一个好消息和一个坏消息",
+			say = "Also, I've got some good news, and some bad news for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +460,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "坏消息是，在冰墙出现之后整片海域似乎都镜面海域化了，我们无法和对面的白鹰舰队取得联系",
+			say = "The bad news are: this whole region became a Mirror Sea after that iceberg showed up, and we can't establish contact with the Eagle Union girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,13 +471,13 @@ return {
 			},
 			options = {
 				{
-					content = "好消息是…？",
+					content = "And the good news?",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "轰！",
+			say = "BOOOOM!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
@@ -551,7 +534,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "闲聊就待会再说吧，当务之急是从眼前的敌人中生还下来，之后再想办法和主力舰队会合哦？",
+			say = "The good news will have to wait, it seems. First we must get out of harm's way of the enemy's attacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +551,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！既然已经清醒了，指挥就拜托你了哦，指挥官！",
+			say = "We need someone to command us, so... Do your thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

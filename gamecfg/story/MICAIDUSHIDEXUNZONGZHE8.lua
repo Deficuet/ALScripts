@@ -37,27 +37,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>Chapter-7-谈心教室</size>",
+					"<size=25>Chapter 7 - Discussion Class</size>",
 					0.5
 				},
 				{
-					"<size=45>Scene：警察学校教室</size>",
+					"<size=25>Scene: Police academy classroom</size>",
 					1
 				},
 				{
-					"<size=45>Time：20:42</size>",
+					"<size=25>Time：20:42</size>",
 					1.5
 				},
 				{
-					"<size=45>Date：6月26日</size>",
+					"<size=25>Date: June 26th</size>",
 					2
 				},
 				{
-					"<size=45>凭借你的级别，调查{namecode:165:吾妻}老师的行踪并不困难。</size>",
+					"<size=25>Thanks to your rank within the police, it wasn't particularly hard to look into Instructor Azuma's activities.</size>",
 					2.5
 				},
 				{
-					"<size=45>很快，你来到了一处空教室中，那道熟悉的身影正在静静等候着你……</size>",
+					"<size=25>You arrive outside the empty classroom, where a familiar figure has been quietly waiting for you.</size>",
 					3
 				}
 			}
@@ -66,13 +66,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			bgm = "story-nonightcity",
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "你果然很出色，这么快就找过来了。",
+			say = "To think you'd find me this quickly. You really are outstanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 			actor = 399042,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我现在，应该叫你警视厅的特别顾问，还是……我亲爱的好学生呢？",
+			say = "What should I call you? \"Special advisor? Or maybe you prefer, \"my precious model student\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,24 +113,24 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（直接走流程还是……）",
+			say = "(I can stick to the script here, or deviate from it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:165:吾妻}老师，你是卧底吗？",
+					content = "Are you the infiltrator?",
 					flag = 1
 				},
 				{
-					content = "（顺着剧本情景继续演下去……）",
+					content = "(Just follow the script...)",
 					flag = 2
 				}
 			}
@@ -139,14 +139,14 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "那取决于你想要以什么身份面对我了，{namecode:165:吾妻}老师。",
+			say = "I don't know – are we talking as colleagues, or as instructor and student?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,13 +156,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			optionFlag = 2,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "将问题踢回来了吗~不愧是我的好学生。",
+			say = "Heehee. Turning the question back on me. That's my student.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,13 +172,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			optionFlag = 2,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果其他学生也能像你这样优秀就好了呢。",
+			say = "If only the rest were as excellent as you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
@@ -196,7 +196,7 @@ return {
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "你是指{namecode:547:曾克}警部么？",
+			say = "You mean Officer Zenker?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,13 +205,13 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			optionFlag = 2,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "或许是她，或许又不只是她。",
+			say = "Maybe I am. Maybe I'm talking about others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,11 +221,11 @@ return {
 			actor = 399042,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "你现在过来找我，说明心中已经有结论了吧。",
+			say = "It doesn't matter. The reason you're here is because you've already drawn a conclusion, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,12 +235,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "听信了{namecode:547:曾克}警部的说法？",
+			say = "You believed what Officer Zenker said?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,12 +250,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如果我说我不是卧底，你愿意相信老师吗？",
+			say = "Then, what if I told you that I'm not the enemy? Will you believe your old teacher?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,14 +265,14 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "凡事都要讲证据，我不会单方面听信任何一方的一面之词。",
+			say = "I'm not about to take either of your words without a pinch of salt. I can't reach a decision without proof.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,14 +282,14 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "可是{namecode:547:曾克}警部确实提供了你策划档案馆爆炸案的证据，这又要怎么解释呢？",
+			say = "Speaking of proof, Officer Zenker gave me circumstantial evidence that you orchestrated the archive bombing. What do you have to say to that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,12 +299,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "嗯~没错，我昨天确实去过档案馆。",
+			say = "What is true is that I did go to the archives yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,12 +314,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过那是为了替你寻找资料哦。",
+			say = "The reason for that, however, was to look for a file for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,12 +329,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "老师知道了你收到的调查任务，想到那些卧底可能会用极端手段销毁证据，所以在你吸引她们注意力的时候暗中行动了。",
+			say = "Since I knew you were conducting an investigation, I feared that the crime syndicate may go to some extreme lengths to destroy evidence. That's why I acted in secret while you had the suspects' attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你看，这些是老师昨天拿到的资料。",
+			say = "As for the results, this is what I found yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 			actor = 399042,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还好老师脱身及时，否则别说带出来资料，能不能从档案馆安全脱身都是个问题呢……",
+			say = "Thank goodness I left quickly, otherwise I doubt these records would've survived – or I, for that matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,13 +373,13 @@ return {
 			portrait = 401022,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "旁白",
+			factiontag = "Film Narration",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
-			actorName = "剧中旁白",
+			actorName = "Film Narration",
 			live2d = true,
-			say = "你接过{namecode:165:吾妻}老师的资料，里面的一条条记录显示，整个零课早就成为了卧底组织的大本营。",
+			say = "Azuma gives you a file. It contains records that detail how the entirety of Section Zero has long since become a stronghold for the syndicate's several infiltrators.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,13 +389,13 @@ return {
 			portrait = 401022,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "旁白",
+			factiontag = "Film Narration",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
-			actorName = "剧中旁白",
+			actorName = "Film Narration",
 			live2d = true,
-			say = "不仅如此，她们似乎还存在隐藏更深的上线和下线。",
+			say = "Even more shockingly, it hints at an even deeper level of infiltration within the police.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,13 +405,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "怎么会这样……所以你才会去袭击{namecode:547:曾克}警部么？",
+			say = "My god... This is why you attacked Officer Zenker?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,12 +421,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实，里面有一部分资料是我从她的秘密基地中回收到的。",
+			say = "Not entirely. Some of the records in there are actually from their base, recovered by me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,12 +436,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没想到调查途中她突然回来了，还好老师武力更胜一筹呢。",
+			say = "I didn't anticipate that she'd come back in the midst of my search. Luckily, I was the physically stronger one between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,14 +451,14 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 399042,
 			actorName = "{playername}",
 			live2d = true,
-			say = "原来是这样……那你为什么不向上举报呢？",
+			say = "So that's how it went down... Why didn't you report it, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "这个组织已经在系统内部发展多年，老师能相信的人只有你。",
+			say = "Because, by all accounts, this syndicate has been spreading its roots amongst us for many years now. You're the only person who'd even believe me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,12 +483,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "而你在拿到这些证据之后的行动也一定要慎重……",
+			say = "You need to be extra careful now that you've gotten your hands on this evidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,12 +498,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "警校教官",
+			factiontag = "Police Academy Instructor",
 			dir = 1,
 			actor = 399042,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "卧底——可能是每一个人。",
+			say = "Trust no one. Anyone could be an infiltrator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,11 +513,11 @@ return {
 			portrait = 312013,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98:明石}",
-			say = "CUT~喵！",
+			actorName = "Akashi",
+			say = "Aaand cut, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

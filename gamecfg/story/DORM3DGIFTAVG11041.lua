@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哇哦~在阳光下闪闪亮亮的糖果！真漂亮呢~",
+			say = "Wow, look how the candy sparkles in the sunlight! It's so pretty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼哼——Honey，你听！",
+			say = "Heheh... Honey, listen to this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,14 +68,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "触碰过阳光的糖果，有水晶的声音哦~",
+			say = "Do you hear the sound it makes? Doesn't it sound all crunchy like a crystal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "真的么？难道不会化——",
+					content = "Really? I don't believe that.",
 					flag = 1
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘘——Honey！不要打破这份想象嘛！",
+			say = "Aww, honey, don't say that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,14 +98,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这可是气泡水果糖哦，你猜甜蜜的水晶会不会也是这个味道呢~",
+			say = "This might be just fruit candy, but if crystals WERE sweet, could they taste just like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你可以先尝尝看",
+					content = "You can have the first taste.",
 					flag = 1
 				}
 			},
@@ -144,7 +144,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那我就不客气啦~欸——啊！我的糖！",
+			say = "Well then, without further ado... Ack! Hey, my candy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>五  看不见的笑容</size>",
+					"Me and the Boise\n\n<size=45>5.An Invisible Smile</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 102120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "选哪一件比较好呢，感觉看起来都差不多的样子哎……",
+			say = "Which one do you think looks better? I honestly can't tell a difference between them...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "火奴鲁鲁……在挑新睡衣吗？",
+			say = "Honolulu, are you shopping for pajamas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "翌日散步途中，与{namecode:197}在一家服装店内遇到了火奴鲁鲁。",
+			say = "While shopping with Boise, we ran into the off-duty Honolulu at a clothing store.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "路易斯那家伙…总是说我穿的睡衣太土气了！{namecode:197}你来得正好，能帮我一起看一下么？！",
+			say = "St. Louis said something about pajamas needing to be fashionable as well... Boise, want to come take a look with me if you're not busy?",
 			action = {
 				{
 					type = "shake",
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以哦，指挥官就趁机休息一下吧。",
+			say = "Sure. Um, Commander, you can come too if you want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！指挥官也要一起来挑……？哼，之后换衣服的时候不偷看的话倒是没关系…",
+			say = "C-Commander...?! Y-you'd better not peek, I'm warning you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "唔，这件可爱风格的会比较好……过于成熟的风格感觉有些不太适合你……",
+			say = "Oh, I think this cute one would suit you well... I think it looks better on you than the really \"daring\" stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的么？！那就这件好了~比起爱说怪话的路易斯，还是和你一起买衣服开心一些~",
+			say = "You know, I'm glad you're here right now, Boise... St. Louis is always putting weird ideas in my head...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "虽然这么说……但是路易斯的衣品比我好很多哦……",
+			say = "But, don't you think she has a better understanding of what's fashionable than me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和衣品什么的没关系啦！单纯是从心情上来说！还是{namecode:197}比较好~",
+			say = "That may be true, but y'know... I somehow feel way less pressured about my decision with you here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "哎……？谢谢……嗯，接下来来试试这件怎么样？",
+			say = "I, I guess that's good...? Want to try this one on as well...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在{namecode:197}的建议之下，火鲁奴奴终于挑选到了满意的睡衣。",
+			say = "With Boise's advice, Honolulu was able to purchase a pair of pajamas that suited her well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "离开服装店后又与{namecode:197}闲逛了一会，最终选择了新开的甜品店作为最后一站。",
+			say = "After leaving the store and taking a short break, I decided to take her to a recently-opened bakery.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，听说这家店的甜品很不错……我们买一些带回去吧。",
+			say = "Oh, I heard this place has a pretty good reputation for its desserts. I'd like to bring some back for everyone to try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，糖分有利于提振心情，对于工作来说也是有益的。",
+			say = "Indeed, the array of sweets before me would not disappoint even the most dedicated of sugar aficionados back at port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "唔……买哪个比较好呢……",
+			say = "But, sickeningly sweet stuff is no good either... What should I get...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在甜品店遇到了正在犹豫的海伦娜。",
+			say = "Apparently, Helena was also browsing the store, caught in a similar conundrum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "{namecode:197}，我想买些甜品回去给大家吃，不过口味上…太甜的话会不太好吧？",
+			say = "Oh, hi Boise. I'm trying to pick out some dessert for my friends, but I don't think I want to go with something overly sweet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "嗯…确实不是所有人都能接受太甜的口味……也许一些甜度适中的会比较好哦……",
+			say = "Mm... maybe just go for things that everyone can enjoy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白了……那就从甜度适中的焦糖布丁开始选好了……多谢。",
+			say = "Okay, I think everyone's a fan of caramel pudding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "望着正与海伦娜查看橱窗的{namecode:197}，心中不禁泛起笑意。",
+			say = "Seeing Boise be able to talk naturally with her friends made me feel a bit of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来本日散心的目标已经圆满达成了。",
+			say = "I originally offered to take her shopping to get her mind off whatever was bothering her, but it seems like she's doing just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从甜品店离开后，天色已经完全暗下来了。",
+			say = "After we had finished picking out our desserts, the sky had already become dark.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "本来是为了陪指挥官散心才出来的，结果我好像光顾着和姐妹们聊天了……对不起……",
+			say = "I'm so sorry... It's gotten so late because I stopped to talk to everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "带着面具的{namecode:197}虽然会给人一种难以接近的感觉，但其实面具之后的她坦率又温柔。",
+			say = "Though her mask tends to catch people off-guard, I could easily tell that she is a kind and thoughtful person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "拥有如此可爱的性格，相信港区的同伴们也会很想要与她的关系更近几分吧。",
+			say = "Anyone who spent a little bit of time with her would be able to see her friendly personality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要她能摘掉面具的话……",
+			say = "Having that said though, it's undeniable that the mask gives her a sense of unapproachability...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……？",
+			say = "Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			},
 			options = {
 				{
-					content = "想看{namecode:197}摘下面具的样子",
+					content = "I want to see what you're like underneath that mask.",
 					flag = 1
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官果然还是说出来了。",
+			say = "...I, I knew it... It's been bothering you all along...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "嗯，既然这是你的意思……我会好好考虑的，请给我一点时间…",
+			say = "But if that's how you feel... Umm, p-please let me think it over a bit...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（……我当初为什么会想着去和路易斯打赌啊……不过，如果是指挥官想看的话……）",
+			say = "(I guess I lost the bet with St. Louis... But if Commander wants to see...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

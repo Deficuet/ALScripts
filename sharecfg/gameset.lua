@@ -126,11 +126,11 @@ pg.gameset = {
 	},
 	dorm_exp_once_limit_base = {
 		description = "",
-		key_value = 50000
+		key_value = 30000
 	},
 	dorm_exp_once_limit_by_level = {
 		description = "",
-		key_value = 1000
+		key_value = 800
 	},
 	exp_admiral_a = {
 		description = "",
@@ -329,7 +329,6 @@ pg.gameset = {
 			"ZHONGQIU4",
 			"ZHONGQIU5",
 			"ZHONGQIU6",
-			"",
 			"ZHONGQIU7"
 		}
 	},
@@ -342,7 +341,7 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "",
+		description = "PT",
 		key_value = 516
 	},
 	chapter_move_speed_1 = {
@@ -377,11 +376,12 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			"ANSHAN01",
+			nil,
 			"ANSHAN02",
+			nil,
 			"ANSHAN03",
 			nil,
 			"ANSHAN04",
-			nil,
 			"ANSHAN05"
 		}
 	},
@@ -548,7 +548,7 @@ pg.gameset = {
 	},
 	world_mapbuff_tips = {
 		description = "",
-		key_value = 7000
+		key_value = 8000
 	},
 	world_difficult_value = {
 		key_value = 0,
@@ -675,7 +675,7 @@ pg.gameset = {
 	},
 	world_target_obtain = {
 		description = "",
-		key_value = 2
+		key_value = 5
 	},
 	attr_world_damage_fix = {
 		description = "",
@@ -1855,7 +1855,7 @@ pg.gameset = {
 	},
 	event_tips = {
 		description = "",
-		key_value = 1
+		key_value = 0
 	},
 	air_dominance_level_1 = {
 		description = "",
@@ -1922,7 +1922,7 @@ pg.gameset = {
 		key_value = 1
 	},
 	vote_web_url = {
-		description = "https://www.bilibili.com/blackboard/activity-rqtp2019.html",
+		description = "https://vote.azurlane.yo-star.com/",
 		key_value = 0
 	},
 	skin_ticket = {
@@ -1963,7 +1963,7 @@ pg.gameset = {
 	},
 	night_collection_begin = {
 		description = "",
-		key_value = 21
+		key_value = 19
 	},
 	night_collection_end = {
 		description = "",
@@ -2130,27 +2130,26 @@ pg.gameset = {
 		key_value = 5
 	},
 	joint_boss_ap_max = {
-		description = "",
+		description = " ",
 		key_value = 3
 	},
 	joint_boss_world_time = {
-		description = "",
+		description = " ",
 		key_value = 1800
 	},
 	joint_boss_bonus_time = {
-		description = "",
+		description = " ",
 		key_value = 86400
 	},
 	joint_boss_fighter_max = {
-		description = "",
+		description = " ",
 		key_value = 30
 	},
 	joint_boss_ticket = {
 		key_value = 0,
 		description = {
 			100,
-			100,
-			200
+			100
 		}
 	},
 	curr_boss_ticket = {
@@ -2648,7 +2647,7 @@ pg.gameset = {
 				30
 			},
 			{
-				12,
+				2,
 				0,
 				0
 			}
@@ -3871,5 +3870,29 @@ pg.gameset = {
 			5913,
 			9999
 		}
+	},
+	levellimit_skintype = {
+		key_value = 15,
+		description = {
+			9,
+			19,
+			9999
+		}
+	},
+	levellimit_skinentrance = {
+		description = "",
+		key_value = 15
+	},
+	levellimit_skinstory = {
+		key_value = 15,
+		description = {}
+	},
+	LOADING_HX_LV = {
+		description = "",
+		key_value = 15
+	},
+	LOGIN_HX_LV = {
+		description = "",
+		key_value = 15
 	}
 }

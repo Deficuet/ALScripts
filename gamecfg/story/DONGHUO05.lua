@@ -13,7 +13,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "目前仍未找到特殊观察对象“关键点G”…并且…白鹰的特遣舰队已经开始介入了",
+			say = "The special observation target, \"Code G,\" hasn't been captured yet... And now, an Eagle Union task force has come to crash the party.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			say = "看来是“关键点G”偷偷发出的秘密信号引来了蜜蜂们啊",
+			say = "It seems that the signal secretly sent out by Code G has attracted some unintended guests...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -53,7 +53,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "“执行者”系列已经部署到了目标海域，虽然都是些旧型号了，但应该还是可以应对局面的",
+			say = "In that case, I'll move my Executors as well. They're rather outdated and don't have much going for them in the personality department, but they should be more than a match for them.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "“应该可以”是什么概念？在我们的词汇里没有这么主观的概念…",
+			say = "\"Should be?\" A concept as amorphous as that should not exist within our program.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "不要小看了她们，还是把搜索工作放在第一优先进程…",
+			say = "Don't underestimate them. For now, locating Code G is our top priority.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "至于白鹰的那帮牛仔们…作为一次新的实战测试岂不一举两得",
+			say = "As for those Eagle Union cowgirls... they can be used for our new combat test... two birds with one stone, as they like to say.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "了解，立刻开始重新分配系统资源",
+			say = "Understood. Diverting system resources accordingly.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "那么…“关键点G”……这一次要怎么样才能再把你引诱出来呢？呵呵呵…",
+			say = "Code G... How should I lure you out this time? Heehee...",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

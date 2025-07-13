@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不知不觉，我也跟着更放松起来了呢……",
+			say = "I'm starting to feel at ease too, now.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone5",
 			typewriter = {
 				speed = 0.05,

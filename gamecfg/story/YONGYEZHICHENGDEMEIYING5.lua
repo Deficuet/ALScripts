@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>五 命运的分叉路</size>",
+					"Tales From the Count's Castle\n\n<size=45>5 The Crossroads of Faith</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "搜索了整个房间，发现了一个伪装成雕像的饮水机，以及一个杯子，但是……",
+			say = "After searching every nook and cranny, all I managed to find was a water cooler disguised as a statue and some paper cups.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "并没有找到红色的饮料，或者其他类似吸血鬼食物的东西。",
+			say = "That was it. No food a vampire might eat, not even a red-colored beverage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官一定注意不到被诅咒的那个……）",
+			say = "(The Commander's never going to guess it's that cursed thing...)",
 			fontsize = 40,
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:449}……小声点……还有台词……）",
+			say = "(Shh! Also, it's time to say the line.)",
 			fontsize = 40,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（啊，对，对不起……）",
+			say = "(Oops! Right, sorry.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "人类，留给我们的时间快不多了……我能感觉到，“永夜之主”的气息越来越近了……",
+			say = "Time is nearly out, human. Emden and her underlings draw near. I can sense it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "居然还是有时限的关卡……接下来应该——",
+			say = "Nobody had told me there was a time limit. I had to make a choice, and quick...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,11 +161,11 @@ return {
 			},
 			options = {
 				{
-					content = "随便进一个门",
+					content = "Go through one of the doors",
 					flag = 1
 				},
 				{
-					content = "思考{namecode:449}刚才的话……",
+					content = "Think about what Elbing said",
 					flag = 2
 				}
 			}
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "没有时间浪费在解谜上了。既然有一扇门是对的，这里就相信自己的运气吧！",
+			say = "\"I've wasted enough time on this riddle. It's time for the all or nothing option!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "门后是一条狭长、弯曲而又昏暗的走廊。走廊内又有无数的分支，但无论哪一个分支，都只会让人回到这条昏暗的走廊。",
+			say = "The door led into a long, dark, cramped corridor. Following it brought me to a big crossroads, but all the paths only led back to the same dark corridor.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "到最后，就连入口的位置都找不到了……",
+			say = "It wasn't long before I lost sight of which way I even came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>BAD END 02：迷失</size>",
+					"Bad Ending – The Door to Darkness",
 					2
 				}
 			}
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "完全被困，早知道就不这么冲动了……",
+			say = "I'd gotten myself hopelessly lost. I shouldn't have left it up to chance...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -294,13 +294,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这边………",
+			say = "Psst, over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,25 +315,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "似乎听到了一个熟悉的声音——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			bgName = "star_level_bg_156",
-			hidePaintObj = true,
-			dir = 1,
-			optionFlag = 1,
-			nameColor = "#a9f548",
-			say = "指挥官，我在这边哦~",
+			say = "A familiar voice rang out amid the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +333,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "看来您因为一时心急，把希望押在了运气上呢。",
+			say = "Behind you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +351,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "不过很遗憾，这里的走廊是有机关的。如果没有完成解谜的话，无论哪扇门都只会通往BAD END哦~",
+			say = "Seems you panicked and made a poor decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +369,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "现在请跟紧我，然后拿好这个小十字架~",
+			say = "This corridor is rigged, you see. All the doors in the hall lead to a bad ending if you don't solve the riddle first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +387,25 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这本来是本关的通关奖励，后面的场景里你会用上的。",
+			say = "Follow the sound of my voice. Oh, and take this small cross.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			bgName = "star_level_bg_156",
+			hidePaintObj = true,
+			dir = 1,
+			optionFlag = 1,
+			nameColor = "#a9f548",
+			say = "It's your prize for getting through this trial. It'll be useful later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然只是试玩，就请“续关”继续吧~",
+			say = "You're cleared to go to the last trial. Enjoy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "“被诅咒的”“破除诅咒”……都和诅咒有关。",
+			say = "\"A strength-sapping curse... Sustenance that overrides it... So a curse is again the crux of the problem here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "而身边和诅咒相关的物品……恰好有一个从上一关中得到的“血之诅咒项链”！",
+			say = "\"Something to do with curses, then... I suppose there's the Cursed Blood Necklace I got.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "要说这个项链和“血液”的关联点，除了名字之外，还有项链上镶嵌的“红宝石”。难道说……",
+			say = "\"That's not food, though... Wait a minute. Cursed blood... Maybe the ruby is the answer?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "……和猜想中一样，这个“红宝石”稍微用一些力就抠下来了。",
+			say = "\"I mean, this can't be a real ruby to begin with. Let's see here...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "将宝石丢在水杯里，宝石随即化开，将原本清澈的水染成了一片红——抿了一口，味道像是草莓果汁。",
+			say = "I extracted the ruby from the necklace to inspect it more closely. It had a label on the underside that reads \"strawberry soda.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（太好了……果然，只要我想着指挥官一定做不到，指挥官就能顺利解开谜题…！）",
+			say = "(Thank goodness... The Commander figured it out just as I voiced my doubts!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "咕嘟……咕嘟……",
+			say = "Now take that and dissolve it in water. Yeah, like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过杯子的{namecode:449}，一口气喝下了这杯“血液”",
+			say = "I put the \"ruby\" in a cup of water, waited a minute, and gave the finished strawberry soda to Elbing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "人类……我现在已经恢复力量了。暗月啊，聆听我的呼唤，为我显现正确的道路吧！",
+			say = "You've helped me regain my strength, human. O, moon shrouded in darkness, heed my call and show the way forward!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "伴随着{namecode:449}略显生硬的咒语，四周的门一扇接一扇地关上，最终只留下了唯一的出口。",
+			say = "Elbing stiffly recited a chant, and one by one, the doors in the hall closed until only one remained open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这就是正确的路了……",
+			say = "This is the correct path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "人类，带上这个吧。这是“永夜之主”用来限制主人力量的道具，如今它已经威胁不到主人，就送给你了。",
+			say = "Human, take this. The crones used it to inhibit my master's powers, though now it is beyond useless. You may have it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "接过{namecode:413}给的道具——一个金属制的小十字架。",
+			say = "U-47 walked up and gave me a small metal cross.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（呼……希望指挥官接下来的关卡也能够顺利……不，不对！应该是希望指挥官接下来的关卡都不顺利……这样就一定会顺利过关的！）",
+			say = "(Whew... I hope everything from this point on will go smooth– Wait, I mean, terribly and end in failure for the Commander! Yeah, that should do it!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

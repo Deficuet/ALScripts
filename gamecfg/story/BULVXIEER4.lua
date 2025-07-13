@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>四　比港区更远的地方</size>",
+					"All-Love Assault!\n\n<size=45>4. To Go Beyond the Port</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "又是一日的指挥室中——",
+			say = "It's a regular, uneventful day...",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然是工作日，虽然是工作时间，但……",
+			say = "Today it's back to work. I'm chewing through paperwork when suddenly, Blücher speaks up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……下班之后和指挥官去哪里约会好呢？",
+			say = "Hmm... Where should we go on a date after work today...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -81,7 +81,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "铁血的咖啡馆么？但是已经去过好几次了，指挥官应该也腻了吧……",
+			say = "Maybe the Scharlachroter Tresen? No, we've been there so many times you're probably bored with it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者去水族馆？湛蓝的氛围，感觉能让人的心情都平静下来。但是时间上会不会有点太紧了……",
+			say = "What about the aquarium? It's comfy and tranquil, but we won't have much time before they close...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你有什么想去的地方么？",
+			say = "Thoughts, Commander? Where do you wanna go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,19 +130,19 @@ return {
 			},
 			options = {
 				{
-					content = "咖啡馆。",
+					content = "\"Scharlachroter Tresen.\"",
 					flag = 1
 				},
 				{
-					content = "水族馆。",
+					content = "\"The aquarium.\"",
 					flag = 2
 				},
 				{
-					content = "其实都可以。",
+					content = "\"You decide.\"",
 					flag = 3
 				},
 				{
-					content = "留下加班。",
+					content = "\"I'm working overtime today.\"",
 					flag = 4
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，那就都听指挥官的~",
+			say = "Heheh☆ Then that's where we'll go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次试试全糖的碳酸咖啡怎么样？！之前{namecode:428}强烈推荐给我的，据说喝下去的感觉就像甜甜蜜蜜的恋爱一样~",
+			say = "Eugen recommended the coffee soda with extra sugar. We should give it a try! I bet it tastes as sweet as my love does!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:450}十分期待~！",
+			say = "Oh boy, I can't wait for this shift to end!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就水族馆好了~指挥官，我一会需要暂时请个假回宿舍拿一下摄像机！",
+			say = "Heheh☆ Aquarium it is! Mind if I go grab my camera before we head out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟除了拍摄鱼儿，还要记录我和指挥官爱的证明嘛~",
+			say = "I wanna take pics of the fish, and more importantly, of you, my sweetheart~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！只要能陪在我身边去哪里都可以的意思么？",
+			say = "Heheh☆ The place doesn't matter as long as I'm there, am I right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:450}也是，能陪伴在指挥官的身边，不论是去哪里约会都是很开心的哦！",
+			say = "I couldn't agree more~ Wherever I am, I'm happy if you're by my side♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最喜欢指挥官了~那就由{namecode:450}来决定咯~",
+			say = "I love you so much, Commander! I'll let my gut decide where we'll go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行！！！！！！！！！！！！！！！！",
+			say = "NO! You are NOT working overtime, full stop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的……那就由我来独断专行决定咯！",
+			say = "Hmph! If you're gonna be that way, I'll just decide on my own!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……不得不说，在约会这一方面，{namecode:450}实在是有着令人惊叹的热情。",
+			say = "Eugen was right about Blücher. She is mind-bogglingly passionate when it comes to dates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "当然，也同时能感受到从她身上传递过来的强烈爱意。",
+			say = "Of course, that's just how she expresses her honest – albeit overbearing – affection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不知不觉间，也许……我也多少被她影响了。",
+			say = "Having known her for a while now, I've more or less gotten used to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯，嗯，计划完成~这下接下来几天的约会计划都排得满满当当咯~",
+			say = "...There we go, all done! I've even made plans for dates several days from now~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有还有，指挥官！下个休息日咱们出门旅游吧~！我想跟你去滑雪~",
+			say = "Oh, by the way! I wanna travel somewhere with you on your next holiday! Like to a ski resort or something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "去港区的滑雪场么？",
+			say = "\"You want to go skiing?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不~去更远的地方！",
+			say = "Yeah! I know a great resort! It just takes some time to get there~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -483,7 +483,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:450}想跟指挥官一起去更远的地方感受不一样的环境！",
+			say = "We've been all around the port already, and I wanna see the world with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要在各种地方向你表达爱意，当然，还要在各种地方听指挥官回应我的爱意哦~！",
+			say = "That, and I wanna say and hear \"I love you\" in novel, romantic places~ Heheh♡",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "众人根据超级游戏制作机显示的数据，来到了一处陌生的海域。",
+			say = "Using the coordinates displayed on Questy MacGuffin, the group charged into an unfamiliar sea region.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "根据显示的位置，春菜和唯就在不远处的海域。",
+			say = "If the tracking system is trustworthy, then Haruna and Yui should be nearby~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "很好，很好~",
+			say = "All is well so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "敌人……也差不多该登场了吧？",
+			say = "I suppose that means it's time for the enemy to appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "话音刚落，海面上突然出现大量的敌人。",
+			say = "Seemingly endless enemies appeared on the water, confirming her suspicions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "这些敌人的外形与之前遇到的有所不同，看起来装备更加精良，火力也更加强大了。",
+			say = "Unlike the ones from before, though, they had more advanced equipment. Their firepower seemed bolstered, as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "喂喂，这些家伙越来越不好对付了啊。",
+			say = "Hey, now... They're just gonna keep getting harder to fight, aren't they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "菈菈小姐，你们保留实力，这种程度的敌人就交给我们处理吧。",
+			say = "We can handle this fleet well enough. You all should try to preserve your energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "诸位，自由开火，速战速决！",
+			say = "All ships, fire at will! We're settling this one fast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

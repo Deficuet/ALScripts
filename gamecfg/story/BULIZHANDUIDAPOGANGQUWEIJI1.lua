@@ -11,35 +11,35 @@ return {
 			bgm = "login-20250401us",
 			sequence = {
 				{
-					"阿卡西公司（Akashi Corporation），一家以{namecode:98:明石}总裁为首的庞然大物。",
+					"There was an entity that had contributed more to the port's prosperity than any other, and provided it with all the resources it needed.",
 					1
 				},
 				{
-					"它提供了港区所需要的一切资源，是推动港区繁荣的最大功臣。",
+					"The Akashi Corporation. It began as a small business, growing rapidly and beyond expectations under the leadership of its namesake president.",
 					2
 				},
 				{
-					"然而……随着时间推移，阿卡西公司逐渐成长为了无孔不入的垄断集团。",
+					"However... As time passed, the Corporation had gradually morphed into a monopoly business that had a finger in every pie.",
 					3
 				},
 				{
-					"依靠公司超级AI-TC（The Contingency）的力量……",
+					"This was made possible by the computing power of its proprietary super AI – TC – The Contingency.",
 					4
 				},
 				{
-					"……阿卡西公司垄断了港区的一切，进而控制了港区的一切。",
+					"It allowed the Corporation to gain a stranglehold over each and every industry in the port until it eventually came to rule the port itself.",
 					5
 				},
 				{
-					"直至今日……",
+					"This brings us to the present.",
 					6
 				},
 				{
-					"港区已经不存在能够反抗阿卡西公司的力量了……",
+					"There is no longer even a single group that dares to oppose the Akashi Corporation...",
 					7
 				},
 				{
-					"……么？",
+					"...Or maybe there is?",
 					8
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "某时某地，布里战队的秘密基地中——",
+			say = "Inside the Bulin Brigade's Secret Base",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妹妹们，我们不能放任邪恶的阿卡西公司继续不管了purin！",
+			say = "Sisters! We can't let the Akashi Corporation run rampant any longer, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们要打倒{namecode:98:明石}总裁和超级AI-TC，拯救我们的港区purin！",
+			say = "We've got to take down President Akashi and her super AI and save the port, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐说得好buli！所有人都以为港区已经没有抵抗的力量了……",
+			say = "She's right, bulin! People think the port doesn't have the strength to fight back anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,66 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是她们都忘了我们布里三姐妹战队的存在了buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 100020,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不鸣则已一鸣惊人burin！邪恶的阿卡西公司就交给我们三姐妹打倒吧burin！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "打倒阿卡西公司buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 100010,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "打倒阿卡西公司purin！",
+			say = "But they're forgetting about the Bulin Brigade, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,20 +151,10 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打倒{namecode:98:明石}总裁burin！",
+			say = "Once we get going, we're unstoppable, bulin! We can take down that evil corporation, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -233,66 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打倒{namecode:98:明石}总裁buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 100010,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "打倒{namecode:98:明石}总裁purin！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100020,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "打倒超级AI-TCburin！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "打倒超级AI-TCbuli！",
+			say = "Down with the Akashi Corporation, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +187,76 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打倒超级AI-TCpurin！",
+			say = "Down with the Akashi Corporation, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 100020,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Down with President Akashi, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 100000,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Down with President Akashi, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 100010,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Down with President Akashi, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,10 +269,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐们，事不宜迟——我们立刻出发吧burin！",
+			say = "Down with that super AI, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -341,10 +292,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻出发吧buli！",
+			say = "Down with that super AI, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -354,72 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻出发……不对purin！你们知道她们都躲在什么地方么purin？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "唔……不知道buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过{namecode:98:明石}总裁肯定在公司大楼里，超级AI-TC肯定在机房里buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而且机房也肯定在公司大楼里buli！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100010,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "有道理purin！我们这就去侦察公司大楼吧purin！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100000,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "可是大楼很高，我们要怎么才能侦察buli？",
+			say = "Down with that super AI, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,33 +328,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐们！我知道一座最高的山burin！",
+			say = "Let's strike while the iron is hot and set off right now, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 100020,
+			actor = 100000,
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比公司大楼还要高得多burin！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100020,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "只要登上山顶，就能将公司大楼内的情况看得清清楚楚了burin！",
+			say = "Let's go, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +354,46 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们还等什么？妹妹们，让阿卡西集团见识一下我们布里战队的力量purin！",
+			say = "Let's– Hang on, bulin! Does anyone even know where the Prez and her AI are, bulin?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100000,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hmm... I sure don't, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100000,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "But you'd think the Prez is in her company headquarters, and the AI is in a server room, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100000,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "That server room has to be in the headquarters, too, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +406,85 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻出发吧purin！",
+			say = "Makes sense, bulin! We'd better scout out the building immediately, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100000,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "But how are we gonna scout out a whole skyscraper, bulin?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100020,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "From a really big mountain, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100020,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "A mountain bigger than those headquarters, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100020,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We should be able to see everything in the building clear as day once we reach the mountain's summit, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100010,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Good idea, bulin! Alright, let's go and show that corporation what the Bulin Brigade is made of, bulin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100010,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Excelsior, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

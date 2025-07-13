@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"Years ago...",
 					1
 				},
 				{
-					"亚特兰蒂洋",
+					"Somewhere in the Atlantic",
 					2
 				},
 				{
-					"EP3-「故人」",
+					"Marseillaise's recollection",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "story-french1",
 			bgmDelay = 2,
-			say = "少女在洋面上疾驰着。",
+			say = "Breaking away from the Reenactment warzone, Marseillaise glided across the ocean's surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "不远处，是一片还在燃烧的钢铁废墟。",
+			say = "As she continued onwards, she soon saw a mass of twisted, burning steel appear on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "没想到会在这里遇上塞壬舰队……",
+			say = "I can't believe the Siren fleet made it this far...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来这里不再安全了。",
+			say = "Even this place isn't safe anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "只能继续向西。",
+			say = "If the Sirens have already pushed forward this much, we have no choice but to go westward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "阿非利加大陆上，也许还有安全的地方……",
+			say = "There might be a suitable location on the African mainland...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "少女向前方看去，放缓了速度。",
+			say = "The girl changed directions, and slowed down her speed into a cautious advance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "此时，一个身影不知以何种方式躲过了少女的雷达，正静静地停在不远处。",
+			say = "A signal had suddenly appeared on her radar, and was moving towards her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "…………",
+			say = "What's the meaning of this...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "好久不见，马赛曲。",
+			say = "I'm glad to see that you're doing well still, Marseillaise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "…………可怖？！！",
+			say = "You're... Le Terrible?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "真的是你么？！",
+			say = "Is that really you? You're not a Pawn, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "自从凯比尔港的事之后，就一直没有你的消息，我还以为你已经……",
+			say = "I haven't heard from you since the Kébir Reenactment... I thought you had...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "已经阵亡了，或者选择在某个地方自沉了，是么。",
+			say = "Sank on the battlefield, or scuttled myself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "嗯……近来发生的悲剧实在太多了。",
+			say = "Ugh... Sorry, it's been one tragedy after another these days...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你能平安无事真好，很高兴能在这里见到你。",
+			say = "In any case, I'm glad to see you alive and well. I certainly was not expecting that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……嗯，我也是。",
+			say = "Indeed, the same goes for me. You could even say I was so happy I forgot to be surprised.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "消失的这段时间，我只是在执行审判庭的命令而已。",
+			say = "To tell you the truth, there's been a ton going on behind the scenes with the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "在凯比尔港之后，一直……？",
+			say = "Ever since Kébir?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "嗯，一直。",
+			say = "Yep, the whoooole time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "因为要隐藏行踪，所以不能和你们联系。",
+			say = "I needed to remain undercover, so I wasn't able to reach out to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "好了，先不说我。",
+			say = "But, this isn't about me–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你正在寻找接下来避难的地方，没错吧？",
+			say = "You're searching for a place to bunker down in, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "嗯……这片区域已经不再安全了。接下来打算向西去……",
+			say = "Correct. This place isn't safe anymore, and I need to go further west.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不用担心，我已经找到一个好地方了。",
+			say = "Actually, I know just the place for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "你是要建议我去找黎塞留主教么？",
+			say = "Are you going to take me to Cardinal Richelieu?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "如果是这样的话——",
+			say = "If that was your intention, then I can't–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不是。",
+			say = "Not quite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "圣赫勒拿，那里有审判庭的隐秘据点，绝对安全——",
+			say = "I'd like to take you to Saint Helena, a secret Tribunal stronghold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们就去那里吧。",
+			say = "I assure you, it's the safest place you'll find.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,15 +585,15 @@ return {
 			},
 			sequence = {
 				{
-					"此刻",
+					"Present day",
 					1
 				},
 				{
-					"圣赫勒拿岛·周边海域",
+					"Near Saint Helena Island",
 					2
 				},
 				{
-					"自由鸢尾主力舰队",
+					"Iris Libre Main Fleet",
 					3
 				}
 			},
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "此起彼伏的爆炸声在海域中回荡。",
+			say = "The peal of large-caliber cannons rang out in the waters surrounding Saint Helena.",
 			soundeffect = "event:/ui/baozha1",
 			typewriter = {
 				speed = 0.05,
@@ -626,7 +626,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "此刻，圣赫勒拿岛已经变为了一片火海。",
+			say = "Burning Siren wreckages littered the area, dyeing the otherwise placid scenery a smoldering red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "呜哇哇……好惨……",
+			say = "How awful...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801040,
-			say = "塞壬这是……真的想要把山头夷平么？！",
+			say = "The Sirens really are trying to flatten these mountains...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "贝亚恩，岛屿情况如何？",
+			say = "Béarn, how's the scouting going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "岛屿周边的三分之二海域已被塞壬舰队占领，其中包括少量代行者。",
+			say = "The Siren fleet has already captured most of the surrounding waters. Enforcers are also active in this area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "同时，侦察机发现了数个还在运作的防御炮台，我们应该不算来的太迟。",
+			say = "However, a small fraction of the island's autonomous defense systems are still online, which means that the interior facility likely hasn't been destroyed yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……三分之二的海域？",
+			say = "They weren't able to capture the entire area?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "没错。塞壬舰队似乎在岛屿外围空出了一个区域，原因不明。",
+			say = "Correct. Their forces are not deployed in certain areas of the island, though I'm not sure why.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801040,
-			say = "也许是因为要塞过于坚固，所以塞壬只能选择集中火力？",
+			say = "Are they trying to focus their attacks due to the sheer firepower of the defenses?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "毕竟前往这里支援的代行者舰队被我们消灭了嘛~",
+			say = "Nah, they're probably still reeling because we destroyed their reinforcements!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "既然如此，我们就从塞壬空出来的海域进行突入吧！",
+			say = "In any case, Lady Richelieu, let's get ready to land!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……等等，不太对劲。",
+			say = "Wait, don't be in such a rush.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "自从接近圣赫勒拿岛之后，有些事就不太对劲。",
+			say = "There's something not quite right about this island. You see it too, Le Terrible– I mean, Béarn?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖……不，贝亚恩，你有没有感受到一种奇怪的气息？",
+			say = "This place... reeks of Infection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "……奇怪的气息？",
+			say = "\"Infection?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "对，和之前在圣堂中的感觉类似，这里似乎也有“污染”存在的“气息”。",
+			say = "Yes, it reminds me of what I felt when I was purifying the basilicas on Kerguelen Island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "抱歉，黎塞留大人，我什么都没感受到……",
+			say = "Sorry, but I'm not sure I understand you, Cardinal Richelieu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 807010,
-			say = "不过这里并不处于镜面海域内部，“污染”的概念应该不会存在吧。",
+			say = "I don't believe this area to be a Mirror Sea. At least, none of my equipment indicates anything to that extent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "我还不清楚……但是毫无疑问，塞壬的异常部署肯定和这股气息有关。",
+			say = "Understood. I can't say for certain if it is the same phenomenon, but we should still prioritize repelling the Siren fleet all the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，到了这里有办法跟马赛曲取得联络么？",
+			say = "Le Terrible, is the Tribunal's secret channel still open?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,7 +1017,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "正在尝试，通讯无法接通，不过我有办法用要塞内设备定位她的位置。",
+			say = "Of course not. I already tried using it several times, but my message didn't go through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……还需要一些时间。",
+			say = "There has to be another way of contacting Marseillaise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "从周围残骸的数量上来看，就算防御系统全开也做不到这种程度。",
+			say = "(There's no way all these Siren wreckages were created just by the stronghold's defenses...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "她肯定是亲自出来迎击过……",
+			say = "(I fear that Marseillaise jumped into the fray herself...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "早就告诉过她，一定要注意自己的安全……",
+			say = "(Even though I stressed the importance of her safety, I couldn't get her to listen after all...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1107,7 +1107,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "这个笨蛋……",
+			say = "(This is why battle freaks are so hard to deal with...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "那我们就为你争取时间。",
+			say = "We'll begin engaging the Sirens to draw their attention. Le Terrible, keep looking for a way to get us in touch with Marseillaise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "所有人，从我标注的位置发起攻击，吸引其注意力，为圣赫勒拿岛减轻压力。",
+			say = "All ships, start moving towards the coordinates I just sent you! Draw the Sirens away from Saint Helena!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1179,7 +1179,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801030,
-			say = "咦？那个方向是塞壬舰队密集的方向欸！",
+			say = "Huh? Isn't this place where the Sirens are most densely concentrated?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,7 +1215,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "没错。塞壬不想踏入的区域，我也不想进去。",
+			say = "Yes. Look at it this way – if the Sirens don't want to deploy their forces somewhere, then we shouldn't either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1233,7 +1233,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "在战斗中要格外留意那片区域的情况，我总有种不好的预感……",
+			say = "Be careful when you're fighting. I have a bad feeling about that \"infected\" area...",
 			painting = {
 				alpha = 0.3,
 				time = 1

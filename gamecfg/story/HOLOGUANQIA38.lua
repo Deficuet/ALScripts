@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-inochi-inst",
 			dir = 1,
-			say = "这已经是第三个入口了哎…",
+			say = "This is the third entrance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬…提前把所有入口都炸毁了",
+			say = "... And they've all been destroyed by the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在决定乘坐过山车之后，众人连续找到了三处入口，不过基座都已经被炸毁了",
+			say = "They searched for the entrance to the roller coaster, but all three had been completely destroyed by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "从作战开始之后，就感觉塞壬行动总是快我们一步。看来对面有一个懂兵法的军师坐镇呢",
+			say = "It feels like they're always a step ahead of us... the Sirens must have some really brilliant tactician on their side...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}，怎么了？",
+			say = "Kawakaze, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "破坏的痕迹。规整的不像是舰炮或者航弹留下来的。",
+			say = "This destruction was wrought not with gunfire or explosives...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "诗音的魔法爆炸之后，就是这种形状哦？",
+			say = "Are you saying it would look like this if I blasted it with my magic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "诗音…过山车原来是被你摧毁的么？！",
+			say = "Shion... are you behind this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然不是啊！！",
+			say = "No, I'm not!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一区域塞壬派来阻碍我们的人很明显了呢",
+			say = "If it's not our Shion, then that should be our next hint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "诗音的镜像…",
+			say = "A Shion clone, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

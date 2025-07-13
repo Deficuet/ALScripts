@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>五　宣传也很重要！</size>",
+					"Summer Surprise\n\n<size=45>5 Spread the Word!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·学院广场",
+			say = "Port - Academy Courtyard",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家还在为炎炎的夏日困扰么~想要寻找避暑的好去处么~",
+			say = "It's been super hot outside lately, and I know you've all been looking for ways to beat the heat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明天，就在港区的室内泳池，有我为大家准备了一个夏日惊喜！",
+			say = "But look no further! Tomorrow, there will be a special surprise awaiting you all at the port's indoor pool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一个超大~超好玩的惊喜~！大家有空一定记得要来玩哦——！！！",
+			say = "It's gonna blow your mind! So be there or be square!",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "一大早就看见爱斯基摩人在广场上卖力的宣传着，元气满满的声音吸引了港区的很多人。",
+			say = "Since early in the morning, Eskimo has been promoting her work in the academy's courtyard. Her energetic voice seems to be drawing a lot of attention.",
 			effects = {
 				{
 					active = false,
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官早上好~给，明天活动的宣传单~！",
+			say = "Good moooooorning, Commander! Here, take a flyer for tomorrow's event~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "居然还认真的准备了手绘的宣传单……？！",
+			say = "\"Woah, you even made your own flyers by hand...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次多亏了指挥官的帮忙，明天是休息日，指挥官也请一定来玩哦~",
+			say = "I couldn't have done this without you, so come by and visit tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "终于可以见到爱斯基摩人准备了这么久的神秘惊喜的成果了么------",
+			say = "So this must've been what she was working on. Just one more day until the grand reveal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应一定会去",
+					content = "\"I'll be there. It's a promise.\"",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就约好了哦~！",
+			say = "Woohoo! I'll see you there then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶~在室内泳池举行的惊喜活动？",
+			say = "Huh? A surprise event at the indoor pool?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就奇怪为什么昨天泳池突然封闭了一天……果然和爱斯基摩人有关！",
+			say = "I was wondering why it was closed all day yesterday... Turns out, Eskimo was behind it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前的预感成真，果然超有趣的事发生了！",
+			say = "Things certainly are a lot livelier here now, just as I said the other day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……难道是游泳比赛之类的么，要回去准备泳装了。",
+			say = "Hm... Do you think it's gonna be a swim meet? I'll have to head back and grab my swimwear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，泳装？不需要啦！反而应该多穿一点才行哦！",
+			say = "Huh? Swimsuit? No, no, you won't be needing that. If anything, you'd better dress warm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "泳池...水塘...比较有爱斯基摩人氛围的...难道说是钓鱼大会？！",
+			say = "Pool... Pond... Something related to Eskimo... Woah, are you gonna have a fishing competition?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……坐在满是鱼的泳池边上，本可爱文静的美少女在认真钓鱼的样子……",
+			say = "...Ah, the inspiration is coming to me. Cute girls sitting by a pond, locked in a life-or-death competition against starvation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "OK~我现在就去准备钓鱼工具！",
+			say = "Absolutely fantastic! I'm going to go buy some fishing equipment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，也不是啦！主要的工作我都准备全部好了~！",
+			say = "Hold up, you're way off with that one... Look, you don't have to bring anything with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他的注意事项都写在传单上，大家记得仔细阅读哦！",
+			say = "Just read the details on the other side of the flyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "传单背面确实写着几行字------",
+			say = "Huh, there was something written on the other side of the flyer? Never noticed that before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "「明日全天，在港区室内体育馆为大家准备了特别惊喜，欢迎港区的大家来玩！」",
+			say = "\"We've prepared a special surprise for you at the pool inside the port's gym tomorrow. Come and have some fun!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "「请做好一定程度的防寒对策哦！」",
+			say = "\"PS: Things might get a bit chilly, so dress warm!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "......防寒对策？",
+			say = "...Chilly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

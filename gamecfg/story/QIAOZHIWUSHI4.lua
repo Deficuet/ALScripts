@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>四　骑士长的指挥</size>",
+					"Another Leader?\n\n<size=45>Chapter 4 - The Knight Commander's Leadership</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "和乔治五世接触过后，有时会有一种其实她才是皇家领导人的错觉",
+			say = "When I talk to King George V, I sometimes feel like she is the de facto leader of the Royal Navy.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "港区周边·演习海域",
+			say = "During a sortie...",
 			dir = 1,
 			bgm = "battle-1",
 			effects = {
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这攻势……有点意思！",
+			say = "Interesting attack you have there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位，不要慌张，不要冒进。胜利和各位的安全，我都要！",
+			say = "Stay calm! Make no mistakes. I shall ensure both victory and the safety of all my comrades!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "在战场上，她会带领皇家舰队冲锋陷阵——",
+			say = "Even on the battlefield, she often leads the forces of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			say = "港区·港口",
+			say = "Port - Harbor Entrance",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这批物资……运到三号仓库去。",
+			say = "Let's get this shipment over to Warehouse #3.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有通知白鹰，虽然陛下要外出，不过下周三例行的阵营间演习照常进行，由我来带队。",
+			say = "Also, make sure to let the Eagle Union representative know that our joint exercise is still on for next week. Even though Her Majesty will be out, I'll take charge in her stead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "在平时，她可以作为伊丽莎白的代理管理各种事物——",
+			say = "She even takes care of many of the responsibilities normally handled by Queen Elizabeth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "港区·广场",
+			say = "Port - Main Plaza",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诺福克，怎么啦，有什么心事吗，难道是做噩梦了？",
+			say = "Norfolk, is everything all right? Did you have a bad dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有……",
+			say = "Uhh... Don't think so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不介意的话，说给我听听吧，说不定我能帮上忙呢。",
+			say = "If there's something on your mind, let's hear it. Maybe I might be able to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……",
+			say = "...Sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "在私下里，她也可以为舰队的其他成员谈心、调解矛盾——",
+			say = "Even during her leisure time, she still helps others work out their problems or conflicts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "港区·皇家宿舍",
+			say = "Port - Royal Navy Dorms",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以你觉得乔治五世比起陛下更像“陛下”……？",
+			say = "Are you saying that King George V acts more like Her Majesty than, well, Her Majesty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "餐桌边，这场晚餐的邀请人胡德，在听完对乔治五世的评价后，得出了这样的结论。",
+			say = "While dining with some members of the Royal Navy, I candidly offered my observations from the last few days to Hood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,11 +371,11 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Nod",
 					flag = 1
 				},
 				{
-					content = "虽然还不到这个地步……",
+					content = "That isn't what I was trying to get at...",
 					flag = 2
 				}
 			}
@@ -387,7 +387,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "呵呵，这可是你的过错哦，乔治？",
+			say = "Perhaps she should be more aware of her boundaries. What say you, George?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "让指挥官产生这样的想法本身，就是你的问题哦，乔治。",
+			say = "No, Commander, thank you for being frank with your observations. If those were the conclusions you made, then we indeed have a problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此…虽然我没这个意思，不过被指挥官这么一说，说明确实有人是这么看我的啊……",
+			say = "I see... That may not have been my intention at all, but if the Commander made that observation, then surely others must have as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "就在这时，一只手拿着盘子的乔治五世从厨房探出头来。",
+			say = "As she said this, she emerged from the kitchen with plates of freshly-prepared food in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

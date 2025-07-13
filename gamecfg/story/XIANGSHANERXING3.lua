@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"大会会场",
+					"Faction Conference Hall",
 					2
 				},
 				{
-					"黄昏时分",
+					"Evening",
 					3
 				}
 			},
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "当黄昏的光芒从窗外投进来时，冗长到磨损理智的会议总算暂时告一段落了。",
+			say = "The long conference has finally come to an end. The light of dusk shines in through the windows.",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "为了舒缓疲惫的大脑，我没有立刻前往宴会厅，而是在大楼中自由漫步。",
+			say = "Needing a break, I go for a stroll through the building's corridors rather than head for the banquet hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "不知不觉间，就来到了休息室外那处能看风景的开放平台。",
+			say = "In the end, I arrive at a balcony just outside the lounge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "夕阳下的鸢尾城堡，真是如同风景画一般美丽呢。",
+			say = "These castles look so picturesque during twilight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "一天的会议辛苦了，指挥官。",
+			say = "You did stellar during the conference, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "陪我在会场耗了一天，你也辛苦了。",
+			say = "So did you. You have a tough job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "哈哈……",
+			say = "Ahahaha... Yeah, I suppose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "孟菲斯干笑着，指了指自己胸前挂着的“秘书”工牌。",
+			say = "She smiles a somewhat tired smile and points to the lanyard hanging from her neck that reads, \"Secretary.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "职责所在而已~",
+			say = "I'm really just doing my job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "给，这是我刚才从果盘里顺的苹果，看上去又甜又新鲜，要不要在晚餐前先垫垫肚子？",
+			say = "Want an apple? It's sweet and fresh. Snuck it out of the fruit bowl myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "苹果么……感觉现在更需要的是能够刺激精神的柠檬啊。",
+			say = "Thanks, but I'll pass. If I could use any fruit right now, it'd be a lemon to clear my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……确实是令人精神疲惫的一天呢。",
+			say = "Ahahah... Figures. Must've been a rough day for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "各方代表滔滔不绝一整天，又感觉完全没聊在一个频道上，真是令人头大。",
+			say = "It's just been speech after speech from different faction reps, but the conversation hasn't gone anywhere. Just thinking about it gives me a headache.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊……明明最初留在这里只是为了协调处理鸢尾教国回归碧蓝航线的事。",
+			say = "You could say that again. This was supposed to be about the Iris Orthodoxy rejoining the Azur Lane...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没想到这个看似简单的问题最后会变得这么复杂……",
+			say = "I didn't think expect there would be so many layers to this topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟赤色中轴不会坐视不理嘛。",
+			say = "The Crimson Axis was bound to push back against it. Naval HQ, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以问题就不知不觉间，从鸢尾要不要回归碧蓝航线，变为碧蓝航线和赤色中轴要不要合并咯。",
+			say = "Then, talks drifted from the Orthodoxy rejoining the Azur Lane to whether the Azur Lane and the Crimson Axis should merge into one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……「联盟合并」。现在想来，或许这才是指挥部一开始没有明说出来的“正菜”。",
+			say = "...The reforging of a unified Azur Lane? So that's the \"main dish\" that has drawn the attention of Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在塞壬利用“剧本”在各阵营间进行挑拨离间的阴谋被广泛认知后，",
+			say = "So much has happened. Compiler was defeated. The Northern Parliament's offensive in the Arctic. Interdimensional exploration with Flying Fortresses, that near-superimposition event, the incident with the Sacred Sakura...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是否要如塞壬所愿继续对抗下去，确实是一个可以拿到台面上谈论的问题了。",
+			say = "One way or another, the different factions have found themselves joining hands. The once-distant dream of a reunified Azur Lane seems like it's on the verge of coming true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次会议是由撒丁帝国提案，鸢尾教国联合承办的会议，出席会议的人也很有分量。",
+			say = "But, now when everyone's in high spirits, things are starting to drag.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能看出来，至少这两家推动合并的意愿是一致的。",
+			say = "After Veneto and Richelieu set everything up for us, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,24 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过即便如此，鸢尾这次也选择了躲在撒丁帝国后面呢……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "至于其它各家的态度……欸。",
+			say = "What surprises me, however, is that the Iris Orthodoxy would hand over the hosting of the talks to Sardegna, given how Richelieu has been in dialogue with the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +370,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碧蓝航线这边，除了白鹰明确表示支持合并之外，皇家和北方联合的态度都有些……暧昧。",
+			say = "As for the other factions...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "The Eagle Union has expressed clear support for the merger, but the attitudes of the Royal Navy and Northern Parliament have been somewhat... ambiguous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "东煌则是一贯的，尊重各方意见，支持和平协商解决——",
+			say = "In typical Dragon Empery fashion, they've said that they \"respect the decisions of each faction and support resolving any potential issues through peaceful dialogue.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赤色中轴那边倒是重樱明确表达了反对，撒丁帝国明确表示了支持。",
+			say = "On the other side, the Crimson Axis isn't exactly a monolith either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "不能说十分融洽，只能说完全相左。",
+			say = "Though Sardegna is clearly in support, the Sakura Empire stands in staunch opposition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "作为带头人的铁血也是态度暧昧……拒绝明确表态。",
+			say = "And of course, Iron Blood is secretive as always, keeping their cards close to their chest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "真是的……这样各方拉扯下去，究竟什么时候才能结束呢。",
+			say = "I should've expected this much from a public conference. *sigh*... When will it end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "突然有种，梦回NA海域大型作战决战前的感觉啊。",
+			say = "In other words, things have reverted to how they were before Operation Siren. When will we finally be able to move on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呵呵，是啊。",
+			say = "Yeah... I know how you feel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时也是转瞬间就陷入了无尽的会议之中了……",
+			say = "One meeting after another, plans upon plans, until even the most basic of things can't be done anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯，你怎么看联盟合并这件事？",
+			say = "So, Memphis, what do you personally think about the reformation of the Azur Lane?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，我的看法么？",
+			say = "Hm? You want my opinion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "肯定是统一团结会比较好。",
+			say = "Well, of course it'd be a dream come true if everyone could come together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "但是，这个统一团结必须是实质上的，而不是流于形式的。",
+			say = "But, surface-level formalities aren't going to cut it. We need a more substantial alliance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "流于形式的联盟，反而会因为内部出力不齐、互相掣肘，变成一加一小于二的效果呢。",
+			say = "Nobody's going to stick their neck out for a token partnership. On the contrary, these constraints will only create tensions that weaken everyone involved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官呢，你怎么看？",
+			say = "What about you, Commander? What do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "和你看法相同。",
+			say = "The same as you, really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原则上来说，自然是一个统一的联盟要好。",
+			say = "I want to tear down the walls between us and unite all the factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是现在这个状态，就算谈成了，形式上进行了合并，实质上又能起到多大变化呢……",
+			say = "But as it is now, reforming the Azur Lane won't bring much change at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "貌合神离……只能走过去碧蓝航线的老路罢了。",
+			say = "All that would do is create the illusion of an alliance while we plot against each other in secret. A repeat of the past; coexistence without cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……光在谈判桌上谈是没用的。",
+			say = "Just talking at the negotiating table won't solve anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要想突破僵局，必须先在场外找一个着力点……",
+			say = "We need to create some sort of opportunity if we want to actually break this deadlock...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这样的话，有一份文件希望您能过目。",
+			say = "An opportunity, eh... How about this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "终端上收到了一份孟菲斯发来的文件——",
+			say = "Memphis sends a document over to my device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？",
+			say = "...Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "陆上神国战役的复盘，以及针对鸢尾审判庭舰队近况的研究报告……？",
+			say = "A review of the near-superimposition event and a status report on the Tribunal's fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯，我在对那场将整个陆间海卷入的复杂战役进行复盘的时候，发现了一些不寻常的情况。",
+			say = "Yup. I discovered some unusual things while I was reviewing the aftermath of the battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这些发现或许能解释鸢尾和撒丁突然达成统一战线的原因。",
+			say = "It might give you a deeper understanding of why Sardegna and the Orthodoxy have suddenly become close allies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "以及……为您提供一个突破僵局所需的场外着力点。",
+			say = "Maybe it'll even be the opportunity you need. I hope so, anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……如果真相真如你在报告中所推测的那样，我要抽时间仔细谋划一下。",
+			say = "Interesting... If this is true, I'll need some time to digest all this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在时间不早了，我们先去赴宴好了。",
+			say = "But first, we should head to the banquet hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好呀好呀~我听说，撒丁帝国这次准备的大头就在宴会上呢。",
+			say = "Right. I've been told the Sardegnians put the most effort into tonight's dinner party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我们快出发吧~！",
+			say = "Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

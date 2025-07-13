@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "月色真美？那可不行！",
+			say = "The moon is pretty? No, no, no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我扑！",
+			say = "Ahem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比月亮更美的{namecode:199:新泽西}，正在看着你哦，指~挥~官！",
+			say = "I'm way prettier than the moon, and I can actually look back at you, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

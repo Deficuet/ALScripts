@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"维希教廷展览馆「大圣堂」",
+					"World Expo - Vichya Pavilion",
 					1
 				},
 				{
-					"一段时间后",
+					"Some time later...",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，刚刚已经确认，维希教廷舰队驻守的土伦港已经陷入了一片火海之中。",
+			say = "Commander, we just got word that Iris Libre and Vichya Dominion forces have engaged the enemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好奇怪啊，维希教廷……不是已经加入马可波罗一方了么？",
+			say = "Vichya hasn't sided with Marco Polo after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "维希教廷在事件发生后的行动，确实值得揣摩。",
+			say = "\"Finally some good news, but given the Tribunal's involvement, we can't assume that they're on our side just yet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "一方面，她们的舰队离开了会场，并且派出了量产型舰队加入了针对会场的进攻。",
+			say = "\"On one hand, Clemenceau did threaten us with mass-produced ships and Gazers. On the other, we haven't been formally declared as enemies either.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "但是另一方面，自始至终没有任何舰船加入其中，维希教廷馆的极光之壁也依然没有解除。",
+			say = "\"The Skybound Wall is still functioning, and it has successfully kept the Gazers at bay.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "或许维希教廷的情况和撒丁帝国相同，或者更加复杂……",
+			say = "\"Maybe it's just Clemenceau. Maybe she's acting so unusually because she's under some spell...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我们应该怎么办？放任不管，还是进行救援？",
+			say = "What should we do, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			},
 			options = {
 				{
-					content = "你觉得呢？",
+					content = "\"We'll sail out to aid Jean Bart and her fleet.\"",
 					flag = 1
 				}
 			}
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……我觉得如果有可能的话，还是应该救一下。",
+			say = "Got it! I'll be honest, there is the chance that this is a trap...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "刚才您的分析不错，就现状而言，维希教廷并没有彻底站在我们的对立面上。",
+			say = "But as you said, the rest of them didn't act hostile towards us, and they didn't mess with the pavilion's defenses either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而此刻，又在与我们共同的敌人交战。",
+			say = "Right now, we are all allies in the battle against enemies of humanity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管是其内部出现了分歧，还是克莱蒙梭在两头下注。",
+			say = "It's possible Clemenceau has lost her mind, or that she's pulling a ruse in typical Tribunal fashion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "至少……我觉得可以争取一下。",
+			say = "Regardless, we are all shipgirls. We're people with a common goal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "嗯，我也是这么想的。",
+			say = "\"I'm confident that they feel the same way.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "帮我接通厌战，皇家的直布罗陀舰队此时正在西陆间海，应该能执行救援任务。",
+			say = "\"...The Royal Navy fleet should be arriving any minute now. As for that 'secret passage'...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "遵命！",
+			say = "Roger!",
 			painting = {
 				alpha = 0.3,
 				time = 1

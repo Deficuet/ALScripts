@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>六 指挥官受难日</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 6: Commander's Ordeal</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 603020,
 			nameColor = "#a9f548",
-			say = "指挥官，明天是休息日。有空的话，两个人一起去附近的商店街吧？",
+			say = "Commander, since we have the day off tomorrow, how about we go shopping together?",
 			effects = {
 				{
 					delay = 2,
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这个莫非是约会的邀请？",
+			say = "Was she asking me on a date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然这样的话，我——",
+			say = "If she was, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "我不应该那么轻易地答应的。",
+			say = "I really shouldn't have given in so easily.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "龙骑兵拜托的东西已经买到了，接下来是利托里奥小姐的香水……化妆品的话，指挥官，我们往这边走~",
+			say = "We've got everything Carabiniere asked for, plus Littorio's perfume... There's still cosmetics. Commander, over here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "原本以为会是一场愉快的约会的我，现在正提着四个袋子跟在{namecode:526}的后面。",
+			say = "What I thought was going to be a lovely date had turned into me hauling four huge shopping bags behind Zara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "凯撒小姐的哑铃——嗯，运动器械的话好像是在那边呢。",
+			say = "And we need dumbbells for Cesare. Exercise equipment is over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "居然还有运动器械？！",
+			say = "Dumbbells were on the list too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同伴拜托的东西都买到了。多亏了指挥官，不然一次不可能买这么多东西的呢",
+			say = "That's all we needed to get for everybody. Thanks so much, Commander. There's no way I could've done this in one trip without you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，最后还有一件事情。指挥官，这边来~",
+			say = "Oh but there is one last thing. Over here, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "这里是……服装店？",
+			say = "It was a clothing shop.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -251,7 +251,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "机会难得，指挥官也来试试改变下形象如何？呵呵…",
+			say = "We're going to take this special opportunity to try a new look on you, Commander. Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "{namecode:526}手上拿着一叠衣服，双眼盯着我，似乎还在冒着光。",
+			say = "Zara gazed at me with devious eyes as she approached with a veritable wardrobe in her arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "衣服这东西嘛，还是要实际穿上之后才知道合不合适。来吧，指挥官，把这些全部都试穿一遍吧！",
+			say = "Of course you have to try them on before we know if they're any good on you. Come on, Commander, one by one, you're trying them all on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太让人害羞了还是算了？哎呀，「tenacemente」——指挥官应该不会不记得我的信条吧？",
+			say = "What do you mean you're embarrassed? That's right, \"tenacemente\" – don't you remember my motto, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "…看来，不照着她说的做，是没办法离开这里的了",
+			say = "... I realized I wasn't getting out of that shop unless I did as she asked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "不知过去了多久——",
+			say = "It felt like eons...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来东西也都送到同伴们的手中了",
+			say = "And with that, everything got where it needed to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天玩得真开心呢，谢谢指挥官啦",
+			say = "I had a lot of fun today. Thanks, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官，晚上还有不少时间呢",
+			say = "But really, the night is still young.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再稍微陪我一会。你不会拒绝的，对吧？",
+			say = "How about keeping me company a while longer. You wouldn't say no to me, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "都已经到这时候了，就享受约会的乐趣直到最后吧",
+			say = "We'd already come this far, I figured I might as well see our date through to the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

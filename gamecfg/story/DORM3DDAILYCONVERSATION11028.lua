@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在沙发上度过假期是白鹰的传统，所以，honey也上来吧。",
+			say = "Spending holidays on the sofa is a Union tradition. Come sit with me, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "会不会有点挤？",
+			say = "Isn't it a little cramped?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘻嘻，我倒是觉得这个距离正好，我正好能……",
+			say = "Hehe, I think this is just the perfect level of closeness. After all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呀啊！偷袭可是不对的！虽然……你喜欢就好啦……",
+			say = "Eep! Hey, don't do it so abruptly! But... if you like this, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

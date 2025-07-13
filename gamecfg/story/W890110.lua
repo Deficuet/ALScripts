@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "完成实验场内的目标可以收获各类资源奖励，是否前往塞壬实验场？",
+			say = "Completing objectives in zones marked as Siren Research Facilities can yield great rewards. What should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "Head there now.",
 					flag = 0
 				},
 				{
-					content = "否",
+					content = "Do it later.",
 					flag = 1
 				}
 			}

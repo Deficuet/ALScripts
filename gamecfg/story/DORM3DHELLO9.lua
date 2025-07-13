@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我骄傲的{dorm3d}，您终于来了，天狼星一直在期待与您共度的时光。那么，请让我先帮您按摩，缓解身体的疲劳吧~",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello9",
+			nameColor = "#FFFFFF",
+			say = "You're finally here, honourable {dorm3d}. I always look forward to our time together. Shall I relieve your exhaustion with a massage first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

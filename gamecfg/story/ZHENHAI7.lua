@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>七　“棋之四艺”其四</size>",
+					"The Go Master and Her Disciple\n\n<size=45>7 The Four Arts of Go - 4</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我虽然绞尽脑汁抵抗，但不到两个小时，就输给了海天。",
+			say = "I gave the match my absolute best, but still I lost to Hai Tien in just short of two hours.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对不起……指挥官，我不是故意想赢的。",
+			say = "I'm really sorry, Commander. I wasn't trying to win, and yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用道歉，对弈本身就会有输有赢。",
+			say = "You don't have to apologize. One day, the game will be mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且，我也清楚自己和海天之间的实力差距。",
+			say = "Plus, now I know what our difference in skill level is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵，虽说输了，但这局却有些意思。",
+			say = "Heehee. Even though you lost in the end, it was quite an interesting match.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就让我带着指挥官，细细复盘一番吧。",
+			say = "Now it's time you and I reviewed your mistakes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "等，等一下！我也要……",
+			say = "I-if you're doing a review, I'd like to help!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "……海天，你应该趁现在赶快回去完成创作才行吧？",
+			say = "...That's very kind of you, but don't you have deadlines?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "我不着急呀，离截稿日还很早……莫非镇海是想独占指挥官吗？",
+			say = "Yes, but I still have time to spare. It sounds a bit like you want to keep the Commander all to yourself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯……那么，我们就在复盘开始前品鉴一下你写的最新章节的内容，如何？",
+			say = "Ah, I just remembered, you finished a new chapter. You don't mind if the Commander and I read it before our review, do you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "就是那本，由你手写的恋——",
+			say = "Here it is. Your love story about–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——咳、咳咳咳！",
+			say = "AHEM!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "我、我突然想起来还有重要的事！抱歉，先走一步——",
+			say = "Something urgent just came up! Excuse me, I'd better go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "海天飞速离开了。指挥室中，现在又只剩下我与镇海二人。",
+			say = "Hai Tien leaves the office in a real hurry, and then, it's just me and Chen Hai again.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官眉头紧锁，是不想让海天离开吗？",
+			say = "You look disappointed. Did you not want her to leave?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，我只是在烦恼……为什么我的围棋水平提升这么缓慢。",
+			say = "Partly, yeah... It's also that I feel like I'm improving so slowly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？想不到指挥官居然真的对围棋如此执着。",
+			say = "Really? I didn't think you'd take Go this seriously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "仔细想想，在我刚刚的各种恶作剧里指挥官也丝毫没有懈怠之意，努力完成了指示呢。",
+			say = "Now that I think about it, you did put up with my teasing and stuck with my training course to the very end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "如此认真钻研……反而让我觉得自己有些小家子气了。",
+			say = "You were so earnest... Now I feel guilty over being so mean-spirited to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么？刚刚都是恶作剧吗？",
+			say = "Mean-spirited? What, are you saying all this training was just you teasing me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是恶作剧，但也确实对棋力有帮助哦。",
+			say = "Not entirely. Sometimes it was, but the things I taught you should also make you a better player.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵，毕竟我一开始就说过了，棋力不是一朝一夕就能提升的。",
+			say = "No one becomes a Go champion overnight. Even if Hai Tien and I taught you everything we knew right now, there's no way you could internalize it all at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是我确实希望能变得更擅长围棋。",
+			say = "I guess so. That doesn't change the fact that I really want to get good, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯……指挥官，你为何突然对围棋如此执着呢？",
+			say = "Then let me ask you this – what suddenly made you so passionate about this game?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该怎么说呢……镇海之前在指挥所属舰队时，沉着冷静，用兵如神的样子十分迷人。",
+			say = "How do I put it... When I saw you take command of the fleet, I just felt captivated by how calm and cool you looked when giving orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这、这是何意……？",
+			say = "Huh? What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我非常欣赏你的才华，但也能从中感受到你所背负的压力。",
+			say = "I know you weren't simply born that captivating. You got to this point not with talent, but with an extraordinary amount of effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "前几天，我在一本书上看到“学习围棋不光可以提升才智，更可以锤炼谋略”。",
+			say = "Then, a few days ago, I read a book that said, \"Learning Go can not only make you smarter, but also make you a better tactician.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之后我就一直在自学围棋，还找了海天教我，想给你一个惊喜。",
+			say = "So I started studying the game so I could get to know you better. I even asked Hai Tien to teach me what she knew so I could surprise you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "……原来如此，倒确实是惊喜，可……",
+			say = "Well... you DID surprise me, but why would you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为我是你的指挥官。",
+			say = "Because I am your Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……所以我应该变得更强，让你能够放心依赖我。",
+			say = "That's why I want to learn more about you. Why I want to become a better person, a more reliable person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "这番肺腑之言……纵使心如冰川之人，恐怕现在也会融化吧。",
+			say = "Goodness... Hearing you say that would touch the heart of even the most cold and indifferent among us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵，你的心意我已经完全清楚了。",
+			say = "Heehee. Thank you for telling me this, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "想不到指挥官虽然棋力尚未精进多少……却能使出如此奇策。",
+			say = "It amazes me that you're deploying such clever strategies when you're still only a novice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不得不承认，连我也被指挥官的“奇袭”所俘虏。",
+			say = "I'll be honest with you. Your move just now completely caught me by surprise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……你这不会是在笑话我吧。",
+			say = "You're not just messing with me, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "当然不是笑话您。我一直都非常荣幸能伴您左右，也一直期待着……有机会教给您更多。",
+			say = "Of course not. It's an honor to be spending time with you. Teaching you things like this... is something I actually quite look forward to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "镇海挽着我的手臂，缓缓把我引向内室。",
+			say = "She takes my hand and begins slowly leading me into another room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "我们走吧，这场特训还未结束呢。",
+			say = "Come along. Our intensive course isn't over yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "这“最后一艺”，还请多指教了。",
+			say = "There is still the last of the four arts which I have yet to teach you about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官——",
+			say = "Please stay with me until the very end, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进入了塞壬要塞海域。",
+			say = "Now entering a zone housing a Siren stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "作为对我方进行大型作战的回应，塞壬在局部发起反击，并试图加固海域控制权。",
+			say = "The Sirens responded to our offensive and constructed a stronghold in an area under their control. We have to destroy it if we hope to secure this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

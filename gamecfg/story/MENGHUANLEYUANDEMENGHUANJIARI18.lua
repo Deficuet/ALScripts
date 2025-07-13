@@ -13,9 +13,9 @@ return {
 			hidePainting = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "指挥官，总算找到你啦~",
+			say = "I've finally found you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着车轮停留时发出的响动，少女温柔的声音自身后传来。",
+			say = "A set of wheels screeches to a stop, and I hear a female voice from behind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,18 +60,18 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回头看去，{namecode:231:渡良濑}正坐在半透明的南瓜马车上。",
+			say = "Turning around, I see a pumpkin carriage built with transparent materials pulled by a horse, with a smiling Watarase in the cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？有事找我吗？",
+					content = "Watarase? What are you doing here?",
 					flag = 1
 				},
 				{
-					content = "来得正好，一起看烟花么？",
+					content = "Great timing. Want to watch the fireworks together?",
 					flag = 2
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，来找指挥官你一起看烟花。",
+			say = "Why, to watch the fireworks with you, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，我正有此意。",
+			say = "I do. In fact, that's what I came here to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸好在这边找到你了~不然这样的美景没办法和指挥官一起分享，就太可惜了。",
+			say = "It's fortunate that I ran into you here. If I hadn't, I would have no one to share such a gorgeous sight with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，指挥官是特地来露台上看烟花表演的吗？",
+			say = "Incidentally, are you here for the same reason? To watch the fireworks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "只是恰巧路过这里时，烟花表演开始了。",
+			say = "Nope. I'm honestly just here by chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "虽然这里有些偏僻，但视野却是不错。",
+			say = "This place is a bit remote, but the view is great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，看来指挥官的运气很好呢~",
+			say = "You're quite lucky then, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，不过站着看多累啊，要不来马车里坐下、稍作休息如何？",
+			say = "Let's get comfortable before we talk more. Would you like to join me in my carriage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "说到马车……我刚刚其实想问你，它是怎么上来的？",
+			say = "Well, that's a question of how more than anything else. How do you get in it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我想，它就可以哦~毕竟这里是“梦幻乐园”嘛。",
+			say = "If you wish for it, it can be done. That's how dreams work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快过来吧，指挥官，我在车上铺了软垫，很舒服的哦~还有些饮品可以解渴。",
+			say = "Come. There's a thin tatami cushion in here. It's quite comfortable. I have drinks ready as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "好。",
+			say = "Alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走到精致的透明南瓜马车旁，车内的少女笑着伸出了手。",
+			say = "I approach the transparent pumpkin carriage. Watarase extends a hand to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,14 +274,14 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来，抓着我的手上来吧~",
+			say = "Take my hand and come inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "握住{namecode:231:渡良濑}的手",
+					content = "(Grasp it.)",
 					flag = 1
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "握着{namecode:231:渡良濑}的手上了马车，她朝座椅的一侧挪了挪，在另一侧留下了空位。",
+			say = "I climb inside the carriage and she moves aside to make space for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……空间有些小呢，只能暂时委屈指挥官跟我挤一挤了。",
+			say = "Mmh... This is a bit cramped... Please try to bear with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次，我一定会注意空间大小这一块的设计的~！",
+			say = "I'll be sure to pay closer attention to the size of the cabin's interior next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "没关系，其实已经够用了。",
+			say = "It's okay. Nothing I can't handle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在{namecode:231:渡良濑}让出的空位坐下后，略微有些狭小的空间使得少女的手臂与我紧紧相贴。",
+			say = "I sit down on the space she cleared out for me. Only now does it hit me that it's so cramped that we are quite literally rubbing shoulders in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这样还真是有些害羞呢……",
+			say = "Whew... This is a bit embarrassing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女说着将杯中的红色液体一饮而尽，然后伸手环绕住了我的腰。",
+			say = "She drinks down the red contents of her glass, then wraps her arm around mine, with some difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，有点头晕了……让我靠一靠吧，指挥官。",
+			say = "I'm feeling a bit tipsy... Would you mind lending me your shoulder?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎是由于一口气喝太快的缘故，她的声音变得有点闷闷的。",
+			say = "Her voice sounds slightly muffled somehow, perhaps because she drank it all in one go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "属于零点的烟花“簌”地升空，绚丽的色彩再度点燃了夜空，也照亮了少女的面庞。",
+			say = "As the spectacle to go with her wine, fireworks shoot into the sky and explode in dazzling colors. Her smile, too, is of the dazzling variety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这般独占着指挥官，看着绚丽多彩的烟火，美好得就像在做梦一样……",
+			say = "Being all alone with you, watching these beautiful fireworks together... Truly, this is a dream come true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是永远都不会醒来就好了呢。",
+			say = "How wonderful it would be to never... wake up from it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女轻声呢喃着，呼吸逐渐变得平稳而绵长。",
+			say = "Her voice shrinks into a whisper. I can hear her breaths slowing down, becoming calmer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 302251,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……你也要……做个好梦……zZZ……",
+			say = "Sweet dreams... Commander... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

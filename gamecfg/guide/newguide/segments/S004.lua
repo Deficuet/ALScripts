@@ -1,12 +1,12 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>编队</color>，将角色编入队伍",
-	"但需要注意，<color=#ffde38>驱逐、轻巡、重巡</color>只能编队到先锋编队中",
-	"<color=#ffde38>航母、战列舰</color>只能编队到主力编队中",
-	"点击<color=#ff7d36>添加</color>来编入新角色",
-	"选择需要上场的角色",
-	"点击<color=#ff7d36>确定</color>按钮",
-	"看！新角色成功入队！舰队实力大幅度提升！",
-	"让我们返回到主界面吧！"
+	"Let's add your new ship to your <color=#ff7d36>formation</color>.",
+	"Keep in mind that <color=#ffde38>destroyers, light cruisers, and heavy cruisers</color> may only be deployed to your team's vanguard!",
+	"<color=#ffde38>Carriers and battleships</color> must be placed towards the back in the main fleet.",
+	"Tap <color=#ff7d36>add</color> to select a new ship.",
+	"Select a ship to deploy.",
+	"Next, tap <color=#ff7d36>confirm</color>.",
+	"Look! Your new ship is in formation! Fleet firepower has been greatly improved!",
+	"Let's head back to the main screen!"
 }
 
 return {

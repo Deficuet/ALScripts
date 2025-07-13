@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>五　诉说烦恼吧~</size>",
+					"Consultation Corner's Day Off\n\n<size=45>5 Tell Me Your Troubles!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "将巴尔的摩送走后，布莱默顿说着要去换上我们送给她的睡衣就进了卧室。",
+			say = "After Baltimore left, Bremerton excused herself for a moment to change into the new pajamas I gave her.",
 			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "等待布莱默顿换衣服期间，我注意到了地上那块熟悉的，写着「谈心小屋」的招牌。",
+			say = "While I wait for her, I happen to notice the consulting office sign on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……就这么做吧。",
+			say = "Hmm... Sure, why not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "拿起招牌后，着手布置起简易版的“谈心小屋”。",
+			say = "I pick up the sign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "锵锵~！久等啦~超合适的哦，指挥官看看——",
+			say = "Tadaaa! Sorry for the wait! But doesn't it look good on me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,18 +102,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "嗯？你怎么把这个招牌摆上啦？",
+			say = "Wait, Commander? Why'd you put up that sign?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "布莱默顿，来谈心吧！",
+					content = "Bremerton, let's do a consultation right now!",
 					flag = 1
 				},
 				{
-					content = "特别版「谈心小屋」正式营业！",
+					content = "The consultation office is open for business for a limited time!",
 					flag = 2
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说说你的烦恼……不对，也不一定是烦恼。",
+			say = "Now, tell me your troubles... I mean, it doesn't even have to be troubles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只要布莱默顿有想倾诉的，都可以说给我听。",
+			say = "Anything you want to ask, or anything you want to talk about, let me hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "哇哦~！指挥官作为咨询师还挺有模有样的~！",
+			say = "Ooh! You really sound like a counselor, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "那我就配合一下指挥官好了~",
+			say = "Okay, I'll play along~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "我想想从哪里说起哦……",
+			say = "Umm... Where do I begin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从谈心小屋说起，怎么样？是不是筹备工作太累了？",
+			say = "Let's start with your consultation office. Setting it up took a lot of hard work, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "其实也说不上累，筹备谈心小屋这些事对我来说还是轻轻松松的啦~！",
+			say = "Not really? It was easy stuff for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "不过压力好像是有点大？",
+			say = "But if I had to say, I guess it was pretty stressful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "一直在担心在线下能不能解决大家的烦恼、自己提的建议是不是对的……之类的……",
+			say = "Like... Would I be able to solve people's problems? Would my advice really help them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你已经做得很好了，谈心小屋也很顺利。",
+			say = "You did a good job there. Your consultation office was a success, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "嗯~这是最好的结果！",
+			say = "Yeah! I think everything turned out great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "……不过，好像就是结束后一下子松懈下来，我总有些魂不守舍的……",
+			say = "But... Now that I've relaxed after all that stress, it's gotten a little hard to focus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以才会忘了看手机消息，还被网球砸中么？",
+			say = "And now you're forgetting to take your phone off of DnD, and you're letting tennis balls hit you in the head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "咦？指挥官怎么知道我被网球砸中的事？",
+			say = "Hm? How did you know about the tennis ball thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "啊！我知道了，你们是因为这个才会为我准备“好好休息日”哦？",
+			say = "Oh! I know! That's why you schemed to make me rest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "看到我点头的动作后，少女便露出了格外明媚的笑容。",
+			say = "I confirm her suspicions, and she flashes a bright smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "明白了！为了不辜负你们的心意，我会好好休息、好好放松的~",
+			say = "Roger that! To live up to you and Baltimore's wishes, I'm gonna rest and relax like never before~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "不过……指挥官就先陪我玩点什么吧！",
+			say = "But fiiirst... Let's play a game, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

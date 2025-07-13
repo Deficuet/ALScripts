@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "战斗还在继续，港口周边的海域已被炮火和硝烟所笼罩。",
+			say = "The continuing battle engulfed the nearby area in yet more cannonfire and smoke.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可恶，这些家伙怎么变得越来越难缠了！",
+			say = "Tch! They just keep getting stronger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "超级游戏制作机就不能把难度降低一些吗？",
+			say = "Can't you use your Questy MacGuffin to lower the difficulty, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "这种时候就不要指望那个失控的机器了，先想办法突破眼前的困境吧。",
+			say = "I think we'd have more luck finding a way with our own power instead of relying on that unstable game console.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "小心……有新的敌人。",
+			say = "Be careful... New hostiles approach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "金色暗影抬起手，手指指向了敌方舰队中央。",
+			say = "Yami pointed at the center of the enemy fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "众人朝着金色暗影所指的方向看去，只见敌方舰队的中央，出现了一个熟悉的身影。",
+			say = "Among the hostiles was a very familiar figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "那……那该不会是……",
+			say = "I-is that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那不是……古手川同学吗？",
+			say = "Kotegawa...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "在敌方舰队中央的少女，无论是样貌还是穿着，都与古手川唯一模一样。",
+			say = "The girl standing there looked and dressed exactly like Yui Kotegawa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "那家伙的眼神中毫无感情，一定也是超级游戏制作机制造出来的复制体。",
+			say = "There's no emotion in her eyes. She must be a doppelganger made by Questy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "复制体唯的舰装之上，散发着远超其他敌人的强大能量波动。",
+			say = "The doppelganger's rigging exuded energy readings that far surpassed the others around it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "啧，居然制造出和我们一模一样的复制体来对付我们。",
+			say = "Tch! So it's not happy just making copies of us – it forces us to fight them, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个失控的超级游戏制作机也太卑鄙了吧？！",
+			say = "That Questy MacGuffin of yours is downright wicked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,20 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "古手川唯没有说话，只是默默握紧了手中的武器。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呵？居然和塞壬一样，也开始选择生产量产型了？",
+			say = "As for Yui Kotegawa herself, she stayed silent and firmly grasped the weapon in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +225,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下不了手的话就退下吧，本王的舰队能应付。",
+			say = "Hmm? Does that mean it's able to mass-produce ships just like the Sirens?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "If things get too difficult, then retreat. My fleet can handle this just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "不用担心，不过是假冒的复制体而已，我们这边可是有真正的古手川在哦！",
+			say = "Don't worry about us. That's just a fake, and we have the real Yui Kotegawa on our side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我们也一起开火！",
+			say = "We'll fight with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "众人的炮火，如同狂风暴雨一般朝着复制体唯倾泻而去。",
+			say = "A rain of cannonfire fell upon the doppelganger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "然而，在复制体唯的舰装上，却浮现出一层能量护盾，将攻击全部抵挡了下来。",
+			say = "However, an energy barrier protected it at the very last moment. It took no damage whatsoever from the volley.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎，怎么会这样啦~！超级游戏制作机，这是作弊吧？",
+			say = "Wh-whyyy?! Questy, this is too mean~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,10 +364,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
-			say = "警告：需要集中火力，突破敌人的防御。",
+			say = "WARNING: IF YOU FOCUS YOUR FIREPOWER, YOU CAN BREAK THE ENEMY'S DEFENSES.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "既然如此……那就拜托大家了，集中攻击那个敌人吧！",
+			say = "In that case... Everyone, focus on that one right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

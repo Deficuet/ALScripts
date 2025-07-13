@@ -23,6 +23,8 @@ end
 function var_0_0.didEnter(arg_4_0)
 	arg_4_0.activityId = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXPEDITION).id
 
+	print(arg_4_0.activityId)
+
 	if not arg_4_0.activityId then
 		arg_4_0:closeView()
 

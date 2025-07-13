@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_1",
-			actorName = "斯特拉斯堡",
+			actorName = "Strasbourg",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "奖励当然很好…… 不过也多看看我吧♡~"
+			say = "Rewards are nice... But you should spend more time looking at me♡"
 		}
 	}
 }

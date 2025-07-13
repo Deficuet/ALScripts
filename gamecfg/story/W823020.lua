@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：海域中的洋流消失了。",
+			say = "Scan complete. Ocean currents have returned to normal.",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,

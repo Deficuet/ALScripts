@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"{namecode:66}的修行\n\n<size=45>六　修行的真意</size>",
+					"A Study in Takao\n\n<size=45>6 The True Meaning of Cultivation</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "又是一日工作结束后，{namecode:66:高雄}满面笑容地来到办公桌前。",
+			say = "After another long day of work, Takao came to my desk with a big smile on her face.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，关于下一个修行的课目——",
+			say = "Commander, I'd like to talk about my next round of training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？这次又要找什么借口？",
+			say = "Hmm? What's the excuse this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "借、借口什么的……",
+			say = "E-excuse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "指挥官……您都知道了？",
+			say = "Commander... Fine. You've seen through me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不知道具体原因是什么，不过要发现你在找借口这件事还是很容易的。",
+			say = "Well, not quite, but I knew you were calling that \"cultivation\" and \"training\" as an excuse for something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟你可是{namecode:66:高雄}，堂堂正正的习武之人，确实不太擅长这种事。",
+			say = "A dignified martial artist like you is bound to struggle with white lies, I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "……既然被您发现了，那我于情于理都应该向您坦白。",
+			say = "...I suppose so. Well, now that you've figured me out, I might as well come clean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "这一系列修行确实都是针对我的不足之处进行的修行。",
+			say = "It is true that I prepared my training for the sake of making up for my weaknesses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过修行的真实内容，并不是我所说的那些。",
+			say = "But the contents of it... The true goal was different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "而是……为了提高我的女子力。",
+			say = "What I really wanted... was to improve my feminine prowess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……提高女子力？",
+			say = "Uhh... Feminine prowess?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "嗯。之前和{namecode:67:爱宕}夜谈的时候，她说我对于指挥官的态度总是过于强硬了，缺少温柔的气质。",
+			say = "According to Atago, I tend to be too stern and serious around you. I lack a womanly softness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "进一步而言就是女子力不足。",
+			say = "In short, my feminine prowess is wanting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会打扫，不会做饭，只知道把剑挂在嘴边，这样是很难和指挥官拉近距离的。",
+			say = "\"You can't cook and clean, and you only talk about swords. How are you supposed to get closer to the Commander like that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "我觉得{namecode:67:爱宕}说的有道理……所以采用了她的计划，进行了这一系列的修行。",
+			say = "I didn't disagree with her, either. So I asked her to help me plan a course of training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……所以之前才会选了那些修行课目啊。",
+			say = "That explains why you were cooking and cleaning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让我当修行的助手也是{namecode:67:爱宕}的计划么？",
+			say = "Was getting my help part of her plan, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是，这个是我自己的想法。",
+			say = "No, that was my own idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "指挥官，您突然笑什么……？",
+			say = "Commander, what are you grinning about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没什么。我觉得你不是缺乏女子力，而是有着独属于自己的女子力啊。",
+			say = "Oh, nothing. I don't think you lack femininity, though – it's just a unique kind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "是……这样么？",
+			say = "Do you think so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "那接下来的修行……？",
+			say = "Then should I not train today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "继续修行下去也没什么不好吧。毕竟修行要有始有终，不能半途而废不是么？",
+			say = "Keep training, if you want. Can't leave it undone, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "您说的对！",
+			say = "Oh, right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以——本日的修行内容是？",
+			say = "...By the way, what WERE you going to do today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,14 +361,14 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "关于洞察力的练习，我需要在纷繁的世界中寻找美的瞬间。",
+			say = "Train my insight. Specifically, to find beautiful moments in this dizzying world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "…………",
+					content = ".........",
 					flag = 1
 				}
 			}
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……用一个去掉表象直达本质的说法呢？",
+			say = "Dumb it down a little, please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:67:爱宕}建议由我来制定一个和指挥官的完成约会方案，并且以修行助手的名义拉您去执行。",
+			say = "Atago said, \"Plan a date. Use training as an excuse to invite the Commander out.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……确实是直达了本质。",
+			say = "Wow. Yeah, that helped, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不知道你的这份修行计划准备的如何了呢？",
+			say = "Have you planned said date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "……我确实准备好了一个计划，不过……也罢。",
+			say = "There is a plan, yes, but... No, never mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，明天是休息日，您有时间么？",
+			say = "Commander, will you give your day off tomorrow to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "全天有空，等你联系。",
+			say = "I'm free all day, actually. Call me, and I'll come running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "太好了，那我们明日不见不散！",
+			say = "Splendid. Then I'll see you tomorrow, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>一 关于气质上的相似</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 1: Same Face</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宿舍",
+			say = "Port - Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我跟你们说，{namecode:158}果然很可爱啊！真人比游戏里要可爱一百倍！",
+			say = "Hear me out, Fubuki. Kawakaze is way too cute, right? But the real-life version is a hundred times cuter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祭你又开始了啊…",
+			say = "Matsuri, are you trying to hit on me again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祭才不是有什么不纯的理由。不是因为{namecode:158}和吹雪像不像的问题，单纯是因为{namecode:158}是{namecode:158}而觉得她可爱的哦！",
+			say = "I'm not just saying that because she looks like you, really! I mean it in a completely pure way. Kawakaze is totally cute, like in general.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不好，感觉有点帅…",
+			say = "Oh my, she sounds kind of hot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要被骗了，阿库娅酱！小黑也可以变得这么帅哦~",
+			say = "W-wait, don't be deceived, Aqua! If it's a matter of sounding manly, Kuro can pull off the same thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要拿不是自己的东西来炫耀啦！",
+			say = "Why are you using someone else to compete for you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，小黑的东西就是我的东西~",
+			say = "Ehehe, what belongs to Kuro, also belongs to me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "帅气的感觉啊…其实余也有在舰队里找到氛围上很相似的朋友哦",
+			say = "Hmm... speaking of similarities, there is also a ship who bears my likeness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的吗？！！！！！！！！！！！",
+			say = "Eh? Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们稍等一下哦。",
+			say = "Indeed. Just wait a moment and I'll show you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "绫目，你说这里有大餐是真的吗？",
+			say = "Ayame, you said that there's gonna be something delicious, right?",
 			bgm = "holo-ayame",
 			flashout = {
 				black = true,
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯~余们正在这里聊天，面前这些零食都可以随便吃哦~",
+			say = "Mmhmm. We are just chatting, so do feel free to partake of some snacks with us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢！多么慷慨啊！！",
+			say = "Waooo! How generous of you!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家下午好~啊，有可爱的孩子来了！唔…确实有种绫目酱的感觉呢~",
+			say = "Good afternoon everyone, it's Tokino Sora~ Oh, look at all the cuties here! My, doesn't she look a bit like Ayame?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，空前辈是想说有一种小狗狗一样的感觉？确实，两个人都有一种小狗狗的感觉呢！",
+			say = "Sora, don't you think they look like a pair of puppy dogs? See, they totally do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咀嚼）我才不是小狗！（咀嚼）是{namecode:16}！（咀嚼）",
+			say = "Yuudachi is no dog!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祭酱！余也不是小狗狗哦！",
+			say = "Ay am not a dog!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉抱歉~大家都是可爱的孩子啦",
+			say = "Ahaha, sorry, sorry. You're both very cute girls~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "仔细一看的话，狗狗的话题姑且不论，确实这个孩子和绫目酱有不少相似之处哎",
+			say = "Hmm... Dog or not, this girl does resemble Ayame in many ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对吧~余是之前在散步的时候遇到{namecode:16}的，她算是余在这里交到的第一个朋友呢！",
+			say = "Right, right~? Ay encountered Yuudachi while out for a walk, so she is the first friend that I have made here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错（咀嚼）从一见面就给我点心吃的好家伙！（咀嚼咀嚼）。",
+			say = "That's right! She's a nice person who gave me something to eat right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,11 +476,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（一齐侧目）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……绝对不是因为有小狗狗的感觉才上去喂食的哦？！",
+			say = "... It definitely was not because she reminded me of a puppy, understood?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…提到相似的舰船，我还以为绫目酱一定会找来{namecode:151}小姐呢，没想到是{namecode:16}酱呢~",
+			say = "Ahaha... When you brought up the topic of look-a-likes, I thought for sure you'd mention Izumo, but it turned out to be Yuudachi~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:151}小姐和绫目酱都是鬼族呢。咳…！虽然很想看到鬼娘共演、鬼娘联动这样的展开，不过…只要能和{namecode:151}小姐站在一起就是一道风景呢！",
+			say = "Izumo is an Oni just like Ayame! Ooh...! I totally wanted to see you two co-starring in some kind of show or collaboration... But, but, just seeing the two of you stand next to each other is good enough~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绫目！刚刚不是在说那个什么「耐久实况」之类的体力训练么，为什么突然逃跑了啊！",
+			say = "Ayame! Weren't we just talking about a training regimen to improve your physical endurance? Why'd you suddenly run off?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟了！不管怎么说，地狱特训还是饶了余吧……！",
+			say = "Bleh...! Even Ay do not wish to be put through that hellish training!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余就在此告退，辛苦百鬼☆~！",
+			say = "But first, Ay must beat a hasty retreat! See you lateroni~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想跑！",
+			say = "Hey, wait! Get back here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两个人都越跑越远了呢",
+			say = "Woah. Look at how fast those two are running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "港区里尽是些充满活力的孩子啊~",
+			say = "Things sure are energetic here at this port~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，其实祭也有一位想要向大家介绍的人",
+			say = "Actually, there are plenty of girls who I'd like you all to meet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她与祭虽然没有外表上的相似，但是在灵魂的更深处，却能引发与祭的强烈共鸣！",
+			say = "They might not look like me... but they have the same awesome Matsuri energy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，真的吗？",
+			say = "Ehh? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们稍微等我一下哦，祭去找她过来~",
+			say = "It's true! Hold on, I'll go get them~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不是外表……糟了，难道说，祭已经和那个人认识了吗……",
+			say = "The same energy...? Crap, did she meet that girl...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

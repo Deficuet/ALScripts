@@ -8,7 +8,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			nameColor = "#ff0000",
-			say = "时也命也，此役竟为吾辈之绝笔，哀哉",
+			say = "I see... So this is where I meet my end...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			nameColor = "#ff0000",
-			say = "{namecode:94}…接下来交给你了…",
+			say = "Hiryuu... I leave the rest to you...",
 			shake = {
 				speed = 1,
 				number = 3

@@ -1,5 +1,158 @@
 pg = pg or {}
 pg.enemy_data_statistics_14 = {
+	[90385] = {
+		cannon = 0,
+		name = "Laffey",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90385,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "lafei_6",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "lafei_6",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 1,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.23,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.52,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.23,
+							0.55,
+							-0.07
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.4,
+							2.39,
+							1.02
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90386] = {
 		cannon = 0,
 		name = "Z23",
@@ -149,7 +302,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90387] = {
 		cannon = 0,
-		name = "绫波",
+		name = "Ayanami",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -302,7 +455,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90388] = {
 		cannon = 0,
-		name = "埃尔德里奇",
+		name = "Eldridge",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -455,7 +608,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90389] = {
 		cannon = 0,
-		name = "斯佩伯爵海军上将",
+		name = "Admiral Graf Spee",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -611,7 +764,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90390] = {
 		cannon = 0,
-		name = "谢菲尔德(μ兵装)",
+		name = "Sheffieldμ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -767,7 +920,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90391] = {
 		cannon = 0,
-		name = "克利夫兰(μ兵装)",
+		name = "Clevelandμ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -937,7 +1090,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90392] = {
 		cannon = 0,
-		name = "赤城(μ兵装)",
+		name = "Akagiμ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1090,7 +1243,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90393] = {
 		cannon = 0,
-		name = "希佩尔海军上将(μ兵装)",
+		name = "Admiral Hipperμ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1257,7 +1410,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90394] = {
 		cannon = 0,
-		name = "标枪",
+		name = "Javelin",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1424,7 +1577,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90395] = {
 		cannon = 0,
-		name = "吹雪",
+		name = "Fubuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1577,7 +1730,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90396] = {
 		cannon = 0,
-		name = "物资船.F",
+		name = "Cargo Ship F",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1737,7 +1890,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90397] = {
 		cannon = 0,
-		name = "驱逐「Pawn」.F",
+		name = "\"Pawn\" Destroyer F",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1899,7 +2052,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90398] = {
 		cannon = 0,
-		name = "轻巡「Knight」.F",
+		name = "\"Knight\" Light Cruiser F",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2061,7 +2214,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90399] = {
 		cannon = 0,
-		name = "重巡「Bishop」.F",
+		name = "\"Bishop\" Heavy Cruiser F",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2230,7 +2383,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90400] = {
 		cannon = 0,
-		name = "战舰「Rook」.F",
+		name = "Battleship \"Rook\" F",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2399,7 +2552,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90401] = {
 		cannon = 0,
-		name = "航母「Queen」.F",
+		name = "Aircraft Carrier \"Queen\" F",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2568,7 +2721,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90402] = {
 		cannon = 0,
-		name = "玉米特快.F",
+		name = "Corn Express F",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2714,7 +2867,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90403] = {
 		cannon = 0,
-		name = "白上吹雪 ",
+		name = "Shirakami Fubuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2881,7 +3034,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90404] = {
 		cannon = 0,
-		name = "夏色祭 ",
+		name = "Natsuiro Matsuri",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3048,7 +3201,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90405] = {
 		cannon = 0,
-		name = "湊阿库娅 ",
+		name = "Minato Aqua",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3192,7 +3345,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90406] = {
 		cannon = 0,
-		name = "大神澪 ",
+		name = "Ookami Mio",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3346,7 +3499,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90407] = {
 		cannon = 0,
-		name = "百鬼绫目 ",
+		name = "Nakiri Ayame",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3506,7 +3659,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90408] = {
 		cannon = 0,
-		name = "时乃空",
+		name = "Tokino Sora",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3660,7 +3813,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90409] = {
 		cannon = 0,
-		name = "紫咲诗音 ",
+		name = "Murasaki Shion",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3809,7 +3962,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90410] = {
 		cannon = 0,
-		name = "空母·赤城",
+		name = "Carrier Akagi",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3976,7 +4129,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90411] = {
 		cannon = 0,
-		name = "龙凤",
+		name = "Ryuuhou ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4129,7 +4282,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90412] = {
 		cannon = 0,
-		name = "能代",
+		name = "Noshiro ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4286,7 +4439,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90413] = {
 		cannon = 0,
-		name = "鬼怒",
+		name = "Kinu",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4443,7 +4596,7 @@ pg.enemy_data_statistics_14 = {
 	},
 	[90414] = {
 		cannon = 0,
-		name = "霞",
+		name = "Kasumi ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4596,160 +4749,6 @@ pg.enemy_data_statistics_14 = {
 		appear_fx = {
 			"appearQ"
 		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90415] = {
-		cannon = 0,
-		name = "黛朵",
-		type = 2,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90415,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "daiduo",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "daiduo",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 2,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.148,
-					0.936,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.19,
-					0.968,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.031,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.155,
-					0.919,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.558,
-							2.246,
-							-0.568
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
 		position_offset = {
 			0,
 			0,

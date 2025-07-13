@@ -10,7 +10,8 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "接到了{namecode:540:Z52}确认位置的来电后，刚走到电梯井就看见她风风火火跑出来的身影。",
+			hidePaintObj = true,
+			say = "I head to the elevator corridor after getting a call from Z52. Just as I arrive, I see her leaping out.",
 			bgm = "story-nonightcity",
 			typewriter = {
 				speed = 0.05,
@@ -36,12 +37,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "她一手拿着正与我通话的手机，一手拉扯着滑落的袜子。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "In one hand, she holds her smartphone – with the other, she pulls up a slipping leg of her tights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,12 +51,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			side = 2,
-			say = "指挥官，我出电梯……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay, I just exited the eleva—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +71,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "……啊！指挥官你来接我啦！",
+			hidePaintObj = true,
+			say = "Oh! You came to meet me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,12 +80,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "发现我的到来后，她挂断了电话，欢快地招手。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "She hangs up the line and waves at me with a lively smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,12 +94,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "而随着她抬手的动作，少女身前的衣物骤然失去了夹紧的作用力，开始了滑落。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Without her hand holding it up, her tights start to slide again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +114,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "哇——！！",
+			hidePaintObj = true,
+			say = "Oh, shoot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +139,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "指挥官，等等哦！我、我找一下防滑贴……",
+			hidePaintObj = true,
+			say = "Uh, gimme a minute! I'm just gonna put on some anti-slipping tape...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +148,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			side = 2,
-			say = "咦……我放哪儿了？明明就是因为跑去买这个才快迟到的……怎么找不到了？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Wait, where'd I put it? I arrived late specifically 'cause I bought it, so where is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +169,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "我来帮你找？",
+			hidePaintObj = true,
+			say = "Need a hand there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +184,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "哎呀不用不用，本来就让你等了我这么久！",
+			hidePaintObj = true,
+			say = "No, no, I'm fine! I'm already keeping you waiting, and that's bad enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,12 +193,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			side = 2,
-			say = "没想到这身衣服这么不防滑……早知道就先试穿一下了！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "These tights are a lot looser than I expected... I should've tried them on before I went out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +213,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "今天穿着的时候就一直感觉它往下掉，再加上赶过来的时候~风呼呼的——",
+			hidePaintObj = true,
+			say = "They've been trying to slide off my leg ever since I put them on, and the wind was howling when I ran here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,18 +227,19 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:540:Z52}分享着此前的经历，手上翻找的动作也跟着停了下来。",
+			hidePaintObj = true,
+			say = "She starts recounting everything that happened up to now and stops looking for her tape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不如先把防滑贴找出来？",
+					content = "(Tell her to save the story for later.)",
 					flag = 1
 				},
 				{
-					content = "先把手上的东西给我吧？",
+					content = "(Offer to hold her bag.)",
 					flag = 2
 				}
 			}
@@ -240,7 +254,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "不如先把防滑贴找出来，把衣服粘好，我们再继续聊？",
+			hidePaintObj = true,
+			say = "Easy there, speedster. You can tell me all about it after you find that tape to hold up your tights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,21 +270,23 @@ return {
 			optionFlag = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "噢！对噢！我已经翻到了！",
+			hidePaintObj = true,
+			say = "Oh, right! I just found it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 401521,
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "我来粘一下……",
+			hidePaintObj = true,
+			say = "Let me just put this on here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +302,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "把手上的东西也给我吧？我帮你拿着。",
+			hidePaintObj = true,
+			say = "I'll hold your bag for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +319,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "先把手上的东西给我吧？我帮你拿着，这样你找防滑贴也方便。",
+			hidePaintObj = true,
+			say = "Want me to hold your bag? Since you have your hands full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +336,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "总之把衣服处理好再说吧。",
+			hidePaintObj = true,
+			say = "We can talk after you've found the tape and secured your tights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +352,8 @@ return {
 			optionFlag = 2,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "防滑贴我已经找到了~！不过既然指挥官要帮我拿东西嘛，那就……",
+			hidePaintObj = true,
+			say = "Just found it! But since you're offering to hold the bag...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +367,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿~谢谢指挥官！",
+			hidePaintObj = true,
+			say = "Thanks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,12 +376,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "{namecode:540:Z52}将手提袋递给了我，开始在袜子与衣服的内侧粘贴着防滑贴。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "After handing her bag to me, she applies the tape and adjusts her clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,12 +390,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "原本有些松垮的黑色布料被防滑贴粘牢，在少女的肌肤上勒出浅浅的痕迹。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "They were hanging loosely around her before, and now they fit perfectly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +410,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "好了！",
+			hidePaintObj = true,
+			say = "There!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,12 +419,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "{namecode:540:Z52}原地跳了跳，确认衣物不再滑落后，露出了明媚的笑容。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "With a skip and a hop, she makes sure that the tights won't affect her mobility, then she gives me a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +439,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "没问题了，指挥官，我们快去店里玩吧！",
+			hidePaintObj = true,
+			say = "Everything's in order now! Let's head inside the shop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +454,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "把被我迟到浪费掉的时间全都补回来！",
+			hidePaintObj = true,
+			say = "I've gotta make up for being so late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +470,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "好，刚才我已经用手机提前下好单，给你点好了蛋糕和饮品了。",
+			hidePaintObj = true,
+			say = "Right. Oh, by the way, I ordered a cake and some drinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +485,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "好耶~！指挥官，我们快跑步前进——！",
+			hidePaintObj = true,
+			say = "Sweet! Come on, let's dash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,12 +494,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			withoutActorName = true,
-			side = 2,
-			say = "{namecode:540:Z52}抓过我的手，带着大大咧咧的笑容拉着我向前跑去。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "She grabs my hand and breaks into a sprint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +514,8 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "大家开的店是这个方向吧，指挥官？",
+			hidePaintObj = true,
+			say = "The shop's over here, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +530,8 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			actorName = "{playername}",
-			say = "咳，其实是那边。",
+			hidePaintObj = true,
+			say = "No, it's over THAT way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,12 +539,13 @@ return {
 		},
 		{
 			actor = 401521,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			side = 2,
-			say = "欸——！！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What?! You're kidding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

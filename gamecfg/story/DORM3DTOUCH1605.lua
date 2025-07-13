@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这样的姿势，会适合天狼星吗？",
+			say = "Do you think this pose suits me?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch21",
 			typewriter = {
 				speed = 0.05,

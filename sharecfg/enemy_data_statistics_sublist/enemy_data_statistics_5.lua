@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_5 = {
 	[90109] = {
 		cannon = 0,
-		name = "球磨级量产型",
+		name = "Kuma Production",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -155,7 +155,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90110] = {
 		cannon = 0,
-		name = "川内级量产型",
+		name = "Sendai Production",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -308,7 +308,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90111] = {
 		cannon = 0,
-		name = "古鹰级量产型",
+		name = "Furutaka Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -474,7 +474,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90112] = {
 		cannon = 0,
-		name = "青叶级量产型",
+		name = "Aoba Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -640,7 +640,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90113] = {
 		cannon = 0,
-		name = "妙高级量产型",
+		name = "Myoukou Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -806,7 +806,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90114] = {
 		cannon = 0,
-		name = "高雄级量产型",
+		name = "Takao Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -974,7 +974,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90115] = {
 		cannon = 0,
-		name = "最上级量产型",
+		name = "Mogami Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1142,7 +1142,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90116] = {
 		cannon = 0,
-		name = "伊势级量产型",
+		name = "Ise Production",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1308,7 +1308,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90117] = {
 		cannon = 0,
-		name = "扶桑级量产型",
+		name = "Fusou Production",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1474,7 +1474,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90118] = {
 		cannon = 0,
-		name = "战舰·雾岛",
+		name = "Battleship Kirishima",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1642,7 +1642,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90119] = {
 		cannon = 0,
-		name = "战舰·比叡",
+		name = "Battleship Hiei",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1810,7 +1810,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90120] = {
 		cannon = 0,
-		name = "空母·赤城",
+		name = "Carrier Akagi",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1976,7 +1976,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90121] = {
 		cannon = 0,
-		name = "空母·加贺",
+		name = "Carrier Kaga",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2142,7 +2142,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90122] = {
 		cannon = 9999,
-		name = "水雷",
+		name = "Mine",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2291,7 +2291,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90123] = {
 		cannon = 0,
-		name = "驱逐「Pawn」",
+		name = "Destroyer: Pawn",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2453,7 +2453,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90124] = {
 		cannon = 0,
-		name = "轻巡「Knight」",
+		name = "Light Cruiser: Knight",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2615,7 +2615,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90125] = {
 		cannon = 0,
-		name = "重巡「Bishop」",
+		name = "Heavy Cruiser: Bishop",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2784,7 +2784,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90126] = {
 		cannon = 0,
-		name = "战舰「Rook」",
+		name = "Battleship: Rook",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2953,7 +2953,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90127] = {
 		cannon = 0,
-		name = "航母「Queen」",
+		name = "Carrier: Queen",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3120,9 +3120,160 @@ pg.enemy_data_statistics_5 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[90128] = {
+		cannon = 0,
+		name = "Submarine: Assassin",
+		type = 8,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90128,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "qiantingdanchuan",
+		star = 0,
+		torpedo = 0,
+		antisub_growth = 0,
+		rarity = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 10,
+		luck = 0,
+		antisub = 0,
+		scale = 120,
+		wave_fx = "danchuanlanghuaxiao2",
+		prefab = "qiantingdanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			10.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.097,
+					1.231,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.527,
+					0.513,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.097,
+					1.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"hit_bubble",
+						{
+							0,
+							0,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.82,
+				0
+			},
+			{
+				0,
+				0,
+				0.358
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {},
+		bubble_fx = {
+			"bubble",
+			20,
+			3
+		}
+	},
 	[90129] = {
 		cannon = 0,
-		name = "潜艇量产型",
+		name = "Submarine Production",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3266,7 +3417,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90130] = {
 		cannon = 0,
-		name = "岸防舰",
+		name = "Coastal Defense Ship ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3428,7 +3579,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90131] = {
 		cannon = 0,
-		name = "指挥舰",
+		name = "Command Ship ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3590,7 +3741,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90132] = {
 		cannon = 0,
-		name = "维修舰A",
+		name = "Repair Ship A ",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3745,7 +3896,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90133] = {
 		cannon = 0,
-		name = "防空舰",
+		name = "Anti-Air Ship ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3900,7 +4051,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90134] = {
 		cannon = 0,
-		name = "维修舰S",
+		name = "Repair Ship S ",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4055,7 +4206,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90135] = {
 		cannon = 0,
-		name = "阳炎级量产型.verAI",
+		name = "AI-Type Kagerou Production",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4208,7 +4359,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90136] = {
 		cannon = 0,
-		name = "妙高级量产型.verAI",
+		name = "AI-Type Myoukou Production",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4374,7 +4525,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90137] = {
 		cannon = 0,
-		name = "扶桑级量产型.verAI",
+		name = "AI-Type Fusou Production",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4540,7 +4691,7 @@ pg.enemy_data_statistics_5 = {
 	},
 	[90138] = {
 		cannon = 0,
-		name = "自爆船.pink",
+		name = "Pink Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4678,152 +4829,6 @@ pg.enemy_data_statistics_5 = {
 		hp_bar = {
 			150,
 			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90139] = {
-		cannon = 0,
-		name = "水面水雷",
-		type = 16,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90139,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "shuilei1",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 30,
-		luck = 0,
-		antisub = 0,
-		scale = 200,
-		wave_fx = "",
-		prefab = "shuilei1",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 98,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			-3
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.112,
-							0.664,
-							0
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.473,
-							1.283,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			100
 		},
 		equipment_list = {},
 		random_equipment_list = {},

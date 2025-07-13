@@ -15,19 +15,19 @@ return {
 			bgm = "level02",
 			sequence = {
 				{
-					"铁血浮岛要塞群增援舰队",
+					"SOS received from the Floating Fortress.",
 					1
 				},
 				{
-					"旗舰：俾斯麦",
+					"Support fleet assembly in progress.",
 					2
 				},
 				{
-					"状态：集结中",
+					"Designated Flagship: KMS Bismarck",
 					3
 				},
 				{
-					"银地洋海域·某处",
+					"Some time after the defeat of the high-level Siren program, Compiler...",
 					4
 				}
 			},
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "航向正确，视野清晰，天气……略有积雨云！",
+			say = "Correct heading, clear visibility... But looks like we have some rough weather on the horizon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "不过没问题，可以克服！",
+			say = "But that's nothing you and I can't overcome, Lord Bismarck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "嘿嘿……好久没有出门执行任务了，还是跟{namecode:435}姐姐一起……",
+			say = "Heehee... You know, I'm so glad I get to sortie with you once more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天要尽情游个痛快~",
+			say = "I can't wait to get out there and do some good work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你的身体还在恢复期，要量力而行哦。",
+			say = "Just don't be reckless. Both of us might be a bit rusty after all this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "当然，我会注意的！",
+			say = "Got it. I'll be careful!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "如果我倒下了由谁来照顾姐姐嘛。",
+			say = "Because if I go down, who else is gonna cover you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……呵呵，真会说话。",
+			say = "Heh, that's true. You are my steadfast little Parzival, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "我会努力不倒下去的。",
+			say = "I'll be careful as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不是每个人都能如我一般获得第二次机会……",
+			say = "Not everyone has the fortune of getting a second chance like me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "更何况责任在肩……有如此多要做的事，在这里倒下的话就麻烦了。",
+			say = "I've already had my fair share of tempting fate... and there are so many people counting on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "{namecode:435}姐姐……",
+			say = "Lord Bismarck...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "抱歉，我把气氛搞差了。",
+			say = "Forgive me for bringing up such a heavy topic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嗯……作为补偿，回去之后的音乐会怎么样？",
+			say = "I'll make it up to you by taking you to a concert after we get back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "不用不用！只要{namecode:435}姐姐不要再勉强自己就可以啦！",
+			say = "No, no, I'm fine. All that matters is that you're safe and sound, Lord Bismarck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "现在有我在，我一定会保护你的安全的！",
+			say = "And I swear, I'll lay down my life for you if anyone tries to hurt you ever again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "真是可靠呢。",
+			say = "Haha. You're too diligent for your own good, but I appreciate it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408040,
-			say = "嘿嘿~那我就继续巡逻了，姐姐要跟紧我哦！",
+			say = "Alrighty then, I'll scout ahead for now! Please follow my lead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "（…………你已经做得足够好，接下来换我保护你了。）",
+			say = "(You've already more than fulfilled your promise, my friend. This time, I'll be the one to protect you...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（我就是为此，而跨越地狱重生的……）",
+			say = "(I'll use my new strength to that end...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "{namecode:416}在她的前方航行，东张西望，时而跃出海面，时而潜入水底。",
+			say = "U-556 sailed ahead of her eagerly, sometimes looking around, other times dipping into the ocean before leaping out like a dolphin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "像条充满活力的海豚。",
+			say = "This small girl had once ferried her corrupted hull away from the brink of destruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "{namecode:435}则跟在她的身后，看着她的背影陷入了沉思。",
+			say = "She followed behind her friend's frolicking figure, inexplicable feelings swirling around her chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 205010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "…………………………嗯？",
+			say = "...What's this? An urgent message?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "斯卡帕湾发来急报，阿瓦隆之门……似乎出现了异常状况。",
+			say = "It's from Scapa Flow. The gate is acting up, it seems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "本王要去处理一下这件事，会就先开到这里吧。",
+			say = "I must see what's wrong with it. It's time we said goodbye for today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "……对了。本王再提醒一下，为了我们所有人的安全，近期千万不要启动米德加尔特之塔。",
+			say = "In the meantime, don't use the Tower of Midgard under any circumstances. Is that clear?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "伊丽莎白通话结束。",
+			say = "The very world depends on it. Goodbye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 405010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "（然而在同一时间，浮岛要塞群也失联了……）",
+			say = "(Our teleporter began to act up around the same time the Royal Navy's did...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（无法恢复联系，派出的量产型巡逻队也没有回应。）",
+			say = "(Worse yet, we've lost all contact with the Floating Fortress that houses it at around the same time the Royal Navy reported their issues.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（该不会是米德加尔特之塔出现了问题……）",
+			say = "(The possibility of a Siren attack is high, but with Peter Strasser and Ulrich von Hutten stationed there, combat prowess should be the least of our concerns.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（从驻防力量上来说，有{namecode:464}和{namecode:471}的两支舰队再加上{namecode:434}META，寻常敌人不在话下。）",
+			say = "(One thing is clear– we can't afford to let our guard down.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（但是能同时干涉到米德加尔特之塔和阿瓦隆之门的敌人，会是寻常敌人么……）",
+			say = "(If they have the capacity to launch a multi-pronged attack like this... we may well be dealing with a META or Ashes enemy.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（希望驻防舰队一切安好……）",
+			say = "(Whatever the case, time is of the essence.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "与此同时，银底洋中的另一片水域。",
+			say = "Fortress Support Fleet - Rendezvous point",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -741,7 +741,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_2",
 			hidePaintObj = true,
-			say = "阴云笼罩着海面，隐约传来阵阵雷鸣。",
+			say = "Dark clouds covered the seas, with distant thunder rumbling now and then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_2",
 			hidePaintObj = true,
-			say = "而在阴云下，两个身影正在风浪中疾驰着。",
+			say = "Amidst the rain, two girls made their way to the rendezvous point to meet with Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "天气真差……侦察效率要下降了。",
+			say = "What terrible weather... How am I supposed to scout anything out with this awful visibility?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "这也没办法嘛，紧急任务不等人。",
+			say = "Just deal with it. You can't exactly reschedule for better weather when there's an emergency.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "从本土调动舰队等的时间太长，我们再加上{namecode:435}大人就是仅有的力量了。",
+			say = "It'd take too long to send a fleet from back home, so we're the only ones who can respond in time, along with Bismarck herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里就克服一下天气困难吧！",
+			say = "You're not going to let a little storm get in the way of your duties, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不……我的意思是，这里是净化者活跃的地方，要是遇到就糟糕了。",
+			say = "It's not the rain I'm concerned about. You know how high-ranking Sirens and abnormal weather tend to go hand-in-hand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "不会吧！我们已经有段时间没见过净化者了。",
+			say = "Sure, but what are you afraid of? We already took down Compiler.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就要看我们的运气咯♪",
+			say = "That's ONE. How many more are out there? Purifier and Omitter, just to name a couple.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "…………欸，我好像真看到了一个异常目标哦。",
+			say = "...Hold on, I'm seeing a strange silhouette to our twelve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "什么？！不会这么倒霉吧……",
+			say = "H-huh?! It's not a Siren, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -936,7 +936,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "长发，有着带炮的、如同翅膀一般的巨大舰装……",
+			say = "Long hair, big guns, and rigging that looks like it has a life of its own...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "这个描述，难，难道真的是净化者？！",
+			say = "PLEASE tell me one of our colleagues forgot to RSVP, and that's not a Purifier right ahead of us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -982,7 +982,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "怎么办，快逃吧……逃到安全的地方，再去跟{namecode:435}大人道歉。",
+			say = "Ugh! Let's get out of here for the time being, and apologize to Bismarck later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1000,7 +1000,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "目标正在向我们的位置高速接近，就算想逃，恐怕也逃不掉了哦。",
+			say = "It miiiight be a tad late for that. Look, it's approaching us at high speed~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "…………呜呜呜，那就，边打边逃跑！",
+			say = "Dammit... Then, then... Make a break for it while I cover you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者我掩护你，你快跑吧！！！",
+			say = "Get some backup while I keep the elite at bay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸？",
+			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "航空母舰比轻巡洋舰对于铁血舰队的作用更大，我拼死也会掩护你撤退的！",
+			say = "Aircraft carriers are more important to the Iron Blood fleet than destroyers, so... You have to get out of here safely!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "等、等等……我刚刚是，开玩笑啦，开玩笑！",
+			say = "Wait, sorry, I took the joke too far... I was just kidding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1116,7 +1116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "你不用，安慰我……我已经看到接近的巨大目标了。",
+			say = "Look, you don't have to console me. I've already come to terms with my greater purpose...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1133,7 +1133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里交给我，你快逃吧。",
+			say = "I'll hold 'em back. You go and tell Bismarck–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……不是，你仔细看看，来的人是谁！",
+			say = "Would you stop and use your eyes? They're an ally!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,7 +1174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "我看的很清楚，长发，有着带炮的、如同翅膀一般的巨大舰装……",
+			say = "Horns, long hair, and a wing-like cape...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1192,7 +1192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "…………",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1210,7 +1210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "………………好像…………布置任务的时候……",
+			say = "Oh, uhh... During the mission briefings... There was something about meeting up with a \"rigging tamer,\" right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "确实是说过…………还有{namecode:516}会在半路上……跟我们汇合来着……？",
+			say = "Wait, were they talking about Regensburg?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1246,7 +1246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "没错√",
+			say = "Now you're finally using your head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:491}————你刚刚吓死我了！",
+			say = "What the hell! Why didn't you say anything earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1298,7 +1298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "抱歉抱歉，原谅我吧~",
+			say = "I mean, you had the right answer... before your mind went on a magical journey, anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1322,7 +1322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "…………啊？从刚才起就在闹什么？",
+			say = "...What's the matter with you two?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1340,7 +1340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "被雷吉纳吓到了么，还是路上吃坏肚子了？",
+			say = "Frightened by my Regina? Upset stomachs, perhaps?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1358,7 +1358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "咳、没什么……欢迎与我们合流，{namecode:516}。",
+			say = "It's... nothing. We've been waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1376,7 +1376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "路上还顺利么？",
+			say = "You okay? Encounter anything on the way here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1393,7 +1393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遇到了塞壬巡逻舰队，不过已经都成为雷吉纳的食物了。",
+			say = "A handful of stray Sirens. They made a decent meal for my Regina.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1410,7 +1410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435}大人，还没到么？",
+			say = "Where's Bismarck? Has she not arrived yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，还没到跟{namecode:435}大人汇合的位置。",
+			say = "More like, we haven't. We're not at the rendezvous point just yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1444,7 +1444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们就别站在这里闲聊了，快出发吧！",
+			say = "Then what are we standing around for? Chop-chop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1461,7 +1461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经等不及和康复后的{namecode:435}大人并肩作战了！",
+			say = "I've waited long enough to fight side by side with Bismarck as it is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1487,7 +1487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好好，我知道了……",
+			say = "Yes, yes, whatever you say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1508,11 +1508,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:491}",
+			actorName = "Jade",
 			bgName = "bg_unnamearea_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我知道啦，别推我嘛——",
+			say = "Okay, I get it! Stop pushing me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1530,39 +1530,39 @@ return {
 			bgm = "bsm-6",
 			sequence = {
 				{
-					"「{namecode:441}，感觉如何。」",
+					"\"Friedrich, how are you feeling?\"",
 					1
 				},
 				{
-					"「乐器状态良好，随时可以开始开场。」",
+					"\"The performers have gathered, and I am ready to conduct.\"",
 					2
 				},
 				{
-					"「我最后再确认一遍……你是认真的么？」",
+					"\"I'll ask you one last time– are you sure about this?\"",
 					3
 				},
 				{
-					"「自然。智则示以愚，强则示以弱。」",
+					"\"Of course. For power to serve as a deterrent, it must be displayed.\"",
 					4
 				},
 				{
-					"「演奏，一定能成功。」",
+					"\"The symphony must be played to its conclusion.\"",
 					5
 				},
 				{
-					"「……那接下来就按照计划。」",
+					"\"Very well. Carry out the plan then.\"",
 					6
 				},
 				{
-					"「企业，全员准备就绪。」",
+					"\"We're ready when you are, Enterprise.\"",
 					7
 				},
 				{
-					"「很好。」",
+					"\"Good.\"",
 					8
 				},
 				{
-					"「——行动开始。」",
+					"\"Begin the mission.\"",
 					9
 				}
 			}

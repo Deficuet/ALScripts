@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>五　挥之不去的思念</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 5 I'm Glad I Met You</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-richang-7",
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "今天也辛苦啦，指挥官。这样一来，这些绚烂的蔷薇花也种植完毕……",
+			say = "Commander, thanks for helping me out today. With this, we've managed to replant all the roses...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿！指挥官也差不多要变成园艺大师了呢。",
+			say = "I'm not exaggerating when I say you have quite the knack for gardening.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "从初春到盛夏再到晚秋，与{namecode:29}一起整顿花房的习惯竟不知不觉坚持了下来。",
+			say = "Before I knew it, my visits to Hanazuki's garden room had become a habitual occurrence. I started passing by whenever I had nothing to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "不过此时，天空中的阴云似乎正在集结，继续进行户外作业似乎稍微有些危险——",
+			say = "I completely lost track of time today after I started working, and the sky has already started to darken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "——正这样想着的时候，雨点便落在了脸上。",
+			say = "Just as I prepare to wrap up my work for the day, droplets of rain start to appear on the ground around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官！快进来躲雨！",
+			say = "C-Commander, come inside! It's starting to rain!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -171,7 +171,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被淋湿了感冒可不行……在天空放晴之前，先在花房里避一避吧~",
+			say = "You might catch a cold if your clothes get soaked, so let's stay inside until the rain stops!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}说话的语调微微上扬了起来，似乎对于现状有些开心。",
+			say = "Despite her words, there isn't a hint of panic or worry in her voice. Instead, Hanazuki sounds somewhat... relieved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "与{namecode:29}并排坐在屋檐下，一边喝茶，一边聆听着落雨打在泥土上的声音。",
+			say = "The two of us sit shoulder-to-shoulder beneath the eaves, sipping warm tea while listening to the almost-musical pattering of raindrops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下雨天时，被打湿的泥土也会散发出一种清新的气息呢……",
+			say = "I really like the scent of the earth that wafts up after it rains...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -268,7 +268,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官！你渴了么？{namecode:29}去给你倒一杯花茶吧……",
+			say = "Oh, um... Sorry for being the only one talking... Would you like me to make you some floral tea?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -286,11 +286,11 @@ return {
 			},
 			options = {
 				{
-					content = "是有些渴……那就辛苦榵了。",
+					content = "\"Sure, I'd appreciate it.\"",
 					flag = 1
 				},
 				{
-					content = "那我们现在在喝的是……？",
+					content = "What were we drinking just now then?",
 					flag = 2
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "{namecode:29}转身去里屋准备花茶了，全然没有注意到身边正摆着刚下雨时端来的茶壶。",
+			say = "When I look over at the clear teapot sitting on the table, there seems to be more than enough to spare her the trouble of brewing a new batch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "能感觉到她似乎有什么话想说……虽然并不渴，但是就当做转换气氛好了。",
+			say = "I'm not sure if Hanazuki is trying to tell me something, but I can understand if she wants to change the mood a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "似乎过了比准备一壶茶稍微更长一些的时间，{namecode:29}带着一壶新茶重新回到落雨的檐下。",
+			say = "A short while later, Hanazuki returns with a new teapot in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "……欸？指挥官，您旁边的这壶茶是…………{namecode:29}之前准备的么？",
+			say = "Thank you for your patience... Wait, umm... Commander, what's that teapot next to you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "…………抱歉指挥官，我有点心不在焉了……",
+			say = "...Oh no! I'm so sorry, Commander. I got myself all confused...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "欸？！好、好像是这样诶…………不过这壶稍微有些冷了，我再去冲一壶新的哦！",
+			say = "Huh? Oh, um... W-well, that one's lukewarm by now, so let me make a new batch for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 2,
-			say = "似乎过了比准备一壶茶稍微更长一些的时间，{namecode:29}带着一壶新茶重新回到落雨的檐下。",
+			say = "A short while later, Hanazuki returns with a new teapot in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "两人在屋檐下，听着雨，有一搭没一搭的闲聊着些什么。",
+			say = "We continue to make some small talk while waiting for the rain to pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "又是一杯茶毕，不过这次在放下杯子后，手背上传来温暖又柔软的触感。",
+			say = "After finishing the last bit of tea, I go to set my teacup down on the tray when I suddenly feel a warmth against the back of my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,11 +471,11 @@ return {
 			},
 			options = {
 				{
-					content = "榵……？",
+					content = "(Look over at Hanazuki.)",
 					flag = 1
 				},
 				{
-					content = "（假装没注意到）",
+					content = "(Pretend not to notice.)",
 					flag = 2
 				}
 			}
@@ -489,7 +489,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "啊，指、指挥官！对、对不起！我、我只是想拿一下茶杯……",
+			say = "Ah, s-sorry! I was just about to put away your teacup...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 1,
-			say = "虽然这么说着，不过{namecode:29}并没有将手抽回去。",
+			say = "Her cheeks flare up brightly but she seems frozen in place, unable to move her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "呼…………",
+			say = "(Lets out a deep breath.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 2,
-			say = "{namecode:29}似乎也在假装没有注意到。",
+			say = "Hanazuki is also trying to act like nothing happened, but her cheeks are dyed a bright, rosy red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那、那个！指，指挥官，我，我……",
+			say = "Um, Commander, I...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "——就在此时，雨滴逐渐变得稀疏，太阳从云后再次探出头来。",
+			say = "The moment she turns towards me, the sun's rays once again spread out around us as if finally breaking through the rainclouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……雨停了啊。",
+			say = "The rain... seems to have stopped...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -642,7 +642,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "真是一场犹如突袭的阵雨……你刚才是有话想说么？",
+			say = "She suddenly changes the topic, as if trying her hardest to conceal her nervousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许有，不过已经随着雨水一起流走了吧……",
+			say = "I, I'm really sorry... I don't think I can say it after all...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -685,7 +685,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，今天请收下这个吧~它挂在指挥室的书架上会很漂亮哦。",
+			say = "...Um, but, before I get, could you at least take this? I think it'd make a wonderful decoration for your bookshelf back at the office!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}不知从那里递来了一个漂亮的天竺葵花环。",
+			say = "All of a sudden, Hanazuki takes out a wreath of red geranium and hands it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "天竺葵————挥之不去的思念。",
+			say = "Red geranium – \"I'm glad I met you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那今天的劳动就到这里，{namecode:29}等待着指挥官的下次光临哦~?",
+			say = "Thank you for spending the day with me, Commander... If you don't mind, would you come see me again?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

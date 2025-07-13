@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			stopbgm = true,
-			say = "葛莱娜泰咖啡厅·一段时间后",
+			say = "[Reality Lens Replicated Space] [Location: Café Granate] [Cognitive merging data unknown]",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~熟悉的味道熟悉的感觉。",
+			say = "Phew... This paella's to die for, just like I remember it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些年吃了那么多地方，果然还是这家的海鲜烩饭最好吃。",
+			say = "And let me tell you, I've been all over searching for comparable stuff, but no other shop comes anywhere close!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "我这份芝士焗饭，也十分美味。",
+			say = "Mmhmm. My chorizo-cheese paella was pretty awesome too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "我点的伊比利亚火腿芝士薯条也很好吃哦，感觉那里真是一个盛产美食的好地方呢。",
+			say = "I didn't know that the cheese and pork in my pub fries were imported. Quite an innovative, upscale take on a classic comfort food.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "我稍微查了一下，刚刚的火腿，好像是伊比利亚的招牌美食，在全球都很有名。",
+			say = "I just did some research, and apparently, this shop sources locally as well as imports fine foods from overseas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且不光是我们点的这些，香肠，肉丸，海鲜，芝士蛋糕都很不错。",
+			say = "There's something on the menu for everyone. I'm quite impressed by how they manage to maintain such a broad menu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "巴斯克蛋糕是吧！我之前去那边研究所交流的时候顺便去吃了一次。",
+			say = "That's right! You girls should try Basque cheesecake sometime! I had the real deal once when I went abroad to another research academy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,51 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个确实好吃！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 900332,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "唔……大家在这次出门之前，都没什么机会去基地之外的地方玩呢……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900332,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "决定了，下次再有去伊比利亚日程的时候，我会想办法带几个人陪我一起去~",
+			say = "Ohh, I can still taste it if I focus on that memory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +183,51 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后我们一起买一大堆好吃的坐飞机运回来，给大家都尝尝~",
+			say = "...Come to think of it, you shipgirls still don't get to leave the base much, do you?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900332,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hey... Think you could pull some strings so I can bring a few friends with me on my next business trip?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 900332,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I could use the extra help to find souvenirs for those who stay home. There's a long list, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "把私人飞机用在这方面，经费上没问题么……？",
+			say = "...Are you sure you're allowed to use your private jet for that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题没问题，旅游也是舰船培养所必要的一环嘛！",
+			say = "What's wrong with that? Bonnie does it all the time, and nobody seems to care.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "博士，关于餐厅的名字，我刚刚查了一下。",
+			say = "Random question, Doctor, but I just looked up the name of this café.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "葛莱娜泰，是伊比利亚语里石榴花的意思吧？用作店名是有某种话语的含义在里面么？",
+			say = "Apparently, it comes from granatum, the pomegranate flower. Do you think that has any special significance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错没错~花是有含义的，虽说不同的地方花语多少有些区别。",
+			say = "I mean, the meaning of a flower changes from country to country, so it depends on who you're asking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "葛莱娜泰，意指对美好生活的向往，据说也有“就要错过一个好机会”的意思。",
+			say = "That said, I have heard the granate symbolizes \"yearning for happiness\" and \"a chance about to be missed.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放到这里的话，大概就是说“美食仅此一家”的意思吧？",
+			say = "It also symbolizes abundance and the blessings of life. Put that together, and you probably have something like \"a hearty meal not to be missed out on.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放眼整条街和大学食堂来说，这句话倒是确实没说错。",
+			say = "It's been around for a long while, and their food is the best for miles around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这家店可以算是留存在我脑海里的主要大学味觉记忆了……",
+			say = "Then again, I can't remember the last time I ate at any other café or restaurant in this area...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，我有个电话……嗯？加菲尔德办公室？",
+			say = "...Hang on, I'm getting a call.",
 			soundeffect = "event:/ui/bell",
 			painting = {
 				alpha = 0.3,
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去接个电话，先失陪一下。",
+			say = "Sorry, this one's work-related. I'll be right back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "安洁拿起电话，看起来有些神色凝重地走出了包厢。说实话，有点担心会不会出了什么事。",
+			say = "Anzeel takes out her phone and walks out of the room, her light-hearted mood instantly vanishing beneath a serious, focused demeanor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "不过既然约克城她们没露出担心的模样，应该就算是没问题吧……",
+			say = "But, nobody else seems to think much of it. It mustn't be that serious then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "就在这么想着的时候，话题却转到了自己身上。",
+			say = "With Anzeel out of the room, I feel everyone's gaze turn onto me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "说起来，你们还记得老师教的那门近代战争史吗？",
+			say = "Hey, do you all remember the Professor's lectures on the history of modern warfare?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "嗯，我现在都还记得书里的那些章节，老师教的近代战争史让我受益匪浅。",
+			say = "Of course. Because they were so clear and easy-to-digest, I have a solid grasp of just about every page in the textbook.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "近代战争中的战术也令人印象深刻……",
+			say = "The tactical classes really clicked with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "我现在正在科目上继续深造，对我来说，这些内容到现在都有用。",
+			say = "I might not be the sharpest tool in the shed, but I still use the Professor's lessons to adapt to the changing battlefield.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "没错。我现在也成为一名教师了，算是走了和老师一样的路吧。",
+			say = "Don't let it get to your head, Professor. I'm an educator just like you now, and the path of learning never ends!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "哈曼有个问题，老师还有在教书吗？",
+			say = "Huh? Who is teaching the Professor then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "老师其实原本也不教书啦，只不过是因为之前参与了项目，所以才担任了我们老师的角色。",
+			say = "Dr. Anzeel, of course. The Professor isn't just our teacher, but also Dr. Anzeel's assistant as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在的话，我记得老师应该在参加其他保密项目对吧？",
+			say = "I bet you've been involved in all sorts of confidential projects lately, haven't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "……话题被抛过来了，但是跟之前不同，没有再感到回应安洁提问时的那种感觉。",
+			say = "My skin begins to tingle again when I hear those words, but unlike when I was interrogated by Anzeel, no words appear in my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,14 +652,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "这里只好先随机应变一下————",
+			say = "With nothing to work with, I can only handwave the question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表示肯定",
+					content = "(Nod)",
 					flag = 1
 				}
 			}
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "果然是这样。既然是保密项目，那我们还是不要多问了。",
+			say = "I see... Sorry, I shouldn't be asking about confidential information in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉抱歉，让大家久等了。",
+			say = "I'm back. Sorry that took so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "出什么事了么？",
+			say = "\"Let me guess. Big news?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，计划有点变动。加菲尔德收到了紧急任务今晚就要走。所以会议提前了，我现在就得出发。",
+			say = "Yup. Change of plans – General Garfield is going on an urgent mission tonight, so our meeting has to happen now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸，现在么？可是饭都还没吃完啊……",
+			say = "Now? But we're not done eating yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真遗憾，不过没办法，事情紧急。",
+			say = "I know, but there's nothing I can do. It's an emergency situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说实话，他好像心情不太好，我不确定发生了什么。大概率不是好事……",
+			say = "Must be pretty serious too, because he sounded like he was in a pretty bad mood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本助手也应该跟我一起去的，不过算了，“没睡醒”的助手不适合去应付“生气”的将军。",
+			say = "Professor, I was originally planning on bringing you along. But I don't think I should put you in front of the general's fury while you're still... \"not fully awake.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次就我自己先去应付他一下好了。作为交换，在我回来之前约克城她们就拜托你照看了哦。",
+			say = "I'll deal with him myself. In return, keep these girls busy, will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -829,7 +829,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这张卡给你，消费账单都算在我名下，你们去随便逛街啊看电影之类的都可以！",
+			say = "Oh, and take my credit card. Take them on a shopping trip and go watch a movie or something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我先去结账了，你们今天记得玩得开心哦——",
+			say = "I'll go take care of the bill first. Enjoy your day off, girls~!",
 			painting = {
 				alpha = 0.3,
 				time = 1

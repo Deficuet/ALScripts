@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-executor-type1",
 			dir = 1,
-			say = "打击有效，但是毫无意义。维修模块，启动————",
+			say = "A formidable blow, but ultimately futile. Initiating automatic repair functions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "什么……好不容易对塞壬造成的损伤正在高速修复！",
+			say = "She's rapidly repairing all the damage the submarines inflicted to her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不光是司特莲库斯，另外两个仲裁机关也开始了肉眼可见的修复进程。",
+			say = "And it's not just Strength... The other Arbiters are also repairing themselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是……每个人都带了一套修复系统的意思么？！太犯规了？！",
+			say = "Does that mean... all Arbiters come equipped with self-regenerating systems?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们可以修复数十上百次，吾等修复一次就叫犯规了么？",
+			say = "This vessel's self-repair mechanisms seem to be deficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "怎么了，拿出刚才的自信与气势，我们继续战斗吧。",
+			say = "...But no matter. We continue the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不行，已经差不多到舰队的极限了……",
+			say = "\"We're only going to be whittled down if this goes on, just as Saratoga said.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "余烬的{namecode:94}，你们有撤退方案么？",
+			say = "\"If only there was a way to retreat...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "这个啊，当然是没有的。",
+			say = "If you want to retreat, then go right ahead. But we have no intention of running with our tails between our legs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "我们的任务是坚守此处，排除奇异点内的敌人。没有完成任务之前我们绝不撤退。",
+			say = "Our goals are twofold. To defend the Singularity that our allies opened, to the bitter end; and to destroy all of our enemies in one fell swoop. Retreat isn't an option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，果然这个奇异点是你们开的！",
+			say = "So it really was you that created the Singularity all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哎？原来之前你们都不知道么。",
+			say = "You only figured it out just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "之前只是猜想，没想到能得到犯罪者本人的当面陈词！",
+			say = "We can speculate all we want, but we couldn't know for sure until we heard it straight from your mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "随便开个奇异点就把整个NA海域搅个天翻地覆……你们还真是。",
+			say = "(So the things that happened to the NA Ocean aren't their fault... And if anything, it was this Singularity that allowed us to finally make a decisive move against the Sirens.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么做的目的是什么？",
+			say = "What's the purpose of you doing all this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "与你们无关————虽然我想这么说。",
+			say = "It doesn't concern you... or so I'd like to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "大概还算和你们有些关系吧……",
+			say = "But that wouldn't be entirely accurate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "我明白，我不会再说更多了。",
+			say = "Yes, I know. I have no intention of saying any more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "喂！那边的指挥官，我有个提案给你。",
+			say = "Let's get down to the nitty-gritty, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "仲裁机关的目标是我们，要坚守此处的也是我们。至于你们————",
+			say = "The Arbiters are only after us. There's no reason for you to risk your lives defending this Singularity either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "你们还有抛下我们独自撤退的选择。",
+			say = "If you want to retreat like you wanted to earlier, we won't stop you. I'll even tell you the way out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "怎么样？如果你要走的话，我不会从背后偷袭哦？",
+			say = "I swear on the 2nd CarDiv's honor that we won't turn on you. Now tell me, honestly, would you rather stay and fight, or retreat to safety?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意",
+					content = "\"Retreating might be our only choice...\"",
 					flag = 1
 				}
 			}
@@ -398,7 +398,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "果然会这么选啊……这种熟悉的理性感。",
+			say = "I see. The well-being of your allies is paramount, so the choice is obvious.",
 			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "那么，就在此别过吧。希望你们能顺利找到出去的道路。",
+			say = "Well, then this is farewell. I'll be hoping for your safe escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在指挥部恢复联系后，一定派援军支援你们。",
+			say = "\"As soon as I get in touch with Naval HQ, I'll ask for some reinforcements.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "我知道，你肯定会这么做的……所以不必了。",
+			say = "While I don't doubt that you would do that for us, don't bother.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "快走吧。接下来我们要放手一战，不要碍事。",
+			say = "It'll just end up being a hindrance to us. Now go, get out of here, quick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "………………碧蓝航线所属舰队全员，立刻转向，脱离与仲裁机关的接触。",
+			say = "\"All ships! Disengage from the Arbiters, retreat, and change course for the Singularity's exit!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "祝你好运哦，“指挥官”。",
+			say = "I wish you the best, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "总算是清净了，这样一来你能理解{namecode:66}的意思了吧？",
+			say = "And that takes care of that. Are you starting to understand how Takao felt, Ark Royal?",
 			bgm = "main-ashes-theme",
 			flashout = {
 				black = true,
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "能力上没的说。对己方舰队关怀有加，对于潜在盟友尽力争取，对待敌人冷酷无情。",
+			say = "The Commander truly is a unique person. A person who's caring and considerate to allies, yet ruthless to enemies. A person who can win anyone over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "擅长分析判断，对于战场有准确的理解。在察觉到局势的凶险后，果断做出了最符合己方利益的选择。",
+			say = "A person who accurately reads the flow of battle and is quick to make judgments, and depending on the situation, prioritizes the best interests of the fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "要怪，就怪我们的存在本身吧。",
+			say = "Knowing all that, I understand why the Commander made that choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "对于指挥官来说，我们既不算盟友，也不算朋友……甚至还是在不久前激烈交战的敌人。",
+			say = "Look at it from the Commander's perspective. We're neither friends, nor foes... Just strangers to steer clear of, lest we turn on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "如果换成我们，也会必然得出相同的选择。",
+			say = "If I were in the Commander's shoes, I would've likely made the same decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "恐怕连犹豫也不会犹豫一下……",
+			say = "Admittedly, as would I, and without hesitation either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "……虽然短暂，{namecode:94}，感谢你给了我这个美好的梦境。",
+			say = "Hiryuu... Thank you for letting me be part of a brief, but blissful dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "咦，这点小小的关照还是被你发现了么？",
+			say = "You're welcome. Though I have to admit, I was only half-committed to making all this happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "做的太明显了……尤其把指挥官引过来的挑衅行动，拐弯抹角不是你的风格。",
+			say = "No, you absolutely went through a lot of trouble to lead the Commander to us. It was very roundabout, and not something I'd expect from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "哈哈哈，说的没错！这么拐弯抹角也太不像我们的风格了。",
+			say = "Hahaha, you're not wrong... My sister isn't here, so I guess I ended up doing something that's not in my nature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "即便是短暂的接触，“指挥官”依然对你我产生“影响”了么？",
+			say = "Do you think... after the brief time we spent with the Commander, the long-extinguished flames in our heart can be lit once more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "或许吧。不管怎样，那已经是和我们毫无关系的人了。",
+			say = "Perhaps... but that no longer has anything to do with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "方舟，超载准备吧。希望我们能坚持到企业回来。",
+			say = "Ark Royal, get ready to push yourself beyond the limit. We need to hold out until Enterprise comes back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "……明白。",
+			say = "...Yeah. I'm aware.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,11 +806,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家方舟·META",
+			actorName = "Ark Royal META",
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "安蒂克丝，一直以来我都在等待一个机会，一个像这样当面向你们复仇的机会。",
+			say = "Antiochus... I've long waited for this opportunity... The opportunity to finally have my revenge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,11 +822,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家方舟·META",
+			actorName = "Ark Royal META",
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不论你们的初衷如何，不论你们的目标如何。",
+			say = "Whatever your goals once were, and whatever you strive to achieve in the end, it's all meaningless to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,11 +838,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家方舟·META",
+			actorName = "Ark Royal META",
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "对于我来说，你们是毁灭了我身边一切美好与希望之物的敌人。",
+			say = "All that matters is that you took away everything I held dear! You destroyed all hope I had!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,11 +854,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家方舟·META",
+			actorName = "Ark Royal META",
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "血债血偿……",
+			say = "Humanity has an age-old adage... An eye for an eye, and a tooth for a tooth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,9 +872,9 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			bgName = "bg_nacorearea_2",
-			actorName = "皇家方舟·META",
+			actorName = "Ark Royal META",
 			dir = 1,
-			say = "这一倾尽全力的一击，你们就好好感受一下吧！",
+			say = "TAKE THIS! ALL OF MY RAGE, FOCUSED IN ONE HIT!",
 			effects = {
 				{
 					active = true,
@@ -893,7 +893,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "刺眼的白光覆盖了视野，爆炸与冲击蹂躏着海天。",
+			say = "My eyes were stabbed by the blinding light of an explosion. The shockwave tore at my skin, and the blast sent great ripples across the sea.",
 			dir = 1,
 			bgm = "main-ashes-theme",
 			effects = {
@@ -968,7 +968,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当一切都平静下来后，海域中剩下的只有死寂。",
+			say = "After the smoke cloud dissipated and the dust settled, there was only deathly silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳咳……指挥官，您没事吧！",
+			say = "*cough cough*... Commander... you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,7 +1007,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "还算没事，其他人呢？",
+			say = "\"I think I'm fine. I'm more worried about everyone else...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,7 +1022,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况不是很好……不少受损严重的同伴在冲击中遭受了二次损伤。",
+			say = "That blast definitely did us no favors. It was like salt in our still open wounds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1038,7 +1038,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "后勤舰队正在紧急处理，万幸的是没有出现掉队的人……",
+			say = "Thankfully, the damage to our repair ships and rear fleets was minimal. Our wounded received emergency repairs, so at least there were no casualties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1053,7 +1053,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水面上的残骸倒是被刚才的冲击清理掉不少……接下来的撤离能更顺利了。",
+			say = "Plus, the explosion helped destroy a lot of the obstacles that were in the way earlier, so it should make getting out that much easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,22 +1066,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这种规模的爆炸………………余烬那边没问题吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我们驶出的太远，已经不清楚那边的战况了。",
+			say = "\"An explosion of that magnitude... There's no way even the Ashes could have made it out unscathed...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1081,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过仲裁机关既然没追过来，说明作战应该还算顺利吧……",
+			say = "I understand how you feel, but we're in no position to go back for them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "There's nothing to suggest the Arbiters are chasing us, but we're not out of the woods yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "继续前进……尽快找出离开这里的航线。",
+			say = "\"We can't waste the chance the Ashes graciously created for us...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1122,7 +1122,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬主力舰队已被全数消灭，剩下的只有和余烬激战的仲裁机关。",
+			say = "\"We need to escape the Singularity and meet up with our allies on the outside.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重新集结舰队之后肃清奇异点内空间，NA海域的战斗就算彻底结束了……",
+			say = "\"After that, we'll regroup, return to the Singularity, and hopefully return the NA Ocean to the way it was before... A clear, blue sea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在那之前，所有人一定要坚持住啊………………",
+			say = "\"Until then, just try to hang in there, everyone!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1161,7 +1161,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

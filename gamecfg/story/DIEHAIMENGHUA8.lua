@@ -13,7 +13,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战况不利…！{namecode:80}，请允许我单独突围出镜面海域。{namecode:103}的舰队应该还没走远，我去找她们回来！",
+			say = "Things aren't looking good...! Kii, let me break out of the Mirror Sea alone. Chitose's fleet can't have gone far! I'll find them and have them turn back!",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里距离天岩岛也不远，只要能发出求援信息的话，天岩岛的舰队也能前来参战！",
+			say = "We're also not far from the Diadem of Light. If you can send out an SOS signal, the fleet there can also come to our aid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不行！敌人太多了，只靠你一个人是不可能突围成功的。",
+			say = "No! There's too many of them! You won't be able to make it out alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且现在还没有找到正确的出路，就算你能一时摆脱敌人，也绕不出镜面海域吧……",
+			say = "Besides, we haven't located the way out yet. Even if you can stave off the enemies for a while, how are you going to get back to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……！",
+			say = "But...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然目前为止还没直接打过来，不过看这一层一层的敌人，测试者是铁定不打算放我们轻松离开啊。",
+			say = "They haven't made their move yet, but based upon their numbers, Tester doesn't plan to let us leave without a fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法，只有在这里消灭测试者，从正面突破镜面海域这一个选择了。",
+			say = "We only have one option. We're going to have to focus all our attacks on a single point! If we can break Tester's command module, we'll be able to create an opening to get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "直取敌将么！唔…如果只是测试者的话靠我们的阵容还可以勉强一战，不过在加上那一圈护卫的舰队可就头疼了呢…",
+			say = "Going straight for the jugular, huh? Hmm... If it's just Tester, we might be able to pull it off with our numbers... But throw in some escorts, and we've got a problem on our hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "汝等负责解决护卫舰队………测试者，交给妾身。",
+			say = "\"Focus on the escort fleet...... This one... shall take care of Tester.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，可是，{namecode:182}大人，您的力量还……",
+			say = "Wait, but, Lady Shinano... Your powers haven't come back yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无妨，妾身自有办法。",
+			say = "\"...Worry not. This one has her own methods.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（噩梦之中，妾身已经与它们交手过无数次了，就算是现在的状态也……有胜算！）",
+			say = "(Many times has this one fought them within the Nightmare. Even in this state... victory is possible...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "守护重樱，为重樱带来希望和辉煌是妾身的使命，不论在什么情况下也不会改变。",
+			say = "(Through all those sad and cruel dreams... To protect the Sakura Empire, to bring glory and hope to her people... has always been the unyielding purpose of this one's life.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我明白了。我们会竭尽全力掩护您，请尽情作战，让狂妄之敌感受一下重樱最强航母的威力吧！",
+			say = "...I understand. Fight to your heart's content then, Lady Shinano. We shall clear the way forward for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

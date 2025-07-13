@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>七　珍惜眼前的幸福</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 7 Flowers of Happiness, Blossoming in the Sky</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "新春宴会上，{namecode:29}的花束得到了伙伴们的一致好评——",
+			say = "At the party, Hanazuki's bouquet receives rich praise from everyone who sees it.",
 			bgm = "story-china",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好漂亮的颜色~！谢谢{namecode:29}……",
+			say = "Wow, it's so beautiful! Thank you very much!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -71,7 +71,7 @@ return {
 			actor = 301582,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "味道也很清新呢~能让人想起春天盛开的花丛。",
+			say = "What a pure fragrance... It reminds me of throwing open the windows on the first day of spring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢两位的夸奖~♫毕竟，这是在指挥官的指导之下做出来的嘛……",
+			say = "Heehee, I'm glad you two like it! Actually, Commander helped me pick out there right flowers to use, since I couldn't decide myself...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -108,7 +108,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，看起来大家都很开心呢！",
+			say = "Phew... I guess we're all done over here... I'm so glad everyone liked my present.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！差不多是时候了！指挥官，该、该陪我去看烟花了……",
+			say = "Oh, it's almost time for the fireworks... Um, Commander, this way please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "绚烂的彩色在天空中怒放，而后化成点点星光融入漆黑的夜空之中。",
+			say = "The fireworks streak radiantly, blending into the night sky before erupting into twinkling stars on a pitch-dark canvas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "烟花……也是一种美丽又绚烂的花呀……",
+			say = "The fireworks... look just like beautiful flowers blossoming in the sky...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "虽然闻上去只有火药的气味————",
+			say = "\"That they do... But they don't smell anywhere as nice.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿……是啊，虽然闻上去只有火药的气味。",
+			say = "Haha, I guess that's true. If you try to smell them, you'd just catch a big whiff of gunpowder~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是即便如此，也依然能够给人带来温暖与幸福的感觉……",
+			say = "But still, they warm the hearts of everyone who sees them, just like real flowers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……尤其是与您一同观赏的时候。",
+			say = "...And, umm, they're even more amazing when I'm with you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个！指挥官……",
+			say = "Um, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,11 +280,11 @@ return {
 			},
 			options = {
 				{
-					content = "[静静等待]",
+					content = "(Wait for Hanazuki to finish her thought.)",
 					flag = 1
 				},
 				{
-					content = "——我想一直陪在榵的身边。",
+					content = "\"I want to be with you forever, Hanazuki.\"",
 					flag = 2
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
-			say = "在烟花的映照之下，绯红爬上了她的面庞——",
+			say = "Beneath the luminescence of the fireworks, I can see her lovely, faintly-blushing face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是，那个……明年，指挥官还会待在{namecode:29}的身边，和{namecode:29}一起……赏花么？",
+			say = "Would you, umm... go flower-viewing with me again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不仅是明年，还有以后……呜，好害羞……",
+			say = "Not just tomorrow, but next week, next year... Forever and ever...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以后，指挥官……能一直像现在这样，陪在{namecode:29}的身边么？",
+			say = "Would you stay by my side, always, just like you are right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
-			say = "答案当然是肯定的。",
+			say = "It feels as if I've been waiting for her to ask me this for a long, long time. And, I've had my answer decided for a long, long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……谢谢指挥官……",
+			say = "Ehehe... Thank you so much, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，指挥官快看，新一轮烟花升空了哦——",
+			say = "Look over there! They're about to launch even more fireworks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就，就是……我想……欸？欸！？？",
+			say = "Wait, um... Does that mean, from now on, the two of us are...? Oh my...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
-			say = "{namecode:29}愣了一小会，而后绯红爬上了她的面庞——",
+			say = "For a few moments, Hanazuki seems unable to process the situation. But soon, she blushes hard, like a teapot about to boil over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真、真是的！指挥官……明明我好不容易克服内心的犹豫做出一次决定……",
+			say = "Commander, um... I've been waiting to say this for a long, long time––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易决定想跟指挥官吐露心声的……结果还被您抢先了！",
+			say = "I wanted to be the first one to say those words, but it seems that you beat me to it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不过既然您已经说出来了，那{namecode:29}心里也就有了答案……",
+			say = "B-but more importantly, I also want to let you know how I really feel...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢您，指挥官……一直在身边陪伴着我……现在的{namecode:29}很开心！",
+			say = "Commander, thank you so much... I'm so glad you want to stay by my side forever! I've never been happier!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "在盛开的烟花之下，{namecode:29}把一支木棉花递到了我的手中。",
+			say = "With the beautiful fireworks blossoming behind us, Hanazuki presses a single flower into my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 301822,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……请收下这个吧。这朵花的花语是……",
+			say = "Please accept this flower... In the language of flowers, it means...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "脸上不禁露出了微笑，因为我记得它的意思——",
+			say = "I smile at her softly. Yes, after all the time I spent with her, I already know what it means––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "————珍惜眼前的幸福。",
+			say = "\"May our happiness last forever.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家的芭菲，我拿过来了哦~",
+			say = "I'm back, and with parfaits for everyone!",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢的说……",
+			say = "Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到这么快就到第二轮小组赛了……感觉时间过得好快啊。",
+			say = "The group B vote is almost upon us. It came around quickly, didn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲也这么觉得……",
+			say = "It sure feels like it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，毕竟是这么有趣的活动，大家都乐在其中呢。",
+			say = "Time flies when you're having fun, that's why!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，最后会有多少位同伴进入决赛？",
+			say = "By the way, do you know how many people from the group poll will advance to the finals?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我算算……按照规则，在每轮小组赛中排名前五的同伴，会直接晋级决赛。",
+			say = "Let me do the math... The rules state that the top five people from every group make it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "排名第六到十五名的话，就会进入复活赛。",
+			say = "Those in sixth place to fifteenth place, meanwhile, move on to the repechage round.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一共有四轮小组赛，加上复活赛中决出的十五位同伴……",
+			say = "There are four group polls all in all, so those plus the fifteen who win the repechage makes it a total of...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说，总共会有三十五位同伴参与最终的角逐呢。",
+			say = "Thirty-five people in the finals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说，决赛也会是场精彩的角逐呢。",
+			say = "Wow, that's a lot. The finals are gonna be so exciting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我也等不及想看到决赛的盛况了！",
+			say = "Mhm. I can hardly wait to the finalist lineup.",
 			painting = {
 				alpha = 0.3,
 				time = 1

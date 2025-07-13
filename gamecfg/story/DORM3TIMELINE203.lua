@@ -28,7 +28,7 @@ return {
 							options = {
 								{
 									{
-										content = "怎么了，{namecode:50}？"
+										content = "What's up?"
 									}
 								}
 							},

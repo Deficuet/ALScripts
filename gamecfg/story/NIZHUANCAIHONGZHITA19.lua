@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "轰————————！",
+			say = "KABOOM––––––!!",
 			dir = 1,
 			bgm = "battle-midgard-hunting",
 			flashN = {
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "战斗的声音……看来是停留时间太久，敌人围上来了。",
+			say = "Damn, they're here already... We've wasted too much time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "居然把我晾在一边自顾自就上了……",
+			say = "They're approaching from all directions. They're trying to surround us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你要去支援么？",
+			say = "So what will you do? Fight with your new friends from another branch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "她们还有答应我的事没兑现。",
+			say = "Yes. There's someone I must meet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你觉得这些塞壬你能轻易应付掉？",
+			say = "You won't be able to handle that many Sirens in your current state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "这是什么蠢话？我就是这么战斗过来的……既然你也是META，应该很明白吧？",
+			say = "Nonsense. I am META. I have faced enemies of that magnitude time and time again––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是，但是我更加明白塞壬的强大。",
+			say = "Until now. But underestimate them at your own peril.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "混在舰队里的那几队显眼的人型，你之前见过么？",
+			say = "Do you recognize that humanoid enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没什么印象啊，没见过。不管它是什么，一会都要变成残骸就是了。",
+			say = "I don't remember the faces of scrap metal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那些是代行者，仲裁机关的爪牙。",
+			say = "...Don't be too hasty now. That's an Enforcer, one who carries out the will of the high-ranking Arbiters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "代行者一定会与所属仲裁机关一同行动。它们出现在海域里，就意味着仲裁机关已经很近了。",
+			say = "The fact that an Enforcer is here means that the Arbiters have their eyes on this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "代行者……仲裁机关，又学了几个新词啊，这就是接下来那些残骸的名字？",
+			say = "That means nothing to me. But I suppose those are the names of the enemies I have to defeat...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………META化的你，一定觉得自己已经足够强大，强大到可以和塞壬平分秋色了对吧？",
+			say = "Yes. You may feel confident in your abilities because you've defeated so many mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "回想起开战之初不得不躲躲藏藏的时光，是否会多出几分感慨？",
+			say = "But you have yet to see the true terrors of the Sirens. You are not prepared for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但是你错了……塞壬自始至终都在保留实力。你自以为的强大在它们的面前根本不值一提。",
+			say = "Many more lie in wait. You would do well to remain cautious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那你呢？",
+			say = "You've changed... Scharnhorst.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "即便是我加入也无法改变这个事实。",
+			say = "Yes. And you must change too, Gneisenau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那就在一边睁大眼睛看着就是……对话结束吧，我厌烦了。",
+			say = ".........Are you done? I... must support my new allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯，我会在一边静静地见证你们的结局的。",
+			say = "Do as you will. I will see you at the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "危言耸听的家伙……",
+			say = "I would've liked to hear your bluster and bravado one more time... Scharnhorst.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:434}突然加速向着交火的方向疾驰而去，溅起的巨大水浪打湿了{namecode:433}的下装。",
+			say = "Casting one last glance back at what she had lost, Gneisenau resumed her engines and turned towards her new allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_midgard_3",
 			dir = 1,
 			blackBg = true,
-			say = "不过{namecode:433}并没有在意。她只是静静地站在那里，注视着{namecode:434}逐渐远去的身影，直到身影完全消失在烟雾之中。",
+			say = "Scharnhorst's unmoving figure became fainter, dimmer... until it finally disappeared like a wisp beyond the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

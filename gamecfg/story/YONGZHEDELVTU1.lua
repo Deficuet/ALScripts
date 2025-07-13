@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "story-richang-2",
-			say = "这是某一天，在游戏世界中发生的故事——",
+			say = "This is a story set in a far-off magical game world...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在这个世界中，魔王带领着魔物日复一日的肆虐着大地，人民过着悲惨的生活。",
+			say = "There was an evil tyrant called the Demon King. She used her army of monsters to terrorize the poor people of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "为了拯救世界，勇者标枪与同伴们踏上了讨伐魔王的旅途——",
+			say = "Then one day, the hero Javelin and her friends set out on a quest to end the Demon King's terrible rule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "获得了金钱 100G，获得了道具 通向魔王城的地图。",
+			say = "You received 100G and MAP TO DEMON KING'S LAIR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "标枪 Lv1勇者，加入了队伍。",
+			say = "LV 1 HERO JAVELIN joined your party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,9 +79,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "拉菲 Lv1法师，加入了队伍。",
+			say = "LV 1 MAGE LAFFEY joined your party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,9 +89,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "{namecode:6} Lv1格斗家，加入了队伍。",
+			say = "LV 1 FIGHTER AYANAMI joined your party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,9 +99,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "{namecode:408}  Lv1战士，加入了队伍。",
+			say = "LV 1 WARRIOR Z23 joined your party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

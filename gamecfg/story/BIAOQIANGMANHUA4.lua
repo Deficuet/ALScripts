@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>四　标枪，赶赴最后之战</size>",
+					"Javelin's Monthly Manga\n\n<size=45>Chapter 4 - Javelin, to the Final Battle!</size>",
 					1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「故事终于来到了最后的战场——」</size>",
+					"<size=60>\"And so, the story arrives at its climactic final battle...\"</size>",
 					0
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「终于来了标枪——别以为能从吾之引力之中逃脱喵」",
+			say = "<So we meet again, Javelin... Don't think that you can escape from my magnetism again, nya.>",
 			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你、你是——！",
+			say = "Y-You're that...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「没错，我乃持有模拟再现经由{namecode:37}改造之心智魔方的意识倾向反映机能之力，由你的心愿具象化而生的存在——」",
+			say = "<Indeed! Yuubari's modified wisdom cube simulates the ability to reflect an oriented consciousness into reality, and I was manifested from your deepest desires...>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「指挥喵J是也！喵」",
+			say = "<I AM... MEOWFFICER J! NYAHAHA!>",
 			effects = {
 				{
 					active = true,
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那封信也是你送来的吧！",
+			say = "You're the one who sent this letter!",
 			effects = {
 				{
 					active = false,
@@ -150,8 +150,8 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			actorName = "指挥喵J",
-			say = "「正是。我乃再现你的内心的期望，将你的命运之人、你的思念和心愿全部实现的存在！喵」",
+			actorName = "？？？",
+			say = "<Exactly right. I am the embodiment of your heart's true desires, your destiny, your very existence! Nyahaha!>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊——！",
+			say = "Eeek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			actorName = "指挥喵J",
-			say = "「哈哈哈哈哈！打败我，超越自己吧！喵！否则的话你的成长将永远止步于此！」",
+			actorName = "？？？",
+			say = "<Nyahahaha! Defeat me here and transcend your limits, nya! Otherwise, you will never grow again!>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "说完，指挥喵向大伙袭来。",
+			say = "\"With a roar, the Meowfficer rained fierce attacks upon Javelin and the others.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪！撑住啊！马上来帮你了！",
+			say = "Javelin! Hang in there, I'm coming to help you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥喵J…最强的敌人…",
+			say = "Meowfficer J... is the final boss...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“鬼神”之力，好好感受吧…！",
+			say = "Taste the Demon's power...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			say = "(大爆炸)",
+			say = "(KABOOOM!!)",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -324,8 +324,8 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			actorName = "指挥喵J",
-			say = "「怎、怎么可能——！喵。{namecode:37}大人赋予的强大力量，竟然这么轻易的就被压制了——！喵。」",
+			actorName = "？？？",
+			say = "<I-impossible! Nyagh... Even with the power that Master Yuubari granted me... I was defeated so easily...? Nyargh...>",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪，最后一击！",
+			say = "Javelin, finish it off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！——强袭模式展开，切换为最大出力！接招吧！",
+			say = "Got it! Strike Mode activated, maximum output! Take THIS!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,12 +378,12 @@ return {
 		},
 		{
 			actor = 900183,
-			actorName = "指挥喵J",
+			actorName = "？？？",
 			bgName = "star_level_bg_103",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			side = 2,
-			say = "「喵啊啊啊啊啊啊啊啊啊！」",
+			say = "<NYAAAAAAGGHHHHHH!!!>",
 			flashN = {
 				color = {
 					1,
@@ -430,7 +430,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…{namecode:438}，你看到了吗。",
+			say = "... Did you see that, Graf?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -463,7 +463,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "是啊…她们才是——大海之心。",
+			say = "Yes... Those girls are truly... the Heart of the Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "「就这样，港区的和平被守住了」",
+			say = "\"The peace and tranquility of the port was protected once more.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "「加油吧标枪！碧蓝航线的未来就交给你了！」",
+			say = "\"We're counting on you, Javelin! The fate of Azur Lane rests within your hands!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "「作者：标枪(删除线)、{namecode:400}、{namecode:524}等」",
+			say = "\"Written By: Z1, San Diego, et. al\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

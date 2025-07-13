@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>临时据点</size>",
+					"Uncharted Summer\n\n<size=45>Welcome to Camp</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "黄昏时分再回到登陆点时，这里已经有了一顶成型的帐篷。",
+			say = "As the sun starts to set and I make it back to camp, I discover that the girls have already pitched up tents.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
 			flashout = {
@@ -51,14 +51,14 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "海滩上的四人正在忙碌地搭建着其他设施。"
+			say = "Moreover, everyone is working double-time to get all the essentials set up before nightfall."
 		},
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "把手中的物资送过去后，也去帮忙吧。",
+			say = "After adding my gathered resources to our pile, I decide to give them a hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "海上无人岛·临时据点",
+			say = "Deserted island - Provisional camp",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "在大家的齐心协力之下，沙滩上燃起了升腾的篝火。",
+			say = "With everyone working together, we finally manage to light a campfire on the coast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "临时据点Lv1，建造完毕！",
+			say = "Bonfire lit. Camp level 1 achieved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样就不用担心过夜问题了~",
+			say = "And we all have proper places to sleep tonight, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "篝火暖洋洋……烧烤的味道也很香……",
+			say = "The fire is so cozy... I'm dying for some barbecue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鱼和蘑菇还要再烤一会才能吃哦~不论如何，大家今天都辛苦了。",
+			say = "Be patient. The mushrooms and fish need to roast a while longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，刚刚我已经和港区恢复了联系。",
+			say = "Oh, and Commander, I managed to reestablish contact with the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "港区现在已经清楚了我们的情况，支援舰队预计明天就能抵达。",
+			say = "I already told them about our predicament, and they're going to send a rescue team that will arrive tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "很好。这样一来就没有了后顾之忧，专心享受眼前的海滩烧烤会吧——",
+			say = "\"That's great news. Then we can enjoy this barbecue in peace, knowing help is on the way.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "时间渐渐来到了夜晚时分，到了休息时间了。",
+			say = "Now the sun has set, night has come, and it's time for bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,18 +269,18 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "接下来————",
+			say = "While my food digests, I consider what to do next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "直接去睡",
+					content = "(Go to bed.)",
 					flag = 1
 				},
 				{
-					content = "再和港区联络一下",
+					content = "(Radio the port.)",
 					flag = 2
 				}
 			}
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "在存储物资用的帐篷中找到了通讯器——",
+			say = "I take the communicator out of my tent, face the ocean, and make a call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？难道是荒岛的条件恶劣睡不着么！",
+			say = "Oh, Commander? Cruddy sleeping bag making it hard to fall asleep, I assume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……原来如此，只是担心港区的情况。",
+			say = "...Not quite? You're just worried about us back at the port?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………………反过来了！现在最需要担心的是你们的情况吧！",
+			say = "Please. If anyone SHOULD be worried here, it's us. You're all alone out there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎……真没想到会发生这种事。",
+			say = "For a storm to appear out of the blue like that... I still can't believe it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你放心，支援舰队正在连夜准备中。",
+			say = "Rest assured, the girls are working overtime right now to rescue you as soon as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:408}已经跟我们说了无人岛开拓计划，这次舰队里会多带些人手和物资的，敬请期待~",
+			say = "Z23 told me about your plans for the island, by the way. We'll bring manpower and supplies to help with that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，萨拉托加的联络来了……那么我该继续去忙支援舰队的事了。",
+			say = "Ah, Saratoga just messaged me. I'd better get back to preparing the rescue team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了明日的行动着想，指挥官还好是早点休息比较好哦。",
+			say = "Get some rest, Commander. You'll need it for the coming days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "孟菲斯通讯结束。",
+			say = "Good night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "篝火晚会在清爽的夜风之中结束，星星渐渐爬上夜空。",
+			say = "A calm breeze blows across the beach, marking the end of our little barbecue party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "大家回到了各自的帐篷中休息，只有温暖的火焰还在静静地升腾着——",
+			say = "The fire crackles softly as all of us retire to our tents for the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

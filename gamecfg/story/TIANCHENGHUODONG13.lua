@@ -12,7 +12,7 @@ return {
 			side = 1,
 			bgm = "story-6",
 			dir = -1,
-			say = "情况不太对劲…我们与9点钟方向探索的侦察机编队失去了联络！",
+			say = "Something's wrong... we've lost contact with the aircraft conducting recon at 9 o'clock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "借来的东西，本来还想把它们完整还回去的…不过，果然没那么容易啊…",
+			say = "I wanted to make sure Houshou got all her planes back safely, but it looks like that's not an option anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "侦察机编队很可能是被塞壬击落了。鉴于其他方向的舰载机都没有发现{namecode:92}的踪影，9点钟方向的概率应该是最高的----",
+			say = "The recon plane was most likely shot down by the Sirens. Since none of the other planes have been able to locate Kaga so far, heading towards 9 o'clock is our best bet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 302140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不不不，不好了{namecode:161}大人！！！",
+			say = "Amagi, b-b-big t-trouble!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "出什么事了，{namecode:40}？",
+			say = "Naka, what happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 302140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天天天…天上飞来了好多黑压压的东西！！",
+			say = "B-b-black shadows in the sky... so many of them are flying towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是…！！",
+			say = "This is...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "是塞壬航母放出的机群！全舰队做好防空准备！！",
+			say = "We're under attack from a carrier-class Siren! All ships, prepare for anti-air measures!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "诶？？防..防空？",
+			say = "Eh? A-anti-air measures?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "全舰队进行S型规避前进，把你们所有的武器抬到最大仰角，把那些会飞的东西打下来！",
+			say = "Yes, proceed forward in an S-formation with your secondary weapons raised to maximum elevation angle. Shoot those things out of the sky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 302140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！我..我会尽力的！！",
+			say = "Y-yes ma'am! I will do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "在庭院的花坛前，找到了脸色异常不妙的埃佛森和七省。",
+			say = "I spot Evertsen and Zeven standing by a flower bed in the garden, both of them looking pale.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "指挥官……大事不妙了。",
+			say = "Commander, we have an issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……怎么表情这么凝重？",
+			say = "What's wrong? You look like you've seen a ghost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "庭院的花坛里，长出了蔬菜……生物学……不存在了！",
+			say = "There are... vegetables growing in the flower bed. Biologically speaking, that's not possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "……不，这不是生物学的问题。一定是某个环节出错了，才会变成现在这种情况……",
+			say = "This is not a biology issue. Someone must've made a mistake somewhere for this to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "七省似乎在倾听什么，然后她若有所思打开了放着种子的口袋。",
+			say = "Zeven cups her ear as if listening to a voice, then opens her pouch of seeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是蔬菜的种子混在花草的种子袋里了……但是……",
+			say = "It does appear that some vegetable seeds were mixed in with the flower seeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "种下的时候，我们肯定会发现的呀……",
+			say = "But I would have noticed that while planting them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——指挥官，你刚有在庭院周围看到其他人吗？",
+			say = "Hmm. Commander, have you seen anyone else around the garden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（如果出现这样的事情……那我确实看到了一个嫌疑人……）",
+			say = "(I have an idea of who could've done something like this...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "有头绪了，你们跟我过来。",
+			say = "I think I know who did it. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "在庭院环视一圈，在草丛里揪出了躲在里面的大青花鱼。",
+			say = "After going around the garden, we find Albacore hidden inside a bush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "欸？！指挥官——你怎么发现我的。",
+			say = "Huh?! How could you possibly have figured out I was here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "毕竟我是指挥官……",
+			say = "Because I'm your commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "要不是指挥官……你藏在这里，确实很难引起我们的注意。",
+			say = "We would've never known you were hiding here if not for the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，看来我的潜伏技能又提高了嘛，以后玩捉迷藏肯定能拿第一，只要指挥官不参加就好了~",
+			say = "Teehee! Sounds like my stealth skill's improved! My first place in the next hide-and-seek competition is set in stone as long as the Commander doesn't join!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咳，大青花鱼，关于庭院使用的种子，你有什么了解么？",
+			say = "Ahem. Albacore, do you know anything about the seeds growing in the flower bed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "先说明一下，我们已经发现花种里混进了蔬菜种子。你只需要说出你知道的事情。",
+			say = "I'll be to the point – we already know someone put vegetable seeds in there. Just tell us what you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 1102010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官，这是在……套话吗？",
+			say = "Isn't that a leading question, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "嗯，需要一点小手段。",
+			say = "Sure is. It's part of my plan.",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "欸？！已经暴露了吗……那我就只能……不对啊！",
+			say = "Wait, you figured it out?! Then what are... Wait, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "我是把蔬菜种子混进装洋葱的袋子里了来着，但这和实际情况完全不一样嘛？",
+			say = "I did put vegetable seeds in the bag with onions inside. How'd they end up in the flower bed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "洋葱……？",
+			say = "Onions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "……你说的是，难道是这个？",
+			say = "Are you referring to this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "埃佛森把郁金香种子拿了出来。",
+			say = "Evertsen produces a tulip bulb.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯！很饱满的洋葱嘛！",
+			say = "Yeah, that! Looks like a plump onion to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "这是郁金香种球，不是洋葱……",
+			say = "This is a tulip bulb. Not an onion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "欸欸欸！！是、是这样吗……我竟然搞混了，计划大失败哇！",
+			say = "A tulip bulb?! Ohh. So I got 'em confused? Dang, my plan failed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "啊，那个，抱歉！我不是故意要搞混的！",
+			say = "Um, I'm sorry! I didn't do that on purpose, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "我……我是……想让大家都吃到更多品类的新鲜的蔬菜才这么做的。",
+			say = "I was just, uh... trying to introduce a larger variety of fresh vegetables into everyone's diets! That's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,18 +445,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "指挥官~埃佛森姐姐~七省姐姐~我保证下不为例，你们就原谅我嘛~",
+			say = "I won't do it again. Pinky promise! Just let me off the hook!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "保持沉默",
+					content = "(Say nothing and just stare at her.)",
 					flag = 1
 				},
 				{
-					content = "看向埃佛森和七省",
+					content = "(Look at Evertsen and Zeven.)",
 					flag = 2
 				}
 			}
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是为了让大家吃新鲜蔬菜吗，怪不得花坛里长满了蔬菜……我还以为是恶作剧呢……",
+			say = "You wanted people to eat more fresh vegetables, so you got those seeds into the flower bed... That makes sense. Here I thought you were playing a prank on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "……算了，就当是开了个研究蔬菜生长的新课题吧。",
+			say = "...Very well. I'll treat this as a research opportunity to study the growth of vegetables.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "……长满了蔬菜……我干的……？啊、啊哈哈！是啊，是啊，种那么多蔬菜可累了呢……！",
+			say = "So you're telling me I'm the reason for that flower bed filled with veggies? Ahahaha... Wow, okay! Must be a lot of hard work growing so many of 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你这反应……怎么感觉哪里不对劲？",
+			say = "That reaction doesn't sound right to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "还没等我琢磨清楚，不远处突然传来水管爆裂的声音。",
+			say = "Before I can figure it out, I hear the sound of a water hose bursting not far from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "不一会儿，浑身湿透的{namecode:295:尾张}拎着水管走了过来。",
+			say = "Not long after, Owari shows up, hose in hand and drenched from head to toe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊啊，抽水机功率太大了吗，水管竟然爆了……喔，今天庭院怎么这么热闹，指挥官也来啦？",
+			say = "Guess that pump was too strong for the hose. Hey, what's happenin' here? Got a real crowd going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "{namecode:295:尾张}你……怎么拿着这么长的水管？",
+			say = "Ah, Owari. What were you doing with that hose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "嗯？我是想把湖水引到菜地上，看看能不能种出更好吃的蔬菜……",
+			say = "This? Was tryna pump some water from the lake into the field. I was gonna grow some more bussin' veggies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "你们是在聊天嘛？那我就先去看看我的蔬菜了——",
+			say = "Y'all just messin' around, or? 'Cause if so, I'mma have a look-see at the veggies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，那就去看看大家的新鲜蔬菜了——",
+			say = "Ahaha – we could ALL go have a look-see at the fresh vegetables, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "{namecode:295:尾张}就这样向着长满蔬菜的花坛走去——大青花鱼也跟了上去——",
+			say = "As she says that, Albacore starts following Owari who's heading for the flower bed with vegetables growing in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "等等……在花坛种菜的人，其实是{namecode:295:尾张}吧？",
+			say = "Wait a moment, please. Are you growing vegetables in the flower bed, Owari?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "嗯？当然是我呀。",
+			say = "Yeah? Who'd ya think it was?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "大青花鱼——？",
+			say = "Albacore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然不是你种的蔬菜，刚才为什么要承认？",
+			say = "Why did you lie and say that you planted them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "哈哈……哈……那个……因为我确实把蔬菜种子混进去了嘛……！",
+			say = "Ahahaha... Y'know... I mean, it WAS me who put those veggie seeds in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，{namecode:295:尾张}大姐是怎么分清花种和蔬菜的种子的？我明明混在一起了……",
+			say = "But how could Owari tell the difference between the seeds? I thought I mixed 'em up good and proper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "种子都是我自己带上岛的啊，我怎么会分不清呢？",
+			say = "Uh, no? I brought all those seeds myself. Ya really think I would confuse 'em for somethin' else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "欸？欸——所以——这件事其实和我一点关系都没有嘛……！",
+			say = "What? So then I actually had nothing to do with this whole thing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "——有关系。",
+			say = "I wouldn't say you had no involvement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然在花坛种菜的人并不是大青花鱼，偷换种子也没有造成什么影响……",
+			say = "Yes, it was Owari who planted the vegetables, and your mix-up of seeds didn't have any serious repercussions. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是，恶作剧可是要受到惩罚的。",
+			say = "You still caused mischief, and that can't go unpunished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "最后，大青花鱼主动接受埃佛森和七省的教导，成为了熟练的种子分拣工——",
+			say = "And so, Evertsen and Zeven imparted their knowledge to Albacore, who made a fresh start as a skilled seed separator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

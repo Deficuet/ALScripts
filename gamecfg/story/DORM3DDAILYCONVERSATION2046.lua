@@ -15,14 +15,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "彻底放松下来之后，积攒已久的疲劳感就会一下袭来啊。",
+			say = "When I finally let my hair down, my built-up stress just hits me at once...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那这次换我帮{namecode:50:能代}按摩吧！",
+					content = "Really? Let me give you a massage this time.",
 					flag = 1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欸？真的可以吗？",
+			say = "You will? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那那……等一下就……拜托了。",
+			say = "Okay, um... Please do, in just a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

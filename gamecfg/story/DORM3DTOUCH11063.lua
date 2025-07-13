@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey真是的……都不给我准备的时间~！",
+			say = "Honey, please. If you're coming over, I need warning so I can get ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

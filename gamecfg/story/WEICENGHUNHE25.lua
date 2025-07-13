@@ -9,7 +9,7 @@ return {
 			actor = 108040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "对了，大家听我说！刚刚我在来的路上，在水下看到这次塞壬的总指挥了！",
+			say = "Oh, by the way, I found the enemy flagship!",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			actor = 108040,
 			dir = 1,
-			say = "是一艘好大好大好大的……唔…潜艇？！",
+			say = "I'm almost certain it's that really big ship that slipped into a swarm of submarines!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我正准备朝它发射鱼雷，结果周围突然出现了像白雾一样的东西把我甩了出去！",
+			say = "When I tried to snipe it, I got transported here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			actor = 108040,
 			dir = 1,
-			say = "等我回过神来看清楚周围，就看到落水的无畏了。",
+			say = "Now that I think about it, at that time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯，原来如此。时间轴上来看……",
+			say = "Same here. We were suddenly swallowed up by a huge wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我们遭受巨浪袭击的秘密解开了呢……",
+			say = "And same here. That means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "盯……",
+			say = "Putting together all our information, that means all of our groups were swallowed up by the waves and transported to the same location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 108040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎哎哎？！为什么都看着我呀！",
+			say = "Why is everyone looking at me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "这么看来，突然袭来的巨浪很有可能是塞壬指挥舰在受到威胁时的紧急防卫手段。",
+			say = "From the looks of things, you might have activated the defense mechanism of the flagship by imperiling it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "也就是说我们把它逼到绝境了？",
+			say = "And since most of the new Sirens we encountered after arriving here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把我们直接聚集在一起，一鼓作气消灭我们的可能性更高吧…",
+			say = "It makes sense that they're trying to gather us in one place and then finish us all off in one go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "刚才开始周围都出现的都是没见过的新型塞壬，不论如何，我们都应该距离敌人的指挥舰越来越近了。",
+			say = "Since we know there are lots of enemy submarines out there, we should prepare a better anti-submarine system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "多亏蓝鳃鱼的情报，我们对于敌人的偷袭企图可以有所防备了~",
+			say = "Thanks to Bluegill's information, we're way better prepared than we were before...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "大家组成反潜队形吧，重点注意来自水下的攻击！",
+			say = "Anyway, we've got to keep our eyes peeled from attacks from beneath!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，我也会在水下保护大家的，蓝鳃鱼，全速下潜！",
+			say = "I'll help out! This time, I'll make sure to land that Victory Snipe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

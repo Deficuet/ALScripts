@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呜呜呜，Honey我已经很长时间没有流泪了。",
+			say = "*sniffle*... Honey, it's been so long since I last cried...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呜呜呜如果我因为伤心而错过了与Honey的一分一秒，我都会觉得后悔。",
+			say = "I just know I'll regret it if I miss even a single moment with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "噗哈哈，好了好了我承认了，是洋葱太感人了！",
+			say = "...Hahaha! No, no! I'm just crying because of this onion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

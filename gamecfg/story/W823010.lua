@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬的信息收集装置，目前处于停机状态……",
+			say = "This Siren Data Logging Tower seems to be out of order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,15 +14,15 @@ return {
 			bgm = "theme-tulipa",
 			sequence = {
 				{
-					"郁金王国境内",
+					"Kingdom of Tulipa",
 					1
 				},
 				{
-					"「新港」海军锚地",
+					"Nieuwe Haven Naval Base",
 					2
 				},
 				{
-					"两日后",
+					"Two days later...",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
-			say = "经过烈火焚烧的土地，新芽将会更加繁盛。",
+			say = "Across the land scorched by fire, new life springs forth in droves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
-			say = "一日的统计与调度，郁金王国立刻开启了对于堤坝防御带的修复工程。",
+			say = "After less than a day of examination and statistics, the Kingdom of Tulipa immediately started repairing its dam defense system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
-			say = "在这样无数个紧锣密鼓的工地上的某个角落——",
+			say = "Meanwhile, in the corner of the busy construction site...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,11 +88,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "噢噢噢~在生长了，真的在我的眼前开始生长了！",
+			say = "Whoooa! They're growing! I can see the growth with my own two eyes!",
 			bgm = "story-tulipa",
 			typewriter = {
 				speed = 0.05,
@@ -118,11 +118,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "越变越粗，越变越长……",
+			say = "They're getting bigger and bigger, longer and longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,11 +130,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "连成捆的钢板都能轻松卷起来了！",
+			say = "They can even lift those stacks of steel plates with ease!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,11 +142,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是太神奇，太美妙了……",
+			say = "Fabulous! Simply beautiful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,12 +154,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃佛森",
+			actorName = "Evertsen",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奥列格小姐，你观察得还算满意么？",
+			say = "Are you satisfied?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,11 +167,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "满意，太满意了！",
+			say = "Satisfied and then some!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +179,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……就是麻烦你亲自来这里为我演示了……",
+			say = "Ah, sorry, it just hit me that I made you put on a show for my sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,25 +191,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃佛森",
-			bgName = "bg_yujin_cg2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "无需挂怀，我也不只是为了满足你的好奇心而来的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "埃佛森",
+			actorName = "Evertsen",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "生命与自然的力量，用于重建工程中本就再合适不过。",
+			say = "Don't be sorry. I'm just doing what has to be done anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +204,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃佛森",
+			actorName = "Evertsen",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，堤坝防御带与王国的安全息息相关，我作为郁金王国舰队的一员自然应该尽一份力。",
+			say = "It makes an incredible amount of sense to put life and nature to use in reconstruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,36 +217,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
-			bgName = "bg_yujin_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "你说得对，埃佛森小姐！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "奥列格",
-			bgName = "bg_yujin_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "呼呼呼……呵呵呵呵……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "埃佛森",
+			actorName = "Evertsen",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奥列格小姐，你……突然怎么了？",
+			say = "Our dam defense system is very important and directly linked to our country's safety. As a Tulipan, I should naturally give reconstruction efforts my all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,11 +230,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我只是突然想起了开心的事！",
+			say = "Well spoken! Ah, that makes me think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +242,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在你让我见证了生物科技之后……我也该礼尚往来，让你见识一下工业科技的震撼了！",
+			say = "Heheh... Mwahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,11 +254,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Evertsen",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这条防御带是我们一同守护下来的，重建工作自然也有我们北方联合的一份！",
+			say = "What's so funny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +267,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "算时间……我申请调动的大型建筑机械今天就要随运输船抵达港口了！",
+			say = "Nothing, I just remembered something joyous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,11 +279,47 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奥列格",
+			actorName = "Oleg",
 			bgName = "bg_yujin_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈，我们一同大干一场吧~！",
+			say = "You've shown me the wonders of biotechnology. Soon, I will show you the staggering might of INDUSTRIAL technology!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Oleg",
+			bgName = "bg_yujin_cg2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "We defended these embankments together, so the Northern Parliament should also have a role in its reconstruction!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Oleg",
+			bgName = "bg_yujin_cg2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "In fact, the giant construction machines I requested will be arriving by transport ship at this harbor today!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Oleg",
+			bgName = "bg_yujin_cg2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Hahahaha! Together, we'll rebuild it stronger, bigger, and better than before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不得不说，郁金王国用来重建的方式还……真是出乎我的预料。",
+			say = "Have to say, I'm impressed by how the Tulipans rebuild.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "一片热火朝天中，我与孟菲斯漫步在不远处的堤坝上。",
+			say = "Admiring the impassioned workers at the construction site from afar, Memphis and I walk along the embankment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，星海也想要几个特殊的心智魔方进行研究，申请今天已经发到指挥部了。",
+			say = "On another note, I heard the Sea of Stars sent a request for a few of those special Wisdom Cubes for research purposes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得北方联合会同意么？",
+			say = "Do you think the Northern Parliament will approve it, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "应该会的，在郁金王国舰队实际展现出特殊性后，继续保密已经没有意义了。",
+			say = "Probably. Since the Tulipan fleet already demonstrated its unique powers, there's no reason to hide the Cubes anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（只是……在产生如此差别的原因调查清楚前，星海也未必能研究出东西来就是了……）",
+			say = "(Although, I wonder if the Sea of Stars will be able to research anything until they figure out how the Cubes work.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,11 +421,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "是{namecode:435:俾斯麦}阁下的来电呢，估计是来找你问问战斗总结，然后再说些奇怪的话了~",
+			say = "It's Bismarck. She has many things to talk about, including but not limited to the mission's results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我去附近走走看哦。",
+			say = "I'll go and take a walk over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "{playername}阁下，恭喜你又完成了一次出色的战斗。",
+			say = "I heard you achieved another stellar victory, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "郁金王国舰队首战告捷，接下来的路就算是走开了。",
+			say = "Now that the Tulipan fleet has a win to its name, the going should get easier for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是一次成功的行动……但并不完美。",
+			say = "While the mission was a success, I wouldn't call it flawless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "即便拥有了碾压式兵力，郁金王国在这场战斗中还是遭受了损失。",
+			say = "Despite our overwhelming military advantage, Tulipa still suffered damage in this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这还是我提前发现了指挥部情报中的错误，并调整了原定作战方案的情况下。",
+			say = "Damage which happened despite my learning in advance that our intel was wrong and revising the plan accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果这场战斗不是由我来指挥，或者我没有发现情报中的错误的话……最终后果难以预料。",
+			say = "If it hadn't been me at the helm, or if I hadn't realized the intel was wrong, then who knows how the battle would've gone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就算失去了塞壬实验机关的统领，遗留下来的塞壬势力依然是一个不可小觑的威胁。",
+			say = "Even with the Sirens' experimentation division gone, we still can't ignore the threat that the remaining Sirens pose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我们都因为连番的胜利，有些轻敌了。",
+			say = "I think we've come to let our guard down after winning too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说得不错，很显然——塞壬的威胁依然严峻。",
+			say = "You're right. The Sirens are no less dangerous than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "本次郁金王国遇袭事件对于内心浮躁的各国将会是一次很好的警醒，不是么？",
+			say = "This direct attack on the Tulipan mainland serves as a warning for those of us who've become complacent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我记得，铁血过去和塞壬有过不少合作性质的试验场。",
+			say = "...You know, I just remembered that the Sirens and the Iron Blood used to have a handful of Mirror Seas for cooperative testing purposes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——都是过去的事了。",
+			say = "Please. That's in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "新时代已经来临，一个联合团结互助的时代。",
+			say = "We live in a new age. A unified age where people help one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的时代，还不错吧？",
+			say = "A better age. Wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "一边与{namecode:435:俾斯麦}聊天，一边漫无目的闲逛。不知不觉间，我走到了七省此前推荐过的公园中。",
+			say = "As I walk aimlessly while on a call with Bismarck, I suddenly realize that I've arrived at the park Zeven mentioned a few days back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "远方的孟菲斯挥了挥手，指了指通信器，又指了指不远处的凉亭。",
+			say = "I spot Memphis waving in the distance. She points at the communicator, then at a gazebo nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "我于是结束了与{namecode:435:俾斯麦}的闲谈，跟随孟菲斯来到了凉亭中。",
+			say = "Wrapping up my chat with Bismarck, I go up to the gazebo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "没想到七省已经等在这里了。",
+			say = "There, I find Zeven waiting for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{playername}阁下，真是巧，没想到我们今天会在此处相遇呢。",
+			say = "Commander. What a coincidence! I wasn't expecting to meet you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "这片公园的景色，您还算满意么？",
+			say = "How do you like the park?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "郁金王国的美景可不止如此。现在作战圆满结束，您也难得来一次，要不要多留一段时间，好好度个假？",
+			say = "You'll find the beautiful sights of Tulipa in many more places than just here. Since the mission is over now, and you find yourself here, why not stay in the country and relax for a while?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "这不光是我的愿望，王室也想好好招待您一番。",
+			say = "I and my countrymen all would love to have you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "唔……理论上来说，明天我就该返回巴黎了。",
+			say = "Well... The plan is for me to return to the Iris Orthodoxy tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回去继续开那些无关紧要的会么？",
+			say = "For another all-but-pointless meeting?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，作为你的秘书舰，我也觉得你最近一段时间劳累过度了，你急需这样一个假期。",
+			say = "You've been working like a dog lately. It's time you took some time off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "至于从指挥部要假期……都不用你亲自出马，我去说一声就好，回巴黎不着急的！",
+			say = "Heck, I can write your vacation request for you. There's no need to burden yourself with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那工作……",
+			say = "You say that, but my work is important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "真正重要的工作都会从通讯终端里发过来不是么？我们远程办公就好！",
+			say = "If it really is important, they can call you about it. You can do it remotely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也是，那就……",
+			say = "Alright, if you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "那就这么定了！我们来度假吧！",
+			say = "Glad you agree! Time for a well-earned vacation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "七省，我们现在就开始进行日程安排——",
+			say = "Zeven, let's put together a schedule!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "孟菲斯开始兴致勃勃与七省对起了日程。",
+			say = "The two of them start merrily chatting away about a holiday schedule for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "我也心怀对于假期的期许和暂停工作的感慨，决定最后再检查一遍通讯终端。",
+			say = "As I savor the joy of temporarily getting away from my work and the excitement of a vacation, I take one last look at my communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "然后，我发现了一封未读邮件。",
+			say = "That's when I notice there is a single unread message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,20 +962,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_189",
 			hidePaintObj = true,
-			say = "发信人是伊丽莎白女王，发信时间恰好是不久前与{namecode:435:俾斯麦}通话的时候。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（伊丽莎白女王……？这时候发消息来会有什么事呢……）",
+			say = "The sender – Queen Elizabeth. It arrived at nearly the same time as my call from Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +975,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道是前来祝贺的？毕竟皇家舰队也参与了本次战斗……）",
+			say = "(From Elizabeth? Why would she message me at this time?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,73 +988,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（嗯，打开看看好了……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "打开通讯后，伊丽莎白首先不出所料地祝贺了一下本次作战行动取得圆满成功，然后提到了一些皇家舰队当前负责战线的进展。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "不过随后，她说出了一个重磅炸弹级的消息。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "伊丽莎白·META与D小姐已经顺利返回了卡美洛之庭，同时——她们的猎鲸任务成功了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "只是鲸鱼虽然拿回来了，D小姐却因为失忆问题忘记了鲸鱼的使用方法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "考虑到D小姐之前对我的异常熟悉，以及在辉光之城上海伦娜·META与她进行的匪夷所思的配合……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_189",
-			hidePaintObj = true,
-			say = "伊丽莎白邀请我与海伦娜·META一同在近期前往皇家，与她们一同调查隐藏在鲸鱼中的秘密。",
+			say = "(Maybe it's a \"congratulations on your mission completion\" message? One of her fleets DID participate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1001,73 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……不得不说，这个邀请令人无法拒绝。）",
+			say = "(Only one way to find out...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "I open the message. As expected, it does start with some congratulations, and even briefly touches on the developments on the front the Royal Navy has been assigned.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "What comes after that, though, hits me like a freight train.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "Queen Elizabeth META and Miss D returned safely to Camelot. They were successful in their whale hunt.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "The catch is that although they have the whale, Miss D has forgotten how to use it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "Due to the exceptional familiarity Miss D showed toward me, and the astonishing cooperation between her and Helena META in the Martyrium, she is now inviting me to come to the Royal Islands.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			say = "Along with Helena META. She hopes that, together, we'll be able to shed some light on this whale of theirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1080,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（今天需要抽时间联系海伦娜一次，然后尽快做好前往皇家的准备……）",
+			say = "(An invitation I can't refuse...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_189",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(I'll have to contact Helena sometime today and start preparing in advance for a visit to the Royal Islands.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1105,10 +1105,10 @@ return {
 			bgName = "star_level_bg_189",
 			portrait = 102160,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！我们第一站先去王国首都阿姆斯特丹怎么样？",
+			say = "Commander! How does the Tulipan capital sound for our first destination?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,18 +1121,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "呃…………",
+			say = "Err...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "孟菲斯……",
+					content = "Memphis...",
 					flag = 1
 				},
 				{
-					content = "关于度假……",
+					content = "About that vacation...",
 					flag = 2
 				}
 			}
@@ -1144,8 +1144,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "孟菲斯",
-			say = "……指挥官，你这是什么表情？",
+			actorName = "Memphis",
+			say = "...Why the grim look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,10 +1157,10 @@ return {
 			bgName = "star_level_bg_189",
 			portrait = 102160,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等、你别动、通信器拿来我看看！",
+			say = "What happened? Show me that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以，事情就是这样了……",
+			say = "So... yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1217,7 +1217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1230,7 +1230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们明天……直接跟随格伦维尔的舰队前往皇家吧。",
+			say = "We'll accompany Grenville's fleet to the Royal Islands tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呜呜呜……假期……我的度假计划…………",
+			say = "No.. My vacation... My vacation plans...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1254,13 +1254,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yujin_2",
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			dir = 1,
 			portrait = 102160,
 			fontsize = 60,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "————伊丽莎白！！！！！！！！！",
+			say = "ELIZABEEEEETH!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1297,7 +1297,7 @@ return {
 			bgm = "story-tulipa",
 			sequence = {
 				{
-					"——「扬起郁金之旗·END」",
+					"Toward Tulipa's Seas - End",
 					2
 				}
 			},

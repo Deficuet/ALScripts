@@ -11,7 +11,7 @@ return {
 			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "竟然能到达这里…不得不承认，你们和以往的那些对手确实有点“不一样”…",
+			say = "If you've come this far, that can only mean one thing... I hate to admit it, but you might be just a little different from those we've fought so far.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,7 +29,7 @@ return {
 			actor = 404010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "不过，目前为止还没有任何猎物，能从我们猎杀姐妹的炮口下逃掉，你们也不会例外！",
+			say = "But we've never fought anyone that could escape from our mighty guns. You are no exception!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -48,7 +48,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "从之前的战斗中，我已经收集了足够多的数据。这一次，是我们的胜率在90%以上",
+			say = "I collected a lot of data during our last battle. This time our chances of winning are over 90%.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,7 +70,7 @@ return {
 			actor = 404010,
 			side = 0,
 			nameColor = "#ff0000",
-			say = "那么，鲨鱼已经磨砺了獠牙，这将会是一次愉快的狩猎！可别让我失望了，哼哼",
+			say = "Listen up, you fools standing before the Shark Sisters! This is where our hunt begins! And don't you dare disappoint me!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -87,11 +87,11 @@ return {
 		{
 			actor = 404010,
 			actorShadow = true,
-			actorName = "{namecode:433}&{namecode:434}",
+			actorName = "Scharnhorst&Gneisenau",
 			side = 0,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "碾压敌人！{namecode:433}级战列巡洋舰，参战！",
+			say = "Scharnhorst-class battlecruisers Scharnhorst and Gneisenau, ready for battle! Come and face your doom!",
 			subActors = {
 				{
 					actor = 404020,

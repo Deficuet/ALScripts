@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，很多事情……不明白……",
+			say = "Anchorage doesn't understand much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是，{dorm3d}说的话……安克雷奇，懂……很清楚！",
+			say = "Except for what {dorm3d} says... I understand that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，有耐心……安克雷奇，学到了，很多！",
+			say = "{dorm3d} is nice... and helps me learn lots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}和安克雷奇……两个人……都很好！",
+			say = "{dorm3d} and Anchorage... go really well together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

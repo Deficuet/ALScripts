@@ -8,9 +8,9 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "哦？发现一个奇怪的箱子！",
+			say = "Huh? I found a weird box!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么？看起来像是从天上掉下来的……",
+			say = "What's this? It looks like it fell out of the sky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是谁发来的补给物资吧…？",
+			say = "Who dropped these supplies for us...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似乎是的，看起来也不像有什么陷阱的样子",
+			say = "It doesn't look like this is booby trapped...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定真是谁为了我们特意送来的东西？打开来看看吧～♪",
+			say = "Do you think someone is trying to help us out? Let's open it up and see what's inside~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，不过，谁也不知道打开来会出现什么，还是要小心一点哦",
+			say = "That may be the case, but let's open it carefully since there's no telling what's inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,8 +101,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "注意周围！空投箱附近一定会有许多埋伏的敌人的！！",
+			actorName = "Kizuna AI",
+			say = "Pay attention to your surroundings! We're not the only ones who saw this box drop so there must be enemies nearby!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！？为什么感觉这么熟练！？",
+			say = "AI? Suddenly, you seem like you're a pro at this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…就在你们一来一回的时候，{namecode:13}和{namecode:14}已经确认完内容了，的说",
+			say = "While you guys were chatting, Inazuma and Ikazuchi already started rummaging through the box...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是谁留下的补给物资呢。我们就心怀感激地收下吧",
+			say = "See, someone definitely dropped these supplies to help us out. Whoever you are, we accept your gift graciously!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就叫做“积沙成塔”对吧！再积极地多捡一些吧！",
+			say = "I see, I see! Looks like the more we collect, the stronger we'll be! Let's keep our eyes peeled and grab as much loot as we can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

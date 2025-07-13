@@ -8,9 +8,9 @@ return {
 			actor = 403038,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:428}酱",
+			actorName = "Prinz-chan",
 			dir = 1,
-			say = "到此为止了哦，不会让你们到绊爱那里去的",
+			say = "This is as far as you go. We won't let you get any closer to Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:428}小姐！？你们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？",
+			say = "Miss Eugen? You've also come to the Virtual Mirror Sea? But... why are you wearing your wedding attire...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，注意的说。好像有点不对劲",
+			say = "Zed, be careful. Something's not right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
+			actorName = "Shou-chan",
 			dir = 1,
-			say = "呵呵♪我们是为了保护绊爱才出现在这里的哦",
+			say = "Ahaha~♪ We've come here to protect our beloved Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
+			actorName = "Chune-Chune",
 			dir = -1,
-			say = "啊，不会让你们碰爱小姐一根指头的哦＞＜",
+			say = "Um... We won't let you lay a finger on Miss AI ><",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,9 +86,9 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:66}酱",
+			actorName = "Takao-chan",
 			dir = 1,
-			say = "人称“绊爱舰队”……参上！",
+			say = "They call us the \"Kizuna AI Fleet.\" We shall be your opponents!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱舰队……话说，{namecode:428}小姐和{namecode:66}小姐为什么都穿着誓约换装？",
+			say = "Kizuna AI Fleet, huh... But why are Prinz Eugen and Takao wearing swimsuits...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 303118,
 			dir = 1,
-			actorName = "{namecode:66}酱",
-			say = "请、请不要吐槽这点……",
+			actorName = "Takao-chan",
+			say = "P-Please don't mind that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也是随机单词生成器生成的……？",
+			say = "Is this also caused by that random number generator...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,9 +149,9 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
+			actorName = "Prinz-chan",
 			dir = 1,
-			say = "你猜？无论如何，不能让你们把我们的“指挥官”……绊爱击败呢。想要过来的话，就做好相应的心理准备吧",
+			say = "What do you think? In any case, we won't allow you to touch our Commander, Kizuna AI. If you still insist on coming, steel yourselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……没想到还有这种伏兵……",
+			say = "Tch...! I didn't think they'd have reinforcements like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对话框里的名字也变了，这说不定就是绊爱小姐说的在原来的世界以指挥官身份编成的“绊爱舰队”",
+			say = "Even their name plates on the dialogue box are different! Kizuna AI must be a commander in her original world, and this is her fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此！爱酱和四个人都“誓约”了呢！名字也很可爱！",
+			say = "I see, I see! She must have given promise rings to these four! Their nicknames are super cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}，现在可不是赞叹的时候。想办法做点什么度过这个难关吧",
+			say = "Ikazuchi, now's not the time to admire her taste. We have to find some way to get the upper hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:428}小姐！大家保护爱酱的心情应该都是一样的才对吧？所以和我们一起去帮助爱酱吧！",
+			say = "Miss Eugen~! We all want to protect AI, right? So, we should work together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
+			actorName = "Prinz-chan",
 			dir = 1,
-			say = "这点…做不到呢",
+			say = "I'm afraid that's not possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为、为什么！？",
+			say = "Huh? Why...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,9 +281,9 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:66}酱",
+			actorName = "Takao-chan",
 			dir = 1,
-			say = "爱殿下如今期望的是破坏这个世界。在下等人作为绊爱舰队，只能全力帮助她实现这个愿望",
+			say = "Milady's true desire right now is to destroy this world. As her vassals, we must carry out her will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种事情……是错的…！",
+			say = "This kind of dedication... is wrong!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,9 +312,9 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
+			actorName = "Chune-Chune",
 			dir = -1,
-			say = "命、命运早已经决定了＞＜",
+			say = "We... we've already made up our mind ><",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来…找一条避开她们的路也许是更好的方法……",
+			say = "Looks like... we might have a better shot if we tried to go around them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,9 +343,9 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
+			actorName = "Shou-chan",
 			dir = 1,
-			say = "哎呀？那这次就特别优待，放过你们吧？…开玩笑的♪绝对不会放你们过去的哟？",
+			say = "Ara? Then, maybe we should do you a favor and let you go? Just kidding~♪ I'd never, ever let you get away~ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:95}小姐？就、就算你这么说，{namecode:13}也、也也也一点都不会觉得害怕的哦！",
+			say = "Shoukaku?! Even if you say that... Ikazuchi isn't scared of you at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,9 +384,9 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
+			actorName = "Chune-Chune",
 			dir = -1,
-			say = "不会让你们靠近爱小姐的！",
+			say = "We won't let you get any closer to AI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,8 +402,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 303118,
 			dir = 1,
-			actorName = "{namecode:66}酱",
-			say = "一边躲避敌人的追击一边和其他舰队战斗是不可能的！",
+			actorName = "Takao-chan",
+			say = "You'll never be able to escape us while fighting off all our other forces!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎怎怎怎么办～！对面超认真的啊～～～＞＜",
+			say = "Wh-wh-wh-what do we do~! Why are they such tryhards~~~~ ><",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只能一边顶住绊爱舰队的猛攻，一边把电力供给装置的开关关掉了……",
+			say = "We're going to have to find some way to hold back the Kizuna AI Fleet while we cut off the power supply...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，只要把绊爱舰队都击败，这些就都没关系了",
+			say = "No, our best bet is to fight them head on. If we take them out, there's nothing stopping us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这就是所谓的“多路线”？讨论下是走“高战力”路线还是“低耗”路线吧！{namecode:13}无论哪边都没问题的哦！",
+			say = "So, is this one of those stages where we have multiple win conditions? We can either do the high-power strategy, or the low-cost strategy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

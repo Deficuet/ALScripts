@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "现在解锁了两个新的地点。",
+				text = "You have unlocked a new location.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击出行。  ",
+				text = "Tap the Go Outside button.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "先前往刚刚解锁的商业街吧。",
+				text = "Let's go to the newly unlocked Trendy Market.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击影像工作室。  ",
+				text = "Tap the Photo Studio button.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -78,7 +78,7 @@ return {
 			delay = 0.5,
 			alpha = 0,
 			style = {
-				text = "在这里，可以通过拍摄不同主题的纪念照来影响领航员-TB的个性。",
+				text = "Here, you can take all sorts of themed photos, which will affect TB's personality.",
 				mode = 2,
 				posY = -146.2,
 				char = 1,
@@ -89,7 +89,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在海滨公园的星光舞台观看不同演出，也可以影响领航员-TB的个性哦~",
+				text = "Taking TB to watch different plays at Seaside Park's Stellar Stage will also affect TB's personality.",
 				mode = 2,
 				dir = -1,
 				char = 1,

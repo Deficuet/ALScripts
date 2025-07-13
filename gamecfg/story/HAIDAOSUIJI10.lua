@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "晴朗的无人岛上难得下起雨来。雨越下越大，这样下去衣服会被淋湿的……",
+			say = "It seldom rains on the deserted island, yet it is pouring down. Your clothes will get soaked at this rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,7 +14,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "暂且先找个地方躲躲雨吧。",
+			say = "You decide to look for shelter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "与你同处一棵树下的，还有一只被雨淋湿了的小狐狸。",
+			say = "A while later, you notice that a lone, rain-drenched baby fox has sought shelter in the same place as you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,18 +49,18 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "它的耳朵耷拉着，似乎又饿又沮丧的样子……",
+			say = "Its ears are drooping, and it seems to be either hungry or sad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "喂它一个苹果(消耗50探险币)",
+					content = "Give it an apple.",
 					flag = 1
 				},
 				{
-					content = "等待雨停后离开",
+					content = "Do nothing.",
 					flag = 0
 				}
 			}

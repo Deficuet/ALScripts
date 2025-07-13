@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>二 轨迹</size>",
+					"White Poem\n\n<size=45>II Trajectory</size>",
 					1
 				}
 			}
@@ -20,11 +20,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…原色（Grundfarbe）。",
+					"I am Grundfarbe, primary colors. ",
 					1
 				},
 				{
-					"凭借着虚有之名，内心寻求着生存之意义的人偶。",
+					"I am but a doll with a borrowed name, seeking the meaning of my existence.",
 					3
 				},
 				{
@@ -32,11 +32,11 @@ return {
 					4
 				},
 				{
-					"如今正作为统帅这支舰队之人——",
+					"Starting from today I've begun to serve... as secretary of the ",
 					6
 				},
 				{
-					"“指挥官”的秘书，在港区的指挥室里执行业务。",
+					"\"Commander\", the one who leads all fleet operations.",
 					8
 				}
 			}
@@ -45,7 +45,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -76,7 +76,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这份资料放在这里可以吗？……嗯，听从你的命令。",
+			say = "Is it fine to put these resources here? Mm... I shall do as you have commanded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……人类果然有趣。仅仅为了驱动兵器，就要处理这么多文件。",
+			say = "...Humans are amusing beings after all. Even just to simply move some weapons, one must first fill out so much paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "调运与储备燃料、确保弹药资源、粮食补给、备用品补充与废弃处理。除了对兵器本身的整修，还要顾及一切生活必需品，实在繁琐。",
+			say = "Procuring and storing our precious fuel, securing ammunition and rations, acquiring and disposing of supplies, performing maintenance on equipment, even tracking personal expenses... daily life proves to be quite cumbersome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话虽如此，整理十分有效。秘书舰的工作，会让人有种自己才是舰队指挥者的错觉。",
+			say = "Having that said, this arrangement is fine. Being secretary indeed has its perks; it can sometimes provide the illusion, that I have some say in running the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "虽然不明白的事尚有不少，但比起光是战斗的那段时光，担任秘书舰以来对一切的看法都有了许多变化。",
+			say = "Though there is much I do not understand, since serving as the secretary ship, my world has already begun to change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "要考虑的不是如何打倒敌人，而是“如何不输给对手”。",
+			say = "Instead of thinking of vanquishing foes, the focus is now \"to prevent defeat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,21 +154,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "以及，除了“战斗”之外，还有如何“生存”下去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "指挥官，我来提交报告书了，请你查收。",
+			say = "To not only \"fight\", but also to \"live\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +168,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "铁血这个月的会计账本，誊抄和整理好了，濒临赤字。",
+			say = "I have come to deliver the reports. Commander, please accept my humble work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,19 +182,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "节约很重要——对驱逐舰还好，说服重巡花费了很大功夫。战舰本来就需要更多的物资，确实比较难以控制成本",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "——被摸头了",
+			say = "I have finished accounting for this month; the Iron Blood Dorm is barely in the red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +196,19 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "能理解表扬的意义，但我不太明白，隔着布料触摸身体这一行为有何意义？",
+			say = "Conservation is of utmost import; and though destroyers accept this tenet, the heavy cruisers were hard to persuade. Battleships have always been expensive, and because of that, it's hard to cut costs.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "(Receives headpats)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +222,21 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也不会因此增加报酬，这样的触摸究竟有何好处？",
+			say = "Though I understand the meaning of praise, I still know not the purpose of this touch. ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "If it will not increase what I am paid, what is the benefit of such contact?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "原本连“表扬”这一行为都无法理解，这次算有点进步了吧。如果这算是大家所说的“进步”的话…",
+			say = "Before I could not even understand, what purpose this \"praise\" was possibly for. I feel that I have moved forward a bit. Is this the \"progress\" of which people speak?  ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "我对这种“身体接触”依然无法理解。然而即使生出“想了解”的心之波澜，也会在战斗来临之时被瞬间吞噬。",
+			say = "\"Physical contact...\" I still don't get it. Though my curious heart longs to find out, once the waves of battle come crashing in, such idle thoughts are quickly tossed aside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_task",
-			say = "下一次，更直接地问问吧。",
+			say = "Perhaps, I should pay more heed to my heart",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

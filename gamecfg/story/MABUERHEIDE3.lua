@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>三　发起攻势吧！</size>",
+					"Light Up My Day\n\n<size=45>3 Girl Talk</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "某日·港区食堂",
+			say = "Later - Port Canteen",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗨，马布尔黑德。我听说了哦――？你跟指挥官拍了双人照是吧～？",
+			say = "Heya, Marblehead. Been hearing you and the commander snapped a group photo. What's that all about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，{namecode:60}也有兴趣吗？拍得还挺不错的哦，要看看么？",
+			say = "Word gets around quick, huh? I've got it right here. Came out real good, if I say so myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看……奇怪？还以为你们会像恋人一样贴在一起，结果不是那种感觉呢~",
+			say = "Lemme have a look... Huh, it's a lot tamer than I expected. I figured you'd be kissing or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是我这边硬邀请的，如果再贴上去的话就过头了吧？",
+			say = "Puh-lease. You take me for a girl who forces herself onto the commander? If it's not solicited, I'm not doing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是日常生活中普通会有的接触程度吧，难得的双人照，我觉得完全不够哦~",
+			say = "Plenty of girls here who do just that, though? If you wanna hit it up with the commander, you gotta get physical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是吗？孟菲斯觉得呢？",
+			say = "Deadass? Memphis, you reckon I'm being too passive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我没什么想法，不要用跟指挥官的接触程度当成炫耀的话题啊……不过那天指挥官倒是说了“转换了个好心情”之类的话呢。",
+			say = "I wouldn't know. What I can tell you is the commander did appreciate being taken outside for a brief break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是么！出乎意料啊，我一直觉得指挥官是被迫陪着我的呢！",
+			say = "Wait, what?! Legit surprised right now. Here I thought I'd just gotten in the commander's way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道说……指挥官其实喜欢比较主动的类型吗？哼哼，看来值得调查一番。",
+			say = "Hmm... Maybe this all means the commander likes girls who take the lead. I'm gonna need to do some asking around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔——要是一下子就进入拥抱阶段的话会不会有点过了？虽然也有那种手挽手一起走路的人就是了。",
+			say = "Well, based on my experience, sudden hugs are a no-go. Seen some girls wrap their arm around the commander's when they're going for a stroll, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那对原本不起眼的我来说难度还是太高了啦—",
+			say = "This is probably my inner shy girl speaking, but that's like, way outta my comfort zone. The arm-wrapping thing, I mean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过下次还是更主动一点，对指挥官发起攻势好了~",
+			say = "Anyway, I'll come up with something and make a real advance next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那你加油哦，我姑且还是支持你的。",
+			say = "Good luck with that. I'll be rooting for you, I guess. From the sidelines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从语言之中没有感受到一丝激情！不过总之还是谢谢你啦~",
+			say = "Thanks, \"I guess\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是指挥官下次也能陪我会就好了。真期待下次的见面啊——",
+			say = "Still, I'll take all the positive energy I can get. Here's hoping I'll get the chance to take the commander along again sometime soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "感觉好像听到了不得了的对话……",
+			say = "I had overheard most of the girls' conversation from a few tables away. I wasn't sure what to make of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

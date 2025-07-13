@@ -16,7 +16,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "维内托大人，前方的那些究竟是………………",
+			say = "Lady Veneto, look over there!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……真是比听到的情报还要夸张的景象，这就是所谓镜面海域中的气象奇观么。",
+			say = "What is that...? It's nothing like what Carabiniere described...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_italyv2_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在克里特岛北方原本一望无际的半空中毫无征兆的出现了一堵墙。",
+			say = "From the Mirror Sea surrounding Crete rose a massive labyrinth, exactly as the legends stated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_italyv2_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然，只要细看一下就会发现，用一堵墙来形容眼前的景色是极其不准确的。",
+			say = "But it did not seem to stop at Crete. The labyrinth sprawled towards the horizon, as if engulfing the entire Aegean Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_italyv2_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "自克里特岛向着爱琴海方向延伸，原本一望无际的海面已被无数凭空出现的高大墙壁所充满。",
+			say = "The ships that witnessed this phenomenon were overwhelmed by the sheer magnitude of the spectacle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "哇——————实、实在是太夸张了！",
+			say = "Woahhhhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "那些海面上的墙难道是……迷宫？！那个神话中大迷宫的再现么？！",
+			say = "This is the Labyrinth, right? Maestrale, have you ever heard of anything like this before? It's amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "克诺索斯迷宫……而且是以一个比神话夸张的多的方式进行了再现。塞壬的科技力还是一如既往的惊人……",
+			say = "Calm down, Libeccio...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些迷宫也许只是海市蜃楼之类的障眼法……天鹰，让舰载机接近迷宫外墙调查一下。",
+			say = "It may just be a mirage. Aquila, can you send your planes over it to give us a visual confirmation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "其他人立刻检查电子仪器状态并仔细侦察周边环境。",
+			say = "Everyone, continue to monitor the condition of your communications equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_italyv2_2",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "是！",
+			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

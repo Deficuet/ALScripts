@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飞彩迎新春\n\n<size=45>三　不夜良宵</size>",
+					"Spring Blossoms in the Sky\n\n<size=45>3 The Unsleeping Night of Wonders</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "一段时间的忙碌后————",
+			say = "Some time later, with the expansion well underway...",
 			bgmDelay = 2,
 			bgm = "main-chunjie2",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，工坊的主体结构已经全部修建完毕了，请验收。",
+			say = "Commander, the main structure is complete. We await your inspection and approval.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "在汇聚而来的各阵营同伴的帮助下，烟花工坊的改建以超乎想象的速度完成了。",
+			say = "Thanks to people from all factions lending a hand, work on the expansion has finished way ahead of everyone's expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，指挥官同志，团结就是力量哦！",
+			say = "See, Comrade Commander? This is what strength through unity can accomplish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我还特意做了可扩展设计呢，这样就算以后想要继续扩展规模也没完全没问题~",
+			say = "I took the liberty of redesigning the building. If you ever want to expand it again in the future, it should be easy peasy~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "大家都辛苦了，工作之余要来品尝一下甜点么？",
+			say = "Excellent work, everyone. Why don't we take a break with some desserts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,9 +131,9 @@ return {
 			bgName = "star_level_bg_102",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "鲟",
+			actorName = "Hiei",
 			side = 2,
-			say = "我还带了些刚做好的水馒头过来哦。",
+			say = "Lovely idea. I have freshly made kuzu-manjuus, if anyone wants.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我要吃！",
+			say = "I do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801030,
-			say = "我也要，我也要！",
+			say = "Me! Me! Me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801030,
-			say = "呼呼呼————大家看啊！我也和倔强一样会放魔法了哦！",
+			say = "Hey, girls, watch this! I can do magic just like Opie! I cast Crackly Fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801040,
-			say = "你只是在拿着烟花棒乱跑而已吧！",
+			say = "Don't be silly, Tem – that's just running around with a lit firework!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "懂了懂了~意思是烟花棒还不够大、还不够夸张对吧~！",
+			say = "I get it! Clearly it has to be bigger and flashier to be truly magical!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那不如来试试抚顺的超大号手持礼炮吧！绝对漂亮，包你满意哦~！",
+			say = "I've got just the thing... My mega firework bazooka! Let's give this bad boy a shot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801030,
-			say = "好厉害的样子……我要玩！",
+			say = "Holy smokes! I wanna try it myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚——顺——！！！",
+			say = "Fuuuu Shuuuun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！救命啊！鞍山姐要吃人啦！",
+			say = "Yikes! Heeeelp! An Shan's going to eat meeee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚顺姐慢点，等等我~我还想看看你做的烟花呢~！",
+			say = "Hey, don't run away! I wanna see the bazooka in action!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好、好快……那个，指挥官，我去帮鞍山姐盯着抚顺姐她们……",
+			say = "Gosh, she's quick on her feet... Um, Commander, An Shan and I will go make sure Fu Shun doesn't get up to no good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉托加还专门设计了一款以偶像萨拉酱为主题的烟花哦！",
+			say = "Look at this! I've made a firework based on my idol image!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "大家请尽情观看在空中闪耀的萨拉酱吧~",
+			say = "If this won't leave you all dazzled, nothing will♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到不知不觉做了这么多种漂亮的烟花……大家真是太厉害了！",
+			say = "Wow! We've built up a real mountain of fireworks here. Great job, everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502080,
-			say = "一会我要每种都要尝试一下！",
+			say = "I can hardly wait to see them go off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "绚烈的烟火在夜空中次第绽放，漫天的火树银花映着漆黑的天色，几乎要将整片夜空照亮。",
+			say = "Firework after firework rockets off into the sky, illuminating it in a stunning display. Many – me included – can't help but gasp in wonder.",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "在夜空中绽放的烟花真是太美了……",
+			say = "My word... It's beautiful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "图案承载着美好的寓意，在黑暗之中洒下光亮，也让心意能够传达到远方。",
+			say = "May all these thoughts and feelings given luminous form be seen for miles and miles around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "“星辰日月高天际，雪散烟花遍海隅。”倘若现在再添三分落雪的话，那便是冬夜的绝景了吧。",
+			say = "\"As sun, moon, and stars in the firmaments above; as fireworks and falling snow on the ocean below.\" The only thing we're missing to complete this magnificent winter night's scenery is some light snow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一年到头来，难得有像现在这样大家欢聚一堂的机会。",
+			say = "Hwah Jah, I will be the first to say you have our gratitude for proposing the workshop expansion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这还得感谢提出改建烟花工坊的华甲呢。",
+			say = "It's seldom we all get the opportunity to get together as one big family, and your suggestion helped make this an unforgettable gathering.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "春节本来就应该是大家一起团聚的热热闹闹的节日嘛~",
+			say = "You flatter me. All I wanted was to make our Lunar New Year as lively as it should be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "说起来……指挥官的新年愿望是什么呢？",
+			say = "Oh, right... Commander, if you could make a wish for the new year, what would it be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "新年愿望么……",
+			say = "\"Good question. I'd say...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "那就……希望能和大家一起，度过充满欢声笑语的崭新一年吧——",
+			say = "\"I wish for nothing more than another year full of laughter and joy with all of you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

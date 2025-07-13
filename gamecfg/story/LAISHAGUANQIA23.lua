@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "随着磁卡插入大门，海面上出现了一条无障碍的航路，周围的防御系统也停止了运作。",
+			say = "The girls inserted the keycard into a device on the barrier's door, causing all Siren defenses in the area to halt operation. On the other side, a long path across the surface of the water revealed itself.",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			actor = 301290,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……成功进入，看来到目前为止一切顺利。",
+			say = "Phew... I'm glad that worked. This should be a cakewalk from here on♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要大意。只是解除了强得离谱的防御系统而已，区域内肯定还会有别的敌人。",
+			say = "Don't take that for granted. Even if their mind-blowingly strong defenses shut down, I guarantee you there's a Siren hiding in ambush somewhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 101490,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。恐怕过不了多久敌人就会发现我们的入侵了。这种时候就应该快人一步，抢先行动！",
+			say = "They'll know we breached the barrier any second now, so we should seize this opportunity while we can!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，尽快找到控制装置，解除镜面海域吧。",
+			say = "Agreed. Let's hurry and find the control device and dispel this Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 101490,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不，应该是抢在敌人反应之前寻找到隐藏的宝藏！",
+			say = "No! I was talking about finding all the hidden treasure chests before the Sirens catch on to us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这就是塞壬修建的核心区，相当于整片遗迹的最重要的部分吧？",
+			say = "Think about it. This is the most important place we've been yet, 'cause it's the heart of their base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 101490,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一般在这种大家都急着前进的时候，要特别注意仔细观察隐藏的岔路才行！不为人知的宝藏也许就藏在里面！",
+			say = "So there's GOT to be treasure somewhere around here! The clock is ticking, so let's focus on finding some hidden branching paths!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			actor = 601080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~不愧是传奇调查员，在这种事上很有经验嘛。",
+			say = "Hoho! Our brilliant investigator here's got the right idea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 601080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的主干道附近虽然很空旷，但是远方依然有复杂的建筑群存在，说不定真能有什么收获呢，我也赞成探索一下！",
+			say = "There's only one way forward, but I can see a bunch of big buildings in the distance. There's bound to be stuff to find there, so I second what Bristol said!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好不容易来到这里，以后也许再没有回来的机会了……",
+			say = "We've made it this far, and we may never come back to this place again, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然是只有一次的冒险就一定不能留下遗憾呢，让我们去仔细探索一番吧~",
+			say = "Yeah, let's keep exploring to the very end! Treat every adventure like it's your last!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……这么有趣的塞壬镜面海域确实少见。",
+			say = "I mean... I suppose there aren't many Mirror Seas as fun as this one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然最需要回去的莱莎都没意见的话，那就稍微探索一下这里吧……?",
+			say = "We're all in this together, and if you want to go exploring, then I guess we could take a brief detour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（虽然大概……等在拐角里的只有敌人就是了！）",
+			say = "(Even though we're fricking guaranteed to run into an ambush precisely by going on a detour! Ugh!)",
 			painting = {
 				alpha = 0.3,
 				time = 1

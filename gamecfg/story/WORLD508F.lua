@@ -11,7 +11,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不妙，这样下去可不妙……仲裁机关相互协作之后战斗难度可不是一变三这么简单！",
+			say = "We're in trouble... If all three of the Arbiters team up, this situation is going to get exponentially harder to deal with!",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "不要放弃",
+					content = "\"Don't give up hope!\"",
 					flag = 1
 				},
 				{
-					content = "继续战斗",
+					content = "\"Keep up the pressure!\"",
 					flag = 2
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "你这家伙倒是意外的冷静啊。",
+			say = "You've got some determination, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "危险的战斗毕竟也经历过不少了……越是危急就越不能放弃，坚持战斗才有希望。",
+			say = "\"I've been through my fair share of battles. The more precarious the situation, the more essential maintaining your composure is. Only by staying calm can you even begin to hope for victory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "阵型变换，受损严重的舰船移动到二线。女灶神，现在已经到了战斗的关键时刻，不用有所保留，尽全力为大家维修吧。",
+			say = "\"Go and take the injured to the rear, and have our repair ships look after them! Press on!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "交给我吧！只要后勤舰队还存在，就不会让任何同伴倒下的！",
+			say = "Leave the injured to me~ No need to worry, we're here to back you up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，给本王顶上。",
+			say = "The Royal Navy refuses to fall. We will persevere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命。陛下，请您退后。",
+			say = "Exactly as you say. Please find a safe place at the back of our ranks, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业前辈你的航空甲板……请先去进行紧急维护，这里就暂时交给我们吧！",
+			say = "Enterprise, your flight deck! Go get some emergency treatment, and leave this to us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我不会勉强的……有劳了。",
+			say = "All right, will do. Hang in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "你们也退下去整备一下吧？",
+			say = "\"Ashes, you've taken serious damage. Our repair ships could fix–\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "居然叫我们退后？你未免也太自信了。",
+			say = "Thanks, but we'll have to pass. You haven't even seen our true power yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "以你们与仲裁机关的实力差，只要我们停止进攻，你们会被瞬间全灭的。",
+			say = "In case you weren't aware, the Arbiters will annihilate you lot the moment we relax our assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "没错~放心放心，我们还轮不到你来担心。",
+			say = "She's right. Worry about yourselves before you even begin to think about us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "不过……稍微拉开些距离调整一下进攻节奏顺便补给一下好像也不错？",
+			say = "Having said that, it might be a good idea to take you up on that offer. Let's step back for just for a while to resupply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "哈哈哈，好久没享受过大舰队协同作战，都快忘记这些战术选择了。",
+			say = "No need to get worked up. Have you fought alone for so long that you've forgotten the other tactics available to you as an entire fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "我们的后勤资源你们可以在这场战斗中随意使用。让我们继续战斗吧！",
+			say = "\"Precisely. Work together with us as allies, or none of us are leaving this place...!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

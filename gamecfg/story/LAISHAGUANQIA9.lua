@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			stopbgm = true,
-			say = "遗迹群岛·异界之森",
+			say = "Mirror Sea - Underworld Grove",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "赛莉小姐，你在草地上发现什么了么？",
+			say = "Serri, what are you doing in the grass?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在检查森林中的植物。",
+			say = "I'm examining the flora present in this forest.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "检查植物……？",
+			say = "Huh? Are you a botanist or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赛莉小姐作为绿羽氏族有一种特殊能力，似乎只要看到植物就能知道它是什么类型的植物。",
+			say = "Serri's part of the Green Plume clan of the Oren. They can figure out plants' traits just by looking at them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦，好神奇！见到植物就能知道它的名字和种类么？",
+			say = "Whoa, that's amazing! All she needs is a glance to identify the species and the genus?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯……倒也不是那么具体的东西啦，怎么说呢……",
+			say = "I don't think her ability extends quite THAT far, but it's close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "比如赛莉小姐一直在找具有净化功能的植物。怎么样，赛莉小姐，有什么发现么？",
+			say = "Also, she's been on a long search for a plant with special purifying properties. How's that going, Serri? Found anything good?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……实际看了之后，我确信了。",
+			say = "...No. A closer look confirmed my suspicions.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -195,7 +195,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些植物只是徒有其表的仿制品而已，什么也感觉不到。其实没有生命，也不会生长，究竟能不能算植物还不好说。",
+			say = "These plants are only replicas. I don't feel anything from them. No life, no growth. It's hard to even call them plants.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "大概是塞壬用不知道什么方式制造出来的吧~塞壬在制造仿制品上可是很有天赋的哦。",
+			say = "Wait, really? I guess the Sirens fabricated 'em somehow. They ARE masters of making fakes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这样吗……唔，让我来看一下哦。",
+			say = "Hey, let me have a look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这种感觉……嗯，这些植物可以当成素材使用！",
+			say = "Hang on a sec... Yeah, I can use this as an ingredient!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸？！！要把这些假植物扔到大锅里去么？！",
+			say = "You serious?! Even fake plants have their uses in the cauldron?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……",
+			say = "Heheh...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -303,7 +303,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎就连塞壬制作出来的异世界素材也能用在炼金术里呢。",
+			say = "I suppose our local alchemist always finds a way to use the resources at her disposal, even if they're fake.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯~我已经有些想法了，先收集一些吧~",
+			say = "It takes some improvisation, but yeah. Let's go ahead and gather some more stuff we can use later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "一段时间后————",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:175}阁下，可畏阁下，莱沙阁下你们看！前面那棵大树下面好像有一个发光的宝箱哎！",
+			say = "Suruga, Formidable, Ryza! I see a shiny treasure chest under that tree over there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}这就去打开看看——！",
+			say = "Wait here, I'll go and see what's–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等——！别急，小心有陷阱！",
+			say = "No, don't go rushing in! It could be booby-trapped!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}找到第二把钥匙了哦！{namecode:175}阁下真是多虑了，你看，只是一个普通的宝箱而已！",
+			say = "Second key acquired! See, Suruga? It was just an ordinary treasure chest! You worry too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			side = 2,
-			say = "获得道具：「遗迹之钥·异界森林」",
+			say = "Item obtained: Underworld Grove Key",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "（难道这个塞壬遗迹，其实并没有那么危险么……）",
+			say = "(Have I been wrong all along about how dangerous these ruins actually are...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "莱莎阁下你看，我在宝箱里还找到了图纸，是你能用到的炼金配方么？",
+			say = "There was a recipe inside the chest as well! Do you think you can use this to synthesize something, Ryza?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "嗯！应该是炼金配方。和我之前制作的舰装有相似之处，从设计来看应该是塞莉小姐和莉拉小姐的舰装吧？",
+			say = "Yeah, this looks like an alchemy recipe to me. Seems similar to the last rigging recipe we found, too. Based on the dimensions, I think this'll result in riggings for Serri and Lila.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "而且~“舰装炼成必备物资”这次也贴心地放在一旁了呢。",
+			say = "I have to say, it's really convenient that they wrote down all the items we need again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "至于其他的素材……有些刚刚已经在路上收集到了，有些我有印象，在回去的路上收集就好！",
+			say = "We're missing a few ingredients, but we can just grab those on our way back to the Land of Beginnings. Luckily, I memorized all the gathering points.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "这次也能像之前那样，成功做出赛莉小姐和莉拉小姐的舰装么？",
+			say = "What you're saying is, we need only gather everything on that list to make riggings for Miss Serri and Miss Lila, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，应该没问题！我们先一边收集材料一边回去，接下来就该我的炼金术出场了~",
+			say = "Probably, yeah! Let's just get the stuff we need while we retrace our steps. Once we get back, it's alchemy time!",
 			painting = {
 				alpha = 0.3,
 				time = 1

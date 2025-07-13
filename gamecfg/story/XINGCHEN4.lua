@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>四  给星尘的信</size>",
+					"Bits of Courage \n\n<size=45>IV 「Letter to Stardust」</size>",
 					1
 				}
 			}

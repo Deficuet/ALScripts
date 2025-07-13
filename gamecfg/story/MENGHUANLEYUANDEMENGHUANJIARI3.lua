@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "穿过城堡中的楼梯，朝着举办舞会的集合地点前进时，一阵风将一旁房间的门吹开。",
+			say = "While walking up the stairs of the castle on my way to the banquet hall, a strong wind suddenly blows open the door to a corridor.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "门内的{namecode:234:凉波}此时换上了一身素雅的小礼裙，就站在房间内静静地看着我。",
+			say = "Out of it, Suzunami steps out, wearing a fashionable dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "指挥官……那个，能帮我看看，这身礼服合身么？",
+			say = "I was hoping you could, umm... check if I'm wearing this dress correctly or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "想独自穿好这件衣服，果然还是有点勉强……",
+			say = "It's hard to do it on my own, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302261,
-			say = "不、不是的！{namecode:234:凉波}很厉害哦……！",
+			say = "Don't be so unsure! You look amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302261,
-			say = "{namecode:233:绫濑}的小兔子也说{namecode:234:凉波}靠自己就能穿好这么复杂的衣服很厉害！",
+			say = "Even my bunny is impressed you managed to put that on all by yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，{namecode:233:绫濑}说的没错。这礼服看上去很合身，而且很适合你。",
+			say = "Ditto what she said. You're wearing it right, and it looks great on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "……那就好。",
+			say = "That's good to know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "舞会应该马上就要开始了……可以和你们一起去么？",
+			say = "The banquet is starting soon, so... can I come with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302261,
-			say = "好呀好呀！",
+			say = "Sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，你们先去集合吧，我再确认一下还有没有其他人没准备好。",
+			say = "You two go ahead without me. I'm first gonna check on the other girls and see how their preparations are going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302261,
-			say = "好、好的！呜……不过应该不会有其他人像{namecode:233:绫濑}一样了吧……",
+			say = "O-okay! *sigh*... I doubt anyone had as much trouble getting ready as I did...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301911,
-			say = "那……我们等会儿见。",
+			say = "Alright then. See you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Talk to you soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "和{namecode:233:绫濑}与{namecode:234:凉波}分开之后，决定再去看看其它的房间。",
+			say = "The girls and I part ways. I decide to look around and see how the other partygoers are doing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "就在城堡的走廊上行走时，报时的钟声突然响起。",
+			say = "As I walk down the corridor, a large bell suddenly rings, signaling the start of a new hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,19 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "而钟声响起的瞬间，眼中的景象突然扭曲了一下，但很快又恢复了正常。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_506",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "错觉么……？",
+			say = "Just as that happens, the space around me seems to distort for just a moment before returning back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +268,19 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……不过{namecode:233:绫濑}和{namecode:234:凉波}应该还没有走远，问一问她们有没有注意到好了。",
+			say = "What was that?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_506",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Suzunami and Ayase should still be nearby. I'd better ask them about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "然而不论怎么呼唤，都没有得到任何回应。",
+			say = "I turn back to where I came from and shout their names. No reply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "朝着她们离开的方向找去，也完全没有看到她们的身影。",
+			say = "Stranger yet, I follow where they went and can't find any sign that they were here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上？",
+			say = "Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}，发生什么事了？{namecode:234:凉波}和{namecode:233:绫濑}她们……",
+			say = "What's happened, Amagi? Ayase and Suzunami just disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "{namecode:161:天城}知道主上心中疑惑，但还请主上先随{namecode:161:天城}离开此处。",
+			say = "Kindly follow me. You will understand soon enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "跟随{namecode:161:天城}离开了城堡，重新回到了游乐园的中心区域。",
+			say = "I do as told and follow Amagi. We leave the castle and return to the park's central area.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……",
+			say = "What in the world...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "眼前的景象不断来回变幻，上一秒还是欢乐甜美、色彩缤纷的游乐园。",
+			say = "The surroundings are changing back and forth nonstop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "而下一秒，鲜艳的颜色便会褪去，取而代之的是一片荒凉颓败的景象。",
+			say = "One second, it's the colorful amusement park I know. The next, it's a gloomy, abandoned ruin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这种变化……就像是在美梦和噩梦之间徘徊一样。",
+			say = "It's... It's cycling between a dream and a nightmare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "主上说的不错，正是如此。",
+			say = "You are correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "So that bell I heard earlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "主上可有注意到现在是什么时刻么？",
+			say = "Do you know what time it is now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "报时的钟声响过，再加上这昏暗的天色……莫非是逢魔之时？",
+			say = "Based on how many times it rang and how dark the sky is... Twilight. A time the Sakurans commonly associate with misfortune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "少女点了点头。",
+			say = "She says nothing, only nodding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，这不是你构筑的美梦么？为什么会在梦里出现这种事？",
+			say = "Didn't you say you built this dream, though? Why is turning into a nightmare?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "就像日夜总是伴随相生，既然有美梦，自然也有噩梦……",
+			say = "Good and bad dreams cycle from one to the other, just as day and night do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，{namecode:233:绫濑}和{namecode:234:凉波}会消失不见，也是因为噩梦吞噬了？",
+			say = "What about Ayase and Suzunami, then? Did the nightmare take them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "“吞噬”一词倒是不够恰当。准确来说……她们是被噩梦魇住了。",
+			say = "\"Take\" isn't quite the right word. More precisely, you could say that they stumbled into the world of nightmares.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "既困于梦魇，便自然不会出现在仍属于美梦的游乐园内。",
+			say = "They have gone to another world, which naturally means that they aren't in this dream anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可现在的游乐园的景象不是还在来回变幻么？",
+			say = "Seems this dream's destabilizing because of it. Just look at how everything's changing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "嗯……是的。所以需等其稳定下来，才能去寻找其他人。",
+			say = "Yes, that is why we should look for them only after the dream has stabilized again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（噩梦么……）",
+			say = "(While they're gripped by nightmares...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "主上可是在担心噩梦造成的影响？",
+			say = "Are you worried about how the nightmares may effect them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "它并不会产生实质性的伤害。大家醒来时也不会记得噩梦的内容，但肯定会觉得十分疲惫。",
+			say = "Don't be. While the nightmares may be draining, those two will forget all about them when they wake up. The nightmares cannot harm them either, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "以主上的性格，定然是希望噩梦被驱散，让大家重新回到游乐园之中，对吧？",
+			say = "Although, I doubt knowing that is enough to ease your concerns. You want to bring them back to our dream, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不错。我的确是希望所有人都能做一个美梦，好好享受这个梦幻乐园。",
+			say = "Yeah. I want them to enjoy their dreams as much as the rest of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那{namecode:161:天城}便随主上一起，寻找解决的方法。",
+			say = "I understand. Then let us look for a solution together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "随着时间推移，在我与{namecode:161:天城}对话的间隙，眼前的景象终于稳定下来。",
+			say = "While we talk, our surroundings seem to finally settle on one thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "一缕缕烟雾开始从地面升腾而起，缠绕着游乐设施。",
+			say = "Not necessarily a good thing. Smoke rises from the ground, enveloping several of the attractions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "整座游乐园被这烟雾笼罩，远处的建筑轮廓也变得模糊不清。",
+			say = "The smoke grows thicker and thicker, eventually covering the whole amusement park. Distant buildings are rendered outright impossible to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "看着眼前变得扭曲诡异的游乐园，不知为何，突然冒出了一个想法——",
+			say = "As I watch the place take on such an ominous look, a thought suddenly floats to the top of my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……总感觉，这个时候，她们该出现了。",
+			say = "Something tells me you-know-who is gonna show up any second now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "她们？",
+			say = "Pardon? Who?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "话音刚落，就听到了一道兴奋不已的嗓音。",
+			say = "As if to answer her question, an ecstatic voice suddenly calls out from the smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "黄昏降临之时，世界的边界变得模糊不清。很明显，不可思议之事将如潮水般涌现！",
+			say = "Dusk descends upon the land! The boundary between worlds grows thinner! It couldn't be any clearer – there is an outbreak of mysteries to be solved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇！现在的氛围比我之前设计的更适合大冒险！",
+			say = "Holy smokes – pun intended – this is way more adventury than I imagined!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "先别急着冒险嘛。虽说要探查不可思议事件，但还是要先搞清楚发生了什么。",
+			say = "The adventures will have to wait. To solve this myriad of mysteries, we first need to figure out what's happening!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然……",
+			say = "See? Right on cue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼哼，“只要涉及到不可思议事件就会出现的布里斯托尔也是一种不可思议事件”——",
+			say = "Heheh! I know exactly what you're thinking, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官脸上的表情是这么说的哦！",
+			say = "\"It's a mystery in and of itself how she always shows up when there are mysteries abound.\" Am I right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……布里斯托尔还有抚顺，你们来得正是时候。",
+			say = "Ahem. You two came at the perfect time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我和{namecode:161:天城}正打算解决眼前的异常现象，让游乐园恢复原本的模样。",
+			say = "Amagi and I were just talking about how to resolve this problem and bring the amusement park back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好主意！那我们现在就出发吧！",
+			say = "Oh, okay! We'd better get going right now, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和指挥官一起探查不可思议倒是求之不得啦，不过我有件事很在意……",
+			say = "Wait. While I'm just as excited to solve a mystery together with the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我得先确认一下！",
+			say = "There is one thing I need to check before anything else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "布里斯托尔一边说着，一边伸手在口袋里摸索着什么。",
+			say = "Bristol reaches into her pocket and digs around, looking for something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "找到了！",
+			say = "Found it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "嗯……？此物是……陀螺？",
+			say = "What's that? A spinning top?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,7 +968,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错没错~就是陀螺！我转——",
+			say = "Bingo! Now watch how it spins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？这陀螺是不是有问题啊？",
+			say = "Huh... Is a top supposed to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "原本依靠动能旋转，很快便会停止下来的陀螺，此刻却依旧旋转个不停。",
+			say = "A top shouldn't spin for long as it burns through its kinetic energy. And yet, this one kept spinning indefinitely, as though nothing could stop it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "果然是在梦里啊！指挥官，到底是怎么一回事？",
+			say = "That confirms it! This is a dream. How are we here, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我来解释一下吧。",
+			say = "It's a long story. Let me explain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，我现在已经完全明白了！",
+			say = "Ahh! I understand completely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之就是去驱散噩梦，把美梦还给大家，对吧？",
+			say = "So basically, we gotta deal with the nightmare and bring those two back to the amusement park, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错。",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1096,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，本次调查行动就命名为“抚顺与指挥官与小伙伴们的噩梦大冒险”吧，出发——",
+			say = "Then I've got the perfect name for this investigation. \"Fu Shun and Friends' Great Nightmare Adventure\"! Now let's–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下，不要抢我的台词！而且那个行动命名是怎么一回事啦！",
+			say = "Hey! I'M supposed to name the investigation! That one sounds lame!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,7 +1133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "真是，很有活力呢……呵呵。",
+			say = "Heehee. You two sure are a rowdy duo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,7 +1145,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "习惯就好。",
+			say = "They sure are. Best to get used to it sooner rather than later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1156,7 +1156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "就这样组成了四人小队后，开始朝着被“噩梦”包围的游乐设施进发。",
+			say = "And so, the four of us set off to investigate the nightmarish attractions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

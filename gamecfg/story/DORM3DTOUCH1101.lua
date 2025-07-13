@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，再摸下去的话，头发就会变得乱糟糟了……",
+			say = "My honourable {dorm3d}, my hair will ruffle if you keep doing this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,8 +14,8 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			actor = 900011,
-			actorName = "测试者",
-			say = "{namecode:83}级船体改，{namecode:182}号装甲航母。原本被视为重樱的希望而被建造出来，实际上的数据------",
+			actorName = "Tester",
+			say = "Converted Yamato-class hull, armored aircraft carrier Shinano. You were built to represent the hope of the Sakura Empire, but your actual performance... is hardly worthy of even being considered data.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬人形指挥单位，测试者…作为镜面海域的管理者而被部署在此，实际上的只会不停重复相同的话语么……",
+			say = "I will never be defeated by an enemy that I have seen in my dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "………嗯？数据变化了…性格也和记录里不太一样……",
+			actorName = "Tester",
+			say = "...is significantly different from the calculated result. Interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "出乎汝等意料的事还多着呢，世间万物之理，岂是仅凭机械式的数据分析就可以得出定论的。",
+			say = "No calculations may encapsulate... what I have experienced...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "（这股异常感…难道是心智觉醒的征兆？可是她没有任何与那个指挥官产生接触的机会…）",
+			actorName = "Tester",
+			say = "(Something's wrong here. This difference in performance cannot fall within the realm of accounted-for factors. Normally, such a shift would be attributed to Cognitive Awakening, but she has not had a chance to come into contact with that \"Commander.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "你早就知道会有这场袭击？",
+			actorName = "Tester",
+			say = "I see. The Observation Terminal will be interested in you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "汝等不是将世间万物均视为实验，并自诩为实验的掌控者么，不如来猜猜看？",
+			say = "(...Observation Terminal? If that is something made up of Sirens just like Tester...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,8 +142,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "………计划变更，进入战斗分析模式。",
+			actorName = "Tester",
+			say = "I have no desire to ape Purifier, but as the one who will pave the way for the Arbiters, I do wish to acquire data that can facilitate the Terminal's demise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵，虽然尚且不清楚汝等的来历、目的、过去与未来。",
+			say = "(...I don't have time to think about that right now though...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，在当下，妾身无法对汝等所做之事置之不理。",
+			say = "I won't retreat if it's a fight you want. After all—For the sake of my friends, the Sakura Empire, and the future of humanity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "塞壬，若汝等要将自身置于敌人的立场之上，那就仅在这一点上如汝等所愿，尽情的战斗吧！",
+			say = "I shall fight until my soul's duty is fulfilled...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

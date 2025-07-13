@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "稍早之前的某海域——",
+			say = "Somewhere, a bit earlier...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:428}……你怎么看？",
+			say = "What's the plan, Eugen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁舰队的求援通讯为什么会莫名其妙发到我们这来啊！",
+			say = "Impero's fleet has discovered a Siren facility and requested backup from the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，看来美好假期中的一部分时间要泡汤了。",
+			say = "That's too bad. Looks like our lovely vacation time is about to get cut short.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是我们才刚出港没多久啊！！",
+			say = "But we only just left the port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别抱怨啦，就当稍微绕个远路咯~",
+			say = "Sorry, but whining isn't going to get you anywhere. Let's just treat this as a scenic detour, alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我对通讯里提到的那座奇异的“塔”还蛮有兴趣的。",
+			say = "But I must say, I'm rather interested in this \"tower\" described in the communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我！完全！没有！",
+			say = "I'm not! Not in the slightest!",
 			effects = {
 				{
 					active = true,
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好好好~那我们就从没收到过什么联络，就当无事发生好了。",
+			say = "Fine, fine~ Should we just act like we missed the message and go enjoy our vacation?",
 			effects = {
 				{
 					active = false,
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，不用管撒丁舰队即将迎来的悲惨的遭遇，我们接着去度假就是了~",
+			say = "I mean, it's not our problem if the Sardegna girls end up in over their heads and something terrible happens to them~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，姐姐~不走么？",
+			say = "Something wrong? Didn't you want to hit the sunny beaches?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好啦好啦！我知道了！！！！！",
+			say = "Screw you! You know what? Fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快点掉头，我们去找那群撒丁的家伙吧！",
+			say = "We're turning around right now. We can't leave those Sardegna girls alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "呵呵呵，遵命~",
+			say = "Hehe, as you say, princess~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "在帮助{namecode:98:明石}整理了卸货的仓库后，来到了露天公园稍作歇息。",
+			say = "I helped Akashi sort out the cargo unloading warehouse and now I've come to the garden for a break.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "此时邮轮上的部分人已经下船登岛了，这使得船上看起来冷清了不少。",
+			say = "Most of the guests on the ship have already left for Seabreeze Island, making it feel a little empty onboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "指挥官？原来你也还没下船呢。",
+			say = "Commander? You're still here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女带着淡淡惊讶的声音传入耳畔。",
+			say = "Constellation sounds just a bit surprised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……刚刚帮{namecode:98:明石}整理了仓库，打算休息一下再下去。星座呢？",
+			say = "Not yet. I just helped Akashi in the warehouse and I wanted to take a break before I get off. How about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,54 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "问出这个问题后，我注意到了她手中拎着的各种设备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 104010,
-			say = "如你所见，我是来架设天文观测用的设备的哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 104010,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我想把它设置好之后再下船……啊，如果可以的话，能请指挥官帮我一下吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "没问题。这是打算提前架设好，晚上直接开始欣赏星空么？",
+			say = "Suddenly, I notice that she's holding a variety of mechanical parts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "嗯，没错。提前调整好位置，到时候就可以更快地欣赏星空之美了呢。",
+			say = "As you can see, I'm setting up some astronomy equipment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,25 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的经纬度很适合观测星空，最近的天气也非常好，没有云层的阻挡……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 104010,
-			say = "晚上从这里看过去的话，一定非常美丽。",
+			say = "I'm going to get on land after I'm finished... Oh, uh, if you have the time, could you help me out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +136,72 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此……好，帮忙架设的事就交给我吧。",
+			say = "Sure thing. This will save you time setting things up when night rolls around, I assume?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 104010,
+			say = "Yeah. Preparing my equipment in advance will let me see the beautiful stars that much sooner.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 104010,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "The lat and long here are perfect for stargazing. The weather's also been great lately, with barely any cloud coverage.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 104010,
+			say = "All in all, this will get me a spectacular view of the stars.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Wow, that's stellar. Anyway, let me help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "一段时间后，总算是和星座一起完成了设备的架设。",
+			say = "A while later, we're done setting up all her astronomical equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "不过因为现在是白天，没办法进行镜头的调整，我给望远镜的镜头盖上了保护罩。",
+			say = "You can't adjust the lens during daytime, so I put a protective covering on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "指挥官很细心呢，呵呵……",
+			say = "You remember the little things, huh? Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "谢谢指挥官帮我架设设备，作为谢礼，唔——",
+			say = "I appreciate all your help. I would give you something as thanks, but, well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女在思考了片刻后，突然向前又跨出了一步。",
+			say = "She broods for a moment, then takes a sudden step forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "伴随着少女贴近时散发出的淡淡香气，面颊上传来了柔软、温热的触感。",
+			say = "Coming closer, she exudes a subtle fragrance and gives my cheek a warm and soft touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "因为没想到会在这里遇到指挥官……所以没准备什么像样的谢礼呢……",
+			say = "I wasn't expecting to run into you here, so I don't have anything on hand. Sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女的气息落在我的耳畔。",
+			say = "She lowers her voice to a whisper, feeling either anxious or embarrassed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "带着一丝不知道是因为紧张还是因为害羞的颤音。",
+			say = "A faint tremble runs through her words as she says...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "如果，指挥官晚上有空的话，就来这里找我吧。",
+			say = "If you're free later tonight, you should stop by.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "只有我们两个人，一起看星星吧。",
+			say = "I hope we can gaze at the stars together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "又在露天公园歇息了一阵后，送星座下了邮轮。",
+			say = "I stay in the garden, resting for a while longer, then see Constellation off as she disembarks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "时间差不多了，去看看大家在无人岛上的情况吧。",
+			say = "It's time I do the same to check what people are up to on Seabreeze Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

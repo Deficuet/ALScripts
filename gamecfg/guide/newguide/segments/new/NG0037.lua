@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "除了演习奖励，<color=#ff7d36>限时</color>这里也有很多<color=#ff7d36>新服活动</color>的奖励可以领取！",
+				text = "You can go <color=#ff7d36>here</color> and claim rewards from the <color=#ff7d36>new Commander campaign</color>!",
 				mode = 2,
 				dir = -1,
 				posX = -29.1,
@@ -37,7 +37,7 @@ return {
 				}
 			},
 			style = {
-				text = "让我们打开<color=#ff7d36>新服活动</color>",
+				text = "Let's not dawdle! Have a look at the <color=#ff7d36>new Commander campaign</color>!",
 				mode = 2,
 				posY = 204.69,
 				dir = -1,
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "哇，这么多奖励可以领取！\n点击领取<color=#ff7d36>全部奖励</color>",
+				text = "Blimey, that's a lot of rewards!\nTap to <color=#ff7d36>claim all of them</color>!",
 				mode = 2,
 				posY = -102.33,
 				dir = -1,

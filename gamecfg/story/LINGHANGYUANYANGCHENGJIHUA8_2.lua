@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "将滑落的被子小心盖回TB的身上。",
+			say = "I adjust the blanket so it fully covers her again.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她无知无觉，兀自睡得香甜。",
+			say = "She doesn't react whatsoever and keeps on sleeping like a baby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "月光透过薄薄的窗帘照进屋内，将这张我既熟悉又陌生的面庞照亮。",
+			say = "The moonlight shines through the window and pierces the curtains. Looking at TB like this, it feels like I'm seeing her face for the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,12 +56,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呼……唔唔……",
+			say = "Zzzzz... Mhm...",
 			voice = "event:/educate/tb/educate-tb-story-1-5",
 			painting = {
 				alpha = 0.3,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她小声嘟囔着什么，有些像梦话，但更像是单纯的呼吸。",
+			say = "I hear a quiet mutter. For a second, I'm not sure if it was TB muttering in her sleep, or if it was the sound of my own breaths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……现在的你，会做怎样的梦呢？）",
+			say = "(I wonder what she's dreaming about...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

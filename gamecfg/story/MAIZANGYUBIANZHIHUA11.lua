@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>剑碎</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>11 Entrusted Will</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "针对八云山的攻击，仿佛永无止境般地持续着。",
+			say = "At Yakumoyama, the enemy's assault was ceaseless.",
 			bgm = "battle-unzen-2",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:151:出云}，所有人都已经平安撤入八云山中了，立刻封闭结界。",
+			say = "Izumo, everyone has reached the mountain. Close the barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……针对结界的攻击密度过高，封闭仪式无法顺利进行。",
+			say = "I can't! It's impossible to seal it when it's under such a dense assault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，我带人出门迎敌吧，吸引敌人的注意力，为你们拖延片刻。",
+			say = "Then I'll go. Your job will be easier if I draw their attention, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "麻烦大前辈了。如果结界承受的攻击减弱，我只需要一刻钟就能完成封闭仪式。",
+			say = "Great Veteran... Well, yes. A reduced density of attacks will let me seal the barrier in about 15 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了。",
+			say = "Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "{namecode:181:鬼怒}、{namecode:140:旗风}、{namecode:134:松风}、{namecode:192:追风}，随我出战！",
+			say = "Kinu, Hatakaze, Matsukaze, Oite. Come with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "顺着山路一路向下，{namecode:82:三笠}一行人如同一柄尖矛切割着黑色的洪流。",
+			say = "Mikasa's group charged down the mountain path, piercing through the horde of black mist entities like a spear.",
 			bgm = "theme-misaka",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是些奇怪的敌人……如同从百鬼绘卷里跑出来的一样。",
+			say = "What strange enemies... They look like they came right out of a youkai compendium!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "狐、兔、鱼、鸦、鬼……",
+			say = "Foxes, rabbits, fish, ducks, even horned demons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:134:松风}，没有「蛾」呢。",
+			say = "Heh. At least there aren't any bugs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那可真是太好了……比人还大的蛾子……不敢想。",
+			say = "Good. If there were bugs of such size... Urgh, just thinking about it makes me shudder!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈哈哈~！",
+			say = "(They're all just making jokes. Am I the only serious person here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是令人真怀念，我们好久没像现在这样并肩作战了吧。",
+			say = "This takes me back. How long has it been since the last time we all fought together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "人老了，就爱感慨了？",
+			say = "Getting emotional just shows your age, Mikasa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别忘了，之前在{namecode:84:武藏}大人的棋局上，我们也并肩作战了一次哦？",
+			say = "Besides, we fought together during Musashi's game, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "嗯——那次{namecode:134:松风}和{namecode:192:追风}不在，不能算。",
+			say = "That doesn't count. Matsukaze and Oite weren't there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈……也是，也是。",
+			say = "Ahaha... Fair enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:84:武藏}……我在此处的战斗都如此艰难。）",
+			say = "(If this many enemies are attacking Yakumoyama...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不知道你在仪式核心阵法之中的行动，还顺利么……）",
+			say = "(That must mean that Musashi's done her part.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "大约一刻钟后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "大前辈，结界封闭仪式即将完成，请迅速撤回。",
+			say = "Great Veteran, the sealing ritual is almost complete. Return at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "明白。",
+			say = "Got it! I'll go stop Akagi, I swear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……总算是结束了。敌人虽弱，这么一直涌上来还是让人吃不消啊……",
+			say = "Gah... Finally over, huh? They may be weak, but fighting such sheer numbers is no easy feat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌人又快涌上来了……大前辈，我们快撤退吧。",
+			say = "The next wave is coming. Great Veteran, let's beat a hasty retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "……你们身上都有伤，撤退不便。",
+			say = "You're all too injured to move at full speed. Go on ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "诸位先走，我来殿后。",
+			say = "I'll stay here and cover you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈，你在说什么啊！",
+			say = "M-Mikasa, do you hear yourself right now?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "执行命令，不然我们一个都走不了。",
+			say = "That's an order! Or do you want to see all of us sunk here and now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}看向受伤的友人，然后看向如潮水般涌来的敌人。",
+			say = "Mikasa cast a glance back at her injured friends, then returned her focus to the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "她露出了微笑，而后义无反顾地冲入了洪流之中。",
+			say = "Then, with a fearless grin, she plunged into the dark torrent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "炮弹裹挟着硝烟与死亡肆意飞舞着。",
+			say = "Cannon fire and explosions flew through the battlefield, blowing away the black mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "身体受到的创伤，如今已经难以计数了。",
+			say = "Mikasa couldn't even count the wounds on her body and rigging by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}只是在意志与本能的驱使下继续战斗着，在黑色的洪流中掀起一阵又一阵波澜。",
+			say = "She continued to fight, driven only by her willpower and instincts, disrupting the enemy army as best she could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（如此绝望又实力悬殊的战斗……）",
+			say = "(A desperate battle. The disparity between our forces and theirs is simply mad.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（上一次……还是在首战面对塞壬的时候吧。）",
+			say = "(The last time I felt like this... was my first time fighting Sirens.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（今日之果，昨日之因……我怎能说从未预料到如此局面呢？）",
+			say = "(Guess the shoe's on the other foot now, after all the times I managed to get one over on them...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（能采取铁腕手段予以阻止的机会，也并非一次两次……）",
+			say = "(I had so many opportunities to stop Akagi by force, and plenty of chances to persuade Musashi...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……为什么，我却放任事情走到了今天这一步呢。）",
+			say = "(But I didn't take action. Because I wanted to see things done my way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（永远都在消极调和……永远都在事后弥补……）",
+			say = "(To be the veteran who supported the Sakura Empire's next generation of leaders from afar.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（呵呵……可能，我也只是想再见你一面吧。）",
+			say = "(My biggest regret of all was losing you, Amagi.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（再听听你的排兵布阵，再和你下一局棋……）",
+			say = "(I want to see you again, hear your strategize, and play games against you...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（所以在内心深处……我也是支持{namecode:91:赤城}的计划的么……）",
+			say = "(I understand now. That's why I didn't stop Akagi...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（……呵呵。所以，这就是我该承担的责任。）",
+			say = "(Hahaha... I guess this was the natural end of things, after all.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（八云山已经彻底封闭，重樱本岛内的作战力量得到了最大限度的保全。）",
+			say = "(Yakumoyama's barrier is sealed now. The Sakura Empire's combat forces have been preserved as much as anyone could hope for.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（{namecode:74:长门}……就当是我作为大前辈的任性好了。）",
+			say = "(Nagato... Sorry for being such a selfish role model.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "（接下来的事，就拜托你了——）",
+			say = "(The rest... is all up to you.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "在视野彻底坠入黑暗之前，金色的蝴蝶群迎风起舞，迸发出如同旭日般的光芒——",
+			say = "Before her vision could be overwhelmed by darkness, Mikasa saw a group of butterflies that shone like the morning sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

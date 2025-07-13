@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>三 雪地大混战！</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 3 The Great Snowball Brawl</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·干船坞",
+			say = "Port - Docks",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -40,13 +40,6 @@ return {
 					0
 				}
 			},
-			effects = {
-				{
-					delay = 2,
-					name = "bg_story_outdoor_snow",
-					active = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +55,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼嗯？那边那群人是……白鹰和皇家？似乎也在打雪仗的样子？",
+			say = "Hm? I think those people are... from the Eagle Union and the Royal Navy? And I think they're having a snowball fight too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +71,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈！吃我一发雪球齐射！",
+			say = "Raaaaagh! Taste the full force of our snowball volley!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +97,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是皇家最信赖的盟友，那么，这招如何！",
+			say = "I should expect no less of the Royal Navy's most sworn and trusted friend. Then how do you like THIS?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -134,7 +127,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雪球、哔哩哔哩",
+			say = "Snowball... sparky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +143,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊呜呜呜…被、被打中了——",
+			say = "Awwhhh... I-I've been hit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +169,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头！快躲开！",
+			say = "Sis! Look out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +185,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜，掩护克利夫兰，必要的话就用SG吧！",
+			say = "Helena, give Cleveland backup! Use the SG radar if you have to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +201,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "诶、诶…？只是打个雪仗而已，连SG都……",
+			say = "Use the SG...? But it's just a snowball fight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +227,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…好象是有点过头了呢",
+			say = "Ahahaha... I think I've gone a little bit overboard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +243,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "克利夫兰…这么用力扔雪球，当心肩膀拉伤哦",
+			say = "Cleveland... Don't you know you'll strain your shoulder if you throw it too hard...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -270,7 +263,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，没事没事，这点小活动连热身都不算啦！",
+			say = "Heh, relax, I'm fine! I'm just starting to get warmed up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +279,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？那是…重樱的各位？",
+			say = "Oh...? Aren't those... Sakura Empire girls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +295,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇，各……各位下午好……",
+			say = "Fueehhh... N-nice to see you, folks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +311,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦？竟然在这里遇到皇家和白鹰啊，呵呵…看来可以享受一场愉快的战斗了",
+			say = "Well look at that... Who'd have thought all these people would be here... Fufufu, looks like this will be an enjoyable battle.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -338,7 +331,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）呵呵呵呵，把所有人都排除掉，这样指挥官就只能在我身边了……",
+			say = "(Whispering) Ufufu... I just need to eliminate all the people here, then I can be with the commander forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +347,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}小姐今天还是一如既往呢…",
+			say = "Looks like Akagi is up to her same old schemes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +363,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "找上门的挑战，哪有不接受的道理！哼哼，我们可是没那么好对付的哦",
+			say = "I see no reason to decline your challenge! But you should know that beating us will not be a simple task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +379,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，越来越有意思了呢～克利夫兰级，跟着我上吧！",
+			say = "Hahah, now things are getting interesting! Knights of the Sea, let's do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +395,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！我们也上吧！{namecode:143}、{namecode:127}、{namecode:128}！",
+			say = "Hmph! We will fight too! Come on, Isokaze, Tanikaze, Hamakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,8 +411,8 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			actorName = "众驱逐",
-			say = "噢！",
+			actorName = "Destroyers",
+			say = "Let's do this!",
 			subActors = {
 				{
 					actor = 301610,
@@ -447,7 +440,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "雪球激战持续了很久。",
+			say = "The snowball fight continued.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -480,7 +473,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……全身都是雪……不知不觉间差点变成雪人了……",
+			say = "Fueehhh... I'm starting to feel like a snowman...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +499,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，时间已经不早了呢，重樱的诸位，该准备回去了哦，还有贺年卡要发呢～",
+			say = "Oh dear, it's gotten so late. I say we head home. We still have to write our New Year's cards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +515,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "对哦对哦！要赶快回去吃荞麦面和年糕咯！",
+			say = "Right! Let's get home and eat some soba and mochi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +531,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天没能分出胜负，或许是我因为思考给指挥官的礼物而分心了吧……",
+			say = "It seems our battle will not end today... Perhaps I was too busy thinking about my present for the commander to properly concentrate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +547,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就先告辞了，真是场酣畅淋漓的打雪仗，希望还能和你们交手！",
+			say = "That was quite the engaging snowball fight. I swear we shall fight once more another day! Now I will take my leave as I still have New Year's preparations to make!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +564,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "重樱的新年吗……",
+			say = "Preparations for New Year's, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

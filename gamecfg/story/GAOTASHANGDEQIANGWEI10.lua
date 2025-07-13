@@ -10,11 +10,11 @@ return {
 			bgm = "story-royalnavy-serious",
 			sequence = {
 				{
-					"第二战区防空区",
+					"2nd combat sector - Anti-air defense zone",
 					1
 				},
 				{
-					"女王之光号·四号车厢",
+					"Queen's Light - 4th car",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
-			say = "为了最快速抵达目的地，伊丽莎白·META选择用女王之光号列车直接开过去。",
+			say = "Queen Elizabeth META and company took the Queen's Light in order to reach their destination as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
-			say = "狮虽然也让太阳船升空跟随，不过却只留下了克利奥佩特拉看船，自己则带着其他人一同登上了列车。",
+			say = "Lion's group, save for Cleopatra who stayed behind to stand guard on the Mesektet in the sky, also boarded the train.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
-			say = "光荣·META作为导航员同行，被伊丽莎白·META请入了车头。其余人员，则被安排在了四号车厢中休息。",
+			say = "Glorious META was brought into the control cabin to lead the way, while all remaining members went into the fourth car to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,12 +71,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~真舒服啊……终于在这片土地上有了点回家的感觉。",
+			say = "Whew. What a pleasant train. It feels like being back home again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,8 +89,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "特拉法尔加",
-			say = "将移动式空间拓展技术用在了车厢居住区里，还真是奢侈……",
+			actorName = "Trafalgar",
+			say = "Using mobile space-expansion technology for a train lounge... How exorbitantly luxurious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊。我们只有太阳船的几个重要设备集成区使用了这种技术呢。",
+			say = "It really is. Even on the Mesektet, we only use it in the area where all the critical equipment is concentrated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~这辆列车的神奇程度可不止如此呢，镜面车厢技术只是里面最基础的部分哦。",
+			say = "Hah! You haven't seen anything yet. That technology is but a small part of what makes up these Mirror Rails.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,12 +124,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实了不起~其实，伊丽莎白女士，我们从见到你之后就有些问题想问了。",
+			say = "That's incredible. Incidentally, there's something I've been meaning to ask you ever since we met.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,12 +137,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许会有些失礼，但我实在是不吐不快。",
+			say = "It may be rude, but I simply need to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,12 +150,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "行，问吧。问完之后本王也有问题要问你们呢。",
+			say = "Go ahead. I've got questions of my own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,12 +163,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然没问题~那么第一个问题——你真的是伊丽莎白女王，没错吧？",
+			say = "By all means. First question: Are you really Queen Elizabeth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,12 +176,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……？你这算什么问题？本王就算被干掉了，难道连照片都没留下来么？",
+			say = "What kind of question is that? Your version of me may be gone, but surely you still have pictures of her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +194,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "特立尼达",
-			say = "您的名字，我只在历史书上看到过……",
+			actorName = "Trinidad",
+			say = "The only times you appear in the history books are as a name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +208,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "嗯……还是没有配图的那种。",
+			actorName = "Gallant",
+			say = "Yup. I haven't seen an illustration or anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +217,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……本王见过的实验场也不少了，你们这种还是第一次见，怎么回事？",
+			say = "I've been to many test sites, and this is the first I've heard of something like this. What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们所在的世界应该有「舰船化」的概念吧？",
+			say = "Does your world draw a difference between the concepts of \"warship\" and \"human\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看看这辆车……基础问题就不要问了。",
+			say = "Look around you. Could you not ask such basic questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你，或者说我们世界的伊丽莎白女王号，在有机会得到舰船化之前，就被塞壬击沉了。",
+			say = "Well, you see... In our world, Queen Elizabeth sank in the fight against the Sirens not as a human, but as a warship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,12 +269,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是可恶的塞壬……",
+			say = "Those Sirens are truly despicable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,12 +282,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谁说不是呢。",
+			say = "Indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,12 +295,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说来，你们的世界也是塞壬作为敌人与你们打来打去的那种？",
+			say = "So then, the Sirens were enemies in your world, and you fought them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,12 +308,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，你那边也是？",
+			say = "Was that the case in yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,12 +321,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "差不多吧。",
+			say = "More or less.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,12 +334,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过光荣·META这边似乎不是这样的，她们居然与塞壬结盟了啊……怎么会有这种事？",
+			say = "And yet, Glorious said that the Sirens were their allies in this world. How is that possible?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,12 +347,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种实验场也是有的……怎么说呢，这就涉及到塞壬的本质究竟是什么了，一时半会讲不清的，先跳过吧。",
+			say = "It depends on the test site. To elaborate would require a long-winded explanation of what the Sirens truly are, so I won't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那就先跳过吧，反正我们也已经打赢了。",
+			say = "That's fine. We already defeated them anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,12 +373,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢——打赢了么。",
+			say = "You defeated them. Interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,12 +386,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那之后的局势呢，你们的世界变得如何了？",
+			say = "So? What became of your world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,12 +399,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王既然没有舰船化，皇家掌权的应该是乔治五世吧。",
+			say = "If I'm not there to lead you, I presume King George V took my place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,12 +412,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也……不是，英王乔治五世号也没有得到舰船化的机会就被塞壬摧毁了。",
+			say = "No... King George V, the warship, was also sunk by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,12 +425,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………会玩。咳、不是，本王是说那可真糟糕。",
+			say = "Those bastards. Excuse me, I should say, my condolences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,12 +438,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那现在皇家的局势如何？既然我和乔治五世都不在，王室派必然拿不回权力，现在应该是议会最大了吧。",
+			say = "Then what happened? With neither me nor George around, I presume our Parliament is in charge, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,12 +451,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，现在帝国是以帝国首相和上下两院为核心运转的，不过……二者的权力或许也没有你想象中那么大。",
+			say = "Correct. Our Realm is run by the two houses of Parliament. That being said, the two aren't as powerful as you think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,12 +464,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，你先别说，让本王猜猜。",
+			say = "Alright. Let me make a guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,12 +477,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你在自我介绍的时候提到自己是尼罗河总督，难道你们那边成了总督割据的状态？",
+			say = "You introduced yourself as \"the governor of the Nile.\" Do you rule in a separatist manner?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,12 +490,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“割据”这个形容并不准确，伊丽莎白女士，我更愿称之为总督权力得到了充分的尊重~",
+			say = "Hahahah. \"Separatist.\" How libelous. I would simply say that my authority is amply respected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,12 +503,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "行吧——尊重——那第二个问题呢？",
+			say = "Oh, I'm sure. Respected. What's your next question?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,12 +516,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "第二个问题……",
+			say = "Hmm. That would be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,12 +529,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，再等等，本王还是有些好奇。",
+			say = "Ah, actually, wait. I'm curious about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,12 +542,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战、英勇她们在么？胡德、光辉、前卫……还有约克公爵，威尔士亲王都在做什么？",
+			say = "What became of Warspite and Valiant? What about Hood, Illustrious, and Vanguard? Or Duke of York and Prince of Wales?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,12 +555,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有，现在女仆队的女仆长和骑士团的团长都是谁？",
+			say = "Also, who's the current head of the Royal Maids? Who commands the Royal Knights?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,12 +568,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看来您是真的感兴趣了~",
+			say = "That's a lot that you're curious about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,12 +581,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对本王来说，这更像是在看一个本王死后的世界嘛，理解一下。",
+			say = "From my perspective, this is like looking at the world after I died. You must understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,12 +594,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "威尔士亲王目前是帝国首相，胡德女士为上议院大臣，前卫女士是近卫骑士统领。",
+			say = "Wales is the Realm Prime Minister, Hood is the Minister of the House of Lords, and Vanguard is the commander of the Palace Guards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,12 +607,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前卫，没想到你还是原职啊。",
+			say = "I'm surprised Vanguard's position stayed the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,8 +625,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "前卫",
-			say = "听到平行世界自己的消息……这种感觉真奇妙。",
+			actorName = "Vanguard",
+			say = "Hearing about myself from a parallel world is a rather... strange experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,12 +634,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~这也是我们走出来之后才能得到的独特体验嘛。",
+			say = "Hahah. The kind of experience you can only get by leaving your home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,12 +647,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克公爵担任红枫总督、厌战女士担任亚特兰蒂洋海域总督、光辉女士则担任陆间海海域总督，也是旁边这位特拉法尔加的顶头上司。",
+			say = "Duke of York is the Governor-General of the Maple Monarchy, Warspite is the Governor-General of the Pacific Ocean, and Illustrious is the Governor-General of the Mediterranean Sea – as well as the direct supervisor of Trafalgar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,12 +660,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海域总督……本王倒是有过这种构想，没想到被你们实现了。",
+			say = "Governor-generals, eh... I have considered that before. Seems you were the ones to implement it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,12 +673,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特拉法尔加女士是光辉的人？你的这次行动她也参与了么？",
+			say = "So Trafalgar works under Illustrious, does she? Is she on this mission with you, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,12 +686,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实际上，这次新世界远征行动是得到了帝国首相以及上下两院的一致支持的。",
+			say = "No. However, this mission was supported by both the Imperial Prime Minister and both houses of Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,12 +699,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "决定由我——那天恰好没去开会的人承担这次探索的主要工作，帝国中枢以及其他总督按照一定比例为我提供支援。",
+			say = "On the day this expedition was voted on, I happened to be absent, and it was decided that I would be the one to lead it. It was also decided that the Imperial Centre and signing governors would provide me with a certain amount of support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,12 +712,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听上去你是被算计了？",
+			say = "It sounds to me like they conspired against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,12 +725,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算我那天在，我也会主动接下来的，毕竟这可是能够名垂青史的伟大远征啊~",
+			say = "Hah. Had I been present, I personally would've volunteered for the task. I will go down in history for this grand expedition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,12 +738,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒也是，如果此行成功的话，对你的声望收益是巨大的。",
+			say = "I see. You'll earn quite a lot of fame if it's successful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,12 +751,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~那是自然~然后，帝国现在骑士团团长和皇家女仆长分别由纽卡斯尔和皇家橡树女士担任。",
+			say = "Heh. Precisely. By the way, Newcastle is the head of the Royal Maids, while Royal Oak is the commander of the Royal Knights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,12 +764,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于英勇女士，她就有些厉害了，不但身兼澳洲总督和所罗门群岛总督，听说最近还在谋求第三个总督职位。",
+			say = "Finally, there's Valiant. She is the Governor-General of Terra Australis and the Solomon Islands. I've heard she's pursuing a third governor-generalship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,12 +777,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………嗯，是……很像是她能做出来的事。",
+			say = "Goodness gracious... That's so like her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,12 +790,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝法呢？",
+			say = "What about Bel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,12 +803,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝尔法斯特号的话，也在舰船化之前就被塞壬摧毁了。",
+			say = "Sank by the Sirens as a warship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,12 +816,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以贝法小姐，我们其实也是第一次见到你。",
+			say = "Thus, this is my first time seeing you, Belfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,12 +829,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在听到纽卡斯尔是女仆长的时候我就多少猜到了。",
+			say = "I had an inkling of that when you said that Newcastle holds my would-be position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,12 +842,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "贝尔法斯特",
+			actorName = "Belfast",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下不在，自然我也不能在……嗯，作为剧本设计来说很合理。",
+			say = "Since Her Majesty is no longer with you, it makes sense that I am neither – for the sake of the Sirens' script.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,12 +855,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我可以问第二个问题了么？",
+			say = "May I ask a question now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,12 +868,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "问吧。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,12 +881,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么第二个问题——那位META化的伊丽莎白女士，是和你一同诞生的么？",
+			say = "Alright – were you both together with Elizabeth META?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,12 +894,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们的世界中同时诞生了两个伊丽莎白么？",
+			say = "Are there two Elizabeths in your world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,12 +907,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒不是，那个伊丽莎白来自于其他实验场。",
+			say = "No. She comes from another test site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,12 +920,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王大概能猜到你问这个问题是想做什么，很可惜，不行。",
+			say = "I can probably guess why you asked that question. Sadly, the answer is: It's not possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,12 +933,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那真是可惜了。那META化舰队呢？",
+			say = "How unfortunate. What about the other METAs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,12 +946,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们可是带领了一整支META化舰队啊。",
+			say = "You have enough of them for an entire fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,12 +959,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们各自有各自的故事，大约和这位光荣女士差不多，你要是有兴趣的话可以分别和她们谈，说不定有人会有兴趣告诉你呢。",
+			say = "They each have their own story, likely similar to that of Glorious. If you want to know more, you'll have to ask them yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,12 +972,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……我会找机会问问的~",
+			say = "I see. If the opportunity arises, I will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,8 +989,8 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
-			say = "哔哔哔——嘟嘟嘟————",
+			actorName = "Train Announcement",
+			say = "Ding, ding, ding! Baaang! Boom, boom, boom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,8 +1002,8 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
-			say = "注意注意！车要到站啦！该准备下车啦！",
+			actorName = "Train Announcement",
+			say = "Attention! We're almost there! Get ready to disembark!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,8 +1015,8 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
-			say = "嘟嘟嘟——哔哔哔————",
+			actorName = "Train Announcement",
+			say = "Boom, boom, boom! Ding, ding, ding! Baaang! Boom, boom, boom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,12 +1024,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……你们这个车内广播，有些独特啊。",
+			say = "What an... eccentric announcer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,12 +1037,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……她还是把D小姐语音包换上去了！",
+			say = "Did she change it to Miss D's bloody voice pack?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1050,12 +1050,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了……没事……你们就当成某种特色语音包无视吧……",
+			say = "Ugh... Forget it. Just think of it as some weird sound clips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,12 +1063,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走吧，准备下车了……",
+			say = "Come on. Let's get off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

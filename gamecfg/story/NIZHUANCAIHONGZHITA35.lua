@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "罗马·大教堂",
+			say = "Somewhere in the Sardegna Empire",
 			side = 2,
 			bgName = "bg_midgard_9",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……以上，就是由铁血的{namecode:440}亲自发来的事件报告。",
+			say = "That's all the information from Friedrich's report on the Singularity expedition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后居然叫了米德加尔特之塔……这算什么名字啊，要选典故的话不是有很多么？",
+			say = "The Tower of Midgard, huh? What a droll naming sense... Plus, there was nothing about that thing that even resembled a tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "都是塔的话，我觉得干脆就叫巴别塔不是挺好的么，反正只是一次凡夫俗子妄图窥伺神之权柄的尝试罢了……无聊。",
+			say = "And what's the deal with Midgard? If they wanted to emphasize that whole deal with transcending God, they should've gone with the Tower of Babel or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "（无聊……名字……）",
+			say = "*sigh*... Stop being a smartass...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那请问我应该怎么回复{namecode:440}比较好？",
+			say = "In any case, what are you going to tell the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "就说我已经读过了就行。啊，顺便说点恭喜的话之类的，你看着弄吧。",
+			say = "Just tell them, we've read the materials. And congratulations on a successful operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是……",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "加富尔伯爵，你了解「极光之壁」么？",
+			say = "By the way, Cavour. Have you heard of the Vichya's Skybound Wall?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "极光之壁……是之前维希教廷在莫桑比克使用的那个实验性武器么？",
+			say = "Haha, you're talking about the weapon they used against Richelieu in Mozambique?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "正是！如果能完成的话，那才是一件堪称完美的圣器啊~",
+			say = "Yeah, that! Don't you think that would be a treasure that would truly show off Sardegna's true splendor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "倒不如说那才是真正适合用来打造永恒之城，代行神之威严的装置。",
+			say = "The Eternal City christened with glory... a manifestation of divine majesty that displays the dignity of God...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "……维希的圣堂在上次袭击中损害严重，况且现在该地正处于自由鸢尾的控制之下，要想将其拿过来恐怕要费一番波折。",
+			say = "That basilica is currently in the hands of Richelieu. It'll be hard to negotiate with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "既然是兵器，总有图纸吧，问铁血也好维希教廷也好要过来，我们自己再做一个新的不就行了？",
+			say = "That's right... Then, how about asking the Vichya or the Iron Blood for blueprints of the weapon? If they can make it, Sardegna should be able to too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果有那件装置的话，一定能成为我真正登上永恒之城圣座的钥匙吧。",
+			say = "And once that's done~ Hehe, hahahahaha~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会将其纳入计划的……",
+			say = "Understood. I'll keep it in the back of my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "很好~",
+			say = "Good~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "然后是袭击事件的善后处理进度。",
+			say = "*Sigh* ...When Veneto and the others were trapped in the labyrinth, the Sirens attacked the capital...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "袭击的余波仍未平复，数位元老下落不明，恐怕已经……",
+			say = "And now we're missing a lot of our higher-ups. But I guess it's thanks to that we can make our moves relatively freely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们支持的海军派正在努力争取权力空白，想来很快就能在元老院中占据主导权了。",
+			say = "I don't know, it just feels a bit weird... Doesn't it bother you, Marco Polo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "这些凡事你们看着处理就好，我没兴趣。",
+			say = "Not at all? It's just coincidence anyway, and Zara was able to drive the Sirens away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我让你调查的另一件事呢？",
+			say = "Oh, by the way, this is something about Iris Libre and Vichya, but.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "那件事的话……「圣座冠冕」依然下落不明。",
+			say = "Are you talking about the Crown, one of Iris Libre's divine treasures?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "哦？",
+			say = "Yep, exactly! Did you find out where it was?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有可靠消息源指出，在当时教廷司令部下达解散命令到完成重组的几天之内，似乎发生了诸多变故。",
+			say = "I'm not a skilled intelligence officer, but... I've heard a rumor two about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "「圣座冠冕」在变故中遗失，至今下落不明。",
+			say = "For example, that it went missing during a botched Reenactment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "“下落不明”，「圣座冠冕」如此重要的圣物，可不能这样模棱两可啊。",
+			say = "They lost it? The Iris Libre? That Richelieu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "如今圣座之位空置，你觉得我坐上去怎么样？",
+			say = "I guess that means they are less worthy than us to be its safekeepers... Hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……马可波罗大人。",
+			say = "You're overstepping your bounds, Marco.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "维内托大人指示，重建罗穆路斯的秩序依然是首要任务。",
+			say = "Veneto's directive was to increase the prestige of the Sardegna Empire, not to loot and plunder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "我只是提出一点建议罢了~",
+			say = "Just saying. Plus, it's not like that'd actually decrease Sardegna's prestige.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 699010,
-			say = "不过，再不快点准备的话……说不定会让那个枢机主教黎塞留抢先哦？",
+			say = "Look, it's not like I care that much if Richelieu holds on to it. I just think, it'd be put to better use in our hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之，最近诸事繁杂，都有劳你们了。",
+			say = "Anyways, I'll let you get back to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605050,
-			say = "一切为了撒丁帝国的复兴。",
+			say = "Everything in moderation, Marco Polo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么近期事件全部报告完毕，请容许我返回工作。",
+			say = "I guess someone has to do the chores. See you around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "放任塞壬穿过自己的控制区，直到轰炸开始后才进行了零星拦截……",
+			say = "The attack on the capital... It was significant, but it happened when Veneto wasn't around.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -675,7 +675,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皇家到底还是皇家……拉拢只是口头上的么。",
+			say = "And it wasn't the Royal Navy who came to our rescue, it was the Iron Blood... Either the Senate decided to put on quite the self-serving theatrical performance, or...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "还是说马耳他有什么让她们动弹不得的理由……",
+			say = "For some reason, the Royal Navy wasn't able to come to our rescue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "算了，我对世俗的争斗本就毫无兴趣，倒是维内托她们一门心思想要复兴这个世俗的政权……",
+			say = "Veneto has her own way of doing things, but I, Marco Polo, have far grander ambitions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "狭隘啊……不过还是要感谢她们从四处收集回来的「圣物」就是了。",
+			say = "First, the Basilica's sacraments... and the then the sources of \"power\" that every faction is so keenly interested in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "如今永恒之城的权力正在洗牌，这可是个好机会。",
+			say = "What better way is there to spread the glory of Sardegna while the Senate is paralyzed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			actor = 699010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "差不多也该到出手的时候了吧。",
+			say = "The Eternal City christened with glory... a manifestation of divine majesty that displays the dignity of God...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "————神啊，您觉得呢？",
+			say = "Yes, it is time... to gain \"God's\" allegiance. Hehehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

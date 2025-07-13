@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"不可思议的“大危机”\n\n<size=45>四　有“鬼”出没！</size>",
+					"Mysteries and Danger!\n\n<size=45>4 Ghost Spotted!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "借助着手电筒的光芒，和抚顺在废弃建筑群中游走着。",
+			say = "With only the flashlight to guide us, Fu Shun and I walk through the factory.",
 			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂——有人吗——？",
+			say = "Heeey! Anyone theeere?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇——这里真大啊，随便喊一声都会产生回音呢——",
+			say = "Whoa, this place is big. Did you hear that echo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？就算有神秘生物存在，也会被我的喊声吓跑不敢出来？",
+			say = "You think if someone was here, they'd be too scared of all my yelling to come out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "神秘生物才不会那么胆小吧？",
+			say = "Mmm, would they be that cowardly...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且……指挥官不觉得这样堂堂正正告诉对方我们来了，才比较有趣吗？",
+			say = "Besides, don't you think it's more fun if we openly announce our presence?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉~不过走了这么久，也没看到什么黑影……这里除了空地就还是空地……",
+			say = "*sigh*... All this walking, though, and not a single ghost or monster... There aren't any hallways or rooms, either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……要不我们找找废弃的办公区吧？也许能找到类似“被遗忘的保险箱”的好东西哦！",
+			say = "Hmm... Should we search the office? Maybe we'll find something saucy, like an abandoned safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别冲那么快，注意脚下安全！",
+			say = "Don't rush so much. Watch your step!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "话音刚落，抚顺就踉跄了几步。",
+			say = "I can hardly get the words out before Fu Shun staggers and loses her balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇！我刚刚感觉到了一股神秘的力量……是它让我差点摔倒！",
+			say = "Whoa?! I-I just felt a mysterious force! ...And it almost made me fall flat on my face!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不可思议的事件出现了！",
+			say = "Something mysterious is going on here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是神秘生物对我的阻拦和警告吗？",
+			say = "C-could it be... it's trying to stop me from learning too much? Is it WARNING me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莫非我们闯入了某种危险的领域之中？！",
+			say = "Have we already stepped into the danger zone?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,11 +236,11 @@ return {
 			},
 			options = {
 				{
-					content = "……是你的鞋带松了",
+					content = "I think your shoelaces are just loose.",
 					flag = 1
 				},
 				{
-					content = "……是你被电线绊住了",
+					content = "Maybe you tripped over a cord.",
 					flag = 2
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，指挥官，有些时候你就配合一下氛围嘛……",
+			say = "Come ON, Commander. You should learn when to play along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，我们向下一个区域进发吧！",
+			say = "Anyway, let's get to the next area!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（抚顺完全乐在其中啊……或许我也应该再入戏一些？）",
+			say = "(Fu Shun sure is enjoying herself... Maybe I should try to have fun, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "和抚顺一路前行，来到了被废弃的办公区。",
+			say = "Fu Shun and I go to the area where the office is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸~比想象中的普通啊……我还以为至少会是木质楼梯呢……",
+			say = "Aww, it's more plain than I expected... I thought maybe there'd at least be wooden stairs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,53 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "常年荒废，早已变得脆弱的木楼梯，一脚踩下去突然断掉什么的——这样才有探险的氛围嘛！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_517",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这里毕竟是工厂的办公区，所以在建材挑选之初，就会以结实耐用为主。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "star_level_bg_517",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "说的也是呢……虽然有点小失望，但至少这里还有探索的价值！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "star_level_bg_517",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "看，大厅里挂着安全生产条例！旁边这幅是……啊！是厂区平面图啊，看起来我们目前在一楼。",
+			say = "Not maintained for years, so worn out that they crack and break when you step on them... That would at least add to the mood!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +359,7 @@ return {
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我看看。嗯……三楼是工厂资料室，你有兴趣去探险么？",
+			say = "Well, no. Abandoned or not, this is still a port facility, so it's not going to be that delicate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然有兴趣了！那可是资料室，存放着无数秘密的宝库啊！",
+			say = "Fair... That's a shame. But there should still be value in investigating it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看平面图，通往工厂资料室的楼梯就在走廊的尽头！出发出发~！",
+			say = "Ooh, look at those safety regulations on the wall! And next to it... Oh! The factory floor plan! It looks like we're on the first floor, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,29 +405,7 @@ return {
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "慢一点——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_517",
-			hidePaintObj = true,
-			say = "兴奋的抚顺完全将劝阻抛在脑后，拿着手电冲向前方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_517",
-			hidePaintObj = true,
-			say = "嘶啦——伴随着衣料破裂的声音，抚顺慌张地叫喊声也响了起来。",
+			say = "Let's see... There's a reference room on the third floor. Want to go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +418,75 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇！指，指挥官！我好像，突然动不了了……！",
+			say = "Of course! A reference room must be a whole treasure trove of secrets.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_517",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "It looks like the stairs are at the end of the hallway! Let's go!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_517",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Careful, now...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_517",
+			hidePaintObj = true,
+			say = "The overeager Fu Shun ignores my warning and charges forward, armed with only a flashlight.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_517",
+			hidePaintObj = true,
+			say = "*rip!* I hear the sound of clothes tearing, followed by Fu Shun's screams.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_517",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Whoa?! C-Commander, I can't move!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "抚顺一边说一边挣扎，有什么咔哒咔哒的声音随着她的动作响了起来。",
+			say = "When Fu Shun struggles to escape what's holding her back, there's a clicking sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……密道么？",
+			say = "Wait... A hidden passage...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "墙壁在眼前缓缓移动，形成了一条通往未知的道路。",
+			say = "The wall in front of me slowly moves aside, revealing an unknown corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“隐藏在某处的密道”——这种设计原来真的存在啊！！",
+			say = "A hidden passage! It was real!",
 			painting = {
 				alpha = 0.3,
 				time = 1

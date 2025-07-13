@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "汝现在修建的就是所谓的“起始之地”？",
+			say = "I take it you're working on what you call the \"Land of Beginnings,\" yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,8 +60,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "不错~一个用机器填造的小岛，一片调用资料库数据生成的遗迹，再加上一点点净化亲的原创设计~",
+			actorName = "Purity",
+			say = "Yup! This island's gonna be packed with machines, ruins based on some stuff in the database, and a little bit of my original flavor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,8 +77,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "怎么样怎么样，我在石碑上写的指引诗还不错吧！",
+			actorName = "Purity",
+			say = "Whaddya think about the hints on the monument, by the way? Pretty good, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "说实话，以铭刻在石碑上的标准来说，写得真差……",
+			say = "...These are meant to be hints? They read as no more than a lunatic's ravings to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,8 +123,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "……我尽力了！！！",
+			actorName = "Purity",
+			say = "Ravings? I worked real hard on that exercise in wordsmithery!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,8 +157,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "真是个嘴下不留情的人……接下来的区域你有什么建议么？",
+			actorName = "Purity",
+			say = "A real tough customer, aren't you... Well, in any case, what are we gonna do with this next area?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "无。",
+			say = "Hmm... Up to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,8 +199,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "喂，别这么提不起兴致嘛~你看，要不然做成你家乡的样子怎么样？",
+			actorName = "Purity",
+			say = "C'mon, don't be like that. I could make it look like the place you're from. Whaddya say to that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,8 +216,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "我从资料库中看到了哦，你所居住的世界因为污染而变成了奇怪的样子吧。",
+			actorName = "Purity",
+			say = "I read the database. I saw what happened to your home – how it was ruined and desecrated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,8 +234,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "但是在现在这片海域里，我可以创造一片原本的绿色森林给你，让你可以欣赏一下过去的风景，怎么样~？",
+			actorName = "Purity",
+			say = "I could restore it back to its lush, green state for you. How's about a trip down memory lane, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "……多谢汝之好意，不过，这里生成的也只是幻象吧。",
+			say = "I do appreciate the sentiment, but all things created in this place are fakes, are they not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,8 +270,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "不是幻象，是拟真度很高的实体！",
+			actorName = "Purity",
+			say = "They're not fakes! They're highly faithful replicas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "对妾身来说，只是另一种逼真的梦罢了。妾身本就在朦胧之中被你拉过来的，没必要在这里继续做梦。",
+			say = "Regardless, it would be no more than a fleeting illusion to me. I was cast into this realm amid a slumber, and I have no desire to enter a dream within a dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,8 +316,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "真的不要看看么？对我来说很简单哦！",
+			actorName = "Purity",
+			say = "You sure you don't wanna see it? It'd be a piece of cake for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "……不用了。如果汝一定要创造森林的话，就按照它们现在的模样创造吧。要想营造氛围的话，这样更好。",
+			say = "I do not care. If you absolutely must create a forest, then keep what you have now. This has more atmosphere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,8 +351,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "好~那就这么定了。接下来是敌人的设计……不管再怎么保证安全，遗迹探险总归还是要有敌人才行……",
+			actorName = "Purity",
+			say = "Sounds good to me! Now the question is, what kind of monsters do I plop down? You need at least a LITTLE challenge for it to be a real adventure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,8 +369,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "你觉得我用菲尔弗萨为要素进行设计怎么样？",
+			actorName = "Purity",
+			say = "Wait, I know... How 'bout I base them on the Philuscha?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "姑且提一句，菲尔弗萨怕水。",
+			say = "In case you didn't know, the Philuscha are repelled by water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,8 +404,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "唔……没关系，我要做的是将菲尔弗萨的要素与量产型进行结合后诞生的全新设计！",
+			actorName = "Purity",
+			say = "For crying out loud... Screw it! I'm going for something brand new – mass-produced ships INSPIRED by the Philuscha.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "变成船之后不再怕水的菲尔弗萨么…可真不想遇到这样的家伙啊。",
+			say = "Philuscha turning into vessels and overcoming their weakness of water... The thought of such an adversary terrifies me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "遗迹群岛·起始之地",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "舰装实验完毕，大量炸弹制作完毕！终于到开始正式探险的时间啦~！",
+			say = "Rigging test, check! Synthesized a whole bunch of ammo, check! Now, it's time for the real show!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么问题又回来了……接下来去哪个地方呢？",
+			say = "Let's get back to the matter at hand. Which island should we check out next?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "如果难以抉择的话，分头行动怎么样？",
+			say = "Well, why don't we just split up and check all of them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在我们身处情况不明的塞壬控制区，分散战斗力实在太冒险了。",
+			say = "Not just yet. There are too many unknowns, and it would be risky to scatter our forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，{namecode:175}说得对。探索陌生遗迹的时候，还是大家在一起一同行动更好。",
+			say = "Suruga is right. When you're investigating unknown ruins, the wisest course of action is to move as one.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "“失落之都”的位置还没能找到，“核心之所”看起来需要收集齐钥匙才能进得去……",
+			say = "However, we do not yet know where this \"Desolate Capital\" lies. I presume the \"Central Foundation\" should wait until we've collected the keys, as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说要从“异界之森”和“争斗之城”里面二选一了？",
+			say = "That leaves us with two options: the \"Underworld Grove\" and \"Castle of Strife.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "既然如此，要不然先去森林吧？感觉那里有种异界的气息，我们相对也更熟悉那里的环境。",
+			say = "How about we go for the grove first? If that's the Underworld we know, then it ought to be familiar.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸，莱莎你们以前就去过那种地方嘛？",
+			say = "Familiar? Whoa, are you saying you and your friends have been to the underworld?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那边相对我们来的地方来说也是异世界，不过这个就说来话长了。",
+			say = "Yep! It's a long story, but that was kind of like traveling to another dimension as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那就边走边说嘛~我对你们的故事很有兴趣！感觉可以写成一篇卓越的采访稿！",
+			say = "Let's walk and talk! I'm dying to hear all about your adventures!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "阿尔弗雷多真有记者的感觉呢~那就边走边说吧~",
+			say = "Sure, I'd love to share some stories!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到，居然是以这种方式再次跟莱莎一起冒险了呢~",
+			say = "Off we go on another adventure, Ryza. I'm just amazed that this is how it starts.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "是啊，还遇到了新的冒险伙伴。虽说这次异界之旅与探索秘密相比更像是一场自我救援啦……",
+			say = "Right?! We've got new friends along for the ride, too. But it's more like searching for a way home instead of exploring uncharted lands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼，没有秘密的遗迹是不存在的！旅途的结果虽然重要，过程也不容忽视~",
+			say = "Heheh, ruins are always teeming with secrets. Getting you back home is important, but don't forget the pleasure of adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "没错没错，就是这样~",
+			say = "Ooh, yeah! You're so right!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "向着西方的“异界之森”前进吧，未知的冒险正在前面等着我们呢！",
+			say = "Everyone, let's set sail for the western island's Underworld Grove! It's the start of an all-new adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1

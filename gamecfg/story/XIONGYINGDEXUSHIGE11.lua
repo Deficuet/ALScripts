@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「日月轮转，沧海桑田。」",
+			say = "(How much time has passed? These memories... do not belong to me...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我不清楚在此处呆了多久。」",
+			say = "\"Time passes, and seasons change.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「但我由衷享受流逝的每一分每一秒。」",
+			say = "\"A single moment wrapped in splendor is a moment worth treasuring.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「胜利接着胜利，凯旋接着凯旋。」",
+			say = "\"Victory follows victory, triumph follows triumph.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「我来，我见，我征服。」",
+			say = "\"I came, I saw, I conquered.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「号角已经吹响，军团已经集结。」",
+			say = "\"The horn sounds, the choir sings. My legion gathers.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「共和国的凯撒正在等待。」",
+			say = "\"A new King comes.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「是时候再次出征了——」",
+			say = "\"And a new conquest begins––\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

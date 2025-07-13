@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>四 樱花色的新年</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 4 The Sakura Empire's New Year</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "早就听说重樱的新年格外热闹，听你们刚才讲的食物和活动，似乎…真的挺有趣的？",
+			say = "I've long heard the Sakura Empire's new year celebrations are lively... but are they really that fun?",
 			bgm = "main-newyear",
 			flashout = {
 				black = true,
@@ -42,13 +42,6 @@ return {
 					0
 				}
 			},
-			effects = {
-				{
-					delay = 2,
-					name = "bg_story_outdoor_snow",
-					active = true
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才听到{namecode:16}说的“荞麦面”和“年糕”也很让人感兴趣啊！而且剧烈运动之后，肚子的确有些饿了呢……",
+			say = "I'm curious about that \"sobaean muchy\" thing Yuudachi mentioned! Man, I'm starving after throwing so many snowballs.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -84,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯？难道你们也想吃{namecode:98}的手打年糕嘛？跟你们讲，超级好吃的哦！",
+			say = "You wanna try Akashi's handmade mochi, huh? Let me tell you, it's like a bombshell from Flavortown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +93,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实去年拉菲回来后没少和我们讲各种令人在意的事情。",
+			say = "Now that you mention it, last year Laffey taught me a lot of interesting things about Japanese New Year's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +109,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯！比如神社啊，还有许愿什么的，是不是这样来着？",
+			say = "Right. Like about gods, shrine visits, that kind of stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +125,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "年糕糕，想吃~",
+			say = "Mochi. Want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +141,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边听到过的，主要是来自铁血那边的一些传闻……",
+			say = "I mainly heard about it through Iron Blood channels. I believe they said \"the more people, the better it is.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +157,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那个……就是，{namecode:428}小姐的醉相……之类的。哇哇哇，有点难以想象……",
+			say = "Umm... there's also the way Eugen drinks... Oh, I guess it's pretty hard to imagine how that looks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +183,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新年毕竟讲究的就是热闹呢，既然这么在意，一起来重樱宿舍体验下也无妨",
+			say = "From them, huh? I believe it's called \"the more, the merrier.\" If you're that curious about it you may as well come to the Sakura Empire dormitory and see for yourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +199,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "既然大家都有兴趣，热情好客也是我重樱之美德吧。{namecode:91}也没有意见吧？",
+			say = "Exactly. If you're so curious then we could invite everyone to try and show how generous the Sakura Empire is. Any objections, Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +215,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗之后再一起过节日，总感觉有些奇怪……",
+			say = "It sounds kinda weird to celebrate a holiday with some people you just fought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +231,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说嘛！虽然阵营不同，但大家都是共同维护港区和平的同僚们呀！你也要学会放松，哈哈！",
+			say = "Don't be like that. Sure we're from different factions, but we're all comrades just trying to keep this base peaceful! No need to be so headstrong, Montpelier! Hahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +247,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然……大姐头都这么说了……",
+			say = "W-well, if you say so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +263,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "衣服上的雪……开始融化了的样子，既然已经达成共识，那我们就快回去吧……",
+			say = "Since the snow on your clothes is starting to melt, perhaps we should head for the dormitory soon?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -290,7 +283,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，要是衣服湿透可能会感冒的，我们尽快行动吧。",
+			say = "You're right. We'll get sick if we wear wet clothes in this weather. Let's go right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +299,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "各位，全速前进咯！目标，{namecode:98}的煮年糕！",
+			say = "All right! All units: full steam ahead! Our target is Akashi's zouni!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +315,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵~年糕终于煮好咯！大家可以来吃了哦喵！",
+			say = "Whew~ My zouni is finally done nya! Who wants to be the first to...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -365,8 +358,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			say = "啊嘞？大家人都去哪里了喵？",
+			say = "Nya?! Where did everybody go?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

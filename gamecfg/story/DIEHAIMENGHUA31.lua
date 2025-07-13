@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区周边·演习海域",
+			say = "Outside Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟~{namecode:182}和…{namecode:161}？！你也要来参与这次演习么，太好了，这样对抗指挥官舰队的胜算就大增了！",
+			say = "Amagi? You brought quite the prestigious helper with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，这次我方舰队的指挥是{namecode:182}哦，我只是作为军师稍微前来助助阵而已。",
+			say = "Only Shinano will be leading today, and I'll just be helping from the sidelines. It would be unfair otherwise~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}加上{namecode:161}…听起来就是让人可靠的配置啊~",
+			say = "Aww, I feel like the two of you together would make an unstoppable combination!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过对面是指挥官亲自指挥的舰队，不能有丝毫大意。",
+			say = "Just remember, we can never underestimate the commander's fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:182}，舰队已经集结完毕，请下达命令吧。",
+			say = "Lady Shinano! The fleet awaits your command!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

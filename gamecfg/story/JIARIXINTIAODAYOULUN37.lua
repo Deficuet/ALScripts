@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在稍晚一些的时候，回到了办公区附近。",
+			say = "At a rather late time, I return to my office space.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？这个时间，大家应该还在享受烧烤会的余韵吧，怎么办公区里的灯还亮着……）",
+			say = "(Hm? Normally, everyone's having a barbecue at this time of night. Why's my office light on?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "推开门，果不其然在这里发现了孟菲斯的身影。",
+			say = "When I open the door, Memphis is there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "虽然是出来邮轮旅行，但孟菲斯依然恪守着秘书舰的职责，尽心地处理着这段时间以来的所有工作。",
+			say = "Despite the fact that we're on this cruise to have fun, Memphis takes her secretary work seriously. She's been putting her whole heart into her work lately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来的工作就交给我吧，孟菲斯。",
+			say = "Leave the rest to me, okay, Memphis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难得出来度假旅行，再加上明天起就要返航了……最后再好好享受一下吧。",
+			say = "Our vacation's almost over. We get back to port tomorrow... Let's enjoy what's left of it while we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "即使被指挥官要求了要去享受假期……",
+			say = "You're one to talk, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "但如果真的这样做了的话，之后就需要指挥官付出更多的时间和精力去完成它们吧？",
+			say = "But if I do that, you'll have to waste more of your own time and energy to finish the work, won't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这次的邮轮之旅，虽然是和大家一起出行，但我也有着一些私心……",
+			say = "Y'know, it might be a group vacation, but I have my own needs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我希望指挥官能好好享受这段闲暇的时光。",
+			say = "Specifically the need to see you properly enjoying YOUR vacation, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "看到这段时间以来指挥官能轻松地和大家一起玩闹，不用总是坐在办公桌前，我就很满足了。",
+			say = "I'm more than happy now that I've seen you get away from your desk and have fun with everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "窗外绚烂如焰的极光映在少女翡翠般的眼瞳之中。",
+			say = "The aurora shines beautifully outside the window, reflecting in Memphis's verdant eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以我没问题的，指挥官。",
+			say = "So I'm just fine, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，为了酬谢如此辛苦的孟菲斯……让我来一起把剩下的工作处理完吧。",
+			say = "In that case, can you at least let me help you with the rest? Call it a reward for all your hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然后再去露天公园，由我亲手给你烤些吃的当宵夜，怎么样？",
+			say = "Once it's all over, let's go to the garden on deck. I'll cook you a nice midnight meal. What do you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "真的吗！",
+			say = "You mean it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咳……我是说，那太好了。",
+			say = "Ahem... Well, that sounds lovely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "因为还有宵夜环节，综合考虑指挥官的作息健康……我们必须得抓紧时间处理工作呢。",
+			say = "But if we're to have a late night meal, considering your work-life balance and your health... we'd better get this work done quick.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，可不要拖我的后腿哦~？",
+			say = "Try not to hold me back, Commander♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女有些俏皮地冲我眨了眨眼，随后递来了一沓文件。",
+			say = "Memphis winks playfully at me and hands over a bundle of documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，一起加油吧。",
+			say = "Alright. Let's get 'er done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "通过通讯让贝尔法斯特留下了一部分食材和烧烤架后，和孟菲斯以比平时更快的速度完成了工作。",
+			say = "I use my communicator to ask Belfast to leave the grill and some ingredients behind. Then, Memphis and I complete our work at record pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "之后和孟菲斯在露天公园中享受了宵夜时光。",
+			say = "After that, we enjoy a midnight meal on the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "将孟菲斯送回房间后，我没有返回船舱休息。",
+			say = "I take Memphis back to her room, but I don't go back to my own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在明日正式返航之前，另一件事也该到了结之时了——",
+			say = "Because there's one last thing I need to do before our return to port tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

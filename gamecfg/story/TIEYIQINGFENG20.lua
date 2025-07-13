@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"东煌境内·某处",
+					"Somewhere in the Dragon Empery",
 					1
 				},
 				{
-					"「天星台」超级计算中心",
+					"Celestial Tower Supercomputer",
 					2
 				},
 				{
-					"「冰龙破风」行动开始前",
+					"Before Operation Wind-Crushing Ice Dragon's Start",
 					3
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——让我们团结一心，勇往直前。",
+			say = "Together as one! Advance with courage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——最后的胜利，必将属于我们！",
+			say = "The final victory will be ours!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg7",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "逸仙慷慨陈词的动员演讲结束了。",
+			say = "Yat Sen delivered one last rousing speech.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,21 +72,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg7",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "频道中此刻一片寂静，各部门都蓄势待发，等待着总攻命令的发起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502040,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "壹号风暴监测数值正常、贰号风暴监测数值正常、叁号风暴监测数值正常、肆号风暴监测数值正常。",
+			say = "All the communication lines were dead silent. Every fleet was mustering their courage and waiting for the shot to begin the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,259 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "最终检查结束，四个主要风暴的监测数据一切正常。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "好耶~！风暴强度没有再继续加强，这次我们势在必得了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "咳。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "欸嘿嘿~目前海陆空三军均已进入预定作战位置。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "其中，853艘「冻雨」型火力投射舰已经按照预定部署编入了前线舰队，目前也已全部准备就绪~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "补给舰队也已全部就位。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "预计我们的物资储备可以支持火力投射舰进行五轮饱和式打击，并保证接下来三日的连续作战支援。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "这次行动可真是把家底都拿出来了呢~哼哼，前线可以炸个开心了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "很好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "「冻雨」型火力投射舰搭载了大量「冻雨」集束增程火箭弹。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "在短时间内全部发射出去后，可以令大面积空间内的温度急速降低。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "热力学平衡被瓦解后，风暴也就难以为继了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "根据模型推演，只需要最多四轮饱和式打击，就能彻底瓦解壹到肆号风暴。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "而只要这四个风暴瓦解，就能够让整个大风暴的封锁难以为继。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "虽然我们对于大风暴另一侧的情况了解并不多。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "不过根据北方联合提供的情报，塞壬马里亚纳群岛要塞群开始有了活跃迹象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "一直以来我们都推测，大风暴的存续和那座塞壬要塞群有密不可分的联系。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 504010,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "如今我们刚准备动手，它们那边也动了起来……倒算是坐实了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502050,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg7",
-			say = "哼，回头把它们一锅端了就是了~",
+			say = "Storm Alpha – all monitoring values normal. Storms Beta through Delta – all normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +100,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "那就是后话啦，姐姐！",
+			say = "Final check complete. The four principal Storm monitoring values are all within normal ranges.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Hooray! Victory is guaranteed for us as long as the Storm doesn't ramp up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +128,77 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "没错，我们首先要完成第一阶段的作战目标才行。",
+			say = "Ahem.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Right, uhh... All units, in position!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "853 Dongyu-type arsenal vessels are standing by on the front lines, awaiting orders.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Supply and cargo vessels are also ready to go.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "It's estimated that our supplies are sufficient to enable five rounds of saturation attacks, ensuring continuous fleet activity for the next three days.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "We've really pulled all the stops for this operation, heheh. The fighters on the front lines are gonna have a heck of a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "预计在突破大风暴后，塞壬一定会派大军等着我们。",
+			say = "You could say that again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "而北方联合舰队无法支援我们的这一阶段的行动。",
+			say = "(These Dongyu-type ships are equipped with their signature Freezing Rain extended-range cluster rockets.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +240,189 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg7",
-			say = "……尽人事以待天命，接下来恐怕是要有一番苦战了。",
+			say = "(They can be launched en masse in little time, and their payload has a potent temperature-lowing effect on impact.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "(All we need to do is destabilize the Storm's thermodynamic equilibrium and we'll win.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "If our simulations are accurate, four rounds of saturation attacks will be enough to completely destroy the four main storms.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "With those four gone, the Storm will no longer stand between us and the sea.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "The only real uncertainty is what is happening beyond the Storm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "We do know that Siren activity has increased around the Mariana Islands, thanks to the Northern Parliament's intel.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Some have speculated that their stronghold in that area is, in fact, the source of the Storm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "That theory is all but confirmed now that they've begun amassing at the same time as we did.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502050,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Then we'll just crush them, too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502040,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "That will have to come after we take care of the Storm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Yes. Taking out the Storm comes first.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Once we do, the Sirens will have a massive army waiting for us. A battle with them is inevitable.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "Unfortunately, we'll have to deal with them alone as well. The Northern Parliament can't provide any support.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 504010,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg7",
+			say = "We will just have to do our best and wait. Comrades, get ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "前线海域，东煌舰队已经各就各位，只等着最后的总攻命令。",
+			say = "Ships and shipgirls of the Dragon Empery were lined up at the front lines, waiting for the signal to begin.",
 			bgm = "battle-donghuang-static",
 			typewriter = {
 				speed = 0.05,
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，没想到东煌真的打算从正面击溃大风暴。",
+			say = "My gosh. I didn't think they were dead serious about taking on the Storm head-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "就算经过了严密的计算……还是令人忍不住捏一把汗啊。",
+			say = "Their simulations WERE accurate... but I just can't shake this nervousness inside of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用紧张，我相信东煌已经做好了充足的准备，突破大风暴这一步只要根据计划来是不会出问题的。",
+			say = "It'll be fine. They've prepared for everything. They just have to follow the first step of the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "麻烦的是之后的事……因为缺乏情报，我们对于塞壬在大风暴之后的部署一无所知。",
+			say = "It's only after that when things get dicey. We have very limited intel on how the Sirens in the Pacific will respond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，恐怕会有苦战……",
+			say = "I think we should expect a fierce battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，不要掉以轻心。",
+			say = "Agreed. All units, begin the countdown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,11 +536,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "8——7——6——5",
+			say = "Eight... Seven... Six... Five...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,11 +548,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "4——3——2——1",
+			say = "Four... Three... Two... One...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "我宣布，「冰龙破风」行动正式开始！",
+			say = "Commence Operation Wind-Crushing Ice Dragon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "刹那间，万炮齐鸣，光幕漫天。",
+			say = "One moment, nothing. The next, hundreds of Dongyu vessels launched their cluster rockets, lighting up the stormy skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "纵使是不可一世的风暴，也在如此规模的打击中颤抖着，畏缩着。",
+			say = "The Storm trembled under the immense bombardment. It looked like it was even shrinking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "冰龙破风，气贯长虹——",
+			say = "Through the Storm the ice dragon broke, soaring through the air like a rainbow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

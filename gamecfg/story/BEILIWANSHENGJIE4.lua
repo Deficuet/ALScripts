@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>四 嫌麻烦的魔女</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>IV 「A Witch Afraid of Troubles」</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "姐姐，你听说了港区里幽灵小姐的传闻吗？",
+			say = "Sister, did you hear the latest gossip about Miss ghost lurking around the port area?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从克利夫兰那里听说的吧，这种一眼看上去就像是恶作剧的东西…",
+			say = "You heard about it from Cleveland? It seems awfully like a prank...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反正我没有兴趣",
+			say = "Regardless, I'm not interested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，姐姐又来了。夏天的时候也是一副完全没有兴趣的样子",
+			say = "Pfft, here you go again. You were all like \"I'm not interested\" during the summer time as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明一起穿上泳装出来玩就好了～",
+			say = "You could have joined us if you didn't hesitate to put on your swimsuit~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那种让人害羞的装扮…",
+			say = "S-Swimsuits are shameless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，难得的万圣节～和大家一起享受节日气氛不是挺好的嘛",
+			say = "Alright, so now it's finally Halloween~ Let's all get together and have fun with everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好这里有一套魔女的服装呢～",
+			say = "As it so happens, I've got a witch costume on hand right here~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是哪里拿来的…等、等下,至少让我自己换啊！",
+			say = "Where did you get this... H-hold on, at least let me change into it myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…真是灾难…罗德尼那家伙，也不知道在打什么主意",
+			say = "Sigh... Rodney is such a troublemaker... Half the time I don't know what goes on in that mind of hers.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -255,7 +255,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“三个魔女”什么的…反正不过是个无聊的传闻，就随便走走应付下好了——",
+			say = "\"Three witches\" whatever... it's just a gossip. Let's walk around and deal with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "捕获第三名魔女啦！！",
+			say = "I caught the third Witch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！——原来是你们啊…",
+			say = "Wow! -- So it turns out to be you girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "纳尔逊小姐也是在寻找幽灵小姐的“善良的魔女”吗？",
+			say = "Is Ms. Nelson also one of the \"virtuous witches\" who is looking for the \"Miss Ghost\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊？噢，是、是吧……",
+			say = "Ha? Um, yeah, sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（糟了，下意识就回应了）",
+			say = "(Crap, I blurted that out)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "这下就凑齐三人了呢，太好了…",
+			say = "Now all three have shown up, great...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就按照贝利听到的情报，一起前往仓库寻找幽灵小姐吧！",
+			say = "Then let's head to the warehouse, Bailey heard Miss Ghost is there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（虽然肯定只是恶作剧，不过也不好放着这两个孩子不管…先跟上去吧）",
+			say = "(Even though it'll surely be a prank, it's not good to leave these kids alone without help... I'll follow them then)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

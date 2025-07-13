@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "帕克菲克洋·重樱前锋舰队",
+			say = "Sakura Empire Escort Fleet",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "cw-level",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "阳光下，一位娇小的少女灵巧地穿行在泛着深海特有靛蓝色调的海面上，两只毛茸茸的兔耳随着海浪一上一下跳跃。",
+			say = "In the shimmering sunlight, a petite girl dexterously darted across the cerulean hues of the water's surface, her bunny ears bouncing along with the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航速41节，前方目视范围安全。",
+			say = "Course: set! Signs of enemies: none! Bearing: clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "水下……确认没有鲨鱼，呼~",
+			say = "And best of all: no sharks trying to bite me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（能在这么好的天气里航行真是十分舒适，只不过……）",
+			say = "Nothing beats going fast in good weather! Today's my lucky day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "少女活泼的脸上不知为何出现了一丝阴云。",
+			say = "Other shipgirls were just behind her. They were all part of the same escort fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "噗哈哈哈……居然真的会迷路啊，还是直接撞到了{namecode:182}大人面前，甚至面对面的时候都没认出来！",
+			say = "Bwahaha! So lemme get this straight... You got lost, ran into Lady Shinano, but didn't even recognize it was her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "{namecode:18}你真是太厉害了！",
+			say = "You're an absolute legend, Shimakaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "这种事完全不能用厉害来形容吧！",
+			say = "Uhh... Yeah, but that's not the kind of legend I want to be remembered for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜，一想起来就恨不得找个缝钻进去……",
+			say = "(Honestly, I'm still cringing just at the memory of it!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我明白的，那种太紧张然后晕倒的感觉……",
+			say = "Um, I'm sure I'd also pass out if I found myself in front of Lady Shinano...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈，没关系！只要身为先锋舰队的我们抓住机会立下什么功劳的话，{namecode:182}大人一定会对我们刮目相看的！",
+			say = "Don't lose heart, girl! It'll all be water under the bridge once we prove to her how capable we are as escorts! Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（果然之前太过丢人了，必须要努力一番来挽回{namecode:182}大人对我的印象了。）",
+			say = "I hope so... I'm sorry for giving her a bad impression of us right from the get-go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "说得没错！不管是塞壬还是别的什么敌人，尽管放马过来吧！",
+			say = "To make up for it, I'm going to smash the heck out of any Sirens or stray enemies that get in our way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "别说是塞壬了，就连海浪都平稳得不行。这样下去哪有我活跃的机会啊……！",
+			say = "Or so I'd love to, anyway, but there's no sign of enemies in the area... And without enemies, I won't get a chance to shine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "哈啊，好无聊……",
+			say = "You can say that again... I'm getting bored...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "但是，海上的风景还是不错的哦。碧海蓝天，晴空万里，还有飞过的海鸟……",
+			say = "True, but the weather is lovely at least. Blue skies, calm waves, and so many seagulls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……这种地方哪儿来的海鸟啊？！",
+			say = "Seagulls? But we're in the middle of the ocean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许是附近某个不知名小岛上的吧。",
+			say = "Maybe there are some islands around here which they use as a rest stop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可能！我这里有{namecode:62}阁下提供的精确地图，附近没有任何岛屿哦！",
+			say = "A good guess, but that can't be true, Katsuragi. If you check the map Chikuma gave us, you'll find there are zero islands in the vicinity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会吧，没有岛怎么会有海鸟嘛……等我侦察一下哦！",
+			say = "Really? Then I've got no idea what they're doing here... Time to find out, aircraft carrier-style! I'll send out some recon planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔———哼哼，没想到{namecode:62}的情报也有出错的时候啊~",
+			say = "...Looks like there IS an island just off to the southwest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:18}，向着西南方向冲锋！你很快就能看到一座岛屿了！",
+			say = "Shimakaze, go give it a quick look, would you? And don't get lost this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎？！真的有么？！交给我吧！{namecode:18}高速前进！",
+			say = "Wait, there is?! All right then! I'll be back before you know it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

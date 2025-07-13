@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>二 第一个任务，第一支团队</size>",
+					"Denver's Quest!\n\n<size=45>2.First Quest, First Party</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "我想达到和克利夫兰姐姐同样的高度！——所以，能拜托指挥官和我一起寻找委托么？",
+			say = "Could you help me look for some quests, Commander? I want ones that'll score me as much rep as Cleveland.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "达到克利夫兰那样的高度啊……是个有点远大的目标呢。",
+			say = "Attaining Cleveland's level of prestige is a lofty ambition indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "不过，解决港口中的各种麻烦也是我的工作之一。因此我决定接受她的委托，从各种各样的委托中挑选一些有趣的出来。",
+			say = "In any case, solving practical problems around the port is part of my job. With that in mind, I agreed to help her. Denver started scouring the quest board, while I went asking around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "十几分钟后，丹佛拿来了一叠任务布告栏上委托书的复印件。",
+			say = "Around ten minutes later, Denver came to me with printed copies of some promising tasks from the quest board.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“装饰巨大的蛋糕”，委托人是女仆队……嗯，感觉还行……",
+			say = "First off, here's one from the Royal Maids, who want help with decorating a huge cake... Not bad, but I dunno if it's the one for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是长岛的委托。“寻找游戏对手”……指挥官，这种也算委托吗？",
+			say = "This one's from Long Island. \"LF partner to practice fighting mains with\"... Uhh, Commander, what kind of jobs are these even?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,23 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "如果想要帮忙的话，尽量不要限定委托的内容比较好哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102150,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唔唔……这和我想的不太一样啊……",
+			say = "\"They might sound like odd jobs, but I think your best strategy is to be open to all kinds of quests, regardless of what they involve.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,35 +162,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想帮助的是真正有困难的人啊！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "发出这些委托的人倒也多多少少确实有些困难就是了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "虽然不知道这个任务是不是符合她的预期……不过我还是把一张选出的委托书交给了丹佛。",
+			say = "Yeah, I guess... I'm just a bit confused because this isn't what I was expecting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +178,35 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，指挥官已经帮我找好了吗？让我看看~",
+			say = "I was hoping for something a little grander. \"I really need your help!\" sorta deal, you know?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "She had a point. These quests seemed closer to busywork than calls for urgent assistance.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "I presented what quests I had found on my own, hoping one of them might live up to her expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +222,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“消灭仓库里的害虫”。噢噢！没有比这更适合海上骑士的任务了！",
+			say = "Wow, you found a couple too, huh? Let's see what we have here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102150,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ooh! Storehouse pest control! You won't find a more perfect quest for me than this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且如果能完成这个任务的话，我一定就能更接近大姐头了!",
+			say = "I'll be one step closer to Clevelandhood if I can get this done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,23 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "想要帮助他人——而且愿意立刻付诸行动，真是一种难得可贵的品格。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102150,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯嗯~看来委托人是小海狸中队的斯彭斯啊。",
+			say = "Denver's hardworking ethic and desire to help others are two of her greatest qualities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +294,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我常和小海狸中队一起行动，如果说到仓库的话……嗯，一定是指那个仓库吧！",
+			say = "Hmm. Judging by the handwriting, I'm 95% sure it's Spence who posted this quest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,21 +310,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉说的有些突然……如果您不介意的话，要不要一起来完成这个任务？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "也不知是幸运与否，我在这之后还没有任何计划，因此决定接受她的邀请。",
+			say = "You know, from the Little Beavers? I hang out with 'em all the time, so I know how they write.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +326,37 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！",
+			say = "Anyway, sorry for asking on such short notice, but could you come along and help me with this quest, Commander?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "For better or worse, I had no other plans in particular on that day, so I thought \"why not\" and agreed to help her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102150,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I knew I could count on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，靠近大姐的第一步就从今天开始吧!",
+			say = "Every journey starts with one step, and today will be my first one towards Clevelandy greatness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "说完，丹佛把拳头伸向我，催促着我同样地摆出拳头。",
+			say = "She balled her hand into a fist and extended her arm towards me. She held it like that, waiting for my response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "我欣然照做，与她的拳头轻轻的碰了一下。",
+			say = "I realized what she was going for, and did a fist bump with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是鼓舞士气的意思哦~",
+			say = "Hell yeah! That's how we do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好了，那就让我们出发吧！",
+			say = "All right then, let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

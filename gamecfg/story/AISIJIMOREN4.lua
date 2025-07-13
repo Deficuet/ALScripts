@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>四　准备工作其二</size>",
+					"Summer Surprise\n\n<size=45>4 Preparations, Part 2</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室 几天后",
+			say = "Port - Office, a few days later",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "最近爱斯基摩人好像一直在偷偷准备什么事，和之前说到的“秘密”有关么。",
+			say = "Over the last few days, Eskimo seems to have been working on something. I wonder if it's related to the \"secret\" she mentioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过秘书舰的工作也都有好好完成，真是个精力充沛的孩子啊......",
+			say = "But, she's still been diligently taking care of her secretary duties. An absolute ball of energy, that girl...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼~♪",
+			say = "Hum hum hum~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "爱斯基摩人在一边哼着歌，一边仿佛什么秘密都没有的很开心工作着。",
+			say = "Eskimo continues to work while humming cheerfully. I can't really picture a girl like her having secrets at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "果然还是很好奇......",
+			say = "But that only makes me more interested in what it is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问爱斯基摩人最近在做什么",
+					content = "\"Eskimo, what have you been working on lately?\"",
 					flag = 1
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，我还在想指挥官什么时候安耐不住好奇心来问我呢~",
+			say = "Ehehe~ I was wondering when curiosity would finally get the better of you, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我确实在准备一个计划……或者应该叫一个惊喜？",
+			say = "I actually do have a plan in mind... Well more accurately, I should say that I've been working on a little surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果现在告诉指挥官惊喜的效果没有啦，所以还是敬请期待哦~",
+			say = "If I spill the beans now, it won't be a surprise at all! So you're gonna have to stay tuned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,23 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然平时看起来大大咧咧的，在这种事上口风却很严啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201320,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不过嘛，最近确实遇到了一个关于场地的小小困难......",
+			say = "Despite her usual carefree attitude, she clearly wasn't going to budge on this particular topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "港区的室内游泳池，能借给我包场一天么！为了完成这件事，不论如何都需要一天的准备时间！",
+			say = "Buuuut, I have run into a teensy problem about the place I want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +211,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能帮个忙么......拜托了，指挥官~！",
+			say = "So can you let me use the port's indoor pool for a day? That's about how long it'll take to get my surprise together anyway!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201320,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Think you could do me a favor, Commander? Pretty please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "室内泳池么.....现在是夏天，大家基本上都会直接去海边游泳，室内泳池空置的很厉害。",
+			say = "The indoor pool, huh... Since it's the middle of summer, everyone just goes down to the beach anyway so the pool is pretty deserted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果只是包场一天的话......",
+			say = "Well, I guess one day couldn't hurt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意爱斯基摩人的请求",
+					content = "\"That's fine by me.\"",
 					flag = 1
 				}
 			}
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "耶——！太好啦！多谢指挥官！",
+			say = "Woohoo! Thanks a ton, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯~这下最麻烦的场地问题就解决了。",
+			say = "That takes care of the most annoying problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来还需要做的准备就是......",
+			say = "Now to finish the rest of the preparations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "需要爱斯基摩人这样精力旺盛的孩子包场一天来准备的特别惊喜么，看来可以稍微期待一下了。",
+			say = "Even an energetic kid like Eskimo can't finish without a whole day's time, huh... That really makes me interested in seeing what she's been working on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过...希望室内游泳池没事..........",
+			say = "Well, whatever it is, I hope the pool manages to survive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

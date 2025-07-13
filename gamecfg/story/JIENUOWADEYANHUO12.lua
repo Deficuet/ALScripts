@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "因为航速上的优势，转变战术之后的阿尔及利亚和福煦渐渐地远离了撒丁战舰的射程范围。",
+			say = "Avoiding further direct confrontation, Algérie and Foch used their remaining mass-produced ships to create space for them to exit Littorio's firing range.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "………顾虑被看穿了。",
+			say = "Heh. Looks like they finally saw through me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "看来就算是熟练的猎人，如果想不在身上沾上丝毫泥浆，完成狩猎也有些困难。",
+			say = "No matter how seasoned the hunter, the prey will always find a way to escape from a half-hearted hunt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "就在利托里奥陷入沉思时，一个并不起眼的黑影高速飞来，利托里奥躲闪不及，下意识的用舰装阻挡。",
+			say = "Suddenly, a dagger flew at Littorio from over the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "咚——！",
+			say = "Littorio instinctively moved to block it, the blade lodging itself into her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "预想中的爆炸没有发生，取而代之的是低沉的金属回音——一柄制作精巧的匕首嵌入了厚重的钢板之中。",
+			say = "When she turned to inspect it, she could see a hilt of Iris design.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这个好像是……挂在那个鸢尾骑士大腿上的匕首？",
+			say = "If I recall properly... Foch was carrying this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "原本以为是装饰用的，没想到居然是特制武装一类的么……",
+			say = "Is this a declaration of her fighting spirit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哈哈哈，猎人在最后的最后还是被猎物啄了一口啊。",
+			say = "...or just a parting gift for Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "利托里奥丝毫不在意舰装的损伤，用力将匕首拔出，拿在手中细细观赏着。",
+			say = "With dagger now in hand, Littorio contemplated the true meaning of Foch's action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "嗯……造型十分精致，保养的也很好，想必它也是曾经主人的心仪之物吧。",
+			say = "A finely-crafted piece. Its owner clearly took good care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然为了断后毫不犹豫地扔了过来。",
+			say = "I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "是在表示如果再继续追下去就要抱着鱼死网破的觉悟了么？",
+			say = "The mass-produced ships were not the only presents those two left for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "还是表示将此物作为战利品献上，这次就请我高抬贵手不要深追了呢……",
+			say = "How curious. It seems like there are some good people left in the Vichya after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "有趣……太有趣了，没想到鸢尾教国的骑士里也有这么有趣的人啊。",
+			say = "If I bring this back, it'll prove that I managed to subdue a powerful Vichya ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "算啦算啦~都到这个时间了，再不回去维内托怕是要担心死了……",
+			say = "...I suppose I'll head back before Veneto starts to worry about me again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这里就先撤退吧。",
+			say = "However, the \"theatre\" that their HQ has put on will not end with this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不过……战火不会因为我的撤退而熄灭。祝你们接下来好运哦，鸢尾教国的美丽骑士们。",
+			say = "...I do hope that you survive their machinations, Knights of Vichya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利托里奥没有再追上来，作战应该成功了。",
+			say = "Phew... Littorio stopped chasing us...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -358,7 +358,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（呼——没想到久违的出战就这么惊险啊。）",
+			say = "Dang, that was more excitement than I bargained for... I never thought I'd have to go against Littorio in person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你最后甩出去的东西是什么？",
+			say = "Oh, Foch, what happened to your dagger?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个啊……只是普通的匕首哦？",
+			say = "Oh, that? Uhh... I think I lost it during the scuffle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			say = "福煦向阿尔及利亚展示固定在大腿两侧的刀鞘，其中一侧的刀鞘中已经空无一物了。",
+			say = "Foch took out her empty scabbard and waved it in front of Algérie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "普通匕首能有那么大的威力么……先不说飞出去的速度，我看到利托里奥被命中之后直接僵住了哦。",
+			say = "How unlike you. I thought that dagger was really important to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个嘛……该不会是被她当成定情信物一类的了吧……",
+			say = "Haha, I suppose so. It's gonna be a pain to get it back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个利托里奥的话，也不是完全不可能吧？",
+			say = "Reckon it's now one of Littorio's spoils of war?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "停！我不想继续想下去了——",
+			say = "Maybe. We'll find out soon enough if it ends up on the newspapers, haha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼~",
+			say = "Heh, that we will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个匕首……对你而言应该也是很宝贵的东西吧，就这么丢出去真的没关系吗？",
+			say = "Are you sure you're going to be okay though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要说一点都不在意是假的，老实说有点心疼……",
+			say = "Well, it does hurt a bit... but it's a small price to pay for our lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，等到下次作战的时候我们一起夺回来吧。",
+			say = "Mm. I guess we'll have to win it back next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次作战还没彻底结束呢，你就在想下次的事了？",
+			say = "Jeez, Algérie, I really can't get used to seeing you all serious like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看到撒丁港口的实际防守情况之后，不可能有人坐得住吧。",
+			say = "Oh, are you telling me that this clever strategist hasn't already made plans three steps ahead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~没错！回去之后我会如实汇报给教廷司令部，然后尽快制定下一步计划的。",
+			say = "Who knows~ Anyway, let's worry about getting home first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那这个就算我们之间的“约定”了？",
+			say = "We can think about how to get that dagger back from Littorio later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，圣教骑士阿尔及利亚在此起誓，我将夺回你所失去之物，为教廷与同伴奋战至最后一刻。",
+			say = "It's a promise then. I swear upon my reputation as a Templar Knight that I'll return that dagger of yours to its rightful owner~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太严肃了——！",
+			say = "I... I don't need a promise like that from you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然总体形势是不太乐观啦…不过我们还有黎塞留大人呢，她肯定会做些什么的。",
+			say = "No matter how precious it might've been, it's just an object. You know what... aren't you just teasing me at this point?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你最近真的把自己逼得太紧了……快回来吧，曾经的阿尔及利亚！",
+			say = "Maybe we can go to a cat café next time to help you go back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……好好好，感谢“大参谋”的关心，我会注意一些啦！",
+			say = "Hehe, now that's a promise I can get behind. I'll hold you to your word then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太——敷——衍——啦！",
+			say = "Ah, wait, I never said it was a promise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我认真起来发誓~？",
+			say = "Let's just make it a Knight's Oath then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那不是又回去了！",
+			say = "That's overdoing it even more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,9 +806,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_renaya",
-			actorName = "两人",
+			actorName = "Both",
 			dir = 1,
-			say = "哈哈哈哈哈哈————",
+			say = "Hahaha~",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -828,19 +828,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「高举战无不胜的鹫旗，吾辈再次凯旋」</size>",
+					"\"May our flag fly victoriously over every battlefield.\"",
 					1
 				},
 				{
-					"<size=51>「鸢尾之安危，吾辈之担当」</size>",
+					"\"May our might bring peace to the land.\"",
 					3
 				},
 				{
-					"<size=51>「纵使烈焰灼身」</size>",
+					"\"Even should we be engulfed in flames...\"",
 					4
 				},
 				{
-					"<size=51>「吾辈义无反顾」</size> ",
+					"\"We will continue to tread forth dauntlessly.\"",
 					5
 				}
 			}

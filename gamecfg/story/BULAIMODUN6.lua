@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>六　假日的陪伴</size>",
+					"Consultation Corner's Day Off\n\n<size=45>6 Off-Day Leisure</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "此时，我的手上仅剩下一张牌，而布莱默顿手中还有两张，鬼牌就在她手中。",
+			say = "I have one card in my hand, and Bremerton has two, one of which is the old maid.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -26,11 +26,11 @@ return {
 			},
 			options = {
 				{
-					content = "抽取左边的牌",
+					content = "(Pick the left card.)",
 					flag = 1
 				},
 				{
-					content = "抽取右边的牌",
+					content = "(Pick the right card.)",
 					flag = 2
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "抽出了靠左的数字纸牌，游戏结束，布莱默顿抓着鬼牌仰躺在懒人沙发上。",
+			say = "A normal card. This wins me the game, and Bremerton falls back into her cushion while holding a single Joker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~又输了——真是的，指挥官怎么这么聪明啊！",
+			say = "Aww, I lost~ How did you get so good at this, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不玩啦，不玩啦！",
+			say = "Okay, no more Old Maid! I'm done with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "抽出了靠右的鬼牌，游戏结束，布莱默顿欢呼着朝我扑来。",
+			say = "...I pull the Joker. When I lose, Bremerton gives me a big hug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶，赢啦！——这是庆祝我今日首胜的拥抱哦！",
+			say = "Yay! I win! I'm celebrating today's first victory with a biiiig hug!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不玩啦，难得能从指挥官这里赢得一局，我要保证战绩！",
+			say = "It's rare for me to win against you. I wanna keep my undefeated record for the day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "接下来玩点别的什么吧！",
+			say = "Let's change games now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "在那之后，又和布莱默顿玩了一会儿桌游，直到少女伸了个懒腰——",
+			say = "After that, we play board games for a while... until she stretches and yawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "唔~玩游戏还真是蛮消耗精力的，还是找点更轻松的事情做吧~",
+			say = "Phew... Playing games can be exhausting~ How about we find something more relaxing to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "更轻松的事情指什么？",
+			say = "Such as?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "比如……一起看部电影！怎么样？",
+			say = "Such as... watching movies, or something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "屏幕上正演绎着主人公们互诉忧虑，最终解开心结、走向彼此的情节。",
+			say = "In this movie, the characters talk about their troubles, overcome the pain in their hearts, and ultimately accept each other in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "布莱默顿揽着我的手臂，头靠在我的肩膀上。",
+			say = "Bremerton clings to my arm and rests her head on my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "嘿嘿，果然，有些事情还是要说出来会更好~",
+			say = "Heheh. It all comes down to being open with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "无论是要解决问题，还是要纾解情绪，将自己真实的感受说出来都是前提……",
+			say = "When it comes to solving problems or relieving stress, you need to tell people how you feel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "明明一直在倾听别人的烦恼，居然到现在才反应过来……嘿嘿，这次有点迟钝了呢~",
+			say = "I've been listening to other people's problems all this time, and I'm just now realizing... I guess I've been pretty dense, for once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，以后如果还有烦恼，随时都可以说给我听。",
+			say = "A little. If you have any problems, tell me any time, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啊~那就这么说定了！不过就算不是烦恼，指挥官也要听哦~",
+			say = "Yeah! Okay, it's decided! And... I'm gonna tell you things that aren't problems, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "还有……今天真的谢谢你啦，指挥官~",
+			say = "Also... Thanks a lot for today, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "为我准备了休息日，还留下来陪我……",
+			say = "You set aside a day off for me, stayed with me the whole time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103244,
-			say = "呼……",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "布莱默顿？",
+			say = "Bremerton?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "少女不再回应，在温和的夜中，在电影悠扬的音乐声中，靠着我的肩头沉沉睡去。",
+			say = "On this warm night, backed by the gentle sound of movie music, she falls asleep on my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "她的唇角微微上扬，看起来放松而满足。",
+			say = "That faint smile on her face makes her look very satisfied and relaxed, indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

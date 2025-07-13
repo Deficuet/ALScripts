@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "随着小队继续向内深入，无尽树海中的道路也愈发复杂。",
+			say = "The deeper into the forest we go, the more winding the path becomes. The woods are like a maze.",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "不过依靠情报收集与分析技能，我的终端总能在道路分叉处指出正确的路线。",
+			say = "Fortunately, my skills save the day. They identify the correct path to take at every fork in the road.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
-			say = "终于在又穿过一片灌木丛后，前方出现了一片豁然开朗的林间空地。",
+			say = "Cutting through a grove, we come upon a clearing amongst the trees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,11 +55,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "呼……zZZZZ",
+			actorName = "Laffey",
+			say = "Zzzzz... Mmh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,11 +90,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "……zZZZZ",
+			actorName = "Laffey",
+			say = "Zzzzzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,12 +108,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们看前面，那个在草地里睡觉的人。",
+			say = "Hey, uh, someone's sleeping on the ground.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,12 +127,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身边还放了一个可爱的兔兔法杖……那就是我们要找的大魔法师吧？",
+			say = "And she's got a staff with bunny ears on it... Isn't that the legendary mage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,11 +146,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们怎么看这个魔法师？",
+			say = "Could be. What do you all think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,12 +164,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽能从她身上感受到充盈的魔力反应……",
+			say = "I'm sensing a huge amount of mana coming from her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,9 +183,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "情报分析也显示，她的等级和魔法攻击高到夸张。",
+			say = "Meanwhile, my Info Analysis skill says her offensive magic ability is through the roof.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,11 +195,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~居然是货真价实的大魔法师啊。",
+			say = "Interesting... Then we've found our mage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,11 +213,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过就这么慵懒地睡在草地上，一点防备都没有……入队之后真的能派上用场么。",
+			say = "But why is she sleeping on the ground, defenseless? I dunno if someone so careless is of any use to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,11 +231,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "……感应魔法有反应。",
+			actorName = "Laffey",
+			say = "Detecting mana fluctuation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,11 +249,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲",
-			say = "……嗯？你们是？",
+			actorName = "Laffey",
+			say = "...Hm? Who are you people?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,9 +267,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "看来被发现了，我们过去好好聊聊吧。",
+			say = "She knows we're here. Might as well go talk to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,12 +279,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们的来意……拉菲清楚了。",
+			say = "...Okay, so you want me to join your party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,12 +315,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是……拉菲拒绝。",
+			say = "Thanks, but no thanks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,12 +334,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？我们可是要去讨伐魔王哦！",
+			say = "Huh?! But we're on our way to take down the Demon King!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,12 +353,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不是传说中曾经成功讨伐过魔王的大魔法师么，为什么要拒绝我们的邀请！",
+			say = "Haven't you already done that before? Why don't you wanna help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,12 +372,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算讨伐了旧的魔王……还会有新的魔王冒出来。",
+			say = "If you kill the Demon King, another one will just take her place eventually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,12 +391,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲已经累了……不想再战斗了。",
+			say = "I'm tired of it all. I don't wanna fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,11 +410,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……这个大魔法师，派不上用场啊。",
+			say = "See? I told you she wouldn't be of any use.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,9 +428,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（事情似乎有些奇怪……）",
+			say = "(Something feels odd about this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,16 +440,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（等等，情报分析的技能有反应，这个难道是使用提示……）",
+			say = "(Oh, my Info Analysis skill is picking up something. Almost like it's telling me to use it right now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "对大魔法师使用“情报分析”技能。",
+					content = "(Use Info Analysis on Laffey.)",
 					flag = 1
 				}
 			}
@@ -458,7 +458,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_518",
-			say = "在使用了情报分析技能后，关于大魔法师的情报流入了系统终端。",
+			say = "I activate my skill, and a flood of information about the mage fills my interface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,29 +466,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「大魔法师拉菲，种族：兔兔星人。」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			icon = {
-				scale = 1.4,
-				image = "Props/story_tablet",
-				pos = {
-					0,
-					100
-				}
-			}
-		},
-		{
-			side = 2,
-			actorName = "冒险终端",
-			bgName = "star_level_bg_518",
-			nameColor = "#A9F548FF",
-			say = "「在千年前曾经斩杀过魔王的传说中勇者小队的一员。」",
+			say = "\"Laffey the Mage - Race: Planet Bunnyian\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,10 +485,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「当前状态：诅咒缠身。」",
+			say = "\"A member of the legendary hero's party that is said to have slayed the Demon King a thousand years ago.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,10 +504,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「诅咒名：怠惰咒。」",
+			say = "\"Status: Cursed\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,10 +523,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「由前代魔王留下的诅咒，可将诅咒目标禁锢在过去的循环中，直到其理智完全被负面感情所吞噬。」",
+			say = "\"Status Name: Curse of Sloth\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,10 +542,29 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「解除诅咒的方法：不明。」",
+			say = "\"A curse left by the Demon King. It locks the target in a cycle of endlessly repeating the past in their mind until their sanity is engulfed by negativity.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			icon = {
+				scale = 1.4,
+				image = "Props/story_tablet",
+				pos = {
+					0,
+					100
+				}
+			}
+		},
+		{
+			side = 2,
+			actorName = "Adventure Interface",
+			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
+			say = "\"Dispelling Method: Unknown.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,9 +582,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……看来如果不解除大魔法师的诅咒，我们是不可能将她拉入小队了。",
+			say = "We'll have to lift the curse on her before we can recruit her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,11 +594,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到竟然是这样……",
+			say = "She's been cursed? All this time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,11 +612,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "千年前就讨伐了魔王，而这个诅咒是当时的魔王留下的……",
+			say = "A thousand years ago she beat the Demon King, and that curse still haunts her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,11 +630,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说她已经承受了千年诅咒了么……",
+			say = "I can't imagine what it's like to suffer for a whole millennium.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,12 +648,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜……千年的诅咒也没能完全磨灭她的理性……真是一个强大的魔法师！",
+			say = "I'm more amazed by the fact she hasn't gone insane after so long!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,12 +667,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥，我们快想办法解除她的诅咒吧！",
+			say = "I think we should find a way to lift the curse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,9 +686,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "那是自然。不过这个诅咒看上去有些棘手，我们还需要更多的情报……",
+			say = "Of course, but that's not going to be easy. First of all, we must gather more info.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,11 +698,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官你看！在她睡觉的毯子周围有一摞餐盘，似乎有人会定期来给她送饭！",
+			say = "Hang on a minute, there's a plate next to her! I think someone has been regularly coming by to leave food for her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,12 +716,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的欸……那个来送饭的人或许会知道些什么！",
+			say = "You're right! Maybe that person knows something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_518",
-			say = "仔细观察后，不光在周围发现了装满食物的餐盘，还发现了一些治疗用的药水。",
+			say = "That's not all. In addition to the plate of food, there is also a handful of medicinal potions lying around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,11 +745,11 @@ return {
 			portrait = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些药水属于附近村落中的一位药剂师哦。",
+			say = "Those were made by a potion maker who lives in a nearby village.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,11 +763,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是……之前在王都里突然出现的钢铁教会机械师？",
+			say = "Hey, aren't you that mechanic we met in the Royal Capital?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,11 +781,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次也是突然出现在我们身边……你难道是在跟踪我么？！",
+			say = "What are you doing here? Are you stalking the Commander or something?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,12 +799,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……让诸位感到不快我很抱歉，但我绝无跟踪诸位的意思。",
+			say = "Ahaha, sorry for appearing out of the blue. I'm not a stalker, I assure you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,12 +835,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是看到诸位离开王都要前往无尽树海的深处，而深处的情况又如各位所见……",
+			say = "I saw you were headed for the Endless Woods. Its deepest parts are dangerous, as you now know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,11 +854,11 @@ return {
 			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有些不放心，就跟过来了。",
+			say = "I was worried you'd get hurt, so I followed you just in case.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,12 +872,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实教会多年来一直在试图解除大魔法师身上的诅咒，只可惜迟迟没有进展……",
+			say = "About that curse... The Church has also been trying to lift it, but to no real success.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,10 +891,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这些治疗用的药水，是你们教会提供的么？",
+			say = "So talking to that potion maker is our best bet, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,12 +904,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那倒不是，这些药水是附近村落的一位好心药剂师留下的。",
+			say = "Mhm. I know for a fact she made all of the ones lying around here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,12 +923,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那位药剂师小姐也自发地照顾大魔法师很久了。",
+			say = "She's been looking after the great mage for who knows how long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,11 +942,11 @@ return {
 			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这期间，她也一直试图用自己的方法解除大魔法师的诅咒。",
+			say = "It seems she's been trying to lift the curse in the only way she knows how.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,12 +960,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可惜一直以来也没什么效果……",
+			say = "Sadly, she hasn't made any more progress than we have.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -979,11 +979,11 @@ return {
 			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过她在上次失败后，曾表示下次带来的药剂一定能行……",
+			say = "Although, the other day, she did say her next potion was bound to finally work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,12 +997,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "Church of Steel Mechanic",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我已经不抱希望了，不过诸位如果在意的话或许可以去看看？",
+			say = "Personally, I've given up on the great mage, but I think you all should pay the potion maker a visit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,11 +1016,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "附近村落中一直在研究大魔法师诅咒的药剂师……真是个宝贵的线索。",
+			say = "You said she lives in a nearby village, right? Sounds like a lead worth pursuing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,11 +1034,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们去看看吧~！",
+			say = "Commander, let's go find her!",
 			painting = {
 				alpha = 0.3,
 				time = 1

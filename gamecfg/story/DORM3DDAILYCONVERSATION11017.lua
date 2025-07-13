@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不要犹豫了，Honey，想牵手的话……",
+			say = "If you wanna hold hands, don't hesitate to try...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "你看，随时都可以握住{namecode:199:新泽西}的手哦！",
+			say = "Here. My hand is available any time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "手心有些太热了？",
+			say = "Is my palm hot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "错……错觉吧……嘿嘿……",
+			say = "Pssh... I think you're just imagining that... Haha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

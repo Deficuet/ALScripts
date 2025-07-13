@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>五　关于奖励的话题</size>",
+					"Work Hard, Play Harder!\n\n<size=45>5 All Carrot, No Stick</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又是一天的指挥室——",
+			say = "Some time later in the office...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "呼呼呼，有我水星纪念出马，今天的工作又是到傍晚时分就结束了哦！",
+			say = "Hehehe~ Another day's work done in a flash thanks to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哈呀~~~突然感觉肩膀好酸呀~~指挥官，过来下嘛~~",
+			say = "Oof, my shoulders feel so stiff all of a sudden... C'mere for a sec, Commander~♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "水星纪念又成功在一秒钟之内从工作模式切换到了日常模式……",
+			say = "Pamiat' reverts back into sloth mode the very moment she finishes all her tasks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过……既然工作已经完成了。偶尔这样，也不算坏。",
+			say = "Though, I don't really have any ground to criticize her. She has been a huge help, and normally doesn't act this spoiled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿，指挥官~揉这里！肩膀的这个位置最酸！",
+			say = "Right here~ Yeah, that's the spot~ I need a massage here sooo badly♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,22 +126,22 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "这个位置对么——",
+			say = "She brazenly asks for her daily reward. This time, a massage. Because of her attitude, I decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "使用三分力",
+					content = "Give her a good massage",
 					flag = 1
 				},
 				{
-					content = "使用七分力",
+					content = "Mess with her a little",
 					flag = 2
 				},
 				{
-					content = "使用全力",
+					content = "Get some payback",
 					flag = 3
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "将手放在水星纪念的肩膀上，如同对待易碎品一样轻轻捏了下去。",
+			say = "Being as gentle as one would be with a little baby, I put my hands on her slender shoulders and start massaging her gingerly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——指挥官再用点力嘛！现在这种力度根本缓解不了疲劳啦！",
+			say = "Come ooon, put some oomph into it! My shoulders are gonna need much more than that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心~用力就好！",
+			say = "Pay some respect to this little veteran and give 'em a good squeeze~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "既然如此，稍微加大了力度——",
+			say = "\"As you wish, Ma'am.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……呼，感觉肩膀的疲劳得到了有效缓解，多谢指挥官~",
+			say = "Oooh, that's the ticket~ They feel so much better already~ Thanks, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "将手放在水星纪念的肩膀上，寻找僵硬的部分用力捏了下去。",
+			say = "Feeling around for the stiffest spots, I put my hands on her shoulders and dig my thumbs into her muscles with a bit of force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦————疼、但是没有很疼！",
+			say = "Hang on– Ow, ow, ow... Actually, this feels pretty good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "力度刚刚好！肩膀的感觉也刚刚好！",
+			say = "This is perfect! Not too hard, not too soft!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……呼，肩膀复活了，多谢指挥官~",
+			say = "Oooh, that hit the spot~ Appreciate it, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "将手放在水星纪念的肩膀上，用尽全力捏了下去。",
+			say = "Wanting some catharsis, I put my hands on the cheeky brat's shoulders and start crushing the stiffness out of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊、疼疼疼疼疼——！！！！",
+			say = "Ow, oww, OWWWW!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，快停手！我现在可没带舰装，骨头正在悲鸣啊！",
+			say = "You're going way too hard! This really hurts without my rigging! Owww! You're gonna break something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……呼，不过居然，好像不怎么难受了！",
+			say = "...Wait, what? I think that did the trick! My shoulders feel a lot better!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是所谓的大力出奇迹么，指挥官好厉害！",
+			say = "Was that like, some miraculous acupressure? I didn't know you were trained in that, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不过……哼哼，我最近这么努力帮你工作，你是不是需要给我点奖励呢~",
+			say = "My shoulders being THAT stiff is proof that I really busted my butt. In other words, I deserve a reward♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……原来刚才的按摩服务不算么？",
+			say = "\"Come again? I just gave you a massage.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "算！但那个只是针对今天的！还需要有一个用于慰劳我这一段时期的辛苦的！",
+			say = "Sure, that counts as something, but I worked so hard that I deserve something more! Let's not forget an additional reward for all my efforts up 'til today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……具体来说是？",
+			say = "\"For the love of... What do you have in mind, then?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我还没想好~休息日之前告诉你！",
+			say = "Dunno, I haven't decided yet! Give me until the weekend to think about it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "那，今天的工作差不多就到此为止咯？明天见啦，指挥官~",
+			say = "Anyhow, I'm gonna call it a day! See you tomorrow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯哼哼哼♪~雪球花儿♪，雪球花♪~",
+			say = "Hmm-hm-hmm-hmm♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "看着她哼着歌离去的背影，不禁对休息日有也产生了一丝期待。",
+			say = "Just like that, she excuses herself and leaves my office while humming a cheerful tune. I'm not sure exactly why, but I seem to be anticipating the weekend more than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

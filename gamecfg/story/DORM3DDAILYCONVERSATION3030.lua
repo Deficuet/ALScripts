@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，会不会在哪里，有一片花海呢？",
+			say = "{dorm3d}, are there flower fields around here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，可以编花环！还可以送给{dorm3d}！",
+			say = "Anchorage wants to make a wreath! And give it... to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}适合……哪种花呢？闻起来，很暖……淡淡的，清香！",
+			say = "What kind of flowers would suit you? Something that smells... warm and fresh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还有一股，特殊的味道……安克雷奇，想不到……",
+			say = "Or... some other smell... Anchorage doesn't know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没关系，一定有适合{dorm3d}的，特别的花！",
+			say = "It's okay! There must be a special flower... perfect for {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

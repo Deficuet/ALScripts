@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "港区·人工湖边——",
+			say = "Port - Freshwater Lake",
 			bgm = "main-chunjie3",
 			typewriter = {
 				speed = 0.05,
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "在寰昌的带领下，众人很快找到了一处位于湖畔的雨棚。",
+			say = "Huan Ch'ang led the way, bringing us beneath a canopy by the lakeside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "就是这里了。",
+			say = "Here we are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "哇哦……没想到湖边还有这样的风水宝地呢！",
+			say = "Whoa! I never knew we had a place like this by the lake!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "是个钓鱼的好地方！",
+			say = "This looks like a great spot for fishing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不过，我们出门的时候好像没带钓鱼竿……",
+			say = "Oh, shoot! Lady Yuen forgot to bring a fishing rod!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我带了~",
+			say = "I did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "正所谓未雨绸缪，机会总是留给有准备的人哦。",
+			say = "As they say, plan ahead for rainy days. Opportunities come only to those who prepare for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "寰昌一边说着，一边从雨棚下取出了自己的钓鱼竿。",
+			say = "Huan Ch'ang produces a fishing rod seemingly out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "好长……！",
+			say = "That's a looong rod!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，这么说，寰昌姐姐是经常在这里钓鱼么？",
+			say = "Hey, do you come here to fish often, Huan?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……只是喜欢偶尔来放松下心情，算不上经常。",
+			say = "Only sometimes. To clear my mind. I wouldn't call it \"often.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "而且，喜欢来放松心情的也不止我一位呢。",
+			say = "In addition, I'm not the only one who comes here to relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "寰昌说着，眼神也飘了过来。",
+			say = "Huan Ch'ang shoots me a glance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,14 +208,14 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（轮到我了么……）",
+			say = "(The cat's out of the bag.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿出准备好的钓竿。",
+					content = "(Take out your own fishing rod.)",
 					flag = 1
 				}
 			}
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "震惊，指挥官也提前准备好鱼竿了！",
+			say = "Oh! The Commander brought one, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "……现在看来，这个棚子不光有存放钓具的柜子，连摆放厨具的置物架和存放食材的冰箱都有呢。",
+			say = "Hang on, there's not just a tackle box under the canopy. There's a cooking stove and a fridge as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "感觉都能当做郊游和野炊的营地了……",
+			say = "You could set up camp here, or cook food for a picnic!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不愧是“寰昌姐姐”尽心“卜算”出的宝地呢~",
+			say = "Gosh. Huan Ch'ang's \"divination\" sure led us to a special spot, hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "咳……",
+			say = "Ahem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "其实我还挺喜欢这里的氛围和布置啦，麻雀虽小但五脏俱全。",
+			say = "It IS a nice place. It's got a great atmosphere, it's compact, and it has all the equipment you need.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "准备到如此周全的程度，莫非你和指挥官经常一起钓鱼么？",
+			say = "Say, do you come here often with the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "偶尔……会碰上。",
+			say = "Well... occasionally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "“偶尔”呢——",
+			say = "Right. \"Occasionally.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……最初真的是偶然！",
+			say = "The first time really was a coincidence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有一次，我在钓鱼时遇到了场小雨。",
+			say = "I came out to fish one day, and it suddenly started raining.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "不过这场雨，在出门前我便卜到了，所以早就准备好了遮雨的布棚。",
+			say = "I knew it was going to, because I divined it. I came prepared and set up under the canopy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,14 +426,14 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "本以为会变成一场雨中独钓，结果没想到却遇上了避雨的人……",
+			say = "Then, just as I thought I was going to be fishing alone, someone came seeking shelter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那时恰巧看到这里有避雨的地方。",
+					content = "Right under that canopy.",
 					flag = 1
 				}
 			}
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "就是这样，所以布棚也就一直没有拆掉。",
+			say = "My only catch that day was a fishing buddy. I couldn't go home emptyhanded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然后随着一起钓鱼的次数增多，就渐渐把这里修整成现在这个样子了。",
+			say = "Ever since then, the canopy has stood right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "其实，我觉得遇到喜欢钓鱼的朋友也算是不错的收获哦，钓鱼总不能空手而归嘛。",
+			say = "As time went on and we fished more together, we slowly added more amenities and upgrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哦哦，很有道理的样子……",
+			say = "Ahh, no wonder...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "欸……？这么说，寰昌姐姐那天是没钓到鱼……？",
+			say = "Wait, \"couldn't go home emptyhanded\"? You didn't catch a single fish that day?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "咳……钓鱼本就是尽人事以听天命。",
+			say = "Well... Fishing is about doing all you can and letting fate run its course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "明白么？",
+			say = "The fact that I didn't catch anything just means the heavens didn't ordain it! Do you understand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不明白……",
+			say = "I don't...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "没事，不明白就对了……",
+			say = "It's fine if you don't...",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "寰昌姐姐，我可以试试钓鱼么！",
+			say = "Enough talking! Can I fish now, Huan?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "当然，今天的主角可是你们，快开始吧。",
+			say = "Of course. The whole reason we came here is to catch ingredients for your dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "那个！飞云也想试试！",
+			say = "Lady Yuen wants to try, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			},
 			options = {
 				{
-					content = "用我这根吧。",
+					content = "Here. Use my rod.",
 					flag = 1
 				}
 			}
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "好耶！谢谢指挥官！",
+			say = "Yay! Thanks, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哼哼！飞云大人肯定会钓上大鱼的！",
+			say = "Heheh! Watch this! I'm gonna catch the biggest fish you've ever seen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……钓鱼，可是需要耐心的。",
+			say = "Easy, now. Fishing is a matter of patience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "太着急的话，会把鱼儿吓走——",
+			say = "Hold your rod steady. Don't scare the fish off, or they'll never–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "上钩啦！",
+			say = "Nibble! I got a nibble!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "我这边也是！",
+			say = "Me too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "还没等寰昌说完，两条大鱼就被虎贲和飞云各自从水里拽了上来。",
+			say = "Huan Ch'ang's advice is interrupted by the girls both getting something on the hook. They reel in their catches – two large fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "欸？！",
+			say = "WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "难道说，这就是初学者的运气……",
+			say = "This has to be beginner's luck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "好大的鱼！寰昌姐姐算的没错，这里果然有很棒的食材！",
+			say = "It's ginormous! You were right, Huan! These are good fish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "又上钩啦！",
+			say = "Got another on the hook!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,8 +841,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "寰昌",
-			say = "这……不对吧？",
+			actorName = "Huan Ch'ang",
+			say = "A... Another?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,8 +854,8 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "寰昌",
-			say = "难道说……今天是丰收渔获之日？",
+			actorName = "Huan Ch'ang",
+			say = "Is this your luckiest day of the year or what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,20 +866,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "大受震撼的寰昌，连忙掐着手指算了几卦——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			side = 2,
-			actor = 504010,
-			say = "不能吧……卦象明明不是这样……",
+			say = "Shocked by their success, Huan Ch'ang starts quickly divinating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +879,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "唔，湖本身的原因？",
+			say = "No... The bagua isn't aligned right... How are you catching so many?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_142",
+			hidePaintObj = true,
+			side = 2,
+			actor = 504010,
+			say = "Unless... the lake itself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……是因为经常在这里打窝的缘故么？",
+			say = "...Have people been overfeeding the fish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "那也说不通啊……怎么会接连有这么大的鱼……",
+			say = "But even then, that doesn't explain how you've caught so many big fish in a row.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "那个……飞云、还有虎贲，能不能让你们寰昌姐也试试？",
+			say = "Fei Yuen, Hu Pen, may I try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我想看看……能不能钓上来更大的鱼。",
+			say = "Since you've been having such luck, I might be able to catch even bigger fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "没问题呀！",
+			say = "Go ahead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,7 +976,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "那我们干脆就来比试一下吧，寰昌姐姐！",
+			say = "You're on, Huan! Let's see who can catch the biggest fish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "呵呵，那我肯定不会输的……",
+			say = "Heheh. I won't go easy on you.",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -1007,7 +1007,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "在这方面，我可是资深玩家……",
+			say = "I've fished with the Commander so much that I'm a fishing master now!",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -1020,7 +1020,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（寰昌身上，是不是有种莫名其妙的胜负欲燃起来了……）",
+			say = "(What? Why is she making this into a competition now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过…………祝她好运。）",
+			say = "(Good luck to her, I suppose...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "就这样，莫名其妙的钓鱼大赛开始了——",
+			say = "Just like that, a fishing competition began between these two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "最后，作为赛后总结——",
+			say = "Well, I think the moral of this story is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "——算卦救不了钓鱼佬。",
+			say = "Divination won't help a bad fisher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,9 +1100,9 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			actorName = "寰昌",
+			actorName = "Huan Ch'ang",
 			blackBg = true,
-			say = "——指挥官~~！！！",
+			say = "Commandeeer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

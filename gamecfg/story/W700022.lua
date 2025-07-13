@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前正在进行困难难度仲裁机关模拟战。",
+			say = "A practice battle against an Arbiter on Hard difficulty is currently in progress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前海域仲裁者与困难难度中保持一致，但击破后不会获得任何奖励，仅供模拟。",
+			say = "The enemy is identical to the actual Arbiter Battle on Hard difficulty.Defeating the current enemy will not grant any rewards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

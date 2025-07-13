@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>五、刹车带</size>",
+					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 5: Arresting Wire</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "这是港区里发生的一次小小的冲突。",
+			say = "One day, at port...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天好像没有我的任务呢。",
+			say = "Seems like there's nothing for me to do today...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不去看看我家皮罗什基吧？有点想它那温暖的皮毛了呢~",
+			say = "Maybe I should go check on how Pirozhki is doing... a good cuddle always brings me back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志！那个……不，不好了！北方联合要和白鹰打起来了！",
+			say = "Hey, Avrora! Um, the Northern Parliament and the Eagle Union are...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发生了什么吗？别急，慢慢说就好。",
+			say = "What's wrong? Calm down, and tell me what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，是这样的！其实……",
+			say = "R-right! So, what happened was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说，苏维埃罗西亚和白鹰的萨拉托加在共同演习的时候发生了意见不合……",
+			say = "In other words, something happened between Sovetskaya Rossiya and Saratoga during the exercise, and things escalated from there...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -198,7 +198,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对，就是这样！虽然不知道原因是什么，不过两边看起来都很不高兴。",
+			say = "Yeah! I have no idea what exactly happened, but they're both on edge now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们现在在哪里？",
+			say = "Would you take me to them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到了！你看，她们还在吵架呢！",
+			say = "They're right there! Look, they're still arguing...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -265,7 +265,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听好了！航母编队在作战的时候，战列舰要伴随在航母旁边进行护卫才对！一个人冲在前面的话，要是航母们遭到袭击了怎么办！",
+			say = "This is the last time I'm repeating myself! When you're fighting with carriers, you have to remain in formation at all times to escort the carrier! What are you going to do if you rush ahead and your carriers get flanked?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -287,7 +287,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以航母作为作战中心的话还好，但是如果需要最大限度活用战舰的性能的话，不是应该再独立编成一个舰队吗",
+			say = "Considering this was a carrier-centric operation, shouldn't the fleet have been organized differently to utilize battleships more effectively?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把我们战列舰当做一个防空哨艇，这种运用方式恕我无法接受！",
+			say = "Squandering the formidable firepower of battleships as floating anti-air platforms is a grievous waste of resources!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是因为你们北方联合根本就没有多少航空母舰，所以也不知道航母的战术是怎么样的啦！",
+			say = "I'm so done with you! They probably don't even teach you the basic carrier battlegroup tactics in the Northern Parliament because you barely even have any carriers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这——",
+			say = "How dare you...",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，罗西亚，到此为止吧。吵架不能解决任何问题。",
+			say = "That's enough, you two. Quibbling won't solve anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们北方联合在航母运用方面确实没有多少经验，这是事实",
+			say = "It is true that the Northern Parliament does not have a robust knowledge of operating carriers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志……",
+			say = "Avrora...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们北方联合的舰队运用趋向于对抗塞壬。作为舰船的我们的战斗方式在其他阵营眼中并没有充分的认知，这一点亦不能否定",
+			say = "However, that hasn't stopped us from fighting back the Sirens. If anything, it means the other factions have not properly recognized our power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…………",
+			say = "Well, you do have a point, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来大家都冷静下来了呢。",
+			say = "See? Did you two manage to cool down a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们是在有关舰队运用的一些问题上出现了分歧，对吧？既然如此的话，我有一个好的提议——",
+			say = "The issue is that we haven't fully understood how to fight alongside each other yet, given our differences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由我去向指挥官申请，明天，北方联合和白鹰各派一支队伍进行模拟对抗如何？",
+			say = "Why don't we hold a mock battle at the next exercise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,8 +492,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "苏维埃罗西亚&萨拉托加",
-			say = "正合我意！！！",
+			actorName = "Rossiya & Saratoga",
+			say = "Let's do it...!",
 			effects = {
 				{
 					active = true,

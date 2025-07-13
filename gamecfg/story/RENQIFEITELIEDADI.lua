@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>约会进行曲</size>",
+					"Hall of Fame\n\n<size=45>Date-Night Concert</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			bgm = "bsm-5",
-			say = "在{namecode:440:腓特烈大帝}的邀请下，与她欣赏了一场美妙的音乐会。",
+			say = "I went to attend a wonderful concert at Friedrich der Große's invitation.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "此刻，演出已经结束，但我的心却依然着追随着音乐的余韵，久久无法平静。",
+			say = "Though the concert is now over, my heart is still reverberating to the music's lingering afterglow, making it difficult for me to compose myself.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "觉得刚才的演奏怎么样——",
+			say = "So, how did you find that performance?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -64,7 +64,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本来想这么问的。不过，你到现在还是一脸陶醉的样子——",
+			say = "...Is what I planned on asking you originally. Though, you look a bit too intoxicated to give me any sort of concrete answer~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -82,7 +82,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看来没有追问答案的必要了呢。",
+			say = "That just means there's no need to pursue the question any further, haha.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
-			say = "音乐构筑的世界十分令人沉醉，谢谢你能邀请我一起来。",
+			say = "The world built by music does that to people. Thank you for bringing me along.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
-			say = "不过稍微有些意外，没想到你会与我一同在观众席上欣赏，原本以为你会亲自登台呢。",
+			say = "But, I am rather surprised that you sat with me in the audience. I thought... you'd be on stage, conducting or something.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果是平时的话，我的确会是演奏的那一方。",
+			say = "Normally, yes, I would be the one to be putting on the performance.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -141,7 +141,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是这次，一想到我可以如此亲昵地坐在你身边，与你一同欣赏……",
+			say = "But this time, I thought it would be nice to sit by your side, enjoying an intimate evening together...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -159,7 +159,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此我宁愿选择当一名听众——原本确实是这么打算的。",
+			say = "Which is why I decided to be an ordinary listener. And that was my plan all along.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -177,7 +177,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，在欣赏演奏期间，我不止一次后悔做了这个决定。",
+			say = "Having that said, despite the performance being thoroughly enjoyable, there is one thing I regret...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -189,7 +189,7 @@ return {
 			},
 			options = {
 				{
-					content = "……后悔？",
+					content = "...Regret?",
 					flag = 1
 				}
 			}
@@ -201,7 +201,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的，后悔。",
+			say = "Yes, just one thing.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -219,7 +219,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "后悔演奏者不是我，而是别人。",
+			say = "I regret that I am not the one to put on the performance, but rather other people.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -237,7 +237,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为你是如此陶醉于他人的音乐，陶醉到甚至都让我产生了一丝嫉妒。",
+			say = "Because seeing you so thoroughly enraptured by other people's music, rather than my own... is making me a little jealous.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
-			say = "偶尔做一回听众，也算是一种难得的体验吧？",
+			say = "It's not such a bad thing being on this side of the stage every now and then, right?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
-			say = "更何况能与{namecode:441:腓特烈}一起欣赏音乐会，也是我的荣幸。",
+			say = "I mean, the fact that I'm getting to enjoy a concert with THE Friedrich der Große is already an honor in its own right.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -279,7 +279,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……即便心知这是恭维的话，我也要说一声谢谢呢，我的孩子。",
+			say = "I know you're just trying to flatter me, but... Thank you for saying that, my child.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -297,7 +297,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，也好。总算是平安无事迎来了音乐会的闭幕。",
+			say = "Haha. In the end though, you're right. I'm just glad that we could enjoy this performance without anything going awry.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -315,7 +315,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实际上在刚才，我已经好几次忍不住想要上台夺取指挥棒了——为了让你沉醉的表情只为我而流露。",
+			say = "In fact, there were a few times where I wanted to go up on that stage and grab the baton for myself... just so you would be making that intoxicated expression just for me.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -333,7 +333,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幸好，你一直用力抓着我的手臂，我才能平复下来。",
+			say = "Luckily, you were holding onto my arm that whole time, which was the only reason I was able to restrain myself.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "伴随着{namecode:441:腓特烈}的话语，我才注意到她手臂上残留的明显红痕。",
+			say = "As Friedrich mentions it, only then do I notice the red markings on her fair skin.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -356,11 +356,11 @@ return {
 			},
 			options = {
 				{
-					content = "抱歉……不自觉就抓住你了。",
+					content = "I'm so sorry... I had no idea I was clutching you so tightly without realizing it...",
 					flag = 1
 				},
 				{
-					content = "抱歉……大概是下意识不希望你离开，所以才用力了。",
+					content = "My bad... I guess my inner desire to stop you from leaving me was just too strong.",
 					flag = 2
 				}
 			}
@@ -374,7 +374,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#A9F548FF",
-			say = "没必要道歉，我的孩子。我能理解——",
+			say = "There's no need to apologize, my child. It's quite understandable––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#A9F548FF",
-			say = "呵呵，虽然听见你这么说我很开心，但我是知道的——",
+			say = "Haha. I'm glad to hear you say that, but I already know––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你因为太过投入，情绪受到了音乐的影响，所以才会下意识做出这种举动。",
+			say = "You were doing that because you were sucked in so deeply by the music that it affected your emotions on a subconscious level.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -428,7 +428,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "紧紧攥住我的样子，就像需要照顾的柔弱婴孩一样——这副模样比音乐更加动人。",
+			say = "The way you clung to me, like an innocent, fragile baby in need of protection – tugged at my heartstrings even more than the music itself.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -446,7 +446,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如说，能够被你如此迫切地需要，我觉得很幸福。",
+			say = "If anything, I was overjoyed to see you need me so desperately.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -464,7 +464,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？觉得不好意思了？",
+			say = "Hmm? It's embarrassing when I put it that way?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -482,7 +482,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，安心。你今天的模样，只会被我深深烙入脑海，绝对不会让他人知晓。",
+			say = "Haha, don't worry. What happened today is just between the two of us. The way you looked will be deeply imprinted in my memory, but mine alone.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -500,7 +500,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以——尽管依赖我吧。难得的独处时光，你可以尽情对我撒娇哦？",
+			say = "So, please continue to rely on me as much as you wish. We don't get to spend time together like this all the time, so you can act a bit more spoiled, you know?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -515,7 +515,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "迎上{namecode:441:腓特烈}温柔的目光后，决定把原本想等到回去之后再送出的惊喜礼物提前就交给她——",
+			say = "After my eyes met with Friedrich's gentle gaze, I decided to give her the gift that I was planning to save until we got back home––",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -531,7 +531,7 @@ return {
 			hidePaintEquip = true,
 			actor = 499020,
 			nameColor = "#A9F548FF",
-			say = "这、这是？！刻着我们名字的指挥棒……？！",
+			say = "Wh-what's this?! A conductor's baton... with our names engraved on it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在与我定下了本日之约后，特意定做的啊……",
+			say = "You had something like this custom-made, just for this occasion...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -588,7 +588,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……感觉有了它，我能奏出更加美妙的乐曲了。",
+			say = "Haha... With this, I feel like I'll be able to make music more beautifully than ever before.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -604,7 +604,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_522",
 			nameColor = "#A9F548FF",
-			say = "我会很期待的。",
+			say = "I look forward to hearing it.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -618,7 +618,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也很期待……我的孩子，要与我做个约定吗？",
+			say = "And I look forward to playing it for you... My child, do you want to make a promise with me?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -636,7 +636,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就约定——",
+			say = "That promise is...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -654,7 +654,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下一次，我会用你送我的指挥棒亲自为你演奏。",
+			say = "Next time, I'll put on a performance for you, with the baton you just gifted me.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -672,7 +672,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "演奏出……能让你全身心沉醉其中的，最棒的乐曲。",
+			say = "And during that performance... I will offer to you only the most splendid music, worthy of you becoming enraptured and engrossed within it.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -687,7 +687,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "她伸出小指，在我的面前轻轻摇晃。",
+			say = "She extends her hand and wriggles her pinky in front of me.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -698,7 +698,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "我也伸出了小指——小指相扣，代表约定的成立。",
+			say = "I also reach out and hook my pinky around hers. And with that, our promise is set.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -709,7 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "就在这一刻，音乐会的余音突然涌出，与脑海中{namecode:441:腓特烈}在舞台上的幻影相交织。",
+			say = "At that moment, the music's afterglow suddenly swirls to life within my head, intertwining with the illusion of Friedrich standing up on the stage.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -720,7 +720,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_522",
-			say = "不自禁再次陷入了音乐的世界中——",
+			say = "And I cannot help but to fall into the world of music once more––",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -734,7 +734,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看来之后的预订要稍微再推迟一些了。",
+			say = "Haha. By the looks of things, we might have to postpone our future plans a little.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -752,7 +752,7 @@ return {
 			actor = 499020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请尽情享受这一瞬间吧，我的孩子——",
+			say = "Please enjoy this wonderful moment to your heart's content, my dear child.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

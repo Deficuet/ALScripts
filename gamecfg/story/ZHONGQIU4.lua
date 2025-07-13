@@ -13,7 +13,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇，是克利夫兰和海伦娜！",
+			say = "Wow, it's Cleveland and Helena!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "嗅着香气追寻到这里，没想到却遇到了你们",
+			say = "I was lured here by this sweet aroma, I didn't expect to meet you girls here.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -47,7 +47,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这种香味……是什么花酒吗？",
+			say = "This sweet aroma... what's this? Some kind of scented wine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是我秘藏的桂花酒~不过没想到连你们都被香气吸引过来了，是密封出问题了吗？",
+			say = "It's my secret osmanthus wine~ But I didn't expect you all to be attracted by the scent. Did I not seal it properly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不……是克利夫兰嗅到一丝若有若无的香气，然后缠着我用SG雷达定位才找到的，其他人即使闻到香气，应该也分辨不出源头吧",
+			say = "No... Cleveland sniffed the scent of the faint aroma, then pestered me to use my SG radar to track its location. Even if there are others who picked up on the smell, they should not be able to locate the source.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里有一个比你找到源头还早的人——",
+			say = "Here is someone who found the source of the aroma before you ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "既是如此亦是有缘，时候也不早了，两位不介意的话，一起留下来吃晚餐吧。今天是东煌的传统节日——中秋哦",
+			say = "Since you're already here, how about staying for dinner since it's already getting late? Today we're celebrating a festival from the Dragon Empery — the Mid-Autumn Festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "今天是轮到我做饭吧……OK！留下来吧！赚到了！",
+			say = "Today was suppose to be my turn to cook, right….OK! Let's stay! I've gotten off easy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "今天不做的话明天还是你哦。我对东煌美食也已经慕名已久了，逸仙，今晚能令我开开眼界吗？",
+			say = "If you don't cook today, you'll still cook tomorrow. I've admired the cuisine from the Dragon Empery for a long time now. Yat Sen, will you be able to open my eyes and shatter my expectations tonight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当然。今天晚餐的主食是象征着团聚和睦的“月饼”，我们还没有做完，想参观下制作过程吗？",
+			say = "Of course. The highlight of tonight's meal are “mooncakes”, which symbolizes harmony and reunion. We haven't finished making them yet, do you want to see the process of how they're being made?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "谢谢，那我就不客气了~",
+			say = "Thank you, don't mind if I do",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "宁海平海，把原料拿出来——",
+			say = "Ping Hai and Ning Hai, please take out the ingredients---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姐姐，我们也来一起做吧！看看谁做得更好！",
+			say = "Sis, let's make them together! Let's see who can make them better!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "总觉得你今天特别活跃呢……好，就让大家看看“Lady Lex”的实力吧！",
+			say = "I feel like you're very excited today... fine, I'll show everyone here the strength of “Lady Lex”!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊！看着好有趣，海伦娜，我们也来一起做吧？",
+			say = "Ah! This looks very interesting, Helena, let's join them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这样，我就算是做过饭啦！明天就——",
+			say = "This way, I can consider this as cooking! So for tomorrow---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不要总是偷懒啦……",
+			say = "Don't be so lazy…...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呀吼！终于做完啦——咦，我是最慢的？明明我以为有伙伴们的帮助至少能在中流呢……",
+			say = "Yeah! I'm done at last - yay, was I the slowest? With help from others, I thought could've at least finished in the middle...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -345,7 +345,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "你揉面花太多时间啦",
+			say = "You spent so much time kneading the dough",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -364,7 +364,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，月已上梢，稍微休息一会就开始中秋的晚宴吧",
+			say = "So, the mooncakes have started baking, let's take a short break before we start our Mid-Autumn Festival dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，在晚宴开始前，请允许我为大家的到来表示感谢！",
+			say = "In addition, before we start dinner, please allow me to express my gratitude for everyone's attendance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哪里哪里~倒是我家妹妹添了不少麻烦吧",
+			say = "No worries~ it's more like my sister has been causing so much mischief for you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "才没有！",
+			say = "No I haven't!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "能吃到逸仙和宁海亲手做的食物是我的荣幸才是",
+			say = "It's an honor to be able to eat food hand-made by Yan Set and Ning Hai.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈！我也没做到什么啦，不过——热热闹闹的才算是节日嘛！",
+			say = "Haha! I didn't do anything, although --- the liveliness is what counts for making it a festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样呢……节日的气氛就是吵闹！",
+			say = "That's true...festivals are all about the rowdy atmosphere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

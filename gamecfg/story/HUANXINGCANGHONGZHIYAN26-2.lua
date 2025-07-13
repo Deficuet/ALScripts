@@ -12,7 +12,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "诸位，下手可真狠啊~不但擅自闯进门来，还打杀了我的看门之物。",
+			say = "You've destroyed my shikigami... That's no way to greet someone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:91}·META",
-			say = "作为客人来说，是否有些太失礼数了？",
+			actorName = "Akagi META",
+			say = "You're awfully rude guests, do you know that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "妖物，{namecode:91:赤城}前辈在哪里？快把{namecode:91:赤城}前辈放了！",
+			say = "Tell us where Akagi is, you monster! Now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "{namecode:91:赤城}？啊~你说的是之前那个不自量力的红毛小狐狸么？",
+			say = "Akagi? Ah, yes, I did see a self-absorbed little fox girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "……快把{namecode:91:赤城}前辈放了，否则。",
+			say = "Let her go now, or else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,9 +150,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "否则如何？她之前不顾死活上来挡枪，不就是在找死么？",
+			say = "Or else what? She has already gone. By her own volition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,9 +164,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "我这人喜欢成人之美，自然是成全她了~不用客气。",
+			say = "She said she wanted to disappear, so I granted her wish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你……你说什么？",
+			say = "You did WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,9 +191,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "非要我说的那么直白么？",
+			say = "You need details, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "人我已经随手杀了，这次听明白了么？",
+			say = "Akagi is dead. Is that clear enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "……你，今天必死。",
+			say = "You rotten fiend... You will pay for this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:91:赤城}前辈，我会为你报仇的！",
+			say = "I will avenge you, Akagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 305070,
-			say = "嘶……节哀顺变，{namecode:161:天城}。",
+			say = "It's awful, I know, but don't blow your top. You can't take revenge if you lose your cool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 305070,
-			say = "事已至此……你别生气上头。身体垮了，报不了仇了！",
+			say = "I get it now – why you made me her sister. If I'd known how dangerous that woman was, I'd have given up my life to protect Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "无需担心，我的身体已经无碍了。",
+			say = "I'm alright, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "倒是此事……唉。",
+			say = "It's just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……没想到这个META，居然最符合META原本定义的那一类。",
+			say = "I can't believe Akagi really turned META...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，救援行动已经失败，接下来该怎么办？",
+			say = "Commander, what should we do about her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（观察者，她是否在说谎？）",
+			say = "(That's really her. She turned META...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（说没说谎我不清楚，不过岛上确实只剩她一个{namecode:91:赤城}了哦。）",
+			say = "(Yes, that's exactly what I said earlier.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（那你呢，你是否说谎？）",
+			say = "(Well, I appreciate the honesty for once.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（哎呦喂~有你家海伦娜盯着，我哪儿敢啊~）",
+			say = "(I deliver bad news to you, and you're grateful for it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……明白了。）",
+			say = "(I'm grateful for you giving me the confidence that I can save her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（哦？你明白什么了？）",
+			say = "(Oh? And how do you plan to do that?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（——你猜。）",
+			say = "(You'll see.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "此事尚有疑点，现在认定行动失败为时过早。",
+			say = "It's okay. There's still a way to save her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}，你怎么看？",
+			say = "Do you know what I mean, Amagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "这一次，我想先听听{playername}阁下的意见。",
+			say = "Yes. There is certainly a way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不论如何，大战一场是不可避免了。",
+			say = "But first, we need to pacify her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "嗯，如果必须如此的话……",
+			say = "That is true. I know what needs to be done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "本次，可否依旧由我作为先锋出战？",
+			say = "To do it, I believe I should take the vanguard position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "自然。",
+			say = "Absolutely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "诸位……",
+			say = "Ryuuho, Zuikaku, are you ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}大人，不用勉强……我们都懂。",
+			say = "Just don't do anything wild, okay? I know how you must be feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……杀。",
+			say = "Let's take her down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,9 +580,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "呵，想杀我？那得先看看你们有没有这个本事！",
+			say = "Take me down? Do you really think you can?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,9 +611,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "燃尽一切吧——！",
+			say = "I think I'll burn you to ashes instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

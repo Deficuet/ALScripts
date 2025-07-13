@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"指挥官请点击<color=#ff7d36>出击</color>",
-	"敌方旗舰出现！点击目标继续前进！"
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Enemy flagship ahead! Tap the target to continue moving!"
 }
 
 return {

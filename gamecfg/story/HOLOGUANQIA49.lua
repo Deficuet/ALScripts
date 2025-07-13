@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_holosaba2",
 			dir = 1,
-			say = "终于，最后的时刻来临了",
+			say = "Finally, the last moments have arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,40 +27,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "那么，请听一下我的致辞！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_holosaba2",
-			actor = 10500030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "在这美好的一天里，仿佛能感受到春日来临的脚步，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10500030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba2",
-			side = 2,
-			dir = 1,
-			say = "我，湊阿库娅，今天也顺利地迎来了毕业典礼",
+			say = "Well then, please listen to my response!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +44,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从进入碧蓝航线世界开始，就一直陪伴在我身边的吹雪，祭，澪，绫目，诗音，空前辈",
+			say = "On this day, at this time, feeling the advent of spring",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +60,40 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "一直以来并肩战斗的{namecode:158}，{namecode:96}，拉菲，{namecode:6}，标枪，{namecode:408}，净化亲",
+			say = "I, Minato Aqua, was able to head toward graduation without issue.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_holosaba2",
+			actor = 10500030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Those who were always by me since arriving in the world of Azur Lane: Fubuki, Matsuri, Mio, Ayame, Shion, Sora",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10500030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_holosaba2",
+			side = 2,
+			dir = 1,
+			say = "Those who always fought together with us: Kawakaze, Zuikaku, Laffey, Ayanami, Javelin, Z23, Purity",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以及，山田·赫敏、澪川依代、燕子花奈切、夏 色 祭、诗 音、抖S空前辈、名侦探吹雪\n、DARK FOX BIZZARD",
+			say = "Along with Yamada Hermione, Miokawa Iiyo, Kakitsubata Nakiri, Ma Tsu Ri, Shi O N, Super Sadist Sora, Great Detective Fubuki, Dark Fox Blizzard",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有从头到尾都没有露过一次面的测试怪人…",
+			say = "And, the one who didn't make a single appearance from start to finish, Tester",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是同伴还是敌人，真的非常感谢你们！",
+			say = "Friend or Foe, I truly thank you for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回想起，不久之前，我怀揣着不安与恐慌，踏入了镜面海域的大门",
+			say = "If I think about it, just a little bit ago, my chest was full of unease and fear as I entered through the gate of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在那之后的几周里，与大家经历了很多超厉害的事，创造了数不尽的回忆",
+			say = "Since that day, I was able to make countless memories with everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与大家一起协力合作，练习作战技巧。女仆之间的战斗、大迷宫攻略作战、黑暗游戏对决…",
+			say = "In a group together with everyone, I was able to increase my skills in battle. From a battle between maids, to planning and clearing a huge labyrinth, to a Shadow Duel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是陷入危机的恐惧，还是收获物资的快乐",
+			say = "The fear of being thrust into crisis after crisis, the joy of collecting items",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有其它很多很多东西，我都从舰船的生活中体会到了",
+			say = "I was able to learn many things spending everyday life as a ship girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "即使在毕业之后，我也不会忘记在这几周生活中的所学所得",
+			say = "Even if I graduate, I will never forget the lessons I have learned here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家，真的非常感谢你们迄今为止对我的照顾！",
+			say = "Everyone, I thank you for taking care of me up to now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "最后我想说的是…作为hololive的一员 从心底里祈福今后的道路",
+			say = "While this ends with that, as a member of Hololive, I would like to offer everyone a prayer for their lives after this event.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "毕业生代表 湊阿库娅",
+			say = "Graduating Student Representative, Minato Aqua",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………………",
+			say = "...",
 			bgm = "holo-control",
 			flashout = {
 				black = true,
@@ -346,7 +346,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，hololive反抗军出动！要开始了哦！！！！！！",
+			say = "Well then, Hololive Resistance, we're good to go! Let's start this show!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			side = 2,
 			dir = 1,
-			say = "五、四、三、二、一…",
+			say = "Five, four, three, two, one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 10500030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "爆破！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+			say = "Explosion!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 11,

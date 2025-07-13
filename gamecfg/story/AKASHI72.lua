@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "哼哼哼，看来{namecode:98}赢定了喵～",
+			say = "Hehehe, looks like {namecode:98} will win for sure~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "为了以防万一，再多试几次喵！",
+			say = "Just in case, let’s test these out some more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "{namecode:98}已经准备好找{namecode:20}算账了喵！",
+			say = "{namecode:98} has prepared everything, {namecode:20}, it's time for you to pay the bill!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

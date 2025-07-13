@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "搜寻到海域中隐藏的物资！",
+			say = "Cache has been successfully salvaged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

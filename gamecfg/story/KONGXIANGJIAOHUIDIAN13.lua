@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-周边海域",
+			say = "Mirror Sea - α phase",
 			bgm = "battle-siren-centraltower",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "随着众人的接近，战场的情况开始变得清晰起来。",
+			say = "As the fleet got closer, it became increasingly clear who was wreaking havoc on the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			bgName = "bg_bsmre_4",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "啊哈哈哈哈！杂鱼再多也是杂鱼！",
+			actorName = "U-556 META?",
+			say = "Hahaha! An army of trash is still a bunch of trash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,8 +124,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "本骑士现在还有重要的事要去做，耽误了时间你们负得起责任么！",
+			actorName = "U-556 META?",
+			say = "The Parzival of the Seas still has important things to do, so stop wasting my time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_4",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "呵呵呵，要不然还是现在就负起责任来好了！",
+			actorName = "U-556 META?",
+			say = "Fine! If you're gonna be like that, I'll sink you all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,12 +217,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 9708010,
 			nameColor = "#ffa500",
-			say = "全部消失吧！",
+			say = "You're all going to sink!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "已经变得和先前迥然不同的海上骑士正与塞壬舰队忘我地战斗着。",
+			say = "The once cheerful and easygoing self-proclaimed knight was now ripping through the Sirens, shouting uncharacteristically.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "全然没有注意从远方缓缓接近的{namecode:435}一行人。",
+			say = "She was so absorbed in fighting that she didn't even notice Bismarck and the rest of the fleet approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那个就是……现在的{namecode:416}？",
+			say = "Is that... U-556?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难以置信…………{namecode:416}怎么会…………",
+			say = "Looks sort of like her, but she sure doesn't SOUND like her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "这就是META化。",
+			say = "Without a doubt, that's a telltale sign of METAmorphosis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但会改变我们的外表与舰装，还会改变我们的内心。",
+			say = "While her appearance is broadly the same, her rigging looks very different. It's a reflection of the changes to her psyche.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "还能用革律翁逆转么？！",
+			say = "Can you use your Geryon to bring her back to normal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "…………如果{namecode:416}没有迈过那条边界的话。",
+			say = "I'm not sure. Geryon is able to absorb external sources of corrosion. If her hull has already been corrupted, I'm afraid there's not much I can do about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "边界……可是她现在的样子…………！",
+			say = "Does that mean... she's beyond salvation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不能仅凭外表进行判断。",
+			say = "I'd have to examine her more closely to answer that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "META化，虽然归根结底是由量变产生的质变，但并不是简单的程度越重，变化就越大。",
+			say = "(From what Scharnhorst and Gneisenau have told me, the symptoms of METAmorphosis, namely changes in power and external appearance, do not necessarily reflect the degree of corrosion.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既存在META化程度很轻但外表发生改变的情况，也存在即将跨越边界，却几乎看不出区别的情况。",
+			say = "(In some cases, even minor hull corrosion can cause extremely noticeable abnormalities, whereas on the other hand, there are cases in which late-stage corrosion hardly exhibits any symptoms.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "这方面要……更加因人而异一些。",
+			say = "(In other words, it all depends on the hull in question.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在跨越边界之前，不论发生什么变化都有可能。",
+			say = "To the best of my knowledge, U-556's condition was stable until it was exacerbated by the black mist. If I can draw it away from her the same way I did with Ulrich...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "而同样，在跨越边界之前，不论发生什么变化都是可逆的。",
+			say = "There's a chance she can still be saved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不要放弃希望。",
+			say = "So, don't give up hope.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "是！我明白了！",
+			say = "Okay. Thank goodness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，战况有变，{namecode:416}有麻烦了。",
+			say = "Bad news, Bismarck. Before we can talk about any of that stuff, we have to first make sure she comes back in one piece.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "那些突然出现的，是代行者舰队没错吧？",
+			say = "More Sirens are coming, but this time, they've brought Enforcers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "代行者……？！",
+			say = "Enforcers?! That means––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！那个型号我认识，代行者IX「Exploration」，是赫米忒的代行者！",
+			say = "Damnit, I can see them too now! Where these guys go, the Arbiters follow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "赫米忒，仲裁机关的代行者……",
+			say = "Enforcer IX: Exploration... So, the Hermit really is the one behind all this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "{namecode:435}大人，{namecode:416}已经被代行者包围了！她应付不了这么多敌人的！",
+			say = "They've got U-556 surrounded! Even a META doesn't stand a chance against this many of 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "刚刚META化，信心膨胀了，对于力量却还不熟悉……",
+			say = "During the early stages of METAmorphosis, it's easy to be intoxicated by that newfound power.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我当时也吃过大亏……",
+			say = "It happened to me, and I suspect it's happening to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这种时候格外危险，{namecode:435}大人，我认为应该立刻展开救援。",
+			say = "In this state of recklessness, she's likely to fight to the death if backed into a corner. We have to go after her right now, Bismarck!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:491}，空袭支援！",
+			say = "Jade, Zuikaku, give us aerial support while we close in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好的，支援马上抵达~！",
+			say = "Understood! Scrambling planes now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -864,8 +864,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "切…………难缠的家伙来了。",
+			actorName = "U-556 META?",
+			say = "More enemies? Dammit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,8 +882,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "怎么还有飞机增援？！别碍事！",
+			actorName = "U-556 META?",
+			say = "Of course they've got aircraft... Piss off, all of you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "欸~？！舰载机被{namecode:416}击落了？！",
+			say = "Hey! U-556 is shooting at my aircraft!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那是我的飞机啊，她认不出来么！",
+			say = "What's she doing? Did her memories get wiped by METAmorphosis or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "有些麻烦。看来她现在没有辨明敌我的能力，贸然接近会有危险……",
+			say = "That's not the issue. She doesn't seem to have the ability to distinguish friend from foe at the moment. The more aggressively we intervene, the more likely she'll see us as enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1038,7 +1038,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "可是也不能就这么看着啊！",
+			say = "What do we do then? We can't just watch while she gets blasted to pieces!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "我有一个办法，但是需要你们的配合。",
+			say = "I have an idea, but I'll need you all to help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1073,7 +1073,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，我会径直前往{namecode:416}的位置。",
+			say = "I'll make a beeline to U-556.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1091,7 +1091,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "你们将战场拉远，给我们一点时间和空间。",
+			say = "In the meantime, create a diversion and try to draw the Sirens away from us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,7 +1108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}，作战指挥就交给你了。",
+			say = "Ulrich, can you take command?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1126,7 +1126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "没问题，你也小心。",
+			say = "Sure. You be careful now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1144,7 +1144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "放心吧。",
+			say = "I'll be fine. Good luck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1162,7 +1162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "所有人齐射三轮，为{namecode:435}阁下的前进打开道路。",
+			say = "Alright, listen up! On my mark, fire three volleys at the Sirens and take heat off of Bismarck and U-556!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1180,7 +1180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "之后自选目标行动，将战场从二人身边拉远。",
+			say = "Once they're on us, we'll spread out away from 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "记住，作战的目标是吸引敌方注意力，在{namecode:435}阁下完成任务之前，务必为她争取到足够的时间和空间。",
+			say = "Remember, our job is just to keep them busy! Buy Bismarck enough time to get U-556 to safety!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1210,11 +1210,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "铁血众人",
+			actorName = "Everyone",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "很好，作战开始！",
+			say = "Okay! Go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

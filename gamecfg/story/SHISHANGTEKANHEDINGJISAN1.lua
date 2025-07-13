@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[3]\n\n<size=45>Allnight Charge</size>",
+					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Allnight Charge</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 199041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "评估完成，动作摆放结果，不合格。",
+			say = "Evaluation complete. Pose unsatisfactory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……不行，评估结果，不合格。",
+			say = "No, this isn't good, either... Evaluation result: unsatisfactory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这样……也不对。评估不合格。",
+			say = "Still not right... Appraisal: unsatisfactory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "拍摄现场，奇尔沙治正在镜头前不断调整着动作。",
+			say = "At the port's promotional shoot, Kearsarge repeatedly adjusts her pose in front of the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "但似乎无论怎样都达不到她预期的效果。",
+			say = "It seems like she just can't get it to her liking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "尽管少女的脸上还是一如既往地没什么表情，语气也相当平稳。",
+			say = "Her expression is as flat as ever, and her voice doesn't show much emotion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "但是从动作的变换速度中，还是可以感觉到她的焦躁。",
+			say = "But her anxiety is evident in the frequency with which she changes poses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "已确认，拍摄遇到了不可避免的阻碍。现已停止相关拍摄指令，搜寻解决方案——",
+			say = "Inevitable difficulties during filming observed. Halting filming order and searching for a solution.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "搜寻中——搜寻失败。再次启动搜寻指令，方案搜寻中——",
+			say = "Search... failed. Continuing troubleshooting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "搜寻失败……开始寻求场内指导。",
+			say = "Ugh, this isn't working... Requesting on-field guidance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，本次的拍摄行动不可避免地失败了。",
+			say = "Commander, the filming must be stopped immediately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "解决方案搜寻无果，你有什么可行的建议吗？",
+			say = "My search for a solution has been fruitless. I need actionable advice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……其实从我的角度来看，之前的动作不能算是不好。",
+			say = "This is just my opinion, but I don't think you can call all of those poses outright failures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是和你预想的有差距，所以才被判定为不合格的吧？",
+			say = "Did you judge them as failures because they weren't what you expected?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "或许你可以先告诉我，你想达到什么样的感觉？",
+			say = "I'd like to hear what you're going for first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "为了迎合本次的新型布景与特别服饰，我打算用匹配该风格的姿势来拍摄短片。",
+			say = "Of course. I would like to pose in a way that matches the new set and special costume.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在此之前，我已经查阅了大量相关资料，但……",
+			say = "I studied a wealth of relevant resources in preparation, and yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明明摆出了与资料中相同的动作，镜头里却呈现出了微妙的违和感。",
+			say = "While I tried to imitate the poses in said resources, I felt some small inconsistencies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大量相关资料……",
+			say = "A wealth of resources, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此，怪不得刚才会混入一些“过于张扬”的动作。）",
+			say = "(I guess that explains some of those...more flamboyant poses.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（因为太注重于服饰和布景题材，从而迫使自己饰演了自己并不熟悉的角色类型。）",
+			say = "(She's so focused on the motif of the outfit and set that she's forgetting to be herself.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（所以动作才总是达不到心中预期的程度么……）",
+			say = "(No wonder it differs from her expectations.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我有个提议，或许你可以试着忽略布景和服装的限制，自由表现内心的想法。",
+			say = "I have an idea. Forget the clothes and the set for now, and try posing however feels right to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "忽略……布景和服装？",
+			say = "Forget them...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是的，不要刻意去迎合布景和服装，试着做一些自己内心真正想做的动作如何？",
+			say = "Yeah. Instead of changing yourself to fit them, you should express what you want to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "…………指挥官说的有些道理。",
+			say = "...There is some logic in that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "奇尔沙治，开始生成新的拍摄计划。",
+			say = "Very well. I will try a new composition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "于是，少女在沉思片刻后再次回到了镜头前——",
+			say = "After a moment of thought, she runs back in front of the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "最终决战兵器——",
+			say = "Ultimate final weapon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "————启动！",
+			say = "Activate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "最终，在奇尔沙治自然流畅的动作和表情中，这支短片的拍摄总算圆满落幕了。",
+			say = "Thanks to Kearsarge's natural expression and motions, the filming swiftly ends in success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

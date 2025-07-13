@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "bsm-3",
 			dir = 1,
-			say = "雷达反应消失，小老鼠跑远了",
+			say = "I drove 'em off. They're not showing up on my radar, so they must've run off home to mama.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "接下来该怎么办，皇家的主力舰队恐怕很快就会来拦截我们了吧",
+			say = "So, now what? Shouldn't we be coming across a Royal Navy main fleet any second now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#ffde38",
 			side = 0,
 			dir = -1,
-			say = "{namecode:428}",
+			say = "Eugen...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "嗯？",
+			say = "Yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "莱茵演习已经失败，终止行动，立刻调转航向，返回母港",
+			say = "My injuries are worse than I thought. I can't continue this operation until I've had repairs. We're heading back to base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可是，恕我直言，你身上的伤...恐怕坚持不了这么远的航程",
+			say = "Are you... sure about that? Even if we head straight for it, it's a long way to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "我的意思是...让你独自返航，我另有打算",
+			say = "I'll head straight back to port. You continue the mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是要我抛下你吗？这听起来可不像是个好主意",
+			say = "You mean, on your own? I'd be lying if I said that sounds like a good idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "这附近有盟友控制的海域，只要能到达那里，就算是皇家舰队也不敢贸然追击",
+			say = "My route is through friendly waters. It would be difficult even for the Royal Navy to attempt any kind of attack there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "维希教廷么...原来如此",
+			say = "Ah, Vichia's waters... I guess you thought this through after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "希望你能尊重我的命令，这次可容不得你任性了，{namecode:428}",
+			say = "... I've given you orders, and you will follow them. I will not tolerate any more narcissistic behavior on your part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我…",
+			say = "………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我明白了，现在是非常时期，对吧？",
+			say = "All right, I'll do as you say. The circumstances are extraordinary, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "那就立刻启程，不要耽误时间。",
+			say = "We have no time to waste. Depart at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "从现在开始，就是和时间赛跑的战斗了。",
+			say = "And maintain top speed. Don't stop for anything until you've reached safe waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "直到抵达安全海域之前都不能停下脚步。",
+			say = "Lastly, I will remind you once more: this is a direct order from the leader of the Iron Blood fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "{namecode:427}号重巡洋舰遵命。祝你好运，{namecode:435}",
+			say = "Understood. I wish you good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "祝你好运",
+			say = "Same to you. May the God of war be with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,10 +299,10 @@ return {
 		{
 			side = 0,
 			nameColor = "#ffde38",
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			dir = -1,
 			blackBg = true,
-			say = "Eisen und Blut über alles！",
+			say = "... Victory to us.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -323,11 +323,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "Eisen und Blut über alles！",
+			say = "... And long live Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

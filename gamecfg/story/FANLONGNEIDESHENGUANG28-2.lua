@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "此起彼伏的爆炸声中，仿佛更加凝实的红黑色的巨兽对陷入其中的猎物发出了怒涛般的攻击。",
+			say = "Amidst ceaseless explosions, the great beast of condensed red and black fog launched a relentless attack on the prey trapped within it.",
 			bgm = "battle-thechariotvii",
 			flashout = {
 				black = true,
@@ -45,7 +45,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（有些急促的机械轰鸣声）",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就是现在——",
+			say = "Marco Polo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，反攻之时已到——",
+			say = "Once again! Commencing the final quenching stage of the plan!",
 			effects = {
 				{
 					active = false,
@@ -105,7 +105,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"撒丁岛·马可波罗准备区",
+				"Sardegnia Island - Marco Polo's Ritual Area",
 				3
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "卡尔杜齐，命令各处节点立刻关闭永夜战旗，重启神光之网。",
+			say = "Carducci, send out the following commands to every node: Immediately remove the Banner of the Eternal Night and restart the Lattice of God's Light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,12 +128,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，圣座冕下。",
+			say = "As you command!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,12 +143,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉斐尔，立刻带领审判型机甲武装加入战斗！",
+			say = "Raffaello, send the Mechanicus Harbingers to the front!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,13 +158,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			paintingNoise = true,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我优秀的作品们，随我一起去大闹一场吧~！",
+			say = "Oh yeah! Let's wreck some stuff! Go and give them hell, my masterworks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有巴拉卡少校，你也带领教廷近卫舰队全军出击！",
+			say = "And Baracca – lead the Holy See Guard Fleet into battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,13 +189,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			paintingNoise = true,
 			actor = 608030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于可以加入战斗了，我已经待命多时了！",
+			say = "I've been waiting for this. We're ready to go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,12 +205,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后——",
+			say = "Magnificent! And finally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,12 +220,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神啊——请赐予我力量，让天国降临吧——！",
+			say = "O God! Give me your strength and bring to us your kingdom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

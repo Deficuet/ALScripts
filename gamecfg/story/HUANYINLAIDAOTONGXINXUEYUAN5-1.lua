@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "画面中，震动与轰鸣声仍旧没有停下。",
+			say = "The rumbling and shaking in the camera feed still hasn't stopped.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "操场上的震感怎么好像更强烈！指挥官，我们该怎么办……？",
+			say = "It's even worse on the athletic field! Commander, what do we do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,10 +54,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "保持镇定。在保证自身安全的前提下，先检查周围是否有引发异常现象的设施——",
+			say = "Above all else, stay calm. Once you've secured your own safety, confirm that there's nothing around you that could trigger anything worse–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:494:Z47}",
+			actorName = "Z47",
 			nameColor = "#A9F548FF",
-			say = "呜哇啊啊啊啊啊——！救命啊——！！！",
+			say = "AAAAH! HELP MEEE!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边的是……{namecode:494:Z47}？",
+			say = "Is that... Z47?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "还有小克利夫兰，{namecode:469:小齐柏林}和小声望……？",
+			say = "Renown, Zeppelin, and Cleveland, too...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,10 +120,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:536:U-31}，快把镜头对过去。",
+			say = "U-31, spin the camera toward them for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "明白~！",
+			say = "Roger-dodger!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "操场的另一端，{namecode:494:Z47}正在高速移动的跑道上慌乱地奔跑着。",
+			say = "On the other end of the field, Z47 is running desperately on a moving track reminiscent of a treadmill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,19 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "而在跑道内侧的小声望，{namecode:469:小齐柏林}和小克利夫兰则在看见闪耀星星小队后露出了惊喜的神情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_childschool",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（看来高速移动的跑道就是这场“地震”的源头……）",
+			say = "On the inside of the track are Little Renown, Zeppy, and Clevelad. They're surprised and relieved to see the Twinkling Little Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +175,19 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（按照之前的惯例，想要让跑道停下来肯定也要满足某种特殊条件……）",
+			say = "(The track on the field is moving... This must be what caused the earthquake.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_childschool",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Based on how we've solved the other problems so far, there must be some condition we need to meet in order to stop it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "叛恶者绝不会抛下身陷囹圄的同伴——！吾来拯救汝！",
+			say = "A rebel would never abandon her imprisoned comrades! I'm on my way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "等等——！",
+			say = "Hey, wait!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}正要去阻止{namecode:537:Z43}，但她已经跳上了跑道。然后——与{namecode:494:Z47}一同高速奔跑了起来。",
+			say = "U-31's cries fall on deaf ears. Z43 runs onto the track thoughtlessly... and gets stuck running on it just like Z47.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "……啊啊啊——！救命啊——！！",
+			say = "Aaaagh! Heeelp!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "事态越来越严重了……",
+			say = "*sigh*... Things are just getting worse...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "可恶，未来的海上骑士才不会被跑道打倒，让我去救——",
+			say = "But one destined to be a Solomon Knight mustn't be afraid of a moving track! Allow me to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "有了{namecode:537:Z43}的前车之鉴，{namecode:469:小齐柏林}和小声望联手摁住了小克利夫兰，阻止了她的冲动行事。",
+			say = "Clevelad tries to run in, too, but Zeppy and Little Renown manage to stop her after seeing the horrors that Z43 fell into.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "笨蛋！你跳上去只会变成三个人一起跑步吧！",
+			say = "Idiot! If you go, you'll just be the third one stuck on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "可是也不能眼睁睁继续看着吧……",
+			say = "Th-that doesn't mean I can stand idly by and let it happen...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501020,
-			say = "事已至此，快使用舰炮把操场炸断吧！",
+			say = "We have no other choice. Let's blow this field to smithereens with our cannons!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人和跑道都在移动，万一误伤了怎么办！",
+			say = "Our friends are stuck on that track! Ever heard the words \"friendly fire\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501020,
-			say = "用小口径啊！",
+			say = "Just use small-caliber cannons!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有道理欸！",
+			say = "Ooh. Now we're cooking with gas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "有道理个鬼啊！",
+			say = "No, you are NOT!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "……我有办法了。",
+			say = "...I have an idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "要怎么做——",
+			say = "What is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "{namecode:469:小齐柏林}突然抓着小克利夫兰的腰，将她高举起来。",
+			say = "Zeppy grabs Clevelad by the waist and lifts her up high above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊！你怎么把我举起来了？！",
+			say = "Eep! Wh-what are you doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "然后……",
+			say = "Now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "{namecode:469:小齐柏林}开始高速转起圈来。",
+			say = "Then, she starts spinning Clevelad around at incredible speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "欸——？难、难道说——",
+			say = "Huh? W-wait...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "吃——我——一——炮——！",
+			say = "Take thiiis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "砰——！",
+			say = "KABOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "小克利夫兰如同离弦的导弹一般精确命中了在跑道上奔跑的{namecode:494:Z47}与{namecode:537:Z43}，三人滚成一团离开了跑道。",
+			say = "After being fired like a missile, Clevelad strikes Z47 and Z43. The momentum throws all three of them off the track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407020,
-			say = "呼——问题解决。",
+			say = "Phew... That's another one solved!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407010,
-			say = "嗯……真是个有创意的解决方案呢。",
+			say = "Hmm... Creative, to be sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "就是事先预告一下就更好了，疼疼疼……",
+			say = "At least tell me first... Ouchies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们是来调查校园内情况的吧？通过这个摄像头和外部联系？",
+			say = "So, did you all come here to check out the situation at the academy? While relaying everything to the outside with that camera?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "指挥官——！能听见我说话吗？",
+			say = "Commandeeer! Can you hear meee?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,10 +768,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯清晰。在我们来之前，这里发生了什么事？",
+			say = "Yeah, I can hear you. What in the world happened before the investigation team came in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "哎……我们其实也不是很清楚。",
+			say = "Well... We don't really know, either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,25 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本教室的门突然打不开了，走廊里还有些奇怪的指挥喵在跑动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_childschool",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102200,
-			say = "后来好不容易教室的门开了，我们想先跑到操场看看情况，结果跑道又突然动了起来。",
+			say = "The classroom door suddenly wouldn't open, and weird Meowfficers started running through the halls...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,7 +820,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "再之后，就是你们看到的了。",
+			say = "When we finally got the door open and came to check out the field, the track started moving out of nowhere...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_childschool",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102200,
+			say = "And you saw how that turned out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,7 +855,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果放任移动的跑道不管，整个校园会在震动中被逐渐摧毁的。",
+			say = "If we don't do something about this track, the whole campus could get destroyed by the earthquakes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,10 +869,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，必须要尽快让移动的跑道停下来。",
+			say = "Agreed. We have to stop that track ASAP.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501020,
-			say = "指挥官你看！现在跑道上没人了，我们是不是可以……",
+			say = "Commander, there's nobody left on it. Let's fire–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501010,
-			say = "抚顺——————！",
+			say = "FU SHUN!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,7 +922,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501020,
-			say = "别我错了，鞍山姐……啊，疼、疼，别拧我耳朵啊鞍山姐！",
+			say = "Okay, sorry... Ow, I said I'm sorry! Ow, ouch! H-have mercy on my ear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,11 +934,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "校园广播",
+			actorName = "PA System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "…滋…健康活力…滋……青春无价…滋…",
+			say = "BZZT... HAPPY AND ENERGETIC... BZZT... TREASURE YOUR YOUTH...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,11 +946,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "健康活力·石膏喵",
+			actorName = "Meowfficer Bust of Exercise",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "——————！喵！",
+			say = "Meow! Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "哦？我已经找到规律了，这次是比体育么？",
+			say = "Hahah! I get it. It's a track-and-field competition they want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "那就用运动力来一决胜负吧~",
+			say = "Let's show them just how athletic we can be!",
 			painting = {
 				alpha = 0.3,
 				time = 1

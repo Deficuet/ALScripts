@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"一锤！Burin！\n\n<size=45>二　刻苦的回报</size>",
+					"One-Punch! Bulin!\n\n<size=45>2.Hard Work Pays Off</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "自那之后，特装型布里MKIII一直在为了能追逐传说而刻苦训练。",
+			say = "The MKIII Bulin has been training day in, day out ever since she first set off on her quest.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看招，“超级喵喵1号”burin！",
+			say = "Feel the might of my Kitty Kabam Hammer, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "成功啦！果然我是最强的burin！",
+			say = "I did it, bulin! I've become the strongest girl alive, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "每天跑步十公里，一百下伏地挺身，一百下仰卧起坐再加上一百下深蹲，我已经练成啦burin！",
+			say = "My daily workout routine of 100 situps, 100 pushups, 100 squats, and a 10-kilometer run has turned me into a demigod, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是“超级喵喵1号”已经到极限了burin，必须要找到能承受我power的兵装才行burin！",
+			say = "But my Kitty Kabam Hammer has reached its physical limits, bulin... I need a new, stronger weapon that can withstand my power, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让我们来帮你buli！我们已经找到了传闻中的“超级彩虹锤1号”的线索buli！",
+			say = "Good news for you, bulin! We've found clues as to where the legendary Ultra Rainbow Hammer is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要装备了它，你就是最强的purin！",
+			say = "You'd be invincible if you had that, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗burin！",
+			say = "Really, bulin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯！它就在试炼之地purin！只要通过试炼，就能得到它了purin！",
+			say = "Really-deally, bulin! It's in the Site of Trials, bulin! Pass all the trials and the hammer will be yours, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "小菜一碟burin！见证我的训练成果吧burin！",
+			say = "Easy peasy, bulin! I've been training for something like this, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1

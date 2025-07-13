@@ -10,13 +10,13 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			stopbgm = true,
 			bgm = "cw-story",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是一个炎炎夏日。晴空万里，艳阳高照。",
+			say = "It was a fervid summer day... The skies were clear, and the sun hung high in the sky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,9 +45,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 101490,
-			actorName = "谜之声A",
+			actorName = "Mysterious Voice 1",
 			nameColor = "#A9F548FF",
-			say = "啊！旁白的声音换了？",
+			say = "Hey! They got a new narrator!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,9 +59,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301890,
-			actorName = "谜之声B",
+			actorName = "Mysterious Voice 2",
 			nameColor = "#A9F548FF",
-			say = "这次主角不也换了么……本场剧目的主角是指挥官，我们只是观众而已嘛！",
+			say = "And new actors, too. The Commander's the lead now, and it's our turn to watch the play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 501020,
-			actorName = "谜之声C",
+			actorName = "Mysterious Voice 3",
 			nameColor = "#A9F548FF",
-			say = "嘘，别出声，好好看！",
+			say = "We should be quiet then! Like audience members are supposed to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 307080,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			nameColor = "#A9F548FF",
-			say = "咳……那么妾身继续。",
+			say = "Ahem... As this one was saying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，大军正沿着林间道路行走着。而领军的大将正坐轿子中，略显疲惫地眯着眼。",
+			say = "An army marched the path through the woodlands. Their general – the Commander – was resting inside a sedan chair, carried by the troops...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……轿子？这场剧目是古装剧……？",
+			say = "Wait, a sedan chair? Is this story set during the Warring States period?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,11 +144,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错。领军的大将正坐在豪华的轿子中，身边被无数古玩珍宝所包围。",
+			say = "Indeed... The Commander's sedan chair was large and highly ornate, filled with curiosities and antiques – more than one could count...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……在轿子中还放了古玩和珍宝……？",
+			say = "It IS pretty spacious in here. It could do without all the boxes and bottles, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（仔细一看，除了轿内的装潢之外，我身上的衣服也十分华丽。）",
+			say = "And this uniform... it's very different to my usual one. I look like some sort of Edo-period magistrate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来我所扮演的剧目主角，是一个极其富有的人。）",
+			say = "Safe to assume, I must be playing an extremely wealthy person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,9 +196,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301290,
-			actorName = "跑得很快的近侍",
+			actorName = "Fleet-Footed Retainer",
 			nameColor = "#A9F548FF",
-			say = "报、报告主公！前线战况进展十分顺利！",
+			say = "I-I bring you a report, Milord! Our battle on the front is unfolding smoothly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,8 +210,8 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "跑得很快的近侍",
-			say = "我军先锋如入无人之境，已经拿下了敌人两座城！相信很快就能取得胜利了！",
+			actorName = "Fleet-Footed Retainer",
+			say = "Milord's vanguard has already seized two castles with all the ease of a walk through the grasslands! Victory shall surely be yours soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,8 +223,8 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "得意的近侍",
-			say = "嚯嚯嚯~那是当然！有我等大军压境，还有主公亲自出马，胜利是自然的事！",
+			actorName = "Boastful Retainer",
+			say = "Hahahah! Of course! Our great army's victory is inevitable, particularly with Milord at the helm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,9 +236,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301900,
-			actorName = "得意的近侍",
+			actorName = "Boastful Retainer",
 			nameColor = "#A9F548FF",
-			say = "反而是对面，非但不投降，居然还敢抵抗~真是不识好歹！",
+			say = "Our foes would be wise to surrender, and instead they struggle like imbeciles! They must be taught a lesson!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "优雅的近侍",
-			say = "好啦……好啦，消消气。现在天气这么热，再生气的话可是会起痘痘的哦。",
+			actorName = "Graceful Retainer",
+			say = "I-I think you should calm yourself... It's hot today, and you risk a heatstroke if your anger overboils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,8 +263,8 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "跑得很快的近侍",
-			say = "报、报告大人！前方道路周边聚集起了很多村民！",
+			actorName = "Fleet-Footed Retainer",
+			say = "Milord! A large group of villagers have gathered on the road ahead of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,9 +276,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301290,
-			actorName = "跑得很快的近侍",
+			actorName = "Fleet-Footed Retainer",
 			nameColor = "#A9F548FF",
-			say = "似乎是在得知大军会行经此处后，自发组织起来为我们准备了美食美酒，以犒慰我军的辛劳！",
+			say = "They knew of Milord's coming and are offering alcohol and rations to thank Milord's army!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,9 +290,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301900,
-			actorName = "得意的近侍",
+			actorName = "Boastful Retainer",
 			nameColor = "#A9F548FF",
-			say = "哦~这些村民还真是识大体啊。那我们就干脆停下来休息一下好了！",
+			say = "So the commoners embrace the tides of change. Milord, shall we halt and savor a moment's respite?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,9 +304,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301820,
-			actorName = "优雅的近侍",
+			actorName = "Graceful Retainer",
 			nameColor = "#A9F548FF",
-			say = "是啊大人……现在天气那么热，，周围的村民们又盛情难却，我们不如停下来休息一下吧？",
+			say = "I support this idea. It's sweltering, and the villagers are extending their goodwill. Let us stop and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,9 +318,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 301820,
-			actorName = "优雅的近侍",
+			actorName = "Graceful Retainer",
 			nameColor = "#A9F548FF",
-			say = "休息的地方……就选附近山脚下的平整区域如何？虽然面积不大，不过也足够本阵扎营了。",
+			say = "As for where... Yes, I think the flat plain by the side of the mountain shall do. It's not the most spacious, but it's adequate to set up camp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,18 +332,18 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好！",
+					content = "Aye! Rest we shall!",
 					flag = 1
 				},
 				{
-					content = "……等等？！",
+					content = "Hold your horses!",
 					flag = 2
 				}
 			}
@@ -353,12 +353,12 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			optionFlag = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样，大军扎好了营帐，在村民提供的美食与美酒中放松休息了起来。",
+			say = "The army set up camp by the mountain, gorged themselves on the offerings of the villagers, and enjoyed their break...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（现在是在行军打仗途中，就这样随便决定在路边扎营……？）",
+			say = "Can we really stop and nonchalantly put down camp by the roadside? Aren't we marching for war?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（而且选择的位置……本阵的距离其他部队距离过远，而且容遭到来自山上的偷袭……）",
+			say = "(The location is suspect. It's a long way away from our other units, and the enemy may ambush us from over the mountain...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,12 +395,12 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			optionFlag = 2,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样，大军扎好了营帐，在村民提供的美食与美酒中放松休息了起来。",
+			say = "The army set up camp by the mountain, gorged themselves on the offerings of the villagers, and enjoyed their break...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "等等！我还没决定呢——！",
+			say = "What? I thought I as the general would decide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（有种……十分不好的预感。）",
+			say = "(I suppose not... Something tells me I don't get a say in this story.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "此刻，我正坐在一顶豪华的大帐篷中。",
+			say = "Moments later, the scene changes to a massive encampment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "除了无数美食之外，身旁的帐篷中还有衣架、刀架、书架、宝物柜，甚至……宠物？",
+			say = "A feast of delectable dishes is lined up before me. I look around me and see swords, books, treasures... and even exotic animals around the camp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不愧是妖怪剧团，在转瞬间就完成了场景切换，而且如此逼真。）",
+			say = "The flyer wasn't lying about taking you from one magic place to the next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……这些东西，真的是出来打仗应该带的么。）",
+			say = "Why would a marching army be hauling these things around, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "魅力四射的舞女",
-			say = "大人~外面的士兵都喝成一片了，您一个人在大帐中做什么呢？",
+			actorName = "Attractive Dancer",
+			say = "Oh, my General, why are you all alone in here? Everyone outside is enjoying their drinks~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,8 +514,8 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "热情妩媚的舞女",
-			say = "说不定就是因为如此，大人才要特意在这里等我们呢。",
+			actorName = "Passionate Dancer",
+			say = "Perhaps it's because... you really wanted to see us? Heehee♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,8 +527,8 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "热情妩媚的舞女",
-			say = "现在大帐里什么人都没有，也就是说，接下来做些什么事都可以哦~",
+			actorName = "Passionate Dancer",
+			say = "There's no one else here but you, me, and her... You can do aaanything you want with us♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,9 +540,9 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			actor = 107030,
-			actorName = "魅力四射的舞女",
+			actorName = "Attractive Dancer",
 			nameColor = "#A9F548FF",
-			say = "有道理……那大人，接下来想对我们做什么呢……啊，大人！",
+			say = "Good point! The only question is – WHAT would you do, hmm? Heehee♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,9 +554,9 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			actor = 107030,
-			actorName = "魅力四射的舞女",
+			actorName = "Attractive Dancer",
 			nameColor = "#A9F548FF",
-			say = "为什么您一直盯着她看？看看我嘛！您看我还特意起了名字，“魅力四射的舞女”！",
+			say = "...Excuse me, why won't you look at me?! My script says I'm the attractive dancer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,8 +568,8 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "魅力四射的舞女",
-			say = "明明是我更有魅力吧！",
+			actorName = "Attractive Dancer",
+			say = "Come on, say it~ Aren't I attractive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……………………嗯。",
+			say = "Um... Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,13 +592,13 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			bgm = "musashi-2",
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			paintingNoise = true,
 			soundeffect = "event:/ui/dalei",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "祥和的氛围突然被一声惊雷打破。",
+			say = "The lovely mood was suddenly disrupted by the rumble of lightning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,11 +648,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "转瞬间，暴雨倾盆。",
+			say = "In mere moments, a rainstorm had swept over the camp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "下雨了啊……",
+			say = "That sure came out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,18 +676,18 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔，好像想起了一件非常重要的事——",
+			say = "I feel like I've forgotten something really important...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没带雨伞！",
+					content = "Umbrella! I need to find an umbrella!",
 					flag = 1
 				},
 				{
-					content = "忘记问这是哪里了！",
+					content = "Where are we now?",
 					flag = 2
 				}
 			}
@@ -699,7 +699,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……这个虽然也很重要，但是不对。忘了先问问这是哪里了！",
+			say = "...Well, I do, but more importantly – where even am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +711,8 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "跑得很快的近侍",
-			say = "回禀主公，此地名为桶狭间！",
+			actorName = "Fleet-Footed Retainer",
+			say = "We are in Okehazama, Milord!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,9 +724,9 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 301290,
-			actorName = "跑得很快的近侍",
+			actorName = "Fleet-Footed Retainer",
 			nameColor = "#A9F548FF",
-			say = "真没想到，刚刚还是万里晴空，现在却突降大雨，主公您还是在帐篷里避雨吧！",
+			say = "It's shocking how quickly rain came upon us, when the skies were clear just moments ago... An unfortunate change of weather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,18 +738,18 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此，此地名为桶狭间啊……",
+			say = "I see. So we're in Okehazama...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "继续休息！",
+					content = "Let us play kemari!",
 					flag = 1
 				},
 				{
-					content = "回忆世界史……",
+					content = "Wait a second...",
 					flag = 2
 				}
 			}
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "等等……驻军在桶狭间，然后天降大雨……？！",
+			say = "It's been a really hot day, rain and thunder came suddenly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "这剧本是谁选的啊？！！",
+			say = "And I'm playing a general in the Warring States period... Oh no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "不好……得赶紧备战才行！",
+			say = "We must prepare for battle, posthaste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,11 +798,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，借助雷雨的掩护，一支骑兵部队已经悄然来到了山顶的进攻位置。",
+			say = "Meanwhile, under the cover of the thunderstorm, a cavalry unit had gathered in an attacking position atop the mountain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,8 +836,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "英姿飒爽的武将",
-			say = "主公，我们已经抵达进攻位置了，等候您的命令。",
+			actorName = "Valiant Officer",
+			say = "We are in position. Awaiting orders to commence the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,8 +848,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "优雅的武将",
-			say = "没想到路上突然下起了暴雨，主公真是如有神助呢。",
+			actorName = "Dignified Officer",
+			say = "Heehee. Imagine a sudden rainstorm whipping up to our benefit. The heavens are on our side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,8 +860,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "认真的武将",
-			say = "是啊，多亏了主公决意出击，我们才能等到如此天赐良机。",
+			actorName = "Diligent Officer",
+			say = "Indeed. Milord's unyielding determination to attack has resulted in the perfect opportunity for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,8 +872,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "可爱又得意的主公",
-			say = "呼呼呼~再多夸夸我~再多夸夸我~！",
+			actorName = "Adorable Lord",
+			say = "Heehee~ Keep the praise coming~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,8 +884,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "弱气的武将",
-			say = "真……真的要打下去么？",
+			actorName = "Timid Officer",
+			say = "D-do we really need to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,8 +896,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "严肃的武将",
-			say = "那是自然，战场之上，不容私情。",
+			actorName = "Principled Officer",
+			say = "Yes. There is no room for personal feelings on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,8 +908,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "自信的武将",
-			say = "主公，只要您一声令下，我们一定为您带来胜利。",
+			actorName = "Self-Confident Officer",
+			say = "Milord, give us the order, and the cavalry will charge. We shall return to you victorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,8 +920,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			side = 2,
-			actorName = "跃跃欲试的武将",
-			say = "是啊，准备进攻吧，我已经等不及了~",
+			actorName = "Impatient Officer",
+			say = "I am on the brink of keeling over from boredom. Let's begin, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,11 +957,11 @@ return {
 			},
 			options = {
 				{
-					content = "定义自由派骑兵部队！",
+					content = "Cavalry? But some aren't even riding horses!",
 					flag = 1
 				},
 				{
-					content = "从途中开始就已经不是马了吧！",
+					content = "Really? They all count as cavalry?",
 					flag = 2
 				}
 			}
@@ -971,12 +971,12 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			optionFlag = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，您能喜欢就好。",
+			say = "Apologies, but we lacked the resources for a complete cavalry unit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -986,12 +986,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			optionFlag = 2,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……妾身曾听说，只要骑着东西，都可以被算作骑兵。",
+			say = "Some say that a soldier atop any vehicle of war may be considered cavalry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,11 +1002,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……因为出战匆忙，这支骑兵部队的马匹装备并不统一。",
+			say = "Ahem. Unfortunately, we did not have sufficient time to provide uniform equipment for the cavalry unit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,9 +1018,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 307080,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			nameColor = "#A9F548FF",
-			say = "不过其中的每一个人都在主公的带领下散发着无穷斗志。",
+			say = "Regardless, they all exhibit a burning fighting spirit under their lord's leadership...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,9 +1032,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 299033,
-			actorName = "可爱又得意的主公",
+			actorName = "Adorable Lord",
 			nameColor = "#A9F548FF",
-			say = "亲爱的已经在山下摆好阵势等我们了呢~",
+			say = "My Owner's waiting for us down there~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1046,9 +1046,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 299033,
-			actorName = "可爱又得意的主公",
+			actorName = "Adorable Lord",
 			nameColor = "#A9F548FF",
-			say = "全军注意，准备战斗！",
+			say = "Troops, hear me! Go get 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1060,9 +1060,9 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			actor = 299033,
-			actorName = "可爱又得意的主公",
+			actorName = "Adorable Lord",
 			nameColor = "#A9F548FF",
-			say = "目标只有——亲爱的一个人！",
+			say = "Your target is my Owner, and my Owner alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不妙，形势非常不妙……扎营在四周的大军因为突发暴雨无法及时赶到。",
+			say = "My troops camped nearby won't be able to make it here in time due to the rainstorm...",
 			effects = {
 				{
 					active = false,
@@ -1109,7 +1109,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "本阵已经被孤立了……",
+			say = "This is bad. Very bad. My camp is isolated and exposed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "转瞬间，喊杀声便来到了华丽的帐篷外。",
+			say = "I can already hear rallying cries calling out from outside my tent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "帐篷的门帘被挑开，全副武装的敌方主公走上前来。",
+			say = "Then, the opposing lord lifts the flap and comes running into my tent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1143,7 +1143,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "糟糕……万事休矣啊……",
+			say = "So this is the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,9 +1155,9 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 299033,
-			actorName = "可爱又得意的主公",
+			actorName = "Adorable Lord",
 			nameColor = "#A9F548FF",
-			say = "亲爱的~你已经无处可逃了哦！",
+			say = "Owneeeeer! There's no escaping your fate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,9 +1169,9 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			actor = 299033,
-			actorName = "可爱又得意的主公",
+			actorName = "Adorable Lord",
 			nameColor = "#A9F548FF",
-			say = "亲爱的————",
+			say = "Come heeeere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1182,7 +1182,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "然后敌方主将，径直扑了上来……？",
+			say = "She lunges at me like a cat, arms outstretched... without a weapon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1191,13 +1191,13 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			blackBg = true,
 			bgm = "cw-story",
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样，战斗结束了，和平重新降临了这片土地。",
+			say = "The battle was over, and peace was restored to the lands...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1224,12 +1224,12 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actorName = "剧中旁白",
+			actorName = "In-Story Narration",
 			blackBg = true,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "全剧终——",
+			say = "And so, the curtains fall on this act...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,13 +1238,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "和亲爱的在一起!",
+			factiontag = "Here With My Owner!",
 			dir = 1,
 			blackBg = true,
 			actor = 299030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亲爱的~~~~~（蹭蹭蹭）",
+			say = "Owneeer! *squeeze* *cuddle* *sniff*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1258,11 +1258,11 @@ return {
 			actor = 102160,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "辛苦的秘书",
+			factiontag = "Perpetually Overworked",
 			dir = 1,
 			blackBg = true,
 			hidePaintObj = true,
-			say = "好了好了……戏演完了就别贴得那么近了！",
+			say = "It's over now. You can stop hugging the Commander to death...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1275,13 +1275,13 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			factiontag = "和亲爱的在一起!",
+			factiontag = "Here With My Owner!",
 			dir = 1,
 			blackBg = true,
 			actor = 299030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不要~！话说你是从哪儿冒出来的啊！",
+			say = "I'm not letting go of my Owner even if it's over! ...Hey, when did you get here, Memphis?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1295,11 +1295,11 @@ return {
 			actor = 102160,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "辛苦的秘书",
+			factiontag = "Perpetually Overworked",
 			dir = 1,
 			blackBg = true,
 			hidePaintObj = true,
-			say = "从一开始就在了啊！",
+			say = "I've been here this whole time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1315,7 +1315,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "……全剧终？",
+			say = "Well, I suppose that's the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1327,7 +1327,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "…………啊？",
+			say = "Or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

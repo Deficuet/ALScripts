@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>御狐移驾</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>1 The Guardian Fox's Departure</size>",
 					1
 				}
 			}
@@ -21,15 +21,15 @@ return {
 			bgm = "story-richang-light",
 			sequence = {
 				{
-					"重樱本岛",
+					"Sakura Islands",
 					1
 				},
 				{
-					"{namecode:82:三笠}宅邸",
+					"Mikasa's Mansion",
 					2
 				},
 				{
-					"—7月23日",
+					"July 23rd",
 					3
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}宅邸的门前，各种物资往来搬运不停，一片车水马龙的忙碌之景。",
+			say = "Prior to the widespread chaos in the Pacific, Nagato and her escorts visited Mikasa's mansion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,20 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "即将启程一行人正在做着出发前的最后准备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "小心仔细、注意磕碰。行李装好之后直接运到码头去，不要遗漏货物。",
+			say = "It was a busy scene, with supplies being hauled back and forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +63,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:157:春月}，远航补给物资准备的如何了？",
+			say = "Be careful not to bump into anything. Wrap your goods, then take them straight to the pier. Make sure EVERYTHING is there!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Harutsuki, how are the preparations going? This will be a long journey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301570,
-			say = "{namecode:84:武藏}大人调动的船已经到了，现在就停靠在码头边。",
+			say = "They're going w-well! The ship Lady Musashi sent has arrived and is docked at the pier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，我明白了。",
+			say = "Great. Thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比我们准备得还快，看来我们虽然是仓促离开——",
+			say = "THAT was fast, considering how urgently we're leaving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有人却是早有预谋、尽在计划之中呢。",
+			say = "Perhaps the powers that be planned for that, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}大人——{namecode:74:长门}大人——",
+			say = "Hellooo? Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……{namecode:158:江风}，{namecode:74:长门}大人在么？",
+			say = "Hey, Kawakaze, any idea where she is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人还在房间里收拾，你找她有事么？",
+			say = "She is in the mansion, preparing for the journey. Do you have business with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……稍微，有点急事！那我去房间找她！",
+			say = "Yeah, you could say that. I'll be quick, I promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}宅邸·{namecode:74:长门}的房间",
+			say = "Mikasa's Mansion - Nagato's Room",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}大人——您在里面么！",
+			say = "Lady Nagato! It's me, Zuikaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:96:瑞鹤}？请进。",
+			say = "Zuikaku? Come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:96:瑞鹤}，出发在即，汝如此急切来找吾，可是准备工作出了什么事？",
+			say = "Is there something wrong with the supplies? I assume that is why you've come to me unannounced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有没有，我刚从正门过来。码头那边一切正常，可以按时出发。",
+			say = "Oh, uh, no! I had a quick look around the pier and everything seemed to be in order and on schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此甚好。那汝来找吾是为了？",
+			say = "That's good. Well? Why are you here, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿……{namecode:74:长门}大人，你有没有觉得我们这次调动非同一般、有些太仓促了？",
+			say = "It's about the journey itself... Doesn't it smell fishy to you? It came completely out of left field.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明现在帕克菲克洋并无战事，却这么着急让我们去驻防、甚至提前准备好了补给。",
+			say = "It's business as usual in the Pacific, yet Mikasa is sending you and a large fleet to the Solomon Islands with heaps of supplies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此兴师动众，派遣我们这么大一支舰队去没有战事的地方，总不会是让我们去度假吧？",
+			say = "Unless this is her idea of a vacation, I don't understand why she'd do this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾也觉得很可疑，不过就算是问{namecode:82:三笠}，{namecode:82:三笠}也只是说让吾等前去驻防地调查异常现象、尽快离开。",
+			say = "Yes, I do find it strange. Alas, all that she told me was that, \"something has happened in the Solomons,\" and that she wanted me to investigate immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个“尽快”听上去就很可疑！",
+			say = "The \"immediately\" part of that is pretty weird, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，我觉得是不是本岛就快有什么大事发生了，所以她们才急忙支开我们？",
+			say = "What if she knows something is going to happen on the mainland and she's intentionally sending you away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}前辈也不是第一次做这种事了……",
+			say = "Akagi did that once, so it wouldn't be the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那年去欧罗巴的时候……她就找了个借口让我和姐姐一起走好望角的航线……真是绕了好大一圈呢！",
+			say = "Then there's the time we went to Europa and she made up an excuse for me to take a long detour along the Cape of Good Hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}配合{namecode:91:赤城}的安排，为吾等下达命令并非不可能。可是{namecode:82:三笠}……是绝无可能配合{namecode:91:赤城}如此胡闹的。",
+			say = "Had these orders come from Musashi, I would share your suspicions. However, Mikasa would never misdirect us like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "汝说的不错，本岛可能确实有什么大事要发生了，只是吾等对此还一无所知……",
+			say = "Still, you may be right that something big will happen in our homeland. Something which I am in the dark about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以！{namecode:74:长门}大人，我能不能留下来调查一下？",
+			say = "Right? That's why I'd like to stay here and look into it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……这，有些。",
+			say = "That is a tall ask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且大前辈把她自己的护卫基本都派给我们了，万一真出现了危险情况谁来保护她！",
+			say = "I mean, Mikasa is basically sending away her own bodyguards. Who will protect her if we're all away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再说了{namecode:74:长门}大人，您就不好奇，本岛究竟要发生什么事么？",
+			say = "Plus, I can report straight to you immediately if I see anything suspicious happen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我留在这里调查，有消息了第一时间发给您！绝对不会做其他事情的！",
+			say = "Please! I promise I won't slack off for even a minute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……如此的话，吾倒是想起来一件事。",
+			say = "...Very well. Then I have a request to ask of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:75:陆奥}最近身体不太好，汝在出发前，替吾去探望一下吧。",
+			say = "Mutsu has not been feeling well lately. Go and visit her on my behalf before we set off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸，啊，是！",
+			say = "Huh? Uh, okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，{namecode:74:长门}大人……",
+			say = "I just have one question...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:75:陆奥}大人知道自己近日身体不适么？",
+			say = "Does Mutsu herself know that she's ill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，等汝亲自去探望了之后，她不就知道了么。",
+			say = "She will when you come to visit. If she does not, use the right words until she gets the hint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "好了，汝快去准备吧。",
+			say = "If that is all, then you should go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是！{namecode:74:长门}大人，保证不负所托！",
+			say = "Understood! I will not disappoint you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "树欲静，而风不止……",
+			say = "The tree yearns for stillness, but the wind does not let up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:82:三笠}，吾走了。",
+			say = "Great Veteran, I will leave now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "汝……可千万不要做糊涂事啊。",
+			say = "Please... do not do anything foolish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,15 +726,15 @@ return {
 			},
 			sequence = {
 				{
-					"「仪式，自美梦而始。」",
+					"\"The bud of a beautiful dream blossoms.\"",
 					1
 				},
 				{
-					"「由点及线，由线及面。」",
+					"\"Points become lines, the lines become a mask.\"",
 					2
 				},
 				{
-					"「戴上狐面，坠入绮丽之梦吧——」",
+					"\"Tonight, you shall don it and enter the dream.\"",
 					3
 				}
 			}

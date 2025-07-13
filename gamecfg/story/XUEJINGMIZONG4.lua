@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
-			say = "随着距离的接近，白色大陆的细节终于变得清晰起来。",
+			say = "The strikingly white landscape grew clearer and clearer as the submarine approached Antarctica.",
 			bgm = "theme-antarctica",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
-			say = "模糊的白色虚线化为了棱角分明的冰川，散落在白色冰原上的建筑黑点，也显露出了其真正的规模。",
+			say = "Hazy white monoliths sharpened into icebergs with defined edges, and black spots scattered along the coast clarified into buildings. The research station, too, revealed itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是我们的安塔迪卡科考站，「和平」站……",
+			say = "So that's Mirny. Our destination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "规模比想象中更大，而且配色相当显眼呢。",
+			say = "It's bigger than I thought. And sticks out like a sore thumb.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "颜色鲜艳的建筑能够让自己成为冰原上最显眼的目标，这样更利于人员和飞机船只的定位。",
+			say = "Sticking out makes it easy to find in an ocean of white. Like, can you imagine trying to locate it on a ship or a plane if it was camouflaged?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "所以相比不让人发现，这里考虑的其实是如何让自己被更多的人发现。",
+			say = "It's not about staying hidden from the enemy, it's about being findable by your allies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "毕竟，此处相比战争的枪炮，最大的威胁是极端的环境哟~",
+			say = "Besides, it's not Sirens or other people you should be afraid of out here. It's the environment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "原来如此……就和医疗船要把自己标记的显眼一样呢。",
+			say = "So it's the same idea as paintin' a big red cross on a hospital ship? Got it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "呃……这两者其实还不太一样。",
+			say = "Uh... No, not exactly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "……是这样么？",
+			say = "It's not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "大家快看，塔林正在码头上迎接我们呢~",
+			say = "Lookie! Tallinn is waiting for us at the pier!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "喂——塔林同志~",
+			say = "Talliiinn! We're heeere!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "你在船舱里喊她怎么会听见……",
+			say = "Quit shouting! She can't hear us from inside the cabin anyway!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "啊……好像是欸。",
+			say = "Oh, right! Oops!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "呵呵，耐心一些，我们马上就要靠岸了。",
+			say = "Settle down, girls. We'll be anchoring in a minute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "外面可是冰天雪地，记得准备好保暖物品再下船哦。",
+			say = "It's extremely cold outside, so don't even think about going outside until you've put on extra warm clothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
-			say = "北方联合「和平」站·货运码头",
+			say = "Research Station Mirny - Cargo Loading Pier",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一步，两步，三步~",
+			say = "One step, two steps, three steps!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿，这样我们就算正式踏上安塔迪卡大陆了~",
+			say = "Tadah! We've officially touched down in Antarctica!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自黑海基地出发，一路万里至此……真是一趟漫长的旅途。",
+			say = "This is, what, ten thousand kilometers from our base in the Black Sea? What a journey it's been.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "还好运气站在我们这边，一路有惊无险。",
+			say = "It's a miracle we got this far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "风……好、好大的风……！",
+			say = "Ah... Ahh... ACHOO!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "这里好冷啊！！！",
+			say = "So windy... I'm freezing my face off here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "我就猜到你会这样说，给，披上这件外套吧~",
+			say = "I KNEW you were going to say that! Here, put this on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "呃……这件花花绿绿的衣服是什么？",
+			say = "Huh? What the heck is that colorful jacket?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "我加了装饰的棉袄哟，嘿嘿，很可爱吧~",
+			say = "I covered it in lots and lots of adorable accessories! Isn't it cute?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "好恐怖！！",
+			say = "No! It's hideous!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "欸……明明那么可爱~",
+			say = "Rude! I think it's cute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "那，你要来一个抱抱么？抱一下就不冷了！",
+			say = "Fine, I'll just hug you then! A nice hug should warm you right up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "贴着你的外套只会更冷啊！！！",
+			say = "Put that thing away first! The thought of gettin' hugged with that gives me chills!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了……没事，我启动一部分舰装供暖好了。",
+			say = "Ah, forget it! I'll just turn on my rigging's engine. Oughta warm me up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,9 +634,9 @@ return {
 			bgName = "bg_xuejing_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "塔林",
+			actorName = "Tallinn",
 			nameColor = "#A9F548FF",
-			say = "呵呵，没想到经历如此漫长的旅途，诸位同志还是如此有精神。",
+			say = "Sounds like you girls have energy to spare even after such a long journey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "同志们，欢迎来到北方联合安塔迪卡科考站「和平」站，我是本站的负责人塔林。",
+			say = "Once more, welcome to Mirny, comrades. I'm Tallinn, I run this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "货物的装卸交给码头的自动化设备处理就好。",
+			say = "Don't worry about the cargo. The pier's automated system will handle it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "外面环境恶劣，请大家随我来，我们到室内再聊吧。",
+			say = "Come on, let's head inside. You must be freezing out here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "北方联合「和平」站·人员休息区",
+			say = "Mirny Interior - Break Room",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "呼啸的风雪被隔离在厚重的大门外，在供暖系统的尽职工作下，众人逐渐温暖起来。",
+			say = "A thick door closed, isolating the girls from the icy winds outside. Now inside, the Mirny's heating systems slowly warmed them back up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "呼……总算活过来了。",
+			say = "Phew... I feel alive again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仅仅一墙之隔，内外却宛如两个世界。",
+			say = "The difference between in here and out there is crazy. It's two different worlds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "外面在狂风呼啸，我们却在喝着热茶——",
+			say = "It's nothing but chills and howling winds outside. Here, it's cozy vibes and hot tea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "是不是有种身处末日小屋的感觉？",
+			say = "Hey, doesn't this feel like a doomsday shelter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,7 +818,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "你这么一说……确实有点。",
+			say = "When you put it like that... sort of?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哼哼，不是“一点”哟。",
+			say = "There's nothing \"sort of\" about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然的力量是卓绝的——",
+			say = "Outside these walls is unfiltered, brutal nature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "就算强如我们，在如此卓绝的力量面前，如果失去了庇护所，也会很快倒下。",
+			say = "If we were exposed to the elements in this place, we'd freeze to death within the hour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "所以，这里就是我们的末日小屋。",
+			say = "Which is to say – yeah, this station is absolutely like a shelter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,7 +917,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "……我倒是没想过这么多。",
+			say = "Anybody else notice how Pamiat' is awfully chatty today? Ain't that weird?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -935,7 +935,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "但是听上去好有道理哦……不愧是见多识广的水星纪念姐姐~",
+			say = "Weird? I think she's very insightful! I like a chatty Pamiat'!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -953,7 +953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿~{namecode:530:同盟}，接下来你跟塔林有正事要谈吧？",
+			say = "Soyuz, don't you and Tallinn have important things to discuss?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -970,7 +970,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看小孩子们已经缓过来了，我就先带她们去基地里探险咯~？",
+			say = "We can't leave these two by themselves. Tell you what, why don't you talk while I give the kids a tour around the station?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -988,7 +988,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "我才不是小孩子！",
+			say = "Who're you callin' a kid?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "明明就是~",
+			say = "I think she's talking about you, Svirepy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "才不是！",
+			say = "I'm NOT a kid, ya hear?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "好好~不是不是~我们走吧！",
+			say = "Alright, alright, sorry! Now come on, follow me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1079,7 +1079,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~在基地中探险咯，探险~",
+			say = "Hooray! We're going on an adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "哼，是警戒四周，排除威胁才对！",
+			say = "It ain't an adventure! We're only lookin' around and eliminating threats!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1115,7 +1115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "欸——等等我啊！",
+			say = "Kids, I swear... Hey! Wait for me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "风风火火地走掉了……",
+			say = "Well, they're gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "波尔塔瓦，你有没有感觉今天的水星纪念好像有些……奇怪？",
+			say = "Pamiat'... She's acting strange.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "奇怪？",
+			say = "Strange?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,7 +1214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "该说是更加多愁善感还是……我也不太说得上来。",
+			say = "Yes. It's only in the little things, but she's not entirely like her usual self.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,7 +1232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "我倒是没感觉到。",
+			say = "I suppose she seems a bit different. I wouldn't say it's much of a difference, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "唔……或许是受到了安塔迪卡环境的影响吧？",
+			say = "Maybe the environment is having some effect on her. Who knows.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1268,7 +1268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "这里终年覆盖在白色之下，呼啸的狂风仿佛永不停歇。",
+			say = "It's cold and snowy just like our motherland, but even worse. It's been especially stormy here as of late, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1286,7 +1286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "来到这里之后，情绪敏感的人受到影响变得多愁善感也是常见的事。",
+			say = "It's not unusual for sensitive people to respond negatively to the immense isolation out here, either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "环境影响么……确实有可能。",
+			say = "So it could simply be the environment...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1322,7 +1322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "那我们也开始谈正事吧。",
+			say = "...Let's dive into the main subject now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1339,7 +1339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "塔林，现在安塔迪卡的情况如何，有关于异常矿物更多的消息么？",
+			say = "Tallinn, give me a situation report. And a briefing on this unique crystal, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1357,7 +1357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "嗯，在各位旅途期间，安塔迪卡确实出现了一些新的变化。",
+			say = "Yes, ma'am. A few things have happened during your journey here, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1374,7 +1374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此前在报告中提到的发现新型矿物的区域中，冰雪融化现象正在加剧。",
+			say = "Starting with the crystal. It seems to affect not just riggings, but the environment as well. Snow has started melting substantially faster in the area where it was discovered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1392,7 +1392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "我们现在将其称呼为“融雪区”。",
+			say = "So, logically, we've started calling it \"the snowmelt area.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1410,7 +1410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "我们已经分批次从“融雪区”的不同位置收集到了更多的样本。",
+			say = "As for the crystal itself, we've collected samples of it from numerous different places around the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所有样本都表现出了能与舰装进行某种共鸣的特性。",
+			say = "Every sample we've tested demonstrated the same rigging resonance effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1445,7 +1445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "且结果都是良性的，包括提升精准度，减少装填时间等。这里是详细报告——",
+			say = "Precision improved, same with reload time, targeting time... Every variable we tested saw a positive increase. Here are the details.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1463,7 +1463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "嗯……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1481,7 +1481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "同时，白鹰也有所行动，她们似乎也发现了矿物的存在。",
+			say = "Now for some bad news. The Eagle Union has dispatched survey teams to the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1499,7 +1499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "在我们调查的同时，她们也派遣调查队前往“融雪区”中收集了样本。",
+			say = "No problem with that, you might think. Well, they've sent a lot, and I mean A LOT more shipgirls than I expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1517,7 +1517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "而且就在昨日，一支规模不小的作战舰队也已经抵达了白鹰基地。",
+			say = "Yesterday, I saw a massive fleet arrive at their station.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1535,7 +1535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "看上去，白鹰正准备在安塔迪卡进行一场战役级的作战行动。",
+			say = "Honestly, it wouldn't surprise me if they were preparing to wage a war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1553,7 +1553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……战役级的作战行动？",
+			say = "Wage a war?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1581,7 +1581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "安塔迪卡战区一直以来都十分平静，鲜有塞壬出没的情报。",
+			say = "But there aren't any Reenactments in Antarctica, and the Sirens have close to zero presence here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "她们准备战役级的行动是为了对付谁……？",
+			say = "If they're getting ready for a fight, then with whom?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1617,7 +1617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "或许……难道白鹰得到了某些不为我们所知的情报。",
+			say = "I do not know. Perhaps they have access to some intel that we do not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1634,7 +1634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来开采这种矿物的工作要变得困难了……",
+			say = "What I do know is that this will significantly complicate our mining operation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1652,7 +1652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "我们没有跟白鹰的人发生冲突吧？",
+			say = "Tallinn, have there been any engagements with the Eagle Union?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1670,7 +1670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "自然没有。早在“融雪区”中调查时，我们就与白鹰的人有过接触，整个过程十分和平。",
+			say = "No, of course not. Just some peaceful back-and-forths in the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1687,7 +1687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昨日抵达的白鹰舰队也一直停留在港中，并未有任何异常行动。",
+			say = "And the fleet that arrived yesterday hasn't even left their station yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1705,7 +1705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "看上去，白鹰似乎打算低调进行自己的计划。",
+			say = "Whatever they're planning, they're working behind closed doors. Like us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1723,7 +1723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "呵，派了那么多人……还说什么低调。",
+			say = "Any covert activity is off the table, I suspect. They wouldn't have amassed such a large force if stealth was their goal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1741,7 +1741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "铁血呢？根据我们的情报源，最初发现矿物的应该是铁血。",
+			say = "Tell me about Iron Blood next. I believe they were the first to discover the crystal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1759,7 +1759,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "她们那边有什么行动？",
+			say = "Have they been up to anything of note?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1777,7 +1777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "我们在“融雪区”中调查时，并未遭遇过铁血调查队。",
+			say = "Nope. I haven't seen any sign of them in the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1795,7 +1795,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "不过从距离上来看，铁血要塞的位置距离出现矿物的“融雪区”更近。",
+			say = "Granted, their fortress base is much closer to the area than we or the Eagle Union are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1813,7 +1813,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "或许她们早在我们和白鹰之前就完成了调查工作……",
+			say = "Maybe they completed their investigation long before we did. It's hard to say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1830,7 +1830,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前可以确定的是，她们还没有在这件事上“加码”。",
+			say = "Oh, but I can say that, unlike us and the Eagle Union, they haven't sent in new forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1848,7 +1848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "与我们和白鹰都不同，近期并没有铁血舰队前来安塔迪卡。",
+			say = "At least, not in public, they haven't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1866,7 +1866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "没有人员前来……？",
+			say = "They haven't sent new forces to Antarctica?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1884,7 +1884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "嗯，我了解了。",
+			say = "...I see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1902,7 +1902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900354,
-			say = "那些样本，可以带我去看看么？",
+			say = "I'd like to examine a sample. Could you show me one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1920,7 +1920,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "当然没问题，样本现在都存放在实验区中，二位请随我来——",
+			say = "Sure. All the samples we've collected are being stored in the testing area. Follow me.",
 			painting = {
 				alpha = 0.3,
 				time = 1

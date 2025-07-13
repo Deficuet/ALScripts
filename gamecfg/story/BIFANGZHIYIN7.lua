@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "鸢尾教国·会场",
+			say = "Iris Orthodoxy - Conference Room",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呼~哼哼，磨了那么久，最后还不是要老老实实推进我们这份方案。",
+			say = "Whew... After all those detours, they're finally moving forward with your plan, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "今天一天也辛苦了，指挥官。",
+			say = "You've fought hard for this. Relish this moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来咱们——",
+			say = "Also, we should probably–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……居然已经这个时间了……",
+			say = "...Oh, look at the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我有一个紧急提案的磋商会要去参加，晚饭我们就各自解决吧。",
+			say = "I've got an urgent meeting I need to attend, so I sadly can't join you for dinner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "别嫌麻烦就不吃了哦！",
+			say = "But please, DO eat dinner. I don't want to hear excuses about how eating is a chore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题。",
+					content = "Will do.",
 					flag = 1
 				},
 				{
-					content = "也帮你带一些！",
+					content = "Want me to save some for you?",
 					flag = 2
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯~很好。",
+			say = "Good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用麻烦啦，我有种要在会议室里苦战一番的预感。",
+			say = "Thanks, but no need. I have a feeling it's going to be a long meeting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开完会之后我随便找点吃的就好啦！",
+			say = "I'll just find something nice to eat after everything's done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "糟糕……必须得立刻动身了，那么指挥官，我先告辞了~！",
+			say = "Crap! I've gotta run. Talk to you later, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "告别了孟菲斯后，我也离开了沉闷的会场。",
+			say = "I see Memphis off, then I leave the conference room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "迈出脚步，预想中的夕阳没有洒下。",
+			say = "I walk through the door and start taking my first step out into the evening sunlight... when all of sudden, it's all gone.",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "映入眼帘的是——璀璨的星河。",
+			say = "It has been replaced by that view of space – the one that always appears when Helena META and I talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "晚上好哦，指挥官。",
+			say = "Good evening, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……海伦娜，之前不是说好了，用这种通讯方式拉人之前多少预警一下……",
+			say = "I thought we agreed that you'd give a warning before you contacted me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道有紧急情况？",
+			say = "Since you didn't, it must be urgent. Am I correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "嗯…[杂音]…这次事出紧急，我顾不了那么多了…[杂音]…",
+			say = "Yes... BZZZT... Sorry about that. There was no time to give you a warning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出什么事了？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…计划…[杂音]…有变…[杂音]…",
+			say = "BZZZT... plan... BZZZT... went wrong... BZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…情况比…[杂音]…预想中…[杂音]…更复杂…[杂音]…",
+			say = "BZZZT... The situation is a lot... BZZZT... more complicated than anticipated... BZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯状况不稳定……？",
+			say = "Helena, you keep cutting out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜，我听不清你在说什么，你的影像也开始抖动了！",
+			say = "The connection is barely holding up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…听不清…[杂音]…稍等…[杂音]…检查一下…[杂音]…",
+			say = "Cutting out? BZZZT... Hang on... BZZZT... run a search... BZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…难道说…[杂音]…干扰源…[杂音]…",
+			say = "BZZZT... No... BZZZT... jamming source, it's... BZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…客房…[杂音]…",
+			say = "BZZZT... the guest room... BZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[持续不断地杂音]…",
+			say = "BZZZZZZT...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜……？！",
+			say = "Helena? Helena!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "伴随着杂音的增加，海伦娜·META的影像逐渐扭曲，终于碎成了一片蓝色光点，转瞬即逝。",
+			say = "As the noise intensifies, the projection of Helena becomes increasingly distorted, eventually collapsing altogether into a blue dot before disappearing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,19 +538,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "远方的无垠星海，似乎也发生了一丝微不可查的波动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "海伦娜说过，这里是“塔”的内部，一处绝对安全的通讯空间。",
+			say = "The distant stars, too, seem to flicker and twitch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +550,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别说干扰了，一般人甚至没有发现这里的能力……",
+			say = "I remember Helena saying this space exists somewhere within an Arbiter – The Tower, I think it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +562,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么会发生这种事……",
+			say = "Therefore, it should be impossible for almost anyone to find this place, let alone jam it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +574,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜在通讯的最后……似乎提到了“干扰源”和“客房”。",
+			say = "Given that, it's likely that an enemy of hers is responsible for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +586,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道是指……干扰源在会场中的某间客房里？",
+			say = "Before she cut out, she said something about a \"jamming source\" and that it was in \"the guest room.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +598,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样的话，必须得尽快对会场各处进行一次细致排查……",
+			say = "The question is – what guest room? Where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +610,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果有人想效仿博览会闭幕式，在会场再掀起一次“陆上神国”，将参会方一网打尽的话……",
+			say = "Maybe she meant where I am. I should order a sweep of the whole building when I get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +622,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……后果不堪设想。",
+			say = "I have a bad feeling about this. The same group behind the near-superimposition event in Antarctica might be trying to catch us off-guard again...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "If so, disaster is on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "如果海潮还未褪去，何谈重来？",
+			say = "I sure hope so. Your branch is currently under constant threat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "水星纪念·META提到了三个目的，你大概只挫败了其中一个而已。",
+			say = "You stopped her from accomplishing her first objective. She still has two more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "剩下两个她有何打算，你想过么？",
+			say = "Be on your guard, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "小心身边，这场事件还远未结束哦——",
+			say = "The battle isn't over yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道在安塔提卡的时候只是预演，这里才是真正目标么……！",
+			say = "What happened in Antarctica was just a drill. Their real target is the Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……上次战斗中，她确实展现出了能够干扰海伦娜所主导的通讯网络的能力……",
+			say = "If the group behind Antarctica was responsible for jamming the line Helena set up for me back then, it stands to reason that they could also hack this virtual space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "糟糕，得尽快通知其他人才行。",
+			say = "I need to tell the girls about this ASAP.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,19 +799,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "环顾四周，映入眼帘的只有无尽星河。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……说起来，以前离开这里，依靠的都是海伦娜的力量。",
+			say = "I look around, waiting for the view of the stars to change, but it doesn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +811,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在她不在了，要怎么从这里回去呢……？",
+			say = "Dammit. I never did ask Helena what you do to \"hang up\" in here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "What do I do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,26 +835,26 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			recallOption = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "大声呼喊",
+					content = "(Yell as loud as you can.)",
 					flag = 1
 				},
 				{
-					content = "寻找出口",
+					content = "(Look around for a way out.)",
 					flag = 2
 				},
 				{
-					content = "从高处跳下",
+					content = "(Jump from a tall height.)",
 					flag = 3
 				},
 				{
-					content = "利用“死亡”",
+					content = "(Attempt to kill yourself.)",
 					flag = 4
 				}
 			}
@@ -866,7 +866,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "喂——有人么！能告诉我怎么从这里退出么！",
+			say = "HEY! IS ANYONE THERE? TELL ME HOW TO GET OUT OF HERE!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -879,7 +879,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "呼喊声很快消散在广袤的空间中。远方，依旧是无垠星河。",
+			say = "The echo of my yell disappears almost instantly. There is not a soul in sight, only stars above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（或许，在这里藏着某个可以直接退出的出口设施……）",
+			say = "(There might be an exit somewhere around here. Better look around.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "再次环顾四周。上下左右，四面八方，映入眼帘的只有无垠星河。",
+			say = "I look from top to bottom, in and out, to and fro, and there is nothing but the galaxy overhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "（这里和梦境类似，或许利用“失重感”就能强行离开这里……）",
+			say = "(Pinching yourself when you're dreaming wakes you up, so...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "下定决心后，你试图寻找一个有高度落差的地方跳下。",
+			say = "It has something to do with the lack of pain and realizing you're dreaming. Maybe if I fall from a height, the impact will send me back to reality?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "然而，不可见的平坦地板仿佛无穷无尽地延伸向远方。寻找了一会后，你终于放弃了。",
+			say = "Unfortunately, there is nothing tall to stand on in here. Only the countless stars glimmering high up above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（这里和梦境类似，或许利用“死亡”就能强行离开这里……）",
+			say = "(Pinching yourself when you're dreaming wakes you up, so...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（不过……这里毕竟并不是真正的梦。）",
+			say = "(By extension, if I can convince myself I've died in here, won't that send me back to reality?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（在没有确切情报前，不应该尝试寻求“死亡”这种危险的举动……）",
+			say = "(No, what am I thinking? This isn't a dream, and even merely convincing myself that I've died is a risk I don't want to take.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -991,7 +991,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "突然间，耳边依稀响起了风铃的声音。",
+			say = "That's when, all of a sudden, I hear the ring of a wind chime close by.",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -1004,7 +1004,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（又是风铃声……？）",
+			say = "(Ah... There's that wind chime again.)",
 			bgm = "theme-shinanometa",
 			typewriter = {
 				speed = 0.05,
@@ -1033,7 +1033,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "伴随风铃声一同出现的，还有一扇门。",
+			say = "The next thing I know, a door has appeared in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……出现在白色空间中的门并不少见。",
+			say = "And there's that door again. The same one I saw when I delved into Anchorage's data and when I spoke to Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是出现在其他空间中的门，这还是第一次见。",
+			say = "Seems it can reach me anywhere – even in this virtual space you created, Helena.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道这里是……海伦娜留下来的应急出口？",
+			say = "Unless... it's an emergency exit, and you created this, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,19 +1080,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "四周无人回答，仅有一扇门静静悬浮在璀璨星河中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "看来……这扇门似乎是我唯一的选择了。",
+			say = "There is no answer. The door just stands there, silently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,7 +1092,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……进去看看吧。",
+			say = "It doesn't look like there's any other way out...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I'm opening it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

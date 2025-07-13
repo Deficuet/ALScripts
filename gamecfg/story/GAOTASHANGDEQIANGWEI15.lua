@@ -7,10 +7,10 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "伊丽莎白·META漫步在虚无之中。",
+			say = "Elizabeth META wandered through the empty void.",
 			bgm = "story-startravel",
 			location = {
-				"？？？·？？？",
+				"Unknown location",
 				3
 			},
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "是本王进入了陷阱，还是真凶在破坏装置时留下的痕迹……",
+			say = "Did we fall into a trap, or did the real perpetrator leave traces when destroying the device?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "伊丽莎白·META聚精会神地观察着这片虚无。",
+			say = "Narrowing her eyes, she squinted at the nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "而后，她如陨石一般撞击在大地上。",
+			say = "Then, she crashed into the earth like a meteorite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "她与天外之兽群一同尽情地肆虐着。",
+			say = "After that, she and the extradimensionals went on a rampage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "军舰的抵抗崩溃了、舰船的抵抗崩溃了、塞壬的抵抗崩溃了。",
+			say = "They crushed the resistance of everyone in their path – the warships, the shipgirls, and the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "世界陷入了死寂，空间回归了虚无。",
+			say = "The world was enveloped in deathly silence, and the space reverted into a void.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "……不对。",
+			say = "...This isn't it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "要更加聚焦……聚焦在「不准确同步仪」丢失的瞬间……",
+			say = "Must focus harder... Must find the moment the inaccuracy synchroniser disappeared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "伊丽莎白·META再次聚精会神地观察着这片虚无。",
+			say = "One more time, she sharpened her focus and fixated on the nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "这一次，虚无发生了不同的变化。",
+			say = "In response, the nothingness began to assume a new appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			say = "充满科技感的设施中，灯火通明，人声鼎沸。",
+			say = "It became the interior of a building with advanced technology. Lights shone brightly and the air was abuzz with voices.",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "不错，这次终于对了。",
+			say = "There. We've found it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			say = "伊丽莎白·META穿过人群与墙壁，径直走向存放同步装置的房间。",
+			say = "Elizabeth walked through the crowds and the walls, heading for the room where the synchronizer was stored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_306",
-			say = "而后，她在装置前注视到了祂。",
+			say = "Then, she saw something – or somebody – standing in front of the device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,8 +217,8 @@ return {
 			bgName = "star_level_bg_306",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "…………",
+			actorName = "???",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "你是破坏者……？",
+			say = "It was you who broke it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "你、你是什么东西？！",
+			say = "What in the world are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "我需要……「洞察」。",
+			say = "Blast it... We need insight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_gaotaqiangwei_1",
-			say = "荒芜的世界中，天外之兽军团形成兽潮，满月之蕾蠢蠢欲动。",
+			say = "A ruined wasteland. The extradimensionals formed a horde, and the Buds of the Full Moon were squirming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
-			say = "兽潮来势汹汹，探查装置的伊丽莎白·META依然在沉睡，谢菲尔德·META一行人尽力维持着防线。",
+			say = "The monsters were approaching frighteningly fast, while Elizabeth META was asleep at the device. A team of META shipgirls was the only thing holding the front line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,10 +327,10 @@ return {
 			portrait = 900468,
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
-			actorName = "星之兽",
+			actorName = "Star Beast",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "——˛ť×ÔÁżÁŚ/*不自量力*/",
+			say = "RUVD FVBY WSHJL (KNOW YOUR PLACE)",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -358,7 +358,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
-			say = "更高层传来的压迫让伊丽莎白·META短暂分神，眼前的世界转瞬间破碎了。",
+			say = "A voice from a higher dimension broke Elizabeth's concentration, making the world fall apart for an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,8 +370,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "……星之兽？",
+			actorName = "Queen Elizabeth META",
+			say = "...The Star Beast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,8 +383,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "呵，你和刚才的东西是什么关系？",
+			actorName = "Queen Elizabeth META",
+			say = "Heh. What do you have to do with what we just saw?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +396,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
-			say = "——ÍË/*退*/",
+			actorName = "Star Beast",
+			say = "NV IHJR (GO BACK)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,8 +409,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "……你又算什么东西，也敢命令本王？",
+			actorName = "Queen Elizabeth META",
+			say = "...Who do you think you are, giving us orders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,8 +422,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "继续……「洞察」。",
+			actorName = "Queen Elizabeth META",
+			say = "Continuing with the insight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
-			say = "荒芜的世界中，满月之蕾张开了萼片。",
+			say = "The ruined wasteland again. The Buds of the Full Moon unfolded their sepals.",
 			bgm = "story-temepest-2",
 			typewriter = {
 				speed = 0.05,
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
-			say = "山川河流、都市田园，一幕幕画面在萼片之下闪动着。",
+			say = "Cities and the hinterlands, earth, mountains, and rivers – the surfaces of the sepals reflected many landscapes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……每一个满月之蕾，都是一个人工奇异点？）",
+			say = "(Is... each bud its own artificial Singularity?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（数百个人工奇异点汇聚在同一个世界里……而且还一同启动了？）",
+			say = "(Did they activate hundreds of Singularities in one world all at the same time?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（等等……那个金色的，是卡美洛之庭么……？还有留守的吸血鬼·META？）",
+			say = "(Wait... What is that golden shine? Camelot? And a META Vampire is there?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（这是伊丽莎白的世界？）",
+			say = "(Is that the other Elizabeth's world?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（还有那个闪烁着光芒的大灯塔的片段……难道是狮所在世界？）",
+			say = "(And that world, with the radiant lighthouse... Is that where Lion is from?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（所有来到这里的人，所在的世界同时也被花蕾连通了……？）",
+			say = "(What is this? Do these connect to the worlds of all those who've come here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……怎么会有这么荒唐的事？）",
+			say = "(No, that cannot be true!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,10 +562,10 @@ return {
 			portrait = 900468,
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
-			actorName = "星之兽",
+			actorName = "Star Beast",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "——ÓŠťđÖŽšâ/*萤火之光*/",
+			say = "AOL SPNOA VM H MPYLMSF (THE LIGHT OF A FIREFLY)",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -595,8 +595,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
-			say = "——°˛ÓëČşĐÇŐůťÔ/*安与群星争辉*/",
+			actorName = "Star Beast",
+			say = "JHUUVA JVTWHYL AV AOL YHKPHUJL VM AOL ZAHYZ (CANNOT COMPARE TO THE RADIANCE OF THE STARS)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,8 +608,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
-			say = "——ÍË/*退*/",
+			actorName = "Star Beast",
+			say = "NV IHJR (GO BACK)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
-			say = "更高层次的压力再次传来。",
+			say = "The pressure from the higher dimension pushed on her again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,8 +631,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "（……如此危急的事态，本王必须要看到后续。）",
+			actorName = "Queen Elizabeth META",
+			say = "(...The situation demands it. We must see the rest.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,8 +644,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "（……冒险，就冒险些吧。）",
+			actorName = "Queen Elizabeth META",
+			say = "(We must take a risk.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,8 +657,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "——ÓŠťđËäČő/*萤火虽弱*/",
+			actorName = "Queen Elizabeth META",
+			say = "LCLU H DLHR MPYLMSF (EVEN A WEAK FIREFLY)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,8 +670,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "——ŇŕżÉÖđšâ/*亦可逐光*/",
+			actorName = "Queen Elizabeth META",
+			say = "JHU WBYZBL AOL SPNOA (CAN PURSUE THE LIGHT)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,8 +683,8 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "伊丽莎白女王·META",
-			say = "——ś´˛ě/*洞察*/",
+			actorName = "Queen Elizabeth META",
+			say = "PUZPNOA (INSIGHT)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_3",
-			say = "荒芜的世界中，满月之蕾下堆满了尸体。",
+			say = "Desolation and ruination. Countless wrecks were piled up beneath the Buds of the Full Moon.",
 			bgm = "story-temepest-2",
 			typewriter = {
 				speed = 0.05,
@@ -722,7 +722,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_3",
-			say = "不知为何，天外之兽群如潮水般冲向满月之蕾，而后被奇异点入口撕得粉碎。",
+			say = "The horde of extradimensionals rushed incessantly toward the pupae, only to be torn to ribbons by the entrances of the Singularities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……这些奇异点，是不可通行的？）",
+			say = "(They can't pass through the Singularities?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_3",
-			say = "兽潮无穷无尽，尸骸亦无穷无尽。荒芜的世界，变为了天外之兽的坟场。",
+			say = "There was no end to the horde, and their corpses kept piling. This shell of a world was turning into a graveyard for beasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "P HT AOL ZAHY ILHZA (I AM THE STAR BEAST)",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "——ąŐ×ě/*闭嘴*/",
+			say = "ZOBA BW DPAO FVB (SHUT UP WITH YOU)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "——ś´˛ě/*洞察*/",
+			say = "PUZPNOA (INSIGHT)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "荒芜的世界，如今变成了尸骸的世界。",
+			say = "At last, the wasteland had morphed into a world of corpses.",
 			bgm = "theme-objectx-spread",
 			typewriter = {
 				speed = 0.05,
@@ -839,7 +839,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "无尽的尸骸将海面染成了白色。",
+			say = "Even the sea was turned white with their remains.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "而后，变化出现了。",
+			say = "Time passed, and eventually, something changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "尸骸之中，孕育出了一种新的敌人。",
+			say = "A new adversary was born amidst the wreckages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_gaotaqiangwei_4",
 			side = 2,
-			say = "它们自天外之兽的尸骸中爬出，继续冲击着满月之蕾。",
+			say = "It rose from the heap of extradimensional corpses and charged at the Buds of the New Moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "这一次，它们顺利穿过了。",
+			say = "This time, it passed through in one piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_4",
-			say = "而后，满月之蕾中的画面一幅幅陷入了死寂。",
+			say = "One by one, the many scenes reflected in the buds were reduced to silent, dead barrens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……这是什么东西，某种拟态物么？）",
+			say = "(What is that? Some sort of new mimic entity?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……拟态物，可以自天外之兽的尸骸中诞生？！）",
+			say = "(A mimic entity... was born from the wreckages of extradimensionals?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（这就是这个世界接下来要面临的局面……？）",
+			say = "(Is this the future that awaits this world?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +1016,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……而这一切早在同步装置被破坏之时就布置下来了？！）",
+			say = "(Was its fate sealed the moment that the synchroniser was destroyed?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "（……X难道……怎么可能？！）",
+			say = "(X, it's... No... Could it be?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,7 +1042,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705040,
-			say = "——ś´˛ě/*洞察*/",
+			say = "PUZPNOA (INSIGHT)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1051,7 +1051,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "世界在转瞬间化为虚无。",
+			say = "The world vanished in an instant into the void.",
 			blackBg = true,
 			bgm = "bgm-waterwave",
 			typewriter = {
@@ -1080,7 +1080,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "无法倾听、无法思考、无法感受。连自身存在都在变得稀薄，每一瞬间都好似永恒。",
+			say = "Elizabeth could neither think nor feel. Her very presence began to fade, each moment of time stretching on for an eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……Ôă¸â/*糟糕*/",
+			say = "JBYZLZ... (CURSES...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……ÖŘžŰÓÚĹŽÍőÖŽšâ/*重聚于女王之光*/",
+			say = "YLABYU AV AOL XBLLU'Z SPNOA (RETURN TO THE QUEEN'S LIGHT)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,10 +1117,10 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "探查中的伊丽莎白·META倒下了。",
+			say = "Elizabeth suddenly collapsed during her examination.",
 			bgm = "theme-shallowoftheworld",
 			location = {
-				"第五战区·女王之光号周边",
+				"5th combat sector - Near the Queen's Light",
 				3
 			},
 			typewriter = {
@@ -1152,7 +1152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下？！出什么事了，您的状态……很不妙！",
+			say = "Your Majesty! What happened?! You look dreadful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1166,7 +1166,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705040,
-			say = "……żěłˇŔë",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,7 +1179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，我听不懂这个！",
+			say = "Forgive me, I should not have used that word!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705040,
-			say = "……żě、快，快撤离……",
+			say = "Get... Get us out of here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705040,
-			say = "所有人上车……先……返回蔷薇塔……",
+			say = "Take the train... to the Rose Tower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_309",
-			say = "深夜，病房角落的帘子后方传来了异响。我小心靠近，谨慎地拨开帘子后——",
+			say = "Late at night, I hear a sound behind the curtains in the corner of the room. Treading carefully, I come close and pull the curtains aside...",
 			bgm = "theme-room-rosy",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "你……？！",
+			say = "Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不知为何等候在此的护士华盛顿，见到我的出现后，眼中闪过了毫不掩饰的期待。",
+			say = "For some reason, nurse Washington is behind them. Upon seeing me, a look of anticipation fills her eyes for a moment.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "你是来陪我进行临床练习的么？",
+			say = "You here to help with my clinical practice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hideRecordIco = true,
 			actor = 105132,
 			actorName = "{playername}",
-			say = "……临床练习？",
+			say = "Excuse me? Clinical practice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "没错哦~临···床···练···习~",
+			say = "Yeah, you heard me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不等我回复，我便被华盛顿一把拽上了床，毫无防备地与她拉近了距离。",
+			say = "Before I can say another word, she forcibly pulls me into bed, cutting the distance between us while I'm helpless to do anything.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "好啦~赶紧开始练习吧，别磨磨蹭蹭的！",
+			say = "Alright, let's get started! Don't waste my time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "就从……检查心率开始吧！",
+			say = "First off, I'm gonna check your heartbeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "华盛顿一边说，一边拿起听诊头朝我递来。",
+			say = "With those words, she picks up a stethoscope and reaches out to me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不料导音插管却勾住了她的衣服——",
+			say = "Or rather, she tries to, but the tube gets caught on the string of her top.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "唔——？！",
+			say = "Buh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "毫无准备的华盛顿因为突如其来的紧绷感，发出一声轻呼。",
+			say = "Surprised by the tug on her clothes, she lets out a small cry.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -209,7 +209,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随着动作的拉扯，紧身的衣物在她身上留下浅浅的痕迹。",
+			say = "The fabric is stretched, and her already tight clothes leave an imprint on her body.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -217,11 +217,11 @@ return {
 			},
 			options = {
 				{
-					content = "没事吧？",
+					content = "You okay?",
 					flag = 1
 				},
 				{
-					content = "要我帮忙么？",
+					content = "Need a hand?",
 					flag = 2
 				}
 			}
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "没、没事，只是没做好准备被吓了一跳而已！",
+			say = "I-I'm fine! Just got caught off guard, that's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hideRecordIco = true,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "华盛顿故作镇定，想将导音插管和衣物分开，但不知是因为紧张还是什么，她始终没有顺利分开它们。",
+			say = "Playing it cool, she tries to untangle the tube from her clothes. Owing to her nerves, it doesn't go so well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			optionFlag = 2,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "不用，这种小事我自己能搞定！",
+			say = "I'm fine! I can handle this myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hideRecordIco = true,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "华盛顿夸下海口，开始努力尝试，但越是心急，情况似乎越糟糕。",
+			say = "With a confident look, she tries hard to get the tube loose. However, her nervousness only makes things worse for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "羞赧的淡红色逐渐爬上了她白皙的肌肤。",
+			say = "It's not long before the exertion starts to paint her exposed skin a pinkish red.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			},
 			options = {
 				{
-					content = "主动帮忙",
+					content = "(Lend her a hand.)",
 					flag = 1
 				}
 			}
@@ -312,7 +312,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我靠过去，伸手拿过她手中的听诊头。",
+			say = "I come closer and take the stethoscope out of her hand.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "我自己……你……好吧……",
+			say = "Look, I can... Eh, whatever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "既然你这么想帮忙，那就交给你好了！",
+			say = "If you wanna help so badly, you do it, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "华盛顿松开了自己的手，将主导权交给我。",
+			say = "She lets go and hands the reins over to me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "很快，我就帮她把纠缠在衣服上的导音插管取出来。",
+			say = "I manage to untangle the tube from her clothes in no time.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 			hideRecordIco = true,
 			actor = 105132,
 			actorName = "{playername}",
-			say = "好了。",
+			say = "There you go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "……谢了。",
+			say = "Thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "少女红着脸，有些别扭地低声道了谢，很快她又拧起眉毛，提高了音量。",
+			say = "With flushed cheeks, she thanks me in a hushed, embarrassed voice. Then, she furrows her brow and raises her voice.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			actor = 105132,
 			nameColor = "#A9F548FF",
-			say = "好了！刚刚只是个意外，赶紧继续练习吧！",
+			say = "Alright! Let's forget that little accident happened and get on with the practice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "病人就要有病人的样子，快点躺好！",
+			say = "You're my patient, so act like it – lie down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "华盛顿凑近过来，身体力行地将我按倒在床上。",
+			say = "She rapidly comes closer and pushes me into the bed again.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -466,7 +466,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "练习……才刚刚开始呢////……",
+			say = "This practice has just gotten started, you hear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

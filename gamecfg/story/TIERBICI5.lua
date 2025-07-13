@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融冰\n\n<size=45>五　大家的秘书舰</size>",
+					"「Schmelzen」\n\n<size=45>Chapter 5: Everyone's Secretary Ship</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:436}正一如往常地高效地处理着秘书舰的工作。",
+			say = "As usual, Tirpitz was easily and efficiently handling her secretary duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来把最近一段时间的海域观测报告整合一下，更新一下塞壬出现的分布图……",
+			say = "Next, organize the observation reports of the sea zones, and update the ones the Sirens have appeared in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了，这是你和主人的红茶，我放这里了。",
+			say = "Excuse me for intruding while you're busy. I've left Master's and Ms. Tirpitz's black tea over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦你了。",
+			say = "Thanks for your work.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用客气，{namecode:436}平时也帮了大家很多忙…那我就先告退了。",
+			say = "Please don't mention it. If anything, Ms. Tirpitz is the one who's always helping me... Excuse me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据这份分布图，接下来的巡逻路线也要随之进行调整……",
+			say = "If you could update the route that is to be patrolled next time based on the predictions of enemy appearances in the various sea zones...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "打扰了。{namecode:436}，上次谢谢你的帮忙了。",
+			say = "Hello there. Tirpitz, you really saved me last time. Thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "这是最新型的空气净化器，能提高工作效率，保持健康的那种。我就放这里了。",
+			say = "Here, the newest model air purifier. Umm, it's a model that raises work efficiency and promotes good health. I'll leave it here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，谢谢了。",
+			say = "Ah, thank you.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "科研部还有事情，那我先走了。",
+			say = "There are still things left unfinished at the Research Department, so I'll be heading out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巡逻路线安排好了，接下来是人选……",
+			say = "With this, the patrol route should be... and for the personnel...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，打扰了呢！之前聊天的时候{namecode:436}好像对盆栽有点兴趣呢，所以我就带了点东西过来~",
+			say = "I'll be coming in~! Ah, Tirpitz! Perfect. I heard the other day that you're interested in bonsai, so I've come today to bring you the gift of bonsai!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是我种的盆栽。累了的话看着它就不会犯困了呢！放这里可以吗？",
+			say = "I took care of this one pretty carefully. If you look at it when you're tired, you'll feel uplifted and recharged in no time! So, would this be a good place for it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，没问题的，就放这里吧。",
+			say = "Sure, that place works.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我就先走啦！",
+			say = "Okay, over here, and... all right. Well, I'll be outta here before I become a bother~ See you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近来指挥室的人怎么越来越多了？",
+			say = "Don't you think we've been getting more and more visitors lately...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:436}还没有察觉到，自己早已成为舰队众人信任的好伙伴",
+			say = "Tirpitz didn't seem to know that she was the reason why more people had been visiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不仅如此，似乎她根本没注意到——自己在回应大家的时候，一直是微笑着的。",
+			say = "She didn't seem to realize that she was smiling radiantly in front of everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

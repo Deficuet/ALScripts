@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>二　所谓个性…</size>",
+					"Another Leader?\n\n<size=45>Chapter 2 - An Affable Personality...?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·广场",
+			say = "Port - Main Plaza",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是想问，那个女人，为什么那么害怕我们共同的姐姐，乔治五世？",
+			say = "In other words... you're asking me why Duke of York is so afraid of our sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "出于一点好奇，和威尔士亲王提起了这件事。",
+			say = "After what happened this morning, I went to see Prince of Wales for an explanation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵、呵呵，哈哈……",
+			say = "Heh... Heheh... Hahahaha...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "平日不苟言笑的威尔士亲王，不知为何，笑了起来。",
+			say = "The normally unexpressive Prince of Wales suddenly burst out into laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢……对那个女人来说，姐姐应该算是她的天敌吧。",
+			say = "Let's see... One could say that King George V is that snake's nemesis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,23 +131,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "……天敌？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205060,
-			side = 2,
-			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "因为她的强大之处和“独占”相反，是“立于上位之人的博爱”",
+			say = "... Nemesis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +147,23 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好，指挥官，看那边——",
+			say = "Unlike Duke of York, her power does not stem from \"individual strength,\" but rather from \"Noblesse Oblige,\" the charisma she holds over others. Ah, good timing — see for yourself, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205060,
+			side = 2,
+			bgName = "star_level_bg_113",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，姐姐，你还在在意个性的事吗？？",
+			say = "Sis, are you still hung up on that one time...?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，在没有人承认我的个性之前，我是不会放弃的~",
+			say = "No way! As long as people continue to say that I have no personality, I won't give up!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐你这个是想太多了……",
+			say = "Uh, Sis, that's what being hung up means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "没错！",
+			say = "Precisely! If you'd like, I could offer some words of advice?",
 			effects = {
 				{
 					active = true,
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是……皇家的乔治五世？！",
+			say = "You're... King George V, from the Royal Navy!?",
 			effects = {
 				{
 					active = false,
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉插入你们的对话。正如华盛顿小姐所说，没有个性，寻找个性，这正是北卡罗莱纳小姐你的个性。",
+			say = "Pardon me for eavesdropping on your conversation. Ms. North Carolina, you stated that you have no personality, but if I may be so bold, I would offer that your noble search for a personality is in fact your personality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你的个性，应该是建立在你自己承认自己的基础之上",
+			say = "In other words, you must first accept who you are before you can move forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……这样的个性又有谁会承认呢……",
+			say = "B-but... who would acknowledge a personality like that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我来承认！",
+			say = "Me, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有什么疑问吗？如果你的个性需要他人承认的话，我来承认就好",
+			say = "What's the issue? If you are looking for someone who accepts you for who you are, then I shall be that person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，舒展你紧皱的眉头，露出笑容吧，那样更适合你。",
+			say = "Therefore, you have nothing to worry about. Take pride in yourself and smile — don't you think that suits you better?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……（努力憋着不笑出来）",
+			say = "... ... (Seems to be desperately trying to suppress her laughter)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好像你这么一说我心里就舒服多了呢！谢谢你！",
+			say = "Hm... If you put it that way, that does make me feel a bit better! Thanks for hearing me out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,23 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205060,
-			side = 2,
-			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如你所见，指挥官，她就是这样的人。",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +470,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如同太阳一般堂堂正正，无论好坏永远坚持贯彻自我的领导魅力……",
+			say = "See, Commander? That's just the type of person she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +486,23 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对约克来说，这个姐姐，可算是她最应付不来的对象了。",
+			say = "Her presence is like the sun, bright and indiscriminate. Whether for better or for worse, she can't stop radiating charisma.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205060,
+			side = 2,
+			bgName = "star_level_bg_113",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "For Duke of York, this is someone who she absolutely cannot handle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎能理解威尔士想说的是什么了。",
+			say = "...For once, I seemed to understand what Prince of Wales was talking about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

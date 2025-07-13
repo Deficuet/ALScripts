@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -71,7 +71,7 @@ return {
 				number = 2
 			},
 			location = {
-				"撒丁岛·安德烈亚防线",
+				"Sardegnia Island - Andrea Defensive Line",
 				3
 			}
 		},
@@ -79,11 +79,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
-			say = "安德烈亚，攻击依然无效。",
+			say = "As Trento said, our attacks really are ineffective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +93,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
-			say = "按照现在的速度，目标将在一小时内威胁到核心节点的安全。",
+			say = "If nothing changes soon, they'll be threatening the core node within an hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
-			say = "安德烈亚阁下，圣座冕下发来消息，她已经完成了仪式的全部准备。",
+			say = "Andrea, Her Grace just informed me that the ritual has been set up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
-			say = "目前敌方目标已经进入伏击圈，陆上神国随时可以降临。",
+			say = "The enemy is already within strike range, so the Kingdom of God can be deployed at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,11 +135,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "不行，未启动的节点还差很多，永夜领域的实际运行功率还不到预期中的一半。",
+			say = "It's too soon. Too many nodes aren't connected yet. The Domain hasn't even reached half of its predicted output.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,10 +149,10 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "现在我们给予目标的压力完全不够。",
+			say = "We need more to put sufficient pressure on the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "你们继续全速夺回节点，并在节点之上布设永夜战旗。",
+			say = "Keep capturing nodes and raising the Banner of Eternal Night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "至于我们——是时候执行备用方案了。",
+			say = "Meanwhile, I suppose... it's time to carry out the backup plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "超载研究所的系统，将META化程度推出阈值，进入一个全新的阶段。",
+			say = "Overclock the laboratory's system and push the META corrosion up to a new threshold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
-			say = "……这，你确定么？",
+			say = "Are you sure that's a good idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,11 +218,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "当然。为了打破樊笼，我们所有人早就做好了牺牲的准备。",
+			say = "I'm sure. We've always been ready for this if it's what it takes to break free of our cage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,10 +232,10 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "更何况，现在只是牺牲些许健康来换取力量而已。",
+			say = "It's nothing too serious. It will just give us more strength at the cost of our health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,10 +245,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
-			say = "……圣座冕下之前听到你们的计划的时候可不是这么说的（小声）",
+			say = "That's definitely not all it does, based on Her Grace's reaction to your plan...",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -259,11 +259,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
-			say = "呵，可我早就想突破那些无聊的安全协议了。",
+			say = "Hmph. I always have wanted to break past that meaningless safety protocol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
-			say = "我这就去准备。",
+			say = "I'm on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "卡尔杜齐，时机尚未到来，计划不变，接下来的战斗依然交给我们。",
+			say = "Carducci, don't flip the extermination switch just yet. Stick to the plan and focus on expanding the Domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,10 +301,10 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……制胜的机会只有一次，不论接下来我们的战况如何……",
+			say = "We only have one shot at this, so remember...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,11 +314,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
-			say = "在我发出信号之前——稳住。",
+			say = "No matter how hard the fighting gets, don't relent until you're given the signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

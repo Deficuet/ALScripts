@@ -8,7 +8,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一片残骸已经大部沉入水下成为了藻类的家园，看起来很久以前就被摧毁了。",
+			say = "Around half the wrecks in this area have sunk beneath the surface, and we found traces of algae. They must've been floating here for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

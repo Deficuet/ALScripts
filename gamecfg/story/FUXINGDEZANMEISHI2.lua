@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "撒丁帝国塔兰托港·会议大厅",
+			say = "Sardegna Empire - Taranto Conference Hall",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "“查明爱琴海内失踪舰队的下落，尽可能找回丢失的“艺术品”，或者至少，让塞壬付出应有的代价”——这是来自元老院的联络。",
+			say = "\"Locate the whereabouts of the fleet that has gone missing in the Aegean Sea, and try to retrieve as much of the lost \"artwork\" as possible— or at least make the Sirens pay their due price.\" —These are the orders we've received from the Senate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "自君士坦丁堡而来的元老院运输舰队居然失踪了啊……这还真是件大事。",
+			say = "The Senate ship that sailed from Istanbul went missing, if I'm understanding this correctly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "等等，利托里奥……该不会恰好也是搭载了我们货物的那支舰队吧？！",
+			say = "I didn't think it possible, but... this wasn't the fleet that Vincenzo Gioberti was escorting, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "很遗憾，正是如此……除了元老院购买的大量珍贵艺术品之外，我们的货物也在其中。",
+			say = "I'm afraid so. It was a special fleet put together by the Senate to transfer a large amount of artwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……那护航的文琴佐呢？！",
+			say = "Where's Gioberti then? I hope she's fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "和舰队一起失踪了……原本就是担心危险所以特意指派了文琴佐进行护航。没想到连同文琴佐在内，整支舰队在爱琴海内消失的无影无踪。",
+			say = "Not sure, I'll have to look into things further... How does an entire fleet go missing in the middle of the Mediterranean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "…………早知道我再周旋一下，多派点护航舰船就好了。",
+			say = "Had I known this would've happened, I would've sent more escorts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "别自责，不是你的责任。如果和元老院无休止争论下去的话，可能在得出结论之前舰队就已经准备返航了哟~",
+			say = "Don't feel guilty about what you can't control, Veneto. Besides, there's no way we could've gotten a lot of escorts over to a fleet at that position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "而且这种诡异失踪的情况，估计多派些舰船结果也是一样的。",
+			say = "And above all else, for an entire fleet to suddenly vanish, it's highly likely that the Sirens are involved. The situation would not have changed regardless of how many ships we added.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "是这样么……这件事是什么时候发生的？",
+			say = "You're right, Littorio... When did we lose contact with the fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "昨天清晨。元老院在得到消息后第一时间选择委托空军而不是我们对失踪海域进行了搜索。",
+			say = "Just before daybreak yesterday, I believe? The Senate started investigating things on their own without contacting us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别生气别生气~在空军毫无成果的搜寻一天之后，最后不还是找到我们了嘛。",
+			say = "In the end, they have no choice but to rely on us shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "因为近来自爱琴海中遇袭报告不断增加，元老院推测塞壬的活动频率也许正在增加。",
+			say = "Unlike what's going on in the NA Ocean, Siren activity has only increased in the Mediterranean, and this is making the Senate nervous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "显而易见的事…虽然{namecode:91}看起来心浮气躁的，但是她的观察力很敏锐，陆间海的塞壬侵扰已经到了不得不重新引起重视的程度了。",
+			say = "And Sardegna being unable to handle its own affairs would reflect poorly upon them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "立刻安排搜救行动吧！文琴佐那孩子挺机灵的，我们应该还来得及。",
+			say = "(Defeating the Sirens is something that only we can do... But we have several other objectives that we cannot afford to fail.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不过这次事件有些奇怪……爱琴海并不算大，航线也算繁忙，空军搜索了一天都没找到也就意味着并不是常规意义上的迷航……",
+			say = "(The retrieval of the pieces of art. The rescue of Vincenzo Gioberti... and locating a fleet that has disappeared into thin air. Under normal circumstances, traces of the fleet would've been visible from the air.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "……难道会是镜面海域么？",
+			say = "It seems highly plausible that the fleet has gotten lost in a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是镜面海域的话可就中奖了哦~搞不好能顺藤摸瓜找到我们一直以来都在搜寻的塞壬隐匿据点。",
+			say = "A Mirror Sea? Right in our backyard?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是这样的话就太好了……不能让塞壬一直在帝国的花园中撒野下去，是时候结束这场漫长的猫鼠游戏了。",
+			say = "There's no other explanation. Let's plan to deploy not only a rescue convoy, but also a combat force to eliminate the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那这次行动还和以往一样，你在后方坐镇、我在前线指挥，一起来一场华丽的营救行动？",
+			say = "Sounds good. The usual arrangement then? I will valiantly take command of the vanguard while the fine signorina manages the situation from the rear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "唔，让我想一想…………自从圣堂事件之后皇家和维希教廷之间的气氛一直挺紧张的，即便是现在马耳他依然驻扎了大量舰队。",
+			say = "Hold on, Littorio. This time, I'll also be sortieing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然已经签订了停火协议，就向皇家通知一下我们的行程避免误判吧。",
+			say = "Unlike that \"Reenactment\" with the Royal Navy fleet, we may be dealing with an actual Siren encampment. In that case, I want to ensure that our combat force is without holes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "哼哼~就知道你会有这个担心，所以我在回来的路上就已经通知过了哦~",
+			say = "As meticulous as ever, milady. But just what do you take me for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "本来还想邀请光辉女士一同前往的，不过很遗憾被干脆拒绝了。",
+			say = "Are you sure you're prepared to stand on the front lines after staying in the back for so long? Surely you know that Littorio makes no mistakes as flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "令人叹服的行动力……现在这个局面下会同意才有鬼吧。这样下去小心再掉到皇家的陷阱里哦？",
+			say = "Ahaha... and surely you know that as your sister ship, I can see right through your bluster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "请不用担心维内托女士，现在的我已经不是过去那个懵懂的利托里奥了~",
+			say = "Fine, I'll admit that we both have certain areas that we excel in more than the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不好意思，能请您更详细解释一下“懵懂的利托里奥”这个词是什么意思么？",
+			say = "In that case, why don't you continue to take the lead? I'll join up with a supporting fleet later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "啊……哈哈哈……总而言之，告知工作我已经完成了！行动上的安排你纠结完了么？",
+			say = "Of course, I can't possibly stop you if you actually wanted to come, Eternal Flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……我决定了。为了展现撒丁帝国的雄心和维护陆间海稳定的实力，战则必胜。这次我与你一同带领帝国舰队主力出击。",
+			say = "Very well. I shall join you after I have fully mustered my strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过事发突然，我手里还有一些要结束的工作，天鹰那边也需要进行最后的调整，前锋舰队就由你来负责吧。",
+			say = "Our goal is to wipe out the Sirens and protect the peace of the Mediterranean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题，我先带领舰队出发就是。反正爱琴海这么近，去那里就像在自家花园里散步那样啦。",
+			say = "Well said. We know these waters well, and we shall make the Sirens regret encroaching upon our homeland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "第一次携带航空母舰出战的帝国禁卫军将会进行一场怎样精彩的战斗呢……真令人期待啊~！",
+			say = "Naturally, I look forward to witnessing what kind of fleet you'll be able to muster. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

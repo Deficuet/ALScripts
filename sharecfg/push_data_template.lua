@@ -3,72 +3,72 @@ pg.push_data_template = {
 	{
 		alignment = 0,
 		id = 1,
-		title = "委托完成喵",
-		content = "委托《$1》完成了喵！勤劳才会致富喵！",
-		desc = "功能开启后，军事委托完成时推送提示至设备"
+		title = "Mission complete!",
+		content = "Mission $1 complete *Nyaa*! Diligence leads you to wealth *Nyaa*!",
+		desc = "Enables push notifications for when a commission has been completed."
 	},
 	{
 		alignment = 0,
 		id = 2,
-		title = "回收物资喵",
-		content = "小卖部的物资已经满了喵，再不回来我就拿走了喵！",
-		desc = "功能开启后，小卖部库存溢满时推送提示至设备"
+		title = "Coins received",
+		content = "Our Merchant is about to be overflowing with coins! They'll be mine if you don't come back *Nyaa~*!",
+		desc = "Enables push notifications for when the Merchant has reached max capacity."
 	},
 	{
 		alignment = 0,
 		id = 3,
-		title = "回收石油喵",
-		content = "海军食堂的石油已经满了喵，再不回来我就拿走了喵！",
-		desc = "功能开启后，海军食堂库存溢满时推送提示至设备"
+		title = "Oil received",
+		content = "Our storage is about to be overflowing with oil! They'll be mine if you don't come back *Nyaa~*!",
+		desc = "Enables push notifications for when the Canteen has reached max capacity."
 	},
 	{
 		alignment = 0,
 		id = 4,
-		title = "弹尽粮绝喵",
-		content = "指挥官～家里已经没东西吃了喵～大家都饿趴下了喵…",
-		desc = "功能开启后，后宅食物消耗完毕时推送提示至设备"
+		title = "Out of ammo",
+		content = "Commander~ There's nothing to eat *Nyaa*~ We're starving *Nyaa*~...",
+		desc = "Enables push notifications for when all the food in the Dorm has been consumed."
 	},
 	{
 		alignment = 0,
 		id = 5,
-		title = "课程完成喵",
-		content = "$1的《$2》学习完成了喵！是时候买新的课本了喵！",
-		desc = "功能开启后，战术学院课程完成时推送提示至设备"
+		title = "Class is over",
+		content = "$1 has finished $2! It's time to buy a new textbook *Nyaa*!",
+		desc = "Enables push notifications for when Tactical Class has been completed."
 	},
 	{
 		alignment = 0,
 		id = 6,
-		title = "放学了喵",
-		content = "大讲堂放学了喵！该准备下一次的课程了喵……",
-		desc = "功能开启后，大讲堂熟练度消耗完毕时推送提示至设备"
+		title = "Lecture's over",
+		content = "The course in the Lecture Hall is over, nya! We should set up the next one, nya...",
+		desc = "Enables push notifications for when Lecture Hall proficiency has been depleted."
 	},
 	{
 		alignment = 0,
 		id = 7,
-		title = "研发结束喵",
-		content = "所有的科研项目研发都结束了喵！快来确认下进度喵！",
-		desc = "功能开启后，选择的科研项目全部研发完成时推送提示至设备"
+		title = "Research complete",
+		content = "All your queued research projects have been completed, nya! Come and claim the rewards, nya!",
+		desc = "Toggle this setting ON to get push notifications when all your queued research projects have been completed."
 	},
 	{
 		alignment = 0,
 		id = 8,
-		title = "新进展喵",
-		content = "研究中的$1有新的进展了喵！快来开发船坞中确认一下喵！",
-		desc = "功能开启后，开发船坞新项目解锁时推送提示至设备"
+		title = "Development has \nprogressed",
+		content = "Progress has been made in the development of $1! Let's head down to the development docks, nya!",
+		desc = "Enables push notifications for when a new quest is unlocked in the Shipyard."
 	},
 	{
 		alignment = 0,
 		id = 9,
-		title = "训练完成喵",
-		content = "指挥喵训练完成了喵！快来迎接新的小小伙伴喵！",
-		desc = "功能开启后，指挥喵完成训练时推送提示至设备"
+		title = "Meowfficer training \ncomplete",
+		content = "Meowfficer training has been completed, nya! Let's go greet our new little friend, nya!",
+		desc = "Enables push notifications for when a Meowfficer has finished training."
 	},
 	{
 		alignment = 0,
 		id = 10,
-		title = "派遣刷新喵",
-		content = "大舰队作战可以派遣新的编组了喵！快来大舰队作战内确认一下喵！",
-		desc = "功能开启后，大舰队作战事件派遣刷新时推送提示至设备"
+		title = "Dispatch notification \nnya! ",
+		content = "Another fleet can be dispatched on your Guild Operation, nya! Come check back and make sure your operation is a success, nya! ",
+		desc = "Enable push notifications for when Guild Event dispatch is refreshed"
 	},
 	all = {
 		1,

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.sham_battle_template = {
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 1,
 		act_id = 0,
@@ -356,81 +356,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -508,8 +494,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 2,
 		act_id = 0,
@@ -863,81 +849,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -1015,8 +987,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 3,
 		act_id = 0,
@@ -1370,81 +1342,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -1522,8 +1480,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 4,
 		act_id = 0,
@@ -1877,81 +1835,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -2029,8 +1973,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 5,
 		act_id = 0,
@@ -2384,81 +2328,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -2536,8 +2466,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 6,
 		act_id = 0,
@@ -2891,81 +2821,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -3043,8 +2959,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 7,
 		act_id = 0,
@@ -3398,81 +3314,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -3550,8 +3452,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 8,
 		act_id = 0,
@@ -3905,81 +3807,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -4057,8 +3945,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 9,
 		act_id = 0,
@@ -4412,81 +4300,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -4564,8 +4438,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 10,
 		act_id = 0,
@@ -4919,81 +4793,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -5071,8 +4931,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 11,
 		act_id = 0,
@@ -5426,81 +5286,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -5578,8 +5424,8 @@ pg.sham_battle_template = {
 		}
 	},
 	{
-		map = 90001,
-		name = "模拟战",
+		map = 90000,
+		name = "Simulation",
 		time = 99999999,
 		id = 12,
 		act_id = 0,
@@ -5933,81 +5779,67 @@ pg.sham_battle_template = {
 		},
 		float_items = {
 			{
+				7,
+				2,
+				"1x1_1monizhan",
+				0,
+				8
+			},
+			{
 				6,
 				5,
 				"1x3_2monizhan",
-				0,
-				0
+				92,
+				4
 			},
 			{
 				6,
 				2,
 				"2x2_1monizhan",
-				-8,
-				-24
+				0,
+				78
 			},
 			{
 				5,
-				7,
-				"2x2_2monizhan",
-				18,
-				-32
-			},
-			{
-				5,
-				2,
-				"1x1_1monizhan",
-				2,
-				25
-			},
-			{
-				4,
 				7,
 				"1x1_2monizhan",
-				-9,
-				-22
+				-5,
+				10
 			},
 			{
 				4,
 				5,
 				"1x1_1monizhan",
-				-11,
-				1
+				-17,
+				-1
 			},
 			{
 				4,
 				4,
-				"2x2_1monizhan",
-				-13,
-				-52
+				"2x2_2monizhan",
+				-10,
+				-70
 			},
 			{
 				2,
 				7,
 				"2x2_3monizhan",
-				-42,
-				-50
-			},
-			{
-				2,
-				5,
-				"1x1Rock_1",
-				72,
-				0
+				-58,
+				-69
 			},
 			{
 				2,
 				4,
 				"1x3_1monizhan",
-				-4,
+				-52,
 				2
 			},
 			{
 				2,
 				2,
-				"2x2_2monizhan",
-				-17,
-				-71
+				"1x1_2monizhan",
+				8,
+				-73
 			}
 		},
 		theme = {
@@ -6548,7 +6380,7 @@ pg.sham_battle_template = {
 	},
 	[90000] = {
 		map = 90000,
-		name = "镜面海域",
+		name = "Mirror Sea",
 		time = 99999999,
 		id = 90000,
 		act_id = 10033,

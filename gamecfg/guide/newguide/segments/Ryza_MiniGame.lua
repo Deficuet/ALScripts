@@ -15,7 +15,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击奖励按钮可以选择已通过的关卡哟~",
+				text = "You can select any stage you've already cleared before!~",
 				mode = 1,
 				posY = 230,
 				dir = 1,

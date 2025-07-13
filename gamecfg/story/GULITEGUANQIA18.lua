@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "ssss-az-battle-boss",
-			say = "城市区·周边海域",
+			say = "Nearby Waters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你确定是这个方向么？",
+			say = "Are you sure we're going the right way...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "绝对没错，之前的战斗结束后就是向着这里撤退的。",
+			say = "Yeah. This is the place it always goes to hide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,8 +58,8 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
-			say = "我分析的也是在这个方向哦！",
+			actorName = "Purity",
+			say = "That's the same reading that your favorite teacher here got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "貉，你这个舰装还真是方便啊……正常打仗都是量产型越打越少，你这反而越打越多。",
+			say = "...That Siren ability to control mass-produced ships really comes in handy, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "用来控制塞壬量产型的话确实方便，不过也不是所有的都能控制。我还不知道这个力量的原理是什么……",
+			say = "That it does, but it doesn't seem to always work. There's much I still do not understand about this power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你慢慢研究，反正这里的塞壬舰队多得是。",
+			say = "Luckily enough, there's an entire buffet of Siren ships in front of us for you to test your powers on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接近之后才发现居然在海雾里藏了这么多。呵呵，正好让我发泄一下暂时与指挥官分别的痛苦！",
+			say = "We just have to get closer first to see exactly how many there are. This should be a great opportunity to vent a bit~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +147,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "警报音————",
+			say = "(Alarm blaring) .........!!",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现敌方巨大目标接近中，那个是……什么？",
+			say = "There's something massive approaching us... What is that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_2",
-			say = "远方天际线缓缓出现了一个红黑色的巨影。",
+			say = "From beyond the horizon, the sea was covered by a steel shadow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_3",
-			say = "如同钢铁巨兽一样的身躯，如同恶龙一样的头部，再加上无数散发着诡异光芒的炮管。",
+			say = "Not only was it as menacing as a dragon ready to strike, but various parts of its body were equipped with heavy artillery, endowing it with enough firepower to defeat any enemy while still maintaining a dignified appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_4",
-			say = "浑身散发着能够歼灭任何敌人的气魄巨物——这就是塞壬的怪兽。",
+			say = "There could be no doubt – this was the kaiju.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "身体是不是变得比之前更大了……？",
+			say = "No way... it's even bigger than it was before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "好像有些狩猎的价值了，呵呵呵……全舰瞄准！",
+			say = "Quite the formidable foe... but I wouldn't have it any other way~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,9 +259,9 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			actor = 900233,
-			say = "等等，停！那个怪兽情况有些不对，大家快撤退，不要跟它打！",
+			say = "Wait, hold on! We need to get out of here! We can't fight that thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，净化者也会害怕？",
+			say = "Oh my, is the mighty Purifier going to run with her tail tucked between her legs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,9 +304,9 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			actor = 900233,
-			say = "不是害怕不害怕的问题，而是那个敌人不对劲，虽然我说不上来哪里不对劲……",
+			say = "Fear has nothing to do with it! That thing... isn't normal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,9 +322,9 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			actor = 900233,
-			say = "总之，我们现在不是它的对手！还是先撤吧！",
+			say = "We can't defeat it! As a matter of fact, we'll be totally crushed! We need to get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人已经冲到跟前了，怎么能掉头逃跑？我们舰队人数这么多，不会有问题的~首先请航空母舰进行轰炸吧。",
+			say = "...You say that, but that thing's already headed straight towards us. Since we have the numbers advantage, why don't we send some planes at it to see how tough it really is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:439}说的没错，具体什么情况总要试一试再说！{namecode:93}姐我们一起来吧！",
+			say = "I like the sound of that. Souryuu, let's get ready to send our planes out to get a feel for how this thing fights!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "两位前辈，我也来帮忙！",
+			say = "Senpaiiii!! I can help too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOM––!!",
 			flashN = {
 				color = {
 					1,
@@ -459,7 +459,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰载机群用机枪扫射着怪兽的躯体，数量庞大的鱼雷向着双足涌去，轰炸机飞到怪兽的头部开始投弹。",
+			say = "The shipgirls deployed their aircraft to engage the massive kaiju.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可是不论是机枪、鱼雷还是炸弹，都没能对前方的巨物造成丝毫损伤。",
+			say = "...However, neither gun nor bomb could leave even a scratch on the kaiju's body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,24 +485,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仿佛有什么看不见但极其坚固的存在让所有攻击都偏转了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_ssss_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "飞鸟川千濑",
-			say = "哎？没有效果！",
+			say = "The attacks seemed to bounce harmlessly of its body, as if protected by some kind of invisible shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,8 +501,8 @@ return {
 			bgName = "bg_ssss_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "貉",
-			say = "似乎多了一些特殊的防御能力，和之前见到的时候不一样了……",
+			actorName = "Chise Asukagawa",
+			say = "Whaaaat? It didn't work?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,8 +518,8 @@ return {
 			bgName = "bg_ssss_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "貉",
-			say = "除了体积变大之外，作战能力也大幅提升了啊。",
+			actorName = "Mujina",
+			say = "It's different from before. It seems to have gained some kind of defensive mechanism.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,13 +530,30 @@ return {
 			}
 		},
 		{
-			actorName = "宝多六花",
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_ssss_5",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Mujina",
+			say = "It's not just bigger. It's also gotten stronger.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Rikka Takarada",
 			side = 2,
 			bgName = "bg_ssss_5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对方开始反击了！…这个有点糟糕吧？",
+			say = "I don't like the way it's looking at us... Uhh, isn't this pretty bad?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -609,8 +609,8 @@ return {
 			bgName = "bg_ssss_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:439}",
-			say = "这个威力…开什么玩笑？！",
+			actorName = "Roon",
+			say = "Ugh! I'll admit, that thing DOES pack a punch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,9 +627,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "所以说对面不对劲啊，快点撤！",
+			say = "Didn't I already tell you before? Let's hurry up and get out of here, dunces!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没完，让我用主炮去试试————",
+			say = "I'm not done yet! Raaaaargh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:439}，打不赢的！战斗力差距已经很明显了。",
+			say = "Roon! Get back here...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官在这里的话一样会选择撤退的。",
+			say = "She's not listening! Crap, we're getting separated by the kaiju's attacks...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊……这么说来，我们这支舰队的旗舰究竟是谁呀？",
+			say = "What would the Commander do in this situation? Ugh, but the flagship should be the one to make that call...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谁都好吧……现在是需要纠结这个问题的时候么？",
+			say = "Is that really important right now?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个问题很重要哎！指挥官不在的话应该是旗舰负责指挥，如果没有指挥不就乱套了么……",
+			say = "Y-you're right... but Roon's really scary, and the Commander isn't here... What would Bel do if she was here..?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实有道理……虽然从气势上来说就变成{namecode:439}了进行指挥，不过毕竟不是正式决定下来的事。",
+			say = "Don't worry about her, Edinburgh! Just do what you think is right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "巨大的塞壬怪兽一边射击一边缓缓接近着，无数散发着危险颜色的光束从众人身旁擦过。",
+			say = "The massive enemy began charging its massive beam, and the party could only gulp as they prepared to face the incoming crisis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "我说……要不要先撤退，等回去再慢慢讨论？",
+			say = "I'll take care of things over here, so make sure you go and get the other shipgirls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "切……你们说的对，不能跟底细不明的敌人硬拼，准备撤退吧！",
+			say = "Tsk... Those defenses are really keeping me from having my fun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "了解~不过撤退的命令应该让谁来下……？！",
+			say = "That's enough! Roon, everyone, regroup and retreat at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,7 +835,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "爱~丁~堡~小~姐~",
+			say = "Edinburgh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "哎嘿嘿！大家撤退哦，撤退！",
+			say = "Hurry, let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

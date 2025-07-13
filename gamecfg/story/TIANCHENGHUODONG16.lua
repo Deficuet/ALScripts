@@ -14,7 +14,7 @@ return {
 			actor = 305070,
 			dir = 1,
 			stopbgm = true,
-			say = "情况怎么样了？！",
+			say = "How's the situation looking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "{namecode:161}大人在昏迷了数日后，终于在今天恢复意识了。不过她需要更多的休息…今天不方便见客。",
+			say = "She finally regained consciousness just earlier, but I don't have much more good news for you. She's going to need more rest, and won't be taking any visitors today.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -49,7 +49,7 @@ return {
 			withoutActorName = true,
 			side = 0,
 			dir = 1,
-			say = "{namecode:140}了摇摇头，向{namecode:92}说明了近日的情况",
+			say = "Hatakaze shook her head as she explained the situation to Kaga, her voice on the verge of cracking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 0,
 			actor = 301790,
 			dir = 1,
-			say = "经过检查，{namecode:161}大人由于种种原因，早在心智魔方成型之时便留下了巨大的缺陷…",
+			say = "During her examination, we found out that Amagi's wisdom cube had been severely damaged. Nobody knows exactly what caused it though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,23 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实之前她一直都是在硬撑着这副身体…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#a9f548",
-			side = 0,
-			actor = 301790,
-			dir = 1,
-			say = "因为我们的原因…在她进入镜面海域后，这种现象又发生了急剧恶化…",
+			say = "As a matter of fact, she most likely has been dealing with this for some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +96,23 @@ return {
 			side = 0,
 			actor = 301790,
 			dir = 1,
-			say = "恐怕…",
+			say = "The problem must have flared up when she overexerted herself earlier on the Mirror Sea...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#a9f548",
+			side = 0,
+			actor = 301790,
+			dir = 1,
+			say = "However, I'm worried that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 305070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…恐怕什么！？",
+			say = "That what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			actor = 301790,
 			dir = 1,
-			say = "恐怕她未来无法再以战舰的身份参与战斗了…可能就连普通生活也...",
+			say = "... that in this state, she won't even be able to have a normal civilian life, let alone receive her carrier remodel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 1,
 			actor = 305070,
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这件事我还没有告诉任何人…",
+			say = "Just consider this the worst case scenario. I haven't spoken a word of this to anyone else....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			actor = 301790,
 			dir = 1,
-			say = "包括正在接受航空母舰化改造中{namecode:91}大人…她…",
+			say = "... even to the one who is currently undergoing her remodel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 1,
 			actor = 305070,
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "一时无法接受这件事的{namecode:92}，猛然站起身来走出了院子。",
+			say = "Kaga staggered off in a stupor, as if unable to accept what she just heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "{namecode:140}…？",
+			say = "Hatakaze...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -280,7 +280,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "{namecode:140}在此，{namecode:161}大人。",
+			say = "I'm right here, Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "还剩…还剩最后一步…就拜托你了…",
+			say = "There's... just one more thing left to do... please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "我会照办的..{namecode:161}大人…",
+			say = "Of course. I will make sure it is done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——然后，命运之日终究还是来临了",
+			say = "And with that, the day of destiny arrived.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgm = "nagato-map",
 			dir = 1,
-			say = "联合舰队的同僚们，余乃{namecode:74}，重樱联合舰队旗舰{namecode:74}。",
+			say = "I am Nagato, flagship of the Combined Fleet. Subjects of the Sakura Empire, lend me your ear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如诸位所悉知，塞壬于趁我们不备之时突袭了离岛，并控制了其周边海域。",
+			say = "As you may have heard, Sirens encroached upon our waters when we were ill prepared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先前由于其为无人的离岛，又刚举行过演习而放松了警惕。这是一次重大的战略疏忽，是我们必须引以为戒的重大失败",
+			say = "They captured and converted one of our training grounds into a Mirror Sea. We must take heed and learn from the consequences of our strategic oversight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在此之后，我们强化了所有岛屿的巡逻与警备，夺回离岛的作战计划也在制定之中。",
+			say = "As a result, the Combined Fleet shall strengthen its perimeter defenses, patrolling and establishing garrisons on remote islands. We are also forming a plan to reclaim what was taken from us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了不再重蹈覆辙，也为今后作战的顺利进行……余决定，于今日在此地举行一次岛屿防御作战演习！",
+			say = "Therefore, in order to strengthen our torpedo squadrons and our main fleets to defend against potential large-scale Siren invasions, we shall hold another Naval Exercise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "参赛双方阵容如同以往，蓝方为进攻方，红方为防守方",
+			say = "Like last time, Red Team will be on the offensive, and Blue Team will be on the defensive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "望诸君能够在今天的演习里，发挥平生之所学，尽其智、行其力，打出一场漂亮的战斗！",
+			say = "Those of you who wish to leave a strong impression, do your best to display your formidable power and your graceful technique!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余宣布，岛屿防御作战演习，正式开始！",
+			say = "By my decree, the island defense wargame shall now commence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…{namecode:161}，这样做就可以了吧）",
+			say = "(Amagi... is this what you wanted...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

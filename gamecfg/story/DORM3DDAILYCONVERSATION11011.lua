@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呀，Honey，来得正好，要一起看电影吗？",
+			say = "Hey there, honey! You're just in time! Wanna watch a movie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最新的恐怖片正到精彩的时候。",
+			say = "I just hit the climax of this thriller.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果害怕的话，可以贴在我的肩膀上哦！",
+			say = "If you get scared, just snuggle up to my shoulder, and you'll be fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无敌的Black Dragon会保护你的！",
+			say = "The indomitable Black Dragon will protect you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

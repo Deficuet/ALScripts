@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>三　“好好休息”作战计划</size>",
+					"Consultation Corner's Day Off\n\n<size=45>3 The Big Day Off</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日——",
+			say = "The next day...",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "进入指挥室时，收到了布莱默顿热情地招呼。",
+			say = "As soon as I enter my office, Bremerton gives a hearty welcome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "嘿嘿，我是今天开始出任秘书舰的布莱默顿哦~",
+			say = "Heheh. Bremerton here, ready to be your new secretary ship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "指挥官，不论有什么工作都放心交给我吧~！",
+			say = "Leave any and every job to me, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就这样。在少女全力以赴地协助下，本日的工作顺利完成了。",
+			say = "With her full support, today's work comes to a quick and smooth end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "指挥官，给~来一杯下班奶茶吧~没有冰，一半糖~",
+			say = "Hey, do you want a nice cup of milk tea to finish off the work day? No ice, and half syrup♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,19 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "接过了布莱默顿递来的奶茶，细细品味——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（嗯……总觉得她今天似乎有些反常。）",
+			say = "I accept the tea and savor a sip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +123,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，一手一杯奶茶……你的手机呢？",
+			say = "(Hmm... Bremerton's acting a little weird today.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Hm? Come to think of it, where's your phone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "对哦……调成免打扰模式忘记了！多谢提醒~",
+			say = "Oh, yeah. I forgot I left it in \"do not disturb\" mode! Thanks, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "哼哼哼~♪ 让我来看看今天大家的烦恼吧~",
+			say = "Heheheh♪ Let's see what help everyone needs today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "离开指挥室后，在返回的路上遇到了巴尔的摩。",
+			say = "When I leave the office, I run into Baltimore in the hall.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -205,22 +205,22 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，虽然你现在已经下班了——不过我想跟你商量下关于运动场改建的相关细节，有空么？",
+			say = "Oh, Commander! Sorry to bother you outside of work hours... I wanted to discuss the athletic field remodel with you. Do you have a minute?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题。",
+					content = "Sure, I don't mind.",
 					flag = 1
 				},
 				{
-					content = "我喜欢工作！",
+					content = "That's fine! I LOVE work!",
 					flag = 2
 				},
 				{
-					content = "那就简单看看吧……",
+					content = "Oh, fine. Let's go take a look.",
 					flag = 3
 				}
 			}
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103160,
-			say = "——那么指挥官，我从明天开始检查需要维修升级的设备，并整理出一份清单来。",
+			say = "...Tomorrow, I'll examine the equipment that needs maintenance and updating, and collect them in a list.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前已知最需要升级的，是网球场里的自动发球器。昨天它误发球砸了布莱默顿一个结结实实，真是危险。",
+			say = "The most urgent upgrade is the tennis court's pitching machine. Yesterday, it misfired and did a number on poor Bremerton's head...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……被砸了个结结实实？",
+			say = "Did a number on her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……她当时好像在发呆……",
+			say = "Yeah. To be fair, she was hardly mentally there to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（先是把手机忘在了一边……然后打球的时候被球砸中……）",
+			say = "(Leaving her phone on \"do not disturb,\" spacing out on the tennis court...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然是筹办线下谈心小屋的事让她太累了么……）",
+			say = "(She must still be fatigued from her consultation office.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "对巴尔的摩聊起了线下谈心小屋和布莱默顿的事。",
+			say = "I decide to tell her about Bremerton's recent efforts and her odd state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样……确实得想办法让她好好休息一下才行。",
+			say = "Really... We should find a way to make sure she rests properly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……只是口头上的建议她肯定是不会听的。",
+			say = "Not that she would listen if we just told her to, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103160,
-			say = "如果判断下来确实有必要的话……指挥官，我可以将她打晕，强制她休息。",
+			say = "If it's really necessary... Commander, you could sock her good enough to knock her out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "打晕就……不必了。",
+			say = "I would really rather not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（记得之前在商业街的时候，布莱默顿盯着那个新上市的超柔软睡衣看了很久……）",
+			say = "(She did like those new pajamas back at that one shop.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "将心中的打算告诉了巴尔的摩后，很快商量出了一个作战计划。",
+			say = "After I tell Baltimore my thoughts, the two of us begin devising a strategy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103160,
-			say = "我明白了。放心交给我吧！",
+			say = "Okay! Leave it to me, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

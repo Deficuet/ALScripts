@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·巴拿马要塞",
+					"Panama Canal Fortification",
 					1
 				},
 				{
-					"一段时间后——",
+					"Sometime Later",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_1",
 			hidePaintObj = true,
-			say = "由鸟居突入的空中特别行动编队，以最直接的方式唤醒了沉睡的要塞驻防舰队。",
+			say = "With the help of the drones and aircraft infiltrating through a torii gate, the shipgirls stationed at Panama Canal managed to awaken from the dream.",
 			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_1",
 			hidePaintObj = true,
-			say = "虚伪的幻境被打破，显露出充满阴霾的真实。",
+			say = "The utopian mirage vanished into thin air and reality presented itself to them once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "唔……头还是晕乎乎的。",
+			say = "My head is still spinning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "我们竟然在幻境中浑浑噩噩过了那么多天……",
+			say = "I can't believe we were dreaming all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而我们对于这场袭击，自始至终没有丝毫察觉……",
+			say = "We were completely clueless, from the start to the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "空中排查完毕，侦察范围内没有发现异常，其他模块情况如何？",
+			say = "Well, I've finished surveying the air. Everything looks normal. What about inside our facilities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "设施内部排查完毕了哦，没有发现任何异常记录。",
+			say = "I just got done inspecting those. No abnormal data logs or anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108040,
-			say = "水下监测设施也检查完毕，无异常！",
+			say = "And I'm done searching under the surface. Nothing to report!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "呼……还好。要是在我们深陷幻境的时候被敌人入侵到要塞内部，那就真的出大事了。",
+			say = "Phew... That's a relief. It would've been a disaster if the enemy had attacked while we were daydreaming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "但果然还是好气！居然让我们栽了个大跟头！",
+			say = "I still feel pissed about falling for it in the first place! They made laughing stock of us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "等我找出来是谁做的……定要你好看！",
+			say = "When I find out who did this, they're in for a world of pain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,11 +168,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_banama_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "这里是圣诞岛基地，呼叫巴拿马要塞驻防舰队。",
+			say = "This is Kiritimati communication station. Panama Canal, do you copy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "这里是巴拿马驻防舰队的无畏，通讯很清晰~你们那边也没事了么？",
+			say = "This is Intrepid. I hear you loud and clear. Did you make it out alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "嗯……多亏了企业和法戈派遣的空中特别行动编队，我们才从幻境中清醒过来。",
+			say = "Yeah. We woke up from our dream with the help of Enterprise and Fargo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "欸……我们也是。突然发来联络，是有什么敌情要汇报么？",
+			say = "Really? Same with us. On another note, do you have any intel on the enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "敌情……嗯，应该算吧。",
+			say = "Well... I guess you could call it that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "我们有一些关于水星纪念·META的重要情报需要汇报。",
+			say = "It's about Pamiat' Merkuria META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "竟然发生了这种事……",
+			say = "This is bad news...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "最后观测到她向着安塔迪卡方向而去了么……毫无疑问，她肯定在准备卷土重来！",
+			say = "If she really is heading to Antarctica, she's definitely gonna try to cause another superimposition event!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "偏偏趁现在这个局势混乱，我们无暇他顾的时候……",
+			say = "Just when our hands are tied and we can't reroute any forces to Antarctica, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "……有了~！",
+			say = "Wait, I've got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼叫——呼叫法戈的高速运输无人机，能听到么？",
+			say = "Fargo's drones must have a receiver antenna. Fargo, do you copy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "通讯清晰，巴拿马要塞，你们那边还有什么事情需要空中特别行动编队处理么？",
+			say = "I hear you, Panama Canal. How can I help you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "我们这边没什么事了，就是问问你们这支编队接下来的行动计划。",
+			say = "I was just wondering – what will you do with the drones and planes you sent to us? Gonna take them back already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "飞临巴拿马要塞的机群任务已经全部完成。因为燃料不足，机群正在执行返航任务。",
+			say = "They've completed their mission there, so yes, I'm bringing them back to save on fuel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "燃料不足……那符咒还有剩余的么？",
+			say = "Understandable. Do you have any more of those Sakuran talismans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "无人机中有备用的符咒尚未使用。",
+			say = "I have some to spare, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了~其实，我们这边有紧急情况，需要你们优先去一趟火地岛基地联络我们的安塔迪卡洋舰队。",
+			say = "Fantastic. I was hoping you could send some to the base at Tierra del Fuego, pronto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不然，舰载机群继续返航，你的无人机转而在巴拿马要塞进行补给，之后和我的舰载机编队一起去火地岛？",
+			say = "If you want to save fuel, you can just bring your aircraft back and we'll top off the drones. I'll escort the drones to the South Atlantic with my own planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等，我向企业汇报一下这件事。",
+			say = "Let me discuss the idea with Enterprise first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "久等了，企业认同了你们的计划。",
+			say = "I'm back. Enterprise approved the route change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "同时，企业表示，在当前混乱的局势下，白鹰无法仅凭自己的力量处理安塔迪卡的问题。",
+			say = "This is an extensive crisis, and the Eagle Union can't possibly deal with it alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "她已经派出了另一批空中编队前去支援失联的悉尼司令部。",
+			say = "That being the case, I sent out another formation to the Royal Navy's fleet stationed over in Sydney.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "在悉尼司令部的情况明朗前，她希望我们的安塔迪卡洋舰队不要轻举妄动。",
+			say = "If you can, tell the fleets in the South Atlantic to stand by until the Royal Navy has a grasp on the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107110,
-			say = "明白~",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

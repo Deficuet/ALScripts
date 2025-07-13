@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[2]\n\n<size=45>一夜鱼龙舞</size>",
+					"Port Fashion Collection: Spring Festival II\n\n<size=45>1 Fireworks Adorn the Night Sky</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 206072,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“东风夜放花千树。”",
+			say = "\"A thousand flowers bloom in the wake of the Eastern wind.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "“更吹落、星如雨。宝马雕车香满路。”",
+			say = "\"Petals fall as a shower of stars, their aroma left in the trails of carriages passing through.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "“凤箫声动，玉壶光转，一夜鱼龙舞。”",
+			say = "\"The flutes composed, the moonlight bright. Fireworks adorn the night sky, leaping like carp on a waterfall.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
-			say = "高阁朱栏处，银发的少女轻轻吟诵。",
+			say = "A silver-haired girl lingers on the veranda and quietly recites a poem to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
-			say = "晚风扬起轻柔的薄纱，被掩于朦胧之下的繁华灯火，竟不及眼前一人夺目。",
+			say = "Her sheer dress dances in the night breeze, and the lights blend into the dark of night, but they pale before her radiance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "指挥官……您为什么只看着不说话？",
+			say = "Commander... You've been quiet for a while now. Is something wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我的诗……背错了么？",
+			say = "Did I... make a mistake in my poetry reading?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我只是怕自己出声会破坏眼前的美景。",
+			say = "That's not it. I'm just worried that I'll ruin the beautiful view if I speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "欸……您真的这么觉得么。",
+			say = "B-beautiful...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "多谢您的夸奖……",
+			say = "Well, thank you for that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
-			say = "少女在说话的时候，将头压低了一些。",
+			say = "Albion looks down just slightly and thanks me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
-			say = "似乎对于今夜约我来此一事感到十分紧张。",
+			say = "Despite being the one who invited me here, she's awfully nervous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官……在这里会觉得无聊么？",
+			say = "Are you not bored here, or anything...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "无聊的话……不如我们去逛街吧？",
+			say = "If you are... you could, say, wander around the city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那里更热闹，也有更多好看好玩的……",
+			say = "It's lively there, a-and there's much more fun to be had...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
-			say = "少女正变得愈发紧张，必须赶紧做些什么——",
+			say = "Albion tries her hardest to come up with something, only becoming more nervous in the process. I should console her somehow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刚刚进门的时候，听到你在背诗。",
+			say = "You were reciting a Dragon Empery poem, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么会选这一首呢？",
+			say = "What made you pick that one? Is there a special reason?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "……欸？这首诗词是海天前辈送给我的。",
+			say = "Oh, Hai Tien taught me this poem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "说是今夜，如果有机会跟指挥官您独处的话。",
+			say = "If we ever got a moment alone together tonight...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就在背靠灯火通明之处，如此这般……",
+			say = "I was thinking I'd recite it with the resplendent night sky at my back, or...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过……海天前辈说这首词还有另一半没告诉我。",
+			say = "But... Hai Tien says there's a second half to the poem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "说是要让指挥官对出来，才算圆满有趣……",
+			say = "I was hoping to spice up the conversation by having you teach me the rest...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这个海天……）",
+			say = "(Hai Tien?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你知道这首词的意思么？",
+			say = "Ahem... Do you know what the poem means?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "意思的话……不是很清楚呢。",
+			say = "Well... Not exactly...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那不妨猜猜看？",
+			say = "How about you try guessing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "文字是情感的载体。就算不理解典故背景，单纯从字面上，也应该能体会到些什么。",
+			say = "Words can display emotion. Even if you don't know the origin or background, you should be able to read between the lines a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "唔……从文字之中，我感受到了一股热闹的气息，应该描写的是一场节日。",
+			say = "Umm... The text makes it sound like a bustling city. I think it's describing a festival, or something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我看到了灯火通明的街道，烟花盛放的夜空……",
+			say = "The vibrant city is backed by a night sky adorned with fireworks...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还有……五光十色的花灯与……熙攘游乐的人群。",
+			say = "Colorful lanterns, folks enjoying a night on the town...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……就如同此时此刻的港区一般。",
+			say = "...It sounds a lot like the port right now, heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，现在就来告诉你这首词的下半——",
+			say = "Sounds like you understand it perfectly. Okay, the second half is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“蛾儿雪柳黄金缕。笑语盈盈暗香去。”",
+			say = "\"Decorated beauties, like golden thread hanging from the snow willow. Laughter and chatter pass by, leaving only a scent behind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“众里寻他千百度。蓦然回首，那人却在，灯火阑珊处。”",
+			say = "\"A hundred, thousand searches later, I look back. Beyond the lantern lights, there she is.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "好美……",
+			say = "How pretty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对吧？",
+			say = "Yeah. It's a great poem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在通篇完整。上下篇连在一起看的话，你又感受到什么了呢？",
+			say = "What do you think now that you've heard the rest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "我感受到了……作者如同潮汐般的情绪起伏。",
+			say = "I can feel the author's heart wavering...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这一夜的欢乐，似乎都不是为他准备的。",
+			say = "The laughter and joy in the poem are so far removed from them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "他穿梭在繁华喧闹的人海中，只为了寻找那一人……却难觅其踪迹。",
+			say = "They search single-mindedly for a certain someone, but they come up short...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "直至不经意间地一瞥，在灯火将尽未尽之处，他发现了自己的心之所向……",
+			say = "When they finally turn around, in the dim light, they finally find that someone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是今夜，我于此时此刻的感受哦。",
+			say = "That's a lot like how I feel right now. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "指挥官……",
+			say = "C-Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你说，咱们还要去街上逛逛么？",
+			say = "Well? Do you still want me to go wander around the city?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "请、和我……一起留在这里。",
+			say = "N-no... I think I'd like you to stay here with me, if that's okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,7 +748,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "街上有属于她们的繁华，但这里却有只属于我们的快乐。",
+			say = "The city may be vibrant, but there's a certain atmosphere to here and now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "你看……阁楼外的花开得正好。",
+			say = "Besides... The flowers just outside the veranda are in full bloom.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "而阁楼内的茶……也是香气四溢。",
+			say = "And the tea inside has the perfect aroma...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，请用茶。",
+			say = "Here, Commander. Have some tea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "今夜，我们就以此茶作为开始吧——",
+			say = "Why don't we let it mark a fresh start to our night together?",
 			painting = {
 				alpha = 0.3,
 				time = 1

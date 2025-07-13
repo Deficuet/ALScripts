@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"风暴中心的依偎\n\n<size=45>五 最终还是要过夜的</size>",
+					"Warmth in the Storm\n\n<size=45>After a Shower</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "泡澡确实是一项流传下来的好文明。",
+			say = "Showering really is something special.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "经过了热水的洗礼，一天的疲惫似乎真的消失于无形了。",
+			say = "After a nice hot shower, it feels like my fatigue from today has all vanished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "刚出浴室，就看见先一步离开的莫加多尔双手捧着干净的浴巾站在门口了。",
+			say = "As I step out of the shower room, I see Mogador standing there, holding a clean towel in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "今天被指挥官照顾了一整天，我也想要为您做点什么。",
+			say = "You've been so nice to me today, so I want to repay the favor somehow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "要不然我帮您来擦干头发吧？",
+			say = "Will you let me dry your hair?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我可以拒绝么？",
+			say = "I think I can do that myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔用手用力抓住了我的手腕。",
+			say = "Just as I turn her down, she seizes my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嘿嘿嘿……这里只有我们两个人，所以不可以哦……",
+			say = "Heheheh... You don't get to say no. You and I are the only ones here♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "就这样，我在椅子上坐下，莫加多尔则是站在我的身后，用浴巾擦拭我的发梢。",
+			say = "She makes me sit on a chair, after which she gets behind me and starts drying my hair with the towel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（不知道指挥官用了哪瓶洗发水……好期待呢……♥）",
+			say = "(What kind of shampoo the Commander used... I'm curious...♥)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔似乎靠近了一些。",
+			say = "She comes closer and closer to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……好独特的味道……香香的指挥官……啊……♥）",
+			say = "(*sniiiff*... What a unique smell. It's so good... *pant pant*...♥)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔将整个人都压了上来。",
+			say = "Until eventually, she leans on me with her whole body!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "温热的柔软在我的脖颈摩挲，急促的喘息接连碰撞在我耳后。",
+			say = "A warm, tickling sensation rubs the back of my neck, and her labored breaths strike my ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（嗅嗅）好香好香……这样的味道……真是让人无法自拔……♥",
+			say = "*sniiiff*... *sniiiff*... You smell so good♥ God, I'm getting hooked on this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（嘿嘿嘿……今晚……只有我和指挥官两个人……要不……干脆……♥）",
+			say = "(Heheheh... Since we're all by ourselves, we might as well... get on with the–)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,11 +251,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "RING RING RING!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "咦……？这是，通讯恢复了？",
+			say = "Huh? Wait... You have signal again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔维持着背后拥抱的姿势，突然呆住了。",
+			say = "Mogador remains in her embrace from behind, suddenly with a dumbfounded expression on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……头发？",
+			say = "The hair... Are you done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "咳咳、擦完了擦完了~指挥官，您快去联络港区说明一下情况吧！",
+			say = "Err, I suppose... G-go on, radio the port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "最终，因为夜间和风浪的原因，港区的救援队将会在明日午时抵达。",
+			say = "They tell me that a rescue fleet won't be able to arrive until tomorrow at noon – due to the storm and how late it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来，我们必须要在这里度过一晚了。",
+			say = "In other words, we'll just have to spend the night here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（……只有一张床，是不是意味着我和指挥官……）",
+			say = "(There's only one bed, so that means we'll...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你去睡床，我打地铺就好。",
+			say = "You take the bed. I'm fine with sleeping on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "那怎么行，指挥官，你去睡床，我来打地铺吧~",
+			say = "No way! I'll lie on the floor and you should have the bed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "（嘿嘿嘿……等睡着了，还需要什么地铺呢……）",
+			say = "(Because once you fall asleep, it doesn't matter whether you're in bed or on the floor. Heheheh...♥)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "指挥官，就这么决定了~今天您已经很累了吧，快点休息吧！",
+			say = "Since I'm not hearing any disagreement, let's go to sleep now. You must be exhausted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔一边说着，一边又如同旋风般收拾起了地铺。",
+			say = "As she says that, she quickly starts laying out the sheets on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……她，突然好积极？",
+			say = "Okay, since you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

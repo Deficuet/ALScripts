@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Black Dragon的特别舞蹈即将开演，这可是为了欢迎Honey而新练习的哦！你会喜欢的！",
+			say = "The Black Dragon's special dance begins! I practiced this to welcome you! I just know you'll love it!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello12",
 			typewriter = {
 				speed = 0.05,

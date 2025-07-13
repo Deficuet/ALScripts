@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>六　月光下的她</size>",
+					"Date with an Angel\n\n<size=45>6 Moonlit Angel</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "在离开码头之后，和霞飞开始了真正的约会行程。",
+			say = "After leaving the pier, Joffre and I began our real date.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "我们去了水族馆，看了电影，又去了游乐园乘坐摩天轮。",
+			say = "We went to the aquarium, saw a movie, and then went to ride the Ferris wheel at an amusement park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "一直到代表闭园信号的烟花绽放，我和她才从游乐园准备离开。",
+			say = "We enjoyed as many attractions as we could until the fireworks came on, signaling the closing of the park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么样，今天还尽兴么？",
+			say = "So, how was it? Did you have a good time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "嗯。没想到能和您一起做这么多事……我已经很满足了。",
+			say = "Very much so. I never expected to have this much fun today... It's everything I could've asked for already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那这样一来，你的“罪”也算是赎清了吧！",
+			say = "Now then, do you think you've atoned for your \"sin\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "是，感激不尽。不过……",
+			say = "Yes. Thank you for letting me redeem myself. However...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过？",
+			say = "However?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "即便赎清了之前的罪责，但我也不再拥有能够公正的、裁决您的“罪恶”的资格。",
+			say = "Even if I was able to atone for my prior sin, I no longer have the ability to be a fair and impartial judge of your sins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,11 +137,11 @@ return {
 			},
 			options = {
 				{
-					content = "为什么这么说？",
+					content = "\"Why's that?\"",
 					flag = 1
 				},
 				{
-					content = "有点难理解……",
+					content = "\"What do you mean...?\"",
 					flag = 2
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯？为什么这么说？",
+			say = "I'm curious why you think that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为……",
+			say = "It's because...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "呃，这个说法有点难理解啊……",
+			say = "I'm not sure I follow what you're trying to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "容许我向您解释。",
+			say = "Allow me to explain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "身为裁决罪恶之人，需要不存私心，以此保障绝对的公正。",
+			say = "Those in the position of judging sin must be able to maintain absolute fairness, without letting their personal feelings interfere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而今天的我，不但在您的面前犯下了罪，同时也在这趟“赎罪”的约会中，诞生了更多的私心。",
+			say = "However, the events that occurred today have only made me more selfish, as a result of both the original sin I committed as well as the actions I took in \"atoning\" for them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我无法在您的面前保持这份公正，所以失去了裁决的资格。",
+			say = "I can no longer maintain my impartiality in front of you, and as such, I am no longer qualified to be a judge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "因为……我心中的天平会无限向您倾斜。",
+			say = "Because... the scales of my heart already tip infinitely in your favor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "少女一边说着，羽翼在这瞬间突然张开，将我拢入其中。",
+			say = "As those words leave her lips, the girl's black wings spread again, and this time, she folds me tightly within them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "虽然失去了制裁您的资格，但我……还拥有着爱您的资格。",
+			say = "I am no longer qualified to judge you, but... I still am qualified to love you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "而我也会好好利用起这份资格，让您感受到我的心意。",
+			say = "I will take this new role upon myself to its fullest extent, and see to it that you understand my emotions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "少女银灰色的发丝在月色下泛着淡淡的辉光。",
+			say = "Joffre's silver hair seems to shimmer in the moonlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "即使四下灯火通明，但我的眼中却只能看见属于她的光芒。",
+			say = "Even though I am surrounded by countless lights of every color imaginable, the light in my eyes comes from her alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			bgm = "map-longgong",
 			flashin = {
 				delay = 1,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "伴随一声巨响，笼罩在建筑外的结界被打破了。",
+			say = "The seal around the mechanism dissipated under a fiery onslaught from Katsuragi's planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,11 +89,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Voice",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「试炼完成，怒涛将平息，继续前进吧」",
+			say = "\"Congratulations... But your trial does not end here. Continue onwards.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "谜之音说完后，建筑上的光芒熄灭，狂风与巨浪也停止了。",
+			say = "As the mysterious voice faded, so too did the violent wind and waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "咦？浪涛真的停止了，这个谜之音说话算话啊！",
+			say = "Huh, smashing that thing really did the trick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吼吼~离近了才发现，还真是个奇怪的大台子啊。",
+			say = "Hey, uh... What's with this pedestal...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 301470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们在敌人陷阱里，不要太轻举妄动比较好哦，{namecode:207}……",
+			say = "Yamakaze, I don't think it's advisable to touch other people's belongings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，不要轻易靠近！这个很可能还有结界影响的残留。总之让我来检查一下。",
+			say = "That's right! We're still in enemy territory, so don't go around touching random objects without telling us first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！原来这么危险么！好险好险……",
+			say = "True, true! Phew, that was a close one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没想到{namecode:208}阁下对于结界也有研究啊。",
+			say = "Say, how'd you know that the building was controlling everything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:84}大人公务繁忙，神社相关的事务都是由我进行处理的哦~",
+			say = "Well, let's just say... This whole thing seems to be based off of the Sakura Empire's rituals, and I happen to know a thing or two about that... *snap*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "噢噢！{namecode:208}阁下真是太厉害了！",
+			say = "Woaaah! That's incredible, Katsuragi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然的，谁让我是正规航母呢~",
+			say = "Ahaha! Don't underestimate the power of a full-fledged aircraft carrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可是为什么{namecode:208}阁下没有和{namecode:206}小姐一样穿巫女服呢？",
+			say = "I wonder who's more knowledgeable about these things between you and Yura~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为……额！{namecode:206}是负责协助我来进行工作的！所以巫女服只要她去穿就好，我不用穿！",
+			say = "Uh, about that! Not like it matters, because you have me here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来有股可疑的气息……",
+			say = "Does it really not matter...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么可疑的！就、就是这么回事啦！",
+			say = "O-of course not! What's the point of asking? Let's hurry up and keep moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这里已经没什么值得在意的东西了，我们快走吧，现在不还在竞速比赛中么！",
+			say = "Otherwise, we're going to fall behind Team Chikuma! Shimakaze, I'll be counting on you to scout ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

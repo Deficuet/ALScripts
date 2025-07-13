@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "每天……都要这样……",
+			say = "I want this... every day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

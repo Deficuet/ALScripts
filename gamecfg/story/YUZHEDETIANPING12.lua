@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"撒丁帝国所属",
+					"Sardegna Empire - Pantheon",
 					1
 				},
 				{
-					"罗马·万神殿",
+					"Shortly before the Gazer appearance",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			bgm = "story-expo-lastday",
-			say = "万神殿中，一位衣着华丽的黑发少女正在无人的大厅中闭目享受着宁静。",
+			say = "A woman was basking in the tranquility of the ancient temple with her eyes closed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
-			say = "直到一个吵闹的声音打破了它。",
+			say = "That is, until the silence was broken by a girl's energetic voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……啊！罗马大人！",
+			say = "Roma!",
 			action = {
 				{
 					type = "shake",
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "总算找到您了，您怎么一个人呆在这里啊！",
+			say = "I finally found you! What are you doing here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "达芬奇？",
+			say = "Ah. Leonardo da Vinci?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你怎么不去参加闭幕式……？",
+			say = "Are you really not going to attend the World Expo? I heard today is closing day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个问题应该是我问您才对吧！闭幕式怎么能缺了罗马大人您呢？",
+			say = "That's what I was going to ask! Aren't YOU gonna be at the closing ceremony?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "闭幕式演说又不需要我来做。",
+			say = "No. They changed things so Marco Polo will be delivering the closing speech instead of me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且还有之前在开幕式的经历……我不想再被卷入那种麻烦事了。",
+			say = "I don't want to get swept up in anything big again. Not after that unexplained incident at the start of the Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反倒是你那么爱热闹，为什么放着闭幕式不去来这里找我？",
+			say = "Really, don't worry about me. Go enjoy the rest of the expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我当然想去啦~！",
+			say = "Trust me, I really want to go! But, I can't!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "但是我已经答应了阿尔弗雷多，不能让您一个人在闭幕式期间孤零零呆在这里！",
+			say = "I made a promise to Alfredo not to leave you by yourself. While she's back at the Expo, I have to stick with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您就跟我一起去吧~就算没被邀请做演说，来当个观众也不错嘛！",
+			say = "But, if you go to the Expo, then I can come along! Come on, you can be there as a spectator – you don't have to play an active role!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为纯粹的观众而欣赏闭幕式么……我考虑一下。",
+			say = "As a spectator, you say... Hmm. Let me think for a bit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "好耶，我这就联系阿尔弗雷多————",
+			say = "Sure. I'll call Alfredo in the meanwhile♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "欸？……通讯器接不通了。",
+			say = "...That's odd. Why won't it connect?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……线路繁忙？信号不佳？",
+			say = "Is she on the line with someone? Or is she out of range?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "奇怪，就算博览会会场人再多，也不应该影响军用频道啊……",
+			say = "That shouldn't be possible with the shipgirl-only channel, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,9 +350,9 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			stopbgm = true,
-			say = "滴————",
+			say = "BEEP—",
 			bgm = "theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊，总算接通了……不对，咦？！罗马大人，是您的通讯器在响欸！",
+			say = "It connected! ...Wait, it's not my communicator ringing, but rather Roma's?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我是罗马，何人呼叫？",
+			say = "This is Roma. Who am I speaking to?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			actor = 699010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "罗马，原来你跑去万神殿了，我找了你好久。",
+			say = "I see you're in the Pantheon! I've been trying to get a hold of you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "马可波罗？你不应该是在博览会会场准备演讲么，联系我做什么？",
+			say = "Marco Polo? I thought you had a closing speech to deliver? You don't have time to call–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "情况有变，博览会会场出事了。",
+			say = "Things have changed. The World Expo is in serious danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "不仅如此，撒丁帝国全境目前都处于紧急情况之中。",
+			say = "No, not just the Expo, but the Sardegnian nation in its entirety.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "鉴于目前之状况，元老院已经授予我处理眼下事态的全部权限。",
+			say = "In accordance with the state of emergency protocol, I am tasked with resolving this situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "从现在起，包括舰队指挥权在内，撒丁帝国的所有国防军事力量均受我统率，直至紧急状态解除。",
+			say = "Until the state of emergency is lifted, all military forces in and around Sardegna are under my command.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "所以，罗马，你立刻带人前往博览会会场，并做好战斗准备，等候我的后续命令。",
+			say = "Roma, you are to head to the Expo immediately, prepare for battle, and wait for further instructions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这件事，维内托知道了么？",
+			say = "Is Veneto aware of the situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			actor = 699010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "很遗憾，因为会场的情况混乱，元老院已经失去了和维内托的联系。",
+			say = "I can't say. The Expo is a mess right now and I don't know where she is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们也是，与会场联系完全中断了。",
+			say = "...Okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是……本应在会场做演讲的你，此刻却不在那里，反而试图接管国家的武装力量。",
+			say = "So you, the woman meant to deliver the closing speech, have abandoned that duty and are issuing orders to shipgirls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你知道么，马可波罗，即使是紧急状态，帝国海军也不可能仅凭一位元老的一面之词而调动。",
+			say = "Even supposing our Senate's state of emergency protocol was revised as you've described, I cannot accept your command based solely on what you've told me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 699010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "…………原本以为你不从政，对这一套不会记得这么清楚呢。",
+			say = "Hmm... Didn't you always have a disdain for politics? When'd you get so smart about this stuff?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为我对你产生了怀疑。",
+			say = "Simple – my gut's telling me that you can't be trusted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感受到了空气中的反常气息。",
+			say = "There's been something strange in the air, ever since the Sirens kidnapped me during the opening ceremony.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "众神的气息消散了……即便是这万神殿之中，都充斥着你所信仰的神的气息。",
+			say = "That feeling intensified when you called me. The sanctity of this place, the time-honored history and customs of Sardegna... It all changed the moment you came into the picture.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你做了什么？",
+			say = "Whoever you are, you are not Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 699010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "居然能察觉到这种程度……没错，这里已经是神的国度了。",
+			say = "You've seen right through me, have you? Magnificent! Then let me tell you something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "待祂降临后，和平与纷争就将彻底消失。",
+			say = "This place, all of it, has become the Kingdom of God. Once His descent is complete, all war will end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			actor = 699010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "因此，等待，并心怀喜悦吧，啊哈哈哈哈————",
+			say = "Until then, take care and be patient! Ohohohohoho!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,7 +772,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
-			say = "马可波罗挂断了通讯。随即，云层中出现了逐渐接近的轰鸣声。",
+			say = "After a boisterous laugh from Marco Polo, massive explosions could be heard coming from outside the Pantheon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……巨大的机甲正在从空中降落？！",
+			say = "Holy crap! Where did that giant robot come from?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "好、好帅！",
+			say = "It's... the coolest thing ever... Wait, now's not the time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不、不对！！糟糟糟糟糟糕啊！！",
+			say = "It's coming to attack us! Roma, you need to get out of...",
 			action = {
 				{
 					type = "shake",
@@ -850,7 +850,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……我听见了战争的号响。",
+			say = "The horns of war have sounded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "做好准备，达芬奇，我们要杀出去了。",
+			say = "Da Vinci, prepare for battle! We're going in!",
 			painting = {
 				alpha = 0.3,
 				time = 1

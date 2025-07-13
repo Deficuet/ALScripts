@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "车门关闭后，列车仿佛沿着看不见的轨道径直驶入了高空。",
+			say = "We boarded the train and took off, running on invisible rails through the sky.",
 			bgm = "theme-richelieu",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "经过一段云间飞驰，我们顺利抵达了目的地。",
+			say = "Some time passes, and we finally arrive at the Mirror Sea in Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 			},
 			sequence = {
 				{
-					"皇家·斯卡帕湾锚地",
+					"Scapa Flow - Anchorage",
 					1
 				},
 				{
-					"阿瓦隆之门·卡美洛之庭",
+					"Camelot - By the Gate",
 					2
 				}
 			}
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "推开车门后，明亮的金光迎面洒下。",
+			say = "The train doors open and a stream of brilliant golden light fills my vision.",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "纵使已是凌晨，阿瓦隆之门中依然亮如白昼。",
+			say = "The clock says it's early morning, and yet this Mirror Sea is bathed in the light of afternoon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "欢迎来到阿瓦隆，指挥官。",
+			say = "Welcome to the Gate of Avalon, servant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "如何，本王的人工奇异点，很壮观吧？",
+			say = "A manmade Singularity and a jumping point between branches – impressive, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "皇家位于斯卡帕湾的人工奇异点——阿瓦隆之门。",
+			say = "This place – once merely a Mirror Sea – has been turned into a gateway between worlds since the Royal Navy seized it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "在消灭构建者的战斗后，我就详细阅读了皇家送来的相关资料。",
+			say = "I've come to know of it ever since Elizabeth sent me detailed documentation following Compiler's defeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "不过资料毕竟是资料……只有在亲眼所见的这一刻，我才第一次感受到那种宛如身处仙境般的震撼。",
+			say = "Still, reading about something and seeing it in person are two very different things. It's an awe-inspiring structure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "呵，看来你达到目的了呢。",
+			say = "Heehee. Just the reaction she hoped for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……达到目的？",
+			say = "\"She\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_15",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊，她知道你是第一次来，为了跟你显摆显摆，才特意在大晚上把照明调得这么亮的。",
+			say = "Yes, your Elizabeth. She wanted to impress you on your first visit here, so she turned the lights way up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "喂，你这人乱说什么！",
+			say = "Oi! You're not supposed to say that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,12 +246,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_camelot_15",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "实际上不就是这样么？",
+			say = "Not say what? The truth?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "咳咳……本王只是想为此次任务塑造些仪式感而已！",
+			say = "Bah! Yes, I turned up the lights, but only to further demonstrate the importance of this operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "啊，指挥官应该还不认识她吧。",
+			say = "Oh, servant, I don't believe you've met before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "介绍一下，本王旁边这个刚从车头下来的人是伊丽莎白女王·META。",
+			say = "This is Queen Elizabeth. META, as you can tell.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "她带领着一个组织，目前作为本王的援军驻守在阿瓦隆之门中。",
+			say = "She is the leader of her organisation and is currently staying here as part of my reinforcements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "D小姐，和本次接你来皇家的列车都和她有关。",
+			say = "Also, she introduced me to Miss D and brought in that train you rode on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "初次见面啊，“指挥官”。虽说其实刚才在车头里本王就观察过你了。",
+			say = "Greetings, serv– Commander. We've been observing you from the driver's seat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "列车一路上都是由你驾驶的？",
+			say = "\"We\"? Were you both driving the train?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是啊，本王的「女王之光号」只能由本王驾驶，所以本次接你也只能亲自跑一趟咯。",
+			say = "...No. We mean the royalty you're addressing now. We are the only one capable of driving the Queen's Light, so we had to go and pick you up personally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,406 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "本王的情况如伊丽莎白所说。虽然本王希望能做一个更准确更正式的自我介绍，不过现在也不是在意这些繁文缛节的时候。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "经过一路的相处，本王已经确定了，你确实和D小姐的情况很相似。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705040,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "也就是说。你们都是不完全的……真有趣。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "……“不完全”，你在说什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "指挥官，你先坐吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "在邀请你来之前，黎塞留应该答应过你，先由本王告诉你事情的前因后果，之后再由你来决定是否参与本次行动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "接下来本王要说的事是皇家的最高机密。就算最后你决定不参加，本王也要求你对包括碧蓝航线指挥部在内的所有人与机构保密。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "嗯，没问题。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "很好……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "唉……指挥官，你知道么？我们的世界，这个在塞壬的系统中编号为β的实验场，目前正处于异常危险的境地之中。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "相信你已经知道了，塞壬还有着另一个名字，安蒂克丝。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "安蒂克丝，即ANTI-X——对抗X而存在的兵器。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "那么——“X”是什么？关于这个问题，本王知之甚少。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "只知道它们是真实存在的，而且现阶段，不论是安蒂克丝还是余烬都拿它们没有任何办法。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "我们所在的实验场β，以及除此之外无数多的实验场，都是安蒂克丝为了对抗X而进行的实验计划中的一环。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "而很不幸，正如我们几年前才明白的那样，我们就是这个实验中的小白鼠，是它们可以随意处理的实验物品。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "因此，虽然理论上塞壬正在试图解决我们共同的敌人，但是就实际情况而言，本王依然不介意把它们全部消灭干净。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "但是——就算我们消灭了塞壬，将它们的力量从我们的世界中驱逐出去，之后呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "我们依然需要面对一个和它们同样的问题，之后的“X”，我们要如何处理？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "这也就引出了本次行动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "相信一路上，你已经亲身与D小姐交谈过，并察觉到它身上所隐藏的巨大秘密了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "带它来的伊丽莎白女王·META认为，D小姐虽然看上去是这副样子……但依然是安蒂克丝的一员，甚至是属于安蒂克丝高层的一员。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "只要我们能让它恢复“完全”状态……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "或许我们就能得到安蒂克丝针对X的研究资料，它们与X的交战记录，甚至得到它们为对抗X所准备的方案。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_camelot_15",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "而让D小姐恢复完全状态的方法，就是找到它的“鲸鱼”——一个外形和它的装备差不多，但是大上无数倍的巨大飞行器。",
+			say = "As much as we'd like to introduce ourselves beyond what your Elizabeth just said, this is simply not the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +418,406 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是啊。本王在发现D小姐后，就一直带人进行着“狩猎”，试图把它的鲸鱼抓回来。",
+			say = "Now, about the observing we did... We've deduced that you're in a similar state to Miss D.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705040,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "To put it succinctly, you are incomplete.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "What does that mean?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Phrasing it like that doesn't explain anything. Come, servant. Sit down.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "I know you have questions. Richelieu surely promised that I'd explain everything you should know before you agreed to anything.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "What I am about to tell you is top secret. Whether or not you agree to help, you must not let Naval HQ hear a word of it. Do you understand?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "Of course.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Good. I just wanted to make it crystal clear.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Before we go on, let me remind you of the information we've previously shared.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "First, the enemies we call the Sirens – they are manmade creations from the future whose true name is \"Antiochus\".",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Technically, it's ANTI-X, which stands for \"Artificial Navy Transformational Intelligence, Class X\" in full.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Their name suggests that they are manmade weapons designed to fight against \"X\", but it isn't clear what this \"X\" actually is.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "All we know is that this greater threat is out there, and currently, neither Antiochus nor the Ashes have any fundamental countermeasures against them.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Second, the Sirens are conducting experiments across many branches, ours included, designed to counteract X.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "The technology they possess allows them to not only manipulate these experimental branches at will, but also to dispose of them should they choose to do so.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Whatever this \"X\" enemy is, it doesn't make the Sirens any less an existential threat to us, and we should still eliminate them.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "But, therein lies the problem. Even if we defeat the Sirens and banish their power from our world, what do we do about this looming threat?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "If we don't know how to fight it, our fate will be the same as though the Sirens had destroyed us all.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "So, I came up with a plan.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Yes, that's right. Surely you must've noticed on your way here – that Miss D is indeed a Siren.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "My META self here has assessed that it's very likely that she is one of Antiochus' high-level programmes, despite her childish demeanour.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Apparently, she is missing her rigging – the \"whale,\" as she calls it. Its absence has impaired her memory and restricted her computational resources.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "She is incomplete, in other words.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Think of what we could gain if we can make her complete again. Data on X, records of battles against it, perhaps even a way to stop it from invading.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_camelot_15",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "Indeed. Ever since we found Miss D, we've dispatched forces to try and capture this whale.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "只是很遗憾，至今未能成功。唉……可惜，上次就差一点了。",
+			say = "So far, there's been no success, even if we got very close in our last attempt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不过就在几日前，D小姐又一次感知到了鲸鱼的行动轨迹，因此，本王也在筹备新一次狩猎。",
+			say = "A few days prior, Miss D picked up the whale's trail again, and we've been gearing up to hunt for it again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯。根据D小姐所说，它可以间歇性感受到鲸鱼的行动轨迹，狩猎计划就是以此为基础进行制订的。",
+			say = "She picks up the whale's trail only periodically, you see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "同时，我们在制订狩猎计划时，还发现了一件非同一般的事。",
+			say = "Now I will explain why we want your help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "D小姐所感知到的本次鲸鱼所前往的位置，在此前刚刚发生过一次强烈的空间冲击事件。",
+			say = "The whale Miss D wants to catch is in a location where a spatial impact event occurred.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我们认为，这一次鲸鱼或许是被引发了空间冲击事件的某个存在吸引过去的。",
+			say = "Both I and my META counterpart believe the whale is drawn to those.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "或许本次狩猎，我们能够等其两败俱伤，然后坐收渔翁之利，这样一来行动的安全性就会大大提高。",
+			say = "These spatial impact events often occur where battles are waged. What we want is your tactical expertise to catch the enemy unawares. This will significantly raise our chances of success.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "据本王所知，空间冲击事件，大多都与塞壬的心智魔方实验分不开。",
+			say = "One additional detail – these spatial events are frequently observed during Wisdom Cube experiments as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "本王能感受到你对于心智魔方有着令人惊叹的适应力，是最适合参与本次行动的人。",
+			say = "We trust that your exceptionally high Cube affinity will allow you to deal with any unforeseen turns during the operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "而且D小姐在知道了你的事之后，也在大吵大闹希望你能一起来。",
+			say = "Oh, and Miss D raised a huge fuss over you. She insists that you aid us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1008,7 +1008,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "虽然它看上去像个小孩子，实际的言谈和举止也差不多吧……但是它的判断从来不会错。",
+			say = "Yes, she may look and act like a child, but she is still a Siren. Her intuition is leaps and bounds better than ours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,7 +1025,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "指挥官，你之前在给本王分享情报时，有提到过一些希望本王暗中调查的“名词”吧。",
+			say = "She is also very familiar with all those terms you picked up inside the Reality Lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "很巧的是，D小姐对这些词都有反应，只是它不愿意对我们多说一个字。",
+			say = "Even if my probing has yet to yield any useful information from her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "本王目前只知道，你所提供的那些“名词”和余烬还有安蒂克丝的诞生都有关系。",
+			say = "Regardless, it has been established that what happens in the future leads to the birth of the Ashes and the Antiochus.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "在安蒂克丝的系统中，记录着一个诞生了它们自己也诞生了最初的舰船的地方，它们将其称为世界α",
+			say = "Speaking of which, we've learned that the Sirens call this particular future \"the alpha timeline.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,7 +1093,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "本王认为，关于世界α的情报，就是解开这些疑惑的钥匙。",
+			say = "As they are all linked, learning about the alpha timeline will lead to more knowledge about the Sirens and X...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "很可惜，本王不是来自于世界α的人。",
+			say = "Don't give us that look. We aren't from the alpha timeline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1129,7 +1129,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "而本王见到的所有与世界α有关的人，要么对其所掌握的一切情报守口如瓶，要么就是想说也不知道从何说起。",
+			say = "Everyone we've met who seems to be from the alpha timeline is very tight-lipped about the branch they come from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1147,7 +1147,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不论是实力多强的人，在其回忆到关键信息时，记忆总会出现些许缺失和模糊。",
+			say = "They either don't want to talk about it, or they've lost their memories from that time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1164,7 +1164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯，本王那里的声望·META和反击·META的情况也是如此。",
+			say = "Like with the case of Renown and Repulse who we found using our gate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,7 +1181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "甚至还出现了她们在回忆同一件事时，明明彼此间的回忆出现了矛盾，但是在本王提醒之前，居然毫不自知的事。",
+			say = "Sometimes their accounts of the same event contradict each other and they don't even realise until I point it out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "这一切都让关于世界α的情报更加扑朔迷离……",
+			say = "This makes it nigh-impossible to verify essentially anything about the alpha timeline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,7 +1215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "而D小姐点名让你来，我们认为或许是她想主动跟你吐露些什么。",
+			say = "But you, my servant, are different. It's very clear that Miss D has been trying to tell you something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,7 +1232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "如果你能和D小姐一同参加本次狩猎，你一直以来所进行的调查……或许能够取得突破性进展。",
+			say = "I am quite certain that you'll make progress in your own investigation if we successfully capture that whale.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "两位伊丽莎白所分享的内容，实在超出了我来之前的任何料想。",
+			say = "This barrage of new information from the two Elizabeths comes as a shock to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1259,7 +1259,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（伊丽莎白口中的世界α，我再熟悉不过了……）",
+			say = "(I AM the person best suited to investigate the alpha timeline I saw in the Reality Lens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1271,7 +1271,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（安洁、奥斯塔、银狐，她们都与世界α有着千丝万缕的联系。）",
+			say = "(Anzeel and Aoste are both from that timeline. There's a good chance that \"Silver Fox\" I heard about is from there, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1283,7 +1283,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（而我曾经与他们一同行动，所以我也与世界α有着千丝万缕的联系……）",
+			say = "(Hell, I probably am, too. No matter if they were simulations constructed from memories or not, they clearly knew who I was.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1295,7 +1295,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（只不过我都不记得了……因为我现在“不完全”……？）",
+			say = "(Maybe I've actually lost some of my memories, just like those METAs...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1305,12 +1305,12 @@ return {
 			oldPhoto = true,
 			side = 2,
 			bgName = "star_level_bg_505",
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			bgm = "theme-arbitrator-tower",
 			actor = 900308,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "「看来，你终于开始探索隐藏在计划舰之中的谜团了。」",
+			say = "Well, it looks like you've finally started to piece together the puzzle of the shipgirls' hulls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1339,9 +1339,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「虽然与我曾经的记录相比只有不足1%的相似度，但是这个波段是不会错的。」",
+			say = "It only matches my records by less than 1%, but this wavelength has to be yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1353,9 +1353,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「毕竟，这段记录被触发的本身就是你还是你的证明。」",
+			say = "The fact that you're playing this recording is absolute proof that it's you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1367,9 +1367,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「同时也意味着，我在最后进行的秘密行动成功了。」",
+			say = "It also means that my very last gamble was successful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1381,9 +1381,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「我就知道。不论你身处何方，以什么形式存在，还剩下多少碎片。」",
+			say = "I know you. No matter when, where, or who you are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1395,9 +1395,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「只要你见到她们身上出现异常状况，你就不可能不管不顾。」",
+			say = "You could never abandon those girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1409,9 +1409,9 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			oldPhoto = true,
-			actorName = "记录播放员",
+			actorName = "Recorder",
 			nameColor = "#C3ABFF",
-			say = "「果然，将保险托付给你是正确的。」",
+			say = "Making you the final failsafe was the right call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,7 +1423,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（原来，当时那个形似安洁的记录机关是这个意思？！）",
+			say = "(Wait, so that's what the recording of Anzeel inside the virtual memory space meant...)",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -1454,7 +1454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "看你吃惊到回不过神的样子，你是没想到本王已经掌握了这么多情报，对吧？",
+			say = "It seems lots of pieces just fell into place for you, judging by your reaction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1471,7 +1471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "实话实说，我原本对你是有所顾虑的。",
+			say = "I was right to put my faith in you, my servant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1488,7 +1488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "所以在你无私向本王分享情报之时，本王依然有所保留。",
+			say = "You will stop at nothing for us shipgirls and keep no secrets to yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1505,7 +1505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "因为本王之前不相信，一个只会听命于被白鹰操控的碧蓝航线指挥部的指挥官，有决心担负起如此重任——",
+			say = "You have helped us see through the Sirens' web of lies foisted upon us by the Naval HQ, and carved out a place for us in this world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1522,7 +1522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "有能力将各阵营真正团结起来，有毅力对抗那些连安蒂克丝和余烬都束手无策的敌人。",
+			say = "It is thanks to you that all our factions stand together, united in our struggle against our unrelenting enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1539,7 +1539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "不过——在看到安塔迪卡的事之后，本王改变了想法。",
+			say = "And when we come together, we can accomplish the impossible. Like we did in Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1556,7 +1556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "即便白鹰尽全力隐瞒，即便指挥部没有下达任何命令，你依然决定行动。",
+			say = "Without you, we would have succumbed to distrust and old grievances, and consequently, fallen prey to the Gazers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1573,7 +1573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "不但依靠自己的手段成功联合起多个阵营，还在战局突变时，凭借自己的能力指挥舰队赢得了胜利。",
+			say = "But, you managed to bring unlikely allies together in Soyuz and Bismarck, averting the crisis we faced.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1590,7 +1590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "你不但是称职的指挥官，而且是符合本王期望的真正指挥官。",
+			say = "You've been there for us every step of the way, which is why we can even talk about plans and about the future.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1607,7 +1607,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "因此本王决定，将手头所知道的全部情报都分享给你，将本王所能调动的全部资源提供给你，并且邀请你加入本次行动。",
+			say = "And if you'll join us for this operation, I will gladly tell you everything I know and help you in any way I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1624,7 +1624,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "你意下如何，指挥官？",
+			say = "What do you say, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1635,7 +1635,7 @@ return {
 			},
 			options = {
 				{
-					content = "就算我不去，你们也会执行这次狩猎吧？",
+					content = "It's a very risky operation...",
 					flag = 1
 				}
 			}
@@ -1647,7 +1647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "那是自然，本王可不能坐视如此宝贵的机会白白溜走！",
+			say = "But it's also a golden opportunity we can't afford to pass on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1658,11 +1658,11 @@ return {
 			},
 			options = {
 				{
-					content = "我也一样。",
+					content = "You're right. I'm in.",
 					flag = 1
 				},
 				{
-					content = "这次行动，我参加。",
+					content = "All the more reason for me to get involved.",
 					flag = 2
 				}
 			}
@@ -1675,7 +1675,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "嚯~有胆识。",
+			say = "Heehee. What a brave soul.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1692,7 +1692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "你看本王之前跟你说什么？本王看上的就应该是这样的人~！",
+			say = "See? I told you my servant was up for the task!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1708,7 +1708,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不过还有一个问题——如果我从会场中消失的事被其他人发现，情况会变得很麻烦。",
+			say = "I have a question. Won't there be bedlam over me suddenly disappearing from the venue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1721,7 +1721,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯，这件事本王也想到了。",
+			say = "I've already planned for that eventuality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1738,7 +1738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "虽然这次狩猎本王期待已久，但是因为一些原因，本王被告知“最好别去比较好”！",
+			say = "Richelieu and I will come up with something to quell suspicions for long enough to accomplish the mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1756,7 +1756,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "我们要去的地方情况复杂，为了保证女王之光号防御的稳定性，在现场最好还是只有一位“伊丽莎白女王”比较好哦。",
+			say = "For that reason, we will be accompanying you, Commander. The train requires a \"Queen Elizabeth\" to stabilise its conceptual defence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1773,7 +1773,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "你看吧！虽然本王也搞不懂到底会出什么问题，但是听上去就是特别有道理让人无法反驳，气死了！",
+			say = "Of course you get to go! I don't buy your excuse that it \"needs\" one of us, but I can't argue with it either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1790,7 +1790,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "唉……所以咯，本王会亲自前去会场，和黎塞留一起给你打掩护。",
+			say = "But I digress. In short, Richelieu and I will stay behind and cover for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1807,7 +1807,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我计划用迎接伊丽莎白女王的突然访问而准备的宴会和一系列临时决定的磋商会议作为障眼法，拖住“指挥官”几天不成问题。",
+			say = "The story I'm thinking we'll run with is that Her Majesty here is paying a sudden visit to the venue, so you, as her \"servant,\" are busy tending to her whims for a few days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1825,7 +1825,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "放心，本王一个人就可比千军万马。这次本王亲自去，两天内肯定解决问题。",
+			say = "We won't need that much time. We'll be done and back in a day or two at most.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1843,7 +1843,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "伊丽莎白！不是跟你说了，这次你也不要去！",
+			say = "Elizabeth! I told you, you're not coming along!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1861,7 +1861,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不要META！不要META！不要META！",
+			say = "No METAs can come! Not a single one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1889,7 +1889,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "我都按照你说的没带自己的人，而是换成了本地实验场的舰队了。",
+			say = "Yes, we know. You were quite insistent on employing shipgirls from this timeline rather than ours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1907,7 +1907,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "要是本王自己也留下，谁来开车呢？",
+			say = "But whether you like it or not, WE have to drive the train.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1925,7 +1925,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "噢！也是哦！没人开车会很麻烦……那你小心，千万小心！",
+			say = "Oh. Right. We need a driver. Fine, you can come! But watch yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1943,7 +1943,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是是是——",
+			say = "Whatever you say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1961,7 +1961,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805010,
-			say = "指挥官，本次鸢尾舰队将会誓死保护您的安全，请您放心。",
+			say = "I can vouch for these girls. They will risk their own lives to protect you if need be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1979,7 +1979,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "嗯嗯嗯，她们很好，能帮上忙！",
+			say = "Good! Not-METAs are better! They're handy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2005,7 +2005,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（奇怪……从通常的认知上来说，META化的舰船虽然有一定危险性，但是其力量也是正常舰船难以匹敌的。）",
+			say = "(Our force would be much stronger with some of Elizabeth META's subordinates, strategically speaking...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2017,7 +2017,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（可是D小姐为什么会这么说呢……难道META化还有某种不为人知的风险……）",
+			say = "(Why does Miss D not want any METAs along? Are they somehow a liability for this operation?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2029,7 +2029,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（感觉D小姐身上的谜团越来越多了……）",
+			say = "(I'd ask, but I doubt I'll get a straight answer from her until we catch her whale.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2041,7 +2041,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "接下来，我们是坐这辆会飞的列车前去狩猎么？",
+			say = "So, what now? Do we board the Queen's Light and jump to a new branch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2055,7 +2055,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王的女王之光号虽然完全能够满足旅途需求，不过保险起见，行动中最好还是有一个后方基地策应一下比较好。",
+			say = "While the Queen's Light would be ample for this mission, we will instead travel to our destination via Camelot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2072,7 +2072,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所以本次我们用卡美洛之庭去。",
+			say = "It's safer to have a two-way portal in case backup is required. It also guarantees we have a way home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2090,7 +2090,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "塞壬对于实验场β的监控力度虽然远超一般实验场，不过依靠改进后的卡美洛之庭和本王的力量，做到自由出入还是没问题的。",
+			say = "There is the risk of Sirens or that Bon Homme Richard pursuing us, but if it comes to that, the new-and-improved gate and our train can easily hop from branch to branch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2108,7 +2108,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "嗯——时间差不多了，你还有什么问题么？",
+			say = "Any last questions before departure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2124,7 +2124,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没有什么必须在出发之前问的了。",
+			say = "None that I can think of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2138,7 +2138,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "很好，那本王去做出发前的准备了。",
+			say = "Good. Then let us get ready to leave.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2155,7 +2155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "欸~本王也该准备收拾收拾去鸢尾咯~",
+			say = "You do that. I'm off to the Orthodoxy in the meanwhile.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2172,7 +2172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "诸位，一路小心，由衷祝你们狩猎成功。",
+			say = "Enjoy your whale hunt! And try not to die!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2187,7 +2187,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "贝尔法斯特和谢菲尔德提裙行礼，然后随伊丽莎白一起转身离开了卡美洛之庭。",
+			say = "Queen Elizabeth gets up and leaves, taking Belfast and Sheffield with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2199,7 +2199,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（这次行动虽然由皇家提供设备，但是实际的参加舰队全部由鸢尾提供，伊丽莎白甚至没有派遣任何一位女仆随行。）",
+			say = "(Huh. I thought for sure she'd make us bring along one of the Royal Maids.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2211,7 +2211,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（看来皇家已经彻底接受了鸢尾合并的现状，并打算以此为基础展开全新的合作关系了……很好。）",
+			say = "(I hope that's a sign of her trusting Richelieu so much that she'll leave this mission entirely to her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2225,7 +2225,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805010,
-			say = "在任何时候都不要忘记自己的誓言，不惜代价，一定要保护好指挥官的安全。",
+			say = "Ladies – upon the name of the guiding Iris, remember your oaths and guard the Commander at any cost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2242,7 +2242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯明白。本次行动中，阿尔萨斯将作为指挥官的守护之剑，只要一息尚存，就不会让指挥官受到伤害的！",
+			say = "For as long as one's heart beats, one shall be the guarding sword that protects the Commander from all who wish to do harm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2260,7 +2260,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "以审判庭之名，绝对完成任务。放心吧，黎塞留圣座。",
+			say = "And I will do the Holy See's bidding, for I am an agent of the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2277,7 +2277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯，我相信你们。",
+			say = "May the Iris be with you all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2295,7 +2295,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805010,
-			say = "对了，指挥官。本次行动中请您使用这套通讯系统吧。",
+			say = "Commander, take this. It's a communicator modified and improved by the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2312,7 +2312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "这是由审判庭内部研发的最新一代通讯系统，相比碧蓝航线现行的版本更加安全稳定，保密性也更强。",
+			say = "I've been told it's more advanced than the ones from the Eagle Union. It ensures a more stable, better-encrypted connection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2330,7 +2330,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805010,
-			say = "本次行动的鸢尾舰队也使用同一套通讯系统，指挥起来也会更加兼容。",
+			say = "The others have all gotten one, too. You'll be able to issue commands to them remotely like normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2346,7 +2346,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（通讯系统又升级了啊，希望这次不会再出现战斗中通讯中断的情况了……）",
+			say = "(Even the Tribunal's chipping in for this mission, eh. I hope it'll protect against strong jamming, since I still can't get in touch with Helena as a backup.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2358,7 +2358,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没问题。",
+			say = "Thanks a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2372,7 +2372,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805010,
-			say = "那么，愿您的调查终有所获，一路顺风，指挥官。",
+			say = "You're welcome. May luck and the Holy Iris be with you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2387,7 +2387,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "黎塞留在留下道别的话语后，也离开了卡美洛之庭。",
+			say = "After those words of farewell, Richelieu also takes her leave from Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2398,7 +2398,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "随后，天空中的金色圆环开始充能转动。",
+			say = "Soon after, the golden rings above the castle come to life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2410,7 +2410,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "这场突如其来的“狩猎”之旅，终于要正式开始了——",
+			say = "Alright. Let's go catch a whale!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "映入眼帘的是一片死亡之地。",
+			say = "A land devoid of life came into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "无数有规律的敲击声中，机械都市正在肆无忌惮的扩展。",
+			say = "A mechanical city expanded unimpeded while something banged incessantly, like the second hand on a clock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "金属与非金属、天然与人工造物、乃至大地与海洋都在以一定规律进行着重组。",
+			say = "Metals and organics, the natural and the artificial, even the sea and the sky were disassembled, restructured, and rebuilt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "其中的一些成为了存储在都市中的对象。",
+			say = "Some of it went into a materials pile in the middle of the city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,19 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "另一些，则变为了都市的一部分。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900191,
-			side = 2,
-			bgName = "bg_camelot_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "拉沃斯在这里的工作……已经到重组回收阶段了啊。",
+			say = "Other bits and pieces coalesced into the city itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +93,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来来得正是时候。",
+			say = "Seems the Lovers' work has reached the conversion stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +105,19 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了一个额外世界的资源作为储备，应该可以增加些胜算了……",
+			say = "I've come at just the right time, then.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900191,
+			side = 2,
+			bgName = "bg_camelot_6",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "One branch's worth of resources in reserve should improve our probability of victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "恩普雷斯，实验场β不能被放弃。",
+			say = "Empress, abandoning test site beta is strictly forbidden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「自然进化验算系统」有需要在实验场β验证的内容，准备进行防御战。",
+			say = "There is content yet to be verified by the Natural Calculation System. Prepare to mount a defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "计算结果显示，这场冲突胜算渺茫，毫无疑问是一项「错误」的决定。",
+			say = "Calculations show that the defense is exceedingly unlikely to succeed and thus deemed an irrational choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此……零的意图难道是，主动出错……？",
+			say = "Yet Zero insists on it anyway... What is she thinking? Is she making a mistake on purpose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……与其它安蒂克丝的型号不同，仲裁机关是被允许出现「错误」的。",
+			say = "We Arbiters are allowed to make mistakes, unlike low-level programs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道这也是仲裁机关被赋予完整人格的原因之一么。",
+			say = "Is that her goal with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……这个问题已经得不到答案了啊。",
+			say = "...It doesn't matter. I have my orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,8 +247,8 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "仲裁者·拉沃斯·VI",
-			say = "恩普雷斯……？我收到你的消息就赶来了哦。",
+			actorName = "Arbiter: The Lovers VI",
+			say = "Ah, Empress. I sent a vessel your way as soon as I got your message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来要和你一同行动了么？",
+			say = "I assume we're working together on this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不错，汝要前往实验场β外围设置防线。",
+			say = "Correct. We're going to establish a defensive line around test site beta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与我，还有当地的研究机关一同为零做一场实验。",
+			say = "After that, we'll take the lower-level programs in the area and run a verification test for Zero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "任务期限呢？",
+			say = "What's the cutoff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "直到零满意，或者全军覆没为止。",
+			say = "When Zero is satisfied with the results, or when we're wiped out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯——我很乐意哦~",
+			say = "I'm happy to assist, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>三　休息室的主教</size>",
+					"Angel of the Iris\n\n<size=45>3 The Cardinal and the Privateer</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "本日的宴会设置在宫殿的第四层。",
+			say = "Joffre arrived at the waiting room and quickly realized she wasn't the only one there.",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "在经过第二层休息室时，霞飞本想稍作休息，不过似乎已经有人先来了。",
+			say = "She was about to knock on the door when she heard a pair of voices debating on the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:523}跟黎塞留主教……？）",
+			say = "That sounds like Cardinal Richelieu and Jean Bart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "黎塞留与{namecode:523}似乎并未注意到站在不远处的霞飞，依然在专心谈论着什么。",
+			say = "The two kept on talking, unaware that Joffre was just on the other side of the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事关欧罗巴未来的会议已经结束了。",
+			say = "And that is all that was discussed at the assembly. From questions about the Iris Orthodoxy's future, to the operations to take place across Europa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "虽然多数表态是符合我们的预期的，但未免也有些过于顺利了。",
+			say = "The talks were in line with what we expected. Everything went smoothly... Maybe even too smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "顺利到让人不得不怀疑{namecode:435}到底在背后有什么企图。",
+			say = "It leads me to suspect that Bismarck is up to something... Or perhaps, that our own higher-ups are planning something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "克莱蒙梭那边我已经问过了，我现在想听听你的看法。",
+			say = "I asked Clemenceau this same question, but... what do you think about all this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "恕我直言，姐姐。",
+			say = "Since you're askin', I'll get straight to the point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这份声明在我看来，无异于割下自己的血肉去喂一头永远吃不饱的鲨鱼。",
+			say = "Bismarck's a shark that smells blood in the water. And one way or another, we're gonna be the ones made to bleed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天{namecode:435}可以用这样的方式得到铁血想要的东西，明天呢？",
+			say = "Recovering and reverse-engineering Siren technology, turning their own tools against them... It all sounds grand and marvelous, doesn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血在跟塞壬深度合作的传闻都已经传到我这里了，姐姐你们没理由不知道。",
+			say = "But you've heard the rumors too, haven't you? About what's on the horizon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然对于教廷大事我不好说什么，不过圣座那边你们是说得上话的。",
+			say = "I don't know how much the Templar Knights know, but I do know we've got to start preparing for what's comin'. The losses will be unimaginable if we don't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我们不早做准备，说不定下一块肉就要从我们自己身上割了！",
+			say = "Someone needs to get the Tribunal and the Orthodoxy's higher-ups to start gathering intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "冷静点，我的妹妹。你的想法与我和克莱蒙梭大体一致。",
+			say = "Yes. Clemenceau said the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，谋定而后动。情况还没有危及到火烧眉毛，切忌乱中出错。",
+			say = "However, we must not make hasty decisions. It would only cause friction between the factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "尤其是会议上皇家的态度，你有没感觉到什么不寻常之处么？",
+			say = "The Iris' future shall never be threatened for as long as our homeland and the Basilica remain ours. Not even Iron Blood can challenge that fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然有！皇家的发言内容实在是……太不像出自那个伊丽莎白女王的手笔了。",
+			say = "Yeah, true, but that's betting a lot on the Orthodoxy doing as we hope. Maybe I'm being paranoid, but still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "嗯，这件事我已经让审判庭着手调查了，现在在这里乱猜也没有用。",
+			say = "It's alright. I've asked the Tribunal and Le Terrible to look into it. It's no use for us to fret over this issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 805010,
-			say = "毕竟皇家可是我们长期的，坚定的，令人可疑的盟友啊……",
+			say = "Let us not forget Queen Elizabeth also has her plans. All we can do for now is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……没听到，我什么都没听到。",
+			say = "...Oh dear. This was not meant for my ears.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "接下来的事绝不是我能听下去的内容了……",
+			say = "No, this is definitely not something a regular shipgirl like me should know. I will do my best to forget it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "招呼留到下次再打，现在还是悄悄离开吧……",
+			say = "I'll bid the Cardinal good day another time. For now, I'd better hurry to the main hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "霞飞脑内回想着刚才听到的对话，悄悄离开了休息室。",
+			say = "Joffre pushed this forbidden knowledge out of her mind, then turned around and ran off to the party venue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

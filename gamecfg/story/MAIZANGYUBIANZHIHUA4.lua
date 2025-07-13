@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>紧随噩梦而来之事</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>4 Ink-Stained Dream</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "不久后，{namecode:90:龙骧}就带来了{namecode:85:飞鹰}与{namecode:86:隼鹰}，{namecode:88:瑞凤}也准备好了要玩的游戏。",
+			say = "A while later, Ryuujou returned to Zuihou's house with Hiyou and Junyou in tow.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "少女们一直畅玩到深夜，最后才各自洗漱回房，沉沉睡去。",
+			say = "They played games late into the night, then retired to their bedrooms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng6",
 			hidePaintObj = true,
-			say = "重樱离岛·圣域？？？",
+			say = "Zuikaku opened her eyes to an ink-stained scene of steel. She was back at the Sacred Sakura when she was trying to awaken Nagato.",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "停下，来者何人？！",
+			say = "Halt! Who are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是新生重樱联合，特来此地寻找能够拯救重樱御神木的方法。",
+			say = "We're the Sakura Empire's Reborn Combined Fleet, and we're here to have a look at the girl in the Sacred Sakura...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（欸……？这个场景是……？）",
+			say = "(Huh? Why am I here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "……请回吧，神子大人不希望任何人打扰到她的休息。",
+			say = "...Leave this place. None shall disturb the guardian fox's slumber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "神子大人……你是，{namecode:161:天城}的近侍？",
+			say = "Kawakaze... So you serve Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "请退下，我们有十分重要的事要找她商量。",
+			say = "We must speak with her. Won't you let us through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……神子大人？……{namecode:161:天城}？）",
+			say = "(Wait... Speak to Amagi? Not Lady Nagato?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "神子大人已经承受了太多本不应属于她的负担了。",
+			say = "The guardian fox already carries a burden too great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "所以，我答应过她，在她沉睡的期间，决不允许任何人前来打扰。",
+			say = "I gave her my word that I would let no one disturb her slumber!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "是的，就算是你们，也不行——",
+			say = "No one! Not even our fellow countrymen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是死脑筋……如果我们非要过去呢？",
+			say = "There's such a thing as being TOO stubborn... What if we insisted on seeing her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "那就……让我来见识一下你们的决心吧——",
+			say = "If you'd push forward despite my warnings, you'd best prepare for a battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（好像……有哪里不对？）",
+			say = "(Something feels so wrong... But what?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要走神！{namecode:96:瑞鹤}，敌人攻过来了！",
+			say = "Zuikaku, focus! She's coming to attack us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng6",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "你们的实力，只有如此么？",
+			say = "I see now why you're decorated and revered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是{namecode:161:天城}的近侍……确实是实力超群。",
+			say = "You're a skilled fighter yourself. I'd expect as much from Amagi's aide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳、咳……{namecode:96:瑞鹤}——快走！",
+			say = "*cough cough*... Zuikaku, hurry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "不，你们今天谁都走不掉了。",
+			say = "Over my dead body!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐！大前辈？！！",
+			say = "Shoukaku! Great Veteran!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不、不对……事情不是这样的……！）",
+			say = "(No, wait... This isn't how it went!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tiancheng6",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "放肆，退下。",
+			say = "Kawakaze, step down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:158:江风}，你的职责只是守护在此，怎敢对客人出手这么重？",
+			say = "You've done well as my guardian, but I never asked you to repel guests with such ferocity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:96:瑞鹤}、{namecode:95:翔鹤}，还有{namecode:82:三笠}前辈，非常抱歉……我的近侍出手没轻重，让诸位受伤了。",
+			say = "My sincere apologies to all of you. Kawakaze should have restrained herself better so as to not injure you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果不嫌弃的话，请来我的宅邸休息养伤吧。",
+			say = "Please come to my mansion just up ahead and tend to your wounds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……{namecode:161:天城}……大人？",
+			say = "You're... You're Amagi, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你就是{namecode:161:天城}……？",
+			say = "Is that really you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "不错~这些年来我一直在神木之中沉睡，我们还是初次见面吧，{namecode:96:瑞鹤}。",
+			say = "Yes, it is me. I hope I've not slept in the Sacred Sakura for so long that I've been all but forgotten.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我们确实是初次见面。",
+			say = "Okay, uhh... Nice to meet you, I suppose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可……好像有哪里不太对。",
+			say = "Sorry, I can't shake this feeling that something is wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "哪里不太对……？呵呵，听你这么一说我也有些好奇了。",
+			say = "Wrong? Yes, now that you mention it, something does feel off to me as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "不妨说来听听，你觉得“哪里”不太对？",
+			say = "What, precisely, do you feel is wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……重樱的神子应该是……",
+			say = "It's... Who is the guardian fox...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该是……",
+			say = "And... who was sealed away in a slumber here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,12 +622,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			stopbgm = true,
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "醒醒——",
+			say = "...ake up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,11 +652,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "快醒醒——",
+			say = "Hey! Wake up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}姐姐，你终于醒了！",
+			say = "You're finally up, sleepyhead!",
 			bgm = "musashi-2",
 			typewriter = {
 				speed = 0.05,
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……{namecode:88:瑞凤}？",
+			say = "Huh? Whuh? Zuihou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我刚才……好像做了一个特别奇怪的梦……多亏你把我叫醒了。",
+			say = "Man, I just had the weirdest dream ever... Thanks for waking me up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，{namecode:96:瑞鹤}姐姐，梦里发生什么奇怪的事都正常！",
+			say = "If only the dreams were the only weird thing happening right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "你快看窗外，那才是真正的不正常的怪事呢！",
+			say = "Look out the window! Everything is all messed up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……窗外？",
+			say = "Messed up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "在叫醒{namecode:96:瑞鹤}之前，屋内的窗帘已经被{namecode:88:瑞凤}提前拉开了。",
+			say = "Zuikaku focused her gaze on the window. Zuihou had already pulled aside the curtains.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "透过玻璃，{namecode:96:瑞鹤}可以很清楚地看到正在街道上所发生的变化。",
+			say = "Looking outside, she could clearly see what was happening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "树木由高变矮，房屋由旧变新。一切事物都仿佛被按下了倒带键，向着名为“过去”的景象复原着。",
+			say = "The trees had shrunk and all the old buildings on the street looked brand new, almost like time had reversed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我不是在做梦吧。外面街道上的时间在……倒退？",
+			say = "I'm... not still dreaming, am I? Why does everything look like we went back in time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是梦啦！{namecode:90:龙骧}她们刚才围着宅子查看了一下，四周都是这种情况呢！",
+			say = "I don't know, but it's not a dream! Ryuujou, Hiyou, and Junyou went out to see what had happened, and it's exactly like you just said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……好像你的宅邸完全没受到影响？",
+			say = "What about your house? Did it go back in time, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "那是当然啦~这里可是被{namecode:83:大和}大人亲自制作的结界保护着呢！",
+			say = "Luckily not, because mine's protected by one of Yamato's barriers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "记得那是在宅邸修好没多久之后，由{namecode:152:伊吹}姐姐专门送过来的……",
+			say = "You see, the house had just been finished, and Ibuki came by to bless it with–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔……",
+			say = "Ahem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "对了，{namecode:84:武藏}大人刚才发来消息，说外面街道上的异常现象是因为大结界遭到了不明人员的进攻。",
+			say = "Oh, anyway, I got a message from Musashi earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些都是暂时性的幻象，很快就会平息下来的。",
+			say = "This is apparently an illusion, and it happened because someone infiltrated the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过很多敌人已经趁机穿越大结界从海上袭击过来了，{namecode:84:武藏}大人命令我们在异常现象稳定后，立刻出海迎敌！",
+			say = "She said everything will go back to normal soon, and when it does, we have to sortie and locate the infiltrator!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（没想到……在{namecode:74:长门}大人离开后不久，本岛之上真的出了天大的事！）",
+			say = "(Ohh! This is why Mikasa sent Lady Nagato so far away from the mainland!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（我得先收集更详细的情报，然后尽快发送给{namecode:74:长门}大人……！）",
+			say = "(I need to gather intel quickly and relay the situation to her!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,15 +960,15 @@ return {
 			},
 			sequence = {
 				{
-					"「仪式节点，顺利锚定。」",
+					"\"The wedge has been driven in and the concept has been anchored.\"",
 					1
 				},
 				{
-					"「核心法阵，驱动完成。」",
+					"\"The circle is finished and ready for the ritual to commence.\"",
 					2
 				},
 				{
-					"「姐姐，我们很快就能团聚了——」",
+					"\"Soon, my dear sister. Soon.\"",
 					3
 				}
 			}

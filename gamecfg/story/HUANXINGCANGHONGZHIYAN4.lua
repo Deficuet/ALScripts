@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"银底洋·？？？",
+					"South Pacific",
 					1
 				},
 				{
-					"净化者的主机",
+					"Purifier's Mainframe",
 					2
 				},
 				{
-					"休息室",
+					"Break Room (Vessel Storage)",
 					3
 				}
 			}
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……好无聊啊——",
+			say = "*yaaawn*... Sooo bored...",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安塔迪卡打得热火朝天的，可是观察者偏偏不让我们去直接支援，只允许提供舰队……",
+			say = "Relegated to frickin' support, and right after that shitshow down in Antarctica...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是因为它一直不上战场，这次主机塔被威胁后……突然想试试亲自指挥战斗的感觉了？",
+			say = "What's Observer thinking? She finally gonna take matters into her own hands after they threatened her mainframe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观察者亲自带领舰队冲锋的画面……简直不敢想。",
+			say = "Yeah... Nah. I can't picture her ever going into an actual battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦算啦~观察者行事自有道理，想不通的事还是别费脑子了。",
+			say = "Eh, whatever. She does things her own way. Better not to waste energy thinking 'bout it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是……所有实验都暂停了，真的好无聊啊——",
+			say = "Just wish she hadn't aborted all tests, 'cause now I've got jack squat to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃——啊啊啊啊——！",
+			say = "Graaah! Goddammit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种无聊的日子什么时候是个头啊——",
+			say = "Let me fight already! I hate sitting on my ass and twiddling my thumbs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,20 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "厚重的地毯在打滚中轻轻颤动。突然，净化者突然翻坐起来，仿佛打定了某个主意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900233,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "对了，看看帕克菲克洋那边的战况如何了吧。",
+			say = "Purifier anxiously rolled back and forth on the carpet, then suddenly stopped and got up, having remembered something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对面这次气势汹汹的，测试者可千万别搞砸了……嗯？",
+			say = "I know! Let's see what's going down in the Pacific!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据库中的数据正在被读取……？",
+			say = "Tester better not screw up this time, 'cause they've brought out the big... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……不光是被读取，而且同时被转移走了？！",
+			say = "Someone's reading the data in my database?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,18 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "未经我的许可怎么会发生这种事？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			say = "净化者打开数据库，发现自己的数据确实正在以一个极快的速度消失。",
+			say = "No, wait... It's not being read! It's being transferred!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +208,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据已经大半不见了……？可是我本人的运行却没有受到丝毫影响……",
+			say = "Stop that, you asshole! I didn't consent to this!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			say = "In a rush, she accessed her database and saw that all the information was being removed before her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,29 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据调用……也正常。怎么会有这么荒唐的事……我的数据究竟去哪儿了？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			say = "净化者立刻下达了一连串指令，可是没有起到任何效果。就算封闭了数据库，数据依然在快速消失着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			say = "而后，在数据被彻底清空的那一刻，自毁命令被启动了。",
+			say = "Half of everything is gone! But if there's only 50% left... how am I still alive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +245,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊……？！别、等、等等——！",
+			say = "Resource usage looks normal... The hell is going on, and where's my damn data going?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			say = "She sent out command after command to remedy the situation, but it was for nothing. Her data kept on being transferred away.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			say = "Then, once the process was complete, she herself received a command – to self-destruct.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900233,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What?! Wait, don–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。",
+			say = "Just like that, Purifier's mainframe turned into a spectacular display of fireworks.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "曾经牢牢控制着银底洋的净化者主机塔，从这个世界上永远消失了——",
+			say = "Only a day ago, the South Pacific feared her name. Now, her personality was no longer a part of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "北方联合·圣彼得伯格司令部",
+			say = "Northern Parliament - Forward Operating Base",
 			bgm = "battle-deepecho",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……咳，{namecode:530:同盟}同志，欢迎回到圣彼得伯格司令部。",
+			say = "Siste– Pardon. Comrade Soyuz, welcome to our frontline base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "鸢尾那边的情况不要紧吧？",
+			say = "If you'll excuse me for skipping the pleasantries, but how is the situation with the Iris Orthodoxy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "老实说很微妙，不过欧罗巴那边就放心交给阿芙乐尔和水星纪念吧。",
+			say = "While it's still in a delicate balance, Avrora and Pamiat' can handle Europa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "极地的事才是我们现在需要处理的。",
+			say = "Our most pertinent objective lies here, in the Polar Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "唉……真没想到在极地风暴行动期间，陆间海会出这么大的事……还好你当时凑巧在黑海。",
+			say = "Indeed. It was good that you happened to be near the Mediterranean when that near-disaster happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "没有什么凑巧的，单纯是连我们都被一同算计了而已。",
+			say = "I didn't \"happen\" to be there. All of us were stationed there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "……你是指？",
+			say = "...What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "没什么，不说这些了。极地风暴行动进展如何？",
+			say = "Nothing. Forget I mentioned it. More importantly, how is the mission progressing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "我记得在事件发生的同一时间，库尔斯克提交了一份在极地中发现“所属不明的META”的报告对吧。",
+			say = "If I remember right, Kursk reported that an unidentified META had appeared in remote waters at the same time as the Mediterranean crisis happened, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "没错。在后续作战中，我们对这一情况进行了重点侦察，",
+			say = "Yes, ma'am. A fleet was dispatched to conduct reconnaissance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "可是直到我们攻破了北极点要塞为止，未知的META势力都没有再次出现过。",
+			say = "However, the META did not appear again until we had eliminated the Sirens' forces and recaptured the base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有些奇怪。如果说其行动目标是赶在我们前面摧毁塞壬力量的话……",
+			say = "That is very strange...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "在你们因陆上神国事件而陷入指挥系统瘫痪的时间内，应该是其最佳行动时间才对。",
+			say = "If the META's goal was to eliminate Sirens, you'd think she would go on the offensive while our command chain was paralyzed due to what was happening in the Mediterranean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "为什么会消失不见呢……因为目标已经达成了？还是有其它不得不消失的理由……",
+			say = "And yet, she didn't do that. Then what if she had already achieved her goal? Or she went away for some other reason?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这件事恐怕没那么简单。",
+			say = "She couldn't have come and left simply on a whim.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "一会将收集到的全部样本与报告移交给我，我要成立一个专项联合调查组研究一下。",
+			say = "Please send me all the samples and reports. I will form a special task force and conduct a second investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "遵命。然后{namecode:530:同盟}同志……从昨天开始出现了一个新的问题，使得我们不得不暂停了对于清除者主机空间的搜索。",
+			say = "Yes, ma'am. One more thing – unfortunately, we had no choice but to terminate our search for the mainframe yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "嗯？什么问题？",
+			say = "May I ask why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "曙光信标——我们用于侦察塞壬主机空间所在位置的仪器，突然失灵了。",
+			say = "It was due to the sudden failure of the Light of Dawn's beacon, which we used to detect the location of the mainframe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "失灵的原因呢？",
+			say = "What caused it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "暂时不明……科研部门还在全力排查中，预计需要三到五天才能排查出问题所在。",
+			say = "We don't know yet, but we are looking into it. It will likely take a few days before we determine the cause.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,43 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "不过在曙光信标发生故障的同一时间，在信标所在的海域周边，基洛夫同志曾目击到了一些塞壬的高科技飞行器。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705050,
-			say = "其形似眼球，喷射着蓝色的尾焰，在空中以极其灵活的方式移动着。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705050,
-			say = "我们的雷达无法发现它们，所有舰载机与防空火力也未能产生有效命中。",
+			say = "What we do know is that Kirov's fleet sighted a non-Siren unidentified flying object at the same time as the Light of Dawn malfunctioned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "贝拉罗斯和我推测，这些未知的高科技飞行器就是导致曙光信标出现故障的罪魁祸首。",
+			say = "The reports claim the object had the appearance of an eyeball with a tail made of blue fire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,12 +384,17 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			side = 2,
-			actor = 900218,
-			say = "飞行器的火力呢？",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705050,
+			say = "Additionally, it was somehow completely undetectable on radar, and planes launched by the fleet were unable to pursue it.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +408,38 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "未知，那些飞行器没有进行还击，只是一味地高速躲避，直到消失不见。",
+			say = "Belorussiya speculates that it was responsible for the Light of Dawn's malfunction.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900218,
+			say = "Do we know if the object was hostile?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705050,
+			say = "That is uncertain. It did not counterattack in response to their anti-air fire, it only evaded the flak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "更高阶塞壬的科技单位出现在了极地中……其干扰了我们用于侦测塞壬主机的仪器，同时还对我们进行了侦察与火力测试。",
+			say = "Perhaps it was a new model the Sirens sent to both disrupt our search for the mainframe and to scout out our forces and firepower...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,20 +467,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不是个好征兆。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			side = 2,
-			actor = 900218,
-			say = "我们已经攻陷了北极点要塞，瓦解了清除者在海域中的抵抗，可以认定极地风暴行动的第一阶段目标已经圆满达成……",
+			say = "It's a possibility, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,19 +480,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "既然已圆满达成阶段性目标……该见好就收了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900218,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "随后我会通过司令部下达正式命令，宣布极地风暴行动顺利结束。",
+			say = "(We did recapture our base, destroy the Sirens' FOB, and eliminate one of Omitter's vessels. Our operation can be concluded as a success.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +493,32 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "除了K-1与K-4区域外，放弃所有对于原清除者防线内区域的控制，你们立刻将部队全部收回来。",
+			say = "(This is the perfect chance to report to Naval HQ that we're done.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900218,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "...Thank you for the report. I'll inform Naval HQ that the operation is finished.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900218,
+			say = "Abandon all areas captured from Omitter, excluding K-1 and K-4, and withdraw all the forces within those areas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "欸？！连北极点和王冠都放弃么？",
+			say = "What?! Even around the Crown and the polar stronghold?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "放弃。既然清除者主机没能被成功拔除，那我们强行将这些区域控制下来也没有意义。",
+			say = "Yes. There is no point in holding these areas while Omitter's mainframe remains intact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "否则等待我们只有无穷无尽的消耗战，就如过去在NA海域中发生过的一样。",
+			say = "She will just continue whittling us down with her endless reinforcements, like how Compiler defended the NA Ocean before her mainframe was destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欧罗巴大陆的局势已经出现了巨变，塞壬也投入了更高阶的作战单位加入战局。",
+			say = "Now that the Europa situation has changed, the Sirens are surely going to make a big move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900218,
-			say = "时局不明，我们也应该转攻为守势，静待局势变化。",
+			say = "The near future is uncertain, so it's time to go on the defensive and wait for a better opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "我明白了，遵命！",
+			say = "...As you say.",
 			painting = {
 				alpha = 0.3,
 				time = 1

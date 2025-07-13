@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg9",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第四回合 稍早之前——",
+			say = "Exercise Area - Turn 4 (Akagi's Action)",
 			bgm = "battle-againstfate",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个区域据点的构建者……也太强了吧！怪不得{namecode:84}大人打了整整三回合才打下来！",
+			say = "A Compiler vessel... What were we doing while Milord was struggling for survival...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜啊……又一支量产型舰队被消灭了，再这么下去就需要让侍从来吃反击伤害了啊……",
+			say = "Ugh... I lost another mass-produced ship... At this rate, I'm going to be forced to retire from the game...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这可不好……重甲防御的战列舰只有我一个人！如果要是选人去挨打肯定是我！",
+			say = "As a battleship, I should be the one on the front lines... But I'm supposed to conserve my firepower and energy still...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:79}……冷静一点，据点已经被{namecode:91}解决了哦。",
+			say = "Calm down, Yamashiro. Akagi has already taken the base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸……？开玩笑的吧……什么情况？",
+			say = "Huh, really? Since when...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			say = "{namecode:79}抬起头望向远方，{namecode:91}正静静地站立在远方不久前还属于构建者的位置上。",
+			say = "Before Yamashiro could make sense of what she was seeing, Akagi had already crushed the Siren vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			say = "她的身边是尚未消散的彼岸花花瓣，四周是未燃尽的火焰，而不久前还在耀武扬威的构建者已经消失了。",
+			say = "Burning petals swirled around her body, the only remaining traces of the Siren that had once been there.",
 			effects = {
 				{
 					active = true,
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欢迎来到大棋盘，姐姐。",
+			say = "Akagi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在看到天空中出现赤红色火焰的时候我就知道你要来了，会客室的情况如何？",
+			say = "When I saw your foxflames appear, I thought you had used another command. I didn't think you would directly enter the battlefield...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "沉闷无趣，所以我才来这里透透气。",
+			say = "I was going to fall asleep if I had to spend another minute in that cramped room. Just needed a little change in scenery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}前辈，请问刚刚究竟发生了什么事……？",
+			say = "Akagi, what did you just do to that Compiler...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们刚才在和这里的构建者战斗的时候应该发现了，它的护盾和装甲对于各种类型的武器都有很好的抵抗效果。",
+			say = "Compiler models are known for having extremely high resistance to conventional weapons. However, we are able to use the unique features of this area to our advantage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过对于非常规方式出现的杀伤，抵抗能力就很弱，比如基于我的入场所带来的特殊伤害。",
+			say = "I changed the characteristics of my attack, as you can see from these lycoris flowers here, allowing my flames to penetrate the vessel's weak points.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "利用这一点就很容易把她收拾掉。",
+			say = "Knowledge is power - the same is true for fighting Sirens as it is for understanding our opposition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然「猩红绽放」在设定的时候是在场外停留的回合越多，伤害越高。",
+			say = "(The sea fog had a fairly significant effect the first time it was used, but Mikasa will know how to deal with it if I use it a second time.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过也没必要一直等下去，时机比效果更重要，差不多刚刚好就行了。",
+			say = "Nagato has also descended upon the battlefield. If we do not act quickly, there will be no more bases left to take, and we will be forced into a stalemate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不愧是{namecode:91}前辈，对战场上的每一个细节都牢记在心！",
+			say = "Understood. We trust your judgment, Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我对这次棋局也是认真的哦。",
+			say = "That's fine, but your own safety comes first. The same goes for Jintsuu and the others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过构建者啊……真没想到没过多久居然在这里又见到了。",
+			say = "Color me surprised, though... I didn't expect to see another Compiler so soon. Seems like the ghosts of the past are all coming out to play.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就算主机被干掉了，量产机还是能照常生产出来么……",
+			say = "I suppose this means that even if the mainframe has been destroyed, its data can still be used to create spares... But what is the point in doing that––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}，你真是太厉害了，居然亲手解决了战斗！我还以为你铁定要把我推进去抗伤害了呢！",
+			say = "Thank you for saving us, Akagi! If it weren't for you, all our mass-produced ships probably would've gotten wiped out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么会呢？这种区域据点还不到需要消耗主力的时候。越往后，量产型舰队就越没用，优先把这些消耗掉才是。",
+			say = "...Do you think I'd exhaust our resources securing a base of this size? I sent the mass-produced ships in to gauge the opponent's specs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于你，后面还有更重要的地方需要你去呢。",
+			say = "Yamashiro, you will be needed to secure a more important objective.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "额？更、更重要的地方是指……？",
+			say = "A more important objective...? Are you talking about the tower over there? I'm not sure I'll be able to take down even stronger enemies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，热身到这里差不多就该结束了。",
+			say = "Hold on. I'm not done talking yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈趁着我们打据点的时候，偷偷封锁了我们的边界，现在是时候去给她造成点困扰了。",
+			say = "Mikasa has already formed a perimeter through the southern side of the board. If we allow her forces to join up with Nagato's, we're as good as done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:5}{namecode:39}，穿越中心区域进攻{namecode:74}大人与大前辈之间的边界节点，伺机切断她们两家的联系。",
+			say = "Jintsuu, I'd like you to join up with Miyuki. Cross over past the central tower and look for an opportunity to split off Mikasa and Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hideOther = true,
 			actorName = "{namecode:39}&{namecode:5}",
 			side = 0,
-			say = "了解。\n遵命……{namecode:91}大人！",
+			say = "Understood!",
 			subActors = {
 				{
 					actor = 301040,
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "至于{namecode:79}的话，因为身负阻止大前辈向中心推进的重任，就这样直接前往中心区域内待机吧。",
+			say = "Yamashiro, you have the important task of preventing Mikasa's forces from advancing on the central tower. I need you to hold the waters around that area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜啊…………果然变成这样了！我就知道我把自己的技能全部设置成保命系是对的！",
+			say = "I just knew I was gonna get sent there! Ugh, everyone's going to be ganging up on me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说不定正因为{namecode:79}有这些设定，{namecode:91}前辈才会把你派去危险的地方哟？",
+			say = "That area is where most of the action is going to be, but with your durability, I'm sure you'll be fine. If anything, I'm sure Akagi chose to send you specifically because you're the best fit for the task.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！是这样么……我是想着{namecode:91}肯定会派我去危险的地方，所以才设计了保命系技能啊……",
+			say = "Oh, I see... Well, if Akagi has that much confidence in me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，从某种意义上来说，{namecode:79}和{namecode:91}前辈的相性也非常好呢~",
+			say = "Surprisingly, the two of you seem to work together pretty well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}前辈，切断大前辈与中心据点的作战也让我与{namecode:79}同去吧，不知道在那边会遇到什么危险，两个人也可以相互照料一下。",
+			say = "Akagi, let me go to the central tower as well. In case something happens there, it'll be safer to have two people instead of one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……虽然停留在中心区域时会受到额外减益，在回合结束后也有被攻击的概率……",
+			say = "That leaves me a bit short-handed for my other move, but it's true that having two people grants both of you more flexibility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 307010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过你的提案也有道理，两个人要是都进去大前辈想要接触中心据点就没戏了。没问题，{namecode:179}你也去吧。",
+			say = "We should be able to work with that... I'll allow it. Make sure you cover Yamashiro.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:91}前辈。",
+			say = "Understood, Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，我可是好好利用了一把你的「变革之路」哦。那么，接下来你会如何应对呢，亲爱的大.前.辈？",
+			say = "Now then, Great Veteran Mikasa. It's your move.",
 			painting = {
 				alpha = 0.3,
 				time = 1

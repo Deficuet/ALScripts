@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey~！我抱~！",
+			say = "Honey! Huggies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？怎么了？",
+			say = "New Jersey? What's gotten into you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "之前我在网上看了一下，有人说人类每周需要很多~拥抱来保持身心健康！",
+			say = "The internet says that people need a ton of hugs per week to maintain physical and mental health!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我只是想实践一下……嘿嘿，你会喜欢的吧？",
+			say = "So I wanted to try that out... Heheh, you like it, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

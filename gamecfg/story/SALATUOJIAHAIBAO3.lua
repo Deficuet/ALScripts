@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>三 小小的插曲</size>",
+					"Superstar of the Blue Seas\n\n<size=45>Chapter 3 - Protectors of the Seal</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哦哦哦，雷达的反应越来越强烈了呢！",
+			say = "Hmm, I'm almost sure it headed in this direction...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "……而且变得非常刺耳，不愧是{namecode:98}的发明，总有一些奇怪的地方非常气人。",
+			say = "Following the reported sightings of the Seal, I thought we had managed to get a good lead on the Seal's whereabouts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我们快……",
+			say = "We're getting close, Commander! I know it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，抱歉你们先在这里停一下。",
+			say = "Sorry, Commander, but I'll have to ask you to stop there for a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额，“我们是海豹的守护者哦~”",
+			say = "Right, uh... \"We are the Protectors of the Seal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“想通过这里的话需要回答我们的问题~”",
+			say = "\"If you want to pass through here, then you must first answer our question.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“回答错误的坏孩子不能告诉她小海豹在什么地方哦！”",
+			say = "\"We will not give the Seal's location to evildoers who cannot answer this question.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "…………",
+			say = "They spoke in a lazy manner, like a bored voice actor just phoning in their lines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海豹是什么科的动物？",
+			say = "So, the question is: what family does the earless seal belong to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,15 +177,15 @@ return {
 			},
 			options = {
 				{
-					content = "海豹科！",
+					content = "\"Phocidae.\"",
 					flag = 1
 				},
 				{
-					content = "猫科？",
+					content = "\"Panthera maritimus?\"",
 					flag = 2
 				},
 				{
-					content = "萨拉老师帮帮我！",
+					content = "\"I'd like to use a lifeline for this one... Saratoga?\"",
 					flag = 3
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "不愧是指挥官！",
+			say = "Wow! Spot on, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "那是豹子啦！正确答案是——海豹就是海豹科的哦~",
+			say = "That's like bad Latin for \"sea lion\"! Also, sea lions have ear flaps! The correct answer is \"Phocidae\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "正确答案是——海豹科哦~",
+			say = "Heh heh! The answer is \"Phocidae\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，恭喜你，成为了被海豹选中之人，过去吧。",
+			say = "Ding ding ding. All right, you can move along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "……异常敷衍地被放过了。",
+			say = "It seems like they'll let us pass now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……噗，没想到你们会这么投入啊！？",
+			say = "... Pfft! I never imagined you three would do something like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…还好？反正还挺有趣的。",
+			say = "... So? It's fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹们都觉得挺有意思的，我自然也会奉陪。",
+			say = "They said it would be fun, and I'm along for the ride, so to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 105200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐觉得没意思吗？",
+			say = "You not enjoyin' yourself, sis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事。这样能为环保事业尽一份力当然是很开心的",
+			say = "That's not what I meant. I am enjoying this, as it's for a charitable cause.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，虽然我也觉得挺有意思的啦。大家估计都会吓一跳哦？",
+			say = "Well, there's nothing wrong with having some fun at the same time! I bet many will struggle with that question!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先不说这个，准备都完成了吗？",
+			say = "Oh, by the way, how are the preparations coming along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，很顺利",
+			say = "They're going well. Don't worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好~",
+			say = "Great to hear~! Thanks for covering for me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "萨拉似乎在和她们聊些奇怪的东西，难道……",
+			say = "(What \"preparations\" are they talking about...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好啦好啦，指挥官，我们赶紧继续前进吧！",
+			say = "Okay, Commander! Let's move on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-5",
-			say = "同日13:20:00",
+			say = "Prior to the Royal Navy's plan",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,12 +19,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "贵安，光辉女士，劳烦您远道而来，厌战号向您献上最高的问候",
+			say = "Illustrious! Are you coming as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安~听闻到你发来的电报，我便立刻从皇家三岛启航而来了",
+			say = "Greetings, Warspite. Yes, as per Her Majesty's orders, I will be accompanying you on this voyage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,10 +53,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "情况如您所知，我们正准备派遣巡洋舰队同帝国共同执行搜索任务…",
+			actorName = "Warspite",
+			say = "I see. Well, as I was saying earlier, we are preparing a joint Royal Navy-Sardegna search party to find where the Sirens are coming from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是你担心其中有诈，对么",
+			say = "But you're wary about their motives for agreeing to your terms so readily?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "真是瞒不过光辉女士的眼睛…对方的理由是这样的",
+			say = "You're quite perceptive, as always. Something seemed suspicious about the plan they proposed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,10 +101,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "“虽然非常不希望在夜晚执行搜索任务，但是塞壬的据点只有在夜间才会更为活跃”",
+			actorName = "Warspite",
+			say = "They claimed that they wanted to carry out this search operation at nighttime because the Sirens are supposedly more active then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,10 +118,10 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "马耳他的侦察机无法在夜间工作。如果帝国借着夜色图谋不轨的话，我们将会陷入非常被动的局面。",
+			actorName = "Warspite",
+			say = "But, it just so happens that our patrol units at Malta don't operate at night. There's a possibility that they want to seize on that opportunity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，其中一定有阴谋",
+			say = "Yes, I made some preparations for that very scenario before I got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,10 +150,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "啊？光辉女士何以见得...",
+			actorName = "Warspite",
+			say = "You... did what? In any case, we don't have any proof that the Sardegnians are actually plotting something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女人的直觉",
+			say = "Call it a woman's intuition, but I already consulted with Her Majesty about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,10 +182,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "女…女人的直觉吗？！？",
+			actorName = "Warspite",
+			say = "A... woman's intuition?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的呢~有的时候，这个能力可比任何战术头脑都实用的哦~？",
+			say = "Don't you know that this ability is sometimes more fearsome than the most brilliant tactical mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,10 +224,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "是…是这样的吗？学，学习到了…",
+			actorName = "Warspite",
+			say = "Listen, you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这次来之前我和陛下都多少有些预感呢，因此特意做了些准备~比如一个能够在夜晚发出指令，能让舰载机在几十里外的夜空中发现目标的装备",
+			say = "I have prepared countermeasures and a follow-up plan in case the Sardegnians would do anything that's not in our best interest. Oh, I've also prepared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,10 +256,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "照明弹？",
+			actorName = "Warspite",
+			say = "... What are those? Flares?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此~不过，现在尚缺一个能在紧急情况下发出正确指令的操作员呢…嗯，让我想想",
+			say = "Correct. But we need someone who can use them to signal us if something happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "此时约克正搬着弹药箱路过指挥点",
+			say = "At that time, York happened to be passing by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是你了！",
+			say = "Yes, you're perfect!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…诶？？",
+			say = "Huh? Whaaaat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

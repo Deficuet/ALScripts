@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_559",
-			say = "在{namecode:292:四万十}的带领下，我沿着崎岖的山间小路来到了森林深处。",
+			say = "With Shimanto leading the way, I follow a rugged mountain path into the depths of the forest.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			live2d = "home",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不远处，一道瀑布自百米高的山顶奔涌而下，汇聚为清澈见底的溪流。",
+			say = "Nearby, a waterfall cascades down from a hundred meters, gathering into a crystal-clear stream.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "哼哼，怎么样？这里可是我花了不少时间才找到的，汇聚着灵气的神秘之地哦！",
+			say = "Heheh, how do you like it? It took me a lot of time and effort to find this domain of raw natural energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "要是在这里修行的话，绝对能够事半功倍！",
+			say = "Training here is far more effective than usual!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 399062,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……修行？",
+			say = "...Training?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "正是！",
+			say = "Yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,18 +112,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "指挥官，要不要猜猜是什么样的修行呢？",
+			say = "Can you guess how the Dragon God trains?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "瀑布修行？",
+					content = "(Waterfall training?)",
 					flag = 1
 				},
 				{
-					content = "打水漂？",
+					content = "(Skipping stones?)",
 					flag = 2
 				}
 			}
@@ -139,7 +139,7 @@ return {
 			actor = 399062,
 			actorName = "{playername}",
 			live2d = true,
-			say = "是要利用瀑布的冲击锻炼意志力么？",
+			say = "Do you train your willpower by meditating under the waterfall?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "欸？确实有那种修行方法啦，但我不怎么喜欢就是了。",
+			say = "Huh? Some people do that, but it doesn't really suit me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "毕、毕竟会有点痛嘛……",
+			say = "I-I mean, it hurts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 399062,
 			actorName = "{playername}",
 			live2d = true,
-			say = "是要用石子打水漂来锻炼身体的协调能力？",
+			say = "Do you train your coordination by skipping stones on the water?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "这个听起来很有趣……呃，咳咳！我们可不是来玩的哦？",
+			say = "Wait, that sounds like fun... U-um, I mean, we're not here to play!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "总、总而言之！先跟我来吧！",
+			say = "A-anyway, just come with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接下来，就由龙神大人教你仙家的修行之法！",
+			say = "The Dragon God will show you how we immortals train!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "少女修长的腿轻柔地划开波光粼粼的水面，反射着光芒的龙尾显得格外惹眼。",
+			say = "Her long legs gently cut through the sparkling water, and her dragon tail splashes along behind her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -257,7 +257,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "红色的颈绳温婉地环绕于纤细修长的脖颈，无私地衬托着她光洁白皙的肌肤。",
+			say = "Red fabric envelops her slender neck, accentuating the fairness of her skin.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "配合轻曳流连于她身周的雪白细纱，一股超凡脱俗的气质便随之弥漫开来。",
+			say = "The delicate white shawl draped around her adds to her ethereal beauty.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "很快，这位龙神大人便带着我来到水势湍急的岸边盘腿坐下。",
+			say = "The Dragon God guides me to the riverbank, where we sit cross-legged in the water.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "聆听潺潺水声，那是来自山川的低语。",
+			say = "Harken to the sound of the rushing waters. Recognize it as the murmurs of the mountain stream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "去感受这冲刷着身体的溪流，让它带走你的污浊。",
+			say = "Immerse yourself in its motion. Let it cleanse you of impurity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "让心灵沉浸其中，寻觅内心深处的宁静。",
+			say = "Let your heart sink into its depths, and find tranquility deep within.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "此情此景，便是能够治愈身心的天然良药。",
+			say = "Realize that this is the ultimate elixir to cure heart and soul...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不知不觉间，与我并肩而坐的{namecode:292:四万十}轻轻靠在了我的身上。",
+			say = "Suddenly, I notice that she's leaning on me a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "或许是因为溪水的冲刷，原本白皙的肌肤泛上了诱人的粉红色。",
+			say = "Perhaps it's the laving of the stream water, but her once-fair skin is now suffused with an alluring pink tint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "与我相贴的肌肤比微凉的水流要温热些许，柔软得不可思议。",
+			say = "She's warmer than the chilly water, and she's unbelievably soft to boot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 399062,
 			actorName = "{playername}",
 			live2d = true,
-			say = "确实非常舒服，有种很奇妙的感觉。",
+			say = "This is surprisingly pleasant and soothing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 399062,
 			actorName = "{playername}",
 			live2d = true,
-			say = "可是……这好像就是普通的自然疗法吧？",
+			say = "Isn't this just ecotherapy, though? I'm not sure I'd call it training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "嗯？呃……这么说倒也没错……",
+			say = "Huh? I-I guess you're not wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "但、但是哦！不论是何种修行，本质上都是共通的！",
+			say = "It doesn't matter, though! All training comes down to the same fundamental truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "都是通过淬炼身心来让自己变得更加健康。",
+			say = "It's all about promoting health through tempering the body and mind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "而这些流传于世间的修行之法，就是龙神大人所降下的恩泽哦！",
+			say = "Consider the many methods of training out there as blessings bestowed by the Dragon God...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399062,
-			say = "因此，只要心怀感激地认真修行就好。",
+			say = "Train diligently, and with gratitude!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 399062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看着{namecode:292:四万十}这副一本正经的模样，我突然觉得，就算只是普通的自然疗法……那也不错。",
+			say = "Seeing how serious she looks, I suddenly think... even if this is just ecotherapy, that's no problem at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_190",
-			say = "在结束了名为修行的自然疗法后，我和{namecode:292:四万十}回到了房间。",
+			say = "Once we finish the so-called training, we go back to her room together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "刚进门，龙神大人便趴到了没有收起的柔软床褥上，慵懒地撑起了脑袋，银白色的龙尾轻轻晃动着。",
+			say = "As soon as we enter, the Dragon God lies down on the soft futon and begins to relax. She rests her head in one hand, and her silver tail swishes leisurely back and forth.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -556,7 +556,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "方才那股不食人间烟火的气质瞬间消失得无影无踪。",
+			say = "Her otherworldly air from before is all but gone.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "唔，距离饭点还有好一会呢……该干什么好呢……",
+			say = "It still isn't dinnertime yet... How should we pass the time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "对了指挥官，因为我经常受到来自大家的供奉，所以我稍微有些好奇……",
+			say = "Hey, Commander. There's something I've been wondering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,18 +598,18 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "服侍别人到底是一种什么样的感觉啊？",
+			say = "What does it feel like to serve another?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是很花费精力的事。",
+					content = "(Answer her.)",
 					flag = 1
 				},
 				{
-					content = "不了解也没关系。",
+					content = "(Brush her off.)",
 					flag = 2
 				}
 			}
@@ -625,7 +625,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			actorName = "{playername}",
-			say = "那是一件相当花费精力的事情。",
+			say = "It takes a lot of effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			optionFlag = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "明明知道会如此消耗精力，却依旧选择那么做吗……",
+			say = "But you still choose to do so despite that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			optionFlag = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "唔唔……更想知道那是种什么样的体验了……",
+			say = "Hmm. Now I'm even more curious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			actorName = "{playername}",
-			say = "这种事就算不深入了解也没关系。",
+			say = "You don't really need to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			optionFlag = 2,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "唔？但指挥官这么说的话……反而让我更加好奇了。",
+			say = "Hm? If you're trying to make me less curious, it isn't working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			optionFlag = 2,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "而且，龙神大人现在真的真的非常无聊。",
+			say = "The Dragon God is as bored as can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			optionFlag = 2,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "要是不讲清楚的话……我可是不会轻易放你离开的哦？",
+			say = "I won't let this go until you give me a detailed answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			actorName = "{playername}",
-			say = "既然如此，要不要尝试一下呢？",
+			say = "Okay, then how about you give it a try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			actorName = "{playername}",
-			say = "我觉得亲身体验应该远比纸上谈兵更有效果。",
+			say = "Experience will tell you more than I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯，这样也确实更加有趣呢！那么……",
+			say = "Oh, yes! That does sound more fun! Okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "欢迎回来，指挥官。",
+			say = "Welcome back, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "是要先吃饭，还是先洗澡，还是先……先什么来着……",
+			say = "What would you like first? Dinner? A bath? Or... Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "{namecode:292:四万十}的话语戛然而止，苦恼地思索起了不知道从哪里学来的台词。",
+			say = "She cuts herself off, struggling to recall the rest of the cliché line that she picked up from who-knows-what.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "看样子，龙神大人的服侍体验之路似乎有点坎坷。",
+			say = "It seems the Dragon God's journey to master the art of service is filled with obstacles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			actorName = "{playername}",
-			say = "……那就先吃饭吧。",
+			say = "I choose dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "嗯？饭的话，我没做。因为我不会做饭嘛！",
+			say = "Huh? There is no dinner. I can't even cook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "但我有好好泡茶哦，要不要先喝杯茶呢？",
+			say = "There is tea, if you want it. Should we start with that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "如果指挥官肚子饿了的话，我也可以特别允许你稍微吃一点我的零食哦。",
+			say = "If you're that hungry, I can deign to bestow sweets upon you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "但是不能吃太多哦？不然我就没得吃了。",
+			say = "But don't eat too much, or else I won't have any left for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不知不觉间，{namecode:292:四万十}逐渐变回了她平日里的模样。",
+			say = "She's back to her usual self in no time.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -916,7 +916,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "这时，趴在床褥上的她像是想起了什么般，拍了拍自己身旁的位置。",
+			say = "Something suddenly occurs to her, and she pats the spot next to her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "如果指挥官感到困乏的话，也可以躺在我的身边休息哦？",
+			say = "If you're tired, lie down with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "我一定会将你服侍地舒舒服服的~",
+			say = "I'll serve you just the way you like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "哼哼……指挥官看起来好像有些惊讶呢。",
+			say = "Heheh... I saw that look of surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -973,7 +973,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "不用想太多。这种时候，只要放松身心来到我的身边就好。",
+			say = "Don't overthink things. It's a good time to just relax and leave the rest to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			hideRecordIco = true,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "以手托腮的{namecode:292:四万十}轻轻眨了眨眼，凝脂般的脸颊悄悄染上了醉人的绯红。",
+			say = "She flutters her eyelashes at me. Her pearl-white cheeks have an intoxicating blush to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "更何况……现在距离开饭还有好一会呢。",
+			say = "Come on... There's plenty of time until dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +1016,7 @@ return {
 			dir = 1,
 			actor = 399063,
 			nameColor = "#A9F548FF",
-			say = "机会难得，不如趁此好好享受一下来自龙神大人的服侍吧？",
+			say = "Since we're here... Come and enjoy the Dragon God's service for once♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

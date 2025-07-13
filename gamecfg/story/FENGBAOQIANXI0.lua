@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天空晴朗，微风，海面能见度极好，是出航的好天气",
+			say = "Sunny weather, gentle winds, and excellent visibility. Perfect weather for setting sail.",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 1,
 			dir = 1,
-			say = "正如之前所商定的，女王陛下不日将亲自率领舰队前来",
+			say = "Indeed. Then, as we discussed, Her Majesty will join us and personally lead the fleet within a few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 0,
 			dir = 1,
-			say = "热烈欢迎哦~正好也好久没见伊丽莎白了，不知道她有没有什么变化呢...",
+			say = "She's welcome any time! By the way, how's she doing? I haven't seen her in a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 1,
 			dir = -1,
-			say = "咳..女王陛下，自然还是那个充满活力的女王陛下啊",
+			say = "I can assure you that Her Majesty's state of health is splendid, as per the normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "威尔士阁下，舰队已经准备完毕，随时可以出航",
+			say = "Ms. Wales, all the necessary preparations have been made. We shall depart on your command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = -1,
-			say = "白鹰的诸位，对于本次访问期间受到的热情款待，我代表皇家向你们致以衷心的感谢",
+			say = "Excellent. Friends of the Eagle Union, I would like to thank you for your hospitality and your kindness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = 1,
-			say = "也不用这么正式啦，威尔士小姐，白鹰纽约港可是随时向皇家和各位伙伴开放的哦",
+			say = "Don't stress it, Wales! The people of NY City would love to have you around again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = -1,
-			say = "那么，我们就正式出发了。企业小姐，领航拜托了",
+			say = "I'm glad to hear that. Now, Enterprise, would you lead the way for us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = 1,
-			say = "包在我身上",
+			say = "Absolutely. It's over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_newyork",
 			side = 2,
 			dir = 1,
-			say = "大家路上都要注意安全哦~",
+			say = "Have a safe trip home, everyone~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

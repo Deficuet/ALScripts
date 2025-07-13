@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
-			say = "奇怪……这些残骸不但新旧不一，还有大量根本无法判断来源……",
+			say = "It's all so strange. The wrecks seem to have been floating around for wildly differing times, and there's no apparent explanation for where they came from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "NA海域中的风暴才出现了数月时间，怎么会积累这么庞大的残骸？",
+			say = "I'm willing to believe they're all from Sirens in the NA Ocean, but that they had THIS many here? That just seems impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们说……NA海域中塞壬主力的最终归宿不会就在这里吧……",
+			say = "Unless... Unless there were far more Sirens concentrated here than we observed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是认为塞壬的主力舰队其实早就已经在奇异点中损失殆尽了么？",
+			say = "What's your theory? That the bulk of the Sirens' forces was eliminated inside the Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "没错，企业前辈。",
+			say = "Yes, it seems the most plausible to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以此为基础进行反推，不论是开战之前的兵力收缩，战争中的薄弱抵抗，还是外强中干的最后防线。",
+			say = "It would explain why their defense was so incompetent – they'd already suffered massive casualties before our all-out offensive even began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "塞壬进行这一切怪异部署的原因只有一个————NA海域中的塞壬被余烬从中心开花了。",
+			say = "If we suppose that's true, then everything adds up. As for who eliminated them, I would speculate it was the Ashes. Though it could've been someone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点内随处飘荡的残骸就是塞壬在全力抵抗的证明。",
+			say = "At any rate, this is where the \"real\" battle took place – where the Sirens made their last stand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "说起来……决定发起作战的契机就是NA海域中出现的风暴和塞壬异常的兵力收缩。",
+			say = "Looking back at it now, the storm and the lack of a strong Siren presence in the area is essentially what put our all-out offensive into motion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是歪打正着选了个好时机啊……",
+			say = "If what we saw earlier was their last-ditch effort to defend their territory... that means that, by pure luck, we struck while they were at their weakest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "不过……就算所有新残骸都是余烬的手笔，那些旧残骸依然解释不了。",
+			say = "However, there's a hole in your theory. If the Ashes are responsible for the fresh wrecks, then who the hell is responsible for those older ones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些残骸明显是我们的风格。虽然发现的数量不算多，但等比例换算到整个区域中依然是庞大的数量。",
+			say = "Then there's those wrecks of mass-produced ships which are unmistakably man-made. We may have only found a handful, but that handful is still a large percentage of all the ships we have in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "我们可没有过这么大规模损失的报告哦。",
+			say = "If we'd lost that many ships at some point, we would've known about it by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "也许是把海底的残骸一起卷进来了……？",
+			say = "Maybe... The old wrecks are from a battle we fought long ago, and they somehow resurfaced much later...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算把塞壬出现之后的所有损失加在一起恐怕也不够。",
+			say = "Still no. There are more here than have sunk in any battle in the NA Ocean at any point in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "这片残骸仿佛是无穷无尽的，不论侦察机怎么飞，总有更多的残骸出现在前方。",
+			say = "Just look around you. You can send recon planes in any direction and find no end in sight to all these wrecks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至连来的方向也已经没有干净的海域了，我们就像突然掉进一片无边无际的残骸海中央一样。",
+			say = "Even seeing it with your own eyes, it's almost impossible to believe there could be so many sunk ships in one place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~这个问题我也许可以回答~！",
+			say = "Hehe~ As it so happens, I might know an explanation for that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……萨拉托加？",
+			say = "Really? Do tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "奇异点的内部空间与外界空间不同——我最近看到了一个这样的理论哦！",
+			say = "The common theory goes that Singularities are dimensionally divergent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么不同……？",
+			say = "What does \"dimensionally divergent\" mean, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点并不是一个拥有固定体积的三维空间，而是某种更为复杂的体现。",
+			say = "If I remember right, it's something like... Singularities don't have fixed space in three dimensions. Rather, they exhibit more complex properties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "作为其性质的体现，奇异点内的空间可能存在有严重的观察者效应————",
+			say = "Ever heard of the observer effect? It's likely the inside of a Singularity is strongly influenced by what its observers see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！本王也想起来了，确实有一个这样的理论！",
+			say = "Ah yes, that! I've read about this before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "等等！这可是萨拉妹妹先想起来的，你可不许抢答！",
+			say = "Hey! At least let me finish explaining before you try to steal my thunder!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提出这个理论的可是皇家科学家！",
+			say = "Well, now is a good time to mention it was OUR Royal scientists who first proposed that theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "……这种事怎么都好吧！而且你真的有好好看过论文里的内容么……",
+			say = "Oh really? What sets their theory apart from the Eagle Union's version of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法肯定好好看过了！",
+			say = "...Bel, look into this matter for me later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "…………………………",
+			say = "Pfft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好吧……你继续你继续。",
+			say = "Hey! Don't scoff at royalty! Go on then, continue with your explanation if you're so eager to share it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "哼~根据论文中的观点，奇异点的内部空间会随着我们的观测进行延伸与扩张。",
+			say = "All righty then. When the inside of the Singularity is directly observed, it will continue to expand. That's why it seems like there's no end to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们看到的空间巨大，可能只是我们看的太远了。继续侦察下去的话，也许真的会陷入无尽残骸之中也说不定。",
+			say = "So the more we explore, the bigger it grows, and the more mass accumulates inside it. And if it grows too big, it could lead to something disastrous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "当然~既然塞壬和余烬都可以在这里正常出入，说明这里一定拥有某种规则……",
+			say = "The good news is, the Ashes and Sirens seem to be able to come and go as they please! Which means there has to be a way out of the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我觉得不如主动缩小观测范围。回收侦察机，关闭雷达，仅依靠我们的视距沿着这条狭窄的航线前进，说不定就能离开这里了！",
+			say = "But to find it, we'll need to stop observing so much. As counterintuitive as it sounds, we should probably put away our planes and radars and rely only on line of sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,11 +533,11 @@ return {
 			},
 			options = {
 				{
-					content = "原来如此！",
+					content = "\"Makes perfect sense!\"",
 					flag = 1
 				},
 				{
-					content = "听不明白…",
+					content = "\"I don't think I caught all that...\"",
 					flag = 2
 				}
 			}
@@ -548,7 +548,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "不愧是聪明的指挥官~！",
+			say = "I knew you'd agree, Commander! Then let's get searching!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "没关系，这里就相信一回聪颖的萨拉妹妹吧~！",
+			say = "That's fair. It's pretty complicated stuff. But don't worry, I'll get us out of here in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

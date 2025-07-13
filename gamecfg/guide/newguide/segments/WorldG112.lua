@@ -12,7 +12,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "在塞壬要塞海域中，该区域会实时显示敌方剩余的据点数。",
+				text = "Here you’ll find the number of nodes under the control of a Siren stronghold!",
 				mode = 2,
 				posY = 0,
 				char = "1",
@@ -34,7 +34,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "每清理一处敌方据点塞壬控制力就会下降。在塞壬控制力归零后即可彻底夺回该处海域的控制权。",
+				text = "Their hold on this zone will weaken the more nodes you take over! Once their control reaches 0, you can recapture it!",
 				mode = 2,
 				posY = 191.14,
 				char = "1",

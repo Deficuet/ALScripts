@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你最终决定下水营救溺水的小动物。",
+			say = "You jump into the river to rescue the helpless critter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,7 +16,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "水很深，很凉，但这使你充满了决心。最终小动物被成功救上了岸，你却不幸晕了过去……",
+			say = "The water is cold, but this only fills you with determination. In the end, you manage to rescue the animal, but you pass out on the riverbank afterwards...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "当你醒来时，身边多出来了一些……谢礼？",
+			say = "When you wake up, you find a token of gratitude left beside you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "似乎是小动物送来的……这是对你英勇行为的褒奖和证明。",
+			say = "It must be from the animal you rescued. You've been rewarded for your heroic act.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

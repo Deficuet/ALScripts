@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "转眼就要到TB升学考试的日子了。",
+			say = "TB's school entrance examination is coming up soon.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（稳妥起见……还是问问她最近学习的情况吧。）",
+			say = "(I should ask how her studies are going. Just to be sure she's doing alright.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "在得到TB的许可后，我进入了她的房间。",
+			say = "I walk over to her room and she lets me inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Um...",
 			voice = "event:/educate/tb/educate-tb-story-2-17",
 			painting = {
 				alpha = 0.3,
@@ -92,12 +92,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完全……不知道从哪开始复习。",
+			say = "I have no idea what stuff I'm supposed to go over.",
 			voice = "event:/educate/tb/educate-tb-story-2-18",
 			painting = {
 				alpha = 0.3,
@@ -110,12 +110,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明看过了很多书，可还是一转眼的功夫就忘记。",
+			say = "I've read tons of books, but I forget everything in them.",
 			voice = "event:/educate/tb/educate-tb-story-2-19",
 			painting = {
 				alpha = 0.3,
@@ -128,12 +128,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师说我偏科很厉害，几门功课的成绩差距太大了。",
+			say = "My teachers say I'm great at some subjects, but that's not enough because my other subjects are too far behind.",
 			voice = "event:/educate/tb/educate-tb-story-2-20",
 			painting = {
 				alpha = 0.3,
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "看着她桌上摆着的试卷上的分数，我忍不住笑了。",
+			say = "Seeing the grades on the tests on her desk, a chuckle escapes my lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,12 +157,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这有什么好笑的……",
+			say = "It's NOT funny.",
 			voice = "event:/educate/tb/educate-tb-story-2-21",
 			painting = {
 				alpha = 0.3,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "她嘟囔着。",
+			say = "She pouts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是觉得TB居然会偏科这件事很不可思议。",
+			say = "I'm just amazed that your grades are behind. How do I put it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,19 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "毕竟之前几乎无所不能的领航员小姐……现在变成了考试成绩不及格的小学生。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过刚刚笑出声是我不对，我要向你道歉。",
+			say = "I had assumed TB could do anything and everything. I never thought she'd get bad grades in certain subjects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +213,19 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，我们一起复习功课吧。",
+			say = "Sorry, you're right. I shouldn't laugh.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Let's review those subjects you're not so good at, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "投入特定材料使设施运作，可以探测到海域中更加隐蔽的调查点……",
+			say = "This device can be supplied with materials to commence a scan of this sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,15 +18,15 @@ return {
 			},
 			options = {
 				{
-					content = "消耗1个[塞壬能源存储器]，尝试探测隐藏的敌人",
+					content = "Use 1 Energy Storage Device to locate hidden enemies.",
 					flag = 2
 				},
 				{
-					content = "消耗2个[特别兑换凭证]，尝试探测隐藏的资源",
+					content = "Use 2 Special Item Tokens to locate hidden materials.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "Leave for now.",
 					flag = 0
 				}
 			}

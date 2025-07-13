@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>五　工作，工作，然后……</size>",
+					"Quintessential\n\n<size=45>5. Work, Work, and More Work</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "新的一天开始了，推开指挥室的大门，看向桌案。",
+			say = "An incident occurred the day before Ulrich was supposed to resume her post as secretary.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			},
 			options = {
 				{
-					content = "……出现了一座山。",
+					content = "Ugh...",
 					flag = 1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "只过了一夜，昨日干干净净的办公桌仿佛拥有了生命一般吐出了如同小山一样的文件。",
+			say = "A veritable mountain of paperwork had appeared on my desk. I had no idea why so much work would come in at a time like this, or how I was going to deal with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "哼……桌上的这些都是什么呢，指挥官？",
+			say = "Hmph... So what's all this stuff on your desk, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "本以为肯定不会发生这种情况的……该不会是在我不在的时候，你就放着工作不管了吧？",
+			say = "I didn't expect you to be the kind of person to do something like this, but... surely you didn't completely slack off while I was taking my break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知何时等在指挥室的{namecode:465}瞪了过来。",
+			say = "Ulrich, who had entered the office without my notice, was now staring at me intently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别在意，只是句玩笑话。",
+			say = "Easy now. It's just a joke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "搬运这些多到不可思议的文件也有我的一份功劳，能看到你那么精彩的表情，也算值得了。",
+			say = "I happened to be walking down the hallway when I saw large amounts of paperwork being transported into your office like a cruel, ironic joke. So I decided to swing by out of curiosity, and lo and behold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来你已经理解了，目前十分严峻的状况。",
+			say = "Things might look bad now, but they're only going to get worse by the minute if you keep staring off into space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "别发呆了，快点开始工作，我们联手把这堆文件大山收拾掉吧。",
+			say = "Before I could even respond, Ulrich had already grabbed a stack of papers off the desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "时针指向凌晨1点的时候，至今为止一直默默工作着的{namecode:465}突然站了起来。",
+			say = "The clock had just passed 1300. Ulrich, who had been working in silence up until now, suddenly stood up.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（咚）",
+			say = "*slam*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，稍微休息下。",
+			say = "Commander, let's take a short break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她腋下夹着已经处理完的厚厚文件夹，把不知从何处取出的能量饮料罐放在了桌上。",
+			say = "Ulrich pulled out an energy drink and slammed it onto the desk, using her waist to support a cabinet of files she had finished herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这些都是需要一大早就要下发的部分，我先送出去了。在这段时间内，你先打个盹如何？",
+			say = "All done over here. I'll take these files down to their respective departments, so you can go take a nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "Don't worry, I'll be back before you're up. If that's not enough assurance for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:465}又把不知从何处取出的闹钟放了过来。",
+			say = "For the second time, she pulled an alarm clock out of nowhere and set it down in front of my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帮你设个闹钟好了。",
+			say = "Here, I'll set an alarm for you. Use this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个闹钟……",
+					content = "\"Use it? What for?\"",
 					flag = 1
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明显是有备而来！应该说准备充分呢，还是过于魔鬼呢……",
+			say = "There was still too much work to get through. Even if I wanted to take a nap, that would better be saved for after I was done with these documents...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "就算不休息，这个工作量也不是一个人能做完的。不如在我回来之前就这么放着好了。",
+			say = "Use your brain for a sec and look at how much work is still left. You wouldn't be able to finish it all even if you wanted to, so rest up for now and wait until I come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感觉有些过意不去……",
+			say = "\"That sounds nice, but I don't want you working until late in the evening when it's supposed to be your day off.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这也是最有效率的考量，不用在意。",
+			say = "I already told you, don't worry about me. Besides, I'm choosing to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算这么说………还是适当地努力下吧。",
+			say = "I'd feel even worse if I pushed all my work onto her, especially after hearing that. So, I guess I can try to power through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "至少解决掉手头的这组文件——",
+			say = "In the dead silence of the office, I continued to work by myself.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "别担心，我会叫醒你的。如果你还是不放心的话……",
+			say = "Don't worry, I'll be back before you're up. If that's not enough assurance for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "嗯……意识有些无法击中。",
+			say = "That's right... I can't burden her with this kind of stuff... I've got to hang in there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "……不行，好像……越来越……困……了……",
+			say = "...But I'm so tired, I can't keep my eyes open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "…………",
+			say = "––*thud*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……这个状况看上去是在坚持着工作的途中败给了睡魔啊。诶……所以我不是说了么，你去休息才是最有效率的做法哦，笨蛋。",
+			say = "...Out cold, huh. What a dumbass. A kind, considerate dumbass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "在一片朦胧的意识中…似乎听到了{namecode:465}的轻声说了些什么……",
+			say = "As my consciousness slipped away, I thought I could hear Ulrich's voice again, complaining about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

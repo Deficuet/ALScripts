@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「黑夜使阳光更灿烂。」",
+			say = "(Another vision... It's as if my memories, no, somebody else's memories, are being read...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「废墟使高楼更宏伟。」",
+			say = "\"The darkness of the night makes the morning sun shine brighter. The crumbled ruins of old make the new city stand taller.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「而战争，使帝国更伟大。」",
+			say = "\"And thus, the flames of war make the Throne more tempered.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「罗马的意志已经做出了决定。」",
+			say = "\"The will has been fulfilled. The decree has been passed down.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「伟大的奥古斯都。」",
+			say = "\"Become greatness itself. Consolidate incompetence into kingly right.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「再次渡过卢比孔河。」",
+			say = "\"There is but one direction to proceed.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「开创一个崭新的时代吧——」",
+			say = "\"Open the way for a new era.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "level02",
-			say = "白鹰近海 安全海域 Risk 0",
+			say = "Eagle Union coastal waters \n\tSiren Threat Assessment Rating: 0",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "商船护航♪~出发♪",
+			say = "Escortin' ships all daaaay~♪ Gotta clear out the waaaaay~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！企业，那批就是要我们护送的商船队吧",
+			say = "Oh! Is that them over there, Enty? The merchant ships we gotta escort?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。因为航线与补给方向一致，司令部希望我们可以顺路护送一下。",
+			say = "That's them. Just so happened our routes and schedules aligned, so they gave us the job of escorting them to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明是地图标注的安全海域，为什么会出现骚扰商船的塞壬嘛...",
+			say = "A job's a job, but... why? Isn't this area supposed to be safe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...航海地图也是分版本的",
+			say = "It is, if your deck's packed with cannons and you're trained in naval combat. If you're a merchant ship, not so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们手里这份是军用的，安全等级仅供作战舰队参考，民用的地图是另一个版本啦",
+			say = "That's why the threat evaluation for this place differs between naval and civilian nautical maps. When you're unarmed, it's better to be safe than sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎...原来如此啊！我之前都没有注意过",
+			say = "Makes sense... I mean, \"safe\" is relative in the first place, but still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶尔也关注一下战斗外的其他事情啊…不要像蒙彼……喂！我还没说完呢！",
+			say = "You'll learn a lotta stuff if you pay close attention, and not just in combat. You don't wanna end up like Monty and get tunnel vision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别冲那么快，战斗的时候注意避开水雷区啊！",
+			say = "... Speaking of which, watch where you're going! There's sea mines here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Aye-Aye Sir~~~",
+			say = "Whoops! Aye-aye, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

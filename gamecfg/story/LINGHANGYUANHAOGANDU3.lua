@@ -9,7 +9,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>三 关于你的故事</size>",
+					"Convergence of Hearts\n\n<size=45>3 Your Story</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "故事，想听。",
+			say = "Tell me a story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "最近的TB对绘本中的故事展现出了一定的热情。",
+			say = "TB has started developing an interest in the stories in picture books.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过通常都是在晚上睡觉前，我才会读故事给她听。",
+			say = "I read a story to her once a day, but only when it's time for bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是，还没有到睡觉的时间哦？",
+			say = "But it's not even close to bedtime yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想听……",
+			say = "Pleeease...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难得这么执着，就满足她好了。）",
+			say = "(Fine. It's not every day she asks for something with a \"please.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "取来了TB最近常听的几本绘本，但她却对这些绘本表现得兴趣缺缺。",
+			say = "I come back with a handful of books I've read to her lately. She doesn't seem very interested, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要，不知道的故事……",
+			say = "Not like these...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些都，知道。",
+			say = "You already told these stories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想听新故事？",
+			say = "Do you want to hear a new one, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，想听，新故事！",
+			say = "Yeah! Tell me a new story!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,18 +230,18 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这下有点麻烦了，该给她讲什么故事才好……）",
+			say = "(Oh, boy. What type of story should I tell her? That's the question...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于战斗的故事",
+					content = "A story about a battle.",
 					flag = 1
 				},
 				{
-					content = "关于TB的故事",
+					content = "A story about her.",
 					flag = 2
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（就讲讲关于战斗的故事吧！）",
+			say = "Do you want to hear a story about a battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不要这个。",
+			say = "...No.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（被干净利落地拒绝了！）",
+			say = "(She flat-out said no!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,14 +300,14 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（看来还是换一个故事比较好啊。）",
+			say = "(Okay, need to choose a different story.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于TB的故事",
+					content = "A story about her.",
 					flag = 2
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（那就拿TB当做原型编一个故事好了。）",
+			say = "(That should work. I'll make up a story based on her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "该从什么地方讲起……",
+			say = "But where to start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……？",
+			say = "Hm...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（有了，干脆就把领航员小姐追寻个性的故事讲给她听吧。）",
+			say = "(I've got it. The story will be about TB's pursuit of a personality.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "随着故事的发展，TB也渐渐进入了梦乡。",
+			say = "As the story went on, TB slowly but surely slipped off into slumberland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "TB……要像领航员小姐一样……",
+			say = "I'm like... a navigator...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……勇敢……",
+			say = "And brave...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "半梦半醒间，她嘟囔着。",
+			say = "She mutters something in her half-asleep state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你已经很勇敢了，TB。",
+			say = "Yes you are, TB. You're so brave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……呼唔唔……zZZ……",
+			say = "*yawn*... Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1

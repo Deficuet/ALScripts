@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "几日后——————",
+			say = "A few days later...",
 			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 			actor = 107990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海伦娜，我带领白鹰的支援抵达了哦。",
+			say = "Hey, Helena. I brought the Eagle Union girls along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -38,7 +38,7 @@ return {
 			actor = 203100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快看快看，皇家的支援也抵达了哟————",
+			say = "And I brought my Royal Navy friends!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			actor = 204040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您好，海伦娜小姐，我带来了皇家的支援与陛下的问候。",
+			say = "Hello. I come bringing support and greetings from Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 207090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了爱与和平，我们一定要尽快平息此次甜品危机才行！",
+			say = "In the name of love and peace, may our endeavour to prevent the candy shortage be successful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "重樱舰队也来了哦，真没想到会发生这种事。",
+			say = "The Sakura Empire is here too! Gosh, I can't believe the thief has gotten away with it for so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			actor = 304060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "甜品供应减少，连宴会都要开不起来了……",
+			say = "As candy becomes more scarce, it'll be harder and harder for me to throw banquets...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 304070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吃的团子也没有了……必须要尽快，阻止事态的恶化！",
+			say = "The thief has even taken our yummy dangos... We've got to catch them as soon as possible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,8 +139,8 @@ return {
 			nameColor = "#A9F548FF",
 			expression = 2,
 			actor = 900268,
-			actorName = "小加加？",
-			say = "滴滴滴——这里是小加加来自后方的最新情报！",
+			actorName = "Little Saratoga?",
+			say = "Alright, be quiet, everyone! I've got intel to share with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,8 +153,8 @@ return {
 			nameColor = "#A9F548FF",
 			expression = 1,
 			actor = 900268,
-			actorName = "小加加？",
-			say = "是铁血！铁血就是这一系列甜品运输船袭击事件的幕后黑手！",
+			actorName = "Little Saratoga?",
+			say = "Firstly, there's actually two thieves! And I know they're from the Iron Blood. Attacking shipping vessels and stealing candy is just what they'd do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			nameColor = "#A9F548FF",
 			expression = 4,
 			actor = 900268,
-			actorName = "小加加？",
-			say = "我在去海边游乐园玩的时候，偶然目击到了{namecode:427}进行甜品交易的现场！",
+			actorName = "Little Saratoga?",
+			say = "See, I was playing in the sea just the other day and saw Eugen trading candy with some other girl!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,8 +181,8 @@ return {
 			nameColor = "#A9F548FF",
 			expression = 3,
 			actor = 900268,
-			actorName = "小加加？",
-			say = "当时我只顾偷看交易，却忽略了从背后而来的另一个同伙。",
+			actorName = "Little Saratoga?",
+			say = "Then, while I was distracted by Eugen, the other girl snuck up from behind and attacked me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +195,8 @@ return {
 			nameColor = "#A9F548FF",
 			expression = 4,
 			actor = 900268,
-			actorName = "小加加？",
-			say = "……等我醒过来之后，交易已经结束了！",
+			actorName = "Little Saratoga?",
+			say = "I heard a big boom, then fell asleep! And when I woke up, they were both gone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是萨拉托加，真是很有意义的情报……",
+			say = "Interesting... Thanks for the helpful info.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "袭击团伙里还有其他人，不过另一个人究竟是……",
+			say = "Now we know Eugen is one of the thieves, but who's the other? I can't think of any–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 102200,
 			nameColor = "#A9F548FF",
-			say = "紧急情况！运送甜品的运输船又被袭击了！",
+			say = "Big trouble, everyone! The shipping vessels transporting the candy are under attack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 102200,
 			nameColor = "#A9F548FF",
-			say = "量产型舰队已经与敌人交战了，我正在前往现场，大家也一起支援吧！",
+			say = "The mass-produced ships are engaging 'em right now! I'm headed there now, but I need backup!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次一定要抓到幕后黑手！",
+			say = "Get over here as soon as you can! This is our chance to catch the thieves!",
 			painting = {
 				alpha = 0.3,
 				time = 1

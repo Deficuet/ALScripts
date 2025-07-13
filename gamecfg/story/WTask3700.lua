@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "友方的商船被塞壬包围了！",
+			say = "An allied transport ship has been surrounded by Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

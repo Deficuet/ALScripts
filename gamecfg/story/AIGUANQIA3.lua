@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺利进入虚拟镜面海域了的说",
+			say = "Ayanami here. We were able to enter the Virtual Mirror Sea without issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和我们熟悉的镜面海域有点像，不过……",
+			say = "It's similar to the Mirror Seas we've encountered before, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到处飘着奇奇怪怪的东西！这就是“病毒”还是“BUG”之类的吗？",
+			say = "There are a lot of things I've never seen before! Is this one of those \"virus\" or \"bug\" things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 900179,
 			dir = 1,
-			say = "奇怪，和平常完全不一样呢。果然是出bug了吗……",
+			say = "Huuh... I didn't see these in the patch notes. I guess it really must be a bug after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是很明白，但总之不能掉以轻心呢！各位，小心前进！",
+			say = "I have no idea what's happening, but let's all stay alert! Let's proceed carefully!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

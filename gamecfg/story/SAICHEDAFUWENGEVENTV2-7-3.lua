@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "猫猫之王也来到了观赛席，获得了【喵箱SSR型*1】"
+			say = "The king of all cats came to spectate the race. You received one SR Cat Box!"
 		}
 	}
 }

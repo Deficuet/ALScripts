@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "好厉害啊，{namecode:182}！不但预测到了伏击，甚至连塞壬舰队的配置都提前知道了…！",
+			say = "Woahhh... Not only did she predict that a Mirror Sea would appear here, she even knows where all the enemies are coming from...!",
 			bgm = "story-6",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是令人震惊……塞壬居然在这里偷偷埋伏了这么多舰队……",
+			say = "I was wondering why we sent an entire fleet to bring her back to the main island...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果不是遇到{namecode:182}，我们可能就要因为这次伏击而陷入危机了…！",
+			say = "What a close call...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…非也。原本汝等将会平安通过，这些塞壬伏击的目标乃是妾身。抱歉将汝等卷进来了…",
+			say = "Nay, this power is still unstable... It may prove to be a hindrance to everyone should I rely on it too much... My apologies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，您在说什么啊！如果目标是您的话不是更糟糕了么！这些可恶的塞壬…居然大胆到来本岛附近设伏！",
+			say = "Don't say that, Lady Shinano! Without your powers, we would've been ambushed and annihilated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬如此的反常部署，正是{namecode:182}对于它们威胁巨大的证明。您不用介意，为您护航是我们的义务和荣幸。",
+			say = "It's crazy that the Sirens would be able to launch an attack this close to the main island. They really are aiming for both Lady Shinano and the cargo we have with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢…",
+			say = "...Thank you for escorting me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过不妙啊…敌人的增援还是源源不断，虽然看起来没有特意瞄准运输船，持续战斗下去还是会难免产生连带损伤。",
+			say = "Even if we managed to foresee that attack, a transport fleet alone would not have been enough to fend off an enemy force of that size.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有没有一个速战速决的方法……",
+			say = "Kashino's a hard worker, but protecting a slow-moving transport is a difficult job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再等等…测试者的舰队，就快出现了。",
+			say = "Soon... Tester's fleet will arrive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "消灭测试者，就能彻底解除镜面海域的威胁。",
+			say = "If we can take out her command module...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

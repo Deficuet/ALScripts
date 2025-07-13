@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>四 第二个谜题</size>",
+					"Tales From the Count's Castle\n\n<size=45>4 The Second Trial</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在破解了几个小谜题后，来到了第二个大房间。",
+			say = "After solving a series of small puzzles, the path opened to a second big hall.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "映入眼帘的是……许许多多的门，以及……躺在地上的{namecode:449}与{namecode:413}？",
+			say = "Door after door after door lined the walls. At the hall's center was... Elbing and U-47, lying on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……是指挥官么？真没想到，指挥官居然能来到这里……",
+			say = "Commander? Is that really you? Goodness, I can't believe you've made it this far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "果然，只要我想着指挥官什么都做不到，会被谜题困住，会被{namecode:448}诱惑住，指挥官就能顺利过关……",
+			say = "Though, I shouldn't be. I expected you'd get stuck on the puzzles and succumb to Emden's temptation, so of course the opposite happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "（{namecode:449}，台词……）",
+			say = "(Psst. You're out of character.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "（啊，对不起……！）",
+			say = "(Oops, sorry...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "……人类啊，我乃永夜一族的后裔，旁边这位是我的仆人……",
+			say = "Human, you stand before the successor of a dark bloodline. This... is my servant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这座城堡本由我们永夜一族共有，但那位自称“永夜之主”的家伙却设下这个恶劣的机关困住了我们，利用诅咒夺取了我们的力量与自由……",
+			say = "My clan owns this castle, but Emden and her crones have us trapped here. They put a curse upon me, depriving me of all my strength...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "你所看到的就是“永夜之主”用幻术制造的无数假门，一旦踏入，就会永远迷失在黑暗之中。",
+			say = "These doors you see are an illusion of their making. Choose the wrong one, and you are doomed to wander through darkness for all eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "当然，只要主人能够恢复力量，就能轻松破解这个把戏。作为回报，你也可以安全离开此处。",
+			say = "My master could easily dispel their trickery, had she her strength. Help her regain it, and you too shall be able to move forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "就是这样……你能帮帮我们么？",
+			say = "There you have it. Will you aid me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "诶！这，这难道是……公主抱………///",
+			say = "Eek...! Wh-why the sudden princess carry?!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "一直躺在地上也太冷了，总之先把她们安置到那边的沙发上……",
+			say = "\"It must be cold, lying on the floor. Let's at least get you seated on this couch.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "咳……感谢你，人类。",
+			say = "Ahem... You have my gratitude, human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "但只靠休息的话，在恢复力量之前那位“永夜之主”就会先发现这里的异常……",
+			say = "Umm... Resting to regain my strength is an option, but 'tis a terribly slow process. Emden is bound to catch on to us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402081,
-			say = "所以……必须要那个……“依靠进食”才行……",
+			say = "For a hasty recovery, I require... a meal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（小声）肯定会被理解成是变着法子要吸指挥官的血，然后指挥官会头也不回地走掉的……",
+			say = "(Y-you're bound to think I'm talking about blood... Surely you'll be frightened by me and t-try to flee instead...)",
 			fontsize = 40,
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408024,
-			say = "咳咳、人类的血蕴含的力量实在过于弱小，要想让主人快速恢复力量，需要能够破除诅咒的、更强力的食物才行。",
+			say = "...Human blood will not suffice. My master requires sustenance that overrides the effects of the strength-sapping curse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			blackBg = true,
-			say = "能够破除诅咒的、更强力的食物……先在这个房间里搜索一下有没有类似的物品吧。",
+			say = "Food that can neutralize a curse... I decided to look around the hall for something that might fit that description.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

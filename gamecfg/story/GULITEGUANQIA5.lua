@@ -15,7 +15,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800010,
 			nameColor = "#a9f548",
-			say = "——啊，接通了。",
+			say = "Oh, it went through.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂，茜，你现在在哪里？",
+			say = "Hello? Akane? Where are you?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "六花？不用担心，怪兽已经被我们好好拦下来了哦。",
+			say = "Rikka? Don't worry~ I've got the kaiju in check.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拦下来了……什么展开？",
+			say = "In check... What does she mean by that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你现在在哪儿？到底什么情况。",
+			say = "Huh? What do you mean? I don't get you at all.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -122,7 +122,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "我们正在阻拦怪兽的进军哦。没想到这里能见到这么厉害的东西。",
+			say = "The kaiju was headed towards the school, so I stopped it in its tracks~ But wow, I never thought I'd be able to see such an amazing kaiju, hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们知道么，{namecode:439}舰装上的龙超厉害哦？！",
+			say = "Did you know? Roon's rigging is super awesome!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "{namecode:439}、舰装……？",
+			say = "Roon? Rigging...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "快听，主炮发射准备完毕，马上就要开火了！",
+			say = "Are you listening~? Her main battery's ready to fire, she's about to blow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，什么————",
+			say = "Um, as I was saying, what exactly a...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "BOOOOOOM!!!",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -275,7 +275,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好吵！",
+			say = "Wha?! What was that sound?!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "听到了么，这就是近距离开火的声音！",
+			say = "So, did you hear it~? Front row seats to a concerto of cannonfire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "不会吧……怪兽真的停止移动了，刚刚的炮击是真的？！",
+			say = "She's right! The kaiju's stopped moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 900318,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "碍事的敌人，在此毁灭吧！",
+			say = "Ahahahaha! Anyone who gets in my way... will be torn apart!!",
 			effects = {
 				{
 					active = true,
@@ -375,7 +375,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是……{namecode:439}的声音？真的是{namecode:439}做的么。",
+			say = "Is that... Roon? Did she really manage to stop that thing?",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -399,7 +399,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！{namecode:439}身上突然出现了像怪兽一样名叫“舰装”的装甲，不止破坏力超强，而且还会动哦！",
+			say = "Yup. She made some kaiju-esque \"rigging\" or something appear, and it packs an insane punch! It also seems to be automated!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -429,7 +429,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "性格也突然变得很有趣了~",
+			say = "People change when they're thrust into battle. It's sooooo fascinating!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "总之不用担心，我们这边很快就能解决问题了。",
+			say = "Anyway, like I said, there's no need for you to worry about me~ I'll wrap things up over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们就在安全的位置待着就好哦~",
+			say = "Just head to some place safe and wait for me there, okay?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -485,7 +485,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "那么拜拜~我准备挂电话啦，{namecode:439}{namecode:439}！刚刚那个能再来一次么——",
+			say = "Kay, well, I'm hanging up now. Hey, Roon! Can you do that one more time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800010,
 			nameColor = "#a9f548",
-			say = "挂了。听起来应该没问题吧，大概……",
+			say = "She hung up... I have no idea what's going on, but she seems to be doing... just fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>六　西南风的真实目的</size>",
+					"A Gust of Motivation!\n\n<size=45>6 Libeccio's Plan</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "此后某日的指挥室",
+			say = "Office - A few days later",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这边的文件都整理好了，你只需要确认后签字就好了。",
+			say = "Commander, I've finished sorting out all your documents. Just sign here after you've looked over everything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "废弃文件也用碎纸机处理完毕了！",
+			say = "The documents that can be shredded are in this stack over here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本以为西南风想要做秘书舰是闹着玩的，不过现在她已经用实际行动证明了自己。",
+			say = "I originally was afraid Libeccio only wanted the secretary position because she thought it'd be fun, but turns out, she has been taking her work very seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,14 +100,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "对于这样的西南风果然还是夸奖一下吧。",
+			say = "She deserved some recognition for being so dedicated to her job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "夸奖西南风",
+					content = "\"You've been a great help, Libeccio.\"",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嘿嘿嘿，一开始我也没想到能够这么顺利啦……",
+			say = "Ehehe... To be honest, at first, I didn't know if I would be able to do this job well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "其实来找指挥官的时候我还是有小心思的，还好指挥官当时没问我想要当秘书舰的理由~！",
+			say = "Plus, there are other reasons I wanted to be the secretary ship. Thankfully, you didn't even bother asking me why.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			},
 			options = {
 				{
-					content = "西南风为什么想要当秘书舰呢？",
+					content = "\"...Other reasons?\"",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "哼哼~因为秘书舰是和指挥官接触最多的人，所以西南风才想当秘书舰！",
+			say = "Heehee! You know what's special about being the secretary? They get to spend the most time with you, Commander~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官每天都要工作，虽然西北风姐姐有帮我列出指挥官有空的时间，但是指挥官即使不在工作时间也经常有各种各样要处理的事！",
+			say = "You're always so busy every day. Even though Maestrale's written out your schedule and told me when you have free time, sometimes you have other things to take care of even when you're not working!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "所以我就想着能够成为秘书舰的话就能每天正大光明和指挥官待在一块啦！",
+			say = "That's why I decided to be the secretary! That way, I'd get to spend every day with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "而且当秘书舰和港区的同伴多多接触的话还能帮西北风姐姐交到朋友！",
+			say = "And I get to meet so many new friends around the port. I can even help Maestrale make friends too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "简直就是一举两得的好事情呢！",
+			say = "Ehehe, two birds with one stone, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "不过也快要到换班的时候了，如果不做秘书舰的话就没有这么多和指挥官在一起的机会了……",
+			say = "But... my rotation as secretary is about to end, isn't it... After that, I won't get to see you as much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说着说着西南风的情绪低落了起来，头也低了下去。",
+			say = "Libeccio's voice falters a bit, and she lowers her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果不考虑秘书舰的工作内容的话，确实是这样没有错。",
+			say = "Setting aside the secretary ship's duties, all of those things were true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,14 +293,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但实际上秘书舰的工作并不算是很轻松，西南风能坚持下来真是了不起。",
+			say = "But being the secretary is a difficult job. And Libeccio persevered through her duties very admirably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸西南风的头——",
+					content = "Pat Libeccio's head.",
 					flag = 1
 				}
 			}
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官？",
+			say = "Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算不再担任秘书舰了，也可以抽时间一起玩。",
+			say = "\"Even if you're not the secretary anymore, I'll find time to play with you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "真的吗？",
+			say = "You'll make time for me? Really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也会和你一起帮西北风交朋友。",
+			say = "Of course. We can also keep helping Maestrale make more friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们拉钩？",
+			say = "That'd be great! It's a pinky promise then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,14 +389,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "西南风伸出了小指。",
+			say = "With a radiant smile on her face, Libeccio extends her pinky to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拉钩上吊一百年不许变。",
+					content = "\"It's a pinky promise.\"",
 					flag = 1
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "一百年不许变~",
+			say = "You'd better not break that promise then! Not in a hundred years!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "二人小指拉钩，大拇指印在了一起。",
+			say = "And soon, the last day of Libeccio's secretary duties arrives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

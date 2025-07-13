@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "白鹰萨摩亚群岛基地，一段时间后——",
+			say = "Eagle Union Samoa - Sometime later",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "呼叫圣诞岛基地——无回应。",
+			say = "Base at Kiritimati. No response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "呼叫AF——无回应。",
+			say = "Base at AF. No response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "呼叫PH港——无回应。",
+			say = "Port at PH. No response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "呼叫{namecode:524:圣地亚哥}司令部——无回应。",
+			say = "Base at SD. No response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "至此，帕克菲克洋中各舰队驻扎地均呼叫完毕，我们没能收到任何回应。",
+			say = "I've tried to contact each and every one of our bases across the Pacific now. None of them answered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来重樱的{namecode:292:四万十}小姐说的不错，没想到局面已经变得如此糟糕了……",
+			say = "Shimanto wasn't kidding, then... This situation is far, far more serious than I thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前，我方基地周边的异常情况尚未清除，基地所使用的设备又功率有限。",
+			say = "It IS possible that our communicators simply don't have the signal strength necessary since we haven't fully lifted the illusion yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "通讯无回应的现状，也可能是因遭受干扰所致。",
+			say = "For all we know, the bases may be unreachable due to plain jamming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "唔……有可能。",
+			say = "That's true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "等等，你说异常情况尚未清除？",
+			say = "But also, how can you tell that we've not eliminated the illusion fully yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "嗯。我的侦察机发现了一支所属不明的舰队正在向我们接近。",
+			say = "My recon planes spotted an approaching fleet. Affiliation unknown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,21 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其外观的可辨认部分中，与重樱舰队所使用的量产型约有35.75%的相似度。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102330,
-			say = "除此之外的部分则由黑色的雾气所覆盖，无法辨认。",
+			say = "Their external identifiers match with Sakuran mass-produced ships, but only by 35.75%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +222,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "这是侦察机所拍摄的照片。",
+			say = "They're shrouded in black mist, making further identification impossible.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102330,
+			say = "Here's a picture my planes took.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "被黑色气息覆盖的敌人……有点像司令部资料库中记录的噩兆实体。",
+			say = "They're covered in black mist alright... Looks a lot like those corrosion entities the Commander told us about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "不过记录中对于噩兆实体的描述是完全无法辨认其外观，这一批敌人却有不少可分辨部分……",
+			say = "Only thing is, that intel said they can't be identified at all, yet you said you recognize at least part of 'em.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仔细记录这批敌人的外观细节，等恢复联络后，将资料交回给{namecode:524:圣地亚哥}司令部分析。",
+			say = "Back this data up just to be safe. We'll send it to SD once we've got signal again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白。",
+			say = "I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "说起来……之前在那什么虚像幻境里的设定里，今天是要有一支重樱远洋旅游团来访问我们对吧？",
+			say = "Y'know... when we were \"dreaming,\" or whatever, didn't we say some Sakuran tourists were coming soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "算时间也差不多该到了。难道……指的就是那些？！",
+			say = "Looking at the clock, I think our \"tourists\" are the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很有可能呢……如果我们没能清醒过来，恐怕……现在萨摩亚群岛已经沦陷了。",
+			say = "You might be right... If we hadn't snapped out of it, that might have been the end for our base here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是现在我们清醒了过来，敌人的阴谋诡计已经失败了。",
+			say = "But we DID snap out of it. The enemy's lost the element of surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "接下来就是纯粹的力量对碰环节。我们主动出击，消灭它们！",
+			say = "Let's give 'em a head-on battle! Don't stop shooting until they're all fish food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

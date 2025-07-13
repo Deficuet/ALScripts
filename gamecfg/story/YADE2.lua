@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>二　偷懒计划开始！</size>",
+					"Slacking Off with the \"Good\" Girl\n\n<size=45>2.Time to Get Lazy!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "次日，迎来了{namecode:491}所说的第一次“偷懒计划”。",
+			say = "The next day, Jade carried out her plan to make me slack off.",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让你久等了～",
+			say = "Thanks for waiting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "映入眼帘的是进入房间的{namecode:491}，以及……一大袋零食？",
+			say = "When Jade called out to me, I turned around to find her bringing a big collection of snacks over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "第一次的“偷懒计划”就从最简单的主题开始——",
+			say = "Our first round of slacking is quite simple, as you can see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "“罪恶感MAX，想吃多少就吃多少的零食会”！",
+			say = "I call it... The Max Guilt Snacks Party!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是说要一口气全部吃完哦？",
+			say = "Indeed, I have brought you all of your favorite snacks, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要是只拿一两种零食，又正好是指挥官不喜欢的，{namecode:491}不就成坏孩子了嘛。",
+			say = "Oh, but if you ate so much that it made you too full to work, that would make me a bad girl for ruining your productivity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官先从这些里面选一个吧？",
+			say = "As such, you'll have to choose just one to start with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,15 +169,15 @@ return {
 			},
 			options = {
 				{
-					content = "脆脆角小饼干",
+					content = "\"I'll take the chips that look like cones.\"",
 					flag = 1
 				},
 				{
-					content = "黑巧克力",
+					content = "\"I'd like dark chocolate.\"",
 					flag = 2
 				},
 				{
-					content = "小鲨鱼软糖",
+					content = "\"Gummy sharks, please.\"",
 					flag = 3
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官喜欢这个么？这个是上次{namecode:432}给我推荐的。",
+			say = "Oh, do you like these, Commander? Spee recommended I try them a while back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我觉得{namecode:432}喜欢它的原因，大概不在于味道，而是因为可以戴起来玩吧？",
+			say = "I don't think she likes them because of the taste, though. It's more likely because they're fun to put on your fingers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像这个样子——“嗷呜”",
+			say = "Like this... Rawr!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "{namecode:491}将左手五指套上饼干，做了个“张牙舞爪”的动作。",
+			say = "Jade put the chips on her fingers and showed them off like an animal stretching its claws out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:443}曾经和我说，黑巧克力是成熟的象征与大人的选择。",
+			say = "Z24 told me that dark chocolate is like a symbol of maturity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼~然后当她直接整块丢进嘴巴后，那一脸“好苦！”的表情可是很有趣哦。",
+			say = "And then, she threw the whole piece into her mouth and went, \"Eww...\" It was just hilarious!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "当然，这点苦味对指挥官来说，肯定不算什么就是了。",
+			say = "But of course, I'm sure this is nothing to you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小鲨鱼软糖——这个指挥官一看就知道是谁喜欢的吧？",
+			say = "Ahaha! You know exactly who loves these, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，就是{namecode:420}哦。这个是上次和她一起破译了别人出的小难题后得到的赠礼。",
+			say = "That's right: U-110! The two of us cracked a cipher together, and we were given these as a reward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "软糖看起来和成熟的指挥官不是很搭呢，难道这就是所谓的“反差感”？",
+			say = "These cute gummy sharks might not suit someone as mature as you... Is this what they call \"gap\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "可能会有点甜，先试试吧～",
+			say = "Hahaha, I think they'll be a little too sweet for you, but give them a try!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那就先尝一块试试——",
+			say = "I tried eating the one I picked out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "啊，等一下。",
+			say = "Oh, hold on a sec.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "{namecode:491}说过，“指挥官什么都不用准备，只要等{namecode:491}安排就好~”对吧？自然“吃”也包括在内。",
+			say = "Didn't I tell you to leave it aaall to me? That includes this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，张开嘴？",
+			say = "Open up, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "张开嘴……？难道说……",
+			say = "I was taken aback by the sudden turn of events.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "乖乖张嘴就好————",
+			say = "Go on. Open up like a good Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那就——",
+			say = "(I'll have to just obey orders for now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "嗯……味道还不错……",
+			say = "(Mm. That's not bad.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "“味道还不错”——对吧？那就再来一块？",
+			say = "That look on your face says you like it. Would you like another?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "啊——",
+			say = "Say \"ahh.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼呼……有种投喂小动物的感觉呢～",
+			say = "Heehee, it feels like I'm feeding a little animal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，指挥官口渴了吗？{namecode:491}还准备了罐装的果汁和汽水，指挥官想要哪一个？",
+			say = "By the way, are you thirsty? I brought canned fruit juice and soda with me. Which would you like?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,11 +600,11 @@ return {
 			},
 			options = {
 				{
-					content = "果汁",
+					content = "\"Fruit juice.\"",
 					flag = 1
 				},
 				{
-					content = "汽水",
+					content = "\"Soda.\"",
 					flag = 2
 				}
 			},
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "OK～那{namecode:491}就喝另一个～",
+			say = "Okay. Then I'll take the other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺便也帮{namecode:491}开一下易拉罐吧？",
+			say = "By the way, can you open the cans for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“咔咔”两声，两罐饮料应声打开。",
+			say = "\"No problem.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "谢啦，指挥官真好～",
+			say = "Thank you. You're such a good Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼——光是吃零食，喝饮料还是有些不够呢……",
+			say = "Aaah... Doesn't it feel like junk food and drinks aren't quite enough?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要不再聊点有趣的事吧？比如指挥室是不是真的和传闻的那样藏着点东西之类的？",
+			say = "Do you have any fun stories? For example, hidden treasure in your office, or anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哈哈，只是打个比方而已。{namecode:491}是好孩子，不会追问指挥官的隐私的。",
+			say = "Haha, that's just an example. I'm a good girl, so I won't invade your privacy. That's a promise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在找到想说的话题之前，先让零食把嘴巴占满～",
+			say = "Hmm... Okay. Until we think of any fun topics of conversation, let's continue what we were doing before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，来，张嘴——",
+			say = "Open up, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "偷懒的时间还有很多，慢慢享受吧～",
+			say = "We've only just begun, so let's take it slow, okay?♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

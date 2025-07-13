@@ -5,7 +5,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，可选择一起前往沙滩的角色",
+				text = "Tap here to move the character to the beach area.",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -22,7 +22,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "目前尚未解锁该角色的邀约，请点击角色",
+				text = "Looks like you haven't unlocked the ability to position characters yet. Start by tapping on this icon.",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -45,7 +45,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，即可解锁该角色的邀约",
+				text = "Tap this icon and you'll get the ability to move characters to the beach!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -62,7 +62,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击天狼星，与她共同前往沙滩吧！",
+				text = "Tap Sirius to visit the beach with her!",
 				mode = 4,
 				dir = 1,
 				char = "char",

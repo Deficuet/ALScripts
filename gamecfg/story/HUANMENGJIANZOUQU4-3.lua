@@ -12,7 +12,7 @@ return {
 			actor = 202200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……看来这场战斗是诸位的胜利。",
+			say = "Congratulations. We admit defeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "真是一场精彩的战斗，诸位的表现也可圈可点。",
+			say = "You fought admirably. It's no wonder they speak so highly of you Royal Maids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "我们彼此的优势与劣势已经在刚才战斗中充分暴露，期待一会与你们的第二场战斗。",
+			say = "We've gained a better understanding of our strengths and weaknesses thanks to you. I look forward to fighting you again with our roles reversed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202040,
-			say = "嗯……我们会做好准备的，等待我们的再次挑战吧。",
+			say = "Likewise. It will be an honour to face you again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "皇家舰队重整队形后，离开了这片水域。",
+			say = "The Royal Navy fleet regrouped, then withdrew from the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "呼……大家辛苦了。",
+			say = "Whew... Great work, girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "接下来我们修整一下，然后前往铁血舰队所在海域，迎接下一场战斗。",
+			say = "Catch your breaths, then we'll go and meet Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

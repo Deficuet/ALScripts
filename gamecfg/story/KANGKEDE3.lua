@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"康克德与甜食\n\n<size=45>三　演唱会</size>",
+					"Sugary Concord\n\n<size=45>Chapter 3: Concert</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "时间过得很快——",
+			say = "Time passed very quickly-",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，今天晚上没其他事的话，陪我一起去露天的演出会场吧~",
+			say = "Commander, if you don't have any other plans tonight, why don't you come with me to the open-air concert~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			withoutActorName = true,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "在忙完工作后，康克德出现在面前。她的手上拿着两张演出会的门票。",
+			say = "After finishing work, Concord appeared in front of me with two concert tickets in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，是列克星敦小姐的演唱会~",
+			say = "Hehe, it's a performance by Lady Lexington~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很不寻常吧？她很少开演唱会的。我可是她的超级粉丝~",
+			say = "Unusual, right? She rarely performs live. I'm a huge fan, you know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			withoutActorName = true,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "闪烁着星星眼的康克德，看上去很期待的样子。",
+			say = "Concord, starry-eyed with excitement, was clearly looking forward to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "匆匆地赶往演唱会现场——",
+			say = "We rushed to the concert venue in a hurry-",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点，指挥官，演出要开始了~我们的位置很好，在舞台的正中央！",
+			say = "Hurry up, Commander! The show's about to start~ We have the best seats in the house, right in front of the stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以好好把列克星敦小姐看个够~",
+			say = "We'll be able to feast our eyes on Lady Lexington!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说起来，列克星敦小姐啊，是个温柔的人哦~",
+			say = "By the way, Lady Lexington is a very kind person~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上次我和她握手的时候，还给她送了一盒小蛋糕，她也非常高兴……",
+			say = "At the last meet-and-greet, I not only got to shake her hand, but also even received a cake from her! She was very happy as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "一说到列克星敦，康克德就喋喋不休。",
+			say = "It seemed like Concord would never run out of things to say about Lexington.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "列克星敦小姐出场了！指挥官！",
+			say = "Lady Lexington is here! Commander!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -295,7 +295,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "HI~HI~HI~☆ 持续~应援中~",
+			say = "Lady Lex~☆! I love you!!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻……",
+			say = "Hehe...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -382,7 +382,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "演出渐入佳境，虽然身旁人潮涌动，康克德却渐渐沉寂了下来，目不转睛地盯住舞台上那个人影。",
+			say = "The performance soon reached its climax. Though the surrounding people were all swept away by the energy of the performance, Concord conversely seemed to fall into a solemn silence, her eyes fixed upon the figure on the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,11 +393,11 @@ return {
 			},
 			options = {
 				{
-					content = "也许这就是憧憬吧",
+					content = "Perhaps this is what longing looks like",
 					flag = 1
 				},
 				{
-					content = "抚摸她的头",
+					content = "Pat her head",
 					flag = 2
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，我今后也能像她这么与众不同吗？（小声）",
+			say = "Commander... will I be able to stand out like her one day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			withoutActorName = true,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "现在的康克德其实已经足够与众不同了……",
+			say = "Even though Concord already sticks out from the crowd like a sore thumb...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			},
 			options = {
 				{
-					content = "给予肯定",
+					content = "Agree with her",
 					flag = 1
 				}
 			}
@@ -450,7 +450,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……嘻嘻，想不到你挺会说话嘛~",
+			say = "Commander... Hehe... unexpectedly, you're quite the smooth talker~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "似乎看到了康克德和平常不太相同的一面",
+			say = "It seems that I've been able to discover a side of Concord that she normally doesn't show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

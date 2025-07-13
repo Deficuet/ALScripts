@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过……就剩我们两个…真的还要追下去吗，阿贾克斯？",
+			say = "But... it's just the two of us now... you saw what she did to Exeter... and two of your turrets don't function... are we really going after her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "当然了，姐姐。不要忘了，我们背后可是有着无数伙伴的",
+			say = "Of course we are. Please remember that our allies are right behind us.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪怕战术上牺牲我们整个G舰队，只要能够确实地让{namecode:431}重伤，甚至不需要让她沉没，只要她不得不返航修理，那她就一定会在我们皇家的封锁线上被捕获",
+			say = "Even if we're not able to sink her, if we can severely damage and corner her then our blockade will prevent her from returning to drydock for repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样战略上就是皇家的胜利。我们已经花费了太多时间在{namecode:431}身上了，能够就靠我们解决她的话，自然不需要劳烦其他姐妹们。",
+			say = "If we can achieve that, we win. And if we can bring her down on our own, we won't even need to ask the others for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你…从一开始就打着这样的主意吗…那你放过{namecode:400}也是因为她无法突破封锁线？",
+			say = "So... this was your plan all along, wasn't it? You even let Z1 go because you counted on our blockade up ahead to stop both her and Graf Spee, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，如果封锁线那么可靠，我们就不用这么辛苦了吧……",
+			say = "It wasn't. If a blockade was all that was needed to contain Graf Spee... then we need not have gotten involved in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过小鱼而已，放过又如何呢？那个程度的伤足够她在船坞里躺一阵子了",
+			say = "Besides, now we're rid of that oversized paperweight that was slowing us down. And if she's in so much pain, she won't be able to leave the docks for some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，我们的目标是{namecode:431}哦？",
+			say = "After all, our objective is to take down Graf Spee. No more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以是真的放她一马啊……啊哈哈，你要是把这些说给埃克塞特听，她就不会那么讨厌你了吧？",
+			say = "So that's why you had Exeter leave... But won't she totally hate you if you tell her that? She nearly sunk today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样多没意思，埃克塞特前辈那样的人就是要玩弄起来才有趣哦~",
+			say = "I don't care. People like her are just fun to mess around with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是~那么我这个姐姐就奉陪一下可爱妹妹难得展现的为同伴着想的心好了~",
+			say = "Right-o, then since you're my friend, I'll just go along with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过嘛，如果真的是送死的事，我就编个理由让姐姐你也回去了，但是现在从{namecode:431}逃跑的方向还有性格来看，说不定我们能非常轻松地解决她呢……",
+			say = "You know, if I had to sacrifice someone either way, I could've given a good reason for you to retreat as well. Anyway, judging from Graf Spee's escape route, we might be able to easily beat her on our own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，是这样啊？",
+			say = "Huh? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，当然，接下来我们要做一些引导，还要让军部做一些准备，不让她有机会改变现在的目的地才行。",
+			say = "That depends on if we can trick her into doing what we want, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯。",
+			say = "Yeah, true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有……谢谢你，姐姐，看到你一如既往真是太好了。",
+			say = "And lastly... A-Achilles, thank you for... b-being you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这孩子……说完话就一个人冲出去了，是要多害羞啊~啊哈哈，看到你一如既往我也很开心哦，我的妹妹，阿贾克斯。",
+			say = "Ajax? ...Aw, look at you, being all timid~ You never change, silly girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

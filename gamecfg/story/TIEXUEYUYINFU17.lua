@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "bsm-3",
 			dir = -1,
-			say = "终于进入可以面对面的距离了",
+			say = "I've finally managed to get in range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			actor = 205050,
 			dir = -1,
-			say = "当时你就是用这个武器把胡德击败的，在这个距离上",
+			say = "So this is how you managed to defeat Hood from such a long range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我没说错吧，{namecode:435}",
+			say = "Isn't that right, Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 1,
 			actor = 405010,
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就在这个距离上击败你，击败你这个失去荣耀的狂信徒！",
+			say = "Draw your sword. We'll settle it mano a mano, you honourless madwoman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			actor = 405010,
 			dir = 1,
-			say = "荣耀…么",
+			say = "Honor... huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			actor = 405010,
 			dir = 1,
-			say = "我……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 205050,
 			dir = -1,
-			say = "皇家舰队，逢敌必战，开火！",
+			say = "Royal fleet, cover me! Don't let anything get in my way!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			say = "轰————",
+			say = "Booomm————",
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
 			flashN = {

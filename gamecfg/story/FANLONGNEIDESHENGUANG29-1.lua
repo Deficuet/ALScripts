@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "于是，永暗在顷刻间消散了。",
+			say = "Thus, the red and black fog that embodied the Eternal Night vanished in an instant.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "世界在这一刻变得明亮、广阔、平和。",
+			say = "The world lit up with the light of faith, and a sacred silence filled the air from horizon to horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "纯白之中，齐颂之音在回响。",
+			say = "In the midst of the pure white, the chorus resounded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「吾乃圣座，马可波罗」",
+			say = "\"I am Marco Polo, the Apostle.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÎáÄËĘĽ×ůÂíżÉ˛¨ÂŢ",
+			say = "P HT THYJV WVSV, AOL HWVZASL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,11 +85,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「神之军团，听吾号令」",
+			say = "\"O Army of God, heed my command.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,11 +97,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÎáÄËĘĽ×ůÂíżÉ˛¨ÂŢÉńÖŽžüÍĹĚýÎáşĹÁî",
+			say = "P HT THYJV WVSV, AOL HWVZASL, V HYTF VM NVK, OLLK TF JVTTHUK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「厉兵秣马，征贼讨逆」",
+			say = "\"Smite this evil with your blade.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,11 +124,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÎáÄËĘĽ×ůÂíżÉ˛¨ÂŢÉńÖŽžüÍĹĚýÎáşĹÁîŔ÷ąřď÷ÂíŐ÷ÔôĚÖÄć",
+			say = "P HT THYJV WVSV, AOL HWVZASL, V HYTF VM NVK, OLLK TF JVTTHUK, ZTPAL AOPZ LCPS DPAO FVBY ISHKL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

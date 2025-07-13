@@ -7,13 +7,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			actorName = "罗德尼",
+			actorName = "Rodney",
 			dir = 1,
 			bgm = "story-thehierophantv",
 			actor = 9705050,
 			nameColor = "#BDBDBD",
 			shakeTime = 5,
-			say = "呼——————",
+			say = "AAAAAAAHHHH––!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 900430,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "助手！外面危险，你千万不要离开我的身边哦！",
+			say = "Assistant, it's dangerous out there! Stay by me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……嗯。",
+			say = "Got it. But at this rate...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "此刻，雕像周边已经成为了战火的中心。",
+			say = "The META shipgirls and Rodney have already begun trading blows in the Martyrium sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "伊丽莎白，余烬，甚至一直隐藏在幕后的海伦娜都来到了台前，结成同盟对抗着共同的强敌。",
+			say = "Individual METAs have banded together to fight as one unit with awesome power, but they still fail to overcome Rodney's strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "这场战斗，超越了我以往的经验与认知……宛如风暴与山岳的对撞。",
+			say = "As I'm overwhelmed by my powerlessness and just how outmatched we are, suddenly, it hits me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "而我就像一叶孤舟，在D小姐的保护下勉力支撑着。",
+			say = "What about that power I'd experienced before? The ability to see the battlefield in its entirety, to touch the senses of the shipgirls from afar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "仅仅是将战场记录下来，就已经用尽了全力。",
+			say = "If I used that, I could do more than just tell them where I was – I could help the METAs in their fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "更不用提做出指挥，对战场造成一丝一毫的影响了。",
+			say = "I might've lost the foundation that Rodney had made, but if the cocoon fragments that made this memory are still inside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "而就是在这样的局面中，又有一只舰队主动投入了风暴。",
+			say = "If I could just harness their power, even a fragment of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 805030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "指挥官——阿尔萨斯带队前来支援！",
+			say = "C-Commander! The Iris bodyguard fleet has assembled!",
 			bgm = "story-finalbattle-unity",
 			painting = {
 				alpha = 0.3,
@@ -217,7 +217,7 @@ return {
 			actor = 901050,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "呼……还好赶上了！",
+			say = "Phew... We made it in time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "这边的局势还真是……焦灼呢。",
+			say = "Here I was getting all hot and bothered knowing you were watching us, but things have really taken a serious turn...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯……？",
+			say = "(Alsace and the others! Nice, it worked...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "你们之前去哪儿了？为什么会突然出现在这里？",
+			say = "Where have you been? Are you all okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 803020,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……我们之前在鲸鱼上与死神之影战斗。",
+			say = "We climbed the whale and did battle with Death's Shadow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 803020,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "在从那片海域得到的力量消失前，我们成功消灭了它。",
+			say = "Your guidance bestowed us with the strength necessary to fell the fiend.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			say = "但是因为战斗中鲸鱼的游动，我们也被带回了第一环。",
+			say = "We were meant to gather here in the third ring afterward, but the whale fled to the first ring during the fight. We were taken along with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 803020,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "所以才没能第一时间赶过来保护您……非常抱歉。",
+			say = "That's why we couldn't run to your aid... On behalf of all of us, I apologize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "你们是从第一环重新过来的……？",
+			say = "Does that mean you came here from the first ring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "这次没有D小姐带你们走捷径了，也就是说……",
+			say = "Miss D was with me the whole time. Don't tell me you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 803020,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我们必须遵循空间的规则。",
+			say = "We acted in accordance with the rules of this Mirror Sea. Do not worry for us, Swordbearer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 901050,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "欸嘿嘿……其实也没想象中那么恐怖啦。",
+			say = "It's the Martyrium, after all! Sacrificing ourselves for the Iris as an offering fits the concept like a glove!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……你们应该先联系我一下的。现在战局危险，你们不该过来。",
+			say = "I'm sorry, everyone. If only we could use our communicators...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 901060,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "可是通讯……联络不上……",
+			say = "I-it's okay. We were on our way to you anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			actor = 805030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯，阿尔萨斯无法与指挥官的通讯器取得联络。推测为设备故障！",
+			say = "That's right. I kept tabs on our line of communication, so when things started going haywire, I knew I had to come running.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……好像是这样，在进入辉光之城中心的时候，通讯器就被敌人破坏了。",
+			say = "You mean as soon as Devil cut off our communications, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 805030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "所以要得到指挥官命令的话，就必须找指挥官当面确认！",
+			say = "Yes! Pinpointing your location was a difficult task, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我懂，你是在担心我们的安危吧。",
+			say = "Heheheh♥ We only got to meet up this fast because you were sooo very worried about us, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			say = "实话实说，此刻发生在天空中的战斗确实不是我们能插手的。",
+			say = "It's just a shame that our little power boost already went away. Even if we joined the battle, I don't think there's much we could do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "仅仅是看着，就能感受到一股深深的无力感……",
+			say = "But that doesn't mean we're sitting out this battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "但这并不表示，我们什么都做不到。",
+			say = "That Rodney definitely has the Arbiter and the corrosion helping her out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 901070,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "纵使我们打不过罗德尼，但是我们可以警戒{namecode:522:旗风·META}的乘虚而入，收拾那些侵蚀性络合物构成的敌人也没问题。",
+			say = "So I say we even the odds by helping them fight off that Hatakaze and the Arbiter. We can even support them by strengthening the Martyrium's concept by killing off the corrosion entities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			say = "没有抛弃舰队的指挥官，也不会有抛弃指挥官的舰队！",
+			say = "Yeah! We have Commander on our side, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……你们说的没错，现在战局的焦点虽然在罗德尼身上，但……罗德尼并不是这场战斗的全部。",
+			say = "Good call, Mogador. Rodney's strong, but she isn't the only threat in this fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "{namecode:522:旗风·META}还在谋划些什么，迪贝路至今也没有现身……",
+			say = "Hatakaze, Devil – either one intervening in the fight could be disastrous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……多谢，我明白接下来能做的事了。",
+			say = "Let's contribute to the battle in what ways we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "所有人听令，接下来，该开始我们的战斗了！",
+			say = "Formations, everyone! This is our fight now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

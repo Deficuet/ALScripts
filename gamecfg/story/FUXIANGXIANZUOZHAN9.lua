@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashN = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "英王乔治五世？",
+			actorName = "King George V?",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认“皇家舰队”旗舰乔治五世沉没，战斗结束。",
+			say = "Pawn has been neutralized. Training objective complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗完美胜利~哼哼，皇家舰队也不过如此呢~~！",
+			say = "Pish, these Pawns aren't such hot stuff after all! Easy peasy lemon squeezy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有自信心是好事，{namecode:454}。下次训练的时候，给“皇家舰队”再增加三艘光辉级和三艘伊丽莎白女王级好了。",
+			say = "Noted. Next time, I'll send you in alone against three Queen Elizabeths and Illustriouses, how does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果一次性出现这么多的话，苦战……",
+			say = "Overconfidence has led many a soldier into an early grave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我错了！请当刚才的对话从来没有发生过！",
+			say = "Sorry, I take that back! Pretend I never said anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉…………",
+			say = "Thought as much, you cheeky little rabbit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:471}，再前方的重樱舰队怎么办？按照预定计划继续战斗么。",
+			say = "Are we fighting the Sakura Empire fleet next? We've still got a few objectives to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，计划变更。重樱舰队和其他训练内容改到下午，大家直接去休息去准备午饭吧。",
+			say = "No, those will have to wait until the evening. We may be short on time, but we'll work more efficiently after a break than if we recklessly push on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？好耶~！！！！！那我就先走一步~",
+			say = "Sweet! If you need me, I'll be in the cafeteria.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解，我也先返回E2浮岛了。",
+			say = "I, too, shall make way back to the Fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你还在担心通讯系统故障的事么？",
+			say = "...They've left now. Is that communications glitch still bothering you, Peter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，虽然只是一瞬间的事，但是这可是使用了塞壬科技的通讯设备，不管是异常气候还是碧蓝航线都不可能对其产生干扰才对。",
+			say = "Yes... This equipment is built on Siren technology. Interference like what we got shouldn't be possible. Unless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你是在暗示，是塞壬动的手脚？",
+			say = "Unless...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是有点担心而已……我再去检查一下防御设施，你也返回E2浮岛休息区吧，我稍后就到。",
+			say = "Unless somebody tried to contact us. They may have been Sirens, or it may have been Azur Lane... But Azur Lane's tech isn't up to the task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:471}，知道了这种情报之后可没办法安心休息了哦。我也会尽可能的检查一下基地系统，保持联络。",
+			say = "You won't ever catch a moment's rest if you worry all the time. I'll pursue some potential leads, you go get yourself something to eat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "多谢，保持联络。",
+			say = "Thanks, Weser. I'll repay you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

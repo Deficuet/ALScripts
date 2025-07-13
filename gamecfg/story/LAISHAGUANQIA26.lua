@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-az-pv",
 			flashout = {
 				black = true,
@@ -42,8 +42,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "哼哼哼♪~哼哼哼♪~哼哼哼哼♪~~",
+			actorName = "Purity",
+			say = "Hum-dee-dum~♫ Dum-du-duuum~♫ Mm-hmmm~♫",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,8 +59,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "既然是核心区，机关是少不了的咯，还要准备一个超级强的守护者才行！",
+			actorName = "Purity",
+			say = "A good final area needs traps, crazy gimmicks, and of course, a super-strong guardian!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "最后还是彻底变成了一座危险的遗迹啊……",
+			say = "For all the noise you made about making this place safe, these ruins are anything but.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,8 +95,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "没有危险，不就体会不到克服危险、战胜困难的喜悦了么~",
+			actorName = "Purity",
+			say = "You hafta raise the difficulty at some point, or else winning won't feel good at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,8 +123,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "放心放心，我都想好了。就像给你制作舰装一样，我也会给后面来的人留一套舰装。",
+			actorName = "Purity",
+			say = "It's fiiiine, just trust me. I'll leave riggings behind for them, just like the kind I made for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,8 +140,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "这样她们就能用新的力量享受在遗迹中战斗与探索的快乐了。",
+			actorName = "Purity",
+			say = "They can use their new power to the fullest and enjoy an action-packed ruin-scavenging adventure to their hearts' content!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,8 +158,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "方式的话，就用我刚刚从数据库里“学到”的炼金术好了！",
+			actorName = "Purity",
+			say = "As for how to get the stuff into their hands... Oh, I know! I'll just reference the so-called \"Alchemy\" thingy I saw in the database!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,8 +176,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "我提前把舰装分解成若干素材，然后把图纸当做炼金配方留在遗迹里，你觉得怎么样~？",
+			actorName = "Purity",
+			say = "How 'bout we split the riggings into several parts, turn the blueprint into an alchemy recipe, and hide everything throughout the ruins?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "唔，不过这种“舰装”，妾身觉得是不是和炼金术能做出来的器具差得太远了？",
+			say = "Hrmmm... But these riggings don't seem like something that can be made through alchemy, do they?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,8 +211,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "在炼金术中没有做不到的事！",
+			actorName = "Purity",
+			say = "I thought you believed that nothing is impossible with alchemy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "嗯？汝已经了解什么是炼金术了吗？",
+			say = "Hm? Are you that well-versed in alchemy already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,8 +247,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "哼哼哼~当然，要想做出舰装这种与心智魔方有关的造物还是需要一点特别设备辅助的。",
+			actorName = "Purity",
+			say = "Heehee! Creating a rigging takes more than a Wisdom Cube – you need special supplementary items, too, so they're quite similar in a sense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,8 +264,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "只不过我会把这个设备伪装成大锅的样子，让谁都察觉不出来，嘿嘿嘿嘿……",
+			actorName = "Purity",
+			say = "I'll just make it look like a cauldron so nobody can tell the difference... Mweheheh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,8 +282,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "等我准备完成之后，一共五人份的舰装炼金配方和素材就拜托你帮我藏在遗迹各处了哦。",
+			actorName = "Purity",
+			say = "Once I'm done, I'll need you to divide the recipe and materials for five people's worth of riggings, then find places to hide them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,8 +299,8 @@ return {
 			bgName = "bg_ryza_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "——就当做总会存在于每一场冒险中的宝物好了。",
+			actorName = "Purity",
+			say = "After all... What's an adventure without treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1

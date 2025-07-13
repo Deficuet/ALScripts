@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "审判庭的密室中，从幻境中醒来的领导者们正进行着一场会议——",
+			say = "In a Tribunal hideout, shipgirls who had awoken from the dream were having a meeting.",
 			bgm = "theme-bismark-reborn",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白和维内托目前进展顺利，目前欧罗巴的幻境，除了北方联合境内的之外都已经破除完毕了。",
+			say = "Elizabeth and Veneto are steadily dispelling illusions across Europa. All that remains is the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉……黑日毕竟是兵器，听说北方联合的领导机构已经向着远东方向转移了。",
+			say = "Ah, them... I've heard that Soyuz transferred the chain of command over to the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在与其恢复联系之前，我们确实不便贸然出手……现在只能暂且等待了。",
+			say = "This move seems calculated. I think we should refrain from employing our conceptual weapon on their shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从现有情报来看，我们之前的判断完全正确。",
+			say = "Next topic, then. I've received intel that some circumstances behind the illusions have come to light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "幻境的出现确实与重樱的神石样本脱不开关系。",
+			say = "There is no dancing around it – fragments of the Watatsumi played a role in this incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……所以，汝等都认为这是一场由重樱发动的攻击行为？",
+			say = "It must be stated that the Sakura Empire had no plans for any incident such as this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不。不是重樱，是{namecode:91:赤城}。",
+			say = "Nobody is suspecting your country. It's Akagi who's suspected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:91:赤城}？",
+			say = "Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "诸位都经历了幻境，所以应该也都见到了那个人的幻影才对。",
+			say = "Let me fill you in. Many people have reported seeing someone who goes by the name of \"Amagi\" in their dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那个自称{namecode:161:天城}之人？",
+			say = "Amagi. The lead ship of her class and sister to Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不错。{namecode:441:腓特烈}曾经和我聊过{namecode:91:赤城}的情况，过去的{namecode:91:赤城}，并不是如今这位我们熟悉的强硬又固执的领导者。",
+			say = "Correct. Friedrich and I looked into her once. For what's relevant to this conversation, Amagi died.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "她的转变，要从她的姐姐——{namecode:161:天城}的逝世开始。",
+			say = "When she passed on, this affected Akagi in a substantial way. She was a battlecruiser and was reborn as an aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……{namecode:91:赤城}的，姐姐？",
+			say = "Wait, Amagi... died?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:161:天城}级战列巡洋舰首舰——{namecode:161:天城}，{namecode:91:赤城}的姐姐，曾经重樱联合舰队总旗舰最有力的继承者。",
+			say = "Yes. She was to be a major contender for the flagship position of their Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "可就是这样一颗冉冉升起的新星，却因为先天性的心智魔方缺陷，身体日渐衰弱，直至迎来了不可逆转的死亡。",
+			say = "Sadly, she was born with a hull defect that weakened her body. It only got worse, until it one day claimed her life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "这是目前我们已知的，唯一一例因为先天性心智魔方缺陷导致死亡的案例。",
+			say = "She is, to date, the only case of a shipgirl dying to a hull defect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "在姐姐去世后，{namecode:91:赤城}陷入了一段时间的消沉。",
+			say = "Akagi took the loss of her sister so harshly that she was unconsolable for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "之后，她的性格大变。先是设法整合了姐姐留下来的政治势力，然后以铁腕手段成为了重樱的实际掌舵人。",
+			say = "Once she got better, she was a changed person. She built influence on par with her sister and became a substantial leader of the Sakura Empire, along with Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱与塞壬的合作紧密化，也是从这个时期开始的。",
+			say = "Not long after, the Sakura Empire allied itself with the Sirens, and the rest you already know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "{namecode:161:天城}的存在……就算在重樱之中记得的人也不多了。",
+			say = "Amagi... Many Sakurans grieved over her death...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身还是有一次无意中听到{namecode:82:三笠}提起，多问了几句才知道的。",
+			say = "Still, the memory of her faded as time went on... Now, scarcely few can claim to vividly remember her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "也就是说，{namecode:161:天城}的情报就算在重樱内部也进行了严密的封锁？",
+			say = "That's not everything, though, is it? Wasn't talking about her considered taboo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错，很多小辈甚至根本从来就没听说过这么一个人，没想到汝会知道的如此清楚。",
+			say = "That it was... It only made her seem more forgotten... This one must ask – how do you know all this, Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "这些情报也得感谢{namecode:441:腓特烈}就是了。",
+			say = "Friedrich, as I said. She told me a lot about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……“心智魔方的先天性故障”？这恐怕是塞壬为了推进“实验”所做的手脚吧。",
+			say = "Is there reason to believe that her hull defect was implanted by the Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错。所以，{namecode:91:赤城}从来不可能真正同塞壬走到一起。",
+			say = "It's not out of the question. That's why Akagi never fully trusted them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她只是一直在利用塞壬，暗中准备自己的计划罢了。",
+			say = "Perhaps allying herself with the Sirens was only a means to an end for her. Perhaps she wanted to exploit them, as we did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……不知道{namecode:161:天城}存在过，自然更不会知道她早已身死。",
+			say = "To summarize – not many know about Amagi, the real one, or that she passed on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而在幻境之中，我们都亲眼所见——{namecode:161:天城}分明是好端端活着的。",
+			say = "Therefore, when she appears before people in an illusion, it gives the impression that she is, in fact, alive and well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……原来如此，虽然我还没想通具体的细节问题。",
+			say = "From this, we can infer that Akagi's goal is to propagate knowledge on a global scale about a shipgirl known as Amagi being alive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不过……{namecode:91:赤城}的计划，难道是复活她的姐姐不成？",
+			say = "The Watatsumi is capable of bringing ideas to life – and Akagi wants to exploit this power to revive Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "你说什么……？！在经历了舰船化之后，因为心智魔方的受损而导致的死亡是绝对不可逆转的。",
+			say = "But once a shipgirl has been given form, she shouldn't be able to recover from severe hull damage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "竟然想要复活因此而死的人……简直是闻所未闻。",
+			say = "The Commander is already trying to find a cure for that, too. Why would Akagi do this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不错，堪称史无前例。因此，其计划所蕴含的风险，也应该是史无前例的。",
+			say = "If she achieves it, it'll be an unprecedented breakthrough. The risk, however, is extremely high.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官正在指挥东煌舰队在帕克菲克洋中作战，我们不能坐视重樱的局势恶化。",
+			say = "Onto something more pressing – the Commander and the Empery are fighting in the Pacific as we speak. I think we should aid them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞同……可是吾等距离太远，就算离开坐飞机回去，怕是也来不及了。",
+			say = "This one agrees... However, the Pacific is so unfortunately far away... We would not be in time even if we set off now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒也未必——我们这里不是还有一块特殊的神石碎片么~？",
+			say = "I wouldn't say that. There is a Watatsumi fragment we can use, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

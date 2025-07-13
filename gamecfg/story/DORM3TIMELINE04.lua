@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3TIMELINE04",
 	alpha = 0,
+	id = "DORM3TIMELINE04",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			bgm = "theme-room-rosy",
@@ -26,7 +23,7 @@ return {
 							options = {
 								{
 									{
-										content = "让我看看有没有烫伤"
+										content = "Let me see if you burnt yourself."
 									}
 								}
 							},

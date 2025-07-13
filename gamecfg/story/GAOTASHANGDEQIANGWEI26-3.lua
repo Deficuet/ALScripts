@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			actor = 900488,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			nameColor = "#FFC960",
-			say = "指挥官，辛苦啦~接下来这里交给我们来殿后吧！",
+			say = "Good work, Commander! Leave this sector to us now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 9707070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{playername}阁下，我已经在防御屏障上开启了安全通道，请径直前往蔷薇塔内部吧。",
+			say = "I've opened a path through the barrier. Please proceed into the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "刚一接近第一战区的环蔷薇塔防线，我就看到了空中飞驰而过的女王之光号。",
+			say = "As soon as we approach the Rose Tower defensive line at the first combat sector, I spot the Queen's Light soaring through the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,20 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "至此，转移行动顺利结束。战斗也从阻击阶段变为了死守阶段。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（第一战区的防线还有后撤空间，可以一直收缩到蔷薇塔前。）",
+			say = "Our strategic retreat has gone well so far. From here on out, this operation isn't a bid for time – it's a life-or-death siege.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +133,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（再之后……就彻底退无可退了。）",
+			say = "(There's still room for retreat behind the defensive line. It can be brought all the way to the tower, if need be.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +146,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……提尔瑞特，你可一定要及时赶到啊。）",
+			say = "(But after that, we're cornered.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Chariot, you have to get here soon!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"10天后……",
+					"Ten days later…",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官还记得今天是什么日子吗？",
+			say = "Commander, do you know what day it is today, nya?",
 			bgm = "story-richang-2",
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天是为领航员小姐打造的梦幻小镇完工的日子喵！",
+			say = "Tadah! It's the completion day of TB's virtual town, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这个给指挥官喵。",
+			say = "Take this, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……",
+			say = "What am I looking at here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是{namecode:98}工坊最新开发的沉浸式终端喵！",
+			say = "The Akashi Workshop's latest and greatest immersion interface, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要戴上这个，就能感觉到真实的触感喵！",
+			say = "Wear this and you'll feel like you're actually touching things in the virtual world, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "领航员小姐虽然只是没有实体的人工智能，但是现在，只要有了这个——",
+			say = "TB exists in the virtual world, and you live in the real world, nya. A barrier stands between you two, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "就可以打破虚拟和现实的界限喵！",
+			say = "But this device will tear that barrier down, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这些都是{namecode:98}你一个人完成的吗？真是辛苦了。",
+			say = "That sounds incredible. Did you make this all by yourself? If so, great job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不止{namecode:98}一个人喵，港区的大家都伸出援手帮忙了喵！",
+			say = "It wasn't just me, nya. Others around the port chipped in to make it real, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "先不提这个了，指挥官快点进入体验一下吧喵！",
+			say = "But that's not important, nya! Use it and see what it's like, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "领航员小姐马上就要来了！",
+			say = "TB will be there shortly, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下啊{namecode:98}……",
+			say = "Whoa, wait a sec...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "被{namecode:98}戴上了奇怪的装置，眼前一阵炫目的光芒闪过之后——",
+			say = "Akashi puts the dubious device on me before I can properly protest. A blinding bright light flickers, and everything around me changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

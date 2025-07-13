@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "继续下去的话……会变得奇怪的啦……！",
+			say = "You'll drive me crazy if you keep that up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

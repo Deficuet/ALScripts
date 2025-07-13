@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>一 指挥权的短暂移交</size>",
+					"Bonded Together\n\n<size=45>Giving Up Command</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "动物园·门口",
+			say = "Zoo - Entrance",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "终于从繁重的工作中抽身出来，暂时抛开了文件与会议，难得迎来了一天空闲。",
+			say = "After a period of overwork, I'm freed from documents and meetings for a rare day of free time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "原本计划是简单休息一下，然而恰巴耶夫发来了邀约，目的地定在了动物园。",
+			say = "I'd planned to do nothing and relax, but Chapayev invited me to the zoo, and I couldn't turn her down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（好像还有些文件需要收尾，晚上有空的话……）",
+			say = "(Some of those documents still need final touches. When I get back later...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "指挥官，你该不会现在心里还惦记着工作吧？",
+			say = "Commander~ You're not thinking of work right now, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "我猛地抬起头，发现身边的恰巴耶夫似乎并没有专注于景色，而是用那双清澈的蓝色眼眸饶有兴趣地观察着我。",
+			say = "I shake off those dark thoughts and realize that her blue eyes are focused on me rather than the animals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……当然没有。",
+			say = "No...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "是吗？可你的神色分明是在思考。让我猜猜……",
+			say = "Oh? You looked awfully lost in thought. Heehee, let me guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是在计算时间？还是在思考要如何利用这次短暂的休息，提升工作效率？",
+			say = "Are you thinking about time? About the idea of using your one and only day off to make your work even more efficient?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……只是习惯了。",
+			say = "I'm sorry. It's hard not to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "习惯吗？嗯……这可不行，今天可是属于我的一天，我可不希望你心不在焉。",
+			say = "Is it? Well, Commander, you have to resist it. Your time is mine today, and I'd like you focused on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "说着，她毫不犹豫地伸手从我手中抽走地图，翻看了几秒后轻笑着合上。",
+			say = "With that, she snatches the map out of my hand, gazes at it for a moment, and closes it with a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，游览路线什么的，就交给我吧。",
+			say = "Allow me to chart our course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "今天的指挥权……暂时由我来接管，如何？",
+			say = "If you'd like... I could even take the lead all day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "乐意之至。",
+			say = "Be my guest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "咦，这么轻易就放手了？总感觉有些不敢置信呢。",
+			say = "Oh? You'd give up authority to me so easily? It's almost unbelievable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "指挥官，你要是愿意撒个娇，也许我会考虑还给你哦？",
+			say = "Heehee, beg enough, and I might give it back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咳……这还是算了吧，交给你我很放心。",
+			say = "Ahem... No, it's fine. I trust you, Chapayev.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "啊，真遗憾呢~还以为能看到指挥官撒娇的模样。",
+			say = "Really? I'm almost disappointed. Here I thought I'd finally get to hear you beg...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "那么，今天请你务必全身心地投入到我们的约会里。",
+			say = "Let me be clear: I want you to enjoy our date today as best you can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "如果你还是忍不住想工作的话，那我只能采取更“强硬”的手段了。",
+			say = "If you find your mind wandering toward work again, I'll drag it back. Even if it means using force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,18 +308,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "恰巴耶夫用白皙修长的手指轻巧地勾住了我的领口，力度不轻不重，没有咄咄逼人的强硬感，似乎在暗示着什么。",
+			say = "Chapayev tugs on my collar, not too hard yet not gently either, with her slender fingers. It's not aggressive – more suggestive, perhaps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我会认真陪你的。",
+					content = "(Express your excitement.)",
 					flag = 1
 				},
 				{
-					content = "更“强硬”的手段？",
+					content = "(Question that last part.)",
 					flag = 2
 				}
 			}
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "不会再想工作了，我会认真陪你的。",
+			say = "Yeah. I'm excited to let go of work and have fun with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "恰巴耶夫微微侧身看向我，浅蓝色的眸子中带着丝丝笑意，像是对我的回答毫不意外。",
+			say = "She leans against me and looks up with happy eyes. I can tell she expected those exact words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，这样才乖。",
+			say = "Heehee. Much better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "更“强硬”的手段？",
+			say = "(Question that last part.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "恰巴耶夫嘴角的笑意更深，修长的手指缓缓收紧了一点。",
+			say = "Her smile deepens, and her grasp on my collar tightens just a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如……不让你离开我的身边？或许，还可以考虑用点物理上的约束……嗯？",
+			say = "For example... I could make it so that you can't leave my side? And I do mean physically... Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她的语气温和，像是在开玩笑，但又让人不禁怀疑，她是否真的会这么做。",
+			say = "She says it gently and sweetly, but part of me thinks she's being serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……总觉得，你好像早有计划。",
+			say = "Did you have this all planned out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "呵呵，指挥官，今天可是属于我的一天，你不该对此有所觉悟吗？",
+			say = "Heehee. It's my day with you, Commander. I'm sure you've braced yourself for what you know will come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在应该是我叫你指挥官了。指挥官小姐，我们应该往哪儿走？",
+			say = "Well... I have given you authority over the date. So, where are we going next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "恰巴耶夫低下头，专注地看着地图。阳光透过枝叶落在她的侧脸，微风轻轻扬起她额前的碎发，令她的神情看起来比平时更加柔和。",
+			say = "She looks down at the map intently. The light shining through the trees illuminates her profile, and her bangs blow slightly in the wind. The whole sight makes her look softer than ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "很快，恰巴耶夫的指尖点在了地图上的“冰雪区”，标题旁还画着一对可爱的企鹅。",
+			say = "After a while, she points at the Polar Habitat. Its title on the map has a cute drawing of a penguin next to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "冰雪区怎么样？毕竟我们北方联合的孩子，对寒冷更有亲切感呢~",
+			say = "How about the Polar Habitat? We Northern Parliament girls tend to feel an affinity for animals that live in the cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你其实是喜欢企鹅吧？",
+			say = "So you like penguins, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "比起“喜欢”，或许说“欣赏”更合适。",
+			say = "\"Appreciate\" might be a more apt word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "企鹅是忠诚的动物，一旦认定了伴侣，就不会改变。这种情感……很值得羡慕吧。",
+			say = "Penguins are such loyal creatures. Once they find a life partner, they never leave. I think that's admirable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "指挥官，你呢？你会是忠诚的那一方吗？",
+			say = "What about you, Commander? Are you loyal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "她的视线在我身上停留了一瞬，随后轻轻笑了笑。",
+			say = "Her eyes linger on me for a moment before she looks away and giggles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "还没等我回答，恰巴耶夫已经牵起我的手，拉着我向前走去。",
+			say = "Before I can formulate an answer, she takes my hand and leads me forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "不用急着回答，我们的约会……才刚刚开始呢。",
+			say = "There's no need to rush. Our date's just begun♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

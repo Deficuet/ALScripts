@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "警告：前方海域出现异常气象特征，建议保持距离。",
+			say = "Warning: Abnormal weather detected ahead. Maintaining distance from the anomaly is recommended.",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风暴之中夹杂着风暴…………真是奇怪的景象。",
+			say = "A storm within a storm... That's some extreme weather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仿佛在匀速旋转，又仿佛是静止的……企业、指挥官，你们有没有种熟悉的感觉！？！",
+			say = "Both storms seem to be spinning at the same velocity, making it appear completely still from the inside... Enterprise, Commander, what do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，绝对没错。前方的风暴是一个奇异点。",
+			say = "Yeah. There's no mistaking it. That storm is the same Singularity we saw in Bermuda.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "哎？不是整个大风暴是奇异点，而是大风暴包裹着的小风暴是奇异点……？",
+			say = "I mean, we've seen a lot of extreme weather before when dealing with Sirens. How can you tell it's a Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。怪不得之前进入的时候没有接近奇异点的感觉……整个大风暴不过是隐藏中心奇异点的手段而已啊。",
+			say = "I want to point to its size, wind patterns, and our instrument readings... but honestly? It's just my intuition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大风暴的存在也干扰了我们的探测设备，所以我们一直无法确定NA海域中是否有奇异点的存在……",
+			say = "I suppose you're right. A storm that completely blocks off the NA Ocean's center is too big to just be a Mirror Sea. It has to be a Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "真狡猾啊……不过……",
+			say = "Extreme weather that's larger in scope than a Mirror Sea... That makes me think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "咦？等等……这个大风暴不是塞壬生成的么？而奇异点是余烬开启的吧？",
+			say = "The shipgirls who created the Bermuda Singularity... The Ashes... Who created the Singularity over here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬和塞壬是敌对关系，为什么塞壬要帮助余烬隐藏奇异点的存在……？",
+			say = "Gosh, my head is a mess... Like, if the Ashes created this Singularity, why would the Sirens use it as their base...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这我就不清楚了……话说，你们觉没觉得周围空气好差啊。",
+			say = "Beats me... Hey, are you all right, Memphis? You sound out of breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是有点……从刚才出现预警之后，空气中就出现了一些漂浮的黑色结晶。",
+			say = "Now that you mention it... are these... black crystals...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "可以进行成分分析么，领航员小姐？",
+			say = "TB, can you analyze the structure of this stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指令已确认，正在分析中——————",
+			say = "Orders received. Beginning analysis.",
 			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析完毕：虽然形态有些不同，但空气中的黑色结晶在性质上与科研部门进行余烬信标解析的参照物一致。",
+			say = "Analysis complete. This material shares similarities with the material used to analyze the Ashes' coordinates, though it is structurally slightly different.",
 			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "空气中的黑色结晶可以理解为余烬在此处激烈战斗后留下的存在痕迹。",
+			say = "My conclusion is that the Ashes have battled here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这种位置上激烈战斗……哼，希望这次能有机会亲自见见一见那几位神秘的余烬成员。",
+			say = "Well, then that makes sense. The Ashes and the Sirens must have fought around here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊丽莎白！你不会是因为这种事才改变计划强行凑过来的吧！",
+			say = "Lemme guess... This is what you wanted to see for yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起冷冰冰的资料和他人的分析结果，有些事还是要自己亲自看一看，有些人还是要自己亲自谈一谈比较好。",
+			say = "That's correct. Everyone could already have guessed this was a Singularity, but I had to see firsthand what it has to do with the Ashes and the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是你，最近花在资料上的时间是不是有点太长了哦~",
+			say = "Sometimes it's worth to see the frontlines with your own eyes. Take notes, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……整天宅在后方城堡，只是偶尔！来一次前线的女王陛下没资格对我说教吧！",
+			say = "I'm pretty sure the Commander gets out more than you do, but hey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼。贝法，去前方收集一些样本，本王要带回去仔细分析！",
+			say = "Bel, go and collect a sample for me, and analyse it back home later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命。",
+			say = "Certainly, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：前方风暴中心出现高能反应，建议舰队立刻规避。",
+			say = "Warning: High energy readings have been detected at the eye of the storm. Evacuate immediately.",
 			voice = "event:/tb/16/tb-16",
 			flashout = {
 				black = true,
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，样品收集完成了么，我们该回去了。",
+			say = "Hah?! Wh-what? The Singularity is growing all of a sudden...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法——————",
+			say = "Bel! Commander! Flee at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：风暴中心的高能反应正在持续增强，预计冲击将在十秒后抵达。10，9，8，7……",
+			say = "The weather anomaly is expanding at a rate exceeding our speed. It is recommended to brace for impact.",
 			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟糕……来不及规避了！！",
+			say = "Yeah, we can see that! Commander, get over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "即使在指挥舰中也能清晰感受到，一股愈发猛烈的力量正在将海面上的舰队连同海水一起吸向风暴的方向。",
+			say = "\"Wait... The storm isn't expanding into us, it's dragging us inside it!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用最大航速仍然无法脱离！指挥官小心，我们要被吸过去了！",
+			say = "There's no escaping its pull...! Hang on to whatever you can!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

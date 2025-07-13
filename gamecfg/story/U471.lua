@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>一  海浪的声音</size>",
+					"Days of Tranquility\n\n<size=45>1.Sound of the Waves</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "来到室外，总感觉拂面的微风比平日更加温暖。",
+			say = "A warm breeze – notably warmer than normal – greeted me when I stepped outside.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "难得的好天气，去码头那边转转吧——",
+			say = "It was a wonderful day. The sun was out, the skies were clear. I decided to make the most of it and go for a walk to the pier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "到达码头后，{namecode:413}的身影出现在了眼前。她伫立在海边，静静观望着海面。",
+			say = "Upon arriving there, I found U-47. She sat there, feet hanging off the pier and dipping into the water, just enjoying the solitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "似乎是察觉到视线的存在，{namecode:413}轻轻转过身来。",
+			say = "That's when she noticed I was there. She turned around to face me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "向双脚浸没在海水中的她询问了来这里的原因。",
+			say = "\"What are you doing out here all by yourself?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没什么，只是来听听海浪的声音。",
+			say = "Not much... Just listening to the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "学着{namecode:413}的样子，侧耳倾听……潮来潮去的声音令人安心，仿佛从平日的喧嚣生活中解放出来一样。",
+			say = "I sharpened my ears and listened in. The sound of the waves washing onto the shore gave me a sense of peace and quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于是决定坐在她的旁边，一同倾听海浪的声音。",
+			say = "For a moment, I forgot all about the stress of my job. I sat down next to U-47 and appreciated the calming sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "就这样无言倾听了好一会儿后，{namecode:413}面带不可思议的探过头来。",
+			say = "After a while of silently gazing out at the sea, U-47 turned and looked at me with a puzzled look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官有点奇怪呢。",
+			say = "You're an odd one, Commander. But in a good way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周围的伙伴们大多是喜欢热闹的类型，像这样有人安静地陪我一起坐着还是第一次……",
+			say = "You're the first person to hang out with me and keep quiet. Most people I know just make a racket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多到了潜艇集合的时间了。再见，指挥官。",
+			say = "I've gotta go now, though. Submarine meeting thing around this hour. See you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "留下这句略冷淡的话后，{namecode:413}起身离开了。",
+			say = "She bluntly announced her departure, then got up to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——喂。",
+			say = "Just wondering...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,38 +329,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "本以为她会就这样离开时，她却突然停下脚步问了一个问题。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥室里，安静么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "……真是个奇怪的问题。指挥室离舰船们平时居住的地方有一段距离，应该算是安静吧……",
+			say = "Right as she started walking, she suddenly stopped in place and began to pose me a question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +345,38 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦……这样啊。",
+			say = "Is it quiet in your office?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			say = "\"Quiet? It's pretty far from the dorms, so I suppose so...?\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I see... Good to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "得到了答案的{namecode:413}再度迈开了脚步，这次是真的离开了。",
+			say = "She gave a concise response, then resumed her walking and left the pier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "虽然从头到尾都是一副冷淡的样子，不过没有被她讨厌吧……大概。",
+			say = "She seemed uninterested in me from start to finish, but I didn't get the impression that she disliked me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "在{namecode:413}离开后，又一个人独自享受了一阵海浪的声音。",
+			say = "And then, it was just me. I stuck around for a while longer, simply taking in the sound of the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

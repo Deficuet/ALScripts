@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "轰————————！",
+			say = "KABOOM–––––!!",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-midgard-hunting",
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "呼……到底是新型号敌人，各方面都变强了不少。要是在情报不明的情况下交战肯定要吃大亏了。",
+			say = "Good thing we had data on these new Sirens. Having to go into a fight blind royally sucks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，多亏了量产型舰队的牺牲，敌人数据明白的差不多了，应对起来就没那么困难！",
+			say = "I never thought our leftover mass-produced ships would come in handy like that. Sorry, homies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "不过那些更新的人型敌人就不同了！打起来手感太奇怪了……",
+			say = "Anyway, it's freakin' annoying how the Sirens keep powering up each time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然看起来命中了，也看到了爆炸，但是总感觉有种不真实感……就像没有命中一样。",
+			say = "I landed a clean shot, didn't I? But it's just like nothing happened at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也是这种感觉，不过我没有看到命中哦，刚才你明明打歪了。",
+			say = "Are you sure about that? It looks to me like you missed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "不可能！我都看到爆出的碎片了！打歪的是你吧。",
+			say = "Huh? You're just messing with me, aren't you? You're the one who completely whiffed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "可能是你们都打歪了？我没看到敌人怎么减少哎。",
+			say = "We're not actually thinning out the enemies at all! You two need to take this seriously already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,12 +208,12 @@ return {
 			actor = 402060,
 			side = 0,
 			bgName = "bg_midgard_3",
-			actorName = "{namecode:447}&{namecode:455}",
+			actorName = "Magdeburg & Prinz Adalbert",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "绝对不可能！",
+			say = "I am! And that last attack totally hit!",
 			subActors = {
 				{
 					actor = 403100,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我也有相同的感觉，你们看到我打中了么？",
+			say = "We seem to be dealing with some sort of optical illusion. Elbe, did it look like my shots just now landed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "没有，有几次很接近，但都打偏了。",
+			say = "Nope. Some looked pretty close, but none of them actually hit their marks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在我的视角里，绝对是打中了的。嗯…有古怪。",
+			say = "I thought as much. From our vantage point, it looks like all our attacks should be hitting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "这次肯定没错了……大家快看，看我近距离瘫痪了一个，活捉————",
+			say = "Well, that's not much of a big deal. They can't dodge us if we go in for a good hand-to-hand beatdown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？我什么都没看到啊。",
+			say = "Even I'm not down for something like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "不可能，明明就在我手……里，哎？",
+			say = "Ready or not, here I–– Woooah...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:456}快退下！",
+			say = "Adalbert! Watch out below you!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "因为及时收到警告，{namecode:455}在千钧一发之际避开了来自水下的攻击。",
+			say = "Thanks to U-1206's timely warning, Prinz Adalbert barely managed to evade an attack from a Siren submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢…谢谢………",
+			say = "Phew, thanks for the heads up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "居然是潜航型号？！！",
+			say = "Submarines too...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "水下的敌人很多，而且一直在进行替换！",
+			say = "They're really trying to pin us in from all directions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌人很谨慎，只要稍微受损就会释放出我不清楚是什么的干扰气体下潜，然后会有一个全新的敌人上浮，这就是敌人舰队一直维持着规模的秘密！",
+			say = "They keep diving too whenever I try to dive to track them down! There's no way to tell exactly how many enemies we're dealing with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

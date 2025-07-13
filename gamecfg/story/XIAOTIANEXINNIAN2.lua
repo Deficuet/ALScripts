@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>二 瑞雪天降</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 2 New Year's Snow</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			bgmDelay = 2,
-			say = "呼~暖炉真是太棒了~",
+			say = "Aw yeah~ Kotatsus are frickin' amazing~",
 			bgm = "main-newyear",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，真不愧是{namecode:16}呢，进到暖炉里就无论如何都拽不出来了……",
+			say = "Here we have Yuudachi in her natural habitat: by the kotatsu, adamantly refusing to come out...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，毕竟是冬天…嗯？哎呀，开始下雪了呢",
+			say = "Well, it's winter; who can blame her? ...Oh, look outside! It seems it's started snowing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦哦！！是雪！下雪了诶！！{namecode:17}我们去打雪仗吧！",
+			say = "Snow?! Oh, man, it's snowing! C'mon, Shigure, let's have a snowball fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇，别、别扯我啊！",
+			say = "Hey! Let go! Don't drag me along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actorName = "{namecode:143}",
-			dir = 1,
 			actor = 301601,
+			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇，好大的雪呀！地上已经积起来一层了呢！",
+			say = "Wow, look at all that snow! It's piled up so quickly!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -180,7 +179,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、下点雪而已，兴奋成这样……",
+			say = "Hmph, I don't see why anyone would get so fired up over a bit of snowfall.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -198,11 +197,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
 			actor = 301601,
-			actorName = "{namecode:143}",
-			say = "{namecode:142}{namecode:142}，你的尾巴在颤抖耶，这难道就是传说中的“武者震”？",
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Then why is your tail wagging so much? It's moving faster than Nobunaga's unification of Japan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +216,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我才没有因为下雪而觉得兴奋啦！！",
+			say = "No it's not! L-like I'd ever get excited over some stupid snow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +242,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给指挥官的礼物就这样，然后这样…呵呵呵…啊啊，已经迫不及到想见到指挥官惊喜的神情了呢…",
+			say = "A trim here and a snip there... Fufufufu... Ahh... I can't wait to see how much he'll love my present...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -277,7 +275,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…？怎么这么吵——",
+			say = "...There seems to be quite the commotion outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +291,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，因为下雪了，驱逐们都兴奋地准备打雪仗了",
+			say = "Seems so... Might be those destroyers having a snowball fight.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -313,7 +311,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，那我们也出去看看吧？",
+			say = "Ufufu, perhaps we should pay them a visit later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？真是意外啊，姐姐竟然会对这种有兴趣",
+			say = "That's unusual... I never thought you'd care about such things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +343,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，一时的心血来潮罢了。{namecode:93}，不一起来吗？",
+			say = "Oh, I'm just in the mood. Would you like to join us, Souryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +359,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…还有好多贺年卡没写完呢，我就算了",
+			say = "I'm afraid I have to decline as I still have New Year's cards I must write.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +375,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那…就我们也加入吧！",
+			say = "In that case, why don't we tag along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +387,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "预兆丰年的瑞雪……能跟大家一起玩的话，或许……也不错。",
+			say = "The early snow is the omen of a fortunate year... I think it would be really nice if I... would be able to enjoy the holidays together with everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +399,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，{namecode:151}{namecode:152}，委托任务辛苦了～",
+			say = "Why, if it isn't Izumo and Ibuki! You deserve praise for your last commission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +415,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "分内之事，倒也算不上辛苦",
+			say = "We're just doing our job. That doesn't warrant any praise.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -437,7 +435,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "雪仗吗…好像很有趣的样子呢",
+			say = "That must be a snowball fight I hear... It looks like they're having fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +451,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵呵，二位也要加入这场雪战吗？呼呼呼，正好，就让你们知道，谁才是最适合待在指挥官身边的人吧！",
+			say = "Fufufufu, so you'd like to participate as well? Fine. Then let us fight so we can once and for all see who is the most worthy of being by the commander's side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +467,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "咦、咦？！比的是这个吗？！",
+			say = "E-excuse me?! You mean to take part in the <i>snowball</i> fight?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +493,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然是打雪仗，那么跟作战演习并无什么区别，一航战将全力以赴！",
+			say = "A snowball fight is not so different from a mission or practice. And the 1st Carrier Division will hold nothing back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +509,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘿嘿，既然是拿手的打雪仗，就算对手是航空母舰们，{namecode:16}也是不会输的喔！",
+			say = "Heh! Carriers don't stand an icicle's chance in hell against me in a snowball fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +525,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，好不容易打扫好的院子，你们闹起来又要弄乱了！",
+			say = "Wait! We just cleaned the yard, so please don't make a mess in it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +541,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "诶？那……那我们出去找地方吧，这样就不会弄乱院子了不是嘛！",
+			say = "Huh? Fine... then let's do it somewhere else. Then at least we won't make a mess of the yard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +557,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "最近码头附近的干船坞正好空着，那里空旷而且没有风，或许比较合适。",
+			say = "Yeah. How about the drydock nearby? It's big and not very windy. And it's been empty for a while so I'm sure nobody would mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +573,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:128}酱真聪明，感觉什么问题都难不倒你呢~",
+			say = "That's a great idea, Hamakaze-chan! I'm starting to feel like you know everything~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +589,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "终于可以让大家见识一下修行的成果了，出发吧！",
+			say = "At last it's time to show the fruits of my training. Come! Let us fight like it were a real battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +606,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "一到新年，大家就都兴奋起来了呀……真是让人头疼，希望不要闹出什么事就好了……",
+			say = "Everyone gets so excited around New Year's... I just hope they don't make a mess... *Sigh*, my stomach's already starting to ache...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

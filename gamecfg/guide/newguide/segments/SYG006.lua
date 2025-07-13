@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"司令部对于指挥官在之前战斗中的表现十分赞赏，所以特批开放了第二舰队的编制权限，快跟着我来吧！",
-	"前往编队界面编组第二舰队。点击确认直接前往编队界面",
-	"点击右侧按钮，切换到第二舰队。指引点击右侧按钮",
-	"在这里就能编组第二舰队啦",
-	"战争已经正式打响了，想必接下来的战斗将会越来越艰辛吧，期待您更精彩的发挥哦！"
+	"HQ is extremely impressed with your performance, Commander. They've given you permission to start working on your second fleet!",
+	"Head to the formation menu to put your second fleet, Fleet 2, together. Tap confirm to head directly there.",
+	"Tap the button on the right to switch to Fleet 2.",
+	"This is where you can begin changing Fleet 2's formation.",
+	"The flames of war are raging. Battles will only get harder from here on out. Give 'em hell, Commander!"
 }
 
 return {

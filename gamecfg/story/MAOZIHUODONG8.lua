@@ -12,7 +12,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌方反应消失，大家干得漂亮~",
+			say = "That looks like the last of them. Good job, folks!",
 			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，见识到大黄蜂大人的厉害了吧！",
+			say = "Heheh! We sent them crawling back to mama!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位不愧是白鹰的精锐，确实是场漂亮的战斗",
+			say = "You never cease to amaze me, Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这些新型塞壬确实和之前的不太一样。装甲更为厚重，火炮威力更强，而且…",
+			say = "This new enemy was tough, but nothing we can't handle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "南达科他也觉得手感不太对劲吗…？它们身上的紫色光雾似乎会“帮助”装甲规避受到的伤害，增强火炮发射的威力。",
+			say = "\"New\" might not be the right word, you know? They might've kept it in store for decades for all we know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是这样零星出现倒还好，如果成编制的新型塞壬扎堆起来，战局可能就不会像现在这么顺利了。",
+			say = "Maybe. But in any case, its combat ability is nothing to scoff at. If many more of them show up, this could get difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么思考可就太消极了哦！",
+			say = "If more show up, we'll just take them all out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "换个角度来想，塞壬明明亮出了新型舰队还是被我们轻松击败，说明我们的实力可是毋庸置疑的哦",
+			say = "Besides, the more we fight them, the more intel on them we get. Sara thinks we should keep moving forward!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是白鹰人的自信吗？！",
+			say = "What she said. I mean, you've not had any trouble fighting what we've seen so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~不论塞壬派出多少舰队，我们只要一艘不漏的把它们都消灭就好！",
+			say = "Ain't that right! We can always fall back later if they turn out to be too much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

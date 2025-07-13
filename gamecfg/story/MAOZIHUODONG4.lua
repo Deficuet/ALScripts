@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "…太安静了，SK-2雷达也没有什么异常动态…明知敌人就在前面，这么安静的战场真让人发毛。",
+			say = "...It's too quiet. There's nothing wrong with my SK-2 radar... but undeniably, the enemy stronghold is right in front of us. Seeing a battlefield this calm is giving me goosebumps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "因为我们现在依然还在安全距离啦~",
+			say = "We're still at a safe distance for the time being~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "呜哇…周边的塞壬舰队真的像在休眠一样，就算侦察机直接在上方飞过也毫无反应啊…",
+			say = "Woah... these Sirens must be sleeping or something. My recon planes are flying over them without drawing a response...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "嘿嘿~如果是这样的话…就这样直接用舰载机进行超远距离攻击怎么样！",
+			say = "Hehe~ If that's the case, let's settle this with some ultra long-range bombing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机的超远距离打击么…这个我们倒是没有试过。",
+			say = "Long-range attacks from carriers, huh... We've never tried something like that before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "大黄蜂Good Job！心动不如行动～萨拉妹妹，轰炸机出动！",
+			say = "Nice thinking, Hornet! But thinking isn't as fun as doing! Sister Sara, scrambling bombers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/bbattle/plane",
-			say = "随着萨拉托加的一声令下，一个编队的轰炸机就启程向着敌人的方向飞去。",
+			say = "Saratoga issued her orders, and a squadron of bombers immediately began to fly towards the Siren stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就算没有战斗机护航，也平安无事的飞到了休眠的塞壬舰队上方，然后直接投下了炸弹！",
+			say = "Even without protection from fighters, the bombers reached their target successfully and dropped a payload directly on top of the stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，得手了！！",
+			say = "Heheh! A direct hit!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在萨拉托加准备欢呼的时候时，要塞的防御被突然激活了。投掷的炸弹被凭空出现的护盾挡住，轰炸机编队则被凶猛的防空火力毫不留情的全部击落了。",
+			say = "Just as Saratoga began to cheer, the stronghold's defenses came to life. The bombs that had been dropped were repelled by shields that materialized out of nowhere, and Saratoga's bombers were mercilessly mowed down by withering anti-air fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…什？！么？！",
+			say = "What... the... heck?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来会对有威胁的目标做出反应，要塞的防空火力比预计的强得多，没办法投机取巧了。",
+			say = "The target is responding to threats accordingly. The stronghold's anti-air capacities are stronger than expected. We can't even begin to speculate what their full capabilities might be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没那么轻松么…算啦~让我们堂堂正正从正面打进去，炸碎它们的装甲，撕裂它们的防线吧！",
+			say = "Good, I was afraid things would be too boring! Let's kick down their front door, smash through that carapace, and tear down their defenses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "大家注意，前方就要进入塞壬要塞的警戒范围了哦！",
+			say = "Be careful, everyone! We're about to enter their defensive perimeter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

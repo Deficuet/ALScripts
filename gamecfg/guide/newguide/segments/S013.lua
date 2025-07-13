@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>仓库</color>界面",
-	"点击<color=#ff7d36>选择科技箱</color>",
-	"点击<color=#ff7d36>使用</color>打开科技箱"
+	"Let's check out your <color=#ff7d36>storage</color>.",
+	"Tap <color=#ff7d36>to select tech pack</color>.",
+	"Tap <color=#ff7d36>use</color> to open the tech pack."
 }
 
 return {

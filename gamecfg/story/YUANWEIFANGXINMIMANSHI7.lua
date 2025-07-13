@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>会场中心的墙</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>The Wall at the Banquet's Center</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "\"...Hm? A Juustagram notification?\"",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "……嗯？有消息？",
+			say = "\"...Hm? A Juustagram notification?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "发送者是……{namecode:427}？",
+			say = "\"And it's from Prinz Eugen, too. Let's see what it is.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "短信附带了一张照片。照片中是正在一起参加娱乐活动的铁血一行人。",
+			say = "She sent me a picture. In it, she and her Iron Blood comrades are smiling, laughing, enjoying the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "不过更令人在意的是信息的内容……",
+			say = "But, something is off about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "以及那个本应该出现在照片中的人。",
+			say = "Namely, a certain someone isn't in the picture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "宴会厅中，{namecode:435}正坐在中心区域独饮。",
+			say = "At the center of the banquet venue is Bismarck, sitting all alone at a table, enjoying a drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "随着宾客逐渐入场，会场的气氛逐渐变得热烈起来。",
+			say = "As more and more guests have shown up, the banquet's atmosphere has gotten warmer and livelier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "但{namecode:435}身边好像始终有一堵无形的墙壁，隔绝着外界的喧嚣。",
+			say = "And yet, that doesn't seem to extend to her. It's as though there's an invisible, people-repelling barrier around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "偶尔见到几个想上前与她攀谈的人，也因为这堵墙而萌生了退意。",
+			say = "The only ones who'll talk to her are fellow Iron Blood girls. Everyone else is keeping their distance from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "必须得做点什么————",
+			say = "I should go talk to her and ask what's up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯？是指挥官啊，你好。",
+			say = "Oh. Good evening, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "{namecode:435}，你有没有时间……",
+			say = "\"Hey, Bismarck. Do you have a moment?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "你的表情在告诉我，你是有什么事情要找我谈吧。",
+			say = "Your expression tells me that you have something on your mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "现在我有时间，我们可以开始谈了。",
+			say = "To answer you – yes, I do. I'm all ears.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,18 +277,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "已经完全理解那堵无形之墙形成的原因了——",
+			say = "Aha. I've figured out why that invisible barrier surrounds her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你有些太正式了。",
+					content = "\"I think you're being excessively formal.\"",
 					flag = 1
 				},
 				{
-					content = "现在可是在轻松的宴会上。",
+					content = "\"You should let loose – you'd be more approachable then.\"",
 					flag = 2
 				}
 			}
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "轻松的……宴会？",
+			say = "Ah. \"It's meant to be a relaxed banquet,\" right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯……对于大多数普通宾客来说，宴会可能确实如此。",
+			say = "Yes, I suppose it is, to the majority of people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "但，我总是无法融入这种氛围呢。",
+			say = "To you as well, I... No, it's simply a fact – I'm objectively failing to blend in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "{namecode:428}就不一样了，她总是能在各种场合找到乐子。",
+			say = "Unlike Eugen. Wherever she goes, the party spirit follows.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "所以你才让{namecode:427}带着同伴们四处游览啊。",
+			say = "\"Did you ask Eugen to be the star of the night, because you feel you dampen the mood?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "指挥官你看到{namecode:428}她们了啊，她们玩的开心么？",
+			say = "Have you seen her, by any chance? Is she spreading the fun?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "应该很开心吧，如果你也在的话就更好了。",
+			say = "\"Yeah. She sent me a photo. I just wish you were in it, with the rest of them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "我并不是那种在宴会上能放松下来的人。",
+			say = "You know me, Commander. I'm not a party person. It doesn't come naturally to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "如果我在场的话，她们会感到拘束的。",
+			say = "As you speculated, I just rain on everyone's parade when I'm around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "所以我发出了“都跟{namecode:428}去玩吧”的命令。",
+			say = "That's why I asked Eugen to take the initiative.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "看来我的判断是正确的呢。",
+			say = "Judging by how she's doing, it seems I made the right decision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "可是这样的话，你要怎么享受宴会的快乐？",
+			say = "\"Alright. Them aside, then, how are you enjoying the banquet?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "宴会与宴会亦有区别。",
+			say = "Who's to say I am, or have to? There are different kinds of banquets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "有些是为了享受快乐，有些则是需要全神贯注。",
+			say = "Some are for fun and drinking, others are more formal in nature and demand a serious approach.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "今天这场宴会的话，我判断为后者。",
+			say = "As Iron Blood's leader, this banquet falls into the latter category for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "虽然铁血的诸位听你的命令出去玩了，但她们其实都在担心你。",
+			say = "\"I don't think Eugen sent me that photo just to show she and the rest are having a good time. They're concerned about you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "是{namecode:428}让你来的吧？",
+			say = "First Eugen expresses concern about me, and now you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "真是瞒不过你。",
+			say = "She cracks a wry smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "所以，为了不让她们担心，你也请享受这场宴会，如何？",
+			say = "\"Why don't you go join them? Then they wouldn't be concerned about you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯……",
+			say = "A good point...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "舞池那边，已经开始奏乐了呢。",
+			say = "Say... The orchestra is gearing up for the ball.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "指挥官，如果不嫌弃的话————",
+			say = "If you don't mind, would you like to go with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "握住了{namecode:435}伸出的手。",
+			say = "She offers me her hand. I take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "呵呵，感谢你接受邀请，那就让我们试着享受庆典吧~",
+			say = "Thank you for accepting my invitation. Let's do as you suggested and go enjoy this banquet.~",
 			painting = {
 				alpha = 0.3,
 				time = 1

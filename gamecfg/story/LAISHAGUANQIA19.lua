@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "一段时间之后————",
+			say = "A while later...",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……不行了，这份地图完全不起作用啊。",
+			say = "Ugh, dammit! This map is completely worthless.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "明明画得那么精致，看起来那么有效……结果居然，一点忙都帮不上。",
+			say = "Sure, it's detailed, but detail doesn't help when you can't tell what's what.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "呜呜呜……这座遗迹的迷宫是立体的，而在地图上根本看不出立体感啊！",
+			say = "Yeah... A two-dimensional map won't do you any good in a three-dimensional dungeon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "看上去相连的道路，明明都走到跟前了，才发现根本不在同一水平面上，不知道还要绕多远！",
+			say = "Even when you know there's a connecting path, that knowledge is useless without knowing what floor it's on or how to get there in the first place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}已经，完全跑不动了……",
+			say = "*pant* *pant*... Ugh... I can't feel my feet anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "啊哈哈……刚看到迷宫结构和地图的时候就在想“难道要发生那种事了么”？结果果然……",
+			say = "Ahahah... I had a feeling this would happen when I compared the map with the actual layout earlier. I hoped I was wrong...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "可畏小姐，能用舰载机带着我进行立体移动嘛！",
+			say = "Oh, I know! Formidable, can I catch a ride on one of your aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "咦？舰载机还可以带人么？！",
+			say = "Wait, what? Shipgirls can ride aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "……这种事当然做不到啊。舰载机是不能带人的，你应该很清楚这件事吧……",
+			say = "Please tell me you're joking, Alfredo. We cannot mount aircraft. Surely you already knew that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯~我当然知道，但是！如果是把我挂在舰载机上呢？这样子就可以了吧！",
+			say = "Obviously I know that, but I'm talking about using something to suspend myself from the plane. It could carry me, no problem, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "可是你打算去哪里找到这么结实的绳子呢？",
+			say = "Give me some planes made from unobtainium and I'm sure they'd be durable enough to hold your weight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "也就是说只要找到了合适的绳子就可以么！",
+			say = "In other words, you'll do it if I can find that whatever-that-is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "不……我的意思是建议你换一个解题思路。",
+			say = "That's... not what I meant. What I'm saying is, you really should consider more practical alternatives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "莱莎小姐，用炼金术能做出来这种绳子么！",
+			say = "Hey, Ryza! Think you could synthesize a really, really tough rope?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……足够结实的绳子啊，用现有素材的话……也许可以哦！",
+			say = "Hmm... With the right materials, probably!",
 			painting = {
 				alpha = 0.3,
 				time = 1

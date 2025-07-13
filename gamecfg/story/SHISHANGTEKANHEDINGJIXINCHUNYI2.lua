@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[1]\n\n<size=45>腾龙新春宴</size>",
+					"Port Fashion Collection: Spring Festival I\n\n<size=45>2 Ascendant Dragon's Spring Feast</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "跨年宴的会场中，一位少女此刻正坐立难安。",
+			say = "It is the eve of the New Year's banquet, and a lone girl is sitting down, looking anxious.",
 			bgm = "main-chunjie3",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mail",
-			say = "好担心……好担心……",
+			say = "Mumble, mumble... Grumble...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呜……好担心啊————！",
+			say = "Dang it all! I'm so worried!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,18 +67,18 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃………",
+			say = "Oh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "晚上好……？",
+					content = "Are you okay?",
 					flag = 1
 				},
 				{
-					content = "……厨房的工作结束了？",
+					content = "Are you all done in the kitchen?",
 					flag = 2
 				}
 			}
@@ -92,7 +92,7 @@ return {
 			actor = 501051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不太好！",
+			say = "No, I'm not okay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 501051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我今天根本就没进厨房！！！",
+			say = "That's the thing! I couldn't even get in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "今天一大早大家就把我按在了厨房的外面，不许我进去。说要给我一个惊喜……",
+			say = "Earlier this morning, everyone chased me out of the kitchen and forbade me from entering. They said they were preparing a surprise for me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但……啊啊啊啊啊——我好担心啊！",
+			say = "But... Aaaggghhh! I'm worried out of my mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我之前备的菜……平海和宁海能不能做？",
+			say = "There's all these dishes to cook, and I don't know if Ning Hai and Ping Hai can do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "万一做错了怎么办？",
+			say = "What if something goes wrong and they mess it up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还有，每个人的口味都不一样，万一……",
+			say = "There's also the fact that we all have different tastes and seasoning preferences, so in the worst case scenario...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "少女不停地想象着厨房里可能会发生的意外事件，整个人散发出浓浓的焦虑气息。",
+			say = "Lung Wu's face turns more and more pale as she imagines everything that could possibly go wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "不行！我要去看看！",
+			say = "No! I need to go check on them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（等等……！记得来之前，镇海曾经说过龙武这几天备菜特别累，希望她今晚能休息一下。）",
+			say = "(Hang on... Lung Wu must be exhausted after all the preparatory work she's done the past few days.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（所以希望我能来帮忙拖住她，不要让她去厨房忙。）",
+			say = "(I also remember Chen Hai asking me to not let her into the kitchen. \"She has to rest,\" she said.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,14 +270,14 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（既然如此……）",
+			say = "(That being the case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "环顾四周",
+					content = "(Look around.)",
 					flag = 1
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（此刻，桌子上已经上了一些餐前小菜，比如醉蟹和包子……）",
+			say = "(There are appetizers plated up on the table. Drunken crab, baozis, and more...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（先不论为什么包子会成为餐前小菜，但是作为分散龙武注意力的“道具”来说，足够了！）",
+			say = "(I don't know who thinks of baozis as appetizers, but as a thing to distract Lung Wu with, they'll do the trick!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "龙武，心急吃不了热豆腐。现在虽然没有热豆腐，但是，来个热包子怎么样？",
+			say = "You know what they say – \"Don't be scared of freshly baked potatoes.\" Obviously, these aren't potatoes, but why don't you try one anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "老实说，我完全没搞清楚这两句话的逻辑关系！",
+			say = "Huh? Potatoes? What on Earth are you talking about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过既然指挥官这么说了……那我就吃一个好了。",
+			say = "I don't get what baozis have to do with anything... but if you say so, I'll try one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……唔唔唔……",
+			say = "Om, nom... Mmm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这面皮！这肉馅！虽然有点不甘心，但是平海她们做的包子真的很好吃！",
+			say = "The texture of this dough! The seasoning in the bean paste! I... I hate to admit it, but Ping and Ning sure cook a good baozi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有这个醉蟹，你也尝尝？",
+			say = "Oh yeah? Now try the drunken crab.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……唔唔唔……",
+			say = "Om, nom... Mmm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "鲜嫩肥美……是不是用了我准备的上等花雕？酱油的配比也恰到好处！",
+			say = "It's sweet and juicy... Did they use the Shaoxing wine I took out of the cellar? This has just the perfect amount of soy sauce, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（确实……面前的醉蟹堪称人间美味，看来美食应该能暂时让她忘记焦虑了）",
+			say = "(If a delicacy like drunken crab can't help her forget her worries, then not much will.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……依稀记得，镇海好像说了些绝对不要让醉酒的龙武进厨房之类的话……）",
+			say = "(Hm? Come to think of it, someone told me to never, ever let Lung Wu into the kitchen when she's drunk...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……她今天说的话有点多，记不清了。）",
+			say = "(Chen Hai was so insistent about it that I can't remember everything she said...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算了，反正只要再等一会，晚宴的准备就能结束，龙武也就没机会去厨房忙碌了。）",
+			say = "(It's fine. The banquet is almost ready, so there won't be any reason for Lung Wu to go into the kitchen before long.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "从螃蟹堆中再次抬起头时，龙武的身影消失了。",
+			say = "I end up so distracted by the delicious drunken crab that... when I come to, I realize that Lung Wu has disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,11 +521,11 @@ return {
 			},
 			options = {
 				{
-					content = "去找她！",
+					content = "(Go find her NOW!)",
 					flag = 1
 				},
 				{
-					content = "应该没事吧？",
+					content = "(Don't worry about it.)",
 					flag = 2
 				}
 			}
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "才刚起身，就看到龙武回到了餐桌旁。",
+			say = "When I get up to search, Lung Wu is already on her way back to the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "已经开始正式上菜了，她没有忙碌的机会了。",
+			say = "They're already serving the food, so even if she went to the kitchen, there's surely nothing left for her to flub.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "刚这么想，就看到龙武回到了餐桌旁。",
+			say = "While I rationalize my mistake, Lung Wu is already on her way back to the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "很快，晚宴的最后一道菜——春卷，已经上桌。",
+			say = "Before long, the final dish of the banquet – spring rolls – is served.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "看来今天拖住龙武的任务已经顺利完成了。",
+			say = "That marks the completion of my mission to keep Lung Wu in check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "指挥官，过年一定要吃春卷！快尝尝~",
+			say = "Commander, spring rolls are a must during the New Year's festivities! Give this one a try.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,22 +628,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "将春卷放入口中咀嚼两下后，立刻感受到了一股难以言说的火辣感。",
+			say = "When I put it in my mouth, chew, and taste the spring roll... spiciness beyond words assaults my senses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这、这是？！",
+					content = "Wh-what is this?!",
 					flag = 1
 				},
 				{
-					content = "水、给我水！",
+					content = "Water... I need water!",
 					flag = 2
 				},
 				{
-					content = "好吃，再来！",
+					content = "Delicious! Seconds, please!",
 					flag = 3
 				}
 			}
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "哈哈哈~辣就对了！",
+			say = "Heh heh heh... Spicy, huh? That's the good stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这是我刚溜进厨房做的！新鲜出炉的爆辣春卷！",
+			say = "Those are my special recipe – flaming hot spring rolls! I snuck into the kitchen to make them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,9 +690,9 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "虎贲",
+			actorName = "Hu Pen",
 			nameColor = "#A9F548FF",
-			say = "爆辣？",
+			say = "Flaming hot?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,9 +708,9 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "虎贲",
+			actorName = "Hu Pen",
 			nameColor = "#A9F548FF",
-			say = "…………啊！姐姐，你怎么吃了这么多醉蟹啊！",
+			say = "Ack! Eating all that drunken crab turned her into a drunken Lung Wu...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,9 +726,9 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "虎贲",
+			actorName = "Hu Pen",
 			nameColor = "#A9F548FF",
-			say = "指挥官，姐姐喝醉了之后去做菜的话，做出来的全都是爆辣口味的啊！",
+			say = "Come on, Commander! When she's drunk, she can't cook anything but spicy food!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "竟、竟会如此？！",
+			say = "How could this be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没想到，此次拖延作战最后竟然会败在一盆醉蟹手上……！",
+			say = "My perfect strategy, defeated at the hands of drunken crab!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

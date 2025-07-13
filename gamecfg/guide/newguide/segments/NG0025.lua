@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"完成战术研习任务可以获得技能升级经验，部分任务可以重复完成",
-	"一名角色只能同时进行一项技能的战术研习任务。多名角色之间彼此独立，同时进行",
-	"一名角色每日最多获取<color=#ff5c5c>30000</color>点技能升级经验，其中前<color=#ff5c5c>60%</color>的技能升级经验拥有双倍累计速度"
+	"All you need do is complete these missions, and the skill will automatically gain EXP.",
+	"On one hand, you can only level their skills one at a time. But on the other, you can level one skill per individual ship at the same time!",
+	"Each ship can only gain up to 30,000 skill EXP a day. On the plus side, the first 60% of that EXP will accumulate twice as fast!"
 }
 
 return {

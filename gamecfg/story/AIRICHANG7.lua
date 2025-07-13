@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=45>七 与大家的连接，永不消逝的羁绊</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 7 - AI in Search of Love and Friendship</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·重樱祭典会场",
+			say = "Port - Sakura Festival Grounds",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊～这就是重樱的烟花祭嘛～真热闹啊～",
+			say = "Wooww! So this is a Sakura fireworks festival. Fun times!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，苹果糖好吃",
+			say = "Yep. I like candy apples.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来好好吃～也让我吃一口嘛！",
+			say = "Looks scrumptious! Gimme a bite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}也想要浴衣",
+			say = "I wanted a yukata.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}也想穿浴衣！",
+			say = "I want to wear one too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只能向指挥官抗议了呢",
+			say = "All we can do is petition the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了算了，指挥官的资金周转也很辛苦的…",
+			say = "Look, the Commander has been having issues with funding lately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，你就是指挥官说过的来自异界的人工智能吗？今天请好好放松一下吧",
+			say = "Ah, is this the artificial intelligence from the world beyond chatting about our Commander? I certainly hope you're having fun today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连续出击很辛苦吧？今天稍微放松休息下也无妨",
+			say = "Those sorties wore you out, didn't they? Enjoy yourself to your heart's content.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,13 +194,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "明、明白！非常感谢！",
+			dir = 1,
+			say = "Er, yeah! Thanks a lot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +215,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱，那里有章鱼烧，要去看看吗？",
+			say = "Kizuna AI, there's takoyaki. Want some?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,13 +226,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦，章鱼烧！真好～不过我是AI所以没法吃呢～嗯？不过现在是在碧蓝航线的世界，也许能吃也说不定？唔…？",
+			dir = 1,
+			say = "Oooh! TAKOYAKI!! Oh but I'm an AI and we don't eat. Hm. But maybe I can eat in the Azur Lane world? Hmmm...??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +247,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那里有打气球的摊子。爱，一决胜负，的说",
+			say = "And they've got balloon burst over there. How about a game, AI?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +263,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里有面具摊呢！啊，那不是{namecode:92}小姐的面具吗！？",
+			say = "There's a mask salesman here! Oh is this Miss Kaga's stand!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,24 +279,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离烟花大会还有一点时间，就四处逛逛吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "好，目标是全摊位制霸～！",
+			say = "We still have a bit before the fireworks show. Take your time going around the stalls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +295,23 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对本天才AI来说，拯救一两条金鱼什么的当然不在话下啦～！",
+			say = "Nice! I'm gonna be queen of the festival!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400011,
+			side = 2,
+			bgName = "star_level_bg_114",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Rescuing a goldfish is a piece of cake for a genius AI like me.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -347,7 +344,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱…不是那个“救”…",
+			say = "Kizuna AI... it's not \"rescuing....\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +360,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "苹果糖好好吃～♪啊，怎么怎么～？要捞金鱼吗～？也算我一个～",
+			say = "Sweetie~ These candy apples are delish ♪ Ooh! You're scooping goldfish? I want in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +376,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鱼虽然也不错～不过{namecode:16}果然还是比较想吃肉啊～",
+			say = "Fish is cool and all, but I wanna eat some MEAT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +392,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "捞金鱼…如果捞很多送给姐姐，也许姐姐会很高兴也说不定！",
+			say = "Goldfish scooping.... maybe if I get enough of them, it'll make my big sister happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +408,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "烟花大会马上要开始了哦。大家到那里集合吧",
+			say = "The fireworks will begin soon. Everyone please make your way over there.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -444,7 +441,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天特别为了绊爱准备了最棒的烟花喵！费用当然是由指挥官报销！放心喵！",
+			say = "In honor of Kizuna AI, I went all out on tonyight's fireworks show nya. Nyow I know what you're thinking, but don't worry. I sent the bill to the Commander already nya ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +457,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位～这里这里～马上就要开始了哦♪嗝～嗯？爱变成三个了？",
+			say = "Look! Look! They're shtarting! ♪ Huh? There's 3 AIs now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +473,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，都说了“不要喝那么多”了……海伦娜也来帮帮忙吧",
+			say = "Didn't I tell you to take it easy on that booze? Helena, help her out, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +489,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，圣路易斯姐姐。不好意思了呢，绊爱小姐，待会见吧",
+			say = "Right, St. Louis. Sorry, Miss Kizuna AI, I'll have to catch up with you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,13 +500,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "海伦娜小姐，待会见！{namecode:428}酱也要注意别喝太多哟～！会被打包带走的哦！……被我",
+			dir = 1,
+			say = "Later, Helena! And Prinzy, don't get too drunk now. Someone might try to take you home... to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +521,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快看快看！烟花放出来了！",
+			say = "Look! Look! Fireworks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +537,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "升空的烟花，总觉得胸口有点…难受……",
+			say = "Skyrockets in flight.... maybe they'll reach my heart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,13 +548,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "真漂亮啊…在这边待了这么久，想到总有一天要回去总觉得有点难过呢……",
+			dir = 1,
+			say = "Gorgeous... I hope I can stay here for a long long time. It's gonna suck whenever I finally have to go back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +569,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算爱回到原本的世界，我们之间的羁绊也不会消失的",
+			say = "Even if you go back to your world, AI, you will still be here with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +585,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！就算大家可能忘记现在看到的美丽烟花，但是与爱酱一起看过烟花这件事情，是绝对不会忘记的！",
+			say = "That's right! Even if I can't remember what these fireworks looked like, I'll never forget that I watched them with AI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +601,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让……嗯！是啊！",
+			say = "Yeah! YEAH!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,13 +612,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "(虽然烟花绚烂而又转瞬即逝，但是，和大家一起看烟花的事情，我是绝对不会忘记的。就算大家各自分离，已经萌芽的羁绊也绝对…绝对不会消失的！）",
+			dir = 1,
+			say = "(The fireworks burst into bright rings of color and dissipate, but I'll never forget watching them together with my new friends. Even if one day we end up apart, a part of me will always remain!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +633,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位～最后来一起拍张纪念照片吧～好～茄子～",
+			say = "Listen up! Let's get a group photo to commemorate the occasion! Say cheeeeeeese!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,27 +647,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
-			say = "（咔嚓）",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.5
-					},
-					{
-						1,
-						0,
-						0.5,
-						0.5
-					}
-				}
-			},
+			say = "*click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,13 +658,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_114",
 			actor = 10400011,
-			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
-			say = "这么一来，大家也是Kizuner的一员了！记得要搜索“A.I.Channel”关注频道哟！",
+			dir = 1,
+			say = "You too can be one of my Kizuners! Just search \"A.I. Channel\" and smash that subscribe button there!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -723,7 +696,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！？突然怎么了！？究竟在跟谁说话呢！？",
+			say = "AI!? What's wrong!? Who are you talking to!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +712,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这大概就是所谓的“宣传推广”了吧！",
+			say = "Oh I know! This is what they call a \"shameless plug!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +729,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "抓准一切安利的时机…简直是虚拟主播之鉴呢",
+			say = "Any VTuber will tell you, you can't miss a chance to do some advertising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

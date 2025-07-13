@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"关闭奖励界面",
-	"返回主界面"
+	"Close Reward Menu",
+	"Head back to the main screen."
 }
 
 return {

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>六 Game</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 6: Gaming</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宿舍",
+			say = "Port - Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这边的话，我这个存档已经有万能钥匙了，所以可以直接坐升降机下去，出塔之后，再经过峡谷就能到下个地方了……",
+			say = "I have the master key on this save file. Take the lift, exit the tower, and then cross the canyon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，我已经完全理解了！",
+			say = "I see! I totally get it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之后我可以自己攻略，长岛先去忙也没问题哦",
+			say = "Long Island, I think I know how to do it now! You can head back if you're busy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……你确定？这张地图可是很难的。",
+			say = "Hmm... are you sure? This map is pretty difficult, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "轻而易举~我可是玩过差不多的游戏的！",
+			say = "Piece of cake! I've played games just like this before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你加油。",
+			say = "All righty, do your best then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "久等了，我们继续吧！其实这个游戏我还没来得及玩呢，总之，先分头探索吧，我去这边。",
+			say = "Thanks for waiting for me. Let's go ahead and continue! I haven't had a chance to play this game before, so let's split up and explore!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那这边就交给咱吧。",
+			say = "I'll head over here then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这条路应该没错。",
+			say = "Oh... this should be the correct route!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咱这边也有些线索哦。",
+			say = "I've found some clues over here too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是不可思议呢，在这边感觉有很多和咱那边差不多的游戏。",
+			say = "Hmm, how strange~ There's a game just like this where I'm from. There are a lot of things our worlds have in common...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，是吗？",
+			say = "Eh, really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，比如说《最终○○》，《勇者○○○》什么的，感觉都能找到相似的游戏。",
+			say = "That's right~ For example, you get your starting equipment from the king and stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟这种展开已经算保留项目了嘛",
+			say = "Well, this is a classic after all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，应该是这个道具没错了！你那边应该也有一块，拼一起就对了。",
+			say = "Ah! That's it! Mio, pass me those materials! I'm gonna craft something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大概吧？就算是阿库娅酱现在正在玩的游戏，好像也有很像的……",
+			say = "That makes sense? There's a classic just like this where we're from too. If I recall, Aqua was playing a similar game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，咱这边也看到道具的位置了，稍等一下哦。",
+			say = "Ah, I found some items over here as well. Hold on a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊，我还以为她在吹牛呢……毕竟，那款游戏即便老手要通关过也会死无数次呢……",
+			say = "Hmm... But, that game is a little different... it always changes things up on you no matter how many times you play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇啊！！！这里是哪里啊！！！为什么这里会有一个精英怪！！",
+			say = "Gaaahhh!! Where am I?! Why is there an Elite mob over here?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起，对不起，对不起，对不起，对不起,哇啊啊啊啊啊！！",
+			say = "I'm sorry! I'm sorry! I'm sorry! I'm sorry! Waaaaah!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Neeeeeeeeeeee！！！！！！要死了啊！！！！！！！",
+			say = "Neeeeeeee!! I don't wanna die!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈，毕竟是阿库娅酱呢。",
+			say = "Ahahahha! Well, that's Aqua for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再来一局，再来一局吧！",
+			say = "We're trying this again! I won't give up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等一下，阿库娅，今天的游戏时间就到此为止吧？已经很晚了哦",
+			say = "Aqua, isn't it about time to give it a rest? It's already nighttime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？不是在日期变化之后才是夜晚的开始么？",
+			say = "Eh? Night doesn't begin until the date changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，夜晚从现在才开始呢！",
+			say = "That's right! The night hasn't even begun yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？不可以哦，晚睡可是对身体很不好的。",
+			say = "I'm not buying that. Staying up late is bad for your health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "游戏虽然很重要，但是身体更加重要，只有保持好身体，才能更好地玩游戏哦。",
+			say = "Games may be important, but your health is the most important. You won't be able to fully enjoy your games if you aren't healthy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……太过正确以至于无法反驳。",
+			say = "Nnngh... there's no denying that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好吧。不知道为什么，感觉会自然而然的同意澪说的话呢。",
+			say = "Mio, you're acting just like a mother.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是在hololive“想当妈妈排行榜”中获得第一名的澪妈妈呢！",
+			say = "That's because Mio was number one in Hololive's \"Wants to Become a Mom\" rankings! Right, Mama Mio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么连阿库娅酱也这么叫了！",
+			say = "Not you too, Aqua!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "澪妈妈，明天我要吃便当！",
+			say = "Mama Mio~ I want you to pack me a lunch today~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "澪妈妈，我也要~",
+			say = "Mama Mio, me too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……要是你们今晚上床的话，咱就帮你们做。",
+			say = "... If you hurry up and go to bed, I'll consider it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,8 +756,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "湊阿库娅&长岛",
-			say = "好~~！",
+			actorName = "Minato Aqua & Long Island",
+			say = "Okay~!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "真是的……咱才不想这么早就当妈妈啦！",
+			say = "*sigh*... Why are they treating me like their mom anyway~?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

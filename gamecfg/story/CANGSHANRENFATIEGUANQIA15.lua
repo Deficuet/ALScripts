@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_kagura_2",
-			say = "镜面海域・第一扇门",
+			say = "Mirror Sea - The First Door",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "那么首先，挑战这扇门的是我、焰小姐、{namecode:11:晓}小姐和里诺小姐。",
+			say = "We have decided that the team for this door will consist of me, Homura, Akatsuki, and Reno.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,10 +31,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
-			say = "（鼓掌声）",
+			say = "CLAP CLAP CLAP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "对手是塞壬的话，我们忍者的技能能起到多大的作用还无法确定。",
+			say = "That being said, there is no foretelling how practical our shinobi skills will be if it comes to a battle with the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "再者，对于舰装的操作，我们只能算是稍微熟悉，远称不上熟练。",
+			say = "Moreover, our rigging proficiency is lacking as we've only grasped the basics of handling them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "因此，在战斗上的很多方面我们都要仰仗{namecode:11:晓}小姐和里诺小姐了。",
+			say = "Which is to say, we will likely be wholly reliant on Akatsuki and Reno in the event of combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
-			say = "也许会出现在各种方面给大家添麻烦的情况，届时还请多多关照（鞠躬）",
+			say = "Kindly bear with us. I will try my best to not weigh you down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不敢不敢，请抬起头来吧，斑鸠阁下！",
+			say = "Please, there is no need to be so humble!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "一路之上你们展示的各种忍术、熟练的技能与战斗能力和我们相比并不逊色。",
+			say = "You stand shoulder to shoulder with us, as shown by the various ninjutsu, advanced skills, and combat proficiency you've demonstrated thus far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "接下来的试炼中，让我们分工处理彼此擅长的部分，一同并肩战斗吧！",
+			say = "If battles are ahead, let us both take advantage of our respective strengths!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "……谢谢，我一定会尽全力战斗的。",
+			say = "Thank you for your kind words. I will give it my all in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么就借此机会，让大家见证一下焰红莲队引以为豪的忍者实力吧！",
+			say = "I got you! You've got first-row seats for the showcase of the skills we in the Homura's Crimson Squad pride ourselves on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "（嗯……难得有机会能近距离看到真正的忍者，应该尽可能多观察，偷偷学一些技能……）",
+			say = "(I hope they'll demonstrate as many of their skills as possible so I may copy them.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
-			say = "呃？你说什么？",
+			say = "Huh? What did you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，没、没什么！",
+			say = "Oh! Nothing! I didn't say anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_kagura_2",
-			say = "一段时间后，第一扇门内——",
+			say = "Sometime later...",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也就是说，当遇到那种情况的时候应该利用火或水之类的自然现象吗……？",
+			say = "...Are you saying you take advantage of natural elements like fire and water in those cases?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我们每个人都有擅长的忍术，因此会首先围绕这些来规划作战方式。",
+			say = "Yeah. Each of us has our own specialization which our ninjutsu's focused on. I use fire, Yumi uses ice, and so on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "例如我用火，雪泉用冰，在此基础上根据所面对的情况灵活变换使用方式。比如将其包裹在武器上，或者弹指发射出去之类的。",
+			say = "It's pretty adaptable to the situation. You can do stuff like wrap it around your weapon, or launch it with a snap of your finger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此～虽然我们也会更换炮弹种类来改变攻击方式，但感觉与这又不相同呢。",
+			say = "Damn. We shipgirls can also change our method of attack by swapping ammo types, but that's entirely different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能够根据状况灵活使用多种攻击手段，不愧是忍者，有一种专业又干练的感觉！令人羡慕……！",
+			say = "I'm kinda jealous! I wish I had that level of flexibility with my attacks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然在威力上与你们相比略逊一筹就是了。",
+			say = "Power-wise, your guns pack the bigger punch, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒是你们称之为舰装的……可以像风一样自由穿梭在海上的忍具，这才是更令人羡慕的存在。",
+			say = "Then there's the rest of the rigging... I'd kill for a shinobi gadget that let me move like the wind over the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如何将其活用于忍术中……虽然现在说这些疏忽不是时候，但我确实对此有些期待啦~",
+			say = "All the shinobi applications it could have... Bad time to daydream, I know, but it's exciting to think about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有这种和舰装结合的忍术的话，请务必教教我！",
+			say = "You should teach me your shinobi techniques! Please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，里诺就能利用替身术避免敌人的攻击，然后瞬间移动到敌人的背后，干净利落一击得手！欸嘿嘿嘿嘿嘿……",
+			say = "I wanna learn how to vanish into a cloud of smoke and avoid an attack, or teleport behind an enemy like fwoosh... Think of the possibilities!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，里诺阁下，不公平！也请教教在下……教教在下忍术吧！！！",
+			say = "Hey! That's not fair! I want... I want to be her disciple as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "这样的话，干脆开设一个忍术教室感觉也很有趣呢。当然，要等一切结束之后了。",
+			say = "It could be fun to start a ninjutsu class. After this is all done, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "现在我们还是先将全部注意力放在救出雪不归小姐上吧！",
+			say = "For now, we should focus on rescuing Fubuki!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明白！就交给在下吧！",
+			say = "Yes, of course! I shall see that it's done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好！那就让我们比比谁能打败更多的敌人吧！",
+			say = "Attagirl! Let's see who of us can knock out the most foes!",
 			painting = {
 				alpha = 0.3,
 				time = 1

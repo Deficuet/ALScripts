@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"深谷来信\n\n<size=45>序</size>",
+					"Letters from Valley Hospital\n\n<size=45>1 Prologue</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "我从未想过，一封寻常的书信会把我引向这样一个地方。",
+			say = "I never would've thought a regular old letter would lead me to a place like this.",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "那是半年前，我收到了米勒最后一封信。",
+			say = "Half a year ago, I received my last letter from Miller.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "作为多年的调查搭档，我们一直保持着书信往来。",
+			say = "As long-time investigation partners, she and I have constantly stayed in touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但这一次，她的文字中透露出一丝不同寻常的气息。",
+			say = "This time, though, her correspondence had an ominous quality to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "信中，她先是称赞她最近因调查委托而入住的深谷病院环境优美。",
+			say = "In the letter, she sang the praises of the sights around Valley Hospital, where she'd been admitted for a commissioned investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但很快话锋一转，说起了一些令她不安的现象。",
+			say = "Things quickly took a shocking turn, however, and she began telling me about the unnerving things she'd experienced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "院方过分热情的态度，暗中受阻的调查，深夜里忙碌的脚步声等等。",
+			say = "The downright excessive friendliness of the hospital staff, someone interfering with her investigation, hasty footsteps echoing in the night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "而在那之后，我再也没有收到过来自她的任何信件。",
+			say = "After that final letter, there was not so much as a peep from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "我也多次尝试联系深谷病院，但得到的永远是同样的回复：",
+			say = "I tried again and again to contact Valley Hospital, only to receive the same answer each time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "“经查证，入院病人中并没有一位名叫米勒小姐的人。”",
+			say = "\"Upon examination, we could find no patient in our care under the name of Miller.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "深感问题严重的我开始暗中调查这座名为深谷病院的医院。",
+			say = "Given the seriousness of the situation, I began secretly looking into this hospital myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "表面上，这是一家对外提供门诊医疗、医学研究和高端护理疗养业务的综合性医疗机构。",
+			say = "On the surface, it is indeed a comprehensive medical institution that performs medical research and provides outpatient care and high-end medical services.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但深入调查后，我发现这家医院周围出现过流浪汉失踪事件。",
+			say = "Through my investigation, I learned that there have been disappearances of homeless people in the area around the hospital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "偶尔也有入住其中的普通人在出院后不久就消失在大众的视野当中。",
+			say = "Not only that, there have also been cases of ordinary former patients going missing following the end of their stay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "作为一名侦探，我可以确信米勒已经将自己卷入了不同寻常的麻烦之中，我需要尽快行动——",
+			say = "My detective's instinct told me two things: That Miller had been caught up in some extraordinary incident, and that I need to spring into action immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "在确定好切入点后，我花重金买通了相关人员，伪造了一份完美的身份证明文件。",
+			say = "After determining my entry point, I spent a lot of money bribing key people and forging a perfect ID.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "从今天起，我将以“一位因工作压力过大需要休养的舰队指挥官”的身份入住深谷病院。",
+			say = "Starting today, I will be hospitalized under the guise of a naval commander who needs treatment for high stress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "于是，我的旅程开始于一辆破旧的汽车，驶向那个位于群山深处的地方。",
+			say = "And so, I got into a wobbly rustbucket and headed for the hospital nestled deep in the mountains.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "当汽车终于抵达目的地时，不得不承认这里的第一印象确实令人惊艳。",
+			say = "Once I finally reach my destination, I gasp in awe of the scenery, far more beautiful than I had imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "深谷病院坐落在群山环抱之中，红砖建筑在阳光下泛着温暖的色泽。",
+			say = "There, Valley Hospital stands – a red brick building, bathed in sunlight and glowing warmly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "周围是修剪整齐的花园和古老的橡树，空气中弥漫着淡淡的花香。",
+			say = "All around me, old oak trees stand proud while the wind blows through a well-maintained garden, the faint scent of flowers gracing my nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "看到我的车辆驶近，一群身着白色制服的护士已经在门口列队等候。",
+			say = "I arrive at the hospital entrance and find several nurses already waiting for me there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "欢迎您，指挥官。我们已经恭候多时了。",
+			say = "Welcome, Commander. We've been waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "指挥官……散发着诱人的味道呢……嘻嘻……",
+			say = "Commaaander... You smell so hot... Heheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "待会检查身体的时候……请让我好好品尝哦……呼呼呼♡",
+			say = "I wanna get a good taste of you later during our... examination... heheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "不必担心，我们将会为您提供最好的服务，您一定能在这里度过一段美好时光的。",
+			say = "Rest assured, our hospital provides the finest service. I guarantee you'll have a wonderful time here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "有任何烦恼，都可以找我们商量。",
+			say = "Should you have any questions, I'm always happy to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "我们会像守护珍贵的宝物那样，用心呵护您的健康哦～",
+			say = "We will protect your health like one would a fine treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "呵呵，好啦，之后我们会有大把的时间和指挥官相处呢。",
+			say = "Heehee. Alright, wrap it up, girls. We have all the time in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "指挥官，我先来为您办理入院手续吧。",
+			say = "Commander, allow me to guide you through the admittance procedure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "如您所见，医院整体由五大区域构成，分别是诊疗中心、住院大楼、疗养中心、后勤中心和研究中心。",
+			say = "As you see, the hospital is divided into five areas: The medical center, the inpatient building, the recuperation center, the logistics center, and the research center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "您可以在白天自由出入这些区域。如需协助，各区域的分管护士将随时提供指引服务。",
+			say = "You're free to come and go through these areas during the day. If you need any help, the head nurse of each area will assist you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "不过太阳落山之后，还请乖乖遵循医嘱，待在病房里睡觉哦~",
+			say = "However, after the sun sets, you have to follow the staff's instructions and rest in your room, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "{playername}",
-			say = "嗯……明白了。",
+			say = "Alright. I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "{playername}",
-			say = "（看来调查的最佳时间是趁夜晚进行呢……）",
+			say = "(I'll have to keep my investigating to the night hours, then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
-			say = "那指挥官请随我来，登记处就在前方——",
+			say = "Okay, then come with me. The reception's over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,19 +530,19 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>就这样，我以患者的身份顺利入住了深谷病院。</size>",
+					"<size=34>And so, I successfully infiltrated Valley Hospital as a regular patient.</size>",
 					1
 				},
 				{
-					"<size=34>是时候开始调查了。</size>",
+					"<size=34>It's time to start my investigation in earnest.</size>",
 					2
 				},
 				{
-					"<size=34>米勒，我的最佳搭档。</size>",
+					"<size=34>Wait for me, Miller, my good old partner.</size>",
 					3
 				},
 				{
-					"<size=34>不论发生了什么事，我都会安全带你回家的——</size>",
+					"<size=34>I swear on my honor that I'll bring you back.——</size>",
 					4
 				}
 			}

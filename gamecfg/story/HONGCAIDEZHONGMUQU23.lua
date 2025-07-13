@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·斯卡帕湾近海",
+			say = "Scapa Flow - Nearby Waters",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，在斯卡帕湾外发现了铁血总旗舰{namecode:440}的踪迹。",
+			say = "Commander, we've located the remaining Iron Blood forces, as well as Friedrich herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107060,
-			say = "其正与重樱舰队以及一支未知铁血舰队一同向着您所在的方向缓慢前进。",
+			say = "She seems to be leaving Scapa Flow's harbor and heading towards your flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "达喀尔港的重樱舰队果然还是加入战斗了啊……",
+			say = "Why is Akagi's fleet with them as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "不过突然出现的未知舰队……？难道这就是{namecode:440}拖延时间的原因么。",
+			say = "And who are those new ships? Do they have something to do with Friedrich's real plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 705050,
-			say = "指挥官同志…………即将…………抵达…………",
+			say = "Comrade Commander... we are... arriving...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "嗯…………？通讯出现干扰了？",
+			say = "A message from the Northern Parliament... but there was too much noise to hear its contents properly. Didn't the Iron Blood just stop their jamming efforts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "埃尔德里奇，有什么异常情况么？",
+			say = "\"Eldridge, check on the status of our communication equipment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……通讯系统，无异常。指挥官，我们没有被干扰。",
+			say = "All equipment is... normal... No problems in the flagship––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "也就是出问题的是北方联合舰队那边……",
+			say = "I was afraid as much. That could only mean one thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，不好了！周围海域突然毫无征兆的出现了大量塞壬活动迹象！",
+			say = "Seems like the bad feeling in my gut was right. The Sirens have started to make their move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "塞壬……？NA海域的塞壬不是随着核心区的攻陷已经基本被清理干净了么？",
+			say = "\"I thought we taught them a lesson for good during Operation Siren, but I guess that's a bit too optimistic...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "我也不知道这些塞壬是从哪里冒出来的……",
+			say = "Where did all these guys come from? We're in trouble, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "除了塞壬舰队之外，海域里还同时出现了多处镜面海域！",
+			say = "We're not just against one Siren fleet! My readings are showing multiple outbreaks of Mirror Seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "北方联合舰队最先被波及的，详细情况正在评估中！",
+			say = "The Northern Parliament fleet seems to be the first group to be affected! I'm going to have to check in on the other fleets' situation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，航空舰队周围观察到海雾生成，目前正在快速扩散中，预计舰队将会很快因卷入海雾与外界失去联系。",
+			say = "A heavy fog is starting to spread across the water! Commander, I'd advise you to keep all our fleets together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们会尽快突破塞壬的阻碍与您汇合的，在此之前请谨慎行动。",
+			say = "Stay where you are! We're coming to regroup with you right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这里是萨拉托加，我这边的情况也很不妙！一支预备舰队已经在镜面海域中失去联络了！",
+			say = "It's gotten to us too! We've already lost contact with a reserve fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我正在想办法接近你们的位置，但是很困难！",
+			say = "I'm not sure we'll be able to get to your position, but I'm trying my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "不用着急，优先保护好自己。周边护卫舰队优先保证航空编队的安全！",
+			say = "\"I don't like the idea of grouping everyone in one place. Prioritize your own safety first and protect the carriers to maintain our visibility!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105130,
-			say = "命令收到，现在开始调整航线。",
+			say = "Understood! We'll correct course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 103160,
-			say = "可恶……指挥官，我们无法及时赶到航空舰队的位置。突然出现的大量塞壬人型精英阻断了我们的航线！",
+			say = "Damnit... We're trying to make it back to the carriers but a swarm of humanoid Sirens showed up! This might take us a while!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "各舰队推进速度放缓，不要优先向着斯卡帕湾前进了。",
+			say = "The sudden appearance of the Sirens disrupted all the fleets as they tried to converge on Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "航线受阻的舰队就近与身边的友军汇合，优先清理身边的敌人与镜面海域，自主决定行动目标。",
+			say = "Our communication network was in tatters, but I tried to group nearby fleets together as best as I could, focusing on working our way through the fog one piece at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102160,
-			say = "到底是怎么回事……如此多的镜面海域肯定是早就设置好的……",
+			say = "How is possible for so many Mirror Seas to erupt when we've continuously had so many patrols and recons over this area?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是我们真的…………根本就没有检测到任何塞壬目标的活动啊，连一丝一毫迹象都没有！",
+			say = "Did they anticipate for all of this to happen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
-			say = "孟菲斯，不要慌乱。立刻联系皇家最近的空军基地，我们需要空军支援，越多越好。",
+			say = "\"Stay calm, Memphis. Contact the nearest Royal Navy base immediately. We need air support, as much as they can spare.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "如果有可用舰队的话也让她们立刻出动。",
+			say = "\"If they have any fleets available, ask that they dispatch them immediately.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "相信皇家为了护卫本土安全，肯定在附近多少留了一些舰队的。",
+			say = "\"These are their waters after all. Surely they have to have some patrols in the area.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是……遵命！",
+			say = "Understood, I'll forward your message to them right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "佐治亚，你那里情况怎么样？",
+			say = "\"Georgia, how's the situation on your end?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 199020,
-			say = "指挥官，我正在观察战场。",
+			say = "Good enough, Commander. I can still hear you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 199020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海雾现象也许暗示着，本次袭击是由构建者发动的。",
+			say = "According to Enterprise's previous reports, the appearance of this sea fog likely signifies the presence of the high-level Siren, Compiler.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 199020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只要我们能锁定构建者的位置并消灭它，就能挫败此次塞壬的大规模伏击。",
+			say = "If we can locate and defeat her, that will most likely cause the fog to disperse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "明白了，我这就让航空力量展开重点搜索。",
+			say = "The fog heavily limited the range and scope of our carrier-based recons. Clearing the fog naturally is high priority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "企业，萨拉托加，能收到么？",
+			say = "\"Enterprise, Saratoga, can you hear me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,8 +626,8 @@ return {
 			bgName = "bg_endingsong_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "………………",
+			actorName = "Communicator",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "已经因为海雾阻断失去联系了么……",
+			say = "\"It's no good. Seems like the fog is also jamming our equipment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "白鹰海军最大最强的Black Dragon，{namecode:199}登场！",
+			say = "Carriers are great and all, but don't forget you still have the indomitable Black Dragon at your side~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，好久不见~想我了么！",
+			say = "Missed me, Commander? How are you holding up over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "{namecode:199}，来得正好！你那边情况怎么样？",
+			say = "A lively voice echoed through the briefing room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "虽然有一半舰队暂时因为镜面海域失联，不过我带着另一半赶过来了哦！",
+			say = "We've lost contact with about half our fleet, but I brought the other half with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107090,
-			say = "指挥官，对于构建者的侦察就交给我们吧，我们一定会在最短时间内把它找出来的！",
+			say = "I'll find out where Compiler is hiding! I'm going to do my part for the fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "帮大忙了。",
+			say = "\"That's going to be the first step if we want to figure out exactly what we're up against.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "唉，真是被这突如其来的状况搞得一团糟啊。",
+			say = "Psst... Commander, I saw a mass-produced Iron Blood fleet on my way here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我注意到了哦，塞壬只盯着我们发动攻击。撤离的铁血舰队就被它们直接放过去了。",
+			say = "But the Sirens weren't attacking them at all. Only us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,11 +790,11 @@ return {
 			},
 			options = {
 				{
-					content = "这里是塞壬和铁血一起设下的陷阱！",
+					content = "\"Does that mean they're working together...?\"",
 					flag = 1
 				},
 				{
-					content = "这是铁血和塞壬的配合行动……",
+					content = "\"Don't jump to conclusions right away...\"",
 					flag = 2
 				}
 			}
@@ -808,7 +808,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "毫无疑问呢。以前虽然有过很多间接证据，不过这么光明正大的联合作战倒还是第一次。",
+			say = "I can't say for sure, but the evidence does point in that direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "到了危急关头，铁血也终于不加隐藏了啊。",
+			say = "Granted, the Sirens sometimes have objectives of their own, but I'd urge you to stay on your guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107110,
-			say = "指挥官，我们发现构建者的位置了！",
+			say = "Commander! We've located a humanoid Siren that appears to be Compiler!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "它正带领着大量敌舰从东南方向您接近，似乎要与正面的{namecode:440}一同对您进行夹击！",
+			say = "She's leading a massive fleet towards your direction from the southeast! Wait... is that Friedrich's fleet coming from the northeast?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "情况了解~不用担心，你去专心处理铁血总旗舰，后面的敌人就交给我了！",
+			say = "I'll take care of the Sirens! Commander, make sure you give Friedrich a thorough talking-to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "{namecode:199}舰队，全速出击~！",
+			say = "I won't let you anywhere near the Commander, Siren scum!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "塞壬也许会干涉本次作战，这种事态已经事先已经想到了。",
+			say = "I had long prepared for the possibility of the Sirens interfering during this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			say = "所以才从本土带来了大量舰队，并从星海中带来了佐治亚与埃尔德里奇……",
+			say = "I assembled a coalition, and even tapped into the Sea of Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			blackBg = true,
-			say = "不过目前看起来，好像还是有些不太够啊……",
+			say = "But with the wild card of Friedrich der Große thrown in, it seems that my preparations were not thorough enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>四 惊喜&惊吓</size>",
+					"Tonic and Tea\n\n<size=45>4. Out of the Box</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "只要再转过前面的街角，就到两家咖啡店的位置了。",
+			say = "The new Royal Navy and Iron Blood stores are just around this corner.",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "皇家午茶<Queen's Tea>与莱茵咖啡馆 Café im Rhine，从名字开始就很有阵营特色的两家店。",
+			say = "They have names quite representative of their respective factions – The Royal Tea, and Scharlachroter Tresen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "听说现在已经成为港区最热闹的地方了。",
+			say = "And apparently, they've become the port's hottest places to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "其实正式开业是昨天，不过因为工作日程原因……总之，现在总算是空下来了。",
+			say = "I meant to check them out yesterday, but couldn't due to work getting in the way. Now, though, it's time to pay the girls a visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,11 +97,11 @@ return {
 			bgName = "bg_main_day",
 			actor = 402041,
 			dir = 1,
-			actorName = "{namecode:424}&佩内洛珀",
+			actorName = "Leipzig & Penelope",
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指、指挥官！\n指挥官——！",
+			say = "- C-Commander! - Hi, Commander!",
 			subActors = {
 				{
 					actor = 202292,
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "欸？你、你是皇家的……",
+			say = "Huh? P-Penelope...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "铁血的？！难道也是来……",
+			say = "L-Leipzig...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "突然，从拐角处冒出了两个一脸惊讶的身影。",
+			say = "Before I can even turn the corner, a representative from each establishment jumps out to greet me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "指、指挥官，请…来我们这边的店里坐坐吧！",
+			say = "Umm! C-Commander, we'd love to see you at our café! Pl-please come check us out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是我们的传单……现在店里最新推出了好喝的碳酸咖啡！请、请务必要来尝试一下！",
+			say = "Here, h-have a flyer! I recommend trying our new coffee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……要是选择休息之处的话，请一定要选择我们皇家这边哦？",
+			say = "If you want to kick back and relax, then you should visit The Royal Tea instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202292,
-			say = "至于理由的话……因为我们皇家的服务肯定会更好？",
+			say = "Because, uhh... our staff is more welcoming, I guess?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,12 +253,12 @@ return {
 			actor = 402041,
 			side = 0,
 			bgName = "bg_main_day",
-			actorName = "{namecode:424}&佩内洛珀",
+			actorName = "Leipzig & Penelope",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官————",
+			say = "- Come visit us, Commander...! - You won't regret it, Commander...",
 			subActors = {
 				{
 					actor = 202292,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "还没到店门口就遭遇到了重大抉择选项，现在应该——",
+			say = "I've yet to set foot inside either store, and already they're trying to one-up each other...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Surprise！",
+			say = "Hey-hey-hey! Surprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "？！！",
+			say = "\"What the–?!\"",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -345,9 +345,9 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			actorName = "{namecode:424}&佩内洛珀",
+			actorName = "Leipzig & Penelope",
 			hidePaintObj = true,
-			say = "哇啊啊啊啊！",
+			say = "- EEK! - Bwah!",
 			effects = {
 				{
 					active = true,
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "突然，身穿女仆装（？）的大青花鱼，从路边的箱子（？）里蹦了出来。",
+			say = "A wild Albacore appeared. Out of a cardboard box of all things.",
 			effects = {
 				{
 					active = false,
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "抱歉抱歉，本来只是埋伏在这个必经之路上想吓吓指挥官呢~",
+			say = "Teehee~ Oops, sorry for spooking you two. I only meant to give the Commander a fright!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "不过一直在路上拦着指挥官不放的你们也有一点点错哦！箱子里太闷，我已经等不下去了！",
+			say = "Betcha would've freaked out even harder if you'd just come a little closer first. Alas, you were all taking too long, and impatience got the better of me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402041,
-			say = "说的也是…不应该一直把指挥官拦在路上……对不起！",
+			say = "W-were we taking that long...? Sorry for keeping you here, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉……那我就先回店里等你了。",
+			say = "I'm sorry too. I'll just... wait for you at our store.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "{namecode:424}和佩内洛珀都转身离开，四周暂时只剩下了穿着女仆装（？）的大青花鱼。",
+			say = "Whether Albacore meant to or not, her shrewdness got Penelope and Leipzig to back down. Now I can finally move on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,15 +478,15 @@ return {
 			},
 			options = {
 				{
-					content = "多谢解围！",
+					content = "\"Nice job, Albacore.\"",
 					flag = 1
 				},
 				{
-					content = "为什么是女仆装？",
+					content = "\"Why the maid uniform, Albacore?\"",
 					flag = 2
 				},
 				{
-					content = "…………",
+					content = "Say nothing",
 					flag = 3
 				}
 			}
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官在说什么话我完全听不懂哦~",
+			say = "Nice job on what~? I have no clue what you're talking about~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "现在还是秘密！",
+			say = "Good question! Buuut that's a secret~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108022,
-			say = "嘿嘿~既然吓人的目的达到了，我就先走咯~",
+			say = "Anyhow, you gonna visit the new stores, Commander? Only one will get to be the lucky first to serve you, so choose carefully now~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两家店我都去过了，首先要去哪家真是难以抉择呢~指挥官加油哦~！",
+			say = "Teehee~ Well, I had my fun, so I'm off. Toodles~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "是啊，难题依旧存在……究竟应该先去哪家呢？",
+			say = "As obvious as that is, she's right about one thing: it'll be hard choosing which to visit first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "在众人的掩护下，金色暗影成功救回了唯和春菜。",
+			say = "With everyone's help, Golden Darkness was able to rescue Yui and Haruna.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这个参数……唔！",
+			say = "Now I take this parameter, and... Bam!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这样就好了！这样一来超级游戏制作机就干涉不了我们的舰装了！",
+			say = "Nice! Now Questy shouldn't be able to do anything bad to us anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "菈菈在战斗中，似乎也有了不小的收获。她在一通操作后得意地笑了笑。",
+			say = "Lala finished fiddling with the device and smiled in satisfaction. She'd made quite a bit of progress in the course of the battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "很好，现在可以跟它们做个了断了！",
+			say = "That's great! We can fight without reserve now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "伴随着轰鸣的炮火，不断有敌人被击败、消散，而菈菈也借机回收着掉落的能量石。",
+			say = "Enemies sunk one after another, backed by the roaring of cannons. Lala took every opportunity to snatch up the Energy Stones that appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "很好~就保持这个势头继续前进吧~！",
+			say = "Woohoo~ Let's keep on pressing the advantage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看我击溃它们！",
+			say = "I'll smash 'em to bits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "等等。",
+			say = "Wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "就在娜娜等人想要继续加速追击时，伊丽莎白女王突然伸手示意众人停下。",
+			say = "Before the Deviluke sisters could give chase, Queen Elizabeth ordered them to stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "嗯……？",
+			say = "Hm? What's wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "小心，本王有种不妙的预感。",
+			say = "Be careful. I have a really bad feeling about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "能感觉到，强大的气息……",
+			say = "...I sense something enormously powerful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
 			side = 2,
-			actorName = "超级游戏制作机",
-			say = "警告！警告！监测到超高能反应！",
+			actorName = "Questy MacGuffin",
+			say = "WARNING! WARNING! SUPER-HIGH ENERGY LEVELS DETECTED!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "欸？超级游戏制作机，怎么了？语音功能应该已经不能用了才对啊……",
+			say = "Huh? What's wrong, Questy?! I thought your speech function was broken...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐，现在不是对这种事感到惊讶的时候吧？！比起这个，超高能反应才更重要……",
+			say = "Lala, now isn't the time to think about that! What's this about super-high energy levels?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人，娜娜，看那边！",
+			say = "Lala, Nana! Look over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "顺着梦梦所指的方向，一个散发着强大气势的身影，正以惊人的速度朝着这边冲来。",
+			say = "In the direction she pointed, an intimidating figure was approaching at alarming speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "那个身影有着与菈菈相似的外表，但给人一种极其危险的感觉。",
+			say = "It resembled Lala, yet it had a dangerous air totally unlike hers... A doppelganger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "欸……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "那，那家伙是……怎么回事啊？",
+			say = "Wh-what's with that thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "和之前的复制体又不一样了……变得更强了吗？",
+			say = "It's nothing like the previous doppelgangers... Have they evolved even further?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这家伙……看上去很棘手啊。",
+			say = "H-Hmm. A formidable one, indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "难道说……",
+			say = "No way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人……？",
+			say = "Lala...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道说它就是超级游戏制作机，所设置的……最终挑战？！",
+			say = "Is this Questy MacGuffin's final challenge?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

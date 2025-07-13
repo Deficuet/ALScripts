@@ -9,7 +9,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			bgName = "bg_hms_3",
-			say = "？？？·？？？",
+			say = "Unknown Location",
 			dir = 1,
 			bgm = "bsm-5",
 			flashin = {
@@ -32,11 +32,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:426}",
+			actorName = "Admiral Hipper",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:428}，差不多到时间出发了吧，磨磨蹭蹭的在做什么呢？",
+			say = "Eugen, you sure took your sweet time. The hell were you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "别急嘛{namecode:426}，这么火急火燎可是会生出皱纹的，那就太可惜了~",
+			say = "Calm down, Hipper. Your cute face will get all wrinkly if you pout so much~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			bgName = "bg_hms_3",
-			actorName = "{namecode:426}",
+			actorName = "Admiral Hipper",
 			dir = 1,
-			say = "哈？！「幻光」行动，这么重要的作战居然找你当旗舰指挥，我怎么可能不着急啊！",
+			say = "I can't calm down because you're the one in charge of the operation.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -85,11 +85,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘘。这次的旗舰明明是我们北方的女王，{namecode:436}哦。",
+			say = "Is that so? Isn't our mighty Tirpitz the flagship this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "先这样...然后这样...呵呵，准备工作终于全部完成了。",
+			say = "Anyway, to put on the finishing touches...♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,11 +117,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:429}",
+			actorName = "Deutschland",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "终于可以起航了么...太慢了，{namecode:428}！我已经等的不耐烦啦！",
+			say = "Do I get to sortie yet? You've got some nerve to keep me waiting like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:434}",
+			actorName = "Gneisenau",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "她们自以为计划天衣无缝，殊不知早已漏洞百出......",
+			say = "No matter how airtight they think their plan is, we'll stab it full of holes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:433}",
+			actorName = "Scharnhorst",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "今天是时候就让皇家为它在平日里的傲慢付出代价了！",
+			say = "Ahaha! Let's show those pompous bastards an explosively good time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,11 +175,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:431}",
+			actorName = "Admiral Graf Spee",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "总是一个人孤独地航行、孤独地战斗，没想到这样的我也能迎来同大家并肩战斗的机会...",
+			say = "(...I've always been alone... But now, with everyone...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:432}，我同你一样深知寒冷与孤独的滋味...珍惜这次难得的作战机会，并肩战斗，然后为铁血带来胜利吧！",
+			say = "(I know how you feel, Spee. Cherish this moment, for you are needed for the Iron Blood to achieve victory.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵呵...没错，让我们如同飘忽不定的极光一般游弋在大洋之上，为铁血带来荣耀与胜利吧~",
+			say = "Now, mercurial light of the North... How shall we bend you to achieve our victory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "既然这么想用围歼我们的主力舰队，那就真的出动主力舰队给你们看看......",
+			say = "If you wish to ensnare the core fleet of the Iron Blood, you may not like what you find in your net.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,11 +239,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "可别被自己用鱼饵钓出来的鱼吓到了哦，呵呵呵呵~",
+			say = "Now, show me how you dance, my little queen and your loyal followers~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +255,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Eisen und Blut über alles",
+			say = "Victory to the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

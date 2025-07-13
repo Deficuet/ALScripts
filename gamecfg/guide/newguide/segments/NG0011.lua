@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"本次作战新增了多种战斗机制，具体信息点击帮助按钮即可查看"
+	"For this event, we have a new feature for you! You can read more details by tapping the Help button!"
 }
 
 return {

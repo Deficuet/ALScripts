@@ -11,43 +11,43 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>在那幽暗密林的出口，三头野兽挡住了我的去路</size>",
+					"<size=51>At the edge of that gloomy forest, three beasts blocked my path</size>",
 					1
 				},
 				{
-					"<size=51>豹子</size>",
+					"<size=51>There was the Leopard,</size>",
 					2
 				},
 				{
-					"<size=51>——它皮色斑斓，利牙环眼</size>",
+					"<size=51>its coat dazzling with many colors</size>",
 					3
 				},
 				{
-					"<size=51>狮子</size> ",
+					"<size=51>There was the Lion,</size> ",
 					4
 				},
 				{
-					"<size=51>——它头颅高昂，盛气凌人</size>",
+					"<size=51>its head ringed with a proud mane</size>",
 					5
 				},
 				{
-					"<size=51>母狼</size>",
+					"<size=51>And there was the She-Wolf,</size>",
 					6
 				},
 				{
-					"<size=51>——它骨瘦如柴，却也饿得发疯</size>",
+					"<size=51>its body emaciated, mad with hunger</size>",
 					7
 				},
 				{
-					"<size=51>它们将我包围，满抱种种贪婪欲望</size>",
+					"<size=51>They surrounded me, their ravenous intentions dripping from their mouths</size>",
 					8
 				},
 				{
-					"<size=51>啊，它们一步一步地向我逼近，把我逼回到幽暗的森林</size>",
+					"<size=51>Little by little, step by ominous step, they advanced on me; I looked desperately back toward the dark forest</size>",
 					9
 				},
 				{
-					"<size=51>那里连太阳也变得黯淡无光…</size>",
+					"<size=51>A place where even the light of the sun itself had been snuffed out...</size>",
 					10
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "皇家三岛",
+			say = "The Royal Islands",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
@@ -129,11 +129,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜利，可畏，你们可是都迟到了哦",
+			say = "Victorious, Formidable, the tea's going to go cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +145,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "胜利",
+			actorName = "Victorious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉~想到要服役的事，不知不觉就…啊哈哈哈",
+			say = "Ahahaha... It was so pleasant and warm outside that I ended up dozing off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,11 +161,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胜利姐是在想要服役的事，还是在想服役之后————",
+			say = "That's Victorious for you. Good day, Illustrious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,9 +179,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_italy_cg4",
-			actorName = "胜利",
+			actorName = "Victorious",
 			dir = 1,
-			say = "啊啊啊，可畏！！",
+			say = "Hey, Formidable, I didn't appreciate that extra comment!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -198,11 +198,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦好啦，来，先尝尝我亲手泡的红茶，我们三姐妹好久没有这样悠闲的聚在一起过了",
+			say = "Calm down, you two. It feels like it's been ages since we've all sat down together for tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,11 +214,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，胜利，你的服役测试都还顺利吗？",
+			say = "Oh, Victorious, how did your shakedown cruise go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,11 +230,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "胜利",
+			actorName = "Victorious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…由于一点点小小的意外，所以比预期的服役时间要晚上几个月",
+			say = "Err, there was a spot of trouble I guess? They said it might be a while before I'd be able to deploy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,11 +246,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为妹妹的可畏反倒是比你先服役了呢，之后可要加把劲呢",
+			say = "That means your little sister is going into active service before you. You'll have to redouble your efforts to match her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,11 +262,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "胜利",
+			actorName = "Victorious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…胜利会加油的！！为了姐姐和女王陛下",
+			say = "But of course! I shall be victorious! For my sisters, and for Her Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,11 +278,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，这次把两位妹妹一起招来，也是因为一件重要的事情要宣布…",
+			say = "Pfft... Actually, I'm afraid there's a more important matter for which I've called you two here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是姐姐要大婚了！？",
+			say = "You're getting married?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,9 +312,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_italy_cg4",
-			actorName = "光辉",
+			actorName = "Illustrious",
 			dir = 1,
-			say = "噗呲—— 不是啦！！",
+			say = "Heavens, no! *cough* *cough*",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
-			say = "光辉脸红着，红茶差点洒了出来",
+			say = "Illustrious turned bright red and nearly spilled her tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,11 +345,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "Aw.......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,11 +361,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可畏，别突然开这样的玩笑呀~咳咳咳...",
+			say = "It's unbecoming of a Lady to joke about such things.. Hmph~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,11 +377,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，是这样的，你们…",
+			say = "Anyway, I did say it was an important matter, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,12 +393,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——要不要一起去陆间海度个假？",
+			say = "Could I interest the two of you in a trip to the Mediterranean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

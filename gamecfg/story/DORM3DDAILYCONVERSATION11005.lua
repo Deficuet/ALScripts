@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊……累了累了，{dorm3d}，一起去食堂吗？",
+			say = "*sigh*... I'm so tired. Honey, can we go to the cafeteria?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "正好也差不多了。",
+			say = "Sure. It's about time for lunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天会是哪位舰船轮值呢，真期待啊。",
+			say = "I wonder who's on duty today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你会轮值吗？",
+			say = "Do you ever end up on cooking duty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我从不轮值，但……你的建议，我可以考虑一下~",
+			say = "Not normally... If you want me to, though, I could think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

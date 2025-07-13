@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>二 未知的新发现</size>",
+					"Moments with the Young Miss\n\n<size=45>2 Novel Tea Novelty</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "又热又渴地回到指挥室，正准备倒些冰麦茶的时候——",
+			say = "We were both pretty parched from being outside in the heat, and Chaser went to pour some iced barley tea.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官就坐着休息一会吧，我来帮你倒红茶。",
+			say = "Commander, I’ll pour some for you as well, so just sit tight. I’m an expert at this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…嗯？这个不是红茶，而是麦茶吗？原来如此，是没听说过的茶呢。呼呼，有点意思。",
+			say = "Hmm... this is barley tea, not black tea? I don’t think I’ve ever had this before. Hehe, how interesting~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者将麦茶倒进了讲究的红茶杯里递了过来，然后在桌子前坐了下来。",
+			say = "Chaser poured the barley tea into a teacup rather than a regular cup, and sat down in front of me, face-to-face across the desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我就直奔主题了。",
+			say = "So, let’s get to the issue at hand.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前几天我收到了伊丽莎白陛下的指示，指挥官知道这事吗？",
+			say = "Did you know I received an order from Queen Elizabeth the other day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "应该是…想派遣一名皇家舰船前往各个阵营进行交流那件事吧。",
+			say = "If I recalled properly... it was an order to send a representative from the Royal Navy to each camp to facilitate communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官已经从陛下那听过就好办了，其实这名皇家的代表就是我哦。",
+			say = "If you’ve already heard about it from Her Majesty, that should save us some time. Anyway, I am one of the representatives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然也会有其他阵营的同伴来皇家，本身目的就是加强彼此的合作就是了。",
+			say = "Of course, our friends from the other camps will also be visiting us as well, for the sake of strengthening our cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者一边说着，一边把伊丽莎白的信递了过来。",
+			say = "As she spoke, Chaser passed me a letter from Queen Elizabeth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "拆开信封，透着高级感的信纸上，写着充满伊丽莎白风格的文字内容。",
+			say = "I opened the envelope carefully, revealing the luxurious stationery within. I could practically hear the Queen’s words in my head as I read the contents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——在读这封信的话，就表示你已经听完追赶者说的了吧？简而言之，这次交流的目的就是增强彼此的了解。",
+			say = "——If you’re reading this letter, you must already have heard what Chaser has to say. In short, the purpose of this exchange is to enhance our mutual understanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真说起来，也不是多严肃的事情，就像各阵营互相参观一样的感觉吧。",
+			say = "To be honest though, there’s nothing particularly serious about this. It’s nice for the different camps to visit each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "追赶者到任还没那么久，你得好好支援她才行，知道了，仆从？",
+			say = "Chaser is rather new at this, though, so I would have you, my loyal servant, support her. Won’t you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——所以，陛下的信上写了什么？",
+			say = "―Well? What did Her Majesty write?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "向追赶者说明了信的内容。",
+			say = "I explained the contents of the letter to Chaser.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，其实可以的话，我倒是宁愿自己一个人去，不过也不想以后被指挥官说……",
+			say = "Hmm. Really, I’d prefer to go on my own, if I might. But I wouldn’t want to get it from the Commander on the back end either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好吧，既然是陛下的一片好意，我就心怀感激地接受了。当然，前提是指挥官不忙的话，对吧？",
+			say = "Alright, it’s a boon from Her Majesty, after all. I will accept it with gratitude. Of course, that’s assuming you aren’t too busy, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "问题…自然是不会有的。拿起茶杯喝了一口，不禁有些期待了起来。",
+			say = "It was no trouble at all. I picked up my teacup, took a sip, and prepared to set off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……感觉会是一次很有趣的交流。",
+			say = "It had the makings of an interesting time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就谢谢了。请多指教咯，指挥官。",
+			say = "Thank you very much, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者微微一笑。",
+			say = "Chaser let slip a little chuckle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "然后像是想起了什么一样，突然拿出自己带的牛奶壶，倒进了麦茶里。",
+			say = "Then, as if suddenly remembering something, she raised the milk jug she was carrying and poured it into her tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，指挥官？牛奶会让茶更加美味，这可是常识哦？",
+			say = "What’s the matter, Commander? Milk makes tea so much better. That’s just common sense, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者一边说着，一边喝了一口牛奶麦茶。",
+			say = "She sipped at her milk barley tea as she spoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……真是一款口味微妙的茶呢。",
+			say = "...Indeed, a tea of subtle flavour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "追赶者捂着嘴，瞪圆了眼睛嘟囔着。",
+			say = "Chaser mumbled to herself, rolling her eyes as she covered her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

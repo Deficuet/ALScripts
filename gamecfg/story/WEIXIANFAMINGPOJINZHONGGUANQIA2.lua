@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"未知海岛·日间",
+					"Uncharted Island",
 					1
 				},
 				{
-					"众人苏醒后不久",
+					"Shortly after everyone woke up",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			say = "沙滩之上，海风依旧吹拂。",
+			say = "The sea breeze continued to roll across the beach.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "菈菈围着超级游戏制作机不停转圈查看，还在反复检查着它的情况。",
+			say = "Lala paced around Questy MacGuffin and tinkered with it incessantly.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "而其他人似乎已经渐渐适应了周围的状况，开始寻找可供利用的物资。",
+			say = "Everyone else seemed used to this – instead of paying her any mind, they looked around for anything useful.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……！",
+			say = "...!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "小暗把头发化为武器，对着这片海岛上的某棵椰子树猛击，随之掉落了数个椰子。",
+			say = "Yami struck a coconut tree with her hair, knocking off several coconuts.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "梦梦将掉在地面上的椰子拿起，仔细端详了一番。",
+			say = "Momo picked them up and examined them closely.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……看起来和普通的椰子没什么区别，打个孔应该就可以喝里面的椰子水了。",
+			say = "Hmm... They're not much different from normal coconuts. I think we could drink their water if we broke them open.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好耶~我来帮忙吧！",
+			say = "Woohoo! I'll help!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "众人躲在椰子树的阴影之下，喝着椰子水。",
+			say = "Everyone sat under the coconut tree and refreshed themselves with coconut water.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "如果忽略此处是异世界的话，此刻倒像是正在度假一般惬意。",
+			say = "If not for the fact that they were stranded in another world, it almost felt like a tropical vacation.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			actor = 11100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，补充水分也很重要哦？",
+			say = "Lala, you should hydrate.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，谢谢你，娜娜。",
+			say = "Thanks, Nana~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "娜娜拿着开好孔的椰子，递给正沉迷于检查机器的菈菈。",
+			say = "Nana offered an open coconut to her older sister, who single-mindedly checked the device.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "待自己的姐姐喝完后，她忍不住又开口发问。",
+			say = "After impatiently watching as Lala quaffed the entire coconut's worth of water, she finally broached the subject.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -226,7 +226,7 @@ return {
 			actor = 11100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，超级游戏制作机的状况如何了？",
+			say = "Is Questy MacGuffin going to work?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -240,7 +240,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Weeeell...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在看起来，就是因为它的异常运行，才导致了现在的情况。",
+			say = "We know this was all caused by a malfunction, at least.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这么说的话，我们被传送到这里是预想之外的效果吗？",
+			say = "You didn't intend for us to be transported here. Right?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "守在姐姐身侧另一旁的少女顺势加入了话题。",
+			say = "Momo joined in the conversation after staying quiet until this point.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，可能是因为零件不匹配，所以导致了运行异常。",
+			say = "Right. I think the mismatch of parts might've made it unstable~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -306,7 +306,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者是能源的不匹配和不稳定造成的问题……",
+			say = "Or it could be caused by an incompatible – or unstable – energy source...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在手边的工具有限……还需要更多时间进行深入地检查。",
+			say = "Either way, our tools are limited. Give me a little more time so I can really dig deep here~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -334,7 +334,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我相信姐姐大人很快就能搞清楚问题的答案了。",
+			say = "Okay... I trust you. If there's anyone who can figure it out, it's you.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这之前照顾大家的事就交给我和娜娜吧。",
+			say = "Nana and I will take care of the others until you do.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错没错！",
+			say = "Yeah!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嘿嘿，那就要辛苦你们了。",
+			say = "Hehe, thanks. Good luck with them~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -387,7 +387,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然这么说，不过感觉大家也没怎么害怕。反而像是在度假呢？",
+			say = "That said, they don't seem all that bothered. They're almost treating it like a vacation.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -401,7 +401,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小暗和古手川似乎也在海边悠闲地放松呢。",
+			say = "Why, Yami and Kotegawa are practically playing on the beach.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -415,7 +415,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？春菜哪去了？",
+			say = "Huh? Wait, where's Haruna?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -431,7 +431,7 @@ return {
 			hidePaintEquip = true,
 			actor = 11100050,
 			nameColor = "#A9F548FF",
-			say = "别……别过来——！",
+			say = "Nooo! Stay away from meee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			side = 2,
-			say = "数只散发着绿色光芒的不明机械造物正从水面上缓缓接近落单的春菜。",
+			say = "Eerie machines, glowing with green light, slowly closed in on the isolated girl.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -574,7 +574,7 @@ return {
 			actor = 11100060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心！",
+			say = "Sairenji, watch out!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -585,7 +585,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "嘀——嘀——",
+			say = "BEEP BEEP!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -599,7 +599,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔哇哇——？超级游戏制作机响了？？",
+			say = "Whoooa?! Questy MacGuffin, what are you doing?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -610,8 +610,8 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "超级游戏制作机",
-			say = "启动武装系统。",
+			actorName = "Questy MacGuffin",
+			say = "ACTIVATING ARMAMENT SYSTEM.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -632,7 +632,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "随着超级游戏制作机发出的光芒散去，舰装出现在众人身上。",
+			say = "When the flood of light subsided, new machines – rigging – had appeared on each of the girls.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -668,7 +668,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哇？这又是什么啊？！",
+			say = "Whoa! What the heck is this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "新的力量吗？",
+			say = "New power...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "真是令人惊讶……",
+			say = "That scared me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "奇怪……武装系统里明明输入的都是剑与魔法之类的装备。",
+			say = "Weird... I only put swords and magic into the armament system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "难道是超级游戏制作机根据这个世界主动进行了调整吗？",
+			say = "I think Questy MacGuffin must have automatically adjusted things to match this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不管怎么样，别让那些家伙靠近春菜。",
+			say = "Either way, we can't let those enemies get close to Sairenji!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "大家，准备战斗吧！",
+			say = "Everyone, ready for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

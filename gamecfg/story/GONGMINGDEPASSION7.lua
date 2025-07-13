@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——以上，就是「「红组」」与「青组」目前招募到的成员情况。",
+			say = "And that sums it up for how both teams' recruiting efforts are going.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "后续如果有成员变动，我也会第一时间来汇报。",
+			say = "I'll let you know right away if there are any membership changes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦你了，孟菲斯。",
+			say = "Alright. Appreciate it, Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过「青组」这边的人员构成……{namecode:91:赤城}、{namecode:97:大凤}还有{namecode:439:罗恩}……",
+			say = "That blue team, though... They have Akagi, Taihou, AND Roon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……算了，希望是我担心过头了。",
+			say = "*sigh*... I hope my fears about them prove unfounded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我忍不住叹气的时候，一道黑色的身影从门外走了进来。",
+			say = "I breathe a weary sigh, then spot a shadowy figure quietly entering my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "哎呀，这说不定也是一种关系变好的证明哦？",
+			say = "Well, making two rivals join up is no easy feat, even if it's in their shared interest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "即便是为了共同的利益，想要从对手转变成合作对象也不是一件容易的事呢。",
+			say = "Think of it this way – them being on the same team is proof that they're getting along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但愿是真的关系变好了吧……",
+			say = "I sure hope they are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯……关于这一点，我其实有听说一些传闻。",
+			say = "On a similar subject... There have been rumors going around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "除了正常的招募方式以外，好像还出现了“威逼利诱”的情况。",
+			say = "They're saying there have been more... unusual attempts to recruit people, beyond reaching out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "威逼利诱？",
+			say = "Like what? Threats? Bribery?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "哦？",
+			say = "Oh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "比如拿加了科技的超柔软枕头诱拐拉菲、动用女王的权威勒令大家不准加入「青组」之类的……",
+			say = "Things like enticing Laffey with a memory foam pillow, or Queen Elizabeth using her royal authority to forbid her subjects from joining the blue team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "没想到大家为了让指挥官满足自己的愿望可以努力到这种程度啊~",
+			say = "Some are willing to play dirty if it means they'll win that wish, I suppose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这下连我也想参与看看了呢。",
+			say = "Now I'm starting to feel tempted to pick a side, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~我开个玩笑而已，不用紧张。",
+			say = "Heehee, I'm only kidding. Don't be so alarmed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "算起来，招募成员的时间也快结束了呢……",
+			say = "Besides, the recruitment deadline is drawing near.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201216,
-			say = "你们已经选好要去「青组」还是「红组」了吗？",
+			say = "So, have you all decided which team you're gonna join?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301057,
-			say = "我还没有想好的说。",
+			say = "I haven't yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401236,
-			say = "标枪呢？已经决定好了吗？",
+			say = "Right back at you, Javelin. Have you decided?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201216,
-			say = "其实我也没决定好啦……所以想问问大家的意见嘛……",
+			say = "Nope... That's why I'm asking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101176,
-			say = "「青组」的鲁莽一直来找拉菲，拉菲睡不着……",
+			say = "I've been losing sleep because of Tem from the blue team. She kept telling me to join...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201216,
-			say = "欸？所以拿高科技枕头诱拐你的事是真的？",
+			say = "She has? Has she also tried to tempt you with a memory foam pillow?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101176,
-			say = "高科技枕头……？拉菲没见过……拉菲想要……",
+			say = "Nope. But I do want one of those...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101176,
-			say = "不过拉菲为了能好好睡一觉……已经同意她们的招募了……",
+			say = "I caved in and said I'd join just so I could get some sleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301057,
-			say = "好辛苦…的说，不过为了睡觉也是没办法的事的说。",
+			say = "If that was the price for sleep, I'd pay it, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊。",
+			say = "That's fair.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401236,
-			say = "嗯？这种时候正确的反应应该是制止对方的骚扰行为吧？！",
+			say = "Laffey, you shouldn't have said yes so casually. You should've told her to stop bothering you first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401236,
-			say = "既然如此的话，我要加入「红组」那边，得靠战胜「青组」给她们一点教训。",
+			say = "Just for that, I'm joining team red. When I win, I'll make her apologize for disturbing your sleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201216,
-			say = "欸？可是靠加入另一组来制止对方的这个反应好像也不是很合理啊？",
+			say = "Huh? Is joining them just to spite the other team really such a good idea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301057,
-			say = "还是不要那么在意细节的说。",
+			say = "That's not such a big deal. I wouldn't worry about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

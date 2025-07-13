@@ -15,7 +15,7 @@ return {
 			actor = 404030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "在发现塞壬舰队的包围企图之后，我们向皇家舰队提议暂时停止对峙，等先解决了敌人再说。",
+			say = "Because of the approaching Sirens, we promptly petitioned a ceasefire agreement to the Royal Navy fleet.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "皇家并没有讨论多少时间便同意了我们的提案。",
+			say = "They swiftly accepted and joined up with us. Dispatching the Sirens became the top priority for both our fleets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "得到答复之后，我们调整阵型，对塞壬舰队发起了进攻。",
+			say = "As our force consisted of ships with wildly varying strengths and weaknesses, we agreed the best strategy was to split up and attack from multiple angles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,42 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是这批塞壬军舰，和之前我们见到的不一样了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_endingsong_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 404030,
-			say = "金属的船体上浮现出诡异的花纹，装甲变得十分坚固，炮击威力也变的出奇的大。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 404030,
-			side = 2,
-			bgName = "bg_endingsong_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "原本可以远距离接下炮弹的战列舰装甲在碰到的一瞬间就像纸糊的一样被撕出了一个大口子……",
+			say = "All seemed fine, until the Sirens came fully into view... They weren't the ones that had pursued us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +95,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "仅仅第一轮交火，我们就承受了极其可观的损伤……",
+			say = "Their hulls were decorated with striking patterns. Their armor was so thick even a battleship's main guns only scratched it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 404030,
+			side = 2,
+			bgName = "bg_endingsong_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "And their firepower... It was unlike anything I'd ever seen. It effortlessly tore through our armor that had previously weathered countless hits.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_endingsong_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 404030,
+			say = "One volley was all it took to neutralize half our fleet. Our formation fell apart, as one might expect...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "没错……这些来袭的塞壬非常不正常，比我们曾经遭遇到的强好几个档次。",
+			say = "\"Indeed. Those Sirens – they were on a whole other level.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "旁边的皇家舰队呢，她们发生了什么？",
+			say = "What was the Royal Navy fleet doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "皇家舰队啊……她们也在另一个方向与塞壬交上了火。",
+			say = "\"They had gone another way to engage a different Siren fleet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "依她们的舰队规模来说，应对起这种敌人只会更吃力就是了。",
+			say = "\"I can only imagine they had a much harder fight than us, even if they didn't have to face any new Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "皇家海军，见敌必战！",
+			say = "Royal Navy! Find and engage the enemy!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "大家不要退缩，坚持战斗，把这些怪物赶出我们的家园！",
+			say = "Expel those beasts from our home waters!",
 			effects = {
 				{
 					active = true,
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "哦？面对这种压制性的劣势，皇家海军居然选择强攻么。",
+			say = "Launching a counterattack with a force that size? Do they have a death wish?",
 			effects = {
 				{
 					active = true,
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "看来之前损失舰队的教训还是吸取的不足啊。",
+			say = "Just look what happened to our superior fleet. It's in shambles after that last attack...",
 			effects = {
 				{
 					active = true,
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "不过，勇气非常值得歌颂，不是么？",
+			say = "Still, you have to applaud their courage.",
 			effects = {
 				{
 					active = true,
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "欸……要是平时的话，我倒是不介意看着皇家海军吃点瘪。",
+			say = "Recklessness, more like. Either way, fine by me if those suckers go belly up.",
 			effects = {
 				{
 					active = true,
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "不过现在的局势虽然不能说千钧一发，至少也是危在旦夕了。",
+			say = "Probably gonna happen any second now. The odds are stacked hard against them.",
 			effects = {
 				{
 					active = true,
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "根据第一轮交火情况，可以基本确认远方的塞壬投入了我们尚未知晓性能的全新军舰。",
+			say = "The Sirens are far more powerful than us! Even if by some miracle we manage to defeat them, it'll cost us nearly our whole fleet!",
 			effects = {
 				{
 					active = true,
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的舰队就算可以与之抗衡，也将会承受巨大的伤亡。",
+			say = "Emden, I advise that we retreat now while we still have the strength and time!",
 			effects = {
 				{
 					active = true,
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "我建议立刻撤退，保存实力。",
+			say = "If we do not make it back to port, nobody will know just how dangerous these new Sirens are!",
 			effects = {
 				{
 					active = true,
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "虽然有些不爽……不过现状如此，我们撤离吧。",
+			say = "\"Tsk... We've no other choice. Retreat at once.\"",
 			effects = {
 				{
 					active = true,
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "那就这么决定咯~计划改变，我们撤————",
+			say = "Already? Works for me. Toodles, Royal Navy!",
 			effects = {
 				{
 					active = true,
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……好果断的决定，这种撤退不算逃跑行为么？",
+			say = "So you turned your backs on them and ran?",
 			effects = {
 				{
 					active = false,
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "公海舰队的每一艘船都很关键。既然打不过的话，肯定就要撤吧~？",
+			say = "\"Who wouldn't have? There was no way we could defeat those Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……于是你们就这么直接撤了么？",
+			say = "What you're saying is... our fleet just...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "虽然我们想这么一撤了之——不过我们一撤，皇家舰队就要全灭了吧?",
+			say = "\"Let us finish. We knew the Royal Navy's ships were all doomed if we fled.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "所以我们出手相助了。",
+			say = "\"So we changed our minds. Instead, we came to their rescue.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………算你们还有些骑士精神。",
+			say = "...You did? That was quite valorous of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,42 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，倒也不完全是出于骑士精神。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_endingsong_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 402070,
-			say = "我们现在舰队受损又远离本土，塞壬要是穷追不舍的话我们也很难办。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 402070,
-			side = 2,
-			bgName = "bg_endingsong_5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "不如趁机跟皇家搞好关系，然后借用她们的港口停泊休整嘛~",
+			say = "It was a move brought on by desperation as much as valor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "事发地距离皇家的斯卡帕湾锚地的距离又不远。",
+			say = "\"We knew not how fast these new Sirens were. They may well have chased us down if the Royal Navy couldn't keep them busy for long enough.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那里可是一处出了名的坚固要塞。",
+			say = "That being the case, we came to aid them in exchange for being allowed inside Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "防御强大、补给充足。塞壬此前进攻了数次均无功而返。",
+			say = "\"We all know just how vital Scapa Flow was to your operations out here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +710,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我们能撤退到那里不就暂时安全了~？之后可以就地进行修整，然后把情况汇报给本土。",
+			say = "\"And because of its strategical significance, you've gone far out of your way to reinforce it.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_endingsong_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 402070,
+			say = "All the facilities one could need. Astounding defenses. Massive stockpiles of supplies. It was such a perfect base, not even the Sirens dared attack it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 402070,
+			side = 2,
+			bgName = "bg_endingsong_5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"If we could make it there, the Sirens could be repelled and we could contact our superiors. Frankly, it was our one and only option for survival.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "皇家舰队也同意了？",
+			say = "Did our fleet agree to this proposal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "嗯，同意了哦。",
+			say = "\"Yes. Swiftly, much like with the ceasefire.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "于是我们两支舰队并成一支，一同向着斯卡帕湾撤退。",
+			say = "\"Our fleets regrouped, and together, we sailed for Scapa Flow as quickly as we could.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			}
 		},
 		{
-			say = "斯卡帕湾锚地·内侧海域  一段时间之前",
+			say = "Scapa Flow Harbor",
 			side = 2,
 			bgName = "bg_endingsong_3",
 			dir = 1,
@@ -853,7 +853,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "欢迎各位来到斯卡帕湾，到了这里之后，诸位的安全就可以得到保障了。",
+			say = "We're out of the woods now. Welcome to our pride and honour – Scapa Flow.",
 			effects = {
 				{
 					active = true,
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "非常感谢。",
+			say = "Thank you, Lady Warspite! Thank all of you, my friends, for your graceful assistance!",
 			effects = {
 				{
 					active = true,
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205100,
-			say = "不过既然入港了，一会还请配合检查哦！",
+			say = "Sure. Now that you're well into our domain, it's time for that inspection.",
 			effects = {
 				{
 					active = true,
@@ -935,7 +935,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "啊？！趁火打劫的话我们可拒不配合哦。",
+			say = "Aww, come on! What's the point in doing that now?",
 			effects = {
 				{
 					active = true,
@@ -959,7 +959,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205100,
-			say = "你们也有不少受损的船，修理之前检查损伤是理所当然的吧……",
+			say = "Your fleet has taken significant damage, has it not? An inspection is a prerequisite for repairs.",
 			effects = {
 				{
 					active = true,
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "额……你说的很有道理，那就恭敬不如从命了~",
+			say = "Oh. Fair enough. Inspect whoever you need to, then.",
 			effects = {
 				{
 					active = true,
@@ -1007,7 +1007,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "我没受伤也没什么事，就先去休息一会，后面的事你们跟{namecode:448}和{namecode:460}说吧。",
+			say = "I made it out without a scratch, so I'll just have a nap. For business inquiries, talk to Emden and Seydlitz.",
 			effects = {
 				{
 					active = true,
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贵宾休息室怎么走，你们总有修那么一个两个的吧？",
+			say = "Also, where's the VIP lounge? This place is too big NOT to have one.",
 			effects = {
 				{
 					active = true,
@@ -1054,7 +1054,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205100,
-			say = "…………还真是不拿自己当外人的铁血大小姐。",
+			say = "You crash at somebody's place and expect VIP treatment? That's brave...",
 			effects = {
 				{
 					active = true,
@@ -1078,7 +1078,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 205100,
-			say = "贵宾室当然是有的，跟我来吧……",
+			say = "Come with me. I shall guide you.",
 			effects = {
 				{
 					active = true,
@@ -1101,7 +1101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇……在战场上化敌为友，好浪漫的事啊。",
+			say = "From wary strangers to friends just like that, huh?",
 			effects = {
 				{
 					active = false,
@@ -1125,7 +1125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "如果能流传到后世的话，确实能成为一段美谈吧。",
+			say = "Indeed. Let this story be remembered as a shining example of sisterhood on the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "不过我们跟皇家原本也不是敌人就是了。虽然和皇家不和，倒是也没到要开战的地步。",
+			say = "\"It was an uneasy union, but a union nonetheless. Our enemies were Sirens, not fellow shipgirls.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸对……当时好像确实是这样的形式。",
+			say = "Yeah, and that still rings true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1177,7 +1177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "后来呢？",
+			say = "Hang on, the fact remains that something bad went down at Scapa Flow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1194,7 +1194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来到安全的斯卡帕湾不是就没事了么，为什么会变成现在的惨状……？",
+			say = "Which can only mean... the Sirens DID attack after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "是啊，为什么呢……",
+			say = "Well deduced. The whole story is a little more complicated than that, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1229,7 +1229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最开始，我们按部就班的进行着维修和补给行动，一切都很顺利。",
+			say = "\"At first, everything was normal. We stocked up on supplies, patched ourselves up...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1247,7 +1247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "不过在某个时间点之后，我们发现与本土失去了联系。",
+			say = "\"Then, at some point, we lost all contact with the outside world.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1265,7 +1265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "最初我们以为是偶发的通讯故障，不过在调查之后，不论哪艘船都无法与本土取得联系。",
+			say = "\"Our communicators should've been working, which made us suspect some kind of Royal Navy interference. However, they were having the same problem.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1283,7 +1283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "接着我们以为是皇家搞的鬼，可是皇家海军也出现了同样的问题……",
+			say = "\"That, in turn, led us to the conclusion that it was the Sirens' doing.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1301,7 +1301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "然后……我们发现天空和水面改变了颜色。斯卡帕湾在某一刻突然变得陌生起来……",
+			say = "\"It was then that the seas and skies turned a strange color, and Scapa Flow's harbor – all of it – began to rumble.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1318,7 +1318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………塞壬的镜面海域？！",
+			say = "The telltale signs of a Mirror Sea...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1346,7 +1346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "果然是某种武器么……不过对于我们来说，这一切都是未知的。",
+			say = "Is that what you call it? How novel. We had no words for it until now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1364,7 +1364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "更恐怖的是，从天空中飞来了大量的敌人。",
+			say = "\"After that otherworldly phenomenon began, the Sirens sent in their airwings.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1382,7 +1382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "像飞机，不过比我们的飞机厉害多了。",
+			say = "\"Their planes weren't like what you carriers use. Compared to the planes of our time, they were far, far more destructive.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1400,7 +1400,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "更关键的是，我们根本不知道远离陆地的塞壬究竟是从哪里变出的飞机。",
+			say = "\"It's a mystery how their planes even reached the island. It should've been far beyond their reach.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1417,7 +1417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬航空舰队舰载机群……",
+			say = "I reckon the Sirens had an aircraft carrier deployed nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,7 +1435,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "是啊，在见到你们之后，我们才知道居然能有作为海上停机坪的航空母舰存在。",
+			say = "\"Yes, we know that now. But the past Emden could never have guessed that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1452,7 +1452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而飞机这种新兴事物居然能发展的如此厉害。",
+			say = "Ah, carrier-based aircraft. Aren't they a marvel of scientific ingenuity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1469,7 +1469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1487,7 +1487,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "在岸防设施的帮助下，我们与皇家部队一同击退了塞壬三波猛烈的攻势。",
+			say = "The Royal Navy's coastal batteries were key to our survival of the Sirens' third wave of attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1505,7 +1505,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "当然……我们也承受了惨重的伤亡。",
+			say = "Even so, we were at the end of our rope, and we knew it. Our only option was to flee Scapa Flow posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1522,7 +1522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就在斯卡帕湾设施基本被毁，我们计划集结剩余力量突围的时候，天空中出现了一束光。",
+			say = "But... The moment we put our escape plan into motion, a beam of light shot down from the sky... and that's where my memory stops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1540,7 +1540,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "……我们不知道那束光从哪里出现，也不知道它代表着什么。",
+			say = "Sadly, I know not who or what created that light, nor what its purpose was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1558,7 +1558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "然后一切就结束了。",
+			say = "\"That is the end of our story. We've no more we can tell you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1576,7 +1576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "结果就如各位眼前所见……公海舰队、皇家防御舰队、斯卡帕湾锚地都变成了现在的样子。",
+			say = "\"The light obliterated all Iron Blood and Royal Navy forces on Scapa Flow. At least, assuming the record of this place is accurate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1593,7 +1593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是本次事件的全貌，也是各位想要得知的真相。",
+			say = "And that is the truth. The truth you so badly wanted to know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1610,7 +1610,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "拼图终于集齐了…………",
+			say = "It seems the pieces are falling into place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1628,7 +1628,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "和我听到的版本也有着不小差距啊……没想到真实情况居然是这样。",
+			say = "This information differs from what our higher-ups have. Truly, this changes everything... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1645,7 +1645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第十一节并不是一次自取其辱的耻辱行动，而是面对强敌奋战到最后一刻的英勇么……",
+			say = "The incident at Scapa Flow was neither the product of a Royal Navy betrayal, nor Iron Blood foolishness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1662,7 +1662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "突然出现的具有毁灭性的光束……难道是清除者，或者净化者的主武器么……",
+			say = "I've got a theory on that light... It all makes sense if that was Purifier's omitter beam.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1679,7 +1679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过那些应该都是从水面射击，宽度和广度上也…………",
+			say = "None of us have ever personally seen a weapon that can raze an entire base in an instant, but that's the only lead I've got.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1696,7 +1696,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……看来你们对塞壬的作战经验真的很丰富啊，面对敌人的武器和型号都能如数家珍了。",
+			say = "I trust your insight. You've fought more Sirens than any of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1713,7 +1713,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟我们已经和塞壬战斗了这么长时间了，千万不要小看后辈的实力与决心哦~",
+			say = "I've fought those assholes more times than I can remember... But I do remember everything about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1731,7 +1731,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "你的眼神确实是战士的眼神，乐观而又坚定。",
+			say = "It is an honor to be in the presence of such seasoned, noble warriors!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1748,7 +1748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我们之前也知道这些情报，如果我们当时也有这样的力量就好了……",
+			say = "If our fleet had had someone like you by our side, things would surely have gone another way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1765,7 +1765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在，你们不是已经知道了这些情报，已经拥有这样的力量了么？",
+			say = "I have a proposition. Do you think you could eliminate the Sirens around here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1782,7 +1782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……您的意思是？",
+			say = "What, exactly, are you asking of us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1799,7 +1799,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论袭击你们的塞壬舰队是什么，都还没走太远吧。",
+			say = "If this test site was built to effectively replicate the events of Scapa Flow, there must be info on this laser weapon of theirs somewhere here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1817,7 +1817,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "海上的火焰还没熄灭，你们心中的火焰呢？",
+			say = "Furthermore, it's worth gauging the strength of that new Siren model, as compared to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1835,7 +1835,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "呵呵，没想到刚才准备的复仇计划这么快就能用上了。",
+			say = "In other words, you're giving us the opportunity to avenge our former selves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1852,7 +1852,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然还在熊熊燃烧中哦，从刚才开始我就想试试用这幅全新身体战斗的感觉了！",
+			say = "Not just that, it's good practice for getting used to our new riggings – and bodies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1870,7 +1870,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "希望能一切顺利……不对，如果是我来希望的话事情肯定不会实现。",
+			say = "O-okay... I hope we'll adjust well and dest– Err, excuse me. Everything I wish for never comes true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1888,7 +1888,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402080,
-			say = "那就是希望千万别一切顺利……不对，也好奇怪…………",
+			say = "Ahem... I hope that we'll never encounter any enemies... that the laser beam will destroy us all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1905,7 +1905,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:449}要被再次击沉了……",
+			say = "And of course, that I'll sink to the bottom of the ocean...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1923,7 +1923,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403110,
-			say = "你到底是经过怎样的思考才能得出这种结果啊？！",
+			say = "You could just not hope for anything and save yourself the effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1940,7 +1940,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:440}，这算是你对于我们的第一个正式命令么？",
+			say = "Friedrich der Große, is that an order? An order, as the one who gave us new lives and brought us to the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1957,7 +1957,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是。",
+			say = "It is no order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1975,7 +1975,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "不过，我更希望你们把它当成新生的公海舰队以自己的意志迈出的第一步。",
+			say = "However, you as shipgirls have a duty to fulfill – to defeat the Sirens and defend humanity's oceans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1993,7 +1993,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "{namecode:460}，去叫醒{namecode:461}，我们该出发了~",
+			say = "\"Seydlitz, go and wake Lützow. We have enemies to fell.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2011,7 +2011,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "新生公海舰队，现在向着复仇的方向，起航！",
+			say = "Heehee... How exciting it is to be fighting once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

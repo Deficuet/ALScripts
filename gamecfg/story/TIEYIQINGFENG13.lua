@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"白鹰·DC特区",
+					"Eagle Union - DC",
 					1
 				},
 				{
-					"列克星敦的别墅",
+					"Lexington Estate",
 					2
 				},
 				{
-					"7月26日",
+					"July 26th",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "门厅的地板之上，堆积如山的采购品彰显着这座别墅今夜将会呈现出的热闹之景。",
+			say = "Bags of groceries stood at the entrance to the residence, brimming with goods eager to be part of the feast being held at the mansion that night.",
 			bgm = "story-memory-grief",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "萨拉，你是不是有点买太多了……",
+			say = "Sara, you really went overboard this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "没关系啦~今天Party请的人多，大黄蜂企业她们也都会来哦。",
+			say = "Maybe a little, but it's warranted. I invited tooons of people tonight! Enterprise, Hornet – everyone, basically!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "难得热闹一下，说不定这些还不够呢！",
+			say = "We can't cheap out when we're throwing such a big party, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "呵呵~也是，好不容易碰到了大家都在休假的时候，是应该好好热闹一下。",
+			say = "Heehee. That's true. We should go big with it since for once all our vacation days conveniently overlap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "那你先把东西分一下类，我最后做下扫除，然后我们就开始准备食材~",
+			say = "I'll let you do the sorting. I'll do one last round of cleaning, then we'll start making the food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "好~",
+			say = "Sure thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "列克星敦转身离开了。别墅之中，暂时回归了寂静。",
+			say = "Lexington went into the living room, and for just a brief moment, everything was silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,12 +152,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "滴——滴——滴——",
+			say = "BEEP... BEEP... BEEP...",
 			soundeffect = "event:/ui/yiliaozhuangzhi",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "耳边的空气中，传来了若有若无的警告声。这个声音冰冷、无情、又裹挟着一丝死亡的气息。",
+			say = "There was an ever-so-faint beeping noise. A sound like a cruel clock, ticking down the seconds until death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……又是这个声音。",
+			say = "It's that sound again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……烦死了。",
+			say = "I wish it would just stop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,15 +210,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"白鹰·DC特区",
+					"Eagle Union - DC",
 					1
 				},
 				{
-					"高尔夫球场",
+					"Golf Course",
 					2
 				},
 				{
-					"10月25日",
+					"October 25th",
 					3
 				}
 			}
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "本日艳阳高照，万里晴空，是个打高尔夫球的好天气。",
+			say = "The sun was shining and the skies were clear – the perfect weather for a round of golf.",
 			bgm = "story-memory-grief",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，在学校教书辛苦啦~",
+			say = "I heard you've been working really hard at the academy, Lex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "作为姐姐辛苦一周的犒劳，我今天把场地包了哦~",
+			say = "And since hard work deserves to be rewarded, I went and booked out this whole golf course for today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "我们两个人也用不上这么大的场地……",
+			say = "Gosh... I appreciate it, I really do, but isn't this way too big for just two people?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "是不是有点太铺张了……？",
+			say = "Besides, booking it for the whole day can't have been cheap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "没关系，没关系~我只是不想有人来打扰我们嘛~",
+			say = "So what? The bigger, the better, I say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "……萨拉，你最近……是不是有些心事？",
+			say = "Sara.. You're not hiding something from me, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "嗯？心事？什么心事？",
+			say = "Huh? What do you mean? I've got nothing TO hide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "啦啦♪~啦啦啦♪~你看，我好得很，什么心事都没有哦！",
+			say = "Look at this big smile on my face! This is the face I make when nothing in the whole world is bothering me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "姐姐你别乱想啦！不集中精神的话，小心一会被我打的一败涂地哦？",
+			say = "If you want my advice, you should concentrate on your swings, or your little sister's gonna win easy-peasy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "哼哼，今天的萨拉妹妹格外嚣张呢~",
+			say = "My, those are big words, coming from you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "嘴硬是没用的，这种事依靠的是实力。等一会打起来，就让你知道姐姐我的厉害。",
+			say = "But big words don't win matches, skill does – and you're going to witness mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "那我们先各自热身准备一下，一会赛场上见真章咯？",
+			say = "That's more like it. What do you say we have a quick warmup, then get right to it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "嗯，一会见~",
+			say = "Sounds good. I'll be right back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "列克星敦转身离开了。草坪之上，暂时回归了寂静。",
+			say = "Lexington walked away. For a passing, lonesome moment, the golf course was silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,12 +439,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "滴——滴——滴——",
+			say = "BEEP... BEEP... BEEP...",
 			soundeffect = "event:/ui/yiliaozhuangzhi",
 			typewriter = {
 				speed = 0.05,
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "耳边的空气中，传来了若有若无的警告声。这个声音冰冷、无情、又裹挟着一丝死亡的气息。",
+			say = "There was an ever-so-faint beeping noise. A sound like a cruel clock, ticking down the seconds until death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……别响了，求你了。",
+			say = "No, please, I'm begging you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……放过我吧。",
+			say = "Make it stop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,15 +497,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"白鹰·DC特区",
+					"Eagle Union - DC",
 					1
 				},
 				{
-					"中心商业街",
+					"Shopping District",
 					2
 				},
 				{
-					"12月24日",
+					"December 24th",
 					3
 				}
 			}
@@ -516,7 +516,7 @@ return {
 			hidePainting = true,
 			hidePaintObj = true,
 			bgName = "bg_tieyiqingfeng_cg3",
-			say = "圣诞歌随风飘扬，张灯结彩的街道上，一片节日气息。",
+			say = "Holiday songs echoed through the streets while neon lights and ribbons painted facades, street lights, and windows in the colors of Christmas.",
 			bgm = "story-memory-grief",
 			typewriter = {
 				speed = 0.05,
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "呼呼呼~不愧是圣诞前夜，做活动的店可真多，今天能满载而归了呢~",
+			say = "Wow, look at all these stores offering Christmas deals and events! My wallet's gonna hate me for this, but who cares!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "是啊，不过就算如此……是不是买得有点太多了？",
+			say = "There really is a lot. Haven't you already bought enough for today, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "哼，这才到哪儿，一会还有三条街要逛呢！",
+			say = "No way! We've still got three blocks of stores to look at!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "明天有重樱使团不远千里而来，不得给她们挑挑礼物？",
+			say = "Besides, that Sakuran delegation is coming tomorrow, remember? We need to have gifts ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "带队的人听说是那个久负盛名的{namecode:161:天城}，我早就想见一见了。",
+			say = "I've heard a lot about Amagi before. Honestly, I've always wanted to meet her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "嗯……来访的重樱使团，{namecode:161:天城}……",
+			say = "Right. Amagi. With the Sakuran delegation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "萨拉，你说……重樱使团，真的会来么？",
+			say = "If you'll indulge me... Do you really think she's coming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "这是早就定好的日程，应该不会临时变动吧？",
+			say = "Yes? We've been planning this for quite a while. It'd be omega rude to cancel at the last minute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "……姐姐，你为什么突然这么问？",
+			say = "Why are you asking that out of nowhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我只是感觉最近……有些太幸福了，幸福到不真实。",
+			say = "Oh, no reason. I'm just so happy that it feels like I'm dreaming. Like this is all too good to be real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "萨拉，你有这种感觉么？",
+			say = "Do you feel anything like that? At all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "姐、姐姐……你别乱说话啊……",
+			say = "L-Lex, come on... Don't ruin the mood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "幸福这种事，哪有什么真实不真实的……",
+			say = "There's no such thing as \"real\" or \"fake\" happiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我们就是要这么幸幸福福、快快乐乐的一直过下去~",
+			say = "As long as we're happy and the Commander is here with us, what more could you want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "可是这几天……我偶尔能看到你突然垂头丧气呢。",
+			say = "Sara... I know something has been weighing heavily on you these past few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "我可是你的姐姐……你的心事，怎么能瞒过我呢。",
+			say = "I'm your sister. I can tell when you're not telling me something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "……好啦姐姐！圣诞夜就快到了，别说这些了……开开心心的不好么？",
+			say = "That's enough spoiling the mood, okay? It's almost Christmas, so let's enjoy ourselves instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "你看，对面有其他同伴正在采购呢~",
+			say = "Hey, look, that's the Colorado sisters! Let's see what they bought!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂——马里兰、科罗拉多、西弗吉尼亚——",
+			say = "Maryland! Colorado! West Virginia! Hiii!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哟~这不是萨拉托加和列克星敦女士么，也是出来圣诞节采购的？",
+			say = "Well, if it ain't Lex and Sara! Out doing your Christmas shopping too, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "没错没错，我和姐姐一起出来买东西哦~",
+			say = "Yup-yup! We're shopping our hearts out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105100,
-			say = "啊哈哈，挺好，挺好！那我们就不打扰了，购物愉快~",
+			say = "Ahahahah! Good to hear it. We've still got places to check out, so we'll catch up with you later! Merry Christmas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,7 +854,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "你们也是，购物愉快哦~",
+			say = "Merry Christmas! Have fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg3",
-			say = "姐姐，你看——圣诞节，就是应该开开心心的吧？",
+			say = "See, Lex? Christmas is all about fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "马里兰、科罗拉多、西弗吉尼亚……",
+			say = "Maryland, Colorado, and West Virginia...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "资料里显示，她们在PH港服役了一段时间后，因为服役期间的卓越功勋，被调到DC特区守备舰队中，直至今日。",
+			say = "If the report I read was right, they were reassigned to DC's defense fleet to reward their stellar performance while serving at PH.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "对么？",
+			say = "Is that really true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "对啊——",
+			say = "What? Of course it's–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "看着我的眼睛。",
+			say = "Sara. Look me in the eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "姐、姐姐……",
+			say = "D-do I have to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "看着我的眼睛，聆听你自己内心的声音，然后告诉我答案。",
+			say = "Yes. Listen to your heart and answer me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "她们是这样的经历，对么？",
+			say = "Is that REALLY what happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "……不对。",
+			say = "No. It's not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "马里兰、科罗拉多、西弗吉尼亚三人……在调动到PH港后不久，就遭遇了PH港袭击事件。",
+			say = "They... They were reassigned to PH not long before that Reenactment happened, and they were caught up in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "虽然她们奋力战斗……但，依然没能逃脱重伤的结局。",
+			say = "They fought tooth and nail, but still sustained crippling injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "在经过长时间的修复无果后……她们的修复进度一度被暂停。",
+			say = "They spent a long time in recovery, but their wounds were too severe. In the end, they were mothballed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "直到改造技术有所突破后，她们才重塑了舰装……于近期重返前线，被分配到了各地的舰队中……",
+			say = "Then there came a breakthrough in retrofitting technology that let their riggings be rebuilt. It wasn't until recently that they finally returned to the front lines and were assigned to posts across the country...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "然后，之前与我们一起举行Party的约克城女士呢？",
+			say = "What about Yorktown? We threw a party with her not long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "……约克城女士，在AF海海战中，遭受到了危及心智魔方的侵蚀性损伤……伤势长期无法恢复。",
+			say = "Yorktown's hull became corroded after the Reenactment at AF. Her prospects of recovery have always been bleak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "直到不久前……我们才成功利用II型舰装技术修复了其心智魔方的损伤。",
+			say = "That is, until the Commander used Type II technology to miraculously bring her back to full health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,7 +1137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "如今她已成功苏醒，并在完成了星海中的康复训练科目，计划于近日回归一线战斗序列……",
+			say = "She's finished her rehabilitation program at the Sea of Stars and should be back in fighting order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "那——我呢？",
+			say = "Okay... And what about me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1165,7 +1165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "……姐姐，别问了。",
+			say = "Just... Just stop it with these questions, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,12 +1173,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_tieyiqingfeng_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "滴——滴——滴——",
+			say = "BEEP... BEEP... BEEP...",
 			soundeffect = "event:/ui/yiliaozhuangzhi",
 			typewriter = {
 				speed = 0.05,
@@ -1208,7 +1208,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "耳边的空气中，传来了清晰的警告声。",
+			say = "The beeping was loud and clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1220,21 +1220,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "声音比这段时间以来，更加冰冷，更加无情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107020,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg4",
-			say = "我又如何呢？",
+			say = "It sounded even colder and crueler than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,21 +1234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "我们真的是像这样，远离一线，每天过着如此开心又幸福的生活么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……这样幸福的生活有什么不好！",
+			say = "What has become of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1276,7 +1248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "萨拉托加，回答我的问题。",
+			say = "Am I leading a happy life together with you, far away from the front lines?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1262,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……列克星敦级航空母舰，列克星敦。",
+			say = "Shouldn't we all? What's wrong with being happy?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107020,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg4",
+			say = "Calm down, Sara. Answer me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……在珊瑚海海战中，遭受到了危及心智魔方的侵蚀性损伤。",
+			say = "Lexington... You...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1318,7 +1304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "其伤势长期无法恢复，现有的一切治疗方案也都被认定为无效。",
+			say = "You suffered severe corrosion damage in the Reenactment at the Coral Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1332,7 +1318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "时至今日，依然在星海的医疗舱中昏迷着……",
+			say = "You haven't made any recovery from your injuries, and there's still no known way to cure you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1346,7 +1332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……为什么。",
+			say = "To this day you're still resting in a care pod in the Sea of Stars...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1360,7 +1346,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "为什么她们都没事了，只有你！",
+			say = "It's not fair...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_tieyiqingfeng_cg4",
+			say = "*sniffle*... They all recovered one way or another... but you're still sick...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1379,7 +1379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……只有你。",
+			say = "Why? Why won't you come back to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1393,7 +1393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "这个问题，我无法回答。",
+			say = "I don't know why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1407,7 +1407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "你也不该问。",
+			say = "All I know is that you can't stay here forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1421,7 +1421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "我的妹妹，梦该结束了。",
+			say = "All dreams must come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,7 +1435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "……可是！",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1449,7 +1449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "让它结束吧。",
+			say = "Open your eyes, Sara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1463,7 +1463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "现实中的同伴还在奋战，她们需要你。",
+			say = "Your friends need you. They need you with them in reality. The Commander is waiting for you, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1477,7 +1477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg4",
-			say = "你其实比我更明白这一点，不是么？",
+			say = "I'm sure you already know that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1492,7 +1492,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我明白的，姐姐。",
+			say = "Yes, I know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1523,7 +1523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "我都明白……",
+			say = "I know it perfectly well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1537,7 +1537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "我只要继续努力下去就好了……对吧。",
+			say = "I know what I have to do. I have to keep fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1551,7 +1551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "只要继续努力下去……",
+			say = "As long as I keep fighting, one day, things will change...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1563,8 +1563,8 @@ return {
 			bgName = "bg_tieyiqingfeng_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "医疗舱",
-			say = "滴——滴——滴——",
+			actorName = "Care Pod",
+			say = "BEEP... BEEP... BEEP...",
 			soundeffect = "event:/ui/yiliaozhuangzhi",
 			typewriter = {
 				speed = 0.05,
@@ -1577,7 +1577,7 @@ return {
 			bgName = "bg_tieyiqingfeng_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "从不远处的医疗舱处，传来了格外清晰的警告声。这个声音冰冷、无情、又裹挟着一丝死亡的气息。",
+			say = "There was a barely audible beeping noise. Steady and cold, like the waves of a dead sea lapping against a barren beach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1591,7 +1591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "……姐姐，我走了。",
+			say = "I'm going to leave now, Lex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1605,7 +1605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "你说的对，清醒的世界更需要我。",
+			say = "You're right about everything. There are people in the real world that need me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1619,7 +1619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "……萨拉托加呼叫TB，能听到么？",
+			say = "TB, do you copy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1634,7 +1634,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领航员-TB，等待您的命令。",
+			say = "This is TB. Awaiting orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1648,7 +1648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "很好……去控制室将星海的现状整理给我。",
+			say = "Great! I'm gonna head to the control room. Find out what's happening in the Sea of Stars meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1662,7 +1662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg5",
-			say = "该轮到我们来反击了——",
+			say = "We're going to start fighting back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

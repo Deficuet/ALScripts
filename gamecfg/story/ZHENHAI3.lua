@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>三　特训</size>",
+					"The Go Master and Her Disciple\n\n<size=45>3 Intensive Training</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "五个小时后，指挥室内。",
+			say = "Five hours later, in the office...",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "落子太过犹豫……举棋不定可是大忌呢。",
+			say = "Your weakness is that you play too passively. Hedging your bets is perhaps not the best strategy in Go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "又……又输了。",
+			say = "Dammit... You win again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然很难在棋艺方面赢过镇海啊，是我对自己的实力盲目自信了……",
+			say = "I overestimated myself. Clearly, I'm still a long way off from beating you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "过誉了，您的进步亦是神速。假以时日，仍有机会胜我。",
+			say = "You needn't put yourself down. If anything, I'm amazed at how quickly you've improved. Keep at it, and I'm certain victory will be yours one day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "更何况指挥官学来的这几手，似乎并不完整……",
+			say = "Having said that, I noticed some flaws in these new moves you've learned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果由我来教导指挥官的话……",
+			say = "You'll want to patch those up, and I could show you how to...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "抱歉，有些自说自话了，还没问过指挥官是否需要我的指导呢——",
+			say = "Oh, apologies, that's presumptuous of me to say. I haven't even asked if you want more guidance in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 			},
 			options = {
 				{
-					content = "请务必！",
+					content = "Yes, please!",
 					flag = 1
 				},
 				{
-					content = "教教我，镇海老师！",
+					content = "Show me how it's done, Master Chen Hai!",
 					flag = 2
 				}
 			}
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "哎呀~真是很有精神的回答呢。",
+			say = "Heehee. A firm answer is what I like to hear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不过指挥官如果想要接受我的教导，就必须意志坚定，并且完全听从我的指示。",
+			say = "However, please bear in mind that you'll have to set your mind to this and follow my instructions to a T.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题！",
+			say = "Fine by me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵~既然指挥官如此有决心……那就让我好好为你特训吧……",
+			say = "Is that determination in your voice? Then get ready for your intensive training.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为刚刚让我脸红心跳的……小小惩罚~",
+			say = "With a small side of punishment for making my heart throb earlier...",
 			painting = {
 				alpha = 0.3,
 				time = 1

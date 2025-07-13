@@ -15,7 +15,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "报告！敌人没有再跟上来，周围也没有发现敌人！",
+			say = "There aren't any Sirens on our tail anymore! We lost them!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "残骸中都仔细检查过了么？",
+			say = "What about the wreckage in front of us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！这次特意仔细搜索过了，确认无误！",
+			say = "Don't worry, I won't mess up this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "水下也没有追兵，看来暂时安全了~",
+			say = "There aren't any Lurker-type Sirens ahead of us, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "暂时安全，但是不合理。",
+			say = "(Hmph... I've got a bad feeling about this. Things are going way too well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "狩猎中，相比一直紧追猎物，先让猎物自以为逃脱，在放松警惕之时突然出击效果会更好。",
+			say = "(If there was an Arbiter there, why didn't they just finish Scharnhorst off? And, why aren't they chasing after us?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的对手有着绝对优势兵力，对于海域环境也更加熟悉，它们没有放我们离开的必要。",
+			say = "An Arbiter should be more than a match for a force of our size, so why...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错……不要放松警惕，这片海域依然非常危险……",
+			say = "Keep... up your guard... The sea is still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你终于醒了！啊、你伤得很严重，别乱动！",
+			say = "You're hurt real bad! Don't talk, and more importantly, no sudden movements!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没事……这不是我受过最严重的伤，紧急修复一下大概还能战斗……",
+			say = "I'm alright... I've been through worse... I can fight once you treat me... Ugh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还能战斗……？",
+			say = "Fight?! In this condition...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有一门炮塔还能开火，动力系统还能勉强运转……勉强一下总是有办法的。",
+			say = "Yeah. The main engine still works... and my main gun too... One of them, anyway... Heh, hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "既然没看到我出现，就说明计划失败，你们直接撤退就是……哪有这么主动自投罗网的。",
+			say = "Why did you guys... even come here? Didn't you expect... for this to be a Siren trap...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也是这么想的，但是{namecode:434}在意你的情况，作为长官也要照顾下属的情绪才是。",
+			say = "Well, of course we knew it was a trap. But Gneisenau insisted that we come save you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "{namecode:434}么……",
+			say = "Gneisenau...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "真是狼狈啊，刚刚离开时候的气势呢？",
+			say = "You aren't acting like yourself. The Scharnhorst I knew would have been able to put up a good show, even in this state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……多谢你专程赶过来说风凉话。",
+			say = "You're... one to talk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………你身上的伤是不是又多了？",
+			say = "Look how beat up you are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "刚才救你的时候是她一直冲在最前面开路，消灭了绝大多数敌人哦！",
+			say = "That's because... she insisted on charging into the enemy headfirst to try to get to you before they did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……即使是毫无关系的人，你也拥有{namecode:433}的外表，在你的世界中与不同于我的另一个{namecode:434}有过羁绊吧。",
+			say = "Even if you're not the Scharnhorst from my world, you're still Scharnhorst... Just as there must have been a Gneisenau in your world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "放任你这么死掉，对于我心中的{namecode:433}无法交代。",
+			say = "If I let you sink here... I wouldn't be able to look the other Gneisenau in the eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……非常感谢。这次救援的恩情，我会铭记在心的。",
+			say = "Gneisenau... Heh. I'll... remember those words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看你的状态，前往你们的撤离点已经不可能了，跟我们一起回去吧。",
+			say = "If you can't return on your own, come to our base until you're all healed up. We won't try to keep you there if you don't want to stay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要求你的加入。跟我们回去与我们合作一段时间，等你伤好之后可以自行离开。",
+			say = "I don't know if we're able to repair Ashes ships, but... we're willing to try. ... And you might be interested in our leader.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在的我看起来也没什么拒绝的余地……前提是我们能平安离开这里。",
+			say = "It's not like... I'm in any position... to refuse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "余烬的{namecode:433}，我需要你立刻汇报刚才发生的事，并立刻提供仲裁机关拉沃斯的情报。",
+			say = "There is one thing I want from you in exchange though. Tell me what just happened, and any information you have on Arbiter VI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……自从加入余烬到现在，这也是我第一次正面遭遇拉沃斯。",
+			say = "It's... the first time I encountered that Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "因为之前遇到的代行者VI「Combination」低下的战斗能力……明明我早就知道它的强大，却还是轻敌了。",
+			say = "Enforcers aren't a big deal, so I underestimated them, but... they're a pretty dangerous bunch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些真能算“低下”的战斗力么……？",
+			say = "The Enforcers... aren't a big deal?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "相对来说是这样的。对你们来说有些困难，不过我和{namecode:434}应对起来都还算游刃有余不是么？",
+			say = "We are pretty used to fighting them... So I didn't think they'd pose much of a threat to Gneisenau either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然十分不甘心，不过无法反驳……",
+			say = "Oh, uh, I see! That doesn't make me feel bad at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "代行者与代行者之间根据仲裁机关的偏好，性能差距有很大区别。",
+			say = "The Enforcers' combat ability and style depends on their corresponding Arbiter... and the compatibility between them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有喜爱战斗能力一般但依靠数量取胜的数量主义，也有喜爱单体强度极高依靠质量取胜的质量主义。",
+			say = "Basically, they'll either take you out by outnumbering you, or with sheer force on their own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拉沃斯算哪种？",
+			say = "Which one happened to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "它似乎……选择了全都要，目前海域中的代行者并不只有一种。",
+			say = "Both... I hate to say it, but I still haven't figured out a way to deal with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "除了数量极多的代行者VI「Combination」之外，还有少数质量极高的代行者VI「Attraction」混入其中。",
+			say = "In the first wave of attack, they overwhelmed me with sheer numbers... and then after, the Arbiter completely overpowered me on her own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，你是在应对数量众多的杂兵有些大意之时，被突然出现的高质量精英敌人偷袭才变成这样的么？",
+			say = "I see. I didn't think any number of Enforcers alone would've been able to take you down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "怎么可能……虽然有些难缠，但终究只是代行者，只要集中精神应对依然能够处理……",
+			say = "It's as you say... In the end, Enforcers are just Enforcers... Even you guys should be able to handle them just fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "问题就在于，集中精神应对的时候，拉沃斯本体突然出现了。",
+			say = "But, the Arbiter Vessel... No, Arbiter VI's true form...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "映入视野的巨大装甲，就是我失去意识前看到的最后画面……",
+			say = "A huge armored structure appeared in the sky... and that's the last thing I saw before losing consciousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再之后就是要派遣手下对你进行拆解的时间了啊……看来我们来的确实是千钧一发。",
+			say = "So you were taken out in an instant. If Gneisenau hadn't come looking for you, the Sirens would've \"salvaged\" you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些塞壬为什么要在海域里拆解残骸？拉沃斯还在附近么？",
+			say = "...Just like what they're doing with the rest of the wreckage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……这两个其实是一个问题。",
+			say = "That may well be a part of the Arbiter's powers... Taking control of the Singularity to create Mirror Seas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "拉沃斯已经和整片海域的塞壬执行系统同步了，它现在就是这片废墟之海本身。",
+			say = "Once she finishes... No, she might already be done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在的它可以利用模块化分离与重组的方式快速出现在海域中的任意区域，并利用无尽的残骸进行快速修复。",
+			say = "She will be able to deconstruct and reconstitute herself at will, using the resources from the endless seas of debris to regenerate herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "而在消灭掉所有隐藏在的海域废墟中的代行者之前，拉沃斯是无法被消灭的，甚至都不会真正受伤……",
+			say = "And her Enforcers have likewise become more and more durable... and until we deal with them, we have no hope of getting to the Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "真是人如其名，令人无处逃脱的爱啊……",
+			say = "That is the Arbiters' power... The weapon they use to hunt down the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "你们看嘛！我就知道之前看到的水下残骸有古怪！！！",
+			say = "So those Sirens were retrieving resources for the Arbiter...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然有这种能力……那现在这样满是残骸的海域简直就是拉沃斯的主场！",
+			say = "This entire singularity... is the Arbiter's domain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是啊……对于给实验场进行善后来说，拉沃斯无愧是最为合适的人选……",
+			say = "Yes... This was once a world branch that they turned into a testing site... They won't show us any mercy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "给实验场善后……也就是说拉沃斯原本是打算来对付我的么？",
+			say = "Hold on, so the reason I was made to fight here was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是啊……居然派了个这么厉害的狠角色，你之前在这里可真是大闹了一通呢……",
+			say = "Yes. They wanted to test your power... Or perhaps simply \"erase\" you from existence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "多谢夸奖…？",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………{namecode:434}协助{namecode:433}，其他人排成保护队形，我们立刻撤离！",
+			say = "Gneisenau, I'll leave Scharnhorst in your hands. The rest of you, stay vigilant. The enemy may strike at any moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "为什么要让我来照顾这家伙……",
+			say = "...Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为只有你能在拖着它前进的同时追上我们的速度。",
+			say = "The wounded should stay in the back and offer fire support. I'll clear the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵……应该是只有移动力受损的我在拖着{namecode:433}的时候，你们才能追上我的速度吧。",
+			say = "I would've been able to give a better showing if I was in better condition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "尽全力追赶吧，小心不要跟丢……我们出发！",
+			say = "Sis– I mean, Scharnhorst... Stay with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			bgName = "bg_midgard_6",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——2小时17分。",
+			say = "Only a few hours remain until the Singularity maintenance limit––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

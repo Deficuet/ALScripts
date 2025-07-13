@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>掠影浮光</size>",
+					"Crimson Prelusion\n\n<size=45>4 Dream - Vainglorious</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "撒丁帝国首都的公园中，一行人正在花海中漫步。",
+			say = "Somewhere in the Sardegna Empire, two shipgirls were walking through a garden, admiring all the flowers.",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}阁下，没想到会是您亲自带队前来。",
+			say = "I certainly wasn't expecting you to lead the delegation here in person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "我相信在本次博览会中，由阁下亲自负责的重樱馆一定会是最引人注目的焦点。",
+			say = "With you here, I'm sure your pavilion will attract the whole World Expo's attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，再怎么说，我也不能抢掉东道主的风头。",
+			say = "Why, I'd never. It would be rude of me to steal the spotlight from the hosts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过打造一座第二引人注目的场馆，我还是很有干劲的哦？",
+			say = "However, I am eager and excited to create the SECOND most eye-catching pavilion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "那就感谢{namecode:161:天城}阁下手下留情了~",
+			say = "Heehee. Don't create too stiff competition for us, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气~",
+			say = "Of course not. I won't overdo it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，其实我这次前来还有一件比较私人的事想办，不知道维内托阁下是否能行个方便？",
+			say = "By the way, I'd like to ask you for a personal favor. May I ask you to hear me out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "私人的事？是想参观某处景点，或者约某家饭店么？",
+			say = "A personal favor, you say? Would you like a tour guide? Or perhaps a seat at a restaurant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "您但说无妨，包在我身上就好。",
+			say = "I can do almost anything you'd like, so let's hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……我是想见一个人。",
+			say = "Well... there's someone I'd like to meet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由撒丁帝国在此时节重新举办世界博览会，确实是一个绝妙的主意。",
+			say = "You, the Sardegnians, volunteering as hosts for the World Expo was a move of divine brilliance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而能提出这个绝妙主意的人，想必也是一位有理想有眼界的人。",
+			say = "Whoever came forth with the suggestion to you must be a person of great ambition and vision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想与这位出色的阁下见上一面，不知道能否有这个机会呢？",
+			say = "For that reason, I'd like to talk to them. Could you make that happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "你说的是……马可波罗阁下啊。",
+			say = "Ah, you must mean Marco Polo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "（{namecode:161:天城}阁下说的有道理。马可波罗作为计划的提出人，却一直以来处于项目的边缘化位置……）",
+			say = "(Now that she mentions it, Marco hasn't even gotten the chance to appear at the World Expo, even though she's the architect of it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（确实不能就这么放着她不管……）",
+			say = "(I feel a bit sad for her. She deserves some time in the limelight.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "嗯——博览会的提出者马可波罗阁下此时倒确实也在罗马，没问题，日程我来安排。",
+			say = "I believe she's in our capital right now. I'll arrange a meeting between you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，那就麻烦了，我个人很期待这场会面哦~",
+			say = "Thank you so much. I can't wait to speak to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，你期待？我可不期待！",
+			say = "Hmph! I, on the other hand, couldn't care less about you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "耀眼的光芒撕裂了天空，由纯白羽翼包裹的王座自裂缝中现身。",
+			say = "The sky burst with a dazzling light, and a throne adorned with white wings revealed itself.",
 			bgm = "theme-marcopolo",
 			movableNode = {
 				{
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "王座之下，首都罗马优美的景色正在快速溶解着，取而代之的是一片无边无际的白。",
+			say = "All the land beneath the throne vanished in an instant, being replaced by a whiteness that spanned from horizon to horizon.",
 			effects = {
 				{
 					active = false,
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "王座之上，端坐着一道令人眼熟的身影。",
+			say = "The throne slowly descended from the sky, and its pilot came into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那段时间我每天忙着设计图纸，过得充实得很！",
+			say = "I was perfectly content to fill my days with drawing up plans at the time! I don't need your pity, Veneto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "倒是——你是什么东西？",
+			say = "As for YOU... Who are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "撒丁帝国这片神圣的土地，哪能容你等污秽之物在此撒野？！",
+			say = "Vile creatures like you have no place in my glorious empire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,8 +412,8 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "马可▇ ▇阁下，▇ ▇▇ ▇▇ ▇在▇ ▇▇ ▇什么▇ ▇？",
+			actorName = "▇▇▇▇▇",
+			say = "Mar▇o, wh▇t ▇▇▇ you ▇▇▇▇▇▇▇ ▇bout?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵，话都说不利索了么？",
+			say = "Hah! You can hardly even talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "那就消失吧——！",
+			say = "Vanish from my sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "又是一阵耀眼的光芒，形似{namecode:161:天城}之物化为一阵黑烟消散了。",
+			say = "Struck with holy light, the doppelganger of Amagi was reduced to black mist before vanishing altogether.",
 			effects = {
 				{
 					active = true,
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "随后，白色的空间中又凭空出现了一个鸟居，另一道身影飞奔而出。",
+			say = "The next moment, a set of torii gates appeared in the dreamscape, from out of which Shinano leaped forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "马可波罗阁下，等等……不要乱跑！",
+			say = "Marco Polo, you must think carefully before you act in this dream world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "于梦境之中乱跑是很危险的……尤其是阁下现在的状态！",
+			say = "In these circumstances, haphazard movement is very dangerous...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "马可波罗还有……{namecode:182:信浓}阁下？",
+			say = "Marco... Polo? Shinano, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维内托阁下？没想到误打误撞来到了您的梦中，看来您已经清醒过来了呢。",
+			say = "Veneto? Apologies for intruding upon your dream, albeit unwillingly... Have you awoken from the illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "……算是吧。所以，现在到底是怎么回事？",
+			say = "I suppose I have... What's going on now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "马可波罗不是一直在昏迷中么，为什么会坐在王座上，你又为什么会追着她过来……？",
+			say = "I thought Marco Polo was still in a comatose state! What is she doing here? Why are you here, for that matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "啊哈哈哈——这不是显而易见么！我已经从漫长的沉睡之中醒来，而且拥有了新的力量！",
+			say = "Use your eyes, woman! I've gained a new source of power and effortlessly crushed this illusion with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵……我已经有一个全新的计划想要去执行了！",
+			say = "Next, I will realize the next step of my plan! I only just came up with it, but no matter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "重樱的{namecode:182:信浓}，是你唤醒我的对吧？",
+			say = "You, Shinano – it was you who awoke me, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错不错，真是个可靠的盟友，以后我绝不会亏待你的！",
+			say = "Then I have a trustworthy ally! Magnificent! I guarantee you will get your share of the pie later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……确实是妾身将汝唤醒的。不过，此处仍为梦境，阁下所感知到的力量，亦是妾身的力量。",
+			say = "It was this one who awoke you, yes – however, you are still dreaming, and the power you feel is but my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "“仍为梦境”？意思是我虽然醒了……但还是在梦里？",
+			say = "\"Still dreaming\"? So what I see here is not reality, even though I'm awake?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来……你刚才也一直在说梦里如何如何呢……",
+			say = "Hmm. You did say something about a \"dream world\" a minute ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不错。阁下的精神一直在梦境中的某处沉睡，妾身只是将其呼唤过来，仅此而已。",
+			say = "Your mind is still in the dreamscape... All this one did was pull you here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怪不得一睁眼就看到了那么离谱的东西……我还以为撒丁帝国被什么人抢先占领了呢。",
+			say = "Bah. No wonder I \"awoke\" to such a dreadful sight. I thought someone had already stolen my sweet Sardegna from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "还好还好……不对，很不好啊！",
+			say = "Thank goodness it's just a dream... No, wait, that's not good at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我要怎么才能真正醒过来……？",
+			say = "If I've already awoken, as you claim, then how do I wake up in the REAL world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身无法回答。",
+			say = "Alas... I do not know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……怎会如此！",
+			say = "So I'm trapped, then?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "马可波罗阁下，妾身的力量并不能持续太久。时间有限，克莱蒙梭阁下托妾身将汝唤醒，是想问汝一些问题。",
+			say = "My power will not hold for long... I awoke you so I could ask you questions on behalf of Clemenceau...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，原来是克莱蒙梭那个女人派你来的，我跟她没什么可说的。",
+			say = "Clemenceau, you say? Hah! I won't tell her a damn thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如此……却是麻烦了……",
+			say = "You must... This one shan't leave empty-handed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "唔……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你盯着我看做什么？不是时间宝贵么？问啊？！",
+			say = "Well? Are you going to stare all day or ask your questions? You're wasting your limited time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我又没说不回答你的问题！",
+			say = "I said I won't tell HER a damn thing! That doesn't mean I won't answer your questions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……却是如此。",
+			say = "As you say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,7 +886,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "克莱蒙梭阁下托妾身向汝提问，重樱的外交使节曾经以任何名义，向汝赠送过神石「海若」的碎片么？",
+			say = "Know you anything about a Sakuran envoy lending your country a fragment of the Watatsumi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱的神石啊……当时好像是你带队护送其从铁血的浮岛要塞群返回本土的吧……",
+			say = "Ah, the Watatsumi. If I remember right, you led the team that transported it from the Iron Blood's Floating Fortress, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "嘶……",
+			say = "Tsk! Right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "嗯？阁下怎么了……？想到什么事了么？",
+			say = "Yes? Do you remember something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "没、没什么……我不知道什么神石碎片的事哦！",
+			say = "No, forget it! I know nothing about any blasted Watatsumi fragment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "那，除了神石碎片之外，重樱的外交使节是否向汝赠送过其他物品？",
+			say = "Very well... Then, know you about any other sort of gift from the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -973,7 +973,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……那倒还是有的。之前我在四处收集古玩和工艺品的时候，重樱也有送过来一些。",
+			say = "That, I do. When I was amassing antiques and works of art, I received quite a few from you Sakurans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "都被我放在私人仓库里了。",
+			say = "I believe I put them in a warehouse in Venice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……？我仔细彻查过你在仓库中的收藏品，并没有发现来自重樱的物品啊。",
+			say = "Pardon? We searched that warehouse and didn't find a single Sakuran artifact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "什么？！维内托，你居然调查我的私人仓库？！",
+			say = "You did WHAT?! That was MY private warehouse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……马可波罗阁下，有点自知之明。你难道意识不到你之前捅下的娄子有多大么？",
+			say = "Oh, please. Did you really think we'd leave your warehouse alone when you'd caused a crisis of cataclysmic proportions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1049,7 +1049,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "……查就查吧，又没说不让你查。",
+			say = "Wh-whatever! I never said you COULDN'T search it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我的那些艺术品都很贵的……查的时候小心点……轻拿轻放！",
+			say = "Just know that those artifacts are all invaluable! Search if you must, but be careful with them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，我就知道这些，还有要问的么？我突然感觉好困……",
+			say = "Anything else? I'm getting quite tired all of... a... sudden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "没什么要问的话，我就……zZZZ",
+			say = "If that'll... be all... I'll just... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "白色的光芒消散后，王座与马可波罗亦消散无踪。",
+			say = "Marco Polo and her throne were there one moment, then gone the next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "这……马可波罗！",
+			say = "Marco!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "{namecode:182:信浓}阁下，马可波罗为什么突然消失了？",
+			say = "What... What just happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,7 +1163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "很遗憾，妾身施加在其身上的力量用尽，马可波罗阁下的精神又陷入沉眠之中了。",
+			say = "The power given unto me by the dream ran out... Now she sleeps once more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1176,7 +1176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "马可波罗阁下此时的情况十分特殊，妾身也是废了很大力气才将其精神呼唤而来的。",
+			say = "Marco Polo's case is exceedingly special, making it very taxing to keep her here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "目的就是为了问……刚才的问题？神石碎片又是什么？",
+			say = "I see... So then you awoke her briefly to ask those questions? Could you share more about this \"Watatsumi fragment\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此事……十分复杂。一会，吾等在现实世界的审判庭总部再谈吧。",
+			say = "I'm afraid 'tis complicated... This one shall explain it in the waking world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1215,7 +1215,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。醒来之后，不见不散——",
+			say = "I understand. Let us speak again in the real world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

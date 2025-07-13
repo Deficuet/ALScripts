@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>四　门厅</size>",
+					"Angel of the Iris\n\n<size=45>4 The Templar Knight and the Attendants</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "鸢尾教国·宴会厅外",
+			say = "Party Venue - Entrance Corridor",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "所以说！这里现在禁止无关者入内！",
+			say = "For the last time! Thou art not allowed inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "我们还是回去吧，鲁莽……",
+			say = "Tem, let's just go home. We're not getting in without our invitations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "不！我们难道不是教廷的同伴么！通融一下嘛~布雷泽！",
+			say = "We have them, we just forgot them! Please, Maillé! You know we can be trusted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "现在可不是通融不通融的问题……守在这里是我身为教廷骑士的职责！",
+			say = "Hmph! When I say no, I mean NO! The Cardinal herself personally entrusted me with this post! Today is the one day I will make no exceptions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且鲁莽，你为什么会突然想进宴会厅啊！",
+			say = "If you truly got invitations, then why can't you head back to your rooms and fetch them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "嘿嘿嘿，我听说今晚这里会有最棒的甜品……鲁莽想尝一尝！",
+			say = "Well... the thing is, I don't want to miss out on the pastries they're serving just for this party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "而且里面看上去好热闹的样子！大家不就是应该聚在一起热热闹闹的嘛！",
+			say = "It's a long way back to the dormitory, you know? The pastries will be gone by the time we're back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "鲁莽，知道你喜欢热闹没错……可是这么重要的外交场合我们还是不要掺和的好。",
+			say = "They're not even meant for you, Tem. They're for the Royal Navy guests...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801040,
-			say = "……甜品的话，我们回头去敦刻尔克小姐那里蹭就是了。",
+			say = "If it's pastries you want, just ask Dunkerque to make some for you later and I'm sure she'll oblige.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "反正来的都是熟人，有什么关系啦！",
+			say = "I know that, but they invited us too, remember? So we're guests too! And besides, I want pastries NOW!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "我还想进去跟进取打个招呼呢！",
+			say = "Hey, I know! If you let us in, we'll act as little cultural ambassadors for the Royal Navy girls! We'll tell them what the pastries are named and how good they are and so on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "倔强也不要这么死板，和我一起努努力说不定就拿下布雷泽了呢！",
+			say = "I mean, what if you turn us away, suddenly become short-staffed, and then can't treat your dear guests properly? That'd be terrible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "不行，这件事没有一丝一毫商量的余地！",
+			say = "D-don't go around making up increasingly fantastical scenarios!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "要想进入宴会厅，就必须先拿出请帖来。鲁莽，我再问一遍，你有请帖么？",
+			say = "The Cardinal gave me explicit orders – any who wish to enter must present an invitation! So do you have an invitation or not, Le Téméraire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "没有！但是我有一颗想要进去的火热之心！",
+			say = "I don't, but I promise I can give the guests the party of their lives! Please, you have to let me in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "……既然如此，那就没办法了。要想通过这里就得先打倒我这个看门的骑士！",
+			say = "Thou shalt not pass! If you insist on passing, you'll have to get through me! Heh heh~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "哇哦！事到如今也只能如此了，鲁莽要勇往直前————！",
+			say = "Ugh, you leave us no choice... C'mon, Opie, we're gonna make a break for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………我说几位，这里是在做什么？",
+			say = "...What in the world are you people doing? Are you trying to make us look bad?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "今晚的宴会上好像没有安排类似的节目吧？",
+			say = "If you want pastries so badly, I'll save some for you. Now hurry back and grab your invitations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "唔啊…………天使来了！",
+			say = "Thanks, Joffre! You're so sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801030,
-			say = "那—我—就—不—打—扰—了——！倔强，我们快走！",
+			say = "Sorry for bothering you, Maillé! C'mon, Opie, let's be quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "等等————",
+			say = "Gluttony is a sin, but in light of your service to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……走掉了。",
+			say = "...Oh. They're gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "霞飞小姐，真是帮大忙了！",
+			say = "Thanks for getting them out of my hair, Joffre!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "不然这件事不与鲁莽大战三百回合怕是收不了场了！",
+			say = "That said, had Le Téméraire tried to sprint past me, I would simply have subdued her by force if necessary!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "不让无关人员进去的初衷固然好，不过在这里打起来你是想引发更大的混乱么？",
+			say = "While your devotion to your duty is exemplary, think about the sheer chaos that would've broken out if the two of you really started fighting out here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "欸……这件事我倒是没…………非常抱歉！",
+			say = "Ugh, I didn't even think of that... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "噗……好啦，我也就是说说而已。",
+			say = "Don't worry about it. I'm not here to get you in trouble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家代表团已经到了么？",
+			say = "By the way, has the Royal Navy arrived?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 801080,
-			say = "还没有，按照日程，距离代表团到达宴会厅还有至少一个小时。",
+			say = "Not yet, but they should be here shortly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "一个小时么……我明白了，让我进去吧。",
+			say = "Very well, then I will wait for them inside. Here is my invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是！里面请，霞飞小姐————",
+			say = "Splendid – everything checks out! Welcome in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

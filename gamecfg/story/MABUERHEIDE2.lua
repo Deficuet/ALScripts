@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>二　好，茄子☆</size>",
+					"Light Up My Day\n\n<size=45>2 Smile for the Camera</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "来到室外之后，阳光和煦，微风清爽，比想象中的要舒适许多。",
+			say = "Right as we set foot outdoors, I was greeted by the sun's warming light, contrasted by cooling breezes of wind. It felt wonderful.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……既然顺着势头出了门，接下来做些什么好呢？",
+			say = "Whew! While we're blowing away them cobwebs anyhoo, we might as well get something done. Question is: what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？从那边走过来的难道是——",
+			say = "...Oh! Here comes the answer! Wassup?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上午好，这不是指挥官和马布尔黑德么，你们在这里做什么？",
+			say = "Marblehead? And the commander, too. Good evening. What are you two up to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在带指挥官转换气氛中~孟菲斯是在散步吗?",
+			say = "Like, nothing, pretty much. What about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与其说是散步，不如说是正在向着目的地移动的过程中。今天天气合适，所以想着用相机去拍拍港区景色优美的地方。",
+			say = "Just enjoying a stroll on my day off, taking some photos of the occasional picturesque places at port. Nothing much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那我可以一个很值得拍的风景哦！",
+			say = "Niiice. Speakin' of photos, I've got just the perfect subject for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在哪里？",
+			say = "And what would that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然我 and 指挥官啦！指挥官指挥官，快过来这边对着镜头一起笑一个~",
+			say = "Not what, but whom! Me and the commander here! Eyes ahead and give the camera a big smile, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就知道……好吧，两位再靠近一些我才好拍哦。",
+			say = "I should've figured... Sure, I suppose. Just stand close to each other, and I'll snap a picture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然孟菲斯都这么说，指挥官就再靠过来点……OK！那就，茄子☆",
+			say = "You heard the camerawoman! C'mon then, next to me. Ready? Say cheese!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "咔嚓！",
+			say = "The shutter clicked with a quaint sound. Moments later, the camera began producing a photograph.",
 			flashN = {
 				color = {
 					1,
@@ -279,7 +279,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "幸好今天带着的是拍立得。稍等一下，马上就好。",
+			say = "We're lucky I brought my instant camera today. Just give it a minute while the picture develops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "不长时间，孟菲斯就把显影后的照片递给了马布尔黑德。",
+			say = "Memphis flapped the forming photo through the air to speed the process up. After that was done, she handed it to Marblehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不错~接下来让我来加工加工——",
+			say = "Sweet! Now to fancy it up a li'l with some cutesy symbols! Got a marker pen, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用荧光笔这么一画……嘿！怎么样指挥官？稍微涂了几下之后是不是有稍微有点感觉了？",
+			say = "Cool, thanks. Just gimme a sec... There! Whaddya think? Doesn't it look real nice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,23 +342,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "在被她用荧光笔添上涂鸦后，照片确实变得像华丽的大头贴一样了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不错不错，这张就作为纪念放到我的相册里好了，嘿嘿~",
+			say = "Marblehead drew on a myriad of ribbons, stars, and other decor. They added a strangely endearing quality to the photo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +358,23 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官有感觉放松下来么~哼，那么下次一定要猜对哦，再见啦——",
+			say = "I really like how this one came out. It's totes getting a slot in my photo album.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_113",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Anyhoo, feeling like you cleared your head, Commander? Good. I've gotta run now, but I'll catch you later! And don't forget my name next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，马布尔黑德，等一下——真是的……一直被那孩子牵着鼻子走，指挥官你也不容易呢。",
+			say = "Wait, before you go– And she's off already... If I were you, Commander, I'd feel like I'd almost just been manipulated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过要是能因此转换下心情，我也就不说什么了。",
+			say = "Although, I suppose her dragging you out of the office did give you a warranted break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我差不多也该走了。难得的休息日，不要太勉强哦。",
+			say = "Indeed it did. That day, Marblehead taught me the benefits of stopping to take a breather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

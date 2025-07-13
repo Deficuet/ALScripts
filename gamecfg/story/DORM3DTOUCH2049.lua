@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呼……身体有点僵硬呢，正好舒展一下……",
+			say = "Whew... I was feeling a bit stiff, so this will loosen me up a bit.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone2",
 			typewriter = {
 				speed = 0.05,

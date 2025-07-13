@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "确认邮轮上已经没有什么可以帮忙的地方后，我也登上了无人岛。",
+			say = "I've verified that there's nothing left to help with on the ship, so I've decided to make landfall on Seabreeze Island.",
 			bgm = "main-seaandsun",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（说起来……之前在这里发生了不少事情啊。）",
+			say = "(This place brings back fond memories.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（从开始寻宝之旅……到后面逐步在无人岛上完成各项设施的建设。）",
+			say = "(It started with a treasure hunt, and ended with all of us building vacation infrastructure here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还有和皇家财富的邂逅，这些都是十分宝贵的回忆。）",
+			say = "(And let's not forget my exchanges with Royal Fortune. Ahh, how time flies.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这里已经接近海龟的栖息地了……嗯？）",
+			say = "(If I remember right, this is where the turtles have made their– Huh?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有人吗！拉菲溺水了啊！救——命——啊——！",
+			say = "Heeelp! Laffey is drowniiing! Somebody heeelp!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "溺水……？标枪别慌，我来了！",
+			say = "She's drowning?! Hang on, I'm coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "向着标枪的方向快步跑去，顺着她所指的方向，看到了背面朝天浮在海面上的拉菲。",
+			say = "I run like the wind to where Javelin is pointing and find Laffey floating face-up in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，拉菲她……！",
+			say = "Help her! Quick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,18 +146,18 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？为什么总觉得拉菲在缓慢地挪动……）",
+			say = "(Wait... did I imagine it, or is she moving around?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "凑近看看",
+					content = "(Come closer and have a better look.)",
 					flag = 1
 				},
 				{
-					content = "仔细观察",
+					content = "(Observe her closely.)",
 					flag = 2
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘘——标枪，我们声音小一些，一起慢慢游过去看看。",
+			say = "Javelin, shhh. Try to keep quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好的！（小声）",
+			say = "(Oh, okay!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……原来是拉菲趴在去年那只大海龟身上睡觉……吓我一跳。",
+			say = "Phew... She was just sleeping on the back of a big turtle. I was really worried there for a minute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过还是把她叫醒吧，海龟正在往海里游，真的溺水就糟了。",
+			say = "Let's wake her up. The turtle is heading into deep water, which actually puts her at risk of drowning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "就在我和标枪说话的时候，拉菲似乎是被吵醒了。",
+			say = "In the midst of our exchange, Laffey opens her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？指挥官和标枪……为什么叫醒拉菲……",
+			say = "Mmgh... It's you two... Did you have to wake me up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好困……拉菲要继续睡了……Zzz……",
+			say = "I'm still sleepy... I'm going back to bed... Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不可以继续睡啦！要睡也去安全的地方睡嘛。",
+			say = "No, Laffey! If you wanna sleep, find a safer place to do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲不想动……就这样……",
+			say = "I don't wanna get up... I'm not going anywhere...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还是把她抱去安全的地方睡比较好吧……）",
+			say = "(If she won't get up and do it, I'll just have to carry her there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "和标枪一起把拉菲从大海龟的背上转移到了安全的沙滩上后，我继续向前走。",
+			say = "Javelin and I carry Laffey away from the water and to a safer place. After that, I resume my walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "不知不觉就来到了花田附近。",
+			say = "Sometime later, I find myself near the vegetable garden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，那边的是……指挥官？",
+			say = "Hey, is that...? It's the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301820,
-			say = "指挥官好呀~",
+			say = "Good day, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官——！要不要来和我们一起编花环？{namecode:29:花月}编得可好了！",
+			say = "Hi! Do you wanna make a wreath with us? Hanazuki is really good at it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "{namecode:29:花月}、平海和宁海在花田中朝我招手。",
+			say = "Hanazuki, Ning Hai, and Ping Hai wave at me from the garden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我打算继续逛逛，就先不加入你们了。",
+			say = "Another time, maybe! I'm on a walk right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301820,
-			say = "这样啊……那指挥官可以稍微在这里等一下吗？",
+			say = "I understand. Still, would you mind waiting here just a minute?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301820,
-			say = "宁海、平海，我们一起编个大大的花环送给指挥官吧。",
+			say = "Ning, Ping, I'd like to make a big wreath as a gift for the Commander. Will you help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,13 +490,13 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "宁海&平海",
+			actorName = "Ning Hai & Ping Hai",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			actor = 502020,
 			nameColor = "#A9F548FF",
 			side = 0,
-			say = "没问题！",
+			say = "- Yeah! - Let's do it!",
 			subActors = {
 				{
 					actor = 502030,
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "戴上了由三人协作的超豪华花环后，继续在无人岛上漫步。",
+			say = "The three of them made a beautiful wreath for me. I put it on my head then start walking again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这里已经靠近火山那片区域了吧……嗯？那边的人影是……马可波罗？）",
+			say = "(I should be getting near the volcano now... Hm? Is that Marco Polo? What's she doing here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "火山哟，我马可波罗回来了！",
+			say = "Volcano! It is I, Marco Polo! I have returned!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "这座被撒丁征服的火山，还留着我马可波罗大人的象征——不错，非常好！",
+			say = "Magnificent! The monument I left to commemorate Sardegna's conquering of the island is still there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608020,
-			say = "马可波罗大人，你不会……",
+			say = "Please don't tell me you're thinking about moving it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "当然！我带你来就是为了这个！快把它带回港区，传播我马可波罗的威名吧！",
+			say = "That is exactly what I'm thinking! It's what you're here for! Take this monument and load it on the ship back to the port, where it may better spread my name!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "啊，指挥官，你来了啊，你也觉得把雕像搬回去是个好主意吧！",
+			say = "Oh, you're here, Commander. You must agree that taking the monument home is a good idea, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "注意到了我的靠近，马可波罗理所应当地冲我发问。",
+			say = "She spots me and catches me off guard with a question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这个雕像的重量……邮轮还有很多度假用的物资，搬回去的话说不定会超重。）",
+			say = "(That thing is massively heavy. Our ship is already loaded with cargo and we'll sink dangerously low if we overburden it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（以及，把它搬回去的话，应该放在哪里比较合适？）",
+			say = "(And if that wasn't an issue, where would you even fit it in the port?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——马可波罗阁下，关于雕像的事情，我有一个更好的提案哦~",
+			say = "Marco, I have a good idea what to do with the statue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（克莱蒙梭又是什么时候来的……居然完全没察觉到她的到来。）",
+			say = "(Where'd Clemenceau come from? I never knew she was here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "哦？快说说看你有什么好主意吧。",
+			say = "Do you, now? Let's hear this idea of yours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "既然是要彰显荣光的话，让这个雕像在这里不是更好吗？",
+			say = "If it's prestige you want, leaving it here is the way to go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这样之后每个来到这里轮值的同伴都会知道，是撒丁的马可波罗征服了这座火山。",
+			say = "The next time someone reaches this summit, they'll see the monument and know that you, Marco Polo, conquered this volcano long ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果是要为本次度假留下纪念的话，为什么不在船上建造一座新的雕像呢？",
+			say = "And if you want something to commemorate our visit, why not build a new statue on the ship?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这样既可以控制在合适运载的大小和重量，又更有意义——毕竟在我们出发之前，邮轮上可没有这个东西哦？",
+			say = "It'll be light enough to transport and more meaningful than this old statue. Think about it – there was no statue on the ship before we set off, was there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "的确，这是个更有价值的提议！达芬奇，跟我走，在邮轮上寻找一个更适合立雕像的位置！",
+			say = "Good point... Yes, that idea has merit! Da Vinci, come with me! We must look for the perfect place to put that statue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在就走！",
+			say = "Come on! Chop-chop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "呃呃呃——马可波罗大人，你等等我啊——！",
+			say = "What? Hey! Wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "马可波罗和达芬奇的身影飞快地消失在了我的视野范围内，眼前只剩下了克莱蒙梭。",
+			say = "Marco Polo and da Vinci quietly leave the volcano. Only I and Clemenceau are left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是审判庭的幕后人吗？如此轻易找到了突破口解决了问题。",
+			say = "Bravo, mastermind of the Tribunal. You found an opening and nipped the problem in the bud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "大概是因为，我很清楚马可波罗想要什么？",
+			say = "I think it only went so well because I know how what makes Marco tick.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，她其实很好相处的，指挥官不也很清楚吗？",
+			say = "She's actually quite easy to get along with. You know that, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样说倒也没错……",
+			say = "I suppose so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "好了，说回正题。指挥官，我其实是专程来找你的。",
+			say = "Anyway, enough beating around the bush. I've got a message for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "{namecode:408:Z23}她们已经完成了和上一批轮值的同伴们的交接工作，现在正在现场进行最后的细节核对。",
+			say = "Z23's group finished their assigned work from last time. They're doing the final checks right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "现在这座无人岛上的基础设施已经基本架设完毕……",
+			say = "The island's infrastructure should be almost entirely finished now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -990,7 +990,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信它很快就能够投入正常的生产运作、作为后备物资基地类的设施存在。",
+			say = "It'll soon begin operations, producing material and serving as a supply stockpile.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1006,7 +1006,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "相关的核对记录文件在哪里，需要我现在去找{namecode:408:Z23}么？",
+			say = "Okay, and where is the paperwork? Do I need to go and find Z23?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不用。{namecode:408:Z23}会将完成核对的记录文件交给孟菲斯，指挥官现在可以继续享受闲暇时光哦~",
+			say = "No need. She will pass on the paperwork to Memphis, post-review. All you need to do is relax and enjoy yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,7 +1035,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "和克莱蒙梭分开之后，来到了无人岛上的海鸟栖息地。",
+			say = "Clemenceau and I part ways, after which I go to a seagull roosting spot on the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:6:绫波}不在这里，海鸟也不在……再去别的地方看看吧。）",
+			say = "(Ayanami isn't here, nor are there any birds. I'll just go somewhere else, then.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在稍晚一些的时候，大家陆续回到了邮轮。",
+			say = "An hour or two later, we all start walking back to the cruise ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,7 +1103,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "之后又在无人岛上度过了一段时间后，也回到了邮轮上。",
+			say = "After killing some time on the island, it's time to get back on board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_570",
-			say = "叩叩叩——",
+			say = "*knock knock*",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_570",
-			say = "依照可畏的短信，我敲响了刚结束拍摄活动的摄影棚的门。",
+			say = "After receiving a message from Formidable, I headed to the studio where her photo shoot had just ended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,11 +46,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "star_level_bg_570",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是、是指挥官吗？赶紧进来！记得把门给关好！",
+			say = "C-Commander? Get in here! And close the door behind you, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			live2d = "home",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "走进摄影棚的瞬间，我便因眼前的画面而愣在原地。",
+			say = "As soon as I go inside, I'm stunned by the unbelievable scene before me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +94,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "此时的可畏正端坐于画框当中，诱人的锁骨上系着一个巨大的蓝色颈带。",
+			say = "She sits within an oversized picture frame. A vivid blue ribbon hangs from her beautiful neck.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "瀑布般的长发在聚光灯的映照下，宛如瑰丽的珐琅。",
+			say = "Her hair droops like a waterfall, shining like exquisite silk under the spotlight.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			actor = 207055,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（绝美的艺术表达……但是这样的表情，像是有点……不堪重负？）",
+			say = "(She's like a work of art, but for some reason, she seems tense.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在看到我的那一刻，可畏眼中的不安瞬间烟消云散，神情也舒展开了。",
+			say = "When she sees that I'm inside, the anxiety in her eyes instantly disappears. Her relief is evident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "啊，指挥官，你总算是来——",
+			say = "Oh, Commander... You're finally here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "然而面带欣喜的少女刚准备直起身子，又立刻面色绯红地重新坐了下去。",
+			say = "She starts to stand up, but then, she gets flustered, turns red, and sits back down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "哼……哼！有点太慢了！",
+			say = "...H-hmph. You're late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "作为我的指挥官，必须要时刻注意到我的状态，随时能够支援！",
+			say = "You're my Commander, so you need to be ready to come see me at a moment's notice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "随着可畏的话音落下，她身上雪白的礼服轻轻扬起，但仍不及她那白皙透亮的肌肤夺目。",
+			say = "Her white dress sways with her movements, drawing ever more of my attention to the skin beneath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "然而她身下的画框也摆动起来，可畏连忙双手扶住画框维持平衡，但身体仍然僵硬挺住。",
+			say = "But the frame she's sitting on rocks, too. She rushes to grab it with both hands, but she suddenly freezes up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "那、那个……带、带子……",
+			say = "U-umm... It's untied...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 207055,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……怎么了？",
+			say = "Sorry, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "带子啦！我是说我衣服的带子开了啦！",
+			say = "My dress! My dress came untied!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "现在乱动的话……衣服会……会彻底掉下来。",
+			say = "If I move at all... It's going to fall off completely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "画框也很麻烦……必须要扶住才行。",
+			say = "And this frame is unstable. I need to hold on tight, or else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,22 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "别、别这样看着我啦！就算是皇家的淑女，也会有这种进退两难的事情嘛！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_116",
-			withoutActorName = true,
-			hideRecordIco = true,
-			actor = 207055,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "看到她为难的样子，我连忙走到她的身边，优先解决淑女的衣服问题。",
+			say = "D-don't look at me like that, please! Even Royal ladies are only born with two hands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +327,22 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "每当我的指尖触碰到她微微颤抖的身体，她温润的肌肤便会随之逐渐染上红晕。",
+			say = "Unable to watch her struggle, I run over to help her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_116",
+			withoutActorName = true,
+			hideRecordIco = true,
+			actor = 207055,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "Each time my fingers brush against her trembling body, her smooth skin reddens a little more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "你专心一点……",
+			say = "Please be careful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,18 +371,18 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "可畏略带紧张的轻柔吐息擦过了我的脸和耳畔。",
+			say = "Her uneven breathing warms my cheek and ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "会不会有点紧？",
+					content = "Is it tight at all?",
 					flag = 1
 				},
 				{
-					content = "会不会有点松？",
+					content = "Is it too loose?",
 					flag = 2
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "刚刚好……等下……你这是在拐着弯说我变胖了？！",
+			say = "It's just right... Wait, are you accusing me of having gained weight?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 207055,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我只是觉得这个系带稍微有点长，要多打一个结。",
+			say = "No. This strap is long, so I was thinking of tying another knot into it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没关系，可以再稍微系紧一点的。",
+			say = "It's okay. Tie it a little tighter, if you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "身为皇家的淑女，可不会连这点忍耐力都没有。",
+			say = "As a Royal lady, I can withstand this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "将礼服上的系带重新系好后，可畏才终于放松了下来。",
+			say = "I tie the strap again, finally satisfying her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "谢、谢谢……",
+			say = "T-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "……说、说起来！指挥官，你应该看到照片了吧，觉得我的表现怎么样？",
+			say = "M-more importantly! Did you see that last photo? Did it look nice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "话语间，略显羞涩的可畏稍稍收起了她那踩着银色高跟鞋的修长双腿。",
+			say = "She shyly retracts her long legs, tipped with silver high heels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "蓝色系带沿着纤细的腰身垂直而下，将她腿部的优雅曲线展现得几近完美。",
+			say = "Blue fabric trails down her waist, perfectly outlining her leg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 207055,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯，表现得很不错，就是有点紧张。",
+			say = "You did great, but I could tell you were nervous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "……唔唔！你就不能说多点好听的话吗！明明可畏都已经——",
+			say = "Hmph! Be a little nicer, why don't you? I went through all this effort–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就在气鼓鼓的可畏用鞋尖朝我攻来时，她的高跟鞋却突然从她的脚上滑落。",
+			say = "She tries to kick me with the tip of her high heel, but the shoe suddenly slips off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我下意识地伸出手去接，却意外抓住了她晶莹圆润的脚踝。",
+			say = "I try to catch it, but I end up grabbing her delicate ankle instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "——指、指挥官！你这是——",
+			say = "C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 207055,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我正准备松开手，可畏却伸手扶住了我的肩膀，压低了自己的声音。",
+			say = "When I'm about to let go, she puts a hand on my shoulder and leans in close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "糟、糟糕指挥官……系带，好像又松开了……",
+			say = "Urk... I-it came untied again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "……看来，你要在我身边多待一些时间……直到、直到你学会怎么把这些带子系牢为止……",
+			say = "You have to stay with me... until it's tied good and tight, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207055,
-			say = "……可以吗，指挥官哥哥？",
+			say = "Please, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

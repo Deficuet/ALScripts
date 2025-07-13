@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "节庆前夕，我正在港区里巡视着。",
+			say = "On the night before the festival, during my tour around the port, I hear a sudden commotion from a nearby building.",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "突然，一阵响动从不远处的房间传来，引起了我的兴趣。",
+			say = "Curiosity compels me to check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "推开半掩的门，眼前的景象让我愣在原地。",
+			say = "As I push open the half-closed door, what I find leaves me dazed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}身穿一件旗袍，头发松散地垂在脑后。",
+			say = "It's Nagato. She's wearing a traditional Dragon Empery dress, and her hair spills onto the table she's sitting on...",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "此刻她正坐在桌子上，身上被一团红绳缠得动弹不得。",
+			say = "Her arms are bound behind her head with red string, leaving her almost unable to move.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指、指挥官？汝怎么在这个时候……",
+			say = "C-Commander? What are you doing here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}看到我，脸上浮现出些许羞红。",
+			say = "When she sees me, her face flushes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "吾……吾本想为大家筹备节日添一份力……",
+			say = "I-I simply wanted to help everyone prepare for the festivities...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "唔，这怎么这红绳……挣脱不开了……",
+			say = "But I can't... untie this damn string...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "{namecode:74:长门}……你这是怎么了？",
+			say = "Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "虽然大概也能猜到{namecode:74:长门}在做什么，但还是忍不住想逗逗她。",
+			say = "I can kind of imagine what she was trying to do, but I can't help but tease her a little.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "这……这个是……",
+			say = "Th-this is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "这红绳吾本想缠成东煌传统里象征吉祥如意的装饰送给汝……",
+			say = "Well, I was planning to use the red string to make a good luck decoration for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "却没想到令吾如此狼狈不堪……",
+			say = "If only I knew it would lead to this embarrassment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说着{namecode:74:长门}的手脚又在轻轻挣扎，但还是没能挣脱红绳。",
+			say = "She flails her arms and legs about, but her efforts don't loosen the string.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -245,18 +245,18 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，汝能否……助吾一臂之力？",
+			say = "Commander? Are you going to help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我帮你解吧",
+					content = "(Help her.)",
 					flag = 1
 				},
 				{
-					content = "先找把剪刀吧",
+					content = "(Suggest cutting the string.)",
 					flag = 2
 				}
 			}
@@ -271,7 +271,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "当然，我来帮你解开吧。",
+			say = "I'll help you untie it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			optionFlag = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "唔……谢谢……",
+			say = "Mgh... Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "要不要先找把剪刀？",
+			say = "Should I look for scissors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			optionFlag = 2,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "啊，如果可以的话……还请不要……",
+			say = "Urk... I'd rather not cut it, if possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "嗯？你难道还想留着红绳继续做装饰品吗？",
+			say = "Oh, right. You wanted to make it a decoration...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			optionFlag = 2,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我蹲下身子，开始尝试帮{namecode:74:长门}解开缠绕的红绳。",
+			say = "I squat down and start untying the string wrapped around her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -377,7 +377,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "嗯……是该从脚开始呢，还是从手开始呢……",
+			say = "Hmm... Do we start with the legs or the arms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "而{namecode:74:长门}却像是害羞一样扭过头，不敢看我尝试解开红绳的样子。",
+			say = "Nagato turns her face away in embarrassment, doing her best not to watch me untie her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "吾……吾很想融入东煌的节庆之中，为指挥官和大家献上祝福……",
+			say = "I... I want to be part of the ceremony and offer my blessings to you and everyone else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "所以刚刚其实已经尝试了半天，没想到这红绳越来越紧……",
+			say = "But no matter how many times I tried to fix it, the string just got tighter and more tangled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "似乎像是想打破无声的尴尬，{namecode:74:长门}又在小声碎碎念着。",
+			say = "In a bid to dispel the awkward silence, she starts muttering quietly.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -445,7 +445,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "继续试了半天……却发现好像把手和{namecode:74:长门}的脚缠在一起了。",
+			say = "Despite my attempts to free her, it doesn't take long before I realize my hands have ended up entangled with her legs.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "听说这红绳不光可以祈福，更是会牵引有缘之人……",
+			say = "They say this red string not only brings fortune but also attracts predestined lovers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "莫非说吾与汝……",
+			say = "I suppose... the two of us are bound by the red string of fate, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "呜，吾，吾究竟在说些什么啊！",
+			say = "Ah...! G-goodness, what am I saying?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "还没等抬头想看看{namecode:74:长门}的反应，她已经涨的满脸通红。",
+			say = "I look up at her face. She's beet red.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -514,7 +514,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "像是试图掩饰，她羞赧地挣扎起来，反而让红绳越缠越乱。",
+			say = "She struggles and writhes more out of shame, but it only makes things worse, tangling the string around us even more.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -530,7 +530,7 @@ return {
 			hideRecordIco = true,
 			actor = 305055,
 			actorName = "{playername}",
-			say = "{namecode:74:长门}，别动！我们慢慢来……",
+			say = "Don't move, Nagato! Let's take it slow and steady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官……吾只是……",
+			say = "Aah... I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "解开了{namecode:74:长门}脚腕处的红绳，我继续尝试着帮她解开别处的红绳。",
+			say = "After much effort, I manage to untie her ankles. As I stand up to free her arms too, however...",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -571,7 +571,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "只是感觉……汝的手……还挺温暖的……",
+			say = "Y-your hands are quite warm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}身体微微颤抖，脸上也泛起淡淡的红晕。",
+			say = "She quivers and flushes again.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -598,7 +598,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随着红绳逐渐被解开，我与{namecode:74:长门}之间的距离也变得近在咫尺。",
+			say = "With each knot I untie, the distance between us shrinks even more.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -612,7 +612,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}抬起头看向我，眼神中带着一丝羞涩，又像是带着一丝期待。",
+			say = "Nagato looks up at me, her eyes brimming with shyness and, strikingly, a trace of expectancy.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,

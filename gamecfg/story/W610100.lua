@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，将海域中塞壬控制力下降到50%以下后，可使该装置失效。",
+			say = "Scan complete. This device will be disabled when Siren control over the zone falls under 50%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

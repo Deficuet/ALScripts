@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 499080,
 			dir = 1,
-			say = "哦~这是取悦我的方式么？算你有点小聪明。",
+			say = "Oh, is this how you plan to seduce me? I suppose I must commend you for sensibility~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 499080,
 			dir = 1,
-			say = "（终于，这是指挥官终于要对我出手了么？呵呵……）嗯？我在想什么……？咳咳，这不重要啦！",
+			say = "(At long last... Is the Commander finally going to take me? Ahaha...) Hmm? What's on my mind right now, you ask? ...Ahem, well, um, that's nothing you need to concern yourself over!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 499080,
 			dir = 1,
-			say = "总之你会有所表示，就是证明你心里是有我{namecode:518}的，对吧？",
+			say = "In any case, the fact that you'd convey your feelings to me in such a manner means that you're deeply smitten with me, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 499080,
 			dir = 1,
-			say = "嗯哼~就算现在因为不好意思想摇头否认也没用哦？你已经逃·不·掉了，指挥官♪",
+			say = "Heehee. There's no point trying to deny it. It's too late to try to pull out now, Com~man~der~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

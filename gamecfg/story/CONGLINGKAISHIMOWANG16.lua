@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "我们跟随吸血鬼猎人谢菲尔德的脚步，在枯木和残垣中穿行着。",
+			say = "Following Sheffield's lead, we travel to the center of the Withered Woods.",
 			bgm = "battle-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
@@ -35,12 +35,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们知道么，你们想攻略的魔王军据点被一种名为“永夜之暗”的强力结界保护着。",
+			say = "The bases that you want to capture are protected by a strong magic barrier known as \"the Neverending Night.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,12 +54,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是吸血鬼的秘传之术，不知道破解方法的人是绝对无法进入的。",
+			say = "It's a closely-guarded vampire spell that makes it impossible to pass through. It must be dispelled first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,13 +72,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			fontsize = 24,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我们这么多年来才没能攻下任何一处据点……",
+			say = "It's due to this barrier that we've been unable to capture any base for so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,12 +92,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中，三据点之一的中部据点的战斗力最强。",
+			say = "Speaking of the bases, the central one is the most well-protected of the three.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,12 +111,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔王故意加强了这个距离守望要塞出入口最近的据点。",
+			say = "The Demon King has focused most of her forces there as well, owing to its proximity to Sentinel Bastion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,12 +130,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么多年来，不知道有多少讨伐魔王的小队刚出门没多久就径直撞上了这座最强要塞。",
+			say = "It's tragic, thinking of all the adventurers who've perished to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,11 +149,11 @@ return {
 			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后稀里糊涂丢掉了性命……",
+			say = "It lies so close to the main gate, and yet it's so out of their league...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,11 +167,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……就连我们也差点。",
+			say = "Yes... And we got very close to being its latest victims.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,12 +185,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遇到我，算你们运气好。",
+			say = "You're lucky that I ran into you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,12 +204,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过运气也是实力的一部分。在某些时候，运气可能比实力更为重要。",
+			say = "Luck is an important thing to have. Sometimes it can even be more important than anything else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,11 +223,11 @@ return {
 			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是我在你们身上看到的潜力，也是我选择帮你们的原因。",
+			say = "This luck was the potential I saw within your party, and it's why I decided to save you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,12 +241,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不远了，我们的据点就快到了。",
+			say = "...Keep following me. Our base is just up ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "顺着谢菲尔德的目光，我们只看到了一片残垣。",
+			say = "Sheffield looks forward at what looks only to be a pile of desolate ruins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,9 +270,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你们的据点在……遗迹里？",
+			say = "Your base... is among those ruins?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,12 +282,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遗迹下面。",
+			say = "Not quite. Below.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,12 +301,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看不出来就对了，这是一种保持安全的伪装。",
+			say = "It's well-hidden, so I don't expect you to see where it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "用视线继续探索着遗迹，目光不自觉地被更远方一处高大的城墙所吸引。",
+			say = "I keep scanning the ruins from afar, and eventually, the ruins of a majestic castle wall catch my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "城墙的大部分已经垮塌，但依然有一些部分屹立着，高傲的指向天空。",
+			say = "While it is crumbled down for the most, some parts of it still stand proudly intact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,9 +340,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "那些就是旧日城墙的遗迹么？",
+			say = "Are those the ruins of the old castle wall?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 			portrait = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:460}",
-			say = "没错，不过我们还是喜欢将它称之为天冠城墙遗迹。",
+			actorName = "Seydlitz",
+			say = "Yes. People like to call it \"the Royal Crown Wall Ruins.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,12 +370,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对你们而言的旧日，对我们来说……不过是昨日罢了。",
+			say = "Though it may be far before your time, to us... it's like it was still pristine only yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,11 +389,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢菲，你又带落难的冒险者过来了？",
+			say = "Sheffy, I see you've dragged in lost adventurers again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,11 +407,11 @@ return {
 			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……多嘴。",
+			say = "Please stop. I don't want to hear this again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,12 +425,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，请进吧各位冒险者们。这里不是谈话的地方，我们去基地里聊吧。",
+			say = "Heehee, I know, I know. Come on, adventurers, let's talk inside. We don't want a patrol to catch sight of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_163",
-			say = "我们穿过废墟之下被魔法保护的地道入口，进入了吸血鬼猎人们的基地。",
+			say = "We pass through the ruin entrance guarded by a magic spell and enter the vampire hunters' base.",
 			bgm = "theme-clemenceau",
 			typewriter = {
 				speed = 0.05,
@@ -472,7 +472,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_163",
-			say = "原本以为这会是一处狭窄潮湿的地下空间，不过里面却意外的宽阔舒适。",
+			say = "I expected some sort of dank dungeon, but it's actually quite spacious and comfortable down here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,12 +482,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟是多年来一直生活的地方，也不能太对付了，不是么？",
+			say = "We've been living here for a long time now. We couldn't just leave this place in a sorry state.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实从刚才起我就很好奇，听你们的说法，难道你们已经很老了么？",
+			say = "A long time, eh... I can't hold back my curiosity – just how old are you people?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,12 +518,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很老？",
+			say = "How old?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,30 +537,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，要么是你们没做好功课就随便跑了出来，要么就是王国境内关于我们的情报确实很少。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			actor = 404031,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我们——早在旧都沦陷之前就存在了。",
+			say = "Hah. Either you haven't done your homework, or your kingdom hardly knows anything about us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,11 +555,30 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			actor = 404031,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "We vampire hunters have existed since before the old castle fell.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……旧都沦陷……那都是几百年前的事情了吧？",
+			say = "Hang on... Didn't it fall several hundred years ago?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,48 +592,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊……已经是几百年前的事了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			actor = 404031,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "你们知道么，现在魔王手下的那几位大吸血鬼，原本是人类王国的贵族。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 404031,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "在那遥远的过去，吸血鬼和人类是和平相处的。",
+			say = "That it did. It's almost hard to believe it's been that long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,12 +610,49 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直到那一天……魔王军大军压境的时候……",
+			say = "The vampires now under the Demon King's command weren't always like that. They were once nobles who resided in the kingdom.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 404031,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "And, in fact, we humans and vampires used to coexist long, long ago.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			actor = 404031,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Then came that horrible day, when the Demon King Army marched in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,12 +666,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在王都将绝大多数力量调去前线迎战魔王军的时候，那些龌龊的吸血鬼在背后发动了叛乱。",
+			say = "Whilst the city deployed most of its army at the front, those opportunistic vampire bastards staged a rebellion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,12 +685,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这场叛乱毁灭了人类王国的王都，永乐歌城在那一日成为了无歌城。",
+			say = "This rebellion led to the city's downfall. From that day on, Ballad Castle came to be known as the Songless Castle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,48 +704,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又伴随着岁月的流逝，只在地图上留下了旧都遗迹之名。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			actor = 404031,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我们，就是当日从王都的浩劫中幸存的人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 404031,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "那一日之前，我们有着不同的身份，市民、城市卫队、女仆、商贩、工匠……",
+			say = "Time moved on, and one day it became known on the map only as \"the Old Royal Capital Ruins.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,12 +722,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那一日之后，我们成为了吸血鬼猎人。",
+			say = "We are, in every sense, survivors from that calamity that befell the city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,11 +741,48 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们发誓与吸血鬼战斗到底，直到任何一方彻底灭亡。",
+			say = "We were commoners, guards, maids, merchants, artisans... All of us had different social standings before the downfall.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			actor = 404031,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Now, we are all united under the title of vampire hunter.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 404031,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "We made a promise. To keep fighting until the day either we or the vampires have been wiped out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,11 +796,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……没想到旧日王都沦陷的真相竟是这样。",
+			say = "My word... I never knew the truth behind the old city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,10 +814,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在王都转移的大混乱中，这部分历史已经全部遗失了……",
+			say = "This part of history was completely lost amidst the chaos of relocating the city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,11 +831,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我们一直以为是魔王用武力攻陷了旧王都……",
+			say = "What's more, I thought it was only the Demon King who brought down the city through brute force...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,11 +849,11 @@ return {
 			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵，魔王要是真有这个能力，还会被你们的守望长城挡在外面么？",
+			say = "Hah. If she had that kind of power, your great wall wouldn't be able to stop her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,11 +867,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……听上去，你们在过去都是人类吧。",
+			say = "...So you were once humans like us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -885,11 +885,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "可人类不应该能活几百年之久，你们是怎么做到的？",
+			say = "But it's been centuries, and humans don't live that long. How are you still alive?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -903,48 +903,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，正常人类不应该能活这么久。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			actor = 404031,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "或许是那一日在王都之中发生的浩劫过于骇人，使得某些神明降下了垂怜。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 404031,
-			side = 2,
-			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我们正是因为受到了神明的加护，才得以从那场浩劫中幸免，并存活至今。",
+			say = "You're right, humans don't live for centuries. Not most humans, anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,12 +921,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而除了我们之外的人……就没这么幸运了。",
+			say = "I think that maybe the catastrophe was so horrific that some goddesses took pity on those who survived it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,11 +940,48 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在混乱发生之初成就为刀下亡魂是除此之外最好的结果。",
+			say = "They gave us their blessings, and that has allowed us to live to this day.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			actor = 404031,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Everyone who isn't here... They met a tragic end.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 404031,
+			side = 2,
+			bgName = "star_level_bg_163",
+			factiontag = "Vampire Hunter",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Those who lost their lives amidst the initial fighting, they were the lucky ones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,12 +995,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "更多的人……则是吸入了充斥在空气中的魔法毒雾，变成了对吸血鬼言听计从的不死魔物。",
+			say = "Many, many more were turned into undead slaves puppeteered by the vampires after inhaling a cursed mist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,11 +1014,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有了这份投名状，那些叛徒吸血鬼开开心心加入了魔王的阵营，如今早就是魔王的得力干将了。",
+			say = "Those traitorous vampires presented their \"achievement\" to the Demon King and gladly joined her side. Today, they're second-in-command only to the Demon King herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,9 +1032,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（加护与诅咒……）",
+			say = "(Blessings and curses... Interesting.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1044,9 +1044,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（吸血鬼猎人通过加护延长了寿命，大魔法师则是因为诅咒延长了寿命。）",
+			say = "(A blessing from the goddesses extended the vampire hunters' lifespans, while Laffey's was extended with a curse.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,9 +1056,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（成为不死生物……某种意义上也可以视为让寿命得到了延长……）",
+			say = "(You could even say those who were turned into undeads were given longer lives in a twisted way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,9 +1068,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（这些线索之间或许存在关联，那一日在王都中发生的事，或许没有这么简单……）",
+			say = "(If these phenomena are all linked somehow, then what happened to the old capital may be even more complicated than I thought...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,9 +1080,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你们还记得旧都遗迹的具体位置么？",
+			say = "Do you still remember the exact location of the old capital?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1092,11 +1092,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你该不会是听了故事，想去那里一探究竟了吧？",
+			say = "Wait... You're not thinking about exploring the ruins, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1110,12 +1110,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我劝你还是打消这个念头比较好。",
+			say = "Frankly, you should give up while you're ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1129,11 +1129,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那里自沦陷之日起，就成了不死生物的大本营，就连我们也不会轻易靠近。",
+			say = "Those ruins have been the undeads' main base ever since the downfall. Even we can't approach them on a whim.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1147,9 +1147,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你们之前提到过，保护据点的“永夜之暗”是吸血鬼的秘传之术。",
+			say = "Sheffield told us about the vampire spell that protects the bases. The Neverending Night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,9 +1159,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "旧日王都曾经是吸血鬼的大本营，又是在极短的时间内毁灭的。",
+			say = "If we suppose that the old city was the vampires' headquarters and that it fell in a very short span of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,9 +1171,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "仓促间，或许有破解秘术的方法被掩埋在了废墟之中。",
+			say = "Then they probably left the key to lifting the spell somewhere among the ruins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,9 +1183,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "如果我们能找到这些方法，就能破解据点的结界，消灭其中的吸血鬼了、",
+			say = "If we find it, we can break the barrier and defeat those vampires that betrayed you so long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1195,11 +1195,11 @@ return {
 			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……有道理。你的运气这么好，或许真的能有所发现。",
+			say = "You make a good point. Knowing my Master's outstanding luck, finding it might just be possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1213,12 +1213,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，那就这么决定了。",
+			say = "Very well... Then we shall go there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,11 +1232,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天不早了，你们先好好休息。明日一早，我们一同去旧都遗迹寻宝！",
+			say = "Not today, though – it's late as it is. Let's rest up, then go treasure-hunting in the ruins tomorrow morning!",
 			painting = {
 				alpha = 0.3,
 				time = 1

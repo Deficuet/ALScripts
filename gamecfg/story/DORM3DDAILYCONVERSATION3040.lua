@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……今天不工作……好耶！",
+			say = "{dorm3d}... Is today your day off work...? Yay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……很忙！不工作的时候，{dorm3d}，陪安克雷奇！",
+			say = "You're always so busy! Play with Anchorage on your day off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有时候，{dorm3d}工作到很晚，安克雷奇，担心！",
+			say = "Sometimes you work so late... I get worried...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，假期，喜欢！{dorm3d}的笑，喜欢！",
+			say = "Anchorage likes days off! And your smile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

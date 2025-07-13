@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白中，我与雕像静静地对视着。",
+			say = "In the endless expanse of white, the statue and I stare at one another.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "刚才发来通讯的人……难道是，提尔瑞特？",
+			say = "That caller... It was Hierophant herself, wasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然无声，不过给人的印象，似乎比之前更生动了一些。",
+			say = "The statue is as silent as it has been the whole time, and yet, it looks as though there's a little more life inside it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "而后，纯白色的世界在顷刻间破碎了——",
+			say = "Right as that thought forms, the white space collapses in but the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_11",
 			hidePaintObj = true,
-			say = "与此同时的撒丁尼亚联盟，则是另一番热闹的景象。",
+			say = "Meanwhile, the Sardegnians were celebrating with vigor.",
 			bgm = "story-theme-sardinia",
 			typewriter = {
 				speed = 0.05,
@@ -147,12 +147,12 @@ return {
 			bgName = "bg_shenguang_cg_11",
 			side = 2,
 			hidePainting = true,
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "耶——！",
+			say = "We did it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,13 +162,13 @@ return {
 			portrait = 699010,
 			side = 2,
 			bgName = "bg_shenguang_cg_11",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			hidePainting = true,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "耶——！",
+			say = "We did it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			bgName = "bg_shenguang_cg_11",
 			hidePainting = true,
 			dir = 1,
-			actorName = "马可波罗&拉斐尔",
+			actorName = "Marco Polo & Raffaello",
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胜利啦——！",
+			say = "We won!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "审判机「战车」的残骸前，众人正在欢庆。",
+			say = "They stood in front of the wreckage of the MECHArbiter. Everyone was cheering, hooting, and hollering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +234,11 @@ return {
 			actor = 608020,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已确定目标被彻底摧毁，我们的作战成功了！",
+			say = "Target has been completely destroyed! Mission complete!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,11 +248,11 @@ return {
 			actor = 608030,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到最主要阻碍就在护盾上，里面却这么不经打……",
+			say = "I can't believe the barrier was that strong, but it was so squishy underneath...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,11 +262,11 @@ return {
 			actor = 608030,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，真是外强中干啊。",
+			say = "Heheh. Guess it was a paper tiger after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,10 +276,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……总算是有惊无险。",
+			say = "It was nerve-racking, but we succeeded in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			actor = 601080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简直像做梦一样……我们真的胜利了？",
+			say = "We actually won? I'm not dreaming here, am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,10 +303,10 @@ return {
 			actor = 601110,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "胜利了，各处正在陆续发来消息，塞壬军团也同步停止了一切行动，一切都结束了。",
+			say = "You aren't. I'm hearing good news from all over the League. All other Siren forces fell silent practically the moment that the MECHArbiter was defeated. Victory is undoubtedly ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,11 +316,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "樊笼已被打破……我们终于成功了。",
+			say = "The cage has been broken... We've finally done it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,11 +330,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "从今往后，我们终于能够自由地驰骋在这片碧海蓝天之下了……",
+			say = "From now on, we can race across the sea free and unrestrained...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,11 +344,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就是不知马可波罗阁下打算如何处理这片……陆上神国？",
+			say = "By the way, Marco Polo... What will you do with the Kingdom of God?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,12 +358,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，既然威胁已经消失，本圣座自会将其停止。",
+			say = "Put your concerns to rest. Now that the threat has passed, it's obvious what I'm going to do with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,11 +373,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于大战之后的各项事宜……等庆功宴后我们细细协商吧。",
+			say = "The aftermath and changes to come after this battle can be discussed once we've had our celebration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,12 +387,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然操控我等命运的塞壬被击败了，相信我们在之后的协商中一定能找到一个令所有人满意的方案的。",
+			say = "Now that the string-pullers of the world's fate have been defeated, I'm sure just by talking it out, we can always reach an agreement that sits right with everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,11 +402,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说到庆功宴——",
+			say = "But before that, let's discuss the details of my grand celebratory–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "马可波罗突然停顿了一下，在眼眸中飘过一丝恍然后，她的嘴角露出了笑容。",
+			say = "Marco Polo suddenly stopped mid-sentence, and a puzzling light flashed in her eyes.",
 			effects = {
 				{
 					active = false,
@@ -439,11 +439,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣座冕下，您怎么了？",
+			say = "Your Grace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好意思，计划有变。",
+			say = "Sorry. The plan has changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,12 +467,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本圣座即将蒙主召唤而去，没办法参加庆功宴和之后的一系列协商了。",
+			say = "God is calling for me, so it's up to you to discuss the celebratory banquet among yourselves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,12 +482,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！！这么突然？！！",
+			say = "What?! Are you serious?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,12 +502,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜，你永远是我们的圣座！",
+			say = "*sob*... You'll always be our one and only Apostle, Your Grace! Forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,12 +522,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我会创造一幅伟大的作品永远缅怀你的！",
+			say = "I'll create a masterpiece for us all to remember you by!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,12 +537,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……别闹！",
+			say = "Enough with the histrionics!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,11 +552,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……虽然听上去是这样，看上去也是这样，但实际不是这样的！",
+			say = "Sure, I said that like I'm going to perish, but that is not the case!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,12 +566,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？不是么？",
+			say = "Huh? You didn't mean you're giving up the ghost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,11 +581,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自然不是！还记得本圣座在刚来的时候和你说的么，我非属于此世之人。",
+			say = "Obviously not! Cast your mind back to my anointment ceremony. You do remember that I said I'm not from this world, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,12 +595,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，我只是要回家了而已。",
+			say = "I'm simply going back whence I came!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			actor = 605080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来当时不是某种隐喻啊……？",
+			say = "Oohhh. So you weren't joking about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,12 +624,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不是！",
+			say = "Of course I wasn't!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,11 +639,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了，别露出这种表情，本圣座又不是一去不返了。",
+			say = "There, I clarified – now stop making that face at me. It's not like I'm never coming back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,12 +653,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的伟大作品一定要创作出来，本圣座等着看。",
+			say = "You better paint that masterpiece for me. I want to see it one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,12 +668,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			dir = 1,
 			actor = 605080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯，一定！",
+			say = "Yeah! I promise I will!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,12 +683,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……真没想到，离别竟来得如此突然。",
+			say = "I never expected that our farewell would come this abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,12 +698,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你的到来像是一阵风，离去亦然。",
+			say = "You came to us so suddenly and now you leave equally suddenly... like a gust of wind. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,11 +713,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好意思，本圣座的行事风格一向如此~！",
+			say = "Sorry, that's just how I operate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,12 +727,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后善后的事就交给你们咯~",
+			say = "Now, then, I entrust the aftermath to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,11 +742,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "放心吧，马可波罗阁下，我们会和撒丁教国一同重整撒丁尼亚联盟的秩序。",
+			say = "Don't worry, it's in safe hands. We will work with the Ecclesia and restore order to the Sardegnia League.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,12 +756,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——而后一同走向一个自由而又美好的未来。",
+			say = "And then, we will move toward a free and beautiful future together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,12 +771,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我很期待。",
+			say = "I look forward to seeing that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,11 +786,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么……时间也差不多了。",
+			say = "Now... It's time for me to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "马可波罗有些不舍的目光从每一张面孔上依次划过。",
+			say = "With a slightly pained look in her eyes, Marco Polo bid farewell to her friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,12 +811,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，我们未来有缘再见——",
+			say = "Until we meet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_6",
 			hidePaintObj = true,
-			say = "而后，马可波罗圣座闭上双眼，静静躺在了水面上。",
+			say = "Marco Polo closed her eyes and silently lay down in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_6",
 			hidePaintObj = true,
-			say = "逐渐消散的辉光照耀着她的面庞，她的面容平静，就像陷入了一个心满意足的梦。",
+			say = "A fading light illuminated her face, calm and serene, like she was dreaming a wonderful dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_6",
 			hidePaintObj = true,
-			say = "马可波罗静静地注视着在众人环顾下沉睡的马可波罗圣座。",
+			say = "From up on high, she silently gazed down on herself, sleeping soundly and surrounded by everyone she knew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_6",
 			hidePaintObj = true,
-			say = "而后会心一笑，转身离去了。",
+			say = "A smile formed on her lips, then she finally turned around and left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_6",
 			hidePaintObj = true,
-			say = "马可波罗离开了撒丁尼亚联盟，但撒丁尼亚联盟的马可波罗圣座永存——",
+			say = "Although Marco Polo the shipgirl may have left the Sardegnia League, Marco Polo the Apostle will forever be with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「樊笼内的神光」·END",
+					"Paradiso of Shackled Light - The End",
 					1
 				}
 			}

@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "她们根本不应该受到这样的对待！！她们和所有的人类一样，是有心的！！",
+			say = "This is not what was meant to happen! They are people with souls, just like us!",
 			effects = {
 				{
 					active = true,
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "事到如今，你还把能单兵摧毁整个第二舰队的怪物称为“人类”？",
+			say = "You see these monsters, one of which could singlehandedly annihilate the entire 2nd Fleet, as \"people\"?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "那次事件一定有其他的原因，请让我们好好调查清楚再…",
+			say = "There has to be an explanation! If we can just talk to them, ask them about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "今日起，你的实验团队被正式解散，实验资料将由Division13统一收集作为证据。",
+			say = "Your time here as a researcher is over. We will confiscate all of your data as evidence and use it for the betterment of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "而你，将面临军事法庭的审判，有时间担心它们，不如想好怎么面对接下来的牢狱生活吧！",
+			say = "As for you, you should worry more about your pending imprisonment than the wellbeing of these godforsaken monsters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "卫兵，把她带走！",
+			say = "Guards, take her away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "轰————",
+			say = "Bermuda Triangle - Combat Zone Center",
 			effects = {
 				{
 					active = false,
@@ -170,7 +170,7 @@ return {
 			actor = 207040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "风速越来越快，没有办法继续派出侦察机了！",
+			say = "The wind is too strong...! I can't launch my scout planes anymore!",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "狂风暴雨，惊涛飓浪…航空甲板和萨拉妹妹也要撑不住啦！",
+			say = "Sara can't either! Our flight decks weren't built for this kind of weather!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再坚持一下，把侦察机都收回来，我找到风暴眼的位置了！",
+			say = "We're almost there! Call your seaplanes back and keep pushing forward! We'll soon be in the eye of the storm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要冲进风暴眼里，至少舰载机就能正常战斗了",
+			say = "From there, we can launch our planes again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边在巨浪中航行，一边操控舰载机战斗…真是项艰巨的挑战啊…",
+			say = "Trying to control our aircraft in this storm is... almost impossible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，雷达屏出现多处反射信号！",
+			say = "Wait... I think I can see Sirens coming towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然藏在里面等我们吗！",
+			say = "They must be our unwelcome welcoming party...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全员做好准备，舰队即将冲入风暴眼！",
+			say = "Everyone, prepare for combat! We're about to break through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

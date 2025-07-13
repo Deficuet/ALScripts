@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在{namecode:98}的小摊游玩游戏时，赢得了一等奖，获得了奖励【物资*2000】"
+			say = "You won a prize from a game at Akashi's store! Collect 2000 Coins!"
 		}
 	}
 }

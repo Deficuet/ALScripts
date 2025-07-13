@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "工作的时候感到疲惫的话，一定要及时休息呢。当然，也可以像现在这样，随时来找我哦？至少让我帮你放松一下，养精蓄锐。",
+			say = "When you get tired at work, make sure to take some rest. And of course, you're always free to come visit me, like you have now. I'm happy to help you relax and recharge.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello13",
 			typewriter = {
 				speed = 0.05,

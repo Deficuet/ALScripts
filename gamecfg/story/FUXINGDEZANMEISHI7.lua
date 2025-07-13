@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "撒丁帝国塔兰托港·稍早前",
+			say = "Sardegna Empire - Taranto",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			hidePaintObj = true,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "风向逆风，能见度良好，海面平稳，今天是一个适合舰载机飞行的好天气呢~",
+			say = "The winds are favorable, and the waters are calm. What a fine day it is for my planes to take flight~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好。出航准备已经完成了么，天鹰？",
+			say = "Aquila, how are you feeling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "没问题，维内托大人。舰装各模块运行正常，舰载机队也反复检查过了。",
+			say = "Just fine. My planes and my rigging are all in good shape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就……让我们开始吧~",
+			say = "Excellent. In that case... how about one more test run before we depart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是，维内托大人。战斗机编队起飞，为舰队取得天空上的优势吧！",
+			say = "Yes ma'am! ...Phew... I'm sure I've got the hang of this...! Take flight, my planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
-			say = "伴随着悦耳的引擎声，一架架舰载机冲出天鹰的航空甲板，飞向了蔚蓝的天空。",
+			say = "With the sound of engines roaring, plane after plane took off from Aquila's flight deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国花费了大量的心血就是为了今天……航空甲板，弹射系统，舰载机……",
+			say = "Hmm... Looks like you're in top form today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "虽然有着来自铁血的技术支援，但是研发过程还是异常辛苦……每一个模块的突破都仿佛在翻越一座高山。",
+			say = "(Sardegna's sole aircraft carrier, Aquila... She's a hard worker and has a down-to-earth personality, but... she can be a bit of an airhead at times.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "帝国的禁卫军有着严重的航空短板，并在此前与皇家的战斗中暴露无遗。",
+			say = "(We were already having all kinds of troubles even before outfitting her with aircraft... Ahaha...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "但是，在帝国研发部门无数个日夜的努力下，我们终于将短板补齐了。",
+			say = "(...But, that's not really her fault.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从此刻开始，帝国海军拥有了双翼，帝国之鹰将会自由的翱翔于陆间海之上！",
+			say = "(Sardegna has always lagged behind when it came to the development of aircraft carriers and planes, and without the Iron Blood's assistance, we wouldn't even have gotten this far...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "雄鹰双翼所至之处，皆为撒丁帝国力量所至之处！",
+			say = "(I tried to leverage my influence as the Eternal Flagship to open talks with the Senate regarding this matter, but that conversation was cut short abruptly.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "元老院居然还在有人担心使用航空母舰将会导致大舰巨炮的消亡。",
+			say = "(It must be out of their hands... I wish we had some kind of tactical edge, perhaps one of those \"prototype blueprint ships\" that the other factions seem to have been developing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "真是一群落后于时代的古董……也许在曾经确实出现过这样的担心。",
+			say = "(I can't let this weigh me down forever though. All right...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是在舰船自由驰骋的今日，不论是航空母舰还是战列舰都是舰队中必不可缺的存在。",
+			say = "Aquila, call your planes back. It's time to depart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "像皇家那样的海空协同作战战术，我们也终于可以尝试了啊……",
+			say = "(Why aren't her planes coming back? Did something go wrong?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不、不止如此，我们要在皇家的基础上开发出适合撒丁帝国风格的全新战术来！",
+			say = "...Aquila, please call your planes back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_port_talantuo",
 			hidePaintObj = true,
 			dir = 1,
-			say = "随着耳边的引擎声渐渐散去，不知不觉，所有战斗机均已经盘旋在蓝天之上了。",
+			say = "Snapped back to reality, the flustered Aquila hurriedly began to recall her planes and stowed them back in her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "维内托大人……您是…在想什么么？如果我有做的不好的地方请随时纠正我！",
+			say = "I'm so sorry, Lady Veneto... It was just so mesmerizing watching them fly around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你才是航空战的专家，我怎么有东西能教你呢。你做的很出色，我只是……稍微有些看入神了而已。",
+			say = "Ah, there's no need to apologize. You've been working hard, so it's only understandable to appreciate the beauty of your planes soaring through the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这段时间以来辛苦你了，天鹰。不过今后也许还会更加辛苦哦。",
+			say = "Of course, you'll have plenty of time after this to fly them to your heart's content.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "为帝国尽忠是我作为禁卫军的职责，不论多么艰苦的任务都放心交给我吧。",
+			say = "Thank you! I won't let you down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，很有气势。",
+			say = "Good. I'll be counting on you then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "大家快看，天上的飞机正在变换位置哎！",
+			say = "Miss Veneto, we've got big trouble!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "这个应该就是被叫做航空编队的舰载机队形吧。",
+			say = "W-we've lost contact with Littorio's fleet...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，航空编队~！根据任务需要，将机群排列成不同的队形可以更好的发挥出舰载机的效能哦，",
+			say = "How terrible...! Lady Veneto, I'll deploy my recon planes right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "好厉害~！不过，现在是什么队形呀，有些看不出来……",
+			say = "The coordinates at which the signal disappeared was... right here, yeah! Maestrale wrote it down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 607010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……哎？看不出来么……！呜，看来编队队形的部分还需要再刻苦练习一下才是……！",
+			say = "Excellent work! Lady Veneto, let's not tarry here any longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

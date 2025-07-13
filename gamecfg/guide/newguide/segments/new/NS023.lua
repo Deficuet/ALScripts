@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击 <color=#ff7d36> 出击 </color>",
-	"红方的旗舰大黄蜂一定就藏在这片海域的某处，只要击沉她的话就可以压制海域了！",
-	"在这之前，我们需要先击破对方派出拦截的侦查部队，就先拿他们试试指挥官的能力",
-	"索敌结果显示了大黄蜂可能出现的位置，让我们朝着目标点前进吧～"
+	"Right! Your next mission is to support an Eagle Union task force with an exercise! Start by tapping <color=#ff7d36>Battle</color>!",
+	"The boss of the enemy fleet, Hornet, should be lying in hiding somewhere! Defeat her to secure this area!",
+	"You'll need to defeat the enemy fleets that will try to stop you. Let's use them to test your abilities!",
+	"The scan has found Hornet's likely location! Head straight for it!"
 }
 
 return {

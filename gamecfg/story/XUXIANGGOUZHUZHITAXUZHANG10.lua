@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "异常海域·中心区域",
+			say = "Abnormal Sea Area - Center",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "舰载机编队正在向我们接近，从型号上判断————",
+			say = "Judging from the models of the planes approaching us, these must be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "是皇家和撒丁帝国的舰载机！",
+			say = "The planes of the Royal Navy and Sardegna!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到是我们这边被先找到了呢~",
+			say = "Oh dear. Looks like they found us instead~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然有皇家的舰队也被卷进来了，真是浩大的行动啊……",
+			say = "Even the Royal Navy is here, huh... This must be a pretty big deal after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "是啊。四个阵营的航母一起行动真是难得一见的场景。",
+			say = "No kidding. When's the last time carriers from four different factions have fought together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是正在执行增援任务的光辉，你们来这片海域是因为……？",
+			say = "This is Illustrious of the Royal Navy. Ships up ahead, please state your identity and purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为我们也收到了需要增援的通讯哦~",
+			say = "Easy now, it's Prinz Eugen. We came after receiving the very same backup request from the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎……？",
+			say = "...Is that so? I thought we were the only ones the Commander sent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实根据推测，大概是发生了这样的事————",
+			say = "Actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 601070,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "非常抱歉引起这样的混乱，我在这里代替龙骑兵先向大家道歉了！",
+			say = "We're very sorry for causing this mix-up! We apologize on behalf of Carabiniere!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用太在意啦~发现同伴遭遇到危险她那样也算正常反应，回去别太责备她哦。",
+			say = "Don't sweat it! I'd be pretty strung-out too if my friends were in a pickle, so mistakes like this are understandable. There's no need to chew her out after we get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "再次向各位表示感谢。对了，之后的茶会你们有兴趣来参加么？",
+			say = "Thank you all for coming to our aid. If you'd like, we were talking about having a big tea party after returning to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茶会是指？",
+			say = "A tea party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "我们计划在任务结束之后举办一场盛大的茶会哦！",
+			say = "Yeah! After this mission is over, we're going to have the GREATEST tea party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！非常感谢邀请，我能叫上{namecode:95}姐么？",
+			say = "That sounds fun! Is it okay if I invite my sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "没问题，反正港区物资充足，茶会自然是人越多越热闹。",
+			say = "The more the merrier! The Royal Navy will be covering the expenses as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "还要供应大量的披萨。",
+			say = "There shall be pizza. Lots of pizza.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "又是突如其来的想法？！",
+			say = "Now it's pizza?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "不过很有道理……撒丁帝国的茶会上怎么能没有披萨呢！",
+			say = "Well, whatever... If we're already bringing Oxy-cola, it only makes sense to bring pizza as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "哦哦！太好了！我也喜欢披萨！",
+			say = "Woohoo! Now that's the kind of party I can get behind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尤其是夏威夷披萨，菠萝的口感搭配上......",
+			say = "Especially the kind with big, juicy chunks of pineapple...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哇啊啊啊！嘘——嘘————",
+			say = "Gwaaaaah! I'll pretend I never heard that!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_tower",
-			say = "听到“菠萝”这个词之后，的里雅斯特突然散发出了恐怖的气场。",
+			say = "Upon hearing the words \"pineapple\" and \"pizza\" used together, Trieste's normally calm expression cracked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "……在披萨上放菠萝……？我不会认同的…这种暴行，我是绝对不会认同的……！",
+			say = "I consider myself a tolerant individual, but what... is this sacrilege against pizza I just heard...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "……哎？",
+			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "举行茶会看来刻不容缓……有必要给同伴们制作一些真正正宗的披萨了！！！",
+			say = "In any case, the importance of holding this tea-and-pizza party is now more evident than ever. I shall teach you what true pizza is.",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "那个、那个......撒丁风格的玛格丽特披萨我也特别喜欢！",
+			say = "Oh, um... I actually meant to say, I'm quite an enthusiast of Sardegna's famous Pizza Margherita?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "一直很期待能吃到正宗的玛格丽特披萨呢，啊哈哈哈......",
+			say = "I've been looking forward to trying a TRUE Sardegnan pie... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……对了！帝国你们没遇到什么危险真是太好了！",
+			say = "...But most importantly! I'm glad all of you are safe and sound!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "没遇到危险，但是气鼓鼓。",
+			say = "I'm safe. But I'm also SALTY.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "帝国的舰载机被袭击了，但是没有找到主犯。",
+			say = "My planes are under attack, but the perpetrator cannot be found.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一点确实有些奇怪……这里已经是海域中心了，却没有遇到什么像样的敌人。",
+			say = "Likewise. Though we've made our way to the middle of this sector, we still haven't met any real opposition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然敌人很弱，不过中间那座塔看上去可不是什么老旧塞壬实验场里会出现的东西。",
+			say = "The enemies have been utterly weak, but that tower doesn't at all resemble one of those antiquated Siren facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，从上到下都散发着危险又邪恶的气息哦……",
+			say = "Indeed, it's quite sus–– Err, ahem... I mean, the danger is almost palpable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许这座塔还有机关和陷阱，大家首先谨慎搜索一下周边吧。",
+			say = "There's no telling what dangers wait for us in that tower. We should survey the area carefully and not just rush in without a plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯。我们有绝对制空权，不怕塞壬耍花招！",
+			say = "Yup, I agree. We have complete air superiority here though, so we'll be able to sniff out if the Sirens are up to any mischief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

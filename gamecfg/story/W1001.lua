@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：发现了一处塞壬探测装置。",
+			say = "Scanning mode activated. Siren coordinate logger detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：检测到正在接近的塞壬舰队，请做好作战准备。",
+			say = "Warning: Hostile Siren presence has been detected. Prepare to engage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

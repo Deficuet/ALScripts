@@ -9,7 +9,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样……就结束了？",
+			say = "Is... that it? It's over?",
 			bgm = "qe-ova-9",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "当然了喵！",
+			say = "It is, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下，{namecode:98}，你怎么过来的？！",
+			say = "Akashi?! What are you doing here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼~身为制作者，能出现在这里也是理所当然的喵！",
+			say = "Myahaha! I'm the developer, so it only makes sense for me to appear in the credits, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "除了刚刚那个问题，指挥官一定还有很多其它的问题想问{namecode:98:明石}吧喵？",
+			say = "Besides, don't you have questions for me, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然！",
+			say = "Well... Yes, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "培养出“个性”，有从事的职业，这对TB来说意味着什么呢？",
+			say = "For one, what's this about a final ending?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "唔喵？",
+			say = "Nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这个问题就让领航员小姐“自己”来和指挥官聊聊吧喵！",
+			say = "If you want to know, you should ask TB directly, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "至于为什么领航员小姐还能出现，这个就是商业机密不能透露了喵~",
+			say = "And in case you're wondering how TB can be here – it's a trade secret, so don't ask, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（想问的问题完全被{namecode:98:明石}堵回去了啊……）",
+			say = "(I was going to ask that next, but never mind, then.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来的时间就留给指挥官和领航员小姐了，{namecode:98:明石}先走一步了喵~",
+			say = "I'd better get going now, nya. You two have a nice chat, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}消失后，我看向了一旁突然出现、安安静静的TB。",
+			say = "Akashi vanishes into thin air, and not much later, I come face to face with TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "指令已确认：正在进行分析……分析模式中止。",
+			say = "Orders received. Analyzing... Analysis stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "抱歉指挥官，我擅自中止了分析指令。这个问题我不想在进行分析后再回答。",
+			say = "Sorry. I aborted the analysis process prematurely because I don't want to answer this question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "我从您的行为中，获得了一种特别的感受。",
+			say = "To explain what your parenting was like, to me, it was the feeling that is commonly defined as \"fun.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "但这种感受的来源，我无法采用数据库中已被录入的概念进行合理的解释。",
+			say = "However, the source of this feeling cannot be rationally explained by the concepts currently in my database.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "……它很奇妙。",
+			say = "To borrow an expression, \"It's strange.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "或许是在这里与您相处的时光，或许是无论从事哪种职业，都有您作为坚实后盾的安心感……",
+			say = "Spending time with you inside the virtual space – and knowing that I can count on you no matter my choice of career – filled me with a sense of security.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "即使疲惫，但是有您相伴，今后就算遇到再多的困难也能够克服。谢谢您。",
+			say = "Even when I'm tired, I can overcome anything as long as I'm with you. Your presence is reassuring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB……",
+			say = "TB...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "怎么了，指挥官？",
+			say = "What is it, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是在感动之余又有点惊讶，你现在说话的口吻变得没那么……有人工智能感？",
+			say = "Maybe I'm just touched, maybe I'm just surprised... but you sound a little different to how you usually do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "我的口吻变化，应该与您的培养行为有关。如果您不习惯，我可以调整。",
+			say = "My change in tone is likely based on the feedback received during your parenting. I can adjust it if you don't like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用调整，现在这样就很好。",
+			say = "No, I like it the way it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然这么说很奇怪，但是第一次作为“你”的监护人，我肯定还有很多不足之处……",
+			say = "I know it's odd for me to say this, but... as your guardian, I clearly still have some learning to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "希望“你”知道，无论你变成什么样子，我都可以是你的港湾。",
+			say = "All I want you to know is this – no matter who you grow up to be, you can always count on me, and the port will always be your home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "人工智能并不需要停泊。不过，您采用的应该是比喻的修辞。",
+			say = "I do not require a place to dock. I get the feeling that your statement with regard to a \"home\" was rhetorical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "这种修辞所代表的情感含义，我现在已经充分理解到了。——指挥官，今后的生活，也请您多关照。",
+			say = "I can with ease sense the feelings embedded within your words. Commander, before we go, I would just like to say... Thank you for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

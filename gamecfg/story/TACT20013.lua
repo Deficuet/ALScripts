@@ -7,8 +7,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "终于见到你们了，「造物者」的宠儿们~",
+			actorName = "Tester β",
+			say = "At long last we meet, the Creator's dear little chosen ones~!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -26,8 +26,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "“你们”跟之前向我们寻求力量的“她们”有点不一样，我从“她们”的眼神中看到更多的是无奈和猜疑…",
+			actorName = "Tester β",
+			say = "My, look at your eyes... In the eyes of that girl who asked us for power we saw only worries over the future, disappointment, and regret...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -45,8 +45,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "不论是出于什么国家、理想、未来之类骗人的高谈阔论，还是其他的成长因素",
+			actorName = "Tester β",
+			say = "But you girls are different. It has nothing to do with nations, ideals, or memories, but your bonds with humans...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "你们现在所持有的一些「模因」正是我们一直在人类身上所寻求的改变…",
+			actorName = "Tester β",
+			say = "And that element you have is something indispensable for the evolution that we desire...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -83,8 +83,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "不过，辨别这些改变是货真价值的「模因」还是所谓的「伪造物」正是系统赋予我的职责啊～",
+			actorName = "Tester β",
+			say = "However, we must know if that element is the real deal or not... And that's what I, Tester Beta, was created to find out!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -102,8 +102,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "那么，让我们开始吧~",
+			actorName = "Tester β",
+			say = "Now let the experiment begin!",
 			shake = {
 				speed = 1,
 				number = 3

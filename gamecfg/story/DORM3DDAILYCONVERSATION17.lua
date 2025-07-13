@@ -12,10 +12,16 @@ return {
 	},
 	scripts = {
 		{
-			actor = 0,
+			optionFlag = 1,
 			side = 0,
-			say = "天狼星现在在想什么？",
-			hidePaintObj = true
+			say = "Is there something on your mind?s",
+			hidePaintObj = true,
+			options = {
+				{
+					content = "Is there something on your mind?",
+					flag = 1
+				}
+			}
 		},
 		{
 			side = 2,
@@ -23,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……在想云朵的形状。",
+			say = "Oh, um, I'm thinking about the clouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,14 +64,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因为听其他同伴说，在看云的时候所见到的云朵形状，就代表着人内心最期待的事物。",
+			say = "I've been told that what a cloud looks like to you reflects what your heart desires above all else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "最期待的事物是 ？",
+					content = "And what does your heart desire most?",
 					flag = 1
 				}
 			}
@@ -76,7 +82,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……您是在明知故问哦。",
+			say = "{dorm3d}... I think you already know the answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

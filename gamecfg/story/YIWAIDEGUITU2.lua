@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"意外的旅途\n\n<size=45>二 昏沉</size>",
+					"Letters and Travels\n\n<size=45>2 Behind Closed Doors</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "斯卡帕湾·某处",
+			say = "Scapa Flow - Harbor Facility",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "宛如宫殿一般华丽的装潢之下，充满了大量的仪器与管线。",
+			say = "Deep inside a building within the harbor was a room fit for a royal, were it not for the many medical devices and cables littering it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,24 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这是一处布置成豪华套房的病房，而胡德正躺在无数设备的正中央。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204030,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "咳……所以说，陛下你有些大惊小怪了。",
+			say = "At the very center of the ornate room lay the patient under care. She sat upright to speak to the shipgirl by her side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是在航行途中稍微没站稳，不是什么要紧的事情……",
+			say = "I've said it before, but this is excessive, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +101,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我已经迟到太久了，让会场的观众等太久不是皇家淑女应有的礼仪……",
+			say = "My injuries from that battle have long since healed. You needn't go out of your way to tend to me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204030,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I'll miss the ceremony altogether if I don't hurry. I'd hate to tarnish your honour like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "活动的话你不用担心，本王已经拉响防空警报将其取消了。",
+			say = "Forget about the ceremony. It's already been cancelled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬袭击也不是什么罕见的事情，绝对能糊弄过去的。",
+			say = "We'll just blame it on the Sirens seeking reckless vengeance for us taking out one of their top-ranking units.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……非常抱歉，陛下。",
+			say = "But... Your Majesty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……只要再在装置里待一阵子就能好起来了。",
+			say = "Very well. I'll do as you say and rest a while longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前那么多次都过来了，这次也一定可以……",
+			say = "I apologise for my sickliness. As I said, I've made a full recovery, so this must be a simple bout of fatigue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "或许只是因为我太累了才会……",
+			say = "It doesn't warrant you personally tending to me, Your Majesty, especially not if you risk raising Naval HQ's suspicions in doing so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "养病的人就不要再想其他事了，快点躺下吧。",
+			say = "That's enough, Hood. You need to rest, not worry about appearances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……可我一直忘不了大型作战中大家充满精神的面容……",
+			say = "But a lady must. I'd poured so much effort into my speech for the ceremony, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "毕竟那可是时隔多时再次与皇家海军的荣耀并肩战斗的机会啊。",
+			say = "I was opposed to you delivering that speech from the very start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "开战之时你的演讲也是一如既往的提振人心。",
+			say = "Even if it's the greatest of our time and perfectly reframes the events of the battle to suit our narrative, I will not let you risk your health for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以这一次也……",
+			say = "Please, I've rested enough to at least–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一次已经不可能了。",
+			say = "No, you've not. You've pushed yourself too far as it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你倒下的频率正在加大，这是你的身体状况依然在恶化的表现。",
+			say = "Listen. We got data from the Commander and the Iron Blood, and what it revealed is quite bad. You've not fully recovered. Far from it, your health is deteriorating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "陛下，这次胡德是在前往会场的途中突然倒下的，身边同行的护卫都目击到了这一情况。",
+			say = "Dear god. It seems the injuries Bismarck inflicted using that Black Cube run far deeper than any of us realised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "大家都在担心呢……虽然我说了在事情调查清楚之前要严格保密。",
+			say = "It's no wonder you passed out and had to be brought in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "不过要是胡德一直没有好转，恐怕这次瞒不下去了吧……",
+			say = "Hood... I know you were looking forward to this day, but you must put your health before the Royal Navy's image.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……瞒不下去也要瞒，随便找些借口糊弄过去！",
+			say = "What I just told you is strictly confidential. Naval HQ must never hear a word of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "欸……我试试看吧。",
+			say = "Of course. My lips are sealed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉，给你们添麻烦了。",
+			say = "That is terrible news... Your Majesty, George, please forgive me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……皇家海军的荣耀，已经不能再倒下一次了……",
+			say = "My failure has sullied the glory of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "道理我明白。不要再道歉了，你才是最痛苦的那个人。",
+			say = "It's all right. Remember, Bismarck vanished completely, then suddenly returned one day. You doing the same is not out of the question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "我现在回去处理善后事宜，你就在这里好好休息，不要想太多。",
+			say = "Excuse me, but I need to see to our Siren coverup now. Take care and rest up, Hood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……我会的。",
+			say = "I will, and thank you. Be safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等我好起来，再次展开活动的时候，就拜托各位了。",
+			say = "...Your Majesty, based on what you just said... There is no healing my wounds, is there? The Royal Navy lacks the cure Bismarck had.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我绝对不能倒下，一定要……守住皇家海军的荣耀……",
+			say = "If I'm living on borrowed time, then I'm willing to give what little I've left... for the glory of the Royal Navy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以说你呀————！",
+			say = "What? What do you mean?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "陷入了沉睡中的胡德没有再做出任何回应。",
+			say = "The queen demanded an explanation, but all she got was silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "…………………………",
+			say = "Hood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>一　农家探索乐园</size>",
+					"From Farm to Fork!\n\n<size=45>1 Farmlandia</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "一天工作结束后，正准备离开指挥室时，听到了走廊中传来的急促脚步声。",
+			say = "Just as I wrap up work for the day and prepare to leave the office, I hear light footsteps coming down the hall.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "紧接着，一道娇小的身影出现在门口。",
+			say = "In the blink of an eye, a small figure pops up right in front of my doorway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "呼……太好了，指挥官还在……",
+			say = "*pant*, *pant*... Thank goodness, I barely made it in time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武，怎么跑得这么急，发生了什么事了么？",
+			say = "Lung Wu? Why are you in such a hurry? Did something happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "龙武平复着呼吸，轻轻摇了摇头。",
+			say = "Lung Wu shakes her head as she bends over to catch her breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "没有紧急的情况，指挥官别担心……",
+			say = "No, don't worry, it's nothing bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "我本来打算下午来找你的，但是研究菜品太入迷了……回过神就天黑了，我就匆忙赶过来了。",
+			say = "I actually wanted to come earlier in the afternoon, but I got so wrapped up in my recipe research... Next thing I knew, it was already getting dark and so I had to hurry over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "找我有什么事么？",
+			say = "Umm... What does it mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实是这个……指挥官看看有没有兴趣？",
+			say = "This... right here! Take a look and tell me if you're interested, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "接过龙武递来的传单，上面赫然写着——",
+			say = "Lung Wu hands me a flyer with some flashy text printed on it:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "“农家探索乐园双人套餐，两天一夜，享受极致田园风光，开业大酬宾！”",
+			say = "\"Farmlandia Grand Opening! Special Tour for Two: Enjoy 2 Days and 1 Night of the Best Countryside Views!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我记得这是{namecode:98:明石}和{namecode:295:尾张}合作的新项目？",
+			say = "Huh. Is this that new joint project that Akashi and Owari launched together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "对，就是那个……我觉得很适合寻找新菜品的灵感，所以想去体验一下……",
+			say = "Yes, that's the one! I wanted to go take a look because it might give me inspiration to cook up some new recipes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "周末有空的话，指挥官可以陪我一起去么？",
+			say = "If you're not too busy over the weekend, I'd be really happy if you could maybe join me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,18 +212,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "龙武有些拘谨地抬头看我，尾巴在身后不安地摇摆着。",
+			say = "Lung Wu looks at me timidly with upturned eyes, her tail wagging around anxiously like a puppy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然可以。",
+					content = "Of course I'll go with you.",
 					flag = 1
 				},
 				{
-					content = "正好我也想休息一下。",
+					content = "I was just thinking I'd like a change of scenery.",
 					flag = 2
 				}
 			}
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "少女的眼睛瞬间亮了起来，眸中溢出无限的欢欣喜悦。",
+			say = "The girl's eyes light up with joy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "那明天早上我们就在这里集合吧！",
+			say = "Then, let's meet here on Saturday morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "我提前准备些在路上吃的小零食~",
+			say = "I'll whip up some snacks for us to enjoy on the road ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，不见不散。",
+			say = "Sounds great. See you tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

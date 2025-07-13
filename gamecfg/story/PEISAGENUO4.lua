@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>四　远处、看不见了</size>",
+					"A View For Two, With You\n\n<size=45>4 Out of Sight</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "与佩萨格诺一同登上了郊外的山顶。",
+			say = "Ema and I climb a nearby mountain together.",
 			bgm = "story-richang-8",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢你，指挥官，愿意陪我一起来。",
+			say = "Thanks for coming with me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "其实，我一直想带人来欣赏这里的风景……",
+			say = "I've always wanted to show someone the scenery from here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "那么事不宜迟，我开始架设望远镜了哦~",
+			say = "Umm, anyway, I'll set up the telescope right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "等等，佩萨格诺对这里的风景很熟悉么？",
+			say = "\"So you've been here a few times before.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，已经来过很多次了。所以镜头调整很快就能结束哦~",
+			say = "Yep. It won't take long for me to set up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "这样的话————",
+			say = "\"In that case...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "今天我就不用望远镜了。",
+			say = "\"I think I'd prefer not to look through the telescope this time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯…………欸？！",
+			say = "While we're at it, you can... Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "我很期待从你的描述中，感受你所见到的风景。",
+			say = "I want you to tell me what you see, through your own words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我明白了……指挥官是想要帮助我提高表达能力，让我能将景色告诉别人。",
+			say = "Oh, I get it... You want me to practice my communication.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……这样真的好吗？",
+			say = "But are you sure, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好不容易爬上山顶，却不用望远镜，只听我描述风景？",
+			say = "We went through all the effort of climbing up here, and you just want to... listen to me describing the scenery?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我的描述能力……真的很差劲哦。",
+			say = "I'm really... not good at this stuff...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "没关系，万事开头难嘛。",
+			say = "\"Everything is hard at first.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "况且，就算不用望远镜，我也有风景可以看。",
+			say = "\"Besides, I can see plenty without the telescope already.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "——风景不一定只在远方。",
+			say = "\"Not everything you want to see has to be beyond the lens of a telescope.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官好像说出了很有哲理的话，但…………",
+			say = "That sounds oddly philosophical...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好吧……既然指挥官坚持的话，那我就自己欣赏，然后……把景色，描述给你。",
+			say = "Okay. If you're really sure, then I'll do my best to describe everything as best as I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……稍等一下哦。",
+			say = "Uh, wait just a second...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……咦？",
+			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "怎，怎么回事，不论是自动、还是手动都不灵了！",
+			say = "Wh-why...? I can't get it to work automatically or manually!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生什么事了？",
+					content = "\"Is something wrong?\"",
 					flag = 1
 				}
 			}
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "望远镜的对焦功能……好像出现了故障。",
+			say = "The focuser is malfunctioning...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "怎、怎么会这样……呜。",
+			say = "A-aww, man...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这都怪我——最近一直在频繁使用，却忽略了日常的维护。",
+			say = "This is all my fault. I use it so much, but I've been slacking on maintenance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "本来还期待着，能试着把我所有看见的景色……",
+			say = "I wanted to look upon all the scenery...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "还有……我所有的心情……都毫无保留的传达给指挥官的……",
+			say = "And tell you all about it, and how I feel...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好不容易鼓起的勇气……",
+			say = "I mustered all my courage and resolved myself, but now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "失去了单筒望远镜的佩萨格诺，比想象中还要失落。",
+			say = "The telescope malfunction hurts her feelings more than I'd expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "真是意料之外的事故……虽然很遗憾，看来也只能先回去了。",
+			say = "\"There's nothing we can do about it now. It's a shame, but all we can do is go back.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……我回去时候就立刻去拜托达芬奇！",
+			say = "Okay...! As soon as we get back, I'll ask da Vinci to repair it for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "等望远镜修好之后，我们再一起来吧！",
+			say = "Once it's ready, we'll come back together! Promise me!",
 			painting = {
 				alpha = 0.3,
 				time = 1

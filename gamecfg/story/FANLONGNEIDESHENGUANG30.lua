@@ -15,7 +15,7 @@ return {
 					1
 				},
 				{
-					"？？？？",
+					"???",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是——",
+			say = "When my vision returns to me, I find myself looking at...",
 			bgm = "theme-thehierophantv",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……塞壬的主机塔？",
+			say = "...A Siren mainframe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "虚假的天空下，钢铁构成的都市静静矗立在同样虚假的大海上。",
+			say = "Beneath a false sky and a hollow sea, the city of steel towers silently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "雕像依然沉默，只是用一抹纯白裹挟着我一同在钢铁都市中穿行着。",
+			say = "The statue still won't say a word, but it does envelop me in pure white and carry me through the city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "我们一同穿过了不知名的街道，穿过了不知名的广场，穿过了不知名的甬道，最后穿入了位于都市中心的高塔中。",
+			say = "We pass a nameless street, cross through a plaza, and snake through an alleyway before finally arriving at the colossal tower in the center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "而后，我们在纯白的裹挟中笔直向上，径直穿过了一层层楼板。",
+			say = "Still encased in the whiteness, I'm escorted up several stories of the structure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "终于，我们在一处大厅中停下了。",
+			say = "Then, we stop inside a hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "审判机「战车」的投影正静静漂浮在前方。",
+			say = "There, a hologram of MECHArbiter: The Chariot VII stands silently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "而后我注意到，在投影的不远处有一个布设有数百个按钮的控制台。",
+			say = "At the same time, I realize that there is a panel hosting hundreds of buttons not far from the hologram.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个，难道是之前提尔瑞特留下来的安保系统控制面板？！",
+			say = "Oh my god... Is that the panel for the security system that Chariot created?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,20 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "走近细看，面板上的按钮编号为1至255，整体呈现出一种与周围高科技设备截然不同的原始气息。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_306",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……看来没错了。",
+			say = "I approach to get a closer look. The buttons are labeled 1 through 255, and the panel looks almost antiquated compared to its surroundings. It stands out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这二百五十五个按钮对应的应该就是提尔瑞特在走之前为海洛芬特留下的一系列安保系统预设方案。",
+			say = "...Yep, this is it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +242,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而在这些按钮之外……",
+			say = "These 255 buttons must be the sub-options for the security system that Chariot said she installed.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_306",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "And beyond those...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "在这些密集按钮所在区域的旁边，还有一块明显独立的区域，其中只有一个大大的红色按钮。",
+			say = "Next to all these smaller buttons, in a clearly sectioned-off area, there sits a single big, red button.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "仔细一看，按钮旁边还印刷有一行小字——「安保系统紧急停机键，没事不要按！」",
+			say = "Looking closely, I can see small writing under it: \"Security system emergency shutdown button. Do not press outside of emergencies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来如此……就算马可波罗她们在外部击破了审判机的护盾，却依然远远不足以消灭它。",
+			say = "While they did manage to strip the MECHArbiter of its barrier, that alone won't be enough to defeat it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是却可以削弱到让现在的你对它进行干涉的程度……",
+			say = "To do that, it has to be weakened sufficiently for you to interfere with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而你真正需要我帮你做的，是摁下这个按钮？",
+			say = "Basically, if I understand correctly... you want me to push this button, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,14 +353,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，不过我明白了她想要表达的话语。",
+			say = "Despite not receiving an answer, I can intuit what the statue wants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "按下安保系统紧急停机键",
+					content = "(Push the emergency shutdown button.)",
 					flag = 1
 				}
 			}
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "大厅的灯光开始一盏盏熄灭，审判机「战车」的投影也逐渐黯淡，而后彻底消失了。",
+			say = "The lights in the hall go out one by one, and the hologram of the MECHArbiter also gradually grows fainter before disappearing altogether.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呼……这样一来，总算是结束了。",
+			say = "Phew... That should do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,9 +411,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……通讯器？",
+			say = "...My communicator is ringing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "明明无人接听，通讯器还是在发出了一声“滴”后，自顾自响了起来。",
+			say = "Despite me not pressing the answer button on it, my communicator keeps ringing for a while, then automatically connects.",
 			bgm = "theme-thechariotvii",
 			typewriter = {
 				speed = 0.05,
@@ -468,7 +468,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咦？为什么这里的按钮被摁下去了……",
+			say = "Huh? Why did you push that button?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海洛芬特，是你么？你又整出什么篓子了——",
+			say = "What did you screw up this time, Hierophant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "一阵令人目眩的浪潮席卷而过，世界回归了纯白之中——",
+			say = "A dizzying wave washes over me, painting everything a pure white color again.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,

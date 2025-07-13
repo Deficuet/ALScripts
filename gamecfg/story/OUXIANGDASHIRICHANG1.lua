@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"响彻碧海的偶像之歌-日常篇\n\n<size=45>一 关于偶像</size>",
+					"Azur Anthem - Side Story\n\n<size=45>1 Idols</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·步道",
+			say = "Port - Boardwalk",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，偶尔像这样悠闲地散散步也不错呢~",
+			say = "Hehe~ Being able to take leisurely strolls along the shore is great, isn't it~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，这里和我们的世界完全不同，风景怎么看都不会腻呢。不过话说，今天这边人是不是太多了点？",
+			say = "Definitely. Plus, there are so many things here we'd never get to see back home, so you'd never get tired of the view. By the way, doesn't it feel like there are more people here than usual?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，这么说来，确实……。是有什么活动吗？",
+			say = "Oh, now that you mention it... I wonder if there's something going on?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			actor = 10700020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不太清楚呢…不过大家好像都在往中庭走……",
+			say = "Who knows? Everyone seems to be heading to the central courtyard though...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，梓小姐、千早小姐！你们在做什么呀？",
+			say = "Oh hey, Azusa and Chihaya! What are you two doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你好，标枪小姐，我们只是在这里散散步。顺便想问下，中庭那边是有什么活动吗？好像看到大家都在往那里走。",
+			say = "Good morning, Javelin. We were just out for a stroll. By the way, is there something going on at the courtyard? I couldn't help but to notice all the people.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是因为…今天在那里有港区偶像的特别演出哦！",
+			say = "About that... Today, our local idols are holding a special concert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问，是舰船们的演出之类的吗？",
+			say = "The Muse girls are going to be performing?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~…不完全算，就是普通的偶像活动啦。就和你们世界里的“偶像”一样。",
+			say = "Err, not quite... They're normal idols, just like the ones from your world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 10700020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来这边也有偶像，也会办演唱会啊。",
+			say = "There are regular idols in this world as well, huh?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀，请务必让我们也观摩一下~",
+			say = "That's definitely something I'd like to experience while I'm here~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我来带你们去会场吧！差不多也快开始了，得抓紧时间才行！",
+			say = "In that case, I'll show you to the venue! Looks like ticketing has already started, so we'll need to hurry up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "港区·特别演出现场",
+			say = "Port - Courtyard Concert Venue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idol-WISHNESS-inst",
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了~不仅顺利赶上，还占到了座位！",
+			say = "Phew~ We made it just in time! I'm glad we were able to get seats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人真的好多啊……要登场的人一定是位很知名的人吧。",
+			say = "So many people... Are we watching someone famous?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -357,7 +357,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，有人走上舞台了……",
+			say = "Look, someone's coming out on stage~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "耶~！各位~感谢你们今天来到现场~~！",
+			say = "Woooohoo! Everyone, thanks for coming to see me~!!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的第一棒，是港区No.1的偶像{namecode:524}哦~！",
+			say = "I'm the port's number one idol, San Diego, and I'll be starting things off today~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:524}会给大家带来最燃的舞台！要认真听到最后哦！",
+			say = "Things are gonna get pretty wild around here, so make sure you keep your eyes on me until the very end~!",
 			effects = {
 				{
 					active = true,
@@ -455,7 +455,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~~Let's music！一起High起来吧~！",
+			say = "All righty, let's start the music! It's time to pump things up~!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -480,9 +480,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			dir = 1,
-			say = "「接下来轮到萨拉托加出场啦——！什么？看不到人？哼哼~猜猜我现在究竟在哪里呢？」",
+			say = "\"Next up, it's the one and only Sister Sara~! Huh? You can't see me? Ehehe~ I wonder, where could I be hiding?\"",
 			effects = {
 				{
 					active = false,
@@ -500,11 +500,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「诶？大家都找不到吗？真没办法~」",
+			say = "\"...Eh? You're giving up just like that? Fiiine~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,11 +516,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "萨拉托加",
+			actorName = "Saratoga",
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「正确答案是……」",
+			say = "\"The correct answer is...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵！在观众席上哟！",
+			say = "Tadaaaah~! Right here in the audience~!",
 			effects = {
 				{
 					active = false,
@@ -569,7 +569,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是萨拉托加给大家带来的惊喜~！有没有吓一跳呀~？",
+			say = "How'd you like Sister Sara's surprise present? Did it make your heart skip a beat~?",
 			effects = {
 				{
 					active = false,
@@ -591,7 +591,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来就回到舞台~继续演唱吧♪",
+			say = "Welp, time to head back to the stage~! The show must go on~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？偶像特别演出…！？",
+			say = "Huh? A special idol concert...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有这种活动，本银河第一超级美少女本森居然完全不知道！！",
+			say = "And you didn't invite Benson, the cutest, prettiest girl in the whole galaxy?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这样~我也要参加！兔兔星美少女偶像·本森，闪亮登场！！",
+			say = "I'm gonna bunny hop right in! I'll show you just how a charming the cutest idol from Planet Bunny really is! Buuuuunny Bomber!!",
 			effects = {
 				{
 					active = true,
@@ -672,7 +672,7 @@ return {
 			actor = 10700020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是……",
+			say = "What is going on...",
 			hidePaintEquip = true,
 			flashout = {
 				black = true,
@@ -713,7 +713,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀……",
+			say = "Oh my...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -730,7 +730,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也、也是会有这种形式的偶像演出的嘛，啊哈哈哈…",
+			say = "W-well, our concerts are known to be a little unpredictable... Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			actor = 10700040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是第一次见到这种形式的演出…感觉偶像和观众们都乐在其中呢。",
+			say = "I've never seen a concert as free-form as this before, but it looks like both the idols and the audience are having a great time.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -764,7 +764,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，连我都有点想上台了呢~",
+			say = "Hehe~ It's making me want to go up on stage as well~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -781,7 +781,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…能让大家开心就好。",
+			say = "Ahaha... As long as you're having fun, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千早小姐怎么了吗？表情好像有点严肃…",
+			say = "Chihaya, by the way, you've had a really stern face for quite some time now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			say = "（以华丽的表演激发观众们的互动，名副其实的和观众一起完成演出……）",
+			say = "(They're pulling the audience in with their flashy performance, and even making them a part of the show...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			say = "（乍一看有点乱七八糟的，但似乎也是一种全新的音乐形式。我也得多多学习才行…）",
+			say = "(It seems sloppy and unprofessional at first, but this might actually be the next frontier of music. I'll have to look into this some more...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

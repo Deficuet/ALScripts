@@ -154,7 +154,7 @@ function var_0_0.updateTaskPanel(arg_12_0)
 	LoadSpriteAtlasAsync("ui/activityuipage/hololivemorningpage", var_12_1, function(arg_14_0)
 		setImageSprite(arg_12_0.nameImg, arg_14_0, true)
 	end)
-	setText(arg_12_0.dayText, arg_12_0.progressStep .. "/" .. arg_12_0.configData.total_num)
+	setText(arg_12_0.dayText, arg_12_0.progressStep .. " / " .. arg_12_0.configData.total_num)
 
 	arg_12_0.taskUIItemList = UIItemList.New(arg_12_0.taskItemContainer, arg_12_0.taskItemTpl)
 

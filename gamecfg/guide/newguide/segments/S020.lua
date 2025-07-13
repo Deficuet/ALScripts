@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"使用任务奖励<color=#ff7d36>建造新角色</color>吧",
-	"点击建造",
-	"这次来试试看<color=#ff7d36>重型舰建造</color>",
-	"建造材料准备充足！ 点击<color=#ff7d36>开始建造</color>",
-	"点击<color=#ff7d36>确定</color>开始建造"
+	"Use your mission rewards to <color=#ff7d36>build a new ship</color>.",
+	"Tap to build",
+	"This time, try building a <color=#ff7d36>heavy ship</color>!",
+	"You've got enough resources! Tap <color=#ff7d36>build</color> to get started.",
+	"Now tap <color=#ff7d36>confirm</color> to build your new ship."
 }
 
 return {

@@ -10,7 +10,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击生活区",
+				text = "Tap the Port button!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -32,7 +32,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍计划",
+				text = "Tap here next!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -49,7 +49,7 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍",
+				text = "Now tap Private Quarters!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -66,7 +66,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "下载所需资源后即可进入对应角色宿舍",
+				text = "You can add shipgirls to the quarters after downloading the new assets.",
 				mode = 4,
 				dir = 1,
 				char = "char",

@@ -11,14 +11,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "在蔷薇塔变为迎击模式后，光荣·META就一直停留在作战指挥室中寸步不离。",
+			say = "Glorious hasn't taken one foot out of the war room ever since the Rose Tower switched to interception mode.",
 			bgm = "theme-glorious-meta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·作战指挥中心？",
+				"Rose Tower - War Room (?)",
 				3
 			},
 			flashout = {
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "不过在蔷薇塔的外部同时出现了允许舰载机通行的通道，倒是没有影响到她进行舰载机的调度，颇为神奇。",
+			say = "However, a passage has opened for carrier aircraft that connects the Rose Tower and the outside. It allows her to dispatch her air wings without issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{playername}阁下，你是来和我谈撤离的事的么？",
+			say = "Hello, Commander. Are you here to discuss the retreat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你猜到了？",
+			say = "You knew about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "伊丽莎白女士和狮女士分别去找了你，之后你便来找我了，不难猜。",
+			say = "Miss Elizabeth and Miss Lion each went to meet you, and now you've come to me. I assumed that's why you're here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "听说塞壬会给每个实验场编号，而你们来自于一个叫实验场β的地方？",
+			say = "I've heard that the Sirens give serial numbers to their test site. You and your group are from \"test site beta,\" correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "那是一个怎样的世界？",
+			say = "What kind of world is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……这个问题有些宽泛了。",
+			say = "That's a... pretty vague question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "大概是一个摆脱了既定命运轨迹的，充满活力、希望与无限可能的美丽世界吧。",
+			say = "If you ask me, it's a beautiful world filled with life, hope, and endless possibilities. A word that overcame the fate imposed on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……摆脱了既定的命运轨迹，充满活力……希望……与无限可能的美丽世界……",
+			say = "Overcame the fate imposed on it... A beautiful world filled with so many lovely things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "真美好啊……那里的皇家，有着伊丽莎白女士这样的人，一定散发着无比璀璨的光芒吧。",
+			say = "That's wonderful. It must be even better with someone as great as your Miss Elizabeth around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "这里，我的世界……你知道它的编号是多少么？",
+			say = "Do you happen to know the serial number of this world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "实验场SQ-4577486。",
+			say = "SQ-4577486.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "实验场SQ-4577486么……",
+			say = "Test site SQ-4577486. I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "这里也曾是个充满活力、希望与无限可能的美丽世界……",
+			say = "This, too, once was a beautiful world filled with life, hope, and endless possibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,18 +234,18 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "{playername}阁下，正如你不会放弃你的家园一样，我也不会放弃我的家园的。",
+			say = "Commander. You did not give up on your home – neither will I give up on mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "…………",
+					content = "......",
 					flag = 1
 				},
 				{
-					content = "光荣女士……",
+					content = "Glorious...",
 					flag = 2
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我知道，你见过的META有很多。",
+			say = "You've crossed paths with many a META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "有些人能放下，有些人能找到新的寄托。",
+			say = "I'm sure some of them have given up on their worlds, while others are looking for a new place to call home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我尊重她们，也祝福她们。",
+			say = "I respect their decisions and wish them the best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "但是我不能，我也不想。",
+			say = "I, however, cannot and will not give up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "{playername}阁下，其实你也不想放弃的，对吧？",
+			say = "In truth, you don't want to give up on this world either, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "否则你就不会说服其他人尽可能战斗下去了……",
+			say = "If you did, you wouldn't have persuaded the others to keep fighting as long as they can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只是你认为，现状已是如此，就算拼尽全力也是徒劳，所以只能放弃了而已。",
+			say = "Even so, things are what they are. Nothing will change even if we give it our all – that's your reasoning, so you reluctantly agreed on a retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……很遗憾，这是综合考虑下最理性的选择。我不能拿你们的生命在这种事上冒险。",
+			say = "...I'm sorry, but yeah, that's the logical decision I arrived at by considering the circumstances. I just cannot wager all their lives on this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "理性么……这座高塔在百年间屹立不倒，依靠的可不是理性啊……",
+			say = "Logical, you say... Logic is not what has kept this tower standing for a hundred years.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "你错了，{playername}阁下。现在你所见到的，远不是蔷薇塔的极限。",
+			say = "You are wrong, Commander. You've not yet seen the true limit of the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我们的力量，远不止如此。",
+			say = "This does not scratch the surface of our strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "不知不觉间，贵族少女出现在大厅的正中央，手中高举起一把宝剑。",
+			say = "The noble girl has moved to the center of the hall, sword in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "这把剑，我曾在伊丽莎白的宝库中看到过。",
+			say = "I've seen the sword before. It was in Elizabeth's treasure collection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这是，慈悲之剑？",
+			say = "Is that... the Sword of Mercy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我是皇家最后的光荣，亦将绽放出皇家最后的荣光——",
+			say = "I am the final glory of the Royal Navy. I shall now let it shine radiantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "沉眠在塔下的英灵，受困于塔中的囚徒——",
+			say = "O souls resting beneath the tower, O prisoners captive within it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "醒来吧——",
+			say = "I awaken ye...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "在此，迎接光荣的最后一战吧——",
+			say = "For one final, glorious battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "原本封闭的作战大厅，于此刻向外无限延展开来。",
+			say = "The originally sealed-off hall begins to expand outward infinitely.",
 			bgm = "theme-elizabeth-andmeta",
 			typewriter = {
 				speed = 0.05,
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "无数的房间中，闪烁着无数的片段。",
+			say = "Amid countless rooms, countless fragments of light glitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "我看到了开战之初，伊丽莎白的雄心壮志。",
+			say = "I see the grand ambition that Elizabeth had when the war began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们要修建一座高塔，一座足够保护皇家的高塔，其名为——蔷薇塔哦！",
+			say = "We'll build a great tower! A tower able to protect all of the Royal Islands! And its name shall be – the Rose Tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……这是，蔷薇塔的诞生。）",
+			say = "(...This is the moment the tower was born.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_535",
 			hidePaintObj = true,
-			say = "随着战事愈发激烈，蔷薇塔下成为了英雄的安息处。",
+			say = "As the war turns increasingly violent, the land beneath the tower becomes a resting place for heroes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们会坚持战斗，直到取得完全胜利，或者流尽最后一滴血。",
+			say = "...We shall keep fighting. Until we achieve flawless victory, or our last drop of blood spills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……安息吧，胡德女士。",
+			say = "Rest in peace, Lady Hood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……这是，胡德的葬礼。）",
+			say = "(And this is Hood's funeral...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "葬礼一场又一场，直到所有的吊唁者都被葬入了坟墓中。",
+			say = "One funeral after another is held, until eventually all the mourners themselves end up in a grave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "蔷薇塔下最后一场葬礼，弥漫着令人窒息的孤独。",
+			say = "A suffocating loneliness hangs in the land beneath the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "现在只剩我一人了……",
+			say = "I'm the only one left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "但是……我的任务还没有结束……我不能倒下……",
+			say = "I must not die before I carry out my duty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……我绝对，不能倒下……",
+			say = "I simply... must not die.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我是光荣……我承载着皇家的光荣……",
+			say = "I am Glorious, the bearer of the Royal Navy's glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只要我还在，皇家的光荣就还在……",
+			say = "As long as I breathe, its glory remains intact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我明白了……",
+			say = "Yes... I understand now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "蔷薇塔……就由我来守护你……",
+			say = "Heed me, Rose Tower: I will be your protector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "然后……我们一同守护皇家吧——",
+			say = "Together... we will protect the Royal Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……光荣就是蔷薇塔，蔷薇塔就是光荣……）",
+			say = "(...Glorious is the tower, and the tower is her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "无限延展的空间中，逐渐凝聚出一团团光影。",
+			say = "Lights and shadows begin to gather in the endlessly expanding space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,7 +854,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "光影的面庞或熟悉、或陌生，或有神、或无神。",
+			say = "There are faces in them – some familiar and others unknown, some brimming with life and others devoid of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "飘忽闪烁，如同一缕缕在风中摇曳，又顽强燃烧的烛火。",
+			say = "They glow and sway gently, almost like candleflames blowing in the wind yet just barely staying lit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -876,7 +876,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "伴随着光影的出现，蔷薇塔变得愈发璀璨。",
+			say = "Each time a light or shadow appears, the light given off by the tower grows even brighter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "不但屏障变得更加凝实，还开始向周边释放出一道道毁灭性的光芒。",
+			say = "Its barrier becomes sturdier yet and it begins emitting light with a destructive power to its surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "被光芒命中的拟态物连同附着区一同灰飞烟灭，蔷薇塔周边一时间成为了寂静的无人带。",
+			say = "The mimic entities, along with their vector zones, are reduced to dust in the light. For a while, the area around the Rose Tower becomes a silent no man's land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "在更远方，大海正在翻涌，汹涌的残骸潮凝聚在皇家三岛周边。",
+			say = "Far away, the sea begins to billow, and a furious Rising Tide advances on the Royal Islands' coastlines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "那些早已沉没的，曾经属于皇家与其盟友的量产型残骸再次浮上水面。",
+			say = "Long-since sunken wreckages of mass-produced ships of the Royal Navy and its allies rise to the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "还有动力的，就向着敌人勉强移动。还能开炮的，就向着敌人勉强开炮。",
+			say = "Those still with functioning propellers charge desperately toward the enemy, while those with working cannons bombard them instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "仅有能源残存的，则选择了壮烈的殉爆。",
+			say = "Lastly, the ones with only power left martyrize themselves in an explosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "还有更多什么仅仅作为「残骸」而存在的，则跟随潮水一起向内陆撞击。就算撞，也要撞在敌人身上。",
+			say = "Even the ones reduced to nothing but wrecks ride the waves toward land, battering any enemies they collide with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "天外之兽的尸骸也好，拟态物的附着区也罢，纷纷在残骸潮的冲击下分散着、稀释着。",
+			say = "The carcasses of the extradimensionals and even the mimics' vector zones are all destroyed and diluted by the impact of this Rising Tide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "虽然不知原理如何，但我知道，这是由皇家海军守护的信念凝聚而成的奇迹。",
+			say = "While I can't explain it, I just know that this is a miracle created through the sheer faith of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -986,7 +986,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "——一场由「心念」凝聚而成的奇迹。",
+			say = "A miracle of the power of thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "虽然蔷薇塔的每一次攻击，那些飘摇的光影就会熄灭一些。",
+			say = "It comes at a cost – with each attack from the Rose Tower, more lights and shadows vanish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "虽然拟态物最终仍能从无尽的残骸潮中重生，并将其同化为壮大自身的养料。",
+			say = "The mimic entities will one day revive in this boundless Rising Tide and feast on these wreckages, making themselves even stronger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "但是在此时此刻——X的军团，终于落入下风了。",
+			say = "In this moment, though, X's forces have finally fallen into a disadvantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

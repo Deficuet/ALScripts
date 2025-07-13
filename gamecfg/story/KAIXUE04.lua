@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>四　图书室的妖精</size>",
+					"School Day Celebrations\n\n<size=45> IV   「Fairy of The Library」 </size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的有啦！我真的遇到了！",
+			say = "Seriously! I really saw her!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "我也是！",
+			say = "Me too!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "图书室！奇怪的响声！",
+			say = "In the Library! Strange noises!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "顺着声音的方向追过去，结果…什么都没有！",
+			say = "I was chasing the sound, but then...there was nothing there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后声音又从其他地方传来了！",
+			say = "And the sound came from somewhere else instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "克雷文&{namecode:2}",
+			actorName = "Craven&{namecode:2}",
 			bgName = "star_level_bg_103",
 			side = 0,
 			actor = 101061,
 			nameColor = "#a9f548",
-			say = "一定是“图书室的妖精”啦！指挥官！",
+			say = "It must be the \"Fairy of the library\"! Commander!",
 			subActors = {
 				{
 					actor = 301011,
@@ -148,7 +148,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "为了调查事情的真相而来到了图书室…",
+			say = "My investigations for the truth led me to the library...",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			actorShadow = true,
 			actorName = "？？？",
-			say = "嘁…为什么那家伙不一起来上学呢",
+			say = "Tsk tsk...why doesn't that girl come to school with me.",
 			dir = 1,
 			blackBg = true,
 			actor = 202111,
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			actorShadow = true,
 			actorName = "？？？",
-			say = "说什么自己是侍奉女王的女仆…我也是女仆呀…",
+			say = "She says she’s a maid for the Queen..well, so am I…",
 			dir = 1,
 			blackBg = true,
 			actor = 202111,
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actorShadow = true,
 			actorName = "？？？",
-			say = "那家伙不在一点意思都没有…",
+			say = "It's no fun without her...",
 			dir = 1,
 			blackBg = true,
 			actor = 202111,
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			actorShadow = true,
 			actorName = "？？？",
-			say = "还好学院还有这么个图书室~",
+			say = "Thank goodness the school got this library~~",
 			dir = 1,
 			blackBg = true,
 			actor = 202111,
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			actorShadow = true,
 			actorName = "？？？",
-			say = "又安静…又宽敞…还偶尔能戏弄一下来借书的驱逐们嘻嘻嘻——",
+			say = "It's quiet.. spacious... and occasionally I can tease the girls borrowing books, hehehe — —",
 			dir = 1,
 			blackBg = true,
 			actor = 202111,
@@ -287,11 +287,11 @@ return {
 			},
 			options = {
 				{
-					content = "顺着声音悄悄靠近",
+					content = "Sneaking up to the sound",
 					flag = 2
 				},
 				{
-					content = "顺着声音狂奔过去",
+					content = "Rushing toward the sound",
 					flag = 1
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "哇！哇哇！！",
+			say = "Wow! W-wow!!",
 			flashN = {
 				color = {
 					1,
@@ -352,7 +352,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "贝法那家伙…明明我才是姐姐…",
+			say = "Belfast... I'm clearly the elder one...",
 			flashout = {
 				black = false,
 				dur = 1,
@@ -386,7 +386,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "话说今天爱看书的驱逐们怎么还没来呢——",
+			say = "Why haven't those girls come to the library today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哇！哇哇！！",
+			say = "Wow! W-wow!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "原来是指挥官啊…不要吓我啦……啊糟了——",
+			say = "So it's Commander...don't scare me!...Ahh~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来妖精是爱丁堡呀~",
+			say = "So \"Fairy of the library\" is actually Edinburgh~~",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -470,7 +470,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:2}",
-			say = "太、太好了…不是什么可怕的东西…",
+			say = "Great, fantastic... so it's not something scary after all...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜对不起…我只是一时觉得有趣…",
+			say = "Whines~~ Sorry...I just thought what I did  was funny...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "要、要跟贝法报告？唯有这点请放过我呜呜——",
+			say = "Y-you want to tell Belfast? No, just leave it, please. Whines — —",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

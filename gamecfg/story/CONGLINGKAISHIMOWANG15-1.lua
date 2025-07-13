@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "之后，我们又在守望要塞停留休整了三日。",
+			say = "Following the battle, our party stayed at Sentinel Bastion for three days to rest and recover.",
 			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "在升级完装备，采购完补给，并尽可能查阅了魔王军的资料后。",
+			say = "We upgraded our gear and stocked up on supplies, then read up on the Demon King Army as much as we could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "我们穿过守望要塞的守望之门，正式踏入了由魔王军控制的荒芜之地。",
+			say = "Then, finally, we passed through the main gates, officially taking our first step into the monster-occupied Wasteland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "成型的道路在离开要塞不久后就中断了。",
+			say = "We followed the established road leading away from Sentinel Bastion, but it wasn't long before it abruptly stopped.",
 			bgm = "battle-ash-strong",
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "如今，我们深陷浓雾之中。",
+			say = "We kept going in the same direction and eventually ended up in a thick forest stuffy with fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "四周的树木早已失去生机，干枯的树枝如同扭曲的手臂般伸向天空。",
+			say = "The trees all around us look twisted and mad, their desiccated branches reaching for the sky like broken arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,11 +110,11 @@ return {
 			actor = 236031,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……这里的气氛好阴森。",
+			say = "Big brother, this place is creepy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,9 +128,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "或许……我们已经进入情报里提到过的枯萎森林了？",
+			say = "I think we've entered what my skills call the Withered Woods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错，此处就是枯萎森林哦。",
+			say = "Correct. These are the Withered Woods.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,18 +158,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "从迷雾中出现的是——神圣教会的圣女。",
+			say = "A figure appears from the mist – it's Jeanne d'Arc, the saint of the Holy Church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……你怎么会在这里？",
+					content = "What are you doing here?",
 					flag = 1
 				},
 				{
-					content = "欢迎入队！",
+					content = "Welcome to our party!",
 					flag = 2
 				}
 			}
@@ -178,11 +178,11 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "因为我在等你们。",
+			say = "I've been waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,12 +196,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "与你们一同前进，这就能在第一时间见证你们讨伐魔王的瞬间了，不是么？",
+			say = "I wish to join you. I believe my assistance will bring about the Demon King's defeat just a bit sooner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,12 +215,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "怎么样，欢迎我的加入么？",
+			say = "That is, if you'll let me. Will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,10 +234,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "那是自然的。",
+			say = "Of course. Welcome to the team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,12 +247,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那接下来的旅程就请多关照啦~",
+			say = "Heehee. Thank you. You won't regret this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,12 +266,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "哇哦……不愧是聪明的指挥官。",
+			say = "Ah, so you've already deduced why I'm here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,12 +285,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错，我是来加入你们小队的。",
+			say = "Indeed, I've been waiting for you here so I could join you on your quest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,11 +304,11 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "毕竟与你们一同前进，这就能在第一时间见证你们讨伐魔王的瞬间嘛~",
+			say = "I believe that coming with you should bring about the Demon King's defeat sooner, even if only slightly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,11 +322,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "言归正传。如你们所见，荒芜之地，确实如同字面意义上一般荒芜。",
+			say = "As I was about to say... This is the Wasteland, dubbed so for obvious reasons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,11 +340,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "将这片大地变成如今这副模样的……是魔王的魔法，我们也将其称为魔王的诅咒。",
+			say = "This dramatic change is the result of a curse that was placed on it. A spell simply known as the Demon King's Curse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,11 +358,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "在那守望长城还未建立的遥远过去……我们身边的枯萎森林也是无尽树海的一部分，",
+			say = "Long ago, before even the great wall was built, these woods were actually an extension of the Endless Woods.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,45 +376,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是如今……这里却变成了一片万物凋零、熔岩肆虐的生命禁区……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
-			dir = 1,
-			actor = 802020,
-			nameColor = "#A9F548FF",
-			say = "根据情报，魔王在守望长城外设置了三个由大魔族镇守的据点。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 802020,
-			side = 2,
-			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我们将其称为西方据点、中部据点和东方据点。",
+			say = "But now, this place has been reduced to a restricted area, its fauna withering and lava streams raging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,11 +393,46 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "魔王一直通过这三个据点维持其对于守望长城的军事压力。",
+			say = "To the best of our knowledge, the Demon King and her army have established three bases on this side of the wall.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 802020,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "Saint of the Holy Church",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "These are the fortresses to the west, east, and center of the Wasteland.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "Saint of the Holy Church",
+			dir = 1,
+			actor = 802020,
+			nameColor = "#A9F548FF",
+			say = "The Demon King Army has been applying pressure on our great wall through these bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,11 +446,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我们在过去也发动过数次神圣远征，想要净化这片被诅咒的大地。",
+			say = "We have embarked on holy expeditions before in attempts to purify the Wasteland... but all were unsuccessful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,11 +464,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "可是因为这三个据点不停扩散诅咒的缘故，纵使我们净化了一片土地……",
+			say = "Even if you purify one area, there are still the three bases that propagate the curse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,10 +482,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那片土地也会在祝福的力量消散后再次回归荒芜。",
+			say = "You can bless the purified land to keep it pristine for a while, but once the blessing wears off, the curse will reclaim it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,9 +499,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "也就是说，大地的诅咒不是不可逆的。",
+			say = "So it's not that purification doesn't work, it's that those bases undo its effects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,9 +511,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "只是因为有据点的存在，才导致对土地释放净化魔法没有意义？",
+			say = "If we can neutralize the bases, the land won't be ruined again, right? Even without blessing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,11 +523,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错。指挥官，你在庆功宴上已经获得了光明与正义之神的祝福之力。",
+			say = "Indeed, but it should be noted that you CAN bless the land, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,10 +541,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要据点的影响消失，你应该能利用这股力量直接净化这片被诅咒的土地。",
+			say = "You carry the blessing of the goddess of light and justice in your heart. It can purify the land if you just destroy those bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,11 +558,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！由指挥官来负责净化么？！",
+			say = "What? The Commander can do that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,11 +586,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我呢？",
+			say = "What about ME?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,11 +604,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "勇者抚顺展现实力的地方呢……？",
+			say = "When will it be MY time to shine?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,11 +622,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "唔……我认为勇者大人展现实力的地方，自然是在打倒魔物拔除据点的时候啦？",
+			say = "Umm... I suppose your glorious duty is to slay the monsters and capture the bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,11 +640,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……有道理！",
+			say = "...Good point!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,11 +658,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，确实是这样！讨伐魔物才是勇者展现魅力的时刻~",
+			say = "You're right! It IS my duty to slay the monsters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,11 +676,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们还等什么，快去讨伐最近的要塞中的魔物吧~！",
+			say = "So, what are we waiting for? Let's find a base and clear it out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,12 +710,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "Potion Maker",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘——！不要说话这么大声！",
+			say = "Shhh! Quiet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,12 +735,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "Potion Maker",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师曾经说过，荒芜之地的魔物数量众多而且生性凶残——",
+			say = "My master told me this place is inhabited by ferocious monsters that–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,8 +754,8 @@ return {
 			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_176",
-			actorName = "狂野啾莱姆战士",
-			say = "吼啾——吼啾————！",
+			actorName = "Berserker Knight Slimejuu",
+			say = "CHIRP CHIRP CHIRP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,11 +779,11 @@ return {
 			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经有一群怪物被吸引而来了呢……",
+			say = "Bugger, they know we're here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,11 +803,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……糟、糟糕！",
+			say = "Oh, fiddlesticks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,9 +831,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "所有人调整队形，准备战斗！",
+			say = "Change formation! Prepare for battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

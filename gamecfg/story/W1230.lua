@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "舰队维护结束，舰队的士气与耐久值恢复了。同时接收到了来自指挥部的物资补给。",
+			say = "Fleet maintenance has been completed. HP and Resolve have been replenished, and we’ve received supplies from the logistics team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

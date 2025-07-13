@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，今天这里的味道您还喜欢么？",
+			say = "Do you like the scent I've chosen today, my honourable {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星准备了安神的香薰，希望您在这里能够得到更加充分的休息。",
+			say = "This aroma is meant to provide you with the most fulfilling sleep possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果觉得舒适的话，就多待一阵子吧……？",
+			say = "Won't you please stay here a little longer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星想更多、更多地侍奉在您的身边。",
+			say = "I wish to be by your side and serve you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

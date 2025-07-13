@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION81",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION81",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
@@ -60,7 +57,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星在您来之前，在走廊上看云。",
+			say = "Sirius在您来之前，在走廊上看云。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +73,7 @@ return {
 			},
 			options = {
 				{
-					content = "那，天狼星看到了什么呢？",
+					content = "那，Sirius看到了什么呢？",
 					flag = 1
 				}
 			}
@@ -84,7 +81,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}……您是在明知故问哦。",
+			say = "主人……您是在明知故问哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

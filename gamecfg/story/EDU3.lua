@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>三　偷懒需借口</size>",
+					"The Protector Needs Protecting\n\n<size=45>3 An Excuse to Slack</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "某天，看见了坐在路边椅子上的恶毒。",
+			say = "One day, I found Le Malin slouching in her seat.",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "哈啊……累死我了。",
+			say = "Haaaah... Sooooooo tiiiiired...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "她正一脸疲惫地按压着自己的小腿。",
+			say = "She was ruefully massaging her ankles, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "这次的出航任务真折腾人，我双腿都快要累断了。",
+			say = "Bleh, what an annoying mission... My legs are sore all over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次再有这样的任务，我得找个理由请假才行。",
+			say = "The next time a mission like this comes up, I swear I need to come up with an excuse to get time off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……不行，请假肯定会引起指挥官的注意，出航任务还是得好好干吧……",
+			say = "...But, there's no way the Commander wouldn't notice something that obvious, right? ...*sniffle*, looks like I'll have to take those troublesome transport missions after all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好不容易回来得早了些，在去述职之前，我得好好休息休息才行……",
+			say = "Well, at least I got back early. Time to take a little nap before I go deliver my report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "嗯……这里就挺好。",
+			say = "In a sense, this place really is pretty awesome.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安静，而且不会有人经过……吧？",
+			say = "It's nice and quiet, and there aren't people coming back and forth all the time–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恶毒？你怎么在这里。",
+			say = "Huh? Le Malin? What are you doing here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 803010,
-			say = "刚完成远征任务回来么？",
+			say = "Oh, did you just get back from a commission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "是、是！",
+			say = "Y-yeah?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……絮弗伦，你怎么在这里？",
+			say = "...Miss, umm, Suffren, was it? Wh-why are YOU here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 803010,
-			say = "我正打算去演习场啦~你好好休息，不打扰你了。",
+			say = "Just on my way to training! Enjoy your break, Le Malin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "也……没在休息啦。",
+			say = "Th-there's nothing wrong with taking a break every now and then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "身为鸢尾的守护之刃，这种程度的任务对我而言一点也不辛苦。",
+			say = "For a member of the elegant Le Fantasque class, a task of this magnitude is no problem at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇哦~不愧是恶毒，真厉害！那我就先走啦~",
+			say = "Yup, yup! That's our Le Malin for you! In any case, I need to get going now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "絮弗伦的突然出现让恶毒马上换回了平时优雅、端庄的姿态。",
+			say = "Le Malin managed to put her elegant persona on for just long enough to see Suffren off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "而在絮弗伦走后，恶毒又马上恢复了原样。",
+			say = "But as soon as the other girl left, she once again collapsed into a puddle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……看来还是得回到房间才能放松休息。",
+			say = "I knew it... I can't find solace anywhere except in the comfort of my rooooom...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "可双腿还是很累，要是勉强自己走回去，明天起床肯定会酸痛的吧。",
+			say = "But, what should I do? If I walk all the way back right now, I'm sure my legs are going to turn into jello when I wake up tomorrow morning...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该怎么办呢？",
+			say = "Hrmmmmm... What should I do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（恶毒看上去有些困扰，还是过去看看吧。）",
+			say = "(She looks like she's having a rough time. Let's see what's going on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官？真巧啊，你也是走累了想要休息么？",
+			say = "Commander? Fancy seeing you here. Are you on a break as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？看我很困扰的样子？",
+			say = "Oh... You're worried about me because I seem to be having trouble with something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "面对乐于助人的指挥官，我就不客气了。",
+			say = "Ah, yes! Of course I'm in a bit of a rough spot right now! Since you're so ready and willing to help––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "恶毒自然地张开了双臂。",
+			say = "Le Malin spread her arms as if expecting me to do something about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,22 +499,22 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这时候应该……）",
+			say = "Let me think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "给医务室打电话",
+					content = "I'll call the infirmary for you.",
 					flag = 1
 				},
 				{
-					content = "提议将她抱回去",
+					content = "I'll carry you back to your room.",
 					flag = 2
 				},
 				{
-					content = "提议将她背回去",
+					content = "Fine, I'll give you a piggyback ride back to your room.",
 					flag = 3
 				}
 			}
@@ -528,7 +528,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "………啊？",
+			say = "......Eh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "这时候应该是给医务室打电话么……？",
+			say = "I, I suppose that certainly is one option, but...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "背我回去就好啦！",
+			say = "Aren't you supposed to offer to carry me back to my room at a time like this?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "背我回去嘛~背我回去啦！",
+			say = "Pleeeeeease, Commander? Carry me back, won't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "唔……虽然被抱起来也很舒服。",
+			say = "O-of course, I don't mind if you hold onto me tightly...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是被人看到就相当不妙了……",
+			say = "B-but, won't it be a scandal if someone sees us like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……背我回去就好啦！",
+			say = "Y-you know, a piggyback ride would suffice! Yes, that's fine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，理解得真快~",
+			say = "I'm glad you're so understanding, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就拜托啦——",
+			say = "Ehehe~ Now, off we go~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不对……等等等等。",
+			say = "...Like hell I'd say something like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算是背着，被人看到也相当不妙。",
+			say = "There's no way we can let other people see us like this regardless of how you're carrying me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "需要一个合理的借口才行……",
+			say = "I need to come up with some kind of explanation, pronto...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "恶毒在远征回来后，因为腿部受伤所以要被人背着去医务室，这样如何？",
+			say = "You injured your leg during a commission, and need a lift over to the infirmary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，真的是天才啊！",
+			say = "You're an absolute genius, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "这比起“单纯因为累而不愿意走动”听起来正义多了！",
+			say = "It's a hundred times better than \"I was too tired to walk back myself so I got the Commander to carry me back to my room!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "那就拜托你了，指挥官。",
+			say = "Thanks for helping me out again, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "将恶毒背在身上，清新芳香扑鼻而来，背上更传来了奇妙的触感。",
+			say = "I couldn't help but notice how unusually quiet Le Malin was on the way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（唔……虽然现在才反应过来已经有点太晚了，但是……）",
+			say = "(I can't believe this only occurred to me just now, but...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（仔细想想，这不就是和指挥官亲密接触吗！）",
+			say = "(Doesn't this count as intimate physical contact with the Commander?!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（而且还是在公众场合上！）",
+			say = "(And, in a totally public place where everyone's staring, too!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（还、还是把脸藏在指挥官的后颈旁吧……）",
+			say = "(I'm so embarrassed that I probably have a weird look on my face...! I, I need to hide my face in Commander's back right now!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（唔……这是，指挥官的气息？）",
+			say = "(Mmgh... Ahh... Commander's scent...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "（脸上火热热的，现在的脸，实在不想被其他人看到……）",
+			say = "(Urrrrrk... I seriously hope nobody sees me like this! Please, I don't want anyone to see this at all!)",
 			painting = {
 				alpha = 0.3,
 				time = 1

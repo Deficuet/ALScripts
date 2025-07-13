@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "一只神秘的猫猫紧跟在你的身后不肯离开，获得了【喵箱SSR型*1】"
+			say = "You found a wooden chest floating in the water and opened it! Collect 1 T4 Tech Box!"
 		}
 	}
 }

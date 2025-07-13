@@ -9,7 +9,7 @@ return {
 			nameColor = "#ff0000",
 			actorName = "{namecode:57}",
 			dir = 0,
-			say = "听说陆航部队刚刚发现了大鱼，皇家的远东舰队出港了",
+			say = "It's rumored that the Army Air Corps just discovered a big catch, the Royal Navy is currently out of port.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,7 +29,7 @@ return {
 			actorName = "{namecode:67}",
 			nameColor = "#ff0000",
 			dir = 0,
-			say = "哼哼哼，绕了大半个地球过来的孩子们终于憋不住寂寞了吗，是时候让这片海洋热闹一下了",
+			say = "Hmmmm, after traveling halfway across the world, they finally started their attack. Let's stir things up then.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -53,7 +53,7 @@ return {
 			nameColor = "#ff0000",
 			actorName = "{namecode:67}",
 			dir = 0,
-			say = "南遣舰队全员听令，全速南下对Z舰队进行拦截，可不要被陆航部队给抢了风头",
+			say = "On my command! Full-speed south! Let's intercept the Z-fleet.",
 			shake = {
 				speed = 1,
 				number = 3

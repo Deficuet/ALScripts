@@ -37,31 +37,31 @@ return {
 			},
 			sequence = {
 				{
-					"<size=45>Chapter-8-迷彩都市之夜</size>",
+					"<size=25>Chapter 8 - Night in the Neon City</size>",
 					0.5
 				},
 				{
-					"<size=45>Scene：商业街居酒屋</size>",
+					"<size=25>Scene: Downtown bar</size>",
 					1
 				},
 				{
-					"<size=45>Time：22:59</size>",
+					"<size=25>Time：22:59</size>",
 					1.5
 				},
 				{
-					"<size=45>Date：6月26日</size>",
+					"<size=25>Date: June 26th</size>",
 					2
 				},
 				{
-					"<size=45>离开了教室后，你在脑海中盘算着接下来的行动，不知不觉间来到了一家居酒屋。</size>",
+					"<size=25>After leaving the classroom, you sooner or later wound up outside a bar after having worked out your next move.</size>",
 					2.5
 				},
 				{
-					"<size=45>一日的忙碌让你的肚子在此时发出了有声的抗议。</size>",
+					"<size=25>It had been a long day, and your stomach rumbled at you.</size>",
 					3
 				},
 				{
-					"<size=45>于是，你准备进入居酒屋中吃顿便饭……</size>",
+					"<size=25>Director</size>",
 					3.5
 				}
 			}
@@ -70,13 +70,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			nameColor = "#A9F548FF",
 			bgm = "story-nonightcity",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "（来居酒屋吃饭么……终于等到拍吃饭的场景了。）",
+			say = "(A dinner scene in a bar. I was waiting for it to happen.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			},
 			options = {
 				{
-					content = "必须要点菜了！",
+					content = "Time to order some grub!",
 					flag = 1
 				},
 				{
-					content = "还是算了……",
+					content = "On second thought...",
 					flag = 2
 				}
 			}
@@ -113,13 +113,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "老板，我想吃炸鸡汉堡、海军咖喱、烤香肠、烤猪肘、罗宋汤、红酒焗蜗牛、仰望星空派、玛格丽特披萨，以及满汉全席！",
+			say = "Barkeep! I'll have a deep-fried burger, naval curry, grilled sausage, a plate of Schweinshaxe, escargot simmered in wine, stargazy pie, a Margherita pizza... oh, and an Empery full course banquet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,13 +129,13 @@ return {
 			portrait = 401022,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "旁白",
-			actorName = "剧中旁白",
+			factiontag = "Film Narration",
+			actorName = "Film Narration",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,13 +145,13 @@ return {
 			portrait = 401022,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "旁白",
-			actorName = "剧中旁白",
+			factiontag = "Film Narration",
+			actorName = "Film Narration",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "你一走进店内，就一口气点了一连串居酒屋菜单上没有的菜。",
+			say = "As soon as you entered, you ordered meal after meal, none of which were even on the menu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,13 +161,13 @@ return {
 			portrait = 401022,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "旁白",
-			actorName = "剧中旁白",
+			factiontag = "Film Narration",
+			actorName = "Film Narration",
 			optionFlag = 1,
 			hideRecordIco = true,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "这一举动不但没有引起老板的注意，反而引来了一位熟人的目光。",
+			say = "The bartender turned a deaf ear to you. On the bright side, you caught the attention of someone you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,10 +177,10 @@ return {
 			actor = 607022,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……？顾问啊……？",
+			say = "Mmh... Advisor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "……刚加班结束么？",
+			say = "Did you just... finish for the day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,22 +204,22 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "你来得正好……一起来喝一杯吧~！",
+			say = "Good timing, then... Come here and drink with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "帝国警视长，你是卧底吗？",
+					content = "Are you an infiltrator?",
 					flag = 1
 				},
 				{
-					content = "（顺着剧本情景继续演下去……）",
+					content = "(Just follow the script...)",
 					flag = 2
 				}
 			}
@@ -228,12 +228,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "……卧底？对哦……伟大的帝国警视长就是卧底~！",
+			say = "Infiltrator? Yeah, that's me... The brilliant Chief Impero is your infiltrator!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "快逮捕我吧……工作好累啊……我实在是不想工作了……",
+			say = "Go on, arrest me... I've worked so much I'm starting to feel like I am at my limit... I don't wanna do this anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,14 +258,14 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "就算被逮捕坐牢了，也是需要工作的吧。",
+			say = "Do you think being arrested will get you out of having to work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +275,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "唔……好像也是……那还是别逮捕伟大的帝国警视长了……",
+			say = "Hrmh... Guess not... On second thought, don't arrest me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,12 +290,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "一起来喝酒吃烤串吧~！",
+			say = "Let's keep the cuffs off and just driiink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,14 +305,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "是啊……刚加班结束。",
+			say = "Yeah... Just got done working overtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,14 +322,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "最近的事情真是越来越多，越来越累了……",
+			say = "I've been getting more and more of it lately, and it's seriously killing me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,14 +339,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "帝国警视长呢？也是么？",
+			say = "And you, Chief? How rough do you get it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,12 +356,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼……考勤状态里应该算是在加班中吧~",
+			say = "Heheh... On paper, I'm working overtime right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,12 +371,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "虽然伟大的帝国警视长此时此刻正在进行战略休息呢……",
+			say = "In reality, though, I'm taking a strategic break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,12 +386,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "咕咚咕咚——啊——有点轻飘飘的感觉了……",
+			say = "*gulp gulp*... Ahh! Oh boy, I'm getting light-headed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,12 +401,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "顾问啊……你说，每天上班已经很辛苦了……为什么还要加班……",
+			say = "You know, Advisor... It's hard enough just coming in to work every day, so why do you have to do overtime on top of that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,23 +416,23 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 2,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "为什么还要加班啊……",
+			say = "I don't get it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "因为我喜欢工作！",
+					content = "Because I love working!",
 					flag = 3
 				},
 				{
-					content = "不论怎样都不应该加班！",
+					content = "Whatever the reason, overtime sucks.",
 					flag = 4
 				}
 			}
@@ -441,12 +441,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "那你是真厉害……",
+			say = "Wow. I respect that, I really do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,12 +456,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "伟大的帝国警视长敬你一杯——干杯~！",
+			say = "In fact... let me raise a toast to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,12 +471,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "欸……听我一句劝，特别顾问。",
+			say = "Hey, listen to me for a sec, Advisor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作这种事……差不多就可以了……",
+			say = "Work is a thing that's... best done in moderation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,12 +501,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "身体是自己的，生活也是自己的……",
+			say = "Remember, you only get one shot at life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,12 +516,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作结束之后的生活……才是真正的生活呢……",
+			say = "The time spent not working... that's when you're really living...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,12 +531,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 3,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "在疲劳的工作结束之后，来阿卡西居酒屋吧。",
+			say = "When work gets you down... come to the Akashi Bar and have a drink...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,12 +546,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "说得对……没错！干杯~！",
+			say = "TRUE! So true! I'll drink to that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,12 +561,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "欸……听我一句劝，特别顾问。",
+			say = "Hey, listen to me for a sec, Advisor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,12 +576,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作这种事……差不多就可以了……",
+			say = "Work is a thing that's... best done in moderation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,12 +591,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "身体是自己的，生活也是自己的……",
+			say = "Remember, you only get one shot at life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,12 +606,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "工作结束之后的生活……才是真正的生活呢……",
+			say = "The time spent not working... that's when you're really living...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,12 +621,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			optionFlag = 4,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "在疲劳的工作结束之后，来阿卡西居酒屋吧。",
+			say = "When work gets you down... come to the Akashi Bar and have a drink...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,11 +636,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "跟你说哦……这家阿卡西居酒屋的啤酒，由特推阿卡西啤酒工坊采用72小时阶梯式降温发酵工艺精心酿造而成。",
+			say = "Listen, the beer at this place is something else... The folks at the Akashi Beer Studio use a 72-hour, incremental cooling fermentation process...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,11 +650,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "啤酒呈现出如琥珀般的色泽与香槟级的绵密泡沫……",
+			say = "It gives their beer an amber color, and the bubbles it produces are as smooth as champagne...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,11 +664,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "搭配上同样由阿卡西集团所属阿卡西生态农场供应的精选肉串，以传统工艺——",
+			say = "And the meat they use for their skewers? Comes from cattle raised the traditional way and delivered straight from Akashi Farm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,13 +678,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "帝国……绿头猫咪给了你多少钱让你念广告？",
+			say = "Uh... How much is she paying you for this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,11 +694,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "啤酒喝到爽，烤串吃到爽……！",
+			say = "Not a dime – just all the beer and skewers I could want!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,13 +708,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "没事了……那我先回家了，帝国警视长。",
+			say = "I'll leave you to it, then. I'm heading home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,13 +724,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "特别顾问",
+			factiontag = "Special Advisor",
 			portrait = "zhihuiguan",
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
 			actor = 607022,
 			actorName = "{playername}",
-			say = "你也别喝太多，回家的时候注意安全。",
+			say = "Don't drink too much, and stay safe on your way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,11 +740,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "放心吧……放心……zZZZ",
+			say = "I'll be fiiine... Juuust... fine... *hic*... Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,11 +754,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "刑事部 警视长",
+			factiontag = "Police Chief, CI",
 			dir = 1,
 			actor = 607022,
 			nameColor = "#A9F548FF",
-			say = "特别顾问……抓卧底……加油zZZZ",
+			say = "Good luck... catching those... infiltrators...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,11 +768,11 @@ return {
 			portrait = 312013,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "导演",
+			factiontag = "Director",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98:明石}",
-			say = "喵呼呼~！CUT~喵！",
+			actorName = "Akashi",
+			say = "Nya, nya! Cut, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

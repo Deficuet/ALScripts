@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处可进行区域切换选择",
+				text = "Tap here to change the area.",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -21,7 +21,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "选择餐厅，即可将天狼星呼唤至该区域",
+				text = "Tap the Dining Area to invite Sirius over.",
 				mode = 4,
 				dir = 1,
 				char = "char",

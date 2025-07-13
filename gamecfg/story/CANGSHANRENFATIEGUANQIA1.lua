@@ -12,7 +12,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"未知之处，黑暗之地。",
+					"In a place unknown, shrouded in darkness...",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"无声无息，万籁俱寂。",
+					"In a place that makes no sound, wrapped in silence...",
 					2
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			actor = 11000050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唔，嗯……",
+			say = "Mgh... Mmgh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊呀？你终于醒了呢，真是个小懒虫。",
+			say = "Oh, you're finally awake. You were out for a long while, sleepyhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我还担心你是不是已经没气了……现在看来没必要预约教堂了呢。",
+			say = "I was starting to worry you'd given up the ghost. Seems I won't need to arrange a funeral.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "这里……到底是……",
+			say = "Where... am I...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，欢迎来到由我特意准备的秘密房间。",
+			say = "Heheh. You're in my secret room, and I invited you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你是？",
+			say = "...Who are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是老套的问题。我还以为你会更慌张地追问些什么呢……",
+			say = "What a boring question. Here I thought you'd ask something more... pertinent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "比如——“我，我是死了吗？！”之类的？",
+			say = "Like, \"Am I dead?!\" for a start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很不巧，我很清楚自己的状况。现在的我更需要知道的是，这是什么地方，以及——",
+			say = "I'm afraid I know my state of being quite well. What I need to know at this moment is where I am, and also...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "你究竟是谁？",
+			say = "Just who and what are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，是想展现出一副沉着冷静的样子么？我喜欢。不过……",
+			say = "Heheheh. So calm and composed. But you're bluffing, aren't you? I do like a bluff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果你真的那么冷静，心跳就应该放得再平缓些，不是么？",
+			say = "But your elevated heart rate isn't doing a good job of selling it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "算了，你刚才是想问关于我的事对吧？我倒是希望你不要深究这部分哦？",
+			say = "Anyway, you're asking who I am? Frankly, I'd appreciate it if you wouldn't concern yourself with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟解释起来会相当麻烦啊。",
+			say = "Explaining everything would be a huge hassle, you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然眼下一头雾水的状况会让你感到不安，但你可以暂时陪我做些研究么？",
+			say = "You don't like being kept in the dark, I'm sure, but I'd like you to forget about that and assist with my research for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "研究结束后我会好好送你回去的。当然，如果你不配合的话……这承诺可能就无法履行了哦？",
+			say = "I'll let you go home once I'm happy with the results. That is, assuming you play nice. Otherwise, maybe I won't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不信任我？倒也是，不过……",
+			say = "You don't trust me? Yes, that's only natural...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无论你相信与否，现状都不会有任何改变哦？",
+			say = "However, whether you trust me or not doesn't change your situation one bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，“虽然道理已经想明白了，但是——”的感觉对吧？",
+			say = "Let me guess. You think you've pieced the answer together now, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那我就在这里姑且给你道个歉，然后祝你——「好好享受」。",
+			say = "Then let me apologize and leave you with this – take your time and enjoy yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			bgm = "sk-az-pv1",
 			painting = {
 				alpha = 0.3,
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "到底……发生了什么事？",
+			say = "What in the world is going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "飞鸟小姐她们……还好么……",
+			say = "I wonder where the girls are... I hope they're safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，真是个超出预期的变量。不错，事情要变得有趣了~",
+			say = "Heheheh. These values are more interesting than I projected. This will be fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,35 +444,35 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「忍者——那是在遥远的战国时代，栖息于暗影之中的存在。」</size>",
+					"<size=34>Shinobis – they were shadows who lived long ago during the Warring States era.</size>",
 					1
 				},
 				{
-					"<size=34>「潜藏于人群之中，搜寻、挑拨、欺骗，然后实施杀戮——」</size>",
+					"<size=34>They hid among crowds, they snooped, provoked, deceived, and assassinated.</size>",
 					2
 				},
 				{
-					"<size=34>「如同影子一般，肩负一切地下工作的存在。」</size>",
+					"<size=34>Where there was dirty work, there were shinobis to undertake it.</size>",
 					3
 				},
 				{
-					"<size=34>「亦是不知何时起被人们遗忘，仿佛仅存在于传说之中的存在。」</size>",
+					"<size=34>As time went on, they disappeared from the public consciousness, becoming little more than legends.</size>",
 					4
 				},
 				{
-					"<size=34>「不过，即使忍者从人们的心中消失了，人类的业障也不曾有任何改变。」</size>",
+					"<size=34>But, though the people had forgotten them, the nature of man was still what it was.</size>",
 					5
 				},
 				{
-					"<size=34>「现如今，依旧需要有人活动于黑暗之中，执行那些无法见光的任务。」</size>",
+					"<size=34>Those who lived in the dark underworld were still needed.</size>",
 					6
 				},
 				{
-					"<size=34>「忍者，仍然存在于我们之间。」</size>",
+					"<size=34>Shinobis have continued to exist to this day.</size>",
 					7
 				},
 				{
-					"<size=34>「而在这片遥远的土地上，忍者们的战斗也即将再次上演——」</size>",
+					"<size=34>And here, in a faraway land, a battle of theirs was beginning to unfold...</size>",
 					8
 				}
 			}

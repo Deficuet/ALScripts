@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "红黑色的身影在大笑声中不留痕迹的消失了。",
+			say = "Laughing loudly, Akagi META vanished into thin air.",
 			bgm = "theme-nagato-meta",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "{namecode:229:霞·META}在{namecode:74:长门}的要求下开始检查{namecode:71:比叡}此刻的状况。{namecode:74:长门}则凝聚心神，在奈落之中再度展开追踪。",
+			say = "Nagato had Kasumi take a look at Hiei, after which she resumed her pursuit of the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "嗯……？",
+			say = "Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "你的表情好严肃……怎么了，情况很严重么？",
+			say = "What is it? Is my corrosion as bad as I feared?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……不，完全不严重。",
+			say = "No. It's the opposite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "奇怪……你的META化侵蚀程度并不高，而且极其稳定。",
+			say = "The corrosion has not only halted, but it's also extremely stable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……和{namecode:74:长门}大人的情况是一样的。",
+			say = "Just like Nagato's is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "难道实验场β重樱舰船在META化之后都是这种情况么……？",
+			say = "Is it like this with everyone from test site beta?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "并非如此。在奈落出现之前，遭到侵蚀而出现短暂META化现象的{namecode:85:飞鹰}和{namecode:86:隼鹰}就不是这样的状态。",
+			say = "No. Hiyou and Junyou temporarily turned META as well, but the METAmorphosis radically changed them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……真是怪事。",
+			say = "That's so strange...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "嗯——虽然不清楚你们具体在聊什么。不过听上去，我似乎会没事呢~",
+			say = "At any rate, I'm glad both Lady Nagato and I are alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "没错，回去简单净化一下你就能恢复原状了——只要你想的话。",
+			say = "Yeah. Just need to purify the surface-level corrosion and you'll be back to normal. Assuming you want to, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "那是当然啦！META化之后虽然感觉力量增强了不少，不过总感觉性格也顺便受到了一点点影响……",
+			say = "Of course I do. As much as this new power is fantastic, I don't like how it has altered my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "还是恢复原状比较好！",
+			say = "I'd feel safer going back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……你，认真的么？",
+			say = "Are you sure about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "认真！",
+			say = "Yes, I'm sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "…………",
+			say = "...I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "对了，听说你之前被那个伪物抓过来的，能和我说说这段时间内发生的事么？",
+			say = "I heard the amalgamations kidnapped you earlier. If it's not too much to ask, could you share what happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你是怎么找过来的？",
+			say = "For instance, how did you escape?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "嗯~这个故事说来就有些曲折了。首先，要从一个幻境开始说起——",
+			say = "It's a long story... Umm, I was in an illusion with Lady Nagato, when all of a sudden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "——之后，我就顺着{namecode:140:旗风}指出来的路和她一起走。",
+			say = "...So I went where Hatakaze pointed me to, then I suddenly heard the sound of fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "走了没多久就听到了战斗的声音，后面的事你们都知道了。",
+			say = "I followed the sound and found Lady Nagato and that META Akagi fighting, so I stepped in as soon as I could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "刚才战斗结束之后，我本来想立刻跟你们介绍一下她，结果她却好像直接消失了……",
+			say = "Unless that Hatakaze was simply a hallucination, I'd have loved to introduce her to Lady Nagato. Alas, she disappeared when I looked away from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "这就是从我被抓走后到刚才为止发生的事。",
+			say = "That brings us to now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……你确定见到是{namecode:140:旗风}，而不是{namecode:522:旗风·META}么？",
+			say = "Was this Hatakaze not a META?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "绝对确定。",
+			say = "Well, she didn't look like one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "奈落之中怎么会有正常舰船存在于此……而且能凭借自身离开幻境？",
+			say = "No ordinary shipgirl could survive for an extended period inside Naraka, much less find a way out of the illusory space...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "一定有大问题……",
+			say = "There must be more to her than she let on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "……这些我就不清楚了，反正一路上我们相处得还挺好的~",
+			say = "Perhaps there was, but she seemed exceedingly normal to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……你们实验场β的人心都这么大么？",
+			say = "...You should be careful of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "{namecode:180:霞}……",
+			say = "Kasumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "算了……当我什么都没说。",
+			say = "Right... Sorry. Forget I said that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……不好，刚才消失的执念化形似乎做了些什么，这片区域的空间稳定性正在快速下降。",
+			say = "Ugh... This area's stability is rapidly decreasing. That Akagi must've done something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "{namecode:74:长门}、{namecode:71:比叡}、{namecode:180:霞}，我们必须立刻离开。",
+			say = "Lady Nagato, we should evacuate at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不用继续追击了？",
+			say = "Wait. That Akagi is dangerous and may yet pose a threat to the Commander's fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "虽然没有将其消灭，不过其已不再占据「{namecode:161:天城}」的概念，我们的目的已经达成了。",
+			say = "Amagi's concept has been released. There is no need for us to linger here if the Commander's part is going well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "此地不宜久留，该撤离了。",
+			say = "Please, listen to me and do what's best for your own health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "怎么回去？",
+			say = "By the way, does anyone know how we're supposed to get out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "海伦娜说会有人来接应，我向她发信号。",
+			say = "The Commander has planned for that. I'll call the allies who are going to get us out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "几乎是转瞬之间，众人面前出现了一座闪耀着金色光芒的城堡。",
+			say = "As the time to evacuate drew near, a castle glowing gold appeared without warning before the girls.",
 			bgm = "theme-camelot-up",
 			typewriter = {
 				speed = 0.05,
@@ -605,7 +605,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，我是皇家近卫骑士前卫。",
+			say = "I am Vanguard, palace guard of the Royal Knights!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在奉伊丽莎白女王陛下的命令，调动卡美洛之庭前来接诸位回家。",
+			say = "By Her Majesty's decree, we have brought Camelot here to evacuate you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "……这个装置，实验场β果然不正常。",
+			say = "That device... Test site beta really is an outlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "我们走吧。",
+			say = "Let's go, Lady Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

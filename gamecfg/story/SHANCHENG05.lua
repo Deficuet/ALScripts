@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>五 邀请</size>",
+					"Winter Offensive\n\n<size=45>Chapter 5 - The Invitation</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "殿、殿下！",
+			say = "M-Milord!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "…？",
+			say = "Hmm?",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "一、一起去游泳吧！",
+			say = "L-Let's go swimming together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……？！",
+			say = "What...?!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "其实是……",
+			say = "Actually, umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以…要一起去锻炼一下气魄吗！",
+			say = "So that's why... we should all participate together! No guts, no glory!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "不、不行？难得把殿下送的泳装都拿出来了……",
+			say = "Y-you don't wanna? I even took out the swimsuit that you gave me, Milord...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "！（点头）",
+			say = "*nods* ...!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "可以吗？！诶嘿嘿…那就去{namecode:77}他们开游泳大会的地方看看吧～",
+			say = "Really?! Ehehe... In that case, let's go check on Hyuuga and the others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

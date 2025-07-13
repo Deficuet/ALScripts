@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "同余烬二人组分开后，我们继续向着鲸鱼的方向移动。",
+			say = "The Ashes and we go our separate ways, and we resume our climb toward the whale.",
 			bgm = "story-lightheven-up",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "而有一支力量，比我们更快抵达了鲸鱼的所在地。",
+			say = "However, we soon see that someone has gotten to the whale before both us and the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "警告警告，鲸鱼正在遭受机群围攻！",
+			say = "The whale is being attacked by what appears to be drones!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "看上去，机群正在编织一张网，迫使鲸鱼停下。",
+			say = "It's a sizable swarm as well, assuming the form of a net to catch it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "飞机样式和陆上神国事件中出现的相同……那些是迪贝路的无人机！",
+			say = "Those things look familiar... Oh, I remember! They're Devil's drones!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哇啊啊啊，笨蛋迪贝路！下手轻点！别把我的鲸鱼打坏了！",
+			say = "Nooooo! Devil, you big moron! Be gentle! You're gonna kill my whale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不对不对，在这之间就会先把鲸鱼吓跑的！",
+			say = "No, wait, it's gonna run away before anything else!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "你们看，已经开始了！",
+			say = "See?! It's already getting ready to leave!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "呜呜呜……那个冒牌货又拿到更多装备的控制权了！",
+			say = "...Wait, what?! Great! The faker's gotten her hands on a new weapon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "远方，被机群围攻的鲸鱼身上突然迸发出一阵耀眼的蓝色光芒。",
+			say = "As the whale is surrounded by drones, its body suddenly begins to glow blue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "受到光芒冲击的无人机纷纷从空中跌落，鲸鱼趁机加速冲出了包围网，向着城市中心驶去。",
+			say = "Every drone touched by the light swiftly loses control and falls to the ground. The whale then turns its dorsal fin and starts swimming for the Martyrium's center at speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "随后，在靠近城市圆环的边界时，伴随着一阵平淡的空间波动，鲸鱼再次一跃从空中消失了。",
+			say = "It reaches the limit of the city's ring, touching the boundary. A spatial distortion occurs, and the whale once more slips off into space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "和之前一样隐藏到还未展开的部分中去了么。",
+			say = "Dammit. It got away again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "嘟嘟嘟——呼叫呼叫！",
+			say = "Elizabeth! Pick up, Elizabeth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "伊丽莎白，快扩展辉光之城，把剩余的部分也变出来！",
+			say = "Use your train to expand the Martyrium! Draw the whale toward us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "唉………………………………",
+			say = "Uggghhh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "概念转换——「六号车厢」，准备延续「死亡」，锚定不可见之物，让其在本王面前显形吧！",
+			say = "Concept conversion, car 6. Broaden the horizon of death, materialise the unseeable, and manifest its form!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
-			say = "光芒自一片虚无之中迸发绽放。",
+			say = "A radiant light burst forth from the void once more.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -401,7 +401,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
-			say = "纯白的街道与金色的穹顶相应相织。光芒之中，辉光之城的城区向内拓展，形成了一个漂浮的新圆环。",
+			say = "The Mirror Sea's concept is reinforced, expanding the Martyrium with a second ring furnished with gold and marble and arches just like the first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
-			say = "第二层圆环之上，鲸鱼正在翱翔。",
+			say = "There, in the air above the second ring, the whale appears again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901060,
-			say = "辉光之城……变得更美丽了……",
+			say = "The Martyrium grew even bigger and brighter than before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "嘿嘿，让你藏，让你无处可藏~！",
+			say = "Let's see that whale try to run away NOW!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "真是让本王惊讶……这次居然依然没能将所有隐藏的部分完全展开。",
+			say = "Incredible. We've unfolded so much space, and yet there's still more...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "引发这次冲击的到底是个什么怪物……",
+			say = "One wonders what terrifying creature caused such a massive spatial distortion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不管怎么样，这次一定要抓住鲸鱼！",
+			say = "Doesn't matter! All that matters is that it doesn't get away again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不过……要是鲸鱼继续藏起来的话！",
+			say = "You can't let it happen a third time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王说过了，这次奉陪到底。",
+			say = "We said we'll do it, remember? Believe us, we won't let it flee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "伊丽莎白大好人~！",
+			say = "Thank you! You're nice, Elizabeth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "那助手助手，我们快去抓鲸鱼吧！",
+			say = "Come on, assistant! We've got to get back to catching the whale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "疑问！新出现的城市圆环看上去和我们这一环并不连通，我们要怎么才能过去呢？",
+			say = "How, though? There's no connecting path to the new ring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "总不能像走迷宫一样，寻找连通的云层伺机从空中过去吧……？",
+			say = "We weren't exactly built for jumping across clouds, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "恐怕行不通。本王的每一节车厢都是一个独立的空间，由此而形成的辉光之城圆环，每一环也是独立的空间。",
+			say = "Not that you could, anyway. Just like how each train car is independent of the next, the rings are independent of each other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就像你所见过的那些有特殊出入规则的加密镜面海域一样，这些空间也是如此。",
+			say = "Remember how certain Mirror Seas have rules for entering or exiting them? These work in a similar way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "所以必须要遵循空间本身的概念规则，按照一定的方法才能进入和离开。",
+			say = "In short, the method that worked on the first ring won't work on the second. We must find a new way inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "没事！我刚检查过了，车厢之间依然是连通的！之前的捷径依然可以用！",
+			say = "It's fine! The train cars are connected, so we can go in the same way as we did last time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "所以和来的时候一样，只要跟着我，不用按照空间本身的概念规则行动也没关系哦！",
+			say = "Just come with me and we'll get there! Don't worry about the conceptual rule!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			bgName = "bg_huiguangzhicheng_2",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……从刚才起就一直在提到的，“空间本身的概念规则”是什么？",
+			say = "We should at least know the rules before we start ignoring them. What's the conceptual rule we're dealing with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "这片空间承载的概念是死亡，那当然规则也是死亡啊？",
+			say = "What do you think? Death! Death is the whole shtick of this place, remember?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不过不用管这些啦，快来快来，我带你们钻空子！",
+			say = "Like I said, don't worry about it! Just come along!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "出发去新区域抓鲸鱼咯~！",
+			say = "The whale isn't gonna wait for us! Hurry!",
 			painting = {
 				alpha = 0.3,
 				time = 1

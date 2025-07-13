@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再多摸摸这里……也没关系……",
+			say = "Touch me more, if you want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

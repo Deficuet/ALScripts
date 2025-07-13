@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "level02",
 			dir = 1,
-			say = "大家作战还顺利么？",
+			say = "This is Enterprise. Fleet has arrived safely at the rendezvous point. Good work, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰姐姐~",
+			say = "Cleve! We missed you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟，等你们好久了！",
+			say = "Yo, Denver! Good to see you again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉...如你们所见，虽说都是些杂兵，但是因为这庞大的数量，清理起来还需要不少时间",
+			say = "As you probably saw, these Sirens don't fight so good, but they do have numbers on their side. Clearing all of 'em out is gonna take some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在是要出发去迎接指挥官了么？",
+			say = "So, time to head to the AO, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，司令部临时插入了特殊任务，希望我们两只舰队在合流之后直接前往危险区域边界进行侦察",
+			say = "Yeah, but there's been a change of plans. Higher-ups gave us a special mission; we'll be doing reconnaissance in Siren territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部与指挥官重新安排了护卫舰队，不必担心",
+			say = "They said they already informed the Commander about it, so everything should be in order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，也好！在这里打了这么久乌合之众，终于来点有挑战性任务了",
+			say = "Sounds good to me! Besides, we'd surely grow rusty if we just fight these scrub Sirens all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，补给物资也一起送来了哦，还有...丹佛特意买来的特色小吃？",
+			say = "Cleve! I brought you extra supplies! Oh, and a gift from Denver as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NICE！战斗到现在正好有点肚子饿了，我就不客气了~！",
+			say = "Really? Nice! I was just feeling a bit hungry, actually. Cheers! Om nom nom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有企业加上我们海上四骑士，不论前方有什么样敌人都是轻松有余~",
+			say = "All right, let's do this! With the combined power of Enterprise and the Knights of the Sea, we're unstoppable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,8 +188,8 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			dir = 1,
-			actorName = "哥伦比亚&丹佛&蒙彼利埃",
-			say = "噢--！！",
+			actorName = "Everyone",
+			say = "Hooyah!",
 			actorPosition = {
 				x = -500,
 				y = 0

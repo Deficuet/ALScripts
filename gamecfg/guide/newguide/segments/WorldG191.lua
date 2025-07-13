@@ -8,7 +8,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "刚刚解锁了新的功能，返回主界面查看一下吧",
+				text = "New function has been unlocked, return to Main Screen to check it out.",
 				mode = 2,
 				posY = -160,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·META作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
+				text = "You can now play META Showdown, a mode where you fight META ships together with other commanders!",
 				mode = 2,
 				posY = -279.2,
 				char = "1",
@@ -81,7 +81,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
-				text = "选择本期信标",
+				text = "Choose current META Showdown",
 				mode = 2,
 				posY = -375.9,
 				char = "1",
@@ -105,7 +105,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·META作战将会周期性开启，这里显示的是当前信标·META作战的持续时间",
+				text = "META Showdown is not always open! This run of it will be available for a limited time, shown here!",
 				mode = 2,
 				posY = 294,
 				char = "1",
@@ -118,7 +118,7 @@ return {
 		},
 		{
 			style = {
-				text = "时间结束后未解析的信标将会消失，也无法在大型作战中继续获得新的信标数据",
+				text = "Be aware that once this run of META Showdown ends, any META Coordinates you used will not be refunded, and you won’t be able to gain new Coordinates in Operation Siren either.",
 				mode = 2,
 				posY = 1.5,
 				char = "1",
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击情报解析按钮，以解析获取的信标数据",
+				text = "That aside, let’s get to it! Tap the button to locate the META ship!",
 				mode = 2,
 				posY = -284,
 				char = "1",

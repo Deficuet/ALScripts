@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			bgm = "theme-vichy-church",
 			effects = {
 				{
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "………………",
+			say = "I was just in the Colosseum, but before I knew it, the world around me had changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "…………？",
+			say = "\"Where am I...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "这是梦……还是说……",
+			say = "Is this a dream... or a projection of my consciousness?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,14 +86,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "已经是梦醒之后呢……",
+			say = "It almost reminds me... of the Reality Lens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "仔细观察——",
+					content = "That black sun...",
 					flag = 1
 				}
 			}
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "经过一番仔细观察，眼前的黑日不论如何都不像是寻常事物。",
+			say = "Judging by the black sun, this at least didn't seem to be the real world I knew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "不过与此前在噩梦之中所见之物不同，这轮黑日似乎并没有任何“威胁”。",
+			say = "This is all too realistic for a dream, but so was the Colosseum from before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "燃烧的火焰没有温度，也没有发出任何奇怪的声音。",
+			say = "Though, if nothing else, it at least doesn't look threatening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,14 +140,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "它只是冷冰冰地高悬着，仿佛对周围的一切全不在乎。",
+			say = "I don't feel any heat from the black sun. It's simply just... there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "凝视——",
+					content = "(Take a closer look.)",
 					flag = 1
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "目不转睛地凝视着远方的黑日。",
+			say = "I stare deeply into the black sun's depths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,14 +170,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "在黑日的光辉偶然黯淡下来的瞬间，似乎看到了令人不可思议的景象。",
+			say = "It takes a while for my eyes to adjust and focus, but eventually... something starts to come into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "机械太阳？！",
+					content = "Is it... some kind of machine?",
 					flag = 1
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑日的内部……仿佛隐藏着某个巨大的机械装置。",
+			say = "I can't see clearly, but is it possible that there's some sort of massive machine inside the black sun?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "那机械似乎并不完全存在于物质的世界，如同潜藏在水面下的冰山，只露出了小小一角。",
+			say = "What I see is only a small part of it, like the tip of an iceberg, concealing something so massive that it doesn't seem to be able to fit within this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "在意识到这件事的瞬间，感受到了一股刺骨又压抑的寒冷。",
+			say = "The realization sends goosebumps down my body, a sickening electric sensation creeping through my body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "仿佛来到了千米之下的深海……",
+			say = "Pressure. Darkness.",
 			bgm = "story-clemenceau-judgement",
 			effects = {
 				{
@@ -260,14 +260,14 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "又仿佛来到了一个许久之前的时代……",
+			say = "As if I'm at the bottom of an ocean... in a bygone era I don't belong to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "窒息感——",
+					content = "It feels... so hard to breathe...",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "与此前黑日展现出的柔和不同，眼前的世界充斥着了令人绝望的窒息感。",
+			say = "This place is completely different from the silent, almost serene roiling of the black sun in the sky...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "仿佛……要……窒息……了…………",
+			say = "At this rate... I'm going to suffocate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在意识消散前的最后一个瞬间。",
+			say = "Just as I feel my consciousness about to slip away from me...",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "…………耳边依稀听到了，风铃的声音？",
+			say = "Am I hearing... windchimes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

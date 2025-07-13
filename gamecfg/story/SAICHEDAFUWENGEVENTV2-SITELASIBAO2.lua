@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_1",
-			actorName = "斯特拉斯堡",
+			actorName = "Strasbourg",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "您喜欢这个么？"
+			say = "Do you like this?"
 		}
 	}
 }

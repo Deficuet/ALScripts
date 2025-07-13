@@ -22,7 +22,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "点击一片地图外区域，可以进入作战总览界面。",
+				text = "Tap an area outside the map boundary to go to the Operation Overview.",
 				mode = 2,
 				posY = -160,
 				char = "1",
@@ -65,7 +65,7 @@ return {
 				"ShowClickArea2"
 			},
 			style = {
-				text = "在作战总览中，点击地图内亮起的海域。",
+				text = "Next, select the zone you wish to travel to, then tap Enter Zone to go to it.",
 				mode = 2,
 				posY = -300,
 				char = "1",
@@ -111,7 +111,7 @@ return {
 				"intraduce"
 			},
 			style = {
-				text = "点击进入海域，即可完成区域移动。红色光柱为主线任务海域，不断压制普通海域，向着主线任务进发吧！",
+				text = "The zones highlighted in red advance the story. Make your way to the target zone and seize control over minor zones along the way.",
 				mode = 2,
 				posY = 0,
 				char = "1",
@@ -122,7 +122,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请点击此处返回作战海域中。",
+				text = "Tap here to return to current sector",
 				mode = 2,
 				posY = 245.23,
 				char = "1",

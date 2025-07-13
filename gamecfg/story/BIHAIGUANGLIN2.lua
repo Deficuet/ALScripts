@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "真是个不输给{namecode:84}大人家的豪华住所…！{namecode:182}大人就住在这里没错吧？！",
+			say = "My, Lady Shinano's estate is every bit as extravagant as you'd expect from someone of her standing! But I wonder... Is this really the right address?",
 			bgm = "cw-story",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错没错，你这一路上已经确认了五遍了。",
+			say = "Yes, it is. I'm pretty sure this is the fifth time you've asked...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是不信你情报的意思哦，单纯是我有些太兴奋了嘛！",
+			say = "Well, I'm just so excited to be here that I want to make doubly, triply, and quintuply sure! It's not that I doubt your eye, not at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟要拜访的是{namecode:182}大人，还是和我同样的航空母舰！真是令人迫不及待啊~！",
+			say = "And I mean, how couldn't I be? I'm going to visit the one and only Lady Shinano, the shining example of aircraft carriers that we all strive towards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个说辞也是第五……唉。",
+			say = "Understandable, but you don't have to repeat yourself five times...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下，我觉得就算同样是航空母舰，你与{namecode:182}大人之间也不一定有很多相似之处哦。",
+			say = "If I may interject... Even as fellow fully-fledged aircraft carriers, I do believe you and Lady Shinano differ in significant ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这是什么意思，{namecode:18}？！你是指我配不上航空母舰之名么？还是觉得我更适合去做运输舰的工作？！",
+			say = "What are you getting at, huh, Shimakaze? Are you implying I'm no good as an aircraft carrier and should become a cargo ship instead, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎！{namecode:208}阁下你误会了！{namecode:18}的意思是{namecode:208}阁下拥有自己的作为航空母舰的特色，不需要跟其他人比较啦！",
+			say = "Nothing of the sort! All I wish to say is you and her both have your strengths and weaknesses! Likening the two of you is like comparing apples to oranges!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼~早说清楚就好嘛。",
+			say = "Hmm... When you put it that way, you've got a point!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为{namecode:18}很有眼光的奖励，第一个前往{namecode:182}大人的宅邸的殊荣就让给你了，快去通报吧。",
+			say = "Tell you what, you can have the honor of being the first to greet Lady Shinano. You're the fastest here, so be quick about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "哎？！真的可以么？！{namecode:18}，向着{namecode:182}大人的宅邸全速出发！",
+			say = "M-me?! Really? Well, if you're sure... I'll be as quick as possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论看多少次都想说，那孩子的行动速度真的好快啊……",
+			say = "Whoa... And just like that, she's off! She's really as fast as they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tiancheng7",
 			dir = 1,
-			say = "十分钟后——",
+			say = "A short while later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -301,7 +301,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好慢……{namecode:18}怎么还没回来，不就是去敲门打个招呼而已么。",
+			say = "What's taking Shimakaze so long? She was just supposed to tell Lady Shinano we're coming to visit her estate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:208}，我们还是直接上门吧。",
+			say = "Yes, it's strange. In hindsight, maybe we should've gone with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			say = "重樱本岛·{namecode:182}居城",
+			say = "Sakura Empire Mainland - Shinano's Estate",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-pacific",
@@ -378,7 +378,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎各位的到来，请不用客气，随便坐吧。",
+			say = "Welcome, dear visitors, to Lady Shinano's residence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人的居城……感觉好冷清啊。",
+			say = "Huh. I thought there'd be more people here. Where is everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许是{namecode:50}和{namecode:179}她们都外出执行任务的原因……？",
+			say = "As it so happens, Noshiro, Ryuuhou, and a few others are out on a mission today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过平时这里也没什么人出入就是了。{namecode:182}大人既然在静养，冷清一些也好。",
+			say = "Ordinarily, nobody may leave or enter the residence while Lady Shinano is sleeping. Today is an exception.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "临行前{namecode:84}大人也托我们转达她的问候，希望{namecode:182}大人能够早日康复。",
+			say = "I see. Do give Lady Shinano my apologies for asking her to go out on such a sudden excursion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们会在本次任务中全心全意随侍左右，绝对会保护好{namecode:182}大人的安全的。",
+			say = "Oh, and please let her know that we'll do our utmost to ensure her safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就拜托诸位了，{namecode:182}大人也很期待这次行动。",
+			say = "Of course. Lady Shinano herself understands the grave importance of this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正式开始时间是在两日后对吧？",
+			say = "Are you able to wait another two days until we set off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，不过我们今天就会驻扎在这里，直至跟随{namecode:182}大人启程。",
+			say = "Sure. Would it be possible for us to stay here until then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题。之后会有驱逐舰的孩子为各位介绍居城的结构，请把这里当成自己家就好。",
+			say = "Absolutely. An attendant will show you to your rooms soon. For now, have a seat and get some well-earned rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问、请问我们什么时候才能见到{namecode:182}大人？！",
+			say = "Hey, one question! When are we gonna get to meet Lady Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:208}，太心急了……非常抱歉。",
+			say = "Katsuragi! Manners, for goodness' sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，不用这么拘束，{namecode:182}大人并非十分严厉的人，你们见到之后就明白了。",
+			say = "It's all right. Lady Shinano is quite lax when it comes to etiquette. If you wish to see her as soon as possible, I will let her know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过现在是{namecode:182}大人的休息时间。正式会面时间定在傍晚时分，{namecode:182}大人会亲自设下宴会招待各位的。",
+			say = "At the moment, though, she's out on a stroll. The soonest you may meet is after the reception party, I'm afraid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "噢噢噢噢！真是太好了！",
+			say = "Ah, I see! That'll do just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对……差点给忘了。{namecode:175}，在我们来之前你有见到一个来敲门的小个子么？",
+			say = "Actually, one more question! Have you seen a speedy shortie around these parts? She's supposed to have arrived by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有印象，你们还有其他同伴么？",
+			say = "No...? You're our first visitors today. Why? Is she a friend of yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是……原本她应该先我们一步来这里打招呼，看来大概是迷路了吧。",
+			say = "Yes. She went off ahead of us to inform you we're arriving. But, if she hasn't shown up, that can only mean she's gotten lost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人的居城比较复杂，外人进入的话确实可能迷路……没问题，我会安排人手搜寻的。",
+			say = "I understand. Lady Shinano's estate can be perplexing to navigate, after all. I'll put together a modest search party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢，给你添麻烦了。",
+			say = "Thanks. Sorry for inconveniencing you just as we got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原本只是看到美丽的飞鸟，不知不觉跟随了一阵……",
+			say = "Here I was, on my way to Lady Shinano's residence...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "等回过神来，凭借记忆原路返回……结果却越绕越远，甚至完全迷路了！",
+			say = "But then I got distracted by a beautiful bird which flew past me. It led me off course, and now I have no idea where I am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "怎么会发生这种事…这是何等的失态啊{namecode:18}！",
+			say = "It's quite the embarrassing situation... I wonder how future me is going to explain herself to Katsuragi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "呜……被困在这里不知道何时才会被人发现，看来只能高声呼救了。",
+			say = "Present me, however, needs to focus on getting back on the right path. Maybe there's someone around who can help? Let's find out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问————有人么————附近有没有人呀！",
+			say = "HELLOOOOO? ANYONE HEEEEEEERE?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,8 +849,8 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "咳……",
+			actorName = "???",
+			say = "...Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊！在以为万事休矣的时候遇到同伴真是太好了！",
+			say = "Oh, thank gosh! There IS someone here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,8 +894,8 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "汝在灌木丛中做什么？",
+			actorName = "???",
+			say = "A person...? What do you do amongst the bushes...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "实不相瞒，我受到{namecode:84}大人的委派与{namecode:62}阁下一起前来拜访{namecode:182}大人。",
+			say = "Well, you see, I and my companions are here to see Lady Shinano at her estate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "可回过神来已经在庞大的宅院中迷路了……现在陷入绝境中……",
+			say = "But, as you might've surmised, I'm a little lost at the moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,8 +947,8 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "汝不认识{namecode:182}大人么？",
+			actorName = "???",
+			say = "You've never... met her before...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "说来惭愧，我一次都没有见过……不过你想啊，{namecode:83}级的大人本来也不是想见就能见到的。",
+			say = "Lady Shinano? No, but I'm thrilled to do so soon! I've heard only a select few have seen her in person!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "尤其是之前一直在离岛上修养的{namecode:182}大人……没想到突然就有一同出访的任务了，简直像做梦一样~",
+			say = "I'd go so far as to say it's an honor of the highest order to get to serve as her bodyguard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,8 +1000,8 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "梦啊……汝应该是，{namecode:18}？",
+			actorName = "???",
+			say = "Your name... is Shimakaze, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "没错没错！我就是独一无二的{namecode:18}型驱逐舰{namecode:18}~！",
+			say = "It sure is! The one and only of my class of destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,8 +1045,8 @@ return {
 			bgName = "bg_story_tiancheng7",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "汝和{namecode:175}好像关系不错吧？",
+			actorName = "???",
+			say = "Are you friends... with Suruga...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！我和{namecode:175}阁下一起行动过几次！对于最开始没什么战斗经验的我，{namecode:175}阁下很亲切的帮助了我很多事！",
+			say = "Hmm... Hard to say. We're acquainted, at least...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "不过我也给她添了不少麻烦……不知道{namecode:175}阁下是怎么看{namecode:18}的呢……",
+			say = "I think I've been somewhat of an annoyance to her when we've worked together, and I'm actually not sure what she thinks of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "安心，汝等一定能成为好友的。",
+			say = "I've no doubt you'll reconcile, and be close friends one day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1116,7 +1116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "真的么？！啊！只有你知道我的事太不公平了，我还不知道你的名字呢？",
+			say = "Mhm! I hope we do! By the way, Ma'am, would you mind telling me your name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1143,7 +1143,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "妾身的名字啊……",
+			say = "Of course... Though it may surprise you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,7 +1159,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，{namecode:84}大人派来的护卫已经安排妥当，只等之后的晚宴——",
+			say = "Lady Shinano, your escorts have arrived. I advise you to return to your–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,7 +1193,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不会吧，不会吧……{namecode:62}说的走丢的小个子不会就是{namecode:18}吧！这可是{namecode:182}大人休息的后院，竟然迷路到这种地方？！）",
+			say = "(So SHE'S the speedy shortie they mentioned! How'd she get on this job? And more importantly, how the hell did she get into Lady Shinano's back garden?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1214,7 +1214,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你在这里做什么？",
+			say = "What are you doing out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1232,7 +1232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:175}阁下！没想到能在这里见到你！{namecode:18}原本跟随{namecode:62}阁下前来拜访，一不小心走迷路了……",
+			say = "Hi, Suruga! Well, I and the other escorts are on our way to meet Lady Shinano at her estate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "你知道{namecode:182}大人在哪里么？{namecode:18}得尽快过去打招呼去才行，同伴还等着我呢！",
+			say = "Huh. I thought there'd be more people here. Where is everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1278,7 +1278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "等等，你刚才过来的时候喊了{namecode:182}大人的名字……？",
+			say = "Wait, something just dawned on me... Didn't you just address this person as \"Lady Shinano\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1306,7 +1306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "唔嗯……？",
+			say = "But then... You are...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1322,7 +1322,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1340,7 +1340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "（晕）………………",
+			say = "Oh god, oh god, ohgodohgod ohh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1366,7 +1366,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "晕过去了。",
+			say = "Hm... 'twould appear she has fainted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1383,7 +1383,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（晕过去了？！居然在{namecode:182}大人面前晕过去了？！为什么我要遭遇到这样的场面啊……）",
+			say = "(She blacked out?! Just from that realization?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1410,7 +1410,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人，发生如此的失态真的非常抱歉……",
+			say = "Y-yes, she has... Err, out of sheer excitement to meet you, Lady Shinano! Anyway, I'll carry her! Let us head back to the estate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1428,7 +1428,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "无妨。有如此可爱的孩子相伴，感觉这趟旅途会有些有趣的展开了~",
+			say = "Very well... As it stands, I'm already quite... sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

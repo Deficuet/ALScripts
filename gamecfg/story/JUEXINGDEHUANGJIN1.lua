@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "昏暗的房间中，壁炉中的柴火噼啪作响。",
+			say = "A fireplace burned in the corner of a dimly lit house, letting out quiet crackles now and then.",
 			bgm = "theme-seaandsun-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "房间的主人静静依靠在躺椅上。",
+			say = "The owner of the house sat in a rocking chair, gently rocking back and forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "她凝视着消散的晚霞，抚摸着怀中的猫咪。",
+			say = "There was a cat in her lap. She petted it while looking out the window, watching the setting sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "思绪不禁飘向了远方。",
+			say = "For some reason, seeing it brings back an old memory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "回到了那个遥远的过去。",
+			say = "A memory from the distant past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "回到了那个改变自己命运的瞬间。",
+			say = "The moment that she changed her own fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "回到了那个最大最恶事件发生的那一天——",
+			say = "And the day that that terrible, unspeakable tragedy happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			},
 			sequence = {
 				{
-					"遥远的过去——",
+					"Long, long ago...",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "记得那也是一个彩霞漫天的休息日。",
+			say = "It was a weekend, and the setting sun painted the sky orange. It was an ordinary day like any other.",
 			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "毫无征兆的，铁爪恶魔出现了。",
+			say = "Or rather, it was, until the Iron Claw Demon appeared without any warning whatsoever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "恶魔一共只现身了五分钟，却在这期间横扫了整座岛屿。",
+			say = "Although she was only on the island for five minutes, the damage she caused to it was tremendous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "没有任何一家甜品店幸免于难，就连一百二十多个仓库中的甜品储备也被席卷一空。",
+			say = "She didn't stop at destroying the candy store, no – she even ransacked the depot of all 120 candies stored there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎……怎么会这样purin……",
+			say = "This can't be, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本大人还是晚了一步么purin……",
+			say = "I was a moment too late, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到底是什么人，犯下了如此令人发指的罪行purin！",
+			say = "Who did this, purin?! Who committed this heinous crime, purin?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,8 +237,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "做出这一切的是铁爪恶魔……",
+			actorName = "\"Little\" Saratoga",
+			say = "It was the Iron Claw Demon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "过去，她还有另一个名字，一个更被人广为熟知的名字。",
+			actorName = "\"Little\" Saratoga",
+			say = "She used to go by a different name that everyone knew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,8 +263,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "不过如今，我们只会称她为“铁爪恶魔”。",
+			actorName = "\"Little\" Saratoga",
+			say = "But now, people simply call her the Iron Claw Demon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个铁爪恶魔，到底是什么来头purin！",
+			say = "Why do people call her that, purin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,8 +293,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "曾经的她，是一名破袭战的高手。",
+			actorName = "\"Little\" Saratoga",
+			say = "Because she was responsible for so much trade disruption.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "她只需略微出手，就能瘫痪整片海域的甜品运输线。",
+			actorName = "\"Little\" Saratoga",
+			say = "She was unbelievably powerful, able to sink an entire convoy of merchant ships transporting candy with just a single strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,8 +319,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "当年的受害者小柴郡曾表示，她真的好快，连自己也看不清她出手的速度。",
+			actorName = "\"Little\" Saratoga",
+			say = "One of her victims, Little Cheshire, said she was in and out in an instant and couldn't follow her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,8 +332,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "重樱的著名军师{namecode:193:小天城}也曾公开表示过，没有任何阵营能够仅凭一己之力阻止她。",
+			actorName = "\"Little\" Saratoga",
+			say = "Also, the great strategist Amagi-chan said, \"No single faction will be able to stop her.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,8 +345,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "最后，在各大阵营集结了全部舰队，发动了一场规模史无前例的联合作战后。",
+			actorName = "\"Little\" Saratoga",
+			say = "So every last faction banded together and created the biggest combined fleet ever seen in history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,8 +358,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "这才终于将她逼到绝路，迫使她带着抢夺而来的甜品一起沉入了大海。",
+			actorName = "\"Little\" Saratoga",
+			say = "Then they finally managed to corner her, and they sunk her along with all her stolen candy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,8 +371,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "事件也就这样结束了。",
+			actorName = "\"Little\" Saratoga",
+			say = "The big bad was gone, and everyone lived happily ever after...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "——至少当时的我们是这样认为的。",
+			actorName = "\"Little\" Saratoga",
+			say = "Or so they thought!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,8 +397,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "可是没想到……这一战后，她非但没有被消灭，反而因此获得了新的力量。",
+			actorName = "\"Little\" Saratoga",
+			say = "She didn't sink after all. She came back, and with new powers, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,8 +410,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "小加加",
-			say = "……变为了如今在大洋之中神出鬼没的铁爪恶魔。",
+			actorName = "\"Little\" Saratoga",
+			say = "Now she's become the Iron Claw Demon, appearing and vanishing like a ghost, leaving destruction in her wake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,24 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "竟然有如此强大的力量purin……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 100010,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "妹妹们都不在身边purin……",
+			say = "What an unimaginably strong adversary, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仅靠我……",
+			say = "But my sisters aren't here, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +458,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我什么都做不到purin……",
+			say = "And without them...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 100010,
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "There's nothing I can do, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,12 +489,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "黄金（Golden）之神",
+			actorName = "God of Gold",
 			bgm = "login_0401",
 			actor = 202110,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "真的么，你真的什么都做不到么？",
+			say = "Really, now? Nothing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "在金布里陷入绝望之时，一个金色的身影出现在她的眼前。",
+			say = "Just as the Prototype Bulin sank into despair, a golden figure appeared before her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您……您难道是……黄金（Golden）之神purin？！",
+			say = "W-wait... Aren't you the God of Gold, purin?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,9 +551,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "黄金（Golden）之神",
+			actorName = "God of Gold",
 			nameColor = "#FEF15E",
-			say = "没错，我就是黄金（Golden）之神。",
+			say = "I sure am! See how I glitter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,9 +565,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "黄金（Golden）之神",
+			actorName = "God of Gold",
 			nameColor = "#FEF15E",
-			say = "回想起来吧，你所拥有的力量。",
+			say = "Don't lose hope, Bulin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,9 +579,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "黄金（Golden）之神",
+			actorName = "God of Gold",
 			nameColor = "#FEF15E",
-			say = "那是黄金（Golden）的力量。",
+			say = "Remember the power within you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,9 +593,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "黄金（Golden）之神",
+			actorName = "God of Gold",
 			nameColor = "#FEF15E",
-			say = "来自于黄金（Golden）时代，黄金（Golden）家族的力量。",
+			say = "The power you inherited from the Gilded Age! The power of the Golden People!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黄金（Golden）的力量purin……",
+			say = "The power of gold, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本大人明白了purin！",
+			say = "I get it now, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你指的是家里那台黄金（Golden）时代流传下来的黄金（Golden）机甲 ，“试作型超级钻头MKII”purin！",
+			say = "You must be talking about my Super Drill MKII golden mech, purin! That's definitely from the Gilded Age, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为启动密码忘了所以一直在地下室里吃灰purin……",
+			say = "It's been gathering dust in the warehouse ever since I forgot the activation phrase, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Purin！只要找到启动密码，就能打败铁爪恶魔了！",
+			say = "But, I just need to rediscover the phrase, purin! Then I can bring an end to the Iron Claw Demon, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "黄金（Golden）之神微笑着点了点头，消失了。",
+			say = "The God of Gold gave a nod and smiled before fading into thin air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "就这样，金布里踏上了寻找机甲启动密码打倒铁爪恶魔的旅程，在前方等待她的将会是什么呢？",
+			say = "And so, the Prototype Bulin set forth on a journey to find the activation phrase and defeat the demon. Little did she know what was waiting for her over the horizon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

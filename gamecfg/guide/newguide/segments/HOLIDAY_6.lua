@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "已完成所有区域的重建工作，可以从码头运力中获取更多重建币",
+				text = "All areas have been fully rebuilt! Spend your logistics at the pier to receive villa coins.",
 				mode = 2,
 				dir = 1,
 				char = "char",

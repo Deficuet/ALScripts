@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，不是说今天还有工作没做完吗？",
+			say = "Don't you still have work to do, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "现在来找我闲聊……是在偷懒？",
+			say = "Isn't chatting with me like this just a way to slack off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……",
+					content = "......",
 					flag = 1
 				},
 				{
-					content = "（移开视线）",
+					content = "(Look the other way.)",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你的反应已经暴露了哦……",
+			say = "It's so obvious from your reaction...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "把工作内容给我，我来帮你吧。",
+			say = "Let me handle your work. I'll help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

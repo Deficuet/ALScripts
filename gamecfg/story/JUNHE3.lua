@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"从内到外魅力MAX！\n\n<size=45>三　想要低调可不容易</size>",
+					"Hidden Charm\n\n<size=45>3 Not Standing Out is Hard</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·街道",
+			say = "Port - Shoreline path",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "那天之后，{namecode:175}还是继续担任着秘书舰。虽然有时指挥室内还是会陷入之前那样的尴尬局面……",
+			say = "Suruga continued serving as my secretary, even if we had our awkward moments together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "此刻正和{namecode:175}一同前往演习海域的路上，一路上好像擦肩而过了不少人……",
+			say = "We were heading to the exercise area that day, passing by a fair few familiar faces along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "突然想到，现在这个双方彼此之间互不对话只是低着头默默的走着路的状况……",
+			say = "That's when a realization hit me. Neither of us were saying a word to each other, and simply stared at the ground as we walked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "应该算是{namecode:175}讨厌的“显眼”情况吧？虽说也是最近才知道的……",
+			say = "It was in stark contrast to the talkative people we passed by. We stuck out. And if there was one thing I knew about Suruga, it's that she hates sticking out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……指挥官，总，总，总之聊些什么吧！",
+			say = "S-say, um... H-how about we talk about something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "{namecode:175}也有些着急，看来猜中了。",
+			say = "She sounded terribly nervous. It seemed I was right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "顺便也提个话题吧！",
+			say = "Please, you choose the topic. It can be anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "嗯……那么，就问问那件事好了——",
+			say = "That being the case, I decided to ask about her distaste for being in the spotlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么这么讨厌“显眼”呢？",
+					content = "\"Why are you so anxious about sticking out?\"",
 					flag = 1
 				}
 			}
@@ -207,7 +207,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问得真直接……！",
+			say = "Wow, um, talk about getting straight to the point!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好吧，那就趁这个机会告诉你好了。",
+			say = "I suppose, all things considered, you deserve to know. Allow me to explain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "不禁对{namecode:175}会怎样回答产生了好奇——",
+			say = "I was keenly interested to hear her answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我是这样的性格，但也不是没朋友就是了——",
+			say = "It's easy to become socially distant when you're like me, but rest assured, I still have people I consider my friends.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -292,11 +292,11 @@ return {
 			},
 			options = {
 				{
-					content = "那就好，放心了。",
+					content = "\"I'm glad to hear that.\"",
 					flag = 1
 				},
 				{
-					content = "诶，有些意外。",
+					content = "\"That's... surprising.\"",
 					flag = 2
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……看着不像在逗我，那我就继续说了。",
+			say = "...I'm going to take that only the way you intended it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的朋友里，有位总是想惹人注目的人。",
+			say = "Anyway... Among my friends, one of them in particular just loves to be the center of attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "……意思是，如果比那位朋友更显眼的话，会有什么不好的地方？",
+			say = "\"And you think something bad's going to happen if you get more attention than she does? Is that about right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官很敏锐嘛，而且也差不多走到了，很快你就能了解详情了哦。",
+			say = "You're quick on the uptake, aren't you? That's the gist of it all. I'll give you the whole story sometime later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "和{namecode:175}边走边聊，不知不觉已经走到码头附近了。",
+			say = "The next thing I knew, we'd arrived just outside the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "今天她的演习对手好像是……",
+			say = "Suruga was going to participate in today's battle. Looking at the lineup, it seemed her opponent was someone close to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

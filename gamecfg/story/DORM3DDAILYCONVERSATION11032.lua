@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最自豪的事情？",
+			say = "What am I proudest of?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "“无敌的Black Dragon”？",
+			say = "Did you think I'd say \"being the Black Dragon\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不，我迄今为止最自豪的事情，就是有你爱我。",
+			say = "Well, no. My proudest feat is... earning your love, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这么说，你会喜欢的吧~？有没有心潮澎湃的感觉~？",
+			say = "That's what you like to hear, right? Hahaha, did your heart skip a beat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

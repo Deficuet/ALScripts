@@ -10,31 +10,31 @@ pg.skin_page_template = {
 		id = 2,
 		name = "新年和服",
 		res = "xinnianhefu",
-		english_name = "NEW YEAR"
+		english_name = "NEW YEAR KIMONO"
 	},
 	{
 		id = 3,
 		name = "东煌意境",
 		res = "donghuang",
-		english_name = "SPRING "
+		english_name = "Spring Festival "
 	},
 	{
 		id = 4,
 		name = "校园生活",
 		res = "xiaoyuan",
-		english_name = "SCHOOL"
+		english_name = "SCHOOL GIRL"
 	},
 	[6] = {
 		id = 6,
 		name = "夏日泳装",
 		res = "yongzhuang",
-		english_name = "SUMMER "
+		english_name = "SWIMSUITS"
 	},
 	[7] = {
 		id = 7,
 		name = "宴会礼服",
 		res = "yanhui",
-		english_name = "PARTY"
+		english_name = "PARTY DRESS"
 	},
 	[8] = {
 		id = 8,
@@ -46,31 +46,31 @@ pg.skin_page_template = {
 		id = 9,
 		name = "私服",
 		res = "sifu",
-		english_name = "Outdoor Casual"
+		english_name = "CASUAL"
 	},
 	[10] = {
 		id = 10,
 		name = "祭典系列",
 		res = "jidianxilie",
-		english_name = "Festival"
+		english_name = "SUMMER FEST"
 	},
 	[11] = {
 		id = 11,
 		name = "Live",
 		res = "live",
-		english_name = "live"
+		english_name = "Shining Stars "
 	},
 	[12] = {
 		id = 12,
 		name = "特别演习",
 		res = "laoyuyanxi",
-		english_name = "Special Exerciese"
+		english_name = "Special Exercise "
 	},
 	[13] = {
 		id = 13,
 		name = "运动时间",
 		res = "yundongshijian",
-		english_name = "Sport time"
+		english_name = "SPORT TIME"
 	},
 	[14] = {
 		id = 14,
@@ -82,13 +82,13 @@ pg.skin_page_template = {
 		id = 15,
 		name = "医院系列",
 		res = "yiyuanxilie",
-		english_name = "hospital"
+		english_name = "Hospital Series "
 	},
 	[16] = {
 		id = 16,
 		name = "嘉年华",
 		res = "jianianhua",
-		english_name = "Carnival"
+		english_name = "Bunny Girl"
 	},
 	[17] = {
 		id = 17,
@@ -100,7 +100,7 @@ pg.skin_page_template = {
 		id = 18,
 		name = "红月之夜",
 		res = "xixuegui",
-		english_name = "VAMPIRE NIGHT"
+		english_name = "Blood Moon"
 	},
 	[19] = {
 		id = 19,
@@ -124,7 +124,7 @@ pg.skin_page_template = {
 		id = 22,
 		name = "温泉时光",
 		res = "wenquanshiguang",
-		english_name = "Hot Springs "
+		english_name = "Hot Springs"
 	},
 	[23] = {
 		id = 23,

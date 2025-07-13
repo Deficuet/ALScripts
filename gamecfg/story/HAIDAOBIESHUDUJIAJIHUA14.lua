@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
-			say = "来到了室外娱乐区新建的网球场，发现这里正在进行激烈的网球比赛。",
+			say = "I walk over to the newly built outdoor tennis court and find that there's a fierce match going on.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -34,11 +34,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再、再来！我就不信我接不住这球！！",
+			say = "O-one more time! I swear I'll hit the ball this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巴尔的摩",
+			actorName = "Baltimore",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
-			say = "巴尔的摩不语，只是一昧地扣杀，转眼间又拿下一分。",
+			say = "Baltimore says nothing as she smacks the ball with all her might, scoring another point in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这到底是什么球哇？！还带拐弯的！",
+			say = "What the hell was that?! It curved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,37 +82,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
-			bgName = "bg_villaisland_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……换我来接，你先下场恢复下体力吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "马可波罗",
-			bgName = "bg_villaisland_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "用不着！我、我已经看穿她的扣球了！接下来一定能……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看到她的眼睛了吗？那里，只有对分数的执着……你也不想让指挥官看见那绝望的比分差吧？",
+			say = "Let me take a swing at it. Take a breather on the bench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,11 +95,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官？！什么时候来的？！",
+			say = "No, not yet! I've seen through her serves! This next time will be it, I guaran–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +107,36 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Clemenceau",
+			bgName = "bg_villaisland_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Have you looked into her eyes? Those are the eyes of someone whose only focus is the score. You don't want the Commander to see that despair-inducing scoreboard, do you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Marco Polo",
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我……你的机会只在现在！下一轮，我一定会追上来的！",
+			say = "C-Commander?! Since when did...?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Marco Polo",
+			bgName = "bg_villaisland_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Urgh... Be smug while you still can, you two! I WILL turn this around in the next set!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg1",
 			hidePaintObj = true,
-			say = "就在克莱蒙梭上场后，巴尔的摩身旁的布莱默顿开始有意地抢占位置，默契地与克莱蒙梭打着来回。",
+			say = "With Clemenceau now on the court, Bremerton, playing alongside Baltimore, starts actively jostling for position. She and Clemenceau then exchange the ball back and forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（我怎么有点看不懂这比赛了……）",
+			say = "(Something tells me this is no ordinary doubles match.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "一轮结束，四人都坐到了我旁边休息。",
+			say = "The set ends, and all four players take a seat beside me to catch their breaths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你们打的不是普通的双打比赛吧？",
+			say = "This isn't a regular old doubles match, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "呵呵，没错，什么都逃不过指挥官的观察呢。",
+			say = "Heehee. Indeed it isn't. How perceptive of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "在这次的新规则里，获胜者只会有一人——也就是打出得分球最多的人。",
+			say = "There can be only one winner in this match – whoever scores the most points.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "一边要注意对方的进攻，一边又要注意友方的得分。表面处在2v2的对抗赛，实际却没有友军。这样才更有意思吧？",
+			say = "You need to be vigilant of your opponent's offense as well as keep track of your partner's score. Despite there being teams, there are no allies in this game. Fascinating, wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来如此……还真是新奇的网球规则。",
+			say = "I see. That's a new one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103241,
-			say = "这也意味着，即使我和巴尔的摩在一个队里，也有机会赢过她！",
+			say = "So yeah, even though Balty's on my team, I still have a chance to beat her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "说起来，既然指挥官来观赛了……",
+			say = "Well, Commander, now that you're here to spectate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "那这场四人对抗赛的获胜者，能不能向指挥官讨取一个不过分的奖励呢？",
+			say = "Could I perhaps ask you to give a small reward to whoever wins this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个不过分的奖励，怕是你们之前就已经设计好的吧？",
+			say = "You already started with the assumption there'd be a \"small reward,\" didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "指挥官可是最重要的决定性因素呢，呵呵~",
+			say = "Heehee. I'd argue you're the most important factor in all of this, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,8 +336,8 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "马可波罗",
-			say = "休息时间差不多了吧！快进行下一轮吧，看我怎么反超你们！",
+			actorName = "Marco Polo",
+			say = "Alright, interval over! Time to start the next set! You shall all be witnesses to my magnificent comeback!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "随着第二轮比赛的进行，逐渐熟练的马可·波罗也找到了节奏，抓住三人体力不济的机会追击了几分。",
+			say = "As the second set went on, Marco Polo gradually got into a rhythm, taking advantage of the other three's waning energy to score several points.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "而巴尔的摩则一直保持着第一轮那几分的领先直到比赛结束，其他三人的分数始终未能超过她。",
+			say = "In spite of this, Baltimore maintained her score lead from the first set. The match ended with no one surpassing her in points.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊，真是一场酣畅淋漓的对决啊。",
+			say = "Whew. Now that was a match alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103241,
-			say = "呼，好想赢一次巴尔的摩啊~",
+			say = "*pant*... *pant*... I'll beat ya one of these days, Balty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "失算了，敌人的技巧远超我的预期……呵呵，果然，一个小的判断错误就会导致满盘皆输啊……",
+			say = "Our opponents were far more skilled than I'd anticipated... Heh, a small error in judgment can indeed lead to the collapse of all your plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "巴尔的摩的扣球实在太难接了，即使下半场把分数追回来了一些，但还是不够啊……",
+			say = "Baltimore's serves were impossible to get back. I did make up some ground later on, but not nearly enough to close the gap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "与另外三人略带遗憾的表情不同，以实力夺取冠军的巴尔的摩……她的视线则始终没有离开我。",
+			say = "In contrast to the frustrated gazes of the defeated, Baltimore's victorious eyes are all but glued to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "获胜者是我。",
+			say = "Seems I won.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,18 +467,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "指挥官，我可以向你提出我想要的奖励了吧？",
+			say = "Reckon I could ask for that \"small reward\" now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "点头",
+					content = "(Nod.)",
 					flag = 1
 				},
 				{
-					content = "沉默，但已经猜到了结局",
+					content = "(Stay silent with the knowledge of what comes next.)",
 					flag = 2
 				}
 			}
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "呼……比赛结束得太快了，现在的手感依旧很火热啊。",
+			say = "Whew. This match went by so fast, I was just hitting my stride.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103162,
-			say = "指挥官，你来陪我再打一场吧！",
+			say = "Come play another game with me, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然还是会变成这样么……",
+			say = "I knew this would happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "之后和巴尔的摩大战了三百回合！！！……当然是不可能的。",
+			say = "And so, a relentless match spanning hundreds of rallies unfolded between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "不过，应该足够让巴尔的摩感到满足了……吧？",
+			say = "Okay, obviously not hundreds, but enough to satisfy her... I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

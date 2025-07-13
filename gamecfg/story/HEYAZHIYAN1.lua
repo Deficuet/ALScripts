@@ -33,7 +33,7 @@ return {
 			},
 			sequence = {
 				{
-					"合雅之宴\n\n<size=45>一　体验茶室</size>",
+					"The Graceful Banquet\n\n<size=45>1 The Teahouse</size>",
 					1
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			actor = 502071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "“轻涛松下烹溪月，含露梅边煮岭云”。",
+			say = "\"The moon shines on streams among swaying pines – rising mist flanks the dew-rich apricot trees.\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "嗯~好茶好茶~",
+			say = "Mmh... This tea is so fragrant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "唔......“东煌茶会”的举办地点就是这里了吧？",
+			say = "Is this the place? It matches the description...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦，门是开着的？",
+			say = "Oh, seems someone left the door open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502081,
-			say = "东煌茶室欢迎您的到来~请问是一位吗？",
+			say = "Welcome to the Dragon Empery Teahouse! Are you visiting alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "啊，是的。",
+			say = "Yep, it's just me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502081,
-			say = "好的，一位里面请！",
+			say = "Right this way then, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "在海圻的指引下，豪在茶室内的一张红木椅子上坐下。",
+			say = "Howe entered the old-fashioned teahouse and Hai Chi showed her to a seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "欢迎，豪小姐。",
+			say = "Welcome, Howe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "打扰了海天小姐。",
+			say = "Thanks. I hope you don't mind having me here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "今日原本就是待客之日，何来打扰一说？海圻，上茶。",
+			say = "Not at all, we're honored to. Hai Chi, would you get her some tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502081,
-			say = "豪小姐请用茶~",
+			say = "Sure! Here you go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "这个是我自己做的饼干，不嫌弃的话就分给大家吧。",
+			say = "Thanks. I've brought homemade cookies. Would you like some?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "明明您是客人，真是太感谢了。",
+			say = "My, Howe, you're too generous for a guest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "大家都是同伴，礼尚往来嘛。",
+			say = "Don't be shy. We're all friends here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502081,
-			say = "姐姐你看这个饼干是福字的造型欸！",
+			say = "Look, sis! This cookie's shape spells out \"good fortune!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502081,
-			say = "还有这个……居然是灯笼！豪小姐好厉害啊！",
+			say = "And this one looks like a garden lantern! These are so cool, Howe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "毕竟是来参加东煌的活动，于是稍微尝试做了些东煌风格的形状，你们喜欢就好了。",
+			say = "Yes, I went for some Dragon Empery design elements, since I'm visiting you all today. I hope you like them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么什么？有好吃的饼干？我和威严也要吃！",
+			say = "Hey, did someone say cookies? Save some for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "话音刚落，抚顺拉着威严一路小跑进入室内。",
+			say = "Fu Shun entered the teahouse with Grozny in tow, the scent of cookies seemingly having attracted them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇！好棒的饼干，这样的造型都有些舍不得吃了呢，对吧威严？",
+			say = "Wow! These are almost too pretty to eat... I mean, right, Grozny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，想吃。",
+			say = "Yeah. But I still wanna eat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205093,
-			say = "大家不用客气，为了今晚的宴会，我还准备了很多呢~",
+			say = "Then by all means, eat. I've made lots in preparation for this evening's banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，威严说她也想品尝一下我们东煌的茶，所以我就把她带过来了——我也不是只会添乱吧？",
+			say = "Hehehe. So, the reason I brought Grozny along is she said she wants to try Dragon Empery tea. I'm not stepping on anyone's toes here, am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "做得很好，抚顺。海圻，给威严上茶。",
+			say = "Not at all. In fact, that's very kind of you. Hai Chi, please get some tea for Grozny as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茶壶是这个吗？我自己来就好了。",
+			say = "Is this a teapot? Then I can pour for myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "威严拿出了自己平时用的水壶，接着端起茶壶将茶水注入其中，随后仰头一饮而尽——",
+			say = "Grozny poured the contents of the teapot into her trusty canteen, then chugged the hot tea all in one go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "嗯？威严……这样喝都不会觉得烫吗？",
+			say = "Goodness gracious...! Didn't that burn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701024,
-			say = "这种程度的话，小意思。",
+			say = "...*burp*. Nope, I'm good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样是不行的啦，威严！喝茶不是这样子喝的！要慢慢喝才对！而且也不能用水壶！",
+			say = "You can't do that, Grozny! You're supposed to take your time with tea, you know? Also, you should be drinking from a teacup instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "抚顺拿走了威严的酒壶，在她面前放了一个精致的小茶杯。",
+			say = "Fu Shun snatched the canteen from Grozny and put a teacup on the table in its place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 701024,
-			say = "好小，不过瘾。",
+			say = "That's tiny. What's the point if I can't chug?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样才能品出味道！我来教你，鞍山姐姐说过，要这样......",
+			say = "It's the prime experience! Watch, I'll show you how to drink it like An Shan taught me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			actor = 502071,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵~果然开设这个茶室还是非常有必要的呢~",
+			say = "Heehee, how lovely. Hosting a tea party was the right decision indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

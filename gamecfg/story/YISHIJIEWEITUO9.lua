@@ -9,7 +9,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "接到王国军的委托来枯萎森林侦察地形。",
+			say = "A request from the Royal Army brought you to the Withered Woods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "绘制了枯萎森林的部分地形，希望能早日把这里的地形图绘制完毕！",
+			say = "You mapped out a part of the forest. Here's hoping the full map will be done soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "可以获取委托奖励了！",
+			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

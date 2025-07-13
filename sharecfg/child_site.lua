@@ -2,12 +2,12 @@ pg = pg or {}
 pg.child_site = {
 	[110] = {
 		icon = "child_icon_food",
-		name = "美食坊",
+		name = "Gastronomy District",
 		type = 1,
 		id = 110,
 		name_pic = "child_icon_food_name",
 		pic = "site_1",
-		desc = "欢迎来到美食坊，这里汇聚各种了美味，让你的味蕾尽情徜徉。",
+		desc = "Welcome to the gastronomy district – where there's food to suit every taste and drinks to wet every whistle!",
 		ability = {},
 		coordinate = {
 			-201.6,
@@ -40,12 +40,12 @@ pg.child_site = {
 	},
 	[111] = {
 		icon = "",
-		name = "好味餐厅",
+		name = "Diner",
 		type = 2,
 		id = 111,
 		name_pic = "",
 		pic = "site_1",
-		desc = "每一种口味都是对食材的独特表达，愿为你的味蕾献上美好。",
+		desc = "Our every flavor is a culinary expression. Spoil your tastebuds.",
 		ability = {},
 		coordinate = {
 			0,
@@ -73,12 +73,12 @@ pg.child_site = {
 	},
 	[120] = {
 		icon = "child_icon_manor",
-		name = "度假庄园",
+		name = "Holiday Resort",
 		type = 1,
 		id = 120,
 		name_pic = "child_icon_manor_name",
 		pic = "site_2",
-		desc = "无需繁琐的前期准备，快捷又便利的一站式服务度假庄园。",
+		desc = "No prep? No problem. A quick and easy stop to rest, relax, and recuperate.",
 		ability = {},
 		coordinate = {
 			554.4,
@@ -108,12 +108,12 @@ pg.child_site = {
 	},
 	[121] = {
 		icon = "",
-		name = "静谧之峰",
+		name = "Tranquil Summit",
 		type = 2,
 		id = 121,
 		name_pic = "",
 		pic = "site_2",
-		desc = "寻找内心宁静的绝佳去处，据说山上还有一座非常灵验的神庙哦。",
+		desc = "A sublime place to wind down.",
 		ability = {},
 		coordinate = {
 			0,
@@ -144,12 +144,12 @@ pg.child_site = {
 	},
 	[130] = {
 		icon = "child_icon_shopping",
-		name = "商业街",
+		name = "Commercial Area",
 		type = 1,
 		id = 130,
 		name_pic = "child_icon_shopping_name",
 		pic = "site_3",
-		desc = "无论是购物、娱乐还是打工，这里一定能满足你的全部需求。",
+		desc = "Shopping, entertainment, work – you name it, we have it!",
 		ability = {},
 		coordinate = {
 			38.4,
@@ -185,12 +185,12 @@ pg.child_site = {
 	},
 	[131] = {
 		icon = "",
-		name = "影像工作室",
+		name = "Photo Studio",
 		type = 2,
 		id = 131,
 		name_pic = "",
 		pic = "site_3",
-		desc = "捕捉瞬间的美，让每一帧都成为永恒的记忆。",
+		desc = "Capture and immortalize those beautiful moments in time.",
 		ability = {},
 		coordinate = {
 			0,
@@ -293,12 +293,12 @@ pg.child_site = {
 	},
 	[140] = {
 		icon = "child_icon_park",
-		name = "海滨公园",
+		name = "Seaside Park",
 		type = 1,
 		id = 140,
 		name_pic = "child_icon_park_name",
 		pic = "site_4",
-		desc = "沙滩与海浪交织，是放松身心的理想港湾。",
+		desc = "A dreamy place to lie back and relax next to the beach and the waves.",
 		ability = {},
 		coordinate = {
 			-627.5,
@@ -328,12 +328,12 @@ pg.child_site = {
 	},
 	[141] = {
 		icon = "",
-		name = "星光舞台",
+		name = "Stellar Stage",
 		type = 2,
 		id = 141,
 		name_pic = "",
 		pic = "site_4",
-		desc = "每一场演出都是一次沉浸之旅。",
+		desc = "Every performance is a chance to immerse yourself in another world.",
 		ability = {},
 		coordinate = {
 			0,
@@ -436,12 +436,12 @@ pg.child_site = {
 	},
 	[150] = {
 		icon = "child_icon_amusement",
-		name = "游乐场",
+		name = "Amusement Park",
 		type = 1,
 		id = 150,
 		name_pic = "child_icon_amusement_name",
 		pic = "site_5",
-		desc = "烦恼留给我，欢乐带回家！",
+		desc = "Adios, troubles! Fun has come to town!",
 		ability = {},
 		coordinate = {
 			262.9,
@@ -467,12 +467,12 @@ pg.child_site = {
 	},
 	[160] = {
 		icon = "child_icon_gym",
-		name = "体育馆",
+		name = "Sports Ground",
 		type = 1,
 		id = 160,
 		name_pic = "child_icon_gym_name",
 		pic = "site_6",
-		desc = "挑战极限，释放激情。",
+		desc = "Push your limits and let your ardor flow.",
 		ability = {},
 		coordinate = {
 			107.7,
@@ -507,12 +507,12 @@ pg.child_site = {
 	},
 	[170] = {
 		icon = "child_icon_school",
-		name = "学院",
+		name = "Academy",
 		type = 1,
 		id = 170,
 		name_pic = "child_icon_school_name",
 		pic = "site_7",
-		desc = "学院，直升式学院，再也不用为升学所烦恼。",
+		desc = "A school that accepts all entrants. No need to worry about entrance exams.",
 		ability = {},
 		coordinate = {
 			-282,

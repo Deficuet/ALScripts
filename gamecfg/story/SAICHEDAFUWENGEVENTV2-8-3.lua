@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "方格旗飘扬，胜利就在前方，冲啊！【前进三格】"
+			say = "The checkered flags flutter and victory is right at your fingertips. Go! Advance three more tiles."
 		}
 	}
 }

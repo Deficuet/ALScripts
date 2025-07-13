@@ -33,7 +33,7 @@ return {
 				end
 			},
 			style = {
-				text = "现在去活动关卡看看新解锁的采集地关卡吧",
+				text = "These stages can be accessed through the stage select screen.",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -57,7 +57,7 @@ return {
 				}
 			},
 			style = {
-				text = "现在已经解锁了采集地关卡",
+				text = "You've unlocked gathering site stages!",
 				mode = 1,
 				posY = -211.8,
 				dir = -1,
@@ -71,7 +71,7 @@ return {
 				3
 			},
 			style = {
-				text = "通关采集地关卡可以获得各种属性的素材",
+				text = "Each stage offers a different set of materials of a particular elemental affinity.",
 				mode = 1,
 				posY = -74.3,
 				dir = -1,
@@ -112,7 +112,7 @@ return {
 				}
 			},
 			style = {
-				text = "现在让我们回到主界面",
+				text = "Head back to the main screen.",
 				mode = 1,
 				posY = 368.1,
 				dir = 1,

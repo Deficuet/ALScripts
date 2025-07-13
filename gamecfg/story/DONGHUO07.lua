@@ -10,7 +10,13 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "Log_AtX15.00252.5.142——开始记录",
+			say = "Log_AtX15.00252.5.142——Start Recording",
+			effects = {
+				{
+					active = true,
+					name = "memoryFog"
+				}
+			},
 			effects = {
 				{
 					active = true,
@@ -26,10 +32,10 @@ return {
 			actor = 900071,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "观察者α",
+			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "恭喜你又消灭了所有对手，获得了本轮胜利~",
+			say = "Congratulations~ You've defeated all the enemies, which makes you the winner of this round~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,10 +65,10 @@ return {
 			actor = 900071,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "观察者α",
+			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "不愧是“关键点G”呀，这次又是如此干净利落的“拯救了世界”呢~呵呵呵呵",
+			say = "As expected of you, Code G. Once again, you've saved the world with hardly a hitch. Heehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +84,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "……你们这是在讽刺我吗？",
+			say = "...Are you mocking me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,10 +98,10 @@ return {
 			actor = 900071,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "观察者α",
+			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "不敢不敢，您可是【造物主】大人钦定的“关键点”",
+			say = "We wouldn't dare. After all, you are the connection node to the \"wedge\" of history ordained by the Creator–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,10 +115,10 @@ return {
 			actor = 900071,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "观察者α",
+			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "我们或多或少可是由你的【模因】里诞生出来的呢呵呵呵",
+			say = "After all, we are all more or less molded from your \"factor.\" To treat our prototype with disrespect would be unbecoming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,10 +148,10 @@ return {
 			actor = 900071,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "观察者α",
+			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
-			say = "那么，按照约定，我们将允许你再进行一轮“游戏”，请问你的选择是？",
+			say = "Now, as per our agreement, we shall reset the board and allow you to play another round of this \"game.\" What will your decision be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +167,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "继续…",
+			say = "Continue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +183,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "无论多少次…我都选择继续……",
+			say = "I will keep going... Now matter how many times it takes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +199,7 @@ return {
 			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
-			say = "直到……找到那个人的存在——",
+			say = "Until I find that person––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

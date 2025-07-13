@@ -1,9 +1,782 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207052] = {
+		ship_group = 20705,
+		name = "Timeless Classics",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207052,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "kewei_3",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "kewei_3",
+		shop_type_id = 7,
+		shop_id = 70554,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "146",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Yes, this will do wonderfully! Thank you, ladies. Phew... Getting dressed is so dreadfully time-consuming... Ahem! How silly of me. I must not whine in the presence of others.",
+		voice_actor = 89,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.21,
+					1.21,
+					0
+				}
+			},
+			plane = {
+				{
+					1.2,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.24,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
+	[207053] = {
+		ship_group = 20705,
+		name = "The Lover's Heart Flutters On Duty",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207053,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "kewei_4",
+		part_scale = "",
+		prefab = "kewei_4",
+		shop_id = 70995,
+		shop_type_id = 4,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bg = "519",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Good afternoon, Commander. Why am I still in class during lunch break? Heheh, as you can see, I'm on duty. Commander, won't you spend some time with me while I prepare for the next class?",
+		voice_actor = 89,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		live2d_offset_profile = {
+			0,
+			50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.21,
+					1.21,
+					0
+				}
+			},
+			plane = {
+				{
+					1.2,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.24,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				20
+			}
+		},
+		ship_l2d_id = {
+			20705301,
+			20705302,
+			20705303,
+			20705304,
+			20705305,
+			20705306,
+			20705307,
+			20705308,
+			20705309,
+			20705310,
+			20705311,
+			20705312,
+			20705313,
+			20705314,
+			20705315,
+			20705316
+		},
+		l2d_drag_rate = {
+			0.5,
+			1,
+			1
+		}
+	},
+	[207054] = {
+		ship_group = 20705,
+		name = "Rockin' Encore",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207054,
+		group_index = 4,
+		purchase_offset = "",
+		painting = "kewei_5",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "kewei_5",
+		shop_type_id = 16,
+		shop_id = 71083,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "145",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Phew... Finally got the scissors... Wait, C-Commander?! Why are you here already?! Close the door quickly and look away... N-no, actually, come and help me untangle this ribbon!",
+		voice_actor = 89,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.847,
+					2.104,
+					0
+				}
+			},
+			plane = {
+				{
+					0.914,
+					1.057,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.264,
+							2.231,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-13.5,
+			126.3,
+			0,
+			0.77
+		}
+	},
+	[207055] = {
+		ship_group = 20705,
+		name = "Anniversary Memories",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207055,
+		group_index = 5,
+		purchase_offset = "",
+		painting = "kewei_6",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "kewei_6",
+		shop_type_id = 7,
+		shop_id = 71147,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bg = "107",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "To both express my eternal love and gratitude to you and celebrate the wonderful days we've spent together, I will be joining in the port's celebration. ...Ahem, Commander? Tell me the next part!",
+		voice_actor = 89,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		live2d_offset_profile = {
+			50,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.666,
+					2.176,
+					0
+				}
+			},
+			plane = {
+				{
+					0.752,
+					1.084,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.869,
+							2.258,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				20
+			}
+		},
+		ship_l2d_id = {
+			20705501,
+			20705502,
+			20705503,
+			20705504,
+			20705505,
+			20705506,
+			20705507,
+			20705508,
+			20705509,
+			20705510,
+			20705511,
+			20705512,
+			20705513,
+			20705514,
+			20705515,
+			20705516,
+			20705517,
+			20705518,
+			20705519,
+			20705520
+		},
+		get_showing = {
+			show = 1,
+			paint_offset = {
+				-508,
+				-168,
+				1
+			},
+			data = {
+				{
+					1368,
+					56,
+					2,
+					-168,
+					211,
+					2.5
+				},
+				{
+					-1380,
+					-10,
+					1.8,
+					222,
+					-192,
+					2.5
+				},
+				{
+					40,
+					564,
+					2,
+					139,
+					-237,
+					2.5
+				},
+				{
+					45,
+					-1011,
+					3,
+					39,
+					257,
+					3
+				}
+			}
+		}
+	},
+	[207060] = {
+		ship_group = 20706,
+		name = "Glorious",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207060,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "guangrong",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "guangrong",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = 39,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Courageous-class aircraft carrier – Glorious, Hull Number 77.",
+		voice_actor = 113,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.18,
+					0.7,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.28,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[207061] = {
+		ship_group = 20706,
+		name = "Glorious School Life",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 207061,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "Guangrong_2",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "Guangrong_2",
+		shop_type_id = 4,
+		shop_id = 70065,
+		illustrator = 39,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "103",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely?",
+		voice_actor = 113,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.11,
+					0.77,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207062] = {
 		ship_group = 20706,
-		name = "凉夜香雪",
+		name = "Pungent Plum",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -24,14 +797,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "虽然听说其他阵营也有很难穿的传统服装，不过，东煌的这衣服感觉要更加……！？指挥官？请请请不要看！",
+		desc = "I heard that the Sakura Empire's traditional attire was really hard to put on... but the Dragon's Empery's outfits are even more... Huh?! Commander, p-please look away!",
 		voice_actor = 113,
 		spine_offset = "",
 		change_skin = "",
@@ -138,7 +911,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207070] = {
 		ship_group = 20707,
-		name = "怨仇",
+		name = "Implacable",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -168,7 +941,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "怨仇级航空母舰—怨仇",
+		desc = "Implacable-class aircraft carrier – Implacable.",
 		voice_actor = 356,
 		change_skin = "",
 		rarity_bg = "",
@@ -257,7 +1030,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207071] = {
 		ship_group = 20707,
-		name = "办公室的“意外”",
+		name = "Shepherd of the \"Lost\"",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -281,14 +1054,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呼…让您看到难堪的一面了，实在是不好意思。……有空的话，来帮我收拾一下吧。“趁其他人来这里之前”…好吗？",
+		desc = "Oh my... It seems I've shown you a rather unseemly side of me. Would you help me clean up here, Commander? You know... before any of the other girls find out. Heehee~♥",
 		voice_actor = 356,
 		change_skin = "",
 		rarity_bg = "",
@@ -369,7 +1142,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207090] = {
 		ship_group = 20709,
-		name = "小光辉",
+		name = "Little Illustrious",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -400,7 +1173,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "光辉级航空母舰—光辉，舷号87",
+		desc = "Illustrious-class aircraft carrier – Illustrious, Hull Number 87.",
 		voice_actor = 6,
 		spine_offset = "",
 		change_skin = "",
@@ -473,7 +1246,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207110] = {
 		ship_group = 20711,
-		name = "光辉(μ兵装)",
+		name = "Illustrious μ",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -504,7 +1277,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "我是参与本次μ舰装实验的航母·光辉，用歌声的力量，将爱与和平带给这片海洋——不觉得很棒吗~？",
+		desc = "I am the newest addition to the Muse System, Illustrious. Through my songs, I shall spread the light of love and peace— Don't you think that's a wonderful thing?",
 		voice_actor = 6,
 		spine_offset = "",
 		change_skin = "",
@@ -577,7 +1350,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207120] = {
 		ship_group = 20712,
-		name = "不挠",
+		name = "Indomitable",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -608,7 +1381,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "光辉级航空母舰—不挠",
+		desc = "Illustrious-class aircraft carrier – Indomitable.",
 		voice_actor = 317,
 		spine_offset = "",
 		change_skin = "",
@@ -681,7 +1454,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207121] = {
 		ship_group = 20712,
-		name = "没干劲的女仆小姐",
+		name = "Ms. Motivationless Maid",
 		hand_id = 1,
 		bgm = "",
 		gyro = 0,
@@ -705,14 +1478,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "哈啊…虽然出于新鲜感体验了下女仆装，不过，换完衣服就感觉干劲已经耗完了呢……嗯？指挥官来得正好，来陪我一起放空休息一会吧？",
+		desc = "*Sigh*... I thought changing into maid attire would break up the monotony, but just getting into these clothes has tired me out... Oh, Commander? You came at a good time. Shall we slack off together?",
 		voice_actor = 317,
 		spine_offset = "",
 		change_skin = "",
@@ -787,7 +1560,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207130] = {
 		ship_group = 20713,
-		name = "小可畏",
+		name = "Little Formidable",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -818,7 +1591,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "光辉级航空母舰—可畏，舷号67",
+		desc = "Illustrious-class aircraft carrier – Formidable.",
 		voice_actor = 89,
 		spine_offset = "",
 		change_skin = "",
@@ -891,7 +1664,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[207140] = {
 		ship_group = 20714,
-		name = "可畏(μ兵装)",
+		name = "Formidable μ",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -922,7 +1695,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，光辉级的三号偶像，向你问好~接下来的Live，请多多指教——呼呼，指挥官，这样的问候台词，有没有让你感觉到我们初见时的悸动呢♪",
+		desc = "Commander, third ship and idol of the Illustrious class, Formidable, humbly makes your acquaintance. Please do enjoy the show... Heehee, doesn't that just make you shudder with excitement?",
 		voice_actor = 89,
 		spine_offset = "",
 		change_skin = "",
@@ -995,7 +1768,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213010] = {
 		ship_group = 21301,
-		name = "黑暗界",
+		name = "Erebus",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -1026,7 +1799,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "黑暗界级浅水重炮舰—黑暗界，舷号I02",
+		desc = "Erebus-class monitor – Erebus, Hull Number I02!",
 		voice_actor = 40,
 		spine_offset = "",
 		change_skin = "",
@@ -1119,7 +1892,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213011] = {
 		ship_group = 21301,
-		name = "虚幻的幸福",
+		name = "Illusory Happiness",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -1143,14 +1916,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "有些人只拥吻影子，于是只拥有幸福的幻影——但对我来说，那样就足够了",
+		desc = "Those who embrace the shadows will find only an illusory happiness... But for me, that much is sufficient.",
 		voice_actor = 40,
 		spine_offset = "",
 		change_skin = "",
@@ -1230,7 +2003,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213012] = {
 		ship_group = 21301,
-		name = "变装魔法",
+		name = "Wardrobe Witchery",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -1254,14 +2027,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "「我是万圣前夜的女巫，引导着彷徨于黑暗中的灵魂」…万圣节的女巫…是这种感觉吗？",
+		desc = "\"I am the witch of Hallow's Eve, here to guide your soul into the ever darkness\"... that's what the concept of the Halloween witch is about, right?",
 		voice_actor = 40,
 		spine_offset = "",
 		change_skin = "",
@@ -1343,7 +2116,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213020] = {
 		ship_group = 21302,
-		name = "恐怖",
+		name = "Terror",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -1374,7 +2147,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "黑暗界级浅水重炮舰—恐怖，舷号I03",
+		desc = "Erebus-class monitor – Terror, Hull Number I03!",
 		voice_actor = 1,
 		spine_offset = "",
 		change_skin = "",
@@ -1486,7 +2259,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213021] = {
 		ship_group = 21302,
-		name = "万圣夜的恐怖",
+		name = "Halloween Terror",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -1510,14 +2283,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "参加万圣夜要扮成鬼，但是恐怖不会做太复杂的装扮……这样子的，可以吗？",
+		desc = "I have to dress up as a ghost for Halloween, but I'm not very good at making complicated costumes... Is something like this okay?",
 		voice_actor = 1,
 		spine_offset = "",
 		change_skin = "",
@@ -1611,7 +2384,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213040] = {
 		ship_group = 21304,
-		name = "阿贝克隆比",
+		name = "Abercrombie",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -1642,7 +2415,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "罗伯茨级浅水重炮舰—阿贝克隆比，舷号F109",
+		desc = "Roberts-class monitor - Abercrombie. Hull Number F109.",
 		voice_actor = 105,
 		spine_offset = "",
 		change_skin = "",
@@ -1729,7 +2502,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213041] = {
 		ship_group = 21304,
-		name = "惊叫南瓜！",
+		name = "Pumpkin Blast!",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -1753,14 +2526,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "Boom！不是南瓜，而是阿贝克隆比和她的Mark I！指挥官，有没有被吓一跳呀？嘻嘻~",
+		desc = "Kabooom! You thought it was a pumpkin, but it was me, Abercrombie, with my Mark I! Commander, did I scare you senseless? Muahaha!",
 		voice_actor = 105,
 		spine_offset = "",
 		change_skin = "",
@@ -1849,7 +2622,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213042] = {
 		ship_group = 21304,
-		name = "坏坏兔的恶作剧！",
+		name = "Mischief on the Rocks",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -1872,14 +2645,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "趁现在，悄悄地把辣椒……好！完成了！不知会是哪一位幸运儿“中奖”呢~欸，指挥官？你……你什么都没看到，对吧？嘻嘻~",
+		desc = "Now for a ghost pepper while nobody's looking... Tee hee! Perfect! I wonder who'll be the lucky one to sip– C-Commander?! You didn't see anything suspicious... Right? Tee hee~",
 		voice_actor = 105,
 		spine_offset = "",
 		change_skin = "",
@@ -1983,7 +2756,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[213043] = {
 		ship_group = 21304,
-		name = "海上的猫鼠游戏",
+		name = "Hot on Your Trail",
 		hand_id = 5,
 		bgm = "",
 		gyro = 0,
@@ -2007,14 +2780,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "没有人可以逃脱我阿贝克隆比的追捕！现在，你有权保持沉默，但你说的每一句话都会作为呈堂证供。指挥官，乖乖就范跟我回去吧！",
+		desc = "Found you! No criminals are escaping on my watch! You have the right to remain silent! Everything you say can and will be used against you in a court of law! Tee hee, now surrender peacefully, Commander!",
 		voice_actor = 105,
 		spine_offset = "",
 		change_skin = "",
@@ -2103,7 +2876,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[231210] = {
 		ship_group = 20121,
-		name = "夜宴的新风格？",
+		name = "A Different Dance",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -2127,14 +2900,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "锵锵～指挥官指挥官，看看标枪的新礼服~嘿嘿~和平时可爱的感觉不一样，尝试了下有点优雅华丽的新风格哦！虽然是为了搭配舞会而选的礼服……会不会太过成熟了？",
+		desc = "Tadah! I've got a banquet dress! Heehee~ I decided to go with something refined and voguish this time, as opposed to cute! I mean, it's a dress fit for a banquet, so I think it makes me look pretty grown-up.",
 		voice_actor = 23,
 		spine_offset = "",
 		change_skin = "",
@@ -2216,7 +2989,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[236030] = {
 		ship_group = 20603,
-		name = "幸福乐章",
+		name = "Blissful Movement",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -2240,14 +3013,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "哥哥…？刚才的小号声，是独角兽在练习……那个，哥哥觉得怎么样…？如果哥哥能喜欢的话就好了……",
+		desc = "Big brother...? I was just practicing my trumpet, if you were wondering... Umm, what do you think? I hope you like my trumpeting...",
 		voice_actor = 8,
 		spine_offset = "",
 		change_skin = "",
@@ -2343,7 +3116,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[236031] = {
 		ship_group = 20603,
-		name = "纯白守护天使",
+		name = "Snow White Guardian Angel",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -2367,14 +3140,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "请，请不要靠近我！好，好险……哥、哥哥！得救了……请、请帮帮独角兽……！",
+		desc = "Don't come any closer! Th-this is dangerous... Big brother?! Thank goodness... Please come save me!",
 		voice_actor = 8,
 		spine_offset = "",
 		change_skin = "",
@@ -2494,14 +3267,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呼…哈…嗯！哥哥ー！加，加油ー！——哥哥都那么努力了，独角兽也要…努力给哥哥加油…！",
+		desc = "Phew... *pant*... Big brother! F-fight on! Seeing you try your very hardest reminds me... that I need to do my best to cheer you on, too!",
 		voice_actor = 8,
 		spine_offset = "",
 		change_skin = "",
@@ -2597,7 +3370,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[237030] = {
 		ship_group = 20703,
-		name = "辉光下的甜蜜",
+		name = "Sweet Afternoon Teatime",
 		hand_id = 13,
 		bgm = "",
 		gyro = 0,
@@ -2620,14 +3393,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官~请来尝尝看光辉刚做好的蛋糕吧……哎呀？指挥官手里拿的这是……我明白了~这枚戒指，是您给光辉的承诺呢~光辉会好好珍惜您和它的，直到永远……",
+		desc = "Commander, come and try this cake I made... Oh? Heehee, of course I know. That's the ring that symbolizes our eternal vow. I promise to cherish both you and the ring forever...",
 		voice_actor = 6,
 		change_skin = "",
 		rarity_bg = "",
@@ -2758,7 +3531,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301010] = {
 		ship_group = 30101,
-		name = "{namecode:2}",
+		name = "Fubuki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -2789,7 +3562,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特I型{namecode:2}级驱逐舰一番舰—{namecode:2}",
+		desc = "Special type I {namecode:2} Destroyer Class— {namecode:2}",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -2876,7 +3649,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301011] = {
 		ship_group = 30101,
-		name = "迟到前的一刻",
+		name = "5 Minutes Till I'm Late",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -2900,14 +3673,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呜哇，快、快迟到了！汪汪也快一点！呼……呼……明明有那么多妹妹，为什么谁都没有提醒我快迟到了啊！",
+		desc = "Oh no! I-I'm gonna be late for school! Y-you need to speed up too, doggy! *Pant*... *pant*... Why'd none of my sisters wake me up before they left?!",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -2996,7 +3769,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301012] = {
 		ship_group = 30101,
-		name = "小鸡看板娘",
+		name = "Mascot Bucky",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3020,14 +3793,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "「欢、欢迎光临！特别促销活动绝赞进行中！」——嗯？哎？所谓“可爱的看板娘”是这种感觉的吗…？好像和想象中的不大一样…而且好热（小声）…",
+		desc = "\"C-come on in! We've got special offers for you!\" ... W-wait, is this really what a \"sexy mascot\" would wear? It feels pretty different from what I was expecting... And boy, is it stuffy in this thing...",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -3136,14 +3909,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，你看你看，合适吗？……哎呀，不是说衣服啦，是说这个大号，我吹给你听听看嘛？",
+		desc = "Check it out, Commander! What do you think? ... No, not my dress! I'm talking about the tuba! Want me to play a tune for you~?",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -3242,6 +4015,7 @@ pg.base.ship_skin_template_7 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -3250,7 +4024,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301014] = {
 		ship_group = 30101,
-		name = "特型偶像Fubuki",
+		name = "Fubuki Halation!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3274,14 +4048,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "让世界都感到震撼的特型偶像，{namecode:2}，正式出道！",
+		desc = "The whole world's going to feel the tremors from my debut! I'm Fubuki, the Special-type idol!",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -3370,7 +4144,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301015] = {
 		ship_group = 30101,
-		name = "实习服务生Fubuki",
+		name = "Stormy Waitress-in-Training!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3394,14 +4168,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "欢迎光临！欸，啊，原来是指挥官呀。嘿嘿，我最近在这里实习哦！——唔哦哇！？？！呼…差，差点又闯祸了…",
+		desc = "Welcome, welcome! Oh, Commander! I've actually started working here part-time, but I'm still learning— Wooah?! Phew... Th-that was a close one...",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -3488,7 +4262,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301016] = {
 		ship_group = 30101,
-		name = "灯影下的困境",
+		name = "Caught Under the Lights",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3512,14 +4286,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指，指挥官？呜……现在的情况一时之间很难跟你解释……能不能拜托你帮我一下？",
+		desc = "C-Commander?! Aw, shoot... I, uh, can't explain this in just one sentence... Please, just help me!",
 		voice_actor = 116,
 		spine_offset = "",
 		change_skin = "",
@@ -3606,7 +4380,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301020] = {
 		ship_group = 30102,
-		name = "{namecode:3}",
+		name = "Shirayuki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3637,7 +4411,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特I型{namecode:2}级驱逐舰二番舰—{namecode:3}",
+		desc = "Special Type I-class destroyer number two – Shirayuki.",
 		voice_actor = 278,
 		spine_offset = "",
 		change_skin = "",
@@ -3724,7 +4498,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301021] = {
 		ship_group = 30102,
-		name = "白兔饲养员",
+		name = "Bunny Breeder",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3748,14 +4522,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呜哦…！？大家都有得吃，不用抢——唔，指挥官？既然都来了，请不要光是看着，也来帮帮忙吧。",
+		desc = "Whoa now! There's enough food for everyone, so don't fight over it! ...Commander? Don't just stand there, give me a hand, please!",
 		voice_actor = 278,
 		spine_offset = "",
 		change_skin = "",
@@ -3844,7 +4618,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301040] = {
 		ship_group = 30104,
-		name = "{namecode:5}",
+		name = "Miyuki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3875,7 +4649,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特I型{namecode:2}级驱逐舰4号舰—{namecode:5}",
+		desc = "Special Type I Fubuki-class destroyer number four – Miyuki.",
 		voice_actor = 342,
 		spine_offset = "",
 		change_skin = "",
@@ -3962,7 +4736,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301041] = {
 		ship_group = 30104,
-		name = "采购约会时间",
+		name = "Shopping Rendezvous",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -3986,14 +4760,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，这边这个是不是更便宜点…？嗯，预算还有剩，可以买点别的东西哦？而且，这样就能多和指挥官多逛一会了…啊没什么…///",
+		desc = "Commander, I think the goods over here are a bit cheaper... Umm, I'm doing fine on my budget still, so we can pick out some more things to buy. A-also, I'll get to spend more time shopping with you... Ah, d-disregard that please... *blushes*",
 		voice_actor = 342,
 		spine_offset = "",
 		change_skin = "",
@@ -4082,7 +4856,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301042] = {
 		ship_group = 30104,
-		name = "晴空下的可丽饼",
+		name = "Clear Skies and Crepes",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4106,14 +4880,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指、指挥官，{namecode:5}已经准备好了……这身衣服很漂亮？谢、谢谢……其实，这是为了今天的约会特地挑的。因为，如果把身上的绷带遮住的话，说、说不定坏运气也会被遮住什么的……",
+		desc = "C-Commander, I'm ready any time... You think my outfit's cute...? Th-thank you... Heheh, I got it just for our date... Umm, I figured hiding my bandages might help ward off my bad luck...",
 		voice_actor = 342,
 		spine_offset = "",
 		change_skin = "",
@@ -4202,7 +4976,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301050] = {
 		ship_group = 30105,
-		name = "{namecode:6}",
+		name = "Ayanami",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4231,7 +5005,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特II型{namecode:6}级驱逐舰一番舰—{namecode:6}",
+		desc = "First ship of special Type II {namecode:6} class destroyers, {namecode:6}.",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4327,6 +5101,7 @@ pg.base.ship_skin_template_7 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -4335,7 +5110,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301051] = {
 		ship_group = 30105,
-		name = "待宵的魔女",
+		name = "Witch in Ambush",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4359,14 +5134,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "听说参加万圣夜必须得穿上类似的衣服……指挥官……现在的我好看吗？",
+		desc = "I heard that... I need to wear a costume like this to participate in Halloween festivities. Commander... do I look cute?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4453,7 +5228,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301053] = {
 		ship_group = 30105,
-		name = "乐队型鬼神",
+		name = "Rock 'n' Demon",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4477,14 +5252,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，一起听歌吗？兵器以外的我…喜欢吗？",
+		desc = "Commander, want to listen to music together? Do you like... this non-combat-oriented Ayanami?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4571,7 +5346,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301054] = {
 		ship_group = 30105,
-		name = "新岁之鬼神",
+		name = "Lunar Demon",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4595,14 +5370,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "东煌的新年和重樱的新年，氛围完全不一样…的说。不过，这样热闹的气氛也不坏，指挥官也…喜欢节日吗？",
+		desc = "Compared to the way we celebrate New Year in the Sakura Empire, the festivities of the Dragon Empery have a completely different atmosphere... But, I don't really mind the liveliness... Commander, do you like festivals?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4691,7 +5466,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301055] = {
 		ship_group = 30105,
-		name = "一式水手风制服",
+		name = "Grade A Sailor Uniform",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4715,14 +5490,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "“欢迎光临，指挥官”…打招呼的时候是这样…吧？",
+		desc = "\"Welcome, Commander...\" I should greet customers like this... yes?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4809,7 +5584,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301056] = {
 		ship_group = 30105,
-		name = "特殊潜入作战披风",
+		name = "Covert Ops Cloak",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4840,7 +5615,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "这里是{namecode:6}，成功潜入指挥室。…啊，被指挥官发现了， 作战失败…的说",
+		desc = "Ayanami here. Successfully infiltrated Commander's office. Oh... Commander saw me. Operation failed...",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -4927,7 +5702,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301057] = {
 		ship_group = 30105,
-		name = "冷静偶像·迷惑中",
+		name = "Low-Key Idol @Confused",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -4951,14 +5726,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "偶像，{namecode:6}，出道？唔，因为标枪她们也出道了，所以，我也要一起……指挥官，偶像平时，都做些什么呢？",
+		desc = "I guess I'm making my idol debut? Um, Javelin and the others are making their debuts, so, I also had to... Commander, what are idols supposed to do normally?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -5047,7 +5822,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301058] = {
 		ship_group = 30105,
-		name = "鬼神之华裳",
+		name = "Demon's Finest Dress",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5078,7 +5853,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "还是{namecode:6}…的说。这样的服装，还不太习惯…指挥官，觉得合适吗？",
+		desc = "This dress is... {namecode:6}’s. I'm not used to this dress yet... Commander, do you think it fits me?",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -5165,7 +5940,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301059] = {
 		ship_group = 30105,
-		name = "{namecode:6}.改",
+		name = "Ayanami (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5196,7 +5971,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:6}，改造完毕…的说。感觉变得更强了，不过…指挥官，能摸摸我的头吗？稍微有点…想要撒娇…",
+		desc = "Ayanami, retrofit complete. I feel stronger, yes... Having that said, Commander, can you pat my head? I want to be spoiled a bit...",
 		voice_actor = 32,
 		spine_offset = "",
 		change_skin = "",
@@ -5283,7 +6058,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301090] = {
 		ship_group = 30109,
-		name = "{namecode:11}",
+		name = "Akatsuki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5314,7 +6089,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特III型{namecode:11}级驱逐舰一番舰—{namecode:11}",
+		desc = "Type III {namecode:11}-class destroyer number one - {namecode:11}.",
 		voice_actor = 24,
 		spine_offset = "",
 		change_skin = "",
@@ -5400,7 +6175,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301091] = {
 		ship_group = 30109,
-		name = "北极的迷途",
+		name = "Akatsuki Goes North",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5424,14 +6199,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "这里就是北方联合吗？比想像的还要冷呢…准备抗寒装备果然是正确的！{namecode:12}，再等一等，姐姐现在就去找你！",
+		desc = "Is this the place called the Northern Parliament?! It is colder than I thought... Th-thank goodness I brought gear for extreme environments! Hibiki, please wait a bit longer! Your sister is coming to see you!",
 		voice_actor = 24,
 		spine_offset = "",
 		change_skin = "",
@@ -5518,7 +6293,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301092] = {
 		ship_group = 30109,
-		name = "摩托忍者，出击！",
+		name = "Motoninja Akatsuki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5542,14 +6317,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "看到了吗，指挥官阁下，在下这全新的身姿、还有新的伙伴！如今的{namecode:11}，不是一般的忍者，而是“摩托忍者”！",
+		desc = "What do you think, Commander? I have a brand new outfit and a brand new companion! I am no longer a plain old ninja... I am now a motoninja!",
 		voice_actor = 24,
 		spine_offset = "",
 		change_skin = "",
@@ -5638,7 +6413,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301093] = {
 		ship_group = 30109,
-		name = "驯鹿忍者派送中！",
+		name = "Santa's Lost Helper!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5662,14 +6437,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呜哇哇！指挥官，快让开！在下在帮圣诞老人给港区的大家派送礼物，再晚点就来不及了！…不是这个方向？欸欸欸？！！！",
+		desc = "Look out! Move, Commander! ...Phew. To explain, I am helping Santa give out Christmas presents! Now excuse me, I cannot tarry here or I'll be late... Wait, have I come to the wrong place? WHAT?!",
 		voice_actor = 24,
 		spine_offset = "",
 		change_skin = "",
@@ -5758,7 +6533,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301094] = {
 		ship_group = 30109,
-		name = "压轴！忍者戏法！",
+		name = "Cirque de Ninjutsu!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -5782,14 +6557,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "欢迎来到六驱剧场，指挥官阁下！接下来吗，先由在下表演最强忍术！…“马戏”？这是怎么回事？",
+		desc = "Welcome, Commander, to DesDiv 6's tent of entertainment! For our first act, I shall perform for you my most stunning ninjutsu! ...\"Circus\"? I've never heard of this word before!",
 		voice_actor = 24,
 		spine_offset = "",
 		change_skin = "",
@@ -5878,7 +6653,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301100] = {
 		ship_group = 30110,
-		name = "{namecode:12}",
+		name = "Hibiki",
 		hand_id = 6,
 		bgm = "",
 		gyro = 0,
@@ -5909,7 +6684,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特III型{namecode:11}级驱逐舰二番舰—{namecode:12}",
+		desc = "Type III Akatsuki-class destroyer number two – Hibiki.",
 		voice_actor = 182,
 		spine_offset = "",
 		change_skin = "",
@@ -5995,7 +6770,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301101] = {
 		ship_group = 30110,
-		name = "正月小恶魔",
+		name = "New Year's Little Imp",
 		hand_id = 6,
 		bgm = "",
 		gyro = 0,
@@ -6019,14 +6794,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "港区的新年终于到了！我是来自六驱的新人{namecode:12}，以新年服饰再度登场！指挥官，请不要换台，继续关注我的活跃哦~！",
+		desc = "New Year's finally comes to port! I, Hibiki of the 6th DesDiv, will be marking my new arrival in my New Year's attire! Commander, don't you dare change the channel - you've gotta watch my every move~!",
 		voice_actor = 182,
 		spine_offset = "",
 		change_skin = "",
@@ -6114,7 +6889,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301110] = {
 		ship_group = 30111,
-		name = "{namecode:13}",
+		name = "Ikazuchi",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6145,7 +6920,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特III型{namecode:11}级驱逐舰三番舰—{namecode:13}",
+		desc = "Type III Akatsuki-class destroyer number three - Ikazuchi.",
 		voice_actor = 55,
 		spine_offset = "",
 		change_skin = "",
@@ -6252,7 +7027,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301111] = {
 		ship_group = 30111,
-		name = "樱花茶",
+		name = "Sakura Tea",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6276,14 +7051,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:13}、{namecode:13}变成了茶！？怎么办呀！{namecode:14}，{namecode:13}要被指挥官吃掉了！",
+		desc = "{namecode:13}, {namecode:13} has been transformed into tea! What should we do! {namecode:14} and {namecode:13} will get slurped up by the Commander!",
 		voice_actor = 55,
 		spine_offset = "",
 		change_skin = "",
@@ -6370,7 +7145,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301112] = {
 		ship_group = 30111,
-		name = "祭典Ikatuchi",
+		name = "Thunderous Festival",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6394,14 +7169,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:13}虽然和{namecode:14}参加过不少次祭典，不过和指挥官一起参加还是第一次呢。简直像是“约会”一样呢！",
+		desc = "Inazuma and I have been to a lot of festivals together, but this would be the first time that I've gone with you, Commander. Isn't this totally like a date?",
 		voice_actor = 55,
 		spine_offset = "",
 		change_skin = "",
@@ -6490,7 +7265,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301113] = {
 		ship_group = 30111,
-		name = "晨曦精灵Ikazuchi",
+		name = "Dawn's Thunder",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6514,14 +7289,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:13}是活跃在晨曦的精灵哦！嗯，原来如此，这就是所谓的“设定”呢。指挥官，来和{namecode:13}一起参加宴会吧！",
+		desc = "I'm the fairy of thunder that shatters the night to herald the dawn! I see, I see! That is a good backstory! Commander, want to head to the party together?",
 		voice_actor = 55,
 		spine_offset = "",
 		change_skin = "",
@@ -6610,7 +7385,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301114] = {
 		ship_group = 30111,
-		name = "海天霞色之下",
+		name = "Courtyard Maid Ikazuchi",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6634,14 +7409,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官！今天的{namecode:13}是……原来如此，是女仆的设定呢。所以，这莫非就是指挥官的新喜好？",
+		desc = "Commander, I've worn what you asked me to– Oh, I see, I see. So this is what they call a \"maid kink,\" right? Is that what you're into now, Commander?",
 		voice_actor = 55,
 		spine_offset = "",
 		change_skin = "",
@@ -6730,7 +7505,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301120] = {
 		ship_group = 30112,
-		name = "{namecode:14}",
+		name = "Inazuma",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6761,7 +7536,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "特III型{namecode:11}级驱逐舰四番舰—{namecode:14}",
+		desc = "Type III Akatsuki-class destroyer number four - Inazuma.",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -6861,7 +7636,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301121] = {
 		ship_group = 30112,
-		name = "香草布丁",
+		name = "Vanilla Pudding",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -6885,14 +7660,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "虽然被指挥官吃掉也没关系…但是{namecode:14}不见了，指挥官一定会伤心吧，或许会伤心到连舰队都指挥不了…所以…拜托了！{namecode:14}的这份心声，请一定要传达到——",
+		desc = "It doesn’t matter if {namecode:14} becomes Mr. Commander's dessert… but if {namecode:14} cannot be found, Mr. Commander will feel so devastated, perhaps he won’t be able to command the fleet… so… please! Please convey {namecode:14}'s heartfelt wish to Mr. Commander——",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -6979,7 +7754,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301122] = {
 		ship_group = 30112,
-		name = "花火Inazuma",
+		name = "Flash of Fireworks",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7003,14 +7778,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "平常都是和{namecode:13}一起参加的祭典，和指挥官还是头一次呢。嗯？…要从哪里开始逛起呢？",
+		desc = "I usually go to festivals with Ikazuchi, but this would be my first time going with you. Hmm? Where should we visit first?",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -7099,7 +7874,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301123] = {
 		ship_group = 30112,
-		name = "月下妖精Inazuma",
+		name = "Dusk's Lightning",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7123,14 +7898,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:14}是起舞在月色之下的妖精…{namecode:13}好像是这么“设定”的呢，嗯…指挥官先生，要和{namecode:14}一起参加宴会吗？",
+		desc = "I'm the fairy of lightning that illuminates the stars in the night sky... So that's what we're going with, huh. Commander, will you accompany me to the party?",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -7219,7 +7994,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301124] = {
 		ship_group = 30112,
-		name = "蔷薇紫的芳香",
+		name = "Maid's Flower Offering",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7243,14 +8018,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "一、二……唔，插好了，指挥官。嗯……今天的{namecode:14}，是指挥官的贴身女仆，尽管插花之外的工作还不熟练，但{namecode:14}可以做到一直留在这里陪你哦。",
+		desc = "One, two... Mm. All done, Commander. Yep... I'll be your maid today. I don't know how to do much other than make flower arrangements, but I can stay by your side all day.",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -7339,7 +8114,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301130] = {
 		ship_group = 30113,
-		name = "{namecode:15}",
+		name = "Shiratsuyu",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7370,7 +8145,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:15}级驱逐舰一番舰—{namecode:15}",
+		desc = "{namecode:15}-class destroyer number one - {namecode:15}.",
 		voice_actor = 25,
 		spine_offset = "",
 		change_skin = "",
@@ -7482,7 +8257,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301131] = {
 		ship_group = 30113,
-		name = "要来点鱼雷吗？",
+		name = "Is The Order A Torpedo?",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7506,14 +8281,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "久、久等了，您点的萌萌女仆套c——呜哇啊啊啊啊！对对对对不起请躲开～～",
+		desc = "H-here they come... Your order, and your cutesy dutesy maid... Whoaahh! I'm sorry! Look out!",
 		voice_actor = 25,
 		spine_offset = "",
 		change_skin = "",
@@ -7602,7 +8377,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301132] = {
 		ship_group = 30113,
-		name = "雪融烟火夜",
+		name = "Thawing Snow, Fireworks Alight",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7626,14 +8401,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呜呜……好疼……又不小心摔倒了……欸？指挥官陪着我一起摔倒了吗？是，是为了扶我？对不起呜呜……",
+		desc = "Owwie, I fell again... Huh? You fell, too? Just because you wanted to help me up? *sniffle*... I'm sorry...",
 		voice_actor = 25,
 		spine_offset = "",
 		change_skin = "",
@@ -7722,7 +8497,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301140] = {
 		ship_group = 30114,
-		name = "{namecode:16}",
+		name = "Yuudachi",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7753,7 +8528,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:15}级驱逐舰四番舰—{namecode:16}",
+		desc = "{namecode:15}-class destroyer number four - {namecode:16}.",
 		voice_actor = 17,
 		spine_offset = "",
 		change_skin = "",
@@ -7846,7 +8621,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301141] = {
 		ship_group = 30114,
-		name = "雪仗将军",
+		name = "Shogun of Snowballs",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -7870,14 +8645,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，别窝办公室里了，冬天总是吹暖气骨头会生锈的！出来一起玩吧！",
+		desc = "Come out of your office, Commander! You'll become lazy if you huddle up next to the heater all day! Let's go out and play in the snow!",
 		voice_actor = 17,
 		spine_offset = "",
 		change_skin = "",
@@ -7957,120 +8732,9 @@ pg.base.ship_skin_template_7 = {
 			}
 		}
 	},
-	[301142] = {
-		ship_group = 30114,
-		name = "肉包杀手",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301142,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "xili_3",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "xili_3",
-		shop_type_id = 9999,
-		shop_id = 0,
-		illustrator = 10,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "哈呣……指挥官，要是当店员就有肉包吃的话，我当多久都可以……",
-		voice_actor = 17,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.11,
-					0.7,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.1,
-					0.64,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301143] = {
 		ship_group = 30114,
-		name = "肉肉之宴！",
+		name = "Carnivore Carnival!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8094,14 +8758,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，快看看快看看，我的新衣服好不好看呀？好看的话，要不要摸摸看",
+		desc = "Commander, look at me, look at me! What do you think of my new outfit? If you like it, wanna give it a feel?",
 		voice_actor = 17,
 		spine_offset = "",
 		change_skin = "",
@@ -8183,7 +8847,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301144] = {
 		ship_group = 30114,
-		name = "美梦环绕圣诞夜",
+		name = "Woofy Floofy Christmas Night",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8207,14 +8871,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "“圣诞”就是那个“圣诞老人”会来送礼物的日子对吧！好期待啊~指挥官也是吧？也同样期待着礼物没错吧！",
+		desc = "Christmas! The day Santa Claus drops by and leaves presents, right? Hell yeah, I'm pumped! Aren't you pumped too, Commander?",
 		voice_actor = 17,
 		spine_offset = "",
 		change_skin = "",
@@ -8296,7 +8960,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301148] = {
 		ship_group = 30114,
-		name = "所罗门的新娘",
+		name = "The Bride of Solomon",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8327,7 +8991,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，你看你看，这个叫白什么的新衣服，红红的又白白的，我超喜欢的！不过，穿这个是要干啥来着？",
+		desc = " Commander, look! Look at this new dress. Red and white, I really really like it! But what's the occasion?",
 		voice_actor = 17,
 		spine_offset = "",
 		change_skin = "",
@@ -8407,7 +9071,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301149] = {
 		ship_group = 30114,
-		name = "{namecode:16}.改",
+		name = "Yuudachi (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8437,7 +9101,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "哇！？指挥官，你是不是变矮了？怎么看着比平时小只…其实是{namecode:16}长大了？！真的？改造原来是这样的吗？！",
+		desc = "Woof...? Am I imagining it, or did you get shorter, Commander? Unless... it's me who's gotten bigger? Seriously?! Nobody told me retrofitting makes you taller!",
 		voice_actor = 17,
 		change_skin = "",
 		rarity_bg = "",
@@ -8533,7 +9197,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301150] = {
 		ship_group = 30115,
-		name = "{namecode:17}",
+		name = "Shigure",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8564,7 +9228,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:15}级驱逐舰二番舰—{namecode:17}",
+		desc = "{namecode:15}-class destroyer number two - {namecode:17}.",
 		voice_actor = 13,
 		spine_offset = "",
 		change_skin = "",
@@ -8657,7 +9321,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301151] = {
 		ship_group = 30115,
-		name = "进击，{namecode:257}！",
+		name = "Attack, I-490!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8681,14 +9345,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "笨蛋指挥官，{namecode:17}大人才不是什么潜艇！想被酸素鱼雷敲头吗！",
+		desc = "Stupid Commander, I'm not a damn submarine! Do you wanna get hit in the face with an oxygen torpedo?",
 		voice_actor = 13,
 		spine_offset = "",
 		change_skin = "",
@@ -8783,7 +9447,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301152] = {
 		ship_group = 30115,
-		name = "晚会幸运星！",
+		name = "The Ballroom's Lucky Star",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8807,14 +9471,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "哦呀？指挥官居然能在这里遇到我，运气真好呢～哼哼，既然如此，就让幸运的{namecode:17}大人稍微陪陪你好了！要感谢我啊！",
+		desc = "Oh my. Commander, you must be pretty lucky to bump into me here, hehe~ Since you're here, you can have the privilege of being my escort tonight. Now, be grateful~♪",
 		voice_actor = 13,
 		spine_offset = "",
 		change_skin = "",
@@ -8896,7 +9560,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301153] = {
 		ship_group = 30115,
-		name = "幸运Chocolate",
+		name = "Lucky Chocolate",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -8920,14 +9584,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "这样就弄好了…喂，那边傻站着的笨蛋指挥官，快伸出手来，你可是第一个收到{namecode:17}大人巧克力的人，感恩戴德地接受吧！",
+		desc = "All right, that should be good... Hey, stupid Commander standing around aimlessly. Yeah, you. Stick your hand out. You're gonna be the first person to get MY chocolate, so I'd better see some tears of gratitude.",
 		voice_actor = 13,
 		spine_offset = "",
 		change_skin = "",
@@ -9009,7 +9673,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301159] = {
 		ship_group = 30115,
-		name = "{namecode:17}.改",
+		name = "Shigure (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9040,7 +9704,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "哼哼，让{namecode:17}大人进行改造，是个明智的选择呢！今后也多多依靠我的力量与好运吧，你这个幸运的笨蛋指挥官～",
+		desc = "Heheh~ Retrofitting the mighty Shigure proves that you are quite perceptive! Aren't you glad that you get to rely on me more, you lucky idiot of a commander~♪",
 		voice_actor = 13,
 		spine_offset = "",
 		change_skin = "",
@@ -9120,7 +9784,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301160] = {
 		ship_group = 30116,
-		name = "{namecode:22}",
+		name = "Yukikaze",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9149,7 +9813,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰八番舰—{namecode:22}",
+		desc = "Kagerou-class Destroyer no. 8 - Yukikaze",
 		voice_actor = 42,
 		spine_offset = "",
 		change_skin = "",
@@ -9238,6 +9902,7 @@ pg.base.ship_skin_template_7 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -9246,7 +9911,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301161] = {
 		ship_group = 30116,
-		name = "秋千上的{namecode:22}大人",
+		name = "Sovereign of the Swing",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9270,14 +9935,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "终于完成了！“随时随地都能荡的秋千”！怎么样，指挥官，是不是很羡慕，想不想要坐一坐？很遗憾，这是高贵的{namecode:22}大人专用的！",
+		desc = "Wa ha ha! My \"universal-as-long-as-there-is-a-ceiling\" swing set is finally complete! Commander, are you jealous? Want to give it a try? Too~ bad~! This seat is reserved only for the noble and elegant Yukikaze!",
 		voice_actor = 42,
 		spine_offset = "",
 		change_skin = "",
@@ -9370,7 +10035,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301162] = {
 		ship_group = 30116,
-		name = "冬之雪风",
+		name = "Winter's Snowy Wind",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9392,14 +10057,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "HOHOHO，是不是被{namecode:22}大人这美丽端庄的姿态折服了？好了，东煌那边似乎在放鞭炮呢，我们一起去凑凑热闹吧！来，握住我的手！",
+		desc = "Wa ha ha~! Did your heart skip a beat from seeing the charming Yukikaze? Hmph... Well, looks like the Dragon Empery girls are setting off firecrackers... let's go join them! Here, make sure to hold on to my hand!",
 		voice_actor = 42,
 		spine_offset = "",
 		change_skin = "",
@@ -9491,6 +10156,7 @@ pg.base.ship_skin_template_7 = {
 			"home",
 			"mail",
 			"touch_body",
+			"touch_special",
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
@@ -9502,7 +10168,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301168] = {
 		ship_group = 30116,
-		name = "春日的暖风",
+		name = "The Warmth of Spring",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9533,7 +10199,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "这身衣服好漂亮啊，诶嘿嘿……啊——咳咳！从今以后，你就是{namecode:22}大人最重要的另一半了，可不允许擅自消失，明白了吗！",
+		desc = "This outfit is sooo cute~ ehehe... Ack!! *cough* *cough*! Ahem! From now on, you are the faithful companion of Yukikaze the Great! As such, you will not be permitted to leave my side, understood?",
 		voice_actor = 42,
 		spine_offset = "",
 		change_skin = "",
@@ -9613,7 +10279,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301170] = {
 		ship_group = 30117,
-		name = "{namecode:19}",
+		name = "Kagerou",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9644,7 +10310,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰一番舰—{namecode:19}",
+		desc = "{namecode:19}-class destroyer number one - {namecode:19}.",
 		voice_actor = 141,
 		spine_offset = "",
 		change_skin = "",
@@ -9737,7 +10403,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301171] = {
 		ship_group = 30117,
-		name = "南瓜与万圣夜",
+		name = "Pumpkins and Festivities!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9761,14 +10427,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，不给糖就捣蛋——请把吾辈妹妹们的份也给吾辈！吾辈的鬼火？哈哈~是学自吾辈那个笨蛋妹妹的！",
+		desc = "Commander, trick or treat! I expect you to give some candy to my sisters as well! These will-o'-wisps? Hahaha~ I tried imitating that gloomy sister of mine!",
 		voice_actor = 141,
 		spine_offset = "",
 		change_skin = "",
@@ -9855,7 +10521,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301179] = {
 		ship_group = 30117,
-		name = "{namecode:19}.改",
+		name = "Kagerou (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9886,7 +10552,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "改造完成后的{namecode:19}来也~不会再让那个笨蛋妹妹走在前面了！指挥官，和吾辈一起前进到更远的地方吧！",
+		desc = "The newly-retrofitted Kagerou has arrived~ I won't let that sister of mine pass me up anymore! Commander, lead us forward towards distant shores!",
 		voice_actor = 141,
 		spine_offset = "",
 		change_skin = "",
@@ -9966,7 +10632,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301180] = {
 		ship_group = 30118,
-		name = "{namecode:20}",
+		name = "Shiranui",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -9997,7 +10663,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰二番舰—{namecode:20}",
+		desc = "{namecode:19}-class destroyer number two - {namecode:20}.",
 		voice_actor = 133,
 		spine_offset = "",
 		change_skin = "",
@@ -10090,7 +10756,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301181] = {
 		ship_group = 30118,
-		name = "月饼、不来一点吗？",
+		name = "Mooncake Merchant",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10114,14 +10780,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "东煌的「月饼」，也许是个商机……啊，指挥官，要来点「月宫美食」吗？现在批量购买有特别优惠哦？",
+		desc = "I see a chance... to capitalize on the Dragon Empery's famous mooncakes... Commander, would you like to have a taste of the Moon Palace's delicacies? If you buy them in bulk, I'll give you a special discount.",
 		voice_actor = 133,
 		spine_offset = "",
 		change_skin = "",
@@ -10203,7 +10869,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301189] = {
 		ship_group = 30118,
-		name = "{namecode:20}.改",
+		name = "Shiranui (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10234,7 +10900,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "原来我们还有这么多资源吗…看来可以安心地继续给店里进货了——特别优惠？会有吧…也许",
+		desc = "If you have this much money remaining... then you may visit me and spend it with confidence... A discount, you say...? Of course... Someday, I shall give you one...",
 		voice_actor = 133,
 		spine_offset = "",
 		change_skin = "",
@@ -10314,7 +10980,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301200] = {
 		ship_group = 30120,
-		name = "{namecode:24}",
+		name = "Nowaki",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10345,7 +11011,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰十五番舰—{namecode:24}",
+		desc = "{namecode:19}-class destroyer number fifteen - {namecode:24}.",
 		voice_actor = 70,
 		spine_offset = "",
 		change_skin = "",
@@ -10425,7 +11091,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301210] = {
 		ship_group = 30121,
-		name = "{namecode:30}",
+		name = "Hatsuharu",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10456,7 +11122,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}级驱逐舰一番舰—{namecode:30}",
+		desc = "{namecode:30}-class destroyer number one – {namecode:30}.",
 		voice_actor = 52,
 		spine_offset = "",
 		change_skin = "",
@@ -10556,7 +11222,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301211] = {
 		ship_group = 30121,
-		name = "初春之雪",
+		name = "Snow Day Hatsuharu",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10580,14 +11246,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "大家都聚在一起玩……我，我的话要不还是算了……我，我也要一起吗？呜呜，指挥官这么说的话，我，我也要努力才行……",
+		desc = "Everyone's playing together...? I-I think I'll pass... Y-you want me to join them? Ugh, well, if you say so, then I-I-I'll try to socialize with them...!",
 		voice_actor = 52,
 		spine_offset = "",
 		change_skin = "",
@@ -10674,7 +11340,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301212] = {
 		ship_group = 30121,
-		name = "春邀灯火",
+		name = "Hatsuharu in the Limelight",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10698,14 +11364,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，作为您今晚宴会的女伴，我稍微学习了一下皇家的礼仪…那、那个…还算标准吗？",
+		desc = "C-Commander, I will be your partner for the party tonight. Let's see, umm... I believe this is proper Royal Navy etiquette... D-did I do it correctly?",
 		voice_actor = 52,
 		spine_offset = "",
 		change_skin = "",
@@ -10794,7 +11460,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301213] = {
 		ship_group = 30121,
-		name = "猫咖逢春",
+		name = "Hatsuharu's Cat Café Caper",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10818,14 +11484,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "那个…为了锻炼自己胆量，{namecode:30}来这里帮忙了，希望不会给大家造成麻烦……嗯！谢谢指挥官的鼓励，我会努力的！",
+		desc = "U-umm... In order to conquer shyness, umm, I've come to serve you... I just hope I don't get in everyone's way... Y-yeah! Thank you for your encouraging words! I'll do my best...!",
 		voice_actor = 52,
 		spine_offset = "",
 		change_skin = "",
@@ -10914,7 +11580,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301219] = {
 		ship_group = 30121,
-		name = "{namecode:30}.改",
+		name = "Hatsuharu (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -10945,7 +11611,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}、改造完毕…这、这样是不是能变得更坚强一些了呢…",
+		desc = "Hatsuharu, retrofit complete... H-hopefully I'm a little bit stronger now...",
 		voice_actor = 52,
 		spine_offset = "",
 		change_skin = "",
@@ -11032,7 +11698,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301230] = {
 		ship_group = 30123,
-		name = "{namecode:141}",
+		name = "Wakaba",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11063,7 +11729,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}级驱逐舰三番舰—{namecode:141}",
+		desc = "Hatsuharu-class destroyer number three – Wakaba.",
 		voice_actor = 115,
 		spine_offset = "",
 		change_skin = "",
@@ -11150,7 +11816,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301231] = {
 		ship_group = 30123,
-		name = "限时圣诞Wakaba",
+		name = "Holiday Special Wakaba!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11174,14 +11840,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "呀吼~早上好，指挥官！这里是正在配送圣诞礼物的限时圣诞老人{namecode:141}！欸？袋子？啊哇哇哇，指、指挥官快帮我捡一下！——",
+		desc = "Yaho~ Good morning, Commander! For a limited time only, Wakaba Claus will be delivering Christmas presents! Huh? My bag? Aaahhh! C-Commander, help me pick everything up!",
 		voice_actor = 115,
 		spine_offset = "",
 		change_skin = "",
@@ -11270,7 +11936,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301232] = {
 		ship_group = 30123,
-		name = "暖阳与午睡时光",
+		name = "A Healthy Dose of Sunshine!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11294,14 +11960,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "嗯嗯~噢~发现指挥官一枚！嘿嘿，这里还有位置哦，来一起享受午后的阳光吧！",
+		desc = "Hmmgh! Oh yeah... Ah, there you are, Commander! Care to join me? Come bask in the afternoon sunshine, it feels great!",
 		voice_actor = 115,
 		spine_offset = "",
 		change_skin = "",
@@ -11390,7 +12056,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301240] = {
 		ship_group = 30124,
-		name = "{namecode:129}",
+		name = "Hatsushimo",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11421,7 +12087,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}级驱逐舰四番舰—{namecode:129}",
+		desc = "Hatsuharu-class Destroyer, number 4 - Hatsushimo",
 		voice_actor = 180,
 		spine_offset = "",
 		change_skin = "",
@@ -11508,7 +12174,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301242] = {
 		ship_group = 30124,
-		name = "吉时祝宴",
+		name = "Perennial Joy",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11532,14 +12198,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官，干杯~你也要好好享受宴会才行，要是这时还把我们晾在一边想着工作什么的，这么不解风情的话，可是会被讨厌的哦~？",
+		desc = "Cheers, Commander~ C'mere, you've got to enjoy the party too! If you're thinking of doing something tactless like running off to go back to work, people are going to get upset with you~",
 		voice_actor = 180,
 		spine_offset = "",
 		change_skin = "",
@@ -11628,7 +12294,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301249] = {
 		ship_group = 30124,
-		name = "{namecode:129}.改",
+		name = "Hatsushimo (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11659,7 +12325,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:129}，改造完成。似乎也没什么变化？指挥官，看来你还嫩着啊，很多东西光从外表是看不出来的哦？呵呵~",
+		desc = "Hatsushimo's retrofitting is complete. You don't think I look all that different? Oh, Commander, you're still as simple as ever~ I've changed in tons of ways beyond what's just on the surface. Heheheh~",
 		voice_actor = 180,
 		spine_offset = "",
 		change_skin = "",
@@ -11746,7 +12412,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301250] = {
 		ship_group = 30125,
-		name = "{namecode:31}",
+		name = "Ariake",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11777,7 +12443,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}级驱逐舰五番舰—{namecode:31}",
+		desc = "Hatsuharu-class destroyer no. 5 - Ariake",
 		voice_actor = 155,
 		spine_offset = "",
 		change_skin = "",
@@ -11864,7 +12530,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301251] = {
 		ship_group = 30125,
-		name = "四季团圆",
+		name = "Unending Friendship",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -11888,14 +12554,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "我准备了一些气球带到宴会上，希望到时候大家会喜欢~嗯嗯，重樱的小孩子看到一定会很开心的！",
+		desc = "Hope everyone enjoys the oodles of balloons I made for this party! Yeah, I'm sure the little girls will love 'em!",
 		voice_actor = 155,
 		spine_offset = "",
 		change_skin = "",
@@ -11984,7 +12650,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301259] = {
 		ship_group = 30125,
-		name = "{namecode:31}.改",
+		name = "Ariake (Retrofit) ",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12015,7 +12681,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "啊，这样就算改造完成了吧？希望以后能帮上指挥官和27驱的大家更多的忙呢。",
+		desc = "Ah... So this is what it feels like to be retrofitted. I'll work harder for your sake, and for everyone in the 27th Destroyer Division~ ",
 		voice_actor = 155,
 		spine_offset = "",
 		change_skin = "",
@@ -12102,7 +12768,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301260] = {
 		ship_group = 30126,
-		name = "{namecode:32}",
+		name = "Yuugure",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12133,7 +12799,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:30}级驱逐舰六番舰—{namecode:32}",
+		desc = "Sixth ship of {namecode:30} class Destroyer— {namecode:32}",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12233,7 +12899,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301261] = {
 		ship_group = 30126,
-		name = "女仆练习生",
+		name = "Maid-In-Training!",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12257,14 +12923,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "一介女仆{namecode:32}，此刻起，将生涯奉献给姐姐和指挥官大人——呀啊，裙、裙子被吹起来了！",
+		desc = "\"I, Yuugure the maid, shall dedicate myself to Ariake, my sister, and you, Commander!\"... Eek?! M-my skirt...!",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12353,7 +13019,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301262] = {
 		ship_group = 30126,
-		name = "夕暮春华",
+		name = "Twilight Blossom",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12377,14 +13043,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "东煌的新年和东煌的新服装，哪一样都让人心情愉快呢~姐姐也一定会喜欢这身衣服的。指挥官大人，您觉得如何？",
+		desc = "The Dragon Empery's New Year celebrations and new outfits are sure to lift everyone's spirits~ My sister will probably love this new dress as well. Commander, what do you think?",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12473,7 +13139,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301263] = {
 		ship_group = 30126,
-		name = "盛绽樱华",
+		name = "Evening Flower",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12497,14 +13163,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "指挥官大人，我已经换好礼服了…虽然是挺好看的，不过…就是肩膀上面是不是稍微有点空？",
+		desc = "I finished changing, Commander. This dress is very pretty, but... isn't it missing something up top?",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12593,7 +13259,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301264] = {
 		ship_group = 30126,
-		name = "庆典购物时",
+		name = "Summer Festival Shopping",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12617,14 +13283,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "庆典的商店果然有很多有趣的纪念品呢~指挥官，能帮我一起挑下给{namecode:31}姐姐的礼物吗？比如…这个不倒翁怎么样？",
+		desc = "Woah... These stalls have all sorts of amazing things~ Commander, will you help me pick a gift out for Ariake? Hm, let's see... How about this Daruma doll?",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12713,7 +13379,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301265] = {
 		ship_group = 30126,
-		name = "海边嬉戏时间",
+		name = "Fun in the Sun",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12737,14 +13403,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "为了和指挥官大人一起享受大海，特意换了身海边的装束。嗯，{namecode:31}姐姐说，说起海边的装束就是要方便行动的，可爱的，而且也是让指挥官大人喜欢的…对吗？",
+		desc = "I was really looking forward to playing with you at the beach, Commander, so I changed into this swimsuit. Umm... Ariake told me that I had to choose something that was easy to move around in, and cute enough to make you lose your mind... Was she pulling my leg?",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12833,7 +13499,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301269] = {
 		ship_group = 30126,
-		name = "{namecode:32}.改",
+		name = "Yuugure (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12864,7 +13530,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:31}级驱逐舰，{namecode:32}，改造结束了。欸嘿嘿，从今往后我…还有姐姐，再次麻烦指挥官大人多多照顾了。",
+		desc = "Ariake-class destroyer, Yuugure, has completed retrofitting. Ehehe, from now on... Ariake and I will be in your care once more, Commander.",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -12951,7 +13617,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301270] = {
 		ship_group = 30127,
-		name = "{namecode:21}",
+		name = "Kuroshio",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -12982,7 +13648,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰三番舰—{namecode:21}",
+		desc = "Kagerou-class destroyer number three – Kuroshio.",
 		voice_actor = 118,
 		spine_offset = "",
 		change_skin = "",
@@ -13069,7 +13735,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301280] = {
 		ship_group = 30128,
-		name = "{namecode:135}",
+		name = "Oyashio",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13100,7 +13766,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:19}级驱逐舰四番舰—{namecode:135}",
+		desc = "Kagerou-class destroyer number four – Oyashio.",
 		voice_actor = 118,
 		spine_offset = "",
 		change_skin = "",
@@ -13187,7 +13853,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301290] = {
 		ship_group = 30129,
-		name = "{namecode:18}",
+		name = "Shimakaze",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13217,7 +13883,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "{namecode:18}号驱逐舰",
+		desc = "Shimakaze-class destroyer – Shimakaze.",
 		voice_actor = 284,
 		change_skin = "",
 		rarity_bg = "",
@@ -13320,7 +13986,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301291] = {
 		ship_group = 30129,
-		name = "最速兔兔的邀请函(?)",
+		name = "World's Speediest Bunny Waitress",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13341,14 +14007,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1102",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:18}来啦——！一起碰一杯吧！哎呀，这身精致的衣服穿起来有些费劲呢~不愧是指挥官，眼光真棒！",
+		desc = "Hippity hoppity! Grab a glass and have a sippity! Whew, I must say, this outfit was tricky to get into. Still, you made an exquisite pick, Commander!",
 		voice_actor = 284,
 		spine_offset = "",
 		change_skin = "",
@@ -13461,7 +14127,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301292] = {
 		ship_group = 30129,
-		name = "不思议国度的白兔",
+		name = "The White Rabbit of Wonderland",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13482,14 +14148,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "啊呀！又是这个地方？！明明刚才开始已经连着跑了1小时了……指挥官？！呜哇幸好~！！请救救{namecode:18}吧！TOT",
+		desc = "Whoa-whoa-whoa! Why'd I end up here again?! Even though I've been running for a whole hour! ...Commander?! Waaaah, I'm so glad to see you! Please, help me get out of heeeeeeere!",
 		voice_actor = 284,
 		spine_offset = "",
 		change_skin = "",
@@ -13615,7 +14281,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301293] = {
 		ship_group = 30129,
-		name = "盛夏岛屿的小憩",
+		name = "The Island Wind Rests",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13639,14 +14305,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "1101",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "也不能一直在海上跑呢，差不多该恢复恢复一下体力啦。如果指挥官要遮阳的话，就请用这把伞吧！",
+		desc = "You can't keep sprinting across the sea forever. Sometimes, you need to rest and recover your strength. Speaking of, you may use my parasol if you like, Commander!",
 		voice_actor = 284,
 		spine_offset = "",
 		change_skin = "",
@@ -13735,7 +14401,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301294] = {
 		ship_group = 30129,
-		name = "慌乱的月下玉兔",
+		name = "Clumsy Moon Rabbit",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13759,14 +14425,14 @@ pg.base.ship_skin_template_7 = {
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
-		skin_type = 4,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "哇啊！？危险啊指挥官！……呼……还好没出事……非常抱歉！{namecode:18}没注意看路！光想着要快点把月饼送给大家了……",
+		desc = "Oh no! Commander, look out! ...Phew. That was really close. Apologies for my clear lack of attentiveness! I shouldn't have been in such a rush to deliver all these mooncakes...",
 		voice_actor = 284,
 		spine_offset = "",
 		change_skin = "",
@@ -13855,7 +14521,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301300] = {
 		ship_group = 30130,
-		name = "{namecode:124}",
+		name = "Kamikaze",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -13886,7 +14552,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:124}级驱逐舰一番舰—{namecode:124}",
+		desc = "{namecode:124}-class destroyer number one – {namecode:124}.",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -13973,7 +14639,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301309] = {
 		ship_group = 30130,
-		name = "{namecode:124}.改",
+		name = "Kamikaze (Retrofit)",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -14004,7 +14670,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "嘻嘻，选我进行改造，指挥官的品味不错嘛～嗯哼，可不能让人笑话我们的指挥官没有眼光呢，就让你看看老将的志气吧～",
+		desc = "Ohohoho, you must have a sharp eye if you've decided to retrofit me~ Now that I've been chosen, I cannot afford to embarrass you. Now, take a good and thorough look at this veteran's aspirations~",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -14091,7 +14757,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301310] = {
 		ship_group = 30131,
-		name = "{namecode:134}",
+		name = "Matsukaze",
 		hand_id = 14,
 		bgm = "",
 		gyro = 0,
@@ -14122,7 +14788,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:124}级驱逐舰四番舰—{namecode:134}",
+		desc = "Kamikaze-class destroyer number four – Matsukaze.",
 		voice_actor = 51,
 		spine_offset = "",
 		change_skin = "",
@@ -14200,840 +14866,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.54,
 							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301319] = {
-		ship_group = 30131,
-		name = "{namecode:134}.改",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301319,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "songfeng_g",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "songfeng_g",
-		shop_type_id = 9997,
-		shop_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "这个扇子这么大，稍微有点不习惯呢……对了，来来，指挥官，我来给你扇扇风吧~不要客气不要客气~",
-		voice_actor = 51,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.27,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.31,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.31,
-					1.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.59,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301320] = {
-		ship_group = 30132,
-		name = "{namecode:33}",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301320,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "muyue",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue",
-		shop_type_id = 0,
-		shop_id = 0,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:33}级驱逐舰一番舰—{namecode:33}",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301321] = {
-		ship_group = 30132,
-		name = "驯鹿先生，出发！",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301321,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "muyue_2",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue_2",
-		shop_type_id = 1,
-		shop_id = 70029,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "100",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官，圣诞快乐～今天的{namecode:33}也在努力做好孩子哦。呜，圣诞老人什么时候才会来呢，{namecode:33}好困……",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.68,
-					1.26,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.97,
-							2.41,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301322] = {
-		ship_group = 30132,
-		name = "糖果祭典！",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301322,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "muyue_3",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue_3",
-		shop_type_id = 10,
-		shop_id = 70224,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "114",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官，我按说好的穿上浴衣了哦！嘿嘿，该带{namecode:33}去祭典了~{namecode:33}要好多好多祭典上的糖果！",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					0.948,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.915,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.16,
-					0.881,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.351,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301323] = {
-		ship_group = 30132,
-		name = "春节的糖果",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301323,
-		group_index = 3,
-		purchase_offset = "",
-		painting = "muyue_4",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue_4",
-		shop_type_id = 3,
-		shop_id = 0,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "127",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "据说只要在这个时间也说一声“新年好”，就能得到好东西呢！嘿嘿，如果是好多好多的糖果就好了~",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301324] = {
-		ship_group = 30132,
-		name = "乐园、回忆与棉花糖",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301324,
-		group_index = 4,
-		purchase_offset = "",
-		painting = "muyue_5",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue_5",
-		shop_type_id = 26,
-		shop_id = 0,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "182",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指挥官~不打起精神来可不行哦~我们还要去吃蛋糕~吃小摊热狗~玩转转茶杯~还有恐怖屋，还有……还有什么来着……不管啦~快牵手手出发吧~",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301329] = {
-		ship_group = 30132,
-		name = "{namecode:33}.改",
-		hand_id = 6,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 301329,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "muyue_g",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "muyue_g",
-		shop_type_id = 9997,
-		shop_id = 0,
-		illustrator = 34,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:33}级驱逐舰一番舰—{namecode:33}",
-		voice_actor = 49,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.711,
-					0.658,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.665,
-							2.175,
 							0
 						}
 					}

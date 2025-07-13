@@ -7,18 +7,18 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后将无法再次返回该处海域，是否确认离开？",
+			say = "Once we leave, it’s doubtful that we’ll ever come back here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Leave the zone.",
 					flag = 1
 				},
 				{
-					content = "取消",
+					content = "Look around more first.",
 					flag = 0
 				}
 			}

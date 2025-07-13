@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……这里有制作沙雕的工具呢。",
+			say = "{dorm3d}, there are tools for sand sculpting lying around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,14 +58,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然我在堆沙雕这方面没什么自信，但和你一起的话……",
+			say = "While I'm definitely no sculpting artist, I do want to try it with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们一起试试吧！",
+					content = "Sure. Let's give it a shot.",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "好，那我稍微准备一下就开始吧。",
+			say = "Great. I'll just get some things in order, then we'll start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "希望……做好的沙雕不会被海浪冲走。",
+			say = "Let's hope the waves don't wash away our sculpture once it's done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过就算冲走，和你一起制作沙雕的回忆也会永远留在心里呢。",
+			say = "But even if that happens, the waves can't wash away our memories of making it together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

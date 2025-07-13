@@ -2,7 +2,7 @@ pg = pg or {}
 pg.arena_data_template = {
 	{
 		id = 1,
-		display = "恭喜您，您获得本赛季竞技场的冠军，获得以下奖励。",
+		display = "Congratulations on placing first during this Arena season! Please accept your rewards.",
 		order = {
 			1,
 			1
@@ -17,7 +17,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 2,
-		display = "恭喜您，您获得本赛季竞技场的第2档奖励，奖励如下。",
+		display = "Congratulations on placing second during this Arena season! Please accept your rewards.",
 		order = {
 			2,
 			5
@@ -32,7 +32,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 3,
-		display = "恭喜您，您获得本赛季竞技场的第3档奖励，奖励如下。",
+		display = "Congratulations on placing third during this Arena season! Please accept your rewards.",
 		order = {
 			6,
 			10
@@ -47,7 +47,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 4,
-		display = "恭喜您，您获得本赛季竞技场的第4档奖励，奖励如下。",
+		display = "Congratulations on placing fourth during this Arena season! Please accept your rewards.",
 		order = {
 			11,
 			20
@@ -62,7 +62,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 5,
-		display = "恭喜您，您获得本赛季竞技场的第5档奖励，奖励如下。",
+		display = "Congratulations on placing fifth during this Arena season! Please accept your rewards.",
 		order = {
 			21,
 			50
@@ -77,7 +77,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 6,
-		display = "恭喜您，您获得本赛季竞技场的第6档奖励，奖励如下。",
+		display = "Congratulations on placing sixth during this Arena season! Please accept your rewards.",
 		order = {
 			51,
 			100
@@ -92,7 +92,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 7,
-		display = "恭喜您，您获得本赛季竞技场的第7档奖励，奖励如下。",
+		display = "Congratulations on placing seventh during this Arena season! Please accept your rewards.",
 		order = {
 			101,
 			500
@@ -107,7 +107,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 8,
-		display = "恭喜您，您获得本赛季竞技场的第8档奖励，奖励如下。",
+		display = "Congratulations on placing eight during this Arena season! Please accept your rewards.",
 		order = {
 			501,
 			1000
@@ -122,7 +122,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 9,
-		display = "恭喜您，您获得本赛季竞技场的第9档奖励，奖励如下。",
+		display = "Congratulations on placing ninth during this Arena season! Please accept your rewards.",
 		order = {
 			1001,
 			2000
@@ -137,7 +137,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 10,
-		display = "恭喜您，您获得本赛季竞技场的第10档奖励，奖励如下。",
+		display = "Congratulations on placing tenth during this Arena season! Please accept your rewards.",
 		order = {
 			2001,
 			3000
@@ -152,7 +152,7 @@ pg.arena_data_template = {
 	},
 	{
 		id = 11,
-		display = "恭喜您，您获得本赛季竞技场的参与奖励，奖励如下。",
+		display = "Thank you for joining this season of the Arena! Please accept your rewards.",
 		order = {
 			3001,
 			9999999

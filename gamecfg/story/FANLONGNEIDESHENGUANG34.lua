@@ -8,18 +8,18 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "鸢尾教国·首都",
+			say = "Iris Orthodoxy - Capital",
 			sequence = {
 				{
-					"鸢尾教国·首都",
+					"Iris Orthodoxy - Capital",
 					1
 				},
 				{
-					"指挥官办公室",
+					"Commander's office",
 					2
 				},
 				{
-					"几日后",
+					"Several days later",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "之后的几日没再出波折，我的生活也回归了日常工作状态中。",
+			say = "Several days have passed since the incident, and my life is fully back to the usual.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "海伦娜在得知了海洛芬特的状况后，表示要进行一些测试，目前还没有发来新的联络。",
+			say = "I told Helena about my run-in with Hierophant and said I wanted to run some tests, but she didn't get back to me about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "针对塞壬实验机关在全球各处残留设施的一系列作战行动也在有条不紊地制定中。",
+			say = "As for our plans to deal with what Sirens linger in the world, each of them is progressing steadily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "目前最接近完成的是针对NA海域的清理计划，毕竟是最先失去构建者的区域，清理起来最为方便。",
+			say = "The one closest to completion is our plan to clean up the NA Ocean. It's comparatively easy work since it's the area where Compiler fell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "这次作战预计会由皇家、鸢尾、铁血以及北方联合共同负责——",
+			say = "It will be led jointly by the Royal Navy, Iris Orthodoxy, Iron Blood, and Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "KNOCK KNOCK!",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，{namecode:435:俾斯麦}阁下发来了邀请函，希望您参加一场明日的外交晚宴。",
+			say = "Commander, Bismarck has extended an invitation to you. She wants you to attend a diplomatic dinner tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:435:俾斯麦}邀请我去……外交晚宴？还真是不常有的事。",
+			say = "An invitation from Bismarck? Those don't come every day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等……这个阵营徽记。",
+			say = "Hm? Hang on a second...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,20 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "接过邀请函后，邀请函上风车郁金香组合而成的徽记立刻引起了我的注意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_541",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……郁金王国么。",
+			say = "I accept the invitation. An emblem on the front, consisting of windmills and tulips, catches my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +167,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（原来如此……怪不得是{namecode:435:俾斯麦}在牵头。）",
+			say = "The Kingdom of Tulipa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +180,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道是要谈一些关于正在筹备的「低地条约」有关的事？）",
+			say = "(I see... That's why Bismarck is taking the initiative.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +193,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是说郁金王国的舰船化舰队取得了实质性进展……？）",
+			say = "(What are we going to discuss? That Lower Countries Treaty that they're drafting in Europa?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +206,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……事情要变得有趣起来了。）",
+			say = "(Or maybe it will be about Tulipan shipgirls?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +219,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "回复{namecode:435:俾斯麦}阁下，我一定准时到。",
+			say = "(Either way, color me intrigued.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +232,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "然后，明天你和我一起去吧。",
+			say = "Tell her that I'll absolutely be there.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_541",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "In fact, I want you to come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咦？！好呀！",
+			say = "Really? Sure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "——搞不好会有很多工作要谈呢。",
+			say = "There may be a lot of work we'll have to discuss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……、知道了！",
+			say = "Oh... Naturally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

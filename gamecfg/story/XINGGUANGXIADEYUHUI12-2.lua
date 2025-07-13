@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
 			bgm = "story-ironblood-strong",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,17 +75,17 @@ return {
 				}
 			},
 			location = {
-				"ID-AX-92号海域",
+				"Sea Region IB-AX-98",
 				3
 			}
 		},
 		{
 			side = 2,
-			actorName = "天外之兽群",
+			actorName = "Extradimensional Horde",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "吼——！！！",
+			say = "ROOOOOAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 401520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真难缠啊……又有一批追上来了！",
+			say = "Oh no... We're going as fast as we can, but they're faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……追兵比上一批更强了。",
+			say = "This horde is even stronger than the last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "鲁梅，这批天外之兽似乎正在试探中消耗我们。",
+			say = "Rumey, they're testing us and whittling away our forces all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "基地的进攻也在这一时间……我担心它们有了一个更高级的全局指挥者。",
+			say = "They attack our headquarters AND intercept us when we return to defend it... Something must be leading them, that's for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们现在的航线太容易被预测了，应该调整。",
+			say = "It's too dangerous to press on. Rumey, requesting a change of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领袖级的天外之兽么……自从塞壬消失之后，这种类型的天外之兽就逐渐消失了。",
+			say = "You think there's a Chief out there? Those things don't show up often ever since we lost the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至今已经有几十年没有出现过了，或许是你多心了。",
+			say = "The last one was decades ago. I know that you're concerned, but you must be overthinking it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在距离已经过半了，舰队损伤却忽略不计。",
+			say = "We're halfway through already, and we've sustained close to no damage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道你是谨慎型的指挥官，只是……在舰队离开后，基地十分空虚。",
+			say = "Your prudence is commendable, yes, but our defenses at HQ are thin without our main fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "二者相比，我们必须承担更高的风险……继续前进！",
+			say = "We have no choice but to risk it. Keep moving forward, now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

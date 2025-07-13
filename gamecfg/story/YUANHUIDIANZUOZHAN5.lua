@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450}，前方发现了敌方的增援！",
+			say = "Enemy reinforcements spotted!",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "这次的领队是……{namecode:437}的棋子！",
+			say = "It's Graf Zeppelin! A Pawn of her, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "只有{namecode:437}，没有其他护卫……？",
+			say = "One lone carrier without escorts? That's certainly a novel way of doing things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "看来对面的战术指挥能力相当的不行啊~",
+			say = "Even if she isn't commanding the Pawns directly, she should really retake Tactics 101. Heheh☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "不过{namecode:437}，我记得她当时的舰装完成度也比较……",
+			say = "Hey, isn't Zeppelin also still training with her rigging? It's why she couldn't make it for Bismarck's operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:437}？",
-			say = "………………",
+			actorName = "Graf Zeppelin?",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "也比较……………………哈啊？！！",
+			say = "The Z46 Pawn wasn't that tough, and I bet this one won't be much– Whoa, never mind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "？！！那、那个夸张的舰装是什么东西啊！？！",
+			say = "Gee-heesh! So that's how Zeppelin's rigging looks in action!",
 			effects = {
 				{
 					active = true,
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "好帅……而且看起来好强！要是我能有这样的舰装的话……",
+			say = "Impressive! Powerful! But she still can't compare to the one-and-only... ME!",
 			effects = {
 				{
 					active = false,
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "喂，别发呆，对面的舰载机攻过来了！",
+			say = "Alright, enough tooting those horns, and focus on shooting those planes down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			expression = 1,
 			blackBg = true,
-			say = "舰队，准备进行防空射击！",
+			say = "AA guns, let 'er rip!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

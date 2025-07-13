@@ -1,8 +1,159 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[91109] = {
+		cannon = 0,
+		name = "City Gang Submarine",
+		type = 8,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91109,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "diezhan_qianting",
+		star = 0,
+		torpedo = 0,
+		antisub_growth = 0,
+		rarity = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		icon_type = 8,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 10,
+		luck = 0,
+		antisub = 0,
+		scale = 135,
+		wave_fx = "danchuanlanghuazhong1",
+		prefab = "diezhan_qianting",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 98,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			10.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-1.08,
+					1.59,
+					0
+				}
+			},
+			torpedo = {
+				{
+					2.3,
+					0.6,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.097,
+					1.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"hit_bubble",
+						{
+							0,
+							0,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			3.5
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {},
+		bubble_fx = {
+			"bubble",
+			20,
+			3
+		}
+	},
 	[91110] = {
 		cannon = 0,
-		name = "优可可妮警部补",
+		name = "Assistant Officer U-552",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -153,7 +304,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91111] = {
 		cannon = 0,
-		name = "优米娜巡查部长",
+		name = "Police Sergeant U-37",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -304,7 +455,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91112] = {
 		cannon = 0,
-		name = "埃丝特警部补",
+		name = "Assistant Officer Z13",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -453,7 +604,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91113] = {
 		cannon = 0,
-		name = "海王星警部",
+		name = "Officer Neptune",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -602,7 +753,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91114] = {
 		cannon = 0,
-		name = "猉老师",
+		name = "Instructor Azuma",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -751,7 +902,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91115] = {
 		cannon = 0,
-		name = "泽特警部",
+		name = "Officer Zenker",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -900,7 +1051,7 @@ pg.enemy_data_statistics_37 = {
 	},
 	[91116] = {
 		cannon = 0,
-		name = "帝国警视长",
+		name = "Police Chief Impero",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2151,67 +2302,6 @@ pg.enemy_data_statistics_37 = {
 			100552,
 			100512,
 			100342
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 3
-			}
-		}
-	},
-	[663] = {
-		cannon = 390,
-		hit_growth = 0,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 17,
-		id = 663,
-		cannon_growth = 0,
-		rarity = 4,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		star = 5,
-		hit = 55,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90222,
-		durability = 100000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		armor = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 360,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					-0.96,
-					0.87,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			100202,
-			100352,
-			316061,
-			316055,
-			316056,
-			316057,
-			316058
 		},
 		buff_list = {
 			{

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"从内到外魅力MAX！\n\n<size=45>二　{namecode:175}的本意</size>",
+					"Hidden Charm\n\n<size=45>2 What's on Suruga's Mind</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "多亏了{namecode:175}，工作进展得十分顺利。",
+			say = "Work was progressing smoothly, in no small part thanks to Suruga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊——",
+			say = "Let's see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………‥‥嗯嗯。",
+			say = "Hmm... Hm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "除了她时而沉思的低吟之外，指挥室内便再无其他声音。无需给她额外指示，她自己就能很好地完成工作。",
+			say = "Every now and then she'd mutter a few words to herself, but beyond that, she did her job in total silence. In that regard, there was nothing to complain about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过遗憾的是，先前沉重的气氛并没有得到改善。大概是因为还没能理解她的真实心情吧。",
+			say = "However, not everything was perfect. The mood in the room was just as tense as when we started. I didn't know what was going through her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，最近交给我的工作都完成了。",
+			say = "I've completed the task you assigned me, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,37 +162,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在确认了报告之后，夸奖了她的工作成果。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305140,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "下一份工作是什么？积压的事务还不少吧，要不要我来接手……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "确实有些积压的工作，不过因为优先级并不高，所以大概并不需要让{namecode:175}接手。",
+			say = "\"Good to hear. You did a great job.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是么。哼，也就是说不放心交给我是吧。",
+			say = "What's next? I can see there's a lot of work on the back burner. Shall I take care of some of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +192,23 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "\"It's all right. You don't need to concern yourself with these particular tasks.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305140,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Uh-huh. I see... Do I take that to mean you're reluctant to assign me any important work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +222,21 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也不用说到这个份上吧——",
+			say = "That wasn't at all how I meant it. There was some hostility in her tone, and her question put me on the spot.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "I answered not with words, but with a nervous gaze, hoping she'd understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……哎，糟了……刚才我的举动太轻率了……）",
+			say = "(Oh no... Way to go, Suruga. You couldn't have made that more passive-aggressive even if you tried.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "二人",
-			say = "……",
+			actorName = "....",
+			say = "That wasn't at all how I meant it. There was some hostility in her tone, and her question put me on the spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:175}的心情看起来不怎么好啊……",
+			say = "(Just from looking at her, all signs point towards me having offended her in some way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（唉，指挥官生气了对吧……想来也是……）",
+			say = "(I'll bet the commander's furious with me... Which is a normal reaction to that attitude I just put on...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（如果一直这样下去，不如干脆……）",
+			say = "(If it's only going to get worse from here, it's time to reconsider the whole thing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "要不要卸任秘书舰？",
+					content = "\"Do you want to resign?\"",
 					flag = 1
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "关于秘书舰的工作，要不然你另请高明吧……竟然意见撞上了？！",
+			say = "Maybe I should resign as– Wait, what?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "果然她已经在考虑这种事了……",
+			say = "Strangely enough, we both got the same idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不……被任命为秘书舰，然后马上又辞掉的舰船……这也太难堪了……）",
+			say = "(Actually... Resigning would be a terrible idea.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（冷静下来想了想啊，{namecode:175}……还是别那么轻易就提辞职吧。）",
+			say = "(I'd be teased to no end if people found out I quit only hours after becoming secretary...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………看{namecode:175}这个反应，她的内心应该还是想继续当秘书舰的吧……？",
+			say = "In the end, I decided against discharging Suruga. I reasoned that we just needed time to get to know each other better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看来在彻底了解{namecode:175}前，即使是善意的建议也不该轻率地说出“卸任”这样的话……",
+			say = "It seemed to me she felt the same way. And so, we both agreed to do our best to get on amicable terms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

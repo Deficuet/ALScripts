@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>你又为何返回这痛苦的深渊</size>",
+					"<size=51>\"But thou, why goest thou back to such annoyance?</size>",
 					1
 				},
 				{
-					"<size=51>为何不攀登那明媚的高山？</size>",
+					"<size=51>Why climb'st thou not the Mount Delectable,</size>",
 					3
 				},
 				{
-					"<size=51>而这高山正是一切幸福的来由和开端</size>",
+					"<size=51>Which is the source and cause of every joy?\"</size>",
 					5
 				},
 				{
-					"<size=51>维吉尔如是说</size> ",
+					"<size=51>Asked Virgil, the poet, of I.</size>",
 					7
 				},
 				{
-					"<size=51>请告诉我，我的老师，请拯救我，我的救主</size>",
+					"<size=51>Please teach me, my teacher, please save me, my savior.</size>",
 					9
 				}
 			}
@@ -37,23 +37,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>以你不曾见识的圣主之名义，</size>",
+					"<size=51>In the name of the God you never knew,</size>",
 					1
 				},
 				{
-					"<size=51>帮我逃出这是非和受苦之地，</size>",
+					"<size=51>Help me escape this woe and torment.</size>",
 					3
 				},
 				{
-					"<size=51>把我带到你方才所说的地方，</size>",
+					"<size=51>Take me to the place of which you spoke,</size>",
 					5
 				},
 				{
-					"<size=51>让我能亲眼目睹圣{namecode:471}之门</size>",
+					"<size=51>That I may see the gate of Saint Peter,</size>",
 					7
 				},
 				{
-					"<size=51>看一看世间悲惨的灵魂——</size>",
+					"<size=51>And the souls of those so tormented.</size>",
 					9
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "最后还是没有来吗？",
+			say = "And in the end, they never came?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -102,7 +102,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "是的，从一开始交手的时候便通知了铁血空军和帝国空军",
+			say = "Correct. We informed the Iron Blood as soon as we engaged the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_italy_cg6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "但是他们都以夜间作战充满不确定因素等借口推脱了",
+			say = "They said something about \"night battle having too many unknown variables,\" but all I heard was a bunch of verbal garbage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "……",
+			say = "Hrmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "看来我们这次也要变成弃子了，就同维希教廷的战舰们一样…",
+			say = "Looks like we were never more than cannon fodder to them, just like the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 900198,
-			say = "口口声声说着帝国的艺术、罗穆路斯的希望",
+			say = "I was full of hope when we were brought into the Crimson Axis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "最后却只能成为任人笑话的喜剧演员吗？",
+			say = "But it looks like we are just pawns for their \"Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "马上就到午夜12时了，我们也该出发了",
+			say = "It's almost time for the denouement, Veneto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "是的，不论是喜剧还是悲剧，这出戏都该谢幕了，以它应有的方式",
+			say = "Indeed. This \"Reenactment\" is about to come to an end. The only thing left for us... is to decide whether it ends as a comedy or as a tragedy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

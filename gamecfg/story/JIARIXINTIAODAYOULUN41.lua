@@ -11,22 +11,22 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>邮轮上的诱人午后</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>41 An Afternoon on the Lido Deck</size>",
 					1
 				}
 			}
 		},
 		{
-			expression = 3,
+			hideRecordIco = true,
 			side = 2,
 			bgName = "star_level_bg_133",
-			hideRecordIco = true,
+			live2d = "login",
 			withoutActorName = true,
 			bgm = "story-niceship-soft",
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赶到泳池时，圣路易斯正优雅地趴在游泳圈上等待着。",
+			say = "I rush over to the pool, where St. Louis is relaxing on a swim ring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,149 +50,149 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900442,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "抱歉，临时有件工作要处理，来得比我们约的时间晚了些……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_133",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "没关系哦，指挥官。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_133",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "虽说一个人也别有一番滋味……但果然还是有你在身边比较好呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_133",
+			actor = 102134,
 			actorName = "{playername}",
+			hidePaintObj = true,
+			say = "Sorry I'm late. Some sudden work came up.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102134,
+			side = 2,
+			bgName = "star_level_bg_133",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "Don't be so worried about it, Commander.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102134,
+			side = 2,
+			bgName = "star_level_bg_133",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "Heheh, I can have plenty of fun on my own... but I am happier to have you around.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_133",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900442,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "抱歉让你久等了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_133",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "哎呀，怎么还在道歉……我并没有生你的气哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_133",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "不过如果指挥官实在觉得很内疚的话……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_133",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "就帮我补涂一下防晒乳吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_133",
+			actor = 102134,
 			actorName = "{playername}",
+			hidePaintObj = true,
+			say = "Sorry for making you wait.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102134,
+			side = 2,
+			bgName = "star_level_bg_133",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "Stop apologizing, silly. I'm not mad at you, or anything.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102134,
+			side = 2,
+			bgName = "star_level_bg_133",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "If you really want to make it up to me, though...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102134,
+			side = 2,
+			bgName = "star_level_bg_133",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "How about you help me put on a fresh layer of sunscreen?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_133",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900442,
-			nameColor = "#A9F548FF",
+			actor = 102134,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯？补涂……？",
+			say = "A fresh layer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "防晒乳的效果是会随着时间减少的哦～现在效力也差不多要过去了呢。",
+			live2d = true,
+			say = "Sunscreen loses effectiveness after a couple hours. I think mine's just about to wear off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,14 +203,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "被晒的留下痕迹就不好了。所以，拜托指挥官，帮我仔仔细细补涂一下哦？",
+			live2d = true,
+			say = "I don't wanna get sunburned. Won't you please, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "身体的每一处角落都不要落下哦？",
+			live2d = true,
+			say = "Don't miss a single spot, okay?♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,39 +239,39 @@ return {
 			},
 			options = {
 				{
-					content = "（点头）",
+					content = "(Silently get to work.)",
 					flag = 1
 				},
 				{
-					content = "当然没问题！",
+					content = "Leave it to me!",
 					flag = 2
 				}
 			}
 		},
 		{
-			expression = 1,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从圣路易斯手中接过了防晒乳，在她的引导下开始了补涂工作。",
+			say = "I accept the sunscreen and start applying it as directed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "呵呵～没错，就是那里……",
+			live2d = "main2",
+			say = "Heehee... Yeah, right there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,14 +282,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "指挥官要仔仔细细地、温柔地用你的手指哦……",
+			live2d = true,
+			say = "Gentle and careful fingers, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,29 +300,29 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
+			live2d = true,
+			hideRecordIco = true,
+			actor = 102134,
 			actorName = "{playername}",
-			hideRecordIco = true,
-			actor = 900442,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "哎呀，指挥官认真的样子，还真是可爱呢……",
+			live2d = true,
+			say = "Heehee, you're adorable when you're so focused, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,14 +333,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "嗯……指挥官可以帮我把那里再拉开一点点吗？",
+			live2d = true,
+			say = "Mm... Ah, can you just move my swimsuit aside there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,14 +351,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "衣服的位置调整起来有点麻烦呢，就拜托指挥官帮我了哦。",
+			live2d = true,
+			say = "It's hard to reach myself, so you'll have to do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,14 +369,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "对，就是这个位置……再拉开一点点。",
+			live2d = true,
+			say = "Yeah, right there. A little more, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,14 +387,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "嗯~再拉开一点点也没关系啦，呵呵~",
+			live2d = true,
+			say = "Heehee. I won't complain if you go further.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,15 +405,15 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在圣路易斯耐心细致的引导下，我顺利帮她涂抹完了防晒乳。",
+			say = "With St. Louis's patient guidance, I manage to get her covered in sunscreen again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,14 +437,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "呼~再来口冰饮~完美。这样就可以尽情享受太阳了~",
+			live2d = "main1",
+			say = "Phew... Quick sip of a nice, cold drink... Perfect. Now I can really bask.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,14 +455,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "那么~作为刚刚帮我补涂防晒乳的奖励，指挥官也来喝一口如何？",
+			live2d = true,
+			say = "Want a sip, Commander? As a reward for helping me out♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,14 +473,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "冰冰凉凉很清爽哟？",
+			live2d = true,
+			say = "It'll cool you right down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,29 +491,29 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
+			live2d = true,
+			hideRecordIco = true,
+			actor = 102134,
 			actorName = "{playername}",
-			hideRecordIco = true,
-			actor = 900442,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是吸管……",
+			say = "But the straw...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "只有一根？当然啦？我一个人的时候也用不上两根吸管嘛~",
+			live2d = true,
+			say = "You're bothered that there's only one? Heehee, well, do you expect me to get two when I'm drinking it myself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,14 +524,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "好啦~再犹豫下去冰块都要化了。给——",
+			live2d = true,
+			say = "Come on. Keep waiting, and the ice will melt. Drink up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,44 +542,44 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰饮顺着吸管流入口中，确实让身体清爽了不少。",
+			say = "The cold drink flows through the straw and into my throat. Heat seems to drain out of me all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "余光之中，圣路易斯也在泳圈上换了一个舒服的姿势。",
+			say = "I glance at St. Louis. She's changed into a comfy position to lie on her floatie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "指挥官，既然防晒乳已经涂完了，就一起来享受一会儿吧？",
+			live2d = true,
+			say = "Now that you've finished putting my sunscreen on, do you wanna sunbathe with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,14 +590,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "现在的阳光和海风，可正是舒服的时候呢~",
+			live2d = true,
+			say = "Nice rays, a sea breeze... It's just right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,14 +608,14 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "嗯~我想想，指挥官也不用费力再去拿一个游泳圈了，就和我挤在一起怎么样？",
+			live2d = "mission",
+			say = "Your swim ring... Hmm, going to get it seems like unnecessary effort. Just come join me on mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,14 +626,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "虽然稍微有些小……但只要贴紧的话，容纳下我们两个还是没问题的哦。",
+			live2d = true,
+			say = "It might be a little cramped... but if we snuggle tight, we'll fit just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,14 +644,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "何况身体贴在一起……这悠闲的时光都变得更加甜美了呢~♥",
+			live2d = true,
+			say = "Besides... I think it might be more fun that way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,44 +662,44 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听从圣路易斯的建议，我也爬上了游泳圈。",
+			say = "I do as she says and try getting on the floatie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900442,
+			actor = 102134,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣路易斯轻轻挑眉，露出一抹妖艳的微笑。",
+			say = "She smiles coquettishly at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 4,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "呵呵，那么……就开始好好享受这段甜美惬意的时光吧。",
+			live2d = true,
+			say = "Heehee, now... Let's have fun together...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,14 +710,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 102134,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900442,
-			say = "指、挥、官～",
+			live2d = true,
+			say = "Commander♥",
 			painting = {
 				alpha = 0.3,
 				time = 1

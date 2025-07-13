@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在曲折蜿蜒的洞穴里走了许久，最终在洞穴深处发现了一些带有明显加工痕迹的材料。",
+			say = "After a long walk through the snaking cave, you eventually find wooden boards and stones with clear signs of handicraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,9 +15,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "绫波",
+			actorName = "Ayanami",
 			nameColor = "#A9F548FF",
-			say = "看起来这里是一处废弃的仓库呢……",
+			say = "It seems this cave was once used for storage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "拉菲",
+			actorName = "Laffey",
 			nameColor = "#A9F548FF",
-			say = "没找到软软的枕头……失望。",
+			say = "And there's no fluffy pillows to be found. Sad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:408}",
 			nameColor = "#A9F548FF",
-			say = "……那种东西想想也知道不可能有的嘛。",
+			say = "What were you expecting? Please use your common sense, Laffey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "旅行途中的意外收获——获得了一些材料！",
+			say = "A surprising find – you obtained a small quantity of crafting materials!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

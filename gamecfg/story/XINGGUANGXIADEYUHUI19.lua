@@ -14,15 +14,15 @@ return {
 			bgm = "battle-xinnong-image",
 			sequence = {
 				{
-					"撒丁帝国",
+					"Sardegna Empire",
 					1
 				},
 				{
-					"原博览会会场",
+					"Former World Expo Venue",
 					2
 				},
 				{
-					"四季花馆",
+					"Sakura Empire Pavilion",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "又过了两日，终于到返魂仪式启动的时间了。",
+			say = "The day to perform the Rite of Return had come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "四季花馆中的众人已经做完了所有能做的事，此刻只能屏气凝神，静静等待着。",
+			say = "The shipgirls had done everything that they could. Now they could only wait with bated breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "金色的蝴蝶伴随着流光出现，在空中翩然纷飞。",
+			say = "Along with a surge of light, golden butterflies appeared and flew through the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "被蝴蝶触碰过的结界亦一层层开始运转，如同一台正在苏醒的机器。",
+			say = "The butterflies touched the barriers one by one, lighting them up like machines coming to life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "这样的场景在万里之外的龙宫城中亦同时发生着。",
+			say = "Elsewhere, this same ritual was being held.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "经过改造的四季花馆，俨然已经成为了仪式分会场一般的存在。",
+			say = "In the east, inside the Dragon Palace within the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这就是重樱的……“仪式”，看上去……比电影里的特效厉害多了。",
+			say = "Wow... This ritual is way more impressive than the ones in Bell's movies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "我能感受到一种奇妙的力量在身边流动，仿佛能够触碰灵魂一样……",
+			say = "It feels like some strange power is surrounding me... Are these \"souls\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "紫色蝴蝶从流光中诞生，与金色蝴蝶相伴而飞。",
+			say = "After the golden butterflies came ones dyed purple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "在二色蝴蝶的交织中，众人仿佛看到了荒芜的大地绿意盎然、破碎的楼宇光鲜如初、逝去的灵魂重现笑颜。",
+			say = "The two joined in a colorful dance, restoring life to the ruined land and renewing the decayed building. Their fallen comrade opened her eyes once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……{namecode:84:武藏}，汝回来了啊。",
+			say = "Musashi... You are back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太好了，{namecode:91:赤城}，仪式顺利进行了呢。",
+			say = "Isn't this wonderful, Akagi? The ritual was a success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……太好了。",
+			say = "Yes... It's wonderful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "光华流转，凝聚成了一位少女的虚影。",
+			say = "Whilst the lights from the barriers mixed, another person appeared inside the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:83:大和}大人托我向诸位问好。",
+			say = "Lady Yamato has ordered me to pass on her congratulations on the successful ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，{namecode:84:武藏}大人已经复生，并且知晓了接下来要做的事。",
+			say = "Lady Musashi is back to normal and knows what must be done next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仪式的影响力也已经扩展至全球，该启动寻觅指挥官的法阵了。",
+			say = "With the ritual complete, it is now time to activate the magic circle with which to find the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "了然。",
+			say = "Most splendid...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "蓝色的蝴蝶从光芒中诞生，与金色蝴蝶和紫色蝴蝶相伴而飞。",
+			say = "A third butterfly – a blue one – spread its wings in the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "在三色蝴蝶的交织下，四季花馆的地面与墙壁快速消失着。",
+			say = "The power of the barriers warped the floor and walls around them, revealing dozens more hidden magic circles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "不久后，众人仿佛立于一片星空之中，唯有一环又一环形态各异的法阵依然在精密运作着。",
+			say = "The illusory night sky overhead and the myriad of ritual barriers below began to glow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好，作为“追踪指针”的人选好了么？",
+			say = "Have you chosen a tracking pointer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "追踪指针，顾名思义为寻觅法阵中用于找到指挥官方位之人。",
+			say = "The tracking pointer was the person who would determine the magic circle's search range to locate the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "在法阵执行期间，追踪指针需要一直位于阵枢，引导法阵的力量驱散幕后黑手在世间留下的认知干扰影响。",
+			say = "This person had to remain at the heart of the magic circle, using the ritual's power to ward off cognitive interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "也因此，其需要承受庞大力量的反复冲刷，还要从随之而来的海量信息中一寸一寸寻找指挥官存在的痕迹。",
+			say = "Not only would the person have to endure the burden of controlling this mighty power, but they at the same time needed to pin down traces of the Commander amidst an incoming flood of information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "因此，追踪指针不但需要极大的毅力进行搜索，还需要承担长时间搜索给身心带来严重损伤的风险。",
+			say = "This required a resilient mind, and the process could inflict serious harm if sustained for a long period.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "选好了，指针由我来。",
+			say = "I will do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}，如果撑不住了就出来，别逞强，还有姐姐呢。",
+			say = "I'm here if you need to stop. Don't overdo it now, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，放心吧。",
+			say = "I know. I won't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我虽然没有如姐姐一般的神石亲和性，不过我拥有神石网络的权限，这种仪式还伤不到我。",
+			say = "While I'm not as compatible with the Watatsumi as you, I'm more than sufficient for the task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为“引导标记”的人选呢？",
+			say = "Very well. Who shall be the guiding mark?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "引导标记，顾名思义为能够依靠标记进行定位，加快指针寻找目标的人员。",
+			say = "The guiding mark was the one responsible for denoting the target and aiding with the pursuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,20 +461,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "原本的仪式中是没有这样一个位置的，不过{namecode:83:大和}在得知了孟菲斯赠送指挥官手帕的事之后，临时调整了阵法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "star_level_bg_589",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官身上带着的是我的手帕，也只能由我来了。",
+			say = "Whilst the original ritual had no such position, it was added in light of the handkerchief that Memphis gave to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +474,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家放心，我一定会成功把指挥官带回来的！",
+			say = "Well, seeing as Clemenceau isn't here, and it was my handkerchief, I'll do it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "star_level_bg_589",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Don't worry. Akagi and I will bring the Commander home safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，请两位入阵吧。",
+			say = "Both of you step into the magic circle, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走吧。",
+			say = "Of course. I'm ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}与孟菲斯分别踏入了星空之中的两处阵枢。",
+			say = "Akagi and Memphis set foot inside the magic circle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "而后，飞舞中的三色蝴蝶逐渐构成了三道快速旋转的圆环，将二人包裹在内。",
+			say = "The lights dancing through the air spun around the circle and formed rings, then turned into columns of light that encased the two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "（指挥官……等我。）",
+			say = "(Wait for us, Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……）",
+			say = "(I'm coming to save you, my dear Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阵起，寻踪——！",
+			say = "Magic circle, activate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

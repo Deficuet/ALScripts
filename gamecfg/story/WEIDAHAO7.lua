@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>七　是结束也是开始</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>The End, or the Beginning</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一段时间后，奖品领取处——",
+			say = "Shortly afterward, at the reward exchange booth...",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -48,8 +48,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "勇敢的海盗大人，请选择您的通关奖品。",
+			actorName = "Speaker",
+			say = "Brave pirates, please choose your reward!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "呼啊……终于可以领奖品了。",
+			say = "Ahhhh... Finally, the time has come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "维达罕见的精神了一些，“噔噔噔”地走向了礼品区。",
+			say = "She bounces toward the prize area with an uncharacteristic spring in her step.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "超级薯片限量大礼包，海盗厨房典藏版，人体工学枕头，还有……",
+			say = "Super-Mega-Exclusive Potato Crisps Set, Pirates' Kitchen: Don't Fall in Love Together, Collector's Edition, Instant-Sleep Human-and-Shipgirl-Tested Ergonomic Pillow, and also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "感觉哪个都想要，好难选出来……",
+			say = "Urgh... I want everything. It's way too hard to choose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "唔……指挥官，解谜过程你也很辛苦，要不你来决定吧。",
+			say = "Hmm, actually... Commander, you really did all the heavy lifting back there. It's only fair that you decide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "维达懒洋洋地靠了回来。",
+			say = "She leans into me lazily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,22 +140,22 @@ return {
 			hidePaintObj = true,
 			recallOption = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Fair enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "超级薯片限量大礼包？",
+					content = "The Super-Mega-Exclusive Potato Crisps Set?",
 					flag = 1
 				},
 				{
-					content = "海盗厨房典藏版",
+					content = "What about the Pirates' Kitchen collector's edition?",
 					flag = 2
 				},
 				{
-					content = "人体&船体工程学枕头",
+					content = "What about the instant-sleep ergonomic pillow?",
 					flag = 3
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……也好。这个薯片限定礼包口味极佳，而且不是靠钱就能轻松买到的……",
+			say = "Hmm... Sounds good. There are some delicious flavours that even money can't buy, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "维达轻轻拿起了超级薯片限量大礼包，但目光仍有些不舍地看着其他奖品。",
+			say = "She weighs the luxurious-looking snack pack in her hands, but she still seems reluctant to part with the other treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……也好。海盗厨房是款评分很高的双人游戏，典藏版还附带一种不论如何都能让客人满足的食谱……",
+			say = "Hmm... Sounds good. It's a highly-rated two-player co-op game, and the collector's edition is said to come with a legendary recipe that nobody can say no to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "维达轻轻拿起了海盗厨房典藏版，但目光仍有些不舍地看着其他奖品。",
+			say = "She quietly picks up the collector's edition vintage video game, but she still seems reluctant to part with the other treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……也好。要是很舒服的话，也可以借给指挥官用哦……",
+			say = "Hmm... Sounds good. If it works for me, I'll let you use it, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "维达轻轻抱起人体&船体工程学枕头，但目光仍有些不舍地看着其他奖品。",
+			say = "She gently picks up the comfortable-looking pillow, but she still seems reluctant to part with the other treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Fair enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来，这三个奖品都十分优秀，令人难以取舍啊——",
+			say = "Everything here looks quite valuable, so it's hard to choose just one thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "是啊……好难抉择……",
+			say = "Right? It's what I said before. Deciding is such a hassle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "选择这些奖品作为密室逃脱奖励的{namecode:98:明石}，真的很有品味呢——",
+			say = "Though, that just goes to show that Akashi knows how to attract people with prizes they would want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "是啊……不得不说，她在这方面确实很有品味……",
+			say = "That much I can agree with. She does have pretty good taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "整个密室逃脱流程也设计得相当好呢——",
+			say = "The overall flow of the escape room was well thought-out too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "嗯……？喔——",
+			say = "Huh? Oh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "是啊——不但有战斗，有解密……还有让人在暴风雨中瑟瑟发抖几个小时的设计。",
+			say = "Yeah, I guess so. There were battles and puzzles... and even hours spent shivering in a fierce storm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是一次逼真又美好的体验呢——",
+			say = "I suppose that averages out to an eleven out of ten~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "可惜……要拿走另外两份奖励，我和指挥官只能再通关两遍全流程……",
+			say = "But, you know, if I want the other two prizes, I'll have to complete the challenge two more times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "指挥官也只好再在暴风雨中瑟瑟发抖好多个小时了——",
+			say = "Think I can trouble you to endure the storm a few more times?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +392,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "……喵？！！",
+			actorName = "Speaker",
+			say = "...Nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,8 +410,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "咳咳……恭、恭喜两位勇敢的海盗大人。",
+			actorName = "Speaker",
+			say = "A-ahem! A heartfelt congratulations to our two brave pirates here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,8 +423,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "因为二位在冒险中的出色表现，已经达成了密室逃脱的白金成就。",
+			actorName = "Speaker",
+			say = "For your outstanding performance, we are proud to bestow upon you this platinum trophy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,8 +436,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "因……因此，两位可以直接带走全部三份奖品……喵！",
+			actorName = "Speaker",
+			say = "S-so, in other words, all three of today's prizes are yours for the taking, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "……真的么？{namecode:98:明石}，你人真好。",
+			say = "...Wait, seriously? I had the wrong impression of you after all, Akashi~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,8 +463,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "那是喵，那是喵……",
+			actorName = "Speaker",
+			say = "Wh-why of course, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,8 +476,8 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "广播音响提示",
-			say = "喵哈哈……哈哈……哈……",
+			actorName = "Speaker",
+			say = "Nyahaha... haha... ha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "呼啊……回去之后就可以躺在软软的枕头上，一边吃薯片，一边打游戏……",
+			say = "Aaaaahhhh... Finally, as soon as I get back, I can kick it and sink into this pillow while enjoying these new potato crisps and playing this new game...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "指挥官……谢谢你啦。",
+			say = "What a day it has been... Thanks for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还要感谢一下某绿头猫咪的慷慨。",
+			say = "You really should be thanking Akashi's generosity, if anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "噗……",
+			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "随着夜幕落下，灯火逐渐亮起。",
+			say = "As the sun starts to dip beneath the horizon, lights come to life all around us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "维达满足地抱着奖品，倚靠在我的身边，眼中盛着光，对我露出了笑容。",
+			say = "She leans into me with a satisfied smile on her face and a lustrous twinkle in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "虽然我真的好累……",
+			say = "Having all that said though, what a pain all of that was~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,18 +598,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "不过，偶尔这样子跟指挥官一起出来玩，感觉也很不错。",
+			say = "Well, I guess it's not all bad, going out to have fun with you outside every now and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我也是，跟维达玩得很开心。",
+					content = "Same here. I had a great time with you.",
 					flag = 1
 				},
 				{
-					content = "我也是，和维达在一起很开心。",
+					content = "Yeah, totally. Today was a ton of fun.",
 					flag = 2
 				}
 			}
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "嘿嘿……总之我就是很喜欢指挥官啦，以后也一直在一起吧……",
+			say = "Heehee. Anyway, I think you're pretty awesome, so I hope we can continue to have fun together forever~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "说起来，那个密室主题店，我刚刚看到下次主题更新好像是在十天后……",
+			say = "By the way, I heard that the escape room game's going to change to a new theme in ten days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "到时候一起去么？",
+			say = "Wanna give it another go after that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你竟然会想主动出门了？",
+			say = "Well, well. I never thought you'd be the one asking me out on a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "和你在一起，偶尔的话……还是很有趣的……",
+			say = "Why not? You're pretty fun to be around, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "况且，或许还会遇到那种坐着不动几个小时就能通关的关卡……",
+			say = "Besides, I like sitting in the corner and letting you clear the entire stage for me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个可能，不会有了吧。",
+			say = "I think that's gonna get patched out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "噗……嘿嘿嘿。",
+			say = "Boooo. Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "那就到时候看到奖品之后再说~",
+			say = "Well, I guess we can make up our minds after we take a look at the prizes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "现在的话——",
+			say = "As for right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "维达紧紧牵住了我的手。",
+			say = "She takes my hand and gives it a good squeeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "我们还是赶紧回去玩海盗厨房吧！",
+			say = "Let's go and play Pirates' Kitchen together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

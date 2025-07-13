@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……买了小鸭子……！",
+			say = "Anchorage... bought a rubber ducky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "放进浴缸，游来游去……发出，声音！像，真的！",
+			say = "In the tub, it swims and floats around... and quacks! Like a real ducky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "洗澡，一定开心！{dorm3d}，来和安克雷奇，一起玩~",
+			say = "Baths are fun! {dorm3d}, come play with Anchorage...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

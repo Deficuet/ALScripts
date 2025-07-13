@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "来到大商场时，看到了皱着眉头陷入沉思的华甲。",
+			say = "When I reach the mall, I find Hwah Jah apparently lost in thought.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "华甲？怎么了，遇到什么烦心事了么？",
+			say = "Hwah Jah, what's wrong? Worried about something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "啊，指挥官。其实只是今天这里有大促活动，我在思考买哪些能凑到满减的最低价。",
+			say = "Oh, Commander. There's a big sale going on today, and I'm trying to figure out what to buy on discount to save the most money.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "指挥官也是知道了这件事所以来的吗？要不要一起享受凑满减的乐趣？",
+			say = "Did you come for the sales, too? We could discount shop together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（大促活动、满减折扣、低价……这几个关键词组合在一起总有种不妙的预感。）",
+			say = "(Big sales, maximizing savings, cashback... I don't like seeing all of these buzzwords together.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "华甲，你知道这个大商场的股东是谁么？总感觉这个活动像{namecode:98:明石}的手笔……",
+			say = "Do you know who owns this mall? This smells like something Akashi would do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……大商场是定安提议投资建设的，当时她觉得很有商机所以做了提案，她手中肯定是有股份的呢。",
+			say = "Hmm... Ting An was the one who proposed investing in and constructing a shopping mall first, so I'm sure she must be a major shareholder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "不过，前期她有找我一起帮忙处理招股方面的内容，当时同意入股的我记得有撒丁的罗马、白鹰的圣路易斯……",
+			say = "She did ask me to help recruit shareholders, though. As I recall, Roma and the St. Louis were the primary buyers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "铁血的{namecode:440:腓特烈大帝}好像也是股东……不过我当时没有仔细看，所以不记得有没{namecode:98:明石}参与了。",
+			say = "Friedrich der Große of the Iron Blood, too... But I didn't get a good look at the list of names, so I can't remember if Akashi was involved.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官如果有顾虑的话，我们一起在购物时实际算算折扣看看？",
+			say = "If you're worried, we could try calculating the discounts while we shop. Would that help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Yeah. Let's do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "和华甲一起在大商场中一间间商铺逛着。",
+			say = "Hwah Jah and I look around the shops together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "在来到贩售日常用品的超市时——",
+			say = "We eventually reach a store selling daily necessities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贵安，指挥官、华甲小姐。你们也是来参与今天的促销活动的么？",
+			say = "Master, Miss Hwah Jah. Good day to both of you. Have you two come to partake in the sales campaign today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "算是吧。",
+			say = "Yeah, just about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官~既然也是来买东西的，不如大家一起结伴逛逛吧？",
+			say = "Commander~ Let us come shopping with you for once~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101031,
-			say = "指挥官……可以推着我走吗？我已经完全不想动了……",
+			say = "Commander, umm... Can you push the cart for me? I'm tired of moving...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……那么，指挥官、华甲小姐，你们要不要和我们结伴购物呢？",
+			say = "Heehee. May we join the two of you, Master and Miss?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然可以。",
+			say = "Sure. The more, the merrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也没问题哦~",
+			say = "Fine with me, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "一段时间后。每个人手中或多或少都有了几件挑选好的心仪商品。",
+			say = "Before long, everyone has gathered varying quantities of spoils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，您不打算买些什么吗？",
+			say = "Master, is there nothing you want?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 808011,
-			say = "就是说啊，虽然在逛商场，但指挥官什么都没买呢。",
+			say = "Whoa, you're not kidding. We all bought so much stuff, but the Commander's hands are empty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……反而一直在帮我们付款，有些过意不去呢。",
+			say = "Yeah... The Commander even paid for all of our things. Now I feel really bad...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101031,
-			say = "指挥官……你是不是累了？",
+			say = "Commander, are you tired?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我确实没什么想买的。",
+			say = "There wasn't anything I wanted, really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，我在付款的时候发现这满减促销活动的优惠力度居然真的很大……",
+			say = "But when I was paying, I couldn't help but notice – these discounts are no joke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "这下指挥官可以放心了呢，呵呵。",
+			say = "Does that make you feel at ease, Commander? Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（太好了……看来那只猫的魔爪没伸到这里来。）",
+			say = "(Phew... Finally, a place that Akashi hasn't gotten her demonic paws on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 808011,
-			say = "咦？说起来，你们有看过商品标签么，这里的商品好像都被同一家生产商垄断了欸。",
+			say = "Huh? Speaking of, look at the tags. All of our stuff came from the same exact manufacturer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我已经看过了，全都写着Made in {namecode:98:明石}工坊。",
+			say = "Yes. I've already confirmed that every product bears the inscription, \"Made in Akashi Workshop.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "哎呀……指挥官，这下……",
+			say = "Umm... Commander, do you think...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "在向定安确认了可以随时拨打售后热线后，送华甲她们各自回到了自己的舱室。",
+			say = "After confirming our customer support concerns with Ting An, I see the girls back to their rooms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "现在闲下来了，再去哪里转转吧。",
+			say = "Now that I'm free again, I might as well check out some other places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "港区·训练场",
+			say = "Port - Training Grounds",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂~！拜托了喵~！",
+			say = "Heeey! I'm beggin' ya, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "一个晴朗的午后。在港区边缘的广场上，{namecode:98:明石}正纠缠着那位来自异乡的访客。",
+			say = "On one sunny afternoon, in a plaza on the outer edge of the port, Akashi could be seen pestering a certain guest from another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,99 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "而且……看起来相当执着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 312010,
-			say = "只、只要一下下就好喵！真的只要让我稍微瞄一下下就好喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "像是把它拆成零件然后详细测量并记录之类的事情，{namecode:98:明石}真的不会做的喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201010,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……这是个什么情况？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301180,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}的老毛病又犯了，因为她听说那位客人的武器似乎非常厉害，所以就……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201010,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "怪不得……听到这种消息的话，{namecode:98:明石}肯定会坐不住的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301180,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而且据说那位客人在前一阵子的作战中大显身手……会对她的武器的构造产生好奇也无可厚非吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201010,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "如果那真的是那么厉害的东西的话，我也想凑过去看一看呢！",
+			say = "Quite persistently, at that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +87,99 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "真的只是看看喵！我会好好忍耐的喵！所以求求你让我看看喵！",
+			say = "J-just for a little bit, nya! I just want a little peek is all, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I swear I won't ask you to let me disassemble it and inspect every part, nya, I mean it!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201010,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What's going on here?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301180,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Akashi's back to her old tricks. Apparently she's fascinated with our guest's weapon, or something...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201010,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Oh... No wonder. I'm not surprised that cat's champing at the bit to see it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301180,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "She was quite a force to be reckoned with in the recent operation, I hear... Maybe that's part of why Akashi's so curious about how her weapon is made...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201010,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "If it's that incredible, then I wanna get a look at it, too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "Just a peek, nya! I'll make do with one very long, loving stare, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……拒绝。",
+			say = "...I refuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇……被对方干脆利落地拒绝了呢。",
+			say = "Whoa! She rejected her just like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直就像是对待小喽啰一样呢，哈、哈、哈……",
+			say = "She acts like she's talking to pure garbage. Heeheehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "别、别说这么小心眼的话喵！",
+			say = "D-d-don't be hasty, nya. Give it some thought, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这样吧！作为交换，就让你见识一下{namecode:98:明石}的特别藏品喵！这样总该可以吧喵！",
+			say = "I know! In return, I'll show you my special collection, nya! How's that sound for a trade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "每一件藏品都十分宝贵，所以尽管心怀感激地痛哭出来吧喵！",
+			say = "They're all super valuable, so you should be crying from joy, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首先是白鹰联邦所属的警员使用过的特制手枪喵！你看，这枪管的长度是如此美丽喵！",
+			say = "First, look at this special pistol used by the Eagle Union's police force, nya! Behold the length of its barrel, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……我对古董没兴趣，而且，这种东西对你的舰装也完全造成不了伤害。",
+			say = "...I'm not interested in antiques. That toy couldn't even damage your rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "呶呶呶……那么十年前发售的电脑怎么样喵！这在当初可是特别值钱的高级货喵！",
+			say = "Nnngh... Then what about this computer released ten years ago, nya?! It cost a pretty penny, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……现在已经没用了。",
+			say = "...Sounds useless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "咕呶呶呶！那这个东西怎么样！88毫米高射炮，在众多电影中大受欢迎的存在！当然，至今它依然能够正常使用！",
+			say = "Hnnnngh! Then what about THIS, nya?! An 88mm anti-aircraft gun – a classic, super popular in all sorts of films, nya! And it's still in perfect working order, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "把这么大的东西搬进港区……要是指挥官知道了肯定要生气的……",
+			say = "She brought that giant thing into the port? She's in for it the moment the Commander finds out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "然而即便是面对突然出现在眼前的巨型高射炮，BLACK★ROCK SHOOTER的神情也依旧没有丝毫动摇的迹象。",
+			say = "Even faced with the huge anti-aircraft gun, BLACK★ROCK SHOOTER was unmoved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是认真的喵！希望你能好好考虑一下喵！",
+			say = "Whaddya say, nya? Think long and hard about it, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "如果能让{namecode:98:明石}研究一下那件武器，{namecode:98:明石}就能学到新的技术喵！这样一来，也能为港区的大家提升战斗力喵！",
+			say = "If I get to study that weapon, I'll learn new tech from it, nya! And then I can make everyone in the port stronger, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "这是件非常有意义的事，对大家也都有帮助……你不这么认为吗喵？",
+			say = "It'd be the kindest thing you can do, the most helpful thing of all, nya... Don't you see, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "偷偷告诉你，她所说的提升战斗力的方式其实就是开发然后销售新的装备。",
+			say = "There's something you should know. Her method for \"making everyone stronger\" is all about developing and selling new gear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "换句话说，她就是为了赚钱而已。",
+			say = "In other words, this is just a get-rich-quick scheme.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……是这样吗？",
+			say = "...Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "别说这种多余的话喵！！！",
+			say = "Stay outta this, nyaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "伴随着几乎足以响彻港区的悲鸣声，{namecode:98:明石}像是被戳到了痛处般一溜烟逃跑了。",
+			say = "Akashi's pained screams echoed through the port as she ran away, utterly defeated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,8 +483,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98:明石}",
-			say = "可恶，别以为{namecode:98:明石}会就这么轻易放弃喵！",
+			actorName = "Akashi",
+			say = "Don't think you'll get rid of me that easily, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,8 +514,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98:明石}",
-			say = "那件武器……我一定要研究明白喵！",
+			actorName = "Akashi",
+			say = "I'm gonna get my paws on that weapon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,9 +528,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
-			actorName = "{namecode:98:明石}",
+			actorName = "Akashi",
 			hidePaintObj = true,
-			say = "特制无人机部队，出发喵！",
+			say = "Special drone unit, deploy, nyaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 11200010,
-			say = "……嗯？有股异样的感觉……是天上吗？",
+			say = "Hm? I sense something... in the sky?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206060,
-			say = "{namecode:37:夕张}，你又做了新的无人机吗？",
+			say = "Yuubari, didn't I tell you to cut it out with the RC drones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可不记得有那种事……难道是法戈的运输无人机吗？",
+			say = "Don't look at me. It could be Fargo's drones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "在聚集有众多舰船的港区内，就算是隐形的飞行器也无法逃离她们的敏锐感知。",
+			say = "Even stealth drones are sure to be discovered by the keen senses of the many shipgirls within the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,21 +609,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "然而……就在大家将注意力都放在无人机上的时候——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 312010,
-			say = "哼哼哼……无人机只不过是诱饵罢了，真正的杀招是{namecode:98:明石}的空降突袭喵！",
+			say = "However, while everyone is distracted by the drones...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +623,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "把你的武器交出来喵！",
+			say = "Heheheheh... The drones are just bait, nya! My surprise aerial assault is the real danger, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "Now show me that weapon, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……危险。",
+			say = "...Watch out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "啊……",
+			say = "Bwuh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "在空降突袭被轻松躲开后，{namecode:98:明石}就这么直挺挺地砸进了地面。",
+			say = "After her assault is easily evaded, Akashi's momentum sends her crashing straight into the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……咦？怎么回事？那个……你没事吧？",
+			say = "...Are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,20 +699,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "片刻后——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 299010,
-			side = 2,
-			bgName = "star_level_bg_526",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "也就是说……刚才从天而降的并不是钻地炸弹，而是{namecode:98:明石}？",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +712,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的，这家伙还是跟以前一样喜欢乱来……所以，这次{namecode:98:明石}又是为了什么要这么做呢？",
+			say = "Wait, that wasn't a bunker buster? Akashi was the one that fell out of the sky?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 299010,
+			side = 2,
+			bgName = "star_level_bg_526",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Good grief. She's always such a handful... What was she after, anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "谁知道呢……？",
+			say = "I don't know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘛，反正肯定是又是为了商业调查之类的事吧……不过对你来说，就算做到这种程度也要拒绝她吗？",
+			say = "Well, I'm sure it was for the sake of her business, somehow... But if she's so insistent on it, are you sure you can't let her have her way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……也不是。只是她有点太拼命了，我有点担心她会做出别的什么事来。",
+			say = "...I don't care, but her desperation makes me worry about how far she'll go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……想要调查什么的话，我其实无所谓。",
+			say = "If she's just trying to find out about it... then that's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那可以在指挥官的监督下让她稍微研究一下吗？就算是一小会也没关系。",
+			say = "Then would you be willing to let her see your weapon under the Commander's supervision? Just for a little while is enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200010,
-			say = "……好吧。",
+			say = "...Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，方便的话，可以填一份调查问卷么？",
+			say = "{dorm3d}，could you fill in this survey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不用紧张，是我个人制作的，只是想通过这种方式更有效率地了解你的喜好。",
+			say = "Don't worry, it's just for understanding your personal tastes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,18 +37,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这样……也更方便在生活起居上照顾你。",
+			say = "That way, I can do more things for you in our day-to-day life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好像有些奇怪的问题？",
+					content = "Some of the questions seem a bit strange...",
 					flag = 1
 				},
 				{
-					content = "“喜欢的泳衣款式？”",
+					content = "\"What kind of women's swimsuits do you like\"?",
 					flag = 1
 				}
 			},
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咳，那个部分是……附加调查。",
+			say = "Ahem. Those are bonus questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "battle-tulipa",
 			flashout = {
 				black = true,
@@ -36,7 +36,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"NA海域·79号镜面海域",
+				"NA Ocean - Mirror Sea 79",
 				3
 			},
 			flashN = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "海面之上，郁金王国舰队正在迎战。",
+			say = "The Tulipan fleet is engaging the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一发发饱含怒火的炮弹，点燃着一个个令人生厌的敌人。",
+			say = "Shell after shell loaded with fury ignites one hideous foe after the next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "埃佛森",
-			say = "……塞壬舰队正在燃烧。",
+			actorName = "Evertsen",
+			say = "The Sirens are ablaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "埃佛森",
-			say = "王国海军舰队覆灭至今所有流的血……都在见证着此刻的火焰。",
+			actorName = "Evertsen",
+			say = "All the blood shed since the destruction of our kingdom's fleet... can be seen in these flames.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,8 +153,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "埃佛森",
-			say = "我们终于做到了……郁金王国，终于做到了……",
+			actorName = "Evertsen",
+			say = "We finally did it... The Kingdom of Tulipa finally did it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +162,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "七省",
+			actorName = "De Zeven Provinciën",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "埃佛森，现在感慨还太早了。",
+			say = "It's not time yet to be overcome with emotion, Evertsen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,12 +175,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "七省",
+			actorName = "De Zeven Provinciën",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的征程才刚开始，郁金王国的旗帜才刚刚飘扬在这片碧海上。",
+			say = "Our journey has only just begun. We only planted our flag in this ocean mere moments ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "埃佛森",
-			say = "你说得没错，七省姐……这一切才刚刚开始。",
+			actorName = "Evertsen",
+			say = "You're right... This is only the beginning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,8 +207,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "埃佛森",
-			say = "我们郁金王国的崭新未来……现在才刚刚开始。",
+			actorName = "Evertsen",
+			say = "Our new future... begins now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -267,12 +267,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "七省",
+			actorName = "De Zeven Provinciën",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "埃佛森，敌人的援军来了。",
+			say = "Enemy reinforcements incoming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,12 +280,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "七省",
+			actorName = "De Zeven Provinciën",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们各自带领一支量产型舰队夹击它们，以最快速度消灭敌人。",
+			say = "We'll lead our mass-produced fleet in and pincer them. Eliminate them as quickly as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "七省",
+			actorName = "De Zeven Provinciën",
 			bgName = "bg_yujin_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "首战，只能大胜，我们一同打出郁金王国的风采来~！",
+			say = "Let us show them our might. Our first battle must end in victory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

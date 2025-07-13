@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "level02",
 			dir = 1,
-			say = "唔…{namecode:495}和{namecode:496}一直跟着我们后面，{namecode:403}来了，那边的是{namecode:497}……{namecode:405}还是没到。",
+			say = "Um... Z9 and Z11 have been following behind us. Z17 is here, and Z12 is over there... but Z19 is still missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "撤退命令已经发出去半小时了，{namecode:405}还是没来么…",
+			say = "I gave the order to retreat a half an hour ago. Where is Z19...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明明之前和厌战交战的时候还和我们在一起，难道说那时候通讯设备被打坏了么！",
+			say = "She was still with us when we fought Warspite. Do you think her comms got knocked out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			actor = 401020,
 			dir = 1,
-			say = "……这样的话她可能根本就没收到撤退的命令。",
+			say = "If that's the case, then she has no idea we're retreating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			actor = 401020,
 			dir = 1,
-			say = "我们的弹药已经快要见底，这下麻烦了呢…",
+			say = "And we're almost out of ammunition. What a bother...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

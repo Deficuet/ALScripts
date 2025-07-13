@@ -15,7 +15,7 @@ return {
 			bgm = "story-richang-sooth",
 			actor = 705091,
 			nameColor = "#A9F548FF",
-			say = "清晨，被几声慵懒的猫叫唤醒，食物的香气引我走向厨房。",
+			say = "I'm awoken in the morning by the gentle mewing of a cat. The scent of food wafts in and beckons me to the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 5,
-			say = "……嗯，味道正好……早餐的话，这些容易消化的食物最合适了呢……",
+			say = "Mm, that should do it... Easily digestible foods really are the best for breakfast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 3,
-			say = "哎呀，指挥官？你已经醒了吗？",
+			say = "Ah, you're up, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我的脚步声引起了喀山的注意，原本埋头享用罐头的猫咪也向我看了过来。",
+			say = "She turns to me. The cat at her feet, eagerly devouring its food, looks up for a moment.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "厨具前的喀山侧身对我露出温柔的微笑， 轻薄纱裙勾勒出让人心跳加速的弧度。",
+			say = "Kazan is wearing only a thin skirt that accentuates her curves. She smiles sweetly at me from the kitchen counter.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -99,7 +99,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "远方的鸟鸣与料理微微冒泡的声音，与她的身影一起构成了宁静而美好的晨景。",
+			say = "Birdsong and the sizzling of the pot blend with her silhouette, making for a truly wonderful morning scene.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			hideRecordIco = true,
 			actor = 705091,
 			actorName = "{playername}",
-			say = "没想到都这个时间了……你把我的闹钟关掉了？",
+			say = "I can't believe I slept in so much. Did you turn off my alarms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_606",
 			spine = true,
 			side = 2,
-			say = "春日让人容易感到疲倦，我想让你多睡一会儿呢。",
+			say = "Spring tends to make people tired, so I wanted to let you get a little more rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 4,
-			say = "这样，我也可以多看一会儿指挥官的睡颜了~呵呵，那副毫无防备的样子，实在太可爱了~",
+			say = "And I got to enjoy your adorable sleeping face at the same time. Heehee, you're too cute when you're vulnerable♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "正想回答喀山的话，就感觉脚边被柔顺长毛蹭过。我弯下腰，轻轻拍了拍向我邀宠的猫咪的脑袋。",
+			say = "When I'm about to respond, I feel soft fur brush against my leg, so I squat down and pet this needy kitty.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 2,
-			say = "嗯……看起来，这孩子也很喜欢你呢。",
+			say = "Heehee... I think it likes you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 1,
-			say = "不过，指挥官怎么不过来摸摸我的头呢~",
+			say = "I want you to pet me, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hideRecordIco = true,
 			actor = 705091,
 			actorName = "{playername}",
-			say = "只是摸摸头就可以了么？",
+			say = "Is that all you want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 3,
-			say = "指挥官已经能轻松读懂我的心思了吗~",
+			say = "Oh my, Commander. You saw through me so easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 5,
-			say = "果然相处时间越长，对彼此的了解就越深呢。",
+			say = "I suppose the longer you spend with someone, the more you start to understand them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 2,
-			say = "说到了解……不知道指挥官能给昨晚的睡眠体验打几分呢？",
+			say = "By the way... Did you sleep well last night? I'm curious how you would rate your night time with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_606",
 			spine = true,
 			side = 2,
-			say = "我担心你会不小心掉下床，只好一直紧紧地抱着你……",
+			say = "I held you tightly all through the night because I was worried you might accidentally fall out of bed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 6,
-			say = "但是抱得太紧了，又忍不住担心你呼吸不畅……",
+			say = "But sometimes, I'd wonder if I was holding you too tight and making it hard for you to breathe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hideRecordIco = true,
 			actor = 705091,
 			actorName = "{playername}",
-			say = "我睡得很好。",
+			say = "I slept great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 5,
-			say = "是吗~那就好……",
+			say = "Oh... I'm happy to hear that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 2,
-			say = "对了，清晨的热牛奶，已经准备好了哦~",
+			say = "Ah, by the way. Would you like a cup of hot milk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "牛奶杯冒着氤氲热气，准备接过杯子的我，却看到喀山将杯口送到了自己的唇边。",
+			say = "I reach for a cup, but she takes it first and lifts it to her lips.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她对着牛奶轻轻呼出一口气，任由热气湿润了肌肤，让脸颊染上别样的色泽。",
+			say = "Then, she gently blows on the milk. The warm steam mists her skin, tinting her cheeks with a soft glow.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随后，牛奶漫过她的嘴唇，留下一道乳白色的触痕。喀山眼中荡起涟漪，看起来满足而愉悦。",
+			say = "She takes a small sip. It leaves a faint milky trace on her lips and a spark of pleasure in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_606",
 			spine = true,
 			side = 2,
-			say = "现在的温度，是指挥官会喜欢的呢……来，可以放心喝了哦~",
+			say = "Mm... Just the temperature you like, Commander. Go on and try it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我接过喀山递来的牛奶。指尖轻触的瞬间，她没有收回手，而是轻轻勾住了我的小指。",
+			say = "Our fingers touch as I accept the milk. Kazan takes the opportunity to hook her pinky around mine.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -381,7 +381,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "淡淡的牛奶香气在极近的距离蔓延。",
+			say = "The gentle smell of milk is right under my nose.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 3,
-			say = "别着急，指挥官……你是不是漏了什么关键步骤呢？",
+			say = "Commander, aren't you forgetting something important?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_606",
 			spine = true,
 			side = 2,
-			say = "想要增强免疫力的话，只有一杯牛奶可不够哦……",
+			say = "If you want to bolster your immune system, milk alone isn't going to cut it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,18 +420,18 @@ return {
 			spine = true,
 			actor = 705091,
 			nameColor = "#A9F548FF",
-			say = "还需要什么呢……指挥官猜一猜吧~？",
+			say = "You need something else... Can you guess what it is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "答案会藏在牛奶里么？",
+					content = "Is it something in the milk?",
 					flag = 1
 				},
 				{
-					content = "应该先问问喀山需要什么吧？",
+					content = "Is there something you want?",
 					flag = 2
 				}
 			}
@@ -443,7 +443,7 @@ return {
 			spine = true,
 			side = 2,
 			optionFlag = 1,
-			say = "牛奶当然是重要的，但必不可缺的，却是准备热牛奶的人哦~",
+			say = "No? Of course, the milk is important, but so is the person who prepared it for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 705091,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，过来吧指挥官，让我给你一个暖意满满的拥抱吧~",
+			say = "Come here, Commander. I'll give you a nice, warm hug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			spine = true,
 			side = 2,
 			optionFlag = 2,
-			say = "指挥官果然猜对了呢~",
+			say = "Heehee. I knew you'd understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 705091,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "那就快来我身边，让我给你一个暖意满满的拥抱吧~",
+			say = "Come quickly... I'll give you a nice, warm hug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "喀山的怀抱还是和昨天一样，几乎要将我呼吸的空间全部占领。",
+			say = "Like last night, her embrace is so tight that it gives me almost no space to breathe.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -511,7 +511,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 1,
-			say = "总是想无微不至地照顾你，目光也无法从你身上移开……",
+			say = "I want to do every little thing I can for you. I never want to take my eyes off you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 5,
-			say = "无论你需要的是温柔的港湾，还是可靠的保护者，我都愿意为你付出一切……只要你依旧依赖着我。",
+			say = "To be your safe harbor and your reliable guardian... To give you everything that you're willing to take.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 2,
-			say = "或许，这就是我改不掉的坏习惯吧……呵呵~",
+			say = "Maybe this is just a vice of mine... Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			bgName = "star_level_bg_606",
 			spine = true,
 			side = 2,
-			say = "指挥官，如果你有兴致的话，就陪我一起完成今早的料理吧？",
+			say = "Now, would you like to help me finish this breakfast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 5,
-			say = "对哦，就是像这样……握着我的手，轻轻搅动汤勺……",
+			say = "Yes, just like that... Hold my hand as we stir with this ladle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 1,
-			say = "动作不要太大……对，就是这样……",
+			say = "Gentle motions... Yes, good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			spine = true,
 			side = 2,
 			expression = 2,
-			say = "……美味的早晨，就从此刻开始吧~",
+			say = "Let's have a delicious morning together, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

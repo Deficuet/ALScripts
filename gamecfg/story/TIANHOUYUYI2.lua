@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大家的夏日祭\n\n<size=45>二 享受夏日祭典吧~</size>",
+					"Summer Festival\n\n<size=45>Chapter 2: Enjoy the Festival!</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 201221,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇…这就是重樱的祭典，真热闹啊——",
+			say = "Wooow... so this is a Sakura festival. There's so much to do~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实是…不错。呼呼…竟然还有射击摊子，我的枪已经在蠢蠢欲动了…！",
+			say = "Indeed... it's not bad. Hehe... they even have a target shooting game. My trigger finger is itching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201221,
-			say = "射、射击摊应该不能用自己的枪吧…",
+			say = "Um, I don't think you can use your own gun for those games...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…开玩笑的",
+			say = "... It was only a joke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "锵！",
+			say = "Ta-daa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵！",
+			say = "Ta-daa!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -157,10 +157,10 @@ return {
 			bgName = "star_level_bg_114",
 			hideOther = true,
 			dir = 1,
-			actorName = "梓&柏",
+			actorName = "Ikazuchi & Inazuma",
 			actor = 301112,
 			nameColor = "#a9f548",
-			say = "欢迎来到重樱夏日祭！",
+			say = "Welcome to the Sakura Empire Summer Festival!",
 			effects = {
 				{
 					active = true,
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201221,
-			say = "哇，{namecode:13}和{namecode:14}都好可爱呀，谢谢你们的邀请呢~",
+			say = "Wow, you two look fantastic! Thank you for inviting us.",
 			effects = {
 				{
 					active = false,
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，我和吸血鬼也——嗯…？人呢？",
+			say = "Yes, I was just saying to Vampire– Oh...? Where did she go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201221,
-			say = "吸血鬼的话在那边的果汁摊——",
+			say = "Vampire? I think I saw her going to that stand over there. They've got fizzy drinks with marbles in them? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 201233,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼…我的身体在渴求着赤红的鲜血…",
+			say = "Hehehe... my body thirsts for the nourishing crimson of fresh blood...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -294,7 +294,7 @@ return {
 			actor = 201233,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "—啊，请给我一杯西瓜汁谢谢~",
+			say = "Hmm, I would have the watermelon flavour, please~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈…吸血鬼也用她的方式在享受着祭典呢",
+			say = "Hah, I see she's enjoying the festival in her own way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:164}{namecode:164}，那边还有不一样的糖果摊子呢！我们快去看看嘛~",
+			say = "Kitakaze! Kitakaze! There's a whole bunch of candy stands over there! I wanna go!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -355,13 +355,13 @@ return {
 			}
 		},
 		{
-			actor = 399031,
+			actor = 900196,
 			side = 2,
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔呣，等我再买一份炒面——",
+			say = "Okay! Just gimme a second to buy another chow mein–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_114",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼欸？{namecode:155}呢？",
+			say = "Waahh... but I wanna go! I wanna go! I'll just go by myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,8 +394,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 399031,
-			say = "嗯？哦…她在捞金鱼的摊子出不来了——",
+			actor = 900196,
+			say = "Ugh...! I-26, can you take her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 308022,
-			say = "啊~破了…再、再来一次！请再给我新的网！",
+			say = "Hold on a sec. Just one more time! Aie! It broke again... That one didn't count! One more! Gimme another net!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦，都在享受着祭典啊~",
+			say = "Aahh. Take in that sweet festival air~ You can really smell everyone's hard work, even the Commander's.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -472,7 +472,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看着她们开心的样子，之前的辛苦准备就算有所价值了",
+			say = "Seeing the happy smiling faces of my girls enjoying the festival, I couldn't help but feel all that hard work was worth it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			options = {
 				{
-					content = "慰劳{namecode:96}",
+					content = "Congratulate Zuikaku.",
 					flag = 1
 				}
 			},
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307061,
-			say = "嘿嘿，祭典的成功举办是大家一起努力的成果啦，指挥官也要玩的开心哦~",
+			say = "Haha, speak of the devil! It's the Commander. Come to enjoy the fruits of your labors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？那边过来的是…白鹰的…？",
+			say = "Hm? Look who's here, that's the Union girl, um...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "(碎碎念)真是的…圣路易斯那家伙，说什么“穿这样指挥官一定会被你迷倒”…我、我才不期待这种事情呢！",
+			say = "Grrrr, that St. Louis, \"Put this on, it'll drive the Commander wild!\" *Hmph*, as if that's anything I'd want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "虽、虽说这件…是叫“浴衣”吗…？还是挺好看的就是了…",
+			say = "She, she called it a... \"Yukata,\" I think? It does look pretty good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "不过感觉…尤其是胸口这边…还是有点紧啊……",
+			say = "But isn't it a little tight... Especially around the chest area...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			dir = 1,
-			say = "跟她打个招呼吧——",
+			say = "Wish her a happy festival.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "指指指指指指挥官！？",
+			say = "C-C-C-C-C-C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307061,
-			say = "晚上好呀，火奴鲁鲁小姐~",
+			say = "Evening, Honolulu~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "是重樱的{namecode:96}啊…晚、晚上好",
+			say = "Zuikaku, right? G-good evening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞火奴鲁鲁",
+					content = "Compliment Honolulu.",
 					flag = 1
 				}
 			}
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "这、这么穿很好看？真、真的吗！？……谢、谢谢…",
+			say = "Y-you like my dress? R-really...? Th-thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天意外地坦率呢…是受到祭典气氛的影响吗…",
+			say = "Honolulu was being uncharacteristically open with her feelings. It must have been that festival magic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307061,
-			say = "啊哈哈，既然都来了，就好好享受祭典吧！正好祭典的重头戏之一也要开始了——",
+			say = "Ahahaha! Welcome, welcome! Enjoy the festival! We're just about to start the main event!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			}
 		},
 		{
-			say = "砰！",
+			say = "(POP! POPOPOP!)",
 			side = 2,
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
@@ -750,7 +750,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇！？这就是…重樱的烟花吗？",
+			say = "Wooowww! So this is how they do fireworks in the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是呀，{namecode:98}特供祭典烟花~嘿嘿，要好好感谢下她才行呢~",
+			say = "Yep. It's Akashi's special festival recipe. We'll have to thank her later~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			actor = 301112,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…{namecode:14}酱{namecode:14}酱！是烟花呀，tamaya！",
+			say = "Ooo! Ikazuchi! The fireworks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			actor = 301122,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "tamaya~",
+			say = "Tamaya...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			actor = 307061,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊哈哈哈~指挥官和火奴鲁鲁也一起来呀~tamaya~",
+			say = "Ahahahaha! Commander, Honolulu, come on! Taaamayaaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102124,
-			say = "这、这是重樱的神秘仪式之一吗…ta、tamaya…？",
+			say = "Huh?! Whaa?! What the heck kinda Sakura custom is this? Ta-tamaya...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然夏天终究会过去，祭典总会结束。未来还有许多挑战在等待，不过至少现在——",
+			say = "All good things must come to an end. The festival couldn't last forever, neither could summer itself. But for the time being...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			bgName = "star_level_bg_114",
 			dir = 1,
 			blackBg = true,
-			say = "欢乐的夏日祭典仍将继续。",
+			say = "We had a chance to just relax, learn some Sakura words to shout at fireworks, and enjoy a summer festival together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

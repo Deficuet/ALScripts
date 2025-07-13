@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "刺眼的白光覆盖了视野，爆炸与冲击蹂躏着海天。",
+			say = "My eyes were stabbed by the blinding light of an explosion. The shockwave tore at my skin, and the blast sent great ripples across the sea.",
 			dir = 1,
 			bgm = "main-ashes-theme",
 			flashN = {
@@ -77,7 +77,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当一切都平静下来后，海域中剩下的只有死寂。",
+			say = "After the smoke cloud dissipated and the dust settled, there was only deathly silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳咳……指挥官，您没事吧！",
+			say = "*cough cough*... Commander... you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "还算没事，其他人呢？",
+			say = "\"I think I'm fine. I'm more worried about everyone else...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况不是很好……不少受损严重的同伴在冲击中遭受了二次损伤。",
+			say = "That blast definitely did us no favors. It was like salt in our still open wounds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "后勤舰队正在紧急处理，万幸的是没有出现掉队的人……",
+			say = "Thankfully, the damage to our repair ships and rear fleets was minimal. Our wounded received emergency repairs, so at least there were no casualties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水面上的残骸倒是被刚才的冲击清理掉不少……接下来的撤离能更顺利了。",
+			say = "Plus, the explosion helped destroy a lot of the obstacles that were in the way earlier, so it should make getting out that much easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,22 +175,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这种规模的爆炸………………余烬那边没问题吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我们驶出的太远，已经不清楚那边的战况了。",
+			say = "\"An explosion of that magnitude... There's no way even the Ashes could have made it out unscathed...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +190,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过仲裁机关既然没追过来，说明作战应该还算顺利吧……",
+			say = "I understand how you feel, but we're in no position to go back for them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "There's nothing to suggest the Arbiters are chasing us, but we're not out of the woods yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "继续前进……尽快找出离开这里的航线。",
+			say = "\"We can't waste the chance the Ashes graciously created for us...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬主力舰队已被全数消灭，剩下的只有和余烬激战的仲裁机关。",
+			say = "\"We need to escape the Singularity and meet up with our allies on the outside.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "重新集结舰队之后肃清奇异点内空间，NA海域的战斗就算彻底结束了……",
+			say = "\"After that, we'll regroup, return to the Singularity, and hopefully return the NA Ocean to the way it was before... A clear, blue sea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在那之前，所有人一定要坚持住啊………………",
+			say = "\"Until then, just try to hang in there, everyone!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

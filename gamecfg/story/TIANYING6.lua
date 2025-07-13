@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>六 缺少的东西</size>",
+					"The Growth of a Courtly Lady\n\n<size=45>6 The Missing \"Something\"</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "天鹰姐姐，这个……要不要尝尝？",
+			say = "Sister Aquila, would you, um... like to try this...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "好可爱的小点心～！谢谢你，独角兽小姐。",
+			say = "Oh my, what an adorable-looking treat. Thank you very much, Unicorn~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，现在应该叫直接叫独角兽就好了，对吧~作为交换，你们也来尝尝撒丁帝国的特色点心吧~",
+			say = "Mm, how delicious! Unicorn, would you like to try some of our famous candy from Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，谢谢~",
+			say = "Make sure to say thank you, Unicorn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，谢谢天鹰姐姐～",
+			say = "Thank you, Sister Aquila~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "在稍远的地方悄悄观察了一会。",
+			say = "I observed the patio where the tea party was being held from a distance, every action from the carriers exuding elegance and grace as they enjoyed tea and dessert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "没有像和利托里奥她们“练习”时那样陷入奇怪的状况，看来是没什么问题了。",
+			say = "Just thinking about the farce that had unfolded with Littorio and Abruzzi made me a bit nervous, but my worries proved to be misplaced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之前也从同伴们那得到了各种建议，现在回想起来，也许真的是我乱想太多了吧。",
+			say = "I've also had an opportunity to talk with Peter Strasser as well as many of the other carriers, and I think I was overthinking things after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "说起来有些难为情，其实我之前好像时常会在意光辉小姐的事情……",
+			say = "It's a little embarrassing to say this, but I've been thinking a lot about you, Miss Illustrious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，是这样吗？",
+			say = "I'm flattered. What about me, if I may ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "嗯，其实也没有那么夸张，只是稍微有些在意…的程度吧。",
+			say = "Oh, it's nothing important. There's just something that's been on my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "有一种“自己总有一天也要成为光辉小姐这样实力出色又充满魅力的女性”的感觉。",
+			say = "There's a sense of, \"I want to become like this or that, so that others can recognize my worth.\" Something like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵~多谢夸奖~不过…看你现在的样子，我觉得你已经是位实力出色又充满魅力的女性了哦？",
+			say = "I don't get that impression from you anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "咦…？是、是这样吗？",
+			say = "Hmm... Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "独角兽也是这么觉得的哦…天鹰姐姐…举止很自然…成熟又温柔……",
+			say = "Mhm... You seem a lot more relaxed and natural than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，天鹰小姐只要抬头挺胸，做最自然的自己就好了。",
+			say = "I agree. When I look at you, what I see is a splendidly shining lady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "听完光辉和独角兽的话，天鹰露出了释怀的笑容。",
+			say = "Hearing Illustrious's and Unicorn's words lifted a heavy burden off my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "似乎天鹰一直以来的心结，自认为有所“欠缺”的部分，已经在不知不觉间消融了。",
+			say = "Aquila's anxiety – that \"something\" she was missing – had been found before I even knew it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果说我和之前有什么变化的话……",
+			say = "If I've changed compared to how I was before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "那一定是多亏了现在正在看着我的人吧。",
+			say = "It must be because I've found someone who cares about me, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是这样的吧，指挥官大人♪～",
+			say = "Yes, I'm sure of it, my Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

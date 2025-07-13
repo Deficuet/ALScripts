@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "story-richang-flexible",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}，魔法……存在吗？",
+			say = "{tb}, is magic real?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "魔法？嗯……我得想想……",
+			say = "Magic? Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "如果直接说不存在，会不会破坏TB的梦想？",
+			say = "I can't say it isn't, or I might ruin her dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "但是说存在……好像也不太合适吧？",
+			say = "But I can't say it does either, obviously...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "（唉……培养孩子可真是门学问……）",
+			say = "(Raising a kid is harder than anyone told me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "实在不知道怎么回答，最后用小蛋糕来蒙混过关了。",
+			say = "Since there is no right answer, I dodge the question by giving her a cupcake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

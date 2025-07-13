@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "一只神秘的猫猫紧跟在你的身后不肯离开，获得了【喵箱SSR型*1】"
+			say = "You enjoyed a classy buffet with some fancy-looking Meowfficers in the VIP Lounge. You received 1 SR Cat Box!"
 		}
 	}
 }

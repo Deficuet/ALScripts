@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "似乎没发现有价值的东西，再往前走走吧！"
+			say = "You got a day off work to rest! Move forward!"
 		}
 	}
 }

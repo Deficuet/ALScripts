@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "摘下终端后，我从虚拟的小镇生活中重新回到了港区的指挥室。",
+			say = "I take off the device, leaving the virtual world and returning to my office.",
 			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "回想起这段时间我与TB的身份调转——我成为了她成长之路上的“领航员”这件事，多少还是觉得有些不可思议。",
+			say = "It's funny how TB's and my roles have reversed somewhat. She ordinarily assists me in the real world, while in her world, my job is to supervise her as she matures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "咚咚——",
+			say = "As I ruminate on the oddity of it, there is a knock on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我陷入感慨的时候，指挥室的大门被人敲响，随即一道绿色的身影出现在我眼前。",
+			say = "It swings open, and inside steps a familiar green shopkeeper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98}？你怎么会在这个时间来指挥室？",
+			say = "Akashi? What brings you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哼哼，因为有个设定忘记告诉指挥官了喵！",
+			say = "Heheh. See, there's a feature I forgot to tell you about, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "领航员小姐生活的虚拟小镇，会在运行一段固定好的周期后，根据收集的行为数据进行升级喵！",
+			say = "The virtual world will update at regular intervals based on the actions of its residents, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说……每次终端出现升级提醒的时候，领航员小姐就会长大喵！",
+			say = "Which is to say, whenever there's a new version, TB will experience a growth spurt, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "听着{namecode:98}的提醒，我看到终端上出现了升级进度条，不过——",
+			say = "Checking the device, I find a gauge on it that tracks the progress until the next update.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……会长大这点倒是不用特意解说，以及这种重要设定希望你下次能早点告诉我。",
+			say = "I already knew she'd grow, but not that there'd be an indicator for it. You could've told me sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "总之，现在是领航员小姐的升级时间喵！",
+			say = "People forget things, nya. Now let's give TB that update, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "之后指挥官再进入就会看到不一样的领航员小姐了喵！",
+			say = "She'll have grown a lot by the next time you see her, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯……这次应该没有别的设定要告知指挥官了喵，拜拜喵！",
+			say = "Also... Hmm, actually, that's it in terms of features I should tell you about, nya. Catch you later, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:98}瞬间消失了。",
+			say = "Then, Akashi vanishes in the twinkle of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "跑得真快……",
+			say = "She sure is good at running away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过……TB会“长大”这件事，到底意味着什么呢？",
+			say = "Now I'm curious to see what Akashi means by \"growth spurt.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "之前的我，又是怀抱着怎样的认知看待TB的呢？",
+			say = "I have to ask myself an important question – what is TB to me, anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "是只将她作为人工智能辅助程序，还是……",
+			say = "Just an AI assistant? Or is she more than that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "想到这里，我不由得愣住了。",
+			say = "The question simmers in my mind for a while until I realize I have no answer to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "也许，再和她相处一段时光，我才能摸索出答案。",
+			say = "Spending more time with her is the only way I'm going to find that answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "升级应该快完成了……好，去见她吧。",
+			say = "The update should be done by now. Time to put it back on and check on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伴随着终端传出的提示完成音，我再次进入了那座与TB一同生活的虚拟小镇——",
+			say = "A jingle plays to signify the update's completion. I switch the device on and dive back into the virtual world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

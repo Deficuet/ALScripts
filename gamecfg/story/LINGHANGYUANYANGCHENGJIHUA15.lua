@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "在房间中——",
+			say = "It's just another day. Or, maybe a little more than \"just.\"",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "500！",
+			say = "500!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "800。",
+			say = "No, 800.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "648！",
+			say = "648, no more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "999。",
+			say = "At least 999!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你报出的金额怎么变高了？",
+			say = "Hang on, that's MORE than you just asked for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师说，这种行为叫做“讨价还价”，要通过这种方式争取空间。",
+			say = "The teacher called it \"haggling.\" She said it's a way to squeeze money out of people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是交易的逻辑，TB是在问我讨要修学旅行用的零花钱，所以讨价还价的规则不适用。",
+			say = "That's not \"haggling\" you're doing. It's called, \"asking for more and more pocket money for your school trip.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哼。",
+			say = "Hmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "她陷入了短暂的沉默，双颊不自觉鼓了起来，像是在生气，又像在思考什么。",
+			say = "TB puffs her cheeks with indignation and falls silent, thinking about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,12 +172,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……可以多给我一些零花钱吗喵？只要一点点喵……",
+			say = "...Can't you give me more, nya? Even just a teensy-weensy bit, nya?",
 			voice = "event:/educate/tb/educate-tb-story-2-4",
 			painting = {
 				alpha = 0.3,
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
-			say = "不得不说TB现在泫然欲泣的样子十分惹人怜爱。",
+			say = "She looks almost ready to start crying. It's tugging on my heartstrings something fierce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
-			say = "不过这个熟悉的口吻……",
+			say = "That word at the end of her sentences, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,12 +229,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师说，如果监护人不同意的话，就用这种语气喵。",
+			say = "The teacher said, \"Use this word when your guardian won't do as you ask, nya.\"",
 			voice = "event:/educate/tb/educate-tb-story-2-5",
 			painting = {
 				alpha = 0.3,
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
-			say = "她说着，扯住了我的衣摆。",
+			say = "She grabs my sleeve and tugs on it while she pleads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "零花钱喵……",
+			say = "Please give me more, nya...",
 			voice = "event:/educate/tb/educate-tb-story-2-6",
 			painting = {
 				alpha = 0.3,
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好吧好吧，我宣布讨要零花钱的作战中TB取得了胜利。",
+			say = "Okay, okay. Your begging strategy worked. You win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +288,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "TB赢了喵。",
+			say = "I win, nya!",
 			voice = "event:/educate/tb/educate-tb-story-2-7",
 			painting = {
 				alpha = 0.3,
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
-			say = "真是的……看来之后要去找{namecode:98}要个说法了。",
+			say = "Oh boy... Akashi has some explaining to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
-			say = "不要在课程里偷偷设计这种内容来教小孩子啊！",
+			say = "Because this is NOT the kind of stuff you should be teaching a kid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

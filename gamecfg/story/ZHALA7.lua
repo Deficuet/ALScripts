@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>七 夜空璀璨</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 7: Starry Night</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "好了，就这里吧。这里位置刚刚好呢。",
+			say = "All right, we're here. This is the perfect spot.",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "原本以为还有什么体力活的我，被{namecode:526}拉到一张长椅上，一起看着天空",
+			say = "Zara had pulled me to a bench, where we sat admiring the starry sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官今天辛苦了~给，刚刚顺手买的运动饮料",
+			say = "Thanks again for today, Commander~ Here, I got you a sports drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也作为今天让你当了一天苦力的答谢和致歉吧，呵呵，指挥官不会放在心上的吧？",
+			say = "Not to mention the part where I made you my pack mule for the day. Thanks, and sorry. Hehe, it wasn't so bad, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "盯——",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "{namecode:526}一直盯着我的脸。",
+			say = "Zara was staring directly into my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然因为夜晚的原因有些看不清楚，不过我想指挥官现在一定是一脸不甘心吧",
+			say = "Even as dark as it is, I can see it in your eyes, Commander. I can see that dissatisfaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“想让她看到我英俊的一面，而不是被捉弄时的狼狈的样子”……是这样想的吧？结果每次都没能成功呢。",
+			say = "\"I want to show her my strong and heroic side! I don't want to be prey that she toys with.\" That's what your eyes are saying. They're full of frustration that you've never succeeded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官被耍的时候的表情，真是百看不厌呢，呼呼~",
+			say = "But I love toying with you, my prey. I never get tired of it, hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,23 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "到头来，自己还是一直被{namecode:526}牵着鼻子走。每当想要反击的时候，总是被制服得服服帖帖的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 603020,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "…真是美丽的星空呢。呵呵，黑夜对我来说，有着不是那么美好的回忆呢…不过，每当我看到星星的时候，我还是不由自主地会去赞叹它的闪耀。",
+			say = "In the end, Zara was always two steps ahead of me. Any time I tried to resist her, she always brought me to heel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +198,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "它是承载着人们美好愿景的，在数十，数百，数千光年外遥不可及的存在。",
+			say = "... The stars really are beautiful. Heh heh. The night actually brings back some pretty ugly memories. But even so, I can't help but admire the way the stars twinkle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +214,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是指挥官不一样，指挥官就在我的身边。",
+			say = "They carry with them people's hopes and dreams, across tens, hundreds, thousands of light years out to the edge of the universe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +230,23 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官的一切，和那天边的寒冷星光不同，是真真切切能触碰到的。",
+			say = "But you're different, Commander. You're right here with me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 603020,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "The stars are cold and distant, but you're real. I can touch you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然这么说好像有点过分，不过比起潇洒自如的舰队统领者，我还是更喜欢那个中了圈套之后不知所措的你呢。",
+			say = "I know I overdo it sometimes, but I really much prefer the prey caught in my traps to some smooth and confident fleet officer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，果然看到这张脸，就让人忍不住想要捉弄一番呢",
+			say = "Hehe, looking into this face of yours just makes me want to tease you more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果指挥官对我没有任何想法的话，这个充满默契的“游戏”就会早在某个时间点结束掉，我们的关系也会回到一开始的时候。",
+			say = "Sooner or later, this game of ours is going to end. And we'll be right back where we started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以——",
+			say = "So...",
 			action = {
 				{
 					type = "shake",
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "手臂突然被抱住了。",
+			say = "Zara clung to my arm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不是天边的星星，我就在你的身边。",
+			say = "I won't be a star far off in the sky either. I'll be here with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我会一直陪着你的。",
+			say = "Commander, I'll always be here with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "也许确实是累了吧，{namecode:526}就这样靠在了自己怀里",
+			say = "Maybe she'd gotten too tired. Zara rested her head on my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，真是的，这个样子要是被谁看到的话——",
+			say = "Don't you think it'd be scandalous if someone saw us like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不过…再稍微这样保持一会…一会就好…好吗？",
+			say = "But... let's keep it up... just a little while longer... okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>五　辽阔的草原辽阔的心</size>",
+					"The Iron Rose Blooms\n\n<size=45>5 Seydlitz in the Plains</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "当周围的空间再次亮起的时候，自己已经置身于一望无际的草原上了。",
+			say = "We visit the attraction and put on the VR headset as instructed.",
 			bgmDelay = 2,
 			bgm = "story-richang-7",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "简直就像是梦中的光景一般。",
+			say = "Endless, grassy plains fill my field of vision, and I can't help but gasp at the surreal, dreamlike scenery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是辽阔呢…………",
+			say = "It's so vast...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "原来草原真的能像海洋一样无边无际。",
+			say = "So there really are grasslands that stretch beyond the horizon, just like the ocean...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "这里的体验和你记忆中的草原一样么？",
+			say = "The vast grasslands are perfectly replicated from the real world, perhaps even more than perfect. Seydlitz clearly is impressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……？其实我没见过真正的草原，长官。",
+			say = "Commandant, the truth is... I've never seen the real grasslands in person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我对草原的了解，都来自于书籍和照片……",
+			say = "As much as I've always wanted to, I only know about them from books and photos.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "不过，能够体验在广袤草原中自由骑行的感觉，我就已经十分满足了。",
+			say = "But I'm so happy that, real or not, I get to experience the feeling of running wildly through the plains.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,14 +179,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "…………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "喜欢这种感觉么？",
+					content = "\"Do you like it?\"",
 					flag = 1
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔……这种无拘无束的感觉么？",
+			say = "The feeling of freedom, you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "……老实说，我没想过，长官。",
+			say = "Well, umm... Sorry, but I don't know if I can answer that yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我一直为了能回应大家的期待而努力……虽然并不轻松，但至少也有目标。",
+			say = "I've never experienced real freedom. All my life, I've shouldered so many hopes - yours, those of my comrades...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:461}也说过，我这样未免也太累了，不如找些属于自己的兴趣。",
+			say = "Sometimes, Lützow insists that I must get tired of that. That I should get a hobby. But I find my life very fulfilling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "也许随心所欲按自己喜好度过每一天也不错……",
+			say = "While I do, though, I also worry whether I'm properly meeting your expectations...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长官，您有时候会觉得，自己是在原地打转么？",
+			say = "Before I realize it, I'm just spinning in circles endlessly. Do you ever have moments like those, Commandant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,18 +301,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "……………………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有。",
+					content = "\"Of course.\"",
 					flag = 1
 				},
 				{
-					content = "没有。",
+					content = "\"I guess not?\"",
 					flag = 2
 				}
 			}
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "……但长官您看起来并不烦恼。",
+			say = "And yet you never show a hint of hesitation... You're stronger than me, Commandant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想也是……",
+			say = "Of course not... I appreciate your candid response!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "现在的我，还不能回应您的期待呢，长官。",
+			say = "Commandant, thank you for hearing me out! I'll need some time to think of my own solution.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "…………啊！猎物出现了！",
+			say = "...More importantly, I spy a juicy monster!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "长官，我们快去把它捉住吧！",
+			say = "Let's go and hunt it, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "不由自主地随着{namecode:460}冲向了在青草中穿梭的猎物。",
+			say = "After putting her doubts behind her, Seydlitz charges toward her prey in high spirits. I rush to follow after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "看着莫名又雀跃起来的{namecode:460}，终于察觉到了奇怪的事实。",
+			say = "While it's impressive how quickly she can turn her mindset around, I can't help but ask myself–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "说不定{namecode:460}其实根本不是在烦恼——",
+			say = "(Have I been misunderstanding her concerns all this time?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

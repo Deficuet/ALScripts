@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "nagato-map",
 			dir = 1,
-			say = "重樱的诸君，余乃担任本次联合演习裁判长的，联合舰队旗舰{namecode:74}",
+			say = "I am Nagato, the flagship of the Combined Fleet! I will be the referee for this year's Naval Exercises!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个动荡的时代，我们面临着来自塞壬的威胁，面临着来自其他势力的钳制。",
+			say = "...In these turbulent times, we face threats on all sides, not only from the chaos the Sirens are causing, but also from other forces around the world. And so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这样风起云涌的时代，重樱更需要诸位的奋发，需要诸位的信仰。",
+			say = "... now more than ever, we must all come together as one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个危机四伏的时代，重樱更需要一位强者，需要一位新的领路人。",
+			say = "And we must show our enemies that the Sakura Empire Fleet is stronger than it has ever been before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}说着停顿了一下，望了望台下的{namecode:161}与{namecode:92}。",
+			say = "The flagship of the Combined Fleet and shrine maiden of the Sakura Empire, Nagato, gazed at all the ships in attendance for the wargames.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，本次联合军演获胜方的旗舰，将接任第八任重樱联合舰队旗舰之位。",
+			say = "The flagship of the winning side of this year's wargames shall be appointed as the Combined Fleet's next flagship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Audience",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "！！！！！",
+			say = "!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			actor = 305070,
 			dir = 1,
-			say = "{namecode:74}大人居然要卸任旗舰之位了！？！之前完全没有任何消息呀？！",
+			say = "Nagato-sama's... next flagship?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "肃静！",
+			say = "Be quiet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，这里由我来宣读下联合演习的队伍分配：",
+			say = "I will now announce the team compositions for this year's wargames!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赤队：旗舰—{namecode:161}号战列巡洋舰，下属第一战队、第一四水雷战队、第二三六驱逐队",
+			say = "Red Team: Battlecruiser Amagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,22 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蓝队：旗舰—{namecode:92}号战列舰，下属第二战队、第二三水雷战队、第一四五驱逐队",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "以上。",
+			say = "Blue Team: Battleship Kaga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，算是意料之中的分配吗，{namecode:161}…只要在这里把你击败的话…",
+			say = "Oh what a delight! Amagi, are you ready for that rematch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此次联合演习意义非常。",
+			say = "This year's wargames will decide the future course of events for our Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +229,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "望诸君能够在接下来的几日里，发挥平生之所学，尽其智、行其力，打出一场漂亮的战斗！",
+			say = "I want everyone to bear this fact in mind. I want you to demonstrate what you are capable of and fight without remorse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余宣布，联合演习，正式开始！",
+			say = "...Now, let the Combined Fleet's wargames begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

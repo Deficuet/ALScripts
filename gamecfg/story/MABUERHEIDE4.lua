@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>四　甜蜜的关系</size>",
+					"Light Up My Day\n\n<size=45>4 Sweet Tooth</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "港区·学园内",
+			say = "Port - Academy",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——啊！马布尔黑德！来的正好，这些给你！",
+			say = "Oh, Marblehead! Come here for a sec! I've got something for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？怎么了——这，这座巧克力山是怎么回事啊？！",
+			say = "Sup, Omaha? Whatcha got– Oh my god! How much damn chocolate is this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是我珍藏了很久的巧克力哦！其实从今天开始我就要挑战减肥啦！",
+			say = "A lot! I've been stockpiling it for a long time. Thing is, though... I'm gonna go on a diet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然非～～～常不愿意送给你，可这也是为了减肥所必要的牺牲！",
+			say = "I feel soooo bad about parting ways with my sweet sweeties, but it's a necessary sacrifice to lose weight. So I'm giving it all to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别勉强自己啦。之前不也说过类似的话然后失败了么——",
+			say = "Again? You gave in once before, last I remember. You sure you wanna give it all away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次一定会成功的！总而言之，这些都送给你了！",
+			say = "This time, I'm gonna stick to it! Look, just take it, I won't eat it anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等——走掉了哎……这么多我也吃不完，要不分一些给康克德——",
+			say = "Yeah, but– Welp, Omaha's left the building. Guess this chocolate's mine now. But I can't eat it all either, so I should probs give some to Concord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！指挥官！喂——！这边这边！",
+			say = "...Oh! Commander! Over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "走在路上的时候，被突然出现的声音叫住了。",
+			say = "As I was passing by, Marblehead called out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊！糟了，两只手都拿着东西，没法和指挥官玩“猜猜我是谁？”的游戏了！",
+			say = "...Wait, crap, I ruined my chance to do another \"Guess who\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			},
 			options = {
 				{
-					content = "已经猜到了。",
+					content = "\"No need to.\"",
 					flag = 1
 				},
 				{
-					content = "是马布尔黑德。",
+					content = "\"I don't have to guess anymore.\"",
 					flag = 1
 				}
 			}
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是……这次指挥官是被我从正面叫住的嘛——算啦，比起这个，眼下的巧克力山才是更重要的问题！",
+			say = "Really? Aight. All's good as long as you remember me. Anyhoo, as I was saying, you see this mound of chocolate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我一个人实在是吃不完这么多，指挥官能帮帮忙吗？",
+			say = "I love choccy as much as the next girl, but this? It's just too much to eat alone. So, wanna have some?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "――――哈啊，口中被甜味充满了，超满足——！",
+			say = "Whew... I'm stuffed. My tongue's totes coated in chocolate.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是美食家奥马哈的存粮，真是绝品！",
+			say = "Premium chocolate, at that. Omaha do be living up to her name as a chocolate gourmand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,56 +361,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也是这么觉得吧~唔……嘿嘿，指挥官刚才急匆匆的打算去哪儿呀？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_103",
-			actor = 102270,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "“只是在转换心情而已？”嗯嗯……原来如此原来如此。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那不如来个彻底转换，接下来我们在港区里进行二人约会怎么样！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "太突然了吗？可是吃了这么多巧克力，必须要稍微运动一下才好吧。",
+			say = "Oh yeah, forgot to ask before we started chowing down: why're you out and about today, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +378,56 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，和我去约会不是最好的选择么~？",
+			say = "\"No reason in particular. I was just on a walk to the beach, and that's when I ran into you.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ah, I see! Then mind if I join you? Hell, why not make a date out of it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...Kinda sudden? Yeah, but we've gotta burn some of those calories we just gorged ourselves on.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_103",
+			actor = 102270,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "So like, please? Can we take a stroll together, then go on a little date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "还是一如既往地马布尔黑德风格……不过当成气氛转换的话——",
+			say = "She was being pushy again, but it didn't bother me much – it's fun hanging with her, so ultimately, I agreed to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

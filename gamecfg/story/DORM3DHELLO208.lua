@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你来了，可以随意坐哦。不过……你最近是不是有点缺少运动呢？今天要一起做点简单的室内运动吗？",
+			say = "You've come, {dorm3d}. Make yourself at home. Incidentally... haven't you been sitting around too much lately? What do you say we do some simple indoor exercises today?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello8",
 			typewriter = {
 				speed = 0.05,

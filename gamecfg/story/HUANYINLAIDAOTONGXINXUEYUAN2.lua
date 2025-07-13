@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "童心学院·童趣艺体楼",
+			say = "Little Academy - Arts Building",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "空荡的走廊中，只有风声作响，往复不停。墙上装饰用的音符松动，堪堪挂住，轻轻晃动。",
+			say = "The barren hallway is dead silent save for the sound of the wind, gently shaking the music note ornaments that decorate the walls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "嘎吱——",
+			say = "Then, there was a cracking sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "呜哇！怎、怎怎怎么回事！这个声音好奇怪！该不会是踩到陷阱了吧！指挥官，救、救我！",
+			say = "WHUAH?! Wh-wh-what was that?! Did we set off a trap or something? C-Commander, come rescue meee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "只是踩到坏掉的地板而已啦！",
+			say = "I stepped on a broken floor tile, that's all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "……地上，埃尔德里奇，有发现。",
+			say = "There's something... on the floor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "真的欸~指挥官你能看到吗？需要我把设备的角度调整一下吗~",
+			say = "Oh, you're right! You seeing this, Commander? Should I adjust the camera angle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "还是说，指挥官只想看着可爱的{namecode:536:U-31}呢~？",
+			say = "Or maybe what you really wanna see is me, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "你这家伙……快点给我进入正题啦！",
+			say = "You little... Get to the point already!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "哎呀，有人着急了呢~",
+			say = "Ooh, hear that? Little Taihou here is getting antsy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,10 +204,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:536:U-31}，你把镜头调整一下，让我看看地上的东西。",
+			say = "...If you don't mind, turn the camera to the floor so I can see what's there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~",
+			say = "Okey-dokey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "从镜头中可以看到，地上散落着被人粗暴地撕下来的报纸标题大字——“保护”，“深夜”，“失踪”。",
+			say = "Through the camera, I see the floor is littered with cutouts of newspaper headlines – \"accommodated,\" \"missing,\" and \"late in the night,\" they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "难道是那个传闻……出发前布里斯托尔告诉我的……“因未被妥善保护，神秘生灵于深夜失踪”！！",
+			say = "Hey, that sounds like the cryptid Bristol told me about earlier! \"It couldn't be accommodated in its cage, so at night it fled and went missing!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "不不不，一定是失踪的命运堕天使，为保护光明，堕入无尽的黑……不对！无尽的深夜！",
+			say = "How mistaken you are. Clearly, this refers to the missing fallen angel of fate who fell into the endless abyss – the late night – to defend the light!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "你们说的哪一种传闻都没听说过啦！",
+			say = "That's two crackpot theories. Anyone got another?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嘘。音乐声，发现。",
+			say = "Shh... Music. I hear music.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "众人纷纷安静了下来，集中精神聆听，轻快又欢乐的曲调回荡在楼内，显得格外诡异。",
+			say = "The chatter quickly dies down as everyone opens their ears and listens closely – there really is a light yet uncanny melody playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，经过对比建筑结构图，声音来源的房间应该是这条走廊尽头的音乐教室。",
+			say = "Judging by the floor plan I have here, it's coming from the music room at the end of the hallway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,10 +346,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来解决艺体楼的异常的关键就在那里了。",
+			say = "My gut tells me that's where you'll find the key to resolving the situation in there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,10 +359,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "闪耀星星小队，准备前去调查。注意安全。",
+			say = "Twinkling Little Stars, head there and investigate. Be on your guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,11 +370,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白——",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "童趣艺体楼·音乐教室",
+			say = "Arts Building - Music Room",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "砰——！",
+			say = "BOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "随着闪耀星星小队破门而入，映入眼帘的是一幅奇妙的光景。",
+			say = "The girls throw open the door to a bewildering sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307140,
-			say = "欸~？你们来啦~都来陪妾身玩吧，妾身现在可是精神得不得了哦！",
+			say = "Hmm? Greetings, everyone. Please stay for a while. This one is positively brimming with energy right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403120,
-			say = "好无聊……提不起劲啊……不想吃点心……也不想看书……",
+			say = "I'm so bored... I don't feel like doing anything, not even eating a snack or reading a book...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102190,
-			say = "发型也没什么好在意的吧，就这样散着就好了……",
+			say = "I can't be bothered with my hair anymore. It can stay the way it is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405060,
-			say = "乐章……不想去演奏了……呼呼……没有音乐也好。",
+			say = "I don't care to play any music... In fact, I don't need music at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "伴随着音乐的旋律，教室中的学生们正慵懒地蹲坐在房间各处。",
+			say = "A strange song plays inside the music room. All the girls inside are lying about lazily, except for Shinano-chan, who is full of vim and vigor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，音乐教室内……似乎存在某种干涉精神的污染源，教室中的学生已经受到影响了。",
+			say = "Commander, I think there's some kind of device in that room that's having an effect on those girls' minds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "哪有什么奇怪的孩子……保护指挥官的安全什么的好麻烦哦，就在这里休息吧……",
+			say = "There's no \"effect.\" Protecting the Commander is a pain in the butt and I just wanna lie down and rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "我不想当闪耀的星星了……帮上指挥官的忙也没什么用吧……",
+			say = "I'm done being a star! I've never helped the Commander anyway...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "埃尔德里奇什么都没说，只是默默放下了手中的探测棍，在角落里双手抱膝，坐到了地上。",
+			say = "Eldridge, meanwhile, remains silent and assumes the fetal position in a corner of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "……欸？指、指挥官！你看到了吗！大家都变得好奇怪！",
+			say = "Wait, Commander, you saw that, right?! Their personalities all did a 180!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "糟糕，污染源的强度超出预期，闪耀星星小队的成员已经受到影响了。",
+			say = "Whatever's affecting their minds, it's really powerful. It's influenced all of them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "指挥官，我建议立刻让幸存的小队成员撤离并派遣救援人员。",
+			say = "All of you who still have your wits about you, please retreat at once and dispatch rescue personnel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来不及了，直接摧毁教室内的干扰源是更快的手段。",
+			say = "There's no time. They should prioritize neutralizing whatever's causing this strange phenomenon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,10 +672,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干扰源……对了，{namecode:537:Z43}，你对于自己没受到影响有什么头绪么？",
+			say = "Speaking of the phenomenon... Z43, how come you've not been affected? Any ideas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "难、难道是因为吾提前塞住了耳朵……？因为吾进来时担心有恶咒迎面袭击……",
+			say = "Uhh... Because I covered my ears, I suppose? I sensed an evil presence the moment I set foot inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来这些音乐声就是干涉精神的原因。）",
+			say = "(Ahh. Then it must be music causing this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,10 +715,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:537:Z43}，你继续捂住耳朵，然后观察周围，能找到音乐出现的源头么？",
+			say = "Z43, keep your ears covered and have a look around. Do you see any device that could be producing the music?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "吾发现了几台音响！难道它们就是邪恶力量的源头？",
+			say = "I see a couple of speakers up there! Are they the source of this evil influence?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "需要吾将其破坏掉吗？！",
+			say = "Augur of Destiny, should I destroy them? Make your choice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,10 +764,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，只要想办法让音乐停下来，大家应该就能恢复正常了！",
+			say = "Do it. That should bring the rest of you back to normal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "唔唔唔……够不着啊……又不能在教室里开炮……",
+			say = "Drat! I can't reach them! And I mustn't unleash cannon fire in a classroom!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听我说，或许不用破坏音响也能达成目的！",
+			say = "Hold up! I think you can deal with the speakers without breaking them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然现在的音乐旋律是造成精神影响的原因，那只要破坏这个旋律本身就好了！",
+			say = "The music is the problem, right? So just disrupt the music so it can't influence them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（破坏旋律……音乐教室内倒是有的是乐器。）",
+			say = "(That's not a bad idea... All she needs to do is play an instrument to alter the melody!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,10 +862,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:537:Z43}你会演奏什么乐器么？",
+			say = "Z43, do you know how to play an instrument?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "那种事情吾不会啦——！哇啊啊啊，小{namecode:182:信浓}，你不要扑上来呀！万一摔倒了会很痛的！",
+			say = "No, that's beyond my capa– Whoa, take it easy, Shinano! People are gonna get hurt if you jump on them like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307140,
-			say = "妾身听见了指挥官的声音~！妾身要和指挥官一起玩~！",
+			say = "This one heard the Commander speaking! Come here and let us play!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "等会儿，等会儿！小{namecode:182:信浓}，你先在这里坐一会儿，指挥官马上就到！",
+			say = "Settle down! Take a seat and cool off or something! The Commander will be here soon enough!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "总之只要能打乱现在这个音乐，就可以了！对吧！",
+			say = "Ugh, so I just need to disrupt the music, right? I'll try!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "……这间教室里有音响和麦克风。汝放心吧，堕入深渊的大家，吾来拯救！",
+			say = "A speaker set, a microphone... Hmm... Behold, Augur of Destiny! I shall pull our comrades back up from the deep, dark abyss!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "咳咳——！",
+			say = "Ahem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,7 +1004,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "{namecode:537:Z43}清了清嗓子，举起了连接着音响的麦克风。",
+			say = "Z43 first clears her throat, then picks up the microphone and starts singing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "漆黑烈火之翼♪~签下契约之时♪~封印解除♪~啦啦啦♪~",
+			say = "Wings of dark, burn so briiight♪ Come to me, embrace the liiight♪ Face your fears, we'll be alriiight♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

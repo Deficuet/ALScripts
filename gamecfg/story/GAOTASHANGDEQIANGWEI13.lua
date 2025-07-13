@@ -10,15 +10,15 @@ return {
 			bgm = "theme-lion",
 			sequence = {
 				{
-					"实验场？？？·皇家",
+					"Test Site ??? - Royal Navy",
 					1
 				},
 				{
-					"第五战区",
+					"5th combat sector",
 					2
 				},
 				{
-					"目标建筑群废墟周边",
+					"Near target ruins",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在伊丽莎白进入审视状态后，外部世界也同时发生了变化。",
+			say = "When Elizabeth META began her examination, the world underwent great change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "原本只有出现和消失两种状态的满月之蕾，此刻正在逐渐发出光芒。",
+			say = "The Buds of the Full Moon, which typically only flickered in or out of existence, began to glow one after another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "沉寂在各处的天外之兽群也突然狂暴起来，光荣·META几乎在一瞬间就收到了十二个战区发来的海量警告。",
+			say = "Extradimensionals that lay dormant across the world suddenly turned violent. Glorious received countless alerts from more than twenty combat sectors, all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "诸位，局势突然恶化了，天外之兽群正在苏醒，形成兽潮的可能性急剧增加。",
+			say = "Everyone, the situation is rapidly deteriorating. Extradimensional hordes have awakened – the likelihood of a Beastly Tide has dramatically increased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "继续留在这里十分危险，我建议立刻返回蔷薇塔商量对策。",
+			say = "It's too dangerous to remain here. We must return to the Rose Tower and plan countermeasures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……局势恶化？和那些突然发光的花蕾有关么？",
+			say = "Rapidly deteriorating, you say? Is it related to the pupae suddenly glowing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "还无法确定，伊丽莎白·META女士，请开动列车带我们回去吧。",
+			say = "I can't be certain about anything yet. Your Majesty, we must ready the train for departure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "……伊丽莎白·META女士？",
+			say = "...Miss Elizabeth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "面对呼唤，伊丽莎白·META毫无反应。",
+			say = "Elizabeth META did not respond to her address.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "情况似乎有些不对……陛下，伊丽莎白大人她好像听不见我们说话了！",
+			say = "This is bad... Your Majesty, she can't hear us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "终于，所有人都发现了伊丽莎白·META的异常。",
+			say = "It was then that everyone noticed something off about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "她紧闭双眼，对于外界的呼唤毫无反应，就像站立着陷入了沉睡中一样。",
+			say = "Her eyes were closed tight, and she didn't react to anyone's calls. It was as if she'd fallen into a deep sleep while still standing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种情况我也没见过……谢菲，她这是……？",
+			say = "Even I've never seen something like this. Sheffy, what's wrong with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许陛下正在……“远方”，所以一时顾及不到这边。",
+			say = "Her Majesty is in a very distant place. Her consciousness may be temporarily absent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同步装置被破坏这件事背后果然有个大秘密……",
+			say = "There must be a big secret behind the destruction of the synchronization device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "狮阁下，光荣女士，伊丽莎白·META还在调查同步装置被破坏的事，暂时无法行动。",
+			say = "Lion, Glorious. The other Elizabeth is busy examining the destruction of the device, so she won't be able to act for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我建议兵分两路，由谢菲尔德·META带领所有META成员驻守在此地等待她完成调查。",
+			say = "Let's split up into two groups. Sheffield, lead the METAs to protect this place until she completes her examination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其余人员乘坐狮阁下的太阳船返回蔷薇塔，狮阁下，搭个顺风船没问题吧？",
+			say = "Everyone else will board the Mesektet and return to the Rose Tower. I trust you'll allow us to board, dear governor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎至极~",
+			say = "I'd be offended if you didn't!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "你要将伊丽莎白·META女士留在这里么……？或许我们可以将她抬上太阳船一同回去。",
+			say = "You'll leave her alone here? Perhaps she could be transported to the Mesektet and brought back to the tower?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不可以。放心吧，光荣女士，陛下不会有事的。",
+			say = "You mustn't remove her. Do not worry – we will keep her safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "好吧……那我调一些棋子舰队协助你们防御。",
+			say = "Oh... Then I'll dispatch some Pawns to protect her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "那事情就这么定了！事不宜迟，佩特拉，让太阳船降落，接我们上船。",
+			say = "Sounds like a plan. Chop-chop, Cleopatra. Land the Mesektet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 202350,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "收到！正在降落中——",
+			say = "Yes, Miss Governor. Descending now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "与此同时，「塔」的某处空间中——",
+			say = "Meanwhile, somewhere in the Tower...",
 			bgm = "theme-thetowerxvi",
 			typewriter = {
 				speed = 0.05,
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……定位一直在被干扰，又是麦纪莎。",
+			say = "Position indication jammed again. It must be Magician.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "可恶……我应该一直在这里盯着，让孟菲斯带女灶神过去的……",
+			say = "Tch... I should have kept watch here and had Memphis take Vestal with her instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "要冷静……",
+			say = "Stay calm, Helena.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "如果是麦纪莎的手笔，指挥官应当不会遇到生命危险……",
+			say = "If this is her doing, then the Commander's life shouldn't be endangered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "但是……其他方面的危险就说不准了。",
+			say = "Even still, that doesn't mean that there's no danger whatsoever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这个疯女人……和我耗上了是么。",
+			say = "That insane woman's directly picking a fight with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不对……我前脚才离开，她后脚就启动了陷阱，机会抓得未免也太好了。",
+			say = "No... She activated that trap the instant I left. The timing is too convenient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "迪贝路在麦纪莎的帮助下确实已经不需要鲸鱼了，但她也绝没有将鲸鱼拱手让人的道理……",
+			say = "Devil may not need the whale anymore thanks to her, but that doesn't mean she'll readily give it away to anyone who wants it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "除非……麦纪莎出手干预了，所以伊丽莎白·META才能将鲸鱼带回来，所以她对于鲸鱼内部情况的监控才能如此精密。",
+			say = "But Magician's direct interference would change things. I see... That's why Devil kept the inside of the whale under such scrutiny once it was in Elizabeth's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……虽然不知道是她们是达成了合作，还是她单纯被麦纪莎利用了。",
+			say = "Is she working with Devil, or is she simply using her? I don't know yet, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "是了……这就是最大的盲区，迪贝路不需要鲸鱼了，麦纪莎却未必……",
+			say = "Ugh... I've been blind. Even if Devil no longer needs it, she isn't the only one who would have a use for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "她不但需要鲸鱼，而且需要指挥官加上鲸鱼……",
+			say = "Magician isn't just after the whale. She's after the Commander, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……为的是什么？",
+			say = "But why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "真糟糕……局面不能继续被动下去了。",
+			say = "This is awful. I can't sit idly by any longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……希望此行拿到的数据能够补全「塔」数据库中缺失的部分。",
+			say = "I just hope that this expedition can supplement the data missing from the Tower's database...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "然后……放些情报给余烬好了。",
+			say = "...I'll need to pass more information on to the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

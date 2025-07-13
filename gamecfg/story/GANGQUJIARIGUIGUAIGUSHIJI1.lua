@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>陷阱与猎物</size>",
+					"Sails and Spooks\n\n<size=45>1 Caught in the Web</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			actor = 900462,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "朴茨茅斯冒险号布下天衣无缝的陷阱~嗝~没有任何生灵可以逃脱~♪",
+			say = "Porty's laid a perfect trap, her prey will not escape♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "我站在掩映在密林深处的古堡前，聆听着从不远处传来的诡异歌声。",
+			say = "Somebody is singing a strange song by the castle hidden in the dark woods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 900462,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啦~啦~啦~今天也是愉快的狩猎日~嗝~只要落入我精心布置的蛛网陷阱里……♪",
+			say = "La-de-dum-de-dum♪ Affix the ropes with tape♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（为什么在这样的森林里会有一座城堡……？还有……）",
+			say = "(Who built a castle out in this dreary forest? And who's that, singing?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "一名哼着歌的、面带酡色的、明显是喝醉状态的恶魔少女正在打理着一张巨大的蛛网。",
+			say = "There is a red-faced demon girl – clearly drunk – humming along while she's carefully setting up a massive spiderweb.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（森林深处有着恶魔的传说居然是真的？）",
+			say = "(So the rumors were true. There IS a demon girl living in the forest.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "我小心地躲在树丛后隐蔽着身形，试图在被她发现前离开这里。",
+			say = "Holding my breath, I hide behind a large bush and look for an escape route before she notices me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "然而就在刚刚移动几步后，突然传来了恶魔少女的惊呼声。",
+			say = "I take just a few steps away, then I suddenly hear a scream from where the demon girl is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊！！不，不会吧……怎么会这样？",
+			say = "Noooo! Dammit! How'd this happen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "我堂堂朴茨茅斯冒险号，怎么会被自己的陷阱困住？！",
+			say = "I can't believe I just got caught in my own bloody trap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "自称为朴茨茅斯冒险号的恶魔少女正被紧紧地黏在蛛网之上。",
+			say = "When I look back, I see the she-demon has gotten stuck in the spiderweb, unable to move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔唔……因为没飞稳结果扑到了自己做的陷阱上什么的……",
+			say = "Ugghhh... This is why ya don't drink 'n' fly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "早、早知道就不喝那么多了……",
+			say = "If only I hadn't had a few, then I wouldn't have botched my takeoff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "嘿呀——！！",
+			say = "C'mooon! Lemme loooose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "随着她愈发用力地挣扎，蛛网也缠绕得愈发紧实。",
+			say = "The more she struggles, the more the web ruthlessly clings to her, robbing her of any chance of escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "这下糟了……蛛网陷阱是我特制的，总不会我自己要在这里挂一夜吧？！",
+			say = "Dammit... What now? Am I gonna spend the whole bloody night caught in my own web?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,22 +224,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "恶魔少女满脸涨红，看上去十分懊恼和不甘。",
+			say = "Her face is flushed red with anger and vexation over her own mishap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "帮她脱困",
+					content = "(Rescue her.)",
 					flag = 1
 				},
 				{
-					content = "趁机离开",
+					content = "(Leave while you have the chance.)",
 					flag = 2
 				},
 				{
-					content = "静观其变",
+					content = "(Stay and see what happens.)",
 					flag = 3
 				}
 			}
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "虽说是恶魔，但她眼下的状况又着实有一些可怜。",
+			say = "While she may be a demon, I can't help but feel bad for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "（如果能以帮她脱困要求她保障我的安全，也未尝不可施以援手。）",
+			say = "(I'll offer to help her in exchange for guaranteeing my own safety. Benefits us both.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "原本就是在赶路时误入的此处，再加上遇到了传说中的恶魔……",
+			say = "I've heard some bad stories about this demon, and here I am, just a few paces away from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "在明确知道对方设下陷阱是为了捕猎的前提下，安全起见，就该选择离开这里。",
+			say = "Not only is she dangerous, she has even laid a trap. Anyone with a working brain would walk away for their own safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "（眼下她动弹不得，这倒是个好机会……趁机离开吧！）",
+			say = "(She's immobilized. Now's my chance to get out of here!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "在无法确定这是否也是一种陷阱的前提下，我决定静观其变。",
+			say = "There is the possibility that THIS is the trap – she's feigning being caught. It's best to watch carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 0,
-			say = "（不过……目前的这个藏身位置有些容易暴露啊。）",
+			say = "(Before that, I should move to a less dangerous spot to observe from...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "喀嚓——",
+			say = "SNAP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "思考之时，不慎踩到了一旁的枯枝，发出了细微的响动。",
+			say = "While I'm pondering my next move, I step on a fallen branch, making a faint noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（糟糕……！）",
+			say = "(Crap!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "啊！那边！有人在对吧！",
+			say = "Oi! I heard that! Show yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,18 +388,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "不出意外，细微的响动被恶魔少女敏锐地捕捉到了。",
+			say = "As you'd expect, the demoness demands my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不出声假装没人",
+					content = "(Stay dead silent.)",
 					flag = 1
 				},
 				{
-					content = "坦率走出藏身处",
+					content = "(Come out of hiding.)",
 					flag = 2
 				}
 			}
@@ -410,7 +410,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "屏住呼吸，努力与环境融为一体……",
+			say = "With my breath held, I try desperately to fade into the surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 900462,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还想躲？我已经看到你了！",
+			say = "Don't try 'n' hide! I already know you're there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 900462,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……现在想装傻或者逃走的话，等下我脱身了可绝对饶不了你哦！",
+			say = "Leave me here 'n' you're gonna regret it BADLY once I'm free, ya hear?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "既然已经被发现了，再躲下去也没什么必要。",
+			say = "She knows I'm here. It's pointless to try to hide any longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（算了，随机应变吧。）",
+			say = "(Oh well. Let's improvise.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 900462,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~善良的旅人，请帮帮我，我是居住在森林深处的精灵，不小心被困住了……",
+			say = "Ahem... Oh, kindhearted traveler, please rescue me. I'm a forest fairy and I clumsily got caught in this trap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "少女的声音似乎带着一点哭腔。",
+			say = "She sounds ever so slightly like she's about to cry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,20 +519,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "如果不是之前听到了她的自言自语的全过程，或许此刻确实会被她的演技所欺骗……才怪呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_174",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（算了……懒得拆穿了。）",
+			say = "I might have fallen for her charade if I hadn't seen her laying the trap... Actually, no, I wouldn't have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +532,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我可以帮你脱困，但你必须保证不伤害我，并且护送我离开这个森林。",
+			say = "(I won't bother calling her out. Too much work.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_174",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "I'll help you, but in exchange, you have to guarantee you won't hurt me and that you'll escort me out of the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "我保证我保证！",
+			say = "Of course! I promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过，我不是很相信你。我记得有让恶魔必须遵守诺言的契约吧？",
+			say = "It'll take more than that for me to trust you. You demons have contracts to force you to keep your word, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "怎么连这种事你都知道啊？",
+			say = "Whuh? How'd ya know 'bout those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "哎哎，不对不对？你怎么知道我是恶魔……？",
+			say = "Wait, how could ya even tell I was a demon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……下次说自己是精灵的时候，记得把角和翅膀收起来。",
+			say = "I've never seen a forest fairy with horns and wings like those, for a start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "…………好吧，这次我认栽了。",
+			say = "Whatever! Ya got me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "……你把手放到我的肚子上，我们就能签订契约了。",
+			say = "Just put your hand on my belly 'n' that'll bind a contract 'tween us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "按照她的要求，将手放在了她的小腹上。",
+			say = "As she instructs, I place my hand on her stomach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "随即一阵温热的感觉涌上全身，最终汇聚在手背，紧接着一个造型奇特的图案浮现在手背上。",
+			say = "A warm tingle courses through my body, and the heat gathers in my palm, on which a peculiar emblem forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "契约完成~！不过有点痒啊……",
+			say = "Contract signed! Oof, that tickles...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那么按照约定，我来帮你脱困吧。",
+			say = "Alright. I'll keep up my end of the deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "啊~~重获自由的感觉好棒~",
+			say = "Phew! Freedom's never felt this good before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那么按照约定，你应该送我离开了。",
+			say = "Now it's your turn to honor your word. Show me out of the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "欸~？等一下等一下，这可不行哦？",
+			say = "What? No, see, that's not gonna happen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？什么意思……",
+			say = "Huh? Why no–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_174",
 			hidePaintObj = true,
-			say = "失去束缚的恶魔少女轻而易举抓住了我的双手，而我根本无法反抗这种诡异的怪力。",
+			say = "Now free, she pins me to the ground without an iota of effort. Her superhuman strength makes it impossible to fight back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "虽然我们的契约是不会伤害你，并且护送你离开，但契约可没规定什么时候送你走哦~？",
+			say = "I promised I'd keep ya safe and show ya the way out, but I didn't specify WHEN I'd do that, did I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "如果这个时间是一万年之后呢？",
+			say = "I can fulfill my end of the deal whenever I wanna, be it in a minute or a thousand years!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "呵呵，落入陷阱的旅人啊，我可是贪婪的恶魔。",
+			say = "Heheheh... 'Case I didn't mention it, I've got a ravenous appetite♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900462,
-			say = "从此以后，就由我来保护你，而你的一切，也会全都属于我哦~",
+			say = "Don't worry, I'll keep ya safe 'long as you're here. And in exchange, I'm gonna drain you♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

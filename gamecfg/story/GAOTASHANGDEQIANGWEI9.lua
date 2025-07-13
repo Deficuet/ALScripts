@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "熟悉的地点，陌生的样貌。在飞过这片毫无生机的大地时，狮一行人与伊丽莎白一行人心中均感慨万千。",
+			say = "Lion and Elizabeth's parties were overwhelmed as they flew over the lifeless land, beloved home twisted beyond recognition.",
 			bgm = "theme-brokenworld-sad",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "最终，她们不约而同选择从空中降落在泰晤士河上，经过已经要塞化的塔桥后，沿着水道驶入了曾经首都城市中保存最完好的区域——蔷薇塔。",
+			say = "Both sides happened to suggest landing in the Thames for now. After passing the fortified Tower Bridge, they stood before the most well-preserved place in the former capital: The Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "而后，是贵族少女准备多时的欢迎仪式。",
+			say = "Glorious welcomed them with a ceremony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "伊丽莎白虽然想要尽快将现状问个清楚，但是她所见的一切却逐步加深着她的疑虑，让她决定沉下心来，走完整个流程。",
+			say = "Elizabeth had hoped to question her about this world immediately, but everything she saw only added to her questions, so she restrained herself and waited for the ceremony to end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "欢迎仪式令人印象深刻，骑士团开道，女仆队簇拥。",
+			say = "Knights led the procession, accompanied by maids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "而后的宴会，虽然并没有极尽奢华，但依然能看出来主人的用心程度。",
+			say = "The banquet was a far cry from the luxury back home, but it did serve as a sign of their host's care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "再之后，终于到了开诚布公的时候了——",
+			say = "Finally, it came time for all questions to be answered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"LD港·蔷薇塔",
+					"Port of LD - Rose Tower",
 					1
 				},
 				{
-					"会客大厅",
+					"Reception Hall",
 					2
 				}
 			}
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "本日落座在此的人数，对于这间庞大的会客大厅来说显得十分寂寥，不过来往服务的女仆队成员又很好地弥补了这一点。",
+			say = "There were too few attendants to make use of the spacious reception hall, but the comings and goings of maids made up for the lack of activity.",
 			bgm = "theme-glorious-meta",
 			typewriter = {
 				speed = 0.05,
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "终于，在收下“女仆”格罗斯特端来的茶水之后，狮先于伊丽莎白忍不住发问了。",
+			say = "After accepting tea from Gloucester, Lion was the first to speak up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "光荣女士，非常感谢您热情又周到的招待，不过我们是不是可以开始正题了？",
+			say = "Glorious, your hospitality is appreciated, but I think it's time we get to business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我觉得我们需要认真聊聊——只有我们，没有这些……“棋子”侍从。",
+			say = "Just us – none of your Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "啊……抱歉，这么多年以来我已经习惯了她们的陪伴。",
+			say = "Ah... I'm sorry. I'm so accustomed to their presence that I hardly notice them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "确实……是会有异样感呢，是我考虑不周。",
+			say = "You're right, though. It's odd. I admit my mistake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "贵族少女挥了挥手，原本忙碌的女仆队成员整齐划一地退出了会客大厅。",
+			say = "Glorious waved a hand, and her busy maids – the Pawns – all left the reception hall at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "沉重的关门声后，大厅恢复了空荡与寂寥。",
+			say = "The heavy door closed. Empty silence hung over the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "再次向诸位表示我的歉意……尊贵的客人们，我已经许久没有……处理过这种场景了。",
+			say = "Allow me to apologise again. It's been... so long since we had guests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……已经习惯于“她们”的陪伴了么。应该是我向你表示歉意才对，刚才是我思虑不周。",
+			say = "So you've been stuck living with Pawns all this time? I'm sorry, too – I should've guessed your circumstances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没关系，诸位本就心怀疑虑，我也，或许想多回避一会吧……不过这样终究是不好的。",
+			say = "No, no. It's natural that you all have suspicions, and I was hesitant to show myself to you before... But that was wrong of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "诸位有什么问题，请尽管提问，我尽力解答。",
+			say = "If you have questions, please don't hesitate to ask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就本王先来吧。",
+			say = "I'll start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "光荣女士，这个世界究竟发生了什么，距离你们发出求救信号过了多久？",
+			say = "Glorious, what happened to this world? How long has it been since the distress signal was sent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在除了你之外，还有其他幸存人员么？你所拥有的军事力量如何？",
+			say = "Are there survivors other than you? What are your military capabilities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "伊丽莎白阁下说的，正是我想问的。",
+			say = "You took the words right out of my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "同时我还有几个补充问题，欧罗巴大陆去哪了？怀特岛上的辐射是怎么回事？残骸潮又是怎么回事？",
+			say = "I'll add a couple more questions. Where did the continent of Europa go? How did the Isle of Wight get so corrupted, and what do you know about the Rising Tide?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "嗯……我来一个一个回答吧。",
+			say = "Hmm... Allow me to answer one at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "如诸位所见，这个世界的文明已经毁灭了，毁灭于天外之兽的入侵中。",
+			say = "As you've no doubt noticed, civilisation was destroyed by an extradimensional invasion. It's all gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "“天外之兽”……是那些异形敌人的名字吗？",
+			say = "Extradimensional... Is that what you call those alien things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不错。你们有想过，在某一天醒来之后……头顶的月亮突然变成了你们的敌人么？",
+			say = "Yes. One day, I awoke to find that the very moon above our heads had become our enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "月亮？！",
+			say = "The moon?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "是的。那是一百三十七年前的一个满月之夜，我被一阵仿佛天地共鸣般的声音吵醒。",
+			say = "Yes. On the night of a full moon 137 years ago, an earth-shaking boom awoke me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我前往露台查看，就发现月亮变成了蓝色，然后……它向地球投射了一阵陨石雨。",
+			say = "I rushed outside onto the balcony, and when I looked up, it was blue... and it began to rain meteors upon the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "月球……为什么会投射陨石雨？",
+			say = "A meteor shower came from the moon? Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不知道，当时的科学家推测是月核出现了问题，在月球上引发了一场史无前例的大地震。",
+			say = "I don't know. Scientists at the time theorised that something had happened to its core, causing unprecedented earthquakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "震出的碎块被抛向高空，而后被引力所捕获变为了流星雨降落而下。",
+			say = "Those quakes sent debris flying into space, which was captured by our planet's gravity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "听起来……臆想的成分偏多了吧。",
+			say = "Sounds less like theory and more like wild speculation, to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "或许吧，不论原因为何，当时的我们都没有精力去探讨了。",
+			say = "Perhaps. Regardless, the situation made it difficult to probe into the cause.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "因为与陨石雨一同而来的，就是那些被塞壬称为“天外之兽”的异形生物。",
+			say = "Along with the meteors, beings that the Sirens called \"extradimensionals\" appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "它们自陨石的碎屑中出现，而后快速蔓延扩张。",
+			say = "They came out of the meteors and spread their forces at never-before-seen speeds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "各阵营的第一轮进攻很快以惨败告终，紧接着我们在塞壬盟友的协助下构建了第二道和第三道防线保护各自的本土核心地带。",
+			say = "The first attack by our factions was easily repelled. After that, with Siren aid, we built second and third lines of defence to protect vital areas–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你们居然是与塞壬并肩作战的么？！",
+			say = "You mean to say you fought alongside Sirens?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "是的啊？它们虽然彼此之间常有分歧，不过对于我们一向是很友好的。",
+			say = "Yes...? Sirens may have internal disagreements, but they've been quite friendly with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "友、友好么……？",
+			say = "F-friendly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "……嗯？",
+			say = "Is that strange?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "没事，你继续。",
+			say = "Forget it. Keep talking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……在外敌的威胁下，原本多有摩擦的各个塞壬领袖团结了起来。",
+			say = "Well... This foreign threat convinced even the quarrelling Siren elites to unite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我们虽然一时压制住了敌人，但是敌人无穷无尽、亦不畏生死……最终，我们的第二道防线还是被攻破了。",
+			say = "We managed to suppress the enemy for a time, but they were endless and had no sense of self-preservation. Gradually, we were whittled down, and our second line fell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "求救信号就是在第二道防线被确认攻破的同时，伊丽莎白陛下命令我发出的……",
+			say = "Her Majesty Queen Elizabeth sent the distress signal after that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "再然后……盟友越来越少，高阶塞壬也被逐个被摧毁，到最后，就只剩下我一个人了。",
+			say = "Our allies fell one after another, and so too did the Siren elites... In the end, I was the only one left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "当然，我还控制着蔷薇塔区域，控制着大量塞壬棋子和量产型生产线，还有其他诸多设施。",
+			say = "The Rose Tower area remains under my control, and I can manage the creation of mass-produced Sirens and Pawns, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这也是我所拥有的，或者说……这个世界现在所拥有的全部军事力量。",
+			say = "This is all the power that I... no, that all this world can muster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "战况如此激烈，为什么只有你幸存下来了？",
+			say = "If things were going that badly, then why did you alone survive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "自从塞壬用最后的力量帮我们修建了蔷薇塔之后，世界范围内天外之兽的活跃程度就在逐渐减弱。",
+			say = "Ever since the Sirens used the last of their power to construct this tower, extradimensional activity has gradually decreased all over the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "当时还是有很多同伴幸存的……只是在后来的漫长拉锯战中，敌人的活跃程度越来越弱，同伴也越来越少。",
+			say = "Around the time it was completed, I still had companions left. But the war was long, and while the enemy had weakened, our numbers continued to fall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "到最后，只剩我一个人，但天外之兽也弱到无法再消灭我了。",
+			say = "Though I'm alone now, the extradimensionals no longer wield enough power to put an end to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "至于为什么最后这个幸存人刚好是我……我无法回答。",
+			say = "As for why me... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你是奋战至今幸存下来的勇士，我知道这一点就完全足够了。我收回这个问题，请继续吧，光荣女士。",
+			say = "You're a brave warrior who managed to outlast the war. That's all I need to know about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "嗯……然后是关于那些辐射。",
+			say = "Thank you. Regarding the radiation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "那些天外之兽所带来的辐射，是导致我们防线快速沦陷的原因之一。",
+			say = "The extradimensional radiation was one major reason that our defensive line fell so quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我们无法解析其原理，只能依靠塞壬为我们生产的设备进行抵抗，但就算是塞壬也无法将其彻底净化。",
+			say = "We didn't know how it worked. We had to rely on the Sirens' purification machines, but even those couldn't fully purify it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不过后来我们发现，这些敌人本身并不携带辐射，辐射是从其身体结构中产生，并运用在攻击中污染敌人的。",
+			say = "I later learned that the radiation didn't exist within the extradimensionals – it was generated when they attacked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,21 +866,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "因此只要保护关键区域的护盾不破，污染也不会自然蔓延进来就是了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9707070,
-			say = "至于残骸潮……你的称呼很准确，我们在见到这种现象后也是这么命名的。",
+			say = "Therefore, as long as we could maintain shields in vital areas, the radiation would not be able to spread.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +880,21 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "连年战争产生的大量残骸无人清理，最后全部堆积在海底之下，构成了残骸潮能够形成的基础。",
+			say = "As for the Rising Tide of debris... We called it the same thing when we first witnessed it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_600",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9707070,
+			say = "The debris came from many long years of war. It continued to sink to the sea floor without ever being disposed of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "至于它们为什么会浮上来……因为残骸潮出现后，我们已经无力组织人员前去研究。",
+			say = "We were already too short on personnel to investigate the cause before the first Rising Tide...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "因此，只是在大家闲谈期间有两个猜想。",
+			say = "We have two simple ideas regarding why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "一个猜测是，水下有某种巨型天外之兽，而残骸潮就是它的攻击手段。",
+			say = "The first is that maybe there's a giant extradimensional underwater, and that is its means of attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……那这个巨兽得有多大的力量啊。",
+			say = "Must be incredibly powerful, if so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "当时倒是激发了一些人的创作欲望呢，虽然我也觉得不是很靠谱就对了。",
+			say = "We came up with several ideas after that, but none seemed to hit the mark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "在与天外之兽战斗了这么久后，我从未见过它们出现过如此巨大的个体。",
+			say = "We've fought extradimensionals for a long time, after all, and never have we seen one so big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“星之兽”没有出现过么？",
+			say = "Did the Star Beast never appear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "“星之兽”是什么……？",
+			say = "Star Beast...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "某种悬浮在半空中的大型个体，会发出如同耀眼星光般的光芒。",
+			say = "An enormous entity that hovers in the sky and shines like a star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "唔……我没有见过类似的存在。不过既然“星之兽”可能存在的话……那“深海之兽”也未必没有可能了？",
+			say = "Umm... I've never seen anything of the like, but if it does exist, then does that not imply the existence of an Abyssal Beast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1044,7 +1044,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "真是一个大发现……",
+			say = "This could be a huge discovery...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "不，我还是觉得不可能……另一个假说呢，是什么？",
+			say = "Let's not treat wild speculation as fact. What's your other theory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "另一个假说的话，是关于月亮的。",
+			say = "The other regards the moon itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "天外之兽伴随月亮投射的陨石雨出现，而后我们的天空就被某种影响对外观测的颗粒物包裹了起来。",
+			say = "Ever since the extradimensionals came alongside the meteor shower, the sky has always been covered by strange particles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1099,21 +1099,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "就像你们一路之上看到的天空一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9707070,
-			say = "由于这些颗粒物的存在，我们无法观察星空与月亮，太阳的轮廓也只是时隐时现。",
+			say = "You noticed that the sky was grey along the way here, I presume. That's why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,7 +1113,21 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不过因为潮汐现象与月亮有关，而残骸潮也是潮汐现象的一种。",
+			say = "Those particles make it impossible to observe the sky or the moon. The outline of the sun only appears sparsely.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_600",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9707070,
+			say = "I digress... The Rising Tide phenomenon is related to the moon, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所以我们推测，残骸潮其实是由月亮所引发的。",
+			say = "So I wonder if the moon directly causes it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1154,7 +1154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "这个推测听上去倒是可信多了，我喜欢。",
+			say = "That sounds more credible. I like this theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,7 +1168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "关于欧罗巴大陆呢？",
+			say = "Now, what happened to Europa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1181,7 +1181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "欧罗巴大陆和其他大陆的情况比较复杂，有些沿海部分确实在大战中被摧毁了。",
+			say = "The continents are in a more... complicated situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1195,7 +1195,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不过更多的区域则是因为塞壬设置的某种滞敌系统的影响，变为了难以从外部观测的镜面错乱区。",
+			say = "Nearly all coastal areas were destroyed during the war. The Sirens turned some into Mirror Turbulence areas using obfuscation systems to make them impossible to observe from the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1209,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "贸然进入会被困于其中，诸位请千万不要靠近。",
+			say = "When you enter one, there's a possibility that you may never be able to leave. Do take care not to approach them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,7 +1222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……原来是这样，我还以为整片大陆都被炸沉了呢，那我就没有其他问题了。",
+			say = "Hrmh, I see. Here I thought they'd blown away entire continents. That's all the questions I have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,7 +1236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你呢，伊丽莎白阁下？",
+			say = "What about you, Your Majesties?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1250,7 +1250,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "你说……求救信号是一百三十多年前发出的？",
+			say = "Did we hear you right? The distress signal was sent more than 130 years ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1261,7 +1261,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "自进入大厅后就一直保持沉默的伊丽莎白·META在此刻发问了。",
+			say = "The META Elizabeth finally chimed in after remaining silent until this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1274,7 +1274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "准确来说，是一百三十六年又三月十三日。",
+			say = "To be exact, 136 years, 3 months, and 13 days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1288,7 +1288,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……从我们收到信号到出发前来，只用了不到一天。",
+			say = "...It took us less than a day after receiving the signal to rush here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1302,7 +1302,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "只用了……不到一天……？",
+			say = "Less... than one day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,7 +1316,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "之前我们发出的回复，你收到了么？",
+			say = "Did our reply reach you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1330,7 +1330,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "收到了，在半年之前。",
+			say = "Yes. Half a year ago now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1344,7 +1344,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "那是我们在出发前一小时发出的。",
+			say = "We sent it an hour before our departure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1357,7 +1357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "………………为什么会差了这么多。",
+			say = "How could this have happened...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1371,7 +1371,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "此前，本王应该让这里的伊丽莎白修建过一个用于维持时间同步的装置，你知道么？",
+			say = "Are you aware that we helped this world's Elizabeth build a time-flow synchronisation machine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1385,7 +1385,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "陛下修建的特殊装置……我不是很清楚具体功能，但……我可能知道它的位置。",
+			say = "Her Majesty's precious machine... I don't know anything about its functions, but I may know its current location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1399,7 +1399,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "能带我们去么？",
+			say = "Can you take us there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1413,7 +1413,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "可以，那边在第五战区内，目前处于我的量产型军团控制之下。",
+			say = "Yes. It's in the fifth combat sector, being guarded by my fleet of mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1427,7 +1427,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "那里是第一批沦陷的区域么？",
+			say = "Was that the first area to be taken by the enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1441,7 +1441,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "当然不是！",
+			say = "Absolutely not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1454,7 +1454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "等等……我想起来一件事，那里的装置好像在天外之兽出现后不久就发生了故障。",
+			say = "Ah... I remember now. It started malfunctioning immediately after the extradimensionals appeared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1468,7 +1468,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "当时陛下还着急找人维修了很久呢……",
+			say = "I recall her doing everything she could to repair it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1482,7 +1482,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……在沦陷之前就出现了故障，不是被摧毁的？",
+			say = "You mean... It malfunctioned before she was sunk, and not destroyed after?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1496,7 +1496,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "带路，本王需要立刻去看看。",
+			say = "We must see it. Now. Take us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1510,7 +1510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我们也去！",
+			say = "We're going with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1524,7 +1524,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "好的，诸位请随我来！",
+			say = "Okay! I'll take you there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

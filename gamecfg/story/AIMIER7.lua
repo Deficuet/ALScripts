@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>七 埃米尔的浪漫说·下</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 7 - Émile's Romance Theory Pt. 2</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "我觉得呢，浪漫并不在于说的话做的事在别人看来有多浪漫，而在于“为对方着想的心”呢～",
+			say = "Romance shouldn't be an act for the public to see, I believe it should be a feeling you convey to your partner.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官自己也许不觉得，不过……",
+			say = "You may not have thought about it before, Commander, but just as a few examples:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是安静地欣赏我跳舞，还是放任我做想做的事情，还有和我一起吃甜点——",
+			say = "Whether you're quietly admiring my dancing, letting me do the things I want to, or enjoying dessert with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "埃米尔露出十分甜蜜的微笑",
+			say = "Émile smiled and grabbed hold of my hand with both of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,23 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些对我来说，都是最浪漫的事哟？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "甜言蜜语也好，惊喜也好，没有一颗真正为对方着想的心，就只是空洞的话语，和俗套的行为",
+			say = "... All those things are what I consider to be romantic♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +114,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而只有了解了一个人想要些什么，才能走进每个人的内心。",
+			say = "But if you aren't doing them specifically for your partner, then they're nothing more than shallow gestures, no matter how romantic you think they are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会喜欢指挥官，也是因为指挥官知道我想要什么，并把它给了我",
+			say = "When your actions are with your partner in mind and you're doing what they want, your feelings will unquestionably reach them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,21 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能遇到指挥官实在是太好了呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "……总觉得被说了十分浪漫的话",
+			say = "... I am so happy that I met a romantic who's just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +162,21 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望理解对方，让对方心动，想要对方能够了解自己心意的感情……",
+			say = "I am so happy that I met you, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "I could feel the strong sense of affection and romance behind Émile's words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果这都不能称为爱，那么还有什么东西配得上这个名号呢？",
+			say = "That feeling you get when you understand your partner, make them happy, and know what it is you want to tell them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +208,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……啊，忽然变得想要跳舞了呢~",
+			say = "I believe... no, I KNOW this is the feeling known as \"love\"!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... I don't know why, but suddenly I feel like dancing♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "埃米尔忽然松开手臂，向前走了几步，转身伸出手。",
+			say = "Letting go with one hand, Émile guided herself towards me with her other, taking light steps before coming to a stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这次不是想一个人独舞，而是想和心爱的人一起跳",
+			say = "Normally, I dance pas seul – but this time, I'd like to dance pas de deux...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，不知道你意下如何呢？嘻嘻～",
+			say = "... Will you dance with me, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

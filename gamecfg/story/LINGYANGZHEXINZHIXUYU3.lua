@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-4",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个……{tb}……",
+			say = "Hey, um, {tb}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我稍微超支了一点点……",
+			say = "I've used just a teensy tiny bit too much of my allowance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,12 +60,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "可以提前预支下个月的零花钱吗？我会乖乖的哦~",
+			say = "Could I borrow some from my next month's allowance? I'll be a good girl!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "让我们一起算算账",
+					content = "Let's keep track of your expenses.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "说说看想要多少？",
+					content = "How much do you need?",
 					type = 2
 				}
 			}
@@ -88,12 +88,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？是要一起写明细的意思吗……？",
+			say = "Huh? You mean like... writing down how much money I use?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			dynamicBgType = -2,
-			say = "当然。这样更容易养成管理零花钱的意识。",
+			say = "Yeah. Then you'll learn how to spend your money more wisely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是麻烦……不过为了零花钱只好听话了……",
+			say = "Sounds like a pain... but fine, if it'll get me my allowance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,12 +134,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？这么痛快？{tb}居然是这么好说话的人啊~",
+			say = "What? It was that easy? Wow, you're really nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			dynamicBgType = -2,
-			say = "当然。不过要答应我好好规划使用哦。",
+			say = "Of course. You have to promise to plan out your spending, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "规划什么的……哎呀~",
+			say = "Plan out? Seriously?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,12 +180,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之先把零花钱给人家吧~",
+			say = "Ah, whatever you say, just give me my allowance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

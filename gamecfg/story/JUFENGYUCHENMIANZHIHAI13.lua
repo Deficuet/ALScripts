@@ -10,27 +10,27 @@ return {
 			bgm = "battle-nightmare-theme",
 			sequence = {
 				{
-					"「秩序……溃散……」",
+					"Order is... collapsing...",
 					1
 				},
 				{
-					"「溃……溃散……秩序溃散……」",
+					"...lapsing... Order is... collaps...",
 					2
 				},
 				{
-					"「除错……失败……」",
+					"Rebooting... Failed...",
 					3
 				},
 				{
-					"「遍历……失败……」",
+					"Scan... Failed...",
 					4
 				},
 				{
-					"「伺服务器连接……失败……」",
+					"Connecting to server... Failed...",
 					5
 				},
 				{
-					"「失失失败……」",
+					"Failed failed failed failed failed...",
 					6
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "嘀嗒……嘀嗒……",
+			say = "Drip, drop. I hear droplets hitting the ground.",
 			bgm = "story-temepest-2",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "冰凉、柔软的、滑腻的事物在脸上滑动着。",
+			say = "Something cold yet soft and smooth strokes my cheek... or so I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "Nnh... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,18 +87,18 @@ return {
 			bgName = "star_level_bg_525",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "？？？",
+			actorName = "Wait... what?",
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "Nnh... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "Wait... what?",
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "？？？",
@@ -106,7 +106,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人类，早安。",
+			say = "Hello, human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,14 +117,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "眼前的“少女”露出了僵硬的笑容。",
+			say = "A thing in the shape of a human looks at me with a forced smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是……？",
+					content = "Who are you?",
 					flag = 1
 				}
 			}
@@ -133,12 +133,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是自幻想之中诞生的深海魔物，幻想号。",
+			say = "I am Fancy. A being of the abyss, born from the imaginary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（“深海魔物”……？）",
+			say = "(A being of the abyss? What?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（嗯……从外表看来，确实有诸多独特之处，甚至比飓风船团的成员还要独特……）",
+			say = "(She does have a very... \"unique\" look about her, compared to the Tempesta girls I've seen.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（但是这股令人熟悉的气息……）",
+			say = "(And yet, I just get this feeling...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不……她亦是舰船。）",
+			say = "(Yeah. She's still a shipgirl.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幻想号，谢谢你救了我。",
+			say = "Thanks for saving me, Fancy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,11 +218,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不客气。",
+			say = "You're \"welcome.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,12 +232,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们走吧。",
+			say = "Let's get moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "名为幻想号的少女突然操控一条触手卷了过来。",
+			say = "Without any warning, one of Fancy's tentacles perks up and coils around my body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样走起来更快。",
+			say = "This is faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“走”？是要去哪里？",
+			say = "Okay, uh... Where are we going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,12 +287,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "去完成你的使命，人类。",
+			say = "To fulfill your mission, human.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,11 +302,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我的使命？",
+			say = "What mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,132 +316,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是女神指引你来到此处的，就和我一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600080,
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "所以你也有着女神给你的使命，就和我一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "（指引……难道说的是那些从特米娜露中出现的声音……？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "（说起来，刚才在昏迷中，似乎也听到了什么“伺服务器”之类的……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "（果然，这个“女神”与塞壬的关系非同一般……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "稍等，我有一件事要先确认一下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			say = "拿出被海水浸湿的特米娜露，机器的屏幕上只有漆黑一片。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "并没有出现那种突然修好启动的桥段啊……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			say = "正当我想把特米娜露收起时，名为幻想号的少女好奇的靠了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这个是……唔，某种有着很多用途的仪器，名叫特米娜露。不过它现在暂时坏掉了。",
+			say = "The Goddess guided you here, just as she guided me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,11 +331,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……特米娜露，Terminal？",
+			say = "Therefore, the Goddess has a mission for you, just like me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +345,127 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(\"Guided me\"? Is she talking about what Grimoire Terminal said?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(Didn't it say something about \"connecting to a server\"? What was that about?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(Maybe there really is a link between the Goddess and the Sirens.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hang on. I want to check something.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			say = "Hoping for a miracle, I take Terminal out of my backpack. It's still the same as before.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I should've figured it wasn't working again.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			say = "Just as I stow the tablet back into my backpack, Fancy takes a few soft steps toward me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Oh, this? It's a multipurpose tablet called \"Grimoire Terminal\". It's sort of broken.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600080,
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Abyssal Being",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Terminal? As in a computer terminal?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -479,11 +479,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么会知道……这个词？",
+			say = "You're familiar with computers? How do you know about those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,12 +493,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是女神赋予我的记忆，也是女神赋予我的使命。",
+			say = "The Goddess granted me this knowledge. She granted me this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,12 +508,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Terminal，魔导书，女神主机意志的延伸。",
+			say = "Computers, grimoires, terminals – these are extensions of the will of the Goddess' central unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,12 +523,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是女神意志的执行者……所以我是魔导书，我也是特米娜露？",
+			say = "I, too, carry her will. Perhaps you could say I'm a grimoire and a terminal, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "原本一脸自信的少女突然歪了歪头，显然突然陷入了某种困惑之中。",
+			say = "She tilts her head to the side and thinks about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,11 +549,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……放心吧，你明显不是。",
+			say = "Don't worry. You obviously aren't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,11 +563,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样啊……那我们，走吧？",
+			say = "Very well. Then let us move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "周边的触手蠢蠢欲动。",
+			say = "Her tentacles start to slither all around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,11 +588,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，我还有问题！这里是哪里？",
+			say = "Wait up, there's one more thing I want to know! What even is this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,12 +602,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是女神的国度，女神的领域。",
+			say = "The Kingdom of the Goddess. Her domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,11 +617,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亦是女神主机的内部，女神的……体内。",
+			say = "You are in the Goddess' central unit. You are inside of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,11 +631,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（果然……刚才听她说出的‘主机“两个字并非错觉！）",
+			say = "(Central unit... The pieces are falling into place!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,11 +645,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（看来关于”女神“的本质已经很清晰了。她并非不存在，也不是某个超自然的“神”，而是……一个塞壬设备。）",
+			say = "(The Goddess is no imaginary being, nor is she a transcendent god. She is simply a Siren machine.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,11 +659,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（也就是说……女神信仰，其实是基于塞壬遗留的设备衍生出的信仰……？真是奇妙……）",
+			say = "(Then that means... all this time, the people of this world have worshipped a thing the Sirens left behind?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,11 +673,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过……为什么幻想号会知道这些。）",
+			say = "(More importantly, how does Fancy know about it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,11 +687,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（难道……幻想号的诞生与塞壬存在关系……因此她才能知道诸多超越时代的情报？）",
+			say = "(She could have ties to the Sirens... in which case, she must have all kinds of info.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,11 +701,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女神主机……有自我意识么？",
+			say = "Is the Goddess' central unit... self-aware?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,12 +715,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "少女歪了歪头，似乎是完全不明白这个问题的意思。",
+			say = "She cocks her head, puzzled. It doesn't seem like she understands my question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,11 +741,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我换个问题。女神主机平时都在做什么？",
+			say = "Different question, then. What does her central unit typically do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,11 +755,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女神主机平时负责控制海域中的气候循环，还有镇压深海中的诅咒。",
+			say = "Control the sea's climate and suppress the curse of the deep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,11 +769,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（真亏她能面不改色地同时说出“气候循环”和“诅咒”两个完全不同系统的词……）",
+			say = "(I've never heard \"climate\" and \"curse\" used in the same sentence before...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,11 +783,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过女神主机在永不停歇的净化中，自身体内的系统错误逐渐积累，终于在某一天遭受到了诅咒的反噬。",
+			say = "Many system errors accumulated within the central unit over its endless purges, and one day, the curse infected her with a virus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,12 +797,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，反噬病毒已经控制了女神主机。海域中的亡者，因此而出现。",
+			say = "This virus has seized control of the unit, allowing the dead to appear all across the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,11 +812,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（虽然这个解释听上去有些奇怪，但是我已经完全明白现状了。）",
+			say = "(Although her explanation sounds bizarre, I now fully understand the situation.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,11 +826,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我们清除了女神主机中的反噬病毒，海域就能恢复正常了？",
+			say = "In other words, you and I need to remove the virus to restore the seas to normal – did I get that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,12 +840,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是“你”，不是“我们”。",
+			say = "Not me. You.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,11 +855,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不知道该如何清除反噬病毒。我的使命，只是带你去主机的位置。",
+			say = "I know of no way to remove the virus. My mission is only to take you to the central unit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,11 +869,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……看来这件事确实是我的使命了。",
+			say = "Oh... Then I'll just have to figure something out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,11 +883,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们走吧。",
+			say = "Alright, let's walk over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "周边的触手再次蠢蠢欲动。",
+			say = "Once more, the tentacles slither around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,11 +908,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等！我们是要“走”，所以不能用触手来“卷”，明白了么？",
+			say = "Umm, I said \"let's walk over,\" not \"please carry me.\" You know what \"walk\" means, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,12 +922,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要“走”……所以不要“卷”？",
+			say = "You would prefer to use your lower limbs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,12 +937,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦……明白了。",
+			say = "Fine. I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,11 +952,11 @@ return {
 			actor = 9600080,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人类，请随我来——",
+			say = "Come along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.activity_holiday_trans = {
 	{
-		name = "小型运输船队",
+		name = "Small \nLogistics \nFleet",
 		cost_task_id = 23727,
 		type = 1,
 		id = 1,
 		icon = "HolidayIcon/trans_1",
 		result_ani = "",
-		result_desc = "灵活机动的小批量运输专家，堪称性价比之王。\n完成了小型运输，获得木材X200，石材X200",
+		result_desc = "A small logistics expert sporting both speed and flexibility. Great cost-effectiveness!\nYou received 200 wood and 200 stone from the small logistics fleet.",
 		award = {
 			{
 				8,
@@ -22,13 +22,13 @@ pg.activity_holiday_trans = {
 		}
 	},
 	{
-		name = "中型运输船队",
+		name = "Medium \nLogistics \nFleet",
 		cost_task_id = 23728,
 		type = 1,
 		id = 2,
 		icon = "HolidayIcon/trans_2",
 		result_ani = "",
-		result_desc = "规模与效率的平衡之选，绝不将就的务实派。\n完成了中型运输，获得钢材*800",
+		result_desc = "A compromise born of practicality that does both scale and efficiency.\nYou received 800 metal from the medium logistics fleet.",
 		award = {
 			{
 				8,
@@ -38,13 +38,13 @@ pg.activity_holiday_trans = {
 		}
 	},
 	{
-		name = "大型运输船队",
+		name = "Large \nLogistics \nFleet",
 		cost_task_id = 23729,
 		type = 1,
 		id = 3,
 		icon = "HolidayIcon/trans_3",
 		result_ani = "",
-		result_desc = "大就是好，有钱就是任性，重建工作的可靠保障。\n完成了大型运输，获得电子零件*1200",
+		result_desc = "Big is good. It can do anything as long as you have the cash. This reconstruction is in the bag.\nYou received 1200 electronic components from the large logistics fleet.",
 		award = {
 			{
 				8,
@@ -54,13 +54,13 @@ pg.activity_holiday_trans = {
 		}
 	},
 	{
-		name = "邮轮观光船队",
+		name = "Cruise \nShip \nFleet",
 		cost_task_id = 23730,
 		type = 2,
 		id = 4,
 		icon = "HolidayIcon/trans_4",
 		result_ani = "",
-		result_desc = "奢华与探险的完美结合，海上旅程的梦幻体验。\n完成邮轮观光，获得重建币*1000",
+		result_desc = "Because even adventures have room for luxury. This is the cruise of your dreams.\nYou received 1,000 villa coins from the cruise ship fleet.",
 		award = {
 			{
 				8,

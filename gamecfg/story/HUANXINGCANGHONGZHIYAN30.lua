@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "NA海域·核心区域周边海域",
+			say = "NA Ocean – Waters surrounding the Core Sector",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "阴云阵阵，波涛汹涌，在炮火轰鸣声中，天与地之间的距离都仿佛被拉近了不少。",
+			say = "Dark clouds converged, waves raged. With each peal of gunfire, it felt as if the sky and sea were being pulled together into one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随着时间推移，在奇异点「奈落」强度逐渐提高的同时，NA海域中心舰队承受的压力也在逐步提升。",
+			say = "As time passed, the Singularity continued to grow stronger, and the situation in the NA Ocean's core sector grew more dire by the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "已经开始有成批次的敌人涌出来了，看来塞壬的仲裁机关也分身乏术啊。",
+			say = "Looks like the Arbiters are being overwhelmed. Hordes and hordes of enemies are starting to appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "呵呵，真是来得早不如来得巧，它们这次也算做了件好事，给我们减轻了不少压力。",
+			say = "They've already bought us a lot of time and thinned out the enemy ranks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对比这些敌人的数据和NY司令部同步的情报。",
+			say = "I've had time to compare the enemy data with the intel we received from the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可以确认，我们遭遇到的敌人与此刻从奇异点奈落之中涌出的敌人相同。",
+			say = "Based on what I can see, what we're fighting has the same readings as what's pouring out of Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来真的是相连的啊……也不知道具体是什么原理。",
+			say = "Think the two Singularities are connected? Not sure how exactly that'd work though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，警戒级别提升。",
+			say = "Everyone, we will now be elevating our alert level!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经开始调整西方防御带的部署。各舰队请按照预定计划行动。",
+			say = "I've already adjusted the deployment of our forces in the western defensive line. All fleets, please continue to act according to our existing plans!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "请放心。以女王陛下的名义起誓，北方防御带绝不会放出任何一个敌人。",
+			say = "Fear not. In the name of Her Majesty the Queen, not a single enemy shall pass!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "东方和南方也完全无需担心！",
+			say = "The eastern and southern lines are all under control!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们撒丁帝国会与铁血和鸢尾舰队协同合作，保证防线固若金汤！",
+			say = "We have formed an unbreakable defensive formation with the cooperation of the Iron Blood and Orthodoxy fleets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405020,
-			say = "铁血，会全力配合本次作战。",
+			say = "You have the Iron Blood's full support in this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905010,
-			say = "这次你们撒丁帝国倒确实是倾巢……全面动员。",
+			say = "Looks like Sardegna's deployed damn near all of its fighting force...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905010,
-			say = "就让我先看看你们的指挥水平好了。",
+			say = "Heh... Let's see if you've got what it takes to lead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧~我方已经做好了万全准备，绝不会让诸位盟友失望的！",
+			say = "Haha! Yes, that's right – gaze upon us to your heart's content! Sardegna shall never fall short of her allies' expectations!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905010,
-			say = "不过——如果出现指挥失误导致战局恶化的情况，鸢尾将会自主行动。",
+			say = "Sounds good 'n' all, but talk's cheap. If you mess up and the battle situation worsens, we're gonna do things our way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405020,
-			say = "铁血亦然。本次，不惜代价，也要完成我们的围困任务。",
+			say = "The same goes for the Iron Blood. Achieving our operational objectives remains top priority. We don't mind sustaining casualties to meet those ends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是自然，那是自然！我们是一起战斗的盟友，本就应该商量着来嘛~",
+			say = "Why of course! But as allies who now stand side-by-side, let us come together to fully hash out our plans, down to the finest detail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 399050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳……那要不现在就商量一下？也给我们预备队留点登场机会嘛~",
+			say = "Ooh, write me into those plans of yours, yeah? Put yourself in my shoes – it freakin' sucks sitting back here in the reserves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:18:岛风}已经准备好进行急速支援了！",
+			say = "Should you require my strength, I shall be there faster than the wind blows and the lightning strikes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "哈哈，放心，绝对不会忘了你们的！",
+			say = "Haha, don't worry about it! I'll make sure you all get your time in the spotlight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "唔…………",
+			say = "...*gasp*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107140,
-			say = "怎么了{namecode:94:飞龙}女士，刚才的部署有什么不当的地方么？",
+			say = "What's wrong, Hiryuu? Is there something wrong with our formation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707010,
-			say = "识别徽记有反应……余烬的支援到了！",
+			say = "No, it's not that... There's been a response to the ID signal! The Ashes are coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

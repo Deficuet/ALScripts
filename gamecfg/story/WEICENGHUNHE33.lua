@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "要塞东侧外海？·海雾中",
+			say = "Bermuda Triangle - Mist",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "巴尔的摩带领的调防舰队正在迷雾中与净化者激烈战斗着----",
+			say = "The Baltimore fleet was locked in combat with Purifier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,8 +58,8 @@ return {
 			bgName = "bg_xiangting_3",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "才怪呢~！",
+			actorName = "Purifier",
+			say = "Can't catch me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，不要躲躲闪闪的，来和我正面战斗啊！",
+			say = "Damn it... Come back here, why are you running away? Fight me fair and square!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,8 +92,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "才不要~这次可不是为了收集数据，我才不想浪费无谓的力气呢。",
+			actorName = "Purifier",
+			say = "No can do~ I'm just here to gather data, so I don't wanna waste any extra energy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明是这么明目张胆的拖延战术…可是我们却一点办法都没有……！",
+			say = "Since that wave, it's clear that Purifier is just here to waste our time, but we can't do anything about it right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			say = "轰-----！",
+			say = "BOOOOOM--!",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这片海域里，还有人在战斗！",
+			say = "Was that... the sound of battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "（诱饵舰队被摧毁了，终于上钩了么）",
+			actorName = "Purifier",
+			say = "(Oh, that's the sound of the bait being taken.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +214,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "啊--这-可-不-太-妙---要-撤-退-了----（棒读）",
+			actorName = "Purifier",
+			say = "Oh no, whatever shall I do~ You haven't seen the last of me~ I'll remember this~ We're blasting off again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等-----！",
+			say = "Come back here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "几乎在净化者驶出视野的同时，一个“熟悉”的身影伴随着爆炸的余音从迷雾中出现了。",
+			say = "Another figure emerged from the mist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…余、余烬--？！！",
+			say = "Ember...?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这次你们的指挥官没跟着一起来么。",
+			say = "The Commander isn't here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……无可奉告",
+			say = "...I have nothing to say to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这样啊………（转身）",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请…请等一下！谢谢你出来帮助我们！",
+			say = "Hold on! Wait, thanks for helping us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请问！你知道这些海雾究竟是什么东西么…",
+			say = "But, where are we? What should we do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…塞壬用来掩护行军和围困敌人的把戏。",
+			say = "Not far from where you need to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然在迷雾中偏航了这么远，明明就算通过海水的变化也应该早就能察觉到的…",
+			say = "Is this mist moving us around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "「微层化混合物」，这片海雾的正式名字。整天被那些家伙耍，什么时候才能成长些啊…",
+			say = "The Sirens are toying with you once again. \"Microlayer medley,\" a compound that creates a signal-jamming mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这片海雾干的好事啊…糟糕了。",
+			say = "I knew those blasted Sirens were up to no good...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -503,7 +503,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那…请问我们能回去了么？我们还有很紧急的任务要做…",
+			say = "How do we get out of this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，如果要选择打一场的话，我们也奉陪哦！",
+			say = "Doesn't look like it will be possible as long as we're trapped in this mist. But if this fellow wants to fight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "……真麻烦。",
+			say = "...The jamming mist generator mechanism...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			say = "唉…之前看到的侦察机飞来的方向，我记得是…………",
+			say = "Hmm... If I remember properly, the way it was made...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

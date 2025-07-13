@@ -11,8 +11,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "？？？",
-			say = "迷途之人，果然和占卜的结果一样，不论怎么阻挠都终将抵达这里么…",
+			actorName = "???",
+			say = "It's just as the cards said... They'll get here no matter what I do to try to stop them.",
 			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
@@ -29,8 +29,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "既然如此，欢迎来到我的占卜馆，我是占卜师澪川依代，也以知性之澪为人所知。",
+			actorName = "Miokawa Iiyo",
+			say = "I bid you welcome. I am the fortuneteller Miokawa Iiyo, otherwise known as Intelligence Mionnu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬居然复制了…大家在玩TRPG时候的角色卡？！",
+			say = "Hang on, I recognize her... That's Mio's character from when we were playing tabletop RPGs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			actor = 10500050,
 			dir = -1,
-			say = "刚才看到盘子印记的那一刻，余就有种隐约会是这样展开的预感了…",
+			say = "Ay had a feeling things would turn out this way when Ay saw that platter symbol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			actor = 10500070,
 			dir = 1,
-			say = "投降吧，另一个我，面对这么多人，你没有胜算的。",
+			say = "Surrender while you still can! You have no chance of winning when there are this many of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,8 +104,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "其实我也是想这么做的……",
+			actorName = "Miokawa Iiyo",
+			say = "I would certainly like to, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,8 +121,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "可是时间与空间的支配者的命令，没办那么做啊…",
+			actorName = "Miokawa Iiyo",
+			say = "I have my orders from the ruler of time and space, and I cannot simply surrender...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,8 +138,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "而且还说了些什么“不要手下留情，尽全力去战斗”…所以我必须要打倒你们，对不起",
+			actorName = "Miokawa Iiyo",
+			say = "Listen, I'm really sorry, but I just have to defeat you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多说无益-----！",
+			say = "Then try it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "只一瞬间，在敌人摆出攻击架势之前，{namecode:158}已经突进到敌人面前先手挥下了手中的直刀",
+			say = "Before the Mio clone could even move a muscle, Kawakaze came lunging at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "刀锋在空中划出一道优美又凛冽的轨迹",
+			say = "The glint of her sword forms a beautiful arch, and just as her blade was about to bisect the imposter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（得手了…！）",
+			say = "(You're mine...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在{namecode:158}这么认为时，“撒拉”传来了一声清脆的破碎声",
+			say = "SMASH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,8 +233,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "没用的哦…",
+			actorName = "Miokawa Iiyo",
+			say = "I'm afraid that won't work...…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 10500020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过摔碎盘子抵消了{namecode:158}酱的攻击？！",
+			say = "She stopped Kawakaze's attack by breaking a platter?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 0,
 			actor = 10500070,
 			dir = 1,
-			say = "毕竟依代酱是盘之占卜师呢…",
+			say = "She's a fortuneteller, so she can do things like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，这样的话-----",
+			say = "Hrmh! If that's how you want it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "意识到攻击失手的{namecode:158}，快速拉开距离，向敌人发出一束鱼雷，然而…",
+			say = "Realizing her first attack failed, Kawakaze pulls back and launches her torpedoes. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 10500020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次是直接用盘子击碎了水中的鱼雷？！",
+			say = "Oh come on! She can stop torpedoes with them too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "依代酱貌似拥有75点投掷呢………",
+			say = "Considering she has 75 points invested in her Throwing stat, yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "澪酱…为什么当初要加这么多奇怪的设定啊…",
+			say = "Mio, why'd you even allocate her stats in such a weird way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来就是只登场一次的角色，没有考虑过会出现这种状况啊！",
+			say = "She only appeared in like, one game! I didn't expect her to show up again in the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}小心！",
+			say = "Kawakaze, look out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰----！",
+			say = "BOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -492,7 +492,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在{namecode:158}专注瞄准眼前的敌人时，不知何时潜伏在暗处的另一个敌人发动了偷袭。",
+			say = "Kawakaze is entirely focused on Iiyo, and doesn't notice the attack coming at her from the shadows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = -1,
-			say = "休想得逞！",
+			say = "Not on my watch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空前辈！！！",
+			say = "Miss Sora!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "千钧一发之际，时乃空推开{namecode:158}，用舰装挡住袭来的炮弹",
+			say = "Sora knocks Kawakaze out of the way and the blocks the shell with her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "没…没事！净化亲做的盾牌还是蛮坚固的…帮大忙了！",
+			say = "It's... it's fine! The rigging Purity made is sturdier than you'd think... Looks like that came in handy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不胜感激…",
+			say = "I owe you my thanks...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -598,7 +598,7 @@ return {
 			side = 1,
 			actor = 10500020,
 			dir = 1,
-			say = "守护大家的安全是我的职责，我不会让你伤害她们的！",
+			say = "Listen, clones! I'm in charge of protecting these people, and I'm not letting you lay a finger on them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,8 +614,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500050,
 			dir = 1,
-			actorName = "？？？",
-			say = "切，被挡住了么",
+			actorName = "???",
+			say = "Hmph. So you blocked it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,8 +631,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = -1,
-			actorName = "澪川依代",
-			say = "总算及时赶到了啊，奈切酱",
+			actorName = "Miokawa Iiyo",
+			say = "Thanks for showing up, Nakiri.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,8 +648,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500050,
 			dir = 1,
-			actorName = "燕子花奈切",
-			say = "呵呵，对面的敌人，初次见面，余名叫燕子花奈切，如你们所见，只是一名柔弱的女子高中生罢了",
+			actorName = "Kakitsubata Nakiri",
+			say = "Ohohohoh! Well met, my otherworldly adversaries! My name is Kakitsubata Nakiri. As you can see, Ay am but a simple highschool girl with a noble upbringing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家不要被骗了！燕子花奈切虽然看起来弱不经风，可是实际上是拥有足足70点拳击能力的筋肉大小姐啊！",
+			say = "Don't let her appearance fool you! She might look dainty, but she's built like a muscle mountain and has 70 points in her Punching stat!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -695,8 +695,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500050,
 			dir = 1,
-			actorName = "燕子花奈切",
-			say = "你在说什么，余可是完全不知道哦~",
+			actorName = "Kakitsubata Nakiri",
+			say = "Ay haven't the faintest idea what it is you're talking about, dear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,8 +712,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500050,
 			dir = 1,
-			actorName = "燕子花奈切",
-			say = "依代酱别发呆了，一起上咯！",
+			actorName = "Kakitsubata Nakiri",
+			say = "Tallyho, Iiyo. It is time to show them what we are made of.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

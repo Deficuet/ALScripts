@@ -9,7 +9,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}·META不顾损伤，肆意爆发着自己的力量。",
+			say = "Akagi continues to call forth her immense powers, unhindered by her injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "不过，{namecode:161:天城}却带领舰队逐渐掌握了战斗的主导权。",
+			say = "However, Amagi and her fleet gradually gain a larger and larger advantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "随着时间推移，战斗的天平已经开始倾斜，{namecode:91:赤城}·META逐渐后继无力了。",
+			say = "And as the battle draws on, Akagi's strength eventually runs dry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,9 +111,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "咳……这就是你在浴火归来后的力量么。",
+			say = "*cough*... Heh... So, this must be the power... granted to you by the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,9 +125,9 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "Akagi META",
 			nameColor = "#FF9B93",
-			say = "……洗涤一切罪恶的火炎，正适合作为我的终结。",
+			say = "These flames that purify all sin... are a fitting end for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}·META周身的黑色气息陡然膨胀，而{namecode:161:天城}的火焰则以更快的速度覆盖上去。",
+			say = "The dark aura surrounding Akagi suddenly flares up, but Amagi's flames are one step faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "而后，黑色气息在火焰的燃烧中逐渐消散。片刻前还不可一世的{namecode:91:赤城}·META，缓缓倒下了。",
+			say = "The sinister mist is swallowed up, disappearing without a trace. And Akagi, so prideful and imposing just moments earlier, collapses to the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			side = 2,
 			actor = 307150,
-			say = "诸位，都不要跟过来。我与她……需要一个了断。",
+			say = "Everyone, please stay back. Allow me... to be with my sister until the very end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}向着{namecode:91:赤城}·META倒下的方向疾驰而去。",
+			say = "With a solemn nod, Amagi slowly makes her way over to the fallen Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}大人……？！",
+			say = "Wait, Amagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 305070,
-			say = "让她去吧。之后的事，由她来决断最合适。",
+			say = "Let her handle it. If anyone has the right to deal with that person, it'd be her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到……{namecode:161:天城}的新生之力，竟真的是能够驱逐邪恶的净化之炎。",
+			say = "Flames that purify all sin? Is that... Amagi's true power?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……这个，应该只是META化气息的伪装耗尽后的自然消散，而不是火炎的力量吧。）",
+			say = "(No, that should have just been the META disguise dispersing on its own. It had nothing to do with the flames.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（哦？没想到你能看出这一点来。）",
+			say = "(Interesting. You even managed to catch on to that?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不错，那个META化的状态本来就是伪装出来的，）",
+			say = "(That's right. Akagi purposefully camouflaged herself with a temporary META state.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（至于技术方法嘛，就和你家海伦娜——）",
+			say = "(A handy trick she picked up from Helena.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,11 +297,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "特殊通讯频道",
+			actorName = "Special Comms Channel",
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（…………）",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……嗯？观察者？）",
+			say = "(Observer?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（抱歉，返航路线计算上需要用到它的力量，我暂时把它抽调走了。）",
+			say = "(Apologies. I needed her powers to help secure an escape route, so I had to cut the comms first.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（没关系，问问题的话还是你的回答更令人放心。）",
+			say = "(That's fine by me. I trust you more anyway.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（{namecode:91:赤城}没事吧？）",
+			say = "(So, how's Akagi doing now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（你希望她没事的话，就会没事的。）",
+			say = "(Well, that depends on you. She'll become whatever you want her to be.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（那{namecode:161:天城}呢？）",
+			say = "(And what about Amagi?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（——{namecode:161:天城}的想法也很重要？）",
+			say = "(Getting a little greedy here, aren't we?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（咳、我的意思是{namecode:161:天城}的身体状态……）",
+			say = "(Ahem... I meant, the condition of her hull.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……虽然数据还在统计分析中，不过目前看来一切正常，甚至比预期中还要好，不用担心。）",
+			say = "(Still running my analyses, but everything looks pretty good so far. Your plan seems to have worked even better than expected.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（我继续去准备返航的事，先不聊了。）",
+			say = "(I still have to secure the escape route. Talk to you later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "海伦娜单方面结束了这场通话。",
+			say = "With that, Helena abruptly cuts off the call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（呵呵，难得，她也会有错误预判话题展开的时候。）",
+			say = "(There she goes again... Though, she was more curt toward the end than usual.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我们真的……不用跟过去看看么？",
+			say = "Commander... Are you sure you don't want to head over as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用担心，{namecode:161:天城}会解决问题的。",
+			say = "It'll be fine. If anyone can make a difference right now, it's Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

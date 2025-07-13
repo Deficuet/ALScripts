@@ -23,7 +23,7 @@ return {
 				}
 			},
 			style = {
-				text = "先在港区委托板中，领取一些炼金素材",
+				text = "Fulfill people's requests and you'll receive a few alchemy ingredients.",
 				mode = 1,
 				posY = 197.47,
 				dir = 1,
@@ -64,7 +64,7 @@ return {
 				}
 			},
 			style = {
-				text = "获取通关T5后的素材",
+				text = "For this one, you just have to clear stage T5!",
 				mode = 1,
 				posY = -212.73,
 				dir = 1,
@@ -103,7 +103,7 @@ return {
 				}
 			},
 			style = {
-				text = "返回主界面",
+				text = "Now go back to the main screen.",
 				mode = 1,
 				posY = 311.92,
 				dir = 1,

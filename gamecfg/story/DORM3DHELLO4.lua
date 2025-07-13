@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "贵安，我骄傲的{dorm3d}，天狼星已经在这里恭候您多时了。不过……只要能够侍奉{dorm3d}，天狼星无论付出多久的等待都是值得的。 ",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello4",
+			nameColor = "#FFFFFF",
+			say = "Good day, my honourable {dorm3d}. I've been waiting for you here all day. Oh, no... I don't mind even the longest waits, as long as I get to serve you at the end of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

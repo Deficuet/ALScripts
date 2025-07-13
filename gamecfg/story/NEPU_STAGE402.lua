@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "第四关也过关啦！涅普军团所向无敌！",
+			say = "Stage 4 cleared flawlessly! The Neptune Crew is invincible wherever we go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "谁是涅普军团啊！别随便就把人拉进去啊！",
+			say = "Just who are you calling the Neptune Crew? Don't just lump us in with your weird fantasies!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这就结束了？",
+			say = "... Is it finally over now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照伊斯特瓦尔说，这里应该就是最后一个海域了……",
+			say = "If what Histoire said is correct, then this should be the last zone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,10 +74,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "对，大家辛苦了",
+			say = "Yes. Well done, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "伊森！？那……这个海域真的就是最后的海域了！？",
+			say = "Histy?!  Well then... is this really the last stage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,10 +106,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "是的。镜面海域的数据，还有复制女神的数据……都收集完了。",
+			say = "Indeed, that is the case. The data from the Mirror Seas, and the data from your clones... I've managed to collect it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,10 +123,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "这样就能打开连接游戏业界和那边的次元之间的虫洞了。随时都可以回来哦",
+			say = "With this, I will be able to re-open a wormhole connecting Gamindustri to this world. You will be able to return at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "太好了！通关！Congratulation♪",
+			say = "Woo hoo! Game cleared! Congratulations!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "真够麻烦的，不过好算解决了",
+			say = "That was quite troublesome, but at least it's over now.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呼，终于能回家了",
+			say = "Phew... we can finally go home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这回的体验也挺新鲜的呢……但是这要回去了吗……",
+			say = "This was certainly quite the novel experience... But, it looks like it's time for us to go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "涅普涅普……要回去了吗？",
+			say = "Nep-Nep, do you all really have to go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "不用那么急着……再在学园待一阵也挺好的……",
+			say = "You don't need to be in such a hurry... it's fine to stay at the academy a bit longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家……对不起，我们四女神不能永远离开游戏业界呢",
+			say = "Sorry, everyone. As CPUs, we can't be away from Gamindustri for too long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊！不要不要不要！不要回去啦！我还想在这个世界和大家玩啦！改天再回去啦！比如三个月后！",
+			say = "Waaaah! Don't wanna, don't wanna, don't wanna! I'm not ready to leave yet! I want to stay here and play with everyone a bit longer! Let's change the departure date. Maybe three months out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪能呆那么长时间啊！说回去就回去啦！",
+			say = "Like hell we could stay for that long. I said we're going so we're going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家回到原来的世界的话，我们也有点寂寞呢",
+			say = "If you all are leaving, we'll also be a bit lonely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吧！至少再在这边休息2、3天！",
+			say = "That's right! Shouldn't we at least rest for a day or three?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢。还想和大家多呆一点时间……",
+			say = "Indeed... I wouldn't mind staying with everyone a bit longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝露在说什么啊！？伊斯特瓦尔，应该越早回去越好吧？",
+			say = "Vert, you're saying stuff like that too?! Histoire, tell them that we gotta get going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,10 +340,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "嗯，麻烦尽快回来。",
+			say = "Yes, please come back as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,10 +357,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "但是这个次元——如果想来的话随时都可以来哦？",
+			say = "However, that being said, you are able to travel back to this dimension whenever you want, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +377,8 @@ return {
 			side = 0,
 			dir = -1,
 			hideOther = true,
-			actorName = "涅普顿&诺瓦露",
-			say = "………………诶？",
+			actorName = "Neptune & Noire",
+			say = "......... Eh?",
 			subActors = {
 				{
 					actor = 10100020,
@@ -404,8 +404,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "布兰&贝露",
-			say = "………………啊？",
+			actorName = "Blanc & Vert",
+			say = "......... Huh?",
 			subActors = {
 				{
 					actor = 10100040,
@@ -427,7 +427,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "——诶诶诶诶诶诶诶诶！？",
+			say = "──EHHHHHHHHHHHHHHHHHHH?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,10 +437,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "通过这次事件，我发现这个世界和我们所在的游戏业界是有亲和性的，连接两个次元的虫洞随时都可以打开。",
+			say = "Because of the remarkable affinity between Gamindustri and this world, I am able to open the wormhole at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,10 +454,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "所以即使现在回去了也不过是一时之事。大家想来的话明天就能再来。不用太担心见不了面。",
+			say = "Therefore, it's \"see you later,\" not \"goodbye.\" If you wanted to come back tomorrow, you would be able to. As such, do not worry too much about not being able to see each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "太……太好了！大家可以永远在一起了！",
+			say = "Y-yaaay! We'll be able to be together forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "……嗯，涅普涅普，每天都要来玩……",
+			say = "... Mm... Nep-Nep, come play with us every day, okay...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -506,7 +506,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯！我每天都回来找大家玩！记得准备我的酸素可乐！",
+			say = "Mmhmm! I'll make sure to come every day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂！不要太厚脸皮给这个世界的大家添麻烦啊！",
+			say = "Hey! Don't be too shameless! You'll be a nuisance to the people in this world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不会不会，大家不用客气随时来就好。我们会欢迎的。",
+			say = "No, no, don't hesitate to come at any time. We'll always welcome you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，{namecode:408}这么说的话……姐姐真的每天都会来哦！",
+			say = "If that's the case, your big sister is going to come see you cuties every day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……贝露她真的会陷在这里的还是别对她太客气比较好。",
+			say = "... Vert's really going end up stuck here, so it's best to not be too courteous to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "……嗯，等大家来玩。",
+			say = "... Mm, I'll be waiting for everyone to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到时候再和标枪一起出击呦？",
+			say = "When that time comes, will you all fight alongside Javelin again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，大家好不容易给我们做好的舰装……我们也会一起战斗的！",
+			say = "That's right, since we had this exclusive rigging built for us, we've got to fight too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,12 +624,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "只顾着观察了……没想到又出现了预想外的状况呢",
+			say = "As just an observer, I never expected yet another anomalous occurence",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -660,10 +660,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "完全没想到这些来自异次元的来访者，居然可能会就此定居在这个世界……？而且会成为她们的战力……",
+			say = "Those visitors from another dimension... might actually settle in this world? And they will lend their strength to those who oppose us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,10 +677,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "这也是我们追求的另一个未来的可能性……其中的一角吗？",
+			say = "Is this yet another facet... of the myriad possibilities of the future that we are pursuing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,10 +694,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "……哼，这样也不坏呢。",
+			say = "... Hehehe, this kind of development... isn't all bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,10 +711,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "……就让我继续这样……耐心的……",
+			say = "... Then, let us continue...observing them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,10 +728,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "观察下去吧。",
+			say = "Patiently... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

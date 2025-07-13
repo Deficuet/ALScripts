@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "来到泳池时，意外看到了正在这里休息的{namecode:440:腓特烈大帝}。",
+			say = "I visit the pool and find Friedrich der Große in the midst of relaxation.",
 			bgm = "story-richang-westdaily",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的孩子，此时的相遇就是所谓的缘分么？",
+			say = "What a time for us to meet, my child. Could this be fate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说，你来此处，就是为了来见我？",
+			say = "Or did you come specifically to find me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,18 +67,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:440:腓特烈大帝}躺在充气床上，用手朝我的方向轻轻拨动着池水。",
+			say = "Lying down on a pool air mattress, she languidly stirs the water with her fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "想来游泳放松一下。",
+					content = "I just felt like a quick swim.",
 					flag = 1
 				},
 				{
-					content = "嗯，我是来见你的。",
+					content = "I wanted to see you.",
 					flag = 2
 				}
 			}
@@ -93,7 +93,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，你看起来确实有些疲倦，来我这里休息一会儿吧。",
+			say = "Heehee. You do look rather tired. Come, rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好，我的孩子，我喜欢你的这份率直。",
+			say = "Your honesty is much appreciated, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为奖励，到我身边来吧。",
+			say = "Come... for your reward, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍微吃点樱桃，喝些饮料，放松一下。",
+			say = "Eat cherries, have a drink, and relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,19 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "她摇曳着杯中酒红色的液体，面色潮红，金色的双眸中带着湿润的笑意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_164",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（这是醉了……？）",
+			say = "Red liquid ripples in her glass. On closer inspection, her golden eyes look a tiny bit hazy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +162,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样的情况，让她独自在泳池中待着可不安全。）",
+			say = "(Is she tipsy, or...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +174,19 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:440:腓特烈大帝}，我先送你回房休息吧。",
+			say = "(I don't know if I want to leave her alone in the pool right now...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_164",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Umm, may I take you to your room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？我的孩子，你是在担心我么……？呵呵……",
+			say = "Aww. Are you worried about me? Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无需担心，我并没有醉。",
+			say = "It's okay. I'm not drunk at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看，今夜的烟火表演开始了，到我身边来吧，一同欣赏这美景。",
+			say = "Now, the fireworks have started. Come, my child, and watch by my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "依言走到了她的身边。",
+			say = "I walk over to her as directed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "傻傻地站着做什么？还是不放心么？",
+			say = "You're just standing... Are you anxious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就试试吧，酒精浓度并不高。",
+			say = "Then have a drink. The alcohol by volume is low.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,18 +283,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:440:腓特烈大帝}朝我递来了高脚杯，上面还印着浅色的唇印。",
+			say = "Friedrich passes me a goblet. I can still see the outlines of her lips on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "就着唇印喝",
+					content = "(Disregard and drink.)",
 					flag = 1
 				},
 				{
-					content = "换个位置喝",
+					content = "(Avoid the lip marks.)",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "接过高脚杯，就着唇印喝了一口。",
+			say = "I accept and take a sip from the side her lips touched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许有更直接的方式，满足你的欲望，呵呵……",
+			say = "There are simpler ways to sate your desires, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "接过高脚杯，换了个位置喝了一口。",
+			say = "I spin the goblet around and drink from the untouched side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这是在害羞么？呵呵……",
+			say = "Is someone feeling shy? Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……的确不可能让你醉倒，刚刚看你脸很红，我还以为……",
+			say = "Hmm. Yeah, you're not getting drunk off of this. I saw your face was red, so I assumed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，这里日间阳光太晒，风沙也比我预想中大得多，皮肤敏感才会发红吧。",
+			say = "The sunlight is dazzling today, and the wind and sand batter me so... My skin may just be sensitive from the weather here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:440:腓特烈大帝}换了个姿势，身上半透的黑纱摇曳，半遮掩着她白皙的肌肤。",
+			say = "She sits up. The translucent black veil she's wearing gives a glimpse of her bare skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为何这般看着我？是想吃樱桃了吗？",
+			say = "You're staring... Do you want another cherry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "正想开口，{namecode:440:腓特烈大帝}却先一步将鲜红欲滴的樱桃递到我的嘴边。",
+			say = "Before I can answer, she feeds me a cherry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很甜的，没有核，试试看吧。",
+			say = "Sweet, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "张开嘴，吃下樱桃后，鲜甜的气味仍在口中萦绕。",
+			say = "I open my mouth and accept the refreshing sweetness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我刚刚是想说，夜里比较凉快，注意别着凉。",
+			say = "I was just going to warn you not to catch a cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被你这么一说，倒是有几分凉意。",
+			say = "Heehee. Now that you're mentioning it, I do feel a little chilly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:440:腓特烈大帝}并没有将衣物整理好，而是轻轻拍了拍自己身边空出的位置。",
+			say = "Instead of fixing her \"clothes,\" though, she pats the empty space next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来我身边躺下，与我分享肌肤的温热吧……",
+			say = "Lie down with me. Share your warmth, my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "夜空中绚烂的烟火绽放，池水摇曳着旖旎的光。",
+			say = "Fireworks burst in the sky above, reflecting gloriously in the pool below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的孩子，在夏夜结束前……",
+			say = "Now, my child, until this summer night's end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			actor = 499022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于我的怀中，尽情地撒娇吧……",
+			say = "Indulge yourself in my arms...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

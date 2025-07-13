@@ -8,7 +8,7 @@ return {
 			side = 2,
 			actorName = "{namecode:67}",
 			nameColor = "#ff0000",
-			say = "啊啦啦~如此坚硬的钢铁之躯，在鱼雷机的攻击之下居然如此脆弱不堪，真是让人惋惜呢",
+			say = "Ahhaha~ She’s like a steel giant, so fragile while under torpedo attack. What a pity.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:67}",
 			nameColor = "#ff0000",
-			say = "这次居然被陆航给抢了头功，看来舰队的孩子们未来还要继续加油呀",
+			say = "Our credit was stolen by the Army Air Corps, which was not expected. It seems we need to play smarter in the future.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			actorName = "{namecode:70}",
 			nameColor = "#ff0000",
-			say = "恩，这个时间点，大洋的另一头，一航战、二航战和五航战的姐妹们也应该已经开始行动了",
+			say = "Well, at this point, the sisters of the First, Second, and Fifth fleets should have started their attack on the other side of the ocean.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -69,7 +69,7 @@ return {
 			side = 0,
 			actorName = "{namecode:67}",
 			nameColor = "#ff0000",
-			say = "哼哼哼，是吗，看来这个世界很快就要变得热闹起来了~",
+			say = "Hehehe, interesting, seems the world will soon become a livelier reality.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			actorName = "{namecode:67}",
 			nameColor = "#ff0000",
-			say = "拭目以待吧，新的时代，就要开启了",
+			say = "Wait and see. A new era is about to begin.",
 			shake = {
 				speed = 1,
 				number = 3

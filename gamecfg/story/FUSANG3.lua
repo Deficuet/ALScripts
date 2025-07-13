@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>三  不擅长发邮件？</size>",
+					"After the Flowers Bloomed\n\n<size=45>3 Bad At Writing Mail?</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和{namecode:78}去商店的第二天，像往常一样在指挥室工作时，突然收到了一封邮件。",
+			say = "The day after my shopping trip with Fusou, I received an e-mail.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -52,11 +52,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邮件",
+			actorName = "Mail",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「您有空吗？」",
+			say = "\"Any spare time?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "内容就只有这些，发件人显示的还是“匿名”——这时又收到了第二封邮件。",
+			say = "That was the entire content of the message. I didn't recognize the sender... Almost immediately afterwards, I received the next message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,58 +83,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邮件",
+			actorName = "Mail",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「我马上就到」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "这是要来指挥室的意思么……总之先让这位匿名的发信人说清楚自己究竟是谁——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我在喷泉前面」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我到楼里了」",
+			say = "\"Be there soon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +102,39 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "又收到两封邮件…看样子对方离自己越来越近了。",
+			say = "Was someone supposed to be coming to the office? ...I still had no idea who the sender was, so I wrote a response asking for their name.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Mail",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"In front of the fountain.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Mail",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"In the building.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,23 +149,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "最后该不会像鬼故事一样来一句“我就在你身后”吧…？这么想的瞬间，再次收到了一封邮件。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "邮件",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "「我在指挥室门口」",
+			say = "From the emails that were arriving in rapid succession, I could tell that the sender was gradually approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +164,23 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "读完这封邮件的同时，指挥室的门被敲响了。",
+			say = "I started to wonder if I'd get a message that said \"I'm right behind you\" like in one of those scary movies. That's when I got another message.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Mail",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"In front of you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +195,22 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小心翼翼的来到门前，慢慢的打开门——",
+			say = "As soon as I had read the message, someone knocked on the door to the office.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I approached the door cautiously and opened it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……对、对不起殿下。本来想用邮件跟您讨论一下补给仓库的事情，但是打字实在是有些难…",
+			say = "...E-excuse me, Milord... I wanted to discuss the lot for the supply depot with you, but... typing is hard for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "智能手机真的好难用……发邮件时也不知道为什么就变成“隐私模式”了…",
+			say = "I am still getting the hang of smartphones... I'm not sure why it keeps entering \"Privacy Mode\" when I'm sending e-mails though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一直都不擅长应付电子设备之类的……怎么了殿下？看您好像松了口气的样子……？",
+			say = "I have always struggled to deal with electronic devices... Um, did something happen, Commander? You look relieved...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,23 +283,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:78}不解地望了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "总之，我想带您去看之前提到的那片空地，殿下您现在有空吗？",
+			say = "Fusou looked at me with a quizzical expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +299,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果可以的话，请跟我来吧。",
+			say = "Um, in any case... I'd like to show you to the vacant lot. Would you happen to have time?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "You do, right? Please follow me then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "跟着{namecode:78}走出办公室之后，先前的紧张感终于消失了……",
+			say = "I left the office and followed Fusou, feeling both relieved and a bit silly at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "得好好教一下她怎么发邮件才行，这种事情再来几次的话对心脏可不好……",
+			say = "For my sake, I really needed to teach her how to send e-mail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "今天是学校开学的日子，也是TB第一次去学校的日子。",
+			say = "Today is TB's first day of school.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -17,12 +17,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我会乖乖听话的……",
+			say = "I'll be good and listen to the teachers.",
 			voice = "event:/educate/tb/educate-tb-story-1-11",
 			painting = {
 				alpha = 0.3,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
-			say = "相比起前段时间，现在的TB已经可以说出更完整的句子了。",
+			say = "Her use of language has improved considerably compared to what it once was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
-			say = "不过因为会说的句子变长，让她毫无波动起伏的语调显得更违和了。",
+			say = "However, this fluency makes her distinctive robotic tone stand out all the more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这种语气出现在小孩子身上，还是有些微妙啊……）",
+			say = "(It's a little jarring to hear a child speaking in such a monotone voice...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过这应该会随着TB找到“个性”而发生改变吧。）",
+			say = "(Although, that'll probably improve once she finds her own personality.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？",
+			say = "Hmm?",
 			voice = "event:/educate/tb/educate-tb-story-1-12",
 			painting = {
 				alpha = 0.3,
@@ -116,12 +116,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有声音……",
+			say = "What's that sound?",
 			voice = "event:/educate/tb/educate-tb-story-1-13",
 			painting = {
 				alpha = 0.3,
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
-			say = "幼儿园的铃声响了起来。",
+			say = "The school bell begins to toll.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要上课了啊，TB，我们要先拜拜咯。",
+			say = "That means school is starting. Bye for now, TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,12 +157,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拜拜……？",
+			say = "Bye for now...",
 			voice = "event:/educate/tb/educate-tb-story-1-14",
 			painting = {
 				alpha = 0.3,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
-			say = "她学着我的动作晃了晃手掌。",
+			say = "She mimics me and waves goodbye as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "放学的时候，我会来接你的。",
+			say = "I'll come pick you up after school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
-			say = "春光和煦，风吹起樱花，萦绕在她身边。",
+			say = "The spring breeze is warm and scatters petals from the roadside cherry trees through the air. It almost looks like they're swirling around TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "就这样，我目送着她小小的身影，进入了学校之中。",
+			say = "I stay and watch as she walks inside the school building and her first day begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

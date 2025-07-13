@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "虚像幻境中，{namecode:74:长门}一行人向着中心的樱花树前进着。",
+			say = "Nagato and her fleet pushed onward, maintaining her protective barrier as they sailed for the Sacred Sakura.",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "与试图离开时不同，向着中心前进的一路之上，众人并未遭到过多阻碍。",
+			say = "They encountered hardly any opposition along the way, in a clear contrast to when they were trying to break out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "（断无此外紧内松之理……除非，她想让吾接近那里。）",
+			say = "(Why the lack of resistance? Are they trying to bring me closer to the Sacred Sakura?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……为何？）",
+			say = "(For what reason could that be?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "御神木前，尽是枯枝。",
+			say = "Unlike the blooming trees all around them, the Sacred Sakura had long since withered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}抬头搜寻着。",
+			say = "Nagato gazed up at its branches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "恍然间，枯枝之上一点红。而后，神木盛放，繁华漫天——",
+			say = "A moment passed. Then, a single red dot appeared on a branch, and suddenly, all the buds blossomed at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人……",
+			say = "Lady Nagato...",
 			bgm = "story-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人……?",
+			say = "Lady Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "云开雾散后，陡然射入房中的阳光令人目眩。",
+			say = "The clouds parted, and radiant sunlight shone down upon the forest of cherry blossoms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "在被柔和的声音呼唤了多次后，{namecode:74:长门}堪堪回过神来。",
+			say = "A gentle voice called out to Nagato again and again. Finally, she came back to her senses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}……？唔……吾这是在……？",
+			say = "Amagi? But... Where am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "环顾四周，这是一间典雅又不失华丽的会客厅。不知为何，还带着些许令人怀念的气息。",
+			say = "She looked around. She was in a guest room, both strangely familiar to her and extravagant in design.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:74:长门}大人，刚才一进门，就见您在发呆。",
+			say = "You've seemed a bit distracted ever since you came here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是有什么心事？",
+			say = "Is there something on your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾……好像做了一个很长的白日梦。陡然醒来，有些目眩。",
+			say = "Aye... It feels as though I've had a long dream, and I'm dazed after being so suddenly thrust back to reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "呵呵，近日多阴雨，突然间云开雾散，暖阳洒下，确实会令人困倦呢。",
+			say = "I understand. It's been quite rainy as of late, and anyone would be surprised to see the skies clear out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人这段时间劳累过度，还是要注意休息才是哦。",
+			say = "I know you've been pushing yourself, too. Please take better care of yourself, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "那是，那是……",
+			say = "Very well. Incidentally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:161:天城}……真的，是汝么？",
+			say = "Was it you who guided me to the Sacred Sakura?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "嗯？当然是我了。{namecode:74:长门}大人是在梦中梦到了什么不好的事么？",
+			say = "Pardon? Yes, that was me. Why do you ask? Did you have an unpleasant dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "梦……只是梦罢了。",
+			say = "Dreams are just that – dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾已无碍了。{namecode:161:天城}，突然造访所为何事？",
+			say = "Worry not about me. Now, what would you request of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "其实，{namecode:161:天城}有事相求……",
+			say = "If you pardon my rudeness, I would like to make a request on behalf of Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请说。",
+			say = "Very well. Speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "我希望能够撤销对于{namecode:92:加贺}的退役处理。",
+			say = "As you know, the treaty allows any two large capital ships to be converted to aircraft carriers. I seek to rescind the decommissioning of Battleship Kaga based upon the Treaty's demands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "单刀直入么……汝知道的，没有人希望执行这份命令……",
+			say = "Hmm... Amagi, nobody wishes for this outcome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "我知道，条约既已签订，就绝无改变的可能。",
+			say = "The Treaty is binding once signed, I know. There is no changing fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是，如果有人能代替她呢？",
+			say = "Unless someone takes her place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "正如您所知，我的状况恐怕无法胜任联合舰队旗舰一职……望{namecode:74:长门}大人见谅……",
+			say = "Lady Nagato, you should already know that I am not fit to serve as the flagship of the Combined Fleet. Sooner or later, the role must be entrusted to someone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "可能……很长一段时间内重樱还需要由您来带领前进……",
+			say = "While she may not be up to the task just yet, if you were to pass on the role to Kaga, I would be able to rest easy knowing that I was able to serve the Sakura Empire, even with this flawed body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这就是汝的愿望吗？",
+			say = "Is this truly what you desire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "正是。{namecode:92:加贺}因为一时失意，独自驶入镜面海域，我将会亲自带领小队去将她寻回。",
+			say = "Without a doubt. Right now, Kaga is alone in the Mirror Sea due to her despair, but I will personally bring her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能够平安归来，我希望{namecode:74:长门}大人能够同意我的选择——",
+			say = "Should we be able to return safely, I humbly request that you consider my decision, and hold another wargame to see that Kaga can become an aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……",
+			say = "...No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人……？",
+			say = "Lady Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "不……吾不同意。",
+			say = "I shan't allow it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:161:天城}，不要放弃……吾、吾一定会治好你的！",
+			say = "Don't give up now, Amagi. I will fix you, I swear it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……治好，如何治？",
+			say = "\"Fix\" me? How will you do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "用海若……还有御神木的力量！",
+			say = "By using the Watatsumi as well as the Sacred Sakura's power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝的心智魔方虽无法修复，可是……御神木能够储存你的灵魂。",
+			say = "Though your hull may degrade, your soul – the thing that makes you who you are – can be sustained with the Sacred Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "之后只需要用海若滋养御神木，使其与御神木彼此相连。",
+			say = "The Sacred Sakura will be nourished by the Watatsumi's power, and its roots can be connected to the Prime Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再用海若为核……塑造汝之身体，就可以——",
+			say = "We can create for you a new body, using the Watatsumi as the core.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……这个计划……和她有什么区别？",
+			say = "I see your plan... It's exactly the same as hers, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "和“她”的……？",
+			say = "\"Hers\"? Whose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……吾梦中之事，实为现实。此处，才是梦境……对么？",
+			say = "...I see now. What I thought was a dream was reality. THIS is the dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,9 +669,9 @@ return {
 			dir = 1,
 			bgm = "theme-akagi-inside",
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			hidePaintObj = true,
-			say = "……",
+			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "苍红色的身影无言，只是任凭一张狐面覆盖了脸庞。",
+			say = "The crimson figure did not answer. Wordlessly, she placed her fox mask upon her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,8 +712,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:292}",
-			say = "水龙凌空，破障而行——碎！",
+			actorName = "Shimanto",
+			say = "Shikigami serpent, break this illusion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "远方，突如其来的嘈杂声打破了这一刻宁静。",
+			say = "The silence between them was broken by a shout from afar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,13 +738,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "看来闲聊时间结束了。",
+			say = "It seems our conversation is over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,13 +752,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "{namecode:161}",
+			actorName = "Amagi",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "{namecode:74:长门}，就此折返——远离这件事吧。",
+			say = "Lady Nagato, please, turn back. Stay out of this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "纸符击碎了幻境后，敌人随即浮现。",
+			say = "With the illusion broken, foes lying in ambush revealed themselves.",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -798,7 +798,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "而后，心急火燎的重樱舰队与似乎是远道而来的白鹰舰队一同蜂拥而上，将所有敌人消灭了个干净。",
+			say = "They posed little threat to the combined might of the Sakura Empire's and Eagle Union's fleet, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "在这一片杂乱之中，头戴狐面的苍红色身影消失了。",
+			say = "Amidst the chaos, the crimson figure once more disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "留在耳边的，仅有一声似有似无的叹息声。",
+			say = "All that remained – an echo of her hollow sigh in Nagato's ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "重樱所罗门群岛基地·一段时间后——",
+			say = "Solomon Islands - Sakura Empire Base",
 			bgm = "battle-newwind",
 			typewriter = {
 				speed = 0.05,
@@ -863,7 +863,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "（好小……好可爱……而且居然是战列舰！）",
+			say = "(THAT'S Nagato? Wow, she's pretty dang cute.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "你就是这支重樱舰队的领导者么？",
+			say = "Hey, are you the leader of this fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾乃重樱的神子，前代联合舰队总旗舰，{namecode:74:长门}级战列舰一番舰，{namecode:74:长门}。",
+			say = "I am Nagato, the guardian fox as well as the former flagship of the Sakura Empire's Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "你竟然还当过重樱联合舰队的总旗舰……？！真是人不可貌相啊……",
+			say = "Oops, sorry if that sounded rude. I've heard a lot about you, but I didn't think you'd be so... small.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂——！",
+			say = "How dare you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……匹兹堡。",
+			say = "Ahem. Pittsburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "抱、抱歉，是我失礼了……（可是真的好可爱啊……好想揉！）",
+			say = "Right, yeah, I'm going too far. Forgive me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是企业，白鹰帕克菲克洋舰队的旗舰，也是整片帕克菲克洋战区的负责人。",
+			say = "I'm Enterprise. Flagship of the Eagle Union's Pacific Fleet and currently in charge of operations in and around the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "很荣幸见到你，{namecode:74:长门}女士。",
+			say = "It's an honor to meet you, guardian fox.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "将先前匹兹堡所引发的小小插曲放在一旁。",
+			say = "And so, the Eagle Union and the Sakura Empire finally met on the Solomon Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "碧海晴空之下，帕克菲克洋中最强大的两股势力，白鹰与重樱的舰队领袖，终于在此相遇了。",
+			say = "With a firm handshake, the Pacific's two most influential factions officially made contact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "企业……灰色幽灵么，吾对汝早有所耳闻。",
+			say = "Enterprise. The Grey Ghost. I've heard about you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,7 +1066,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "吾，非常感谢诸位能够不计前嫌，带领舰队前来救援吾之所罗门群岛基地。",
+			say = "You came to our aid today, and for that, I thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "本次是你们提供帮助在先，不用客气。",
+			say = "Please, I should be thanking YOU. Your actions saved us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1094,7 +1094,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "我代表……咳、时间宝贵，客套话就不说了。",
+			say = "On behalf of us all... Actually, time is of the essence, so pardon me for cutting to the chase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,7 +1108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "根据我们的情报，你们的马绍尔群岛基地的局势恐怕比此处还要严峻。",
+			say = "According to our intel, the situation is even worse on the Marshall Islands than it is here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1122,7 +1122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "我们计划接下来从此处出发，配合主力舰队从多个方向夹击敌人，并尽可能救人。",
+			say = "We're going to link up with a capital fleet and launch a pincer attack. Our goal is to break the illusion and help the fleet garrisoned on the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "你们有什么打算？",
+			say = "Would you be willing to share what your fleet plans to do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1150,7 +1150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,7 +1164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "（风向在变，时代，局势亦在变……）",
+			say = "(The times are changing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "（是拘泥于旧日，还是迎向新风……吾心中其实早就已经有了答案。）",
+			say = "(To guard and follow tradition, or embark with the new winds... The choice is already clear to me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1192,7 +1192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "（否则……新生重樱联合将吾从神木中唤醒之时，吾只需要闭眼再睡过去就是了。）",
+			say = "(Much have I experienced since my awakening under the Sacred Sakura, from meeting the Reborn Combined Fleet, to Akagi and her fierce stubbornness.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1206,7 +1206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "……这一系列事件皆因重樱的内部问题而生，诸位本就是被波及的。",
+			say = "Let me preface by saying that all of this – these illusions, these strange new foes – it all has to do with a plan that Akagi advocates for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1220,7 +1220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "吾已确信，目前在帕克菲克洋中突然出现的幻境与敌袭，与{namecode:91:赤城}脱不开干系。",
+			say = "She has taken the Watatsumi and the Sacred Sakura and repurposed them to her own malicious ends. I can tolerate it no longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1234,7 +1234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "这件事，同时还涉及到一些隐藏在重樱神石海若之中的秘密，吾对于处置这些事情责无旁贷。",
+			say = "The Sakura Empire is ultimately responsible for this crisis, and you were caught in the middle of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,7 +1248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "既然诸位有意一同出手。如不嫌弃的话，吾等可否缔结临时盟约，联合行动？",
+			say = "For that, I will bear responsibility. My fleet will gladly accompany you and crush this scourge upon our seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,7 +1262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "直至一切真正结束，尘埃落地之时的到来。",
+			say = "Once that is done, we'll have to see what comes next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1276,7 +1276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "求之不得。我之前还在担心，该如何向你们解释我们前往马绍尔群岛不是一次入侵打击行动呢。",
+			say = "I couldn't ask for more. I'm just glad I won't need to explain later why our forces were seen within earshot of the Marshall Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "有了你们的配合，接下来我们的作战行动一定会很顺利的。",
+			say = "With your help, I'm confident this operation will go without a hitch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_cg6",
-			say = "那就让吾等一同行动吧，向着马绍尔群岛基地，前进！",
+			say = "Aye. Let us form up and disembark for the Marshall Islands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,15 +13,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"一段时间后",
+					"Shortly after...",
 					1
 				},
 				{
-					"白鹰展览馆「太空针」",
+					"World Expo Venue - Eagle Union Pavilion",
 					2
 				},
 				{
-					"地下避难所",
+					"Underground Emergency Shelter",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			bgm = "theme-starsea-core",
-			say = "终于，在舰载机的支援下成功撤退到了太空针内。",
+			say = "Thanks to the air support, we managed to evacuate into the underground shelter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "其实之前有过疑惑，为什么紧急避难点被设置在这里。",
+			say = "At first, I had my doubts about why an emergency shelter would be set up in such a conspicuous location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "不过实际通过电梯来到地下后，情况就完全明白了。",
+			say = "But as the elevator took us deeper and deeper underground, the situation became completely clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关闭地下防爆门……成功。",
+			say = "Sealing blast door... And done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "好了，指挥官，我们安全了。",
+			say = "We're safe now, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			},
 			options = {
 				{
-					content = "提出疑问",
+					content = "\"So, this emergency shelter... Was it set up because...\"",
 					flag = 1
 				}
 			}
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "嗯……？关于这座地堡么。",
+			say = "Yes, that's right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "之前收到您要来的消息的同时，萨拉托加也同时发来了议会要求修建避难所的命令。",
+			say = "As soon as we heard that you were on your way, Saratoga was adamant about beefing up our security, just in case.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是要做好万无一失的准备，以确保您在会场期间的绝对安全。",
+			say = "This place isn't as nice as it could be if we had a few more days, but we can't take anything for granted when it comes to your safety.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "没想到真的会派上用场……",
+			say = "Having all that said, I never actually expected it to come into play like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "所以就在博览会的展馆下方修了地堡……？",
+			say = "\"Do the other factions know about this?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，当然，地堡的存在是保密的，对外的说法是修建了一个存放贵重展品的安全仓库。",
+			say = "No, we keep it a secret from the other factions. On paper, it's only a safehouse where we store valuables and materials.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只知道有这座地堡存在，但不知道是萨拉托加推动的……",
+			say = "*sigh*... Saratoga's been keeping secrets from me again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "真是帮大忙了啊，萨拉托加！",
+			say = "Still, I have to admit that she's really outdone herself this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "既然如此，指挥官，不如我们暂时就把这里当成指挥中心吧！",
+			say = "As far as I can tell, this place has the materials for communication and battle command. Why don't we make this our temporary base?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "嗯。既然暂时确保了安全，接下来就需要弄清楚当前局势了。",
+			say = "\"We've secured a safehouse. Our next urgent matter is to figure out the situation.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "海伦娜，对外联络进展怎么样？",
+			say = "\"Let's test communications to other bases and summarize the situation in the venue.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……与NY司令部无法取得联系，NA海域中的{namecode:199}舰队也没有回应。",
+			say = "I can't get in touch with NY City or New Jersey's fleet in the NA Ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……通讯信号的表现很奇怪。",
+			say = "But it's weird... The communication signal is coming in strange.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "不像是遭受了干扰，而像是……未能找到通讯目标。",
+			say = "It's not like we're being jammed. It's more like... it can't find who I'm trying to communicate with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "嗯，这个情况和我们发现的相同。",
+			say = "Likewise. It's like any communications going out of the venue can't reach their target...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "会场内，还有周边区域的通讯总体来说是畅通的。",
+			say = "Communications in and around the venue seem to be going smoothly, so we at least have a grasp of the situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "虽然因为袭击的原因导致通讯效果并不好，但并没有出现强烈的干扰现象。",
+			say = "But we have no idea what's going on at any of the outside bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是对于更远方的目标就，完全联系不上……就像通讯目标本身不存在一样。",
+			say = "Helena is right; our signal isn't even being jammed, and this is still happening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "对了，在您来之前，我们已经整理了一下当前情况。",
+			say = "Oh! We have a report on the forces around the venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实有些，不容乐观……请看这里。",
+			say = "Things... aren't looking so good right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "接过埃塞克斯递来的会场示意图——",
+			say = "Essex handed me a handheld monitor as a visual aid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,9 +459,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "如您所见，这里是太空针，我们当前所处的位置。",
+			say = "This marked spot is the Eagle Union pavilion. Of course, that's where we are.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -492,8 +492,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "埃塞克斯",
-			say = "我们的堡垒位于场馆下方的地下，暂时很安全。",
+			actorName = "Essex",
+			say = "Our forces are focused in this underground shelter. For the moment, we're safe.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -516,9 +516,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "博览会的主会场，撒丁大剧院——如您所见已经在第一轮袭击中被摧毁了。",
+			say = "The Colosseum, the pavilion where the closing ceremony was held, was completely leveled by the initial attack.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -542,8 +542,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "埃塞克斯",
-			say = "同时，至少有十台以上的机甲——我们暂时将其称为「迪洛伊」（Droid），正在会场各处大肆破坏。",
+			actorName = "Essex",
+			say = "Meanwhile, we've got ten of those massive mechanical eyeballs wreaking havoc across the venues. We'll call them Gazers for now–",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -567,8 +567,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "埃塞克斯",
-			say = "舰载机虽然对其进行了轰炸，但是收效甚微。关于敌人的来源和具体能力还在调查中，暂时没有最新情报。",
+			actorName = "Essex",
+			say = "Our carrier-based aircraft haven't had any success trying to break through with bombs, and we're still in the process of gathering more information.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -592,9 +592,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "稍早前，我们已经成功和皇家与自由鸢尾取得了联系。",
+			say = "Also, here's the situation with the Royal Navy and Iris Libre.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -619,9 +619,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "两家的场馆都在袭击中遭受到了重创。目前，她们正计划集结舰队，然后向着马耳他方向突围。",
+			say = "Their pavilions were also heavily damaged by the attack, so they plan to gather their fleet and evacuate towards Malta.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -647,8 +647,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "埃塞克斯",
-			say = "其他的阵营的场馆我们都没能取得直接联系。",
+			actorName = "Essex",
+			say = "As for the other factions...",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -674,9 +674,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "不过从侦察结果来看，撒丁帝国正在守护己方仅存的展馆，并试图组织反击。",
+			say = "The Sardegnian Fleet is regrouping around the only pavilion they have left, and are planning to launch a counterattack.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -703,38 +703,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "重樱舰队也在依馆据守，而且至少已经成功击退了一次迪洛伊的正面袭击。",
-			canMarkNode = {
-				"bolanhuichang",
-				{
-					1,
-					2,
-					3,
-					8,
-					9,
-					10
-				}
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			blackBg = true,
-			actorName = "埃塞克斯",
-			say = "东煌馆或许是因为早已人去楼空，所以幸免于难。",
+			say = "The Sakura Empire is also buckling down to defend their pavilion, and has already warded off one wave of attacks.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -756,15 +727,44 @@ return {
 			}
 		},
 		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			dialogueBgAlpha = 0.6,
+			hidePaintObj = true,
+			dir = 1,
+			blackBg = true,
+			actorName = "Essex",
+			say = "The Dragon Empery... Hmm. Their pavilion doesn't appear to have been damaged, and none of their personnel appear to be on site.",
+			canMarkNode = {
+				"bolanhuichang",
+				{
+					1,
+					2,
+					3,
+					8,
+					9,
+					10
+				}
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "不过北方联合馆已经被摧毁了，人员与舰队情况不明。",
+			say = "On the other hand, the Northern Parliament's pavilion was completely destroyed, and we do not know the status of any of their shipgirls.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -794,9 +794,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "铁血馆和维希教廷馆所在岛屿周边也发现了激烈的交战痕迹。",
+			say = "Intense fighting has been seen near the locations of the Iron Blood and Vichya Dominion pavilions.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -827,9 +827,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "虽然具体情况不明，不过考虑到铁血博览会舰队中包含两艘计划舰，想来应该不会有太大问题。",
+			say = "Though we aren't able to monitor everything in real time, it appears that several blueprint ships have been deployed and are currently holding the lines.",
 			canMarkNode = {
 				"bolanhuichang",
 				{
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "以上就是现在掌握到的情况。",
+			say = "...That summarizes the situation as it stands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与各阵营的联系还在进行中，相信很快就能收到更多情报了。",
+			say = "Per your orders, Commander, we will continue to gather information and attempt to contact the other factions!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,18 +911,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "辛苦了。",
+					content = "\"Thank you for your work.\"",
 					flag = 1
 				},
 				{
-					content = "不愧是埃塞克斯！",
+					content = "\"Well done, Essex!\"",
 					flag = 2
 				}
 			}
@@ -936,7 +936,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都是我应该做的工作，谈不上辛苦。",
+			say = "Don't mention it. We're just following your orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,7 +954,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿……不过和企业前辈还差得远呢。",
+			say = "Ahaha... Well, I'm still nothing compared to Enterprise...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……都是我应该做的工作，谈不上辛苦。",
+			say = "Ahem! I'm only following orders to the best of my ability.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "情况不容乐观呢，指挥官……",
+			say = "It's pretty hard to be optimistic about this situation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1006,7 +1006,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "嗯……在袭击发生前，身为主办方的撒丁帝国没能做到提前预警。",
+			say = "Even the host, the Sardegna Empire, couldn't predict this attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "在袭击发生后，撒丁帝国也没能组织起有效抵抗。",
+			say = "The abruptness of it prevented anyone from mounting an effective counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "导致现在各阵营缺乏协调指挥，只能各自为战。",
+			say = "Our unknown enemy's power is unknowable, but it's clear that we're not getting out of this situation unless we work together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "再这样下去，会被各个击破的……",
+			say = "At this rate, we'll only go down one by one. Instead, we should—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,11 +1047,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1066,7 +1066,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是光辉，现在代表皇家与自由鸢尾向会场中的各阵营发出宣告。",
+			say = "Finally, the comms are starting to clear up again. Ahem... This is Illustrious, Royal Navy aircraft carrier, speaking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1084,7 +1084,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "我们的舰队已经离开场馆，目前正在会场的东南方水域集结。",
+			say = "The Royal Navy and Iris Libre fleets have gathered in the waters southeast of the World Expo venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，如各位所见，来源不明的强敌从天而降，正在撕裂着我们的防线。",
+			say = "As I'm sure you have seen, an unknown enemy has literally dropped out of the sky and is ripping through our defenses as we speak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "因此，我们计划从会场突围，前往马耳他要塞进行后续战争准备。",
+			say = "In order to defeat this enemy, our fleets have temporarily evacuated to Malta in order to reorganize our forces and plan a counterattack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,7 +1140,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在此向所有阵营发出邀请，希望我们放下成见，共同应对眼前的危机。",
+			say = "All ships who can hear us, we implore you to come and join forces with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1158,7 +1158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "我们的舰队将在一小时后起航，希望各位能加入我们，一同前往马耳他集合力量。",
+			say = "Our fleets plan to strike forth in one hour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1177,7 +1177,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果暂无此意，在本次作战期间，马耳他要塞也会对所有阵营开放。",
+			say = "Until this situation is resolved, the Royal Navy welcomes all factions at our Malta base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1195,7 +1195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "各位可以在合适的时机自由前来。",
+			say = "We hope you will join us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1213,7 +1213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "重复————",
+			say = "Repeating. This is Illustrious, Royal Navy aircraft carrier, speaking...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1228,7 +1228,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "……………皇家和自由鸢尾计划集结力量前往马耳他啊。",
+			say = "I take note of their positions through the monitor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1239,24 +1239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "总算是有采取行动的阵营了，但是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107380,
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官，皇家的光辉发来了联络，希望您能带领白鹰舰队响应她的号召。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "Joining forces sounds lovely, but what if the Gazers attack us? Will we make it to Malta in one piece?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1269,7 +1252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与皇家和自由鸢尾联合舰队一同前往马耳他要塞。",
+			say = "Commander, we've received a message directly from Illustrious. She says that, per her broadcast, she wishes to join forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1286,7 +1269,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们应该如何回复？",
+			say = "She believes that with the extra firepower of the Eagle Union fleet, it would be possible to break through.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107380,
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What do you think? Should we join up with them at Malta?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1301,7 +1301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "集合力量的大方向是对的。",
+			say = "\"The idea on paper sounds good. We obviously want to consolidate our forces as much as possible.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1312,7 +1312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "只是……现在情况不明，贸然撤离并不一定是比固守更好的选择。",
+			say = "\"Unfortunately, gathering outside the pavilion only makes us easy targets. Given the lack of information, trying to throw together a hasty evacuation could prove more disastrous than just trying to weather the storm.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1323,7 +1323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "向皇家舰队和自由鸢尾舰队发出命令，要求她们更改计划，来白鹰馆集合。",
+			say = "\"We'll look into Malta, but for now, we'll set our own meeting point and route.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1334,7 +1334,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "同时，为她们的行动提供空中掩护。",
+			say = "\"Shangri-La, pass all of that on to Illustrious for me, please.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,7 +1348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "遵命。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1366,7 +1366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "碧蓝航线的指挥官，我们已经和{namecode:182}大人恢复了联系。",
+			say = "Commander, I've just received word from Shinano.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1383,7 +1383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她说……想要亲自和您谈一谈。",
+			say = "She says... that she'd like to speak with you in person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1398,7 +1398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:175}有些疑惑的递来了通讯器。",
+			say = "I can see the doubt all over Suruga's face as she hands me the communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1409,7 +1409,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "这也难怪……毕竟跟{namecode:182}认识的方式有些太非常规，也太难以解释了。",
+			say = "Maybe Shinano told her about the dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1424,7 +1424,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝，看来平安无事啊。",
+			say = "This one rejoices over your safety, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1435,11 +1435,11 @@ return {
 			},
 			options = {
 				{
-					content = "重樱馆情况如何？",
+					content = "\"Is the Sakura Empire fleet okay?\"",
 					flag = 1
 				},
 				{
-					content = "你还好么？",
+					content = "\"Are you okay, Shinano?\"",
 					flag = 2
 				}
 			}
@@ -1453,7 +1453,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还算撑得住。",
+			say = "Do not worry about us... We're holding up fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,7 +1472,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢关心，妾身亦平安无事。",
+			say = "Thank you for your concern... This one is safe in the pavilion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "梦醒之后，妾身就在馆中做了些准备，总算没被打个措手不及。",
+			say = "After we parted, this one made some preparations ahead of time... We were fortunately not taken unawares.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1510,7 +1510,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是四处遍布的机甲分割了会场。虽然想与汝汇合，一时间也只能固守场馆。",
+			say = "However, we cannot meet with the enemy in the venue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1528,7 +1528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "还好……妾身不知为何力量增强了许多，目前战况已然稳定。",
+			say = "This one... wishes to ask for your opinion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1546,7 +1546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "或许……是因为吾等的企图暴露。",
+			say = "Could this have all happened because of our attempts to stop the dream from coming to fruition...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1565,7 +1565,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以幕后阴谋者主动撕碎了虚假与和平的幻梦，露出了利齿尖牙。",
+			say = "If we had only waited and watched as zealotry took over, would things have remained peaceful...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1583,7 +1583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "接下来汝有何计划？",
+			say = "How will you overcome this difficulty...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1598,7 +1598,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "向{namecode:182}传达了希望各阵营都能带领舰队在白鹰馆集合，共同作战的想法。",
+			say = "\"I don't know the cause, but now that enemies have shown up, we'll just have to join forces and fight them off.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1613,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……集合力量确实是个好选择。",
+			say = "Gathering all of the shipgirls to fight by your side... A wise choice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1629,8 +1629,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
-			say = "等等——舰队集合的话，我有更好的位置推荐哦~",
+			actorName = "Communicator",
+			say = "In that case, there's a better place to gather than the Eagle Union shelter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1644,7 +1644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……通讯线路被入侵了？！",
+			say = "Eavesdropping through our communication lines?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1662,7 +1662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "是谁在线上说话？！",
+			say = "Who's there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1681,7 +1681,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，抱歉抱歉，事发突然忘了解除伪装，我是铁血的{namecode:427}。",
+			say = "Sorry, sorry. I forgot to turn off my disguise. Prinz Eugen, Iron Blood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1699,7 +1699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你们的通讯我都一直听着呢。",
+			say = "I've been listening since the Commander took charge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1718,7 +1718,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们集结战斗力到一处场馆的大方针，铁血认可。",
+			say = "Our side agrees with joining forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1736,7 +1736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "比起各自为战和鲁莽突围，集结力量理清现状是最好的选择。",
+			say = "Fighting scattered battles in a mad dash to escape sounds like an easy way to get yourself killed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1755,7 +1755,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过关于集合点，我有更好的推荐————维希教廷的大圣堂。",
+			say = "As for where to meet up, though, I'd suggest the Vichya pavilion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1773,7 +1773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你们知道么，她们在展馆里，可是安装了一套完整的极光之壁防御系统啊。",
+			say = "You know all about the secret weapons in each pavilion, don't you, Commander? Well, did you know that the Vichya has a functional Skybound Wall installed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1791,7 +1791,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "虽然本意是进行展示交流，不过在战场之中，就能化身为我们最坚固的屏障。",
+			say = "They most likely did it only to brag about their technology, of course, but it still provides us with a solid line of defense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1809,7 +1809,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你们的白鹰馆避难所位于地下，虽然坚固，但是空间狭小，又不适合舰队出击作战。",
+			say = "Your shelter might be sturdy and a good option for keeping you safe, but it's hardly suitable for deploying a large number of shipgirls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1828,7 +1828,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "位于地上海边的维希教廷馆就不同了，宽敞，坚固，且易于出击。",
+			say = "The Vichya's facility is big and it's located on solid ground, so you can fight back with ease.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1846,7 +1846,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901040,
-			say = "嗯，此刻，圣堂的极光之壁已经启动。",
+			say = "This is Kersaint, from the Vichya Dominion. We've managed to deploy the Skybound Wall without issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1864,7 +1864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901040,
-			say = "维希大圣堂欢迎各位的前来，让我们并肩作战，一同度过危机吧。",
+			say = "Everyone is welcome, so please come if you so desire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1882,7 +1882,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "我个人认为这是我们当前最好的选择了，白鹰的诸位，你们怎么看？",
+			say = "There you have it. How about it, Commander? It seems like the ideal move to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1897,7 +1897,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "感觉，你应该首先解释一下通讯插入的事……",
+			say = "\"You're right. Moving to the Vichya pavilion seems worthwhile, but...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1911,7 +1911,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "咦？我就是按照惯例，想办法监听了会场中的各家场馆的通讯而已啊。",
+			say = "Are you still worried about me cutting into your conversation? Sorry about that, really. As you can all imagine, I've been listening in to all communications throughout the venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1929,7 +1929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "各家都在做同样的事吧？",
+			say = "Though I'm sure the Eagle Union, and everyone else at that, are doing the same thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1948,7 +1948,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只不过我们设备比较好，现在还没失效而已嘛。",
+			say = "I was just able to interrupt your conversation because our technology is better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1966,7 +1966,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "哎呀，先不用在意这些细节，计划本身如何？",
+			say = "Anyway, Commander, are you ready to give me an answer yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1981,7 +1981,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "单纯从设施配置和地点考虑，将维希的大圣堂作为集结地确实是当前的最优解。",
+			say = "\"There are a lot of things I'm unsure of—how reliable the Skybound Wall is, how prepared the communication equipment is, how sturdy the facility itself is...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1992,7 +1992,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "只不过……",
+			say = "\"But it sounds like the benefits outweigh the risks.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2006,7 +2006,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "您是指挥官，我们相信并听从您的判断。",
+			say = "I believe in your leadership, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2023,7 +2023,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，博览会召开的目的原本就是为了彰显和平，一同作战也没什么不好的。",
+			say = "Agreed. The World Expo is a place for us to put aside our differences and come together, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2040,7 +2040,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我当然也没意见。",
+			say = "It doesn't really make a difference which faction takes the lead, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2055,7 +2055,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "既然如此——碧蓝航线同意这个方案。",
+			say = "\"There you have it. Eugen, we agree.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2066,7 +2066,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "还有一件事，既然铁血的监听设备运转正常，那你知道其他几个阵营的情况么？",
+			say = "\"One more thing. I need you to share any and all information the Iron Blood has on the status of other factions.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2081,7 +2081,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "知道知道~",
+			say = "Oh, you wanna know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2099,7 +2099,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "撒丁帝国目前还在固守没有任何防御设施的场馆。",
+			say = "Our info on Sardegna is the same as yours. Their facility defense is top-notch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2118,7 +2118,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的……我已经看不下去派出救援了，那边的舰队就由我负责带过去。",
+			say = "They've decided to gather at the Vichya pavilion, and the Iron Blood will see to it that they make it there safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2136,7 +2136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "北方联合的话，她们的舰队原本在离开会场后向着皇家舰队的位置移动，似乎打算响应光辉的号召。",
+			say = "As for the Northern Parliament... They tried to evacuate from the venue in an attempt to meet up with the Royal Navy fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2154,7 +2154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不过在你让皇家舰队前往白鹰馆之后，她们的舰队也掉头过去找你了。",
+			say = "But on your orders, they've turned back this way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2172,7 +2172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "应该一会就到，到时候你们集合一下一起过来吧？",
+			say = "They'll join up with you soon, so make sure you look after them, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2190,7 +2190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "至于东煌……东煌馆前两天就人去楼空了。",
+			say = "The Dragon Empery... Well, they left days ago, so they're long gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2208,7 +2208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不得不说那位镇海小姐还真是好运，躲过一劫啊……",
+			say = "Looks like they got lucky this time, heheh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2226,7 +2226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "我知道的就这么多了。",
+			say = "That's all I've got. Will that do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2241,7 +2241,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "感谢情报同步。",
+			say = "\"We can discuss the details later, but for now, thank you for sharing.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2252,7 +2252,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:182}，那就改变计划，你带人直接前往维希教廷馆吧。",
+			say = "\"Sardegna will go with Iron Blood, and we'll meet with the Northern Parliament... The Sakura Empire is doing fine in battle, so they should have no problem going to the Vichya pavilion on their own.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2267,7 +2267,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了然。指挥官，{namecode:175}和{namecode:18}就暂时拜托汝等照顾了。",
+			say = "Please take good care of Suruga and Shimakaze for the time being... Goodbye...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2282,7 +2282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "嗯。移动中请注意安全。我们维希大圣堂汇合。",
+			say = "\"Stay safe out there. We'll meet again at the Vichya pavilion.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2295,7 +2295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，收到了北方联合舰队发来的通讯，正在接通。",
+			say = "Commander, the Northern Parliament has safely arrived in nearby seas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2313,7 +2313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "指挥官同志，看到您平安无事真是太好了。",
+			say = "It's good to see you safe and sound, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2331,7 +2331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "我们虽然没能第一时间与白鹰馆恢复联系，不过设法同皇家舰队取得了联系。",
+			say = "We were going to meet with the Royal Navy fleet due to the buggy communication lines, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2349,7 +2349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "现状我们已经知晓，在本次事件中，北方联合舰队会完全听从您的调遣。",
+			say = "Now that communications with you have been restored, we'll obey your orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2367,7 +2367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "不过，恕我直言，我们认为白鹰馆并不是最理想的集结场地。",
+			say = "Oh, and there's something I wanted to discuss with you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2385,7 +2385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "此刻，会场已被包围，各阵营正在各自为战。",
+			say = "Several of those large enemies are heading for the Union pavilion. It won't be long until you're in danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2403,7 +2403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "我认为应该放下阵营成见，团结一切力量应对危机。",
+			say = "Even our combined fleets may not be able to fight them off, so I still think the best course of action would be to retreat for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2421,7 +2421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "所以……",
+			say = "The Northern Parliament pavilion is in tatters. If you're searching for another base—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2436,7 +2436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "维希教廷的大圣堂，是最优选择，没错吧？",
+			say = "\"We actually already anticipated that. We'll be regrouping at the Vichya pavilion.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2450,7 +2450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "没错，不愧是指挥官同志。",
+			say = "Excellent, I'm glad we're all on the same page, then – both Crimson Axis and Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2465,7 +2465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "其实，赤色中轴那边也有相同的想法。",
+			say = "\"None of that matters under these conditions.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2476,7 +2476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "刚刚已经和铁血、维希等阵营协商完毕，我们将会在白鹰馆集结完毕后，一同前往维希教廷的大圣堂。",
+			say = "\"As Commander, it's my duty to bring all of the factions together and rout the enemies that have destroyed our celebration of peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2490,7 +2490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "北方联合舰队明白，我们稍后见。",
+			say = "Heehee, I expected no less from you, Commander. See you later~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2505,7 +2505,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "北方联合的联络完成，然后就是皇家和自由鸢尾……",
+			say = "\"Now, if we can just get a reply from the Royal Navy and Iris Libre...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2519,7 +2519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207030,
-			say = "指挥官，情况我们已经了解了。鉴于现状，我们支持您做出的决定。",
+			say = "We understand the situation, Commander. The Royal Navy will travel to the designated point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2554,7 +2554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 802020,
-			say = "嗯，自由鸢尾也同意您的判断。",
+			say = "The Iris Libre fleet will accompany you, too. May the Holy Iris guide you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2569,7 +2569,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "呼……这样一来，各阵营总算全部联络完毕了。",
+			say = "\"Phew... Looks like we've managed to get everyone to agree to cooperate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2600,7 +2600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "好厉害……刚刚还一团糟的局面，现在已经有条不紊了！",
+			say = "W-wow... I can't believe how quickly you got everyone on the same page even though they were all doing their own things!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2618,7 +2618,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "这就是碧蓝航线指挥官的实力么！",
+			say = "That's my Commander for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2636,7 +2636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "咳……",
+			say = "(Shush! Not so loud when the Commander's trying to focus!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2654,7 +2654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哇啊啊，突然插话真是失礼了！",
+			say = "Whoopsie! Sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2669,7 +2669,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "没关系，不过有一点说的不对。",
+			say = "Not that I mind, though. Shimakaze's carefree spirit can certainly be a breath of fresh air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2680,7 +2680,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "不是有条不紊，而只是有条理了一些。",
+			say = "\"Regardless, we've only managed to organize things somewhat. We still haven't turned things around.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2691,7 +2691,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "关于这场袭击事件，未解的谜团还有很多。",
+			say = "\"The enemy's identity, their motive for attacking us, and their weakness... There are still too many unknowns.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2702,7 +2702,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "等到各阵营舰队于维希馆汇合之后，才是我们正式面对难关的时候。",
+			say = "\"Once everyone has gathered, that's when the real trouble begins.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2715,7 +2715,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "说的没错，不愧是大名鼎鼎的指挥官~",
+			say = "Ooh! There's our Commander! Love that profile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2727,7 +2727,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/kuaimen",
-			say = "咔嚓————（拍照声）",
+			say = "*click*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2739,7 +2739,7 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "《危机中努力团结各阵营的指挥官》，本张照片就用这个名字好了~",
+			say = "\"Commander Unites Warring Factions in the Midst of Danger!\" Yeah, now that's a head-turner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

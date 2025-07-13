@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "身体有点僵了呢……嗯……",
+			say = "My body feels stiff. Mmgh...",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch15",
 			typewriter = {
 				speed = 0.05,

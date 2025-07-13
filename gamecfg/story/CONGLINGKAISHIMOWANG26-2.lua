@@ -10,13 +10,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			bgm = "theme-marcopolo",
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main3",
-			say = "无力的冒险者们，我在此赐予诅咒你们——",
+			say = "Feeble adventurers! I curse ye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,12 +53,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "诅咒你们衰老、无力、虚弱、痛苦——",
+			say = "Tides of time wash over ye, sap thy strength, and make thee weak! Writhe, writhe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,12 +72,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "倒下吧，倒下吧，倒下吧——",
+			say = "Kneel! On the ground with all of thee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "咳咳……这个是……魔王才能使用的究极诅咒。",
+			say = "*cough cough*... My god... This is the ultimate curse! Only the Demon King can cast it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,12 +109,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……这个诅咒……凭我现在的能力解除不掉……",
+			say = "We're in serious trouble... This curse is way too advanced for me to lift!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,12 +128,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……哥哥……独角兽……要坚持不住了……",
+			say = "*cough*... Big brother... I'm at my limit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,12 +147,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "药剂师",
+			factiontag = "Potion Maker",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "药剂瓶……药剂瓶要拿不稳了……",
+			say = "I can't... even muster the strength to hold a potion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,11 +166,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可恶……我可是勇者……勇者抚顺怎么能倒在这种地方……",
+			say = "You fiend... I am the hero! I will not fall at the last step of my journey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,12 +184,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "哈哈哈哈，不行了吧？",
+			say = "Ahahaha! Can't fight anymore, can you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,12 +203,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "早就说了~就凭你们，想要到达我的脚下究竟是奇迹了，竟然还妄图讨伐我？",
+			say = "I warned you. It was a miracle that you even got this far. Thinking you could defeat me was utter foolishness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,12 +222,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "都在我的诅咒下痛苦又缓慢的迎来死亡吧——",
+			say = "Now you will die a slow and painful death from my curse!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,21 +239,21 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "冒险终端",
+			actorName = "Adventure Interface",
 			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
-			say = "系统提示：光明之加护：SSS，已生效。钢铁之加护：SSS，已生效。",
+			say = "\"Notification: Your skills Curse Resistance SSS and Blessing of Light SSS are in effect.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "战斗还没有结束。",
+					content = "The battle isn't over yet.",
 					flag = 1
 				},
 				{
-					content = "没发现我还站在你面前么？",
+					content = "Aren't you forgetting about someone?",
 					flag = 2
 				}
 			}
@@ -262,12 +262,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "……嗯？你怎么还没倒下？",
+			say = "Hm? How in the world are you still standing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,12 +281,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "罢了……你的勇者、神官、圣女、药剂师都已深陷诅咒。",
+			say = "No matter. My curse has still left the rest of your entire party squirming on the floor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,12 +300,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "你一个手无缚鸡之力的指挥官就算没倒下，又有什么用？",
+			say = "Even if your abilities let you resist my curse, you're powerless to do anything against me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,9 +319,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "手无缚鸡之力？",
+			say = "\"Powerless,\" you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,9 +331,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你作为魔王，应该有查看冒险者面板的能力吧？",
+			say = "You might want to take a look at my stats. You have the power to do that, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,12 +343,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "哼，那是自然。我可是站在魔族顶点之人，区区查看冒险面板这种小事……",
+			say = "Hah! Of course I do. I am the apex of demonkind – seeing an adventurer's stats is child's play for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,12 +362,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "这种小事…………",
+			say = "What... the hell?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,12 +381,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "……这、这不对吧？",
+			say = "No... That's impossible...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,12 +400,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "……等级999，生命值999999，魔法值999999，攻击力9999，防御力9999……？",
+			say = "Level 999... 999,999 HP, 999,999 MP, 9,999 ATK, and 9,999 DEF? How?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,9 +419,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你终于注意到了。",
+			say = "Took you long enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,12 +431,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "……居然已经将基础属性提升到了这种程度。",
+			say = "How does one even raise their base stats that ludicrously high?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,11 +450,11 @@ return {
 			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "……之前你打败巨炎龙……不是巧合？！",
+			say = "You're telling me it WASN'T pure luck that you killed my Great Fire Dragon?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,9 +468,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "所以你觉得，一对一我会怕你么？",
+			say = "Damn right. I can even beat you all by myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,12 +480,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "……你！你藏的好深！",
+			say = "You little rat! You kept your stats to yourself this whole time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,11 +499,11 @@ return {
 			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "原来你才是小队里最厉害的那一个！",
+			say = "Out of your whole party, YOU'RE the strongest by a long shot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,14 +517,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿起抚顺的勇者之剑",
+					content = "(Pick up Fu Shun's sword with your one hand.)",
 					flag = 1
 				}
 			}
@@ -533,14 +533,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿起贞德的神圣之剑",
+					content = "(Pick up Jeanne d'Arc's sword with the other.)",
 					flag = 1
 				}
 			}
@@ -549,12 +549,12 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "touch2",
-			say = "你、你想做什么……",
+			say = "Wh-what are you doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,11 +568,11 @@ return {
 			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "等等，有话好好说……！",
+			say = "Wait! We can still talk this out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,12 +586,12 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "我可是魔王！不论人类国王许诺给你了什么我都可以给你双倍！",
+			say = "I'm the Demon King, remember? Whatever your king promised you for my head, I'll make it double!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,11 +605,11 @@ return {
 			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "魔王",
+			factiontag = "The Demon King",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "你不要过来啊————！",
+			say = "NO! GET AWAY FROM MEEE!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_joint_boss_template = {
 	{
 		state = "always",
-		name = "龙·META",
+		name = "Hiryuu META",
 		painting = "feilong",
 		boss_level_id = 1,
 		id = 1,
@@ -10,14 +10,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"光暗花札",
+				"[Cards of Light and Dark]",
 				3,
-				"战斗中发射特殊的光之花札与暗之花札，持续造成范围伤害。"
+				"This ship can lay down special light and dark cards. The cards inflict area of effect damage."
 			},
 			{
-				"次元虫洞",
+				"[Silvergrass and the Pale Moon]",
 				2,
-				"战斗中出现特殊区域，发射高能量球体造成高额伤害。"
+				"This ship can generate a special field that fires high-damage energy balls."
 			}
 		},
 		p_offset = {
@@ -31,7 +31,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "皇家方舟·META",
+		name = "Ark Royal META",
 		painting = "huangjiafangzhou",
 		boss_level_id = 16,
 		id = 2,
@@ -39,14 +39,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"魔弹射手",
+				"[Renegade Sniper]",
 				1,
-				"战斗中出现特殊枪管对场上发动猛烈攻击。"
+				"This ship can conjure hovering cannons that fire at you."
 			},
 			{
-				"幻影强袭",
+				"[Shadow Skirmisher]",
 				2,
-				"战斗中会出现量产型的驱逐舰的幻影向敌人发起冲锋。"
+				"This ship can spawn phantoms of mass-produced destroyers that fight alongside her."
 			}
 		},
 		p_offset = {
@@ -60,7 +60,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "海伦娜·META",
+		name = "Helena META",
 		painting = "hailunna",
 		boss_level_id = 31,
 		id = 3,
@@ -68,14 +68,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"雷达扫描·Hacking",
+				"[Scanner Hacking]",
 				2,
-				"战斗中生成雷达扫描区域，区域内敌方单位会受到伤害加深效果影响。"
+				"This ship can generate a special field. Ships within this field take more damage."
 			},
 			{
-				"「零」象限展开-5%",
+				"[Zeroth Quadrant Expansion -5%]",
 				1,
-				"战斗中释放某种影响整个海域状态的的特殊领域，使敌我双方同时受到伤害加深效果影响。"
+				"This ship can generate a special field that affects the entire battlefield, increasing the damage both sides take."
 			}
 		},
 		p_offset = {
@@ -93,7 +93,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "蛟·META",
+		name = "Souryuu META",
 		painting = "canglong",
 		boss_level_id = 46,
 		id = 4,
@@ -101,14 +101,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"焰舞花札",
+				"Akatan of Blossoming Flame",
 				3,
-				"战斗中使用能够产生连环爆炸并喷发出火焰的特殊花札攻击敌人。"
+				"This ship can lay down special cards that form chains of fire and explode."
 			},
 			{
-				"燃烬之海",
+				"Scorching Seas",
 				2,
-				"将整片海域围困在熊熊烈火之中，敌人触碰火焰后会受到点燃效果。"
+				"This ship can conjure flames across the screen, inflicting the Burn ailment to ships they come in contact with."
 			}
 		},
 		p_offset = {
@@ -126,7 +126,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "奥古斯塔·META",
+		name = "Gneisenau META",
 		painting = "genaisennao",
 		boss_level_id = 61,
 		id = 5,
@@ -134,14 +134,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"焰光之链",
+				"Seething Chains",
 				2,
-				"战斗中使用特殊的火焰锁链攻击敌人，敌方单位触碰锁链会持续受到减速效果。"
+				"This ship can conjure binding chains, decreasing the SPD of ships they come in contact with."
 			},
 			{
-				"潜航鱼雷",
+				"Kaiser Torpedoes",
 				1,
-				"战斗中会不断释放出在水下航行的大型鱼雷，在触碰敌方主力时会造成大量伤害。"
+				"This ship can fire supermassive underwater torpedoes that inflict huge damage to Main Fleet ships they come in contact with."
 			}
 		},
 		p_offset = {
@@ -155,7 +155,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "格尔林德·META",
+		name = "Scharnhorst META",
 		painting = "shaenhuosite",
 		boss_level_id = 76,
 		id = 6,
@@ -163,14 +163,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"钢火之杖",
+				"Iron Whip",
 				2,
-				"战斗中将会释放在场中不断回旋且产生连环爆炸的特殊攻击弹幕。"
+				"This ship can fire a special spinning barrage."
 			},
 			{
-				"潜航鱼雷",
+				"Kaiser Torpedoes",
 				1,
-				"战斗中会不断释放出在水下航行的大型鱼雷，在触碰敌方主力时会造成大量伤害。"
+				"This ship can fire supermassive underwater torpedoes that inflict huge damage to Main Fleet ships they come in contact with."
 			}
 		},
 		p_offset = {
@@ -184,7 +184,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "反击·META",
+		name = "Repulse META",
 		painting = "fanji",
 		boss_level_id = 91,
 		id = 7,
@@ -192,19 +192,19 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"反击焰火",
+				"Repulsing Pyrotechnics",
 				3,
-				"战斗开始时生成三层护盾，每层护盾各自提供部分减伤效果。\n<color=#92fc63>敌方单位每次使用空袭/跨射/鱼雷攻击时都会使自身积累2/2/1层战意，当战意层数达到6/12/18时自身会分别解除一层护盾。</color>"
+				"When the battle starts, this ship can create 3 barriers that reduce the damage she takes. \n<color=#92fc63>Every time your ships fire torpedoes, a main gun volley, or launch an airstrike, the barrier counter increases by 1, 2, and 2, respectively. Every time the barrier counter reaches 6, 1 barrier is negated.</color>"
 			},
 			{
-				"骑士的决意",
+				"Repulse's Resolve",
 				1,
-				"自身每解除一层来自[反击焰火]的护盾，都会提高自身增伤属性，同时攻击方式会变得更加猛烈。\n<color=#92fc63>全部解除后将释放所有战意，使自身进入“全力以赴”状态。</color>"
+				"Each time a \"Repulsing Pyrotechnics\" barrier is negated, this ship's damage dealt increases and her attack pattern changes. \n<color=#92fc63>Once all barriers have been negated, this ship will enter a ferocious attack phase.</color>"
 			},
 			{
-				"熔火之心",
+				"Heart of Lava",
 				2,
-				"战斗中将会出现巨型熔岩形状球体，触碰敌方主力造成巨额伤害，并完全解除航母的隐蔽状态。"
+				"This ship can launch huge lava projectiles, inflicting huge damage to Main Fleet ships they come in contact with as well as rendering aircraft carriers Detected."
 			}
 		},
 		p_offset = {
@@ -222,7 +222,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "声望·META",
+		name = "Renown META",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
@@ -230,24 +230,24 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"流星火雨",
+				"Meteor Shower",
 				3,
-				"战斗中将会出现从天而降的陨石形状球体，在落地后造成范围伤害。"
+				"This ship can launch a special barrage consisting of meteors."
 			},
 			{
-				"破敌之炬-烈",
+				"Ashen Might - Storm",
 				1,
-				"每次蓄力攻击成功，都会提升自身增伤属性。\n<color=#92fc63>累计蓄力攻击成功两次后进入“全力以赴”状态，攻击方式发生变化，提升自身增伤属性并降低减伤属性，同时增加命中。</color>"
+				"This ship can execute a charged attack. Every time this attack goes off without being interrupted, this ship's damage dealt increases. \n<color=#92fc63>The second time this attack is successfully executed, this ship's attack pattern changes and her ACC and damage dealt increases, but her damage taken increases.</color>"
 			},
 			{
-				"破敌之炬-静",
+				"Ashen Might - Lull",
 				1,
-				"每次蓄力攻击失败，都会回复自身少量耐久并提升减伤属性。\n<color=#92fc63>累计蓄力攻击失败两次后进入“沉寂”状态，攻击方式发生变化，提升自身减伤属性并降低增伤属性，同时减少命中。</color>"
+				"Every time this ship's charged attack is interrupted as a result of damage from your ships, a portion of this ship's HP is restored and her damage taken is decreased. \n<color=#92fc63>The second time this attack is interrupted, this ship's attack pattern changes and her damage taken decreases, but her ACC and damage dealt decreases.</color>"
 			},
 			{
-				"熔火之心",
+				"Heart of Lava",
 				2,
-				"战斗中将会出现巨型熔岩形状球体，触碰敌方主力造成巨额伤害，并完全解除航母的隐蔽状态。"
+				"This ship can launch huge lava projectiles, inflicting huge damage to Main Fleet ships they come in contact with as well as rendering aircraft carriers Detected."
 			}
 		},
 		p_offset = {
@@ -265,7 +265,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "亚利桑那·META",
+		name = "Arizona META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
@@ -273,14 +273,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"扩散的哀伤",
+				"Contagious Lament",
 				2,
-				"战斗中出现淡蓝色迷雾笼罩区域，敌方单位在迷雾中停留会降低航速，并受到伤害加深效果影响。\n迷雾的影响效果会随<color=#92fc63>敌方单位在迷雾中的持续停留时间而不断增加</color>，单位脱离迷雾范围后迷雾影响逐渐消失。"
+				"This ship summons a blue fog during battle. Ships inside this fog have reduced SPD and take more DMG.\nThe fog's debuffs <color=#92fc63>become stronger the longer your ships remain inside the fog</color>. The debuffs gradually disappear once your ships exit the fog."
 			},
 			{
-				"黑潮之泪",
+				"Sea of Black Tears",
 				1,
-				"任意敌方单位耐久低于50%时，其会受到额外的恢复效果。\n任意敌方单位耐久低于20%时，其受到的<color=#92fc63>所有恢复效果将被反转为伤害。</color>"
+				"When an enemy ship's max HP falls below 50.0%, she begins recovering HP for the rest of the battle.\nWhen an enemy ship's max HP falls below 20.0%, <color=#92fc63>all her HP recovery will instead be dealt as DMG.</color>"
 			}
 		},
 		p_offset = {
@@ -298,7 +298,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "伊丽莎白女王·META",
+		name = "Queen Elizabeth META",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
@@ -306,14 +306,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"「伊丽莎白」象限展开",
+				"Dominion Expansion",
 				1,
-				"战斗中释放某种影响整个海域状态的的特殊领域，并召唤数名领域骑士，<color=#92fc63>领域骑士对非META角色的攻击有极大伤害减免效果</color>。\n若领域骑士被尽数消灭，则<color=#92fc63>领域崩溃并使自身遭到反噬</color>，行动将变得虚弱，且永久受到伤害加深效果影响。"
+				"This ship exerts a field of dominion and summons Phantom Knights during battle. <color=#92fc63>The Phantom Knights are resistant to attacks from non-META ships</color>. \nOnce all Phantom Knights have been defeated, this ship <color=#92fc63>becomes weaker</color> and permanently takes increased DMG."
 			},
 			{
-				"META亲和性",
+				"META Affinity",
 				2,
-				"自身对非META角色造成的伤害提高，同时受到来自META角色的更多伤害。"
+				"This ship takes more DMG from your META ships, but also deals more DMG to your non-META ships."
 			}
 		},
 		p_offset = {
@@ -331,7 +331,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "阿尔及利亚·META",
+		name = "Algérie META",
 		painting = "aerjiliya",
 		boss_level_id = 151,
 		id = 11,
@@ -339,14 +339,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"堕天之柱",
+				"Pillar of Sin",
 				3,
-				"战斗开始时召唤四根「堕天之柱」，并使得自身受到的伤害降低30%。\n当任意堕天之柱受到攻击时，自身会<color=#92fc63>代替其承受25%的伤害</color>。\n堕天之柱的血量极高。"
+				"When the battle starts: summons 4 [Pillars of Sin] that reduces DMG taken by Algérie META by 40.0%.\nWhen any [Pillar of Sin] takes DMG: <color=#92fc63>20.0% of that DMG is instead redirected to Algérie META</color>."
 			},
 			{
-				"涤罪之焰",
+				"Expurgating Flame",
 				1,
-				"自身在战斗中的部分攻击会令被命中单位受到名为涤罪之焰的<color=#92fc63>特殊点燃效果</color>影响，该点燃单次持续时间较短，但固定伤害较高。\n同时，固定每隔9秒自身便会对<color=#92fc63>当前耐久值最低的敌方单位</color>施加涤罪之焰，目标选择无视后排隐匿。"
+				"Algérie META's attacks inflict a special [Expurgating Flame] <color=#92fc63>Burn</color> status that deals high fixed DMG over a short duration.\nAdditionally, every 8s: inflicts [Expurgating Flame] on the target with <color=#92fc63>the lowest HP percentage</color>. This effect ignores the Main Fleet's Detection status."
 			}
 		},
 		p_offset = {
@@ -364,7 +364,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "貎·META",
+		name = "Jintsuu META",
 		painting = "shentong",
 		boss_level_id = 166,
 		id = 12,
@@ -372,19 +372,19 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"谋断的铁壁",
+				"Ironclad Ultimatum",
 				2,
-				"战斗开始10秒后，自身将获得20%的<color=#92fc63>特殊减伤效果</color>，持续至战斗结束。"
+				"10s after the battle starts: <color=#92fc63>decreases this ship's DMG taken by 20.0% until the battle ends</color>."
 			},
 			{
-				"合纵的瓦解",
+				"Fragmented Alliance",
 				3,
-				"当敌方参战舰队成员所属阵营大于1时，每多1个不同阵营，都会使自身的全属性提升5%。\n（不计算联动等特殊阵营）"
+				"If you have ships from 2 or more different factions in your fleet: for each unique faction after the 1st, increases this ship's every stat by 5.0%. \nCollab ships, except for blueprint ships, are not counted."
 			},
 			{
-				"难违的天命",
+				"Inevitable Fate",
 				1,
-				"战斗开始50秒后，自身会随着时间流逝逐渐变得虚弱，<color=#92fc63>受到的伤害逐步提升</color>，每过4秒增加10%。"
+				"50s after the battle starts: until the battle ends, <color=#92fc63>increases this ship's DMG taken by 10.0% for every 4s passed.</color>"
 			}
 		},
 		p_offset = {
@@ -402,7 +402,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "always",
-		name = "基洛夫·META",
+		name = "Kirov META",
 		painting = "jiluofu",
 		boss_level_id = 181,
 		id = 13,
@@ -410,14 +410,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"机械支援协议",
+				"Mechanized Support",
 				2,
-				"基洛夫·META会部署名为「闪流」与「彗星」的两台战斗机械协同作战。\n<color=#92fc63>「闪流」拥有重型装甲</color>，装备了近距离持续电击武器与磁能榴弹，自身会额外受到更多雷击伤害；<color=#92fc63>「彗星」拥有中型装甲</color>，装备了远距离光束武器与冷冻炸弹，自身会额外受到更多炮击伤害。\n若战斗机械被消灭，支援协议会在3秒后将其<color=#92fc63>重新部署至战场</color>。"
+				"Kirov META summons 2 combat support units, Vspyshka and Kometa.\n<color=#92fc63>Vspyshka is a unit with Heavy Armor</color>, close-range electric weapons, and homing bomb launchers, and takes increased torpedo DMG.<color=#92fc63>Kometa is a unit with Medium Armor</color>, long-range laser weapons, and bombs that cause freezing, and takes increased cannon DMG.\nWhen a support unit is destroyed, <color=#92fc63>it respawns after 3s</color>."
 			},
 			{
-				"联合战斗框架",
+				"Live and Die by Teamwork",
 				1,
-				"每台战斗机械存活时，都能为基洛夫·META提供一定的炮击、雷击、命中加成。每消灭一台战斗机械，都会使基洛夫·META自身<color=#92fc63>防御力永久下降</color>。"
+				"Increases Kirov META's FP, TRP, and ACC for each active support unit. When a support unit is destroyed: <color=#92fc63>decreases Kirov META's defense until the battle ends</color>."
 			}
 		},
 		p_offset = {
@@ -434,28 +434,53 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
-		name = "罗德尼·META",
+		item_id = 100000,
+		name = "Rodney META",
 		painting = "luodeni",
 		boss_level_id = 196,
 		id = 14,
 		meta_id = 970505,
-		item_id = 100000,
 		description = {
 			{
-				"维度跨越",
+				"Dimensional Transcendence",
 				1,
-				"当1.5秒内我方连续进行过两次跨射/空袭时，罗德尼·META会进入维度跨越状态，使其在接下来的<color=#92fc63>4秒内航速提高，无法被选中并规避一切伤害</color>。"
+				"When your fleet fires a main gun salvo or launches an airstrike consecutively within 1.5 seconds of each other, Rodney META enters the Dimensional Transcendence state, <color=#92fc63>increasing her SPD and making her untargetable and immune to DMG for 4s</color>."
 			},
 			{
-				"「我」的投影",
+				"My Phantoms",
 				3,
-				"战斗开始后，战场上将会出现七个「罗德尼」的投影。\n投影不具备任何攻击手段，同时只会受到固定1伤害。<color=#92fc63>每个被消灭的投影都会使得罗德尼·META得到强化，提升其伤害与减伤能力</color>。\n战斗剩余时间不足10秒时，所有「罗德尼」的投影将会消失。"
+				"When the battle starts: summons 7 phantoms of Rodney. \nThe phantoms do not attack and their DMG taken is set to 1. <color=#92fc63>When a phantom is eliminated, Rodney META's DMG dealt increases and her DMG taken decreases.</color> \nWhen the battle is at 10s remaining: all phantoms are eliminated."
 			},
 			{
-				"「我们」的终结",
+				"Rodney's Demise",
 				2,
-				"当场上的「罗德尼」被全部消灭后，罗德尼·META将进入维度跨越状态，并在维度跨越状态结束后<color=#92fc63>释放终结一击</color>，结束战斗。"
+				"When all Rodney phantoms are eliminated, Rodney META enters the Dimensional Transcendence state; when this state ends, Rodney META<color=#92fc63>fires the final shot,</color> ending the battle."
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		p_offset = {
@@ -472,28 +497,53 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
-		name = "威奇塔·META",
+		item_id = 100000,
+		name = "Wichita META",
 		painting = "weiqita",
 		boss_level_id = 211,
 		id = 15,
 		meta_id = 970304,
-		item_id = 100000,
 		description = {
 			{
-				"愈战愈勇",
+				"Tooth and Nail",
 				3,
-				"单次战斗过程中，自身<color=#92fc63>每累计损失5%耐久值，便会获得5%的伤害提升</color>。"
+				"Every time this ship loses <color=#92fc63>5.0% of her max HP in total, her DMG dealt increases by 5.0%</color>."
 			},
 			{
-				"烬火之链",
+				"Chains of Flickering Flames",
 				2,
-				"战斗中会释放出多条锁链，被锁链命中的单位将被束缚，在被束缚期间<color=#92fc63>无法移动、开火，并额外受到20%伤害</color>。"
+				"When this ship hits one of your ships with her chain, that ship will be restrained, <color=#92fc63>temporarily rendering her unable to attack or move and increases her DMG taken by 20.0%</color>."
 			},
 			{
-				"收尾打击",
+				"The Final Strike",
 				1,
-				"战斗的末尾会启用理事会制式MKXIII型外置轨道炮，对战场全域造成巨额伤害。"
+				"When the battle is nearly over, this ship deploys the Council-Style MK XIII Orbital Cannon, dealing massive damage to all targets on the battlefield."
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		p_offset = {
@@ -511,7 +561,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "stop",
-		name = "鲨·META",
+		name = "Nagato META",
 		painting = "changmen",
 		boss_level_id = 226,
 		id = 16,
@@ -519,14 +569,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"月亏月盈",
+				"The Moon Waxes and Wanes",
 				1,
-				"整个海域会<color=#92fc63>周期性在月亏与月盈状态之间切换</color>，每15秒轮换一次。\n月亏状态下，鲨·META对我方造成的伤害降低20%，同时我方受到的治疗效果降低50%。\n月盈状态下，鲨·META对我方造成的伤害提高20%，同时我方受到治疗效果额外增加100%。"
+				"The battlefield cycles between the <color=#92fc63>Waxing Moon and Waning Moon states</color> every 15s.\nIn the Waxing Moon state, Nagato META's DMG dealt increases by 20%, and the potency of your fleet's healing effects increases by 100%.\nIn the Waning Moon state, Nagato META's DMG dealt decreases by 20%, and the potency of your fleet's healing effects decreases by 50%."
 			},
 			{
-				"樱花结界",
+				"The Flowers Bloom and Fall",
 				2,
-				"战斗中会出现樱花结界，<color=#92fc63>结界的效果会跟随月亏月盈的状态发生变化</color>。\n月亏状态下，我方角色身处于樱花结界中时会持续损失耐久。\n月盈状态下，我方角色身处于樱花结界中时会减少受到的伤害。"
+				"Creates a barrier around the battlefield which <color=#92fc63>has different effects depending on if the Waxing Moon or Waning Moon state is active</color>.\nIn the Waxing Moon state, all your ships inside the barrier take less DMG.\nIn the Waning Moon state, all your ships inside the barrier gradually lose HP."
 			}
 		},
 		p_offset = {
@@ -544,7 +594,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		state = "stop",
-		name = "鹩·META",
+		name = "Taihou META",
 		painting = "dafeng",
 		boss_level_id = 241,
 		id = 17,
@@ -552,14 +602,14 @@ pg.world_joint_boss_template = {
 		item_id = 100000,
 		description = {
 			{
-				"彼岸领域",
+				"Otherworldly Domain",
 				2,
-				"鹩·META<color=#92fc63>单场战斗内损失血量超过50%</color>时，会开启全屏领域。\n领域内鹩·META及其召唤物造成的伤害提高20%，我方单位受到的<color=#92fc63>所有回复效果反转为伤害</color>。\n领域持续期间，我方舰队每次损失单位，都会令鹩·META获得伤害强化。"
+				"<color=#92fc63>Upon losing 50% of her max HP in a single battle</color>, Taihou META will deploy a special domain on the battlefield.\nWithin this domain, Taihou META and her summons deal 20.0% more DMG, and <color=#92fc63>all healing effects from your ships are converted into damage</color>.\nAs long as the domain remains activated, Taihou META deals increased DMG each time one of your ships sinks."
 			},
 			{
-				"百鬼之影",
+				"Spiritshadow Procession",
 				1,
-				"战斗中鹩·META会周期性召唤出幻形之息协助作战，其<color=#92fc63>受到的伤害会同等传递至鹩·META自身</color>。\n幻形之息会在持续一段时间后自行消失。"
+				"During battle, Taihou META will summon Spiritshadows at regular intervals to assist her. <color=#92fc63>All damage dealt to Spiritshadows will also be dealt to Taihou META</color>.\nSpiritshadows will despawn after a period of time."
 			}
 		},
 		p_offset = {
@@ -576,23 +626,48 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
-		name = "大黄蜂·META",
+		item_id = 100000,
+		name = "Hornet META",
 		painting = "dahuangfeng",
 		boss_level_id = 256,
 		id = 18,
 		meta_id = 970706,
-		item_id = 100000,
 		description = {
 			{
-				"近地轨道支援",
+				"Low-Altitude Assault",
 				2,
-				"战斗中，大黄蜂·META能够得到来自于近地轨道卫星提供的多种类型支援。"
+				"During combat, receives various support from low-altitude orbit satellites."
 			},
 			{
-				"幽灵行动",
+				"Operation Ghost",
 				1,
-				"大黄蜂·META每隔18秒，都会为其自身增添一层光学迷彩效果，每1层<color=#92fc63>提高自身6%回避率</color>，最多叠加3层。\n光学迷彩效果达到3层后，大黄蜂·META将会使用一次电磁脉冲攻击，<color=#92fc63>对所有我方单位造成致盲效果</color>，持续5秒。（视野受到影响，无法使用主炮开火、空袭支援等功能）"
+				"Every 18s: grants this ship Optical Camouflage (can be stacked up to 3 times). Each stack of Optical Camouflage <color=#92fc63>increases Evasion Rate by 6%</color>.\nWhen this ship has 3 stacks of Optical Camouflage: launches an Electromagnetic Pulse that <color=#92fc63>inflicts Blind on all your ships</color> for 5s, rendering them unable to fire their Main Guns or launch airstrikes."
+			}
+		},
+		state = {
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		p_offset = {
@@ -610,21 +685,21 @@ pg.world_joint_boss_template = {
 	},
 	{
 		item_id = 100000,
-		name = "茳·META",
+		name = "Kawakaze META",
 		painting = "jiangfeng",
 		boss_level_id = 271,
 		id = 19,
 		meta_id = 970108,
 		description = {
 			{
-				"二刀流·夕照",
+				"Nitouryuu - Sunset Glow",
 				2,
-				"\t茳·META每隔一段时间施展一次<color=#92fc63>「二刀流·夕照」</color>，以杀气锁定，0.5秒内大幅度降低目标移动速度，并同时造成交叉斩击，附带产生剑气。<color=#92fc63>斩击若命中则固定造成目标耐久上限5%的伤害</color>。\n茳·META的<color=#92fc63>所有剑气均会造成雷击伤害</color>。"
+				" Kawakaze META periodically activates <color=#92fc63>Nitouryuu - Sunset Glow</color>, decreasing the SPD of her target for 0.5s while performing a special cross slash and firing a crescent moon-shaped barrage. <color=#92fc63>Targets hit by the cross slash take fixed DMG equal to 5.0% of their max HP.</color>\n<color=#92fc63>Targets hit by the crescent moon barrage take torpedo DMG.</color>。"
 			},
 			{
-				"过去之影",
+				"Shadows of the Past",
 				3,
-				"\n「二刀流·夕照」的斩击每累计命中并造成伤害10次，或在单次战斗中自身每累计损失20%耐久，茳·META都将召唤一只「血影」，<color=#92fc63>永久提升自身炮击、雷击，并降低「二刀流·夕照」的释放间隔</color>。"
+				"\nEvery 10 times that the cross slash of Nitouryuu - Sunset Glow hits and deals DMG, and every time Kawakaze META loses 20.0% of her max HP: summons a Bloody Shadow, <color=#92fc63>increases Kawakaze META's FP and TRP, and increases the activation frequency of Nitouryuu - Sunset Glow</color>."
 			}
 		},
 		state = {
@@ -644,7 +719,7 @@ pg.world_joint_boss_template = {
 				{
 					2025,
 					9,
-					4
+					3
 				},
 				{
 					23,

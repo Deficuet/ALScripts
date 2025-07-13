@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看起来需要两只舰队才能激活控制装置……指挥另一支舰队前往显示出的第二处位置吧。",
+			say = "It seems like two fleets are needed to flip the switches to activate this device. Better get them both in position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

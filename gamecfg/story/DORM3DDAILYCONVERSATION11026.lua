@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "honey，要来休息一会儿吗？在你的专属席位上~",
+			say = "Honey, why not take a break? Right in your special seat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我还不是很累。",
+			say = "I'm not that tired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等你累了的时候就来不及了，honey。",
+			say = "It'll already be too late when you start to feel it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "好吧。",
+			say = "Okay, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再加上这个……啾。这是疗愈的吻哦，你会喜欢的吧？",
+			say = "Good. Here you go... Mwah! A soothing kiss for you. Do you like it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

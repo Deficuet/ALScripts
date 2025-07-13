@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_expedition_data_by_map = {
 	{
 		map = 1,
-		name = "大世界主地图",
+		name = "Operation Siren World Map ",
 		bgm = "level",
 		bg = {
 			"world_map_1_1",

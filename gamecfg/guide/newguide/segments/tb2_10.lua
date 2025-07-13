@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "出行功能现已开放！",
+				text = "You have unlocked the feature to go outside.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」即可进入大地图",
+				text = "Tap the Go Outside button to move to the map screen.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "「外出旅游」与「生活体验」功能均已解锁",
+				text = "You have unlocked the Sightseeing and Experiences features.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "可在每次回合日程安排开始前，带娜比娅前来",
+				text = "Before determining your plans each turn, you can take Navi with you into the town.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "带娜比娅外出旅游，不仅能大幅提升她的心情，还有机会获得珍贵的「瞬间」",
+				text = "Going Sightseeing with Navi will not only greatly increase her Mood, but also might let you have a precious moment together.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -90,7 +90,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "而进行生活体验则能让娜比娅通过劳动获得报酬",
+				text = "On the other hand, Experiences can give you rewards by letting Navi do work.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -109,7 +109,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "需要注意的是，在小镇中的活动都会消耗1点行动力，上限为3点，每回合都会自动补满",
+				text = "All activities in the virtual town cost 1 action point. You can have up to 3 points, and they are refreshed every turn.",
 				mode = 2,
 				dir = 1,
 				char = 1,

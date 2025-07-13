@@ -8,7 +8,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一片塞壬残骸还在燃烧，看起来刚被摧毁不久。",
+			say = "The wrecks in this area are still burning, suggesting these Sirens were taken out fairly recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

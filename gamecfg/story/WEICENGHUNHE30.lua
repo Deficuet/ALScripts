@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰----！",
+			say = "KABOOM!",
 			dir = 1,
 			bgm = "hunhe-boss",
 			dialogShake = {
@@ -29,7 +29,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。",
+			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊！！这次又出什么事了！？",
+			say = "Woah! What's going on?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "海雾开始消散了……大家快看前方，有什么东西浮上来了哦？！",
+			say = "The fog's starting to clear... Wait, something's coming right towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一艘塞壬“潜艇”正伴随着极具威压感的庞大身躯缓缓浮出水面。",
+			say = "Accompanying a massive submarine was a humanoid Siren, clad in an alien-looking rigging with a bored expression on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "海雾似乎就是以它为中心逐步向四周消散的。",
+			say = "That's... the Siren core flagship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "作为指挥舰的同时，又搭载着迷雾生成装置么…又是记录中都没见过的全新型号。",
+			say = "Yet another new model of Siren... and once again, we don't have an ounce of information on this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "啧。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，你就是这次塞壬舰队进攻的指挥？迷雾和失踪舰队都是你搞出来的把戏吧！",
+			say = "You're the one responsible for creating this mist and for launching this assault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "企业前辈她们在哪儿？！",
+			say = "What did you do with Baltimore, Enterprise, and the others? Answer me!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -184,7 +184,7 @@ return {
 			actor = 900234,
 			dir = 1,
 			actorName = "？？？",
-			say = "真麻烦……",
+			say = "Pain in the ass...",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			actor = 103240,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰…舰载机群？！不好大家不要被潜艇的外表骗了！敌人是毫无疑问的塞壬人型指挥单位！",
+			say = "Planes...?! This one's different from the ones we've fought before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "水面战斗模式，ON。",
+			say = "Activating surface combat mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沉默寡言的类型么，也好。既然是敌人，放马过来就是，何须言语交谈！",
+			say = "That main battery... It can also fight on the surface?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "输出功率70%，ON。",
+			say = "Output: 70%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "目标发动进攻了！大家注意，敌人似乎可以同时进行雷击战炮击战和航空战，准备迎敌！",
+			say = "She's starting her attack! Everyone, take cover!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

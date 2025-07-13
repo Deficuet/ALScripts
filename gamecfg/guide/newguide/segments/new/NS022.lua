@@ -1,10 +1,10 @@
 local var_0_0 = {
-	"啊~作战失败！点击确定退出当前关卡",
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击<color=#ffde38>出击</color>",
-	"选择主线",
-	"选择<color=#ff7d36>近海演习</color>关卡",
-	"这里显示了关卡内的信息",
-	"点击<color=#ff7d36>立刻前往</color>开始索敌！"
+	"Darn, the mission was a failure! Tap confirm to retreat from the stage!",
+	"Your next mission is to support an Eagle Union task force with an exercise. Tap on <color=#ffde38>Battle</color>!",
+	"Select the main one!",
+	"Now select <color=#ff7d36>stage 1-1</color>.",
+	"Details about the stage are written here.",
+	"Tap on <color=#ff7d36>Go</color> to start searching for the enemy!"
 }
 
 return {

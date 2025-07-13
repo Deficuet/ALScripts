@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>『异色海域BLACK』</size>",
+					"<size=45>\"Odd-Colored Seas - BLACK\"</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "啊啦……这个波长是……？",
+			say = "Oh my... what kind of signal is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "检测到来自其他次元的干扰…？难道是意外事件?",
+			say = "I'm detecting interference from beyond this dimension... Could this be an anomaly??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "没想到居然会有和我们不同的，来自其他次元的来访者呢……",
+			say = "I never thought there would be visitors from a different dimension other than us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,10 +73,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼哼…意想不到的意外事件接连不断地发生...有意思",
+			say = "Ehehe... unexpected things keep occurring one after another. How interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,10 +90,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "这也是未来展示的无数可能性之一吗… 作为观测者，这种展开真是让人兴趣盎然……也\n能作为新的实验样本呢",
+			say = "Is this also a demonstration of the myriad possibilities that the future holds? As an observer, this development piques my curiosity. Perhaps this shall serve as the next test specimen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,10 +107,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "不过我可不喜欢直接面会呢",
+			say = "However, I would prefer not to show my face just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "…………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "…………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,10 +158,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼哼，利用镜面海域的话估计能做一个很有意思的实验也说不定……",
+			say = "Ehehe... If I utilize the Mirror Seas, perhaps I can conduct a most interesting experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,10 +175,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "到底会带来怎样的结果呢…就让我拭目以待吧",
+			say = "Now, what kind of fruit shall this experiment bear? I shall wait and see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

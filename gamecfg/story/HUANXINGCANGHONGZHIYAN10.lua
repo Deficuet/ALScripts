@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "不远处，一位少女正踏着轻快的步伐穿梭在滚滚烟尘之中。",
+			say = "A girl sailed across the ocean, blanketed in dark, billowing smoke.",
 			bgm = "story-nailuo-theme",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "没有散发着侵蚀气息的恶龙……没有扭曲怪异的狐面{namecode:161:天城}……",
+			say = "I sense no presence of corrosion entities, and that impostor is nowhere to be seen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "不知道是幸运还是不幸……迎接我的只有这样一个荒凉又混沌的世界。",
+			say = "I'm uncertain whether to consider myself lucky or unlucky for being dumped in such a barren place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "不过……我现在的身体状态，怎么看都已经算是META化了吧……",
+			say = "Looking at my body, there is no denying that I've become META...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "虽然和了解中的META化……体感完全不一样。",
+			say = "And yet, I feel nothing like the METAs I've seen and heard about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "没有狂躁的情绪，没有破坏的欲望……倒不如说，内心反而出奇的平静和轻松。",
+			say = "Somehow, I feel calm, with no urge of destruction... On the contrary – I feel calmer now than before I turned META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "力量增强得也很扎实……就像已经拥有了这股力量很多年了一样。",
+			say = "This new power feels natural, too... It's as though I've had it for a long, long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "甚至有种……变得更年轻更有活力……轻飘飘的感觉……？",
+			say = "I even feel... younger. Light as air...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "不对不对……我本来也不老！",
+			say = "No, what am I saying? I'm not THAT old yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "呼……静心平气，静气平心。",
+			say = "Calm down, calm down...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "当务之急是尽快从这里脱身，向{namecode:74:长门}大人报个平安。",
+			say = "Focus. I need to find a way out of here and report to Lady Nagato immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "不过出路的方位在……",
+			say = "But where? Where is the way out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "欸，千里之行始于足下……总之先找找看吧~！",
+			say = "I suppose I'll just have to look around until I find something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

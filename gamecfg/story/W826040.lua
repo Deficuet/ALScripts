@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "为了避免被遭受腐蚀区域伤害，舰队已返回起始点，能源矩阵也已返回初始位置。",
+			say = "Our fleet retreated to the entry point to avoid taking damage from the corrosion. The Energy Matrix returned to its starting position as a result.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "建议：腐蚀区域的扩散可以被海域中障碍物和洋流阻碍，建议以此为基础寻找解决方案。",
+			say = "Contact with obstacles or opposing ocean currents will halt the spread of corrosion. Use this to your advantage.",
 			voice = "event:/tb/11/tb-11",
 			typewriter = {
 				speed = 0.05,

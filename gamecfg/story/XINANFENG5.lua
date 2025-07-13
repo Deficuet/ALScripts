@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>五　交友对象的选择</size>",
+					"A Gust of Motivation!\n\n<size=45>5 The Great Friendship Operation</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "虽然知道西南风的性格非常容易相处，不过没想到她已经跟这么多人都搞好关系了。",
+			say = "I always knew that Libeccio was friendly and outgoing, but I had no idea she already managed to make so many friends.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "毕竟是秘书舰嘛！接触多了自然就成为要好的朋友了~",
+			say = "That's the power of the secretary ship! I get to meet all sorts of shipgirls, so of course we'd get to know each other!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "就是…如果西北风姐姐也可以和大家交上朋友就好了呢。",
+			say = "I want everyone to be friends with Maestrale too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,11 +81,11 @@ return {
 			},
 			options = {
 				{
-					content = "西北风那样的性格——",
+					content = "\"She is a lot more reserved than you after all––\"",
 					flag = 1
 				},
 				{
-					content = "西北风遇到什么困难了么？",
+					content = "\"How do you plan to do that?\"",
 					flag = 2
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是呀……西北风姐姐有些时候想的有点多呢。",
+			say = "Mm... She does tend to think about all sorts of complicated things...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……与其说是遇到困难，不如说是连第一步都还没迈出去……",
+			say = "Well, every time she tries to make friends, she always seems to get cold feet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家其实都很好相处呢……西北风姐姐只是缺少一个契机。",
+			say = "Everyone here is so nice though... I'm sure if they got to know her better, they'd get along just fine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "于是乎就轮到我出场啦！",
+			say = "And that's where I come in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我打算帮西北风姐姐介绍几个朋友——指挥官你觉得怎么样！？",
+			say = "I want to introduce all my friends to Maestrale! What do you think of that, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示肯定",
+					content = "\"I think that's a good idea.\"",
 					flag = 1
 				}
 			}
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嘿嘿~{namecode:408}认真负责有主见，是个非常非常可靠的人呢！西南风也请教过她很多问题！",
+			say = "Ehehe, first of all is Z23! She might be the serious type, but she's also caring and reliable! I've learned all sorts of things from her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确实，{namecode:408}是个认真可靠的人，应该会跟认真的西南风有共同话题。",
+			say = "\"Given their serious personalities, I'm sure Z23 and Maestrale would be able to find common ground.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "拉菲的话……和拉菲在一起的时候感到很惬意，让人不由自主就放松下来了呢~",
+			say = "Laffey is... always so warm and fuzzy! When I'm with her, she always makes me feel warm and fuzzy as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "而且在拉菲挑选的地方午睡非常舒服！",
+			say = "Plus, she knows where the best napping spots are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……和拉菲一起的话，就算是西北风也能放松下来吧。",
+			say = "\"That's a good point. I'm sure Laffey would be able to help Maestrale unwind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "{namecode:6}打游戏特别厉害！而且也有耐心，我很喜欢和她一起玩游戏。",
+			say = "Ayanami loves to play games, and she's super good at them too! The two of us play all sorts of games together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "如果是和{namecode:6}一起玩游戏的话，西北风姐姐肯定也能顺利融入的！",
+			say = "Playing games together is always a great way to meet lots of people!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，游戏好友的话，选{namecode:6}肯定没有错。",
+			say = "\"I suppose it's true that you meet all sorts of people on the internet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "标枪活泼开朗而且善解人意，也是非常好相处的人呢。",
+			say = "Javelin is super nice and outgoing, and she's just so easy to get along with!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而且总是充满活力，只要跟她呆一会心情就会变好。",
+			say = "\"Her bubbly personality is pretty infectious, and everyone who's met her can attest to that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "没错没错！看来指挥官也深有同感呢！",
+			say = "That's right! You really understand everyone too, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "唔......大家都很好，一时间不知道该介绍谁给西北风姐姐认识了欸……",
+			say = "As for my other friends... Hmm, there are so many nice girls here, I don't know who to introduce to Maestrale next!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官你觉得介绍谁比较好呢？",
+			say = "Do you have any suggestions, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "交朋友并不是单选题，不如一起介绍吧？",
+			say = "\"It doesn't have to be one person. Why not introduce everyone?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "欸？全部吗？！好像确实可行！",
+			say = "Everyone? I see, that's a great idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "我明白了，非常感谢指挥官的建议！接下来我会找大家约个时间的！",
+			say = "Thanks for the advice, Commander! I should go see what a good time is for everyone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "要是西北风能够顺利和她们交上朋友就太好了——",
+			say = "Seeing Libeccio's bright expression, I couldn't help but cheer for her operation to be a huge success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

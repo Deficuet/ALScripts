@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>三　新闻采访中的秘书舰</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>3.Interview Intermission</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Morning Everybody~这里是由白鹰CB-2关岛所主持的演习现场直播！",
+			say = "Morning, everybody! This is Eagle Union CB-2, Guam, bringing you another report!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在我们看到，战斗已经进入到了白热化阶段……胜利的桂冠究竟会花落谁家呢？",
+			say = "Have a look at this! The battle is at its fiercest yet! But who will come out on top?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "快看！是克利夫兰！她准备孤注一掷……漂亮！相当漂亮的一击！接下来轮到……",
+			say = "Oh! Cleveland is gearing up to finish this! She's lining up aaand... Bam! What a shot! Up next...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "哦！冠军小组发现！",
+			say = "Whoa, the winning team has arrived!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天真是精彩的一战！请问作为冠军队代表您有什么想说的吗？",
+			say = "That was a wonderful match today! Do you have any words for the viewers at home?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102090,
-			say = "欸？今天竟然还有采访环节的吗？",
+			say = "Hm? What's this? A post-game interview?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "简单对我们的观众发表一下感想就好~relax~relax~",
+			say = "Just tell us your thoughts. Don't think about it too hard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102090,
-			say = "啊哈哈哈~总之，靠着一鼓作气的气势就这么赢了下来……",
+			say = "Ahahah. Well, I went with the flow, saw my chance, and went for it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "工作辛苦了。",
+			say = "There's our presenter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "啊~是指挥官！今天不休息吗？哦？特地来观看白鹰的演习？",
+			say = "Hey, Commander! Whatcha doing here on your day off? Were you watching the exercise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿~我们上场的两支队伍是不是很厉害？",
+			say = "Both the teams that fought today were pretty damn awesome, if I say so myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了对了~指挥官对于这场演习有没有什么要点评的？不如来发表一点专业意见吧！",
+			say = "Oh, I know! You're a professional and know tactics and stuff, so what are your thoughts on the match?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "说着，少女迫不及待地把手中的话筒伸到了过来。",
+			say = "Guam, wasting not one moment, thrusts the microphone right in front of me to speak into.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……怎么变成采访我了？我还以为直播工作已经结束了。",
+			say = "Uh, is this an interview? I thought the broadcast was over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直播确实已经结束了，现在是在为晚间节目录制素材！",
+			say = "You're right, it is! But I need material for my evening broadcast, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "所以指挥官可以放心大胆地发表意见~反正是会进行剪辑处理的。",
+			say = "Don't be afraid to get long-winded. I'll need to edit the clips later anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "再说这不是正好遇到你了么~指挥官您可是流量密码，为了我的收视率，请务必对这场演习点评一二！",
+			say = "Also, the viewers are gonna go wild when they see you on camera, so if you could say something to them, that'd be perfect!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那就——",
+			say = "Okay. To start with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "哇哦……两支队伍在战术选择上，居然进行了如此多的考量……",
+			say = "Wow. I had no idea they put THAT much thought into their choice of tactics.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~非常感谢指挥官愿意抽出宝贵的时光来配合录制，有了这段素材，我一定能做出精彩的节目！",
+			say = "Alright, thanks a bunch for your valuable time! I've now got all I need to make a fantastic episode!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "摄影机前的关岛，似乎散发着与平时不同的气场。",
+			say = "I remark on how Guam feels different when she's in front of the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿，毕竟现在是主持人模式嘛~",
+			say = "Heheh, well, yeah! That's cause I'm in reporter mode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "当然，秘书舰的工作我也不会落下~！等今天的节目结束后，我会回寝室努力学习处理文书的！",
+			say = "And I'm not gonna slack on my secretary work later! Once I finish my program, I'm heading straight home to study how to file paperwork!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "啊哈……♪指挥官的表情，看起来好像是在担心我哦~？",
+			say = "Ahah, I know that look. You're worried about me, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "哼哼~你担心我我是很开心啦，不过不要小瞧了身为美少女多栖艺人的关岛我哦！",
+			say = "I appreciate the sentiment, but you should know this multitalented hottie is more capable than you think!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "即便是活动日程全部排满需要通宵，我也能精神满满去应对！",
+			say = "I can deal with anything with a big smile even when my schedule's packed tighter than a nun's behind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么时间差不多了，我该去采访其他选手咯~",
+			say = "Anyhow, I've gotta interview more people now. Cameramanjuu crew, follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "今晚如果方便的话，请务必准时收看晚间节目哦~",
+			say = "And if you've got the time, be sure to tune in to the show tonight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "我们隔着屏幕不见不散~",
+			say = "I'll see you on the other side of the TV!",
 			painting = {
 				alpha = 0.3,
 				time = 1

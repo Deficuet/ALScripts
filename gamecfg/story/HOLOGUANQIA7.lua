@@ -12,7 +12,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:158}",
-			say = "hololive反抗军基地？",
+			say = "The what? The \"Hololive Resistance Base\"?",
 			bgm = "holo-tokiwa",
 			subActors = {
 				{
@@ -37,7 +37,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "没错~如果是那里的话，充足的补给和大量的…战略物资，说不定连舰船的补给都可以解决哦~！",
+			say = "You heard right! It's a place we made before we got transported here, and it somehow carried over. We've got plenty of items stocked, and might be able to resupply you with ammo and stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等…！这片海域，你们叫hololive服务器来着，是你们原本的基地吧？",
+			say = "In other words, there's a high chance this place is a recreation of the world you came from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对哦，包括本社大楼在内，我们绝大多数的设施都集中在这片holo服务器中。",
+			say = "Yup, yup. You can see everything from here, including the Hololive headquarters and most other Hololive Server facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这样重要的基地里，为什么会存在反抗军基地啊？！而且你们似乎一点都不吃惊…",
+			say = "Company headquarters, resistance bases... It's starting to sound like you come from a pretty brutal world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "难道各位所属的hololive是一个暴虐无道的高压组织…组织内的成员为了生存只能暗中成立反抗军，在夹缝之中进行反抗么！？",
+			say = "\"In a world where a tyrannical company rules over everyone... One group of Hololivers risk everything in their fight against evil... They are... the Resistance!\" ... Something like that?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论到了哪里，都是这些丑陋的战争啊…",
+			say = "Wherever they're from, it sounds like they're fighting a war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "欸，啊，唔，在夹缝之中生存的反抗军倒是很贴切…嗯，解释起来感觉很麻烦，就当是这么回事吧。",
+			say = "Uh... not really? I mean, you're not completely wrong, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 900215,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好解释啦，吹雪！",
+			say = "Let's just give them a straight answer, Fubuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "那个，其实那个是朋友打着「要炸飞邪恶的运营哦」而成立的，大家一起玩闹的组织，并不是用来认真战斗的啦！",
+			say = "Basically, one of our friends made this place to get back at our managers. Hololive is just a fun group of people, we're not at war with anyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此。你们住在hololive世界的holo服务器中，就是为了反抗邪恶的运营吧？大概明白了",
+			say = "Okay, so if I got it right: you're from a world called Hololive, and live in a place called the Hololive Server, and you like to screw with your kind-of-evil managers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			actor = 900215,
 			dir = 1,
-			say = "感觉完全被误解了，算了，之后再说吧……",
+			say = "More or less.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "我刚才仔细观察了一下，整个服务器现在被海水分割成无数小岛，面积变大了好多好多倍，地质环境也完全改变了，",
+			say = "Now that I look closer... This entire sector of the ocean has become part of the Hololive Server, but the original area has been spread out across all these islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万幸的是，大多数标志性建筑都完好的保存在小岛上，如果依靠地标定位，找到反抗军基地应该不是十分困难",
+			say = "Luckily, most of the buildings are intact, so we'll surely find the Resistance base if we follow them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就拜托了哦，向导小姐~等到了基地之后，充分休息一下再制定作战计划吧",
+			say = "All right, Hololive Guide, lead the way. We can start hatching a plan once we've made it to your base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 0,
 			actor = 900209,
 			dir = 1,
-			say = "（向导小姐么…明明我也是指挥官的说）",
+			say = "(Guide...? Excuse me?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

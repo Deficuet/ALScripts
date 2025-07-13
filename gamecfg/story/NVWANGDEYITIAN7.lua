@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>七 餐后甜点与宵夜</size>",
+					"The Queen's Ordinary Day\n\n<size=45>7.News Before Bedtime</size> ",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "深夜，一辆轿车缓缓驶入城堡大门。",
+			say = "A luxurious, old-fashioned carriage slowly rolled through the gates of Queen Elizabeth's castle as the sun fully submerged beneath the horizon.",
 			bgmDelay = 2,
 			bgm = "story-richang-8",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "不等轿车停稳，等在一旁的女仆就立刻迎了上去。",
+			say = "The carriage came to a stop, and an attending maid stepped forward to welcome the esteemed passenger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "陛下，欢迎回来——",
+			say = "Good evening, Your Majest–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘，陛下已经睡了。你去拿行李，我把陛下抱回房间。",
+			say = "Her Majesty is fast asleep. Please take her bags while I bring her to her bedchamber.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "好的。但是……厌战大人那边怎么办？",
+			say = "Very well, but what shall I tell Lady Warspite?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "她正在线上等待陛下的回话，说有紧急消息要汇报……",
+			say = "She's still waiting to hear from Her Majesty. Apparently, she has an urgent report to make.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，陛下今天已经很累了……",
+			say = "That's a conundrum. I wouldn't want to wake Her Majesty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我去跟厌战大人说一下吧，看看她能不能整理成一份报告，我明天第一时间交给陛下。",
+			say = "I'll speak to Lady Warspite and ask her to leave a message. I'll inform Her Majesty in the morn–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "zZZZ……嗯？厌战的报告…………？",
+			say = "Mmgh... Warspite...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战那边出什么事了……？",
+			say = "What was that about Warspite?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，厌战大人正在通讯频道中等您，说是有紧急消息要汇报。",
+			say = "Oh, Your Majesty! Well, she's on the line for you with important business.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为您刚刚正在休息，我计划向厌战大人说明情况，把这件事整理成报告之后明天第一时间拿给您看。",
+			say = "I considered answering on your behalf and forwarding her message to you tomorrow. Shall I do that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么晚了厌战也没睡啊……你的好意本王心领了。",
+			say = "No need. I'm awake now anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过反正也醒了……跟厌战说一下，本王马上就到。",
+			say = "I can't believe she's still up at this hour... I'll talk to her myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。那明天早上前往上院的行程……",
+			say = "As you wish. Then what about the meeting with high command tomorrow?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "照旧。",
+			say = "It will go ahead as planned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……遵命。",
+			say = "Very well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有，格罗斯特，本王离开之后有错过什么消息么？",
+			say = "Gloucester, did anything of note happen while I was away?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202100,
-			say = "在您离开之后，谢菲尔德发来了一份报告。因为您当时处于不安全的通讯环境中，所以没有第一时间转发给您。",
+			say = "Yes. Sheffield had a report to give you, but I did not forward it to you at the time as your connection channel was not sufficiently secure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你做的很对。谢菲发来的报告么……",
+			say = "That was the right call.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纽卡斯尔，计划有变。",
+			say = "Newcastle, change of plans. Tell Warspite to hang up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你去告诉厌战先把通讯挂了吧，喝点茶吃点点心之类的再等一会，本王看完谢菲的报告之后亲自打给她。",
+			say = "I'll call her myself after I've read Sheffy's report. Save my supper for later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，那么陛下，我先去办公室了。",
+			say = "Yes, Your Majesty. I shall bring the communicator to your office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "虽然夜色已深，但是女王的一日工作看来还要继续进行一段时间了——",
+			say = "It had already been a long day for the queen, but it was not quite over yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是这里，前面的建筑就是副舞台了。",
+			say = "Here we are! The special vote stage is inside this building.",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了！我们快点进去吧！",
+			say = "Great! Let's go in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……{namecode:6:绫波}察觉到了异常的气息……",
+			say = "Hold your horses. I sense an ominous presence...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？可这里是投票会场欸……应、应该不会有危险的吧？",
+			say = "What? Here? You can't be serious. What would be ominous about a polling area?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是鬼屋哦…毕竟是“惊喜”……",
+			say = "Maybe it's haunted by losing candidates of the past...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么想也不可能吧！我们推开幕布进去看看就好了！",
+			say = "I don't buy that for one second! Come on, let's go inside!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "{namecode:408:Z23}推开了门……什么都没有发生。",
+			say = "The girls pushed open the door and walked inside. Nothing of note happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妖怪……没有出现。",
+			say = "No ghosts here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看，我就说什么事都没有吧！",
+			say = "See? Nothing to be afraid of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是因为时间没到，“惊喜”还没有准备好……",
+			say = "Maybe it's empty because the sideshow hasn't started yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后再过来看看好了。",
+			say = "Let's come back later.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>二　工作力为0的秘书舰</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>2.Work Efficiency: Zero</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……这些量，今天不熬夜……应该是不行了。）",
+			say = "(Oh boy... There's so much. I'll have to pull an all-nighter.)",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我看着案台上堆叠如小山一样的文件，不由得陷入沉思。",
+			say = "Looking at the files stacked high on my desk, I can't help but feel despondent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "咦？指挥官还不准备下班吗？",
+			say = "Commander? You're still here? Shouldn't you get ready to leave?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "出口询问的是才上任几天的秘书舰——关岛。",
+			say = "My secretary as of a few days ago, Guam, raises this question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "说实话，第一天看到对方只花了半天就处理好了当天要处理的所有文件，还以为招到了非常优秀的秘书舰。",
+			say = "I got the impression that she was a truly first-rate secretary when, on day one, she did half of my paperwork for the day all by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "然而在下班前的检查中，却发现了其中九成都需要返工的残酷现实……",
+			say = "However, when I examined her work, I discovered that I would need to redo a whopping 90% of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原本想着毕竟是上任第一天，没有适应工作也情有可原。可是第二天、第三天的工作质量依旧如此……",
+			say = "I thought it was just a starting-out thing. It was her first day on the job, after all. Unfortunately, days two and three went largely the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,19 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "如今是第四天，需要返工的内容已经积累到了一个相当恐怖的地步。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "啊……嗯……我还有一些工作需要收尾。关岛可以先回去，没有关系。",
+			say = "It is now day four. I have procrastinated on some things as well, leaving me with this absurd amount of work to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +116,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（工作热情是宝贵的，至于能力上的提升……算了，循序渐进吧。）",
+			say = "Oh, uh... There's just one last thing I have to do. Don't worry about me, you're free to leave.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Her workplace morale is important. Improving her performance is important, too, but... I guess I'll do that step by step.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "咦？指挥官是不打算吃晚饭了吗？",
+			say = "Really? Aren't you gonna have dinner?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等处理完工作会去吃的，别担心。",
+			say = "I'm not hungry yet. I'll eat once I'm finished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "这样啊……那指挥官要加油哦~fight！",
+			say = "Well, if you say so. Hang in there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "看着秘书舰离去的背影，我不自觉地叹了口气。",
+			say = "I breathe a deep sigh as I watch my supportive secretary leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当务之急是先把积累起来的内容处理完……",
+			say = "Alright, let's prioritize the stuff I left on the backburner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "至于晚饭……之后再说吧……",
+			say = "I'll think about dinner once I have some room to breathe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "“咚咚咚——”敲门声打破了深夜里的寂静。",
+			say = "The late-night silence is broken by a knocking on my door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（都这么晚了，会是谁呢？）",
+			say = "(Who could that be at THIS hour?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "请进——",
+			say = "Come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "Good Evening！指挥官~本美少女深夜来访，你现在应该超级激动吧？",
+			say = "Good evening! Your beautiful secretary has come to pay you a late visit! Aren't you happy to see me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关岛？你这么晚了来指挥室做什么……？",
+			say = "What brings you here this late?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "当然是来检查一下指挥官有没有好好吃晚饭啊~",
+			say = "Call it an itch. An itch to see if you've actually had dinner yet or not!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "唔……果然没有发现任何用餐痕迹，我就知道你肯定会忘，所以~我准备了这个——",
+			say = "And my gut tells me YOUR gut is as empty as Omaha's snack drawer. I knew you'd forget to eat, which is why I've brought you this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女将手中的袋子放到了办公桌上，香气裹挟着热气迎面扑来。",
+			say = "She places the plastic bag in her hand on my desk. An appetizing steam rises from the bag's opening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这可是最近在港区超有人气的重樱便当哦，平时可是排队都买不到的！",
+			say = "I got you that Sakuran bento thingy everyone's been raving about! It's so exclusive, you basically need to be an influencer to get one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "欸，这也就是做节目的唯一好处吧~结束拍摄去买便当的时候已经很晚了，所以没排多久就买到啦~",
+			say = "Which I kind of am, I guess? There was a huge line at the store after I finished filming, but I managed to nab one somehow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快来一起吃吧！深夜的暖心便当可是别有一番滋味的哦~",
+			say = "Come with me and let's eat! I'm telling you, this stuff hits different at night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女试图将我从椅子上拽起来。她在伸手时，目光自然而然停留在了我面前的“文件山”上。",
+			say = "She is just about to drag me out of my seat, but as she extends her hand to me, she notices the pile of papers on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "咦？这些是……",
+			say = "Hey, what's this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "当我想要阻止的时候已经来不及了，关岛直接抽走了我面前那份正在处理中的文件。",
+			say = "The time to cover it up has passed. She picks up the document I was just going through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "指挥官……这不是我白天处理的文件吗？",
+			say = "Hang on a sec... Didn't I do this one earlier today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "然后这份是……我昨天处理过的……",
+			say = "Same with this... And this one's from yesterday!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "……难道说这座文件山全都是我处理过的那些？！",
+			say = "Is this entire pile made up of documents I worked on?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "……这就是最近指挥官总是需要加班的原因吗？",
+			say = "So... It's all my fault that you've been working so late these past few days?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,11 +540,11 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Mhm.",
 					flag = 1
 				},
 				{
-					content = "沉默",
+					content = "...",
 					flag = 2
 				}
 			}
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "这么重要的事情早点和我说嘛！我还以为这些文书工作只需要随便做做样子就行了……",
+			say = "You shoulda told me sooner! This is no joke, Commander! I thought it was fine to wing it and write whatever seemed right!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为文书工作……说到底只是成年人的把戏……对吧？",
+			say = "Because, like... Come on, isn't paperwork just a thing adults do to kill time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………啊？",
+			say = "Uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（好像听到了什么不得了的发言。）",
+			say = "It's definitely not, but you're not entirely off the mark either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "总、总之积攒了这么多工作量实在对不起啦！呜呜……指挥官，我现在就开始重做！",
+			say = "Look, what I'm trying to say is – I'm so, so sorry for making you work more! I'll start over right here and now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "话音未落，少女便从文件山中随便抽出了一沓，打算返回自己的座位开始处理。",
+			say = "She picks up a stack of papers before she has even finished speaking, sits down at her desk, and gets to work immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,18 +643,18 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等————",
+			say = "Hang on a second!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不吃饭了么？",
+					content = "What about the food?",
 					flag = 1
 				},
 				{
-					content = "你会处理么？",
+					content = "Do you know what to do?",
 					flag = 2
 				}
 			}
@@ -668,7 +668,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……一慌张差点把正事忘了！",
+			say = "Oh, right! I totally forgot in the middle of all that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸嘿嘿，工作不会跑可是饭会凉！指挥官……要不然咱们，吃完了再处理？",
+			say = "The papers aren't going anywhere, but the food won't stay hot forever, sooo... Can I eat first, then work, please?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Of course——not.就拜托你教我怎么处理啦！",
+			say = "Of course... not. Please enlighten me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "今夜，无人入眠——",
+			say = "My sleepless night continues...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

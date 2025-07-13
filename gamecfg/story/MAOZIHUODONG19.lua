@@ -12,7 +12,7 @@ return {
 			actor = 701040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(盯——)",
+			say = "(Staaaaare...)",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不知道为什么，被塔什干猛烈地注视着。",
+			say = "For some unknown reason, Tashkent had been glaring at me intently for some time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "(盯——)",
+			say = "(Staaaaare...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "唔…这么说起来， 塔什干明明是驱逐——",
+			say = "Speaking of which, this girl seems to have been rather grumpy ever since we met...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么叫“天蓝色的巡洋舰”？",
+					content = "Am I in your way?",
 					flag = 1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = " …这样。因为塔什干出生在撒丁帝国，加上这样的设计，所以才有了这个称呼。",
+			say = " Not really? Do you have some objection to me looking at you, dear comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "明明是驱逐…不过，塔什干也不讨厌这个名字就是了。",
+			say = "Well then, I'll keep looking at you since you're fine with it anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "同志酱，塔什干能问你个问题吗？",
+			say = "...Hey, want to hear me out on something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "所以说为什么是同志酱……",
+			say = "Why was she calling me \"dear?\" Had we met before? ...But I suppose that would have to wait for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "同志酱肯定去过许多不同的地方吧？",
+			say = "You've been all over the place, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 701040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对撒丁帝国的料理…也熟悉吗？",
+			say = "So you'd... know a thing or two about Sardegna, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,11 +165,11 @@ return {
 			},
 			options = {
 				{
-					content = "熟悉",
+					content = "Of course.",
 					flag = 1
 				},
 				{
-					content = "不熟悉",
+					content = "Not more than anybody else.",
 					flag = 2
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "…这样。下次有机会…和塔什干一起聊聊这个吧。",
+			say = "I see. Well, I'll have to pick your brains a bit when I get the chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "…这样。下次，塔什干跟你说说塔什干了解的撒丁帝国料理吧。",
+			say = "I see. Should Tashkent teach you about Sardegna then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "其实，塔什干对撒丁帝国的料理也挺熟悉的，不过，合不合北方联合的大家口味就不好说了。",
+			say = "You see, everyone treats me pretty well, but I don't really have anyone to talk with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感觉，似乎多了解了塔什干一些。",
+			say = "...Then, come talk to me next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

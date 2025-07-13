@@ -9,9 +9,9 @@ return {
 			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "时乃空？",
+			actorName = "Miss Sora?",
 			dir = 1,
-			say = "大家都到齐了啊，欢迎来到展望台",
+			say = "Welcome to the observation deck.",
 			bgm = "holo-inochi",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空…？什么时候跑到那边去的…",
+			say = "There's another Sora over there...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			actor = 10500020,
 			dir = -1,
-			say = "哎？我在这里哦",
+			say = "Eh? But I'm right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说，是敌人！",
+			say = "This time, it's Sora imposter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "{namecode:158}一瞬间摆好了进攻架势，主炮锁定了目标进行了一轮齐射",
+			say = "In the blink of an eye, Kawakaze drew forth her guns and aimed them at the enemy.",
 			flashN = {
 				color = {
 					1,
@@ -125,8 +125,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500020,
 			dir = 1,
-			actorName = "时乃空？",
-			say = "优秀的反射神经，不过还不够哦~",
+			actorName = "Miss Sora?",
+			say = "Your movements are skilled, but you still have much to learn~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被盾牌挡下来了么",
+			say = "She managed to deflect my attack, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500020,
 			dir = 1,
-			actorName = "时乃空？",
-			say = "这个盾牌还有鮟鱇肝在上面哦，很可爱吧~！",
+			actorName = "Miss Sora?",
+			say = "This shield even has a little red bean pastry design on it. Isn't it cute~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "气氛太过自然了，完全没有感受到敌意！",
+			say = "She's relaxed... she is probably a formidable enemy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			actor = 10500020,
 			dir = -1,
-			say = "你是…被塞壬制造出的“镜像”么？",
+			say = "Are you... a \"mirror image\" made by the Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,8 +205,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500020,
 			dir = 1,
-			actorName = "时乃空？",
-			say = "事到如今也没什么好惊讶的了吧。战场中保持这样的个性可是会吃大亏的哦，“我自己”",
+			actorName = "Miss Sora?",
+			say = "There's nothing to be surprised about. That part of your personality will only hold you back when we fight, other \"me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			actor = 10500020,
 			dir = -1,
-			say = "我也在努力改正了嘛！",
+			say = "I'll make sure to keep improving myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "那边的…空前辈？你会阻拦我们继续前进么",
+			say = "Is that... Miss Sora over there? The enemy is giving off a completely different vibe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“棋子”不可能违抗塞壬的命令吧…",
+			say = "Don't let your guard down. These pawns are completely under the Sirens' command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500020,
 			dir = 1,
-			actorName = "时乃空？",
-			say = "嗯，会阻止你们哦。",
+			actorName = "Miss Sora?",
+			say = "Correct. That is why it falls upon me to stop you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么你就是敌人咯？哈哈哈哈！早就想说一次这句台词了~！！",
+			say = "\"You're not our ally? So you're the enemy, then?\" Ahahaha! I always wanted to try saying that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Leader！",
+			say = "Leader!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			actor = 10500020,
 			dir = -1,
-			say = "果然是这样么…没办法了，大家不要手下留情，准备战斗！",
+			say = "It's really going to come down to this, huh? Fine then. Everyone, get ready for battle! Don't hesitate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,8 +354,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500020,
 			dir = 1,
-			actorName = "时乃空？",
-			say = "尽管打过来吧，我可不会输哦！",
+			actorName = "Miss Sora?",
+			say = "Come at me with everything you have. I will not lose here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

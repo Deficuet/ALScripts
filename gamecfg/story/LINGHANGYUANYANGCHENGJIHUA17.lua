@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "说起来，TB和我提过这段时间要去参加学校组织的露营活动来着。",
+			say = "The school is hosting a camping trip for the students, which of course includes TB.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "露营的零食已经买好了，问题是露营的便当做些什么好呢……",
+			say = "That's enough snacks for the trip. Now just to figure out what to do about your lunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "便当？",
+			say = "My lunch?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想学习。",
+			say = "I wanna make it myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不行，你会受伤的。",
+			say = "No. You'll hurt yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "厨房又是刀具又是明火灶具……就算TB现在长大了不少，我也不是很放心。",
+			say = "She certainly has grown, but she's still too young to be left alone in a place with gas flames and sharp knives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，在我更小的时候，你都让我帮忙了。",
+			say = "But you let me help that one time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那是因为……",
+			say = "Yeah, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "好吧，这下确实找不出理由来阻止她了。",
+			say = "She has a point, actually. I let her do it once when she was younger, and she's only grown since then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就从煎蛋开始吧。",
+			say = "Alright, alright. Let's start with frying an egg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "四十分钟后——",
+			say = "40 minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,12 +192,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……为什么煎蛋总是着火呢？",
+			say = "Hey... How come the egg always burns when I try to fry it?",
 			voice = "event:/educate/tb/educate-tb-story-2-15",
 			painting = {
 				alpha = 0.3,
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "她略带苦恼地晃动着手中的平底锅，尚未完全凝固的蛋黄就这样在晃动下变成了一滩。",
+			say = "Shaking the pan, she shoots me a confused look. The surface of the still-soft yolk breaks and the inside spills out everywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,12 +238,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明是按照教学步骤来做的……",
+			say = "I'm doing it EXACTLY like you showed me...",
 			voice = "event:/educate/tb/educate-tb-story-2-16",
 			painting = {
 				alpha = 0.3,
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "油温太高了，而且……颠锅的时机也过早了。",
+			say = "It's the oil. You're heating it too much. Also, you're tossing the pan too soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "看着旁边碟子上盛着的失败的煎蛋们，我有些无奈。",
+			say = "She gives a sideways glance to the plate of failed previous attempts and a look of hopelessness creeps through on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "虽然已经手把手教过她煎蛋了，也做好了措施保证她不会受伤……",
+			say = "I taught her how to do it in detail and took precautions so she wouldn't hurt herself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "不过TB完全不害怕锅里冒出来的火舌和迸出来的油星，这让我不禁担心起她感知危险的能力是否得到了正常的锻炼。",
+			say = "Even so, she's at risk of being burned by the fire and the drops of sizzling oil flying everywhere, which she doesn't seem to fear in the least. I'm worried that her sense of danger may be underdeveloped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……唉。",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "为了避免浪费，之后把失败的煎蛋全都吃掉了。",
+			say = "Determined not to let food go to waste, TB ate all the fried eggs she burned over her many attempts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "我和TB，大概都会有很长一段时间不想看到鸡蛋了……",
+			say = "I think she won't want to even hear the word \"egg\" for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」开启前，某个特殊的会场之中——",
+					"Shortly after the opening of the Naraka Singularity and the corruption of the ritual meant to revive Amagi...",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "意识在片刻的模糊后，突然进入了一个无比浩瀚的空间中。",
+			say = "I barely have time to begin organizing efforts to lend assistance to the Sakurans before my vision suddenly starts blurring.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "虽然事先得到了海伦娜的提醒而有所准备，但依然感受到了一股强烈的不适感。",
+			say = "Though Helena META had already cautioned me before, an overwhelming sense of discomfort nevertheless invades my thoughts as my consciousness was pulled into a vast, dark space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "观察者静静漂浮在一个巨大的装置中，海伦娜和构建者也在同一时间出现了。",
+			say = "As my mind comes back into focus, I see Observer floating in front of me atop some sort of gigantic device, with holograms of Helena and Compiler appearing next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "观察者，协助指挥官复活{namecode:161:天城}。而后，我会确保你的存在。",
+			say = "Observer, help the Commander. Agree, and I guarantee your continued existence in this branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "否则，今日等待你的只有死亡。",
+			say = "Refuse, and I'll destroy you here and now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接受或者拒绝，你没有第三种选择。",
+			say = "Those are your options – yes, or no. There is no other choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "哎呀，一上来就咄咄逼人，这是求人合作的态度么？",
+			say = "Heehee. Well, hello to you, too. If you're going to ask for help, couldn't you at least say please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你知道的，我还有别的选择。",
+			say = "I'm not going to beg. I can find someone else if I have to. You know that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "但是都没有与我合作的方案来得好，不然你费劲来和我谈什么？",
+			say = "Still, working with me is the best solution. Otherwise, why would you bother coming to see me, Helena?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "噢~也算不上是你来和我谈。",
+			say = "Oh, excuse me, I forgot about the beneficiary of this potential deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "不知道你的指挥官有没有什么其他看法呢？",
+			say = "You, the Commander – how do you feel about this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{playername}只是单纯的见证者而已。与你谈判的人，就是我。",
+			say = "{playername} is just here as a witness. I'm the one you should be talking to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（…………）",
+			say = "(Well...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（海伦娜说的不错，我虽然来到了此地，但是对于具体情况几乎一无所知。）",
+			say = "(She's right. A witness is all I can really claim to be, since I know almost nothing about this \"deal.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（在会议开始前，海伦娜只是向我解释了这是一次为了逼迫观察者与我们合作而进行的会谈。）",
+			say = "(All she explained to me was that this meeting was a way of strong-arming Observer into aiding me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（而且，这次会谈必须由我在场见证。）",
+			say = "(And that I had to attend this meeting.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（至于构建者为何会出现、要怎么迫使观察者同意合作等等……她都没有事先说明。）",
+			say = "(What she didn't explain is why Compiler is somehow here despite her mainframe having been destroyed, or how she's going to get Observer to agree with her terms.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（而在会谈一开始，她就提出了那个令人匪夷所思的交换条件……没有任何铺垫，没有任何说明。）",
+			say = "(Though, do negotiations usually start with one side threatening to off the other right out of the gate?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（海伦娜的强硬令人震惊，而更令人震惊的是观察者没有动怒，也没有立刻拒绝，而是在……试探？）",
+			say = "(Even more surprising is Observer's response. Even in the situation, it's as if she's still watching us, probing us. Is survival that important to her, or...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "哟~你真的能代替你的“指挥官”做这么重要的决定？",
+			say = "Can you really make such an important decision on that person's behalf?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "能。",
+			say = "I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……嗯，她确实能。）",
+			say = "(It's not like I have the knowledge she does.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "别试探了，你的所有底牌我都一清二楚。而我的底牌，就算你连接主机，也不可能窥探分毫。",
+			say = "Enough stalling. I hold all the cards here. Even if you were to reconnect with your mainframe, you still wouldn't know what options I have at my disposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "而且，你真的不明白我为什么带{playername}来作为这场会谈的见证者么？",
+			say = "Do you even know why I brought {playername} with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "……特殊的“指挥官”，特殊的“实验场”，特殊的……“我“。",
+			say = "A unique commander, a unique test site, and a unique... \"me\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "……你真的能做到？",
+			say = "...Are you really able to ensure my continued existence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "蠢问题，我不是已经把构建者完完整整带到你面前了。",
+			say = "What a foolish question. Have I not presented Compiler to you in her entirety? Of course I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "不一样。我一旦连接主机，主机马上就能察觉到我当前的异常状况，而后开始对我进行“数据修复”。",
+			say = "These are different cases. As soon as I reconnect with the mainframe, my abnormality will immediately be discovered and reset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "在“数据修复”完成之前，我是不可能调用自然进化演算系统的。",
+			say = "Until that process has taken place, I am unable to make use of the Natural Calculation System's resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "主机不会察觉到你的异常状况的。",
+			say = "What if I told you that it's possible to bypass that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "理由。",
+			say = "And how do you expect to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "「塔」。",
+			say = "Through the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "……原来如此。",
+			say = "Oh. I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "原来如此……原来如此~！",
+			say = "With the Tower's help. An interesting idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "啊哈哈……啊哈哈哈哈——啊哈哈哈哈哈！",
+			say = "Heehee... Ahahahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你笑够了么？",
+			say = "Are you done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "不光是我，还有所有实验机关一起，这是我的条件。",
+			say = "I'd like to change the terms of our deal. You must ensure the continued existence of not just me, but all higher-level programs in this branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "可以。",
+			say = "Fine by me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "呵呵，奈落已经出现，要做准备确实得尽快了~",
+			say = "Now that the Naraka Singularity has appeared, we need to decide and act quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "不过，你确定你的指挥官能把“东西”带回来么？",
+			say = "Having that said, can you ensure... that person will be able to salvage their hull data?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "如果做不到，一切都是空谈。",
+			say = "If not, all of this will be for naught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "能。",
+			say = "I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……为什么会突然提到那个灾难级的奇异点“奈落”？）",
+			say = "(I caught that first part. The Singularity must be dealt with posthaste.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（“东西”指的又是什么……？）",
+			say = "(But what was that about salvaging hull data?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "很好~那么，我同意与你进行合作。",
+			say = "Alright. We have a deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "明智的选择。",
+			say = "A wise decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……观察者，竟然同意合作了？！）",
+			say = "(Looks like they've managed to reach a decision.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（这可是观察者……那个一直将世界作为实验场随心所欲操控的观察者！）",
+			say = "(Even Observer, who has been treating our world as a test tube... still values \"continued existence\" to this extent.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（面对海伦娜不留余地且咄咄逼人的强硬态度……居然就这么简单同意了？！）",
+			say = "(Though, I'm a bit concerned that she'd accept this deal so easily... even if Helena was pretty much holding her at gunpoint.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "「世界切片」要调用哪一段？",
+			say = "Now then. Which \"world segment\" would you like me to replicate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "你来决定吧，要最稳定的。",
+			say = "Your choice. Whichever one is the most stable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			bgName = "bg_canghongzhiyan_cg1",
-			say = "好，你先去做接收其他实验机关的准备吧，连接主机之前我会来找你的。",
+			say = "You got it. Now shoo and gather the other high-level programs. I'll contact you again once I've reconnected to my mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好。",
+			say = "Sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……观察者和海伦娜的对话内容，我能够理解的部分寥寥无几。）",
+			say = "(Ahh. Since this Observer has cut herself off, her \"existence\" as its own entity is at stake.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（唯一能够确定的是，她们已经就一系列重大事项的行动方针达成了一致，并且开始了具体部署。）",
+			say = "(...and Helena exploited that to our advantage.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（我跟海伦娜的情报差距到底有多大……她到底知道多少东西……）",
+			say = "(The question that remains is, how exactly does Helena plan to uphold her end of the deal? And how much is she willing to tell me?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官，我们该走了。",
+			say = "We're good to go now, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我知道你现在有很多疑惑，别担心，还有时间。",
+			say = "I'm sure you have many questions. It's okay, we have time for those.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我会把接下来你需要知道的事，一五一十全部告诉你。",
+			say = "I'm going to tell you everything you'll need to know for what's about to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "让我们并肩而战，做一场从未有实验场成功完成的“大事”吧——",
+			say = "We're going to fight side by side and do something no other test site has ever done before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

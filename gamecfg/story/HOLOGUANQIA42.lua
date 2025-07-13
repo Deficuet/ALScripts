@@ -9,7 +9,7 @@ return {
 			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "祭，前面没路了",
+			say = "We're almost at the last stop.",
 			dir = 1,
 			bgm = "holo-fbk",
 			effects = {
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轨道的终点建筑是一个…饭团？",
+			say = "Huh...? What's that building that looks like a rice ball?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "饭团…？！！！不妙，不妙，不妙，不妙！那个不是饭团而是岩浆湖啊！！！！！！！！！！！",
+			say = "Rice ball?! Ohnoohnoohnoohno! Underneath the rice ball is a lake of magma!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "哎？刚才的地图上看到线路不是通向这里的，祭还以为是因为服务器变化导致的呢！",
+			say = "Huh? This isn't the destination that's marked on the map...? Matsuri, you told me you were completely sure about the specificatio... Wahhhhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "敌人的连环陷阱么…！如果在这种高度和速度跳车的话…",
+			say = "Was it a trap laid out by the Sirens?! Wait, how are we supposed to escape from this high speed rotating... awawawa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "{namecode:96}！",
+			say = "Zuikaku!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机还需要准备时间！",
+			say = "With all this rotation, even if I launch carrier-based planes, we won't be able to grab hold of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,9 +139,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "啧，大家不要慌，抓住我的舰装，准备跳车！",
+			say = "Ey everyone, don't panic, and grab hooold of my rigging~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,10 +153,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！",
+			say = "Aaaahhhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 10500070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "舰装变成了巨大飞行器接住了所有人？！",
+			say = "Purity's rigging!",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-inochi-inst",
@@ -210,9 +210,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "本来是之前给你们制作舰装的时候，突发奇想做的改造，没想到能在这里派上用场。",
+			say = "Even though I have memory loss, I still remember how to take this bad boy out~ Weeell, I never expected to be useful in a pinch, though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲，了不起",
+			say = "Purifier, amazing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,9 +241,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "哼哼哼，再多夸夸我也不要紧哦~",
+			say = "Ahahaha! It's fine to keep singing my praises!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然被塞壬给救了…这下回去要怎么写报告才好啊…",
+			say = "T-To be saved by a Siren...! How am I supposed to report on this to the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空中移动，过于危险…大家都没事吧？",
+			say = "Sora, everyone, are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "大家都没事哦，不过过山车已经彻底消失在岩浆里了…",
+			say = "Everyone's safe! But you know, that train, it's completely submerged in the magma...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从现在地图上来看，前方是一堵巨大的壁画…墙？再之后就是本社大楼的位置了",
+			say = "First, we should get off Purity's rigging and land... eh? Is that... a wall? And a huge mural...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个壁画，是不是和之前服务器里的不太一样？",
+			say = "That mural... isn't it a bit different from the ones from before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 10500050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "图案变成了穿戴舰装的空前辈？！",
+			say = "The Sora inside the mural is equipped with her rigging!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "塞壬那边的“祭”，在这方面的细节上很讲究呢",
+			say = "The Matsuri on the wall, is well-developed in certain places...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然，和迄今为止我们遭遇过的“棋子”都不一样",
+			say = "Like I thought, this is different from the \"pieces\" we've encountered so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "把她们当成单纯的兵器果然还是很微妙啊…",
+			say = "I feel like it's strange to just treat them as \"enemies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "消灭塞壬是我们作为舰船的职责，不会强迫你们动手的。",
+			say = "While it is our duty as warships to defeat Sirens, I have no desire to force you all to cooperate in doing so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "唔…是余等的态度一直不够坚定，是时候正视一下这个问题了……",
+			say = "Nay, these were merely past fragments of ourselves, so there is no reason to be so considerate of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "往好处想的话，如果只要打倒塞壬头目就能解决问题的话，也许还有避开和她们的战斗，直捣黄龙的可能性！",
+			say = "Well, thinking on the bright side, if we defeat the Boss of the Sirens, everything will return back to normal, so if we try hard, we should be able to avoid battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我之前说过，带着这种迷茫和侥幸的心情和塞壬战斗，是很危险的",
+			say = "... Sorry for making you help out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "虽然我也有些犹豫……但是我不会迷茫了。如果将她们彻底击败是带领大家平安离开的必要条件，我会…动手",
+			say = "I lost my way for a little bit, but... no longer. If I have no choice but to defeat them in order to take everyone back safely... I'll do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,23 +496,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "哼哼哼，不过是敌人心理战的一环，我早就在游戏里身经百战了，余裕余裕~如果大家下不了手的话，就交给本阿库娅大人去做吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			actor = 10500030,
-			dir = 1,
-			say = "如果大家下不了手的话，就交给本阿库娅大人去做吧！",
+			say = "Heehee, a strategy like this? Too easy~. When you think that it will be impossible, just leave it to the Amazing Aqua!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +512,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "我的话……咦，祭酱？",
+			say = "I... eh, Matsuri?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +528,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "唔唔…祭也许有一个想法",
+			say = "Yeup, I think I might have an idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

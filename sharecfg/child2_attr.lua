@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child2_attr = {
 	[101] = {
 		default_value = 0,
-		name = "体能",
+		name = "Fitness",
 		icon = "attr_tineng",
 		type = 1,
 		max_value = 999999,
@@ -43,7 +43,7 @@ pg.child2_attr = {
 	},
 	[102] = {
 		default_value = 0,
-		name = "知识",
+		name = "Knowledge",
 		icon = "attr_zhishi",
 		type = 1,
 		max_value = 999999,
@@ -84,7 +84,7 @@ pg.child2_attr = {
 	},
 	[103] = {
 		default_value = 0,
-		name = "实践",
+		name = "Dexterity",
 		icon = "attr_shijian",
 		type = 1,
 		max_value = 999999,
@@ -125,7 +125,7 @@ pg.child2_attr = {
 	},
 	[104] = {
 		default_value = 0,
-		name = "感知",
+		name = "Sensitivity",
 		icon = "attr_ganzhi",
 		type = 1,
 		max_value = 999999,
@@ -166,7 +166,7 @@ pg.child2_attr = {
 	},
 	[201] = {
 		default_value = 155,
-		name = "性格",
+		name = "Personality",
 		icon = "attr_xingge",
 		type = 2,
 		max_value = 300,

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "记录着决赛结果的大屏幕正从主舞台上缓缓升起。",
+			say = "The rankings board slowly rose from the main stage, displaying the final rankings.",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "终于，尘埃落定，本届人气投票顺利结束了。",
+			say = "And so, the popularity poll had concluded at last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果还真是意料之外，但又在情理之中的结果……",
+			say = "Interesting. Those aren't the results I expected, but they make sense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:6:绫波}……早就看穿了结果？",
+			say = "Not what you expected? Did you know who was going to win?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒没有，只是觉得气氛上……总要有人来说这么一句话。",
+			say = "No. It just felt like the most appropriate thing to say, and someone had to do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈……",
+			say = "Ahahahah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快看！主舞台那边还有新的内容公布呢……",
+			say = "Hey! They just made a new announcement!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是，活动会场还会开放一周，在此期间……可以去换票处领取纪念品？！",
+			say = "The polling venue will stay open for another week, and you can claim a trophy in the exchange shop until then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是会场限定纪念品……好耶。",
+			say = "A trophy to remember this by... Nice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来接下来的几天，我们还能继续享受一下庆典的余音了呢~",
+			say = "Sounds like we still have a few more days to enjoy the after-party!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「人气投票新篇章」·完",
+					"End of Popularity Poll 2023",
 					2
 				}
 			}

@@ -12,7 +12,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "五航战的那孩子径直朝着雕刻室的方向去了，真是麻烦的家伙",
+			say = "Our brave little bird seems to be heading to the Sculpture Room. How annoying...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -33,7 +33,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "她们究竟想妨碍我到什么时候，为什么就是不能理解“那位大人”的意志呢！？",
+			say = "How many times must they meddle in things that aren't their concern? Why do they not realize the magnificence of the Creator's plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "姐姐，别激动。既然模具已经安排到位，雕刻过程不会花费太多时间的",
+			say = "My sister, please, control yourself. As long as the Original does not awaken, all will be well. Sculpting it should not take long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			blackBg = true,
-			say = "接下来我们只需要按照神明的指示留意觉醒反应就够了",
+			say = "Then let's send out a rabbit to stall the little bird. She's been waiting for her tea party long enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actorName = "？？？",
 			withoutPainting = true,
 			blackBg = true,
-			say = "派那孩子出击吧，只要能拖延时间即可",
+			say = "Let's send that child over there to stall her.",
 			shake = {
 				speed = 1,
 				number = 3

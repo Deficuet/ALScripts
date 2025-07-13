@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "「冰龙破风」行动共指定有三个阶段的作战目标。",
+			say = "There are three steps to Operation Wind-Crushing Ice Dragon, each with their own objectives.",
 			bgm = "theme-donghuang",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "如果在第一阶段作战目标后，舰队整体实力损失在15%以上，则直接宣布行动结束，放弃后续目标。",
+			say = "The first – break through the storm and eliminate all Sirens in the area. When this step has been completed, and only if losses are less than 15%, can step two be initiated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "否则，如果敌情没有重大变化，则立刻开始执行第二阶段作战目标——抵达塞壬马里亚纳群岛要塞群并与北方联合舰队汇合。",
+			say = "Next step – advance to the Mariana Islands stronghold and regroup with the Northern Parliament's support fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "至于第三阶段的作战目标，则是彻底摧毁塞壬马里亚纳群岛要塞群。",
+			say = "Finally – eliminate the Siren presence at the stronghold and neutralize all the facilities on the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "第二阶段和第三阶段彼此连续，在决定执行第二阶段作战目标的那一刻，就已经是开弓没有回头箭了。",
+			say = "Now that it's all but certain that the Mariana Islands are the origin point of the Storm, we know that we must root them out entirely, lest all our efforts be for nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "因此，在享受了片刻胜利的喜悦后，舰队全体人员立刻回归到了肃杀的气氛中。",
+			say = "After savoring the glory of eliminating Tester for just a moment, all our fleets focused their minds once more on the main goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "三支东煌舰队继续徐徐向着预定目标——塞壬马里亚纳群岛要塞群前进着。",
+			say = "All three of us coming from a different direction, we reunite in the waters of the Mariana Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,15 +105,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·某处",
+					"Pacific - Vicinity of Mariana Islands",
 					1
 				},
 				{
-					"东煌东海风暴解析舰队",
+					"East Sea Storm Analysis Fleet",
 					2
 				},
 				{
-					"指挥舰内",
+					"Commander's Vessel",
 					3
 				}
 			}
@@ -127,7 +127,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，以上就是近几日来于帕克菲克洋中各处发生的情况。",
+			say = "Commander, I've received a report of what's been happening in the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前星海派出了大量带有信号增强功能的无人机游走在各处军事据点周边，而我们也已经消除了大风暴的干扰。",
+			say = "The Sea of Stars has widely deployed drones with signal enhancement functions across various bases.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "帕克菲克洋中各处现在对我们来说已经通讯无阻了，后续情报都会及时送达的。",
+			say = "This will facilitate much smoother communication between our units, moving forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真没想到，敌方进攻的目标竟然如此之多，影响范围如此之广。",
+			say = "(I've dealt with mass illusions before, but never on THIS scale.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从欧罗巴到帕克菲克洋，再到白鹰本土。",
+			say = "(It's affecting not just the Pacific, but the Eagle Union and Europa as well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "最严重的时候，PH港、{namecode:524:圣地亚哥}司令部、NY司令部、星海，DC特区，这些至关重要的目标竟然全部陷入幻境之中险些落入敌手。",
+			say = "(A remote base like PH falling into enemy hands would be bad enough, but NY City and the Sea of Stars almost fell, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "还好有重樱的{namecode:74:长门}及时出手相助，印第安纳、企业，萨拉托加等无数同伴临危不乱。",
+			say = "(Thankfully, Shimanto and Harutsuki came to the rescue, and the hard work of Saratoga, Indiana, and Enterprise pulled us back from the edge of the cliff.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "总算是有惊无险地度过了最危急的时期。",
+			say = "(Which brings us to where we are now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "目前，分散于白鹰控制区各处的虚像幻境已经被全部破除了。",
+			say = "(All illusory realms detected across the Eagle Union have been erased.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "企业也与{namecode:74:长门}结成同盟，为了同一个目标努力着。",
+			say = "(Enterprise has grouped up with Nagato's fleet and they're all en route to the Marshall Islands.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_nagato4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这无疑是一件好事，对于{namecode:74:长门}的情况我是有所耳闻的。",
+			say = "(It's not easy out there, and the fact they're working together brings a smile to my face.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_nagato4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她不但在重樱内部的地位崇高，而且经历过那场轰轰烈烈的对塞壬反击战，心中所想与现在的重樱大方向或许并不一致。",
+			say = "(I wouldn't have expected the guardian fox to appear on the front lines of such an unusual operation, but any help we can get is appreciated.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_nagato4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在的重樱整体对于联盟合并一事并不感冒。如果她愿意合作的话……或许会是一个好的开始。",
+			say = "(If we can get her on our side, reforming the Azur Lane should be easier.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_nagato4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……她所提供的情报。",
+			say = "(Then there's that report she gave me. About Akagi...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_nagato4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次事件，与{namecode:91:赤城}脱不开干系……么。",
+			say = "(And her alleged connection to this whole incident.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}……虽然对于她这个人不算了解，不过其行事风格……也算是令人颇有印象了。",
+			say = "(I don't know how to feel about Akagi being involved in this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟来到帕克菲克洋战区的第一战……就是与她隔空进行的。",
+			say = "(We once fought, she and I. Right here, in the Pacific.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当时那场突然袭击……令所有人都猝不及防。",
+			say = "(It was a sudden attack. Nobody anticipated it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再之后是珊瑚海海战……",
+			say = "(Then came the battle of the Coral Sea.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而后是AF海战……",
+			say = "(And then the battle at AF.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "AF海战之后，曾经一度传出了她已经沉没的消息。不过随最后被证明为错误情报。",
+			say = "(There were rumors that she'd sunk following that battle. It was later proven to be false.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再之后，随着局势缓和。我作为指挥官活跃在各处战场，她则做为重樱的领导者醉心于内务中，其间鲜有交集。",
+			say = "(She's a crafty one, that fox. Leading the Sakura Empire by day, and working out schemes by night. I wish I'd had more chances to speak to her one-on-one.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再次见到她的时候，就是与{namecode:440:腓特烈大帝}那次阵前合作了。",
+			say = "(We DID fight alongside rather than against each other during the battle of Compiler's mainframe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那次合作中，我们的舰队一同消灭了构建者的主机塔。",
+			say = "(That was a time for action, not for dialogue, though. A shame.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			bgName = "bg_endingsong_13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "彼此间也是第一次在那么近的距离打了照面。",
+			say = "(Maybe I should've pulled her aside and talked to her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再之后——就算在联盟合并会议之上都未曾再见过她。",
+			say = "(While she didn't attend the meetings to discuss the Azur Lane's reformation, I've heard rumors that she has a rather distinct stance on the topic.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "据说她对于联盟合并也一直持反对态度。",
+			say = "(Still, something doesn't sit right with me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……如果说，从欧罗巴到帕克菲克洋……再到白鹰本土所发生的这些事，都只是{namecode:91:赤城}计划的冰山一角的话。",
+			say = "(Even if she does have a dangerous side to her, she doesn't strike me as someone who'd cause an incident that has world-spanning effects.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她究竟在酝酿着怎样可怕的风暴……",
+			say = "(After all we've been through – after all SHE'S been through – I don't want to believe she'd throw her friends under the bus like this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她所坐镇的重樱本岛，那位于风暴中心之处，此时又该是怎样一番景象呢……",
+			say = "(She's not some egomaniac who wants to take over the world...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……就当是有备无患。",
+			say = "(...Or maybe I don't know her as well as I think I do.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "先让白鹰、北方联合和东煌协助收集重樱本岛的情报好了。",
+			say = "(I'll task some people with gathering intel for me, just to prepare for a possible worst-case scenario.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			bgName = "bg_tieyiqingfeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于当务之急——还是帕克菲克洋中两根最大的钉子：重樱马绍尔群岛基地以及塞壬马里亚纳群岛要塞群。",
+			say = "(For now, I need to focus on what's right in front of me – recapturing the Marshall Islands and toppling the Mariana Islands stronghold.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "重樱马绍尔群岛基地此时已经被未知势力占领，成为了其在帕克菲克洋中扩张势力的大本营。",
+			say = "(Starting with the Marshall Islands. It's fallen into the hands of that still-unidentified enemy, who's using it as a forward operating base.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "根据企业之前的部署，邦克山所带领的帕克菲克洋主力舰队正在封锁其正面，以防御姿态迎击。",
+			say = "(Bunker Hill's fleet is blockading the path to other bases. They'll make sure nothing comes in or out.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而企业和{namecode:74:长门}所带领的舰队，已经趁机夺回了重樱所罗门群岛基地。",
+			say = "(Enterprise, Nagato, and their fleets have departed from the Solomons. They'll soon reach the Marshall Islands.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "目前两支舰队正在向着马绍尔群岛前进，意图配合舰队主力对其进行两路夹击。",
+			say = "(Once they're there, Bunker Hill will join them in recapturing the island.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与此同时，由于后方的威胁排除完毕。",
+			say = "(For backup, we have two Eagle Union fleets in reserve.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "来自{namecode:524:圣地亚哥}司令部的援军将会在PH港补进行给后，立刻前往一线战场。",
+			say = "(One will set off from SD, resupply and refuel at PH, then head straight to us.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			bgName = "storymap_taipingyang",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而在更远处，还有一支NY司令部派出的本土舰队作为支援。",
+			say = "(The other comes from NY, which does mean they'll have to take the route through Panama Canal.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			bgName = "storymap_taipingyang_99",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过从距离上看，那支舰队应该是赶不上战斗了，只能算有备无患。",
+			say = "(They're really far away and won't make it in time, but I'm bringing them over just in case anyway.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于塞壬的马里亚纳群岛要塞群。",
+			say = "(Then there's my current objective – the Mariana Islands.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那本是一处废弃多时的塞壬要塞群，长期以来一直没有引人注意。",
+			say = "(For the longest time, it had been a very unremarkable base for the Sirens with little activity to speak of.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "直到去年开始，这座要塞突然活跃了起来。",
+			say = "(That is, until last year when the Dragon Empery began evaluating a plan to break through the Storm. Suddenly, it flared up with activity.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "根据东煌提供的情报，要塞的激活时间与她们开始正式解析大风暴的时间是一致的。",
+			say = "(It's almost like the Sirens knew what the Empery was planning, just like how the Storm intensified when the Empery rallied its troops.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "东煌也明确查明，此处就是大风暴控制设施的所在地。",
+			say = "(That was essentially soft confirmation that the Storm's control center is on those islands.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,33 +952,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然根据后续铁血提供的情报，这里疑似是测试者主机塔所在的区域，不过东煌有必须摧毁这里的理由。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			canMarkNode = {
-				"maliyanayaosai",
-				{
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					9,
-					12
-				}
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "storymap_maliyana",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "目前，东煌已经摆脱了大风暴的桎梏，三支舰队正从西、西南、西北三个方向向着群岛要塞的防线接近。",
+			say = "(This theory was further reinforced by the intel Iron Blood shared, as well as Tester's serious attempt to push us back.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +967,6 @@ return {
 					5,
 					6,
 					7,
-					8,
 					9,
 					12
 				}
@@ -1005,7 +978,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "北方联合舰队也根据之前的联合作战计划从北方接近着。",
+			say = "(Boy, did all of this come at the perfect time for us.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,7 +995,6 @@ return {
 					7,
 					8,
 					9,
-					11,
 					12
 				}
 			}
@@ -1033,7 +1005,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……既然海域各处的联络已经通畅，铁血留在{namecode:435:俾斯麦}海浮岛要塞的驻防舰队也可以作为援军邀请过来。",
+			say = "(The Empery is sending in fleets from three directions, and the Northern Parliament is sending a fleet of their own to the south.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1033,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于隶属于悉尼司令部的皇家安塔迪卡舰队……",
+			say = "(Seeing as we've worked around the jamming, maybe I should also ask for help from the garrisoned fleet at Iron Blood's Floating Fortress.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1089,7 +1061,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "根据此前在火地岛驻扎的白鹰安塔迪卡舰队提供的情报，目前安塔迪卡区域无异常。",
+			say = "(Oh, and then there's the Royal Navy fleet stationed in Sydney.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1089,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "考虑到之前水星纪念·META所弄出的动静，只靠悉尼司令部和火地岛的舰队是不可能战胜她的。",
+			say = "(From what I've heard from our allies at Tierra del Fuego, there's not much of anything happening around Antarctica. Not yet, anyway.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,7 +1117,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以不如以监控为主，让悉尼司令部全力配合解决帕克菲克洋中的问题。",
+			say = "(On one hand, someone has to keep an eye on Pamiat' Merkuria META. On the other, spreading my forces isn't ideal.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1145,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯——问题诸多，总要一个一个处理。",
+			say = "(I don't like having to choose one over the other, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1173,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "皇家安塔迪卡舰队也要来参与本次进攻马里亚纳群岛要塞群的战役。",
+			say = "(Alright. Maybe something like...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1229,7 +1201,35 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "反正考虑到之前她计划的粗糙程度，既然塞壬已经在安塔迪卡区域内进行了重点防御。",
+			say = "(I'll tell the Royal Navy's fleet to join in the attack on the Mariana Islands.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			canMarkNode = {
+				"maliyanayaosai",
+				{
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					11,
+					12
+				}
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "storymap_maliyana",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Pamiat' likely won't be a problem. Kimberly said she simply wanted to enjoy a vacation for some reason. Besides, I can count on Observer not letting Pamiat' do as she pleases in Antarctica.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "估计彼此之间都要有不小的消耗了。",
+			say = "(As the old saying goes – the enemy of my enemy is my friend.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1287,7 +1287,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然后……还有个问题。",
+			say = "(Finally, we have the question of how to allocate forces for these two separate operations.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,7 +1316,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "根据现在的局面，白鹰主力舰队不宜越过已经被敌人控制的重樱马绍尔群岛基地，直接参加对于马里亚纳群岛要塞群的进攻。",
+			say = "(The Marshall Islands are the unknown enemy's headquarters, and they're still affected by the illusions. They're a threat we need to take seriously.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1345,7 +1345,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而另一方面，大风暴虽然已经瓦解，但其控制设施只要未被摧毁，就会一直试图重新构建风暴。",
+			say = "(At the same time, the Storm can return if we don't destroy the control center soon. We need to be ready for that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1374,7 +1374,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因此，东煌必须连续不断地投入冻雨导弹对风暴胚胎进行压制，成本高昂。",
+			say = "(The Empery is keeping the storm in check with their Dongyus, but they can't keep up the assault forever.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1403,7 +1403,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "同时马里亚纳群岛要塞群也在源源不断生产着IV型量产型舰队，这边也拖不得。",
+			say = "(There's also very little time to reposition anyone since the Mariana Islands will keep producing those Type IVs.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1432,7 +1432,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来没办法集中力量逐个击破了。",
+			say = "(Okay. I've got it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1461,7 +1461,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——结论，两边同时开战。",
+			say = "(We'll just run both operations concurrently.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1491,7 +1491,7 @@ return {
 			bgName = "storymap_maliyana",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "马里亚纳群岛要塞打得慢一些稳一些，等企业的舰队以碾压优势解决完马绍尔群岛基地的问题后——",
+			say = "(Operation Wind-Crushing Ice Dragon will continue as planned. If it feels like we're outnumbered, I'll wait for backup from the Royal Navy and Iron Blood.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1521,7 +1521,7 @@ return {
 			bgName = "storymap_maliyana_99",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "兵合一处，对马里亚纳群岛基地发动总攻。",
+			say = "(If Enterprise, Indiana, and Nagato take back the Marshall Islands quick enough, I'll regroup with them, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1551,7 +1551,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（本次战役目标只是摧毁位于表面的马里亚纳群岛要塞群，不是隐于内测的测试者主机塔。）",
+			say = "(So that's it. Destroy the Storm's control center and neutralize the Type IV production facilities.)",
 			bgm = "battle-newwind",
 			typewriter = {
 				speed = 0.05,
@@ -1581,7 +1581,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（主机塔对于塞壬至关重要。不到万不得已，测试者应该不会暴露其所在位置。）",
+			say = "(As nice as it would be to destroy a mainframe today, there's no way Tester will expose her beating heart to us like that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1593,7 +1593,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（从目前调动的舰队实力来看，就算出现些许紧急情况，也足够应对了。）",
+			say = "(I also don't want to provoke her. Playing safe is the name of the game here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1605,7 +1605,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯。",
+			say = "Memphis, I've got some orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1618,7 +1618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我在。",
+			say = "I'm listening. Whenever you're ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1630,7 +1630,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记录命令。",
+			say = "Thanks. Be sure to write this down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1643,7 +1643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是！",
+			say = "Of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1655,7 +1655,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一，要求卡拉金司令部、BP司令部和{namecode:524:圣地亚哥}司令部协助收集重樱群岛的情报。",
+			say = "One – tell the bases at Karaginsky, BP, and SD to keep close eyes on the Sakura Islands. Gather intel whenever possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1667,7 +1667,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "二、要求悉尼司令部派遣皇家安塔迪卡舰队支援针对东煌舰队对于塞壬马里亚纳群岛要塞群的战斗。",
+			say = "Two – tell the Royal Navy fleet stationed in Sydney to depart for the Mariana Islands and aid in the operation to capture it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1679,7 +1679,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "并且时刻关注安塔迪卡方面的情报，如有异常立刻汇报。",
+			say = "Additionally, they must be ready to relay any monitoring info from Antarctica and its ocean directly to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1691,7 +1691,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "三、命令白鹰安塔迪卡洋舰队在基地待命，并且该舰队临时划归悉尼司令部统一指挥。",
+			say = "Three – tell the Eagle Union fleet stationed at Tierra del Fuego to be on standby. Command of it will be transferred to the Royal Navy's fleet in Sydney until this operation has concluded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1703,7 +1703,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "四、联络铁血{namecode:435:俾斯麦}海浮岛要塞群的负责人{namecode:471:彼得}·史特拉赛。",
+			say = "Four – contact Peter Strasser and inform her that we request the Floating Fortress Fleet's assistance in the capture of the Mariana Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1715,7 +1715,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "将当前所有已知情报都同步给她，并言明希望她派出舰队配合我们本次对于塞壬马里亚纳群岛要塞群的进攻行动。",
+			say = "Additionally, share with her all the intel relevant to this operation and tell her to contact her comrades in Europa immediately to let them know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1727,7 +1727,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "五、企业作为马绍尔群岛基地战役的总指挥，全权负责该次战役行动。",
+			say = "Five – inform Enterprise that her group is responsible for recapturing the Marshall Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1739,7 +1739,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "战役按照原定计划继续进行，原本已经受到企业调动的舰队，依然由她统一指挥。",
+			say = "Their mission continues as planned under her leadership. The Sakuran fleet accompanying her is to follow her orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1751,7 +1751,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "六、北方联合舰队和东煌舰队继续执行原定战役目标，彻底移平塞壬马里亚纳群岛要塞群。",
+			say = "Six – Operation Wind-Crushing Ice Dragon will continue as planned. The Northern Parliament's and Dragon Empery's fleets are to aid in destroying the Sirens' stronghold on the Mariana Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1763,7 +1763,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "七、企业在结束马绍尔群岛方向的战斗后，应立刻集结舰队前来支援马里亚纳群岛战场。",
+			say = "Finally, seven – if one of our two task forces finishes their objective before the other does, they are to swiftly link up with the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1777,7 +1777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "遵命。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1791,7 +1791,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，还有其他命令么？",
+			say = "Is there anything else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1803,7 +1803,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "暂时没有了。我稍微眯一会，不过有新消息的话随时汇报给我。",
+			say = "No, that's everything. I'm going to rest my eyes a bit now. If something happens, give me a call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1816,7 +1816,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白，你好好休息吧。",
+			say = "Heehee. You have a nice, long rest now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1830,7 +1830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "欸……没想到这次东煌之行居然会热闹成这样，真是辛苦您了。",
+			say = "You're really going above and beyond for us all here, Commander. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1842,7 +1842,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没办法，谁让我是碧蓝航线的指挥官呢——",
+			say = "Don't mention it. I'm just doing my job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

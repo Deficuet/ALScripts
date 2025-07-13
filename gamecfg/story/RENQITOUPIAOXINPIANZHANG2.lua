@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是主舞台……好、好闪耀……",
+			say = "This is the qualifiers voting stage, eh? Gosh, these lights are so bright...",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明不久前才刚刚开始建设呢……到底是怎么做到这么快的……",
+			say = "It's unbelievable that it's done already. Didn't they start construction, like, just the other day?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是港区速度……",
+			say = "Yes. This is what you call port speed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊？",
+			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃，好像也可以这么说，毕竟指挥官对这场活动十分热心，给予了很大支持呢。",
+			say = "Uh, I'm sure the Commander's enthusiastic support for this event had something to do with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲……现在想投票了。",
+			say = "Now I wanna partake in the vote, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，说起来，一路上都没见到投票箱呢。",
+			say = "Speaking of voting, where's the voting box? I haven't seen it anywhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉刚刚在换票处没有拿到实体票的时候……你就应该问这个问题了。",
+			say = "Nor have I seen ballots anywhere... There's a reason for that, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "据{namecode:98:明石}说，考虑到本次“票数将会过于庞大”，所以已经转为使用电子票的方式计票啦。",
+			say = "Akashi said it'd be impossible to count our ballots if we all vote at once, so they want us to use digital ballots instead of paper ones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……确实是一个增强便利性的举措。",
+			say = "Interesting. Bits and bytes are more convenient than pen and paper anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样在港区中随时随地都能投票了。",
+			say = "It's great not having to physically go to a ballot box to cast my vote.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算在床上睡觉的时候也可以呢……",
+			say = "You could even vote from the comfort of your bed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来需要考虑的就是投票策略了……因为电子票的形式具有一定隐蔽性。",
+			say = "But, you need to consider your strategy. Digital voting, by nature, is hidden from view.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很难通过一个人的外表判断出她手中存了多少票。",
+			say = "You can't determine how many votes someone has cast from a glance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，投票结束前谁都猜不出赢家会是谁呢。",
+			say = "This means you can't be sure if someone's going to win until time is officially up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直要战至最后一刻么？听起来好刺激啊！",
+			say = "So it's anyone's game until the last moment. That sounds so exciting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~况且在一个赛程阶段内获得的票，也只能在该阶段内投出，过时作废哦！",
+			say = "There's also the fact that your ballots are only valid during the round you got them. You need to use them or you lose them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……投票真是一件复杂的事呢……标枪也要好好思考一下了！",
+			say = "Hmm... Voting is more complicated than I thought. I'll have to weigh my options carefully!",
 			painting = {
 				alpha = 0.3,
 				time = 1

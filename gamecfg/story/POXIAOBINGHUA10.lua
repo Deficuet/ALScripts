@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_2",
 			dir = 1,
-			say = "这里漂浮的冰山感觉有上百米高了……",
+			say = "...The icebergs floating here must be hundreds of meters high...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据测量，位于“密室”海面的冰山高度从五十米至两百米不等，表面皆平整光滑。",
+			say = "From 50 to 200 meters, to be precise, and their surfaces are flat and smooth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要在水面上露出如此之大的部分，冰山的水下结构理论上更为庞大。不过根据探测，这里的冰山并没有多少水下结构。与其说是漂浮，更像是被固定在水面上的一样。",
+			say = "As we all know, most of an iceberg’s actual mass is hidden under the surface — in theory. Based on our observations, however, the icebergs here do not have substantial underwater structures. Rather than “floating,” they seem to be suspended within the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "这些冰山也是镜面海域机关的一部分么……",
+			say = "Are these icebergs all a part of the Mirror Sea...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_cccpv2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不仅仅是这样哦！这里的镜面海域内会周期性的生产出一些塞壬防御模块，虽然型号老旧战斗力又差，但是也不能置之不理。",
+			say = "That’s not all! The Mirror Sea periodically produces Siren defense modules around these parts! These modules are rather dated, but we can’t just ignore them either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据命令我们会定期前来清理敌人，所以经常会出现被炮火击中而变得坑坑洼洼的冰山……",
+			say = "Per our orders, we have to return here periodically to sweep any enemies that might spawn, and these icebergs sometimes get split apart by stray fire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……等到下次再来的时候，那些冰山就完全恢复正常了！",
+			say = "But... after we leave and come back, the icebergs simply reform as if nothing ever happened!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "这些冰块会自我修复……？",
+			say = "The ice is capable of regrowing...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错~！很厉害吧！因此我们继续做了很多实验。如果是普通碎裂，破碎的地方会重新凝结起来。",
+			say = "That’s right~! Pretty spooky stuff, right? So that’s why we still have to carry out lots of experiments. When the icebergs are lightly damaged, they regenerate into their original forms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_cccpv2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果是被炸成碎片，碎裂的部分会沉入水下，然后在一段时间之后会有一个一模一样的冰山从水面之下浮起来！",
+			say = "If we blast ‘em to pieces, the fragments disappear, but then an identical iceberg will float up to take its place soon afterwards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_cccpv2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直以来我们遇到的塞壬镜面海域大致可以分为两类，一类是制作棋子和量产型的兵工厂，另一类是放有各种夸张设备的实验场。",
+			say = "So far, the Mirror Seas we’ve encountered can be broken up into two categories: one, arsenals for making Pieces as well as mass-producing ships; and two, experimental research facilities for creating unfathomable weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唯独这一处，由北方联合、也许是整个人类最初发现的镜面海域与它们都不相同。",
+			say = "Of all the Mirror Seas discovered by mankind, this may be the first that does not fall into one of those categories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们对这里进行了长时间研究，回收了一切能回收的资料，分析了一切能分析的样本，但是始终不明白这处隐藏在水面下只会修复自然景观的镜面海域被设立的目的。",
+			say = "We’ve conducted extensive long-term research on this place, gathering as much data as possible and analyzing any samples that we can get our hands on. However, we still have no idea what the purpose of setting up a Mirror Sea like this might be - a hidden underwater facility that seems only to preserve a landscape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后我们有了一个猜想……指挥官同志，镜面海域会不会原本不是用来进攻的兵器，而是某种用来隐藏和躲避的工具呢？",
+			say = "Finally, we made a hypothesis... Comrade, what if Mirror Seas were not originally meant to be tools of war, but were designed to be tools of stealth and evasion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "隐藏，和躲避……？",
+			say = "What do you mean by that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "镜面海域直到进入之前都从来没有被我们预先发现过，其最大特征就是隐蔽。",
+			say = "Generally speaking, Mirror Seas are unrecognizable from the outside until you’ve actually entered them. The single thing that all Mirror Seas have in common is their concealment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而塞壬经常将原本正常通航的海面直接转换为镜面海域覆盖的区域，说其生成装置是可以被机动部署的，具有一定的便携性。",
+			say = "On the battlefield, the Sirens often directly convert a portion of the ocean into a Mirror Sea, suggesting that whatever device they use to do this must be portable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于在镜面海域之中对我们进行攻击的不过只是存放于其中的各类设备而已。",
+			say = "As for all the attacks we’ve seen both from and inside the Mirror Seas, those might just be products of the equipment stored inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我过去在铁血呆过一段时间，铁血其实很早就在进行镜面海域相关的研究了。",
+			say = "As someone who formerly stayed in Iron Blood, I can attest that they started researching Mirror Seas very early on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "印象里，铁血最初拒绝各大阵营联合起来成立碧蓝航线的原因之一就是想要独占对于塞壬的研究成果吧。",
+			say = "The impression I got was that initially, Iron Blood wanted to monopolize the fruits of their research on Siren technology, and refused to join the other major powers in the Azur Lane for that reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "结果原本没有成为塞壬第一批打击对象的铁血却因为对于塞壬主动进攻而遭受了不小的损失，真是讽刺。",
+			say = "At first, Iron Blood was not a primary target for the first wave of Siren attacks. Ironically, their meddling into Siren technology stirred the sleeping beast, so to speak, and they suffered devastating losses as a result.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，铁血自始至终都维持着对于塞壬科技的高度兴趣，在我离开之前铁血就已经成功对镜面海域的组成模块进行了拆解。",
+			say = "Mhm. Iron Blood has always been obsessed with Siren technology, through and through. Even before I left, they already managed to disassemble components of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在也在一直针对各个模块进行着技术攻坚吧，不知道铁血现在的进展如何了。",
+			say = "I assume they’re still ironing out technical challenges for the various modules, but I don’t know how much progress they’ve made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "也就是说，我们要把现在经常遇到的镜面海域与镜面海域这个概念本身进行区分？",
+			say = "What I’m taking away from all this is that we have to distinguish between the Mirror Seas we encounter in battle, and the actual concept of a Mirror Sea, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "前者是在镜面海域这个基础载体上由塞壬进行了各类功能改进后而形成的产物，而后者只是一个单纯拥有隐秘性和便携性的科技设备？",
+			say = "An actual Mirror Sea is just a technological device designed for absolute privacy and portability, whereas what we see in practice is like an upgraded, personalized version of that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，就是这个感觉。用于进攻的镜面海域虽然十分麻烦，但是只要舰队实力充足也可以将其正面破坏。可是如果用镜面海域像这样将某些区域主动隐藏起来的话呢？我们可能永远也无法找到这些区域吧。",
+			say = "That sounds about right. Though Mirror Seas can be a pain in the ass when used offensively, we are able to destroy them directly as long as we have the numbers. But what if Mirror Seas are used to hide away places just like this one? We may never find those places... or know how many there are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "听下来确实很有这种可能。迄今为止一直无法特定的塞壬远洋基地或许也是以这种形式隐藏在大洋深处的？",
+			say = "That does sound plausible. Perhaps the Sirens’ main base, which has never been pinpointed so far, is hidden somewhere in the depths of the ocean in a similar form?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们也是这么认为的，不过因为再也没有找到第二处情况类似的镜面海域，作为能够令人信服的说法来说尚缺不少证据。",
+			say = "We reached the same conclusion, but because we’ve never found a second Mirror Sea that shares the same conditions as this one, we need a lot more evidence before making that logical leap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			say = "（……既然塞壬位于水下的镜面海域如此隐蔽，这一处“密室”最初究竟是如何被北方联合发现并完整占领的呢……）",
+			say = "(...Wait, if the Sirens are hiding underwater in well-concealed Mirror Seas, how was the Northern Parliament able to seize control of this “Arcana Sanctum?”)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_cccpv2_2",
 			dir = 1,
 			blackBg = true,
-			say = "（总感觉北方联合隐瞒了这件事的某些关键的部分……）",
+			say = "(I can’t help but feel that there’s more to this story that they’re not telling me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

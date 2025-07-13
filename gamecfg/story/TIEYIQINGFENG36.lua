@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "鸢尾首都的白鹰大使馆中，刚刚摆脱幻境的白鹰众人正在进行着忙碌的工作。",
+			say = "In the Orthodoxy's capital, within an Eagle Union consulate, a group of awakened shipgirls were trying to get a grasp on what was happening.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（之前的……原来都是幻境中发生的美梦么……）",
+			say = "(No way... That was all a dream!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "（不行不行、埃塞克斯！幻境是敌人的招数，现在得赶紧把事情调查清楚才行！）",
+			say = "(Okay, need to stay calm. I've snapped out of the illusion, so now I need to figure out what's going on, and fast!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "香格里拉，和NY司令部还没恢复联系么？",
+			say = "Shangri-La, has our connection to NY City fully come back online yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "没有。根据鸢尾提供的情报，欧罗巴多处都受到了幻境的影响。",
+			say = "Not yet. According to Orthodoxy intel, a lot of equipment has gone haywire, even if the illusion itself is gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许是因为幻境的存在影响了我们的通讯。",
+			say = "I'd assume that's the reason why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "所有人都被摆了一道啊……",
+			say = "Damn it. They really caught us off guard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了，通讯不畅也是常有的事。你先整理好报告，等通讯恢复后第一时间汇报过去就好。",
+			say = "Then again, we're used to communications going down, so it's not the worst. Start writing a report and send it as soon as we have signal again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "……嗯？",
+			say = "...Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "香格里拉，你来看这边的监视器，NA海域中心风暴的读数是不是有些异常？",
+			say = "Hey, hang on. Look at this. Does the center of the NA Ocean look weird to you, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107380,
-			say = "嗯……读数确实正在以异常的速度增长中。",
+			say = "My, these monitoring values are shooting through the roof...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我联络一下{namecode:199:新泽西}，让她派人调查一下发生了什么事。",
+			say = "I'll try to get in touch with New Jersey and ask her to investigate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——滴——滴——",
+			say = "BEEP... BEEP... BEEP...",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……和{namecode:199:新泽西}的通讯也无法接通？",
+			say = "Huh? It's not connecting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "香格里拉，我有种不好的预感。",
+			say = "I've got a really bad feeling about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我也是。",
+			say = "That makes two of us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你快去找黎塞留，让她派人调查一下NA海域中现在的情况。",
+			say = "Call Richelieu and let her know about this. We need to find out what's happening in the NA Ocean ASAP.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我……我直接派侦察机编队去看看！",
+			say = "I'll send out recon planes and see what I can find!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

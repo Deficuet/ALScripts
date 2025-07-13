@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"看来奖励是<color=#ff7d36>PT点数</color>",
-	"<color=#ff7d36>PT点数</color>可以在商店里兑换大量奖励，接下来让我们去商店看看！",
-	"真是丰富的奖励呢！指挥官请自由挑选~我先回港等你！"
+	"Looks like you got an <color=#ff7d36>exchange item</color> as a reward!",
+	"<color=#ff7d36>Exchange items</color> can be traded for rewards at the shop! Go there right now!",
+	"That's a whole heap of rewards! Exchange for whatever you fancy! I'll go back to the port and wait for you!"
 }
 
 return {

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>一、指挥官闷闷不乐？</size>",
+					"A Beaming Smile!\n\n<size=45>Not Feeling So Well?</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "司令部安排了一批重要任务。",
+			say = "HQ dumped an urgent task in my lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "这意味着，这几天都将面对名为“事务”的地狱。",
+			say = "\"Examine all past records and draft a financial report,\" they said, which boils down to days of crunching numbers and scanning fine print made for ants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天也是一样，完全不知道会忙到几点……",
+			say = "I'm taking another plunge into paperwork hell today, taking my secretary down with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "好在有可爱的小秘书舰{namecode:162}的帮助，在一定程度上缓解了工作压力。",
+			say = "Or rather, I would, were she not too innocent for that sort of stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，指挥官！这里这样子写就可以了吗！",
+			say = "Hey, Commander! Is this how you spell this word?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~{namecode:162}又帮上指挥官的忙了。这下指挥官也一定会开心……的吧？",
+			say = "Goodie! That means I helped you with your work! That's gotta lighten you up a bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官？",
+			say = "...Right? Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！",
+			say = "Heeeey! Ground control to Commander!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -193,7 +193,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，是发生了什么事情吗？我看指挥官连续两天都没有笑过了……",
+			say = "What's wrong? I haven't seen you smile even a smidge lately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "啊，莫非是这几天精力全部集中在工作上，精神状态被{namecode:162}担心了。",
+			say = "I turn to Makinami and tell her I'm sorry for making her worry about me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，指挥官，来笑一个吧！笑了之后，指挥官就会开心起来了！",
+			say = "Don't be sorry, be happy! Lemme see a great, big smile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然{namecode:162}这么说的话，为了不让她担心——",
+			say = "Well, since she insists...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			},
 			options = {
 				{
-					content = "试着露出笑容",
+					content = "Try your hardest to smile.",
 					flag = 1
 				}
 			}
@@ -260,7 +260,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇……",
+			say = "Uh... Yikes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的根本不能算笑啦！指挥官，再来一次！",
+			say = "Let's try that again! Come on, look alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一连试了几次，{namecode:162}似乎都不满意。",
+			say = "As per her request, I try again. And fail again. And again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明以前指挥官每天都会笑得很开心的，为什么这几天都不笑了呢？",
+			say = "This is really weird... Why can't you muster a smile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "回忆中的{namecode:162}——",
+			say = "My exhaustion from working long hours is manifesting itself as the inability to conjure a decent smile, leading to Makinami's currently troubled expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "交给我吧！虽然{namecode:162}看不懂复杂的数据，但是体力上还是很有自信的！",
+			say = "All right, I'll take over for you! I may not know all these difficult adulty words, but my stamina will get the job done!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -386,7 +386,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:135}讲的故事太有趣了！{namecode:162}还想听一个！",
+			say = "I love your stories, Oyashio! Tell me another one!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -424,7 +424,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇哇哇——哎呀！",
+			say = "Commander! How do you write– Wah?! Oh shoot!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -477,7 +477,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "又摔了一跤呢，嘿嘿~",
+			say = "Oops, I tripped again... Hehehe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "印象中，{namecode:162}似乎总是在笑着呢。",
+			say = "Come to think of it, you never see this girl *without* a smile on her face...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

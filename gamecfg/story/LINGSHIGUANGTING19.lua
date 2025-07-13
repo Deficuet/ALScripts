@@ -15,7 +15,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "会场的装饰要格外注意，那里将会是庆典的主场。",
+			say = "\"Her Majesty may be powerful, but she cannot conveniently summon Sirens out of thin air.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "啊，此处设施的入口在庆典期间会全程封闭，这一片就不用布置装饰了。",
+			say = "\"Therefore, it falls on us to repel the imaginary invaders.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "斯卡帕湾内，乔治五世正在忙碌筹备着之后将要于此举办的庆典。",
+			say = "This time, Monarch was shown a memory not hers. The time was right after Elizabeth had made the call to cancel the ceremony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……早啊，乔治五世。",
+			say = "Huh... This must be when George's fleet set out to intercept the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "早啊，君主。对于庆典有兴趣的话，我可以向陛下申请你的外出许可哟？",
+			say = "\"We've never played the role of Sirens before, but our first portrayal must be convincing.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不必了，我没有去参观的打算。我只是想和你进行一场决斗。",
+			say = "...What? Does this not mean the Sirens were never responsible for the air raid?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "决斗么……？现在恐怕不行。",
+			say = "\"Hood's illness has flared up, and she cannot deliver her speech.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "如你所见，陛下指派我负责此次庆典的筹备工作，现在实在是抽不开身，等我忙完这些事吧。",
+			say = "\"To conceal this fact, and to corroborate our coverup story of an air raid, we will need to sink a few of our own mass-produced patrol ships.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（果然又是这样，就连KGV也在为皇家做着自己的贡献，没有丝毫价值的我如何与之相提并论呢……）",
+			say = "Her Majesty truly went to great lengths to keep Hood's declining health a secret...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样啊……那我就继续去训练了。",
+			say = "I'll accompany them on this sacrificial battle. As thanks for giving me this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "等——走掉了。",
+			say = "\"Make sure their wrecks are left with absolutely no recoverable data or damages that can be traced back to us.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "（该不会被误会什么了吧……）",
+			say = "\"As for our alibi, it is as follows – we left Scapa Flow and shot down the Siren aircraft, but not before they took out some patrol ships. Understood?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205050,
-			say = "（其实我也不太认可将计划舰完全封闭的决策，等忙完庆典之后跟陛下聊聊吧……）",
+			say = "\"Good. Just a few more, and that should do it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

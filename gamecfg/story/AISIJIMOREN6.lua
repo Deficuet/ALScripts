@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>六　夏日雪世界</size>",
+					"Summer Surprise\n\n<size=45>6 Summer's Wintry Wonderland</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·室内泳池 翌日",
+			say = "Port - Indoor Pool, the next day",
 			side = 2,
 			bgName = "bg_story_houshandong",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "看来昨天爱斯基摩人的宣传效果非常好，一路上看到了很多前往室内泳池一探究竟的人。",
+			say = "Eskimo's advertising must've been a big success yesterday, because I saw a ton of people headed towards the same destination - the indoor pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "......................",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "嗯？隔着门就能听到泳池传出的阵阵笑声，看来爱斯基摩人准备了一个不错的惊喜嘛。",
+			say = "Hm? I could hear joyous laughter coming from the other side of the door. Whatever Eskimo prepared must be pretty good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "三、二、一、开门-----！",
+			say = "Well, time to see for myself what's on the other side of the door. 3... 2... 1...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是，我为大家献上的超大~超好玩的惊喜——怎么样！？一起尽情的玩吧~",
+			say = "This is the big surprise I've been working hard to prepare for all of you! So, what do you think? Let's have a blast!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在夏日中造出了人工雪景，这个惊喜真厉害，让我想到了北方联合的冬天......",
+			say = "A snow machine in the middle of summer, huh? What a splendid idea... It reminds me of being back home at the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是雪、是雪耶！哇~本森姐姐，快看！夏天居然有这么多雪！来打雪仗吧~！",
+			say = "Woooow, it's snowing! There's so much of it, even though we're in the middle of summer! Look, Benson, let's have a snowball fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No~打雪仗的事先稍后，我们先来堆一个超大的兔兔雪人吧！",
+			say = "Let's do that later! First, let's make the biggest snow bunny EVER!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~~我也来帮忙！",
+			say = "Yeah, yeah! Lemme help too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "进入室内，迎面吹来了佛冬季降临般的阵阵冷风。",
+			say = "When I opened that door, a frigid blast of wind hit me in the face, as if I had just stepped into the middle of winter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "泳池里的水都不见了，不对，甚至泳池本身都不见了。",
+			say = "Inside the pool was... Wait, I couldn't even see where the pool was supposed to be in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "取而代之的是雪白色.......整个室内泳池被积雪所覆盖，甚至还堆起来了几座冰屋。",
+			say = "Instead, a pure white snowfield spread out in front of me, and there were even a few igloos spread around the pool area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~怎么样啊！指挥官，吓了一跳吧？果然被吓了一跳吧！",
+			say = "Hehe, whaddya think, Commander? Pretty awesome, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞爱斯基摩人",
+					content = "\"Absolutely.\"",
 					flag = 1
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，这就是之前在吃雪糕的时候想到的主意。既然夏天那么热，把天气变成冬天不就好了~",
+			say = "Heheh, this is what I came up with when we were eating the ice pops the other day. If summer is such a slog, then why don't we change it to winter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以你看~我在室内泳池做好保温的准备，再从明石那里借来了造雪机……一个冰雪世界就完成！",
+			say = "And this is the result! I rented a snow machine from Akashi, kept it running here for a day, and voilà! A wintry wonderland!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "真是厉害的行动力......不过，果然明石也参与了......",
+			say = "She really is quite the force of nature. And if Akashi is involved, then that means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明石的冰雪小卖部限时开业了喵~",
+			say = "Come swing by Akashi's limited-time-only igloo shop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家玩累了的话可以来冰雪小屋坐一坐，享受热乎乎的小吃和热饮喵！",
+			say = "If you get tired from playing in the snow, come by to relax and enjoy some hot drinks and snacks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "真是个充满生意头脑的人啊......",
+			say = "She never lets a business opportunity pass her up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "啪！",
+			say = "*splat*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			say = "一个雪球从泳池中飞了出来，可惜准头差了点、",
+			say = "A snowball suddenly whizzed by me, missing me by only a tiny bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可惜~差一点击中目标！",
+			say = "Sorry about that, my aim was a little off there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，爱斯基摩人，不要光看着嘛，夏天也能打雪仗真的非常有意思！",
+			say = "Commander! And Eskimo too! We rarely have a chance to have a snowball fight in the middle of summer, so don't just stand there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正好要开第二局了！来一起玩嘛！",
+			say = "You're just in time for the second round anyway, so let's play together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_houshandong",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，等等我们！来了来了~",
+			say = "Heck yeah, count me in! I'll be right over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "走吧，指挥官。今天一整天，都要好好享受一下冰雪世界的快乐哦~！",
+			say = "C'mon, Commander! Let's enjoy the snow while it lasts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

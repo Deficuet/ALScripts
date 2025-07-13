@@ -7,11 +7,11 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#ff5c5c",
 			bgm = "holo-control",
 			dir = 1,
-			say = "在你们聊得火热的时候，冒昧打扰一下",
+			say = "I'm terribly sorry for bothering you guys when you're all so pumped up, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁在那里？！现出身来！",
+			say = "Who's there?! Show yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名侦探吹雪",
+			actorName = "Master Detective Fubuki?",
 			dir = -1,
-			say = "呼呼呼，我就是塞壬的军师哦。诸位可以称呼我为名侦探吹雪，是将在这里彻底阻止你们的人",
+			say = "Hehehe. The one known as the Advisor, the Great Detective Fubuki, has arrived to stop you all in your tracks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然塞壬复制出的是这个麻烦的个性啊！！",
+			say = "THE ONE THE SIRENS COPIED ACTUALLY ENDED UP BEING THIS TROUBLESOME ONE AFTER ALL!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "名侦探吹雪…你就是一路上一直在阻碍我们的人么？！",
+			say = "Master Detective Fubuki... So you're the one who was hindering us all along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,8 +99,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "差不多就是这回事吧~",
+			actorName = "Master Detective Fubuki?",
+			say = "Well well, that's basically correct~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出现的屏障，假地图，岩浆陷阱，全部都是你做的手脚？",
+			say = "The fake sign on the barrier and the lava trap, was it all your doing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,8 +131,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "差不多是这样吧，虽然有些我只是提供了建议而已。",
+			actorName = "Master Detective Fubuki?",
+			say = "I simply gave them some advice. Others executed for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为军师得你这么大摇大摆的来到最前线，是打算主动投降了么？",
+			say = "It takes some guts for an advisor like you to appear at the front lines, alone. You're not here to surrender, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "怎么可能，{namecode:158}酱说笑了。谜局已经到了最后关头，我也忍不住想来前线观察一下了而已",
+			actorName = "Master Detective Fubuki?",
+			say = "No way~ Oh, Kawakaze, you're such a joker~ This game is in its last stages anyway, so I felt that it'd be good to make my appearance around now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "谜局？",
+			say = "Game?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "就是指迄今为止的局势哦。别发呆了，接住",
+			actorName = "Master Detective Fubuki?",
+			say = "Everything that's happened until now. Hey, don't zone out on me now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！这个是…",
+			say = "Eh?! This is...",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -242,9 +242,9 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名侦探吹雪",
+			actorName = "Master Detective Fubuki?",
 			dir = -1,
-			say = "这是经过我研究改造，创造出的名侦探特制黑暗游戏！",
+			say = "This is the shadow game the magnificent me developed after researching the games that the ship girls were playing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "黑暗游戏……？",
+			say = "Shadow game...??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海面上突然出现了一个巨大的棋盘？！这是什么展开…",
+			say = "Th-This is...! Everyone's being swallowed into a mysterious spatial blister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,8 +291,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "像军师一样运用头脑的力量，来用游戏一决胜负吧，白上吹雪！",
+			actorName = "Master Detective Fubuki?",
+			say = "This is a battle of wits befitting an advisor! Now, choose your deck, Hololive Resistance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法了呢，就接下你的挑战吧，名侦探哦！",
+			say = "This is our only option... I'll accept your challenge, Master Detective!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +320,12 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actorName = "白上吹雪&名侦探吹雪",
+			actorName = "Both",
 			actor = 10500010,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "Duel！",
+			say = "It's time to duel!",
 			effects = {
 				{
 					active = true,

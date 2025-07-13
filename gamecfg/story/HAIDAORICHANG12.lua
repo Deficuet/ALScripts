@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>椰林的“赠礼”</size>",
+					"Uncharted Summer\n\n<size=45>Coconut Desserts</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在对岛屿进行侦察时，在东侧发现过一片椰子林。",
+			say = "Back when I'd looked around the island before, I noticed a palm forest to the east.",
 			bgmDelay = 2,
 			bgm = "bar-soft",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "听说皇家的女仆队正在那里收集制作甜品的素材，去那边看看好了——",
+			say = "When I hear that the Royal Maids were collecting ingredients for dessert there, I decide to go there myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼♪~",
+			say = "La la la la laaaa~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "啊，指挥官也是来这里收集甜点素材的么~",
+			say = "Ooh! Are you here for ingredients, too, Master?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "诶……？原来只是来观看女仆队工作的啊~",
+			say = "You're not? You just came to watch us work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "嘿嘿……正好，指挥官一路来此辛苦了。",
+			say = "Okaaay... But I'm happy to see you, Master!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "要尝尝我们不久前才做出来的新鲜甜品么~",
+			say = "Oh, yeah! How about you taste-test the fresh-baked sweets me and the others made?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在曼彻斯特身边的不远处，看到了女仆队用来制作甜品的移动餐车。",
+			say = "Not far from Manchester, I spot the food truck the maids use for cooking on-the-go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "餐车的吧台上有一杯泛着红光的饮品，和一个用椰子壳作为容器的甜品。",
+			say = "On the counter sits a drink that glows red for some reason and a dessert served in a coconut shell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "…………“大家”，也就是说两样甜品中有一个不是曼彻斯特做的！",
+			say = "(\"Me and the others\"? That must mean one of those ISN'T made by Manchester!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "一次性吃太多甜品不好，指挥官选一个吧~",
+			say = "Overindulging on sweets is bad for you, so pick just one, Master!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "曼彻斯特满面笑容地将两样甜品拿了过来。",
+			say = "Noticing my gaze, she brings both of the items over to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,18 +245,18 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这里应该————",
+			say = "(Manchester's food is so dangerous that she's usually forbidden from cooking. In that case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "选择泛着红光的危险饮品",
+					content = "\"I'll take the glowing red drink.\"",
 					flag = 1
 				},
 				{
-					content = "选择用椰子壳作为容器的正常甜品",
+					content = "\"I'll take the sweets sampler.\"",
 					flag = 2
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "也许看上去越危险的存在，吃起来也就越安全……",
+			say = "(It might look terrifying, but maybe the trick is that it's actually the safer one to consume.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "……………………果然不会有这种事啊！！！",
+			say = "(...Nope! Absolutely wrong!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 202090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~我为了凸显火热的夏日特色，在椰汁里混合了由辣椒和姜黄粉制成的特殊调料~",
+			say = "Heheh! I mixed chili powder and turmeric powder into the coconut milk to make a special flavor that really packs the heat of summer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 202090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，感觉如何~？",
+			say = "Do you like it, Master?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "不光加入了辣椒粉，还有姜黄粉么……",
+			say = "(Chili powder AND turmeric powder)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "我感觉，需要稍微休息一下……",
+			say = "(It'll be a while before I recover from this trauma...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "泛着红光的液体怎么看都不像是用正常方式做出来的椰汁。",
+			say = "(That glowing red drink looks life-threatening, so it probably IS life-threatening.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "反而是这个用椰子壳制作的甜品，看上去十分的正常。",
+			say = "(The sweets sampler looks much more normal in comparison.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "向椰子壳内仔细观看，有白色的椰浆，青色的椰子冻，还看到了白色的奶油。",
+			say = "(White coconut oil, blue nata de coco, tasty-looking whipped cream.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "看来这个是安全的………",
+			say = "(At least it looks safe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "…………嗯？没有味道？",
+			say = "\"Let's see how it tastes... Hm? I don't actually taste anything.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "明明看上去都是正常的可食用配料，可吃到嘴里却……没有任何味道……？",
+			say = "\"The mouthfeel is what you'd expect, but I don't taste anything. Not even sweetness...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官选的这个是天狼星做的~",
+			say = "Oh, Sirius made this one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 202090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像考虑到摄入糖分太多对健康不好因此改进了配方。",
+			say = "She didn't want it to be all sugary and unhealthy, so she revised the recipe a little!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 202090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，感觉如何~？",
+			say = "Do you like it, Master?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "我感觉，需要稍微休息一下……",
+			say = "(It'll be a while before I recover from this trauma...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

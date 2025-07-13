@@ -12,7 +12,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小兔子……不要乱跑，等我换好了礼服，再陪你玩……欸……？",
+			say = "Bunny, don't go. We'll play after I've gotten cha– Whuh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是指、指、指挥官大人——？！为、为什么……啊……已、已经到了约定的时间了吗？",
+			say = "C-Commander! Wh-what're you doing... Oh! Is it time already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "少女慌张的声音透过大开的门扉传来。",
+			say = "On the other side of the door, Ayase is clearly flustered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，所以我过来找你了。",
+			say = "Yeah. We're supposed to meet now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对、对不起，指挥官大人，我还没有换、换好舞会——不是……还没换好衣服！！",
+			say = "S-sorry, but you'll have to wait! I-I haven't changed into my banquet dress yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且我居然、居然会忘记关门……",
+			say = "Oh gosh... I just remembered I also forgot to lock the door...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个，舞会是不是要迟到了，呜呜……",
+			say = "The way i-it's going now, I'm guaranteed to be late... *sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,18 +137,18 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都怪我……笨手笨脚的……连、连衣服都穿不好……",
+			say = "I'm so darn forgetful... a-and I can't get into these clothes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安慰{namecode:233:绫濑}",
+					content = "It's not the end of the world.",
 					flag = 1
 				},
 				{
-					content = "提议帮忙",
+					content = "I can help you.",
 					flag = 2
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "慢慢来就好，不要紧张。",
+			say = "Take it easy. Go at your own pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……可、可是……指挥官大人，这个衣服，{namecode:233:绫濑}有点看不懂怎么穿……",
+			say = "Okay... B-but even if I do, I don't have any idea how to put this on anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可、可以请你帮帮我吗……呜呜……",
+			say = "D-do you think you could help me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我来帮你吧？",
+			say = "That is, if you want me to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好……这个衣服，{namecode:233:绫濑}看不懂怎么穿……",
+			say = "Yes, please... I don't even know how I'm supposed to put this on anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "麻、麻烦指挥官大人了……呜呜……",
+			say = "C-come in and help me, please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "在得到少女的许可后进入了房间内，开始研究少女的礼裙构造。",
+			say = "With her permission, I step inside and start examining how this banquet dress is supposed to come together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……是不是很麻烦……？",
+			say = "Umm... Is it confusing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经尝试了很多次了……一直……一直穿不上去……",
+			say = "I've tried everything, and I still can't get it on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,19 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "清透的薄纱半遮半掩少女的肌肤，因为紧张而泛着淡色的红。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "有点麻烦，不过应该不是问题。",
+			say = "She hides behind a curtain so thin I can still partly see through it. She is red from head to toe from nervousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +311,19 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "先把这个穿上，绑好蝴蝶结固定。",
+			say = "It's a bit tricky, but I think I can help.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Put this on first, then affix it with a ribbon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好……蝴蝶结……绑、绑在胸口么……我试试……好了……？",
+			say = "Okay... Y-you mean, put the ribbon around my chest? Umm... Is this right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔哇——！怎、怎么又散开了？！",
+			say = "Eek! I-it came loose again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,18 +368,18 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜……指、指挥官大人……",
+			say = "Th-this is hopeless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "口头指导",
+					content = "(Give her verbal instructions.)",
 					flag = 1
 				},
 				{
-					content = "动手帮忙",
+					content = "(Put the ribbon on by yourself.)",
 					flag = 2
 				}
 			}
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "试试先拉到最紧，再绑蝴蝶结。",
+			say = "You need to make sure it's on tight first before you put on the ribbon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……我、我试试……",
+			say = "Umm... I-I'll try...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要、要不还是指挥官大人来吧，呜呜……",
+			say = "Mmgh... Mmhh! No, it's no good... Please help me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我来吧。",
+			say = "It's okay. Let's see if I can do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜……好……那就麻烦指挥官大人了。",
+			say = "Oh no... I'm sorry to have to bother you like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "终于，{namecode:233:绫濑}艰难地完成了这场名为“穿戴礼裙”的试炼。",
+			say = "After some difficulties, Ayase has finally overcome the trial known as putting on a dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "出发前，少女有些踌躇地停下了脚步，随即不安地低下了头，紧紧攥着自己的衣角。",
+			say = "But, when I assume we're ready to leave, she stops in her tracks and stares at the floor, gripping the rim of her dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个、这、这身礼裙真的适合我么……",
+			say = "Do you... Do you think this looks good on me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,14 +530,14 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是不是……有些奇怪……毕竟我、我……",
+			say = "It doesn't look... w-weird, does it? I'm just wondering b-because...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "夸奖{namecode:233:绫濑}",
+					content = "(Console her.)",
 					flag = 1
 				}
 			}
@@ -548,7 +548,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一点也不奇怪，这身礼裙很适合你。",
+			say = "It doesn't look weird. In fact, it looks great on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:233:绫濑}也不用担心……只要是你，无论怎样都是最好看的。",
+			say = "Don't be so nervous. I promise you'd look cute in anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "少女不安的愁容散尽，露出了灿烂的笑容。",
+			say = "My encouragement blows away her nervousness, and she gives me a bright smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "她凑到我身边，握住了我的手，深吸了一口气。",
+			say = "Courageously, she takes my hand and holds it tight, then gathers herself with a deep breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			actor = 302261,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……！走吧，指挥官大人，我……很期待与你共舞的时刻！",
+			say = "Okay! Let's go then, Commander! I... I can't wait to dance with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

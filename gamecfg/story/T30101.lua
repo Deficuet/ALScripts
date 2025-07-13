@@ -18,7 +18,7 @@ return {
 			bgm = "story-4",
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "啊啦啦，这是第几波鱼雷机了，她们就不懂得学好么，这么笨重的玩意怎么可能会是“灵”式的对手？",
+			say = "Oh my, how many times does this make now? Haven't these dullards learnt by now that their flying pieces of scrap metal are no match for our Zeros?",
 			effects = {
 				{
 					active = true,
@@ -37,7 +37,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "看来AF上的敌人依然在做着没用的负隅顽抗呀，立刻准备发动下一轮攻击",
+			say = "It looks like AF's enemies are capable of nothing more than scrabbling desperately at our feet. Hurry and prepare to launch our next wave of attacks on the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			withoutPainting = true,
 			blackBg = true,
-			say = "还是要时刻注意敌方航母的动向，请保留足够多的战斗机护航！",
+			say = "Akagi, I think we still have to keep track of the movement of enemy aircraft. It would be prudent to leave enough fighters on reserve...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "哼哼，{namecode:61}派出的侦查部队压根没有看到敌方有什么航母部队，怕不是被我们庞大的舰队给吓得不敢出声了~",
+			say = "What is there to fear? Tone's recon planes haven't found any of these \"carriers.\" Perhaps they turned tail and ran at the sight of our mighty fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			blackBg = true,
-			say = "毕竟，那位大人就在后方欣赏着我们的作战呢呵呵呵呵",
+			say = "After all, \"they\" are behind us, observing our glorious battle... ahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

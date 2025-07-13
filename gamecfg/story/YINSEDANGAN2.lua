@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>权限验证中————————————</size>",
+					"Access authentication in progress–––",
 					0.5
 				},
 				{
-					"<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>",
+					"Archived data from [CV-3 Saratoga] –– Access Level: II",
 					1
 				},
 				{
-					"<size=51>权限验证完毕————————————</size>",
+					"Access authentication successful–––",
 					1.5
 				},
 				{
-					"<size=51>数据解析中————————————</size> ",
+					"Accessing data–––",
 					2
 				},
 				{
-					"<size=51>正在播放纪录————————————</size>",
+					"Starting data playback–––",
 					2.5
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "————6月4日",
+			say = "–––Action Report Records:",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "塞壬的行动十分反常，舰队今日居然在PH港西北方的安全海域内遭到攻击。",
+			say = "\"Sirens are appearing one after another in the waters near a remote island base in the NW Sector.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这几日PH港西南方的安全海域内也有零星的袭击报告传来……",
+			say = "\"Furthermore, the Sirens conducted a number of attacks of secured sectors.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然都只是小股敌人，但应当引起足够重视。塞壬可能正在为一次大规模袭击做准备。",
+			say = "\"While each attack consisted only of a few ships, we believe that this is a precursor to a large-scale Siren offensive.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在的前线舰队光是应对重樱的进攻就已竭尽全力，如果塞壬再发动袭击的话……",
+			say = "Yeah, yeah. I know, I'm taking this seriously, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……这次我可是尽力把所有能开出海的舰队都带上了，就算塞壬真发动袭击倒也能抵挡一阵子。",
+			say = "The reason we moved our reserves up here was in anticipation of this offensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "问题在于时间。",
+			say = "I had no idea we were in the middle of a Reenactment back then, and Commander wasn't around either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抵达前线的时间因为沿途的塞壬阻碍而不断延迟，实际到达时间可能会是明日下午或者深夜……",
+			say = "Huh? We were all panicking at the time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "一定要赶上啊……！",
+			say = "C'mon, TB, just play back the next thing already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数据解析完毕————————————",
+			say = "Understood. Ending playback of recording log.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "播放结束————————————",
+			say = "Beginning search and analysis for the next recording log.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

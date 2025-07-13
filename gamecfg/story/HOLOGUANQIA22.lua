@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "holo-control",
-			say = "在击败山田·赫敏后，一道光将她笼罩，似乎是撤退了。",
+			say = "After eliminating the imposter spawned by the Mirror Sea, all the members of Hololive and Azur Lane safely managed to regroup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "无论如何，所有人终于团聚，稍微安心的众人决定回到基地，好好休整一番，并且思考下一步计划。",
+			say = "They brought with them the supplies they had gathered to the Resistance hideout, and spent the rest of their day there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "当晚，反抗军基地",
+			say = "Inside the Hololive Resistance Base",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			actor = 10500070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "敌人在被打倒的瞬间在光芒中消失了，这难道是…",
+			say = "So when you defeated the Aqua clone, she instantly turned to light and vanished?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 10500010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毫无疑问是hololive服务器的传送指令呢！",
+			say = "Hang on... Doesn't that sound like she used the teleport command we have on the server?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			bgName = "bg_story_holosaba1",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "真麻烦啊，那个测试怪人已经开始控制镜面海域的机能了么…",
+			actorName = "Purity",
+			say = "Oh, you're kidding... You mean Tessy's assumed direct control of the server?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗拖得越久，我们，就越危险",
+			say = "Tessy? Ah, that girl who looked like Tester...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然让她跑了，不过遭受了那种损伤，应该很长一段时间内都无法战斗了吧。",
+			say = "Yeah. She's behaving really weird, just like Purifier. But unlike her, Tester is still evil...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,23 +155,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来测试者就是所谓的「时间与空间的支配者」的概率非常的高…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "本次面对强敌的战斗，hololive各位的表现都很出色哎~",
+			say = "That means there's a high chance that Tester is that alleged \"ruler of time and space\"... Oh, right, how are you Hololivers doing? Everything all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +172,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尤其是绫目酱和诗音呢。虽然最开始一副不情愿的样子，结果打起来比谁都起劲呢",
+			say = "We're A-OK! Ayame and Shion didn't seem keen on fighting at first, but they're pretty eager now that they've gotten the hang of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +189,7 @@ return {
 			actor = 10500050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这这这不是对待敌人么…对敌人当然不能手下留情了！",
+			say = "Th-they're the enemy, Matsuri! Of course Ay will fight them with all Ay have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +216,7 @@ return {
 			actor = 10500060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对…对哦，阿库娅本人都打的那么起劲，诗音自然也要火力全开了！",
+			say = "Y-you said it! Aqua's enjoying herself too, so what's the big deal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +243,7 @@ return {
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "令人感动的万组友谊呢",
+			say = "Ah, classic Gammadion Gang. Like three peas in a pod.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +260,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种战斗，就是你们在这个世界的日常么…？",
+			say = "About the Sirens... Do you fight them all the time in this world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +276,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。量产型，领洋者，追迹者，净化者，测试者……",
+			say = "Correct. They are our enemies and threaten the safety of our sea lanes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +292,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样与塞壬、与敌人不分昼夜地战斗。一场战斗的结束就是下一场战斗的开始",
+			say = "We were created for the purpose of fighting the Sirens and driving them back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +308,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我早就已经习惯了",
+			say = "Although I have another duty: to protect Nagato, the shrine maiden of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +341,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，说了严肃的话题",
+			say = "Sorry. I didn't intend to make the conversation so serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +357,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们在镜面海域内制作了舰装，这些数据会被塞壬抽取出来制作成“棋子”，也是理所当然的事……",
+			say = "Anyway, I suspect the Sirens will extract the data from your riggings to create more of their pawns. Your riggings were made here, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +373,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后的战斗可能会更加艰苦。战场不是什么温和的地方，请提前做好心理准备",
+			say = "You should expect to have to fight more enemies that look like one of your own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +389,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…{namecode:158}的意思是，不过无论如何，我们赢得了今天的战斗",
+			say = "Ahahahah, all we need to do is smack 'em down and put an end to whatever scheme the Sirens are trying to pull!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +415,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后只要一直胜利下去，一路击败测试怪人，夺取服务器的控制权就能获得这次战役的胜利啦！",
+			say = "Then we'll find Tester– sorry, Tessy, and solve the mystery behind the Hololive Server. Then we'll get you Hololivers home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +432,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好啦好啦，大家都别板着脸了，首战告捷，全员团聚，应该好好庆贺一番才是！",
+			say = "But that's for tomorrow! Right now, we need to all get some sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "到底是东煌用来从正面撕碎大风暴、并压制了塞壬IV型量产型舰队的武器。",
+			say = "Through teamwork and the Dongyus' rocket barrages, we managed to endure Tester's assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在不计成本的饱和式打击下，测试者的量产机逐次被消灭，战局很快就进入了收尾阶段。",
+			say = "Her vessels went down one after the next. Our victory is all but certain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,8 +100,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "……你们不知道突破风暴后，迎接你们的将是什么。",
+			actorName = "Tester",
+			say = "You broke through the Storm, clueless as to what lies beyond it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,8 +113,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "……风暴不光是桎梏，也是——保护。",
+			actorName = "Tester",
+			say = "Hell, you don't even know we're trying to protect you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "过度保护，如同桎梏。",
+			say = "Even if we assume you're telling the truth, your \"protection\" is no better than a cage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "突破风暴后，东煌迎来的事物清晰且鲜明。",
+			say = "Besides, we can clearly see what lies beyond the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "自由，以及——未来。",
+			say = "It is freedom. Freedom and the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,8 +168,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "……我不会让你们得逞的。",
+			actorName = "Tester",
+			say = "I will not let you go there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "哼，我们已经“得逞”了。",
+			say = "Too late. We're already going there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "而且，我们还要更进一步。",
+			say = "Destroying your Storm was only the first step! We're gonna choose our own path!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "如果你和你的爪牙想要继续阻挠我们，那就麻溜过来吧。",
+			say = "If you think you can stop us then quit yapping and try it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "你的舰队、你的量产机、还有你的主机塔，到时候一个都别想跑！",
+			say = "We'll crush your fleet, your vessels, AND your mainframe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "终于，战场上的最后一台测试者量产机也在炮火中粉碎了。",
+			say = "After much fierce fighting, all of Tester's vessels have been destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "报告指挥官，东海风暴解析舰队已经顺利消灭敌阻击舰队。",
+			say = "Commander, this is the East Storm Analysis Fleet. All Sirens have been eliminated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前舰队已经彻底穿越大风暴影响区，正在沿着预定航线向目标海域移动。",
+			say = "We've broken through the storm area and are currently en route to the destination!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "报告指挥官，北海风暴解析舰队已顺利消灭阻击之敌。",
+			say = "So am I. Heading to the objective now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "报告指挥官，南海风暴解析舰队成功完成任务，测试者量产型已被全数消灭。",
+			say = "We're on the way, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "三路舰队，全线开花。",
+			say = "Reports are coming in from all directions that Tester's vessels have been taken care of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "至此，东煌终于彻底突破了大风暴的桎梏，舰队驶入深海，亦驶向了未来——",
+			say = "At long last, the Dragon Empery has broken through the Storm and set forth toward their own future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

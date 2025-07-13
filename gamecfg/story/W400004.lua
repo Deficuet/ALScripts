@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后将无法再次返回该处海域，是否确认离开？",
+			say = "Seems like there’s nothing else to be done here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "确认",
+					content = "Leave the zone.",
 					autochoice = 1
 				},
 				{
-					content = "取消",
+					content = "Stay a bit longer.",
 					flag = 2
 				}
 			}

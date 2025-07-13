@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "行程会消耗心情值，点击查看不同心情对收益造成的影响 ",
+				text = "Proceeding with this activity will lower TB's Mood. Tap the Mood button to view the effects.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "当心情值降低至一定程度后，<color=#39bfff>状态便会受到影响</color>，此时便需要外出来恢复心情值。",
+				text = "When TB's Mood falls below a certain value, <color=#39bfff>her growth will be impacted</color>. Arrange outside activities to help her recover her Mood.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击确定关闭弹窗",
+				text = "Tap your screen to return.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -59,7 +59,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在每个周的周日点击<color=#39bfff>出行</color>，可以前往大地图。",
+				text = "The option to go outside becomes available every Sunday.",
 				mode = 2,
 				posY = -206.2,
 				char = 1,
@@ -78,7 +78,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "随着时间的推移，今后还会解锁更多可以前往的地点。",
+				text = "You will unlock new locations to visit as time passes.",
 				mode = 2,
 				posY = -290.3,
 				char = 1,
@@ -89,7 +89,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "现在，就先前往<color=#39bfff>游乐场</color>进行心情的回复吧。",
+				text = "This time, take TB to the amusement park to restore her Mood.",
 				mode = 2,
 				posY = -300.18,
 				char = 1,
@@ -108,7 +108,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在大地图上行动会消耗<color=#39bfff>行动力</color>，出行时还请注意，其它内容就请在今后自行探索啦。",
+				text = "Engaging in activities consumes action points. Certain activities also grant special bonuses.",
 				mode = 2,
 				posY = -314.1,
 				char = 1,

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_6",
 			bgm = "hunhe-battle",
-			say = "巴拿马要塞西侧？东侧？·迷雾中",
+			say = "Canal Stronghold? - Out at sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
-			say = "联合舰队依然在迷雾中战斗着。",
+			say = "As the mist began to recede, Intrepid could be seen fiercely fighting back wave after wave of Siren forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
-			say = "已经持续了多久了呢…迷雾中的敌人仿佛无穷无尽一般，前赴后继的涌来。",
+			say = "Although the enemies had increased their firepower, the carriers which had been suppressed by the heavy mist once again took control of the skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,27 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邦克山",
-			bgName = "bg_banama_6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "真是夸张的数量，塞壬已经看穿我们的企图了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Bunker Hill",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很有可能…从空中海面水下发动的全方位立体式攻击，再加上这些碍事迷雾的掩护…",
+			say = "What an absurd number of enemies. Have the Sirens already seen through our plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根本寻找不到塞壬的主攻方向…！",
+			say = "It's possible. A full-scale assault launched from three dimensions, using a thick mist for cover...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +83,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "无畏",
+			actorName = "Essex",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果继续这样下去的话，大家就都危险了！都怪我的作战计划太鲁莽了…",
+			say = "It's all to conceal the position of their flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,11 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Intrepid",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你在说什么呢，无畏。塞壬能投入这种程度的部队拼命抵抗，恰好说明你判断的方向是正确的。",
+			say = "Our advantages will only shrink at this rate... What should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +115,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开战的时候你不是还想劝我要自信点么，现在先对自己失去信心了？",
+			say = "There's nothing else to do. It's do or die at this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "无畏",
+			actorName = "Essex",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你发现了么……",
+			say = "Come on, chin up. Intrepid means \"without fear,\" right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +147,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Intrepid",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然~拿出自信来，企业前辈现在不在，只能依靠我们自己了。",
+			say = "You're right...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +163,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邦克山",
+			actorName = "Essex",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在如同黎明之前的最后一刻黑夜，只要突破困境，胜利的曙光就在眼前。",
+			say = "Now that Enterprise isn't here, we have to do our best in her stead... No, we'll have to go above and beyond and take on her part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,11 +179,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邦克山",
+			actorName = "Bunker Hill",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无畏，这是你的作战计划，决定我们接下来的方向吧。",
+			say = "Not just for her sake, but also for Baltimore's, and for everyone counting on us in the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +195,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "无畏",
+			actorName = "Bunker Hill",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也知道我的运气…现在情况危急，要是在这时候选错方向……",
+			say = "I'm glad you care about everyone, but this is your opportunity to break free from your past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,11 +211,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "邦克山",
+			actorName = "Intrepid",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨。选错了方向，我们再杀几个来回就是了。",
+			say = "Essex... Bunker Hill...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,11 +227,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "无畏",
+			actorName = "Bunker Hill",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊……有时候我真的觉得，我这么倒霉是不是因为我在作为埃塞克斯级诞生的时候就用光了全部的运气！",
+			say = "Ah, but don't go charging forward blindly. Enterprise would never rush in first before assessing the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,11 +243,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "无畏",
+			actorName = "Intrepid",
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道了！让我想一想………………",
+			say = "As if I'd do something like that!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Intrepid",
+			bgName = "bg_banama_6",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(Though I said all that, what should I do next...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "唔…你们发现了么，从刚才开始，雾气有点点变淡了。",
+			say = "Oh, in case anyone hasn't noticed, the mist has gradually been thinning out.",
 			bgm = "hunhe-eagle",
 			flashout = {
 				black = true,
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。拜此所赐舰载机的战斗效率也提升了。",
+			say = "Of course. That's the only reason we've been able to get our planes off the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "邦克山，你能用舰载机侦查一下周围雾气的密度变化么？不需要特别精确，只要有变化趋势就可以！",
+			say = "Bunker Hill, were you able to get a good look at the mist density from the air? Pretty good view up there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，不过你打算做什么…？",
+			say = "...I did, but why are you talking about that now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "如果海雾是从同一处地方产生的话，消散的时候浓度的变化也不会是均匀的！",
+			say = "If the mist was generated from a single point, the density should not change significantly even if the mist is thinning out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "没错，可以通过这一特性定位到真正的发生源！",
+			say = "That's right! Basically, this will let us know where to search!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太棒了！只要等待侦查结果回来，进攻方向就决定了呢~",
+			say = "Good going, Intrepid! Finally, we have a lead on where to head towards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "接下来就是决定进攻战术…",
+			say = "All right. Next up is figuring out how to approach the enemy flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "邦克山&埃塞克斯",
-			say = "没时间迂回了，从正面突破吧！\n从正面强攻！",
+			actorName = "Bunker Hill&Essex",
+			say = "We don't have time to worry about that, so let's get going!",
 			subActors = {
 				{
 					actor = 107090,
@@ -451,7 +451,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗…大家都说没有两艘完全一样的埃塞克斯级。",
+			say = "Ehhhhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "不过在面对的敌人时候，我们的选择完全一致呢！",
+			say = "...Haha, good grief, I guess that's just part of what makes us the Essex class.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都做好挂更多彩的准备~机会难得，就用这些新型塞壬展示一下埃塞克斯级编队的力量吧！",
+			say = "All right, my recon planes! Take us to the enemy core flagship!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在这个时候送上新年祝福，你会觉得奇怪吗……///",
+			say = "Would it be weird to wish someone a happy New Year at this moment...?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone7",
 			typewriter = {
 				speed = 0.05,

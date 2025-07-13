@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "终于，在压制性力量的围攻下，狂躁的战场重新归于沉寂，战斗结束了。",
+			say = "With their overpowering advantage, they encircled and annihilated the enemy. Silence returned to the chaotic sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 205160,
-			say = "呼……真是一场令人心潮澎湃的伟大胜利。",
+			say = "Well, that was a gripping and grand victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "star_level_bg_538",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这位美丽的女士，想必你就是呼唤我们前来之人了？",
+			say = "You, the beautiful lady – it was you who called for help, was it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "基于辉翼太阳船上搭载的某个设备，此时此刻的狮以巨大化投影的方式矗立在半空中，如同一位威风凛凛的金色巨人。",
+			say = "Using the Mesektet's equipment, Lion projected a hologram of herself into the air. She stood tall like a divine, golden giant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "而不远处，带领量产型舰队的贵族少女优雅地行了个礼。",
+			say = "Seeing this, the girl leading a fleet of mass-produced ships responded with a gracious bow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "皇家所属，日不落帝国本土舰队旗舰，光荣，欢迎诸位盟友的到来。",
+			say = "I am Glorious, the flagship of the Realm of the Neversetting Sun. I welcome you, our allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "相信诸位一路之上一定波折重重，也有许多问题亟待解答。",
+			say = "I have no doubt that, after coming from such distant worlds, you must have many questions for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过这里实在不是接待客人的好地方。",
+			say = "However, I think you'll agree that this place is not suited for a reception.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "不如先跟我返回安全的地方，然后我们再详谈吧？",
+			say = "Let us first move to a safe location, and then we may speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "狮和伊丽莎白分别表示了认可。而后，一辆列车与一艘飞空战舰，在日不落帝国海军舰载机群的引导下，向着LD港方向驶去了。",
+			say = "Lion and Elizabeth acknowledged. They took their airship and flying train and followed the lead of the aircraft to the port of LD.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

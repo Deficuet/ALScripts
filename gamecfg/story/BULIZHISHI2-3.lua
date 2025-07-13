@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-1",
-			say = "两只布里渐渐同净化者打成了一个三角形，但还是没有分出胜负————",
+			say = "Together, the two Bulins were able to rival Purifier's might. However, it would still take more than that to turn the tides of battle in their favor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位妹妹别慌，我来啦purin！",
+			say = "Have no fear, for I'm here, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼！！哪怕你们三只一起上，也不是我的对手！",
+			say = "Hah! Go ahead, gang up on me – it won't make a difference!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "三只布里把净化者围在了中间，如同一个走马灯一样转着圈与净化者交战起来。",
+			say = "The three Bulins formed a circle around Purifier in the blink of an eye and commenced a battle of attrition against her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>四　令世人向皇家瞩目</size>",
+					"Where All Roads Lead\n\n<size=45>4 The Royal Exhibition</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "皇家·帝国博物馆",
+			say = "Royal Islands - Queen's Museum",
 			side = 2,
 			bgName = "star_level_bg_116",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，您已经挑了两个小时了，要不要休息一下？",
+			say = "Your Majesty, shouldn't you take a break? It's been two hours already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茶点已经准备完毕，要用茶么，陛下？",
+			say = "I've gone ahead and prepared tea and snacks. Please feel free to ask me should you have any requests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别急，再等等……",
+			say = "Give me a minute. Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本王现在没心思用下午茶——厌战，帮我把这幅画搬下来。",
+			say = "Now isn't the time for tea... Warspite, help me move this portrait outside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔——这也，太——重——了——",
+			say = "Urgh... Why is this... so... heavy?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是帝国博物馆压箱底的宝贝，搬运的时候小心哦！",
+			say = "I'll have you know, that's one of the Queen's Museum's treasures! It's very important!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有这边这个——英勇，你去搬！",
+			say = "This one over here too – Valiant, come help me out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……赫敏来帮我~",
+			say = "H-huuuh? Why are you making ME do manual labor?! Hermione, heeeelp!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，我来帮您一起搬~",
+			say = "Y-yes ma'am! Right away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，真的要送这些珍宝去撒丁帝国参展么？要是在海外出了点意外的话……",
+			say = "*pant*... *pant*... Your Majesty, are you sure you want to take so many of our treasures to the World Expo? What if something happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本次我们虽然不是主办方，但是要拿出主办方的气势来！",
+			say = "The fact that we're not hosting the World Expo means that it's even more important for us to demonstrate our greatness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人气是自由的！只要用合法的手段将人气源源不断吸引到我们的场馆，就算撒丁帝国也无话可说！",
+			say = "Make no mistake - the World Expo is also a battlefield! We will attract more guests to the Royal Navy's pavilion and defeat this so-called \"Sardegnian splendor!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自然要挑选一些上好的东西过去！",
+			say = "For that purpose, I shall utilize everything in my museum!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过当然，我怎么真的舍得让这些珍贵的文物出海巡展呢。",
+			say = "...But, you do have a point, Warspite. Taking all these treasures over to Sardegna is a rather risky affair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我会找皇家最好的工匠制作以假乱真的仿制品。长途奔波海外展览这种事就让仿品去做吧~",
+			say = "Which is why what you see before you are elaborate replicas, completely indistinguishable from the real articles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此！这样的话确实就不用担心文物的安全了！",
+			say = "How astute, Your Majesty! That solves the problem of security!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……再加上这件好了。豪，你接一下。",
+			say = "Indeed! I thought of that idea right away! ...Howe, I need your help too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，陛下……",
+			say = "Y-yes, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了，就先这些。贝法，清单写好了么？",
+			say = "And, that should settle things nicely. Bel, have you compiled a list of our exhibits?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经写完了，请过目。",
+			say = "Yes, it's all. Please take a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……文物的数量好像有点太多了。",
+			say = "Mm... Hmm... Don't you think this is too many antiques?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只带这些去参展的话，说不定会被撒丁的那些家伙认为我们只有这些古董能拿得出手……",
+			say = "With this lineup, Sardegna might think we're there to pawn off our old wares...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来有必要给我们的展品增添一些科技气息……",
+			say = "Maybe we should go with something more modern? Let me think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝法，你再给我拟一份清单吧！",
+			say = "Bel, help me collect some more modern stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把那种不是非常重要，但是又能彰显皇家科技水准的东西列出来让我挑！",
+			say = "Find stuff that isn't very important but still showcases the Royal Navy's technological prowess!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，我一会就去办。",
+			say = "As you wish, Your Majesty. I'll look for things that fit that description.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是陛下，这样一来我们的展品数量就大大超过预期了啊……",
+			say = "Y-your Majesty, if we keep adding more things to the exhibition, we won't even have room in the pavilion for our guests!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就把我们的水晶宫再修大一点！",
+			say = "Just make it bigger then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，不止是修大一点，还要比我们以前修过的都要华丽！",
+			say = "That's right, our Crystal Palace has to be larger and more luxurious than whatever Sardegna can throw together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区区撒丁帝国根本不足为虑，我要让所有人都拜倒在皇家富丽堂皇的宫殿之下！",
+			say = "Hmph! I'll show them that their talk of glory and splendor is just that. Only the Royal Navy understands what Glory truly is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "具体会场的负责工作就让陆间海那边的光辉去弄好了。",
+			say = "Illustrious will be in charge of the pavilion and its security. As for transporting the items...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于展品运输舰队……就交给谢菲带队吧。",
+			say = "I'll have the Royal Maids handle that. Go call Sheffield for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，我还是认为由我来带队会更好。",
+			say = "Your Majesty, is there nothing for me to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别担心，会场那边的事光辉和谢菲足够应付了。",
+			say = "Hmm? Are you dissatisfied, Warspite? I think the two of them are more than sufficient to carry out those duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我更在意的是，赤色中轴会不会借助这次展会明修栈道暗度陈仓做些小动作。",
+			say = "What I'm more concerned about are the Sirens. Ever since the Iron Blood made their move, the Sirens have been suspiciously quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在整个博览会期间，我需要直布罗陀、北海、多佛尔海峡三处时刻有舰队警戒待命，以备不时之需。",
+			say = "Then, there's the wildcard of that Richard Bon Homme girl we encountered in Camelot. In other words, our very own waters may well become a flashpoint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事就分别交给你们三人带队负责了——厌战、英勇、豪。",
+			say = "Warspite, Valiant, and Howe – the three of you are tasked with defending our homeland, and our important waters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,13 +710,13 @@ return {
 		},
 		{
 			actor = 205020,
-			actorName = "厌战&英勇&豪",
+			actorName = "Warspite & Valiant & Howe",
 			bgName = "star_level_bg_116",
 			side = 0,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "遵命！",
+			say = "Understood!",
 			effects = {
 				{
 					active = true,
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好。那展品就选到这里，我们去享用下午茶吧~",
+			say = "Phew... I'll let Bel handle the exhibition then... Time to sit back and enjoy a nice cup of tea~♪",
 			effects = {
 				{
 					active = false,

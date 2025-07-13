@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在湍急的洋流中无法继续移动，舰队将返回实验场的起始点。",
+			say = "The abnormal ocean currents are stopping us from moving forward. Let’s come back later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

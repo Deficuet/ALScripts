@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgmDelay = 1,
-			say = "白鹰近海 安全海域 Risk 0",
+			say = "Have a safe trip home, everyone~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬威胁等级（Risk）为0么？嗯，确实是片平静的海域。",
+			say = "So, the STAR assessment is zero? Pleasantly calm, for a change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在白鹰本土近海举行演习，确实会带来诸多不便...本次白鹰能同意安排这场临行前的演习，真是万分感谢。",
+			say = "I must express my gratitude to you for setting up this joint exercise area for us. The girls all wanted a little practice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我在皇家作战时就一直听到企业小姐的事迹，借此机会，无论如何都想与你较量一番！",
+			say = "Of course, that includes me as well. I have heard many a tale about your heroic deeds, Enterprise, and I was hoping to test your skill for myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "无需拘礼，威尔士小姐。白鹰和皇家是并肩战斗的盟友，这点要求自然完全没有问题",
+			say = "You don't need to be so flattering, Wales. The Eagle Union stands with its allies, and we're happy to have the opportunity to practice with you.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "况且我个人也十分期待与皇家的各位一较高下",
+			say = "To tell the truth, I've been waiting for a chance to polish up my skills, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么就让我们在此约定：本次演习，双方皆需全力以赴，绝不可做出放水之事",
+			say = "Very well, then let's tone down the formalities from here on. The Royal Navy will fight with all it's got, and we hope you will, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哼哼哼，就让本人领教一下白鹰舰队的实力吧！",
+			say = "Let's find out if the Eagle Union's carrier fleet is as amazing as they say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我明白了。白鹰诸位，勇往直前！",
+			say = "That's more like it. Eagle Union fleet, let's get ready! Hooyah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

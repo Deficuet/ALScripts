@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>三 开春的巨响</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 3 - An Explosive New Year!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌宿舍庭院",
+			say = "Port - Dragon Empery Garden",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……如此如此，这般这般……",
+			say = "...This thing... then put this here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了！这样爆竹就做好了！果然我是一个手工天才呢，嘿嘿~",
+			say = "Alright, the firecracker is finished! I'm so good at crafting stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚、抚顺姐，这个爆竹是不是太大了一些——",
+			say = "F-Fu Shun, isn't that firecracker a little too big...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事～够分量才有趣不是嘛！好了，太原你们都往后退一点，我要点火了哦！",
+			say = "That's no problem! The larger they are, the more fun they are! Okay, guys, step back a bit, I'll light the fuse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "点着了！快跑快跑~那么就看看这个抚顺特制新年超大爆竹的威力吧！",
+			say = "Woohoo! Now witness the might of my specially made, extra large New Year's firecracker!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			say = "（轰）",
+			say = "BOOOM!",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚…刚才那是什么声音？！抚顺，你又闯什么祸了！那么大的声音，耳朵都嗡嗡响了！",
+			say = "W-what was that noise?! Was it you, Fu Shun?! I know you're up to something again!",
 			flashout = {
 				black = true,
 				dur = 0.2,
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇……是鞍山姐，这下惨了…啊哈哈…果然用一整桶火药还是太多了一点吗…",
+			say = "Oh, crap, An Shan's here... Yikes, guys! I guess we shouldn't have used a whole barrel of gunpowder, ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜呜呜，抚顺姐的大号爆竹太可怕了……鞍山姐，对不起，没能拦住她……",
+			say = "Owww... Your firecrackers are scary, Fu Shun! ...I'm sorry, An Shan, I just couldn't stop her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…抚！顺！！你过来！",
+			say = "...Fu Shun! Get over here right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "唔…被震得头都有点晕了…地说",
+			say = "Owch... My head is spinning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噼里啪啦砰…厉害…",
+			say = "\"Bang bang\"... That sounded more like a bomb...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出什么事情了？！难道是敌袭吗？",
+			say = "What's going on? Are we under attack?!",
 			actorPosition = {
 				x = 1500,
 				y = 0
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们听到巨响，就赶快过来查看了，东煌的各位…没事吧？",
+			say = "I heard a really loud bang so I came running here... Is everyone okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？拉菲？你怎么在这里？刚刚到底发生了什么事？",
+			say = "Huh? Laffey, what are you doing here? And what the hell was that noise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺制作的大号噼里啪啦砰，威力比预想的还要大一些…",
+			say = "The bang-bang firecracker Fu Shun made turned out to be a lot more powerful than we thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的二位，非常抱歉，我家妹妹让大家虚惊一场了。抚顺，快过来来一起道歉！",
+			say = "I'm so sorry, Enterprise and Lexington. My little sister must've alarmed you terribly... Fu Shun! Apologize with me, right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…对不起…",
+			say = "Sob... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家没事就好…不过，爆竹吗…呵呵，东方的国度总是有些奇特的习俗呢",
+			say = "I'm just glad you weren't hurt... But still, a firecracker, huh... Usually, we only light those in celebration of a holiday...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是的。爆竹确实是东煌春节的习俗之一…传说中是为了驱赶一种叫做“年”的怪兽呢，不过抚顺也做的太过火了……",
+			say = "Indeed, firecrackers are quite common during Lunar New Year... We have a legend about a monster named Nian Shou that's driven away by the sound of firecrackers. Although anyone could agree Fu Shun tried too hard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，驱逐“年”兽吗，东煌的文化还真是有趣啊",
+			say = "I see, it's to drive away a monster, huh. Dragon Empery culture sounds pretty interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，如果二位不嫌弃的话，不妨留下来吃一顿春节的年夜饭吧？正好来帮忙兼学习料理的金伯利小姐和马拉尼小姐也在，也当作…是一点赔礼吧",
+			say = "Since Kimberly and Mullany just came here to learn how to cook, and you're here now too... why don't you stay and enjoy some of the food we made, as an apology of sorts...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "晚点指挥官和其他一些港区的小伙伴也会来哦～",
+			say = "Oh, and if you'll wait a little, the commander and some others are gonna come too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样么…倒没有需要赔礼那么严重…不过，东煌的料理啊…那我们就恭敬不如从命了，列克星敦？",
+			say = "Uh, I don't think it warrants an apology. But... I'm curious what your cuisine is like, and it would be rude to refuse. What about you, Lexington?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呵呵～这还是头一次这样参与东煌的节日呢，那就打扰咯～",
+			say = "I wouldn't mind either. We've never tried your cuisine before, so if anything you'll have to pardon us if we unknowingly do anything impolite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

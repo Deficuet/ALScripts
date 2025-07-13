@@ -12,7 +12,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "这是…航空母舰的舰载机吗",
+			say = "Are these... aircraft?",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "真可惜…如果{namecode:437}能够完成下水的话，战局就不会如此被动了…",
+			say = "If only Graf Zeppelin were here to... No, this is no time to grumble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "不过，以为这种老式的双翼机就能击沉铁血的战舰的话也未免太小看人了！",
+			say = "Such a puny airstrike could never sink an Iron Blood battleship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "防空火力展开，击落它们！",
+			say = "Anti-air guns, focus fire on the enemy aircraft squadrons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 405010,
 			side = 0,
 			nameColor = "#ffde38",
-			say = "Feuer！",
+			say = "FEUER!",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {

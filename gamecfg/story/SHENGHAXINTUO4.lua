@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"消除疲劳的秘诀是？\n\n<size=45>四　唤醒睡美人的方式</size>",
+					"The Secret to Curing Exhaustion?!\n\n<size=45>4 How to Wake a Sleeping Beauty</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "送走了迷茫的独立后，圣哈辛托便去参加联合演习了，而我自己则再度投入了工作。",
+			say = "After getting one very confused Independence to leave, San Jacinto left for her joint exercise, and I immersed myself in work again.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "时间从正午来到下午，办公桌上的文件肉眼可见的减少了许多。",
+			say = "By afternoon, the pile of documents on my desk has shrunk considerably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不知不觉居然都到了这个时候了，联合演习应该已经结束了吧。",
+			say = "Already that time, huh? It's about time for the joint exercise to end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "又是工作，又是演习，圣哈辛托一定也很累了。",
+			say = "Helping me work, participating in joint exercises... San Jacinto must be exhausted, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "去接她回来吧。",
+			say = "I'll go out to the port to meet her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "然而在演习所在的港口找了许久，也没有发现圣哈辛托的身影。",
+			say = "When I search the wharf where the exercise was held, though, I find no sign of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是来得太晚了么……",
+			say = "Am I too late?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "就在寻找圣哈辛托的途中，突然看到了一个熟悉的身影。",
+			say = "While I search, I run into someone I saw very recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官？你怎么会来这边？你不是……",
+			say = "Commander? Why are you here? Shouldn't you and San Jacinto be... Ahem!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不知为何，总感觉独立的眼神有些奇怪……算了，肯定是工作太久产生了错觉。）",
+			say = "(Is it just me, or is she looking at me weird...? No, I'm probably imagining it. I've just been working too much.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我正在找圣哈辛托，你有看到她么？",
+			say = "I'm looking for her right now. Do you know where she is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107220,
-			say = "咦？你们居然没有碰上么？",
+			say = "Huh? You didn't bump into her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107220,
-			say = "刚才演习一结束，她就火急火燎地赶回指挥室了。",
+			say = "After the exercise, she was in such a hurry to get back to your office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我还从来没见过她那么着急的样子。",
+			say = "I don't think I've ever seen her in such a hurry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "应该是急着回去通宵大战吧……",
+			say = "Is she getting ready for our all-nighter...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107220,
-			say = "……",
+			say = "M-maybe... *blush*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，总之谢谢独立你告诉我这些。",
+			say = "Thanks for letting me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "在得知圣哈辛托已经返回指挥室后，急忙踏上归途。",
+			say = "Now that I know San Jacinto and I missed each other, I rush back to my office again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "回到指挥室后发现原本堆积的文件似乎又减少了一些。",
+			say = "When I get back, I see that the pile left on my desk is just a little smaller.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而圣哈辛托正趴在桌子上睡觉，少女的嘴角噙着一抹笑意，姣好的面容宛如一幅画卷。",
+			say = "San Jacinto is asleep, face-down on my desk. The gentle smile on her face is almost picturesque.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还提醒我不要用这种姿势睡呢……不过估计也是因为她太累了吧。）",
+			say = "(Didn't she say sleeping like that is bad for your spine? She must be more tired than I thought.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样睡醒了肯定会难受，得想个办法……）",
+			say = "(If I leave her like that, she'll have some bad aches when she wakes up. I'd better help her out.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "如果只是把少女搬到沙发上的话，不是难事。",
+			say = "Carrying her over to the couch and laying her down there wouldn't be too difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但是想同时不把她惊醒，难度却是几何倍数的上升。",
+			say = "Doing that without waking her, though, seems nigh impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "思考了半天，似乎也只有公主抱这么一个选择。",
+			say = "I think about it for a while and decide to carry her princess style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "小心翼翼将圣哈辛托从椅子上抱起，放在了沙发上。",
+			say = "Gently, I lift her from the chair and lower her onto the couch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（接下来继续工作吧，还有很多文件等着处理呢。）",
+			say = "(Let's get back to work. There's still plenty of paperwork left to go around...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "正打算起身离开之际，衣袖却被本应睡着的少女伸手拽住了。",
+			say = "When I try to leave her there, though, the girl I'd thought was asleep reaches out and grabs my shirt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "指挥官，耍赖可是不好的行为哦~",
+			say = "No fair, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉……本来不想打扰你休息的，没想到还是把你惊醒了。",
+			say = "Sorry. I tried not to wake you up, but I guess that didn't work out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，你刚刚说的耍赖是指什么……？",
+			say = "What's not fair, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "当然是指演习结束之后的通宵大战呀~指挥官难道忘了嘛？",
+			say = "You promised we'd stay up late together, didn't you? Did you already forget?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看你太累了，所以没忍心叫醒你。",
+			say = "I can't possibly make you stay up with me after seeing you fall asleep in the middle of work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小憩一会固然对消除疲劳很有帮助……",
+			say = "Naps ARE good at helping you recover from exhaustion, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "但是指挥官未免也太不解风情了呢~",
+			say = "Commander, are you sure that was enough?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "看见沉睡的少女，第一反应不应该是用吻来施予真爱的魔法么？",
+			say = "When you're waking a sleeping beauty, don't you need the magic of love? True love's kiss, was it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "童话故事里可都是这样的浪漫展开哦~",
+			say = "That's how it works in the fairy tales...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "怎么可以把她抱到别的地方睡觉，自己去工作呢？",
+			say = "You went through the trouble to princess carry me. And then you go back to work like nothing happened? That's just mean~",
 			painting = {
 				alpha = 0.3,
 				time = 1

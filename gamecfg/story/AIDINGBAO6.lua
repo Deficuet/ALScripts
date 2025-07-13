@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“我”独一无二的价值\n\n<size=45>六　同甘共苦的二人</size>",
+					"Uniquely \"Me\"\n\n<size=45>6 Partners Through Thick and Thin</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "皇家和鸢尾交流会当天——",
+			say = "At the social party between the Royal Navy and Iris Libre...",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指，指挥官，真的没，没问题吗……？",
+			say = "C-C-Commander, are you a-a-alright...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,23 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "看起来有问题的应该是爱丁堡那边……她此时紧张得像是回到了刚担任秘书舰的那一天。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202110,
-			side = 2,
-			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呜呜，明明练习的时候都挺顺利的……一到正式表演就紧张起来了……",
+			say = "I am perfectly fine, but Edinburgh... seems to be as nervous as the day she first started her duties as the secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +85,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我真是不行呢……啊，啊哈哈……",
+			say = "Umm, the rehearsals have been going well, but I get so nervous when I'm in front of an actual crowd...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,35 +101,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对啊……我这么不行，指挥官却还是——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_107",
-			say = "爱丁堡，如果有什么想说的话，不用客气都说出来吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_107",
-			say = "把积攒的情绪都发泄出来，紧张一定也会有所缓解的。",
+			say = "I d-d-don't think someone like me can do this... Aha... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +117,35 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，就是……那个………",
+			say = "But... Even though I'm like this, the Commander still––",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_107",
+			say = "Edinburgh seems to have been bottling something inside...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_107",
+			say = "I urge her to speak her mind, trying to convince her by saying that she'll feel better afterwards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……不是选了那家伙，而是选了我当秘书舰对吧？我不是用来暖场的对吧！",
+			say = "Ah, um... Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,21 +177,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……看出了我的价值对吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_107",
-			say = "毫不犹豫地点了点头。",
+			say = "Commander... you chose me to be the secretary instead of her, right? I'm not just her benchwarmer, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +193,21 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊……虽然我冒冒失失事也做不好，却还是选了我……",
+			say = "Commander... you found something about me that's valuable to you, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_107",
+			say = "I nod without hesitation in response to each of her questions with a dead-serious expression on my face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +223,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说……非我不可对吧！",
+			say = "I see... Even though I'm a total klutz, you still chose someone like me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,21 +239,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢，谢谢指挥官！我也不能再这么焦虑下去了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_107",
-			say = "爱丁堡看起来还是有些紧张……不过这个样子，上场应该没问题了。",
+			say = "In other words... There's something that nobody else can do but me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +255,21 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而，而且要是失败的话，指挥官也会跟我同甘共苦的！",
+			say = "Th-thank you so much, C-Commander! I d-don't have to be fixated on this single thing anymore!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_107",
+			say = "Edinburgh still seems ridiculously nervous... but at least I see some hope of breaking through to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +285,23 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为指挥官选了我！",
+			say = "A-and, even if I end up failing, we'll at least be partners through thick and thin!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202110,
+			side = 2,
+			bgName = "star_level_bg_107",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Because, you chose me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "音乐响起，与此同时二人迈开了舞步——",
+			say = "As the music begins to flow, the two of us take our first steps together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "舞毕，掌声响彻会场。",
+			say = "The dance ends, and applause bursts from all over the venue.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱丁堡果然很厉害！和指挥官一起在闪闪发光呢！",
+			say = "I knew it! That was so amazing! The two of you were shining so brightly together on that stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常棒的风景呢~不愧是指挥官和秘书舰的组合~",
+			say = "Yes, that was quite a breathtaking performance~ As expected, the Commander and the secretary ship make a wonderful pair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了……顺利跳完了……",
+			say = "Thank goodness... I didn't make any wrong moves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我不会再特意问你为什么选我了。",
+			say = "Commander, I won't keep asking about why you chose me anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你从众多同伴里找到了我，我就要回应你的这份期待呢。诶嘿嘿~",
+			say = "Since you chose me from among so many other worthy colleagues, all that means is that I have to live up to your expectations. Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "在经久不息的掌声中，爱丁堡略显害羞地这般说道。",
+			say = "During the prolonged applause, Edinburgh says these words to me shyly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

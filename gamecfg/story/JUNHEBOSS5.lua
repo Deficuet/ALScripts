@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>五　{namecode:175}SIDE</size>",
+					"Crosswave\n\n<size=45>Suruga's Saga</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "演习辛苦了，{namecode:22}、{namecode:97}、还有{namecode:175}。指挥官也赞扬了这次的联合演习哦。",
+			say = "Yukikaze, Taihou, and of course, Suruga, you've all done me proud. Even the Commander has praised your outstanding performance during this exercise.",
 			bgm = "cw-level",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			say = "You had me worried at the end there! Thank goodness we only use blanks for exercises!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			say = "And you got within such close range of my Commander... I demand you give me that privilege the next time, Suruga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，演习刚刚结束却还这么精神，可真是再好不过了！我看，不如让{namecode:55}将诸位的活跃大书特书一笔吧？",
+			say = "Ahahahah! It's fantastic to see you in such high spirits immediately after an exercise! I say we have Aoba write a special news report on your exploits today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………！？！？",
+			say = "A... a whole report?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请容我坚——————————————决拒绝！！",
+			say = "Sorry, but I would MUCH prefer not to!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（回想起来，真是没想到会变成这样呢……）",
+			say = "(Looking back, I really wasn't expecting all this to happen...)",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。",
+			say = "And so, as per Mikasa's advice, I shall serve as the commander of the Sakura Fleet since I have not become a full-fledged member of this naval base yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（明明以为只是个门面职位，才随便答允下来的——！）",
+			say = "(I only agreed to it because I was expecting that position to be purely honorary and not require me to make any decisions!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼！不需要使什么小手段！只要还有{namecode:22}大人的幸运加持，这点小事不成问题哒！",
+			say = "Heheh! We don't need any cheap tricks for that! This is nothing that cannot be solved with Yukikaze the Great's extraordinary luck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（真是够了，我最不擅长应对这种脑子空空行事随便的家伙了！）",
+			say = "(Ugh... I really can't deal with these empty-headed optimists who can't seem to take anything seriously...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（但不管怎么说都是同伴啊？又不能放着不管对吧？结果还是只能靠这边努力想办法了不是嘛！）",
+			say = "(But, you know, we're still in this together, which means I can't just throw her under the bus! And that in turn means I have to work even harder!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我个人是不介意被指挥官大人打得落花流水，不过确实也关系到重樱这边的面子呢……",
+			say = "And, while I wouldn't mind suffering a crushing defeat at my Commander's hands, that would reflect poorly on the Sakura Empire's reputation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（那还用说吗！谁想到指挥官的舰队竟然强得那么离谱啊！）",
+			say = "(You don't say! And how in the world could I have known the Commander's fleet would be so powerful?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（不出奇招的话，绝对会被秒杀的吧！？这不是没办法嘛！明明没打算引人注目的！）",
+			say = "(Of course they'd mop the floor with us if I didn't pull out some clever trick! I had no choice, you know? Do you really think I like standing out like this?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（而且如果是其他人来想的话，绝对一下就被指挥官看穿了吧？所以还是得由我这个外人来不是嘛！）",
+			say = "(Oh, and the Commander knows all of you well enough to see right through your plans, right? But as an outsider, things were different for me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			say = "You had me worried at the end there! Thank goodness we only use blanks for exercises!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			say = "And you got within such close range of my Commander... I demand you give me that privilege the next time, Suruga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（外人……吗……回想起来，这里的各位似乎没把我当作外人……）",
+			say = "(An outsider... That's what I am... But nobody here treated me like one...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>如果在这里的话，说不定我也——</size>",
+					"<size=51>What if... this is where I belong...?</size>",
 					1
 				}
 			}
@@ -408,7 +408,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "没错，就算是没有舰历的舰船，跟港区的大家也不会有隔阂的",
+			say = "Correct. There is no gap between ships that have a service history and those that lack it.",
 			bgm = "cw-story",
 			flashout = {
 				black = true,
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是。",
+			say = "...... Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来有什么打算吗？要不，干脆就留在这个港区如何？",
+			say = "So what do you say, Suruga? Won't you become an official member of our fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我……",
+			say = "I'm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从这回的演习来看的话，你也许会比其他特别计划舰更快地融入这里呢，哈哈哈",
+			say = "Considering your exercise performance, you might get accustomed to life here even quicker than those girls from the development dock. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，时间有的是。好好思考吧，从心底得出答案后，再做决定也不迟。",
+			say = "You have plenty of time. Ponder it for a while and do what your heart says is right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（是啊。如果是这里的话，我，还有“她”也说不定……）",
+			say = "(She's right. This might be where I, and that speedy, annoying little destroyer belong...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "有缘再相见吧——",
+			say = "Let us meet again soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>七 嬉戏闹腾的新年</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 7 - A Lively, Happy New Year</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯……电灯的开关都没用，好像是……电闸被拉掉了。",
+			say = "Unf... Flipping the light switch doesn't do anything... I think the breaker has tripped.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "黑黑的环境……唔，拉菲先睡了，晚安。",
+			say = "It's pitch black... I'm just gonna sleep. Night night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "…？走廊里有脚步声，越来越近了。",
+			say = "I hear something...! I believe there is something down the hallway, drawing closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯？走廊的尽头是不是有团巨大的影子？！",
+			say = "I think there is something at the end of the hallway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这、这究竟是…",
+			say = "C-could it really be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（嘿嘿嘿，春节吓人计划顺利进行中~接下来只要使用这个“抚顺特制爆竹二号机”，就可以让节目效果达到最高潮了~）",
+			say = "(Mwahaha, my plan's going smoothly! Now I just need to use my Custom-Made Firecracker Machine MKII, and the excitement should reach its climax, just as planned...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我点，我扔~诶？！",
+			say = "Goooo! ...Wait, did something just...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "丢出的爆竹撞到了走廊的墙壁，弹回来正好落在了抚顺的脚下。",
+			say = "The firecracker hit one of the walls in the corridor and bounced back, landing right at Fu Shun's feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "喂喂喂，等等，哇！",
+			say = "Oh my gooooosh! Stop, don't explode!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			say = "（轰）",
+			say = "BWHOOOOOOOM!",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "爆竹爆炸的同时，房间内的灯光也恢复了。",
+			say = "The lights came back on at the same time as the firecracker went off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇…没想到会在最后一步…失、策…",
+			say = "Agh... How could I fail at the very, very end... This sucks...",
 			bgm = "main-chunjie",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚、抚顺姐！？没、没事吧！？？",
+			say = "F-Fu Shun?! Are you hurt?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳咳，屋子里被搞得乌烟瘴气，抚！顺！做了这种蠢事你做好挨训的心理准备…诶？",
+			say = "*Cough, cough*... Not again, Fu Shun! You'd better be prepared for your punishment after trying to do something this stupid! ...Wait, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈哈~抚顺姐变成成黑炭啦~",
+			say = "She's covered in soot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可真是…既成功又失败的恶作剧啊，哈哈哈",
+			say = "Despite the failure... that was still a really intricate practical joke she came up with. Hahah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 107021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，真是调皮的孩子，不过这个节目效果倒也算是不错呢~",
+			say = "Oh dear, you've been very naughty, Fu Shun. But it was still surprisingly good entertainment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，吓死我了，还以为会怎样呢，诶？我脸上怎么了吗？",
+			say = "Whoa, that was scary... I had no idea how that'd go... Uh, what's everyone looking at? Is there something on my face?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 301054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "镜子给你…的说",
+			say = "...Yes, you should look in the mirror.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇，哈哈哈哈哈，这下没脸见人了哈哈哈",
+			say = "Aha, ahahaha... I'm a mess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的…还不赶紧去洗洗脸！",
+			say = "Geesh... Go to the washroom and clean your face already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 202121,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是哪里都不缺有趣的事情呢，呵呵",
+			say = "This is a rather amusing turn of events, ahaha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我洗好啦～",
+			say = "Kay, I'm done washing my face~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我准备为还在工作的指挥官送去东煌大家的料理了",
+			say = "Now then, I will take my leave to deliver this food to our Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 107062,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊，果然，能有这么温暖的团聚时光，无论是不是一时的短暂和平，都得好好感谢指挥官才是呢",
+			say = "Yeah, go ahead. It's all thanks to the commander that we got to have this nice night together. We have to express our thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，鞍山姐，我们也一起去找指挥官嘛～",
+			say = "Hey, An Shan, we should go visit the commander too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}和拉菲…也一起去",
+			say = "Yes, Laffey and I think we should go too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 107021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵呵，那就去指挥官的办公室再来一次“团聚”吧？",
+			say = "Ahaha, then may I suggest we have an afterparty in the commander's office?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,11 +605,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔～",
+			say = "Yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？原来我这里还有一只备用的爆竹呀，嘿嘿嘿，那就…",
+			say = "Well, look at that... There's still an extra firecracker left behind... Heheh, let's just light the fu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,12 +637,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "快住手啦！！！",
+			say = "Fu Shuuuuuuun!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

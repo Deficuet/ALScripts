@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "某日·塔兰托港",
+			say = "Taranto Harbor",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……阁下此次前来是专程向我们发出前往帕克菲克洋铁血基地的“邀请”么？",
+			say = "So if I understand this right... you're offering to give our fleet a tour around one of your bases?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是。铁血向来注重与盟友的情报分享。我此次作为铁血的代表，诚挚地希望撒丁帝国的诸位能与我一同前往。",
+			say = "Correct. As part of our agreement of cooperation and information sharing, we would love to have the Eternal Flagship as our esteemed guest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们确定要在这种时候展开远洋航行么？",
+			say = "Why? This invitation comes very much out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。偶尔把冗杂的算计放在一边，来一场说走就走的旅行也不错吧~",
+			say = "Does it? We just thought you could use a brief respite from your routine work. I'm sure it will prove a nice change of pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说到往帕克菲克洋的铁血基地……那里不是在很久之前就在塞壬的进攻下尽数失守了么？",
+			say = "Hmm, this location you've chosen... It was formerly occupied by Sirens. How did you manage to recapture it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一点就当成抵达之后的惊喜，请允许我暂时保留悬念。",
+			say = "Let's leave that as a surprise for when we get there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一场浪漫的远洋旅行啊，确实是很有吸引力的提案……",
+			say = "I see... Putting aside whether or not I can actually get permission from Veneto, you put forth an interesting proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过很遗憾，如今陆间海的局势风云变幻，我与维内托实在是无法在这种时候离开。",
+			say = "However, the Eternal Flagship and I cannot leave the Méditerranée. We are needed here for important business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:440}对于这次与撒丁帝国进行的联合行动可是抱有很高的期待哟？",
+			say = "I hope you understand that Friedrich really wishes to meet the Eternal Flagship and her associates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然！这绝对不是撒丁帝国要拒绝此番好意邀请的意思。",
+			say = "Then how about a compromise? I can readily send someone to represent us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可以派遣一位得力部下作为我与维内托的代表我们与铁血舰队同行，这样阁下意下如何？",
+			say = "The person I have in mind is close to us, and very diligent, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果是这个方案的话…嗯，倒是也没问题~不过此次“邀请”涉及到一些不宜对外公开的机密信息，所以……",
+			say = "That will be fine. But you must be sure that the person you're sending can be trusted, as the research we're conducting at the base is top-secret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，所选之人是维内托的贴身护卫，阁下对我与维内托的信任可以等同于对她的信任。",
+			say = "Do not worry, I know for a fact that my candidate wouldn't speak a word of it to anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_port_talantuo",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，那我就先返回房间静候同行者的抵达了~",
+			say = "Perfect. Tell me when you're ready to depart. I'll be relaxing in the guest room meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了！",
+			say = "Carabiniere, reporting for duty!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -319,7 +319,7 @@ return {
 			actor = 601020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "利托里奥大人，请问您有何吩咐？",
+			say = "You said you had orders for me, Lady Littorio?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "龙骑兵，仔细听好，接下来有一件非常重要的机密任务要交给你——",
+			say = "That, I do. Listen closely, Carabiniere. I have an important task for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,35 +351,35 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>坐标设定：█°█′S  ███°██′E</size>",
+					"<size=51>Coordinates set.</size>",
 					1
 				},
 				{
-					"<size=51>镜面海域编号：T2-XI-N002</size>",
+					"<size=51>Mirror Sea Identification Number: T2-XI-N002.</size>",
 					2
 				},
 				{
-					"<size=51>身份验证中————</size>",
+					"<size=51>Verifying profile...</size>",
 					3
 				},
 				{
-					"<size=51>反馈：权限已确认</size> ",
+					"<size=51>Access granted.</size> ",
 					4
 				},
 				{
-					"<size=51>反馈：安全协议已解除</size>",
+					"<size=51>Disabling security system.</size>",
 					5
 				},
 				{
-					"<size=51>覆写中————</size>",
+					"<size=51>Overwriting data...</size>",
 					6
 				},
 				{
-					"<size=51>反馈：操控权限变更完毕</size>",
+					"<size=51>Administrator rights have been reassigned.</size>",
 					7
 				},
 				{
-					"<size=51>等待下一步指令————</size>",
+					"<size=51>Entering sleep mode until further instruction.</size>",
 					8
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>四 爆点新闻发掘计划</size>",
+					"The Sensationalist Sensation\n\n<size=45>Operation Scoop Goldmine</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "清晨，指挥室——",
+			say = "Office - Early morning",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "桌上放着前几期的《港区秘闻》，是之前阿尔弗雷多·奥里亚尼工作时留在这里的。",
+			say = "There are several back issues of the Port Journal on my desk, left there by Alfredo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽说已经不能算是新闻了……",
+			say = "Even if these magazines are old news, I'm curious about what they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "离工作时间还有一小会，先看看这里面写了些什么，就当解解乏好了——",
+			say = "I have a bit of time to kill before my shift starts, so I might as well have a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“震惊！皇家女仆队不得不说的特别日常？”“撒丁宿舍令人震惊的隐秘故事，必看！”",
+			say = "\"An Amazing Insight Into the Royal Maids' Daily Lives\"... \"The Shocking Secrets of Sardegna's Dormitory\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "正在认真翻看的时候————",
+			say = "I get engrossed and lose track of time. Then, out of the blue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哈，早上好呀指挥官~！来得挺早的嘛！",
+			say = "Ding-dong! Morning, Commander! You sure are early today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "阿尔弗雷多·奥里亚尼推门闯了进来，她看起来兴致很高的样子……看起来她已经找到即将到来的“热点事件”了。",
+			say = "Alfredo throws open the door and steps into the office. Judging by her elated attitude, she must be expecting to report some big news today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我没来晚吧？嗯，没到工作时间，还好~",
+			say = "Oh, am I late? ...I'm not? Phew, that's good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "问我为什么看起来兴致很高？哼哼，之前跟指挥官提到的素材荒的问题，已经找到解决办法了哦~",
+			say = "Why am I so fired up, you ask? Heheh, well, it's because I've found a solution to my previously mentioned lack of newsworthy material!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "听兴高采烈的阿尔弗雷多·奥里亚尼讲解了她的计划——",
+			say = "She proceeds to explain her plan with great enthusiasm. I sit and listen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "俗话说有人的地方就有新闻~",
+			say = "As the saying goes – where there's people, there's news!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "舞会这么大场面的活动，肯定会有很多有意思的事件发生的！",
+			say = "And with a huge social event like a ball, interesting things are guaranteed to happen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好像并没有听说过这种俗话……",
+			say = "\"I don't think that's a real saying.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我之后就再多说几次好啦~说多了就有了嘛~诶嘿嘿。",
+			say = "It'll become one if I say it enough times! That's how all sayings are established, y'know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过……穿着舞者服还要在舞会里取材，是不是会很显眼？",
+			say = "Wait, I just realized... Won't I stick out if I dress up and go snooping around the ball?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "要是被人发现我是来取材的话，一定会被提防的吧？那样就没办法获得原汁原味的一手情报了……",
+			say = "People will raise their guard once they know a journalist is around, and then there's no way I'll land a good scoop...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……果然还是选择偷拍吗。",
+			say = "\"So you're going to blend in with the guests and take sneaky photos?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不对不对，应该叫“非正常拍摄”才是！",
+			say = "No, nothing like that! I'm gonna do an undercover coverage! Under-coverage, if you will.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "而且还需要找一个队友来帮我打下掩护才行~",
+			say = "But to do that, I'll need a partner who can back me up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "指挥官，你觉得我该找谁来掩护我取材比较好呢？嘿嘿~",
+			say = "Know a good candidate for the job, Commander? If you catch my drift.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,11 +370,11 @@ return {
 			},
 			options = {
 				{
-					content = "达·芬奇或者布里斯托尔？",
+					content = "\"Either da Vinci or Bristol.\"",
 					flag = 1
 				},
 				{
-					content = "我和你一起去吧。",
+					content = "\"I'll do it.\"",
 					flag = 2
 				}
 			}
@@ -388,7 +388,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧……倒也是不错的选择啦，毕竟我和她们也挺熟悉的……",
+			say = "*sigh*... Don't get me wrong, it's a good suggestion since I'm friends with them both...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是，但是！我说这话的意思不就是“我想和指挥官一起去舞会”嘛！",
+			say = "But what I'm really asking is if YOU will go to the ball with me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，明明之前还夸过指挥官的直觉很强……",
+			say = "Sheesh, maybe your intuition isn't as good as I thought...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
-			say = "……看起来只能陪她一起去舞会了。",
+			say = "\"My bad, I should've taken the hint. I'll gladly go with you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，谢谢指挥官啦~",
+			say = "Hehehe~ Thanks a ton, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那指挥官这几天就准备下舞会相关的事情，我们到时候再见咯！",
+			say = "Remember to rehearse and be ready for anything at the ball! I'll see you then, partner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 2,
-			say = "其实也是为了约束一下她……这位不安分的记者在偷拍的时候可别捅出什么大篓子来。",
+			say = "\"But I'll also be keeping an eye on you. I don't fully trust you not to cause a stir if left unsupervised.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，正合我意~",
+			say = "Heheh, I knew I could count on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了取材的时候指挥官可以帮我打掩护，在我做素材整理的时候指挥官也可以用观众的视角来帮我提些意见哟？感觉还不错呢~",
+			say = "Oh, could you also give me your thoughts from a reader's perspective later during the editing stage? I'd really appreciate it~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "好，那指挥官这几天就准备下舞会相关的事情，我们到时候再见咯！",
+			say = "Remember to rehearse and be ready for anything at the ball! I'll see you then, partner.",
 			painting = {
 				alpha = 0.3,
 				time = 1

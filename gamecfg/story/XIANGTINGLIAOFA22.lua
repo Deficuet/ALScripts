@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "story-6",
-			say = "大西洋·百慕大三角中部海域",
+			say = "Bermuda Triangle - Combat Zone",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，参战舰队均作战顺利，现在正沿各自预定航线向中心区域推进。",
+			say = "Commander, all fleets are progressing smoothly, and are now advancing as planned to the central area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了一开始的顽强抵抗，越向中心前进，塞壬的船反而越来越少了哎？",
+			say = "We're encountering fewer and fewer Siren forces as we push towards the center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可能在之前偷袭中消耗的兵力还没及时补充吧。",
+			say = "Perhaps they destroyed all of their forces in the sneak attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论什么原因，塞壬兵力减弱总归是一件好事。",
+			say = "Whatever the reason might be, though, I'll gladly take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实在之前的简报会上，有一项秘密的任务没有公布——",
+			say = "Commander, I'm a bit interested in that additional objective. That is, to investigate the identity of the \"mysterious individual.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			},
 			options = {
 				{
-					content = "调查“神秘人”的身份",
+					content = "\"I agree.\"",
 					flag = 1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的。经过分析，之前北卡罗来纳和华盛顿在特殊行动时曾遭遇到的“神秘人”的武器……",
+			say = "That's also why North Carolina and Washington are with us. They appear to have seen this mysterious ship during their last excursion into the Mirror Seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从特征和威力上来看与纽约港袭击时最后的敌机型号最为相似。",
+			say = "When that ship attacked NY City, it was said that the silhouette of her riggings resembled my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "况且之前的疑似目击情报也十分令人在意…",
+			say = "Commander has also seen that ship. For all three of us to be assembled in this fleet, it can be said that our true purpose is to meet her face-to-face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也是本次特意将你们调来主力舰队的原因之一。",
+			say = "Sorry that I didn't tell you earlier, Washington.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢？原来还有这层关系啊？",
+			say = "It's cool. Doesn't really bother me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管她究竟是不是“塞壬”的同伙，至少在我个人看来是个不讨人喜欢的家伙。",
+			say = "Whoever the hell they are, they've fought back some of the elite Sirens. However, they clearly aren't on our side either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这次一定要好好搞清楚那个故弄玄虚的家伙的底细！",
+			say = "If what Saratoga and Commander said about her being allied with the Sirens during their attack on NY City is true, then we'll have to steel ourselves for a confrontation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边环境正在变得越来越恶劣，没时间想这么多了。",
+			say = "That's right... We should be approaching our target very soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只通过皮肤就能感觉出来，海域中心有某种不断积蓄力量的存在…",
+			say = "I don't like the feeling of this... My skin's beginning to crawl...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家加速前进，我们快没有时间了！",
+			say = "The other fleets should be joining up with us shortly. Everyone, let's push forward carefully!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

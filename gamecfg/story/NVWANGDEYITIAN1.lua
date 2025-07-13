@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>一 一日之计在于晨</size>",
+					"The Queen's Ordinary Day\n\n<size=45>1.An Ordinary Morning</size> ",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "城堡中的清晨是寂静而又喧闹的。",
+			say = "The sun rose over the Royal Islands on a quiet yet busy morning.",
 			bgmDelay = 2,
 			bgm = "theme-partydress",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "虽然没有行人与车马的喧嚣，但树上的鸟早就开始歌唱了。",
+			say = "Birds chirped from atop their tree branches, their song flowing across the empty streets below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "阳光穿过窗帘将金色洒入室内，美好的一天即将开始——",
+			say = "Sunlight filtered through the curtains of the Queen's castle, marking the beginning of another wonderful day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "皇家本岛·伊丽莎白的卧室",
+			say = "Royal Islands - Queen Elizabeth's bedchamber",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……zZZZ",
+			say = "Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，该起床了哦，陛下——",
+			say = "Your Majesty, it's time to wake up. Please, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……贝法……让本王再睡五分钟……zZZZ",
+			say = "Zzz... Five more minutes, Bel... Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "五分钟前您也是这么说的。就算睡懒觉工作也不会减少，还是请您起来吧。",
+			say = "You said the same thing five minutes ago. No work is going to get done if you stay in bed all day...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是纽卡斯尔啊……哦对，贝法现在不在……",
+			say = "Nnngh... Oh, it's you, Newcastle... That's right, Bel isn't here right now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………唔嗯！本王这就起来！",
+			say = "*yaaawn*... Okay, time to get up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "伊丽莎白的办公室，一段时间后——",
+			say = "Some time later, in Elizabeth's office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "洗漱完毕又吃过了早点的伊丽莎白来到了办公桌前。",
+			say = "After getting dressed and washing her face, the little queen sat down at her work desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "她一边饮茶，一边查阅着各地发来的报告。",
+			say = "Cup of morning tea in hand, she went through reports from her subjects all around the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "……在失窃现场附近，META信标检测仪出现了反应，可以基本认定这件事与META存在某种关系。",
+			say = "Per Your Majesty's orders, we sent replicas to our exhibit at the World Expo. As predicted, several of the originals have since gone missing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过数据库中没有任何与从现场检测到的数据波段相符的记录，因此这是一次未知META的入侵行动的可能性很高。",
+			say = "The data we gathered suggests META involvement, though the specific readings do not match anything we have on record. Furthermore, we are unable to trace how these infiltrations took place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尚不清楚历来行事高调的META为什么会选择进行一次低调的盗窃行动。",
+			say = "Moreover, sporadic Siren attacks were detected around the same timeframe the exhibition items were stolen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "由于文物的失窃和塞壬的进攻行为发生在同一时间，很难让人相信二者之间不存在任何联系。",
+			say = "While there may be some connection between the two events, we do not have any hard evidence to link them as of yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但究竟存在何种关联，目前尚在调查之中。",
+			say = "For the time being, all we can do is continue investigating.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "如果有新进展的话我会再向您汇报的，乔治五世报告结束。",
+			say = "I shall inform you if anything new comes to light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然本王已经有所防备了，但是没想到遭受袭击的同时，在本岛居然会发生文物失窃事件……",
+			say = "Hmm... The Sirens targeting the World Expo was well within my expectations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……而且还牵扯到了未知的META。",
+			say = "But, what does this unidentified META want with our Royal Islands?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本袭击事件从头到尾都透露着不对劲。",
+			say = "Their motivations truly make no sense to me – and that goes for both the Sirens and the META.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在NA海域中心已经清理完毕的当下，塞壬不可能凭空聚集起这种力量从多处同时发动进攻。",
+			say = "(We've dealt several blows to the Sirens, both in the NA Ocean and through Friedrich's ploy. We've also made contact with certain META ships through Camelot.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且这些塞壬很特殊，其中的人型单位就算被击毁了也没有留下任何残骸。",
+			say = "(So why is all of this happening now? How are they attacking us while hardly leaving any evidence behind?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直就像在NA海域中心奇异点内遇到的塞壬代行者一样……",
+			say = "(I have a bad feeling about this... If there are META ships colluding with the Sirens, that could spell disaster.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在又牵扯到了META……本王有种很不好的预感。",
+			say = "(Even the Ashes are not a monolithic faction. It isn't inconceivable that they would have members among them working with the Sirens.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现场调查进行期间本王也不能干等……必须要行动起来。",
+			say = "(...In any case, I can't just sit around and wait for reports to come in. Think, which parties might be interested in getting their hands on cultural artifacts?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到文物……最近倒确实有几家对文物有着超乎寻常的兴趣……得深入调查一下才行。",
+			say = "Newcastle, summon Gloucester. I want a report on Sardegna's and Iris Libre's recent movements.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,11 +1,11 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>编队</color>，将角色编入队伍",
-	"指挥官还记得怎么操作吗？",
-	"点击队伍空位上的<color=#ff7d36>添加</color>",
-	"选择需要上场的角色",
-	"点击<color=#ff7d36>确定</color>按钮",
-	"前锋舰队满员啦！现在的实力可不容小觑",
-	"让我们返回到主界面吧！"
+	"Let's add your new ship to your <color=#ff7d36>formation</color>.",
+	"Commander, do you remember what to do?",
+	"Tap the empty slot in your team to <color=#ff7d36>add</color> another ship.",
+	"Select a ship to deploy.",
+	"Next, tap <color=#ff7d36>confirm</color>.",
+	"The vanguard is full! Our power shouldn't be underestimated!",
+	"Let's head back to the main screen!"
 }
 
 return {

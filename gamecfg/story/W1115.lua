@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "需要把能源矩阵移动到指定位置才能使其生效……",
+			say = "Seems like we need to put the Energy Matrix back on the platform.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

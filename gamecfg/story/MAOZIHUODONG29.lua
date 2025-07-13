@@ -12,7 +12,7 @@ return {
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
-			say = "若干年前，极北之地",
+			say = "Years ago, in the Northern Parliament...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时过境迁。已经过去这么久，很多东西都变了啊…",
+			say = "Heave... ho... Phew, that should do it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，也有很多东西没有改变。",
+			say = "We've seen a lot of fighting, but some things seem to never change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,23 +58,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "阿芙乐尔看着一望无际的白色，陷入了短暂的沉思",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "bg_cccp_8",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "就是这里了，同志们。",
+			say = "Avrora, a first-generation ship who was born in this era, looked around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +74,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是当初一切发生的地方，也是隐藏了一切秘密的地方。",
+			say = "We've arrived, comrades...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +90,23 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让我们从这里开始吧，为了更远大目标的实现，为了更加美好的未来。",
+			say = "...at the place which will give rise to a new world...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "bg_cccp_8",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Here is the \"cube\" that is capable of storing human emotion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "同志们，各就各位，开工！",
+			say = "...Let's begin, for the future of the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

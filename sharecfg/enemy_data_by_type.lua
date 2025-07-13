@@ -1,103 +1,103 @@
 pg = pg or {}
 pg.enemy_data_by_type = {
 	{
-		type_name = "驱逐",
+		type_name = "Destroyer",
 		type = 1
 	},
 	{
-		type_name = "轻巡",
+		type_name = "Light Cruiser",
 		type = 2
 	},
 	{
-		type_name = "重巡",
+		type_name = "Heavy Cruiser",
 		type = 3
 	},
 	{
-		type_name = "战巡",
+		type_name = "Battlecruiser",
 		type = 4
 	},
 	{
-		type_name = "战列",
+		type_name = "Battleship",
 		type = 5
 	},
 	{
-		type_name = "轻母",
+		type_name = "Light Carrier",
 		type = 6
 	},
 	{
-		type_name = "航母",
+		type_name = "Carrier",
 		type = 7
 	},
 	{
-		type_name = "潜艇",
+		type_name = "Submarine",
 		type = 8
 	},
 	{
-		type_name = "航巡",
+		type_name = "Aviation Cruiser",
 		type = 9
 	},
 	{
-		type_name = "航战",
+		type_name = "Aviation Battleship",
 		type = 10
 	},
 	{
-		type_name = "雷巡",
+		type_name = "Torpedo Cruiser",
 		type = 11
 	},
 	{
-		type_name = "维修",
+		type_name = "Repair Ship",
 		type = 12
 	},
 	{
-		type_name = "重炮",
+		type_name = "Monitor",
 		type = 13
 	},
 	{
-		type_name = "鱼雷艇",
+		type_name = "Torpedo Ship",
 		type = 14
 	},
 	{
-		type_name = "运输舰",
+		type_name = "Cargo Ship",
 		type = 15
 	},
 	{
-		type_name = "自爆艇",
+		type_name = "Bombing Ship",
 		type = 16
 	},
 	{
-		type_name = "旗舰",
+		type_name = "Flagship",
 		type = 17
 	},
 	{
-		type_name = "超巡",
+		type_name = "Large Cruiser ",
 		type = 18
 	},
 	{
-		type_name = "运输",
+		type_name = "Munition Ship ",
 		type = 19
 	},
 	{
-		type_name = "导驱",
+		type_name = "DDG",
 		type = 20
 	},
 	{
-		type_name = "导驱",
+		type_name = "DDG",
 		type = 21
 	},
 	{
-		type_name = "风帆",
+		type_name = "IX",
 		type = 22
 	},
 	{
-		type_name = "风帆",
+		type_name = "IX",
 		type = 23
 	},
 	{
-		type_name = "风帆",
+		type_name = "IX",
 		type = 24
 	},
 	{
-		type_name = "未知",
+		type_name = "Unknown",
 		type = 25
 	},
 	all = {

@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "席卷全港区的大活动终于也来到了最后关头——",
+			say = "The climactic finale that you've all been waiting for is finally here!!",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下一场战斗就是就是「μ兵装」性能测试，兼今日的Live活动的最高潮了喵！",
+			say = "That's right, the next battle will be a challenge to see if we can surpass the limitations of the Muse System. It'll be a performance you can't afford to miss, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "呼呼，想必大家也对为什么还不发表最后的对战对手而感到奇怪了喵",
+			say = "Heheh, some of you must be wondering why we haven't announced the last round's participants yet, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "理由很简单喵，最后一场不是Polaris对新的挑战者喵……",
+			say = "The reason is simple - Polaris won't be facing off against any new opponents...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而是“之前的所有挑战者”VS“Polaris”喵！",
+			say = "Instead, we're calling everyone from the previous rounds back onto the stage, nya!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "Live最后压轴的歌总是要大家一起上台还好喵，所以最后一场是总决战也是理所当然的喵！",
+			say = "The final round will be an all-out battle with everyone on stage, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "Polaris，准备好了喵？",
+			say = "Look sharp, Polaris, are you ready, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "展现「μ兵装」力量极限的最后一战，即将开始喵！",
+			say = "Just how far can we push the Muse System? The battle to find out begins right meow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

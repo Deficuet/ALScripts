@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，起床后需要先进行二十分钟的皮肤管理。",
+			say = "Okay, 30 minutes on skincare after waking up...",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "然后是三十分钟的热身时间，还要做十分钟活动手指的柔软操。",
+			say = "After that, 30 minutes of warmup exercises and 10 minutes of finger stretches...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "还有针对我们三个人各自薄弱环节的专项练习，还有舞台上的表情管理也很重要……",
+			say = "Then comes the exercises to cover for each other's flaws, and don't forget to practice your stage face...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "咦？{namecode:50:能代}姐姐？",
+			say = "Noshiro? What are you doing here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "你不去和{namecode:427:欧根亲王}还有可畏一起招募成员吗？",
+			say = "Shouldn't you be out looking for new members with Eugen and Formidable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "嗯，我有考虑过。但……说服别人不是我的专长。",
+			say = "I considered it, but I'm just not very good at persuading people.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和{namecode:428:欧根}还有可畏商量过后，就把招募成员的事情交给她们了，而我负责后续的训练日程规划。",
+			say = "We talked about it and decided that they'll do recruitment while I schedule our rehearsals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "而且，最终比拼看的还是Live。",
+			say = "Besides, it takes more than just recruiting people to win. We need to hone our performance skills, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "要想发挥μ兵装的最大效能，我们也必须得好好练习才行。",
+			say = "Taking full advantage of the Muse System takes practice, practice, practice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "就知道{namecode:50:能代}姐姐你会这么说……算啦算啦，招募的事情我和{namecode:49:阿贺野}姐姐也会帮你的哦~",
+			say = "I knew you'd say that. You know what? Let me and Agano help you out on the recruitment side of things!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "招募大组成员的时限很快到了截止时间。",
+			say = "Finally, the deadline for recruiting new members passed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "「Polaris」、「Verheerender」、「东煌姐妹」三个组合选择加入了「青组」。",
+			say = "At the end of it all, the blue team had secured Polaris, Verheerender, and the Dragon Sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "拉菲和独角兽则是以个人偶像的身份加入。",
+			say = "They also had Unicorn and Laffey, who joined as solo acts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "另一边，「Lumière」、「Astrum」两个组合选择加入了「红组」。",
+			say = "The red team, meanwhile, had the talented units Lumière and Astrum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "这边的个人偶像则是{namecode:2:吹雪}、伊丽莎白女王、{namecode:408:Z23}以及哈曼。",
+			say = "Their ranks also included individual idols like Fubuki, Queen Elizabeth, Z23, and Hammann.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然从人数上来看，本王所在的「红组」好像输了个彻底，但是…！",
+			say = "The blue team may have us beat in the membership department...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205012,
-			say = "论舞台数量的话，本王这边可是赢了哦！",
+			say = "But our team has more units than they do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "怎么办呢，光顾着招募去了，完全没注意到我们比对方多一个人。",
+			say = "That's an issue, Your Majesty! There must be an equal number of units for the competition to even happen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "这种情况下要么有人退出，要么就是组成限定组合了吧？",
+			say = "Making one unit leave is definitely off the table. I think we'll need to merge multiple units.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "毕竟要确保公平嘛~",
+			say = "Seems so. It wouldn't be fair otherwise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说的也是呢……",
+			say = "It's our only option.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，本王要好好地展现个人魅力，组限定组合的事情就算了。",
+			say = "Hmph! I want to demonstrate my greatness on my own terms! I will NOT team up with anybody!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101253,
-			say = "哈曼也、也更想展现个人魅力，绝不是因为只想让指挥官的注意力放在哈曼身上！",
+			say = "I want to sing solo, too! A-and not because I only want the Commander to see my performance, not at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301014,
-			say = "唔，我倒是没什么关系哦~{namecode:408:Z23}，我们可以一组！",
+			say = "Z23, you wanna team up and make a temporary unit with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401236,
-			say = "嗯。这样从舞台数量上就平衡了，也不用退赛了。",
+			say = "Sure. And if others move around a bit, we should end up with an equal number of units!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来就是各自的舞台Live了。",
+			say = "Once everyone has been assigned, each unit should give a demonstration of their performance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "作为偶像，最重要的就是激情和舞台风格，我们可以从这个角度出发选曲。",
+			say = "The two most important things in a performance are character and passion. The songs we go with should reflect that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错哦，从前两次实验结果也能看出来，充分释放自己的感情才是最优解~",
+			say = "Yes, the previous tests proved that pretty well. The best kind of performance is one that lets you fully express your feelings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "大家，我们现在算是一个整体，所以谁都不可以拖对方的后腿哦~？",
+			say = "Remember, ladies – we are all one unit now, so let's not get on each other's nerves, alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "我会为大家制订详细的训练日程的，请大家也按照日程计划认真练习。",
+			say = "I've created learning and rehearsal schedules. I'd like us all to stick to them as much as possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~希望大家为了那个愿望都能拼尽全力呢，不然可就要被对手抢先了~",
+			say = "You heard her, folks. You'll have to really give it your all if you want to get your wish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种有趣的奖励，我可不想让她们几个拿到啊……",
+			say = "Not that it matters, because I'm not letting anyone else have it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,9 +10,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "哈哈~好久没有打得这么尽兴了！心智魔方真是充满了无穷的潜力啊——",
+			say = "Hahahahaha~! It's been ages since I've had this much fun! The sky really is the limit for the potential of your Wisdom Cubes!",
 			bgm = "battle-boss-6",
 			typewriter = {
 				speed = 0.05,
@@ -27,9 +27,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "记住，我们塞壬是你们的敌人，是侵占你们海权、引发战争的大恶人~",
+			say = "Listen here! We, the Sirens, are your enemy! We are the big bad meanies who take your oceans as our own! We are the ones who cause all the wars in the world! And don't you forget it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,9 +43,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "我们还有更多，更强的怪物在等着你们~努力变得更强吧，我们还会再见面的",
+			say = "Next time we meet, I'll have an even more powerful weapon for you guys! Until then, stay alive and get stronger for me! Hahahaha~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 205070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "赐予汝鲜血的消亡！回到冰冷的海底去吧——",
+			say = "By the glory of the Royal Family, spill thy blood before us! Return to the icy abyss that you crawled from!",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
 			flash = {
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呼…终于胜利了哦，海域已经恢复了平静…司令部也联系上了",
+			say = "Phew... We did it... Our connection to HQ has been restored, so the ocean should soon return to normal, too...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一连串的行动，全部都超出了预期…",
+			say = "Good grief, I never expected such a situation to develop...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸好，最后还是获得了意外的战果，也获得了大量和塞壬有关的情报",
+			say = "But luckily, we managed to seize an unexpected victory as well as gather valuable intelligence on the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尊贵的女士，您的表现令人惊叹，与您并肩作战是吾辈的荣幸",
+			say = "O valiant one, thy performance was pivotal to our outcome today. Victorious, it was an honour to fight at thy side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻",
+			say = "Why, thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，司令部通告说，{namecode:436}将交给陆航的重型轰炸机接手",
+			say = "There's another communication from headquarters. They suggested to leave Tirpitz to the base's air squadron.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们——可以回家了！",
+			say = "That settles it then. We can go home now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被夺走了皇冠的北方女王吗…如果这就是你所期望的宿命",
+			say = "So the Queen in the North has been deprived of her crown... But I suppose that's what she wanted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…呵呵，我在想什么呢",
+			say = "... Oh, dear me, I'm getting distracted again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,13 +237,13 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "Tester",
 			stopbgm = true,
 			side = 2,
 			dir = -1,
 			blackBg = true,
 			nameColor = "#ff0000",
-			say = "故意击落胜利的侦察机来把她吸引过来吗——真是巧妙的计策呀",
+			say = "So you had Victorious' planes shot down to lure her in... Well planned.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -273,11 +273,11 @@ return {
 		{
 			actor = 900012,
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "要应付关键点G只能这样做了，幸好所有这一切最后都没有产生太大的偏差",
+			say = "It was my only choice for dealing with Code G. Fortunately, it didn't cause a major discrepancy in the end.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -295,10 +295,10 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
-			say = "能把战损控制到一只净化者型以内，已经是最好的结果了",
+			say = "And our only loss was a single Purifier model. Wouldn't you agree this was the best possible outcome?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,10 +312,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 0,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = -1,
 			blackBg = true,
-			say = "那么，你也该回到新的载体了吧——净化者",
+			say = "I suppose... So, have you gotten used to your new body yet, Purifier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,10 +329,10 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "锵——这一次玩得很开心哦，战斗经验也跟着提升了！",
+			say = "Pheeew! I had the time of my life! I even gained tons of combat experience!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,10 +346,10 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "皇家的那群孩子们已经逐步觉醒，成长得亭亭玉立了，北海区域看来暂时不用担心啦",
+			say = "Those Royal Navy girls should experience their awakening soon, so the North Sea should be good for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,10 +363,10 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "快点快点，可以派我去下一个任务地点啦",
+			say = "Anyway, c'mon, send me out on my next mission already~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,11 +379,11 @@ return {
 		{
 			actor = 900012,
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "下一个任务地点吗？…",
+			say = "Ah, yes, your next mission...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -401,10 +401,10 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "观察者",
+			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
-			say = "——嗯…想要去赏赏樱花吗？",
+			say = "How would you like to see cherry trees in full bloom?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

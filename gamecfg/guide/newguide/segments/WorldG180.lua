@@ -12,7 +12,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "可以在此购买战役信息记录仪。",
+				text = "Oil can be used to purchase a Large-Scale Operation Combat Logger.",
 				mode = 2,
 				posY = 84.9,
 				char = "1",

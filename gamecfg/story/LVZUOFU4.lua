@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夺回甜蜜美梦！\n\n<size=45>四　林荫道上的{namecode:461:吕佐夫}小姐</size>",
+					"Sweet Dreams, Come Back to Me\n\n<size=45>4 Along the Green Road</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "港区·林荫小路",
+			say = "Port - Park",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "斑驳的阳光透过树叶洒在我们身上，在地面上投下摇曳的影子。",
+			say = "Sunlight rains down on us through the leaves overhead, casting hazy shadows on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "和{namecode:461:吕佐夫}漫步在林荫道上，微风轻拂，带来几分慵懒的倦意。",
+			say = "As I walk with Lützow without any particular place in mind, the early afternoon breeze whispers a tune that makes me feel vaguely tired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "呼……阳光暖暖的，好舒服啊~我选的地点果然很不错……",
+			say = "Whew... This sunlight is divine. I picked a good spot – to nobody's surprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "平时都只把这里当做偷懒睡觉的好去处，没想到偶尔用来散散步也感觉很棒呢。",
+			say = "I usually only come here to skip work and stuff. Taking a walk through here is pretty nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "少女说着，舒展了一下身体，发出了一声舒服的喟叹。",
+			say = "With a comfortable sigh, she stretches her arms skyward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "有睡意了么？",
+			say = "Well? Feeling tired yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "还没有呢……只是呼吸了一下新鲜空气，感觉头没有之前那么晕了。",
+			say = "Meh. Although I'm not feeling dizzy anymore thanks to this fresh air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,21 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "又沿着小路走了一会儿后，{namecode:461:吕佐夫}突然伸手扯了扯我的衣袖。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 404040,
-			say = "那个……指挥官~",
+			say = "Our walk continues. A short while later, I feel a tug on my sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,33 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "人家是不是……给你添麻烦了呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "哦，你是说今天的工作吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "今天的工作内容还好，等会儿回去努力一下的话，也不会耽误。",
+			say = "Hey, uh, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +163,33 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "不光是今天啦~我是说……指挥官也很清楚吧？我平时就很喜欢偷懒嘛……",
+			say = "I'm not a burden to you, am I?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "You mean with regard to today's work?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "No, it's no big deal. I can make up for lost time with some elbow grease when I get back later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,46 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "所以就是在想……我一直这么随心所欲，会不会给指挥官造成了很多困扰呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "原来是在担心这个么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不管再怎么偷懒，{namecode:461:吕佐夫}其实从来没有耽误过正事吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "而且，这种自由自在和随心所欲的感觉，也正是{namecode:461:吕佐夫}的魅力所在。",
+			say = "I don't mean just today... You know how much I slack off. Working is basically the exception, not the rule for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +217,60 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "欸……？不会吧，指挥官觉得那样的我……有魅力？",
+			say = "So, you know... I'm just worried that I'm more trouble than I'm worth because I'm so lazy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Ah. So that's what's on your mind.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Yes, you do skip out on work quite a lot – but when you get the drive, you get things done.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "That laid-back, do-it-my-way attitude is what I like about you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 404040,
+			say = "You mean it? You actually view my laziness in a positive light?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "指挥官的品味，还真是独特呢~",
+			say = "Not to say I'm not happy to hear it, but you sure have a unique taste in girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这算是夸奖我么？",
+			say = "Should I take that as a compliment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然咯~不过现在的我可没力气再多夸夸你了哦……",
+			say = "The best compliment I can muster with my lack of energy, I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "{namecode:461:吕佐夫}说着打了个哈欠，然后抬手擦去了眼角沁出的湿润。",
+			say = "She lets out a yawn and brushes off the tears of tiredness welling in the corners of her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "困了吗？我们现在回去？",
+			say = "Tired now? We can head back if so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "还不够困，再散步聊一会吧。",
+			say = "Nah. Let's walk and talk a li'l longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "对了……不如就这样，指挥官来给我讲个故事？",
+			say = "I've got an idea – you should tell me something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "这种惬意的氛围下听着你的声音，说不定我就会涌起浓浓的睡意哦……",
+			say = "The mood here is just so relaxing, so hearing your voice might just be the push that gets me to doze off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,18 +389,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "嗯……我想想讲什么好。",
+			say = "Hmm. Alright, I've got one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "讲一个在商店购物讨价还价的故事",
+					content = "I was trying to haggle at a store, and then...",
 					flag = 1
 				},
 				{
-					content = "讲一个越加班工作越多的故事",
+					content = "I did overtime, which resulted in me getting more work, and then...",
 					flag = 2
 				}
 			}
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "呜哇……这个一听就是会让人做噩梦的无聊故事……！",
+			say = "Wow... That sounds like a super boring story. Bet it'll give me nightmares!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "那，不如让我给指挥官讲一个故事吧？",
+			say = "You know what? I'll tell YOU something instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "是我做过的……有趣的梦哦♪",
+			say = "About the coolest dream I've had in recent memory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:461:吕佐夫}的梦么？那我洗耳恭听了。",
+			say = "Sure. Let's hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "嗯~……我梦到指挥官变成一只大海豹，在海里游来游去……",
+			say = "Heheh. So, in the dream, you were a big seal. You were swimming through the sea, all carefree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "然后我呢……变成了一只鲨鱼……",
+			say = "And guess what? I was a shark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "一直跟在海豹指挥官后面，游啊游的……",
+			say = "I chased after you, and I was right behind you the whooole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……这个梦有趣的点，是你要吃了我么？",
+			say = "Basically, you were gunning for dinner, am I right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "呼呼~才不是呢~",
+			say = "Hey, lemme finish. Heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "人家只是想和指挥官一起，去看看这片大海而已啊♪",
+			say = "Wouldn't you know it – you and I were just marveling at the sea all around us as we went.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "而且，变成海豹的指挥官……超可爱的哦……",
+			say = "Oh, also, you were sooo cute as a seal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "午后的阳光渐渐西斜，却仍温柔地笼罩着我们。",
+			say = "The rays of the setting sun embrace us gently as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "在{namecode:461:吕佐夫}慵懒的笑容中，仿佛连时间也逐渐静止——",
+			say = "It feels like time has stopped as I look at her, relaxing without a care in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

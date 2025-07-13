@@ -24,9 +24,9 @@ end
 
 function var_0_0.initEvent(arg_5_0)
 	if not arg_5_0.handle then
-		arg_5_0.handle = FixedUpdateBeat:CreateListener(arg_5_0.OnUpdate, arg_5_0)
+		arg_5_0.handle = UpdateBeat:CreateListener(arg_5_0.OnUpdate, arg_5_0)
 
-		FixedUpdateBeat:AddListener(arg_5_0.handle)
+		UpdateBeat:AddListener(arg_5_0.handle)
 	end
 
 	arg_5_0:bind(WatermelonGameEvent.LEVEL_GAME, function(arg_6_0, arg_6_1, arg_6_2)
@@ -256,7 +256,7 @@ function var_0_0.getRankData(arg_32_0)
 end
 
 function var_0_0.stepRunTimeData(arg_35_0)
-	local var_35_0 = Time.fixedDeltaTime
+	local var_35_0 = Time.deltaTime
 
 	var_0_1.gameTime = var_0_1.gameTime - var_35_0
 	var_0_1.gameStepTime = var_0_1.gameStepTime + var_35_0
@@ -353,7 +353,7 @@ end
 
 function var_0_0.willExit(arg_45_0)
 	if arg_45_0.handle then
-		FixedUpdateBeat:RemoveListener(arg_45_0.handle)
+		UpdateBeat:RemoveListener(arg_45_0.handle)
 	end
 
 	if arg_45_0._tf and LeanTween.isTweening(go(arg_45_0._tf)) then

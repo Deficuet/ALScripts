@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>五　她的心意？</size>",
+					"Where the Sun Doesn't Shine\n\n<size=45>Showing She Cares ?</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "撒丁宿舍区的某处。看上去只是一间平平无奇的小房间，但其实——",
+			say = "Somewhere in the Sardegnian dorm, there's a small, ordinary-looking room. But, looks can be deceiving.",
 			bgmDelay = 2,
 			bgm = "story-richang-6",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这里是一处不为人知的秘密基地。而此时，基地里有人正在摆弄着各种实验仪器，似乎在做什么发明。",
+			say = "In reality, it's a secret laboratory. Inside, there is a girl tinkering with tools, working on some sort of invention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗯哼哼~进度顺利~",
+			say = "Nice... Looking good so far!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与此同时，屋外传来了敲门声。",
+			say = "That's when someone knocks on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "暗号？",
+			say = "What's the passphrase?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,10 +103,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "一切推理都必须从观察与实验得来。",
+			say = "Observation and testing is the root of all deductions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "原来是托里拆利啊，进来吧~",
+			say = "Ah, Torricelli! Come on in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "屋门被推开了。看起来稍微有些苦闷的托里拆利推门走了进来。",
+			say = "The door opens for Torricelli, who bears a somewhat distressed expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这种时候来找我……肯定是有什么新的点子或者创意要分享了吧？",
+			say = "What brings you here this late? Sudden hit of inspiration? A new idea to share?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "还是说，打算进行新的武器实验，要我提供设备协助？说起来上次咱们约好的武器还……",
+			say = "Maybe to borrow some machinery to develop new weapons? Speaking of which, I still haven't gotten the last batch we agreed on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "其实……",
+			say = "Not quite...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "唔……难道是设备改造？不、不会是我上次你找我做的新发明故障了吧？不应该啊……咳，一定是你的原型思路有问题！",
+			say = "Ahh, wait – one of my inventions broke? But that's theoretically impossible... Whatever the problem is, it has to stem from your prototype!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "先听我说啦！……",
+			say = "No, da Vinci, it's nothing like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我其实是想问……如果想给指挥官送礼物的话，送、送点什么东西比较好呢？",
+			say = "Listen for a sec... Supposing you wanted to give the Commander a gift... what would it be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "………………",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "…………哎？",
+			say = "...Come again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "原来如此原来如此……觉得各个方面都在被指挥官照顾，想回报一下是吗……嗯……",
+			say = "Nooow I get it. You want to return the Commander's kindness in some way. Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "（……为什么突然问我这种问题啊……要是发明什么我还能想想办法，这种事情我怎么知道！）",
+			say = "(You're asking the wrong person! My forte is inventing things, not interpersonal relationships! Heck, I WISH I had the answer!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不过你居然会突然提“送礼物”这种事……",
+			say = "You know, I'm really surprised you're asking about gifts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如果是平常的那个托里拆利的话，应该只会心安理得地接受别人的好意吧？",
+			say = "In your case, shouldn't it be enough to say, \"I'm glad I have you to look after me\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "喂！",
+			say = "...Ugh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "咳咳……总之，送礼物……虽然搞不太明白，但送别人最需要的东西，应该就好了吧？？",
+			say = "Ahem. Back on topic... I'm not sure what to tell you, other than, \"Get something the Commander would love.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "能收到自己需要的东西，感觉会比收到昂贵的礼物或者是别人一厢情愿想送的东西更高兴呢~",
+			say = "It doesn't have to be expensive or exotic. What people like most is receiving something they really needed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "最需要的东西……",
+			say = "Something... they really needed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错！不过我也有点搞不明白指挥官究竟喜欢什么……",
+			say = "Yup! Sadly, I have no idea what the Commander needs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "没错！不过我也有点搞不明白指挥官究竟喜欢什么……",
+			say = "Yup! Sadly, I have no idea what the Commander needs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这样啊……",
+			say = "You're right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "原来如此，我明白了……谢谢。",
+			say = "That's it... Now I know what to get. Hehehe... Thanks, da Vinci.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "客气啦客气啦~",
+			say = "You're welcome!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "（呼……糊弄过去了，其实我这说的不是废话嘛……）",
+			say = "(Phew! I didn't lose face, even if all I did was tell her the obvious...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "（不过我不这么说的话，指不定她会送什么危险品给指挥官呢……）",
+			say = "(Still, it's good that I did! If I hadn't, who knows what dangerous stuff she might've given the Commander!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（指挥官，祝你好运咯。）",
+			say = "(Hope it goes well, Commander.)",
 			painting = {
 				alpha = 0.3,
 				time = 1

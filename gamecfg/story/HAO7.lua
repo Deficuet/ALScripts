@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>七　属于彼此的甜蜜饼干</size>",
+					"Our Sweet Cookies\n\n<size=45>7 Our Sweet Cookies</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "考虑到要拿的东西有点多，豪将小饼干、红茶壶、餐垫等等物品放进了手推车里。",
+			say = "We load the kitchen trolley with cookies, tea, and napkins, and bring it out into the yard.",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "然后以“指挥官的手虽然没烫伤，但烫到也应该休息”为由，拒绝了我帮忙的提议……",
+			say = "Having secured a table and chairs, Howe tells me to take it easy, even if I strictly speaking didn't get burned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "豪推着手推车，和我一起来到了庭院中后，她便找了个位置，将带来的东西摆放妥当。",
+			say = "While I do that, she sets the table for us both.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "好了~这样就可以啦。指挥官，开始我们的下午茶吧。",
+			say = "Alright, that should do. Now, love, it's finally time for Royal Navy-style afternoon tea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "豪笑着示意我坐到她准备好的座位上，随后她也坐到了我身旁。",
+			say = "She shows me to my seat. I sit down, as does she.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "打算先从哪一份开始？",
+			say = "So, which do we start with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "餐垫上的饼干盒里，放着她烤制的普通的小饼干，以及……",
+			say = "There are two kinds of cookies in the box sitting on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,43 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在她的指导下，我用制服帽子模具做出来的小饼干。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 205090,
-			say = "当然是这个了——指挥官初次烤制的饼干！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			say = "她拿起加入了果干的、制服帽子样式的饼干咬了一口。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_509",
-			hidePaintObj = true,
-			say = "少女灰绿色的眼瞳中马上绽放出了欣喜悦人的色彩。",
+			say = "The first, regular cookies. The second, the naval cap-shaped ones I made with her guidance – with dried fruit inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "好好吃，指挥官也尝尝看！",
+			say = "That's obvious! With your first-ever batch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,14 +143,50 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "她将手中的饼干递到了我嘴边。",
+			say = "She picks up a cookie and takes a bite out of it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_509",
+			hidePaintObj = true,
+			say = "Almost immediately, her eyes light up with joy like a pair of sapphires.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_509",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 205090,
+			say = "It's so good! Have a bite!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_509",
+			hidePaintObj = true,
+			say = "Reaching across the table, she brings the cookie up to my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "张嘴",
+					content = "(Take a bite.)",
 					flag = 1
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "张嘴咬了一口豪递过来的饼干。",
+			say = "I chomp a piece out of the cookie.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（虽然作为初学者来说确实还可以，但应该还没到豪那么夸张的程度？）",
+			say = "(Sure, it's pretty good for a first attempt... but it's not really eye-openingly good, is it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "看指挥官的表情，是觉得我的反应太夸张了么？",
+			say = "You don't think I was overreacting, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "其实如实评价就好。",
+			say = "Well, if you weren't, let's hear your objective analysis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "唔……可我确实觉得很好吃啊？",
+			say = "I mean... It's very delicious. I really think that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "明明是我教的制作方法，但是这份小饼干就是感觉比以往任何饼干都要更加美味。",
+			say = "I only just taught you how to make cookies, and you've already made one that tastes better than any I've ever had before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "啊，一定是因为这是指挥官亲手制作的，所以才会这么好吃……",
+			say = "It's probably because YOU made it. That must be why it tastes so good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "少女的眼眸再度亮起。",
+			say = "So bright is her smile that it's almost like looking at the sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "之后，吃着酥脆可口的饼干，配着茶水，与豪度过了美好的下午茶时间。",
+			say = "With those first bites, our wonderful tea party begins. Aromatic tea fills our cups while our plates are lined with crisp cookies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在带来的小饼干都被吃得差不多后——",
+			say = "Later, after we've eaten the cookies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "指挥官，我再帮你倒杯茶吧？",
+			say = "Would you like a refill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "豪一边询问着，一边偏过头来看我。",
+			say = "She looks at me and waits for an answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……指挥官，脸上沾到了饼干碎屑哦。",
+			say = "Oh, you have cookie crumbs on your face, love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "还是那么不小心呢。",
+			say = "Gosh, what a messy eater you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "熟悉的笑意再度浮现在少女的脸颊上。",
+			say = "Despite ostensibly sounding rude, she still has that same gentle smile on her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哪里？",
+			say = "Where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "带着疑惑，我抬手抹了抹脸。",
+			say = "Confused, I wipe my face using the palm of my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "然而这动作却让少女脸上的笑意又加深了几分。",
+			say = "However, there are no crumbs on my face. The only thing on anyone's face is the teasing smirk on hers, growing wider.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "完全没擦掉呢，碎屑还在……让我来帮你擦一擦吧。",
+			say = "They're still there. You know what? Let me do it for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看，这一次我的手上可没有沾着饼干碎屑哦。",
+			say = "See? Your hands are clean. Proof that you didn't get the crumbs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "豪说着，凑上来用手指仔细为我擦拭脸上的碎屑。",
+			say = "Saying that, she leans in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "她凑得很近，指尖轻柔地抚过我的脸。",
+			say = "She graces my cheek using her delicate fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "接着，她凝视着我的双眼，然后凑得更近了些。",
+			say = "Our gazes meet. I feel her warmth, and she feels mine. The space between us is ever shrinking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "彼此之间的距离一步步拉近，直至一个柔软的的吻落在唇角。",
+			say = "Until finally, her tender lips kiss mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "一触即分后，她稍稍拉开了距离，仰着脸庞看着我。",
+			say = "She pulls away after a moment and looks right at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "她眸光柔和，带着几分羞涩，却又无比坚定。",
+			say = "In her eyes, I see so many things – kindness, shyness, incredible happiness, and an immovable will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "指挥官……虽然这么说有点突然，但……",
+			say = "This may be rather sudden, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我今天真的很开心，希望以后我们也一起做更多的小饼干，一起像今天一样……",
+			say = "Making these cookies with you, spending some quiet time together... It makes me happy like you wouldn't believe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "享受只属于我们的时光。",
+			say = "And... I hope we'll be together like this more from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

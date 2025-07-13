@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_cg4",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "与此同时的会客室中——",
+			say = "Sanctuary Pagoda - Reception Room",
 			bgm = "theme-musashi-inside",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:74}大人的打法，完全变成以稳为主了。",
+			say = "I see you've finally caught a small glimpse into this game's true purpose, Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "刚刚摆出的阵型里透露出一种绝不想损失任何一名侍从的气势呢。",
+			say = "It's just as you said, Mikasa - she is prepared to do what it takes in order to secure her \"bloodless\" victory...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如此在意坛坛罐罐，对于下棋来说不是好选择，应该也与你之前的计划不同吧？",
+			say = "...Even if she knows it is a waste of the immense power bestowed upon her. Did you predict this as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "唉……计划总是赶不上变化。事情既然已经发生了，也只能接受，然后思考下一步对策了。",
+			say = "Hah, I'm not a mind-reader, nor do I claim to know everything about Nagato. But what I do know is, now that she has chosen a path, it is my duty to follow it through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "不过{namecode:84}大人，我帮助{namecode:74}不仅仅是因为我与她的合作关系，更重要的是我想帮助她。",
+			say = "If Nagato does decide to fight, I will gladly take up arms by her side. Both you and Akagi were aware of this before the game even began, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "原来如此，那{namecode:74}大人原本想要的那个边界据点我就收下了哦？",
+			say = "In my eyes, you seem more concerned with keeping Akagi in check than facilitating Nagato's victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}大人真是出手毫不留情呢。",
+			say = "Possibly? It sometimes seems like you know me better than I know myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "棋场亦如战场，过分的仁慈乃是毒药。",
+			say = "Compassion for the weak may be a virtue, but on the battlefield, it may just as well be your undoing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这一点你与{namecode:74}大人不同，反而与我很像。你在对待{namecode:91}大人上也没怎么留情面吧。",
+			say = "I can easily understand your loyalties and what you are aiming for... But why are you keeping that child from facing Akagi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "此刻，你把{namecode:91}大人堵在中心，是想看她下一步怎么做吧？",
+			say = "Your actions do not pave the path to victory. Instead of showing me a vision of the future, you still seem to be shackled by your mistrust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "是承受损失强攻中心据点呢，还是就此放弃攻势退出中心——",
+			say = "Now, your fate is no longer in your own hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我更愿意称这个策略为稳健，不论如何，选择权都在{namecode:91}自己手里。",
+			say = "Mistrust? No, it is a measured anticipation more than anything else. Everything depends on what Akagi decides to do - and I have accepted this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "一处落后，处处落后。主动放弃主动权之人将永远也无法取得先机，你不担心么？",
+			say = "Once you've been put on the back foot, you will continue to remain at a disadvantage. Can someone who has given up the initiative keep her eyes on the future when she cannot even keep up with the present?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:91}进攻犀利，但是为人心浮气躁。如此下去，其部署必出混乱，我等待的就是那个时机。",
+			say = "Initiative is not everything. We will find out soon enough if Akagi has the discipline to stay, or if she ends up going bust in her haste.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}身边也拥有着一批优秀的人才辅佐哦，要是你想要的那个机会一直不来呢？",
+			say = "Heh. Right you are, but what will you do if she doesn't end up going bust?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这批优秀的人才之中，也包括您本人么？",
+			say = "I can tell where you'd prefer to hedge your bets. I won't take it personally if we end up standing on opposite sides.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "就现状而言，你觉得呢？",
+			say = "Surely you jest, Great Veteran~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……至少现阶段，我还等得起。",
+			say = "At this point, I still have time on my side. You're not scrambling to make any moves either, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:84}",
 			stopbgm = true,
-			say = "呵呵，吾只是稍微试探一下，汝之心就乱了。",
+			say = "True. Unlike Nagato, you are not so easy to provoke.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "提问吧，{namecode:82}，汝是带着问题来的吧。",
+			say = "But surely this isn't what you're interested in. You've had questions for me this whole time, haven't you?",
 			bgm = "theme-musashi-outside",
 			painting = {
 				alpha = 0.3,
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "真是什么都瞒不过您。其实有几件事我怎么也想不明白。",
+			say = "Too many things have been on my mind. Things that don't make any sense to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "您为什么要让{namecode:182}去欧罗巴筹备博览会，然后让{namecode:96}去再次出访铁血呢？",
+			say = "For example, why did you send Shinano to Sardegna, and Zuikaku to Iron Blood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "这两次调动感觉都有些太过匆忙了。",
+			say = "Neither of these things were ordered by the higher-ups, and these decisions were made on extremely short notice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你认为这些都是我为了让她们二人远离重樱本土而特意做出的部署？",
+			say = "Are you suggesting that I'm deliberately keeping them away from the Sakura Empire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "除此之外还有什么缘由么？",
+			say = "I can't think of any other explanation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:182}的身份适合去一个远离重樱本土的地方代表重樱进行行动，{namecode:96}则是因为那个地方她之前去过一次，人熟地也熟。",
+			say = "Shinano is a good representative for our goodwill delegation to Sardegna, and Zuikaku already has some standing with Iron Blood following her visit to their floating fortress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "很遗憾，这两件事单纯只是吾觉得合适罢了，仅此而已。",
+			say = "Do you disagree with my choice of delegates?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "那理应跟随{namecode:182}一起返回天岩岛的海若呢？——她从铁血要塞运回来的东西其实就是海若吧？",
+			say = "Then, what about the Watatsumi? I heard it had been returned to us, but before anyone realized it, it had gone missing again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "然后运载其的运输队在划归您指挥之后就下落不明了，它现在被送去了哪里？",
+			say = "None of us get to arbitrarily decide what to do with the Sakura Empire's relics. Where is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "因为出现了先前在天宇启户祭上你我皆知的情况，现在海若被送到了一处更加安全的地方保管起来了。",
+			say = "Due to the attack on the Diadem of Light, the security protocols regarding our sacred relics have been called into question, so I had it moved to a safer location.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……那您知道神石的本质是什么么？根据我的调查，涉及到神石的记录大多都有遭到篡改的痕迹。",
+			say = "...Do you know anything about the Watatsumi's origins? The more I look into it, the more I doubt it's actually an ancient relic passed down from generation to generation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "我怀疑神石其存在的本身就跟众多突然出现的“圣域”一样，是由塞壬制造并留下的某种危险物品。",
+			say = "I get the same impressions of the Sanctuary. I can't help but feel that Sirens are involved somehow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这个猜测倒是十分有趣……只是很遗憾，这件事上我知道的情报和你一样多。",
+			say = "That's news to me. I don't know any more about these things than you do, unfortunately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "与塞壬合作的事一直是{namecode:91}主导的，我只是在她需要的时候给予她全力支持罢了。",
+			say = "Perhaps, I know even less. After all, Akagi's dealings with the Sirens are her responsibility alone. I merely give her the authorization she needs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}，你知道{namecode:91}真正想要做的事是什么么？",
+			say = "Akagi's dealings with Siren technology wouldn't have been possible without your backing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这件事你心中已经隐约有了答案，又何必来问我呢。",
+			say = "If you already know this much, then what need is there to hear it from my mouth?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "………………为了这件事就要如烈火一般燃尽整个重樱么？我绝对不允许这样的事发生！",
+			say = "We cannot allow Siren technology... No, the Sirens themselves, to go unchecked! Do you not have enough love and loyalty for the Sakura Empire to realize that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "凭借什么而“不允许”呢？",
+			say = "I have nothing but love and loyalty. However...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}通过与塞壬合作，为重樱带来了繁荣与强盛，也因此，她现在拥有重樱高层的全力支持，当然我的支持也包含在内。",
+			say = "The Sakura Empire owes the power it currently enjoys to Siren technology. Even without the Naval HQ's Reenactments, we have already become addicted to their poison.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你呢？",
+			say = "News of this should have reached your ears while you were in seclusion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "在加入了{namecode:440}的作战之后，{namecode:91}应该已经惹怒了塞壬，接下来她们之间想必无法再继续合作了吧。",
+			say = "I do not believe for a second that this momentary peace means the Sirens have retreated. Ever since the Iron Blood's rebellion, they've been far too quiet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "是么？那为何塞壬到现在都没有进行猛烈的报复行动？",
+			say = "Then, would you say the Sirens are watching us, biding their time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你以为，{namecode:91}能拥有如此权势的原因是什么？因为她与{namecode:161}的关系，或者因为她带来的塞壬技术？",
+			say = "Akagi has led the Sakura Empire thus far not because of her relationship to Amagi, nor because she's actively trying to obtain Siren technology.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "亦或是，整个重樱高层所有人都受到了{namecode:91}蒙骗？",
+			say = "It is because she has chosen the path that you, I, and the entire Sakura Empire believes in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "皆非，如同{namecode:440}改变了铁血命运的轨迹一般，她为重樱带来的是命运的改变。",
+			say = "What you see is an Akagi ensnared by the corrupting influence of the Sirens, just as how the Black Cube ensnared Bismarck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "也因此，她获得了带领重樱前进的权利。",
+			say = "But without that power, the Sakura Empire would have no future.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "命运的改变……？",
+			say = "No future? You're not making any sense...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,7 +844,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，假设你明天就要迎来生命的终结，你的亲朋好友也将面临相同的命运，你会做什么？",
+			say = "Mikasa, you know what Reenactments are, right? As long as they continue, we will all be condemned to annihilation, just like Bismarck was.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "……早一天知道就可以早一天做准备，我将用尽全力与这样的明天抗争。",
+			say = "We cannot allow that to happen. I would gladly give my life to resist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}就是在做这样的事。",
+			say = "Akagi said the exact same thing. You are focusing only on her madness and have lost sight of her true nature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "如果你想要纠正她，那首先要真正了解她所做的一切。",
+			say = "If Akagi's path is wrong, then it is necessary to see the reflections of her mind and heart which paved that path.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你知道塞壬手中的“既定剧本”么？",
+			say = "Akagi is not as simple-minded as you, and Zuikaku, seem to believe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "既定剧本……？",
+			say = "Are you saying... that Akagi also seeks to destroy our Reenactment, just like the Iron Blood did with theirs?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你应该听{namecode:96}说了吧，之前在构建者那里看到的“幻象”。",
+			say = "You've seen the Commander's report too, haven't you? The Sirens deployed a weapon that causes the very foundation of our hulls to tremble.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "……那些，并不只是单纯的幻象而已。构建者称其为记录，其实是名副其实的。",
+			say = "Those scenes they showed us were not illusions. They are the basis of the Sirens' Natural Calculation System... In other words, their \"reality.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:92}会死于企业之手，{namecode:91}会在被企业重伤后自沉，{namecode:182}会死于{namecode:196}之手。",
+			say = "Shinano has seen the same dream over and over again. From that single \"reality,\" we are destroyed again and again in countless futures.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,7 +997,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾与{namecode:83}会淹没在埃塞克斯级舰载机的海洋中，{namecode:74}则会与{namecode:427}以及那个白鹰的萨拉托加手挽手消失在{namecode:96}所见的白光下。",
+			say = "A black tornado that seeks to devour the ocean. Horrendous beasts that defy the power of the KAN-SEN and crush our destined future... There is no escape from them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "你想要迎来这样的结局么？",
+			say = "As long as we cannot break the recorded Reenactment that leads to their \"reality,\" we will be nothing more than ragdolls dancing in the Sirens' palms.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "当然不想！",
+			say = "All those sacrifices we made to push them back during the last war... Does none of that matter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,7 +1053,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:91}也不想。虽然并非她的主要目标，但她依然确保让这个记录成为了对我们而言没有任何意义的“幻象”。",
+			say = "What matters is... None of us can accept that reality lying down. Not Akagi, and not the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然后，吾这里还有另一份记录。",
+			say = "The Naval HQ's... No, rather, the Sirens' Reenactments... They may be too numerous to count.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "在这份记录中，{namecode:91}与{namecode:92}为了保护同伴而先后牺牲，紧接着是吾与{namecode:83}。",
+			say = "Even if we are able to escape the flames of war, the power of those aberrant beasts will still bear down upon us–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝死在了争取援军的路上。{namecode:182}亲眼看着最后的同伴一个个在身边倒下，最后也淹没在无尽的潮水中。",
+			say = "Akagi, Kaga, Yamato, myself... All of the Sakura Empire. All the shipgirls in this world. Everything will be devoured... until even the dreamer herself meets the same fate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "这个版本的记录你觉得好些了么？",
+			say = "...Do you understand now, Mikasa?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "不……也不够好。",
+			say = "That... is not a future we can accept.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,7 +1155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "吾也如此觉得，也因此，吾等想要确保这个记录也能够成为对于我们而言没有任何意义的“幻象”。",
+			say = "What Akagi seeks to do is to render all Reenactments null and void, so that they are nothing more than leaves on the tree of possibility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1172,7 +1172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}，你的目标是高尚的，行动是正派的。",
+			say = "As principled and compassionate as you are, your distrust towards Akagi is understandable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1189,7 +1189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "然，行正义者，易困顿于荆棘。此事犹如身负千钧之重，行万里之路，如无力量，寸步难行。",
+			say = "However, principles mean nothing if they cannot be defended and enforced. If you believe your path to be correct, then you must prove it to Akagi - with your strength.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1206,7 +1206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "汝如何能够让吾等相信，汝就能做的更好？",
+			say = "Unlike Akagi and Nagato, you are not weak. But even then, you could not bear the burden of the entire Sakura Empire atop your shoulders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1223,7 +1223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "{namecode:84}大人…………………",
+			say = "Musashi...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,7 +1240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "……这是吾等对于你的提问。",
+			say = "This exercise was designed to be a clash of ideals, not rhetoric.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1257,7 +1257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "但，并非是今日需要你在此处当场回答的提问。",
+			say = "But in the end, isn't it too boring waxing philosophical around a chessboard?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1274,7 +1274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "本日相聚的目的在于下棋，现在还是着眼于棋盘吧。",
+			say = "Make your move, Mikasa. There are those who believe in you, and in the victory they believe you will lead them to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
-			say = "{namecode:82}大人，让其他人等太久可不好哦？",
+			say = "Don't keep them waiting too long, Great Veteran.",
 			painting = {
 				alpha = 0.3,
 				time = 1

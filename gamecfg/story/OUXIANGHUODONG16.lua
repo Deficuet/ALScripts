@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇的偶像服，不是兔兔呢……",
+			say = "Eldridge's idol outfit... isn't bunny-like at all...",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "咕努努…兔兔星偶像宣传计划要……",
+			say = "Argh... Our plan to spread the gospel of Planet Bunny...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…突然打出喵喵星之类的设定也不是办法吧…呜…怎么办呢",
+			say = "...There's no way we can change everything to Planet Kitty... has anyone even heard of that before...? Ugh, what should we do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "本森姐姐？",
+			say = "Benson?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
-			say = "没、没什么啦！既然如此就以“喵喵偶像”直球宣传定胜负吧！",
+			say = "It's nothing, I'm just venting to myself! All right, we just have to bite the bullet and get behind this \"Kitty Idol!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你们见识下超绝可爱美少女本森酱身为偶像训练师的素质吧！",
+			say = "I'll let the whole world know the pedigree of the super-cute top-tier idol trainer, Benson!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 403070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加斯科涅，你这是……！？",
+			say = "Gascogne! What are you doing...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "嗯，加斯科涅曾经认为，这次活动的意义在于“舰装实验”。",
+			say = "Yes, Gascogne used to believe that the purpose of this event was to conduct armament trials.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "但是，不对。我们站在这里不只是为了战斗，更是为了和大家一起享受快乐…！",
+			say = "But I was mistaken. The purpose of this was not just to fight, but for everyone to have fun...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 905030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，我也会倾注此刻所有的“感情”，全力与大家一起享受的！",
+			say = "That's what... I have to also release my emotions, and enjoy myself with all my might!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…那真是太好了呢",
+			say = "...I am pleased to hear your decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！大家一起享受到最后一刻吧！",
+			say = "Booyah! Let's keep smiling and laughing until the very end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-longgong",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:18}一边维持航速，一边借助塞壬量产型作为阻挡灵活向前推进着。",
+			say = "Shimakaze darted between the enemy mass-produced ships, skillfully avoiding the increasingly tumultuous waves as she made her way to the Heart of the Dragon Palace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "躲避波峰，然后前进……然后再躲避波峰。",
+			say = "Gotta jump over that next huge wave and duck under that mass-produced ship up ahead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……要点是节奏感~倒是有些障碍冲浪的感觉了！",
+			say = "Woooah! It almost feels like I'm surfing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "{namecode:18}，前方发现了一个异常区域，你看到什么了么？",
+			say = "Shimakaze, do you see that weird-looking structure in front of you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔——哇！前面的小岛上有一个正在发光的建筑哎！",
+			say = "Uhhh... Oh yeah, I do! There's some kind of energy reading coming from it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来那里就是控制机关的所在地了。不过发光的大概也是结界，可能没那么容易破坏……唔。",
+			say = "I think that's the mechanism causing all this! We'll need to hurry up and destroy it–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没事！{namecode:18}会加倍努力的！",
+			say = "Right-o! Ready, steady... Wait, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "努力之前先动动脑子！这种事怎么看都应该交给正规航母来做吧！",
+			say = "Don't you know you have to bring the right class for the job? Now this... is where a full-fledged carrier gets to shine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里就交给我的舰载机吧，在轰炸结束之前不要靠过去哦！",
+			say = "Shimakaze, stand back! It's time for some aircraft-delivered fireworks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明、明白了！{namecode:208}阁下！",
+			say = "Oh, of course. You're up, Katsuragi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

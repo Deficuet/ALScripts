@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg8",
 			stopbgm = true,
-			say = "大棋盘·{namecode:74}控制区 第三回合",
+			say = "Exercise Area - Turn 3 (Musashi's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "就在{namecode:74}队的众人还在思考下回合的策略时，{namecode:84}的侍从已经穿越了没能被{namecode:74}及时攻占的边界据点。",
+			say = "Taking advantage of the thick sea fog, Musashi's \"retainers,\" Sakawa and Wakatsuki, crossed over to launch a surprise attack on the area occupied by Nagato's fleet.",
 			effects = {
 				{
 					active = true,
@@ -59,7 +59,7 @@ return {
 			actor = 307050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:157}，{namecode:158}，{namecode:84}大人的侍从好像向着你们的方向冲过去了。",
+			say = "Harutsuki! Kawakaze! Musashi's forces are headed towards you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？我这里都是雾气看不太清楚……她们不会是迷路了吧。",
+			say = "G-got it! But, where are they coming from? I can't really see through all this fog...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "现在是下棋，怎么会走错路……明显是冲我们来的。{namecode:157}，准备迎敌！",
+			say = "They're coming straight at us! Prepare for combat, Harutsuki!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸……？！",
+			say = "H-huuuh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "两名高速疾驰的少女突破迷雾，分别停在了{namecode:158}和{namecode:157}所在的棋盘格上。",
+			say = "As soon as Kawakaze drew her blade, Sakawa and Wakatsuki burst from the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人的侍从，你们好~！",
+			say = "Hello there, Nagato's retainers~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是{namecode:226}，旁边的是{namecode:225}，我们来找你们玩咯~",
+			say = "I'm the Agano-class light cruiser, Sakawa. Let's have a fair fight, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "各位好，我是{namecode:84}大人的侍从{namecode:225}。不请自来实在抱歉，{namecode:157}，吓到你了么？",
+			say = "And I'm the Akizuki-class destroyer, Wakatsuki. Sorry for barging in all of a sudden, Harutsuki.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没、没事……稍微有一点吃惊而已。",
+			say = "I'll be fine... Probably...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们像这样强行闯入，应该不是单纯要跟我们打招呼而已吧？",
+			say = "Harutsuki, remain alert. We're not allies anymore, for the time being.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人只下了命令让我们过来，没说让我们战斗。",
+			say = "Well, we don't necessarily have to fight, right? Musashi only ordered for us to move to this area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且我们刚打完据点，也没有攻击次数啦。",
+			say = "Plus, we just finished taking the Dragon Palace. I could use some extra time for rest and recovery~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此，那就太好了……",
+			say = "Phew... I'd like to avoid conflict if possible...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "{namecode:157}有些如释重负的垂下了神乐杖，不过{namecode:158}的手依然警惕地握在刀把上。",
+			say = "Unlike Harutsuki, who sighed in relief and lowered her weapons, Kawakaze remained vigilant and poised to strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,23 +275,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姑且提醒一句，连续对据点进行强攻的你们从战斗至今没有进行过任何回复，而我和{namecode:157}则几乎没有受到任何损伤。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			bgName = "bg_wuzang_bg8",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "既然无意战斗，那我们可以和平相处。",
+			say = "It's true that we're in top shape whereas you've sustained some damage from your previous battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +291,23 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "若想战斗，我们也奉陪到底。",
+			say = "If you don't want to fight, I certainly won't force you to.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "But don't come a single step closer. Those are Lady Nagato's orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~很有自信嘛。早就听说过{namecode:74}大人的护卫{namecode:158}剑术高超，要是一会有机会切磋的话务必让我见识一下哦！",
+			say = "I see... So you've been ordered to hold us back. Hmm... I know you're strong, but are you strong enough to stop both of us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "远方，{namecode:71}正利用实时地图关注着前线的发展。",
+			say = "Hiei, who was situated in a nearby grid, heard the impending clash through her communication device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,23 +350,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……确实，她们已经没有战斗次数了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 304020,
-			side = 2,
-			bgName = "bg_wuzang_bg8",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "从规则上来讲，在发生重叠之后率先离开的一方会遭受另一方的反击。",
+			say = "Nagato, you correctly anticipated Musashi's move, but you didn't fully plan for the effects of the sea fog.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +366,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "用驱逐舰拖住巡洋舰也确实是我们比较赚，不过{namecode:84}大人是不可能犯这种错误的。",
+			say = "If you chose to launch an all-out attack in the fog, you would've been able to inflict more damage. However, that would prevent you from securing enough bases to pin Musashi in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,33 +382,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这片诡异的海雾尚未散去。{namecode:84}大人的奇怪部署又发生在此时，事情真的会有这么简单么……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_wuzang_bg8",
-			say = "在众人聊天之际，{namecode:84}的行动结束了。但是回合计数并没有来到第四回合，而是进入了一个新的阶段。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 304020,
-			side = 2,
-			bgName = "bg_wuzang_bg8",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "这个是……一个大回合结束之后的结算阶段？！",
+			say = "It must've been a difficult decision, but you wanted to avoid fighting your own friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +398,49 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不好……果然这个海雾是有隐藏效果的！",
+			say = "The sea fog will clear soon, and now, it remains to be seen what kind of decision Musashi will make.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_wuzang_bg8",
+			say = "The white veil that blanketed the sea began to thin out and disperse, until finally––",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 304020,
+			side = 2,
+			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "The sound of fighting...?! Does that mean...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 304020,
+			side = 2,
+			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Musashi, you actually decided to pull the trigger?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，我要收回前言，没想到战斗的时机这么快就到来了。",
+			say = "Sorry, but we've got our orders. Um, Wakatsuki, you got Musashi's message as well, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "KABOOM––––!!",
 			flashN = {
 				color = {
 					1,
@@ -538,7 +538,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "伴随着炮击声，{namecode:226}突然向着{namecode:157}高速驶去。",
+			say = "Before Sakawa and Wakatsuki finished preparing to attack, Musashi's mass-produced ships emerged from the fog and began to hammer Harutsuki and Kawakaze with a ferocious barrage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "觉悟吧，{namecode:157}，{namecode:84}队的第一个战果就由我{namecode:226}拔得头筹！",
+			say = "Sorry, but that's life for ya. We're going to have to fight after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！发生什么事了，为什么你在没有攻击次数的时候还能打过来……！",
+			say = "Didn't you just say the complete opposite thing a moment ago?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来「海雾弥散」在回合结束时设置了效果，回合结束时处于同一格的人之间要发生强制战斗哦~",
+			say = "Hey, I would've preferred to walk away as well, but we can't disobey the boss lady.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没想到还有这一招……但是，就如刚才我说的，就算战斗也是我们这边更有优势！",
+			say = "I was right not to let my guard down...! But considering the damage those two have already sustained, we clearly have the upper hand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "剑术「护卫剑法」，要想进攻{namecode:157}的话先吃我一剑！",
+			say = "Harutsuki, stay close behind me! We'll settle this with close-range torpedo combat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "{namecode:158}摆好架势，剑气环绕在她身边，在面前之敌出手之前，剑锋就会先一步将来犯之敌一刀两断。",
+			say = "Kawakaze drew her sword, her eyes narrowing as she maneuvered to place Sakawa and Wakatsuki between her and Musashi's mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "专门用于护卫他人的剑法么……哈哈，真是有趣！那就让我们来切磋一下剑术吧~",
+			say = "You've got some keen moves there, as expected of Nagato's personal bodyguard... But I'm no slouch either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不要忘了我哦~{namecode:225}，参上！",
+			say = "D-don't underestimate me either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			say = "炮火对炮火，剑对剑，就当一场不可避免的大混战即将到来之际。",
+			say = "Just when cannons and swords were about to trade blows––",
 			effects = {
 				{
 					active = false,
@@ -710,6 +710,10 @@ return {
 				{
 					"",
 					0
+				},
+				{
+					"That's enough!",
+					0
 				}
 			}
 		},
@@ -717,7 +721,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_cg2",
-			say = "——————汝等，就到此为止吧。",
+			say = "A brilliant beam of light descended onto the battlefield, like a stream of cherry blossoms hitting the water's surface. The rest of the thinning sea fog was instantly pushed aside, and Nagato, flagship of the Reborn Combined Fleet, emerged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,17 +731,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_cg2",
-			say = "橙色的闪光出现在战场中心，在飘散的樱花雨中，{namecode:74}出现在水面上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_wuzang_cg2",
-			say = "粉红的樱花构成了一道屏障阻挡在{namecode:157}与炮弹之间，覆盖了蓄势待发的{namecode:158}，也让{namecode:226}停下了脚步。",
+			say = "Nagato's barriers surrounded the attackers on both sides, pushing blades apart and rendering shells useless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +743,7 @@ return {
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜呜呜……欸……？炮弹没有打过来，{namecode:74}大人出手挡住炮弹了么！",
+			say = "Wow, she completely nullified the cannonballs in midair... Thank you so much, Great Guardian Fox!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +759,7 @@ return {
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯。放心吧，{namecode:157}，已经没事了。",
+			say = "Mm. You have nothing to worry about with me here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +775,7 @@ return {
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:74}大人……？即使发生战斗，优势依然在我们这边，您没必要现在下场啊。",
+			say = "Lady Nagato?! We were perfectly capable of handling the situation here... There's no need for you to personally enter the battlefield...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -797,7 +791,7 @@ return {
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，吾知道。但是吾想过了，纵使是下棋，吾也不想看到争斗在吾眼前发生。",
+			say = "This isn't a matter of trust. I've come to prevent a pointless fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +807,7 @@ return {
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "于是，吾决定下场制止。",
+			say = "In this exercise, there is no reason for us to take up arms against one another. Sakawa, Wakatsuki, stand down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +824,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……？{namecode:74}大人？那个……我不是想要欺负{namecode:157}的。",
+			say = "Woooah, busted... Uhh, it's not like we chose to fight because wanted to...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +841,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是，现在不是像演习的状况一样么……？而且{namecode:84}大人说了可以让我们享受棋局……",
+			say = "M-Musashi told us to kick back and enjoy the game, so I might've gotten a bit carried away, haha... Just a little.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,7 +858,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常抱歉……{namecode:74}大人。",
+			say = "Please forgive us, Lady Nagato!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +875,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝等误会了。吾并非在指责汝等，汝等做的没错，亦无需道歉。",
+			say = "There's no need to apologize. This is just an exercise, and you were merely following orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +891,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}说的没错，此为棋局，不会有人受伤的，如同演习一般的棋局。",
+			say = "As Musashi said, there's no risk of injury in a controlled exercise area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +907,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "汝等怀着与同伴一起变强的心情尽全力战斗即可。",
+			say = "We spar against each other pretty much on a daily basis as part of our normal training routine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +923,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "倘若在演习之中每次开炮就要先道歉，那岂不是演习永远也打不完了？",
+			say = "So, you don't need to apologize, and you should continue this exercise as usual.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +940,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，{namecode:74}大人说得是~",
+			say = "We didn't do anything wrong, did we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +957,7 @@ return {
 			actor = 301880,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，为何您还要亲自下场来阻止我们呢？",
+			say = "If there's no risk involved in us fighting, why did you stop us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +974,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是吾与棋盘外之人的较量，是吾的自我要求，与汝等无关。",
+			say = "This game of Go is a clash of wills among the players outside. As such, the combat power of the ships inside is limited, while the importance of one's convictions is amplified.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +990,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既然规则上相互战斗不能得分，那就一定有一个不相互战斗也能取胜的道路——吾是这么想的。",
+			say = "In other words, you won't accomplish anything from fighting each other in the conventional, physical sense. Rather, the only thing that matters is a clash of ideals - something that cannot happen when you are simply \"following orders.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1007,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不如说，应该道歉的是吾，唐突打断了汝与{namecode:158}的切磋。",
+			say = "And my conviction is this: there is no place for meaningless conflict. That is the path I shall demonstrate to the Sakura Empire, and the ideal I wish to demonstrate to Musashi and Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1024,7 @@ return {
 			actor = 302230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事，能见到{namecode:74}大人在樱花雨中潇洒登场的绝美景色也不算亏啦！",
+			say = "Well spoken! I must say, I am quite moved by your speech. The mighty shield you've produced must be a manifestation of your mental image, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1046,7 +1040,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "多谢汝的称赞，这个守护结界在设计之时吾也是构思了很久的。",
+			say = "Most likely. Perhaps due to the time I spent sealed inside the Sacred Sakura, this domain also reflected the vivid memories I have of that place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1063,7 +1057,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到{namecode:84}用棋盘实现得如此漂亮……可惜吾的樱之结界只会在入场时生效一次。",
+			say = "But now, I am no longer the same person I was before. This may be the last time we see a scenery like this here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1079,7 +1073,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "之后如果{namecode:84}依然有意的话，汝与{namecode:158}一定还会有切磋的机会的。",
+			say = "In any case, there is no more need for us to battle each other. If you remain unconvinced, then you will have to go through me first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1095,7 +1089,7 @@ return {
 			bgName = "bg_wuzang_bg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是请记住，只要吾还在场，任何人都别想从吾这里带走任何一名侍从！",
+			say = "As long as I stand, nobody will lay a finger on any of my friends!",
 			painting = {
 				alpha = 0.3,
 				time = 1

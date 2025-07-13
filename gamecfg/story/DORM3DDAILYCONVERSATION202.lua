@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是不是该换个发卡了呢？",
+			say = "Maybe I should try a new hairpin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "平时总在忙着训练和工作，很少有空闲思考这个。",
+			say = "I don't usually think about it much since I'm always focused on my training and work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,14 +62,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不如{dorm3d}陪我一起选一个新的款式吧？",
+			say = "Could you help me pick one, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "选你喜欢的款式就好",
+					content = "Go with the one you think looks nice.",
 					flag = 1
 				}
 			}
@@ -80,14 +80,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "我还是更想让你来选。",
+			say = "But I want you to pick it for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不怕我选的款式你不喜欢么？",
+					content = "What if I pick one you don't like?",
 					flag = 1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……你喜欢的款式，我也一定会喜欢的。",
+			say = "Any hairpin you like, I'll almost definitely like as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

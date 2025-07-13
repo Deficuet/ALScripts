@@ -9,7 +9,7 @@ return {
 			actor = 403090,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "喂喂喂，{namecode:471}你在听么？{namecode:454}即将抵达目标位置！",
+			say = "Strasser, do you read me? We're just about to arrive at the coordinates you sent!",
 			dir = 1,
 			bgm = "xinnong-2",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "收到。侦查显示“铁血”舰队正在调整航线，也许是察觉到我们的意图了，请加速行动。",
+			say = "We read you. Those Iron Blood Pawns apparently figured out what we're up to, so be quick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "{namecode:454}收到~咦？怎么是{namecode:467}呀，{namecode:471}呢？",
+			say = "Roger-dodger! Wait... Weser? Why didn't Strasser pick up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "{namecode:471}正在准备一个一举结束这些异常棋子和量产型“叛乱”的计划，目前作战暂时由我负责指挥。",
+			say = "She's getting ready for a battle with the mass-produced ships and Pawns, to put a stop to them. You'll follow my orders for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白~只要把它们赶到指定区域内就算任务成功吧，包在我身上！",
+			say = "Oh, all right. Anyway, just gotta guide all the Pawns into the designated area, right? Easy enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接近目标中……小铁，对面看起来还没有做好准备的样子，是个发起强袭的好机会————",
+			say = "Hey, some Pawn-looking ship just turned up! Eisen, what do you think we should do?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在这里最缺乏观察力的人不就是你么，{namecode:454}。",
+			say = "And when was the last time your intuition was right?",
 			effects = {
 				{
 					active = true,
@@ -166,7 +166,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎~上次的事是我不对啦，放心吧，这次一定不会弄错的！",
+			say = "Never, I guess... Wait! It was right just today!",
 			effects = {
 				{
 					active = true,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_guild_red_n",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于联络没有回应的是棋子，无法正常交流的是棋子，还有二话不说上来就攻击的是棋子对吧！",
+			say = "Those ships who wouldn't answer our radio message? Pawns. Those ships who sent us garbled radio messages? Pawns! Those ships who attacked us out of nowhere? Pawns! All of them!",
 			effects = {
 				{
 					active = true,
@@ -210,7 +210,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……以防万一，还是先按照流程首先呼叫一下————",
+			say = "Right, let's give 'em a call and see for ourselves...",
 			effects = {
 				{
 					active = false,
@@ -228,10 +228,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "————————————",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没有反应啊……很好，确认是棋子无误！小铁，我们上！",
+			say = "No response. That about confirms that they're Pawns! Okey-dokey, let's go, Eisen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

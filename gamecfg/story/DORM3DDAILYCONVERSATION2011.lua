@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，最近{namecode:98:明石}她们在测试烟花的新图案呢，所以晚上都会放烟花。",
+			say = "Akashi has been testing fireworks for a while now. Every night, the sky lights up with different patterns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "有空的时候一起去看烟花吧。",
+			say = "If you have some time, do you want to watch them with me later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "今晚就去吧？",
+					content = "Sure. How about tonight?",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今晚会不会有点匆忙？",
+			say = "Tonight might be on too short notice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽说只是测试烟花，但能和你一起看烟花也会成为难得的回忆。",
+			say = "Even if the fireworks are just for test purposes, watching them with you will be a lovely experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "还是要有一些仪式感的。",
+			say = "So, you have to build up the mood and all, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最重要的是，我想你陪我挑一套好看的浴衣之后，再一起去……",
+			say = "Most importantly, I need to pick out a beautiful yukata first...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

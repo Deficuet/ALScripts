@@ -15,7 +15,7 @@ return {
 			actor = 405030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "请让我与你同行。",
+			say = "...Take me with you.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "不行，你要留在这里。",
+			say = "No, I need you to stay here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "可是……",
+			say = "But, I'm already familiar with what your plan is. I can–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "我已经决定了，你不必再提。",
+			say = "Enough. This symphony has no more room for revision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "专心准备作战吧……{namecode:464}。",
+			say = "Focus, Ulrich. You still have your part to play.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "一片火海之中，{namecode:464}的脑海中浮现出了离别当日的情景。",
+			say = "Within a dream, Ulrich was reunited with a friend she had been separated from.",
 			bgm = "theme-bismark-reborn",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "那个回忆中英姿飒爽的{namecode:440}，如今正孤零零倒在海面燃烧的残骸中。",
+			say = "She was once a conductor of the battlefield who played music as effortlessly as she played her foes. Now, she lay on the ground, powerless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "不可一世的{namecode:440}，也会踏入绝境啊……",
+			say = "This can't be the ending you wanted, Friedrich.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "没有敌人、没有战友，只余下毁灭的烈火与断钢——正像是末路之地该有的样子。",
+			say = "Alone, surrounded by fire and destruction, with neither friends nor foes for company.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "呵……真是讽刺，你寄予厚望的公海舰队呢？",
+			say = "Hmph... So much for the High Seas Fleet you had such hopes for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "就是因为我不在你身边，才会发生这种事情啊……",
+			say = "If only you had trusted me... This wouldn't have happened to you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……………………",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "{namecode:441}，是谁把你打成这样的……",
+			say = "Who did this to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "还活着的话，就起来告诉我啊！",
+			say = "If you're still alive, answer me! Answer me!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "回应{namecode:464}质问的，只有钢铁蜷曲时的刺耳啸叫。",
+			say = "Only the strident death throes of metallic beasts answered her cries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "……………………",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "所以说……当时带我一起走就是了……",
+			say = "Even had you managed to get the Eagle Union and Sakura Empire on the same page, would they have listened to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "我留在没有你的铁血，又有什么意义呢……",
+			say = "You can't change anything... Not Bismarck, not you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "哐当……哐当，由远及近。",
+			say = "Click, clack... Footsteps were drawing closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "似乎有什么人正在接近这里。",
+			say = "In this place where she did battle against an Arbiter and lost, she was no longer alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………这就是困住了你内心的梦魇么，{namecode:464}。",
+			say = "...Is this the nightmare that haunts your heart, Ulrich?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "{namecode:435}…………你在铁血最需要你的时候抛弃了我们。",
+			say = "...Bismarck. You abandoned Iron Blood when it needed you most... Why are you showing your face again now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "事到如今，你又跳出来做什么？",
+			say = "It's over, Bismarck. We've already lost the war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "看看周围吧，都已经到了这个份上了，你还要来命令我么？！",
+			say = "Look around. Our counterattack was a failure. Everyone we know is dead, and for what? The Arbiter still lives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "我是{namecode:441}的部下，不是你的！",
+			say = "So why even come here? What the hell do you want?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我知道。",
+			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "铁血能从绝境中逆转出来，多亏了{namecode:441}！",
+			say = "Friedrich liberated us from forever being slaves to the Sirens' Reenactments.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "是她殚精竭虑，用尽一切手段，才让铁血摆脱了由你亲手带在铁血身上的塞壬枷锁！",
+			say = "But, you. You sought the power of the Black Cube. You would've had us dancing in the palms of their hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "在这期间你……什么都没有做！",
+			say = "You charged ahead without saying anything to us. You left us behind to fend for ourselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "我知道。",
+			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "你知道……？",
+			say = "What do you know?! You've done jack shit for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "那你凭什么可以以一副理所应当的样子接管{namecode:441}辛辛苦苦所做的一切？！",
+			say = "Friedrich and Eugen worked their asses off while you lay in a sickbed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "别人可以心平气和的接受你，我，不行！",
+			say = "And now, after it's all over, you finally decide to show your face?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我知道。",
+			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "……我话都说到这个份上了，为什么你还不生气？",
+			say = "Why aren't you defending yourself? Why aren't you saying anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 405030,
-			say = "来回击我啊！……铁血的现任领导者难道是一个懦夫么！",
+			say = "How? Why? Are you a coward? Have we been led by a coward this whole damn time?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你说的都是事实，我无话可说。",
+			say = "I have nothing to say. What you said is true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			hidePaintObj = true,
 			dir = -1,
 			nameColor = "#A9F548FF",
-			say = "而且，我非常感谢你能够把这些讲出来。",
+			say = "Thank you for being honest with me, Ulrich.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "但是此刻，就这样沉沦在敌人的陷阱中，让敌人称心如意可不行。",
+			say = "It's true that I've made mistakes, and that I've let down my country and my friends. But, allow me to correct one thing–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "革律翁，展现你的力量，粉碎这虚伪的幻境吧！",
+			say = "Iron Blood has not fallen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,11 +866,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌",
+			say = "ROOOAAAR!",
 			soundeffect = "event:/ui/glassbroken",
 			typewriter = {
 				speed = 0.05,
@@ -923,11 +923,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "……………………果然，那些都是幻象而已。",
+			say = "I see... So, it was all a dream after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,11 +935,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你意识到了？",
+			say = "You knew?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,11 +947,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "从中途开始吧………………",
+			say = "Like a vague itch in the back of my mind. I somehow knew it wasn't real, but didn't want to snap out of it either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,11 +959,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但是…………",
+			say = "Perhaps because it reflected my heart's deepest desires, just as you said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,11 +971,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "我真的，好想跟{namecode:441}一起走啊…………",
+			say = "All I wanted... was to fight by Friedrich's side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,11 +983,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我知道。",
+			say = "I know what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,11 +995,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "…………刚刚我说的话，不是真心的。",
+			say = "And, I wanted to look for someone to blame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1007,11 +1007,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我也知道。",
+			say = "Yes... I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,11 +1019,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在我不在的时候，你们承受了非同寻常的压力……为此，我心怀感激。",
+			say = "Iron Blood's survival was thrown into jeopardy because of my actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,11 +1031,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感激你们在我重伤昏迷期间，不惜代价守护住了铁血。",
+			say = "And in my absence, you received immense pressure from all sides. From the other factions, from the Sirens, even from the Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,11 +1043,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "守护住了我们的容身之处……",
+			say = "Despite that, and despite the toll it took on you, you and many others worked selflessly to protect Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1055,11 +1055,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也因此，现在我们有了一个前往光明未来的机会。",
+			say = "I won't say I know how hard it was for you, but I will say this – thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,11 +1067,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是听几句抱怨不算什么，我都做好迎接更猛烈愤怒的准备了。",
+			say = "Thank you for your commitment to Iron Blood, Ulrich von Hutten.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,11 +1079,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "…………再怎么说我也不会对你开火的。",
+			say = "You have some nerve. I feel like punching you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1091,11 +1091,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "这一点计算失误了哦，{namecode:435}阁下。",
+			say = "Of course, I won't. You are our leader, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,11 +1103,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……倒确实是有点小小的失算了。",
+			say = "If you really did do it, I wouldn't hold it against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,11 +1115,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息时间差不多该结束了，现在感觉如何？",
+			say = "Do you still feel like you're dreaming? It's almost time to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,11 +1127,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "很难受……就算此刻，脑海中也依然有一个狂躁的声音在吠叫。",
+			say = "Yeah. There's still something in my head, screaming a whole lot of nonsense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1139,11 +1139,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "这种状态……就是META化么？",
+			say = "Am I... going to turn META?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,11 +1151,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "准确来说是META化的过程中。",
+			say = "Not necessarily. While I detect the corruption taking hold in your hull, it can still be stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,11 +1163,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我理解这是怎样的感受，被排山倒海的负面情感所裹挟，连坚守自我都是奢望。",
+			say = "I understand what you're going through, to feel like you're being crushed beneath overwhelming despair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,11 +1175,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然而你依然保持着自我意识，将损害限制在了可控范围内，真的了不起。",
+			say = "But, you've managed to hold on to your sanity. That is already remarkable and worthy of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,11 +1187,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
+			actorName = "Ulrich von Hutten",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "有什么彻底的解决办法么……这样下去我只会成为行动的累赘。",
+			say = "I thought METAmorphosis was irreversible? Isn't it only a matter of time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,11 +1199,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "自然有，不用担心。",
+			say = "Normally, yes. But, Queen Elizabeth and the Commander gave us an invaluable hint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1211,11 +1211,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我可能不是那么称职的领袖，但是既然我回来了——",
+			say = "While existing corrosion cannot be reversed, externally-induced cases such as yours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1223,11 +1223,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:514}",
+			actorName = "Bismarck Zwei",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "剩下的就交给我吧——",
+			say = "Can be baited out with a more suitable \"host.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

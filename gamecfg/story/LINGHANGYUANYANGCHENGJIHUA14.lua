@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "距离“系统升级”已经过去了一段时间。",
+			say = "It has been a while since that system update.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "如果说升级前的TB看上去大约有人类3岁~4岁左右，那么现在大概看上去就是7~8岁左右。",
+			say = "If TB was around 3 or 4 years old before the update, I would say she is about 7 or 8 now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "虽然各种意义上的“成长”都对TB来说是一件好事，但——",
+			say = "She sees growth, in every meaning of the word, as a good thing – and she certainly has grown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到出发的时间了，考虑到路况和天气，有15%的迟到风险。",
+			say = "It's time to leave. Judging by the traffic conditions and the weather, there's about a 10% chance I'll be late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "变得好理性……TB可以更像小孩子一样，再任性一些也没关系。",
+			say = "You're taking this awfully seriously. You could be a little more lax, you know. Nobody's going to kill you for being late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我认为这样是成为“好孩子”的方式。",
+			say = "I think this is just what's expected of a \"good girl.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "运动会将在1小时后举行，我们必须出发了。",
+			say = "Sports day starts in an hour. I need to set off now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "我偷偷叹了一口气。",
+			say = "I let out a sigh under my breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "来到学校后，TB就自己找到更衣室换好了运动服。",
+			say = "As soon as we arrive at the school, she changes uniforms all by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "随后就来到了跑道旁铺好的软垫上，进行热身运动。",
+			say = "She then begins the warmup exercises on the mat laid out on the school track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "水和毛巾……我就放在这里了哦，TB。",
+			say = "Hey, TB. I'll leave a bottle of water and some towels here for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,12 +219,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，你要走了吗？",
+			say = "M'kay. Are you going home already?",
 			voice = "event:/educate/tb/educate-tb-story-2-1",
 			painting = {
 				alpha = 0.3,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "她一边舒展着身体，一边问我问题。",
+			say = "She shoots me the question whilst performing leg and back stretches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长的座位都在那边，我去那边看你比赛，给你加油。",
+			say = "No, I'll still be here, cheering you on from the bleachers over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,12 +260,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			voice = "event:/educate/tb/educate-tb-story-2-2",
 			painting = {
 				alpha = 0.3,
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知为何，感觉她好像有些微妙的不开心。",
+			say = "Oddly, she looks a little displeased to hear this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长留在这里应该不算违规吧？如果不算违规的话，我就留在这边给你加油。",
+			say = "It's not against the rules, is it? Assuming it's fine, I'll be right there, rooting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,12 +301,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那我会拿到好成绩的。",
+			say = "Okay. I'll try to do good so I'll get good grades.",
 			voice = "event:/educate/tb/educate-tb-story-2-3",
 			painting = {
 				alpha = 0.3,
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知道是不是我的错觉，直到之前都看不出什么表情的TB，此时嘴角微微上扬了。",
+			say = "Maybe I'm just imagining it, but it looks like the corners of her mouth rise slightly. She has never made an expression before this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不过，小孩子时期的TB会口是心非这一点……也挺可爱的。",
+			say = "Seems I'm dealing with a kid with a small rebellious streak. Still, rebelliousness is cute in its own way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

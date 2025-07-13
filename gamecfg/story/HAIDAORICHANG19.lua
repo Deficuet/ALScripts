@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>密林调查组</size>",
+					"Uncharted Summer\n\n<size=45>Exploring the Forest</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "无人岛中央的森林，鞋子踩在松枝上的声音沙沙地回响在清冽的空气当中。",
+			say = "Near the island's center, a team of girls wade through a forest, pushing through dead branches and bushes as they go.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "阳光从树叶间的缝隙里洒下，在森林中行走的一行人身上留下斑驳的树影。",
+			say = "The sun shines through the gaps between the leaves, casting fuzzy shadows of the people walking through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "嗯……",
+			say = "Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "嗯……？",
+			say = "Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "苏维埃罗西亚，你看……",
+			say = "Hey, um, Rossiya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里居然有岔路的么？地图上完全没有标注呢。",
+			say = "Was there always a fork in the road here? It's not marked on the map.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟是简易地图嘛，把它变得更精确也是我们的任务之一。",
+			say = "Because it's a rough map. Our job is to fill in the details such as this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "唔…………好了，空白填补完毕。",
+			say = "Let's see... There, I've updated the topography.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "好无聊啊……好像在附近没发现什么特别的东西嘛……",
+			say = "This is sooo boring... There's only trees, trees, and more trees!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "真是的，这么大一片森林，还以为会有什么惊人的发现呢。",
+			say = "I hoped there'd be a groundbreaking discovery waiting in this vast place, but nope...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "明明为了这次森林调查，我连手里的开发工作都停了……",
+			say = "I have machines to be working on, but instead, I'm surveying a regular old forest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "对了！干脆直接把森林都砍了吧！",
+			say = "Oh, I know! Why don't we just chop down all the trees?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "反正我们也是来收集资源的！而且都砍了的话就不用做调查了！",
+			say = "Then we won't need to map out the forest at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "……（锤）",
+			say = "...*whack!*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "……欸痛痛痛！干嘛要打我啊，威严！",
+			say = "Owww! You hit me, Grozny!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "森林是动物们的家园，要保护……",
+			say = "This forest is the animals' home. It should be protected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "因为不想花时间调查就一下子都砍光……未免有些太极端了……",
+			say = "Cutting a forest down because you don't wanna survey it is pretty extreme, don't you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "没错。我们之所以会来此进行调查，收集必要的资源只是目的之一。",
+			say = "It is. While it would net us a lot of lumber, that's not what we're here for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "更重要的是调查清楚这片森林的生态结构，划定可修建的区域、可采集的区域，以及应该保护的区域。",
+			say = "The task at hand is to catalog the local ecosystem, locate areas suited for construction and resource-gathering, and mark boundaries for expansion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "还有就是要……彻底排除隐患。",
+			say = "Additionally, we must completely clear the forest of potential dangers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "打起精神来。虽说这里已经基本调查过一遍了，不过难免有疏漏的地方。",
+			say = "Although we have been thorough thus far, it's possible we've missed something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "时刻保持警惕，可能有很多隐藏在角落中的威胁也说不定。",
+			say = "Be wary around bushes and other hiding places, where threats may lie in wait.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "隐藏的威胁？比如说……？",
+			say = "\"Threats\"? What kind of threats?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "像是活跃在森林里的各种毒虫？还有毒蛇之类无法被侦察机从空中发现的生物。",
+			say = "Poisonous insects and snakes and the like. You won't find those with an aerial survey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "而且根据其他人的报告，这片林子里还有某种危险的——",
+			say = "An even greater danger lurks here according to those I've spoken to, that being the–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "呜啊！！！！！这是什么啊…………！！！",
+			say = "Whuah?! Wh-what the hell is this?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "灵敏似乎踩中了一处伪装在落叶下的绳索，而后整个人被倒悬着吊到了空中——",
+			say = "Soobrazitelny stepped on a snare trap hidden among the leaves, leaving her hanging from the tree upside-down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "——某种会通过缠绕的方式进行捕猎的藤蔓类植物。",
+			say = "...That being the vine plants that ensnare their prey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705050,
-			say = "就像灵敏现在遭遇到的这样。",
+			say = "As demonstrated by our subject Soobrazitelny here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不、不要一本正经地在一旁解说，快把我放下来先啦！",
+			say = "Save the explanation for later! Get me down from here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………呵呵呵…………这群可恶的藤蔓……",
+			say = "*cough cough cough*... Damn tentacle plant...",
 			fontsize = 30,
 			painting = {
 				alpha = 0.3,
@@ -684,7 +684,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看我过几天做出来自主搜索燃烧机器人……",
+			say = "Just you wait. I'm gonna make a bunch of flamethrower bots and sic 'em on you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "把你们彻底从地表抹杀……呵呵呵。",
+			say = "They'll find and burn every last of your kind to a crisp... Hehehehe...",
 			fontsize = 30,
 			painting = {
 				alpha = 0.3,
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "灵敏，散发着黑气，好可怕。",
+			say = "Soobrazitelny's turning into a mad scientist. I'm scared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701030,
-			say = "啊哈哈哈……小心不要引起火灾哦。",
+			say = "Ahahah... I dig your inspiration, but remember, be careful about forest fires.",
 			painting = {
 				alpha = 0.3,
 				time = 1

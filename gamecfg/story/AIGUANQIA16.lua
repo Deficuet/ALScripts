@@ -9,7 +9,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次没看到什么特别显眼的东西。敌人究竟在哪里…？",
+			say = "I don't see anything out of the ordinary here. Just where are the enemies hiding...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实之前几次都是敌人立马就出现了呢。究竟是藏在哪里了呢？",
+			say = "That's right... Until now, the enemies started showing up almost immediately. I wonder where they're hiding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，先大家分头探索一下周边吧",
+			say = "You have a point. For starters, let's split up and search the perimeter. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,9 +53,9 @@ return {
 			actor = 10400040,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "了解！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看那边。有个超级显眼的随机单词生成器的说",
+			say = "Look over there. There's a very conspicuous random word generator just sitting there...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个…怎么看都明显是……",
+			say = "It's way too obvious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，陷阱",
+			say = "Mmhmm... it's a trap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？嗯……嗯，是陷阱呢。{namecode:13}也看、看出来了哦？",
+			say = "Ehh? Um... I see, it's a trap... I totally knew that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}，不用勉强自己也没关系的…",
+			say = "Ikazuchi, nobody would have known if you didn't say anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家要小心哦，注意不要贸然靠近——",
+			say = "Be careful, everyone. Make sure not to get too close to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,8 +178,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400040,
 			dir = 1,
-			actorName = "绊爱",
-			say = "哇～没想到在这里发现了随机单词生成器～！！",
+			actorName = "Kizuna AI",
+			say = "Yaaay! I didn't think I'd find my random word generator in a place like this~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱小姐！！？？",
+			say = "Wait... Miss AI?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰隆隆隆隆隆隆",
+			say = "MENACING!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -238,8 +238,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400040,
 			dir = 1,
-			actorName = "绊爱",
-			say = "诶！？这是啥！？等下！快走开！别靠近我！讨厌讨厌讨厌讨厌！",
+			actorName = "Kizuna AI",
+			say = "Eh? What's going on? Wait! Get away! Stay away from me! No, no, no, no, no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +265,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400040,
 			dir = 1,
-			actorName = "绊爱",
-			say = "啊啊aa啊啊啊啊aa啊啊啊a啊a啊……",
+			actorName = "Kizuna AI",
+			say = "AAAAAaaaaaaaAAAAAAAAaaaAAAAAHHHHH...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么会这样……爱小姐…怎么变成了那样……",
+			say = "I-Impossible... how could Miss AI turn into... that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇～！怎么办！？爱酱巨大化了！",
+			say = "Woah~! What should we do? AI turned into a titan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱～～～酱！没事吧～～～～！？",
+			say = "AI!!!! Are you okay------?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400010,
 			dir = 1,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actorScale = 3.5,
 			say = "………",
 			actorPosition = {
@@ -397,9 +397,9 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400010,
 			dir = 1,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actorScale = 3.5,
-			say = "哈啊……好累，真的好累～为什么我会在这种地方战斗呢……说到底我本来就只是和平时一样在录动画而已，变成这样不是很奇怪吗？",
+			say = "Haah... so tired, so damn tired... Why am I fighting in a place like this anyway... Come to think of it, I was just minding my own business, shooting a video... Isn't it strange that I've turned into this?",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -419,9 +419,9 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400010,
 			dir = 1,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actorScale = 3.5,
-			say = "甚至身体还突然变大了……不如就这样把这个世界彻底破坏掉，没准就能回到原来的世界了？",
+			say = "And now, my body's turned into this monstrosity... Maybe it's better to just completely destroy this world. Maybe that's how I can get back home...?",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -438,12 +438,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "啊～麻烦死了，就让我的分身们随便乱搞下算了——",
+			say = "Ahh... what a pain in the ass... I'll just let my clones run rampant and call it a day...",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -460,7 +460,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "咚",
+			say = "KABOOOOM!!",
 			effects = {
 				{
 					active = true,
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小、小号的爱酱在往这边扔炸弹！？",
+			say = "What...?! A mini-AI is lobbing bombs at us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不行，我们的声音完全传达不到…",
+			say = "We can't break through to her... She can't hear us at all...",
 			effects = {
 				{
 					active = false,
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大化的爱小姐，还有迷你绊爱的空袭……糟糕了……",
+			say = "A titan version of Miss AI, and a bunch of mini-AI's bombing us from the air... things are looking bad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了让爱酱恢复理智，可能要用点强力手段了",
+			say = "We might have to slap some sense into her, literally!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只能靠刺激疗法了",
+			say = "Shock therapy... is the only way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但、但是那么巨大的爱酱…我们不可能打的赢吧＞＜",
+			say = "But she's so huge... there's no way to beat that ><",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冷静一下。要维持这么巨大的躯体，应该需要相应的大量能量才对",
+			say = "Let's approach this calmly. In order to maintain that giant form, she would require a massive amount of energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是这样……啊！看那边！爱酱好像连着“电源线”呢！难道说，是从电源线连着的电力供给装置传输能量的吗？",
+			say = "You have a point... ah! Look over there! There's a power cord coming out of her! Perhaps that's what is supplying her with energy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！只要把“电力供给装置”的开关关掉，停止供电就能让她进入“弱化”状态对吧！",
+			say = "I see, I see! If we cut off her power supply, she'll go into a Down Phase!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样的话，能赢。等着吧，绊爱",
+			say = "If we do that, then we can win. Wait for us, Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

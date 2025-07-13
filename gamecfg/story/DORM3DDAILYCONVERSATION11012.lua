@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "零食吗？嘿嘿~Honey问对人了呢~",
+			say = "Snacks? Heheh, you've asked just the girl!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我懂的，追剧啊，打游戏的时候嘴里不吃点什么没感觉呢！",
+			say = "I get it. It's nice to have a snack when you're watching TV or playing games, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "腾不开手的话，就让我来喂你吧~",
+			say = "If you can't spare a free hand, I'll feed you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊~如何？{namecode:199:新泽西}特制奶油爆米花，你会喜欢的吧~？",
+			say = "Open up. I just know you'll get addicted to my special buttered popcorn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 {namecode:408}老师\n\n<size=45>四 禁忌·双重恶作剧！</size>",
+					"Class Z IV\n\n<size=45>Taboo Double Trouble!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜、呜呜…这、这次一定能顺利——",
+			say = "Ughhh... This time, I definitely have to succeed...",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看……接下来的是……啊，是萨拉托加小姐吗 ",
+			say = "Let me see... Next up... is Miss Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“非常喜欢恶作剧，要注意”吗…好！",
+			say = "\"She loves playing pranks, so watch out\", is it? All right then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "数分钟后，辅导教室外",
+			say = "Several minutes later, outside the counselor's office",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，萨拉小姐在里面等着，准备进去吧——",
+			say = "Okay, Miss Saratoga is waiting for me inside. I'm ready to head in-",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？半开的门…门板上这个是…黑板擦？",
+			say = "Eh? The door's partially open... and a blackboard eraser is wedged in the door panel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常喜欢恶作剧……吗，还真是传统的恶作剧啊……哈哈……我都想被打中以表敬意了……",
+			say = "Really likes pranks, eh? Isn't this way too old school? I almost want to get hit by that thing just as a tribute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过！今天的目的正在于纠正这些“问题儿童”们！",
+			say = "However! My objective today is to set these problem children straight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要让萨拉小姐知道，教室是神圣的学习场所，可不是玩恶作剧的地方！",
+			say = "I have to teach Miss Saratoga that the classroom is a sacred site of learning, not a place to play pranks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里只要小心避开黑板擦的位置开门——",
+			say = "I just have to carefully avoid this eraser while opening the door...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "（砰！）",
+			say = "(Boom!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊！！",
+			say = "Uwah!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经典的门板陷阱只是假象！真正的陷阱是载着黑板擦的舰载机的精准空投！萨拉托加独创，禁忌·双重恶作剧！嘿嘿，有没有吓一跳呀～",
+			say = "The classic door trap is just a decoy! The real trap is the highly precise carrier-based eraser-bomber! This is Saratoga's specialty, the Taboo Double Trouble! Hehe, scared ya, didn't I?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨～拉～小～姐——",
+			say = "Miss... Sa... ra...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦、啊啦啦……",
+			say = "My, oh my...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这声音，难道是—我、我要先走了！（从教室后门一溜烟跑走）",
+			say = "Th-this voice... can it be? Saratoga out! *Jets out of the classroom in a puff of dust*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…萨拉这孩子，又对别人恶作剧了，{namecode:408}，没事吧？",
+			say = "Haah... that Sara, causing trouble for others again. Z23, are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "列克星敦小姐…",
+			say = "Miss Lexington...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次一定要好好“教育”一下这个妹妹呢，真是抱歉了呀，等我找到萨拉妹妹，再让她来跟你好好道歉……",
+			say = "This time, I really will have to properly \"educate\" that sister of mine. I am truly sorry. After I find her, I will make sure she apologizes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说好的辅导…又泡汤了呜呜——",
+			say = "Ugh... I wasn't able to do any tutoring yet again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

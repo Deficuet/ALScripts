@@ -1,322 +1,322 @@
 pg = pg or {}
 pg.activity_holiday_collection = {
 	[18] = {
-		name = "别墅内的美食评选",
+		name = "The Villa Cooking Competition",
 		type = 2,
 		icon = "star_level_bg_606",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA9",
 		site_id = 18
 	},
 	[19] = {
-		name = "旧物改造小队登场！",
+		name = "Recyclers, Assemble!",
 		type = 2,
 		icon = "star_level_bg_570",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA10",
 		site_id = 19
 	},
 	[20] = {
-		name = "人生飞行棋",
+		name = "Lifetime Aeroplane Chess",
 		type = 2,
 		icon = "star_level_bg_571",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA11",
 		site_id = 20
 	},
 	[21] = {
-		name = "露营与星星",
+		name = "Camping and Stargazing",
 		type = 2,
 		icon = "star_level_bg_701",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA12",
 		site_id = 21
 	},
 	[22] = {
-		name = "报告！有人在庭院里偷偷种菜！",
+		name = "Seeds of Mischief",
 		type = 2,
 		icon = "star_level_bg_520",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA13",
 		site_id = 22
 	},
 	[23] = {
-		name = "户外网球双打比赛",
+		name = "The Doubles Tennis Match",
 		type = 2,
 		icon = "bg_villaisland_cg1",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA14",
 		site_id = 23
 	},
 	[24] = {
-		name = "凉亭诗会，文学少女集结！",
+		name = "The Gazebo Poetry Salon",
 		type = 2,
 		icon = "star_level_bg_570",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA15",
 		site_id = 24
 	},
 	[25] = {
-		name = "各显神通的钓鱼大赛",
+		name = "Big Fish to Catch",
 		type = 2,
 		icon = "bg_villaisland_cg2",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA16",
 		site_id = 25
 	},
 	[26] = {
-		name = "劲爆摇滚颠覆音乐会！",
+		name = "Radical Rock 'n' Roll Concert",
 		type = 2,
 		icon = "star_level_bg_599",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA17",
 		site_id = 26
 	},
 	[27] = {
-		name = "差点被困终生的大冒险！",
+		name = "A Grand Misadventure",
 		type = 2,
 		icon = "star_level_bg_148",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA18",
 		site_id = 27
 	},
 	[28] = {
-		name = "特拉法尔加",
+		name = "Trafalgar",
 		type = 3,
 		icon = "201381",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA19",
 		site_id = 28
 	},
 	[29] = {
-		name = "勇气",
+		name = "Gallant",
 		type = 3,
 		icon = "201391",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA20",
 		site_id = 29
 	},
 	[30] = {
-		name = "{namecode:97}",
+		name = "Taihou",
 		type = 3,
 		icon = "307076",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA21",
 		site_id = 30
 	},
 	[31] = {
-		name = "可畏",
+		name = "Formidable",
 		type = 3,
 		icon = "900507",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA22",
 		site_id = 31
 	},
 	[32] = {
-		name = "{namecode:531}",
+		name = "Friedrich Carl",
 		type = 3,
 		icon = "900509",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA23",
 		site_id = 32
 	},
 	[33] = {
-		name = "特立尼达",
+		name = "Trinidad",
 		type = 3,
 		icon = "202361",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA24",
 		site_id = 33
 	},
 	[34] = {
-		name = "狮",
+		name = "Lion",
 		type = 3,
 		icon = "205161",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA25",
 		site_id = 34
 	},
 	[35] = {
-		name = "君主",
+		name = "Monarch",
 		type = 3,
 		icon = "900508",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA26",
 		site_id = 35
 	},
 	[36] = {
-		name = "{namecode:292}",
+		name = "Shimanto",
 		type = 3,
 		icon = "399062",
 		luaID = "HAIDAOBIESHUDUJIAJIHUA27",
 		site_id = 36
 	},
 	{
-		name = "货物码头区",
+		name = "Pier Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 1
 	},
 	{
-		name = "别墅生活区",
+		name = "Residential Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 2
 	},
 	{
-		name = "室内娱乐区",
+		name = "Indoor Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 3
 	},
 	{
-		name = "室外娱乐区",
+		name = "Outdoor Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 4
 	},
 	{
-		name = "海滩区",
+		name = "Beach Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 5
 	},
 	{
-		name = "灯塔区",
+		name = "Lighthouse Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 6
 	},
 	[41] = {
-		name = "别邸客厅",
+		name = "Living Room",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 41
 	},
 	[42] = {
-		name = "别邸餐厅",
+		name = "Dining Room",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 42
 	},
 	[43] = {
-		name = "泳池",
+		name = "Pool",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 43
 	},
 	[44] = {
-		name = "庄园桌游室",
+		name = "Board Game Room",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 44
 	},
 	[45] = {
-		name = "庄园台球室",
+		name = "Billiards Room",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 45
 	},
 	[46] = {
-		name = "庄园美术馆",
+		name = "Art Gallery",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 46
 	},
 	[47] = {
-		name = "庄园地下游戏室",
+		name = "Underground Game Room",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 47
 	},
 	[48] = {
-		name = "庄园前门",
+		name = "Front Entrance",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 48
 	},
 	[49] = {
-		name = "露天烧烤区",
+		name = "Outdoor Barbecue Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 49
 	},
 	[50] = {
-		name = "别墅正门",
+		name = "Villa Gate",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 50
 	},
 	[51] = {
-		name = "庭院",
+		name = "Villa Garden",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 51
 	},
 	[52] = {
-		name = "塔楼",
+		name = "Tower",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 52
 	},
 	[53] = {
-		name = "湖心亭",
+		name = "Mid-Lake Pavilion",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 53
 	},
 	[54] = {
-		name = "大浴场",
+		name = "Grand Thermae",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 54
 	},
 	[55] = {
-		name = "户外网球场",
+		name = "Tennis Court",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 55
 	},
 	[56] = {
-		name = "海滨休息区",
+		name = "Beach Service Area",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 56
 	},
 	[57] = {
-		name = "露天广场",
+		name = "Beach Plaza",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 57
 	},
 	[58] = {
-		name = "蔚蓝浅湾",
+		name = "Blue Shallows",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 58
 	},
 	[59] = {
-		name = "金色沙滩",
+		name = "Golden Beach",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 59
 	},
 	[60] = {
-		name = "灯塔地下室",
+		name = "Lighthouse Cellar",
 		type = 1,
 		icon = "",
 		luaID = "",
 		site_id = 60
 	},
 	[61] = {
-		name = "后山",
+		name = "Forested Mountain",
 		type = 1,
 		icon = "",
 		luaID = "",

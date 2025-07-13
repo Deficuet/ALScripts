@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DTEST05",
 	alpha = 0,
+	id = "DORM3DTEST05",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			say = "担心",

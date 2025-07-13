@@ -7,7 +7,7 @@ return {
 			actor = -1,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "右舷发现敌方旗舰！判断舰船型号中……未识别国籍型号",
+			say = "Enemy flagship at starboard! Analyzing ship model... Unknown!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			nameColor = "#ffffff",
 			side = 1,
 			actorName = "？？？",
-			say = "……开火",
+			say = "... Open fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			actor = -1,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "敌方旗舰开火了，立即迎击！",
+			say = "Enemy flagship has opened fire! Counterattack now!",
 			shake = {
 				speed = 1,
 				number = 3

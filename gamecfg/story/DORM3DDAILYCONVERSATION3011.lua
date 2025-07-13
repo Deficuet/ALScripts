@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "蹦蹦！安克雷奇，是兔兔！",
+			say = "Hop, hop! Anchorage is a bunny!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,18 +29,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，兔兔安克雷奇，可爱……{dorm3d}，夸夸！",
+			say = "{dorm3d}, is bunny Anchorage cute...? Say it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "兔兔很可爱！",
+					content = "What an adorable bunny!",
 					flag = 1
 				},
 				{
-					content = "想要吃兔兔！",
+					content = "What a delicious-looking bunny!",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，{dorm3d}喜欢……！",
+			say = "Hehe, I love you, {dorm3d}...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，开心……兔兔会比平时，还听话！",
+			say = "So happy... Anchorage will be even more of a good girl than ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

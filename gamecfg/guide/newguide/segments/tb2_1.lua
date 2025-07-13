@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "指挥官，这是「 养成计划2.0」中新增的天赋系统",
+				text = "Commander, allow me to introduce the new ability system available during personality development.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "天赋作为强力增益，对娜比娅的各项属性的影响十分巨大",
+				text = "Abilities provide powerful stat improvements and have a big effect on Navi's various parameters.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "系统会在第1、6、11、16回合随机生成天赋供指挥官选择，最多可同时拥有4项天赋",
+				text = "You will be able to choose one ability from randomized options on turns 1, 6, 11, and 16. You can possess up to 4 abilities.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -56,7 +56,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "每项天赋都有特定的生效条件，多项天赋的效果可以叠加，让娜比娅获得更强的综合提升",
+				text = "Every ability has a certain requirement to activate, and the effects of multiple abilities can stack.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -75,7 +75,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "如果对生成的某项天赋效果不满意，可以点击此处的按钮重新随机",
+				text = "If you want different abilities, you can press this button to generate a new random set.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "天赋按稀有度从低到高分为蓝、紫、金、彩四种，稀有度越高，天赋通常越强力",
+				text = "Abilities come in 4 rarities. From least to most rare: blue, purple, gold, and rainbow. The more rare the ability, the stronger its effects.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -107,7 +107,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "现在，请指挥官从中选择想要的天赋吧！",
+				text = "Choose an ability that looks appealing to you.",
 				mode = 2,
 				dir = 1,
 				char = 1,

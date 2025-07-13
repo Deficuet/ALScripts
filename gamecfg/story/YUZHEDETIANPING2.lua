@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"撒丁帝国",
+					"???",
 					1
 				},
 				{
-					"博览会主会场·大剧场附近",
+					"Sardegna Empire - World Expo Venue",
 					2
 				},
 				{
-					"闭幕式当日",
+					"Closing Day",
 					3
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			bgm = "story-roma-outside",
-			say = "行走在风和日丽的会场中，四周彩旗飘扬。",
+			say = "Colorful flags flutter in the breeze as I walked through the venue on this pleasant day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "还没有接近大剧院，就听到了乐队奏响的欢快乐曲。",
+			say = "I can hear the uplifting fanfare of a band as I approach the Colosseum's entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "闭幕式即将开始，人群正从四面八方汇聚向主会场。",
+			say = "The closing ceremony is about to start, and people are starting to gather from all over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "喧闹的声浪此起彼伏，整座会场都被一种极其热烈的氛围包裹着。",
+			say = "The excitement from the clamorous crowd is almost palpable from every corner of the Colosseum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "哇哦……这就是博览会，我还是第一次来呢。",
+			say = "You can really see why they call it the World Expo...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "前几天来的时候还有些冷清，没想到到了闭幕式当日会变得这么热闹啊！",
+			say = "Things were pretty quiet the last few days, so it totally slipped my mind how massive this event is.",
 			action = {
 				{
 					type = "shake",
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "连我也不自觉兴奋起来了！",
+			say = "Even I feel like I'm about to get swept away by the excitement.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……难得见到孟菲斯会这么激动。",
+			say = "Heehee. I rarely get to see you this bubbly, Memphis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "会场的气氛这么热烈，就算是我也会受影响的嘛。",
+			say = "I mean, all of our friends are here having fun. How could I not get into the festive mood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "对了，指挥官，海伦娜，我们趁着闭幕式还没开始，去买些纪念品吧！",
+			say = "By the way, think we should grab some souvenirs before the Expo closes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呼呼呼~一会的闭幕式上，我已经等不及看马可波罗大人出场了~！",
+			say = "Her Holiness Marco Polo will be speaking during the ceremony, so we'll want to hang on to every word.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "…………嗯？马可波罗大人？",
+			say = "\"...Her Holiness?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "孟菲斯如此称呼马可波罗……正常么？",
+			say = "\"Do the people here normally call her that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "指挥官……你也察觉到了么。",
+			say = "You noticed as well, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯的情绪，还有会场的气氛……都有些太热烈了。",
+			say = "Everyone here, including Memphis... seems a little too excited, don't you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "嗯……或者称之为狂热也不为过。",
+			say = "I quickly scan my eyes across the crowd in front of me. It's true– everyone seems a lot more fired up than normal. It almost verges on... fanatical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "看着眼前快乐的孟菲斯与鼎沸的人群。",
+			say = "I can't exactly put my finger on it, but it's almost as if.. the over-the-top energy is hiding something sinister underneath...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "会场欢快的气氛下似乎隐藏着什么。隐约有什么，不太对……",
+			say = "\"Something weird is going on. It may be the World Expo, but even then—\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？指挥官为什么要这么看着我？",
+			say = "Um? Commander, what's gotten into you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "今天是闭幕式的庆典，开心一些也很正常吧？",
+			say = "Calling it weird is just rude. Her Holiness is going to appear today, so of course we're fired up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "走吧走吧~再不去抢也许纪念品就全部卖光了哦！",
+			say = "Now let's hurry and get those souvenirs before they sell out. C'mon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,11 +359,11 @@ return {
 			},
 			options = {
 				{
-					content = "冷静点，孟菲斯。",
+					content = "(Yeah, something's definitely not right here...)",
 					flag = 1
 				},
 				{
-					content = "马可波罗大人，是什么？",
+					content = "(What's all this about \"Her Holiness\" Marco Polo...?)",
 					flag = 2
 				}
 			}
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大剧场中，马可波罗正在主席台的中心位置进行着开幕演讲。",
+			say = "During the closing ceremony, Marco Polo arrives at the Colosseum to deliver a speech.",
 			bgm = "story-expo-lastday",
 			typewriter = {
 				speed = 0.05,
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "身边的孟菲斯则带着早已买好的几袋纪念品与海伦娜一同静静听着。",
+			say = "Before I knew it, the three of us had taken our seats in the stands, Memphis's hands full of souvenirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "…………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "我们是什么时候进来的……？",
+			say = "\"Wait, when did we come in here?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "远道而来的诸位宾客。",
+			say = "Thank you all for gathering here today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我是马可波罗。",
+			say = "I am Marco Polo of Sardegna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——神于凡世间的代行者，马可波罗。",
+			say = "But... I am also God's envoy to this land.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "今天，是一个可喜的日子。",
+			say = "Oh, what a joyous day it is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们不必再忧心于塞壬的问题。",
+			say = "We no longer need to fight amongst ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不必再深陷于彼此间的纷争。",
+			say = "We no longer need to fear the Sirens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "因为，至高无上的规则已经确立，神已降临人间！",
+			say = "The order of the world has been overturned! Your supreme God has descended upon the world!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "此刻，我们正同处于神的国度之中。",
+			say = "As of now, we reside in the His heavenly kingdom.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "永恒的和平已经来临了！",
+			say = "Rejoice! All who have gathered here may equally witness His joy!",
 			effects = {
 				{
 					active = true,
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "尽情欢庆吧，各位无上光荣的见证者！",
+			say = "Celebrate eternal peace!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为新时代的来临而欢庆！",
+			say = "Celebrate the coming of a new age!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "为永恒的和平而欢庆！",
+			say = "Celebrate the glory of Sardegna!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为神的降临而欢庆！",
+			say = "Celebrate Marco Polo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "为我马可波罗而欢庆吧！",
+			say = "Celebrate God!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "伴随着马可波罗荒唐的演讲，会场中响起了如雷般的掌声。",
+			say = "Despite the absurdity of her speech, the entire venue erupts in uproarious, endless applause.",
 			effects = {
 				{
 					active = false,
@@ -722,18 +722,18 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "声浪仿佛要将大剧场掀翻一般，气氛狂热到了近乎诡异的程度。",
+			say = "The raw enthusiasm seems to fill earth, sea, and sky, swelling to an eerie degree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "想办法打断马可波罗！",
+					content = "\"I don't know what's going on here, but we need to put a stop to this!\"",
 					flag = 1
 				},
 				{
-					content = "暂且静观其变。",
+					content = "(Wait and see.)",
 					flag = 2
 				}
 			}
@@ -744,7 +744,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "……不能对现状无动于衷了，必须想办法制止这场荒唐的演讲。",
+			say = "(This doesn't make any sense... People aren't behaving the way they normally would!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "对了，可以借用孟菲斯的舰载广播装置打断她——",
+			say = "I quickly snatch Memphis's communicator away from her and connect it to the amplifier on her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "咦、咦……？！你为什么能……",
+			say = "Huh? H-how did you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等、这不对吧？！",
+			say = "N-no, stop! This is—",
 			action = {
 				{
 					type = "shake",
@@ -815,7 +815,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "演讲遭到打断的马可波罗显得十分惊慌。",
+			say = "With her speech interrupted, Marco Polo suddenly begins to panic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "果然，她对于现场的异状心里有数！",
+			say = "I can tell she knows exactly what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "就连身边的孟菲斯和其他舰船都受到了影响。",
+			say = "I look around and see Memphis and Helena in rapturous applause.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "现在的会场之中，应该正发生着某种异常危险的变化。",
+			say = "(Something is wrong. Whatever it is, everyone is under some influence.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "在搞清楚情况之前，还是先不要莽撞，静观其变吧。",
+			say = "(It's too soon to act, though. I should gather as much information as I can first.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "就在这么想的时候，突然感受到一阵强烈的困意。",
+			say = "But why is it so hard to keep my eyes open...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "眼前的世界逐渐黑了下去————",
+			say = "Everything's starting... to go black...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

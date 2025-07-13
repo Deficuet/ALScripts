@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"指挥官居然打败了大黄蜂，真不愧是我所看中的人才呀~",
-	"我们快回港区领取演习成功的奖励吧~",
-	"点击后退按钮回到主界面"
+	"You defeated Hornet! I taught you well after all!",
+	"Go back to the port and claim the rewards for your successful exercise!",
+	"Tap the button to return to the main menu."
 }
 
 return {

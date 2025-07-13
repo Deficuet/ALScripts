@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "下一个喵！",
+			say = "Next one!~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

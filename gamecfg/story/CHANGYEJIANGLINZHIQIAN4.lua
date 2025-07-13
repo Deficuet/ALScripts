@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"博览会闭幕式三日前",
+					"A few days before the World Expo's closing",
 					1
 				},
 				{
-					"博览会会场·大圣堂",
+					"World Expo - Cathedral Pavilion",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "休息室中，福熙正拿着拖布来回奔波着。",
+			say = "Inside the breakroom, the Vichya Dominion shipgirl Foch was diligently mopping the floor.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "坐在窗边的霞飞则捧着手中的书籍，似乎对周围的忙碌视若无睹。",
+			say = "Sitting by a window not far from her was Joffre, engrossed in a book and completely indifferent to the girl trying to get her attention.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我说啊……",
+			say = "Hey, Joffre?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个——我·说·啊！",
+			say = "Joffre? Are you listening?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天使大人，大小姐，我可敬的霞飞女士，怎么样都好，来搭把手吧？",
+			say = "*sigh*... Miss Virtuous and Honorable Angel, if I may be so forward, would you please give me a hand?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭大人在闭幕式期间可会住在这里啊！",
+			say = "Lady Clemenceau is staying here for the closing ceremony, you know. We really should tidy up the place for her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得这里已经挺干净的了。",
+			say = "I would argue it's tidy enough as it is.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -159,7 +159,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且，说不定收拾好了也用不上。",
+			say = "Besides, there's no guarantee she'll actually come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……用不上是指？你难道收到了什么审判庭的内部消息么？",
+			say = "Therefore, we shouldn't bother? Are you implying you've heard something through the Tribunal's grapevine?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那倒没有。不过有些事散发出的气息不太对。",
+			say = "I'm not. I'm simply speculating based on recent events.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -214,7 +214,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你知道克莱蒙梭大人现在在哪儿么？",
+			say = "Do you know where Lady Clemenceau is right now, Foch?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我记得是……正在撒丁帝国境内观光旅游。",
+			say = "Last I heard, she's on a sightseeing tour in Sardegna.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "预定在闭幕式前一天，也就是后天抵达会场。",
+			say = "And, in two days, she's expected to appear for the Expo's closing ceremony.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，但凯尔圣什么时候来呢？",
+			say = "Mhm. Do you know when Kersaint will arrive?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -287,7 +287,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……凯尔圣？",
+			say = "Kersaint? Yeah.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我收到的消息是，她会在明天抵达会场，协助我们进行一些闭幕式的布置。",
+			say = "She'll be here tomorrow. I've heard she's gonna help us with a couple of closing ceremony arrangements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凯尔圣会先来会场，这件事就不对。",
+			say = "Meaning, she's coming by herself. That fact strikes me as odd.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我对她没有那么熟……哪里不对？",
+			say = "Really? I don't know too much about her, so... Why do you think it's odd?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "凯尔圣是克莱蒙梭大人的贴身情报官，从不会单独行动。",
+			say = "Why? Because she's Lady Clemenceau's right-hand woman. She never acts alone under normal circumstances.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -379,44 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除非……",
-			hidePaintEquip = true,
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_502",
-			dir = 1,
-			hidePaintEquip = true,
-			actor = 903010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "除非？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 907010,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "上次她单独行动，是在几年前的土伦。",
+			say = "Unless...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -436,7 +399,7 @@ return {
 			actor = 903010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "Unless...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +416,44 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，{namecode:523}女士这几天也被克莱蒙梭大人调回到土伦了吧。",
+			say = "It has happened before. The last time was when she acted alone in Toulon, a few years ago.",
+			hidePaintEquip = true,
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "......",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 907010,
+			side = 2,
+			bgName = "star_level_bg_502",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What's more, Lady Jean Bart also traveled to Toulon a few days prior at Lady Clemenceau's request.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 903010,
-			say = "确实有种不同寻常的气息呢……那我们要怎么做？",
+			say = "Huh. Yeah, that's an eyebrow-raiser... So, armed with this information, what do you want me to do?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -487,7 +487,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首先，停止打扫卫生。",
+			say = "Firstly, please stop mopping. It's a waste of time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后——",
+			say = "Secondly...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -524,7 +524,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「Attendre et espérer.」",
+			say = "Attendre et espérer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——等待，且心怀希望吧。",
+			say = "Yes. Wait and hope.",
 			painting = {
 				alpha = 0.3,
 				time = 1

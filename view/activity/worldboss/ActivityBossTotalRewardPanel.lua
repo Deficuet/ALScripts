@@ -12,7 +12,6 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.itemList = arg_2_0.boxView:Find("Content/ItemGrid2")
 
 	setText(arg_2_0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
-	setText(arg_2_0.window:Find("Fixed/ButtonGO/pic"), i18n("text_confirm"))
 end
 
 function var_0_0.didEnter(arg_3_0)

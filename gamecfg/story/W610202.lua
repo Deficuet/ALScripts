@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：我方据点被塞壬舰队占领，塞壬对于该片海域的控制力增加了。",
+			say = "Node has been recaptured by Sirens. Siren control over this zone has risen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

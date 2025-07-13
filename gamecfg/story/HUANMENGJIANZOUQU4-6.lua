@@ -9,7 +9,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咔嚓——",
+			say = "*snap*!",
 			bgm = "battle-roma-sky",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "演习瞬间《迎风而来的鸢尾舰队》记录完毕~",
+			say = "A picture's worth a thousand words! I call this, \"The Orthodoxy's Fleet Sails Against the Wind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "哇哦……这张拍的真是英姿飒爽啊！搞不好有评奖的潜质呢……",
+			say = "Whoa! Look how cool they look! You might win a Pulitzer for this one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿，我也是这么觉得的~",
+			say = "I reckon so, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……记者？",
+			say = "You're... a journalist?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "记者，兼撒丁帝国演习成员阿尔弗雷多·奥里亚尼~旁边的这两位是加里波第和伟大的庞培！",
+			say = "Not JUST a journalist – I'm also one of your opponents! Name's Alfredo Oriani. This is Captain Pompey, and that's Giuseppe Garibaldi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 602020,
-			say = "幸会。",
+			say = "Greetings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "接下来就由我，伟大的庞培来亲自会会你们！",
+			say = "Prepare yourself, challengers! The great Captain Pompey shall take you on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "鸢尾的挑战者哟，亮出你们的光刃吧！",
+			say = "Draw your swords and show me your shimmering blades!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……光刃？",
+			say = "Excuse me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "就、就是那些嘛……你们鸢尾不是经常有各种发光亮闪闪的武器……不就是光刃！",
+			say = "Come on, surely you know what I mean? Don't your Cardinal and Fighting Angels make their weapons glow when they attack?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			expression = 3,
-			say = "……像这样？",
+			say = "You mean... like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "没错、没错！",
+			say = "Yes, just like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "咔嚓——",
+			say = "*snap*!",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "演习瞬间《亮出光刃的鸢尾骑士》记录完毕~",
+			say = "Beautiful. \"The Templar Knight Unveils Her Radiant Sword.\" Another one for the collection!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……怎么一到撒丁帝国这里画风就变了？",
+			say = "Could you take this at least a LITTLE seriously?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "同感。我说啊——这里可是鸢尾教国的地盘，严格来说，远道而来的诸位才是挑战者哦？",
+			say = "Also, aren't YOU the challengers here? You're in Orthodoxy waters, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "哼，很有气势嘛。多说无益，战场上见真章吧！",
+			say = "Well said! But enough words! It's time to do battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

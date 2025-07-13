@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真拿你没办法……这样可以吗？",
+			say = "Well, if you insist... Is this good enough?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture3_tone5",
 			typewriter = {
 				speed = 0.05,

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "来到邮轮的转接区时，看到了埃尔德里奇正拿着寻宝铁棍，而她身边此时还聚集着一群人。",
+			say = "I approach the cargo unloading area and see a group of people gathered around Eldridge, holding a dowsing rod.",
 			bgm = "theme-tempest-up",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "动了动了！这个意思是，海里有宝藏？",
+			say = "It moved! So that means there's treasure under the water, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯。",
+			say = "Mhm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟我们还在海盗的据点，有宝藏也很正常……",
+			say = "Pirates DID live here once, so I wouldn't be too shocked to find treasure here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这种探测棍的范围，通常情况下是没办法探到深海里的吧？",
+			say = "If I can be a skeptic for a second, how can a dowsing rod even detect treasure in the first place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊，因为埃尔德里奇手上现在拿的是我引以为傲的发明哦！",
+			say = "By being an intricately designed invention of yours truly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "仅能在岸上使用的水下寻宝铁棍！咳，因为使用条件苛刻了一点，之前都没怎么派上用场呢……",
+			say = "I like to call it the Handy Landy Treasure Findy! The only problem with it is that its range of targets is limited solely to treasure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不过现在终于迎来了让它大放异彩的时候哦！",
+			say = "But, as it so happens, that's exactly what we need right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！来一起寻宝吗！这里有宝藏哦！",
+			say = "Hey, Commander! Do you want to go treasure-hunting with us? There's loot to be found in these waters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里是海盗们的地盘，寻宝之前先征求一下对方的意见吧。",
+			say = "Are you sure that's not stepping on Tempesta's toes? We should talk to them first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "在询问过金鹿她们后，得到了可以随意下水寻宝的答复。",
+			say = "I called up Tempesta and had a word. They gave us permission to search to our heart's content.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好了，这样就只剩决定下水寻宝的人选是谁了吧。",
+			say = "That's all sorted. Now we have to decide who'll do the diving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……埃尔德里奇不下水，有电。",
+			say = "Eldridge can't... Emits sparks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实，万一电到鱼就不好了呢。",
+			say = "That's true. We don't want to electrocute a whole school of fish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……一定要下水的话，我现在去问一下{namecode:523:让·巴尔}小姐吧？",
+			say = "If we need someone to go underwater, maybe we should ask Jean Bart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她也是海盗，应该很熟悉海盗们会把宝藏藏在哪里！",
+			say = "She's associated with pirates, so she'd know where a pirate would hide their treasure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？不让达芬奇去么？",
+			say = "Why not send da Vinci down? I mean, she's a submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我要留在这里验证发明的效果哦！才不下水呢！",
+			say = "No can do! I have to stay on land to verify how well my invention works.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就按照原计划，我去拜托{namecode:523:让·巴尔}小姐！",
+			say = "Jean it is, then! I'll go find her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "不一会儿，标枪就带着{namecode:523:让·巴尔}回来了。",
+			say = "Sometime later, Javelin returns with Jean Bart... who has changed into a swimsuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "不过……后者好像误会了什么，已经是一幅泳装打扮。",
+			say = "I get the feeling there has been a misunderstanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "重新向{namecode:523:让·巴尔}解释了前情后——",
+			say = "I pull her aside and explain the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……等等？我以为只是在附近搁浅的船只遗骸上寻宝，居然是潜到水下去寻宝吗？！",
+			say = "...You what? I thought I'd be searchin' the shipwrecks nearby, and now ya want me to go DIVING?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "而且这里不是有潜艇么！",
+			say = "You've got a submarine right here! The hell do ya need me for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次水下寻宝，我会陪你一起去。",
+			say = "Well, we need someone to help me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "开什么玩笑，那可是要潜水的！为了安全着想……你就在岸上等着吧。",
+			say = "Don't kid yourself. It's dangerous down there. Sit your ass down and I'll do it myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "邮轮上不是有那个装置么，之前大青花鱼用来抓鱼用的……",
+			say = "I didn't mean it like that. There's a thing on the ship that can lower you into the water. Albacore used it the other day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只要对那个加以改进，我们就可以用那个装置去寻宝了。",
+			say = "With some modifications, I'm sure you could use it to hunt for treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哦！对哦！指挥官，你这么一说，我来灵感了！",
+			say = "Oh! That's a great idea! Let me cook something up and I'll be right back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "在经过达芬奇的巧手改造后，我和{namecode:523:让·巴尔}一起进入了那个装置之中。",
+			say = "Da Vinci finishes her ingenious modifications to the machine, and Jean Beart and I step inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "不过，原本用于容纳潜艇的装置舱室，就算加以改造也没有扩大太多面积。",
+			say = "It was designed with submarines in mind, so it's still cramped even after the changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "我和{namecode:523}以非常亲密的姿势相贴，在链条转动声中，慢慢地前往海洋深处。",
+			say = "This forces me and Jean to be practically shoulder to shoulder. At any rate, the chain drops us and into the water we go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101260,
-			say = "目标，发现。",
+			say = "Target... sighted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201210,
-			say = "宝藏的位置好像离你们很近了哦！",
+			say = "You're right next to the treasure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白了。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523:让·巴尔}，我们——",
+			say = "Hey, Jean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "嗯？",
+			say = "Yeah?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "原本想冲{namecode:523:让·巴尔}点点头示意她开始行动，但没料到的是少女在名字被叫到后本能地抬起了头。",
+			say = "I was just going to nod at her to tell her to proceed, but she turns to face me instinctively after hearing her name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "于是在如此亲密的距离之下，我的嘴唇无可避免地碰到了她的脸颊。",
+			say = "Since we're right up against each other, my lips accidentally brush up against her cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "………………！",
+			say = "Wha–?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "一抹粉色迅速爬上了她的面庞。",
+			say = "Her cheeks turn a shade of pink, if for just a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我，我先出去找宝藏了！",
+			say = "I-I'm going out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "她拉下头上由达芬奇特制的潜水氧气面罩，有些慌乱地先一步踏出了装置。",
+			say = "She puts on a da Vinci-brand diving oxygen mask and exits the machine after some fidgeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "我跟在{namecode:523}身后，之后和她在海底的泥沙之中翻找到了一块怀表。",
+			say = "I shortly follow suit. Amongst the sand on the ocean floor, I dig out an old pocket watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "外壳上有着被锈蚀过的猫咪雕刻，而且并非黄金制成，只是一块普通的金属怀表。",
+			say = "A picture of a cat is engraved on the corroded lid. The watch itself, sadly, is made not of gold but ordinary metal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "和{namecode:523:让·巴尔}拿着“宝藏”回到了装置之中。",
+			say = "\"Treasure\" in hand, me and Jean return to the machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "真是寒酸，这就是在这里的宝藏？",
+			say = "What a piece of junk. This what ya call treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……虽然寒酸，但还是把这个怀表交给她们吧。",
+			say = "In a sense. I want to give it to them as a gift, even if it's not worth much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，能像现在这样两个人相处，倒是比这块怀表更显珍贵，也更像宝藏。",
+			say = "To me, though, the real treasure was the time I spent with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "你这家伙……就这么清楚怎么让我开心吗？真是令人不爽……",
+			say = "Ugh, you're so corny. You tryin' to flatter me? I don't like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "她咂着舌，然后以极快的速度在我的唇边印下了一吻。",
+			say = "So she says, but the next thing she does is walk up and give me a kiss just to the side of my lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "这样……！啊啊，总之这也是我的宝藏！懂了吧！",
+			say = "There. That's my idea of real treasure. Don't forget it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "之后呼叫达芬奇操纵装置将我们重新带回到了陆地上。",
+			say = "I radio da Vinci and she hoists us back up to land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "一起将怀表交给标枪和埃尔德里奇后，{namecode:523:让·巴尔}便红着脸急匆匆离开了。",
+			say = "After taking off my diving suit, I present the old pocket watch to the aspiring treasure hunters. Jean Bart, meanwhile, turns and walks away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "而达芬奇高呼着有灵感了，也离开了。",
+			say = "I leave the scene to the backdrop of da Vinci shouting, \"This gives me an idea\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -926,7 +926,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			say = "换回普通的衣物后，离变装舞会开始还有一段时间，先去准备一下吧。",
+			say = "There is still time until the dress party starts. I'll go and get myself ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,1677 +2,1677 @@ pg = pg or {}
 pg.world_event_desc = {
 	[65] = {
 		id = 65,
-		hint = "将第二舰队移动到另一处机关上",
+		hint = "Move your second fleet to another switch.",
 		hint_pri = 3
 	},
 	[20002] = {
 		id = 20002,
-		hint = "与大黄蜂交战",
+		hint = "Fight against Hornet.",
 		hint_pri = 1
 	},
 	[20120] = {
 		id = 20120,
-		hint = "前往舰队集合点",
+		hint = "Head to the fleet rally point.",
 		hint_pri = 1
 	},
 	[20220] = {
 		id = 20220,
-		hint = "前往指定区域",
+		hint = "Head to the designated zone.",
 		hint_pri = 4
 	},
 	[20230] = {
 		id = 20230,
-		hint = "与敌方舰队交战",
+		hint = "Engage the enemy fleet.",
 		hint_pri = 3
 	},
 	[20250] = {
 		id = 20250,
-		hint = "击破敌舰并收集海域中所有资源",
+		hint = "Destroy all enemies in this zone and collect all resources.",
 		hint_pri = 2
 	},
 	[20251] = {
 		id = 20251,
-		hint = "使用分析模块收集隐藏资源 ",
+		hint = "Use Scanning Mode to locate hidden resources.",
 		hint_pri = 1
 	},
 	[20252] = {
 		id = 20252,
-		hint = "击破敌舰并收集海域中所有资源",
+		hint = "Destroy all enemies in this zone and collect all resources.",
 		hint_pri = 2
 	},
 	[20274] = {
 		id = 20274,
-		hint = "领取作战储备品",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20275] = {
 		id = 20275,
-		hint = "领取作战储备品",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20276] = {
 		id = 20276,
-		hint = "领取作战储备品",
+		hint = "Retrieve the materials container.",
 		hint_pri = 1
 	},
 	[20280] = {
 		id = 20280,
-		hint = "获取补给物资箱",
+		hint = "Obtain a Supply Crate.",
 		hint_pri = 1
 	},
 	[20281] = {
 		id = 20281,
-		hint = "准备前往作战海域",
+		hint = "Prepare to enter the combat zone.",
 		hint_pri = 1
 	},
 	[20310] = {
 		id = 20310,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20311] = {
 		id = 20311,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20318] = {
 		id = 20318,
-		hint = "跟随企业前进",
+		hint = "Follow Enterprise.",
 		hint_pri = 1
 	},
 	[20320] = {
 		id = 20320,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20321] = {
 		id = 20321,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20330] = {
 		id = 20330,
-		hint = "跟随企业前进",
+		hint = "Follow Enterprise.",
 		hint_pri = 1
 	},
 	[20410] = {
 		id = 20410,
-		hint = "前往调查海域中全部异常点",
+		hint = "Investigate all the anomalous nodes in this zone.",
 		hint_pri = 1
 	},
 	[20411] = {
 		id = 20411,
-		hint = "前往调查海域中全部异常点",
+		hint = "Investigate all the anomalous nodes in this zone.",
 		hint_pri = 1
 	},
 	[20412] = {
 		id = 20412,
-		hint = "前往调查海域中全部异常点",
+		hint = "Investigate all the anomalous nodes in this zone.",
 		hint_pri = 1
 	},
 	[20440] = {
 		id = 20440,
-		hint = "清理所有敌人",
+		hint = "Eliminate all enemies.",
 		hint_pri = 1
 	},
 	[20441] = {
 		id = 20441,
-		hint = "清理所有敌人",
+		hint = "Eliminate all enemies.",
 		hint_pri = 1
 	},
 	[20442] = {
 		id = 20442,
-		hint = "清理所有敌人",
+		hint = "Eliminate all enemies.",
 		hint_pri = 1
 	},
 	[20510] = {
 		id = 20510,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20511] = {
 		id = 20511,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20512] = {
 		id = 20512,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20513] = {
 		id = 20513,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20610] = {
 		id = 20610,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20611] = {
 		id = 20611,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20612] = {
 		id = 20612,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20620] = {
 		id = 20620,
-		hint = "与铁血主力舰队交战",
+		hint = "Engage the Iron Blood fleet.",
 		hint_pri = 1
 	},
 	[20710] = {
 		id = 20710,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20711] = {
 		id = 20711,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20712] = {
 		id = 20712,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[20720] = {
 		id = 20720,
-		hint = "消灭敌方舰队，确保第一处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the first Outpost.",
 		hint_pri = 1
 	},
 	[20721] = {
 		id = 20721,
-		hint = "消灭敌方舰队，确保第一处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the first Outpost.",
 		hint_pri = 1
 	},
 	[20722] = {
 		id = 20722,
-		hint = "消灭敌方舰队，确保第一处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the first Outpost.",
 		hint_pri = 1
 	},
 	[20723] = {
 		id = 20723,
-		hint = "消灭敌方舰队，确保第一处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the first Outpost.",
 		hint_pri = 1
 	},
 	[20730] = {
 		id = 20730,
-		hint = "消灭敌方舰队，确保第二处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the second Outpost.",
 		hint_pri = 1
 	},
 	[20731] = {
 		id = 20731,
-		hint = "消灭敌方舰队，确保第二处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the second Outpost.",
 		hint_pri = 1
 	},
 	[20732] = {
 		id = 20732,
-		hint = "消灭敌方舰队，确保第二处前哨站建立",
+		hint = "Destroy the enemy fleet and secure the establishment of the second Outpost.",
 		hint_pri = 1
 	},
 	[20740] = {
 		id = 20740,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[20745] = {
 		id = 20745,
-		hint = "回收海域中的纪录",
+		hint = "Recover an archives file in this zone. ",
 		hint_pri = 1
 	},
 	[21010] = {
 		id = 21010,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[21020] = {
 		id = 21020,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[21110] = {
 		id = 21110,
-		hint = "前往汇合点",
+		hint = "Head to the meeting point.",
 		hint_pri = 1
 	},
 	[21120] = {
 		id = 21120,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21121] = {
 		id = 21121,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21122] = {
 		id = 21122,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21210] = {
 		id = 21210,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21211] = {
 		id = 21211,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21212] = {
 		id = 21212,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21220] = {
 		id = 21220,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21221] = {
 		id = 21221,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21222] = {
 		id = 21222,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21223] = {
 		id = 21223,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21310] = {
 		id = 21310,
-		hint = "在海域中进行调查",
+		hint = "Investigate this zone.",
 		hint_pri = 1
 	},
 	[21330] = {
 		id = 21330,
-		hint = "继续进行调查",
+		hint = "Continue investigating this zone.",
 		hint_pri = 1
 	},
 	[21340] = {
 		id = 21340,
-		hint = "与失事舰队汇合",
+		hint = "Rendezvous with the wrecked fleet.",
 		hint_pri = 1
 	},
 	[21410] = {
 		id = 21410,
-		hint = "击破设施护卫舰队，解除区域封锁",
+		hint = "Destroy the facility defense fleet and lift this zone’s blockade.",
 		hint_pri = 2
 	},
 	[21420] = {
 		id = 21420,
-		hint = "将能源矩阵归位，解除区域封锁",
+		hint = "Return the Energy Matrix to its platform and lift this zone’s blockade.",
 		hint_pri = 2
 	},
 	[21450] = {
 		id = 21450,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[21510] = {
 		id = 21510,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21511] = {
 		id = 21511,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21512] = {
 		id = 21512,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[21520] = {
 		id = 21520,
-		hint = "在特殊环境内与敌方交战",
+		hint = "Engage the enemies inside the special zone.",
 		hint_pri = 1
 	},
 	[21530] = {
 		id = 21530,
-		hint = "与未知敌人交战",
+		hint = "Engage the unknown enemies.",
 		hint_pri = 1
 	},
 	[22010] = {
 		id = 22010,
-		hint = "前往港口",
+		hint = "Head to Port.",
 		hint_pri = 1
 	},
 	[22020] = {
 		id = 22020,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[22115] = {
 		id = 22115,
-		hint = "突破塞壬防线",
+		hint = "Break through the Siren defensive line.",
 		hint_pri = 1
 	},
 	[22116] = {
 		id = 22116,
-		hint = "突破塞壬防线",
+		hint = "Break through the Siren defensive line.",
 		hint_pri = 1
 	},
 	[22130] = {
 		id = 22130,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[22220] = {
 		id = 22220,
-		hint = "探索海域",
+		hint = "Explore the zone.",
 		hint_pri = 1
 	},
 	[22230] = {
 		id = 22230,
-		hint = "前往目标点",
+		hint = "Head towards the objective.",
 		hint_pri = 1
 	},
 	[22330] = {
 		id = 22330,
-		hint = "调查海域",
+		hint = "Investigate the zone.",
 		hint_pri = 1
 	},
 	[22410] = {
 		id = 22410,
-		hint = "调查海域",
+		hint = "Investigate the zone.",
 		hint_pri = 1
 	},
 	[22420] = {
 		id = 22420,
-		hint = "调查海域",
+		hint = "Investigate the zone.",
 		hint_pri = 1
 	},
 	[22430] = {
 		id = 22430,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22431] = {
 		id = 22431,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22432] = {
 		id = 22432,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22433] = {
 		id = 22433,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22440] = {
 		id = 22440,
-		hint = "排除干扰源",
+		hint = "Eliminate the source of the jamming.",
 		hint_pri = 1
 	},
 	[22510] = {
 		id = 22510,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22511] = {
 		id = 22511,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22512] = {
 		id = 22512,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[22520] = {
 		id = 22520,
-		hint = "前往前哨站",
+		hint = "Head to the Outpost.",
 		hint_pri = 1
 	},
 	[23020] = {
 		id = 23020,
-		hint = "前往集合点",
+		hint = "Head to the rally point.",
 		hint_pri = 1
 	},
 	[23110] = {
 		id = 23110,
-		hint = "前往塔兰托港",
+		hint = "Head to Taranto.",
 		hint_pri = 1
 	},
 	[23210] = {
 		id = 23210,
-		hint = "前往达咯尔港",
+		hint = "Head to Dakar.",
 		hint_pri = 1
 	},
 	[23310] = {
 		id = 23310,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23311] = {
 		id = 23311,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23312] = {
 		id = 23312,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23315] = {
 		id = 23315,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23420] = {
 		id = 23420,
-		hint = "前往目标点",
+		hint = "Head towards the objective.",
 		hint_pri = 1
 	},
 	[23430] = {
 		id = 23430,
-		hint = "穿越海雾前往目标点",
+		hint = "Cross the sea fog and head towards the objective. ",
 		hint_pri = 1
 	},
 	[23440] = {
 		id = 23440,
-		hint = "穿越海雾前往目标点",
+		hint = "Cross the sea fog and head towards the objective. ",
 		hint_pri = 1
 	},
 	[23510] = {
 		id = 23510,
-		hint = "穿越海雾前往目标点",
+		hint = "Cross the sea fog and head towards the objective. ",
 		hint_pri = 1
 	},
 	[23520] = {
 		id = 23520,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23521] = {
 		id = 23521,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23522] = {
 		id = 23522,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23523] = {
 		id = 23523,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23524] = {
 		id = 23524,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23525] = {
 		id = 23525,
-		hint = "清理海域内的敌方舰队",
+		hint = "Eliminate all enemies in this zone.",
 		hint_pri = 1
 	},
 	[23530] = {
 		id = 23530,
-		hint = "与未知敌人交战",
+		hint = "Engage the unknown enemies.",
 		hint_pri = 1
 	},
 	[24120] = {
 		id = 24120,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24121] = {
 		id = 24121,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24122] = {
 		id = 24122,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24123] = {
 		id = 24123,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24130] = {
 		id = 24130,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24131] = {
 		id = 24131,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24132] = {
 		id = 24132,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24140] = {
 		id = 24140,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[24220] = {
 		id = 24220,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24221] = {
 		id = 24221,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24222] = {
 		id = 24222,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24223] = {
 		id = 24223,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24224] = {
 		id = 24224,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24230] = {
 		id = 24230,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24231] = {
 		id = 24231,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24232] = {
 		id = 24232,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24240] = {
 		id = 24240,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[24420] = {
 		id = 24420,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24421] = {
 		id = 24421,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24422] = {
 		id = 24422,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24423] = {
 		id = 24423,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24430] = {
 		id = 24430,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24431] = {
 		id = 24431,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24432] = {
 		id = 24432,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24440] = {
 		id = 24440,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[24520] = {
 		id = 24520,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24521] = {
 		id = 24521,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24522] = {
 		id = 24522,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24523] = {
 		id = 24523,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24524] = {
 		id = 24524,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24530] = {
 		id = 24530,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24531] = {
 		id = 24531,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24532] = {
 		id = 24532,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24540] = {
 		id = 24540,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[24720] = {
 		id = 24720,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24721] = {
 		id = 24721,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24722] = {
 		id = 24722,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24723] = {
 		id = 24723,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24730] = {
 		id = 24730,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24731] = {
 		id = 24731,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24732] = {
 		id = 24732,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24740] = {
 		id = 24740,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[24820] = {
 		id = 24820,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24821] = {
 		id = 24821,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24822] = {
 		id = 24822,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24823] = {
 		id = 24823,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24830] = {
 		id = 24830,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24831] = {
 		id = 24831,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24832] = {
 		id = 24832,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[24840] = {
 		id = 24840,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[25020] = {
 		id = 25020,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25021] = {
 		id = 25021,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25022] = {
 		id = 25022,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25023] = {
 		id = 25023,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25030] = {
 		id = 25030,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25031] = {
 		id = 25031,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25032] = {
 		id = 25032,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25040] = {
 		id = 25040,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[25120] = {
 		id = 25120,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25121] = {
 		id = 25121,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25122] = {
 		id = 25122,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25123] = {
 		id = 25123,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25124] = {
 		id = 25124,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25130] = {
 		id = 25130,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25131] = {
 		id = 25131,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25132] = {
 		id = 25132,
-		hint = "按顺序解除机关",
+		hint = "Operate the mechanisms in the correct order.",
 		hint_pri = 1
 	},
 	[25140] = {
 		id = 25140,
-		hint = "进入塞壬特殊通行装置",
+		hint = "Enter the Siren Transference Device",
 		hint_pri = 2
 	},
 	[26012] = {
 		id = 26012,
-		hint = "与孟菲斯对话",
+		hint = "Talk to Memphis",
 		hint_pri = 1
 	},
 	[26050] = {
 		id = 26050,
-		hint = "前往集合点",
+		hint = "Proceed to Rally Point",
 		hint_pri = 1
 	},
 	[26051] = {
 		id = 26051,
-		hint = "前往集合点",
+		hint = "Proceed to Rally Point",
 		hint_pri = 1
 	},
 	[26110] = {
 		id = 26110,
-		hint = "前往目标点",
+		hint = "Proceed to objective",
 		hint_pri = 1
 	},
 	[26120] = {
 		id = 26120,
-		hint = "前往目标点",
+		hint = "Proceed to objective",
 		hint_pri = 1
 	},
 	[26210] = {
 		id = 26210,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26310] = {
 		id = 26310,
-		hint = "前往目标点",
+		hint = "Proceed to objective",
 		hint_pri = 1
 	},
 	[26311] = {
 		id = 26311,
-		hint = "前往集合点",
+		hint = "Proceed to Rally Point",
 		hint_pri = 1
 	},
 	[26410] = {
 		id = 26410,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26420] = {
 		id = 26420,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26430] = {
 		id = 26430,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26455] = {
 		id = 26455,
-		hint = "击破所有测试者",
+		hint = "Eliminate all elite Sirens",
 		hint_pri = 1
 	},
 	[26456] = {
 		id = 26456,
-		hint = "击破所有测试者",
+		hint = "Eliminate all elite Sirens",
 		hint_pri = 1
 	},
 	[26510] = {
 		id = 26510,
-		hint = "前往目标点",
+		hint = "Proceed to objective",
 		hint_pri = 1
 	},
 	[26610] = {
 		id = 26610,
-		hint = "与埃塞克斯对话",
+		hint = "Talk to Essex",
 		hint_pri = 1
 	},
 	[26710] = {
 		id = 26710,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26711] = {
 		id = 26711,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26712] = {
 		id = 26712,
-		hint = "前往目标区域调查",
+		hint = "Investigate the zone",
 		hint_pri = 1
 	},
 	[26720] = {
 		id = 26720,
-		hint = "前往目标点",
+		hint = "Proceed to objective",
 		hint_pri = 1
 	},
 	[73020] = {
 		id = 73020,
-		hint = "派遣一支舰队进入海域中央",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73121] = {
 		id = 73121,
-		hint = "通过隐形墙迷宫，将能源矩阵归位",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73249] = {
 		id = 73249,
-		hint = "调查海域中央",
+		hint = "Future Content ",
 		hint_pri = 2
 	},
 	[73270] = {
 		id = 73270,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73290] = {
 		id = 73290,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73310] = {
 		id = 73310,
-		hint = "使用中央控制台归位三个能源矩阵 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73501] = {
 		id = 73501,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73510] = {
 		id = 73510,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73520] = {
 		id = 73520,
-		hint = "将能源矩阵放到指定的位置",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73730] = {
 		id = 73730,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73731] = {
 		id = 73731,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73830] = {
 		id = 73830,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73831] = {
 		id = 73831,
-		hint = "击破海域两侧的塞壬精英",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[73900] = {
 		id = 73900,
-		hint = "与仲裁者交战",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74025] = {
 		id = 74025,
-		hint = "在海域中寻找线索",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74031] = {
 		id = 74031,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74215] = {
 		id = 74215,
-		hint = "在海域中寻找目标方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74250] = {
 		id = 74250,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74450] = {
 		id = 74450,
-		hint = "在海域中寻找目标方阵",
+		hint = "Future Content ",
 		hint_pri = 2
 	},
 	[74425] = {
 		id = 74425,
-		hint = "将目标方阵还原为初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74610] = {
 		id = 74610,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74611] = {
 		id = 74611,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74612] = {
 		id = 74612,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74613] = {
 		id = 74613,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74614] = {
 		id = 74614,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74615] = {
 		id = 74615,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74616] = {
 		id = 74616,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74617] = {
 		id = 74617,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74618] = {
 		id = 74618,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74619] = {
 		id = 74619,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74620] = {
 		id = 74620,
-		hint = "在海域中还原出初始方阵",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[74900] = {
 		id = 74900,
-		hint = "与仲裁者交战",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75110] = {
 		id = 75110,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75111] = {
 		id = 75111,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[75112] = {
 		id = 75112,
-		hint = "进入传送门空间",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76010] = {
 		id = 76010,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76011] = {
 		id = 76011,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76110] = {
 		id = 76110,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76111] = {
 		id = 76111,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76210] = {
 		id = 76210,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76211] = {
 		id = 76211,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[76310] = {
 		id = 76310,
-		hint = "寻找能源矩阵，并带到海域中央",
+		hint = "Future Content ",
 		hint_pri = 3
 	},
 	[76311] = {
 		id = 76311,
-		hint = "将能源矩阵放到海域中央指定位置 ",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[77000] = {
 		id = 77000,
-		hint = "寻找海域中的仲裁者，将其击破",
+		hint = "Future Content ",
 		hint_pri = 1
 	},
 	[80001] = {
 		id = 80001,
-		hint = "调查海域中的海豹",
+		hint = "Investigate the seal.",
 		hint_pri = 3
 	},
 	[80003] = {
 		id = 80003,
-		hint = "从塞壬特殊通行装置离开",
+		hint = "Leave the portal.",
 		hint_pri = 1
 	},
 	[80099] = {
 		id = 80099,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[80301] = {
 		id = 80301,
-		hint = "调查海域中的海豹",
+		hint = "Investigate the seal.",
 		hint_pri = 3
 	},
 	[80302] = {
 		id = 80302,
-		hint = "寻找真正的海豹",
+		hint = "Find the real seal",
 		hint_pri = 3
 	},
 	[80303] = {
 		id = 80303,
-		hint = "寻找真正的海豹",
+		hint = "Find the real seal",
 		hint_pri = 3
 	},
 	[80304] = {
 		id = 80304,
-		hint = "寻找真正的海豹",
+		hint = "Find the real seal",
 		hint_pri = 3
 	},
 	[80305] = {
 		id = 80305,
-		hint = "寻找真正的海豹",
+		hint = "Find the real seal",
 		hint_pri = 3
 	},
 	[80306] = {
 		id = 80306,
-		hint = "寻找真正的海豹",
+		hint = "Find the real seal",
 		hint_pri = 3
 	},
 	[80307] = {
 		id = 80307,
-		hint = "调查海域中的海豹",
+		hint = "Investigate the seal.",
 		hint_pri = 3
 	},
 	[80308] = {
 		id = 80308,
-		hint = "从塞壬特殊通行装置离开",
+		hint = "Leave the portal.",
 		hint_pri = 1
 	},
 	[80399] = {
 		id = 80399,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[80601] = {
 		id = 80601,
-		hint = "调查海域中的海豹",
+		hint = "Investigate the seal.",
 		hint_pri = 1
 	},
 	[80640] = {
 		id = 80640,
-		hint = "在海雾中寻找塞壬浮冰控制器",
+		hint = "Enter the fog and find a way to destroy the iceberg.",
 		hint_pri = 2
 	},
 	[80641] = {
 		id = 80641,
-		hint = "在海雾中寻找塞壬浮冰控制器",
+		hint = "Enter the fog and find a way to destroy the iceberg.",
 		hint_pri = 2
 	},
 	[80699] = {
 		id = 80699,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[82010] = {
 		id = 82010,
-		hint = "寻找能源矩阵",
+		hint = "Obtain the Energy Matrix.",
 		hint_pri = 2
 	},
 	[82011] = {
 		id = 82011,
-		hint = "将能源矩阵归位",
+		hint = "Place the Energy Matrix on the designated position.",
 		hint_pri = 1
 	},
 	[82099] = {
 		id = 82099,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[82380] = {
 		id = 82380,
-		hint = "破坏塞壬洋流控制器",
+		hint = "Destroy the Siren Ocean Current Tower.",
 		hint_pri = 3
 	},
 	[82371] = {
 		id = 82371,
-		hint = "寻找能源矩阵",
+		hint = "Obtain the Energy Matrix.",
 		hint_pri = 2
 	},
 	[82372] = {
 		id = 82372,
-		hint = "将能源矩阵归位",
+		hint = "Place the Energy Matrix on the designated position.",
 		hint_pri = 1
 	},
 	[82399] = {
 		id = 82399,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[82621] = {
 		id = 82621,
-		hint = "寻找能源矩阵",
+		hint = "Obtain the Energy Matrix.",
 		hint_pri = 2
 	},
 	[82622] = {
 		id = 82622,
-		hint = "将能源矩阵归位",
+		hint = "Place the Energy Matrix on the designated position.",
 		hint_pri = 1
 	},
 	[82699] = {
 		id = 82699,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[86050] = {
 		id = 86050,
-		hint = "寻找能源矩阵",
+		hint = "Obtain the Energy Matrix.",
 		hint_pri = 2
 	},
 	[86051] = {
 		id = 86051,
-		hint = "将能源矩阵归位",
+		hint = "Place the Energy Matrix on the designated position.",
 		hint_pri = 1
 	},
 	[86099] = {
 		id = 86099,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[86640] = {
 		id = 86640,
-		hint = "寻找能源矩阵",
+		hint = "Obtain the Energy Matrix.",
 		hint_pri = 2
 	},
 	[86641] = {
 		id = 86641,
-		hint = "将能源矩阵归位",
+		hint = "Place the Energy Matrix on the designated position.",
 		hint_pri = 1
 	},
 	[86699] = {
 		id = 86699,
-		hint = "击破实验场防御舰队",
+		hint = "Defeat the defending fleet of the Siren Research Facility.",
 		hint_pri = 2
 	},
 	[300100] = {
 		id = 300100,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300101] = {
 		id = 300101,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300102] = {
 		id = 300102,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300200] = {
 		id = 300200,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300201] = {
 		id = 300201,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300202] = {
 		id = 300202,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300300] = {
 		id = 300300,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300301] = {
 		id = 300301,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300302] = {
 		id = 300302,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300310] = {
 		id = 300310,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300311] = {
 		id = 300311,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300312] = {
 		id = 300312,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300313] = {
 		id = 300313,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[300314] = {
 		id = 300314,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[321050] = {
 		id = 321050,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[321051] = {
 		id = 321051,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[321052] = {
 		id = 321052,
-		hint = "清理海域内的塞壬舰队",
+		hint = "Defeat all Siren fleets. ",
 		hint_pri = 1
 	},
 	[1000050] = {
 		id = 1000050,
-		hint = "破坏塞壬的塞壬增援点",
+		hint = "Disrupt the Pawns’ communication channel.",
 		hint_pri = 5
 	},
 	[1000032] = {
 		id = 1000032,
-		hint = "从塞壬特殊通行装置离开隐秘海域",
+		hint = "Use the teleporter to leave the Fractured Sea.",
 		hint_pri = 6
 	},
 	[1000033] = {
 		id = 1000033,
-		hint = "从塞壬特殊通行装置离开隐秘海域",
+		hint = "Use the teleporter to leave the Fractured Sea.",
 		hint_pri = 6
 	},
 	[1000034] = {
 		id = 1000034,
-		hint = "从塞壬特殊通行装置离开隐秘海域",
+		hint = "Use the teleporter to leave the Fractured Sea.",
 		hint_pri = 6
 	},
 	[4100001] = {
 		id = 4100001,
-		hint = "从特殊通行装置离开深渊海域",
+		hint = "Use the Transference Device to leave this zone.",
 		hint_pri = 1
 	},
 	[4100051] = {
 		id = 4100051,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100052] = {
 		id = 4100052,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100053] = {
 		id = 4100053,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100054] = {
 		id = 4100054,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100055] = {
 		id = 4100055,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100061] = {
 		id = 4100061,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100062] = {
 		id = 4100062,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100063] = {
 		id = 4100063,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100064] = {
 		id = 4100064,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100065] = {
 		id = 4100065,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100071] = {
 		id = 4100071,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100072] = {
 		id = 4100072,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100073] = {
 		id = 4100073,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100074] = {
 		id = 4100074,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100075] = {
 		id = 4100075,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100081] = {
 		id = 4100081,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100082] = {
 		id = 4100082,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100083] = {
 		id = 4100083,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100084] = {
 		id = 4100084,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100085] = {
 		id = 4100085,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100091] = {
 		id = 4100091,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100092] = {
 		id = 4100092,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100093] = {
 		id = 4100093,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100094] = {
 		id = 4100094,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[4100095] = {
 		id = 4100095,
-		hint = "击破深渊海域中的塞壬守卫",
+		hint = "Defeat the powerful Siren forces.",
 		hint_pri = 1
 	},
 	[6000100] = {
 		id = 6000100,
-		hint = "剩余塞壬据点数：0",
+		hint = "Siren nodes remaining: 0",
 		hint_pri = 10
 	},
 	[6000101] = {
 		id = 6000101,
-		hint = "剩余塞壬据点数：1",
+		hint = "Siren nodes remaining: 1",
 		hint_pri = 10
 	},
 	[6000102] = {
 		id = 6000102,
-		hint = "剩余塞壬据点数：2",
+		hint = "Siren nodes remaining: 2",
 		hint_pri = 10
 	},
 	[6000103] = {
 		id = 6000103,
-		hint = "剩余塞壬据点数：3",
+		hint = "Siren nodes remaining: 3",
 		hint_pri = 10
 	},
 	[6000104] = {
 		id = 6000104,
-		hint = "剩余塞壬据点数：4",
+		hint = "Siren nodes remaining: 4",
 		hint_pri = 10
 	},
 	[6000105] = {
 		id = 6000105,
-		hint = "剩余塞壬据点数：5",
+		hint = "Siren nodes remaining: 5",
 		hint_pri = 10
 	},
 	[6000106] = {
 		id = 6000106,
-		hint = "剩余塞壬据点数：6",
+		hint = "Siren nodes remaining: 6",
 		hint_pri = 10
 	},
 	[6000107] = {
 		id = 6000107,
-		hint = "剩余塞壬据点数：7",
+		hint = "Siren nodes remaining: 7",
 		hint_pri = 10
 	},
 	[6000108] = {
 		id = 6000108,
-		hint = "剩余塞壬据点数：8",
+		hint = "Siren nodes remaining: 8",
 		hint_pri = 10
 	},
 	[7022200] = {
 		id = 7022200,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7022210] = {
 		id = 7022210,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7022350] = {
 		id = 7022350,
-		hint = "击破海域中的代行者",
+		hint = "Eliminate the Enforcer",
 		hint_pri = 1
 	},
 	[7023200] = {
 		id = 7023200,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7023210] = {
 		id = 7023210,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7023220] = {
 		id = 7023220,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7023350] = {
 		id = 7023350,
-		hint = "击破海域中的代行者",
+		hint = "Eliminate the Enforcer",
 		hint_pri = 1
 	},
 	[7024200] = {
 		id = 7024200,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7024210] = {
 		id = 7024210,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7024220] = {
 		id = 7024220,
-		hint = "破坏海域中所有特殊塞壬建筑",
+		hint = "Destroy all Siren structures",
 		hint_pri = 1
 	},
 	[7024350] = {
 		id = 7024350,
-		hint = "击破海域中的代行者",
+		hint = "Eliminate the Enforcer",
 		hint_pri = 1
 	},
 	all = {

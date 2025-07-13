@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呼~果然和{dorm3d}打游戏胜率很高啊。",
+			say = "Phew! I win so much more often when I game with you, honey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "每次都能拦住对手的攻击，让我发挥全力！",
+			say = "Since you block their attacks so well, I can hit 'em with all I've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有{dorm3d}的话~真是一场也打不下去了呢。",
+			say = "I never could've stood a chance without you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

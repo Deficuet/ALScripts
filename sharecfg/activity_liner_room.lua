@@ -2,34 +2,34 @@ pg = pg or {}
 pg.activity_liner_room = {
 	{
 		id = 1,
-		name = "驾驶台",
-		desc = "邮轮的驾驶台，控制着整艘巨轮前进的方向。\n桌上是本次假日邮轮航线的海图，上面有着熟悉的字迹。\n“要把可爱的人类……”后面的字迹被人为擦掉了。",
+		name = "Bridge",
+		desc = "The cruise ship's control room from which the ship's course is plotted.\nOn the table rests a sea map with the cruise ship's course laid out. There is familiar writing on it as well.\n\"Keep my darling human under,\" it says. The rest has been erased.",
 		desc_display = {
 			{
-				"邮轮的驾驶台，控制着整艘巨轮前进的方向。"
+				"The cruise ship's control room from which the ship's course is plotted."
 			},
 			{
-				"桌上是本次假日邮轮航线的海图，上面有着熟悉的字迹。"
+				"On the table rests a sea map with the cruise ship's course laid out. There is familiar writing on it as well."
 			},
 			{
-				"“要把可爱的人类……”后面的字迹被人为擦掉了。"
+				"\"Keep my darling human under,\" it says. The rest has been erased."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 2,
-		name = "露天泳池",
-		desc = "清澈的露天泳池，抬头可以看见天空。\n不过，明明是斥巨资打造的恒温露天泳池，水温却会莫名升高。\n这块牌子是——“当指挥官在附近时，请务必让阿尔萨斯离开泳池”……嗯？",
+		name = "Pool",
+		desc = "A pool with crystal clear water. Look up and you'll see an equally clear sky.\nDespite all the money that went into its construction, its thermal regulation system seems to fail at times, increasing the temperature.\nA sign next to it says: \"Get Alsace out of the pool immediately if the Commander comes near.\" Strange.",
 		desc_display = {
 			{
-				"清澈的露天泳池，抬头可以看见天空。"
+				"A pool with crystal clear water. Look up and you'll see an equally clear sky."
 			},
 			{
-				"不过，明明是斥巨资打造的恒温露天泳池，水温却会莫名升高。"
+				"Despite all the money that went into its construction, its thermal regulation system seems to fail at times, increasing the temperature."
 			},
 			{
-				"这块牌子是——“当指挥官在附近时，请务必让阿尔萨斯离开泳池”……嗯？"
+				"A sign next to it says: \"Get Alsace out of the pool immediately if the Commander comes near.\" Strange."
 			}
 		},
 		sd = {
@@ -58,17 +58,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 3,
-		name = "办公区",
-		desc = "特别设立在邮轮中的办公区，守护着所有人在旅途中的办公权。\n每个人都有需要在旅途中办公的时候。\n只是，有的人格外多。",
+		name = "Workspace",
+		desc = "A place established so that those who need to work onboard can still do so.\nThere comes a time when everyone has to work during a vacation.\nSome have to work more than others.",
 		desc_display = {
 			{
-				"特别设立在邮轮中的办公区，守护着所有人在旅途中的办公权。"
+				"A place established so that those who need to work onboard can still do so."
 			},
 			{
-				"每个人都有需要在旅途中办公的时候。"
+				"There comes a time when everyone has to work during a vacation."
 			},
 			{
-				"只是，有的人格外多。"
+				"Some have to work more than others."
 			}
 		},
 		sd = {
@@ -83,17 +83,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 4,
-		name = "指挥官船舱",
-		desc = "邮轮上最宽敞的房间，钥匙被严密保护着。\n房间内的一切陈均设均选用了最高级的材料，并由全局统筹委员会严选把关。\n在确保安全的同时，力求在旅途之中为居住之人提供最舒适的体验。",
+		name = "Commander's Cabin",
+		desc = "The biggest room on the whole cruise ship. The key to it is kept under close watch.\nAll the furniture inside is made of the finest materials carefully picked by the Central Committee.\nIts resident is afforded both the peak of luxury and the tightest security.",
 		desc_display = {
 			{
-				"邮轮上最宽敞的房间，钥匙被严密保护着。"
+				"The biggest room on the whole cruise ship. The key to it is kept under close watch."
 			},
 			{
-				"房间内的一切陈均设均选用了最高级的材料，并由全局统筹委员会严选把关。"
+				"All the furniture inside is made of the finest materials carefully picked by the Central Committee."
 			},
 			{
-				"在确保安全的同时，力求在旅途之中为居住之人提供最舒适的体验。"
+				"Its resident is afforded both the peak of luxury and the tightest security."
 			}
 		},
 		sd = {
@@ -108,17 +108,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 5,
-		name = "露天阳台",
-		desc = "指挥官船舱延展出的私人空间。\n舰船们似乎对这里非常感兴趣，理由是这里的月色很美。\n由于此处和指挥官舱室联通，安全保障委员会最终出于各种考虑追加了护栏。",
+		name = "Balcony",
+		desc = "A private balcony connected to the Commander's cabin.\nIn practice, not so private. Large crowds gather here to see the moon in all its beauty.\nThe Central Committee placed handrails everywhere to protect the mere humans amongst us.",
 		desc_display = {
 			{
-				"指挥官船舱延展出的私人空间。"
+				"A private balcony connected to the Commander's cabin."
 			},
 			{
-				"舰船们似乎对这里非常感兴趣，理由是这里的月色很美。"
+				"In practice, not so private. Large crowds gather here to see the moon in all its beauty."
 			},
 			{
-				"由于此处和指挥官舱室联通，安全保障委员会最终出于各种考虑追加了护栏。"
+				"The Central Committee placed handrails everywhere to protect the mere humans amongst us."
 			}
 		},
 		sd = {
@@ -133,17 +133,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 6,
-		name = "露天公园",
-		desc = "充满植物的露天公园，邮轮上的绿色氧吧。\n除了常见的绿植外，还特别移栽了椰子树，甚至包含一片舒适的人造沙滩。\n有时会在这里遇到意想不到的人。",
+		name = "Garden",
+		desc = "A deck garden draped in green. You feed it carbon dioxide, it feeds you oxygen.\nIn addition to the usual decorative plants, there are also palm trees, providing something of a beach vibe.\nYou'll sometimes find surprising people coming here.",
 		desc_display = {
 			{
-				"充满植物的露天公园，邮轮上的绿色氧吧。"
+				"A deck garden draped in green. You feed it carbon dioxide, it feeds you oxygen."
 			},
 			{
-				"除了常见的绿植外，还特别移栽了椰子树，甚至包含一片舒适的人造沙滩。"
+				"In addition to the usual decorative plants, there are also palm trees, providing something of a beach vibe."
 			},
 			{
-				"有时会在这里遇到意想不到的人。"
+				"You'll sometimes find surprising people coming here."
 			}
 		},
 		sd = {
@@ -172,17 +172,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 7,
-		name = "女仆咖啡厅",
-		desc = "由重樱牵头修建的大型女仆咖啡厅，各阵营均有属于自己的独立区域。\n就算在邮轮之上，女仆们的战争依然继续着。\n有时能听到里面会传出诸如“萌萌的心动魔法～”的练习声。",
+		name = "Maid Café",
+		desc = "A big maid café established on the Sakura Empire's initiative. It's divided into sections for each faction.\nA maid's work never ends, even aboard a cruise ship.\nOne can sometimes hear the maids practicing what they call, \"moe moe kyun magic.\"",
 		desc_display = {
 			{
-				"由重樱牵头修建的大型女仆咖啡厅，各阵营均有属于自己的独立区域。"
+				"A big maid café established on the Sakura Empire's initiative. It's divided into sections for each faction."
 			},
 			{
-				"就算在邮轮之上，女仆们的战争依然继续着。"
+				"A maid's work never ends, even aboard a cruise ship."
 			},
 			{
-				"有时能听到里面会传出诸如“萌萌的心动魔法～”的练习声。"
+				"One can sometimes hear the maids practicing what they call, \"moe moe kyun magic.\""
 			}
 		},
 		sd = {
@@ -204,17 +204,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 8,
-		name = "运动场",
-		desc = "邮轮上的运动场，包括室内和室外两部分。\n室内主要以健身器材为主，室外则是各种球类运动场。\n在运动场中设置有多个冰柜，提供免费冰饮服务。",
+		name = "Gym",
+		desc = "This gym is divided into two sections – the indoor and the outdoor area.\nIndoors, it's mostly workout equipment. Outdoors, there's a court for ball games.\nIt has numerous refrigerators that provide cold drinks free of charge.",
 		desc_display = {
 			{
-				"邮轮上的运动场，包括室内和室外两部分。"
+				"This gym is divided into two sections – the indoor and the outdoor area."
 			},
 			{
-				"室内主要以健身器材为主，室外则是各种球类运动场。"
+				"Indoors, it's mostly workout equipment. Outdoors, there's a court for ball games."
 			},
 			{
-				"在运动场中设置有多个冰柜，提供免费冰饮服务。"
+				"It has numerous refrigerators that provide cold drinks free of charge."
 			}
 		},
 		sd = {
@@ -229,17 +229,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 9,
-		name = "舞会厅",
-		desc = "延续了模拟店风格的主题舞厅，内部设置了舞池和吧台。\n想要展现自我的话，就前往舞池的中央吧。\n在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。",
+		name = "Nightclub",
+		desc = "Home to the onboard nightlife. Has a dance floor and a bar that sells drinks.\nIf you're in a boogie mood, don't hesitate – hit the floor and bust a move!\nThere is a notice on the wall: \"Due to menu space limitations, we no longer accept new cocktail name suggestions.\"",
 		desc_display = {
 			{
-				"延续了模拟店风格的主题舞厅，内部设置了舞池和吧台。"
+				"Home to the onboard nightlife. Has a dance floor and a bar that sells drinks."
 			},
 			{
-				"想要展现自我的话，就前往舞池的中央吧。"
+				"If you're in a boogie mood, don't hesitate – hit the floor and bust a move!"
 			},
 			{
-				"在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。"
+				"There is a notice on the wall: \"Due to menu space limitations, we no longer accept new cocktail name suggestions.\""
 			}
 		},
 		sd = {
@@ -254,17 +254,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 10,
-		name = "宴会厅",
-		desc = "邮轮内最豪华的大厅，这里的宴会终日不停。\n据说在修建时，伊丽莎白曾极力要求将其装修为皇家风格。\n不过经过猜拳999负后，她终于向黎塞留妥协了。",
+		name = "Banquet Hall",
+		desc = "The most fancy place on the whole ship. Hosts banquets day in, day out, around the clock.\nQueen Elizabeth demanded to be in charge of its renovation, but this privilege was given to Richelieu.\nRumors say Elizabeth only gave in after losing 999 consecutive rounds of rock paper scissors.",
 		desc_display = {
 			{
-				"邮轮内最豪华的大厅，这里的宴会终日不停。"
+				"The most fancy place on the whole ship. Hosts banquets day in, day out, around the clock."
 			},
 			{
-				"据说在修建时，伊丽莎白曾极力要求将其装修为皇家风格。"
+				"Queen Elizabeth demanded to be in charge of its renovation, but this privilege was given to Richelieu."
 			},
 			{
-				"不过经过猜拳999负后，她终于向黎塞留妥协了。"
+				"Rumors say Elizabeth only gave in after losing 999 consecutive rounds of rock paper scissors."
 			}
 		},
 		sd = {
@@ -286,17 +286,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 11,
-		name = "娱乐室",
-		desc = "邮轮上的娱乐室，有着所有你能想到种类的游戏机和电玩设备。\n在这里可以遇到干劲满满的长岛。\n不过，还是让她把这份干劲用到工作中比较好吧。",
+		name = "Arcade",
+		desc = "The place dedicated to the gamers. Has just about every game you can possibly think of.\nYou'll often find Long Island challenging herself to a new one every day.\nIf only she could tackle work with the same level of enthusiasm.",
 		desc_display = {
 			{
-				"邮轮上的娱乐室，有着所有你能想到种类的游戏机和电玩设备。"
+				"The place dedicated to the gamers. Has just about every game you can possibly think of."
 			},
 			{
-				"在这里可以遇到干劲满满的长岛。"
+				"You'll often find Long Island challenging herself to a new one every day."
 			},
 			{
-				"不过，还是让她把这份干劲用到工作中比较好吧。"
+				"If only she could tackle work with the same level of enthusiasm."
 			}
 		},
 		sd = {
@@ -318,17 +318,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 12,
-		name = "露天水吧",
-		desc = "位于邮轮尾部的露天水吧，比起舞会厅安静不少。\n想静静欣赏夜色的话，就来这里吧。\n在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。",
+		name = "Balcony Bar",
+		desc = "An open-air bar located on the ship's stern. Much, much quieter than the nightclub.\nThe place to be if you want to enjoy calm under the night sky.\nThere is a notice on the wall: \"Due to menu space limitations, we no longer accept new cocktail name suggestions.\"",
 		desc_display = {
 			{
-				"位于邮轮尾部的露天水吧，比起舞会厅安静不少。"
+				"An open-air bar located on the ship's stern. Much, much quieter than the nightclub."
 			},
 			{
-				"想静静欣赏夜色的话，就来这里吧。"
+				"The place to be if you want to enjoy calm under the night sky."
 			},
 			{
-				"在墙上贴着告示：因菜单容量限制，暂不接受更多命名特调申请。"
+				"There is a notice on the wall: \"Due to menu space limitations, we no longer accept new cocktail name suggestions.\""
 			}
 		},
 		sd = {
@@ -343,17 +343,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 13,
-		name = "转接区",
-		desc = "邮轮上承担物资转运功能的区域之一。\n设置有多部起重机，从水面可以直达前甲板，一部分救生船也挂在此处。\n在围栏上挂着告示：人货分离，请勿将此处当成直达电梯使用。",
+		name = "Cargo Transfer",
+		desc = "One of the areas onboard responsible for moving cargo.\nThere are multiple cranes here that can reach the front deck straight from the water and some lifeboats hanging by the side.\nThere is a warning on the railing: \"Do not use the cargo elevator to transport people.\"",
 		desc_display = {
 			{
-				"邮轮上承担物资转运功能的区域之一。"
+				"One of the areas onboard responsible for moving cargo."
 			},
 			{
-				"设置有多部起重机，从水面可以直达前甲板，一部分救生船也挂在此处。"
+				"There are multiple cranes here that can reach the front deck straight from the water and some lifeboats hanging by the side."
 			},
 			{
-				"在围栏上挂着告示：人货分离，请勿将此处当成直达电梯使用。"
+				"There is a warning on the railing: \"Do not use the cargo elevator to transport people.\""
 			}
 		},
 		sd = {
@@ -389,17 +389,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 14,
-		name = "露天水上乐园",
-		desc = "位于邮轮前部的露天水上乐园，其中包括大回环滑梯、人工造浪系统等大型设施。\n同时亦设立安全救生员岗位防止意外溺水的情况出现。\n毕竟安全高于一切，不是么？",
+		name = "Water Park",
+		desc = "A water park located on the bow of the ship. It has a spiral slide and a wave pool.\nThere is a lifeguard stationed around the clock to ensure the guests' safety.\nThey may be shipgirls, but better safe than sorry.",
 		desc_display = {
 			{
-				"位于邮轮前部的露天水上乐园，其中包括大回环滑梯、人工造浪系统等大型设施。"
+				"A water park located on the bow of the ship. It has a spiral slide and a wave pool."
 			},
 			{
-				"同时亦设立安全救生员岗位防止意外溺水的情况出现。"
+				"There is a lifeguard stationed around the clock to ensure the guests' safety."
 			},
 			{
-				"毕竟安全高于一切，不是么？"
+				"They may be shipgirls, but better safe than sorry."
 			}
 		},
 		sd = {
@@ -414,34 +414,34 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 15,
-		name = "大剧院",
-		desc = "仿照了撒丁圆形剧场风格建设的大剧院。\n偶尔会从演出结束的剧院后台传出小提琴的音乐声。\n——此事已被布里斯托尔记入了自己的待调查事件笔记中。",
+		name = "Theater",
+		desc = "A theater, or more specifically, a Sardegnian amphitheater.\nSometimes, after a performance is over, you can hear a violin being played backstage.\nBristol is working to solve this mystery.",
 		desc_display = {
 			{
-				"仿照了撒丁圆形剧场风格建设的大剧院。"
+				"A theater, or more specifically, a Sardegnian amphitheater."
 			},
 			{
-				"偶尔会从演出结束的剧院后台传出小提琴的音乐声。"
+				"Sometimes, after a performance is over, you can hear a violin being played backstage."
 			},
 			{
-				"——此事已被布里斯托尔记入了自己的待调查事件笔记中。"
+				"Bristol is working to solve this mystery."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 16,
-		name = "教室",
-		desc = "特别设立在邮轮中的教室，守护着所有人在旅途中的学习权。\n左边的黑板上写着：1+1=11，右边的黑板上写着：As+Cu=Au+Cs。\n……给我把老师叫来！",
+		name = "Classroom",
+		desc = "Because being on a cruise is no excuse to neglect your education.\nThe left blackboard says, \"1 + 1 = 11.\" The right blackboard says, \"As + Cu = Au + Cs.\"\nSomebody get a teacher in here!",
 		desc_display = {
 			{
-				"特别设立在邮轮中的教室，守护着所有人在旅途中的学习权。"
+				"Because being on a cruise is no excuse to neglect your education."
 			},
 			{
-				"左边的黑板上写着：1+1=11，右边的黑板上写着：As+Cu=Au+Cs。"
+				"The left blackboard says, \"1 + 1 = 11.\" The right blackboard says, \"As + Cu = Au + Cs.\""
 			},
 			{
-				"……给我把老师叫来！"
+				"Somebody get a teacher in here!"
 			}
 		},
 		sd = {
@@ -456,17 +456,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 17,
-		name = "居住船舱（A区）",
-		desc = "邮轮中多个居住船舱中的一个区段，特点是现代时尚与简约。\n冰箱与扫地机器人等常规电器自不必说，就连无人机、激光定位器与雷达也有配备。\n……是不是有些现代化过头了？",
+		name = "Cabin Quarter A",
+		desc = "One of the three cabin quarters. This one is furnished in a modern and simple fashion.\nBeyond the expected appliances like refrigerators and cleaning bots, it also houses drones, laser trackers... and even a radar.\nThere is such a thing as being TOO hi-tech.",
 		desc_display = {
 			{
-				"邮轮中多个居住船舱中的一个区段，特点是现代时尚与简约。"
+				"One of the three cabin quarters. This one is furnished in a modern and simple fashion."
 			},
 			{
-				"冰箱与扫地机器人等常规电器自不必说，就连无人机、激光定位器与雷达也有配备。"
+				"Beyond the expected appliances like refrigerators and cleaning bots, it also houses drones, laser trackers... and even a radar."
 			},
 			{
-				"……是不是有些现代化过头了？"
+				"There is such a thing as being TOO hi-tech."
 			}
 		},
 		sd = {
@@ -488,17 +488,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 18,
-		name = "居住船舱（B区）",
-		desc = "邮轮中多个居住船舱中的一个区段，特点是装潢较其他区段更加豪华。\n房间内的所有物品都支持根据需求申请替换，仅灯罩就有九十种款式可选。\n……这就是邮轮修建了那么大货仓的原因么？",
+		name = "Cabin Quarter B",
+		desc = "One of the three cabin quarters. This one is decorated more lavishly than the others.\nAll the fixtures can be swapped out on request. There are 90 different lampshades alone to choose from.\nIt's becoming pretty clear why the onboard warehouse is so absurdly huge.",
 		desc_display = {
 			{
-				"邮轮中多个居住船舱中的一个区段，特点是装潢较其他区段更加豪华。"
+				"One of the three cabin quarters. This one is decorated more lavishly than the others."
 			},
 			{
-				"房间内的所有物品都支持根据需求申请替换，仅灯罩就有九十种款式可选。"
+				"All the fixtures can be swapped out on request. There are 90 different lampshades alone to choose from."
 			},
 			{
-				"……这就是邮轮修建了那么大货仓的原因么？"
+				"It's becoming pretty clear why the onboard warehouse is so absurdly huge."
 			}
 		},
 		sd = {
@@ -527,17 +527,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 19,
-		name = "居住船舱（C区）",
-		desc = "邮轮中多个居住船舱中的一个区段，也是最靠近厨房的区域之一。\n济安曾经主动申请想要住在这片区域。\n但在龙武的强烈要求下，济安的申请被驳回了。",
+		name = "Cabin Quarter C",
+		desc = "One of the three cabin quarters. This one lies the closest to the kitchen out of them all.\nChi An filed a request for a cabin in this area.\nPer Lung Wu's firm insistence, it was rejected.",
 		desc_display = {
 			{
-				"邮轮中多个居住船舱中的一个区段，也是最靠近厨房的区域之一。"
+				"One of the three cabin quarters. This one lies the closest to the kitchen out of them all."
 			},
 			{
-				"济安曾经主动申请想要住在这片区域。"
+				"Chi An filed a request for a cabin in this area."
 			},
 			{
-				"但在龙武的强烈要求下，济安的申请被驳回了。"
+				"Per Lung Wu's firm insistence, it was rejected."
 			}
 		},
 		sd = {
@@ -559,17 +559,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 20,
-		name = "猫房",
-		desc = "应众人的强烈要求而在邮轮内特别增设的功能区。\n有着各种品种的猫咪，是猫咪爱好者的福地。\n克莱蒙梭说，如果有猫咪出逃，可以联络{namecode:523}",
+		name = "Cat Lodge",
+		desc = "A place where you can play with cats. This one was a very popular request.\nThis cat-lovers paradise is home to cats of all shapes, sizes, and colors.\nClemenceau says that, should a cat escape, just go talk to Jean Bart.}",
 		desc_display = {
 			{
-				"应众人的强烈要求而在邮轮内特别增设的功能区。"
+				"A place where you can play with cats. This one was a very popular request."
 			},
 			{
-				"有着各种品种的猫咪，是猫咪爱好者的福地。"
+				"This cat-lovers paradise is home to cats of all shapes, sizes, and colors."
 			},
 			{
-				"克莱蒙梭说，如果有猫咪出逃，可以联络{namecode:523}。"
+				"Clemenceau says that, should a cat escape, just go talk to Jean Bart."
 			}
 		},
 		sd = {
@@ -584,17 +584,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 21,
-		name = "大浴场",
-		desc = "由罗马亲自监工的大浴场，保持着原汁原味的撒丁风情。\n功能设施齐全，很适合为疲惫的一天划上句号。\n当然，如果想要来此处办公也可以。为什么不呢？",
+		name = "Thermae",
+		desc = "A large public bath supervised by Roma. It maintains its authentic Sardegnian style.\nFeaturing all the bells and whistles, it is perfect for washing your fatigue away.\nYou COULD work from here if you really wanted.",
 		desc_display = {
 			{
-				"由罗马亲自监工的大浴场，保持着原汁原味的撒丁风情。"
+				"A large public bath supervised by Roma. It maintains its authentic Sardegnian style."
 			},
 			{
-				"功能设施齐全，很适合为疲惫的一天划上句号。"
+				"Featuring all the bells and whistles, it is perfect for washing your fatigue away."
 			},
 			{
-				"当然，如果想要来此处办公也可以。为什么不呢？"
+				"You COULD work from here if you really wanted."
 			}
 		},
 		sd = {
@@ -616,17 +616,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 22,
-		name = "水族馆",
-		desc = "邮轮内部的水族馆，水箱中有着许多平时不常见的稀有鱼类。\n我们在邮轮上看水族箱中的鱼群，鱼群在大海上看邮轮上的我们。\n……是不是该向它们收费了？",
+		name = "Aquarium",
+		desc = "The tanks are full of fish you don't see every day.\nAs the passengers stare at the fish in their fish tanks, the fish stare back at the passengers in their people tanks.\nMaybe we should start charging admission from the fish, too?",
 		desc_display = {
 			{
-				"邮轮内部的水族馆，水箱中有着许多平时不常见的稀有鱼类。"
+				"The tanks are full of fish you don't see every day."
 			},
 			{
-				"我们在邮轮上看水族箱中的鱼群，鱼群在大海上看邮轮上的我们。"
+				"As the passengers stare at the fish in their fish tanks, the fish stare back at the passengers in their people tanks."
 			},
 			{
-				"……是不是该向它们收费了？"
+				"Maybe we should start charging admission from the fish, too?"
 			}
 		},
 		sd = {
@@ -641,17 +641,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 23,
-		name = "电影院",
-		desc = "邮轮内部的电影院，采用了最好的幕布及声音设备。\n启航前运送了大家喜欢的电影母带，可随时放映观看。\n目前正在热映的是《暗金不夜城》导演剪辑版。",
+		name = "Movie Theater",
+		desc = "It sports a top-of-the-line screen and the audio equipment is all first-rate.\nThe shipgirls brought their favorite films with them on the cruise, so there's something for everyone.\nCurrently showing Endless Drama in the Sleepless City (Director's Cut).",
 		desc_display = {
 			{
-				"邮轮内部的电影院，采用了最好的幕布及声音设备。"
+				"It sports a top-of-the-line screen and the audio equipment is all first-rate."
 			},
 			{
-				"启航前运送了大家喜欢的电影母带，可随时放映观看。"
+				"The shipgirls brought their favorite films with them on the cruise, so there's something for everyone."
 			},
 			{
-				"目前正在热映的是《暗金不夜城》导演剪辑版。"
+				"Currently showing Endless Drama in the Sleepless City (Director's Cut)."
 			}
 		},
 		sd = {
@@ -666,17 +666,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 24,
-		name = "大商场",
-		desc = "为了满足“度假时的购物欲望”而建立的大商场。\n各色服装、饰品等一应俱全，连武器装备的店铺也有开设。\n这些店铺应该不都是{namecode:98}的……吧？",
+		name = "Mall",
+		desc = "A large mall to satisfy all your shopping needs during the voyage.\nFrom clothing to accessories and even weapons, this place has it all.\nThe outlets can't all be fronts for Akashi's stores, can they?",
 		desc_display = {
 			{
-				"为了满足“度假时的购物欲望”而建立的大商场。"
+				"A large mall to satisfy all your shopping needs during the voyage."
 			},
 			{
-				"各色服装、饰品等一应俱全，连武器装备的店铺也有开设。"
+				"From clothing to accessories and even weapons, this place has it all."
 			},
 			{
-				"这些店铺应该不都是{namecode:98}的……吧？"
+				"The outlets can't all be fronts for Akashi's stores, can they?"
 			}
 		},
 		sd = {
@@ -698,17 +698,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 25,
-		name = "厨房",
-		desc = "邮轮上的中央厨房，可以为整艘邮轮的乘客提供源源不断的美食。\n有开放烹饪区，敦刻尔克是这里最受欢迎的人之一。\n在墙上贴着告示：给指挥官供餐的区域不在此处。",
+		name = "Kitchen",
+		desc = "The ship's main kitchen, providing food for hungry guests around the clock.\nIt's open to all, and Dunkerque is one of its most popular users.\nThere is a notice on the wall: \"The Commander's food is prepared in a different kitchen.\"",
 		desc_display = {
 			{
-				"邮轮上的中央厨房，可以为整艘邮轮的乘客提供源源不断的美食。"
+				"The ship's main kitchen, providing food for hungry guests around the clock."
 			},
 			{
-				"有开放烹饪区，敦刻尔克是这里最受欢迎的人之一。"
+				"It's open to all, and Dunkerque is one of its most popular users."
 			},
 			{
-				"在墙上贴着告示：给指挥官供餐的区域不在此处。"
+				"There is a notice on the wall: \"The Commander's food is prepared in a different kitchen.\""
 			}
 		},
 		sd = {
@@ -730,17 +730,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 26,
-		name = "神秘角落",
-		desc = "调查小队的据点，邮轮上的神秘角落！\n当群星归位之时，真相就会浮于眼前——\n最近的调查目标是——“邮轮的七大不可思议”！",
+		name = "Mystery Room",
+		desc = "A little-known-about corner of the ship and also the base of the Investigation Committee.\nWhen the stars align, the truth shall appear to you.\nLately, the team has been focused on cruise ship-related mysteries.",
 		desc_display = {
 			{
-				"调查小队的据点，邮轮上的神秘角落！"
+				"A little-known-about corner of the ship and also the base of the Investigation Committee."
 			},
 			{
-				"当群星归位之时，真相就会浮于眼前——"
+				"When the stars align, the truth shall appear to you."
 			},
 			{
-				"最近的调查目标是——“邮轮的七大不可思议”！"
+				"Lately, the team has been focused on cruise ship-related mysteries."
 			}
 		},
 		sd = {
@@ -769,17 +769,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 27,
-		name = "弹药库",
-		desc = "特别设立在邮轮中的弹药库，守护着所有人的安全。\n邮轮的警卫室也设置在这里。\n在问邮轮上为什么有弹药库之前不妨换个角度，邮轮上为什么不能有弹药库呢？",
+		name = "Ammo Storage",
+		desc = "The place where the ship's ammunition is stowed away. It's for everyone's safety.\nThe security room is also located here.\n\"Why does a cruise ship have an ammo storage?\" we hear you say. The real question is, \"why not?\"",
 		desc_display = {
 			{
-				"特别设立在邮轮中的弹药库，守护着所有人的安全。"
+				"The place where the ship's ammunition is stowed away. It's for everyone's safety."
 			},
 			{
-				"邮轮的警卫室也设置在这里。"
+				"The security room is also located here."
 			},
 			{
-				"在问邮轮上为什么有弹药库之前不妨换个角度，邮轮上为什么不能有弹药库呢？"
+				"\"Why does a cruise ship have an ammo storage?\" we hear you say. The real question is, \"why not?\""
 			}
 		},
 		sd = {
@@ -794,17 +794,17 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 28,
-		name = "储藏室",
-		desc = "邮轮上的储存空间，存放着仿佛无穷无尽的海量物资箱。\n理论上，在这里你可以找到远航中所需要的一切——只要知道箱子的编号。\n不过还有一个更加快捷的方法——付钱让{namecode:98}来找。",
+		name = "Warehouse",
+		desc = "Supplies of every imaginable variety are stored here.\nTheoretically, you can find everything needed for a long-distance voyage here – as long as you know the crate's ID number.\nOr, if you want it fast, you can always pay Akashi to find it for you.",
 		desc_display = {
 			{
-				"邮轮上的储存空间，存放着仿佛无穷无尽的海量物资箱。"
+				"Supplies of every imaginable variety are stored here."
 			},
 			{
-				"理论上，在这里你可以找到远航中所需要的一切——只要知道箱子的编号。"
+				"Theoretically, you can find everything needed for a long-distance voyage here – as long as you know the crate's ID number."
 			},
 			{
-				"不过还有一个更加快捷的方法——付钱让{namecode:98}来找。"
+				"Or, if you want it fast, you can always pay Akashi to find it for you."
 			}
 		},
 		sd = {
@@ -826,85 +826,85 @@ pg.activity_liner_room = {
 	},
 	{
 		id = 29,
-		name = "主机舱",
-		desc = "邮轮的“心脏”，连接着驾驶台。\n在这里，可以尽情聆听引擎运转的美妙轰鸣声。\n但其实，这艘邮轮是由魔方供能驱动的，轰鸣只是效果音。",
+		name = "Engine Room",
+		desc = "The beating heart of the ship. Connects right to the bridge.\nIf you love the beautiful roar of an engine, you're in luck.\nIn reality, the Cube power source is as silent as a mouse. The noise is only there for effect.",
 		desc_display = {
 			{
-				"邮轮的“心脏”，连接着驾驶台。"
+				"The beating heart of the ship. Connects right to the bridge."
 			},
 			{
-				"在这里，可以尽情聆听引擎运转的美妙轰鸣声。"
+				"If you love the beautiful roar of an engine, you're in luck."
 			},
 			{
-				"但其实，这艘邮轮是由魔方供能驱动的，轰鸣只是效果音。"
+				"In reality, the Cube power source is as silent as a mouse. The noise is only there for effect."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 30,
-		name = "机械工坊",
-		desc = "邮轮上可以制作、维修各类设备的机械工坊。\n灵敏、{namecode:37}和{namecode:525}等人会轮流在此值班。\n如果遇到损坏的东西，就来这里维修吧。",
+		name = "Machine Workshop",
+		desc = "This is where all the machinery on the ship is manufactured and maintained.\nSoobrazitelny, Yuubari, and Ingraham work here in shifts.\nIf anything breaks, just bring it here.",
 		desc_display = {
 			{
-				"邮轮上可以制作、维修各类设备的机械工坊。"
+				"This is where all the machinery on the ship is manufactured and maintained."
 			},
 			{
-				"灵敏、{namecode:37}和{namecode:525}等人会轮流在此值班。"
+				"Soobrazitelny, Yuubari, and Ingraham work here in shifts."
 			},
 			{
-				"如果遇到损坏的东西，就来这里维修吧。"
+				"If anything breaks, just bring it here."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 31,
-		name = "防爆大门",
-		desc = "在前往指挥官船舱的必经之路上设置的防爆大门。\n采用了最高规格的材料和工艺，看起来就带给人十足的安全感。\n安全保障委员会说，如此设置是为了确保指挥官的安全——很好。",
+		name = "Blast Door",
+		desc = "An explosion-proof door that protects the only way into the Commander's cabin.\nIt's made with the best materials and techniques currently known, providing safety and peace of mind.\nThe Security Committee says they installed this to ensure the Commander's safety. Good thing they did.",
 		desc_display = {
 			{
-				"在前往指挥官船舱的必经之路上设置的防爆大门。"
+				"An explosion-proof door that protects the only way into the Commander's cabin."
 			},
 			{
-				"采用了最高规格的材料和工艺，看起来就带给人十足的安全感。"
+				"It's made with the best materials and techniques currently known, providing safety and peace of mind."
 			},
 			{
-				"安全保障委员会说，如此设置是为了确保指挥官的安全——很好。"
+				"The Security Committee says they installed this to ensure the Commander's safety. Good thing they did."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 32,
-		name = "没用的先占坑",
+		name = "Passageway (Center Deck)",
 		desc = "没用的先占坑",
 		desc_display = {
 			{
-				"邮轮的驾驶台，控制着整艘巨轮前进的方向。"
+				"The cruise ship's control room from which the ship's course is plotted."
 			},
 			{
-				"桌上是本次假日邮轮航线的海图，上面有着熟悉的字迹。"
+				"On the table rests a sea map with the cruise ship's course laid out. There is familiar writing on it as well."
 			},
 			{
-				"“要把可爱的人类……”后面的字迹被人为擦掉了。"
+				"\"Keep my darling human under,\" it says. The rest has been erased."
 			}
 		},
 		sd = {}
 	},
 	{
 		id = 33,
-		name = "没用的先占坑",
+		name = "Passageway (Center Deck)",
 		desc = "没用的先占坑",
 		desc_display = {
 			{
-				"邮轮的驾驶台，控制着整艘巨轮前进的方向。"
+				"The cruise ship's control room from which the ship's course is plotted."
 			},
 			{
-				"桌上是本次假日邮轮航线的海图，上面有着熟悉的字迹。"
+				"On the table rests a sea map with the cruise ship's course laid out. There is familiar writing on it as well."
 			},
 			{
-				"“要把可爱的人类……”后面的字迹被人为擦掉了。"
+				"\"Keep my darling human under,\" it says. The rest has been erased."
 			}
 		},
 		sd = {}

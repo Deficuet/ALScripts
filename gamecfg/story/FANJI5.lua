@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容之下的真心\n\n<size=45>五 擦肩而过</size>",
+					"The Heart Beneath the Smile\n\n<size=45>Chapter 5 - Chance Encounter</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "和重樱军事演习？ 啊，没错，我记得我看过计划书，不过……",
+			say = "Exercises with the Sakura Empire? Oh yes, I remember seeing those plans. However...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听了从小卖部回来的反击的话，声望撑着下巴思考起来。",
+			say = "Renown strokes her chin as she ponders Repulse, who has just come back from Akashi's shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "再过几日，皇家舰队和重樱舰队的对抗演习就要开始了，参加演习的成员名单中，反击和声望的名字赫然在列。",
+			say = "In a few days, the Royal Navy and the Sakura Empire will face off in war games. Renown and Repulse are both at the top of the list of Royal Navy participants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果和参与演习的舰队进行联合训练的话，势必会影响到反击的秘书舰工作。",
+			say = "Training for such an exercise will certainly have an impact on Repulse's secretary work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,37 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "若是两人都参加训练，这边的工作多少会有些吃紧。不过，也是没办法的事——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没关系的哦♪",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "忽然，反击张开双臂，用欢快的语气大声笑着说道。",
+			say = "That's for sure. Things will get tight around here, but what else can we do—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +115,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让我来负责大家的特训吧，到时候不用借助姐姐的力量，由我一下子把她们都打倒就好了！",
+			say = "It'll be fine♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Repulse suddenly throws out her arms, speaking in that bright, cheery tone of hers.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Let me handle everyone's training. Then we won't have to lean on Renown. I'll pound 'em all flat myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样，瞄准——射击！",
+			say = "Like so: peeeewwwww——kabooom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以吗？这些本来应该由我来——",
+			say = "Are you sure? I think I should probably—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事的！姐姐就帮指挥官工作吧！我会全力完成特训任务的！",
+			say = "Of course! You just stay here and help the Commander! Leave the training to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是所谓的责任分担！作为姐妹，我们都需要做一些能为对方做的事情——如此才能让事情更加顺利！",
+			say = "Sisters have to help each other like this. We each lighten the other's load and make both our lives better!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "反击所说也不无道理。这样一来，我们就能顺利地同时解决掉文书处理和演习准备的工作。",
+			say = "Repulse has the right idea. This way, we'll be able to tackle the paperwork and the exercises at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过，即便不这么做，相应的工作也不一定会收到影响，为何身为秘书舰的反击会提出这样的建议呢？",
+			say = "But even if we didn't, we could still get it done. So why would Repulse, my designated secretary, come up with this plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我得赶紧动起来了！必须先去探查一下演习海域的情况，有得忙咯~！",
+			say = "Alright, let's get moving! I need to go scout out the waters where we're holding the exercise first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反击！啊，已经跑掉了……",
+			say = "Repulse! Oh, she's already gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉指挥官，我也很少见到她像今天这么强硬的样子。",
+			say = "Sorry about that, Commander. She's not usually this stubborn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确实，离开指挥室时，反击的样子有点奇怪。",
+			say = "I did think she seemed a little off when she left the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "若她是在为声望考虑……",
+			say = "I wonder if she's doing this for Renown...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——！！",
+			say = "Ah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在这时，声望睁大了眼睛，仿佛意识到了什么。",
+			say = "Renown's eyes grow wide with a sudden realization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我明白了！",
+			say = "Commander! I've got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反击一定是在小卖部找到了一些能让我们必胜的装备，所以才会变得这么自信！",
+			say = "Repulse must have found some equipment at Akashi's to guarantee our victory! That's why she's so confident!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "肯定不会是像声望说的那样……还是去看看反击的情况吧。",
+			say = "There's no way Renown has it right... I'll go to Repulse and figure out what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

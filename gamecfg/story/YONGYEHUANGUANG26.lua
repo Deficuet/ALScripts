@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "xinnong-4",
-			say = "巴伦支海·皇家支援舰队 稍早前",
+			say = "Barents Sea - Royal Navy Supporting Fleet",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,37 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "谢菲尔德在海面上一面灵巧地规避着炮火，一面向铁血主力舰队方的向疾驰着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不太对劲，袭来的火力密度太小了…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403040,
-			side = 2,
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "到此为止了，给我停下！",
+			say = "Sheffield, Perseus, and Vampire led the support fleet in the direction of the Iron Blood's \"main fleet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:429}！？",
+			say = "The accuracy of these long-range barrages are too low to be coming from Tirpitz. As I thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,22 +52,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "首先夸奖一下你的勇气吧，区区一艘轻巡洋舰就敢正面迎击我们的主力舰队！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403040,
-			side = 2,
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "不过，如果让你靠过去对{namecode:436}放鱼雷就麻烦了，就给我留在这里吧！",
+			say = "Stop right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +67,52 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，碍事！",
+			say = "It's you... Deutschland...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403040,
+			side = 2,
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "I must commend you for having the guts to challenge the Iron Blood's main fleet with such a meager force, but alas — guts are all that will remain of you after this.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403040,
+			side = 2,
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "You lowly swine are not even worthy of Tirpitz's cleansing fire! I, the spiritual leader of the Iron Blood, will put you in your place!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "We have no time for your prattling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于追上你了…！没事吧，谢菲尔德？",
+			say = "Sheffy, look out!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/wave",
-			say = "英仙座适时赶来支援，然而舰载机投下的炸弹却穿过了{namecode:429}的身体，仅在空旷水面上激起空虚的浪花。",
+			say = "One of Perseus's planes dove towards Deutschland, releasing a bomb at the Iron Blood ship to preempt her attack. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,8 +168,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "谢菲尔德&英仙座",
-			say = "什么……？！",
+			actorName = "Sheffield & Perseus",
+			say = "What...?!",
 			subActors = {
 				{
 					actor = 206060,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呵呵呵呵呵......哈哈哈哈哈哈哈哈哈哈哈！",
+			say = "Hehehe... Ahahahahaa!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			actor = 403040,
 			dir = 1,
-			say = "震惊吧，低等动物！我们铁血的科技可是世界第一！",
+			say = "Did you see that, lowly swine? This is why Iron Blood technology is the best in the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "伴随着一连串嚣张的笑声，{namecode:429}的身体逐渐变的透明，最后完全消失了。",
+			say = "The bomb phased through Deutschland's translucent body, and disappeared into the ocean without a trace.",
 			effects = {
 				{
 					active = false,
@@ -251,7 +251,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "几乎是在同一时间内，{namecode:436}、{namecode:433}、{namecode:434}、{namecode:431}......其余的铁血主力也如同幻影一般随着{namecode:429}一起消失了。",
+			say = "—But not just Deutschland. Tirpitz, the Scharnhorst sisters, and Graf Spee... The entire Iron Blood main fleet vanished as if they had never been there in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "原本庞大的铁血主力舰队，最后只剩零星的巡洋舰和驱逐舰孤零零地行驶在空旷的海面上——",
+			say = "In their place, only a few mass-produced ships remained...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "铁血主力舰队…消失了？",
+			say = "Their fleet... disappeared?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连从雷达上也观测不到它们的信号了！",
+			say = "Their signals have even disappeared from the radar!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…不但欺骗了雷达，还欺骗了我们的眼睛。铁血居然已经完成了我们尚且处于概念中的干扰设备么...",
+			say = "They've managed to not only deceive our radars, but also our senses... this must be the Iron Blood's newest machination...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "谢菲尔德的担心，成真了啊...",
+			say = "Sheffield, your deductions ended up being accurate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等…也就是，说铁血的主力舰队根本就没有到这里来，我们居然被几艘巡洋和驱逐追了这么远么？！",
+			say = "The Iron Blood's main fleet was never here to begin with, so we were literally chasing shadows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…从结果上来说是这样的。",
+			say = "That's fair to say, given the outcome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，真让人火大…",
+			say = "Bloody hell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇…剩下的铁血舰队开始向我们靠过来了，这些应该都是真货了吧！",
+			say = "Those mass-produced ships are real though, they're already aiming at us...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直像暴雨过后的田鼠……",
+			say = "Like rats coming out after a storm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = 1,
-			actorName = "吸血鬼&谢菲尔德",
-			say = "…欸？",
+			actorName = "Vampire & Sheffield",
+			say = "...Huh?",
 			subActors = {
 				{
 					actor = 202080,
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			actor = 206060,
 			dir = 1,
-			say = "…立刻向司令部报告情况，然后…让我们开始战斗吧。",
+			say = "Err, I meant, I'll go contact the other fleets. Please mop up the stragglers here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

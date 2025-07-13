@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}？是天狼星的裙子沾了东西吗？",
+			say = "{dorm3d}? Is there something on my clothes?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch30",
 			typewriter = {
 				speed = 0.05,

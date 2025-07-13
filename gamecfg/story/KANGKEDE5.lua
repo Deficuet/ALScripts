@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"康克德与甜食\n\n<size=45>五　决心</size>",
+					"Sugary Concord\n\n<size=45>Chapter 5: Determination</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "又过了几天，在例行巡视完毕之后——",
+			say = "A few more days passed. I had just finished the routine inspections when...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼，刚才走了很长的路，有些累了~指挥官快帮我揉脚~嘻嘻~♪",
+			say = "Phew, I'm a bit sore from walking so much today~ Commander, come give me a foot rub~ Hehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			},
 			options = {
 				{
-					content = "姑且满足她的要求吧",
+					content = "Accommodate her request",
 					flag = 1
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈~指挥官这样很痒的~♪",
+			say = "Hahaha~ Commander, it tickles~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过每次捏脚都这个力度的话，就没新鲜感了~呼呼，我会腻的~",
+			say = "However, if you use the same strength every time, it won't feel fresh after a while~ Hehe, I'd get bored~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "每天吃同一个人做的甜品，说不定也会腻~你说是吧？",
+			say = "Eating the same thing that someone else made every day... who is to say that won't get stale as well? What do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "康克德的眼睛斜向天花板，似乎故意把话题转向甜品",
+			say = "Concord's eyes turned up towards the ceiling, as if purposefully changing the topic to sweets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我呢，从敦刻尔克的“糖分互助”会上就在想……",
+			say = "For me, ever since Dunkerque Sugar Alliance meeting, I've been thinking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也不能老是由敦刻尔克代劳做点心啦，吃久了也会腻吧~",
+			say = "I can't always be imposing on Dunkirk. Plus, I'd get tired of eating the same thing~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不然，让我也试试做甜点～然后指挥官来试吃吧！",
+			say = "How about this~ I'll learn to make sweets as well, and then Commander can try some!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "在康克德的注视下顺势就答应了……",
+			say = "Under Concord's intentful gaze, I nodded in agreement.……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，看到康克德这么有干劲，姐姐也很欣慰哦！",
+			say = "Woah, seeing Concord this motivated makes me proud!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是康克德，你从来没做过甜点吧？",
+			say = "Concord, you haven't made any sweets before though, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别像以前一样，过几天就腻了~",
+			say = "Just make sure not to give up halfway like last time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都说了，这次我超认真的！",
+			say = "I already told you! I'm super serious this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？那我拭目以待。",
+			say = "Oh? We shall wait and see then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐我也会给你加油鼓劲的！要是好吃的话，以后一年份的零食就换成康克德的甜点了",
+			say = "I will cheer for you! If you do a good job, I'll only eat your snacks for the next year!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 102180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~一定要想办法征服姐姐们。",
+			say = "Eheh~ You'll all be conquered by my sweets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过呢，第一试吃专员，果然还得是指挥官才行呢~♪",
+			say = "However, the first taste tester has to be none other than the Commander~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "康克德发光的眼眸里，散发着灼热的光芒。",
+			say = "Concord's eyes burned bright with determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

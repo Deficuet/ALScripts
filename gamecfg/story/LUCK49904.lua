@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…算是取得了计划中的阶段性进展…吧。",
+			say = "I see the plan came to fruition, step by step. Exactly as forethought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 499040,
 			dir = 1,
-			say = "不过，前方还有很长的路，无论对你，还是对我。",
+			say = "However, our journey is long, and far from over. We must march onward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 499040,
 			dir = 1,
-			say = "安心吧，我会一如既往地在你身边辅助你的。",
+			say = "Do not be discouraged. I will continue my duties as your assistant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "力量变得更强的{namecode:486}，一定会实现你的夙愿。",
+			say = "You've given me new strength. I will use it to make your dream a reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

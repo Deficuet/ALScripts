@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:464}阁下，水下发现正在接近的敌人，我们战斗还没结束，来不及支援了！",
+			say = "There's a submarine type Siren over there! Be careful!",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "算准了我们护卫舰都不在的时候用潜艇……兵力不足，难免就有空隙，真难缠。",
+			say = "They're taking advantage of the fact that we're missing an escort fleet... What a troublesome bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还好我提前准备了一套反潜设备，你们呢？",
+			say = "Prepare for anti-submarine warfare. Gneisenau, Scharnhorst, how are you two holding up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "还用问么……你们来之前我可是在这里一个人战斗的。",
+			say = "We're fine... Did you forget that we're used to fighting on our own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "你的腿伤就是被塞壬潜艇弄得么？",
+			say = "You're saying that, even though you were hit by a submarine? Was that data we had collected not of any use?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小伤，不影响战斗。相比我，还是首先关心一下你自己如何？",
+			say = "And what about you? Your anti-submarine equipment is destroyed beyond any use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反潜设备都不能用了吧？",
+			say = "All due to your signature recklessness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里靠我们两个也没问题，战列舰反潜还挺有趣的。",
+			say = "Maybe we should call Magdeburg's group over. If it comes to it, I can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，这里靠我一个人就行，你带着已经没什么战斗力的{namecode:433}先走就好。",
+			say = "It's fine, leave it to me. Take Scharnhorst and go ahead first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "……你们这是什么表情，这点塞壬让我牺牲在这里还是有些难度的。",
+			say = "No need to worry about me, this is nowhere near enough to take me out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "况且我也没有这个打算了……只是在临行前再给它们留下点深刻的印象而已。",
+			say = "I'll catch up with you guys later, rush over to the Tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明白了就快点走，不要扯我的后腿！",
+			say = "...Hurry! There's no time to waste!",
 			effects = {
 				{
 					active = true,

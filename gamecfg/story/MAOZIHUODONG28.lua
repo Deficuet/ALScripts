@@ -12,7 +12,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "居然这样也能战斗么…？！",
+			say = "They're still fighting back...?!",
 			bgm = "bgm-cccp",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "但是终末的号角已经奏响，命运的车轮已经转动，靠汝等是无法阻挡的…",
+			say = "However, the horn of the apocalypse has sounded, and the wheel of fate continues to turn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "I will be back …!",
+			say = "You cannot escape your demise! I will be back...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "清除者高举着一只手，似乎说了些什么，然后消失在水面之下",
+			say = "Omitter pointed her finger to the sky, and disappeared in a flash of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样…？刚刚嚣张的气焰到哪去了？见识到塔什干的厉害了吧！",
+			say = "Welp, I guess that's that. After spending all that time blathering nonsense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌方新型单位反应消失，我们取得胜利了，指挥官同志！",
+			say = "You're right. It's our victory, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "轰隆隆隆隆-----！",
+			say = "(RUMBLE...!!!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -137,7 +137,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊咧，还有后手么？！冰要塞残存的结构开始崩塌了，大家注意规避！",
+			say = "The entire stronghold is starting to collapse! We need to get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			say = "天崩地裂一般的响动之后，海面上除了漂浮的塞壬舰队的残骸之外，要塞的存在被整个抹除了，连一丝痕迹都没剩下。",
+			say = "...In a thunderous roar, the stronghold crumbled and sank beneath the waves.",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "风暴不知何时也停止了，乌云开始消散，几缕阳光透过乌云洒在海面。",
+			say = "Shortly afterwards, the Mirror Sea began to dissipate. The storms stopped, and the warm light of the winter sun spilled through the clouds once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是片美丽的海洋啊…",
+			say = "This sea really is beautiful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这才是这片海应有的模样，不是吗？",
+			say = "Indeed. This is what it ought to look like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "眼前的极地之海，一片平静，和来的时候似乎相似，却又不尽相同。",
+			say = "The calm that spread before my eyes was reminescent of the first time I saw it, but something was also different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_cccp_8",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来以为是一场势在必得的歼灭战，没想到会变得坎坷曲折啊…",
+			say = "Not only did you get to fight with the Northern Parliament's main fleet, but you even got to fight a new high-ranking Siren...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "没错，确实是坎坷曲折，甚至还一览了传说中北方联合的极地舰队的真正姿态…",
+			say = "She was right. A lot had happened in a short amount of time, and I felt like I had changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "等办好防区交接之类的事之后，终于可以回港区好好休息一下了吧",
+			say = "Finally, we would be able to return home to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			say = "正当这么想的时候——",
+			say = "At least, that's what I thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，如果可以的话，能稍微在北方联合再待一阵子么？",
+			say = "Comrade, could I ask you to stay with the Northern Parliament for a bit longer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

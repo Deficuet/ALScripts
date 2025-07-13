@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>八 为你而准备的</size>",
+					"Tonic and Tea\n\n<size=45>8. A Word of Thanks</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 405012,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，今天也欢迎光临。",
+			say = "Welcome, Commander.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "依然是作为店长的{namecode:435}亲自在门口迎接。不过她手上拿着的是……？",
+			say = "I'm once again greeted by Bismarck at the café's entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "这个啊……请先入座，我们慢慢聊吧。",
+			say = "This way, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "你的座位依然预留好了，这边请。",
+			say = "Take your time, we'll be with you soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "跟随{namecode:435}来到了预留好的位置，不过与之前不同，现在店里空空如也，是来的太早的缘故么……",
+			say = "Bismarck leads me to my table. We pass through a corridor, passing not a single other customer on the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实我们还有半个小时才会正式开门营业哦。",
+			say = "Just so you know, we're not open for another half an hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "糟糕……不小心来的太早了。",
+			say = "\"Oh, really? Sorry, I must've misremembered when you open.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "没关系，反正已经基本准备完毕了。",
+			say = "It's fine. Everything is ready for us to start early today anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "而且机会难得，指挥官，请品尝。",
+			say = "This presents us a rare opportunity, in fact. Care for a drink, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "出现在面前的是一杯漂浮着厚厚泡沫的饮品，但并不是咖啡。",
+			say = "She places a foaming drink on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是碳酸拉花饮料。",
+			say = "Ah. Latte art, but with beer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然咖啡可以拉花，那么拥有厚重泡沫的碳酸饮料是不是也可以拉花呢？",
+			say = "Mhm. The principle's the same with any drink that foams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,8 +238,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "带着这样的理念，我们创造出了这款目前独一无二的饮品，可以说是我们铁血的自信之作。",
+			actorName = "Ulrich von Hutten",
+			say = "That said, you have to be intimately familiar with Iron Blood beer to pull it off. You'd better appreciate the skill it takes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,8 +255,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:435}",
-			say = "嗯，它在制作中使用了铁血最新研制的碳酸拉花机。不但好看，口感更有保证。",
+			actorName = "Bismarck",
+			say = "It certainly does. It takes an expert hand, like Ulrich's, and specialized equipment to make a drink like this. It also tastes as good as it looks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_1",
-			say = "饮品表面的拉花构成的文字DANKE（谢谢）精致而显眼，如同艺术品一般让人无从下口。",
+			say = "I examine the drink from above. There is a word written in the foam – \"Danke.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:435}",
-			say = "指挥官，饮品就是饮品。如果因为表面的装饰而放弃了饮品本身的话，那才是十分可惜的。",
+			actorName = "Bismarck",
+			say = "Don't be shy now. Though it may be a work of art, it's still a drink. Drinks are meant to be drunk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_1",
-			say = "十分有道理。接过{namecode:435}递来的饮料，在留念了就要消失的拉花最后一眼后，连同泡沫在内一同喝下————",
+			say = "I take one final appreciatory look at the lovingly crafted message, then down the glass' contents all in one go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,8 +317,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:463}",
-			say = "呵呵，从指挥官的表情上来看，新品研发大获成功呢。",
+			actorName = "Ulrich von Hutten",
+			say = "Heh. If the Commander's look is any indication, the drink is a success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,8 +334,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:412}",
-			say = "作战成功——",
+			actorName = "Z46",
+			say = "Indeed. And its success entails our glorious victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_1",
-			say = "刺激的碳酸伴随着浓郁的坚果香，清晨残留的些许困意被一扫而空了。",
+			say = "\"This drink is incredible. The nutty, full flavor complements the kick of the carbonation. I feel like I just got supercharged with energy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,8 +365,8 @@ return {
 			bgName = "bg_coffeetea_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:435}",
-			say = "很敏锐，秘诀在于榛子。",
+			actorName = "Bismarck",
+			say = "Ah yes, that's the secret ingredient you tasted – almonds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:464}，{namecode:412}，厨房这里好像出了些问题，能过来帮个忙么？",
+			say = "Ulrich, Z46, come to the kitchen. We have a small problem on our hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？马上就要开业了，有什么问题，我去处理一下吧？",
+			say = "A \"problem\"? I'll go and have a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用，这些事交给我们就好，店长现在还有更重要的工作吧。",
+			say = "No need to, we'll take care of it. Go make sure we're ready to open instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "不只何时出现的{namecode:427}带着{namecode:412}和{namecode:464}消失在后厨的大门中。",
+			say = "At Eugen's behest, Ulrich and Z46 make for the kitchen to resolve the problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "唉，{namecode:428}就喜欢在这种奇怪的地方过于热心呢……",
+			say = "I hope they're not up to anything strange again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实，关于新饮品…虽然我自己尝过了确保没问题，但还是担心可能会不合你的口味……",
+			say = "Oh, by the way, I personally taste-test all the drinks we make for you. I always worry if you'll like them, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "一开始{namecode:428}提议让我做这个“店长”的时候，我也纠结了很久。",
+			say = "After Eugen first suggested I take on the role of store manager... frankly, I struggled for a long while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "不过既然决定做，就一定要做到最好……对吧？",
+			say = "But I'd already agreed to it. And once I agree to something, I commit wholeheartedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "偶尔是会有种被推着前进的感觉呢。",
+			say = "\"It's a good thing to push yourself sometimes. Just don't do overdo it, okay?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "呵呵，确实如此。不过并不是令人讨厌的感觉，不是么？",
+			say = "Don't worry, I won't. Having overcome that initial hurdle, I'm actually having a good time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "直到正式开店之前，就这样与{namecode:435}一直聊了下去————",
+			say = "Bismarck and I have a pleasant chat, killing a bit of time before formal opening hours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

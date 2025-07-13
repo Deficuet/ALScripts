@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}来了啊，要不要试试按摩呢？嗯……等你的时候我学了些按摩的手法，说是能比较有效地缓解肩颈方面的疲劳。快来这边坐下，让我试试看吧？",
+			say = "Welcome, {dorm3d}. Can I interest you in a massage? Yes, I've been learning about its techniques while you were away, and I found one that's great for relieving tension in your shoulders and neck. Please, have a seat and let me try.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello10",
 			typewriter = {
 				speed = 0.05,

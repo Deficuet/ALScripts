@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果有一天{dorm3d}要处理的工作不再那么多，您想去哪里放松一下呢？",
+			say = "My honourable {dorm3d}, is there anywhere you'd like to go on holiday when you're done with your work one day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "在这里就挺好。",
+					content = "I'm happy where I am.",
 					flag = 1
 				},
 				{
-					content = "在你身边就好。",
+					content = "I'd go right to you.",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，天狼星应该说些什么呢……得到您这样的回答，我真的很开心……",
+			say = "I don't know what to say... I'm truly happy to hear those words from you, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论那一天是否会到来，天狼星都会永远陪伴在您身边的。我骄傲的{dorm3d}……",
+			say = "Even if that day may never come, I will remain by your side forever and ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

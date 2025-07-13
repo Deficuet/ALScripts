@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "第四轮投票开始了，小组赛也要接近尾声了啊。",
+			say = "The fourth group poll is underway! Finally – the last one!",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "会场也越来越热闹了……",
+			say = "The excitement level is through the roof in here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，就连拉菲也融入进去了呢~",
+			say = "Even our little sleepyhead can't help but enjoy herself! Isn't that right, Laffey?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这里零食管够。拉菲，很喜欢……",
+			say = "Mhm. There's lots of candy to eat here, so I'm having a good time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是有个安静的地方睡觉…就更好了……",
+			say = "It would be even better if there was a quiet place to sleep, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个恐怕……啊哈哈。",
+			say = "You won't find any place quiet around here. Hahah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊！已经有这么多人都到主舞台了！",
+			say = "Ah, look! There's a crowd gathering around the main stage!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们也得快点找个座位了！",
+			say = "We'd better hurry and find some vacant seats!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>四　店内交流？</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 4: An Encounter at the Store?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·军火商店",
+			say = "Port - Supply Shop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这个休息日，再次躲在商店外的灌木里，悄悄观察店内的情况。",
+			say = "On this day off, I once again concealed myself next to the shop, quietly observing the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:20}喵！！！",
+			say = "Shiranui Nyaa~~!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "“碰”地一声，传来了撞墙的巨响。",
+			say = "BAAANG!! I heard the sound of someone crashing into a wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呜呜呜，好过分喵，为什么要躲开{namecode:98}喵！",
+			say = "Uuuughh... that was cruel, Nyaa.... Why did you have to dodge away from Akashi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为你这蠢猫会主动来找我多半没有好事。",
+			say = "Because when this dumb cat seeks me out voluntarily, it's never to bring good news.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我们难道不是好朋友喵！",
+			say = "I thought we were good friends Nyaa~~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来我们是好朋友吗？",
+			say = "That's news to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:20}还是老样子喵，你应该学习{namecode:98}喵，每天都充满活力喵！",
+			say = "Shiranui is the same as always, Nyaa. You should learn a thing or two from Akashi, full of vigor every day Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "免了。总而言之，有什么事？",
+			say = "I'll pass. Anyway, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是有关新的促销计划喵！",
+			say = "It's about the new promotion plan, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没有好事……你这蠢猫的促销计划每次都弄些奇怪的东西，我才懒得奉陪。",
+			say = "No good news after all. Every time this dumb cat pushes her promotion plans, something weird always ends up happening. Don't drag me into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这次不一样喵，这次是很周全的喵！",
+			say = "But it's different this time. It's going to be comprehensive, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之我没有……",
+			say = "Look, I'm not in-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,8 +304,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "茗",
-			say = "{namecode:20}喵，帮帮喵，就这一次喵！{namecode:98}一定会报答你的喵！",
+			actorName = "Akashi",
+			say = "Shiranui, please help me, just this time Nyaa! Akashi will definitely repay you!",
 			subActors = {
 				{
 					actor = 312010,
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别贴我身上，蠢猫，放开……",
+			say = "Stop clinging to me... this dumb cat better let go...",
 			subActors = {
 				{
 					actor = 312010,
@@ -365,8 +365,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "茗",
-			say = "不答应{namecode:98}就不放开喵！",
+			actorName = "Akashi",
+			say = "I won't let go until you say yes!",
 			subActors = {
 				{
 					actor = 312010,
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好好，我答应总行了吧！",
+			say = "Fine, fine.. I'll fund you!",
 			subActors = {
 				{
 					actor = 312010,
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "太好了喵，那这是企划案，{namecode:98}先去准备了喵！",
+			say = "That's great, Nyaa! Here is the business proposal. Akashi will go ahead and make preparations, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:98}离开后，{namecode:20}拿起企划案翻了翻。",
+			say = "After Akashi leaves, Shiranui skims through the business proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……还是老样子没把细节想清楚……结果看起来还是要帮那只蠢猫擦屁股。",
+			say = "*sigh*... Once again, it's full of errors and loopholes. Looks like I'll have to help that dumb cat wipe her own butt again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这么说着的{namecode:20}，拿起笔在上面修修改改了起来。",
+			say = "Despite her grumbling, Shiranui picked up the pen and started making corrections on the document dutifully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "似乎，又理解了一点{namecode:20}的样子。",
+			say = "It seems that I've been able to learn a bit more about Shiranui.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

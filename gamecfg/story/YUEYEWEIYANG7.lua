@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			oldPhoto = true,
-			say = "？？？·？？？",
+			say = "??? – ???",
 			bgm = "nagato-boss",
 			flashin = {
 				delay = 1,
@@ -35,7 +35,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "黑色的气息从四面八方向二人逼近。",
+			say = "An ominous black fog closed in from all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "用力挥动手中的刀刃，锋利的刀光也无法斩断那些黑暗。",
+			say = "Musashi tried to cut it away with her purple lightning blade, but the severed darkness only reformed again to attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,13 +55,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "请神明护佑，破——！",
+			say = "Bear witness! Haaaah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "在黑色的气息中，唯有一方天地依然明亮。",
+			say = "Materializing her mental imagery, Nagato's prayer became a guiding light that drove off the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "然而，那唯一的光芒却在猛烈地摇曳着，这明暗的脆弱平衡，即将被彻底打破——",
+			say = "However, it was weak, and it only managed to slow the darkness's encroachment temporarily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,13 +97,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "怎么这样……！",
+			say = "No...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,12 +115,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,13 +128,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "事到如今，吾还有一个方法。",
+			say = "We only have one choice now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,13 +146,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "若吾将所有的力量注入汝的刀中，汝的奋力一击，或许能带来一线生机。",
+			say = "Musashi, I'll entrust the last of the Guardian Fox's power to your blade. Strike true, and cut a way out of this situation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,13 +164,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:84}",
+			actorName = "Musashi",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "万万不可！",
+			say = "...You mustn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,13 +182,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:84}",
+			actorName = "Musashi",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "若是如此，{namecode:74}大人您呢？！",
+			say = "Even if I were to escape, you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,13 +200,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "守护重樱是吾身为神子的责任。",
+			say = "It is my duty as a miko to protect the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,13 +218,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "吾早已立下誓言……",
+			say = "I vowed to do so, and I showed you my resolve during our game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,55 +236,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——请神明护佑！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "{namecode:74}将刀鞘塞入{namecode:84}怀中，然后猛地推开了她。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
-			oldPhoto = true,
-			say = "下一个瞬间，黑色的气息就将结界外的{namecode:74}吞噬了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:84}",
-			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			oldPhoto = true,
-			say = "{namecode:74}大人！",
+			say = "Bear witness... to the Guardian Fox's power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +258,7 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "一切都陷入了无尽的寂静与黑暗——",
+			say = "The young woman forcibly pushed the sheathed sword, imbued with the last of her power, into Musashi's arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +270,49 @@ return {
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "记忆中的画面胡乱地拼接，杂乱无章地播放着。",
+			say = "In the next instant, the blackness engulfed Nagato.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Musashi",
+			bgName = "bg_yuese_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			say = "Lady Nagato...!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yuese_cg1",
+			hidePaintObj = true,
+			oldPhoto = true,
+			say = "Pure nothingness—a world devoid of sound or light, home only to endless darkness.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yuese_cg1",
+			hidePaintObj = true,
+			oldPhoto = true,
+			say = "In the darkness of the sanctuary, memories flashed through Musashi's mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,9 +325,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "battle-pacific",
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			hidePaintObj = true,
-			say = "御神木…开始枯萎了…民众的信仰…正在流失……",
+			say = "The Sacred Sakura is withering... And the people are losing faith...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,13 +356,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "就在前几天，我收到了撤下联合舰队旗舰职位的命令",
+			say = "A few days ago, I relinquished my position as the Combined Fleet's flagship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,13 +374,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "不，那其实是吾自己的决定……",
+			say = "The Reenactments have acquiesced to it, of course, but I have one more reason.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,13 +392,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:84}",
+			actorName = "Musashi",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "{namecode:74}大人，您受的伤太重了，照这样下去恐怕……",
+			say = "You were badly wounded in the sanctuary. At this rate, your hull...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,13 +410,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "若是能找到值得托付重樱未来之人，吾这般离去也算是没有遗憾了。",
+			say = "My soul will transmigrate without issue. Even without me, she whom I entrust the Sakura Empire to will do just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,13 +428,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:84}",
+			actorName = "Musashi",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "神木！{namecode:74}大人，只要神木还在，您就依然有生还的希望！",
+			say = "Lady Nagato, please. As long as we have the Sacred Sakura, you don't have to let yourself be sunk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,13 +446,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "汝是说于神木之中沉睡么……",
+			say = "Seal myself in the Sacred Sakura, hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,13 +464,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……但在那之前，吾还有些事要去处理。",
+			say = "It is a good idea, but... There's something that I must do first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,13 +482,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "{namecode:84}，请问吾的这副身体，在沉睡之前还能坚持几日？",
+			say = "Musashi, how long do you believe I can last under these circumstances?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,13 +500,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,13 +518,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "…………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,13 +536,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "……足够了，传吾的命令，立即开始演习相关事宜的准备。",
+			say = "...That's more than enough. Have Amagi arrange a special exercise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,13 +554,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "吾将会在演习期间，亲自对外宣布，吾将辞去重樱总旗舰之职——",
+			say = "During the exercise, I will announce my resignation from the post of Combined Fleet flagship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮——",
+			say = "*jingle*",
 			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "是清脆的风铃声。",
+			say = "The ringing of wind chimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:84}从床上坐起，窗外明月高悬。",
+			say = "Musashi sat up in bed and gazed at the moonlight outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "她思考了片刻，起身穿衣。",
+			say = "She thought to herself as she got dressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "听到声响的{namecode:226}急忙来到{namecode:84}的房间门外。",
+			say = "It was already late at night. Hearing the noise, Sakawa came running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，您要出门吗？",
+			say = "Musashi? Umm, are you going out?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "嘘——",
+			say = "...Don't yell so much, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "我有要事和{namecode:74}大人相商。",
+			say = "I have urgent business with Lady Nagato. I'll be leaving at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302230,
-			say = "{namecode:84}大人，您的脸色不太好，是否应该在天亮之后再做打算……",
+			say = "Okay, but, umm... You don't look good, Musashi. Why not rest until morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "此事紧急，容不得半点耽搁。",
+			say = "I told you, it's urgent. I mustn't waste any time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "另外……请替我关照一下天守阁中的“客人”。",
+			say = "Sakawa, ensure you take good care of our guest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "若她有任何问题，你无需顾忌，尽你所能告知便是。",
+			say = "If she asks you any questions, tell her all you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			side = 2,
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "房门轻轻合上，她踏着月色在黑夜中独自前行。",
+			say = "Musashi walked alone under the full moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			side = 2,
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "回首望向天守阁那扇闪烁着烛火的窗户。",
+			say = "She turned around and saw the faint light of candles still burning in the castle tower through the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			side = 2,
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "此般长夜，无人入眠。",
+			say = "It appeared that she was not the only restless one on this long night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

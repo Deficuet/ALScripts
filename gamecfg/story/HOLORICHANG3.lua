@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>三 关于属性上的相似</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 3: Similar Traits</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "holo-mio",
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "说起来，咱其实也交到了新朋友哦。",
+			say = "Anyways, we also have a new friend over here.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸？澪也找到了么，什么时候的事！",
+			say = "Ehh?! Mio, you as well? When did this happen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反应过头了啦，吹雪。是叫做{namecode:440}的舰船，咱们挺聊得来的呢。",
+			say = "That's a bit of an overreaction, Fubuki... Her name's Friedrich der Grosse, and we get along really well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "腓...{namecode:440}？！！澪和她在哪些话题上聊得来啊？！！",
+			say = "Th-that Friedrich der Grosse?! Mio, how in the world did that happen?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔...关于如何对待孩子们的话题上？",
+			say = "Umm... we were talking about how to handle children and stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是妈妈系角色的共鸣，还好还好…",
+			say = "I see... She's a bit of a motherly character then. Phew, at least it wasn't over something weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "澪要是变成黑暗系角色可就大事不妙了！",
+			say = "It'd really suck if Mio turned over to the dark side and became a last boss or something~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈......{namecode:441}小姐虽然看起来有些难以接近，实际上内心里也有柔软的部分哦",
+			say = "Haha... It's true that she might seem intimidating, but she's actually caring and kind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪也去和她多接触一下的话，印象一定会有改观的",
+			say = "I'm sure your impression of her would change too if you got to know her better, Fubuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原...原来是这样啊…？",
+			say = "Is... is that so...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "在大家欢谈中，冒昧打扰十分抱歉。",
+			say = "Pardon me for intruding upon your conversation.",
 			bgm = "holo-sora",
 			flashout = {
 				black = true,
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空小姐，光辉女士让我转告您，茶会的时间要到了。",
+			say = "Madam Tokino, Madam Illustrious wanted me to inform you that the tea party is about to commence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，已经这个时间了么！我知道了~谢谢你，贝尔法斯特",
+			say = "Oh my, I wasn't watching the time! I'll be there, and thanks for reminding me, Miss Belfast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是女仆的职责，空小姐不必道谢",
+			say = "The pleasure is mine. It's my duty as a maid, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 3,
-			say = "各位不好意思，我按照约定要去参加皇家的茶会了，之后再聊喽。",
+			say = "Sorry, everyone. I promised to go to the Royal Navy's tea party, so I'll talk more later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是空前辈，已经是皇家茶会的座上宾了吗……",
+			say = "As expected of Sora. Of course she'd get invited to a Royal tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅小姐要一起来么？前几天听说您对皇家女仆队很有兴趣，要来现场观看一下么。",
+			say = "Would you like to come with us, Miss Aqua? I heard the other day that you were interested in the Royal Maids, so I would be glad to offer you a demonstration of our operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我要去！谢谢，贝尔法斯特前辈！",
+			say = "Um, yes please! Thank you very much, Miss Belfast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1.5,
-			say = "阿库娅酱对皇家女仆队产生兴趣，既在意料之外又在情理之中呢....",
+			say = "Aqua's going to receive training from the Royal Maids?! An experienced maid training her junior? Ahh~ so much wholesome goodness~ Yes, yesh!",
 			bgm = "holo-shion",
 			flashout = {
 				black = true,
@@ -441,7 +441,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过因为女仆属性平时基本没有经营，感觉会吃不少苦头就是了~",
+			say = "She doesn't normally do many maid-like things, so she might struggle a bit... but even that's going to be so precious...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离修好服务器里的传送门还有一段时间，大家能顺利融入这边的生活真是太好了",
+			say = "It seems like it'll take a while to fix the server's warp gate, but at least everyone here is super nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，对身为魔法使的诗音来说，反而开始感觉这边的世界更适合我了",
+			say = "Mmhm! As a magician, I do believe that the air in this world is better for my skin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诗音酱也交到新朋友了么？",
+			say = "Shion, did you make new friends too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？我没有说过吗，诗音和倔强的关系还挺好的哦。",
+			say = "Huh? Didn't I already tell you? I'm getting along just fine with L'Opiniâtre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倔强是...那个自由鸢尾的自称魔法使驱逐舰？！她的魔法是真的么？！",
+			say = "Ohh! L'Opiniâtre! She's that Iris Libre ship who calls herself a magician! Can she really use magic?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~诗音不知道哦~",
+			say = "Heheh~ Who knows~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！从她实装的时候我就一直很在意了，告诉我嘛！",
+			say = "Eh? I've been curious ever since I saw her outfit! Tell me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要~这个是魔法使之间的秘密哦",
+			say = "Don't wanna~! That's a secret between fellow magicians!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诗音酱~~！告诉我嘛！",
+			say = "Haah... a couple of magicians together are also precious~! Wait, wait, Shion~! Tell me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不·行！略~~~~",
+			say = "No... way! Blehhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

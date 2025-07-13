@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在材料分页中存放着用于装备研发系统的材料，刚才司令部提供的物资也包含在内。",
+			say = "Materials used in the Gear Lab and R&D are stored on the Materials tab.",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "在大型作战过程中，我们还可以获取更多用于装备研发的材料。",
+			say = "It is believed that we will procure additional resources and design blueprints throughout the course of Operation Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

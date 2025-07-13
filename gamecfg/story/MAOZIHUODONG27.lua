@@ -12,7 +12,7 @@ return {
 			side = 1,
 			bgm = "xinnong-2",
 			dir = 1,
-			say = "没用的,没用的，没用的，在那家伙构筑的要塞中，你们是绝对战胜不了我的！",
+			say = "Futile, futile, futile! I built this stronghold, and I won't let you beat me in my own castle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊…我好像开始理解测试者的乐趣了，这种身为布局者的感觉…",
+			say = "Ahahaha! That's it, that's it! I feel like my potential is limitless! Is this the excitement that Tester is so drawn to?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "来吧！尽情在牢笼中挣扎吧！",
+			say = "Come at me, yes, come, come! Struggle! Suffer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			actor = 900188,
 			dir = 1,
-			say = "嘁！对面干扰很棘手啊！不止在影响观瞄系统，还在直接影响视觉么？！",
+			say = "That attack of hers... it's not just interfering with our fire control, but also obstructing our vision!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			actor = 107070,
 			dir = 1,
-			say = "舰载机在风暴中也没办法锁定目标，打不中敌人啊！",
+			say = "Our rigging isn't working! I can't land a hit at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼…既然无法瞄准，那就干脆不要瞄准了吧",
+			say = "If we can't aim, then we might as well stop trying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "…欸？",
+			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "火力上我们占有绝对优势，直接按坐标进行火力覆盖吧！",
+			say = "We have an absolute advantage in terms of firepower! Keep focusing your fire at a general area, and we're bound to hit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈哈！真是太棒了！这才像我们北方联合的作风嘛！",
+			say = "Haha! That's right! Get a load of how we fight here in the Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把你揍扁！",
+			say = "Release suppressive fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…虽然效率有点低，现在也只能这样了！",
+			say = "In other words, quantity over quality! That's fine by me, I have all the ammunition you could ever want!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,27 +184,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "苏维埃罗西亚",
+			actorName = "Sovetskaya Rossiya",
 			bgName = "bg_cccp_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果它这么依靠这座冰雪要塞的话-------",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "苏维埃罗西亚",
-			bgName = "bg_cccp_4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我们就把连同要塞在内的一切化为灰烬！",
+			say = "That's right! Keep pummeling away at this stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

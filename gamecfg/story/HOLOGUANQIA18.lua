@@ -11,7 +11,7 @@ return {
 			actor = 900214,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊！祭，你没事吗，太好了…..",
+			say = "Waaaaahhhh! Thank the sorcery gods you're here, Matsuri...",
 			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			actor = 900214,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜呜呜，我好怕———",
+			say = "*Sob*... I was so scaaaaaaared!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "不哭，不哭，没事啦～诗音了不起哦~",
+			say = "Aww, don't cry, Shion. Everything's fine now. You were really brave, weren't you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余等能得救，还是多亏了拉菲和{namecode:6}的帮助呢，谢谢你们。",
+			say = "We wouldn't have made it here were it not for your help, Ayanami and Laffey. You have my gratitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为，你们不是坏人。",
+			say = "Don't thank us. We couldn't stand by and do nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，塞壬也是我们的敌人。",
+			say = "The Sirens are our enemy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "这样一来，我们之中走散的人就只剩下空前辈了",
+			say = "Now that we've found you two, only one left to find is Miss Sora.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们这边也只剩下{namecode:408}了，但愿能像{namecode:6}拉菲她们一样顺利汇合。",
+			say = "Let us not forget Z23. I hope they're both unharmed out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "但愿如此……",
+			say = "I sure hope so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 900213,
 			dir = 1,
-			say = "虽然现在安全了，不过余的百鬼城……",
+			say = "Despicable Sirens, how dare they do this to my castle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用难过绫目酱！等战斗结束之后，我们陪你一起重建，建一个更大，更帅气，更坚固的百鬼城~！",
+			say = "Don't be sad, Ayame! Once the fighting's over, we can build a new one, with blackjack and booze! We have the technology!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 900213,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次一定要加上地下暗道…！",
+			say = "We shall! And this time, Ay will make sure to build a hidden passage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

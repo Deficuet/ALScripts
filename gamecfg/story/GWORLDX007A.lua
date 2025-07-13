@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进入了己方港口。",
+			say = "Entering allied port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

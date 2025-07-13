@@ -5,9 +5,9 @@ return {
 		{
 			expression = "14",
 			side = 0,
-			actor = 900312,
+			actor = 900004,
 			nameColor = "#a9f548",
-			say = "大姐头！你们终于来了",
+			say = "Big sister! You're finally here!",
 			shake = {
 				speed = 2,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "你们做的很好，接下来一起给铁血点颜色瞧瞧！目标，敌方舰队首舰{namecode:435}，一齐射击！",
+			say = "You've done well. It's time for us to give the Iron blood a taste of their own medicine. Target Bismarck, their lead ship! Fire!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -41,11 +41,10 @@ return {
 		},
 		{
 			actor = 900009,
+			actorName = "Bismarck ??",
 			side = 1,
-			actorName = "{namecode:435} ??",
 			nameColor = "#ff0000",
-			actorAlpha = 0,
-			say = "“皇家舰队的荣耀”…吗？这样才有意思嘛~倒要看看你们的实力能够满足得了我吗？",
+			say = "“'The Glory of the Royal Navy'? This should be fun. I wonder if you're actually strong enough to satisfy me.",
 			shake = {
 				speed = 1,
 				number = 3

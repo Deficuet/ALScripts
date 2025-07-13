@@ -4,7 +4,7 @@ pg.activity_medal_group = {
 		id = 5711,
 		entrance_picture = "medalAlbum/5711",
 		is_out_of_print = 0,
-		group_name = "星光下的余晖",
+		group_name = "星光下的余晖（占坑配置）",
 		activity_link = {
 			{
 				1,
@@ -43,7 +43,7 @@ pg.activity_medal_group = {
 		id = 5769,
 		entrance_picture = "medalAlbum/5769",
 		is_out_of_print = 0,
-		group_name = "华裳巧展喜事长",
+		group_name = "Spring Fashion Festa",
 		activity_link = {
 			{
 				1,
@@ -78,7 +78,7 @@ pg.activity_medal_group = {
 		id = 5812,
 		entrance_picture = "medalAlbum/5812",
 		is_out_of_print = 0,
-		group_name = "樊笼内的神光",
+		group_name = "Paradiso of Shackled Light",
 		activity_link = {
 			{
 				1,
@@ -117,7 +117,7 @@ pg.activity_medal_group = {
 		id = 5875,
 		entrance_picture = "medalAlbum/5875",
 		is_out_of_print = 0,
-		group_name = "深谷来信",
+		group_name = "Letters from Valley Hospital",
 		activity_link = {
 			{
 				1,
@@ -156,7 +156,7 @@ pg.activity_medal_group = {
 		id = 5913,
 		entrance_picture = "medalAlbum/5913",
 		is_out_of_print = 0,
-		group_name = "扬起郁金之旗",
+		group_name = "Toward Tulipa's Seas",
 		activity_link = {
 			{
 				1,
@@ -195,7 +195,7 @@ pg.activity_medal_group = {
 		id = 5970,
 		entrance_picture = "medalAlbum/5970",
 		is_out_of_print = 0,
-		group_name = "高塔上的蔷薇",
+		group_name = "A Rose on the High Tower",
 		activity_link = {
 			{
 				1,
@@ -234,7 +234,7 @@ pg.activity_medal_group = {
 		id = 5971,
 		entrance_picture = "medalAlbum/5971",
 		is_out_of_print = 0,
-		group_name = "夏日重建",
+		group_name = "Villa Resort",
 		activity_link = {
 			{
 				1,
@@ -272,7 +272,7 @@ pg.activity_medal_group = {
 		id = 50021,
 		entrance_picture = "MedalAlbum/50021",
 		is_out_of_print = 0,
-		group_name = "迷彩都市的寻踪者",
+		group_name = "The Neon City Investigator",
 		activity_link = {
 			{
 				1,

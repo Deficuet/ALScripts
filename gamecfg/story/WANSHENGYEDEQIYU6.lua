@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万圣夜的「奇遇」\n\n<size=45>六　风暴来临之夜</size>",
+					"Halloween Hijinks\n\n<size=45>6 The Night of Tempesta's Coming</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "美食街上——",
+			say = "Food Court",
 			bgm = "battle-highseasfleet-reborn",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，这些都是什么啊？！！你这港区每天的伙食都是这样的么，也太夸张了吧？！",
+			say = "What is this?! It's delicious! The port's foods are the best! No, better than the best!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "美食街是每个大型活动中必备的一环，本日的万圣节晚会也不例外。",
+			say = "\"Whenever the port has an event, each shipgirl faction ends up setting up their own food stalls.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "在美食街上，每个阵营都组织了一些摊位。不过受制于时间和场地，大多都只是简易的小吃车。",
+			say = "\"The Halloween party is no exception, but...due to time and space constraints, I hear they couldn't scrape together anything big.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肉肠、肉排、烤肉、肉丸子……………这些可都是肉，你管这些叫小吃？",
+			say = "Sausage, steak, barbecue galore! It's all meat, and you say this ain't big?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那你们平时的正餐得豪华到什么程度啊？不可想象不可想象……",
+			say = "This is so much more luxurious than the port's usual food! And their food is already incredible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，给我来一份这个，这个，这个还有这个！",
+			say = "Hey, you! I want this, this, and that, and this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，这位女士请收好~还有这一份是额外赠送给指挥官的，也请你慢用~",
+			say = "Got it! This is all you wanted, right? Also, here's a freebie for the Commander!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过指挥官，这位陌生的女士究竟是……",
+			say = "Wait, are you...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……给克利夫兰使了一个“这里情况有些复杂”的眼神。",
+			say = "It would be a pain to tell her everything about the costume and the real weapon, so I used my authority as Commander to get through the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，原来如此……那我就不打扰了，两位请尽情享受万圣夜哦~",
+			say = "A-Ah, I see! Well, I hope you two enjoy the party!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -223,7 +223,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等！虽然不知道这些东西的价格，不过这些你看够不够？",
+			say = "Halt! I may not know your price, but I won't bilk on my bill!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "皇家财富突然从腰间拿出几枚金币，潇洒地拍在了桌子上。",
+			say = "Royal Fortune took some gold coins from her pouch and slammed them onto the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "用手掂量了一下，沉甸甸的……好像是真正的黄金……？",
+			say = "\"Those are heavy... Could it be?!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然啦，虽然说我是海盗，不过诚信有时候也是很重要的哦！",
+			say = "Don't make light of us pirates! Even I obey the law, and I know the rules of society!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -278,7 +278,7 @@ return {
 			actor = 105021,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到此为止了——————",
+			say = "Hold it right there, pirate shipgirl~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "海盗！快放开指挥官！",
+			say = "Let the Commander go at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？！你在说什么怪话，你自己不也是海盗么？",
+			say = "What are ya going on about?! You're a pirate too, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 105021,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊这个……额，我这身只是万圣节的角色服装而已。不对，重点不是这个，快放开指挥官！",
+			say = "Huh? Umm... This is just a Halloween costume. Ack! I mean, release the Commander at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么啊？我看上的东西就是我的，这可是我作为大海盗的行事准则！",
+			say = "How dare you?! The Commander is plundering with me, so he's mine! You can't have him!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -379,7 +379,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说了，你谁啊，我干嘛要听你的？",
+			say = "Who do ya think you are, running in out of nowhere and demanding him from me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			actor = 105021,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个问题应该是我问你才对，你是谁，基于什么目的混入港区接近指挥官的？！",
+			say = "That's my line! Why do you get to monopolize him outta nowhere?! If you're plannin' somethin' untoward—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,18 +410,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "不好，好像皇家财富被俄克拉荷马误会成了危险的闯入者了——",
+			say = "Now Oklahoma's acting crazy too, all because of the real pirate, Royal Fortune!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "出面解释",
+					content = "Explain everything to calm them down",
 					flag = 1
 				},
 				{
-					content = "静观其变",
+					content = "Wait and watch",
 					flag = 2
 				}
 			}
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "其实——————",
+			say = "I step forth to explain things before the situation can get worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不是危险的闯入者，只是……身份不明的闯入者？",
+			say = "Oooh... So she wasn't takin' you captive? You're just enjoyin' the Halloween party?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然不是很明白二者之间的区别有多大……不过既然指挥官认定没问题的话，那我也没问题。",
+			say = "It looked real to me. And when I found out she was a real pirate, I couldn't help myself... Commander, I'm real sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不好意思，皇家财富小姐，刚才是我冲动了。",
+			say = "And Royal Fortune, I'm sorry for what I did...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没事没事~你这人倒是忠心耿耿的，我很满意。当船长，手下没有这样的人可不行啊~",
+			say = "It's alright, friend! You were trying to protect your Commander, right? A captain needs crew like you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢夸奖……作为赔礼……来尝尝我做的南瓜派如何？是我最近在学着烤的，很甜的哟。",
+			say = "Thanks, I think? It's not much of an apology, but how would you like some pumpkin pie? I just got someone to teach me how to make it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好哦！不过我要双份！",
+			say = "Nice! I'll take two, please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "与两位海盗小姐一同坐在明月之下的港区长椅上，分享着万圣节南瓜派。",
+			say = "With their quarrel resolved, I joined Oklahoma and Royal Fortune on a bench, and we ate pumpkin pie together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼啊……感觉精神完全放松下来了……",
+			say = "Haah... Man, I'm full. I feel like I've had plenty of fun for a day, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "如何，我的手艺还不赖吧？",
+			say = "How'd you like my homemade pumpkin pie? Pretty good, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很棒！决定了，就由你来做我的大副吧！",
+			say = "That's it! Oklahoma, I'm making you my first mate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，那可不行，我一辈子都跟定指挥官了。",
+			say = "Ahahaha... What does it mean for a shipgirl to be another shipgirl's first mate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那可真遗憾。啊，都已经这个点了啊……",
+			say = "Good question... Guess you shipgirls already have the Commander, anyways...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然宝藏还没找到，不过我该走了。",
+			say = "Hm? Wow, it's already about time to hoist the sails, eh? But I still haven't found that treasure...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……好、好恐怖的战斗力！不行，我需要紧急撤离了！",
+			say = "Haah, haah, you're not bad... I'm at a disadvantage in this fight. Time to scram!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "……啊？我还没开炮啊？",
+			say = "H-Huh? Why were we fighting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是现在，有破绽！嘿嘿，那指挥官我就带走了哦~！",
+			say = "You're open! Hahahaha! The Commander's all mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "等等、给我等等！快把指挥官放下来！",
+			say = "W-Waaait! Let the Commander gooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
-			say = "一阵狂奔后，与皇家财富来到了会场边缘的某个僻静角落。",
+			say = "Royal Fortune dragged me off to a place with nobody around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，指挥官，这下就又只有我们两个人独处咯。",
+			say = "Heheheh. Commander, we're all alone again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
-			say = "……你这人，得立刻跟俄克拉荷马解释清楚才行，不然马上就有一整支舰队来抓捕你了！",
+			say = "\"Maybe, but after you showed off that real weapon, I'm sure the others will come running soon...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊……那还真是可怕。",
+			say = "That's a scary thought, yeah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你放心，时间到了，我马上就要走了。",
+			say = "But it's okay! It's already about time for me to set sail!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,7 +941,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
-			say = "你不寻宝了么？",
+			say = "\"Come to think of it, Royal Fortune, weren't you searching for some treasure?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +957,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来不及了，虽然宝藏还没找到，不过位置我已经记在藏宝图上了哦。",
+			say = "It's okay! I may not have found the treasure itself, but I've memorized the place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……这么着急么？",
+			say = "\"What do you mean by 'that time'?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，有些规定必须被遵守，这件事上我也没什么办法。",
+			say = "Hmm, it's a promise between pirates, so I have no other choice!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -999,7 +999,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "真是短暂的相遇啊，我们以后还有见面的机会么？",
+			say = "\"I think I've figured out what's going on. If you have plans with your friends, I won't stop you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1012,7 +1012,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谁知道呢？不过既然大家都驰骋在大海之上，彼此相遇只是时间和概率的问题吧？",
+			say = "But don't you worry! We'll have plenty of chances to see each other! Our date can wait until next time, Commander!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1032,7 +1032,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说不定是很久之后，也说不定就是明天哟？",
+			say = "Mm, I said next time, but when will that be...? Tomorrow, maybe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我作为使者，乘风而来又随风而去。带走想要带走的，留下想要留下的。",
+			say = "Ah, forget it! I'm not gonna worry now! The great Tempesta rolls in, rampages, and scrams just like a tempest!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1069,7 +1069,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "————等我们再次相遇之时，我会带着一大支海盗舰队过来也说不定哟？做好准备吧，指挥官~",
+			say = "But be prepared! Next time, it won't just be me; I'll be back with greater numbers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1083,7 +1083,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "嗯……如果真有这一天的话，那可要大幅度加强一下海防力量了啊。",
+			say = "\"Sounds chaotic, but a tempest sounds fun once in a while.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎别别别啊，准备点好吃的招待一下就行了！",
+			say = "There you go! You'd better prepare lots of good food for us while you have the chance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1127,7 +1127,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看看你手底下的舰队规模，我可不敢带人来砸你的场子！",
+			say = "I may not be much of a fighter, but I can feast like no other!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,7 +1141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "既然如此，随时恭候。",
+			say = "\"I can't wait.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1156,7 +1156,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，不错，爽快，我喜欢。我们真是合得来啊~",
+			say = "That's the spirit! Wait for us with breath bated and table set! That's a promise between you and me, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,7 +1171,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
-			say = "那我就先走咯，有机会再见吧~",
+			say = "Now, it's time for a tactical withdrawal! 'Til we meet again, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1181,7 +1181,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "自称皇家财富的少女轻巧地踏上海面，消失在夜色与雾气之中。",
+			say = "We said our goodbyes, and the shipgirl of Tempesta, Royal Fortune, disappeared again into the Halloween night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1206,7 +1206,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "来去无踪，真是符合海盗身份的退场方式。",
+			say = "Lighthearted and sincere, and despite her history as a pirate, she adheres to laws and promises made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,7 +1216,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "真没想到在万圣节会发生这样不可思议的事，希望再次见面时她能解释清楚就好了。",
+			say = "She may be lacking in common sense, but she's another treasured friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1226,7 +1226,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "在那之前，就把今晚的奇遇当成一段宝贵的回忆封存吧——",
+			say = "Looking forward to our future banquet, I returned to the party to spend the rest of the night with the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>五　天才的实验</size>",
+					"Your Dear Inventor\n\n<size=45>5 Testing a Hypothesis</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "发明的作品在它诞生那一刻，它的意义就已经从创造者那里分离。",
+			say = "The moment I give birth to an invention, it's out of my hands.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "任何人，都能赋予它意义——",
+			say = "It's up to the user how they give it meaning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这种简单的道理，我当然明白。",
+			say = "That's simple. I've known that all along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "所以，我从来都不在乎别人怎么看待我的发明。",
+			say = "So I've never paid any mind to what others think of my inventions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我之所以会发明，只是为了把自己的灵感转化为实物而已。",
+			say = "I'm always just inventing to turn every flash of inspiration into a real, tangible thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "偶尔也会为了解决别人的烦恼而研究，但在发明的时候我往往会添加自己的灵感——",
+			say = "Even when I'm inventing something to solve others' problems, I'm still the one conceptualizing and designing it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "要是不能添加我的灵感，那发明又有何意义？",
+			say = "I'd always thought that, the instant an invention deviated from my concept, it became a failure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "一直以来都是这样的，一直以来都不觉得这样有问题。",
+			say = "That's how I've always rolled. The thought that I might be wrong never even occurred to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "可是，为什么呢……",
+			say = "So why...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "为什么看见指挥官把我自认为失败的发明爱不释手地带走后……",
+			say = "When the Commander treated my failures like they were treasures...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我会有一丝动摇？",
+			say = "Why did my heart flutter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不明白，实在不明白……",
+			say = "I don't know... I can't make heads or tails of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……好，既然弄不明白，那就做个实验吧！",
+			say = "That just means... it's time for an experiment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "又是一日的港区指挥室——",
+			say = "Port - Office",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官，我的工作完成了！",
+			say = "Commander, I finished my secretary work for the day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "最后麻烦你看一下这些申请书。",
+			say = "Just need you to look over these request forms for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "里边的内容我都确认过了，指挥官没必要细看，只要签名盖章就可以了！",
+			say = "Oh, but I've already checked them out, and they're good. All you really need to do is stamp and sign them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……特意这样强调，反而有点可疑。",
+			say = "(That's usually how this works. Why is she so emphatic about it this time? ...Something's up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "仔细翻看核查——",
+			say = "I decide to read them more thoroughly this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "果然，其中一份申请书的申请人，正是达芬奇。",
+			say = "Sure enough, one of the request forms mixed in is da Vinci's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哈哈哈，不愧是指挥官，果然被你发现了。",
+			say = "Ahaha... I should've guessed you'd figure me out, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "指挥官放心，即使你没发现，我也会告诉你啦~",
+			say = "Not that I was going to keep it from you forever. I was totally going to tell you all about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,11 +424,11 @@ return {
 			},
 			options = {
 				{
-					content = "等到我同意之后？",
+					content = "\"After I approved it, you mean.\"",
 					flag = 1
 				},
 				{
-					content = "等到瞒不过去之后？",
+					content = "\"As in, when you couldn't hide it any longer?\"",
 					flag = 2
 				}
 			}
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "才、才不会哦——",
+			say = "I-I didn't mean it like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "总之，既然被你发现了，那就仔细看看？",
+			say = "Ahem. There's no use hiding it anymore! You read the request form, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我自认为这份申请没什么问题哦……",
+			say = "What do you think? Personally, I think it stands up to scrutiny...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "申请书的标题是——达芬奇失败发明展？",
+			say = "\"'Da Vinci's Duds and Doodads Exhibition'? What is it?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "是的！我打算将那些放置在仓库内失败的发明全部展览出去！",
+			say = "It's what it says on the tin! I want to show everyone all the failures I left in the depot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你之前不是说“对于发明者而言的失败发明，对于使用者来说却不一定”嘛。",
+			say = "Remember when you said that one inventor's failure might be one user's treasure?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "我就设计了这样一个实验，实践出真知！",
+			say = "Call this an experiment to test your hypothesis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "如果实验结果真的如你所说的话，一直以来……也许我都忽略了某些重要的事情也说不定。",
+			say = "If you're right, then that means... I've been working under a serious misunderstanding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哎呀，就算看在“酸痛肩膀按摩机”的份上，你就同意吧~",
+			say = "Don't approve it for me; approve it for the sake of the Stiffy Shoulder Massaginator!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "这下不得不同意达芬奇的申请了——",
+			say = "\"How can I say no to that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "虽然原本也没有什么拒绝的理由。",
+			say = "(Not that I was planning to say no to begin with.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "经过这场展览，一些明明有用、但又被达芬奇放弃的发明品，或许能因此获得全新的意义。",
+			say = "(This exhibition could bring new life to the useful inventions that da Vinci judged as failures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇本人的心境或许也会产生某些变化吧。",
+			say = "(And maybe, if all goes well, it might change her perspective toward her failures.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "谢谢你！指挥官！",
+			say = "Thanks, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "开展的那天一定要来哦！",
+			say = "You'd better come and check it out!",
 			painting = {
 				alpha = 0.3,
 				time = 1

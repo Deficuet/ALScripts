@@ -76,6 +76,10 @@ function var_0_0.CheckAiriGenCodeCounter(arg_9_0)
 	if GetAiriGenCodeTimeRemain() > 0 then
 		setButtonEnabled(arg_9_0.yostarGenCodeBtn, false)
 
+		if arg_9_0.genCodeTimer then
+			arg_9_0.genCodeTimer:Stop()
+		end
+
 		arg_9_0.genCodeTimer = Timer.New(function()
 			local var_10_0 = GetAiriGenCodeTimeRemain()
 

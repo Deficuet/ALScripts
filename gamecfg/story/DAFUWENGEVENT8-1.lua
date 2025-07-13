@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "被正在追蝴蝶的萤火虫撞到了，前进一格"
+			say = "Glowworm headbutted you from behind... Move forward 1 tile!"
 		}
 	}
 }

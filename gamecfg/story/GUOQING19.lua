@@ -13,7 +13,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "啊啊…神明大人，您看到了吗…灵魂间碰撞激发出的熠熠光辉…这也是您所期望的「觉醒」吗？",
+			say = "Ahh... The glorious light born from clashing souls... O, Creator, please grace us with your attention... for this is the light of the Awakening you desire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "美丽而脆弱…让人忍不住想一把捏碎…呵呵……呵呵呵……",
+			say = "So beautiful, yet so frail... I can't help but want to crush it in my grasp... Ahahaha, ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "唉…果然还是陷入这种状态了…也罢，这一次的表演也差不多接近尾声了",
+			say = "I thought this would happen... Very well. It seems this is where our plans come to an end.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "是吗…真遗憾～既然如此，那就准备吧…呵呵…前往…下一处的“圣域”——",
+			say = "Is that so...? How regrettable~ Then let us depart... *Giggle*... We shall find ourselves a new Sanctuary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……别、别想走……我还有话——",
+			say = "Hey... W-wait! I'm not finished with you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,10 +95,10 @@ return {
 			actor = 900011,
 			side = 0,
 			soundeffect = "event:/ui/alarm",
-			actorName = "系统",
+			actorName = "SYSTEM",
 			dir = 0,
 			nameColor = "#ff0000",
-			say = "警告——回收进程已启动，本区域即将废弃——",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
@@ -113,10 +113,10 @@ return {
 			actor = 900011,
 			side = 0,
 			nameColor = "#ff0000",
-			actorName = "系统",
+			actorName = "SYSTEM",
 			dir = 0,
 			withoutPainting = true,
-			say = "警告——回收进程已启动，本区域即将废弃——",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -130,10 +130,10 @@ return {
 			actor = 900011,
 			side = 0,
 			nameColor = "#ff0000",
-			actorName = "系统",
+			actorName = "SYSTEM",
 			dir = 0,
 			withoutPainting = true,
-			say = "警告——回收进程已启动，本区域即将废弃——",
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "同胞啊，世间万物一切自有其因果。但是命运果真就是如此既定的么？",
+			say = "My sister, everything in this world has its cause and effect. We must always look for another possibility through this infinite cycle of death and rebirth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "在这无限轮回的“圣域”中，我们一直在寻找着命运的另一种可能性",
+			say = "That is why we conduct experiments in this Sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "总有一天你会明白…我们在做什么，为什么会这么做……",
+			say = "One day you will understand the reason why we do what we do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "愿八百万神明的守护常伴于你——",
+			say = "May all the gods watch over you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,11 +209,11 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "实验场γ…又完成了一轮测试",
+			say = "The simulation at Test Site Gamma has concluded.",
 			flashout = {
 				dur = 1.5,
 				alpha = {
@@ -242,9 +242,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "嗯？我看看，实验场γ…啊，原来是“小动物”们的记录实验吗，这是……",
+			say = "Hm? Let me see... Test Site Gamma...? Oh, that insignificant zoo of a test site...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,9 +258,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "雕刻出的棋子出现了情感反应...？！",
+			say = "Well, this is interesting. The copy created in the Sculpture Room experienced what looks like an Awakening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,9 +274,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			blackBg = true,
-			say = "为了摆脱控制和拯救族人所爆发出的能力…么？，算是超出预期的表现。",
+			say = "Yes, that one. Hmm, \"resists attempts at control and unleashes latent power to save her friends\"... This is beyond our expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,9 +290,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "想要挣脱出命运之网却不断作茧自缚的家伙。以为自己能掌控一切，却不知道一切从最初开始就只是假设…",
+			say = "Interesting... By deviating from their predetermined destiny, they've managed to break free from the shackles of fate... I thought we were in control of everything, but perhaps that was all a lie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,9 +306,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "不过，这种现象真的是“造物主”大人所追寻的心智觉醒么？",
+			say = "In either case, the question is if this is a true Awakening. It doesn't meet the right conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,9 +322,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			blackBg = true,
-			say = "不知道。所谓的觉醒现象可能只是错误的时间错误的调用错误的数据而产生的假象。",
+			say = "Who knows. Ultimately, these intangible \"emotions\" are nothing more than electric signals in their processing centers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,9 +338,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			blackBg = true,
-			say = "备受“造物主”大人青睐的她们身上，还有太多的未知等待着我们的研究。",
+			say = "Nevertheless, this is superb data. It seems the Creator has taken a liking to these girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,9 +354,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "“心智魔方”......“造物主”大人究竟想从中寻找怎样的可能性呢。",
+			say = "Hmph! It's no more than the Creator's way of playing a joke on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,9 +370,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			blackBg = true,
-			say = "目前看来，还需要更多的实验和测试。在得到进一步结论之前，变量需要被严格控制。",
+			say = "The data shows... they need more experience. At the very least... we can't let them face each other yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,9 +386,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			blackBg = true,
-			say = "呵呵呵，也是呢。所有【棋子】归位，重置测试数据，提高5个百分点的指数……放出“钥匙”……开始下一轮测试——",
+			say = "Resetting all Pawns. Clearing all data. Increasing all parameters by 5%... Releasing the key... And so, the next round of testing begins...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

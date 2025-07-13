@@ -42,7 +42,7 @@ pg.activity_clue_group = setmetatable({
 pg.base = pg.base or {}
 pg.base.activity_clue_group = {
 	{
-		title = "深谷病院·上",
+		title = "Valley Hospital \n(Part 1)",
 		type = 1,
 		id = 1,
 		task_id = "21613",
@@ -55,7 +55,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "深谷病院·下",
+		title = "Valley Hospital \n(Part 2)",
 		type = 1,
 		id = 2,
 		task_id = "21613",
@@ -68,7 +68,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "诊疗中心",
+		title = "Medical Center",
 		type = 1,
 		id = 3,
 		task_id = "21613",
@@ -81,7 +81,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "医生办公室",
+		title = "Office",
 		type = 1,
 		id = 4,
 		task_id = "21612",
@@ -99,7 +99,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "诊疗中心(地下)",
+		title = "Medical Center \n(Underground)",
 		type = 1,
 		id = 5,
 		task_id = "21612",
@@ -117,7 +117,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "住院大楼",
+		title = "Inpatient Building",
 		type = 1,
 		id = 6,
 		task_id = "21606",
@@ -133,7 +133,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "护士站",
+		title = "Nurses' Station",
 		type = 1,
 		id = 7,
 		task_id = "21606",
@@ -150,7 +150,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "病房",
+		title = "Patient Room",
 		type = 1,
 		id = 8,
 		task_id = "21606",
@@ -167,7 +167,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "住院大楼(地下)",
+		title = "Inpatient Building \n(Underground)",
 		type = 1,
 		id = 9,
 		task_id = "21607",
@@ -184,7 +184,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "研究中心",
+		title = "Research\nCenter",
 		type = 1,
 		id = 10,
 		task_id = "21609",
@@ -200,7 +200,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "研究中心(地下)",
+		title = "Research Center \n(Underground)",
 		type = 1,
 		id = 11,
 		task_id = "21610",
@@ -218,7 +218,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "疗养中心",
+		title = "Recuperation Center",
 		type = 1,
 		id = 12,
 		task_id = "21607",
@@ -234,7 +234,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "疗养中心(地下)",
+		title = "Recuperation Center \n(Underground)",
 		type = 1,
 		id = 13,
 		task_id = "21607",
@@ -252,7 +252,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后勤中心",
+		title = "Logistics Center",
 		type = 1,
 		id = 14,
 		task_id = "21608",
@@ -268,7 +268,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后勤中心(地下)",
+		title = "Logistics Center \n(Underground)",
 		type = 1,
 		id = 15,
 		task_id = "21608",
@@ -284,7 +284,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "停车场",
+		title = "Parking Lot",
 		type = 1,
 		id = 16,
 		task_id = "21610",
@@ -301,7 +301,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "停车场(地下)",
+		title = "Parking Lot \n(Underground)",
 		type = 1,
 		id = 17,
 		task_id = "21610",
@@ -319,7 +319,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "门卫亭",
+		title = "Guard Booth",
 		type = 1,
 		id = 18,
 		task_id = "21611",
@@ -336,7 +336,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "古典长廊",
+		title = "Corridor",
 		type = 1,
 		id = 19,
 		task_id = "21612",
@@ -354,7 +354,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "庭院",
+		title = "Garden",
 		type = 1,
 		id = 20,
 		task_id = "21609",
@@ -372,7 +372,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "樱花树",
+		title = "Cherry Tree",
 		type = 1,
 		id = 21,
 		task_id = "21609",
@@ -390,7 +390,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "小树林",
+		title = "Small Forest",
 		type = 1,
 		id = 22,
 		task_id = "21608",
@@ -408,7 +408,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "正门",
+		title = "Main Entrance",
 		type = 1,
 		id = 23,
 		task_id = "21611",
@@ -424,7 +424,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后门",
+		title = "Rear Entrance",
 		type = 1,
 		id = 24,
 		task_id = "21611",
@@ -442,7 +442,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "莫加多尔",
+		title = "Mogador",
 		type = 2,
 		id = 25,
 		task_id = "21614",
@@ -455,7 +455,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "富兰克林",
+		title = "Franklin",
 		type = 2,
 		id = 26,
 		task_id = "21615",
@@ -470,7 +470,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "华盛顿",
+		title = "Washington",
 		type = 2,
 		id = 27,
 		task_id = "21616",
@@ -488,7 +488,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "{namecode:59}",
+		title = "Suzuya",
 		type = 2,
 		id = 28,
 		task_id = "21617",
@@ -503,7 +503,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "伏罗希洛夫",
+		title = "Voroshilov",
 		type = 2,
 		id = 29,
 		task_id = "21618",
@@ -521,7 +521,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "鹰",
+		title = "Eagle",
 		type = 2,
 		id = 30,
 		task_id = "21619",
@@ -537,7 +537,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "神速",
+		title = "Stremitelny",
 		type = 2,
 		id = 31,
 		task_id = "21620",
@@ -552,7 +552,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "圣塔菲",
+		title = "Santa Fe",
 		type = 2,
 		id = 32,
 		task_id = "21621",
@@ -567,7 +567,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "米勒",
+		title = "Miller",
 		type = 2,
 		id = 33,
 		task_id = "21622",
@@ -585,7 +585,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "哈尔福德",
+		title = "Halford",
 		type = 2,
 		id = 34,
 		task_id = "21623",
@@ -598,7 +598,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "{namecode:91}",
+		title = "Akagi",
 		type = 2,
 		id = 35,
 		task_id = "21624",

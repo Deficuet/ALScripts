@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>心与现实</size>",
+					"Crimson Prelusion\n\n<size=45>5 Reality - In the Eagle Union</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "纷乱的人群，急切地呼喊，飞扬的文件，吵闹的铃声。",
+			say = "The Eagle Union's NY base had fallen into chaos.",
 			bgm = "hunhe-level",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "昔日井井有条的NY司令部，如今已然陷入了混乱的旋涡。",
+			say = "Gone was the sight of the ordinarily orderly workplace. Staff rushed to and fro, clamoring and rushing to complete their tasks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "位于这场混乱中心的人，如今正用意志强行维持着理性，眉头紧锁地下达着一项又一项试图挽回局势——或者至少查明局势的指令。",
+			say = "Amidst all this chaos, Saratoga furrowed her brow, trying her hardest to stay calm and reestablish order – or, at least, trying to make sense of the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……先是圣诞岛、然后是复活节岛……紧接着是AF，甚至连PH港都发生了异常情况。",
+			say = "From Easter Island, to the bases at AF and PH... The same strange stuff is happening everywhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "而{namecode:524:圣地亚哥}司令部在说什么？都是误判？错误情报？无事发生？！",
+			say = "Headquarters can't settle on a story either! What is it? A mistake? A transmission error? Nothing at all?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不可理喻……帕克菲克洋的局势肉眼可见乱成了一锅粥，可……本应负责那里的{namecode:524:圣地亚哥}司令部却说无事发生？",
+			say = "Like I'd believe that! The Pacific is a total mess! You can't tell me there's nothing going on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "可恶……要不是司令部正好处在交接中……密苏里已经被DC特区召回，前去接任的约克城尚在途中。",
+			say = "Ugh... If only the base at SD wasn't in the middle of a staff handover... If only Missouri wasn't on her way to DC and Yorktown wasn't away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "不过，为什么……就偏偏是在这个时候呢……",
+			say = "This couldn't have come at a worse time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "算了，{namecode:524:圣地亚哥}司令部指望不上，我就自己来查！",
+			say = "At the same time, complaining about it won't solve anything! I need to look for answers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,11 +141,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉托加，我们刚收到了几份值得在意的报告。",
+			say = "Hey, Sara, I found another report you'll want to look at.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "又是帕克菲克洋的？",
+			say = "From the Pacific again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来自巴拿马要塞及周边港口。",
+			say = "Not this time. It's from the Panama Canal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "巴拿马要塞……也出问题了？！报告给我！",
+			say = "Panama?! Let me see it, quick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……正在举办一场要纪念战胜塞壬的大型庆功仪式……？！",
+			say = "They're... hosting a ceremony to celebrate victory against the Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "巴拿马要塞这一年都没什么战事吧……立刻向驻防的无畏核实。",
+			say = "I don't think there's been any major battles around there lately... Could you get Intrepid to check?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白。",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103070,
-			say = "萨拉托加，我这里也有要提交的报告，来自欧罗巴地区。",
+			say = "Sara, I've got a report as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "抱歉，印第安纳，我之前好像有说过……现在是非常时期，必须是标记为最高优先级的报告才能在这时候送过来对吧。",
+			say = "Thanks, but we're completely swamped right now. Please keep it strictly to top priority reports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103070,
-			say = "没错。这些报告都是被标记为最高优先级的。",
+			say = "It IS top priority. From Europa, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……来自欧罗巴？",
+			say = "Wait, Europa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。",
+			say = "Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "指挥官现在人就在欧罗巴啊……快发来！",
+			say = "That's where the Commander is... Show it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "乱套了……连欧罗巴都乱套了。",
+			say = "Oh my gosh... Not even Europa is safe from it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些人都在做什么……难道都疯了不成？",
+			say = "What in the world is happening? Are they all dreaming or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "还是说这是某种影响范围极广的精神攻击事件……",
+			say = "Unless... that's it! What if they're under the effects of a massive mind attack, like what happened at the World Expo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "指挥官恰巧在这个时候去了东煌……嗯，去东煌好。现在的欧罗巴确实不宜久留。",
+			say = "And... the Commander has been redeployed to the Dragon Empery? Phew. It should be safe there, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,11 +423,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "又有什么事？！",
+			say = "What is it THIS time?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸！那、那个……",
+			say = "Whoa! I hope this isn't a bad time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "抱歉……吓到你了。又出什么事了么？",
+			say = "Sorry, I'm just tense. Do you have any news?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101400,
-			say = "DC特区方面终于发来了回应……",
+			say = "Yes. DC finally replied to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……太好了！{namecode:201:衣阿华}怎么说？",
+			say = "Thank gosh! What did Iowa say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "发来回应的不是{namecode:201:衣阿华}女士……",
+			say = "Well, um, it wasn't Iowa who replied...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "不是她……？可我是……点名道姓发给她的。报告给我看看！",
+			say = "It wasn't her? Weird. I explicitly addressed it to her... Anyway, send it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“{namecode:201:衣阿华}女士正在招待重樱使团，暂时无法脱身，希望您耐心等待。”……？",
+			say = "What? \"Iowa is dealing with a delegation from the Sakura Empire and won't be able to assist in other missions for some time\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "哈……开什么国际玩笑？！重樱使团不是五天前就离开了么？！",
+			say = "But... didn't that delegation leave five days ago? How is she STILL dealing with them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "而且有什么事，能比NY司令部的加急调查更重要……",
+			say = "And how can THAT possibly be more important than THIS?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "不行……我的头好痛……",
+			say = "Ugh... I feel a headache coming on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,11 +634,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉托加……",
+			say = "Hey, Sara...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "呼………………说吧，又有什么坏消息。",
+			say = "Yes? What's the bad news this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们和星海失去联络了。",
+			say = "We've... lost contact with the Sea of Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "………………啊？",
+			say = "Wait, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,34 +706,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不可能……星海绝对不可能出事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_guild_blue_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107030,
-			say = "星海的地点本身就是绝密……而且还有着最先进的防护系统，最先进的武器，最精锐的舰队，还有……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			bgName = "bg_guild_blue_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……姐姐的医疗舱。",
+			say = "No... Even they haven't gone unscathed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +720,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "星海绝对不能出事……！",
+			say = "But how? Its location is classified, its defense systems are cutting-edge, and some of our best people are stationed there...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107030,
+			side = 2,
+			bgName = "bg_guild_blue_n",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "And... it's where Lex's care pod is...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_guild_blue_n",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107030,
+			say = "No! I can't let anything happen to the Sea of Stars!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "萨拉托加匆忙挂断通讯，将机密文件随手锁到柜子中，然后向着司令部地下飞奔而去。",
+			say = "She hung up, stashed her secret documents in her locker, then hurried her way down the stairs to the underground level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "NY司令部·地下通道",
+			say = "NY Base - Underground Passage",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -808,7 +808,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "「陆上神国」事件后，基于现场收集的样本，再加上鸢尾提供的情报，星海研究所终于成功开始了对于微层化混合物的利用研究。",
+			say = "Following the near-superimposition event, the Eagle Union obtained the key pieces – local samples from the Orthodoxy and intel on its microlayer transference system – they needed to finally begin research on Siren teleportation technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "「星桥」，就是这样一条利用了微层化混合物所构建的通道。一头连接着NY司令部，另一头——直达星海。",
+			say = "One result of this research is the Star Bridge – a high-speed network directly linking the NY base to the Sea of Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "此时此刻，这座连通着希望的桥梁就静静沉睡在司令部的地下。",
+			say = "That's where Saratoga was going – to the underground bridge of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……没错「星桥」已经调整完毕了……穿越星桥，就能直达星海！",
+			say = "They've calibrated the Star Bridge... It should take me straight to the Sea of Stars!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "萨拉托加在地下通道中，向着「星桥」装置所在的地点飞奔而去。",
+			say = "The flame of hope in her heart spurred her on, making her run even faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？萨拉托加，司令部里不是忙成一团了么，你怎么下来了？",
+			say = "Huh? Saratoga? I thought you were busy up in the command center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "「星桥」现在状态如何，可以启动么？",
+			say = "Is the Star Bridge ready? Can it be started right here and now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“星桥”是什么？",
+			say = "What? What's the \"Star Bridge\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……就是我们连通星海基地的那个装置啊？",
+			say = "The machine that makes a portal straight to the Sea of Stars! What else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“星海基地”又是什么？萨拉托加你今天好奇怪……",
+			say = "\"Sea of Stars\"? What's that? You sound disoriented. Should I call a doctor for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……可恶，精神攻击的影响已经覆盖到NY司令部了么。",
+			say = "(Oh no... Now the mind attack is affecting people in NY, too!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "可是我还什么都没能查出来！",
+			say = "(And we still haven't figured out anything about it!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "星海是翻盘的关键……必须要抵达星海才行！",
+			say = "(The Sea of Stars is the key to turning this situation around... I NEED to get there!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "萨拉托加来到了星桥装置所在的地下空间。",
+			say = "Saratoga made it to the room where the Star Bridge was kept.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "映入眼帘的，只有一片空白。",
+			say = "Inside, however, there was nothing. Only an empty room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "呵……终于，连我也开始受到影响了么。",
+			say = "Has... the mind attack finally reached me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "但是……我不相信精神干涉能够真的改变现实……",
+			say = "No, it's not over yet! Even if it's blocking out the Star Bridge from my mind, it can't just erase it from reality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,7 +1071,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "就算我的眼中空无一物，手上也没有任何触感……我也坚信，星桥是存在的……星海也是存在的！",
+			say = "Even if I can't see it or even feel it, it MUST be here, and the Sea of Stars must be on the other side of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "既然存在……我就要找到你！",
+			say = "Assuming I'm right, I just need to find a way to activate it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "萨拉托加凭借记忆来到了星桥装置的操作台，在空无一物的空气中，用手操作了起来。",
+			say = "Relying solely on her memory, she reached for the empty space in front of her, pressing buttons and keys on a panel that didn't exist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "恍惚间，少女似乎听到了系统启动的声音。",
+			say = "After fiddling with it for a long time, she finally heard the faint noise of a machine starting up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "呵……我赌对了。接下来只要进入装置之中……",
+			say = "I did it! Now I just need to step through the portal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,7 +1142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "少女继续向前走去，记忆之中原本是星桥入口的地方，如今是一道深不见底的悬崖。",
+			say = "She walked up to the portal platform and looked down to see only an abyss with no bottom in sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1156,7 +1156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……来这一招么。",
+			say = "Trying to scare me, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,7 +1167,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "少女缓缓走到悬崖边缘，闭上双眼。",
+			say = "She stood at the edge of the abyss, eyes closed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "……一切都只是幻觉而已。",
+			say = "It's all just an illusion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "我知道……入口就在这里，穿过入口，就能抵达星海……就能见到姐姐。",
+			say = "The way through is right here. I just need to walk forward to get to the Sea of Stars and see Lex!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,7 +1236,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "所以……我无所畏惧。",
+			say = "Don't be afraid, Sara!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1247,7 +1247,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "就在少女准备一跃而下之际，一阵力量将她拉了回来。",
+			say = "Just as she took a step toward the abyss, she felt like a tremendous force stopped her in her tracks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1258,7 +1258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "少女睁开双眼，映入眼帘的是一条繁华的街道。",
+			say = "When she opened her eyes again, she found herself standing in a busy shopping district.",
 			bgm = "story-memory-grief",
 			typewriter = {
 				speed = 0.05,
@@ -1287,7 +1287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_529",
 			hidePaintObj = true,
-			say = "街道的不远处，有人在等她。",
+			say = "There, not far away from her on the main road, stood someone who was waiting for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1301,7 +1301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "萨拉，我等了你好久哦。",
+			say = "There you are, Sara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1315,7 +1315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107020,
-			say = "你终于来了，路上还顺利么？",
+			say = "I've been waiting for you. Has everything been going smoothly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1328,7 +1328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1342,7 +1342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107030,
-			say = "……姐姐？",
+			say = "Lex... You're here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

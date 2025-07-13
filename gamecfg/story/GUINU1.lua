@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>一  非常事态？！</size>",
+					"As Cool As A Demon\n\n<size=45>1 Freeze!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "与重樱的作战会议结束后回到了指挥室。不知为何，总感觉有徐徐微风吹来。",
+			say = "I was back in my office, having just wrapped up a strategy meeting with the Sakura Empire. Upon opening the door, I felt a light breeze brush against my cheek.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这时注意到房间的窗帘鼓了起来……难道是出门时忘了关窗户？",
+			say = "The curtains by my desk flapped in the wind. Evidently, I'd forgotten to close the window before I left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——咚咚。",
+			say = "Right after I shut the window, there was a knock-knock on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，有件在会议上忘了说的事，占用你几分钟时间可以么？",
+			say = "Do you have a moment, Commander? There was something I forgot to tell you at the meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "起身关窗时，{namecode:181}走进了指挥室。正当关好窗户转过身来的一瞬间——",
+			say = "Kinu entered before I could answer the knocks. I turned around to face her, and that's when I had the life scared out of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，站在原地不要乱动。",
+			say = "...Stay still. Hold it right there and don't move a muscle.",
 			effects = {
 				{
 					active = true,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "否则无法保证你的安全。",
+			say = "Do as I say, or I can't guarantee your safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "听到{namecode:181}突如其来的危险预告，全身仿佛连同周围的空气都被一起凝固了。",
+			say = "Her face was wrinkled into a ghastly look. Intimidated by her commanding tone, I froze in place almost instinctively.",
 			effects = {
 				{
 					active = false,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就对了，在我说可以之前就这样站在原地。",
+			say = "Good. Now stay right there until I give you the go-ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也不是什么大事，只不过现在有只胡蜂在你衣领上而————不是说了不要动么……",
+			say = "You're not in danger, it's just there's a wasp resting on your– Hey! I said hold still!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……冷静下来再坚持一会，我这就去把窗户打开。",
+			say = "Keep calm and listen to me. I will now walk over to the window. Do not move until I give you permission to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,23 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:181}冷静的穿过了胡蜂的攻击范围，以最小的动静重新打开了指挥室的窗户。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 302080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "听好，指挥官，强行甩掉胡蜂只会刺激它使用毒刺反击。",
+			say = "Beads of cold sweat ran down my body, whereas Kinu was the spitting image of calmness. She came over and quietly threw open the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,21 +235,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在你应该做的是，不动如山，然后等我像这样——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "{namecode:181}缓缓将衣领上的胡蜂转移到手心上，静静走到窗边。",
+			say = "Here is a fact about wasps: if you swing at them, they will perceive you as a threat. But stay still, and they'll do you no harm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +251,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，趁现在快飞走吧。",
+			say = "The fact you still moved means you are either a timid lamb, or a tortoise with nerves of steel.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "While I did my best statue impression, she gently put a hand to my collar and allowed the wasp to walk onto it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 302080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now I'm going to send it out through the window. Go on, shoo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉……刚才你居然想把胡蜂甩开，真不知道你是胆量过人还是被吓破胆了。",
+			say = "There. All done... It worries me to think a little wasp could get the better of someone in your position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果真的因为这种小事而乱了手脚可不行。为了跟得上我这个恶鬼，再变强一些吧。",
+			say = "I mean it when I say this: you need to get stronger. Otherwise, how do you expect to control a demon such as I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……身为指挥官，的确应该更多学习一下{namecode:181}这样稳重的性格。",
+			say = "I had to admit she was right. As the commander of a fleet of shipgirls, I must be strong and resolute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

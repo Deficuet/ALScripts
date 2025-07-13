@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东大陆架C区域",
+			say = "NA Ocean - East Continental Shelf Sector C",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499060,
-			say = "{namecode:464}阁下，阿瓦隆之门已启动。",
+			say = "Ulrich, the Singularity has been opened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我知道了。",
+			say = "Understood. All preparations done on my end as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "我听到了哦？阿瓦隆之门启动，就表示我们的表演终于要开始了！",
+			say = "If the Singularity is up and running, that means it's time to ramp up the EM interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "碧蓝航线的联合舰队正在接近，接下来先按照计划糊弄一下就好了吧。",
+			say = "Let's get to know each other better with a little dance, Azur Lane~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在这种紧要关头，希望您能认真一点，{namecode:427}阁下。",
+			say = "I'll lead the charge, then. Hopefully you'll be able to sow chaos in the enemy's ranks, the one thing you're good for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "嗯？我可是一直很认真哦，{namecode:464}阁下。你看我们现在部署在海域中的庞大舰队，如何？",
+			say = "Aww, how mean of you, Ulrich. Look, our dance has already started~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "伴随着{namecode:427}的话语，战术地图上凭空出现了大量大小不一的绿点，每个点都代表一艘舰船，或一支量产型舰队。",
+			say = "The panels of Ulrich's electronic equipment suddenly erupted with countless \"ally\" symbols.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……这还真是惊人，依靠幻光系统居然能做到这种地步么？",
+			say = "Hmph, not bad... Seems like you're capable of getting serious after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "主要依靠改良后的幻光系统，其次是Z驱们加班加点的努力~",
+			say = "You flatter me~ This only works because our destroyers scattered throughout the area have relay devices equipped onto them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "现在海域中的铁血“舰队”规模比她们的联合舰队还要大好几倍，光理清现状就够她们受的咯~",
+			say = "They'll see that we outnumber them three-to-one on the radar now. It'll be quite a headache to figure out what's real and what isn't~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……那正式交战上的部署呢？",
+			say = "Unfortunately, we can't take a head-on engagement against a fleet of that size––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "欸————那个在现阶段又不是重点。",
+			say = "But luckily, we don't have to. The important thing is that we buy time – and as long as we can force them to advance cautiously, we can avoid a direct confrontation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "现在这种场面，下次就不知道什么时候能见到了。",
+			say = "No, things won't be that simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "机会难得，你就没有想试一试的事么？",
+			say = "After all, there's something you're dying to try, right? For example, fighting against the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "硬要说的话倒也不是没有……嗯…………你说的有道理。",
+			say = "...If you're going to put the words in my mouth, then... Yeah, that's something I'd like to try at least once~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403030,
-			say = "我要调整一下部署，之后再联络咯，{namecode:427}通讯结束。",
+			say = "I'll be passing on-site command to you, Ulrich, so you can do whatever you want with the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来多少还是有些能让她提高干劲的事么……",
+			say = "Hmph. Very well. You'll have an easier time making your move as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "虽然说另有计划，不过这可是难得能和那个碧蓝航线指挥官交手的机会。",
+			say = "(Farce or not, opportunities to spar against the Commander don't come often.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白白错过实在太可惜了……",
+			say = "(I'll have to plan every move carefully... Tch, what a pain.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "{namecode:455}、{namecode:439}、{namecode:414}，能听到么，现在变更为B方案对白鹰舰队进行阻拦。",
+			say = "Adalbert, Roon, U-81, change in plans. Intercept the Eagle Union fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408010,
-			say = "了解，即将在指定区域设置伏击区。",
+			say = "Sure thing! I was hoping I'd get to play tag with them a bit more, but that's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "欸……了解————",
+			say = "All righty, heard you loud and clear~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499010,
-			say = "呵呵，我在看到B方案之后就知道你一定会选的。",
+			say = "Ahh, how refreshing it is to get to fight again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499010,
-			say = "现在已经和{namecode:479}在指定位置等了好半天了，你什么时候带人来？",
+			say = "Mainz and I will be waiting for the Commander here. When are you coming, Ulrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "马上就到。",
+			say = "Soon enough. Don't engage until I arrive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "面对我的部署和铁血的王牌，你究竟打算如何应对呢……",
+			say = "(If we can pin down the Commander's flagship, the Azur Lane will also have to change their plans. Two birds with one stone.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "同为指挥者，让我们在战场上实打实的过过招吧————！",
+			say = "I'll make full use of this opportunity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>六　情愫日长</size>",
+					"A Whirlwind Romance\n\n<size=45>6 Passionate Thoughts</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（一边参照资料一边整理会议记录，不知不觉间太阳已经落山了。）",
+			say = "(I was helping Commander record down the things that had been discussed, based on our reference materials. Before I knew it, it was already late at night.)",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（花了不少时间啊……如果时间允许的话，还想再找些更有用的资料呢。）",
+			say = "(That took a long time... But if possible, I'd still like to look for some even more helpful materials.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，会议记录整理完毕。应该不会有什么疏漏的地方才对……请过目。",
+			say = "Um, Commander, make sure you remember to check if the records I made are complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官平时那么忙，难免会有疏忽的地方，因此我必须好好辅佐才行。）",
+			say = "(Commander often has difficulty keeping track of everything due to the sheer amount of work, so that's why I have to be firm.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（嗯，接下来也要打起精神！）",
+			say = "(I clenched my hands into fists to psych myself up...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（欸，指挥官手中的那个是——）",
+			say = "(And that's when I saw the fountain pen in Commander's hand.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（钢笔啊……之前看过的电影里，就有以这个为契机发展成恋爱关系的呢……真是部好电影啊。）",
+			say = "(A fountain pen, huh... There was one just like it in that movie I watched before. Actually, that was the starting point for an entire love story. What a masterpiece.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（说起来……我任职的第一天也是在捡钢笔的时候碰到了指挥官的手……当时就有点心动的感觉――――）",
+			say = "(Now that I think of it... my hand also bumped into Commander's on that first day I came into the office... That was so heart-throbbing—)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（——等等！我，我在想什么呢…！）",
+			say = "(W-wait, what's gotten into my all of a sudden? I have to stay focused so we can finish up with work as soon as possible.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（现在还在工作中，得赶紧把这些奇怪的想法甩掉才是！但……）",
+			say = "(I'm trying to shake the thoughts out of my head, but my heart is still racing from just thinking about it...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（电影里，那个对女主角很亲切的人在离开的时候把钢笔落下了，而那就是两人感情线的开始……）",
+			say = "(In that movie, the person who helped the heroine in the movie left his pen behind as he left, and that was the beginning of their whirlwind romance...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（之后再会的时候才知道，那是一位身份高贵的人，而且还温柔地帮被雨淋湿的她披上了外套……）",
+			say = "(When they later met again, and that was when she realized that he was out of her league, he even gently put a coat over her when got soaked in the rain...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（指挥官是我的上司，也是身份更加高贵的人，但这样下去的话……）",
+			say = "(Commander is also out my league, my superior... But, Commander's gentleness is the same, just like in the movie...... Oh gosh, what am I fantasizing about——)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我……我刚刚……是睡着了？）",
+			say = "(I guess I ended up dozing off while thinking about Commander because I had been working so hard...)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -327,7 +327,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——唔……不行不行，还在工作中呢……",
+			say = "This won't do... I'm still at work...",
 			action = {
 				{
 					type = "shake",
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都怪自己想了多余的事情才会犯困……嗯？这是——",
+			say = "Ugh... It's all because I let myself get those weird idle thoughts that I ended up drowsy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（背上好像有什么东西……）",
+			say = "(Huh... What's this odd feeling on my back?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是，是外套？这披在我身上的外套，难道是……指挥官的——",
+			say = "...A c-coat? When did this get here? ...And, this is... Commander's?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（而且现在这个状况……该、该不会指挥官一直在旁边看着吧？！）",
+			say = "(I stood up while muttering to myself and turned around. Commander, who had noticed me getting up, slowly stood up as well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱、抱歉指挥官！在工作中不小心睡过去……还借用了你的外套实在是不好意思……我这就继续工作！——",
+			say = "I'm so sorry, Commander! I completely fell asleep! How embarrassing of me to even make you lend me your coat... I'll get back to work right away...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咣当！",
+			say = "Thud!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -467,7 +467,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呀——！！",
+			say = "Ahh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（在慌慌张张即将跌倒的瞬间，我被指挥官的双臂牢牢地抱住了。）",
+			say = "(In my panic, I spun around and caught my foot on something, and I felt myself going down– Suddenly... I felt myself being tightly hugged in Commander's arms!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呀！真、真的是非常抱歉！",
+			say = "Eek! I, I'm so sorry, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（脸好近……再这么被近距离看着，要、要窒息了……）",
+			say = "(Our faces are so close... We're so close that I feel like I can't even breathe...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……！",
+			say = "Ah...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（被放开了……差点就要晕过去了……）",
+			say = "(As soon as our eyes met, Commander promptly let go of me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（心……跳的好快……没、没想到和指挥官上演了宛如爱情电影的一幕……）",
+			say = "(My heart was pounding like crazy and it just wouldn't stop... This was just like a scene out of a romance movie, except with Commander...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（那部电影里……好像女主角她……）",
+			say = "(In that movie, the heroine...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，那个，其实我……！",
+			say = "Um, Commander, actually...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？……“今天还是先去休息吧”？既，既然指挥官都这么说了……",
+			say = "Huh? ...I should head back for the night and get some rest? Y-you're right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（结果，在结结巴巴地离开了办公室以后，自己还是听从指挥官的话，老老实实去休息了。）",
+			say = "(The words were caught in my throat. I could only leave the office obediently and head back to get some sleep.)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（差不多……也该下定决心了。）",
+			say = "(But that was when I made a single wish to myself, from the bottom of my heart.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

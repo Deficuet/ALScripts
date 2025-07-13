@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>五 游园诗话</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>5. Poetry in the Park</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "Port - Dragon Empery Estate",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "离下一场拍摄还早，稍微闲逛一会吧。",
+			say = "There's plenty of time until the next photoshoot, so maybe I'll take a stroll around the park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "湖心亭那边的人是————",
+			say = "Who's that in the pavilion at the center of the pond?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……昨天的这场雪，给园林增添了些许冬日的气氛呢。",
+			say = "...Yesterday's snow has made this pavilion even more picturesque.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "不过，唔……这里的雪薄掉了不少。",
+			say = "But alas... the snow here has already thinned out significantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海圻，快用造雪机对着这边吹吹~",
+			say = "Hey, Hai Chi, bring the snow machine over here for a bit––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "遵命~哈哈哈，雪花来了！",
+			say = "Sure, sure! One snowstorm, coming right up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "很好~这样好多了。",
+			say = "Great~ That looks much better!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，在这皑皑白雪之中的些许残叶，更是令人不禁增添几分诗兴……",
+			say = "Ahh, the sparse remnants of autumn leaves in the white snow make this scenery feel all that much more poetic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "……海圻，风开得有些太大了，不要对着我直接吹呀！",
+			say = "*Achoo!* Um, Hai Chi, please don't point the snow machine directly at me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "这样不是更有狂风暴雪的感觉嘛~",
+			say = "Ehehe, I thought you wanted to know what it felt like to be in the middle of a snowstorm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "不需要啦……残叶都要被吹跑了。和风细雪就好！",
+			say = "Just the general mood is good enough! Jeez, you're going to blow all the leaves away! Just a thin layer of snow is sufficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "是————",
+			say = "Fiiiiine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "海天在（人造）飘雪中眉头紧锁，来回踱步着。",
+			say = "Hai Tien paced back and forth in the artificial snow, her lips curled into a slight frown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第一句……踱步园中顾雪霜，叶影疏疏映池塘。",
+			say = "Let's see, the first verse... \"One paces amidst the park's sleet and snow, the last traces of fall reflected in the pond.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "感觉不错……！那么是第二句……",
+			say = "That sounds pretty good. Now for the next verse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位下午好。",
+			say = "Good afternoon, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "下午好~我们来园子里玩咯。",
+			say = "Hello, hello! We're here to play!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打扰了。",
+			say = "Hope we're not bothering you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "平海、宁海还有逸仙？！欢迎光临，我们制造的雪景不错吧~",
+			say = "Oh my, it's good to see the three of you. Welcome to my little pavilion. How do you like the view here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实很有冬日气息。",
+			say = "It's quite nice. I like the wintery feel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "打雪仗咯，打雪仗~海天和海圻一起来么？",
+			say = "Let's have a snowball fight! Hai Chi, Hai Tien, wanna join in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "我想去！",
+			say = "Let's do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我在想诗，就先不去啦。",
+			say = "I'm trying to compose a poem for the occasion. Apologies, but I'm afraid I must decline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "海天姐姐加油————！",
+			say = "Hope you find the right words soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，我还以为发生了什么，原来是因为诗句的原因在左右踱步呀。",
+			say = "I see. I was wondering if something was bothering you from the way you were pacing back and forth, but you were just trying to come up with some poetry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可以让我听听么？",
+			say = "Would you mind sharing what you've come up with so far?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "其实只想好了前一半，踱步园中顾雪霜，叶影疏疏映池塘。",
+			say = "Sure. I'm only about halfway through, but it goes like this– \"One paces amidst the park's sleet and snow, the last traces of fall reflected in the pond.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "后一半暂时还没有什么思路……",
+			say = "I'm not sure how to continue from here though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来有些伤感呢。",
+			say = "Hmm... It seems to convey a sense of sorrow and loss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "冬日的庭院，大体就是如此感觉吧。",
+			say = "That's usually the kind of mood you're going for in a wintry setting like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "枝头的红梅倒是生机盎然哦？",
+			say = "Look, do you notice something about the tips of these branches?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "欸，枝头……",
+			say = "The branches...? Oh, you're talking about the plum trees...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为过于沉浸于低处的景色，所以才一直没注意到的么……",
+			say = "Oh, I get it now. I was so fixated at looking down at the water that I didn't notice what was above me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "几日之后正式开园，想必这里一定会宾客满棚吧。",
+			say = "To me, the plum tree branches represent what this place will soon become – brimming with new life once our friends come to visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家坐在一起赏梅饮茶，不也是一种冬日庭院么？",
+			say = "Don't you think this wintry pavilion is just as suitable for enjoying the company of friends while appreciating the plum blossoms and sipping tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "……我有想法了！",
+			say = "Ah, you're right! And you've given me the perfect idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第二句，薄红不惧冬寂寥，亭畔枝头添新妆。",
+			say = "Continuing on... \"At the lonesome branches of winter's end, from rosy buds spring life anew.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502071,
-			say = "嗯，这样就好了~",
+			say = "Wow, that has a nice ring to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "咔嚓——拍照完毕。",
+			say = "Hehe, and that's another wonderful picture taken!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -790,7 +790,7 @@ return {
 			actor = 506010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然未经许可拍照不是什么值得鼓励的行为，不过既然是美丽的景色，这里就“先斩后奏”好了~",
+			say = "Though it's not very nice to do take pictures of someone without their permission, the scenery here is simply so splendid that I'll have to ask for forgiveness later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

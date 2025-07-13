@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哇……哇！Honey真是坏心眼，搞这种背后袭击……嘿嘿，不过我知道的，你喜欢，对吧！？",
+			say = "Aaah! You're so naughty, ambushing me from behind... Heheh, I know. YOU love it, don't you?",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello11",
 			typewriter = {
 				speed = 0.05,

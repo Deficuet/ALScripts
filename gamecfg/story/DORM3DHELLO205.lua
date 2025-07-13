@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欢迎，{dorm3d}，只要看到你来了，就会感觉内心……嗯……该怎么形容才好呢……很温暖……？",
+			say = "Welcome, {dorm3d}. Just you being here makes my heart... How do I put it? It feels so warm inside...",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello5",
 			typewriter = {
 				speed = 0.05,

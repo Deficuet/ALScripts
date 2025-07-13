@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>午睡的场所</size>",
+					"SP Laffey\n\n<size=45>A Nappy Place</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "Zzz…………",
+			say = "Zzz...",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "Zzzzz…Zzzzzzz…ZZZZZZZZ……",
+			say = "Zzz... Zzzzz.... Zzzzzzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "戳戳…",
+			say = "Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "指挥官…工作时间到了……戳戳……",
+			say = "Wakey wakey... It's time for work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "ーーー？！",
+			say = "\"Owch!\"",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在短暂的挣扎后，决定顺从脸部的压力坐起身来——",
+			say = "A pair of fingers pinched my cheek, urging me to wake up. I opened my eyes to see who did it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官…总不起来……戳戳…",
+			say = "Commander... You always sleep like a log... Poke poke...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "仿佛出于惯性，即便在起身之后面前的拉菲依然继续用食指戳了几下。",
+			say = "In front of me was Laffey, prodding me with her index finger to make sure I was awake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下起来了吗？",
+			say = "There... You up now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 			},
 			options = {
 				{
-					content = "起来了！",
+					content = "\"I'm up.\"",
 					flag = 1
 				},
 				{
-					content = "还想再睡一会……",
+					content = "\"5 more minutes...\"",
 					flag = 2
 				}
 			}
@@ -208,7 +208,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "这样…那拉菲，困了……",
+			say = "Good... Then I'm gonna take a nap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "快起来…到工作时间了……",
+			say = "C'mon, you've got work to do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "疼疼疼（脸又被狠狠戳了一下）",
+			say = "She pinched my cheek a second time, forcing me to get up anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "这下该起来了…那拉菲，困了……",
+			say = "There we go... Now it's Laffey's turn... to take a nap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "话音未落，拉菲就已经全身陷入了沙发之中。",
+			say = "She did so immediately, flopping onto the couch and getting ready to go to dreamland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要说拉菲为什么会在指挥室里……",
+			say = "Suddenly, I remembered why she was in my office to begin with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，知道哪里适合睡午觉吗……？",
+			say = "Commander, do you know a good nap spot...?",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，在找新的午睡地点……",
+			say = "I'm looking for a new cozy place... So if you know any...",
 			effects = {
 				{
 					active = true,
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "倒是知道港区有个由喜欢午睡的同伴们创建的社团ーー“午睡部”。",
+			say = "A niche club had sprung up at the port. The Napping Club. For shipgirls who like taking naps. Quite self-explanatory.",
 			effects = {
 				{
 					active = true,
@@ -383,29 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过平时的活动地点大多是学院的草坪、图书馆或是多媒体教室之类的地方……怎么突然找起了新地点？",
-			effects = {
-				{
-					active = true,
-					name = "memoryFog"
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "跟社团的活动地点，没什么关系……",
+			say = "\"Why are you looking for a new one? I thought you already napped in the school yard, the library, or the theater room?\"",
 			effects = {
 				{
 					active = true,
@@ -427,7 +405,29 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，想知道指挥官会选在哪里。",
+			say = "Yeah, but I want a spot all to myself...",
+			effects = {
+				{
+					active = true,
+					name = "memoryFog"
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Which is why I'm wondering if you had any ideas...",
 			effects = {
 				{
 					active = true,
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这个嘛，一时间也没什么太好的想法……",
+			say = "\"Hmm... Let me think...\"",
 			effects = {
 				{
 					active = true,
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "于是，找不到午睡地点的拉菲就一直待在了指挥室中。",
+			say = "I thought long and hard, but couldn't come up with anything. And that's how we wound up in this scenario.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzzz……………",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "倒不是说不喜欢拉菲在这里睡午觉，只不过就这么放她在沙发里也不是个办法…",
+			say = "Although there was nothing wrong with Laffey coming to my office for a nap, I couldn't just let her lie here forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（咚咚）",
+			say = "Out of the blue, there was a knock on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzzz……………嗯，拉菲酱在这里……",
+			say = "Zzz... So this is where she went off to...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……我们进来咯——",
+			say = "Coming in, don't mind me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊……（打呵欠）",
+			say = "Mrmhh... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "几下不明显的敲门声后，午睡部（？）的成员突然一个接一个的连续不断闯入（？）了指挥室。",
+			say = "A small horde of sleepy invaders marched into my office. The Napping Club had come for a surprise visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大概是{namecode:24}幸运地猜到了拉菲的位置，然后顺势把这里当成午觉部的新活动地点了吧……",
+			say = "Most likely, Nowaki had figured out this is where Laffey was through blind luck, and jumped to the conclusion that this is their new napping spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……真没办法，今天就稍微忍耐一下吧。正当这么想着的时候——",
+			say = "It was too late to turn them away, so I decided to just put up with a room full of nappers just for today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（扯扯，扯扯）",
+			say = "Ugh... It's time to wake up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？…拉菲…你在做什么？",
+			say = "Hmh...? What is it, Laffey...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尼古拉斯是雕像，所以拉菲扯我也…哇…？！",
+			say = "Geesh... I'm trying to get some sleep here... *yaaawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哎？为什么拉菲正拉着我们向指挥室门外移动呀…？",
+			say = "Hrm? What the... How'd we end up in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里，是拉菲专用……大家都来的话，指挥官会困扰……",
+			say = "Sorry, guys... This office is only big enough for me... The commander can't work with you all around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……万分，抱歉……",
+			say = "...I see... I do apologize...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（扯扯，扯扯）",
+			say = "Ugh... It's time to wake up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知何时睡醒的拉菲以一股柔软但不容置疑的气势将午觉部的众人全部赶出了（？）指挥室ーー",
+			say = "The noise must've woken Laffey. She began nudging all the nappers, driving them out of my office one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下，可以放心睡觉了……哈啊ー",
+			say = "Finally... Now I can get some peace and quiet... *yaaawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzzzzzz……………",
+			say = "Night night... Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "又睡过去了…！不过，如果只有拉菲的话，把这里当成她的专属午睡地点也不是不可以？",
+			say = "Laffey seemed set on making this her official new napping spot. I had little choice but to accept it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "一边在心里盘算着，一边轻轻将外套盖在熟睡的拉菲身上。就算午睡，也要小心着凉才是啊——",
+			say = "That being the case, the least I could do was cover her with something so she doesn't catch a cold. I took my coat and carefully tucked her in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

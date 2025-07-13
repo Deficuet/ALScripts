@@ -12,7 +12,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "交战海域·净化亲的临时指挥所",
+			say = "Inside Purity's temporary command post...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,9 +53,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "哼哼哼，如何？有了这身装备，感觉战斗力至少提高了百分之三百吧！",
+			say = "Heh heh! So whaddya think? This baby oughta raise your combat capabilities by at least 300%!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是汝口中提到的「舰装」……？确实很厉害呢。",
+			say = "So this is a \"rigging,\" as you called it... Yes, I do feel stronger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "唔嗯……要攻击的话，只要把炮口对准前面开火就可以了么？",
+			say = "Hrm... How does one attack with it? Do I simply aim straight ahead of me and fire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,12 +104,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错~但是！不要把炮口对准我啊，很危险的！喂！",
+			say = "Yeah, that's the– Whoa, you trying to kill me?! Point that thing AWAY from me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,9 +135,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "要是想试验一下的话，外面测试者的量产型杂鱼正一片一片地赶来呢，要不要去练练手？",
+			say = "If you want some target practice, shoot at Tester's mass-produced mooks outside instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "在实战中学习与提升么……不错的计划。不过妾身在努力奋战之时，汝要去做什么？",
+			say = "Refine my skills through live combat, you say? A wise suggestion. And you? What will you be doing in the meanwhile?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,12 +165,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，我刚刚定位到了镜面海域控制核心的位置，测试者肯定就在那里。",
+			say = "Me? I just pinpointed the location of the Mirror Sea's control center. That's where I'm gonna find Tester.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,9 +186,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "在你带着我的舰队去打正面的时候，我可以悄悄溜进去将其一击必杀，这样战斗就结束了。",
+			say = "Take my fleet and attack head-on. While she's distracted, I'll sneak in behind the lines and end her sorry existence with one blow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,12 +202,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不然万一拖成持久战的话，我可拖不过它。",
+			say = "...But if we fail, it's gonna come down to a war of attrition, and we ain't winning one of those.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一对一战斗的话，汝就能取胜了么？",
+			say = "Oho. And you're sure that you'll be able to defeat her in a one-on-one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,12 +238,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是当然~一对一战的话，我净化亲可是很厉害的哦！",
+			say = "Hell yeah I will! One-on-one fights are my specialty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "汝等塞壬的组织也有点像菲尔弗萨呢，个体间有着明确的分工和各自独特的能力，然后只要打倒首领的话整支军队都会瓦解……",
+			say = "I see. You Sirens do remind me of the Philuscha somewhat, your kind having both clearly defined roles and unique abilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "原来如此，那就放手去做吧，这里就交给妾身来应付。",
+			say = "Knowing that, I leave Tester to your capable hands. In the meantime, I shall lead your fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "汝提供的舰装与妾身的力量相结合后能爆发出怎么样的战斗力，妾身已经忍不住想试一试了！",
+			say = "Heheh... It will be interesting to see what destruction I can cause with this rigging in tandem with my natural powers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "遗迹群岛·起始之地 此刻",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgm = "ryza-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -342,7 +342,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "轰—————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "刚刚被消灭的就是最后一个敌人了，两位都没受伤吧？",
+			say = "That ought to be the last one! Are you two okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没问题，多谢关心。",
+			say = "We're fine... Thank you.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -430,7 +430,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，没问题。虽然我也有过与巨大敌人战斗的经历，但是像这样自由驰骋在海面之上……{namecode:175}小姐无疑是一名十分顶尖的战士啊。",
+			say = "No problems here. Suruga, you're one tough fighter. I've felled my fair share of behemoths, but it's as if the sea is your playground...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:175}阁下，我们来支援了！欸……已经全部结束了么？！",
+			say = "Suruga, I've come to your aid—h-hey, is it just me, or is the fight already over?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "不愧是{namecode:175}小姐，真是出色又可靠的护卫呢。旁边的两位就是我们的新朋友吧？",
+			say = "That is our Suruga for you, ever at home on the battlefield. I presume your acquaintances here are more of Ryza's friends?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "莉拉小姐和赛莉小姐！没想到你们也被卷进来了！",
+			say = "Lila, Serri! You ended up here, too?!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -511,7 +511,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好久不见了，莉拉小姐，赛莉小姐。",
+			say = "It has been so long, Miss Lila and Miss Serri.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -529,7 +529,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贵安，莉拉小姐，赛莉小姐。",
+			say = "Have you two been well?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -547,7 +547,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎、科洛蒂娅、帕特莉夏，我们在奇怪的地方相遇了呢。",
+			say = "Ryza, Claudia, even Patricia... What a place to run into you girls.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -565,7 +565,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好久不见。莱莎，这里是某个异世界吧。",
+			say = "Hey, Ryza... It's been a while. Are we in another world, or something?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -583,7 +583,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像是这样的……赛莉小姐已经理解现状了么？！",
+			say = "Seems like it. So you've already figured things out, Serri?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -611,7 +611,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还没有……我只是从空气中感受到了完全不同的气息而已。",
+			say = "No... I just sensed that the flow of the air here is nothing like what I'm used to.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -629,7 +629,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来这个判断不错呢。",
+			say = "Guess that means I'm right.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -647,7 +647,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我也是刚听来的，不过现状其实大概是————",
+			say = "We just learned about it a little while ago, but basically...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -665,7 +665,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "碧蓝航线，舰船，镜面海域，塞壬……都是些没有听说过的词汇啊。",
+			say = "Azur Lane, shipgirls, the Mirror Sea, Sirens... I've never heard of any of this.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -700,7 +700,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这样一来，我也就大概理解我们现在面临的处境了。",
+			say = "But thanks. I'm starting to understand the mess we've gotten into now.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -718,7 +718,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如果这里是异世界的话，可畏，你们要小心，从刚才的敌人中我感受到了菲尔弗萨的气息。",
+			say = "If this really is another land... then Formidable, you'd better be careful. Those enemies had the aura of Philuscha on them...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -736,7 +736,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许它们也用和我们相似的方法来到你们的世界了。",
+			say = "The Philuscha may have been brought here alongside us.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "菲尔弗萨……是指在原本的世界里与你们一直战斗的敌人么？",
+			say = "These so-called \"Philuscha,\" I presume, are lifelong enemies you've fought in your own world?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,7 +772,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直战斗这个表述不太精确，不过简略来说的话，意思也不错。",
+			say = "I don't know about lifelong... but sure, kind of.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -790,7 +790,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些菲尔弗萨是生物，而不是机器对吧？",
+			say = "Then the Philuscha you know are not machines, but living beings?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，菲尔弗萨是一种生物。而且应该相当讨厌水才对……这么一想刚才的敌人实在是太异常了。",
+			say = "Yeah. They hate water by nature, and... Huh. Come to think of it, those enemies were off.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "关于这一点的话，在刚刚各位聊天的时候我去检查了一下敌人的残骸。",
+			say = "Interesting that you should mention that. While everyone was talking, I took the liberty of searching the enemies' remains.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些应该是塞壬在获取了你们世界的菲尔弗萨的情报之后，以此为基础生产出来的特殊量产型。",
+			say = "Based on my investigation, I believe that those were mass-produced models made from Sirens' knowledge of the Philuscha you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "是机器，而不是生物。菲尔弗萨这一生物本身应该并没有被塞壬一同带来。",
+			say = "I base this off of the fact that our enemies' remains were all mechanical. It seems that the Philuscha of your world were not truly brought here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话……很好。",
+			say = "Guess not... Well, at least that's some good news.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -897,7 +897,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "抱歉打断一下诸位的聊天，请听我说~！现在天色渐暗，周围又是一片废墟，实在不是久留的好选择。",
+			say = "Welp, we've finally got a moment of peace. Say, everyone! It's all dark out, and I don't wanna stay in such a messy place...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,7 +924,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再说大家也累了，要不要来我的量产型上吃些好吃的休息一下呢~",
+			say = "Most of all, you've all gotta be tired. How about we eat and rest at my mass-produced ship?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "休息好之后再进行情报交流也会更有效率哦！",
+			say = "Trading scoops is a lot more efficient when you've got a full belly and a rested body!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}十分赞成阿尔弗雷多阁下的提议，其实{namecode:18}的肚子已经要饿扁了……",
+			say = "I concur with Alfredo! Honestly, I'm famished...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,7 +977,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "享用异世界的美食么？！听起来真不错欸……那就出发吧~我也有些饿了，而且也还有好多问题要问呢！",
+			say = "Oh boy, otherworldly delicious foods?! I'm so in! C'mon, let's go! I'm hungry for both food and knowledge!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼，我已经把笔记本准备好了，让我们在宴会中破解这个巨大的谜团吧！",
+			say = "Hehehe! I've been taking notes this whole time. Let's solve some mysteries over a big meal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "既然如此，那阿尔弗雷多就请带路吧。",
+			say = "There you have it. Please lead the way, Alfredo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿嘿~诸位，欢迎光临撒丁帝国奥利亚尼级驱逐舰阿尔弗雷多·奥里亚尼的量产型！",
+			say = "Roger that! Come, everyone: to the mass-produced model of Sardegna's own Oriani-class destroyer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然身处战场环境中，但是我会尽力为大家带来一场高品质的撒丁帝国晚宴的，诸位请随我来——",
+			say = "Our Sardegnian cuisine is so good, it'll make you forget you're smack-dab in the middle of a battlefield! Now get those butts into gear and follow my lead!",
 			painting = {
 				alpha = 0.3,
 				time = 1

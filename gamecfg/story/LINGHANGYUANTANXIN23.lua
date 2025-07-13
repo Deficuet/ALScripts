@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "story-richang-flexible",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "TB看上去似乎非常沮丧。",
+			say = "TB looks very sad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "怎么了，TB？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "钱包……弄丢了……",
+			say = "I lost my wallet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "TB说在放学回来的时候还掏出来买过一次零食。",
+			say = "She still had it when she was buying snacks on the way home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在那之后，回家后想要拿出钱包时发现它不见了。",
+			say = "But when she got home and searched her pockets for it, it was gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "那里面是她整整一个月的零花钱，现在全都没有了。",
+			say = "There was a month's worth of allowance in that wallet, and now it's all gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "损失惨重呢……",
+			say = "Oof. That's tragic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "因为看起来实在太可怜的缘故，最后还是重新给了TB一个月零用钱。",
+			say = "I feel so bad for her that I just have to replace the money she lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

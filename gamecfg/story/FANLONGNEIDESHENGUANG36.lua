@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一间明亮的教室。",
+			say = "The blinding light fades, and I find myself inside a well-lit classroom.",
 			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这是……M女士又有事要说了？）",
+			say = "(This place again... Did Madam M summon me again?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……海伦娜在外面四处找她，她居然还能用这种方式拉我来的这里。）",
+			say = "(Of course this happens right when Helena is looking for me all over out there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "环顾四周，室外的天气一如既往，和煦的微风，晴好的阳光。",
+			say = "I look out the window. The weather is as calm as can be, with a gentle breeze blowing and sunshine pouring in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,20 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "不过室内就——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……M女士居然不在教室里？",
+			say = "Inside the classroom, however...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,18 +87,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……那她叫我来这里做什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			say = "我在教室内随意走了走，动了动桌椅，敲了敲讲台，可是M女士始终没有出现。",
+			say = "...Where is Madam M?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "情况似乎有些怪异了……",
+			say = "And why the heck did she bring me here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +111,20 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "终于，我下定决心打算推门离开教室，探索一下教室外面的空间时——",
+			say = "I take a walk around the classroom. I move some chairs and desks and knock on the podium, but still, Madam M is nowhere to be seen.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_147",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +135,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "Gathering my courage, I grip the door to slide it aside and take a look outside, but right then...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_147",
+			hidePaintObj = true,
+			say = "KNOCK KNOCK!",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "你好，请问……",
+			say = "Um, hello...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 900479,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……今天是在这里上课么？",
+			say = "I was told my classes will be held here today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "眼前推门而入的身影迅速与脑海中的某个印象重叠了起来。",
+			say = "The person who knocked is someone I've seen before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,8 +229,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
-			actorName = "好人理查德的影像",
-			say = "大家好，我是好人理查德，我所主演的电影《魔方航母遇险记》正在上映中",
+			actorName = "Bon Homme Richard Movie Ad",
+			say = "Hey, everyone! It's me, Bon Homme Richard. The Final Countdown is in theaters now!",
 			bgm = "battle-starsea-elec",
 			flashout = {
 				black = false,
@@ -262,11 +262,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "好人理查德的影像",
+			actorName = "Bon Homme Richard Movie Ad",
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果大家能去电影院欣赏一下的话，我会很开心！",
+			say = "I had a lot of fun in the starring role. Be sure to check it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,11 +274,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "Deep-Voiced Narrator",
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "《魔方航母遇险记》——今年最受期待的海战巨制正在上映中！",
+			say = "Welcome to the paradox of time, where past and present become one and history is actually changed! The Final Countdown... now in a theater near you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +286,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大厦的广告屏",
+			actorName = "Deep-Voiced Narrator",
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在观影更有机会抽取PH港豪华三日免费旅游券————",
+			say = "Buy a ticket today and you have the chance to win a three-day guided tour of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "老姐，外面的那个该不会是……好人理查德？！",
+			say = "That voice, that tornado... Is that Bon Homme Richard?",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "恐怕是…………可怎么会是她呢………………",
+			say = "There's no mistaking it! But how did she get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？好人理查德有什么问题么？",
+			say = "Bon Homme Richard? Who is she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "在余烬还在配合安蒂克丝进行实验的时候，零曾经跟我们说过。",
+			say = "She's a shipgirl from our branch, and the only person in existence that the head of Antiochus – Zero – cannot write into her mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "不论如何构建，安蒂克丝都无法准确还原出好人理查德的信息。",
+			say = "Even with the endless information from the past Zero has access to, she cannot reconstruct Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "在各个实验场的历史推进中好人理查德也从来没有自然生成过，就好像其存在本身被彻底抹除了一样。",
+			say = "Moreover, Richard has never been seen in any other branch as far as we know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "因此，在理查德事件之后……我们还是第一次见到活着的她……",
+			say = "This is the first time we've laid eyes on her since her namesake incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "你们是从哪里找到的……？",
+			say = "Is she after you? Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是——",
+			say = "You...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,15 +457,15 @@ return {
 			},
 			options = {
 				{
-					content = "谁？！",
+					content = "Who are you?!",
 					flag = 1
 				},
 				{
-					content = "好人理查德？！",
+					content = "Bon Homme Richard?!",
 					flag = 2
 				},
 				{
-					content = "理查德小姐？！",
+					content = "Miss Richard?!",
 					flag = 3
 				}
 			},
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "眼见的景色在迅速破碎着。",
+			say = "All of a sudden, everything rapidly breaks down before my eyes.",
 			effects = {
 				{
 					active = false,
@@ -524,7 +524,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在彻底陷入黑暗前，我似乎从那个身影的眼中看到了一抹茫然。",
+			say = "Right before I completely black out, it looks as though there's a momentary hint of confusion in Bon Homme Richard's eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "夜色寂静，熟悉的床面，熟悉的天花板。",
+			say = "The night is silent. I'm in bed. The ceiling greets me.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "刚刚……",
+			say = "What... What was that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只是一场梦………………么？",
+			say = "Was it just... a dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "距离投票开始还有时间，再去其他区域逛逛吧！（提示：点击带有！的区域）",
+				text = "Tap on the building with an ! over it to have a look!",
 				mode = 1,
 				posY = 250,
 				dir = -1,

@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "展现了路过的猫猫看了都要感叹的精湛车技，获得了【喵箱SR型*1】"
+			say = "You flaunted some driving skills that would make even a cat passing by look on in awe. You received one Elite Cat Box!"
 		}
 	}
 }

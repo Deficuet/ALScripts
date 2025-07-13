@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>七 约会！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 7 - Date Time!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "等你很久啦，指挥官！",
+			say = "I've been waiting, Commander!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们出发吧！",
+			say = "Let's get going right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……虽然这么说，我们这是要去哪里呀？",
+			say = "... Actually, where do we even go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			},
 			options = {
 				{
-					content = "交给我吧",
+					content = "Pick out a destination for her",
 					flag = 1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官呢！嘿嘿，那就拜托你啦！",
+			say = "Okey-dokey! I'm counting on you to pick out a good place, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多谢惠顾喵~",
+			say = "Thank you for your patronyage~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，谢谢指挥官请客啦！",
+			say = "Wow! Thanks, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，指挥官快看，是海鸥！",
+			say = "Commander, look! A seagull!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -206,7 +206,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂——！海鸥们——！看这边——！",
+			say = "Squawk! Squawk! Come here, seagull!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "照相功能……啊，找到了！",
+			say = "Where'd I put my camera... Ah, there it is!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -256,7 +256,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，看这里！三，二，一，茄子！",
+			say = "Okay, Commander! Say cheese!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼——",
+			say = "Phew...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -306,7 +306,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对！这完完全全就是带着小孩子出去玩嘛！！",
+			say = "Hey! You're still totally treating me like a baby!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不会是被{namecode:95}小姐骗了吧！",
+			say = "... Was Shoukaku lying to me all along...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			},
 			options = {
 				{
-					content = "「今天开心么？」",
+					content = "\"You enjoyed yourself, though, didn't you?\"",
 					flag = 1
 				}
 			}
@@ -356,7 +356,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然很开心啦！能和指挥官一起出来玩，怎么会不开心！",
+			say = "I did! I had a whale of a time! But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是……我好像还是被当成小孩子了呢……",
+			say = "No matter what I do, you'll probably still treat me like a baby...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，随便啦！说到底我纠结这东西干嘛！",
+			say = "Ah, screw it! I'm just not gonna think about it anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反正，指挥官到头来还不是要依赖我的！哼哼！",
+			say = "Even if you think I'm just a baby, you still need me in the end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，今天就到这里，之后也要和我继续约会哦~",
+			say = "Commander, today was a lot of fun, so let's go on another one of these \"dates\" soon! Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "没有任何事物比她脸上那天真的，璀璨的笑容更令人觉得可爱了",
+			say = "Cavalla's smile was just as dazzling as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

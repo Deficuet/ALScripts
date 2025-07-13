@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>七　激荡的荒海之神</size>",
+					"Lord of Raging Seas\n\n<size=45>7 Divinity of Raging Seas</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "当我抵达之时，酒会已经进入了白热化阶段。",
+			say = "When I arrive, the party is already booming with activity.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "越过正在开怀畅饮的同伴们，我在露天的二楼座位找到了{namecode:480:埃吉尔}。",
+			say = "I pass by drinking friends and find Ägir on the second-floor terrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,182 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "她将杯中麦芽色的液体一饮而尽，好整以暇地看着我。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 499050,
-			say = "你来得太晚了，指挥官。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "抱歉……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 499050,
-			say = "让荒海之神在这里独自等待的代价，你支付的起么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}说着靠在了我的身侧，将下巴靠在了我的肩膀上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			say = "炙热的吹息就在耳边，荒海的神祇轻轻环住了我的腰。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			say = "楼下的喧闹遮掩了这方的暧昧，我握住了口袋里的小礼盒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "{namecode:480:埃吉尔}，我有东西想送给你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "哦？是你打算支付的代价么？好，那就让我看看吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			say = "从口袋中拿出礼盒，轻轻按动侧面的凸起，顶盖自动弹起，露出了内部的琥珀项链。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这不是让你等我的赔礼，而是我单纯想要送给你的礼物。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我思考了很久应该送你什么……最后觉得，它很适合你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 499050,
-			say = "你……指挥官，那么，之前你和{namecode:471:彼得}单独出去聊，是因为这个？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嗯？原来你意识到了？",
+			say = "She drinks the amber liquid in her cup all at once and looks over at me with pure composure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +72,182 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "……当然！",
+			say = "Commander, it's not nice to make a girl wait.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Sorry.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 499050,
+			say = "A god, waiting for one single human... Do you think you can afford to make up for this affront?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			say = "While she teases me, she gets closer and rests her chin on my shoulder.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			say = "I feel her hot breath on my ear as she wraps an arm around my waist.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			say = "The people downstairs know nothing about what's going on. Before they can find out, I reach into my pocket and hold the package inside.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Actually... I have a gift I'd like to give you...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499050,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Oh? So you are ready to pay the price. Go on. Show me what you've got.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			say = "I take out the box, open the lid, and show her the amber necklace within.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "It's not to make up for making you wait, though. It's just a gift.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I had trouble finding out what to give you, but I thought this would suit you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 499050,
+			say = "Wait a second... This isn't what you were whispering about with Peter, is it?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Huh? You figured me out that easily?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 499050,
+			say = "Of course I did!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "然后，你会最近莫名其妙的发呆、看着我傻笑，都是因为这个？",
+			say = "That's not the only reason! Lately, you've constantly had your mind elsewhere. You keep looking at me and smiling, too. This is why, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "发呆我承认，但是傻笑……",
+			say = "I do know I've been distracted, but did I really smile that much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "这不是重点！重点是……你居然是早有预谋的？！",
+			say = "That's not what matters! You... You've been after this from the very start!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“早有预谋”……这个算是贬义词吧？",
+			say = "Wait... Oh. Do you mean back during our date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,19 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}瞪了我一眼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_161",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过，那天在海边，我对你说的话就是认真的。",
+			say = "She doesn't answer. Instead, she just glares at me angrily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +339,19 @@ return {
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我确实对{namecode:480:埃吉尔}着迷了。",
+			say = "No, I didn't accept just for the sake of this. I only told the truth back on the beach.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_161",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I just like you a lot, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "你……！",
+			say = "Y-you little...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "满脸通红的{namecode:480:埃吉尔}慌不择路地又拿起了一旁的柠檬水，将其一饮而尽。",
+			say = "Ägir blushes madly, grabs the closest lemon water she can find, and gulps it all down at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "在过了好一阵后，才稳住了仪态。",
+			say = "It takes a while after that for her to finally calm down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "既然你都这样说了……就快点帮我亲手戴上吧。",
+			say = "If you mean that... then hurry up and put it on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "高傲的荒海之神低下了她的头颅。",
+			say = "The proud lord of the sea lowers her head for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "你不会要我自己戴上吧？快点，别让我等太久。",
+			say = "Surely you don't mean to make me do it myself. Don't make me wait any longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "我把那条琥珀项链戴在了{namecode:480:埃吉尔}纤细的脖颈上。",
+			say = "I take the necklace and gently put it around her neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "暗沉的金色点缀在红与黑上，与她的金瞳遥相呼应，为{namecode:480:埃吉尔}增添了一抹亮色。",
+			say = "The stylish gold matches her reds and blacks, drawing out her gold eyes even more and adding a touch of charm to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你知道吗……",
+			say = "Hey... Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "她将环在我腰间的双臂收紧，将我和她距离再一次拉近。",
+			say = "She wraps her arm back around my waist, holds me tight, and pulls me close to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_161",
 			hidePaintObj = true,
-			say = "距离近到就连彼此的呼吸都可以清晰感知。",
+			say = "This time, we're pushed up so close together that we can feel each other's breathing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "为荒海之神套上枷锁是要额外付出代价的，指挥官。",
+			say = "You're going to pay a high price for shackling me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在黎明到来之前，我是不会放过你的哦……呵呵呵呵。",
+			say = "In fact... Don't even dream of getting away before sunrise... Heehee♥",
 			painting = {
 				alpha = 0.3,
 				time = 1

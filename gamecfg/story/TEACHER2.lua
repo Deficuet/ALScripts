@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 {namecode:408}老师\n\n<size=45>二 尼特最后的尊严</size>",
+					"Class Z II\n\n<size=45>Social Reject And Proud Of It</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…这里要这样！然后是这样！",
+			say = "First you do the thingy here... Then the next thingy!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！危险！",
+			say = "Crap! I'm gonna die!",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊～又gameover了，果然最高难度还是需要多加练习啊～",
+			say = "Oh nooo! Game over... I guess I gotta practice more if I want to beat this on the hardest difficulty.",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这……这是……在这样的环境下竟然还能生存……",
+			say = "Oh dear... How on earth can you live in a room as cluttered as this...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "努努努——嗯？啊，是铁血的……嗯……我想想，{namecode:408}？",
+			say = "Hello? Hang on, I remember you... You're Z23, from Iron blood, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是！长岛！身为港区的一员，参加学习即是权力也是义务！",
+			say = "Correct! Now listen, Long Island: as a member of the fleet, it is both a privilege and your duty to actually study!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧！告别糜烂的尼特生活，和我踏上共同进步的道路吧！",
+			say = "Come with me! Leave your shut-in life behind and we shall study together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～～好麻烦——",
+			say = "S-stop being a shut-in?! Fat chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平常的出击都已经够累人的了～难得的休假竟然还要学习～我才不要咧！",
+			say = "Setting sail already takes so much effort, and now you want me to use my precious time off on studies? Heck no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕……学、学习也是一种放松的方式……",
+			say = "Um... Did I forget to tell you that studying can be relaxing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经不会像之前那样被指挥官牵着走了！不管怎么说——",
+			say = "You can't trick me as the commander did! Try to convince me all you want, but I'm not going anywhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是身为尼特最后的尊严！",
+			say = "My pride as a social reject depends on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

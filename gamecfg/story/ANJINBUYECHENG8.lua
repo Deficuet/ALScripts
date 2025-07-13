@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "电梯门打开后，映入眼中的，是远超想象的科幻数据中心。",
+			say = "When the elevator door opens, a data center like one in a Sci-Fi movie comes into view.",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "这才是巨型企业在都会实施统治的底气——依靠纳米回线与超算系统，城市在它的眼中几乎没有秘密。",
+			say = "This is the source of the megacorporation's ability to control the city. With the combined power of the nanocircuit and supercomputing technology, almost no secrets can remain secret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "但也只是几乎而已。",
+			say = "Almost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "也就在这时，蓝色的全息投影突然出现在了面前。",
+			say = "I enter the data center, and a pale blue hologram appears before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "Megacorporation AI",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "领航员-TB",
-			say = "欢迎来到数据中心，「指挥官」。",
+			actorName = "TB",
+			say = "Welcome to the data center, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "Megacorporation AI",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "领航员-TB",
-			say = "您已取得管理员权限。",
+			actorName = "TB",
+			say = "I have given you administrator privileges.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
+			factiontag = "Megacorporation AI",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "领航员-TB",
-			say = "等待您的命令。",
+			actorName = "TB",
+			say = "Awaiting orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			nameColor = "#A9F548FF",
-			say = "（看来，到了需要做出决定的时刻了。）",
+			say = "(It looks like this last decision is up to me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,26 +105,26 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摧毁系统",
+					content = "(Destroy the system.)",
 					flag = 1
 				},
 				{
-					content = "兑现与波尔塔瓦的承诺",
+					content = "(Fulfill your promise to Poltava.)",
 					flag = 2
 				},
 				{
-					content = "成为神明",
+					content = "(Become the god of a new world.)",
 					flag = 3
 				},
 				{
-					content = "做正确的事！",
+					content = "(Do the right thing!)",
 					flag = 4
 				}
 			}
@@ -133,12 +133,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
-			actorName = "领航员-TB",
+			factiontag = "Megacorporation AI",
+			actorName = "TB",
 			optionFlag = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
-			say = "如您所愿。",
+			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,23 +160,23 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「噪音在整座城市响了起来。」</size>",
+					"<size=34> Alarms echo throughout the city.</size>",
 					1.5
 				},
 				{
-					"<size=34>「都会的每一面巨大的显示屏都熄灭了。」</size>",
+					"<size=34>Every monitor in the city goes dark.</size>",
 					3
 				},
 				{
-					"<size=34>「一切都结束了。」</size>",
+					"<size=34>All comes to an end.</size>",
 					4.5
 				},
 				{
-					"<size=34>「不夜城消亡了。」</size>",
+					"<size=34>The Sleepless City has disappeared from the face of the planet.</size>",
 					6
 				},
 				{
-					"<size=34>「唯余瓦砾。」</size>",
+					"<size=34>All that remains is rubble and ruin.</size>",
 					7.5
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「暗金不夜城」·END",
+					"The End",
 					2
 				}
 			}
@@ -197,12 +197,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
-			actorName = "领航员-TB",
+			factiontag = "Megacorporation AI",
+			actorName = "TB",
 			optionFlag = 2,
 			actor = 900284,
 			nameColor = "#A9F548FF",
-			say = "如您所愿。",
+			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,27 +224,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「低沉的声音，在都会的每一座广播塔、每一台收音机、每一个喇叭上回响起来。」</size>",
+					"<size=34>A voice plays from every broadcast tower, radio, and loudspeaker in the city.</size>",
 					1.5
 				},
 				{
-					"<size=34>「都会的每一面巨大的显示屏，都在展示着新主人的绝对意志。」</size>",
+					"<size=34>Every monitor reveals their new master.</size>",
 					3
 				},
 				{
-					"<size=34>「一切都结束了。」</size>",
+					"<size=34>All comes to an end.</size>",
 					4.5
 				},
 				{
-					"<size=34>「人们依然对不夜城趋之若鹜。」</size>",
+					"<size=34>Countless folk continue to throng into the Sleepless City as ever.</size>",
 					6
 				},
 				{
-					"<size=34>「它高雅，它下流，它挥金如土，它惜财如命。」</size>",
+					"<size=34>To that city equal parts elegant and vulgar, a neon paradise that both consumes and treasures money like water itself.</size>",
 					7.5
 				},
 				{
-					"<size=34>「也许，都会习以为常的秩序，并非一种坏事……」</size>",
+					"<size=34>Perhaps, the order of the city is not a bad thing after all...</size>",
 					9
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「暗金不夜城」·END",
+					"The End",
 					2
 				}
 			}
@@ -265,12 +265,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
-			actorName = "领航员-TB",
+			factiontag = "Megacorporation AI",
+			actorName = "TB",
 			optionFlag = 3,
 			actor = 900284,
 			nameColor = "#A9F548FF",
-			say = "如您所愿。",
+			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,31 +292,31 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「低沉的声音，在都会的每一座广播塔、每一台收音机、每一个喇叭上回响起来。」</size>",
+					"<size=34>A voice plays from every broadcast tower, radio, and loudspeaker in the city.</size>",
 					1.5
 				},
 				{
-					"<size=34>「都会的每一面巨大的显示屏，都在展示着新主人的绝对意志。」</size>",
+					"<size=34>Every monitor reveals their new master.</size>",
 					3
 				},
 				{
-					"<size=34>「一切都结束了。」</size>",
+					"<size=34>All comes to an end.</size>",
 					4.5
 				},
 				{
-					"<size=34>「都会的一切，都属于神明。」</size>",
+					"<size=34>All in this city belongs to its god.</size>",
 					6
 				},
 				{
-					"<size=34>「神明自己，就能决定都会的秩序。」</size>",
+					"<size=34>The city's god can change its rules on a whim.</size>",
 					7.5
 				},
 				{
-					"<size=34>「但神明都是孤独的。」</size>",
+					"<size=34>God is lonely.</size>",
 					9
 				},
 				{
-					"<size=34>「还有许多的都会，没有听说过神明的称谓……」</size>",
+					"<size=34>The rumblings of Your name have yet to reach far and wide.</size>",
 					10.5
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「暗金不夜城」·END",
+					"The End",
 					2
 				}
 			}
@@ -337,12 +337,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
-			actorName = "领航员-TB",
+			factiontag = "Megacorporation AI",
+			actorName = "TB",
 			optionFlag = 4,
 			actor = 900284,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,12 +352,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			factiontag = "都会自动化系统",
-			actorName = "领航员-TB",
+			factiontag = "Megacorporation AI",
+			actorName = "TB",
 			optionFlag = 4,
 			actor = 900284,
 			nameColor = "#A9F548FF",
-			say = "初始化隐藏模式。",
+			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,39 +379,39 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>「低沉的声音，在都会的每一座广播塔、每一台收音机、每一个喇叭上回响起来。」</size>",
+					"<size=34>A voice plays from every broadcast tower, radio, and loudspeaker in the city.</size>",
 					1.5
 				},
 				{
-					"<size=34>「都会的每一面巨大的显示屏，展示着都会的每一个成员。」</size>",
+					"<size=34>Every monitor reveals the souls that wander this city.</size>",
 					3
 				},
 				{
-					"<size=34>「自动化系统做出了回应。」</size>",
+					"<size=34>An automated system asks the souls a question.</size>",
 					4.5
 				},
 				{
-					"<size=34>「这并非一道命令，而是一个艰难的抉择。」</size>",
+					"<size=34>It isn't an order. For the first time, they are presented with a choice.</size>",
 					6
 				},
 				{
-					"<size=34>「如果要求都会中的每一个人都成为都会的主人翁，又会是什么样子呢？」</size>",
+					"<size=34>How would the city change if all of the people inside were the lords that governed the city?</size>",
 					7.5
 				},
 				{
-					"<size=34>「没人能想象这样的未来。」</size>",
+					"<size=34>None could imagine what lay ahead.</size>",
 					9
 				},
 				{
-					"<size=34>「不夜城的居民是第一批见到如今之世界的人。」</size>",
+					"<size=34>The people of the Sleepless City witness a new world for the first time.</size>",
 					10.5
 				},
 				{
-					"<size=34>「人们的生活并不完美，选择并不理想，也时常因此遭受苦痛。」</size>",
+					"<size=34>Their lives still aren't perfect. Each individual situation may not be ideal. Pain is a very real part of the process.</size>",
 					12
 				},
 				{
-					"<size=34>「但这是属于人们自己故事。如此便足够了。」</size>",
+					"<size=34>However, the story has become theirs – a story of the people.</size>",
 					13.5
 				}
 			}
@@ -423,7 +423,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「暗金不夜城」·FIN。",
+					"The End",
 					2
 				}
 			}
@@ -436,7 +436,7 @@ return {
 			layout = {
 				{
 					1,
-					"演员表 CAST"
+					"Cast"
 				},
 				{
 					2,
@@ -446,82 +446,82 @@ return {
 				},
 				{
 					1,
-					"主演"
+					"Starring"
 				},
 				{
 					3,
 					{
-						"都会骑士",
+						"City Knight",
 						"{playername}",
-						"骑士幻想",
-						"水星纪念·META",
-						"治安者突击队长",
-						"喀琅施塔得",
-						"治安者突击队员",
-						"火力",
-						"管理所巡逻队员",
-						"阿贝克隆比",
-						"银翼特工A",
-						"阿尔汉格尔斯克",
-						"银翼特工B",
-						"{namecode:529:苏维埃同盟}",
-						"怪盗「Mystic」",
-						"艾伦·萨姆纳",
-						"都会警探",
-						"君主",
-						"艺术家",
-						"凶猛",
-						"治安局局长",
-						"塔林",
-						"治安者巡警",
-						"基洛夫",
-						"银翼黑客",
-						"灵敏",
-						"私家侦探",
-						"伏尔加",
-						"联络人",
-						"基辅",
-						"女王",
-						"波尔塔瓦",
-						"银翼领袖",
-						"阿芙乐尔",
-						"都会自动化系统",
-						"领航员-TB",
-						"“Great”总裁",
-						"英勇"
+						"Illusion",
+						"Pamiat' Merkuria META",
+						"Security Assault Team Captain",
+						"Kronshtadt",
+						"Security Assault Team Member",
+						"Ognevoy",
+						"Prison Patrol Member",
+						"Abercrombie",
+						"Resistance Agent A",
+						"Arkhangelsk",
+						"Resistance Agent B",
+						"Sovetsky Soyuz",
+						"Phantom Thief Miss Terious ",
+						"Allen M. Sumner",
+						"City Inspector",
+						"Monarch",
+						"Artist",
+						"Svirepy",
+						"Security Chief",
+						"Tallinn",
+						"Security Officer",
+						"Kirov",
+						"Resistance Hacker",
+						"Soobrazitelny",
+						"Private Detective",
+						"Volga",
+						"Mafia Contact",
+						"Kiev",
+						"Mafia Queen",
+						"Poltava",
+						"Resistance Leader",
+						"Avrora",
+						"Megacorporation AI",
+						"TB",
+						"Great CEO",
+						"Valiant"
 					},
 					2
 				},
 				{
 					1,
-					"配音表 CAST"
+					"Dub Cast"
 				},
 				{
 					3,
 					{
-						"啾啾护卫",
-						"布里斯托尔"
+						"Manjuu Guard",
+						"Bristol"
 					},
 					2
 				},
 				{
 					1,
-					"出品方 Present"
+					"Brought to you by"
 				},
 				{
 					3,
 					{
-						"{namecode:98:明石}摄影集团"
+						"Akashi Film Group"
 					},
 					1
 				},
 				{
 					3,
 					{
-						"董事长",
-						"{namecode:98:明石}",
-						"集团总监",
-						"{namecode:20:不知火}"
+						"CEO",
+						"Akashi",
+						"Director",
+						"Shiranui"
 					},
 					2
 				},
@@ -533,108 +533,108 @@ return {
 				},
 				{
 					1,
-					"萨拉托加电影制片厂"
+					"Saratoga Film Studio"
 				},
 				{
 					3,
 					{
-						"导演",
-						"阿尔弗雷多",
-						"第一副导演",
-						"{namecode:55:青叶}",
-						"第二副导演",
-						"格里德利",
-						"剧本组长",
-						"马可波罗",
-						"剧本指导",
-						"摩尔曼斯克",
-						"剧本助理",
-						"{namecode:468:易北}",
-						"行政主管",
-						"列克星敦",
-						"财务顾问",
-						"的里雅斯特",
-						"制片人",
-						"萨拉托加"
+						"Director",
+						"Alfredo Oriani",
+						"First Deputy Director",
+						"Aoba",
+						"Second Deputy Director",
+						"Gridley",
+						"Script Team Leader",
+						"Marco Polo",
+						"Script Director",
+						"Murmansk",
+						"Script Support",
+						"Elbe",
+						"Studio Coordination",
+						"Lexington",
+						"Financial Consulting",
+						"Trieste",
+						"Producer",
+						"Saratoga"
 					},
 					2
 				},
 				{
 					1,
-					"特效团队"
+					"Special Effects Team"
 				},
 				{
 					3,
 					{
-						"特效组长",
-						"{namecode:435:俾斯麦}",
-						"特效指导",
-						"{namecode:294:云仙}",
-						"特效工程师",
-						"古比雪夫",
-						"特效工程师",
-						"恰巴耶夫"
+						"Team Lead",
+						"Bismarck",
+						"Team Director",
+						"Unzen",
+						"Special Effects Engineer",
+						"Kuybyshev",
+						"Special Effects Engineer",
+						"Chapayev"
 					},
 					2
 				},
 				{
 					1,
-					"灯光团队"
+					"Lighting Team"
 				},
 				{
 					3,
 					{
-						"灯光组组长",
-						"契卡洛夫",
-						"灯光组指导",
-						"{namecode:39:神通}",
-						"数字灯光工程师",
-						"长春",
-						"数字灯光工程师",
-						"太原"
+						"Team Leader",
+						"Chkalov",
+						"Team Director",
+						"Jintsuu",
+						"Digital Lighting Engineer",
+						"Chang Chun",
+						"Digital Lighting Engineer",
+						"Tai Yuan"
 					},
 					2
 				},
 				{
 					1,
-					"机械团队"
+					"Mechanical Team"
 				},
 				{
 					3,
 					{
-						"机械设计",
-						"莱昂纳多·达·芬奇",
-						"机械组装",
-						"{namecode:525:英格拉罕}"
+						"Mechanical Design",
+						"Leonardo da Vinci",
+						"Mechanical Operator",
+						"Ingraham"
 					},
 					2
 				},
 				{
 					1,
-					"航拍团队"
+					"Filming Support"
 				},
 				{
 					3,
 					{
-						"航拍摄影师",
-						"英仙座",
-						"航拍摄影师",
-						"{namecode:491:亚德}",
-						"航拍摄影师",
-						"天鹰"
+						"Aerial Photography",
+						"Perseus",
+						"Aerial Photography",
+						"Jade",
+						"Aerial Photography",
+						"Aquila"
 					},
 					2
 				},
 				{
 					1,
-					"特别鸣谢"
+					"SPECIAL THANKS"
 				},
 				{
 					3,
 					{
-						"关岛啾啾特效工作室",
-						"滨江机械设计工作室",
-						"铁血港区科学顾问团"
+						"Guam Cameramanjuu Studio",
+						"Harbin Mechanical Design Studio",
+						"Iron Blood Port Tech Advisory Group"
 					},
 					1
 				}

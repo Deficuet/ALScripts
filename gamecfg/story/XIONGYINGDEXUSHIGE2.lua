@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-outside",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "撒丁大剧场·顶部贵宾区",
+			say = "Colosseum - Upper-Deck Suite",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咔嚓——咔嚓————",
+			say = "Photo op!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "开幕式的精彩瞬间，就由我阿尔弗雷多全部捕捉！",
+			say = "Look who captured the most memorable moment of the opening ceremony!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……拍完的话，差不多该去做正事了，我们还有巡逻任务呢。",
+			say = "Y-yeah, good job... Now, how about we get back to our patrol mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "本次博览会，会场的安保由我们撒丁帝国全权负责。",
+			say = "The Sardegnian fleet is in charge of the security around the World Expo, so this is the one time we definitely can't afford to slack off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "来访舰队虽然是一股坚实可靠的力量……但我们也不能放松警惕。",
+			say = "Though, the Sirens would seriously be crazy to try to launch an attack considering the sheer number of shipgirls gathered here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "要谨防会场中发生什么事件……",
+			say = "I just hope nothing bad happens inside the venue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "别急，别急~这种事我当然记着呢。",
+			say = "You don't need to push me around~ I of all people would never forget my duties!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "对于事件的感知力，我还是有信心的！",
+			say = "Wherever there's a scoop to be found, you know Alfredo Oriani will be at the scene—in other words, nothing escapes my eye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过现在才开幕不久，就算巡逻也没什么价值~",
+			say = "Plus, the opening ceremony just ended. What's the point of going on patrol now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这里视野不错，先让我再拍点！",
+			say = "Oh wow, I rarely get the chance for a shot like this! Photo op time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……价值什么的。",
+			say = "What's the point...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "你是不想让事件发生，还是不想错过事件的发生呢？",
+			say = "What's more important to you? Preventing an incident, or being there to get the scoop?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "如果事件不可避免要发生的话，那我绝对不能错过！",
+			say = "Well, some things are out of our control, right? Just know that as a journalist, it's in my blood to get the scoop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不然怎么拿到有价值的新闻啊~",
+			say = "How else am I going to get my hands on some incredible breaking news? Ehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊，你的望远镜借我用用，我感觉差不多可以开始巡视会场了！",
+			say = "Actually, can you lend me your telescope? It'll make it easier to look around!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "不给……",
+			say = "...No way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "为什么啊？！",
+			say = "Wow, rejected just like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "巡逻，不可以用这种偷懒的方式进行。",
+			say = "We're on patrol, and we have to take our job seriously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "亲眼见到的风景，与望远镜中见到的风景，是不同的……",
+			say = "Besides, seeing something through the telescope isn't the same as seeing things up-close, in person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "切——我去拜托达·芬奇帮我整一个好了！",
+			say = "Jeez, you're such a hardass~ Maybe da Vinci can invent something to do the patrolling for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "达·芬奇————咦？达·芬奇去哪儿了？",
+			say = "Da Vinci! ...Huh? Where'd she go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在找我么，阿尔弗雷多？",
+			say = "Hahaha~ Were you looking for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "是啊……等等，为什么是通讯器在响？我们马上要去巡逻了，你跑哪儿去了？",
+			say = "Sure was! Hold up, why are you calling me? Weren't we going to patrol the venue pretty soon?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抬头，往天上看，我在上面哦。",
+			say = "Why don't you try looking straight up~ That's right, I'm right above you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿尔弗雷多与佩萨格诺在空中寻找了许久后，终于在一个用于监控会场的飞行器上找到了达·芬奇。",
+			say = "Alfredo Oriani looked up just as she was told to over the communicator, and found da Vinci patrolling the skies above the venue on a drone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊？！什么时候上去的？！不对……你怎么上去的？！",
+			say = "Wh-when'd you get up there? More importantly, HOW did you get up there?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我很想直接告诉你，不过既然是阿尔弗雷多，那我就考考你吧~？",
+			say = "Hehe, I don't mind telling, but why not take a guess first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼，凭记者的直觉来说，肯定是你利用场馆建设者的职务之便，给这些飞行器留了什么后门吧！",
+			say = "My intuition as a journalist is telling me... that you took advantage of your position as the venue's designer to do something funny with those drones!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我也想上去玩玩，快派一个下来接我上去嘛！",
+			say = "But more importantly, tell me how to get up there too! Just imagine all the great photo ops I'd be able to get!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个之后会有机会的，现在不是该去巡逻了么？",
+			say = "Sure, sure, coming right down. But patrolling the venue comes first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以撒丁大剧场与撒丁主场馆为中轴，会场的其余八个主场馆呈镜像对称，因此巡逻路线有两条哦。",
+			say = "Anyway, take a look at the map here. Sardegna's pavilion is right here in the middle, and the other exhibition halls are located on the surrounding islands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东线由大剧场出发，经过北方联合馆、自由鸢尾馆、皇家馆、白鹰馆，最后回到大剧场。",
+			say = "On the right-hand side to the east of the Colosseum, we've got the Eagle Union, Iris Libre, Royal Navy, and Northern Parliament.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "西线则是在经过东煌馆、铁血馆、维希教廷馆、重樱馆之后回到大剧场。",
+			say = "And to the west, we have the Dragon Empery, Iron Blood, Vichya Dominion, and Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们想先走哪一条？",
+			say = "Which place do you want to check out first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "分散行动效率高！我们分头行动，如果谁发现事件的话就通讯联络其他人怎么样？",
+			say = "Let's split up into two teams! If anyone runs into any trouble, we'll contact the other team right away. How's that? We'll get things done faster this way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "你只是想更高效率地搜集新闻吧……",
+			say = "You're just trying to get back to whatever you were doing before... Well, whatever...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "因为我要做些记录，就算一起走也跟不上你的速度，分散行动我没意见哦。",
+			say = "I'm fine with that. Even if we tried to go as a group, Alfredo would just run off somewhere anyway, so we might as well split up from the start.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也没意见，反正每个场馆我都提前看过好几遍了~",
+			say = "That settles it then! I've already seen the designs of all the pavilions, so it doesn't matter which one we start with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那达·芬奇就跟我一起走西线吧，我想去东煌馆看一看！",
+			say = "Come with us, Teach! Let's go check out the Dragon Empery area first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "那我就走东线好了……不过为什么是东煌馆？",
+			say = "Sure. My group will head to the Northern Parliament pavilion then... By the way, why'd you choose the Dragon Empery first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿嘿，东煌的人可不常出现在欧罗巴，这次能够应邀前来真是太难得了！",
+			say = "We rarely get to see those girls in Europa, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我可不想放过这次宝贵的取材机会！",
+			say = "I'd never pass up the opportunity to get such a rare and exclusive interview!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……注意作为东道主的礼仪和记者的职业操守哦。",
+			say = "Your conduct reflects upon all of Sardegna, so try to behave like an adult...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那是当然的！我阿尔弗雷多虽然热衷于八卦，但是绝对不会进行虚假的不实报道！诱导性提问也不会做的！",
+			say = "Don't worry! You know what my three principles are – don't tell lies, don't ask leading questions, and keep the gossip to a healthy level!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好啦好啦，达·芬奇快点从天上下来，我们该出发了！",
+			say = "In any case, da Vinci, let's get going!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "热闹的会场与情报的海洋正在等着我们呢！",
+			say = "If we don't hurry it up, we might miss that terrible thing Alfredo is so concerned about!",
 			painting = {
 				alpha = 0.3,
 				time = 1

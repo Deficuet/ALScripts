@@ -15,19 +15,19 @@ return {
 			bgm = "theme-vichy-church",
 			sequence = {
 				{
-					"接管第三日 18:17:45",
+					"Sub-Antarctic Ocean - Kerguelen Islands",
 					0.5
 				},
 				{
-					"皇家海军安塔迪卡洋舰队",
+					"Royal Navy Antarctic Fleet",
 					1
 				},
 				{
-					"维希圣堂接管分队",
+					"Basilica Investigation Forward Team",
 					1.5
 				},
 				{
-					"凯尔盖朗岛·圣堂引航灯塔",
+					"Basilica Lighthouse Tower",
 					2
 				}
 			},
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "百眼巨人呼叫皇家橡树大人，请问您那边有发现任何异常状况么？",
+			say = "Have you found anything abnormal, Royal Oak?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一、一切正常？大概……",
+			say = "I-I think... everything is as it should be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管巡逻了几次，都还是感觉这里好阴森……维希教廷的人以前真的驻守在这里吗……？",
+			say = "I've patrolled this area many times before, and I still can't believe how gloomy it feels... Did Vichya really have a fleet stationed here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从情报上来讲确实如此。",
+			say = "That's what our intel says.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "虽然在我们来的时候，驻守在这里的人早就逃之夭夭了……",
+			say = "However, it seems they all evacuated before we got here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "会不会也是受到这种阴森气氛的影响呢……？",
+			say = "Perhaps they shared your sentiment and couldn't stand the dismal conditions anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……非常有可能。不过多亏如此，我们在接管的时候也没有受到任何阻碍呢。",
+			say = "Maybe. At any rate, this facility is under our control now that they've abandoned it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……但同时也没能发现任何有价值的情报。",
+			say = "A shame there's not a shred of valuable information to be found.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明怨仇女士特意嘱咐过要我们“不要漏过任何的蛛丝马迹”，陛下也在密切关注着这里的事态……",
+			say = "We've searched every nook and cranny for the tiniest crumb, just as Implacable instructed, and all we've found is a map of the building.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "现在三天过去了，除了岛上的建筑布局图之外，我们什么有价值的收获都没有。",
+			say = "It would make us look bad if we returned to Her Majesty emptyhanded, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陛下的情报肯定不会出错……没找到陛下想要的东西都是因为我太没用了……",
+			say = "Her Majesty is certain beyond a doubt that there's something here. We just haven't found it yet because I'm dead weight...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "皇家橡树大人请千万不要这么说，在没找到“可疑之处”这件事上我们可是“同罪”哦？",
+			say = "You're not dead weight at all. If failing to find anything noteworthy is a crime, then I'm equally guilty of it as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……我一个人被陛下处罚倒还好，要是连累了你一起，我这个前辈骑士就彻底没有立足之地了……",
+			say = "No, no, no... I can't let you be my scapegoat, or it will haunt me for the rest of my life...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来只有加倍努力才行了！",
+			say = "That cannot happen. I'll search again, but twice as diligently this time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然最后得出的结论是正确的…！但是我不是这个意思……",
+			say = "(I was going to propose we search again together, but that's not what she needs to hear now...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "真是的，皇家橡树大人您总是这样……其实大家都很尊敬您的！",
+			say = "Calm down, Royal Oak! You know everyone cares about and respects you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "女王陛下也很看重您，安塔迪卡洋舰队的旗舰原本陛下不也是想让您担任的么？",
+			say = "If we didn't, you wouldn't have been Her Majesty's first pick as the team's flagship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "是您坚持要让给怨仇女士陛下才放弃的。",
+			say = "The only reason Implacable is leading this operation is because you passed on that honour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人贵有自知之明……如果让我来担任旗舰的话……只会辜负陛下的期待的。",
+			say = "But if I had accepted, I would've invariably disappointed Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在这样就好……",
+			say = "Because, I'm slow and have no stamina or grace. And worst of all, terrible luck...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没关系的，皇家橡树大人！",
+			say = "Please don't berate yourself like that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷会选择在这种游离于文明世界边缘的区域修建圣堂，肯定是为了掩盖某些不可告人的秘密。",
+			say = "As Her Majesty said, there has to be something in this Basilica. Otherwise they wouldn't have had a force stationed to protect it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "既然这里已经彻底控制在了我们手里，只要继续调查下去，我们一定会有所收获的！",
+			say = "I promise you, we will find it. We just have to keep looking for... Wait, what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等……皇家橡树大人，您所处的区块有异常活动，运动传感器出现了一次报警，请确认。",
+			say = "Royal Oak, did you notice any strange movement? Something just tripped an alarm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "欸？这这这这么突然……呀……！",
+			say = "Huh? Wait, that wasn't a stray bullet? Something's moving?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "发生什么事了？皇家橡树大人，请回答！",
+			say = "Stay calm and report the situation! Panicking will only make things worse!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我、我没事……就是刚刚好像听见什么东西跑动的声音…该不会是幽灵吧？",
+			say = "I'm fine, I just heard what sounded like footsteps... It couldn't have been a ghost, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……幽灵么，跟阴森的维希教廷圣堂倒还挺搭的……",
+			say = "Well, I wouldn't be surprised if a ghost took up residence in a dreary place like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸哎哎哎哎哎哎？！",
+			say = "So it WAS a ghost?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "啊……我只是有感而发，胡言乱语，请您不要在意。",
+			say = "No! Forgive me, I only meant it as a joke!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "总之我先调取监控查看一下……我记得您所在的区块是……嗯，我看到您了。",
+			say = "Hang on, I'll start up the security cameras. Let's see, you're over by... There, I've got it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来是以此为中心调取记录……",
+			say = "Now to find the feed for the room you're in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "嗯？传感器那里的摄像头好像离线了……",
+			say = "That's strange... It seems to be offline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……看来需要人去亲自查看一下呢，我明白了。",
+			say = "Oh, I'll check it myself. Just give me a minute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……百眼巨人，我就位了，报警器还在报警么？",
+			say = "That should do it. Argus, is the alarm still sounding?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "报警已经解除，但是监控设备还是没有恢复，您那边有什么发现么？",
+			say = "Not anymore. However, the security camera remains unresponsive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……摄像头的线已经被破坏了。",
+			say = "You mean this? Let me have a look... *cough cough*!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，从破损处厚厚的灰尘来看……应该已经坏了很长时间了。",
+			say = "Looks like the cable has been cut. Judging by all this dust, it seems it's been left like this for a long time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "年久失修么……之前负责维护的人也太散漫了。",
+			say = "How long has it been like this? Whoever was in charge of this place before was way too inattentive...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……之前传感器的警报是误报么？",
+			say = "Maybe. Do you think the alarm was a false positive too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,7 +867,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "有这个可能，我记得关于岛上圣堂的记录最早可以追溯到“海军假日”时期……",
+			say = "It wouldn't surprise me. Some of the oldest records of this island date back to the Naval Holiday period.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -885,7 +885,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不过这样并不能解释您刚刚听到的跑步声。",
+			say = "A false alarm doesn't explain the footsteps your heard, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（深吸一口气——）",
+			say = "*gasp*!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,7 +922,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "这里是皇家海军！入侵者，你已经被包围了！不许动！！！",
+			say = "Th-this is Royal Oak of the Royal Navy! Show yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "？！皇家橡树大人您发现入侵者了么！",
+			say = "Huh? Did you encounter an enemy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并、并没有……我只是在想既然找不到它，能不能用这种方式把它吓出来……",
+			say = "Not exactly... I just thought someone might come out if I yelled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……也许我该设置一下系统自检，对圣堂内的系统与设备进行一次全面检查。",
+			say = "I see... Also, I think I should do a more thorough system inspection. We might find something new.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,7 +1017,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "维护手册我记得是在——嗯，找到了。",
+			say = "If I remember the phrase right, it should be something like...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "系统自检，启动……",
+			say = "Basilica System, initiate a full facility self-diagnostic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1046,10 +1046,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Voice",
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
-			say = "指令已确认，系统全面自检程序已启动，预计将在3600000秒后完成——",
+			say = "Orders received. Initiating full facility self-diagnostic. Time remaining: 60,000 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这时间也太长了吧？！！",
+			say = "60,000 minutes?! We'll be here for an eternity!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1092,7 +1092,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就和人一样，系统也是越老越不中用呢……",
+			say = "That's how it is when you're dealing with a facility this old.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1110,7 +1110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "老式系统好可怕……那就……欸~我看到了一个好办法！",
+			say = "Hang on, there's a sysadmin message on the screen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1127,7 +1127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维护手册上提到圣堂有一个危机管控模式。",
+			say = "System override in the case of an emergency... Grants administrator privileges... Thus activating the facility's defences...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1145,7 +1145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我可以将咱们设置成管理员，然后启动这个模式。",
+			say = "Okay, I've got an idea! I'll log us both as admins and briefly enable the Basilica's automated defences.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1163,7 +1163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "这样整座圣堂之中，除了我们之外的所有人都会被圣堂防御系统认定为敌人进行排除，我们就不用担心入侵者的问题了！",
+			say = "This way, we'll immediately know when anyone comes or goes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1182,7 +1182,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听起来好像很厉害……如果防御系统都站在我们一边，行动起来也就安心了……",
+			say = "Wonderful. If it can deal with intruders as well, we'll be safe until the rest of the team arrives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1200,7 +1200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "指令输入中…………完成~",
+			say = "Mhm. I'll give it the order now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,10 +1212,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Voice",
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
-			say = "管理员权限已确认，危机管控模式启动中，预计将在————",
+			say = "Orders received. Entering emergency defense mode. Powering up production center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1228,7 +1228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…………？",
+			say = "Wait, what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1246,7 +1246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "皇家橡树大人，圣堂Blanc的工厂区传感器也传来了异常信号！",
+			say = "Royal Oak, it seems we have a problem in the production centre!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1275,7 +1275,7 @@ return {
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？……应该不会恰好有这么多设备同时发生故障吧。",
+			say = "Yes, I can see it over here as well. A lot of devices are spitting out error messages.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1293,7 +1293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "圣堂Blanc外部的传感器也收到了异常信号，而且数量还在逐渐增多……",
+			say = "It's getting worse! Oh goodness, what do we do?! One thing after the next is failing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1305,10 +1305,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Voice",
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
-			say = "危机……管控……",
+			say = "Error: Failed to initialize emergency defense mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,10 +1316,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Voice",
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
-			say = "紧急……执行……执行……执行……………………",
+			say = "Error: Failed to initialize recovery program. Retrying... Failed. Retrying... Failed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1327,10 +1327,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示音",
+			actorName = "System Voice",
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
-			say = "损坏……[缺失……缺失……缺失]……警告……警告…………",
+			say = "Warning: Significant data corruption. Please reconnect to system host.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1344,7 +1344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "指令执行出现错误……？怎么会这样……",
+			say = "Something has gone terribly wrong here... Let me try to update my admin privileges...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1362,7 +1362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "……不行！停止这项指令需要更高的操作权限？",
+			say = "What the...? I can't! It says I need higher clearance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1379,7 +1379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是我明明已经拿到管理员权限了……",
+			say = "But that's impossible... What could possibly be higher than the sysadmin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1397,7 +1397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "事情有些不对劲，皇家橡树大人，请立刻返回引航灯塔与我汇合！",
+			say = "Royal Oak, we have a problem! Get out of there and regroup with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1419,10 +1419,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家橡树",
+			actorName = "Royal Oak",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…它们…[杂音]…到处都是…[杂音]…",
+			say = "...can't... you... too many...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,10 +1435,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家橡树",
+			actorName = "Royal Oak",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "…[杂音]…包围…[杂音]…正在还击…[杂音]…",
+			say = "...ambushed... fighting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1457,7 +1457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "我听不到您在说什么，通讯遭受了干扰！",
+			say = "Royal Oak, do you hear me?! What's happening over there?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "——喂？！皇家橡树大人！皇家橡树大人！",
+			say = "...Our comms are being jammed. Don't tell me... we're in a Mirror Sea?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1501,35 +1501,35 @@ return {
 			bgm = "theme-kerguelen",
 			sequence = {
 				{
-					"「凯尔盖朗圣堂分队呼叫安塔迪卡洋舰队司令部」",
+					"On a remote island in the frigid Antarctic waters...",
 					1
 				},
 				{
-					"「我们遭遇到海量来源不明的敌人进攻」",
+					"A number of Iris Orthodoxy Basilicas stood like beacons of faith.",
 					2
 				},
 				{
-					"「情况危急，请求立刻派遣支援」",
+					"Yet beneath the veneer of pious glory,",
 					3
 				},
 				{
-					"「重复，凯尔盖朗圣堂分队呼叫——」",
+					"flow whispers of intrigue and technology untold.",
 					4
 				},
 				{
-					"「……」",
+					"While all eyes are on the World Expo,",
 					5
 				},
 				{
-					"「呼叫凯尔盖朗周边任何能听到的友军」",
+					"an investigation fleet suddenly arrives at the distant island.",
 					6
 				},
 				{
-					"「皇家海军请求支援」",
+					"What began as simple orders from the Queen",
 					7
 				},
 				{
-					"「有谁能回答一下么——」",
+					"would soon capture the interest of sinister eyes.",
 					8
 				}
 			}

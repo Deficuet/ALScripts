@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"恋爱的季节到了\n\n<size=45>二 才不是那种关系呢</size>",
+					"'Tis the Season of Love!\n\n<size=45>2.We’re Not Like That!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼…今天也算赶上了。",
+			say = "Phew... At least we managed to make it today.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(要是放着不管，那个人肯定每天上学都要迟到……如果没有我，他现在肯定已经留级了！）",
+			say = "(How could someone be so consistently late for school...? The dolt would’ve been held back by now if it wasn’t for me!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早呀，一大早就这么火热，关系这么好真让人羡慕啊~",
+			say = "Good morning! You two always make the grandest entrances to school. Just seeing it makes me a little jealous~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "热，热心！？你是什么时候开始在那看的！？",
+			say = "A-Ardent?! How long have ye been here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~大概是两位一起跑过校门的时候？担心什么，我又不会吞掉你们~",
+			say = "Hmm~ Since you two first ran inside the gates? Don’t worry, I won’t spill the beans on you two~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么？！才，才不是那样！我们根本就不是那种关系！",
+			say = "Wh-what?! W-we’re not like that! There’s nothin’ o’that sort g-going on between us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你这么强烈否定，那家伙也太可怜了。本人听着得多受伤呀~？",
+			say = "Are you sure you should be denying it that emphatically? You might hurt the feelings of the person right next to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是呀…格拉斯哥，另外，平时还是对人家更温柔一些比较……",
+			say = "R-right... Glasgow, it probably wouldn’t hurt to be a little nicer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算格拉斯哥变温柔，也不可能变坦率啦~真是的，旁人看了都着急~",
+			say = "Even if she did act a bit nicer, I don’t think she’d be any more honest with herself. I can’t help but to get a little worried from watching her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一个个的，都太多管闲事了啦！哼！",
+			say = "Nobody asked all of you to be so nosy anyway! Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不管旁人怎么说，我只想照平常一样作自己。才没有特别在意什么呢！）",
+			say = "(I don’t care what the people around me say. I just want to be myself. It’s not like I’m sensitive about this!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（那个人根本离不开我，我只是在各方面照顾他而已，怎么会有那种误会！）",
+			say = "(It’s not my fault that a certain someone can’t live without me, so why are they getting all these weird ideas?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格拉斯哥…脸又红了…为什么…",
+			say = "Glasgow... your face is beet red again... is something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这份纯情正是她的魅力所在吧…不过作为旁观者来说~",
+			say = "Her innocence is what makes her charming... as an outside observer, that is~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为皇家一员，这种事时候果然还是应该华丽地——",
+			say = "As members of the Royal Navy, we must approach this matter with grace and—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了好了！这话题到此为止！赶紧回自己座位去吧，晨会马上就要开始了！",
+			say = "That’s enough of this gossiping! Hurry back to your seats already; class is about to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——叮铃铃铃。",
+			say = "—Ding dong, ding dong!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，还真的是！",
+			say = "Woah, talk about slick timing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得困起来了……",
+			say = "I’m starting to get a bit sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就下课休息时再见了，各位——",
+			say = "We shall meet again during break then—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "各自就坐后，格拉斯哥的目光不经意间与谈话中心的那个人对上了。",
+			say = "As the girls returned to their respective seats, Glasgow’s eyes met with those of the person from the earlier discussion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,37 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "完全没注意到有人在谈论自己，带着一脸纯真的微笑向格拉斯哥挥着手。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202261,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……唉，真是个迟钝的家伙。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "格拉斯哥别开目光，看向窗外。",
+			say = "The person waved back with a smile, seemingly ignorant of everything that had transpired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +411,21 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…一切都只是误解。无论现在还是以后，两人永远都会只是这样的关系…",
+			say = "...Sigh, what a dense fellow.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "She turned her eyes away and gazed wistfully out the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +441,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以后也…肯定不会变的。",
+			say = "...It’s all a misunderstanding anyway. The two of us will always have the same kind of relationship... just like now...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202261,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It won’t ever change... I know it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "想象了挥手回应的自己，只感到一阵害羞，最终格拉斯哥还是什么都没做。",
+			say = "Glasgow fantasized about returning the smile and waving back, but her shyness kept her frozen in place until the opportunity had passed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

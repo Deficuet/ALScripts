@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "一路之上，舰队在确保安全的情况下赶路，终于成功回到了基地周边。",
+			say = "The fleet sailed onward, maintaining vigilant, and arrived back at the headquarters.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "稍有遗憾的是，虽然{namecode:541:杜伊斯堡}等人对{namecode:426:希佩尔}·META进行了持续不断地呼叫，不过她最终也没有出现。",
+			say = "Duisburg tried to contact Hipper numerous times, but in the end, she did not show up in our defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……终于回来了~！",
+			say = "Whew... Back at last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈哈！没想到修好的永恒之星这么强，敌人都被堵在外面了啊！",
+			say = "Man, these Eternal Stars are running way better than I thought! Those extradimensionals are stuck at the outer periphery!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，此时，正是里应外合的最好时机~",
+			say = "Yup. This is our best chance to strike them from both sides.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "{namecode:539:Z11}，我们已经抵达基地周边海域了，汇报敌情分布。",
+			say = "Z11, we have reached the base. Give me a report on the enemy's deployments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……？！你们……才到？",
+			say = "Uhh, what? D-did you only just arrive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什么意思？",
+			say = "...Why do you ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大约一个小时前，敌方舰队就受到了来自防线外部的攻击。",
+			say = "Because, um, a force outside our defense line attacked the enemy about an hour ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401110,
-			say = "我还以为是你们做的……只是通信状态不好才没和基地联络。",
+			say = "It seemed like a pretty powerful force, so I just assumed it was you and you couldn't radio us or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "攻击……？在什么方位，等我来看看！",
+			say = "There is another force? In what direction? I must see for myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}的侦察机很快带来了结果。",
+			say = "Rumey's recon aircraft returned quickly with answers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "面对天外之兽群独自发动进攻的，是一个所有人都不陌生的娇小少女。",
+			say = "The extradimensionals were being intercepted by one single person – a young lady with a flat profile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……既然找死，就成全你们。",
+			say = "Since you've got such a death wish, I'll be your wish-granter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……以{namecode:425:希佩尔海军上将}级之名，为汝等奏响镇魂之歌！",
+			say = "In the name of the Admiral Hipper class, I will play a song to soothe your souls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "……{namecode:426:希佩尔}？！",
+			say = "Hipper's here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "怪不得怎么联系她都没反应……原来她早就到了！",
+			say = "That explains why she wouldn't answer our calls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "嘿嘿……我就说嘛，她怎么会对我们冷眼旁观呢~！",
+			say = "Heheh. She's just too nice to turn her back on us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……许久未见，她的战斗力又增强了。",
+			say = "She has gotten even stronger in the long time since I last saw her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "战斗风格倒是一如既往……",
+			say = "Her fighting style, though, is still the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "我们……要去和她汇合么？",
+			say = "Should we link up with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "{playername}阁下的意见呢？",
+			say = "What say you, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "见到她之后，她配合我们进行作战的概率有多大？",
+			say = "Supposing that we do, what do you reckon the odds are that she'll help with our mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "很难说……按照现在的战局来看，大概率不愿意。",
+			say = "I'm not sure. Given the circumstances, it seems a very slim chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那就不勉强了，由她按照自己的意愿扰乱敌人也不错。",
+			say = "Then let's not push it. She can do it her way and keep the enemy off balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 401090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士，{playername}阁下……这是敌情分布图。",
+			say = "Rumey, Commander, here are the enemy's p-positions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（敌人的兵力比预想中要弱……是因为事先被{namecode:426:希佩尔}削弱了不少么。）",
+			say = "(There are fewer of them than I anticipated. Hipper must've really cut them down to size.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "很好，我们先消灭60°方向那一批，再去和{namecode:426:希佩尔}一起吃下95°那一批。之后逐次清理如何？",
+			say = "First, let us deal with the group 60 degrees to the east, then we'll rendezvous with Hipper and take out the ones 95 degrees from there. Finally, we'll clean them up in order. How about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题，通知基地调动火力配合我们，全员准备战斗！",
+			say = "Sounds good. I'll contact headquarters and request supporting fire. Everyone, prepare to engage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

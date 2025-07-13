@@ -15,7 +15,7 @@ return {
 			actor = 605030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "「黑海是帝国的池塘，陆间海是帝国的花园。」",
+			say = "\"Across Land and Sea, we grow ever greater.\"",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「欧罗巴是帝国的武库，阿非利加是帝国的粮仓。」",
+			say = "\"From the lighthouse's marble to the signal flame's reach, splendor pours forth.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「从哈德良长城上的火炬到亚历山大港中的灯塔，帝国的光辉普照黎庶。」",
+			say = "\"The people lift their heads in exultation, the cities lower their war gates as peace thrives.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「雄鹰啊，在这广袤的疆土上尽情翱翔吧。」",
+			say = "\"Behold as the sacred eagle spreads its wings, its light spanning across the land.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "「罗马将会长存。」",
+			say = "\"But know that this light does not shine eternally.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "「因为，罗马与神同行——」",
+			say = "\"For the aquilifer must ensure that splendor soars freely.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1

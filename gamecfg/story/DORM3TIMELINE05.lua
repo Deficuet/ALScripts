@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3TIMELINE05",
 	alpha = 0,
+	id = "DORM3TIMELINE05",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			bgm = "theme-room-rosy",
@@ -25,7 +22,7 @@ return {
 							options = {
 								{
 									{
-										content = "邀请天狼星共舞"
+										content = "Invite Sirius to a dance"
 									}
 								}
 							},

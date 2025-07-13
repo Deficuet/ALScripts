@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_20 = {
+	[90597] = {
+		cannon = 0,
+		name = "Augmented Conductor: Moderator",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90597,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "hangmu_gulite",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		scale = 120,
+		wave_fx = "movewave",
+		prefab = "hangmu_gulite",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.31,
+					1.38,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.07,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.31,
+					1.38,
+					0
+				}
+			},
+			plane = {
+				{
+					2.08,
+					3.91,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.67,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90598] = {
 		cannon = 0,
-		name = "巨构武装:「弧光」",
+		name = "Mega Armament: ΛRCLIGHT",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -165,7 +321,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90599] = {
 		cannon = 0,
-		name = "貉",
+		name = "Mujina",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -315,7 +471,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90600] = {
 		cannon = 0,
-		name = "奥古斯塔·META",
+		name = "Gneisenau META",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -484,7 +640,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90601] = {
 		cannon = 0,
-		name = "潜航鱼雷",
+		name = "Siren Torpedo ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -621,7 +777,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90602] = {
 		cannon = 0,
-		name = "代行节点VI-01",
+		name = "Enforcer Axon",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -777,7 +933,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90603] = {
 		cannon = 0,
-		name = "代行者VI「Combination」",
+		name = "Enforcer VI: Combination",
 		type = 17,
 		speed_growth = 0,
 		air_growth = 0,
@@ -937,7 +1093,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90604] = {
 		cannon = 0,
-		name = "代行者VI「Attraction」",
+		name = "Enforcer VI: Attraction",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1093,7 +1249,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90605] = {
 		cannon = 0,
-		name = "驱逐「Pawn」IV型",
+		name = "Pawn Mark IV",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1255,7 +1411,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90606] = {
 		cannon = 0,
-		name = "轻巡「Knight」IV型",
+		name = "Knight Mark IV",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1417,7 +1573,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90607] = {
 		cannon = 0,
-		name = "重巡「Bishop」IV型",
+		name = "Bishop Mark IV",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1586,7 +1742,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90608] = {
 		cannon = 0,
-		name = "战舰「Rook」IV型",
+		name = "Rook Mark IV",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1755,7 +1911,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90609] = {
 		cannon = 0,
-		name = "航母「Queen」IV型",
+		name = "Queen Mark IV",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1924,7 +2080,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90610] = {
 		cannon = 0,
-		name = "自爆船「Buster」IV型",
+		name = "Buster Mark IV",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2070,7 +2226,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90611] = {
 		cannon = 0,
-		name = "潜艇「Assassin」IV型",
+		name = "Assassin Mark IV",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2221,7 +2377,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90612] = {
 		cannon = 0,
-		name = "探索者IV型",
+		name = "Scavenger Mark IV",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2378,7 +2534,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90613] = {
 		cannon = 0,
-		name = "追迹者IV型",
+		name = "Chaser Mark IV",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2535,7 +2691,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90614] = {
 		cannon = 0,
-		name = "领洋者IV型",
+		name = "Navigator Mark IV",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2692,7 +2848,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90615] = {
 		cannon = 0,
-		name = "破局者IV型",
+		name = "Smasher Mark IV",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2863,7 +3019,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90616] = {
 		cannon = 0,
-		name = "执棋者IV型",
+		name = "Conductor Mark IV",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3020,7 +3176,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90617] = {
 		cannon = 0,
-		name = "布里斯托尔",
+		name = "Bristol",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3169,7 +3325,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90618] = {
 		cannon = 0,
-		name = "基辅",
+		name = "Kiev",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3338,7 +3494,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90619] = {
 		cannon = 0,
-		name = "灵敏",
+		name = "Soobrazitelny",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3507,7 +3663,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90620] = {
 		cannon = 0,
-		name = "喀琅施塔得",
+		name = "Kronshtadt",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3656,7 +3812,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90621] = {
 		cannon = 0,
-		name = "阿尔汉格尔斯克 ",
+		name = "Arkhangelsk",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3805,7 +3961,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90622] = {
 		cannon = 0,
-		name = "伏尔加",
+		name = "Volga",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3954,7 +4110,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90623] = {
 		cannon = 0,
-		name = "格尔林德·META",
+		name = "Scharnhorst META",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4123,7 +4279,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90624] = {
 		cannon = 0,
-		name = "驱逐「Pawn」-初始型",
+		name = "Pawn Mark I",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4285,7 +4441,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90625] = {
 		cannon = 0,
-		name = "轻巡「Knight」-初始型",
+		name = "Knight Mark I",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4447,7 +4603,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90626] = {
 		cannon = 0,
-		name = "重巡「Bishop」-初始型",
+		name = "Bishop Mark I",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4583,175 +4739,6 @@ pg.enemy_data_statistics_20 = {
 			{
 				0,
 				-0.5,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90627] = {
-		cannon = 0,
-		name = "战舰「Rook」-初始型",
-		type = 5,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 1,
-		id = 90627,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "srBB0",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 280,
-		wave_fx = "danchuanlanghuazhong3",
-		prefab = "srBB0",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 99,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 3,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			21,
-			7.5,
-			10.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.74,
-					1.03,
-					0
-				}
-			},
-			cannon1 = {
-				{
-					1.74,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.21,
-					0.2,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.74,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smokebig",
-						{
-							0.91,
-							0.7,
-							-0.41
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smokebig",
-						{
-							-1.38,
-							1.2,
-							-0.71
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.69,
 				0
 			},
 			{

@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击<color=#ff7d36>出击</color>",
-	"索敌结果显示了大黄蜂可能出现的位置，让我们朝着目标点前进吧~",
-	"点击<color=#ff7d36>规避</color>轻松甩掉他们的拦截吧！"
+	"Right! Your next mission is to support an Eagle Union task force with an exercise! Start by tapping <color=#ff7d36>Battle</color>!",
+	"The scan has found Hornet's likely location! Head straight for it!",
+	"Tap <color=#ff7d36>Evade</color> to avoid an engagement with the enemy fleet!"
 }
 
 return {

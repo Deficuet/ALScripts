@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
-			say = "指挥官……还有企业前辈！没想到能在这样的状况下与你们汇合！",
+			say = "Commander... and Enterprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们的进展很快啊……",
+			say = "Essex! Was the aerial support fleet swept up by the Singularity too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "大家都在努力战斗，我们舰队也不能拖后腿嘛~",
+			say = "Yes, so it seems. The storm drew us inside, and the next thing we knew, we were in this place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（心里只想着尽快和指挥官与企业前辈会师，不知不觉就……）",
+			say = "Of course, we came looking for you and the Commander as soon as we were able to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇异点内情况不明，你们的到来无疑会增加一分胜算，帮大忙了。",
+			say = "Thank you. It's a huge weight off our shoulders now that you're here. Since we don't have any information about the inside of the Singularity, we can use all the help we can get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官看上去精神不是很好啊……或许是由进入时的冲击引起的。",
+			say = "Commander, you don't look so good... Is it due to the trauma you experienced from the storm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请您在指挥舰上稍等一下，我马上就去给您治疗。",
+			say = "Hold on for a moment, let me examine you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,22 +115,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "帮大忙了……不过，后勤舰队为会在这里？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 112010,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "您说得对，原本后勤舰队不应该这么接近前线……",
+			say = "\"So the Singularity sucked in not just our carriers, but our repair ships and rear support too?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为战况激烈，各种损伤接连不断。为了节约时间，我就把位置稍微前移了一点点……嘿嘿。",
+			say = "Well, normally, us support vessels shouldn't be on the front lines, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +145,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用担心，埃塞克斯舰队一直在为我们提供掩护。",
+			say = "I wanted to move the temporary base forward as a contingency in case of unplanned emergencies, and I wanted to make sure that Enterprise and the others were able to get repairs if they needed them. Hehe.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 112010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh, by the way, since I was around the carriers, I didn't need to worry about combat at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "就算如此……维修舰如此接近前线也太危险了。",
+			say = "Don't overwork yourself, Vestal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反正也不是第一次了~",
+			say = "You're one to talk~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女灶神……",
+			say = "...*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，大家都知道的事，事到如今再想掩饰也来不及了。",
+			say = "You know as well as I do that I'm not pushing myself as hard as you are~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，指挥官，刚刚已经为大家检查过了哦，没有发现严重损伤情况，舰队全员状态良好~",
+			say = "Anyway, Commander. I looked over everyone else earlier and nobody's taken any serious damage. They're all doing just fine~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尤其是企业，能看出来是经历过好好休息和整备之后才加入战斗的！",
+			say = "Especially Enterprise over here. She's in perfect condition for this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在指挥官身边，企业也不会勉强自己也不会太乱来，真是太好了~",
+			say = "And there's no way she'll overdo it when she's by your side~ Which is always a good thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经接近战斗尾声了，这时候如果受伤挂彩可就太不划算了。",
+			say = "The goal is just up ahead. There's no point in retiring from the operation this late into it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作战的事我虽然不太懂，战场后勤保障就放心交给我吧！",
+			say = "While I may not be very useful in a battle, you can always trust me to repair and resupply our fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在这种不明情况下，身边有后勤舰队真是可靠。",
+			say = "\"Thank you. Emergency repairs are a lifesaver in this situation.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队谨慎前进，海域中心消失的塞壬主力也许就隐藏在奇异点之中……",
+			say = "This place may be where the Sirens' fleet has been all along... We need to proceed with caution from here on out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

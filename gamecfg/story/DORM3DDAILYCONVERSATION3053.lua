@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……安克雷奇……肚子咕咕叫……！",
+			say = "{dorm3d}... Anchorage is hungry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,14 +29,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……去抓鱼……烤海鲜！",
+			say = "I'll go catch some fish... and make seafood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "一起回去拿工具吧？",
+					content = "Then how about we go get tools together?",
 					flag = 1
 				}
 			},
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯嗯……！和{dorm3d}一起……嘿嘿……",
+			say = "Okay...! With {dorm3d}, hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……很幸福……！",
+			say = "Anchorage is happy...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "港区·菈菈的临时工坊内",
+			say = "Port - Lala's Improvised Laboratory",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "被港区中流传的——“菈菈可以制造出满足愿望的发明”的传言所吸引，我早早来到了菈菈的工坊。",
+			say = "When I heard that Lala could invent things to grant any desire, I headed straight to her lab to see what was going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "但没想到工坊内比预想中还要热闹。",
+			say = "But when I arrived, the place was even busier than I'd anticipated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "商业瓶颈了喵！菈菈小姐快用神奇的发明帮帮{namecode:98:明石}吧喵！",
+			say = "My business isn't seeing infinite growth! Help me out with your inventions, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天狼星也想请菈菈小姐帮忙……",
+			say = "Miss Lala, I beg a moment of your time, please...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了偷懒的话……幽灵小姐也需要帮助。",
+			say = "If it'll help me avoid responsibilities, then I want your help, too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "怎么能把菈菈小姐的力量利用在那种地方呢？当然要用来帮助工作了！",
+			say = "Using Lala's genius for such things is just unthinkable. It should be put to more productive use – for work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,20 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "大家你一言我一语，都对菈菈的发明充满了好奇和期待。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_540",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "等等。菈菈还没说过这传言是否属实吧？",
+			say = "Everyone crowding around her rattles off their demands expectantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +126,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "“制造满足愿望的发明”这件事，不应该先问问她本人是否能行么？",
+			say = "Are we sure she even has an invention that can do all this stuff?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_540",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Has anyone tried asking her that yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官你来了？抱歉抱歉，刚刚没注意到你……",
+			say = "Oh, Commander, you're here~ Sorry, I didn't notice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "至于“满足愿望的发明”嘛……这个……",
+			say = "As for your question... Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "众人带着炽热的眼神向菈菈看去。",
+			say = "Hopeful eyes all hone in on her at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "欸嘿嘿……只要了解大家的目的，我想我就能做出来~！既然大家都这么期待，那我一定要加油才行呢！",
+			say = "Hehe... If you all tell me what you need, I think I can help~! You all put a lot of hope into me, so I don't wanna let you down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧，那就请大家在这边一个个登记自己的需求吧~",
+			say = "Everyone, line up over here~ Write down your needs in an orderly fashion, please~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "指挥官，如果你没有愿望的话，能请你来协助我接下来的工作吗？",
+			say = "Commander~ If you don't have anything you want, could you help me with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好的，我知道了。",
+			say = "I'd be happy to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "欸？我……我没有吗？",
+			say = "Huh? Wait, what if I wanted something...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

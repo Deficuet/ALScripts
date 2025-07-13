@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于启航之前\n\n<size=45>一　一切的开始</size>",
+					"The Bon Before the Voyage\n\n<size=45>1 The Proposal</size>",
 					1
 				}
 			}
@@ -19,11 +19,11 @@ return {
 			bgName = "bg_story_task",
 			portrait = 106014,
 			dir = 1,
-			actorName = "长岛",
+			actorName = "Long Island",
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——这里是行政部的前台接待长岛，请问有什么可以帮您的？",
+			say = "Hi, this is Long Island at the reception desk! How can I help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女充满活力的嗓音隐约从室内传来。",
+			say = "There is a markedly peppy tone in Long Island's voice as she answers the phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,10 +50,10 @@ return {
 			bgName = "bg_story_task",
 			portrait = 106014,
 			dir = 1,
-			actorName = "长岛",
+			actorName = "Long Island",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——好的，我明白了，稍后帮您转达哦~",
+			say = "Alrighty. I'll pass your message on right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，我正站在为了保障某个特殊项目运作而设立的办公室大门前。",
+			say = "Meanwhile, I'm standing at the door of the provisional office set up for a special project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我伸出手触碰门扉，却在即将推开之际，陷入了犹豫之中。",
+			say = "A hesitation passes through me as I put my hand on the doorknob. Should I really open it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "两周前的指挥室——",
+			say = "Two weeks prior - Commander's Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "指挥官，你觉得咱们今年来场邮轮旅行怎么样？",
+			say = "Commander, how about having a pleasure cruise this year?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在大家按照惯例聚在指挥室中讨论度假计划时，滨江突然如此提案到。",
+			say = "A crowd has gathered in my office to discuss vacation ideas, and Harbin brings up an interesting one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,18 +149,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "邮轮之旅么……",
+			say = "Hmm. A pleasure cruise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，批准！",
+					content = "Say no more. We're doing it!",
 					flag = 1
 				},
 				{
-					content = "为什么是邮轮？",
+					content = "Why that in particular?",
 					flag = 2
 				}
 			}
@@ -173,7 +173,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 599010,
-			say = "啊哈哈，看来指挥官也觉得这方案靠谱啊！",
+			say = "Hahah! I knew you'd be on board! Pun intended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "不过作为提案方，流程上还是先让我向你和各位同伴们解释一下原因吧。",
+			say = "Before we go any further, I should probably explain to you and everyone else why I think it's a good idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "邮轮庞大的体积可以容纳各种服务设施，能够在保障大量人员出行的同时，确保旅途的舒适度。",
+			say = "To start off, a cruise ship can move and serve many more people than a plane, for instance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "同时航速适宜，可以最大程度延长旅途度假的感觉。",
+			say = "The port also already has all the necessary infrastructure. A dock, refueling facilities, a cargo loading platform, and so on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "而且，邮轮相比大家日常生活的港区，算是一个全新的环境。",
+			say = "Now, I know what you're thinkin' – traveling by sea isn't very novel to us as shipgirls – but that's for work. We don't often get to ENJOY being out at sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "即使是熟悉的人，在环境改变后，也可能会获得与往日不同的新奇相处体验哦？",
+			say = "That's where the cruise comes in. It'll put a fresh spin on a familiar setting and spark new conversations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然，邮轮上会设置有办公室和会议室，不会耽误必要工作的处理的。",
+			say = "And of course, we can have an office and conference room on board to ensure your workflow stays on course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "邮轮么……确实和假日十分搭配呢。",
+			say = "I like it. A pleasure cruise could make for a splendid vacation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，大家一起坐船出门，有种修学旅行的感觉呢。",
+			say = "All of us out at sea, together on a ship – sounds almost like a field trip.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官的移动港区。",
+			say = "More like a mobile base for the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……可是大家平时也一直是在海上执行任务啊，感觉也没什么特别的。",
+			say = "I dunno. Like Harbin said, we see the ocean all the time. Doesn't feel very special, does it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "好不容易到假期，还要一起去海上泡着么……？",
+			say = "Shouldn't we spend our vacation days on something better than, like, cruising the ocean with no particular goal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，在海上执行任务，和乘坐邮轮在海上度假可是完全不同的体验。",
+			say = "And like Harbin said, we experience the sea through the lens of work, not pleasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "邮轮的设计目的是为了给乘坐的人留下美好体验，每一处细节都贯彻着舒适与奢华的理念。",
+			say = "I know what you're picturing – a mass-produced ship with bunk beds, rations, and rotating shifts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "乘坐体验可不是那些仅仅为了保证作战效能而设计的量产型军舰能比的哦~",
+			say = "Forget all that. A cruise ship is the polar opposite. It has luxury cabins, fine dining, a spa, and more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "唔……如果是邮轮旅行的话，大家还可以一起去无人岛看一下。",
+			say = "Exactly! And instead of sailing nowhere, why don't we go to Seabreeze Island instead?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我们分批次在那边建设了那么久，现在应该已经大变样了吧~",
+			say = "You know, that empty island we built a resort on. There's even more vacationing we can do there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不光是无人岛。有了邮轮，大家还可以一同去更多有趣的地方哦。",
+			say = "Yes, and it doesn't stop there. We could go practically anywhere in the world if we wanted to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，这些是要留待行程规划阶段的后话了。",
+			say = "But I digress. We can discuss destinations another time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "邮轮……安克雷奇……想要，坐游轮！",
+			say = "A cruise sounds fun! I wanna go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299030,
-			say = "柴郡也想~柴郡也想坐邮轮~！",
+			say = "Me too! Take me on a long and romantic cruise, Owner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "说到邮轮……就肯定会有不可思议事件！",
+			say = "You know what happens on cruise ships? Mysteries!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "不该存在的楼梯……凭空多出的客房……走廊中的陌生脚印……！",
+			say = "From staircases that shouldn't exist, to guest rooms appearing from thin air, to strange footprints in the cabin corridors!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我已经开始兴奋起来了！",
+			say = "Ohh, I can already feel my blood pumping!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "邮轮大冒险！",
+			say = "Yeah! Let's go on an adventure cruise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "邮轮大冒险~！",
+			say = "A great adventure cruise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "邮轮大冒险~~！",
+			say = "A BIZARRE adventure cruise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……看来大家已经在一片兴高采烈中达成统一意见了呢。",
+			say = "It's starting to sound pretty unanimous in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那本次度假就采用滨江提出的邮轮之旅方案吧。",
+			say = "I like unanimous. Let's go with Harbin's cruise plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过指挥官，这个方案似乎还有一个现实问题。",
+			say = "There is just one small issue with her plan, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "现在的港区内，并没有可供使用的邮轮。",
+			say = "Namely, we do not have a cruise ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不本王直接租一艘过来？现买一艘也行。",
+			say = "It so happens I do. I'd even be willing to lend it to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "哎呀，其实我一开始也寻思直接买一艘来着。",
+			say = "Yeah, about that... I was considering just buyin' one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是寻思着寻思着，冒出来了个新想法——",
+			say = "But the more I thought about it, the more I realized it wasn't a great idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "不管是买还是租，现成的邮轮肯定无法完全满足港区的全部需求对吧？",
+			say = "Buying one would save us a lot of trouble, but no prebuilt cruise ship out there could cater to all our needs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "既然如此，不如咱自己修一艘港区专用的邮轮，指定舒服！",
+			say = "So the best option, really, is to build one from scratch ourselves. Trust me, it'll be worth it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "哇哦——好主意啊！",
+			say = "I dig it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……有道理，这样的话确实是最舒服的方案。",
+			say = "I agree. A cruise ship tailor-made to suit our needs will make the vacation even better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，还能在建造途中，根据我们自己的想法添加些有趣的设计呢~",
+			say = "And it'll allow us to implement some more... novel ideas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王赞同，指挥官觉得如何？",
+			say = "Suit yourselves. What say you, servant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,18 +793,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "基于港区的造船技术和产能来说，修建一艘邮轮并不是一件十分困难的事，花费也不算夸张。",
+			say = "Our shipyard does have the resources to construct a cruise ship from the ground up. Making modifications by ourselves would be cheaper, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题。",
+					content = "Let's build a cruise ship, ladies.",
 					flag = 1
 				},
 				{
-					content = "就这么定了！",
+					content = "We'll build our own ship! With blackjack and bars!",
 					flag = 2
 				}
 			}
@@ -816,7 +816,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "等等！我还有一个把这件事的过程变得更有趣的补充提案！",
+			say = "Wait! I've got one more idea I think you'll like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……变得更有趣的补充提案？",
+			say = "You do? Let's hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "指挥官，你觉得以港区的技术和产能修建一艘邮轮轻轻松松没错吧？",
+			say = "Okay, so, the port's easily got the facilities to not only build a cruise ship, but to build it discreetly, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错。",
+			say = "Yes. And?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你也觉得港区的预算十分充足，绝对能满足建造邮轮的需要对吧？",
+			say = "And we've also got the financial flexibility to build it entirely by ourselves, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那是当然。",
+			say = "Yes. And...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "既然如此，要不然我们将邮轮的建造过程全程保密如何？",
+			say = "Well, if it ain't too much to ask, do you think we could build the ship in secret?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "除了必要参与者之外，对其他所有同伴，包括指挥官在内都不能主动打听建造的具体细节。",
+			say = "By that I mean, not disclosing the project to anyone not directly involved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "这样等到假日来临之时，大家必定能感受到大大的惊喜~！",
+			say = "Then once it's time to announce the cruise, it'll be a big surprise. Of course, we wanna surprise you, too, so we won't tell you how it's progressing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "指挥官觉得如何，想不想多来点惊喜呢~？",
+			say = "How's that sound? Do we keep it under wraps, or make it public right away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听上去好像挺有趣的，就这么办吧。",
+			say = "Everyone loves a surprise. Let's do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "好嘞~那就算说好了。直到邮轮下水日之前，指挥官绝对不可以去偷看，也不能去打听建造相关的任何情报哦！",
+			say = "Sweet! Then we'll get to work and only let you know once she's been launched. No peekin', and no askin' for leaks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唉……毕竟之前都如此约定了。",
+			say = "And that's the arrangement we settled on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "最后定下来的全局统筹委员会由逸仙、伊丽莎白女王、黎塞留和维内托四人组成。",
+			say = "Yat Sen, Elizabeth, Richelieu, and Veneto formed a committee to plan the whole project and guide its course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "修造过程肯定是可以令人放心的……",
+			say = "I have no reason to doubt their competency, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……可以放心的。",
+			say = "It's just... I'm curious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,7 +1037,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来还有工作要处理，还是先回指挥室吧。",
+			say = "Ah, screw it. I should get back to my office and pick up my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

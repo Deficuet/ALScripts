@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击<color=#ff7d36>出击</color>",
-	"索敌结果显示了大黄蜂可能出现的位置，让我们朝着目标点前进吧~",
-	"这次，我们先试试<color=#ff7d36>规避</color>敌人吧"
+	"Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+	"We've located Hornet! Let's move towards the target.~",
+	"Let's <color=#ff7d36>evade</color> the enemies this time."
 }
 
 return {

@@ -7,7 +7,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "光芒消散后，映入眼帘的是一片惨淡夜色。",
+			say = "Light paints my vision white again. Instantly after, I see the dark of nighttime.",
 			bgm = "theme-objectx-spread",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "空气中弥漫着鲜血与浓烟的气息，耳边传来引擎运转的轰鸣。",
+			say = "The roar of an engine reaches my ears. My nose is assaulted by the combined stench of smoke and death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（……这是一片海中的战场，而我来到了一艘……量产型之上？）",
+			say = "(Is this a battlefield? But I'm on... a mass-produced ship, aren't I?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呜啊啊！你、你这人是从哪儿冒出来的？！鬼魂吗！",
+			say = "Aaaaaack! Where the bloody hell did you come from?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "……伊丽莎白？你不是在女王之光号上么，为什么会来这里……？",
+			say = "Elizabeth? Weren't you on the Queen's Light?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "什么女王之光号啊？！贝、贝法……快把这个可疑的人从本王的指挥室里赶走！",
+			say = "Queen's Light...? Bel! Apprehend this stranger at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 202120,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "遵命，陛下……咳咳。",
+			say = "Understood, Your Majesty. *cough*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "啊，等等！本王忘了，你原地休息疗伤，不用过来了！本王这边自己能解决！",
+			say = "Argh, fine! You just sit there and rest. We will take care of this ourselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（伊丽莎白女王·META的反应十分奇怪……）",
+			say = "(Everyone's acting weird...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（难道……这又是一个展现记录的空间，而她是此处空间记录中的伊丽莎白么。）",
+			say = "(Actually, this might just be another memory like the Samos Island. And if Elizabeth is right before my eyes...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（暗中拨通在后方进行支援的伊丽莎白的通讯器，通讯没能接通。）",
+			say = "(...My communicator isn't reaching the Elizabeth in the train, after all. I guess there can only be one at a time in here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（果然……而且就连贝尔法斯特都受伤了……这支舰队此时的情况不容乐观。）",
+			say = "(Belfast is injured. This isn't a very reassuring situation.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,10 +197,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#5CE6FF",
-			say = "陛下，前方有一支X的巡逻队挡在了我们的撤退路线上。",
+			say = "Your Majesty, the X fleet has blocked our retreat route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……规模与类型。",
+			say = "...What kind, and how many?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#5CE6FF",
-			say = "数只V级拟态兽，千只以上拟态物，还伴随着大约五平方海里的「附着区」。",
+			say = "A Class-V mimic beast, over a thousand mimic entities, and a vector zone of five square nautical miles.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "区区几只V级……这种程度，要是本王的舰队状态良好的话……",
+			say = "We're struggling to handle a single Class-V? Gah, if only our fleet were in better condition...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……寻找绕行航线，避免无意义的消耗战。",
+			say = "Set course for a detour. We mean to avoid unnecessary combat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 205040,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……遵命。",
+			say = "Yes, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "伊丽莎白，敌人正在从四面八方包围过来，我们没时间绕行了。",
+			say = "Your Majesty. Enemies approach from all angles. We have no time for detours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			actor = 9707040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "V级拟态兽带领的巡逻队我这边也能应付。刚才的战斗中，你的舰队损耗太大，不如交给我好了。",
+			say = "I can handle a Class-V mimic beast alone. Given the losses your fleet has suffered, I would suggest leaving it in my hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……就算能打穿，也会出现大量死伤者。",
+			say = "...Even if we can break through, the casualties will be enormous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……这样好了，本王为你们殿后，其他人利用本王拖延的时间，绕路走。",
+			say = "Here's the plan. We will bring up the rear. While we distract the enemy, the rest of you can detour and escape.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "……你，想寻死？",
+			say = "Is this a roundabout means of suicide?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "对于这场大败，本王有无可推卸之责任。",
+			say = "No. The responsibility for this devastating defeat lies on our shoulders alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所以至少……让本王做些弥补吧。",
+			say = "Please... Allow us to make amends for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "……这样只是逃避而已，对于全局于事无补。",
+			say = "If I may, I think you're only trying to run away. Your death would do nothing to improve the overall situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "虽然这种事你肯定也知道就是了。",
+			say = "But you already know that, I'm sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "两百余艘军舰，一百余艘舰船从港口出发……如今只剩不到三成。",
+			say = "We had a fleet of two hundred ships and one hundred KAN-SEN. Now, we're down to less than thirty percent...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "其他战线也大差不差……",
+			say = "The other fronts in this battle don't fare much better...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这是我们……这么多年来积攒的家底啊……",
+			say = "Tch... We put so much time and effort into gathering that force.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……本王已经不想再命令任何人去死了。",
+			say = "We don't want to see anyone else die...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			actor = 202120,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……陛下，不可以。",
+			say = "Your Majesty, this is doomed to fail.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 205030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "从古至今，皇家海军什么时候有过弃女王于不顾的事？",
+			say = "The Royal Navy would never abandon you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			actor = 205030,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "陛下，您刚才的命令，恕我们无法接受。",
+			say = "I'm sorry, Your Majesty, but we won't accept those orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#FFC960",
-			say = "咳……咳咳……",
+			say = "*cough*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#FFC960",
-			say = "敌人的情况变化是任何人事先都没能事先料到的，不是你的责任……",
+			say = "Hey, you can't predict the enemy's strength with any certainty. It's not your fault...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "不要放弃，伊丽莎白女王，我们不是说好要一起回家的么！",
+			say = "Don't give up, Your Majesty! You promised we'd make it home together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CE6FF",
-			say = "前方之敌……最多伤亡三成就能通过，要是绕路……虽然能躲得过一时，但会陷入更深的包围的。",
+			say = "With these numbers, I think we can make it through with a casualty rate of thirty percent. Detouring could buy us time, but it could also draw us deeper into a corner...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#5CE6FF",
-			say = "皇家海军……见敌必战。",
+			say = "The Royal Navy stands and fights.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#5CE6FF",
-			say = "不论遭遇到何种危局……都让我们一同面对吧……陛下。",
+			say = "No matter how dire the circumstances, we must face them together, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#5CE6FF",
-			say = "嗯……陛下，我们一同突围吧！",
+			say = "Yeah. Let's break through this encirclement together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,10 +749,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -763,7 +763,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "通讯器再次响起了，不过这次响起的，不是伊丽莎白的通讯器。",
+			say = "A communicator beeps again – not Elizabeth's, but mine this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "助手，太好了，终于联系上你了。",
+			say = "Comma... Ahem. Assistant, thank goodness I've finally reached you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -791,7 +791,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "……安洁？！",
+			say = "Dr. Anzeel... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "安洁？！！",
+			say = "Did you say Dr. Anzeel?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "咦，伊丽莎白你怎么会和助手在一起？",
+			say = "E-Elizabeth? Why are you with my assistant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "突然出现在本王指挥室内的是你的……助手？",
+			say = "Hm? The person who dropped in here out of nowhere was your ASSISTANT?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "没错哦。",
+			say = "Yep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……那就当是这样吧。安洁，理事会情况怎么样？",
+			say = "...We will accept that as truth. Anzeel, how are things with the Council?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "放心，我们都还安全。一些失散的舰队也陆续返回了撤离点。",
+			say = "Everyone's safe here. Some of the lost fleets are arriving at the rendezvous point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "如此甚好……",
+			say = "That's a relief...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "所以，你们也赶紧回来吧。",
+			say = "You'd better get your butt back here too, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我们……正在准备进行下一场突围作战。",
+			say = "We... are currently planning our escape.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -972,7 +972,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "但是鉴于我们的位置距离后方实在太远，恐怕是凶多吉少了。",
+			say = "We've strayed too far from our allies, though, so the odds are... not in our favour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……不要放弃，伊丽莎白，希望就在我们身边。",
+			say = "Elizabeth, don't give up yet. Hope is right there by your side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1006,7 +1006,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "接下来的战斗，你可以将舰队指挥权交给助手么？",
+			say = "Can I get you to surrender leadership of the battle to my assistant there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "交给这个人……？你确定么？",
+			say = "Surrender leadership? To this stranger? Have you lost your mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我十分确定，助手一定会带你们脱离困境的。",
+			say = "Don't worry. I'm certain my assistant – the Commander – will lead you to victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……好吧，我相信你。况且……我本来也必须要听你的命令就是了……",
+			say = "...Fine, fine, we trust you. Of course, we're supposed to obey your orders to begin with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1074,7 +1074,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "呵呵。助手，后续还有一支强力援军在路上，按照你的想法放手去做吧。",
+			say = "Alright, Commander, go wild. Reinforcements are on the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1091,7 +1091,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我等你平安回来。",
+			say = "I'm waiting for you to come home to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "安洁，你……",
+			say = "Dr. Anzeel? Wait, you're...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1119,7 +1119,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯？我怎么了？",
+			say = "Hm? Were you saying something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1134,7 +1134,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "……没事，你那边也小心。",
+			say = "Don't worry about it. You be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,24 +1147,7 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯，不用担心我，我很安全。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_504",
-			actor = 900332,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			say = "对了，别忘了，你绝对不能离开浮空舰与X有任何形式的直接接触哦。",
+			say = "No need to worry about me. We're in a safe place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,7 +1164,24 @@ return {
 			actor = 900332,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "安洁通讯结束。",
+			say = "Also, don't stray away from the flying battleships. And avoid contact with the X at all costs.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_504",
+			actor = 900332,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			say = "Hanging up now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（……这次的安洁，只能是她了。）",
+			say = "(Hmm. The way this Anzeel talks, I think I know who she really is.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（……所以在那时，我不曾出现在这里，安洁也不曾联络过这里。）",
+			say = "(So in this memory, Dr. Anzeel and I were totally absent.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1218,7 +1218,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（等待这支舰队的结果……只有彻底的毁灭么。）",
+			say = "(That means, if we advance as we are, only death and destruction await...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1231,7 +1231,7 @@ return {
 			actor = 9705040,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没想到你居然是安洁那么看重的人啊……也好，那就让本王看看你的本事吧。",
+			say = "Anzeel has awfully high hopes for you. Go on, then – show us what you can do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1249,7 +1249,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "接下来，指挥官，你的第一个命令是？",
+			say = "What will your first order be, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "将各舰情况和所有可用资源以最快速度汇总给我。",
+			say = "I need a damage report on all ships and info on what weapons, personnel, and resources are available to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1275,7 +1275,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "目前还能战斗的舰船去第一线，常规军舰在第二线，摆出防御阵型固守待援。",
+			say = "In the meantime, all ships who can fight will head to the first defensive line. Put mass-produced ships on the second defensive line. We're planting our feet firmly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1289,7 +1289,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "……固守待援？现在战局已经全面崩盘……不会有援军了。",
+			say = "Planting our feet? But the battle lines are a total mess. And we don't know if reinforcements really...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "安洁说有，就会有。",
+			say = "Anzeel said there are reinforcements. Trust her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1315,7 +1315,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "所有人不要放弃希望，准备战斗。",
+			say = "Fight until the last light has faded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1329,7 +1329,7 @@ return {
 			dir = 1,
 			actor = 9707040,
 			nameColor = "#FFC960",
-			say = "……遵命。",
+			say = "Yes, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1343,7 +1343,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "收到命令后，各舰都快速行动起来。",
+			say = "My orders are based on intuition, but all ships quickly spring into action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1370,7 +1370,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "我来到甲板上，于半空中眺望着这片阴沉的海域。",
+			say = "From the flying battleship that I'd only read of in Guam's reports, I gaze upon the dark sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1380,7 +1380,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "远方，风暴正在凝聚。",
+			say = "In the distance, a great storm brews.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1390,7 +1390,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "风暴之下，散发着幽蓝色光芒的流体物质漂浮在海中，如同水面上的浮萍。",
+			say = "Beneath the storm, a fluid emitting an uncanny blue light coats the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1609,7 +1609,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "浮萍之中，更多无法辨认的独立个体爬动着、喧嚣着。",
+			say = "Countless things seem to stagger, squirm, and crowd upon it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1829,7 +1829,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "这就是世界α曾经面对的敌人……也是我们今后要面对的、无法回避的敌人。",
+			say = "So this is the alpha timeline's enemy... One that we'll be forced to face in our world's future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1840,7 +1840,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "「X」……终于见到你们了。",
+			say = "You've finally shown yourselves... \"X\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

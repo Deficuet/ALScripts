@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击任务",
+				text = "Tap here to review your current growth goals.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击按钮领取奖励",
+				text = "Tap the button to claim your rewards.",
 				mode = 2,
 				delay = 0.3,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "Tap your screen to return.",
 				mode = 2,
 				delay = 0.5,
 				char = 1,
@@ -64,7 +64,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击返回主界面",
+				text = "Tap to return to the main screen.",
 				mode = 2,
 				posY = -350,
 				char = 1,

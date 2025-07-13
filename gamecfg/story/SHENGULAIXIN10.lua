@@ -13,7 +13,7 @@ return {
 			live2d = "login",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你来了？那就让我们的宴会就开始吧。",
+			say = "Ah, you've come. Then let us begin the feast.",
 			bgm = "theme-room-rosy",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "{playername}，热烈庆祝你成为深谷病院新的董事长~",
+			say = "Allow me to congratulate you on becoming the board chairman of Valley Hospital, {playername}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "宽敞明亮的厅堂点缀着精致华美的装饰，熠熠生辉。",
+			say = "The bright, spacious hall is adorned with striking decorations, shining with a gorgeous light.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "与我一同掌控着这间医院的{namecode:91:赤城}，悠然自得地斜倚在高背椅上，慵懒而矜贵。",
+			say = "Akagi, who shares control of the hospital with me, leans gracefully against the high backrest of her chair, exuding a leisurely yet refined aura.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不过，作为宴会而言，似乎有些过于安静了。",
+			say = "If I have one issue with this feast, it's that it's just a bit too quiet.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			actor = 307014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "参加宴会的只有我们么？",
+			say = "Is it just us here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "当然只有我们啦~呵呵~",
+			say = "Why, yes, of course it's just us. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "亦或是……你还想看到谁出现在这里呢~？",
+			say = "Are you saying that you wished someone else would've come?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}脸上仍挂着甜美的微笑，但那双幽深的眸子中却是难以掩饰的占有欲。",
+			say = "Above her sweetly curved lips is a pair of eyes filled with unmistakable possessiveness.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "好啦~快过来我这里吧，今夜我们定要一醉方休哦~",
+			say = "Now, come to me, please. Let us drink the night away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}懒洋洋地抬着手，轻佻又危险地勾了勾纤长白皙的手指，示意我过去。",
+			say = "Lifting one hand, she provocatively curls up a fair, supple finger, beckoning me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我走到了{namecode:91:赤城}的身边坐下，她又递来了自己手中的酒杯，其中还剩半杯清澄的美酒。",
+			say = "Spurred on, I take a seat right next to her, and she hands me her half-full glass of clear, high-quality drink.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "这酒入口顺滑绵软，先来点解解闷如何？",
+			say = "Its texture is velvety, and its taste, utterly delectable. Won't you have a little, to start with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "饭菜还要稍晚一些才能准备好呢。",
+			say = "After all, it will be a little while longer before the dinner is ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "温润漂亮的酒杯之上，印着她淡淡的唇印。",
+			say = "On the rim of the beautiful glass is attached a soft imprint – that of her lips.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -234,11 +234,11 @@ return {
 			},
 			options = {
 				{
-					content = "就着唇印饮酒",
+					content = "(Accept her offer.)",
 					flag = 1
 				},
 				{
-					content = "换个位置饮酒",
+					content = "(Accept, but reluctantly.)",
 					flag = 2
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接过{namecode:91:赤城}手中的酒杯，就着唇印将美酒一饮而尽。",
+			say = "I take the glass from her and drink along the imprint of her lips, downing it all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "董事长大人，还真是直白呢……呵呵~",
+			say = "How daring of you, my esteemed chairman... Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那要不要试试用更直白的方式解闷呢~？",
+			say = "You shouldn't be afraid to take a more direct approach to relieving boredom, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接过{namecode:91:赤城}手中的酒杯，换个位置将美酒一饮而尽。",
+			say = "I take the glass from her and drink from a spot her lips haven't touched, downing it all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "董事长大人，这是害羞了~？呵呵~",
+			say = "My, my, esteemed chairman, is there still something holding you back? Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "这么容易害羞可不行啊，毕竟接下来……呵呵……",
+			say = "We can't have any moderation tonight. For you see, what comes next... Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随着{namecode:91:赤城}的话音落下，我的小腿便感觉到了若有若无的触碰。",
+			say = "As soon as she finishes speaking, it feels like someone is touching my calf.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "低头看去，她脚踝上的红绳掠过我的小腿，留下了暧昧的痕迹。",
+			say = "Looking down, I see the red string wrapped around her ankle is brushing against my calf.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "接着，她的双足落地，伴随着身上饰品撞击发出的清脆响声，{namecode:91:赤城}站了起来。",
+			say = "Then, with a clear jingle from the accessories adorning her body, she stands up.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -380,7 +380,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "少女轻盈地两三步到我面前，俯下身来，双眸直勾勾地看着我。",
+			say = "She cuts the distance between us with easy steps, then bends forward before me and looks right into my eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "身后的尾巴缠绕住了我的身体，不容拒绝地将我拉近。",
+			say = "The many tails behind her quickly wrap around my body, pulling me closer without any regard for my consent.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她身上若有若无的酒气混着独特的香气交织着，温热的吐息落在我的耳畔。",
+			say = "The subduedly sweet aroma of the drink mingles with Akagi's own scent, as her warm breath tickles my ear.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307014,
-			say = "董事长大人，闭上眼睛……好好享受这场只属于你我的盛宴吧♡~",
+			say = "Close your eyes... and enjoy this feast for just you and I♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

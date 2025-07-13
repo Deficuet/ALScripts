@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>四　生路</size>",
+					"Whence the Dust Settles\n\n<size=45>4 Hope</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "房间中，{namecode:182:信浓}凝视着手中的护符陷入了沉思。",
+			say = "Over in the Orthodoxy's capital, Shinano retired to her room for the night, having accomplished her mission.",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "恍然间，一股奇妙的感觉萦绕而来。",
+			say = "In her hand was the Watatsumi fragment that awoke her from her illusion. She stared at it, and a strange feeling suddenly welled in her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "那是一种无比熟悉，却又因长久未曾出现而变得陌生的感觉。",
+			say = "A feeling so familiar, so old.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "那是，入梦的感觉——",
+			say = "It was the feeling of slipping into a dream again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "映入眼帘的是一处暗红色的世界。",
+			say = "A blood moon shone on a world wrapped in dark mist. Countless red spider lilies bloomed all around.",
 			bgm = "story-nailuo-theme",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三途川，彼岸花……",
+			say = "The Sanzu River... Spider lilies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此处正在举行某种仪式……",
+			say = "Some sort of ritual is taking place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}看向天空，空中流淌的无数能量，正在向着一棵枯萎的巨大樱花树缓慢汇聚着。",
+			say = "She looked up at the sky and knew intuitively that power was flowing into that massive, dead tree at the center of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "那棵枯萎的樱花树……也是神木么？",
+			say = "A withered sakura tree... Is it a Sacred Sakura?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对……虽然都与海若有关。但，本质不同……",
+			say = "Nay... Connected to the Watatsumi though it may be, its essence is different...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此为……由海若直接孕育而生之物……？！",
+			say = "Could this be an entity... CREATED by the Watatsumi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}感受着天地间流动的气息，希望能从中得到更多情报。",
+			say = "Sensing a strange energy coursing through the skies and lands, she tried to extract information from the dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "朱红之中，她感受到了一抹堇色。",
+			say = "Then, a streak of purple crossed her mind in this deep red world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……{namecode:84:武藏}？",
+			say = "...Musashi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "堇色的身影行走在彼岸花海中。",
+			say = "There, in the sea of spider lilies, a figure stood out – Shinano could sense that it was Musashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "……很好，敌人的注意力全都被吸引了过来，{namecode:96:瑞鹤}可以畅行无阻了。",
+			say = "Good... I drew the attention of all the enemies. None should stand in Zuikaku's way now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……原本此行只为了打破仪式守护结界，没想到她会跟来……为此局又增加了一个变数。",
+			say = "My only goal was to destroy the protective barrier around the ritual, and I never knew she was following me...This adds another variable to consider.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84:武藏}，汝身上的这股反应……汝到底做了什么？！",
+			say = "Musashi... Your body, it's... What did you do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "堇色的身影没有理会{namecode:182:信浓}的呼喊，就仿佛她根本不存在于此地一样。",
+			say = "Musashi did not answer. In fact, she seemed wholly unaware of Shinano's existence as she began to use the power of her secret weapon again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84:武藏}——！",
+			say = "Musashi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}用力伸出手，可是手指径直穿过了{namecode:84:武藏}的肩头，如同穿过了一团清风。",
+			say = "Shinano tried to grab her shoulder, but her hand slipped right through Musashi's body, like she were a ghost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "咳、维持决战兵器的激活状态果然负荷很大……得尽快行动了。",
+			say = "*cough cough*... Even just maintaining this state is draining all my energy... I need to move, fast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "堇色的身影回望了一眼樱花树的方向，而后重新开始了移动。",
+			say = "Musashi looked behind her at the great tree at the world's center and began moving once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "一路之上，堇色的身影不断驱动着那股不可思议、又持续消耗着她生命力的力量。",
+			say = "Pouring her very life essence into her \"trump card,\" Musashi walked forward through the ritual's barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "黑色的浪潮无数次汇聚，又无数次溃散。",
+			say = "Though the black mist attacked her again and again, she struck it down each time, sending it flying in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "终于，堇色的身影倒下了。",
+			say = "This back and forth of attacking and defending continued for an eternity, until finally, Musashi's soul was on the brink of extinguishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真静啊……",
+			say = "Not so much as a sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……如海潮般的魑魅魍魉，居然被「中和」的如此干净。",
+			say = "So easily neutralizing a wave of demons that blanketed the sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:39:神通}确实诚不欺我……决战兵器，一旦彻底完成的话……",
+			say = "Jintsuu wasn't exaggerating. And this trump card isn't even fully completed yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……可惜，这个兵器不是什么人都能驾驭得了的。",
+			say = "But such a weapon is beyond any individual's control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好……这次作为核心的人是我。",
+			say = "It's fortunate that I was at the core this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果是{namecode:182:信浓}……恐怕是走不到这一步的吧。",
+			say = "Shinano wouldn't... have...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:84:武藏}。",
+			say = "Musashi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果吾能早些正视自己的力量，早些摆脱浑浑噩噩的状态……",
+			say = "If only I had faced my own strength sooner and shook off my doubt, I could've helped you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……现在亦不晚……",
+			say = "Nay. It isn't too late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "吾等的诞生皆与海若有关……吾等的力量，也应该是相连的！",
+			say = "If the Yamato class' strength truly is tied to the Watatsumi, then surely this one can help you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定、一定有什么办法……",
+			say = "There must be a way... Somehow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}，思考……快思考！",
+			say = "Think, think... I need something now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "堇色的身影突然露出了一个凄美的微笑。",
+			say = "That moment, Shinano saw a smile form on Musashi's face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,21 +637,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "明知她此时绝不可能看到自己，{namecode:182:信浓}还是不禁愣神了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 7,
-			side = 2,
-			bgName = "bg_bianzhihua_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "……生亦何欢，死亦何惧。",
+			say = "She knew Musashi wasn't smiling at her, and yet, it shook her core all the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +651,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "……人生五十年，如梦亦似幻。一度得生者，岂有不灭者乎？",
+			say = "That this end would come was only natural. I have regrets, but I will not fear...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 7,
+			side = 2,
+			bgName = "bg_bianzhihua_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "All that lives must die. In this world, ships and humans alike are but fleeting phantasms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "哈哈……哈哈哈哈哈……",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要……",
+			say = "No...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "吾将用这最后一击，用一条绝路，换出无数条生路！",
+			say = "May this final blow bring the light of hope into this desolation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "等等，妾身一定有办法……",
+			say = "Wait, Musashi... There must be another way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "「彼岸之花，三途之川，蝶影翩跹，一叶渡黄泉。」",
+			say = "\"Sever the pall of eternity, that I may become a leaf floating to the other side.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,7 +750,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要——————！",
+			say = "NOOOOO!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「斩————」",
+			say = "\"Steel... clash!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "金色的蝴蝶群如旭日般自{namecode:182:信浓}的身上迸发而出，点亮了水面，亦点亮了这个暗红色的世界。",
+			say = "Abruptly, a swarm of golden butterflies glowing like the morning sun surrounded Shinano. They lit up the sea and the dark sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_3",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是如同幻想画般的风景。",
+			say = "The light receded, and she found herself in a place she had seen so many times before.",
 			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虚幻与真实的夹缝，连通梦境的休息间……",
+			say = "The boundary line between the waking and the sleeping world... The fragmentary space that connects dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身，终于又能来到此处了……",
+			say = "Finally... I'm finally back here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_3",
 			hidePaintObj = true,
-			say = "与往日不同的是，空间之中飞舞着无数金色的蝴蝶。",
+			say = "The two waves endlessly lapping at each other. The boundless realm. The no man's land she sees only in her dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_3",
 			hidePaintObj = true,
-			say = "蝴蝶群的飞行轨迹有序而明晰，在空中留下了一道道清晰的金线。",
+			say = "Looking up, she saw something she had never seen here before – golden butterflies, grouping together and flying into the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,7 +922,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_3",
 			hidePaintObj = true,
-			say = "而金线的尽头，则是一扇扇被点亮的鸟居。",
+			say = "In that distance – red torii gates. The gates that connect fragmented dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_3",
 			hidePaintObj = true,
-			say = "鸟居连通着梦境，而这一条条金线，就仿佛是在指明一条条前进的道路一般——",
+			say = "The butterflies connected the gates through many glittering lines, seemingly guiding Shinano to the next dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

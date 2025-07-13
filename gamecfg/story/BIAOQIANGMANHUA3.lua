@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>三　……奇怪的信？</size>",
+					"Javelin's Monthly Manga\n\n<size=45>Chapter 3 - A Strange Letter...?</size>",
 					1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「致美丽的J级女士，是时候向你传达我的话语了」</size>",
+					"<size=60>\"Splendid young lady of the J-class, there are words that I must share with you.\"</size>",
 					0
 				}
 			}
@@ -58,7 +58,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「巨大时钟的指针指向IV之时，我将在盛放的花下等待」</size>",
+					"<size=60>\"When the grand bell strikes IV, I shall be waiting for you underneath the blooming flowers.\"</size>",
 					0
 				}
 			}
@@ -73,7 +73,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「愿你得到世界的真实与爱——」</size>",
+					"<size=60>\"There, you shall receive the truth and love of this world.\"</size>",
 					0
 				}
 			}
@@ -88,7 +88,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「喵罐　好吃」</size>",
+					"<size=60></size>",
 					0
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这都是什么？",
+			say = "What's all this nonsense...?",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来以为是皇家方舟，看起来似乎也不是",
+			say = "I thought for sure it was from Ark Royal, but guess not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看不出来是谁写的",
+			say = "I can't tell who sent it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是封奇怪的匿名信呢……",
+			say = "This definitely is \"objectionable literature.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这究竟是什么意思呢…巨大的钟、盛放的花又是什么…",
+			say = "What's this talking about, though? Grand bell tower... underneath the blooming flowers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,13 +176,13 @@ return {
 		},
 		{
 			actor = 101170,
-			actorName = "拉菲&{namecode:6}",
+			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
-			say = "问问其他人吧\n问问其他人的说",
+			actorName = "Laffey & Ayanami",
+			say = "Let's ask around!",
 			subActors = {
 				{
 					actor = 301050,
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独角兽也不是很清楚……",
+			say = "Unicorn doesn't really get it either...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "类似的信…？从、从来没有收到过哦！？",
+			say = "A similar letter...? Um, I've n-never gotten anything of the sort?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，世界的真实…难道写信的人是“能力者”…！？",
+			say = "Hmm... the truth of this world... I knew it, whoever sent this letter must be an \"Esper!\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不可能的。从中感受不到人任何力量<Force>的波动！",
+			say = "Impossible. I can't feel any †Force† coming from this letter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是{namecode:411}也不会写这么中二的文字啦——",
+			say = "Even the Devilish Idol has never written such a powerful document before~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…确实不是很好理解，但并非无法解读。",
+			say = "Tis true, this document is hard to read. But fear not, for we can interpret it.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的嘛！？{namecode:412}，帮大忙了！",
+			say = "Really?! Viersechs, you're the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先为了友人的名誉，我可以断言这个不是{namecode:438}写的。",
+			say = "But first I must clear, the name of my friend. This did not come from Graf Zeppelin's hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这么说的话……",
+			say = "If that's the case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大的钟指的的学院的钟，盛放的花…考虑到现在的时间，应该可以认定是重樱移栽过来来的樱花。",
+			say = "The grand bell must be, the school's clock tower. The blooming flowers, the Sakura dorm. This time of the year, their flowers doth bloom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意思是“下午4点到中庭的樱花树下来“的说？",
+			say = "In other words, \"at 4 P.M., meet me underneath the cherry tree in the Sakura dorm's courtyard.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我、我知道了！",
+			say = "Th-that's it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪，fight",
+			say = "Javelin, fight on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "「神秘的信，写信者的真实身份究竟是——」",
+			say = "\"Just what is the identity of the mysterious letter's sender...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

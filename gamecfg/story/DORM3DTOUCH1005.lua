@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DTOUCH1005",
 	alpha = 0,
+	id = "DORM3DTOUCH1005",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}？这样会什么都看不到的。",
+			say = "主人？这样会什么都看不到的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

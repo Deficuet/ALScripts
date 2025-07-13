@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>金日煦风</size>",
+					"Invitation of the Wind\n\n<size=45>1 Splendid Breeze</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_118",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "一个日丽风清的日子，应克莱蒙梭的邀请来到了高尔夫球场——",
+			say = "On one fine, sunny day, Clemenceau invites me out to the golf course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "嗯，今天的风，既不喧嚣，也不沉寂，真是恰到好处。",
+			say = "The wind isn't too loud or too quiet. It's just right for golf.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不论是风速，还是吹拂到脸上的那种和煦的感觉都是如此。",
+			say = "Both the wind speed and the soft sensation of the wind touching your cheeks are perfect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "指挥官，有你的陪伴，今天应该不会无聊呢。",
+			say = "Even better, my dear Commander is by my side. Today is shaping up to be a good one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "稍微有些担心？",
+			say = "My, you look worried about something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "呵呵，放宽心，不会打高尔夫也没关系……",
+			say = "Relax. Even if you're a poor golfer, I won't make fun of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "今天，我会好好指导你的。",
+			say = "I'll patiently teach you all the ins and outs of the sport, okay? Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官的站位很合理呢，看来提前做过功课了。",
+			say = "Your stance looks great~ Did someone study ahead of time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "那~这里的功课呢？",
+			say = "But I wonder how well you practiced... this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "克莱蒙梭绕到了我的身后，轻轻揉捏着我的手腕与肩膀。",
+			say = "Suddenly, Clemenceau circles behind me and massages my hands and shoulders while I hold the club.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "球杆的握法和站立的姿势都挑不出毛病。",
+			say = "Your stance and grip are flawless, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "但，还没挥杆前，肌肉就这么紧绷可不行哦。",
+			say = "You shouldn't tense up so much before you swing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "克莱蒙梭散发出的温暖，从背后轻轻的包围了过来。",
+			say = "I feel Clemenceau's warmth through my back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "还有，你的目光现在应该集中在球上，不是我的脸上吧？",
+			say = "Focus on the ball, not on me, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "呵呵~接下来，将球杆举到肩膀上方，开始做击球前的准备。",
+			say = "There. Raise your club, and prepare to hit the ball.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "上半身稍微向前倾斜，膝盖微微弯曲……",
+			say = "Lean your upper body forward just slightly, bend your knees a tiny bit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "感觉指挥官有些害羞呢，不用太在意我的手，我只是在纠正你的动作而已。",
+			say = "Are you embarrassed? Don't be. I'm only getting handsy to right your posture, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接下来就是击球了，击球时除了肩膀和手臂，这里也要发力哦~",
+			say = "Next, the shot itself. While you do need to put force behind your shoulders and arms, you also need to do so here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "腰部感受到了手指的触感，克莱蒙梭则露出恶作剧得逞般的表情。",
+			say = "Clemenceau's fingers trace around my waist. She's looking awfully mischievous, for someone who's \"just fixing my posture.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "呵呵呵~发出了可爱的声音呢~",
+			say = "Aww, you make such pitifully adorable noises... Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "再之后，就是维持身体的平衡，迅速地击球。",
+			say = "Carefully maintain your balance, and hit the ball with a fast swing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明白了的话，现在就试试吧？",
+			say = "Got it? Ready to give it a try?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "干脆利落，一杆进洞~",
+			say = "Let's see your hole-in-one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "克莱蒙梭向后退去，背后传来的温度也随之消失了。",
+			say = "Clemenceau steps back, and I'm released from her warm touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,14 +451,14 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然如此————",
+			say = "(Now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "挥下球杆",
+					content = "(Swing the club.)",
 					flag = 1
 				}
 			}
@@ -471,7 +471,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "———什么事都没有发生。",
+			say = "...Nothing happens. The ball still sits proudly atop the tee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "名为高尔夫球的物体，还静静的待在球座上。",
+			say = "(I was so embarrassed that I missed my swing.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "唔……你看上去还是有些紧张，身体也有些太僵硬了。",
+			say = "Hmm... You're still nervous, and it's making you tense up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呵呵~看来指挥官还需要更多的指导呢。",
+			say = "Heheh, it looks like you'll need more of my guidance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那就让我们开始吧？",
+			say = "We'd best get started, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "时间还早，我们还有一整天的时间呢~",
+			say = "The day is still young... We have plenty of time together♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "克莱蒙梭再次从背后贴了过来，将头靠在我的肩膀上小声耳语道——",
+			say = "Clemenceau whispers into my ear, her warm touch against my back again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，因为缺乏供能，此处塞壬塞壬特殊通行装置暂时无法使用。",
+			say = "Scan complete. The transference device is in offline mode as it lacks an energy supply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

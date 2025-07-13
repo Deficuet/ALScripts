@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>七 纯白</size>",
+					"White Poem\n\n<size=45>VII Pure White</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "“不是这样”——作为兵器存在的我，被否定了。那么我的颜色，并不是灰色",
+			say = "\"That isn't true.\" Words rejecting my existence as a weapon. Words that rejected the gray I had become.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "“{namecode:412}有想法也有愿望，是一个人”——并不是毫无自我的纯粹。那么我的颜色，也不是透明",
+			say = "\"Viersechs has her own thoughts and her desires, therefore she is human.\" I am not a pure being that lacks an ego. Therefore, I am not transparent.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			say = "“{namecode:412}应该更珍重自己”——只有一时虚名的存在，却确实拥有着值得珍惜的“自己”。",
+			say = "\"Viersechs should cherish herself more.\" Though my name is a borrowed one, \"I\" am still worth cherishing.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "那么，试问——",
+			say = "Then... I must know...",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "挚爱的人啊，我究竟是何颜色？",
+			say = "Oh my beloved, what color am I?",
 			bgmDelay = 2,
 			bgm = "story-2",
 			flashout = {
@@ -101,7 +101,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "请你告诉我。究竟你期望的“我”，是什么样的？",
+			say = "Please teach me the meaning of being \"me.\" How do I become the \"me\" you desire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我会试着成为，你所希望的那个存在。",
+			say = "I will change myself so I can be yours, the kind of person you'd want me to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——“{namecode:412}只要，做{namecode:412}自己就好”",
+			say = "—— \"Viersechs, just be yourself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,21 +139,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "我得到了答案。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "我的颜色…应是白色（Weiß）。",
+			say = "I received my answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +153,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "为染上你的颜色，将原本透明的自身染为白色的愚昧之“物”——",
+			say = "My color... should be Weiss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +167,21 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "要成为纵使无数次满身战争的硝烟，也将洗尽心中灰色的“人”。",
+			say = "So that you may dye me with your color, I have dyed myself an innocent white.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "No matter how many times I am stained with smoke and soot, I want to become the kind of \"person\" who can wash away the grayness inside her heart over and over again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "向着这誓言，向着眼前的“指挥官”，献上力所能及的所有。",
+			say = "With this vow I dedicate to you, the \"Commander\" who stands in front of me, I pledge to give all of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "话语、拥抱、亲吻。一切一切的祝福。",
+			say = "My words, my embrace, my kiss. And all of my blessings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "但愿，纯白的我能成为，你所期望的存在——",
+			say = "I hope that I can become... the pure white that you desire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

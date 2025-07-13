@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "——此处乃重樱圣地，尊贵之人所处的居所。",
+			say = "In the Sakura Empire's Sanctuary, an heir to great power stood amidst comfort and luxury.",
 			bgm = "story-mayrain",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "宏伟城池的天守阁中，黑发的丽人正独自眺望着远方。",
+			say = "Standing in a pagoda that stretched towards the heavens, a black-haired woman rested her hand against the railing, casting her eyes across the sea of clouds below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "晨曦透过薄雾落在她的身上，于木质的地板上落下纤长的淡影。",
+			say = "The first rays of morning's light pushed through the clouds, leaving a slender shadow across the wooden floorboards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "雷雨迫近了啊……",
+			actorName = "???",
+			say = "A storm is coming...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "远方的黑云依稀可见。在将至的风暴前，喧嚣的生灵已然噤声。此方世界，只余下一片无风的静籁。",
+			say = "Ominous clouds loomed on the horizon. In this still and silent world, there was no wind brushing against her cheek, no chirping of birds reaching her ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,9 +88,9 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			actor = 900330,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "结界内部不会受到影响……外部，怕是要落花纷飞了。",
+			say = "The world within this barrier will not be affected... but I'm afraid the blossoms outside will be torn from their branches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "就在黑发丽人感慨之时，身边不远处传来一阵鸟鸣声。",
+			say = "Alas, this was no time for her to wallow in sentimentality. Just as she was about to turn around and head back inside, she heard the cries of a lone and lost bird.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			actor = 900330,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "燕子？是在寻找避雨之处么。",
+			say = "A swallow? It must be seeking shelter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "黑发丽人向燕子伸出手，那燕子竟然真的抖动着翅膀落到了她的指尖之上。",
+			say = "She reached out to the swallow and the fragile creature came down and perched on her finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,9 +138,9 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			actor = 900330,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "在吾这里感受到了安全感所以贴过来了么，你这没戒心的小家伙……",
+			say = "If you've come here in search of shelter, I'm afraid you've made a mistake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,9 +152,9 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			actor = 900330,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "现正值季节迭换之时，晴雨更替可谓常态。不早做打算，在风暴到来前才临时寻找避难所可不行哦。",
+			say = "As seasons change, storms take shape – sunshine can turn into rain in the blink of an eye. One won't last long, fleeing from place to place without a plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,9 +166,9 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			actor = 900330,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "这守望远方的天守阁，可不是给你这样迷路的小家伙避雨用的，知道么？",
+			say = "The barrier surrounding this pagoda protects only the strong. It will keep me safe, but offers no relief to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "作为对于丽人话语的回应，燕子似乎点了点头，然后继续在丽人的手中安心梳理着羽毛。",
+			say = "Her words carried no meaning to the swallow, and yet, it nodded as though it understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +191,8 @@ return {
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
-			say = "……方今之时，细雨纷飞五月天。",
+			actorName = "???",
+			say = "\"My time is now. O Heavens, hear my vow. When I rise, all shall bow.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#a020f0",
-			say = "{namecode:84}大人……这句连歌，稍微有些危险哦。",
+			say = "I applaud your poetry, Musashi. I must say though, the verses are a bit ominous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "丽人之名乃为{namecode:84}，重樱之中地位最为尊贵的{namecode:83}级之一，理应掌管重樱的军事内政，身居高位之人。",
+			say = "Musashi – battleship of the Yamato class now holding the seat of the Combined Fleet flagship – looked behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "在这间绝无第二人的房间中，另一个女性的声音从某处凭空传来了。",
+			say = "Though she should've been alone, a voice spoke to her from nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "呵呵，只是一句应景的感慨罢了。客人已经来了么？",
+			say = "There's no meaning to them beyond the picture they paint. More importantly, have our guests arrived yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,12 +253,12 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#a020f0",
-			say = "即将接近结界外围，休息时间差不多该结束了，咳咳咳……",
+			say = "Yes. They're waiting outside the barrier, so I suggest we proceed to the next stage. *cough* *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了然。",
+			say = "Of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "空荡的房间再度恢复沉寂。{namecode:84}轻轻摆了摆手，燕子也随即飞起，而后消失在窗外。",
+			say = "Silence returned to the pagoda's top floor. Musashi extended her arm and gently shook her finger, sending the swallow away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
-			say = "敲门声————",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，打扰了。现在{namecode:91}大人一行已经穿过了结界，{namecode:225}正在为她们引路。",
+			say = "I've come to report. Akagi and her party have arrived outside the barrier. Wakatsuki is guiding them around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "我知道了。你也去会客室接待吧，我随后就到。",
+			say = "Alright. Head to the reception room. I'll be there soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:84}大人。",
+			say = "As you say!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "……{namecode:91}，汝居然会如此心急。",
+			say = "So you're the first to arrive, Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "城内的屋檐皆可作为避雨之所……",
+			say = "The barrier will not protect the weak from the storm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900330,
-			say = "小家伙，倘若风雨过后还能飞翔，还是尽快去往远方吧——",
+			say = "So instead, I will protect you myself. Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,31 +433,31 @@ return {
 			bgm = "story-maystorm",
 			sequence = {
 				{
-					"「此世非常栖之所」",
+					"Three invitations were sent out across the Sakura Empire.",
 					1
 				},
 				{
-					"「浮生之迅疾微细，尤胜草间白露、水中孤月」",
+					"One to Mikasa, who was in pursuit of truth with nothing more than fragmented legends in hand.",
 					2
 				},
 				{
-					"「咏花之人，为无常之风所诱，荣华之梦早休」",
+					"One to Nagato, who was searching for signs of Sirens around the Sacred Sakura's seal.",
 					3
 				},
 				{
-					"「弄月之辈，为有为之云所蔽，先于明月而逝」",
+					"And one to Akagi, who had witnessed the Iron Blood's rebellion against the Sirens and returned home with the Watatsumi in hand.",
 					4
 				},
 				{
-					"「人生五十年」",
+					"Penned by Musashi, the invitations beckoned to a fateful encounter in the Sanctuary.",
 					5
 				},
 				{
-					"「比之于化天，乃如梦幻泡影」",
+					"Each person was allowed to bring five others.",
 					6
 				},
 				{
-					"「一度得生者，岂有不灭者乎？」",
+					"All would converge here for a game with higher stakes than they could imagine.",
 					7
 				}
 			}

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "在散步的时候来到了猫房。",
+			say = "During my walk, I stop by the cat lodge.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "指挥官！你看这些孩子，多可爱啊~！",
+			say = "Commander! Look how adorable all these widdle kitties are~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "阿尔及利亚抱着一只橘猫冲我打招呼，而那只橘猫似乎很是享受，正眯着眼睛呼噜个不停。",
+			say = "Algérie greets me, holding an orange tabby cat in her arms. It's purring, and its eyes are narrowed happily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "而猫房内除了阿尔及利亚之外，还有肯特，以及毫不意外会出现在这里的黎塞留。",
+			say = "I look around the room. Kent and Richelieu are there, too, as if it's the most normal thing in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "指挥官，你也来感受一下这些孩子们柔软的毛发吧？很能治愈精神。",
+			say = "Commander, would you like to feel how soft their fur is? It's ever so soothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "yohoo！{namecode:6:绫波}还会让噗噶帮忙抓新鲜的鱼给它们吃，现在每一只的皮毛的状态都变得超棒哦！",
+			say = "Ayanami's having Squawkey catch fresh fish for them, so these babies are all in perfect condition!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "肯特说着，将一只吃饱喝足正在用爪子洗脸的奶牛猫塞进了我怀里。",
+			say = "Kent pushes a tuxedo cat into my arms. Said cat has a belly full of fish and is currently taking a tongue-bath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "小猫在怀里拱了个舒服的位置趴下，我情不自禁地伸手摸了摸它的脑袋。",
+			say = "Seeing how the kitty relaxes in my arms, I can't help but pet the little guy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实很治愈……难怪你们会这么喜欢猫。",
+			say = "Soothing, for sure... I can tell why you all love these cats so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，听着这些孩子们发出来的呼噜声，也有着减轻疲劳的效果哦？",
+			say = "Heehee. Just hearing them purr is enough to drain your fatigue away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "没错~指挥官累了的时候，就过来摸摸这些孩子们吧。",
+			say = "Yeah~ Commander, if you get tired, you can come pet these babies any time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "或许是对我长时间只抚摸同一个位置感到不满，那只奶牛猫突然从我怀中一跃而起。",
+			say = "Apparently tired of me petting the same spot on its head over and over, the tuxedo cat suddenly jumps out of my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "它用前爪将设计得格外简单的门把手下压，借助体重优势为自己打开了一道可供出逃的门缝。",
+			say = "Then, it finds a doorknob within reach, stands up and puts its front paws on it, and then uses its body weight to push the door open a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Oops……它什么时候变得这么聪明了？",
+			say = "Oh no... When did you get so smart, little guy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "得赶快阻止它出逃才行吧？",
+			say = "Shouldn't we stop it from getting out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "等等——猫是一种很敏感的动物，我们必须动作轻一些，避免它应激。",
+			say = "Hold on a second. Cats are extremely sensitive beings. We must be very quiet and careful in our approach, so as to keep it from getting stressed out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "就在我们慢慢向它靠近，以为很快就能将它从门缝边捉回来时，它彻底逃出了猫房。",
+			say = "We slowly approach the door and try to snag it up close, but the cat manages to escape the cat lodge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "邮轮上有些舱室对猫来说不算绝对安全……我们得赶快把它带回来。",
+			say = "Some places on the ship aren't very safe for kitties... We must hurry and bring it back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样，肯特和我去找那孩子，阿尔及利亚留在这里安抚其它孩子们。",
+			say = "I have a plan. Kent and I will go search for it. Algérie, stay here and try to calm down the others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Ok~交给我吧！",
+			say = "Okay~ Let's do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "指挥官呢？是和我们一起去找，还是和阿尔及利亚一起？",
+			say = "Commander, what will you do? Will you search alongside us, or will you stay here with Algérie?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,11 +337,11 @@ return {
 			},
 			options = {
 				{
-					content = "和黎塞留一起",
+					content = "(Go with them.)",
 					flag = 1
 				},
 				{
-					content = "思考其它找猫的方法",
+					content = "(Think of another way.)",
 					flag = 2
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我和你们一起，安抚这里其它猫咪的事就交给阿尔及利亚了。",
+			say = "Let's look for that cat together. Algérie, can you handle comforting the cats on your own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 903020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题。",
+			say = "Yep. Leave it to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（如果是找猫的话，应该可以去那里找到吧……）",
+			say = "(A lost cat is sure to end up with her, I bet...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，我有个猜想，有可能可以在那里直接把猫带回来。",
+			say = "Wait, I have an idea. There's one place we can go that might make this easy as can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Umm?指挥官能知道它去了哪里么？",
+			say = "Umm? Commander, do you know where that kitty's going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以说只是猜想……总之先去那里找找看吧。",
+			say = "Well, it's just a prediction... but I think it's worth looking there first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "抵达{namecode:523:让·巴尔}的房间外时，果不其然看到了那只奶牛猫，以及蹲在门口和奶牛猫对视的{namecode:523:让·巴尔}。",
+			say = "When I get to Jean Bart's room, I find the tuxedo cat there just as expected. Jean Bart herself is at her door, squatting down to eye level with the cat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然在这里……这就是猫薄荷体质的含金量么。）",
+			say = "(I knew it... That's our cat magnet for you.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "说服{namecode:523:让·巴尔}当诱饵之后，成功将奶牛猫带回了猫房。",
+			say = "After convincing Jean Bart to act as bait, I manage to bring the tuxedo cat back to the cat lodge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "又在猫房里待了一阵子，得到了足够的治愈后，向黎塞留等人告别。",
+			say = "I spend a little more time in the cat lodge. Once I'm thoroughly soothed, I say goodbye to the girls there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			hidePaintObj = true,
-			say = "离睡觉的时间还早，再去哪里看看吧。",
+			say = "It's still too early for bed. Let's see what other adventures await.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>约束内的保护</size>",
+					"Path of the Chosen\n\n<size=45>2 Sworn Protection</size>",
 					1
 				}
 			}
@@ -21,11 +21,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Somewhere, in an unknown location...",
 					1
 				},
 				{
-					"海伦娜·META通讯空间",
+					"Helena META's Communication Space",
 					2
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在将马可波罗之事告知海伦娜之后的第二天深夜，突然收到了来自远方的通讯邀请。",
+			say = "I told Helena META about Marco Polo's disappearance. Late in the following night, she suddenly contacted me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "这一次，在光芒消散后映入眼帘的不是熟悉的浩瀚星空，而是一片金属构成的大地。",
+			say = "As the light fades, I find myself not in the vast, empty space that I expected, but rather in a land constructed of metal.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "大地之上，无数无人机械井然有序地忙碌着，逐渐将无序堆叠在四处的不知名材料转变为有序的高楼大厦。",
+			say = "Countless automated machines operate in perfect sync, gathering unusual materials from all directions and transforming them into an enormous building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "——一座愈发形似塞壬主机塔的钢铁都市在快速生长中。",
+			say = "It looks like the making of a steel city, like the one that surrounds a Siren's mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "对这个礼物还满意么？",
+			say = "Are you satisfied with this gift?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这还真是令人……震惊。一个正在高速重建的塞壬实验机关系统……",
+			say = "I'm speechless... I can't believe you're reconstructing a Siren experimentation structure at this speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这一切都是基于那个“幻象实验场”做到的么？",
+			say = "Is it based on the phantom test site?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不错，这个设备的正式名字叫「女皇宝球」，恩普雷斯亲自为其命名。",
+			say = "Yeah. Official designation: the Empress' Pearl. Named such by – you guessed it – the Empress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "相比于感知上的干扰，其搭载的独立运算模拟能力才是最有价值的。",
+			say = "Its value lies less in its cognitive interference skills and more in its independent computing and simulation capabilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "因此我决定启用它的另一种部署模式，作为观察者的新基地来使用。",
+			say = "That's why I decided to make it Observer's new base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个装置听上去和恩普雷斯关系匪浅，我们在使用后会不会有风险？",
+			say = "Is it safe to use, given its connection to the Empress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "放心，这个设备本质上和可量产的代行者机体一样，抵挡不了「塔」的重编程的。",
+			say = "Don't worry. It is essentially the same as a lower-level program like an Enforcer. It cannot reject being reprogrammed by the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……等等，你连其他仲裁者的代行者也能……控制下来？",
+			say = "Are you able to control the Enforcers of other Arbiters, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "只要条件合适的话。",
+			say = "Under the right conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……能逆向解析之后量产么？",
+			say = "I see. Would it be possible to reverse-engineer this machine and mass-produce it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "路要一步一步走。",
+			say = "Let's not get ahead of ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "比如你看，在拥有了完整的塞壬实验机关后，我们现在已经拥有理论上批量生产执行者系列舰队的能力了。",
+			say = "What we can mass-produce, now that we have the help of an entire Siren experimentation team, is the Executor class. In theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……理论上？",
+			say = "In theory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "「女皇宝球」不能凭空产生物资，如果要真正开动生产线的话，将会需要「塔」来提供源源不断的物资支持。",
+			say = "Well, even the Empress' Pearl can't make things out of thin air. To begin mass production in earnest, the Tower would have to constantly supply us with materials.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "而这种行为……存在风险。",
+			say = "Doing that... comes with a lot of risk, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只要是物资就行的话……要不考虑一下从其他星球收集，比如……火星？",
+			say = "If it's materials you need, you can just take them from other planets if you have to. How about... Mars?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "根据我的观察，「塔」是一艘星舰吧。",
+			say = "I mean, the Tower is capable of interstellar travel, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不是你理解意义上的星舰。而且绝对不行，安蒂克丝不能走向群星。",
+			say = "No. The Tower isn't like that, and Antiochus must never venture into space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这件事我只能说与安蒂克丝的底层协议有关，具体不要问。",
+			say = "All I can say is that it's a part of their core programming. Don't ask for details.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "相比这些，当前阶段「女皇宝球」对我们最大的价值不在生产，而在模拟。",
+			say = "Anyway, back on topic. Currently, the main purpose of the Empress' Pearl isn't manufacturing, it's running simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不依靠塔，也不需要调用星海，或者其他类似机构的，独立不受干涉的受控模拟。",
+			say = "In essence, it's an independent supercomputer that doesn't rely on the Tower, the Sea of Stars, or any other third party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这些模拟可以用于事态的推演，可以用于技术研发，也可以用来修复、培养和完善心智。",
+			say = "Not only can it reasonably predict the future, but it can also develop technology and repair, nurture, and strengthen the minds of shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不光是对于舰船有益，对于AI也是一样的。",
+			say = "In fact, not just shipgirls, but artificial intelligence as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……修复、培养和完善心智？",
+			say = "It can repair... and strengthen minds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……能够用于心智魔方受损引起的心智损伤吗？",
+			say = "Can it also repair a damaged hull, or at least undo the damage to the mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "可以作为其中必要的一环。不过硬要说，星海也能做到同样的事，所以它的重点不在这里。",
+			say = "To a degree. Strictly speaking, the Sea of Stars can do the same, but that's not the central point here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "“独立不受干涉”以及……对“AI有益”么？",
+			say = "So let me get this straight – it's an unassailable supercomputer that can also cure minds of shipgirls and benefit AIs as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "没错，接下来的一段时间，我会让观察者在这里重建所有实验机关的主机塔。",
+			say = "Yes. Next, Observer is going to rebuild her whole experimentation team's mainframes in this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "然后启用一些封存在数据库中的研发项目和模拟实验。",
+			say = "They will then resume all the research projects and simulations kept in their databases.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "——还记得你之前问的有关太阳的事么？告诉你的时机已经快要到了。",
+			say = "Remember our talk about solar activity a while back? It's almost time to tell you about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你那边情况如何，有什么变化么？",
+			say = "Ah, but enough about me... How is the situation over there? Good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没有变好也没有变坏。马可波罗依然在沉睡，意识也依然没有回来。",
+			say = "Could be better, could be worse. Marco Polo is still asleep and her consciousness hasn't returned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我怀疑在我们视野之外的某处正发生着不得了的事，我们需要尽快采取行动。",
+			say = "I think something bad is happening outside of our view. If we're going to respond to it, we need to act quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "嗯，在你跟我说了之后，我就在准备了。",
+			say = "Yeah. I got to work as soon as you told me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "今天除了上面礼物之外，也和你说说方案。",
+			say = "Allow me to explain the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "结论来说，我建议把她通过NA海域的奇异点在物理层面转移到我这边来进行保护性观察。",
+			say = "To get straight to the point: I suggest that you physically bring Marco Polo to me through the NA Ocean Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我身边的环境对她来说更安全稳定，如果在她身上发生任何异常情况，结果也会更受控。",
+			say = "This place is stable, and if anything does happen to her, it'll be easier to respond from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "很明显，马可波罗身上发生的事与麦纪莎脱不开关系。",
+			say = "As you suspect, the Magician is involved with Marco Polo being unable to wake up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "或许我可以利用她现在的特殊状态，把藏在幕后的麦纪莎钓出来，反将它一军。",
+			say = "I might be able to take advantage of the current condition she's in to lure out the Magician and then turn the tables on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "它不是很喜欢插手么……这次再把手伸过来看看吧。",
+			say = "She loves to meddle in other people's business – let's see her try to do it again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "海伦娜说话的语气依旧淡然，不过很明显，她生气了。",
+			say = "While it certainly doesn't show in her expression, her distaste for the Magician drips from every syllable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……上次最后，你不还是赢了么？",
+			say = "Didn't you defeat her last time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "只是看上去把它打跑了，其实它是从容而来从容而去。",
+			say = "No. She simply ran away when it suited her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "等我终于腾出手来检查实验场β的时候，它已经把自己的痕迹清理干净了……直到你发现马可波罗的事。",
+			say = "Once I finally got time to check on test site beta, she had already removed all of her traces... until you found out about Marco Polo, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来我们要做好和她长期打交道的准备了，我需要关于麦纪莎的更多情报。",
+			say = "She must be a real piece of work, then. Can you tell me what you know about her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "关于这一点……我能告诉你的很有限。",
+			say = "Well... I don't really know much about her at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你也没有她的资料？",
+			say = "Really? You don't have any intel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我只有在很早之前和它打过交道的经历，而最近它……变化很大，大到我最开始都没有想到是它。",
+			say = "What intel I do have is way out of date. So much has changed that I didn't even think it was her behind all this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不管是攻击模式还是……自称M女士这种看上去非常拟人化的行为。",
+			say = "Not only has her manner of attack changed, but now she's even presenting herself as \"Madam M\" and acting like a human...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "而我已经有的资料，又有太多不能告诉你的部分……",
+			say = "Also, of what things I do know, there's very little I'm even able to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "嗯……我尽力而为。",
+			say = "But... I'll try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "仲裁者·麦纪莎·I，最初的AI人格是在实验场α的「满月幽影、",
+			say = "Arbiter: The Magician Ⅰ, her initial AI personality served as test site alpha's Spectral Moon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "在世界α的某个事件后，在某地的某个实验室内诞生的。",
+			say = "She was born in a laboratory somewhere, following... an event that occurred in timeline alpha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "当时它的主要任务是负责筛选与判断……X对于人员和、设施造成的……干涉。",
+			say = "Her main mission at the time was to screen and judge... the extent of X's... interference with personnel and facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不过直到、……撤离成功告一段落，余烬与安蒂克丝还在合作阶段的时候，它才作为仲裁者正式诞生。",
+			say = "That is, until after the... evacuation was complete, when Antiochus and the Ashes still worked together, and she became an Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（能听出来，海伦娜确实在很尽力挑能说的说了……）",
+			say = "(She's really agonizing over what words to use...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "其的能力与干涉有关……一切形式的干涉，同时对于一切形式的干涉均存在有效的应对手段。",
+			say = "Her abilities are tied to interference... She's able to perform all kinds of interference and has functions that counteract them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "作为仲裁者来说，它也和你已经接触过的仲裁者都不太一样。",
+			say = "She's different from all other Arbiters you've met up to this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你应该知道，每一个编号的仲裁者都专精于某个领域，并且有一个或者一系列对应领域的独有尖端设备吧？",
+			say = "They all have areas they specialize in and possess cutting-edge equipment and weapons related to that field. You know that much, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "对于麦纪莎来说，它作为仲裁机关的独有设备不是每一个量产型机体的标配，但也不是独一无二无法量产的那种。",
+			say = "The Magician's standout equipment is something that's not a standard feature of Arbiter vessels. That does not mean it's unique, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "它的独有设备名为审判机「魔术师」，是一种能够进行有限量产的集成……你可以理解成舰装中所搭载的舰载机。",
+			say = "They're called MECHArbitrators – a type of unit that can be produced in limited quantities... Ahem. Think of them as aircraft carried by a rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "虽然是舰装的一部分，但是可以复数存在、独立行动，远程控制。",
+			say = "Even though they're a part of the rigging, they can act independently and be remote-controlled. Multiple of them at a time, even.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……和舰载机一样会飞么？",
+			say = "Can they fly, just like aircraft?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "会。",
+			say = "Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好像有些概念了……说回上一个话题，特殊设备作为量产型机体标配的，赫米忒那几个是不是都是这一类的？",
+			say = "I think I have some idea now. Using unique, specialized weaponry as a mass-production standard... Do those of the Hermit's fall under this category?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "没错。",
+			say = "That's right. You've worked with a Hermit vessel firsthand, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那独一无二的呢？“无法量产”，听上去和安蒂克丝这种崇尚量产型、大规模生产的思路相矛盾。",
+			say = "But the idea of using non-reproducible weaponry seems to contradict the Antiochus' core strengths of large-scale mass production.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,7 +1042,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "其实也好理解，某种妥协罢了。",
+			say = "That's the compromise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "就像拉普拉斯妖、或者自然进化演算系统一样，总有一些极其珍贵的尖端设备是难以量产的。",
+			say = "Just as with Laplace's Demon and the Natural Calculation System, there will always be pieces of cutting-edge technology that are extremely difficult to mass-produce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "——比如托瓦的「塔」。",
+			say = "The same is true of the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以你才一直强调是你利用的是「塔」的力量，而不是托瓦的力量？",
+			say = "You mention the Tower a lot... You're talking about the machine, not the Arbiter, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,7 +1097,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "没错~",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "除了托瓦之外，沐恩也是相同的情况，它拥有的「月亮」比「塔」的规模还要大……是个好东西。",
+			say = "It's not just Tower who has one, Moon does as well. It's a lot larger, as you might expect, and a pretty incredible machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "哦……这么一说，司答倒是和麦纪莎类似，它的「星」也是能进行有限量产的。",
+			say = "As for cases similar to Magician, you have Star. Hers can be produced on a small scale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,18 +1136,18 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "在这件事上，海伦娜陆续说了很多，与以往的情况截然不同。",
+			say = "She is being unusually forthcoming with this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……这些是你能说的么？",
+					content = "Should you be telling me this?",
 					flag = 1
 				},
 				{
-					content = "……这些是我能听的么？",
+					content = "Should I be hearing this?",
 					flag = 2
 				}
 			}
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "放心，经过筛选了。",
+			say = "Don't worry. I left out bits you shouldn't hear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "麦纪莎不是用了月亮和星星两张塔罗牌勾你胃口么，我可是直接告诉你情报了哦~",
+			say = "Magician fooled you with her tarot cards, didn't she? That's why I told you directly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "很明显，海伦娜心情突然好了起来。",
+			say = "All of a sudden, she seems to be in a good mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,7 +1198,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "咳……那还有什么能说的么？",
+			say = "I see. Is there anything else you could tell me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "——没了。",
+			say = "...No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1226,7 +1226,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "说回马可波罗的事，将她转移过来进行保护性观察的方案，我认为是在现阶段最优的，相信克莱蒙梭不会拒绝。",
+			say = "Anyway, back to the Marco Polo issue. The best solution available right now is to transfer her here and leave her under observation. Clemenceau won't refuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1239,7 +1239,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，我同意。回去之后我来安排细节，具体时间之后再联络。",
+			say = "Alright. I'll go back and work out the details then contact you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1252,7 +1252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "好哦。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1265,7 +1265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那我就准备回去了。对了，约克城不在么？",
+			say = "That's everything, then. Actually... Is a certain Yorktown somewhere around here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1279,7 +1279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "——看似随口一问，是想钓我的话？",
+			say = "Why do you ask? Are you trying to bait an answer out of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1292,7 +1292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……略有此意。",
+			say = "I figured it was worth a shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1306,7 +1306,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "嗯——你当时果然看到了啊。",
+			say = "I see. So you were watching back then after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1319,7 +1319,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看到的只有一团黑影，但是冥冥中有一种感觉。",
+			say = "Not exactly. All I saw in the Sea of Stars was a shadow. My gut just told me it was her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1333,7 +1333,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我只能告诉你，那是一个你暂时不能接触的人。",
+			say = "That was someone you cannot speak to. Not for the time being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1347,7 +1347,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "你可以知道她的存在，然后当她不存在就好。",
+			say = "Knowing that she exists is one thing, but you should pretend as though she doesn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1360,7 +1360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "因为知道的越多越危险？",
+			say = "Because the more you know, the more dangerous it is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1374,7 +1374,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这次不是。",
+			say = "Not this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1388,7 +1388,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "好了~别问了，剩下的都是你现在还不能知道的部分了。",
+			say = "I've said enough. Any further and we'll be going into forbidden knowledge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1402,7 +1402,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "回去吧，你还有工作要处理呢，拜拜~",
+			say = "Now it's time for us to part. You have work to do. Bye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

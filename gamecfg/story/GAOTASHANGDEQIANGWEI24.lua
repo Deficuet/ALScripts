@@ -8,14 +8,14 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
-			say = "伴随着充能进行，蔷薇塔的亮度随之提高。",
+			say = "The Rose Tower's glow became brighter and brighter as the charging continued.",
 			bgm = "theme-glorious-meta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·顶部露台",
+				"Rose Tower - Terrace",
 				3
 			},
 			flashout = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
-			say = "昏暗的天空被点亮了些许，为这场大战前的茶会增添了别样的风景。",
+			say = "The sky was illuminated faintly, providing a novel backdrop to this pre-battle tea time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,11 +49,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "外围阵地的炮声越来越密集了……",
+			say = "The cannon fire at the outer perimeter's getting louder...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,11 +61,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "构建者也在抓紧时间修建防御设施，我们在这里开茶会是不是有些……",
+			say = "Should we really be sipping tea here while Compiler's erecting defences as fast as she can?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,11 +73,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "在蔷薇塔转换模式之前，天外之兽群不会把这里当成目标的。",
+			say = "The enemy will not come after us until the Rose Tower's mode change is complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,11 +85,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "放轻松，格伦威尔小姐，还有时间。",
+			say = "Do not be alarmed, Grenville. There is plenty of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,11 +97,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "嗯，体悟这片刻的宁静，享受眼前的茶会吧，格伦威尔。",
+			say = "Precisely. Enjoy your tea while this momentary lull lasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "是……",
+			say = "Alright...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "呵呵~太严肃的品茶也不好，不如我们来谈些什么吧。",
+			say = "Heehee. Excessive formality spoils the tea, so why don't we have a little chat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +133,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "你想谈些什么呢？",
+			say = "Sure. Propose a topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +145,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "各位已经知晓了我的过去，我却还未知晓诸位的。",
+			say = "While you ladies already know my past, I don't know much about yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我还是第一次见到这么多位META齐聚一堂，不由得心生好奇了，不知道可否满足我这个小小的愿望呢？",
+			say = "I've never seen this many METAs in one place, either. Would you mind if I inquired about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,11 +169,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "嗯——作为茶会闲谈的话题也不错。",
+			say = "Hmm. Not a half-bad topic for a tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,11 +181,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "那就先从格伦威尔开始吧。",
+			say = "Grenville, you start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "欸、我么？！",
+			say = "Eh? M-me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,11 +210,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "本王知道你如此坐立不安的原因，因为你曾经经历过类似的景象，对吧？",
+			say = "We know why you're nervous. It's because you've experienced something like this before, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,11 +222,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "格伦威尔小姐的世界……也是如此么？",
+			say = "Did your world go through something similar to ours, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +234,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……不同的地方有很多，不过在那场决战前，我也曾有过这样片刻宁静的时光。",
+			say = "...Many things were different then, but yeah. I did have some quiet time before my big battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,11 +246,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "呼……我所在的世界，是一个与塞壬相互厮杀的实验场。",
+			say = "*sigh*... My home was a test site where we and the Sirens just kept killing each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,11 +258,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "不……准确来说，是它们先选择作为我们盟友，为我们提供技术，之后再装作失控与我们为敌。",
+			say = "Well, to be fair, they were the first ones to propose peace and shared their technology with us. Then, one day, they suddenly snapped and turned hostile to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,11 +270,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "过去我们的生活经历了多少快乐，之后的生活就得到了加倍的痛苦。",
+			say = "For all the good times we had back then, we suffered doubly as hard afterward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,11 +282,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……不是终盘清算，胜似终盘清算。",
+			say = "Our world wasn't reset... but the hell we went through was even worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "最后多亏陛下带人前来支援，救下了我和同伴们，并协助我们转移了世界中所剩不多的幸存者。",
+			say = "My friends and I survived thanks to Her Majesty's leadership. She also brought what few survivors were left to safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,11 +306,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "再之后，我就留在陛下身边为陛下效力了。",
+			say = "I decided to stay by her side after that and pledged my sword to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,11 +318,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "本王推测，那个世界塞壬所进行的实验，或许是用武力毁灭一个拥有一定科技水平的前文明后，再扶植出一个战火中孕育的新文明。",
+			say = "We speculate that the experimentation division in that world wanted to create a civilisation with a certain degree of scientific ability, tear it down, and cultivate a new one from its ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,11 +330,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "所以在进攻中多少手下留情了些，本王才能及时将人救下来。",
+			say = "That's why they didn't utterly destroy it. It's also why Grenville, among others, could be saved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,11 +342,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "真是极端……亏我一直都把它们当成盟友呢……",
+			say = "All this time, I believed the Sirens were unwavering allies... What an extreme story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,11 +354,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "实验机关和实验机关也不能一概而论，毕竟是机器，得到的指令是什么，它们就会执行什么。",
+			say = "There are all manner of experimentation divisions. In the end, they are but machines loyally following the orders given to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,11 +366,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "在选择与我们为友的世界，它们也是会像你所见到的这样与外敌战斗到死的。",
+			say = "In some worlds, they are allies. In others, they are invaders one must fight to the death against.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,11 +378,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "就和外面正在帮我们的构建者一样么？",
+			say = "What about Compiler, who's aiding us as we speak? Is she like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,11 +390,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "唔……那个的话，又有些特殊了。不过是，它现在是绝对站在我们这边的。",
+			say = "Ah, her. She's a bit of an exception. Which is to say, she is an ally beyond any doubt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,25 +402,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "那就好……黑暗界小姐呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 9713010,
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg5",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actorName = "黑暗界·META",
-			say = "我的经历没什么可说的……",
+			say = "That's a relief... Erebus, could you share your history with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +419,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "黑暗界·META",
-			say = "在激烈的战斗中受伤，在绝境中选择META化……而后得到了伊丽莎白陛下的帮助，将META化状态稳定了下来。",
+			actorName = "Erebus META",
+			say = "My past isn't much to talk about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,8 +433,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "黑暗界·META",
-			say = "再之后，我就一直跟随陛下战斗至今了。",
+			actorName = "Erebus META",
+			say = "I was wounded in a brutal battle. In my despair, I chose METAmorphosis. Later, Her Majesty came and made me stable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,8 +447,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "黑暗界·META",
-			say = "嗯……我的世界稍微好一些，塞壬没能成功执行终盘清算就被打倒了。",
+			actorName = "Erebus META",
+			say = "I've fought under her ever since then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,8 +461,22 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "黑暗界·META",
-			say = "不过猎人比我们都幸运……对吧？",
+			actorName = "Erebus META",
+			say = "As for my world, it fared better. The Sirens were defeated before they completed their reset.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 9713010,
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg5",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actorName = "Erebus META",
+			say = "Hunter, on the other hand – you were even luckier, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,8 +489,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "怎么突然提到我身上了……",
+			actorName = "Hunter META",
+			say = "A sudden mention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,8 +503,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "嗯，我的世界相当独特。",
+			actorName = "Hunter META",
+			say = "Yes. My world was a bit unique.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,8 +517,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "跟随陛下走过的地方越多，越觉得我的世界真是幸运的反常。",
+			actorName = "Hunter META",
+			say = "Having walked this path with Her Majesty for as long as I have, it's become apparent how absurdly lucky we were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,8 +531,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "最初，我所在的世界和这里类似，是一个与塞壬合作共存的地方。",
+			actorName = "Hunter META",
+			say = "Much like this place, we initially coexisted with the Sirens and got on well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,8 +545,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "而后，X的影响显现，世界各处都出现了拟态物。",
+			actorName = "Hunter META",
+			say = "That is, until X's influence began to spread, and mimic entities popped up across the globe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,8 +559,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "按照原本正常的轨迹，我们要么经历残酷的战斗最终艰难战胜拟态物，要么最终被拟态物所毁灭。",
+			actorName = "Hunter META",
+			say = "In any other case, we would've either fought the entities and barely come out on top, or we'd have been annihilated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,8 +573,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "然而在开战后没多久，一位仲裁者出现了。",
+			actorName = "Hunter META",
+			say = "However, almost as soon as the fighting began, an Arbiter appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,8 +587,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "这位仲裁者选择与我们一同对抗拟态物，并成功在拟态物尚未扩散前彻底从我们的世界中清理了出去。",
+			actorName = "Hunter META",
+			say = "She chose to fight the entities with us, and completely expelled all of them from our world before they could propagate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,8 +601,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "再之后，它决定终止我们世界的一切实验流程，撤离实验机关，并将整个实验场从安蒂克丝系统中删除。",
+			actorName = "Hunter META",
+			say = "The Arbiter then made a decision. All the experiments on our world would end, the experimentation branch would be dissolved, and our very test site would be excluded from the Antiochus' database.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,8 +615,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "为了做到这一点，它需要进行一次世界范围内的认知修改，消除所有关于安蒂克丝和X的痕迹。",
+			actorName = "Hunter META",
+			say = "To do this required a worldwide cognitive alteration, erasing every last trace of Antiochus and X.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,8 +629,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "此时，我已经见证了真实，不想再选择无知。",
+			actorName = "Hunter META",
+			say = "Then there was I. I had already seen the truth and could not choose ignorance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,8 +643,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "于是它同意了带我离开，再之后的事我就什么都想不起来了。",
+			actorName = "Hunter META",
+			say = "So the Arbiter brought me with her. I can remember naught after that point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,8 +657,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "我不记得我经历了什么，也忘记了帮忙的仲裁者是谁……",
+			actorName = "Hunter META",
+			say = "Everything that happened after that and which Arbiter it was that saved me – all of it, gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,8 +671,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "……我只记得之后独自游荡在一片荒原中，然后遇到了D小姐和伊丽莎白陛下。",
+			actorName = "Hunter META",
+			say = "What I do remember is wandering the wasteland by myself, followed by meeting Her Majesty and Miss D.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,8 +685,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			actorName = "猎人·META",
-			say = "之后，我们就一同并肩作战至今了。",
+			actorName = "Hunter META",
+			say = "Ever since that day, I've fought by her side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,11 +694,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "确实是一段奇妙的经历……相比实验机关，仲裁机关看上去更加让人捉摸不透呢？",
+			say = "That is quite the bizarre experience... It certainly seems like the Arbiters are more unknowable than the experimentation divisions are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,11 +706,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "毕竟是自称被赋予了完整人格的机器，不可预测性确实要强一些的。",
+			say = "They ARE self-alleged machines given complete personalities. It's little surprise they cannot be predicted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,11 +718,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "谢菲尔德小姐呢？听说您与声望和反击小姐认识许久了，你们是来自同一个地方么？",
+			say = "What about you, Sheffield? I heard you, Repulse, and Renown were acquainted. Are you from the same world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,11 +730,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谢菲尔德·META",
+			actorName = "Sheffield META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我们并非来自同一个地方，不过……确实也认识许久了。",
+			say = "While I do not share a world of origin with them, I have known them for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,11 +742,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谢菲尔德·META",
+			actorName = "Sheffield META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "大致来说……我与她们是在她们离开家后没多久认识的。",
+			say = "Broadly speaking, we met very shortly after they left their home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,11 +754,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谢菲尔德·META",
+			actorName = "Sheffield META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "之后我与她们在同一个组织内并肩作战了许久，而后在一次大规模作战后彼此分散。",
+			say = "Afterward, the three of us fought for a long time under the same organisation until we got separated during a major operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,11 +766,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谢菲尔德·META",
+			actorName = "Sheffield META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "再之后我先遇到了陛下，就选择与陛下一同行动了。",
+			say = "Following that, I met Her Majesty, and decided that I would work with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,11 +778,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谢菲尔德·META",
+			actorName = "Sheffield META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "抱歉，要想说清楚我的经历，需要的前置情报过多，一时半会实在交代不清楚……",
+			say = "I apologise for the sparse details. To truly explain my past requires too much additional context to fit in a chat at the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,11 +790,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "没关系，谢菲尔德小姐，能听到这些我就已经很满足了。",
+			say = "It's alright. What you've already told me is more than sufficient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,11 +802,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "啊……世界之外，真是广阔啊。",
+			say = "Ah... There really is so, so much beyond this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,11 +814,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "真想让她们也听一听……",
+			say = "I'd love to hear the second group's stories someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,11 +826,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我们在蔷薇塔上开的这场茶会，她们未必听不到，不是么？",
+			say = "It's not as though they can't hear what we're saying at this tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,11 +838,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……伊丽莎白女士，你……是什么意思？",
+			say = "Pardon? What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,11 +850,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王·META",
+			actorName = "Queen Elizabeth META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "本王能看出来蔷薇塔的秘密，也能看出来你一个人能坚守至今的秘密。",
+			say = "We know, Glorious. We know this tower's secret as well as why you locked yourself away here, alone, for all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,11 +862,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "呼……这样啊。",
+			say = "I... see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
-			say = "贵族少女顿了顿，抿了一口茶。",
+			say = "Glorious pauses for a moment, then takes a silent sip of her tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,11 +885,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光荣·META",
+			actorName = "Glorious META",
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我是皇家最后的光荣……不论如何，我决不能倒下。",
+			say = "I am the final glory of the Royal Navy... No matter what happens, I must not fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "蔷薇塔在此刻迸发出一束直冲天际的光，笼罩在皇家三岛上空百年的阴霾第一次被驱散了。",
+			say = "At that moment, the Rose Tower pierced the sky with its light. The clouds that covered the Royal Islands for a hundred years cleared up for the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "这片土地上的山川河流……不，这片土地上所残存的一切，仿佛都在此刻与蔷薇塔建立了某种联系。",
+			say = "It was though the earth, the hills, the rivers, everything that remained in this land had some sort of connection to the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "蔷薇塔，存在于皇家的土地之上。皇家的土地，亦存在于蔷薇塔之中。",
+			say = "The Rose Tower existed on the Royal Islands, and the Royal Islands also existed inside the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
-			say = "至于贵族少女，则在光芒出现的一瞬间化为光点消散了。",
+			say = "As for Glorious, she turned into specks of light and disappeared into thin air as soon as the tower's light shone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,9 +962,9 @@ return {
 			bgName = "bg_gaotaqiangwei_5",
 			hidePaintObj = true,
 			actor = 900488,
-			actorName = "格伦威尔··META",
+			actorName = "Grenville META",
 			nameColor = "#FFC960",
-			say = "陛下，光荣小姐她？！",
+			say = "Huh?! Glorious is gone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "唉……果然是这样么。",
+			say = "*sigh*... We knew this was coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不用担心，她只是前往蔷薇塔的内部做她该做的事了。",
+			say = "Don't worry about her. She just retreated inside the tower to fulfill the duty imposed on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……我们也该去做好准备了才是。",
+			say = "...We'd better prepare ourselves, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "走吧，战斗要开始了。",
+			say = "Come. The battle is starting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

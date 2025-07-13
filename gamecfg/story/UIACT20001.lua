@@ -14,7 +14,7 @@ return {
 			actorName = "???",
 			dir = 0,
 			blackBg = true,
-			say = "紧急情况，不久之前，一个「模具」出现了近似觉醒反应，与主体意识的同步率上升了7个百分点！",
+			say = "State of emergency. An Awakening Response among the Pieces has been confirmed. The synchronization rate with the Player has gone up by 7%.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -34,7 +34,7 @@ return {
 			actorName = "???",
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "觉醒反应吗？看来离「审判者」所期待的时刻越来越近了呢～",
+			say = "An Awakening Response? That means soon we'll have the results the Judge was hoping for.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -58,7 +58,7 @@ return {
 			nameColor = "#ff0000",
 			actorName = "???",
 			blackBg = true,
-			say = "记住，「模具」一旦出现了完全觉醒的情况，就要立刻将其销毁哦",
+			say = "Once you've fully confirmed the Awakening and recorded the sequence, I'll dispose of the backup of the Original. Don't forget that.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -79,7 +79,7 @@ return {
 			actorName = "???",
 			dir = 0,
 			blackBg = true,
-			say = "销毁？等等，我想到了一个应该会更有趣的方案…",
+			say = "You'll dispose of it? Wait, I just had an interesting idea...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -100,7 +100,7 @@ return {
 			actorName = "???",
 			dir = 0,
 			blackBg = true,
-			say = "立刻启动风暴螺旋，将所有剩余的「黑方<Black>」投入新的交汇点<Transposition>！",
+			say = "I will activate the quarantine mechanism and throw all the Black Pawns into the mix!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -120,7 +120,7 @@ return {
 			nameColor = "#ff0000",
 			actorName = "???",
 			blackBg = true,
-			say = "测试者，你这是想？…",
+			say = "Tester, what are you planning...?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -141,7 +141,7 @@ return {
 			actorName = "???",
 			dir = 0,
 			blackBg = true,
-			say = "也许是时候亲自去见识一下这一次的「白方<White>」，不，见识下自然演算的推进速度了…",
+			say = "This time I will personally ascertain the gap in potential of White... no, of the Natural Calculation System and humankind!",
 			shake = {
 				speed = 1,
 				number = 3

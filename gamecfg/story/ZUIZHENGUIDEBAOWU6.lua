@@ -12,7 +12,7 @@ return {
 			actor = 408080,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的人，都是坏人。",
+			say = "Royal Navy, more like Royal Meanies.",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是是是",
+			say = "Uh-huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "——欺负人。",
+			say = "You're all bullies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是是是",
+			say = "Yeah, yeah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，这下算是顺利地俘获铁血的潜艇了",
+			say = "Command will be pleased that we managed to prize an Iron Blood submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果这能成为得到密码本的线索就好了…",
+			say = "Let's hope we can get some sort of clue on the codebooks out of her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…",
+			say = "Indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "背着的东西？是秘密",
+			say = "What's in my backpack? That's a secreeeet.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "恩尼格玛？嗯，{namecode:420}，最喜欢恩尼格玛了",
+			say = "The Enigma machine? Yup-yup, U-110 loves the Enigma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "很有趣吧？{namecode:420}最喜欢破译游戏了~",
+			say = "Playing codebreaking games on it is super fuuuun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "密码本？{namecode:435}姐姐说，不能告诉皇家。所以，不告诉你。",
+			say = "Codebooks? Bismarck warned me not to tell anyone about those, so I woooon't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果还是 问不出来呢",
+			say = "It doesn't seem she'll tell us anything.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这时候就试试怀柔战术好了！想要这根棒棒糖吗？",
+			say = "Well, when they won't give in, you use the stick and carrot method! Say, how would you like a lollipop?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？要给我吗？",
+			say = "A lollipop? You mean I can have it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "只要你把恩尼格玛和密码本交给我就给你，怎么样？",
+			say = "Only if you give us a lead on the Enigma machine and the codebooks! Fair trade, no~?",
 			action = {
 				{
 					type = "shake",
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，还是不了。因为{namecode:420}的朋友已经来了哦~",
+			say = "U-556 is watching me, I'm not falling for your triiiicks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "声纳探测到潜艇反应——",
+			say = "Amazon, I just detected another submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你们是真的很缠人诶！",
+			say = "... Hmph, then that confirms that you work in packs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "嗯，鲨鱼游戏，大家都喜欢。",
+			say = "Yup-yup. We doooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

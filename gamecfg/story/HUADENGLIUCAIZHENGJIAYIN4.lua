@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>戏春腾龙游园时</size>",
+					"Myriad Colors of the New Year\n\n<size=45>The Gate Dragon's Advent</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 499071,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "啧……明明是最热闹的时候，指挥官那家伙跑哪去了啊……",
+			say = "Ugh... Where has that idiot gone? Just as the festival enters its busiest hour, too...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，原来在这边~！指挥官，快过来！",
+			say = "Oh, there you are! Over here, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，收好这个~！",
+			say = "Heh! Here, take this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……在东煌的说法里，这个叫做“红包”来着？",
+			say = "...What is it? A red envelope, duh. I think that's what they call it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然里面装的东西不是钱……总之，收了本小姐的东西，新的一年也要继续跟在本小姐身后辅助我才行！",
+			say = "While there's no money inside, it's still a gift from me, so you owe me your loyalty all the way into the next year!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			},
 			options = {
 				{
-					content = "……红包？",
+					content = "\"Is that really how the tradition works?\"",
 					flag = 1
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~按照东煌的习俗，给小弟发新年红包不是理所当然的么~",
+			say = "Obviously! That's why they give them to their subordinates.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就说明本小姐的地位在你之上啦~！",
+			say = "And you're below me, so I expect you to humbly accept it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,11 +161,11 @@ return {
 			},
 			options = {
 				{
-					content = "笑而不语",
+					content = "Stare in silence.",
 					flag = 1
 				},
 				{
-					content = "拿出准备好的零食——",
+					content = "\"Well, here's a gift from me – a small treat.\"",
 					flag = 2
 				}
 			}
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "……这个表情是表示默认的意思么？",
+			say = "Hmph. I'll take your silence to mean, \"Of course, Milady.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "咳，很好！那……新年的第一个任务，就带本小姐去逛逛春节的港区好了！",
+			say = "Perfect! Now give me a full tour of the port's Spring Festival makeover! It's your duty, you know♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哦……！这是！",
+			say = "Hm? What's that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "（咬咬）……山楂串？酸酸甜甜的，还挺好吃的嘛……",
+			say = "Nom... It's a \"tanghulu\"? It's sour yet sweet, and surprisingly tasty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "看在山楂串的份上，本小姐特许你牵着我的手，带我逛春节的港区！",
+			say = "Not bad. In return, you get the exclusive privilege of holding my hand while giving me a tour of all the festivities!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以，你其实迷路了？",
+			say = "\"Why do you need a guide? You weren't lost up until a moment ago, were you?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……！不是！才没有！",
+			say = "Huh? Nuh-uh! I was the polar OPPOSITE of lost!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……不要再说啦！快带路！笨蛋！",
+			say = "O-obviously! Now quit wasting time and lead the way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇……东煌的春节果然很热闹……",
+			say = "Huh. The Empery sure knows how to throw a bustling festival.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过明明是在冬天举办的节日，为什么要叫做“春节”呢……搞不懂。",
+			say = "But why do they call it the Spring Festival? It's still the middle of winter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了不想这些了……我们去看看{namecode:480}说的“会飞的狮子”好了~！",
+			say = "Meh, not like it matters much. Let's go see that dancing flying lion Ägir told me about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……会飞的狮子？",
+			say = "\"What dancing flying lion?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "？咦，你居然不知道嘛~",
+			say = "What, you seriously don't know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是那种会在春节的夜里飞来飞去，闯进人们的家里吃掉小孩子的怪兽！",
+			say = "I'm talking about that beast that flies from place to place and scares the daylights out of little kids.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，你说我把舞狮和年兽给弄反了？咳……那个……",
+			say = "...It has a name? Okay, well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不许顶嘴！",
+			say = "So what if it's called a nian or whatever? If I SAY it's a lion then it's a LION!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，那边的活动看起来也很有意思！指挥官，快跟上快跟上！",
+			say = "I will hear no more arguing from that big mouth of yours! Let's go see it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，新的一年里也继续跟在本小姐的身后就好啦~！",
+			say = "This time, I'll lead the way! And you'll follow for the rest of the year, like the loyal servant you are♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

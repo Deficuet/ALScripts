@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Speed",
-			say = "——！",
+			say = "——!",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -38,7 +38,7 @@ return {
 			actor = 10700010,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "好厉害…！像拍电影一样…！",
+			say = "Incredible...! It's just like a movie...!",
 			dir = 1,
 			hidePaintEquip = true,
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些量产型只是单纯靠近过来，并没有攻击春香小姐她们的船呢。",
+			say = "Even though those mass-produced ships are approaching the girls, they don't seem to show any intent on attacking the ships they're on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以标枪她们才能顺利地把这些量产型引到远处吧…呼…",
+			say = "Javelin's group has been able to take advantage of this to lead them away for now... Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，又有别的船靠近了，那是…我和律子小姐？",
+			say = "But there are still ships coming towards us... Are those the clones of me and Ritsuko?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			actor = 401236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "船上还有小型舞台！这是…来挑战我们的吗…！？",
+			say = "Look, they even have little stages underneath them! Are they trying to put on a show?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，我们也到甲板去吧…！",
+			say = "So what's the plan? I'm also ready to get on deck and perform, but...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是…没有事先准备，直接开始演出会不会有点困难…",
+			say = "It might be hard since we haven't had time to warm up yet...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但这样下去完全没法靠近舞台啊。得想办法把那艘船引开才行…",
+			say = "We might not even be able to get on stage if we don't get that ship out of the way first.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "话虽如此，如果那艘船把其他量产型喊来的话，我们恐怕连港区都回不去了…",
+			say = "Even if we do that, if that ship calls for additional reinforcements, we won't even be able to return to port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "（虽然就算被包围，也可以用武器直接攻击，但是如果对方也发动反击，春香她们就危险了…呜…）",
+			say = "(In case things get too out of hand, we could return to more conventional combat, but... Haruka and the others are still over there, and we can't risk that... Ugh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			actorName = "？？？",
-			say = "Task Force・μ兵装，双海亚美登场！",
+			say = "Muse System Task Force, Ami Futami, reporting for duty!",
 			effects = {
 				{
 					active = true,
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			paintingNoise = true,
 			actorName = "？？？",
-			say = "同上！双海真美，前来助战！",
+			say = "And make it double! Mami Futami is here to save the day!",
 			effects = {
 				{
 					active = true,
@@ -270,7 +270,7 @@ return {
 			actor = 10700010,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "亚美、真美？！",
+			say = "The twins?!",
 			dir = 1,
 			hidePaintEquip = true,
 			effects = {
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恩哼哼~这就是“μ兵装”的力量—！",
+			say = "Nihihi! Behold, the power of the Muse System!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 10700070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们才不会输给冒牌货呢！真美，上浮！",
+			say = "You just can't beat the real deal! Get a load of this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，请做好避难准备！",
+			say = "St-stand back, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连水濑小姐都…！你们要和那个“敌人”战斗吗？",
+			say = "Iori, you too? Are you seriously going to fight the enemy?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！如果不打赢的话别说前进了，就连港区都回不去，不是吗？",
+			say = "Of course! If we don't win, we won't be able to move forwards or backwards, isn't that right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			actor = 103250,
 			dir = 1,
-			say = "没有装备“μ兵装”的各位偶像请根据指示撤离！其他舰船支援伊织她们！",
+			say = "Any of you girls not in possession of the Muse rigging, evacuate according to my instructions! All other ships, support Iori and the others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,8 +428,8 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			dir = 1,
-			actorName = "大青花鱼·{namecode:6}",
-			say = "明白！！\n了解！",
+			actorName = "Albacore & Ayanami",
+			say = "Got it! Understood, yes!",
 			effects = {
 				{
 					active = true,

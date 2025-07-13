@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "之前和TB详细阐述这个计划的时候就已经确认……",
+			say = "I briefed TB on the details of my plan before I went in and more or less got her acknowledgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "在这个虚拟小镇中的TB只会保留最基础的认知，原本TB的记忆和功能都会暂时停用。",
+			say = "While in this virtual space, all her functions save for her most fundamental cognition are disabled, and she can't access her memory in the real world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "而这么做的理由，则是为了能够切实体验到——“成长”的过程。",
+			say = "This is so that she can get an authentic experience of growing up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "但真的当小小的TB出现在我眼前的时候，我还是觉得有些惊奇。",
+			say = "I knew what I signed up for, but I wasn't expecting TB to be this tiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "不过，这种惊奇的感觉很快被心中浮现的责任感替代。",
+			say = "That said, my surprise quickly gives way to a sense of responsibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "没错，既然已经答应了TB，就一定要帮她解决她的烦恼。",
+			say = "That's right – I made a promise to her, so I must help solve her problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，TB。",
+			say = "Welcome home, TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

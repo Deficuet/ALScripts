@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "完成对话则可获得好感度，好感度提升后将可解锁「心与心的交汇」剧情。",
+				text = "Chatting with TB will increase her Affection. Raising her Affection will unlock new story scenes.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -23,7 +23,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击心事按钮。",
+				text = "TB has a thought. Let's hear what she has to say.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "除了阅读对话之外，完成每周的心事任务也可以获得好感度。  ",
+				text = "Completing all missions related to TB's thoughts is another way to increase her Affection.",
 				mode = 2,
 				dir = 1,
 				char = 1,

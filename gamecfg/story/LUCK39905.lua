@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "这是新的力量么，感觉不赖呢，指挥官。",
+			say = "So this is my new power, huh? Not bad, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "唔，我就夸下你吧……不愧是我所选的、与我携手共进之人。",
+			say = "Hmm. Allow me to offer you my praise first – as deserved of the person I have chosen to walk by my side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "不过，接下来等着我们的，还有更多挑战——当然，我的实力可是无可置疑的！",
+			say = "No matter what trials and tribulations await us in the future, there is no obstacle that I, Hakuryuu, cannot overcome!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 399050,
 			dir = 1,
-			say = "指挥官，就让我来展示“碾压”的真正意思吧。",
+			say = "Now then, Commander, allow me to show you what it truly means to trample our enemies underfoot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我倒要看看，还有什么能与我们两人为敌！",
+			say = "Know that none may stand in our way!",
 			painting = {
 				alpha = 0.3,
 				time = 1

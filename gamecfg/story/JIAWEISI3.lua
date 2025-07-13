@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>三　小伤口</size>",
+					"Nursing Honesty\n\n<size=45>3 A Papercut</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "自从贾维斯表示要劳逸结合后，日程表上就强制插入了几个休息时间段。",
+			say = "Jervis was insistent on maintaining a healthy work-life balance and forcibly added a couple of breaktimes to my daily schedule.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "现在工作时间结束，指挥官，你该休息了。",
+			say = "That's enough for now. It's time for an intermission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "无视此类提案继续工作的尝试已经在之前贾维斯的“铁腕拖拽”下失败了。",
+			say = "I protested and tried to keep working, but she wouldn't budge on her stance. Her iron will made my every attempt end in failure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在只好把手中的文件放到一边，准备起身。",
+			say = "Eventually I gave in and put my documents in order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "忽然，指尖传来一阵刺痛——",
+			say = "Then, just as I was getting out of my chair, I felt a sting on my finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "……别动！把手给我，马上帮你处理！",
+			say = "...Don't move. Give me your hand and I'll tend to it right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "先消一下毒……然后包扎……还好我有带医疗箱过来。",
+			say = "First, antiseptic... then a plaster... and we're done. We're lucky I brought my first-aid kit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "嗯……这样应该就没问题了。",
+			say = "Give it a few days and it should have healed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "真是的，指头被纸张划破这种小概率事件都能被你遇上。",
+			say = "You need to be more careful, Commander. A responsible adult doesn't get papercuts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "别看纸张那么柔软，其实边缘可是锯齿状的。",
+			say = "A sheet of paper may be soft, but its edges are sharp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不想下次还感受消毒的疼痛的话，还请自己当心一些。",
+			say = "Antiseptic hurts, doesn't it? Please take care moving forward so I won't need to use it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示感谢",
+					content = "\"I will. Thanks for the help.\"",
 					flag = 1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "都说了这是秘书舰份内的工作。",
+			say = "As I've said before, no need to thank me. This is what a secretary should do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这次是小伤也就罢了，要是在出海的时候受伤我会很头疼的。",
+			say = "While a cut is no big deal, it would be a headache for me if you get hurt while on a sortie or the like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果被躺在病床上的你指挥几个月，我岂不是要变成声控工作的人工智能了。",
+			say = "If you become bedridden for months, I will need to change vocation from secretary to dial-in nurse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明白了么，指挥官？",
+			say = "Do you understand what I'm saying, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "真是贾维斯式的独特关心，不过现在基本上已经适应了这种说话方式了。",
+			say = "\"You have a unique way of showing concern for others, but I understand.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈啊……如果真的因伤要卧床休息，我也只能好好照顾你了吧。",
+			say = "*sigh*... For the record, I mean it. If you get that badly hurt, I WILL need to nurse you back to health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那可真的是，太麻烦了……",
+			say = "Frankly, I cannot imagine a bigger burden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "不知道为何，居然从贾维斯的语气中听出到了一丝期待……？",
+			say = "I sensed a hint of enthusiasm in her voice as she said that. Maybe she secretly wanted to be in that position?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

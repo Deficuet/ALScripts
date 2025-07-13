@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无效节能\n\n<size=45>五 同舟共济</size>",
+					"Ineffective Energy Saving\n\n<size=45>5 In the Same Boat</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "港区公园·人工湖边",
+			say = "Port Park - Artificial Lake",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "吃过午饭，小船在湖面打着圈缓缓游荡，阳光暖融融的，晒得人直犯困。",
+			say = "After lunch, we're just drifting on the lake. The warm sun's rays tempt me to take a nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "呼，简直是理想中的……休息方式……",
+			say = "Whew... This is the ideal way to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，偶尔休息一下也不错。",
+			say = "Sure is. It's nice to get away from everything and just relax sometimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,31 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "出神地欣赏了一会儿湖景，回过神时，不挠已经在我怀中睡着了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_181",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不挠？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_181",
-			hidePaintObj = true,
-			say = "不挠的头靠在我肩膀上，发出轻微的呼吸声，完全放松了对周围环境的警觉。",
+			say = "After gazing vacantly at the lake's scenery for a while, I suddenly realize that Indomitable has fallen asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +98,18 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也许是上午骑车太累了。",
+			say = "Indomitable?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_181",
+			hidePaintObj = true,
+			say = "As she rests on my shoulder, her breathing is soft and steady. She has completely tuned out her surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +122,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "午睡一下也好……",
+			say = "That morning cycling we did must've really tired her out.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_181",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "No harm in letting her sleep for a bit, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "眼皮渐渐发沉，我们头靠着头，一同进入了梦乡。",
+			say = "My eyelids similarly start feeling heavy. It's not long before I doze off, leaning against her just as she does against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "不知过去了多久，电动船的引擎发出最后一声叹息后彻底沉寂。",
+			say = "I'm not sure how long I was asleep for, but when I wake up, the electric motor lets out one last sigh before the boat loses all propulsion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "哈啊……睡得好舒服。",
+			say = "*yawn*... That was a lovely nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "指挥官？你也睡着啦？",
+			say = "Commander? Did you fall asleep, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……发生什么了？",
+			say = "Mgh... Looks like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "好像是……船停了！",
+			say = "Uh-oh... We have a problem. The engine has stopped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我看看……",
+			say = "Let me see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "坏消息，船的电量耗尽了。",
+			say = "Bad news. The battery is dead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好消息是，还有脚踏模式。",
+			say = "There's good news too, though. This boat can also be powered by pedalling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "脚踏模式？！",
+			say = "P-pedalling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,18 +279,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "嗯……指挥官，我的腿好像有点疼……",
+			say = "Err... My feet feel a bit sore, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要不你来导航？",
+					content = "Can you handle navigation, then?",
 					flag = 1
 				},
 				{
-					content = "一起努力吧",
+					content = "Come on. Let's do this.",
 					flag = 2
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "要不你来导航，我负责“动力系统”？",
+			say = "You tell me where to go, and I'll be the \"propulsion system\" again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "湖面上哪里需要导航。",
+			say = "I don't think you need directions on a lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官又在打趣我偷懒了吧！",
+			say = "You're assuming I'm going to slack off again, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "就像双人自行车一样，我们一起努力踏到岸边去吧。",
+			say = "If we work together, just like on the bike, we'll reach the shore in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果是指挥官的邀请……",
+			say = "Well, if you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊啊……勉为其难努力一下吧！",
+			say = "*sigh*... Very well. I'll do my best to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们要“同舟共济”了。",
+			say = "It has to be done. We're in the same boat here. Literally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "脚踏板发出吱呀的哀鸣，我和不挠一起努力向着岸边而行。",
+			say = "The pedals under our feet cry out with a creak as she and I work together to move towards the shore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "好累……下次……一定要提前检查电量。",
+			say = "What a bother... Next time, I'll double-check the battery before we set out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "不、不对，没有下次了！",
+			say = "No, forget that – there will be no next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "比起出门，果然在房间里喝喝茶，赏赏花才是最佳选择……",
+			say = "Going outside isn't my style. I'd much rather stay indoors, sip some tea, and admire the flowers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然不是完美的计划，但和不挠一起出来玩这件事本身，就很有趣了。",
+			say = "It's hard to deny this wasn't a flawless plan, but I've had and still am having fun doing this with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "指挥官真是的，就会说些好听的……",
+			say = "Why, that's... You really know what to say, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "是不是想用甜言蜜语消除我的疲惫呢？",
+			say = "Are you trying to make me forget my fatigue with some sweet talk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果能起作用，那就再好不过了。",
+			say = "If it's working, sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "我们的配合逐渐默契起来，有节奏地踩着脚踏板。不知不觉中，小船已经荡出了很远。",
+			say = "After pedalling for a while, as we fall into a steady rhythm together, it dawns on me that we've made quite a bit of progress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "好累啊……指挥官，我们快到了吗？",
+			say = "I'm knackered... Are we there yet, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "抬头看，岸边就在眼前了。",
+			say = "Take a look. The shore is right over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "啊……还有好远。",
+			say = "Is it? It still looks so far away to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "忽然觉得，就这么和指挥官一起，永远飘在湖面上，说不定也不错……",
+			say = "That said, suddenly I feel like I wouldn't mind simply floating on this lake with you forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

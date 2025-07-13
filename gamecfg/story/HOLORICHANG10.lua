@@ -12,7 +12,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "队长，就是这个装置了！使用的方法您应该知道。",
+			say = "Leader, this is the device! You should already know how to use it.",
 			bgm = "holo-sss-inst",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "哈↑哈哈哈、哈↑哈哈哈！通过千难万险到达此地的指挥官哟。能到达这一步，说明你也是心怀叛逆之人吧。",
+			say = "Muahahaha! Ahahaha! The fact that you've crossed through such treacherous waters to come here is proof of the spark of rebellion inside of you, waiting to be lit! Behold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "看吧，囤积在此处的TNT之海！只要我们联手，不要说hololive本社，就算指挥室也…",
+			say = "The sea of TNT that stretches out before our eyes! Should we join hands, not just the Hololive Headquarters, but even the Commander's Office will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "TNT？指挥室？这是在说什么话题？",
+			say = "TNT? Commander's Office? What are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘶------那个...呃.....时乃空前辈，这...这是......",
+			say = "Haaaaaaah! Soraaaaaaa! Ah, ummmm, this is.. um......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "好像说了些和火有关的危险话题呢",
+			say = "She seems to have something unconscionable related to arson...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又要来一次？！",
+			say = "We're doing this again?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "嘛~嘛~既然人找齐了，就快出发吧，全新的冒险正在等着我们呢~吹雪，要出发了哦？",
+			say = "Well, since we're all here, let's get going. A new adventure is waiting for us! Fubuki, are you coming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "好~~  就是这样，指挥官大人，不论是碧蓝航线还是hololive，从今往后也请多多关照哦~",
+			say = "All right, um, in any case, Commander... I hope all of us will be able to get along, both Hololive and Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

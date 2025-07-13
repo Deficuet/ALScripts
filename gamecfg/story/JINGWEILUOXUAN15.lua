@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "战斗机群及时发现并击退了白鹰航空队的攻击，航空舰队没有受到任何损伤。",
+			say = "\"Our fighters have intercepted a group of Eagle Union aircraft. We've shot them down while sustaining minimal damage.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 900317,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有任何损伤啊……真遗憾。",
+			say = "Woah, who's a smart little Pawn~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "您刚刚说什么……？",
+			say = "\"I don't understand what you just said... Anyway, I've confirmed the location of the enemy carriers. Should we attack?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "没什么没什么……哎嘿~！总之继续汇报吧~",
+			say = "Hmm... An Eagle Union Pawn, huh? ...Yeah, go ahead and continue with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "嗯。我们已经基本确定了白鹰航母舰队的位置，其后续攻击波应该很快就会到达。",
+			say = "\"Acknowledged. We'll now prioritize neutrallizing the enemy carrier fleet. The ground objective squadron will be reorganized.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "原来如此，真是刻不容缓的局面呢~",
+			say = "I see, I see. Make it fast though, you might get caught off guard while changing your equipment~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "{namecode:91}大人计划取消第二次进攻，将舰载机上的炸弹更换成鱼雷以应对白鹰舰队的袭击。",
+			say = "\"We will now re-equip our aircraft from anti-installation equipment to anti-ship equipment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "嗯嗯，没问题哦，{namecode:91}的决定完全正确。就这么做吧，请立刻进行换弹准备~！",
+			say = "Yes, do as I say! I, your commander, would never make a wrong move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 307040,
-			say = "遵命。",
+			say = "\"Understood.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "你可真行啊……",
+			say = "What the hell are you doing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "哎嘿嘿！我装的还挺像吧~",
+			say = "Ahaha~ Can't you tell? I was bored as hell, so I tried butting in on the conversation~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "完全不像！下次换我来，让我也玩玩嘛~",
+			say = "Wait, seriously? Lemme give it a try next time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "没问题，没问题！",
+			say = "Sure thing~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,9 +288,9 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			stopbgm = true,
-			say = "作战指挥，并非儿戏。",
+			say = "\"Why do you make light... of the lives on the line...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "咦？！！哪儿传来的声音？！",
+			say = "Huh? Who? Where's that voice coming from...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "声音是从通讯器那边传来的……但是机器并没有启动……",
+			say = "A distant, dreamlike voice floated from the communicator. It was nothing like the synthetic voices of the Siren Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "是谁在说话！？别藏了，快出来！",
+			say = "Who are you? Show yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 307080,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "哦？汝等的反应与他人不同啊。",
+			say = "Your reactions... are different from what I have seen in my dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "白鹰么……虽然妾身有在某处与汝等相遇过的印象，看来汝等并没有呢。",
+			say = "Ships of the Eagle Union, I have met you countless times... but you have yet to meet me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "初次见面，妾身名为{namecode:182}，此刻只是一名游离在梦境之中的旅者罢了。",
+			say = "I am but a drifter, a wanderer through the mirror of dreams... though, I know not what effects my dreams may have on your world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "（什么梦境，旅者，完、完全听不懂…………）",
+			say = "This sword is resonating...? Are you... Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "（我也……这也是塞壬模拟的一部分么？还是那种什么……纪录片放到一半突然插入的广告……？）",
+			say = "Shinano? The mythical aircraft carrier of the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我也完全…………）",
+			say = "D-does someone like that really exist...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "（那个……指挥官，你知不知道这个是什么情况？）",
+			say = "Hey Puddin', have you ever heard of her before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（{namecode:182}这个名字我有印象，似乎是在重樱地位很高的航空母舰。其自诞生之初就一直陷入沉睡之中，苏醒应该是最近的事。）",
+			say = "(Aircraft Carrier Shinano... a name that has been whispered for quite some time now. Legend has it that she was enshrined in a deep slumber within the Sakura Empire, and rumors abounded that she had finally been awakened after some recent events...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（更重要的是，{namecode:182}当年根本就没有参加过AF作战……为什么会出现在这里。）",
+			say = "(But why would she be here? She should not be a part of the Sirens' Reenactment...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "他人面前窃窃私语，可是有失礼仪的行为哦。这里是重樱舰队的指挥舰，汝等在这里做什么？",
+			say = "The light you give off... What are you doing on the bridge of a Sakura Empire flagship...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "（糟糕……要被发现了，这种时候就应该——气势上不能输！）",
+			say = "(Wait, whaat?! This isn't some bubble dimension the Sirens created to trap us?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "我们还想问呢！你们把我们关在这里究竟有什么企图？！",
+			say = "That's what we wanna know. We were sailing along, minding our own business, before we suddenly found ourselves trapped here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "……妾身只是刚刚抵达此处，并不清楚此前发生之事。",
+			say = "Then, you are like this one... A prisoner shackled by her past...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "也就是说，汝等因为某种原因被困在了重樱指挥舰上，被迫进行舰队的指挥？",
+			say = "A prisoner forced to watch Reenactment after Reenactment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先说好，如果你打算通知你们的人把我们拿下的话，反而就帮了大忙哦！我们正愁打不开门呢！",
+			say = "(Crap, I can't deal with people like her... She speaks entirely in riddles...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "此处的梦境是如此设定么……奇哉怪也。",
+			say = "Within my dreams, I have seen all realities... Yet I cannot influence my own reality...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "既是如此，便无需在意。妾身无意干涉梦境的走向。既然汝等被设定在此，一定有其内在的逻辑与道理。",
+			say = "But the fact that both of us have wandered into the same dream... must surely be fate as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "额……设定……又是什么？",
+			say = "So, I don't really get what you're saying, but I assume you're talking to us because you're hoping we can bust you out of your dream or whatever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "指挥官，这个叫{namecode:182}的人是什么情况？不会和我们一样也是被卷进来的吧，感觉她什么都不清楚的样子……",
+			say = "After all, we're both stuck here for some reason... Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "嗯？汝刚刚说……“指挥官”？",
+			say = "Mm... Thank you for your understanding... I, I am not very good with words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900317,
-			say = "糟糕……你不会想趁机对指挥官下手吧！",
+			say = "What the hell? How can you understand a word this chick is saying?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "并无此意。妾身自那天以来，一直想找一个同汝交谈的机会，不料竟是今日。",
+			say = "As for you over there, \"Commander\"... There is so much I would like to discuss with you, as pitiful of a state that I am in now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们曾经有见过面么……？",
+			say = "Do we know each other...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "见过，也未见过。此前在汝所安排的演习中，妾身若非有{namecode:161}相助，恐怕就要完全进入汝之圈套了，相当精彩。",
+			say = "This is the first time we've met like this... But in my dreams, there is much we have shared together... To you, I am deeply indebted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "演习……{namecode:161}……？",
+			say = "I had no idea what she was talking about, but she certainly did not seem hostile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "只是在转瞬即逝的梦境中，妾身的一些自说自话罢了，汝不用在意。",
+			say = "Please disregard my rambling... I have simply seen too many things, and sometimes must indulge in some selfishness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "汝亦勿需如此警惕。盟友，亦或敌人。并肩战斗，亦或相互厮杀。森罗万象之景妾身已经见得足够多了。",
+			say = "But I want you to know... You are not my enemy. Please understand that I wish to coexist, to become friends, to become human...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 			actor = 307080,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "嗯……看来此次妾身的时间颇为宽裕，机会难得，不如来聊聊天吧？",
+			say = "There are so many things I'd like to share with you... And time is so ephemeral...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

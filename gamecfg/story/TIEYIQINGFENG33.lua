@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "皇家·斯卡帕湾旅游区",
+			say = "Scapa Flow - Tourist Area",
 			bgm = "theme-camelot-up",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "人声鼎沸，热闹非凡——本日，一如往日一般洋溢着和平的气息。",
+			say = "The streets were abuzz with people. It was another ordinary, peaceful day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来……我们的度假时间是不是有些太长了。",
+			say = "Hey, does anyone else think this vacation has lasted ridiculously long?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正也没收到让我们回去的命令，就这么度假不是挺好的~",
+			say = "What's so bad about that? No orders to return home means endless vacation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是，怎么会有人嫌休息时间长呢。",
+			say = "Yeah! I mean, who DOESN'T like a long vacation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……天上。",
+			say = "Look... In the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？天上怎么了么——啊，大家快看天上！？！",
+			say = "Did you spot a fancy cloud or– Oh my gosh! Girls, look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是伊丽莎白女王，醒来，皇家的臣民们。",
+			say = "This is your queen speaking! My loyal subjects – wake up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王命令你们，从这个充斥着死亡的甜蜜陷阱中醒来！",
+			say = "You're in a sweet but deadly trap, so snap out of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……陛下，您怎么在天上？",
+			say = "Y-Your Majesty, why are you in the sky?",
 			effects = {
 				{
 					active = true,
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是重点吧！",
+			say = "THAT'S the first thing on your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201160,
-			say = "啊……我的头好疼……",
+			say = "Owch... My head hurts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这段时间的经历，难道都是梦么，可是又如此逼真……",
+			say = "So this whole vacation was nothing but a dream... I can hardly believe how realistic it seemed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似梦，又不是梦——这是一个精心编制的幻境。",
+			say = "Because it's not entirely a dream. Dreams are natural, whilst yours was fabricated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不用担心，黑日凌空，不出三分钟，幻境就会自行瓦解。",
+			say = "It'll be alright, though. This newly developed anti-conceptual weapon will tear down this illusion in only three minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在头疼头晕都没关系，一会彻底清醒过来就没事了。",
+			say = "If you feel dizzy or have a headache, that's fine. It'll be gone when you open your eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之你们先醒着，本王去下一站了！",
+			say = "I'm off to the next illusion now. You lot just focus on waking up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望阿瓦隆之门里的人没干出什么傻事来！",
+			say = "Let's hope the girls manning the gate haven't done anything stupid...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

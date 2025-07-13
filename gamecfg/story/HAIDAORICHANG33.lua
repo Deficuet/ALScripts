@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>黄金海滩的尾音</size>",
+					"Uncharted Summer\n\n<size=45>Beachside Banquet</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "——丽日晴川。金色的沙滩之上，迎来了近期最为热闹的一天。",
+			say = "It's another wonderful day. A banquet is taking place on the golden beach, with cheers and shouting filling the air.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -75,11 +75,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别跑，吃我一枪——",
+			say = "I've got you nooow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,11 +92,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼，精准命中！",
+			say = "Hahah! Direct hit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "拉菲",
+			actorName = "Laffey",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不要太得意了……看拉菲的反击——",
+			say = "Someone's getting cheeky... It's payback time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "标枪",
+			actorName = "Javelin",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轻松躲开~想要打中我还需要再瞄准一点呢~",
+			say = "Heh! You'll need to aim better if you hope to hit me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +133,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:408}",
+			actorName = "Z23",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是……为什么被打中的是我啊！",
+			say = "You make me feel like a fish in a barrel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,11 +150,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:408}",
+			actorName = "Z23",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来该拿出点真本事了！",
+			say = "If that's how you want it, I'm going to have to get serious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:6}",
+			actorName = "Ayanami",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "勉强擦身而过……",
+			say = "Just graze her shots. Easy game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +174,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:6}",
+			actorName = "Ayanami",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是时候使用秘密奥义了——二枪流！",
+			say = "I'm going to use my secret skill – akimbo style!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "标枪",
+			actorName = "Javelin",
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜啊，要一决高下么？我可是不会手软的！",
+			say = "Throwing down the gauntlet, eh? Don't expect me to go easy on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301820,
-			say = "要来一杯柠檬茶嘛？加了糖和茉莉花，很好喝的哦。",
+			say = "A cup of lemon tea, anyone? It tastes sublime with a little sugar and jasmine leaves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这边还烤了新鲜出炉的披萨~！来，分给大家咯~",
+			say = "Yo, the pizza's done! Who wants a slice?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102090,
-			say = "哇哦，感觉很不错啊！多谢多谢~",
+			say = "Whoa, smells good! Don't mind if I do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "柠檬茶我来一杯，披萨就……",
+			say = "I'll have some of that tea, but I'll pass on the pizza...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "披萨就先等等，先来尝尝我铁血特制的酱猪肘和酸菜吧！",
+			say = "Pizza is overrated. Have some schweinshaxe and sauerkraut instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408080,
-			say = "当然，碳酸咖啡也不能少！",
+			say = "And drink it down with a cup of carbonated coffee. Raaawr!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "……夏日的聚会配冰淇淋才是正确的事情吧！",
+			say = "Where's the ice cream? You can't have a beachside picnic without ice cream!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊！！为什么明明是我先发现的素材，却被你先报道了啊！",
+			say = "What the hell, Aoba?! This was MY scoop you reported on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "还用这么诱导性的标题——“震惊！指挥官在温泉的风流秘事”……！",
+			say = "And this headline – \"The Commander's UNBELIEVABLE Hot Spring Affair\" – it's SO sensationalist!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这叫善于抓住机会嘛。",
+			say = "It's called, \"being a better journalist than you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有不服气的话，可以再去取材哦？总之我先溜了~！",
+			say = "Don't like it? Then be quicker on the draw next time. Toodles!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊可恶！等等我！",
+			say = "I'm not done with you! Get back here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有我！真是的，你们倒是等一下港区老牌资历的资深记者呀！",
+			say = "Let me join the journo club! Nobody covers the topic that is Sara better than me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "白浪拍打着的海滩。畅爽的海风与美妙的宴会相交织，编制出一副如梦的画面。",
+			say = "The festivities continue as white waves wash ashore while a salty breeze blows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“暖风带来金色的故事，它已吹过，但阳光下依然留有痕迹。”",
+			say = "\"A warm wind tells a tale of gold. Though its time has passed, traces of it may be found amidst the sunlit ruins.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,14 +586,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "熟悉的声音在耳边响起。",
+			say = "I hear a familiar voice ring out from somewhere nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……皇家财富？",
+					content = "\"Is that you, Royal Fortune?\"",
 					flag = 1
 				}
 			}
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "哼哼，怎么，看到我很意外？",
+			say = "Sure is! Surprised to see me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "你举办了这么热闹的庆功宴，我当然不能错过啊~",
+			say = "You shouldn't be. I couldn't call myself a pirate if I skipped out on such a grand party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "你是怎么知道今天有庆功宴的？",
+			say = "\"How did you know we were having a party today?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海盗知道去哪里有热闹看不是与生俱来的本能么~？",
+			say = "I dunno. Instinct? My gut leads me to where the fun is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "这几天你又一个人在做什么？",
+			say = "\"Enigmatic as ever. What have you been doing these past few days?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "依然是秘密~作为海盗，保持神秘感也是很重要的。",
+			say = "That's a secret. Mystery and Tempesta go hand-in-hand, matey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "啊，等等再和你聊！",
+			say = "Ooh! Tell you what, I'll talk to you later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "那边的蜜汁烤肉和菠萝披萨也给我留一份——！",
+			say = "I've got to grab some Hawaiian pizza and barbecue before they're all gobbled up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "皇家财富一边挥着刀，一边向食物冲了过去！",
+			say = "She draws her cutlass and charges toward the dinner table, as if she's going to plunder it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "……看起来笑容是会传染的。",
+			say = "I feel my lips curve. Her smile is contagious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "不然，为何现在它也爬上了我的嘴角呢？",
+			say = "I'll save the questions for later. For now, I'll just enjoy the moment with everyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

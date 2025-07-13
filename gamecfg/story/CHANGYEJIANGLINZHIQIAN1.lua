@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"斯卡帕湾锚地·卡美洛之庭",
+					"Scapa Flow Anchorage - Mirror Sea \"Camelot\"",
 					1
 				},
 				{
-					"阿瓦隆之门驻防舰队",
+					"Royal Navy Defense Fleet",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "阿瓦隆之门的枢纽——卡美洛之庭。",
+			say = "Camelot – the hub for the Gate of Avalon, a transference device controlled by the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "原本是一处风景秀丽，宛如世外桃源的好地方。",
+			say = "The gateway was used to make first contact with two META shipgirls, as well as to seek out a cure for Hood. However, it also drew the attention of the terrifying and mysterious Bon Homme Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "不过此刻，硝烟与炮火正逐渐从四面八方逼近着这座城堡。",
+			say = "And now, the Gate of Avalon has become besieged from all sides, artillery fire raining down upon what once was a fairytale paradise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704030,
-			say = "老姐，这些无法辨识又如同鬼魅一般的敌人……",
+			say = "Sis, these ghostly, formless enemies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是不是和之前理查德小姐驱使的那些东西很像啊？！",
+			say = "Don't they look just like things Bon Homme Richard sent at us that other time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "嗯，我也是这么想的。",
+			say = "Yes, that's what they remind me of, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "那个怪物……还是被她追到这里来了么。",
+			say = "Assuming they're the same... it didn't take long for that monster to find us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不过究竟是用什么方式入侵的……",
+			say = "The question is, how did they get inside this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "敌人并没有走卡美洛之庭的通道，更像是凭空从阿瓦隆之门里其他地方冒出来……",
+			say = "They seemingly appeared out of thin air from within the Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "这个人工奇异点明明只有一个对外出口才是。",
+			say = "Repulse, the only way in and out of Camelot is through the gateway, is it not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704030,
-			say = "这种技术问题，要是连老姐你都不懂的话，我就更不懂啦！",
+			say = "If you don't know, I sure as hell don't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "也是。",
+			say = "Hmm... I guess that's true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704030,
-			say = "嘿嘿~老姐，你那边战况如何？",
+			say = "By the way, is everything going well on your end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "清理的很顺利。不过……这些敌人虽然弱，但数量庞大。",
+			say = "Yeah, I'm cleaning up right now. They're pretty weak, but... they sure make up for it with sheer numbers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "如果不能找出其进入阿瓦隆之门的途径的话，卡美洛之庭迟早会有危险。",
+			say = "Just holding our ground isn't enough to count as a win. We need to figure out where all these enemies came from, or the situation's only going to keep getting worse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "持久战对我们不利……通讯状况如何？",
+			say = "The longer this drags out, the worse shape we're going to be in. Also, has Queen Elizabeth responded to you yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "对外通讯完全中断中——她们的通讯器实在太差了。要是能用跟我们同款的就好了。",
+			say = "I sent out an SOS, but I haven't heard anything back. I bet it's because their equipment is too primitive. I've been saying, they really should upgrade to Ashes-grade stuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "你会做么？",
+			say = "And do you know how to make Ashes-grade equipment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "老姐你都不会，我哪儿会啊！",
+			say = "Do you? 'Cause if you don't know, I sure as hell don't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "也是……",
+			say = "Hmm... I guess that's true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "援军已抵达！声望阁下，反击阁下，久等了！",
+			say = "The cavalry has arrived! Renown, Repulse, we've got your backs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让二位久等了。",
+			say = "Sorry to have kept you waiting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王带人来支援了，现在情况如何？",
+			say = "Better late than never, as they say! What's the current situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……伊丽莎白女王陛下？",
+			say = "Y-Your Majesty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你，你怎么能亲自跑到这么危险的地方来啊！",
+			say = "Umm, to what do we owe the pleasure? Why did you come in person?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然是来调查情况啊。",
+			say = "To see what's going on, obviously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王只收到了阿瓦隆之门出现异常的消息，之后对内通讯就断了。",
+			say = "I received word that something was wrong with the gate, and then all communications went down right after that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的情况本王最熟悉，出现异常也只能由本王来排查不是？",
+			say = "As the most knowledgeable person about this gate, if I don't do something about it, then who will?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉……本王也是进来之后才发现里面已经打成这个样子了。",
+			say = "In any case, I didn't realise the situation was this bad until I arrived here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "……至少这次你知道带护卫一起行动了。",
+			say = "...Yes, I'm glad you at least didn't come alone this time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿瓦隆之门事关重大，本王自会慎重对待。",
+			say = "But of course. The Gate of Avalon is of critical importance, so we would spare no expense to ensure it continues running smoothly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不如说因为事发突然，只带了这么些人来。",
+			say = "In fact, I would've brought more people if I could. Alas, this is all I could muster on such short notice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，现在情况如何？",
+			say = "But first, what exactly is going on here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "入侵的敌人本身没什么威胁，但其入侵方式与入侵意图均不明。",
+			say = "The invaders themselves aren't particularly dangerous, but we don't know where they're coming from, or why they're attacking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			actor = 9704040,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "从外貌与特性推测，此次进攻或许是那个伪装成好人理查德的怪物即将入侵的前兆。",
+			say = "Judging by their appearances, they very much may be harbingers of that monster in the form of Bon Homme Richard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……本王见到这些东西后也是这么想的。",
+			say = "Yes, I suspect the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过上次那种夸张的旋风倒还没有出现。",
+			say = "For better or worse, there's no sign of that black tornado we saw during our last encounter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许理查德想要入侵需要达成某种条件才行……",
+			say = "This might mean that she herself can't get to us so easily. Some external conditions may need to be met first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…………所有人进入卡美洛之庭。",
+			say = "Regardless – all ships, hurry to the gate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和上次一样，全面封闭卡美洛之庭，我们做好固守的准备，之后见招拆招。",
+			say = "We'll turn off the teleporter and put this Mirror Sea on lockdown. Be prepared to fall back and hold the castle, if need be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倘若真是理查德入侵的话……必须将其牢牢挡在这里才行。",
+			say = "In the event that Bon Homme Richard truly is attacking us, we must stop her here before she gets any farther.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，有一股白雾出现了，正在向我们的方向迅速蔓延。",
+			say = "Your Majesty, a patch of sea fog has appeared in front of us, and it's rapidly expanding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "白雾？",
+			say = "Sea fog...?",
 			effects = {
 				{
 					active = true,
@@ -888,7 +888,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -942,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704030,
-			say = "谁在接近？！",
+			say = "Who's there?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205140,
-			say = "别、别开火，自己人！",
+			say = "Eek! Pl-please don't shoot! I'm on your side!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,7 +977,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯~！英雄登场，邪恶势力吃我一炮！",
+			say = "Teehee~ Royal Oak makes a great distraction for sneaking around and getting a backstab crit~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "百眼巨人前来支援！女王陛下，让您受惊了。",
+			say = "Argus is present and prepared! Your Majesty, I'm glad to see you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，这里是怨仇，现在带领安塔迪卡洋舰队前来增援。",
+			say = "As am I. Our whole fleet is here and ready to assist, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1030,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "接下来的战斗也请让我们出一份力。",
+			say = "Just say the word, and I'll deliver judgment to our foes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1047,7 +1047,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………？",
+			say = "Implacable? Argus? And all the rest?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1064,7 +1064,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安塔迪卡洋舰队……？",
+			say = "What is the meaning of this? How did you get here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1081,7 +1081,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇，你们是怎么从安塔迪卡洋跑到这里来的？",
+			say = "Last I heard, you were finishing up your investigation of the basilicas on the Kerguelen Islands!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在不久前，我收到了您正在阿瓦隆之门中苦战的消息。",
+			say = "Well, we were, until we received your distress signal. You said you needed backup.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1115,7 +1115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后立刻整备舰队，利用构建者留下的微层化混合物搭建通道来到这里的！",
+			say = "As for this sea fog... It's actually a microlayer transference device left behind by Compiler, so that's how we were able to come straight here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……本王前脚才刚到阿瓦隆之门，你远在安塔迪卡是怎么提前知道的？",
+			say = "...Wait, back up! What do you mean by \"distress signal\"? I only just got here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有构建者留下的微层化混合物搭建通道……那是什么，你怎么知道这个的？",
+			say = "Then, there's the microlayer thing... How did you conveniently get your hands on Siren technology, and figure out how to use it so quickly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1166,7 +1166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是谁告诉你这些的？谁帮你来到这里的？",
+			say = "In other words, who told you all this? Who helped you get here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1184,7 +1184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "额……",
+			say = "Who? Um...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,7 +1202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "…………陛下您自己？",
+			say = "You did, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1

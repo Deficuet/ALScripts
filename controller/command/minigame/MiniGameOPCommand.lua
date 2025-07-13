@@ -46,6 +46,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			local var_2_1 = PlayerConst.addTranDrop(arg_2_0.award_list)
 
+			print(var_2_1)
+
 			if var_1_3 == var_0_0.CMD_COMPLETE then
 				local var_2_2 = var_2_0:GetHubByHubId(var_1_2):getConfig("reward_target")
 

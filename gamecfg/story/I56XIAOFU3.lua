@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"角落的向日葵\n\n<size=45>三 新的伙伴？</size>",
+					"Wallflower in the Corner\n\n<size=45>Chapter 3 - A New Friend?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 308041,
 			nameColor = "#a9f548",
-			say = "哎呀，你是……",
+			say = "Nnnh... who are you?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿～你们好呀，重樱的潜艇，我是铁血的{namecode:419}！",
+			say = "Heheh~ Nice meetin' you, Sakura subs. I'm U-522, from the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是{namecode:252}，她是……",
+			say = "I'm I-25, and she's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜呜呜呜呜呜(屁股压到我了）……我、我叫{namecode:254}",
+			say = "Urk... (you're...) uuuugh... (sitting on me!) I'm... I-56...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不好意思突然跳出来吓到你们啦",
+			say = "Oops, sorry 'bout that~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没事……",
+			say = "*gasp* ... It's okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于是你们刚才在搞什么呢？",
+			say = "What were you two doing just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么……额……",
+			say = "N-nothing in particular...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我正在寻找有趣的事呢，有没有什么建议分享一下呀！",
+			say = "Heheh. I'm actually currently looking for some excitement! Got any tips for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 308041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有趣的事情…好像…没有什么呢，56呢？",
+			say = "Excitement? I don't think... I have anything for you. How about you, 56?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…有趣的事，学校里，有很多…吧",
+			say = "Hmm... there should be plenty of exciting things at school... I think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吼～学校里有什么有趣的事呀？",
+			say = "Ohh~? Just what exactly is exciting about school?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:415}和{namecode:156}经常会在天台一起发呆……",
+			say = "U-557 and I-58 often go up to the roof to space out... and Surcouf sometimes goes up there to nap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:155}经常和{namecode:414}玩捉迷藏，也会和鲦鱼会一起训练……",
+			say = "I-26 and U-81 often play hide and seek, and they'll also go training with Dace...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,24 +295,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:417}和{namecode:154}跟谁都合得来所以有点微妙，{namecode:163}经常去找航母们玩，所以她们比较……嗯……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 1,
-			bgName = "star_level_bg_103",
-			actor = 308051,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "然后,大青花鱼则是喜欢捉弄所有人……",
+			say = "U-73 and I-19 get along with everyone so well to the point of being uncanny, I-13 has an unhealthy love of planes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +312,7 @@ return {
 			actor = 308041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没想到，56你这么关注大家…",
+			say = "... I-56, I never knew that you cared so much about everyone. It's a travesty you don't have any friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +328,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…我也会加油的！",
+			say = "But your days of suffering are now over. I will make sure to be the best friend you can ask for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +344,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，不是，我没有……",
+			say = "Um, I didn't say anything about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +360,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…貌似那个叫大青花鱼的家伙也挺有意思的…",
+			say = "Ohoh... How about Albacore? I heard she's a fun playmate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +377,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好！下次到学校就去找大青花鱼玩吧！",
+			say = "That settles it! Next time there's class, I'll be on the lookout for her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +403,7 @@ return {
 			bgName = "star_level_bg_103",
 			actorName = "？？？",
 			dir = 1,
-			say = "糟了糟了糟了！要来不及了！",
+			say = "Crap, crap, crap! I'm going to be late!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -447,7 +430,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又、又来了吗！？！！！",
+			say = "Wh-who is it this time?!?",
 			effects = {
 				{
 					active = false,

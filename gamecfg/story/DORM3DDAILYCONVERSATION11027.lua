@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？",
+			say = "New Jersey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "原来是，honey……来了啊。",
+			say = "Huh? Honey, you're here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我……我怎么流口水了？",
+			say = "...Was I drooling in my sleep?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我正梦到吃到限量版冰激凌的时候，听到声音就醒了……",
+			say = "I was dreaming about eating this limited-edition ice cream, and then I heard a sound...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？为什么？当然是honey比起冰激凌更加重要还用说嘛？！",
+			say = "Why'd I wake up? Because you're more important than ice cream, duh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

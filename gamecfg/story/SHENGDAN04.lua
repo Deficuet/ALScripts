@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>四 重樱的圣诞节·下</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 4 - A Very Sakura Empire Christmas (Part 2)</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "港区•重樱宿舍",
+			say = "Port - Sakura Empire Dormitory",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "我们回来了~",
+			say = "I'm home!",
 			subActors = {
 				{
 					actor = 305022,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~欢迎回来~",
+			say = "Welcome back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "噢！辛苦了~欢迎回来啊！",
+			say = "Indeed! Outstanding work today, Yamashiro!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -94,7 +94,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "{namecode:33}和…{namecode:82}前辈？",
+			say = "Mutsuki and... Mikasa-senpai? What's this about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "啊啊，因为大家都在准备那个，是圣诞节对吧？就我光是坐着也不好，但是我要帮忙吧，后辈们又都说“{namecode:82}前辈这里就交给我们吧“什么的……",
+			say = "Ah, everyone's preoccupied with preparations for this so-called \"Crissmoss\" festival... I offered to assist, but they declined and told me \"please let us handle this one, Mikasa-senpai\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "虽然被后辈们尊敬是让人开心的事情，不过这时候就让人觉得特别寂寞呢…",
+			say = "It's good that everyone respects me, but being respected this much makes me feel pretty lonely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "{namecode:82}前辈……",
+			say = "Mikasa-senpai...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "不过还好这时候！还有些需要照顾的后辈在！",
+			say = "But so be it! I shall try to watch over the young ones here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}前（xian）辈，{namecode:33}还要玩~",
+			say = "Mikasa-shempai! Come play with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "好好好，{namecode:33}想玩什么呢~？骑马打仗？还是要飞高高？",
+			say = "Certainly. What shall we play? Do you want to ride on my back, or do you want an upsy-daisy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "虽然一直听说的都是{namecode:82}前辈在战场上的风光——",
+			say = "I've heard that Mikasa-senpai is cool and dignified on the battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "没想到平时的前辈是这样的呢…",
+			say = "But outside of it, she's like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "不愧是{namecode:82}前辈~",
+			say = "Ahahah, who would've thought!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——好！那么重樱圣诞派对，现在开始~大家玩得开心！",
+			say = "There! I hereby declare the Sakura Empire Crissmoss Party as having started!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "姐姐圣诞快乐~",
+			say = "Merry Christmas, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "你也圣诞快乐~",
+			say = "And merry Christmas to you, Yamashiro!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -322,7 +322,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "指挥官的指挥室…果然还亮着灯呢……",
+			say = "I wonder if milord is still in his office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "这么在意的话，不如去看看怎么样？顺便给指挥官看看你的圣诞装？",
+			say = "If it's making you anxious, why not go there to see him? You could even show him your Christmas costume while you're there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "姐、姐姐又逗我玩！",
+			say = "N-nee-sama...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "谁叫你是我妹妹呢~这种时候推你一把不正是我该做的吗~？",
+			say = "You're very important to me, you know. After all, what kind of sister I be if I didn't support you at times like these?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:33}也想去看指挥官！",
+			say = "I wanna go see the comainder too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "那、让{namecode:33}一个人这么晚出去也不太好，我就陪着她去一趟好了",
+			say = "O-okay...! It'd be dangerous to let Mutsuki go alone, so I'll take her with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "哎呀呀…路上小心~",
+			say = "Of course... Good luck, and don't lose sight of Mutsuki. Hahah~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

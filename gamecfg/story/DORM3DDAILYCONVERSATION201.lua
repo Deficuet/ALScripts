@@ -15,18 +15,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}对刀具保养感兴趣吗？",
+			say = "Are you interested in sword maintenance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有点兴趣",
+					content = "Of course I am.",
 					flag = 1
 				},
 				{
-					content = "方便讲讲么？",
+					content = "I might be interested in hearing about it.",
 					flag = 1
 				}
 			},
@@ -61,7 +61,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……感觉光是用说的不太容易理解呢，还是下次直接实操给你看看吧。",
+			say = "Hmm... You probably won't get it if I explain everything with words. I'll show you how it's done next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过有一点，越是锋利的刀越需要细心的照料。",
+			say = "The sharper the blade, the more care it needs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "浇灌自身的心意，刀就会在关键时刻回应主人。",
+			say = "If you treat your sword well, your sword will treat you well when it really matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "就像……我和{dorm3d}一样……",
+			say = "It's kind of like... how you are to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

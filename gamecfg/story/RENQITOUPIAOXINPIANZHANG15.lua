@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是复活赛么……气氛意外地比小组赛还要热烈啊。",
+			say = "Sheesh! The competition in the repechage is even fiercer than the group polls!",
 			bgm = "votefes-up",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟这是进入决赛的最后机会……",
+			say = "Yes. This is their last chance to advance to the finals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "错过的话，就要等下一届投票了。",
+			say = "If they don't make it now, they'll have to wait for the next poll.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不管怎么样，错过机会，肯定会很失落的。",
+			say = "Whatever the outcome, you'll kick yourself if you don't give it your all while you can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，才要在复活赛把握住最后的机会。",
+			say = "Very true. You'd be a fool to sleep on this final chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且那些在小组赛里实力强劲的对手已经全部晋级了嘛！",
+			say = "And besides, your strongest competition before this point has already advanced to the finals!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "努力……加油……！",
+			say = "Good luck, girls...",
 			painting = {
 				alpha = 0.3,
 				time = 1

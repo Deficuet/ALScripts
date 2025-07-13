@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.25,
 			style = {
-				text = "点击可切换单队连战与多队出击状态",
+				text = "Tap to switch between Solo Challenge and Coalition Battle.",
 				mode = 1,
 				posY = -136.5,
 				dir = 1,

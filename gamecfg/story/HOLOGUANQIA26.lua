@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "holo-mio",
-			say = "两个小时后",
+			say = "Two hours later",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "哼哼~大家在下一个路口右转哦。",
+			say = "Heh, okay, we've gotta go right at the next junction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "在这里停下，左边那个印有盘子标记的路才是正确的路！",
+			say = "Wait here. The path marked with a platter is the right one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一路畅通…好厉害。",
+			say = "I'm surprised we're making so much progress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "嘿嘿，多亏了{namecode:408}的建议呢，“如果是在自己修改迷宫的话，要会在哪些地方做手脚来误导自己”！",
+			say = "That's thanks to Z23's idea! \"If you were to remodel the labyrinth, how would you do it?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺着这个思路想的话，正确的道路自然而然就推导出来了呢。",
+			say = "Everything falls into place when I view it from the perspective of what my clone would do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "就按照这个气势，一鼓作气的突破迷宫吧！",
+			say = "We'll get to the end of this maze in no time at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

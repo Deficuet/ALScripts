@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "不夜城·？？？·「女王」的总部大楼",
+			say = "Sleepless City - ??? Queen's HQ",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -18,7 +18,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "跟随着这位沉默寡言的联络人，抵达了一幢气派的大楼前。",
+			say = "The silent Contact guides us to a fancy building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "传说中的黑道的总部，竟然位于城市最繁华的地段之一。",
+			say = "I was surprised to learn that the mafia headquarters were located in the most lively place in the city, but we get an audience with the Queen without issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_161",
-			say = "然而——",
+			say = "However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,8 +49,8 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "联络人",
-			say = "请留步，凶猛女士。",
+			actorName = "Contact",
+			say = "Svirepy, stay here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "联络人",
-			say = "只有「指挥官」能够进入女王的宫殿。",
+			actorName = "Contact",
+			say = "Only the Commander may meet with the Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,10 +72,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么？",
+			say = "What the hell?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,39 +89,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这和说好的不一样吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 701101,
-			nameColor = "#FEF15E",
-			bgName = "star_level_bg_161",
-			side = 2,
-			actorName = "联络人",
-			say = "女王的客人名单中只有「指挥官」。还请见谅。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 701121,
-			side = 2,
-			bgName = "star_level_bg_161",
-			factiontag = "艺术家",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "喂！我可以怀疑你们不怀好意么？",
+			say = "That's not what you said before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,8 +107,25 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "联络人",
-			say = "…………",
+			actorName = "Contact",
+			say = "Only the Commander was invited. Accept it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 701121,
+			side = 2,
+			bgName = "star_level_bg_161",
+			factiontag = "Artist",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Wha?! You wanna get your ass kicked?!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,19 +136,31 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "联络人",
-			say = "我很抱歉。但女王的命令是绝对的。",
+			actorName = "Contact",
+			say = ".........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 701101,
+			nameColor = "#FEF15E",
+			bgName = "star_level_bg_161",
+			side = 2,
+			actorName = "Contact",
+			say = "I'm sorry. The Queen's orders are absolute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看来没有办法了……",
+					content = "I guess we have no choice...",
 					flag = 1
 				},
 				{
-					content = "我独自进去就好了。",
+					content = "I'll go alone.",
 					flag = 2
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "跟随着联络人，抵达了女王的办公室。",
+			say = "Thus, I finally arrive at the Queen's office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "推开门，同女王的视线对上的瞬间，便感觉到了一股熟悉的战栗。",
+			say = "As soon as I open the door, I make eye contact with her. My heart skips a beat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,14 +206,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "安眠的记忆仿佛即将苏醒般，情不自禁吐露出那个本该熟悉的名字。",
+			say = "Her name naturally leaves my mouth, as if a long-dormant memory has been awakened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "“女王”·波尔塔瓦……",
+					content = "Queen Poltava.",
 					flag = 1
 				}
 			}
@@ -222,10 +222,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "很好、很好，想不到你还记得我。",
+			say = "Isn't that sweet? You remember me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,11 +239,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "听闻你失踪，我还以为这不夜城少了件乐子，现在看，倒是我肤浅了。",
+			say = "I thought the Sleepless City would get boring when I heard of your disappearance. How happy I am to be proven wrong.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,10 +257,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "还有几分当年的风采，看来你也没那么容易被打垮，治安者的指挥官。",
+			say = "And you still have your old charm... You're a tough one, Commander of the security force.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,9 +274,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "所以，我们认识……",
+			say = "Did we know each other...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +286,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "呵呵……不如说，我们是宿敌。",
+			say = "Heehee... More than that. We were rivals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,11 +304,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "别担心，你现在是我的客人，我不会对客人动手的。",
+			say = "But don't worry. You're my guest, and I'm not the type of queen to be rude to guests.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,10 +322,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "而且……现在不是还有更伟大的事业在等着我们么？",
+			say = "Besides... A much greater cause awaits us, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,9 +339,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "“我们”……？",
+			say = "Us...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,10 +351,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "是的，“我们”。",
+			say = "Yes. Us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,11 +368,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "让我们进入正题吧。",
+			say = "I'll get right to business.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,11 +386,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "「通天之匣」在你手上，对不对。",
+			say = "The Ascension Box. You have it, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,11 +401,11 @@ return {
 			},
 			options = {
 				{
-					content = "是这样没错……",
+					content = "I do, but...",
 					flag = 1
 				},
 				{
-					content = "但你是怎么知道的？",
+					content = "How did you...",
 					flag = 2
 				}
 			}
@@ -414,10 +414,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "呵呵……在这座城市，敢于袭击那位“大人物”的势力，可不止有银翼啊，指挥官。",
+			say = "Heehee♪ The resistance isn't the only group capable of launching an attack on her, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,9 +431,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "所以那次袭击是你的人……",
+			say = "So you're the ones who attacked Valiant...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,10 +443,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "哼哼，谁知道呢。",
+			say = "Oh, I wonder. Who knows, really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,11 +460,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "让我把话挑明吧——我有办法将你送至「天啾塔」。",
+			say = "Let's be frank. I'm happy to take you to the Manjuu Tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,11 +478,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "作为回报，我希望你在连接那里的总服务器时，稍微做下手脚。",
+			say = "In exchange, when you connect to the city's main server, I need you to do some... fiddling for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,11 +496,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "也就是说，我希望“我们”将共同成为这座不夜城的主人。",
+			say = "That is, I want you to make US the masters of this Sleepless City.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,11 +514,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "届时，新的契约将被订立，不夜城的秩序会得到重塑。",
+			say = "Once that is done, a new contract will be bound. The order of this city can be rebuilt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,10 +532,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "你做你的不夜城领袖，我继续当我的暗面女王，不是挺好？",
+			say = "You may lead in the light, and I will rule as Queen from the shadows. Doesn't that sound wonderful?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			},
 			options = {
 				{
-					content = "不夜城，需要改变。",
+					content = "Doesn't that mean the Sleepless City won't change?",
 					flag = 1
 				}
 			}
@@ -555,11 +555,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "呵呵~当然、当然……但历史总是在循环的，慈悲的骑士哟。",
+			say = "Heehee. Of course, it will change a little. But like human history, things here will only repeat in perpetuity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,10 +573,10 @@ return {
 			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "……你明白的吧，只有这样，这座不夜城的权力才能平衡，那座宏伟的巨塔才不至于被自重压倒。",
+			say = "If we can right the balance of power, the Manjuu Tower won't collapse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,9 +590,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,11 +602,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "和我想的一样，你很纠结呢。",
+			say = "You seem as troubled as I'd expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,11 +620,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "无妨，你不必在这里就答应我。",
+			say = "Think about it as much as you need to. It's not as if you need to answer now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,11 +638,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "等到了那座塔的顶端，你自会明白的。",
+			say = "I'm sure you'll understand everything when you reach the top of the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,11 +656,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "嗯？治安者的动作还真是快啊。看来我为你预约的“派件员”准时抵达了呢。",
+			say = "...My, security works quickly. It seems the delivery person I arranged for has already arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,11 +674,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "女王",
+			factiontag = "Mafia Queen",
 			dir = 1,
 			actor = 705081,
 			nameColor = "#FEF15E",
-			say = "那么……愿我们后会无期，指挥官——",
+			say = "Farewell, Comrade Commander. We may never meet again, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,11 +689,11 @@ return {
 			}
 		},
 		{
-			actorName = "？？？？？",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_146",
 			nameColor = "#A9F548FF",
-			say = "指挥官，趴下——！",
+			say = "Comrade Commander, get down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "密集的枪声响了起来，巨大的落地窗上，猛然间布满了蛛网般的裂纹。",
+			say = "A wave of intense gunfire destroyed the glass window behind Poltava's throne.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -775,7 +775,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "紧接着，一枚闪光震撼弹被丢进了“女王”的办公室里。",
+			say = "Instantly after, a flash bang was tossed into the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,9 +785,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……！",
+			say = "...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "身体似乎被套上了绑带。",
+			say = "I'm suddenly tied up and dragged away by some intense force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "随之而来的是一股强烈的失重感。",
+			say = "In the midst of the white, I feel as if I've been thrown into a vacuum without gravity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,9 +834,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（难道……我被拽飞出去了？！）",
+			say = "(Did they just throw me out of the building?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>六　折返</size>",
+					"Where All Roads Lead\n\n<size=45>6 The Sakura's Return Home</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "帕克菲克洋·某处",
+			say = "Somewhere in the Pacific...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOM–––––––!!!",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "降临吧，天罚！",
+			say = "Sky-Rending! Retribuuuution!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301810,
-			say = "70°方向来袭舰队确认消灭。",
+			say = "Enemy down at 4 o'clock, confirmed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哼，借助风暴在海上偷袭可不可取！",
+			say = "Only cowards would ambush us in the middle of a storm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "漂亮。剩下的一些就交给妾身吧——",
+			say = "This one shall... dispatch the stragglers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOM–––––––!!!",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哇哦……虽然平时一直在见你睡觉，真到出手的时候还挺厉害啊。",
+			say = "Huh, you're not half-bad for someone who spends all day sleeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "那么多敌人仅一击就……不愧是这支舰队的总大将！",
+			say = "Color me impressed, even though you basically were just doing clean-up duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "过奖了，你做的也很好。",
+			say = "This one sees that... you too have awakened to great power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哼哼，我可是龙宫城的守护者，这些叫塞壬的敌人伤不到我的。",
+			say = "Hey, don't get the wrong idea just because I was hibernating inside the Dragon Palace! There simply was no reason for me to unleash my true powers at that time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "{namecode:180}，通知下去，现在敌人大部已灭，诸舰就近合流，合力对抗零散敌人，切勿独行。",
+			say = "Kasumi... Report on the enemy's status... Also, stay with us and do not get separated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301810,
-			say = "是。",
+			say = "R-right away... Umm, our fleet members are individually dealing with remaining enemies... But, umm, where's Noshiro's team?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "{namecode:50}，妾身这边不要紧，带着{namecode:62}去支援其他人。",
+			say = "This one did not need the extra escort... As such, Noshiro has been sent to assist Chikuma...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "如此激战过后，海面上没有任何残骸……",
+			say = "(The Sirens' wreckages... are disappearing far too quickly...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "这批新型塞壬十分的……不对劲，务必让所有人小心。",
+			say = "All ships... Be on your guard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命，{namecode:182}大人。",
+			say = "Always ready, Lady Shinano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "{namecode:204}，与妾身一起守护运输舰，恐怕敌人的目标就在这里。",
+			say = "Hakuryuu shall remain here with this one... The enemy may well be targeting our mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "啊？船里不都是那些自称盟友的人送的礼物么，有什么东西这么招人惦记啊……",
+			say = "The transports? What do the Sirens want with–– Oh, do you think it has something to do with the strange rock we got from the Iron Blood girls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "妾身也不清楚。",
+			say = "Their goals... are beyond this one's comprehension...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "那我还有个问题！你果然在战斗开始后有些不对劲的地方……",
+			say = "Hmm... Well, lemme ask you something you can answer this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "你身上的气……你的力量确实加强了，而且在战斗中持续变强了不止一次。",
+			say = "You seemed to know that the Sirens were going to attack us right here... How'd you manage to pull that off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "这到底是怎么回事？",
+			say = "Can you predict the future or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "那些只是，妾身暂时借来的力量罢了。",
+			say = "That was... this one's dream... A single fragment, strung together by destiny. And thus, one comes to see the end of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "呜啊啊啊……又在神神秘秘的说话了…！",
+			say = "...Sorry. I won't bother trying to ask you questions anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "呵呵~",
+			say = "...My apologies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:182}大人，周围没有在发现任何塞壬目标，战斗结束了。",
+			say = "Lady Shinano, the Siren fleet has completely retreated. We're safe now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "舰队损伤如何？",
+			say = "What of our damages?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "运输舰全部完好无损。",
+			say = "None to report of. Our mass-produced ships are all unharmed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:207}、{namecode:150}、{namecode:206}、{namecode:208}在塞壬的第一轮偷袭中受伤，但是都不严重。",
+			say = "Yamakaze, Umikaze, Yura, and Katsuragi took a bit of scratch damage at the very beginning of the sneak attack, but there shouldn't be any issues there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:18}…………虽然没受伤，但是因为冲得过快在风暴中迷路，我正在找她回来的路上。",
+			say = "Shimakaze, um... seems to have gotten lost chasing after an enemy in the storm. I'll go bring her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其余诸舰均无伤。",
+			say = "I apologize on her behalf... Good grief, that girl just can't keep out of trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			actor = 900200,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "多亏了您提前预见到危机的到来，再加上{namecode:80}舰队及时的支援，不然本次袭击后果不堪设想……",
+			say = "Thanks to your foresight, we were able to anticipate the enemy's surprise attack and came away relatively unscathed. Kii even managed to arrive in time to reinforce us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "妾身不过是做了一个梦而已……梦境，未必可靠。",
+			say = "It was simply a dream... A fragment of a dream does not necessarily reflect the rules of the present world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "倒是{namecode:84}，纵使远在千里之外，依然预见到妾身回程途中将要发生的变故了么。",
+			say = "But Musashi... Even from the Sakura Islands, she was able to foretell my peril and respond appropriately...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:84}大人只是过于担心您的安危，出于以防万一的考虑才让我带队前来接应的。",
+			say = "Oh, uh, Shinano... That actually has nothing to do with foreseeing anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "能够派上用处真是太好了。",
+			say = "Musashi was simply worried about you, and insisted on sending a support team just in case. It's nice that things panned out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不过{namecode:182}大人，{namecode:84}大人在临行前有过嘱托。",
+			say = "But before we left, she did give us these orders: \"If Shinano is safe, accompany her back to the Sakura Islands, and retrieve Watatsumi.\" ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果此行没有发生任何问题，就请{namecode:182}大人依照原定计划返回本岛。",
+			say = "\"In the event of a Siren attack, Kii is to retrieve Watatsumi and bring it back to the Sakura Islands, while Shinano will go to Sardegna.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "如果此行之中发生意外，就请{namecode:80}与伤者一同带领运输船队返回本岛，{namecode:182}大人请接下这份新的调动命令。",
+			say = "\"She will participate in the World Expo as the representative of the Sakura Empire.\" ...So there you have it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "新的调动命令？",
+			say = "The World Expo...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,7 +863,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯。撒丁帝国正在筹备一场世界博览会，而您将作为重樱的外交特使前往，并负责博览会期间的一切事务。",
+			say = "Yup. All the camps from around the world are going to Sardegna to display their culture. Apparently, Musashi wants you to be the Sakura Empire's delegate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这是{namecode:84}的命令，还是{namecode:91}的命令？",
+			say = "Is this... Musashi's order, or Akagi's...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			actor = 305120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这我就不清楚了……不过{namecode:91}大人目前还未返回本岛，在她外出期间，诸多事务均是由{namecode:84}大人代为负责的。",
+			say = "That, I am unsure of, as Akagi has yet to return. In the meanwhile, Musashi is in charge of all matters around the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此……妾身明白了。",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哈？这个{namecode:84}是{namecode:182}大人的姐姐吧？！",
+			say = "Wait up a sec, Musashi is Shinano's sister ship, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "她身体不好又在外面辛苦了那么久，好不容易要回家了，怎么又让人马不停蹄的跑去别的地方啊？！",
+			say = "She hasn't even had a chance to go home yet, and now she's getting sent off to Europa again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "{namecode:204}，休得无礼！",
+			say = "Hakuryuu, control yourself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "哎？！是……凶什么凶嘛……",
+			say = "Tch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "{namecode:204}，此次以重樱使节的身份前往，撒丁帝国必会予以吾等最高礼遇。",
+			say = "As the representative of the Sakura Empire... Sardegna will treat this one with utmost respect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,7 +1028,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "如此想来，汝的心中是否已升起了期待之情？",
+			say = "This journey has not been a difficult one... If anything, it has been more of a vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1046,7 +1046,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 399050,
-			say = "唔…………这么想的话，倒也不错！就像豪华度假一样！",
+			say = "A vacation, huh? Fair enough. I guess sending you off to do an easy mission is Musashi's way of showing kindness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307080,
-			say = "然也。舰队重新调整编制，在于{namecode:80}队交接结束之后，就与妾身前往撒丁帝国。",
+			say = "Indeed... Now, the mass-produced ships and escorts will be transferred to Kii, while this one proceeds to Sardegna...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			actor = 307080,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（这分明是有意让妾身远离本土的计策，{namecode:84}，汝究竟想要做什么……）",
+			say = "(To be kept away from the Sakura Islands once again... Musashi, what is the purpose behind this...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

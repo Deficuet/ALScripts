@@ -1272,6 +1272,12 @@ pg.activity_random_award_item = {
 		commodity_id = 15008,
 		num = 100
 	},
+	[900001] = {
+		id = 900001,
+		resource_category = 4,
+		commodity_id = 201261,
+		num = 1
+	},
 	all = {
 		1,
 		2,
@@ -1484,6 +1490,7 @@ pg.activity_random_award_item = {
 		200031,
 		200032,
 		200033,
-		200034
+		200034,
+		900001
 	}
 }

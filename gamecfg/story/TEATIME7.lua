@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>七 下一次是电动会！？</size>",
+					"Lively Afternoon Tea Party VII\n\n<size=45>「Next Time: Video Game Party!」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法也来尝尝嘛～新鲜出炉的烤红薯～",
+			say = "Come and try some, Belfast~ Freshly roasted sweet potatoes~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "不要，请不要把别人不喜欢吃的食物硬塞给她！",
+			say = "No, please don't force other people to eat food which they do not like!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，我烤的红薯为什么变成碳了啊，呜呜~",
+			say = "Belfast, how come my roasted sweet potatoes turned into burnt lumps of coal? Sigh~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下不必介意，以第一次烤而言，陛下已经做得很好了",
+			say = "Your Majesty, this being your first time roasting something, you already did a superb job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可贝法也是第一次烤啊……",
+			say = "But when Belfast roasted hers for the first time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，陛下，我们交换一下红薯吧",
+			say = "Well, your Majesty, let’s exchange our sweet potatoes then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法烤的真香~你也尝尝自己烤的红薯嘛",
+			say = "The sweet potato roasted by Belfast tastes so good~ You should try your own cooking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，我以女王的身份命令你，张开嘴，啊——",
+			say = "Belfast, under the authority as your Queen, I order you to open your mouth, say ah——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没办法……",
+			say = "I really have no choice....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下真狡猾，我也要喂贝法！",
+			say = "You’re really wicked your Majesty, I want to feed Belfast as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿啦，你们也想被喂吗？",
+			say = "Ahh, do you all went to be fed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "对不起，请免了，绝对不要——",
+			say = "Sorry, please excuse, I never want to be——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀，已经到驱逐舰们回港的时间了。抱歉，我先走一步了~",
+			say = "Ah, those sister destroyer ships have returned back to port. Sorry, I must take my leave~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -282,7 +282,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:13}",
 			dir = 1,
-			say = "一、一晃眼就消失了，皇家的航空母舰，真是深不可测",
+			say = "And just like that she disappeared, those carriers from the Royal Navy are really unfathomable.",
 			paintingFadeOut = {
 				time = 0,
 				side = 0
@@ -301,7 +301,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈，这里还有一位皇家的航空母舰哟",
+			say = "Haha, another aircraft carrier here from the Royal Navy is still here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			actorName = "{namecode:14}",
 			dir = -1,
-			say = "这位倒也有一个深不可测的地方……",
+			say = "After all this is an unfathomable place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多也要到准备晚餐的时间了……",
+			say = "It’s about time to prepare for supper...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那我也回去",
+			say = "Ah, then I'll take my leave as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好本王也有些公务要处理——",
+			say = "Right, I need to continue my official duties as Queen——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，今天就到此为止吧",
+			say = "Then, let’s end the tea party here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 0,
 			actorName = "{namecode:14}",
 			dir = -1,
-			say = "{namecode:14}诚心诚意地期待着下一次茶会哟~",
+			say = "{namecode:14} am looking forward to the next tea party~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 1,
 			actorName = "{namecode:13}",
 			dir = -1,
-			say = "下一次，我们举办电动会吧，带上长岛小姐——",
+			say = "For next time, let’s organize a video game party. We'll bring along Long Island——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 0,
 			actorName = "{namecode:14}",
 			dir = -1,
-			say = "绝对不——要！",
+			say = "Absolutely—— not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
+			say = "At the same time, {namecode:11}...",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -480,7 +480,7 @@ return {
 			}
 		},
 		{
-			say = "【南纬71°31′34″东经24°08′17″】",
+			say = "[South Latitude 71°31′34″ East Longitude 24°08′17″]",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "完全没有{namecode:12}生活过的痕迹……咦，这里好像有文字？南极飞鸟考察站，毛德皇后地——",
+			say = "There’s no trace of {namecode:12}’s lifesign. Hmm… oh look, there’s a note? Antarctic Bird Survey Station, Queen Maud Land——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

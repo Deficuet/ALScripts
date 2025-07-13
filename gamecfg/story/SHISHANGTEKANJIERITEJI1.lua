@@ -16,7 +16,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_501",
-			say = "依照约定来到鲁梅设置的临时办公室后，被眼前的景象小小的震惊了一下。",
+			say = "Upon entering Rumey's temporary office, my jaw hits the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "复古的装饰、长剑、猎枪、散落在地的道具纸钞……",
+			say = "It is decked out with classical furnishings and decorative swords and rifles... And there are stacks of prop bills scattered on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（说起来，之前她倒是一直在看黑帮电影，难道是电影看太多导致的……？）",
+			say = "(She said she's been watching mafia movies... Seems she has seen one too many.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			side = 2,
-			say = "坐吧，指挥官。",
+			say = "Have a seat, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她的话语将我的思绪拉回，依言在她身旁坐下后，",
+			say = "As told, I sit down in the chair next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她便从一旁的小几上拿起了一份文件递给了我。",
+			say = "She picks up a folder from the small table nearby and hands it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "指挥官，今天特地约你来，主要是想做个体验调研。",
+			say = "I summoned you for one purpose – to interview you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "体验调研？",
+			say = "Uh, interview me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "嗯，毕竟店铺经营期间，由我担任这里的店长，也就是“Boss兔”。",
+			say = "This time around, I am the manager of our shop – the \"boss bunny,\" in other words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "关注唯一且重要的顾客的体验，也是我作为店长的本职工作。",
+			say = "It is therefore my duty to know the thoughts of our sole and most valued customer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "所以这份文件，是调研问卷么？",
+			say = "So what's in the folder? A list of questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "不。这份文件是我草拟的新店规，我打算结合口头调研，征询你的意见和感受。",
+			say = "No, these are the shop's new rules that I came up with. The purpose of this interview is to hear your opinions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你可以看看是否到位……如果有不够严格的部分，我会立刻修改。",
+			say = "The rules should suffice, I think. If you feel anything is missing, I'll add it right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "面向你的一切必须精益求精。",
+			say = "Every little detail has to be perfectly tailor-made for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "好……",
+			say = "Alright then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "打开这份草拟的新店规开始翻看后——",
+			say = "I open the folder and skim its contents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "上下班必须打卡，禁止以“迷路”和“太困了”作为理由迟到早退……？",
+			say = "\"Punch the clock when you start and finish work. 'I got lost' or 'I was tired' are not valid excuses for arriving late or leaving early\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			live2d = "login",
 			dir = 1,
 			side = 2,
-			say = "我认为考勤问题是一店之本，如果员工不能按时到岗，就无法对指挥官提供服务。",
+			say = "Performance reviews are fundamental to running a shop. If employees cannot arrive on time, they won't be able to provide you with proper service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "那这一条，工作时间严格禁止展开与工作无关的活动的后面……",
+			say = "\"All activities outside of your job duties are prohibited during your shift\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "为什么还有个括号标注“无论是自愿还是非自愿”？",
+			say = "Um, what does this \"Whether intentional or not\" note here mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "很简单，无论是主动摸鱼，还是因为其它特殊情况——比如和猫咪对峙而导致的招待不周……",
+			say = "It's possible to slack off even if you don't mean to. For instance, feeding the cats may result in non-work-related activities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "都不应该在店内出现。前者完全不应该出现，后者完全可以通过向其他人求助从而摆脱困境。",
+			say = "Obviously, slacking off on purpose is prohibited. Unintentional distractions, however, can be prevented by asking others for help when needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "少女振振有辞，伴随着话语最后的尾音落下，她怀中的装饰剑的剑柄重重砸在了地毯上。",
+			say = "As if to punctuate her statement, she smacks the floor with the decorative sword in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯……作为“规矩”来说，没什么问题。",
+			say = "As rules go, strictly speaking, it all seems fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不过，我觉得更自由些、考虑到其他同伴的感受会更好。",
+			say = "But... I think a more relaxed, easy-to-work-in environment would be better for the shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			side = 2,
-			say = "不行，宽松自由怎么能给你提供最好的服务！",
+			say = "Rejected. The staff cannot provide you with the best possible service under casual circumstances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "比起这个，我更希望你不那么紧绷。",
+			say = "Personally, I think you ought to take it easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "嗯……？",
+			say = "Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我希望你能够更重视自己的感受，就像你重视我的感受一样。",
+			say = "I know you care about my feelings, but you should value your own, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "鲁梅的目光中罕见的染上了一丝茫然。",
+			say = "She is left uncharacteristically at a loss for words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我希望在我身边的你，不被任何“规矩”、“规则”所束缚。",
+			say = "Don't let rules and conventions limit you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "开心的、自由的，与我一同享受这段时光。",
+			say = "Just relax, enjoy, and do it your own way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "少女的表情出现了细微的松动，一向处变不惊的眼中透着几分动摇。",
+			say = "As her expression softens a tad, a faint tremble runs through her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			side = 2,
-			say = "你的意思是，希望我不那么严守纪律，而是去尝试享受这段时光？",
+			say = "Are you saying the rules don't matter that much and I should try to just enjoy this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "是的。而且……店规的事情我也希望你先放到一边，维持现状就好。",
+			say = "Yeah. Forget about the rules for now. Just keep things as they are and relish the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她思索片刻，长呼出一口气。",
+			say = "She mulls it over for a moment, then breathes a deep sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "好，我会认真考虑你的意见的……",
+			say = "Fine. I'll consider your feedback in earnest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "不过……",
+			say = "In the meantime, however...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,18 +567,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "我应该怎么做会比较好？我不大擅长享受闲暇时光这种事情……",
+			say = "What am I supposed to do? I'm no expert at \"relishing the moment.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "总之，先笑一个？",
+					content = "Smile, I guess?",
 					flag = 1
 				},
 				{
-					content = "放飞自我吧！",
+					content = "Let loose and do what you want!",
 					flag = 2
 				}
 			}
@@ -593,7 +593,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "总之，先笑一个？从刚才开始，你的表情就一直很严肃。",
+			say = "Let's see a smile first? You don't have to look so stern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……我试试。",
+			say = "Very well... I'll try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			optionFlag = 1,
-			say = "鲁梅有些僵硬地拉扯着唇角，笨拙得有些可爱。",
+			say = "Her lips curve into a somewhat forced smile. It seems a bit awkward but in a cute way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不用考虑那么多，直接放飞自我就好！",
+			say = "No need to think too much, just let yourself loose and do what you want!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……放飞自我？",
+			say = "I can do whatever I want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我开玩笑的。",
+			say = "I was joking. Sorry if that wasn't clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 407041,
 			actorName = "{playername}",
 			live2d = true,
-			say = "其实不用过多考虑我的建议。这种时候，做你自己想做的就好。",
+			say = "Ultimately, my feedback is just my opinion. It's up to you in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "做我自己想做的？",
+			say = "Up to me, you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "鲁梅微微垂眸，罕见的、淡色的红晕飞上她素来清冷的脸颊。",
+			say = "She lowers her gaze slightly, and a touch of red colors her usually dignified face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她紧绷端正的身体松懈下来，手自然而然地落于身侧，尾指与我轻轻相触。",
+			say = "She assumes a less on-edge posture and relaxes her hands. She softly touches my hand with her pinky finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "指尖接触的瞬间，她轻轻颤动了一下，在短暂的停顿片刻过后，又勾住了我的手指。",
+			say = "A moment of trembling hesitation passes for her, then she locks her fingers with mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407041,
-			say = "那现在，我就暂时放下秩序与工作，只是陪伴在你身边，也是可以的吧？",
+			say = "Then can I... forget about all the rules and just be with you for now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

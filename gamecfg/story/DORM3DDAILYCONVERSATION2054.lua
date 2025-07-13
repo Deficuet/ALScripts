@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，现在感觉很适合散步呢。",
+			say = "Don't you think this is the perfect mood for a walk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,14 +28,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "四周都很安静，只有海浪声……感觉好放松。",
+			say = "It's quiet all around us, save for the sound of the waves... It's so relaxing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要小心脚下。",
+					content = "Watch your feet.",
 					flag = 1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那……我们牵着手走怎么样？",
+			say = "Oh, uh... Let's hold hands as we go, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样就不会摔倒了哦。",
+			say = "No risk of tripping now, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

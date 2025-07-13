@@ -16,7 +16,7 @@ return {
 				}
 			},
 			style = {
-				text = "指挥官，港区游戏屋正式开放了，来一起看看吧！",
+				text = "Commander, the Arcade has just opened up! Come check it out!",
 				mode = 1,
 				posY = -238.1,
 				dir = 1,

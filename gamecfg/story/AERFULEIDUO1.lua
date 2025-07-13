@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>一　活跃的独家新闻记者！</size>",
+					"The Sensationalist Sensation\n\n<size=45>Reporting In</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，一个一如既往的寻常清晨——",
+			say = "Office - Morning",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "还没等我坐到办公桌前，手里就已经被阿尔弗雷多塞了一份新一期的《港区秘闻》。",
+			say = "Before I can even sit down at my desk, a girl thrusts the latest issue of the \"Port Journal\" into my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯哼哼~清晨就该配上各种劲爆新闻来解乏，这样工作也会更有效率~你说是吧，指挥官？",
+			say = "Heheheh~ The best cure to morning grogginess is reading all about the latest and greatest scoops! It gets your blood pumping, which also makes you more productive, y'know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "没错，近期的秘书舰，就是这位活力满满的记者——阿尔弗雷多·奥里亚尼。",
+			say = "The girl is none other than Alfredo Oriani, the local sparky journalist and my recently appointed secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "说起来还是她自己吵着要当秘书舰的……理由是为了方便获得各种平时难以获取的素材。",
+			say = "She badgered me for the position, insisting it would help her get scoops she otherwise couldn't. So I caved in and appointed her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "指挥官，快翻开看看啦！这期可是你的特别篇，绝对会给你一个惊喜的哦？",
+			say = "C'mon, give it a read! I know you're gonna love this issue, 'cause the featured piece is on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……有种不详的预感。",
+			say = "...That's already a red flag.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“首次披露！指挥官的每周日程安排与作息分配！”",
+			say = "\"Exclusive: The Commander's Habits and Daily Schedule Revealed.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“指挥室不为人知的故事！真相或许总是躲在幕后？”",
+			say = "\"What Really Goes on Behind the Office's Closed Doors?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "“深入剖析港区工作计划！受人爱戴的指挥官平时有着怎样的日常？”",
+			say = "\"Our Universally Adored Commander's Port Planning – An In-Depth Analysis.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "如何，作为《港区秘闻特别篇——指挥官日常生活大揭露》来说，是不是很棒！",
+			say = "Pretty good, right? You're looking at pages and pages dedicated to telling the story of who you REALLY are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿，这期港区秘闻的人气可是再创新高了哦？",
+			say = "And guess what? This issue broke all sales records to date!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在有些头痛的同时，倒也惊叹于她的能力。",
+			say = "I hold my head in my hands, simply stunned by her journalistic ability.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "明明都只是些秘书舰工作中的琐事，居然能被她“加工”成博人眼球的新闻报道……",
+			say = "Even though this is just a collection of trivial secretarial matters, she has managed to turn that material into salacious stories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "都不知道是该夸她还是批评她了。",
+			say = "I couldn't decide whether to praise her or lecture her for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哼哼，指挥官知道新闻撰写中最难的部分是什么嘛？",
+			say = "Oh yeah, Commander, you know what the hardest part of making an article is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,15 +266,15 @@ return {
 			},
 			options = {
 				{
-					content = "怎么起一个博人眼球的标题？",
+					content = "\"Making a catchy headline.\"",
 					flag = 1
 				},
 				{
-					content = "怎样保证新闻的销量？",
+					content = "\"Writing a story that sells.\"",
 					flag = 2
 				},
 				{
-					content = "怎样发掘身边可能存在的“大新闻”？",
+					content = "\"Finding the scoops hidden in plain sight.\"",
 					flag = 3
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对哦~取一个博人眼球的标题不是基础中的基础嘛？",
+			say = "No, that's one of the ABC's of journalism!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也因此，撰写正文也没什么难度哦，同样是基础中的基础。",
+			say = "If you can come up with a good title, the rest of the article practically writes itself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和“如何写稿相比”，“写一个什么稿”——也就是搜集爆点新闻的过程才是最困难的！",
+			say = "The real tricky part? Finding material worth filling up a few pages!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，虽然这个也挺难的……不过只要能了解最近港区的热点事件，也不是什么太难的事情啦。",
+			say = "I'll grant you, turning facts into cash isn't a straightforward process, but it's not particularly hard as long as you keep up with the port's trends and stuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跟这个比起来，该怎样寻找爆点新闻才是最困难的呢！",
+			say = "What IS hard is scoring a hot scoop and being the first to tell everyone else about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，就是这个！寻找身边隐藏的新闻的能力，就得靠“记者的直觉”来保障咯~",
+			say = "Bingo! You're absolutely right! That's what we call journalistic intuition – the ability to find article-worthy material!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种直觉才是身为记者最宝贵的能力！",
+			say = "It's what journalists live by. Without it, you won't make it for long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "新闻无时无刻不在发生！身边从来不缺少新闻，只是缺少发现爆点新闻的眼睛！",
+			say = "The fact is, news happens around us constantly! But finding the diamond scoops in the dirt of unremarkable events, that's hard work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "身边的新闻吗……看起来之后也免不了会成为她新闻报道里的常客啊。没办法，只好想办法先行适应吧。",
+			say = "I suppose by her analogy, I'm the diamond mine. Being the subject of more and more of her articles in the future seems like an inevitability, and all I can do is prepare myself for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

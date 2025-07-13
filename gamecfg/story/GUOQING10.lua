@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "呜，{namecode:79}酱被击败了…就算用上神赐予的力量也被{namecode:96}亲无情的击败了…呜——",
+			say = "I surrender, you win... Even with the power granted to me by the Creator, I couldn't defeat you... *Sob*...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "你刚才在关键时刻手下留情了吧？",
+			say = "... You were holding back, weren't you?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "才...才没有呢！人家才没有想告诉你{namecode:95}其实被她们封锁在圣域中心的那座大房子里呢！",
+			say = "N-no I wasn't! And I'm not going to tell you that they locked Shoukaku away within the deepest part of the Sanctuary! It's super secret!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "谢啦～先走一步",
+			say = "Thanks. I'll be taking my leave now.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "等等！",
+			say = "Wait!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "怎么，后悔了？",
+			say = "What is it now?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "请一定要拯救我们的未来…她们，不是坏孩子…",
+			say = "Please... save our future... Those girls aren't all bad...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "嗯，我保证！",
+			say = "Okay, I will!",
 			shake = {
 				speed = 1,
 				number = 3

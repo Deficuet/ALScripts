@@ -58,7 +58,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击撤退",
+				text = "Tap to retreat.",
 				mode = 2,
 				posY = -239.55,
 				char = "1",

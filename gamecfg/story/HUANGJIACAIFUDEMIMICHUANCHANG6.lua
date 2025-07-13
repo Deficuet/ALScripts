@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>六　火炮即威严</size>",
+					"Royal Fortune's Secret Shipyard\n\n<size=45>6 Cannons Are Might</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_battleshipyard_5",
 			hidePaintObj = true,
-			say = "皇家财富造船厂·火炮甲板建设完毕——",
+			say = "Royal Fortune's Secret Shipyard - Gun deck finished",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于，到这激动人心的一刻了！",
+			say = "At last, we've reached this exciting moment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "火炮！风帆战舰的武力象征！",
+			say = "Cannons! The symbols of a sailing frigate's might!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "根据武器摆设的不同，火炮甲板也分为连续火炮甲板，和不连续火炮甲板。",
+			say = "The section where the cannons are installed – called the \"gun deck\" – comes in two different arrangements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "区分它们的方式——顾名思义，所谓的连续，自然就是指在整个侧舷不间断地部署火炮。",
+			say = "It's easy to tell them apart. It's about whether their cannons are arranged continuously along the sides, or if they're spaced out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "火炮配置数量的不同，自然也使得风帆战舰的等级产生了差别。",
+			say = "The number of cannons also determines the ship's rate – its ranking, essentially.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "例如说，一级战舰相比四级战舰，就多了两层连续火炮甲板。",
+			say = "For example, compared to a fourth-rate ship, a first-rate ship typically has two more gun decks with continuous cannon arrangements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它们之间装配的火炮数量的差距，甚至可以达到50门以上哦。",
+			say = "A fourth-rate ship, meanwhile, has around 50 cannons less than a first-rate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拥有一等战列舰，便是强大海军的象征~",
+			say = "A nation commanding even one first-rate ship is proof of its navy's might!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "啊哈，不过海盗就不一样了。",
+			say = "Although, first-rates don't mean much to pirates, of course. Hahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "在辽阔的海洋上，速度就是生命，多余的火炮反而会造成负担呢。",
+			say = "On the open sea, speed is everything. Having way too many cannons will only slow you down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "正因为如此，小型的战舰依然是舰队中不可或缺的存在。",
+			say = "And that is why any respectable fleet needs smaller ships as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "优秀的舰队指挥官会选择合适的战舰去应对不同的敌人。",
+			say = "A wise admiral builds their fleet according to the conditions and who they're fighting against.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这点放到现在，也依然适用呢。",
+			say = "That's a fact that still holds up after many centuries.",
 			painting = {
 				alpha = 0.3,
 				time = 1

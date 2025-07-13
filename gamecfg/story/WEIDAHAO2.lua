@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>二　幽灵船与沉睡的宝藏</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>The Ghost Ship and the Sleeping Treasure</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "与维达一边聊天一边漫无目的地闲逛着，不知不觉便来到了商业街。",
+			say = "I chatted casually with Whydah as we walked, and we soon found ourselves in the bustling shopping district.",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "啊……指挥官，你看那家店。",
+			say = "Oh... Commander, look over there~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "顺着维达指尖的方向望去，那是一家主打逼真场景体验的密室主题店。",
+			say = "I look in the direction that she is pointing, and see a big sign labeled, \"Hyper-Realistic Escape Room\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……似乎是{namecode:98:明石}又研究出了什么好玩的东西。",
+			say = "...Who let the green cat cook again this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "唔……她还真是勤快……连宣传海报都做得那么精致……",
+			say = "Akashi is a very hard worker, you know. The amount of work she puts into the promo materials is so impressive it's almost sickening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "近期的主题是“海盗与幽灵船与沉睡的宝藏”欸……",
+			say = "Let's take a look-see... The current theme is... Ah, yes. \"The Ghost Ship and the Sleeping Treasure\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正好是你擅长的部分啊，要试试看么？",
+			say = "Sounds like something you'd be good at. Wanna give it a shot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,21 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……比起当海盗打打杀杀，我还是更擅长也更喜欢躺着啦……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_171",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 9600050,
-			say = "软软的床，玩不完的游戏，没有风雨，多舒服哦……",
+			say = "Ehhh... I much prefer lounging around doing nothing to being a swashbuckling pirate, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +140,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "不过说实话，我比较感兴趣的是这里罗列的通关奖励……",
+			say = "A soft, warm bed, an unlimited supply of games to play... Truly, the best kind of life, without ever having to worry about storms.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_171",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 9600050,
+			say = "But having that said... I might be a little interested in that completion bonus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "超级薯片限量大礼包，“玩了就会相亲相爱”的海盗厨房典藏版……",
+			say = "\"Super-Mega-Exclusive Potato Crisps Set,\" \"Pirates' Kitchen: Don't Fall in Love Together, Collector's Edition\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "还有“枕上去就能立刻睡着”的人体&船体工程学枕头……",
+			say = "And this \"Instant-Sleep Human-and-Shipgirl-Tested Ergonomic Pillow\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "很多都是已经绝版的限量商品……",
+			say = "All of these are mega-limited items that are no longer in circulation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "不过怎么只能选一种啊……有些都不是一个价值的东西吧！",
+			say = "But, why can I only choose one thing? Surely some of these aren't even worth anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这样子让人怎么选啊？",
+			say = "I can't deciiiiide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个问题等通关之后再思考吧。",
+			say = "You really shouldn't count your chickens before they hatch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "欸？指挥官的意思是要参加吗？",
+			say = "Hmm? Does that mean you're also up for the challenge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,22 +263,22 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然伟大的维达号肯定能轻松通关，但是好麻烦……",
+			say = "I'm sure it'll pose no difficulty to the mighty Whydah, but still, what a pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你不想要超级薯片限量大礼包吗？",
+					content = "Don't you want that Super-Mega-Exclusive Potato Crisps set?",
 					flag = 1
 				},
 				{
-					content = "你不想要海盗厨房典藏版吗？",
+					content = "You've got your eyes on that Pirate's Kitchen collector's edition, right?",
 					flag = 2
 				},
 				{
-					content = "你不想要人体&船体工程学枕头吗？",
+					content = "Wouldn't it be nice to get your hands on that instant-sleep pillow?",
 					flag = 3
 				}
 			}
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "……唔……这些东西如果通过别的方式入手的话，好像会更麻烦……",
+			say = "Ermm... Well, I suppose it would be hard to procure it through other means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这么看的话，参加这个密室逃脱，已经是最轻松的方式了……",
+			say = "In that sense, playing this escape room game would be the path of least resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "维达抬头看了我一眼，往我身边凑近了一些。",
+			say = "She lifts her head, looks around, then steps closer to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "那待会我如果不想动了，指挥官要负责带着我通关哦。",
+			say = "Here's my condition. If I get too tired to finish the escape room, it's up to you to carry me across the finish line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题，交给我吧。",
+			say = "Sure, you can count on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "购买了两张票后，与维达拿好道具，进入了密室主题店。",
+			say = "And so, I purchase two tickets for the escape room, grab our starting supplies, and then head inside with Whydah in tow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

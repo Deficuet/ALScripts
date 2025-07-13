@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：代行者IX「Exploration」已被击败，模拟战海域已全部完成，即将开启正式作战。",
+			say = "Elimination of Enforcer IX confirmed. Advancing to the next practice battle zone. Battles against Arbiters on Normal difficulty are now unlocked. You may challenge them from your forward base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "一片黑暗之中，卡菈正如同往常一样进入了梦乡。",
+			say = "Kala was drifting off to sleep on a dark night like any other.",
 			blackBg = true,
 			bgm = "airRaidAlarm",
 			flashout = {
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "不过似乎，今夜有些不太平。",
+			say = "However, this night would soon turn out to be anything but normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "滴————————",
+			say = "FWIIISH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			blackBg = true,
-			say = "…………什么声音？如此吵闹！",
+			say = "Urgh... What is all that racket? I'm trying to...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -82,7 +82,7 @@ return {
 			bgm = "story-6",
 			actor = 10900060,
 			stopbgm = true,
-			say = "…………………………？",
+			say = "Wait... What in the...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "卡菈睁开双眼。出现在她眼前的不是熟悉的场景，而是一个被一望无际的大海包围、满是怪异建筑物的小岛。",
+			say = "Kala opened her eyes. In front of her was not the usually familiar scenery she expected, but rather a small island filled with strange buildings, surrounded by a vast, endless ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是……异界？",
+			say = "Have I been... transported to another world?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -136,7 +136,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？妾身这是睡糊涂了么？如果不是这样的话，就是有非常不得了的事情发生了……",
+			say = "Hmm... I do hope this is a figment of me still being half-asleep. Because if not, it would mean I now find myself in quite a conundrum...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "四周的建筑是由不知名的金属构成的，结构也……十分的不自然。",
+			say = "These buildings are made of a material I do not recognize. Similarly, their architecture is foreign to me as well...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -171,7 +171,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "炼金术士的把戏么……？",
+			say = "Did I perhaps... get spirited away by some alchemist?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "将妾身悄无声息地送入异界……人类之中真的能有如此能力的炼金术士么……",
+			say = "No, that's preposterous. I doubt any alchemist has the skill to transport me across worlds without me noticing.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -206,7 +206,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "亦或是说……在妾身睡觉的地方偶然出现了某种连通向异界的道路么？",
+			say = "Hmm... Perhaps the place I chose to rest just so happened to be a door between realms?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "轰—————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -274,7 +274,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………爆炸的声音，而且…………距离妾身很近，就在这个小岛的另一边么！",
+			say = "That was an explosion. Not far from here, either... It must've come from that island over yonder!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "卡菈放眼望去，海面上的奇怪战舰，还有天空中的诸多“巨鸟巨兽”，正分成两方激烈交战着。",
+			say = "Across the water, a battle was unfolding between two forces. On the surface, odd-looking ships of war – in the air, massive, mechanical birds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "？？？",
-			say = "没错！在这片战火纷飞的海域里哪有什么安全的地方啊！",
+			actorName = "???",
+			say = "That's right, newcomer! You've come to the wrong place for a vacation, because there's nothin' but fire-and-brimstone around these parts!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -317,12 +317,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "多亏我灵机一动，在你们可能会出现的位置上提前修好了防御平台，怎么样，我聪明吧！",
+			say = "Only reason you're not getting blown to bits right now is 'cause I predicted where you'd warp in and set up defenses ahead of time! Pretty smart, ain't I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "从天而降的少女与伴随左右的机械巨兽……汝是……某种精灵么？",
+			say = "You, who fell from a mechanical beast in the sky... Who are you? Some kind of Elemental?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -353,12 +353,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "是塞壬！在星河之中漫游，带领反抗军破坏塞壬计划的英勇之人，其名为——净化亲！",
+			say = "What? No! I'm Purity, the hero who traverses the galaxies, leading the resistance to upend the Sirens' plans!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,12 +382,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "救了你的人就是我，要好好谢谢我哦！",
+			say = "...So, are you going to show me your appreciation for saving you? C'mon now, tell me how great I am!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的是救了妾身之人，而不是把妾身招致危机中之人么？",
+			say = "Oho. Save me? I think you mean \"dragged me into a battle I have no part of.\"",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -419,12 +419,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "额……观察力好敏锐的人。",
+			say = "Oof... This girl's a sharp one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,8 +440,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "咳咳…………事情是这样的。首先！把你叫来这件事也许我有1%的责任，但是99%的责任都是测试者的！",
+			actorName = "Purity",
+			say = "Okay, it's not like I had NOTHING to do with you ending up here... but 99% of it is Tester's darn fault!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -466,12 +466,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "我只是为了破坏它的实验计划，修改了你们到来的时间而已。",
+			say = "All I did was fiddle around with your arrival schedule a little bit! And the point of that was to ruin Tester's plan!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,12 +485,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "原本想着在你们来之前解决问题的，但是不知道为什么你来的这么早……真的，我最多只有这么一点点责任哦！",
+			say = "I was just trying to wrap this fight up before y'all showed up, but you arrived ahead of the rest for whatever reason. So, that last 1% is on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从汝的表情与在海天之间蔓延的战火来看，汝似乎没有在说谎呢。",
+			say = "Hrm. Judging from the state of this battlefield, you don't seem to be lying. I will trust you for now.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -525,7 +525,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，你们两边的人看起来并不差太多……汝提到的测试者，是你的同胞么？",
+			say = "As far as I can tell, however, both sides of this fight seem to bear striking similarities. Is this \"Tester\" you mentioned one of your kind?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -542,8 +542,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "它也是塞壬，不过是不是同胞这个问题就有些复杂了……等一会空下来再说吧！",
+			actorName = "Purity",
+			say = "Uhh, technically, we're both Sirens, but we're not exactly chums... Look, it's complicated, so I'll fill you in later.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯，那吾就换个问题吧。汝刚才提到的“你们”，除了妾身之外 ，还有谁之后会被卷进来么？",
+			say = "Very well. A different question, then. You mentioned \"the rest\" a moment ago. Do I take that to mean there are others you've involved in this situation besides myself?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -575,12 +575,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "唔……我记得之前看数据库的时候，除了你之外还有五个人！莱莎、科洛蒂娅、帕特莉夏、莉拉、赛莉……嗯，没记错！",
+			say = "Hey, didn't I just say it's only 1% my fault? But yeah, there are five others on the way. According to the database, their names are, uh... Ryza, Klaudia, Patricia, Lila, and Serri.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什么？！居然是莱莎她们……呵呵，这还真是，估计她们做梦也不会想到会以这种形式卷入冒险之中吧。",
+			say = "What are the odds...! Good grief. Even in my dreams, I would've never imagined I'd get caught up in an adventure – or rather, a dilemma – with all of them.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "你倒是一点紧张感都没有……一般人见到这种战火纷飞的情况就算当场被吓哭也不意外哦！",
+			say = "Why do you sound more annoyed than scared? Most people dropped in the middle of a war zone would be having a panic attack by now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身可是度过了悠久岁月的奏波氏族的族长卡菈・伊迪亚斯，危机四伏的战场妾身多少还是经历过的。",
+			say = "You are speaking to Kala Ideas, chief of the Wave Tuner clan for countless generations. I have seen more than my fair share of battles.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -662,7 +662,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "依汝所言，既然妾身到的这么早并不在计划之内，那妾身是不是可以先回去了？",
+			say = "Now... You said my arrival here was not intended. That being the case, may I simply return whence I came?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -677,12 +677,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "可以！但是没这么简单！如果不消灭测试者的势力，不但你没法回去，之后到来的其他人也会遭遇危险的！",
+			say = "Sure... but that's easier said than done. First, you aren't going anywhere until we clear out Tester's forces. Second, the other folks will be in a whole lot more trouble without you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,8 +698,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "既然你也是战士的话，要不要来加入我的反抗军组织与测试者决一死战？",
+			actorName = "Purity",
+			say = "But listen, you can expedite the whole going-home process if you join my resistance and fight with me. You did say you've seen your fair share of battles, right?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -716,7 +716,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔唔……如果不解决问题的话就没法回去啊……那就没办法了，就当是一场计划之外的异世界冒险，让妾身帮你解决问题吧。",
+			say = "Urgh... Seems like I do not have much of a choice then. I suppose I can treat this as an unplanned adventure and lend you my strength.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -734,7 +734,7 @@ return {
 			actor = 10900060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过加入你组织这件事就别想了哦，妾身有着自己身为奏波氏族族长的职责与使命，这件事结束之后妾身是必须要回去的。",
+			say = "However, I will not be joining your resistance. I have my own duties and obligations to see to once this matter is settled.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -749,12 +749,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
 			nameColor = "#A9F548FF",
-			say = "好————那就暂时如此吧！",
+			say = "Fair enough. I respect that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,8 +770,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "来，先坐上我的舰装，你现在这副样子跟塞壬战斗是会吃大亏的，先去我的基地做些准备吧——",
+			actorName = "Purity",
+			say = "Okay, first things first – hop on my rigging. I'm gonna take you to my base and get you kitted out. You don't stand a ghost's chance against the Sirens without some gear.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -798,43 +798,43 @@ return {
 			bgm = "xinnong-3",
 			sequence = {
 				{
-					"「远方而来的旅人，向着四周眺望环视吧。」",
+					"O travelers from far-off lands, heed these words I impart to thee",
 					1
 				},
 				{
-					"「此处为起始之地，残垣指引前进的方向。」",
+					"Thou art in the Land of Beginnings, thy luminous guidepost it shall be",
 					2
 				},
 				{
-					"「西方为异界之森，自回忆中诞生的虚妄。」",
+					"Westwards lay the Underworld Grove, an illusion born from memories",
 					3
 				},
 				{
-					"「东方为争斗之城，埋葬往昔残酷的真相。」",
+					"Eastwards lay the Castle of Strife, where the brutal truth lay buried",
 					4
 				},
 				{
-					"「南方为失落之都，隐藏着被设定的宝藏。」",
+					"Southwards lay the Desolate Capital, abound in treasure among loam",
 					5
 				},
 				{
-					"「北方为核心之所，封印远方归乡的希望。」",
+					"Northwards lay the Central Foundation, thy way of returning home",
 					6
 				},
 				{
-					"「收集配方，获得力量。」",
+					"Gather the hidden recipes, and great power shall thee find",
 					7
 				},
 				{
-					"「四把钥匙，打开壁障。」",
+					"Then, breach the towering barrier with four keys combined",
 					8
 				},
 				{
-					"「按规而行，你将获得奖赏。」",
+					"Leverage thy wits, and upon thee shall be conferred a prize",
 					9
 				},
 				{
-					"「否则，迎接你的只有死亡。」",
+					"Disregard my words, and all that awaits is thy demise",
 					10
 				},
 				{
@@ -842,11 +842,11 @@ return {
 					11
 				},
 				{
-					"“说实话，以铭刻在石碑上的标准来说，写得真差……”",
+					"\"...These are meant to be hints? They read as no more than a lunatic's ravings to me.\"",
 					12
 				},
 				{
-					"“……我尽力了！！！”",
+					"\"Ravings? I worked real hard on that exercise in wordsmithery!\"",
 					13
 				}
 			}

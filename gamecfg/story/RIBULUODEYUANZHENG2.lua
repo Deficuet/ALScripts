@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"日不落的远征\n\n<size=45>D小姐的变化</size>",
+					"March of the Neversetting Sun\n\n<size=45>2 Miss D's Change</size>",
 					1
 				}
 			}
@@ -24,11 +24,11 @@ return {
 			bgm = "theme-camelot",
 			sequence = {
 				{
-					"皇家·斯卡帕湾锚地",
+					"Scapa Flow Anchorage",
 					1
 				},
 				{
-					"阿瓦隆之门·迎客区",
+					"Gate of Avalon - Reception Area",
 					2
 				}
 			},
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "海伦娜·META不想回答的问题，自然没人能让她回答。",
+			say = "I know full well that I can't make Helena META answer questions she doesn't want to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "我也只好心怀疑虑结束了旅途，踏入了依然金碧辉煌的阿瓦隆之门中。",
+			say = "With my questions unanswered, I find myself before the magnificent Gate of Avalon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，欢迎再次来到本王的阿瓦隆之门！",
+			say = "Welcome to the Gate of Avalon, faithful servant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{playername}阁下，好久不见，很高兴你能如此迅速地接受我们的调查邀请。",
+			say = "How long it's been, servant. We appreciate your speedy response to our summons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "跟随贝尔法斯特来到一处明显上次还不存在的豪华迎宾建筑内，我见到了等候在此的两位伊丽莎白女王。",
+			say = "In a luxurious reception area that didn't exist the last time I was here, I have an audience with two queens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "简单地寒暄后，我看向远方正在全面检修的卡美洛之庭，然后决定将卡美洛之庭定位失效的原因以及好人理查德的事如实相告。",
+			say = "We mostly skip the pleasantries and discuss the Camelot malfunction and Bon Homme Richard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说什么？！那个疯女人之前差点追过来了么？！",
+			say = "What?! You mean to say she almost caught us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……这也是我一直担心的事，没想到千钧一发之际被安蒂克丝系统给救了。",
+			say = "We always worried that might happen. To think that an Antiochus, of all things, was our salvation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……真是让人笑不出来。",
+			say = "It's so funny, one forgets to laugh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好消息是我们所有人都从地狱的门前擦边而过，坏消息嘛……",
+			say = "If nothing else, we managed to escape the worst in the nick of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安蒂克丝对于此处实验场的重视程度大幅超出了我的认知，我们所做的一切布置都需要提高规格了。",
+			say = "Still, the Antiochus are watching this test site closely. We must advance all of our preparations posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是啊……",
+			say = "Indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "“布置”，是指你们一直在拓展和加固阿瓦隆之门的事么？",
+			say = "Preparations... You mean expanding and powering up the Gate of Avalon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，但不仅如此！为了未来可能遇到的诸多挑战，本王可是暗中做了很多部署的。",
+			say = "That isn't all. I've been working on things behind the scenes in case things worsen in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于阿瓦隆之门的升级也只是为了让这些部署能够更加顺利所做的准备罢了~",
+			say = "The Gate of Avalon upgrades are but a means to make the other measures go more smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "听上去是一个神秘又规模宏大的计划……？",
+			say = "So Her Majesty has a grand plan in the works?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，那是自然~不过本王现在要先给你卖个关子，以后有机会你就知道了~",
+			say = "Heh heh, of course! I'll happily divulge the details later, but for now, you just think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次的重头戏还是鲸鱼，好不容易把鲸鱼抓回来了，我们得将它彻底研究明白才是。",
+			say = "Now, we've had you come here to discuss the whale. We've captured it, so now we need to examine it thoroughly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "关于这件事……今天怎么没见D小姐？",
+			say = "About that... Where's Miss D?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她对于鲸鱼的事不应该是最上心的么？",
+			say = "She was obsessed with the whale, wasn't she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……D小姐她……",
+			say = "Umm, well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "D小姐她现在有了自己的烦恼，出于安全起见，我们只能暂时限制她的行动范围。",
+			say = "That girl is facing some personal troubles. We've limited what she can do for the sake of safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "具体情况……一会你就明白了。",
+			say = "You'll... understand quickly, we assure you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "利用阿瓦隆内部新修建的轨道交通系统，我与两位女王穿越了森林平原与山丘，路过了多处修建中的工地。",
+			say = "Using the newly installed monorail, the queens and I travel through the Gate of Avalon.",
 			bgm = "theme-thedeathXIII",
 			typewriter = {
 				speed = 0.05,
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "而后，我们抵达了目的地，一处填充着水银般液体的人工湖。",
+			say = "Beyond vast forests and towering mountains, we arrived at our destination – an artificial lake of mercurial silver.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "银色的水面之上，近千米长的鲸鱼静静悬浮在半空中，无数大小不一的金属机械臂在其表面各处忙碌着。",
+			say = "The whale hovers quietly above the lake, with mechanical arms working all over its surface.",
 			movableNode = {
 				{
 					time = 1000,
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_559",
 			hidePaintObj = true,
-			say = "不远处，D小姐迎面走来，此前的疑惑也终于得到了解答",
+			say = "As for Miss D, she comes rushing over right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "助手！助手！助手！",
+			say = "Assistant, assistant, assistant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "你终于来看我啦~(✧◡✧)~~~！",
+			say = "YOU CAME TO SEE MEEEE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "看我飞扑~~~",
+			say = "Gimme a BIIIIG HUG!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "可恶，你别挡我的路！烦死了，走开！",
+			say = "You! Outta the way! Shut up! Go away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哎呀，助手！你等我一会哦！",
+			say = "Grrr! Assistant, wait there for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "我先甩开这个烦人的跟屁虫[○･｀Д´･ ○]！！！",
+			say = "I'll deal with this stupid thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "…………？",
+			say = "Um...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "如你所见咯，这就是本王没法放任D小姐自由行动的原因。",
+			say = "There you have it. That is the reason Miss D cannot be allowed freedom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个是……死神之影，没错吧？",
+			say = "That's Death's Shadow, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "不错，就是此前在辉光之城中与我们作战的那个东西。",
+			say = "Correct. The very same one that we fought in the Martyrium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "当时它还入侵到了列车内部，想来你也对它有着深刻印象。",
+			say = "You may recall that it invaded our Queen's Light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "然后现在……它变成了D小姐的跟班？",
+			say = "Is it haunting Miss D now, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "护卫，当然说跟班也可以。",
+			say = "A more apt interpretation would be that it is her bodyguard and servant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这项异状是在我们返回之后，带领D小姐尝试激活鲸鱼部分系统时突然出现的。",
+			say = "It appeared out of thin air when we tried to recover the whale's functionality with Miss D.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "它在自动生成完毕后，就一直呈现出拒绝交流的状态。",
+			say = "It responds to no communication, and it avoids all contact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "只是一直紧紧跟随在D小姐身边，并且极力避免她离开鲸鱼太远的距离。",
+			say = "All it does is follow Miss D and prevent her from straying too far from the whale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（死神之影……或者说，战争协议-镰刃。）",
+			say = "(Death's Shadow... War Protocol Scythe.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（D小姐自身的“不完整”，与鲸鱼所拥有的概念分割能力……）",
+			say = "(Miss D's incompleteness, and the whale's ability to sever concepts...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道说，死神之影和D小姐曾经是一个整体……她们合在一起，才是真正的仲裁者·戴斯·XIII？）",
+			say = "(That must be it. Death's Shadow and Miss D are two parts of a whole. When they're combined, they'll become Arbiter XIII: Death.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,13 +822,13 @@ return {
 			expression = 3,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 900430,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "记住：她们在成为个体之前，首先是集合，由无数碎片构成的集合。",
+			say = "Remember this, it's important – they form a collective of countless fragments of data until they are given individual bodies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,13 +848,13 @@ return {
 			expression = 10,
 			side = 2,
 			actorShadow = true,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			blackBg = true,
 			actor = 900430,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "而“分割集合”，就是我隐藏在「死神」之中的秘密……",
+			say = "It is possible to replicate the individual offshoots of this collective. I gave this power to Death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对付外部异质的结晶物……战争协议系列武装能够发挥巨大优势。",
+			say = "The War Protocol series is particularly effective against higher-level crystalline targets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900431,
-			say = "我与司答的部队在整合后，列装的该类型武装数量最多。这里就由我们来殿后吧。",
+			say = "Star and I have the most units equipped with this series. I believe we two are best suited to stall the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（这么一来，消失的战争协议系列……难道是某些仲裁机关的底层……？）",
+			say = "(Are the Arbiters based on the War Protocol series?)",
 			effects = {
 				{
 					active = false,
@@ -949,7 +949,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（那所有的仲裁机关都是由战争协议系列升级来的么？）",
+			say = "(Did existing War Protocols get upgraded into Arbiters, or...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不对，应该不是……至少海洛芬特就不是……麦纪莎应该也不是……？）",
+			say = "(No, not necessarily. It wouldn't apply to Hierophant, nor to Magician...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（也就是说这两个计划其实是并行的……？）",
+			say = "(Maybe the War Protocol and Arbiter series are two projects that had been worked on in parallel?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（情报还是太少了啊……）",
+			say = "(I'm still lacking important information.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们什么时候进入鲸鱼中调查？",
+			say = "By the way, when are we going into the whale?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "明天就可以了。",
+			say = "On the morrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "我们已经清理出了数个安全舱段，今天进行一次最终检查。",
+			say = "We've already secured several safe holds. Today, we will perform final checks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,7 +1042,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……安全舱段？在鲸鱼内探索可能遇到危险么？",
+			say = "Safe holds? This surely implies that the inside of the whale is dangerous, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "难以预测。鲸鱼此前在失控的状态下运行时间太久了，又被迪贝路控制了一阵。",
+			say = "We do not know. We have seen it out of control, and we have seen it controlled by Devil as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王无法确定其中究竟蕴含有多少危险，只能按照最保守的方案来了。",
+			say = "There is no telling what may lie within, so our only course of action is prudence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1083,7 +1083,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你说得对，探索未知之时怎么谨慎都不为过……",
+			say = "Agreed. You can never be too careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1096,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那我们就明日再去吧，至于现在——",
+			say = "Tomorrow will do. For now–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,8 +1109,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "D小姐",
-			say = "助手！看我！",
+			actorName = "Miss D",
+			say = "Assistant! Over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1128,8 +1128,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "D小姐",
-			say = "助手！快看我！",
+			actorName = "Miss D",
+			say = "ASSISTANT! HERE, HERE, HERE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我陪D小姐聊聊天应该没问题吧？",
+			say = "...Do you mind if I talk with Miss D?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自然没问题，那个死神之影，如今只是一个沉默寡言的卫兵罢了。",
+			say = "That's fine. Consider Death's Shadow a quiet guardian.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王已经备好了下午茶，随我一起来吧~",
+			say = "I prepared afternoon tea. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "港区·皇家区域",
+			say = "Port - Royal Navy Dorm",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "嗯？大家都愿意加入可畏这边的「红组」么？",
+			say = "Really? You would all like to join team red?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701050,
-			say = "塔什干只是被叫来帮忙的，完全不是想让同志酱满足塔什干的愿望才答应的。",
+			say = "I was just asked to help out. I don't care much about getting a wish granted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202280,
-			say = "啊啊，为了不让主人失望……！黛朵想再一次让主人看见在舞台上闪耀的黛朵！",
+			say = "And I will do anything not to disappoint my Master! I want to get up on stage once more and shine like a star!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108050,
-			say = "嘿嘿，大家的兴致都很高啊~",
+			say = "Heh, you all sound mighty fired up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108050,
-			say = "完全没想到我们「Astrum」还能再一次一起登台呢！",
+			say = "I'm just surprised Astrum is getting the chance to perform on stage again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103250,
-			say = "没错！这次我也有所成长了，作为“偶像”应该更加游刃有余了！",
+			say = "Ain't that the truth. I'll even be able to perform more like an idol since I've grown since the last time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207110,
-			say = "呵呵……谢谢大家愿意帮我这个忙。",
+			say = "Heehee. Thank you all for agreeing to help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "光辉姐姐是为了帮可畏，所以把之前的组合成员都聚集过来了么？",
+			say = "Illustrious, you didn't round up all this talent just to extend a helping hand to me, did you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207110,
-			say = "一方面是为了帮忙，另一方面么……",
+			say = "Well, I did, but there's more to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207110,
-			say = "其实我也有想要让指挥官帮我实现的愿望……所以……",
+			say = "In all honesty, I have a wish I'd like to come true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "欸？",
+			say = "Oh really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "港区·重樱区域",
+			say = "Port - Sakura Empire Dorm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "（听说「Alizarin」那边的进展很快，而且还招募到了之前很强力的「Astrum」……）",
+			say = "It seems that the red team has already secured the talented Astrum unit for themselves...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "（虽说{namecode:91:赤城}和东煌姐妹已经答应加入「青组」了，但我们这边也必须加快进度才行。）",
+			say = "While we did successfully recruit the Dragon Sisters, we still must make haste and recruit additional talent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是来找我的么？",
+			say = "Are you seriously worried that we're lagging behind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "你放心好了……我不会允许自己选择的那一方落败。",
+			say = "Don't be. Victory is all but guaranteed with me on your team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "嗯？难道你也做了准备？",
+			say = "Oh? Have you secured us an advantage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "那是自然~「Polaris」的全员已经答应和我一起加入「青组」了。",
+			say = "Of course I have. I convinced the entirety of Polaris to team up with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "虽然这么说可能有些失礼……但，你应该没有强迫她们吧？",
+			say = "This may be rude of me to ask, but you didn't \"convince\" them by force, did you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，当然了。不信的话……喏，你看，加斯科涅本人也过来了哦~",
+			say = "It should go without saying that I didn't. If you don't believe me, just ask Gascogne.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905030,
-			say = "加斯科涅，没有被胁迫。",
+			say = "Akagi has not made any threats toward me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905030,
-			say = "加斯科涅，对“偶像”的定义有了新的理解，想让主人看见。",
+			say = "I have simply gained new insight into the meaning of the word \"idol,\" and I joined the blue team to demonstrate it to my Master.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "原来如此……抱歉{namecode:91:赤城}，我为刚刚的疑问向你道歉。",
+			say = "I... see... I apologize, Akagi. I shouldn't be so suspicious of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "你的歉意我就收下了。说起来，我还为我们找到了另一组帮手……",
+			say = "Apology accepted. To bring us back on topic, I also spoke to another unit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "虽然多少有些不爽……但为了增加赢面，有时候和过去的对手合作也是必要的呢。",
+			say = "I'm not very keen on allying with old rivals of mine... but I won't shy away from it if that's what it takes to win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "——「Verheerender」，你们可是迟到了哦？",
+			say = "Verheerender, you're late. Why is that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403080,
-			say = "嗯…抱歉呢~因为一直想着如何击溃“敌人”，在练习上花了点时间。",
+			say = "I'm really sorry. I was rehearsing, then I thought about the ways I was going to crush my enemies and I lost track of time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307110,
-			say = "啧，要不是为了指挥官大人，{namecode:97:大凤}才不会和你们合作呢。",
+			say = "Tsk... I'm only doing this for my Commander. Otherwise I wouldn't be caught dead helping you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307110,
-			say = "等{namecode:97:大凤}赢了……就要许愿和指挥官大人……呵呵呵呵❤",
+			say = "If and when I win, I will spend my wish on my Commander, and then... Hehehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "那种事我可绝对不·允·许哦？指挥官只能由{namecode:91:赤城}的爱来填满！",
+			say = "Oh, you're saying that to my face and think I'll let it slip? The only love that will appease the Commander is MY love!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403080,
-			say = "呵呵，“敌人”的数量又增加了呢♪",
+			say = "Heehee. Looks like I've made new enemies today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "…………",
+			say = "*sigh*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "你们，要不还是把门关上再聊吧……",
+			say = "Please get a room, you three.",
 			painting = {
 				alpha = 0.3,
 				time = 1

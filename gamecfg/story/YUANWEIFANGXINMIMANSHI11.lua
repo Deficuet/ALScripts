@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>微醺的胜负心</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Dressed to Impress</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "黑暗的房间中，传来织物们的摩擦声，还有……",
+			say = "On the other end of Essex's room, the sound of rustling fabrics...",
 			blackBg = true,
 			bgm = "story-richang-5",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "指……指挥官，再稍微等我一下，现在还不能回头哦。",
+			say = "I-I'll be done in just a minute. Please don't turn around yet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "嘿咻……没想到，一个人穿礼服……这么麻烦……",
+			say = "Aaand... there! Sheesh, putting a dress on without any help is a lot harder than I expected...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "啊啊！掉了！真是的……",
+			say = "Wait, no! The thing just slipped! Ugh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,12 +107,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以了哦……指挥官。",
+			say = "Okay... I'm ready now, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,12 +141,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃塞克斯",
+			actorName = "Essex",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请……看着我……",
+			say = "You can turn around now... and look at my dress!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "怎……怎么样？",
+			say = "Wh-what do you think?",
 			actorPosition = {
 				x = -1500,
 				y = 0
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "指挥官的评价呢？",
+			say = "Does it look good on me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,11 +223,11 @@ return {
 			},
 			options = {
 				{
-					content = "感觉不一定会输！",
+					content = "\"Yes. It's on par with Enterprise's.\"",
 					flag = 1
 				},
 				{
-					content = "也不错哦！",
+					content = "\"It's night and day compared to before.\"",
 					flag = 2
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			actor = 107092,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦，真的吗？指挥官？",
+			say = "Really? You think so?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 107092,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……什么叫做“不一定会输”啊？！",
+			say = "Although... I have mixed feelings about being \"on par\" with her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 107092,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什、什么叫“也”嘛，这种微妙的回答！",
+			say = "Night and day, you say? I'm not sure what to make of that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "真是的……就不能好好的说很漂亮啊、被迷住了之类的话么……",
+			say = "Sometimes, I just want to be told, \"You look cute,\" or \"You're pretty.\" That's not too much to ask...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "埃塞克斯想要起身，但因为某种宴会饮品的副作用，再次倒了下去。",
+			say = "She mutters something under her breath and turns on her heel. Still under the influence, she staggers and nearly trips over her herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "呜……头有点晕，刚刚喝太多了……",
+			say = "Urgh... I feel dizzy. In hindsight, I really drank way too much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "欸，为什么礼裙的拖尾要弄得那么长啊……",
+			say = "Dang it, why is this stupid dress so long? It keeps getting in the way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "埃塞克斯似乎已经酒醒了，这么一来就可以放心了。",
+			say = "It's clear she's sobered up somewhat over the past fifteen or so minutes. That's a relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不过……似乎没有见她喝过任何醒酒的东西……？",
+			say = "How, though? Sobering up takes longer than that, especially if you haven't eaten food or drank water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "那个，指挥官，能扶我一下吗？",
+			say = "Hey, Commander, could you help me over here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "轻轻扶住有些站不稳的埃塞克斯。",
+			say = "I offer a hand to help her get her bearings straight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "也许，是应该给她的礼服一个客观的评价……",
+			say = "Then, the next thing I know, she has wrapped her arms around mine and looks at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "嘿嘿……嘿……抓——到了————",
+			say = "Hehehe... I got you nooow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "指~挥~官~实话实说，我这身礼服好看么？",
+			say = "Pleeease, Commander. Can't you give me your honest opinion on how I look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,22 +508,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "再次感受到了逐渐加重的巨大力道。",
+			say = "She squeezes my arm tightly. The wine must be empowering her – or at least encouraging her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好看…！",
+					content = "\"You look beautiful.\"",
 					flag = 1
 				},
 				{
-					content = "非常好看！",
+					content = "\"Your beauty is stunning.\"",
 					flag = 2
 				},
 				{
-					content = "非常非常好看！",
+					content = "\"You are drop-dead gorgeous.\"",
 					flag = 3
 				}
 			}
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "诶嘿……嘿嘿……",
+			say = "Hehe... Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "太好了……指挥官的夸奖真是太好了……",
+			say = "Words of praise... From the horse's mouth...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "就……就算……对手是企业前辈……埃塞克斯也是不会输的……",
+			say = "Even when I'm up against Enterprise, I'll try to look my best...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "但是……嘿嘿……企业前辈的礼服……真的好……美丽……嘿嘿……",
+			say = "But... Her dress is really, really pretty... Hehehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "指挥官……你也是这么觉得的吧……！",
+			say = "Isn't that right... Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "正傻笑着的埃塞克斯缓缓扭头看向我这边。",
+			say = "She looks me in the eyes and flashes a soft smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "因为距离的原因，能感觉到红酒的气息，夹杂着果香……",
+			say = "Our faces are dangerously close to kissing distance. The smell of wine and her perfume tickles my nostrils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107092,
-			say = "指挥官……怎么回事……今天……特别有魅力……",
+			say = "Maybe it's just me... but you look even more attractive than usual tonight... ♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "看来埃塞克斯完全没有醒酒……",
+			say = "My assumption was wrong. She has not sobered up at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "可不能让现在的她这样出现在宴会上。",
+			say = "There's no way I can let her roam the palace in her current state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "没办法……直到清醒之前，再照顾她一段时间吧——",
+			say = "At the same time, I can't just leave her behind. I suppose I have to look after her for a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

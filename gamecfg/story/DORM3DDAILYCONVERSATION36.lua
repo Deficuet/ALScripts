@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近……天狼星也有在看除了食谱以外的书了。",
+			say = "I've been reading books on subjects other than cooking lately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "居然不看食谱了！？",
+					content = "Subjects other than cooking? Like what?",
 					flag = 1
 				},
 				{
-					content = "那天狼星最近在看什么？",
+					content = "What kind of books?",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是和恋爱话题有关的杂志和小说……",
+			say = "Well, almost solely romance magazines and novels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然作为女仆侍奉在{dorm3d}身边就很幸福了，但贪心的天狼星还想在这方面再好好钻研一下呢。",
+			say = "While I am content with simply serving as your maid... I'm selfish, and I wish to read more about this subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请您好好见证天狼星未来的蜕变吧，我的{dorm3d}。",
+			say = "I hope you will soon bear witness to my personal growth, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

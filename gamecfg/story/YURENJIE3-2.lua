@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
-			say = "布里们竭力与魔王战斗着，但是却渐渐落了下风。",
+			say = "The Bulin sisters fought, but their best efforts weren't enough to trump their adversary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,9 +17,9 @@ return {
 			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "恐怖大魔王？",
+			actorName = "Lord of Evil",
 			dir = 1,
-			say = "没用没用没用——哈哈哈哈！",
+			say = "Your attacks are useless! Ahahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,8 +41,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "能激活“超级彩虹锤1号”power的家伙，现在还没诞生呢！",
+			actorName = "Lord of Evil",
+			say = "No one, and I mean no one on this earth can bring out the hammer's power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "才不是呢buli！妹妹是最强的buli！",
+			say = "You're wrong, bulin! Our sister's the strongest person alive, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "本大人是不会放你过去的purin！",
+			say = "She'll put you in your stupid rightful place, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,8 +114,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "你们尽管试吧！努力吧！然后绝望吧！",
+			actorName = "Lord of Evil",
+			say = "Try it! Struggle all you want, then despair!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 100020,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你错了！我的回合了burin！吃我一锤，Full Charge！",
+			say = "You'll be the one to despair, bulin! My hammer is at full charge, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,8 +163,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "什么？！居然？！",
+			actorName = "Lord of Evil",
+			say = "What?! That's impossible!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "做的好purin！锤到让魔王哭着跪下！",
+			say = "Great job, bulin! Let's wale on her until she cries for mama, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "跟着我，无敌布里战队，上啦burin！",
+			say = "Follow my lead, bulin! Show her what we bulins are capable of, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1

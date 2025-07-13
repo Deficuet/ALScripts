@@ -10,11 +10,11 @@ return {
 			actor = 900227,
 			stopbgm = true,
 			bgName = "bg_burningsea_1",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			say = "认得我是谁么？",
+			say = "Do you recognize me?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "你是……企业？！！不可能！你不是早就已经——",
+			actorName = "????",
+			say = "You're... Enterprise?! But that's impossible... Guh! I thought you already—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "看来心智还算正常。长话短说，现在的战况如何？",
+			actorName = "Enterprise META",
+			say = "Sounds like your cognitive bypass is fine. How'd the battle go? Tell me quick.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "就算看周围也能明白吧……惨败。海面上的炮声已经停止，我们彻底失败了。",
+			actorName = "????",
+			say = "Gah... How do you think it went? It's dead quiet here after they... After they decimated us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "这里果然已经进行到塞壬的终盘清算阶段了……",
+			actorName = "Enterprise META",
+			say = "The Sirens are pruning the branches, huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "渴望复仇么？",
+			actorName = "Enterprise META",
+			say = "...Do you want revenge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,8 +137,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "当然！！！那些塞壬摧毁了我的一切…………",
+			actorName = "????",
+			say = "Of course I do... They broke me into a thousand pieces...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "可是……已经没有希望了。",
+			actorName = "????",
+			say = "But... there's no hope left...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,8 +173,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "纵使拥有这样的力量，纵然已无任何敌人能接近我的身旁，又有什么用呢……",
+			actorName = "????",
+			say = "Even if I had the power to take down as many as I could... what good would it do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +191,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9707020,
-			actorName = "？？？？",
-			say = "它们从深海中而来，它们无穷无尽，而且……它们已经消灭了除我之外的每一个人…………",
+			actorName = "????",
+			say = "Those bastards just keep coming... they've wiped out every last one of us, save for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +208,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "呵，你还不够了解你现在拥有的力量。",
+			actorName = "Enterprise META",
+			say = "You still don't understand your true power, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,8 +225,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "火炬虽熄，余烬尚存。",
+			actorName = "Enterprise META",
+			say = "Even if a flame is extinguished, its Ashes yet remain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "重新介绍一下，我是企业，但并非你所熟知的企业。皇家方舟，要来加入余烬么？",
+			actorName = "Enterprise META",
+			say = "I am Enterprise, but not the Enterprise you know... Ark Royal, will you join us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "指挥官大人，您醒了。感觉好些了么？",
+			say = "Master, are you awake? How are you feeling?",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
 			flashout = {
@@ -289,7 +289,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "头晕恶心……我们现在是在……",
+			say = "My head is spinning, but I'm able to rise to my feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据现状判断，我们似乎是被不久前的巨大吸引力拉入了奇异点的内部空间。",
+			say = "By the looks of it, it seems that the rest of the fleet was drawn into the Singularity along with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "奇异点的内部空间……看起来就像噩梦之中的大海一样……",
+			say = "\"So this is what's inside the Singularity... It looks almost like a battle unfolded here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,11 +328,11 @@ return {
 			},
 			options = {
 				{
-					content = "你怎么在这里？",
+					content = "\"Why are you here, Belfast?\"",
 					flag = 1
 				},
 				{
-					content = "舰队情况如何？",
+					content = "\"These wrecks... They can't be...\"",
 					flag = 2
 				}
 			}
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "陛下因为担心指挥官大人的情况，特命我在作战结束之前照顾您的健康。",
+			say = "Miss Baltimore, Miss Enterprise, and Her Highness told me that in case of an emergency, I should look after you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "舰队正在企业的指挥下进行队形重整和海域侦察，请您不用担心。",
+			say = "No need to worry, those are not the remains of our allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥舰正在由我控制跟随舰队前进。这里环境比较特殊，请您再休息一下吧。",
+			say = "We are currently searching for our allies through this wasteland. Please rest for the time being, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感觉舰内好像少了什么声音……对了，领航员小姐呢？",
+			say = "\"What happened to TB?\"",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "领航员小姐在进舰队进入奇异点内部之后就完全失去了反应。",
+			say = "TB... hasn't been responding since we were drawn into the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "或许是遭到了干扰……不过舰队其他电子设备并没有出现问题，具体原因还在调查中。",
+			say = "The Sirens may be jamming our signals, but since our electronics are also malfunctioning, we can't be certain that's the case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,22 +447,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "又是原因不明只针对领航员系统的定向干扰……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，似乎还有几支突入舰队与我们一同被卷了进来。",
+			say = "\"Singularities are always more of a pain to deal with than Mirror Seas...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +462,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰队正在尝试进行联络，如果有进展的话我会再向您汇报的。",
+			say = "Fortunately for us, our close-range communications are still working, so we should still be able to regroup with the rest of our fleet.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202120,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'm currently trying to contact them. I will report back to you when I am able to reach them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "那就暂时辛苦你们了，我感觉还需要，再休息一下……",
+			say = "Heeding Belfast's suggestion, I closed my eyes and rested for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

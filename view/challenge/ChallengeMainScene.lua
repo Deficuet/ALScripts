@@ -299,15 +299,22 @@ function var_0_0.updateData(arg_29_0)
 		arg_29_0.curLevel = arg_29_0.curModeInfo:getLevel()
 		arg_29_0.showingIndex = arg_29_0.curLevel
 		arg_29_0.dungeonIDList = arg_29_0.curModeInfo:getDungeonIDList()
+
+		print("self.dungeonIDList", tostring(arg_29_0.dungeonIDList))
 	end
 
 	arg_29_0.nameList = {}
+
+	print("创建nameList", tostring(arg_29_0.nameList), tostring(arg_29_0.dungeonIDList), tostring(#arg_29_0.dungeonIDList))
+
 	arg_29_0.infoNameList = {}
 
 	for iter_29_0, iter_29_1 in ipairs(arg_29_0.dungeonIDList) do
 		local var_29_2 = pg.expedition_challenge_template[iter_29_1].char_icon[1]
 
 		arg_29_0.nameList[iter_29_0] = var_29_2
+
+		print("self.nameList", tostring(var_29_2))
 
 		local var_29_3 = pg.expedition_challenge_template[iter_29_1].name_p
 

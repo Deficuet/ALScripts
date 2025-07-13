@@ -17,14 +17,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，天狼星最近在练习插花，希望之后您能给天狼星一些意见和建议。",
+			say = "{dorm3d}, I've taken up practicing flower arrangement. If you don't mind, could you give me some feedback on my work later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "练习插花？",
+					content = "Why flower arrangement in particular?",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为{dorm3d}提供舒适和赏心悦目的环境是女仆的职责，所以说插花是必修课也不为过……",
+			say = "It is a maid's duty to provide a pleasant, beautiful environment. As such, flower arrangement could certainly be argued to be a compulsory subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然天狼星是个笨手笨脚的女仆……但是插花这方面应该能做好的！",
+			say = "An ungainly maid though I may be, I believe I can at least arrange flowers well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

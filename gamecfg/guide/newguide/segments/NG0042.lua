@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "探索一下投票会场吧！",
+				text = "Explore the popularity poll venue!",
 				mode = 1,
 				posY = 0,
 				dir = -1,

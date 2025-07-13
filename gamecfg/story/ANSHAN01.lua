@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>一　旧仓库的发现</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 1 - Treasure in the Old Warehouse</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山级的～～",
+			say = "Hi! Welcome to...",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绘图教室～～～",
+			say = "The An Shan-class'...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开、开始了！",
+			say = "C-coloring room!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们这都是在干吗呢…",
+			say = "What are we even doing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，怎么说～顺势而为？",
+			say = "Well, let's say we'll \"paint you a picture.\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到太原在旧仓库淘到的旧书里还夹着一本这个呢",
+			say = "Tai Yuan found this while digging around in the warehouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿…",
+			say = "H-heheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "旧仓库…？",
+			say = "What warehouse...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊～没、没什么啦～比起这个，还是看看这个绘图本吧～",
+			say = "Umm, n-never mind that! Just take a look at this drawing book!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其说是绘图本，不如说是涂色本呢…",
+			say = "It's not really a drawing book, it's more like a half-finished coloring book...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，既然如此，就来涂鸦吧！",
+			say = "Ta-dah! Anyway, we should fill it in together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺又开始了…",
+			say = "You're up to something again, Fu Shun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我也……",
+			say = "I-I want to fill it in too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，算了，总比去外面胡闹的好…",
+			say = "Oh well, I guess it's better than you guys causing trouble outdoors...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过…说要涂色，但是手边没有颜料呢",
+			say = "I'm up for some coloring, but we don't have any paint...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好咧~那就收集颜料去咯~",
+			say = "Alright, then we'll go find some!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别太闹腾了啊！",
+			say = "Just don't go causing trouble for people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

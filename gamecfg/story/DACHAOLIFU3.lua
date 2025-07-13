@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>三 各自的欢愉</size>",
+					"Swept Away in the Moment\n\n<size=45>Other Ways To Have Fun</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "其他人也在以各自的方式，享受着这场“心血来潮的宴会”——",
+			say = "Of course, drinking wasn't the only way to enjoy oneself at the party...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦哦！这边有肉！那边也有肉！这是肉肉之宴啊！！",
+			say = "Meat! Yummy yummy meat! Om nom nom nom! Ahhh, I'm in carnivore heaven!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 307051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊…一看到肉，椿就跟脱缰的野马一样跑没影子了，唉",
+			say = "... *Sigh*, when Yuudachi sees meat, not even her shadow can keep up with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了…难得的宴会，就让她放开了吃吧。我去找荙她们一起喝酒好了……",
+			say = "And where might Taihou have gone off to? Everybody's just concerned with themselves today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，我找到{namecode:413}啦！",
+			say = "I've spotted a lone U-47!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -149,7 +149,7 @@ return {
 			actor = 401234,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，{namecode:413}，这可是我们铁血主办的宴会哦，作为铁血的一员怎么能这样躲在没人的角落呢！",
+			say = "Why are you sitting here alone, U-47? I know you didn't volunteer to help set up the party, but shouldn't you at least be celebrating together with everyone else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408022,
-			say = "……我不擅长应付人多的场合，那里就交给你们了",
+			say = "... Don't wanna socialize, so I'll pass. You can have fun without me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶～那样多没意思呀～一起来嘛，我们去找点好吃的～",
+			say = "What?! Haven't you heard the phrase \"the more, the merrier\"? C'mon, let's head to the buffet tables and get something good to eat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯！和大家打打招呼也好嘛！",
+			say = "Good idea! And let's say hello to a few guests from the other factions along the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408022,
-			say = "好吧…既然你们都这么说了……",
+			say = "*Sigh*... I was perfectly fine with just staying here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这才对嘛～",
+			say = "Don't be like that! C'mon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢笑的伙伴，欢快的宴席…呼…真是美好…不过，也真是无趣呢……",
+			say = "It really is wonderful that we can have such a heartwarming party and have such fun together...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -286,7 +286,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再没有点有趣的“刺激”的话，我就……",
+			say = "But... it doesn't feel quite thrilling enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，怎么了吗{namecode:439}？露出一脸微妙的表情～",
+			say = "Ey, Roon, what's up? You look, like, soooo bored, like you haven't had any fun all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是你们铁血的宴会呢！要再…怎么说呢，再high一点？",
+			say = "I mean, your own peeps are hosting this time, so isn't it fine to just kick it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…？是西雅图啊，还有峦？你们也来了呀……",
+			say = "... Oh, hello, Seattle and Ibuki. How lovely to see you here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 399012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "晚、晚上好…铁血的宴会…感觉尽是峦没有经历过的事物呢",
+			say = "H-hello, Miss Roon... Forgive me, this is my first time attending one of these \"parties...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，所谓的宴会呀，第一重要的是开心，第二重要的是开心，第三重要的还是开心哦！",
+			say = "Don't you worry about that, Ibuki! All you need to know is: parties are for partying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要思考那么多，全力享受就对了～",
+			say = "So, like, don't overthink things and just do what you wanna do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "全力享受…吗。呵呵…说得也是，峦、西雅图，机会难得，我们一起四处逛逛吧？",
+			say = "You're right, Seattle~ Everyone has their way of enjoying a party. Say, could I ask you to give me a tour around the venue to see what's here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

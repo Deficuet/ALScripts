@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于启航之前\n\n<size=45>四　犒劳努力的自己</size>",
+					"The Bon Before the Voyage\n\n<size=45>4 Treat Yourself</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "本日，我再次来到了那扇门前。",
+			say = "Yet again, I'm at the door to the Cruise Planning Committee.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "这一次屋内没有传来任何动静。",
+			say = "I press my ear up against the door. It's silent on the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "透过门缝向屋内看，只见办公桌上堆满了零食。",
+			say = "I peek in through the crack in the door and see a smorgasbord of snacks on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "接待员小姐正趴在零食堆里享受着美妙梦境。",
+			say = "As for Miss Receptionist, she's lying face-down, having a nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……今天选择的是带着零食睡大觉的摸鱼方式么。",
+			say = "This time, she's gorging herself full on snacks and sleeping. Very classy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……桌子上的零食盒子堆成了一艘邮轮的样子。",
+			say = "It also looks like she has built a cruise ship out of those snack boxes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来她虽然对于工作不上心，对于邮轮之旅本身还是很期待的。",
+			say = "I suppose she must be looking forward to the cruise, even if she won't put in an ounce of effort toward its construction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以至少整体方向上……应该不会偏离太大……吧？",
+			say = "She at least cares to some degree, so she won't it screw up TOO badly... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,11 +108,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃——",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……ZZZ",
+			say = "Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,11 +156,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃叮铃铃——",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -169,11 +169,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃叮铃铃叮铃铃——！",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "呼啊……糟糕！吃完零食太舒服就直接睡着了……！",
+			say = "*yaaawn*... Oh, crap! I succumbed to food coma after eating all those snacks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "喂——这里是行政部的长岛，请问有什么可以帮你的？",
+			say = "Um, hi! This is Long Island from General Affairs! How can I help you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……嗯？物资调度委员会啊……嗯，关于你们之前的问题我这边已经得到回复了哦。",
+			say = "Come again? Oh, the Supplies Committee... Yeah, they gave me an answer yesterday.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "“反正货仓空间足够大，所有想带的食材都可以尽管带上，不需要有所取舍。”长岛得到的回复是这样的。",
+			say = "They said, uh, there's tons of cargo space, so you can bring all the raw ingredients you want.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "嗯嗯嗯，全部带上都可以哦。",
+			say = "You heard me. Bring as much as you want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "对的对的，包括撒丁菜的食材、白鹰菜的食材、鸢尾菜的食材、东煌菜的食材、北方联合菜的食材、重樱菜的食材、铁血菜的食材……",
+			say = "Yup, all of them! Sardegna, the Eagle Union, the Orthodoxy, the Empery, et cetera et cetera.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……嗯？皇家菜的食材？",
+			say = "Hm? What about the Royal Navy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "啊……皇家菜的食材只用带上甜点的部分就可以哦！",
+			say = "Uhh, forget about their food and just bring their desserts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "嗯嗯，全局统筹委员会是这么跟我说的哦！",
+			say = "Is, um, what the Central Committee said. Yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "总之除了这部分之外，想带什么想带多少都可以啦~",
+			say = "Let me reiterate – bring anything you want and as much of it as you want. There's ample room!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "那么拜拜~有问题随时来电哦~",
+			say = "I hope that answers your question. Please call again if you have any more. Bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,11 +380,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃——",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "喂——这里是行政部的长岛，请问有什么可以帮你的？",
+			say = "Um, hi! This is Long Island from General Affairs! How can I help you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官船舱的安保？",
+			say = "...You'd like to know about security measures for the Commander's cabin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……真的有必要做么？",
+			say = "I mean, do we really need any?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……我的意思是，我们一船人，难道还保护不了指挥官的安全么？",
+			say = "Because, you know, it'll just be us shipgirls and the Commander aboard the ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……什么叫“正因如此才更有必要”……？",
+			say = "...What do you mean, \"that's exactly why we need it\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "那我觉得……不，全局统筹委员会觉得，你们的观点十分有道理。",
+			say = "Oh. That's why. In that case, I think– Sorry, I mean the Central Committee thinks you're right!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "请为指挥官的船舱设置最高等级的安保系统吧！",
+			say = "Please install all the strongest security measures in the Commander's cabin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……防爆门？嗯嗯嗯，当然需要了。为了支持最高等级的安保系统，必须要有一个独立的防爆门！",
+			say = "...Of course! You need a blast door if you want the strongest security possible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……警卫室？嗯嗯嗯，当然需要了。为了支持最高等级的安保系统，必须要有一个独立的警卫室！",
+			say = "...Well, yeah, a guard room is indispensable, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……弹药库？嗯嗯嗯，当然需要了。为了支持最高等级的安保系统，必须要有一个独立的弹药库！",
+			say = "...Absolutely! If Fort Knox has a separate ammo storage, I don't see why we shouldn't!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "总之为了指挥官的安全，你们想修什么都可以啦~",
+			say = "Look, long story short, you can never be too sure when it comes to ensuring the Commander's safety!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "那么拜拜~有问题随时来电哦~",
+			say = "I hope that answers your question. Please call again if you have any more. Bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,11 +606,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟——",
+			say = "CLUNK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "呼，今天的工作还真是多啊，不过依然轻松解决~",
+			say = "Geesh, there's a lot of people calling today. Nothing I can't handle, though!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "已经没什么困意了……继续吃零食吧~",
+			say = "Answering those calls really woke me up. Now it's time for snacks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "前言收回！大方向已经偏离到没边了！",
+			say = "I take it back. She is screwing it up spectacularly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我记得，现在她们在修的是一艘豪华邮轮没错吧？",
+			say = "Also, what was that about a separate ammo storage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……为什么要有一个独立的弹药库？",
+			say = "For god's sake, we're building a cruise ship here, not a battleship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "这场邮轮之旅虽然在有条不紊地筹备中，但你内心的疑云正在变得愈发厚重。",
+			say = "Even if the project is proceeding without a hitch, I can't help but feel like this is going wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "纵使你之前和所有人约好了在邮轮建造完成之前既不打听也不干涉。",
+			say = "But, yet again, I can't bring this up with the Central Committee because I promised to let them do their work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,22 +732,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "但是看到现在的情况，你依然决定在返回指挥室工作前做点什么。",
+			say = "There isn't much I can do, but at least I can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "制裁一下摸鱼的长岛！",
+					content = "Punish Long Island for her indolence.",
 					flag = 1
 				},
 				{
-					content = "鼓励一下摸鱼的长岛！",
+					content = "Reward Long Island for her efforts.",
 					flag = 2
 				},
 				{
-					content = "算了，还是直接回去吧。",
+					content = "Shrug and go back to the office.",
 					flag = 3
 				}
 			}
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "今天长岛对于工作的懈怠程度简直令人发指……",
+			say = "Two days ago it was games, yesterday it was manga, and now she's stuffing herself on snacks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "这已经不是普通的工作摸鱼了，必须出重拳进行制裁！",
+			say = "We're reaching levels of slacking previously unheard of! That lazy ghost can't keep getting away with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "经过思考后，你偷偷潜入办公室，将冰柜中的酸素可乐席卷一空后，扬长而去。",
+			say = "I open the door and tiptoe inside, sneakily stealing all the oxy-cola from the fridge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……零食有点吃腻了。喝点酸素可乐吧~",
+			say = "Urp... I might've eaten too many snacks. I need some oxy-cola.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸？！怎么回事……！",
+			say = "...Huh? What the heck?! It's all gone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰柜里的酸素可乐为什么全部消失了啊？！！！",
+			say = "Someone took all the dang oxy-cola!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,7 +901,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~~~怎么会这样~~~！！！！！",
+			say = "Nooooo! I'm sooooo thirstyyyyy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "转念一想，你又觉得，一个人坐在办公桌前一整天确实是一种莫大的痛苦，摸摸鱼也是可以理解的。",
+			say = "Honestly, I might have done the same if I were her. Being alone and stuck in front of a desk all day is soul-crushing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "喜欢吃零食是么？那就——赐予你更多的零食吧！",
+			say = "You love snacks, do you? I'll give you all the snacks you can eat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "经过思考后，你偷偷潜入办公室，将大量零食与饮料连同冰柜一起放在角落后，扬长而去。",
+			say = "I open the door and tiptoe inside, sneakily leaving a minifridge in a corner and a pile of snacks and drinks on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……零食有点吃腻了。喝点酸素可乐吧~",
+			say = "Urp... I might've eaten too many snacks. I need some oxy-cola.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸？！怎么回事……！",
+			say = "...Huh? What the heck?! It's all gone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么会出现这么多零食……还有一个新的冰柜？！",
+			say = "Where'd all THESE snacks come from? There's even a new minifridge!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1064,7 +1064,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸~？！这难道是摸鱼之神对于我摸鱼一天的嘉奖……？",
+			say = "Wait! Could this be a gift from the God of Laziness for my dedication to the faith?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然辛勤工作必定有所回报~！",
+			say = "Aha! Hard work DOES always pay off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1107,7 +1107,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻，接下来喝点什么好呢~",
+			say = "Oh boy! So many drinks to choose from!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,7 +1123,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,7 +1155,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……零食有点吃腻了。喝点酸素可乐吧~",
+			say = "Urp... I might've eaten too many snacks. I need some oxy-cola.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,7 +1174,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼——心情舒畅~！",
+			say = "Ahh! That hits the spot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……好累啊。",
+			say = "But... *yawn*... Now I'm sleepy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,7 +1212,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "距离下班还有几个小时……再睡一觉吧~",
+			say = "Still a few hours of my shift left to go... I guess I'll have another nap.",
 			painting = {
 				alpha = 0.3,
 				time = 1

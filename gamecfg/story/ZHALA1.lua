@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸的玫瑰\n\n<size=45>一 晨间问候（？）</size>",
+					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 1: Good Morning</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，你醒了。",
+			say = "Ah, Commander, you're awake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看我的手，这是几？",
+			say = "How many fingers am I holding up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,15 +96,15 @@ return {
 			},
 			options = {
 				{
-					content = "二",
+					content = "\"Two?\"",
 					flag = 1
 				},
 				{
-					content = "三",
+					content = "\"Three?\"",
 					flag = 2
 				},
 				{
-					content = "四",
+					content = "\"Four?\"",
 					flag = 3
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，我的手上什么也没有，指挥官还没有完全清醒呢",
+			say = "Wrong. A thumb isn't a finger. I'm afraid you're not totally awake yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "昨天明明提醒你去休息了，结果早上来的时候就发现你趴在桌子上。指挥官昨晚一直在工作对吧？",
+			say = "I sent you to bed last night and yet I found you passed out on your desk this morning. Were you working all night, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "熬夜可不是好习惯啊",
+			say = "You can't be pulling all nighters like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被批评了，原因是昨晚熬夜工作",
+			say = "I was getting lectured by Zara, my secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "本来想赶在今天之前把一些工作给提前完成，结果不仅没有完成，反而因为弄得太晚而输给了疲倦…",
+			say = "All because I stayed up to get some work done ahead of schedule. Of course in the end I was so tired I couldn't finish it, and now I'm behind schedule...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不是说过了吗，作为秘书舰，会为你分担工作，指挥官不需要让自己那么辛苦……",
+			say = "I've told you a hundred times. I'm your secretary ship, you have to let me help you. You can't be working yourself to death like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是说…指挥官，其实不信任{namecode:526}？不惜透支自己的身体也要一个人在深夜偷偷处理事务。如果真的是这样的话……",
+			say = "Could it be... Commander, do you not trust me? You'd rather collapse from exhaustion in the dead of night? If that's really how it is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是我的不成器导致了这样的结果，非常抱歉。",
+			say = "Then I've been derelict in my duties. And I apologize profusely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:526}突然自责起来。",
+			say = "Zara suddenly flipped around to blaming herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "再怎么样也不能让别人为自己的过错揽责。",
+			say = "But I was never one to let others take responsibility for my failings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示自己会反省",
+					content = "\"It won't happen again.\"",
 					flag = 1
 				}
 			}
@@ -280,7 +280,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的吗？那指挥官以后也会听{namecode:526}的话吗？",
+			say = "Really? So you'll listen to me from now on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			},
 			options = {
 				{
-					content = "要看具体情况。",
+					content = "\"We'll cross that bridge when we come to it...\"",
 					flag = 1
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸——真可惜啊",
+			say = "Hrm... that's too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 603020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我就先离开了。希望我回来的时候，能看到一个精神的指挥官呢",
+			say = "Then I'm off. I certainly hope to find a strong and healthy Commander when I return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "好险，要是刚刚顺势答应的话就麻烦了……",
+			say = "It was a close call. If I had just given in to her, who knows what would have happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我也不能一直趴在这里，该起来洗漱了。",
+			say = "But I couldn't spend the whole day splayed out on my desk. I had to clean myself up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话说，从刚刚起，就总感觉背上好像盖着什么东西。这个是——{namecode:526}的披风？",
+			say = "When I started to move, I felt something had been draped over my back. It was... Zara's cape?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "等她回来的时候再顺便感谢她吧。",
+			say = "I would have to thank her when she got back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

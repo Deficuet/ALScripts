@@ -72,7 +72,7 @@ end
 local var_0_1 = 0
 
 function var_0_0.on(arg_12_0, arg_12_1)
-	arg_12_0.displayIndicator = defaultValue(arg_12_0.displayIndicator, true) and defaultValue(arg_12_1, true)
+	arg_12_0.displayIndicator = defaultValue(arg_12_0.displayIndicator, true) and arg_12_1
 
 	setImageAlpha(arg_12_0._tf, arg_12_1 and 0.01 or 0)
 

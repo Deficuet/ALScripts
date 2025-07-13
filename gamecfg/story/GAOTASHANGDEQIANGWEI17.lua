@@ -10,7 +10,7 @@ return {
 			bgm = "theme-glorious-meta",
 			sequence = {
 				{
-					"LD港·蔷薇塔",
+					"Port of LD - Rose Tower",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在狮带领众人乘坐太阳船先行回到蔷薇塔后，光荣·META立刻前往作战指挥室统筹起各处战线。",
+			say = "Lion's group arrived back at the Rose Tower with the Mesektet. Glorious ran straight for the war room and began commanding the counterattack across all combat sectors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "伊丽莎白与狮等人也更直观地感受到了这个世界的皇家与她们认知中的不同。",
+			say = "It reminded Elizabeth and Lion alike that the Royal Navy of this world was completely different from the one they knew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "山体之中隐藏着工厂，平原地区则修建了大量人工水道……",
+			say = "Factories hidden in the mountains, river after river dug out in the plains...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "有些区域甚至被人为制造为了洪泛区，以此来增加棋子与量产型的调动速度……",
+			say = "By Jove, there are even purposefully flooded sections to speed up the mobilisation of Pawns and mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "真是满目疮痍，千疮百孔啊……",
+			say = "They've torn the country to shreds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "但是我们依然在抵抗。",
+			say = "Even so, we keep fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我作为皇家的光荣，绝不能放任敌人在皇家的土地上肆意妄为。",
+			say = "Our glory would be tarnished if we let them run amok in our own homeland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "伊丽莎白女士，我注意到大批敌人正在向第五无线通讯研究所方向靠近。",
+			say = "Miss Elizabeth, I've spotted a large group of enemies in the direction of the Fifth Wireless Communications Laboratory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "伊丽莎白·META女士那边还没有消息么？我派遣更多部队去帮助她们吧。",
+			say = "Are you still unable to reach your META counterpart? Shall I send reinforcements her way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没消息。",
+			say = "I still can't reach her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不用担心，留在那边的人实力非常强，她们现在看上去被压制只是出于缺乏情报下的谨慎而已。",
+			say = "Fear not, however. Her escorts are the finest there are. It may seem like they're being pushed back, but they're simply being cautious out of a lack of information on the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你把部队派去更需要的地方吧。",
+			say = "Send your forces to the sectors that need them the most.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有需要我们帮忙的地方也但说无妨，我们此行就是为了帮忙而来的。",
+			say = "If we can help in any way, just say it. It's why we came here in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "不错~你可千万不要客气哦。",
+			say = "I concur. Don't walk on eggshells for our sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "敌人虽然看上去声势浩大，但是能看出来协同性相当差。",
+			say = "Whilst the enemy is numerous, it is readily apparent that they're uncoordinated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与其早早在蔷薇塔内死守，不如出去抓抓机会~",
+			say = "If they're going to attack the Rose Tower, we may as well meet them outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "我明白了，现在确实有一处位于威尔士战区的异常情况我还没想好怎么处理。",
+			say = "Understood. In all honesty, something odd is currently transpiring in the Wales sector, and I don't know what to do about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "皇家三岛目前被分为十二个战区，我的力量主要集中在毗邻蔷薇塔的一至六战区中。",
+			say = "The Royal Islands are presently divided into 12 combat sectors. Most of my forces are concentrated in areas one through six – the ones surrounding the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "对于第九-威尔士战区内的情况处理起来确实有些力不从心。",
+			say = "The Wales sector is number nine, and I am frankly at a loss as to handle the situation there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "好说好说，交给我们了~",
+			say = "Say no more. We'll deal with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "说说问题吧，你在那边发现了什么？",
+			say = "Would you happen to know anything about what's happening there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "在天外之兽潮爆发不久后，我在那边发现了塞壬舰队重新活动的痕迹。",
+			say = "Shortly after the extradimensionals appeared, I detected signs that a Siren fleet had come back online in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……塞壬？你们这个世界消失了一百多年的塞壬么？",
+			say = "Wait, a Siren fleet? Didn't they completely vanish from this world over 100 years ago?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我还拍到了些塞壬工厂废墟被蜂群机器人修理的画面，应该就是它们。",
+			say = "Correct. However, I am sure that it is them – I caught footage of swarm drones repairing one of their former factories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "最新情报显示，它们组织了一支部队，正在穿越天外之兽潮。",
+			say = "My latest intel shows that they've formed a fleet and are currently cutting through the horde of extradimensionals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "推测是准备经布里斯托尔湾转入洪泛区，而后向着蔷薇塔的方向而来。",
+			say = "They've entered the flooded region through the Bristol Channel, and I believe they're heading toward the Rose Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "如果是你们这个世界的塞壬，应该是友军？",
+			say = "If they're the Sirens from your world, doesn't that make them allies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "应该是，一路之上它们明显发现了我的监控站，却没有选择将其摧毁。",
+			say = "Most likely, yes, since despite them having sighted my monitoring stations en route, they did not destroy them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "这是隐蔽监控站拍摄到的照片。",
+			say = "Here. These are pictures that my hidden cameras took.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "光荣·META将一组照片展示在作战大厅的屏幕上。",
+			say = "Glorious brought up numerous photographs on the war room's screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "嗯……很明显，确实是塞壬的舰队。",
+			say = "Hm... Yeah, those are Sirens for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202360,
-			say = "从型号上来看，应该是II型量产型和执行者。",
+			say = "Judging by their make, they're mass-produced ships and Enforcers of the Type II variety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201390,
-			say = "咦？！里面为什么还混进去一只小鲸鱼，好可爱啊！",
+			say = "What the–?! Is that a baby whale among them? It's adorable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……小鲸鱼？",
+			say = "...Did you say, \"A baby whale\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下，那个造型是不是有点像……D小姐的鲸鱼玩偶？",
+			say = "Your Majesty... doesn't it greatly resemble the stuffed whale that Miss D has?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "然后……虽然有点糊，不过鲸鱼旁边的那个人型单位……像不像D小姐？",
+			say = "Also, while the picture is rather blurry, isn't that outline of Miss D herself, riding the whale?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……………………？",
+			say = "What... in the...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………坏了。",
+			say = "...This is bad news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "狮阁下，麻烦你出动太阳船，我们必须立刻前去支援！",
+			say = "Lion, start the Mesektet at once! We must go to support them immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "哦？来了之后还是第一次见你这么着急。",
+			say = "Hm? First time I've seen you this stressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "那个小鲸鱼是你认识的？",
+			say = "Is that little whale an acquaintance of yours, Lady Elizabeth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "路上跟你说，我们快出发吧。",
+			say = "I'll explain on the way. There is no time to waste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "好说、好说~",
+			say = "Alright, alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你确定我们这次去战场还要坐船么？",
+			say = "Um, your destination is in an active combat zone. Are you sure you want to take the Mesektet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到地方之前我会降落的。这次既然要打，自然要在我们的主场解决问题。",
+			say = "I'll set it down in the water before we get there. If we're going to fight, we'll do it on our home turf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201380,
-			say = "正确的判断。",
+			say = "A wise decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "佩特拉，备船，出发！",
+			say = "Cleopatra, ready the ship! We're setting off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,8 +672,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克利奥佩特拉",
-			say = "明白——",
+			actorName = "Cleopatra",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

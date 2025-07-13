@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "协助{namecode:96}与{namecode:95}确认了车况数据，获得了奖励【五星装备设计图纸*2】"
+			say = "You helped Shoukaku and Zuikaku inspect their car for faults. You received two SR gear blueprints!"
 		}
 	}
 }

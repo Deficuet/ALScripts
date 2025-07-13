@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>海龟栖息地</size>",
+					"Uncharted Summer\n\n<size=45>Turtle Sanctuary</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "沿着岛屿曲折的海岸线深入，不知不觉便来到了岛屿东北侧。",
+			say = "After a while of strolling along the coast, I realize I've ended up in the north corner of the island.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这里是一片漂亮的沙滩，纹样各异的贝壳安安静静地躺在金色的沙滩上。",
+			say = "The beach is beautiful, with shells of various colors dotting the sand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "同样安安静静躺在沙滩上的，还有慵懒地晒着太阳的海龟们，以及……",
+			say = "A few turtles lie in the open, silently sunbathing. And, what's more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Zzzzz……",
+			say = "Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……躺在它们中央一块平整的礁石上，正沉浸于梦乡中的拉菲。",
+			say = "Resting atop a reef circled by the turtles, is Laffey, fast asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "海浪拍打在沙滩上。沙滩旁边似乎聚集了一些垃圾……看起来是顺着波浪漂流过来的。",
+			say = "The waves splash against the reef gently, leaving behind junk and bits of driftwood in its wake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "或许因为这里是洋流集中的地方？",
+			say = "It seems this is a place of convergence for sea currents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,24 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "也许是走路的声音吵醒了正在熟睡的拉菲，她睁开眼睛看了过来——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "啊，指挥官中午好……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "I attempt to tiptoe my way over to Laffey, but the sound of my feet walking on the sand wakes her up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的阳光太舒服了，好暖和……",
+			say = "*yaaawn*... Good morning, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +153,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本来是想帮海龟们清理一下沙滩上的垃圾来着，结果不知不觉就睡着了。",
+			say = "The sunshine is so cozy here, so warming...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I was cleaning up beach trash for the turtles, and I guess I took a nap at some point...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "温暖的阳光洒在身上，再加上清爽的海风，感觉这里的时间都变慢了。",
+			say = "\"Can't blame you. Warm, glorious sunlight plus a cooling breeze is a recipe for an irresistible siesta.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "要不要在这里建设一处休息区呢……",
+			say = "\"Maybe we should build a beach hut and turn this into a rest area.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的海龟很可爱，港区的同伴们肯定也会喜欢的……",
+			say = "A place to sit and watch the turtles sound comfy... I think people would like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这里同时也是它们的家园……不要太打扰到它们哦。",
+			say = "But at the same time, this is the turtles' home... We don't wanna disrupt it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "自然，大家一起和谐相处才是最好的。",
+			say = "\"You're right. Living in harmony with nature matters more than a beach hut.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "只是……望着从海里冲刷到沙滩上来的垃圾，感觉多少有些刺眼。",
+			say = "\"Establishing a rest area somewhere else is an option, but all this trash littering the beach will be an eyesore.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "就算是为了海龟，也应该好好清扫一下这些垃圾才行。",
+			say = "\"I say we do the turtles a favor and help clean up this place thoroughly.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果被海龟们不小心吃下去的话，就危险了……",
+			say = "Good idea. We don't want them choking on bits of plastic...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲睡好了，也来帮忙……",
+			say = "I'll help. That nap topped off my batteries...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "和拉菲一起，开始了海龟栖息地的垃圾清扫行动——",
+			say = "And so, Laffey and I cleared the turtles' natural habitat of all that junk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

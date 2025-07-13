@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "离开列车中的华丽车厢，众人重新回到了荒芜之中。",
+			say = "The group disembarked the luxurious train, stepping back into the desolate world.",
 			bgm = "theme-brokenworld-sad",
 			location = {
-				"第五战区·目标建筑群废墟周边",
+				"5th Combat Sector - Near target ruins",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "大地的景象与此前见到的别无二致，不过昏暗的天空中，却出现了不一样的东西。",
+			say = "The ground beneath them wasn't much different from what they'd seen so far, but up in the ashen sky, something new caught their eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "扭曲的金属结构如同萼片一样，包裹出一个又一个蛹。它们仿佛被看不见的丝线牵引着，静静倒悬在半空中。",
+			say = "It was a collection of pupae surrounded by winding, sepal-like metallic structures. Each one silently hovered in the air, as if suspended by invisible strings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "这些东西是什么……从哪里冒出来的？",
+			say = "What... are those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "看上去也不是天外之兽的风格。光荣女士，这是你们的某种兵器么？",
+			say = "They don't appear to be extradimensionals. Glorious, are they some weapon of yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,21 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "并非如此。这些物体……我们将其称之为「满月之蕾」。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9707070,
-			say = "它们是伴随着那场月亮陨石雨一同出现的，而且只出现在了皇家三岛周边。",
+			say = "Not quite. They are what we call the \"Buds of the Full Moon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +107,21 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "然后一直像今日这样时隐时现，出现和消失的规律我一直没搞清楚，不过每次出现之后数量都会变多一些。",
+			say = "They showed up around the time of the meteor shower long ago and appear exclusively on the Royal Islands.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9707070,
+			say = "They appear and disappear with no apparent regularity, and when they return, there's always more of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "最初只有几个，到了现在大概有三百多个？",
+			say = "Initially, there were just a handful. Now, I think there are around... 300?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王用列车扫描了一下，那些像萼片一样的东西是某种保护装置，本王探查不到里面的情况。",
+			say = "We scanned them with the train. Those sepal-like casings are likely a safety mechanism, and we have no idea what's inside them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "你们尝试过将其破坏么？",
+			say = "Have you ever tried to destroy them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "塞壬尝试进攻过，也成功破坏了一个。",
+			say = "The Sirens tried and failed to destroy even a single one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只是那次破坏行动引发了灾难性的爆炸，在摧毁塞壬修建的所有安全保障设施后，依然夷平了整片斯卡帕湾锚地。",
+			say = "However, the attempt did cause a devastating explosion that not only obliterated the Sirens' safety bunker, but also flattened the entire anchorage of Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "再之后，就没人打它们的主意了。",
+			say = "As you might expect, nobody dared touch them after that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "反正它们只是漂浮在半空中，除了看上去有压迫感之外，实际上不会做什么。",
+			say = "Despite their intimidating appearances, they simply float there, doing nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "相比之下，诸位请看，这里就是那台装置所在的第五无线通讯研究所了。",
+			say = "Putting them aside, over there is where the device is located – this is the Fifth Wireless Communications Laboratory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "贵族少女指了指不远处勉强能看出是某个大型建筑的残垣断壁。",
+			say = "Glorious META gestured toward a large building not far from there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“无线通讯研究所”？还真是个掩人耳目的好名字。",
+			say = "Wireless Communications Laboratory? That's a good cover name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "这应该是女王陛下的小趣味吧。",
+			say = "Her Majesty perhaps thought it was amusing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "现在想来，跨越世界与诸位盟友联络，确实也算得上是某种“无线通讯”了，",
+			say = "Now that I think about it, one could say that I managed to make contact with you thanks to a kind of wireless communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "因为维护状态很差，要进去调查恐怕需要费一番功夫。",
+			say = "The Laboratory is in a rather poor state of maintenance, so it would take a lot of work to search through it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所以我在出发时就调动了附近部队的重型破障机械前来支援。",
+			say = "For that reason, I mobilised some heavy obstacle-clearing machines from a force nearby when we departed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只是没想到女王之光号列车的速度这么快……还请诸位在此稍等片刻。",
+			say = "But, for better or worse, the train got here so fast that the machines haven't had time to do their work. Please wait for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "出发之时……等等、我的太阳船呢？！",
+			say = "When we departed... Wait, where is the Mesektet?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,20 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "直至此刻总督阁下才终于注意到，自己出发前下达命令跟随在列车之后的辉翼太阳船不见了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_gaotaqiangwei_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "自然是速度太慢被甩在后面咯~",
+			say = "Lion was sure she had ordered the Mesektet to follow the train after departure, and yet, it was nowhere to be seen now that she had arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +359,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别担心，本王一直用车载雷达盯着呢。它也就是速度慢了点，没出事，一会就到了~",
+			say = "It fell behind because it's just too slow.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_gaotaqiangwei_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Don't panic. I see it on the onboard radar and it's fine. It'll arrive sooner or later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "哼~列车虽快，我们还不是要一同在此处等破障机械的到来。",
+			say = "Hah. So we got here quickly only to have to wait for the machines to finish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "倒也不用干等，本王先从外部扫描一下好了。",
+			say = "We can do more than just wait. We shall perform a scan from the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "伊丽莎白·META启动了车载扫描仪，然后，她的脸色逐渐阴沉了下来。",
+			say = "Elizabeth META activated the train's scanner. Seeing the results, she made a gloomy expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你的脸色有点糟糕哦……伊丽莎白·META阁下，有什么不好的发现吗？",
+			say = "You look ill. Lady Elizabeth, have you discovered something unfortunate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "我找到那台装置了……它被放置在设施的地下结构中，结构完好。",
+			say = "We found the device. It's in the Laboratory's underground section.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "甚至还有部分防护系统在正常运行……",
+			say = "The section is in good structural condition. Why, even some of the security systems are still operating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但是……其中最关键的两个仪器，「追踪指针」和「不准确同步仪」不见了。",
+			say = "However... its two most important components are missing: The tracking indicator, and the inaccuracy synchroniser.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……不见了？也就是说……装置被人为破坏了？",
+			say = "Missing? Did someone damage the device?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "是，而且破坏者手段高明。",
+			say = "Yes, and whoever did so knew exactly what they were doing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这两个设备原本在装置完成后就会被封死在核心区域中，就算是建造者也不可能在不破坏装置外结构的基础上把它们取出来。",
+			say = "Those components were sealed inside the device when it was completed. Only its makers would be able to take them out without breaking the exterior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但是现在……装置外结构完好无损，放在内部的设备却消失了。",
+			say = "And yet, the exterior is perfectly intact, and the internals are gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "也不怪你们的伊丽莎白修不好它，她根本就不可能料到会出现这么匪夷所思的问题……",
+			say = "It's little wonder this world's Elizabeth couldn't fix it. She couldn't have anticipated such a confounding issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "……这明明是整个世界的希望，竟然是被人为破坏的。",
+			say = "So the world's hope was destroyed by human hands...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9707070,
-			say = "是谁？！你能查到是谁做的么？！",
+			say = "Who could have done this?! Can you locate the perpetrator?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……让本王试试。",
+			say = "...We shall try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "时间，仿佛在此刻停止了。",
+			say = "In that instant, time stopped.",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "——「审视」开始。",
+			say = "Begin examination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "周围的一切物体向每个方向快速展开，形成了无穷无尽的重影。",
+			say = "All the surroundings expanded in different directions, forming countless overlapping images.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "伊丽莎白·META则俯身，从重叠变化的「瞬间」中寻找着——",
+			say = "Elizabeth META hunched forward and began looking for the exact moment the crucial change happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "——唔。",
+			say = "Hrmh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "——很好，找到了。",
+			say = "Alright, there it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "让本王看看，究竟是谁犯下的此等恶行——",
+			say = "Let us see who committed this horrific deed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "「审视」理应还在进行，但放眼望去，四周只有一片虚无。",
+			say = "Her examination continued, but looking around, she saw only nothingness.",
 			bgm = "story-startravel",
 			typewriter = {
 				speed = 0.05,
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "……哈？",
+			say = "...What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

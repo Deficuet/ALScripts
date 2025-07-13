@@ -10,7 +10,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "呃…情况不妙…",
+			say = "Nnh... This isn't... looking good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "测试者α",
+			actorName = "Tester-α",
 			dir = 1,
-			say = "感受到了吗？这就是“进化”带来的代差，快点投降结束这场闹剧吧~",
+			say = "Have you had enough? This overwhelming power is the fruit that Evolution bears... Now surrender yourselves, so we can end this charade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "从来没有见过的奇怪飞机…这压倒性的性能差……",
+			say = "Those unusual planes... They must be 10, no, 100 times stronger than ours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "飞机已经被完全击落了…哎…要是这个时候有巨炮在的话…",
+			say = "What's more, nearly all our planes have been destroyed... We'll need the firepower of a battleship to penetrate this Siren's armor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "………{namecode:96}…你快走吧，我会尽全力掩护你的！至少…",
+			say = "... Zuikaku, turn your back and run. I'll keep the Siren occupied. At least one of us must make it out of here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
 			dir = 1,
-			say = "上次不是才说过吗，我怎么可能就这样丢下{namecode:95}姐和大家不管呢？",
+			say = "Didn't you hear me when I said I'm not gonna abandon anybody?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			dir = 1,
-			say = "不管怎样，我们都会战斗到最后一刻的！",
+			say = "I'll stay with you and fight to the very end...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			bgmDelay = 2,
-			say = "说得好！岂能在此止步不前！！？",
+			say = "Well said! Never retreat, never surrender - that is the tenet of the Sakura Empire!",
 			bgm = "story-7",
 			typewriter = {
 				speed = 0.05,

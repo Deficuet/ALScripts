@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "帕克菲克洋·？？？",
+			say = "Open ocean - Unknown coordinates",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提问，在海面上突然遭遇浓密的海雾之后，你们想到的第一件事是什么？",
+			say = "Fog appearing out of nowhere in an unremarkable part of the ocean and engulfing our fleet. Sounds quite familiar, does it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遮蔽环境的迷雾…视野受到极大限制…是迷航！",
+			say = "Without any idea of our heading, we'll get lost in no time... Wait, maybe our other instruments still work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迷雾之中，通常隐藏着未知，恐怖与危险……",
+			say = "Considering how abruptly that fog appeared, I believe we should expect to run into more anomalies shortly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐，你是想说塞壬对吧……同感。",
+			say = "I'll bet you anything that this is a Mirror Sea we're dealing with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！！会有塞壬冒出来么！",
+			say = "A Mirror Sea?! Are you sure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直接遇到塞壬，或者因为塞壬生成的海雾而迷航，总归会出现这两种情况之中的一个吧……",
+			say = "I'm all but certain. The first thing we should try to do is find and destroy the Mirror Sea control unit to break free from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至少要尽力避免迷航的情况……我们的航线怎么样，没有发生偏离吧？",
+			say = "There is another, simpler way: to keep sailing straight in one direction until we've broken past its boundary zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在离开本岛之后舰队一直严格按照作战计划给定的航线前进，直到海雾出现前应该没有发生偏差才对。",
+			say = "True. That's what we've been doing up to now anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们不觉得奇怪么？同样是去NA海域，为什么前·辈们的舰队可以走更近的苏彝士运河，而我们非得从阿非利加下面绕一大圈啊~",
+			say = "Gosh, it's almost like we were sent straight here to do Akagi's and Kaga's dirty work. They could've at least told us what we were getting into...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不会是她们害怕战功被我们抢掉，所以故意让我们走远路吧？",
+			say = "I bet they sent us the long way because they wanted to hog all the honors for themselves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前辈倒也不至于会做到这种地步啦，姐姐……而且为了保证两支舰队同时抵达，我们舰队不是比她们更先出发了么。",
+			say = "You know, we can use this path as an escape route in case things go awry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这倒也是……那也许她们只是单纯想让我们跑一个大圈，顺便替她们侦察一下沿途的危险？",
+			say = "Ah yes, an escape route with a Siren-occupied zone smack-dab in the middle of it. How strange nobody discovered it until we did! I'm sure it's all a coincidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………………………………",
+			say = "Enough chatting. I've finished checking on the equipment.…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果前辈们是这个打算的话，那算她们走运……我们大概真撞到镜面海域里了。",
+			say = "Well, someone had to find it sooner or later! Better us than someone far less prepared for battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是……………",
+			say = "Hmm, yes, my instruments are starting to go haywire. This is definitely a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不会吧，竟、竟然真的遇到了……言灵、这是难道就是言灵么！",
+			say = "This is not my lucky day. Not lucky at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等到了NA海域之后，一定要好好找前·辈们要点谢礼了，呵呵~",
+			say = "That makes two of us. Okay, Zuikaku, before we–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -399,7 +399,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，以为遭遇突发情况就会让我大意么！{namecode:96}，附近有塞壬舰队埋伏，看来是想趁我们还没摸清情况的时候来次突然袭击！",
+			say = "And like clockwork, here come the Sirens! It seems simply sailing out of here is not an option if they have anything to say about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是早有准备……大家提高警惕，准备战斗！",
+			say = "That leaves us with little choice but to fight! Get ready, folks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

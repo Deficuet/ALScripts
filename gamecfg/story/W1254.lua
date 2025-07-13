@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "正在进行搜寻作业的指挥喵随同舰队一起撤离了，搜寻结束。",
+			say = "A fleet and its assigned Meowfficers were withdrawn. Item retrieval stopped partway through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -46,7 +46,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			getProxy(DormProxy):AddTheme(var_1_7)
 			arg_1_0:sendNotification(GAME.SAVE_DORMTHEME_DONE)
-			pg.TipsMgr.GetInstance():ShowTips("保存成功")
+			pg.TipsMgr:GetInstance().ShowTips("Saved")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", arg_2_0.result))
 		end

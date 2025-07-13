@@ -10,27 +10,27 @@ return {
 			bgm = "story-richang-westdaily",
 			sequence = {
 				{
-					"在这片荒野中，有座曾经繁华一时的小镇。",
+					"A town once prospered in these wastes.",
 					2
 				},
 				{
-					"镇上的酒馆里飘着果汁味，那儿的厨师烤制的菠萝披萨也是一绝。",
+					"Its tavern was always filled with the rich smell of juice, and the pineapple pizza baked by the chef was said to be sublime.",
 					4
 				},
 				{
-					"她们说那个小镇有诅咒。",
+					"They say that the town was cursed.",
 					6
 				},
 				{
-					"要我说，那个镇上有故事。",
+					"But if you ask me, that wasn't a curse. It was a story.",
 					8
 				},
 				{
-					"毕竟，我就是在那里遇见了传说中的「指挥官」。",
+					"After all, that's where I met the legendary Commander.",
 					10
 				},
 				{
-					"——节选自《西部回忆录：序章》，大黄蜂著",
+					"– Excerpt from Hornet's \"Memoirs of the West: Prologue\"",
 					12
 				}
 			}
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "干枯的草团随着风的轨迹来到脚边，身旁的马匹凑近后打了个响鼻，又是一副无精打采的模样。",
+			say = "A tumbleweed rolls by my feet, blown by the wind. The horse next to me leans close and snorts once before resuming its listless demeanor.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -68,10 +68,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "荒野游侠",
+			factiontag = "Desert Ranger",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你也累了么？",
+			say = "Are you tired?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "不过马儿并不会回答问题，耳畔依旧只有呼啸的风，还有——",
+			say = "Of course, the horse doesn't answer. The only sound continues to be the howling of the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,11 +92,11 @@ return {
 			portrait = 108091,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
-			actorName = "？？",
+			factiontag = "Frontier Gunslinger",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大黄蜂，在今天太阳落山之前，你就会和这片沙地融为一体。",
+			say = "Hornet, you'll be dead in the sand by today's end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 			portrait = 107120,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
-			say = "是么？我希望你已经写好遗嘱了，鲱鱼。",
+			say = "Heh, is that so? I hope your will's up to date, Herring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,12 +121,12 @@ return {
 			portrait = 107120,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
-			say = "我要让你知道，谁才是这里唯一的“快枪手”。",
+			say = "I'll show you the real quick-draw champion around these parts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "话语声打破了荒原之上的宁静与萧瑟。",
+			say = "Two voices break the silence of the wilderness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,18 +148,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "循着话音传来的方向望去，两名少女对峙着，俨然处于一场决斗之中。",
+			say = "I follow the voices. Two cowgirls are facing each other, clearly in the midst of a duel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "靠近她们",
+					content = "(Try approaching.)",
 					flag = 1
 				},
 				{
-					content = "远离她们",
+					content = "(Mind your own business and leave.)",
 					flag = 2
 				}
 			}
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "即使在陌生的地界，也总要有一些冒险精神存在。",
+			say = "One mustn't lose their sense of adventure, even in unknown lands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "不靠近的话就无法确定对方是敌是友，不是么？",
+			say = "Besides, I won't know if they're friend or foe until I talk to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "贸然接近两个决斗的牛仔并不是什么明智的选择。",
+			say = "Approaching two people in the middle of a duel is hardly a wise decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "就在如此思考着，牵着身旁早已疲倦的马匹行进的时候——",
+			say = "I steel myself and pull the reins of my tired steed–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,12 +215,12 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "star_level_bg_176",
-			actorName = "大黄蜂&鲱鱼",
+			actorName = "Hornet & Herring",
 			dir = 1,
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "站住！",
+			say = "Hold it right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 			actor = 108091,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就站在那里，别动。你也不想胸前多几个窟窿，对吧？",
+			say = "Don't make any sudden moves~ Unless you want a hole blown through your chest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,13 +254,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，乖乖把手举高，站在那里。也别试图拔枪，因为我会比你更快。",
+			say = "Yeah, yeah, put those hands up~ Don't even think of reaching for your gun, either. I'm faster than you'll ever be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,10 +270,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "荒野游侠",
+			factiontag = "Desert Ranger",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这种情况下还是先不和她们起冲突为好，听她们的吧。）",
+			say = "(No point in fighting right now. Let's just obey orders for now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "看到我将双手抬起后，两名少女冲彼此点了点头，向我靠近。",
+			say = "After seeing that I've put my hands up, the two of them nod to each other and approach me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "名为鲱鱼的少女直接将手伸向了我的腰间，将我的左轮掏出后丢给了一旁的大黄蜂。",
+			say = "Herring reaches for my waist, takes my revolver, and hands it to Hornet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,12 +305,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，你知道的。在这种地方总归是小心为好。",
+			say = "Sorry, but I'd rather be safe than sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,10 +320,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "荒野游侠",
+			factiontag = "Desert Ranger",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我理解，不过它确实陪伴了我很长一段时间。",
+			say = "I understand how you feel, but that gun and I have come a long way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,25 +333,25 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "荒野游侠",
+			factiontag = "Desert Ranger",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "希望你们在确认这份不存在的威胁解除之后，早点将它还给我。",
+			say = "After you realize I'm clearly not a threat, I'd really like it back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别那么着急嘛，陌生人！总之让我先把你的子弹……",
+			say = "Now settle down a moment, stranger. First, let's empty that cylinder...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,13 +361,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？这个标志……范德赖特帮 (Van der Light Gang)？！",
+			say = "Hm? That's... the mark of the Van der Light Gang!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,12 +377,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么？这家伙是范德赖特帮的成员么？",
+			say = "What? Is this person with them?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,13 +392,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不会有错，枪上的这个标记能证明这家伙的身份。",
+			say = "There's no doubt about it. The mark on the gun proves it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,13 +408,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我记得……传言中只有这个帮派的创始人——「指挥官」的标记在枪上……",
+			say = "But the rumors say only the founder of the gang, the Commander, has a gun with that mark...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,12 +424,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也、也就是说……我们面前这个家伙很可能就是那个凭借自己的实力和智慧在最荒蛮的地方站稳了脚跟，",
+			say = "A-are you saying... that this is the Commander in front of us? Able to traverse the most dangerous places with just brain and brawn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,12 +439,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "成为一个传奇后又很快销声匿迹的，大名鼎鼎的「指挥官」！？",
+			say = "The one who disappeared right after becoming a legend? THAT Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,10 +454,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "荒野游侠",
+			factiontag = "Desert Ranger",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……剧本里没写出来，原来给我的是这种背景设定么。）",
+			say = "(This wasn't in the script, but I guess that was my backstory.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,23 +467,23 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳，那个，你是「指挥官」本人吗？",
+			say = "Ahem. Hey, are you really the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不是本人",
+					content = "Depends on who's asking.",
 					flag = 1
 				},
 				{
-					content = "需要签名么？",
+					content = "Want an autograph, or something?",
 					flag = 2
 				}
 			}
@@ -492,13 +492,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			optionFlag = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算你否认，我们也不会相信的啦！",
+			say = "Don't bother refusing, because I won't believe it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,14 +508,14 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			optionFlag = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！你一定就是指挥官！",
+			say = "That's right! This is definitely the real deal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,13 +525,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			optionFlag = 2,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以吗？那就麻烦你——等、等一下，这里也没有纸和笔吧！",
+			say = "You mean it? Okay–wait, I don't even have pen or paper!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,13 +541,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			optionFlag = 2,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然还是得去小镇上才行能让你给我签个名啊……",
+			say = "We'll have to wait 'til we're back in town...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,13 +557,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，指挥官为什么会来到这里？",
+			say = "Hmm... What brings you around to these parts anyway, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,10 +573,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在回答你的问题之前，我可以先问一下你们刚刚是为什么在决斗么？",
+			say = "Before I answer that, can you two tell me why you're dueling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,12 +586,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦，就是想和她分个高下而已，比一比谁拔枪的速度更快。",
+			say = "Ah, that was nothing. We just wanted to see who could draw their gun faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,27 +601,27 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过已经不重要了，对吧，大黄蜂？",
+			say = "Not that it matters now. Isn't that right, Hornet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错~！眼下更重要的是……指挥官，你要不要加入我们？",
+			say = "Heheh, yep! What's more important is... Commander, how's about you join us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,10 +631,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在开始这段旅程的时候，已经发誓不会再加入任何帮派了，也不想再卷入这些争斗。",
+			say = "When I started my journey, I vowed never to join another gang. I'm not interested in any more fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,13 +644,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈，你误会了！我们不是来拉拢你加入什么帮派的。",
+			say = "Ahaha! Don't worry about that! We're not inviting you to a gang!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,12 +660,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你看到了么，前面的那座小镇。",
+			say = "Look over there, Commander. There's a small town up ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "顺着少女手指所指的方向，隐约可以从沙尘中看到建筑的痕迹。",
+			say = "She points in a direction. The silhouettes of buildings are barely visible through the dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,11 +686,11 @@ return {
 			actor = 108091,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那里有比帮派争斗有趣数十倍的事情哦~？",
+			say = "Heheh. The stuff going on there is a hundred times more interesting than any gang war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,10 +700,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "What would that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "说话间，方才还晴朗的天空便开始转暗。",
+			say = "While we talk, the cloudless sky suddenly darkens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "原本萧瑟的风开始了咆哮，远方的沙尘即将席卷而来。",
+			say = "The wind roars chillingly. Sand whips up in the distance and begins closing in on the town.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,13 +735,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好……又是沙尘暴。",
+			say = "Oh, no... Another sandstorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,13 +751,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最近这里的沙尘暴多得有些不正常……算了，指挥官，你的马还能跑么？",
+			say = "They've been so common lately... Forget it. Commander, can that horse still run?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,10 +767,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能。",
+			say = "Sure can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,12 +780,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就骑上你的马，用最快的速度冲到那个镇子里找个避难所吧！",
+			say = "Then get on that horse, ride into town as fast as you can, and take shelter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,11 +795,11 @@ return {
 			actor = 108091,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "边境快枪手",
+			factiontag = "Frontier Gunslinger",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们镇上见！",
+			say = "We'll catch up with you later, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "她们冲我挥了挥手，然后骑上了被她们拴在一旁的马，顷刻间消失在扬起的沙尘之中。",
+			say = "The girls wave, jump onto their own horses, and ride bravely into the rising sand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,10 +820,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我也不能犹豫了。",
+			say = "I shouldn't hesitate, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "翻身上马，捋了捋它的鬃毛，用力夹住了马镫。",
+			say = "I climb on, stroke my horse's mane, and plant my feet firmly on the stirrups.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,10 +844,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "驾——",
+			say = "Yah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "向着沙尘中的小镇义无反顾地冲了过去。",
+			say = "Then, we rush toward the sand-mired town without a second thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

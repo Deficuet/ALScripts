@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>四　彼岸之援</size>",
+					"Return From the Beyond\n\n<size=45>4 Help From Across the Shore</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg8",
 			hidePaintObj = true,
-			say = "水面之上，御狐翩然起舞。",
+			say = "The Guardian Fox stood on the water's surface, performing a ceremonial dance.",
 			bgm = "theme-nagato-meta",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg8",
 			hidePaintObj = true,
-			say = "天空之上，星轨随之于流光中变动着。",
+			say = "Shooting stars coursed through the sky, their tails changing with the flowing light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg8",
 			hidePaintObj = true,
-			say = "一轮又一轮明月碰撞着，在扭曲中变为了流光的一部分。",
+			say = "Two moons hung in the darkness overhead, waxing and waning, becoming part of the flowing lights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg8",
 			hidePaintObj = true,
-			say = "终于，空中只剩下了两轮明月。",
+			say = "Eventually, all that remained in the dark night was those two moons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg8",
 			hidePaintObj = true,
-			say = "群星归位，仪式似乎迎来了尾声。",
+			say = "The ritual concluded, and the stars returned to their constellations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "……返魂仪式的准备？",
+			say = "...Are you preparing the Rite of Resurrection?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "一回来就看到了大手笔啊……",
+			say = "I return home, and I'm swiftly treated to quite the spectacle indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "借出力量就算了，至于帮到这种程度么？",
+			say = "I don't mind borrowing your strength, but is it necessary to help to this extent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "能让汝吃个大亏，还不能成为余重视的理由？",
+			say = "You suffered on account of me. You are deserving of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "此次「窥探」的结果如何？",
+			say = "Tell me, what were the results of your \"peeking\" this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "姑且算你是对的吧。",
+			say = "Precisely as you foresaw, Lady Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "不过她们就算再厉害，也不过是一群来自塞壬实验场的人而已。",
+			say = "But, no matter how strong they seem, they are still merely guinea pigs in the Sirens' experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "汝难道不是么？",
+			say = "Were you not once like them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "不再是了。不论你是否承认，我们与她们……在存在的「层次」上已经完全不同了。",
+			say = "Once, yes. Whether you admit it or not... we and them are completely different on an existential level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "那又如何？",
+			say = "What mean you to say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "——神，也是有强弱之分的。",
+			say = "I mean that even gods are not all equally powerful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "总而言之，我放弃报复计划了。但是，我也不打算支持你这个计划。",
+			say = "That aside, I have given up on my plan for revenge. However, I will not support your plan either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "我要走了，一段时间内都不会回来了。",
+			say = "For the time being, I am going to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "无妨，去做汝认定之事吧。",
+			say = "Very well. Do as you see fit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "吾等目标一致，纵有分歧，终将相会。",
+			say = "We share a goal, you and I. Though our paths to it may differ, we shall still meet at the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "告辞。",
+			say = "Farewell, Lady Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "需要我去盯着她么？",
+			say = "Shall I keep an eye on her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "罢了。吾等本就有各自做出选择的权利。",
+			say = "Nay. She has the right to make her own choices like anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "余无法真正约束汝等，汝等也无需对余言听计从。",
+			say = "I can neither exercise control over you, nor must you obey my every command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "{namecode:74:长门}大人……",
+			say = "But Lady Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "余只是实话实说罢了，汝不要在意。",
+			say = "Be not so tense. I speak naught but the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "相比{namecode:140:旗风}的计划，更重要的是吾等之事。",
+			say = "Know that our affairs are more important than those plans of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "既然余已经做出了选择，就该全力以赴。",
+			say = "My mind is made. We shall proceed forward with all we have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "实验场β的复杂情况汝也看到了，谨慎行动。",
+			say = "...You have witnessed what test site beta has weathered, Houshou. Act with due caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "自然。",
+			say = "Of course. I will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "对了，关于那个被称为“指挥官”的存在呢？",
+			say = "If you'll pardon my curiosity, though... What do you think about that \"Commander\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "汝是不是与余相同，脑海中也没有关于其的任何记忆。",
+			say = "You remember not your Commander, do you? As neither can I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "不错……对于我们来说，实在是件匪夷所思的事。",
+			say = "I do not... Truth be told, it's a very, very strange feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "因此，更要慎之又慎。",
+			say = "All the more reason for us to be cautious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "如果其真的与理事会某个不为人知的计划有关的话……",
+			say = "That one may be involved in the Council's secret plan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9705060,
-			say = "这件事再议吧。",
+			say = "Let us save this discussion for another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9706040,
-			say = "遵命。",
+			say = "Yes, ma'am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_italyv2_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰——————————！",
+			say = "KABOOM————————!!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "结果已确认，塞壬舰队全数击沉，作战结束。",
+			say = "I've confirmed a direct hit on the Siren target. Too easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "在我佣兵队长级巡洋舰阿布鲁齐公爵路易·迪·萨伏伊号面前，区区塞壬不堪一击。",
+			say = "Such a paltry foe was no match for me, Luigi di Savoia Duca degli Abruzzi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "实际上这些塞壬也确实是不堪一击的老旧的型号就是了……有趣。",
+			say = "Yeah... That thing seemed kinda puny...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "（是早先潜入陆间海的塞壬无法升级它们的舰队么…还是说…………）",
+			say = "(How did Sirens this weak even manage to slip into the Mediterranean in the first place...? Hmm...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好~我们取得了本次行动中的第一场胜利！向周围区域广播吧，塞壬威胁已经被撒丁帝国舰队清除，往来船队可以自由通航了。",
+			say = "Good. Prepare to let the other ships know that we have neutralized the Siren threat—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是————咦？通讯器里没有收到任何船舶回应。",
+			say = "You got it! ...Wait, huh? Is there something wrong with the communication device?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "嗯？不应该啊，这里的航线这么繁忙，再发一次试试看吧。",
+			say = "What do you mean? Try sending the message again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "唔………………不行，还是没有任何回应！",
+			say = "...It's still no good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这难道是…………",
+			say = "It's just like that intelligence report that Carabiniere sent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 608010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "镜面海域…………！",
+			say = "The coordinates where the fleet went missing...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从突如其来的海况变化、无法与外界通讯的通讯阻断，这里毫无疑问是资料记录中的镜面海域！！！！",
+			say = "(Th-that must be... this is a Mirror Sea that I've heard so much about... I've always wanted to see what it's like, hehehe...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？！这里就是镜面海域么！好厉害~！我还是第一次进来！",
+			say = "Noooo! Half of my navigator skills are completely useless in a Mirror Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "不光是你，对于我们所有人来说都应该是第一次……这是我们在陆间海中首次确认塞壬镜面海域的存在。",
+			say = "Looks like your predictions were correct, Littorio. Gioberti and the convoy entered into the Mirror Sea at this position, and that's when we lost contact with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呵呵，果然中奖了啊。",
+			say = "This is within my calculations. Veneto should be bringing reinforcements to our coordinates soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陆间海中的塞壬一直以来无法根除的原因是因为它们在海中存在据点，而塞壬的据点几乎可以认定就隐藏在镜面海域之中。",
+			say = "(Ships still pass through this area quite often. Nobody noticed anything out of the ordinary, at least until we arrived here.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "终于……我们也找到这里，总算有一个把它们一网打尽的机会了！",
+			say = "(This must mean... that they were waiting for us!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "大、大家快看北方！半空中好像有什么东西出现了！！",
+			say = "Everyone, look over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那些是………………海市蜃楼？",
+			say = "Is that... a sea mirage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "设备能量耗尽，这里已经没有任何有价值的东西了。",
+			say = "The device has shut down. It seems unlikely that we'll extract any more data from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "There's not much else we can do here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "Leave for now.",
 					flag = 1
 				}
 			}

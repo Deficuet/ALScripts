@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新春的冒险之王\n\n<size=45>一　总有计划！</size>",
+					"The Queen of Adventure\n\n<size=45>1 Ace Up Her Sleeve</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指~挥~官~！今天和飞云大人一起去冒险吧——",
+			say = "Commaaandeeer! It's time to embark on another adventure with Lady Yuen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "大门被推开，突然闯入的飞云打破了指挥室的宁静。",
+			say = "The door to my office swings open, and in comes Fei Yuen, shouting and breaking the silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉飞云，我今天还有工作没完成，等明天吧。",
+			say = "No can do, sorry. I still have work to do, so we'll have to save that adventure for tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "唔……明天明天，又是明天……",
+			say = "Hmph. Tomorrow, tomorrow, it's always tomorrow with you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "到底要飞云大人等多少个明天嘛！",
+			say = "You have some nerve, expecting Lady Yuen to wait a whole day for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "这样好了，让飞云大人来帮你处理工作吧！",
+			say = "Oh, I know! If work is the problem then I'll help you finish it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "等飞快完成工作后，指挥官再跟我一起去冒险~！",
+			say = "It'll be done before you know it, and then we can go on our adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听上去倒是个好主意，不过——",
+			say = "I could use the help, don't get me wrong, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不过？",
+			say = "But?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我要先考察一下你的工作能力。",
+			say = "First, I'll have to gauge your ability.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——很简单，回答上我的问题就好。",
+			say = "Don't worry, it's a simple test with just one question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "噢~没问题，尽管出题吧，指挥官！",
+			say = "I can do that! Ask away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，请听题——",
+			say = "Okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一个装满了水的厨房蓄水池有一个进水阀及三个口径相同的排水阀。",
+			say = "There's a kitchen sink filled with water. It has a tap and three drainage pipes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果同时打开进水阀及一个排水阀，则30分钟能把蓄水池排空。",
+			say = "While the tap is running, the sink can be completely drained in 30 minutes by opening one of the pipes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果同时打开进水阀及两个排水阀，则10分钟能把蓄水池排空。",
+			say = "Under the same circumstances, the sink can be completely drained in 10 minutes by opening two pipes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，关闭进水阀并且同时打开三个排水阀，需要多久才能排空蓄水池？",
+			say = "So, here's the question. The tap is running and the sink is full. If you open all three pipes, how long does it take for the sink to drain?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "……啊？",
+			say = "...What?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呃……欸…………",
+			say = "Err... Umm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "为什么会有人一边给水池加水一边给水池排水啊！",
+			say = "MY question is, who the HECK keeps the tap running if their goal is to drain the sink?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——那么，飞云大人的答案是？",
+			say = "That's beside the point. What's your answer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "欸嘿……我不知道！",
+			say = "My answer is... I dunno!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "这就是飞云大人的答案~怎么样，诚实也是难得可贵的品格哦！",
+			say = "I believe in saying \"I don't know\" if you don't know the answer! It's called sincerity, and it's a virtue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "所以飞云大人通过指挥官的考核了么！",
+			say = "How's that? Do I pass the test?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——回答0分，不予通过。",
+			say = "No, that's an F. I'm afraid I can't let you help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "呜……果然劝指挥官跟飞云大人去冒险没那么容易……",
+			say = "Aww... I had a feeling you'd be a tough nut to crack...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "但是飞云大人是不会放弃的！",
+			say = "But the last laugh shall be mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哼哼，在来找指挥官之前，我可是特意去请教了海天姐姐哦~",
+			say = "See, I got Master Hai Tien to teach me many things before I came here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "定会用古诗词把指挥官辩驳到无话可说，心甘情愿跟飞云大人去冒险！",
+			say = "I'm gonna argue you into submission using Empery poetry and proverbs! Then you'll HAVE to go with me on a grand adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "俗话说的好，今日事，今日毕，不能什么都留待明日。",
+			say = "Put simply, what needs to be done today needs to be done today! Don't leave anything for tomorrow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "正所谓“明日复明日，明日何其多。我生待明日，万事成蹉跎。”嘛~",
+			say = "Put poetically, \"The morrow follows the morrow, of which there are many. The one who waits for the morrow lets all be for naught.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这首古诗说的真好！",
+			say = "Man, that's deep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "对吧~那我们就赶紧……",
+			say = "Exactly! So let's be quick and–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来要更珍惜当下，所以今天的工作必须在今天完成才行！",
+			say = "As you yourself said, this needs to be done today. I can't afford to waste any time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉啦，飞云。今天没有时间陪你冒险了。",
+			say = "That means I can't go on adventures with you. Sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "咦？海天姐姐明明说……",
+			say = "Huh? But Master Hai Tien said...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "啊——海天姐姐骗我！",
+			say = "Oh! You sly devil, you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "既然如此……只能动用飞云大人的最终方案了！",
+			say = "Fine! Then I have to use the ace up my sleeve!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……竟然还有最终方案？",
+			say = "You still have more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "嘿嘿……这个方案的关键就在于留出悬念，不告诉指挥官哦~",
+			say = "Heehee... It's vital to keep it secret until it's time to reveal it. You can't know about it before then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "那……指挥官，飞云大人就先走一步啦~",
+			say = "I'm gonna leave now, but I'll be baaack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说完，飞云干净利落地离开了指挥室。",
+			say = "She turns around and leaves my office with no further antics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（居然……这么干脆就走了？事情肯定没这么简单……）",
+			say = "(No trickery or anything? She just... left? This doesn't feel normal.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（她在走之前，似乎往案台的茶壶上瞟了一眼。）",
+			say = "(She did glance at the teapot on my table before she left, though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难道说这壶茶……）",
+			say = "(Did she... put something in it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "将茶水倒入杯中，看上去颜色并无异常，不过闻起来的味道似乎有些……",
+			say = "I pour the liquid into a cup. The color looks normal, though the aroma smells a bit odd.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "思考一番后，还是选择将其一口饮下——",
+			say = "After thinking it through, I decide to take just a small sip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "噗……！",
+			say = "Pffftttt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是怪味！！！",
+			say = "This tastes like guaiwei!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

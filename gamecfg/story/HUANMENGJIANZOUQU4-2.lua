@@ -12,7 +12,7 @@ return {
 			actor = 202270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾教国的诸位，贵安。",
+			say = "Good day to you, ladies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "贵安，皇家女仆队的诸位，欢迎来到圣米歇尔山。",
+			say = "Good day to you as well. Welcome to Mont-Saint-Michel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202270,
-			say = "早就听闻鸢尾圣米歇尔山圣堂的宏伟与壮丽，今日一见果真名不虚传。",
+			say = "I've heard so much about this grand Basilica. Seeing it with my own two eyes now, I can say it's every bit as splendid as they say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "多谢夸奖，各位客人能够喜欢就好。",
+			say = "It is quite the sight. I'm glad to hear you're so fond of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "咳……赫敏，好像不是应该互道寒暄的时候。",
+			say = "Ahem. Hermione, that's enough small talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202270,
-			say = "欸~确实如此，是我疏忽了。",
+			say = "Oh, right! Do forgive me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202270,
-			say = "那么鸢尾教国的诸位，就让我们开始正式的演习日程吧？",
+			say = "Then without further ado, let's begin, ladies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "诸位，请——",
+			say = "Of course. Good luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

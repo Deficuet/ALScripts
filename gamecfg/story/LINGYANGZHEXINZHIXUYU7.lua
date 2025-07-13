@@ -11,12 +11,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-3",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最近看到了饭团的制作方法哦。",
+			say = "I saw someone make rice balls a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也想做饭团试试看。",
+			say = "I wanna try making one by myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,12 +59,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "不过我有点纠结放什么馅料进去呢……",
+			say = "What filling should I put in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "从最简单的开始尝试吧？",
+					content = "How about an easy one to work with?",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "把喜欢的馅料都放进去",
+					content = "Why not just put in all the fillings you like?",
 					type = 2
 				}
 			}
@@ -87,12 +87,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，也是哦。",
+			say = "Yeah, good idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一步一步来确实比较好呢。",
+			say = "I should slowly work my way up toward the harder ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我会努力尝试一下的~争取让{tb}也觉得我捏的饭团好吃。",
+			say = "I'll keep trying to make a rice ball that you love!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,12 +133,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？要是真的把喜欢的馅料都放进去的话……",
+			say = "Huh? If I put in everything I like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,12 +149,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……说不定能做出独一无二的饭团呢。",
+			say = "That might create a one-of-a-kind rice ball!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那等我做好了，{tb}一定要尝尝看哦。",
+			say = "Once I'm finished, you've absolutely got to try it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

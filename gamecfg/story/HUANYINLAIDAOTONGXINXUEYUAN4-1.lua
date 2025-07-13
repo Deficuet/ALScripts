@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "从童趣艺体楼离开后，闪耀星星小队很快进入童心教学楼展开搜查。排查过后，仅剩一间教室有异常。",
+			say = "The Twinkling Little Stars went straight for the school building and started looking around. In the end, they only found anomalous activity in one classroom.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "隔着紧闭的门，教室中传来了“哒哒”的不规则响动。",
+			say = "Now they stand at the firmly shut door. Something on the other side is making an eerie scratching noise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "暗黑镇魂曲可真喜欢用深渊回响这种招数呢！事不过三，吾可不会害怕了！",
+			say = "Those damned Dark Requiem conspirators are employing the Abyssal Noise! However, they are sorely mistaken if they think that will scare me again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "噗……你刚刚是承认自己之前在害怕了吧~？",
+			say = "Heh. \"Again\"? So it has scared you before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "啊啊啊——！我才没有害怕！我、吾，吾开门进去了哦！",
+			say = "H-hey! \"Scared\" is a strong word! I was only mildly perturbed! Come on, let us head in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,10 +111,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:537:Z43}，冷静一点。保持住阵型，小心行事。",
+			say = "Settle down, Z43. Stay in formation and move in carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}谨慎地推开了门，教室里面堆积满了积木，堆积高度甚至超过了她们的身高。",
+			say = "U-31 cautiously opens the door. Inside the classroom, there is a massive stack of wooden blocks, so tall it even towers above the girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "积木堆上，一只异常石膏喵在黑板上写写画画，发出了刚刚在教室外听见的声响。",
+			say = "At the top stands a lone Meowfficer bust, writing something on the blackboard. This is the source of that eerie scratching sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,11 +144,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "趣味玩乐·石膏喵",
+			actorName = "Meowfficer Bust of Playtime",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "——————！喵！",
+			say = "Meow! Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "异常石膏喵发现了闪耀星星小队的到来，惊叫一声，一头扎进了积木堆里，不见了。",
+			say = "As soon as the Meowfficer becomes aware of the girls, it jumps inside the heap of wooden blocks and hides.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "指挥官，异常的石膏喵又出现了！",
+			say = "Commander! Found another one of those Meowfficer busts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,10 +207,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "找到它。",
+			say = "Go after it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "邪恶的黑影哦，居然藏匿于荒芜的烈焰之原，吾的魔眼已经全部看穿了。",
+			say = "Try as you might, evil spirit! My demon eye has already seen where you went in this blazing sea of endless nothingness!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "……它就是在我们眼前跳进积木堆里的吧，快点把它找出来吧。",
+			say = "Yeah, we all know where it is – in the block pile. Can we start looking now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "哦，好……",
+			say = "Oh. Right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "闪耀星星小队艰难地爬上了积木堆，开始翻找异常石膏喵。",
+			say = "The team climbs onto the pile and starts looking for the sneaky Meowfficer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "探测棒，没反应……",
+			say = "Dowsing rod... No response.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "我抓到了！这个软软的布料，肯定是指挥喵的帽子吧！",
+			say = "I've got something! Feels soft to the touch... It's gotta be the Meowfficer's hat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "{namecode:527:小圣地亚哥}一把将抓到的东西揪了出来，自己也失去平衡仰面倒在积木堆上。",
+			say = "Li'l Sandy pulled out the thing under the blocks with such force that she lost her balance and fell flat on her butt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请、请不要抓着我的围裙不放。",
+			say = "Please don't pull on my apron! I don't want it to tear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "欸？是贝法！找到贝法了，我真的超厉害的吧！",
+			say = "Oh, it's Little Bel! Not the catch I was expecting, but I'll take it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "长长的，细细的……是尾巴？",
+			say = "Long... Silky... Tail?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "埃尔德里奇一把将抓到的东西揪了出来。",
+			say = "Eldridge, meanwhile, uproots something else as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207130,
-			say = "呜哇哇！不要抓淑女的头发，好疼！",
+			say = "My word! Don't pull on a lady's hair – it's so uncouth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "抓到了硬硬的东西……这次肯定是了吧，毕竟那只指挥喵看上去是石膏做的！",
+			say = "I feel something firm! Those Meowfficer busts look pretty hard, so this has GOT to be the one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}一把将抓到的东西揪了出来。",
+			say = "U-31 pulls out the object from among the wooden blocks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "那是{namecode:432:斯佩}的铁爪爪……",
+			say = "Sorry. That's just my iron claw.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "就这样，闪耀星星小队误打误撞地将小贝法、小可畏、小{namecode:432:斯佩}营救了出来——",
+			say = "While they failed to find the Meowfficer, they did manage to find Little Bel, Little Formidable, and Little Spee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "稍作休息，大家准备离开时，却发现教室门与之前的音乐教室门一样，紧紧的与墙壁融为了一体。",
+			say = "After a short break, the girls all attempt to leave the classroom. Much like last time, though, the door has fused itself shut with the walls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "看来这次和之前一样，又要在房间内寻找线索了呢。",
+			say = "Well, we're doing this again. The key to getting out should be somewhere in here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我带着设备在房间里巡逻，你看到在意的地方就喊停我哦~",
+			say = "Commander, I'll take the camera for a tour around the room. Tell me if you see anything interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……房间之中，除了堆满的积木，只剩下异常石膏喵留在黑板上的内容能称为有效线索了。）",
+			say = "(Hmm... As far as clues go, all we really have are the wooden blocks and the writing the Meowfficer left on the blackboard.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黑板上写的是……“积木课”，还画了很多积木的造型图。",
+			say = "The blackboard says, \"Building with blocks,\" and there's a drawing of them stacked atop each other.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果需要遵循一定的条件才能开门，那要不要先试着仿搭黑板上的积木造型？",
+			say = "Supposing that you must satisfy a condition before you may leave, perhaps we should start by arranging the blocks as shown in the drawing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在音乐教室中，大家并没有演奏正式的乐谱，而是随心所欲地胡乱演奏。）",
+			say = "(They didn't need to follow a template in the music room, they just played whatever they wanted.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（所以这次，也不应该按照图纸循规蹈矩地搭建积木才对……）",
+			say = "(If this follows the same rule, shouldn't they just stack the blocks however they want?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不必理会图纸，大家按照自己的喜好自由地搭建积木吧。",
+			say = "First, I want to try something. All of you, go ahead and arrange the blocks however you like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "自由地搭建积木……",
+			say = "However we like, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "……积木，喜欢……指挥官。",
+			say = "Blocks... Like... Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "大家最喜欢的，肯定都是指挥官……",
+			say = "We like the Commander more than anyone else, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "那我们就用积木搭一个“指挥官”吧~！",
+			say = "Let's build a wooden block Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "唔……比起漆黑之翼，吾确实也更喜欢指挥官……",
+			say = "I must admit, I do like the Commander more than my wings of dark...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "……欸~指挥官大人还真是受欢迎呢~",
+			say = "Wooow. You hear that, my Commander? You're adored by all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "那就让我们一起搭建一个巨大的指挥官吧~！",
+			say = "I'm behind this idea. I will make a great wooden block statue to demonstrate my love!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "（哎呀……看来以后要进一步“好好保护”指挥官了……）",
+			say = "(Ruh-roh. Sounds like I'll need to \"keep a close eye\" on the Commander for the near future...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "（不过现在还是先合作把积木搭好~赶紧出去，然后回到指挥官的身边才行~嘻嘻。）",
+			say = "(But right now, it's building time. Gotta be quick so I can be where I'm needed – by the Commander's side!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "少女们开始着手积木的搭造，逐渐沉浸在了玩乐的氛围中。",
+			say = "The little shipgirls quickly got to work. It quickly dawned on them how fun the act of stacking blocks actually was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "那我要给指挥官的手上搭一个心心~",
+			say = "Now to put a heart in the Commander's hands...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -886,7 +886,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207130,
-			say = "这个动作不够优雅，手要这样摆~这样就很符合礼仪啦~",
+			say = "I say, this pose is somewhat lacking in grace. The hands should be more like... this! Even a statue should be well-mannered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "指挥官遗落的翅膀！吾已经为其寻回了！",
+			say = "I've found you, long-lost wing! I shall now return you to where you belong – on the Commander's back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,7 +922,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "指挥官的头发走势搭错啦！这个应该朝左边，这个应该朝右边……",
+			say = "Wait, the hair's going the wrong way! This bit should go left, and this part goes right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "在一番讨论和搭造后，积木“指挥官”终于完成了。",
+			say = "With much merry collaboration, the girls finish their blocky statue of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -951,7 +951,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "大功告成！哼哼~指挥官快看，这个“巨大指挥官”超厉害的吧！",
+			say = "Aaand done! Look and be amazed, Commander! We made a mega version of you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哇哦……这个“巨大指挥官”的积木雕塑，非常有艺术性啊。",
+			say = "Whoa! That Mega-Mander is peak art!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -986,7 +986,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "……你还懂这些？",
+			say = "I never knew you put any points into art appreciation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们看，在雕塑手中那团怪异又扭曲的圆球，仿佛象征着聪明绝顶的指挥官所拥有的禁忌知识。",
+			say = "I mean, just look at that warped orb in the Commander's hands! It's a metaphor for the forbidden knowledge endowed to our supremely wise leader!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "那个是爱心哦！",
+			say = "Uhh... that's a heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1038,7 +1038,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "爱、爱心……？",
+			say = "Wh-what? A... heart?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那雕塑背后那些象征未知与神秘的奇怪挂饰呢？",
+			say = "Then explain those peculiar ornaments on the statue's back! What arcane unknowns do they represent?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1075,7 +1075,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "是，天使的翅膀……",
+			say = "Those are angel wings...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1094,7 +1094,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……哈，哈哈哈……",
+			say = "A-angel wings... Ahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1108,10 +1108,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我在你们眼中究竟是什么形象啊。",
+			say = "Is THIS really how you all view me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "指挥官在我们眼中就是这样的~我觉得很可爱！嘿嘿~",
+			say = "More or less! Looks pretty cute, doesn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1143,7 +1143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "还剩下最后一块积木，可以放在哪里呢？",
+			say = "There's still one block left... What should we do with it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "猫咪形状的积木……要不放在肩膀上当宠物？",
+			say = "It LOOKS Like a Meowfficer, so we could put it on the shoulder like a pet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,7 +1176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "{namecode:459:小斯佩}抱起了最后一块“积木”，它的样子像极了指挥喵。",
+			say = "Little Spee puts down the final \"block\" – which then comes to life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "啊！是异常石膏喵！",
+			say = "Hey! That's no block, that's the Meowfficer bust!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,11 +1202,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "校园广播",
+			actorName = "PA System",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "…滋…趣味玩乐…滋…趣味成长…滋…",
+			say = "BZZT... PLAY LIKE INNOCENT CHILDREN... BZZT... FIND YOUR OWN HOBBY...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1214,11 +1214,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "趣味玩乐·石膏喵",
+			actorName = "Meowfficer Bust of Playtime",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "——————！喵！",
+			say = "Meow! Mreow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1245,7 +1245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "用积木一决胜负吧！",
+			say = "Let's fight it using blocks!",
 			painting = {
 				alpha = 0.3,
 				time = 1

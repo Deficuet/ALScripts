@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"在樱花纷飞的那天之后\n\n<size=45>五  保持笑容吧</size>",
+					"After the Flowers Bloomed\n\n<size=45>5 Smiling Faces</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "第二天，在仪式开始时准时来到了那片空地。",
+			say = "The next day, I headed out for the vacant lot again. The ritual was about to begin.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "殿下，{namecode:157}和{namecode:28}要开始仪式了，请在这边观看哦。",
+			say = "Milord, Harutsuki and Yoizuki will be carrying out the ceremony. Please watch them from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（神、神明大人啊……请保佑{namecode:157}吧~）",
+			say = "(Gods, please watch over me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:157}，闭上眼睛的话就没法好好挥大币了。",
+			say = "Harutsuki, you won't be able to wave your staff around properly if you keep your eyes shut.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来{namecode:157}还是有点紧张呢。",
+			say = "...I see that Harutsuki has yet to overcome her nerves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按我教的那样做应该是没问题的，剩下的就是要沉着冷静……只能让她慢慢去习惯了。",
+			say = "I know she's more than capable of following what I taught her, it's just a matter of getting her to calm down... And that will take time and experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来……要退后一步鞠躬两次……咦？两次还是三次……？",
+			say = "Ah, um... Next, bow twice... Wait, huh? Was it, two or three...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了{namecode:157}？为什么不动了？",
+			say = "What's with you, Harutsuki? Get back here already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "宵、{namecode:28}……怎么办，接下来该做什么……",
+			say = "Y-Yoizuki... I can't seem to remember... What do I dooo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这里要鞠躬两次，拍手两次。最后再鞠躬一次",
+			say = "...Bow twice, then clap twice. Then one final bow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "最后，{namecode:157}在{namecode:28}的提示下，磕磕绊绊地完成了仪式。",
+			say = "In the end, Harutsuki managed to get through the ritual with Yoizuki's help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两个人都辛苦了呢。茶已经准备好了，好好休息一下吧。",
+			say = "Well done, you two. Please rest while I prepare the tea.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……太失败了 ……",
+			say = "Ugh... I botched the whole thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别这么说啦。第一次能做成这样很棒了。{namecode:157}已经非常好地完成了仪式哦。",
+			say = "That's not true. You did commendably for your first time, and the ritual was completed just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……",
+			say = "B-but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且——快看看你的茶吧~",
+			say = "Besides, take a look at your tea~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……啊，是竖起来的茶柱！",
+			say = "Ah! The tea stalk is floating upright!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定神明大人看到了你的努力，所以给了你吉利的意象呢。",
+			say = "The gods are pleased by your efforts, and this auspicious omen is proof of that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神明大人……谢谢您！！",
+			say = "How grateful I am to thee, O Great Gods!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个……我也能拿去给{namecode:79}姐看看吗？",
+			say = "Um, is it okay for me to show this to Yamashiro?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，去吧去吧~",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,23 +421,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "送走了高高兴兴离开的{namecode:157}后，{namecode:78}转过身来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "你说刚刚的茶柱？那是为了让{namecode:157}打起精神而准备的哦。",
+			say = "After seeing off the reinvigorated Harutsuki, Fusou turned back towards me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +437,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟她可是尽力完成了这次的仪式，如果能让她获得信心，下一次也能成功就好了。",
+			say = "About that... Of course, I prepared it so that Harutsuki would feel better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,22 +453,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说我很温柔吗？呵呵。只要大家都能保持笑容，我就会觉得非常的幸福哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "这是她发自内心的想法——从她的表情中就可以看出来。",
+			say = "Besides, it's an undeniable fact that she gave it her all to carry out this ritual. More important is that she gains the confidence to succeed next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +469,38 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭神仪式也顺利结束了，殿下如果有时间的话，要不要明天来赏樱——",
+			say = "An act of kindness, you say? Hehe. I'm happy as long as I can see a smile on everyone's faces.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "I could tell that Fusou genuinely believed this from the bottom of her heart. Her kindness was reflected upon her gentle expression.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now that the ritual is over, are you still in the mood for our little tour tomorrow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_room",
 			soundeffect = "event:/ui/dalei",
 			dir = 1,
-			say = "就在{namecode:78}说出口的瞬间，天空传来轰隆隆的打雷声。",
+			say = "Just as Fusou opened her mouth, I heard the roar of thunder from the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "抬头看去，刚刚还挂着的太阳在不知不觉间已经彻底藏入乌云之后了……",
+			say = "When I looked towards the sky, the sun was beginning to be covered with dark clouds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

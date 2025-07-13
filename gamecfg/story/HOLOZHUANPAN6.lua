@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "指挥官大人，辛苦百鬼！余已经把饭做好了，是不是很能干？嘿嘿，一起开动吧！唔~好吃！",
+			say = "Nakirificent work, Commander! Ay have prepared us a light meal. Heheh, aren't Ay attentive? You may partake with me in the eating of it. Mmh, delicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "或许是印第安纳一行人的出现确实是意料之外的变故。",
+			say = "The masked figure didn't put up too much of a struggle, as the arrival of Indiana's fleet caught her by surprise.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "头戴狐面的身影在象征性抵抗了一会后，如同上次一般随着一阵樱花色的烟雾消散了。",
+			say = "She fought back merely for form's sake for a while, ultimately disappearing in a pinkish mist just like last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "失去指挥者的舰队纷纷溃败，很快就与幻境本身一同消失了。",
+			say = "With their command unit now gone, the rest of her fleet quickly fell into chaos and was disposed of. The illusion's grip on the island disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "当众人终于回到圣诞岛后，时间已经来到了黄昏时刻。",
+			say = "By the time the shipgirls returned to Kiritimati, it was already evening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "……这里是，圣诞岛。没想到幻境真能如此逼真……",
+			say = "We're back to Kiritimati! Gosh, that was TOO realistic for just a dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "非常抱歉……我们身为驻防舰队，竟犯下了如此错误……",
+			say = "We're sorry we failed you like this – by falling for the illusion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101020,
-			say = "如果不是你们前来及时支援……",
+			say = "If you hadn't been here, I fear we wouldn't have survived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无需自责。这一切都怪敌人阴险，与你们无关。",
+			say = "Don't feel bad about it. You fought valiantly against an extremely cunning enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实我们在来之前也中招了哦，多亏了重樱的{namecode:157:春月}和{namecode:292:四万十}小姐及时帮助，我们才成功脱困的。",
+			say = "Truth be told, we also fell for the illusion and had to be saved. In our case, it was Shimanto and Harutsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "我们遇到的是真正的重樱舰队，不是幻境中的那些哦~",
+			say = "Those two were the real deal. Not like that fake fox lady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是重樱舰队为什么会……",
+			say = "The Sakurans saved you? Why were they in Samoa?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "因为她们同样遭受了不明势力的袭击，就和我们一样。",
+			say = "They were also attacked by an unidentified enemy, just like we were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕现在整片帕克菲克洋中的局势都不太乐观。",
+			say = "Also, the enemy disguises themselves as Sakurans, so they wanted to get to us first before any misunderstandings could happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别担心，一步一步来。只要我们还在战斗，总会有办法的。",
+			say = "Worst-case scenario, the whole Pacific has fallen for this illusion... but as long as we can keep fighting, things'll be okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "I hope so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101430,
-			say = "有一个问题，我从刚才就想问了！",
+			say = "Oh, I've got a question!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101430,
-			say = "那个帮助你从天而降的装置是什么呀，真是太帅了！",
+			say = "You used some cool portal thingy to get here, right? What was that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "那个啊……那座鸟居是由{namecode:292:四万十}小姐给我们的符咒创造的，原本用途是帮助我们进入幻境。",
+			say = "Hahahah! That was a torii gate made with a special talisman Shimanto gave us. They're for getting inside these illusory dimensions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "不过之前对峙的时候，贝尔有了些突发奇想，想用符咒重现一下在漫画中看到的其他用途，没想到真做成了。",
+			say = "And also for removing the effect the illusion has on your mind. We didn't even need to this time, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是可靠的贝尔~",
+			say = "Oh yeah! We didn't even use 'em.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿，真正厉害的是{namecode:292:四万十}小姐啦。我只是看了些电影和漫画而已……",
+			say = "I didn't really do anything \"cool,\" I just copied what I saw in a movie once...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "诸位，打断一下，目前针对圣诞岛全岛及其周边海域的侦察工作已经结束。",
+			say = "If you'll excuse me for butting in, I've finished reconning the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就现状而言，圣诞岛的所有关键区域均已沦陷。",
+			say = "I'll cut to the chase. Most of the automated production facilities have fallen into enemy hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "从照片上来看，敌人正在以此为中转站囤积兵力，并作为进攻周边岛屿的跳板。",
+			say = "Also, as far as I can see, they're using Kiritimati as their base of operations to dispatch forces to other islands across the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "此前袭击我们的敌人，有99.95%的概率就是从此处出发的。",
+			say = "I estimate there's a 99.95% chance the fleet that attacked Samoa came from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "这是一场有预谋、有组织的大规模军事行动。我们不能再全程被敌人牵着鼻子走了，必须尽快拿回主导权才行。",
+			say = "Then they're running a coordinated operation here. We can't let them just walk all over us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "杜威跟我前去夺回岛屿的指挥中心，想办法与上级指挥部门取得联络。",
+			say = "Dewey, you're coming with me. We'll recapture the island's command facilities and get in touch with HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "其余人逐个扫荡敌方占据目标，彻底夺回圣诞岛！",
+			say = "If anything gets in our way, we'll smash it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

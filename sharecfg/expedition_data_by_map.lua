@@ -32,26 +32,270 @@ pg.expedition_data_by_map = setmetatable({
 		213,
 		10000,
 		70000,
-		80000,
-		90000,
-		90001,
+		1040000,
+		1040001,
+		1040010,
+		1040011,
+		1050000,
+		1050010,
+		1070100,
+		1070200,
 		1080000,
 		1080010,
-		1160001,
-		1160011,
+		1100000,
+		1100001,
+		1100010,
+		1100011,
+		1100013,
+		1110001,
+		1110002,
+		1110011,
+		1110012,
+		1110021,
+		1120001,
+		1120002,
+		1120011,
+		1120012,
+		1120021,
+		1130000,
+		1130100,
+		1140001,
+		1140002,
+		1140011,
+		1140012,
+		1140021,
+		1150001,
+		1150002,
+		1150011,
+		1150012,
+		1150021,
+		1170001,
+		1180001,
+		1180002,
+		1180011,
+		1180012,
+		1180021,
+		1190000,
+		1190001,
+		1190010,
+		1190011,
+		1190021,
+		1200100,
+		1210001,
+		1210002,
+		1210011,
+		1210012,
+		1210021,
+		1220001,
+		1220021,
+		1230001,
+		1230002,
+		1230011,
+		1230012,
+		1230020,
+		1230021,
+		1240001,
+		1240002,
+		1240011,
+		1240012,
+		1240020,
+		1240021,
+		1250001,
+		1250002,
+		1250011,
+		1250012,
+		1250025,
+		1250026,
+		1250022,
+		1260001,
+		1260002,
+		1260011,
+		1260012,
+		1260025,
+		1260026,
+		1270001,
+		1280001,
+		1280025,
+		1280026,
+		1290001,
+		1290002,
+		1290025,
+		1290026,
+		1300001,
+		1300002,
+		1300011,
+		1300012,
+		1300025,
+		1300026,
+		1310001,
+		1310002,
+		1310011,
+		1310012,
+		1310025,
+		1310026,
+		1320001,
+		1330001,
+		1330002,
+		1330011,
+		1330012,
+		1330025,
+		1330026,
+		1340001,
+		1340002,
+		1340011,
+		1340012,
+		1340021,
+		1350001,
+		1360001,
+		1360002,
+		1360011,
+		1360012,
+		1360025,
+		1360026,
+		1370001,
+		1380001,
+		1380002,
+		1380011,
+		1380012,
+		1380025,
+		1380026,
+		1390001,
+		1400001,
+		1400002,
+		1400011,
+		1400012,
+		1400020,
+		1400021,
+		1410001,
+		1410002,
+		1410011,
+		1410012,
+		1410020,
+		1410021,
+		1420001,
+		1430001,
+		1430002,
+		1430003,
+		1440001,
 		1450001,
 		1450002,
 		1450003,
+		1460001,
+		1460002,
+		1460011,
+		1460012,
+		1460025,
+		1460026,
+		1470001,
+		1470002,
+		1470011,
+		1470012,
+		1470025,
+		1470026,
+		1480001,
+		1480002,
+		1480011,
+		1480012,
+		1480025,
+		1480026,
+		1490001,
+		1490002,
+		1490011,
+		1490012,
+		1490025,
+		1490026,
+		1500001,
+		1500002,
+		1500011,
+		1500012,
+		1500025,
+		1500026,
+		1520001,
+		1520002,
+		1520011,
+		1520012,
+		1520025,
+		1520026,
+		1530001,
+		1530002,
+		1530011,
+		1530012,
+		1530025,
+		1530026,
 		1540001,
 		1540002,
 		1540003,
+		1550001,
+		1550002,
+		1550011,
+		1550012,
+		1550025,
+		1550026,
+		1560001,
+		1560002,
+		1560011,
+		1560012,
+		1560025,
+		1560026,
+		1570001,
+		1570002,
+		1570011,
+		1570012,
+		1570025,
+		1570026,
+		1580001,
 		1590001,
 		1590002,
 		1590003,
 		1590004,
+		1600001,
+		1600002,
+		1600011,
+		1600012,
+		1600025,
+		1600026,
+		1610001,
+		1610002,
+		1610011,
+		1610012,
+		1610025,
+		1610026,
+		1620001,
+		1620002,
+		1620011,
+		1620012,
+		1620025,
+		1620026,
+		1630001,
+		1630002,
+		1630003,
+		1640001,
+		1640002,
+		1640011,
+		1640012,
+		1640025,
+		1640026,
+		1650001,
+		1650002,
+		1650011,
+		1650012,
+		1650025,
+		1650026,
+		1660001,
+		1660002,
+		1660011,
+		1660012,
+		1660025,
+		1660026,
 		1670001,
 		1670002,
 		1670003,
+		1680001,
+		1680002,
+		1680011,
+		1680012,
+		1680025,
+		1680026,
 		1690001,
 		1690002,
 		1690003,
@@ -277,14 +521,19 @@ pg.expedition_data_by_map = setmetatable({
 		2200100,
 		2200110,
 		2200120,
-		2200130
+		2200130,
+		9920001,
+		9920002,
+		9920011,
+		9920012,
+		9920021
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.expedition_data_by_map = {
 	{
 		map = 1,
-		name = "虎！虎！虎！",
+		name = "Tora! Tora! Tora!",
 		level_limit = 1,
 		type = 1,
 		anchor = "",
@@ -334,7 +583,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 2,
-		name = "珊瑚海首秀",
+		name = "Battle of Coral Sea",
 		level_limit = 5,
 		type = 1,
 		anchor = "",
@@ -384,7 +633,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 3,
-		name = "决战中途岛",
+		name = "Midway Showdown",
 		level_limit = 10,
 		type = 1,
 		anchor = "",
@@ -441,7 +690,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 4,
-		name = "所罗门的噩梦上",
+		name = "Solomon's Nightmare Pt. 1",
 		level_limit = 15,
 		type = 1,
 		anchor = "",
@@ -508,7 +757,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 5,
-		name = "所罗门的噩梦中",
+		name = "Solomon's Nightmare Pt. 2",
 		level_limit = 20,
 		type = 1,
 		anchor = "",
@@ -577,7 +826,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 6,
-		name = "所罗门的噩梦下",
+		name = "Solomon's Nightmare Pt. 3",
 		level_limit = 25,
 		type = 1,
 		anchor = "",
@@ -656,7 +905,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 7,
-		name = "混沌之夜",
+		name = "Night of Chaos",
 		level_limit = 30,
 		type = 1,
 		anchor = "",
@@ -741,7 +990,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 8,
-		name = "科曼多尔海战",
+		name = "Battle Komandorski",
 		level_limit = 35,
 		type = 1,
 		anchor = "",
@@ -828,7 +1077,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 9,
-		name = "库拉湾海战",
+		name = "Battle of Kula Gulf",
 		level_limit = 40,
 		type = 1,
 		anchor = "",
@@ -925,7 +1174,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 10,
-		name = "科隆班加拉岛夜战",
+		name = "Battle of Kolombangara",
 		level_limit = 45,
 		type = 1,
 		anchor = "",
@@ -1028,7 +1277,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 11,
-		name = "奥古斯塔皇后湾海战",
+		name = "Empress Augusta Bay ",
 		level_limit = 70,
 		type = 1,
 		anchor = "",
@@ -1078,7 +1327,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 12,
-		name = "马里亚纳风云上",
+		name = "Mariana's Turmoil Pt. 1",
 		level_limit = 75,
 		type = 1,
 		anchor = "",
@@ -1128,7 +1377,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 13,
-		name = "马里亚纳风云下",
+		name = "Mariana's Turmoil Pt. 2",
 		level_limit = 80,
 		type = 1,
 		anchor = "",
@@ -1178,7 +1427,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 14,
-		name = "苏里高夜战",
+		name = "Surigao Night Combat ",
 		level_limit = 80,
 		type = 1,
 		anchor = "",
@@ -1207,7 +1456,7 @@ pg.base.expedition_data_by_map = {
 	},
 	{
 		map = 15,
-		name = "恩加尼奥角海战",
+		name = "The Battle off Cape Engaño",
 		level_limit = 80,
 		type = 1,
 		anchor = "",
@@ -1236,7 +1485,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[201] = {
 		map = 201,
-		name = "虎！虎！虎！",
+		name = "Tora! Tora! Tora!",
 		level_limit = 1,
 		type = 2,
 		anchor = "",
@@ -1286,7 +1535,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[202] = {
 		map = 202,
-		name = "珊瑚海首秀",
+		name = "Battle of Coral Sea",
 		level_limit = 5,
 		type = 2,
 		anchor = "",
@@ -1336,7 +1585,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[203] = {
 		map = 203,
-		name = "决战中途岛",
+		name = "Midway Showdown",
 		level_limit = 10,
 		type = 2,
 		anchor = "",
@@ -1386,7 +1635,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[204] = {
 		map = 204,
-		name = "所罗门的噩梦上",
+		name = "Solomon's Nightmare Pt. 1",
 		level_limit = 15,
 		type = 2,
 		anchor = "",
@@ -1440,7 +1689,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[205] = {
 		map = 205,
-		name = "所罗门的噩梦中",
+		name = "Solomon's Nightmare Pt. 2",
 		level_limit = 20,
 		type = 2,
 		anchor = "",
@@ -1490,7 +1739,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[206] = {
 		map = 206,
-		name = "所罗门的噩梦下",
+		name = "Solomon's Nightmare Pt. 3",
 		level_limit = 25,
 		type = 2,
 		anchor = "",
@@ -1544,7 +1793,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[207] = {
 		map = 207,
-		name = "混沌之夜",
+		name = "Night of Chaos",
 		level_limit = 30,
 		type = 2,
 		anchor = "",
@@ -1598,7 +1847,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[208] = {
 		map = 208,
-		name = "科曼多尔海战",
+		name = "Battle Komandorski",
 		level_limit = 35,
 		type = 2,
 		anchor = "",
@@ -1648,7 +1897,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[209] = {
 		map = 209,
-		name = "库拉湾海战",
+		name = "Battle of Kula Gulf",
 		level_limit = 40,
 		type = 2,
 		anchor = "",
@@ -1702,7 +1951,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[210] = {
 		map = 210,
-		name = "科隆班加拉岛夜战",
+		name = "Battle of Kolombangara",
 		level_limit = 45,
 		type = 2,
 		anchor = "",
@@ -1756,7 +2005,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[211] = {
 		map = 211,
-		name = "奥古斯塔皇后湾海战",
+		name = "Empress Augusta Bay ",
 		level_limit = 70,
 		type = 2,
 		anchor = "",
@@ -1806,7 +2055,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[212] = {
 		map = 212,
-		name = "马里亚纳风云上",
+		name = "Mariana's Turmoil Pt. 1",
 		level_limit = 75,
 		type = 2,
 		anchor = "",
@@ -1856,7 +2105,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[213] = {
 		map = 213,
-		name = "马里亚纳风云下",
+		name = "Mariana's Turmoil Pt. 2",
 		level_limit = 80,
 		type = 2,
 		anchor = "",
@@ -1906,7 +2155,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[10000] = {
 		map = 10000,
-		name = "努力、希望和计划|| ||CHAPTER SP||S.P.",
+		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
 		level_limit = 15,
 		type = 3,
 		anchor = "",
@@ -1922,7 +2171,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "white",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 12,
+		on_activity = 30007,
 		ui_type = 1,
 		bg = "map_10000",
 		story_id = "",
@@ -1956,7 +2205,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[70000] = {
 		map = 70000,
-		name = "大西洋商路",
+		name = "Maritime Escort ",
 		level_limit = 40,
 		type = 9,
 		anchor = "",
@@ -2004,16 +2253,216 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
-	[80000] = {
-		map = 80000,
-		name = "公会BOSS",
+	[1040000] = {
+		map = 1040000,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		level_limit = 1,
-		type = 7,
+		type = 4,
 		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		bgm = "level02",
 		enter_story = "",
+		ani_name = "fengshan_1",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30012,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1040010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1040001] = {
+		map = 1040001,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "fengshan",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30012,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1040011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1040010] = {
+		map = 1040010,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "fengshan_1",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30012,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1040000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1040011] = {
+		map = 1040011,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "fengshan",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30012,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1040001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1050000] = {
+		map = 1050000,
+		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "ZHUNUO1",
 		ani_name = "",
 		guide_id = "",
 		ani_controller = "",
@@ -2022,14 +2471,14 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "white",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 0,
+		on_activity = 30260,
 		ui_type = 1,
-		bg = "map_1000000",
+		bg = "Map_1050000",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
-		animtor = 1,
+		animtor = 0,
 		bind_map = 0,
 		clouds_pos = {
 			{
@@ -2054,17 +2503,17 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
-	[90000] = {
-		map = 90000,
-		name = "镜面海域",
+	[1050010] = {
+		map = 1050010,
+		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
 		level_limit = 1,
-		type = 6,
+		type = 3,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "level02",
-		enter_story = "",
-		ani_name = "Tornado",
+		enter_story = "ZHUNUO1",
+		ani_name = "",
 		guide_id = "",
 		ani_controller = "",
 		map_name = "",
@@ -2072,14 +2521,14 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "white",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 0,
+		on_activity = 30152,
 		ui_type = 1,
-		bg = "map_1000000",
+		bg = "Map_1050000",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
-		animtor = 1,
+		animtor = 0,
 		bind_map = 0,
 		clouds_pos = {
 			{
@@ -2104,13 +2553,13 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
-	[90001] = {
-		map = 90001,
-		name = "模拟战",
+	[1070100] = {
+		map = 1070100,
+		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
 		level_limit = 1,
-		type = 6,
+		type = 3,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "level02",
 		enter_story = "",
@@ -2119,12 +2568,62 @@ pg.base.expedition_data_by_map = {
 		ani_controller = "",
 		map_name = "",
 		default_background = "",
-		cloud_suffix = "white",
+		cloud_suffix = "purple",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 0,
+		on_activity = 30230,
 		ui_type = 1,
-		bg = "map_1",
+		bg = "Map_1070000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1070200] = {
+		map = 1070200,
+		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30060,
+		ui_type = 1,
+		bg = "Map_1070000",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",
@@ -2156,7 +2655,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1080000] = {
 		map = 1080000,
-		name = "异次元的访客|| ||CHAPTER SP||S.P.",
+		name = "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -2172,7 +2671,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 63,
+		on_activity = 30037,
 		ui_type = 1,
 		bg = "Map_1080000",
 		story_id = "",
@@ -2206,7 +2705,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1080010] = {
 		map = 1080010,
-		name = "异次元的访客|| ||CHAPTER SP||S.P.",
+		name = "Visitors From Another Dimension|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -2222,7 +2721,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 63,
+		on_activity = 30037,
 		ui_type = 1,
 		bg = "Map_1080010",
 		story_id = "",
@@ -2254,17 +2753,267 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
-	[1160001] = {
-		map = 1160001,
-		name = "梦幻的交汇|| ||CHAPTER SP||S.P.",
+	[1100000] = {
+		map = 1100000,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
-		title = "SP",
+		title = "EX",
 		drop_by_map_display = "",
-		bgm = "level-uta",
+		bgm = "level02",
+		enter_story = "GUOQING1",
+		ani_name = "fengshan_1",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30096,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100001] = {
+		map = 1100001,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "GUOQING11",
+		ani_name = "fengshan",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30096,
+		ui_type = 1,
+		bg = "Map_1040001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100010] = {
+		map = 1100010,
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "GUOQING1",
+		ani_name = "fengshan_1",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30096,
+		ui_type = 1,
+		bg = "Map_1040000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100011] = {
+		map = 1100011,
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "GUOQING11",
+		ani_name = "fengshan",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30096,
+		ui_type = 1,
+		bg = "Map_1040001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100013] = {
+		map = 1100013,
+		name = "Visitors Dyed in Red EX || || S.P. || E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
 		enter_story = "",
-		ani_name = "map_1160001",
+		ani_name = "fengshan_1",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30096,
+		ui_type = 1,
+		bg = "Map_1040001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1110001] = {
+		map = 1110001,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA1",
+		ani_name = "yinghua_map_effect01",
 		guide_id = "",
 		ani_controller = "",
 		map_name = "",
@@ -2272,9 +3021,1791 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 183,
+		on_activity = 30109,
 		ui_type = 1,
-		bg = "Map_1160001",
+		bg = "Map_1100001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1110011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1110002] = {
+		map = 1110002,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA9",
+		ani_name = "yinghua_map_effect02",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30110,
+		ui_type = 1,
+		bg = "Map_1100002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1110012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1110011] = {
+		map = 1110011,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA1",
+		ani_name = "yinghua_map_effect03",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30109,
+		ui_type = 1,
+		bg = "Map_1100011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1110001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1110012] = {
+		map = 1110012,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA9",
+		ani_name = "yinghua_map_effect04",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30110,
+		ui_type = 1,
+		bg = "Map_1100012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1110002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1110021] = {
+		map = 1110021,
+		name = "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "",
+		ani_name = "yinghua_map_effect02",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30110,
+		ui_type = 1,
+		bg = "Map_1100002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1110012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1120001] = {
+		map = 1120001,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30040,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 1120011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1120002] = {
+		map = 1120002,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30040,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1120012,
+		clouds_pos = {}
+	},
+	[1120011] = {
+		map = 1120011,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30040,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 1120001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1120012] = {
+		map = 1120012,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30040,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1120002,
+		clouds_pos = {}
+	},
+	[1120021] = {
+		map = 1120021,
+		name = "Operation Divergent Chessboard EX|| S.P. || E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30040,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1120012,
+		clouds_pos = {}
+	},
+	[1130000] = {
+		map = 1130000,
+		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30090,
+		ui_type = 1,
+		bg = "Map_1130000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1130100] = {
+		map = 1130100,
+		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30418,
+		ui_type = 1,
+		bg = "Map_1130000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1140001] = {
+		map = 1140001,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30156,
+		ui_type = 1,
+		bg = "Map_1140001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1140011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1140002] = {
+		map = 1140002,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30157,
+		ui_type = 1,
+		bg = "Map_1140002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1140012,
+		clouds_pos = {}
+	},
+	[1140011] = {
+		map = 1140011,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30156,
+		ui_type = 1,
+		bg = "Map_1140002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1140001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1140012] = {
+		map = 1140012,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30157,
+		ui_type = 1,
+		bg = "Map_1140003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1140002,
+		clouds_pos = {}
+	},
+	[1140021] = {
+		map = 1140021,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30157,
+		ui_type = 1,
+		bg = "Map_1140003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1140012,
+		clouds_pos = {}
+	},
+	[1150001] = {
+		map = 1150001,
+		name = "Fallen Wings - Prologue || ||S.P.||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "DONGHUO01",
+		ani_name = "feixu",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30020,
+		ui_type = 1,
+		bg = "Map_1060000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1150011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1150002] = {
+		map = 1150002,
+		name = "Fallen Wings - Epilogue || ||S.P.||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "DONGHUO08",
+		ani_name = "feixu",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30021,
+		ui_type = 1,
+		bg = "Map_1060000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1150012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1150011] = {
+		map = 1150011,
+		name = "Fallen Wings - Prologue || ||S.P.||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "DONGHUO01",
+		ani_name = "feixu_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30020,
+		ui_type = 1,
+		bg = "Map_1060001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1150001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1150012] = {
+		map = 1150012,
+		name = "Fallen Wings - Epilogue || ||S.P.||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "DONGHUO08",
+		ani_name = "feixu_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30021,
+		ui_type = 1,
+		bg = "Map_1060001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1150002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1150021] = {
+		map = 1150021,
+		name = "Fallen Wings -EX || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "",
+		ani_name = "feixu_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30021,
+		ui_type = 1,
+		bg = "Map_1060001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1150012,
+		clouds_pos = {}
+	},
+	[1170001] = {
+		map = 1170001,
+		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30072,
+		ui_type = 1,
+		bg = "map_5",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 1170001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1180001] = {
+		map = 1180001,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30050,
+		ui_type = 1,
+		bg = "Map_1180001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1180011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1180002] = {
+		map = 1180002,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30051,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1180012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1180011] = {
+		map = 1180011,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180011",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30050,
+		ui_type = 1,
+		bg = "Map_1180001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1180001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1180012] = {
+		map = 1180012,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30051,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1180002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1180021] = {
+		map = 1180021,
+		name = "Crimson Echoes - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "",
+		ani_name = "map_1180012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30051,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1180012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190000] = {
+		map = 1190000,
+		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "LINGDONG01",
+		ani_name = "icestorm",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30081,
+		ui_type = 1,
+		bg = "Map_1090000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1190010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190001] = {
+		map = 1190001,
+		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "LINGDONG11",
+		ani_name = "icestorm_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30082,
+		ui_type = 1,
+		bg = "Map_1090001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190010] = {
+		map = 1190010,
+		name = "Winter's Crown - Part 1|| ||EX CHAPTER||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "LINGDONG01",
+		ani_name = "icestorm",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30081,
+		ui_type = 1,
+		bg = "Map_1090000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1190000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190011] = {
+		map = 1190011,
+		name = "Winter's Crown - Part 2|| ||EX CHAPTER||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "LINGDONG11",
+		ani_name = "icestorm_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30082,
+		ui_type = 1,
+		bg = "Map_1090001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1190001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1190021] = {
+		map = 1190021,
+		name = "Winter's Crown - EX|| ||EX CHAPTER||E.X. ",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "",
+		ani_name = "icestorm_hard",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30082,
+		ui_type = 1,
+		bg = "Map_1090001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1190011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1200100] = {
+		map = 1200100,
+		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1200001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30495,
+		ui_type = 1,
+		bg = "map_1200001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
+	},
+	[1210001] = {
+		map = 1210001,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA1",
+		ani_name = "yinghua_map_effect01",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30449,
+		ui_type = 1,
+		bg = "Map_1100001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1210011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210002] = {
+		map = 1210002,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA9",
+		ani_name = "yinghua_map_effect02",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30450,
+		ui_type = 1,
+		bg = "Map_1100002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210011] = {
+		map = 1210011,
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA1",
+		ani_name = "yinghua_map_effect03",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30449,
+		ui_type = 1,
+		bg = "Map_1100011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1210001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210012] = {
+		map = 1210012,
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "YINGHUA9",
+		ani_name = "yinghua_map_effect04",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30450,
+		ui_type = 1,
+		bg = "Map_1100012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1210002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210021] = {
+		map = 1210021,
+		name = "Ink-Stained Steel Sakura – EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "",
+		ani_name = "yinghua_map_effect02",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30450,
+		ui_type = 1,
+		bg = "Map_1100002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1220001] = {
+		map = 1220001,
+		name = "Virtual Link Synchronicity|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "ai-fb-inst",
+		enter_story = "AIGUANQIA2",
+		ani_name = "Map_1210001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30118,
+		ui_type = 1,
+		bg = "map_1210001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",
@@ -2304,17 +4835,17 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
-	[1160011] = {
-		map = 1160011,
-		name = "梦幻的交汇-EX|| ||CHAPTER SP||S.P.",
+	[1220021] = {
+		map = 1220021,
+		name = "Virtual Link Synchronicity·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
-		title = "SP",
+		title = "EX",
 		drop_by_map_display = "",
-		bgm = "level-uta",
+		bgm = "ai-fb-inst",
 		enter_story = "",
-		ani_name = "map_1160001",
+		ani_name = "Map_1210001",
 		guide_id = "",
 		ani_controller = "",
 		map_name = "",
@@ -2322,15 +4853,15 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 183,
+		on_activity = 30118,
 		ui_type = 1,
-		bg = "Map_1160001",
+		bg = "map_1210001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
 		animtor = 1,
-		bind_map = 1160001,
+		bind_map = 1220001,
 		clouds_pos = {
 			{
 				332,
@@ -2354,9 +4885,4354 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1230001] = {
+		map = 1230001,
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU1",
+		ani_name = "map_1220001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30136,
+		ui_type = 1,
+		bg = "map_1220001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230002] = {
+		map = 1230002,
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU10",
+		ani_name = "map_1220002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30137,
+		ui_type = 1,
+		bg = "map_1220002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230011] = {
+		map = 1230011,
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU1",
+		ani_name = "map_1220003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30136,
+		ui_type = 1,
+		bg = "map_1220003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230012] = {
+		map = 1230012,
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU10",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30137,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230020] = {
+		map = 1230020,
+		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30137,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230021] = {
+		map = 1230021,
+		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30137,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1240001] = {
+		map = 1240001,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1240002] = {
+		map = 1240002,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240012,
+		clouds_pos = {}
+	},
+	[1240011] = {
+		map = 1240011,
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "FAXI01",
+		ani_name = "map_1140002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1240012] = {
+		map = 1240012,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "FAXI05",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240002,
+		clouds_pos = {}
+	},
+	[1240020] = {
+		map = 1240020,
+		name = "Iris of Light and Dark – SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1240021] = {
+		map = 1240021,
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Level-french2",
+		enter_story = "",
+		ani_name = "map_1140003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30401,
+		ui_type = 1,
+		bg = "Map_1140003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1240012,
+		clouds_pos = {}
+	},
+	[1250001] = {
+		map = 1250001,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30172,
+		ui_type = 1,
+		bg = "Map_1230001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250002] = {
+		map = 1250002,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30173,
+		ui_type = 1,
+		bg = "Map_1230002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250011] = {
+		map = 1250011,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30172,
+		ui_type = 1,
+		bg = "Map_1230003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250012] = {
+		map = 1250012,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30173,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250025] = {
+		map = 1250025,
+		name = "Ashen Simulacrum – SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30173,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250026] = {
+		map = 1250026,
+		name = "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30173,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1250012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1250022] = {
+		map = 1250022,
+		name = "Approaching Storm ",
+		level_limit = 1,
+		type = 10,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "FENGBAOQIANXI0",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30171,
+		ui_type = 4,
+		bg = "Map_1230005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {}
+	},
+	[1260001] = {
+		map = 1260001,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30203,
+		ui_type = 1,
+		bg = "Map_1240001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260002] = {
+		map = 1260002,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30204,
+		ui_type = 1,
+		bg = "Map_1240005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260011] = {
+		map = 1260011,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30203,
+		ui_type = 1,
+		bg = "Map_1240003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260012] = {
+		map = 1260012,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240006",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30204,
+		ui_type = 1,
+		bg = "Map_1240006",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260025] = {
+		map = 1260025,
+		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "",
+		ani_name = "map_1240007",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30204,
+		ui_type = 1,
+		bg = "Map_1240007",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1260026] = {
+		map = 1260026,
+		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "",
+		ani_name = "map_1240008",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30204,
+		ui_type = 1,
+		bg = "Map_1240008",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1260012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1270001] = {
+		map = 1270001,
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30246,
+		ui_type = 1,
+		bg = "Map_1250001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1280001] = {
+		map = 1280001,
+		name = "Passionate Polaris|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		enter_story = "",
+		ani_name = "Map_1260001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30323,
+		ui_type = 1,
+		bg = "Map_1260001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1280025] = {
+		map = 1280025,
+		name = "Passionate Polaris SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		enter_story = "",
+		ani_name = "Map_1260001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30323,
+		ui_type = 1,
+		bg = "Map_1260001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1280001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1280026] = {
+		map = 1280026,
+		name = "Passionate Polaris EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "azumaster-ins",
+		enter_story = "",
+		ani_name = "Map_1260001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30323,
+		ui_type = 1,
+		bg = "Map_1260001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1280001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1290001] = {
+		map = 1290001,
+		name = "Looking Glass of Fact and Fiction - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "holo-tokiwa",
+		enter_story = "HOLOGUANQIA2",
+		ani_name = "Map_1270001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30284,
+		ui_type = 1,
+		bg = "Map_1270001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1290002] = {
+		map = 1290002,
+		name = "Looking Glass of Fact and Fiction - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "holo-tokiwa",
+		enter_story = "HOLOGUANQIA29",
+		ani_name = "Map_1270002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30284,
+		ui_type = 1,
+		bg = "Map_1270002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1290025] = {
+		map = 1290025,
+		name = "Looking Glass of Fact and Fiction - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "holo-inochi-inst",
+		enter_story = "",
+		ani_name = "Map_1270002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30284,
+		ui_type = 1,
+		bg = "Map_1270002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1290002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1290026] = {
+		map = 1290026,
+		name = "Looking Glass of Fact and Fiction - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "holo-sora",
+		enter_story = "",
+		ani_name = "Map_1270002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30284,
+		ui_type = 1,
+		bg = "Map_1270002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1290002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300001] = {
+		map = 1300001,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30292,
+		ui_type = 1,
+		bg = "Map_1280001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300002] = {
+		map = 1300002,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30293,
+		ui_type = 1,
+		bg = "Map_1280002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300011] = {
+		map = 1300011,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30292,
+		ui_type = 1,
+		bg = "Map_1280003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300012] = {
+		map = 1300012,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30293,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300025] = {
+		map = 1300025,
+		name = "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30293,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300026] = {
+		map = 1300026,
+		name = "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-2",
+		enter_story = "",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30293,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310001] = {
+		map = 1310001,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30340,
+		ui_type = 1,
+		bg = "Map_1290001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310002] = {
+		map = 1310002,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30341,
+		ui_type = 1,
+		bg = "Map_1290002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310011] = {
+		map = 1310011,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30340,
+		ui_type = 1,
+		bg = "Map_1290003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310012] = {
+		map = 1310012,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30341,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310025] = {
+		map = 1310025,
+		name = "Northern Overture - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30341,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310026] = {
+		map = 1310026,
+		name = "Northern Overture - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30341,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1320001] = {
+		map = 1320001,
+		name = "The Smoldering South Sea|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "white",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30353,
+		ui_type = 1,
+		bg = "map_5",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 1320001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330001] = {
+		map = 1330001,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30370,
+		ui_type = 1,
+		bg = "Map_1300001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330002] = {
+		map = 1330002,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30371,
+		ui_type = 1,
+		bg = "Map_1300002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330011] = {
+		map = 1330011,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30370,
+		ui_type = 1,
+		bg = "Map_1300003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330012] = {
+		map = 1330012,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30371,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330025] = {
+		map = 1330025,
+		name = "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30371,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1330026] = {
+		map = 1330026,
+		name = "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30371,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1330012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1340001] = {
+		map = 1340001,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30393,
+		ui_type = 1,
+		bg = "Map_1180001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1340011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1340002] = {
+		map = 1340002,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30393,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1340012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1340011] = {
+		map = 1340011,
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Nagato-map",
+		enter_story = "TIANCHENGHUODONG1",
+		ani_name = "map_1180011",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30393,
+		ui_type = 1,
+		bg = "Map_1180001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1340001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1340012] = {
+		map = 1340012,
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "TIANCHENGHUODONG10",
+		ani_name = "map_1180012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30393,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1340002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1340021] = {
+		map = 1340021,
+		name = "Crimson Echoes - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "",
+		ani_name = "map_1180012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30393,
+		ui_type = 1,
+		bg = "Map_1180002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1340012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1350001] = {
+		map = 1350001,
+		name = "The Way Home in the Dark|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30395,
+		ui_type = 1,
+		bg = "Map_1310001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360001] = {
+		map = 1360001,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30427,
+		ui_type = 1,
+		bg = "Map_1320001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360002] = {
+		map = 1360002,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30428,
+		ui_type = 1,
+		bg = "Map_1320002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360011] = {
+		map = 1360011,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30427,
+		ui_type = 1,
+		bg = "Map_1320003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360012] = {
+		map = 1360012,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30428,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360025] = {
+		map = 1360025,
+		name = "Skybound Oratorio - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		enter_story = "",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30428,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1360026] = {
+		map = 1360026,
+		name = "Skybound Oratorio - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		enter_story = "",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30428,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1360012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1370001] = {
+		map = 1370001,
+		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1330001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4279,
+		ui_type = 1,
+		bg = "Map_1330001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380001] = {
+		map = 1380001,
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "YONGYEHUANGUANG1",
+		ani_name = "Map_1340001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380002] = {
+		map = 1380002,
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "YONGYEHUANGUANG20",
+		ani_name = "Map_1340002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380011] = {
+		map = 1380011,
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "YONGYEHUANGUANG1",
+		ani_name = "Map_1340003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380012] = {
+		map = 1380012,
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "YONGYEHUANGUANG20",
+		ani_name = "Map_1340004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380025] = {
+		map = 1380025,
+		name = "Aurora Noctis - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1340004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1380026] = {
+		map = 1380026,
+		name = "Aurora Noctis - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1340004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4299,
+		ui_type = 1,
+		bg = "Map_1340004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1380012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1390001] = {
+		map = 1390001,
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30780,
+		ui_type = 1,
+		bg = "Map_1250001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400001] = {
+		map = 1400001,
+		name = "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU1",
+		ani_name = "map_1220001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30483,
+		ui_type = 1,
+		bg = "map_1220001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400002] = {
+		map = 1400002,
+		name = "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU10",
+		ani_name = "map_1220002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30484,
+		ui_type = 1,
+		bg = "map_1220002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400011] = {
+		map = 1400011,
+		name = "Scherzo of Iron and Blood - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU1",
+		ani_name = "map_1220003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30483,
+		ui_type = 1,
+		bg = "map_1220003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400012] = {
+		map = 1400012,
+		name = "Scherzo of Iron and Blood - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "TIEXUEYUYINFU10",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30484,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400020] = {
+		map = 1400020,
+		name = "Scherzo of Iron and Blood - Interlude|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30484,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1400021] = {
+		map = 1400021,
+		name = "Scherzo of Iron and Blood - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Story-6",
+		enter_story = "",
+		ani_name = "map_1220004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30484,
+		ui_type = 1,
+		bg = "map_1220004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1400012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410001] = {
+		map = 1410001,
+		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "DIEHAIMENGHUA1",
+		ani_name = "Map_1350001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410002] = {
+		map = 1410002,
+		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		enter_story = "",
+		ani_name = "Map_1350002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410011] = {
+		map = 1410011,
+		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "DIEHAIMENGHUA1",
+		ani_name = "Map_1350003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410012] = {
+		map = 1410012,
+		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "main-newyear",
+		enter_story = "",
+		ani_name = "Map_1350004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410020] = {
+		map = 1410020,
+		name = "Dreamwaker's Butterfly SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "",
+		ani_name = "Map_1350004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1410021] = {
+		map = 1410021,
+		name = "Dreamwaker's Butterfly EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "",
+		ani_name = "Map_1350004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4451,
+		ui_type = 3,
+		bg = "Map_1350004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1410012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1420001] = {
+		map = 1420001,
+		name = "Sundered Blue|| ||CHAPTER SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4429,
+		ui_type = 1,
+		bg = "Map_1360001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1430001] = {
+		map = 1430001,
+		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "JICHANG1",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30744,
+		ui_type = 1,
+		bg = "Map_1370001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1430002] = {
+		map = 1430002,
+		name = "Universe in Unison - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30744,
+		ui_type = 1,
+		bg = "Map_1370001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1430001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1430003] = {
+		map = 1430003,
+		name = "Universe in Unison - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "idol-WISHNESS-inst",
+		enter_story = "",
+		ani_name = "Map_1370001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30744,
+		ui_type = 1,
+		bg = "Map_1370001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1430001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1440001] = {
+		map = 1440001,
+		name = "Stars of the Shimmering Fjord|| ||Chapter SP||S.P. ",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "",
+		ani_name = "map_1200001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30821,
+		ui_type = 1,
+		bg = "map_1200001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {}
+	},
 	[1450001] = {
 		map = 1450001,
-		name = "假日航线|| ||CHAPTER EX||E.X.",
+		name = "Vacation Lane|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -2406,7 +9282,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1450002] = {
 		map = 1450002,
-		name = "假日航线·SP|| ||CHAPTER EX||E.X.",
+		name = "Vacation Lane - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -2456,7 +9332,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1450003] = {
 		map = 1450003,
-		name = "假日航线·EX|| ||CHAPTER EX||E.X.",
+		name = "Vacation Lane - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -2504,9 +9380,2109 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1460001] = {
+		map = 1460001,
+		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460002] = {
+		map = 1460002,
+		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460011] = {
+		map = 1460011,
+		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "FUXIANGXIANZUOZHAN1",
+		ani_name = "Map_1390003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460012] = {
+		map = 1460012,
+		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-executor-type1",
+		enter_story = "FUXIANGXIANZUOZHAN15",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460025] = {
+		map = 1460025,
+		name = "Inverted Orthant - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1460026] = {
+		map = 1460026,
+		name = "Inverted Orthant - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "",
+		ani_name = "Map_1390004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4565,
+		ui_type = 1,
+		bg = "Map_1390004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1460012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470001] = {
+		map = 1470001,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 838,
+		ui_type = 1,
+		bg = "Map_1240001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470002] = {
+		map = 1470002,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 839,
+		ui_type = 1,
+		bg = "Map_1240005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470011] = {
+		map = 1470011,
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		ani_name = "map_1240003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 838,
+		ui_type = 1,
+		bg = "Map_1240003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470012] = {
+		map = 1470012,
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		ani_name = "map_1240006",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 839,
+		ui_type = 1,
+		bg = "Map_1240006",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470025] = {
+		map = 1470025,
+		name = "Empyreal Tragicomedy - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "",
+		ani_name = "map_1240007",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 839,
+		ui_type = 1,
+		bg = "Map_1240007",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1470026] = {
+		map = 1470026,
+		name = "Empyreal Tragicomedy - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Battle-italy",
+		enter_story = "",
+		ani_name = "map_1240008",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 839,
+		ui_type = 1,
+		bg = "Map_1240008",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1470012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480001] = {
+		map = 1480001,
+		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480002] = {
+		map = 1480002,
+		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480011] = {
+		map = 1480011,
+		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480012] = {
+		map = 1480012,
+		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480025] = {
+		map = 1480025,
+		name = "Khorovod of Dawn's Rime - SP| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1480026] = {
+		map = 1480026,
+		name = "Khorovod of Dawn's Rime - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4626,
+		ui_type = 1,
+		bg = "Map_1400004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1480012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490001] = {
+		map = 1490001,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 937,
+		ui_type = 1,
+		bg = "Map_1230001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490002] = {
+		map = 1490002,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 938,
+		ui_type = 1,
+		bg = "Map_1230002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490011] = {
+		map = 1490011,
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA1",
+		ani_name = "Map_1230003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 937,
+		ui_type = 1,
+		bg = "Map_1230003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490012] = {
+		map = 1490012,
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "XIANGTINGLIAOFA16",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 938,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490025] = {
+		map = 1490025,
+		name = "Ashen Simulacrum - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 938,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1490026] = {
+		map = 1490026,
+		name = "Ashen Simulacrum - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "",
+		ani_name = "Map_1230004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 938,
+		ui_type = 1,
+		bg = "Map_1230004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1490012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500001] = {
+		map = 1500001,
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-italy",
+		enter_story = "FUXINGDEZANMEISHI1",
+		ani_name = "Map_1410001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500002] = {
+		map = 1500002,
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-italy",
+		enter_story = "FUXINGDEZANMEISHI15",
+		ani_name = "Map_1410002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500011] = {
+		map = 1500011,
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-italy",
+		enter_story = "FUXINGDEZANMEISHI1",
+		ani_name = "Map_1410003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500012] = {
+		map = 1500012,
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-italy",
+		enter_story = "FUXINGDEZANMEISHI15",
+		ani_name = "Map_1410004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500025] = {
+		map = 1500025,
+		name = "Daedalian Hymn - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-6",
+		enter_story = "",
+		ani_name = "Map_1410004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1500026] = {
+		map = 1500026,
+		name = "Daedalian Hymn - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-6",
+		enter_story = "",
+		ani_name = "Map_1410004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4718,
+		ui_type = 1,
+		bg = "Map_1410004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1500012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520001] = {
+		map = 1520001,
+		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520002] = {
+		map = 1520002,
+		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420008",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420008",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520011] = {
+		map = 1520011,
+		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "blueocean-image",
+		enter_story = "JINGWEILUOXUAN1",
+		ani_name = "Map_1420011",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520012] = {
+		map = 1520012,
+		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "JINGWEILUOXUAN17",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420018",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520025] = {
+		map = 1520025,
+		name = "Mirror Involution - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Beverly_short_eng",
+		enter_story = "",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420018",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1520026] = {
+		map = 1520026,
+		name = "Mirror Involution - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "Beverly_short_eng",
+		enter_story = "",
+		ani_name = "Map_1420018",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4898,
+		ui_type = 1,
+		bg = "Map_1420018",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1520012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530001] = {
+		map = 1530001,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530002] = {
+		map = 1530002,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530011] = {
+		map = 1530011,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "FUYINGYINGHUA1",
+		ani_name = "Map_1280003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530012] = {
+		map = 1530012,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-1",
+		enter_story = "FUYINGYINGHUA13",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530025] = {
+		map = 1530025,
+		name = "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-1",
+		enter_story = "",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1530026] = {
+		map = 1530026,
+		name = "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-2",
+		enter_story = "",
+		ani_name = "Map_1280004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4020,
+		ui_type = 1,
+		bg = "Map_1280004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1530012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1540001] = {
 		map = 1540001,
-		name = "响彻碧海的偶像歌|| ||CHAPTER EX||E.X.",
+		name = "Azur Anthem|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -2556,7 +11532,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1540002] = {
 		map = 1540002,
-		name = "响彻碧海的偶像歌·SP|| ||CHAPTER EX||E.X.",
+		name = "Azur Anthem - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -2606,7 +11582,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1540003] = {
 		map = 1540003,
-		name = "响彻碧海的偶像歌·EX|| ||CHAPTER EX||E.X.",
+		name = "Azur Anthem - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -2654,9 +11630,959 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1550001] = {
+		map = 1550001,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550002] = {
+		map = 1550002,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550011] = {
+		map = 1550011,
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-story",
+		enter_story = "WEICENGHUNHE1",
+		ani_name = "Map_1300003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550012] = {
+		map = 1550012,
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "hunhe-level",
+		enter_story = "WEICENGHUNHE17",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550025] = {
+		map = 1550025,
+		name = "Microlayer Medley - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1550026] = {
+		map = 1550026,
+		name = "Microlayer Medley - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-4",
+		enter_story = "",
+		ani_name = "Map_1300004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4079,
+		ui_type = 1,
+		bg = "Map_1300004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1550012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560001] = {
+		map = 1560001,
+		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		enter_story = "BIHAIGUANGLIN1",
+		ani_name = "Map_1560001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560002] = {
+		map = 1560002,
+		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		enter_story = "BIHAIGUANGLIN17",
+		ani_name = "Map_1560002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560011] = {
+		map = 1560011,
+		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-pacific",
+		enter_story = "BIHAIGUANGLIN1",
+		ani_name = "Map_1560011",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560011",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560012] = {
+		map = 1560012,
+		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "map-longgong",
+		enter_story = "BIHAIGUANGLIN17",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560025] = {
+		map = 1560025,
+		name = "Upon the Shimmering Blue - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		enter_story = "",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1560026] = {
+		map = 1560026,
+		name = "Upon the Shimmering Blue - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-longgong",
+		enter_story = "",
+		ani_name = "Map_1560012",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5069,
+		ui_type = 1,
+		bg = "Map_1560012",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1560012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570001] = {
+		map = 1570001,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570002] = {
+		map = 1570002,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570011] = {
+		map = 1570011,
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level03",
+		enter_story = "SHENGYONGQU1",
+		ani_name = "map_1320003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570012] = {
+		map = 1570012,
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bsm-3",
+		enter_story = "SHENGYONGQU16",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570025] = {
+		map = 1570025,
+		name = "Skybound Oratorio - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		enter_story = "",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1570026] = {
+		map = 1570026,
+		name = "Skybound Oratorio - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level-french2",
+		enter_story = "",
+		ani_name = "map_1320004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4149,
+		ui_type = 1,
+		bg = "Map_1320004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1570012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1580001] = {
+		map = 1580001,
+		name = "The Flame-Touched Dagger|| ||Chapter SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-french1",
+		enter_story = "",
+		ani_name = "Map_1580001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4747,
+		ui_type = 1,
+		bg = "Map_1580001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1590001] = {
 		map = 1590001,
-		name = "交汇世界的弧光|| ||CHAPTER EX||E.X.",
+		name = "World-Spanning Arclight|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		enter_story = "GULITEGUANQIA1",
@@ -2709,7 +12635,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1590002] = {
 		map = 1590002,
-		name = "交汇世界的弧光·SP|| ||CHAPTER EX||E.X.",
+		name = "World-Spanning Arclight·SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		enter_story = "",
@@ -2762,7 +12688,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1590003] = {
 		map = 1590003,
-		name = "交汇世界的弧光·EX|| ||CHAPTER EX||E.X.",
+		name = "World-Spanning Arclight·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		enter_story = "",
@@ -2815,7 +12741,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1590004] = {
 		map = 1590004,
-		name = "交汇世界的弧光·再现|| ||CHAPTER EX||E.X.",
+		name = "World-Spanning Arclight Rerun||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		enter_story = "",
@@ -2866,9 +12792,2122 @@ pg.base.expedition_data_by_map = {
 			0.5
 		}
 	},
+	[1600001] = {
+		map = 1600001,
+		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-midgard",
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		ani_name = "Map_1600001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600002] = {
+		map = 1600002,
+		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-midgard-hunting",
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		ani_name = "Map_1600002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600011] = {
+		map = 1600011,
+		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-midgard",
+		enter_story = "NIZHUANCAIHONGZHITA1",
+		ani_name = "Map_1600003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600012] = {
+		map = 1600012,
+		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-midgard-hunting",
+		enter_story = "NIZHUANCAIHONGZHITA16",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600025] = {
+		map = 1600025,
+		name = "Tower of Transcendence - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-midgard-hunting",
+		enter_story = "",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1600026] = {
+		map = 1600026,
+		name = "Tower of Transcendence - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-midgard-hunting",
+		enter_story = "",
+		ani_name = "Map_1600004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5167,
+		ui_type = 1,
+		bg = "Map_1600004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1600012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610001] = {
+		map = 1610001,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610002] = {
+		map = 1610002,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610011] = {
+		map = 1610011,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp3",
+		enter_story = "MAOZIHUODONG1",
+		ani_name = "Map_1290003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610012] = {
+		map = 1610012,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "xinnong-3",
+		enter_story = "MAOZIHUODONG15",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610025] = {
+		map = 1610025,
+		name = "Northern Overture - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1610026] = {
+		map = 1610026,
+		name = "Northern Overture - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp",
+		enter_story = "",
+		ani_name = "Map_1290004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 4240,
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1610012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620001] = {
+		map = 1620001,
+		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-deepecho",
+		enter_story = "SHENDUHUIYIN1",
+		ani_name = "Map_1610001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620002] = {
+		map = 1620002,
+		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "SHENDUHUIYIN16",
+		ani_name = "Map_1610002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620011] = {
+		map = 1620011,
+		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-deepecho",
+		enter_story = "SHENDUHUIYIN1",
+		ani_name = "Map_1610003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620012] = {
+		map = 1620012,
+		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "SHENDUHUIYIN16",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620025] = {
+		map = 1620025,
+		name = "Abyssal Refrain - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1620026] = {
+		map = 1620026,
+		name = "Abyssal Refrain - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "",
+		ani_name = "Map_1610004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5287,
+		ui_type = 1,
+		bg = "Map_1610004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1620012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1630001] = {
+		map = 1630001,
+		name = "Virtual Tower|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5233,
+		ui_type = 1,
+		bg = "Map_1620001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1630001,
+					"jianzhu01"
+				}
+			},
+			{
+				1,
+				{
+					1630002,
+					"jianzhu02"
+				}
+			},
+			{
+				1,
+				{
+					1630003,
+					"jianzhu03"
+				}
+			},
+			{
+				1,
+				{
+					1630004,
+					"jianzhu04"
+				}
+			}
+		}
+	},
+	[1630002] = {
+		map = 1630002,
+		name = "Virtual Tower - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5233,
+		ui_type = 1,
+		bg = "Map_1620001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1630001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1630003] = {
+		map = 1630003,
+		name = "Virtual Tower - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-arbitrator-tower",
+		enter_story = "",
+		ani_name = "Map_1620001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5233,
+		ui_type = 1,
+		bg = "Map_1620001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1630001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1640001] = {
+		map = 1640001,
+		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		ani_name = "Map_1640001",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1640002] = {
+		map = 1640002,
+		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		ani_name = "Map_1640002",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1640011] = {
+		map = 1640011,
+		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		ani_name = "Map_1640003",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1640012] = {
+		map = 1640012,
+		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1640025] = {
+		map = 1640025,
+		name = "Rondo at Rainbow's End - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-frederick",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1640026] = {
+		map = 1640026,
+		name = "Rondo at Rainbow's End - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		enter_story = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-frederick",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5374,
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1640012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[1650001] = {
+		map = 1650001,
+		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-camelot",
+		enter_story = "LINGSHIGUANGTING1",
+		ani_name = "Map_1650007",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650003,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					1650001,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					1650002,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					1650003,
+					"map_1650002"
+				}
+			}
+		}
+	},
+	[1650002] = {
+		map = 1650002,
+		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-boss-camelot",
+		enter_story = "LINGSHIGUANGTING16",
+		ani_name = "Map_1650008",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650006,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					1650004,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					1650005,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					1650006,
+					"map_1650001"
+				}
+			}
+		}
+	},
+	[1650011] = {
+		map = 1650011,
+		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-camelot",
+		enter_story = "LINGSHIGUANGTING1",
+		ani_name = "Map_1650009",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650023,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					1650021,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					1650022,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					1650023,
+					"map_1650004"
+				}
+			}
+		}
+	},
+	[1650012] = {
+		map = 1650012,
+		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-boss-camelot",
+		enter_story = "LINGSHIGUANGTING16",
+		ani_name = "Map_1650010",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1650026,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					1650024,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					1650025,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					1650026,
+					"map_1650003"
+				}
+			}
+		}
+	},
+	[1650025] = {
+		map = 1650025,
+		name = "Pledge of the Radiant Court - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vanguard",
+		enter_story = "",
+		ani_name = "Map_1650005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1650026] = {
+		map = 1650026,
+		name = "Pledge of the Radiant Court - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-vanguard",
+		enter_story = "",
+		ani_name = "Map_1650006",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5427,
+		ui_type = 1,
+		bg = "Map_1650006",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660001] = {
+		map = 1660001,
+		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-outside",
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		ani_name = "Map_1660001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1660011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660002] = {
+		map = 1660002,
+		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-inside",
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		ani_name = "Map_1660002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1660012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660011] = {
+		map = 1660011,
+		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-outside",
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		ani_name = "Map_1660003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1660001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660012] = {
+		map = 1660012,
+		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-roma-inside",
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		ani_name = "Map_1660004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1660002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660025] = {
+		map = 1660025,
+		name = "Aquilifer's Ballade - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-roma-image",
+		enter_story = "",
+		ani_name = "Map_1660005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1660012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1660026] = {
+		map = 1660026,
+		name = "Aquilifer's Ballade - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-roma-image",
+		enter_story = "",
+		ani_name = "Map_1660005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5597,
+		ui_type = 1,
+		bg = "Map_1660005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1650012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1670001] = {
 		map = 1670001,
-		name = "远汇点作战|| ||CHAPTER EX||E.X.",
+		name = "Operation Convergence|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -2918,7 +14957,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1670002] = {
 		map = 1670002,
-		name = "远汇点作战·SP|| ||CHAPTER EX||E.X.",
+		name = "Operation Convergence - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -2968,7 +15007,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1670003] = {
 		map = 1670003,
-		name = "远汇点作战·EX|| ||CHAPTER EX||E.X.",
+		name = "Operation Convergence - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3016,9 +15055,309 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1680001] = {
+		map = 1680001,
+		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680002] = {
+		map = 1680002,
+		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680011] = {
+		map = 1680011,
+		name = "Violet Tempest, Blooming Lycoris - PT. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680012] = {
+		map = 1680012,
+		name = "Violet Tempest, Blooming Lycoris - PT. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680025] = {
+		map = 1680025,
+		name = "Violet Tempest, Blooming Lycoris - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-2",
+		enter_story = "",
+		ani_name = "Map_1680005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1680026] = {
+		map = 1680026,
+		name = "Violet Tempest, Blooming Lycoris - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-2",
+		enter_story = "",
+		ani_name = "Map_1680005",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 5641,
+		ui_type = 1,
+		bg = "Map_1680005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 1680012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1690001] = {
 		map = 1690001,
-		name = "秘密遗迹群岛|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3068,7 +15407,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1690002] = {
 		map = 1690002,
-		name = "秘密遗迹群岛·采集地|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - Gathering Site|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -3118,7 +15457,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1690003] = {
 		map = 1690003,
-		name = "秘密遗迹群岛·SP|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3168,7 +15507,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1690004] = {
 		map = 1690004,
-		name = "秘密遗迹群岛·EX|| ||CHAPTER EX||E.X.",
+		name = "The Archipelago of Secrets - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3218,7 +15557,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700001] = {
 		map = 1700001,
-		name = "定向折叠·上篇|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3276,7 +15615,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700002] = {
 		map = 1700002,
-		name = "定向折叠·下篇|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3334,7 +15673,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700011] = {
 		map = 1700011,
-		name = "定向折叠·上篇|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -3392,7 +15731,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700012] = {
 		map = 1700012,
-		name = "定向折叠·下篇|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -3450,7 +15789,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700025] = {
 		map = 1700025,
-		name = "定向折叠·SP|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3500,7 +15839,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700026] = {
 		map = 1700026,
-		name = "定向折叠·EX|| ||CHAPTER EX||E.X.",
+		name = "Parallel Superimposition - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3550,7 +15889,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710001] = {
 		map = 1710001,
-		name = "湮烬尘墟·上篇|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3600,7 +15939,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710002] = {
 		map = 1710002,
-		name = "湮烬尘墟·下篇|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3650,7 +15989,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710011] = {
 		map = 1710011,
-		name = "湮烬尘墟·上篇|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -3700,7 +16039,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710012] = {
 		map = 1710012,
-		name = "湮烬尘墟·下篇|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -3750,7 +16089,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710025] = {
 		map = 1710025,
-		name = "湮烬尘墟·SP|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3800,7 +16139,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1710026] = {
 		map = 1710026,
-		name = "湮烬尘墟·EX|| ||CHAPTER EX||E.X.",
+		name = "Revelations of Dust - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -3850,7 +16189,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720001] = {
 		map = 1720001,
-		name = "空相交汇点·上行篇|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -3943,7 +16282,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720002] = {
 		map = 1720002,
-		name = "空相交汇点·下行篇|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -4036,7 +16375,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720011] = {
 		map = 1720011,
-		name = "空相交汇点·上行篇|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -4129,7 +16468,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720012] = {
 		map = 1720012,
-		name = "空相交汇点·下行篇|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -4222,7 +16561,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720025] = {
 		map = 1720025,
-		name = "空相交汇点·SP|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -4272,7 +16611,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1720026] = {
 		map = 1720026,
-		name = "空相交汇点·EX|| ||CHAPTER EX||E.X.",
+		name = "Confluence of Nothingness - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -4322,7 +16661,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1730001] = {
 		map = 1730001,
-		name = "奏响鸢尾之歌|| ||CHAPTER SP||S.P.",
+		name = "Anthem of Remembrance|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -4372,7 +16711,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740001] = {
 		map = 1740001,
-		name = "愚者的天平·上篇|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -4506,7 +16845,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740002] = {
 		map = 1740002,
-		name = "愚者的天平·下篇|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -4627,7 +16966,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740011] = {
 		map = 1740011,
-		name = "愚者的天平·上篇|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -4761,7 +17100,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740012] = {
 		map = 1740012,
-		name = "愚者的天平·下篇|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -4882,7 +17221,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740025] = {
 		map = 1740025,
-		name = "愚者的天平·SP|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -4932,7 +17271,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1740026] = {
 		map = 1740026,
-		name = "愚者的天平·EX|| ||CHAPTER EX||E.X.",
+		name = "The Fool's Scales - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -4982,7 +17321,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750001] = {
 		map = 1750001,
-		name = "须臾望月抄·上篇|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5032,7 +17371,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750002] = {
 		map = 1750002,
-		name = "须臾望月抄·下篇|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5082,7 +17421,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750011] = {
 		map = 1750011,
-		name = "须臾望月抄·上篇|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -5132,7 +17471,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750012] = {
 		map = 1750012,
-		name = "须臾望月抄·下篇|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -5182,7 +17521,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750025] = {
 		map = 1750025,
-		name = "须臾望月抄·SP|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5232,7 +17571,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1750026] = {
 		map = 1750026,
-		name = "须臾望月抄·EX|| ||CHAPTER EX||E.X.",
+		name = "Effulgence Before Eclipse - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5282,7 +17621,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760001] = {
 		map = 1760001,
-		name = "飓风与青春之泉·上篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5332,7 +17671,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760002] = {
 		map = 1760002,
-		name = "飓风与青春之泉·下篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5382,7 +17721,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760003] = {
 		map = 1760003,
-		name = "飓风与青春之泉·SP|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth·SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5432,7 +17771,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1760004] = {
 		map = 1760004,
-		name = "飓风与青春之泉·EX|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Fountain of Youth·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5482,7 +17821,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770001] = {
 		map = 1770001,
-		name = "苍闪忍法帖|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5532,7 +17871,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770002] = {
 		map = 1770002,
-		name = "苍闪忍法帖·进阶|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash - Challenge|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -5582,7 +17921,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770003] = {
 		map = 1770003,
-		name = "苍闪忍法帖·SP|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5632,7 +17971,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1770004] = {
 		map = 1770004,
-		name = "苍闪忍法帖·EX|| ||CHAPTER EX||E.X.",
+		name = "The Ninja Scrolls: Azur Flash - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -5682,7 +18021,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780001] = {
 		map = 1780001,
-		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5765,7 +18104,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780002] = {
 		map = 1780002,
-		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -5823,7 +18162,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780011] = {
 		map = 1780011,
-		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -5906,7 +18245,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780012] = {
 		map = 1780012,
-		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -5964,7 +18303,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780025] = {
 		map = 1780025,
-		name = "星海逐光·SP|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6047,7 +18386,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1780026] = {
 		map = 1780026,
-		name = "星海逐光·EX|| ||CHAPTER EX||E.X.",
+		name = "Light-Chasing Sea of Stars - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6097,7 +18436,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790001] = {
 		map = 1790001,
-		name = "雪境迷踪·上篇|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -6157,7 +18496,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790002] = {
 		map = 1790002,
-		name = "雪境迷踪·下篇|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -6217,7 +18556,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790011] = {
 		map = 1790011,
-		name = "雪境迷踪·上篇|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -6277,7 +18616,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790012] = {
 		map = 1790012,
-		name = "雪境迷踪·下篇|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -6337,7 +18676,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790025] = {
 		map = 1790025,
-		name = "雪境迷踪·SP|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6387,7 +18726,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1790026] = {
 		map = 1790026,
-		name = "雪境迷踪·EX|| ||CHAPTER EX||E.X.",
+		name = "Snowrealm Peregrination - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6437,7 +18776,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800001] = {
 		map = 1800001,
-		name = "共鸣的Passion|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -6487,7 +18826,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800002] = {
 		map = 1800002,
-		name = "共鸣的Passion·进阶|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony - Challenge|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -6537,7 +18876,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800003] = {
 		map = 1800003,
-		name = "共鸣的Passion·SP|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6587,7 +18926,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800004] = {
 		map = 1800004,
-		name = "共鸣的Passion·EX|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6637,7 +18976,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810001] = {
 		map = 1810001,
-		name = "绽放于辉光之城·上篇|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -6704,7 +19043,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810002] = {
 		map = 1810002,
-		name = "绽放于辉光之城·下篇|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -6762,7 +19101,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810011] = {
 		map = 1810011,
-		name = "绽放于辉光之城·上篇|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -6829,7 +19168,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810012] = {
 		map = 1810012,
-		name = "绽放于辉光之城·下篇|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -6887,7 +19226,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810025] = {
 		map = 1810025,
-		name = "绽放于辉光之城·SP|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6937,7 +19276,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1810026] = {
 		map = 1810026,
-		name = "绽放于辉光之城·EX|| ||CHAPTER EX||E.X.",
+		name = "Light of the Martyrium - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -6987,7 +19326,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1820001] = {
 		map = 1820001,
-		name = "幻梦间奏曲|| ||CHAPTER EX||E.X.",
+		name = "Interlude of Illusions|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -7067,7 +19406,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1820002] = {
 		map = 1820002,
-		name = "幻梦间奏曲|| ||CHAPTER EX||E.X.",
+		name = "Interlude of Illusions|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -7147,7 +19486,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1820003] = {
 		map = 1820003,
-		name = "幻梦间奏曲·SP|| ||CHAPTER EX||E.X.",
+		name = "Interlude of Illusions - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -7227,7 +19566,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1820004] = {
 		map = 1820004,
-		name = "幻梦间奏曲·EX|| ||CHAPTER EX||E.X.",
+		name = "Interlude of Illusions - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -7307,7 +19646,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830001] = {
 		map = 1830001,
-		name = "铁翼擎风·上篇|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -7374,7 +19713,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830002] = {
 		map = 1830002,
-		name = "铁翼擎风·下篇|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -7441,7 +19780,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830011] = {
 		map = 1830011,
-		name = "铁翼擎风·上篇|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -7508,7 +19847,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830012] = {
 		map = 1830012,
-		name = "铁翼擎风·下篇|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -7575,7 +19914,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830025] = {
 		map = 1830025,
-		name = "铁翼擎风·SP|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -7625,7 +19964,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1830026] = {
 		map = 1830026,
-		name = "铁翼擎风·EX|| ||CHAPTER EX||E.X.",
+		name = "Windborne Steel Wings - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -7675,7 +20014,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1840001] = {
 		map = 1840001,
-		name = "埋葬于彼岸之花|| ||CHAPTER EX||E.X.",
+		name = "Whence Flowers Bear No Fruit|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -7752,7 +20091,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1840002] = {
 		map = 1840002,
-		name = "埋葬于彼岸之花·TP|| ||CHAPTER EX||E.X.",
+		name = "Whence Flowers Bear No Fruit - TP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -7829,7 +20168,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850001] = {
 		map = 1850001,
-		name = "唤醒苍红之炎·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -7927,7 +20266,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850002] = {
 		map = 1850002,
-		name = "唤醒苍红之炎·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -8025,7 +20364,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850011] = {
 		map = 1850011,
-		name = "唤醒苍红之炎·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -8123,7 +20462,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850012] = {
 		map = 1850012,
-		name = "唤醒苍红之炎·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -8221,7 +20560,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850025] = {
 		map = 1850025,
-		name = "唤醒苍红之炎·SP|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -8313,7 +20652,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850026] = {
 		map = 1850026,
-		name = "唤醒苍红之炎·EX|| ||CHAPTER EX||E.X.",
+		name = "Ode of Everblooming Crimson - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -8406,7 +20745,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860001] = {
 		map = 1860001,
-		name = "飓风与沉眠之海·上篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -8489,7 +20828,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860002] = {
 		map = 1860002,
-		name = "飓风与沉眠之海·下篇|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -8572,7 +20911,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860003] = {
 		map = 1860003,
-		name = "飓风与沉眠之海·SP|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -8649,7 +20988,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860004] = {
 		map = 1860004,
-		name = "飓风与沉眠之海·EX|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -8726,7 +21065,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1870001] = {
 		map = 1870001,
-		name = "危险发明迫近中！|| ||CHAPTER EX||E.X.",
+		name = "Dangerous Inventions Incoming!|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -8810,7 +21149,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1870002] = {
 		map = 1870002,
-		name = "危险发明迫近中！·进阶|| ||CHAPTER EX||E.X.",
+		name = "Dangerous Inventions Incoming! - Challenge|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -8894,7 +21233,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1870003] = {
 		map = 1870003,
-		name = "危险发明迫近中！·SP|| ||CHAPTER EX||E.X.",
+		name = "Dangerous Inventions Incoming! - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -8966,7 +21305,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1870004] = {
 		map = 1870004,
-		name = "危险发明迫近中！·EX|| ||CHAPTER EX||E.X.",
+		name = "Dangerous Inventions Incoming! - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -9039,7 +21378,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880001] = {
 		map = 1880001,
-		name = "星光下的余晖·上篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -9136,7 +21475,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880002] = {
 		map = 1880002,
-		name = "星光下的余晖·下篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -9233,7 +21572,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880011] = {
 		map = 1880011,
-		name = "星光下的余晖·上篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -9330,7 +21669,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880012] = {
 		map = 1880012,
-		name = "星光下的余晖·下篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -9427,7 +21766,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880025] = {
 		map = 1880025,
-		name = "星光下的余晖·SP|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -9515,7 +21854,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880026] = {
 		map = 1880026,
-		name = "星光下的余晖·EX|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -9604,7 +21943,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890001] = {
 		map = 1890001,
-		name = "樊笼内的神光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -9704,7 +22043,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890002] = {
 		map = 1890002,
-		name = "樊笼内的神光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -9804,7 +22143,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890011] = {
 		map = 1890011,
-		name = "樊笼内的神光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - PT.1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -9904,7 +22243,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890012] = {
 		map = 1890012,
-		name = "樊笼内的神光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - PT.2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -10004,7 +22343,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890025] = {
 		map = 1890025,
-		name = "樊笼内的神光·SP|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -10095,7 +22434,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1890026] = {
 		map = 1890026,
-		name = "樊笼内的神光·EX|| ||CHAPTER EX||E.X.",
+		name = "Paradiso of Shackled Light - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -10187,7 +22526,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1910001] = {
 		map = 1910001,
-		name = "扬起郁金之旗|| ||CHAPTER EX||E.X.",
+		name = "Toward Tulipa's Seas|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -10268,7 +22607,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1910002] = {
 		map = 1910002,
-		name = "扬起郁金之旗|| ||CHAPTER EX||E.X.",
+		name = "Toward Tulipa's Seas|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -10349,7 +22688,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1910003] = {
 		map = 1910003,
-		name = "扬起郁金之旗·SP|| ||CHAPTER EX||E.X.",
+		name = "Toward Tulipa's Seas - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -10412,7 +22751,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920001] = {
 		map = 1920001,
-		name = "高塔上的蔷薇·上篇|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -10512,7 +22851,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920002] = {
 		map = 1920002,
-		name = "高塔上的蔷薇·下篇|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -10612,7 +22951,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920011] = {
 		map = 1920011,
-		name = "高塔上的蔷薇·上篇|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -10712,7 +23051,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920012] = {
 		map = 1920012,
-		name = "高塔上的蔷薇·下篇|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -10812,7 +23151,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920025] = {
 		map = 1920025,
-		name = "高塔上的蔷薇·SP|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -10903,7 +23242,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920026] = {
 		map = 1920026,
-		name = "高塔上的蔷薇·EX|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -10995,7 +23334,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100000] = {
 		map = 2100000,
-		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11045,7 +23384,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100001] = {
 		map = 2100001,
-		name = "『红染的参访者』-后篇|| ||CHAPTER EX||E.X.",
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11095,7 +23434,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100010] = {
 		map = 2100010,
-		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
+		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11145,7 +23484,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100011] = {
 		map = 2100011,
-		name = "『红染的参访者』-后篇|| ||CHAPTER EX||E.X.",
+		name = "Visitors Dyed in Red: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11195,7 +23534,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100020] = {
 		map = 2100020,
-		name = "凛冬王冠-前篇|| ||CHAPTER EX||E.X.",
+		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11245,7 +23584,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100021] = {
 		map = 2100021,
-		name = "凛冬王冠-后篇|| ||CHAPTER EX||E.X.",
+		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11295,7 +23634,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100030] = {
 		map = 2100030,
-		name = "凛冬王冠-前篇|| ||CHAPTER EX||E.X.",
+		name = "Frigid Winter's Crown: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11345,7 +23684,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100031] = {
 		map = 2100031,
-		name = "凛冬王冠-后篇|| ||CHAPTER EX||E.X.",
+		name = "Frigid Winter's Crown: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11395,7 +23734,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100040] = {
 		map = 2100040,
-		name = "「异色格」作战-前篇|| ||CHAPTER EX||E.X.",
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11445,7 +23784,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100041] = {
 		map = 2100041,
-		name = "「异色格」作战-后篇|| ||CHAPTER EX||E.X.",
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11474,7 +23813,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100050] = {
 		map = 2100050,
-		name = "「异色格」作战-前篇|| ||CHAPTER EX||E.X.",
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11524,7 +23863,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100051] = {
 		map = 2100051,
-		name = "「异色格」作战-后篇|| ||CHAPTER EX||E.X.",
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11553,7 +23892,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100060] = {
 		map = 2100060,
-		name = "坠落之翼-前篇|| ||CHAPTER EX||E.X.",
+		name = "Fallen Wings: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11603,7 +23942,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100061] = {
 		map = 2100061,
-		name = "坠落之翼-后篇|| ||CHAPTER EX||E.X.",
+		name = "Fallen Wings: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11653,7 +23992,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100070] = {
 		map = 2100070,
-		name = "坠落之翼-前篇|| ||CHAPTER EX||E.X.",
+		name = "Fallen Wings: Prequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11703,7 +24042,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100071] = {
 		map = 2100071,
-		name = "坠落之翼-后篇|| ||CHAPTER EX||E.X.",
+		name = "Fallen Wings: Sequel || || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11753,7 +24092,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100080] = {
 		map = 2100080,
-		name = "光与影的鸢尾之华-前篇|| ||CHAPTER EX||E.X.",
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11803,7 +24142,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100081] = {
 		map = 2100081,
-		name = "光与影的鸢尾之华-后篇|| ||CHAPTER EX||E.X.",
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11832,7 +24171,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100090] = {
 		map = 2100090,
-		name = "光与影的鸢尾之华-前篇|| ||CHAPTER EX||E.X.",
+		name = "Iris of Light and Dark - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11882,7 +24221,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100091] = {
 		map = 2100091,
-		name = "光与影的鸢尾之华-后篇|| ||CHAPTER EX||E.X.",
+		name = "Iris of Light and Dark - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -11911,7 +24250,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100100] = {
 		map = 2100100,
-		name = "墨染的钢铁之花·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -11961,7 +24300,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100101] = {
 		map = 2100101,
-		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12011,7 +24350,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100110] = {
 		map = 2100110,
-		name = "墨染的钢铁之花·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ink-Stained Steel Sakura - Pt. 1|| || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12061,7 +24400,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100111] = {
 		map = 2100111,
-		name = "墨染的钢铁之花·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ink-Stained Steel Sakura - Pt. 2|| || S.P. || E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12111,7 +24450,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100120] = {
 		map = 2100120,
-		name = "苍红的回响·上篇|| ||CHAPTER EX||E.X.",
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12161,7 +24500,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100121] = {
 		map = 2100121,
-		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12211,7 +24550,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100130] = {
 		map = 2100130,
-		name = "苍红的回响·上篇|| ||CHAPTER EX||E.X.",
+		name = "Crimson Echoes - Part 1 || ||CHAPTER EX||S.P.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12261,7 +24600,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100131] = {
 		map = 2100131,
-		name = "苍红的回响·下篇|| ||CHAPTER EX||E.X.",
+		name = "Crimson Echoes - Part 2 || ||CHAPTER EX||S.P.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12311,7 +24650,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100140] = {
 		map = 2100140,
-		name = "铁血、音符与誓言·上篇|| ||CHAPTER EX||E.X.",
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12361,7 +24700,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100141] = {
 		map = 2100141,
-		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12411,7 +24750,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100150] = {
 		map = 2100150,
-		name = "铁血、音符与誓言·上篇|| ||CHAPTER EX||E.X.",
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12461,7 +24800,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100151] = {
 		map = 2100151,
-		name = "铁血、音符与誓言·下篇|| ||CHAPTER EX||E.X.",
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12511,7 +24850,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100160] = {
 		map = 2100160,
-		name = "神圣的悲喜剧·上篇|| ||CHAPTER EX||E.X.",
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12561,7 +24900,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100161] = {
 		map = 2100161,
-		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12611,7 +24950,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100170] = {
 		map = 2100170,
-		name = "神圣的悲喜剧·上篇|| ||CHAPTER EX||E.X.",
+		name = "Empyreal Tragicomedy - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12661,7 +25000,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100171] = {
 		map = 2100171,
-		name = "神圣的悲喜剧·下篇|| ||CHAPTER EX||E.X.",
+		name = "Empyreal Tragicomedy - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12711,7 +25050,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100180] = {
 		map = 2100180,
-		name = "箱庭疗法·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12761,7 +25100,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100181] = {
 		map = 2100181,
-		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12811,7 +25150,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100190] = {
 		map = 2100190,
-		name = "箱庭疗法·上篇|| ||CHAPTER EX||E.X.",
+		name = "Ashen Simulacrum - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12861,7 +25200,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100191] = {
 		map = 2100191,
-		name = "箱庭疗法·下篇|| ||CHAPTER EX||E.X.",
+		name = "Ashen Simulacrum - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -12911,7 +25250,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100200] = {
 		map = 2100200,
-		name = "浮樱影华·上篇|| ||CHAPTER EX||E.X.",
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -12961,7 +25300,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100201] = {
 		map = 2100201,
-		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13011,7 +25350,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100210] = {
 		map = 2100210,
-		name = "浮樱影华·上篇|| ||CHAPTER EX||E.X.",
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13061,7 +25400,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100211] = {
 		map = 2100211,
-		name = "浮樱影华·下篇|| ||CHAPTER EX||E.X.",
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13111,7 +25450,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100221] = {
 		map = 2100221,
-		name = "微层混合·上篇|| ||CHAPTER EX||E.X.",
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13161,7 +25500,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100222] = {
 		map = 2100222,
-		name = "微层混合·下篇|| ||CHAPTER EX||E.X.",
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13211,7 +25550,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100231] = {
 		map = 2100231,
-		name = "微层混合·上篇|| ||CHAPTER EX||E.X.",
+		name = "Microlayer Medley - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13261,7 +25600,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100232] = {
 		map = 2100232,
-		name = "微层混合·下篇|| ||CHAPTER EX||E.X.",
+		name = "Microlayer Medley - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13311,7 +25650,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100241] = {
 		map = 2100241,
-		name = "穹顶下的圣咏曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13361,7 +25700,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100242] = {
 		map = 2100242,
-		name = "穹顶下的圣咏曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13411,7 +25750,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100251] = {
 		map = 2100251,
-		name = "穹顶下的圣咏曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "Skybound Oratorio - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13461,7 +25800,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100252] = {
 		map = 2100252,
-		name = "穹顶下的圣咏曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "Skybound Oratorio - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13511,7 +25850,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100261] = {
 		map = 2100261,
-		name = "北境序曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13561,7 +25900,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100262] = {
 		map = 2100262,
-		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13611,7 +25950,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100271] = {
 		map = 2100271,
-		name = "北境序曲·上篇|| ||CHAPTER EX||E.X.",
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13661,7 +26000,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100272] = {
 		map = 2100272,
-		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13711,7 +26050,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100281] = {
 		map = 2100281,
-		name = "永夜幻光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13761,7 +26100,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100282] = {
 		map = 2100282,
-		name = "永夜幻光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13811,7 +26150,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100291] = {
 		map = 2100291,
-		name = "永夜幻光·上篇|| ||CHAPTER EX||E.X.",
+		name = "Aurora Noctis - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13861,7 +26200,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100292] = {
 		map = 2100292,
-		name = "永夜幻光·下篇|| ||CHAPTER EX||E.X.",
+		name = "Aurora Noctis - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13911,7 +26250,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100301] = {
 		map = 2100301,
-		name = "负象限作战·上篇|| ||CHAPTER EX||E.X.",
+		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13961,7 +26300,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100302] = {
 		map = 2100302,
-		name = "负象限作战·下篇|| ||CHAPTER EX||E.X.",
+		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14011,7 +26350,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100311] = {
 		map = 2100311,
-		name = "负象限作战·上篇|| ||CHAPTER EX||E.X.",
+		name = "Inverted Orthant - Part 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14061,7 +26400,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100312] = {
 		map = 2100312,
-		name = "负象限作战·下篇|| ||CHAPTER EX||E.X.",
+		name = "Inverted Orthant - Part 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14111,7 +26450,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100321] = {
 		map = 2100321,
-		name = "蝶海梦花·现世|| ||CHAPTER EX||E.X.",
+		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14161,7 +26500,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100322] = {
 		map = 2100322,
-		name = "蝶海梦花·梦境|| ||CHAPTER EX||E.X.",
+		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14211,7 +26550,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100331] = {
 		map = 2100331,
-		name = "蝶海梦花·现世|| ||CHAPTER EX||E.X.",
+		name = "Dreamwaker's Butterfly - Reality|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14261,7 +26600,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100332] = {
 		map = 2100332,
-		name = "蝶海梦花·梦境|| ||CHAPTER EX||E.X.",
+		name = "Dreamwaker's Butterfly - Dreamworld|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14311,7 +26650,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100341] = {
 		map = 2100341,
-		name = "镜位螺旋·上篇|| ||CHAPTER EX||E.X.",
+		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14361,7 +26700,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100342] = {
 		map = 2100342,
-		name = "镜位螺旋·下篇|| ||CHAPTER EX||E.X.",
+		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14411,7 +26750,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100351] = {
 		map = 2100351,
-		name = "镜位螺旋·上篇|| ||CHAPTER EX||E.X.",
+		name = "Mirror Involution - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14461,7 +26800,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100352] = {
 		map = 2100352,
-		name = "镜位螺旋·下篇|| ||CHAPTER EX||E.X.",
+		name = "Mirror Involution - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14511,7 +26850,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100361] = {
 		map = 2100361,
-		name = "破晓冰华·上篇|| ||CHAPTER EX||E.X.",
+		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14561,7 +26900,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100362] = {
 		map = 2100362,
-		name = "破晓冰华·下篇|| ||CHAPTER EX||E.X.",
+		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14611,7 +26950,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100371] = {
 		map = 2100371,
-		name = "破晓冰华·上篇|| ||CHAPTER EX||E.X.",
+		name = "Khorovod of Dawn's Rime - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14661,7 +27000,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100372] = {
 		map = 2100372,
-		name = "破晓冰华·下篇|| ||CHAPTER EX||E.X.",
+		name = "Khorovod of Dawn's Rime - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14711,7 +27050,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100381] = {
 		map = 2100381,
-		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14761,7 +27100,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100382] = {
 		map = 2100382,
-		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14811,7 +27150,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100391] = {
 		map = 2100391,
-		name = "碧海光粼·上篇|| ||CHAPTER EX||E.X.",
+		name = "Upon the Shimmering Blue - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14861,7 +27200,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100392] = {
 		map = 2100392,
-		name = "碧海光粼·下篇|| ||CHAPTER EX||E.X.",
+		name = "Upon the Shimmering Blue - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -14911,7 +27250,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100401] = {
 		map = 2100401,
-		name = "复兴的赞美诗·上篇|| ||CHAPTER EX||E.X.",
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -14961,7 +27300,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100402] = {
 		map = 2100402,
-		name = "复兴的赞美诗·下篇|| ||CHAPTER EX||E.X.",
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15011,7 +27350,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100411] = {
 		map = 2100411,
-		name = "复兴的赞美诗·上篇|| ||CHAPTER EX||E.X.",
+		name = "Daedalian Hymn - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15061,7 +27400,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100412] = {
 		map = 2100412,
-		name = "复兴的赞美诗·下篇|| ||CHAPTER EX||E.X.",
+		name = "Daedalian Hymn - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15111,7 +27450,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100421] = {
 		map = 2100421,
-		name = "逆转彩虹之塔·上篇|| ||CHAPTER EX||E.X.",
+		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15161,7 +27500,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100422] = {
 		map = 2100422,
-		name = "逆转彩虹之塔·下篇|| ||CHAPTER EX||E.X.",
+		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15211,7 +27550,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100431] = {
 		map = 2100431,
-		name = "逆转彩虹之塔·上篇|| ||CHAPTER EX||E.X.",
+		name = "Tower of Transcendence - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15261,7 +27600,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100432] = {
 		map = 2100432,
-		name = "逆转彩虹之塔·下篇|| ||CHAPTER EX||E.X.",
+		name = "Tower of Transcendence - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15311,7 +27650,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100441] = {
 		map = 2100441,
-		name = "深度回音·上篇|| ||CHAPTER EX||E.X.",
+		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15361,7 +27700,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100442] = {
 		map = 2100442,
-		name = "深度回音·下篇|| ||CHAPTER EX||E.X.",
+		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15411,7 +27750,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100451] = {
 		map = 2100451,
-		name = "深度回音·上篇|| ||CHAPTER EX||E.X.",
+		name = "Abyssal Refrain - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15461,7 +27800,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100452] = {
 		map = 2100452,
-		name = "深度回音·下篇|| ||CHAPTER EX||E.X.",
+		name = "Abyssal Refrain - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15511,7 +27850,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100461] = {
 		map = 2100461,
-		name = "泠誓光庭·上篇|| ||CHAPTER EX||E.X.",
+		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15590,7 +27929,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100462] = {
 		map = 2100462,
-		name = "泠誓光庭·下篇|| ||CHAPTER EX||E.X.",
+		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15669,7 +28008,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100471] = {
 		map = 2100471,
-		name = "泠誓光庭·上篇|| ||CHAPTER EX||E.X.",
+		name = "Pledge of the Radiant Court - PT. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15748,7 +28087,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100472] = {
 		map = 2100472,
-		name = "泠誓光庭·下篇|| ||CHAPTER EX||E.X.",
+		name = "Pledge of the Radiant Court - PT. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15827,7 +28166,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100481] = {
 		map = 2100481,
-		name = "雄鹰的叙事歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15877,7 +28216,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100482] = {
 		map = 2100482,
-		name = "雄鹰的叙事歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -15927,7 +28266,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100491] = {
 		map = 2100491,
-		name = "雄鹰的叙事歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "Aquilifer's Ballade - Pt. 1|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -15977,7 +28316,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2100492] = {
 		map = 2100492,
-		name = "雄鹰的叙事歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "Aquilifer's Ballade - Pt. 2|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -16027,7 +28366,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200000] = {
 		map = 2200000,
-		name = "努力、希望和计划|| ||CHAPTER SP||S.P.",
+		name = "Strive, Wish, and Strategize || || Chapter SP || S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16077,7 +28416,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200010] = {
 		map = 2200010,
-		name = "围剿{namecode:431}！|| ||CHAPTER SP||S.P.",
+		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16127,7 +28466,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200020] = {
 		map = 2200020,
-		name = "朱诺行动|| ||CHAPTER SP||S.P.",
+		name = "Operation Juno|| ||CHAPTER SP||S.P. ",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16177,7 +28516,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200030] = {
 		map = 2200030,
-		name = "月光下的序曲|| ||CHAPTER SP||S.P.",
+		name = "Moonlit Overture|| ||CHAPTER SP||S.P. ",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16201,7 +28540,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
 		animtor = 0,
-		bind_map = 1130100,
+		bind_map = 0,
 		clouds_pos = {
 			{
 				332,
@@ -16227,7 +28566,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200040] = {
 		map = 2200040,
-		name = "激奏的Polaris|| ||CHAPTER EX||S.P.",
+		name = "Passionate Polaris|| ||CHAPTER SP||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -16277,7 +28616,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200050] = {
 		map = 2200050,
-		name = "斯图尔特的硝烟|| ||CHAPTER SP||S.P.",
+		name = "The Solomon Ranger|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16327,7 +28666,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200060] = {
 		map = 2200060,
-		name = "最珍贵的宝物|| ||CHAPTER SP||S.P.",
+		name = "The Enigma and the Shark|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16377,7 +28716,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200070] = {
 		map = 2200070,
-		name = "激唱的Universe|| ||CHAPTER EX||E.X.",
+		name = "Universe in Unison|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -16427,7 +28766,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200080] = {
 		map = 2200080,
-		name = "峡湾间的星辰|| ||CHAPTER SP||S.P.",
+		name = "Stars of the Shimmering Fjord|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16456,7 +28795,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200090] = {
 		map = 2200090,
-		name = "夜幕下的归途|| ||CHAPTER SP||S.P.",
+		name = "The Way Home in the Night|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16506,7 +28845,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200100] = {
 		map = 2200100,
-		name = "峡湾间的反击|| ||CHAPTER SP||S.P.",
+		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16556,7 +28895,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200110] = {
 		map = 2200110,
-		name = "划破海空之翼|| ||CHAPTER SP||S.P.",
+		name = "Sundered Blue|| ||CHAPTER SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16606,7 +28945,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200120] = {
 		map = 2200120,
-		name = "杰诺瓦的焰火|| ||CHAPTER SP||S.P.",
+		name = "The Flame-Touched Dagger|| ||Chapter SP||S.P.",
 		level_limit = 1,
 		type = 3,
 		anchor = "",
@@ -16656,7 +28995,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200130] = {
 		map = 2200130,
-		name = "虚像构筑之塔·序章|| ||CHAPTER EX||E.X.",
+		name = "Virtual Tower|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -16732,5 +29071,192 @@ pg.base.expedition_data_by_map = {
 				}
 			}
 		}
+	},
+	[9920001] = {
+		map = 9920001,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30253,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 9920011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[9920002] = {
+		map = 9920002,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30253,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 9920012,
+		clouds_pos = {}
+	},
+	[9920011] = {
+		map = 9920011,
+		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20000",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "purple",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30253,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 0,
+		bind_map = 9920001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[9920012] = {
+		map = 9920012,
+		name = "Operation Divergent Chessboard Sequel|| S.P. || E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30253,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 9920002,
+		clouds_pos = {}
+	},
+	[9920021] = {
+		map = 9920021,
+		name = "Operation Divergent Chessboard EX|| S.P. || E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "level02",
+		enter_story = "UIACT20001",
+		ani_name = "Tornado",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 30253,
+		ui_type = 1,
+		bg = "map_1000000",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 9920012,
+		clouds_pos = {}
 	}
 }

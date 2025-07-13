@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "复制体唯虽然有着强大的力量，但在众人的联手攻击下，也逐渐开始支撑不住。",
+			say = "Strong or not, the doppelganger gradually began to falter in the face of their combined assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "接招吧，你这个冒牌货！",
+			say = "Take this, you faker!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "说着，古手川唯开始对复制体发起更为猛烈的攻击。",
+			say = "Yui Kotegawa launched her own powerful attack on the copy of herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "嘿嘿，看起来复制体的实力也不过如此嘛。",
+			say = "Heheh, this doppelganger isn't THAT strong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "古手川，娜娜，不要大意！",
+			say = "Kotegawa, Nana! Don't let your guard down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "仿佛是为了回应梦梦的提醒，复制体的身体突然爆发出强烈的光芒，将众人逼退。",
+			say = "Perhaps responding to Momo's warning, the doppelganger suddenly burst with a harsh light. Everyone surrounding it was forced back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这是……？",
+			say = "What's going on now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
-			say = "光芒散去，复制体唯的身影已经消失不见，取而代之的是一块散发着奇异光芒的能量石。",
+			say = "When the light faded, the doppelganger was gone – replaced with a crystallization of energy that gleamed with an eerie light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "啊……我想起来了！在开发的时候，我想着因为玩游戏没有目标也会很无聊嘛……",
+			say = "Oh... That's right! When I was developing Questy, I figured every game needs an overarching goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以加入了一个“打倒目标后会掉落能量石”的设定来着！这个应该就是能量石！",
+			say = "So I made it so that you get special Energy Stones when you take down certain foes~ I think that's one of those!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "如果能收集到足够的数量，说不定就能开启什么新功能，让它重新链接回我们的世界！",
+			say = "If we get a lot of them, we should unlock new powers. They might even help us get back to our world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "这么说，当务之急是找到所有的能量石，这样我们就能返回原来的世界了？",
+			say = "Are you saying we can go home if we gather them all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯！应该就是这样！",
+			say = "Yep! I think so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "听起来倒是很简单……",
+			say = "You make it sound simple...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_539",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但消灭复制体没有那么轻松。",
+			say = "Defeating doppelgangers isn't easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，但本王认为这至少是个好的开始。",
+			say = "Well, at least you have a plan now. That must count for something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有了目标，港区就能有针对性的为你们提供帮助了。",
+			say = "And with a clear objective in mind, the port can provide more targeted support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，既然战斗结束，这里也没什么好看的，我们回港口休息吧。",
+			say = "Now, I believe the battlefield has settled for the time being. No point in staying here – shall we return to the base and rest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

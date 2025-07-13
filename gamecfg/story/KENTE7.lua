@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"GO！肯特选手！\n\n<size=45>七 永远在一起！</size>",
+					"Unbridled Positivity\n\n<size=45>Chapter 7 - Together Forever!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "肯特担任秘书舰以来，已经经过了有一段时间。",
+			say = "Kent has been my secretary ship for quite some time now.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与一开始相比，如今已经对彼此都有了更深的了解。",
+			say = "We have a much deeper understanding of each other than we did on that first day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "所以能够明白， 一旦告诉肯特那件事，她一定会——",
+			say = "So I know when I tell her this, she’ll definitely say—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "――Wonderful！！我已经坐不住啦！唔…抱歉指挥官！我先去看看！",
+			say = "—Wonderful! I can hardly contain myself! Oh... sorry, Commander! I have to go see!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "莽撞的部分还是一如既往，肯特激动地冲向了“某个地方”。",
+			say = "She’s still reckless as she ever was. She’s already rushing off “somewhere”.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也好，跟着她一起去看看吧。",
+			say = "Well, I might as well go with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被已经先到的肯特发现了，只见她用力地挥舞着手臂，笑得十分开心。",
+			say = "Kent catches sight of me, having been there a while already. She waves her arms excitedly with a big smile on her face.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "HEY！指挥官！这里就是新的指挥室吗？",
+			say = "HEY! Commander! Is this the new office?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错，其实就是把指挥室从旧楼搬到了新楼。",
+			say = "It is. We’re moving my office to a new building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总体的布局并没有太多改变，只是新的指挥室里，不但有肯特专用的座位，还有厨房和缝纫设备。",
+			say = "The general layout hasn’t changed, but the new office has a dedicated seat for Kent, as well as a kitchen and sewing equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,23 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "以及——她的小伙伴老虎。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这里对肯特选手来说，已经变成可以待一整天的场所了呢！指挥官觉得呢？",
+			say = "Also... her little tiger friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +236,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官会想要和肯特选手一直在一起吗？",
+			say = "Now this is a place I could spend all day! What do you think, Commander?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Will you want to stay with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,11 +263,11 @@ return {
 			},
 			options = {
 				{
-					content = "想常伴在充满活力的你身边。",
+					content = "I want to stay by your infinitely energetic side.",
 					flag = 1
 				},
 				{
-					content = "Love！当然愿意！",
+					content = "I'd love to.",
 					flag = 2
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿…既然指挥官都这么说了，肯特选手当然没有拒绝的理由！",
+			say = "Heh heh... When you come out and say it like that, how could I refuse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和肯特一起开心地笑了起来——想必今天也会是个手忙脚乱，又让人快活的一天吧。",
+			say = "I share a good laugh with Kent... I think it’s going to be another busy, joyous day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "要永远永远和肯特选手在一起哦！指挥官！",
+			say = "You’re with Kent forever now, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

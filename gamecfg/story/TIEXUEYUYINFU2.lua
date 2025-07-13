@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第一乐章\n\n<size=45>「来世之人～Von den Hinterweltlern～」</size>",
+					"Second Movement\n\n<size=45>Backworldsmen</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "清晨，海域坐标：？？？，？？？",
+			say = "Mission area, location undisclosed - Early dawn",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "威尔士亲王已经往东南方向撤退了，海面上没有敌影",
+			say = "So, in summary, Hood is out of commission and Wales fled southeast. And now it's gotten very quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可以适当减慢航速了吧，在这样的海况下保持全速航行实在是太勉强了",
+			say = "Bismarck, could we slow down a little? It's pretty unpleasant to cruise at full speed on these harsh waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "再说皇家内部现在应该已经陷入混乱，恐怕也抽不出精力来追击…",
+			say = "The situation with Hood has put the Royal Navy in disarray, so even if somebody comes after us, they'll probably be lagging behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "不要轻敌！皇家的舰队不会就此善罢甘休的",
+			say = "Don't underestimate them. I doubt the Royal Navy would stand on the sidelines and wait around after what happened.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "…",
+			say = "……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但是你身上的伤…",
+			say = "How are your injuries? I know you used your power, but even so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "暂时不会造成大问题，跟紧逼而来的威胁相比，这点损伤不值一提",
+			say = "I'm fine. They're little more than a passing thought in my mind in comparison to the imminent threat of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "又在说这种话了",
+			say = "If you say so. But spare me the tough girl act, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "{namecode:428}，听从命令。",
+			say = "Eugen, stay in formation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "不管了~我要休息一下，你就趁机稍微处理一下吧",
+			say = "Sorry, no can do. I'm running on fumes. You should take a moment to catch your own breath, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "你……",
+			say = "Eugen, you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "阻止旗舰乱来也是伴随舰的职责哦~",
+			say = "Is it not my duty to stop my leader from making reckless decisions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "唯独在辩歪理上，我是无法赢过你的，{namecode:428}。",
+			say = "... I must say, nobody interjects better than you at times like this, Eugen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "多谢夸奖~",
+			say = "Thanks, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

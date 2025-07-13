@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
-			say = "一颗颗炮弹如同萤火，消失在浩瀚的星光中。",
+			say = "The cannon fire vanished like fireflies in the black, starry sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——˛ť×ÔÁżÁŚ/*不自量力*/",
+			say = "PUZVSLUA PUZLJAZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÓŠťđÖŽšâ/*萤火之光*/",
+			say = "FVB HYL IBA MPYLMSPLZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——°˛ÓëČşĐÇŐůťÔ/*安与群星争辉*/",
+			say = "FVBY SPNOA PZ UVAOPUN JVTWHYLK AV AOL YHKPHUJL VM AOL ZAHYZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "P HT AOL ZAHY ILHZA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "NBPKPUN AOL ZAHYZ KV P HWWLHY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "ILHYPUN AOL ZAHYZ KV P SLHCL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——łźˇţÓÚÎá/*臣服于吾*/",
+			say = "IVD KVDU ILMVYL TL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÔŢÎáÖŽĂű/*赞吾之名*/",
+			say = "ZPUN OFTUZ AV TF UHTL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——×ńÎáëˇĂü/*遵吾敕命*/",
+			say = "OLLK TF JVTTHUKZ HUK VILF",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = 9703050,
-			say = "绝不。今日，我要战胜你。",
+			say = "Enough talk! You die now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = 9703050,
-			say = "不但是为妹妹们报仇，而且……我要为了明日而战，为了{namecode:425:希佩尔海军上将}级的明日而战！",
+			say = "I'll defeat you... not just to avenge my sisters, but for the sake of a bright future for the Admiral Hipper class!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——˛ť×ÔÁżÁŚ/*不自量力*/",
+			say = "PUZVSLUA PUZLJAZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "嗡——",
+			say = "BZZZZT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
-			say = "奇异的响声向着失去屏障保护的{namecode:426:希佩尔}直冲而来。",
+			say = "When she leaves the safety of the barrier, the Star Beast launches an attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_7",
 			hidePaintObj = true,
-			say = "不过随着一阵柔和的光芒，躁动声消失了。",
+			say = "However, the crushing noise is erased by soft light.",
 			bgm = "story-ironblood-light",
 			typewriter = {
 				speed = 0.05,
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "想欺负姐姐，问过我们的意见了么？",
+			say = "Bullying poor Hipper? Not on my watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "哼，姐姐！让我们一起给这个大家伙来点教训吧！",
+			say = "Heheh☆ Hipper! Let's punish this big lug together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_7",
 			hidePaintObj = true,
-			say = "柔和的光芒中，出现了两个绝不应该出现的人影。",
+			say = "Two people thought long lost appear on the scene.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_7",
 			hidePaintObj = true,
-			say = "她们一左一右凭空漂浮在{namecode:426:希佩尔}的身旁，将炮口指向了共同的方向。",
+			say = "The girls on Hipper's flanks point their guns in the same direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "{namecode:428:欧根}……{namecode:450:布吕歇尔}……你们不是已经……",
+			say = "Eugen, Blücher... Shouldn't the two of you be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "这怎可能……？",
+			say = "No way. This isn't real...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "你们是幽灵……幻觉？还是什么？！",
+			say = "Are you ghosts? Hallucinations? Or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "呃……姐姐，你冷静！",
+			say = "Geez~ Settle down, Sis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "事情是你想的那样，但又不完全是你想的那样……",
+			say = "You're not wrong, but that doesn't mean you're right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "唔，也可能完全不是你想的那样……",
+			say = "Well, uh, maybe you are actually wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "哇啊啊……完全说不清楚啊……！",
+			say = "Aargh, I don't understand it well enough to explain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "{namecode:428:欧根}帮我！",
+			say = "Eugen, help me out here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "嗯——简而言之，我们是基于你的心愿而现身的。",
+			say = "Basically, your wishes took form as us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "你想用希望开辟{namecode:426:希佩尔}级的未来，我们怎么能让你一个人孤军而战呢？",
+			say = "You wished to make a new future for the Admiral Hipper class. How could we let you do it alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "真的是……你们？",
+			say = "Is it... really you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "嗯，我们回来了……虽然是暂时的。",
+			say = "Yeah, we're back. Only for a while, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_7",
-			say = "……姐姐，一直以来辛苦你了。",
+			say = "Hipper... Thanks for all you've done in our stead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "P HT AOL ZAHY ILHZA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "NBPKPUN AOL ZAHYZ KV P HWWLHY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "ILHYPUN AOL ZAHYZ KV P SLHCL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĚěľŘÎŰ×Ç/*天地污浊*/",
+			say = "AOL DVYSK OHZ ILLU ZBSSPLK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ËéśřşóÉú/*碎而后生*/",
+			say = "IBYU PA KVDU P ZOHSS HUK PA DPSS IL YLIVYU",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_5",
 			hidePaintObj = true,
-			say = "刺眼的白光开始在星空中凝聚。",
+			say = "Blinding light condenses beneath the starry sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_5",
-			say = "啧……居然来打扰这感动的一刻，这么着急去死么？",
+			say = "Tch... Interrupting our touching reunion? You're as dense as they come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_5",
-			say = "大怪兽，你等着，马上来收拾你！",
+			say = "Hey, you big lug! I'm gonna beat the tar outta you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "啊！{namecode:428:欧根}、布吕希尔……你们回到屏障内去！",
+			say = "Wait! Eugen, Blücher! Get back in the barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "你们不是它的对手！",
+			say = "You two can't take that thing on alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_5",
-			say = "放心吧，姐姐，一切有我。",
+			say = "Don't worry about us. We have each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			bgName = "bg_yuhui_cg_5",
-			say = "姐姐，我们与你一起消灭它！",
+			say = "Yeah! Let's win this together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

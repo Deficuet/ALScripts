@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "米德加尔特之塔周边的战斗依然持续着。",
+			say = "Mirror Sea - α phase",
 			bgm = "battle-siren-centraltower",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "随后{namecode:464}的作战计划实施，塞壬舰队逐渐锁定了新的交战目标。",
+			say = "Thanks to the team's coordinated efforts, nearly all Sirens had been lured away from U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "原本战场的正中心，只剩下了{namecode:416}、{namecode:435}，还有少量依然在运作的代行者。",
+			say = "Now only a few remained at the center of the battlefield – Bismarck, U-556, and a few Enforcers who were dead-set on fighting despite their injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			actorName = "革律翁",
-			say = "▁▂▃▄▅▆▇███*猛烈地咆哮*██▌",
+			actorName = "Geryon",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "现在战场的的正中心，只剩下了{namecode:416}与{namecode:435}。",
+			say = "With a simple order to her rigging, Bismarck forced the Enforcers to flee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,8 +96,8 @@ return {
 			bgName = "bg_bsmre_4",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "碍事的人只剩你一个了么？！",
+			actorName = "U-556 META?",
+			say = "You're the last one standing in my way...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,8 +114,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "很好……那就让我们速战速决吧！",
+			actorName = "U-556 META?",
+			say = "Fine, I'll make this quick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,8 +132,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐还在等着我！没有时间跟你浪费了！",
+			actorName = "U-556 META?",
+			say = "My Lord needs me! I have no time to waste on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "{namecode:416}陡然加速，向着{namecode:435}的位置径直冲了过来。",
+			say = "U-556 mounted her rigging and rushed straight towards Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*不满地咆哮*██▌",
+			say = "ROOOAAGHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "咚————！",
+			say = "The giant mechanical dragon moved on its own accord, forming a shield with its wings to halt the submarine's attack.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "革律翁的双翼挡住了{namecode:416}的攻击，进攻受阻的{namecode:416}暂时后退，钻入了水下。",
+			say = "Her attack neutralized, U-556 dove back beneath the waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "革律翁，退下。",
+			say = "Enough, Geryon. Get back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,11 +253,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*疑惑地低吼*██▌",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "退下，这里的事交给我。",
+			say = "Good boy. Let me handle this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "革律翁像是有些不满地摇了摇头，飞到了空中。",
+			say = "At Bismarck's command, the steel beast reluctantly stood down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "{namecode:435}向后退了一步，脚下的海水传来阵阵波动。",
+			say = "She, too, took a step back, and that's when the water under her feet shook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,8 +313,8 @@ return {
 			bgName = "bg_bsmre_4",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "有破绽~这样就，结束了——！",
+			actorName = "U-556 META?",
+			say = "You're wide open! It's oveeer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "{namecode:416}再次从水中跃起，{namecode:435}没有躲避。",
+			say = "U-556 reemerged, her weapons pointed straight at Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "而是在她冲上来的瞬间，张开双臂将她纳入怀中。",
+			say = "Bismarck answered the attack with open arms, embracing her dear friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错……这样就，结束了。",
+			say = "You're right. It's over now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "漆黑的海水中，只有头顶有些许光芒，在那里，一个人影正在缓缓下沉。",
+			say = "The girl had a nightmare. A lonesome, fading light, just barely illuminating the figure of a person important to her sinking deeper into the depths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:435}姐姐！",
+			say = "Lord Bismaaarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,11 +441,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "坚持住，我马上就来了！",
+			say = "Hang in there! I'm coming for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "{namecode:416}拼尽全力向着那个下沉的身影游去。",
+			say = "Her engines sputtered. She had already pushed them beyond their breaking point, and they threatened to give out at any moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "不知何时，黑色的雾气遮蔽了视野，敌人不断从少女身边出现，前进的阻力也变得越来越大。",
+			say = "Enemy after enemy emerged from the dark. A black mist congealed around her, becoming thicker and thicker. The currents seemed to be pushing her back towards the surface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,11 +480,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "可恶，这些东西是从哪里来的？！",
+			say = "Where are all these jerks coming from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,11 +497,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:435}姐姐……等我！",
+			say = "Ugh... Lord Bismarck! Just wait for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,11 +509,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "说好了的……就算用拖的也要把你带回去！",
+			say = "I promised I'd bring you back home even if I have to tow you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,8 +524,8 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			actorName = "{namecode:416}",
-			say = "可恶，可恶——！",
+			actorName = "U-556",
+			say = "They just won't stop coming... I...",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			actorName = "{namecode:416}",
-			say = "不要来碍我的事！！！",
+			actorName = "U-556",
+			say = "...Get the hell out of my way!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "撕裂、聚集、消灭、重生。",
+			say = "She shot at the shadows, clawed at them, tore at them with her teeth, but it was no use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "这些黑影，就像是嘲弄般横挡在{namecode:416}和那个身影之间。",
+			say = "Every time she destroyed them, they would form again between her and her sinking friend, as if mocking her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "不论如何努力，却始终咫尺天涯。",
+			say = "Despite her best efforts, her slender fingertips could never reach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,11 +658,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:435}姐姐，请再等等我……",
+			say = "Lord Bismarck... Wait... Hang on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,11 +670,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "等我解决掉这些东西之后就去救你…………",
+			say = "I just need to deal with these things... Then I'll be right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,11 +682,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "{namecode:435}……姐姐……",
+			say = "Just wait for me... Please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
-			say = "少女的视线逐渐模糊起来，但努力伸出去的手，却始终没有垂下。",
+			say = "Tears clouded her eyes. Her Lord sank deeper and deeper, until nothing but darkness remained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,9 +710,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
 			bgm = "bsm-6",
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "{namecode:416}，已经没事了。",
+			say = "Everything is fine now, U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "黑暗中，一个声音响起。",
+			say = "From the darkness, a voice called out to the little girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "少女强撑着睁开眼睛。",
+			say = "She gathered her courage and opened her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "那团朦胧的光芒逐渐变得清晰。",
+			say = "The dim light gradually became brighter, revealing the source of the voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "下沉的背影在眼前逐渐变成了熟悉的面孔。",
+			say = "There she was. The person she couldn't save in her nightmares.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,12 +783,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐……我，赶上了么……",
+			say = "Lord Bismarck...? You're... not dead?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，你最后赶到了，还记得么。",
+			say = "No. You saved me, don't you remember?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,12 +820,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "是啊……嘿嘿…………我最后赶到了啊……",
+			say = "Oh, yeah... I remember now... Thank goodness I wasn't too late...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,12 +839,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐，我刚刚做了个噩梦。",
+			say = "You know, I had the worst nightmare just now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,12 +858,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "在梦里，我拼尽全力，但是怎么也赶不到你那里……",
+			say = "You were sinking, and no matter how hard I tried, I couldn't reach you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "梦只是梦而已，你看，我现在不是好好站在这里么。",
+			say = "That's all it was. A nightmare. Look, I'm here with you now, alive and well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,12 +895,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "是啊……{namecode:435}姐姐和我一起……站在…………",
+			say = "Yeah... You're here with me, and...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,12 +914,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "海面下？！",
+			say = "We're... underwater?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "呵呵，欢迎回来，我小小的海上骑士。",
+			say = "Haha. That we are, my little Parzival.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "让这场噩梦结束吧————",
+			say = "Come on. It's time to wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -982,7 +982,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "一段时间后————",
+			say = "Some time later...",
 			bgm = "theme-bismark-reborn",
 			typewriter = {
 				speed = 0.05,
@@ -1012,7 +1012,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}，我们的战斗结束了。",
+			say = "Bismarck, we're done on our end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1030,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "你这边……看上去也结束了呢。",
+			say = "And... looks like you've taken care of business as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1046,9 +1046,9 @@ return {
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "啊，是{namecode:464}大人！你平安无事啊！",
+			say = "Ulrich! Are you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "这是我想说的话……",
+			say = "I should be asking you that. How are you holding up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,7 +1093,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在你能认出我是谁了么！",
+			say = "Hey! Hey! Do you recognize me now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1107,12 +1107,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "嗯！你是{namecode:491}！",
+			say = "Yeah... You're Jade.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1129,7 +1129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我呢，我呢！",
+			say = "And me? Remember my name?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,9 +1155,9 @@ return {
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "{namecode:513}！",
+			say = "Hi, Otto!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "太好了……{namecode:416}的理性真的回归了。",
+			say = "Phew... At least she's come back to her senses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不过样子还没变回来。",
+			say = "But, she still doesn't look like she used to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1211,7 +1211,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……已经太迟了么。",
+			say = "Seems like we were too late after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,7 +1229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不……现在还不能下定论。",
+			say = "No. Let's not jump to conclusions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1246,7 +1246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经尽可能做了应急处理，剩下的……要等回去之后在医疗设施里才能处理。",
+			say = "I used Geryon to administer some emergency treatment, but this corruption seems to be a lot more persistent and hasn't disappeared in its entirety. I fear we'll need to confront the one behind all this first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1278,12 +1278,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "{namecode:435}姐姐不用太在意啦，这一身样子还蛮帅的！",
+			say = "It's totally fine, Lord Bismarck! I dig my new look!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1309,9 +1309,9 @@ return {
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "战斗起来也感觉充满力量！我会用这股新的力量守护大家的！",
+			say = "Plus, I feel like I get stronger the more I fight. I can protect you better than ever before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1329,7 +1329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不行！接下来的战斗里，不到万不得已，你不要加入战斗。",
+			say = "U-556... Unless absolutely necessary, I don't want you fighting at all until we return to the Floating Fortress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1346,7 +1346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要轻易使用这股力量……不然META化对你的侵蚀会越来越严重的。",
+			say = "The power you feel now is the same mistake I once made – the power of the Black Cube. Don't use this power lightly, or you'll only worsen your condition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1360,12 +1360,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "欸？！是这样么……",
+			say = "Wh-what?! Really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1389,12 +1389,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			dir = 1,
 			actor = 9708010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "既然姐姐这么说，我会听的！",
+			say = "I mean... If you're sure, then I'll do as you say!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1411,7 +1411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了！虽然出了些波折，不过大家总算都成功汇合了。",
+			say = "Well... Happy ending, I guess? Everyone's safe and sound, despite everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1428,7 +1428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "剩下来要做的事……只有一件了吧。",
+			say = "Now all that's left is to find a way out of here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1443,7 +1443,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
-			say = "众人望向那座向着天空散发出耀眼光芒的巨大装置。",
+			say = "The girls turned their eyes towards the Tower of Midgard and the beacon of light pouring from its gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1456,7 +1456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……前进的路只有一条。走吧，我们再次穿越米德加尔特之塔。",
+			say = "Let's get going. There's only one way home.",
 			painting = {
 				alpha = 0.3,
 				time = 1

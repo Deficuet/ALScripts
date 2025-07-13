@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>二　看板娘的日常</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 2: Daily Life of a Shopkeeper</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·军火商店",
+			say = "Port - Supply Shop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "休息日，躲在商店外的灌木里，悄悄观察店内的情况。",
+			say = "On my day off, I decided to hide in the bushes next to the shop to see just what was going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:20}，拜托你的那个到货了吗？",
+			say = "Shiranui, did the package I asked you for arrive yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有，到了的话我会亲自给你送过去的。",
+			say = "Not yet, but I will deliver it to you myself once I get it.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就谢谢了，老样子，不要让大家知道哦？",
+			say = "All right, thanks. As usual, keep it on the down low, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道，虽然我觉得迟早……不，肯定已经有人发现你的“秘密”了。",
+			say = "I know. Although sooner or later... no, someone surely has discovered your \"secret\" by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还真是一如既往地嘴上不饶人……算了，总之拜托你了。",
+			say = "You sure don't hold any punches with your straightforwardness... Oh well, I'm counting on you again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。",
+			say = "Mhm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:20}，还是老样子守着寒酸的店呢~",
+			say = "Shiranui, I see you're still holding down this shabby fort like always.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也是老样子，开口没有好话呢。",
+			say = "I see you're still running your mouth like always.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "彼此彼此~",
+			say = "You're one to talk~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:129}，不要这么讲话啦……",
+			say = "H-Hatsushimo, don't talk like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事的啦，{namecode:30}，{namecode:129}和{namecode:20}见面就会拌嘴又不是第一天了~",
+			say = "It's totally fine, Hatsuharu, getting into a spat is just the daily routine for these two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要说的好像我们关系很好的样子……",
+			say = "Don't make it sound like we get along...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总而言之，既然来了，就随便看看吧。",
+			say = "Having said all that, since you're already here, might as well come in and take a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………",
+			say = "... ... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼，然后是……稍微确认一下{namecode:21}要用的忍具和{namecode:135}的人偶材料吧。",
+			say = "Phew, after that... let me check on the status of Kuroshio's ninja equipment and Oyashio's doll supplies.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，{namecode:142}拜托的新布料应该这两天也到货了吧……",
+			say = "That's right, the new fabrics that Urakaze asked for should be here in about two days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……从旁观者的角度来看，{namecode:20}好像确实是个相当出色的老板娘。",
+			say = "...From an observer's standpoint, one has to admit that Shiranui is a pretty diligent shopkeeper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

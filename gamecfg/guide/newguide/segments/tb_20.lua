@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击头像，进入个人信息页面。",
+				text = "Tap the icon to go to your Profile.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -46,7 +46,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击更换秘书舰",
+				text = "Tap the Secretary button to change secretaries.",
 				mode = 2,
 				posY = -281.6,
 				char = 1,
@@ -65,7 +65,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击按钮前往特殊秘书舰界面。",
+				text = "The newly added special secretary slot is shown here.",
 				mode = 2,
 				posY = 0,
 				char = 1,
@@ -84,7 +84,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在这里可以将已解锁的角色更换为秘书舰。",
+				text = "You can select unlocked characters as special secretaries here.",
 				mode = 2,
 				posY = -59.66,
 				char = 1,
@@ -95,7 +95,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "更多角色外形可通过在「养成计划」中达成不同条件解锁。",
+				text = "Unlock different endings in Project Identity to get more clothing modules.",
 				mode = 2,
 				posY = -59.66,
 				char = 1,

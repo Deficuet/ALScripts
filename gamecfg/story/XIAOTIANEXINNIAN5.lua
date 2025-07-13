@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>五 来自{namecode:98}的盛装</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 5 A Gift From Akashi</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·重樱宿舍",
+			say = "Port - Sakura Empire Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……虽然说带了客人回来{namecode:98}很高兴喵……但是……",
+			say = "Nyah... I'm glad you brought me some customers and all, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边可没有给这么多人换的衣服呀",
+			say = "I should've guessed you don't stock clothes for this many people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么白鹰和皇家的各位会……",
+			say = "But then how will we help our freezing Union and Royal Navy friends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话……只能把准备上架的新年服装先拿出来给大家换上了喵！",
+			say = "If it's come down to this... then I have no choice but to let you all wear some new clothes I've prepared nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这是…我似乎闻到了阴谋的味道…）",
+			say = "(I've got a feeling like... Akashi's planning something...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱风格的服饰……是叫和服吗？呼呼……用的布料真是华丽呀。",
+			say = "This outfit... it's what's known as a \"kimono\", right? Ahah... It seems to be made of quite fancy materials.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -179,7 +179,7 @@ return {
 			actor = 201103,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇哇……这件衣服……比想象的要暖和呢。",
+			say = "Whoa... these clothes... are warmer than I thought they'd be~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些飘带和裙摆……总觉得行动会有些不便。",
+			say = "These decorative strings and hems... make it feel a little hard to move around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "眼镜，好有趣。不可以随便放电，不然头发会乱掉……",
+			say = "Glasses nice. No emit sparks. Hair will be ruined...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:151}",
-			say = "如同火焰一般的赤色锦缎，还有这丝毫不妨碍拔刀的设计，不错！",
+			say = "This makes me want to perform kabuki. It's flamboyant and doesn't get in the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:152}",
-			say = "我这件是普通的和服呢，穿起来感觉很安心",
+			say = "And I received a regular kimono. Somehow it feels relaxing to wear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 205062,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此没想到这件衣服竟能融合不同阵营的风格元素，真是别出心裁啊",
+			say = "Now I see. These kimonos have design elements from various different factions. Hahah, how fascinating!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…这、这个是……？！",
+			say = "....W-what the heck is this...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我突然想起来还有点急事先走了！！！",
+			say = "I-I've got urgent business to do, so I've gotta go early!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（好想看大姐头换上那套衣服……）",
+			say = "(I wanted to see how Cleveland's would've looked...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没办法呢喵……那么，就来给克利夫兰的妹妹换衣服吧喵！",
+			say = "There's no helping that nya... Now it's your turn, Montpelier. Come on, put this on nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？！",
+			say = "Wha?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（这就是重樱的服饰吗…感觉是哥伦比亚和丹佛会喜欢的类型）",
+			say = "(So this is how a kimono looks... I think Columbia and Denver would like it.)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，来吧～说说对{namecode:98}准备的这套衣服的想法吧！",
+			say = "Hah hah ha! Now, tell me what you think about it nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么特别的想法",
+			say = "Meh. I don't really think much of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "大、大家都换好衣服了吗？大家赶快坐下，准备开饭吧喵！",
+			say = "H-has everyone gotten changed nya? Then come have your fill of New Year's food nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

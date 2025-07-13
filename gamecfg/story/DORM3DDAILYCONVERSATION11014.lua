@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "奶油再多来点……再加点中和口味的树莓……",
+			say = "Add a little cream here... Some raspberries to balance the flavor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这是在做什么？",
+			say = "What are you making?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "来的正好，Honey，帮我尝一下味道？",
+			say = "Perfect timing! Taste this for me, honey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这甜到头晕的感觉……",
+			say = "It's, uh... dizzyingly sweet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这可是我自制的独家……Honey？honey！？",
+			say = "I bet! This is my original recipe for... Honey? Honey?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

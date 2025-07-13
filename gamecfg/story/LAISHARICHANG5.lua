@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"炼金术师与秘密遗迹群岛-日常篇\n\n<size=45>五 众人拾柴火焰高</size>",
+					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>5 Teamwork Makes the Dream Work</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			bgm = "story-1",
-			say = "港区附近·温泉岛",
+			say = "Area near the port - Hot spring island",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好，接下来就到了见证这个炸弹威力的时刻了！",
+			say = "Okay! The time has finally come to use these bad boy bombs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "阿尔弗雷多将炸弹的引线点燃，然后飞快地躲到了远处。",
+			say = "Alfredo sets fire to the fuse and quickly runs behind cover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "轰—————！",
+			say = "Fssshhhh...",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "轰—————————！",
+			say = "BOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "轰———————————————！",
+			say = "KABOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "成功了！莱莎小姐制作出来的炸弹果然厉害！",
+			say = "Heck yeah! Ryza's bombs did just the trick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "唔……有点奇怪。为什么会炸了那么多次？而且这个爆炸威力……是不是大过头了？",
+			say = "I dunno, I think that blast was way overkill... Also, why were there TWO explosions?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "烟雾散去后，出现在撒丁帝国温泉爆破小分队面前的，是一处大得不得了的温泉，以及远处的——",
+			say = "Once the smoke clears, the Sardegnian girls lay eyes on a hot spring bigger than their wildest expectations. They then catch sight of a familiar figure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳咳……吓死{namecode:98}了喵！到底发生什么事了喵？！",
+			say = "*cough cough*... That scared the life out of me, nya! What the heck was that, nya?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "{namecode:98}？！还有{namecode:20}，为什么你们会出现在这里啊？！我刚刚特地确认过周边没有人的？",
+			say = "Hey, it's Akashi! And Shiranui! How'd you get here? I made sure that nobody else was here, like, a minute ago...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是在这里开发温泉的喵！刚刚准备引爆在这里设置好的炸药喵！",
+			say = "We're excavating a hot spring and were just about to set off the TNT we'd put down, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果没摁下引爆键炸药自己爆炸了……所以来看看情况的喵！",
+			say = "Then we heard a huge boom when neither of us had touched the detonator, so we came to investigate, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "话说你们出现在这里，该不会也是……",
+			say = "Since you are all here, I think I can guess what happened...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "没错！我们是撒丁的温泉开发小分队！这处温泉眼也是我们发现的！",
+			say = "If your guess is that we are also excavating a hot spring, you'd be correct! We found and claimed this place in Sardegna's name!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "两个靠得很近的温泉眼，因为这次意外的连环爆炸连到一起了……",
+			say = "Not quite... I think we discovered two separate hot springs, but those huge explosions made them merge into one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，那我们干脆一起造一个更大的温泉乡，让大家一起来享受温泉的乐趣吧！",
+			say = "Wait, seriously? Uh, in that case, how about we work together to establish one single huge hot spring inn? The bigger, the better for everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事情变成了这样……也就没办法了喵。",
+			say = "Hmm... I guess that's the only realistic option at this point, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且更大的温泉就能获得更多的收益……的确是个好主意喵！",
+			say = "A bigger inn also equals bigger earnings... so you know what, I'm in, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……赞成。但如果要造一个温泉乡，事先准备的物资就不够用了。需要新的人手帮忙……",
+			say = "As am I. There remains the issue that the supplies we prepared will not suffice for a much larger inn, however. We will need additional manpower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "呵呵，看这样子，需要我帮忙吗？",
+			say = "Heheh, I think I can help with that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "科洛蒂亚小姐？！你怎么也来了喵？",
+			say = "Klaudia? How'd you find this place, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "莱莎跟我说了大家准备开发温泉的消息，所以我就想过来看看这里的情况怎么样。",
+			say = "I heard about it through Ryza, then I thought helping you all out would be a way to repay you for all your help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "我有过商会的管理经验，在调配物资的事情上说不定能够帮到大家哦。",
+			say = "I should be able to procure supplies for you. I've got all kinds of experience working in business.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "科洛蒂亚小姐愿意伸出援手，真是帮大忙了喵！",
+			say = "That expertise would be amazing to have, nya! Thanks, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "呵呵~不过，光靠我们来运输物资肯定是不够的，得需要更多人帮忙……",
+			say = "You're welcome. Having said that, I don't think my help alone will be enough. We'll need some more people to get all the additional supplies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼！轮到我们大显身手的时刻了！小海狸分队队长查尔斯·奥斯本，随时听候差遣！",
+			say = "Heheh! That's where I come in! When you're in a tight spot, Captain Ausburne of the Little Beavers has you covered!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102090,
-			say = "还有我们克利夫兰级的海上骑士！这么热闹的事情，当然得算上我们啦~",
+			say = "The Knights of the Sea, a.k.a. the Cleveland class is here too! Hope you don't mind us helping out with your cool project!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大姐头……干劲十足啊。那我也得拿出干劲才行。",
+			say = "Cleve looks super hyped... I've gotta give this my all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "欸？大家是什么时候在这里的……",
+			say = "Huh? What's brought you all here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，我们也和科洛蒂亚小姐一样，听说了消息之后便想过来看个究竟。",
+			say = "Same thing as you. We heard someone's working on a hot spring and wanted to check it out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "别忘了还有我们呢！再怎么说发现这片区域也有我们的一份功劳哦！",
+			say = "Hey, don't forget about us! We're the ones who found this spot in the first place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "大家的热情我收到了！这样一来，调配物资的人手就足够了。",
+			say = "Heheh, don't worry, we hear you. Now we should have all the help we're going to need!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900020,
-			say = "让我们齐心协力，共同完成接下来的建设吧！",
+			say = "Okay, it's time to get to work, everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了温泉乡喵！",
+			say = "Woohoo! Let's get this hot spring inn built, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1

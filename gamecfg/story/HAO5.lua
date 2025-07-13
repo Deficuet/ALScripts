@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>五　制作之余的休息时间</size>",
+					"Our Sweet Cookies\n\n<size=45>5 Time to Rest</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "一起清理掉脸上面粉的痕迹后，我与豪继续按部就班地分工制作着饼干。",
+			say = "After we both wipe the flour off our faces, we resume our cookie-making.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "终于，在将饼干送入烤箱后，豪来到我身边，拉着我到一旁坐下。",
+			say = "Howe sticks the tray filled with dollops of dough inside the oven, then comes to me and leads me by the hand to sit down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "饼干要烤20分钟左右，这个时间……",
+			say = "This will take about 20 minutes, so in the meantime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "指挥官，我帮你按摩一下手臂吧？",
+			say = "Can I give you an arm massage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "按摩手臂？",
+			say = "Why an arm massage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。因为你刚刚一直在搅拌嘛，就算现在不累，明天可能也会酸痛的。",
+			say = "Because you stirred for a long time, didn't you? Even if you feel fine now, your arms might start hurting tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我是因为经常会做小饼干，所以肌肉早就习惯了~",
+			say = "My arms are used to making cookies by now, but yours aren't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官不一样。所以就让我帮你按摩吧，稍稍放松一会儿。",
+			say = "So come on, allow me to massage your arms until the cookies are done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,14 +138,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女一脸认真地看着我。",
+			say = "The direct look in her eyes signals that there is no room to argue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "伸手",
+					content = "(Extend your arms.)",
 					flag = 1
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那就麻烦你了。",
+			say = "Alright. Go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "交给我吧~",
+			say = "Great! Here we go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "豪将我的袖子整齐地往上卷着，推到了大臂上方。",
+			say = "I extend my arms for her. She rolls my sleeves back up to my upper arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "温暖而柔软的手落在我的手臂上，力道适中地揉捏了起来。",
+			say = "Her warm and supple fingers then touch my skin. Using neither too much nor too little strength, she starts massaging me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "浓密的长睫毛之下，少女目光专注。",
+			say = "Beneath her long eyelashes are intent eyes that glitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "手臂因长时间的搅拌动作而略微僵硬的肌肉，在她的按摩下，也逐渐放松下来。",
+			say = "All that stirring did make my muscles a little stiff, and this massage really is helping them loosen up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "我们沉默着，只有仍在呼呼作响的烤箱，与愈发躁动的心跳。",
+			say = "The room is silent, save for the sound of our beating hearts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "嗯，这样就好了。",
+			say = "There. That should be good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "豪说着将我的袖子重新归位，整理平整。",
+			say = "She finishes the massage, then courteously straightens out my sleeves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "叮——",
+			say = "DING!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "此时烤箱也发出了结束烘烤的提示音。",
+			say = "Conveniently, at the same time, the oven makes a noise to signal that the cookies are done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "正好~我们的饼干烤好了呢，过去看看吧。",
+			say = "Perfect timing. Let's see how the cookies turned out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

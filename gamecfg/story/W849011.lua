@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "因为黄色区域没有全部触发，舰队回到了起始点。",
+			say = "Our route didn’t take us over every single yellow tile. Let’s try again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

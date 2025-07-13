@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>五 欢聚一刻</size>",
+					"Superstar of the Blue Seas\n\n<size=45>Chapter 5 - The Mythical Seal</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "虽然发生了一点小意外，但是萨拉托加她们的《传说的小海豹》主题慈善演出还是圆满结束了",
+			say = "Although there were a few incidents along the way, Saratoga's charity concert concluded without a hitch.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿ー小海豹乖‐",
+			say = "Hehehe~ Who's the cutest little seal? That's right, you are~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "小海豹游到萨拉的脚边，一点也没有抗拒萨拉抚摸它的动作，甚至亲昵地蹭了蹭她的脚踝。",
+			say = "The \"Mythical Seal\" – which in reality was just a regular seal – rubbed its nose against Saratoga's leg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以说嘛，要说起来保护小海豹，可不是一天两天就能做好的哦？得每天都加油才行♪",
+			say = "You see, you can't just protect cuties like this for a day and call it done. It's something you do every day and work hard at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "要是早点知道的话，应该能帮上更多的忙吧？",
+			say = "Had I known that, I could've offered to help sooner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			},
 			options = {
 				{
-					content = "提出自己也要帮忙",
+					content = "Offer to help protect the seas",
 					flag = 1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢指挥官！诶嘿嘿，本来就是打算今天的义演结束后告诉指挥官的啦",
+			say = "Thanks a ton, Commander! I was going to ask you anyway after the concert, but things just kind of went the way they did~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加，之前说的东西已经准备好了",
+			say = "Sara, everything's ready in just a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也一起来吧",
+			say = "Should be. Why don't you come too, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "额？还有什么东西吗？",
+			say = "Huh? There's more stuff going on after the concert?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然有点晚了，但是其实今天正好是东煌和重樱的七夕节哦",
+			say = "It's a bit late, but today is actually when both the Sakura Empire and Dragon Empery celebrate the Night of Sevens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐她准备了不少好吃的，指挥官一定要来啊",
+			say = "Yat Sen has made mouth-watering food for the occasion, so be sure to stop by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海，肚子饿了……",
+			say = "I'm hungry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，{namecode:98}也为了不让这里的动物们受惊准备了特别的烟花喵",
+			say = "There'll be a fireworks display too, nya~ I designed them specifically so they won't cause distress to the marine life in the tanks, nya~",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来萨拉托加，是不是忘记了什么？",
+			say = "Hey... anyone else feel like we're forgetting something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……是什么来着？",
+			say = "Hmm, what could that be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要定一下这个小海豹的名字！",
+			say = "The name for the little seal, I believe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊对了！忘了给传说中的小海豹起名了！",
+			say = "Oh, right! We can't let this cutie go nameless!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官有什么好想法吗？",
+			say = "Commander, do you have any good suggestions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "萨拉托加慈善活动的主角，大家守护的大海的宝物，小海豹的名字要叫什么好呢……？",
+			say = "It was decided that the name of the seal – the star of Saratoga's concert and beloved treasure of the sea – would be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小海豹……小加加……嗯！就叫“小加加”好了！",
+			say = "Sara... Seal... I've got it! \"Sally\"! Let's go with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，指挥官，为了保护这片美丽的大海，今后也请和萨拉托加妹妹——",
+			say = "Okay... Commander, I'm counting on you to help me – and cute little Sally here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "还有“小加加”一起，努力加油吧！",
+			say = "... protect these beautiful blue seas and all the adorable marine life it hosts! Everybody's support matters♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

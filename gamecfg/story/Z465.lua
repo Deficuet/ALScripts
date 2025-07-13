@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>五 幕间II</size>",
+					"White Poem\n\n<size=45>V Interlude II</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_school",
-			say = "港区·学院",
+			say = "Port - Academy",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "这香肠比以往更美味了。",
+			say = "This sausage bares flavor more delicious than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "来到港区以后，{namecode:438}的酸菜腌制手艺也越来越好了。",
+			say = "Graf, you too have changed, since coming to here. Your pickling technique became quite divine.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -85,7 +85,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "我们单是要让自己的舰装听话就要费不少力。与其他阵营共存的话更需多加留心。要多谢{namecode:412}你的协助。",
+			say = "It takes a lot of focus just to keep our own ship rigging in check. You must be extra careful around girls from other factions. Viersechs, thanks for all your help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "没关系。{namecode:438}是我重要的朋友，出手帮你乃是理所当然。",
+			say = "Think nothing of it, my very close friend. It is natural to lend you my aid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "朋友…吗…呵呵，从没想过会被驱逐舰当做朋友，但是{namecode:412}的话…很不可思议的觉得没什么违和感呢",
+			say = "Close friends, is it? Heh... that's not something I ever expected to hear from a destroyer. But in Viersech's case... it somehow doesn't feel strange at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "另外，我并没有做任何值得感谢的事。同为铁血舰，相互照应是理所当然",
+			say = "Also, I've done nothing worthy of praise. For fellow members of the Iron Blood, helping each other needs no second thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "既然如此，我也给你一个建议吧。{namecode:412}，你这个说话口气能否改一改？",
+			say = "Even if that is the case, I do have a suggestion for you, Viersechs. Could you do something about the way you talk?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "{namecode:438}也没资格说我吧。不过，为何要改口气？",
+			say = "Graf, are you in a position to talk? But what exactly is wrong with my speech?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "你不是因为难以融入驱逐舰的氛围而烦恼着吗。那么不妨试着学一学？",
+			say = "Aren't you having some trouble fitting in with the other destroyers? Why don't you try to learn a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "……和她们一样的说话方式。",
+			say = "... to talk a bit more like them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "{namecode:412}？",
+			say = "Viersechs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "我、试试看……好了。",
+			say = "I... I'll give it a shot... \"okay.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "呵。继续努力吧。我会支持你的。",
+			say = "Mhm. Continue to do your best. I shall be cheering for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "……嗯……下次我们还、交换便当……吧？",
+			say = "Mm... Next time... we'll share lunch together as well, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			say = "嗯。当然了。",
+			say = "Ah, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			blackBg = true,
 			bgName = "bg_story_school",
-			say = "我挖了一勺{namecode:438}做的便当——酸菜焗饭，送进了嘴里。",
+			say = "I reached my spoon forth into Graf's lunchbox, and brought back her sauerkraut risotto. The food soon disappeared into my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

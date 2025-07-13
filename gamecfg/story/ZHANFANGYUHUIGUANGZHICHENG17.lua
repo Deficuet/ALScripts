@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "我们岛屿上前进着。明明沿着熟悉的路线行走，映入眼帘的却尽是陌生的画面。",
+			say = "We walk to the institute, my memory of the route guiding us.",
 			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "与上次来时相比，这里已经有了相当大的变化。",
+			say = "It's the same place I went in the Reality Lens and the same place Kronshtadt and her team described, yet stark differences remain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "度假设施和悠闲的人群已然不在，取而代之的是无数高墙与警戒炮。",
+			say = "There are no shops, no stalls, and no facilities catering to tourists. They've all been replaced by defensive installations and barricades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "看来，曾经平和的伪装已经被彻底抛弃，现在，整座岛屿都成为了名副其实的军事重地。",
+			say = "The mask of peace has come off, revealing the island's true nature as a military base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "（警报蜂鸣音）",
+			say = "All of a sudden, sirens start to blare.",
 			bgm = "airRaidAlarm",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "警报响起来了……有谁触发了安保系统么？",
+			say = "An alarm. Who carelessly tripped the security system?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "不、不是阿尔萨斯哦！",
+			say = "One's sensors are detecting nothing... They are working, before you ask.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "没有任何人会误触警报，因为一路上所有的报警系统都被我处理掉了。",
+			say = "Wasn't me. I'm the one who's been switching off all the systems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "呃……在什么时候处理掉的，我完全没看到啊！",
+			say = "Since when? I had no idea you were doing that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901060,
-			say = "审判庭，好可怕……",
+			say = "You Tribunal people scare me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "况且，此刻整座岛屿的警报都在响，怎么看都不是为了抓我们而启动的。",
+			say = "I don't think any of us tripped it. The alarms are going off across the whole island, and I don't think they activated just to arrest us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "那究竟是……怎么回事？阿尔萨斯，无法理解现在的情况。",
+			say = "But then who did? One does not understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王知道了，西北十一点方向，距离岛屿大约五十海里的位置出现了一支舰队，正在气势汹汹的向你们的位置移动呢。",
+			say = "An enemy fleet has appeared 50 nautical miles northwest. It seems they're heading your way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "能看出所属么？",
+			say = "A fleet? Can you ID them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是噩兆实体。",
+			say = "They're corrosion entities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……噩兆实体？从噩兆天象之中所诞生的那些无法被准确记录的敌人么？",
+			say = "You mean those things that the black tornadoes spew out and cannot be analyzed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不全对，噩兆天象只是其产生的标志之一。",
+			say = "If you mean corrosion phenomena, yes, but they can manifest through other means.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "归根结底，噩兆实体是一种侵蚀的具现化表现形式。",
+			say = "Remember, they are literal embodiments of corrosion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "其特点如你所说，就算在极近的距离下观察，也依然无法辨认其细节。",
+			say = "As you said, they cannot be meaningfully analysed even up-close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "或者说——每次观察，其外貌都与之前有些许不同。",
+			say = "Or, rather, you CAN, but what you perceive changes slightly each time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "同时，其无法被俘获，被击破后也不会产生残骸，就像从来不曾存在过一样。",
+			say = "You also cannot capture them, and they don't leave wrecks behind when destroyed. It's as though they don't physically exist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这一切都是因为，噩兆实体只是一个从其他地方被投影至现实世界的影子，信息显示不完全的影子。",
+			say = "In a way, they don't. They're shadows projected from a different dimension. Imperfectly, at that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "其包含的信息在投影过程中产生了缺失，从而形成了这些胡乱拼合起来的马赛克。",
+			say = "The data loss caused by the projection process is in fact the reason why they appear as blurs you can't perceive properly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就像某些错误数据拼合而成的错误程序一样，它的出现代表了空间正在遭受侵蚀。",
+			say = "Think of them as corrupted data. The fact that they're there means the space you're in is being corroded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嘶……前进阵线，竟然自称是……前进阵线所属的舰队？！",
+			say = "Now, it looks like we're dealing with... What? The Revolutionary Front?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这一次你们遇到的，是基于污染原本场景的部分数据所诞生的噩兆实体么！",
+			say = "Listen up! Those entities come from the data present in that space!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这又是什么意思？",
+			say = "What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所有人快连接到我发出的频道上，那支舰队正在对岛屿进行广播，听了就知道了！",
+			say = "Just tune in to the frequency we just sent you! Their fleet is broadcasting a message to the island!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,11 +518,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "前进阵线AO海域舰队，在此对萨默斯岛政府下达最后通牒。",
+			say = "This is the Revolutionary Front's AO Sector Fleet. We hereby issue an ultimatum to Samos Island.",
 			bgm = "battle-hightech",
 			typewriter = {
 				speed = 0.05,
@@ -548,11 +548,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "立刻交出「奥姆-塔瓦货轮遇袭事件」的幕后组织者，解除所有执行者舰队的武装，并摧毁岛上的所有人工智能研究设施。",
+			say = "Hand over the individuals behind the attack on the freighter Poltava, disarm your Enforcers, and immediately destroy all artificial intelligence laboratories on the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,11 +560,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "否则，我方将在三小时后，采用一切必要手段确保上述目标得到达成。",
+			say = "If our demands are not met in three hours, we will achieve these objectives by force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,11 +572,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "众所周知，因为大洋联邦长期对于萨默斯岛政府的姑息政策，此处已经成为了邪恶滋生的腐败巢穴。",
+			say = "It is apparent that Samos Island has become a breeding ground for corruption owing to the Oceanic Federation's policy of neglect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,11 +584,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "各类从未经过安全评估、不受到任何道德约束的实验，在此处被冠以“科学”之名肆意推进，其中以人工智能兵器的研究最甚之。",
+			say = "It is home to experiments – especially on weaponized artificial intelligence – that have never received safety assessments nor been held to ethics guidelines, all in the name of \"scientific progress.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,11 +596,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "正是这些人给予了机器人操控武器装备的权利，并赋予了它们可以根据自己冰冷的程序自行决定人类生死的权利。",
+			say = "These people have put guns in the hands of robots and given the power over life and death to computer programs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,11 +608,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "这才导致了本次惨剧的发生——人类的性命，怎么能交由机械所决定？",
+			say = "It is exactly that which led to this tragedy. You cannot entrust human lives to machines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,11 +620,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "「奥姆-塔瓦货轮遇袭事件」用血淋淋的事实向世界再次证明，所谓人工智能兵器是多么的危险和难以控制。",
+			say = "Artificial intelligences armed with weapons are both uncontrollable and extremely dangerous, and the attack on the Poltava proved this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,11 +632,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "放任这种危险又邪恶的兵器继续发展下去，最终，全人类都将因此而毁灭——",
+			say = "If these evil machines are left to roam free, it will be the end of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（这是……前进阵线正在下达最后通牒？他们打算用武力肃清这里吗？！）",
+			say = "(Are they serious? They'll capture the island by force if necessary?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（萨默斯岛的人工智能研究和执行者舰队，应该指的就是安蒂克丝。）",
+			say = "(They mentioned artificial intelligences and Enforcers... That means the Antiochus, Dr. Aoste's project.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（虽然不清楚奥姆-塔瓦货轮遇袭事件货轮遇袭事件是什么……）",
+			say = "(Then there was that attack on a freighter. They were vague on details...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（但是从名称和前进阵线的广播来推测，或许这是一次安蒂克丝对于货船的主动袭击事件。）",
+			say = "(Seems safe to assume that the Antiochus struck the Poltava and hurt innocent people.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（也就是说，由于安蒂克丝对于货船的主动袭击，招致了前进阵线舰队的报复行动么……）",
+			say = "(In other words, they threatened the safety of the world's oceans, prompting the Revolutionary Front to retaliate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "D小姐，你知道现在空间中正在展现的是什么事件么？",
+			say = "Miss D, can you remember what this memory is about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不知道！不记得了！不过我觉得肯定不是好事！而且是讨厌的事情！非常讨厌！",
+			say = "No, not a thing! But it's obviously bad! Bad and I don't like it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……本王也有同感。",
+			say = "...We are in agreement there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "萨默斯岛，确实与皇家和白鹰都存在着非常独特的关系呢。",
+			say = "Sounds like both the Eagle Union and the Royal Navy are involved with this island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,7 +804,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "不过只限制了三小时，在此期间需要交出人员……解除武装，还要炸毁实验室？",
+			say = "Those demands were pretty crazy... They want the scientists to hand over those people, disarm their units, and destroy their lab all in three hours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "就算萨默斯岛政府真想执行，时间也是远远不够的。",
+			say = "You could do maybe two of those in that time, but all three? No way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "所以……最后那边的意图就是想要付诸武力解决这件事啊。",
+			say = "I think they were going to use force anyway all along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,11 +852,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -871,7 +871,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "助手，我从监控里看到了你，你怎么还留在萨默斯啊？！",
+			say = "I see you on the security cams, Commander! What are you doing on Samos?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这是……！",
+			say = "What the–?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -905,7 +905,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嘘——",
+			say = "(Shh! I'll handle this!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……安洁？",
+			say = "Ahem. Dr. Anzeel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "是我！奥斯塔都走了，你怎么还不走啊？！",
+			say = "Yes, that's my name! Aoste already bailed, so why are you back here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -964,7 +964,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "你知道么，因为此前的奥姆-塔瓦货轮遇袭事件，现在前进阵线的舰队正在接近萨默斯岛，宣布要进行一场报复行动。",
+			say = "Do you know about the attack on the Poltava? The Revolutionary Front is on the island's doorstep, ready to enact revenge for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "当然知道啊……这几天在媒体的聚焦下，全世界都讨论得沸沸扬扬呢。",
+			say = "Yes, I know about the thing that's filled the world's headlines for days now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,85 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "不过你相信么？安蒂克丝居然会失控暴走，甚至主动袭击路过的民用货船？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "（其实……确实有点信。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "（……抱歉了，安洁。鉴于塞壬在各处实验场中的所作所为……这件事我还真没办法轻易否定其可能性。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			actor = 900332,
-			say = "呵……这哪里是什么报复行动，分明是阴谋的下一环罢了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			actor = 900332,
-			say = "一切都是前进阵线自导自演的……为的是给派遣舰队来萨默斯提供一个借口。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#5CE6FF",
-			actor = 900332,
-			say = "其真正意图是……即将完工的「拉普拉斯妖」哦，助手。",
+			say = "Do you seriously believe that? That the Antiochus would defy protocol and attack a civilian freighter passing by?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1090,7 +1012,85 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（“拉普拉斯妖”……？）",
+			say = "(That sounds just like what the Sirens we know would do...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "(Considering everything we've witnessed, that definitely isn't beyond the realm of possibility... as much as it pains me to say that to her.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			actor = 900332,
+			say = "\"Revenge,\" my ass... That's just what they want you to think.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			actor = 900332,
+			say = "The attack was a false flag by the Revolutionary Front. They wanted an excuse to send a fleet to Samos.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#5CE6FF",
+			actor = 900332,
+			say = "Laplace's Demon is nearly finished, and they want to steal it.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "(Laplace's Demon?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "如果采用这个方案的话……确实有成功的可能性。",
+			say = "If we adopt this plan, there may be a chance of success.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,7 +1142,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "只不过……为了完成行动，干扰装置必须尽可能长时间地运行下去，而且坚守与撤离必须同时进行……",
+			say = "However, we must ensure that the jamming device remains operational as long as possible. In the meantime, we'll have to hold the line while evacuations are carried out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "也就是说……",
+			say = "In other words...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,12 +1173,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			nameColor = "#FEF15E",
 			oldPhoto = true,
-			say = "这些我们都明白，奥斯塔。在明白这些的基础之上我们提出了这项方案，并自愿执行。",
+			say = "We already know this, Dr. Aoste. We've taken it upon ourselves to build upon this framework.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1194,45 +1194,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……我明白了。可是就算这样，现在各方都受损严重，具体能实际争取到的时间还需要进行一轮仔细评估……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			hideRecordIco = true,
-			actor = 900307,
-			nameColor = "#FEF15E",
-			hidePaintObj = true,
-			say = "只要“曙光”熄灭，拉普拉斯妖的运作就会立刻终止。如果此时的撤离指数没有达标的话，势必会影响到后续计划的正常运行。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			hideRecordIco = true,
-			actor = 900308,
-			nameColor = "#FEF15E",
-			hidePaintObj = true,
-			say = "不用担心，我也会帮你们争取时间的。",
+			say = "...I understand. But even if that is the case, everyone has already sustained heavy losses. The actual feasibility of the timeframe you provided must still be carefully evaluated...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1251,7 +1213,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……安洁？",
+			say = "If the \"Light of Dawn\" is ever extinguished, then Laplace's Demon will cease to be. If we have not reached the evacuation threshold at that time, our future operational plans will be impacted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1270,26 +1232,7 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "为了指挥作战，我这里已经发出了太多通讯指令，多到已经被列入它们破坏目标的程度了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			hideRecordIco = true,
-			actor = 900308,
-			nameColor = "#FEF15E",
-			hidePaintObj = true,
-			say = "所以只要我继续吸引它们的注意力，一段时间内其他地区的压力就会减轻，你们也能更好地执行计划了。",
+			say = "Worry not. I will also help buy time for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1308,7 +1251,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "可是你要怎么办？",
+			say = "Ahem. Dr. Anzeel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1327,7 +1270,26 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "在那样的惨败发生之后总是要有人负责吧，而现在能承担这样责任的人已经不多了……",
+			say = "I've already issued too many communications through the process of commanding the operation, and they've likely already identified me for destruction.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			hideRecordIco = true,
+			actor = 900308,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
+			say = "As long as I can continue to draw their attention, I should be able to alleviate the pressure in other places, giving you more time to implement the plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1346,7 +1308,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "…………这样的话又会有一部分舰队被分散出去，至少关键点G，我希望她能跟随安蒂克丝一起撤离。",
+			say = "But, what will happen to you then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1365,26 +1327,7 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "放心……不光是企业，我会在合适的时候把她们所有人都支到你那边去的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			oldPhoto = true,
-			bgName = "bg_cccpv2_7",
-			dir = 1,
-			hideRecordIco = true,
-			actor = 900308,
-			nameColor = "#FEF15E",
-			hidePaintObj = true,
-			say = "然后你就想办法留住她们，直到行动的开始……我这里依靠NY基地和长岛防线足够拖延很长时间了。",
+			say = "After such a fiasco, someone always has to bear the responsibility. Only now, there aren't many people left who can shoulder that burden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1403,7 +1346,7 @@ return {
 			actor = 900307,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "如果你不一起来的话……她们来到我这里之后恐怕要引发一场腥风血雨啊……",
+			say = "I see... You can bring your KAN-SEN along as well. However, I would like Code G to accompany my Antiochus if possible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1422,7 +1365,7 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "这个嘛~伟大的奥斯塔博士就发挥一下你的聪明才智华丽地解决咯？",
+			say = "Very well. You can have Enterprise, and whoever else manages to survive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1441,7 +1384,26 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "虽说是计划之外形同“背叛”的决定，但是你们的决定是正确的。我完全理解你们，相信她们其实在心里也是理解的……",
+			say = "However, take them as far away from NY City as you can. Never let them return here.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			hideRecordIco = true,
+			actor = 900307,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
+			say = "...Without you here, I'm not sure I'll be able to control them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1460,7 +1422,7 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "她们现在只是，还需要一点时间来接受…………",
+			say = "What happened to the ever-so-wise and stoic Magister? You have no choice but to give those children both a purpose and the responsibility that comes with it, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1479,7 +1441,45 @@ return {
 			actor = 900308,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "你呢，也没有异议吧？",
+			say = "...Even after you \"betrayed\" us, I still believe we see things eye-to-eye. And I think what you're doing is just. I completely understand you, and I trust that in their hearts, they understand you as well...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			hideRecordIco = true,
+			actor = 900308,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
+			say = "I'm sure they'll need some time to accept it, but they will come to understand you one day...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
+			dir = 1,
+			hideRecordIco = true,
+			actor = 900308,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
+			say = "Yes, I'm sure of it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1495,7 +1495,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "………………",
+			say = "(That's what I heard when I was in the Arcana Sanctum. Is this what that conversation referred to?)",
 			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
@@ -1525,7 +1525,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "大洋联邦知道这个阴谋么？",
+			say = "So the Revolutionary Front wants to steal your time machine – Laplace's Demon. Does the Federation know about this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1539,7 +1539,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "当然知道啦，他们的计划能进行得如此顺利，怎么少得了大洋联邦的故意放纵？",
+			say = "Of course it does. They got this far in the first place because the RF had the Federation's tactic permission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1557,7 +1557,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "大洋联邦就是在等前进阵线率先对萨默斯岛出手，然后将事件扩大化。这样，他们就不需要为了开战而承担主要责任了。",
+			say = "The Federation wants the RF to make the first move and escalate tensions. That way, they don't have to take the blame for starting a war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1573,7 +1573,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……与前进阵线开战？",
+			say = "Wait... Starting a war?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1587,7 +1587,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "开战，然后将其彻底抹除。",
+			say = "Yeah. A war that will erase them from time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1605,7 +1605,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "毕竟有些人就是觉得，如果连时间都能为自己所掌控，那还有什么事是做不到的呢？",
+			say = "Seize the power to control time, and the world shall be yours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1616,15 +1616,15 @@ return {
 			},
 			options = {
 				{
-					content = "…………",
+					content = "My god...",
 					flag = 1
 				},
 				{
-					content = "怎么会有这种事……",
+					content = "They're going to start a World War...",
 					flag = 2
 				},
 				{
-					content = "……这太疯狂了！",
+					content = "But that's insane!",
 					flag = 3
 				}
 			}
@@ -1637,7 +1637,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "不用担心，我和奥斯塔已经制定了计划。",
+			say = "Don't freak out. Aoste and I already have a plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1655,7 +1655,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "火炬会出面劫走拉普拉斯妖，在局面变得彻底无法挽回之前，让所有人都冷静一下。",
+			say = "Flare – as in, Enterprise and company – will swoop in unannounced and steal Laplace's Demon and make both sides take a chill pill.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1671,7 +1671,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "你们打算让火炬……做……什么？！",
+			say = "Enterprise? You mean... Code G?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1685,7 +1685,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900332,
-			say = "总之！萨默斯马上就要变成风暴的中心了，你快点离开那里！",
+			say = "Look, we've chatted enough and this island is about to become a warzone! You need to get out of here NOW!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1697,11 +1697,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嘟——",
+			say = "......",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -1713,7 +1713,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "通讯干净利落的中断了。",
+			say = "The communicator falls silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1725,7 +1725,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（安洁所说的事令人震惊，没想到此时大洋联邦和前进阵线的战争已经到了一触即发的地步。）",
+			say = "(The tension between the two major players in the alpha timeline is about to boil over into all-out war.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1737,7 +1737,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（可如果按照安洁和奥斯塔的计划，行动成功了，冲突被成功化解……这片空间，为什么依然会通向死亡呢。）",
+			say = "(But, if Anzeel's and Aoste's plan is a success and Laplace's Demon falls into neither side's hands, then this memory won't have anything to do with death.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1749,7 +1749,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（接下来的计划……一定出现了意外。）",
+			say = "(So what in the world is going to happen here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1763,7 +1763,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "指挥官，刚才打来通讯的……是你的熟人么？",
+			say = "Commaaander. Who was that? Do you know her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1779,7 +1779,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "算是在“记录中”的熟人吧，怎么了？",
+			say = "According to the memory we're in, yes. Why do you ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1793,7 +1793,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "你这位在记录中的熟人……会知道你的新通讯频道么？",
+			say = "Because... she contacted you using the Tribunal's private frequency.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1811,7 +1811,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "还记得么，这次任务为了隐秘行动，我们所有人都使用了审判庭内部的通讯器。指挥官，你也不例外。",
+			say = "Everyone on this mission, including Elizabeth, is also using it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1829,7 +1829,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "我们作为原本不存在于这场记录之中的人，记录之中的人居然可以破解审判庭的通讯设备，然后再打过来么？",
+			say = "This frequency is from OUR timeline, so how did that woman know about it and call us on it like it was the most natural thing in the world?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1845,7 +1845,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（嗯……？确实。一直以来因为通讯器经常被奇怪的人随便呼叫，以至于忽略了这个显而易见的问题……）",
+			say = "(That's a good point... I've grown so used to our frequencies being jammed or intercepted that I've stopped questioning it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1859,7 +1859,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "不重要，这些都不重要！",
+			say = "How she did it doesn't matter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1877,7 +1877,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "喂，神秘人助手！你听到安洁的话了么！快去安全的地方避难！",
+			say = "Didn't you hear her? We need to get out of here, and fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1903,7 +1903,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不行，现在不是只顾自己去避难的时候。他们的计划会出现意外，我们必须来阻止这一切。",
+			say = "It's too late for that. If this memory really is a representation of death, Anzeel's and Aoste's plan is going to fall through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1917,7 +1917,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "……他们的计划会出意外？你怎么知道？",
+			say = "Huh? How do you know that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1943,7 +1943,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "因为这片空间……最后通向的是死亡啊。",
+			say = "Because if it had succeeded, this space wouldn't exist in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

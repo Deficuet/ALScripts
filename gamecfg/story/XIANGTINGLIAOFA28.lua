@@ -12,7 +12,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "……",
+			say = "... ... ...",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "为什么你们会来这里…",
+			say = "Why did you come here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就是报告中多次提到的“神秘人”么！？",
+			say = "Are you the \"mysterious ship\" the report mentioned?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在镜面海域中瓦解塞壬防御，帮助舰队脱离险境…",
+			say = "In the Mirror Seas, you broke through the Sirens' forces in order to save one of our fleets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又在大洋中与塞壬一同，制造毁灭性的奇异点…",
+			say = "However, to our surprise, we also saw you leading the Sirens during the attack on NY City.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发动了纽约港袭击的塞壬领导者……",
+			say = "And now, following the Winter's Crown incident, you once again seem to be involved with this singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你究竟是谁？",
+			say = "... Just who are you, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

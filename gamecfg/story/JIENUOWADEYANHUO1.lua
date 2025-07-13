@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「每当教国陷入危难，吾辈的鹫旗便会迎风飘扬」</size>",
+					"\"When strife befalls our home, I shall hoist our proud flag high.\"",
 					1
 				},
 				{
-					"<size=51>「追寻宝剑的指引」</size>",
+					"\"The point of my sword shall lead me forward.\"",
 					2
 				},
 				{
-					"<size=51>「吾辈总是自凯旋门而出，又在凯旋门下归来」</size>",
+					"\"Through the Arc I leave for war, and through the Arc I shall return victorious.\"",
 					3
 				},
 				{
-					"<size=51>「如今，吾辈将再次出击」</size>",
+					"\"Give me protection now, as I sortie once more.\"",
 					4
 				},
 				{
-					"<size=51>「请再一次指引吾辈吧」</size>",
+					"\"Give me guidance now, as my cannons take aim.\"",
 					5
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "某日·鸢尾教国军港内",
+			say = "Vichya Dominion - Naval Port",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "撒丁帝国最后还是彻底倒向赤色中轴了么……虽说也是意料之中的事。",
+			say = "It seems Sardegna has become part of the Crimson Axis... In line with what we expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场的局势总是瞬息万变的，昨日的盟友也许就是明日的敌人~",
+			say = "The battlefield is always changing, and an ally of yesterday may become your enemy tomorrow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这也是一直以来的历史规律了嘛。",
+			say = "They say man is bound to unknowingly repeat history forever. Maybe they're not entirely wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "道理是这样……不过至少希望撒丁帝国可以装作“中立”，哪怕冷眼旁观吧。",
+			say = "I wish they'd at least keep up the pretense of neutrality. We don't want to get into an all-out war...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事情已经发生，现在说什么都晚了！",
+			say = "What can you do? What's done is done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放轻松些啊阿尔及利亚，这么眉头紧缩唉声叹气太不像你的风格了。",
+			say = "What's up with you lately anyway, Algérie? I rarely see you this serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……突然有些好奇在你眼里我是什么样的风格了。",
+			say = "As opposed to what? Do I normally come across as a jokester?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……要更加优雅，更加胸有成竹一些？",
+			say = "Haha, of course not. I guess I'm just used to seeing you always be elegant and composed, in control of any situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们处于铁血和撒丁的两面夹击之中，局势上恐怕没有多少优雅的余地了…",
+			say = "Don't tease me like that. Given the importance of this operation, I think it deserves at least a little gravitas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "猜猜看我为什么突然过来？",
+			say = "Can't argue with that. On that note, can you guess why I'm here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你为什么突然过来？",
+			say = "I don't know, can I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "猜~猜~看~嘛——",
+			say = "Knowing you, I'm sure you already have a hunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "教廷司令部决定对突然倒戈的撒丁帝国进行一次严厉回应，因此准备了一次秘密的突袭计划。",
+			say = "How about... HQ has decided to respond to Sardegna's sudden fall to the Crimson Axis with a show of force?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这次过来就是为了将这份计划变为行动的。",
+			say = "And you're part of the group tasked with staging an assault on them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好准？！就是准到这种程度反而有些没意思了……",
+			say = "Dang, it's scary how on-point that guess is... Nothing gets past you, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不是你让我猜的么。言归正传，行动的具体内容是什么？",
+			say = "It's not hard to figure out the broad strokes when you're involved. But what, exactly, are you going to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一次针对撒丁帝国港口的奇袭作战哦。",
+			say = "It's very simple. We're going to bombard an important port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "撒丁帝国舰队的优势与弱点我们都很清楚，如果能在这种时候破坏她们的补给的话——",
+			say = "We've pinpointed one of their naval arteries based on the movements of their capital ships. That's the one we'll strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一段时间内撒丁的舰队就别想出门了。考虑到她们的布防情况……确实有可乘之机。",
+			say = "The plan is to cut off their supply lines and render their strongest ships inoperable. Fairly waterproof, if you ask me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过……皇家海军呢，这一次也得不到她们的支援么？",
+			say = "Do we have the Royal Navy backing us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾~是的。要是想听回应的正文我可以背给你听哦。",
+			say = "Nope. I can summarize the message they sent us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次又是怎么说的……？",
+			say = "What did they say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“鉴于每况日下的局势，在本土的支援抵达之前，皇家舰队没有参与计划外作战行动的能力。”",
+			say = "\"Based upon the current situation, we do not have the ability to commit our forces to unplanned operations before the arrival of additional support.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们甚至还建议我们要谨慎考虑作战计划，不要轻举妄动呢。",
+			say = "\"Please consider your operation plans carefully and do not act hastily.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此——审判庭的人呢？",
+			say = "I see. And what of our intel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽说是奇袭行动，但也不至于到需要让你这个大参谋亲自参与的程度吧。",
+			say = "I know this plan's fairly urgent, but surely they didn't have to send a strategist like you to the front lines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "审判庭的事我也不清楚，大概是有其他任务吧，而且最近的教廷司令部经常喜欢做一些神神秘秘的部署……",
+			say = "Haha, it's best to not overthink things. The top brass operates in mysterious ways, and a lot of that is going to be beyond us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……看来，这次只能靠我们了啊。",
+			say = "...Fair enough. I guess it really is up to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "应该说“至少还有我们”才对吧！而且这次我可是主动请缨的，不要搞错了~",
+			say = "We'll be fine! After all, we're the best out there when it comes to taking care of business!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也承认这次多少有些冒险的成分在里面，不过这已经是我们能够选择的范围内战机最好的一个了哦。",
+			say = "Approach danger with a cool head, and lead cautiously! We've got a formula for success, and just have to follow through with it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有！刚刚那个“大参谋”的称呼是什么啊！",
+			say = "As a strategist, I tried to put together a plan with the greatest chance for success...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我确实最近在司令部呆的时间比较长，也确实偶尔会参与些作战计划的制定……不过和大参谋还差得远呢！",
+			say = "But ultimately, an operation like this isn't something a single person can come up with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比参谋力，我觉得还是我的作战力更突出一些~",
+			say = "And besides–– maybe I prefer slugging it out rather than planning from behind the scenes~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作战开始时间是几点？",
+			say = "All right. So, when do we begin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "傍晚出发凌晨抵达，借助夜幕的掩护展开奇袭。",
+			say = "We'll set sail in the evening, and attack under the cover of darkness. We'll be gone before they know what hit them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那到时候我就好好期待一下你的实力了哦，“大参谋”。",
+			say = "Understood. I'm looking forward to seeing what you're capable of, Miss Strategist. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所·以·说——“大参谋”这个称呼！",
+			say = "Haha, you're gonna make me blush...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵~好像一不小心叫习惯了，暂时改不过来了哦，“大参谋”？",
+			say = "If you like it so much, maybe I'll call you that instead of Foch from now on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚———————！",
+			say = "Uhh, I think I'll pass on that!",
 			effects = {
 				{
 					active = true,

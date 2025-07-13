@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}是在对我恶作剧吧……///！",
+			say = "Y-you're teasing me, aren't you?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_tone8",
 			typewriter = {
 				speed = 0.05,

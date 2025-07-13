@@ -16,7 +16,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咦？！！通讯器收到求救信号，周边有船队遭到塞壬袭击了！",
+			say = "The communication device is reacting to something! It's a stray Siren!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "来得正好，省下我们寻找的功夫了。",
+			say = "Stray or not, it is not welcome in our waters. Lead us to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "托里拆利，立刻通知周边舰队避让，敌人就交给我们来解决吧。",
+			say = "Torricelli, contact the noncombatant ships on the route we came from. I'm going to wipe out the Sirens, so have them evacuate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "没问题————",
+			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "啊，等一下。记得跟周边所有船只说清楚，是撒丁帝国海军正在为它们提供保护哦！",
+			say = "Wait just a moment. Make sure to let them know that Littorio's fleet is here, and that they are under the protection of Sardegna's Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "是是是……",
+			say = "Okay, got it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哈哈哈，撒丁帝国禁卫军，列阵迎敌！",
+			say = "Hahaha! Fellow defenders of Sardegna, form battle lines and prepare to intercept the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

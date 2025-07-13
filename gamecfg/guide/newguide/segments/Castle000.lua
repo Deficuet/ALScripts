@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击房间上的提示标记进行探索！",
+				text = "Tap the mark on the area to explore it!",
 				mode = 1,
 				posY = -80,
 				dir = -1,

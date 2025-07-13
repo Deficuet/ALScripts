@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "story-clemenceau-judgement",
-			say = "博览会主会场·大剧场附近",
+			say = "World Expo Venue",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "砰————————！",
+			say = "BOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "唔啊啊啊啊！好、好险……{namecode:175}阁下，你还好么！",
+			say = "Woooaaaoooooaah––!! Phew, that was a close one... Suruga, are you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "……总算在千钧一发之际躲开了。",
+			say = "Yeah. I just barely managed to get out of the way...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "这是什么东西……从哪里杀出来的？",
+			say = "Wait, what is that?! Where did it come from?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "啊啊啊啊啊啊！文化馆、文化馆被摧毁了啊！！！！！",
+			say = "Waaaaargh?! The pavilion's been blown to smithereens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请冷静一下，阿尔弗雷多阁下！",
+			say = "Alfredo, please stay calm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对、对哦，应该冷静下来！",
+			say = "R-right! Stay calm, stay calm... This is the perfect opportunity for a photo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/kuaimen",
-			say = "咔嚓————（拍照声）",
+			say = "*click*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "虽然不知道发生了什么，但是要赶快记录下灾难的瞬间才行！",
+			say = "I have no idea what just happened, but a journalist has to be ready to snap pics of every calamity as it happens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "……两位贵宾快逃，这边就交给我来处理吧！",
+			say = "Sakura Empire VIPs, please evacuate! I'll handle the situation here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，我也要留下！两个人比一个人胜算大！",
+			say = "I'll fight, too! Your chances are a lot better with a partner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:175}阁下快回去保护{namecode:182}大人！这里就由我们来处理！",
+			say = "Suruga, hurry over to Shinano! I'll take care—hey, ow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "…………处理个鬼啊，你们两个笨蛋小笼包！",
+			say = "What are you fools thinking?! You can't win against that thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "不知道是气是笑的{namecode:175}将{namecode:18}与阿尔弗雷多横抄起来，一边夹住一个，猛地朝远方跑去。",
+			say = "Exasperated or furious, Suruga lifted up both of them and jumped away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "下一瞬间，巨大的机械腿从空中落下，掀起了漫天烟幕。",
+			say = "Almost instantly, a massive mechanical leg crushed down on the spot they had occupied a moment ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "与此同时————",
+			say = "In this chaos, it was impossible to get a grasp of the situation, let alone mount a counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,9 +363,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "指挥官，您怎么停下来了？",
+			say = "Commander? Why'd you stop running?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,26 +380,26 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "指向一旁正在撤退的阿尔弗雷多等人——",
+			say = "\"It's more important that I ensure everyone else can evacuate first.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备进行支援",
+					content = "\"Prepare to launch aerial support.\"",
 					flag = 1
 				}
 			}
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如果是您的决定的话，我明白了。",
+			say = "Got it. We'll handle communications.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,9 +415,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "海伦娜，向埃塞克斯提供轰炸坐标。",
+			say = "Helena, send the coordinates of that big guy to Essex!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,12 +429,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后……",
+			say = "And let the people evacuating know that help is on its way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,9 +450,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "那边正在跑路的三个人！快到这边来，我们掩护你！",
+			say = "Alfredo, Shimakaze, Suruga! Hurry this way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "BOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -515,12 +515,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:18}",
+			actorName = "Shimakaze",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢噢！万分感谢！",
+			say = "Thank you, Commander! And you Eagle Union folk, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,9 +536,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:18}",
+			actorName = "Shimakaze",
 			nameColor = "#A9F548FF",
-			say = "{namecode:175}阁下、阿尔弗雷多阁下，我们有支援了！",
+			say = "Suruga, Alfredo! We're saved!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,9 +554,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:175}",
+			actorName = "Suruga",
 			nameColor = "#A9F548FF",
-			say = "你是……白鹰的孟菲斯？",
+			say = "Th-thank you very much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,11 +568,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多",
+			actorName = "Alfredo Oriani",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "人多力量大，我们先和她们一同行动吧！",
+			say = "Roger! We'd love some backup right now! We'll join up with them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,9 +584,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:175}",
+			actorName = "Suruga",
 			nameColor = "#A9F548FF",
-			say = "……嗯，顾不了那么多了，先脱离眼前的困境再说。",
+			say = "(Right... For the time being, we have to focus on getting through this predicament!)",
 			painting = {
 				alpha = 0.3,
 				time = 1

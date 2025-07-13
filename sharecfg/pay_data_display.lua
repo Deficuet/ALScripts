@@ -10,20 +10,6 @@ pg.pay_data_display = setmetatable({
 		6,
 		7,
 		8,
-		9,
-		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
 		24,
 		25,
 		26,
@@ -40,8 +26,8 @@ pg.pay_data_display = setmetatable({
 		37,
 		38,
 		39,
-		40,
-		41,
+		42,
+		43,
 		44,
 		45,
 		46,
@@ -55,9 +41,6 @@ pg.pay_data_display = setmetatable({
 		55,
 		56,
 		57,
-		58,
-		59,
-		60,
 		61,
 		62,
 		63,
@@ -77,8 +60,6 @@ pg.pay_data_display = setmetatable({
 		77,
 		78,
 		79,
-		80,
-		81,
 		82,
 		83,
 		84,
@@ -126,8 +107,45 @@ pg.pay_data_display = setmetatable({
 		2009,
 		2010,
 		2011,
-		2012,
-		2013,
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
 		2014,
 		2015,
 		2016,
@@ -135,7 +153,6 @@ pg.pay_data_display = setmetatable({
 		2018,
 		2019,
 		2020,
-		2021,
 		2022,
 		2023,
 		2024,
@@ -171,37 +188,50 @@ pg.pay_data_display = setmetatable({
 		2054,
 		2055,
 		2056,
-		5001,
-		5002,
-		5003,
-		5004,
-		5005,
-		5006,
-		5007,
 		5011,
 		5012,
 		5013,
 		5014,
 		5015,
 		5016,
-		5017
+		5017,
+		139,
+		140,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.pay_data_display = {
 	{
-		descrip = "购买后立即获得$1钻,30日内每天获得资源",
-		name = "贸易许可证（30日）",
+		descrip = "Receive $1 Gems immediately and resources every day for \n30 days.",
+		name = "Trade License (30 days)",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "贸易许可证",
+		subject = "Trade License",
 		tip = "",
 		tip_open = 0,
 		id = 1,
-		money = 30,
-		name_display = "贸易许可证（30日）",
+		money = 799,
+		name_display = "Trade License (30 days)",
 		tag = 2,
 		akashi_pick = 0,
 		gem = 500,
@@ -213,11 +243,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "month",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi102",
+		id_str = "com.yostaren.azurlane.passport1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 7,
-		airijp_id = "com.yostarjp.azurlane.passport1",
+		airijp_id = "com.yostaren.azurlane.passport1",
 		extra_service_item = {
 			{
 				1,
@@ -274,35 +304,40 @@ pg.base.pay_data_display = {
 		}
 	},
 	{
-		descrip = "购买礼包可获得建造及钻石资源",
-		name = "新手启航补给",
+		descrip = "Three Supplies",
+		name = "Novice sailing supplies",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新手起航补给",
+		subject = "Novice sailing supplies",
 		tip = "",
 		tip_open = 0,
 		id = 2,
-		money = 1,
-		name_display = "新手启航补给",
+		money = 99,
+		name_display = "Novice sailing supplies",
 		tag = 1,
 		akashi_pick = 1,
-		gem = 30,
+		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
 		time = "always",
 		package_tag_open = 1,
-		package_tag = "新手\n推荐",
+		package_tag = "Good for\nBeginners",
 		picture = "boxNewplayer",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi101",
+		id_str = "com.yostaren.azurlane.diamond101",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond101",
+		airijp_id = "com.yostaren.azurlane.diamond101",
 		extra_service_item = {
+			{
+				1,
+				4,
+				60
+			},
 			{
 				2,
 				15003,
@@ -316,6 +351,11 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
+				1,
+				4,
+				60
+			},
+			{
 				2,
 				15003,
 				2
@@ -324,11 +364,6 @@ pg.base.pay_data_display = {
 				2,
 				20001,
 				2
-			},
-			{
-				1,
-				4,
-				30
 			}
 		},
 		sub_display = {},
@@ -348,18 +383,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "几个钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Handful of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*60",
+		subject = "60 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 3,
-		money = 6,
-		name_display = "几个钻石",
+		money = 99,
+		name_display = "Handful of Gems",
 		tag = 0,
 		akashi_pick = 0,
 		gem = 60,
@@ -372,11 +407,11 @@ pg.base.pay_data_display = {
 		picture = "1",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi1",
+		id_str = "com.yostaren.azurlane.diamond1",
 		first_pay_double = 1,
 		extra_gem = 0,
 		limit_arg = 10,
-		airijp_id = "com.yostarjp.azurlane.diamond1",
+		airijp_id = "com.yostaren.azurlane.diamond1",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
@@ -384,18 +419,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一小堆钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Pile of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*300",
+		subject = "300 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 4,
-		money = 30,
-		name_display = "一小堆钻石",
+		money = 499,
+		name_display = "Pile of Gems",
 		tag = 0,
 		akashi_pick = 0,
 		gem = 300,
@@ -408,11 +443,11 @@ pg.base.pay_data_display = {
 		picture = "2",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi2",
+		id_str = "com.yostaren.azurlane.diamond2",
 		first_pay_double = 1,
 		extra_gem = 30,
 		limit_arg = 10,
-		airijp_id = "com.yostarjp.azurlane.diamond2",
+		airijp_id = "com.yostaren.azurlane.diamond2",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
@@ -420,21 +455,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一大袋钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Sack of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*980",
+		subject = "980 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 5,
-		money = 98,
-		name_display = "一大袋钻石",
+		money = 999,
+		name_display = "Sack of Gems",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 980,
+		gem = 600,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -444,11 +479,11 @@ pg.base.pay_data_display = {
 		picture = "3",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi3",
+		id_str = "com.yostaren.azurlane.diamond3",
 		first_pay_double = 1,
-		extra_gem = 120,
+		extra_gem = 150,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.diamond3",
+		airijp_id = "com.yostaren.azurlane.diamond3",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
@@ -456,21 +491,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一小箱钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Box of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*1980",
+		subject = "1980 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 6,
-		money = 198,
-		name_display = "一小箱钻石",
+		money = 1999,
+		name_display = "Box of Gems",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 1980,
+		gem = 1200,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -480,11 +515,11 @@ pg.base.pay_data_display = {
 		picture = "4",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi4",
+		id_str = "com.yostaren.azurlane.diamond4",
 		first_pay_double = 1,
-		extra_gem = 300,
+		extra_gem = 360,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.diamond4",
+		airijp_id = "com.yostaren.azurlane.diamond4",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
@@ -492,21 +527,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一大箱钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Chest of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*3280",
+		subject = "3280 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 7,
-		money = 328,
-		name_display = "一大箱钻石",
+		money = 3999,
+		name_display = "Chest of Gems",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 3280,
+		gem = 2400,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -516,11 +551,11 @@ pg.base.pay_data_display = {
 		picture = "5",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi5",
+		id_str = "com.yostaren.azurlane.diamond5",
 		first_pay_double = 1,
-		extra_gem = 720,
+		extra_gem = 880,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.diamond5",
+		airijp_id = "com.yostaren.azurlane.diamond5",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
@@ -528,21 +563,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一整船钻石",
+		descrip = "Get $1 Gems as bonus",
+		name = "Ship of Gems",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*6480",
+		subject = "6480 Gems",
 		tip = "",
 		tip_open = 0,
 		id = 8,
-		money = 648,
-		name_display = "一整船钻石",
+		money = 7999,
+		name_display = "Ship of Gems",
 		tag = 1,
 		akashi_pick = 0,
-		gem = 6480,
+		gem = 4900,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -552,1651 +587,30 @@ pg.base.pay_data_display = {
 		picture = "6",
 		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi6",
+		id_str = "com.yostaren.azurlane.diamond6",
 		first_pay_double = 1,
-		extra_gem = 2400,
+		extra_gem = 2500,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.diamond6",
+		airijp_id = "com.yostaren.azurlane.diamond6",
 		display = {},
 		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {}
 	},
-	{
-		descrip = "可获得一件角色新年换装，3个外观装备箱，和大量其他奖励",
-		name = "新年福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。已获得的衣装将自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新年福袋",
-		tip = "",
-		tip_open = 0,
-		id = 9,
-		money = 198,
-		name_display = "新年福袋",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi103",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond103",
-		extra_service_item = {
-			{
-				2,
-				69901,
-				1
-			},
-			{
-				2,
-				30302,
-				3
-			},
-			{
-				1,
-				14,
-				2018
-			},
-			{
-				2,
-				20001,
-				8
-			},
-			{
-				2,
-				15003,
-				4
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2017,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69901,
-				1
-			},
-			{
-				2,
-				30302,
-				3
-			},
-			{
-				1,
-				14,
-				2018
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40901,
-				1
-			}
-		}
-	},
-	[11] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "国庆福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则会转化为对应原价9折的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "国庆福袋",
-		tip = "",
-		tip_open = 0,
-		id = 11,
-		money = 198,
-		name_display = "国庆福袋",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi108",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond105",
-		extra_service_item = {
-			{
-				2,
-				69902,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2018,
-					9,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2018,
-					10,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69902,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40902,
-				1
-			}
-		}
-	},
-	[12] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019新年福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "2019新年福袋",
-		tip = "",
-		tip_open = 0,
-		id = 12,
-		money = 198,
-		name_display = "2019新年福袋",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi109",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond106",
-		extra_service_item = {
-			{
-				2,
-				69903,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2018,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69903,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40903,
-				1
-			}
-		}
-	},
-	[13] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019春节福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "2019春节福袋",
-		tip = "",
-		tip_open = 0,
-		id = 13,
-		money = 198,
-		name_display = "2019春节福袋",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi110",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond107",
-		extra_service_item = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					1,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40904,
-				1
-			}
-		}
-	},
-	[14] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "二周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "二周年礼盒",
-		tip = "",
-		tip_open = 0,
-		id = 14,
-		money = 198,
-		name_display = "二周年礼盒",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "lihe2_l",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi111",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond108",
-		extra_service_item = {
-			{
-				2,
-				69905,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					5,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69905,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40905,
-				1
-			}
-		}
-	},
-	[15] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "2019国庆礼盒",
-		tip = "",
-		tip_open = 0,
-		id = 15,
-		money = 198,
-		name_display = "2019国庆礼盒",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "lihe1_l",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi113",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond109",
-		extra_service_item = {
-			{
-				2,
-				69906,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					8,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					10,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69906,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40906,
-				1
-			}
-		}
-	},
-	[16] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "新年福袋2020",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新年福袋2020",
-		tip = "",
-		tip_open = 0,
-		id = 16,
-		money = 198,
-		name_display = "新年福袋2020",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai1",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi118",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond110",
-		extra_service_item = {
-			{
-				2,
-				69908,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69908,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40908,
-				1
-			}
-		}
-	},
-	[17] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "新年福袋复刻(2019)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新年福袋复刻(2019)",
-		tip = "",
-		tip_open = 0,
-		id = 17,
-		money = 198,
-		name_display = "新年福袋复刻(2019)",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi119",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond111",
-		extra_service_item = {
-			{
-				2,
-				69903,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69903,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40903,
-				1
-			}
-		}
-	},
-	[18] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "春节福袋2020",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "春节福袋2020",
-		tip = "",
-		tip_open = 0,
-		id = 18,
-		money = 198,
-		name_display = "春节福袋2020",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai2",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi120",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond112",
-		extra_service_item = {
-			{
-				2,
-				69909,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69909,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40909,
-				1
-			}
-		}
-	},
-	[19] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "春节福袋复刻(2019)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "春节福袋复刻(2019)",
-		tip = "",
-		tip_open = 0,
-		id = 19,
-		money = 198,
-		name_display = "春节福袋复刻(2019)",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi121",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond113",
-		extra_service_item = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				14,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40904,
-				1
-			}
-		}
-	},
-	[20] = {
-		descrip = "可获得180钻，石油储备箱(1000)x2和其他奖励",
-		name = "新晋指挥官支援包·I",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新晋指挥官支援包·I ",
-		tip = "",
-		tip_open = 0,
-		id = 20,
-		money = 18,
-		name_display = "新晋指挥官支援包·I",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "always",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "support1",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao101",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package101",
-		extra_service_item = {
-			{
-				1,
-				14,
-				180
-			},
-			{
-				2,
-				30121,
-				2
-			},
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				15001,
-				30
-			},
-			{
-				2,
-				16002,
-				4
-			},
-			{
-				2,
-				16012,
-				4
-			},
-			{
-				2,
-				16022,
-				4
-			},
-			{
-				2,
-				30112,
-				30
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				180
-			},
-			{
-				2,
-				30121,
-				2
-			},
-			{
-				4,
-				100001,
-				1
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40012,
-				1
-			}
-		}
-	},
-	[21] = {
-		descrip = "可获得780钻，定向装备箱·超稀有x2，石油储备箱(1000)x4和其他奖励",
-		name = "新晋指挥官支援包·II",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新晋指挥官支援包·II ",
-		tip = "",
-		tip_open = 0,
-		id = 21,
-		money = 78,
-		name_display = "新晋指挥官支援包·II",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "always",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "support2",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao102",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package102",
-		extra_service_item = {
-			{
-				1,
-				14,
-				780
-			},
-			{
-				2,
-				30202,
-				2
-			},
-			{
-				2,
-				30121,
-				4
-			},
-			{
-				4,
-				100001,
-				1
-			},
-			{
-				2,
-				15001,
-				50
-			},
-			{
-				2,
-				16003,
-				3
-			},
-			{
-				2,
-				16013,
-				3
-			},
-			{
-				2,
-				16023,
-				3
-			},
-			{
-				2,
-				16002,
-				3
-			},
-			{
-				2,
-				16012,
-				3
-			},
-			{
-				2,
-				16022,
-				3
-			},
-			{
-				2,
-				30113,
-				30
-			},
-			{
-				2,
-				30112,
-				50
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				780
-			},
-			{
-				2,
-				30202,
-				2
-			},
-			{
-				2,
-				30121,
-				4
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40013,
-				1
-			}
-		}
-	},
-	[22] = {
-		descrip = "可获得1680钻，定向装备箱·超稀有x4，石油储备箱(1000)x8和其他奖励",
-		name = "新晋指挥官支援包·III",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "新晋指挥官支援包·III ",
-		tip = "",
-		tip_open = 0,
-		id = 22,
-		money = 168,
-		name_display = "新晋指挥官支援包·III",
-		tag = 1,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "always",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "support3",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao103",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package103",
-		extra_service_item = {
-			{
-				1,
-				14,
-				1680
-			},
-			{
-				2,
-				30202,
-				4
-			},
-			{
-				2,
-				30121,
-				8
-			},
-			{
-				4,
-				100011,
-				1
-			},
-			{
-				2,
-				59900,
-				1000
-			},
-			{
-				2,
-				15001,
-				80
-			},
-			{
-				2,
-				16003,
-				5
-			},
-			{
-				2,
-				16013,
-				5
-			},
-			{
-				2,
-				16023,
-				5
-			},
-			{
-				2,
-				16002,
-				5
-			},
-			{
-				2,
-				16012,
-				5
-			},
-			{
-				2,
-				16022,
-				5
-			},
-			{
-				2,
-				30113,
-				100
-			},
-			{
-				2,
-				30112,
-				100
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				1680
-			},
-			{
-				2,
-				30202,
-				4
-			},
-			{
-				2,
-				30121,
-				8
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40014,
-				1
-			}
-		}
-	},
-	[23] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "三周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 0,
-		subject = "三周年礼盒",
-		tip = "",
-		tip_open = 0,
-		id = 23,
-		money = 198,
-		name_display = "三周年礼盒",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "lihe4_l",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi122",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond114",
-		extra_service_item = {
-			{
-				2,
-				69910,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					5,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					6,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69910,
-				1
-			},
-			{
-				1,
-				14,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40910,
-				1
-			}
-		}
-	},
 	[24] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "2020国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		name = "2020 Party Dress Lucky Bag",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2020国庆礼盒",
+		subject = "2020 Party Dress Lucky Bag",
 		tip = "",
 		tip_open = 0,
 		id = 24,
-		money = 198,
-		name_display = "2020国庆礼盒",
+		money = 2999,
+		name_display = "2020 Party Dress Lucky Bag",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2207,11 +621,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe3_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi123",
+		id_str = "com.yostaren.azurlane.diamond138",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond115",
+		airijp_id = "com.yostaren.azurlane.diamond138",
 		extra_service_item = {
 			{
 				2,
@@ -2220,7 +634,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2283,7 +697,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2304,18 +718,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[25] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "新年福袋2021",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Bag 2021 ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋2021",
+		subject = "Shougatsu Lucky Bag 2021",
 		tip = "",
 		tip_open = 0,
 		id = 25,
-		money = 198,
-		name_display = "新年福袋2021",
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag 2021 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2326,11 +740,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi124",
+		id_str = "com.yostaren.azurlane.diamond142",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond116",
+		airijp_id = "com.yostaren.azurlane.diamond142",
 		extra_service_item = {
 			{
 				2,
@@ -2339,7 +753,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -2402,7 +816,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -2423,18 +837,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[26] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "新年福袋复刻(2020)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Bag 2020 ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋复刻(2020)",
+		subject = "Shougatsu Lucky Bag 2020",
 		tip = "",
 		tip_open = 0,
 		id = 26,
-		money = 198,
-		name_display = "新年福袋复刻(2020)",
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag 2020 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2445,11 +859,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi125",
+		id_str = "com.yostaren.azurlane.diamond126",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond117",
+		airijp_id = "com.yostaren.azurlane.diamond126",
 		extra_service_item = {
 			{
 				2,
@@ -2458,7 +872,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2521,7 +935,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2542,18 +956,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[27] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "春节福袋2021",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2021)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋2021",
+		subject = "Lunar New Year Lucky Bag (2021)",
 		tip = "",
 		tip_open = 0,
 		id = 27,
-		money = 198,
-		name_display = "春节福袋2021",
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2021)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2564,11 +978,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi126",
+		id_str = "com.yostaren.azurlane.diamond143",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond118",
+		airijp_id = "com.yostaren.azurlane.diamond143",
 		extra_service_item = {
 			{
 				2,
@@ -2577,7 +991,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -2640,7 +1054,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -2661,18 +1075,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[28] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "春节福袋复刻(2020)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2020)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋复刻(2020)",
+		subject = "Lunar New Year Lucky Bag (2020)",
 		tip = "",
 		tip_open = 0,
 		id = 28,
-		money = 198,
-		name_display = "春节福袋复刻(2020)",
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2020)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2683,11 +1097,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi127",
+		id_str = "com.yostaren.azurlane.diamond128",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond119",
+		airijp_id = "com.yostaren.azurlane.diamond128",
 		extra_service_item = {
 			{
 				2,
@@ -2696,7 +1110,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2759,7 +1173,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -2780,18 +1194,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[29] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "四周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Exquisite Lucky Box 2021 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "四周年礼盒",
+		subject = "Exquisite Lucky Box 2021 ",
 		tip = "",
 		tip_open = 0,
 		id = 29,
-		money = 198,
-		name_display = "四周年礼盒",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2021 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2800,13 +1214,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe5_l",
+		picture = "lihe6_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi128",
+		id_str = "com.yostaren.azurlane.diamond146",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond120",
+		airijp_id = "com.yostaren.azurlane.diamond146",
 		extra_service_item = {
 			{
 				2,
@@ -2815,7 +1229,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -2899,18 +1313,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[30] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "三周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		name = "Exquisite Lucky Bag 2020 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "三周年礼盒复刻",
+		subject = "Exquisite Lucky Bag 2020 ",
 		tip = "",
 		tip_open = 0,
 		id = 30,
-		money = 198,
-		name_display = "三周年礼盒复刻",
+		money = 2999,
+		name_display = "Exquisite Lucky Bag 2020 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2919,13 +1333,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe4_l",
+		picture = "lihe1_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi129",
+		id_str = "com.yostaren.azurlane.diamond147",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond121",
+		airijp_id = "com.yostaren.azurlane.diamond147",
 		extra_service_item = {
 			{
 				2,
@@ -2934,7 +1348,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -3018,18 +1432,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[31] = {
-		descrip = "可获得1980钻，定向部件T4x35，定向装备箱·研发装备①x1和其他奖励",
-		name = "大型作战攻略支援包",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+		descrip = "Contains 1980 x Gems, 35x Universal T4 Plate, 1x Gear Lab Development Pack, and other rewards ",
+		name = "New Commanders Support Pack IV ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "大型作战攻略支援包",
+		subject = "New Commanders Support Pack IV ",
 		tip = "",
 		tip_open = 0,
 		id = 31,
-		money = 198,
-		name_display = "大型作战攻略支援包",
+		money = 2999,
+		name_display = "New Commanders Support Pack IV ",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -3041,11 +1455,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "support4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi130",
+		id_str = "com.yostaren.azurlane.diamond148",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond122",
+		airijp_id = "com.yostaren.azurlane.diamond148",
 		extra_service_item = {
 			{
 				1,
@@ -3137,18 +1551,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[32] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "2021国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "2021 Party Dress Lucky Box",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2021国庆礼盒",
+		subject = "2021 Party Dress Lucky Box",
 		tip = "",
 		tip_open = 0,
 		id = 32,
-		money = 198,
-		name_display = "2021国庆礼盒",
+		money = 2999,
+		name_display = "2021 Party Dress Lucky Box",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3159,11 +1573,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe6_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi131",
+		id_str = "com.yostaren.azurlane.diamond151",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond123",
+		airijp_id = "com.yostaren.azurlane.diamond151",
 		extra_service_item = {
 			{
 				2,
@@ -3172,7 +1586,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -3235,7 +1649,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2021
 			},
 			{
@@ -3256,18 +1670,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[33] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "国庆礼盒复刻（2020）",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2020 Gems, and a large amount of supplies. ",
+		name = "2020 Party Dress Lucky Box",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "国庆礼盒复刻(2020)",
+		subject = "2020 Party Dress Lucky Box",
 		tip = "",
 		tip_open = 0,
 		id = 33,
-		money = 198,
-		name_display = "国庆礼盒复刻（2020）",
+		money = 2999,
+		name_display = "2020 Party Dress Lucky Box",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3278,11 +1692,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe3_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi132",
+		id_str = "com.yostaren.azurlane.diamond150",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond124",
+		airijp_id = "com.yostaren.azurlane.diamond150",
 		extra_service_item = {
 			{
 				2,
@@ -3291,7 +1705,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -3354,7 +1768,7 @@ pg.base.pay_data_display = {
 			},
 			{
 				1,
-				14,
+				4,
 				2020
 			},
 			{
@@ -3375,18 +1789,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[34] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "新年福袋2022",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Box 2022 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋2022",
+		subject = "Shougatsu Lucky Box 2022 ",
 		tip = "",
 		tip_open = 0,
 		id = 34,
-		money = 198,
-		name_display = "新年福袋2022",
+		money = 2999,
+		name_display = "Shougatsu Lucky Box 2022 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3397,11 +1811,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai6",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi133",
+		id_str = "com.yostaren.azurlane.diamond154",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond125",
+		airijp_id = "com.yostaren.azurlane.diamond154",
 		extra_service_item = {
 			{
 				2,
@@ -3494,18 +1908,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[35] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "新年福袋复刻(2021)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Shougatsu Lucky Bag 2021 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋复刻(2021)",
+		subject = "Shougatsu Lucky Bag 2021 ",
 		tip = "",
 		tip_open = 0,
 		id = 35,
-		money = 198,
-		name_display = "新年福袋复刻(2021)",
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag 2021 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3516,11 +1930,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi134",
+		id_str = "com.yostaren.azurlane.diamond153",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond126",
+		airijp_id = "com.yostaren.azurlane.diamond153",
 		extra_service_item = {
 			{
 				2,
@@ -3613,18 +2027,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[36] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "春节福袋2022",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2022)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋2022",
+		subject = "Lunar New Year Lucky Bag (2022)",
 		tip = "",
 		tip_open = 0,
 		id = 36,
-		money = 198,
-		name_display = "春节福袋2022",
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2022)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3635,11 +2049,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai7",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi135",
+		id_str = "com.yostaren.azurlane.diamond156",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond127",
+		airijp_id = "com.yostaren.azurlane.diamond156",
 		extra_service_item = {
 			{
 				2,
@@ -3732,18 +2146,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[37] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "春节福袋复刻(2021)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Lunar New Year Lucky Bag (2021)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋复刻(2021)",
+		subject = "Lunar New Year Lucky Bag (2021)",
 		tip = "",
 		tip_open = 0,
 		id = 37,
-		money = 198,
-		name_display = "春节福袋复刻(2021)",
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2021)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3754,11 +2168,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi136",
+		id_str = "com.yostaren.azurlane.diamond155",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond128",
+		airijp_id = "com.yostaren.azurlane.diamond155",
 		extra_service_item = {
 			{
 				2,
@@ -3851,18 +2265,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[38] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "五周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies. ",
+		name = "Exquisite Lucky Box 2022 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "五周年礼盒",
+		subject = "Exquisite Lucky Box 2022 ",
 		tip = "",
 		tip_open = 0,
 		id = 38,
-		money = 198,
-		name_display = "五周年礼盒",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2022 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3871,13 +2285,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe7_l",
+		picture = "lihe8_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi137",
+		id_str = "com.yostaren.azurlane.diamond167",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond129",
+		airijp_id = "com.yostaren.azurlane.diamond167",
 		extra_service_item = {
 			{
 				2,
@@ -3970,18 +2384,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[39] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "四周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies. ",
+		name = "Exquisite Lucky Box 2021 ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "四周年礼盒复刻",
+		subject = "Exquisite Lucky Box 2021 ",
 		tip = "",
 		tip_open = 0,
 		id = 39,
-		money = 198,
-		name_display = "四周年礼盒复刻",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2021 ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3990,13 +2404,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe5_l",
+		picture = "lihe6_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi138",
+		id_str = "com.yostaren.azurlane.diamond168",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond130",
+		airijp_id = "com.yostaren.azurlane.diamond168",
 		extra_service_item = {
 			{
 				2,
@@ -4088,138 +2502,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[40] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "金秋庆典礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	[42] = {
+		descrip = "Contains a random character outfit, 2021 Gems, and a large amount of supplies.",
+		name = "Party Dress Lucky Box 2021 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒",
+		subject = "Party Dress Lucky Box 2021 Rerun",
 		tip = "",
 		tip_open = 0,
-		id = 40,
-		money = 198,
-		name_display = "金秋庆典礼盒",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "lihe8_l",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi139",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond131",
-		extra_service_item = {
-			{
-				2,
-				69920,
-				1
-			},
-			{
-				1,
-				14,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					9,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					10,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69920,
-				1
-			},
-			{
-				1,
-				14,
-				2022
-			},
-			{
-				2,
-				42046,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40920,
-				1
-			}
-		}
-	},
-	[41] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "金秋庆典礼盒（2021）",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "金秋庆典礼盒（2021）",
-		tip = "",
-		tip_open = 0,
-		id = 41,
-		money = 198,
-		name_display = "金秋庆典礼盒（2021）",
+		id = 42,
+		money = 2999,
+		name_display = "Party Dress Lucky Box 2021 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4230,11 +2525,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe6_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi140",
+		id_str = "com.yostaren.azurlane.diamond175",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond132",
+		airijp_id = "com.yostaren.azurlane.diamond175",
 		extra_service_item = {
 			{
 				2,
@@ -4277,7 +2572,7 @@ pg.base.pay_data_display = {
 				{
 					2022,
 					9,
-					22
+					26
 				},
 				{
 					0,
@@ -4289,7 +2584,7 @@ pg.base.pay_data_display = {
 				{
 					2022,
 					10,
-					12
+					16
 				},
 				{
 					23,
@@ -4326,19 +2621,138 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[44] = {
-		descrip = "可获得大量材料奖励",
-		name = "回归礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+	[43] = {
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		name = "Party Dress Lucky Box 2022",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "回归礼包",
+		subject = "Party Dress Lucky Box 2022",
+		tip = "",
+		tip_open = 0,
+		id = 43,
+		money = 2999,
+		name_display = "Party Dress Lucky Box 2022",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "lihe8_l",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond176",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond176",
+		extra_service_item = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69920,
+				1
+			},
+			{
+				1,
+				14,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40920,
+				1
+			}
+		}
+	},
+	[44] = {
+		descrip = "Contains loads of valuable rewads.",
+		name = "Welcome Back Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Welcome Back Pack",
 		tip = "",
 		tip_open = 0,
 		id = 44,
-		money = 128,
-		name_display = "回归礼包",
+		money = 1799,
+		name_display = "Welcome Back Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4349,11 +2763,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "support6",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi141",
+		id_str = "com.yostaren.azurlane.diamond179",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond133",
+		airijp_id = "com.yostaren.azurlane.diamond179",
 		extra_service_item = {
 			{
 				2,
@@ -4486,18 +2900,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[45] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Winter Swimsuit Lucky Bag 2022 A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·I",
+		subject = "Winter Swimsuit Lucky Bag 2022 A",
 		tip = "",
 		tip_open = 0,
 		id = 45,
-		money = 198,
-		name_display = "2023泳装礼盒·I",
+		money = 2999,
+		name_display = "Winter Swimsuit Lucky Bag 2022 A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4508,11 +2922,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe10_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi142",
+		id_str = "com.yostaren.azurlane.luckybag2",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond134",
+		airijp_id = "com.yostaren.azurlane.luckybag2",
 		extra_service_item = {
 			{
 				2,
@@ -4605,18 +3019,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[46] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Winter Swimsuit Lucky Bag 2022 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·II",
+		subject = "Winter Swimsuit Lucky Bag 2022 B",
 		tip = "",
 		tip_open = 0,
 		id = 46,
-		money = 198,
-		name_display = "2023泳装礼盒·II",
+		money = 2999,
+		name_display = "Winter Swimsuit Lucky Bag 2022 B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4627,11 +3041,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe11_l",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi143",
+		id_str = "com.yostaren.azurlane.luckybag3",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond135",
+		airijp_id = "com.yostaren.azurlane.luckybag3",
 		extra_service_item = {
 			{
 				2,
@@ -4724,18 +3138,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[47] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "新年福袋复刻(2022)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		name = "Shougatsu Lucky Box 2022 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "新年福袋2022",
+		subject = "Shougatsu Lucky Box 2022 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 47,
-		money = 198,
-		name_display = "新年福袋复刻(2022)",
+		money = 2999,
+		name_display = "Shougatsu Lucky Box 2022 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4746,11 +3160,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai6",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi144",
+		id_str = "com.yostaren.azurlane.luckybag1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond136",
+		airijp_id = "com.yostaren.azurlane.luckybag1",
 		extra_service_item = {
 			{
 				2,
@@ -4843,18 +3257,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[48] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2023 A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·I",
+		subject = "Spring Lucky Bag 2023 A",
 		tip = "",
 		tip_open = 0,
 		id = 48,
-		money = 198,
-		name_display = "2023年春节福袋·I",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2023 A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4865,11 +3279,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudaiqp1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi145",
+		id_str = "com.yostaren.azurlane.luckybag5",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond137",
+		airijp_id = "com.yostaren.azurlane.luckybag5",
 		extra_service_item = {
 			{
 				2,
@@ -4962,18 +3376,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[49] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2023 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·II",
+		subject = "Spring Lucky Bag 2023 B",
 		tip = "",
 		tip_open = 0,
 		id = 49,
-		money = 198,
-		name_display = "2023年春节福袋·II",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2023 B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4984,11 +3398,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudaiqp2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi146",
+		id_str = "com.yostaren.azurlane.luckybag7",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond138",
+		airijp_id = "com.yostaren.azurlane.luckybag7",
 		extra_service_item = {
 			{
 				2,
@@ -5081,18 +3495,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[50] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "春节福袋复刻(2022)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		name = "Lunar New Year Lucky Bag 2022 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "春节福袋复刻(2022)",
+		subject = "Lunar New Year Lucky Bag 2022 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 50,
-		money = 198,
-		name_display = "春节福袋复刻(2022)",
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag 2022 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5103,11 +3517,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai7",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi147",
+		id_str = "com.yostaren.azurlane.luckybag6",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond139",
+		airijp_id = "com.yostaren.azurlane.luckybag6",
 		extra_service_item = {
 			{
 				2,
@@ -5200,18 +3614,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[51] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年泳装礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains items, resources, and a random Summer 2023 swimsuit skin.",
+		name = "Swimsuit Lucky Bag 2023",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年泳装礼盒",
+		subject = "Swimsuit Lucky Bag 2023",
 		tip = "",
 		tip_open = 0,
 		id = 51,
-		money = 198,
-		name_display = "六周年泳装礼盒",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2023",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5222,11 +3636,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihecn6ss_l",
 		skin_inquire_relation = 69926,
-		id_str = "com.bilibili.blhx.zuanshi151",
+		id_str = "com.yostaren.azurlane.luckybag10",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond140",
+		airijp_id = "com.yostaren.azurlane.luckybag10",
 		extra_service_item = {
 			{
 				2,
@@ -5319,18 +3733,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[52] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Exquisite Lucky Box 2023",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年礼盒",
+		subject = "Exquisite Lucky Box 2023",
 		tip = "",
 		tip_open = 0,
 		id = 52,
-		money = 198,
-		name_display = "六周年礼盒",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2023",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5339,13 +3753,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihecn6lf_l",
+		picture = "liheus6lf_l",
 		skin_inquire_relation = 69927,
-		id_str = "com.bilibili.blhx.zuanshi152",
+		id_str = "com.yostaren.azurlane.luckybag11",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond141",
+		airijp_id = "com.yostaren.azurlane.luckybag11",
 		extra_service_item = {
 			{
 				2,
@@ -5438,18 +3852,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[53] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "五周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		name = "Exquisite Lucky Box 2022 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "五周年礼盒复刻",
+		subject = "Exquisite Lucky Box 2022 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 53,
-		money = 198,
-		name_display = "五周年礼盒复刻",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2022 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5458,13 +3872,13 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe7_l",
+		picture = "lihe8_l",
 		skin_inquire_relation = 69919,
-		id_str = "com.bilibili.blhx.zuanshi153",
+		id_str = "com.yostaren.azurlane.luckybag12",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond142",
+		airijp_id = "com.yostaren.azurlane.luckybag12",
 		extra_service_item = {
 			{
 				2,
@@ -5557,18 +3971,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[55] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋庆典礼盒(2023)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Autumn Classics Lucky Box ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒(2023)",
+		subject = "Autumn Classics Lucky Box ",
 		tip = "",
 		tip_open = 0,
 		id = 55,
-		money = 198,
-		name_display = "金秋庆典礼盒(2023)",
+		money = 2999,
+		name_display = "Autumn Classics Lucky Box ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5579,11 +3993,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihejp6lf_l",
 		skin_inquire_relation = 69929,
-		id_str = "com.bilibili.blhx.zuanshi155",
+		id_str = "com.yostaren.azurlane.luckybag16",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond144",
+		airijp_id = "com.yostaren.azurlane.luckybag16",
 		extra_service_item = {
 			{
 				2,
@@ -5676,18 +4090,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[56] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "金秋庆典礼盒复刻(2022)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2022 Gems, and a large amount of supplies.",
+		name = "Party Dress Lucky Box 2022 Rerun ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒复刻(2022)",
+		subject = "Party Dress Lucky Box 2022 Rerun ",
 		tip = "",
 		tip_open = 0,
 		id = 56,
-		money = 198,
-		name_display = "金秋庆典礼盒复刻(2022)",
+		money = 2999,
+		name_display = "Party Dress Lucky Box 2022 Rerun ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5698,11 +4112,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe8_l",
 		skin_inquire_relation = 69920,
-		id_str = "com.bilibili.blhx.zuanshi156",
+		id_str = "com.yostaren.azurlane.luckybag17",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond145",
+		airijp_id = "com.yostaren.azurlane.luckybag17",
 		extra_service_item = {
 			{
 				2,
@@ -5795,18 +4209,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[57] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋礼盒2023",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Fashion Collection Lucky Bag ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋礼盒2023",
+		subject = "Fashion Collection Lucky Bag ",
 		tip = "",
 		tip_open = 0,
 		id = 57,
-		money = 198,
-		name_display = "金秋礼盒2023",
+		money = 2999,
+		name_display = "Fashion Collection Lucky Bag ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5817,11 +4231,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihejp6ss_l",
 		skin_inquire_relation = 69928,
-		id_str = "com.bilibili.blhx.zuanshi157",
+		id_str = "com.yostaren.azurlane.luckybag15",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond143",
+		airijp_id = "com.yostaren.azurlane.luckybag15",
 		extra_service_item = {
 			{
 				2,
@@ -5913,316 +4327,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[58] = {
-		descrip = "可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
-		name = "茗的促销大礼包",
-		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*自选促销礼物盒需要在仓库中使用",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "茗的促销大礼包",
-		tip = "",
-		tip_open = 0,
-		id = 58,
-		money = 198,
-		name_display = "茗的促销大礼包",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_198",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi158",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond155",
-		extra_service_item = {
-			{
-				2,
-				59504,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			},
-			{
-				2,
-				30114,
-				30
-			},
-			{
-				2,
-				17003,
-				20
-			},
-			{
-				2,
-				17013,
-				20
-			},
-			{
-				2,
-				17023,
-				20
-			},
-			{
-				2,
-				17033,
-				20
-			},
-			{
-				2,
-				17043,
-				20
-			}
-		},
-		display = {
-			{
-				2,
-				59504,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40988,
-				1
-			}
-		}
-	},
-	[59] = {
-		descrip = "可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
-		name = "茗的豪华促销大礼包",
-		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*豪华自选促销礼物盒中的促销换装兑换券（限时）具有时限，请即时使用。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "茗的豪华促销大礼包",
-		tip = "",
-		tip_open = 0,
-		id = 59,
-		money = 328,
-		name_display = "茗的豪华促销大礼包",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_328",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi159",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond156",
-		extra_service_item = {
-			{
-				2,
-				59505,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			},
-			{
-				2,
-				15008,
-				2000
-			},
-			{
-				2,
-				16004,
-				2
-			},
-			{
-				2,
-				16014,
-				2
-			},
-			{
-				2,
-				16024,
-				2
-			},
-			{
-				2,
-				16032,
-				30
-			}
-		},
-		display = {
-			{
-				2,
-				59505,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40989,
-				1
-			}
-		}
-	},
-	[60] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "促销心动福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "促销心动福袋",
-		tip = "",
-		tip_open = 0,
-		id = 60,
-		money = 198,
-		name_display = "促销心动福袋",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai8",
-		skin_inquire_relation = 69984,
-		id_str = "com.bilibili.blhx.zuanshi160",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond146",
-		extra_service_item = {
-			{
-				2,
-				69984,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				69984,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40998,
-				1
-			}
-		}
-	},
 	[61] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·I",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Resplendent Night Lucky Bag I",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·I",
+		subject = "Resplendent Night Lucky Bag I",
 		tip = "",
 		tip_open = 0,
 		id = 61,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·I",
+		money = 2999,
+		name_display = "Resplendent Night Lucky Bag I",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6233,11 +4350,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai9",
 		skin_inquire_relation = 86200,
-		id_str = "com.bilibili.blhx.zuanshi161",
+		id_str = "com.yostaren.azurlane.luckybag21",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond147",
+		airijp_id = "com.yostaren.azurlane.luckybag21",
 		extra_service_item = {
 			{
 				2,
@@ -6330,18 +4447,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[62] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·I复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Winter Swimsuit Lucky Bag 2022 A Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·I复刻",
+		subject = "Winter Swimsuit Lucky Bag 2022 A Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 62,
-		money = 198,
-		name_display = "2023泳装礼盒·I复刻",
+		money = 2999,
+		name_display = "Winter Swimsuit Lucky Bag 2022 A Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6352,11 +4469,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe10_l",
 		skin_inquire_relation = 69922,
-		id_str = "com.bilibili.blhx.zuanshi162",
+		id_str = "com.yostaren.azurlane.luckybag20",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond148",
+		airijp_id = "com.yostaren.azurlane.luckybag20",
 		extra_service_item = {
 			{
 				2,
@@ -6449,18 +4566,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[63] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·Ⅱ",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Resplendent Night Lucky Bag II",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·Ⅱ",
+		subject = "Resplendent Night Lucky Bag II",
 		tip = "",
 		tip_open = 0,
 		id = 63,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·Ⅱ",
+		money = 2999,
+		name_display = "Resplendent Night Lucky Bag II",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6471,11 +4588,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai10",
 		skin_inquire_relation = 86201,
-		id_str = "com.bilibili.blhx.zuanshi163",
+		id_str = "com.yostaren.azurlane.luckybag23",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond149",
+		airijp_id = "com.yostaren.azurlane.luckybag23",
 		extra_service_item = {
 			{
 				2,
@@ -6530,7 +4647,7 @@ pg.base.pay_data_display = {
 				{
 					2024,
 					1,
-					3
+					10
 				},
 				{
 					23,
@@ -6568,18 +4685,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[64] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·Ⅱ复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Winter Swimsuit Lucky Bag 2022 B Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·Ⅱ复刻",
+		subject = "Winter Swimsuit Lucky Bag 2022 B Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 64,
-		money = 198,
-		name_display = "2023泳装礼盒·Ⅱ复刻",
+		money = 2999,
+		name_display = "Winter Swimsuit Lucky Bag 2022 B Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6590,11 +4707,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihe11_l",
 		skin_inquire_relation = 69923,
-		id_str = "com.bilibili.blhx.zuanshi164",
+		id_str = "com.yostaren.azurlane.luckybag22",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond150",
+		airijp_id = "com.yostaren.azurlane.luckybag22",
 		extra_service_item = {
 			{
 				2,
@@ -6649,7 +4766,7 @@ pg.base.pay_data_display = {
 				{
 					2024,
 					1,
-					3
+					10
 				},
 				{
 					23,
@@ -6687,18 +4804,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[65] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·I",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Box 2024 A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·I",
+		subject = "Spring Lucky Box 2024 A",
 		tip = "",
 		tip_open = 0,
 		id = 65,
-		money = 198,
-		name_display = "2024年春节福袋·I",
+		money = 2999,
+		name_display = "Spring Lucky Box 2024 A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6709,11 +4826,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai11",
 		skin_inquire_relation = 86202,
-		id_str = "com.bilibili.blhx.zuanshi165",
+		id_str = "com.yostaren.azurlane.luckybag25",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond151",
+		airijp_id = "com.yostaren.azurlane.luckybag25",
 		extra_service_item = {
 			{
 				2,
@@ -6806,18 +4923,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[66] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2023 A Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·I复刻",
+		subject = "Spring Lucky Bag 2023 A Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 66,
-		money = 198,
-		name_display = "2023年春节福袋·I复刻",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2023 A Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6828,11 +4945,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudaiqp1",
 		skin_inquire_relation = 69924,
-		id_str = "com.bilibili.blhx.zuanshi166",
+		id_str = "com.yostaren.azurlane.luckybag24",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond152",
+		airijp_id = "com.yostaren.azurlane.luckybag24",
 		extra_service_item = {
 			{
 				2,
@@ -6925,18 +5042,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[67] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·II",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Box 2024 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·II",
+		subject = "Spring Lucky Box 2024 B",
 		tip = "",
 		tip_open = 0,
 		id = 67,
-		money = 198,
-		name_display = "2024年春节福袋·II",
+		money = 2999,
+		name_display = "Spring Lucky Box 2024 B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6947,11 +5064,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai12",
 		skin_inquire_relation = 86203,
-		id_str = "com.bilibili.blhx.zuanshi167",
+		id_str = "com.yostaren.azurlane.luckybag27",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond153",
+		airijp_id = "com.yostaren.azurlane.luckybag27",
 		extra_service_item = {
 			{
 				2,
@@ -7044,18 +5161,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[68] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2023 B Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·II复刻",
+		subject = "Spring Lucky Bag 2023 B Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 68,
-		money = 198,
-		name_display = "2023年春节福袋·II复刻",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2023 B Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7066,11 +5183,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudaiqp2",
 		skin_inquire_relation = 69925,
-		id_str = "com.bilibili.blhx.zuanshi168",
+		id_str = "com.yostaren.azurlane.luckybag26",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond154",
+		airijp_id = "com.yostaren.azurlane.luckybag26",
 		extra_service_item = {
 			{
 				2,
@@ -7163,18 +5280,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[69] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年泳装礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Swimsuit Lucky Bag 2024",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年泳装礼盒",
+		subject = "Swimsuit Lucky Bag 2024",
 		tip = "",
 		tip_open = 0,
 		id = 69,
-		money = 198,
-		name_display = "七周年泳装礼盒",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2024",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7185,11 +5302,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai13",
 		skin_inquire_relation = 86204,
-		id_str = "com.bilibili.blhx.zuanshi169",
+		id_str = "com.yostaren.azurlane.luckybag31",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond157",
+		airijp_id = "com.yostaren.azurlane.luckybag31",
 		extra_service_item = {
 			{
 				2,
@@ -7282,18 +5399,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[70] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年泳装礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Swimsuit Lucky Bag 2023 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年泳装礼盒复刻",
+		subject = "Swimsuit Lucky Bag 2023 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 70,
-		money = 198,
-		name_display = "六周年泳装礼盒复刻",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2023 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7304,11 +5421,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihecn6ss_l",
 		skin_inquire_relation = 69926,
-		id_str = "com.bilibili.blhx.zuanshi172",
+		id_str = "com.yostaren.azurlane.luckybag32",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond158",
+		airijp_id = "com.yostaren.azurlane.luckybag32",
 		extra_service_item = {
 			{
 				2,
@@ -7401,18 +5518,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[71] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Exquisite Lucky Envelope 2024",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年礼盒",
+		subject = "Exquisite Lucky Envelope 2024",
 		tip = "",
 		tip_open = 0,
 		id = 71,
-		money = 198,
-		name_display = "七周年礼盒",
+		money = 2999,
+		name_display = "Exquisite Lucky Envelope 2024",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7423,11 +5540,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai14",
 		skin_inquire_relation = 86205,
-		id_str = "com.bilibili.blhx.zuanshi170",
+		id_str = "com.yostaren.azurlane.luckybag33",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond159",
+		airijp_id = "com.yostaren.azurlane.luckybag33",
 		extra_service_item = {
 			{
 				2,
@@ -7520,18 +5637,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[72] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Exquisite Lucky Box 2023 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年礼盒复刻",
+		subject = "Exquisite Lucky Box 2023 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 72,
-		money = 198,
-		name_display = "六周年礼盒复刻",
+		money = 2999,
+		name_display = "Exquisite Lucky Box 2023 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7542,11 +5659,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihecn6lf_l",
 		skin_inquire_relation = 69927,
-		id_str = "com.bilibili.blhx.zuanshi171",
+		id_str = "com.yostaren.azurlane.luckybag34",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond160",
+		airijp_id = "com.yostaren.azurlane.luckybag34",
 		extra_service_item = {
 			{
 				2,
@@ -7639,18 +5756,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[73] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "梦幻乐园换装礼盒I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Dreamland Lucky Bag A",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		limit_group = 0,
 		type_order = 3,
-		subject = "梦幻乐园换装礼盒I",
+		subject = "Dreamland Lucky Bag A",
 		tip = "",
 		tip_open = 0,
 		id = 73,
-		money = 198,
-		name_display = "梦幻乐园换装礼盒I",
+		money = 2999,
+		name_display = "Dreamland Lucky Bag A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7661,11 +5778,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai15",
 		skin_inquire_relation = 86206,
-		id_str = "com.bilibili.blhx.zuanshi173",
+		id_str = "com.yostaren.azurlane.luckybag38",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond161",
+		airijp_id = "com.yostaren.azurlane.luckybag38",
 		extra_service_item = {
 			{
 				2,
@@ -7758,18 +5875,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[74] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋礼盒2023复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Fashion Collection Lucky Bag Rerun",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		limit_group = 0,
 		type_order = 3,
-		subject = "金秋礼盒2023复刻",
+		subject = "Fashion Collection Lucky Bag Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 74,
-		money = 198,
-		name_display = "金秋礼盒2023复刻",
+		money = 2999,
+		name_display = "Fashion Collection Lucky Bag Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7780,11 +5897,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihejp6ss_l",
 		skin_inquire_relation = 69928,
-		id_str = "com.bilibili.blhx.zuanshi174",
+		id_str = "com.yostaren.azurlane.luckybag39",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond162",
+		airijp_id = "com.yostaren.azurlane.luckybag39",
 		extra_service_item = {
 			{
 				2,
@@ -7877,18 +5994,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[75] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "梦幻乐园换装礼盒II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Dreamland Lucky Bag B",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "梦幻乐园换装礼盒II",
+		subject = "Dreamland Lucky Bag B",
 		tip = "",
 		tip_open = 0,
 		id = 75,
-		money = 198,
-		name_display = "梦幻乐园换装礼盒II",
+		money = 2999,
+		name_display = "Dreamland Lucky Bag B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7899,11 +6016,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai16",
 		skin_inquire_relation = 86207,
-		id_str = "com.bilibili.blhx.zuanshi175",
+		id_str = "com.yostaren.azurlane.luckybag40",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond163",
+		airijp_id = "com.yostaren.azurlane.luckybag40",
 		extra_service_item = {
 			{
 				2,
@@ -7996,18 +6113,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[76] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋庆典礼盒(2023)复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2023 Gems, and a large amount of supplies.",
+		name = "Autumn Classics Lucky Box Rerun",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒(2023)复刻",
+		subject = "Autumn Classics Lucky Box Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 76,
-		money = 198,
-		name_display = "金秋庆典礼盒(2023)复刻",
+		money = 2999,
+		name_display = "Autumn Classics Lucky Box Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8018,11 +6135,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lihejp6lf_l",
 		skin_inquire_relation = 69929,
-		id_str = "com.bilibili.blhx.zuanshi176",
+		id_str = "com.yostaren.azurlane.luckybag41",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond164",
+		airijp_id = "com.yostaren.azurlane.luckybag41",
 		extra_service_item = {
 			{
 				2,
@@ -8115,18 +6232,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[77] = {
-		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
-		name = "冬日自选礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
+		name = "Choose-Your-Own Gift Pack I",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 2,
-		subject = "冬日自选礼包1",
+		subject = "Choose-Your-Own Gift Pack I",
 		tip = "",
 		tip_open = 0,
 		id = 77,
-		money = 98,
-		name_display = "冬日自选礼包1",
+		money = 1499,
+		name_display = "Choose-Your-Own Gift Pack I",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8137,11 +6254,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "pack_2024_98",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi177",
+		id_str = "com.yostaren.azurlane.bfchoosebag3",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond165",
+		airijp_id = "com.yostaren.azurlane.bfchoosebag3",
 		extra_service_item = {
 			{
 				2,
@@ -8167,9 +6284,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2025,
-					1,
-					16
+					2024,
+					11,
+					14
 				},
 				{
 					0,
@@ -8179,9 +6296,9 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2025,
-					2,
-					5
+					2024,
+					12,
+					4
 				},
 				{
 					23,
@@ -8219,18 +6336,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[78] = {
-		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
-		name = "冬日自选礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
+		name = "Choose-Your-Own Gift Pack II",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 2,
-		subject = "冬日自选礼包2",
+		subject = "Choose-Your-Own Gift Pack II",
 		tip = "",
 		tip_open = 0,
 		id = 78,
-		money = 198,
-		name_display = "冬日自选礼包2",
+		money = 2999,
+		name_display = "Choose-Your-Own Gift Pack II",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8241,11 +6358,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "pack_2024_198",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi178",
+		id_str = "com.yostaren.azurlane.bfchoosebag4",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond166",
+		airijp_id = "com.yostaren.azurlane.bfchoosebag4",
 		extra_service_item = {
 			{
 				2,
@@ -8276,9 +6393,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2025,
-					1,
-					16
+					2024,
+					11,
+					14
 				},
 				{
 					0,
@@ -8288,9 +6405,9 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2025,
-					2,
-					5
+					2024,
+					12,
+					4
 				},
 				{
 					23,
@@ -8328,18 +6445,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[79] = {
-		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
-		name = "冬日自选礼包3",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
+		name = "Choose-Your-Own Gift Pack III",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 2,
-		subject = "冬日自选礼包3",
+		subject = "Choose-Your-Own Gift Pack III",
 		tip = "",
 		tip_open = 0,
 		id = 79,
-		money = 328,
-		name_display = "冬日自选礼包3",
+		money = 4499,
+		name_display = "Choose-Your-Own Gift Pack III",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8350,15 +6467,15 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "pack_2024_328",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi179",
+		id_str = "com.yostaren.azurlane.bfchoosebag5",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond167",
+		airijp_id = "com.yostaren.azurlane.bfchoosebag5",
 		extra_service_item = {
 			{
 				2,
-				59563,
+				59557,
 				1
 			},
 			{
@@ -8400,9 +6517,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2025,
-					1,
-					16
+					2024,
+					11,
+					14
 				},
 				{
 					0,
@@ -8412,9 +6529,9 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2025,
-					2,
-					5
+					2024,
+					12,
+					4
 				},
 				{
 					23,
@@ -8426,7 +6543,7 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				59563,
+				59557,
 				1
 			},
 			{
@@ -8446,197 +6563,24 @@ pg.base.pay_data_display = {
 		drop_item = {
 			{
 				2,
-				81421,
-				1
-			}
-		}
-	},
-	[80] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "豪华冬至促销礼盒(2024)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "豪华冬至促销礼盒(2024)",
-		tip = "",
-		tip_open = 0,
-		id = 80,
-		money = 198,
-		name_display = "豪华冬至促销礼盒(2024)",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai17",
-		skin_inquire_relation = 86411,
-		id_str = "com.bilibili.blhx.zuanshi180",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond168",
-		extra_service_item = {
-			{
-				2,
-				86411,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				86411,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81419,
-				1
-			}
-		}
-	},
-	[81] = {
-		descrip = "可获得列表中未拥有的L2D换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
-		name = "冬至促销礼盒(2024)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得1080钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "冬至促销礼盒(2024)",
-		tip = "",
-		tip_open = 0,
-		id = 81,
-		money = 68,
-		name_display = "冬至促销礼盒(2024)",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai18",
-		skin_inquire_relation = 86412,
-		id_str = "com.bilibili.blhx.zuanshi181",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.diamond169",
-		extra_service_item = {
-			{
-				2,
-				86412,
-				1
-			},
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		display = {
-			{
-				2,
-				86412,
-				1
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81420,
+				81409,
 				1
 			}
 		}
 	},
 	[82] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "港区游戏之夜礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains items, resources, and a random skin.",
+		name = "Game Night Lucky Bag A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "港区游戏之夜礼盒·I",
+		subject = "Game Night Lucky Bag A",
 		tip = "",
 		tip_open = 0,
 		id = 82,
-		money = 198,
-		name_display = "港区游戏之夜礼盒·I",
+		money = 2999,
+		name_display = "Game Night Lucky Bag A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8647,11 +6591,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai19",
 		skin_inquire_relation = 86208,
-		id_str = "com.bilibili.blhx.zuanshi182",
+		id_str = "com.yostaren.azurlane.luckybag45",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond170",
+		airijp_id = "com.yostaren.azurlane.luckybag45",
 		extra_service_item = {
 			{
 				2,
@@ -8744,18 +6688,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[83] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains items, resources, and a random skin.",
+		name = "Resplendent Night Lucky Bag I Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·I复刻",
+		subject = "Resplendent Night Lucky Bag I Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 83,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·I复刻",
+		money = 2999,
+		name_display = "Resplendent Night Lucky Bag I Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8766,11 +6710,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai9",
 		skin_inquire_relation = 86200,
-		id_str = "com.bilibili.blhx.zuanshi183",
+		id_str = "com.yostaren.azurlane.luckybag46",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond171",
+		airijp_id = "com.yostaren.azurlane.luckybag46",
 		extra_service_item = {
 			{
 				2,
@@ -8863,18 +6807,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[84] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "港区游戏之夜礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains items, resources, and a random skin.",
+		name = "Game Night Lucky Bag B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "港区游戏之夜礼盒·II",
+		subject = "Game Night Lucky Bag B",
 		tip = "",
 		tip_open = 0,
 		id = 84,
-		money = 198,
-		name_display = "港区游戏之夜礼盒·II",
+		money = 2999,
+		name_display = "Game Night Lucky Bag B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8885,11 +6829,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai20",
 		skin_inquire_relation = 86209,
-		id_str = "com.bilibili.blhx.zuanshi184",
+		id_str = "com.yostaren.azurlane.luckybag47",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond172",
+		airijp_id = "com.yostaren.azurlane.luckybag47",
 		extra_service_item = {
 			{
 				2,
@@ -8944,7 +6888,7 @@ pg.base.pay_data_display = {
 				{
 					2025,
 					1,
-					1
+					8
 				},
 				{
 					23,
@@ -8982,18 +6926,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[85] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains items, resources, and a random skin.",
+		name = "Resplendent Night Lucky Bag II Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·II复刻",
+		subject = "Resplendent Night Lucky Bag II Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 85,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·II复刻",
+		money = 2999,
+		name_display = "Resplendent Night Lucky Bag II Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9004,11 +6948,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai10",
 		skin_inquire_relation = 86201,
-		id_str = "com.bilibili.blhx.zuanshi185",
+		id_str = "com.yostaren.azurlane.luckybag48",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond173",
+		airijp_id = "com.yostaren.azurlane.luckybag48",
 		extra_service_item = {
 			{
 				2,
@@ -9063,7 +7007,7 @@ pg.base.pay_data_display = {
 				{
 					2025,
 					1,
-					1
+					8
 				},
 				{
 					23,
@@ -9101,18 +7045,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[86] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "2025年春节福袋一",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2025 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2025 A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2025年春节福袋一",
+		subject = "Spring Lucky Bag 2025 A",
 		tip = "",
 		tip_open = 0,
 		id = 86,
-		money = 198,
-		name_display = "2025年春节福袋一",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2025 A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9123,11 +7067,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai21",
 		skin_inquire_relation = 86210,
-		id_str = "com.bilibili.blhx.zuanshi186",
+		id_str = "com.yostaren.azurlane.luckybag49",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond174",
+		airijp_id = "com.yostaren.azurlane.luckybag49",
 		extra_service_item = {
 			{
 				2,
@@ -9220,18 +7164,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[87] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "2025年春节福袋·II",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2025 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Bag 2025 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2025年春节福袋·II",
+		subject = "Spring Lucky Bag 2025 B",
 		tip = "",
 		tip_open = 0,
 		id = 87,
-		money = 198,
-		name_display = "2025年春节福袋二",
+		money = 2999,
+		name_display = "Spring Lucky Bag 2025 B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9242,11 +7186,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai22",
 		skin_inquire_relation = 86211,
-		id_str = "com.bilibili.blhx.zuanshi187",
+		id_str = "com.yostaren.azurlane.luckybag51",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond175",
+		airijp_id = "com.yostaren.azurlane.luckybag51",
 		extra_service_item = {
 			{
 				2,
@@ -9339,18 +7283,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[88] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Box 2024 A (Rerun)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·I复刻",
+		subject = "Spring Lucky Box 2024 A (Rerun)",
 		tip = "",
 		tip_open = 0,
 		id = 88,
-		money = 198,
-		name_display = "2024年春节福袋·I复刻",
+		money = 2999,
+		name_display = "Spring Lucky Box 2024 A (Rerun)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9361,11 +7305,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai11",
 		skin_inquire_relation = 86202,
-		id_str = "com.bilibili.blhx.zuanshi188",
+		id_str = "com.yostaren.azurlane.luckybag50",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond176",
+		airijp_id = "com.yostaren.azurlane.luckybag50",
 		extra_service_item = {
 			{
 				2,
@@ -9458,18 +7402,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[89] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Spring Lucky Box 2024 B (Rerun)",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·II复刻",
+		subject = "Spring Lucky Box 2024 B (Rerun)",
 		tip = "",
 		tip_open = 0,
 		id = 89,
-		money = 198,
-		name_display = "2024年春节福袋·II复刻",
+		money = 2999,
+		name_display = "Spring Lucky Box 2024 B (Rerun)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9480,11 +7424,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai12",
 		skin_inquire_relation = 86203,
-		id_str = "com.bilibili.blhx.zuanshi189",
+		id_str = "com.yostaren.azurlane.luckybag52",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond177",
+		airijp_id = "com.yostaren.azurlane.luckybag52",
 		extra_service_item = {
 			{
 				2,
@@ -9577,18 +7521,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[90] = {
-		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
-		name = "换装礼盒(校园生活)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
+		descrip = "Contains 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems instead), as well as other items.",
+		name = "School Return Lucky Box",
+		descrip_extra = "* The Lucky Box will be sent to your ingame Mail.\n* If you already own all the listed skins, you will receive Gems x680 instead.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "换装礼盒(校园生活)",
+		subject = "School Return Lucky Box",
 		tip = "",
 		tip_open = 0,
 		id = 90,
-		money = 48,
-		name_display = "换装礼盒(校园生活)",
+		money = 699,
+		name_display = "School Return Lucky Box",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9599,11 +7543,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai23",
 		skin_inquire_relation = 86212,
-		id_str = "com.bilibili.blhx.zuanshi190",
+		id_str = "com.yostaren.azurlane.luckybag55",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.diamond178",
+		airijp_id = "com.yostaren.azurlane.luckybag55",
 		extra_service_item = {
 			{
 				2,
@@ -9681,18 +7625,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[91] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "八周年泳装礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		name = "Swimsuit Lucky Bag 2025 A",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "八周年泳装礼盒·I",
+		subject = "Swimsuit Lucky Bag 2025 A",
 		tip = "",
 		tip_open = 0,
 		id = 91,
-		money = 198,
-		name_display = "八周年泳装礼盒·I",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2025 A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9703,11 +7647,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai24",
 		skin_inquire_relation = 86213,
-		id_str = "com.bilibili.blhx.zuanshi191",
+		id_str = "com.yostaren.azurlane.luckybag57",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond179",
+		airijp_id = "com.yostaren.azurlane.luckybag57",
 		extra_service_item = {
 			{
 				2,
@@ -9800,18 +7744,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[92] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年泳装礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
+		name = "Swimsuit Lucky Bag 2024 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年泳装礼盒复刻",
+		subject = "Swimsuit Lucky Bag 2024 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 92,
-		money = 198,
-		name_display = "七周年泳装礼盒复刻",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2024 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9822,11 +7766,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai13",
 		skin_inquire_relation = 86204,
-		id_str = "com.bilibili.blhx.zuanshi192",
+		id_str = "com.yostaren.azurlane.luckybag58",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond180",
+		airijp_id = "com.yostaren.azurlane.luckybag58",
 		extra_service_item = {
 			{
 				2,
@@ -9919,18 +7863,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[93] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "八周年泳装礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains 1 random skin, 2025 Gems, and supplies.",
+		name = "Swimsuit Lucky Bag 2025 B",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "八周年泳装礼盒·II",
+		subject = "Swimsuit Lucky Bag 2025 B",
 		tip = "",
 		tip_open = 0,
 		id = 93,
-		money = 198,
-		name_display = "八周年泳装礼盒·II",
+		money = 2999,
+		name_display = "Swimsuit Lucky Bag 2025 B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9941,11 +7885,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai25",
 		skin_inquire_relation = 86214,
-		id_str = "com.bilibili.blhx.zuanshi193",
+		id_str = "com.yostaren.azurlane.luckybag59",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond181",
+		airijp_id = "com.yostaren.azurlane.luckybag59",
 		extra_service_item = {
 			{
 				2,
@@ -10038,18 +7982,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[94] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "Contains 1 random skin, 2024 Gems, and supplies.",
+		name = "Exquisite Lucky Envelope 2024 Rerun",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年礼盒复刻",
+		subject = "Exquisite Lucky Envelope 2024 Rerun",
 		tip = "",
 		tip_open = 0,
 		id = 94,
-		money = 198,
-		name_display = "七周年礼盒复刻",
+		money = 2999,
+		name_display = "Exquisite Lucky Envelope 2024 Rerun",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10060,11 +8004,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "fudai14",
 		skin_inquire_relation = 86205,
-		id_str = "com.bilibili.blhx.zuanshi194",
+		id_str = "com.yostaren.azurlane.luckybag60",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond182",
+		airijp_id = "com.yostaren.azurlane.luckybag60",
 		extra_service_item = {
 			{
 				2,
@@ -10157,18 +8101,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[1000] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:约克城限定换装和其他奖励",
-		name = "特许巡游凭证",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to unlock additional Fair Winds Cruise rewards, including an exclusive outfit for Yorktown and more! ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1000,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10179,11 +8123,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass1",
+		id_str = "com.yostaren.azurlane.passport2",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass1",
+		airijp_id = "com.yostaren.azurlane.passport2",
 		extra_service_item = {
 			{
 				1,
@@ -10238,18 +8182,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1001] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:科罗拉多限定换装和其他奖励",
-		name = "特许巡游凭证(2021.12.1-1.31)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1001,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10260,11 +8204,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass2",
+		id_str = "com.yostaren.azurlane.passport3",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass2",
+		airijp_id = "com.yostaren.azurlane.passport3",
 		extra_service_item = {
 			{
 				1,
@@ -10319,18 +8263,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1002] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:哥伦比亚限定换装和其他奖励",
-		name = "特许巡游凭证(2022.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1002,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10341,11 +8285,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass3",
+		id_str = "com.yostaren.azurlane.passport4",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass3",
+		airijp_id = "com.yostaren.azurlane.passport4",
 		extra_service_item = {
 			{
 				1,
@@ -10400,18 +8344,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1003] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·企业限定换装和其他奖励",
-		name = "特许巡游凭证(2022.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1003,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10422,11 +8366,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass4",
+		id_str = "com.yostaren.azurlane.passport5",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass4",
+		airijp_id = "com.yostaren.azurlane.passport5",
 		extra_service_item = {
 			{
 				1,
@@ -10481,18 +8425,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1004] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·枫限定换装和其他奖励",
-		name = "特许巡游凭证(2022.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1004,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10503,11 +8447,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass5",
+		id_str = "com.yostaren.azurlane.passport6",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass5",
+		airijp_id = "com.yostaren.azurlane.passport6",
 		extra_service_item = {
 			{
 				1,
@@ -10562,18 +8506,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1005] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·苝限定换装和其他奖励",
-		name = "特许巡游凭证(2022.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards. ",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards. ",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1005,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10584,11 +8528,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass6",
+		id_str = "com.yostaren.azurlane.passport7",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass6",
+		airijp_id = "com.yostaren.azurlane.passport7",
 		extra_service_item = {
 			{
 				1,
@@ -10643,18 +8587,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1006] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·水星纪念限定换装和其他奖励",
-		name = "特许巡游凭证(2022.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1006,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10665,11 +8609,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass7",
+		id_str = "com.yostaren.azurlane.passport8",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass7",
+		airijp_id = "com.yostaren.azurlane.passport8",
 		extra_service_item = {
 			{
 				1,
@@ -10724,18 +8668,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1007] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·克利夫兰限定换装和其他奖励",
-		name = "特许巡游凭证(2022.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1007,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10746,11 +8690,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass8",
+		id_str = "com.yostaren.azurlane.passport10",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass8",
+		airijp_id = "com.yostaren.azurlane.passport10",
 		extra_service_item = {
 			{
 				1,
@@ -10805,18 +8749,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1008] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·棭限定换装和其他奖励",
-		name = "特许巡游凭证(2023.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1008,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10827,11 +8771,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass9",
+		id_str = "com.yostaren.azurlane.passport11",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass9",
+		airijp_id = "com.yostaren.azurlane.passport11",
 		extra_service_item = {
 			{
 				1,
@@ -10886,18 +8830,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1009] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·沃克兰限定换装和其他奖励",
-		name = "特许巡游凭证(2023.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1009,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10908,11 +8852,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass10",
+		id_str = "com.yostaren.azurlane.passport12",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass10",
+		airijp_id = "com.yostaren.azurlane.passport12",
 		extra_service_item = {
 			{
 				1,
@@ -10967,18 +8911,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1010] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·鸾限定换装和其他奖励",
-		name = "特许巡游凭证(2023.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2023.6)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1010,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10989,11 +8933,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass12",
+		id_str = "com.yostaren.azurlane.passport13",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass11",
+		airijp_id = "com.yostaren.azurlane.passport13",
 		extra_service_item = {
 			{
 				1,
@@ -11048,18 +8992,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1011] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·福煦限定换装和其他奖励",
-		name = "特许巡游凭证(2023.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2023.8)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1011,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11070,11 +9014,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass13",
+		id_str = "com.yostaren.azurlane.passport14",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass12",
+		airijp_id = "com.yostaren.azurlane.passport14",
 		extra_service_item = {
 			{
 				1,
@@ -11129,18 +9073,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1012] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·优斯伊丽限定换装和其他奖励",
-		name = "特许巡游凭证(2023.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2023.10)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1012,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11151,11 +9095,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass14",
+		id_str = "com.yostaren.azurlane.passport15",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass13",
+		airijp_id = "com.yostaren.azurlane.passport15",
 		extra_service_item = {
 			{
 				1,
@@ -11210,18 +9154,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1013] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梅限定换装和其他奖励",
-		name = "特许巡游凭证(2023.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2023.12)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1013,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11232,11 +9176,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass15",
+		id_str = "com.yostaren.azurlane.passport16",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass14",
+		airijp_id = "com.yostaren.azurlane.passport16",
 		extra_service_item = {
 			{
 				1,
@@ -11291,18 +9235,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1014] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梧限定换装和其他奖励",
-		name = "特许巡游凭证(2024.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.2)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1014,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11313,11 +9257,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass16",
+		id_str = "com.yostaren.azurlane.passport17",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass15",
+		airijp_id = "com.yostaren.azurlane.passport17",
 		extra_service_item = {
 			{
 				1,
@@ -11372,18 +9316,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1015] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·柏限定换装和其他奖励",
-		name = "特许巡游凭证(2024.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.4)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1015,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11394,11 +9338,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass17",
+		id_str = "com.yostaren.azurlane.passport18",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass16",
+		airijp_id = "com.yostaren.azurlane.passport18",
 		extra_service_item = {
 			{
 				1,
@@ -11453,18 +9397,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1016] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·阿蒂利奥·雷戈洛限定换装和其他奖励",
-		name = "特许巡游凭证(2024.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.6)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1016,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11475,11 +9419,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass18",
+		id_str = "com.yostaren.azurlane.passport19",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass17",
+		airijp_id = "com.yostaren.azurlane.passport19",
 		extra_service_item = {
 			{
 				1,
@@ -11534,18 +9478,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1017] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·罗马限定换装和其他奖励",
-		name = "特许巡游凭证(2024.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.8)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1017,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11556,11 +9500,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass19",
+		id_str = "com.yostaren.azurlane.passport20",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass18",
+		airijp_id = "com.yostaren.azurlane.passport20",
 		extra_service_item = {
 			{
 				1,
@@ -11615,18 +9559,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1018] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·絮弗伦限定换装和其他奖励",
-		name = "特许巡游凭证(2024.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.10)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1018,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11637,11 +9581,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass20",
+		id_str = "com.yostaren.azurlane.passport21",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass19",
+		airijp_id = "com.yostaren.azurlane.passport21",
 		extra_service_item = {
 			{
 				1,
@@ -11696,18 +9640,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1019] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·威悉限定换装和其他奖励",
-		name = "特许巡游凭证(2024.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2024.12)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1019,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11718,11 +9662,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass21",
+		id_str = "com.yostaren.azurlane.passport22",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass20",
+		airijp_id = "com.yostaren.azurlane.passport22",
 		extra_service_item = {
 			{
 				1,
@@ -11777,18 +9721,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1020] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·反击限定换装和其他奖励",
-		name = "特许巡游凭证(2025.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2025.2)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1020,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11799,11 +9743,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass22",
+		id_str = "com.yostaren.azurlane.passport23",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass21",
+		airijp_id = "com.yostaren.azurlane.passport23",
 		extra_service_item = {
 			{
 				1,
@@ -11858,18 +9802,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1021] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·神速限定换装和其他奖励",
-		name = "特许巡游凭证(2025.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass 2025.4",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1021,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11880,11 +9824,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass23",
+		id_str = "com.yostaren.azurlane.passport24",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass22",
+		airijp_id = "com.yostaren.azurlane.passport24",
 		extra_service_item = {
 			{
 				1,
@@ -11939,18 +9883,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1022] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·檚限定换装和其他奖励",
-		name = "特许巡游凭证(2025.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		name = "Fair Winds Cruise Pass (2025.6)",
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "Fair Winds Cruise Pass",
 		tip = "",
 		tip_open = 0,
 		id = 1022,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 999,
+		name_display = "Fair Winds Cruise Pass",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11961,11 +9905,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass24",
+		id_str = "com.yostaren.azurlane.passport25",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.seasonpass23",
+		airijp_id = "com.yostaren.azurlane.passport25",
 		extra_service_item = {
 			{
 				1,
@@ -12020,18 +9964,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2001] = {
-		descrip = "可获得最高方案快速研发券·一期*1、定向蓝图·一期*343",
-		name = "最高方案研发礼包(一期)",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains one PR Voucher - Series 1 and 343 General Blueprints - Series 1.",
+		name = "PR Construction Pack - Series 1",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)",
+		subject = "PR Construction Pack - Series 1",
 		tip = "",
 		tip_open = 0,
 		id = 2001,
-		money = 108,
-		name_display = "最高方案研发礼包(一期)",
+		money = 1599,
+		name_display = "PR Construction Pack - Series 1",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12043,11 +9987,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech1_display",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "com.yostaren.azurlane.diamond158",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "com.yostaren.azurlane.diamond158",
 		extra_service_item = {
 			{
 				2,
@@ -12083,18 +10027,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2002] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)高级版",
-		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher & Blueprint Bundle - Series 1",
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)高级版",
+		subject = "Voucher & Blueprint Bundle",
 		tip = "",
 		tip_open = 0,
 		id = 2002,
-		money = 108,
-		name_display = "高级版",
+		money = 1599,
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 1",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12106,11 +10050,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech1_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan1",
+		id_str = "com.yostaren.azurlane.diamond158",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.tech1",
+		airijp_id = "com.yostaren.azurlane.diamond158",
 		extra_service_item = {
 			{
 				2,
@@ -12152,18 +10096,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2003] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)标准版",
-		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher - Series 1",
+		descrip_extra = "If you've already built all Series 1 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)标准版",
+		subject = "Voucher",
 		tip = "",
 		tip_open = 0,
 		id = 2003,
-		money = 68,
-		name_display = "标准版",
+		money = 999,
+		name_display = "PR Voucher - Series 1",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12175,11 +10119,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech1_normal",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan2",
+		id_str = "com.yostaren.azurlane.diamond159",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.tech2",
+		airijp_id = "com.yostaren.azurlane.diamond159",
 		extra_service_item = {
 			{
 				2,
@@ -12211,18 +10155,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2004] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·一期x343",
+		descrip = "Contains:",
+		name = "PR Blueprint Pack - Series 1",
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 1.",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)升级版",
+		subject = "Blueprints",
 		tip = "",
 		tip_open = 0,
 		id = 2004,
-		money = 40,
-		name_display = "高级版",
+		money = 699,
+		name_display = "PR Blueprint Pack - Series 1",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12234,11 +10178,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech1_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan3",
+		id_str = "com.yostaren.azurlane.diamond160",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 3,
-		airijp_id = "com.yostarjp.azurlane.tech3",
+		airijp_id = "com.yostaren.azurlane.diamond160",
 		extra_service_item = {
 			{
 				2,
@@ -12270,18 +10214,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2005] = {
-		descrip = "可获得最高方案快速研发券·二期*1、定向蓝图·二期*343",
-		name = "最高方案研发礼包(二期)",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains one PR Voucher - Series 2 and 343 General Blueprints - Series 2.",
+		name = "PR Construction Pack - Series 2",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)",
+		subject = "PR Construction Pack - Series 2",
 		tip = "",
 		tip_open = 0,
 		id = 2005,
-		money = 108,
-		name_display = "最高方案研发礼包(二期)",
+		money = 1599,
+		name_display = "PR Construction Pack - Series 2",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12293,11 +10237,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech2_display",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "com.yostaren.azurlane.diamond161",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "com.yostaren.azurlane.diamond161",
 		extra_service_item = {
 			{
 				2,
@@ -12333,18 +10277,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2006] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)高级版",
-		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher & Blueprint Bundle - Series 2",
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)高级版",
+		subject = "PR Voucher & Blueprint Bundle - Series 2",
 		tip = "",
 		tip_open = 0,
 		id = 2006,
-		money = 108,
-		name_display = "高级版",
+		money = 1599,
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 2",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12356,11 +10300,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech2_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan4",
+		id_str = "com.yostaren.azurlane.diamond161",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.tech4",
+		airijp_id = "com.yostaren.azurlane.diamond161",
 		extra_service_item = {
 			{
 				2,
@@ -12402,18 +10346,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2007] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)标准版",
-		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher - Series 2",
+		descrip_extra = "If you've already built all Series 2 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)标准版",
+		subject = "Voucher",
 		tip = "",
 		tip_open = 0,
 		id = 2007,
-		money = 68,
-		name_display = "标准版",
+		money = 999,
+		name_display = "PR Voucher - Series 2",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12425,11 +10369,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech2_normal",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan5",
+		id_str = "com.yostaren.azurlane.diamond162",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.tech5",
+		airijp_id = "com.yostaren.azurlane.diamond162",
 		extra_service_item = {
 			{
 				2,
@@ -12461,18 +10405,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2008] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·二期x343",
+		descrip = "Contains:",
+		name = "PR Blueprint Pack - Series 2",
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 2.",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)升级版",
+		subject = "Blueprints",
 		tip = "",
 		tip_open = 0,
 		id = 2008,
-		money = 40,
-		name_display = "高级版",
+		money = 699,
+		name_display = "PR Blueprint Pack - Series 2",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12484,11 +10428,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech2_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan6",
+		id_str = "com.yostaren.azurlane.diamond163",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 3,
-		airijp_id = "com.yostarjp.azurlane.tech6",
+		airijp_id = "com.yostaren.azurlane.diamond163",
 		extra_service_item = {
 			{
 				2,
@@ -12520,18 +10464,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2009] = {
-		descrip = "购买后指挥官等级将提升至70级和大量其他奖励",
-		name = "即刻出战礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buying this pack will raise your Commander Level to 70 and grant you many useful items.",
+		name = "Commander Level Boost Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 7,
-		subject = "即刻出战礼包",
+		subject = "Commander Level Boost Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2009,
-		money = 30,
-		name_display = "即刻出战礼包",
+		money = 499,
+		name_display = "Commander Level Boost Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12543,11 +10487,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "lv_70",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao104",
+		id_str = "com.yostaren.azurlane.diamond164",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package104",
+		airijp_id = "com.yostaren.azurlane.diamond164",
 		extra_service_item = {
 			{
 				2,
@@ -12609,18 +10553,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2010] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2010,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12631,11 +10575,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao105",
+		id_str = "com.yostaren.azurlane.diamond165",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package105",
+		airijp_id = "com.yostaren.azurlane.diamond165",
 		extra_service_item = {
 			{
 				2,
@@ -12723,18 +10667,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2011] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2022秋)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2011,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12745,11 +10689,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao106",
+		id_str = "com.yostaren.azurlane.diamond172",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package106",
+		airijp_id = "com.yostaren.azurlane.diamond172",
 		extra_service_item = {
 			{
 				2,
@@ -12836,76 +10780,1254 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[2012] = {
-		descrip = "可获得1280钻，定向部件T4x15和其他奖励",
-		name = "冬至礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
+	[100] = {
+		descrip = "Contains 1 x Nep Ship skin, 3 x Nep Gear skins, and other rewards.",
+		name = "Nep's Lucky Bag ",
+		descrip_extra = "*Nep's Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 80% of the gem cost.",
+		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "冬至礼包1",
+		subject = "Nep's Lucky Bag",
 		tip = "",
 		tip_open = 0,
-		id = 2012,
-		money = 88,
-		name_display = "冬至礼包1",
+		id = 100,
+		money = 2999,
+		name_display = "Nep's Lucky Bag ",
 		tag = 2,
-		akashi_pick = 1,
+		akashi_pick = 0,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "dongzhi1",
+		picture = "usfudai1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao107",
+		id_str = "com.yostaren.azurlane.diamond110",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package107",
+		airijp_id = "com.yostaren.azurlane.diamond110",
 		extra_service_item = {
 			{
+				2,
+				69951,
+				1
+			},
+			{
 				1,
-				14,
-				1280
+				4,
+				2018
 			},
 			{
 				2,
-				30114,
-				15
+				30303,
+				3
 			},
 			{
 				2,
-				17003,
-				10
+				15003,
+				4
 			},
 			{
 				2,
-				17013,
-				10
+				20001,
+				8
 			},
 			{
-				2,
-				17023,
-				10
-			},
-			{
-				2,
-				17033,
-				10
-			},
-			{
-				2,
-				17043,
-				10
+				1,
+				6,
+				100
 			}
 		},
 		time = {
 			{
 				{
-					2022,
+					2018,
+					11,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
 					12,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69951,
+				1
+			},
+			{
+				1,
+				4,
+				2018
+			},
+			{
+				2,
+				30303,
+				3
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[101] = {
+		descrip = "Contains 1 x School Girl Ship skin, 3 x School Gear skins, and other rewards.",
+		name = "Black Friday Lucky Bag ",
+		descrip_extra = "*Black Friday Lucky Bag will appear in your mailbox. \n* If you draw an already owned ship skin, you will be refunded 100% of the gem cost.",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Black Friday Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 101,
+		money = 2999,
+		name_display = "Black Friday Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "usfudai2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond111",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond111",
+		extra_service_item = {
+			{
+				2,
+				69952,
+				1
+			},
+			{
+				1,
+				4,
+				2018
+			},
+			{
+				2,
+				30305,
+				3
+			},
+			{
+				2,
+				15003,
+				4
+			},
+			{
+				2,
+				20001,
+				8
+			},
+			{
+				1,
+				6,
+				100
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				54035,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2018,
+					11,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69952,
+				1
+			},
+			{
+				1,
+				4,
+				2018
+			},
+			{
+				2,
+				30305,
+				3
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[102] = {
+		descrip = "Contains 1 x Christmas Ship skin, 3 x Christmas Gear skins, and other rewards. ",
+		name = "Christmas Lucky Bag ",
+		descrip_extra = "*Christmas Lucky Bag will appear in your mailbox. \n* If you drew a ship skin that you already have, you will be refunded 80% of the gem cost. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Christmas Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 102,
+		money = 2999,
+		name_display = "Christmas Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond112",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond112",
+		extra_service_item = {
+			{
+				2,
+				69953,
+				1
+			},
+			{
+				1,
+				4,
+				2018
+			},
+			{
+				2,
+				30306,
+				3
+			},
+			{
+				2,
+				15003,
+				4
+			},
+			{
+				2,
+				20001,
+				8
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2018,
+					12,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69953,
+				1
+			},
+			{
+				1,
+				4,
+				2018
+			},
+			{
+				2,
+				30306,
+				3
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[103] = {
+		descrip = "Contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
+		name = "Heartthrob Pack",
+		descrip_extra = "*The pack contains 1 x Promise Ring, 1 x Universal Bulin, 10 x Quick Finishers, and 5 x Full Courses",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Heartthrob Pack",
+		tip = "",
+		tip_open = 0,
+		id = 103,
+		money = 999,
+		name_display = "Heartthrob Pack",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai49",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond113",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond113",
+		extra_service_item = {
+			{
+				2,
+				15006,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				50006,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2018,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				15006,
+				1
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				50006,
+				5
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[104] = {
+		descrip = "Contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
+		name = "Santa's Lucky Sack (Daily)",
+		descrip_extra = "*The sack contains 1 x Mystery T4 Tech Pack, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Santa's Lucky Sack (Daily)",
+		tip = "",
+		tip_open = 0,
+		id = 104,
+		money = 499,
+		name_display = "Santa's Lucky Sack (Daily)",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 99,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai50",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond114",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond114",
+		extra_service_item = {
+			{
+				2,
+				54039,
+				1
+			},
+			{
+				2,
+				20001,
+				6
+			},
+			{
+				2,
+				15003,
+				3
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		time = {
+			{
+				{
+					2018,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				54039,
+				1
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[105] = {
+		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
+		name = "Shougatsu Lucky Bag (2019)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Shogatsu Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 105,
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag (2019)",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai51",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond115",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond115",
+		extra_service_item = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				17003,
+				20
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[106] = {
+		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
+		name = "Lunar New Year Lucky Bag (2019)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Lunar New Year Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 106,
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2019)",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai52",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond116",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond116",
+		extra_service_item = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				2,
+				18012,
+				5
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					1,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[107] = {
+		descrip = "Contains 1 x random Ship skin (Winter‘s Crown), 3 x random Gear skins (Winter's Crown), and other rewards ",
+		name = "Glacier Blast ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Glacier Blast ",
+		tip = "",
+		tip_open = 0,
+		id = 107,
+		money = 2999,
+		name_display = "Glacier Blast ",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai53",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond117",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond117",
+		extra_service_item = {
+			{
+				2,
+				69954,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				30311,
+				3
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					2,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69954,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				30311,
+				3
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[108] = {
+		descrip = "Contains 1 x random Ship skin (Hanami), 100 x Cognitive Chips, and other rewards",
+		name = "Hanami Lucky Bag ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems.",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Hanami Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 108,
+		money = 2999,
+		name_display = "Hanami Lucky Bag ",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai54",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond118",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond118",
+		extra_service_item = {
+			{
+				2,
+				69955,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				100
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69955,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[109] = {
+		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
+		name = "Research Supply (daily) ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox.",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Research Supply (daily) ",
+		tip = "",
+		tip_open = 0,
+		id = 109,
+		money = 499,
+		name_display = "Research Supply (daily) ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 99,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai55",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond119",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond119",
+		extra_service_item = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				20001,
+				6
+			},
+			{
+				2,
+				15003,
+				3
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[110] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		name = "Scherzo Lucky Box ",
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Scherzo Lucky Box ",
+		tip = "",
+		tip_open = 0,
+		id = 110,
+		money = 2999,
+		name_display = "Scherzo Lucky Box ",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "lihe1_l",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond120",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond120",
+		extra_service_item = {
+			{
+				2,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[111] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		name = "1st Anniversary Lucky Bag ",
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's on sale value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "1st Anniversary Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 111,
+		money = 2999,
+		name_display = "1st Anniversary Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai56",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond121",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond121",
+		extra_service_item = {
+			{
+				2,
+				69956,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
 					15
 				},
 				{
@@ -12916,8 +12038,8 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2023,
-					1,
+					2019,
+					9,
 					4
 				},
 				{
@@ -12929,14 +12051,991 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
+				2,
+				69905,
+				1
+			},
+			{
 				1,
-				14,
-				1280
+				4,
+				2019
 			},
 			{
 				2,
-				30114,
-				15
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[112] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		name = "Yukata Lucky Bag",
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Yukata Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 112,
+		money = 2999,
+		name_display = "Yukata Lucky Bag",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai57",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond122",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond122",
+		extra_service_item = {
+			{
+				2,
+				69957,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				20013,
+				1
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					8,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				20013,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[113] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		name = "Full Dress Lucky Bag ",
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Full Dress Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 113,
+		money = 2999,
+		name_display = "Full Dress Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai58",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond123",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond123",
+		extra_service_item = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69906,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[114] = {
+		descrip = "Contains 1 x random Ship skin, 2450 x Gems, and other rewards ",
+		name = "Black Friday Lucky Box ",
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Black Friday Lucky Box ",
+		tip = "",
+		tip_open = 0,
+		id = 114,
+		money = 2999,
+		name_display = "Black Friday Lucky Box ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai59",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond124",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond124",
+		extra_service_item = {
+			{
+				2,
+				69958,
+				1
+			},
+			{
+				1,
+				4,
+				2450
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				54006,
+				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					11,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69958,
+				1
+			},
+			{
+				1,
+				4,
+				2450
+			},
+			{
+				2,
+				54035,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[115] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		name = "Christmas Lucky Bag ",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Christmas Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 115,
+		money = 2999,
+		name_display = "Christmas Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai60",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond125",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond125",
+		extra_service_item = {
+			{
+				2,
+				69960,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				1,
+				2,
+				2000
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69960,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				1,
+				2,
+				2000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[116] = {
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		name = "Shougatsu Lucky Bag (2020)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Shougatsu Lucky Bag (2020)",
+		tip = "",
+		tip_open = 0,
+		id = 116,
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag (2020)",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond126",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond126",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[117] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
+		name = "Shougatsu Lucky Bag (2019)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Shougatsu Lucky Bag (2019)",
+		tip = "",
+		tip_open = 0,
+		id = 117,
+		money = 2999,
+		name_display = "Shougatsu Lucky Bag (2019)",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond127",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond127",
+		extra_service_item = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[118] = {
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		name = "Lunar New Year Lucky Bag (2020)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Lunar New Year Lucky Bag (2020)",
+		tip = "",
+		tip_open = 0,
+		id = 118,
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2020)",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[119] = {
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
+		name = "Lunar New Year Lucky Bag (2019)",
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Lunar New Year Lucky Bag (2019)",
+		tip = "",
+		tip_open = 0,
+		id = 119,
+		money = 2999,
+		name_display = "Lunar New Year Lucky Bag (2019)",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond129",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond129",
+		extra_service_item = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[120] = {
+		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
+		name = "New Commanders Support Pack I",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "New Commanders Support Pack I",
+		tip = "",
+		tip_open = 0,
+		id = 120,
+		money = 299,
+		name_display = "New Commanders Support Pack I",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "support1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond130",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond130",
+		extra_service_item = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
 			}
 		},
 		sub_display = {},
@@ -12945,64 +13044,1658 @@ pg.base.pay_data_display = {
 		drop_item = {
 			{
 				2,
-				40981,
+				40012,
 				1
 			}
 		}
 	},
-	[2013] = {
-		descrip = "可获得2480钻，定向外观装备箱(星辰无垠)x2和其他奖励",
-		name = "冬至礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
+	[121] = {
+		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
+		name = "New Commanders Support Pack II",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "冬至礼包2",
+		subject = "New Commanders Support Pack II",
 		tip = "",
 		tip_open = 0,
-		id = 2013,
-		money = 168,
-		name_display = "冬至礼包2",
-		tag = 2,
-		akashi_pick = 1,
+		id = 121,
+		money = 1199,
+		name_display = "New Commanders Support Pack II",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "support2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond131",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond131",
+		extra_service_item = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40013,
+				1
+			}
+		}
+	},
+	[122] = {
+		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
+		name = "New Commanders Support Pack III",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "New Commanders Support Pack III",
+		tip = "",
+		tip_open = 0,
+		id = 122,
+		money = 2599,
+		name_display = "New Commanders Support Pack III",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "support3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond132",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond132",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40014,
+				1
+			}
+		}
+	},
+	[123] = {
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		name = "Crimson Echoes' Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Crimson Echoes' Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 123,
+		money = 2999,
+		name_display = "Crimson Echoes' Lucky Bag",
+		tag = 1,
+		akashi_pick = 0,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "dongzhi2",
+		picture = "fudai61",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao108",
+		id_str = "com.yostaren.azurlane.diamond133",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package108",
+		airijp_id = "com.yostaren.azurlane.diamond133",
 		extra_service_item = {
 			{
+				2,
+				69961,
+				1
+			},
+			{
 				1,
-				14,
-				2480
+				4,
+				2020
 			},
 			{
 				2,
-				30515,
-				2
+				15008,
+				50
 			},
 			{
 				2,
 				20001,
-				10
+				20
 			},
 			{
 				2,
 				15003,
-				5
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69961,
+				1
+			},
+			{
+				1,
+				4,
+				2020
 			},
 			{
 				2,
-				15001,
-				60
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[124] = {
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		name = "Night Out Lucky Bag ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Night Out Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 124,
+		money = 2999,
+		name_display = "Night Out Lucky Bag ",
+		tag = 1,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "lihe1_l",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond134",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond134",
+		extra_service_item = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					5,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69910,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[125] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Skybound Oratorio Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Skybound Oratorio Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 125,
+		money = 2999,
+		name_display = "Skybound Oratorio Lucky Bag",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai63",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond135",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond135",
+		extra_service_item = {
+			{
+				2,
+				69962,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					6,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					6,
+					25
+				},
+				{
+					8,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69962,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[126] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Aurora Noctis Lucky Bag ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Aurora Noctis Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 126,
+		money = 2999,
+		name_display = "Aurora Noctis Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai64",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond136",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond136",
+		extra_service_item = {
+			{
+				2,
+				69963,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					8,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69963,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[127] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Summer Scherzo Lucky Bag ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Summer Scherzo Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 127,
+		money = 2999,
+		name_display = "Summer Scherzo Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai65",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond137",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond137",
+		extra_service_item = {
+			{
+				2,
+				69964,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					8,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					9,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69964,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[128] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Shining Star Lucky Bag ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Shining Star Lucky Bag ",
+		tip = "",
+		tip_open = 0,
+		id = 128,
+		money = 2999,
+		name_display = "Shining Star Lucky Bag ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai66",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond139",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond139",
+		extra_service_item = {
+			{
+				2,
+				69965,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					10,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					11,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69965,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[129] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Azur Black Friday Lucky Box ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Azur Black Friday Lucky Box ",
+		tip = "",
+		tip_open = 0,
+		id = 129,
+		money = 2999,
+		name_display = "Azur Black Friday Lucky Box ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai67",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond140",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond140",
+		extra_service_item = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69966,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[130] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Crimson Black Friday Lucky Box ",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Crimson Black Friday Lucky Box ",
+		tip = "",
+		tip_open = 0,
+		id = 130,
+		money = 2999,
+		name_display = "Crimson Black Friday Lucky Box ",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai68",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond141",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond141",
+		extra_service_item = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				34
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					12,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69967,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				20001,
+				34
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[131] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Dawn's Rime Lucky Pack",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Dawn's Rime Lucky Pack",
+		tip = "",
+		tip_open = 0,
+		id = 131,
+		money = 2999,
+		name_display = "Dawn's Rime Lucky Pack",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai69",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond144",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond144",
+		extra_service_item = {
+			{
+				2,
+				69968,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					2,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69968,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[132] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Daedalian Hymn's Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Daedalian Hymn's Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 132,
+		money = 2999,
+		name_display = "Daedalian Hymn's Lucky Bag",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai70",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond145",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond145",
+		extra_service_item = {
+			{
+				2,
+				69969,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					4,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					5,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69969,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42026,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[133] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Microlayer Medley Lucky Box 2021",
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Microlayer Medley Lucky Box 2021",
+		tip = "",
+		tip_open = 0,
+		id = 133,
+		money = 2999,
+		name_display = "Microlayer Medley Lucky Box 2021",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai71",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond149",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond149",
+		extra_service_item = {
+			{
+				2,
+				69970,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					8,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					9,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69970,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[134] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Black Friday Lucky Music Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Black Friday Lucky Music Box",
+		tip = "",
+		tip_open = 0,
+		id = 134,
+		money = 2999,
+		name_display = "Black Friday Lucky Music Box",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai72",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond152",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond152",
+		extra_service_item = {
+			{
+				2,
+				69971,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2021,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					12,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69971,
+				1
+			},
+			{
+				1,
+				4,
+				2021
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[135] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Abyssal Refrain Lucky Pack",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Abyssal Refrain Lucky Pack",
+		tip = "",
+		tip_open = 0,
+		id = 135,
+		money = 2999,
+		name_display = "Abyssal Refrain Lucky Pack",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai73",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond157",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond157",
+		extra_service_item = {
+			{
+				2,
+				69972,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
 			},
 			{
 				1,
@@ -13014,8 +14707,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2022,
-					12,
-					15
+					2,
+					24
 				},
 				{
 					0,
@@ -13025,9 +14718,9 @@ pg.base.pay_data_display = {
 			},
 			{
 				{
-					2023,
-					1,
-					4
+					2022,
+					3,
+					9
 				},
 				{
 					23,
@@ -13038,45 +14731,378 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
+				2,
+				69972,
+				1
+			},
+			{
 				1,
-				14,
-				2480
+				4,
+				2022
 			},
 			{
 				2,
-				30515,
+				42036,
 				2
-			},
-			{
-				2,
-				20001,
-				10
 			}
 		},
 		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
-		drop_item = {
+		drop_item = {}
+	},
+	[136] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Crimson Offering Lucky Chalice",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Crimson Offering Lucky Chalice",
+		tip = "",
+		tip_open = 0,
+		id = 136,
+		money = 2999,
+		name_display = "Crimson Offering Lucky Chalice",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai74",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond166",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond166",
+		extra_service_item = {
 			{
 				2,
-				40983,
+				69973,
 				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
 			}
-		}
+		},
+		time = {
+			{
+				{
+					2022,
+					4,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					5,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69973,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42036,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[137] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Aquilifer's Ballade Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "Aquilifer's Ballade Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 137,
+		money = 2999,
+		name_display = "Aquilifer's Ballade Lucky Box",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai75",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond169",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond169",
+		extra_service_item = {
+			{
+				2,
+				69974,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					7,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69974,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[138] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "4th Anniversary Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 0,
+		subject = "4th Anniversary Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 138,
+		money = 2999,
+		name_display = "4th Anniversary Lucky Box",
+		tag = 2,
+		akashi_pick = 0,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai76",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond171",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond171",
+		extra_service_item = {
+			{
+				2,
+				69975,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					8,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					8,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69975,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
 	},
 	[2014] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2023春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2014,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13087,11 +15113,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao109",
+		id_str = "com.yostaren.azurlane.pack1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package109",
+		airijp_id = "com.yostaren.azurlane.pack1",
 		extra_service_item = {
 			{
 				2,
@@ -13179,18 +15205,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2015] = {
-		descrip = "可获得最高方案快速研发券·三期*1、定向蓝图·三期*343",
-		name = "最高方案研发礼包(三期)",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains one PR Voucher - Series 3 and 343 General Blueprints - Series 3.",
+		name = "PR Construction Pack - Series 3",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)",
+		subject = "PR Construction Pack - Series 3",
 		tip = "",
 		tip_open = 0,
 		id = 2015,
-		money = 108,
-		name_display = "最高方案研发礼包(三期)",
+		money = 1599,
+		name_display = "PR Construction Pack - Series 3",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13202,11 +15228,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech3_display",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "com.yostaren.azurlane.pack4",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "com.yostaren.azurlane.pack4",
 		extra_service_item = {
 			{
 				2,
@@ -13242,18 +15268,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2016] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)高级版",
-		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher & Blueprint Bundle - Series 3",
+		descrip_extra = "If you've already built all Series 3 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)高级版",
+		subject = "PR Voucher & Blueprint Bundle - Series 3",
 		tip = "",
 		tip_open = 0,
 		id = 2016,
-		money = 108,
-		name_display = "高级版",
+		money = 1599,
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 3",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13265,11 +15291,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech3_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan7",
+		id_str = "com.yostaren.azurlane.pack4",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.tech7",
+		airijp_id = "com.yostaren.azurlane.pack4",
 		extra_service_item = {
 			{
 				2,
@@ -13311,18 +15337,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2017] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)标准版",
-		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher Pack - Series 3",
+		descrip_extra = "If you've already built all Series 3 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)标准版",
+		subject = "Voucher",
 		tip = "",
 		tip_open = 0,
 		id = 2017,
-		money = 68,
-		name_display = "标准版",
+		money = 999,
+		name_display = "PR Voucher - Series 3",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13334,11 +15360,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech3_normal",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan8",
+		id_str = "com.yostaren.azurlane.pack2",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.tech8",
+		airijp_id = "com.yostaren.azurlane.pack2",
 		extra_service_item = {
 			{
 				2,
@@ -13370,18 +15396,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2018] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·三期x343",
+		descrip = "Contains:",
+		name = "PR Blueprint Pack - Series 3",
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 3.",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)升级版",
+		subject = "Blueprints",
 		tip = "",
 		tip_open = 0,
 		id = 2018,
-		money = 40,
-		name_display = "高级版",
+		money = 699,
+		name_display = "PR Voucher - Series 3",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13393,11 +15419,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech3_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan9",
+		id_str = "com.yostaren.azurlane.pack3",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 3,
-		airijp_id = "com.yostarjp.azurlane.tech9",
+		airijp_id = "com.yostaren.azurlane.pack3",
 		extra_service_item = {
 			{
 				2,
@@ -13429,18 +15455,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2019] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2023秋)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2019,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13451,11 +15477,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao110",
+		id_str = "com.yostaren.azurlane.pack5",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package110",
+		airijp_id = "com.yostaren.azurlane.pack5",
 		extra_service_item = {
 			{
 				2,
@@ -13543,18 +15569,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2020] = {
-		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
-		name = "冬至礼包(2023冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
+		name = "Premium Winter Gift Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "冬至礼包(2023冬)",
+		subject = "Premium Winter Gift Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2020,
-		money = 258,
-		name_display = "冬至礼包(2023冬)",
+		money = 3699,
+		name_display = "Premium Winter Gift Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13565,11 +15591,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "dongzhi3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao111",
+		id_str = "com.yostaren.azurlane.winterpack1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package111",
+		airijp_id = "com.yostaren.azurlane.winterpack1",
 		extra_service_item = {
 			{
 				1,
@@ -13605,9 +15631,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2023,
-					12,
-					21
+					2024,
+					1,
+					18
 				},
 				{
 					0,
@@ -13618,8 +15644,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					1,
-					3
+					2,
+					21
 				},
 				{
 					23,
@@ -13656,123 +15682,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[2021] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "海上传奇支援组合包",
-		tip = "",
-		tip_open = 0,
-		id = 2021,
-		money = 128,
-		name_display = "海上传奇支援组合包",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		sub_display = "",
-		extra_service = 3,
-		limit_type = 2,
-		show_group = "",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "haishangchuanqi",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao112",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.package112",
-		extra_service_item = {
-			{
-				2,
-				59550,
-				1
-			},
-			{
-				2,
-				20001,
-				40
-			},
-			{
-				1,
-				1,
-				30000
-			},
-			{
-				2,
-				16502,
-				50
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				59550,
-				1
-			},
-			{
-				2,
-				20001,
-				40
-			},
-			{
-				2,
-				16502,
-				50
-			}
-		},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40030,
-				1
-			}
-		}
-	},
 	[2022] = {
-		descrip = "可获得心智魔方*10",
-		name = "魔方支援礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 10 Wisdom Cubes.",
+		name = "Wisdom Cube Supply Pack I",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包1",
+		subject = "Wisdom Cube Supply Pack I",
 		tip = "",
 		tip_open = 0,
 		id = 2022,
-		money = 12,
-		name_display = "魔方支援礼包1",
+		money = 199,
+		name_display = "Wisdom Cube Supply Pack I",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13784,11 +15706,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "mofangzhiyuan1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao113",
+		id_str = "com.yostaren.azurlane.cubepack1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.package113",
+		airijp_id = "com.yostaren.azurlane.cubepack1",
 		extra_service_item = {
 			{
 				2,
@@ -13840,18 +15762,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2023] = {
-		descrip = "可获得心智魔方*20",
-		name = "魔方支援礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 20 Wisdom Cubes.",
+		name = "Wisdom Cube Supply Pack II",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包2",
+		subject = "Wisdom Cube Supply Pack II",
 		tip = "",
 		tip_open = 0,
 		id = 2023,
-		money = 30,
-		name_display = "魔方支援礼包2",
+		money = 499,
+		name_display = "Wisdom Cube Supply Pack II",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13863,11 +15785,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "mofangzhiyuan2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao114",
+		id_str = "com.yostaren.azurlane.cubepack2",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.package114",
+		airijp_id = "com.yostaren.azurlane.cubepack2",
 		extra_service_item = {
 			{
 				2,
@@ -13919,18 +15841,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2024] = {
-		descrip = "可获得心智魔方*30",
-		name = "魔方支援礼包3",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 30 Wisdom Cubes.",
+		name = "Wisdom Cube Supply Pack III",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包3",
+		subject = "Wisdom Cube Supply Pack III",
 		tip = "",
 		tip_open = 0,
 		id = 2024,
-		money = 56,
-		name_display = "魔方支援礼包3",
+		money = 799,
+		name_display = "Wisdom Cube Supply Pack III",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13942,11 +15864,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "mofangzhiyuan3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao115",
+		id_str = "com.yostaren.azurlane.cubepack3",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.package115",
+		airijp_id = "com.yostaren.azurlane.cubepack3",
 		extra_service_item = {
 			{
 				2,
@@ -13998,18 +15920,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2025] = {
-		descrip = "购买礼包可获得心智魔方*1和石油*1200",
-		name = "日常补给礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 1 Wisdom Cube and 1200 Oil.",
+		name = "Daily Sortie Refuel Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "日常补给礼包",
+		subject = "Daily Sortie Refuel Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2025,
-		money = 6,
-		name_display = "日常补给礼包",
+		money = 99,
+		name_display = "Daily Sortie Refuel Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14021,11 +15943,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "richang",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao116",
+		id_str = "com.yostaren.azurlane.dailybag1",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package116",
+		airijp_id = "com.yostaren.azurlane.dailybag1",
 		extra_service_item = {
 			{
 				1,
@@ -14062,18 +15984,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2026] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2024春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2026,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14084,11 +16006,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao118",
+		id_str = "com.yostaren.azurlane.pack6",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package118",
+		airijp_id = "com.yostaren.azurlane.pack6",
 		extra_service_item = {
 			{
 				2,
@@ -14176,18 +16098,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2027] = {
-		descrip = "可获得最高方案快速研发券·四期*1、定向蓝图·四期*343",
-		name = "最高方案研发礼包(四期)",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains one PR Voucher - Series 4 and 343 General Blueprints - Series 4.",
+		name = "PR Construction Pack - Series 4",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)",
+		subject = "PR Construction Pack - Series 4",
 		tip = "",
 		tip_open = 0,
 		id = 2027,
-		money = 108,
-		name_display = "最高方案研发礼包(四期)",
+		money = 1599,
+		name_display = "PR Construction Pack - Series 4",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14199,11 +16121,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech4_display",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "com.yostaren.azurlane.pack9",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "com.yostaren.azurlane.pack9",
 		extra_service_item = {
 			{
 				2,
@@ -14239,18 +16161,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2028] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)高级版",
-		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher & Blueprint Bundle - Series 4",
+		descrip_extra = "If you've already built all Series 4 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)高级版",
+		subject = "PR Voucher & Blueprint Bundle - Series 4",
 		tip = "",
 		tip_open = 0,
 		id = 2028,
-		money = 108,
-		name_display = "高级版",
+		money = 1599,
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 4",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14262,11 +16184,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech4_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan10",
+		id_str = "com.yostaren.azurlane.pack9",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.tech10",
+		airijp_id = "com.yostaren.azurlane.pack9",
 		extra_service_item = {
 			{
 				2,
@@ -14308,18 +16230,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2029] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)标准版",
-		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher - Series 4",
+		descrip_extra = "If you've already built all Series 4 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)标准版",
+		subject = "PR Voucher - Series 4",
 		tip = "",
 		tip_open = 0,
 		id = 2029,
-		money = 68,
-		name_display = "标准版",
+		money = 999,
+		name_display = "PR Voucher Pack - Series 4",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14331,11 +16253,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech4_normal",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan11",
+		id_str = "com.yostaren.azurlane.pack7",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.tech11",
+		airijp_id = "com.yostaren.azurlane.pack7",
 		extra_service_item = {
 			{
 				2,
@@ -14367,18 +16289,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2030] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·四期x343",
+		descrip = "Contains:",
+		name = "PR Blueprint Pack - Series 4",
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 4.",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)升级版",
+		subject = "PR Blueprint Pack - Series 4",
 		tip = "",
 		tip_open = 0,
 		id = 2030,
-		money = 40,
-		name_display = "高级版",
+		money = 699,
+		name_display = "PR Blueprint Pack - Series 4",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14390,11 +16312,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech4_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan12",
+		id_str = "com.yostaren.azurlane.pack8",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 3,
-		airijp_id = "com.yostarjp.azurlane.tech12",
+		airijp_id = "com.yostaren.azurlane.pack8",
 		extra_service_item = {
 			{
 				2,
@@ -14426,18 +16348,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2031] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(240718)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		name = "Outfit Selection Pack (Shimakaze)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "海上传奇支援组合包(240718)",
+		subject = "Outfit Selection Pack (Shimakaze)",
 		tip = "",
 		tip_open = 0,
 		id = 2031,
-		money = 128,
-		name_display = "海上传奇支援组合包(240718)",
+		money = 1799,
+		name_display = "Outfit Selection Pack (Shimakaze)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14446,14 +16368,14 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "Great\nDeal",
 		picture = "daofeng_package",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao119",
+		id_str = "com.yostaren.azurlane.pack11",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package119",
+		airijp_id = "com.yostaren.azurlane.pack11",
 		extra_service_item = {
 			{
 				2,
@@ -14530,18 +16452,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2032] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1",
-		name = "梦幻霓虹主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains a new combat UI theme.",
+		name = "Iridescent Fantasy Pack",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包",
+		subject = "Iridescent Fantasy Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2032,
-		money = 78,
-		name_display = "梦幻霓虹主题礼包",
+		money = 1199,
+		name_display = "Iridescent Fantasy Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14552,11 +16474,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui",
+		id_str = "com.yostaren.azurlane.pack12",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.ui",
+		airijp_id = "com.yostaren.azurlane.pack12",
 		extra_service_item = {
 			{
 				31,
@@ -14603,18 +16525,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2033] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1",
-		name = "梦幻霓虹主题礼包（基础版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme.",
+		name = "Iridescent Fantasy Pack (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包（基础版）",
+		subject = "Iridescent Fantasy Pack (Basic)",
 		tip = "",
 		tip_open = 0,
 		id = 2033,
-		money = 78,
-		name_display = "梦幻霓虹主题礼包（基础版）",
+		money = 1199,
+		name_display = "Iridescent Fantasy Pack (Basic)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14625,11 +16547,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui1",
+		id_str = "com.yostaren.azurlane.pack12",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui1",
+		airijp_id = "com.yostaren.azurlane.pack12",
 		extra_service_item = {
 			{
 				31,
@@ -14682,18 +16604,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2034] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1,3060钻石",
-		name = "梦幻霓虹主题礼包（豪华版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		name = "Iridescent Fantasy Pack (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包（豪华版）",
+		subject = "Iridescent Fantasy Pack (Premium)",
 		tip = "",
 		tip_open = 0,
 		id = 2034,
-		money = 258,
-		name_display = "梦幻霓虹主题礼包（豪华版）",
+		money = 3699,
+		name_display = "Iridescent Fantasy Pack (Premium)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14704,11 +16626,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui2",
+		id_str = "com.yostaren.azurlane.pack13",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui2",
+		airijp_id = "com.yostaren.azurlane.pack13",
 		extra_service_item = {
 			{
 				31,
@@ -14771,18 +16693,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2035] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(241017)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		name = "Outfit Selection Pack (Ulrich von Hutten)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
-		type_order = 5,
-		subject = "海上传奇支援组合包(241017)",
+		type_order = 2,
+		subject = "Outfit Selection Pack (Ulrich von Hutten)",
 		tip = "",
 		tip_open = 0,
 		id = 2035,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 1799,
+		name_display = "Outfit Selection Pack (Ulrich von Hutten)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14794,11 +16716,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao120",
+		id_str = "com.yostaren.azurlane.pack14",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package120",
+		airijp_id = "com.yostaren.azurlane.pack14",
 		extra_service_item = {
 			{
 				2,
@@ -14875,18 +16797,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2036] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2024冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack (2024.11)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2036,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14897,11 +16819,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao121",
+		id_str = "com.yostaren.azurlane.pack15",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package121",
+		airijp_id = "com.yostaren.azurlane.pack15",
 		extra_service_item = {
 			{
 				2,
@@ -14989,18 +16911,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2037] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1",
-		name = "圣诞雪境主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Christmas",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包",
+		subject = "Battle UI Pack - Christmas",
 		tip = "",
 		tip_open = 0,
 		id = 2037,
-		money = 78,
-		name_display = "圣诞雪境主题礼包",
+		money = 1199,
+		name_display = "Battle UI Pack - Christmas",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15011,11 +16933,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui3",
+		id_str = "com.yostaren.azurlane.pack17",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.ui3",
+		airijp_id = "com.yostaren.azurlane.pack17",
 		extra_service_item = {
 			{
 				31,
@@ -15062,18 +16984,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2038] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1",
-		name = "圣诞雪境主题礼包（基础版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Christmas (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包（基础版）",
+		subject = "Battle UI Pack - Christmas (Basic)",
 		tip = "",
 		tip_open = 0,
 		id = 2038,
-		money = 78,
-		name_display = "圣诞雪境主题礼包（基础版）",
+		money = 1199,
+		name_display = "Battle UI Pack - Christmas (Basic)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15084,11 +17006,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui4",
+		id_str = "com.yostaren.azurlane.pack17",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui4",
+		airijp_id = "com.yostaren.azurlane.pack17",
 		extra_service_item = {
 			{
 				31,
@@ -15141,18 +17063,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2039] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1,3060钻石",
-		name = "圣诞雪境主题礼包（豪华版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		name = "Battle UI Pack - Christmas (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包（豪华版）",
+		subject = "Battle UI Pack - Christmas (Premium)",
 		tip = "",
 		tip_open = 0,
 		id = 2039,
-		money = 258,
-		name_display = "圣诞雪境主题礼包（豪华版）",
+		money = 3699,
+		name_display = "Battle UI Pack - Christmas (Premium)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15163,11 +17085,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui2",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui5",
+		id_str = "com.yostaren.azurlane.pack18",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui5",
+		airijp_id = "com.yostaren.azurlane.pack18",
 		extra_service_item = {
 			{
 				31,
@@ -15230,18 +17152,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2040] = {
-		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
-		name = "冬至礼包(2024冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
+		name = "Premium Winter Gift Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "冬至礼包(2024冬)",
+		subject = "Premium Winter Gift Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2040,
-		money = 258,
-		name_display = "冬至礼包(2024冬)",
+		money = 3699,
+		name_display = "Premium Winter Gift Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15252,11 +17174,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "dongzhi3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao122",
+		id_str = "com.yostaren.azurlane.pack16",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package122",
+		airijp_id = "com.yostaren.azurlane.pack16",
 		extra_service_item = {
 			{
 				1,
@@ -15344,18 +17266,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2041] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(250109)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains an Outfit Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		name = "Outfit Pack (Kronshtadt)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "海上传奇支援组合包(250109)",
+		subject = "Outfit Pack (Kronshtadt)",
 		tip = "",
 		tip_open = 0,
 		id = 2041,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 1799,
+		name_display = "Outfit Pack (Kronshtadt)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15364,14 +17286,14 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "Great\nDeal",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao123",
+		id_str = "com.yostaren.azurlane.pack19",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package123",
+		airijp_id = "com.yostaren.azurlane.pack19",
 		extra_service_item = {
 			{
 				2,
@@ -15448,18 +17370,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2042] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1",
-		name = "圣砂之约主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack – Pharaoh",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包",
+		subject = "Battle UI Pack – Pharaoh",
 		tip = "",
 		tip_open = 0,
 		id = 2042,
-		money = 78,
-		name_display = "圣砂之约主题礼包",
+		money = 1199,
+		name_display = "Battle UI Pack – Pharaoh",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15470,11 +17392,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui6",
+		id_str = "com.yostaren.azurlane.pack20",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.ui6",
+		airijp_id = "com.yostaren.azurlane.pack20",
 		extra_service_item = {
 			{
 				31,
@@ -15521,18 +17443,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2043] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1",
-		name = "圣砂之约主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Pharaoh (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包(基础版)",
+		subject = " Battle UI Pack - Pharaoh (Basic)",
 		tip = "",
 		tip_open = 0,
 		id = 2043,
-		money = 78,
-		name_display = "圣砂之约主题礼包(基础版)",
+		money = 1199,
+		name_display = "Battle UI Pack - Pharaoh (Basic)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15543,11 +17465,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui7",
+		id_str = "com.yostaren.azurlane.pack20",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui7",
+		airijp_id = "com.yostaren.azurlane.pack20",
 		extra_service_item = {
 			{
 				31,
@@ -15600,18 +17522,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2044] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1,3060钻石",
-		name = "圣砂之约主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		name = "Battle UI Pack - Pharaoh (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包(豪华版)",
+		subject = "Battle UI Pack - Pharaoh (Premium)",
 		tip = "",
 		tip_open = 0,
 		id = 2044,
-		money = 258,
-		name_display = "圣砂之约主题礼包(豪华版)",
+		money = 3699,
+		name_display = "Battle UI Pack - Pharaoh (Premium)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15622,11 +17544,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui3",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui8",
+		id_str = "com.yostaren.azurlane.pack21",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui8",
+		airijp_id = "com.yostaren.azurlane.pack21",
 		extra_service_item = {
 			{
 				31,
@@ -15689,18 +17611,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2045] = {
-		descrip = "可获得战斗界面主题 基因之源*1",
-		name = "基因之源主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Genetic Origin",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包",
+		subject = "Battle UI Pack - Genetic Origin",
 		tip = "",
 		tip_open = 0,
 		id = 2045,
-		money = 78,
-		name_display = "基因之源主题礼包",
+		money = 1199,
+		name_display = "Battle UI Pack - Genetic Origin",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15711,11 +17633,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui9",
+		id_str = "com.yostaren.azurlane.pack22",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.ui9",
+		airijp_id = "com.yostaren.azurlane.pack22",
 		extra_service_item = {
 			{
 				31,
@@ -15762,18 +17684,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2046] = {
-		descrip = "可获得战斗界面主题 基因之源*1",
-		name = "基因之源主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Genetic Origin (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包(基础版)",
+		subject = "Battle UI Pack - Genetic Origin (Basic)",
 		tip = "",
 		tip_open = 0,
 		id = 2046,
-		money = 78,
-		name_display = "基因之源主题礼包(基础版)",
+		money = 1199,
+		name_display = "Battle UI Pack - Genetic Origin (Basic)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15784,11 +17706,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui10",
+		id_str = "com.yostaren.azurlane.pack22",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui10",
+		airijp_id = "com.yostaren.azurlane.pack22",
 		extra_service_item = {
 			{
 				31,
@@ -15841,18 +17763,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2047] = {
-		descrip = "可获得战斗界面主题 基因之源*1,3060钻石",
-		name = "基因之源主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		name = "Battle UI Pack - Genetic Origin (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包(豪华版)",
+		subject = "Battle UI Pack - Genetic Origin (Premium)",
 		tip = "",
 		tip_open = 0,
 		id = 2047,
-		money = 258,
-		name_display = "基因之源主题礼包(豪华版)",
+		money = 3699,
+		name_display = "Battle UI Pack - Genetic Origin (Premium)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15863,11 +17785,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui4",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui11",
+		id_str = "com.yostaren.azurlane.pack23",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui11",
+		airijp_id = "com.yostaren.azurlane.pack23",
 		extra_service_item = {
 			{
 				31,
@@ -15930,18 +17852,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2048] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(250417)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains an Outfit Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		name = "Outfit Pack (Vanguard)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "海上传奇支援组合包(250417)",
+		subject = "Outfit Pack (Vanguard)",
 		tip = "",
 		tip_open = 0,
 		id = 2048,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 1799,
+		name_display = "Outfit Pack (Vanguard)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15950,14 +17872,14 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "Great\nDeal",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao124",
+		id_str = "com.yostaren.azurlane.pack24",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package124",
+		airijp_id = "com.yostaren.azurlane.pack24",
 		extra_service_item = {
 			{
 				2,
@@ -16034,18 +17956,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2049] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2025春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		name = "Skill Book Pack",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "Skill Book Pack",
 		tip = "",
 		tip_open = 0,
 		id = 2049,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 299,
+		name_display = "Skill Book Pack",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16056,11 +17978,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "boxSkill",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao125",
+		id_str = "com.yostaren.azurlane.pack25",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 4,
-		airijp_id = "com.yostarjp.azurlane.package125",
+		airijp_id = "com.yostaren.azurlane.pack25",
 		extra_service_item = {
 			{
 				2,
@@ -16148,18 +18070,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2050] = {
-		descrip = "可获得战斗界面主题 海滨假日*1",
-		name = "海滨假日主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains a new combat UI theme.",
+		name = "Battle UI Pack - Seaside Splash",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包",
+		subject = "Battle UI Pack - Seaside Splash",
 		tip = "",
 		tip_open = 0,
 		id = 2050,
-		money = 78,
-		name_display = "海滨假日主题礼包",
+		money = 1199,
+		name_display = "Battle UI Pack - Seaside Splash",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16170,11 +18092,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui5",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui12",
+		id_str = "com.yostaren.azurlane.pack26",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.ui12",
+		airijp_id = "com.yostaren.azurlane.pack26",
 		extra_service_item = {
 			{
 				31,
@@ -16221,18 +18143,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2051] = {
-		descrip = "可获得战斗界面主题 海滨假日*1,1000物资",
-		name = "海滨假日主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains the Battle UI - Seaside Splash theme and 1,000 Coins.",
+		name = "Battle UI Pack - Seaside Splash (Basic)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包(基础版)",
+		subject = "Battle UI Pack - Seaside Splash (Basic)",
 		tip = "",
 		tip_open = 0,
 		id = 2051,
-		money = 78,
-		name_display = "海滨假日主题礼包(基础版)",
+		money = 1199,
+		name_display = "Battle UI Pack - Seaside Splash (Basic)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16243,11 +18165,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui5",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui13",
+		id_str = "com.yostaren.azurlane.pack26",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui13",
+		airijp_id = "com.yostaren.azurlane.pack26",
 		extra_service_item = {
 			{
 				31,
@@ -16310,18 +18232,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2052] = {
-		descrip = "可获得战斗界面主题 海滨假日*1,3060钻石",
-		name = "海滨假日主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "Contains the Battle UI - Seaside Splash theme and 3,060 Gems.",
+		name = "Battle UI Pack - Seaside Splash (Premium)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包(豪华版)",
+		subject = "Battle UI Pack - Seaside Splash (Premium)",
 		tip = "",
 		tip_open = 0,
 		id = 2052,
-		money = 258,
-		name_display = "海滨假日主题礼包(豪华版)",
+		money = 3699,
+		name_display = "Battle UI Pack - Seaside Splash (Premium)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16332,11 +18254,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "ui5",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.ui14",
+		id_str = "com.yostaren.azurlane.pack27",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.ui14",
+		airijp_id = "com.yostaren.azurlane.pack27",
 		extra_service_item = {
 			{
 				31,
@@ -16399,18 +18321,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2053] = {
-		descrip = "可获得最高方案快速研发券·五期*1、定向蓝图·五期*343",
-		name = "最高方案研发礼包(五期)",
-		descrip_extra = "此处不会被看到",
+		descrip = "Contains one PR Voucher - Series 5 and 343 General Blueprints - Series 5.",
+		name = "PR Construction Pack - Series 5",
+		descrip_extra = "",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)",
+		subject = "PR Construction Pack - Series 5",
 		tip = "",
 		tip_open = 0,
 		id = 2053,
-		money = 108,
-		name_display = "最高方案研发礼包(五期)",
+		money = 1599,
+		name_display = "PR Construction Pack - Series 5",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16422,11 +18344,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech5_display",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan",
+		id_str = "com.yostaren.azurlane.pack30",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 0,
-		airijp_id = "com.yostarjp.azurlane.tech",
+		airijp_id = "com.yostaren.azurlane.pack30",
 		extra_service_item = {
 			{
 				2,
@@ -16462,18 +18384,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2054] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)高级版",
-		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher & Blueprint Bundle - Series 5",
+		descrip_extra = "If you've already built all Series 5 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)高级版",
+		subject = "PR Voucher & Blueprint Bundle - Series 5",
 		tip = "",
 		tip_open = 0,
 		id = 2054,
-		money = 108,
-		name_display = "高级版",
+		money = 1599,
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 5",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16485,11 +18407,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech5_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan13",
+		id_str = "com.yostaren.azurlane.pack30",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.tech13",
+		airijp_id = "com.yostaren.azurlane.pack30",
 		extra_service_item = {
 			{
 				2,
@@ -16531,18 +18453,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2055] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)标准版",
-		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		descrip = "Contains:",
+		name = "PR Voucher - Series 5",
+		descrip_extra = "If you've already built all Series 5 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)标准版",
+		subject = "PR Voucher - Series 5",
 		tip = "",
 		tip_open = 0,
 		id = 2055,
-		money = 68,
-		name_display = "标准版",
+		money = 999,
+		name_display = "PR Voucher Pack - Series 5",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16554,11 +18476,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech5_normal",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan14",
+		id_str = "com.yostaren.azurlane.pack28",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.tech14",
+		airijp_id = "com.yostaren.azurlane.pack28",
 		extra_service_item = {
 			{
 				2,
@@ -16590,18 +18512,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2056] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·五期x343",
+		descrip = "Contains:",
+		name = "PR Blueprint Pack - Series 5",
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 5.",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)升级版",
+		subject = "PR Blueprint Pack - Series 5",
 		tip = "",
 		tip_open = 0,
 		id = 2056,
-		money = 40,
-		name_display = "高级版",
+		money = 699,
+		name_display = "PR Blueprint Pack - Series 5",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16613,11 +18535,11 @@ pg.base.pay_data_display = {
 		package_tag = "",
 		picture = "tech5_promotion",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.keyan15",
+		id_str = "com.yostaren.azurlane.pack29",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 3,
-		airijp_id = "com.yostarjp.azurlane.tech15",
+		airijp_id = "com.yostaren.azurlane.pack29",
 		extra_service_item = {
 			{
 				2,
@@ -16648,464 +18570,35 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[5001] = {
-		descrip = "可获得60钻，高级定向蓝图·五期*2",
-		name = "促销礼包I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包I",
-		tip = "",
-		tip_open = 0,
-		id = 5001,
-		money = 6,
-		name_display = "促销礼包I",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day1",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao201",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package201",
-		extra_service_item = {
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		display = {
-			{
-				2,
-				42046,
-				2
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40990,
-				1
-			}
-		}
-	},
-	[5002] = {
-		descrip = "可获得200钻",
-		name = "促销礼包II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包II",
-		tip = "",
-		tip_open = 0,
-		id = 5002,
-		money = 6,
-		name_display = "促销礼包II",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day2",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao202",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package202",
-		extra_service_item = {
-			{
-				1,
-				14,
-				200
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				200
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40991,
-				1
-			}
-		}
-	},
-	[5003] = {
-		descrip = "可获得定向装备箱·超稀有*1，定向部件T4*5",
-		name = "促销礼包III",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包III",
-		tip = "",
-		tip_open = 0,
-		id = 5003,
-		money = 6,
-		name_display = "促销礼包III",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day3",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao203",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package203",
-		extra_service_item = {
-			{
-				2,
-				30202,
-				1
-			},
-			{
-				2,
-				30114,
-				5
-			}
-		},
-		display = {
-			{
-				2,
-				30202,
-				1
-			},
-			{
-				2,
-				30114,
-				5
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40992,
-				1
-			}
-		}
-	},
-	[5004] = {
-		descrip = "可获得60钻，试作型布里MKII*1",
-		name = "促销礼包IV",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包IV",
-		tip = "",
-		tip_open = 0,
-		id = 5004,
-		money = 6,
-		name_display = "促销礼包IV",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day4",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao204",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package204",
-		extra_service_item = {
-			{
-				4,
-				100011,
-				1
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		display = {
-			{
-				4,
-				100011,
-				1
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40993,
-				1
-			}
-		}
-	},
-	[5005] = {
-		descrip = "可获得舰艇演习数据T2*60",
-		name = "促销礼包V",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包V",
-		tip = "",
-		tip_open = 0,
-		id = 5005,
-		money = 6,
-		name_display = "促销礼包V",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day5",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao205",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package205",
-		extra_service_item = {
-			{
-				2,
-				16502,
-				60
-			}
-		},
-		display = {
-			{
-				2,
-				16502,
-				60
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40994,
-				1
-			}
-		}
-	},
-	[5006] = {
-		descrip = "可获得心智魔方*10，快速完成工具*5",
-		name = "促销礼包VI",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包VI",
-		tip = "",
-		tip_open = 0,
-		id = 5006,
-		money = 6,
-		name_display = "促销礼包VI",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day6",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao206",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package206",
-		extra_service_item = {
-			{
-				2,
-				20001,
-				10
-			},
-			{
-				2,
-				15003,
-				5
-			}
-		},
-		display = {
-			{
-				2,
-				20001,
-				10
-			},
-			{
-				2,
-				15003,
-				5
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40995,
-				1
-			}
-		}
-	},
-	[5007] = {
-		descrip = "可获得60钻，高级定向蓝图·六期*2",
-		name = "促销礼包VII",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "促销礼包VII",
-		tip = "",
-		tip_open = 0,
-		id = 5007,
-		money = 6,
-		name_display = "促销礼包VII",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_day7",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao207",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package207",
-		extra_service_item = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		display = {
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				1,
-				14,
-				60
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40996,
-				1
-			}
-		}
-	},
 	[5011] = {
-		descrip = "购买礼包可获得60钻，高级定向蓝图·六期*2",
-		name = "促销礼包I(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 6.",
+		name = "Daily Paid Pack (Day 1)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包I",
+		subject = "Daily Paid Pack (Day 1)",
 		tip = "",
 		tip_open = 0,
 		id = 5011,
-		money = 6,
-		name_display = "促销礼包I",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 1)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day1",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao211",
+		id_str = "com.yostaren.azurlane.bfdailybag8",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package211",
+		airijp_id = "com.yostaren.azurlane.bfdailybag8",
 		extra_service_item = {
 			{
 				2,
@@ -17116,6 +18609,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17141,40 +18660,65 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5012] = {
-		descrip = "购买礼包可获得200钻",
-		name = "促销礼包II(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 200x Gems.",
+		name = "Daily Paid Pack (Day 2)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包II",
+		subject = "Daily Paid Pack (Day 2)",
 		tip = "",
 		tip_open = 0,
 		id = 5012,
-		money = 6,
-		name_display = "促销礼包II",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 2)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day2",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao212",
+		id_str = "com.yostaren.azurlane.bfdailybag9",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package212",
+		airijp_id = "com.yostaren.azurlane.bfdailybag9",
 		extra_service_item = {
 			{
 				1,
 				14,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17195,35 +18739,34 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5013] = {
-		descrip = "购买礼包可获得定向部件T4*5，心智单元*200",
-		name = "促销礼包III(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 200x Cognitive Chips, 5x Universal T4 Parts.",
+		name = "Daily Paid Pack (Day 3)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包III",
+		subject = "Daily Paid Pack (Day 3)",
 		tip = "",
 		tip_open = 0,
 		id = 5013,
-		money = 6,
-		name_display = "促销礼包III",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 3)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day3",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao213",
+		id_str = "com.yostaren.azurlane.bfdailybag10",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package213",
+		airijp_id = "com.yostaren.azurlane.bfdailybag10",
 		extra_service_item = {
 			{
 				2,
@@ -17234,6 +18777,32 @@ pg.base.pay_data_display = {
 				2,
 				15008,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17259,35 +18828,34 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5014] = {
-		descrip = "购买礼包可获得60钻，试作型布里MKII*1",
-		name = "促销礼包IV(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 60x Gems, 1x Prototype Bulin MKII.",
+		name = "Daily Paid Pack (Day 4)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包IV",
+		subject = "Daily Paid Pack (Day 4)",
 		tip = "",
 		tip_open = 0,
 		id = 5014,
-		money = 6,
-		name_display = "促销礼包IV",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 4)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day4",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao214",
+		id_str = "com.yostaren.azurlane.bfdailybag11",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package214",
+		airijp_id = "com.yostaren.azurlane.bfdailybag11",
 		extra_service_item = {
 			{
 				4,
@@ -17298,6 +18866,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17323,40 +18917,65 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5015] = {
-		descrip = "购买礼包可获得舰艇演习数据T2*60",
-		name = "促销礼包V(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 60x T2 EXP Data Packs.",
+		name = "Daily Paid Pack (Day 5)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包V",
+		subject = "Daily Paid Pack (Day 5)",
 		tip = "",
 		tip_open = 0,
 		id = 5015,
-		money = 6,
-		name_display = "促销礼包V",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 5)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day5",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao215",
+		id_str = "com.yostaren.azurlane.bfdailybag12",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package215",
+		airijp_id = "com.yostaren.azurlane.bfdailybag12",
 		extra_service_item = {
 			{
 				2,
 				16502,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17377,35 +18996,34 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5016] = {
-		descrip = "购买礼包可获得心智魔方*10，快速完成工具*5",
-		name = "促销礼包VI(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 10x Wisdom Cubes, 5x Quick Finishers.",
+		name = "Daily Paid Pack (Day 6)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包VI",
+		subject = "Daily Paid Pack (Day 6)",
 		tip = "",
 		tip_open = 0,
 		id = 5016,
-		money = 6,
-		name_display = "促销礼包VI",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 6)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day6",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao216",
+		id_str = "com.yostaren.azurlane.bfdailybag13",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package216",
+		airijp_id = "com.yostaren.azurlane.bfdailybag13",
 		extra_service_item = {
 			{
 				2,
@@ -17416,6 +19034,32 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17441,35 +19085,34 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5017] = {
-		descrip = "购买礼包可获得60钻，高级定向蓝图·七期*2",
-		name = "促销礼包VII(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 7.",
+		name = "Daily Paid Pack (Day 7)",
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包VII",
+		subject = "Daily Paid Pack (Day 7)",
 		tip = "",
 		tip_open = 0,
 		id = 5017,
-		money = 6,
-		name_display = "促销礼包VII",
+		money = 99,
+		name_display = "Daily Paid Pack (Day 7)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day7",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao217",
+		id_str = "com.yostaren.azurlane.bfdailybag14",
 		first_pay_double = 0,
 		extra_gem = 0,
 		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package217",
+		airijp_id = "com.yostaren.azurlane.bfdailybag14",
 		extra_service_item = {
 			{
 				2,
@@ -17480,6 +19123,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17500,6 +19169,2371 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81416,
+				1
+			}
+		}
+	},
+	[139] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Black Friday Lucky Bag (2022)",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Black Friday Lucky Bag (2022)",
+		tip = "",
+		tip_open = 0,
+		id = 139,
+		money = 2999,
+		name_display = "Black Friday Lucky Bag (2022)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai77",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.diamond177",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.diamond177",
+		extra_service_item = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2022,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69976,
+				1
+			},
+			{
+				1,
+				4,
+				2022
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40024,
+				1
+			}
+		}
+	},
+	[140] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "New Semester Lucky Pack",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "New Semester Lucky Pack",
+		tip = "",
+		tip_open = 0,
+		id = 140,
+		money = 2999,
+		name_display = "New Semester Lucky Pack",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai78",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.luckybag8",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag8",
+		extra_service_item = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					2,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					3,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69978,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40025,
+				1
+			}
+		}
+	},
+	[141] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Onsen Souvenir Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Onsen Souvenir Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 141,
+		money = 2999,
+		name_display = "Onsen Souvenir Lucky Bag",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai79",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.luckybag9",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag9",
+		extra_service_item = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					3,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69979,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				70052,
+				1
+			}
+		}
+	},
+	[142] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Office Hour Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Office Hour Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 142,
+		money = 2999,
+		name_display = "Office Hour Lucky Box",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai80",
+		skin_inquire_relation = 69980,
+		id_str = "com.yostaren.azurlane.luckybag13",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag13",
+		extra_service_item = {
+			{
+				2,
+				69980,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					6,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69980,
+				1
+			},
+			{
+				1,
+				4,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40985,
+				1
+			}
+		}
+	},
+	[143] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "5th Anniversary Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "5th Anniversary Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 143,
+		money = 2999,
+		name_display = "5th Anniversary Lucky Box",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai81",
+		skin_inquire_relation = 69981,
+		id_str = "com.yostaren.azurlane.luckybag14",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag14",
+		extra_service_item = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					8,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					8,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69981,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40986,
+				1
+			}
+		}
+	},
+	[144] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Halloween Lucky Box 2023",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Halloween Lucky Box 2023",
+		tip = "",
+		tip_open = 0,
+		id = 144,
+		money = 2999,
+		name_display = "Halloween Lucky Box 2023",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai82",
+		skin_inquire_relation = 69982,
+		id_str = "com.yostaren.azurlane.luckybag18",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag18",
+		extra_service_item = {
+			{
+				2,
+				69982,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					10,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69982,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40987,
+				1
+			}
+		}
+	},
+	[145] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Black Friday Lucky Bag (2023)",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 2,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Black Friday Lucky Bag (2023)",
+		tip = "",
+		tip_open = 0,
+		id = 145,
+		money = 2999,
+		name_display = "Black Friday Lucky Bag (2023)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai82",
+		skin_inquire_relation = 69983,
+		id_str = "com.yostaren.azurlane.luckybag19",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag19",
+		extra_service_item = {
+			{
+				2,
+				69983,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2023,
+					11,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69983,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40997,
+				1
+			}
+		}
+	},
+	[146] = {
+		descrip = "Contains a random character outfit, 2024 Gems, and a large amount of supplies.",
+		name = "Cyber City Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Cyber City Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 146,
+		money = 2999,
+		name_display = "Cyber City Lucky Box",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai84",
+		skin_inquire_relation = 86400,
+		id_str = "com.yostaren.azurlane.luckybag28",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag28",
+		extra_service_item = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86400,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81400,
+				1
+			}
+		}
+	},
+	[147] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Adventurer's Lucky Chest",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Adventurer's Lucky Chest",
+		tip = "",
+		tip_open = 0,
+		id = 147,
+		money = 2999,
+		name_display = "Adventurer's Lucky Chest",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai85",
+		skin_inquire_relation = 86401,
+		id_str = "com.yostaren.azurlane.luckybag29",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag29",
+		extra_service_item = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81401,
+				1
+			}
+		}
+	},
+	[148] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Lavish Lucky Boombox",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Lavish Lucky Boombox",
+		tip = "",
+		tip_open = 0,
+		id = 148,
+		money = 2999,
+		name_display = "Lavish Lucky Boombox",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai86",
+		skin_inquire_relation = 86402,
+		id_str = "com.yostaren.azurlane.luckybag30",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag30",
+		extra_service_item = {
+			{
+				2,
+				86402,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86402,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81402,
+				1
+			}
+		}
+	},
+	[149] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "School Time Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "School Time Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 149,
+		money = 2999,
+		name_display = "School Time Lucky Bag",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai87",
+		skin_inquire_relation = 86403,
+		id_str = "com.yostaren.azurlane.luckybag35",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag35",
+		extra_service_item = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81403,
+				1
+			}
+		}
+	},
+	[150] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "High Speed Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "High Speed Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 150,
+		money = 2999,
+		name_display = "High Speed Lucky Bag",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai88",
+		skin_inquire_relation = 86404,
+		id_str = "com.yostaren.azurlane.luckybag36",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag36",
+		extra_service_item = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81404,
+				1
+			}
+		}
+	},
+	[151] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "6th Anniversary Lucky Barrel",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "6th Anniversary Lucky Barrel",
+		tip = "",
+		tip_open = 0,
+		id = 151,
+		money = 2999,
+		name_display = "6th Anniversary Lucky Barrel",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai89",
+		skin_inquire_relation = 86405,
+		id_str = "com.yostaren.azurlane.luckybag37",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag37",
+		extra_service_item = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81405,
+				1
+			}
+		}
+	},
+	[152] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Halloween Lucky Box 2024",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Halloween Lucky Box 2024",
+		tip = "",
+		tip_open = 0,
+		id = 152,
+		money = 2999,
+		name_display = "Halloween Lucky Box 2024",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai90",
+		skin_inquire_relation = 86406,
+		id_str = "com.yostaren.azurlane.luckybag42",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag42",
+		extra_service_item = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81406,
+				1
+			}
+		}
+	},
+	[153] = {
+		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
+		name = "Live2D Surprise Lucky Bag (2024)",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Black Friday Lucky Bag (2024)",
+		tip = "",
+		tip_open = 0,
+		id = 153,
+		money = 999,
+		name_display = "Live2D Surprise Lucky Bag (2024)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai_L2d_new",
+		skin_inquire_relation = 86407,
+		id_str = "com.yostaren.azurlane.luckybag44",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 2,
+		airijp_id = "com.yostaren.azurlane.luckybag44",
+		extra_service_item = {
+			{
+				2,
+				86407,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86407,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81417,
+				1
+			}
+		}
+	},
+	[154] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Black Friday Lucky Bag (2024)",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Black Friday Lucky Bag (2024)",
+		tip = "",
+		tip_open = 0,
+		id = 154,
+		money = 2999,
+		name_display = "Black Friday Lucky Bag (2024)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai92",
+		skin_inquire_relation = 86408,
+		id_str = "com.yostaren.azurlane.luckybag43",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag43",
+		extra_service_item = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81418,
+				1
+			}
+		}
+	},
+	[155] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Nile Colors Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Nile Colors Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 155,
+		money = 2999,
+		name_display = "Nile Colors Lucky Box",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai93",
+		skin_inquire_relation = 86413,
+		id_str = "com.yostaren.azurlane.luckybag53",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag53",
+		extra_service_item = {
+			{
+				2,
+				86413,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81422,
+				1
+			}
+		}
+	},
+	[156] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Hospital Adventure Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Hospital Adventure Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 156,
+		money = 2999,
+		name_display = "Hospital Adventure Lucky Bag",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai94",
+		skin_inquire_relation = 86414,
+		id_str = "com.yostaren.azurlane.luckybag54",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag54",
+		extra_service_item = {
+			{
+				2,
+				86414,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86414,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81423,
+				1
+			}
+		}
+	},
+	[157] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Pajama Party Lucky Bag",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Pajama Party Lucky Bag",
+		tip = "",
+		tip_open = 0,
+		id = 157,
+		money = 2999,
+		name_display = "Pajama Party Lucky Bag",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai95",
+		skin_inquire_relation = 86415,
+		id_str = "com.yostaren.azurlane.luckybag56",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag56",
+		extra_service_item = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81424,
+				1
+			}
+		}
+	},
+	[158] = {
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		name = "Office Cabinet Lucky Box",
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "Office Cabinet Lucky Box",
+		tip = "",
+		tip_open = 0,
+		id = 158,
+		money = 2999,
+		name_display = "Office Cabinet Lucky Box",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai96",
+		skin_inquire_relation = 86416,
+		id_str = "com.yostaren.azurlane.luckybag61",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostaren.azurlane.luckybag61",
+		extra_service_item = {
+			{
+				2,
+				86416,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86416,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81426,
 				1
 			}
 		}

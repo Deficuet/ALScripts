@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "又过了一段时间————",
+			say = "Another while later...",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "绳子做好了哦，用这个绳子的话，就算挂在舰载机上进行空中移动应该也没问题！",
+			say = "Voila! This rope should be tough enough to keep you suspended under a plane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好诶，我已经准备好了进行空中飞行了！",
+			say = "Sweet! Everything's ready for me to take off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也想挂上去玩！",
+			say = "I wanna fly too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "还有{namecode:18}，{namecode:18}也想！",
+			say = "As do I! Please let me come along!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "{namecode:18}，等等！……额，这会不会有点太乱来了，安全性真的没问题吧？",
+			say = "Not so fast, Shimakaze! Ryza, this is more than a little crazy. Are you sure this will work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "我觉得没问题，不过当然，还要实际试过才知道啦。",
+			say = "I'm pretty sure, at least. There's only one way to find out, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "……我就算了。",
+			say = "...I think I'll stay on the ground, personally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "同意。这种事让想做的人来做就好。",
+			say = "Likewise. The daredevils can try if they want.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎，我也能上去试一下吗？",
+			say = "Could I try it too, Ryza?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "科洛蒂娅对这个有兴趣么？",
+			say = "Oh, you interested?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "关于这一点的话，科洛蒂娅小姐恐怕不行。没有舰装作为保护，舰载机启动起来产生的风压不是一般人能够承受的。",
+			say = "I'm afraid you can't, Miss Klaudia. You won't be able to withstand the strong air pressure without a rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是、是这样啊……真可惜。莱莎你呢？",
+			say = "I see... That's unfortunate. What about you, Ryza?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的话……啊哈哈，还是让最有兴趣的阿尔弗雷多和布里斯托尔先玩吧。",
+			say = "I, uh... Ahahah, I think I'll leave the flying to the risk-takers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好耶——可畏小姐，请带我们出发吧！",
+			say = "Okay then! Hit it, Formidable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以从空中开始立体探索咯~",
+			say = "Let's take this investigation to the skies!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "……我会把速度放慢的，但还是千万注意，不要做出在空中开炮这种胡来的事哦！",
+			say = "*sigh*... Alright, I'll do a slow takeoff. Please don't do anything reckless, like firing your cannons from the air.",
 			painting = {
 				alpha = 0.3,
 				time = 1

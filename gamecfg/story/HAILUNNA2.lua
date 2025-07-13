@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>二　风暴来临</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>2 A Storm is Coming</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚时分，窗外传来了淅淅沥沥的雨声。",
+			say = "Later that evening, a drizzle descended upon the port.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，外面下雨了……趁雨势还没有变大，我们先回去吧？",
+			say = "It's starting to rain, Commander. Should we call it a day now, before it gets worse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……手头的工作还没有收尾，还是再呆一会好了。",
+			say = "\"There's still work left to do. I can't leave before it's all done.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过海伦娜确实可以先回去，本日需要秘书舰处理的工作已经全部结束了。",
+			say = "\"You can go home early if you want to, though. You've already finished your job.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？我……我还是等指挥官一起走吧……",
+			say = "I could, but... I'd hate to leave without you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然海伦娜这么说了，那就抓紧完成工作一起走吧————",
+			say = "\"And I'd feel bad if I let you down. I'll try to finish up quick, then.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（雨声）呼~呼呼呼呼呼呼~哗啦啦~",
+			say = "While I was chipping away at my work, the rain had whipped up into a complete downpour.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不经意间，窗外已是倾盆大雨。呼呼的风声、隆隆的雷声与刷刷的雨声，屋外正演奏着属于暴雨天的交响曲。",
+			say = "Gales rattled the windows while thunder boomed in the distance. What began as an evening shower had grown into a storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说起来，昨天的天气预报好像提到了今天可能有台风接近……",
+			say = "\"Now I remember... Yesterday's forecast warned there could be a big storm coming.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？台风？",
+			say = "A storm? Oh god...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			},
 			options = {
 				{
-					content = "非常抱歉，工作太忙，一时间忘记了……",
+					content = "\"Seems I got tunnel vision over my work. Sorry.\"",
 					flag = 1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……！指挥官不用道歉的，等台风过去之后再回去就好了。",
+			say = "Don't be sorry, it's fine. We can just wait for it to pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（咕咕咕……）",
+			say = "Thunder rumbled outside, and my stomach growled almost as if it were echoing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "肚子倒是不忘贴心地提醒晚餐时间到了。抽屉里还有些杯面和零食，可以拿来应应急。",
+			say = "\"Hmm... I think it's time for dinner. I've got instant noodles and snacks in my drawer...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			},
 			options = {
 				{
-					content = "要不一起吃个简单的晚饭？",
+					content = "\"Do you want some?\"",
 					flag = 1
 				}
 			}
@@ -265,7 +265,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，谢谢指挥官……",
+			say = "Oh. Yes, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,68 +279,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "正当准备泡杯面的时候，手与海伦娜的手指碰到了一起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 102050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "啊……指挥官，这个就交给我吧。准备晚餐也算是秘书舰的职责范畴……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102050,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "先定一个三分钟整的闹钟……然后再搭配一些……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "海伦娜一边巡视着可用的配料，一边翻看着笔记本。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "笔记本里居然连这种事都记下来了么……？",
+			say = "Helena and I both reached for the instant noodles, and our hands made contact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +296,68 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，时间到了……指挥官尝尝看？",
+			say = "Err... I-I'd like to do the preparation. It's what a secretary should do...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102050,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Okay, first I set the timer to three minutes, and then...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "She again flipped through her notes while seemingly reciting a recipe.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "It seemed like she'd written down tips for every plausible occasion...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 102050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Dinner is served. Bon appetit, Commander.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "从海伦娜那里接过杯面和叉子——比平日里好吃很多！",
+			say = "\"Wow, this is really good!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,38 +402,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……难道是暴雨让杯面变美味了？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 102050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "那个……其实是我先前从重樱的同伴那里得到了情报，在杯面中加了一些切碎的梅干和薯片……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "居然有人居然连指挥室里的零食种类都记下来了么……？港区的同伴们不容小视啊……",
+			say = "\"Seriously, this is great. Where'd you learn to cook like this?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +419,38 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果指挥官喜欢的话，之后还可以为您试一下……",
+			say = "Well, it's actually a recipe I got from a Sakura Empire friend of mine. Dried plums and potato chips have surprising culinary utility.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "The fact she even knew what snacks I keep around the office shows just how far she went to gather intel to prepare for the job.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 102050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "If you'd like, I could ask around for more recipes to add to my–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "咔嚓――――",
+			say = "BRRZT...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……发，发生什么事了？指挥官>_<!",
+			say = "*gasp*! Wh-what was that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			blackBg = true,
-			say = "指挥室突然陷入了一片黑暗。看来，台风带来的麻烦不只有回不去这么简单啊……",
+			say = "A shockingly loud thunderbolt struck, and the lights in the office all went out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,15 +15,15 @@ return {
 			bgm = "theme-vichy-church",
 			sequence = {
 				{
-					"接管第五日 01:15:29",
+					"Basilica Island Inner Facility",
 					1
 				},
 				{
-					"皇家与自由鸢尾联合舰队",
+					"Basilica Vert Control Area",
 					2
 				},
 				{
-					"圣堂Vert 统御中心",
+					"Joint Basilica Investigation Team",
 					3
 				}
 			},
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "唔…………怎么会这样。",
+			say = "Hmm... What's going on here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "怎么了，贝亚恩小姐？",
+			say = "What's wrong, Miss Béarn?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "这里的情况比我想象中还要糟糕很多！",
+			say = "Things are much worse than I had anticipated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "原本此处就是在塞壬设施上修建的第一座圣堂，所以设施最为老旧。",
+			say = "This was originally the first Basilica built on top of the Siren facilities, so it's also the oldest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "我也想到了这里的问题也许会是四座圣堂里最严重的，但是现在…………",
+			say = "I already knew that the level of infection would be the most severe here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "污染指数超过允许值几倍之多，恐怕这里才是导致圣堂彻底失控的真正原因！",
+			say = "But, I didn't expect it to be so severe that it'd generate its own Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不是因为百眼巨人的误操作导致的么？",
+			say = "Wait, so the Mirror Sea didn't appear because Argus activated the emergency control system?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "那个操作应该只是导致了四座圣堂全部出现运行异常，进而扩大了问题……",
+			say = "By the looks of things, that's right. All she did was cause the existing infection to spread.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "但是这里……至少在一年、不对至少两年前就出问题了！",
+			say = "This problem has been going on for far longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "至少从两年前开始，这里的生产设施就一刻都没有停止过！",
+			say = "And to make matters worse, this Basilica's factory has been running nonstop this entire time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "过度的生产导致了设施的损耗，而维希教廷没有选择维修设备，只是将圣堂Vert封锁起来，放任其无休止地运作……",
+			say = "This might be the real reason Vichya abandoned the island... The facility had already gone out of control, and instead of trying to get the equipment back under control, they sealed it off and allowed it to continue running...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到这里成了我们现在见到的这副样子……",
+			say = "We're fortunate the seal has managed to hold up until this point, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "所以，维希教廷撤退的真正原因不是因为什么海外战略变动，而是因为他们快控制不住这里了……",
+			say = "Eventually, the Pawns will overflow from this place and mindlessly spread \"death\" as their symbolism implies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算没有百眼巨人的误操作，这场危机也是迟早会爆发的。",
+			say = "In other words, this would've turned into a major crisis sooner or later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "然后就看是谁赶上谁倒霉了。",
+			say = "Had Her Majesty not sent us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是鸢尾教国的领土，原本应该是由你来接手的哦，黎塞留大主教？",
+			say = "You would've had to take responsibility for whatever fallout came of this Basilica. Isn't that right, Lady Richelieu?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这还真是……阴差阳错之下被你们救了一次啊。",
+			say = "...Yes. While I did not account for the Royal Navy coming here, your assistance is the best thing I could've asked for.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不用谢~作为盟友这是应该做的。",
+			say = "Her Majesty would naturally want us to look after our allies~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "但是如贝亚恩所说，这里的生产设施在两年间都没停的话，生产出的棋子都去哪儿了？",
+			say = "Say, you mentioned just now that the factory has been producing Pawns nonstop. Where have they all gone?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "实际上我们从进入这处圣堂一直到在这里启动净化系统为止，都没遇到过什么抵抗。",
+			say = "On the contrary, we haven't encountered any resistance at all since we entered the Basilica. Things are going smoother so far than in any of the other Basilicas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "未经调查我也无法给出准确答案，不过也许大多数都被送到下层————",
+			say = "I can't give you a definitive answer without doing a bit of investigation myself, but they might've been sent deeper into the catacombs–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝亚恩。",
+			say = "Béarn...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "啊……抱歉，怨仇女士，我要去仔细检查一下净化系统能不能正常运作，先失陪了。",
+			say = "Ahem. Sorry, I spoke without thinking. I need to investigate whether the purification system will still be able to function as normal, so please excuse me for a moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚的眼神很吓人哦，大主教~",
+			say = "...Quite an uncharacteristically intense look in your eyes, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "贝亚恩提到的“下层”，是什么？",
+			say = "What are these \"catacombs\" that Béarn mentioned?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……是圣堂的结构之一，主要用于棋子的“回收”与“处理”。",
+			say = "...One of the Basilica's facilities, responsible for breaking down and recycling the Pawns manufactured here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恐怕那里的状况也不容乐观……不过下层的事与我们当前的任务无关。",
+			say = "The situation down there probably isn't very optimistic either, but it doesn't change the task at hand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只要我们完成四座圣堂的净化，局面就可以得到控制了。",
+			say = "Once we reactivate all four purification stations, that should resolve the most urgent part of this problem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "至于其他的事……等凯尔盖朗岛回到自由鸢尾的控制下之后，我会调集人手慢慢处理的。",
+			say = "As long as we work together and seal this place back up, there won't be anything for you to worry about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白女王应该也不会阻拦吧？",
+			say = "(I can't afford to get any more outside parties involved in this mess... Especially not the Commander.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是自然，这里本来就是鸢尾教国的领土嘛。",
+			say = "I'll trust your assessment of the situation then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我们只是奉女王的命令以盟友的身份帮助你把这里夺回来而已，等尘埃落定之后自然要物归原主的。",
+			say = "Naturally, as these facilities belonged to the Iris Orthodoxy, the Cardinal should have the final say over what to do with them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于皇家千里迢迢出兵帮自由鸢尾收回故土的事，请怨仇女士替我向伊丽莎白女王转达我最诚挚的谢意。",
+			say = "There's no need to be so formal. Though I've had to choose my words carefully, do let Queen Elizabeth know that I am extremely grateful for her assistance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然的，我一定转达。",
+			say = "Heehee. I'll do just that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "非常感谢。那接下来我们就在此再等待一阵吧。相信贝亚恩一定能让这里的净化装置正常启动的。",
+			say = "Much obliged. Now, all we need to do is to wait for Béarn to finish reactivating the purification system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉小姐，能拜托你准备一点宵夜么？",
+			say = "Miss Scylla, would you mind preparing some snacks for us in the meantime?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "如您所愿，黎塞留大人——",
+			say = "As you wish, Lady Richelieu.",
 			painting = {
 				alpha = 0.3,
 				time = 1

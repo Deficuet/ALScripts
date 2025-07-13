@@ -9,7 +9,7 @@ return {
 			actor = 102200,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家开火的时候注意，不要打到甜品运输船了！",
+			say = "Aim more carefully, girls! You're hitting the shipping vessels by mistake!",
 			bgm = "login-2022401us",
 			painting = {
 				alpha = 0.3,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 102190,
 			dir = 1,
-			say = "……那些裂缝好像不是我们打的……是小{namecode:432}自己在破坏那些运输船！",
+			say = "That wasn't any of us! It's Spee! She's sinking the vessels!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 102210,
 			dir = 1,
-			say = "啊啊啊啊，运输船都裂开了，甜品都流进海里了！",
+			say = "Oh no! The candy is leaking into the ocean!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 207090,
 			dir = 1,
-			say = "……然后海水本身正在变成甜品？！",
+			say = "Hmm... Is it just me, or does the water taste sweet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			actor = 304070,
 			dir = 1,
-			say = "…………好甜，好好喝……（咕噜）",
+			say = "*gulp*... You're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 307090,
 			dir = 1,
-			say = "呜啊啊{namecode:161}姐姐，这个不能喝啊！",
+			say = "Don't do that, Amagi! Salt water is bad for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 107990,
 			dir = 1,
-			say = "这究竟是……你究竟做了什么？！",
+			say = "What the...? What've you done, Spee?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,10 +119,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 7,
 			side = 2,
-			say = "将大海，变为甜品之海，我原本是这么计划的……",
+			say = "All I wanted was to make the ocean sweet... That was my dream...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,10 +131,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 3,
 			side = 2,
-			say = "可惜不能如愿了…………",
+			say = "And if my dream can't be real...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,10 +143,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 1,
 			side = 2,
-			say = "这样的话，我就要在此自沉，沉入无穷无尽的甜品之海里！",
+			say = "Then I'll become one with the ocean! I'll go to my dream world where everything tastes like candy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 102200,
 			dir = 1,
-			say = "……等！",
+			say = "Wait! Don't!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,10 +171,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 2,
 			side = 2,
-			say = "再见了，我不会再回来了——",
+			say = "Farewell, protectors of the sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "就这样，甜品危机得到了解决。",
+			say = "\"And so, the girls put a stop to Spee's plan to sweeten the world's oceans.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在小{namecode:432}自沉的地方，到现在也会涌出源源不断的甜品，成为了广受好评的旅游胜地。",
+			say = "\"Even to this day, you'll sometimes find candy resurfacing from the spot where Spee went under. The area has become a popular port tourist attraction.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "至于小{namecode:432}，有人说她已经前往甜品的世界了，有人说她被小{namecode:428}救了回去。",
+			say = "\"While some say Spee lived happily ever after in her candy world, others say Eugen came and rescued her.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不论如何，没有人再见过她的身影。",
+			say = "\"Whichever the case, the fact is that nobody has seen Spee for quite some time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "总而言之，有些故事没有开端，有些故事没有结尾。而有些故事，就是这样结束了————",
+			say = "\"Some stories have fuzzy beginnings, others have ambiguous endings. As for this one, well, it ends here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——THE END——",
+			say = "The End",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,19 +256,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"主演：小{namecode:432}",
+					"Featuring: Little Spee",
 					1
 				},
 				{
-					"友情协助：",
+					"Clevelad, Little Enterprise, Lena, Li'l Sandy, Little Saratoga?",
 					2
 				},
 				{
-					"小克利夫兰 小海伦娜 小企业 小柴郡 {namecode:527}",
+					"Little Renown, Little Illustrious, Little Cheshire",
 					3
 				},
 				{
-					"小声望 小光辉 小凰 小鲟 小鳐 小加加(?)",
+					"Akagi-chan, Hiei-chan, Amagi-chan",
 					4
 				},
 				{
@@ -280,7 +280,7 @@ return {
 					6
 				},
 				{
-					"*本活动中没有任何小舰船受到伤害，请放心观看和参与",
+					"Nobody was harmed in the making of this story. All the girls were given candy as thanks for their participation.",
 					7
 				}
 			}

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			bgm = "battle-boss-4",
 			stopbgm = true,
-			say = "轰—————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "突袭开始已经过了一段时间，可是众人几乎没有取得进展。",
+			say = "The girls launched an assault on the island, but hardly made any headway in the face of the Siren defenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "现在的位置距离核心区的中心建筑并不远，但每推进一分，火力网仿佛就密集了一倍。",
+			say = "Even though their goal was within sight, they came under increasingly withering fire with each step they advanced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "其展现出的威胁程度远不是此前其他区域能比的。",
+			say = "A sense of dread filled the air as they realized that they were up against a formation more dangerous than anything they had encountered before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 101490,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是怎么回事啊！我在调查员的生涯中从来没见过这么夸张的阵地啊！",
+			say = "What the heck IS this?! I haven't seen an encampment THIS heavily fortified since... ever!",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -179,7 +179,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可畏小姐，莱莎小姐，先撤退吧！不能硬撑下去了！",
+			say = "Miss Formidable, Miss Ryza, let's retreat! It would be suicide to keep moving forward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 601080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "赞同，实力差距过大，再战斗下去要出现伤亡了。",
+			say = "She's right. There's no way we'll make it through under fire THIS heavy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看准撤退的时机在冒险里也是很重要的呢……嗯。大家先撤退吧！",
+			say = "Yeah, I agree. Knowing when to back off is crucial to surviving an adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "殿后就由我跟可畏来进行，其他人边打边撤，绝对不要将身后无防备地暴露出来。",
+			say = "Formidable and I will cover the rear. Everyone else, keep shooting while you retreat, and don't let them see your back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 10900010,
 			nameColor = "#A9F548FF",
-			say = "了解~！",
+			say = "Got it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "归途中——",
+			say = "Having successfully retreated, the girls returned to the Land of Beginnings.",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "呼……真是一次惊险的突击行动啊，{namecode:175}阁下。",
+			say = "Phew... That was a pretty thrilling attack, wasn't it? Right, Suruga?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "嗯……下次还是不要这么莽撞了。",
+			say = "Guess so. But don't be so reckless next time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是！{namecode:18}谨记在心！{namecode:175}阁下……你是有些不舒服么？还是心情有些不好……？",
+			say = "Agreed! I shall make that my motto. By the way, are you alright? You look pretty pale...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "没事，只是有些累了……{namecode:18}，你去检查一下莱莎她们有没有受伤吧。",
+			say = "Don't worry about me, I'm just tired. If anyone deserves a look at, it's Ryza and her friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "她们还不熟悉舰装的操作方法，现在也没有太好的维修环境，如果舰装受损了会很麻烦的。",
+			say = "Let's not forget they're still learning to use their riggings, and they don't have the tools to repair them. If they sustain damage, they're in trouble.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "遵命——",
+			say = "Will do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……接下来就是去找一个无人的地方，稍微修理一下……",
+			say = "*sigh*... I'll have to find a remote place where I can patch myself up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:175}小姐，你果然受伤了啊。把其他人支开是想掩人耳目偷偷治疗么？",
+			say = "So you WERE injured after all. Sent her away so you could lick your wounds in private, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "莉拉小姐？！……既然被你发现了那就没办法了。不过还请不要告诉{namecode:18}与其他人。",
+			say = "Alright, you caught me. Yes, I got a little scratched up, but please keep it a secret from the others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "我只是受了一点擦伤，稍微处理一下就好，不用让其他人太担心。",
+			say = "It's nothing serious, and I don't want to make the others worried.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "嗯，我答应你。不过既然是组队冒险，有些时候还是多依靠一下队友更好哦。",
+			say = "My lips are sealed. But, don't forget that we're all in this together. There's nothing wrong with occasionally asking for help from your allies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "不出头，平静安稳地度过每一天……我多么渴望这样的日常啊。",
+			say = "Of course I know that. I've always tried to keep my head down as much as I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过现在这种状况下……作为团队的战斗力担当，我身上有着实在不能推卸的责任。",
+			say = "It's just that... as the person with the greatest firepower here, I have to keep morale up. You understand how that feels, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "{namecode:175}小姐不愧是出色的战士。你伤在哪儿了？我来帮你处理一下吧。",
+			say = "Hmm, I suspected you'd say as much. You have a true warrior's spirit. By the way, show me where you got hurt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "不用麻烦了，莉拉小姐。舰装受损与身体受伤的处理方式有所不同，我自己来就好。",
+			say = "Look, I'll be fine. Your rigging getting scratched up isn't the same as breaking an arm. I can patch myself up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "这种时候就别见外了，毕竟学习如何处理舰装损伤对于我在接下来的战斗中该如何幸存下来也很重要吧？",
+			say = "Show me anyway. If I'm to survive our upcoming battles, knowing how to repair riggings is a skill I'm going to need.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "既然如此……那就拜托了。",
+			say = "Well, if you insist... You can have my tools and try your hand at it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "我很荣幸。",
+			say = "Thanks. Now, let's take a look.",
 			painting = {
 				alpha = 0.3,
 				time = 1

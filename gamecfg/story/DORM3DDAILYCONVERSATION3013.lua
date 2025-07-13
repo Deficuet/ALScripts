@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，画了……一张画！{dorm3d}的画！",
+			say = "Anchorage drew... a picture! A picture of {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}的手……很大，可以抱住安克雷奇……",
+			say = "Your hands... are warm and big! They give me hugs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}的眼睛……很认真！能看透很多难题……感觉！",
+			say = "Your eyes... are serious! They look like they know everything...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,18 +81,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还有{dorm3d}的腿……跑得很快！",
+			say = "And your legs... help you run really fast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听上去很微妙……",
+					content = "I don't know if I like the sound of this...",
 					flag = 1
 				},
 				{
-					content = "可以看看吗？",
+					content = "Can I see it?",
 					flag = 1
 				}
 			},
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……安克雷奇，还没画完……！之后……再给{dorm3d}！",
+			say = "Hmm... Anchorage isn't done drawing yet! Later... I'll show you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

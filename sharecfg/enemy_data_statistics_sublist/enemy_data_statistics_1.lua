@@ -41,7 +41,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[11] = {
 		cannon = 18,
-		name = "奥德莉亚??",
+		name = "Bismarck??",
 		antiaircraft_growth = 1560,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -914,7 +914,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50021] = {
 		cannon = 0,
-		name = "革律翁",
+		name = "Geryon",
 		type = 5,
 		speed_growth = 10000,
 		air_growth = 0,
@@ -1060,7 +1060,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50022] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 5500,
 		cannon_growth = 5500,
 		luck_growth = 10000,
@@ -1085,7 +1085,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50023] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 6100,
 		cannon_growth = 6100,
 		luck_growth = 10000,
@@ -1110,7 +1110,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50024] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 6650,
 		cannon_growth = 6650,
 		luck_growth = 10000,
@@ -1135,7 +1135,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50025] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 7200,
 		cannon_growth = 7200,
 		luck_growth = 10000,
@@ -1160,7 +1160,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50026] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 7750,
 		cannon_growth = 7750,
 		luck_growth = 10000,
@@ -1185,7 +1185,7 @@ pg.enemy_data_statistics_1 = {
 	},
 	[50027] = {
 		speed_growth = 10000,
-		name = "革律翁",
+		name = "Geryon",
 		durability_growth = 8300,
 		cannon_growth = 8300,
 		luck_growth = 10000,

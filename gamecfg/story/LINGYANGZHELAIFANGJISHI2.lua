@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "当我带着娜比娅走近时，海天略显慌乱地收起了纸笔。",
+			say = "Seeing Navi and I approaching, Hai Tien quickly puts away her pen and paper.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,9 +39,9 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "嗯~？在偷偷写什么东西呢？",
+			say = "Hmm? Writing something you don't want us to see, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "咳咳……小女子看这里景色颇好，就想到了新篇章的开头。",
+			say = "Ahem... The scenery here inspired me to start writing the opening of my next piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "“落花人独立，微雨燕双飞”，这样的景致令人不禁提笔。",
+			say = "\"Lonesome she stands, the petals around her swirl; two swallows take wing, into a softly raining world.\" Faced with such a beautiful sight, I can scarcely rest my pen-hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,9 +81,9 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "切……又在说些文绉绉的话啊~不如直接给人家看看写了什么吧！",
+			say = "Tsk... I hate when people get all poetic. It'd be faster just to show me what you wrote!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "现在还只是些零散想法，还不成熟。",
+			say = "It's not finished yet! I mean... This plainly penned idea of mine still needs to be refined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "等到彻底成文的时候再看也不迟。",
+			say = "You won't miss your chance to read it once it's properly finished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,18 +125,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "毕竟对小女子而言，写作一事马虎不得。",
+			say = "For me, writing is something to be approached with pride, you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确实，而且写作需要耐心",
+					content = "(Explain that it takes time to write.)",
 					flag = 1
 				},
 				{
-					content = "确实，而且写作需要感悟",
+					content = "(Elaborate on how writing takes experience.)",
 					flag = 2
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "确实，而且写作需要耐心啊，字字珠玑都是反复推敲的结果。",
+			say = "She's right, Navi. You have to consider every word carefully, and it takes time to polish your writing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官说的不错，“欲穷千里目，更上一层楼”……",
+			say = "Precisely. To paraphrase a saying: \"If you wish to see further, you must first climb higher.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正如登高望远，写作也需一步一个脚印地来。",
+			say = "Becoming a good writer is much like ascending a great mountain – it happens one step at a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,12 +189,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_509",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼！说得倒是挺厉害的！人家倒要看看有什么了不起！",
+			say = "Hmph! Quit sounding like you know everything! If you're so smart, let's see what you've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "确实，而且写作需要感悟，就像你常说的，读万卷书，行万里路。",
+			say = "Well said. To become a good writer, you should not only read widely but also experience the world's magnificence first-hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是如此，“纸上得来终觉浅，绝知此事要躬行”……",
+			say = "Indeed. As they say: \"A book can teach you many things, but you will grasp none of them without practice.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "眼前的风景、生活的点滴，都是最好的素材呢。",
+			say = "The scenery around us, the events of life – they are the material that fuels writing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这也是小女子一直随身带着灵感素材本的原因。",
+			say = "It is for this very reason that I always carry a notebook with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,12 +263,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_509",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切~整天写写画画有什么意思！",
+			say = "Hmph. At the end of the day, you're just scribbling things down. What's so fun about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并非如此。娜比娅小姐也有那种，让你想写下来的时刻吧？",
+			say = "It's so much more than that. You must have moments you want to write about, too, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_509",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才、才没有呢！虽、虽然偶尔确实会有那么一点点想法啦……",
+			say = "N-no, not really. I have little thoughts sometimes, but that's different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啊，说起来小女子知道附近有家不错的咖啡厅。",
+			say = "Ah, I just remembered there's a lovely café not far from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "细啜浮香午后茶……虽然不是品茶，但边喝咖啡，边聊天也无不可？",
+			say = "\"Fragrant tea in the afternoon light, sipped with tender delight.\" Well, it's coffee in this case, but what say you we continue our chat there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "听起来不错，那我们出发吧。",
+			say = "Good idea. Let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "之后和娜比娅在咖啡厅中与海天一起度过了许久。",
+			say = "The three of us then went to the café and enjoyed a relaxing time together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

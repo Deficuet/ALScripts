@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "区域外也出现了机关……？也许是解开封锁区域的关键所在！",
+			say = "There are switches outside the blockaded area too. We might just have a chance to defeat this security!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

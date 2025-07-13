@@ -9,7 +9,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "水和毛巾……我就放在这里了哦，TB。",
+			say = "Hey, TB. I'll leave a bottle of water and some towels here for you.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -35,12 +35,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，你要走了吗？",
+			say = "M'kay. Are you going home already?",
 			voice = "event:/educate/tb/educate-tb-story-2-1",
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "她一边舒展着身体，一边问我问题。",
+			say = "She shoots me the question whilst performing leg and back stretches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长的座位都在那边，我去那边看你比赛，给你加油。",
+			say = "No, I'll still be here, cheering you on from the bleachers over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知为何，感觉她好像有些微妙的不开心。",
+			say = "Oddly, she looks a little displeased to hear this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长留在这里应该不算违规吧？如果不算违规的话，我就留在这边给你加油。",
+			say = "It's not against the rules, is it? Assuming it's fine, I'll be right there, rooting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,12 +117,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，那我会拿到好成绩的。",
+			say = "Okay. I'll try to do good so I'll get good grades.",
 			voice = "event:/educate/tb/educate-tb-story-2-3",
 			painting = {
 				alpha = 0.3,
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知道是不是我的错觉，直到之前都看不出什么表情的TB，此时嘴角微微上扬了。",
+			say = "Maybe I'm just imagining it, but it looks like the corners of her mouth rise slightly. She has never made an expression before this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不过，小孩子时期的TB会口是心非这一点……也挺可爱的。",
+			say = "Seems I'm dealing with a kid with a small rebellious streak. Still, rebelliousness is cute in its own way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

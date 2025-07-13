@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>一 新的传说？</size>",
+					"Superstar of the Blue Seas\n\n<size=45>Chapter 1 - The Marine Idol!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某个休息日…",
+			say = "It was a peaceful day, and I was enjoying some time off.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "作为港区公益活动的一环，今年萨拉托加（和其他伙伴们）也准备进行一些宣传活动。",
+			say = "The port was hosting a charity drive, and Saratoga plus a few others were planning to take part and help raise money.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今年的主题则是……",
+			say = "And the theme of the charity drive? Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "《保护蓝色大海，和萨拉托加妹妹一起去找“传说中的海豹”吧！》",
+			say = "Apparently, it's to \"help protect the seas! Join Sara and friends in the search for the Mythical Seal, said to bring luck to whoever finds it!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以上！让我们去寻找“传说中的海豹”吧，指挥官！！",
+			say = "That's the gist of it! Now let's go look for the Mythical Seal, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			},
 			options = {
 				{
-					content = "……？？",
+					content = "...?",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~指挥官怎么还一脸呆样啦，再不出发，传说中的海豹就要被别人先发现了哦！",
+			say = "C'mon, we'd better move out now! If we don't, someone else will find it before us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哎…！？",
+			say = "We... what...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官竟然不知道吗！？其实呢，在好几个海域真的有人看到传说中的小海豹了哦？",
+			say = "Hasn't anybody told you, Commander? There have been confirmed sightings of the Mythical Seal in certain regions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以大家今年才决定不光是呼吁保护，而是真正的找到小海豹然后一起保护起来！",
+			say = "I'm telling you, it's not just an excuse for a theme! We've all decided we should go find it and give it shelter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:98}还特意做了专用的装备呢！",
+			say = "Look, Akashi even made special gear to help us catch it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这是……“海豹雷达”？！",
+			say = "Is that a... Mythical Seal radar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是我好不容易从{namecode:98}那里借来的呢！",
+			say = "She worked pretty hard on it! It's never been tested before, but let's hope it works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难得萨拉这么有干劲，呵呵，作为姐姐真是倍感欣慰呀~",
+			say = "It's not every day you see Sara as motivated as this~ I'm glad to see you raring to go.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，姐姐，你怎么来啦？",
+			say = "Hey, Lexington!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是来提交文档的。",
+			say = "Hi there. I'm just here to hand in this report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家为了保护大海环境而这么有干劲也是一件好事呢",
+			say = "I do have to say it's wonderful to see everyone doing their part to help protect the seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，能请您帮帮我妹妹，一起把这个活动搞的热闹一点吗？",
+			say = "Say, Commander, won't you be so kind as to help my little sister find the Mythical Seal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉也别给指挥官添太多麻烦哦？",
+			say = "And Sara, be nice and don't cause any trouble for the Commander, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "保护海洋的公益活动吗……对于“传说中的海豹”到底是什么样也有点在意，就帮帮萨拉托加吧。",
+			say = "Well, it's for charity. Besides, this \"Mythical Seal\" has got me curious, so I suppose I'll offer a hand in finding it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了！指挥官，谢谢你！",
+			say = "Fantastic! Thanks, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…咦，说起来萨拉托加的衣服……",
+			say = "Oh yeah, Saratoga's wearing a new outfit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，终于注意到了吗，指挥官！没错，今天的我，就是萨拉托加，The·碧海的偶像！",
+			say = "Finally noticed, have you? Hehehe~ I had it especially prepared for the fundraiser concert! I'm Sara, Superstar of the Blue Seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			},
 			options = {
 				{
-					content = "碧、碧海的偶像…",
+					content = "\"It looks great on you.\"",
 					flag = 1
 				}
 			}
@@ -420,7 +420,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "关于海洋的知识，只要问我就对了！海豹们的知识自然也不在话下啦！",
+			say = "With this radar and my knowledge, we'll catch the Mythical Seal in the blink of an eye! I've almost read so many books on marine life that I've got fish on the brain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，出发吧，指挥官！首先就从寻找线索开始！！",
+			say = "If you have any aquatic inquiries, just ask, Commander! Professor Sara can teach you anything♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "与萨拉托加一起的“传说海豹”追寻之旅，就这样开始了——",
+			say = "And so we set out on a journey in search for the Mythical Seal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

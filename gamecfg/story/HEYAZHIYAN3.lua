@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"合雅之宴\n\n<size=45>三　琴与笛</size>",
+					"The Graceful Banquet\n\n<size=45>3 The Music Room</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "房间中，演奏者{namecode:439}正在倾注全部精力演奏着。",
+			say = "Over in the music room, Roon was pouring her soul into a piano performance.",
 			side = 2,
 			bgName = "star_level_bg_146",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "悠扬的琴声如同流水一般包裹着一旁聆听的逸仙与{namecode:436}。",
+			say = "Tirpitz and Yat Sen were listening, taking in her beautiful notes like the whispers of a stream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "直至一曲终了——",
+			say = "She concluded her melody and turned to ask them a question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次听起来怎么样？",
+			say = "How was it this time around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与上次相比有了很大的进步哦，{namecode:439}小姐。",
+			say = "My. You have improved so much I can hardly believe what I just heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "嗯，以现在的水准，今晚在宴会上的演奏肯定会大受欢迎的。",
+			say = "Agreed. You'll unquestioningly steal the show at the banquet with this performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了~这样距离为指挥官举办个人独奏会又近了一步~",
+			say = "I'm glad to hear it~ It means I'm one step closer to my goal of giving the Commander a private recital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "不过曲目储备还不足呢……",
+			say = "Having said that, I feel my musical repertoire is lacking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "曲目的储备是日积月累的过程，我认为应该循序渐进一步一步来哦。",
+			say = "Practice makes perfect. Don't be too hasty, instead focus on mastering the piano little by little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "你说得对，还是先着眼于眼下的宴会好了~",
+			say = "Of course. For now, I must focus on nailing my performance at the banquet tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "既然是准备献给指挥官的演奏，就不能有丝毫的马虎……",
+			say = "I'm dedicating it to the Commander, so I cannot afford to make any mistakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我再来练一遍，逸仙小姐，麻烦你再帮我找找问题了。",
+			say = "Now let's do it one more time, from the top. Yat Sen, would you mind listening again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题哦，我也很享受这个过程的~",
+			say = "Gladly. I'd love to offer my input after hearing how much better you've become.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…{namecode:439}，这次让我来与你合奏吧。",
+			say = "Roon, upon further consideration, I'm willing to do a duet with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，最后还是下定决心了么？",
+			say = "Heehee. You've finally made up your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "嗯…我或许还是期待着能在指挥官面前进行演奏的吧……",
+			say = "I cannot deny I feel the urge to perform in front of the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听了你的演奏，我感觉内心变得愈发不能平静。",
+			say = "Besides, I can't just sit back after hearing that melody of yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "也是时候鼓起勇气向前迈出一步了。",
+			say = "It's time I took the plunge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然你想通了，那就让我们一起来吧。",
+			say = "In that case, you're free to join in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499012,
-			say = "不过，我可不会因为照顾你而影响我在指挥官面前的发挥哦？",
+			say = "But, allow me to say this upfront – I will not hold my performance back just to make yours look better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "放心，我有在私下认真练习过。",
+			say = "Neither will I. You're not the only one who's been practicing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "而且……我们还有逸仙小姐在呢。",
+			say = "Yat Sen, I take it you'll be listening to us quite a lot before the actual show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405024,
-			say = "可以拜托你为我的演奏提出一些建议么？",
+			say = "So would you mind giving me your input as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然，我很乐意。二位的合奏一定会让今晚的宴会更加精彩的~",
+			say = "Of course, I'd be happy to. I'm certain your duet will take the banquet to the next level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，那就让我们的合奏开始吧~",
+			say = "Now then, let's get to it, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "star_level_bg_146",
 			dir = 1,
 			blackBg = true,
-			say = "屋内又一次响起了动听的旋律——一曲琴声与笛声交织的美妙音乐。",
+			say = "A melody filled the room. The notes of Roon's piano and Tirpitz's flute came together harmoniously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

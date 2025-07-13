@@ -13,8 +13,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "？？？",
-			say = "呼——呼————",
+			actorName = "??? (Edinburgh)",
+			say = "Zzzzz...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,8 +47,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "周围好黑，什么都看不到……这是在梦里…？",
+			actorName = "??? (Edinburgh)",
+			say = "Ugh... It's pitch dark... Did I fall asleep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "也不知道现在几点了啊……",
+			actorName = "??? (Edinburgh)",
+			say = "*Yawn*... What time is it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,8 +81,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "一直在忙着准备宴会……干了那么多活，稍微偷懒一下也没关系吧。",
+			actorName = "??? (Edinburgh)",
+			say = "I've been so busy though... with work, and with Her Majesty's tea party... I think I've earned myself some rest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "说不定指挥官也在睡懒觉呢，反正有贝法在……",
+			actorName = "??? (Edinburgh)",
+			say = "The Commander probably is slacking off too... And if anything happens, I'm sure Bel will wake me up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "再睡一会好了——",
+			actorName = "??? (Edinburgh)",
+			say = "Maybe I'll sleep in a bit more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,9 +135,9 @@ return {
 			bgmDelay = 2,
 			bgm = "ssss-az-story",
 			actor = 900233,
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			hidePaintObj = true,
-			say = "已知，老师现在为测验准备了三套卷子，四名同学需要从中任选一套作答。请问，这三套卷子都有人选做的概率是？",
+			say = "Four respondents randomly select one option in a questionnaire with three options: A, B, and C. What's the probability that A, B, and C all appear in the responses?",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -168,9 +168,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			side = 2,
-			say = "有哪位同学能回答一下这个问题么？",
+			say = "Any takers? Who wants to take a crack at this question?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "什么声音啊？吵死了…",
+			say = "That voice... is so grating...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			dir = 1,
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "爱丁堡，喂爱丁堡……这家伙不会睡过去了吧。",
+			say = "Edinburgh...! Edinburgh...! Are you sleeping in class again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +217,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800050,
 			nameColor = "#a9f548",
-			say = "真厉害啊。",
+			say = "Wow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,12 +236,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "真是自由自在的风格，不过已经被老师发现了哦~",
+			say = "Hehe. I like the free-spirited type, but you missed the part where you're not supposed to get caught by the teacher~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			say = "谁啊，别晃了……让我再睡一会…………",
+			say = "Stop shaking me around... I don't wanna get up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,9 +272,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			actorName = "？？？",
+			actorName = "??? (Edinburgh)",
 			hidePaintObj = true,
-			say = "喂！那边的爱丁堡！怎么又在上课的时候睡着了！",
+			say = "Edinburgh! How many times have I told you not to sleep in class?!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔………诶………我这是在…教室？",
+			say = "...*yaaaawn*... Wh-where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,12 +310,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "像教师的人",
+			actorName = "A Teacher? (Purity)",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "看来还记得自己是在上课。既然睡眠充足了，就来回答一下刚刚的问题吧。",
+			say = "In class, silly. Now, once again, please answer the question on the board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,9 +331,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "像教师的人",
+			actorName = "A Teacher? (Purity)",
 			side = 2,
-			say = "老师现在为测验准备了三套卷子，四名同学需要从中任选一套作答。请问，这三套卷子都有人选做的概率是？",
+			say = "Four respondents randomly select one option in a questionnaire with three options: A, B, and C. What's the probability that A, B, and C all appear in the responses?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,23 +344,23 @@ return {
 			},
 			options = {
 				{
-					content = "A：2/9",
+					content = "A: 2/9",
 					flag = 1
 				},
 				{
-					content = "B：4/9",
+					content = "B: 4/9",
 					flag = 2
 				},
 				{
-					content = "C：8/9",
+					content = "C: 8/9",
 					flag = 3
 				},
 				{
-					content = "D：4/27",
+					content = "D: 4/27",
 					flag = 4
 				},
 				{
-					content = "……",
+					content = "Uhh......",
 					flag = 5
 				}
 			}
@@ -374,7 +374,7 @@ return {
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "居然真的答对了？！！",
+			say = "She... got it right?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "（居、居然对了么……好悬。）",
+			say = "(Eh? I did?! Phew...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "爱丁堡，正确答案是…4/9……",
+			say = "Psst... Edinburgh, pick B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "啊，我算出来了！正确答案是B！",
+			say = "Uh... B! The answer is B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "爱丁堡，正确答案是…4/9……",
+			say = "Psst... Edinburgh, pick B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "啊，我算出来了！正确答案是B！",
+			say = "Uh... B! The answer is B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "爱丁堡，正确答案是…4/9……",
+			say = "Psst... Edinburgh, pick B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			optionFlag = 4,
 			nameColor = "#a9f548",
-			say = "啊，我算出来了！正确答案是B！",
+			say = "Uh... B! The answer is B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 102163,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "爱丁堡，正确答案是…4/9……",
+			say = "Psst... Edinburgh, pick B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			optionFlag = 5,
 			nameColor = "#a9f548",
-			say = "啊，我算出来了！正确答案是B！",
+			say = "Uh... B! The answer is B!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,9 +606,9 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "像教师的人",
+			actorName = "A Teacher? (Purity)",
 			side = 2,
-			say = "回答正确……？难道是昨晚熬夜学习才这么困的么……不论如何，也不要上课睡觉哦，快请坐下吧。",
+			say = "Ahem! That's right. Even if you stayed up late studying, try to manage your time better so you don't keep falling asleep in class. You can sit back down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,12 +622,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "像教师的人",
+			actorName = "A Teacher? (Purity)",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "接下来我们来讲——————",
+			say = "Now let's move on to the next lesson...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,23 +641,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「啊，日复一日的课堂又开始了……」</size>",
+					"Ugh... Another long day of classes...",
 					1
 				},
 				{
-					"<size=51>「孟菲斯、梦芽、还有六花这些优等生总是有着用不完的精力。」</size>",
+					"Compared to my smart and hard-working classmates, I'm just...",
 					2
 				},
 				{
-					"<size=51>「真是的，学习有那么有趣么……」</size>",
+					"...Are classes really that interesting for them?",
 					3
 				},
 				{
-					"<size=51>「好困，明明才睡醒，为什么还是困得要死，昨晚我究竟做了些什么啊……」</size>",
+					"...And what in the world was I doing last night? I'm still so sleepy...",
 					4
 				},
 				{
-					"<size=51>「想不起来……算了，将梦想留在最合适的地方，继续睡吧————」</size>",
+					"Can't even remember a thing... But, whatever... Might as well go back to sleep...",
 					5
 				},
 				{

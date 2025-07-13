@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我淘气的{dorm3d}啊……",
+			say = "You're a needy one♪",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_tone4",
 			typewriter = {
 				speed = 0.05,

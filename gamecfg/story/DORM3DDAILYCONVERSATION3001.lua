@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和{dorm3d}一起……在宿舍……安克雷奇，开心！",
+			say = "With {dorm3d} in the dorm... Anchorage is so happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……也开心？",
+			say = "Are you happy, {dorm3d}...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "太好了，安克雷奇……和{dorm3d}……一起……是……三倍开心！",
+			say = "Yaaay! Anchorage and {dorm3d}... Two of us, three times as happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "障碍物都清理完了，差不多该到BOSS出来的时候了吧？",
+			say = "We've pretty much cleared out all the obstacles, so isn't it about time to head to the boss fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他的BUG也都差不多杀完了，的说",
+			say = "We're done wiping out the bugged enemies as well, yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过话说回来，真亏你能穿着这么轻飘飘的衣服在战场上来来去去呢",
+			say = "In any case, it's pretty amazing how you can still dart back and forth while fighting in that poofy, frilly dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是就是！不觉得很难活动吗？",
+			say = "That's for sure! Isn't it hard to move in that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这话是{namecode:13}和{namecode:14}该说的吗……？",
+			say = "Like you two have room to talk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,9 +83,9 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "没问题的啦～毕竟总是穿着这套衣服又唱又跳的呢～！",
+			say = "It's fine, it's fine~ this outfit is designed for singing and dancing, so moving around is no problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "绊爱…好厉害…拉菲对于轻飘飘的衣服…不行",
+			say = "Kizuna AI... you're amazing... I'm no good in clothes like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,8 +116,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "啊，一直这么闲聊可不行，大家要注意！不知道什么时候BOSS就会突然出现的！",
+			actorName = "Kizuna AI",
+			say = "Oops, we've been chatting away for too long. Let's focus our attention - the boss might appear any moment now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐！？不看着前面很危险的哦！？",
+			say = "Miss AI? Watch out in front of you!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "咚！",
+			say = "THUNK!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -166,8 +166,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = -1,
-			actorName = "绊爱",
-			say = "好疼！",
+			actorName = "Kizuna AI",
+			say = "Ooooowwwww!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400040,
 			dir = 1,
-			actorName = "绊爱(伪)",
+			actorName = "Kizuna AI clone",
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = -1,
 			say = "………",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = -1,
-			actorName = "绊爱",
-			say = "啊啊啊啊啊啊啊啊啊啊啊啊！",
+			actorName = "Kizuna AI",
+			say = "AAAAAAAAAAAAAAAAAAAAAaaaaaaaaahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱(伪)！？什么时候出现的！？",
+			say = "You're the fake Kizuna AI?! Where did you come from all of a sudden?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "绊爱…果然不厉害…拉菲，失望……",
+			say = "Kizuna AI... you're not amazing after all... Laffey is disappoint...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,8 +283,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = -1,
-			actorName = "绊爱",
-			say = "拉菲酱不要这么说啦～～～～救救我呜呜呜～～",
+			actorName = "Kizuna AI",
+			say = "Don't say that, Laffey-chan... Saaave meeee~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没办法，把BOSS打倒吧",
+			say = "Looks like I have no choice. Time to kick ass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,8 +325,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = -1,
-			actorName = "绊爱",
-			say = "真是的～！怎么又是我的冒牌货啦！？就算3D模型免费开源，也有该做和不该做的事情的吧！！",
+			actorName = "Kizuna AI",
+			say = "Jeez! Why is there another clone of me?! I know that my 3D model is open source and all, but there simply some lines that you shouldn't cross!! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似乎装备了战舰的舰装。装甲恐怕是……“重型装甲”",
+			say = "Looks like it's equipped with battleship-type riggings... I'm afraid that it's heavily armored!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此！使用“穿甲弹”就能给予“大量伤害”对吧！",
+			say = "I see, I see! We were supposed to bring AP shells to do more DPS here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人来了！各位，做好迎击准备！",
+			say = "The enemy's coming! Prepare to intercept them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

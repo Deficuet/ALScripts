@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>二　幸运舰的激励</size>",
+					"Crosswave\n\n<size=45>The Lucky Ship's Initiative</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据我方的配置，立刻调整了舰队编成和装备，做出了最完善的应对——",
+			say = "I'm astonished. They responded to my strategies by immediately redeploying their forces and adjusting their weaponry with precision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是这支舰队的指挥官，比任何人都要了解自己的舰队…",
+			say = "Perhaps that's not very surprising, though. Who would be more familiar with this fleet's capabilities than the Commander, after all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，战况如何？",
+			say = "Suruga, how does the battle fare?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，目前正在与对方前线战力交战中。预料之内的战况——并不是呢…对方的行进速度比预想的快了许多——",
+			say = "We are in an engagement on the frontlines. As for how it's faring... not quite as expected. Our opponents are advancing faster than I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然也可以派出主力舰队迎击，不过如果这时候不和对方正面对抗，而是诱敌深入…",
+			say = "Though it would be possible to sortie our main fleet to meet theirs head-on, avoiding that engagement to lure them deeper in might be the wiser option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等对方深入到极限的时候我们再以主力部队发动全力攻击，对吧？",
+			say = "Ah, you plan to wait until their advance is at its breaking point to strike them full-force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此。不过该派谁去当诱饵比较合适，我还没想好…",
+			say = "Indeed. However, I still haven't decided who would be best suited to lure the opponent towards us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然还是让前卫后撤一些比较…",
+			say = "Perhaps it would be best to withdraw our vanguard fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没必要那么做！",
+			say = "There's no need for that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:22}？",
+			say = "Yukikaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诱饵的任务就交给{namecode:22}大人好了！你就安心下令吧！",
+			say = "If you need someone to lure our opponents in, then Yukikaze the Great will do it! Just give me the order!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你能自告奋勇确实是帮大忙了，不过，考虑到对方的行军速度，我们准备迎击也是需要一点时间的。",
+			say = "I appreciate your initiative, but considering the speed of the opponent's advance, our fleet wouldn't even be ready to intercept them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因此并非单纯引诱对方就好，还得想办法拖延一会时间——{namecode:22}你有什么好点子吗？",
+			say = "In other words, we'll also need some way of buying time while luring them. Do you have any ideas on how to do that, Yukikaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼！不需要使什么小手段！只要还有{namecode:22}大人的幸运加持，这点小事不成问题哒！",
+			say = "Heheh! We don't need any cheap tricks for that! This is nothing that cannot be solved with Yukikaze the Great's extraordinary luck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………欸？",
+			say = "... Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…虽然说是这么说，不过万一发生什么意外，还得靠你来帮忙哦！",
+			say = "Well, that's what I would normally say, but I'll be counting on you to back me up if anything goes wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈、哈啊……明白了，这边也会尽可能地做好支援工作的。",
+			say = "I, I see... Then, I will do whatever I can to support you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈！你们两个都非常可靠啊！就让我们一举拿下这次联合演习初战的辉煌胜利吧！",
+			say = "Hahahah! You two seem like quite the promising pair! Now go out there and seize victory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽管放心交给{namecode:22}大人！HO，HO，HO！",
+			say = "You can count on Yukikaze to get it done! Wa hah hah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……明，明白！",
+			say = "... A-affirmative!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

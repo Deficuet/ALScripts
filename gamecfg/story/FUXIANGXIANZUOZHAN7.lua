@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血浮岛要塞群·B7浮岛至D11防御模块之间",
+			say = "Floating Fortress - B7 to D11 defense line",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然又追加了一批“皇家舰队”么，这次的训练内容真是丰富啊。",
+			say = "A Royal Navy fleet? Is Strasser adding more enemies into the mix just for fun?",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前言变更，今天的{namecode:472}也许真的有点兴奋了……",
+			say = "Perhaps Heinrich is right. There is something unusual about her behavior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，对吧对吧~！{namecode:471}再不回来休息时间要结束了哦？",
+			say = "Told you so! Speaking of, where even is Strasser? I didn't see her come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个的话…{namecode:471}刚才发来消息说要塞的对外通信系统也许出现了问题。以防万一，她要先排除一下后再来参加训练。",
+			say = "Apparently there was some weirdness going on with the comms, so she went to figure out what it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为这么大要塞一大半区域的负责人果然很辛苦啊……",
+			say = "Really, huh? Geesh, being the test coordinator sure is tough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:471}如果不在，航空编队的火力会严重减弱，没办法像刚才一样掩护你突进了，接下来的作战不要离开航空编队太远。",
+			say = "Without her, our hold on the skies weakens too. Word of advice: try not to stray too far from the airspace under our control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "放心，我明白的。大家都准备完毕了么？让我们开始新一轮的战斗吧！",
+			say = "I know, I know! Come on, folks, let's keep moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

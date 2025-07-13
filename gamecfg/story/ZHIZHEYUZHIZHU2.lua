@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>二　动摇</size>",
+					"The Weaver's Omen\n\n<size=45>2 Unrest</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "铁血浮岛要塞群·B7浮岛-训练区",
+			say = "Floating Fortress B7 - Training Area",
 			bgmDelay = 1,
 			bgm = "bsm-7",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -97,10 +97,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "训练系统",
+			actorName = "Training System",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "本轮炮击训练结束。",
+			say = "Gunnery drill complete. Tabulating final results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,10 +108,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "训练系统",
+			actorName = "Training System",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "您的最终成绩为6次命中，3次近失，1次未命中。",
+			say = "Your final results are: 6 hits, 3 near misses, and 1 miss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "啧…………",
+			say = "Tsk...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "冗杂的文书工作，只会阻碍战争机器的运转。",
+			say = "Quite understandable. Cumbersome paperwork will only hinder your ability to fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "你这是坐办公室时间太久了？",
+			say = "Perhaps you've spent too many long hours cooped up in an office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是{namecode:434}·META小姐么，多谢关心。",
+			say = "Duly noted, \"Gneisenau.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "既然我已经如约让你见到了{namecode:435}，你是不是可以把态度调整得更友善些？",
+			say = "But shouldn't you practice what you preach? I've hardly seen you leave the lab ever since I brought you before Bismarck.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那还真是抱歉，我这人就是这个性格。",
+			say = "True. I suppose we both stand to benefit from that bit of advice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "如果你不满意的话就把我赶走吧，反正我也不是自愿留在这里的。",
+			say = "So, what brings you here? It's the last place I expected to find you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "你以为我就是自愿留在这里的么？！",
+			say = "What, am I a deuce in your cornflakes now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "………………",
+			say = "I just felt like moving my body a bit, and not deal with Strasser nagging me about my health.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你是什么时候来的，也是来这里训练的？",
+			say = "And you? You here to train too, or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "观察力也下降了不少……你，现在不太正常。",
+			say = "Oh, do you actually need to ask me? What happened to those powers of observation you're so known for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "出什么事了？",
+			say = "Sarcasm aside, I'm here to check on you. What's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "倒也没什么，只是连日来的噩梦导致有些失眠罢了。",
+			say = "Nothing. Just haven't been able to sleep well the past few days because of these damn nightmares.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "我把工作放下休息几天就好，不是什么需要特别注意的事。",
+			say = "Give me a night or two of good rest and I'll be perfectly fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……噩梦？",
+			say = "...A nightmare?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "什么样的噩梦？你在梦里看到什么了？！",
+			say = "What kind of nightmare?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "一个冰冷燃烧着的黑色太阳，你有什么头绪么？",
+			say = "A black sun, floating high up in the sky. Ring any bells?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "………………没有。",
+			say = "...Can't say it does.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "但是你应该知道，我们作为舰船可不会得普通的“失眠症”。",
+			say = "But, the fact that you've been vividly dreaming of the same thing for a prolonged period of time is rather strange.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "你也做过噩梦？",
+			say = "You ever had that? A nightmare following you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "算是吧。",
+			say = "More or less.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "什么样的噩梦？",
+			say = "What was it about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我不是很想谈……但总之，噩梦缠身不是什么好事。",
+			say = "I'd rather not talk about it... Though, I can sympathize with what you're going through. Being followed by a nightmare is never a good thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "应该引起你的足够重视。",
+			say = "All I can say is... you'd best stay on your toes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……鉴于你身为META的特殊性，你的观点值得参考，我会重视的。",
+			say = "Heh. I'd be a damn fool to ignore those words coming from the mouth of a META.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "很好……如果我有什么新发现的话，也会跟你打声招呼的。",
+			say = "Good. As for your black sun, I'll let you know if anything comes up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那么就这样，我先回去了。",
+			say = "In any case, I should head back. But, before that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,10 +621,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "训练系统",
+			actorName = "Training System",
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#A9F548FF",
-			say = "指令已确认，新一轮炮击训练即将在三分钟后进行。",
+			say = "Orders received. Another gunnery drill will commence in three minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "顺便帮你又开了一轮训练。",
+			say = "I took the liberty of starting another round of drills for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "以你刚才的成绩，上了战场是要丢命的。",
+			say = "At your current performance level, you're sure to sink in a real battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "再练练吧————",
+			say = "So, please keep at it––",
 			painting = {
 				alpha = 0.3,
 				time = 1

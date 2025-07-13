@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=45>二 天才与笨蛋只有一线之隔</size>",
+					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 2 - The Fine Line Between Moron and Genius</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "好～指挥官！今天也一起加油清除病毒吧～！嘿、嘿、嚯～！",
+			say = "Yo, Commander! It's a new day and let's keep at the virus cleaning. Yeah! Woo! Alright!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -52,11 +52,11 @@ return {
 			},
 			options = {
 				{
-					content = "嘿、嘿、嚯～！",
+					content = "Yeah! Woo! Alright!",
 					flag = 1
 				},
 				{
-					content = "啊，今天还有点事…",
+					content = "Uhh... I have a lot to do today actually...",
 					flag = 2
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "状态不错嘛，那就赶紧开始吧！",
+			say = "You're getting into it! I like that. Let's get started!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指～挥～官？我记得今天的任务都已经完成了才对吧～？（盯）",
+			say = "Huhhh? But I thought you almost finished your work for the day~? *glares*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官的日程全都在我的掌控之中！死心吧！",
+			say = "Am I a joke to you? I know your whole schedule, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心吧，要清除今天份的病毒很简单的，轻松轻松！快点完成掉然后去休息吧！",
+			say = "Just chill. Today's viruses ain't nothin', a walk in the damned park, easiest viruses of your life, hands down. Just knock 'em out and then we'll kick back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一小时后",
+			say = "One Hour Later",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -179,7 +179,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊……哈啊……为什么……这个病毒消除……明明才2级……也太……难了吧……（倒）",
+			say = "*Pant*... *pant...* but... how... why.... this was just level 2... how were they... so... tough... *collapse*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大概是因为一直在集中精神的缘故，绊爱有点消沉地瘫在地上",
+			say = "Perhaps as a consequence of her drive and intensity, Kizuna AI fell into despair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜～！累～死～了！这也太奇怪了吧！明明我已经这么努力了！",
+			say = "Ughhh! I'm so ti~red~! It doesn't make any sense! I'm trying so hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "病毒消除虽然看上去很简单，其实还是挺难的。这真的是等级2的难度吗……？",
+			say = "This virus cleaning mission, it looked so easy at first, but proved impossibly hard. Could this really be a level 2 difficulty job...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀吼～绊爱老大～！在做什么呀～？睡在这种地方可是会着凉的哦～？",
+			say = "Heyooo! Is that Boss Lady Kizuna AI!? What are you doing? You can't take a nap here, you'll catch a cold. Don't you know anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，{namecode:524}酱～我不是在睡觉啦～刚才还在清除病毒的，不过很不顺利……",
+			say = "Oh, San Diego. I'm not napping. I was trying to clean viruses, but I totally failed...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事吧～？病毒清除……听起来好像很有趣呢～！",
+			say = "O~kay? Cleaning buy-rests...? Sounds hella fun~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,11 +306,11 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:524}也要试试吗？",
+					content = "You wanna try, San Diego?",
 					flag = 1
 				},
 				{
-					content = "接下来就…拜托了（倒地）",
+					content = "Aye-aye... take it away...",
 					flag = 2
 				}
 			}
@@ -322,7 +322,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "诶？可以吗～？那我也要试试！",
+			say = "Huh? Hell yeah! I'm gonna try really hard!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "指挥官！？没事吧！？",
+			say = "Commander! What's wrong!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官…是个好人啊……",
+			say = "The Commander.... did a really good job...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "稍微休息一下吧～接下来就交给{namecode:524}了～！",
+			say = "All right, you just rest there for a bit~ I've got this one in the bag~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，{namecode:524}酱没问题吗？这个还挺难的呢？",
+			say = "But are you gonna be okay? This one is crazy hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～虽然不知道行不行，总之先试一次看看吧～",
+			say = "Uh huh! No clue if I can do it or not, but I'm gonna try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "交给{namecode:524}真的没问题吗……？",
+			say = "Is it really okay to rely on San Diego like this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "35秒后",
+			say = "35 Seconds Later",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～～这里先这样，那里再这样～嗯？好像都消失了耶？",
+			say = "Uhhh... so like I do this? And then that one I just... Oh. Now this one's gone too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:524}酱！？这就把病毒都清除干净了！！？？",
+			say = "San Diego!? Is thi- did you actually clear the viruses!!??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "什……么…？",
+			say = "But... how... did she.......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～？这就通过了吗～？{namecode:524}还想多玩会呢～～～",
+			say = "Wha? It's all over? But I'm not done playing~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:524}用旁人完全看不懂的手法随便敲了几下，病毒就被被彻底清除完毕了",
+			say = "And so, by pointing randomly at things she did not understand, San Diego completely eliminated the viruses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这到底是什么情况………自己也不知道要如何形容……",
+			say = "Don't ask me. Even I don't understand how it works....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:524}酱！谢谢你～～～！！！你太厉害了啦～！{namecode:524}酱是天才啊～！",
+			say = "Thank you so much, San Diego!! You're incredible! You're a genius, San Diego!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这样把病毒清除全都交给{namecode:524}酱的话，只要一瞬间就能全部解决了不是嘛！？",
+			say = "You knocked it out so fast! Can we have San Diego handle all the virus removal from now on!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好呀～就交给{namecode:524}吧～！",
+			say = "Sure! Just leave it all to San Diego~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "算了，就都全部交给{namecode:524}吧……",
+			say = "Can San Diego really handle all of that by herself....?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

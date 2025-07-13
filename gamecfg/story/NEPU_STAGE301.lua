@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>『异色海域WHITE』</size>",
+					"<size=45>\"Odd-Colored Seas - WHITE\"</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			bgm = "level-nep",
 			dir = -1,
-			say = "第二关，顺利过关！这回的事件看来马上就能解决了吧！？",
+			say = "Stage 2 cleared, easy breezy! Looks like we'll have this situation under control in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "怎么可能有这种好事…",
+			say = "On the contrary. As if things would be that simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "涅噗！？是伊森的声音！",
+			say = "Nep?! It's Histy's voice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "果然……还要做什么吗？",
+			say = "It's too early to celebrate. Don't you still have something to do?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "镜面海域的冒牌货已经被我和涅普一起解决了啊？",
+			say = "But didn't we already eliminate those clones from the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "啊，莫非是……打倒的冒牌货还不够多？",
+			say = "That may be the case but... what if, that alone isn't enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,10 +118,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "嗯，正确。数据还完全不够呢",
+			say = "Mm, correct. We still need a lot more data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……是这片镜面海域的数据不够吗？",
+			say = "... Do we not have enough data on this part of the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,10 +150,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "也有这个问题，不过……这边刚才已经确认了，打开虫洞需要更多冒牌女神的数据",
+			say = "That's also a problem, but... in order to re-open the wormholes, we need to collect data from the CPU clones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来也有我和布兰来到这边的关系呢。",
+			say = "Perhaps that has something to do with Blanc and me coming here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,10 +182,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "就是这样……麻烦大家继续侦查镜面海域，讨伐冒牌女神们吧。再见",
+			say = "That's correct. For the time being, please continue to investigate the Mirror Seas and suppress any CPU clones you encounter. Well then, until later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……说完要说的就把通信切掉了",
+			say = "... She just says whatever she wants to say, and then cuts off the line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "没事没事，伊森她一直是这样的啦",
+			say = "It's fine, it's fine! Histy's always like that.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经常把重要的事情说完留下一句“接下来靠大家了”就闪人了",
+			say = "She just drops the important details and then is all like \"I'll leave the rest with you,\" before bouncing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "……有点像我们的指挥官呢",
+			say = "... She's a bit like our commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，编成好舰队后一句“大家加油～”这样？",
+			say = "Mmhmm. After the fleet formation is set up, we just get a \"do your best, everyone,\" or something like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……怎么说呢，感觉自己也被躺枪了的样子……",
+			say = "Somehow, I feel like I'm also being roasted...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……总之还得靠我们这边加油呢",
+			say = "... In any case, we've all got to do our best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对。反正也没有别的法子，大家一起加油吧",
+			say = "That's right. We have no other choice. Let's all get through this together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。在加油之前先小休息下！",
+			say = "Yup! Before busting our butts though, gotta take a break!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,12 +337,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "……那些人的次元有人干扰了呢",
+			say = "... It appears that someone from that other dimension is interfering as well.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -373,10 +373,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "打破这边的信息屏障，不光是实验数据，连镜面海域的存在都能调查出来……",
+			say = "To think that they would be able to not only destroy the Firewall, but also investigate the existence of the Mirror Seas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,10 +390,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "……不能小看对面的实力，这是和我们同等……不，在我们之上……？",
+			say = "... They are a force to be reckoned with, perhaps on the same level as us... No, maybe even greater?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,10 +407,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
+			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
-			say = "呼呼……好啊，就让我来会会你吧……",
+			say = "Hehe... Well then, let us determine just who the superior one is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 				}
 			},
 			style = {
-				text = "让我们先来制作第一个工具",
+				text = "Let's make a tool right off the bat.",
 				mode = 1,
 				posY = 0,
 				dir = -1,
@@ -34,7 +34,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击材料环可以查看所需素材并放入",
+				text = "Tap the circle to select a material to put in.",
 				mode = 1,
 				posY = -70.1,
 				dir = -1,
@@ -54,7 +54,7 @@ return {
 				}
 			},
 			style = {
-				text = "现在让我们放入一个通过任务获得的素材",
+				text = "Choose the materials you received from completing the request.",
 				mode = 1,
 				posY = -116.63,
 				dir = -1,
@@ -74,7 +74,7 @@ return {
 				}
 			},
 			style = {
-				text = "也可以通过一键放入，放入满足需求的全部素材",
+				text = "You can tap Quick Select to put in all the required materials.",
 				mode = 1,
 				posY = -174.9,
 				dir = 1,
@@ -94,7 +94,7 @@ return {
 				}
 			},
 			style = {
-				text = "当放入所需素材后，点击开始调合",
+				text = "Once you've added all the materials, tap Begin Synthesis.",
 				mode = 1,
 				posY = -227.89,
 				dir = -1,
@@ -114,7 +114,7 @@ return {
 				}
 			},
 			style = {
-				text = "点击确定",
+				text = "Confirm that you're crafting the right item, and then...",
 				mode = 1,
 				posY = -9.31,
 				dir = -1,
@@ -134,7 +134,7 @@ return {
 				}
 			},
 			style = {
-				text = "我们成功获取了第一个工具",
+				text = "Voila! You just made a gathering tool!",
 				mode = 1,
 				posY = 0,
 				dir = -1,
@@ -154,7 +154,7 @@ return {
 				}
 			},
 			style = {
-				text = "让我们看一下另一个工具所需素材",
+				text = "Let's see what materials are needed for another gathering tool, shall we?",
 				mode = 1,
 				posY = -22.78,
 				dir = -1,
@@ -174,7 +174,7 @@ return {
 				}
 			},
 			style = {
-				text = "先点击一键放入投入已经拥有的素材吧  ",
+				text = "Use Quick Select to add what materials you have.  ",
 				mode = 1,
 				posY = -227.1,
 				dir = 1,
@@ -194,7 +194,7 @@ return {
 				}
 			},
 			style = {
-				text = "当素材不足时，可以点击开始调合，查看配方所需素材列表",
+				text = "If key materials are missing, you can tap Begin Synthesis to see which ones you need.",
 				mode = 1,
 				posY = -215.66,
 				dir = -1,
@@ -204,7 +204,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "别忘了有些关键素材需要通过委托板的任务获取哦",
+				text = "You can gain some materials by completing requests, so don't forget to check back on those.",
 				mode = 1,
 				posY = -115.27,
 				dir = 1,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[2]\n\n<size=45>水色与云中之梦</size>",
+					"Port Fashion Collection! Part 2\n\n<size=45>1 Dreamy White Sands</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			say = "夜深了。为了保证明日的工作效率，早点入睡吧。",
+			say = "It's well into the night. I should go to bed early so I can have a productive day tomorrow.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -30,12 +30,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:182}",
+			actorName = "Shinano",
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔嗯……这可，如何是好……",
+			say = "Hmm... This is quite the predicament...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			say = "少女困惑的声音从耳边传来。",
+			say = "A familiar voice speaks to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "睁开双眼，碧海蓝天下，身穿泳装的{namecode:182}近在咫尺。",
+			say = "Opening my eyes, I'm greeted by a cloudless blue sky and sea that stretch to the horizon... and Shinano, donning a swimsuit, looking abashed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "是、是汝？",
+			say = "It seems... You've appeared in this one's dream...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "正巧，妾身正被恶物所扰，汝愿伸出援手吗？",
+			say = "This little creature won't let go of my swimsuit... It's most humiliating to be seen like this... Will you help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,11 +141,11 @@ return {
 			},
 			options = {
 				{
-					content = "告诉{namecode:182}该怎么做",
+					content = "(Advice her on how to get the starfish off.)",
 					flag = 1
 				},
 				{
-					content = "上前手把手协助",
+					content = "(Peel it off by yourself.)",
 					flag = 2
 				}
 			}
@@ -159,7 +159,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢汝，这样做即可么……",
+			say = "Like this, you mean? I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……衣服凌乱、有失体统，还请汝莫见怪。",
+			say = "This one hopes... this unsightly appearance doesn't cause you offense...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢、谢谢汝，可是这样肌肤相接实在是……",
+			say = "Mmh... I feel your strong hand, even through the fabric...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不，请汝继续，妾身并不介意。",
+			say = "Ah... No, it's alright. Please do continue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一番努力下，黏在泳装身上的海星终于被成功赶走了。",
+			say = "After a bit of work, the starfish clinging on to her swimsuit finally comes off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呼……多亏汝及时出现，感激万分。",
+			say = "Your hand in removing the creature is appreciated...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "此为何处？",
+			say = "...What is this place, you wonder?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵……此外梦境，反应汝之所思所想的……梦境。",
+			say = "It is a dream plane of endless blue – a reflection of one's thoughts...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "妾身此身令人脸红耳赤的装扮，以及方才的海星，皆是汝所期望才会出现的……",
+			say = "Therefore, it stands to reason that this humiliating garb and the sea creature both are mirrorings of your thoughts and expectations...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "汝之想法，可谓异乎寻常呢。",
+			say = "Your yearning for me brings me joy... even if your mind's projections are on the odd side...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，汝无需愧疚。",
+			say = "Please, you needn't apologize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从心所欲有何不可？",
+			say = "Dreams, while woven from experiences, are not strictly bound by your sense of reason...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "难得良缘天赐，与汝于梦中相会。",
+			say = "Furthermore, this dream came to be because I, too, desired a rendezvous with you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "幸福转眼即逝，需得好好珍惜才是。",
+			say = "And as this bliss is a fleeting one, one should enjoy it while they can...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "恋火难却……恰逢南柯一梦。",
+			say = "Passion, palpitations... whether they be felt in the waking world or a dream, their effects are tangible all the same...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "何不暂时遗忘现世的规矩，于梦中如愿以偿？",
+			say = "So, let us forget the rules and constraints of the earthly world and follow our hearts in the dream world...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "因此……",
+			say = "Yes, let us surrender ourselves to these feelings...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "妾身，失礼了——",
+			say = "And partake in one another...",
 			painting = {
 				alpha = 0.3,
 				time = 1

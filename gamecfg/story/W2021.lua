@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是作战保障舰队~指挥官，需要对参战舰队进行维护么？",
+			say = "Repair ship Vestal, at your service! Would you like some repairs~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进行维护后所有舰队的耐久值将会恢复至100%。",
+			say = "Vestal is offering to restore our fleets back to perfect condition.%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,11 +33,11 @@ return {
 			},
 			options = {
 				{
-					content = "进行维护",
+					content = "Let her go ahead.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "Kindly turn down her offer.",
 					flag = 2
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "本次行动期间我会一直带领舰队停留在这里。如果有需要请随时前来哦~",
+			say = "I’ll be right here if you ever need me during Operation Siren~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

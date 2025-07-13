@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中的发现了能够调节浮冰状态的实验场气候调节装置。",
+			say = "Scan complete. Siren Weather Control Device capable of altering the state of ice floes has been located.",
 			voice = "event:/tb/39/tb-39",
 			typewriter = {
 				speed = 0.05,

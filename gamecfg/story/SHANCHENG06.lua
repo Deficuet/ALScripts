@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>六 耐寒大会？</size>",
+					"Winter Offensive\n\n<size=45>Chapter 6 - No Guts, No Glory!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:77}",
 			dir = 1,
-			say = "怎怎怎怎么样！见识到重樱的气魄了吗！",
+			say = "H-h-h-h-h-how's that?! Don't underestimate the S-Sakura Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:76}",
 			dir = 1,
-			say = "喝！只只只只要气势足够，寒、寒冷什么的，都不在、在话下！",
+			say = "S-See? A-A-A-All you n-n-need is g-guts and w-winter doesn't stand a ch-chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actorName = "{namecode:66}",
 			dir = 1,
-			say = "努噢噢哦噢噢！这次在下绝对不会输给你了！萨拉托加小姐！！",
+			say = "Nooooooo! M-Miss Saratoga! N-N-Next time, I won't lose to you again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜呜呜呜…为为为什么萨拉托加要来参加这种惩罚游戏一样的比赛啦！！",
+			say = "Ah... Achoo!! Wh-why did I agree to participate in this meet in this first place...? It's practically hazing!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "看上去…很冷呢…",
+			say = "You seem... pretty cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "果、果然还是换个锻炼方式吧？看上去对健康并不怎么好呢，殿下？",
+			say = "M-Maybe we should find some other kind of training...? This doesn't seem very healthy. Don't you agree, Milord?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……（点头）",
+			say = "*nods*",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {

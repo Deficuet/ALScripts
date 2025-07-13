@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>三  赌约</size>",
+					"Me and the Boise\n\n<size=45>3.Shopping</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "档案室的文件…商店的物价表……嗯，指挥官需要的资料都拿到手了。",
+			say = "The files from the archive room, the price list of the purchase orders... Mm, that's everything that Commander requested...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "身为秘书舰的{namecode:197}正在执行外勤任务。",
+			say = "My secretary ship, Boise, was in the process of carrying out errands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:197}~在干什么呢？",
+			say = "Hey there, Boise~ What are you up to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是路易斯啊……我刚从档案室回来，帮指挥官拿了一些资料……",
+			say = "Oh, St. Louis... Um, Commander wanted me to help gather some documents...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "上次你送给我的潜水装备很好用……路易斯每次挑选礼物的眼光都很独到呢。",
+			say = "By the way, the diving equipment you got for me the other day was very easy to use... You're always picking out really nice things for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你能喜欢就好~秘书舰的工作可是很辛苦的，希望这份礼物能帮你调节好自己的心情。",
+			say = "Oh, I'm glad you like it. I know how tough being secretary can be, so I thought about getting something for you to help you relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，{namecode:197}觉得秘书舰的感觉怎么样？指挥官是个不错的人吧~",
+			say = "So, how's your new job going? Commander's pretty easy to get along with, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "嗯……本来以为当上秘书舰之后会拘束一些，不过现在还没有感觉到……",
+			say = "Mm... I thought things would be pretty stressful, but it's not too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指挥官也没有在意我一直戴着面具的事情……",
+			say = "Commander doesn't seem to mind me wearing my mask either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你呀……一直喜欢戴着面具晃来晃去的，被你吓到的人可不少哦~？",
+			say = "Well, I'm sure you'd be able to make more friends without that thing on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "但是，摘下面具的话……果然还是不行！",
+			say = "Th-there's no way I could do that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "我的事先不提……路易斯那么会送礼物，如果想跟指挥官搞好关系的话，你觉得送什么礼物比较好呢？",
+			say = "But that's not important... St. Louis, since you're so good at picking out presents for people... Um, do you think you could help me pick out something nice for Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，指挥官喜欢的礼物？！没想到你们之间的关系已经这么近了呀~",
+			say = "Oh my, since when did the two of you have that kind of relationship~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（唔……指挥官难道真的不在意{namecode:197}的面具么……？）",
+			say = "(I was afraid that the commander was just being polite, but... is the mask really not an issue?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可以告诉你指挥官的喜好——但是有一个条件~",
+			say = "Of course I can give you a crash course on what Commander likes, but on one condition~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "作为拉近关系而送的礼物也没什么不可以吧……说吧，什么条件？",
+			say = "What would that be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们来打个赌吧~",
+			say = "Hehe, nothing that difficult. You just have to beat me in a little game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果这一周内，指挥官没说“希望{namecode:197}可以摘下面具”之类的话，我就告诉你应该送什么礼物~",
+			say = "If Commander manages to not say \"I want to see Boise's real face\" for an entire week, it's your win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……如果指挥官说了呢？",
+			say = "And if Commander does...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，为什么我非得跟你打赌不可……",
+			say = "Wait, is this your game...?",
 			action = {
 				{
 					type = "shake",
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，因为这样很有意思嘛~反之，如果指挥官在一周内说了希望你摘下面具的话——",
+			say = "Yup, that's the way I like doing things~ If Commander does say that, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,
 			dir = 1,
-			say = "圣路易斯凑到了{namecode:197}的耳边，微笑着说了些什么。",
+			say = "St. Louis whispered something into Boise's ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "居、居然要这样做吗……对我来说太困难了……",
+			say = "Wh-what are you saying? There's no way I could...",
 			action = {
 				{
 					type = "shake",
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "关于指挥官的信息可都是“机密情报”~这是非常合适的赌注哦？",
+			say = "Commander's tastes are a critically important piece of intel, you know? If you aren't prepared to put at least that much on the line, then I'm not sure I can help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "虽然十分难为情……不过只算一周时间的话……还是我的胜率更高……！",
+			say = "Um, if it's just one week... It'll probably be okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来很有自信嘛，所以结论是愿意跟我赌一把对么？",
+			say = "Wanna drink to that deal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……赌。要是我赢了…你要遵守约定把指挥官喜欢的礼物告诉我……",
+			say = "Mm... It's not like I actually lose anything even if I don't win...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就一言为定~不论是谁，输掉的一方得乖乖遵守赌约哦~",
+			say = "That's a promise then. If you lose, you'd better listen closely to what I tell you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（真是令人期待呢……希望指挥官不会让我失望，呵呵~）",
+			say = "(I wonder what you'll do, Commander~ Hehe, don't let me down~)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

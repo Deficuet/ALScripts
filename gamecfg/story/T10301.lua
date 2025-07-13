@@ -7,7 +7,7 @@ return {
 			actor = -1,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "来犯之敌，你们已经入侵了我们的自由领土，立刻汇报身份并解除武装！",
+			say = "Invaders! You have intruded into our territory! State your identities and disarm!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			nameColor = "#ffffff",
 			side = 1,
 			actorName = "？？？",
-			say = "…呵呵，真是可笑，不会让你们再往那位大人身边前进一步了！全炮门一齐射击！",
+			say = "Hehe, funny, funny! I won't let you get one step closer to master. All guns, fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

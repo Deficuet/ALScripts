@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "又是这个梦…皑皑白雪、呼啸的风声以及…轰炸机投弹的声音",
+			say = "This dream again... The Scandinavian snow, the fierce and raging wind... and the echoing roars from the engines of countless fighter planes...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "随之而来的还是震耳欲聋的爆炸声，以及…无尽的黑暗…吗？",
+			say = "An explosion, followed by flooding... then the eternal darkness at the bottom of the sea...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -51,7 +51,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "???",
 			blackBg = true,
-			say = "是你吗？",
+			say = "Is that you?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "???",
 			blackBg = true,
-			say = "是你吗…我的妹妹",
+			say = "You're Tirpitz... You're my sister...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "？？你是？……",
+			say = "Who are you...?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -114,7 +114,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "???",
 			blackBg = true,
-			say = "…对不起…原谅我所做的一切",
+			say = "...I'm sorry... Please forgive me...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "姐…姐姐？…我的记忆里似乎并没有…",
+			say = "My sister... Bismarck? No, that's impossible... I don't remember you... You shouldn't exist in my memory...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "???",
 			blackBg = true,
-			say = "对不起，为了国家，我们只能这么做，希望将来的你能理解我所做的一切",
+			say = "I'm sorry... I did what I had to for the sake of Iron blood... I just want you to understand that...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "可恶…头好痛…又是这种失落的感觉",
+			say = "Agh... My head hurts... It's coming back... This overpowering sense of loneliness...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -192,7 +192,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"                       ……我究竟是谁？",
+					"                       ...Who... am I..?",
 					2
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"                       或者，究竟是什么？…",
+					"                       ...Just who am I... really...?",
 					2
 				}
 			}

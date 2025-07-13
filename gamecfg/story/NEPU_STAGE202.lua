@@ -9,7 +9,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "ーー哔哔...哔哔...哔哔...",
+			say = "... Beep beep! Beep beep! Beep beep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在我们未知的频段中接收到了通讯信号，这个是......？",
+			say = "We've received communication signals on an unregistered frequency. This is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,10 +34,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "啊ー，喂喂ー大家好，听的见吗ー？",
+			say = "Ah... testing, testing. Everyone, can you hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "姆姆？未见其人先闻其声，你是空气嘛？",
+			say = "Hmm... I can hear you, but can't see you. What are you, the air or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "谁是空气啊！是我。伊斯特瓦尔。",
+			say = "Who are you calling air? It's me, Histoire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊斯特瓦尔？这么说通信手段已经恢复了？",
+			say = "Histoire, is that you? Does that mean you've managed to establish communication?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,10 +98,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "恩，想了点办法让通讯先恢复了。之后回游戏业界的方法应该也能准备好了。",
+			say = "Yes, I somehow managed to get through. I should be able to establish a way back to Gamindustri soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......那么，马上就能回去了？",
+			say = "...Then, we can go home soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,10 +130,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "这个现在实现起来有点困难......要准备的话需要不少时间。大家再等一下",
+			say = "It's too difficult to do right now... I'm going to need quite a bit of time. Everyone, please wait a while longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然事情不会那么顺利呢......还有这个次元里出现的冒牌货......麻烦事真是有点多呢",
+			say = "Of course things wouldn't go that smoothly... and we still have to deal with the clones in this dimension. Looks like we will have our hands full for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,10 +162,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "啊啊，果然出现了嘛......这么说那个痕迹也与这个有关",
+			say = "Ah... so those things appeared after all? They may be related to this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊斯特瓦尔，关于那些冒牌货，你了解多少呢？",
+			say = "Histoire, do you know something about those fakes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,10 +194,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "其实......大家大概是在穿越那个虫洞的期间被采集了数据",
+			say = "Actually, your data was probably collected when you all passed through that wormhole.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......然后有人利用这数据，造出了那些冒牌货？",
+			say = "... and then someone used our data to make those clones?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "看来是这样呢",
+			say = "It would appear that is the case.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -245,10 +245,10 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			dir = 1,
 			withoutPainting = true,
-			say = "总之，这边会尽全力让虫洞再次开启。大家也一定要小心",
+			say = "In any case, I will do my best to re-open the wormhole. Everyone, make sure to be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才的通信我们这边也听到了......这回事件的黑幕开始明朗起来了呢",
+			say = "We also heard the communication over here. It seems that we're getting closer to unveiling whoever is behind this incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "一定，是塞壬...搞的鬼",
+			say = "Surely... it's the work of the Sirens...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -298,7 +298,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬它们收集了涅普涅普们的数据然后造出了那些冒牌货吧？",
+			say = "So those fakes were made using the data of Nep Nep and her friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬...？虽然不是很明白，不过听你的说法应该是些阴险的家伙吧。不过居然能制造出能使出全力的女神...",
+			say = "Sirens? I don't really get it, but they sure sound like an insidious bunch. But to think they could create a full-power CPU...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬，作弊......就知道是这个",
+			say = "Sirens... always cheat...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没问题！我们不会输的！绝对能赢啦！",
+			say = "Don't sweat it! There's no way we can lose. We'll definitely win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "喔喔，这不知从哪来的满满的自信...!",
+			say = "Ohh, what amazing, baseless confidence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......别当真了。一点根据都没有。",
+			say = "... Don't take her too seriously. There's no proof.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰还真是死脑筋呐。真货从来就没输给过冒牌货！我们是真货！所以输掉的可能性等于零！",
+			say = "Aww, don't be a party pooper, Blanc. Has the real thing ever lost to the fake before? Since we're the real deal, there's no way we'd lose! Checkmate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "摊手，涅普顿还真是个乐观的天才呢...",
+			say = "Neptune really is quite the optimistic genius.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼！来夸我呀！涅普我可是表扬越多越成长的孩子哟ー！",
+			say = "Eheh! Praise me more! Neppy here is a girl who grows with more praise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

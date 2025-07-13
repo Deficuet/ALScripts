@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>另一个计划</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>13 Our Commander</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "仪式已经完成，现世与彼岸的桥梁已经联通。",
+			say = "After the ritual ended, the gap between the material world and eternity was meant to be bridged.",
 			bgm = "battle-unknown-approaching",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "可是，那个本应该出现在此的苍红色身影，却并未到来。",
+			say = "But the expected revival, the awaited reunion, had not come to pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……樱花树满开之后，姐姐应当自花海中现身才是。",
+			say = "\"When the cherry blossoms come into bloom, Amagi will emerge from the sea of flowers anew.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈……哈哈……哈哈哈哈哈……",
+			say = "Heh. Heheh... Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈哈哈哈哈哈哈哈——！",
+			say = "Hahahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "到头来……竟是一场空么。",
+			say = "Nothing happened... Nothing at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我设想过千种万种结局……唯独没想到会是这一种。",
+			say = "I thought I was ready for anything, but this? This I hadn't imagined...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "复活的不是姐姐……只是一棵枯萎的樱花树？！",
+			say = "All I revived was this damn tree, instead of my sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈哈哈……！",
+			say = "Oh, what horror... Heheh, hehahahah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "朱红色的少女死死握住手中护符的碎片，纵使鲜血直流，亦不放松。",
+			say = "She clenched her fist around the ornament that Kaga had left behind, so hard that her hand bled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想起来了……",
+			say = "Now I remember... Even back in the battle at AF, Amagi protected me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "在AF战场的那一次……也是姐姐的护符保护了我。",
+			say = "That's why mine is gone... and Kaga's is still here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "所以护符才会消失不见了……",
+			say = "Saved by my sister yet again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……而如今，姐姐又保护了我一次。",
+			say = "Losing the last thing that she left behind for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那是她留下来的最后的东西。",
+			say = "Ahaha... Amagi's gone for good. I'll never see her again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "姐姐已经永远离开了……我再也见不到她了……",
+			say = "Amagi's gone, Kaga's gone, they're all gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……姐姐再也不能保护我了。",
+			say = "Nobody will protect me anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "没有人再会保护我了……",
+			say = "Nobody...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈……哈哈……",
+			say = "Ahaha... Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "{namecode:92:加贺}……你真蠢……",
+			say = "Kaga... You were such a foolish girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你早知事不可为……为何要陪我胡闹呢……",
+			say = "I was going insane. Why didn't you try to stop me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我对你素无防备……如果你想要阻止我的话……",
+			say = "I wouldn't have even suspected you. If you wanted to stop me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "该是多么轻而易举的事……",
+			say = "It would've... It would've been so easy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你真是、真是……",
+			say = "Kaga... Oh, Kaga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "为什么，事情会走到现在这一步呢……",
+			say = "Why did this have to happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "远方，由魑魅魍魉组成的黑色浪潮正在向樱花树下涌来。",
+			say = "A wave of black mist monsters undulated on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……仪式完成之后，就想卸磨杀驴……连我也一同吞噬了么。",
+			say = "...I get it. You have no more use for me, so you've come to take out the trash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也好，既然在现世无法相见。",
+			say = "Fine. If I can't see them again in this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那就让我们在彼岸团聚吧，姐姐，{namecode:92:加贺}……",
+			say = "Kaga, Amagi... I'll come and see you on the other side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……舰载机空袭？",
+			say = "What...? Carrier-based planes?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前辈——{namecode:91:赤城}前辈——能听到么！",
+			say = "Akagi... Akagiii! Can you hear me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "侵蚀正在四处蔓延，仪式的结果不会如你所愿的，快停止仪式——！",
+			say = "The corrosion is all over the place! This ritual isn't going to go the way you want it to! Hurry and stop it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:96:瑞鹤}？{namecode:84:武藏}不是早把她打发走了么……怎么能追到这里来。",
+			say = "Zuikaku? But Musashi helped her escape. Why is she–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -676,7 +676,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "天空之上，除了{namecode:96:瑞鹤}的舰载机外，更多的舰载机正从远方列队飞来。",
+			say = "Zuikaku's planes weren't the only ones there. Even more closed in from the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
-			say = "如果仔细观察的话，这些舰载机飞来的方向，正好是{namecode:84:武藏}劈开结界产生缝隙的方向。",
+			say = "When Akagi looked carefully at the angle they came from, it became clear that they were flooding in from the rift Musashi had created.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			actor = 306070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}前辈！{namecode:179:龙凤}带队前来支援，您还好么！",
+			say = "Akagi! I brought a fleet to come and rescue you! Say something, Akagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:179:龙凤}？！",
+			say = "Ryuuhou?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,11 +724,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_bianzhihua_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:179:龙凤}！真是胡闹，你回来做什么？！",
+			say = "Ryuuhou! What have you come back for?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			actor = 306070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了，{namecode:91:赤城}前辈您没事！",
+			say = "Oh, thank goodness you're safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "我是和{namecode:74:长门}大人带着其他阵营的援军一起回来的！",
+			say = "Lady Nagato is here. And reinforcements from abroad, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……其他阵营的……援军？",
+			say = "Nagato? And others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307060,
-			say = "没错！{namecode:74:长门}大人已经带领援军回来增援了！",
+			say = "Yeah! She came back with fleets from all over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,7 +812,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307060,
-			say = "局面还没有失控！只要摧毁仪式法阵，一切都有挽回的余地！",
+			say = "It's not too late! If we destroy the ritual circle, we can still fix this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……挽回，哈哈……要如何挽回？",
+			say = "Fix? Hahaha... No, it's too late... What is there to fix now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,7 +838,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我花了这么多年，无数筹谋、准备。算计……结果如你所见。",
+			say = "All my planning, all my scheming, all my preparation... for what, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "逝人已去……如何挽回？",
+			say = "I betrayed my country and my friends... What is there left for me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307060,
-			say = "至、至少对于活着的人来说……",
+			say = "\"What's left\"? Everything! Or what, are you going to give up on the living now, too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不能摧毁仪式法阵。",
+			say = "Silence, both of you! You mustn't destroy the ritual circle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307060,
-			say = "{namecode:74:长门}大人？！",
+			say = "Lady Nagato?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "特殊的奇异点「奈落」已经形成。",
+			say = "Now that the ritual has been completed, the Singularity Naraka has already manifested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,7 +923,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果此时摧毁仪式法阵，才是真正的前功尽弃。",
+			say = "Destroying the circle now will just make it impossible to fix!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}，汝虽然一意孤行，伤害了重樱、伤害了同伴、亦伤害了自己。",
+			say = "Akagi, you are not wrong. Whether you were in your right mind or not, you have hurt the Sakura Empire, your friends, and most of all, yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然，汝所做之事，并非尽为徒劳。",
+			say = "You were overwhelmed by obsession, yes, but it was your love that left one final path for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "在如今的形势下，汝之愿望，{namecode:161:天城}之复活……是有可能的。",
+			say = "Take that path, and you may be able to do more than save Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -982,7 +982,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅如此……这场仪式之中出现的所有牺牲……亦有挽回余地！",
+			say = "You might just be able to undo the damage you have done, and the sacrifices you have made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你说的……可是真的？",
+			say = "You mean... my... love?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "绝无虚言。",
+			say = "Of course. I speak no lies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1025,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……提出这个想法的并非吾，而是{playername}阁下。",
+			say = "And the one who revealed this possibility to us was none other than...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:91:赤城}，这位碧蓝航线的指挥官有一个计划，希望能和你聊一聊——",
+			say = "{playername}. Our Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,31 +1070,31 @@ return {
 			},
 			sequence = {
 				{
-					"祸兮福之所倚，福兮祸之所伏。",
+					"At the ritual's end, the Singularity Naraka appeared in the mortal world.",
 					1
 				},
 				{
-					"希望之后是失望。",
+					"Her dreams and desires were quashed by despair.",
 					2
 				},
 				{
-					"而失望之后——希望亦相随。",
+					"But one hope shone on the bloodied horizon.",
 					3
 				},
 				{
-					"努力，将会带来回报。",
+					"Hope that effort may be rewarded.",
 					4
 				},
 				{
-					"一切准备，一切谋划，都不是徒劳的。",
+					"Hope that what was sown may finally be reaped.",
 					5
 				},
 				{
-					"这场牵动着所有阵营的战役仍在继续。",
+					"War, salvation, and atonement continue on in an endless cycle.",
 					6
 				},
 				{
-					"而那彼方之音，依然在星间回荡着——",
+					"And that distant sound continues to echo among the stars.",
 					7
 				}
 			}
@@ -1124,7 +1124,7 @@ return {
 			},
 			sequence = {
 				{
-					"——未完待续",
+					"To Be Continued",
 					1
 				}
 			}

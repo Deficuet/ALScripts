@@ -31,7 +31,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "敌人伴随着一波又一波滔天的巨浪袭来",
+			say = "The enemy swelled like the tide itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "样貌，看不清……梦境中情报的局限么。",
+			say = "(These dreams... are not clearly revealing everything to me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…很难缠。这些敌人的战斗力很强…！",
+			say = "(All I know is their strength... and this abject terror...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "狂风呼啸着，仿佛巨兽的咆哮。海浪翻滚着，仿佛巨兽的利爪。",
+			say = "She saw the Leviathan that transcended the very oceans. From its wake grew a calamitous storm that could overwhelm all existence on this planet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对………巨兽是真实存在的？！",
+			say = "(This is... the enemy...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
-			say = "自天际线而来，利用波峰之后隐藏着身形而快速接近着的，巨影…",
+			say = "She saw a colossus that could rend the sky, its body rippling like a crucible of cold steel, grinding the land into nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "样貌，还是看不清…………",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}大人，巨兽突破了外围舰队正在向我们直冲过来！",
+			say = "Lady Shinano! The escort fleet has been breached!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能…情报上不是这么说的，为什么还会有巨兽停留在这里！",
+			say = "No way...! How'd the enemy get over here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来目标是海若啊…呵，意识到威胁的垂死挣扎。绝对不能让它们得逞，{namecode:182}大人！",
+			say = "They're aiming for Watatsumi! Lady Shinano, prepare yourself...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "航空队全数起飞，准备对巨兽进行讨伐作战！",
+			say = "(My duty... is to protect the Sakura Empire... and all her peoples!)",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……妾身一定会亲手守护好这一切，守护好重樱的未来与希望……",
+			say = "(Nay... It is not just my duty... It is my conviction...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "愿火炬之光常明！",
+			say = "(I shall fight... Until my soul is spent...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

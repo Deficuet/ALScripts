@@ -19,7 +19,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -42,7 +42,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -65,7 +65,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -88,7 +88,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -111,7 +111,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -134,7 +134,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -151,7 +151,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -168,7 +168,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -188,7 +188,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Dorm Furniture Shop"
 			}
 		}
 	},
@@ -208,7 +208,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Dorm Furniture Shop"
 			}
 		}
 	},
@@ -225,7 +225,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -245,7 +245,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Dorm Furniture Shop"
 			}
 		}
 	},
@@ -265,7 +265,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Dorm Furniture Shop"
 			}
 		}
 	},
@@ -282,7 +282,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -301,7 +301,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"Special Login Bonus"
 			}
 		}
 	},
@@ -320,7 +320,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"Special Login Bonus"
 			}
 		}
 	},
@@ -339,7 +339,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"Special Login Bonus"
 			}
 		}
 	},
@@ -358,7 +358,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"Special Login Bonus"
 			}
 		}
 	},
@@ -377,7 +377,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「梦芽的环游之旅」活动奖励"
+				"Special Login Bonus"
 			}
 		}
 	},
@@ -396,7 +396,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -416,7 +416,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Dorm Furniture Shop"
 			}
 		}
 	},
@@ -435,7 +435,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -454,7 +454,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -471,7 +471,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -490,7 +490,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -509,7 +509,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -528,7 +528,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -551,7 +551,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -568,7 +568,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -591,7 +591,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -610,7 +610,7 @@ pg.activity_limit_item_guide = {
 				{
 					"SSSS ACADEMY"
 				},
-				"「激战！古立特啾VS怪兽啾！II」活动奖励"
+				"SHOWDOWN! Grid-juu VS Kai-juu! Reward"
 			}
 		}
 	},
@@ -633,7 +633,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -652,7 +652,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"Completing Event Missions"
 			}
 		}
 	},
@@ -671,7 +671,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene task"
 				},
-				"完成活动任务"
+				"Completing Event Missions"
 			}
 		}
 	},
@@ -688,7 +688,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -705,7 +705,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				4934,
-				"累计「弧光结晶」领取"
+				"Arclight Crystal Cumulative Rewards"
 			}
 		}
 	},
@@ -728,7 +728,7 @@ pg.activity_limit_item_guide = {
 						warp = 1
 					}
 				},
-				"补给商店兑换"
+				"Event Shop"
 			}
 		}
 	},
@@ -747,7 +747,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单1"
+				"Complete the 1st request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -766,7 +766,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单2"
+				"Complete the 2nd request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -785,7 +785,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单3"
+				"Complete the 3rd request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -804,7 +804,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单4"
+				"Complete the 4th request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -823,7 +823,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单5"
+				"Complete the 5th request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -842,7 +842,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单6"
+				"Complete the 6th request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -861,7 +861,7 @@ pg.activity_limit_item_guide = {
 				{
 					"puzzle connect"
 				},
-				"在「帮帮我吧，菈菈小姐！」玩法中，完成委托订单7"
+				"Complete the 7th request of Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -880,7 +880,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -899,7 +899,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -918,7 +918,7 @@ pg.activity_limit_item_guide = {
 				{
 					"scene level"
 				},
-				"完成剧情模式"
+				"Unlock the whole event stage story"
 			}
 		}
 	},
@@ -938,7 +938,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Buy in the furniture shop"
 			}
 		}
 	},
@@ -957,7 +957,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"Tick Tick Kaboom-kun"
 			}
 		}
 	},
@@ -976,7 +976,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -995,7 +995,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"Tick Tick Kaboom-kun"
 			}
 		}
 	},
@@ -1014,7 +1014,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"累计参与「滴滴特训君」可获得"
+				"Tick Tick Kaboom-kun"
 			}
 		}
 	},
@@ -1033,7 +1033,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1052,7 +1052,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1071,7 +1071,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1090,7 +1090,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1109,7 +1109,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1128,7 +1128,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1147,7 +1147,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1166,7 +1166,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成「帮帮我，菈菈小姐！」玩法相关任务"
+				"Complete missions related to Help Me, Miss Lala!"
 			}
 		}
 	},
@@ -1185,7 +1185,7 @@ pg.activity_limit_item_guide = {
 				{
 					69
 				},
-				"完成「滴滴特训君」玩法相关任务"
+				"Tick Tick Kaboom-kun"
 			}
 		}
 	},
@@ -1204,7 +1204,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1223,7 +1223,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1242,7 +1242,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1261,7 +1261,7 @@ pg.activity_limit_item_guide = {
 				{
 					"TOLOVE_COLLAB_BACKHILL"
 				},
-				"完成活动任务"
+				"Complete event missions"
 			}
 		}
 	},
@@ -1278,7 +1278,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1295,7 +1295,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1312,7 +1312,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1329,7 +1329,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1346,7 +1346,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1363,7 +1363,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1380,7 +1380,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1397,7 +1397,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1414,7 +1414,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1431,7 +1431,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1448,7 +1448,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1465,7 +1465,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},
@@ -1482,7 +1482,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"Obtainable through Illusory Challenge"
 			}
 		}
 	},
@@ -1499,7 +1499,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"Obtainable through Illusory Challenge"
 			}
 		}
 	},
@@ -1519,7 +1519,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Buy in the furniture shop"
 			}
 		}
 	},
@@ -1539,7 +1539,7 @@ pg.activity_limit_item_guide = {
 					"scene court yard",
 					{}
 				},
-				"家具商店购买"
+				"Buy in the furniture shop"
 			}
 		}
 	},
@@ -1556,7 +1556,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5989,
-				"「幻影挑战」活动奖励"
+				"Obtainable through Illusory Challenge"
 			}
 		}
 	},
@@ -1573,7 +1573,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5986,
-				"「BLACK之痕」活动奖励"
+				"Obtainable through Sign of BLACK"
 			}
 		}
 	},
@@ -1590,7 +1590,7 @@ pg.activity_limit_item_guide = {
 			{
 				3,
 				5984,
-				"「DEATH之意」活动奖励"
+				"Obtainable through Will of DEATH"
 			}
 		}
 	},

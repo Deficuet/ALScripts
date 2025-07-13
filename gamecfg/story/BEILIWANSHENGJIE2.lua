@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>二 好奇的魔女</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>II 「A Curious Witch」</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "要是幽灵小姐找不到家的话，那就太可怜了…",
+			say = "If Miss Ghost can't find her way home, then that's so pitiful...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等着吧，贝利一定会帮助你的！兔美，兔吉，我们出发！",
+			say = "Wait there, Bailey will help you for sure! \"Pretty\", \"Lucky\", let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…话是这么说，但是幽灵小姐究竟会在哪里呢？",
+			say = "Hmm... Speaking of which, where exactly is Miss Ghost hiding?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -108,7 +108,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且幽灵是会飞的吧，兔兔星人可不会飞……",
+			say = "Also ghosts can fly, right? But people from Planet Bunny cannot fly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，要是这个扫把真的可以像魔女那样骑着飞就好了。",
+			say = "Well, if only the broom could carry me and let me fly like a witch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，你听说了吗？听说港区的仓库闹鬼了呢！",
+			say = "Hey, did you hear? Rumor has it the warehouse at port is haunted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗？我也听说了呢！好像是仓库里突然出现了幽灵一样的东西……",
+			say = "Really? I heard about that as well! Something about ghosts lurking in the warehouse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能啦！虽然说是万圣夜，但是幽灵什么的是不存在的吧！",
+			say = "How is that possible! I know it's Halloween, but actual ghosts shouldn't exist!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（仓库？幽灵？难道说……）",
+			say = "(Warehouse? Ghosts? Could it be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "兔美，兔吉，我们去这边！",
+			say = " \"Pretty\", \"Lucky\", let's head over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "潜藏在港区里的幽灵的秘密，就让我贝利来揭开！",
+			say = "Just let me, Bailey, unravel the mysteries of the hidden ghost lurking at port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，“三位善良的魔女”…贝利算一个的话，还有两个是指谁呢……",
+			say = "Although, \"three virtuous witches\"... If one counts Bailey as one of them, then who are the other two...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "呜呜…幽灵什么的，感觉好可怕啊。不、不过……",
+			say = "Hey... Ghosts or whatever, they seem so scary. B-but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！发现新的魔女了～",
+			say = "Ah! I found a new Witch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "扮演几个人说话还是有点累的呢……",
+			say = "It's tiresome to impersonate voices of multiple people...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -354,7 +354,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "计划进行完美！那么，就祝你好运啦！",
+			say = "Just as we planned! Well, good luck, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

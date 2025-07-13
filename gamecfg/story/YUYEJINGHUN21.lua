@@ -10,12 +10,12 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
-			actorName = "古堡二小姐",
+			factiontag = "Lord's 2nd Daughter",
+			actorName = "Whydah",
 			bgm = "story-richang-10",
 			actor = 9600051,
 			nameColor = "#A9F548FF",
-			say = "啧，又死了。果然没有姐姐就不行吗……（小声）。",
+			say = "Ugh. Died again... I need Golden Hind for this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,11 +42,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "调查员，如果你执意要掺和这件事的话，现在就从我眼前消失吧。你要自寻死路，那就别弄脏了我的房间。",
+			actorName = "Whydah",
+			say = "Look, if you insist on continuing your investigation, do it somewhere else. Take your death wish with you and stop cluttering up my room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,22 +56,22 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听了少女的话，你准备————",
+			say = "Hearing the girl's words, you decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "着眼于身边的问题",
+					content = "Focus on the problem at hand.",
 					flag = 1
 				},
 				{
-					content = "拉近两人之间的关系",
+					content = "Close the distance with Whydah.",
 					flag = 2
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我是个有职业操守的侦探，既然已经接下这个案子，自然没有半途而废的道理。",
+			say = "Professionals have standards. I will not give up on this case when I've come this far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "这就和打游戏一样，如果通不了关，只会让我越战越勇。",
+			say = "The same goes for video games. A true gamer keeps trying no matter how many setbacks they face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "在自寻死路之前，至少让我帮你把这个游戏一起通关了吧。",
+			say = "Before I die, I at least want to help her beat this game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我们都不喜欢半途而废，不是么？",
+			say = "Why? Because I hate leaving things unfinished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你坐在少女的身边，拿起了另一个手柄，在开始界面上选择了双人合作模式。",
+			say = "You plop down next to her, pick up a controller, and select co-op mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,10 +146,10 @@ return {
 			actor = 9600051,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			side = 2,
-			actorName = "古堡二小姐",
-			say = "真是个……多管闲事的人。",
+			actorName = "Whydah",
+			say = "You're one of those people... What a pain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +159,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一个人怎么都做不到的事，往往借助于外力就能轻松解决。",
+			say = "With a bit of help, what seems impossible can be accomplished surprisingly easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "游戏通关了，电视画面上的小人此刻正在举臂欢呼。",
+			say = "You and Whydah beat the game. The characters on the screen wave their arms and shout in celebration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "居然真的……通关了。",
+			actorName = "Whydah",
+			say = "We actually... beat it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,11 +218,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "我一直以为……没有姐姐的话，我永远都没办法通关……",
+			actorName = "Whydah",
+			say = "I thought it wasn't possible without Golden Hind's help...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,37 +232,10 @@ return {
 			actor = 9600051,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			side = 2,
-			actorName = "古堡二小姐",
-			say = "我小时候很喜欢玩游戏，但我总是玩不好。也许在学习方面我是一把好手，但是游戏……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
-			nameColor = "#A9F548FF",
-			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "姐姐和摩根会陪我一起玩，还有另外两个人……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600051,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
-			side = 2,
-			actorName = "古堡二小姐",
-			say = "看在你帮我通关的份上，给你一些提示好了。",
+			actorName = "Whydah",
+			say = "I loved games as a kid, but I was never good at them. Even though I'm an ace student, I can't learn how to get good at games.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,11 +245,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "收藏室里什么都没有，不用去。",
+			actorName = "Whydah",
+			say = "My sister used to play with me, and Morgan, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,10 +259,10 @@ return {
 			actor = 9600051,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			side = 2,
-			actorName = "古堡二小姐",
-			say = "如果你还想收集什么线索的话……可以去书房看看，这是钥匙。",
+			actorName = "Whydah",
+			say = "Listen, since you helped me with the game, I'll give you a hot tip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,11 +272,38 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "可乐！薯片！游戏！",
+			factiontag = "Lord's 2nd Daughter",
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			actorName = "古堡二小姐",
-			say = "希望明天早上我还能见到你，可别死了哦~调查员。",
+			actorName = "Whydah",
+			say = "There's nothing useful in the collection room. You don't need to go there.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600051,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
+			factiontag = "Lord's 2nd Daughter",
+			side = 2,
+			actorName = "Whydah",
+			say = "If it's a lead you want, go to the study. Here's the key.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_146",
+			factiontag = "Lord's 2nd Daughter",
+			nameColor = "#A9F548FF",
+			actor = 9600051,
+			actorName = "Whydah",
+			say = "Good luck, Investigator. Hope I'll see you tomorrow morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_146",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得到钥匙后，你和少女道了别，离开了这个房间————",
+			say = "Key in hand, you bid farewell to Whydah before taking your leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

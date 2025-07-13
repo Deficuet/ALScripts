@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>二　委托</size>",
+					"Searching for the Light\n\n<size=45>2 The Request</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			bgmDelay = 2,
 			soundeffect = "event:/ui/knockdoor1",
 			flashout = {
@@ -47,7 +47,7 @@ return {
 			},
 			options = {
 				{
-					content = "请进",
+					content = "\"Come in.\"",
 					flag = 1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "打扰了，指挥官。",
+			say = "Pardon me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请问你找我来有什么事么？",
+			say = "Did you need something from me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "关于你之前提交的成立个人工作室的事——",
+			say = "\"I want to talk about the personal studio request you submitted earlier.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "唔……果然无法批准么……",
+			say = "*sigh*... I knew it was a long shot to begin with...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}看到了静静地摆放在办公桌上的申请书，有些失落地低下了头。",
+			say = "Ingraham's head droops in disappointment as she sees the application form I placed on the desk in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，很快{namecode:525}就发现，申请书上虽然没有批复同意，但其实也没有批复不同意。",
+			say = "But, she soon realizes that the form had not been stamped at all – it wasn't approved, but it wasn't denied either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "指挥官，请问这是……？",
+			say = "Commander, what does this mean...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在做出正式批复之前，想先和你聊一下。",
+			say = "\"I wanted to speak with you one-on-one before making a formal response.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "为什么要现在提交申请，是遇到什么困难了么？",
+			say = "\"Why are you submitting the application right now? Is there something you're having trouble with?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "关于这一点，其实是因为……",
+			say = "Actually, about that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "原来如此，情况我已经大致了解了。",
+			say = "\"I see. I think I understand your situation now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "这么说来……申请能通过了么？",
+			say = "Does that mean... you'll approve my application?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在做出决定之前，我想问你一个问题。",
+			say = "\"Before I make a decision, I need to ask you something first.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}在替港区的同伴们修理物品的时候，是怀着怎样的心情呢？",
+			say = "\"What does it mean to you when you help fix stuff for your friends around the port?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "唔……心情吗。",
+			say = "Umm... What does it mean to me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只是想着快点把东西修理好，这样就有时间去修别的东西了。",
+			say = "I'm not sure. I just want to get things fixed up ASAP so I can move on to fixing the next thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "那将完成的物品交还给同伴之后，她们的反应呢？",
+			say = "\"What do you think about the way people react after you finish repairing things for them?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一般来说，我在修理好了之后就会通知她们来取。",
+			say = "Well, I normally notify people as soon as I finish the repairs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "至于收到之后的反应，好像没怎么注意过……",
+			say = "As for their reactions... That's not something I usually pay attention to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这样啊……你的申请我会认真考虑的。",
+			say = "\"I see. I'll have to give your application some thought then.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在那之前，库存里有一批最近淘汰下来的旧设备，你先用它们去应应急如何？",
+			say = "\"While I'm doing that, there's a set of recently-retired equipment in the warehouse. How about you use those to take care of your problems in the short term?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "地点的话，就用仓库附近的那个废弃库房吧。",
+			say = "\"You can use the abandoned storeroom near the warehouse if you'd like.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "没问题！多谢指挥官！",
+			say = "I'll do just that! Thank you so much, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1

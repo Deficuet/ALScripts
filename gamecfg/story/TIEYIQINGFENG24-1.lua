@@ -8,9 +8,9 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
-			say = "——通告：东煌舰队，你们正在进行严重的越界行为。",
+			say = "You're pushing your luck, shipgirls of the Dragon Empery.",
 			bgm = "battle-donghuang-static",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "就此退回沿海区域，等待大风暴系统的重新启动，我将不会进行追击。",
+			actorName = "Tester",
+			say = "Cease fighting and return to your base and I'll leave you alone until the Storm is operational again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "否则，等待着你们的只有全军覆没的结局。",
+			actorName = "Tester",
+			say = "Or, you can stay and I'll sink every last one of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不让我们突破，那意思就是让我们乖乖的被风暴困上一辈子？",
+			say = "Hah! You expect us to accept being stuck on land 'cause of the Storm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "痴心妄想，白日做梦~！",
+			say = "Imagine thinking we'll just lie down and take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看你是抵挡不住了，所以才出来和我们聊天拖延时间的吧。",
+			say = "You know you can't defeat us, so now you're trying to buy time for yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错没错，就是就是！",
+			say = "Yeah! Get her ass!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,15 +132,15 @@ return {
 			},
 			options = {
 				{
-					content = "多说无益——",
+					content = "(Refuse her joke of a deal.)",
 					flag = 1
 				},
 				{
-					content = "原话奉还——",
+					content = "(Turn her threat right back at her.)",
 					flag = 2
 				},
 				{
-					content = "全军覆没——？",
+					content = "(Tell her nobody is sinking on your watch.)",
 					flag = 3
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "在实验场β中，我们的冲突是不可调和的，多说无益。",
+			say = "That's not going to happen. An Shan, tell it to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "要战便战，要降便降，我军优待俘虏。",
+			say = "If it's a fight you want then come at us! Alternatively, surrender peacefully and we'll let you live!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我在这里对你原话奉还，将马里亚纳要塞群拱手相让的话，我可以考虑不继续追击你。",
+			say = "Oh yeah? I'll let you go if you run back to your Mariana Islands stronghold. Or, you can stay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "姐姐劝你乖乖听话比较好哟~",
+			say = "And we'll send you to the bottom of the sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "我作为碧蓝航线的指挥官，从PH港战役开始一路征战至今，还没有见到能让我全军覆没的人呢。",
+			say = "I'm the Commander of the Azur Lane. I've fought countless battles across the globe, and protected every one of the shipgirls under my command every time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "你也不会例外。",
+			say = "This battle will be no exception.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,8 +231,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——量产型IV型舰队，迎敌。",
+			actorName = "Tester",
+			say = "So much for talking it out. Ships, advance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

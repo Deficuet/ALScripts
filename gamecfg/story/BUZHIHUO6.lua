@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>六　看板娘的真心·上</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 6: The Shopkeeper's True Feelings (Pt 1)</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·医务室",
+			say = "Port - Infirmary",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "医务室里，{namecode:20}安静地躺在一边的病床上。",
+			say = "At the infirmary, Shiranui is quietly lying on a sickbed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,40 +61,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是疲劳喵。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_story_room",
-			withoutActorName = true,
-			dir = -1,
-			nameColor = "#a9f548",
-			say = "果然吗……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = -1,
-			say = "应该是在担任秘书舰的同时要管理商店，累积了不少疲劳喵。",
+			say = "It's overwork, Nyaa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +78,7 @@ return {
 			withoutActorName = true,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "要是能早点发现的话……",
+			say = "Sure enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +94,24 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "指挥官不用自责喵，{namecode:20}就是这样的性格喵，做事一板一眼，从来不知道依靠别人喵。",
+			say = "It would seem that having to serve as secretary while also running the store has caused her to accumulate a lot of stress, Nyaa.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "bg_story_room",
+			withoutActorName = true,
+			dir = -1,
+			nameColor = "#a9f548",
+			say = "If only I had noticed sooner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +127,23 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就连{namecode:98}我都没有发现她有累积疲劳喵，不如说表情从来就没有变化过喵……",
+			say = "Commander, you don't need to blame yourself Nyaa. This is just Shiranui's personality, she does everything meticulously and never asks for help from anyone.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = -1,
+			say = "Even Akashi never noticed how burnt out she was, Nyaa. Her expression didn't change at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啰嗦，蠢猫。",
+			say = "Pipe down, dumb cat.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "病人就乖乖躺着喵！{namecode:20}你就是太逞强了喵！",
+			say = "Patients should just quietly lie there and rest. Shiranui is way too stubborn, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我没有逞强，只是……",
+			say = "... I'm not trying to be stubborn, I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是我习惯一个人去做而已。",
+			say = "I'm used to having to do things all alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "从病床上坐起来的{namecode:20}脸上依然面无表情，不过相比平时，要显得柔弱不少。",
+			say = "The Shiranui that sat up from the sickbed still wore the same expression as ever but, compared to usual, seemed a lot more vulnerable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "真是个麻烦的家伙喵……",
+			say = "What a troublesome fellow, Nyaa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唯独不想被你说。",
+			say = "You're the last one I want to hear that from.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,7 +294,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看到{namecode:20}没有事，稍微安心了一些，不过，果然这样下去不是办法。",
+			say = "I was relieved to see that Shiranui was fine, but it was clear that things could not continue like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			},
 			options = {
 				{
-					content = "提议{namecode:20}选一边侧重",
+					content = "Suggest that Shiranui should focus on one thing first",
 					flag = 1
 				}
 			}
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔，那样可能不行喵。",
+			say = "Hmm. I'm not sure that's going to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "咦，为什么连{namecode:98}都表达了反对意见。",
+			say = "Eh? Even Akashi is opposed to that idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哈……真是个笨蛋呢。",
+			say = "*sigh* ... This person sure is dense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			actor = 601060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "利托里奥，听说这批艺术品来自于君士坦丁堡？那是一座什么样的城市啊，我一次都还没去过呢！",
+			say = "Littorio, I heard that these pieces of art came from a place called \"Constantinople.\" What kind of place is that? I don't know of any place called that...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果要认真讲述那座城市的话，一天一夜也谈不完哦。不过既然你这么有兴趣，我就向你简略介绍一下好了~",
+			say = "Ahh, it was a great city of the past. All the tales in the world would not do justice to its splendor, but allow me to share some of them with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "（不妙……达雷科的问题碰到利托里奥奇怪的开关了）",
+			say = "(Geh... She's about to start on one of her monologues again...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……啊？什么意思？）",
+			say = "I heard that the pieces of art were relics from a bygone era. If they did in fact originate from that time, it only makes sense why the Senate would want them transferred.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君士坦丁堡，这座城市最初是作为罗穆路斯的新首都而设计的。命名为新罗马，象征着帝国又一个辉煌时代的开启。",
+			say = "Yes, that was the name of the capital of an ancient empire, and it represents the origin of Sardegna's eternal glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "永恒之城、伟大之城、神圣之城、文化与历史之城、帝冠上的宝石、马尔马拉海上的明珠……",
+			say = "An impregnable castle, a sprawling cultural center, the hub of all worship. Through all its culture and history, Constantinople was the crowning jewel of our civilization.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在千年的岁月中，这座城市被赋予了如星海一般众多的称号。",
+			say = "Even before Sardegna, it was the King's domain, the greatness that overlooked the seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "与之对应的，她还有着无数为人传颂的名字。君士坦丁堡、康斯坦丁波利斯、米克拉加德、科斯坦丁尼耶……",
+			say = "The city was given countless names in an effort to capture its glory, but there are never enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "伊斯坦布尔。",
+			say = "Well, it's called Istanbul now, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "……？",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "利托里奥，你漏了一个名字，这座城市还有一个名为伊斯坦布尔的称呼。",
+			say = "Heheh... Hehehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "（无视）",
+			say = "That's right. Times change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "总之，这些称号与城市一同记录了帝国无数辉煌的瞬间，记录了帝国的兴盛与衰亡。",
+			say = "But its greatness does not. It is hard to imagine how many priceless pieces of art the city still houses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哇啊……好厉害，真是一座伟大的城市啊！",
+			say = "Wow... That place must truly be special!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "没错没错~",
+			say = "Exactly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "可是这座城市现在已经不在我们的控制下了……",
+			say = "However, to put it another way, the Senate's carelessness has resulted in a terrible blunder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "是啊，曾经幅员辽阔将陆间海当做内湖的罗穆路斯已经不存在了。",
+			say = "Believe me, as much as I want to give them a piece of my mind, I cannot place the blame solely upon the Senate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但就算是帝国留下的余晖，依然如此的灿烂闪耀。",
+			say = "Sardegna is set up in a way such that her maritime force is rarely mobilized.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "作为罗穆路斯的继承者，撒丁帝国必将重新步入辉煌，重现帝国盛景。陆间海，永远都是撒丁帝国的陆间海。",
+			say = "If we demonstrate Sardegna's capabilities to the other factions that are watching us, our prestige will spread throughout the land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然是这么说……不过必须着眼现在才能有未来。",
+			say = "It would also present a prime opportunity to open an exhibition of the reclaimed art, and to invite the factions to experience our culture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 602010,
-			say = "元老院居然在战事紧急的时候还想着从君士坦丁堡购入过去的艺术品，现在还有不少更急需这笔经费的地方吧……",
+			say = "Haha! Lady Veneto has thought so far ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别这么说嘛，艺术可是生活不可或缺的一部分~虽然就时间点来说有些不合时宜，不过也不是完全不能理解。",
+			say = "Veneto aside, however, I truly do not understand what the Senate is thinking. Why did they suddenly decide to transfer all that artwork, now of all times?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且有些东西，也可以以艺术品的名义骗过其他阵营的耳目……",
+			say = "D-do you think they're trying to conceal something under the guise of calling it a work of art...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "啊，托里拆利又出现了，简直就像刺客一样！",
+			say = "Torricelli? Where'd you go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "我只是潜到了水下而已……今天的太阳太烈了，这种太阳直射下我会化掉的。",
+			say = "Heheh, hehehe... Just went on a little dive just now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？今天天气很好呀~被太阳晒晒才不会化掉啦~！",
+			say = "Oh, right, you really don't like being exposed to the sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "不，我会的……这次上浮只是想跟大家报告一下前方已经可以看到克里特岛了而已。",
+			say = "Y-yeah, that's why... tell me when we're getting near Crete so I can dive again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哦~~！克里特岛！是那个有着传说中的大迷宫的克里特岛么！",
+			say = "Crete... Crete...? Oh! I've heard of that before! There's an old legend about a huge maze or something being there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "是有这样的故事，不过岛上的王宫早就化为了废墟，传说中的迷宫也没有被正式确认。这里和爱琴海的其他岛屿并没有太大区别。",
+			say = "But that's just a tall tale... Hehehe... Heh. It's just an ordinary island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "总感觉托里拆利你缺乏浪漫的精神呢~只是想到曾经发生过的故事就足够让人兴奋了吧！而且既然有废墟，说不定埋藏着宝藏呢！",
+			say = "Oh, I see... But, what if there actually is a maze deep underground or something? The navigator within me is saying to check it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "不要总潜在水下，多来水面上欣赏一下美丽的风景啦！",
+			say = "And I'm gonna need your help, Torricelli! You seem to know so much stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 608010,
-			say = "所以说我会化掉的……而且，你的风格是航海家，不是海盗吧……",
+			say = "Not gonna happen, sorry... Don't wanna melt under the sun, hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "所以说不会化掉啦！真是的……在航海中寻获无数宝藏最后满载而归不也很浪漫么！",
+			say = "Hey! Come back here! Why are you diving again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是是是……那么，请允许我继续下潜了。",
+			say = "Heheh... Hehehehe......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

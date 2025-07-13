@@ -8,9 +8,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "等等——",
+			say = "WHOA, WHOA, WHOA, WAIT!",
 			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
@@ -40,9 +40,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "别开炮——我要投降！！！",
+			say = "DON'T SHOOT! I SURRENDEEER!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "千钧一发之际，众人停止了酝酿中的攻击。",
+			say = "Everyone's attacks stopped on a dime right before the finishing blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "……啊？",
+			say = "...Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "你说……你投降？难道你是净化亲？！",
+			say = "Surrender? Wait, you really are Purity?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,9 +98,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "没错，没错~自己人嘛！",
+			say = "That's riiight~☆ I'm basically one of you guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "所以，这到底是怎么回事……？",
+			say = "I'm only getting more confused. What's going on here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,9 +126,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "这件事，说复杂也复杂，说简单也简单。",
+			say = "Sooo, basicallyyy... It's complicated and simple, at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,8 +140,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "总而言之，就是——",
+			actorName = "Purity",
+			say = "To put it briefly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……总而言之，就是你也不知道？",
+			say = "All I'm hearing is that you don't know, either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "没错！",
+			say = "Yep! That about sums it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "……真没用，净化亲。",
+			say = "Stupid, useless Purity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,8 +221,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "不过我有一条别的情报哦！你们在寻找异常出现的源头吧？",
+			actorName = "Purity",
+			say = "But listen! I know other stuff. You're looking for the source of all this, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +234,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "刚好，我现在这副机体不知道为什么能够和塔内的部分区域共享数据。",
+			actorName = "Purity",
+			say = "How convenient! For some reason, some of the map data of this tower's been shared with my vessel here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,9 +247,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			nameColor = "#A9F548FF",
-			say = "我可以直接带你们前往源头位置哦！",
+			say = "That means I can show you straight to the core!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就快带我们去吧。",
+			say = "Then do it. Now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "手下败将，前面带路~",
+			say = "Lead the way, little loser.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "净化亲",
-			say = "是~",
+			actorName = "Purity",
+			say = "Okie-dokie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

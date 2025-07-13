@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-french1",
 			dir = 1,
-			say = "抱歉，要让你失去意识一段时间了。",
+			say = "Sorry, but we'll need you to stay quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "咕……",
+			say = "Guh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家巡洋舰阿瑞托莎失去战斗能力！",
+			say = "I've confirmed that Arethusa has been incapacitated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好厉害，好厉害，你看到了吗，塔尔图，这就是战舰级的实力欸！",
+			say = "Wasn't that amazing...? Tartu, were you watching Dunkerque just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			actor = 901020,
 			dir = 1,
-			say = "我在看，不要摇我……",
+			say = "I saw... so stop shaking me around already...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "毕竟我们有三个人，多少有些欺负人的意思呢。",
+			say = "We had a numbers advantage, so this did feel a bit unfair...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			actor = 904010,
 			dir = 1,
-			say = "不过…“着眼于眼前的事”多亏了你们对我说的话，我已经下定决心了。",
+			say = "But as Tartu said, our priority right now is to safely make it home to our friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过去的事无法挽回，现在去想和皇家的关系也只是徒增烦恼。",
+			say = "Now's not the time to think about negotiating with the Royal Navy or taking revenge against them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我该做的事，就是回到土伦港，帮助我的妹妹斯特拉斯堡和维希教廷的同伴们，带领你们走出困境。",
+			say = "No matter when or where, my duty is to protect our friends of the Vichya Dominion and uphold the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为此，我愿意付出一切，即便彻底献出这幅身躯也在所不辞。",
+			say = "My purpose as a ship is to be a guardian knight - that is the meaning of my existence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯！嘿嘿嘿，这才是我记忆中的教廷骑士敦刻尔克小姐嘛~",
+			say = "Mmhmm! The same's true for us, although we still have a ways to go! Right, Tartu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（……包容，成熟，坚强……）",
+			say = "(She's kindhearted, strong, and dependable...)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（怎么样才能成为敦刻尔克小姐这样的成熟又出色的女性呢……）",
+			say = "(I hope I can mature into someone as cool as Dunkerque when I'm older...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 900236,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂---！塔尔图，快醒醒！要继续出发了哦！",
+			say = "Tartu...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

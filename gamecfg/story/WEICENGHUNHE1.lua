@@ -10,10 +10,10 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_newyork",
-			actorName = "通讯",
+			actorName = "Communication",
 			dir = 1,
 			bgmDelay = 1,
-			say = "这里是NY司令部，定时联络的时间到了。",
+			say = "This is NY City. Requesting status report, over.",
 			bgm = "level02",
 			flashin = {
 				delay = 1,
@@ -35,11 +35,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是巴尔的摩，舰队正按照预定航线行驶，没有发现任何异常情况~",
+			say = "This is Baltimore. We are en route to the Canal Stronghold. We've sent you our coordinates, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NY司令部收到。祝各位一轮顺风，随时保持联络。",
+			say = "NY City copies. We've received your location. Keep the channels open, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_newyork",
-			actorName = "通讯",
+			actorName = "Communication",
 			dir = 1,
-			say = "这里是NY司令部，定时联络的时间到了。",
+			say = "This is NY City. Requesting status report, over.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -100,11 +100,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是孟菲斯，今天也是和平的一天，没有遭遇任何异常情况",
+			say = "This is Memphis. No abnormalities detected so far. Seems like another peaceful day, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,11 +116,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NY司令部收到。气象部门发现你们前方的海域正在生成海雾，请小心行驶。",
+			say = "That's good... But according to our weather reports, a strange mist has been forming along your route, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "孟菲斯收到。感谢气象部门的情报，我们会小心应对的。",
+			say = "Understood. We'll keep our eyes peeled, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,9 +150,9 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_newyork",
-			actorName = "通讯",
+			actorName = "Communication",
 			dir = 1,
-			say = "这里是NY司令部，定时联络的时间到了。",
+			say = "This is NY City. Requesting status report, over.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -181,11 +181,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,11 +197,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是NY司令部，定时联络的时间到了，收到请回复。",
+			say = "Baltimore Fleet, this is NY City. Requesting response, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是NY司令部，呼叫巴拿马要塞支援舰队，收到请回复。",
+			say = "This is NY City. Baltimore Fleet, do you copy? Over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,11 +229,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是NY司令部，巴尔的摩，海伦娜，孟菲斯，收到请回复。",
+			say = "Baltimore, Helena, Memphis, this is NY City. Requesting response, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,11 +245,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯",
+			actorName = "Communication",
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是NY司令部……",
+			say = "Repeating, this is NY City. If you copy, please resp...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +265,8 @@ return {
 			bgName = "bg_story_newyork",
 			stopbgm = true,
 			dir = 1,
-			actorName = "通讯",
-			say = "………【杂音】……",
+			actorName = "Communication",
+			say = "Bzzzzzt... Bzzzt...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -281,10 +281,10 @@ return {
 			paintingNoise = true,
 			side = 1,
 			bgName = "bg_story_newyork",
-			actorName = "通讯",
+			actorName = "Communication",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…【杂音】…遭遇塞壬…要塞…【杂音】…正在遭受进攻…【杂音】…准备等待…【杂音】…支援…",
+			say = "This is... encountered Sirens... the Canal Stronghold... requesting immediate...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 			paintingNoise = true,
 			side = 1,
 			bgName = "bg_story_newyork",
-			actorName = "通讯",
+			actorName = "Communication",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…等待…【杂音】…支援…",
+			say = "Repeat... urgent... requesting immediate...",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -318,31 +318,31 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>它们坚定地向前行驶着</size>",
+					"<size=51>A stronghold sits upon the canal that links two great oceans.</size>",
 					1
 				},
 				{
-					"<size=51>从一侧前往另一侧，从一端前往另一端</size>",
+					"<size=51>Its crucial role is to protect this vital route.</size>",
 					3
 				},
 				{
-					"<size=51>身后是既定的未来，前方是未知的往昔</size>",
+					"<size=51>Knowing this, the Sirens have launched many attacks against it, only to be repelled each time.</size>",
 					5
 				},
 				{
-					"<size=51>它们既不追求毁灭，也不逃避毁灭</size> ",
+					"<size=51>Various patrols and defenses were put into place to deter them.</size> ",
 					7
 				},
 				{
-					"<size=51>纵使海雾愈发浓厚，波涛愈发汹涌</size>",
+					"<size=51>But now, a mysterious fog has begun to permeate the entire area.</size>",
 					9
 				},
 				{
-					"<size=51>它们只是向前行驶着</size>",
+					"<size=51>To rescue a fleet that has been swallowed by the dark mist...</size>",
 					11
 				},
 				{
-					"<size=51>缓慢而坚定地向前行驶着</size>",
+					"<size=51>The warriors of the Eagle Union must once again push forward into the destruction that awaits...</size>",
 					13
 				}
 			}

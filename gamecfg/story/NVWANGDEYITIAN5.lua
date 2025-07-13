@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>五 下午茶</size>",
+					"The Queen's Ordinary Day\n\n<size=45>5.Afternoon Tea</size> ",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "卡美洛之庭·中央控制区，一段时间后———",
+			say = "Mirror Sea - Camelot",
 			bgmDelay = 2,
 			bgm = "theme-camelot",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔啊啊啊啊……对面回消息的速度好慢啊！",
+			say = "*yaaawn*... Still nothing, hours later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704030,
-			say = "这都快过了两个小时了，为什么机器一点反应都没有啊！",
+			say = "Nobody said it'd be straightforward, but that doesn't make this less boring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704030,
-			say = "老姐，女王陛下，我去周围巡逻一会！",
+			say = "Sis, Your Majesty, I'm gonna patrol the area for a bit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "（咀嚼声）嗯……去吧，小心地滑（咀嚼声）。",
+			say = "Om, nom... Hawrigh. Fwake kherr. *gulp*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "纽卡斯尔小姐，再来一块蛋糕可以么？",
+			say = "Newcastle, may I have seconds?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，请稍等片刻。",
+			say = "Certainly. Just a moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不你们还是考虑一下本王之前的提案，让一个女仆队的孩子常驻在这里照顾你们如何？",
+			say = "You're sure you don't want a Royal Maid stationed here? It must be exhausting doing everything yourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "多谢您的好意。不过我们二人经过了这么多年与世隔绝的生活，如何与她人相处还要再适应一下。",
+			say = "While I'm grateful for the offer, I must politely decline. We're used to our isolation and would need time to readjust to the company of others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "况且，能通过卡美洛之庭入侵这里的敌人绝对不简单。",
+			say = "Of course, you may feel it necessary to leave a force here in the unlikely event of an enemy attack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "一旦发生战斗，我和反击姑且不论，驻扎在这里的其他人是绝对撑不过去的。",
+			say = "However, I believe Repulse and I alone are sufficient to prevent anyone from invading your branch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "让女仆队的孩子来这里常驻实在太危险了。",
+			say = "All that is to say, we will manage on our own.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "您之前也不应该每次都只带贴身女仆前来，像这次一样多带些护卫才是正确的做法。",
+			say = "If anyone could use more protection, I would say you do during these visits, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "说得好，声望小姐！陛下这么行动实在太危险了。",
+			say = "If I may interject, I also strongly discourage any more trips by yourself, Your Majesty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好好，本王听你们的就是了！",
+			say = "Yes, yes, I know! Stop pestering me about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不爽……明明这里应该是皇家海军的心脏，却变成了本王连来一次都要如此小心的地方。",
+			say = "How absurd it is that the Queen must tiptoe around territory that rightfully belongs to the Royal Navy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可恶的理查德……等找到方法之后看本王怎么收拾你……",
+			say = "Curse that Bon Homme Richard... I WILL find a way to deal with her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,10 +378,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_camelot_1",
 			nameColor = "#A9F548FF",
-			say = "滴————————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/dg-zhengque",
 			typewriter = {
 				speed = 0.05,
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下！通讯器终于有反应了！",
+			say = "Your Majesty, did you hear that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好！你们先喝茶，本王过去看看消息！",
+			say = "I did! We must check the communicator at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "………………很好，第一次通讯成功了！",
+			say = "Good lord... We've done it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有收到什么有意义的情报么？",
+			say = "We've found a potential ally already?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，那倒没有。",
+			say = "No. Settle down, Monarch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在通讯装置还在测试阶段，还不能真正用来传递情报。",
+			say = "We've managed to connect to some terminals out there, but we still can't send any information yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从测试的情况来看……内容是完整的，时间比预期要长，安全性暂时无法确认。",
+			say = "But, let's see... Good, the connection is stable and it doesn't seem we're being traced. We might just be able to receive data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过虽然有很多需要改进的地方，但作为第一次尝试来说已经非常成功了，本王很满意。",
+			say = "While there's much room for improvement, this is excellent for a first attempt!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，差不多该到回去的时间了。",
+			say = "Your Majesty, we should prepare to leave.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔嗯…………没想到都这个点了。",
+			say = "What? Oh, yes, it's gotten late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那本日的测试就到这里，结果分析和设备调试就拜托你们了。",
+			say = "That will be it for today. Renown, please analyze the results of our test and conduct any necessary debugging of the equipment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，这里就交给我们吧。",
+			say = "Very well, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦对了，过几天会有一份从帝国博物馆收集到的META信标样本送过来。",
+			say = "One more thing. An unidentified META infiltrated our museum warehouse and left behind what presumably is beacon data. I'll send it your way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的数据库中没有与样本数据波段相符的记录，你们见多识广，也许会有什么发现。",
+			say = "We weren't able to match these data traces to anything in our database, but you might be acquainted with this individual.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "从帝国博物馆中收集到的……？",
+			say = "They appeared... in a museum?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "我明白了。META的信标数据是独一无二的，如果是我和反击见过的人，我们一定能认出来。",
+			say = "The beacon data will tell us if it's someone we know. Each META has a unique data signature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就拜托你们了哦~本王期待听到你们的好消息。",
+			say = "Whoever it is, I hope you will be able to identify them. I look forward to hearing from you.",
 			painting = {
 				alpha = 0.3,
 				time = 1

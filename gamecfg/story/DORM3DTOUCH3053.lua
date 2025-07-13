@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "姿势……？哪种……舒服……？",
+			say = "Pose...? Which feels better...?",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_gift5_tone4",
 			typewriter = {
 				speed = 0.05,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_target_set = {
 	{
 		target_progress = 5,
-		name = "快乐玩耍",
+		name = "Happy-Go-Lucky",
 		condition = "",
 		icon = "tb_target_pic_1_1",
 		recommend_attr = 0,
@@ -34,7 +34,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "教育启蒙",
+		name = "Smart Cookie",
 		condition = "",
 		icon = "tb_target_pic_1_2",
 		recommend_attr = 0,
@@ -66,7 +66,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "举止优雅",
+		name = "Highly Helpful",
 		condition = "",
 		icon = "tb_target_pic_1_4",
 		recommend_attr = 0,
@@ -98,7 +98,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "感知世界",
+		name = "World Explorer",
 		condition = "",
 		icon = "tb_target_pic_1_3",
 		recommend_attr = 0,
@@ -130,7 +130,7 @@ pg.child_target_set = {
 	},
 	[11] = {
 		target_progress = 5,
-		name = "精力充沛",
+		name = "Full of Energy",
 		condition = "",
 		icon = "tb_target_pic_2_1",
 		recommend_attr = 101,
@@ -165,7 +165,7 @@ pg.child_target_set = {
 	},
 	[12] = {
 		target_progress = 5,
-		name = "聪颖过人",
+		name = "Wonderfully Wise",
 		condition = "",
 		icon = "tb_target_pic_2_2",
 		recommend_attr = 102,
@@ -200,7 +200,7 @@ pg.child_target_set = {
 	},
 	[13] = {
 		target_progress = 5,
-		name = "举止大方",
+		name = "Well-Mannered",
 		condition = "",
 		icon = "tb_target_pic_2_3",
 		recommend_attr = 103,
@@ -235,7 +235,7 @@ pg.child_target_set = {
 	},
 	[14] = {
 		target_progress = 5,
-		name = "细致入微",
+		name = "People Pleaser",
 		condition = "",
 		icon = "tb_target_pic_2_4",
 		recommend_attr = 104,
@@ -270,7 +270,7 @@ pg.child_target_set = {
 	},
 	[21] = {
 		target_progress = 8,
-		name = "身姿矫健",
+		name = "Peak Physique",
 		condition = "",
 		icon = "tb_target_pic_3_1",
 		recommend_attr = 101,
@@ -300,7 +300,7 @@ pg.child_target_set = {
 	},
 	[22] = {
 		target_progress = 8,
-		name = "才思敏捷",
+		name = "Quick Thinker",
 		condition = "",
 		icon = "tb_target_pic_3_2",
 		recommend_attr = 102,
@@ -330,7 +330,7 @@ pg.child_target_set = {
 	},
 	[23] = {
 		target_progress = 8,
-		name = "气质非凡",
+		name = "Saintly Demeanor",
 		condition = "",
 		icon = "tb_target_pic_3_3",
 		recommend_attr = 103,
@@ -360,7 +360,7 @@ pg.child_target_set = {
 	},
 	[24] = {
 		target_progress = 8,
-		name = "敏感细腻",
+		name = "Kind Mind",
 		condition = "",
 		icon = "tb_target_pic_3_4",
 		recommend_attr = 104,
@@ -390,7 +390,7 @@ pg.child_target_set = {
 	},
 	[31] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "Magic Hands",
 		icon = "tb_target_pic_4_1_32",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -429,7 +429,7 @@ pg.child_target_set = {
 	},
 	[32] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "Wellspring of Ideas",
 		icon = "tb_target_pic_4_2_32",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -469,7 +469,7 @@ pg.child_target_set = {
 	},
 	[33] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "Eye for Details",
 		icon = "tb_target_pic_4_3_32",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -509,7 +509,7 @@ pg.child_target_set = {
 	},
 	[34] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "Can-Do Attitude",
 		icon = "tb_target_pic_4_4_32",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -549,7 +549,7 @@ pg.child_target_set = {
 	},
 	[35] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "Musical Master",
 		icon = "tb_target_pic_4_5_32",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -589,7 +589,7 @@ pg.child_target_set = {
 	},
 	[36] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "Enchantress",
 		icon = "tb_target_pic_4_6_32",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",
@@ -629,7 +629,7 @@ pg.child_target_set = {
 	},
 	[41] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "Magic Hands",
 		icon = "tb_target_pic_4_1_33",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -668,7 +668,7 @@ pg.child_target_set = {
 	},
 	[42] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "Wellspring of Ideas",
 		icon = "tb_target_pic_4_2_33",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -708,7 +708,7 @@ pg.child_target_set = {
 	},
 	[43] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "Eye for Details",
 		icon = "tb_target_pic_4_3_33",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -748,7 +748,7 @@ pg.child_target_set = {
 	},
 	[44] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "Can-Do Attitude",
 		icon = "tb_target_pic_4_4_33",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -788,7 +788,7 @@ pg.child_target_set = {
 	},
 	[45] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "Musical Master",
 		icon = "tb_target_pic_4_5_33",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -828,7 +828,7 @@ pg.child_target_set = {
 	},
 	[46] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "Enchantress",
 		icon = "tb_target_pic_4_6_33",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",
@@ -868,7 +868,7 @@ pg.child_target_set = {
 	},
 	[51] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "Magic Hands",
 		icon = "tb_target_pic_4_1_31",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -907,7 +907,7 @@ pg.child_target_set = {
 	},
 	[52] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "Wellspring of Ideas",
 		icon = "tb_target_pic_4_2_31",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -947,7 +947,7 @@ pg.child_target_set = {
 	},
 	[53] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "Eye for Details",
 		icon = "tb_target_pic_4_3_31",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -987,7 +987,7 @@ pg.child_target_set = {
 	},
 	[54] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "Can-Do Attitude",
 		icon = "tb_target_pic_4_4_31",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -1027,7 +1027,7 @@ pg.child_target_set = {
 	},
 	[55] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "Musical Master",
 		icon = "tb_target_pic_4_5_31",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -1067,7 +1067,7 @@ pg.child_target_set = {
 	},
 	[56] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "Enchantress",
 		icon = "tb_target_pic_4_6_31",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一切尘埃落定，在茶话会开启后不久，突然发现遗漏了一件事。",
+			say = "A short time after the start of the victory celebration, I remember something I'd totally forgotten.",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "——由于总控室突发状况，在确认救援人员名单时被打断了。",
+			say = "Due to the events in the control room, I still haven't finished doing a head count of the rescuees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而名单上最后一位仍被困在校园内的人，正是光辉。",
+			say = "Now that I'm looking again, it seems Illustrious is still somewhere in the academy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……就让大家好好休息一下，我自己去找光辉吧。）",
+			say = "(Hmm... I'll let the others rest and go look for her myself.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "一段时间后，在学院里的某间准备室中发现了光辉的身影。",
+			say = "Before long, I find her in a prep room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官？怎么神色那么紧张……？",
+			say = "Oh, Commander? Is something the matter? You look awfully tense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯？你没遇到什么奇怪的事、也没听到什么奇怪的声音么？",
+			say = "Hmm? Uh, have you not run into anything weird or heard any strange sounds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……奇怪的声音？",
+			say = "Strange sounds, you say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光辉的脸上浮现出了不自然的红晕。",
+			say = "She blushes a little awkwardly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "难道是指挥官在准备室门口……听到了什么么？",
+			say = "Are you saying you... heard something through the door?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，就算被指挥官听到也没关系，是光辉在练习安抚孩子的歌……",
+			say = "Well, it's not a big deal. Umm, I was just practicing singing lullabies for the kids...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "（看这个反应，光辉大概全程都在这里认真练习，不知道学院中发生的异变。）",
+			say = "(It's almost as if she's been so focused on her practice here that she genuinely didn't realize anything was wrong.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "（嗯……找个时机告诉她吧。）",
+			say = "(Hmm... I'll find a more appropriate time to fill her in.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "安抚小孩子的歌？",
+			say = "Lullabies, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "是的，前几天我刚买了一些教授照顾孩子技巧的书，就是桌上这些哦。",
+			say = "Yes. I bought a book on childcare recently. It's the one on the desk over there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "里面写着“安抚情绪用的歌曲”也是照顾过程中非常重要的一环。",
+			say = "It says that learning songs to help soothe them is especially important...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "原来如此，光辉是一直在这里练习，想更好地去照顾学院中的大家么？",
+			say = "Oh, I see. You've been practicing here all this time to help take better care of the kids in the academy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "没错。不过……我是想给大家一个惊喜，所以才自己偷偷躲起来在这边练习。",
+			say = "Just so. Honestly, I meant to do it in secret so it would be a surprise to everyone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但是这样一来，就没办法知道自己的练习成果如何了……",
+			say = "But doing it alone makes it impossible to get feedback on my progress...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			},
 			options = {
 				{
-					content = "需要陪练么？",
+					content = "What if you had a partner?",
 					flag = 1
 				}
 			}
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官愿意做光辉的练习对象？呵呵，那太好了——",
+			say = "You'd like to join me? Heehee, that's wonderful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "请容许光辉好好想一想，让指挥官从哪一项开始帮光辉验证练习的成果。",
+			say = "Then I'll need a moment to think about what part you can help me with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "原来不止是歌曲么？",
+			say = "Aren't you just singing lullabies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "当然。只是歌曲的话，就没有必要偷偷在这里练习了呢。",
+			say = "Not at all. If I was only singing, then I wouldn't need to practice here in secret.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊，光辉想到了。现在就请指挥官先靠过来吧？",
+			say = "...I have an idea. Come over here for me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "依言照做后，光辉带着温柔的微笑，将她的手移到了我的背部。",
+			say = "I go to Illustrious's side as directed. She smiles gently and puts a hand on my back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一下、两下……轻轻地拍打着。",
+			say = "Then she pats it gently... Once, twice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "指挥官感觉如何呢？书上说这样轻柔地拍背能让孩子很快安静下来哦。",
+			say = "How does it feel, Commander? The book said that you can calm a child quickly with slow, gentle pats on the back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着柔和的吐息，一阵阵倦意开始袭来。",
+			say = "I feel her soft exhales on me. Those, and her patting, are so comforting that I feel a sudden bout of sleepiness.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "确实很有效……",
+			say = "Yeah, that... That works pretty well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官困了吗？在光辉的怀里睡一觉也可以哦？",
+			say = "Are you sleepy, Commander? Would you like to take a little nap in my arms?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "答应你要陪你验证练习的成果，现在睡过去也太不像话了。",
+			say = "But I'm supposed to give you feedback on your practice. I can't just fall asleep now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "没关系，时间还长哦。等指挥官醒过来再继续后面的练习事项也不迟。",
+			say = "Heehee, it's okay. We have plenty of time. After you wake up, we can start in earnest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯……",
+			say = "Okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "思考了片刻后，决定趁现在这个时机将学院中的事件告诉光辉。",
+			say = "After a moment's hesitation, I decide to take this opportunity to tell her about everything that happened today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "——所以，如果我们一直不回去的话，大家也会担心的。",
+			say = "If I don't go back soon, everyone will get worried...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "啊，原来是这样……我太过投入练习，完全没有发现出现了异变。",
+			say = "I had no idea... I was so focused on my practice that I didn't notice anything had happened at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "甚至还让指挥官留在这里陪我练习……",
+			say = "You came looking for me because you were worried, and I just made you help me practice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,7 +671,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女的语气既不好意思又带着明显的自责。",
+			say = "She seems both embarrassed and apologetic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "不是光辉的错，是我一开始没有告诉你。",
+			say = "I could've told you before, but I chose not to. It seemed wrong to worry you over nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "我们就先回去吧？至于后续的练习事项么……",
+			say = "How about we go back now? As for the rest of your practice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "有了，要不要做个约定？",
+			say = "I know. Let's set a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "约定？",
+			say = "A date?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			actor = 207037,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "等“茶话会”结束，我再陪你练习吧。",
+			say = "After the party is over, I'll come back and help you with your practice. Sound good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，那就这么约定好了。",
+			say = "Heehee, sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "和大家的茶会结束之后，指挥官要陪着光辉，将光辉学习到的每一项技巧都验证一遍哦——",
+			say = "Once the party is over... we can go over every last little trick I've learned. Together♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

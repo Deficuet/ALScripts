@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "又可以领取任务奖励了。",
+				text = "You have set a schedule and now it's time to claim your rewards.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -30,7 +30,7 @@ return {
 			alpha = 0.4,
 			waitScene = "EducateTargetLayer",
 			style = {
-				text = "又完成了一个目标呢。接下来可以继续进行行程规划了。",
+				text = "You have completed another growth goal. Now go back to review the schedule.",
 				mode = 2,
 				posY = 0,
 				char = 1,
@@ -52,7 +52,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "Tap your screen to return.",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -72,7 +72,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "Tap your screen to return.",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -91,7 +91,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请点打开<color=#39bfff>行程计划</color>",
+				text = "Tap the Weekly Schedule button.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -111,7 +111,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "勾选这里，可以跳过行程动画，但不会跳过行程中的特殊事件哦。",
+				text = "Enabling this allows you to skip the schedule cinematic (however, special event cinematics will still be shown).",
 				mode = 2,
 				dir = -1,
 				char = 1,

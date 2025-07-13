@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"我方旗舰的<color=#ff7d36>航空支援</color>已准备完毕 ",
-	"清除战场准备！点击<color=#ff7d36>航空支援</color>按钮试试吧！",
-	"看到空中支援的威力了吧！ 紧急情况下释放，还能<color=#ff7d36>消除敌方弹幕</color>呢！"
+	"Your flagship's <color=#ff7d36>Aerial Support</color> is ready.",
+	"Clear the battlefield! Get ready for <color=#ff7d36>air support</color>!",
+	"Witness the power of our fighters! Use them when you need a leg up. They can also <color=#ff7d36>destroy enemy barrages</color>!"
 }
 
 return {

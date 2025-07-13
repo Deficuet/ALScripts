@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>三　关于姐姐</size>",
+					"Duelling Sunshine!\n\n<size=45>3 The Topic of Sisters</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港区·指挥室",
+			say = "Port—Office",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后只要把这个整理好就行了……嘿咻~",
+			say = "Once we finish putting this together, we'll be done... Mm~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我这边搞定了哦！你那边怎么样啦？",
+			say = "Commander, I'm done on this side! How are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			},
 			options = {
 				{
-					content = "刚好完成",
+					content = "I just finished myself.",
 					flag = 1
 				}
 			}
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yeah~今天的工作也顺利完成咯！",
+			say = "Yay~ Another day's work, completed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……空下来的时间有点多啊。秘书舰在工作日出去大摇大摆地闲逛也不太好，做些什么好呢……",
+			say = "Hmm... but it's a bit early to be excited... and it's no good for a secretary ship to be wandering about outside on a weekday... I wonder what I should do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要不干脆来聊聊天吧？指挥官，听说彼此之间交流兴趣爱好，能够培养工作中的默契哦！",
+			say = "Commander, would you like to chat for a bit? How about our interests? That should make working together a lot easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就算突然说要聊天，以什么话题起头呢……",
+			say = "She wants to chat, huh... What should we talk about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然是我的姐姐们咯~",
+			say = "Then, how about talking about my distinguished sisters in the Yorktown class?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说指挥官~你其实对我的姐姐们也很在意吧？",
+			say = "Don't worry, I get it. I know that you've been pretty interested in Yorktown and Enty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要说不在意肯定是在撒谎就是…………",
+			say = "...I'd be lying if I denied it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗——该不会真被我说中了吧~！",
+			say = "Hehe, I hit the bullseye, didn't I~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用害羞不用害羞，被姐姐们的魅力所吸引是再正常不过的事了。",
+			say = "Hehehe, there's no need to be embarrassed. It's understandable to be taken in by my sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以指挥官，你在意的是哪一位呢？我作为小妹，特别给你提供一点情报也没问题哦？",
+			say = "So, which one are you interested in the most, Commander? As the youngest sister, I'm willing to provide you with some special insider info~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,15 +289,15 @@ return {
 			},
 			options = {
 				{
-					content = "约克城",
+					content = "\"Yorktown\"",
 					flag = 1
 				},
 				{
-					content = "企业",
+					content = "\"Enterprise\"",
 					flag = 2
 				},
 				{
-					content = "大黄蜂",
+					content = "\"Hornet\"",
 					flag = 3
 				}
 			}
@@ -309,7 +309,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "约克城姐啊……她可以说是我们当中温柔的代表呢。",
+			say = "Yorktown, huh... She's the gentlest one out of us all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "不过，约克城姐偶尔会流露出一丝我也弄不明白原因的忧伤……",
+			say = "But from time to time, she has a pained expression... and even I'm not sure of the reason why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "我相信如果是指挥官的话，肯定有办法让姐姐她开心起来的！",
+			say = "Commander, I hope you're able to make her smi... err, happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "居然以企业姐为目标……了不起啊指挥官。",
+			say = "Going after Enty... You've got discerning eyes, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "企业姐那无论何时都全力以赴的性格以及由内到外散发出的的强大实力……不仅为白鹰的同伴们所景仰，也赢得了港区其他竞争对手们的尊重。",
+			say = "Having an aura that radiates strength, but not haughty. Always willing to do her best, and respected not only by the other ships in the Union but also by her rivals...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "就是有些时候有些太勉强自己了……指挥官先从这方面开始做点什么比较好哦~",
+			say = "Well, she does push herself too hard at times... Do something about that side of her first, and then we can talk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "大黄蜂吗？让我想想啊……",
+			say = "Hornet, huh... Let's see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "哎不对不对，我就是大黄蜂啊？！",
+			say = "Wait a second, Hornet? You're talking about me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "很遗憾，大黄蜂不在本次的情报交流备选名单之中哦~",
+			say = "Heh~♪ Unfortunately for you, information about the great Hornet is off limits~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，还有什么想知道的吗？我大黄蜂尽量知无不答！",
+			say = "Ehehe, is there anything else you were curious about? I'm willing to talk about anything I know about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "其实……还想问一下大黄蜂对于姐姐们的看法。",
+			say = "\"I'm curious how you feel about your sisters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喜爱，尊敬……然后是羡慕吧~",
+			say = "Well, they're my dear sisters who I respect, but from time to time, I do get jealous of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "特别是企业姐，那可是声名显赫啊。托她的福，我也沾了不少光呢。",
+			say = "Especially since Enty is unbelievably famous, and I've become famous by association.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有不少人干脆就直接叫我“企业的妹妹”了~真是厉害的姐姐吧，哈哈哈……",
+			say = "I get called \"Enterprise's sister\" a lot... It sure is hard having a sister that famous, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然只有一瞬间，但还是隐约感觉到了大黄蜂隐藏在自信之下的一丝忧郁…",
+			say = "For just a moment, I was able to see the discontent that lay underneath her normally bubbly exterior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

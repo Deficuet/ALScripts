@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			dir = 1,
 			bgm = "bgm-royalnavy",
 			flashin = {
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胜负已分！本次演习的胜利者为前卫大人~",
+			say = "Sis, how'd we get here?! And why the hell did Vanguard just shoot at us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "哼哼~试图弹飞我武器的思路还不错，不过脚下的动作还是太慢了哦。",
+			say = "\"Well, my execution was fairly good, but the last part was sloppy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是我的武艺还不够精湛……感谢您在百忙之中应邀前来指导。",
+			say = "This... doesn't seem to be an illusion conjured by Antiochus. Look at our appearances – we seem to have gone back in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不用客气，我们都是陛下的骑士，相互帮助是应该的。",
+			say = "\"I'll need to work on it a bit more, but hey, practice makes perfect. I'll nail it soon enough.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "骑士团的整体战斗力提高了，对陛下也更有帮助。",
+			say = "\"Thanks for taking the time to help me practice my special move today.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，刚刚您反制声望的攻击，一举逆转局势的那招是怎么做到的呀！",
+			say = "\"Don't mention it. Your technique is very unique... Would you mind performing it again someday? I'd like to study it for myself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "嗯~那可是我的秘密招式。",
+			say = "\"Uhh... Yeah, sure. Someday.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你要是想学的话，也不是不能教你哦？",
+			say = "\"Truth be told, I learned it just from watching someone else. I don't think I can teach it directly, per se.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202310,
-			say = "真的么！我想学！请务必教教我！",
+			say = "\"That's fine, and thank you. I want to explore its potential as a flashy feint. It could work on some opponents.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也想学！学会了之后说不定我也能在跟姐姐的对决里赢上几分了~",
+			say = "...I don't think they realise we're here. You reckon this is one of Vanguard's memories?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能一起教教我么？我想继续提高武艺，早日成为独当一面的骑士。",
+			say = "I'd suspect so. Perhaps that's why we look the way we did pre-METAmorphosis – Vanguard only knew a Renown and Repulse by these appearances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "大家都这么好学啊~没问题哦————不过得下次，今天是不行了。",
+			say = "\"Better start wrapping things up. Someone needs to guard Her Majesty.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,42 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下之后有前往上院演讲的安排，我要护送陛下过去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 205130,
-			say = "还有声望，在我看来你已经是独当一面的骑士了哦，只不过相比我还有些差距就是了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205130,
-			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "继续加油训练吧~平时多流汗，战时少流血。",
+			say = "\"The Royal Maids are plenty for that... but I digress. A Royal Knight must not be picky about her assignments.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +320,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "每天在训练场上的努力，都会变成战场上的胜机哦~",
+			say = "\"Hope Bellona won't ask who exactly I learned the move from... If anyone finds out it was an anime character, my life is over.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205130,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"...You know what, better not use it at the next exercise. Too risky.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 205130,
+			say = "\"Good, honest practice and hard work win battles. Not flashy special moves.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

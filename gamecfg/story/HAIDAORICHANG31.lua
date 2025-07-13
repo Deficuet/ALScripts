@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>奇妙的钓鱼比赛</size>",
+					"Uncharted Summer\n\n<size=45>Fishing Competition</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "附近的沙滩上插着一块牌子，上面画着钓鱼的标志，以及一行——",
+			say = "On a nearby beach, a sign has been erected with a drawing of a fishing rod and a line of text on it.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -48,11 +48,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "公告板",
+			actorName = "Sign",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“无人岛钓鱼大赛”！",
+			say = "\"Come watch the island fishing competition!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "正在进行钓鱼比赛么……去围观一下好了。",
+			say = "(Sounds like fun. Might as well check it out.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观众朋友们~！这里是本次“无人岛钓鱼大赛”的特派记者{namecode:55}！",
+			say = "Good day, folks! I'm Aoba, reporter on the scene for our first-ever fishing competition!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在为各位直播捕鱼大赛的盛况~！",
+			say = "We're bringing you this exciting event live!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼……这个手感————起！",
+			say = "I've got one... Now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "伴随着{namecode:408}的动作，一条咬钩的大鱼被提出了水面。",
+			say = "Z23 raises her fishing rod and reels in a large fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔？！不愧是{namecode:408}选手，一条接一条，收获接连不断呢！",
+			say = "Ooh! There's Z23 with her signature technique! She's on a roll today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战况不妙……",
+			say = "It's not over yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，{namecode:6}选手那边好像又有鱼咬钩了！她的收获又要增加了吗？",
+			say = "Why, it looks like Ayanami also has something on the hook! Will she bring it in, or will it squelch its way free?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿呀~！",
+			say = "Hoy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "伴随着{namecode:6}收杆提竿的动作，一条不小的白色海鱼被提出了水面。",
+			say = "Ayanami wrestles her fishing rod and pulls a big, white fish out of the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "{namecode:6}，好厉害！",
+			say = "Wow! That's big!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，不仅如此……有一只海鸟同时扔了一条鱼到{namecode:6}的桶里！",
+			say = "Hold on a minute... A seagull just deposited a fish into Ayanami's bucket!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这……这是！",
+			say = "Was this planned, or a lucky coincidence?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢，噗噶。",
+			say = "Thank you, Squawkey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲也不会输的……",
+			say = "I'm not giving up without a fight...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小白，还有小白的朋友小黑，拜托了……",
+			say = "Blanc, Noir, I'm counting on you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "虽然拉菲的鱼竿没有任何反应，但是……",
+			say = "At first glance, it seems like Laffey won't catch any fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "噗通、噗通，两只海鸟先后将两条鱼扔到了拉菲的桶里。",
+			say = "A few seconds later, though, two fish land in her bucket, caught and carried by her seagull friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这难道就是……不用鱼竿也能钓上鱼的秘密奥义！",
+			say = "She's catching fish without relying on a fishing rod! That's crazy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "人多，就是力量……",
+			say = "Three heads are better than one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等等？！怎么能这样！？",
+			say = "Wait, is that legal?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "————好，又上钩一条！",
+			say = "No, can't let myself get distracted... There! Caught another one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "伴随着{namecode:408}的动作，又一条咬钩的海鱼被提出了水面。",
+			say = "Z23 keeps her head in the game and manages to catch another big fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喔哦哦——看来{namecode:408}选手并没有被眼前的意外所吓倒，反而激发起了燃烧的斗志！",
+			say = "Look at that! Rather than intimidate Z23, it seems this sudden turn of events only bolstered her fighting spirit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么能输在这里啊————！",
+			say = "You won't win so easily!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "加油，噗噶！",
+			say = "Keep it up, Squawkey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小白，还有小白的朋友小黑，小黑的朋友小灰，拜托了……",
+			say = "Blanc, Noir, and now Gris, give it your all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀哎呀，比赛已经进入了白热化阶段，冠军究竟会花落谁家呢！",
+			say = "It looks like the competition is nearing its climactic finish! Who will take home the gold?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是正在进行“无人岛钓鱼大赛”现场直播的特派记者{namecode:55}，请与我一起见证到最后吧！",
+			say = "Once again, I'm Aoba, reporting to you live! Don't switch the channel – we'll be right back after a commercial break!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "…………见识到了不得了的场面呢。",
+			say = "...This whole thing sure is quite the sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "在拍打着白浪的沙滩上，奇妙的钓鱼比赛还在激烈进行着——",
+			say = "The odd fishing competition continues against the backdrop of white waves washing ashore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

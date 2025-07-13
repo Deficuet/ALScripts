@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "别墅·露天烧烤区",
+			say = "Outdoor Barbecue Area",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "标枪架起便携小锅，专注地搅动着小锅里咕嘟冒泡的食物。阿蒂利奥则捧着碗坐在一旁，满脸期待。",
+			say = "Having set up the portable stove and pot, Javelin is attentively stirring the bubbling food. Attilio, holding a bowl, stands by her side, with eyes twinkling in anticipation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汤的颜色越来越深了……是不是快熟了呢？",
+			say = "The colour of the soup is getting richer. It should be ready now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇——兔兔们的口水都要流下来啦……",
+			say = "Oooh! Even the bunnies are drooling!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要捞一个出来尝尝吗……呼、呼！烫到舌尖惹——吼痛~",
+			say = "Let me have a taste. *huff puff*... Owch! I nearly burned my tongue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "吃太烫的食物会伤胃的，稍微放凉些再吃比较好。",
+			say = "It's bad for your digestion if the food's too hot. You should wait until it cools down a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！你怎么来啦？是来和我们一起露营的嘛？",
+			say = "Ah, Commander! Are you here to camp with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "有指挥官在，森林里的坏蛋都要害怕我们了哦！",
+			say = "With you here, all the baddies in the forest will be too scared to come close!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（莫名有点不放心啊……但这种感受还是不要告诉她们了。）",
+			say = "(Something about this feels off... I'll just hold my tongue.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你们在煮什么呢？",
+			say = "What are you making?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汤里煮的是阿蒂利奥和标枪一起采的小蘑菇哦！还有餐盘里摆的这些果子，也是我们一起采的~",
+			say = "A soup with mushrooms we gathered! We picked all the fruits on these platters, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来是蘑菇汤么……闻起来好香啊。",
+			say = "A mushroom soup, eh? No wonder it smells so good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是香料的原因吧？阿蒂利奥带的是什么香料呀？",
+			say = "That's probably thanks to the spices! Speaking of which – Attilio, what spices did you bring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "阿蒂利奥没有带香料哦！",
+			say = "That's the thing – I didn't bring any!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？没带香料吗？那我放的是……唔……我有放香料吗……？",
+			say = "What? But then where'd the spices that I put in... Wait... What did I even put in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "欸欸！兔子公爵……怎么变成两个了？还有黑兔子和白兔子也……",
+			say = "Hey, why are there two Duke Monochrome Bunnies? No wait, White Bunnies and Black Bunnies too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……她俩的反应有点不对劲，难道……）",
+			say = "(Their reactions are weird. Don't tell me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "喂！你们在煮什么呐？！",
+			say = "You two! What are you cooking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "富兰克林的一声大喝，瞬间让阿蒂利奥和标枪摆脱了晕乎乎的状态。",
+			say = "Franklin's sharp exclamation brings the two back to their senses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇？！吓我一跳，发生什么了？",
+			say = "Whoa! Y-you scared me... What just happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "兔子公爵……变回一个了。",
+			say = "Duke Monochrome Bunny became one again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "这个蘑菇……虽然特征不太明显，但确实是……“吃了之后就会看到跳舞小人”菇！",
+			say = "Those mushrooms don't have any distinct features, but they're definitely the kind that makes you see dancing fairies when you eat them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "富兰克林将标枪碗里的蘑菇汤倒回锅里，整个端走倒了个干净才回来。",
+			say = "Franklin takes the bowl of soup from Javelin's hands, pours it back into the pot, then empties the whole thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "怎、怎么会……阿蒂利奥采到了坏蘑菇吗……",
+			say = "H-how could it be... Did I pick some bad mushrooms?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看看还没煮的部分……嗯，其实有相当一部分是能吃的，另外一些也只是不好处理。",
+			say = "Let me take a look at the uncooked ones... Actually, quite a lot of these are edible, though some are a little tricky to prepare correctly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "阿蒂利奥想学如何辨认好蘑菇吗？想的话，就和我一起重新出发吧~",
+			say = "Attilio, wanna learn how to identify different shrooms? Heck, we could pick some new ones together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "想！阿蒂利奥要给指挥官做最美味的蘑菇汤！",
+			say = "Ooh, sure! When I get back, I'm gonna make the best soup ever for the Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也去我也去！富兰克林姐教我捕鱼吧！",
+			say = "I'll come with you too! Can you teach me how to catch fish while we're at it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "富兰克林、阿蒂利奥和标枪去寻找食材，我则留在露营区搭帐篷。",
+			say = "While Franklin, Attilio, and Javelin went off to forage, I stayed at the campsite and set up the tent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "搭完发现露营区旁{namecode:98:明石}在卖烧烤用具，都是价格虚高的套装，{namecode:98:明石}却说一定能卖出去……那副笃定的模样让人感觉有些不妙。",
+			say = "When I was done, I happened to notice that Akashi was selling barbecue supplies nearby. Despite how expensive they were, she was confident she'd make big bucks – a statement that gave me a bad premonition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "回到帐篷时，富兰克林三人也都回来了。",
+			say = "By the time I returned to the tent, they had just come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！阿蒂利奥学会辨认好蘑菇和坏蘑菇啦！马上就去学怎么做最美味的蘑菇汤！",
+			say = "Commander! Franklin taught me how to tell good shrooms from bad shrooms! Now I'm gonna learn how to make yummy mushroom soup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，指挥官~我也抓到好几条鱼！等会可以一起吃烤鱼了哦~",
+			say = "Heehee! Commander, look! I caught loads of fish! We should grill them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107130,
-			say = "我在出发前也把烧烤工具、调料和食材都准备好了，随时都可以开始烧烤呢~！",
+			say = "We can start making barbecue at any time! I brought along a grill, seasonings, and ingredients before we set off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "露营BBQ正式开始！",
+			say = "Awesome. Let the barbecue begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,20 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "在富兰克林的主导下，美味的烧烤和香喷喷的蘑菇汤很快就端到了我的面前。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_701",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "烤鱼和蘑菇汤都很美味，完全不像是新手做的，看来标枪和阿蒂利奥都很有料理天赋呢！",
+			say = "We got to work under Franklin's command, and soon we had prepared an appetizing feast of barbecue and mushroom soup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +507,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "吸饱汤汁的新鲜蘑菇口感非常好，汤也很鲜美……",
+			say = "These both taste incredibly good for a beginner's first shot at them. You should consider becoming chefs, you two!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_701",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "The mushrooms are nice and spongy after absorbing lots of soup, and the soup is really elevated by the flavors in the mushrooms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "嘿嘿，阿蒂利奥很厉害吧~当然啦，兔兔们也有功劳哦！",
+			say = "Heehee! I have the chops of a real chef! Of course, I couldn't have done it without my bunny assistants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "鱼皮焦脆，鱼肉鲜嫩……对火候的把握恰到好处。",
+			say = "And this fish, wow – crunchy and fragrant on the outside, soft and juicy on the inside. It's perfectly grilled!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官喜欢的话，标枪来帮你再烤一份吧~",
+			say = "I can make some more for you if you like it that much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你们这是在……野餐吗？",
+			say = "Commander? Are you having a picnic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸！星座小姐什么时候来的？！",
+			say = "Constellation! When did you get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "本来在营地旁边架好了望远镜准备观星的……可从这边飘来的香味实在太诱人了，我的腿就不听使唤地自己走过来了……",
+			say = "I was setting up my telescope not far from this campsite, and that's when I was drawn here by the smell of delicious food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，没想到我们这边烤肉的香味都飘到那么远了，还好准备了不少食材，再加一个人也完全没问题呢。",
+			say = "Ahaha! The smell of barbecue travels far, huh? There're tons of ingredients left, so help yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢~说起来，过来的路上还看到了{namecode:98:明石}小姐的摊位，那边也围了不少人。",
+			say = "Thanks! Oh, by the way, I saw Akashi on the way here. She'd set up a stall that seemed to be pretty popular.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 104010,
-			say = "但大家说吃起来的味道，似乎没有闻到的香……",
+			say = "Apparently, though, her food didn't taste quite as good as it smelled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（原来这就是{namecode:98:明石}能卖出去的原因么……）",
+			say = "(Oh. That's why she said she'd make big bucks – she was riding our tailwind.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "之后大家把准备的食材吃的一干二净，满足地跟着星座到了她的观测地，找了一个小坡躺在草坪上望着星空。",
+			say = "After having our fill of food, we went to the place where Constellation had set up her telescope. We sat on the grass and gazed at the night sky together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "星座在一旁介绍着一颗又一颗星星，大家也兴致勃勃地数着，直到把星星都认了个遍才肯回去。",
+			say = "With Constellation as our guide, we lost ourselves in the night sky. She'd point out a star, and then another, and soon we were all caught up, eagerly counting along. We didn't even think of heading back until we'd spotted nearly every star she named.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			bgm = "hunhe-battle",
 			dir = 1,
-			say = "巴拿马要塞东侧？·迷雾中",
+			say = "Canal Stronghold? - Out at sea?",
 			effects = {
 				{
 					active = true,
@@ -31,7 +31,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "埃塞克斯等人在迷雾中一边与若隐若现的敌人交火，一边寻找着返回要塞的航路。",
+			say = "Intrepid, any good news from your recons?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "啊啊啊…真是的，到处都是不知道从哪儿冒出来的敌人。",
+			say = "Damnit, where are these enemies coming from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "都走了这么久了…总感觉我们是在原地打转嘛，这样下去就没完没了啊！",
+			say = "(At this rate, our supplies are going to get whittled down... What should we do...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			actor = 101440,
 			dir = 1,
-			say = "…大喊大叫只会浪费更多力气哦，马布尔黑德…",
+			say = "What's wrong, Marblehead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 102270,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你没有资格说我吧…！刚才隔着老远就听到你在喊什么“雷霆切断”“旋风一击”那都些是什么啊！",
+			say = "Cooper, could you tone it down a notch? I can't focus with you constantly yelling \"Cyclone Smasher!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，那些都是库珀自创的必杀技名，很帅吧！",
+			say = "But that's the name of my new secret technique! It's super cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "从吸引敌人火力的角度来说，确实还蛮有效果啦…",
+			say = "Look, you're going to draw the attention of the Sirens with all your yelling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜啊……我也好累啊………！",
+			say = "Ugh... I guess you have a point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（完全找不到返回要塞的路，虽然再打下去也没什么问题，不过也不能一直拖下去…）",
+			say = "(I'm not seeing an escape route... We can still fight for now, but we can't keep this up forever.)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -211,7 +211,7 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（唔…迄今为止对抗塞壬的经验来判断…）",
+			say = "(Knowing the Sirens, they're likely to appear once we've exhausted our reserves. And if that happens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "（咦？埃塞克斯又在发呆…从企业前辈消失之后，已经发呆了几次了呀…）",
+			say = "(Essex hasn't said much, but... I'm sure Enterprise's disappearance must have dealt a heavy blow to her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "（八成又在想“…如果企业前辈在这种局面会做些什么…”吧）",
+			say = "(...or maybe not. I'm sure she's thinking hard about what Enterprise would do in this situation.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…如果企业前辈在这种局面下会做些什么呢…）",
+			say = "(Enterprise, if you were here right now, what would you do...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "（果然…唉，她都那么努力了，再多自信一些也没关系嘛）",
+			say = "(That girl dwells way too much on what Enterprise thinks about her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，你没事吧？",
+			say = "Essex, are you all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…如果企业前辈的话…）",
+			say = "(If only Enterprise was here right now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯！！",
+			say = "Essex!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -341,7 +341,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊！企业前辈？！",
+			say = "Waaah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "……真败给你了，这种时候发什么呆呢，又有一波敌人靠过来了哦。",
+			say = "...Aren't you thinking a bit too hard? According to Cooper, a new Siren is approaching us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是不是不是，你误会了！我是在想如果这种局面下企业前辈会怎么做啦！",
+			say = "I-I'm fine... but if Enterprise was here...！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "企业前辈的话，八成会向着敌人最密集的地方冲过去，然后潇洒的把敌人全部消灭吧。",
+			say = "...she'd probably lead everyone to attack the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "有些时候企业前辈的战术根本构不成参考，埃塞克斯你应该更----",
+			say = "But look, you probably shouldn't emulate her style in lieu of the core strategies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………对！就是这样！和镜面空间一样，塞壬维持这么大规模的海雾一定在某处存在有控制装置！",
+			say = "...I've got it! If the Sirens did in fact create a Mirror Sea here, then the core must be located somewhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而控制装置一定会被塞壬重兵保护！只要找到塞壬最密集的地方解决了控制装置，我们就能突破困境了吧！",
+			say = "If we break that core, whatever it is, then that should also dissipate this heavy mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无畏，帮大忙了！",
+			say = "Intrepid, thanks a ton! You were a great help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎哎？！！不用客气……",
+			say = "Huhhh?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

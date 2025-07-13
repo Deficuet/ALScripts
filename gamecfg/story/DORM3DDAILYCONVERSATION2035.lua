@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近读了一本新的小说。",
+			say = "I've been reading a novel that came out recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过是主要描写爱情的小说，{dorm3d}应该对这种内容不太感兴趣吧？",
+			say = "It's mainly a story about romance, so it might not be up your alley...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只是作者的文笔很是优美，让一个普通的爱情故事变得不那么普通了。",
+			say = "Still, the author's prose is beautiful and brings something new to the tired and cliché romance genre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "说来听听？",
+					content = "Now you got me curious.",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我还没有读完，不如等今晚我读完了，当睡前故事讲给你听吧。",
+			say = "I'm still in the middle of reading it, but if I finish it later tonight, I could read some of it to you before bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

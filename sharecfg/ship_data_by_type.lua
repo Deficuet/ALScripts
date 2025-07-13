@@ -8,7 +8,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 1,
-		type_name = "驱逐",
+		type_name = "Destroyer",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -37,7 +37,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 2,
-		type_name = "轻巡",
+		type_name = "Light Cruiser",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -66,7 +66,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.18,
 		ship_type = 3,
-		type_name = "重巡",
+		type_name = "Heavy Cruiser",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -95,7 +95,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.24,
 		ship_type = 4,
-		type_name = "战巡",
+		type_name = "Battlecruiser",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -124,7 +124,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.3,
 		ship_type = 5,
-		type_name = "战列",
+		type_name = "Battleship",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -153,7 +153,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.18,
 		ship_type = 6,
-		type_name = "轻航",
+		type_name = "Light Carrier",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -182,7 +182,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.27,
 		ship_type = 7,
-		type_name = "正航",
+		type_name = "Aircraft Carrier",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -211,7 +211,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.06,
 		ship_type = 8,
-		type_name = "潜艇",
+		type_name = "Submarine",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -238,7 +238,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.21,
 		ship_type = 9,
-		type_name = "航巡",
+		type_name = "Aviation Cruiser",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			7,
@@ -267,7 +267,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.27,
 		ship_type = 10,
-		type_name = "航战",
+		type_name = "Aviation Battleship",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -296,7 +296,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 11,
-		type_name = "雷巡",
+		type_name = "Torpedo Cruiser",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -325,7 +325,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.15,
 		ship_type = 12,
-		type_name = "维修",
+		type_name = "Repair",
 		team_type = "main",
 		strengthen_choose_type = {
 			1,
@@ -352,7 +352,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 13,
-		type_name = "重炮",
+		type_name = "Monitor",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -379,7 +379,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.06,
 		ship_type = 17,
-		type_name = "潜母",
+		type_name = "Aviation Submarine ",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -406,7 +406,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.18,
 		ship_type = 18,
-		type_name = "超巡",
+		type_name = "Large Cruiser ",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -435,7 +435,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.15,
 		ship_type = 19,
-		type_name = "运输",
+		type_name = "Munition Ship ",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -464,7 +464,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 20,
-		type_name = "导驱",
+		type_name = "DDG",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -493,7 +493,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 21,
-		type_name = "导驱",
+		type_name = "DDG",
 		team_type = "main",
 		strengthen_choose_type = {
 			1,
@@ -522,7 +522,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 22,
-		type_name = "风帆",
+		type_name = "Sailing Frigate",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -549,7 +549,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 23,
-		type_name = "风帆",
+		type_name = "Sailing Frigate",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -578,7 +578,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.24,
 		ship_type = 24,
-		type_name = "风帆",
+		type_name = "Sailing Frigate",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,

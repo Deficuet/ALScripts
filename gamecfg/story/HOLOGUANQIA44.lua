@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-control",
 			dir = 1,
-			say = "将诗音…移动到反抗军基地，在净化亲身上放一枚嘲讽指示物…结束",
+			say = "I send Shion to the Resistance base, place a taunt counter on Purity, and end my turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "为什么是我啦？！而且！虽说是一决胜负，对面的名侦探，这么一对多真的没问题么？",
+			say = "Eh?! Me?! Wait a sec! Why am I being forced to be the tank?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,8 +43,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "没问题没问题~能在这么短时间内上手陪我玩，我就很满意啦。",
+			actorName = "Master Detective Fubuki?",
+			say = "As expected from someone who usually plays games, you've already picked up on the rules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名侦探吹雪",
+			actorName = "Master Detective Fubuki?",
 			dir = 1,
-			say = "很遗憾，因为场地【岩浆之海】的效果，【净化亲】本回合无法移动。然后启用装置【塞壬科技·大量生产】！",
+			say = "But how's this? The field spell, \"Sea of Lava,\" taps Purity with its effect! I also use Mirror Sea's National Power 4 to activate \"Siren Technology: Mass Production!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "虽然规则上没有写，不过这个装置有着在场外选择最多三名新角色入场的效果哦~",
+			actorName = "Master Detective Fubuki?",
+			say = "On top of that, I use \"Coin\" to discard two 1 mana cost \"Mass Production Model\"s, and fulfilling the cost for Star and Moon, I increase my Link rating to 3.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也太犯规了吧！！",
+			say = "I don't really get it, but you've been the only one playing since we started!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,9 +116,9 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名侦探吹雪",
+			actorName = "Master Detective Fubuki?",
 			dir = 1,
-			say = "作为这个游戏的创造者，不好意思咯~回来吧，山田·赫敏，燕子花奈切，澪川依代！",
+			say = "Solitaire is a developer's privilege! Return to me, Yamada Hermione, Kakitsubata Nakiri, and Miokawa Iiyo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…我完全理解了！为【大天使阿库娅】装备【剑圣之剑】，向【名侦探吹雪】发动直接攻击！",
+			say = "I see... with this, I completely understand the combo! Arise, my vanguard, \"Archangel Aqua!\" Ignition Overdrive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "阿库娅！……前面的建筑下有陷阱！消耗三点行动力，为【大天使阿库娅】发动【白狐的加护】",
+			say = "Aqua! Watch out! Fauxbuki still has one evolution left!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千钧一发…发动事件卡【遭遇伏击】，下一回合…对手无法进行移动",
+			say = "Is this possibly Hololive's trump card...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "拖延战术没用的啦~发动事件【名侦探的谜题】！",
+			actorName = "Master Detective Fubuki?",
+			say = "You're too late! Due to the damage, burst activates, \"The Great Detective Fubuki's Riddle!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,8 +197,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "我选择将山田·赫敏，澪川依代，燕子花奈切，夏 色 祭，抖S空，\n诗 音，名侦探吹雪全部从游戏中排除！并以此为代价召唤新的角色！！",
+			actorName = "Master Detective Fubuki?",
+			say = "I sacrifice all of my \"pieces\" and banish them from the game! With this, I summon my strongest servant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +214,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "降临吧！白上吹雪的究极形态，时间与空间的支配者，DARK FOX BIZZARD！！！",
+			actorName = "Master Detective Fubuki?",
+			say = "Come out, the ultimate form of Shirakami Fubuki, ruler of time and space, Shadow Eye Blizzard Fox!",
 			effects = {
 				{
 					active = true,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "居……居然拥有3000点攻击力？！",
+			say = "That isn't a monster... That's Fubuki!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "只要击败了大将白上吹雪，游戏就结束了！DARK FOX BIZZARD发动攻击！狐瞬杀！！！",
+			actorName = "Master Detective Fubuki?",
+			say = "I just have to defeat your Fubuki in order to win! Now, you would do well to bow before the most noble power in the entire Hololive Headquarters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这可说不定哦",
+			say = "... I wouldn't be so sure about that.",
 			effects = {
 				{
 					active = false,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎…？吹雪生命值，没有归零？发生什么事了…",
+			say = "Fubuki, you're still standing...? But how...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "当受到致命伤害时，最后的杀手锏，速攻魔法【连接着的羁绊】效果发动",
+			say = "Quick-Play Spell Activated! I fuse the furniture \"Secret Magic Booster\" with myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "这张卡的效果只能在异世界中发动。直到下次行动前，使用者的生命无法低于1点。同时由对手承受本次的全部溢出伤害！",
+			say = "This effect can only be activated in another world! It nullifies one direct attack from the opponent, and reflects it back at them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,9 +351,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "哎？！敌方玩家全灭，到此为止，游戏结束！",
+			say = "You're saying that it's an effect that's not written on the card, but... a hidden effect?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -374,8 +374,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "怎…怎么可能…这张卡怎么会在你的手上！？（倒",
+			actorName = "Master Detective Fubuki?",
+			say = "Th-That... There's no way...! Gahh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}在游戏结束的同时直接把敌人打倒了？！",
+			say = "Did the enemy just faint from Kawakaze's silently striking her with the back of her sword?",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人在白光中消失了。这样就算是…赢了…对吧？",
+			say = "The mysterious space has dissipated... W-We've won... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉，心好累啊…就这样乘胜追击，向着本社大楼进军吧…",
+			say = "For some reason, I'm tired out... Let's hurry to the Hololive headquarters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -68,9 +68,6 @@ return {
 								hpBarNum = 100,
 								icon = "tashigan"
 							},
-							buffList = {
-								8748
-							},
 							phase = {
 								{
 									switchType = 1,

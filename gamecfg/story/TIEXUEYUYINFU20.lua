@@ -10,9 +10,9 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			dir = 1,
-			say = "喂！那边的那个小不点，不许在港区海域胡闹，立刻报上所属！！",
+			say = "Hey! You there! No horesplay in the port! State your name, rank, and affiliation!",
 			bgm = "bsm-5",
 			typewriter = {
 				speed = 0.05,
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，{namecode:416}正是在下！！",
+			say = "Heh heh. I am the great Parzival of the Seas! Winner of the Knight's Cross with Oak Leaves, U-556 herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "{namecode:416}向{namecode:436}姐姐送上晨间的问候~",
+			say = "I bid you good morning, Lady Tirpitz~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "姐...姐姐…？谁允许你叫我姐姐了！！？",
+			say = "L-Lady...? And just what is that title supposed to mean?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "如果你再胡闹，我就要叫管制部队来收拾你了！",
+			say = "If I catch you misbehaving again, you'll answer to the military police!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "嘿嘿，管制部队的那班家伙是抓不住幸运的{namecode:416}的",
+			say = "Heh heh heh... It'll be a cold day in hell when those pigs can catch The Lucky 556!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "对了对了，{namecode:436}姐姐，来，重复模仿一遍我的动作~",
+			say = "Here, Lady Tirpitz, you give it a shot. See if you can chase me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "嗯？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
-			say = "（只见{namecode:416}一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
+			say = "U-556 did a graceful, if a bit silly, backflip into the harbor.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,9 +153,9 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			bgName = "bg_bsm_2",
-			actorName = "{namecode:436}",
+			actorName = "Tirpitz",
 			dir = 1,
-			say = "你——别跑！！",
+			say = "Get back here, you!!",
 			effects = {
 				{
 					active = true,
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
-			say = "（{namecode:436}头冒青筋，对着水底下的{namecode:416}大吼着）",
+			say = "Tirpitz seethed with anger at the submerged U-556, popping blood vessels on her forehead.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "嘻嘻，今天又是{namecode:416}的胜利——",
+			say = "Hehehe, chalk up another win for 556!",
 			effects = {
 				{
 					active = false,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（{namecode:435}姐姐，您的妹妹果然跟您有很多相似的地方呢~）",
+			say = "Your little sister is so like you in so many ways, Lord Bismarck.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（伟大的水下骑士{namecode:416}，今天也在履行着骑士的誓言！）",
+			say = "The great Parzival of the Seas, U-556, is off once again to fulfill her knightly vows!）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[3]\n\n<size=45>微醺胜负</size>",
+					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Delirious Duel</size>",
 					1
 				}
 			}
@@ -16,12 +16,12 @@ return {
 		{
 			portrait = 499091,
 			side = 2,
-			actorName = "{namecode:521:兴登堡}",
+			actorName = "Hindenburg",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "哦呀~契约者终于醒了呢。",
+			say = "So you've finally awoken, Contract Binder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "熟悉的声音在耳边响起，睁开眼看到的却不是熟悉的场景。",
+			say = "A familiar voice reaches my ears. When I open my eyes, I'm not in my bedroom.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……这里是……？",
+			say = "Nnh... Where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = "touch",
 			hidePaintObj = true,
-			say = "陌生的房间中，只看得到昏暗的灯光、散乱的纸牌、复古的装饰，还有——",
+			say = "The unfamiliar room is enveloped in dim light. I spy scattered cards, retro decorations, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "半躺在沙发上，穿着侍者制服一脸笑意的{namecode:521:兴登堡}。",
+			say = "Hindenburg. She lays on the sofa in uniform, wearing a fearless smirk on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看契约者这副懵懂的样子……呵呵~不记得了吗？我们之间可还没有分出胜负呢~",
+			say = "You look confused. Heehee... Did you already forget about me? We've yet to finish our little game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "胜负？",
+			say = "Game...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "没错哟~",
+			say = "Yes, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "想要离开此处，唯有在恶魔的试炼中取胜才行呢。",
+			say = "You cannot exit this room until you've overcome the devil's trial.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（脑海中一片空白，依旧什么都没能回忆起来……）",
+			say = "(I'm racking my brain, but my mind is so blank that I can't remember anything...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过既然{namecode:521:兴登堡}这么说……那就……应该是有这么一回事？）",
+			say = "(If Hindenburg says so, then... I guess she must be right...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呵呵~虽然我也不介意中场休息的时间再延长一些……",
+			say = "Heehee. Of course, I don't mind extending this intermission...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不，应该说——",
+			say = "No, better yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我倒是想将你囚禁于此，好让契约者只被我支配。成为……独属于我的珍宝。",
+			say = "Contract Binder, I have half a mind to trap you here forever and make you my plaything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呵呵~契约者无需惶恐。",
+			say = "♪~ Don't be scared, now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "胜负未分，我是不会对你做什么的。",
+			say = "I won't do anything as long as our game goes on... but if you lose, well, that changes things♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但是~如果你输了的话……那可就不好说了哟~契约者，准备好了吗？",
+			say = "Are you ready, Contract Binder?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,11 +294,11 @@ return {
 			},
 			options = {
 				{
-					content = "开、开始吧。",
+					content = "L-let's just do this.",
 					flag = 1
 				},
 				{
-					content = "我一定会赢！",
+					content = "I'll win this game!",
 					flag = 2
 				}
 			}
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "呵呵~有自信是好事，希望一会儿的你还能这么自信。",
+			say = "Heehee, I love your confidence. Let's just hope you can maintain it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "很遗憾，看起来今天的幸运女神并没有站在契约者的身边呢？",
+			say = "What a shame. Lady Luck isn't on your side today, Contract Bearer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好奇怪？我明明算过，不应该啊……",
+			say = "Strange... That's not what I calculated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "手中的纸牌让局面陷入了两难的境地，之前算好的牌面究竟是哪里出现了偏差？",
+			say = "My hand of cards has been driven into a corner. Where did it all go wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "看来契约者还在思考？罢了~多挣扎一会儿也无妨，这有助于你认清现实。",
+			say = "Still lost in thought? That's okay. Struggle a little more; that'll make it so much easier for reality to sink in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "{namecode:521:兴登堡}端着饮料惬意地靠在沙发上，像是一只慵懒的黑豹，正等待着她的猎物自投罗网。",
+			say = "Hindenburg leans back into the couch comfortably. She's the very image of a carnivore waiting for her prey to fall into a trap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "而此时，随着她的动作，我所产生的困惑终于得到了解答！",
+			say = "That's exactly what it takes for me to realize how things ended up this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……原来是这样！）",
+			say = "(...Is that it?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "快速伸手——",
+			say = "I reach a hand out toward a certain enticing feature of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "哦？契约者这是终于等不及……咦？",
+			say = "Contract Binder? Have you run out of patience... Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "将不小心卡在某处的纸牌——这场胜负的关键——拿了出来。",
+			say = "From there I pluck out a single card wedged between them – the card that will save me from the clutches of defeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸呀呀~这调皮的小家伙是什么时候跑进去的？",
+			say = "Heehee. When did that get in there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在看来，这场对局又要重新开始了呢。",
+			say = "It seems our game has gone back to square one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "呵呵~你准备好了吗？亲爱的契约者~",
+			say = "Beloved Contract Binder, are you prepared for what's to come?",
 			painting = {
 				alpha = 0.3,
 				time = 1

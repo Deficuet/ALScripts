@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>二　金狐之策</size>",
+					"Return From the Beyond\n\n<size=45>2 The Dragon Palace's Plan</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "原本作为仪式阵法核心的龙宫城，此刻已经沉入了深海之中。",
+			say = "The Dragon Palace, the host to the ritual that created Naraka, had returned to under the sea.",
 			bgm = "map-longgong",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "金色、蓝色与堇色交织而成的虚幻天空下，一行少女正在各自忙碌着。",
+			say = "Beneath a mystical sky where light of blue, gold, and violet color mingled, Sakuran shipgirls were moving to and fro.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302250,
-			say = "诸位，伴随仪式出现的残存之敌已全部清理完毕了。",
+			say = "Ladies, we have fully dealt with the adversaries that the ritual gave rise to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "城内安全了。",
+			say = "The Dragon Palace is safe once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这边关于龙宫城内的损失评估也完成了。",
+			say = "And I have finished measuring the damages suffered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "外层损失约三点五成，中层损失约二点四成，内层损失约一点六成。",
+			say = "The outer ring sustained 35% damage, the middle ring sustained 24%, and the innermost ring sustained 16%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399070,
-			say = "比预想中要严重不少呢。",
+			say = "That's a lot worse than I anticipated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……所幸城内储备物资足够，无需花时间再从外部调动资源了。",
+			say = "Indeed. The silver lining is that we have ample supplies in our stockpile. We shouldn't need to import anything for our repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399070,
-			say = "维修所需时间呢？",
+			say = "That's good news. How long do you think it will take?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大约三天。",
+			say = "Three days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399070,
-			say = "三天么……大结界受到奈落的侵蚀严重，只能希望这三天内别再出什么事了。",
+			say = "Three entire days? Then in light of the severe corrosion damage the Prime Barrier suffered, I can only pray nothing else happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,21 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话，我可以先开始布置次级阵枢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 399060,
-			say = "这样等{namecode:152:伊吹}那边完成修复后，我这边也差不多布置好了。",
+			say = "In that case, should I start setting up the cornerstone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +198,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "之后我们可以一同执行仪式，直接利用龙宫城的力量开展大结界的修复工作。",
+			say = "It'll be ready by the time you finish the repairs if I start now.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_daofeng_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 399060,
+			say = "Then we can perform the ritual together and use the Dragon Palace's power to restore the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，就如此办吧。",
+			say = "Good idea. Let's go ahead with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "一束流光从空中落下。光华流转，凝聚成了一位少女的虚影。",
+			say = "Just then, a beam of light shot down from the sky in front of them, bending into the shape of a shipgirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:294:云仙}大人？！",
+			say = "Unzen?! You're here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，诸位辛苦了。",
+			say = "Excellent work to all of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "{namecode:83:大和}大人有话要对诸位说。",
+			say = "I come with orders from Lady Yamato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "虚影之中金光闪现，少女的身形虽然没有改变，不过气质已经大不相同了。",
+			say = "The golden light flickered, and the next moment, Unzen's temperament changed as though she had been possessed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "「龙宫城如何？」",
+			say = "\"What state be the Dragon Palace in?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399070,
-			say = "{namecode:83:大和}大人，龙宫城的损失比预期要严重，预计三日后才能开始大结界的修复工作。",
+			say = "It has suffered more damage than we'd hoped. It will take three days before we can begin restoring the Prime Barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "「了然。」",
+			say = "\"Very well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "「另一事呢？」",
+			say = "\"What of that other matter?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边已经安排妥当，正在顺利回收中。",
+			say = "A team is recovering the pieces as we speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			say = "「拼合完毕后，将蟒蛇一同放入返魂仪式的阵枢中。」",
+			say = "\"Following its reassembly, place the Orochi in the cornerstone of the Rite of Resurrection.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "As you command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，{namecode:83:大和}大人已经去专心准备返魂仪式了，我也不打扰了。",
+			say = "Lady Yamato has to prepare the Rite, and I, too, have matters to attend to. I will take my leave now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "少女随手一挥，声音与身影伴随四散的光华一同消失了。",
+			say = "Unzen waved farewell, and the light scattered in all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399070,
-			say = "呼……为了确保返魂仪式的顺利进行，我们必须尽快修复大结界才行。",
+			say = "Well... We must repair the Prime Barrier as soon as possible to ensure the Rite of Resurrection will go smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，继续工作吧——",
+			say = "Alright, ladies, let us get back to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

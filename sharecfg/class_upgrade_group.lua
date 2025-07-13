@@ -2,7 +2,7 @@ pg = pg or {}
 pg.class_upgrade_group = {
 	{
 		id = 201011,
-		name_show = "驱逐雷击教学",
+		name_show = "Destroyer Torpedo Class",
 		day = 1,
 		type = {
 			1,
@@ -15,7 +15,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 302011,
-		name_show = "巡洋炮击教学",
+		name_show = "Cruiser Firepower Class",
 		day = 2,
 		type = {
 			2,
@@ -29,7 +29,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 105031,
-		name_show = "战列理论教学",
+		name_show = "Battleship Theory Class",
 		day = 3,
 		type = {
 			4,
@@ -40,7 +40,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 107011,
-		name_show = "航母理论教学",
+		name_show = "Carrier Theory Class",
 		day = 4,
 		type = {
 			6,
@@ -50,7 +50,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 201011,
-		name_show = "驱逐实战教学",
+		name_show = "Destroyer Combat Class",
 		day = 5,
 		type = {
 			1,
@@ -63,7 +63,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 302011,
-		name_show = "巡洋实战教学",
+		name_show = "Cruiser Combat Class",
 		day = 6,
 		type = {
 			2,
@@ -77,7 +77,7 @@ pg.class_upgrade_group = {
 	},
 	{
 		id = 105031,
-		name_show = "自主学习",
+		name_show = "Self-Study ",
 		day = 7,
 		type = {
 			1,

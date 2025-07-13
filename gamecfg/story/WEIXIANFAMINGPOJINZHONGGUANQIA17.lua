@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "复制体菈菈被彻底消灭后，它被击碎的核心处生成了大量能量石。",
+			say = "When the Lala doppelganger was fully destroyed, Energy Stones started raining out of her shattered core.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "……不愧是最终挑战！居然掉落了这么多！",
+			say = "Wow, no wonder that was the last challenge. There are so many!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这一部分用来修复刚刚造成的破坏……这一部分留下来给超级游戏制作机……",
+			say = "We'll use these ones to repair the damage from the battle, and these ones to fix Questy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "加上最后的这一块……嗯！这些应该就够了！",
+			say = "And then this last one... Yep! This should be enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "少女开心的将一路收获的能量石进行着用途划分。",
+			say = "Her eyes shone as she divided up the Energy Stones based on what they would be used for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要准备走了么？",
+			say = "You're going home already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯~我们差不多也该回去了，非常感谢大家的招待与帮助！",
+			say = "Yeah~ People back on Earth are probably worried! Thanks for all your hospitality and help~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气，希望我们还有一同享受下午茶的机会~",
+			say = "It was our pleasure. I hope you'll come back for tea again some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很荣幸能与诸位一起并肩经历这场战斗。",
+			say = "It was truly an honour to fight alongside you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然不知是否还能再见，但港区随时欢迎着诸位远方的友人。",
+			say = "I don't know if we'll ever meet again, but our port always welcomes guests from other worlds with open arms♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "非常感谢各位，能一起消灭这些不守风纪的家伙真是让人心情舒畅。",
+			say = "I feel a lot better now that I got to do violence against ne'er-do-wells. Thanks for your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "大家明明是被卷进这场麻烦的，却还一直在热心地帮助我们，真的非常感谢……",
+			say = "We caused so much trouble for you all, yet you were nothing but kind to us. Thank you, really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "嘿嘿，好几次如果不是皇家舰队的帮助，都差点受伤了呢。",
+			say = "Heheh, honestly, I doubt we'd be alive right now if not for the Royal Navy's help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "嗯……能一到这个陌生的世界就遇到大家真是太好了。",
+			say = "Agreed. I'm happy that you picked us up so soon after our arrival here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "贝尔法斯特小姐做的点心……",
+			say = "Belfast's snacks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "虽然不是鲷鱼烧，但我不会忘了的。",
+			say = "They weren't taiyaki, but I'll never forget them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请保重，金色暗影小姐。",
+			say = "Take care on your way home, Miss Yami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "呜……呜呜呜……",
+			say = "Ooh... Ooooh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人？怎么了？机器又出问题了吗？",
+			say = "Lala? What's the matter? Is something wrong with Questy again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "果然还是会有点寂寞呢……我们要不要再在这里留一阵子？",
+			say = "I just feel so bad. What if we stayed here a little longer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "姐姐，我明白你的心情……不过不行啊。",
+			say = "I get how you feel, Lala, but we can't do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "学校和作业什么的……会变成旷课的。",
+			say = "We have schoolwork... We'd essentially be playing hooky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "对，菈菈。要回学校去上课才行哦。",
+			say = "She's right. School is important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "哦……哦！也是哦！",
+			say = "Y-yeah! Y-you're right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "好吧，那超级游戏制作机，启动传送程序！",
+			say = "Okay... Questy MacGuffin, activate your warp program!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "超级游戏制作机吸收了菈菈手中最后一块能量石，散发出柔和的光芒。",
+			say = "Questy MacGuffin absorbed the final Energy Stone in her hand and glowed softly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "接着，超级游戏制作机发出滋滋的电流音，冒出了一阵白烟。",
+			say = "But then, with a concerning sizzling sound, Questy MacGuffin spat out a puff of white smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "什么啊……怎么又冒烟了？",
+			say = "Wh-what the heck? Is it supposed to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "呜呜，怎么会这样？明明应该没问题的……",
+			say = "Hmm... Why did it do that? I thought we were good this time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "看起来超级游戏制作机的问题，比姐姐大人想象中还要严重呢……",
+			say = "Questy's ailment may be worse than we expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "这下要怎么办……",
+			say = "I hope it's okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝法，港区的通讯应该恢复了吧？",
+			say = "Bel, do we have communication with port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完全恢复了，陛下。",
+			say = "Yes. Our lines have been fully restored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，将眼下的情况整理一下发送给指挥官吧。",
+			say = "Heehee. Let my servant know about all that's happened today, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到了该指挥官出出力的环节了~",
+			say = "It's almost time for the Commander to step in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "Yes, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，指挥官方面传来了讯息——",
+			say = "Your Majesty, we received word from Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“来港区，有{namecode:98}。”",
+			say = "\"Come to port. Akashi's here, too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈，又该让那个绿头猫咪忙一忙了~",
+			say = "Heheh. It's about time we put that cat to proper work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，诸位就把这当做是一次休假，随本王一起回港区吧。",
+			say = "Why don't you all come with us? Consider it an extended vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~经历了一番战斗，大家是该好好休息一下了。",
+			say = "Lovely idea. Don't we deserve a rest after that fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "真的吗！要前往那个传说中的港区了么？",
+			say = "Really?! We get to go to that port you're always talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "也就是说还能认识更多的新朋友？",
+			say = "And does that mean we get to meet more of you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			actor = 11100010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了！好期待啊！",
+			say = "Hooray! I can't wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……唉。",
+			say = "Meh. Guess I wouldn't mind seeing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "嗯，经历了这么多，稍微休息一下也没什么不好的。",
+			say = "Of course! We've been through so much. Who could fault us for taking a little break?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "既然一时半会儿回不去……那，港区的风纪，我也会帮忙守护的。",
+			say = "If I can't do it at home, then I'll just have to uphold morals at port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "难得的机会，大家一起开心地放松一下吧。",
+			say = "If we're stuck here, we might as well have fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "……会有鲷鱼烧么？",
+			say = "...Do they have taiyaki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "不光有鲷鱼烧，还有其它各色美食哦~",
+			say = "Yep! More than that, too – there are all kinds of tasty foods~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我个人的话，非常推荐鳗鱼冻呢~！",
+			say = "Personally, I'm a real fan of the eel jelly♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "……鳗鱼冻？",
+			say = "Eel... jelly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯！鳗鱼冻！",
+			say = "Yeah, eel jelly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,11 +774,15 @@ return {
 			},
 			sequence = {
 				{
-					"「在欢声笑语中，于异世界而来的少女们踏上了前往港区的旅途。」",
-					2
+					"<size=39>\"The girls from another world thus embarked upon a journey to the Commander's port,\"</size>",
+					4
 				},
 				{
-					"「而这场于碧海蓝天下上演的冒险故事，尚未到结束之时——」",
+					"<size=39>\"laughing together all the while.\"</size>",
+					4
+				},
+				{
+					"<size=39>\"This tale is far from over.\"</size>",
 					4
 				}
 			}

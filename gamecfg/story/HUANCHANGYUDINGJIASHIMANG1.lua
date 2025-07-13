@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
-			say = "港区·东煌区域——",
+			say = "Port - Dragon Empery Dorm",
 			bgm = "main-chunjie",
 			typewriter = {
 				speed = 0.05,
@@ -22,7 +22,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维内托大人，我们到了。",
+			say = "Lady Veneto, we have arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦……！这里已经张灯结彩了么？果然很有节日的气氛啊！",
+			say = "Oh! Look at all these decorations. My, the Empery holiday mood is in full swing here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "嗯，这里要记下来，还有这里也是……",
+			say = "I'll have to make note of this... And that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就说不会白来的吧。时间还早，要不先去最想去的地方看看？",
+			say = "See? I told you it was worth a visit. Since we have plenty of time to look around, does anything catch your eye?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有道理，我想想……不行，暂时还没想好要去哪里。",
+			say = "Hmm... No, I can't seem to think of anything in particular.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们就继续逛逛吧~没准还能碰到有趣的事呢。",
+			say = "Then let's just walk around. Who knows, maybe we'll come across something interesting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "比如说，突然——",
+			say = "Something like...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
-			say = "————轰！！",
+			say = "BANG!",
 			soundeffect = "event:/ui/baozha1",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "欸？！发、发生什么了？",
+			say = "What?! What was that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "好像是那边有动静！我们快去看看吧！",
+			say = "It came from over there! Come on, follow me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
-			say = "顺着升起的黑烟，两人很快找到了事发地。",
+			say = "The Sardegnian shipgirls followed the cloud of smoke rising into the air and soon arrived at its point of origin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "你们好！……咦，稀客啊，你们是来拜访的么？",
+			say = "Greetings! ...Oh, I don't see you girls every day. Do you have business at our dorm or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦！这不是虎贲还有飞云么！有段时间没见了！",
+			say = "Ah! If it isn't Hu Pen and Fei Yuen. It's been a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "是也懂美食的撒丁朋友！你们好呀~逸仙姐姐说过，来者皆是客。",
+			say = "It's the Sardegnians! The cuisine-knowers! Hello hello!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "如果你们需要什么帮助，都可以尽管和飞云大人提哒！",
+			say = "Yat Sen said anyone who visits is a guest, so just come to Lady Yuen if you need something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "帮助暂时……还不用？那个，其实我们不是来正式拜访的。",
+			say = "Um... thank you? I should mention that we aren't here on a formal visit or anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "非要说的话……我们是来学习“年味”的？",
+			say = "Rather, we're here to watch and learn from how the Dragon Empery celebrates its holidays.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "嗯，希望我们的突然来访没有打扰到你们。",
+			say = "Indeed. I hope we're not intruding on anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "撒丁的同伴们觉得东煌的春节很有意思。",
+			say = "See, many of our fellow Sardegnians have expressed an interest in your holiday customs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以今年也想按照按照你们的方式布置一次，一起热闹一下。",
+			say = "We would like to decorate our dormitory in the same style as yours and perhaps even have some fun together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "我看天鹰似乎很了解东煌，就拜托她一起来了。",
+			say = "Aquila here is our most knowledgeable lady when it comes to your culture, so we brought her along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，虽然了解的只是漫画书里的内容……",
+			say = "Please, my knowledge starts and ends at what I've read in comic books.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "原来如此，虎贲完全明白了！",
+			say = "I see! I understand perfectly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "那你们这次可来对地方了！",
+			say = "You've come to the right place, my friends!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "不过，我们正忙着处理厨房的事情呢，一时半会没法带你们参观了。",
+			say = "But, your timing isn't the best. We have our hands full in the kitchen and nobody's available to give you a tour right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，没关系，我们自己转转就行。",
+			say = "That's fine. We'll just wander around and see for ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "对了，刚刚这里发生了什么，是爆炸了么？",
+			say = "One thing we're wondering about, though – was that an explosion just a minute ago?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,10 +532,10 @@ return {
 			bgName = "star_level_bg_512",
 			actor = 501070,
 			dir = 1,
-			actorName = "虎贲&飞云",
+			actorName = "Hu Pen & Fei Yuen",
 			hideOther = true,
 			nameColor = "#A9F548FF",
-			say = "才没有哦！\n这可不是爆炸！",
+			say = "- No! - It wasn't an explosion!",
 			subActors = {
 				{
 					expression = 6,
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "如你所见，我们正在研究新的菜品呢！",
+			say = "It was a culinary experiment, that's all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "……啊！没、没错！我们是在制作新的菜品呢！",
+			say = "A what...? Oh, yeah, what she said! She's trying to come up with a new dish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "这个是……爆炒！对，爆炒！",
+			say = "With a kind of stir-frying. The kind that goes \"bang\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "哦！这我知道！就是漫画书里，东煌的那个「大火宽油之术」！",
+			say = "Oh, I've read about this in a comic! It's the \"big flame, ample oil\" technique, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大火、宽油，然后爆炒！嗯嗯，没错！“爆炒”的动静都是这样的！",
+			say = "You crank the heat up, use copious amounts of oil, and fry like you're trying to make the food blow up. That explains the noise we heard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "咦……？是这样么？",
+			say = "It does...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "啊这……",
+			say = "I mean...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "没、没错哦！就是这样！我们东煌的独门做菜秘籍还多着呢！",
+			say = "Y-yeah! I'm surprised you know one of our country's most well-kept cooking secrets!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "不信的话，我们今天晚上就请你们吃一顿怎么样？肯定能对你们的春节准备工作有帮助的！",
+			say = "If you don't believe us, we'll cook a feast for you tonight! That's sure to help with your own festival prep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "维内托，你怎么看？是个不错的参考机会呢。",
+			say = "Sounds like a promising idea. What's your take, Veneto?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没有意见，不过，我能邀请其他同伴来么？对春节感兴趣的，也不止撒丁的同伴们呢。",
+			say = "No objections here. While we're at it, though, can we invite others to join us? Us Sardegnians surely aren't the only ones interested.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -789,7 +789,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "没问题！飞云大人承诺！你们今天晚上只管来，肯定会让你们品尝到全新美食的！",
+			say = "Go right ahead! We'll make enough of this new dish to feed every last guest! You have Lady Yuen's word on this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "很有气势嘛！那就恭敬不如从命了~眼下我们还想去别处看看，就先告辞了。",
+			say = "A bold proposition. We accept. Now, if you'll excuse us, we have other places we want to check out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "嗯！再见啊！",
+			say = "Sure! See you later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,12 +850,12 @@ return {
 			expression = 14,
 			side = 0,
 			bgName = "star_level_bg_512",
-			actorName = "飞云&虎贲",
+			actorName = "Fei Yuen & Hu Pen",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……",
+			say = "Phew...",
 			subActors = {
 				{
 					expression = 14,
@@ -883,7 +883,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "还好飞云大人聪明绝顶，总算糊弄过去了……",
+			say = "They would so have caught on to us if it weren't for my quick wit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "济安姐真实的厨艺水平可不能透露出去啊……",
+			say = "We can NOT let the other factions find out how bad of a cook Chi An is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "啊哈哈……",
+			say = "Ahahahah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "相比之下，我更担心济安姐呢。",
+			say = "To be honest, I'm worried about her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -953,8 +953,8 @@ return {
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？",
-			say = "担心……？",
+			actorName = "???",
+			say = "Worried? Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,7 +968,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "对啊，毕竟是又把厨房搞爆炸了什么的……",
+			say = "I mean, she just made the kitchen go kaboom, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -986,7 +986,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "哇啊！济、济安姐？！我、我刚刚开玩笑的哦！",
+			say = "Wait, Chi An?! Err, um... I was just kidding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "没错没错！飞云大人绝对没有觉得，济安姐是会把厨房搞爆炸的那种人哦！",
+			say = "Y-yeah! We both know you would never intentionally blow up the kitchen and leave a huge mess!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "欸！说的好过分！",
+			say = "Um, that's kind of rude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "我们不是这个意思啦！那个，飞云快点说些什么吧！",
+			say = "What we're saying is: it's okay! C'mon, Fei Yuen, say something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "……啊？",
+			say = "Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "咳咳……济安姐的厨房冒险，让飞云大人佩服至极！嗯！佩服！",
+			say = "Oh, uh... Chi An, your kitchen adventure was astonishing! It almost moved Lady Yuen to tears!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不行了……！好受打击！",
+			say = "*sniffle*... I can't believe this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,7 +1122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "这不是越抹越黑嘛……！",
+			say = "Look what you did. You made her cry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,7 +1140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "还是别说了，我们先帮济安姐把厨房收拾好吧！",
+			say = "Let's clean this place up before poor Chi An feels any worse!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,7 +1155,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_512",
 			hidePaintObj = true,
-			say = "在一阵忙碌后，厨房总算是收拾干净了。",
+			say = "After moving through the kitchen like a cleaning tornado, the girls eventually got it looking like it did before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1186,7 +1186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "嗯，这样就和之前一样整洁了……谢谢你们的帮助。",
+			say = "Whew... Good as new. Thanks, you two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1204,7 +1204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "没关系的，济安姐开心就好！",
+			say = "Don't thank me. As long as you're happy, I'm happy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1222,7 +1222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "别这么紧张啦，我这边才该道歉啦……毕竟是我把厨房搞爆炸的，欸嘿~☆",
+			say = "No, you deserve it. I DID blow up the kitchen and cause a mess for you to clean up. I'm sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,7 +1240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "济安姐，在厨房有着赫赫战功呢。",
+			say = "It's not like it's the first time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1258,7 +1258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "不对不对，重点不是这个——",
+			say = "Ah, forget it! We have more important things to focus on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1276,7 +1276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "你是想说，晚上维内托她们要来做客的事？",
+			say = "True. The Sardegnians are visiting for dinner tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1294,7 +1294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "就是这个！维内托她们也是对美食有研究的人，所以必须要好好准备才行！",
+			say = "Right, right! They're real gourmands, so we need to plate up a whole feast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1321,7 +1321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我明白了……不过，那要谁来做饭呢？",
+			say = "Yes, but who's going to cook?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1338,7 +1338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然是龙武姐啦！",
+			say = "Lung Wu, obviously!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1356,7 +1356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "只要龙武姐主厨，一切都会好起来的！",
+			say = "When it comes to cooking, you can trust her to deliver!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1374,7 +1374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "不过……我今天好像都没看见龙武姐呢。济安姐，你知道龙武姐在哪么？",
+			say = "Speaking of Lung Wu, I haven't actually seen her all day. Do either of you know where she is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1392,7 +1392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "唔……龙武她，今天好像不在哦？",
+			say = "Hm... She's not at the port today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,7 +1409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "龙武，还有逸仙她们，今天要去置办年货……欸，你不知道么？",
+			say = "She, Yat Sen, and a few others are out buying things for Lunar New Year. Did nobody tell you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "龙武姐好像是说过，让我们去食堂解决本日的三餐……",
+			say = "Now that you mention it... She DID tell me to get my food from the canteen today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1445,7 +1445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "等等，这岂不是意味着…………今天没人做饭？",
+			say = "Hold on, doesn't that mean there are no good cooks available?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1473,7 +1473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "欸？！那晚上的约定怎么办？！",
+			say = "Then how are we supposed to serve dinner to the Sardegnians tonight?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "先、先冷静，这种情况，飞云大人见得多了！让飞云大人想想办法……",
+			say = "No, calm down, Lady Yuen... You've been in this situation countless times... Just calm down and think about it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1509,7 +1509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "对了，我们去找指挥官吧，指挥官肯定有办法的！",
+			say = "I've got it! Let's go ask the Commander for advice!",
 			painting = {
 				alpha = 0.3,
 				time = 1

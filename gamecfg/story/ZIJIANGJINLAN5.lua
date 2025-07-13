@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg3",
 			stopbgm = true,
-			say = "大棋盘·{namecode:74}控制区 第一回合",
+			say = "Exercise Area - Turn 1 (Nagato's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}，大前辈，我们，然后是{namecode:84}大人，对局行动是按照这个顺序进行啊……也不知道会不会是设计过的结果。",
+			say = "So, Akagi, Mikasa, Nagato, and then Musashi each take their turns in that order... I wonder if there's any special reasoning behind that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该没这么复杂吧，{namecode:71}姐？按照座次决定顺序也算是常见规则啦。",
+			say = "You're probably just overcomplicating things again. I bet that's just the order they're sitting around the table.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是她们来得早，座位也是她们先选好的。",
+			say = "Can you be sure that the order they arrived at the table was not predetermined as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得其中有阴谋么？",
+			say = "Do you think... Musashi has some other plan in mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还不好说，也许只是我想多了……{namecode:72}，你觉得{namecode:74}大人会如何部署？",
+			say = "That I cannot say. I do tend to overthink things after all, just as you said.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该会和大前辈、{namecode:91}一样，优先进攻一个边界据点吧？那里难度适中，而且可以稳固我们的防线。",
+			say = "I sure hope so... By the way, Nagato seems to be mirroring Mikasa's move and attacking Musashi from the side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，轮到吾等的行动轮了。",
+			say = "Not quite. Listen well to my command:",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾作出如下部署，{namecode:72}移动至J5，{namecode:157}移动至I5，在边界处阻碍{namecode:84}的推进。",
+			say = "Haruna and Harutsuki will move towards Musashi's territory and halt her forces from advancing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "量产型舰队填充到I3至G5一线。",
+			say = "We will move our mass-produced ships to surround the Sacred Sakura.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:71}、{namecode:158}、{namecode:95}依次进入IJ34据点的控制区内。",
+			say = "Hiei, Kawakaze, and Shoukaku are to make preparations to capture the adjacent base on our next action.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#A9F548FF",
-			say = "之后，全军对其发动进攻，将其拿下。",
+			say = "After that, we will consolidate our forces to launch a frontal assault on our enemy's defenses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 305050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾也会用指挥卡支援汝等的行动，以上。",
+			say = "To that end, I shall see to it that we sustain no losses this turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			say = "在{namecode:74}结束通讯的同时，众人身上各自出现了一个淡蓝色的护盾。",
+			say = "As soon as Nagato's communication ended, a shield symbol appeared in the sky, and barriers of light materialized around Nagato's forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个是{namecode:74}大人的指挥卡「神子的祝福」生效的标志！",
+			say = "Lady Nagato's blessings are with us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这张指令卡的效果，我记得是为全队提供抵消伤害的护盾。呵呵，看来我们能不受任何损伤就拿下一分了~",
+			say = "As long as this barrier holds, we'll easily be able to take the adjacent base without sustaining any damage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到我猜错了，居然是先从领域内的小据点开始清理么。",
+			say = "Despite being defense-oriented, Nagato doesn't believe in the wait-and-see approach.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "稳扎稳打的战术，看起来……{namecode:74}大人似乎不想这么早就与{namecode:84}大人起冲突。",
+			say = "A proactive strategy that seeks to neutralize threats while ensuring everyone's safety...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "确实是很有{namecode:74}大人风格的部署。",
+			say = "That must be the vision Lady Nagato has for the future. How very much like her, heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且{namecode:74}大人直接使用了通讯对我们下命令……和大前辈与{namecode:91}大人都不同。",
+			say = "That's right. Plus, Lady Nagato issued the orders to us herself, unlike Akagi and Mikasa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这一点嘛，也很有{namecode:74}大人的风格。",
+			say = "It's as if she is personally joining us on the battlefield... What a charismatic leader she has become.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大将既已下令，吾等便无需犹豫，出发吧——",
+			say = "The Guardian Fox has spoken her will! Do not hesitate, and carry out your instructions!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			say = "大棋盘·IJ34据点控制区",
+			say = "Exercise Area - Turn 1 (Nagato's Action)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			say = "所谓据点控制区，是指与据点所在菱形格相接的四个棋盘格。",
+			say = "On the game board, a diamond-shaped \"base\" sits between the intersection of four squares.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			say = "只有在据点控制区内放入自己棋子的势力才能对其发动进攻。",
+			say = "A Siren vessel defends each base, and the surrounding sectors must be controlled first before the base can be captured.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "据点的敌人出现了……守卫此处的是执行者系列的执棋者！",
+			say = "Just another Conductor vessel, huh? I've faced plenty of these in the Mirror Seas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "执棋者么？如果只是这种量产型号，感觉会很轻松啊……",
+			say = "Great, a humanoid Siren. I was starting to get tired of smashing these mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要大意，虽然看起来是执棋者，但在应用了棋盘规则之后，实际上却是棋盘中的据点Boss哦。",
+			say = "Don't get too cocky. We might be able to wipe these Sirens out with ease normally, but remember - our rigging isn't as powerful as usual. We also don't know if those Sirens have been enhanced in any way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且，我们的实力也不能凭借经验判断，必需完全依照身边显示的数字行事才行。",
+			say = "What I'm curious about is how we managed to get our hands on so many Siren vessels...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个棋盘规则居然这么厉害啊……",
+			say = "Well, they don't seem to have the hostile aura most Sirens give off. Does that mean we figured out a way to control them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然{namecode:84}大人说是结界，但我总感觉这里用了和镜面海域类似的技术。",
+			say = "\"Miracles exist beyond the boundary of reality.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果真的是那样的话，是很厉害。",
+			say = "Musashi said something along those lines, but she tends to wax philosophical. Knowing Akagi's involvement in this exercise, it wouldn't surprise me if we're actually inside a Siren research facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "之前路过某处铁血的要塞的时候，那边发生了一次导致演习规则错乱的演习事故。",
+			say = "While I have no objections to using a Mirror Sea for training purposes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然起因是因为构建者的暗中搅局，不过最后差点闹出了不得了的事呢。",
+			say = "We should be wary of any real Sirens sneaking in and making a mess of things, like they did with that Iron Blood experiment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我由衷希望{namecode:91}前辈今天千万不要搞出那种麻烦的事情来————",
+			say = "*sigh*... I really hope Akagi isn't getting us into some terrible mess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要是一场跟随{namecode:74}大人的美好度假变成替前辈弄出来的麻烦事故善后的话也太悲惨了！",
+			say = "Zuikaku's awfully protective of Lady Nagato, and if something were to happen to her under my watch, I would never hear the end of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵，棋局可以反映心境，探明{namecode:91}的意图也是我们此行的目的之一。",
+			say = "I doubt there's anything substantial you have to worry about. I heard this exercise area reflects the mental state of its participants.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			bgName = "bg_wuzang_bg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家保持警惕，让我们首先来会会这个“老朋友”吧。",
+			say = "This is a good opportunity to learn about what Akagi's after, so all we need to do is to remain vigilant.",
 			painting = {
 				alpha = 0.3,
 				time = 1

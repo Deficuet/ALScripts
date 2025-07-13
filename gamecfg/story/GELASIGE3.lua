@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>三 谁是鸳鸯啦！</size>",
+					"'Tis the Season of Love!\n\n<size=45>3.Mandarin Ducks?!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "大家都在座位上了吧，班会现在开始。大家早上好。",
+			say = "If everyone is in their seats, we’ll start the class. Good morning.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——早上好！！",
+			say = "—Good morning!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，看到大家今天也都这么精神，老师很高兴~",
+			say = "Mm, great. I’m glad to see everyone in high spirits today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就直接进入正题吧~新学期开始了，大家也差不多都静下心来了。",
+			say = "Let’s jump straight into things. I know we just started off the semester, but we have a lot to get through.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，不知道你们有没有发现，我们连班长都还没选定？",
+			say = "I’m sure everyone has already noticed, but we haven’t even elected a class representative yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（原来还有班长这种职位吗……还要负责收作业，想想就很麻烦的样子）",
+			say = "(Class rep, huh... Sounds like a major pain going around collecting everyone’s handouts...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "班长由两人担任，有谁想要竞选或是推荐人选吗？",
+			say = "I actually hoped to have two class representatives. Is anybody interested in running or nominating someone for the position?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（放学以后还要帮纽卡斯尔姐姐准备晚饭、打扫，要忙的事还很多，我就算了吧——）",
+			say = "(I already have my hands full cooking and cleaning, so I think I’ll pass...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "就在格拉斯哥这么想着的时候，坐在前面的热心突然回头看了她一眼。",
+			say = "Just as Glasgow muttered the words to herself, Ardent, who was seated in front of her, turned around to glance at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥感到有些迷惑。",
+			say = "And before she could process what was going on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我要推荐！格拉斯哥俩是学年公认的鸳鸯二人组，一定可以干得很好的！",
+			say = "I have a nomination! There are two people in this class who are always together like a pair of Mandarin ducks, so I’m sure they’d be best for the job!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥还在疑惑热心想说什么，就听到她举起手兴高采烈地说了一番。",
+			say = "Just as the words left Ardent’s lips...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "整个教室的眼光一下集中到了两人身上……",
+			say = "The eyes of the class turned towards the only two people she could’ve been referring to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等、等等！？热心你胡说什么啊——再说了，谁是鸳鸯啦！",
+			say = "A-Ardent?! Wh-what in the world are ye talking about? Wh-who are ye callin’ Mandarin ducks?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不不…明眼人都看得出来吧…我也觉得格拉斯哥他们很合适。",
+			say = "It goes without saying... the two of them would make the most suitable duo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "连、连爱丁堡也……",
+			say = "Even you, Edinburgh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "提议得到了大家的一致认可，结果似乎已经板上钉钉了。",
+			say = "As the votes came in, it was almost certain that the two of them would become the class representatives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前就隐约觉得会这样了，两位的责任感都很强，老师也很认可你们哦。",
+			say = "I figured this was going to happen. You two both have a strong sense of responsibility, and you have my full support as your teacher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎，怎么这样…呜呜……",
+			say = "H-how could this happen... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "就这样，二人当选为 “鸳鸯・别名班长”。",
+			say = "And thus, the two new class representatives would become known as the “Mandarin Duck Duo.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "格拉斯哥，不要这么沮丧嘛。虽说是班长，但要做的也就是些零碎的杂务而已。",
+			say = "Glasgow, don’t be so down. There’s really not much to being a class rep other than some minor chores.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "听着突击者老师的柔声安慰，格拉斯哥和那位交换了次眼神。",
+			say = "As Chaser’s gentle encouragement reached Glasgow’s ears, the young girl’s eyes glanced towards her partner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(那眼神…想的肯定是一样的事情，我担心的才不是这种事啊…)",
+			say = "(Those eyes... must be thinking the same thing as I am. That’s not really what I’m worried about...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "想到之后，格拉斯哥不禁大大地叹了口气。",
+			say = "Thinking about what the future had in store, Glasgow let out an audible sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

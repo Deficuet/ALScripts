@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇知道！好的，分享，给大家！……大家，喜欢，安克雷奇！",
+			say = "Anchorage knows! I share good things with everyone! And everyone... likes Anchorage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……不想分享，但安克雷奇明白，{dorm3d}，是大家的{dorm3d}……",
+			say = "I don't want to share {dorm3d}... but I know you're everyone's {dorm3d}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，应该懂事……！",
+			say = "Anchorage is a good girl...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但……安克雷奇，希望……{dorm3d}，多喜欢，安克雷奇一点……",
+			say = "But... Anchorage wants you to like me more than the other girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

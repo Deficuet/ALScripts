@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队2nd\n\n<size=45>四　指导者的手段</size>",
+					"Fight On, Royal Maids!\n\n<size=45>The Instructor's Tactics</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "battle-boss-5",
 			actor = 202100,
 			nameColor = "#a9f548",
-			say = "肯特、萨福克等重巡洋舰请活用装甲，对补给区域进行重点防卫",
+			say = "Kent, Suffolk, take advantage of your heavier armor to secure our supply routes.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，有索敌和防空能力的成员请注意应对敌方的舰载机。阵型就按照女仆长交代过的来",
+			say = "In addition, those who are equipped with anti-air equipment and radars should take care of the enemy's aircraft. Stick to the formations that Belfast instructed you on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这应该是最后一次补给了，预备的弹药请找纽卡斯尔进行补充，为了防止战斗到一半出现弹药不足的情况，请反复检查清楚",
+			say = "Make sure to resupply now, as this will be our last opportunity. Double-check to make sure you won't run out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最终防线已经准备完毕",
+			say = "The preparations for our final line of defense are complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…接下来就是最后的战斗…了吧",
+			say = "...So this is going to be the last battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要全力战斗就行了。奋战到现在已经没有任何遗憾了",
+			say = "Just fight with everything you have. We've already come this far, so don't regret anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来，只要继续和主人战斗…战斗…直到剩下最后一人……",
+			say = "That's right. Keep fighting... until Master and I are the only ones standing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后主人就会对黛朵——",
+			say = "And then Master will have no choice but to accept me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要太勉强了哦",
+			say = "Don't overdo it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……但是…",
+			say = "...But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然不知道能听进去多少，不过还是让我说一下吧",
+			say = "I'm not sure you'll listen to any of this, but I'm going to say it anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在你站在主人面前的时候，我们女仆队全员的辅助都是为了你能更好的战斗",
+			say = "When you're standing in front of the Master, know that all the maids have been supporting you so that you could fight without reservations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "黛朵只需要尽自己的全力就好。主人自然会对你有公正的评价",
+			say = "You simply need to do your part, and give it your all. If you do that, Master will look upon you favorably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算不那么勉强自己，主人也好，我们也好——【都是不会抛弃黛朵的哦】",
+			say = "Even if you aren't able to produce the results that you want, neither Master, nor any of us, will cast you aside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………是！",
+			say = "......Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来了啊，主人的舰队……",
+			say = "They're coming. Master's fleet...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "黛朵级轻巡首舰黛朵——",
+			say = "Dido, nameship of the Dido-class light cruisers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "为了主人，全力一战！",
+			say = "Will fight with everything she has, for Master's sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

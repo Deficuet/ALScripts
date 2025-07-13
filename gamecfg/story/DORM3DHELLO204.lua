@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "啊，{dorm3d}。刚刚我还在想你今天会不会来呢……今天心情如何？要不要和我一起悠闲度过呢？比如去散散步什么的？",
+			say = "Oh, {dorm3d}. I was just thinking you might not come today. How are you feeling? Want to do something relaxing together? Maybe go for a walk?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello4",
 			typewriter = {
 				speed = 0.05,

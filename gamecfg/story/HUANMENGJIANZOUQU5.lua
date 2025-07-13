@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"Iris Orthodoxy - Mont-Saint-Michel",
 					1
 				},
 				{
-					"圣堂会场·指挥官的包厢",
+					"Basilica - Commander's Quarters",
 					2
 				},
 				{
-					"7月25日",
+					"July 25th",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "屏幕之上，多架部署在海域中的无人机正不间断传回着演习海域的战斗画面。",
+			say = "From the Basilica, I watch the exercise unfold through multiple drones in the air.",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "后台的演习分析系统也在根据战斗结果，在屏幕上对战局进行着实时标注。",
+			say = "The footage is sent to my device, processed by my tactical analysis system, and relayed to me in real time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "此刻，鸢尾舰队正在与铁血的改造舰队战斗着，局面难解难分。",
+			say = "The Orthodoxy and Iron Blood are fighting at the moment, and they are neck and neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这么一看，改造舰果然很厉害。只是巡洋舰就可以和战列巡洋舰的斯特拉斯堡打得有来有回……",
+			say = "That's the power of retrofits for you. Retrofit a cruiser and put it up against a battlecruiser from the same era and the former will give the latter a run for her money.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "不知道我们什么时候才能成规模列装改造舰队啊~",
+			say = "I hope the Eagle Union put together a retrofit-focused fleet of their own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（舰装改造技术与II型舰装技术有一定相似性，但难度却低很多。）",
+			say = "(In that regard, retrofits and Type II's aren't THAT dissimilar.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（在II型舰装普及遇到瓶颈的当下，尽可能研发更多的改造型舰装倒确实是一项能够快速提升战斗力的方案……）",
+			say = "(Well, strictly in terms of increasing combat potential. Retrofitting and developing augment modules are significantly less resource-intensive than creating a Type II...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（……那名黑发少女就是在陆上神国战役期间没有向黎塞留致电的斯特拉斯堡么。）",
+			say = "(Hmm? Is that... Strasbourg?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（虽然早就听说过她的名字，亲眼见到还是第一次……）",
+			say = "(I've heard about her – in equal parts about her combat ability and her musical talent.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（……她看上去似乎有些心神不宁，并没有将全部的精力放在战斗中。）",
+			say = "(She looks pretty nervous. It's like she's not focusing entirely on the battle.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（难道是因为黎塞留亲自前来观摩的原因么……？）",
+			say = "(Maybe she's got performance anxiety from knowing Richelieu is spectating.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "请进。",
+			say = "Who is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官阁下，{namecode:435:俾斯麦}大人邀请您前往她的包厢一同观看这场演习，不知道您可否赏光？",
+			say = "I have a message from Bismarck. She says she'd like you to come and watch the exercise with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "（我还在想{namecode:435:俾斯麦}什么时候会发来会面邀请呢……没想到用的是这个理由。）",
+			say = "(Ah. I've been waiting for that invitation, though I expected it to come in a more roundabout way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			side = 2,
-			say = "自然没问题，请带路吧。",
+			say = "Sure thing. Lead the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
-			say = "圣堂会场·{namecode:435:俾斯麦}的包厢",
+			say = "Basilica - Bismarck's Quarters",
 			bgm = "bsm-5",
 			typewriter = {
 				speed = 0.05,
@@ -257,18 +257,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不必拘谨，随便坐吧，指挥官。",
+			say = "Hello, Commander. Make yourself at home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好久不见，{namecode:435:俾斯麦}。",
+					content = "It's been a while.",
 					flag = 1
 				},
 				{
-					content = "这还是第一次面对面谈话呢，{namecode:435:俾斯麦}。",
+					content = "Thanks. You get comfortable too, alright?",
 					flag = 2
 				}
 			}
@@ -282,7 +282,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从安塔迪卡战役之后——确实也有段时间了呢，好久不见。",
+			say = "Yes, it has. We haven't spoken since the battle in the Antarctic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，铁血的领袖和碧蓝航线的指挥官同处一个包厢之中，真是一个放在过去难以想象的画面。",
+			say = "Of course. This is an informal meeting and I'm happy to let go of the formalities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "你的这副样子……难道革律翁出了什么问题？",
+			say = "I see you're not in your Zwei rigging. Is something wrong with Geryon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "啊~无需担心，Zwei型舰装和革律翁一切正常。",
+			say = "Oh. No, Geryon is fine, and my Zwei rigging works as normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我选用这副装备前来，只是为了看上去更柔和些，算是制造亲近感的小策略。",
+			say = "I'm only in this form to express my desire for peace. Personal image, too, matters in politics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "毕竟，此处是鸢尾教国的领土呢。",
+			say = "Let's not forget that we're on Orthodoxy land as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "带了一支改造舰队来参加演习——也是为了增加亲近感？",
+			say = "Dressed for peace, but geared up to win the tournament. I think that sends mixed signals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "一码归一码。",
+			say = "You have the wrong idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "既然是为了增进了解的演习，那我自然要让各家多了解一下铁血，以免误判。不是么？",
+			say = "This event is meant to deepen interfactional bonds. Not showing my hand to some degree invites unwelcome speculation. You must think the same, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "你的言下之意……和这场四大阵营联合演习想要对外展现出的意图似乎有些偏差啊？",
+			say = "Yeah, you are showing your hand – but not JUST in the name of deepening bonds, am I right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "毕竟是在谈同盟的事，谨慎些总是好的。",
+			say = "If it was only about bonds, I wouldn't be here in person. I'm keeping my options open for an alliance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "所以至少攻守同盟的事确有其事……？",
+			say = "A Europan offensive-defensive alliance, perhaps?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我不否认。",
+			say = "Sharp as ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我们针对塞壬的战争，至少针对实验机关的战争已经步入尾声，该考虑之后的事了。",
+			say = "Our war with the Sirens – or at least, our war with their experiment subdivision – is coming to a close. I must start planning for what comes next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "这个“之后的事”，我以为是现在各大阵营在一同推进的「联盟合并」才是？",
+			say = "The reforming of the Azur Lane, in other words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "你真的相信靠开会能解决问题么？",
+			say = "That's one thing, yes, but not the only one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "如果能解决的话，当年的碧蓝航线又如何会分裂呢？",
+			say = "If simply coming together would've let the Azur Lane flourish, the Crimson Axis wouldn't have come into being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "塞壬的阴谋已经摆在了明面上，如今形式已经与当年不同了。",
+			say = "Things have changed, though. Now we share a common enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "难道当年各大阵营就真的什么都不知道么？",
+			say = "We did back then, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "其实你也不相信联盟合并能够依靠会议取得成功，所以现在才会出现在我的包厢里吧。",
+			say = "You're here, talking to me precisely because you don't believe a conference in the Orthodoxy will be enough to reform the Azur Lane, are you not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "……至少，我真心希望各阵营能够形成一个统一的联盟，一同面对未来。",
+			say = "Correct. We don't just need the members of Azur Lane, we need ALL factions to come together and face the future – to fight on a truly united front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "即便这个联盟不是——「碧蓝航线」？",
+			say = "Does this alliance NEED to be called \"Azur Lane\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "……「碧蓝航线」不光是一个名字，更是一种传承。",
+			say = "\"Azur Lane\" is more than just a name. It is an idea and a legacy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "我认为它……至少应该叫「碧蓝航线」。",
+			say = "Whatever form the alliance takes, I insist on this name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "您的态度我清楚了，感谢您的坦诚。",
+			say = "I understand where you're coming from. Thanks for being honest with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "我看更像是在你的逼问下被迫交代底线吧？",
+			say = "Pardon? I thought you were testing me here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "呵呵，我们不只是在观看演习的包厢中随便聊聊么？",
+			say = "Not at all. I simply wanted to watch the exercise and have a chat with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "那说回上一个话题。刚才我说我们针对“实验机关的战争已经步入了尾声。”你没反对呢。",
+			say = "Though, one thing sticks out to me – you didn't object when I said that our war with the Sirens has all but come to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "虽然就各处海域的局势而言，塞壬依然掌控着强大的军事力量，但是它们的死穴其实已经为我们所知了。",
+			say = "I don't necessarily disagree. Don't get me wrong, they are still powerful foes and there's much we don't know about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "在安塔迪卡战役之中暴露出来的塞壬最应该隐藏的秘密——观察者主机的位置。",
+			say = "On the other hand, we've eliminated Compiler and even figured out where Observer – their leader – keeps her mainframe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "没错。多次战役已经证明，只要我们能够团结一致，就有与塞壬正面一战并取得胜利的能力。",
+			say = "Exactly. We're perfectly capable of destroying it even in an all-out frontal assault if we can all just band together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "而只要消灭了观察者的主机塔，扎根于我们世界中的整个塞壬实验机关也就不足为惧了。",
+			say = "Once their general's out of the picture, the rest of the elites will be easy pickings without anyone to command them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "所以——你打算怎么做？",
+			say = "That is true. So, how are you going to do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "我……打算怎么做？",
+			say = "What do you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是顺势而为，在日后的某场战役中一劳永逸的摧毁塞壬，亦或是……",
+			say = "Will you wait for a chance then crush them once and for all? Or will you show them some mercy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "——对抗塞壬就会产生伤亡，我绝对不做养寇自重这种事。",
+			say = "No way. Letting them run wild is out of the question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "您的为人我很清楚，我自然不会不识趣地对您提出这种建议。",
+			say = "I knew you'd say that. Yes, THAT'S off the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "那你的意思是……？",
+			say = "Your tone suggests you had something else in mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "除了彻底消灭与养寇自重之外，还有一种选择——将其为自己所用。",
+			say = "There's eliminating them once and for all, and then there's using them to our advantage. But there's a third option – allying with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "你是指……要掌控塞壬的实验机关？！",
+			say = "You and I both know that's ridiculous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我只是在谈论一种可能性，也希望你能考虑一下。",
+			say = "Ridiculous, but possible. You know where I'm coming from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "塞壬，或者它们的另一个名字安蒂克丝，原本就是为了对抗X而存在的兵器。",
+			say = "The Sirens – or should I say, Antiochus – were created for the purpose of fighting the enemy known as the X.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "如果能为我们所用的话，未来的胜算也会大一些。",
+			say = "If we can recruit them to our side, our fighting odds against the X will improve noticeably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "虽然你没有将X的细节告知于我，不过那恐怕不是什么能够轻易对抗的敌人吧？",
+			say = "You've not told me much about the X, but they must be quite a powerful threat, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "……嗯，你的建议，我会考虑的。",
+			say = "I'll consider your idea, at the very least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "（……狩猎结束后，在海伦娜的要求下，所有在行动中目击X了的人都在充分知情并同意的情况下，被她施加了某种情报干涉。）",
+			say = "(Following my encounter with the mimic entities in the Martyrium, Helena META suggested a temporary intel ban for those who witnessed the entities.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "（以免关于X的详细情报因意外泄露而产生无法挽回的后果……）",
+			say = "(In light of the threat the X poses and its potential for conceptual corrosion, all parties agreed to it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "（至于在主动分享中，也只提到了X的名字和其是新的敌人这种最小限度的情报，分享的人员也被控制在了最小范围内。）",
+			say = "(However, this means I can only share the absolute minimum of intel about the X with everyone, which I'm definitely not happy about.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "关于X的情报确实十分危险。知道的越详细，X出现的可能性就越高。",
+			say = "I want to stress that the X really is just that dangerous. The more you describe it, the likelier it gets that it will appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "不过等有朝一日，在合适的时候，我一定会向诸位和盘托出的。",
+			say = "One day, though – I promise to tell you everything one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不急不急~关于X情报的危险性伊丽莎白和黎塞留都已经不知道反复跟我强调了多少遍了。",
+			say = "Don't worry about it. Richelieu and Elizabeth have told me plenty about how dangerous intel about them is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,19 +943,19 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "这件事上按照你的节奏来就好，铁血绝对不会主动调查的。",
+			say = "Continue your investigation at your own pace. I assure you that Iron Blood will not proactively pursue this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "滴滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这个时候的通讯联络……呵呵，是小秘书等急了，还是怕您在我这里遭遇不测？",
+			say = "A message from Memphis? Surely she's not worrying that I've done anything to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -981,7 +981,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "只是普通的工作联络而已。不过——我确实也差不多该回去了。",
+			say = "No, it's just about work. I should probably get going, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "在走之前，我还有一件公事要传达。",
+			say = "Before I do, one more thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "作为碧蓝航线的指挥官和由指挥部委派的联盟合并会议委员会成员——",
+			say = "I have something to tell you in an official capacity as the Commander of the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "在当面见到你之后，我有义务向你传达碧蓝航线指挥部的要求。",
+			say = "The leaders of the Azur Lane want to issue a formal reminder to Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我在听，请讲。",
+			say = "Go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,7 +1042,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "碧蓝航线指挥部期望，铁血不要忘记此前已经约定好的诸项事宜，并尽早着手履行。",
+			say = "They request that you remember the agreements you have struck in the past and that you perform your obligations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "放心吧，我没忘。该加的协议，该吐的地盘，我都在安排了。",
+			say = "Of course. Iron Blood will follow through on promises made and is working on liberating occupied Reenactment areas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "……没想到你会如此干脆。",
+			say = "A surprisingly concise answer. I wasn't expecting that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,7 +1082,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你看，铁血对于联盟合并也是有着充分诚意的吧~？",
+			say = "For the sake of the reform, we're willing to go above and beyond to demonstrate our sincerity and will to cooperate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1096,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "况且……这是为了铁血彻底摆脱塞壬枷锁所必须要做的事。",
+			say = "Besides, this is necessary for Iron Blood to finally, truly break free from the Sirens' shackles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "也是为了让我们的世界以更好的姿态面对未来的挑战应该做的事。",
+			say = "Not only that – it's also necessary for our world to face the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "铁血不会逃避，亦不会打折。",
+			say = "We will not back down, and we will not fold under pressure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			bgName = "bg_guild_red",
 			hidePaintObj = true,
 			side = 2,
-			say = "感谢您的深明大义，那我就如此汇报给指挥部了。",
+			say = "Thank you. Now I've got something to tell the powers that be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "呵呵，请务必如此哦~",
+			say = "Heehee. By all means, tell them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1162,7 +1162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "话题既然谈到了这里——指挥官，一旦铁血履行了约定，世界局势可是要迎来一轮巨大的变化哦？",
+			say = "Now that we've come to this point, it's clear that something big is going to happen in the world, and soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1176,7 +1176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "为了迎接这轮名为“新生”的风暴，各大阵营想必已经在准备自己的条件了，你呢？",
+			say = "All the factions have already begun secretly preparing for what's to come, be it good or bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "呵呵，这次随铁血代表团一同前来的，就有郁金王国的代表。",
+			say = "Oh, one more thing before you go – we came here with an envoy from the Kingdom of Tulipa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "一直以来，郁金王国都没能得到军舰舰船化的机会。",
+			say = "Yes, Tulipa. The land that for the longest time hasn't had any shipgirls in its military.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1217,7 +1217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不知道指挥官在晚宴之上，有没有兴趣交些新朋友呢~？",
+			say = "There will be a party once this exercise has concluded. Why don't you come along and meet the representative?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

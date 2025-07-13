@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>四 在想象中冒险</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>4. Wandering Beyond the Boundaries</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "Port - Dragon Empery Estate",
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "镇海小姐，我现在这个姿势OK吗？",
+			say = "Miss Chen Hai, is th-th-this spot okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "我、我感觉很完美哦！",
+			say = "I, umm... I think I'm p-p-perfectly relaxed now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽然嘴上这么说着，但明显还不够放松。）",
+			say = "(She says that, but she looks about as relaxed as a coiled spring...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（单纯说要放松大概只会起到反效果…嗯，要不试试这样吧。）",
+			say = "(If anything, telling her to relax is only going to end up being counterproductive. In that case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "我听说布里斯托尔小姐喜欢冒险，不如来接下来我们来一场“想象”的冒险如何？",
+			say = "Miss Bristol, I heard you have a knack for adventuring. Do you think you'd be able to picture some place you'd like to explore?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“想象”的冒险？",
+			say = "Picture... an adventure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "海天，你觉得怎么样？",
+			say = "Anything will do. The sky's the limit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "感觉挺有趣的，要不然就《逍遥游》好了？",
+			say = "Hmm... That's an interesting proposal. Bristol, have you ever heard the tale of Carefree Wandering?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "没问题。布里斯托尔小姐，现在请闭上眼睛，让思绪沉浸到我们接下来的故事之中。",
+			say = "Ah, yes. Now, Bristol, please close your eyes and listen to the story I'm about to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "原来如此……我懂了~让我试试哦！",
+			say = "Um, okay! I'll give it a try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "这么说着，布里斯托尔闭上了自己的眼睛。",
+			say = "Bristol closed her eyes, and Hai Tien began to tell her an ancient tale from the Dragon Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“北冥有鱼，其名为鲲。鲲之大，不知其几千里也。”",
+			say = "\"In the northern deeps lived the Kun, its length several thousand li immeasurable.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在北方的大海里，有一只非常非常大的鱼，它的名字叫做“鲲”。",
+			say = "Once upon a time in the waters of the North, there lived a fish of mythical proportions called the Kun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "鲲的身长有数千里，就像一座漂浮的巨岛一样。",
+			say = "It was said to have been thousands of li in length, a veritable living island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "现在，它在海面上漫无目的地飘荡着，而你正好站在它的背上，缓慢地前进，调查着……",
+			say = "You land upon the Kun's back as it drifts across the ocean, seemingly without purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "嗯~~真是波澜壮阔的史诗感啊！",
+			say = "Woahh... I can already picture how epic that is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“化而为鸟，其名为鹏。鹏之背，不知其几千里也。怒而飞，其翼若垂天之云。”",
+			say = "\"Into a Peng it transforms, its length several thousand li immeasurable. When it takes flight, its wings are clouds that blanket the skies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "突然之间，整个岛屿颤动了起来。“鲲”变成了一只巨大的鸟，“鹏”，向着天空飞去。",
+			say = "Suddenly, the island beneath your feet begins to tremble. When you look around you, the fish has turned into a massive bird that then takes off to the skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "飞翼震起的水花高达数千米，巨大的翅膀仿佛从天上垂下的云朵。",
+			say = "The water that splashes from its wings when it takes flight rains down from the skies, its huge wings like clouds that descend over the land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你拼命地抱住它身上凸起的部分，为了让自己不被甩下去——",
+			say = "You cling to its body desperately as to not be thrown from its back––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "噢噢——要被甩下去了！！",
+			say = "Woaaah!! I'm gonna fall!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "就这样不知过了多久，它终于停止了继续升空，转而平缓地飞行起来。",
+			say = "You do not know how long it has been, but the bird finally stops its ascension and begins to glide serenely across the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你松开了双臂，放松了下来……小鸟们叽叽喳喳地凑到了你的身边，想要与你一起玩耍。",
+			say = "You finally let go and begin to relax. Small birds chirp and gather at your sides, clamoring to play with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你拿出了兜里的泡泡水，向她们吹起了泡泡——",
+			say = "You reach into your pocket for a straw, and start to blow colorful little bubbles for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呼——",
+			say = "Fwooh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咔嚓~拍照完毕！一张非常漂亮的照片哦！",
+			say = "––Now that's a photo-worthy expression! Thank you very much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "辛苦了，布里斯托尔小姐。现在请睁开眼睛——拍摄结束了哦。",
+			say = "Yes, excellently done. Bristol, you can now open your eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等一下……在云层之中，我好像看到了什么东西。",
+			say = "Wait... I can see something in the clouds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "诶……你看到了什么？",
+			say = "Oh? What might you be seeing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是一个巨大的虹色圆锥体，高约十英尺，底部的直径也有十英尺……",
+			say = "There's some kind of rainbow-colored cone coming out of the clouds... It seems to be rising up about ten feet, with a diameter about that wide as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虹色圆锥体……等，等一下！",
+			say = "A rainbow-colored cone... Wait, hold on a sec!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "唔……我无法移开目光。",
+			say = "I... I can't look away from it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虹色圆锥体全身都覆盖着某种凹凸不平的半弹性鳞片。",
+			say = "The cone seems to be covered with strange, uneven scales of some sort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "在圆锥体顶端，有四只可以伸缩的圆柱形器官，看起来是……邪恶的生物！",
+			say = "At the top of the cone, there's four retractable organs... W-woah, that looks like some kind of evil creature!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101491,
-			say = "——冲啊，巨鲲，让我们一同迎战吧！",
+			say = "Let's go, giant Kun! Let's go fight it together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快回到现实世界来，布里斯托尔小姐——————",
+			say = "You can come back to reality now, Miss Bristol. Our time's almost up~",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -713,7 +713,7 @@ return {
 			bgName = "star_level_bg_152",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，本日的拍摄也平安无事地顺利结束了。",
+			say = "And thus, another photoshoot was completed successfully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "嘁…有点不妙…",
+			say = "Dammit... You leave me no choice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别、别想跑——咕哈……！！",
+			say = "You're not going anywh—AGGGHHH...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "埃克塞特，你没事吧！",
+			say = "Oh my god! Exeter, are you okay?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……可能……咳咳，不太好……",
+			say = "...Guh... Looks like... she got...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，这个方向是……？",
+			say = "Hm? She's turning to flee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……那就请前辈先回去接受修理吧，我和姐姐会继续追击{namecode:431}。",
+			say = "I see... Exeter, you should head straight back home for repairs. Achilles and I will pursue Graf Spee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，她虽然撤退了，但是光凭你们两个能做什么……我，咳咳，我还……",
+			say = "Wait. She's getting away, but just the two of you can't... Argh, I can... I'm gonna... ram the bastard.... It will be the end of us... but it will sink her too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的前辈只是个累赘呢…还是认清现实吧~而且……",
+			say = "In your current state, you'll only be a hindrance to us. And you can still be repaired. That's just how it is. Besides...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可不想轻易把击沉{namecode:431}的功劳拱手让人呢~",
+			say = "I'm not going to concede the feat of sinking Graf Spee that easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……！",
+			say = "But...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，前辈，在担心我之前，还是先担心你自己吧~",
+			say = "Ahahah. How about worrying about your own wellbeing before that of others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我知道了，祝你们好运。",
+			say = "...Very well... I will pray for your success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			actorShadow = true,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不妙……我们的攻击完全不能伤她分毫。",
+			say = "She's strong... My attacks aren't even working.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是另一个棋子很弱哦！",
+			say = "At least the Pawn is like any other Pawn we know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了超级耐打之外一点战斗力都没有！",
+			say = "She might be a little durable, but she's a weakling otherwise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如我们先集中火力把那个弱弱的棋子打掉吧！",
+			say = "Kursk, can we deal with this Pawn first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对……有陷阱的味道。",
+			say = "I wouldn't. It smells like a trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你有什么发现么？",
+			say = "More intuition, I'm guessing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是直觉……但是我是凭直觉行事的。",
+			say = "Right. Unlike you two, I have an especially keen intuition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:530:同盟}同志相信我的直觉，你们呢？",
+			say = "That would probably be why Soyuz allowed me to lead this unit. If that is a problem, I'm sor—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是旗舰，战场上的事听你的。",
+			say = "Don't apologize. You're our flagship, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，你要下什么命令都不用客气！",
+			say = "Yeah! We'll do whatever it takes to help a friend of the revolution! Now, do we have any way to defeat them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，我们撤退。",
+			say = "Absolutely not. We retreat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯————哎？！！！！",
+			say = "Roger that! Wait... Retreat? Even though we finally caught them?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后再解释，现在，全速撤退。",
+			say = "I'll explain later. You said you'd help, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是、是！",
+			say = "O-of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1

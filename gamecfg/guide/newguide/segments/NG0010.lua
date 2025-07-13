@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"围捕作战相关的内容可以点击帮助按钮查看详细说明"
+	"Tap the help button to check the detailed information of Grand Capture"
 }
 
 return {
@@ -8,11 +8,11 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
+				text = "Tap the help button to check the detailed information of Grand Capture",
 				mode = 1,
 				posY = 172,
-				posX = -337,
-				text = var_0_0[1]
+				dir = -1,
+				posX = -337
 			}
 		},
 		{

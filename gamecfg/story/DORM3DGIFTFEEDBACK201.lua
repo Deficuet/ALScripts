@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 30221,
 			nameColor = "#FFFFFF",
-			say = "我会好好珍藏{dorm3d}送我的礼物的。",
+			say = "Thanks for the gift. I'll keep it somewhere safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

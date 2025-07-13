@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey，我爱你，爱你一万次！不……三万次吧，还是无限次好了！",
+			say = "I love you, honey! A thousand times! No, wait... Ten thousand? A hundred thousand? Actually, infinity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？",
+			say = "What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "要说多少次都可以，只是想这么说，想一直确认，一直告白下去呢。",
+			say = "I wanna confess to you! I want to make my love clear over and over again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们彼此的誓约，还要一直继续下去，一直爱你，Honey！",
+			say = "Our oath is eternal, and so is my love for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

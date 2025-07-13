@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提示：使用分析模块探索在海域中的隐藏资源吧。",
+			say = "My scanning mode can be used to locate hidden materials out at sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			},
 			options = {
 				{
-					content = "了解",
+					content = "Got it.",
 					flag = 1
 				}
 			}

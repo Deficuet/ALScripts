@@ -6,11 +6,11 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光辉号装甲航空母舰向帝国的诸位献上夜晚的问候~",
+			say = "I've been waiting for you. I am Illustrious, the Illustrious-class armoured aircraft carrier.",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -23,11 +23,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "利托里奥",
+			actorName = "Littorio",
 			bgName = "bg_italy_cg3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家舰队！你们究竟是怎么办到的，我们分成3个方向行进的路线居然都被你们发现了？！",
+			say = "Tell me this, Illustrious: how did the Royal Navy deduce that we would transfer our battleships over to Taranto harbor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,11 +49,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很简单，因为如果我是撒丁帝国的话，也会选择这几个方向行进的",
+			say = "It was quite easy, really... If we were in your position, we would have done the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "利托里奥",
+			actorName = "Littorio",
 			bgName = "bg_italy_cg3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这批袭击了港口的剑鱼也是你的杰作么？",
+			say = "Now you've said it... Are you also the one responsible for this bombing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,11 +81,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉",
+			actorName = "Illustrious",
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呢，虽然在夜晚起飞这么多舰载机确实也是第一次进行",
+			say = "Correct. Those Swordfish squadrons are all my prided children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 605020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈哈哈，真是不可思议的女人，如果你是帝国的一员，想必我也会迷上你的吧！",
+			say = "What a magnificent woman. If you were Sardegnian, I might have fallen for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过，此时此刻，我只能履行我作为帝国战舰的职责！",
+			say = "But after what you've done, I'm afraid I have to destroy you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			actor = 605020,
 			dir = 1,
-			say = "撒丁帝国海军，维内托级战列舰——利托里奥号，参战！",
+			say = "Remember this name - I am Littorio, Veneto-class battleship of the Sardegna Empire! En garde, signora!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

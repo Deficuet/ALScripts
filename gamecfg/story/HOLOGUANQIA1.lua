@@ -8,13 +8,13 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			stopbgm = true,
 			blackBg = true,
 			dir = 1,
 			bgmDelay = 1,
 			nameColor = "#a9f548",
-			say = "周围是再熟悉不过的墙壁和天花板",
+			say = "All around me are those familiar walls, that familiar ceiling",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,11 +35,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "与上一刻不同的是，原本热闹的房间中只剩下咱一个人了",
+			say = "Not long ago it was bustling in here, but now I am the only one here",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "虽然当务之急是寻找消失的伙伴，搞清楚现在的处境",
+			say = "My mind knows I must search for my missing friends and get a hold of the situation",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "可是身体却在不听使唤的颤抖，野性的直觉告诉咱，这里有危险",
+			say = "But my body trembles with fear, my instincts warning me that this place is dangerous",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "必须保持冷静",
+			say = "I need to compose myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +99,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大神澪",
+			actorName = "Ookami Mio",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "冷静下来…",
+			say = "Calm down! Calm! Yourself! Down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰----！",
+			say = "BOOOOOM!",
 			dir = 1,
 			blackBg = true,
 			bgm = "holo-fff-inst",
@@ -173,7 +173,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可能啊啊啊啊啊！在这种状况怎么可能保持冷静啊！！！",
+			say = "I can't! I can't do it! How's anyone supposed to calm down with this going on around them?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 900209,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "澪！房间里的是大神澪么！！",
+			say = "Mio? Is that you there?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -221,7 +221,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吹雪？！太好了，你平安无事啊！",
+			say = "Fubuki?! Thank the algorithm you're okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 900209,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "此地不宜久留，塞壬的量产型舰队已经向这边靠近了！",
+			say = "We need to get out of here. Mass-produced Siren ships are coming our way!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -293,7 +293,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞…塞壬？",
+			say = "Si... rens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔，从炮声推断应该是驱逐舰级别的主炮。恐怕这些只是侦查舰队，主力舰队还在后面呢",
+			say = "Hold on... They sound like destroyers, based on those explosions. It's probably just a vanguard fleet. The main fleet must be behind them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吹雪…倒是意外的冷静…到底是什么状况啊现在！舰队又是怎么回事啊！！",
+			say = "You're... keeping your cool surprisingly well... Wait, what did you say? A fleet? Whaddya mean \"fleet\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 900209,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "澪酱，冷静一些。外面突然淹没各处的海水，水面上游弋的塞壬舰队…",
+			say = "Calm down, Mio. There are Siren fleets around us as far as the eye can see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 900209,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "我们恐怕因为某些原因，随着holo服务器一同穿越到碧蓝航线的世界了，而且来到了冲突的正中心。",
+			say = "I'm surmising that, for whatever reason, we and the rest of the Hololive Server got transported to the world of Azur Lane. Smack-dab in the middle of a battle, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬舰队…就是侵占了碧蓝航线世界的海洋，作为游戏中最大反派的那个塞壬么？！",
+			say = "So by Sirens, you mean... Those time-travelers that invaded the world of Azur Lane?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们发生了异世界穿越？！这不是大事不妙了么！！",
+			say = "Never mind that, we've been sent to another world! How the heck do we get back?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 900209,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "可恶…要是这时候我的白上舰队在这里，这些塞壬根本不堪一击——",
+			say = "Dammit... If I only had my own fleet with me, this would be a piece of cake!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -487,7 +487,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "{namecode:158}酱，{namecode:96}酱， 明明我也是指挥官来着…",
+			say = "If only Kawakaze and Zuikaku were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

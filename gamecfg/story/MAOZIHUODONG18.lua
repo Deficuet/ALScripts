@@ -10,7 +10,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "因为意料之外出现的北方联合极地舰队，胜利的天平重新倒了回来",
+			say = "Perhaps because of the efforts lead by Saratoga's group, fewer Sirens were coming at us than expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "虽然还是没有得到其他人的消息，不过塞壬舰队的反击力度明显下降了。",
+			say = "Ideally, we'd be able to join forces before launching our main offensive against the Siren stronghold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "白鹰舰队应该也在萨拉托加的指挥下坚持战斗吧，之后能顺利会合就好了。",
+			say = "Hopefully that wouldn't be too optimistic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官同志，从开战到现在还没吃饭吧？健康的体魄才能孕育健康的精神，来，吃点东西吧。",
+			say = "Comrade, you ought to take a break and eat. After all, \"a healthy body houses a healthy mind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许没有白鹰的食物丰盛，不过填饱肚子是完全没问题的。",
+			say = "Our offerings may not be as sumptuous as the Royal Navy or the Sakura Empire, but it should be enough to fill the stomach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "巨大的圆形大列巴，流着油的整条红肠，罐装的土豆炖牛肉，以及——",
+			say = "Laid out in front of me was karavai bread, canned tushonka, caviar, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，热可可和罗宋汤，喝吗？",
+			say = "Commander, would you like some borscht?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "放在保温容器中热腾腾的罗宋汤，至于可可，似乎是眼前这位小小驱逐舰的一点个人爱好。",
+			say = "Hot borscht kept in an insulated container, and a chocolate milk blend on the side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "虽然食物的外表确实不精致，但是绝对分量十足，而且…",
+			say = "What about this meal wasn't sumptuous?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			},
 			options = {
 				{
-					content = "…好吃！",
+					content = "...Delicious!",
 					flag = 1
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是勇猛的吃相啊，呵呵~指挥官应该很容易融入我们北方联合呢。",
+			say = "I see you have quite the appetite~ Commander, I think you'd fit in great here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "周边还没有敌人出没的迹象，在下一战到来之前，稍微让身体休息一下吧。",
+			say = "Take this time to get some rest before the upcoming battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵~说到北方联合，自然不能少了这个呢。来，大口灌下去吧，指挥官同志，保证寒冷什么的一下子就离你而去了哦？",
+			say = "That's right. It's hard to stay warm in this cold weather, so please drink up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "这难道是……",
+			say = "Could this be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尝尝吧，北方联合的伏特加可是很棒的，你不会后悔的，指挥官同志",
+			say = "It's a classic. Nothing beats vodka for staving off the cold. Of course, you're welcome to have something else if you don't drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咕嘟咕嘟，嗝噗…很棒的哦？身体会很暖和的。",
+			say = "\"It's part of the fun of the Northern Parliament,\" or something along those lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "…不得不再说一次，不愧是北方联合啊…",
+			say = "...What an eccentric bunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

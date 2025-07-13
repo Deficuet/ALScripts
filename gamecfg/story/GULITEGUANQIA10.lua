@@ -16,7 +16,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800030,
 			nameColor = "#a9f548",
-			say = "好无聊啊，为什么只有我们被留下来了。",
+			say = "So laaaame. We're being left out of the fun.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好想出去玩……",
+			say = "I want to head out and have some fun, too!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法呢。现在外面那么危险，我们又没有战斗能力。",
+			say = "Well, can't really do anything about that. We can't fight, so we'd just be putting ourselves in danger.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茜，你这次真的什么都做不到么？",
+			say = "Akane, is there really nothing you can do over here?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。对哦",
+			say = "Sad, but true.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -121,7 +121,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……净化亲，你真的是塞壬么？",
+			say = "But... Purity. Are you really a Siren?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -136,12 +136,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "有印象没实感，不过她们那么说就是吧…",
+			say = "Am I a Siren just because you think I'm one~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么说来，净化亲果然是个坏人啊……",
+			say = "Seriously though, I never knew I did all those bad things in the past...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "停~消沉的事先放到一边，现在我想说的是别的事。",
+			say = "Okay stoooop. This isn't your pity party. Anyway, as I was saying...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你是塞壬，等级还很高，那么塞壬能做到的事你也能做到吧？",
+			say = "If you're really one of the Sirens' higher-ups, you can do what the Sirens promised they could do, right~?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -209,12 +209,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大概…？",
+			say = "Probably~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂！茜，你不会打算！",
+			say = "Wait, Akane! You can't be serious––",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -258,7 +258,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唉嘿嘿，很有趣吧～",
+			say = "Hehehe, this is about to get a whole lot more interesting~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话我们不是也有战斗能力了么？",
+			say = "This way, we should be able to fight as well. Right~?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "特制「舰装」的事就拜托你了哦，净化亲～",
+			say = "Show me what you can do with this special rigging, won't you? Miss Purity~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

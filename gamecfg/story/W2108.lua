@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，这个是塞壬设立在海域中的某种与灯塔功能类似的设备，启动后就能获得海域的详细情报了。",
+			say = "Scan complete. Detailed information on this zone can be obtained by activating this device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,18 +23,18 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "启动设备需要消耗一个1个[塞壬能源存储器]，确定启动吗？",
+			say = "You can use 1 Energy Storage Device to activate this device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "启动设备",
+					content = "Use the ESD.",
 					flag = 0
 				},
 				{
-					content = "离开设备",
+					content = "Do nothing for now.",
 					flag = 1
 				}
 			}

@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>一 某个早晨的突发事件</size>",
+					"Sea Star on Shore\n\n<size=45>1: A Morning Incident</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "呼欸？！！不、不见了？！怎、怎么办…",
+			say = "Huh?!? I-It's not here?! W-What should I do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 201101,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "呜呜…只、只能这样了吗——",
+			say = "Sob sob...Is this all I can do?",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鹅？！你、你这是什么装备！",
+			say = "Cygnet?! W-What kind of equipment is this?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "暴、暴力！这是赤裸裸的暴力！反对暴力！",
+			say = "F-Force! It's my \"bare force\" set! It's force-resistant!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "呜呜呜…彗星、新月…你们听我说啊——",
+			say = "Sob sob sob...Comet, Crescent...listen to me--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放在阳台的衣服…不见了？！晾着的和准备洗的都…？",
+			say = "The clothes from your balcony...are missing?! Your drying clothes and the clothes you were going to wash...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真、真是灾难啊…不过…（盯——）",
+			say = "This...this is a disaster! But...(Stare--)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "呼欸？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "同样是C级，为什么…呜呜呜…",
+			say = "But they're C Class, too...Why....Sob sob sob...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "新月酱不要哭，我、我也…呜呜…",
+			say = "Don't cry, Crescent! Otherwise...I will, too...Sob sob...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "不、不过…我的衣服究竟去哪里了呢…？",
+			say = "B-But...where could my clothes have gone...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "难、难道是…小偷？",
+			say = "Is there...a thief?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>三 灵光一现？</size>",
+					"The Sensationalist Sensation\n\n<size=45>A Tip from a Friend</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "宁静的夜晚，撒丁宿舍区——",
+			say = "Sardegna Empire Dormitory - Nighttime",
 			bgmDelay = 2,
 			bgm = "story-richang-8",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "垂头丧气的阿尔弗雷多回到了宿舍当中。",
+			say = "Alfredo returns to her dormitory, feeling dejected about her lackluster findings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601030,
-			say = "嗯哼哼~啊，阿尔弗雷多回来了？",
+			say = "Hm-hmm-hm~♪ Oh, hey, Alfredo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要来点巧克力松饼或者杏仁饼干嘛？",
+			say = "I've got chocolate muffins and almond cookies. You want some?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601030,
-			say = "天鹰刚烤出来的，很甜的哟？",
+			say = "Aquila took them out of the oven just minutes ago!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "谢谢啦，不过……还是算了，没什么胃口……",
+			say = "Thanks, GB, but I'm not hungry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601030,
-			say = "阿、阿尔弗雷多·奥里亚尼居然会一脸低沉地说没什么胃口！",
+			say = "Our favorite journalist is feeling blue AND has no appetite?! What on earth happened today, Alfredo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你不吃的话我就吃咯？文琴佐，给我来一块杏仁饼干~！",
+			say = "Well... If you don't want 'em, then I'll help myself to the cookies!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那我就先走一步……",
+			say = "Sure... I'll be in my room...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "等等！看你这幅样子，百分之百是有什么烦心事！",
+			say = "Not so fast! I can't ignore a friend who obviously needs someone to talk to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "心情低落的时候不补充糖分，只会变得心情更差。",
+			say = "When you're down in the dumps, you need a hearty helping of sugar to pick you up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "你还是吃一点，然后老实把烦恼说出来，我们一起想办法解决嘛~",
+			say = "Sit down, have a muffin, and tell us what's wrong. We'll work something out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唉，其实——",
+			say = "But... *sigh*... Okay, basically...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601030,
-			say = "寻找港区的“爆炸新闻”是嘛……确实是个难题呢……",
+			say = "Ah... So you're struggling to find a bombshell of a news story. Sounds tricky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "简单……只要去开阔地带做点武器试验的话……",
+			say = "Hehehe... That's easy... Just test some explosive ordnance in a field somewhere...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "达·芬奇也可以来帮忙……",
+			say = "Da Vinci could help you with that, no problem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "很有建设性的意见，我这就去筹备，顺便把研发部的{namecode:37}也叫上好了！",
+			say = "Not a bad idea, actually... Tell you what, I'll hit up Yuubari for scientific advice. We'll cook up a big bomb for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "停停停停停打住！爆炸新闻指的不是这种意义上的爆炸啊？！",
+			say = "No, no, no! When I said \"bombshell,\" I didn't mean it literally!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……但是整个这种规模的爆炸绝对能入选爆炸性新闻吧？",
+			say = "Okay, but... Setting off a bomb WOULD cause a big sensation, wouldn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "话是这么说没错……但是我有身为记者的某些坚持！",
+			say = "Sure, but that flies in the face of my journalistic ethos!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如为了博人眼球而去故意制造新闻之类的事就是绝对不能做的！",
+			say = "I can't just go around staging stories for the sake of attention, y'know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "唔…………那问题就变麻烦了。",
+			say = "Hmm... Back to square one, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呜呜呜……要是情况一直像现在这样没有起色的话，我的新闻报道之后说不定就没多少人会看了……",
+			say = "Yeah... And if I can't land a good scoop soon, people are gonna stop reading the Port Journal...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "啊，我想到一件事！阿尔弗雷多，你觉得舞会怎么样？",
+			say = "Wait, I know! There's bound to be some news material at the upcoming ball!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……舞会？",
+			say = "What ball?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "嗯，一场所有阵营都会参加的大型舞会，肯定是一件热闹的事件吧！",
+			say = "You haven't heard? They're organizing a huge ball soon. All the factions are gonna be there, no doubt bringing juicy rumors with them and whatnot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这种规模的活动，肯定会有源源不断的素材……",
+			say = "You're right... That IS a goldmine of scoops waiting to be uncovered...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "可是……这么大的活动，为什么天天宅在家做实验的达·芬奇会比我先知道啊！",
+			say = "Hang on, when did they announce this ball? And how come I first hear about it from you, the hermit who sits indoors and tinkers all day?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼哼~当然是因为我很厉害！",
+			say = "Hehehe~ Let's just say a little bird told me♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "…………我作为港区记者的生涯，真的快要结束了么……",
+			say = "*sigh*... If this isn't proof that I've fallen off as a journalist, I don't know what is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不不不~乱开玩笑是我的错！",
+			say = "Hey, I didn't mean it like that! It's a lot more mundane than you think!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "其实是指挥官不久前才联系了我，说让我为舞会设计一些舞台装置，所以我才知道的！",
+			say = "I only know about it because the Commander asked me to design some stage equipment for the ball, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "看上去整个计划还处于早期阶段，现在开始着手说不定就能获得源源不断的新闻哦？",
+			say = "Furthermore, the whole thing is still in the early planning stages. If you want to get a solid head start, you've got plenty of time to prepare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "原来如此……嗯，谢谢你，达芬奇！",
+			say = "Ohh, okay. Thanks a ton for the tip, Teach!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这是个好机会……不仅可以拍摄到舞会幕后的各种工作花絮，还能借着舞会探访的名义报道指挥官的行动~",
+			say = "This is my lucky break... Not only can I take behind-the-scenes photos of the ball, I can also use it as an excuse to report on the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "感觉肯定能写成一篇很好的新闻稿呢！只要抓住时间差，就能保证让它变成我的独家新闻……",
+			say = "I can see the headlines already! I just have to get ahead of my rivals and secure an exclusive scoop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好！那“阿尔弗雷多·奥里亚尼的舞会取材计划”，就这样决定了！",
+			say = "Alright! Operation Scoop Goldmine is a go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

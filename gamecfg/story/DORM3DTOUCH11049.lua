@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……！被你找到弱点了，真是糟糕~！",
+			say = "Ack... You found my weak point. Oh, nooo~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

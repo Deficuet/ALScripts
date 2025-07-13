@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "呜…幸运舰什么的…果然都是骗人的",
+			say = "Ouch... I'm not such a lucky ship... after all...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "哼哼，也许只是你的对手幸运值更高罢了～",
+			say = "You are lucky. You just picked a bad opponent.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "好了，把你知道的阴谋都告诉我",
+			say = "... Now tell me everything you know.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "呜...人家也是迷迷糊糊进入这片“圣域”的，然后...在这里见到了失踪多时的{namecode:91}大人和{namecode:92}大人",
+			say = "Well, I got lost and wandered into this place... then I met some strange people.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "{namecode:91}大人一直在这里研究神明所赐予的科技，想要靠它们来扭转战局...",
+			say = "They've been researching the technology their \"Creator\" gave them in hopes of turning the tide of war around...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "被带来的么...果然和情报所说的“圣域”一样。看来你没有撒谎。",
+			say = "That's just as the intel said. Looks like they weren't lying after all.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "跟着我一起去帮助{namecode:95}姐吧，多一人多一份力量",
+			say = "Come with me, Nowaki. I need to save Shoukaku, and the more support I have, the better.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "我不想违背{namecode:91}大人的命令...",
+			say = "But I can't go against their will...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "就算她所信仰的神明都是虚假的谎言？",
+			say = "Even if this \"Creator\" of theirs is nothing but a lie?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -187,7 +187,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "{namecode:91}大人是给予了我们希望的人，就算这条路也许是错的，我也...",
+			say = "They gave us hope... Even if I'm going down the wrong path, I can't...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "明白了，祝你好运～",
+			say = "I see... Good luck, then.",
 			shake = {
 				speed = 1,
 				number = 3

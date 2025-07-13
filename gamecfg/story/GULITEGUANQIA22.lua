@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "ssss-az-battle-boss",
-			say = "以天空为背景，远方两个全副武装的巨大身躯正相互靠近，大战一触即发。",
+			say = "The two massive figures could be seen approaching each other from a great distance, the very atmosphere tingling in anticipation of their imminent clash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "巨构武装:「弧光」",
+			actorName = "Enemy Kaiju",
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
@@ -37,12 +37,12 @@ return {
 		{
 			actor = 900233,
 			side = 2,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			actorScale = 2,
-			say = "终于出现在我的面前了啊，怪兽！",
+			say = "There you are, kaiju!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -58,10 +58,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "巨构武装:「弧光」",
+			actorName = "Enemy Kaiju",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂！！！",
+			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
 			typewriter = {
 				speed = 0.01,
 				speedUp = 0.01
@@ -74,12 +74,12 @@ return {
 		{
 			actor = 900233,
 			side = 2,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			actorScale = 2,
-			say = "嚯，朝我走过来了吗，没有选择逃跑而是主动接近我么？",
+			say = "Oh? You're approaching me? ...Instead of running away, you're coming right to me?",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -95,10 +95,10 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "巨构武装:「弧光」",
+			actorName = "Enemy Kaiju",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
+			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
 			typewriter = {
 				speed = 0.01,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 		{
 			actor = 900233,
 			side = 2,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			actorScale = 2,
-			say = "很好，那就再靠近一点吧，这样才能让我痛扁你一顿啊！",
+			say = "Then come as close as you like... I can't beat the shit out of you without getting closer...",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "搞不清哪边才是反派了……",
+			say = "I can't tell who's the real bad guy here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "两边邪恶气质五五开，半斤对八两呢。",
+			say = "Honestly... Let's just say they both are...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "真是接收到了不少无意义的消息，无关发言的时候至少把通信频道关一下啊……",
+			say = "The noise coming through the communication channels is really annoying... I'm just going to turn it off for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂喂喂，这里是旗舰爱丁堡！各位作战辛苦了，进度怎么样？",
+			say = "How's everything going? Were you able to get the control devices?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "基本解决了，你那边呢？",
+			say = "Yes, we've wrapped things up over here. Thanks to your guidance, the Sirens were no match for us. What about on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还、还差一点……不过也是即将要彻底解决的状态了！",
+			say = "Uh, we're not quite there yet.... but we'll have this area under control soon enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "比预想中要好，看来计划执行的意外的顺利……",
+			say = "I didn't expect this plan to work so smoothly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "没想到你这个旗舰还行啊，稍微有点刮目相看了~",
+			say = "Color me surprised, Edinburgh. You certainly rose to the occasion, and then exceeded it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，是这样么……嘿嘿，那我继续去解决剩下的敌人了！",
+			say = "Ehehe, I'm flattered... All right then, let's finish mopping up these mass-produced ships!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们决战的时候再见啦~",
+			say = "Then... we'll help Purity defeat that giant kaiju!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

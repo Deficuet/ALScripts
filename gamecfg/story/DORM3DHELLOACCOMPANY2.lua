@@ -17,8 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，这是刚刚为您泡好的茶。\n要尝尝看吗？",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
+			say = "{dorm3d}, I've made tea for you.\nWon't you have a taste?",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

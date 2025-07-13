@@ -7,11 +7,11 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况不妙…虽然击破了2艘新型舰…但是还有大量的信号源在朝我们靠近",
+			say = "Shoot... We're rapidly being surrounded by Siren forces! At this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…..我们似乎已经被完全包围了",
+			say = "Wait, we're already completely boxed in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,11 +31,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "北卡罗来纳",
+			actorName = "North Carolina",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然能完美的预判出我们的行动轨迹来进行包围作战…塞壬的作战策略什么时候变得这么精妙了",
+			say = "When did the Sirens get so good at reading our moves? I've never seen them coordinating so flawlessly before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶…如果南达科他那家伙也在这里的话就好了……",
+			say = "Goddamnit... If only South Dakota were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,11 +55,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，一起杀出一条血路吧！",
+			say = "Urgh, that doesn't matter right now. We're gonna smash our way out – I sure as hell don't plan on becomin' cannon fodder here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和我一起瞄准对面那个大家伙，全主炮，一齐开火！",
+			say = "Everyone, take aim at the large Siren battleship straight ahead of us! All guns, open fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

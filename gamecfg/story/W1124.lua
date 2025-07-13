@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看起来塞壬棋子的侵袭告一段落了……",
+			say = "It appears that the Pawn invasion has come to an end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>二  LIVE「平行四界」</size>",
+					"Bits of Courage \n\n<size=45>II LIVE「Four Parallel Worlds」</size>",
 					1
 				}
 			}
@@ -20,18 +20,18 @@ return {
 		{
 			mode = 2,
 			blackBg = true,
-			say = "星尘演唱会现场"
+			say = "At The Stardust Live Concert..."
 		},
 		{
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_star1",
-			actorName = "观众A",
+			actorName = "Audience A",
 			withoutPainting = true,
 			bgm = "star",
 			actor = 0,
 			mode = 2,
-			say = "唔噢噢噢噢！星尘酱最棒了啊啊啊啊啊！！",
+			say = "Wow! Stardust is so amazing!!!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -69,10 +69,10 @@ return {
 			side = 1,
 			bgName = "bg_story_star1",
 			mode = 2,
-			actorName = "观众B",
+			actorName = "Audience B",
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "星尘酱我们爱你啊啊啊啊！！！",
+			say = "Stardust, we love you, ahhhhh!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,10 +87,10 @@ return {
 			side = 0,
 			bgName = "bg_story_star1",
 			mode = 2,
-			actorName = "观众C",
+			actorName = "Audience C",
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "哈啊……哈啊……",
+			say = "Haha...haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_star1",
-			say = "谢谢大家的应援～我已经感受到你们的感情了～让我们更加燃起来吧～！",
+			say = "Thank you everyone for your support~ I can feel all your warmth~ Let’s rock’n roll!",
 			bgspeed = 2,
 			blackBg = true,
 			actor = 0,
-			actorName = "星尘",
+			actorName = "Stardust",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -118,11 +118,11 @@ return {
 		{
 			actor = 0,
 			side = 1,
-			actorName = "台下众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "哦噢噢噢噢！L！！O！！V！！E！！星•尘•酱！L！！O！！V！！E！！星•尘•酱！",
+			say = "L - O - V - E !! Star - dust !! L - O - V - E !! Star - dust !!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "大、大家都好热情……哥、哥哥呢？",
+			say = "Everyone is so enthusiastic... What about Onii-chan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "哥哥……好兴奋的样子……",
+			say = "Onii-chan... looks so excited...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "好像……很开心……",
+			say = "And... so happy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,12 +195,12 @@ return {
 		},
 		{
 			actor = 0,
-			actorName = "星尘",
+			actorName = "Stardust",
 			side = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "谢谢大家～星尘的歌～有没有传达到大家的心中呢～？让我们期待下一次再会吧！",
+			say = "Thank you everyone~ Have Stardust’s songs been conveyed to your hearts?~ I look forward to the next time we meet!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -230,11 +230,11 @@ return {
 		{
 			actor = 0,
 			side = 1,
-			actorName = "台下众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "哦噢噢噢噢哦噢噢噢噢！",
+			say = "Woooooow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,11 +247,11 @@ return {
 		{
 			actor = 0,
 			side = 1,
-			actorName = "观众A",
+			actorName = "Audience A",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "哈啊～～果然星尘酱是最棒的～",
+			say = "Ha~~ Stardust is absolutely the best~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,11 +264,11 @@ return {
 		{
 			actor = 0,
 			side = 1,
-			actorName = "观众B",
+			actorName = "Audience B",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "感觉……此生无憾了……",
+			say = "Feels like... I’ve got no regrets anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,11 +281,11 @@ return {
 		{
 			actor = 0,
 			side = 1,
-			actorName = "观众C",
+			actorName = "Audience C",
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			blackBg = true,
-			say = "不行，我还要活着等到下次星尘酱的演唱会呢！",
+			say = "No... I must survive until I can attend Stardust’s next concert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			mode = 2,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "这就是……歌唱的力量吗……好厉害……",
+			say = "So this must be... the alluring power of music... Unicorn is getting pulled in...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -344,7 +344,7 @@ return {
 			mode = 2,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "感觉独角兽……都被感染了一样……",
+			say = "Even Unicorn… is touched...by this concert...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			mode = 2,
 			nameColor = "#a9f548",
 			blackBg = true,
-			say = "独角兽也想……让哥哥那么开心……",
+			say = "Unicorn also wants to... make Onii-chan happy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

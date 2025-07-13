@@ -11,19 +11,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「昔者庄周梦为胡蝶  栩栩然胡蝶也」</size>",
+					"<size=51>「The dreamwaker sees the light of the Dawning Ceremony...」</size>",
 					1
 				},
 				{
-					"<size=51>「自喻适志与  不知周也」</size>",
+					"<size=51>「...Crimson-dyed intrigue. Otherworldly explosions. The house of faith, sundered by a charred blade.」</size>",
 					3
 				},
 				{
-					"<size=51>「俄然觉  则蘧蘧然周也」</size>",
+					"<size=51>「The dreamwaker sees her valiant comrades, stemming back the tides of chaos to complete the ceremony.」</size>",
 					5
 				},
 				{
-					"<size=51>「不知  周之梦为胡蝶与  胡蝶之梦为周与」</size> ",
+					"<size=51>「At last, drifting within the vast sea between worlds, the dreamwaker stirs.」</size> ",
 					7
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "长久以来，妾身一直在远方凝视着这个世界，如今终于得到了触碰它的机会，可是…",
+			say = "Long has this one watched the world from a distance, only now given an opportunity to touch it. But...",
 			bgm = "bsm-2",
 			flashin = {
 				delay = 1,
@@ -85,7 +85,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "众人的期待，信仰的凝结，换来的却是如此的虚弱与无力。",
+			say = "Diffuse are the expectations of mankind, and frail is the crystallization of their beliefs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本不应该是这样的，原本……",
+			say = "Such a thing should never have come to pass...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "命运的轨迹被干扰了么…亦或是，命运轨迹本该如此呢。",
+			say = "Has the trajectory of fate been thrown into disarray... or is this its true alignment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，这些都不重要了…现在重要的不是妾身，而是重樱。",
+			say = "But alas, these things are no longer important... What matter is not this one's body, but rather the future of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现世之中，神木已然凋零，群岛正在燃烧，赤红的身影逐步引导着毁灭的降临。",
+			say = "In this world, the Great Fox's tree withers, the Diadem burns, and the crimson shadow heralds the coming of destruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而梦境……正在被漆黑与猩红的预兆所撕裂。",
+			say = "And the realm of dreams... cracks before the harbinger of crimson and black.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在片段拼凑的尽头，是妾身也无法看清的「梦魇」……",
+			say = "What this one sees is finality... the sign of an inevitable fate yet to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "必须阻止这一切的发生。",
+			say = "But even the powerless... should at least try to save what is important to them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纵使以这般身姿醒来，妾身也有能做到的事。",
+			say = "Even if the tides of calamity cannot be averted... should this one combine visions of the \"truth\" with her powers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要现在行动起来……",
+			say = "No matter how small, how ephemeral, this fleeting sliver of a dream may be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			soundeffect = "event:/ui/fengling",
 			actor = 307080,
 			stopbgm = true,
-			say = "为时还，未晚…！",
+			say = "If they are slowly pieced together, then surely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

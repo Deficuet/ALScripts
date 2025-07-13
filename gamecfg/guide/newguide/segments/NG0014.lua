@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"点击help按钮查看限界挑战帮助！"
+	"Tap the Help button for details on Challenge Mode!"
 }
 
 return {

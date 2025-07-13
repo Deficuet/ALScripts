@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>一 圣诞姜饼的做法</size>",
+					"Christmas Party!\n\n<size=45>How to Craft a Cookie</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 199012,
 			nameColor = "#a9f548",
-			say = "材料的配比…正好！烤箱的火候…完美！嘿嘿，这次的姜饼应该没问题了！",
+			say = "Ingredients... check! Oven... check! Everything's perfect! The gingerbread cookie is gonna turn out awesome this time!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…好吃…倒是不难吃…不过，嗯…总觉得少了点什么啊……",
+			say = "... or maybe it won't. Something's still missing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啦啦啦~我是难波万~",
+			say = "Lalala~♫",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟~西雅图~怎么一脸不开心的样子呀？不如一起去打一场激动人心的雪仗吧~",
+			say = "Hey Seattle, why the long face? Why don't we go for an exciting snowball fight to cheer you up~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是{namecode:524}啊，我正在为晚上的圣诞派对做准备呢，不过…",
+			say = "Oh, San Diego. I'm prepping for tonight's Christmas party, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗅嗅…这是，圣诞姜饼！好香的味道！",
+			say = "*sniff sniff* Hmm... are you baking some gingerbread? It smells great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这个姜饼！{namecode:524}来的也算是正好，来帮我尝尝看味道，给点意见吧",
+			say = "Bingo! I'm making gingerbread cookies! Hey, while you're here, you mind being my taste tester?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔欸？那我就不客气啦~",
+			say = "Can I really? In that case, I'll help myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(嚼嚼)嗯…(嚼嚼)好吃！再来一个！",
+			say = "... Shoo goood! One more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			say = "{namecode:524}一口气吃掉了好几个姜饼",
+			say = "San Diego wolfed down the gingerbread cookie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…饱啦饱啦~谢谢款待~",
+			say = "Phew... thanks for the treat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感、感觉如何？",
+			say = "What'd you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很饱！",
+			say = "I'm stuffed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好…啊不对啦，不是问这个，是问你觉得好不好吃啦！",
+			say = "Awesome! ... Hang on! You've gotta tell me how it tasted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？普通的好吃吧？",
+			say = "Hmm... It was just \"good,\" I guess?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……果然还是有哪里少了什么…",
+			say = "Welp, I figured as much. It's missing that little extra something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱？",
+			say = "Love?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？",
+			say = "Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注入了“爱”的东西是最美味的，听说？",
+			say = "You know, \"love makes the best seasoning,\" or something like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱…吗……",
+			say = "Love... Love, huh... What's the deal with love...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然{namecode:524}完全不懂就是了！",
+			say = "I have no idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈…不过，确实是个思路！我再去问问其他人好了！也顺便确认下其他阵营的伙伴们来不来参加派对吧",
+			say = "Still, you might be onto something there! I'll start by asking around, but first I need to send out invitations to the other factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦哦~（并没有在听）",
+			say = "I didn't catch any of that, but it sounds good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

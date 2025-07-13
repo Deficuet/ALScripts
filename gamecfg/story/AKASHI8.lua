@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "果然{namecode:98}是绝对不会出错的喵！感谢指挥官的配合喵！这下{namecode:20}也无话可说了喵！",
+			say = "Sure enough, {namecode:98} did not make any mistakes! Also, thank you Commander for your help! This time {namecode:20} will have nothing left to say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "——喵？指挥官今天也要带着舰队出击喵？",
+			say = "--- Nya? You’re going to take your fleet out to commission, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指挥官真勤劳喵～加油喵～",
+			say = "You’re so hardworking Commander, purr ~ Cheering for ya ~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

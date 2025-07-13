@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，这里的海水很清澈呢，来一起游泳吧？",
+			say = "The waters are really clear here. What do you say we take a dip together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,18 +58,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还记得我之前教给{dorm3d}的，游泳前的热身运动吗？",
+			say = "Do you remember the warm-up exercises I taught you before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然记得！",
+					content = "Of course I do.",
 					flag = 1
 				},
 				{
-					content = "已经忘了！",
+					content = "Maybe not entirely...",
 					flag = 1
 				}
 			}
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……那我就带着{dorm3d}一起先热身好了。",
+			say = "Heehee. Well then, let's do some exercises together before we go in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}也不许偷懒哦，要好好跟着我的动作哦。",
+			say = "Just repeat after me, and please put in the effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

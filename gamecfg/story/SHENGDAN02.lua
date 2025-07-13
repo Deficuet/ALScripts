@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>二　圣诞亚哥！</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 2 - Sandy Claus!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啦啦~啦啦啦~",
+			say = "Lalala~ Lala~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "发现目标~突击采访开始~",
+			say = "Target spotted! Commencing guerrilla interview!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈欸？突击采访？噢噢，终于我也成为知名人士了嘛！",
+			say = "Huh? What's a guerrilla interview? Oh, I get it! It's because I'm famous now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是我！超厉害！嘿嘿，来吧！不管什么问题我都会回答你的！",
+			say = "I knew I was a genius all along! Okay, game host! Ask me whatever; I know everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，不愧是{namecode:524}，还是这么有趣呢~",
+			say = "Ahahah... As always, you're a real curiosity, Sandy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看你的装备…还有刚才的…是在准备表演吗？",
+			say = "Judging by that costume and that singing... I'm guessing you're going to a party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你发现啦~我打算在圣诞节把这首歌送给大家",
+			say = "Ahahahah, so that gave it away? Yep, I'm gonna sing at a Christmas party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，大家一定会被我的歌声感动到痛哭流涕~然后我就会一跃成为港区的偶像！",
+			say = "And my singing will surely touch the audience's hearts so much I can become an idol too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞的偶像歌手{namecode:524}，简称圣诞亚哥！嘿嘿，我是不是很聪明~",
+			say = "I'll be the Christmas Idol San Diego, or Sandy Claus for short! Eheheh, aren't I just the smartest ever?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞亚哥！嘻嘻，我很期待你的表演哦~",
+			say = "Sandy Claus...? Yeah, I can't wait to hear your song!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，既然如此，我就提前披露一点点给你听看看吧！",
+			say = "Then since you're already here, stay for a moment and listen to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=60>啦~~~</size>",
+			say = "<size=60>LAAAA</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -206,7 +206,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——",
+			say = "AAAAAAAA",
 			flashout = {
 				black = true,
 				dur = 0.3,
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？音响好像不大对劲…欸？格里德利？怎么突然趴下了？",
+			say = "Hm? Did I sing the wrong part...? Gridley? Why are you on the floor?",
 			flashout = {
 				black = true,
 				dur = 0.2,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是被我的歌声感动了？！",
+			say = "Oh! Did my beautiful singing make you faint from joy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呼…呼……真、真是有冲击力的歌声，不愧是圣诞亚哥……",
+			say = "Gasp... Gasp... You could call it a very impactful song... I dunno what to say...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这么夸我我都要觉得害羞了呢~",
+			say = "Oh jeez, stop! You're making me blush~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 		{
 			dir = 1,
 			side = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~拍到了张好照片呢~这张就叫做《圣诞亚哥！》吧~嘻嘻，寻找下一个圣诞目标~",
+			say = "Anyway, I managed to get a good picture! Let's call it... \"Sandy Claus\"! Heheh, time to find the next target!",
 			flashout = {
 				black = false,
 				dur = 0.3,

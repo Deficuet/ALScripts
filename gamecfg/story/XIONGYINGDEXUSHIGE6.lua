@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "撒丁大剧场·地下仓库",
+			say = "Colosseum - Underground Warehouse",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "本日未被展出的皇家文物都存放在这里。",
+			say = "This is where all the exhibits that aren't on display today are being stored...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "让我看看，异常气息的源头————",
+			say = "Now, let's see... The source of the unusual scent in the air...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "是在这个柜子里么？！",
+			say = "Is right here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马突然揭开面前某个收纳箱的防尘布，玻璃后的展品漏了出来。",
+			say = "Roma lifted up the dustproof sheet covering a glass exhibit box, revealing the contents underneath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "这个是…………亚历山大图书馆的地砖？",
+			say = "This is... a stone tile from the Great Library?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "我记得是在不久前的亚历山大港考古中发现的，然后被送到了皇家帝国博物馆……",
+			say = "If I remember properly, this was excavated not too long ago under the direction of the Senate, and later recovered from that Siren \"labyrinth\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "现在这么着急用仿品来参展，是想炫耀对于罗马的征服么，还是对于罗马的蔑视呢……",
+			say = "Why is there already a replica of something that was freshly excavated? What exactly is going on here...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "不论哪种都令人不快就是了。",
+			say = "I suppose there's no point overthinking things though... *sigh*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马从展示柜中拿出了亚历山大图书馆地砖的仿品，将其放在手中细细观察着。",
+			say = "Roma opened up the storage case, weighing the tile in her hands while inspecting it carefully.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "这个地砖果然不对劲……",
+			say = "I knew it, there's something amiss...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "虽然外表的仿制无可挑剔，不过其内部的构造就……",
+			say = "At a surface level, the replica was made impeccably, to the point where it could hardly be distinguished from the real article. However, the material it was made of was certainly not stone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "不知为何，在一瞬间，罗马的心中产生了自己手里正拿着某个尖端科技造物的错觉。",
+			say = "While handling the uncanny imitation in her hands, Roma had a premonition that what she was holding was not a relic with over a thousand years of history, but rather technology beyond this time and world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "奇怪……这块地砖前几天跟皇家展品一起送来的时候我就检查过，当时并没有这种感觉。",
+			say = "I know I checked this exhibit before, and this is not the same tile that I handled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "难道是展品在被送到这里之后又被什么人换掉了么？",
+			say = "Maybe someone replaced it with a replica while it was stored in this warehouse...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "可是原本送来的就是仿品，用仿品换仿品究竟有什么意义……",
+			say = "But that doesn't make any sense. The \"original\" piece submitted for inspection was already a replica, so what's the point of swapping one replica for another?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "陷入沉思的罗马闭上双眼，下意识用手抚摸着这块有些奇怪的地砖。",
+			say = "Lost in thought, Roma closed her eyes and subconsciously reached for the tile, running her fingers across its surface. Suddenly, a burst of images flowed through her mind as if they were her own flashbacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			side = 2,
-			say = "她仿佛看到了亚历山大灯塔散发出的光辉，图书馆中漫天飞舞的莎草纸，骏马掀起的扬尘与高架渠带来的水雾。",
+			say = "She seemed to see light pouring from the ancient lighthouse, sheets of papyrus fluttering through the library, clouds of dust kicked up by horses, and watery mist stirring from aqueducts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "光辉……扬尘与水雾…………？！",
+			say = "Where... am I...?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_roma_5",
 			hidePaintObj = true,
 			side = 2,
-			say = "罗马睁开了双眼。",
+			say = "When she opened her eyes again, she was no longer in the underground warehouse. Instead, a vast wilderness stretched out before her eyes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 605030,
-			say = "我现在，究竟身处何方……？",
+			say = "What... just happened to me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前区域中，还有若干个塞壬实验场可供指挥官进行进一步探索（不影响主线章节进度）。",
+			say = "We should investigate what’s going on at the Siren Research Facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "详情信息可以前往任务面板进行查看。",
+			say = "Let’s check the Missions panel to see what there is to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

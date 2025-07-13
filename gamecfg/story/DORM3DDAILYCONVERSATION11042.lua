@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "今天的碟片有些无聊呢……",
+			say = "This movie's a little boring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "似乎全是老桥段了。…真不愧是Honey……居然还能看得下去。",
+			say = "It's all cliché stuff. I'm amazed you can sit through the whole thing without complaining...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然看不下去，因为吸引我的不只有电影。",
+			say = "Honestly, I didn't like it, either. I only got through it because there was something else on my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……咳咳，那就更多地看着我吧，因为我是最可爱的{namecode:199:新泽西}嘛！",
+			say = "A-ahem... Then just watch me instead, since I'm the cutest girl ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

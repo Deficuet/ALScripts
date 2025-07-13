@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "启用了赛车的隐藏后备能源，【前进两格】"
+			say = "You activated your car's secret booster. Advance two more tiles."
 		}
 	}
 }

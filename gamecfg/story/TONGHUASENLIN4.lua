@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>四　白雪公主与毒苹果</size>",
+					"Adventures in the Forest of Fables\n\n<size=45>4 Snow White and the Poisoned Apple</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "带着毒苹果与面具从城堡后门走出不远，一位坐在秋千上的少女进入了视线。",
+			say = "I left the castle, poisoned apple in hand, and walked through the forest once more. Arriving at an open field, I encountered Snow White.",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是皇后派来的刺客，想取走我的性命，对吧？",
+			say = "I know your kind... You're an assassin, ordered by the queen to take my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错，抱歉了，白雪公主！",
+					content = "\"Prepare to meet your maker!\"",
 					flag = 1
 				},
 				{
-					content = "不，我只是路过的指挥官罢了。",
+					content = "\"No, I'm just a lost Commander.\"",
 					flag = 2
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这样啊……",
+			say = "Very well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			optionFlag = 1,
-			say = "转瞬间，白雪公主挥起的剑就停在了眼前不远处。",
+			say = "Before I could even move a muscle, she pointed a sword at my throat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "现在呢，还想动手么？",
+			say = "You're sorely mistaken if you think I will simply let you kill me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "想要蒙混过关可不行哦？",
+			say = "Lying is a sin. A grave one, at that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			optionFlag = 2,
-			say = "转瞬间，白雪公主挥起的剑就停在了眼前不远处。",
+			say = "Before I could even move a muscle, she pointed a sword at my throat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "掩饰是没有用的。皇后的打算我都清楚，你也不是第一个刺客了。",
+			say = "You can't deceive me. You aren't the first assassin I've come face to face with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "老实说吧，这次皇后又准备了什么新花样？",
+			say = "Be frank with me. What trick is the queen trying to pull on me this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "……将毒苹果拿给白雪公主看，并告诉了她皇后的计划。",
+			say = "I took out the poisoned apple and explained the queen's plot to Snow White-slash-Joffre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现硬来不行，就转而去用阴险的手段了么……看来不跟皇后做个了断是不行了。",
+			say = "I see. So she has turned to deception now that it's clear a frontal attack will not work. I've about had enough of this wicked woman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我接下来要去军营调集军队，不过路上难免遇到皇后的眼线，如果能有什么能隐藏身份的东西就好了……",
+			say = "Listen, I'm planning to gather reinforcements and assault the castle. However, her cohorts will doubtlessly catch on to me without a disguise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			},
 			options = {
 				{
-					content = "拿出面具",
+					content = "\"I've got this, if it'll help.\"",
 					flag = 1
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是舞会用的面具……？依靠这个倒确实可以隐藏身份……",
+			say = "A mask? It will hardly hide my identity, though I suppose it's better than nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你虽然是刺客，人倒是还挺好的。",
+			say = "I must say... You're quite upstanding for an assassin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想来刺杀我并非是你的本意，而是被皇后用什么把柄威胁了吧？",
+			say = "Am I correct to assume you didn't want to assassinate me, but rather you were roped into it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系哦，等我消灭了皇后，你也就不用再害怕什么了。",
+			say = "Don't you worry. Once I've dealt with the queen, you'll be relieved of your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "真是一个武德充沛的白雪公主……",
+			say = "\"This sure is different to the version of Snow White I remember...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么感谢你的帮助，事不宜迟，我要出发了。",
+			say = "Thank you for assisting me. It's time we both went our separate ways now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 907011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个毒苹果就留给你好了。森林中危险，也许还有用的上的地方。",
+			say = "You should hold on to that apple. There are many dangers lurking in the forest, and that apple may just come in handy against them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "白雪公主一个人向着城堡的方向走远了。",
+			say = "The absurdly battle-hardened Snow White bid me farewell, then began heading for the castle with a leisurely stride.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "还能用得上毒苹果的地方……不知道接下来还会发生什么呢——",
+			say = "\"Okay... How is a poisoned apple going to help me in these woods?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

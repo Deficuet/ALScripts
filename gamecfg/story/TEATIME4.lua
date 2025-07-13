@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>四 中午，最喜欢贝法啦！？</size>",
+					"Lively Afternoon Tea Party IV\n\n<size=45>「Noon, Beloved Belfast!」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊……可恶，又失败了！明明只比上次多撒了一点点糖，为什么却变得这么甜！",
+			say = "Argh.... darn it, I failed again! I obviously sprinkled just a bit more than I should've, but why is it so sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，你出门时落在桌子上的钥匙我帮你拿过来了",
+			say = "You left your key on the table while heading out, I brought it for you here, sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "钥、钥匙？啊啊！贝法，谢、谢谢……",
+			say = "K-Key? Ahh! Thank you so much Belfast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐又在做司康饼吗？这次怎么样？",
+			say = "Are you making scones again sis? How is it this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁，你尝尝看不就知道了——",
+			say = "Sigh, have a taste yourself——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……甜味没有散开……是放糖的时候没有搅匀吧，另外，烘焙时的温度有些过高了……",
+			say = "...The sugar is not evenly spread out...You didn't mix the sugar when you sprinkled it in, right? Also, I think the temperature was a bit too high...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉……明明是姐妹，为什么才能上差距这么大……",
+			say = "Sigh… as sisters, how come the gap between our talents is wide...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐太过自谦啦，也存在着我做不到姐姐却能轻松做到的事……",
+			say = "You're being too hard on yourself sis, there are plenty of things that you do better than me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有吗有吗！？是什么是什么！？",
+			say = "Really?! Like what???",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才不会说，姐姐就自己发觉去吧~",
+			say = "Like I'm going to tell you, you'll have to find that out yourself~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，告诉我嘛~",
+			say = "Tell me, Belfast~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不——要",
+			say = "N - O, NO",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁——",
+			say = "Hmph——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离茶会还剩……像往常一样，茶点交给我吧",
+			say = "As for the snacks for the tea party… as usual, just leave that to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我不想一直依赖贝法……如果我能像贝法一样……",
+			say = "I don't want to rely on you forever, Belfast… If only I could be more like you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人惟一无法做到的事情就是变成他人，何况我也不是什么值得姐姐成为的人……",
+			say = "The most important thing a person should not do is try and be like someone else, so just be yourself. Besides, I'm not worthy of your admiration...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，姐姐就以姐姐的方式生活下去就好，完美女仆什么的，有我一人就够了",
+			say = "In short, you should live the way you always have sister. Leave the hard work of being the perfect maid to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗……嘿嘿~贝法，我最喜欢你啦！",
+			say = "Really... hehe~ Belfast, I love you sis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，不要在我打蛋的时候突然抱上来啊",
+			say = "Really now? Rushing over to hug me while I’m cracking eggs….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
+			say = "At the same time, {namecode:11}...",
 			blackBg = true,
 			flashout = {
 				black = true,
@@ -330,7 +330,7 @@ return {
 			}
 		},
 		{
-			say = "【北纬21°西经158°】",
+			say = "[North Latitude 21° West Longitude 158°]",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
-			say = "好像越来越热了，衣服都湿透了……嗯，一定是因为我跑得太快了！前面有个路标，Honolulu？什么意思？算了，只要一路向前应该就没问题！",
+			say = "It's getting hotter and hotter, my clothes are all soaked... Must be because I ran too much! A route sign ahead, Honolulu? What does this mean? No matter, as long as I keep on moving forward!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

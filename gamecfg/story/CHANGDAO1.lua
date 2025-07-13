@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>一　休假中的偶遇</size>",
+					"Long Island's Inner Peace\n\n<size=45>I 「Holiday Encounter」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……原来是指挥官啊……没想到在这种时候遇上了……",
+			say = "Huh... it's the Commander... I didn’t expect to bump into you at a place like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是休假中的长岛——啊～啊…打招呼也好麻烦，好想回去睡觉……",
+			say = "I am in vacation-mode --- hehehe~ Sigh, it's too much trouble to even say “hello”. I just want to go back and nap...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过正好…库存的可乐也差不多要消耗完了，能帮我补充一点存货吗？",
+			say = "Talk about timing... I’ve almost run out of all the sodas in the cooler... can you help me top up my supply, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长岛酱的拜托，指挥官不会拒绝的吧……？",
+			say = "Pretty please, I know my Commander won't refuse to help me...right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就拜托指挥官咯～",
+			say = "Then I’ll leave it up to you Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

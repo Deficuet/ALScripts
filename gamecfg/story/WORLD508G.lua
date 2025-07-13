@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-arbitrator-type1",
 			dir = 1,
-			say = "XIV立刻压制实验品的后勤舰队。VIII阵型变换。不要给余烬喘息的机会。",
+			say = "Temperance, put some pressure on their rear units. Strength, swap over to linked mode, now. We can't let the Ashes recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明白。机关系统连协干扰机制IX=VIII向VIII=IX变换，专注于行动能力限制。",
+			say = "Got it. Switching Linked Jamming Protocol code from IX-VIII to VIII-IX, prioritizing mobility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机关系统VIII=XIV连协干扰机制，启动。依靠战场维修作弊可是不好的哦。",
+			say = "Initiating VIII-XIV Linked Jamming Protocol. Let's see their rear guard try to heal off the damage now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

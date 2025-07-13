@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"序章\n\n<size=45>「日出～Einleitung, oder Sonnenaufgang～」</size>",
+					"First Movement\n\n<size=45>Sunrise</size>",
 					1
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
 			bgmDelay = 2,
-			say = "诸君！",
+			say = "Attention, all Iron Blood personnel!",
 			bgm = "bsm-4",
 			flashout = {
 				black = true,
@@ -60,11 +60,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "铁血必须积聚自己的力量并将它掌握在手里以待有利时机。",
+			say = "We have conserved every bit of our energy and every ounce of our undying will for this day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,11 +76,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "然而，这种时机已被错过了好几次…",
+			say = "We have let many fine opportunities slip by us, and we have been subjugated to bitter experience after bitter experience.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,11 +92,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "失败只是坚忍的最后考验。",
+			say = "But now our rigorous trials have ended, and it is time to show the world the strength of our resolve!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,11 +108,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "真理只在大炮射程之内！",
+			say = "The unyielding soldier shall never know true failure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,11 +124,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "对于不屈不挠的人来说，没有失败这回事。",
+			say = "And the truth lies only within the range of our cannons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我们的生存空间，不是靠乞求和抗议来实现的。",
+			say = "From this point onwards, we will pay no heed to deception, debate, and other such cheap parlor tricks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "而应该是靠铁和血来解决的！",
+			say = "We shall expand our lands with the might of our black iron and the courage of our crimson blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,11 +172,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "这正是我们曾经所犯的错误…",
+			say = "We shall fight for our fatherland! We shall march onward, and we shall be victorious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,11 +188,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "——铁血没有别的路可走，唯有奋斗！",
+			say = "This is the principle on which the Iron Blood fleet and the Crimson Axis will survive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "Victory to us! Long live Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,9 +222,9 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_4",
-			actorName = "众人",
+			actorName = "The Fleet",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "VICTORY TO US!",
 			effects = {
 				{
 					active = true,
@@ -247,12 +247,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "The Fleet",
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "Eisen und Blut über alles！",
+			say = "LONG LIVE IRON BLOOD!",
 			dialogShake = {
 				speed = 0.12,
 				x = 14,

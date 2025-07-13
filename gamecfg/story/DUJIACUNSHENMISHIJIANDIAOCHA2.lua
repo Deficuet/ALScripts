@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>平凡温馨度假村</size>",
+					"The Spiriting-Away Incident?\n\n<size=45>Calm at the Onsen Resort</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "温泉度假村·主宅",
+			say = "Onsen Resort - Inn Main Building",
 			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
@@ -32,12 +32,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "请带我回家",
+			factiontag = "Please Adopt Me",
 			dir = 1,
 			actor = 301041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被子……都晒好了，都是暖烘烘的味道。",
+			say = "I've finished airing out all the futons... Now they're nice and soft.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,11 +51,11 @@ return {
 			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "温泉度假中",
+			factiontag = "Onsen Steamed Buns Are Delish!",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "房间也都打扫完了，保证一尘不染~",
+			say = "And I finished cleaning the rooms. You won't find one speck of dust in there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,11 +69,11 @@ return {
 			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "零食和饮料都准备齐了，商店里的商品也都齐全~嘿嘿~假期的生意一定会很好！",
+			say = "Snacks and refreshments're lookin' good, and I just got done setting up my stall. This is gonna be one profitable vacay for me♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,11 +87,11 @@ return {
 			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "度假村商店啊……",
+			say = "Don't you think it's odd that Akashi just... lets you run a stand?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,12 +105,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来也奇怪……这种做生意的机会，{namecode:98}怎么会白白让给你呢？",
+			say = "It's her resort, and I can't think of any good reason why she'd be fine with others earning money she could be making.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,11 +124,11 @@ return {
 			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "淳朴的老板娘",
+			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……{namecode:98}好像有什么事忙不开，就把生意忍痛割爱让给我了。",
+			say = "I mean, she straight-up told me she's busy with somethin' else and she's got no choice but to let me have her biz.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,11 +142,11 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:50}，手续办得怎么样？",
+			say = "I take it the preparations are proceeding smoothly, Noshiro?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,12 +160,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是，{namecode:182}大人！关于这件事，刚刚已经收到了最终确认文件！",
+			say = "Yes. I just received the final confirmation letter, in fact.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,12 +189,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "假日期间，整座度假村、连同周边的岛屿与海域都将由我们自由使用。",
+			say = "Our visitors will have unrestricted access to the resort, the island, and the surrounding waters during their stay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,12 +208,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您安排的事，其余的部分也都在进行中。所有细节都不会放过。",
+			say = "I've put in the requests for everything you outlined, so all should be in order.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,12 +227,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "融化的冰美人",
+			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
 			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本次我们作为东道主，一定能为指挥官和港区的同伴们提供最优质的服务。",
+			say = "I'm confident that we, as the hosts, will be able to provide the best possible experience for the Commander as well as all our other guests.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,12 +246,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好。",
+			say = "That is excellent to hear...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,12 +265,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……{namecode:18}和{namecode:175}呢，从刚才起就不见她们的身影了。",
+			say = "Incidentally, where are Shimakaze and Suruga? This one hasn't seen them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,11 +284,11 @@ return {
 			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "现在是㹨哦",
+			factiontag = "Just Me, Not My Self",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:182}大人，{namecode:18}在不久前提出要巡逻度假村确保安全，{namecode:175}不放心就跟她一起去了。",
+			say = "Shimakaze asked to look around the resort, so she's on a patrol at the moment. As for Suruga... she went after her to keep an eye on her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,12 +302,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "现在是㹨哦",
+			factiontag = "Just Me, Not My Self",
 			dir = 1,
 			actor = 302070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "需要我将她们二人叫回来么？",
+			say = "Shall I summon them here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,11 +321,11 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巡查么……不必，就随她们二人去吧。",
+			say = "Nay... Let them continue their patrol...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_village_in",
 			hidePaintObj = true,
-			say = "温泉度假村·街道",
+			say = "Onsen Resort - City Streets",
 			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
@@ -368,12 +368,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可疑……",
+			say = "Hrmh... Eerie...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,11 +387,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:175}阁下，这里实在是太可疑了！",
+			say = "Suruga! This place is eerie to the extreme!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,11 +405,11 @@ return {
 			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……可疑的点在？",
+			say = "Uh-huh? Like how?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,11 +423,11 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在明明是白天，可街道上却亮着灯！",
+			say = "It's daytime, yet the lanterns are lit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,12 +441,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……准确来说，现在已经是傍晚了。",
+			say = "It's not \"daytime,\" it's evening. It makes sense to start lighting them now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,12 +460,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，{namecode:18}没看到开灯的人！",
+			say = "So you say, but I've not seen anybody actually lighting the flames!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,12 +479,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我记得{namecode:50}之前提过，这里基本都是自动化的设施，所以，这些灯应该也是到了时间就会自动点亮。",
+			say = "Because this place is mostly automated. The lanterns turn themselves on when it's time. Noshiro told me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,12 +498,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原、原来如此……！",
+			say = "Oh! That explains that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,12 +527,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……那里呢！{namecode:175}阁下，你看那处鸟居，是不是很可疑！",
+			say = "But it doesn't explain THAT! See? Something about that torii gate feels mighty eerie to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,11 +546,11 @@ return {
 			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是是~很可疑，很可疑。",
+			say = "And what is that \"something,\" huh? Fine, it's eerie. So what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,12 +594,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快到晚饭时间了，我们差不多该回去了哦，{namecode:18}。",
+			say = "It doesn't matter. It's nearly dinnertime, so let's head back or we'll be late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,12 +613,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "！！！{namecode:175}阁下，你看到了吗？",
+			say = "Oh! Suruga! Did you see that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,11 +642,11 @@ return {
 			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……什么？",
+			say = "Ugh. What is this time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,12 +660,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才有什么东西从鸟居后面飞过去了！",
+			say = "Something definitely flew out from behind that torii gate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,12 +679,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "其疾如风！",
+			factiontag = "Hippity Hoppity!",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:175}阁下请稍等片刻，我去调查一下！",
+			say = "I must look into this! Stay here while I go investigate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,12 +698,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_in",
-			factiontag = "不想引人注目",
+			factiontag = "Hates the Spotlight",
 			dir = 1,
 			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……等、等等！{namecode:18}！",
+			say = "We'll miss dinner if we don't... Hey! Wait, Shimakaze!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "与此同时，主宅（？）之中。",
+			say = "Meanwhile, inside the inn's main building...",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
@@ -744,12 +744,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "star_level_bg_517",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别磨磨蹭蹭了，都动起来动起来，观众们马上就要来了！",
+			say = "Okay, let us move. We wouldn't want to keep the audience waiting.",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -765,12 +765,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河童",
+			actorName = "Kappa",
 			bgName = "star_level_bg_517",
-			factiontag = "为了不再怕人……",
+			factiontag = "Wants to Cure Her Social Anxiety",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿……河童……期待……尖叫声。",
+			say = "I-I can't wait... to see everyone's reactions...",
 			icon = {
 				scale = 8,
 				image = "Props/story_hetong",
@@ -786,12 +786,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "雪女",
+			actorName = "Yuki-Onna",
 			bgName = "star_level_bg_517",
-			factiontag = "雪女作战中",
+			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶，可别恶作剧过头了啊。",
+			say = "*sigh*... Don't go too far with the pranks now, okay?",
 			icon = {
 				scale = 8,
 				image = "Props/story_xuenv",
@@ -807,12 +807,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海坊主",
+			actorName = "Umibouzu",
 			bgName = "star_level_bg_517",
-			factiontag = "有实力的年长者",
+			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老朽出手有分寸，汝放心，绝对不会伤到客人的。",
+			say = "You needn't tell me twice. I know how to moderate myself♪",
 			icon = {
 				scale = 8,
 				image = "Props/story_haifangzhu",
@@ -830,10 +830,10 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝等是……妖怪？",
+			say = "Are you... youkai...?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -846,12 +846,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "Tanuki",
 			bgName = "star_level_bg_517",
-			factiontag = "妖怪剧团喵",
+			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "！！！你，你是何人！",
+			say = "Hey! Who's there?!",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -867,12 +867,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "Tanuki",
 			bgName = "star_level_bg_517",
-			factiontag = "妖怪剧团喵",
+			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "竟然能看到吾等！你、你是怎么到这里来的？",
+			say = "How can you see us? How did you even get here?",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -890,10 +890,10 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身，在此地感受到了结界的气息。",
+			say = "I sensed a barrier in the vicinity of the resort...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -908,12 +908,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "在调查途中误打误撞至此……未曾想，妖怪剧团的传闻竟然是真的。",
+			say = "I went to investigate... Of course, an encounter with the Youkai Troupe is not what I expected...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,12 +925,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "灯笼鬼",
+			actorName = "Chouchinobake",
 			bgName = "star_level_bg_517",
-			factiontag = "在温泉开party！",
+			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "团、团长，怎么办，还没开演就暴露了！",
+			say = "This ain't good, chief! We've been exposed 'fore the show even started!",
 			icon = {
 				scale = 8,
 				image = "Props/story_denglonggui",
@@ -946,12 +946,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "star_level_bg_517",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快把她抓起来！千万不能让她去通风报信！",
+			say = "Our only option is to subdue her here and now! Do not let the cat out of the bag!",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -969,10 +969,10 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「汝等，说什么？」",
+			say = "Subdue, you say...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,12 +1018,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鸦天狗",
+			actorName = "Tengu",
 			bgName = "star_level_bg_517",
-			factiontag = "自称小生的老者",
+			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊啊啊……好强！",
+			say = "Gaahhh! Such power!",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -1039,12 +1039,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "河童",
+			actorName = "Kappa",
 			bgName = "star_level_bg_517",
-			factiontag = "为了不再怕人……",
+			factiontag = "Wants to Cure Her Social Anxiety",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打不过啊……打不过……",
+			say = "We don't stand a chance, wearing these costumes...",
 			icon = {
 				scale = 8,
 				image = "Props/story_hetong",
@@ -1060,12 +1060,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海坊主",
+			actorName = "Umibouzu",
 			bgName = "star_level_bg_517",
-			factiontag = "有实力的年长者",
+			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这股力量……就连老朽也无能为力。",
+			say = "Aye... Even I am forced to raise the white flag.",
 			icon = {
 				scale = 8,
 				image = "Props/story_haifangzhu",
@@ -1081,12 +1081,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狸猫",
+			actorName = "Tanuki",
 			bgName = "star_level_bg_517",
-			factiontag = "妖怪剧团喵",
+			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……团、团长，快逃吧喵！",
+			say = "Screw it, chief! We need to bail, nya!",
 			icon = {
 				scale = 8,
 				image = "Props/story_limao",
@@ -1104,11 +1104,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "……喵？",
+			say = "\"Nya\"? Might your true form be...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1120,12 +1120,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都安静。",
+			say = "Quiet. Everybody, quiet.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -1141,12 +1141,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾乃剧团长食梦貘。尊敬的阁下，欢迎来到吾等的妖怪剧场。",
+			say = "I'm... *yawn*... the dream-eater baku, also known as the chief. The Youkai Troupe bids you welcome.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -1162,12 +1162,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾为团员们方才的无礼向您道歉。",
+			say = "First of all... Let me make it up to you for how rude the others were.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -1185,10 +1185,10 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……无妨。",
+			say = "As you say...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -1201,12 +1201,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……看阁下也是通情达理之人。",
+			say = "Great. I knew you'd be willing to talk it out.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -1222,12 +1222,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾等妖怪剧团常年在此演出，从未做出过伤人之事。",
+			say = "*yawn*... So, our troupe has been entertaining the resort for a looong time, and we've never hurt a soul...",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -1243,12 +1243,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于演出之事，不知阁下可否能容吾等继续进行呢……？",
+			say = "So, be nice and pretend you didn't see us, alright?",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",

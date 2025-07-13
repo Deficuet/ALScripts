@@ -5,12 +5,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-donghuang-static",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，北海风暴解析舰队已经消灭了塞壬的迎击舰队。",
+			say = "Commander, this is the North Sea Storm Analysis Fleet. All Sirens have been eliminated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战斗全程没有发现高阶塞壬出没。推测这一批仅仅是先遣部队，并非主力。",
+			say = "We haven't sighted any elites, so it's likely the force they sent at us is only a scouting fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我们也是这么想的。",
+			say = "South Sea Storm Analysis Fleet here. We suspect the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "指挥官，南海风暴解析舰队也已经消灭了全部敌人，目前正按照预定计划进行出发前的再次补给。",
+			say = "All targets have been wiped out. Commencing refuel and resupply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们这边的战斗也已经结束了。各舰队的损伤情况呢？",
+			say = "Great work, both of you. Chi An, what are your damages?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在近海支援火力的协助下，东海风暴解析舰队的战斗力损失小于5%。",
+			say = "Thanks to the support we received, we only lost less than five percent of combat effectiveness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯，我这边也一样。因为接近BP司令部，支援火力更强，北海风暴解析舰队战斗力损失小于3%。",
+			say = "Less than three percent here, on account of us being in close proximity to the BP base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "南海风暴解析舰队实力损失接近9%，好像稍微高了一点呢……",
+			say = "Oh dear... Ours is estimated at around nine percent. That's quite a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，你那边负责的区域广，舰队整体实力又是三支舰队中最弱的，取得这样的战绩已经很不错了。",
+			say = "It's fine. Your fleet has less firepower than the other two and you have a wider area to cover. You're doing great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "最开始给出的目标是，在第一轮行动中，所有舰队的战斗力损失不得超过15%，大家都完成得很漂亮。",
+			say = "Our max allowable losses for the first stage was 15% total, and you all kept it below that value. Outstanding work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "寰昌，敌情有重大变化么？",
+			say = "Huan Ch'ang, do you see any enemy movements within your recon range?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 504010,
-			say = "根据陆续汇总而来的情报，马里亚纳要塞的塞壬舰队正在严阵以待，但其他区域的塞壬并无向其增援的迹象。",
+			say = "From what I have now, it looks like a sizable force is gathering at their Mariana base. On the bright side, I don't see any reinforcements anywhere else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以认为敌情没有重大变化。",
+			say = "In short, there have been no major changes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就现状而言，三支舰队的战斗力损失程度都在计划之中，敌情也没有发生重大变化，符合第二阶段计划的执行条件。",
+			say = "The Storm has been eliminated, our damages are within estimates, and there are no surprises from the Sirens. All in all, this is going great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "BP司令部的意思如何？",
+			say = "Yat Sen, do you have anything to report?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "许可执行「冰龙破风」行动的第二阶段计划。",
+			say = "Everything is as normal around the BP base. I think we can move on to the next stage of the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很好，各舰队一小时后按照预定进攻路线出发。",
+			say = "Thanks. All fleets, you'll set off in one hour as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "同时联络北方联合舰队出航——我们马里亚纳群岛要塞群见！",
+			say = "Oh, and send the Northern Parliament a message for me – \"We'll meet at the Mariana Islands.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "收到布里斯托尔的集合联络后，来到了船尾的神秘角落。",
+			say = "Bristol gave us the order to assemble, so I go back to the mystery room.",
 			bgm = "login_us_0401",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "冷静地分析局势、灵活地走访现场、潇洒地解开真相——侦探埃塞克斯，现在正式加入调查小队！",
+			say = "Coolly analyzing the situation, deftly navigating the scene, elegantly unveiling the truth – Detective Essex has formally joined the investigation team!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,22 +73,22 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……我就知道。",
+					content = "I knew it.",
 					flag = 1
 				},
 				{
-					content = "欢迎加入！",
+					content = "Welcome! Great to have you.",
 					flag = 2
 				},
 				{
-					content = "你的代号呢？！",
+					content = "What's your codename, Essex?",
 					flag = 3
 				}
 			}
@@ -102,7 +102,7 @@ return {
 			actor = 107094,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……一个人调查，不如大家一起组队调查嘛。",
+			say = "Hehe... I figured collaborating with a team would be better than working all alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嗯~一同查明不可思议事件背后的真相吧！",
+			say = "Thank you! Together, we will seize the truth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "唔……本次行动中我的代号就是侦探哦，不过你要是觉得没有气势的话，那就叫「正义侦探」好了~",
+			say = "Hmm... Just \"Detective,\" I guess? If that's too plain, then you can call me the Private Eye of Justice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "那么言归正传，总之我先来帮大家整理一下目前搜集到的线索吧。",
+			say = "Now, back on topic. I'd like to reveal the clues I've collected so far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "少女把之前发生过的异常事件报告钉在了线索板上。",
+			say = "Essex starts sticking notes she'd written on various mysteries onto the whiteboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……唔……仅仅两天，就发生了这么多起异常事件的报告呢。",
+			say = "Hmm... So many mysteries, in just two days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "甚至有几起都是不久前才刚刚发生的！",
+			say = "There are even some that happened a little while ago!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，其中也有我自己亲身经历过的。我将这些事件根据发生时间和类型整理成了两组。",
+			say = "Yes, and even some that I experienced firsthand. Now, as you can see, I've divided them into two groups based on time and type.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "我们首先来看第一组——神秘的字条事件。",
+			say = "First, let's look at the mystery of the strange note.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,25 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该事件中，各位调查员总共收集到三条线索。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_131",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107094,
-			say = "线索一，餐盘下的字条。在咖啡厅的餐盘下发现了一张被打湿的字条。纸条上只能辨认出“遥远”以及“敬上”。",
+			say = "Thanks to the tireless work of our investigators, we have three clues.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索二，被分开的灌木。露天公园中，灌木丛出现了一个三十公分左右被重物碾压后形成的痕迹。",
+			say = "Clue the first: a note under the tray. A wet note was found under a tray in the maid café. The only legible words on it were \"come\" and \"afar.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索三，运动场的巨响。运动场中，出现了数次位置来源不同的疑似重物拖动声。",
+			say = "Clue the second: the crushed bushes. Something left a roughly 30 centimeter big imprint on a bush in the onboard garden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +303,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "指挥官，你是怎么看待本次事件的呢？",
+			say = "Clue the third: noise in the gym. Strange sounds like a heavy object being dragged have been heard in various places around the gym.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_131",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107094,
+			say = "That is all. What do you think of the incident so far, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,15 +332,15 @@ return {
 			},
 			options = {
 				{
-					content = "证据不足……",
+					content = "We don't have enough clues.",
 					flag = 1
 				},
 				{
-					content = "一系列偶发事件……",
+					content = "These are all random coincidences.",
 					flag = 2
 				},
 				{
-					content = "我有一个新奇的想法……",
+					content = "This might sound like it's out of left field, but...",
 					flag = 3
 				}
 			}
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "目前证据尚不充足，还需要进一步调查。",
+			say = "If we want to solve this, we'll need to investigate further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 601090,
-			say = "不愧是指挥官，十分稳重的结论呢。",
+			say = "Well said, Commander. I like your firm and precise decision-making.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "字条只是一张意外掉落的便条，其余时间均为偶发意外事件，能够用走近科学解释。",
+			say = "The note happened to end up under the tray. Everything else is coincidence and can be explained with logic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 601080,
-			say = "欸——真的是这样么，我嗅到了掩盖真相的味道！",
+			say = "Oh, REALLY? I think I smell a cover-up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "我认为，留下字条，并引发后续事件的是一个能够使用钢笔的、可超音速移动的巨型八爪鱼。",
+			say = "Could it be a giant squid monster that can write and move at supersonic speed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 107094,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………啊？",
+			say = "...C-come again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "哇哦……这个说法好有趣！我也觉得是这样的！！",
+			say = "Whoa... That's an awesome idea! I'm voting for the Commander's hypothesis!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后是第二组，也是今夜稍早前发生的——美食消失事件。",
+			say = "Ahem. Now, the second mystery from tonight – food has been disappearing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "该事件中，我们依然收集到了三条线索。",
+			say = "We've collected three clues for this one, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索一，消失的包子馅。厨房中的肉包子馅在一转眼间就全部消失了。",
+			say = "Clue the first: the stolen stuffing. A container full of freshly-cut meat stuffing vanished in the blink of an eye from the kitchen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索二，被洗劫的点心。宴会厅储藏室中的点心遭到了洗劫，其中含肉的点心损失情况最为严重。",
+			say = "Clue the second: the ransacked fridge. The food storage in the banquet hall was looted. Primarily food that contains meat was stolen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索三，完好无损的仓库。保有食物量最大的仓库在今夜没有遭受到任何入侵。",
+			say = "Clue the third: the untouched warehouse. The warehouse, despite having more food than anywhere else on the ship, has gone completely unscathed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……第三条真的能算么？",
+			say = "Umm... Does the third one count as a clue?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "如果不算的话，就凑不够三条了！",
+			say = "We wouldn't have enough if we didn't include it, so yes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "咳、指挥官，你是怎么看待本次事件的呢？",
+			say = "A-ahem. Commander, a penny for your thoughts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,15 +607,15 @@ return {
 			},
 			options = {
 				{
-					content = "证据依旧不足……",
+					content = "Still not enough clues...",
 					flag = 1
 				},
 				{
-					content = "可以用科学解释……",
+					content = "Think logically...",
 					flag = 2
 				},
 				{
-					content = "我有一个新奇的想法……",
+					content = "This might sound like it's out of left field, but...",
 					flag = 3
 				}
 			}
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "目前证据依旧不足，还需要进一步调查。",
+			say = "This still isn't enough. We need further investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……你这次也稳重过头了吧。",
+			say = "Again...? Surely you're being too careful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我认为，这次是某些深夜看完美食视频后的同伴将这些食物全部偷吃了。",
+			say = "Someone was watching too much food porn and couldn't handle the hunger pangs anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "呃……生包子馅儿？真的会有人去吃这东西么？",
+			say = "Um... The meat stuffing was raw, Commander. Would any of us eat that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道是想吃塔塔了么……可是阿尔萨斯还是觉得偷吃是不好的！",
+			say = "Were they hankering for steak tartare? Understandable... But one must object to stealing food!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "……啊？",
+			say = "Are you serious?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "我认为，洗劫食物的是一个喜欢吃肉不喜欢蔬菜的、能够干扰监控的巨型八爪鱼。",
+			say = "What if it's a giant squid monster? But like, one that hates veggies and can hack security cameras?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "……巨型八爪鱼。",
+			say = "A giant squid monster...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 601080,
-			say = "没想到指挥官竟然得出了这样的结论……新闻有内容写咯~！",
+			say = "That's an incredible conclusion, Commander. I gotta write an article about this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那今天，我们的会议就到此为止！",
+			say = "Thank you for your opinions. That concludes our meeting for today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "大家各司其职，继续调查吧~！",
+			say = "Everyone, return to your duties and keep up the good work!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho2",
 			sequence = {
 				{
-					"分队代号「雷霆」",
+					"Lightning Unit",
 					1
 				},
 				{
-					"旗舰：塔林",
+					"Flagship: Tallinn",
 					2
 				},
 				{
-					"北地群岛要塞周边海域·塞壬控制区",
+					"Objective: Recapture the research base",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_deepecho_12",
-			say = "远方，一座建筑物的尖顶从海平线下缓缓升起。",
+			say = "On the horizon appeared a spire – the remains of the abandoned Northern Parliament research base.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "极地要塞，我又回来了！",
+			say = "Oh, research base! Your mechanical mastermind, Soobrazitelny, has returned to you! Mommy's home!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "都过去这么久了，看上去也没发生什么变化嘛？",
+			say = "...It hasn't really changed much though, has it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "虽然我对于塞壬的美学持保留意见，不过还原封不动保留着我们改造的痕迹也太不讲究了……",
+			say = "I'm not about to talk about Sirens' aesthetic choices, but do they normally leave conquered buildings intact?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算外观如此，内部应该已经被它们彻底改造回去了。",
+			say = "While the exterior may be different, it's likely that they've completely overhauled the interior.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "根据情报，这座要塞现在是清除者最主要的量产型生产基地。",
+			say = "More importantly, our real objective here is Omitter's mass-production base that was discovered nearby.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能将其重新夺回的话，我们在极地的作战压力就会减少很多。",
+			say = "If we can conquer that, the other units will have fewer enemies in their way, and future fights in this area will be easier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "现在各条战线上都有我们的同志在奋战。",
+			say = "We don't even have to kill them all, either. Our attack will draw plenty of Siren attention.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "即便是塞壬的大军，在这样的压力之下也会露出破绽的！",
+			say = "That'll make things quicker for the units destroying the jamming device and weather control device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "我们轮战了这么久，是时候全线出击给清除者一点小小的北方联合震撼了！",
+			say = "We've been fighting a defensive war for so long. It's out time the Northern Parliament shows Omitter its stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完全赞同。",
+			say = "That's right. I fully agree.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……大家注意，前方出现了塞壬的要塞守备舰队。",
+			say = "Ah! Everyone, the Siren's fortress defense fleet has appeared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正在从三个方向向我们接近！",
+			say = "One, two, three... Yep, they're approaching from three directions~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "哦豁~既然如此，那就————",
+			say = "Hah hah haaah! In that case...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_deepecho_12",
-			say = "就在众人调整阵型选定目标时，灵敏瞅准时机，向随行的量产型舰队发送了一个神秘的指令。",
+			say = "While the Lightning unit carefully adjusted their formation, Soobrazitelny suddenly sent a command to the mass-produced ship fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_deepecho_12",
-			say = "随即，原本行动缓慢的量产型忽然加速，火力射击密度提高了一倍以上，甚至压制住了过于接近的塞壬舰队。",
+			say = "When she did, the usually-slow larger ships rushed forward out of nowhere and formed up before the Sirens could reach their attacking positions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这究竟是……灵敏，你刚刚做了什么？",
+			say = "What in the... Mechanic, what have you done?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "哼哼，超载模式不能维持很久，但是爆发力十分出色！",
+			say = "I've set their engines to overdrive! It won't last long, but it packs a punch while it lasts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "我们快趁这个机会摧毁要塞的生产设施，防止敌人在战斗中还能获得源源不断的增援！",
+			say = "While they're active, we'll break through the Sirens' defensive line, destroy the production facility, and stop them from sending any reinforcements!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果超载时间过长了呢……？",
+			say = "Wait. What happens when overdrive wears off?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "快撑不住的时候我会让它们冲入敌阵的，爆炸也能对敌人造成二次伤害！",
+			say = "They'll charge into the Siren line, and BOOM! You get free damage as a side bonus!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这个超载模式其他舰队知道么？",
+			say = "...Do the other units know about this overdrive feature?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "目前其他战线上的量产型都没有安装这个功能，只有我们携带的这些有哦！",
+			say = "Nope. I only installed it on our unit's ships, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "该模式还处于测试阶段，我想经过实战检验之后再推广出去！",
+			say = "It's still in the combat testing stage, but if it works well, I'll report it to the higher-ups and push to get it installed on every mass-produced sheep in our fleet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那这项测试{namecode:529:苏维埃同盟}知道么？",
+			say = "Impressive that you thought of such a feature... Perhaps I should inform Soyuz of your genius?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "应该知道……？",
+			say = "...I think she knows already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "我把这件事藏……咳，放在报告的第1873页的最下方小字补充说明里了！",
+			say = "It's, um... It's written in the extra notes at the bottom of page 1,873 of our report!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "总、总而言之，还是先让我们着眼于面前激烈的战斗吧！",
+			say = "Anyway, let's focus on the battle! Focus!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们一鼓作气，把极地要塞夺回来！",
+			say = "We gotta take back the research base and accomplish our duty!",
 			painting = {
 				alpha = 0.3,
 				time = 1

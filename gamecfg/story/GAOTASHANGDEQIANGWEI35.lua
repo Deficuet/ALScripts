@@ -9,11 +9,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"余烬总部（新）",
+					"The Ashes' new headquarters",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "竣工不久的总部大楼中，{namecode:440:腓特烈大帝}正与{namecode:66:高雄}·META一同探讨着接下来的行动计划。",
+			say = "In front of the newly completed base, Friedrich der Große discussed plans for the future with Takao META.",
 			bgm = "theme-frederick",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "这个被废弃的实验场世界虽然隐蔽，但是经历过终盘清算，可用资源十分有限。",
+			actorName = "Takao META",
+			say = "This abandoned test site is still well-hidden, but as a result of the reset program, we're left with limited resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,8 +66,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "下一步，我们去占领一个处于实验早期的实验场如何？",
+			actorName = "Takao META",
+			say = "I say we should try taking a test site in the early stages of experimentation next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了总部之外，我们确实需要几个外围据点，不论是为了人员和资源的调动，抑或是作为诱饵。",
+			say = "We will need more bases beyond this one, be it for movement of personnel and resources or for use as bait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "但是，我们还有大量资产没有清点完毕，分散的人员也还没有召集起来，现阶段依然需要低调谨慎才是。",
+			say = "However, we have assets yet to be accounted for and members yet to be collected. We must remain cautious and inconspicuous for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的建议是可以将目光投向你所说的那几个实验场，但是要暗中发展才行。",
+			say = "Turn your attention to another test site if you please, but if you mean to take action, then do so discreetly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "……也行。那我们这处荒凉的总部……？",
+			actorName = "Takao META",
+			say = "Right... I guess HQ is going to be a boring place for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "低调、不引人瞩目是我们选择此处的理由，就让它继续荒凉下去吧。",
+			say = "We chose this place because it was inconspicuous. Boring is ideal for our purposes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们来这里也不是为了建设美好家园，而是为了修复那个“大家伙”，不是么？",
+			say = "We're here for greater things than simply building a beautiful new home, as you may recall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,8 +159,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "行吧……至少总部周边的庭院绿化还不错。",
+			actorName = "Takao META",
+			say = "Mm... At least the greenery around here is nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,8 +172,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "那没什么事我就先走了？",
+			actorName = "Takao META",
+			say = "If that's all we have to discuss, I'm heading out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:66:高雄}，企业和埃塞克斯那边还是没有消息么？",
+			say = "Takao, have you heard anything from Enterprise and Essex yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,8 +198,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "无，应该是忙着追踪那个信标带来的“重大线索”无暇他顾吧。",
+			actorName = "Takao META",
+			say = "No. They must still be following the lead they got from that signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "领袖长时间音讯全无……真是令人烦躁。",
+			say = "Does your leader often go so long without contact? It's... anxiety-inducing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,8 +225,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "你来的时间还短，习惯了之后就好了~",
+			actorName = "Takao META",
+			say = "You haven't been here long, but you'll get used to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,11 +234,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705090,
-			say = "{namecode:66:高雄}、{namecode:441:腓特烈}，{namecode:94:飞龙}那家伙发消息来了哦~",
+			say = "Takao, Friedrich. Hiryuu just sent us a message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,8 +265,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "哦？真少见，她说什么？",
+			actorName = "Takao META",
+			say = "Hm? That's rare. What did she say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 9705090,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "她说，海伦娜想跟我们谈一谈，“那个”海伦娜。",
+			say = "Well, she says Helena... You know, THAT Helena wants to talk with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,8 +293,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "……没什么兴趣。",
+			actorName = "Takao META",
+			say = "No, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "不管她究竟“是”还是“不是”，道不同不相为谋，现在还来谈什么？",
+			actorName = "Takao META",
+			say = "No matter who she thinks she is now, she doesn't share our views. We have nothing to discuss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705090,
-			say = "那我就让{namecode:94:飞龙}去回绝了？",
+			say = "Should I have Hiryuu pass that on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,8 +333,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "等等……我又稍微有点好奇。",
+			actorName = "Takao META",
+			say = "...No. I admit, I'm curious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 9705090,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呃……那？",
+			say = "Oh? What's it going to be, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,8 +361,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "谈谈……就谈谈吧，看看她想说什么也好。",
+			actorName = "Takao META",
+			say = "Tell her we accept, if only to see what she has to say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得，此事还需从长再议。",
+			say = "Might I suggest we put more thought into this answer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等联系到企业之后，问问她的意见吧。",
+			say = "Let's wait until we have contact with Enterprise so we can hear her opinion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,8 +400,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "咦？我虽然不喜欢她们，但觉得听一听也无妨。",
+			actorName = "Takao META",
+			say = "Think so? I'm hesitant, but I guess it can't hurt anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +413,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "海伦娜·META那边看上去跟实验场β的关系很好，我还以为你会很支持去和她谈一谈呢。",
+			actorName = "Takao META",
+			say = "Helena's awfully close with test site beta... I thought you'd be excited to talk to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,8 +426,8 @@ return {
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "怎么你连听也不想听？",
+			actorName = "Takao META",
+			say = "Was I wrong about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和实验场β的关系很好？未必吧。",
+			say = "Is that what you think? I wouldn't be so sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "念头，亦是一种毒，尤其是在缺乏情报时听信一面之词而萌发出的念头。",
+			say = "It's never good to assume, especially when your information is so clearly lacking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "改变余烬的第一步，自然是不能再被人当刀子使。",
+			say = "To change the Ashes, we must free ourselves from others' manipulation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等看吧，事出反常必有妖。",
+			say = "For now, let's wait and see. There must be a reason for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "相信我们很快就能得到某处局势变化的消息了。",
+			say = "Maybe we'll hear news from other sources along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有，我也不是不打算听，只是打算等企业到了再做决定。",
+			say = "Also, let me be clear: It isn't that I don't want to talk to her. It's just that I want to hear Enterprise's opinion before I make a decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "我是真的希望能和企业早日恢复联系啊……",
+			say = "Oh, how I hope she contacts us soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

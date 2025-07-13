@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "等待赛道清除阻碍中，获得了补偿奖励【物资*100】"
+			say = "You waited for an obstacle to get cleared from the race track. You received 100 Coins!"
 		}
 	}
 }

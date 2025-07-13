@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "铁血控制区·某处镜面海域内 ",
+			say = "Near the Siren Facility",
 			side = 2,
 			bgName = "bg_tiexuejingmian",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "位置丝毫不差，防御设施也很弱，没想到我们在铁血里还有这么厉害的情报员啊~",
+			say = "Looks like the intel we got was accurate - there's hardly been a peep from the Sirens here! That \"trustworthy informant\" sure is something else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的好奇心又涌上来了？",
+			say = "I'm glad to see you in high spirits today, Pamiat'~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有没有！只是稍微有点时光穿越感，想到了点以前的事有些感慨而已。",
+			say = "Naw, it's just another normal day for me! Though, I guess seeing all this is like a walk through memory lane?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以前的事……？和铁血一起战斗的时光么？",
+			say = "Hm? From back when you fought with the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊~铁血从最开始就一直都是……该怎么说好呢。",
+			say = "Mm, well, I guess so. Even back then, the Iron Blood was... how do I put it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特立独行，比较有想法？",
+			say = "Mavericks? Always saw the world a bit differently from the other factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是游走于外交场合的阿芙乐尔，就是会说话！",
+			say = "Yeah, yeah! You've got a way with words, you know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各大阵营的主要损失都源于塞壬的初期突袭，只有铁血是在初期几乎无损的情况下贸然对不知底细的塞壬发动进攻结果弄得损失惨重的……",
+			say = "Back when the Sirens appeared, the Iron Blood was the only one of the four major factions that just charged headlong into the unknown foe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后各大阵营一起成立碧蓝航线，度过了一段一同战斗的时光。",
+			say = "And they sustained heavy losses because of it. After that, the major factions came together and fought under the banner of the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "之后铁血又离了碧蓝航线成立了赤色中轴，几年后与我们开战。",
+			say = "I suppose I don't need to speak too much about them forming the Crimson Axis and turning against us after that––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再之后最近由于NA海域的共同威胁与我们停战。",
+			say = "Outside of their Reenactments, they'll still work with us to fight against the Sirens––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们又因为其他原因偷偷在停火协议期间发起进攻行动……",
+			say = "But at the same time, I can't make any sense of their decisions at all. Like, why they attacked Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是盟友与敌人相互转换……局势瞬息万变，世事难料啊。",
+			say = "I was just thinking, is the enemy of our enemy really a friend? It's really frustrating to think about. We didn't understand them back then, and we still don't understand them now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还真是老气的感慨……",
+			say = "The strings that hold our alliances together are thin and fragile indeed. They may snap, or weave into different forms altogether.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你就没有这种感觉么？",
+			say = "You get what I'm saying, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在经历过并肩战斗时光的人越来越少了，有些老朋友退役，有些就根本没有得到「舰船化」的机会……",
+			say = "Some of the comrades I fought with back then have retired. Others have been sunk, decommissioned, or scrapped. It seems like fewer and fewer of us remember the feeling of fighting together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再之后来的人从最初认知上见到的就是一个分裂的碧蓝航线。",
+			say = "Those who came later... Know only of a world where the Azur Lane has fractured.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是完·全被塞壬耍得团团转……你说我们真的有重新联合的机会么？",
+			say = "I sometimes wonder if we're being manipulated. Can we really come together again to defeat the Sirens for good? ...Avrora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道。分裂还是联合，重要的不是形式，而是实质。",
+			say = "I'm not sure. But, as long as we come together, it doesn't matter if we're a mixture or a solution as long as we work towards the same goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果都在为相同的目标努力，就算形式上是分裂的，实质上也是联合的。",
+			say = "Even if we live in a fractured world, there is hope as long as we can put aside our differences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "反之，如果各有打算。就算形式上是联合的，实质上也是分裂的。",
+			say = "Conversely, if we come together but everyone has their separate motives––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉你暗有所指——",
+			say = "...What are you trying to imply?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随便感慨一下罢了。",
+			say = "Oh, nothing at all~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至少我对于我们的路线坚信不疑。不论是斗争还是联合，最重要的是不要在复杂的局势中迷失自己。",
+			say = "As far as I'm concerned, we don't need to worry about the complicated stuff and just do what we believe to be right – and everything will be okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…………？",
+			say = "...Oh my.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么啦，有所发现么？",
+			say = "Avrora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“Микоян （米高扬）”……",
+			say = "The \"Mikoyan\"... The icebreaker belonging to the Polar Expedition Fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			say = "在海域中心设施中的巨大的龙门吊下，一艘老旧的破冰船静静地躺在船坞中。",
+			say = "For whatever reason, a huge gantry crane was sticking out of the water in the middle of the area surrounded by Siren ruins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……？！！这艘是米高扬号破冰船？！",
+			say = "It's that ship! What in the world is it doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "它不是早就在任务中失踪了么，怎么会在这里？！",
+			say = "This has to be the ship that disappeared during the Polar expedition a long time ago, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道……但是它就是在这里。",
+			say = "I have no idea why it's here either, but... the reality is right in front of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来这就是{namecode:529:苏维埃同盟}所说的“值得在意，又不属于这里的东西了”……",
+			say = "Soyuz did mention for us to keep an eye out for things \"not bound by the laws of this world.\" I'd say that this ship appearing here would count as that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……船身看起来完好无损，没有经过激烈战斗的感觉。",
+			say = "Weird... It doesn't seem to have taken much damage from battle either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在无抵抗的情况下被铁血……不对，被塞壬运送过来的？！",
+			say = "Oh! Do you think the Sirens got their tentacles on it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到几年过去了，居然能在这里看到那场“失败行动”留下的痕迹……",
+			say = "That's strange, isn't it? The ship that went missing all that time ago somehow showed up again over here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快检查一下船上的和设备，也许有记录下来什么！",
+			say = "We can't just leave it here. There might be important data stored on its sensors and equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……现在在这里么？",
+			say = "So, what's the plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不……我有点失去冷静了。先把它开去我们的控制区，之后再彻底检查一下！",
+			say = "Sorry, I got a bit excited there. Hmm... Let's deploy our mass-produced ships and tow it back into our territory first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_tiexuejingmian",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "每一颗螺丝都不能放过……",
+			say = "After that, we need to investigate it thoroughly before the higher-ups get their hands on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然的！一定要调查出那次行动中究竟发生了什么事！",
+			say = "Sounds good to me! We need to find out what happened during that operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "走吧，我们返航！",
+			say = "All right, Mikoyan, it's time to come home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

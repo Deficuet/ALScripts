@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "battle-tulipa",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "摧毁镜面海域核心控制塔的战斗并不困难。",
+			say = "The battle for the central control tower wasn't particularly tough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在绝对力量的碾压下，试验场中所有的抵抗都被证明为徒劳，搭载有镜面海域维持装置的核心塔在短时间内就被彻底摧毁了。",
+			say = "All resistance to our overwhelming firepower proved futile, and the tower that maintained the Mirror Sea was destroyed very quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "天地之间，因镜面海域实验而引发的异状开始平息，因干扰而失灵多时的通信器也重新收到了来自外部的情报。",
+			say = "The abnormal weather and terrain within the Mirror Sea gradually faded away, and soon, the jamming that impeded our communications disappeared, and we started receiving messages from the outside again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……怎么会有这么多未读消息？",
+			say = "Wow, that's a lot of unread messages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "……出大事了，指挥官。",
+			say = "...Commander, I have terrible news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "在我们离开后，郁金王国的海岸线受到了塞壬舰队的突袭！",
+			say = "Not long after we departed, a Siren fleet launched an attack on the Tulipan coast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "不好的预感成真了。",
+			say = "My bad premonition came true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "海伦娜·META提供的情报完全正确，此处确实是一处运转正常的塞壬武器试验场。",
+			say = "Helena META's intel was correct – this place was indeed a Siren testing site for new weapons, and it had been operating as normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "只是，在我们选择带领舰队将其摧毁时，试验场内的决策AI同时将新型作战兵器派了出去，袭击了郁金王国空虚的海岸线！",
+			say = "Apparently, as soon as I took the fleet in to destroy the Mirror Sea, its commanding AI sent forth a fleet armed with new weapons and attacked the now-defenseless Tulipan coast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "没想到居然是换家战术……真是可恶！",
+			say = "Scheming to strike at us even if it meant sacrificing itself... How cowardly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "堤坝防御带已经与塞壬舰队交火多时，王国的海岸线摇摇欲坠……",
+			say = "Our dam defense system is engaging the Siren fleet, and it's now on the brink of falling apart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "指挥官，我们必须立刻全军回援！",
+			say = "Commander, we have to retreat posthaste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "等等，镜面海域维持装置虽然摧毁了，但是海域中还有残存的敌舰，我们此行的任务并未完成。",
+			say = "Hold up. While we did destroy the machine sustaining the Mirror Sea, there are still Sirens in the general area. Our mission isn't over yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "可是敌人正在轰炸我们的国土！",
+			say = "Be that as it may, the enemy is attacking our country directly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……我知道，但这是一次碧蓝航线和赤色中轴的联合行动。",
+			say = "I know, but we can't just leave. This is a joint operation between the Azur Lane and the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们身为参战舰队，需要将完成作战任务放在首位。",
+			say = "And as operation participants, we have to prioritize the mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "即便国土已经燃起战火？",
+			say = "Even if our country is burning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "相信自己，相信防守堤坝防御带的人，也要相信指挥官。",
+			say = "Believe in yourself, believe in your compatriots defending the dam, and believe in the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不论战况多么紧急，都要保持冷静。",
+			say = "You have to keep cool no matter how dire things get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "此战，我们总体实力处于绝对优势，每个人只要能够恪尽职守完成自己的任务，就一定是迎来最好的结局。",
+			say = "Remember, we have the edge in firepower. As long as each of us carries out their role, the Commander will always lead us to the best result.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "呼……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你说得对，孟菲斯小姐。抱歉，指挥官，是我心急了。",
+			say = "You're right. Forgive me, Commander. I lost my composure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……局势发生了变化，我们的部署确实应该进行调整。",
+			say = "Since the situation has changed, we'll have to redeploy our forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "此前的战斗中，我们集中力量消灭了试验场中塞壬的舰队主力，并成功瓦解了镜面海域。",
+			say = "We've successfully eliminated the Sirens within the Mirror Sea and taken out its control tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是在镜面海域瓦解后，海域中依然存在很多游荡的敌舰，此次作战任务并未彻底完成。",
+			say = "However, there are still hostiles in the area, so our mission isn't finished just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们需要留下来善后，但——并不需要所有人都留下来善后。",
+			say = "While it's true we have to deal with them, not ALL of us need to stay here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们将会支援在郁金王国海岸线上发生的战斗。",
+			say = "A part of our force will split off and head to the coast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "七省，现在起立刻整队，带领埃佛森与全部郁金王国量产舰与我的指挥舰一同返航增援。",
+			say = "Zeven, assemble a fleet consisting of you, Eversten, and your mass-produced ships. I'll bring my command vessel and provide support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "……多谢指挥官！我们立刻开始整队。",
+			say = "Thank you, Commander! I'll start regrouping at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "喀山，你带领北方联合舰队留在此处执行善后任务，不要放过任何一个敌人。",
+			say = "Kazan, you'll take command of the NP fleet and stay here to mop up the enemy. Don't let a single one get away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 705090,
-			say = "放心吧，指挥官同志。",
+			say = "Got it. It will be done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,20 +444,7 @@ return {
 			bgName = "star_level_bg_504",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我同时会向周围的皇家舰队提出协助要求，她们将会协助你们一起清理海域。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "在海域清理完毕后，你们也立刻返航，支援郁金王国。",
+			say = "I'll request backup from the Royal Navy fleet nearby. They should help us clean up this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +457,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "此战不仅要稳，而且要快。",
+			say = "Once the area is clear, immediately return to Tulipa and provide backup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +470,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在郁金王国损失扩大之前，务必全面、彻底地消灭所有敌人。",
+			say = "This battle must be finished quickly and conclusively.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "There are your orders. Eliminate all enemies before Tulipa suffers further casualties!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,11 +491,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命——！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

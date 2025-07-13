@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}！烟花，好看！和{dorm3d}，船上看过！摇摇晃晃，摇摇晃晃……",
+			say = "{dorm3d}! Fireworks are pretty! We saw them on the boat together! Floaty, floaty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗖，飞上天……噼啪，炸开！",
+			say = "They go up, like, whoosh! And then, bang!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，还想再看！这次，要自己放烟花！转圈圈！",
+			say = "Anchorage wants to see more! I'll do the fireworks next time! Spin, spin~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "烟火大会！和喜欢的人，一起……{dorm3d}，下次一起放烟花！",
+			say = "Firework festival! With the one I love... {dorm3d}, let's do it together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

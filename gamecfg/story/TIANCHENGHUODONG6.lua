@@ -12,7 +12,7 @@ return {
 			actor = 302140,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "不愧是{namecode:161}大人，我输了。",
+			say = "You win after all, Amagi-san! You've defeated me!",
 			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "做得不错，看起来你从你两个姐姐那里学到了不少东西呢。",
+			say = "Don't feel down, you fought well. You've learned very much from your sisters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "{namecode:161}大人也认识我的两个姐姐吗？",
+			say = "Do you get along well with your sister too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那是当然，你的两个姐姐在上一次的演习中可是出了不少风头。",
+			say = "I can't say. But I can say your sisters were quite outstanding in the previous exercises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "{namecode:39}有成为领导者的潜质。而{namecode:38}身上有着和{namecode:92}类似的影子……现在看来，你这个小妹也不差呢~",
+			say = "Jintsuu is wise, Sendai is strong... And the qualities you possess may rival or even surpass theirs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "谢谢您的夸奖！我会以两位姐姐为目标不断继续努力的！",
+			say = "Eheheh, thank you! I'll keep working as hard as I can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵，真是活泼的孩子……真希望{namecode:91}向你学习一下呢。",
+			say = "...I wish Akagi would be more like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "欸，您是说，{namecode:91}大人吗？",
+			say = "Akagi...? Do you mean your sister?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "是啊。{namecode:91}这丫头，对她似乎稍微有些娇惯过头了呢…",
+			say = "Yes. She's... well, I might have been a little too lenient with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "是吗，我觉得{namecode:91}大人的实力也很强啊…?",
+			say = "Too lenient...? I think she's incredibly strong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "即使有足够的实力，如果没有驾驱这份实力的心性的话……若是一帆风顺还好，若是遇到挫折，那就……",
+			say = "She may be strong, but if she can't control her strength... I suppose it's fine if everything goes well, but if it does not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "有{namecode:161}大人在，{namecode:91}大人一定不会有问题的啦！",
+			say = "She'll be fine. She has you if she needs guidance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 304050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "咳…咳咳…..",
+			say = "That won't always be... *Cough*! *Cough cough*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			withoutActorName = true,
 			side = 0,
 			dir = -1,
-			say = "{namecode:161}突然剧烈的咳嗽了起来。",
+			say = "Amagi suddenly began coughing heavily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 302140,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "啊啊，{namecode:161}大人你没事吧！",
+			say = "Amagi-san?! Are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "没事没事，只是筹备作战身体虚弱了一点而已，呵呵~",
+			say = "I'm fine... *Cough cough*... It's just that preparing for the wargames has had a small impact on my health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "让你看到这幅狼狈的样子真是不好意思。",
+			say = "I apologize for being such a pitiful sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "快点回去港区吧，毕竟你可是已经被我“击沉”了的目标呢，呵呵呵~",
+			say = "Shouldn't you hurry back to the harbor? You've been \"sunk\", after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "好..好的！{namecode:161}大人，请一定要保重！",
+			say = "I... I will! Take care of yourself, Amagi-san!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "嗯…",
+			say = "*Phew*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "（小声）因为有我在吗？…啊…嗯，也许确实是这样的吧。",
+			say = "\"She has me\", you say? ...I suppose she does...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "然而我究竟还能陪在你身边多久呢？…我的妹妹",
+			say = "But who knows for how long I will actually be here to watch over you, Akagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

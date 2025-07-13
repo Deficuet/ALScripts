@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>六 奖励与回报</size>",
+					"Three-Star Luxury Romance\n\n<size=45>6.A Surprise Gift</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "自从那天一起出门采购以来，正如艾伦“用尽全力”的说辞一样，她在工作时的态度也有了惊人的变化。",
+			say = "Allen's work ethic underwent a drastic change ever since she said she'd \"give it one-hundo percent\" at the end of our shopping trip. And indeed, she did.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "整理资料？刚才不是都完成了嘛。难道说指挥官忘记了？",
+			say = "The documents you handed me? Already done! C'mon, Commander, keep it together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，不是全都放在这里了嘛♪",
+			say = "Look! Left 'em right here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，不能因为光注意着我而把自己的工作都忘掉了哟~",
+			say = "Remember to do your own work too instead of focusing on making sure I do mine. Just saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "感觉现在比起我提醒她，倒不如说是她提醒我要更多一些……",
+			say = "She didn't need any supervision at all. In fact, the tables had turned. Now I was the one receiving reminders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，今天就是“奖励”到货的日子吧。",
+			say = "On another note, isn't my thank-you present supposed to arrive today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好期待呀～又要有新的贴纸了！",
+			say = "Boy oh boy, I can't wait to finally have my hands on that sticker set!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…………我记得她想要的是“3星精品按摩椅”吧？",
+			say = "Oh yes. She had her eyes on a three-star luxury massage chair. Although...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个家具正在搞活动，买入就送一套贴纸哦！",
+			say = "There's this campaign where if you buy one of these, you get a limited-edition sticker set as a bonus!",
 			effects = {
 				{
 					active = true,
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一直想要这个！但是太贵了，所以一直都没买～谢谢指挥官！",
+			say = "I've always wanted this set, but I never had the money for it. Thanks a bunch for finally uniting me with these little beauts!",
 			effects = {
 				{
 					active = true,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，果然她更想要的还是贴纸……",
+			say = "What she really wanted was the sticker set that came with it as a bonus.",
 			effects = {
 				{
 					active = false,
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢惠顾喵～东西我让蛮啾送到办公室去了，记得坐坐看喵。",
+			say = "Thank you for your patronyage~ The Manjuus will have your comfy new chair set up in the office shortly, nya.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢指挥官和{namecode:98}啦~！！",
+			say = "Thanks, Akashi! And you too, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了售后服务顺便问一个问题喵。这个椅子主要是谁来坐喵？",
+			say = "Also, who's going to be using this chair, nya? I'm asking for future reference with regards to warranty service, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "既然是作为艾伦努力后的奖励，那当然是——",
+			say = "It was a gift for Allen, so naturally that's what I was going to say. But Allen was quicker to answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "肯定是为了一直都在努力工作的指挥官呀！",
+			say = "The commander, duh! You've gotta work your butt off to be worthy of sitting in a massage chair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对吧？指挥官？",
+			say = "Right, Commander? Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此喵！那就是给指挥官的犒劳慰问了喵！{namecode:98}很感动喵！",
+			say = "I thought so, nya! So it's a gift to reward the commander's hard work, nya? How touching, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…虽然掏钱的是指挥官，但是{namecode:98}决定还是不要想太多了喵。",
+			say = "It's a bit weird that the commander's the one paying for it, but I'm a merchant, not an interrogator, nya. Best to mind my own business, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，不用想那么多啦！",
+			say = "I was gonna say! Mind your own business!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "总有一种完美进入了艾伦设下的陷阱（？）的感觉……",
+			say = "It seemed, for better or worse, I had played into Allen's hand all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

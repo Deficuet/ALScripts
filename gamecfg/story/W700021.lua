@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前正在进行困难难度仲裁机关作战。",
+			say = "Currently challenging an Arbiter on Hard difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后当前作战进度将会重置，已获得的奖励无法重复领取，且当前海域中无法使用舰队维护指令。",
+			say = "Progress will be lost if you leave the combat zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "彻底击破敌人后可获得丰厚奖励。",
+			say = "In addition, you will be unable to use the \"Regroup and Rest\" fleet command in this zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>并不危险的旅途</size>",
+					"Uncharted Summer\n\n<size=45>Not-So-Dangerous Ruins</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "冒险小队一行人穿行在破败的巷道之中，白色的建筑在周边错落分布着。",
+			say = "The four girls continue deeper inside the abandoned ruins.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~枕头下的神秘纸条说的没错！",
+			say = "Royal Fortune was right! These DO look like pirate ruins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这果然是……真真正正的遗迹啊！",
+			say = "That means we're gonna find treasure... and a monster!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比想象中更加破败……地上部分看起来不会留下什么有价值的东西了。",
+			say = "This place is even more dilapidated than I expected. I doubt there's anything of value left here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "寻找进入地下的入口吧。",
+			say = "We should look for a passage leading underground.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……进入地下的入口？",
+			say = "You expect there to be one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，冒险系作品常有的设定。所谓遗迹，一般都是有着巨大的地下结构的。",
+			say = "Yes. It's a common trope to have vast dungeons beneath ancient ruins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说……",
+			say = "This isn't a fantasy story...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "开门道具也要仔细寻找一下。",
+			say = "While we're at it, we should also look for items and mechanisms that open doors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如奇怪的钥匙、雕塑、石盘、宝石之类的……",
+			say = "Keep an eye out for things like strange keys, statues, stone discs, and unusually-shaped gems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……如果遗迹过于古老，没有钥匙或者钥匙失效也是有可能的……",
+			say = "Oh, wait... Any keys might have rusted away, and those mechanisms may not work anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话要寻找一下有没有奇怪的大锅，或者TNT块一类的……",
+			say = "If so, we'll have to find a big pot or dynamite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者用舰炮……",
+			say = "Or just blow a hole with our riggings...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对，或者是舰炮。",
+			say = "Yes. Using our cannons is another way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是拉菲，用舰炮开路也是可以的！",
+			say = "Smart thinking, Laffey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？！要在这里搞破坏么？！",
+			say = "Wait, are we allowed to just start blasting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是最终手段，可以的话，我也想找到安全进入地下的入口。",
+			say = "Only as a last resort. Ideally, we won't have to destroy anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们还是先去四处调查一下有没有可疑的入口吧~",
+			say = "Okay then... I suggest we split up and look for out-of-place things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，离开主路之后就要小心了。",
+			say = "Yes. Be careful inside side-corridors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许会有遗留下来的陷阱装置……",
+			say = "You never know if the pirates set up traps to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "嘭——————！！！",
+			say = "CLICK!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "话音未落，周围的环境忽然发生了变化。",
+			say = "A clicking sound is heard as a trap on a wall is triggered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "绳索从遗迹某个黑暗的缝隙当中射出，向着{namecode:408}的方向飞来——不过似乎因为年久失修，并没能命中。",
+			say = "It shoots out a net meant to capture invaders, but time has weakened the mechanisms behind the trap, and the net completely misses the girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "机关……",
+			say = "I was just going to say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:408}！你没事吧……！",
+			say = "Z23! Are you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事……只是吓了一跳。",
+			say = "I'm fine! Just spooked...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到路边不起眼的石头居然是陷阱的触发器……",
+			say = "Seems stepping on this tile is what activated the trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能大意……",
+			say = "We need to be on our toes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来这座遗迹也许真守护着什么东西……",
+			say = "There must be something worth guarding for them to have set up traps.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家再谨慎一些吧——",
+			say = "Be careful, everyone. Let's go.",
 			painting = {
 				alpha = 0.3,
 				time = 1

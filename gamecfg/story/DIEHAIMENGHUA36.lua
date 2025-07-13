@@ -15,7 +15,7 @@ return {
 			bgm = "story-4",
 			actor = 306080,
 			nameColor = "#a9f548",
-			say = "不但赶上了{namecode:182}大人的首航，还能与您一路同行，真是非常荣幸。",
+			say = "I'm honored to have accompanied you on your voyage, Lady Shinano.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也一样！",
+			say = "Me too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}、{namecode:104}、{namecode:188}、{namecode:29}。在这一路之上，汝等也直接称呼妾身为{namecode:182}就好。",
+			say = "...I apologize for my lengthy slumber, and for holding everyone back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎哎？！好、好的！",
+			say = "N-no, that's not true at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（果然…在{namecode:188}的运输船靠近之后身体状况就有所好转了。如果梦中的预兆不错的话…）",
+			say = "(There is a great power emanating from Kashino's cargo... Could it be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…{namecode:188}，汝等此次所运何物？",
+			say = "Kashino, what are you carrying...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我运输的货物么…？有一部分是常规的补给物资，还有一部分是为{namecode:83}大人准备的特别补给。",
+			say = "Mm, various supplies and packages for the Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "任务本身是由谁下达的，{namecode:91}、{namecode:74}还是{namecode:84}？",
+			say = "Did you receive this command from Akagi or Nagato...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…我只是从上层部那里接受任务，具体是谁下的命令就…也许是正在进行作战物资调度的{namecode:92}分配的任务吧。",
+			say = "Hm, I'm not too sure... I simply obeyed the order I received from the leadership. Did you hear anything from Kaga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:92}么…妾身明白了。",
+			say = "...Nay, I did not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（{namecode:182}、{namecode:182}大人原来是这样的个性么…！）",
+			say = "(Was Shinano always the cautious type?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不不不，直到不久之前还是像{namecode:74}大人那样不动如山的感觉…睡了一觉之后就突然就变得像这样侵掠如火了…！）",
+			say = "(Who knows... She seems very gentle and easygoing, but she seems to also be the kind of person who keeps track of every little thing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（难道说…刚刚是梦到了什么噩梦…?）",
+			say = "(Maybe she was preparing for the ritual the entire time she was sleeping, just as those threads were saying?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不太清楚…这样激动的{namecode:182}大人我也是第一次见。）",
+			say = "(There's no way that's true.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}，现在我们两支舰队合并为一支。我们会负责保护运输队，{namecode:182}的安全也拜托你们了哦。",
+			say = "Chitose, I'll be joining the fleet at this time. I don't know what you're in charge of transporting, but I can only assume it's very valuable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 306080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请放心，尽管交给我们吧。",
+			say = "The pleasure is mine. We shall also see to it that Lady Shinano is well-defended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~现在我们已经拥有不输给一支主力舰队的战斗力了，不论遇到什么敌人都不在话下！",
+			say = "Yay, now this fleet is nice and big! Of course, it sucks that I won't get to do as much, but I'll manage as long as Chitose is here~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……前方海域有塞壬设伏，不可掉以轻心。",
+			say = "This... is where the Sirens' Mirror Sea began...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哎，塞壬伏击？！！这条航线一直都很通畅，很久都没有发生过塞壬袭击护航舰队的事哎…",
+			say = "Mirror Sea? Granted, they do tend to pop out of nowhere, but can your powers really predict where they're going to appear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_xinnong2_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然…您刚刚在梦里看到了什么吧。大家也许不知道，{namecode:182}大人…咳，{namecode:182}有时候能在梦中看到关于未来的预兆。",
+			say = "I don't see anything, but... Lady Shinano must've seen something in her dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来是还有这样的事…{namecode:182}，我相信你。不能对潜在的威胁忽视不管，请进行作战部署吧。",
+			say = "I'm not the type to act on a whim, but we can never be too careful when it comes to the Sirens. Lady Shinano, can I count on you to take charge of the fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，相信自己，也要相信与你并肩战斗的同伴，祝你一路顺风。",
+			say = "...Believe in yourself, Shinano. I wish you the best of luck. May your future be blessed with happiness, o dreaming butterfly.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "即将进入镜面海域，众人调整队形，准备迎敌。",
+			say = "(...Give me the power to change this dream... Nay, this \"Reenactment!\")",
 			flashout = {
 				dur = 0.5,
 				alpha = {

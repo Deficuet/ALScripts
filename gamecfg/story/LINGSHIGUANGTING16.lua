@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼......呼......呼.....",
+			say = "What's going on...? This isn't where I was a minute ago...",
 			bgm = "hunhe-level",
 			flashin = {
 				delay = 1,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "训练设施内，君主刚刚完成了一组高强度训练。",
+			say = "For some reason, Monarch found herself transported from the Siren facility and into the Royal Navy's training grounds she was so used to.",
 			effects = {
 				{
 					active = false,
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "炮击训练结束，进行装备检查……",
+			say = "\"Gunnery practice finished. Moving on to weapons inspection and maintenance.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰装无异常，精准度和威力都一如既往，可以进行下一项训练了。",
+			say = "This feeling in my head... It's the same as when I met Richard. Bastard! Stop making visions out of my memories!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来应该是剑术的练习......",
+			say = "\"That's that done. Next, refining my swordsmanship.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈！",
+			say = "\"HAHH!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "君主每一次出剑都会伴随着这样一声低吼。",
+			say = "The vision showed Monarch hoisting her sword and swinging down with great force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,24 +149,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这一举动并没有什么特别的意义，也许她认为这样能够让场地内不那么死气沉沉吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 299020,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "......已经是这个时间了啊。",
+			say = "She is a blueprint ship who sees herself as the embodiment of excellence. Yet she was not allowed to fight side by side with George and Wales. This fact caused her misery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "训练结束，该去补给了。",
+			say = "\"If I were as carefree as Cheshire or Neptune, I would never have reached this level of mastery.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "............…………",
+			say = "\"I cannot be like them. I am Monarch. I've pledged loyalty to Her Majesty, and my duty is to one day become the paragon of glory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "开炮、挥剑、开炮、挥剑......又是毫无意义的一天。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就连KGV都能在海面上自由驰骋着，我却什么都做不了……",
+			say = "\"After a day of training and patrolling, the sun sets upon the horizon once more.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不曾有期待也不曾有祝福……这就是皇家的结论么。",
+			say = "\"Her Majesty has lauded my potential, but does she truly expect anything from me?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，为何要呼唤我前来……",
+			say = "\"It makes me wonder... What is my purpose? Why do I exist?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +268,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我存在于此的意义究竟是什么……！",
+			say = "The only thing I've done today is disappoint Her Majesty and everyone else...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 299020,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "How am I supposed to redeem myself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

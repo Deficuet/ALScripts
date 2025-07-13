@@ -15,7 +15,7 @@ return {
 			actor = 900319,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "前方的代行者舰队……是先我们一步等在这里了么。",
+			say = "The only obstacles left in our way... are that Enforcer and its fleet.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "距离米德加尔特之塔还有一段距离，时间不多了，必须突破过去。",
+			say = "We'll arrive back at the Tower soon. We don't have the time to spare though. Break through by force!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里就让我来开路吧……",
+			say = "Then I'll take the lead—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "以现在这个状态，你冲过去可是一点胜算都没有的。",
+			say = "Don't put on airs. You're hurt, leave it to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们已经帮了我很多，我也不想继续展现这么脆弱的丑态了……",
+			say = "Ugh...! Are you telling me to sit by and watch while you guys put your lives on the line?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强弱只是某一时刻的相对关系，不绝对，也不永恒。",
+			say = "Exactly that. That's objectively our best course of action given the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "强者有强者的用法，弱者有弱者的用法，铁血从不以强弱与否来区分同伴，忘了么？",
+			say = "It'd be a different story if you weren't injured, but the Iron Blood does not make futile sacrifices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……我已经不是铁血的人了。",
+			say = "...But I'm not even Iron Blood. I'm with the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那余烬呢，抛弃脆弱的同伴是余烬的信条么？",
+			say = "If the Ashes leave their members to die, then I'll have no part of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你之前说这次不是你受过最重的伤对吧。",
+			say = "Speaking of which, you mentioned that you've been through worse before. How did you make it through that time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那次是怎么化险为夷的，塞壬突然大发慈悲放了你一马？",
+			say = "I don't believe that the Sirens just happened to lose track of you... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那次是……我最初见到企业的时候。在废墟之海中绝望之时，是她为我开辟出了一条新生的道路。",
+			say = "It was thanks to Enterprise... When I was about to succumb to despair, surrounded by the wreckage of my friends... Enterprise showed me a new path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此，那也是时候让我展现一下旗舰的气魄了。",
+			say = "...Then we will do the same for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你不是她……没胜算的。",
+			say = "You're not Code G! There's no way you can take on those guys on your own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有人是天生的强者。而且还有后面正在赶来的同伴呢，加在一起努努力总有办法的。",
+			say = "Not everyone was born strong. And don't worry, I'm not doing this path on my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:464}阁下，追兵都解决了哦~",
+			say = "Ulrich, we've taken care of our pursuers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "准确来说其实没有完全解决，不过都暂时追不上来就是了！",
+			say = "Not quite taken care of, but we've led them away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "正好结束激战的{namecode:434}也被我们一起拉过来了。",
+			say = "And Gneisenau has regrouped with us~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然还对我发射深水炸弹，差点把我也一起反潜了诶——",
+			say = "Jeez, you almost hit me with that anti-submarine round!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……不是说好这件事不提了么。",
+			say = "...There was a bit of a problem with the data analysis. Besides, didn't we agree not to talk about that anymore?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说的是回去之后不再提，现在还没回去呢！",
+			say = "I said I wouldn't talk about it after we made it back safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "她们身上的伤都多了不少……",
+			say = "They've all sustained heavy injuries from fighting against the Enforcers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "但是我们依然存在于此。前方是回家前的最后一道阻碍，铁血舰队，再努力一下，打穿它！",
+			say = "That's why we need to pool our efforts. Let's break through and make it to the tower! Everyone, we're at the last stretch!",
 			effects = {
 				{
 					active = true,

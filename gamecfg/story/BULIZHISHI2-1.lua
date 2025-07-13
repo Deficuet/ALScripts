@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-1",
-			say = "三只布里苦练本领，实力渐渐强大起来。然后，一个展现她们力量的机会到来了————",
+			say = "The Bulins grew stronger with each passing day as they refined their skills. Finally, one day came the opportunity to show the world the fruits of their training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "报——外面有塞壬大将前来叫阵，说要打我们十个欸！",
+			say = "Listen, everyone! A Siren big shot is at the door! She's saying she could take on ten of us at once without breaking a sweat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸……要是五星上将萨拉托加在这里的话，怎会怕她？",
+			say = "Uh-oh... If only our heavyweight champion Saratoga was here. She could mop the floor with her easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啊哈哈！我乃天下无双的净化者，你们有哪个敢过来挑战我的？",
+			say = "Yo, yo, yooo! Purifier's back, baybeee! Is anyone gonna step up to my challenge, or are y'all a bunch of WUSSIES?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 100020,
 			dir = 1,
-			say = "喂，你是怎么说话的，不伦不类的怪物burin！",
+			say = "You sure talk big for a big fat nobody, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			actor = 900233,
 			dir = 1,
-			say = "好大的胆子？！什么人，报上名来！",
+			say = "Now those are fighting words, you half-pint! Who the hell are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 100020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是特装型布里MKIII，我来当你的对手burin！",
+			say = "Just call me Rainbow Bulin, bulin! But you're not getting the rainbow – you're gonna get the PAINbow, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			actor = 900233,
 			dir = 1,
-			say = "人小口气倒不小。就让我看看你的本事，放马过来吧！",
+			say = "Oh yeah? We'll see about that! Show me whatcha got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "镜面海域·某处",
+			say = "Mirror Sea - Somewhere else",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "此刻，被囚禁的公主独自一人被关在无人知晓的黑暗之地。",
+			say = "There, in a place no one knows, the captive princess stood all by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "……从被抓来到现在……已经过了多久呢……",
+			say = "...How long has it been since then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很在意吗？",
+			say = "Would you like to know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "！！……你是什么时候出现的？",
+			say = "*gasp*! How long have you been here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大约三秒钟前？呵呵，我也不是故意把你丢在这里不管的。",
+			say = "Three seconds or so. I'm giving you the cold shoulder here, mind you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是我们珍贵的客人，我可是真心希望你能安心呆在这里的哦？",
+			say = "I only thought you, our esteemed guest, may have wanted some quiet time to yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以我只是特意没有主动与你交谈而已……不过就算这么说，估计你也不会信吧。",
+			say = "I've been consciously leaving you alone as a courtesy. Although, you probably don't believe me when I say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "你……希望我相信你吗？",
+			say = "Do you... WANT me to believe you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯——说实话，对我来说其实无所谓啦。",
+			say = "Hmm... If I'm to be frank, I don't care either way if you believe me or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，你对于我的看法是否会受到这个决定的影响更让我感兴趣哦。",
+			say = "What I DO care about is seeing how your attitude changes depending on whether you do or don't. It's interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果你有兴趣的话，要不要来场茶话会？我们在一个更舒适的场合里好好相互了解一下？",
+			say = "If you'd like, shall we have a tea party? It'll be an opportunity for you to speak with me at length.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "多谢你的好意。不过，给你任何关于我自己的信息都会让我觉得不舒服。",
+			say = "I'll pass, thank you. The idea of letting you get even a crumb of information out of me makes my skin crawl.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀，真刻薄呢？但看到你这副尝试从我的反应中获得情报，而拼命挑衅的模样……",
+			say = "How harsh. At the same time, you're trying to get a reaction out of me to gauge information from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在我眼里，可是非常“可爱”的行为哦？",
+			say = "If I had to describe your attempt with one word, it would be \"adorable.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，也不用这样瞪我啦。我其实已经准备好告诉你很多事了。比如——你想知道你的朋友们……怎么样了对吧？",
+			say = "Heheh. Don't scowl like that... I have so much to tell you. Don't you want to know how your friends are doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "……！",
+			say = "Ugh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵，就是这种你会因此露出破绽的部分，让我觉得很有趣呢♪",
+			say = "Heheheheh! I adore it when your weakness peeks through the cracks like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为了不被我看穿，努力压抑感情的样子真的很“可爱”哦。",
+			say = "So desperately trying to keep your emotions in the bottle. That's also adorable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很遗憾，我只打算告诉你“她们正在很努力地做些什么打破现状”这种程度的情报而已~",
+			say = "Unfortunately, all I have to share is that your friends are doing all they can to get the situation under control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，还有一些强大的盟友加入了她们，在和她们一同行动哦。",
+			say = "Oh, but they did make some trusty allies, so there's that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不出意外的话她们肯定能顺利克服“困难”，来拯救你的。",
+			say = "I'm sure they'll overcome all the challenges and come and rescue you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然，所谓的“困难”就是指我，真是让人心酸又无奈呢。",
+			say = "It's a shame the ultimate challenge they have to face is me. How cruel the world can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明明对我来说，只要你们尽情大闹一番，我就很开心了……",
+			say = "In my case, I'll be happy as long as they kick and scream nicely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "因为这种事而开心……？",
+			say = "That's what makes you happy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊呀，连这个多余的感叹都被听到了吗？这样吧，我再给你些情报，你就当没听见好了？",
+			say = "Oops, I might have let something slip there. Be nice and forget you heard that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你知道么，呼唤异世界的来客，对于我来说也不是那么容易的事哦。",
+			say = "What matters is this – everyone is safe and sound. You have nothing to worry about for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次有你这样，可以从那边的世界直接打开门锁的存在真是幸运，省了我不少力气哦~",
+			say = "Also, I'm lucky someone from your world held the key to the gateway. It saved me a lot of time and effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "门？锁？原来……是利用我的力量跨越了世界的界限……",
+			say = "What? Key? Gateway? Oh... You exploited my powers to cross world boundaries. That's what you're saying, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "都是你自己的猜测，我可没这么说哦？",
+			say = "Ah, you're sharper than you let on. I need to watch my mouth in the future. Heheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，在我们聊天的这段时间里，外面的局势已经有了新的变化呢。",
+			say = "Look at that. It seems things have changed whilst you and I have been chatting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来这次即使没有你来提供建议……她们也会“船”到桥头自然直吧。",
+			say = "It's looking like your friends will end up right where I want them, even without any advice on your part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，再乖乖地呆在这里一段时间吧。",
+			say = "So, stay here and take it easy for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在这期间如果你需要什么可以尽管告诉我哦？我会尽可能满足你。",
+			say = "If you need anything, don't be afraid to let me know. I'll get it for you as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但作为交换……你得陪我聊天，交易成立？",
+			say = "I do expect you to lend an ear to my chitchat in return, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，再见。",
+			say = "Alright, see you later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			bgm = "sk-az-pv1",
 			painting = {
 				alpha = 0.3,
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "果然，我的力量就是这次事件的导火索……",
+			say = "My gut feeling was right. My powers were the catalyst behind this incident...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "但反过来说，这也意味着我的力量可能是解决这次危机的关键……",
+			say = "I need to escape this place immediately and link up with the girls. My conscience won't let me rest until I apologize.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我得尽快逃出这里，与飞鸟小姐她们会合……不跟大家道歉的话，我会于心不安的。",
+			say = "The problem is, all my ninjutsu seems to have no effect here. I need to think of another way...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "但在这座建筑里，忍术本身好像失效了，要想想别的办法才行……",
+			say = "No, it's not that it's ineffective, per se – it feels more like my energy is being sapped. Brute-forcing it isn't going to work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "嗯……不对，与其说是失效……不如说是被吸收了更为准确，看来不能依靠蛮力突破……",
+			say = "If my powers warrant being actively suppressed, that must mean they are the trump card to put a stop to all this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "那么……我必须等待合适的时机……一旦时机成熟……立刻行动……",
+			say = "If that's the case, I need to wait for the right time. The time to strike. That's when I'll act swiftly...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看起来她会如计算一般行动呢。",
+			say = "Heheh. She's taken the bait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只需给她少量的信息，她会自动填补计划的留白之处，真是好对付的类型。",
+			say = "With people like her, you just need to drip-feed a little information and they'll fill in the gaps in your plan. Easily exploitable, in that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，从她的能力中可以引出怎样的实验呢……令人期待啊~",
+			say = "Oh, I look forward to seeing what experiments can be done using her powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>五　多此一举？</size>",
+					"A Knight's Promise\n\n<size=45>Chapter 5 - A Mountain from a Molehill?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "搞定啦！今天的工作圆满完成！",
+			say = "Bam! That's it! We finished all the day's work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "随着时间的推移，{namecode:416}秘书舰的工作也完成得越来越出色。",
+			say = "That was the quintessential U-556: as hard as she wanted to play, she could also put in the work when challenged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，明天就是休息日了！上次指挥官答应过陪我玩的，不如明天一起去海边玩怎样？！",
+			say = "Tomorrow's your day off, Commander! Don't forget you promised to spend it with me. How about we go to the beach together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "Agree to take her to the beach.",
 					flag = 1
 				}
 			}
@@ -105,7 +105,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我很期待呢！",
+			say = "Ehehheh~♪ I can't wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明天就好好放松一下吧。",
+			say = "It was to be a day of relaxation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…嗯？",
+			say = "......",
 			effects = {
 				{
 					active = true,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这个是……从演习舰队发来的求救信号？",
+			say = "Until... we received a distress call from the patrol fleet?",
 			effects = {
 				{
 					active = false,
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在位于演习海域的是…{namecode:435}带领铁血舰队…莫非出了什么意外？",
+			say = "And the fleet on patrol that day was... Bismarck's!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官？发生什么了吗？",
+			say = "Commander? What's wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉{namecode:416}",
+					content = "Tell her what happened.",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:435}姐姐她们莫非……",
+			say = "But wasn't Bismarck leading today's patrol...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我和{namecode:435}姐姐约好了，不管发生了什么事都会保护她……指挥官，请下达出击命令吧！",
+			say = "I swore an oath to Lord Bismarck that I would protect her no matter what! ... Commander, we have to go help them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "演习现阶段本应该禁止使用无线联络的，看来确实需要去那片区域看看。",
+			say = "U-556 dashed out of the room with an incredible speed I never knew she had.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "立即启动应急预案，集结待命中的伙伴同{namecode:416}一起赶往演习海域",
+			say = "She then gathered up some squadmates as quickly as she could and set off for the source of the distress signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			say = "港区周边·演习海域",
+			say = "Nearby Waters",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -324,7 +324,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:435}姐姐，一定要平安无事啊……",
+			say = "She'll be fine... she has to be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？…{namecode:435}姐姐……还有{namecode:428}小姐？",
+			say = "Huh? ... Lord Bismarck... and Prinz Eugen?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官这是？还有{namecode:416}和各位也在…出什么事了？",
+			say = "What is it?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -405,7 +405,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了……姐姐你没事实在是太好了！",
+			say = "Thank the gods you're all right!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -426,7 +426,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到底发生了什么事，指挥官？",
+			say = "Just what on earth is going on here? Commander, would you mind explaining on the way back to port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "总之大家平安无事就好。",
+			say = "Suffice it to say I was just glad everyone turned up safe and sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "原来如此……触发了求救系统么。",
+			say = "So... we triggered a distress signal?",
 			bgm = "story-2",
 			flashout = {
 				black = true,
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "演习过程十分顺利，塞壬也不可能靠近港区近海，只是单纯发生故障了吧？",
+			say = "It must be this thing. It's supposed to make an automatic assessment of any given combat situation and respond appropriately. I'm thinking it malfunctioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "看来是虚惊一场。以防万一回头让科研部门彻底检查一下这个系统吧。",
+			say = "It was a false alarm. I had them send the device off to the eggheads for inspection. No doubt Yuubari and her team could work it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起那些~两位没事实在是太好了呢~！",
+			say = "All that matters is that you two are safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:416}，虽然我们是有过那样的约定，不过再艰难的情况，我都可以自己应对，你不必担心我。",
+			say = "Listen, U-556, I get that you take your promise seriously. But I really can handle myself without you. You don't have to worry.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "更何况只是例行的演习……这种事情我完全可以应付得来。这么兴师动众连带着指挥官也--",
+			say = "Not to mention today was just a routine patrol... I'm more than capable of rising to that challenge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊。这样吗，姐姐……",
+			say = "Oh. Right. Of course...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对呢，大姐可是铁血最强的战舰，我在担心什么呢……哈哈……",
+			say = "I mean, Lord Bismarck is one of the strongest battleships in the Iron Blood fleet. What's to worry about...? Heh heh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然大家都没事，我就先回去了。",
+			say = "Right, well, I'd better be getting back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "{namecode:416}看起来十分失落……",
+			say = "U-556 shuffled off dejectedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:435}，刚才这话说得不太好呢",
+			say = "Kinda harsh, don't you think, Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			actor = 405010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "有点担心{namecode:416}的情况，跟上去看看吧。",
+			say = "I hurried after U-556, worried about how she was feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

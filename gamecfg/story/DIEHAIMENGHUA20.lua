@@ -13,7 +13,7 @@ return {
 			mode = 1,
 			dir = 1,
 			bgmDelay = 1,
-			say = "轰————————————————！",
+			say = "————",
 			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 0.5,
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "炸弹在空气的摩擦下发出死亡的轰鸣，由身形模糊的敌人构成的洪流被炸出一个个缺口。",
+			say = "Pummelled by a hail of cannonfire, the steel colossus finally reels, staggered for the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…就算在以往的梦境之中也没有感受过如此充盈的力量…如果是这样的力量……能赢！",
+			say = "(I feel power coursing through me... At this rate, we can win...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "若是仅有一头巨兽的话，确实如此。但是接二连三，更多身形模糊的威胁逼近了。",
+			say = "However, even if one enemy collapsed, another would swell from the depths to take its place, a veritable wall of black steel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "「——————此为徒劳。」",
+			say = "——It is not enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便如此，妾身也要继续战斗！",
+			say = "(I am a weapon... the embodiment of humanity's thoughts, the wishes for which they fight.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "纵使梦境之中…只要界限未临，只要敌息尚存，妾身就要继续战斗下去！",
+			say = "(I am the hope of the Sakura Empire. The hope of her people. I am their deliverance.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "周边抵抗的声音变得越来越微弱。不知从何时开始，立于海面之上的只有{namecode:182}一人了。",
+			say = "But the flames of resistance flickered in the storm and sputtered out. Be it after mere moments or after eons, Shinano stood alone upon the surface of the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:103}、{namecode:104}、{namecode:188}…决战兵器运输队……",
+			say = "(Chitose... Chiyoda... Kashino... Kii... Kumano... Suzutsuki... Noshiro... My friends...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "「——————此为徒劳。」",
+			say = "——One fragment is still missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "远方曾经身处火炬之中的妾身，也是以这样的姿态迎来了最后一刻么…",
+			say = "(This was... the fate of \"Shinano\" within this world...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，妾身哪里做错了呢……",
+			say = "(Why is it still not enough...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明是足以消灭一切敌人的力量才对……！",
+			say = "(How many times must I witness this ruination... How long must I wallow in sorrow, emptiness, and helplessness...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么……………",
+			say = "(Where is the missing fragment...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官，选张唱片放上吧，要好听点的。",
+			say = "Oh, Commander, put on a record that sets the mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "刚回到休息室就立刻躺倒在单人沙发上的{namecode:480:埃吉尔}，开始了新一轮的“使唤”。",
+			say = "No sooner than I set foot inside the room does Ägir issue an order to me from her single sofa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "行。",
+			say = "You got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "放上了唱片，待悠扬的旋律响起后，我走到了咖啡机旁。",
+			say = "I pick a record and spin it on the phonograph, then head to the coffeemaker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（等下还有工作要处理，就来杯黑咖提神吧。）",
+			say = "(I've got work after this, so a cuppa joe would do me good.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "就在接好了咖啡，准备开口问{namecode:480:埃吉尔}要不要也来一杯时——",
+			say = "After the coffee finishes brewing, Ägir exclaims another order before I can even ask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "多加糖，不然我可喝不下去。",
+			say = "Extra sugar. I can't drink it otherwise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "好。",
+			say = "Yes, ma'am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "无奈地将手中的黑咖调成{namecode:480:埃吉尔}需要的口味，放到她身旁的小几上后。",
+			say = "I add a hefty spoonful to the coffee and place the cup on the table beside her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "指挥官。",
+			say = "Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}的声音再度落入耳中，伴随而来的，还有落在我膝盖上的、如同白玉雕琢的脚。",
+			say = "She speaks yet again, stretching her legs out toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她不知何时踢掉了一只脚上的高跟鞋，此刻正用脚尖不轻不重地点着我的膝盖。",
+			say = "She haphazardly flings her shoes off and teasingly pokes my knee with her toes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "怎么了？",
+			say = "What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "没怎么，我只是在想，指挥官居然全程这么“听话”……",
+			say = "Nothing. It just struck me how you know your place today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "呵呵呵呵，莫非这次是折服在深渊之神的威光之下了么。",
+			say = "Have you finally bowed to my power as the god of the sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……",
+			say = "Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,18 +254,18 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "见我无动于衷，{namecode:480:埃吉尔}更加肆无忌惮，足尖沿着我的腿游移向上，颇有些挑衅的意味。",
+			say = "Disappointed by my response, she lifts her foot higher and runs her toes along my thigh, moving further up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抓住她的脚踝",
+					content = "(Grab her ankle.)",
 					flag = 1
 				},
 				{
-					content = "制止{namecode:480:埃吉尔}",
+					content = "(Make her stop.)",
 					flag = 2
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "抓住了{namecode:480:埃吉尔}的脚踝，让她不再乱动。",
+			say = "I seize her foot by the ankle to stop her from going any further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "！！",
+			say = "Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "放、放开！",
+			say = "Hey! Let go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}窘迫而慌乱地出声，试图把脚缩回去。",
+			say = "She starts kicking around and tries to pull her leg back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "我、我不戏弄你了！松手……呀！",
+			say = "That's enough already! Stop it! ...Eek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "看到{namecode:480:埃吉尔}这副模样，我松开了抓住她脚踝的手。",
+			say = "In a bout of sudden guilt, I let go of her foot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}迅速将脚收了回去，红着脸别开了眼。",
+			say = "Taken by surprise, a look of shock and embarrassment appears on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "像是为了缓解刚刚的尴尬，小啜一口咖啡后，她再度开了口。",
+			say = "She tries to play it cool, taking a sip of her coffee before she speaks again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "……你一直站在那里不累么？过来坐着！",
+			say = "Isn't it tiring, standing like that? Take a seat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你看，我位置都给你腾好了。",
+			say = "There's room right over here! Look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,18 +416,18 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她逞强似的拍了拍身边那一块小小的空位。",
+			say = "She pats the small clear space next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "到沙发上坐下",
+					content = "Don't mind if I do.",
 					flag = 1
 				},
 				{
-					content = "沙发是不是太小了？",
+					content = "I don't think there's room for two.",
 					flag = 2
 				}
 			}
@@ -442,7 +442,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "这是单人沙发，是不是有点太小了？两个人挤在一起，可能你会不舒服。",
+			say = "It's a single sofa. It'll be pretty cramped if I sit on it at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我还是……",
+			say = "So, you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "我都不在意这些，你在意什么！",
+			say = "I don't have an issue with that, so why should you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "别不动了！快过来！",
+			say = "Stop dragging your feet already and come here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "起身靠近{namecode:480:埃吉尔}，她红着脸，目光游离地往沙发内侧靠了靠。",
+			say = "I take her up on her offer and sit down beside her. She quickly blushes and averts her gaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "由于单人沙发的空间狭窄，彼此的身体只能紧密相贴。",
+			say = "Even though she made more room, we are literally rubbing shoulders with how cramped it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "算、算了……你被我使唤了这么久，还是你坐着，我起来吧！",
+			say = "Bah, forget it! You've been toiling away for my sake, so you can have the sofa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女说着，有些慌张地起身，却因过于慌乱而失去平衡。",
+			say = "She rises to her feet with such haste that she loses her balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			actor = 499053,
 			actorName = "{playername}",
 			live2d = true,
-			say = "小心！",
+			say = "Careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "柔软而温暖的身体狼狈地落入了我的怀中。",
+			say = "She falls right onto me, her soft and warm body landing in my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她的长发垂落，轻柔地扫过我的鼻端，带来一阵若有似无的幽香。",
+			say = "The god of the sea's hair brushes against my nose. It gives off a faint fragrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……呜！？",
+			say = "Whuh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她埋在我的怀中，用羞怯、不甘的声音自暴自弃。",
+			say = "After fidgeting for a moment, she finally gives up and relaxes her body, leaning gently against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499053,
-			say = "仅此一次……就这样吧！",
+			say = "Just this once... you hear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

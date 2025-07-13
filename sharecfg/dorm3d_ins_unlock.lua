@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.dorm3d_ins_unlock = {
 	{
-		text = "天狼星进入宿舍1天",
+		text = "Visit Sirius' private quarters 1 time.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -10,7 +10,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	{
-		text = "天狼星可收集物品达到20个",
+		text = "Collect 20 items in Sirius' private quarters.",
 		trigger_id = 0,
 		trigger_num = 20,
 		type = 1,
@@ -19,7 +19,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	{
-		text = "天狼星累计互动10次",
+		text = "Interact with Sirius in her private quarters 10 times.",
 		trigger_id = 0,
 		trigger_num = 10,
 		type = 1,
@@ -28,7 +28,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 156
 	},
 	{
-		text = "天狼星累计拍照2次",
+		text = "Take 2 pictures of Sirius in her private quarters.",
 		trigger_id = 0,
 		trigger_num = 2,
 		type = 1,
@@ -37,7 +37,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 160
 	},
 	{
-		text = "天狼星夜晚互动",
+		text = "Interact with Sirius in her private quarters at night.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -46,7 +46,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 116
 	},
 	{
-		text = "能代进入宿舍1天",
+		text = "Visit Noshiro's private quarters 1 time.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -55,7 +55,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	{
-		text = "能代可收集物品达到20个",
+		text = "Collect 20 items in Noshiro's private quarters.",
 		trigger_id = 0,
 		trigger_num = 20,
 		type = 1,
@@ -64,7 +64,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	{
-		text = "能代累计对话15次",
+		text = "Talk to Noshiro in her private quarters 15 times.",
 		trigger_id = 0,
 		trigger_num = 15,
 		type = 1,
@@ -73,7 +73,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 155
 	},
 	{
-		text = "能代累计互动10次",
+		text = "Interact with Noshiro in her private quarters 10 times.",
 		trigger_id = 0,
 		trigger_num = 10,
 		type = 1,
@@ -82,7 +82,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 156
 	},
 	{
-		text = "能代夜晚拍照",
+		text = "Take a picture of Noshiro in her private quarters at night.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -91,7 +91,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 119
 	},
 	{
-		text = "安克雷奇进入宿舍1天",
+		text = "Visit Anchorage's private quarters 1 time.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -100,7 +100,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	{
-		text = "安克雷奇解锁宿舍2天",
+		text = "Visit Anchorage's private quarters over 2 days.",
 		trigger_id = 0,
 		trigger_num = 2,
 		type = 1,
@@ -109,7 +109,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	{
-		text = "安克雷奇解锁宿舍4天",
+		text = "Visit Anchorage's private quarters over 4 days.",
 		trigger_id = 0,
 		trigger_num = 4,
 		type = 1,
@@ -118,7 +118,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	{
-		text = "安克雷奇可收集物品达到20个",
+		text = "Collect 20 items in Anchorage's private quarters.",
 		trigger_id = 0,
 		trigger_num = 20,
 		type = 1,
@@ -127,7 +127,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	{
-		text = "安克雷奇累计互动10次",
+		text = "Interact with Anchorage in her private quarters 10 times.",
 		trigger_id = 0,
 		trigger_num = 10,
 		type = 1,
@@ -136,7 +136,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 156
 	},
 	{
-		text = "安克雷奇累计赠礼5次",
+		text = "Give Anchorage 5 gifts.",
 		trigger_id = 0,
 		trigger_num = 5,
 		type = 1,
@@ -145,7 +145,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 157
 	},
 	{
-		text = "安克雷奇小游戏达到3分",
+		text = "Obtain 3 points in Anchorage's minigame.",
 		trigger_id = 0,
 		trigger_num = 3,
 		type = 1,
@@ -154,7 +154,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 159
 	},
 	{
-		text = "安克雷奇夜晚送礼",
+		text = "Give Anchorage a gift at night.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -163,7 +163,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 118
 	},
 	{
-		text = "天狼星契合度5级",
+		text = "Reach Intimacy Lv. 5 with Sirius.",
 		trigger_id = 0,
 		trigger_num = 5,
 		type = 3,
@@ -172,7 +172,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	{
-		text = "能代契合度5级",
+		text = "Reach Intimacy Lv. 5 with Noshiro.",
 		trigger_id = 0,
 		trigger_num = 5,
 		type = 3,
@@ -181,7 +181,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	{
-		text = "安克雷奇契合度5级",
+		text = "Reach Intimacy Lv. 5 with Anchorage.",
 		trigger_id = 0,
 		trigger_num = 5,
 		type = 3,
@@ -190,7 +190,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	{
-		text = "安克雷奇契合度10级",
+		text = "Reach Intimacy Lv. 10 with Anchorage.",
 		trigger_id = 0,
 		trigger_num = 10,
 		type = 3,
@@ -199,7 +199,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517101] = {
-		text = "新泽西进入宿舍1天",
+		text = "Visit New Jersey's private quarters 1 time.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 1,
@@ -208,7 +208,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	[10517102] = {
-		text = "新泽西解锁宿舍4天",
+		text = "Visit New Jersey's private quarters over 4 days.",
 		trigger_id = 0,
 		trigger_num = 4,
 		type = 1,
@@ -217,7 +217,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517103] = {
-		text = "新泽西解锁宿舍7天",
+		text = "Visit New Jersey's private quarters over 7 days.",
 		trigger_id = 0,
 		trigger_num = 7,
 		type = 1,
@@ -226,7 +226,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517104] = {
-		text = "新泽西可收集物品达到20个",
+		text = "Collect 20 items in New Jersey's private quarters.",
 		trigger_id = 0,
 		trigger_num = 20,
 		type = 1,
@@ -235,7 +235,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	[10517201] = {
-		text = "新泽西契合度5级",
+		text = "Reach New Jersey Intimacy Lv. 5",
 		trigger_id = 0,
 		trigger_num = 5,
 		type = 3,
@@ -244,7 +244,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517202] = {
-		text = "新泽西契合度10级",
+		text = "Reach New Jersey Intimacy Lv. 10",
 		trigger_id = 0,
 		trigger_num = 10,
 		type = 3,
@@ -253,7 +253,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517301] = {
-		text = "新泽西进入宿舍1天",
+		text = "Visit New Jersey's private quarters 1 time.",
 		trigger_id = 0,
 		trigger_num = 1,
 		type = 2,

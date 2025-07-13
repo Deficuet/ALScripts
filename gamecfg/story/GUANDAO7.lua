@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>七　两倍的真实</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>7.Double the Truth</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "随便找了个地方坐下后，关岛打开了随身平板。",
+			say = "Guam spreads out a picnic blanket on the grass in the park before immediately sitting down and turning on her phone.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "欢笑声从屏幕中传出，关岛所说的节目似乎已经开始了。",
+			say = "Laughter pours out of her phone's speaker. That means her show has officially started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "诚信老板娘",
+			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，不好了喵！大事不好了喵！",
+			say = "C-Commander, we've got a big problem, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,12 +88,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出什么事了，{namecode:98:明石}，为什么这么慌张？",
+			say = "Whoa, Akashi, take a deep breath. What's wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,12 +107,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "诚信老板娘",
+			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港口外面，来了很多运送补给的货船喵！",
+			say = "The harbor is jam-packed with ships bringing supplies, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,11 +126,11 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦……算时间的话，差不多确实是到了送补给物资的时候了。",
+			say = "Right. I was expecting a delivery today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,12 +144,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "诚信老板娘",
+			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来的货轮足足有一百五十艘喵！",
+			say = "Yeah, but there are so many, nya! There are 150 ships, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,12 +163,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……一百五十艘？怎么会这么多？都送来了些什么？",
+			say = "One-hundred and fifty?! THAT many?! What are they bringing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,11 +182,11 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "诚信老板娘",
+			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说是指挥部送来的大型作战储备物资喵！",
+			say = "I think it's all stuff intended for a major operation, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,12 +200,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……什么大型作战？我身为指挥官怎么不知道？",
+			say = "What operation? I'm the Commander here, and I haven't heard anything about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,11 +219,11 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "诚信老板娘",
+			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听说代号为“扫除”喵……",
+			say = "They're calling it, \"Operation Cleanup,\" nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,12 +237,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是指扫除大作战的事吧！我已经明白了！",
+			say = "Oh, Operation Cleanup! Now I know what it's about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,12 +256,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………啊？",
+			say = "...Go on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,12 +275,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前在写文件的时候，我觉得这样比较cool嘛……就起了这个名字。",
+			say = "I was filling out a document a few days ago and thought the name sounded cool, so I went with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,12 +294,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后想着既然是作战，那肯定需要物资储备……补给肯定越多越好不是嘛~",
+			say = "It being an operation, I figured you'd need supplies. And the more supplies, the better, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,12 +313,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亏你……还知道……要准备后勤。",
+			say = "So you've figured out logistics... I can't believe how fast you learn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,11 +332,11 @@ return {
 			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，关岛聪明吧~",
+			say = "Heehee, yeah. I've got a good noggin on me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,12 +350,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反正文书工作只是成年人的把戏，谁也不会认真看，做做样子就好嘛！",
+			say = "Paperwork is just adult busywork, you know? You can half-ass it and nobody's really gonna care!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,12 +369,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "普通发明家",
+			factiontag = "Read the Numbers Wrong",
 			dir = 1,
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你的特别订单完成了！移动速度高达八十米每秒的扫地机器人做好了哦！",
+			say = "Commander, I'm here with what you asked for. The roomba that cleans at 80 meters a second is done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,12 +388,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……八十米每秒也就是两百八十八公里每小时？",
+			say = "...80 meters a second? It moves at 288 kilometers an hour?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,12 +407,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要这么快速度的扫地机器人干什么啊！",
+			say = "That'll break someone's legs if it crashes into them! Why'd you make it so fast?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,12 +437,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……居然有那么快么，好像……算错了，哎嘿~算数什么的真的好难啊！",
+			say = "Oh... That's REALLY fast... I think I made a mistake in my calculations. Oopsies! Math is hard!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,12 +462,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不是有计算器么？",
+			say = "You do know calculators exist, right? Why don't you use one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "天才秘书舰",
+			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "计算器也好难用啊……消消气啦指挥官，你想，跑得这么快的扫地机器人不也很酷么！",
+			say = "Because using them is the hard part! Besides, this is fine! Now we have the world's fastest roomba, and that's sick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,12 +500,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			factiontag = "和善指挥官",
+			factiontag = "Lemon-Loving Commander",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你……！",
+			say = "Guaaam!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉节目里埃塞克斯的表情……不像演的。",
+			say = "Either Essex is a really good actor, or that yell was her genuine reaction.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -546,7 +546,7 @@ return {
 			},
 			options = {
 				{
-					content = "这就是你上周借用指挥室的原因？",
+					content = "So this is what you needed my office for last week, huh?",
 					flag = 1
 				}
 			}
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！之前我对待文书工作时不成熟的表现，不是给你添了很多麻烦嘛。",
+			say = "Bingo. I got inspired by my complete paperwork blunder the other week.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "然后我就想着做一期特别节目。",
+			say = "I decided I'd turn it into this little comedy skit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "首先是为了让我能够吸取教训，其次就是想让更多的同伴认识到秘书舰工作的重要性。",
+			say = "Firstly, it's my apology to you. Secondly, it's a bit of self-admonition. Thirdly, it's a PSA to tell others to take the work of a secretary seriously!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是所谓的寓教于乐么。",
+			say = "So it's kind of like edutainment, in a way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来还有专门的名词来称呼这件事么！不过我倒是没想那么复杂啦……",
+			say = "That's one way to put it! Granted, I didn't put THAT much thought into it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "只是我从工作中受益匪浅，也希望大家能从我的这段经历中学到点什么……之类的感觉吧~！",
+			say = "The way I'd describe it is, I just learned a bunch of things on the job and wanted others to get something from it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿……虽然现在说好像有点晚了，不过我这样瞒着您擅自编排这样的剧本……您不会生气吧？",
+			say = "It's kind of a self-report that reflects badly on you, though... You're not mad at me for putting this on TV, are you, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,18 +675,18 @@ return {
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么会呢——",
+			say = "Far from it. In fact...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "节目很有趣。",
+					content = "I think it's a great skit.",
 					flag = 1
 				},
 				{
-					content = "下次我要亲自来演！",
+					content = "Next time, you should let me play myself.",
 					flag = 2
 				}
 			}
@@ -700,7 +700,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你能喜欢这个惊喜节目就好~！",
+			say = "I'm glad to hear you like it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,7 +719,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，一言为定哦！",
+			say = "Whoa! Okay, you've got it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "不知不觉间，节目也来到了尾声",
+			say = "Before I know it, we're on the last few minutes of the show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "几次三番之后，天才（新手）秘书舰关岛总算认识到了自己的错误，在经过一番努力后，成为了一名出色的秘书舰。",
+			say = "Guam, in the show, has finally caught on to her numerous mistakes and makes efforts to better herself, ultimately culminating in her becoming an excellent secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "而屏幕外的关岛亦是如此，一直在从繁忙的日程中抽出时间学习，现在已经是能够独当一面的秘书舰了。",
+			say = "The same is true for the real-world Guam. She has found time in her busy schedule to learn and improve, and she is now as good a secretary as any.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是表里如一的艺人……",
+			say = "You really put your all into your pursuits, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正一直以来我都没认真考虑过营业路线。对于随性而为的我来说，果然还是这样最合适。",
+			say = "Not really? I just do whatever feels right. It's spontaneous, and that's how I like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "接下来我也会继续努力的，直到变成一名不输给节目里的自己的，优秀的秘书舰。",
+			say = "And what I feel is right is getting better and better until I'm as good a secretary as I am in the show!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			},
 			options = {
 				{
-					content = "其实你已经——",
+					content = "I'd say you already are.",
 					flag = 1
 				}
 			}
@@ -850,7 +850,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿，指挥官不用安慰我哦，我知道自己还差得远呢。",
+			say = "Come on, you're just saying that. I've obviously still got A LOT to learn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -867,25 +867,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以就是这样，接下来一段时间的秘书舰也请务必让我来担任。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_149",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 118020,
-			say = "为了成为指挥官心里最优秀的秘书舰，我还需要更多，更多，更多的练习时间呢~！",
+			say = "Which is to say, please let me keep working as your secretary so I can prove myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -903,7 +885,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "明天的工作也请多指教了哦，指挥官~",
+			say = "I want to become the number one secretary in your heart, and I'm gonna practice my butt off until then!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_149",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 118020,
+			say = "So, if tomorrow you see some room for improvement, don't be afraid to let me know!",
 			painting = {
 				alpha = 0.3,
 				time = 1

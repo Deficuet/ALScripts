@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp3",
 			sequence = {
 				{
-					"分队代号「镰鼬」",
+					"Weasel Unit",
 					1
 				},
 				{
-					"旗舰：基洛夫",
+					"Flagship: Kirov",
 					2
 				},
 				{
-					"楚科奇海要塞周边·塞壬控制区",
+					"Objective: Destroy the weather control device",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "冰雪封锁了航路。而在更远处，塞壬未完工的防线正向基洛夫一行人倾泻着勉强说得过去的火力。",
+			say = "In the midst of the artificial snowstorm, the Weasel unit fought off the Siren fleet and pushed toward the fortress where the weather control device lay.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "威严……无法移动了……",
+			say = "I'm... at my limit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌人的攻击倒是不足为惧……但是雪太大了！",
+			say = "The Siren fleet isn't too strong, but... The snow is just too much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快想想办法吧，基洛夫同志！",
+			say = "Comrade Kirov, do something about this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——看来是时候了。",
+			say = "It seems now is the time to activate the device.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是现在，“便携式气象稳定装置”启动——！",
+			say = "Now! Portable Weather Stabilizers, activate! Mass-produced ships, deploy energy amplifiers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在基洛夫下达指令后，多艘量产型的甲板上升起伸出了一个如同桅杆一般的机械装置。",
+			say = "When Kirov issued the order, several mass-produced ships deployed odd-looking devices that resembled masts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "随即，一股温暖的气息包裹了众人的全身。",
+			say = "The snowstorm from moments ago became a light breeze, and perhaps thanks to the devices' heat generation, the place felt just a touch warm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "装置仿佛形成了一道隐形的屏障一般，减小了暴雪狂风，也融化了被封冻的冰面。",
+			say = "The device had literally snuffed out the abnormal weather, as if it had taken them to another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "雪停了，冰面也……变薄了。",
+			say = "The snow stopped...? And the ice is melting, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Ура！这样一来就能尽情战斗了~！",
+			say = "Ura! Now we can actually make progress!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……在启动了装置之后敌人的增援也没有出现。",
+			say = "Damn right! The Siren defensive line has fallen back, too; it seems even they know they're outmatched.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然如{namecode:530:同盟}同志预料的一样。",
+			say = "Heh. Soyuz's expectations were right on the money.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要能克服气象武器带来的影响，拿下此处尚未完成防御体系建设的要塞就如探囊取物一般。",
+			say = "Without the effects of that weather, their defenses are weak, making it easy to fell these Sirens! Soon, we'll be able to destroy that device!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同志们，让我们突破这道不堪一击的防线！",
+			say = "All comrades, full speed ahead! We'll ride this momentum and obliterate the Sirens' defensive line!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Давай, пойдём на войну（让我们大干一场）！",
+			say = "To arms, comrades!",
 			painting = {
 				alpha = 0.3,
 				time = 1

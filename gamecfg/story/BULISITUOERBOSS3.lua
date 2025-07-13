@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>三 加密通话</size>",
+					"An Exercise Gone Slightly Wrong\n\n<size=45>3. Code Speak</size>",
 					1
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是我的错觉吗……敌人好像越来越多了？！",
+			say = "Is it just me, or are there more enemies here now?!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -63,7 +63,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不知道指挥官和港区的同伴们还好么……",
+			say = "That's a bad sign... I hope everyone back at port is okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_nepu2",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -137,7 +137,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌人的攻势很猛……这样下去不行，我需要增援。",
+			say = "I can't hide here forever... My only hope is to call others who were out of port before the attack and ask for backup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是通讯被敌人监控，也不知道港区现在的情况怎么样了……",
+			say = "But... I can't do that since our comms have been compromised! It's too risky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "没办法……虽然有风险，但也只能进行加密通话了！",
+			say = "I guess I just... have to improvise some sort of code and hope they'll be able to figure out the message...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这里是调查员，现在呼叫事务所——",
+			say = "Ahem... This is Investigator. Agency, come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,9 +209,9 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "…………通讯没有接通？！",
+			say = "Why won't it connect?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不、不过也许只是敌人的干扰……可恶、港区的同伴们千万要平安无事啊！",
+			say = "They must be jamming us... Oh man, I really hope everyone's okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "接下来还有{namecode:525}的私人联络频道可以试一试……",
+			say = "Hang on... Ingraham's channel worked earlier! Let's see if I can contact her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:525}！{namecode:525}！这里是调查员——",
+			say = "This is Investigator! Come in, Ingraham!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "布里斯托尔……？你现在在哪儿？",
+			say = "Bristol? Where are you now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那个，你听我说哦。今天本来天气好好的，突然就下雨了！（到达后遭遇突袭！）",
+			say = "Err, just listen closely to what I'm about to say! Weather was all clear until I got here, when it suddenly started pouring down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我还没带伞，你能不能送把伞给我！（情况紧急，急需支援！）",
+			say = "I'm in need of some umbrellas. Could you send some my way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "今天……你那里好像是晴天哦……",
+			say = "What're you talking about? It's not raining over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（……暗号……暗号，要是想让{namecode:525}理解到暗号内容的话，这句话应该……对，这么回答！）",
+			say = "(She doesn't get it! Dang it... How do I make it clear what I'm trying to say? Maybe she'll understand if I put stress on it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……唔，你“没有明白”我的意思！",
+			say = "Look, what I'm trying to say is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "我需要你给我送把伞过来啊！（我顶不住了，快派支援！）",
+			say = "I need UMBRELLAS right now! The rainfall is overwhelming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "可是根本没下雨，我为什么要去送伞啊……而且就算下雨的话，废弃基地附近肯定有避雨的地方吧，躲一会就好了。",
+			say = "Why do you need umbrellas when it's sunny? Look, if a squall comes in or something like that, just find shelter in the ruins and wait for it to pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，原来是这样……！",
+			say = "Wait for it to pass...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "（躲一会就好了——的意思是敌人攻势猛烈，需要暂时躲避！）",
+			say = "(Oh, I get it! She's saying reinforcements are coming and I just need to hold out a little longer!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这件事先放一边，我有其他事要问你——",
+			say = "Mhm. Now listen, I just wanna make sure you got–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "我完全明白了！调查员通讯结束！",
+			say = "Copy that loud and clear! Investigator, out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "等————",
+			say = "What? Wait–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼………………没想到港区的情况已经这么严重了，支援什么的……果然是没法指望了。",
+			say = "The line sounded really choppy... Things must be really bad back at port. I doubt backup will be here any time soon if I do hold out here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "不过{namecode:525}依然让我在废弃基地附近寻找掩护……是只要坚定守住这里就有办法的意思么？",
+			say = "But maybe, just maybe, things will be okay if I stop the enemy from taking these ruins...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "布里斯托尔掏出笔记本，在上面写下：",
+			say = "Bristol took out her little notebook and began to write.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "█年█月█日，晴（心情在下雨），港区半数被毁，战况紧迫。",
+			say = "\"Investigator's Log - Clear skies (but it's raining in my heart). The port is under attack and the future is uncertain.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "我被要求守住最后的堡垒……愿大家平安无事。",
+			say = "\"I've been told to make my last stand at the old ruins... I pray my friends are okay.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

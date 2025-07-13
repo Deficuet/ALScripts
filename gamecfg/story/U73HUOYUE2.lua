@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>二　伟大的实验？</size>",
+					"Science Rules!\n\n<size=45>Chapter 2 - A Big Experiment</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "数分钟后，学院·科学教室",
+			say = "A few minutes later - In the science room",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是那间教室吧！",
+			say = "It came from this room!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳…这烟是怎么回事——",
+			say = "*Cough*... What's with all this smoke...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 408051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳咳咳…啊哈哈哈，失败了呢…",
+			say = "*Cough*... Welp, that's one more failed experiment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 408051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，失败乃是成功之母，下一次一定会成功的！嗯嗯！",
+			say = "But on the other hand, failure leads to success! The next time, I'll get it right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…",
+			say = "Is she...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}的同伴…？",
+			say = "One of Zed's friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是{namecode:417}啊…不对，{namecode:417}！你趁着中午的时候在教室做什么呢！？咳、咳咳…",
+			say = "So this is where you were, U-73... Wait, what were you even doing in there during the lunch break!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢，是{namecode:408}呀，还有你们，呀吼，中午有好好休息了吗？准备好应付下午的课程了吗～？",
+			say = "Hm? Oh, hey, Zed. During lunch break? Taking a break, what else? What about you? Done with the preparations for your afternoon lectures?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是{namecode:408}和奇怪的声响，还能睡得更好…",
+			say = "If it weren't for Zed and that weird explosion, we could've had a longer nap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…还有点困，的说",
+			say = "... I'm still not fully awake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？！是我的错吗！？",
+			say = "How is that my fault in any way!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 408051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，吵到你们午休了吗，抱歉抱歉～",
+			say = "Ahah, guess I woke you from your little nap... Sorry 'bout that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以{namecode:417}你在做什么呀，弄出这么大的声响？",
+			say = "What were you doing in here? I heard a really loud explosion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 408051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，听了可别吓一跳，我正在进行一个“伟大的实验”呢！",
+			say = "Hahah! You'll be astonished once you know! I was, in fact, working on a big experiment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 408051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "实验的内容就是——",
+			say = "On what, you say? Why, I'm glad you asked...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,10 +332,10 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
-			actorName = "众人",
+			actorName = "Everyone",
 			dir = 1,
 			blackBg = true,
-			say = "诶诶诶诶？！！",
+			say = "... WHAAAAT!?",
 			flashout = {
 				black = true,
 				dur = 1,

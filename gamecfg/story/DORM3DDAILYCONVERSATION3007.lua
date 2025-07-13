@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……想到，一件事！",
+			say = "Anchorage... had a great idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……唔，是什么来着？突然不记得了……好像……",
+			say = "Huh... What was it? I forgot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "摸摸安克雷奇的头……{dorm3d}……！安克雷奇能想起来……！",
+			say = "{dorm3d}... Give me headpats! It might... help me remember...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "摸摸，安克雷奇……{dorm3d}！",
+			say = "Headpats for Anchorage...! {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

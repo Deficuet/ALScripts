@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 0.5,
-			say = "远离战场的办公室中，厚厚的墙壁隔绝了外面的风雪。",
+			say = "Far from the Frostfall operational area...",
 			bgm = "battle-deepecho",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "通讯器的灯熄灭了，不过另一端的屏幕此时亮了起来。",
+			say = "The pre-battle operation briefing ended, but another monitor lit up before Soyuz's eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在积蓄了这么久的力量之后，行动终于要开始了……",
+			say = "We've been building up our strength for so long. Now, it's finally time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "是啊。",
+			say = "Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最后还是没有执行让指挥官同志来指挥的方案？",
+			say = "Have you decided not to involve the Commander after all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "嗯。这次行动太危险了，如果清除者真的被逼入绝境，之后会发生什么事我们谁都说不准。",
+			say = "This is an extremely difficult operation. We can't begin to fathom what Omitter might do when cornered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "我们自己的作战，风险应该由我们自己承担。",
+			say = "We alone must bear the risks involved in this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "况且，指挥官同志也需要去放松一下了，博览会不是一个很好的选择么？",
+			say = "Besides, the Commander has been busy conducting research with the Eagle Union for some time now. Why not give our good Commander a moment to unwind at the World Expo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "你那边的情况如何？",
+			say = "By the way, how is the situation over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一切正常。会场这边维持着日复一日和平与悠闲，没有什么波澜。",
+			say = "All is well. The venue is the very picture of peace. Honestly, I almost find myself bored by how little has happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "硬要说的话，指挥官同志会来参加闭幕式的消息倒是引发了一阵“小小的骚动“？",
+			say = "Though, news that the Commander would come has caused more than a little bit of commotion~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "啊哈哈……我已经能想象出那种热闹的场面了。",
+			say = "Hahaha! I can imagine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "东煌呢？得到指挥官同志要来闭幕式的消息之后行程有所改变么？",
+			say = "And what of the Dragon Empery? I'd heard that they planned to leave, but I imagine the news must have changed their plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边的话……貌似在消息传来之前就已经离开博览会会场了。",
+			say = "Well... Actually, they already left before the news broke.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事到如今也不可能再折回来，只能说是……非常遗憾。",
+			say = "It's too late to turn back the clock, though it really is a shame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，现在还是多关心一下眼前的作战吧，{namecode:529:苏维埃同盟}。",
+			say = "But for now, Soyuz, please focus on the impending battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_guild_blue",
 			side = 2,
 			actor = 900218,
-			say = "你说得对，闲聊的话到这里就可以了。",
+			say = "Right. I suppose that's enough small talk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 702010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，虽然现在我远在撒丁帝国，但还是祝你们旗开得胜，同志。",
+			say = "I'll be praying for your victory from here in Sardegna, Comrade Soyuz.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "屏幕闪烁了一下，暗了下去。",
+			say = "The screen flickered and turned off, bringing silence to the room once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "{namecode:529:苏维埃同盟}在略微沉思之后，接入了战役指挥系统。",
+			say = "After a moment of quiet thought, Soyuz checked the time and connected to the mission command network.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			blackBg = true,
-			say = "而墙外的风雪，仍在呼啸——",
+			say = "Outside the building, the polar snowstorm raged yet harder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

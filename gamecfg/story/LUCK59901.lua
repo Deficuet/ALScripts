@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "这种变强的感觉，真叫人舒爽痛快啊！对吧，指挥官？",
+			say = "There's not a thing in the world better than that feeling of getting stronger! Don't you agree, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "正好，趁着心情痛快，我们下馆子去吧！我请客！",
+			say = "Damn straight! Since I'm in such a good mood today, let's go out and eat to our hearts' content! My treat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "最好再喝点什么！这么好的日子不庆祝下怎么行！",
+			say = "While we're at it, I wanna knock down some of the good stuff! C'mon, it'd be a shame not to celebrate such a fine day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "总之，以后我罩定你了！可不准让我变强了又不依靠我啊！",
+			say = "Anyway, I promise to protect you matter what from now on out! If you're gonna make me stronger, you'd better rely on me more and more!",
 			painting = {
 				alpha = 0.3,
 				time = 1

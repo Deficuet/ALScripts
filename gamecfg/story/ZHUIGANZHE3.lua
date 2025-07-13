@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>三 好奇心与蛋糕</size>",
+					"Moments with the Young Miss\n\n<size=45>3 Curiosity and Cake</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "——追赶者前往其他阵营的第一天。",
+			say = "―Chaser’s first day with another camp.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -57,7 +57,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里就是维希的生活区吧！我们赶快进去吧。",
+			say = "This is the Vichiya dormitory! Let’s hurry inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
-			say = "追赶者轻轻推开门，走了进去。",
+			say = "Chaser quietly pushed the door open and went through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯~室内风格果然和皇家的不太一样呢。",
+			say = "Oh~ The interior design is really quite different from the Royal Navy’s...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者兴致勃勃地观察着四周，就在这时——",
+			say = "The Curious Chaser pointed to every little thing in the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？是位面生的女孩子呢，然后还有…指挥官？",
+			say = "Oh? That’s an unfamiliar face... and the Commander with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……啊，你就是来自皇家的姐妹吧。我是敦刻尔克，可以告诉我你的名字吗？",
+			say = "...Oh, you’re the girl they sent from the Royal Navy. I am Dunkerque. Would you tell me your name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安，敦刻尔克。我是追赶者。你知道今天我们的行程是什么吗？",
+			say = "Good day, Dunkerque. I am Chaser. Are you familiar with our plan for the day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，今天的计划是参观我们阵营的演习和课程。",
+			say = "Yes. You’ll be watching our exercises and sitting in on classes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除此之外…作为欢迎活动的一环，我还准备了特别的蛋糕哦，敬请期待，呵呵~",
+			say = "And... I’ve prepared a special cake for you as a welcoming gift. You can look forward to that. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蛋糕！真是太棒了！我这里准备了上好的茶叶，让我来为各位呈上最美味的红茶吧。",
+			say = "A cake! Marvelous! I’ve brought some delicious teas myself, I do hope you’ll let me serve you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还真是令人期待——非常抱歉，这边还有点事……",
+			say = "That’s something to look forward to―Forgive me, I have a prior engagement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克迈着略显疲惫的脚步向后方走去，而追赶者则很自然地跟了上去。",
+			say = "Dunkerque walked toward the back with an air of mild exhaustion, Chaser following naturally behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "是不是在这里等一会比较好呢…虽然这么想着，不过看着渐行渐远的俩人，只好先跟了上去——",
+			say = "I felt like we were meant to wait at the entrance, but seeing them grow farther and farther from me, I was left with no choice but to follow as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀呀，你好像很疲惫的样子呢？",
+			say = "Now then, you seem rather tired.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -327,7 +327,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，指挥官和追赶者都跟过来了么……忘记跟你们说在门口稍等片刻了。",
+			say = "Hm. You and the Commander followed me... I forgot to ask you to wait by the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发生什么事了吗？难道我和指挥官来得不是时候，打扰到你们了…",
+			say = "Something the matter? The Commander and I aren’t troubling you, are we...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 904010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有这种事哦，昨天工作得有点晚，本来想说吃点甜食，稍微缓一下……",
+			say = "No. I worked very late last night, but if I could just take a short rest with some sweets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那不是正好！",
+			say = "I’ve just the thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这就准备红茶，敦刻尔克也提早把准备得蛋糕拿出来，怎么样？",
+			say = "I’ll get out the tea I brought, and Dunkerque, you fetch that cake of yours a little early. What do you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那得大幅修改行程计划了呢…不知道其他在准备演习和课程的孩子要不要紧…",
+			say = "That would mean major changes to our plans... I’m not sure if the other girls with their lessons and exercises would be okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离下个活动还有些时间吧？再说这也不是演习、课程这些正经的计划，只是小小的休息下而已！",
+			say = "We still have some time to the next activity, yes? Besides, this isn’t any sort of serious study situation, we’re just having a break!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追击者说完，靠到我耳边小声说道。",
+			say = "Chaser then leaned in and whispered directly to my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(…本来以为维希都是些认真正经的人，原来也会有这样的情况呀）",
+			say = "(...I’d thought the Vichiya a dreadfully dedicated folk, and yet, here we are!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者轻笑几声，转向了敦刻尔克，以充满精神的口气问道。",
+			say = "Chaser chuckled and spun around cheerfully to look Dunkerque in the eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，敦刻尔克，能带我们去厨房吗？",
+			say = "Now then, Dunkerque, would you show us to the kitchen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就算在不那么熟悉的地方也毫不拘谨，以及旺盛的好奇心，都是追赶者的性格使然吗？",
+			say = "Chaser had proven her curiosity a valuable asset when it comes to plunging into unfamiliar situations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……或许应该说，在此基础之上，为对方着想的心意，才是她最大的魅力吧。",
+			say = "...Actually, I’d say what really mattered more was the way she cared about other people, and charmed them in doing so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

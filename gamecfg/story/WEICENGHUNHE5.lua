@@ -11,7 +11,7 @@ return {
 			bgName = "bg_guild_blue",
 			bgm = "hunhe-story",
 			dir = 1,
-			say = "巴拿马要塞·会议室",
+			say = "Canal Stronghold",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵啊唔……等得好无聊啊。结果企业到最后也没有来呢……",
+			say = "Enterprise still hasn't come back yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许是看着巴拿马的风景入迷了，或者太累了在途中多休息了一会儿吧。",
+			say = "Well, I'm sure she just stopped to smell the roses somewhere. Pretty beautiful place we've got around here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业一直都那么紧绷着神经，如果能在这里稍微放松一下也不错嘛。",
+			say = "Don't you think she's always a bit too enthusiastic about her work? Probably would do her good to take it easy for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~就算是超级英雄也需要偶尔休息一下的！",
+			say = "Even superheroes need to rest after all. I'd love to go to the top of a skyscraper and look all the way around, so I totally get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 107170,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么会议现在结束，驻防分配就这么决定了。",
+			say = "...All right, about this mission assignment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要塞西侧的舰队由布莱默顿和我负责指挥，东侧的舰队由企业和埃塞克斯负责指挥。",
+			say = "Bremerton and I will lead the first fleet, while Enterprise and Essex will lead the second fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家按照驻防分配前往岗位吧，不能让防御空出来太久给予敌人可乘之机。",
+			say = "Our mission is to search for Baltimore's missing fleet while also preparing for a Siren assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前往西侧的舰队请随我来，东侧的话，库珀会向你们介绍防御设施的。",
+			say = "Should be straightforward enough. But, is Enterprise not back yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 101440,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，包在我身上~不光是防御设施，风景介绍也包在我身上咯~",
+			say = "What should we do? Maybe try to contact her first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 107090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，我果然还是不太放心企业前辈，我去稍微找找看！",
+			say = "That won't be necessary. Let's set sail and regroup with her. If we just follow her route, we're sure to meet up at some point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（埃塞克斯还是老样子，每次遇到和企业前辈有关的事，就会变得沉不住气啊）",
+			say = "(Essex sure gets hot-headed when it comes to Enterprise, just like always...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "交给我吧，埃塞克斯。你现在刚刚接手西侧的指挥，还是先去熟悉一下要塞比较好哦。",
+			say = "Let me head out first. Since you're the leader, there's no need for you to do the scouting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业前辈~企业前辈~你在哪儿呢。",
+			say = "Enterprise... where are you...?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "我带来了马布尔黑德推荐的巴拿马特制的咖啡很提神哦，来一杯吧。",
+			say = "I even got a special local coffee blend from Marblehead. I know how much you like coffee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "……咦？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "这里是无畏，企业前辈，收到请回话。",
+			say = "Parts... from Enterprise's rigging?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,9 +313,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Narration",
 			nameColor = "#a9f548",
-			say = "……………",
+			say = "Various parts that looked like they were from Enterprise's rigging were scattered in the water.",
 			dir = 1,
 			soundeffect = "event:/ui/noice",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "这个时候通讯器突然坏了…？应该不会这么倒霉吧。",
+			say = "Doesn't look like you got into a fight... so did you just drop this stuff on accident?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没坏……也就是说！",
+			say = "No no, that's impossible. Enterprise isn't a scatterbrain like me...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -366,11 +366,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Narration",
 			nameColor = "#a9f548",
 			bgm = "airRaidAlarm",
 			dir = 1,
-			say = "全体人员注意，要塞周边海域发现塞壬袭击迹象。",
+			say = "\"Siren forces have been detected in the waters around the Canal Stronghold! All hands, prepare for battle immediately!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,10 +382,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Narration",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌方舰队正在从两侧远海同时向要塞方向接近。请各战斗人员迅速归位，准备战斗。",
+			say = "\"Repeat, Siren forces have surrounded us! Prepare for battle immediately!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个时候发动袭击！？…刚才来的时候连个影子都没有，从哪儿冒出来这么多啊！！",
+			say = "Showing up now of all times?! So they were aiming for the stronghold after all...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

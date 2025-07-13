@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"布里之誓\n\n<size=45>一 布里三结义？</size>",
+					"Band of Bulins\n\n<size=45>1 Band of Bulins</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日，在结束了一天的辛勤工作后，布里们进入了甜甜的梦境…….",
+			say = "It had been a day of exhausting work for the three Bulin sisters. Worn out and sleepy, they dozed off and went to dreamland...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "古话说，时势造英雄。现在这个世道正是英雄们前去建功立业之时呢。",
+			say = "As the saying goes: pressing times create heroes. You must go forth and do what needs to be done.",
 			bgm = "level02",
 			flashout = {
 				black = true,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "话是这么说……可现在塞壬不断威胁我们purin，我却什么都做不了，令人感叹purin……",
+			say = "Easy for you to say, bulin! We're just Bulins – we don't stand a chance against those freaky Sirens, bulin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么在这里唉声叹气burin？是有什么不开心的事情吗burin？",
+			say = "I smell negativity in the air, bulin. What's wrong, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这里好像放了什么东西buli？让我拉过来看看buli？",
+			say = "Lookie, bulin! I found something tucked away in this corner, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！居、居然是科技箱T5buli！",
+			say = "I think... Wow! It's a rainbow gear box, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等……上面是不是还写了字的buli？",
+			say = "There's something written on it, bulin! Can anyone read it, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂，那是我的东西burin！",
+			say = "Hey, hands off, bulin! That's MY gear box, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？你说是你的东西就是你的buli？",
+			say = "Nuh-uh, bulin! Finders keepers, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "废话少说，吃我一锤burin——",
+			say = "If you don't give it back now, I'm gonna smack your basic rarity butt with my hammer, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看我的扳手buli——",
+			say = "Not if I block it with my wrenchy wrench, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们两个，不要再打啦purin！（拿出钻头分开二人）",
+			say = "No more fighting, bulin! Bulins of all colors are equal, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 100000,
-			actorName = "泛用型布里&特装型布里MKIII ",
-			say = "好大的力气，居然能把我们分开buli？\n好大的力气，居然能把我们分开burin！",
+			actorName = "Bulins",
+			say = "- She's the one picking a fight with me, bulin! - You're dumb, bulin! Everyone knows URs are better than elites, bulin!",
 			subActors = {
 				{
 					actor = 100020,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看两位都是英雄，不如我们结拜为异姓姐妹，共同干出一番大事如何？",
+			say = "No, we're all heroes of equal standing, bulin! Instead of fighting among ourselves, we should form a league of bulins and fight the baddies, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的是欸buli！既然这样，我愿意和姐姐患难相随，生死与共buli！",
+			say = "I agree, bulin! We'll be like the Three Musketeers, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也一样burin！",
+			say = "You know what, that sounds cool, bulin! All right, I'm in, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "三只布里来到桃树下，举起手中的武器向天发誓道：",
+			say = "The Bulins gathered beneath a peach tree. They raised their respective weapons to the skies and swore an oath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,8 +381,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "布里三姐妹",
-			say = "我们三人从今天开始，相互结为异姓姐妹，不求同年同月同日生，但求同年同月同日死——",
+			actorName = "All Bulins",
+			say = "Today and onwards, the wrench, the drill, and the hammer will be as one – we shall unite, and together, we shall fight... bulin!",
 			effects = {
 				{
 					active = true,
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，布里们踏上了战斗的旅程。在前方等待她们的将会是什么呢？",
+			say = "Then, they embarked on their quest to rid the world of evil. What dangers lay in wait for them? They would soon find out...",
 			effects = {
 				{
 					active = false,

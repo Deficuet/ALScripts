@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后一个了！嘿！",
+			say = "You're through! Take this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			withoutActorName = true,
-			say = "咚！",
+			say = "KABOOM---!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！把周围敌人大概都消灭的差不多了！",
+			say = "We did it! We've mopped up this area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，这下通往“第二关关底”的道路就能开启了呢！",
+			say = "I see, I see! This must mean we've opened the path to the midboss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,8 +113,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "………",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发现了。接下来只要击败“第二关BOSS”就行了吧",
+			say = "We've finally found you. Now all that's left is to clear the boss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,8 +145,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "这样下去也许意外地能够轻松取胜啊～♪我一个人大概也没什么问题吧～？",
+			actorName = "Kizuna AI",
+			say = "At this rate, we'll be out of here in no time. I might even be able to solo this boss?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱，注意不要再像刚才那样被包围了。另外，一个人实在是太危险了",
+			say = "Kizuna AI, be careful not to end up like before. After all, it's dangerous to go out alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,8 +177,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "我、我不会再勉强了啦！刚才那种事情绝对不会发生第二次的！",
+			actorName = "Kizuna AI",
+			say = "I-I won't do anything reckless like last time! I won't make the same mistake twice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,40 +204,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "…为了保证万无一失，还是大家一起上吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301050,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "教教那个绊爱(伪)什么才是真正的演唱会吧，的说",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			nameColor = "#a9f548",
-			actor = 10400020,
-			dir = 1,
-			actorName = "绊爱",
-			say = "那是当然！好～大家，以最短路线往BOSS方向前进吧！",
+			actorName = "Kizuna AI",
+			say = "...But it's probably ideal that we do this as a team. Everyone, let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

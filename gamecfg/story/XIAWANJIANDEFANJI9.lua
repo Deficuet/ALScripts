@@ -9,7 +9,7 @@ return {
 			actor = 205020,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:495}、{namecode:496}…铁血的驱逐舰还剩下6艘么。",
+			say = "Z9, Z11... there should be six more Iron Blood destroyers.",
 			dir = 1,
 			bgm = "level02",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚收到消息，铁血的所有岸防设施已经全部失去作战能力。",
+			say = "I just got the news: all of Iron Blood's shore defenses have been disabled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。",
+			say = "Grand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯发来消息，在舰载机的辅助下，我方战胜了敌方驱逐舰{namecode:498}！",
+			say = "Message from Icarus: we have defeated enemy destroyer Z13 with carrier support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:498}么…铁血驱逐舰还剩下5艘。",
+			say = "Z13... That means five left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你好像有什么心事啊。",
+			say = "You seem troubled?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看着Z驱战斗的身影，稍微想到了一些勇敢和猎人的事…",
+			say = "Watching the Z-class fight, I can't help but think of Hardy and Hunter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱斯基摩人还是没有发来联络么？",
+			say = "Any news from Eskimo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，在发来正在和伊卡洛斯共同追击{namecode:405}的消息之后就没有再联络了。",
+			say = "No contact since the report that she was engaging Z19 with Icarus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊卡洛斯不是在刚对付{namecode:498}吗？我总有种不好的预感…",
+			say = "But Icarus just reported in about Z13? I'm concerned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主动呼叫爱斯基摩人，问问她那边情况怎么样了。",
+			say = "Call Eskimo yourself. Get a status report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！",
+			say = "Aye aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

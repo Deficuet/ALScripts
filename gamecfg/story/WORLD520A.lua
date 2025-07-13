@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "第五章黑飞龙剧情战斗分支选项占坑。",
+			say = "",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

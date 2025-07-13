@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
-			say = "或许是之前在睡梦中频繁翻身的缘故，我离开前为她盖好的被子已经滑落至床的后半。",
+			say = "TB must have rolled over in bed a lot, because half of her blanket has slipped off her.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -34,12 +34,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呼……",
+			say = "Zzzzz...",
 			voice = "event:/educate/tb/educate-tb-story-1-4",
 			painting = {
 				alpha = 0.3,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
-			say = "她紧紧抱着怀中的玩偶，呼吸平稳。",
+			say = "Hugging her plushie tightly, she snores quietly and softly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,18 +67,18 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（话说回来……虽然TB一直抱着，但这玩偶到底是个什么物种？）",
+			say = "(I'm curious about that plushie she always has her arms around. What is it even supposed to be?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "也许是水母",
+					content = "(Some sort of jellyfish?)",
 					flag = 1
 				},
 				{
-					content = "莫非是晴天娃娃？",
+					content = "(A white rabbit, maybe?)",
 					flag = 2
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "好像有点像水母，但是仔细观察一下的话……",
+			say = "That's what I thought it was at first glance, at least. Now that I look closer, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "和一般的水母差别有点太大了。",
+			say = "Yeah, that's definitely not a jellyfish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不过晴天娃娃也没有耳朵吧。",
+			say = "But if it's a rabbit, where is the nose? And why is its body shaped like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "但是这个造型……好微妙。",
+			say = "It looks more like some sort of sea creature, though I'm not sure what, exactly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算了……还挺可爱的。）",
+			say = "(Whatever it is, it's pretty cute.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

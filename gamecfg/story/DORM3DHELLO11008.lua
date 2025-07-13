@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey，今天想要做点什么呢？我现在可是相~当~的闲呢，让我们度过一些有意义的时间吧！",
+			say = "Honey, what should we do today? I've got nothing but time, so let's have fun!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello8",
 			typewriter = {
 				speed = 0.05,

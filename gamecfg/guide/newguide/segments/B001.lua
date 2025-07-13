@@ -1,10 +1,10 @@
 local var_0_0 = {
-	"新兵，让我来教你如何控制舰队吧",
-	"首先，<color=#ff7d36>拖动摇杆</color>试着让舰队移动起来吧！",
-	"角色会<color=#ff7d36>自动使用武器</color>攻击，但还有更厉害的武器哦~",
-	"点击下方按钮<color=#ff7d36>发射鱼雷</color>！",
-	"面对敌方护盾防御时，就可以使用主力舰队<color=#ff7d36>主炮跨射</color>",
-	"点击主炮按钮发射主炮，<color=#ff7d36>长按主炮并拖动摇杆</color>可调整攻击位置"
+	"Commander! Let me show you how to control your fleet.",
+	"First, <color=#ff7d36>move the joystick</color> to get the fleet moving!",
+	"Characters will <color=#ff7d36>fire their weapons automatically</color>, but you also have more firepower available at your disposal.",
+	"Tap the button below to <color=#ff7d36>unleash a barrage for torpedoes</color>!",
+	"When you confront a defensive enemy force, use your main ship's <color=#ff7d36>volley</color>!",
+	"Tap on the main gun icon. <color=#ff7d36>Press, hold, and move the joystick</color> to control your aim."
 }
 
 return {

@@ -17,7 +17,7 @@ return {
 			soundeffect = "event:/ui/lihua",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "砰——砰——砰——！",
+			say = "The fanfare of ceremonial cannons could be heard throughout the waters of Europa.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "宏伟的撒丁大剧场中，人声鼎沸，礼炮齐鸣。",
+			say = "Extravagant colors and sounds swirled together, parading through the newly-constructed pavilion in the likeness of the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一位身着红袍的少女正矗立在焦点的正中央。",
+			say = "At the center of the stage stands a girl clad in vibrant crimson.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,8 +91,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "诸位远道而来的朋友们啊，欢迎你们！",
+			actorName = "Roma",
+			say = "Thank you to all of our friends who've come here from afar, and welcome to Sardegna!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,8 +109,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "此刻，烈日高升，彩带飞扬，庆典的时刻就要到了。",
+			actorName = "Roma",
+			say = "We are blessed today by clear skies and fair winds, making this a perfect day to mark the beginning of our celebration.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,8 +127,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "因战争中断了数十年后，规模最大的世界性集会——世界博览会就要召开了！",
+			actorName = "Roma",
+			say = "This gathering of the world's peoples, once a sign of our unity, was disrupted years ago by the war and destruction brought on by the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,8 +145,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "在过去的日子里，连接我们的海洋被分隔，交流的纽带被斩断。",
+			actorName = "Roma",
+			say = "But now, we hold this event once more to reconnect our separated seas and to reforge our broken bonds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,8 +163,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "但是现在，我们终于又有了一个机会，能让彼此相聚一堂，享受片刻的欢愉。",
+			actorName = "Roma",
+			say = "Let us welcome this opportunity for the people of the world to share the joy of coming together once again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,8 +181,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "这一切都是因为我们从未放弃。",
+			actorName = "Roma",
+			say = "Never have we abandoned our vision of a peaceful tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,8 +199,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "出现在这里的各位，就是我们重建彼此间联系的证明！",
+			actorName = "Roma",
+			say = "And the fact that we've gathered here is proof of our determination, courage, and hope for the future!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,8 +217,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "因此，朋友们啊，欢庆吧！",
+			actorName = "Roma",
+			say = "Now, my friends, raise your voices and hands in applause!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,8 +235,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "在这宏伟的会场之中，尽情享受这场盛会吧！",
+			actorName = "Roma",
+			say = "Enjoy this celebration of peace from the bottom of your hearts!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,8 +253,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "吾乃罗马，在此代表主办方撒丁帝国宣布——",
+			actorName = "Roma",
+			say = "I, battleship Roma of Sardegna, hereby proclaim...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,8 +271,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "罗马",
-			say = "本届世界博览会————开幕！",
+			actorName = "Roma",
+			say = "Let the World Expo commence!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "彩带在礼炮声中倾泻而下，大剧场中的掌声经久不息。",
+			say = "Another fanfare rang out, followed by thunderous applause that did not seem to abate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一瞬间，罗马感觉自己仿佛回到了那个最鼎盛的时代，那个受到罗穆路斯祝福的时代。",
+			say = "A sudden realization struck Roma – this is the splendor of Sardegna. Was this not the glory that the legends of ancient Sardegna had once been blessed with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她满意的环视了会场一周，然后踏步进了阴影中。",
+			say = "She soaked in the excitement of the crowd a bit longer before retreating into the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来似乎还有更多的庆祝活动，不过她的心思已经不在这上面了。",
+			say = "While there was much to be satisfied about, there was also much that needed to be done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "撒丁大剧场·文物展区",
+			say = "Sardegna Pavilion \"Colosseum\" - Exhibit Hall",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "博览会已经开幕，这里很快也要对外开放了。",
+			say = "Now that the opening ceremony is over, people are starting to fill the pavilion as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "在喧嚣的浪潮到来之前，此处仅存片刻的宁静了么……",
+			say = "I do wonder if this is the last bit of peace and quiet we'll get to enjoy before things get hectic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "……一切的辛劳都是为了此刻的绽放。",
+			say = "But judging from the excitement in the air, I'd say that our hard work has paid off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "也好……就让更多的人沐浴在罗穆路斯的光辉之中吧。",
+			say = "As it should be. All for the sake of spreading the splendor of Sardegna across the world...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马若有所思的地行走在空旷的展区中，突然，她感受到了某种异样。",
+			say = "As Roma walked through the empty exhibition hall, she could not shake the sense of uneasiness that crept into her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "什么人？！现出身来！？",
+			say = "Who's there? Show yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马的声音在展厅中回荡，除此之外，无人应答。",
+			say = "Her voice echoed through the hall. There was no response.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "奇怪…………感受到的异常难道不是来自与人，而是物？",
+			say = "Maybe the right question isn't who, but what...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗马看向周围的提示牌，这里是皇家展品区。",
+			say = "Roma realized the source of her uneasiness was the items around her—she should've been in the exhibition area of the Imperial Senatus.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "皇家的展品每一件我都经手检查过……除了大量赝品之外，并没有混入异常的东西。",
+			say = "All the items here are replicas... But I checked everything in advance. What's going on here...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "可是这里的气息又……分明与昨日检查时大不一样。",
+			say = "The things here seem completely different from those I inspected the other day...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "难道是储存展品的保管区出了什么问题么……",
+			say = "Wait, could there be something going on within the underground warehouse?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605030,
-			say = "保管区位于守备严密的地下仓库，如果那里被动了手脚的话……不好！",
+			say = "That should be the most heavily-protected place in the entire venue... Did something happen there...? I must go check on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "文物展区中的喧嚣即将开始，皇家展厅中却已经空无一人了。",
+			say = "Roma, unable to shake the sense of foreboding that swirled around in her head, immediately rushed towards the warehouse beneath the pavilion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,39 +645,39 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"「我立了一座纪念碑。」",
+					"The operation led by the Eagle Union in the NA Ocean has restored stability to the region.",
 					2
 				},
 				{
-					"「它比青铜更坚牢，比金字塔更巍然。」",
+					"Behind closed doors, the Iron Blood's mutinous disturbance has been established.",
 					4
 				},
 				{
-					"「无论是暴雨的侵蚀，北风的肆虐。」",
+					"The Royal Navy's excursion into the Singularity has paid great dividends.",
 					6
 				},
 				{
-					"「亦或是岁月的无尽轮回，光阴的昼夜消逝。」",
+					"And the Sakura Empire has completed their courtesy visit to Europa.",
 					8
 				},
 				{
-					"「都不能把它摧毁。」",
+					"When the various factions seem to have been lulled into a state of stability,",
 					10
 				},
 				{
-					"「我不会完全死亡，我的大部分将躲过死神。」",
+					"Sardegna made a proposition to hold an event –",
 					12
 				},
 				{
-					"「虽死而犹有生机。」",
+					"The long-halted \"World Expo.\"",
 					14
 				},
 				{
-					"「死后的荣誉将会使我继续生存，直至永恒。」",
+					"A celebration of peace where the shipgirls of the world would gather.",
 					16
 				},
 				{
-					"  ——————撒丁帝国诗歌·节选",
+					"But even within the shining splendor of Sardegna, conspiracies sway in the shadows.",
 					18
 				}
 			}

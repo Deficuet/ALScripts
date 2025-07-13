@@ -11,47 +11,47 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>冰雪融化，冰雪凝结</size>",
+					"<size=51>Don't you think snow is such a strange thing?</size>",
 					1
 				},
 				{
-					"<size=51>化为柔软的水，结为坚固的冰</size>",
+					"<size=51>The snow may melt, and it may freeze. It may become soft, like flowing water, or hard, like adamant ice.</size>",
 					3
 				},
 				{
-					"<size=51>一轮轮毁灭与一轮轮新生</size>",
+					"<size=51>But no matter what form it takes...</size>",
 					5
 				},
 				{
-					"<size=51>可是……</size> ",
+					"<size=51>Its very essence does not change.</size> ",
 					7
 				},
 				{
-					"<size=51>神圣的梦想从未消散，光荣的步伐也从未停歇</size>",
+					"<size=51>Our sacred ideals have always persisted, a bastion of power within the frigid seas.</size>",
 					9
 				},
 				{
-					"<size=51>同志们，从来就没有什么救世主</size>",
+					"<size=51>Once, there was a time where we fought alongside the rest of the world to push back the Siren threat for the sake of humanity.</size>",
 					11
 				},
 				{
-					"<size=51>未来只能依靠诸位双手的奋斗</size>",
+					"<size=51>But as the war ground to a halt, massive Siren structures resembling icebergs began to form in our waters.</size>",
 					13
 				},
 				{
-					"<size=51>同志们，团结起来</size>",
+					"<size=51>As our forces were stretched thin to deal with these threats, we drifted apart from Azur Lane.</size>",
 					15
 				},
 				{
-					"<size=51>为了共同的信念</size>",
+					"<size=51>War-torn, weary, and unable to join in the operations of Azur Lane, our name would soon be associated with these words...</size>",
 					17
 				},
 				{
-					"<size=51>同志们，团结起来</size>",
+					"<size=51>\"The Northern Parliament's fleet is weak.\"</size>",
 					18
 				},
 				{
-					"<size=51>凝结成最坚固的堡垒，构建出牢不可破的联盟</size>",
+					"<size=51>...That is what the world came to believe.</size>",
 					21
 				}
 			}
@@ -80,7 +80,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "“那个作战”终于要开始了么…",
+			say = "Has the battle finally begun...?",
 			bgm = "bgm-cccp2",
 			effects = {
 				{
@@ -120,7 +120,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼哈哈哈哈！我都快要按耐不住内心的激情了！",
+			say = "Ahahaha! I can't contain my excitement any longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样…指挥官、吗…希望不会让人失望才好",
+			say = "In any case... Well, I hope that commander can make things worth our while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼~对于这位指挥官，我可是很期待的呢~",
+			say = "Hehe~ I'm looking forward to meeting that person~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "кролик убийца…似乎也很兴奋呢",
+			say = "My lovely кролик is excited too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，大家都很兴奋嘛！不过，在那之前，还得先完成极地的作战任务才行~",
+			say = "Hehe, it's great to see everyone in high spirits, but first, you all have some work to first take care of in the North.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你们完成任务之前，还是由我们先去迎接她们！对吧，阿芙乐尔！",
+			say = "Until then, let us handle the hospitality! Isn't that right, Avrora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			black = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，你似乎也挺开心的嘛，水星纪念",
+			say = "Haha, you're in a pretty good mood too, Pamiat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然，我也是很期待的！好啦，我们出发咯~！",
+			say = "Of course I am! I'm all fired up too! Anyway, let's get going~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

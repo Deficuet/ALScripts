@@ -13,7 +13,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"          不久前，西部某海域 \n\n\n\n",
+					"          Not long ago, in a western sea... \n\n\n\n",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "无线电静默状态解除，企业紧急呼叫大黄蜂",
+			say = "Radio silence protocols have been lifted. Urgent call from Enterprise to Hornet!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -44,7 +44,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "大黄蜂，收到",
+			say = "Hornet here~! Go ahead!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "我们的行踪被已被提前发现，判断任务是否可以继续执行",
+			say = "We've been found out. Should we continue our mission?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "虽然比预计的坐标还差了那么一点…但是我相信他们依然是可以做到的",
+			say = "Coordinates were just a little off... but I think we can still do it!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -108,7 +108,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "很好，立刻摧毁敌方的巡逻舰，其他所有护航舰队继续掩护大黄蜂，任务继续执行",
+			say = "Very good. Immediately destroy the enemy's patrol ship! All convoys, continue to protect Hornet! The mission will continue.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "终于有机会让我大黄蜂大人一显身手了！",
+			say = "It's finally time for me, Hornet, to show my stuff!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "是的，这么大胆的任务也只有你能办得到了（笑",
+			say = "Of course. Only you would be able to complete such a risky mission! Haha!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -172,7 +172,7 @@ return {
 			withoutPainting = true,
 			actor = 107070,
 			mode = 3,
-			say = "为了所有在之前的偷袭中离去的姐妹，为了所有被战火点燃的国土海疆",
+			say = "Fight! Fight for our fallen sisters! Fight for the land and sea burned by the war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			blackBg = true,
 			actor = 107070,
 			mode = 3,
-			say = "这一发满载悲愤与怒火的弓矢，将成为我们反击的序曲",
+			say = "This attack is filled with anguish and fury. Now is when we make our stand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			blackBg = true,
 			actor = 107070,
 			mode = 3,
-			say = "为了碧蓝色的自由意志",
+			say = "For the Eagles! For freedom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			blackBg = true,
 			actor = 107070,
 			mode = 3,
-			say = "B-25，杜立特中队，出击！",
+			say = "B-25 Doolittle Squadron, attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

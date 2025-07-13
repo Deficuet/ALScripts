@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>一　交叠的指尖</size>",
+					"A Whirlwind Romance\n\n<size=45>1 Touching Fingertips</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（几天之前，收到了就任秘书舰的指令。）",
+			say = "(Yesterday, I was notified that I was to assume the role of secretary.)",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（虽说今天是就任第一天，但还是有些不敢相信自己真的被选为秘书舰了……）",
+			say = "(Even though it's my first day on the job, I still find myself in disbelief as I head to the office. Me, secretary?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（据说还是指挥官亲自指名的…可为什么是我呢？）",
+			say = "(I was hand-picked by the commander... but why would someone like me be chosen in the first place?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（还是坦率地当做是“认真工作的能力受到了肯定”比较好吧……）",
+			say = "(I suppose this means that my \"down-to-earth work ethic\" has been recognized, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "――――咚咚",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，打扰了。我是前来就任的秘书舰卡萨布兰卡。",
+			say = "Reporting in. I am Casablanca, and I will now be assisting you as secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论是公事公务还是琐碎杂务，我都会积极努力地完成，之后就请您多多指教了。",
+			say = "I will give it my all to make sure that my duties are completed, from official affairs to miscellaneous chores. I look forward to working with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事不宜迟，我想现在就开始今天的工作，就从文件整理开始可以么？",
+			say = "Now if you'll excuse me, let's begin today's work. Shall I start by organizing your documents?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（只要按照指挥官的指示，将文件依据类型分类整理起来就行。）",
+			say = "(I'll follow the commander's instructions and organize all the documents into their respective files.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（照这个样子，整理工作应该很快就能完成了。也许还有时间帮指挥官处理一下文书工作……）",
+			say = "(If I can finish this quickly, I'll have enough time left over to help with the paperwork as well.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（“工作效率很高”……被这样夸奖了。）",
+			say = "Thank you for your praise. I try to be efficient.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…从指挥官的态度判断，应该就是在认可了我以前的工作后才做出了这样的指名吧。）",
+			say = "But judging from your expression, Commander, you seem to have taken stock of my abilities beforehand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这么一想，在战场上擅长在后方辅佐的我确实挺适合秘书舰这个职务的……）",
+			say = "I am quite proficient at rear support on the battlefield, so if you think about things that way, it makes sense that I would seem suitable for the role of secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？刚刚的声音……",
+			say = "In any case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（好像是指挥官的钢笔落到地上发出的……）",
+			say = "(What was that sound...? The commander's pen just fell onto the ground?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你的这个掉到地上了——",
+			say = "Commander, something fell just now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（钢笔掉落的位置，好像就在这里——）",
+			say = "(I lean down to pick up the fallen object, and that was when...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——！",
+			say = "–––!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（刚、刚刚的触感是——指挥官的手？！）",
+			say = "(My fingertips brush against those of the commander, who had reached out at the same time!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉，被吓到了所以……",
+			say = "(I draw my hand back in a hurry, thinking of how to apologize.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我，我先继续工作了。",
+			say = "...Sorry about that. I'll get back to work now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（还很难把握和指挥官之间的距离——我的秘书舰工作，才刚刚开始啊……）",
+			say = "(And like that, I began my first day as secretary, struggling to manage the appropriate distance between me and the commander.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

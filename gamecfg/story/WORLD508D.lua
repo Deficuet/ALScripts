@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "基于不明原因，损伤比预期的效果降低了7.3%……有趣。",
+			say = "For some reason, weapons output 7.3% less damage than expected. A curious phenomenon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "{namecode:94}……我的武器系统被干扰，现在开始紧急维修，拜托你掩护了。",
+			say = "They're bloody jamming my weapons systems, Hiryuu! You'll have to take over for me for a while!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "啧，这倒是个新招……",
+			say = "Son of a... Always coming up with dirty new tricks to use on us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "打击群准备，用火力压制敌人，争取时间！",
+			say = "The Arbiters are focusing their jamming on the Ashes. They're open to attacks from us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战列舰编队听候命令。",
+			say = "The battleship fleet is locked and loaded!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "空袭准备也完成了，让我们狠狠打回去吧~！",
+			say = "Our plane squadrons are ready for takeoff too! We'll hit 'em right where it hurts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哟？这种规模的联合打击真是好久不见，我也有些兴奋了，加我一个————！",
+			say = "(Ah, it's been ages since I was part of a large joint operation... I'm ablaze with motivation!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>乘风破浪之行</size>",
+					"Uncharted Summer\n\n<size=45>The Great Deserted Island Yacht Race</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "又是一个阳光明媚的大晴天。",
+			say = "It's another pleasant day.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "正在走向联络码头时，耳畔传来了少女碎碎念的声音——",
+			say = "While making my way to the pier, I hear the voice of a certain self-styled journalist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,11 +59,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜，太阳太舒服了……一不小心就睡过头了，衣服都没来得及换……一会到场地再换吧。",
+			say = "Agh, the sunlight was so warm and nice that I overslept... I'll just change clothes after I get to the venue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "而后，在拐角处与抱着什么东西的阿尔弗雷多撞了个满怀。",
+			say = "Alfredo's running as fast as she can, cradling something in her arms. She's looking straight down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊痛痛痛！糟了，我的新闻报告……",
+			say = "Ouch... Ack! My draft!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱歉抱歉……",
+					content = "\"Sorry about that.\"",
 					flag = 1
 				}
 			},
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系！",
+			say = "It's okay, no worries! My bad for not watching where I was going!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊，不、不是说这个的时候！指挥官赶紧帮我收拾一下报告，我要去……",
+			say = "Whoa, I'm out of time! Commander, help me pick up my draft! If I don't hurry, I'll be late!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "做第一节“海滨盛夏帆船比赛”的特别报道！",
+			say = "I gotta report on the Great Deserted Island Yacht Race!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……“海滨盛夏帆船比赛”？",
+			say = "\"...The Great Deserted Island Yacht Race? I think Regensburg mentioned that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……欸，指挥官还不知道吗？",
+			say = "Hm? You don't know about it, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "居、居然……！那指挥官如果想看的话一会抓紧去码头那边总之我得走了！！！",
+			say = "Aw, man... If you wanna watch, go to the pier! I gotta go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "已经开始了啊————！！！！",
+			say = "Nooo, it's already starting without me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "阿尔弗雷多以闪电般的速度收拾好了报告，然后离开了现场——",
+			say = "After Alfredo Oriani snatches up her draft at lightning speed, she speeds off and disappears into the wharf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "说起来，之前{namecode:199}提到过的惊喜环节，难道就是这场帆船比赛么……",
+			say = "(Now that I'm thinking about it, New Jersey did say something about a surprise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "去看看吧——",
+			say = "(I guess I'll go check it out.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多",
+			actorName = "Alfredo Oriani",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯小姐！作为刚刚结束的A组帆船比赛的冠军，你有什么要发表的获奖感言吗？",
+			say = "Miss Memphis! Congratulations on securing the top spot of group A! Do you have any remarks for our viewers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,11 +377,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，关于这个我要说的是……",
+			say = "Remarks? Umm, w-well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,11 +389,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多",
+			actorName = "Alfredo Oriani",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不不不现在还不急，等下——先让我给你拍一张照片——",
+			say = "Ack, there's no time! Save the speech for later. Right now, I gotta snap a pic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actorName = "阿尔弗雷多",
+			actorName = "Alfredo Oriani",
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“帆船比赛冠军将花落谁家？有力竞争者的胜利身姿——”好，就用这个标题了！",
+			say = "\"Who will be the ace of the yacht race? Our top picks!\" Yeah, that's a solid headline!",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -441,11 +441,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好、好的吧……",
+			say = "O-okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "联络码头。暖阳照耀着这里的金沙碧海，空气中洋溢着运动的热情。",
+			say = "I go to the pier where the others are watching. The air is full of excitement for this spectator sport.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,11 +464,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊~指挥官也过来了啊。",
+			say = "Oh! Commander, you came!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "企业是准备下一场上场了么？岸边的帆船似乎已经蓄势待发了。",
+			say = "\"Are you competing in the next race, Enterprise? And the girls over there...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,11 +487,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，再过一会B组的比赛就要开始了。",
+			say = "Yeah, we're the group B contestants. Our race is right about to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "不远处还看到了{namecode:29}，以及突然又出现的皇家财富小姐，她们也是参赛选手？",
+			say = "\"It looks like Hanazuki and Royal Fortune are joining in, huh?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,11 +510,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，我们都是B组的选手，稍微热一下身就该上场了。",
+			say = "Yep. They're warming up right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			say = "话说远方水面上的小船是……",
+			say = "\"Then the boats in the water over there...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,11 +533,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你说平海和宁海么？她们没有参加比赛，应该只是在玩。",
+			say = "You mean Ning Hai and Ping Hai? They're not competing; I guess they're just out having fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,11 +545,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等我的比赛结束之后，如果指挥官有兴趣的话，我们一起来乘坐帆船吧？",
+			say = "Once I'm done racing, do you want to ride a yacht together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,11 +557,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼~现在就开始想比赛之后的事还太早了！",
+			say = "Heheh, don't get too carried away. You've got a race to focus on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,11 +574,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果不着眼于比赛上的话可是会吃大亏的哦。",
+			say = "Keep your eyes on what's in front of you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,11 +586,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海上帆船赛这种活动，你们怎么可能比得过整天与风浪为伴的我呢~",
+			say = "I spend all day every day wrestling the raging seas! There's no way you'll beat me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,11 +598,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就只有比比看才知道了。",
+			say = "Hahaha! Well, I guess I won't know until I try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:29}",
+			actorName = "Hanazuki",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个……{namecode:29}也会加油的！",
+			say = "Umm... I'll do my best, too, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,11 +627,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:29}",
+			actorName = "Hanazuki",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "皇家财富小姐，{namecode:29}不会输给你的！",
+			say = "Royal Fortune, don't count me out yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,11 +639,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "皇家财富号",
+			actorName = "Royal Fortune",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哦吼吼~没有选择逃跑而是直接向我发出了挑战吗~",
+			say = "Heheh. Instead of running away, you're coming right to face me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,8 +654,8 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
-			actorName = "皇家财富号",
-			say = "勇气可嘉，尽管放马过来吧~！",
+			actorName = "Royal Fortune",
+			say = "You've got guts! Bring it on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "按照行程安排上的时间来到了弹药库。",
+			say = "I've come to the ammo storage, as the schedule dictates.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是史上最强大的军事部队，每一场战斗都至关重要。",
+			say = "As the most powerful naval organization in history, our each and every battle is equally important.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "喀嚓——伴随着灯光亮起，谢菲尔德从光与暗的交汇处缓缓走出。",
+			say = "The lights switch on with a click, and Sheffield steps forth from between the shadows and the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "所谓牵一发动全身，我们绝不会置之不理。",
+			say = "Even a minor mistake can prove fatal. Therefore, we must always be alert and aware of everything on the battlefield.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "伴随着谢菲尔德的声音，缓缓步出的还有内华达和孟菲斯二人。",
+			say = "Next, Sheffield and Nevada also come forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "不过她们三人的装束，和谢菲尔德所谓的“最强大的军事部队”，印象出入实在过大了……",
+			say = "That makes it one maid-slash-undercover-agent, one cowgirl, and one plainclothed hacker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "一个女仆特工、一个西部牛仔，一个现代黑客……甚至拥有武器的只有谢菲尔德和内华达。",
+			say = "Of the three, only Nevada and Sheffield are carrying weapons. This motley crew really doesn't really scream, \"powerful naval organization.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……我知道指挥官你现在肯定有很多疑问，但是请相信我们的实力。",
+			say = "Ahem. I know what you're thinking. You shouldn't judge a book by its cover.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！哈哈哈，虽然我现在是牛仔打扮，也不会减损该有的实力哟！",
+			say = "Hahah! Damn right. Just 'cause I'm dressed for the Wild West doesn't mean I can't fight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "难道指挥官还在怀疑我们的能力么？",
+			say = "Master, I hope you aren't harbouring doubts about our ability as soldiers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,11 +164,11 @@ return {
 			},
 			options = {
 				{
-					content = "相信她们",
+					content = "Of course not.",
 					flag = 1
 				},
 				{
-					content = "保持怀疑",
+					content = "Maybe I do?",
 					flag = 2
 				}
 			}
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "你们三个能够接下这个任务，就已经可以证明你们的实力了。",
+			say = "You've more than proven your ability just by undertaking this mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "对此我持保留态度，除非能在接下来的战斗中让我亲眼看到你们强大的实力，",
+			say = "But I'll put them on hold. You'll demonstrate your ability to me another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，你们有什么能提供给我的装备么？我不打算全程都只作为一个被保护的对象。",
+			say = "By the way, do you have any gear I can use? Relying solely on others for protection isn't ideal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不知道孟菲斯和内华达怎么想，但感觉谢菲尔德好像很喜欢这个演习……就顺着这个风格说吧。）",
+			say = "(I don't know about Memphis and Nevada, but Sheffield really likes these drills. Let's see if she'll indulge me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有。不过既然指挥官这么有自信，就试着从对方的手里抢到需要的装备吧。",
+			say = "I do not. However, if you would like to have some, you are free to try to steal it from the enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦哦~听起来真是个令人热血沸腾的提议啊！",
+			say = "Good idea! Now you got me fired up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "与此同时，一旁的孟菲斯正飞速地在手中的平板上进行着操作。",
+			say = "While we've been talking, Memphis has been tapping away at the tablet in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "信号屏蔽完毕，前方一切安全。",
+			say = "The signal has been isolated. Area ahead, all clear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "行动小队编号——141，正式开始护送任务。指挥官，我们要穿越这片战区，跟紧我们。",
+			say = "Unit 141, commencing escort mission. Master, we will now pass through an active fire zone. Please don't stray too far from us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			},
 			options = {
 				{
-					content = "Got it.",
+					content = "Got it. Or should I say, roger, pardner!",
 					flag = 1
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "yo，不错的回应嘛！",
+			say = "Hah! You're gettin' it, young'un!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "原本以为孟菲斯屏蔽了{namecode:529:苏维埃同盟}方面的信号后，至少能让我们能轻松进入下一个藏身点，然而——",
+			say = "It was smooth sailing to the next safehouse after Memphis blocked the signal from Soyuz. Or so I thought...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们已经被包围了！乖乖举手投降吧！",
+			say = "You are surrounded! Lay down your arms and surrender!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202081,
-			say = "啧。这么快就来了么……",
+			say = "Tsk. They've already sniffed us out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,12 +417,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "内华达",
+			actorName = "Nevada",
 			bgName = "bg_niceship_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯，就不能用你的电子战技术想想办法么？",
+			say = "Memphis, can't you do somethin' with them fancy-schmancy hacking skills?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,12 +434,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_niceship_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……她们并没有携带需要借由网络控制的设备，我无法进行入侵。",
+			say = "They don't have any equipment hooked up to the 'net. There's nothing TO hack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,101 +451,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			bgName = "bg_niceship_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，我可以试试切断她们的频道通话，至少能给我们争取一些时间。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（嗯……喀琅施塔得会采用这种方式喊话，有两种可能。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（一是以这种方式干扰我们，只等我们转移再发起真正的进攻。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（二是真正进行了包围，准备将我们一网打尽。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（不过不论是哪种可能，有一点是可以确认的，就是喀琅施塔得暂时无法确认我们的具体方位。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（如果我们反过来搜寻她们的方位，以突袭的方式扰乱她们的阵脚……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "孟菲斯，有没有办法拿到弹药库本身的监控控制权？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "孟菲斯",
-			bgName = "bg_niceship_cg1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不行。入侵者会在第一时间被领航员-TB察觉并实施反制攻击，我最多只能争取到30秒。",
+			say = "All I can do is shut down their comms channel. That'll at least slow them down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +472,96 @@ return {
 			bgName = "bg_niceship_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "足够了！",
+			say = "(For Kronshtadt to do that, it can only mean one of two things...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(One – they're bluffing and waiting for us to make a move before they launch an all-out attack.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Or two – they really do have us surrounded and they want to arrest all of us in one one fell swoop.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Whatever the case, I know one thing for certain – they still don't know exactly where we are.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(If we can exploit that and find out where exactly THEY are, we can turn the tables on them with an ambush...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Memphis, can you seize control of the ammo depot's security cameras?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Memphis",
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I can, but TB will catch on to me in no time. At most we'll get 30 seconds.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "That's all I need!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "借由弹药库的监控，在确认过喀琅施塔得的所在方位后，我冲谢菲尔德和内华达点了点头。",
+			say = "Using the cameras, I manage to pinpoint Kronshtadt's location. I give Sheffield and Nevada the signal to move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "交给我吧！",
+			say = "Comin' right up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "谢菲尔德以极快的速度绕后突入了喀琅施塔得方，而内华达则充当着火力掩护的角色。",
+			say = "Nevada provides covering fire while Sheffield runs faster than the eye can see, getting right behind Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是现在……我们走！",
+			say = "Now! Do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "咔嗒、咔嗒——",
+			say = "CLACK CLACK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "尽管处在枪声之中，高跟鞋踩踏在地面上发出的响声却显得格外清晰。",
+			say = "I hear the distinct sound of heels hitting the ground amidst the gunfire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705021,
-			say = "指挥官同志。刚才不是已经说过了么，你们已经被包围了。",
+			say = "Didn't you hear, Comrade Commander? You're surrounded.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,14 +698,14 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿出秘密武器",
+					content = "(Pull out your secret weapon.)",
 					flag = 1
 				}
 			}
@@ -716,7 +716,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来现在是时候使用“那个”了——）",
+			say = "(It's time for my little friend!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "将演习开始前准备的北极兔玩偶用力扔向了{namecode:529:苏维埃同盟}。",
+			say = "I take out the stuffed Arctic hare I bought before the drill and throw it at Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705021,
-			say = "……！",
+			say = "Oh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705021,
-			say = "啊……好可爱！！",
+			say = "Oh my god! It's so adorable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102161,
-			say = "原来这就是指挥官说的秘密武器么……",
+			say = "THAT'S what you meant by \"secret weapon\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……还真是看到了让人意外的一幕啊……",
+			say = "Well, butter my butt and call me a biscuit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了。趁这个机会，快离开。",
+			say = "If it works, it works. Let's get out of here while we have the chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "安全演习最终在奇怪的地方落下了帷幕。",
+			say = "And so, the security drill ended with a surprising twist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "虽然似乎并没有起到什么“安全”的作用……但大家都很乐在其中，这就足够了。",
+			say = "While in truth it didn't have much to do with security, everyone enjoyed it. That's what matters to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "稍微休息一下，再去别的地方看看吧。",
+			say = "Time for a short break, then I'll go somewhere else on the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

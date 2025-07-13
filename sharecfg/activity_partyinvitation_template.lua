@@ -2,14 +2,14 @@ pg = pg or {}
 pg.activity_partyinvitation_template = {
 	{
 		groupid = 10706,
-		ungift = "指挥官，今天的宴会真是热闹。\n好像很久没有和指挥官这样独处了呢。\n要送我礼物吗，会是什么呢，我很期待。",
+		ungift = "Things sure are lively at this banquet, Commander.\nIt feels like ages ago when you and I had a private moment...\nHm? What's this? A present, for me?",
 		skinId = 107065,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
-		getgift = "……好漂亮的胸针！这个形象是……雏鹰？\n比起原本凌厉勇猛的形象，这个胸针的造型，很柔和呢。\n谢谢你，指挥官。我会好好珍惜它的。",
+		getgift = "What a beautiful brooch. And the motif... Is this an eagle?\nIt's got a very soft feeling to it, despite the heroic imagery.\nThanks, Commander. I'll treasure it.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI10",
-		getletter = "邀请函我收下了。\n我会按时赴约，事不宜迟，现在就开始准备吧。\n让我们在宴会上再会。",
+		getletter = "Thanks for inviting me to the banquet.\nOnly problem is, there's not much time left to prepare...\nSo, I'd better hurry and do that. We'll meet at the venue later.",
 		id = 1,
-		uninvitation = "原来是指挥官亲自来送邀请函吗？\n毕竟是个值得纪念的日子，需要郑重一些呢。\n我已经准备好接受邀请了。",
+		uninvitation = "I know you've been busy, preparing for this anniversary...\nBut I sure didn't expect you to personally hand me an invitation.\nI'm ready to accept it whenever you're ready to give it.",
 		invitationID = {
 			1003,
 			14,
@@ -21,32 +21,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"指挥官，欢迎你的到来。一起享受今天的宴会吧。",
-			"指挥官，你觉得……我今天的礼服怎么样？"
+			"Come enjoy the banquet with me, Commander.",
+			"Hey, Commander... What do you think about my dress?"
 		},
 		foodfeeling = {
-			"食物的种类很丰富呢，指挥官，你喜欢吃什么？",
-			"这个味道真是令人印象深刻，是怎么制作的呢……"
+			"They really cooked up a whole feast, huh? Found any favorites, Commander?",
+			"This taste is gonna stick with me. I'm curious how the chefs made it."
 		},
 		drinkfeeling = {
-			"指挥官，要一起来一杯吗？",
-			"要注意一下饮用量呢，要是喝醉了就糟了。"
+			"What do you say to a drink, Commander?",
+			"Don't drink too much, now. It'd be bad if you got drunk."
 		},
 		dancefeeling = {
-			"跳舞？当然没问题！那就好好指挥——不，指导我吧！",
-			"舞步，也是必须要掌握的技能呢！"
+			"You wanna dance? Sure. Just give me orders... I mean, instructions, on what to do.",
+			"I need to work on my dancing skills."
 		}
 	},
 	{
 		groupid = 10709,
-		ungift = "指挥官，你怎么这么神神秘秘的，你的礼服怎么鼓起来了？\n里面该不会是……我一直想要的那个……\n开玩笑的啦，哪有这么巧的事~",
+		ungift = "What's the matter, Commander? Is there something on my clothes?\nOh! No way... I've wanted one of these for so long!\nJust kidding. There's no way you'd get me exactly what I wanted, right?",
 		skinId = 107092,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
-		getgift = "啊！！！居然真的是我一直想要的机车模型！\n指挥官，你一定是超能力者吧！！\n谢谢你，我现在太开心了。我能现在就拆开礼物吗？",
+		getgift = "Oh! You actually got me the bike model I've wanted for ages!\nAre you a mind reader or something? Because wow...\nThank you so, so much! Do you mind if I open it right away?",
 		getgift_story = "YUANWEIFANGXINMIMANSHI11",
-		getletter = "这是……邀请函？哦哦，是那个重要的日子啊！\n指挥官和大家都会去？\n太好了，我开始期待起来了。",
+		getletter = "An invitation...? Oh, of course – the anniversary is tonight!\nI assume you'll be attending the banquet, Commander?\nThat's great! Now I'm feeling excited about this!",
 		id = 2,
-		uninvitation = "指挥官，是有新的任务安排吗？\n要出击的话，尽管交给我吧！啊？不是吗？\n是其他的事情？",
+		uninvitation = "Do you have a mission for me, Commander?\nI'll set out at once if you need me to! ...That's not it?\nWell, if it's not a mission, then what?",
 		invitationID = {
 			1003,
 			14,
@@ -58,32 +58,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"指挥官的礼服……很有魅力，想再靠近一点看看……",
-			"发现指挥官！嘿嘿~我……我还没有喝醉啦！"
+			"Oh my god, you're looking sooo stylish, Commander! I wanna check you out up close...",
+			"Found you, Commandeeer! Hehehe... No, I'm not drunk at aaall~"
 		},
 		foodfeeling = {
-			"这些美食看起来都很不错啊，到底要选哪个呢？",
-			"指挥官的口味是什么呢？"
+			"It all looks so delicious... Where do I even start?",
+			"What's your favorite thing on the menu, Commander?"
 		},
 		drinkfeeling = {
-			"这个香味是……！指挥官要尝尝这个吗，强力推荐哦~",
-			"说什么呢，我今天才不会喝醉！大概……"
+			"What a lovely fragrance! Commander, you should taste this. I really recommend it.",
+			"Oh, don't be ridiculous! I won't get drunk this time! Probably..."
 		},
 		dancefeeling = {
-			"跳舞？看来指挥官对自己的舞技很有自信嘛~",
-			"一哒哒~二哒哒~我的舞步应该还没有生疏。"
+			"A dance? You sound pretty confident in yourself~",
+			"One step to the right, one to the left... Okay, I still remember it."
 		}
 	},
 	{
 		groupid = 30510,
-		ungift = "怎么了？指挥官？\n把我单独叫出来，是有什么事要找我吗？\n呵呵~在我面前你无需多虑~",
+		ungift = "What is it? You seem a bit absent-minded.\nYou didn't call for me just for nothing, did you?\nGo on, speak your desire. You've no reason to hesitate with me.",
 		skinId = 305101,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
-		getgift = "好精致的机巧音乐盒，声音是那么动听悦耳。\n真是非常有品位的礼物啊。\n我就心怀感激的收下了，嗯~要怎么回报你才好呢？呵呵~",
+		getgift = "Ah, a music box. What intricate craftsmanship, and what sublime sound...\nI should expect no less from someone of your taste.\nI will treasure it. Now, how should I repay your kindness... Heehee.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI12",
-		getletter = "此封邀请函，我郑重地收下了。\n稍后就去安排人员进行赴宴的准备。\n茶点已经送达了，还请你不要拘礼，一同享用吧。",
+		getletter = "I accept your invitation.\nGetting dressed and the like can come later...\nMore immediately, won't you sit down and enjoy some tea with me?",
 		id = 3,
-		uninvitation = "指挥官居然会亲自跑一趟，真是稀奇。\n我已派人去备下茶点，稍后和我一起休憩片刻如何？\n嗯……原来是很重要的事，指挥官你说吧，我在听。",
+		uninvitation = "You coming to me in person... How unusual.\nBefore we get down to your important business, let's sit down and rest.\nI have tea, if you want some. Just relax, get comfortable, and tell me what you have to say.",
 		invitationID = {
 			1003,
 			14,
@@ -95,32 +95,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"指挥官，最近您辛苦了，今天还请好好放松放松。",
-			"呵呵~有你相陪，今天一定会很尽兴。"
+			"I heard your work has been rough on you... You should unwind for a while.",
+			"This will be a riveting banquet as long as you're here. Heehee."
 		},
 		foodfeeling = {
-			"本日的餐品，虽与重樱的口味大不相同，但也别有一番风味呢。",
-			"指挥官，张嘴，啊~~~怎么了？你在害羞吗？呵呵~"
+			"It's quite the departure from Sakuran cuisine, but not at all in a bad way.",
+			"Open your mouth and say \"aah.\" What, are you too shy to try? Heehee."
 		},
 		drinkfeeling = {
-			"来吧，指挥官，今天多喝点也没关系哦~呵呵~",
-			"喝太多了觉得脑袋晕乎乎的？……呵呵，我会好好照顾你的~"
+			"Heehee. You may drink all you like tonight, Commander.",
+			"Had too much, and now your head is spinning? Heehee. Don't worry, I'll look after you."
 		},
 		dancefeeling = {
-			"邀请我跳舞的话，最好是慢板舞呢，呵呵~",
-			"跳舞时的肌肤之亲也是不可避免的吧~"
+			"If it's a dance you want, I suggest we do a slow one.",
+			"There is no avoiding physical contact when it comes to dancing."
 		}
 	},
 	{
 		groupid = 90501,
-		ungift = "希望我们今天有招待好你。\n……嗯？送我的礼物？\n专门为我挑选的？是、是吗？",
+		ungift = "I've not done anything to deserve a present.\nAll I hope is you're enjoyin' the party, that's all...\nYou picked it out just for me? Man...",
 		skinId = 905011,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
-		getgift = "这是……指南针？让我想起了一些值得怀念的日子呢。\n我很喜欢这件礼物，谢……谢谢。\n我也得想办法回礼才是，唔……",
+		getgift = "A compass? That sure brings back fond memories.\nThanks. I like it a lot.\nNow I've gotta think of something to repay you... Hmm...",
 		getgift_story = "YUANWEIFANGXINMIMANSHI13",
-		getletter = "邀请函我姑且收下了，然后就是出席宴会的准备啊……\n宴会的装扮啊……确实要好好思考一下。\n总之，我们宴会上再会吧，指挥官。",
+		getletter = "Appreciate the invitation. Now just to prepare for the banquet...\nGonna be hard deciding what to wear.\nAnyway, I'll see you at the venue.",
 		id = 4,
-		uninvitation = "指挥官，你手里拿着的，不会是邀请函吧？\n明明不需要邀请函我也会陪你的。\n但……是你来送的话，也不错……",
+		uninvitation = "Don't tell me that's an invitation ya got there.\nYou didn't need to bother with one. I'd hang out with you anyway.\nAlthough... I do appreciate the thought...",
 		invitationID = {
 			1003,
 			14,
@@ -132,32 +132,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"啊，是指挥官啊，我一直在找你呢，要一起到处走走吗？",
-			"今天，可以一整天都陪着你哦，有任何需求都可以和我说。"
+			"Been lookin' for you, Commander. Whaddya say we catch a break and go on a walk together?",
+			"I'll be here with ya the whole day. Lemme know if you want something."
 		},
 		foodfeeling = {
-			"请就座，好好享受我们准备的美食吧。",
-			"这些精心准备的餐品，希望能符合你的口味。"
+			"Alright, sit down and have your fill of the good stuff our chefs made.",
+			"Our chefs put their all into this. Hope ya like it. "
 		},
 		drinkfeeling = {
-			"今天的饮品，都是经过精挑细选的，绝不会让你失望。",
-			"为我们的……呃……友谊……干杯。"
+			"Our drinks are hand-picked. They won't disappoint.",
+			"To our... Erp... To our friends. Cheers."
 		},
 		dancefeeling = {
-			"跳舞？既然是指挥官你的邀请，我当然会接受。",
-			"先说好，我并不太擅长跳舞，说不定会踩到你哦……"
+			"A dance, eh... I'm not one to turn down an offer from you.",
+			"Just lettin' you know – I ain't the best dancer. Might step on your toes by accident..."
 		}
 	},
 	{
 		groupid = 70201,
-		ungift = "今天真是愉快的一天啊~\n指挥官，您在翻找什么？\n送给我的礼物？是什么呢？我很期待！",
+		ungift = "Whew... You make this banquet so enjoyable, Commander.\nHmm? What are you looking for?\nIs this a present for me? Heehee. I'm curious to see what's inside.",
 		skinId = 702010,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
-		getgift = "啊，是小熊！这也太可爱了吧！\n谢谢您，我会好好珍惜它的。我可没喝醉哦！\n嘿嘿，小熊啊小熊，可爱的小熊~",
+		getgift = "Ooh! What a cute little bear!\nThank you. I will cherish this little cutie... *pat pat*\nWhat? No, I'm not drunk at all!",
 		getgift_story = "YUANWEIFANGXINMIMANSHI14",
-		getletter = "噢，原来是宴会的邀请函啊，我收下了。\n指挥官当然也会出席的对吗？\n太好了，我已经开始期待指挥官的舞姿了。",
+		getletter = "So it's an invitation for me. Thank you kindly.\nYou'll be in attendance at the banquet too, won't you?\nHeehee. I'm already looking forward to seeing you dance.",
 		id = 5,
-		uninvitation = "指挥官，您辛苦了！\n要不要先休息一下，想喝点什么吗？\n嗯？指挥官你的手上藏着什么呢，让我看看~",
+		uninvitation = "Good to see you, Commander.\nWhy don't we get comfortable and enjoy some drinks?\nWhat's that in your hand? May I have a look?",
 		invitationID = {
 			1003,
 			14,
@@ -169,32 +169,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"啊！能遇到指挥官，真是太幸运了。",
-			"指挥官，我们一起让今天的宴会变得更热闹一些吧。"
+			"Heehee. It's such a pleasure to see you, Commander.",
+			"Commander, shall we do something to really liven up this banquet?"
 		},
 		foodfeeling = {
-			"餐品的外形都非常精致呢，简直像是工艺品一样。",
-			"指挥官，我们一起来品尝美食吧。"
+			"These dishes all look stunning. They're works of art in their own right!",
+			"Shall we feast, Commander?"
 		},
 		drinkfeeling = {
-			"啊……空气中弥漫着沁人心脾的芳香。",
-			"指挥官，выпить до дна（干杯）！"
+			"Mmh~ This has a wonderful fragrance.",
+			"Vypit' do dna, Commander! Cheers!"
 		},
 		dancefeeling = {
-			"我很乐意接受您的邀请。那我们就开始吧。",
-			"跳舞时两个人的距离……再靠近一些也没关系。"
+			"I'm honored that you'd like to dance. Shall we?",
+			"You can come closer if you'd like, Commander. This IS a dance."
 		}
 	},
 	{
 		groupid = 20501,
-		ungift = "神神秘秘的，看来你是准备了什么礼物吧。\n当然很容易就看穿啦，每天想送本王礼物的人都排到十里开外了呢。\n不过，因为仆从的礼物，我会……多少更期待一些。",
+		ungift = "Trying to be stealthy? You have a present for me, don't you?\nI know the tells of a gift-giver because I receive plenty of presents every single day!\nAdmittedly... I'm more excited than usual to receive one from you. Slightly.",
 		skinId = 205011,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
-		getgift = "哇，水晶手杖，仆从送的……嘿嘿……\n虽然本王已经有很多根手杖了，多到需要一个专门的房间来陈列。\n不过仆从送的这根，就把它摆在最显眼的位置吧~",
+		getgift = "A crystal wand... This is a surprise, coming from you.\nTo be truthful, I have enough wands to warrant their own storage room...\nBut, this one I'll put up somewhere everyone can see it.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI16",
-		getletter = "这件事，本王知道了。\n贝法，你去安排女仆队开始准备吧。\n啊！仆从，不要这么着急走，再……多待一会也不是不行……",
+		getletter = "A banquet invitation... Very well.\nBel, tell the Royal Maids to begin the preparations.\nHold it right there, servant! I never gave you permission to leave my side!",
 		id = 6,
-		uninvitation = "仆从，你今天看起来很正式嘛。\n有什么要传达的，直接和女仆队说就是了。\n坚持要觐见本王，难道就这么想要见到本王吗？嘿嘿~",
+		uninvitation = "Well. You're looking stylish tonight, servant.\nIf you have business with me, tell it to one of my maids and...\nIt has to be me, you say? What could be so important you must speak to me directly?",
 		invitationID = {
 			1003,
 			14,
@@ -206,32 +206,32 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"仆从，既然见到了本王，就过来陪本王一起逛逛吧。",
-			"仆从……一直以来辛苦了。哼！本王体恤下属有什么好奇怪的。"
+			"Servant! Come here, quickly! We're going to have a look around the banquet!",
+			"You've really put your all into this, servant. Hmpf! Yes, even I acknowledge hard work from time to time!"
 		},
 		foodfeeling = {
-			"今天的食物，倒还算符合本王的口味，姑且夸奖一下吧。",
-			"仆从，过来和本王一起用餐吧。"
+			"This food isn't so bad. I'll give it a thumbs up.",
+			"Servant, come here and enjoy the cooking with me."
 		},
 		drinkfeeling = {
-			"今天宴会准备的红酒，品类和年份，都很用心啊。",
-			"仆从，本王敬你一杯，怎、怎么？一脸意外的表情？"
+			"I can tell these wine brands are both carefully chosen and well-aged.",
+			"This toast is for you, servant... Wh-what? You look surprised to hear that..."
 		},
 		dancefeeling = {
-			"正好，就让本王看看你的舞技进步如何了。",
-			"仆从，你要努力跟上本王的舞步啊。"
+			"Well, well. Let's see how much you've improved.",
+			"Servant! Try to keep up with my steps!"
 		}
 	},
 	{
 		groupid = 40501,
-		ungift = "谢谢你的陪伴，让我能够享受今天的宴会。\n你还准备了礼物？这真是……\n给今天这个完美的一天画上句号了啊，呵呵。",
+		ungift = "I thank you for showing me how to enjoy this banquet, Commander.\nPreparing a present for me, though, is really going above and beyond.\nWhat a perfect end to a wonderful day. Heehee.",
 		skinId = 405011,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
-		getgift = "是唱片啊，曲单上的曲子，是你专门挑选的吧？\n这些……都是我喜欢的曲子。\n谢谢你，以后我播放这张唱片的时候，都会想起你。",
+		getgift = "A vinyl record? Did you choose the songs?\nWhy, I'll be... These are all my favorite songs.\nI will think of you whenever I play them. Heehee.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI15",
-		getletter = "邀请函我收下了，也要开始赴宴的准备了。\n最近要考虑的事情有点多，需要稍微理一下思路。\n指挥官，期待与你在宴会上再见。",
+		getletter = "Of course. I promise I'll be at the banquet.\nI've had too much on my mind lately, and I need to sort my thoughts out.\nWe'll meet again at the venue, Commander.",
 		id = 7,
-		uninvitation = "指挥官，有劳你亲自跑一趟了。\n要跑好几个地方？真是辛苦你了。\n最近我的公务也很多，看来我们都很忙碌呢……",
+		uninvitation = "I appreciate you coming to see me.\nStill have many places to be, do you? That must be tiring.\nI'm up to my neck with work as well, so I suppose that makes both of us busy bees for the day...",
 		invitationID = {
 			1003,
 			14,
@@ -243,20 +243,20 @@ pg.activity_partyinvitation_template = {
 			1
 		},
 		feeling = {
-			"一直以来，得到了你的很多帮助，谢谢你。",
-			"有你相陪，今天能一起好好享受宴会了。"
+			"I'm forever in your debt. Allow me to thank you again for all you do.",
+			"I'm having a wonderful time here, thanks to you, Commander."
 		},
 		foodfeeling = {
-			"难得能在宴会上不用担心公务，只需细细品尝美味。",
-			"比起一个人，还是与同伴们一起享用美食更加愉快。"
+			"It's rare that I get to just enjoy food worrying about appearances.",
+			"It enhances the eating experience so much when you have company."
 		},
 		drinkfeeling = {
-			"虽然独饮也不会感到无聊，但与你对饮会更愉快。",
-			"呼，有些不胜酒力了，能稍微让我依靠一下吗？"
+			"Drinking alone isn't bad, but it's much more enjoyable to drink with you.",
+			"Whew... I think I've had too much... Could I lean on your shoulder for a minute?"
 		},
 		dancefeeling = {
-			"邀请我共舞？呵呵~我接下来的时间，就交给你了。",
-			"跳舞时，你看到了不一样的我吗？呵呵~"
+			"You're asking me to dance? Heehee. Then I leave myself in your capable hands.",
+			"I was like a different person when we danced, you say? Heehee."
 		}
 	},
 	all = {

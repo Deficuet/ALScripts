@@ -15,18 +15,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这两天嗓子总是痒痒的……咳咳……还有点疲惫。",
+			say = "My throat has been itchy for a couple of days now... *cough cough*... I feel worn out, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "着凉了吗？好好休息！",
+					content = "Is it a flu? You need to rest up!",
 					flag = 1
 				},
 				{
-					content = "我帮你拿药过来吧！",
+					content = "I'll bring you some cough medicine!",
 					flag = 1
 				}
 			},
@@ -61,7 +61,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯，我知道了……谢谢你。",
+			say = "Mgh... Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过听了你的话，好像突然就有精神了。",
+			say = "You know, I feel better already just after hearing your voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "果然只要你陪在我身边，就连身体上的不舒服也会很快消失呢。",
+			say = "You being by my side is the best cure I could ask for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

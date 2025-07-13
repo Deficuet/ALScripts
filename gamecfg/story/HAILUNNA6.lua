@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>六　暴风雨Sonata：第二乐章</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>6 Sweet Respite</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在与海伦娜的一同努力下，指挥室内所有文件都被转移到了安全位置，积水问题也得到了解决。",
+			say = "After carrying the documents to a safer place, Helena and I mopped the floor.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "短时间高强度的劳累实在让人有些疲惫，差不多该好好休息一下了……",
+			say = "We were both tired after dealing with so much in such a short timespan, so we lay down on the couch to rest for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "轰隆隆隆——————（雷声）",
+			say = "KRRCH-BOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "隆隆的雷声依旧持续不断，也许直到天明，这场暴雨都不会结束了……",
+			say = "The thunder kept on booming. I suspected the storm wouldn't let up until the morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "突然从手心传来了温暖的触感，这是……",
+			say = "All of a sudden, Helena grabbed my hand and held it with a trembling grip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我感觉这样能让指挥官放松一些。",
+			say = "S-sorry. I just need a little something to help me relax...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……如果指挥官不喜欢的话，我就松开……",
+			say = "I can let go, if this is making you uncomfortable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			},
 			options = {
 				{
-					content = "就保持这样吧。",
+					content = "\"Not at all. I'm here for you.\"",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这种柔软又安心的感觉，实在是无法拒绝。",
+			say = "The shaking in her hand calmed down little by little, giving way to a comforting warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜握着的手一开始有些颤抖，但慢慢的平稳了下来。掌心的温度也渐渐传递过来。",
+			say = "The warmth was soothing to my heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "此刻的指挥室却如暴风雨中的灯塔一般，温暖又宁静。",
+			say = "The office became like a cozy lighthouse in the eye of a turbulent storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "雨声也变得如同催眠曲一般，好像有什么轻轻地靠了过来——",
+			say = "Fatigue had finally caught up to me after such a long day. My heavy eyelids were closing on me... That's when Helena's head brushed against my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "Zzzzz……",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "第一天担任秘书舰便发生了这么多事，是应该好好休息一下了。",
+			say = "I don't blame her for dozing off on me. Her first day on the job had been incredibly hectic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "而且，我感觉也……有些困了……",
+			say = "It wouldn't be long before someone came to check on us. I decided to get some shuteye...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

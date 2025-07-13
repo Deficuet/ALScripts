@@ -12,7 +12,7 @@ return {
 			side = 0,
 			stopbgm = true,
 			dir = -1,
-			say = "呀，一大早的，今天的演习还没开始呢，大家都这么着急是出了什么事情吗？",
+			say = "Everybody seems to be in quite a rush... Did something happen earlier this morning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			actor = 301790,
 			dir = -1,
-			say = "哎呀，{namecode:161}大人你来得正好，这边情况不太妙，快跟我来！",
+			say = "Oh, you're finally here. There's something not so great going on. Just follow me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "两人随着人群的方向一路小跑着跟了过去",
+			say = "The two hurried off to the place where everyone was gathering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 		{
 			dir = -1,
 			side = 2,
-			say = "只见演习的公示榜附近被人们围得水泄不通，远远的就能听到吵闹声音——！",
+			say = "That place being in front of the exercise's information board.！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哈？！你是笨蛋吗？",
+			say = "Are you stupid?",
 			bgm = "story-tiancheng",
 			flashout = {
 				black = true,
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“如果你能参加演习的话根本轮不到{namecode:161}姐出手？”就凭你这未完工的武装和一股脑的傻劲？",
+			say = "\"If I can participate then Amagi won't need to come to the exercise\"? Then what? Are you going to fight with unfinished equipment and sheer naive motivation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，你也就只能这个时候耍耍嘴皮子了，昨天的演习中怎么连你的影子在哪里都见不到！？",
+			say = "You're one to talk! You ran away from the battle with your tails between your legs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和{namecode:161}交手过这么多次，我可不会再上那个老狐狸的当了。",
+			say = "Listen, you absolute idiot. That sly, conniving she-fox is an expert at tricking people with her dirty little schemes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁知道她亲自上阵是不是早就设好了埋伏！",
+			say = "Just because she's appearing in person at the frontlines doesn't mean I'll lower my guard and get lured out by her, no matter what an idiot like you says.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了，我可是“战列舰”，跟你们“战列巡洋舰”的防护能力可不是同一个水平的！",
+			say = "And furthermore, I'm a battleship. I'm completely different from battlecruisers like you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看看你们那薄弱的装甲，正面对决的话觉得我会害怕吗？？",
+			say = "Just look at how thin your armor is. Do you think I, a battleship, have any reason to be scared of fighting you?？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，我和姐姐在一开始的设计上就和你有着本质的差别，就凭我们三十节的航速就能追着你打得满地求饶！",
+			say = "How dare you! Unlike you, nee-sama and I have always focused on speed! How would a snail like you catch up to us cruising at 30 knots?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的意思是你们在逃跑时能跑得更快一点咯？",
+			say = "Hah, you're not telling me you're PROUD of how fast you can run away, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			side = 0,
 			dir = 1,
-			say = "你！！你个不讲道理的白毛老妖怪！！！",
+			say = "...Your hair color says it all, the inside of your head is as white as a blank canvas, you idiot!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
-			say = "你才是不讲道理，胸大无脑的小跟屁虫！",
+			say = "No you, you bootlicker! Your only redeeming feature is that big rack of yours...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -221,93 +221,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			say = "——哐！（闪光）",
-			dialogShake = {
-				speed = 0.09,
-				x = 12.75,
-				number = 2
-			},
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.2
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					}
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:92}",
-			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng2",
-			side = 1,
-			dir = 1,
-			say = "！啊——",
-			dialogShake = {
-				speed = 0.09,
-				x = 12.75,
-				number = 2
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			dir = 1,
-			side = 0,
-			bgName = "bg_story_tiancheng2",
-			say = "伴随着强烈的杀气和一声巨响，吵闹声戛然而止。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "{namecode:161}",
-			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯~~~你说谁是“狡猾的老狐狸”呢？~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "{namecode:91}",
-			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "{namecode:161}姐！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			dir = 1,
-			side = 0,
-			bgName = "bg_story_tiancheng2",
-			say = "——哐！（闪光）",
+			say = "-- CLANG!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -339,10 +253,27 @@ return {
 			}
 		},
 		{
+			actorName = "{namecode:92}",
+			nameColor = "#a9f548",
+			bgName = "bg_story_tiancheng2",
+			side = 1,
+			dir = 1,
+			say = "Owww?!",
+			dialogShake = {
+				speed = 0.09,
+				x = 12.75,
+				number = 2
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			say = "又是一声巨响。",
+			say = "The two sisters who seemed on the brink of starting a fight fell silent in the blink of an eye from the intense rage they could sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +285,54 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦~不是跟你说过大家应该要和睦相处的吗？怎么能戳到{namecode:92}大人的痛处呢~",
+			say = "Who is this \"sly, conniving she-fox\" you speak of~?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:91}",
+			bgName = "bg_story_tiancheng2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Nee-sama!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			dir = 1,
+			side = 0,
+			bgName = "bg_story_tiancheng2",
+			say = "-- CLANG!",
+			dialogShake = {
+				speed = 0.09,
+				x = 12.75,
+				number = 2
+			},
+			flashN = {
+				color = {
+					1,
+					1,
+					1
+				},
+				alpha = {
+					{
+						0,
+						1,
+						0.2
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.2
+					}
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +344,19 @@ return {
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来~握手言和~",
+			say = "Didn't I tell you to be nice to everyone~? Why are you picking a fight with Kaga~?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:161}",
+			bgName = "bg_story_tiancheng2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "There, now let's be nice and shake hands~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +366,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "{namecode:161}将{namecode:91}和{namecode:92}的双手强行握在了一起，露出了和蔼的笑容。",
+			say = "Amagi smiled and forced Akagi and Kaga to hold hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +376,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "只不过，两人的头顶上莫名出现了两个鲜红的大包。",
+			say = "...They both had bumps forming on their heads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +386,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "——这个女人，很恐怖！！！",
+			say = "-- That woman seriously freaks me out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +396,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "围观的人们瞬间就明白了这个道理。这种从和蔼的笑容里透露出的杀气，有着瞬间将周围一切生物灭杀的能力。",
+			say = "Hidden beneath Amagi's loving smile was a rage that would frighten even the most vile of beasts. All the bystanders knew this for a fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +408,7 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来，大家又都和好如初了呢。可喜可贺，可喜可贺~",
+			say = "There, now you've reconciled and will live happily ever after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,19 +418,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "{namecode:91}和{namecode:92}眼角的泪水，不禁流了下来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 0,
-			actorName = "{namecode:161}",
-			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "重樱的未来可是寄托在我们身上的哦，大家不和睦相处的话可是没办法战胜其他敌人的。",
+			say = "Akagi and Kaga couldn't stop their tears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +430,19 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了好了，今天的演习马上就要开始了，大家快点各就各位吧。",
+			say = "The future of the Sakura Empire lies in our hands, and if we're not all nice to each other then we won't be able to defeat our enemies~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:161}",
+			bgName = "bg_story_tiancheng3",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Now, today's exercise will be starting soon, so could everyone return to their posts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +452,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "然而两人握着的双手却越绷越紧，头上也逐渐绷出青筋。",
+			say = "Both sisters started tightening their own grip on the other's hand, seemingly because they hadn't quite reached a mutual understanding yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +462,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "不过突然，两人感觉到边上的杀气再次涌现了上来，急忙同时甩开了手，扭头朝两个方向走去。",
+			say = "Nevertheless, overwhelmed by Amagi's silent rage, they both reluctantly let go of the other's hand and began walking in opposite directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +474,7 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切，今天就先放过你了，小跟屁虫，等你能真的站上战场再来一较高下吧。",
+			say = "You got away this time, bootlicker. Next time I see you on the battlefield I'll make you understand the class difference between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +486,7 @@ return {
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，{namecode:161}姐今天就会教会你{namecode:161}级才是最完美的设计，你可别再逃跑了。",
+			say = "Hmph! Before the day is over I will make YOU understand that Amagi is the strongest of her class, so don't think you can run away again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +496,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "围观的人群也逐渐散开，回到了今天演习的筹备工作当中。",
+			say = "The crowd of onlookers who had gathered around began to disperse as well. And then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +506,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			say = "只剩{namecode:161}依然驻足在原地，似乎在思考着什么。",
+			say = "The only person left was Amagi who stood there in silence, lost in her own thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

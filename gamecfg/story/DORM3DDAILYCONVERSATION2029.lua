@@ -15,18 +15,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你认为什么是幸福呢？",
+			say = "What is happiness to you, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "享受当下的此刻就是幸福。",
+					content = "Enjoying the present moment.",
 					flag = 1
 				},
 				{
-					content = "和你在一起就是幸福。",
+					content = "Being with you.",
 					flag = 1
 				}
 			},
@@ -56,7 +56,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "与{dorm3d}在一起的当下就是幸福，我也是这样认为的。",
+			say = "I see. Being with you in this moment is what happiness is to me, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

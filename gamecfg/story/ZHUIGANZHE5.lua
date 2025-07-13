@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>五 异域的憧憬</size>",
+					"Moments with the Young Miss\n\n<size=45>5 A Passion for the Exotic</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "继北方联合之后，与追赶者又陆续与各个阵营进行了交流，时间一晃而过。",
+			say = "After her visit to the Northern Parliament, Chaser spent time with the other camps, one after another.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "终于到了最后一天，与追赶者一起来到了重樱生活区，只见她按耐不住内心的激动一般，张口说道。",
+			say = "On the last day of her mission, she arrived at the Sakura Empire, scarcely able to contain her excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官一定已经很了解了，重樱…有许多武士和忍者吧？",
+			say = "The Sakura Empire is the home of the samurai and ninjas. You must know this, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "这种认知多半来自白鹰的娱乐电影，不过这时候吐槽就太不识趣了，先观察观察吧。",
+			say = "Her image of the land and its people was clearly shaped by Union movies, but I dared not get into the topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，在下一直在等你们。这位皇家的伙伴是初次见面吧，在下{namecode:66}。",
+			say = "Commander, we’ve been waiting for you. You... you’re the new one from the Royal Navy, are you not? I am called Takao.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！你一定就是武士了！我是追赶者哦，嗯嗯，果然和听说的一样威风凛凛呢！",
+			say = "Wow! You’re one of the samurai I was just talking about! I am Chaser. You’re every bit as imposing as they say!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…指挥官，她这是……",
+			say = "Commander, what is she...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，抱歉抱歉，我有点太激动了。那就是武士刀吧？我能观摩一下吗？",
+			say = "Oh, dreadfully sorry, I’m a bit too excited. Is that your samurai sword? May I see it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只是看看倒无妨，不过出鞘的刀是很危险的…还是不要突然靠太近比较好……",
+			say = "I don’t mind showing you, but it is dangerous to handle the naked blade... You should not get too close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，意思是说…下次还有机会的话就能好好看看了是吧！我知道了！",
+			say = "Perhaps later then, should we get the chance. Righto!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "咬着指头一脸期待的追赶者让人感到有些发慌，赶忙带着她进了重樱生活区。",
+			say = "Chaser, biting her fingernails with anticipation and making me honestly kind of anxious, hurried into the Sakura dormitory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先按照原计划，先参观下我们的演习吧。",
+			say = "Let us begin with our exercises, as planned.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -261,7 +261,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在{namecode:66}的带领下来到了能看到重樱演习海域的位置，追赶者望着海面上的成员，突然提高了音量。",
+			say = "Takao led us out to a place where we could see the sea, and Chaser couldn’t contain a yelp as soon as she saw the assembled formation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，那孩子……难道是忍者？",
+			say = "Commander, is that girl there a ninja?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,88 +293,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "追赶者指着的对象，是{namecode:11}。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 303110,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "那个……追赶者殿下，为什么你对武士和忍者这么感兴趣呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 206050,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唔，很难一句话说清楚呢……应该说是一种异域风情的魅力…吧？话说回来，忍者…应该会使用忍术吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 206050,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "虽然明白大家都是舰船，但是和白鹰又有所不同，“既是舰船又是忍者”的她们，总感觉很让人在意嘛~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 303110,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯，要这么说的话…重樱和白鹰确实有所不同。不过真说起来，皇家也……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 206050,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯哼，必须不断开阔视野才行呢！不断认识到新的事物是很有意思的，{namecode:66}不这么觉得吗？",
+			say = "She pointed at Akatsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +310,88 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…这么说也没错……",
+			say = "Pardon... But why do you care so much for samurai and ninja?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 206050,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hmm... It’s hard to put into words... I suppose it’s a sort of fascination with the exotic. Ninjas have their “ninjutsu,” yes?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 206050,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "That one there, she’s a ship, but unlike one of the Union girls, I get this excitement that she’s both a ship and a ninja!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 303110,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Well, I can certainly admit there is indeed a difference between a Union ship and a Sakura ship. But nevertheless, the Royal Navy...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 206050,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It’s all about expanding my horizons. Don’t you think it’s fun to learn new things, Miss Takao?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 303110,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Hm... that’s true too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有什么事吗？",
+			say = "What is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "似乎是注意到这边的关注，{namecode:11}凑了过来。",
+			say = "Sensing the eyes on her, Akatsuki came over to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，也没什么大事。这位是今天和指挥官一同前来参观的追赶者殿下……",
+			say = "Oh, it’s nothing important. This is Chaser, she came to observe with the Commander today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她似乎对于“忍者”抱有很大的好奇心——",
+			say = "She seems particularly interested in ninjas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那就请看看我的“忍术”吧！",
+			say = "Well then, bear witness to my ninjutsu!",
 			effects = {
 				{
 					active = true,
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……话题似乎越跑越偏了……",
+			say = "Our story took a strange turn...",
 			effects = {
 				{
 					active = false,

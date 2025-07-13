@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "来到了邮轮上的教室附近，在门口就听见了熟悉的哀求声。",
+			say = "I'm walking near the ship's classroom, and I can hear a familiar voice pleading for mercy.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鞍山姐……我真的学会了哦！能不能让我先下课……",
+			say = "Pleeease, An Shan! I've memorized it all, I promise! Let me leeeave...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（抚顺和鞍山？进去看看好了。）",
+			say = "(Fu Shun and An Shan? I should go in and have a look.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "推门进去，发现教室中不仅有抚顺和鞍山，还有海天、飞云，以及安克雷奇。",
+			say = "In the classroom I find not just the two aforementioned, but also Hai Tien, Fei Yuen, and Anchorage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，来得正好，要来一起吗？",
+			say = "Oh, great timing, Commander! Have you come to observe the lecture?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师……！和安克雷奇一起上课……开心……嘿嘿。",
+			say = "Teacher is gonna study with Anchorage! Hooray! Heehee...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "指挥官，你看！海天老师和鞍山老师正在教飞云大人和安克雷奇画画哦！",
+			say = "Commander, look, look! Miss Hai Tien and Miss An Shan are teaching me and Anchorage how to paint!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "飞云举着一张有着歪七扭八、难以名状的图案的纸张跑到了我面前。",
+			say = "Fei Yuen jogs up to me, holding a picture of what looks like one big haphazard scribble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "飞云，画画和书法一样，都需要静下心来。",
+			say = "Yuen, drawing is like writing – you need a steady hand and a steady mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "虽然可以理解看到指挥官来了比较容易激动……咳……",
+			say = "I understand being excited to show your work to the Commander, but... well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "哦……好吧……不过飞云也只是想让指挥官看看飞云这次画得怎么样嘛。",
+			say = "Aww... I just wanted the Commander to see my art...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,11 +228,11 @@ return {
 			},
 			options = {
 				{
-					content = "保持沉默",
+					content = "(Hold your tongue.)",
 					flag = 1
 				},
 				{
-					content = "称赞飞云",
+					content = "(Praise her.)",
 					flag = 2
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，飞云，别总要指挥官给出评价，你还处在需要继续练习的阶段哦。",
+			say = "Let's not bother the Commander more, okay? You just need to practice and improve.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "这幅画，实在是……嗯……假以时日，飞云你一定能开辟一个全新的艺术流派吧。",
+			say = "Your drawing is very, uhh... Keep practicing and it'll no doubt spark a new art movement!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗！",
+			say = "You mean it?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，飞云，别因为这样就太骄傲哦？你需要继续练习才行呢。",
+			say = "Don't get too excited, Yuen. You have much learning to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "知道啦~",
+			say = "I know, I know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "和冲过来想要评价的飞云不同，一旁的安克雷奇则是更认真地在求教着鞍山画画的诀窍。",
+			say = "In contrast to Yuen's eagerness for praise, Anchorage is solemnly taking in the tips An Shan has for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "怎么画……这里……安克雷奇……不太明白……",
+			say = "How do you draw... this part? I'm confuzzled...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里要这样，你看……",
+			say = "Like this. Watch closely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "而从刚刚起就一直没说话的抚顺，则在鞍山所处位置的视线死角中疯狂地冲我眨眼。",
+			say = "Fu Shun, meanwhile, has been quiet as a mouse. From a blind spot in An Shan's line of sight, she winks at me as hard as she can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "见我注意到她后，她立刻举起了自己的素描本，上面写着——",
+			say = "When she sees me look her way, she holds up her notebook in the air for me to read.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“我想去冒险！指挥官你带我走吧指挥官！”",
+			say = "\"I want to go adventuring! Get me out of here, Commander!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚、顺……",
+			say = "Fuuu Shuuun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，指挥官你怎么念出来了……呜啊啊啊，鞍山姐！",
+			say = "WHY'D YOU READ IT OUT LOUD?! Nooo, don't make me stand in the corner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "冒险？那怎么能少得了飞云大人？飞云大人也要一起去！",
+			say = "You're going on an adventure? Then Lady Yuen is coming, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师！安克雷奇……也要和老师一起，冒险！",
+			say = "Teacher! Take Anchorage on an ad-ven-chur!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……现在还是上课时间，就算要冒险，也得等到下课后，对吧？",
+			say = "Now, now, you've still got classes. Your adventure will have to wait until schooltime is over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "鞍山和海天在很努力地上课，也要尊重“老师”们的劳动成果才对。",
+			say = "An Shan and Hai Tien are working really hard to teach you. Don't let their efforts be in vain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "唔……指挥官说的没错，那么飞云大人就继续老老实实的……！",
+			say = "Hrmh... You're right. Fine, Lady Yuen will stay put!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇，听话……！好孩子……等到下课了……再来找老师！",
+			say = "Anchorage will listen to you, Teacher! When class is over, it's ad-ven-chur time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢你，指挥官，帮了大忙了。抚顺，我要跟你好好聊一聊了。",
+			say = "Thanks for calming them down, Commander. Fu Shun, come here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完……完蛋了！鞍山姐我错了啦呜呜……",
+			say = "I-it's over... I'm sorry for nearly instigating a rebellion...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然于心不忍，可我这次实在无能为力，加油吧……）",
+			say = "(I didn't like doing this to her, but education is important. She'll just have to hang in there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（继续留在这里会影响鞍山和海天的教学进度的，还是先离开吧。）",
+			say = "(I'll probably distract from their lessons if I stick around any longer. I'd better get going.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "之后在抚顺凄惨的求饶声中离开了教室。",
+			say = "I leave the classroom the same way as I entered it – to the sound of Fu Shun's chagrin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

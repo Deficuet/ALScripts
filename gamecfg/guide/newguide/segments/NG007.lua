@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"再来通过“训练”开始对小猫进行培养！",
-	"点击“开始训练”来选择想要训练的喵箱！",
-	"最多可以一口气选择<color=#A9F548>10</color>个想要训练的喵箱，不过同时只会有<color=#A9F548>4</color>个进行训练！这次就先选择1个吧！"
+	"You'll have to train the Meowfficer to get it out of its little box!",
+	"Give the Training button a little tap!",
+	"You can queue up to <color=#A9F548>10</color> Cat Boxes, but only <color=#A9F548>4</color> can be trained at a time!"
 }
 
 return {

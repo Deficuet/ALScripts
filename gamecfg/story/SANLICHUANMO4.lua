@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=45>四　新生{namecode:82}博物馆，开放！</size>",
+					"Mikasa's Model Museum\n\n<size=45>Chapter 4: The Model Museum Reopens!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "呜哇…这就是传说中的——",
+			say = "Wow... So this is the legendary...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重建的收藏室！",
+			say = "Mikasa's model collection (reborn)!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -93,11 +93,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:82}",
+			actorName = "Mikasa",
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼~船模和收藏室焕然一新！正式升级成博物馆了哦，要开放给全港区的大家~",
+			say = "Mhm! The model ships, the whole room actually, it's all good as new! A fully upgraded museum ready to share with everyone in the port~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:71}",
+			actorName = "Hiei",
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重建的速度前所未有的快……今晚宴会的规模也升级吧！",
+			say = "I can't believe how quickly it all came together... I think we should scale up tonight's celebration too!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -129,11 +129,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:95}",
+			actorName = "Shoukaku",
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这玻璃…耀眼得都有点过头了呢…",
+			say = "The glass here is so shiny... It's hurting my eyes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +145,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:82}",
+			actorName = "Mikasa",
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是多亏了大家的帮忙，没想到这么快就修复完成了呜呜…",
+			say = "Thanks for pitching in, everyone. I never thought I'd have my collection back so soon. *Sniff*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？大前辈为什么流泪了……",
+			say = "Huh? Why are you crying, Miss Mikasa...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是高兴的泪水呀，小{namecode:33}",
+			say = "Tears of joy, little one.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…{namecode:33}以后不会乱动屋子里的按钮了…",
+			say = "I'm sorry... Mutsuki won't press random buttons anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}大前辈，{namecode:33}以后会乖乖的，不会乱动周围的东西了。",
+			say = "I promise Mutsuki will be a good girl from now on. I won't touch anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，小{namecode:33}最乖了。（摸头）",
+			say = "Uh-huh. That's a good girl, Mutsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，各位……往日的荣光已成过去，今天也要为了新时代而倍加努力！",
+			say = "All right, listen up! The glory days of the past are behind us, but today is about striving together for a glorious future!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=27>（小声）这个按钮就是大门幕布的开关，按下它大门的幕布就会升起吧…</size>",
+			say = "<size=27>(Whispering) This button opens the curtain over the door. Just press it and the curtain goes up...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让我来为这博物馆正式揭幕吧——我按！",
+			say = "Now to officially unveil the new museum... Here goes!",
 			effects = {
 				{
 					active = true,
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "轰隆隆……",
+			say = "Rumble rumble rumble...",
 			effects = {
 				{
 					active = false,
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为……为什么按下按钮后，屋子又开始震动了！",
+			say = "Um... why did the room start shaking when you pushed that button?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "屋子……屋子又要崩坏了？",
+			say = "Oh no... is everything going to break again?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，这按钮不是揭幕用的吗？",
+			say = "What? This isn't the curtain switch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，有什么东西从屋子中间冒出来了",
+			say = "Hey, something just came out of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…新的收藏柜？",
+			say = "It's... a new display case?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "崭新的收藏柜里摆放着的是——",
+			say = "Sitting proudly inside the brand new display case was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…船模？啊，是{namecode:82}前辈的船模！",
+			say = "That's... a model ship? Oh! That's a model of Mikasa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？！这个竟然是秘密收藏的按钮吗！！",
+			say = "Huh? Turns out it was my secret collectible button?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到…没想到居然错按了按钮…",
+			say = "Who could've known... How could I have pressed the wrong button...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自己的船模，本来想要作为永久的秘密保存下去的…",
+			say = "I didn't want anyone to see my model ship...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种把丢脸的一面展示在后辈面前的感觉…难道就是所谓的“羞耻play”吗！？",
+			say = "I can't believe I've embarrassed myself like this in front of the kids... is this what they call \"exhibitionism\"?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}前辈，这词是从哪里…",
+			say = "Mikasa, who taught you that word...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~{namecode:82}前辈的模型，好帅！",
+			say = "Wooooowww! Mikasa's model is so coooool!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -578,7 +578,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，难得见到{namecode:82}前辈害羞的一面呢~",
+			say = "Ahaha! I never thought I'd get to see Mikasa turn so red~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总而言之，新生的{namecode:82}博物馆，重新开幕了喵！可喜可贺可喜可贺喵~",
+			say = "And that's the story of how the all-new Mikasa Museum had its grand opening, nya! Congratulations all around, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，一段小小的插曲结束了，而重樱众人和{namecode:82}前辈的港区生活，还将持续下去，可喜可贺可喜可贺————除了掏出了一大笔维修费用的指挥官以外",
+			say = "And so that story draws to a close. The girls of the Sakura Empire and Mikasa carried on with their daily lives at the port, the same as always. That is, except for a certain Commander, who suddenly received a shockingly large bill of expenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

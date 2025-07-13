@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "theme-ganjisawai",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "大厅之中，一名少女正在翩然起舞。",
+			say = "A shipgirl was performing a ceremonial dance in a vast room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,13 +47,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "「女神啊，随我一同，前往安稳祥和之地吧——」",
+			say = "O Goddess, let this prayer carry you to a safe place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "光芒消散后，少女停止了舞蹈。",
+			say = "As the light withdrew, Ganj-i-Sawai's dance came to a stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "这场神秘的仪式，终于迎来了尾声。",
+			say = "So, too, did the mysterious ritual she was conducting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,13 +91,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "女神的奇迹之一……「栞佩拉之眼」。",
+			say = "The Goddess' first miracle – Compiler's Eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,13 +106,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "塑造之翼，洞悉之眼……",
+			say = "Wings that give shape, eyes that discern...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,13 +122,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "距离女神真正回归的那一天……不远了。",
+			say = "Soon, the Goddess shall return to us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "空旷的大厅之中，似乎传来了海涛的声音。",
+			say = "The sound of waves could be heard from somewhere within the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +149,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "……牵星者的人调查到这里了。",
+			say = "The Star Wayfinders have caught on to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,13 +165,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "我去销毁痕迹，帮我拖住她们。",
+			say = "I'll clean up our tracks. Keep them busy in the meantime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,13 +181,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "Treasure Ship Captain",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "——神使大人。",
+			say = "...O faithful one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,12 +197,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "深海神使",
+			factiontag = "Abyssal Servant",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,12 +212,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "深海神使",
+			factiontag = "Abyssal Servant",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好。",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「飓风与沉眠之海」·完",
+					"Tempesta and the Sleeping Sea - The End",
 					1
 				}
 			}

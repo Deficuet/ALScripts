@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning——第五防卫机构被突破——Warning. Warning",
+			say = "Warning. Warning—— The 5th defensive line has been breached—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "Warning. Warning——执行者机关毁坏率超过82%——Warning. Warning",
+			say = "Warning. Warning—— Destruction of combat-operational units in excess of 82%—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "我曾经尝试温柔的对待这个世界，没想到这却是对它最大的伤害…",
+			say = "I wanted this world to be kinder, but in the end, that was my greatest folly... Even this power was no match for Them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "…现在的我们就算借用海洋的优势也根本没有战胜它们的能力…",
+			say = "In that case... For the sake of survival, I must make this world cruel. Cruel enough so that we can adapt, mutate, and survive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "所谓进化其实就是一个自然筛选的过程，给予越为严苛的环境，能生存下来的样本就是越强的【模因】",
+			say = "Under constant selective pressure, we will continue to evolve until finally, a specimen with the power to defeat Them is created.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "弱肉强食、优胜劣汰，天经地义",
+			say = "Countless lives will be lost in the process, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "看到了吗？这就是你的软弱所带来的凄惨结局——",
+			say = "Do you see it now? That is the price that must be paid because of human weakness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning——第二数据中心发生事故——Warning. Warning",
+			say = "Warning. Warning—— A fire has broken out in the second data center—— Warning. Warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "Warning. Warning——观察系统前端分支受到重创——Warning. Warning",
+			say = "Warning. Warning—— Observation system front-end has been irreversibly damaged—— Warning. Warning",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "至少…在最后，我们还有机会尝试修正错误的历史…",
+			say = "Looks like this is it for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "...玲",
+			say = "My dear Zero...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,8 +204,8 @@ return {
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者-零",
-			say = "在",
+			actorName = "Observer-zero",
+			say = "I’m here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "重启【审判者】计划",
+			say = "Carry out the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "未来……不…",
+			say = "The future... No...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "人类的过去…就交给你们了",
+			say = "Humanity's past... is now in your hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,12 +260,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "观察者-零",
+			actorName = "Observer-zero",
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "遵命",
+			say = "Mission accepted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "观察者-零",
+			actorName = "Observer-zero",
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——【审判者】大人",
+			say = "––Magister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "那么~至少在最后，该来个漂亮的谢幕烟火了——",
+			say = "Hah... At least, let me enjoy the fireworks to my curtain call––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

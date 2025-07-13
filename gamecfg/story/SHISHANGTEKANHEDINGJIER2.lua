@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[2]\n\n<size=45>紺海摇曳</size>",
+					"Port Fashion Collection! Part 2\n\n<size=45>2 Sojourn Through Clear Seas</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "阳光明媚，风平浪静。应{namecode:294}之约，与她在海边相会。",
+			say = "On Unzen's invitation, I've come to the beach. We gaze at the calm seas together, enjoying the tranquility.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "指挥官大人，请喝茶。",
+			say = "Here, Commander, have some tea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "太淡了？抱歉，在{namecode:294}看来，这茶已经汲取了茶叶的精华所在，因而提前过滤……",
+			say = "...Oh, you find its taste lacking? I thought the leaves had sufficiently infused the water, so I strained them in advance...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "没想到弄巧反拙了呢……",
+			say = "It seems this had the opposite effect of what I intended...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "茶虽然清淡，但细品之下，能感受到{namecode:294}独特的风味。",
+			say = "That's not strictly true. I tell her that the aftertaste definitely makes me think of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，感谢指挥官大人的体谅。",
+			say = "Heehee. That makes me feel better. Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "来，指挥官大人，请坐在{namecode:294}的身边吧。",
+			say = "Now, why don't you come and lie down beside me? The view is quite different here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,11 +133,11 @@ return {
 			},
 			options = {
 				{
-					content = "感觉会不小心掉进海里。",
+					content = "But what if I fall into the water?",
 					flag = 1
 				},
 				{
-					content = "感觉位置不够宽敞。",
+					content = "Wouldn't it be pretty cramped, though?",
 					flag = 2
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无需担忧，有我在您身边。",
+			say = "You need not worry about that. I promise you it won't happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且，如果指挥官大人真的掉进海里，{namecode:294}也会一同跳下。",
+			say = "Oh, but if you do wish to swim in the deep blue, I will gladly join you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难不成，指挥官大人不希望与{namecode:294}一同在海中畅游？",
+			say = "That sounds like it could be fun. Unless you'd prefer to swim alone, that is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要不介意肌肤相抵，位置对两人而言绰绰有余。",
+			say = "You think so? I think there's plenty of space for both of us if you don't mind our skins touching.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难不成，指挥官大人不希望与{namecode:294}有过深的接触？",
+			say = "Granted, that is a big if... Maybe that IS something you'd prefer to avoid?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于是，两人坐在拥挤的吊床上，时而拂面的海风也吹不散身旁{namecode:294}散发的独特香气。",
+			say = "I don't want her to jump to any more conclusions, so I shrug and sit down in the hammock. Immediately, my nose picks up a saline breeze and a pure scent coming from Unzen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官大人，感谢您今天陪我云游。",
+			say = "Thank you, truly, for indulging this wanderer today, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "自从与指挥官大人相遇以来，每次云游我都会想起您。",
+			say = "You know, I've known you for a while now, and thoughts of you always come to mind whenever I go wandering.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "虽然{namecode:294}真正希望的，是和指挥官大人离开海港四处云游……",
+			say = "If the fates permitted it, I would freely walk the lands for years with only you by my side... Of course, that's not going to happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但是，持续数个小时的短暂相伴，也足以让{namecode:294}满足。",
+			say = "But, even being with you for a few hours still makes me feel unbelievably fulfilled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，指挥官大人无需感到歉意。",
+			say = "...Oh, please, there's no need to be sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "守护航路的工作繁重。",
+			say = "It's just a pipe dream of mine. I know you cannot abscond your role in protecting the world's lanes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在真正的和平到来之前，指挥官大人还需要恪尽职守才是。",
+			say = "I ask only that you stay true to your duty until we can enjoy true, lasting peace.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			},
 			options = {
 				{
-					content = "终有一日，会与你一起云游四方。",
+					content = "One day, I'll make your dream come true.",
 					flag = 1
 				}
 			}
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "指挥官大人……",
+			say = "Oh, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，没想到您短短一句话，能让我的内心如此触动。",
+			say = "All those days I languished over what my dream is... You are the only one who can bring such a tempest to my calm heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:294}会记住这个一生的约定的，指挥官大人。",
+			say = "I will remember that promise until the end of my days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "未来就展望到这里，接下来，我们好好享受当下吧——",
+			say = "But for now, let's just enjoy this moment to ourselves...",
 			painting = {
 				alpha = 0.3,
 				time = 1

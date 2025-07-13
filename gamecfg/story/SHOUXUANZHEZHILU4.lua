@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>计划之内？</size>",
+					"Path of the Chosen\n\n<size=45>4 Plans Within Plans?</size>",
 					1
 				}
 			}
@@ -21,15 +21,15 @@ return {
 			say = "NA海域·中心奇异点边缘",
 			sequence = {
 				{
-					"NA海域·中心奇异点边缘",
+					"NA Ocean - Area Near Central Singularity",
 					1
 				},
 				{
-					"审判庭特殊行动舰队",
+					"Tribunal Special Fleet",
 					2
 				},
 				{
-					"几日后",
+					"Days later",
 					3
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "透过指挥甲板的玻璃，奇异点的入口形状已经清晰可见了。",
+			say = "I look through the glass on the command deck. The entrance to the Singularity is clear as day.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "鉴于马可波罗的存在是一个不宜公开的秘密，本次行动由审判庭一方独自负责。",
+			say = "Since Marco Polo's status is a closely-guarded secret, it was decided that this mission would be handled solely by the Tribunal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "克莱蒙梭在完成部署后留在了欧罗巴吸引外部视线，护送则由可怖带领的审判庭人员负责。",
+			say = "After Clemenceau finished organizing the mission, she decided to remain in Europa to draw the world's attention away from us. The duty of escorting the fleet was left to Le Terrible and her fellow Tribunal members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "临行前，{namecode:182:信浓}在船舱中布置了与之前在审判庭地下据点中相同的示警法阵，以防万一。",
+			say = "Prior to departure, Shinano placed another magic circle alarm on the ship, like the one within the Tribunal's secret base. Just as a safety measure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "还好，此行一路顺风。",
+			say = "Fortunately, nothing has happened on our journey thus far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "指挥官，距离约定的时间还有半个多小时，我们是直接进去，还是再等一会？",
+			say = "Commander, there is just over 30 minutes until the agreed time. What are your orders? Shall we go in directly or wait a while longer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "奇异点内部的情况变幻难测，就算是较为温和的入口区域也不能放松警惕。",
+			say = "It's incredibly convoluted inside the Singularity. We can't afford to get careless even near the comparatively stable entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "多一分钟就多一分危险，还是等到准点再进入吧。",
+			say = "If we went inside early, we'd have to wait anyway and be in more danger all the while. Let's just wait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "好，那我再做一遍检查。",
+			say = "Understood. I'll perform another inspection in the meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "拉·加利索尼埃，“帽子小姐”状态如何？",
+			say = "Galissonnière, how is Miss Hat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "“帽子小姐”还是老样子，示警法阵也没变化。",
+			say = "No change in status. Same thing with Shinano's magic circle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，继续观察。我们还要再徘徊一阵，半小时后准时进入奇异点。",
+			say = "Okay. Remain vigilant. We'll circle around for a while longer and enter the Singularity in 30 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解~",
+			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "同样是为了行动的保密性，在任何联络和记录中，马可波罗的名字都是用代号表示的。",
+			say = "To ensure mission confidentiality, we're referring to Marco Polo by a codename in all our documentation and communications.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "“帽子小姐”，就是本次行动中马可波罗的代号。",
+			say = "The codename in question – Miss Hat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "这个代号是由克莱蒙梭亲自定下来的，不过当选理由不明。",
+			say = "Clemenceau proposed it, and out of curiosity, I asked her about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "在出于好奇询问的时候，她也只说了“反正马可波罗没意见”这种话……",
+			say = "She didn't really explain why, she only said, \"It's not like Marco can complain about it now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "既然如此，其他人也自然是没意见的。",
+			say = "Regardless, nobody had any qualms with it, so it's the codename we went with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "就这样，半小时顺利过去，我与这艘特制的审判庭量产型一同，再次进入了这个位于NA海域中心的奇异点中。",
+			say = "Half an hour passed without incident, after which we sailed the Tribunal's custom-made mass-produced ship into the heart of the NA Ocean Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "经历了一阵熟悉的眩晕感后，奇异点内与外部截然不同的海况出现在了眼前。",
+			say = "After another bout of that familiar dizziness, we found ourselves in a completely different sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "望着窗户外涌动的暗红色云层，心中不禁涌现出些许感慨。",
+			say = "Gazing out the window at the red clouds overhead, I'm suddenly overcome with strong emotion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不知不觉间……已经逐渐熟悉这种穿过奇异点的感觉了啊。）",
+			say = "(I'm getting used to moving through Singularities, for better or worse...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（从天气上来看……本日的环境主题是——红色系。）",
+			say = "(Those clouds... That's a foreboding sign.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "没错，眼前这种看上去危险又邪恶的环境，其实与外部普通的蓝天白云并没有什么区别。",
+			say = "Everywhere I look, it's red – the color of danger and malice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "奇异点内对于危险的判定是不能从颜色上判断的。",
+			say = "However, one annoying aspect about Singularities is that you cannot judge them by their color. Red doesn't tell us anything concrete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,9 +390,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi,",
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "指挥官，很准时。",
+			say = "You're right on time. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "事不宜迟，我们开始交接吧。",
+			say = "If you're ready, then let's get started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你们现在在哪里？我没观测到你们的位置。",
+			say = "Kasumi? Where are all the others? I can't pinpoint your location from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我们已经根据海伦娜的部署藏起来了。",
+			say = "They're in hiding, just as Helena instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "你们把量产型留在这里，然后直接返回就好。",
+			say = "You can just leave your mass-produced vessel behind and turn back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来海伦娜很确信这次能够把目标钓出来啊。",
+			say = "Hmm. Helena must be very confident that this is going to bait out Magician.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9712010,
-			say = "放心吧，指挥官，我们会照顾好“帽子小姐”的。",
+			say = "Mhm. Don't worry, Commander. We'll look after Miss Hat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "指挥官，可怖，示警法阵突然开始闪光了！",
+			say = "Commander, Terrible, Shinano's magic circle started glowing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……闪光，不就意味着……",
+			say = "That light can only mean one thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "不用担心，海伦娜发来了消息，目标上钩。",
+			say = "It's okay. Helena sent a message: \"The target has taken the bait.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "她已经在外部开始拦截了，让我们等到示警法阵恢复正常后再行动。",
+			say = "She is already on intercept course on the outside. Just wait until the magic circle has returned to normal before you do anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（没想到还真来了……我们才刚进入奇异点而已，反应是不是有些太快了……？）",
+			say = "(She took the bait almost immediately? We entered the Singularity only moments ago. It seems way too good to be true.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是说，带着马可波罗进入奇异点这一行为，会触发她设下的某种监控机制？）",
+			say = "(Unless... maybe Magician set up some kind of mechanism to automatically notify her when Marco Polo entered the Singularity?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（海伦娜是想到了这一点，才把交接安排在奇异点内的么……？）",
+			say = "(Did Helena know about this, and that's why she directed us to come here?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "指挥官，示警法阵的闪烁停止，光芒也熄灭了。",
+			say = "Oh. Commander, the circle's back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜那边怎么说？",
+			say = "Any word from Helena?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "她说，“焦灼”。没事，不用担心她。",
+			say = "She said: \"Locked.\" Don't worry about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "既然示警法阵已经恢复正常，我们就继续开始交接流程吧。",
+			say = "Since the circle is back to normal, shall we continue the handover?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "还是和之前说的一样，我们现在不宜露面，你们将量产型留在水面上离开，之后由我们接手就好。",
+			say = "As I mentioned earlier, all you need to do is leave your vessel behind and turn back. We'll take over from there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题，我去完成最后一次数据记录。",
+			say = "Alright. Let me just log one last entry about Marco.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就这样，我推开了前往下层区的舱门。",
+			say = "Entering the lower deck of the vessel, I open the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "映入眼帘的，是一片纯白构成的世界——",
+			say = "Immediately, my vision turns blank.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

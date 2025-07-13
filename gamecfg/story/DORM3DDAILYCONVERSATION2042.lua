@@ -15,14 +15,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "和我一起运动的事情，你考虑得怎么样了呢？",
+			say = "Have you given any thought to my idea of us exercising together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "再让我纠结一下。",
+					content = "Give me more time.",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "唔，虽然是为了你的健康着想，但你平时的工作也很累。",
+			say = "It's for your own health, but I won't force you into anything. I know your work is already very exhausting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,14 +70,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "要不要从简单一点的开始？这样应该就不会纠结了吧。",
+			say = "How about we start with something simple? Then you won't have to worry that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "可以从简单的开始么？",
+					content = "Can we start with something simple?",
 					flag = 1
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "例如……做文书工作的时候用空闲的手举一下哑铃？怎么样？",
+			say = "How about... when you're processing paperwork, you lift a dumbbell with your free hand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我也会看着，不会让你受伤的哦。",
+			say = "I'll sit by the side and make sure you don't hurt yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>好孩子的奖励</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Hard Work is Rewarded</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "在{namecode:84}的邀请下，来到城堡附近的湖面泛舟。",
+			say = "Musashi invites me onto a small boat. We'll follow the canal to get to the banquet.",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "怎么了？指挥官，你的表情~",
+			say = "Hmm? You have a curious expression on you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "呵呵……难道是我这身衣装很奇怪吗？",
+			say = "Is it my kimono you're drawn to? It's my only one, at the moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "这是……女仆装？",
+			say = "Dressing appropriately for the banquet is a must... and for some reason, she decided to change into a more traditional outfit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "被你看出来了，呵呵~",
+			say = "I'm sure you recognize it. It's what I wore at our pop-up café.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "{namecode:225}那孩子带来了不少衣装，里面正好有这件呢。",
+			say = "It's one of the reserve garments I packed in case something happened. I didn't expect to actually use it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官今天应该是在帮宴会主办方工作吧。",
+			say = "But enough about me – I've heard you're not only a guest at the banquet, but also something of an organizer as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "居然连这件事都知道……",
+			say = "\"You've heard correctly. Who told you that, though?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "凭空猜测而已，毕竟你一直都是个热心肠嘛。",
+			say = "No one. It was merely a deduction based on your character. You are someone we can always turn to for help with anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "工作了这么久，又来帮我收拾行李，应该累坏了吧？",
+			say = "On top of you working all day, you just helped with that luggage. You must be quite exhausted, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,11 +227,11 @@ return {
 			},
 			options = {
 				{
-					content = "完全不累！",
+					content = "\"Can't say I am.\"",
 					flag = 1
 				},
 				{
-					content = "我好累……",
+					content = "\"You got that right...\"",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官还真是充满干劲呢，但是……",
+			say = "Putting on a strong front for your subordinates is all fine and well. However...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在我身边的话，不需要那么勉强也可以哦。",
+			say = "You needn't do it for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就靠到我的身边来吧，无需羞怯。",
+			say = "Then come hither. Rest your weary bones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "这里是湖水之中的一叶孤舟，没有人能打扰到我们。",
+			say = "No one can see us aboard this boat, much less interrupt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官可以不用顾虑，尽情释放身体中积累的疲劳。",
+			say = "You may seek comfort beside me without fear of being judged.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "嗯？指挥官不说话，是心中仍有挂念之事？",
+			say = "...No response? Is there something that prevents you from relaxing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "工作倒是早就结束了，只不过……",
+			say = "\"Not really. My work for the day is done, so it's not that. It's just...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "不需要“只不过”，单纯把工作结束这件事就已经很了不起了哦。",
+			say = "There is no need for \"justs.\" You deserve a break after a tiring day, simple as that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "来吧~指挥官~闭上~眼睛。",
+			say = "Now, close your eyes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "(Do as she says.)",
 					flag = 1
 				}
 			},
@@ -427,11 +427,11 @@ return {
 			bgm = "story-richang-6",
 			sequence = {
 				{
-					"<size=51>不要紧张，再放松一点~（嗼呋嗼呋❤~）</size>",
+					"<size=51>Don't be nervous. Relax your muscles. *fluff fluff* ♥</size>",
 					2.5
 				},
 				{
-					"<size=51>怎么样？很舒服的吧~呵呵~</size>",
+					"<size=51>Yes, just like that. Feels comfortable, no? Heehee.</size>",
 					3
 				}
 			}
@@ -440,11 +440,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>感觉到压力释放了吗？（嗼呋嗼呋❤~）</size>",
+					"<size=51>I feel the fatigue leave my body – or is it my consciousness? It's hard to say...</size>",
 					2.5
 				},
 				{
-					"<size=51>（嗼呋嗼呋❤……嗼呋嗼呋❤……）</size>",
+					"<size=51>*fluff fluff*...♥ *fluff fluff*...♥</size>",
 					3
 				}
 			}
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "感觉度过了一段，短暂、悠然。又漫长的时光——",
+			say = "A brief, relaxing eternity passes aboard the boat. It really was what I needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

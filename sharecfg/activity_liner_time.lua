@@ -2,9 +2,9 @@ pg = pg or {}
 pg.activity_liner_time = {
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 1,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -17,9 +17,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「启航之宴」",
+		desc_before = "Attend the maiden voyage banquet.",
 		id = 2,
-		desc_after = "吃饱喝足，宴会圆满结束",
+		desc_after = "You had a great time at the banquet.",
 		bg_name = "day",
 		time = {
 			8,
@@ -32,9 +32,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "计划去运动场活动一下",
+		desc_before = "Go to the gym and exercise.",
 		id = 3,
-		desc_after = "在运动场见识了一场精彩的比赛",
+		desc_after = "You saw a fantastic match.",
 		bg_name = "day",
 		time = {
 			12,
@@ -47,9 +47,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "计划去水族馆参观一下",
+		desc_before = "Check out the aquarium.",
 		id = 4,
-		desc_after = "在水族馆度过了惬意的时光",
+		desc_after = "You had a leisurely time at the aquarium.",
 		bg_name = "day",
 		time = {
 			14,
@@ -62,9 +62,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去露天水吧小酌几杯",
+		desc_before = "Have a drink at the balcony bar.",
 		id = 5,
-		desc_after = "欣赏了柴郡厉害的魔术表演",
+		desc_after = "Cheshire's magic show was phenomenal.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -78,9 +78,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 6,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -89,9 +89,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "前去神秘角落赴约",
+		desc_before = "Go to the mystery room.",
 		id = 7,
-		desc_after = "成为，调查员！",
+		desc_after = "You should retire and become a detective!",
 		bg_name = "night",
 		time = {
 			1,
@@ -108,9 +108,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 8,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -123,9 +123,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去露天泳池游泳",
+		desc_before = "Check out the deck pool.",
 		id = 9,
-		desc_after = "将过热的阿尔萨斯送去了医务室",
+		desc_after = "You carried Alsace to the medical bay after she overheated.",
 		bg_name = "day",
 		time = {
 			8,
@@ -138,9 +138,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去居住区转转",
+		desc_before = "Have a stroll through the cabin areas.",
 		id = 10,
-		desc_after = "一切正常，无事发生",
+		desc_after = "Huh. Nothing happened.",
 		bg_name = "day",
 		time = {
 			12,
@@ -153,9 +153,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「水上乐园大赛」",
+		desc_before = "Play in the water park tournament.",
 		id = 11,
-		desc_after = "激战后，大赛圆满结束",
+		desc_after = "The competition was fierce and the match was a smash hit.",
 		bg_name = "day",
 		time = {
 			14,
@@ -168,9 +168,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "去教室看看或许会很有趣",
+		desc_before = "Check out the classroom.",
 		id = 12,
-		desc_after = "好好学习，天天向上",
+		desc_after = "The girls are studying hard out there.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -184,9 +184,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 13,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -195,9 +195,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "调查异常事件",
+		desc_before = "Investigate a mystery.",
 		id = 14,
-		desc_after = "异常事件调查完毕",
+		desc_after = "You investigated a mystery.",
 		bg_name = "night",
 		time = {
 			1,
@@ -207,7 +207,7 @@ pg.activity_liner_time = {
 			{
 				7,
 				1,
-				"收到{namecode:427}的联络后来到了女仆咖啡厅。不远处，一些同伴正围着一张餐桌交谈着。",
+				"Prinz Eugen messaged me to come to the maid café. I spot her and some friends around a table in a corner of the place.",
 				{
 					1
 				}
@@ -215,7 +215,7 @@ pg.activity_liner_time = {
 			{
 				6,
 				1,
-				"露天公园中，布里斯托尔似乎正调查着什么。",
+				"In the onboard garden, I spot Bristol looking around.",
 				{
 					2
 				}
@@ -223,7 +223,7 @@ pg.activity_liner_time = {
 			{
 				8,
 				1,
-				"在路过运动场时，听到了重物拖过地板的声音。",
+				"As I'm passing by the gym, I hear the scraping of a heavy object being dragged along the floor.",
 				{
 					3
 				}
@@ -232,9 +232,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 15,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -247,9 +247,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去露天公园散步",
+		desc_before = "Have a break at the garden.",
 		id = 16,
-		desc_after = "获得了星座的“谢礼”",
+		desc_after = "You got a thank-you gift from Constellation.",
 		bg_name = "day",
 		time = {
 			8,
@@ -276,10 +276,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"休息或其他"
+				"Free time."
 			},
 			{
-				"重返「无人岛」"
+				"Disembark on Seabreeze Island."
 			},
 			{},
 			{},
@@ -289,10 +289,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"休息或其他"
+				"Free time."
 			},
 			{
-				"重返「无人岛」"
+				"Disembark on Seabreeze Island."
 			},
 			{},
 			{},
@@ -301,9 +301,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "预定去大浴场找莫加多尔",
+		desc_before = "Visit the thermae with Mogador.",
 		id = 18,
-		desc_after = "最后成功修好了更衣室的空调",
+		desc_after = "You fixed the AC in the dressing room while you were there.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -317,9 +317,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 19,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -328,9 +328,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "调查异常事件",
+		desc_before = "Investigate a mystery.",
 		id = 20,
-		desc_after = "调查阶段性会议顺利闭幕",
+		desc_after = "You and the Investigation Committee had a meeting.",
 		bg_name = "night",
 		time = {
 			1,
@@ -340,7 +340,7 @@ pg.activity_liner_time = {
 			{
 				25,
 				1,
-				"收到龙武的联络后来到了中央厨房。厨房中，一些同伴正在四处翻找着什么。",
+				"I got a message from Lung Wu to come to the central kitchen. The people inside are looking around for something.",
 				{
 					4
 				}
@@ -348,7 +348,7 @@ pg.activity_liner_time = {
 			{
 				10,
 				1,
-				"收到纽卡斯尔的联络来到了宴会厅的储藏室。",
+				"Newcastle contacted me, urging me to come to the banquet hall's food storage.",
 				{
 					5
 				}
@@ -356,7 +356,7 @@ pg.activity_liner_time = {
 			{
 				28,
 				1,
-				"两起事件都与食物有关，而说到食物保有量最大的地方，无疑就是仓库了。",
+				"Both the previous two incidents involved food. The place with the most food on board is without a doubt the warehouse.",
 				{
 					6
 				}
@@ -371,9 +371,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 21,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -386,9 +386,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「安全演习」",
+		desc_before = "Participate in the security drill.",
 		id = 22,
-		desc_after = "护送任务成功，演习圆满结束",
+		desc_after = "You saw the drill to its completion.",
 		bg_name = "day",
 		time = {
 			8,
@@ -401,9 +401,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "今天的转接区好像很热闹",
+		desc_before = "Investigate the commotion at the cargo unloading area.",
 		id = 23,
-		desc_after = "今天的转接区好像很热闹",
+		desc_after = "Investigate the commotion at the cargo unloading area.",
 		bg_name = "day",
 		time = {
 			12,
@@ -416,9 +416,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "预定去露天泳池找圣路易斯",
+		desc_before = "Speak to St. Louis at the deck pool.",
 		id = 24,
-		desc_after = "防晒乳很有效，冰饮也好喝",
+		desc_after = "The sunscreen worked, and the drinks were good.",
 		bg_name = "day",
 		time = {
 			14,
@@ -431,9 +431,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "去厨房看看吧",
+		desc_before = "Visit the central kitchen.",
 		id = 25,
-		desc_after = "厨房，好吃",
+		desc_after = "Mmm. Kitchen treats.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -447,9 +447,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 26,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -458,9 +458,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "调查异常事件",
+		desc_before = "Investigate a mystery.",
 		id = 27,
-		desc_after = "异常事件调查完毕",
+		desc_after = "You investigated a mystery.",
 		bg_name = "night",
 		time = {
 			1,
@@ -470,7 +470,7 @@ pg.activity_liner_time = {
 			{
 				17,
 				1,
-				"根据抚顺收集到的情报来到了居住船舱（A区）的某条走廊中。",
+				"Fu Shun and I come to cabin quarter A in order to investigate a lead she had found.",
 				{
 					7
 				}
@@ -478,7 +478,7 @@ pg.activity_liner_time = {
 			{
 				18,
 				1,
-				"接到在记者兼调查员阿尔弗雷多的联络，来到了居住船舱（B区）",
+				"Detective-journalist Alfredo Oriani contacts me, and we meet up at cabin quarter B.",
 				{
 					8
 				}
@@ -486,7 +486,7 @@ pg.activity_liner_time = {
 			{
 				19,
 				1,
-				"路过居住船舱（C区）的走廊时，看见了一个鬼鬼祟祟的身影。",
+				"When I go through the corridor of cabin quarter C, I see someone skulking around.",
 				{
 					9
 				}
@@ -507,56 +507,56 @@ pg.activity_liner_time = {
 		},
 		desc_before = {
 			{
-				"休息或其他"
+				"Free time."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			}
 		},
 		desc_after = {
 			{
-				"休息或其他"
+				"Free time."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			},
 			{
-				"遭遇'海盗'劫持"
+				"You've been \"kidnapped\" by pirates."
 			}
 		}
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 29,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -569,9 +569,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "阳光明媚，宜晒太阳",
+		desc_before = "It's a perfect day to sunbathe.",
 		id = 30,
-		desc_after = "与滨江定下了新的约定",
+		desc_after = "You made a new promise to Harbin.",
 		bg_name = "day",
 		time = {
 			8,
@@ -584,9 +584,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "前往「飓风码头」观光",
+		desc_before = "Tour Tempesta's base.",
 		id = 31,
-		desc_after = "在水下得到了“宝藏”",
+		desc_after = "You found \"treasure\" hidden under the surface.",
 		bg_name = "day",
 		time = {
 			12,
@@ -599,9 +599,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "去居住区寻找{namecode:81}的身影",
+		desc_before = "Meet Tosa at the cabin area.",
 		id = 32,
-		desc_after = "于舞会前欣赏了美好的风景",
+		desc_after = "You were treated to a nice view before the party.",
 		bg_name = "day",
 		time = {
 			14,
@@ -614,9 +614,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「变装舞会」",
+		desc_before = "Attend the masquerade ball.",
 		id = 33,
-		desc_after = "曲终人不散，舞会圆满结束",
+		desc_after = "You saw the party to its conclusion.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -630,9 +630,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 34,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -641,9 +641,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "前往储藏室赴约",
+		desc_before = "Check out the food storage.",
 		id = 35,
-		desc_after = "异常事件终于真相大白了",
+		desc_after = "After much work, you finally got to the bottom of the case.",
 		bg_name = "night",
 		time = {
 			1,
@@ -660,9 +660,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 36,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -675,9 +675,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "去驾驶台调查浮冰情况",
+		desc_before = "Watch for icebergs on the bridge.",
 		id = 37,
-		desc_after = "冰山变成了冰雕，好看",
+		desc_after = "The iceberg got turned into ice sculptures. Recycling is good!",
 		bg_name = "day",
 		time = {
 			8,
@@ -690,9 +690,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「女仆营业大比拼」",
+		desc_before = "See what the maid competition is about.",
 		id = 38,
-		desc_after = "比拼结束了么？或许吧",
+		desc_after = "Looks like the match is over. Probably.",
 		bg_name = "day",
 		time = {
 			12,
@@ -705,9 +705,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "计划去猫房治愈一下精神",
+		desc_before = "Play with cats at the cat lodge.",
 		id = 39,
-		desc_after = "用高效手段抓回了越狱的猫",
+		desc_after = "You returned a cat to the cat lodge.",
 		bg_name = "day",
 		time = {
 			14,
@@ -720,9 +720,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "前去{namecode:455}的船舱赴约",
+		desc_before = "Visit Adalbert in her cabin.",
 		id = 40,
-		desc_after = "肥皂危险，小心地滑",
+		desc_after = "You should watch your step so you don't slip.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -736,9 +736,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 41,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -747,9 +747,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "前往神秘角落赴约",
+		desc_before = "Rendezvous at the mystery room.",
 		id = 42,
-		desc_after = "异常事件再次出现，继续调查",
+		desc_after = "Another mystery has cropped up. Time to investigate.",
 		bg_name = "night",
 		time = {
 			1,
@@ -766,9 +766,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 43,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "night",
 		time = {
 			3,
@@ -781,9 +781,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "去大商场购物",
+		desc_before = "Go shopping at the mall.",
 		id = 44,
-		desc_after = "找到了商品中隐藏的真相",
+		desc_after = "You uncovered the truth hidden inside the product.",
 		bg_name = "day",
 		time = {
 			8,
@@ -796,9 +796,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去居住区转转",
+		desc_before = "Have a stroll through the cabin areas.",
 		id = 45,
-		desc_after = "好险，差点就睡着了……",
+		desc_after = "That was close. You almost dozed off.",
 		bg_name = "day",
 		time = {
 			12,
@@ -811,9 +811,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "比赛前先去娱乐室找找手感",
+		desc_before = "Game it up at the arcade.",
 		id = 46,
-		desc_after = "接受了塔什干的“惩罚”",
+		desc_after = "You were given a \"punishment\" by Tashkent.",
 		bg_name = "day",
 		time = {
 			14,
@@ -826,9 +826,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参与「游戏之夜」",
+		desc_before = "Game night time.",
 		id = 47,
-		desc_after = "游戏很好玩",
+		desc_after = "GGWP.",
 		bg_name = "dusk",
 		time = {
 			18,
@@ -842,9 +842,9 @@ pg.activity_liner_time = {
 	{
 		param = "4",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 48,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "night",
 		time = {
 			20,
@@ -853,9 +853,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "调查异常事件",
+		desc_before = "Investigate a mystery.",
 		id = 49,
-		desc_after = "异常事件调查完毕",
+		desc_after = "You investigated a mystery.",
 		bg_name = "night",
 		time = {
 			1,
@@ -865,7 +865,7 @@ pg.activity_liner_time = {
 			{
 				23,
 				1,
-				"路过电影院时，听到了一声凄惨的尖叫，紧接着是一连串细小的爆炸声。",
+				"When I pass by the movie theater, I hear a scream followed by several small explosions.",
 				{
 					10
 				}
@@ -873,7 +873,7 @@ pg.activity_liner_time = {
 			{
 				21,
 				1,
-				"收到佩萨格诺的联络，大浴场中举行的撒丁派对出现了一场极其严重的危机事件。",
+				"Emanuele Pessagno calls me about a serious crisis unfolding at the Sardegnian bath party.",
 				{
 					11
 				}
@@ -881,7 +881,7 @@ pg.activity_liner_time = {
 			{
 				24,
 				1,
-				"路过大商场时，埃塞克斯突然提出要去商场里购买纪念品。",
+				"As we walk by the mall, Essex suddenly says she wants to go in and buy souvenirs.",
 				{
 					12
 				}
@@ -890,9 +890,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 4,
-		desc_before = "休息或其它",
+		desc_before = "Rest time.",
 		id = 50,
-		desc_after = "休息或其它",
+		desc_after = "Rest time.",
 		bg_name = "aurora",
 		time = {
 			3,
@@ -905,9 +905,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "考虑去露天阳台散心",
+		desc_before = "Have a breather on the balcony.",
 		id = 51,
-		desc_after = "从{namecode:448}处得到了“指引”",
+		desc_after = "You got a hint from Emden.",
 		bg_name = "aurora",
 		time = {
 			8,
@@ -920,9 +920,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 1,
-		desc_before = "参加「露天海上烧烤会」",
+		desc_before = "Attend the open-air barbecue.",
 		id = 52,
-		desc_after = "极光下，露天海上烧烤会圆满成功",
+		desc_after = "Barbecue party under the aurora was a great success.",
 		bg_name = "aurora",
 		time = {
 			12,
@@ -950,10 +950,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"还有在返航前需要处理的工作"
+				"There is still work to be done before returning."
 			},
 			{
-				"无计划自由时间"
+				"Free time."
 			},
 			{},
 			{}
@@ -963,10 +963,10 @@ pg.activity_liner_time = {
 			{},
 			{},
 			{
-				"和孟菲斯一同在办公室工作"
+				"You and Memphis chipped away at some work together."
 			},
 			{
-				"和孟菲斯一同在办公室工作"
+				"You and Memphis chipped away at some work together."
 			},
 			{},
 			{}
@@ -975,9 +975,9 @@ pg.activity_liner_time = {
 	{
 		param = "3",
 		type = 2,
-		desc_before = "无计划自由时间",
+		desc_before = "Free time.",
 		id = 54,
-		desc_after = "探索了$1",
+		desc_after = "You investigated $1.",
 		bg_name = "aurora",
 		time = {
 			20,
@@ -986,9 +986,9 @@ pg.activity_liner_time = {
 	},
 	{
 		type = 3,
-		desc_before = "调查异常事件",
+		desc_before = "Investigate a mystery.",
 		id = 55,
-		desc_after = "得到了真正的真相",
+		desc_after = "You learned the truth.",
 		bg_name = "aurora",
 		time = {
 			1,

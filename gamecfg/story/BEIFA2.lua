@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=45>二 意外的成果</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 2 - Accidents Have Consequences</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "几日前·港区",
+			say = "Port - A Few Days Ago",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "准备好了喵？",
+			say = "Ready, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "嗯，随时可以开始",
+			say = "Yep. Just give the word.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "那就开始喵！《第256次心智魔方构成解析实验》喵！",
+			say = "Hit it, nya! Commence \"Wisdom Cube Composition Analysis Test #256,\" nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "心智魔方对于我们来说，就好比舰船的龙骨",
+			say = "It's fair to say the Wisdom Cubes are sort of like our keels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "要是龙骨出问题了，那就糟糕了喵",
+			say = "If there's something wrong with your keel, you're in big trouble, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "然而虽然大家都知道，我们诞生自心智魔方，却至今没有人成功解析心智魔方的内部构成…",
+			say = "Although it's common knowledge we were born from the Wisdom Cubes, no one has ever successfully analyzed the internal composition of the cubes themselves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "心智魔方的获取只能依靠采集喵…正所谓黑箱喵…",
+			say = "The only way to get our hands on a Wisdom Cube is to harvest 'em, nya... They're what you'd call a \"black box,\" nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "然而这次不一样！我们弄到了这个！",
+			say = "But this time is different! This time we have this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "在与塞壬作战的海域偶然捡到的“兵器”喵",
+			say = "This \"weapon\" we got from a battle with the Sirens, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "姑且就叫它“集束光线发射装置”吧",
+			say = "We've tentatively named it the \"Focused Beam Emitter.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "虽然还不清楚原理，不过在输入大量电力后会从前端发射出带有高穿透力的热线喵",
+			say = "While we don't yet understand the principles at work, we do know that the device emits a heat ray with tremendous penetrative power when stimulated by a high voltage direct current, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "上次真是太危险了喵…{namecode:37}说着总之试着给它充电一下喵，结果直接导致港区大停电，而且脑袋差点就要穿个洞了喵…",
+			say = "We had a little problem last time... Yuubari said we oughta try recharging it, nya. Result was a base-wide blackout, and damn near a hole in my head, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "科学的发现总是伴随着危险和牺牲…",
+			say = "We must be willing to make sacrifices in the name of science...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "安全第一喵…",
+			say = "Safety comes first, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "这次特意准备了大型蓄电池附带断电保险装置",
+			say = "We've prepared a large capacitor to guard against any power surges this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "上次那种状况应该不会出现了…",
+			say = "So I don't expect we'll run into any such problems again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "再确认一次实验内容喵！",
+			say = "Let's run through the experiment one more time, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "以高能热线照射心智魔方，试着将其分解或切割，以便观测和分析其内部构成——",
+			say = "We will direct the high-energy heat ray at the Wisdom Cube in an attempt to disintegrate or penetrate it, that we may analyze its internal composition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "心智魔方和发射装置就位喵！虽然不知道会怎么样喵……",
+			say = "Wisdom Cube and Emitter in position nya! We're gonna see some serious shit, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "我要打开开关了，发射倒计时，3、2——",
+			say = "Engaging. Countdown: three, two...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，我来取之前预订的材料了——",
+			say = "Madam Akashi, I've come to retrieve those docu—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "贝、贝尔法斯特喵！？{namecode:37}等一下喵！",
+			say = "B-Belfast, nya!? Yuubari, halt the expe—!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "、1，集束光线发射！",
+			say = "One! Firing the Emitter!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东北航道D区域",
+			say = "Outside the Singularity - NA Ocean",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "{namecode:428}，你是不是对雷达做手脚了。",
+			say = "Eugen, you've tampered with the radar, haven't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次没有啊……？发生什么事了么？",
+			say = "Not this time. What's wrong with it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "……“这次”没有？",
+			say = "\"Not this time\"... I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从来没有过的意思哦~让我看看————",
+			say = "Really, I haven't. You're wondering about the Eagle Union and Northern Parliament fleets, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，还真是来势汹汹的部署啊！光靠白鹰和北方联合居然能在短时间拉出这么多舰队来，真是辛苦她们了。",
+			say = "I'll tell you right now, they're both actually here. Naval HQ greenlit this operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "是啊，多到让我以为雷达坏掉的程度。",
+			say = "Have they? That explains it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……虽说是拖延时间，不过真的要打么？",
+			say = "I see some of our forces are gearing up for battle. Are we not here simply to stall for time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:426}姐姐都那么兴致勃勃的进行准备了，不打的话也太扫兴了吧？",
+			say = "Not quite. When push comes to shove, you need to be ready to fight back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "我这就把侦察数据传给{namecode:426}她们，现在改变主意还来得及，大概。",
+			say = "Then allow me to transfer the recon data we've gathered. It should arrive in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别别别，来都来了，多少提起点干劲吧。",
+			say = "Don't. You have to save it for after at least a skirmish has broken out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对面拿出来了这么大规模的舰队千里迢迢赶过来，我们也要拿出对等的回应才是作为主办方的礼仪嘛。",
+			say = "They've assembled a massive fleet, you know. We need to show them we mean business too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "真没想到能从{namecode:428}嘴里听到“干劲”两个字，难道今天就是我{namecode:401}的最后一天了么。",
+			say = "I don't like it when you use the phrase \"mean business\"... Should I start writing my will?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，我会保护你的。别看我这样，该拿出干劲的时候可是毫不客气哦。",
+			say = "Not today. I promise to keep you safe, Z2.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "那真可靠。既然要对等回应，我们的舰队呢？",
+			say = "Please extend that promise to my little Lebe. In fact, to our entire fleet, if you would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们现在在海域中部署的“舰队”足足有碧蓝航线的数倍，还不够么？",
+			say = "I'm already doing my best to keep the Azur Lane at bay through radar jamming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "那些不都是假的……而且做的太夸张了，对面一眼就看穿了。",
+			say = "They'll see through the jamming as soon as they get close. What's more, I dare say you're going overkill with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看穿之后又如何？不还是得老老实实的一点一点排查处理。",
+			say = "Sure, they'll see through it, but then it's too late. Besides, overkill is the way to go when stalling for time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在这期间我们能够以逸待劳，集中舰队自由选择目标，就算在局部战斗处于上风也没什么问题哦？",
+			say = "While they scramble to work around the jamming... Bam, that's when we strike. Then we have a shot at winning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "原来是这样的“自助餐”战术……",
+			say = "So that's the plan... I cannot deny it is sound, at least in theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "那你选好目标了么？碧蓝航线指挥官身边的舰队强的夸张，就算局部战斗我也不推荐去碰。",
+			say = "You're sortieing too, aren't you? What is your target? Surely not the Commander's personal fleet, I hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那里已经有个更在意的人打算去硬碰硬了，我们就别去添乱了。",
+			say = "Please, why would I be? The Commander's our guest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比之下，我还有一个很在意的地方。",
+			say = "(Our next operation will run into difficulties if we commit too much to this one. But if we don't commit enough, we can expect Naval HQ to keep a watchful eye on us...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反正都要分散这些舰队，不如陪我去北方联合舰队那边热热身吧。",
+			say = "Tell you what – we'll go for the Northern Parliament's fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "我有的选么？",
+			say = "Very well then. I assume we have no other choice anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，大概没有。",
+			say = "You assume correctly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 401020,
-			say = "欸…………可别在热身中消耗过大哦，之后不是还有正菜要吃么。",
+			say = "As I tend to do... If we must fight, so be it, but please try not to aggravate them too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "放心放心~幻光系统就是为了执行这种作战而研发出来的，我心里有数~",
+			say = "Don't worry, I can't even if I wanted to. It's my job to keep adjusting the frequency on this little jammer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助维修师找到了丢失的扳手，获得了奖励【心智单元*10】"
+			say = "\"I, I'm not going to thank you for finding my wrench or anything!\" You received 10 Cognitive Chips!"
 		}
 	}
 }

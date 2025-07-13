@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>波光粼粼的游泳课</size>",
+					"Uncharted Summer\n\n<size=45>Learning How to Swim</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "码头近海。浅水清澈得能照出水底的倒影，闪亮的阳光破碎在粼粼波光之上。",
+			say = "The beach near the pier. The water is so clear you can see straight to the bottom. Rays of sunlight bounce off the sparkling waves, scattering in all directions.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "此时此刻，这里正在进行着一场别开生面的游泳课。",
+			say = "It is here where a slightly odd swimming lesson is taking place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "……与其说是游泳课，不如说是“约会”更为妥当。",
+			say = "No, \"swimming lesson\" is not the right phrase. \"Date\" might be more accurate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿咻……老师，这样的话，安克雷奇做得对吗？",
+			say = "Hmgh... There. Teacher, is Anchorage doing it right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "游得还可以嘛？嘿嘿~",
+			say = "This is how you swim, right? Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为是第一次，下水……安克雷奇有点怕。",
+			say = "I've never swam before, so I'm a little scared of drowning...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是老师在身边，所以不可怕，嗯！",
+			say = "But, you're right here if I need help, so I feel safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，老师教安克雷奇，也很……温柔。安克雷奇喜欢~",
+			say = "Your way of teaching is so... umm... gentle! Yeah, gentle! I like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要有老师在身边，安克雷奇，什么都能做到~！",
+			say = "I feel like I can do anything as long as I have you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "安克雷奇的脸上露出灿烂的笑容，向着我所在的方向靠近——",
+			say = "Anchorage gives me a heartwarming smile from atop her inflatable orca.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,11 +186,11 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸她的头作为奖励",
+					content = "(Give her headpats.)",
 					flag = 1
 				},
 				{
-					content = "夸奖她作为奖励",
+					content = "\"You're doing great so far.\"",
 					flag = 2
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿♪~老师的手心，暖暖的。",
+			say = "Heehee~ Your hand feels so warm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然夏天很热，但是，老师的手心依然很舒服。不是炎热，而是温暖。安克雷奇喜欢。",
+			say = "Even though it's super sunny, your hand feels warm in a good way. I love it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "老师夸安克雷奇，安克雷奇……很高兴！嘿嘿~",
+			say = "Teacher thinks I'm doing great... That makes me so happy! Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过，安克雷奇，还要更加努力一些。",
+			say = "But, it's not good enough. I need to do much better than just \"great.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "之后，要能和老师一起，自由自在地游泳才行。",
+			say = "So we can both swim together...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师，再靠近安克雷奇一点——",
+			say = "Teacher, come closer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "似乎是为了与我贴得更近一些，安克雷奇调转了方向——",
+			say = "I do just that, and she tries to change directions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "——结果似乎是因为没能控制好力度，差点滑进水中。",
+			say = "However, she can't control her orca, and nearly falls into the water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "伸手扶住了安克雷奇。湿漉漉的肌肤连同身体的温暖一同从手心传递到脑海里。",
+			say = "Acting quickly, I grab hold of her to stabilize her. Her wet body feels warm to the touch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不知是运动后的余韵还是其他的原因，安克雷奇的脸上也泛起了些许的红晕。",
+			say = "Her cheeks seem to redden, possibly because she's overexerted herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师，呜……安克雷奇，差点又沉下去……",
+			say = "Ugh... I was this close to falling off...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还要，接着向老师学习才行……!",
+			say = "I really need to practice with you more...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，也喜欢老师教安克雷奇时的感觉~！安克雷奇，再来——",
+			say = "But I like being taught by you, so that's okay! I'm gonna give this another try!",
 			painting = {
 				alpha = 0.3,
 				time = 1

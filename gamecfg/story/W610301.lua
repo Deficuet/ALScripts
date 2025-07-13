@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "指令执行中：正在打捞沉没的物资……警告，遭遇到塞壬舰队伏击。",
+			say = "Commencing retrieval of discarded supplies... Siren ambush fleet has been detected. Prepare to engage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

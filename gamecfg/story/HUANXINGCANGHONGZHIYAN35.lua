@@ -24,7 +24,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……好困。终于要结束了么……",
+			say = "...Sleepy. At last, it is over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "怎么说呢……这场剧目实在是平淡了些。",
+			say = "A perfect, happy ending... A truly insipid affair. Such is the caliber of work when I am not directing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是让我来做导演的话——",
+			say = "But, if the Commander did not exist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "在这里，执行仪式期间就可以设计得再激烈一些。这样一开场，故事就已经推向高潮了！",
+			say = "There is no backup plan for Mikasa and Musashi. The Sakura Empire's fleet, with no way of escaping the Singularity, is completely eradicated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "在这里，{namecode:83:大和}就不应该出手。做错了事就应该付出代价，否则怎么能让人记住教训的惨痛呢？",
+			say = "Even if Yamato manages to retrieve the data and send it into the oneiric world, if Shinano does not awaken, their companions will wander as lost souls for all of eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "这个幻境应该再惨烈些，而且要将轻率进入其中的{namecode:232:比叡·META}一起埋葬。多大的人了，有点危险意识吧！",
+			say = "Alone, Nagato has no choice but to turn to her META powers, and soon is swallowed up by the being born from the Singularity's obsession.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "至于相信可控META化技术的{namecode:74:长门}……干脆就应该被负面信息的集合体压垮。可千万不要轻易相信可控META化技术哦·~",
+			say = "Amagi fails to be resurrected. The Sakura Empire's fleet is consumed whole by the corrosion, forever lost to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "嗯~这部分的干涉应该推波助澜一下。",
+			say = "Kaga sacrifices herself to restore Akagi to her senses, but it is already too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这部分的话——应该完全屏蔽掉！",
+			say = "If the corruption is allowed to spread from Naraka, even if some are able to escape, 70% of all KAN-SEN are lost to the first wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "外部拖延时间的舰队，虽然可以不全灭……但是至少灭个七成吧，这样才能让有些人注意点行事的主次关系，少点节外生枝。",
+			say = "Afterward, Akagi witnesses the destruction of the world with her own eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "至于这个大团圆的结局……",
+			say = "The convergence of innumerable coincidences, inevitabilities, and convenient strokes of fate – a miracle that made even the impossible possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从概率学上来说，要想凑齐这么多“恰好”的条件……嗯，太巧了！",
+			say = "All to avert a tragic fate, even if it requires that the rules and rationality of the universe be bent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉，下次再接再厉吧。",
+			say = "A blissful future that the KAN-SEN dream of, a perfect world where grace falls equally upon all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最好是那种开头悬疑神秘、中间突生变故、结尾出人意料的……",
+			say = "Such is the happy ending desired by the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？看来到观影结束观众退场的时候了。",
+			say = "It looks like the audience is beginning to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "希望那群可爱的龙猫已经把想办的事办完了~",
+			say = "All that remains is for the rodents to pick at the scraps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900356,
-			say = "溜了，溜了~",
+			say = "I suppose that I, too, should make my exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

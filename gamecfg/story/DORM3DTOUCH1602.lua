@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您也开始迫不及待了吗？还不行哦……",
+			say = "Heehee. Are you raring to start? Please be patient.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch13",
 			typewriter = {
 				speed = 0.05,

@@ -17,14 +17,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}看上去好像状态不错，是遇到了什么开心的事吗？",
+			say = "You look quite happy today, my honourable {dorm3d}. Did something auspicious happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "因为来和天狼星见面了。",
+					content = "Yeah. I got to see you.",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……！！",
+			say = "Oh gosh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和{dorm3d}见面，也是天狼星一天中最开心的事。",
+			say = "Nothing fills my day with joy more than getting to see you, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位同伴，我回来了！战斗还顺利吧！",
+			say = "I'm finally back! Is everyone still hanging in there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "多亏了机关的作用，我们总算是成功压制住她了。",
+			say = "I never thought I'd be so glad to see you, but yeah, those mechanisms are making the fight much more manageable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "不如说我们这么多人，再加上四个机关才能压制住她……真是恐怖的战斗力。",
+			say = "(What's more, she seems to be getting weaker every time she taps into the Dragon Palace's power, just like Odin...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（虽然铁血舰队根本没怎么出力吧，唉……）",
+			say = "(Darn them, even though they knew all this, they barely lifted a finger to help!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "大家合力，再加把劲，我们就快取得胜利了！",
+			say = "Press the advantage! Just hold out a bit longer, everyone...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

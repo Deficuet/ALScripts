@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			bgm = "hunhe-story",
 			dir = 1,
-			say = "巴拿马要塞东侧·外海",
+			say = "Canal Stronghold - Surrounding waters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是现在负责指挥要塞驻防舰队指挥的，埃塞克斯级邦克山。",
+			say = "I'm Bunker Hill of the Essex-class, and I am in charge of the stronghold reinforcement fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 107170,
 			dir = 1,
-			say = "…接下来该怎么说才好…对了（小声）",
+			say = "(whispers) Um... What should I say next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位远道而来辛苦了…！",
+			say = "Ahem... Thank you for coming all the way out here...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -83,7 +83,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈哈…邦克山，接待讲话这种工作果然还是不适合你啊！",
+			say = "You don't have to read off the script, you know...",
 			effects = {
 				{
 					active = false,
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "这里都是自己人，不用这么拘束~埃塞克斯也来了哦。",
+			say = "We're all family here, so just take it easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好久不见，邦克山。",
+			say = "Long time no see, Bunker Hill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…好久不见。咳，埃塞克斯、还有企业…前辈？，现在向你们汇报要塞驻防情况。",
+			say = "Indeed. It's good to see you all, Essex, Intrepid, and, uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都是并肩作战的伙伴，直接叫我企业就好。",
+			say = "Just Enterprise is fine. Don't worry about the formalities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，企业。驻防舰队的成员，除了执行侦察任务还未归队的蓝鳃鱼以外，库珀、里诺、马布尔黑德，都在这里了。",
+			say = "Thanks. In any case, looks like everyone is here except for Bluegill, who's still out on patrol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿，我是艾伦·萨姆纳级的库珀哦，大家长途奔波一路辛苦了！哎，指挥官没来么？",
+			say = "Allen M. Sumner-class destroyer, Cooper here! You all must be tired from sailing all the way down here! ...Wait, where's the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,22 +206,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "指挥官现在和萨拉托加她们一起在白令海方向与北方联合进行联合作战。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这次事发突然，也不能因为调查任务就把指挥官从前线叫回来。",
+			say = "The Commander is with Saratoga for a joint operation with the Northern Parliament. We wouldn't be able to recall the Commander for a task like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +222,7 @@ return {
 			actor = 102270,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎~真是遗憾。还以为能趁此机会和指挥官搞好关系呢。",
+			say = "That's too bad~ I heard your commander was a total stud~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看不到Hero指挥官虽然有点遗憾，不过正所谓能力越大责任越大，指挥官也有必须去完成的工作啊。",
+			say = "So, the main hero isn't here, huh... I suppose this is one of those side stories when the sidekicks get to take front and center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +263,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说这次只能靠我们自己了么，呼呼，感觉大显身手的机会就要到了~！",
+			say = "Don't worry about it, Reno! As long as I'm here, everything's gonna go swimmingly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说到白令海啊…我记得盐湖城说过那地方冷得连锅炉都能冻熄火，也不知道是不是真的。",
+			say = "That Northern Parliament, where engines freeze over and stop working? Guh... just hearing about it makes me cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +312,7 @@ return {
 			side = 2,
 			actor = 102270,
 			dir = 1,
-			say = "诶~~~居然有·那么冷么？北方联合那边的环境中还真辛苦。还好我驻防的地方是有阳光鲜花和沙滩的巴拿马要塞。",
+			say = "Even if it gets below zero there, it's not like we don't have airfields that get that chilly as well. Trust me, there's no way an engine would suddenly freeze over and stop working just because of the temperature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +328,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "额…白令海的温度理论上应该没有低到会使锅炉熄火才对，八成是…",
+			say = "You sure know your stuff... Ahaha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +344,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为意外故障或者中弹导致的熄火对吧，这个我懂………",
+			say = "You didn't come across as the knowledgeable type, Marblehead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +369,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是我粗心了。大家都站在外面谈话也不方便，快进要塞里休息吧，",
+			say = "Ahem... Let's continue our chat inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +384,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我今天专门准备了鲜榨的热带果汁哦，大家边喝边谈吧~",
+			say = "Booyah! We also have some tropical punch inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +400,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好感觉口渴了，太好了！",
+			say = "Since we're just standing around here anyways, we might as well head inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +426,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "那大家就先去要塞里好好休息一下，之后谈正事吧…企业前辈？",
+			say = "That's right. Besides, we need to get around to drafting our rescue plan... Right, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +442,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "唔……刚刚路上有一处我有点在意的地方，我想再去调查一下。",
+			say = "Huh? Oh, sorry. I was thinking about something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +458,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "咦？企业发现什么线索了么，要不要我们陪你去？",
+			say = "Oh? Is something bothering you, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +474,7 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用不用，只是有一点违和感而已。而且就在要塞东侧海域附近，去看一下很快就回来。",
+			say = "It's no big deal. After this, let's all help search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +489,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里的情况邦克山最熟悉，布防计划可以先和她讨论，搜索计划等我调查结束之后再做决定。",
+			say = "There's a lot of territory to cover just to the east of the canal. We're going to have our work cut out for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

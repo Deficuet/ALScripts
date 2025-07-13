@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "在约定好的时间到达了露天水上乐园。",
+			say = "I arrive at the water park at the appointed time.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "指挥官来了！就等你了哦~！",
+			say = "There you are, honey! I've been waiting for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "具体的规则介绍就交给萨拉托加了，我也要去准备今天的杀手锏……",
+			say = "Sara will give you the rules rundown. I've got to prepare the ace up my sleeve meanwhile.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "哼哼，期待最大最强的Black Dragon的表现吧！",
+			say = "The indomitable Black Dragon has something amazing in store for you. You'll see what soon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}说完后就急匆匆跑开了。",
+			say = "Without another word, New Jersey runs off in a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,24 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那接下来就由在阳光下也熠熠生辉的偶像——萨拉妹妹来向指挥官介绍这次的游戏规则吧~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107031,
-			side = 2,
-			bgName = "star_level_bg_117",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这次是个人赛而不是团队赛哦~也就是说，每个人都要为了自己获胜而拼尽全力呢！",
+			say = "Hiii! Your favorite dazzling idol is here to explain the rules for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +104,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然~通常这种情况下都会采用彩弹嘛，但是因为很难清理，萨拉妹妹正在为此发愁的时候——",
+			say = "This time there won't be any teams – it'll be a free-for-all. That means everyone needs to try their hardest to win!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107031,
+			side = 2,
+			bgName = "star_level_bg_117",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Now, normally, you'd use paintballs and score by the number of hits, buuut washing off paint is a huge pain. I was at a loss...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "我向萨拉托加女士提议，采用审判庭特别制作的信号水枪来进行计分。",
+			say = "Until I suggested using custom-made Tribunal water guns with sensors.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "穿着运动装的克莱蒙梭轻笑着接过了萨拉托加的话。",
+			say = "Clemenceau joins the conversation, smiling and wearing sports attire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要被水枪击中，就会在屏幕上进行计数。因为就是普通的清水，所以也不存在难以清理的情况。",
+			say = "When the gun hits a target, it will be automatically recorded on the score screen. No mess, no cleanup required.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这下简直是帮了大忙呢~",
+			say = "What she said! Her idea saved me a huuuge headache.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有哦，本次比赛因为是个人赛的混战模式，出于越激烈越有趣的考虑，比赛时间也被控制在了30分钟内。",
+			say = "Since it'll be a battle royale-style match, we've also set the time limit to just 30 minutes to make it interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比赛结束时，被打中次数最多的人，就要接受水上人墙挑战作为惩罚呦~",
+			say = "When the time is up, whoever got hit the most has to do a water-based trust fall as punishment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "呵呵，人墙挑战……我很期待指挥官的表现呢。",
+			say = "Heehee. An interesting punishment. I can't wait to see how you'll do, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，这场比赛你也要参与……？",
+			say = "Wait, don't tell me... YOU'RE participating too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，我拜托了{namecode:523:让·巴尔}替我上场。毕竟，我的这位姐姐在运动神经上是一流的，想必比我更能获得优势。",
+			say = "Oh, no. Jean Bart is, though. She's quick on the draw, which gives her much better odds of winning than I.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "指挥官，努力在大家的围剿中活下来吧~",
+			say = "Good luck, Commander. You'll need it to survive the siege that is to come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉妹妹也不会对指挥官手下留情哦，欸嘿嘿。",
+			say = "Don't expect me to hold back on you! Heehee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（接下来就是真正的战场了，全力以赴吧！）",
+			say = "(This place is going to be a battlefield... but I'm not going down without a fight!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "即便已经倾尽全力为自己找掩护，结果还是在开场不到5分钟内变成了大家的目标。",
+			say = "My best efforts to find cover were for nothing. In less than five minutes, I'd been shot from all directions by practically everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "许多人的攻击模式完全变得不管不顾。甚至为了击中我，不惜将自己暴露在其他人的射程之中。",
+			say = "Many people pursued me recklessly, even to the point where they'd blatantly expose themselves just to get a shot at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这种状况下，我得格外小心才行……）",
+			say = "(In these scenarios, I need to pick the time when I move carefully...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，在看哪儿呢？该注意的是这边呦——",
+			say = "Where are you looking? I'm right over here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……！",
+			say = "Uh-oh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，快走！我掩护你！",
+			say = "Move, Commander! I'll cover you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "明明说好了是个人赛嘛……可不能变成搭档合作哦~",
+			say = "Hey, this is a free-for-all! You're not allowed to form teams!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "就在企业拖住萨拉托加，无暇分身的时候，{namecode:199:新泽西}悄无声息地来到了我的身后。",
+			say = "While Enterprise is busy drawing Saratoga's attention, New Jersey sees an opening and sneaks up behind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "你露出破绽了哦！honey~",
+			say = "I've got you now, honey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105172,
-			say = "biu——",
+			say = "Pew, pew!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "尽管被{namecode:199:新泽西}击中一次，但因为有企业再度伸出援手，我得以从中脱身。",
+			say = "Even though New Jersey landed a hit on me, it could've been much worse – Enterprise's covering fire allowed me to get out of there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "与此同时，马可波罗正举着水枪追逐着孟菲斯，{namecode:91:赤城}和{namecode:439:罗恩}等人正在进行激烈的“厮杀”。",
+			say = "On one side, Marco Polo is chasing Memphis around. On the other, Roon and Akagi are engaged in a fierce battle to the death. Rhetorically speaking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "{namecode:435:俾斯麦}正利用高地优势轻而易举地“消灭”了一波又一波试图击中她的人。",
+			say = "Meanwhile, Bismarck has seized the high ground. She's picking off everyone who tries to come and get her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "指挥官同志，原来你躲在这里啊。",
+			say = "Looks like I've found your hiding spot, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喝！",
+			say = "Ack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "抢在{namecode:529:苏维埃同盟}动手之前，我先一步扣动扳机击中了她持枪的手。",
+			say = "Soyuz has her water gun out, but I squeeze the trigger first. My beam of water hits her hand, scoring a hit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "之后边激战，边转移到了下一个隐蔽点，不过……",
+			say = "The fight rages on and I manage to make it to new cover, only to find that it's already occupied...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901112,
-			say = "哈啊，是指挥官啊……放心好了……我没有攻击你的欲望。",
+			say = "Ugh... It's just you. Don't worry, I won't shoot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901112,
-			say = "唔，要不你快对我开几枪吧，有了被命中数的话，就可以更光明正大地去睡觉了……",
+			say = "You're more than welcome to shoot me, though. Then I can call it quits and just sleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901112,
-			say = "别用那种眼神看着我啦……只是因为宣布游戏开始的时候我懒得动，所以也变成了参与者……",
+			say = "D-don't look at me like that! I just happened to still be here when the match started, so I guess they count me as an active participant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是参与外面的战斗又很累，我就躲起来了……好麻烦，你快点开枪啦……",
+			say = "Fighting is tiring, you know? So I thought I'd wait it out here. Can you please get it over with and shoot me already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然这是你的要求的话……",
+			say = "Well, if that's what you want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "用特制的水枪，扣动扳机，命中了恶毒。",
+			say = "I aim my water gun and casually take the shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢指挥官。最后的忠告，小心身后……",
+			say = "Thanks. One bit of advice before I go – watch your back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "身后？等——糟了！",
+			say = "What's that supposed to– Aw, crap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905012,
-			say = "抓住你了，指挥官！",
+			say = "Got you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "由于被{namecode:523:让·巴尔}抓住后无法动弹，在这个过程中又被其他人用水枪射击……我成功变为了被击中榜第一。",
+			say = "Left at Jean Bart's mercy with nowhere to run, it should be no surprise that I received the most hits out of anyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "结果现在就是站在泳池边，进行人墙挑战。",
+			say = "As decided, I'm made to stand by the poolside and perform a trust fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "愿赌服输，我要跳了！",
+			say = "I lost, so I'm just going to accept my fate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "我背朝后跌入了水池中——原以为会是这样，但实际上，我跌落在了大家的保护之中。",
+			say = "I lean back and fall. Just as I think I'm about to land with a splash, the girls all stop my fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,11 +813,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（异口同声）接住你了，指挥官！",
+			say = "I've got you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~怎么可能让你真的摔进去嘛。",
+			say = "Heehee. I'd never betray your trust, honey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，有好好感受到{namecode:91:赤城}的爱吗~？",
+			say = "Can you feel my warm love seeping through you, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "在大家的笑声中，在湛蓝色的天空下，我的心脏不住地鼓动。",
+			say = "Joyful laughter erupts beneath the clear, blue sky, and my heart beats with happiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "一番玩闹过后，我收拾整齐，重新换上了干净的衣物。",
+			say = "I had a great time with the girls, then changed into a dry set of clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "离休息的时间还早，再四处转转吧。",
+			say = "There's still a long while to go before bed, so let's have another look around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

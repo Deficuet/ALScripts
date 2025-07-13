@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>盛情难却</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>A Peculiar Apéritif</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "As much as I want to check out the venue, I feel that I should have a look around the palace.",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "不远处传来一阵热闹的欢呼声。",
+			say = "Suddenly, cheers and lively chatter erupt at a table not far away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "哈哈哈哈，虽然烈度不如伏特加，但鸢尾的红酒……别有一番风味！",
+			say = "Whew! It totally lacks the kick of vodka, but the Orthodoxy's wine isn't half-bad. It's got good flavor to it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "我赞同你的看法，甘古特同志，выпить до дна（干杯）。",
+			say = "Couldn't have put it better myself. Cheers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然宴会的主人说了让我们自便，但也要注意适量哦。",
+			say = "While they did say we may drink as much as we'd like, please try not to have too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "看来在宴会厅的一角，一场北方联合的小型品酒会正在进行中。",
+			say = "In a corner of the banquet hall, the Northern Parliament is having a small wine-tasting party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，是指挥官啊，Здравствуйте（您好）！",
+			say = "Ah, Commander! Nice of you to stop by. Would you like to join us for a toast?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "没想到这么快就遇上了啊，Товарищ Офицер（指挥官同志）。",
+			say = "Didn't expect you to come around so soon, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "来的路上，阿芙乐尔说了好多次有预感会遇到指挥官同志呢。",
+			say = "It's funny. On the way here, Avrora kept repeating how she was so sure you'd show up at our table.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊？我有提到指挥官这么多次吗？",
+			say = "Hmm? I don't remember saying it THAT many times.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "机会难得，指挥官也来品鉴一下鸢尾的红酒吧，给——",
+			say = "Either way – how about you take a seat and sip some wine with us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "鸢尾的红酒，烈度对我们来说可能差点意思，但对指挥官同志来说，应该刚刚好。",
+			say = "It won't get us drunk because we're used to much stronger stuff, but it might just hit that sweet spot for you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官不想喝的话可以直接拒绝哦，没关系的。",
+			say = "We won't force anything on you, of course. If you'd rather not drink at all, that's perfectly fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，我们连礼服都还没来得及换。",
+			say = "Oh, I just remembered – we still haven't changed into our dresses yet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为刚到会场，甘古特就被空气中的“香味”吸引过来了。",
+			say = "We got sidetracked as soon as we arrived. Gangut said she was \"compelled\" by the aroma in the air.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "于是就变成了现在的样子……",
+			say = "Then, the next thing I know, here we all are...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还好克莱蒙梭小姐非常善解人意，甚至还多送些红酒过来。",
+			say = "Clemenceau was very understanding, fortunately. She even sent extra wine our way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "阿芙乐尔~明明你也想和指挥官喝的吧~",
+			say = "Yeah, yeah. Let's rewind! We were talking about the Commander drinking with us – I know you want that, Avrora.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，但也要尊重指挥官的意愿哦。",
+			say = "Yes, but if the Commander wishes to abstain, we must respect that choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……？",
+			say = "So – would you like some wine, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,11 +387,11 @@ return {
 			},
 			options = {
 				{
-					content = "盛情难却，我就……",
+					content = "\"Well, it would be rude of me to refuse...\"",
 					flag = 1
 				},
 				{
-					content = "выпить до дна（干杯）！",
+					content = "\"Cheers!\"",
 					flag = 2
 				}
 			}
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "不愧是指挥官同志，干脆利落地喝下去了。",
+			say = "That's the spirit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "哟~同志你的杯子空了哦，这样可不行。",
+			say = "Ahahahah! I knew you wouldn't say no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "嘿嘿，满上了~",
+			say = "Bottom's up, folks!~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "请吧，指挥官同志~",
+			say = "You said it, comrade!~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "不用担心，阿芙乐尔同志，你看指挥官同志也乐在其中不是吗？",
+			say = "See, Avrora? Comrade Commander is having a great time! You had nothing to worry about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "不愧是指挥官同志，根本难不倒你~再来！",
+			say = "Ahahahaha! Now THAT'S how you drink! Keep it up, comrade!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "声音和画面，似乎……正在远去……",
+			say = "All the world's sounds and pictures are getting hazy, fading...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "到底喝了多少……已经记不清了……",
+			say = "How much have I drunk? I can't even remember...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "到此为止了，指挥官已经开始有些不清醒了。",
+			say = "That's enough now. The Commander is barely keeping it together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "阿芙乐尔同志的表情，好严肃……看来没办法了~",
+			say = "Aww. Guess the fun's over. Avrora's got that look like she's not gonna budge.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "指挥官同志今天已经表现得非常豪爽了，差不多也可以结束了。",
+			say = "I'm surprised the Commander even drank with us for this long. Alas, all good things must come to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官？指挥官？您的身体没问题吗？",
+			say = "Commander? Are you okay? Can you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "水……水……",
+			say = "\"Wuh... Water...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水？指挥官您想喝点水？啊，还好我带了那个——请用！",
+			say = "Water? No problem. It's a good thing I brought my canteen. Here you go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,14 +686,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "阿芙乐尔取下腰带上的水壶，递了过来。",
+			say = "Avrora produces a blurry canteen-thingy and hands it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "一饮而尽",
+					content = "(Chug its contents.)",
 					flag = 1
 				}
 			}
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官同志……瞬间倒下去了呢……",
+			say = "Uhh... The Commander just keeled over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "指挥官！指挥官！您怎么了！",
+			say = "Commander! What's wrong?! Please wake up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "（嗅嗅）阿芙乐尔同志……你的水壶里……是生命之水（spirytus）吧……",
+			say = "Avrora... This isn't water in the canteen! It's goddamn spirytus vodka!",
 			painting = {
 				alpha = 0.3,
 				time = 1

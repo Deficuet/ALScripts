@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>蔚蓝色的水枪武士</size>",
+					"Beachside Vacation Vignettes\n\n<size=45>Water Gun Samurai</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "假日的沙滩，是充满嬉闹与欢声笑语的休闲胜地……本来应该是这样的。",
+			say = "I expected a beach resort full of laughter in the air. Instead, what I got...",
 			bgmDelay = 2,
 			bgm = "story-richang-6",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "找到指挥官了！看招——",
+			say = "Found you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "又被{namecode:50}用水枪准确地击中了……",
+			say = "Was a faceful from Noshiro's water gun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次也是我赢了，指挥官。",
+			say = "Looks like I win again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？你说我玩得太认真了吗？",
+			say = "What, do you think I'm taking this too seriously?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……今天要尽情放松，这话可是你自己说的哦？",
+			say = "Heheh... I distinctly remember YOU telling me to have fun to my heart's content today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所谓尽情放松，不就是要拿出全力来享受沙滩上的活动么？",
+			say = "Which is exactly what I'm doing. Or would you like to rescind your order?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……沙滩射击让人心情十分地舒畅呢。指挥官你呢，感觉怎么样？",
+			say = "Whew. Water gun fights really are great fun. Invigorating, too. But what do you think, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,11 +183,11 @@ return {
 			},
 			options = {
 				{
-					content = "我也一样",
+					content = "\"I had a great time as well.\"",
 					flag = 1
 				},
 				{
-					content = "有点点累……",
+					content = "\"I'm left feeling a bit tired.\"",
 					flag = 2
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，指挥官也要趁这个机会充分放松才行。",
+			say = "Good to hear. I want this to be relaxing for both of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "累？唔……是我认真过头了么……",
+			say = "Tired? Aww... Maybe I should've gone a little easier on you after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，接下来要不要在沙滩上散散步？",
+			say = "What should we do now? May I suggest a casual stroll in the sand?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太阳很暖和，海风很舒服，沙子也软乎乎的，正适合在沙滩上走走。",
+			say = "The weather's not too hot, the sand is warm, and the winds are nice. Perfect conditions for a walk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有的时候漫无目的地稍微闲逛一会，能让人紧张的身心都放松下来。",
+			say = "We don't have to go anywhere in particular, either. Walking for walking's sake rejuvenates the body and soul.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我想在你身边多待一会。",
+			say = "And I'd certainly like to get a little closer to you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以的话，我们这就出发吧？",
+			say = "Ahem. I don't hear any objections. Shall we get going?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备迈出一步的{namecode:50}，突然停下了自己的动作。",
+			say = "She starts walking in one direction, but quickly comes to a stop and turns around.。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是往这边走吧。那边人比较多，要是遇到{namecode:49}或者{namecode:226}，肯定会被捉弄的……",
+			say = "On second thought, let's go the other way. It looks crowded over there, and I'd rather avoid running into Sakawa or Agano. They'd no doubt tease you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你能……牵着我的手吗？",
+			say = "Also, umm... Can we hold hands?",
 			painting = {
 				alpha = 0.3,
 				time = 1

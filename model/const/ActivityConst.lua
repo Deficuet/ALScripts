@@ -166,6 +166,32 @@ var_0_0.COLLETION_EVENT_OP_JOIN = 1
 var_0_0.COLLETION_EVENT_OP_SUBMIT = 2
 var_0_0.COLLETION_EVENT_OP_GIVE_UP = 3
 var_0_0.RANDOM_DAILY_TASK_OP_RANDOM = 1
+var_0_0.LIMIT_SKIN_SHOP_TIME = {
+	{
+		{
+			2023,
+			5,
+			25
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	{
+		{
+			2023,
+			6,
+			14
+		},
+		{
+			23,
+			59,
+			59
+		}
+	}
+}
 
 function var_0_0.BBRule(arg_2_0)
 	local var_2_0 = {

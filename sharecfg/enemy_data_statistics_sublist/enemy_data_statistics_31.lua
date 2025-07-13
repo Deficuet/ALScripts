@@ -1,8 +1,138 @@
 pg = pg or {}
 pg.enemy_data_statistics_31 = {
+	[90929] = {
+		cannon = 0,
+		name = "Mimic Entity - Shuttereye",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90929,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "unknownV_quzhu",
+		star = 0,
+		torpedo = 0,
+		antisub_growth = 0,
+		rarity = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 125,
+		wave_fx = "",
+		prefab = "unknownV_quzhu",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 95,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			6,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.8,
+					1.5,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.281,
+					0.965,
+					0
+				}
+			}
+		},
+		smoke = {},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {},
+		bubble_fx = {
+			"bubble",
+			20,
+			999
+		}
+	},
 	[90930] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-şÜśŕ´ĽĐë",
+		name = "Mimic Entity - Swarmroot",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -132,7 +262,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90931] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÄÜĹŔÄÜ´ň",
+		name = "Mimic Entity - Creepwhip",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -262,7 +392,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90932] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÂÝĐý´óĹÚ",
+		name = "Mimic Entity - Twinegun",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -392,7 +522,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90933] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ĹŕľĂşÜżě",
+		name = "Mimic Entity - Slithervine",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -529,7 +659,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90934] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-´ó×ŞÂÖ",
+		name = "Mimic Entity - Gyrering",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -652,7 +782,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90935] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ľĆÁýÓă",
+		name = "Mimic Entity - Lanternmaw",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -789,7 +919,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90936] = {
 		cannon = 0,
-		name = "ÄâĚŹĘŢ-śúĚý°Ëˇ˝",
+		name = "Mimic Entity - Allhearer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -912,7 +1042,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90937] = {
 		cannon = 0,
-		name = "？？？·XIII",
+		name = "??? XIII",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1035,7 +1165,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90938] = {
 		cannon = 0,
-		name = "死神之影",
+		name = "Death's Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1171,7 +1301,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90939] = {
 		cannon = 0,
-		name = "掠影·XIII",
+		name = "Entwining Shadow XIII",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1292,7 +1422,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90940] = {
 		cannon = 0,
-		name = "樋·META~Shadow Of Hierophant~",
+		name = "Hatakaze META - Shadow of the Hierophant",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1436,7 +1566,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90941] = {
 		cannon = 0,
-		name = "威奇塔·META",
+		name = "Wichita META",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1596,7 +1726,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90942] = {
 		cannon = 0,
-		name = "童心喵石驱逐舰",
+		name = "Little Meowfficer DD",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1751,7 +1881,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90943] = {
 		cannon = 0,
-		name = "童心喵石轻巡洋舰",
+		name = "Little Meowfficer CL",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1913,7 +2043,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90944] = {
 		cannon = 0,
-		name = "童心喵石重巡洋舰",
+		name = "Little Meowfficer CA",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2081,7 +2211,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90945] = {
 		cannon = 0,
-		name = "童心喵石战列舰",
+		name = "Little Meowfficer BB",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2249,7 +2379,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90946] = {
 		cannon = 0,
-		name = "童心喵石航空母舰",
+		name = "Little Meowfficer CV",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2418,7 +2548,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90947] = {
 		cannon = 0,
-		name = "童心喵石爆炸船",
+		name = "Little Meowfficer Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2566,7 +2696,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90948] = {
 		cannon = 0,
-		name = "健康活力·石膏喵",
+		name = "Meowfficer Bust of Exercise",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2688,7 +2818,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90949] = {
 		cannon = 0,
-		name = "永葆童心·石膏喵",
+		name = "Meowfficer Bust of Innocence",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2810,7 +2940,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90950] = {
 		cannon = 0,
-		name = "兴趣培养·石膏喵",
+		name = "Meowfficer Bust of Hobbies",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2932,7 +3062,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90951] = {
 		cannon = 0,
-		name = "理性思维·石膏喵",
+		name = "Meowfficer Bust of Studying",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3054,7 +3184,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90952] = {
 		cannon = 0,
-		name = "趣味玩乐·石膏喵",
+		name = "Meowfficer Bust of Playtime",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3176,7 +3306,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90953] = {
 		cannon = 0,
-		name = "赫敏",
+		name = "Hermione",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3332,7 +3462,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90954] = {
 		cannon = 0,
-		name = "天狼星",
+		name = "Sirius",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3488,7 +3618,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90955] = {
 		cannon = 0,
-		name = "妮米改",
+		name = "Z23 (Retrofit)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3644,7 +3774,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90956] = {
 		cannon = 0,
-		name = "莉普莎改",
+		name = "Leipzig (Retrofit)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3800,7 +3930,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90957] = {
 		cannon = 0,
-		name = "克劳迪亚改",
+		name = "Köln (Retrofit)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3956,7 +4086,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90958] = {
 		cannon = 0,
-		name = "庞培·马格诺",
+		name = "Pompeo Magno",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4064,162 +4194,6 @@ pg.enemy_data_statistics_31 = {
 						{
 							-0.4,
 							2.4,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90959] = {
-		cannon = 0,
-		name = "阿尔弗雷多·奥里亚尼",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90959,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "aerfuleiduo",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 32,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "aerfuleiduo",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 6,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.847,
-					0.864,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.865,
-					0.872,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.342,
-					1.25,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.776,
-							2.067,
 							0
 						}
 					}

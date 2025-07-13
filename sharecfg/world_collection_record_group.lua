@@ -2,7 +2,7 @@ pg = pg or {}
 pg.world_collection_record_group = {
 	{
 		id = 1,
-		name_abbreviate = "Chapter1-银翼苍穹",
+		name_abbreviate = "Chapter 1 - Trails of Ashen Wings",
 		type = 1,
 		child = {
 			100001,
@@ -33,7 +33,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 2,
-		name_abbreviate = "Chapter2-皇家号令",
+		name_abbreviate = "Chapter 2 - Queen's Orders",
 		type = 1,
 		child = {
 			100025,
@@ -54,7 +54,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 3,
-		name_abbreviate = "Chapter3-渐入迷踪",
+		name_abbreviate = "Chapter 3 - Labyrinthine Sea",
 		type = 1,
 		child = {
 			100039,
@@ -75,7 +75,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 4,
-		name_abbreviate = "Chapter4-红樱远航",
+		name_abbreviate = "Chapter 4 - Upon Crimson Winds",
 		type = 1,
 		child = {
 			100053,
@@ -96,7 +96,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 5,
-		name_abbreviate = "Chapter5-火烬余辉",
+		name_abbreviate = "Chapter 5 - Glimmers of Rekindling",
 		type = 1,
 		child = {
 			100076,
@@ -125,7 +125,7 @@ pg.world_collection_record_group = {
 	},
 	{
 		id = 6,
-		name_abbreviate = "情报片段",
+		name_abbreviate = "Unreleased",
 		type = 3,
 		child = {
 			100071

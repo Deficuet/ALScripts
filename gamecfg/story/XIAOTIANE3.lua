@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>三  嫌疑与询问</size>",
+					"Sea Star on Shore\n\n<size=45>3: Suspicion and Questioning</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "随、随便就怀疑别人还是不大好呢",
+			say = "I-It's not good to suspect other's so casually",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是啊！再怎么样至少也要稍微调查一下呢",
+			say = "Y-Yeah! We should at least do a little more investigating, right?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "还、还是问问航母姐姐们吧——",
+			say = "M-Maybe we should ask the carriers about this--",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀？小天鹅这是…冬天的锻炼吗？当心感冒了哟？",
+			say = "Huh? Cygnet, is this...winter training? Aren't you afraid of catching a cold?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…事、事情是这样的…",
+			say = "Uh...Well, it's like this...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "哎呀呀，这还真是…不过我也没看到呢…",
+			say = "Oh my, this really is...But I haven't seen anything either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "那个人？好像一早就没见到人呢…",
+			say = "That person? I don't think I've seen her today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…我也没看到那个人呢…",
+			say = "Hmm...I haven't seen that person, either...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才好像看到她进了自己房间，就是那个房间——",
+			say = "I think I saw her go into her room, that one over there--",
 			flashout = {
 				black = true,
 				dur = 1,

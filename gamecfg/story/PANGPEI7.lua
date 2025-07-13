@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>七　帽子可不是玩具！</size>",
+					"Captain Pompey Has You Covered!\n\n<size=45>7 It's Not a Toy!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "第二天清晨的指挥室——",
+			say = "Office - The following day",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "庞培？",
+			say = "Pompey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "庞培，你在吗？",
+			say = "Pompey, are you in there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "门的另一边没有回应……直进去看看好了。",
+			say = "No response. Time to go in and check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "窗边的办公桌上，所有的文件都被整理得整整齐齐。",
+			say = "On the desk by the window, papers lie organized into neat stacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那张写着“今日完成”的便利贴上还被画上了几个可爱的笑脸。",
+			say = "Several cute little smiles have been drawn on the sticky note that reads, \"Due today.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……zZZZZ",
+			say = "Zzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "轻声走到沙发边，为庞培重新盖好被子。",
+			say = "Pompeo is asleep on the couch. I softly walk over and adjust her blanket for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看着庞培将自己的帽子放在脸上充当眼罩，突然感觉这幅场景有些滑稽。",
+			say = "She looks so sweet, sleeping with her cap substituting for an eye mask. An urge to mess with her crosses my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "伸手去取她的帽子，却被她叫住了。",
+			say = "I reach towards her hat, but before I can take it off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "……我的帽子可不是玩具哦！",
+			say = "Hey! My cap is not a toy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在恰当时机清醒的她熟练地将帽子戴了回去。",
+			say = "At just the right time, she wakes up and dexterously puts her cap back on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "指挥官，欢迎回来！",
+			say = "Commander, you're back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			},
 			options = {
 				{
-					content = "我回来了！",
+					content = "Sure am.",
 					flag = 1
 				}
 			},
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过你怎么直接睡在指挥室里了？",
+			say = "What are you doing, sleeping in my office?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "昨天的工作，处理起来很不容易么？",
+			say = "Don't tell me you had to work late to finish everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有没有，那些工作对于伟大的庞培队长来说简直就是小菜一碟~",
+			say = "Not at all! Getting it done was a piece of cake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "……虽然是想这么说啦，不过还要多亏天鹰和达·芬奇的帮助就是了，嘿嘿……",
+			say = "Well, not really... In truth, I have Aquila and da Vinci to thank for helping me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "啊！千万别误会，昨天的工作很早就完成了哦！",
+			say = "Oh, sorry if I wasn't clear – we got the work done way ahead of time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我睡在这里，只是为了能第一时间迎接你回来罢了！",
+			say = "The reason I slept in the office was so I could welcome you back as soon as possible!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——最后果然还是找同伴帮忙了啊。",
+			say = "I knew messaging Aquila was the right call.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "什么叫果然……你早就猜到了？",
+			say = "Messaging Aquila? You mean...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“伟大的庞培一定所有事都亲力亲为，完美完成任务！”",
+			say = "A certain someone here did promise on her great name that she'd finish everything flawlessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "指挥官你……",
+			say = "Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培的脸上升起一团红晕。",
+			say = "A blush takes shape on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好了好了，我们一起出去吃个早餐怎么样？",
+			say = "Either way, you did a great job. What do you say we go get breakfast?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "好的！",
+			say = "Sure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "不不不，不行！等我先洗漱一下，这个样子出门成何体统！",
+			say = "Wait, one thing! I can't go outside just like that. I need to wash my face first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官请给我30分钟时间，不不，20分钟就够了！",
+			say = "I'll be done in 30 minutes... no, 20!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培如同风一般跑向了指挥室深处的洗漱间。",
+			say = "She hurries out of the office to find a bathroom somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而我则在办公桌前坐下，看着那张画着笑脸的便利贴。",
+			say = "I take a seat at my desk and pick up the note with the smiling faces drawn on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来下一次遇到紧急会议的时候，能安心托付的的帮手又多了一个——",
+			say = "The next time I get called on a sudden business trip, she'll manage to hold the fort even better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！我准备好了！",
+			say = "Okay, I'm ready, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培又风一般跑回了我面前。",
+			say = "She returns with a lightness in her gait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不是说要20分钟？这么快就搞定了啊。",
+			say = "THAT was quick. Didn't you say you'd need 20 minutes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "嘿嘿……那当然！",
+			say = "Heehee... I'm always faster than the estimate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "对了！刚才忘了说了，伟大的庞培队长帮你处理好了工作，难道得到奖励就只有一顿早餐吗？",
+			say = "By the way, shouldn't Captain Pompey the Great expect something more than just breakfast as thanks for her hard work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "是不是……应该再多一些？这样才匹配得上这种辛劳嘛！",
+			say = "I think I deserve something, you know... great.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你想要什么？",
+			say = "Very well, Captain Pompey – what is your desire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "伟大的庞培队长现在要指定她所需要的奖励内容，那就是——指挥官的一整天时间！",
+			say = "Ahem. I'm glad you asked! I don't ask for much. All I want is 24 hours by your side!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "接下来的一整天时间，指挥官都要和庞培一起度过~",
+			say = "Which is to say, I want to spend this shared day off together with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "不止是一起吃早餐，还有午餐、下午茶和晚饭……以及晚饭后的……嘿嘿嘿~",
+			say = "And not just for breakfast, but for lunch, teatime, dinner... and whatever comes after that, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你明白了吗？",
+			say = "Got it, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "明白了的话，就把手伸出来！",
+			say = "If so, you need only present thy appendage! Come on, give me your hand~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,7 +737,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "老老实实伸出了手。",
+			say = "As she asks, I extend my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "下一秒，伸出去的手便被少女纤细的指尖抓握，随即变成十指紧扣的状态。",
+			say = "She extends her own as well, locking her fingers with mine. Our palms touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Uh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "这样才是奖励的意义所在~",
+			say = "This is a part of my reward, silly. Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "出发！伟大的庞培队长要和她伟大的指挥官一起，去约会啦！",
+			say = "Now, let us set off on our magnificent date together!",
 			painting = {
 				alpha = 0.3,
 				time = 1

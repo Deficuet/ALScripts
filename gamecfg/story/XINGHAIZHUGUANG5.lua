@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
-			say = "星海基地-核心区-「银河之心」-控制室",
+			say = "Sea of Stars – Galactic Core Control Room",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
-			say = "这里，是星海中最神秘的房间。",
+			say = "The control room was the heart of the Sea of Stars and one of its most secure areas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
-			say = "它有着能让一切奇迹化为现实的美誉，真正拥有进入权限的人也屈指可数。",
+			say = "All the facility's cutting-edge technologies – including the Reality Lens – could be managed from this room. Access was restricted to only a handful of shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
-			say = "然而今天，除了注视着奔涌的实验数据的TB，房间中还多了一名少女。",
+			say = "Two people were inside. TB, who watched the torrent of incoming data, and a certain shipgirl...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,13 +67,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安克雷奇",
+			actorName = "Anchorage",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "TB、TB！……拉菲，和以前……不一样了！",
+			say = "TB! TB! Laffey... changed looks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,12 +90,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "解答：在本次模拟测试中，拉菲将以使用II型舰装的方式进行作战。",
+			say = "Explanation: Laffey is participating in a simulated Type II rigging performance test.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "介绍：拉菲的II型舰装，采用了标准II型舰装技术路线。重点：机动性、电子战能力、无人机。",
+			say = "Her Type II rigging is based on existing testing data and incorporates the standard set of new technologies, with a focus on mobility, electronic warfare capabilities, and drones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,13 +116,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安克雷奇",
+			actorName = "Anchorage",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "新装备！但是……普林斯顿……没有。",
+			say = "A new rigging! But... Princeton doesn't have one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,12 +134,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "肯定。很遗憾，尚未有成熟的独立级轻型航空母舰的II型舰装设计方案可供覆写测试使用。",
+			say = "Affirmative. There exists no Type II rigging prototype suitable for Princeton's hull that is capable of withstanding an overwrite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,12 +147,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，本次测试将提供关键数据，使II型舰装研发周期与成本缩减。",
+			say = "It is theorized that the data obtained from this simulation can shorten the development cycle and research cost of future Type II riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,13 +160,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安克雷奇",
+			actorName = "Anchorage",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……好厉害！",
+			say = "Wooow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,13 +178,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安克雷奇",
+			actorName = "Anchorage",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "TB、TB！你看……敌人都消失了……什么都没留下！",
+			say = "TB! The baddies are gone... Nothing is left.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,12 +201,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出于优化考虑，被判定击毁的模拟目标，没有保留必要。",
+			say = "Enemies that have been eliminated are removed from the simulated world in order to reduce stress on the system's processors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,11 +214,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,12 +228,12 @@ return {
 			portrait = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			hidePaintObj = true,
-			say = "敌方舰队，已歼灭。",
+			say = "Enemy fleet defeated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,13 +247,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			portrait = 101510,
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "TB，这身新装备，拉菲很喜欢……",
+			say = "TB, I like this new rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,13 +267,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			portrait = 101510,
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是敌人太少了……不够打，再多来一些。",
+			say = "Spawn more enemies. There were too few of them and I wanna fight more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,12 +285,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "请求收到——重新分析额定需求——完毕。",
+			say = "Orders received. Calculating resources required to achieve test objective... Complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,12 +298,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "结论：将会在后续战斗中，提升敌方的实力水平。",
+			say = "New enemy units will be generated. Enemy combat ability will be dialed up for future simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,11 +311,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,12 +325,12 @@ return {
 			portrait = 107270,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "塞壬对策局",
+			factiontag = "Anti-Siren Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "兰利II",
+			actorName = "Langley II",
 			hidePaintObj = true,
-			say = "领航员小姐，能听到么？",
+			say = "TB, do you read me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,12 +342,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯清晰。询问：请提出需求，兰利女士。",
+			say = "Communication line: stable. Speaker identified: Langley, Independence-class aircraft carrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,12 +357,12 @@ return {
 			portrait = 107270,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "塞壬对策局",
+			factiontag = "Anti-Siren Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "兰利II",
+			actorName = "Langley II",
 			hidePaintObj = true,
-			say = "抱歉需要打断一下诸位的测试了。",
+			say = "Sorry for interrupting the simulation, but I have to speak to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,12 +376,12 @@ return {
 			portrait = 107270,
 			side = 2,
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "塞壬对策局",
+			factiontag = "Anti-Siren Force",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "兰利II",
+			actorName = "Langley II",
 			hidePaintObj = true,
-			say = "可以将北安普敦弹出来么？约克城那边的一项临时测试需要北安普敦的协助。",
+			say = "Could you call Northampton over? Yorktown said she wanted her help with an off-the-cuff test.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,12 +393,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_zhuguang_cg1",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "权限评估中——要求已被批准，立刻开始执行。",
+			say = "Verifying credentials... Request accepted. Contacting now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "模拟世界NY·测试海域",
+			say = "NY City Simulation - Testing Area",
 			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
@@ -437,11 +437,11 @@ return {
 			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——好的，我明白了。",
+			say = "...Alright. Got it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,12 +455,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉了，两位，我收到了紧急任务，这场测试我需要中途退出了。",
+			say = "Sorry, Princeton and Laffey, but I've gotta go. Something urgent came up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,12 +474,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，我们会照顾好自己的，放心去忙吧。",
+			say = "No worries. I think I'll manage by myself, so you go ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,11 +493,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "嗯……没关系，少了一个人，拉菲就能消灭更多敌人了。",
+			say = "I'll manage, too... I can still knock out more enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,12 +511,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈……那就好，不过接下来你们要面对塞壬的仲裁机关迪贝路。",
+			say = "Ahahah... By the way, you'll be fighting the Devil next. She's an Arbiter vessel.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,12 +530,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算只是模拟数据，也请千万不要掉以轻心。",
+			say = "Don't let your guard down just 'cause you're in a simulation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,12 +549,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实我刚才就想问了……仅凭我们来对抗仲裁机关，有些太勉强了吧……",
+			say = "From what I've been hearing, an Arbiter vessel might be a liiittle impossible to fight with just two people...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,11 +568,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "普林斯顿小姐，基于现状变化，我已将测试目标一更改为熟悉迪贝路的战术，因此无需将其击败，请不用担心。",
+			say = "In light of your drop in combat ability, your objective has changed to, \"Hold your ground against the Arbiter vessel.\" There is no need to defeat her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,11 +582,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在向诸位发送迪贝路的作战资料，三分钟后，测试将会正式开始。",
+			say = "Sending briefing materials on the Devil now. Combat will initiate in three minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,12 +596,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是，资料已经确认收到了。",
+			say = "Received. Thanks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,10 +615,10 @@ return {
 			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲……也收到资料了。目标……迪贝路，准备战斗！",
+			say = "I got the files, too. Target: the Devil's vessel... Prepare for battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1

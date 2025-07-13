@@ -10,7 +10,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Somewhere, in an unknown location...",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "恍惚之间，意识仿佛在飘散，飘向无边无际的远方。",
+			say = "Her mind seemed to fade further and further away into a murky haze.",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……又是这种感觉。",
+			say = "There's that feeling again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最近几日一直都是这个梦，难道是思虑过度了么……",
+			say = "I've had this same dream over and over the past few days... Am I just overthinking things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}放任自己的意识在空间中飘散，寻找着任何有用的信息。",
+			say = "Amagi let her mind drift and unravel in empty space, searching for some useful information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "果然……和之前一样，这里什么都……嗯？那是什么？",
+			say = "Just like before, there's nothing... Hm? Wait...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}集中精神，远方空间的一个小物件就这么凭空飞到了手中。",
+			say = "When she focused on the new sensation, something fell into her hand out of thin air.",
 			icon = {
 				scale = 1.35,
 				image = "Props/story_yupai",
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是……勾玉护符？",
+			say = "It's... a magatama amulet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Somewhere, in an unknown location...",
 					1
 				}
 			},
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "入目所及之处，世界尽陷火海。",
+			say = "She saw a world in flames.",
 			bgm = "battle-boss-3",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "两个熟悉的身影，正被火焰一点点吞噬着。",
+			say = "Two familiar figures were being consumed bit by bit, even as she watched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……这是……怎么回事？",
+			say = "What is this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……咳、咳……",
+			say = "*cough*... *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这样的命运……",
+			say = "I can't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我不接受……",
+			say = "Accept this end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我、绝不接受……",
+			say = "Never... I'll never!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "姐姐……",
+			say = "Amagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "呵，果然和模拟结果一模一样，没有出现丝毫偏差。",
+			say = "The Commander's appearance has caused results to differ wildly from the simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "亏我还抱有一丝丝的期待呢。",
+			say = "But I had so much hope for this that I'm willing to permit this level of deviation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "既然如此，那就按照原定剧本来吧，首先在此把你们抹除，然后——",
+			say = "I'll just bring things back on track by erasing the two of you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "抹除……？你休想！",
+			say = "Erase...? I won't let you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "……嗯？{namecode:91:赤城}身上挂的那个护符为什么开始发光了……？",
+			say = "Akagi is... glowing? What is that amulet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "等、等等，这股力量是——",
+			say = "Wait, is that power what I think it is?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Somewhere, in an unknown location...",
 					1
 				}
 			},
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "枯萎的樱花树下，矗立着两个熟悉的身影。",
+			say = "Under a withered sakura tree stood two familiar figures.",
 			bgm = "story-nailuo-theme",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……差一点，只差一点了。",
+			say = "I'm so close... So very close... I can practically feel you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "为什么……为什么就差最后这一点……",
+			say = "But why? Why, why is the last step so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……这是在举行……某种仪式么？",
+			say = "Is this... the ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:92:加贺}……你和我是最了解姐姐的人，也是补全姐姐残魂最好的祭品。",
+			say = "Kaga... You know her just as well as I do. That's why we're the perfect exchange for the final fragment of her soul...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你知道么……只要完成了仪式，姐姐就能回来了。",
+			say = "You must understand. As soon as this is over, Amagi will come back to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所以……",
+			say = "So...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "和我一起去，好么？",
+			say = "Just come with me, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯。",
+			say = "...Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我们，一起完成仪式的最后一步。",
+			say = "Let's go, Akagi. To the final stage of this ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——「由奈落赴黄泉」",
+			say = "\"From Naraka, down to the netherworld.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "无害的枯枝陡然展现杀机，从两名少女的视野盲区直刺而来、",
+			say = "A dead branch, previously harmless-looking, suddenly shot forth from the girls' blind spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……等等！住手！",
+			say = "Akagi, Kaga! Watch out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……哈啊……",
+			say = "*pant*... *pant*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "睁开双眼，映入眼帘的是卧室熟悉的布景。",
+			say = "When she woke up, she saw that same bedroom ceiling again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……噩梦？",
+			say = "A dream...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "不……作为梦境来说有些过于逼真了……",
+			say = "No, it was far too real. Too real to be a nightmare...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这应该近似于某种……预兆。",
+			say = "This must be... an omen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:91:赤城}。",
+			say = "Akagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "生死乃由天定。",
+			say = "Life and death cannot be severed from the shackles of fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自从发现身体上的虚弱来自于心智魔方的先天性缺陷后，我就已经认命了。",
+			say = "My sickliness comes from the flaws in my hull... I've already accepted my fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……早就已经认命了。",
+			say = "I have, I really have, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -737,7 +737,7 @@ return {
 			actor = 302130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}大人，有客人来访。",
+			say = "Amagi, you have a visitor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "这个点来……{namecode:92:加贺}？她又来找我下棋了？",
+			say = "Right now? Has Kaga come for another game, I wonder?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 302130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是如此，{namecode:161:天城}大人。",
+			say = "That's exactly what it's for, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，你们先招待着，我准备好了就去。",
+			say = "Heehee. Okay, then. I need to get presentable first, so entertain her for a while, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			actor = 302130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命。",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……能护佑平安的护符……么。",
+			say = "That amulet... Hmm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

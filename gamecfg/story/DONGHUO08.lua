@@ -14,7 +14,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "指挥官，天上这么多的星星…都是你说的一个个不同的文明吗？",
+			say = "I wonder... if all the stars in the night sky are the lights of different civilizations, just as you said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			blackBg = true,
-			say = "他们也会和我们一样吃饭、玩耍，互相聊天吗？",
+			say = "Could they be just like us... Laughing and crying together the same way humans do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "是的哦，在这个宇宙中我们一直并不孤单",
+			say = "That's right. We're not so alone in the universe after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			blackBg = true,
-			say = "那么，我们什么时候才能见到他们呢？我有好多事情想问他们啊---",
+			say = "...I see. Then, do you think I'll ever get a chance to meet them? There are so many things I'd like to ask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "总有一天……一定会见到的。",
+			say = "One day, you will. I'm sure of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "你要相信，不论身处多么艰难的环境，人类都是一种与生俱来带有进取心的生物，这也正是我们赋予你名字的意义",
+			say = "Just like the name given to you suggests, we humans will always keep forging ahead, no matter how tough the going gets. That's what it means to be enterprising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "对了…你喜欢这个名字吗？",
+			say = "Speaking of which, I don't think I've ever asked you, but... Enterprise, do you like your name?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "喜欢！",
+			say = "Yes, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "那么…",
+			say = "Then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "我们来做个约定吧~",
+			say = "How about we make a promise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "Memory模块读取中断,尝试修复",
+			say = "Memory module playback has been interrupted. Attempt to restart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "…",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,84 +1,84 @@
 pg = pg or {}
 pg.music_album = {
 	{
-		album_name = "铁血、音符&誓言",
+		album_name = "Dawn of Disaster",
 		cover = "MusicCover1",
 		order = 5
 	},
 	{
-		album_name = "神圣的悲喜剧",
+		album_name = "Empyreal Tragicomedy",
 		cover = "MusicCover2",
 		order = 4
 	},
 	{
-		album_name = "空相交汇点",
+		album_name = "Confluence of Nothingness",
 		cover = "MusicCover3",
 		order = 3
 	},
 	{
-		album_name = "海风与夏日的无人岛",
+		album_name = "Uncharted Summer",
 		cover = "MusicCover4",
 		order = 2
 	},
 	{
-		album_name = "启航之时",
+		album_name = "Time to Set Sail",
 		cover = "MusicCover5",
 		order = 1
 	},
 	{
-		album_name = "清茶氤氲",
+		album_name = "Pristine Leaves, Rich Warmth",
 		cover = "MusicCover6",
 		order = 6
 	},
 	{
-		album_name = "翩若飞仙",
+		album_name = "Soaring Apsaras",
 		cover = "MusicCover7",
 		order = 7
 	},
 	{
-		album_name = "湮烬尘墟",
+		album_name = "Revelations of Dust",
 		cover = "MusicCover8",
 		order = 8
 	},
 	{
-		album_name = "弧光",
+		album_name = "Arclight",
 		cover = "MusicCover9",
 		order = 9
 	},
 	{
-		album_name = "奏响鸢尾之歌",
+		album_name = "Anthem of Remembrance",
 		cover = "MusicCover10",
 		order = 10
 	},
 	get_id_list_by_album_name = {
-		["铁血、音符&誓言"] = {
+		["Dawn of Disaster"] = {
 			1
 		},
-		神圣的悲喜剧 = {
+		["Empyreal Tragicomedy"] = {
 			2
 		},
-		空相交汇点 = {
+		["Confluence of Nothingness"] = {
 			3
 		},
-		海风与夏日的无人岛 = {
+		["Uncharted Summer"] = {
 			4
 		},
-		启航之时 = {
+		["Time to Set Sail"] = {
 			5
 		},
-		清茶氤氲 = {
+		["Pristine Leaves, Rich Warmth"] = {
 			6
 		},
-		翩若飞仙 = {
+		["Soaring Apsaras"] = {
 			7
 		},
-		湮烬尘墟 = {
+		["Revelations of Dust"] = {
 			8
 		},
-		弧光 = {
+		Arclight = {
 			9
 		},
-		奏响鸢尾之歌 = {
+		["Anthem of Remembrance"] = {
 			10
 		}
 	},

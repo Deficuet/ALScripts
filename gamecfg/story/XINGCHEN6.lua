@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>六  改变的勇气</size>",
+					"Bits of Courage \n\n<size=45>VI 「A Change In Courage」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "怎、怎么办……",
+			say = "Wh-what should Unicorn do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "虽然从星尘姐姐那里收到了这个……",
+			say = "Even with the advice from Lady Stardust...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "呜……果然还是好害羞……",
+			say = "Ugh…Unicorn is still nervous to express her feelings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "而且…这么华丽的衣服…独角兽…一定不合适的…要是哥哥不喜欢…怎么办…",
+			say = "And... such beautiful clothes... doesn’t really fit Unicorn... what if Onii-chan doesn’t like it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "小小的勇气……就是最大的魔法……",
+			say = "Bits of Courage… is the greatest form of magic...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -107,7 +107,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯！独角兽，会加油的！",
+			say = "Yes, Unicorn will try her best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			stopbgm = true,
 			actor = 401160,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450}，对面舰队好像开始撤退了……！",
+			say = "They're retreating, Blücher!",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "欸！？我们还根本没怎么打啊？！",
+			say = "Already? That was hardly a fight at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "全速追击，别让对面跑了，我还没玩够呢！",
+			say = "We can't let 'em get away! Come on, let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "不行……蓝方旗舰{namecode:462}已经离开了交战海域，无法继续追击了。",
+			say = "Don't. Brünhilde's long since left the scene, and we'll enter a new area if we chase after the ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "按照规则来说，战斗结束，我们赢了哦。",
+			say = "That's against the rules, remember? We've already won, so let's just head back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "哈啊……完全被对面摆了一道。",
+			say = "Grr... She played us like a fiddle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "欸？什么意思，我们不是赢了么？",
+			say = "What are you talkin' about? We're victorious and she's on the run.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "赢了，但是完全没看出来对面指挥官的战斗力！",
+			say = "Sure, we won this time, but we've not learned any useful information about our opponent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "……在现在的规则下一场胜利根本不能决定最终胜利。",
+			say = "What's worse, it's gonna be an uphill battle if she decides to field a ton of carriers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "对面现在对我们了如指掌，我们却对她一无所知，接下来的战斗要变难打了……！",
+			say = "Then we'll be outranged and outsmarted by an opponent we know nothing about... Ugh, that's so annoying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "好复杂啊……这就是舰队指挥官应该想的事么。",
+			say = "Damn, you're right... I never knew you had so much stuff to think about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不对，{namecode:450}，你是不是突然变聪明了！",
+			say = "Plus, when'd you get so good at the tactical stuff? I never took you to be the book-smart type.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "哼哼哼~{namecode:426}在我出发之前没日没夜唠叨了很多，我多少也是记住了一些的哟~",
+			say = "Hipper used to always nag me about studying. Besides, it doesn't exactly take a genius to figure this stuff out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "哇哦……只要让聪明的人在耳边没日没夜地唠叨，就算是{namecode:450}也能变聪明啊……",
+			say = "Hmm... Maybe I should ask Z23 for some tutoring at some point as well. I wanna get smart too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "呼呼~战斗结束，凯旋而归咯————",
+			say = "But that's for another time! Now let's head back. I'm dying to fill up with some dinner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			expression = 1,
 			blackBg = true,
-			say = "等等，你什么意思？！你给我回来！！！！",
+			say = "Dinner sounds good! I'm right behind you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

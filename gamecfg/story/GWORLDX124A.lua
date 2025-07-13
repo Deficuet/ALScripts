@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在通常海域中可以使用潜艇支援指令了。",
+			say = "You can now order the deployment of submarines to support your fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "本日的战斗最终以{namecode:450}未曾料及的方式结束了。",
+			say = "The experiment was nearing its final stage.",
 			bgm = "bsm-7",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "原本以为可以在局部产生巨大优势的战列舰编队，如今也被突然出现的{namecode:463}所压制。",
+			say = "Blücher's fleet of capital ships tried to push through with brute force only to be stopped and swiftly defeated by a single battleship Pawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "现在，战线已经推进到了岌岌可危的地步。在{namecode:450}一方的基地与前线海域之间，仅仅只剩一片海域相隔了。",
+			say = "What followed was another victory for Brünhilde. All areas were now under her control, save for one – the base's last line of defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "如果再输一场，{namecode:462}就可以乘胜拿下两人的大本营——然后一切就彻底结束了。",
+			say = "Blücher and Z16 were facing defeat. If Brünhilde conquered their base, that would spell the end of the experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "铁血试验场·休息区",
+			say = "Mirror Sea - Iron Blood Encampment",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "又输了……怎么会这样啊……！",
+			say = "She beat us AGAIN! How could this even happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "…………没想到对面终于也做出来了战列舰编队，我们唯一的火力优势也没了。",
+			say = "It's not hard to explain, really. We lost our firepower advantage as soon as that battleship Pawn showed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "这下还怎么打啊！",
+			say = "Well, what do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "没得打了吧……如果再输了下一场比赛，我们的基地就要被占领了。",
+			say = "There's not much we CAN do. It's game over for us once she takes the next area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "可恶…………好不甘心！",
+			say = "Grrr... What a load of bull!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "测试后面的设计也太偏向蓝方了吧！",
+			say = "This game is rigged! It's unfair! Our Pawns have nothing on hers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "我们明明还是有些机会的……结果不仅对方新船迭出，我们这边的{namecode:435}大人又停止了数据更新……",
+			say = "Hell, we've hardly even gained any new Pawns since the start while hers keep getting stronger! And we still haven't heard a darn thing from Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "也许这也是实验内容的一环吧……",
+			say = "That's all part of the operation. Well, probably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "蓝方与红方，不论哪一方取胜，对于铁血来说都是成功嘛。",
+			say = "In the end, it doesn't matter whether we win, or Brünhilde wins. Both outcomes benefit Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "不论如何，我们已经尽力了。就算是失败，也是尽了全力之后的失败，没什么大不了的！",
+			say = "And hey, we did everything we could, from strategizing to commanding! If we lose, we lose knowing we did our best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "你倒是想得开……",
+			say = "That's not much consolation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "这只是一方面！更重要的是在这里呆了这么久，我都快闷死了！",
+			say = "Look, I'm fed up with this place too! There's barely anything to do to kill time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "棋子的战术虽然在不断进化，对话能力却没有一点提高，根本不能成为交流对象啊！",
+			say = "Like, what are we supposed to do for fun? Talk to the Pawns? They don't say a thing back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "咦，是这样的吗？我觉得{namecode:401}的棋子交流能力还可以哦？",
+			say = "What do you mean? Thiele and I talk all the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "哎？！怎么回事？你们都聊了些什么？",
+			say = "...You what? Are you joking? What do you talk about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "之前我跟她聊天的时候，她听的可入神了！",
+			say = "Just stuff. I talked about food just yesterday and she listened to it all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "……？这可是超级不得了大现象啊，要写入实验报告的！",
+			say = "What?! This is huge if true! I've gotta note it down in my report!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "具体内容呢？！那天的具体对话内容你还记得吗？！",
+			say = "I need details! What exactly did she say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "真的么？！让我仔细想想哦……我记得那天应该是——",
+			say = "Is it that important? Hang on, let me try to remember...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:401}！我跟你说，今天的早餐特别好吃！",
+			say = "Hey, Thiele! Just had breakfast – probably the best I've ever had!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -381,8 +381,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:401}？",
-			say = "嗯，我在听，然后呢？",
+			actorName = "Z2?",
+			say = "\"Wow, did you? I'm listenin'. What else you got?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			say = "然后——今天的午饭也特别好吃！真没想到撒丁的披萨有那么多种！",
+			say = "Yesterday's lunch was off the hook too! I never even knew Sardegna had so many kinds of pizza!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,8 +406,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:401}？",
-			say = "嗯，我在听，然后呢？",
+			actorName = "Z2?",
+			say = "\"Wow, did you? I'm listenin'. What else you got?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "然后，也没想到撒丁的面也有那么多种！",
+			say = "And it's not just the pizza, they've got a million different kinds of spaghetti too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,8 +432,8 @@ return {
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:401}？",
-			say = "嗯，我在听，然后呢？",
+			actorName = "Z2?",
+			say = "\"Wow, did you? I'm listenin'. What else you got?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "然后是今天的晚餐，我想吃点————",
+			say = "Wonder what we're havin' for dinner! Bet it'll be great too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 403020,
-			say = "…………{namecode:442}，你是笨蛋么？！",
+			say = "...This is just a hunch, but I think that conversation only took place in your head.",
 			effects = {
 				{
 					active = false,
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "哈啊？！我才不想被{namecode:450}你这么说啊！",
+			say = "What the hell! Why do you say that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "算了…………看来这并不是一件需要写入报告里的事……",
+			say = "First of all, she would never talk the same way you do. Second, why does she sound like a broken record. *sigh*... I'm not gonna bother writing any of that down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 4,
-			say = "欸……？是么，真的不用了么？",
+			say = "Why not? What's the harm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "不！用！",
+			say = "I dunno, someone reading it and thinking you've lost your marbles?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 5,
-			say = "唉，算了，还是早点休息吧。明天就要决战了，不养足精神可不行。",
+			say = "Now let's hit the hay. We're gonna need all the energy we can get for tomorrow's experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "这个试验场主机也真是的，明明之前都是间隔个三天五天，最近怎么突然连续一周全勤了……",
+			say = "Now that I think about it, we used to have experiments every three days, but recently we've been fighting every day. Do you think something's wrong with the central terminal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "难道试验场主机也想回家了么？",
+			say = "Maybe it's just as fed up as we are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "……好冷的笑话哦，{namecode:442}。",
+			say = "Wouldn't that be funny? Heheh☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "不管怎么说，就算大局已定，明天的我们也要全力以赴，完成我们最后的战斗哦！",
+			say = "Oh well. Next battle's probably gonna be our last, but that's no reason not to give it our best shot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "那是自然，放心吧——！",
+			say = "Damn right. I'm not going down without a fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

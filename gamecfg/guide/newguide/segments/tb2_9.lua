@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "根据指挥官对娜比娅的培养选择，她将迎来不同的成长结局",
+				text = "You will receive a different growth ending depending on how you raised Navi.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "请点击此处查看结局和要求",
+				text = "Tap here to view the requirements for unlocking a particular ending.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -41,7 +41,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「结局」",
+				text = "Now tap Endings.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -64,7 +64,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅共有15种不同的成长结局",
+				text = "There are 15 different endings for Navi based on how she grows up.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处查看各结局的解锁条件",
+				text = "You can check the requirements to unlock each ending.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -104,7 +104,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "达成相应的数值条件即可解锁结局，若同时满足多个结局条件，则可同时解锁多个结局",
+				text = "Reaching the corresponding values will unlock the ending. If you meet the requirements to unlock multiple endings at once, multiple will be unlocked.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -117,7 +117,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击空白处关闭",
+				text = "Tap the blank space to close the menu.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -138,7 +138,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击返回主页",
+				text = "Tap to return to the previous screen.",
 				mode = 2,
 				dir = -1,
 				char = 1,

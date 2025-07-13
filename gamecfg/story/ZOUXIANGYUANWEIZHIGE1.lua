@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"博览会闭幕式两周前",
+					"Two weeks before the World Expo's closing",
 					1
 				},
 				{
-					"撒丁帝国·大教堂",
+					"Sardegna Empire - Cathedral",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			bgm = "Theme-marcopolo",
 			bgmDelay = 1,
-			say = "无风的房间中，烛火却摇曳着。",
+			say = "In the solemn stillness of the cathedral chamber, only a few faint, forlorn specks of candlelight parted the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			say = "就好似这个明暗不定的世界。",
+			say = "The flickering shadows cast across the floor's tiles were as branches shivering in anticipation of a coming storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……预兆已经显现。",
+			say = "...The sign has been made manifest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……我看见，云层散开了一角。",
+			say = "The clouds part...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……一缕月色洒下。",
+			say = "...and a holy light spreads across this land.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……我看见，神于凡世间的象征。",
+			say = "I see... a symbol of the Divine's descent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……正在荒野之中闪耀。",
+			say = "...A radiant embodiment of glory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……我看见……",
+			say = "Then, I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "……等等！",
+			say = "Stop right there! You totally lost me, so let's back it up a bit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "神于凡世间的象征…………？！",
+			say = "You mentioned something about the \"Divine's descent.\" In other words, the incarnation has finally appeared?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "看来，情报是正确无误的…………",
+			say = "Magnificent! This confirms that my information is correct.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "哈哈哈哈……",
+			say = "Ahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "这一刻……我已经等得太久。",
+			say = "Oh, how long I've waited for this day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "完成我伟业的最后一块拼图，终于要来了！",
+			say = "Finally, the last piece of the puzzle needed for my feat of strength has arrived–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "————神啊。",
+			say = "Now... Come to me, \"God\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "「实现一切事的日子快要到了」",
+			say = "The day when all wishes shall be granted is coming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 699010,
-			say = "啊哈哈哈哈哈哈哈——",
+			say = "Ahahaha! Ohohohoho!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			say = "马可波罗大笑着离开了。",
+			say = "Marco Polo's discordant laughter echoed through the halls as she turned to leave the cathedral.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			say = "风沿着敞开的门席卷而入，吹灭了最后一株正在挣扎的烛火。",
+			say = "The gust of wind that blew through the doors she threw open snuffed out the last candle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……于是，云层再次合拢。",
+			say = "...Then the clouds cover the skies once more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……世界沐浴在光明之中。",
+			say = "...The world is enveloped in a false light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……永恒之乐园，就要降临了。",
+			say = "...And so, it is born. \"God's\" eternal, hollow paradise on earth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,27 +469,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>>>R：你怎么看会议的结果？</size>",
+					"Audio Recording: Conversation with the Tribunal / Before the Crimson Axis' Founding",
 					2.5
 				},
 				{
-					"<size=51>>>C：给了铁血这么大的甜头，它一定会要求更多。</size>",
+					">>\"You're being naive, Richelieu. Now that they smell blood in the water, the higher-ups won't be satisfied with just that.\"",
 					3
 				},
 				{
-					"<size=51>>>C：铁血迟早要动手。</size>",
+					">>\"The Iron Blood invasion will come sooner or later.\"",
 					3.5
 				},
 				{
-					"<size=51>>>R：我也是这么想的。</size> ",
+					">>\"I've already planned accordingly.\"",
 					4
 				},
 				{
-					"<size=51>>>R：不过问题在于……何时，何地，以何种方式？</size>",
+					">>\"The question is when, where, and how will they do it?\"",
 					4.5
 				},
 				{
-					"<size=51>>>C：还不清楚，我会加强情报收集工作的。</size>",
+					">>\"It's anyone's guess. All I can do for now is continue strengthening our intel network.\"",
 					5
 				}
 			}
@@ -499,39 +499,39 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>>>R：你怎么看会议的结果？</size>",
+					"Audio Recording: Conversation with the Tribunal / Before the Crimson Axis' Founding",
 					2.5
 				},
 				{
-					"<size=51>>>R：皇家那边呢，回去之后有什么动作么？</size>",
+					">>\"And what of the Royal Navy? Any news from their higher-ups?\"",
 					3
 				},
 				{
-					"<size=51>>>C：你是指在发表了“赢得一代人和平”的宣言之后？</size>",
+					">>\"...Are you referring to the 'Peace for our time' speech?\"",
 					3.5
 				},
 				{
-					"<size=51>>>R：……皇家暗中与铁血结盟了。</size> ",
+					">>\"The possibility that the Royal Navy has secretly been allied with Iron Blood since the beginning...\"",
 					4
 				},
 				{
-					"<size=51>>>R：应该不会有这样的展开吧……？</size>",
+					">>\"...is not one that I want to entertain.\"",
 					4.5
 				},
 				{
-					"<size=51>>>C：倒是没有收到过类似的情报呢。</size>",
+					">>\"So far, we have no intel confirming that to be true.\"",
 					5
 				},
 				{
-					"<size=51>>>C：皇家也许只是在观望。</size>",
+					">>\"Perhaps, the Royal Navy is taking a wait-and-see approach for now.\"",
 					5.5
 				},
 				{
-					"<size=51>>>R：那必须让她们尽快行动起来。</size>",
+					">>\"If that is the case, we must get them to act.\"",
 					6
 				},
 				{
-					"<size=51>>>R：记得接下来有一个皇家的访问团，就从这里着手吧——</size>",
+					">>\"We will be welcoming a Royal Navy delegation soon, so that will be a good place to start–\"",
 					6.5
 				}
 			}
@@ -561,7 +561,7 @@ return {
 			bgm = "theme-vichy-church",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "█ █ █·█ █ █ █ █ █",
+			say = "Present Day - Richelieu's Fleet",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "A black sun, quietly burning in the dusky sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "…………又是这个梦。",
+			say = "...Not this again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……{namecode:523}，你在这里么？",
+			say = "...Jean Bart, are you there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "▇▆▅■▎▃▌█情▇█▎■▄▆▋▂▁▅况█▊▇▊▇",
+			say = "▇▆▅■▎▃▌█state▇█▎■▄▆▋▂▁▅emergency█▊▇▊▇",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "…………你是？",
+			say = "Wait... You're not her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "马赛曲？！",
+			say = "You're... Marseillaise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "█▊▇危▅▁▂▋▄▊急█▌",
+			say = "█▊▇I'm▅▁▂▋▄▊danger█▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			actor = 805010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "……情况危急？",
+			say = "You're in danger?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "█▆速▇█",
+			say = "█▆hurry▇█",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "█▆▎来█▎█",
+			say = "█▆back█▎█",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "█▎█▎救▅█▎█▎▌我▅▎▌█",
+			say = "█▎█▎save▅█▎█▎▌me▅▎▌█",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			side = 2,
 			actorName = "█ █ █ █ █",
 			dialogueBgAlpha = 0.6,
-			say = "█▆速▇█▂▁▅来█▎█",
+			say = "█▆please▇█▂▁▅help█▎█",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,8 +793,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			actorName = "？？",
-			say = "黎塞留大人……",
+			actorName = "???",
+			say = "Cardinal?",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -823,11 +823,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "黎塞留——大人——",
+			say = "Oh, Cardinaaal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			actor = 801070,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人，您还好么？",
+			say = "Cardinal Richelieu, are you alright?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -869,7 +869,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……唔嗯……头有点沉。",
+			say = "Mm... My head still feels a bit heavy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "好像不小心睡过去了，然后做了个噩梦……",
+			say = "Forgive me. I must've dozed off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -905,7 +905,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "我稍微清醒下就好，你来是有什么事么？",
+			say = "But, I'll be fine. More importantly, did you have something to tell me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "嗯，我有重要情况要向您汇报。",
+			say = "Yes. Something very important, in fact.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,7 +941,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "刚刚……我收到了克莱蒙梭大人发来消息。",
+			say = "Lady Clemenceau has sent you a message. I shall read it to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -959,7 +959,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "审判庭认为现在时机已经成熟，是时候带您去取回鸢尾的正统了。",
+			say = "\"The time has come for you to reclaim the Iris' Crown.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,7 +977,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……我知道了。",
+			say = "...I see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "您好像……并不激动？",
+			say = "You don't seem particularly excited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "冠冕，只是一个象征而已。",
+			say = "The Crown of the Holy See is the Orthodoxy's symbol, yes, but that is all it is – a symbol.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "因为人民认可，它才具有代表正统的意义。",
+			say = "The Orthodoxy's true legitimacy comes from those who have faith in it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不过我也并非心中毫无波澜……",
+			say = "Having said that, this message isn't at all meaningless.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "身在维希的审判庭选择将圣座冠冕交予我手，本身就是人心变化的证明……",
+			say = "The very fact that the Tribunal is willing to tell me about the Crown is proof that the winds of change are blowing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "接下来我们要回马耳他么？",
+			say = "And the key to the Crown lies in Malta.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "你之前好像提到过，通向冠冕藏匿地的钥匙就在那里。",
+			say = "If we want to seize this opportunity, that's where we should go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "啊，那倒不用。",
+			say = "That will not be necessary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1139,7 +1139,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "因为此前圣堂的事，计划有变，我们换另一条路去。",
+			say = "The situation has changed after your splendid retaking of the Basilica Isles. We are now able to sail directly to the Crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "去哪里？",
+			say = "Really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "——圣赫勒拿岛，过去的皇家“盟友”作为友谊象征借给我们的海外基地。",
+			say = "Yes. Our target is Saint Helena. The Tribunal established a secret stronghold on the island some time ago, with the Royal Navy's permission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1193,7 +1193,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "岛上有一座审判庭的秘密要塞，冠冕正在那里被马赛曲保护着。",
+			say = "That is where we'll find the Crown, guarded by Marseillaise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1211,7 +1211,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "等等……马赛曲？",
+			say = "Wait... Marseillaise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1249,7 +1249,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "嗯~虽然对外公布马赛曲已经沉没了，不过她其实一直和冠冕一起躲在圣赫勒拿岛。",
+			say = "Indeed. Many assume she was stricken from the record, but she has actually been hiding on that island, protecting the Crown.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1267,7 +1267,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "刚刚我的噩梦就是关于马赛曲的。",
+			say = "Le Terrible, I need to tell you something that you might not believe. I've been having recurring dreams...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1285,7 +1285,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "黑日之下，她正在向我求救……",
+			say = "And in the last one, I saw Marseillaise beneath a black sun, begging for help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1303,7 +1303,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "什么，黑日之下……？",
+			say = "A black sun, you say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1341,7 +1341,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "怎么会这样……难道冠冕的位置被其他人发现了？！",
+			say = "That does seem like quite the ill omen, but I fear for what it means if it isn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1359,7 +1359,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "有办法立刻确认一下么？",
+			say = "At any rate, I'm concerned about Marseillaise's well-being. Can we get in touch with her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1377,7 +1377,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不行……出于安全考虑，圣赫勒拿岛禁止对外收发任何信息，以维持无人值守的假象……",
+			say = "I'm afraid not. The stronghold cannot send nor receive messages to maintain the illusion that it is uninhabited.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1395,7 +1395,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……克莱蒙梭大人或许是察觉到了什么，才会让我们现在去寻找冠冕。",
+			say = "Perhaps Lady Clemenceau wants us to go there because she has sensed something is wrong...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1413,7 +1413,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "……事不宜迟，我们立刻出发！",
+			say = "Then let us set sail at once. To Saint Helena!",
 			painting = {
 				alpha = 0.3,
 				time = 1

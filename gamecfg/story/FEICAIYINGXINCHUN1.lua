@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飞彩迎新春\n\n<size=45>一　春风送暖</size>",
+					"Spring Blossoms in the Sky\n\n<size=45>1 Warmth Arrives on the Spring Breeze</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "新年前夕的港区后街——",
+			say = "Port shopping district - Right before Lunar New Year",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "啊，指挥官~过年好呀。",
+			say = "Oh. Hi, Commander. Happy Lunar New Year!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,11 +64,11 @@ return {
 			},
 			options = {
 				{
-					content = "新年快乐~",
+					content = "\"Hi there.\"",
 					flag = 1
 				},
 				{
-					content = "过年好~",
+					content = "\"Happy Lunar New Year.\"",
 					flag = 2
 				}
 			}
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "真是好巧，居然在这里碰到了指挥官。其实原本我正打算去指挥室找你呢。",
+			say = "Fancy meeting you here. I was just about to visit your office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，指挥官是在巡视港区吗？",
+			say = "What brings you here? Are you patrolling the port, perchance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "明明假期将至，事务还是如此繁忙……真辛苦啊。",
+			say = "Always working tirelessly, even with holidays around the corner... You poor thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,11 +127,11 @@ return {
 			},
 			options = {
 				{
-					content = "只是在漫无目的地闲逛而已。",
+					content = "\"I'm just on a leisurely stroll, actually.\"",
 					flag = 1
 				},
 				{
-					content = "事务……倒也算不上。",
+					content = "\"I don't have TOO much work at the moment.\"",
 					flag = 2
 				}
 			}
@@ -145,7 +145,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就好~",
+			say = "Ah. That's good to hear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚好我这边有个计划要请指挥官帮个忙……你要是有时间的话就太好了。",
+			say = "Say, I could use your help with something. Do you have a moment?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了……意思是指挥官现在还算有空闲对吧？",
+			say = "Ah. So you have time for other things, I presume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实有件事情我想请你帮个忙！",
+			say = "See, I was hoping you could help me with something. Would you mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "嗯？说来听听？",
+			say = "\"It depends. Tell me more.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "是这样的……指挥官，我想扩建一下烟花工坊！",
+			say = "Sure. I'm planning to expand the firework workshop for the festival.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "春节本来就应该是大家聚在一起的热热闹闹的节日嘛。",
+			say = "The Spring Festival is a time for everyone to get together and have a blast.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而绚烂的烟花则是装点春节气氛的首选~",
+			say = "And what better way to do that than with some stunning fireworks, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "港区现在虽然也有烟花工坊，不过能生产的烟花样式实在是有些单一。",
+			say = "Unfortunately, in its current state, the workshop can't produce fireworks that are quite up to snuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "所以我想扩建一下烟花工坊，生产一些新款式的烟花，指挥官觉得怎么样呢？",
+			say = "But, that can be fixed with an expansion. We could make new and exciting kinds of fireworks! What do you say, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "其实刚刚在巡视有些冷清的港区的时候，我已经在考虑这件事了。",
+			say = "I had a similar idea earlier while I was strolling through the port and noticed how quiet it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "毕竟一提到春节，想到的自然便是鞭炮齐鸣礼花腾空的热闹场面。",
+			say = "And you can't have Lunar New Year without ear-splitting firecrackers and dazzling fireworks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "不过稍微有些吃惊，居然是华甲先提出来的这件事……没想到文静的她会喜欢爆炸与烟火。",
+			say = "\"I'm in favor of it. Also, I'm a bit surprised you of all brought up the idea. I didn't think a quiet girl like you would like fireworks.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "指挥官，我可是很喜欢各种有趣又刺激的活动的哦？",
+			say = "Heehee. One shouldn't judge a book by its cover. I actually love big, exciting events.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然你同意了，那事不宜迟，咱们来一起做些准备吧~",
+			say = "Seeing as you're on board, shall we get right to it?",
 			painting = {
 				alpha = 0.3,
 				time = 1

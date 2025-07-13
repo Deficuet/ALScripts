@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "资源点等级提升了！",
+			say = "Seems like the resource node leveled up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

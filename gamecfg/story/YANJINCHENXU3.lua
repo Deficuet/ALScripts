@@ -15,15 +15,15 @@ return {
 			bgm = "theme-kerguelen",
 			sequence = {
 				{
-					"接管第四日 12:45:00",
+					"Vicinity of Kerguelen Islands",
 					1
 				},
 				{
-					"皇家海军安塔迪卡洋舰队",
+					"Royal Navy Antarctic Fleet",
 					2
 				},
 				{
-					"凯尔盖朗群岛·周边海域",
+					"Basilica Investigation Primary Team",
 					3
 				}
 			},
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "增援舰队呼叫凯尔盖朗接管分队，有没有人听到啊~",
+			say = "Yo, investigation team! Can you hear me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,10 +67,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "重复一遍，这里是皇家海军英雄号！",
+			say = "Alright, let's try that again... Ahem! This is Hero, of the Royal Navy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "现在正在呼叫接管分队，有没有人听到啊！",
+			say = "Investigation team! Argus! Royal Oak! Do you hear me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,10 +114,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "啧，怎么完全没动静啊！这个机器不会坏掉了吧！",
+			say = "Whoa, it's not doing anything! Is this thing broken, or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "设备都在出发前检查过了，性能完全正常哦。",
+			say = "We ensured that it was working properly before we left, Hero.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "或许是因为海域中依然存在通讯干扰，所以无法正常工作吧。",
+			say = "I presume it's not working due to the jamming in this ocean region.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "这一点在布置任务的时候应该也有提到过……英雄小姐忘掉了么？",
+			say = "Which would mean that we're inside the anomaly reported by the islands' patrol fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "切————",
+			say = "Uh-huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "不过……就连之前巡逻舰队提到过的SOS信号也没收到，该不会……",
+			say = "Yet we haven't found any sign of Argus's SOS signal yet. I can't help but fear the worst...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不用太过担心，皇家橡树大人可没有这么容易被打倒。",
+			say = "It's not yet time to worry. Our Royal Knights wouldn't fold that easily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "她虽然在日常发言中时常妄自菲薄，但也是经历了血与火的历练，一步步走到现在的皇家骑士。",
+			say = "(She may have low self-esteem, but she's no weakling. I'd bet she ran into some stroke of bad luck, like usual.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "事发还不到24小时，她们应该还活着。",
+			say = "(Either way, we can only hope for her safety now.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "那怨仇女士，我们是否立刻登岛？",
+			say = "Shall we disembark on the island right away?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不急。这个岛屿并不大，我们先环绕一圈，等彻底把握住海域中的情况再说。",
+			say = "We wouldn't want to fall victim to whatever befell them. First, we should ensure that the island's surroundings are safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "遵命。",
+			say = "I'll lead the way. Please be careful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "一段时间后————",
+			say = "Vicinity of Kerguelen Islands",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔……有些奇怪。",
+			say = "\"May the Iris's blessings be upon you,\" huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没有发现敌方舰队，岛上也没有发现战斗过的迹象……",
+			say = "Odd. There are no signs of either foe or fighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看来不进入圣堂内部调查一下是查不出问题了。",
+			say = "We have a general grasp of this island's layout, but it seems we won't find Argus and the others unless we go in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "欸~这座岛虽然不大，但是进入建筑中逐个排查就不知道要花多久时间了。",
+			say = "For real? Dungeons are cool and all, but I don't wanna marathon four in a row.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "英雄提议直接通过摧毁建筑物的方式来进行高效排除~☆",
+			say = "I meeean, I could just blow those buildings up and make everyone run out screaming! Way more efficient.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "斯库拉，你觉得我们从哪里登陆比较好？",
+			say = "Scylla, where should we disembark?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "岛屿西南侧的大灯塔。皇家橡树大人之前在报告中提到过，那里是整个圣堂建筑群的控制中心所在。",
+			say = "The lighthouse tower to the southwest should do. Royal Oak and Argus focused their investigation there, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "有点意思。",
+			say = "Very well. They did mention that they found the island's control centre there in their final report, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣堂建筑群的控制中心被放置在岛屿最边缘的灯塔中而不是那些宏伟的建筑里，你怎么看这件事？",
+			say = "Why would they place such an important infrastructure along the coast inside a lighthouse instead of at the heart of their facilities?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "圣堂的内部并不像表面看上去那么平静，或许还会存在危险。",
+			say = "Could it be that the one on the coast is a ruse, while the real one is somewhere else?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "因此之前的鸢尾教国工程师选择将控制中心设置在远离建筑群并便于逃离的海边。",
+			say = "Or... there might be more than meets the eye to the Basilica, and it might not be safe to locate it there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "合理的猜想。那我们就从西南侧的灯塔附近登陆，看看能不能从控制中心中找到些蛛丝马迹了。",
+			say = "A reasonable theory. We'll begin by searching the lighthouse where the team last reported from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "无、无视？！欸？等等、等一下——！",
+			say = "...Huh? C'mon, you're not gonna consider my idea?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "你们说的是很有道理，但也不能完全无视英雄的发言吧！",
+			say = "I have good ideas, too! How about you sidekicks stop ignoring the protagonist here, huh?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "哼哼，对这种事你其实也不讨厌吧~",
+			say = "Oh, the protagonist, you say? Naturally, that means you'll do the lion's share of the work, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "不、讨厌，非常讨厌！不要无视我啊！",
+			say = "Yeah, exactly! So stop ignoring me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那在接下来的调查中你要多多出力才行哦？",
+			say = "Oh, I'm so very sorry. As an apology, I shall let you lead the way then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201360,
-			say = "那还用说！！开路就交给我英雄大人吧~☆",
+			say = "Now you get it! You're about to see how a Hero does dungeon-crawling!",
 			painting = {
 				alpha = 0.3,
 				time = 1

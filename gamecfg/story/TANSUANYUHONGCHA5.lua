@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>五 创新餐饮</size>",
+					"Tonic and Tea\n\n<size=45>5. Experimental Menu</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "来到了铁血的店——“莱茵咖啡馆 Café im Rhine”。",
+			say = "I step into the Iron Blood's café – Scharlachroter Tresen.",
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "欢迎光临。",
+			say = "Welcome, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "居然是作为店长的{namecode:435}在门口迎接客人。",
+			say = "\"Bismarck? I'm honored to be greeted by the leader herself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "店铺刚刚开业，作为店长有必要在最近的距离观察客人们的反馈，以便进行更好的方针调整。",
+			say = "This way I can personally oversee the business to make sure everything is going as planned. We only just opened, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "指挥官这边请，我们已经为你预留好了座位了。",
+			say = "Anyway... Follow me. The seats are over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "跟随{namecode:435}来到了店里的一处空座位。",
+			say = "Bismarck leads me deeper into the café. I take a seat and turn to look at her.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "我们这次试制了很多新饮品，有些在营业菜单里，有些希望能在进入菜单前让你先品尝一下。",
+			say = "We're trying out a lot of new drinks. Some of them have already made it onto our menu, and some others we'd like your opinion on first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官指挥官！碳酸苹果汁、碳酸牛奶还有碳酸咖啡都端来啦！请品尝！",
+			say = "Here you go! Apple juice, milk, and coffee, all bubbly! Enjoy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "碳酸小麦汁我也拿过来了哦……唔…………",
+			say = "Try this, uhh, bubbly wheat juice too. It's– *hic* It's great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "{namecode:456}，你喝太多碳酸小麦汁了啦！",
+			say = "You've clearly had too much of that, Adalbert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "这些饮料的颜色，看起来好像都有些不太妙……不过盛意难却，还是依次品尝一下吧——",
+			say = "While I have my misgivings about all the \"intriguing\" drinks they've presented me with, I can't exactly just pass on them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "嗯…？味道倒是都意外地不错。特别是咖啡味的气泡在口腔中爆炸时，会带来非常奇妙的感觉。",
+			say = "\"I'm... pleasantly surprised. The bubbles tickled my tongue in an oddly satisfying way.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "看来指挥官对于这些饮料还算是满意啊。很好，明天就正式供应吧。",
+			say = "Phew... I'm glad you enjoyed them. We'll add them to the menu tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来要不要吃点东西？其实，我们还有一些新菜品也希望指挥官能先品尝一下。",
+			say = "Care to try some food too? We have both desserts and whole dishes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402061,
-			say = "比如黑森林肘子、华夫饼三明治、冰淇淋烤肠之类的！",
+			say = "Yup-yup. From Black Forest cake to waffles with sausages, you name it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "好像有些奇怪的东西混进去了……？",
+			say = "\"The desserts sounds nice, but– Wait, did you just say waffles WITH sausages?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官……我都端来了哦，请品尝！",
+			say = "H-here you go, Commander! Hope you enjoy...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这个华夫饼香肠三明治可是我的创新，怎么样~看起来就很有食欲吧！",
+			say = "You heard right, Commander! Waffles with sausages is my own original recipe. Gosh, just looking at 'em makes my mouth water!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408121,
-			say = "还是说要先从冰淇淋烤肠开始？确实诶，这个如果不快点吃的话冰淇淋就全部化掉了！",
+			say = "Dig in, Commander! You should start with the waffles before they get cold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_145",
 			dir = 1,
 			blackBg = true,
-			say = "嗯…………毕竟盛意难却，这里就尽情接受铁血众人的好意吧———",
+			say = "This is quite a bizarre dish, that much is obvious. Nevertheless, I can't say no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

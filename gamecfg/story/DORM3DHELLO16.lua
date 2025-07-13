@@ -2,7 +2,7 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DHELLO16",
+	id = "DORM3DHELLO15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "我骄傲的{dorm3d}，天狼星以这副模样迎接您，是否太过失礼了？不过如果是{dorm3d}期待着让这样的天狼星献上侍奉的话……呵呵~啊，非常抱歉，{dorm3d}，天狼星刚刚又有些自说自话了……",
+			say = "我骄傲的主人，Sirius以这副模样迎接您，是否太过失礼了？不过如果是主人期待着让这样的Sirius献上侍奉的话……呵呵~啊，非常抱歉，主人，Sirius刚刚又有些自说自话了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

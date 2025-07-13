@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"受选者之路\n\n<size=45>永夜的序幕</size>",
+					"Path of the Chosen\n\n<size=45>5 Intro to the Eternal Night</size>",
 					1
 				}
 			}
@@ -18,14 +18,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "撒丁教国·首都",
+			say = "Sardegna Ecclesia - Rome",
 			sequence = {
 				{
-					"撒丁教国·首都",
+					"Sardegna Ecclesia - Rome",
 					1
 				},
 				{
-					"某处宅邸",
+					"Unknown location",
 					2
 				}
 			}
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "午后，和煦的阳光下，一场聚会正在某个宁静的庭院中进行着。",
+			say = "It was afternoon, and soft sunlight shone upon a quiet garden where a meeting was taking place.",
 			bgm = "story-theme-sardinia",
 			typewriter = {
 				speed = 0.05,
@@ -63,11 +63,11 @@ return {
 			actor = 9703010,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "根据我的情报，枢机主教团将会在今日宣布最终结果。",
+			say = "According to my intel, the Cardinals will announce the final result later today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,11 +77,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "毫无效率，浪费时间。",
+			say = "What a complete waste of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "早已定下的事，也要装模作样商量这么久。",
+			say = "I'm stunned that they pretended to discuss it for this long when they already made their decision ages ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "别这么说嘛，下这个决心对于撒丁教国来说也不容易的。",
+			say = "Don't put it like that. This is a very tough decision for the Ecclesia to make.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,11 +120,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "明明他们是最大得利方？",
+			say = "And yet, they are the biggest beneficiaries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,11 +134,11 @@ return {
 			actor = 9703060,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "世俗与宗教，王权与神权，人类与舰船，太多平衡，太多算计了。",
+			say = "Secularism and religion, royal and divine power, humans and shipgirls... There are too many things to balance and calculate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然而最终，教国还是迈出了这一步……",
+			say = "In the end, though, the Ecclesia took the step...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "千年前的「神光圣裁」，不但毁灭了入侵帝国心脏的敌人，也重塑了这片帝国心脏所在的土地。",
+			say = "A thousand years ago, the God's Judging Light smote the enemy that had invaded the heart of the empire. Not just that, it reshaped the very land it stood upon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那一日之后，半岛变为了群岛，帝国毁灭之日同时亦是教国诞生之日。",
+			say = "Then the peninsula shattered into an archipelago. The empire fell, and the Ecclesia was born...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而我们也自此一直沐浴在神光之中。",
+			say = "Ever since then, we have lived in the light of that God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们因神光获得了新生，亦被神光束缚在此，行走在神所安排的道路上。",
+			say = "We were reborn in that divine light, but we are also bound by it and made to walk on the path that God laid out for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,11 +218,11 @@ return {
 			actor = 9703010,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果只是某种信仰也罢，然而我们都已经知道了……神不光是信仰。",
+			say = "It would be fine if it were just a belief, but that God is more than just a symbol of faith.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,12 +232,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "祂不但是真实存在的……甚至现在就有一整支钢铁军军团静静沉睡在我们的脚下。",
+			say = "Not only does He really exist, but He also has an army of steel soldiers resting beneath our feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,11 +247,11 @@ return {
 			actor = 9703010,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……我自从知道这件事后，就没睡过一个好觉。",
+			say = "That knowledge has forbidden me from sleeping soundly even a single night since then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,11 +261,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊，所以这么多年来，我们一直尝试用更温和的方式削弱神权，将神与世俗剥离开来。",
+			say = "Yes... That's why we've been trying to slowly and gently weaken the theocracy and separate that God from the secular world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,11 +275,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然而很明显，撒丁教国不喜欢这样。",
+			say = "The Ecclesia clearly didn't like that, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且……他们终于发现了神所认可的舰船是操控神之遗产的“钥匙”。",
+			say = "What's more, they discovered that the shipgirl chosen by that God is the key to controlling His legacy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +303,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "教国已经迈向了危险的方向，我们该进行“激进一些”的方案了。",
+			say = "Be that as it may, the Ecclesia is heading in a dangerous direction. This forces us to take more drastic measures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,12 +317,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……虽然我一直极力避免这个局面。",
+			say = "I have been trying my hardest to avoid this scenario...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,11 +332,11 @@ return {
 			actor = 9703060,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过，我终究是撒丁尼亚联盟的骑士，效忠对象是联盟本身。",
+			say = "But now, it has come to this. I am a knight of the Sardegnia League, and my loyalty is sworn solely to the League.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,12 +346,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "安德烈亚女士，我认为您的计划对于联盟整体来说是有益的。",
+			say = "Andrea, I believe your proposal is beneficial to the whole League.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,12 +361,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在这个迈向自由的时代，联盟不能被重新束缚在神的枷锁下。",
+			say = "In this age where we strive for freedom, we cannot allow ourselves to be bound by God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,12 +376,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			actor = 9703060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果教国不愿意发生变化，我不介意帮它一把。",
+			say = "If the Ecclesia won't change, we just have to change it ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "终于，我们首次达成了全体一致。",
+			say = "Heehee. Then we're finally all in agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,11 +405,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——让我们一同拉开永夜的序幕吧。",
+			say = "Together, let us begin the eternal night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,10 +6,10 @@ return {
 		{
 			actor = 900011,
 			side = 2,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "居然能让多个「模具」同时产生觉醒反应，真是令人惊讶的一次演算",
+			say = "Multiple Pawns have been Awakened at the same time, which makes the experiment a huge success.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			actor = 900012,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "那么，这次你准备如何收场？如果「模具」被夺走，事态可是会超出「可控性战争」范畴的哦",
+			say = "But what are you gonna do about the situation? If they steal the backup of the Original then it'll disrupt the war on the outside.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -48,10 +48,10 @@ return {
 		{
 			actor = 900011,
 			side = 0,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "放心，在风暴螺旋持续的情况下，他们是无法离开「镜面海域」的",
+			say = "As long as the quarantine mechanism is in place, they can't leave the Mirror Sea.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -68,10 +68,10 @@ return {
 		{
 			actor = 900011,
 			side = 0,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "何况，不管最后的结局如何，他们的进化速度都已经超过了自然演算系统的推论速度",
+			say = "In any case, White's evolutionary rate has drastically surpassed what the Natural Calculation System's simulations estimated.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -88,10 +88,10 @@ return {
 		{
 			actor = 900011,
 			side = 0,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "我们的目标已经达成了",
+			say = "Now that we know that, we've achieved our goal.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -109,7 +109,7 @@ return {
 			actor = 900012,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "你的意思是…",
+			say = "Which means you're...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -126,10 +126,10 @@ return {
 		{
 			actor = 900011,
 			side = 0,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "恩，作为系统的DEBUG程序，我将尽我所能并提供更多的修正数据",
+			say = "As a Tester, a living module within the debugging system, I plan to gather as much data for adjustments as possible.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -146,10 +146,10 @@ return {
 		{
 			actor = 900011,
 			side = 0,
-			actorName = "测试者β型",
+			actorName = "Tester β",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "他们究竟是「弃子<Sacrifice>」还是「重子<Major pieces>」，最后就让我来测试一下吧～",
+			say = "I will confirm if they're offering their souls as a sacrifice or if they're hoping to checkmate us~",
 			shake = {
 				speed = 1,
 				number = 3

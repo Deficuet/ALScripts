@@ -7,7 +7,7 @@ return {
 				"GuideDetail"
 			},
 			style = {
-				text = "点击详情界面，可以查看已接受的任务",
+				text = "Tap on Details to see the missions you've accepted.",
 				mode = 2,
 				posY = -54.13,
 				dir = 1,

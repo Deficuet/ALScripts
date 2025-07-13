@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "顺着原路返回，再次穿过厚重的烟尘后，世界重新切换。",
+			say = "Hiei led Hatakaze back the way she came, cutting through the mist and returning to that desolate world.",
 			bgm = "story-nailuo-theme",
 			flashout = {
 				black = true,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "烟尘之后，似乎能听到那些怪物的嘶鸣吼叫，不过却没有任何敌人追出来。",
+			say = "Although the beasts' roars pierced faintly through the mist, they did not pursue the two shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "看来那些怪物不能离开幻境的边界，不过……这道边界不能阻挡你呢。",
+			say = "It looks like they can't pass through the illusion's boundary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "难道你和我一样，并非原本就属于幻境之中的人？",
+			say = "Speaking of which, how did you get here? From outside the illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "幻境是什么……？这里又是哪里？我果然是在做梦吧……？",
+			say = "\"Illusion\"? Where are we? Am I dreaming, or am I not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……算了，看来你比我还要搞不清现状。",
+			say = "...I assume you don't know, judging by that look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "唉，接下来我们不知道还要在这里被困多久，我先帮你处理一下伤口。",
+			say = "Yes, I'm afraid not. For the time being, let me tend to your injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "嘶——",
+			say = "Argh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "忍着点，处理完就好了。",
+			say = "Please bear with it. This won't take long, I promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么疼……果然不是梦。",
+			say = "Pain... I mustn't be dreaming, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那也就是说……在这场绝望的战斗即将迎来终结之时，我遇到了某种奇迹么。",
+			say = "Since this is no dream, I guess I should say you came like a miracle at the end of a hopeless battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……{namecode:71:比叡}，你不害怕我么？",
+			say = "Tell me... Do you not fear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "……怕你做什么？",
+			say = "Why should I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我身上的这股力量……你应该能感觉到的。",
+			say = "Because of this power I have. You surely sense it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "我已经和那些魔物……差不多了。",
+			say = "At this stage, I'm hardly any different from those beasts out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "那有什么关系？力量就是力量，其善恶取决于使用的人。",
+			say = "That's not true at all. Power isn't inherently good or bad – it's about how you use it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "就像我，使用着META化的力量救了你，你不也没怕我？",
+			say = "For instance, I used my META power just now to save you. I don't have to fear power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……不一样。我的力量，要比META化可怕得多。",
+			say = "You don't understand. My power is so much more frightening than that of a META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "那是你的敌人应该害怕的事，而我不是你的敌人，对么？",
+			say = "Then it should be your enemies that fear your power, not your allies, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们算是初次相识，你就这么相信我？",
+			say = "You sure have a way with words, just like Kongou. What if I told you I'm not the Hatakaze you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "就算我们此前并不相识，对于彼此来说，也不是那个记忆之中相识的人。",
+			say = "Perhaps you aren't. Perhaps I've never really met you before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "但是我相信，有些东西的本质是不会变的。",
+			say = "Even so, you are still you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我相信{namecode:140:旗风}，所以我相信你。",
+			say = "I trust Hatakaze, and assuming you're still her at heart, I trust you as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……你真的META化了么？",
+			say = "Heheh. I see... Say, have you really undergone METAmorphosis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "这也是我一路之上在思考的问题……怎么看，我现在的状态都和以往认知中的META化完全不一样啊！",
+			say = "I'm not sure, myself. This condition is nothing like METAmorphosis as I understand it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你有什么头绪么？",
+			say = "Do you know what it might be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……全无。",
+			say = "No. I haven't a clue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "欸，算了，这些麻烦的事等回去之后再想吧。",
+			say = "Ahaha... That's okay. We'll figure it out once we're back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我和你不一样，算是因为意外来到此处的……这么长时间不回去，{namecode:74:长门}大人怕是要担心死了。",
+			say = "To tell the truth, I, um... I ended up here by accident, and I need to get back immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "得尽快找到出去的路才行！",
+			say = "Lady Nagato must be worried sick about me, so finding the way out is my number one priority right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你现在面朝的方向为基准，右转47.5°，笔直向前。",
+			say = "Based on the direction you're facing now, turn right 47.5 degrees and go straight ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许……能找到离开这里的道路。",
+			say = "Do so, and you should leave this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "真的么……？！你是怎么知道的！",
+			say = "Wait, really? How do you know that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "直觉……",
+			say = "Instinct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "这股特殊力量给我带来的——直觉。",
+			say = "My power tells me so – it's instinctual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

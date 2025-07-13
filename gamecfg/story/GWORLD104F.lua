@@ -12,7 +12,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "使用筛选功能可以查看所有可以进行研发的装备。",
+			say = "Filters can be used to only display things such as designs that may be developed.",
 			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "集齐所需素材后，也可以在此功能模块内直接进行装备研发。",
+			say = "After collecting the required materials, you can also commence gear research and development directly via this interface.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

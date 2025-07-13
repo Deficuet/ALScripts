@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我最喜欢的honey~迷上我吧~",
+			say = "Fall in love with me, honey my dear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

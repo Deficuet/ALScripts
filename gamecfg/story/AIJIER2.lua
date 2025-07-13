@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>二　再整理</size>",
+					"Lord of Raging Seas\n\n<size=45>2 Round Two</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "虽然被{namecode:480:埃吉尔}赶到了沙发上休息，但不论如何……我都不能眼看着她一个人忙碌。",
+			say = "Now, Ägir might've chased me off, but that doesn't mean I can just watch her do all the work.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（至少要坚持到把所有散落的文件全部搬到桌子上——）",
+			say = "(Forget this. I'm picking up those files first, no matter what she says.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "五分钟后——",
+			say = "Five minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不容乐观啊……光是把文件重新搬上桌就花了五分钟。）",
+			say = "(Man... Five whole minutes just to get the documents back on my desk.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这如果{namecode:480:埃吉尔}坚持一个人整理的话……得想个办法。）",
+			say = "(Ägir wants to do all of this alone? No way... I need to convince her to let me help.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "好了，接下来就交给我吧。",
+			say = "Now, leave the rest to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "将这些文件重新整理好……倒也算是个不小的挑战，那么，就见识一下{namecode:480:埃吉尔}的力量吧！",
+			say = "Reorganizing this mountain looks like quite the challenge. Heh... Prepare to witness my power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "就在我思考如何才能不着痕迹地帮上{namecode:480:埃吉尔}的时候，指挥室外突然响起了敲门声。",
+			say = "While I think of a way to help her without her noticing, there's a sudden knock at the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（对了……昨天{namecode:470:彼得·史特拉塞}说今晚会来递送演习报告。）",
+			say = "(Oh, yeah! Yesterday, Peter Strasser said she'd come and deliver an exercise report today.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（她应该能帮我一把。）",
+			say = "(Surely she can help us!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "想到这里，我坐直了身体，随后让史特拉赛进入了指挥室。",
+			say = "I sit up straight on the couch and yell to Peter that she can come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "趁她将演习报告递给我的时候，我用眼神瞄向了一旁。",
+			say = "The moment she hands me the report, I shoot a glance at Ägir and point in her direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "虽然一开始有些困惑，不过在看见埋头整理文件的{namecode:480:埃吉尔}后，她便露出了然的表情。",
+			say = "Peter's confused for a moment, but when she sees the ruler of the sea focused on organizing files, she quickly understands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,53 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……以上就是汇报的内容，指挥官，如果确定没有问题，就在这里签字吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 407030,
-			say = "至于其他的……{namecode:480:埃吉尔}，我有更效率的办法可以分类文件，要试试看吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			say = "史特拉赛话锋一转，将话题引向了{namecode:480:埃吉尔}。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499050,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "好吧，{namecode:471:彼得}，快点告诉我怎么做！",
+			say = "...Yep, that's the whole report. Sign here if you don't see any problems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,8 +233,54 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 407030,
+			say = "Also... Ägir, I know a more efficient way to sort those. Want some advice?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			say = "Peter smoothly changes the subject to Ägir's work.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			actor = 499050,
-			say = "不过，我不会让你插手整理的。",
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Very well. Teach me this mystical method of yours!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 499050,
+			say = "...But no help allowed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那当然，毕竟这是你的工作。时间宝贵，让我们开始吧？",
+			say = "Of course, this is your job. I'm busy, though, so let's get to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "经过史特拉赛的旁侧敲击，在一个小时的“奋战”后，文件整理的工作已经进入了尾声。",
+			say = "Thanks to Peter Strasser's lecture, Ägir's organizing work approaches its end after just one short hour of valiant battle.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "在{namecode:480:埃吉尔}还在聚精会神处理剩下的文件时，{namecode:471:彼得}·史特拉赛借口有私事要请教我，将我叫离了指挥室。",
+			say = "While Ägir's efforts reach their climax, Peter informs me that she needs to talk in private, so we step out of my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "呼呼，指挥官，刚刚在指挥室里我就看你好像有话想问我呢。",
+			say = "Heehee. You seemed like you had something to say before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "所以我就主动把你叫出来了……有什么想问的就快问吧？我预留给汇报的时间不多了哦。",
+			say = "I asked you out here to find out what that was. If you need to say something, go on and say it. My scheduled reporting time is coming to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不愧是善解人意的史特拉赛小姐，其实我是想问一些关于{namecode:480:埃吉尔}的事情——",
+			say = "You've got a keen intuition, Peter. It's about Ägir...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "啊~原来如此，是想和{namecode:480:埃吉尔}打好关系吗？可是，我看指挥官明明和{namecode:480:埃吉尔}关系很不错呢。",
+			say = "Oh, is that all? You want to build a better relationship with her? To me, it seems like you two are getting along just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "……嗯，这样的话，指挥官，您可以试试看送她一些精致的小东西。",
+			say = "If that still isn't enough for you, then why not give her a nice little present?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "精致的小东西……首饰一类的么？",
+			say = "A present... Like jewelry, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "没错，相信您一定可以凭借直觉找到合适的礼物吧。",
+			say = "Exactly. I'm sure you can come up with a good gift like it's nothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……居然是问礼物么……呵呵~",
+			say = "Wow, though. Coming to me about this... Heehee♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407030,
-			say = "没什么。那么祝你好运咯，指挥官~",
+			say = "Oh, nothing. Good luck to you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "说完这些，{namecode:471:彼得}·史特拉赛便离开了。",
+			say = "With that, Peter leaves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……我也该回去陪{namecode:480:埃吉尔}工作了。）",
+			say = "(Okay... Time to get back to helping Ägir.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

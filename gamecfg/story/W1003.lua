@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：周边敌人已经肃清完毕，可以进行下一步部署了，指挥官。",
+			say = "Scanning area of operations... No hostile signals detected. You are free to move to the next zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·走廊",
+			say = "Port - Hallway",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "路过{namecode:98:明石}的工坊时，发现门虚掩着，断断续续的谈话声正从中传来。",
+			say = "While I'm passing by Akashi's workshop, I hear despondent muttering coming from the half-open door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 302010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加班，通宵，提不起劲，真没办法，灵魂出窍……",
+			say = "Working overtime, all-nighter, no energy, it's out of my control, let me go home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？莫非是{namecode:98:明石}“胁迫”{namecode:37:夕张}了么？）",
+			say = "(That's Yuubari. Is Akashi forcing her to work on something?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快停下，一起喝……",
+			say = "Easy, easy. Have a pick-me-up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（灵敏为什么也在……？等等，通宵加班后喝酒不大好吧？）",
+			say = "(The genius mechanic is here, too? Drinking immediately after an all-nighter sounds really unhealthy.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "收拾你，极限愤怒，给我跪下！",
+			say = "I'm so frickin' pissed! Get on your knees and beg for mercy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（布莱默顿？！听这内容……是要为{namecode:37:夕张}打抱不平么？！）",
+			say = "(Now Bremerton? Is she trying to fix their horrific working conditions?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一阵忧虑涌上心头，秉持着“不怕一万就怕万一”的想法，伸手推开了虚掩的门。",
+			say = "Feeling concerned, I turn the doorknob and enter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官怎么来了？是布莱默顿还是{namecode:98:明石}通知的么……？",
+			say = "Hum-hum. Commander. Did you two...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有没有，我还没通知指挥官这件事呢！",
+			say = "Nope, I didn't tell the Commander yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,18 +196,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}也还没有去约指挥官喵。",
+			say = "Me neither, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "通知我什么事？",
+					content = "\"Tell me\" what?",
 					flag = 1
 				},
 				{
-					content = "你们在做什么？",
+					content = "What's going on here?",
 					flag = 2
 				}
 			}
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯？要通知我什么事？",
+			say = "Is there something I should know about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "以及我路过的时候听到了一些“收拾你”之类的内容，你们在做什么？",
+			say = "I heard you yelling a second ago. Is something the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我路过的时候听到里面的动静，你们在做什么……？",
+			say = "I heard you while I was passing by a second ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "怎么又是加班通宵，又是给我跪下的……？",
+			say = "Something about \"working overtime\" and \"getting on your knees and begging.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "啊~原来如此，指挥官是因为担心才来的啊！",
+			say = "Ohh. Ya musta heard that and got concerned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "放心放心，没有任何问题！我们是在测试「啾信」的表情包功能哦~！",
+			say = "It's alright, nothin' to worry about! We were just testing out stamps for FleetChat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，没错。刚刚指挥官听到的是我们在报表情包的名字。",
+			say = "Yes. What you heard was just us reciting what the stamps say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,19 +320,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}晃了晃手中的手机。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这样么……",
+			say = "Yuubari shows me her phone screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +332,19 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？等等，「啾信」？是你之前和布莱默顿一起来提案的通讯功能软件么？",
+			say = "That's all it was?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_148",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Hang on, \"FleetChat\"? You mean that messaging app you proposed a while back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没错喵~",
+			say = "Bingo, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我记得是要整合出一个港区通用的通讯软件对吧。",
+			say = "If memory serves me right, it's going to be our new universal app for texting, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "是呀，毕竟因为这样那样的原因，大家之前用的通讯软件都不一样嘛。",
+			say = "That's right! 'Til now, we've all been using different ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "要和大家保持联络就要下载好多软件，手机内存都要不够用了。",
+			say = "That led to everyone having to install a bajillion apps just to text each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "多亏了灵敏、{namecode:37:夕张}，还有因为临时有事不在这里的纳希莫夫跟{namecode:525:英格拉罕}她们~",
+			say = "So we set up a crack team – Soobrazitelny, Yuubari, and the not-here-at-the-moment Ingraham and Nakhimov.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "这次的「啾信」，在保留基础的即时收发信息功能之外，还有多人及阵营聊天频道。",
+			say = "Together, we created FleetChat! In addition to the expected chat function, it also features group chats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "当然，经过本天才和{namecode:37:夕张}她们的努力，JUUS的功能也被整合进去了！",
+			say = "AND! Yuubari and I even managed to integrate Juustagram into it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了早点让它投入正式使用，我也有好几天没午睡了……呼啊~",
+			say = "I was so excited to see people trying it out that I didn't get any sleep last night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "少女说着，打了个哈欠。",
+			say = "Yuubari lets out a long yawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "我们暂时叫它「啾信」其实也是因为JUUS啦！",
+			say = "We haven't fully settled on a name yet, but we're goin' with FleetChat for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "嘿嘿，发音读起来很可爱吧？",
+			say = "Has a nice ring to it, don'tcha think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实……留作正式名称也未尝不可。",
+			say = "It does. In fact, I think that could be its official name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "真的么！那太好了！我这就发信息告诉利物浦和{namecode:494:Z47}她们~！",
+			say = "Really? Sweet! Lemme hit up Liverpool and Z47 and let 'em know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "之前请她们来帮忙提意见的时候，她们也表示很喜欢这个临时名字呢~",
+			say = "I asked 'em about the name before and they lowkey loved it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是用啾信给她们发消息么？",
+			say = "Are you gonna text them through FleetChat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "当然不是啦~",
+			say = "Nah, not yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前大家还是在用普通的通讯软件在进行联络的喵，毕竟最后一项功能刚刚才测试完喵！",
+			say = "The final round of testing only just finished, nya. They're still using the same old apps, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}本来想在测试完表情包功能以后再去约指挥官做汇报的喵……",
+			say = "The plan was to report to you once we'd finished testing the stamps, but that won't be necessary now, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没想到指挥官现在过来了喵！",
+			say = "Saved us a bit of legwork by showing up when you did, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "嘿嘿~这就叫择日不如撞日，妥妥的缘分啊！",
+			say = "Yeah, talk about a coincidence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚好趁现在就告诉指挥官吧？",
+			say = "Heck, might as well give our report here and now, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵~指挥官，「啾信」已经基本开发完成了，接下来我们就可以使用了喵！",
+			say = "Well... Commander, the testing of FleetChat's basic features has concluded, nya. It's ready for release, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "鼓掌~！撒花~！",
+			say = "Woo! Clap, clap, clap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦大家了，之后好好休息一下吧。",
+			say = "Great work, all of you. Get some well-earned rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不辛苦，不辛苦，这点小事，本天才处理起来轻而易举！",
+			say = "Eh, it was easy! Creating a texting app is child's play when you're a genius mechanic!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，不过工作只能算是暂时告一段落……{namecode:98:明石}刚刚还催着我开发VIP系统……",
+			say = "Hum-hum. The 1.0 release is ready, yes, but there is still Akashi's proposed VIP system to work on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "VIP系统？通讯软件也要开VIP？",
+			say = "VIP system? I thought you were making a regular messaging app.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "咳咳，{namecode:98:明石}不知道{namecode:37:夕张}在说什么喵~！",
+			say = "Umm! I have no idea what Yuubari's talking about, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？可是你说……",
+			say = "What? But just earlier, you said–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}是说要让帮大忙的{namecode:37:夕张}当VIP！误会喵，都是误会喵！",
+			say = "What I MEANT was a system to reward you, our most valuable developer, for your hard work, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "Right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "故意无视了{namecode:98:明石}“拙劣”的补救，我决定将话题带回正轨。",
+			say = "Ignoring Akashi's attempt at an excuse, I decide to get us back on topic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然「啾信」已经基本开发完成了，不如就邀请所有的同伴一起使用吧？",
+			say = "Seeing as the 1.0 is finished, why not let the whole port try it out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵？一上来就要开放给所有人么？",
+			say = "Nya? You mean release it just like that, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我相信以{namecode:37:夕张}、灵敏还有纳希莫夫她们的能力，能确保当前的版本不会有什么问题。",
+			say = "Have some faith in your users. I'm sure your current version will work just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且这样一来还能收集更多意见和建议做优化和迭代。",
+			say = "Besides, you need users testing your app to get feedback or bug reports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "哈哈~指挥官同志果然和我想的一样呢！",
+			say = "Ahh-ha-ha-haah! I, for one, agree with Comrade Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样吧，灵敏再跑一遍测试……",
+			say = "Alright. Soobrazitelny, you'll run one last test.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,7 +937,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "布莱默顿可以编写一份啾信的使用教程，{namecode:37:夕张}去编辑一下功能说明。",
+			say = "Bremerton, you'll write the tutorials for using the app while Yuubari polishes up the interface descriptions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等这两样东西好了以后，{namecode:98:明石}去通知大家。",
+			say = "Once all that is done, Akashi will formally announce the app's release.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,11 +957,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题！",
+			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "哦对了——！指挥官，你的手机给我~！",
+			say = "Oh, one more thing! Lemme borrow your phone for a sec, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,18 +996,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "布莱默顿凑到我面前，向我伸出了手。",
+			say = "Bremerton walks up and extends her empty hand toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "递出手机",
+					content = "(Give it to her.)",
 					flag = 1
 				},
 				{
-					content = "不给手机",
+					content = "(Don't give it to her.)",
 					flag = 2
 				}
 			}
@@ -1021,7 +1021,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~？难道指挥官的手机里藏着什么秘密，不想被我看到？",
+			say = "You don't want to, huh? Why? Got somethin' to hide?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1049,7 +1049,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噗，和你开玩笑的啦~！我是要帮你装「啾信」哦！",
+			say = "Heh, just kidding! C'mon, I'm just gonna install the app on your phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "依言将手机递给了布莱默顿。",
+			say = "I do as she asks and hand it to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1084,7 +1084,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "这样，这样……下载……注册……",
+			say = "Let's see here... Download... Register...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "好了！",
+			say = "Done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "从少女手中接过手机，屏幕上是陌生的软件界面——「啾信」。",
+			say = "She hands it back to me. My screen shows the FleetChat app on standby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "这样子，指挥官就是内测版本的第一位注册啾信的人啦~！",
+			say = "Congrats! You're the very first user of this here version!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "指挥官同志，快用用看吧！",
+			say = "Go on! Try it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，操作都很简单的，直接体验看看吧。",
+			say = "Yes, it's quite simple to use. Give it a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快试试吧~",
+			say = "What're you waitin' for? Come on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1186,7 +1186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后有什么意见和建议，也随时告诉我们喵~",
+			say = "And if you've got any feedback, be sure to let me know, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,14 +1198,14 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……那就——",
+			say = "Alright. Here we go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "使用啾信",
+					content = "(Open the app.)",
 					flag = 1
 				}
 			}

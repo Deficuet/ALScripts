@@ -17,14 +17,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一个{dorm3d}……一个安克雷奇……",
+			say = "One {dorm3d}... One Anchorage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇在干什么？",
+					content = "What are you up to?",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……在数数！",
+			say = "Anchorage... is counting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就像现在，一个{dorm3d}，一个安克雷奇……",
+			say = "There's one {dorm3d}, and there's one Anchorage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以，两个人加在起来，答案是……",
+			say = "So if you put them together... The answer is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "永远，在一起！",
+			say = "Together forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿~安克雷奇数的，对吗？",
+			say = "Hehe~ Anchorage counted... Did I get it right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

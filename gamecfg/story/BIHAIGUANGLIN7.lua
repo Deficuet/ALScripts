@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "在一阵持久而又剧烈的晃动结束后，龙宫城终于停止了下沉。",
+			say = "Shortly afterwards...",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -39,7 +39,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "究竟下沉了多深呢……已经完全见不到透下来的阳光了。",
+			say = "We're pretty deep underwater, aren't we? The blessings of the sun and sky no longer reach us here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还好结界质量牢靠，内部完全没有进水，暂时安全！",
+			say = "I guess there really is some kind of \"seal\" around this place. Otherwise, the water would've come crashing in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不幸中的万幸！）",
+			say = "(I thought we were goners... This sucks so bad, I want to go home already...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对外联络已经完全中断了。{namecode:206}，你觉得这个结界是某种镜面海域么？",
+			say = "Our communications with the outside have been cut off as well... Yura, do you think this \"seal\" might actually be a Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……结界应该就是单纯的结界，和我们在重樱本岛设置的那些没什么区别……",
+			say = "Who knows? It looks to me like one of those bags at a koi-scooping stall. Except millions of times larger, and we're the fish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能够在水下维持的结界我可从来没听说过，难道是塞壬的改良版么……有趣。",
+			say = "I had no idea it was possible to make something like this... Think it could be anything other than Siren technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说来，联络中断只是单纯在海中下沉的太深了啊。",
+			say = "Considering how deep underwater we are, it's not even unusual for our communication to be cut off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:62}阁下，{namecode:206}小姐，{namecode:175}阁下！有人能收到么！",
+			say = "Chikuma? Suruga? Anyone! Can anyone hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是{namecode:62}，你们都没事吧？",
+			say = "This is Chikuma. Shimakaze, are you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，我们都没事！接下来怎么办呀？",
+			say = "Right as rain! But... what do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在对外联络中断，暂时只能靠我们自己了。龙宫城既然能降下来，肯定也有办法升上去。",
+			say = "Let's see... Well, there's no way we can ask for help from Lady Shinano now. The first and only thing we can do is figure out how to get out of here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先先想办法汇合吧。龙宫城已经被结界封闭，只能寻找到路从内部穿行了。",
+			say = "In any case, let's join up as we originally planned. The entrance obviously won't do any good for us now, so we'll have to explore around and see what we can find.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还好侦察机能正常使用，虽然没法飞出结界就是了……",
+			say = "At least there's some good news – my seaplanes are still working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "我的舰载机也能正常使用哦！",
+			say = "Naturally, my planes are still operational!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好，这样侦察力量就十分充足了。汇合点要不然就定在——",
+			say = "Good, we have plenty of \"eyes\" then. Now as for how we meet up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,11 +300,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Sound",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「中心」",
+			say = "\"The Heart. The Heart is what you seek.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,11 +316,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Sound",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「龙宫城的中心，埋藏着奥秘与宝藏」",
+			say = "\"Within the Heart sleeps a secret and a treasure.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,11 +332,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Sound",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「龙宫城的中心，将会打开返航的道路」",
+			say = "\"Indeed, only those who reach the Heart will again see the light of day.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,11 +348,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Sound",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「到达此处的旅人，突破机关笔直前行吧」",
+			say = "\"Step forward, and find your way to the Heart.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +364,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "谜之音",
+			actorName = "Mysterious Sound",
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "「龙宫城的中心将会为勇者准备应得的嘉奖」",
+			say = "\"Yes, the Dragon Palace shall reward the brave.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来如此！在中心区域汇合是么！{namecode:18}明白了！",
+			say = "That makes sense! Let's head to the center of the Dragon Palace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "跟我的猜想一样呢，中心区域果然藏着什么东西！",
+			say = "Would ya look at that, Shimakaze? What'd I tell you? There are treasures waiting for us inside these walls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			nohead = true,
-			say = "龙宫城探险再开~！",
+			say = "Treasure Hunt! Treasure Hunt! Treasure Hunt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来大家意见统一啊……中心区域的高耸建筑物或许是整座城市的控制塔，可能真的有离开的方法。那就在中心汇合吧。",
+			say = "I suppose having a landmark will make it easier for us to group up... I guess we'll meet at the Palace's \"Heart\" then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（不对，绝对很奇怪吧！刚才频道里可是出现了可疑的谜之音啊？！）",
+			say = "(Whaaaat?! Is nobody going to comment on the mysterious ghostly voice giving us cryptic clues?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:175}阁下！机会难得！让我们比一比哪边的队伍最先抵达中心吧！",
+			say = "Suruga, since we're going to meet up anyway, why don't we have a race to see who can make it to the center first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "绝对不要。",
+			say = "Absolutely not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎~~~~~？！",
+			say = "Ehhhhhhhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用这么严肃嘛，{namecode:175}。航道看起来也很合适，小小比赛一下不是挺有趣的么？如果能节约时间的话就能更早汇合了。",
+			say = "Now, now. It won't hurt to have a common objective since we're all heading to the same place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你都这么说了，那就好吧……不过要你来带队哦！",
+			say = "Fine, fine. I'll be counting on you to lead the way then, Chikuma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题~",
+			say = "You got it. Hehe, I guess that makes us Team Chikuma?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "太好了~那我这边就是{namecode:18}队！{namecode:18}队全员听令！全军出击！",
+			say = "You're on! We'll be Team Shimakaze then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actorName = "{namecode:208}&{namecode:207}",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "全军出击！",
+			say = "Aye aye!",
 			subActors = {
 				{
 					actor = 301480,
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			actor = 301470,
 			nameColor = "#a9f548",
-			say = "全……全军出击！",
+			say = "Aye... aye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "{namecode:62}队！全军，出击~！",
+			say = "Let's get moving, Team Chikuma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

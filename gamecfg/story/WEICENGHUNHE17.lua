@@ -8,12 +8,12 @@ return {
 	scripts = {
 		{
 			actor = 900231,
-			actorName = "净化者",
+			actorName = "Purifier",
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "啊---累--死--我--了----",
+			say = "Nnnnnnnnghh! I'm soooooo tiiiiired!",
 			bgm = "xinnong-3",
 			flashin = {
 				delay = 1,
@@ -47,7 +47,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "居然回来了。",
+			say = "Welcome back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,10 +61,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "不是有那句话么，只要不想赢，就不会输咯~",
+			say = "Did you hear about \"that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "哦。",
+			say = "No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,10 +95,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "话说为什么这里也被迷雾遮起来了啊，完全没必要吧……",
+			say = "By the way, why are you blanketing the entire area with mist? Isn't it a waste of resources?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "神秘感。",
+			say = "For the suspense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,10 +129,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,10 +163,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "我说……！现在难得有一次像这样的多系统联合行动，不要这么冷淡好不好啊！",
+			say = "Look, I have seniority here, so don't be giving me that cheeky attitude!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "我不是很喜欢出来活动。",
+			say = "Waste of energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "而且…通讯BLOCK，导航BLOCK，雷达BLOCK，雾气浓度30%增大，混合率50%提高…",
+			say = "Communications jammed. Navigation systems jammed. Radars jammed. Seafog density increased by 30%. Compounding rate 50% and rising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "现在工作中。",
+			say = "That is all. Confirming and returning to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "那么闲的话，再出去拖延一阵怎么样？",
+			say = "If you have nothing better to do, why not head out again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,10 +258,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "哎？我可不要~这次任务我已经圆满完成了，该去下一个有意思的地方咯~",
+			say = "Don't wanna. My job here's already done. Let's hurry it up and get to the next thing~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "那就快走，别干扰我工作。",
+			say = "Just go then. Don't get in the way of my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,10 +302,10 @@ return {
 			actor = 900231,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
-			say = "是是是~！！",
+			say = "Sure, sure. I was on my way out anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "接下来，就用这一段吧……",
+			say = "Resuming playback. The next \"fragment\" is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

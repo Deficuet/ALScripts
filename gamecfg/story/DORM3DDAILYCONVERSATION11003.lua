@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，{dorm3d}？你手里的箱子是什么？",
+			say = "Hm? Whatcha got there, honey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你想要的是这个吧？",
+			say = "You asked me for it recently, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是这个！在学院时我喜欢的那个混合果汁！",
+			say = "Oh! You mean the mixed fruit juice I loved back at the Academy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "谢谢你，honey！",
+			say = "Thank you so much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和你有着一样的回忆真是太好了！",
+			say = "You're so cool for remembering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "第一杯我们就一起喝吧，honey！为了我们的回忆，干杯！",
+			say = "Let's drink the first glass together! Cheers to our memories!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

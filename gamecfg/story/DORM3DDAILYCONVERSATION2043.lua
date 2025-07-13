@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我会学了一个魔术哦。",
+			say = "I learned a little magic trick, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "首先，请闭上眼。",
+			say = "Close your eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（老实闭眼）",
+					content = "(Do as she asks.)",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呵呵，没想到{dorm3d}也会上当。",
+			say = "Heehee. You really fell for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "其实我不会变魔术呢。",
+			say = "I can't do magic, if you didn't already guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "感觉到嘴唇上传来的羽毛般的轻柔触感，以及少女的鼻息。",
+			say = "Something with the softness of a feather graces my lips, and I feel her breath on my cheek.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,

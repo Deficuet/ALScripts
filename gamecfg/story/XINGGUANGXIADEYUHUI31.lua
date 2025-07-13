@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "本次事件，在记录中被命名为「消散星空」事件。",
+			say = "My disappearance came to be known as the Day the Stars Faded.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "在事件结束后，出于安全考虑，我继续在四季花馆中停留了几日。",
+			say = "For a few days after, I stayed in the Sakuran pavilion due to safety concerns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "在此期间，我向碧蓝航线指挥部提交了报告，并从各地司令部获取的情报中得知，世界各地确实恢复了正常。",
+			say = "During my stay, I submitted my report on the incident, contacted my allies across the world, and confirmed that everything was back to normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "再之后我以私人身份联系了伊丽莎白等人，确认了这几日NA海域的情况，得知余烬那位前来支援的人最终也没有露面。",
+			say = "After that, I contacted Elizabeth on an encrypted line and learned that the Ashes' reinforcements had never come to the NA Ocean Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "同时还得知了实验场β当前的情况，以及海伦娜·META正在进行的努力。",
+			say = "She also informed me of the situation with test site beta and how the META Helena was hard at work on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "不过我一直没能成功联系上海伦娜·META，卡美洛之庭那边似乎也与她失去了联络。",
+			say = "I still couldn't reach Helena herself, and Camelot had lost contact with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "考虑到M女士之前在奈落中兴致勃勃地与她进行的一系列攻防战，该不会此刻二人已经打成一团了吧。",
+			say = "Given what I knew so far, there was no doubt that she and Madam M – The Magician – were in the midst of a fierce battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "她们两位神仙般的能力我早已有过切身体会，对此，我倒是不担心她们的安危。",
+			say = "I'd have had no way of intervening, and knowing their power, it seemed unlikely that either of them would come out seriously hurt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "只希望这场交锋能够尽快落幕吧。",
+			say = "All I could do was pray that their battle ended soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_blue_n",
 			hidePaintObj = true,
-			say = "就在这回归后的诸事中，{namecode:91:赤城}返回重樱的日子悄然到来了。",
+			say = "And finally, it was time for Akagi to return to the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,15 +142,15 @@ return {
 			bgm = "story-newsakura",
 			sequence = {
 				{
-					"撒丁帝国",
+					"Sardegna Empire",
 					1
 				},
 				{
-					"原博览会会场",
+					"Former World Expo Venue",
 					2
 				},
 				{
-					"四季花馆外",
+					"Sakura Empire Pavilion",
 					3
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{playername}阁下，就送到这里吧。",
+			say = "You may leave me here, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "事关重大，最近我也有空，我可以陪你一起回去。",
+			say = "This is a big moment for you. I don't mind coming with you if it makes it easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "——你接下来会有空？",
+			say = "You'd... really come with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……挤一挤，时间总是有的。",
+			say = "Of course. I have two or three days free, and I can make more time if I need to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "算了吧，你不去，我的事还能算作阵营内部事务，由重樱内部进行了结。",
+			say = "You mustn't. This is an internal matter, so it must be decided by my people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你要是去了，事件规格岂不是要上升了？到时候我可不一定受得起了……",
+			say = "If you were there, they may be too kind to me. I won't get the punishment I deserve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "再说了，{namecode:74:长门}、{namecode:84:武藏}、{namecode:82:三笠}三个人难得统一战线，我还挺有兴趣会一会她们的。",
+			say = "Besides... Lady Nagato, Musashi, Mikasa – they're all working as a united front now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么可是的，一人做事一人当，我早就做好会有这么一天的心理准备了。",
+			say = "I'll be fine. I'm prepared for whatever may come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "放心吧，{playername}阁下，还有我在呢。",
+			say = "Don't worry, Commander. I'll be there as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "纵使许久未归，我多少还是有几分薄面的。",
+			say = "I've been away from home for a long time, but I believe I still have friends who will show deference to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……我没有忘掉之前约好的事。",
+			say = "I haven't forgotten our promise to travel together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一切尘埃落地之后……我在重樱设宴等你。",
+			say = "When this is all over, Commander... I'll be waiting for you. In the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好。",
+			say = "Thanks, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "那么{playername}阁下，还有诸位，我们就此别过了。",
+			say = "Commander. Friends. The Sakuran fleet will hereby take our leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "不用担心，未来我们一定会有再次相见之时的~",
+			say = "I look forward to seeing you all again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "就这样，重樱一行人离开了。",
+			say = "Thus, the Sakura Empire fleet departs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……走了啊。",
+			say = "There they go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是啊……倒是你怎么也感慨起来了？",
+			say = "Getting a little sentimental?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……多少也算是生死与共了一下。",
+			say = "She risked her life alongside us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "本来以为是个挺讨厌的人，一路接触下来，似乎也不是这样。",
+			say = "At first, I found her a little extreme... Now that we've spoken, though, I think differently of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不破不立……希望她能够借此迎来自己的新生吧。",
+			say = "There's more to Akagi than her mistakes. I hope she's able to atone for her past actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好了~人都走远了，别想她的事了，还是先关心关心你自己吧。",
+			say = "Goodness. Don't you think you should worry about yourself first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？",
+			say = "Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呵呵，刚才听某人说“接下来会有空”？",
+			say = "Don't go telling people you can make all the time in the world for them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官啊，接下来你要大祸临头了~！",
+			say = "Ugh, get your priorities straight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "？？？",
+			say = "Oh... You mean the reformation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "别忘了，因为重樱态度的转变，联盟合并会议可是要重新召开的！",
+			say = "Yes, that is what I mean! The reformation is back on the table thanks to all of this, and it's looking better than ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "再加上塞壬力量崩盘带来的各种问题，无尽的会议在向你招手哦？",
+			say = "Siren forces are more disorganized now, too, with the loss of the mainframe... You have endless work to do, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "唉，碧蓝航线接下来，怕是要经历一阵动荡期了。",
+			say = "The winds of change are coming to the Azur Lane...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "谈到塞壬，绕不开的就是实验场。",
+			say = "I have to think about the test site, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "现在塞壬消失后，实验场的真相是否要对外公布？",
+			say = "Now that the Experimental Framework is gone, should the truth be publicized?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "而失去了塞壬实验机关，实验场β今后究竟要走向何方呢？",
+			say = "How will the future shake out without the Sirens' intervention?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "一直以来遥不可及的问题，却在转瞬间摆在了眼前。",
+			say = "Problems that I'd thought \"future me\" would have to deal with are piling up in front of me right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "塞壬的存在不仅带来了纷争与死亡，也带来了压力与动力。",
+			say = "The Sirens have brought war and destruction, but at the same time, they've pushed us to solve the X problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "随着塞壬的消失，这一切都烟消云散了。",
+			say = "With their mainframe gone, that pressure is gone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "甚至，世人还会开始思考一个能够动摇碧蓝航线存在根本的问题。",
+			say = "What of the people who don't know about the X? They're relieved by the reduced Siren threat, but how will they feel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "——失去了塞壬，碧蓝航线这样的组织，还有必要存在么？",
+			say = "Does the Azur Lane truly have a reason to exist anymore?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "一直以来我们做梦都想战胜塞壬。",
+			say = "We've been so focused on defeating the Sirens all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "可是当所有实验机关都消失后……我们迎来的并不是胜利呢。",
+			say = "But now that the Experimental Framework is gone... It doesn't really feel like we've won.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "是啊，我们与塞壬的战斗胜利了么？",
+			say = "There are still Sirens who threaten the safety of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "显然是没有的。虽然实验机关失败了，可是还有虎视眈眈的仲裁机关，还有神秘的观察者零。",
+			say = "The Arbiters watching us. The mysterious Observer Zero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "只要塞壬的实验还在进行一天，实验场与塞壬之间的矛盾就是不可调和的。",
+			say = "As long as their experiments continue – as long as we suffer as their guinea pigs – peace with the Sirens is impossible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "更何况，真正的危险依然在暗中游荡，无时无刻都在发展着自身的力量。",
+			say = "What's more, our true threat still lurks in the dark. The risk of it encroaching upon our world is ever-present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
-			say = "现在绝对不是可以高枕无忧的时候。",
+			say = "This is no time to sit on our laurels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "可惜……那些敌人的存在，没办法向所有人公开呢。",
+			say = "We can't tell all the world everything about our enemy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "在世人看来，接下来最重要的事应该是庆祝战争的胜利，以及瓜分塞壬遗留下来的战利品吧……",
+			say = "They'll be celebrating this false victory and fighting over the spoils for a time to come...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这也是没办法的事，守护世界的重担，本来就应该在我们的身上。",
+			say = "There's nothing we can do about it. We just have to protect the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "碧蓝航线的问题、塞壬的问题……实验场β今后的目标问题……",
+			say = "The Azur Lane, Sirens, and our test site...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来接下来确实是毫无空闲啊……",
+			say = "I suppose I won't have much free time, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "对了，你的手帕，这次还是多亏了它。",
+			say = "Right. I should return your handkerchief. It turned out to be a big help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "啊……这个就送你好了，你就留着吧！",
+			say = "Oh... That's okay! It's a gift!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这条手帕不是你最喜欢的么？",
+			say = "I thought it was your favorite?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我说送了就是送了！",
+			say = "Don't worry about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "实在想还的话，你送我一条新的如何~？",
+			say = "If you really want to thank me, then get me a new one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,7 +923,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯——明后两天是最后的空闲时间呢，我们一起去转转吧？",
+			say = "Also... You said you're free for the next two days? Why don't we all go out together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "撒丁风情的假日，真是令人期待呢——",
+			say = "I can't wait to see a Sardegnian holiday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白中，我终于来到了祂的面前。",
+			say = "There, amidst the complete whiteness extending endlessly in all directions, I arrive before... it.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "果然是你，一路上的片段，都是你让我看到的？",
+			say = "You. You're the one who's been showing me those things, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无人回答，不远处的海洛芬特如同一座尚未完工的雕像静静地矗立着。",
+			say = "No response. Hierophant just stands there in the distance, silent like an incomplete statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你一路上让我看到的，我都看过了。",
+			say = "I've seen everything you showed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以你……是受困于此了，对么？",
+			say = "Am I right to assume that you're stuck in this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不论是与{namecode:522:旗风·META}合作还是诱导马可波罗建立陆上神国，你都只是为了离开。",
+			say = "And you've been wanting to escape. It's why you teamed up with the META Hatakaze and tried to create a \"Kingdom of God\" for Marco Polo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在这过程中，你不存在主观的恶意，只是很多事情不由你控制，对么？",
+			say = "You might not harbor any ill will, but most of your actions have had consequences beyond your expectations – beyond your control, even.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像沉默无声，但是那宝石般的眼眸中，似乎闪过了一抹光泽。",
+			say = "Although the statue still does not say a word, for a moment, it looks like there's a glimmer in its gemstone-like eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我猜测，马可波罗现在身上发生的异常状况依然与你有关。",
+			say = "I'm sure what's happening to Marco Polo now also has something to do with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你为她安排了什么？",
+			say = "What have you done to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "平静的纯白开始震颤，如同海潮来临的前兆。",
+			say = "The calm whiteness starts to shiver, like a rising tide is pressing in on all sides.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，我被无声的浪潮卷入——",
+			say = "The very next moment, the soundless waves come flooding in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "浪潮之外的景色则快速消融，最终变为了一片虚无。",
+			say = "Everything except the waves rapidly dissolves like ice, eventually leaving nothing but a void.",
 			bgm = "theme-thehierophantv",
 			typewriter = {
 				speed = 0.05,
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "随后，马可波罗的身影自纯白的浪潮中浮现而出。",
+			say = "Then, from the gaps between the snow-white waves, Marco Polo's figure comes into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,12 +267,12 @@ return {
 			bgName = "bg_shenguang_cg_10",
 			side = 2,
 			hidePainting = true,
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「神啊，我将全部的信仰献与你」",
+			say = "\"O God, I give you all my faith.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,11 +280,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "Éń°ĄŁŹÎŇ˝ŤČŤ˛żľÄĐĹŃöĎ×ÓëÄă",
+			say = "V NVK, P NPCL FVB HSS TF MHPAO",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，纯白的浪潮重新覆盖在虚空之上。",
+			say = "The voice of the chorus reverberates, and the white waves once more cover the void.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,12 +305,12 @@ return {
 			bgName = "bg_shenguang_cg_10",
 			side = 2,
 			hidePainting = true,
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「我与你同在，你亦与我同在」",
+			say = "\"I am with you, and you are with me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,11 +318,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÎŇÓëÄăÍŹÔÚŁŹÄăŇŕÓëÎŇÍŹÔÚ",
+			say = "P HT DPAO FVB, HUK FVB HYL DPAO TL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，祂的身影亦随之浮现。",
+			say = "Again, the chorus rings out, and a figure becomes visible... it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,12 +343,12 @@ return {
 			bgName = "bg_shenguang_cg_10",
 			side = 2,
 			hidePainting = true,
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「请再次赐予我，对抗塞壬的力量」",
+			say = "\"Please, grant me the strength to repel the Sirens once more.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,11 +356,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÇëÔŮ´Î´ÍÓčÎŇŁŹśÔżšČűČÉľÄÁŚÁż",
+			say = "WSLHZL, NYHUA TL AOL ZAYLUNAO AV YLWLS AOL ZPYLUZ VUJL TVYL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "齐颂之音响起，名为迪洛伊的巨大机甲亦随之浮现。",
+			say = "With one more utterance from the chorus, a colossal weapon known as a Gazer reveals itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
-			say = "而后，另一层纯白的浪潮再次洗刷而来，让世间的一切都回归了纯白。",
+			say = "Then, another white wave washes in, replacing everything with a blank nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白回归了平静，雕像依然沉默无声。",
+			say = "The endless expanse of white regains its calm, and the statue is still silent.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "不过从其如宝石般的眼眸中，我可以清晰地看到马可波罗的倒影。",
+			say = "Even so, in the jewels of its eyes, I can clearly make out Marco Polo's figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "——她们，已然建立了更深层的联系。",
+			say = "It seems that she and Hierophant have forged a deep bond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,20 +444,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "在见证了这一切后，我有很多疑问，但是一时间不知道从何说起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……她，想利用你的力量去对抗……塞壬。",
+			say = "Having seen all these things, I have a plethora of questions to ask, but I don't even know where to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +457,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这件事，你怎么看……？",
+			say = "She is using your power to fight the Sirens.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "How do you... feel about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像，沉默无声。",
+			say = "The statue says nothing in response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

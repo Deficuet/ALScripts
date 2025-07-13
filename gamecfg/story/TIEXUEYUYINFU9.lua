@@ -11,7 +11,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "该结束这场无聊的闹剧了！",
+			say = "It's time to put an end to this!",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "818中队，继续进攻！",
+			say = "You're not going anywhere! 818 Squadron, take aim!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "啧…那个角度…是死角！",
+			say = "Torpedoes... from my blind spot...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "回避…来不及了",
+			say = "I won't... be able to avoid them in time...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "左侧转向舵失灵……不，是卡住了吗？",
+			say = "They damaged my propeller...? No... they hit my rigging?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "是小瞧了这些双翼机的结果么…",
+			say = "Ah, I underestimated your biplanes, and so this happened... I have failed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟号通告皇家舰队全军，敌舰{namecode:435}已经失去行动能力，重复，敌舰已失去行动能力",
+			say = "Report to all nearby Royal Navy ships: Bismarck is losing manoeuvrability! Repeat: Bismarck is losing manoeuvrability!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "位置，布雷斯特以西400里海域，速至增援",
+			say = "Relaying coordinates now! Send reinforcements ASAP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放弃无畏的抵抗吧，你现在只是一只受伤的鳟鱼罢了",
+			say = "It's as Ark Royal said, Bismarck. Your manoeuvrability has taken a critical hit! Cease your meaningless resistance at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "……",
+			say = "... No.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "{namecode:435}号通告司令部",
+			say = "This will not be where I meet my end...!",
 			bgm = "bsm-8",
 			typewriter = {
 				speed = 0.05,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "莱茵行动已经失败",
+			say = "Even though I've failed in my mission, even though I've lost my maneuverability...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我舰已失去行动能力",
+			say = "I still have comrades I must protect, and a dream I must make true...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但火炮犹在",
+			say = "I still have my power...!",
 			soundeffect = "event:/cannon-main-prepared",
 			typewriter = {
 				speed = 0.05,
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我舰将战至最后一弹",
+			say = "And as long as I have my resolve and ammunition to fire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "铁血高于一切",
+			say = "I will fight to the last shell!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "Long live Iron Blood!",
 			effects = {
 				{
 					active = true,

@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION98",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION98",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
@@ -52,7 +49,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "欸？想让天狼星猜猜看是什么故事蓝本？",
+			say = "欸？想让Sirius猜猜看是什么故事蓝本？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +147,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "从个人角度上说，天狼星其实不希望有更多娱乐化这类存在的内容呢……",
+			say = "从个人角度上说，Sirius其实不希望有更多娱乐化这类存在的内容呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +156,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "欸？您说突然变得不太像天狼星了吗？",
+			say = "欸？您说突然变得不太像Sirius了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +195,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "唔，也许是和{dorm3d}您在一起的时间变久了，连思考的方式也受到了影响呢。",
+			say = "唔，也许是和主人您在一起的时间变久了，连思考的方式也受到了影响呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

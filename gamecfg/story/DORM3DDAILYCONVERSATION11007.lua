@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么回事……",
+			say = "What the...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么了，{dorm3d}，怎么把演习计划书带到这里来了。",
+			say = "Why'd you bring the drill plans over, honey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近……",
+			say = "Basically...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "拿你没办法，就让无敌的Black Dragon帮你看看吧，下次记得带一点轻松的东西来玩哦。",
+			say = "Aww, that's rough~ The indomitable Black Dragon will help you, though! Next time, bring something more fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不然，就算是我也会生气的啦……",
+			say = "Or else even I'll get mad at you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

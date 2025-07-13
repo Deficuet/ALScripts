@@ -1,8 +1,173 @@
 pg = pg or {}
 pg.enemy_data_statistics_16 = {
+	[90446] = {
+		cannon = 0,
+		name = "Mass-Produced Émile Bertin Class",
+		type = 2,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90446,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "aimierbeierdingdanchuan",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 180,
+		wave_fx = "danchuanlanghuazhong2",
+		prefab = "aimierbeierdingdanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 8,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			9
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.84,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.33,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.84,
+					1.15,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							0.72,
+							1,
+							-0.56
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-1.29,
+							1.48,
+							-0.84
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			qianghuamo_aimierbeierding = 1.8
+		},
+		appear_fx = {
+			"appearsmall",
+			"qianghuamo_aimierbeierding"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			3
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90447] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "Mass-Produced Algérie Class",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -174,7 +339,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90448] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "Mass-Produced Bretagne Class",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -346,7 +511,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90449] = {
 		cannon = 0,
-		name = "贝亚恩级量产型",
+		name = "Mass-Produced Béarn Class",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -511,7 +676,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90450] = {
 		cannon = 0,
-		name = "U81",
+		name = "U-81",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -655,7 +820,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90451] = {
 		cannon = 0,
-		name = "U73",
+		name = "U-73",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -799,7 +964,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90452] = {
 		cannon = 0,
-		name = "U101",
+		name = "U-101",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -943,7 +1108,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90453] = {
 		cannon = 0,
-		name = "U522",
+		name = "U-522",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1254,7 +1419,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90455] = {
 		cannon = 0,
-		name = "侵扰者III型",
+		name = "Obstructer-class Type III ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1417,7 +1582,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90456] = {
 		cannon = 0,
-		name = "拉菲",
+		name = "Laffey",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1577,7 +1742,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90457] = {
 		cannon = 0,
-		name = "潜艇「Assassin」II型",
+		name = "\"Assassin\" Submarine Mk. II",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1728,7 +1893,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90458] = {
 		cannon = 0,
-		name = "噩梦剪影-「Pawn」",
+		name = "Dreamworld Apparition - \"Pawn\"",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1890,7 +2055,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90459] = {
 		cannon = 0,
-		name = "噩梦剪影-「Knight」",
+		name = "Dreamworld Apparition - \"Knight\"",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2052,7 +2217,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90460] = {
 		cannon = 0,
-		name = "噩梦剪影-「Bishop」",
+		name = "Dreamworld Apparition - \"Bishop\"",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2221,7 +2386,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90461] = {
 		cannon = 0,
-		name = "噩梦剪影-「Rook」",
+		name = "Dreamworld Apparition - \"Rook\"",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2390,7 +2555,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90462] = {
 		cannon = 0,
-		name = "噩梦剪影-「Queen」",
+		name = "Dreamworld Apparition - \"Queen\"",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2559,7 +2724,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90463] = {
 		cannon = 0,
-		name = "噩梦剪影-「Assassin」",
+		name = "Dreamworld Apparition - \"Assassin\"",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2710,7 +2875,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90464] = {
 		cannon = 0,
-		name = "噩梦剪影-「Buster」",
+		name = "Dreamworld Apparition - \"Buster\"",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2858,7 +3023,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90465] = {
 		cannon = 0,
-		name = "噩梦结晶-「探索者」",
+		name = "Dreamworld Avatar - \"Scavenger\"",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3014,7 +3179,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90466] = {
 		cannon = 0,
-		name = "噩梦结晶-「追迹者」",
+		name = "Dreamworld Avatar - \"Chaser\"",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3170,7 +3335,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90467] = {
 		cannon = 0,
-		name = "噩梦结晶-「领洋者」",
+		name = "Dreamworld Avatar - \"Navigator\"",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3326,7 +3491,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90468] = {
 		cannon = 0,
-		name = "噩梦结晶-「破局者」",
+		name = "Dreamworld Avatar - \"Smasher\"",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3496,7 +3661,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90469] = {
 		cannon = 0,
-		name = "噩梦结晶-「执棋者」",
+		name = "Dreamworld Avatar - \"Conductor\"",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3652,7 +3817,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90470] = {
 		cannon = 0,
-		name = "噩梦结晶-「潜伏者」",
+		name = "Dreamworld Avatar - \"Lurker\"",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3796,7 +3961,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90471] = {
 		cannon = 0,
-		name = "潜伏者II型",
+		name = "Lurker Mk. II",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3940,7 +4105,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90472] = {
 		cannon = 0,
-		name = "信浓",
+		name = "Shinano",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4089,7 +4254,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90473] = {
 		cannon = 0,
-		name = "恶毒(μ兵装)",
+		name = "Le Malin μ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4245,7 +4410,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90474] = {
 		cannon = 0,
-		name = "黛朵(μ兵装)",
+		name = "Dido μ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4401,7 +4566,7 @@ pg.enemy_data_statistics_16 = {
 	},
 	[90475] = {
 		cannon = 0,
-		name = "巴尔的摩(μ兵装)",
+		name = "Baltimore μ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4503,162 +4668,6 @@ pg.enemy_data_statistics_16 = {
 							-0.625,
 							2.427,
 							0.14
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90476] = {
-		cannon = 0,
-		name = "罗恩(μ兵装)",
-		type = 3,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90476,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "luoen_idol",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "luoen_idol",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 4,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.78,
-					0.96,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.76,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.054,
-					0.027,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.78,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.59,
-							2.21,
-							0
 						}
 					}
 				}

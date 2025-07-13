@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "果然未完成的躯体还是存在缺陷吗…",
+			say = "So my incomplete form really was no match for you...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "哼…到了最后一刻，就算欣赏自我的毁灭也是一种享受啊",
+			say = "Hmph... So it is. Another opportunity to slowly witness my own destruction...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "到头来…原来我们才是「棋子<Piece>」吗？真是讽刺啊…呵呵呵…",
+			say = "Ultimately, my army was no more than just another Piece... Oh, how ironic... Ahahahahah!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -68,23 +68,23 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"明明…最初的计划并不是这样的",
+					"...It was not meant to be like this...",
 					4
 				},
 				{
-					"只不过为了拥有能够翱翔于帝国上空、足以保护同僚的力量…",
+					"In order to become strong enough to protect Iron blood, to protect my allies,",
 					8
 				},
 				{
-					"我们做出了那么多的牺牲，摧毁了那么多道路上的阻碍",
+					"I made so many sacrifices, annihilated so many enemies, just following \"orders.\"",
 					12
 				},
 				{
-					"最后，为了实现这样的夙愿甚至不惜成为「棋子<Piece>」…",
+					"I tolerated becoming a Piece for our detestable enemies,「<Piece>」…",
 					16
 				},
 				{
-					"真是羡慕你们啊，如果是你的话会如何选择呢？{namecode:91}…",
+					"Akagi... Just what are you planning out there?",
 					20
 				}
 			}

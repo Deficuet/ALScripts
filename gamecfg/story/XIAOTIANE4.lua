@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"春风的十字星\n\n<size=45>四  现行犯？</size>",
+					"Sea Star on Shore\n\n<size=45>4: Caught Red-Handed?</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咽口水）就、就是这里吗…",
+			say = "(Gulps) Th-This is the place...",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最、最后还是来到了这里呢…",
+			say = "In the end...we still ended up here...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "就、就算是她也不可能做到这份上吧",
+			say = "E-Even if it's her, she has no right to do this...right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "只、只是确认一下应该没关系吧…",
+			say = "L-Let's just confirm it, we should be fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "那我敲门了哟？",
+			say = "I'll knock, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我敲、啊咧？门没关紧？",
+			say = "...Huh? The door wasn't shut all the way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "吱呀——（开门声）",
+			say = "Creeaak--(Door Opens)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "这、这是——",
+			say = "T-This is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那是我的衣服……",
+			say = "Those...those are my clothes...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -171,7 +171,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？！",
+			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？？！！",
+			say = "WHA?!?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

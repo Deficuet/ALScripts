@@ -16,7 +16,7 @@ return {
 			actor = 10800030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我说啊……为什么我们又被留下来了啊！",
+			say = "So laaaame. We're being left out of the fun.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "好无聊……好想出去玩……",
+			say = "I want to head out and have some fun, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这段对话，之前是不是已经发生过一次了？",
+			say = "You said the same thing last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "是，所以才更气人啊！",
+			say = "That's right. Exactly why I'm extra pissed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "之前被留下是因为没有战斗力，可是现在我们已经有舰装了哎！",
+			say = "Last time, we were left out because we weren't part of the combat force, but we have our riggings now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "是时候出去一鼓作气去大闹一场了吧！",
+			say = "Don't you want to go and like, have some fun rampaging around?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800030,
-			say = "是啊，好想试试性能啊……",
+			say = "I want to test its performance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "前线战斗虽然重要，不过在后方的辅佐工作也很重要哦。",
+			say = "Fighting on the front lines may be nice, but supporting your allies from the back lines is just as important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家稍安勿躁，请喝点东西吧。茶和咖啡我都泡了一些，虽然只是茶包和速溶咖啡，实在无法和港区中相提并论。",
+			say = "Oh, would you like some refreshments? We have some tea and coffee... though I'm afraid that they're instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "不过多少能缓解一下疲劳————请。",
+			say = "Please enjoy, if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "哦哦哦~真是太感谢了！",
+			say = "Woah, thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800030,
-			say = "说起来，赫敏小姐是女仆对吧……哦~我还是第一次见货真价实的女仆小姐。",
+			say = "Thanks! Are you a maid, Miss Hermione? That's amazing... I've never seen a real maid before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为舰船的女仆都要做什么事呀，应该不只有打扫工作吧？",
+			say = "What does a shipgirl who's a maid do? Cleaning's not all you do, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "嗯，还需要进行各种作战任务和辅助工作，有些时候还会执行女王陛下和指挥官的特殊任务。",
+			say = "At the port, I help out with the work at the office, help manage the fleet, and do special jobs for Her Highness and the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "噢~~关键词触发！特殊任务？需要女仆才能执行的特殊任务是什么？",
+			say = "Hold up, don't leave the juicy details out. What kind of \"special jobs\" are we talking about here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "会被做些什么奇怪的事么？",
+			say = "Tell us as much as you can~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202271,
-			say = "哎，奇怪的事？大概…没有什么特别奇怪的吧……",
+			say = "Huh? There isn't anything particularly strange that I'm leaving out, though...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800030,
-			say = "唔啊……居然已经到了不会觉得奇怪的地步了么！",
+			say = "So you're already so intimate that it's nothing particularly strange! Wow, wow~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:180}也有些在意……",
+			say = "I'm... curious too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,9 +411,9 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "嗯嗯嗯……净化亲也有些在意！",
+			say = "I'd like to know what these special jobs are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301812,
-			say = "净化亲就请好好工作，不要凑热闹。",
+			say = "You stay quiet, Purifier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,9 +447,9 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "你们布置的工作我已经全部完成了哦！",
+			say = "Why me! Everyone else is saying the same thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "侦察节点已经部署完毕，只要近海有大型目标出现我立刻就会收到消息的！",
+			say = "I've even built scouts for us that will automatically alert us when a large foe is spotted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,9 +494,9 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "看着吧，比起没有方向的地毯式搜索，绝对是留守的我们最先发现异常情况！",
+			say = "If there's any enemy movement, we'll be the first ones to know! This way, we won't have to waste time wandering around aimlessly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301812,
-			say = "有能。那另一件事呢，关于为什么只有校园区域是正常的调查？",
+			say = "Purifier, you're talented... This school isn't disappearing, unlike the rest of the town...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,12 +528,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这件事还在调查中，暂时没什么头绪。",
+			say = "I'm not really sure why that's the case either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,9 +549,9 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "不过只要能离开这里，校园区域的异常情况其实怎样都好吧……",
+			say = "But it's fine, isn't it? As long as we can make it out of here safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,12 +563,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "警报器",
+			actorName = "Siren",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "警报音————",
+			say = "(Alarm blaring) .........!!",
 			soundeffect = "event:/ui/alarm",
 			effects = {
 				{
@@ -587,13 +587,13 @@ return {
 		},
 		{
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "哼，你看我说什么！目标发现！不过不是巨大怪兽而是……一整支塞壬舰队正在向着西南城区近海接近！",
+			say = "Look, something's coming! It's not a large kaiju this time, but some Sirens were spotted at the nearby sea!",
 			effects = {
 				{
 					active = false,
@@ -618,7 +618,7 @@ return {
 			actor = 301812,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明白，不能无视的塞壬袭击……我立刻联络其他人，接下来要开始作战了！",
+			say = "Let Spee know so she can tell everyone else...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

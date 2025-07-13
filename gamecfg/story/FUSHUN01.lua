@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>一　旧仓库的寻宝之旅</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 1 - Old Warehouse Treasure Hunt</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这里就是长春说的旧仓库吗，嘿嘿，一定能找到好玩的东西！",
+			say = "So this is the place you were talking about? Hehehe, I'm sure there's plenty of nice stuff in here!",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-china",
@@ -39,7 +39,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "呜…没经过允许就偷偷跑进来真的没关系吗…",
+			say = "Umm... Should we really go inside without the commander's permission...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没事啦太原，你看这仓库虽然挂着个锁但是都不用开，晃两下就掉下来了",
+			say = "It's fine! The padlock is all rusted up anyway, so I'm sure nobody will care!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "只是因为年久失修吧……",
+			say = "I think it's just been worn down over time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "仓库嘛，总是要定期整理的！我们这可是在帮指挥官的忙呢！而且说不定还能找到什么有趣的旧书之类的",
+			say = "Look, the warehouse needs to be cleaned regularly, right? We're just doing some \"cleaning\" on the commander's behalf! Besides, we might find some good books in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "太原对这个不会没兴趣吧",
+			say = "I mean, you love books, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "有趣的书吗！（两眼放光）也、也不是没兴趣……",
+			say = "Good... books?! W-well, it's not like I'm NOT interested...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就来寻宝吧！我从这里开始翻，太原你从那边开始找哦！",
+			say = "Then let's go treasure hunting! I'll look around here, you go search over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "呜…这只是在帮忙整理仓库、嗯！整理仓库——",
+			say = "Oh geez... Sorry, warehouse! We're just cleaning, that's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "咳咳…灰尘真多啊…",
+			say = "*Cough, cough!* ...It's so dusty in here...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "咳咳咳…有好多看起来很难懂的书呢…",
+			say = "*Cough, cough!* ...I found a bunch of hard-to-read books...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -224,7 +224,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔…还有许多不知道做什么用的零件…",
+			say = "Yeah... I found piles of components, dunno what they're used for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊！太原！快看快看，我找到了这个！",
+			say = "Oh, Tai Yuan! Come here! Look what I found!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这、这个是……",
+			say = "I-isn't that a...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

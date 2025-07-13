@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "在商店街的活动里抽中了温泉奖券后，正好遇到大幅降温，干脆就决定和TB来泡温泉了。",
+			say = "We won tickets to a hot spring resort weekend through a raffle, and since it's the cold season, TB and I immediately set off.",
 			bgm = "qe-ova-9",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼♪~泡温泉真舒服~",
+			say = "Ohh, baby! I love hot springs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有破绽，看招——！",
+			say = "You know what else I love? This! Ka-splash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等……不要在温泉里突然对着人泼水啊。",
+			say = "Hey! You can't just splash water on people like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么？明明很好玩啊。",
+			say = "Why not? It's fun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也没有规定说不能在温泉里进行泼水游戏吧？",
+			say = "There's no rule against it, and even if there was, we have the whole place to ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们来玩嘛——来玩嘛——！",
+			say = "Let's have a little fun! Come on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "看着眼前一脸兴奋的少女，我有些头痛。",
+			say = "Seeing her eyes twinkle with excitement, I breathe an exasperated sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "因为当初完全预料不到TB现在会变成这种活力过头的个性。",
+			say = "It is completely beyond me how she turned into such an over-the-top peppy girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？",
+			say = "Hm? What's that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "就在我准备回应她的泼水游戏邀请时，她却被别的东西吸引了注意。",
+			say = "Just as I brace myself for a hot spring water fight, something else seems to grab her attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快看，是枫叶！",
+			say = "Look! It's a maple leaf!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,12 +220,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快看，是枫叶！",
+			say = "Look! It's a maple leaf!",
 			voice = "event:/educate/tb/educate-tb-story-33-11",
 			painting = {
 				alpha = 0.3,
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
-			say = "她捡起温泉池水中的一片落叶，遮住了自己的一只眼睛。",
+			say = "A leaf floats in the water. She picks it up and covers her eye with it, showing it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你这是打算……？",
+			say = "It is. What about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，这种时候不是应该说那种台词嘛——",
+			say = "In cases like this, you need to have a quote prepared. Like...",
 			voice = "event:/educate/tb/educate-tb-story-33-12",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“寄宿在吾右眼中的禁忌之力啊，以这枚贤者之血铸就的红叶将汝封印……！”",
+			say = "\"Cursed power within my right eye, heed my words – with this leaf made of a sage's blood, I will seal you away!\"",
 			voice = "event:/educate/tb/educate-tb-story-33-13",
 			painting = {
 				alpha = 0.3,
@@ -314,12 +314,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样？超cool的对吧？！是我从漫画书上学到的哦！",
+			say = "Ain't that the coolest thing you've ever heard? I read it in a comic book!",
 			voice = "event:/educate/tb/educate-tb-story-33-14",
 			painting = {
 				alpha = 0.3,
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不……这只是普通的中二病吧。",
+			say = "Sure, it's cool. If you're a teenager in their edgy phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的，你这样会变成无趣的大人哦。",
+			say = "Hmph. Spoken like the most boring adult on the planet.",
 			voice = "event:/educate/tb/educate-tb-story-33-15",
 			painting = {
 				alpha = 0.3,
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好吧……那，看我这招！",
+			say = "Oh, I'm boring? Let's see how you fare against this cursed power of mine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,12 +374,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀——！",
+			say = "Owch! Hot, hot!",
 			voice = "event:/educate/tb/educate-tb-story-33-16",
 			painting = {
 				alpha = 0.3,
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "在那之后，和TB一起度过了愉快的假期。",
+			say = "And so, we have a fun stay at the hot spring resort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

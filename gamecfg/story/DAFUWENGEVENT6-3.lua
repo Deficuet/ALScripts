@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在演习中获取胜利，获得了奖励【四星装备设计图纸*10】"
+			say = "You achieved excellent results during naval training! Collect 10 Blueprints (4 ☆)!"
 		}
 	}
 }

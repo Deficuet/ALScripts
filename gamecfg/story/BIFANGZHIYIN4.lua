@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "广袤与无垠，这是此处空间留下的唯一印象。",
+			say = "It was a barren place, its endless vastness being its sole defining quality.",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "没有天空，没有陆地，亦无大海。",
+			say = "There was no sky, no land, not even a sea. It was a blank space in every sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "不似现实，亦非梦境。",
+			say = "For this was the border between truth and falsehood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,34 +61,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……「我」感受到了痛苦，聆听到了啼哭。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_589",
-			hidePaintObj = true,
-			actor = 9705050,
-			actorName = "？？？",
-			nameColor = "#BDBDBD",
-			say = "……这里如此寂寥，又如此喧嚣。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705050,
-			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_589",
-			hidePaintObj = true,
-			side = 2,
-			actorName = "？？？",
-			say = "……这里是「我」的家么？",
+			say = "\"I\" sensed pain. \"I\" heard someone sobbing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +75,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			nameColor = "#BDBDBD",
-			say = "或许是……又或许不是……",
+			say = "It's so lonesome, so noisy in this place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +88,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "不论如何，都不再是了。",
+			say = "Is this... \"my\" birthplace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +102,34 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			nameColor = "#BDBDBD",
-			say = "「我」诞生于虚无，将带来虚无，也终将归于虚无。",
+			say = "Perhaps it is. Perhaps it isn't.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705050,
+			nameColor = "#BDBDBD",
+			bgName = "star_level_bg_589",
+			hidePaintObj = true,
+			side = 2,
+			actorName = "？？？",
+			say = "No... At this moment, it certainly isn't.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_589",
+			hidePaintObj = true,
+			actor = 9705050,
+			actorName = "？？？",
+			nameColor = "#BDBDBD",
+			say = "\"I\" was born from the void. The void \"I\" brought with me, and the void \"I\" shall return to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			nameColor = "#BDBDBD",
-			say = "远方的旅人们，「我」邀请你们见证。",
+			say = "Travelers from afar, please give \"me\" your attention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "见证「我们」的终结——",
+			say = "And witness \"my\" demise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的监测机传来消息，实验场F-45733在经过换算后，大约三小时前从物理层面消失了。",
+			say = "Signal received from monitoring device. Adjusted for relative time, test site F-45733 disappeared at the physical level approximately 3 hours ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正在查询实验场F-45733的坐标——",
+			say = "Searching for the coordinates of F-45733.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "查询结果为：（2.9143,99.9998,19.9998,-2376029143）",
+			say = "Coordinates found. 2.9143, 99.9998, 19.9998, -2376029143.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "100加20……？极端环境模拟实验么……？",
+			say = "100 plus 20? It was an extreme environment experiment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900286,
-			say = "呃……那消失的原因该不会是……",
+			say = "Then we have a likely culprit behind the disappearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。监测机同时观测到了第V类威胁引发的空间冲击事件，程度认定：特级，威胁程度：极高。",
+			say = "Yeah. A spatial impact event caused by a category V threat was detected, too. Observed intensity: superlative. Threat level: max.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "基于现状，我认为应该调整任务列表优先级，将该问题的列为最优先处理事项。",
+			say = "This is no joke. We need to reorder our priority list and make this our number one issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……用量产型机体的本地性能不行，我们三人都至少要转移80%以上的主机服务过去。",
+			say = "The capacity of our local vessels isn't enough. The three of us will need to reroute at minimum 80% of our mainframes' resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还要向周边空闲的仲裁者发出协作邀请。",
+			say = "Contact the other Arbiters in the region and request assistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "联络的事交给我吧，不过能临时叫来多少人就不好说了。",
+			say = "On it. I can't promise we'll get much help on such short notice, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……此地任务暂停，我们立即转移。",
+			say = "...Pause your active tasks. We'll move in right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "与此同时，余烬临时据点。",
+			say = "??? - Ashes' Temporary Base",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -362,7 +362,7 @@ return {
 			actor = 9705010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "“老熟人”们的部署有些异常，似乎正在准备转移。",
+			say = "Our \"old friends\" have put their protocol on halt! It looks like they're getting ready for a transfer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 9706010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯？终于耗尽耐心了么？",
+			say = "They are? Maybe their patience has finally run out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9706020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "赫米忒，天帕岚斯，司特莲库斯……这个麻烦的组合和我们纠缠的时间也够久了。",
+			say = "The Hermit, Temperance, Strength... Those three have been a thorn in our side for an eternity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9706020,
-			say = "本来以为得拖到{namecode:433}和{namecode:441:腓特烈}那边完成新基地的建设，我们才能摆脱它们呢。",
+			say = "I thought we wouldn't get to strike back at them until Scharnhorst and that Friedrich der Große were done constructing our new base.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,8 +434,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "……也有可能是不久前那场异常强烈的空间冲击事件吸引了它们的注意力。",
+			actorName = "Enterprise META",
+			say = "...It's possible that that spatial impact caught their attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,8 +447,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "威奇塔和金伯利已经出发，不能让它们去坏事。",
+			actorName = "Enterprise META",
+			say = "Wichita and Kimberly are already en route. They won't let those bastards do as they please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,8 +460,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "{namecode:66:高雄}，你来指挥，务必把仲裁机关拖在这里。",
+			actorName = "Enterprise META",
+			say = "Takao, the command baton is yours. We're gonna be a thorn in THEIR side this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,8 +473,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "之后不要恋战。基地完工后，立刻按照原定计划转移，彻底摆脱仲裁机关的追击。",
+			actorName = "Enterprise META",
+			say = "Then once our new base is finished, we'll continue with our original plan and deal with those Arbiters once and for all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,8 +486,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "至于威奇塔队那边，让她们根据前线情况自行判断。",
+			actorName = "Enterprise META",
+			say = "One last thing – Wichita's unit will decide when we rendezvous according to the situation on the front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,8 +499,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "高雄·META",
-			say = "嗯，埃塞克斯的发现是最优先的，这边的事交给我就好，你放心去吧。",
+			actorName = "Takao META",
+			say = "Roger. Recovering that which Essex found takes top priority. Go, and rest assured knowing that I shall hold the fort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

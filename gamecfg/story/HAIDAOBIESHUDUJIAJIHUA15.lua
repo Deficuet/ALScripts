@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊！！指挥官小心！！",
+			say = "Oh nooo! Commander, look out!",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_570",
 			hidePaintObj = true,
-			say = "路过室外娱乐区的连廊时，在拐角处与小跑着的爱丁堡撞了个满怀。",
+			say = "While passing through a corridor, I collide with Edinburgh as she hurriedly turns a corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,18 +62,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜啊啊……晕……晕乎乎的……",
+			say = "Owch... My head is spinning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "扶爱丁堡起来",
+					content = "(Help her get up.)",
 					flag = 1
 				},
 				{
-					content = "摸摸爱丁堡的头",
+					content = "(Pat her head.)",
 					flag = 2
 				}
 			},
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没事吧，爱丁堡？",
+			say = "You okay, Edinburgh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是、是指挥官！对、对不起，时间一紧张我就忘了看路，有失皇家礼仪……",
+			say = "Ah, um! I-I'm sorry, I was in such a rush that I didn't look out ahead, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……现在不是说这个的时候，我得去别墅那边把小餐车推出来——",
+			say = "Right, I don't have time to explain! I need to get to the villa and push the food cart immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是因为凉亭那边在举办诗会么？",
+			say = "Ah, for that poetry salon down at the gazebo, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，指挥官也知道吗？是陛下让贝法和我负责诗会的下午茶甜点供应。",
+			say = "Oh, you know about it? You see, Her Majesty ordered Bel and me to provide tea and biscuits for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝法那边应该已经准备好了，就等我推餐车过去了。指挥官也准备参加诗会吗？",
+			say = "Bel has already done her part, and my job is just to move the cart there. Are you going to attend the salon too, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，我和你一起去吧。",
+			say = "Sure, why not? Let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_572",
 			hidePaintObj = true,
-			say = "和爱丁堡一起把餐车推到凉亭时，参加诗会的人都已经来齐了。",
+			say = "Edinburgh and I push the cart to the gazebo. All the participants are already here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，指挥官也是来参加诗会的吗？",
+			say = "Oh? Will you be joining us today, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……参加倒说不上，但对你们作诗很感兴趣。",
+			say = "Not outright \"joining\" you, I'm just curious to hear what poems you're going to create.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "那就请指挥官和爱丁堡小姐一起坐下吧~",
+			say = "Alright, then you and Edinburgh should take a seat over there, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，我，我吗？我只是来给大家提供下午茶甜点的来着……",
+			say = "Wait, me too? I just came to deliver these refreshments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "没关系，这次诗会是不会限制参加人数的，这里也没有人多到牵裙连袖。",
+			say = "Don't be shy. There's no guest limit or any such thing, and we're by no means as crowded as a beehive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "爱丁堡小姐作为皇家女仆，诗集的积累量想必不少，不妨一起参加试试呢？",
+			say = "I'm certain you, as a Royal Maid, have received formal education in poetry, and we would love to have you in attendance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……诗集的积累量吗？这、这种事情，对皇家的女仆当然不成问题……吧？",
+			say = "Education in poetry? Well, that is standard for Royal Maids. I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是……诗会的主题，我还不是很清楚……",
+			say = "However, I don't know what the theme of this salon is, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个其实还没决定好……",
+			say = "That's the thing – we've yet to formally decide on one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然英雄大人在场，不如作一首波澜壮阔的史诗献上……",
+			say = "Blessed are we by the Champion's presence, and for this Champion, we ought to dedicate a fine epic poem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那位英雄一定拥有一颗勇敢坚毅的心，如同一首歌谣……",
+			say = "That champion must have an unwavering heart, courage filling it to the brim. A heart one may liken to a ballad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……今日阳光明媚，此处鸟语花香，正是与英雄大人欣赏自然哲理之时……",
+			say = "With the sun's warm glow and sparrows' song, roses bloom where we belong. Let us together relish the philosophy of nature...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……叙事诗、田园诗、哲理诗……看来大家喜欢的诗歌类型皆不相同呢……",
+			say = "Interesting... An epic poem, a ballad, and a philosophical lyric. I see you each have a different preferred genre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "不如……我先作半首诗，剩下半首由另一人续写如何？",
+			say = "In that case, why don't I compose one half of the poem whilst another person takes the other half?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "续写的人选，就用抽签决定吧？",
+			say = "You could draw straws to decide who.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不必纠结诗体的统一，不同类型的诗句凑在一起说不定也会很有趣。",
+			say = "No need to fuss over the poem's format. It might even be more interesting to see how the different styles come together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "这个提议不错呢，我之前最担心的问题似乎也迎刃而解了~",
+			say = "An excellent idea! That was the issue I was most concerned about, in fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "刚好我这里备了一些书签，那就……由抽到这张红色书签的人续写吧~",
+			say = "I have a few bookmarks we could use as substitutes for straws. Whoever pulls the red one will compose the poem's second half.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我抽到了这张——金色书签。",
+			say = "The bookmark that I drew... It is golden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "蓝色的……和海水一样……",
+			say = "Mine, the hue of the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很遗憾，不是我。",
+			say = "It appears I am not fate's chosen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来……爱丁堡小姐？",
+			say = "That leaves... Edinburgh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指、指挥官，是我啊！！我抽到了红色的书签啊！！",
+			say = "C-Commander! I-I-I don't know what to do! I drew the red bookmark!",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -567,11 +567,11 @@ return {
 			},
 			options = {
 				{
-					content = "出声安慰",
+					content = "(Offer her comforting words.)",
 					flag = 1
 				},
 				{
-					content = "表示同情",
+					content = "(Give her a sympathetic look.)",
 					flag = 2
 				}
 			}
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啊，爱丁堡小姐抽中了红签呢！那就请您好好准备一下吧~",
+			say = "Then Edinburgh will be the one to write the second half. Please start preparing now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸欸欸！！指挥官……您的提议您得负责哇！",
+			say = "What?! C-Commander, you proposed this, so I'd like you to take at least some responsibility!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……有的时候，感情比技巧更重要。",
+			say = "Sometimes with poetry, emotion matters more than skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是安慰吗……完全没有被安慰到嘛~！！",
+			say = "Are you... comforting me? Well, I'm afraid it's not helping at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……只要你说这是诗歌，谁又能说不是呢？",
+			say = "If you just convince yourself that it's poetry, it will become it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的是这样吗？！",
+			say = "Is that really how it works?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别忘了，你可是来自皇家的女仆啊——在诗歌领域，你们也开创了不少先河。",
+			say = "Remember, you are a Royal Maid. Many pioneers in various fields, including poetry, come from your birthplace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……您说得对……爱丁堡这次，一定能成为令陛下骄傲的优秀诗人——！",
+			say = "That's true... Okay, I'll become a poet so great this time that even Her Majesty will be proud of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "爱丁堡小姐~我的诗已经作好了，接下来就麻烦你了哦……",
+			say = "Okay, Edinburgh, I've finished my part. Please continue from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………这是……诗……？",
+			say = "Is this... poetry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 899030,
-			say = "…………很努力地接满了十四行诗句呢……爱丁堡小姐，已经很厉害了哦。",
+			say = "...I applaud your uncompromising effort to complete Hai Tien's sonnet. You've done well, Edinburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "…………皇家的诗歌，果然和传闻中一样非同凡响！",
+			say = "Royal Islands poetry is... just as brimming with character as I've heard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……啊哈哈，是吗……",
+			say = "Ahaha... Th-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（指·挥·官——！！）",
+			say = "(COMMANDEEER!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_572",
 			hidePaintObj = true,
-			say = "诗会结束后，惭愧不已的爱丁堡在贝尔法斯特的带领下，深入学习起十四行诗的本质……",
+			say = "After the poetry salon, feeling ashamed, Edinburgh immersed herself in studying the essence of sonnets under Belfast's guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

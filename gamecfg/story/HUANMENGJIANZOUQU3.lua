@@ -9,15 +9,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"鸢尾教国·列车",
+					"Iris Orthodoxy - Local Train",
 					1
 				},
 				{
-					"黎塞留的包厢",
+					"Commander's Private Train Car",
 					2
 				},
 				{
-					"7月24日",
+					"July 24th",
 					3
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "推开包厢门后，美食的香气迎面而来。",
+			say = "A gust of appetizing aromas greets me as soon as I open the train car door.",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "闻上去，本日列车上供应的午餐似乎是撒丁风味——",
+			say = "Smells like Sardegnian food is on the menu today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "指挥官，欢迎您的到来，请入座吧。",
+			say = "Thank you for joining me, Commander. Please, have a seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "包厢中，黎塞留与伊丽莎白相对而坐。维内托与伊丽莎白相邻，而与维内托相对之处正好空着一个位置。",
+			say = "Stepping inside, I find Richelieu and Elizabeth sitting opposite each other. Next to Elizabeth, there's Veneto, and next to Richelieu is an empty chair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（连座位都安排好了啊。）",
+			say = "(I'm assuming that one's meant for me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "指挥官，之前都是在会议室和各种大型场合与您匆匆见面。",
+			say = "It's been a long time since we last met on a pleasant occasion such as this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "今天终于有机会和您面对面闲聊一番了。",
+			say = "I'm glad to be leaving those conference rooms and meeting venues behind, for a change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "本日的午餐是我特意准备的，所有的食材都由帝国本土空运而来，希望您能喜欢。",
+			say = "Also, all the food you see here was prepared by me, using only the finest of our local ingredients. I hope it'll be to your taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（看来黎塞留的这场邀约，主要目的是为了创造维内托与我的会面机会……？）",
+			say = "(Why does it feel less like Richelieu wanted to speak to me and more like she wanted me to speak with Veneto?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "撒丁菜系在是欧罗巴可是自成一派，相当不错哦。",
+			say = "Yes, your cuisine is renowned throughout all of Europa, and clearly for good reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王十分推荐你尝尝！",
+			say = "Servant, help yourself. Don't be shy now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "唔嗯……也得让女仆队多学习学习，偶尔给本王换换胃口~",
+			say = "Nom... I should instruct my maids to take notes on this. Some variety would be much welcome in my diet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（另一方面，伊丽莎白好像单纯就是来蹭饭的……算了，正好也饿了，边吃边聊吧。）",
+			say = "(Sounds like Elizabeth came here solely to eat, meanwhile... Speaking of which, I'm hungry. Let's dig in.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "席间，我们一边享受着美食，一边有一搭没一搭地闲聊着。",
+			say = "I join the girls at the table, savoring the food and engaging in some chitchat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "从陆上神国事件的顺利解决，再到联盟合并会议的成功召开，指挥官对于撒丁帝国的帮助实在难以用语言尽述。",
+			say = "Really, Sardegna owes you so much, Commander. You prevented a disaster at the World Expo, and you helped us get our foot in the door at the conference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "我深知，仅仅一顿便饭的招待自然是远远不够的。",
+			say = "This lunch alone will by no means repay you for everything, but I hope it can serve as a gesture of our goodwill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不知道日后指挥官有没有前往我国的计划呢？",
+			say = "To let us pay our debt in full, will you consider paying a formal visit to Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,18 +271,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "届时也好让我一尽地主之谊，为您带来一场难以忘怀的罗马假日。",
+			say = "We will do everything in our capacity to ensure you have an unforgettable Roman holiday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有机会一定去！",
+					content = "Thank you. I'll definitely visit when I can.",
 					flag = 1
 				},
 				{
-					content = "我会妥善考虑的。",
+					content = "I'll have to think about it.",
 					flag = 2
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王也要带女仆队一起去！之前光注意鸢尾菜系了，没想到原汁原味的撒丁菜果真是别有一番风味。",
+			say = "Oi! You're not going to Sardegna without me and an entourage of Royal Maids!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "确实值得本王亲自去品味一下！",
+			say = "I've almost exclusively eaten Orthodoxy cuisine lately and I've forgotten how delicious Sardegna's is. Take me with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "女王陛下要来的话，是我们的荣幸。撒丁帝国一定会尽全力招待您的。",
+			say = "We'd be honored to have you as a guest, Your Majesty. I assure you you'll be given our best hospitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "很好~很好！",
+			say = "Excellent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（看来，伊丽莎白真的就是来吃饭的……！）",
+			say = "(She really has nothing but food on her mind...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（倒是黎塞留，明明是她发出的邀约……却十分寡言。难道是在等我先开口？）",
+			say = "(It's odd how quiet Richelieu has been this whole time. She's the one who invited me, so doesn't she have anything to say?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（嗯……饭局进行到这里，闲聊也确实可以告一段落了。）",
+			say = "(Now's a good time to segue into the topic we've all been dancing around.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留，还有诸位。其实关于这场联合演习，我还有些不明白的点。",
+			say = "So, what are your thoughts on this joint exercise, ladies? Tell you the truth, I've got a question about it.",
 			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "指挥官，但说无妨。",
+			say = "And what might that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "最大的疑问便是，为什么要突然举行这场联合演习？",
+			say = "Well, I know you had to come up with something on account of me returning sooner than you expected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "作为一场涉及四个阵营的大型活动，时间上似乎有些过于仓促了。",
+			say = "But did it have to be so large-scale? A four-faction joint exercise is a pretty big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "本王就是如此任性，想要弄就弄了，这个解释还不够么？",
+			say = "We're doing this because I want to. What more reason do you need?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "对外说明肯定够了，对我来说——还缺点说服力。",
+			say = "None, if we're talking from an outsider's perspective. Personally, though, I want to know why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "哼♪~",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这场联合演习准备的确实仓促了一些，不过……也是受到形式变化所迫。",
+			say = "I understand your curiosity. There is indeed another reason for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "相信指挥官已经听闻了重樱近日的行动，我们也是想立刻做出些应对而已。",
+			say = "I imagine you've already heard about the Sakura Empire's recent activity. This seemed like a good time for all of Europa to spring into action, and so, we came up with this exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "联合演习能够增进四大阵营的团结度。",
+			say = "Admittedly, we pushed it out the door with little fanfare or buildup...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "而克服了种种不利条件依然成功举行，则能够向外界展示我们合作的紧密度。",
+			say = "Regardless, we hope it will show the world how solidarity between shipgirls looks when the four of us work together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "如果我们欧罗巴的四大阵营形成攻守同盟的话，后面的事也会好办许多不是么？",
+			say = "In addition, many things will be easier in the future if we're able to prove that Europa can come together as one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（所谓攻守同盟，进可攻，退可守。）",
+			say = "(Sounds like an offensive-defensive alliance. It would give us a lot of leeway both during advances and retreats.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（进自不必说，在联盟合并取得成功，秩序重组之时，取得更大的话语权。）",
+			say = "(If the Azur Lane is reformed, it would significantly amplify the influence held by the factions of Europa.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（至于退……则是协商以失败告终，但是这四家依然有退路……或许是计划各自退出现有体系成立新的同盟？）",
+			say = "(Furthermore, if the reform fails, they have a backup plan in the shape of a Europan alliance. They don't strictly need the banner of the Azur Lane to move forward.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……看来，你们对于本次联合演习赋予了非同寻常的象征意义呢。",
+			say = "And that's why you came up with the Peace Interlude. I get it now. It holds a lot of symbolic meaning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "可是现在还缺一个人，铁血的{namecode:435:俾斯麦}不来么？",
+			say = "On a related note, where's Bismarck? Is she not here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "她会来的。",
+			say = "She'll catch up with us at the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "因为考虑到路线的便利性，她计划直接去演习地点与我们汇合。",
+			say = "I believe she thought the directness of that route would be more convenient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（自从联盟合并会议开始后，{namecode:435:俾斯麦}一直在铁血本土远程观察着会议的进程，一次都没有前往过会场。）",
+			say = "(And yet, she was nowhere to be seen at the conference, observing from afar the whole time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（这次居然决定亲自前来参加皇家与鸢尾“一时兴起”举办的活动……）",
+			say = "(Interesting how she'll be present in person this time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（看来刚才的猜测，恐怕确实是对的……）",
+			say = "(This Europan alliance might just work out...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "（一个全新的阵营……么。）",
+			say = "(Imagine that. A brand new player on the world stage.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_546",
 			hidePaintObj = true,
-			say = "就这样，包厢中悠闲的午餐会继续进行着——",
+			say = "And so, our laid-back luncheon aboard the train continues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

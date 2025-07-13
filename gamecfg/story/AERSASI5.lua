@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>五　冰淇淋降温法！</size>",
+					"Emotional Overload\n\n<size=45>5 (Frozen) Liquid Cooling</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "和阿尔萨斯回到指挥室之后，连忙让她躺在沙发上。",
+			say = "As soon as I get Alsace back to the office, I lie her down on the couch.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "此时此刻，少女已经解除了脸上的面具，双眸带着水光，呼吸沉重。",
+			say = "She is breathing laboriously, so I take off her mask, revealing her teary eyes looking straight at me.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "解除这个没问题么……？",
+			say = "Should I not have taken it off?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……反正……就算不解除，阿尔萨斯对指挥官电波也毫无抵抗力……",
+			say = "*pant*... It doesn't matter... I-I can't deflect your brainwaves, with or without the mask...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯？",
+			say = "What?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大、大概是室外转换心情的训练方法有效……阿尔萨斯现在，还能保持在临界点！",
+			say = "Um... The outdoors did manage to divert my attention. I was somehow able to hold out until I reached the critical point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来只需要降温就好！",
+			say = "Now, I just need to cool down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "空调已经开到最大了，我再去帮你拿些冰块降温。",
+			say = "I set the AC to its lowest setting. I'll go get you some ice.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "——等打开冰箱时才发现，备用的冰块早已经用光了。",
+			say = "When I open the freezer, however, I find that I've already used up all my spare ice cubes.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过好在冰箱的冷冻层里还有不少冰淇淋。",
+			say = "Fortunately, there is no shortage of popsicles.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "（把这一层的冰淇淋都拿给阿尔萨斯好了，之后再买些新的补上。）",
+			say = "(I'll just bring all of these to her and order more later.)",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "将冰淇淋递给阿尔萨斯后，她立刻撕开包装开始吮吸。",
+			say = "She accepts the popsicles, promptly rips one out of its packaging, and puts it in her mouth.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……",
+			say = "Whew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在吃着冰淇淋的间隙，她发出一声满足的喟叹。",
+			say = "After scarfing it down in a heartbeat, she breathes a satisfied moan.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "说起来，阿尔萨斯之前就是靠冰淇淋和泳池来进行散热吧？",
+			say = "That reminds me – you had a popsicle in the pool to cool down the other day too, didn't you?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是这样没错……呼……",
+			say = "I did, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过今天港区的泳池在例行清理，阿尔萨斯没办法使用……",
+			say = "Unfortunately, the pool is closed for maintenance today, so I can't go there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "没关系，至少这里还有很多冰淇淋。",
+			say = "No worries. There's plenty of popsicles left if you need them.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯！像这样吹着空调，吃着冰淇淋的话，也能起到一定的效果。",
+			say = "That is true! Eating these in front of the air conditioner should have a similar effect, at any rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "感觉怎么样了，阿尔萨斯？",
+			say = "Really? Let's hope so.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -325,7 +325,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢指挥官……阿尔萨斯现在感觉好多了……",
+			say = "In fact, one is feeling much better already. Thank you for being so considerate, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定是因为从濒临失控的临界点下降至稳定状态，阿尔萨斯的阈值因此得到了提升！",
+			say = "Having now recovered from that meltdown, one's maximum endurance has increased!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "我觉得……也许还有摄入了大量糖分的缘故？",
+			say = "I wouldn't be surprised if all that sugar also helped you get back on your feet.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯现在的心情非常愉悦平和，莫非是因为冰淇淋？",
+			say = "Possibly... The link between popsicles and the happiness and relaxation one feels presently warrants further investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说话间，少女已经吃完了她手中的冰淇淋。",
+			say = "As she finishes speaking, so too does she finish eating her current popsicle.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -391,7 +391,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我不假思索地从一旁拿起冰淇淋，撕开包装，递给了阿尔萨斯。",
+			say = "Seeing this, I grab another popsicle without a moment's delay, tear open the wrapper, and hold it out to her.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而少女也开心地凑过来一口咬上了我手中的冰淇淋。",
+			say = "She happily leans forward to take a big bite while I'm still holding it.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯？阿尔萨斯，你不自己拿着么？",
+			say = "Uh... Aren't you going to hold it yourself?",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -432,7 +432,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "阿尔萨斯疑惑地抬起头，目光交汇的瞬间，她的瞳孔开始颤抖。",
+			say = "Surprised, she lifts her head. Our gazes meet, and only then does the situation sink in. Her eyes open wide.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -455,7 +455,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女看了看我拿着冰淇淋的手，又看了看我的脸……",
+			say = "With a stumped look, her eyes switch between my face and the popsicle in my hands.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -471,7 +471,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯……阿尔萨斯刚刚吃、吃吃了指挥官喂的……",
+			say = "I-I was just fed... by hand... b-by you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊啊，阿、阿尔萨斯……又要、要控制不住了！",
+			say = "Oh gosh... I... I'm losing control again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

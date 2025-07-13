@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION97",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION97",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，您平时会做备忘录……或者别的记录吗？",
+			say = "主人，您平时会做备忘录……或者别的记录吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +93,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "其实，天狼星最近也尝试在做一些记录清单了。",
+			say = "其实，Sirius最近也尝试在做一些记录清单了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +152,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "毕竟天狼星想记录下来的是，您在一些事情上的喜好和习惯，以便更好地侍奉您。",
+			say = "毕竟Sirius想记录下来的是，您在一些事情上的喜好和习惯，以便更好地侍奉您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +194,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "很有必要哦，让您有舒适的体验也是天狼星的职责和追求所在！",
+			say = "很有必要哦，让您有舒适的体验也是Sirius的职责和追求所在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +233,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "就这么决定了……记录格式的事，天狼星还是自己独立完成比较好！",
+			say = "就这么决定了……记录格式的事，Sirius还是自己独立完成比较好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

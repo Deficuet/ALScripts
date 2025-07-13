@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "采用了新型油电混合动力，节省了油耗，获得了奖励【石油*100】"
+			say = "The R&D Department has developed a new hybrid Manjuumobile, saving you 100 Oil!"
 		}
 	}
 }

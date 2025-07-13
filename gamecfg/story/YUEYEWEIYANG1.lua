@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "清晨的微风掠过树木繁密的枝干，轻轻抖落粉色的花瓣。",
+			say = "A fresh breeze reminiscent of early morning blew through the trees, whipping up robust pink petals and scattering them about.",
 			bgm = "battle-pacific",
 			flashin = {
 				delay = 1,
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "这是……",
+			say = "This is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "一眼望不到头的上坡道两侧樱花盛开，飘落的花瓣铺满了道路。",
+			say = "The sloped road seemed to go on forever, lined by trees shedding their petals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在一棵树下驻足观望，伸手轻轻触摸——",
+			say = "Nagato approached one such tree and gently placed a hand on it—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "重樱群岛·某处",
+			say = "Sakura Empire",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "华贵的房间中，灯影摇曳。",
+			say = "In the luxurious Guardian Fox's chamber, Nagato awakened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是梦啊……",
+			say = "Was that... a dream?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "可是为何，吾却依旧能感受到那种刺痛。",
+			say = "If it was, why do I continue to feel that stinging pain from when I touched the Sacred Sakura?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "神木在不洁的黑雾之下分崩离析，于黑暗中摇摇欲坠，奄奄一息。",
+			say = "It was a terrifying dream, in which the sacred tree had decayed in fetid fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "万物凋敝，生灵涂炭，那是一生都无法忘却的破灭景象。",
+			say = "Withering, devastation. A spectacle of destruction, painted by the pain and misery of all who lived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "轻轻的叩门声打断了{namecode:74}的回忆。",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:158}？进来吧。",
+			say = "Kawakaze? You may enter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "伴随着推拉门滑动的声响，一个白衣白发的身影正坐在门前。",
+			say = "The screen door slid open, and Kawakaze, the white-haired servant of the Guardian Fox, sat on her knees behind it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "十分抱歉，{namecode:74}大人，打扰到您了。",
+			say = "I'm sorry to disturb you at this late hour, Lady Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨，吾正好有一事不明。",
+			say = "It is fine. In fact, I meant to ask something of you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "近日有关各地神木枯萎的报告，是否属实？",
+			say = "Are the widespread reports of the Sacred Sakura's withering true?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回{namecode:74}大人，有关神木枯萎的报告已全部核实完毕，所述内容……准确无误。",
+			say = "Yes, Lady Nagato. I've already verified the reports firsthand... They're all true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说，那并不是单纯的梦境……",
+			say = "(In that case, that was no mere dream.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "神木的枯萎从都城往外扩散了吗……",
+			say = "So the withering of our sacred tree has spread...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:74}简单地整理着身上的衣物，跪坐在门边的{namecode:158}顺势起身，将门窗关闭。",
+			say = "Nagato straightened out her clothes and stood up, while Kawakaze entered her room and expertly closed the shoji window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "镌刻着花纹的屏风被展开，半透的薄纱上映着少女的身姿。",
+			say = "The folding screen stretched wide, hiding Nagato's figure as she was dressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "灯火摇曳，长发舒展的影子落在屏风上，留下点点晕散的倩影。",
+			say = "Kawakaze removed Nagato's nightgown, combed her long black hair, and rinsed her with water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "舀一瓢水从她的脖颈处流下，水声汩汩——",
+			say = "After wiping her down with a hand towel, she helped Nagato change into her usual day clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:158}，给{namecode:84}发信，吾会在今日日出之时登门拜访。",
+			say = "Kawakaze, inform Musashi that I will be visiting at sunrise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，其实……",
+			say = "Lady Nagato, about that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人她已经在门厅等候多时了。",
+			say = "Musashi is already waiting outside.",
 			painting = {
 				alpha = 0.3,
 				time = 1

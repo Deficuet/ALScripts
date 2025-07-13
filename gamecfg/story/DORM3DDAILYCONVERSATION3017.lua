@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近，做噩梦，睡不好……没精神……",
+			say = "Anchorage has been having bad dreams... I can't sleep, and I'm so tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "梦里……{dorm3d}，讨厌安克雷奇……梦，和现实，相反！",
+			say = "In my dreams... You say you hate me... They're not real!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，喜欢安克雷奇！",
+			say = "{dorm3d} loves Anchorage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇不想做，那种梦……",
+			say = "Anchorage doesn't want those dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天睡觉前……安克雷奇要贴贴！",
+			say = "Before bed... Give me a hug, {dorm3d}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

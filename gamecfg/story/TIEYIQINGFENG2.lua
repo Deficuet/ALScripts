@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "蓝天 、白云、碧海。位于帕克菲克洋中的白鹰萨摩亚群岛，风光终年如此，如同世外桃源一般。",
+			say = "Blue skies, white clouds, and a dreamlike paradise surrounded by the sea. The Samoan Islands care little for the change of seasons.",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "阳光之下，两位少女正向着岛屿徐徐接近着。",
+			say = "Among these tropics was a fleet of shipgirls dashing across the glittering waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，我与{namecode:157:春月}已经抵达目标地点附近海域。",
+			say = "Lady Nagato, Harutsuki and I will arrive at the objective soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "这里看上去一切正常但……我能感受到存在于此的不和谐之物。",
+			say = "I haven't seen anything unusual yet... but I do get this uncanny feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天空在不久前还是阴云密布，却在我们接近岛屿后于不知不觉间变为了万里晴空。",
+			say = "It was cloudy this whole time, then it suddenly turned sunny as soon as we approached the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "毫无疑问，扭曲的虚像已经覆盖了这里。此地平静的表象之下另有乾坤。",
+			say = "Even if it looks peaceful on the surface, it's safe to assume some twisted illusion hangs over this sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "嗯，放心吧，{namecode:74:长门}大人，我们能够应付。",
+			say = "Understood. Rest assured, Milady, we will handle this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您那边也保重。完成任务后，我们立刻返回支援。",
+			say = "You take care, too. We'll come back as soon as our mission here has concluded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "挂断通讯后，两位少女简短地交流了一下。",
+			say = "Shimanto hung up, then looked at Harutsuki and said something to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_tieyiqingfeng_1",
 			hidePaintObj = true,
-			say = "随后，两名少女彼此拉开距离。无数纸符顺着二人的航迹飘出，在空中与水面之上构成了一个樱色的立体法阵。",
+			say = "They kicked their engines into high gear and separated, leaving hundreds of shikigami in their wake. The shikigami created a cherry-pink magic circle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "龙神大人，法阵已设置完毕，随时可以尝试侵入。",
+			say = "Dragon God, everything is set up. We can breach whenever you're ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "很好，就用这枚我与{namecode:74:长门}大人一同制作的纸符作为“敲门砖”，助我们进入虚像之中吧。",
+			say = "Good. With these shikigami created with Lady Nagato's help, we will sneak inside this massive illusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水龙式纸，示显神威——破！",
+			say = "Shikigami serpent, unleash your divine might!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "白鹰萨摩亚群岛·露营地",
+			say = "Eagle Union Samoa - Campsite",
 			bgm = "story-island-soft",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "正午的阳光洒下，留下了斑驳树影。",
+			say = "The afternoon sun shone on the island, casting shadows of the trees on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昨晚真开心啊，不知不觉闹到那么久呢。",
+			say = "Last night was great! The hours really flew by, too. Next thing you know, it's late in the night!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,10 +255,10 @@ return {
 			bgName = "star_level_bg_539",
 			portrait = 103280,
 			dir = 1,
-			actorName = "匹兹堡",
+			actorName = "Pittsburgh",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……头好晕。",
+			say = "Ugh... I feel dizzy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到匹兹堡小姐真的和传闻中一样，……完全不醉酒，却会醉果汁呢。",
+			say = "I don't know how you did it, but you ACTUALLY got drunk off of soda...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,10 +283,10 @@ return {
 			bgName = "star_level_bg_539",
 			portrait = 103280,
 			dir = 1,
-			actorName = "匹兹堡",
+			actorName = "Pittsburgh",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……再来一杯——！",
+			say = "Mmgh... Gimme another... Cheers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "看她这样子，一时半会是醒不过来了。",
+			say = "Doesn't look like she'll be up anytime soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我得承认，昨日的烤过的鲱鱼罐头配调制酒确实有些意思。",
+			say = "Girl, the herring you made yesterday went well with the cocktail... I can't deny it was pretty interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "哼哼~对鲱鱼罐头的印象有所改观了吧。",
+			say = "Ooh, is that acknowledgment I hear? Acknowledgment that herring is good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——鲱鱼作为鱼类，富含蛋白质，考虑到对于健身的好处，确实是可以多吃点的。",
+			say = "I admit it. Besides, herring's rich in protein, so it's a power food for building muscle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "……对我们来说，健身真的有塑形方面的效果么？有科学依据么？",
+			say = "Does physical exercise even, y'know, have an effect on our bodies? Is there any science behind that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "什么科学依据不依据的，关键是信念，决心以及——气势！",
+			say = "Don't need any science. All you need is belief and determination. And motivation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "信念，决心以及……不对不对，话题怎么跑偏了！",
+			say = "Uh-huh. Belief, determination, and... Hang on, we're gettin' off-topic here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "所以呢，你对于鲱鱼罐头的评价到底如何，有改观么？！",
+			say = "The canned herring! What did you think about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "昨夜，除了鲱鱼罐头之外的菜，也都是人间美味啊……啊哈哈哈。",
+			say = "Well, everything you cooked up yesterday was good... except for that canned herring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "欸……看来成功了一点，但是没完全成功……只能下次继续努力咯。",
+			say = "Damn... So a partial success. That's not nearly good enough for me, though. I'll nail it next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还有下次？",
+			say = "Wait... We're doing this again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "要一直持续到大家彻底改观为止哦！",
+			say = "Again and again until you're all loco for the canned herring!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在漫画里……忍者经常要接受极端环境的训练……嗯，那就来吧！",
+			say = "Well... I suppose in the comics I read, ninjas do train themselves to stomach anything... Fine, if I must!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "不要像敢去赴死一样啊！开个玩笑而已！",
+			say = "Relax, I'm not gonna put you through torture! It was just a joke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "我已经仔细记录了大家昨天的反馈意见，选出了一些大家比较容易接受的做法，之后会基于这些做法进行改良的！",
+			say = "Anyway, thanks for the feedback, y'all. I'll focus on modifying the recipe and make it more palatable for next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~不错的想法，那我相信有朝一日，你普及鲱鱼罐头的愿望一定能实现呢。",
+			say = "Attagirl. Keep at it, and one day you'll cook up something we can all stomach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~多谢啦~对了，法戈呢？也还在睡？",
+			say = "Aww, thanks! Hey, where's Fargo? Is she still sleeping?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "法戈可不会赖床哦。她今天一大早就出去了，说要做些准备。",
+			say = "Fargo is the opposite of a sleepyhead. She got up early this morning and said she's got something to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "唔……zZZZ做……些准备？",
+			say = "Zzzzz... Huh? Something to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "啊。",
+			say = "Oh, crap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "糟糕！今天是重樱远洋旅游团来度假的日子？！",
+			say = "That reminds me! A tourist party from the Sakura Empire's coming here today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "真是喝果汁误事、误事！大家快收拾一下，我们还要做迎接准备呢！",
+			say = "I shouldn't have drank all that dang soda... Come on, let's clean the place up quick and get ready to greet our guests!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "带领这支远洋旅游团的是重樱的{namecode:161:天城}女士，虽说是以旅游的名义来的，但我们也应该提供相应规格的接待才是！",
+			say = "Amagi's leading the delegation! They may be tourists, but that doesn't mean we can slack on their reception!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,11 +639,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -659,7 +659,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接得这么快，看来都睡醒了？",
+			say = "You picked up fast. Awake already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "法戈，重樱远洋旅游团情况怎么样！",
+			say = "The tourists, Fargo! Where are they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "放心，我已经全部安排妥当了。你们只需洗漱完毕后，换好衣服来三号码头找我就好。",
+			say = "Calm down. I've set the table for them. Wash up, put on a change of clothes, and come to pier three where I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是法戈——真可靠啊。",
+			say = "Professional as always. Way to go, Fargo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们就收拾收拾，去迎接重樱远洋旅游团吧~岛上也要热闹起来了啊~",
+			say = "You heard her, girls. Get yourselves in order, then it's time to speak to the Sakurans. This place is about to get busy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "轰隆隆——————",
+			say = "BOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？大家有没有听到什么声音？",
+			say = "Huh? Did you hear that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是……我没看错吧……前面的草地上凭空出现了一座重樱的……鸟居？",
+			say = "Did... Did a torii gate just appear out of nowhere over there? I'm not seeing things, am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "不远处，原本空无一物的平整草地上凭空出现了一座红色的鸟居。",
+			say = "A torii gate that was certainly not there a minute ago had appeared in a flat, grassy field not far from them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "随后，两位踏着轻盈步伐的重樱少女从鸟居中走了出来。",
+			say = "Stranger yet, they saw two shipgirls donning Sakuran attire on the other side of the gate. With a casual stride, they emerged from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位就是……理应驻防在此的白鹰舰队吧？我是{namecode:292:四万十}，旁边的是{namecode:157:春月}。",
+			say = "You must be the Eagle Union fleet stationed here. Ahem... I am Shimanto, and this is Harutsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "我们作为{namecode:74:长门}大人的特使而来。情况紧急，请问哪位是这里的负责人？",
+			say = "We're here on behalf of Lady Nagato. Could you point us to your leader? It's important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "印第安纳，此处由我负责。不过不知诸位提到的驻防是什么，我们只是来这里度假的。",
+			say = "That'd be me. I'm Indiana, the boss around here. We're on vacation here, so we've not exactly been \"stationed\" anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来这里度假？",
+			say = "Excuse me? A vacation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "唔嗯……看来是此处虚像幻境所导致的认知干涉并没有随着我们的进入而消失呢……",
+			say = "Hmm... It seems that us simply being here isn't enough to dispel the cognitive tampering caused by the illusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "既然如此……只能用点特别方法了。",
+			say = "That's okay. I still have another trick up my sleeve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "我贴——",
+			say = "Hold still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "名为{namecode:292:四万十}的少女突然跨步上前，将一张纸符轻轻贴在了印第安纳的额头上。",
+			say = "Shimanto suddenly took a step forward and stuck a paper talisman on Indiana's forehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "纸符在接触到皮肤的瞬间随即破碎，向四周散射出无数道樱花色的光。",
+			say = "It burst into a cherry pink light upon contact before falling apart into strips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,7 +923,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你刚刚这是……做了什么？",
+			say = "What did you just... do to me?",
 			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，我只是用外力介入的方式直接帮助诸位摆脱了虚像幻境的影响。",
+			say = "Don't be alarmed. I simply used an external means to break the illusion's spell on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,7 +957,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "现在大家想起来了么？关于自己的真正身份和……使命？",
+			say = "Do you remember now? Do you remember your original mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "……嗯，我是驻防在白鹰萨摩亚群岛的舰队旗舰，南达科他级战列舰，印第安纳。",
+			say = "Yeah... We're the fleet holding the fort here at Samoa, and I'm the flagship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,7 +985,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "而不是……来这里度假的。",
+			say = "We're not on a damn vacation. This is serious business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -998,7 +998,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪，我们为什么会忘记如此重要的事呢？",
+			say = "I don't get it, though... How did I forget that until just now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,7 +1011,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原因我们也在调查之中，总之大家恢复就好。",
+			say = "That's what I'm trying to figure out. I'm glad you snapped out of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1024,7 +1024,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢二位及时的帮助。二位是从何处而来，如何发现我们这边的异常状况的？",
+			say = "Appreciate it. Now can you explain how you got here and how you worked out that we're under some sort of spell?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1038,7 +1038,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "我们原本跟随{namecode:74:长门}大人在所罗门群岛基地驻防，可是在不久前，我们遭到了一批未知敌人的进攻。",
+			say = "Harutsuki and I were originally on the Solomon Islands, together with Lady Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1051,34 +1051,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这批敌人是伴随着虚像幻境一同出现的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 399060,
-			say = "在来之前，我和{namecode:74:长门}大人一同破解了幻境，因此目前，所罗门群岛基地还在我们手中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 399060,
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "但是附近的马绍尔群岛基地已经与我们完全失去联系了……",
+			say = "As for how we got here... The thing that happened to you happened over there, too. Strange foes appeared just as it occurred.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1092,7 +1065,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "{namecode:74:长门}大人担心四处发生的战火会让白鹰产生误判，所以试图将这一情况告知你们。",
+			say = "We managed to break the illusion and somehow hold on to the islands, but then we lost contact with the base on the nearby Marshall Islands.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 399060,
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Lady Nagato realized how serious the situation was and foresaw that an all-out war between us was inevitable if we didn't do something.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 399060,
+			say = "Therefore, we decided to try and get in contact with you – as in, the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,7 +1106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "可是……我们能联络到的任何白鹰驻地都没有回应我们的通讯请求。",
+			say = "We tried to call every base of yours we knew of, but none of them would answer us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "没有任何一处驻地回应你们的通讯请求……也就是说，出事的不光是我们么？！",
+			say = "Wait... Are you saying every last one of our bases has been affected by this illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1134,7 +1134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "就现状看来，应该是这样的。",
+			say = "Yes. That's the only explanation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为萨摩亚群岛是距离我们最近的白鹰舰队驻防地，所以{namecode:74:长门}大人命令我们来唤醒，并警告你们。",
+			say = "Anyway – Lady Nagato then dispatched us to this island, as it was the closest to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是这样……我代表白鹰萨摩亚群岛驻防舰队，在此真心感谢诸位的帮助。",
+			say = "Man, I almost can't believe what I'm hearing... On behalf of all of us, thanks for reaching out to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "如果没有你们，我们现在还……沉溺于虚假的幻梦中呢。",
+			say = "If it weren't for you, I'd have been none the wiser to any of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,7 +1187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们那边的局势还稳得住么？是否需要我们进行支援？",
+			say = "How's the Sakura Empire dealing with all this? Do you need our help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "无需担心。相比我们，你们更应该关心的是白鹰各处驻地的情况。",
+			say = "Thanks, but we're okay. You should be more concerned with the situation over at your own bases.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1214,7 +1214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一叠纸符是{namecode:74:长门}大人和我一同制作的，可以用来破解虚像幻境，让人从梦中醒来。",
+			say = "Take these talismans. You can use them to wake people up from the illusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "给，你们收下吧~",
+			say = "Sorry, I should add... you'd be wise to accept this gift from the Dragon God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,7 +1241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再次感谢，白鹰不会忘记你们的这次援助行动的。",
+			say = "Thanks. You've saved our bacon today, and we will not forget that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1255,7 +1255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "言重啦~那我们也该回去找{namecode:74:长门}大人复命了。",
+			say = "You're welcome. Now, if you'll excuse us, we must get back to Lady Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，这片幻境应该很快就会彻底崩塌。现在外面的天气可是——阴云密布！",
+			say = "Breaking the illusion will make the weather return to normal, by the way. It'll be cloudy, so get ready for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1282,7 +1282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399060,
-			say = "记得打伞哦~拜拜~",
+			say = "If you want my advice – bring your umbrellas and raincoats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

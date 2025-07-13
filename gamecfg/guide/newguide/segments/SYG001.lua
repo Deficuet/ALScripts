@@ -1,20 +1,20 @@
 local var_0_0 = {
-	"让我们打开<color=#ff7d36>生活区</color>",
-	"<color=#ff7d36>后宅</color>从这里进入哟",
-	"这就是指挥官的<color=#ff7d36>后宅</color>啦~ 虽然现在看起来还很破旧..咳咳",
-	"指挥官可以安排舰娘在<color=#ff7d36>后宅休息</color>，将能够<color=#ff7d36>回复心情</color>并且还能<color=#ff7d36>获得角色经验</color>，但需要<color=#ff7d36>消耗存粮</color>哟",
-	"后宅布置的<color=#ff7d36>家具会影响舒适度</color>",
-	"在商店内，可通过<color=#ff7d36>家居币购买新家具</color>",
-	"<color=#ff7d36>管理可对后宅家具进行排布与改变</color>",
-	"我们来<color=#ff7d36>添加存粮</color>吧~",
-	"这里展示了多种食物可选择，<color=#ff7d36>高级食材还有附带经验值加成奖励</color>",
-	"点击第一个可乐添加一次食粮",
-	"关闭存粮界面",
-	"我们来选择需要休息的舰娘吧，<color=#ff7d36>舰娘在后宅休息，会回复心情</color>哦",
-	"点击<color=#ff7d36>空位添加角色</color>，随后指引点击空位，添加第一个角色进入后宅",
-	"选择需要休息的角色",
-	"点击确定按钮",
-	"指挥官可不要在后宅干坏事哦，那女将就先告辞啦！"
+	"Let's go to <color=#ff7d36>HQ</color>",
+	"You can visit our <color=#ff7d36>Dorm</color> from here",
+	"Commander, this is your <color=#ff7d36>dorm</color>~! It looks a bit... rough around the edges.",
+	"The dorm is where your girls can <color=#ff7d36>get some rest</color>, <color=#ff7d36>have their moods restored</color>, and earn <color=#ff7d36>EXP</color>. You'll need to have the required <color=#ff7d36>supplies</color>, however!",
+	"Decorations will <color=#ff7d36>increase the comfort level</color> of your dorm.",
+	"You may <color=#ff7d36>purchase decorations with Decor Tokens</color> in the furniture shop.",
+	"<color=#ff7d36>Use manage to rearrange decorations and furniture within the dorm.</color>",
+	"Let's <color=#ff7d36>get some supplies</color>~!",
+	"You can choose from a wide variety of <color=#ff7d36>high level snacks with EXP buff effects</color>.",
+	"How about some Oxy-cola?",
+	"Close the supplies menu.",
+	"Now we need to find someone that needs some rest. <color=#ff7d36>Moods usually improve in the dorm</color>!",
+	"Tap <color=#ff7d36>an empty slot to begin adding a character</color>, then select someone to put in the dorm.",
+	"Select someone that needs rest.",
+	"Tap confirm.",
+	"Don't try anything funny in the dorm, Commander!"
 }
 
 return {

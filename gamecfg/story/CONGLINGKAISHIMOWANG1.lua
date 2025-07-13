@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来啊……指挥官。",
+			say = "Hey! Commander.",
 			bgm = "story-richang-12",
 			painting = {
 				alpha = 0.3,
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你有没有觉得现在港区很缺少一样东西？",
+			say = "There's something this port is sorely lacking. Do you know what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "……港区缺少的东西？",
+			say = "\"Sorely lacking\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！我们的港区有些太脱离现代化的时代浪潮了！",
+			say = "Yeah! It lacks modernity. We're lagging behind the times!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "什么虚拟现实啊、人工智能啊、大数据啊……",
+			say = "Humanity has invented virtual reality, artificial intelligence, big data...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些处于时代浪潮最前沿的技术，在我们的港区中根本哪里都看不到啊！",
+			say = "But you won't find any of those anywhere around this port!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "（无言地看向TB终端。）",
+			say = "We have at least one of those. Remember TB?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳、咳！我的意思是，在港区中除了指挥室之外，哪里都看不到啊！",
+			say = "Okay, lemme correct myself: Those inventions are nowhere to be seen EXCEPT in your office!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "你是指技术虽然有了，但是普及度还不够么……？",
+			say = "You mean the problem is there isn't enough of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没、没错！我就是这个意思！",
+			say = "Uh... Yeah! That's what I meant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "好像确实有些道理……",
+			say = "In that case, I suppose you have a point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，为了帮指挥官解决这一问题，我已经提前联系好了一批志同道合的同伴共商此事！",
+			say = "I knew you'd agree, which is why I assembled a group of like-minded people before even bringing this up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是我们加班加点准备的方案，请指挥官过目！",
+			say = "Together, we worked overtime to create THIS. Have a look!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "从兴高采烈的抚顺手中接过了一份厚厚的企划书。",
+			say = "The upbeat Fu Shun trembles slightly with excitement as she places a thick stack of papers on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "《大型港区虚拟现实体验计划》……",
+			say = "\"The Port Virtual Reality Project,\" eh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "企划委员会成员……抚顺、{namecode:6:绫波}、{namecode:13:雷}、{namecode:14:电}、长岛、{namecode:531}、水星纪念、布里斯托尔、皇家财富号……",
+			say = "The planning committee consists of... You, Ayanami, Ikazuchi, Inazuma, Long Island, Friedrich Carl, Pamiat' Merkuria, Bristol, Royal Fortune...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "……怎么名单还有第二页。",
+			say = "Wow, it goes on to the next page.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭、英勇、{namecode:427:欧根亲王}、马可波罗、卡萨布兰卡、海天、达芬奇、{namecode:525:英格拉罕}、{namecode:37:夕张}……",
+			say = "Clemenceau, Valiant, Prinz Eugen, Marco Polo, Casablanca, Hai Tien, Leonardo da Vinci, Ingraham, Yuubari...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "甚至还有{namecode:98:明石}和领航员-TB……",
+			say = "Akashi, and... TB? Even she's involved with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这份成员名单无疑是豪华的，但直觉告诉我，似乎有哪里不太对……",
+			say = "They have a real all-star crew, but I instinctively feel like there's a catch to this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "有哪里……",
+			say = "Okay, and where are you–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！{namecode:98:明石}已经表示，这次她将会承担全部的开发费用！",
+			say = "So anyway! Akashi has already agreed to finance the whole project!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你只要盖章通过就好了！",
+			say = "All you gotta do is put your stamp of approval riiight here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正不要钱，多少试试嘛~",
+			say = "You don't have any reason NOT to approve it! It won't cost you a dime!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}……承担全部……费用？",
+			say = "Wait... You said Akashi is going to finance ALL of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "超乎意料的词语组合突然冲入耳中，扰乱了大脑中主管理性思考的部分。",
+			say = "This combination of words is simply so beyond my expectations that my neurons short circuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "再加上抚顺超乎寻常的热情攻势……",
+			say = "Fu Shun is really keen on this, and it won't cost me anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这份《大型港区虚拟现实体验计划》的审批——顺利通过了。",
+			say = "To hell with it. I'll approve the project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "两周后——",
+			say = "Two weeks later...",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -478,7 +478,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "学院中一处原本空旷的广场上，此时正矗立着一台巨大的机器。",
+			say = "A giant machine stood like a metal sentinel in the academy plaza.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "同样的机器还有数百台被设置在了港区郊外各处，形成了一个复杂的网状系统。",
+			say = "Many others like it – hundreds, even – had been installed all around the port, forming a massive network.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "喵呼呼……",
+			say = "Nyahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 312012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于到这一天了喵……",
+			say = "I've waited so long for this day, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,40 +533,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这一次{namecode:98:明石}可是下了血本……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_school",
-			actor = 312012,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "才终于将使用场景布置的传统剧本杀一跃升级为了自由自在的虚拟现实冒险喵！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312012,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "掌控了这个平台……今后收益就会如洪水般涌来了！",
+			say = "I spent an eye-watering sum to make this a reality, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +550,40 @@ return {
 			actor = 312012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼呼呼——！",
+			say = "No longer will our tabletop games be played with props, nya! We've upgraded to a virtual reality adventure, nya!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312012,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "I just need to seize control of this platform and this'll become a money printer, nya!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_school",
+			actor = 312012,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Nyahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "先把这只手舞足蹈发出怪笑的猫咪放在一边。",
+			say = "The green little cat laughed with immense joy thinking about all the money she would soon be raking in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_school",
-			say = "不远处，一支即将体验系统的勇者小队已经集结完毕了。",
+			say = "But more importantly, the first party to experience the VR adventure had gathered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再强调一下，我是勇者抚顺，你是神官利物浦，你是神官独角兽……！",
+			say = "Let me say it for the record one last time! My job is the hero, and you two are my clerics!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都记住了么？一会选职业的时候不要弄错了哦！",
+			say = "Got it memorized? 'Cause I don't wanna hear any confusion about our jobs later on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题哦~神官的衣服很可爱，我很喜欢~",
+			say = "Yeah, I've got it! I like being a cleric anyway. The outfit's really cute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "不过为什么队伍里要有两个神官？",
+			say = "Although... Do we really need TWO clerics? Isn't that redundant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，因为这次我利用开发者的权限弄了一件强力装备。你们两个只要负责奶好我，输出全交给我就好啦！",
+			say = "Not really? I used my dev privileges to give us all sets of powerful gear. You just gotta keep me healed while I dish out the damage!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206039,
-			say = "嗯……独角兽用治疗魔法保护大家的！",
+			say = "Okay. I'll do my best to keep you at full health!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是我选择的冒险伙伴，真可靠啊~",
+			say = "That's what I like to hear! I'll be counting on you out there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂——那边正在怪笑的猫咪老板，我们可以出发了么！",
+			say = "Hey! Akashi! Ms. Smirking Cat! Are we good to go, or do we still have to wait?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,8 +805,8 @@ return {
 			portrait = 312012,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98}",
-			say = "喵呼呼，系统运行良好，随时可以出发喵~",
+			actorName = "Akashi",
+			say = "Nyahahaha... Oh! Yeah, the system's up and running, nya! Go ahead, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,8 +849,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "那么最终检查~两位，准备好去异世界大冒险了么！",
+			actorName = "Fu Shun",
+			say = "Alright, final check. Are you ready to set off to a world of fantasy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,8 +866,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "利物浦",
-			say = "让我检查一下~妆容OK，衣着OK，手机的自拍功能OK~随时可以出发！",
+			actorName = "Liverpool",
+			say = "Just a sec! Let's see... Makeup's good, clothes are good, phone camera's good... Yeah! I'm ready!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,8 +883,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "独角兽",
-			say = "那个……事先也没有跟哥哥商量……",
+			actorName = "Unicorn",
+			say = "Umm... Is it just going to be us three?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,8 +900,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "独角兽",
-			say = "哥哥真的会参加么……",
+			actorName = "Unicorn",
+			say = "Shouldn't we talk to the Commander before we set off?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -917,8 +917,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "放心放心~之所以没有提前通知，自然是为了给指挥官一个惊喜嘛。",
+			actorName = "Fu Shun",
+			say = "And ruin the surprise? Why would we wanna do that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -934,8 +934,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "我已经在确认了指挥官的日程表之后，进行了周密的部署！",
+			actorName = "Fu Shun",
+			say = "I've already seen the Commander's schedule and made arrangements accordingly. In secret, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,8 +951,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "我以冒险之王的名誉保证，指挥官一定会如约而至的！",
+			actorName = "Fu Shun",
+			say = "I'll spare you the details, just know this – the Commander WILL be there! Or else my name isn't Queen of Adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -968,8 +968,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "独角兽",
-			say = "那……独角兽就没问题了！",
+			actorName = "Unicorn",
+			say = "Okay... Then I'm ready, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -985,8 +985,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "很好。哼哼……终于要到这一刻了么。",
+			actorName = "Fu Shun",
+			say = "Great! Heheh... I've waited to say this for so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1000,7 +1000,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			say = "少女自信地将手臂向天指去，信心十足的喊出了那句由她亲自设计的帅气口号——",
+			say = "With a swift motion, the girl pointed her finger at the sky and opened her mouth to proudly exclaim the slogan she had come up with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1012,8 +1012,8 @@ return {
 			bgName = "bg_mmorpg_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "抚顺",
-			say = "那就让我们开始异世界的冒险之旅吧！",
+			actorName = "Fu Shun",
+			say = "Onward – to adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_177",
-			say = "与此同时的某处——",
+			say = "The party set forth on their journey...",
 			bgm = "login",
 			typewriter = {
 				speed = 0.05,
@@ -1065,7 +1065,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_177",
-			say = "映入眼帘的是一处装饰古朴的石质大厅，尽头处的天球仪正闪烁着奇异的光辉。",
+			say = "At the same time, I suddenly found myself in a simple stone hall. In the distance, there is a celestial globe, glowing with a curious light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "这是怎么回事……",
+			say = "What the hell...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1087,7 +1087,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "我明明是在会议室中听{namecode:531}汇报工作……",
+			say = "I was just in the conference room, hearing a report from Carl...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,7 +1098,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "怎么会在转瞬间出现在这里……港区中，有这样一处大厅么？",
+			say = "Now all of a sudden, I'm here. Is this some secret place nobody ever told me about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,11 +1108,11 @@ return {
 			portrait = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:98}",
-			say = "来自远方的冒险者哟，欢迎来到啾啾神殿喵~",
+			actorName = "Akashi",
+			say = "Hail, adventurer from afar, nya. Welcome to Manjuu Temple, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1126,7 +1126,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_177",
-			say = "转过头去，{namecode:98:明石}正端坐在大厅另一侧的王座之上。",
+			say = "I turn around and see a throne on the other end of the hall. Akashi is sitting on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,7 +1137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "……{namecode:98:明石}？这是怎么回事？",
+			say = "...Akashi? What the hell is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,10 +1147,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}？错错错，我是幸运与财富之神喵~！",
+			say = "Akashi? You're mistaken, nya! I'm the goddess of luck and riches, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1164,10 +1164,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你看来还没有理解状况呢，人类。",
+			say = "Nyahaha. You must be very confused, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,10 +1181,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是啾啾神殿，一座连接无数世界的神之国度。",
+			say = "As I said, this is Manjuu Temple, the home of the goddesses that bridge countless realms, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,10 +1198,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "生活在这里的众神，偶尔会因为一时兴起，从逝去之人中选择一些前往异世界开启新的人生。",
+			say = "Every now and then, these goddesses pick a lucky dead person to get sent to another world to live out a new life, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,10 +1215,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而你，就被身为幸运与财富之神的我所选中了，大概就是这么回事喵~",
+			say = "And this goddess chose you, nya. That's all you need to know, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,10 +1232,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是遗憾啊，年纪轻轻就来到了这里喵~",
+			say = "It really is a shame that you died so young, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1249,10 +1249,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过没有关系，很快你就可以从这里离开，前往异世界转生了喵！",
+			say = "But don't fret, nya! I'm going to give you a shot at a new life, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1267,18 +1267,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "…………………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "配合明石的小剧场",
+					content = "(Play along.)",
 					flag = 1
 				},
 				{
-					content = "揭露明石的角色扮演",
+					content = "(Don't play along.)",
 					flag = 2
 				}
 			}
@@ -1289,7 +1289,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "没想到真相竟是如此……",
+			say = "Oh my god! I'm fricking dead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1301,7 +1301,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "常年来超负荷的工作终于将我压垮了么……",
+			say = "All those years of working overtime must've finally caught up to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "可是……如果我倒下了，今天就截止的报告书要怎么办，明天就截止的规划表又要怎么办！",
+			say = "But... But what about my deadlines? I have a report due today! And what will happen to my schedule for tomorrow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1325,7 +1325,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我还有一座港区要养……我还不能倒下……",
+			say = "Everyone back at the port still needs me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1337,7 +1337,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "让我回去，我要继续工作！",
+			say = "Send me back! I have too much work to die!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1352,11 +1352,11 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "喵？！喵喵喵喵喵？！",
+			say = "N-nya?! Nyanyanya?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1380,11 +1380,11 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "看……看来指挥官平时承担的工作确实太多了喵……",
+			say = "Sheesh... You've had a really rough life, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1398,11 +1398,11 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不过已经进入角色了是好事喵……",
+			say = "At least you're already in character, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1418,7 +1418,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "……我明白了，这里就是你们之前开发的《大型港区虚拟现实体验计划》的成品吧。",
+			say = "Hang on... Is this that port VR project Fu Shun told me about a couple of weeks back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1430,7 +1430,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我记得之前企划委员会里有{namecode:531}，我在来到这里之前也是和她在开会。",
+			say = "I remember Carl was on the planning committee, and I was about to talk to her before I got transported here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1442,7 +1442,7 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "你们是一伙的！",
+			say = "I bet she was in on this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1452,11 +1452,11 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "喵——什么一伙不一伙喵？",
+			say = "Nya? In on what, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1470,53 +1470,11 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "大型企划完成了，请指挥官来检查一下成果不是再正常不过么喵~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_177",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
-			say = "所以……你们最后做成了一个大型虚拟现实游戏。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_177",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
-			say = "……现在回忆起企划委员会的成员，我早该想到的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312012,
-			side = 2,
-			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
-			dir = 1,
-			optionFlag = 2,
-			nameColor = "#A9F548FF",
-			say = "呼呼呼，不论如何，指挥官还是先来体验一下如何喵？",
+			say = "We just want to show you the fruits of the project now that it's done, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1532,7 +1490,49 @@ return {
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "那是自然……",
+			say = "So I was right. You have created a VR game of unprecedented scale.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
+			optionFlag = 2,
+			say = "Though, given the roster of talent you had, I suppose I shouldn't be surprised.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312012,
+			side = 2,
+			bgName = "star_level_bg_177",
+			factiontag = "Goddess of Luck and Riches",
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "Yup-yup, nya. And if you wanna add more content in the future, we're open to investors, nya.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_177",
+			nameColor = "#A9F548FF",
+			optionFlag = 2,
+			say = "At least let me see what it's like before you tell me to invest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1545,7 +1545,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "喵呼呼，我就知道指挥官会有兴趣喵~",
+			say = "Heheh. Sounds like I've already got you on the hook, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1559,10 +1559,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "给，这里是你的信息卡。",
+			say = "Here, take this – it's your character build card, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1576,10 +1576,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就把接下来的旅途当成一次休假，好好享受吧喵~！",
+			say = "You'll need it on your adventure, nya. Get out there and enjoy yourself, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1604,7 +1604,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "等等……信息卡上的内容已经固定了么？",
+			say = "Wait, my build is predetermined?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1615,7 +1615,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			nameColor = "#A9F548FF",
-			say = "按照惯例选择地点、出身、和初始技能的环节呢？",
+			say = "I thought I'd get to pick where I reincarnate and what broken skills I get. Isn't that usually how these things go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1625,10 +1625,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些……或许以后会有喵~！",
+			say = "...That's a pretty good idea, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1642,10 +1642,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敬请期待DLC喵~！",
+			say = "We'll think about adding that later as DLC, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1659,10 +1659,10 @@ return {
 			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "幸运与财富之神",
+			factiontag = "Goddess of Luck and Riches",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，即将踏上旅途的冒险者，祝你能有一次美好的体验喵~",
+			say = "Now... Brave reborn adventurer, I pray that your journey in this new world shall be most exciting, nya.",
 			painting = {
 				alpha = 0.3,
 				time = 1

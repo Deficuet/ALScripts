@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[3]\n\n<size=45>热茶与女仆修行</size>",
+					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Diligent Domestic Discipline</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 301863,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，请用……",
+			say = "Enjoy, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "{namecode:203:风云}将茶沏好后，一脸期待地递到了我的面前。",
+			say = "Kazagumo anxiously hands me piping-hot tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,19 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "露台上茶香四溢，伴随着花香一同缓缓涌入鼻腔。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……茶汤绿中带翠，清澈鲜艳，入口味苦而醇厚，回味却是甘甜。",
+			say = "The scent of tea wafting over the terrace intermingles with the aroma of flowers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +60,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好茶，品尝起来像是一阵暖风轻拂而过。",
+			say = "(The green tea is clear and vibrantly colored. When I take a sip, the mellow taste is just a tiny bit bitter, but the aftertaste is sweeter.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +72,19 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来这次{namecode:203:风云}的女仆修行，成果非常出色。",
+			say = "It tastes good. I feel nice and warm now.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_142",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "You've learned a lot from your training, Kazagumo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "唔，指挥官过奖……啊，作为女仆的话应该称呼您为主人才对。",
+			say = "Don't butter me up, Commander... Oh! Should I call you Master?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "主人过奖了，{namecode:203:风云}、{namecode:203:风云}还有很多需要学习的地方。",
+			say = "You flatter me, Master, but I still have so much to learn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "像是茶艺，我还只是学了一点皮毛。",
+			say = "I've only scratched the surface of the art of tea ceremonies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "还有，唔，作为女仆，能够完美地打理庭院也是非常重要的。",
+			say = "On top of that, it's important for a maid to be able to keep the garden in peak condition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "庭院里的绣球花开得正好，五彩缤纷，争相绽放。",
+			say = "The flowers in the garden are in full bloom, bursting with color.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "花瓣上还带着明显的水珠，明显是有人精心打理过。",
+			say = "The drops of water rolling gently down the petals are proof of how well they're cared for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我倒是觉得，无论是茶艺还是园艺，{namecode:203:风云}的修行都已经很到位了。",
+			say = "You're doing wonderfully at the tea ceremony and caring for the flowers. Good job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "您、您这样夸奖的话……{namecode:203:风云}会不好意思的……",
+			say = "It's embarrassing to receive such praise...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "安心接受主人的称赞，我想也是一名合格女仆应该具有的能力。",
+			say = "Don't you think a maid should know when to accept deserved compliments?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "唔……您、您真的不是在调侃我吗？",
+			say = "Umm... D-don't tease me, please...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然不是~今天的茶很好喝，庭院也很美……",
+			say = "I'm not. You brewed delicious tea, and the flowers are beautiful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，本次女仆修行成果检验的结果是——",
+			say = "So I have to say, your training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "啊，请等一下！还有一项最重要的成果没有检验呢。",
+			say = "W-wait! I still haven't shown you the most important result of my training!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就是——",
+			say = "So, basically...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "主人，像这样的膝枕还舒服吗？",
+			say = "Master, is my lap comfortable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "掏耳朵的力道呢？",
+			say = "I'm not cleaning your ears too forcefully?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "会有点痒？那，那{namecode:203:风云}再加重一下力道？",
+			say = "It's a little itchy? Should I be more forceful?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "很舒服？那真是太好了～",
+			say = "That feels good? Okay, I'm glad...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "这是我从各位前辈那边学来的，女仆修行中最重要的一项。",
+			say = "All of my mentors told me this is the most important thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "也就是全心全意为主人“服侍”！",
+			say = "Wholeheartedly serving my Master...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不知道您对于{namecode:203:风云}的女仆修行……还算满意么……？",
+			say = "Commander... Are you satisfied with my progress?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "毛茸茸的耳勺给耳朵带来了难以言喻的舒畅感。",
+			say = "The fluffy ear pick gives me indescribable pleasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "而少女柔软的膝枕更是为这一过程带来了额外的舒适与满足感。",
+			say = "Combined with the softness of Kazagumo's thighs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "最后，{namecode:203:风云}的女仆修行成果检验得分自然是——完美！",
+			say = "Yeah. She gets a perfect score from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

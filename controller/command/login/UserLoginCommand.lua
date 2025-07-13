@@ -82,7 +82,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				getProxy(GatewayNoticeProxy):setGatewayNotices(arg_3_0.notice_list)
 				arg_1_0.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, var_1_0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
-				originalPrint("user logined............", #var_3_1)
+				originalPrint("user logined.............", #var_3_1)
 				pg.SdkMgr.GetInstance():SdkGateWayLogined()
 			else
 				pg.SdkMgr.GetInstance():SdkLoginGetaWayFailed()

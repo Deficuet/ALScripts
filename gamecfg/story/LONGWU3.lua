@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>三　贝壳与清凉</size>",
+					"From Farm to Fork!\n\n<size=45>3 Shells and Coolness</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "农家探索乐园的中心湖泊——",
+			say = "We arrive at the lake in the middle of Farmlandia—",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "清澈的湖面波光粼粼，湖岸草木婆娑，在水中投下层叠倒影。",
+			say = "The water's clear surface shimmers brightly, with the sunlight making the shoreline vegetation look even more vibrant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "同时，也传来了熟悉的说笑声。",
+			say = "For a moment, I am captivated by the idyllic scenery around me, until I am pulled back to my senses by a familiar laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:540}",
-			say = "哇——！这光！这水！",
+			actorName = "Z52",
+			say = "Woooow! Look at how pretty the sky is! And the water, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "{namecode:536}",
-			say = "欸~~{namecode:540:Z52}也太夸张了~！",
+			say = "Ehhh? Aren't you just being dramatic again, Z52!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "循声望去，两道熟悉的身影映入眼帘，她们似乎也发现了我们。",
+			say = "When I turn towards the voices, I see two familiar figures – and they also happen to see me at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "啊——！是指挥官和龙武！",
+			say = "Ahh! It's the Commander and Lung Wu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "{namecode:540:Z52}欢快地跑了过来，在我们面前轻巧地停下了脚步。",
+			say = "Z52 practically dives towards me, somehow managing to come to a screeching halt before bowling me over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "好巧啊，你们也来这里玩啦！",
+			say = "What a coincidence! The two of you came to play, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:540:Z52}，{namecode:536}，你们好。",
+			say = "We sure did. Z52, are you just here with U-31?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "你们好。",
+			say = "G-good morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "我们正准备过去看看那边的瀑布，指挥官和龙武要一起来吗？",
+			say = "We were just on our way to see the waterfall. Do you two wanna come with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 408130,
-			say = "哎呀，{namecode:540:Z52}你看看场合嘛~指挥官和龙武明显是在约会呢~",
+			say = "Jeez, learn to read the room! Can't you tell that those two are on a date right now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "欸？约、约会？",
+			say = "Hwuh? A d-date?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 408130,
-			say = "我们快走啦~",
+			say = "Yeah, so, c'mon. Let's move it along here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "好、好嘛……那指挥官再见哦！",
+			say = "I get it, I get it! Okay, Commander, see ya later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "{namecode:536}拽着{namecode:540:Z52}离开，转身时朝我俏皮地眨了眨眼睛。",
+			say = "U-31 hits me with a playful wink before dragging Z52 away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 408130,
-			say = "指挥官，回头见哦~",
+			say = "I'll see you around, Commander, hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……",
+			say = "Uhh, thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "我看向了一旁的龙武，发现她的目光已经被不远处“养殖区”的指示牌吸引。",
+			say = "I glance over at Lung Wu to see her reaction, but her eyes are glued to a nearby sign that says \"Fish Hatchery.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "似乎完全没有注意到{namecode:536}和{namecode:540:Z52}的离去。",
+			say = "...So much so that she didn't even notice that U-31 and Z52 had left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边是养殖区……我们快过去看看吧，指挥官！",
+			say = "It seems there's even a hatchery! Let's go take a look, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "石块铺就的小径蜿蜒穿过养殖区，龙武一边走，一边专注地观察着湖中的贝类。",
+			say = "As we walk down the winding cobblestone path in the hatchery area, Lung Wu intently observes the shellfish in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些圆蚌看起来很新鲜呢……不过味道可能不太适合指挥官……",
+			say = "These look incredibly fresh... but I'm not sure they'd suit your palate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "啊，这边的鸡冠蚌就更好些，虽然肉质偏韧，但配上合适的调味……",
+			say = "Oh, these mussels might be better. They can be a tad on the chewy side, but with the right seasoning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "还有青蛤！可以煮汤，也可以蒜蓉炒制……",
+			say = "And they have clams here too! Hmm, to make them into soup, or to steam them with garlic and butter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "沉浸在美食构想中的龙武，并未注意到脚下石块间逐渐加大的间距。",
+			say = "Lung Wu is so caught up in thinking about how to cook these various ingredients that she doesn't even notice the gaps between the stones beneath her feet getting wider and wider.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武。",
+			say = "Lung Wu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "啊！抱歉，我又走神了吗？",
+			say = "Oh?! Was I spacing out again? I'm so sorry about that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没事，不用道歉。",
+			say = "No worries. You don't need to apologize at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,14 +435,14 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "只是石面不平，小心别滑倒水里。",
+			say = "The walkway here is pretty uneven and slippery, so watch your step and don't fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "朝龙武伸出手",
+					content = "Offer your hand to Lung Wu.",
 					flag = 1
 				}
 			}
@@ -455,7 +455,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "把手给我？",
+			say = "Let's hold hands as we walk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "少女的眼中闪过惊喜，随后羞怯地垂下了头，将手轻轻放入我的掌心。",
+			say = "Lung Wu's cheeks glow for a second, but she quickly looks down in embarrassment as soon as I take her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢指挥官……",
+			say = "Th-thank you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "就这样牵着手，我们继续在养殖区中漫步，挑选着晚餐的“食材”。",
+			say = "And so, the two of us continue strolling around the hatchery, hand-in-hand, searching for some good ingredients to put on the dinner table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "在人工湖中走了一圈，我们捞获了些鳜鱼与河蚌。",
+			say = "As we make our way around the lake, we gather fresh ingredients like mussels and mandarin fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "今晚鳜鱼是清蒸还是红烧呢~",
+			say = "Hmm, what should I do with the fish tonight? Braise or stew?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "龙武提着装满河鲜的木篓，步伐轻快。裙摆和鞋子沾了些许湖水，却丝毫不影响她畅想晚餐的好心情。",
+			say = "Lung Wu's skirt and shoes get a bit wet during the process, but she's too absorbed in planning her cooking to even realize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "看着她专注讨论菜品时的明媚笑容，我也不由得期待起今晚的大餐。",
+			say = "I guess her enthusiasm is contagious. I watch Lung Wu talk about the menu with her lips curved in a big smile, and it makes me look forward to dinner even more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

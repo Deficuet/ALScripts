@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "或许是某种动物的巢穴……看起来黑黢黢的，进去说不定会遭遇危险。",
+			say = "This does look like an animal's den, even if it's too dark to see inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,7 +16,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "谨慎也是一种选择，还是不要打扰他们为好。",
+			say = "It could be dangerous for all you know. Best to play it safe and turn back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "旅行途中平凡的间章——什么都没有发生。但至少，你可记录的旅行故事多了一页。",
+			say = "An uneventful step on your journey – nothing happened, but that's fine. Every adventure needs a little downtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

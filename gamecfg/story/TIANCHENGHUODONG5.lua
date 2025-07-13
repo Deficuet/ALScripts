@@ -12,7 +12,7 @@ return {
 			side = 0,
 			bgm = "battle-boss-tiancheng",
 			dir = -1,
-			say = "负责进攻的[桂马]是你啊，{namecode:40}。 ",
+			say = "Ahahah... So you're leading the attack unit, Naka?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "是的，{namecode:161}大人！",
+			say = "That's right, Amagi-san!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "呵呵，很有精神呢。这应该是你第一次参加这样的演习吧？",
+			say = "I'm glad to see you're doing well. Is this your first time leading during an exercise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "是的，能和各位前辈一起参加演习，而且能够见证下一任旗舰的诞生，我很荣幸！",
+			say = "It is! It's an honor to fight alongside my superiors and to be seen as a candidate for the next flagship of the Combined Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			actor = 304050,
 			dir = -1,
-			say = "真是有礼貌的好孩子呢。不过，没有忘记这里是战场吧？",
+			say = "Ahah, it's good that you're so eager, but I hope you haven't forgotten that this is a battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			actor = 302140,
 			dir = 1,
-			say = "是的，所以即使是{namecode:161}大人，我也不会鞠个躬就放您过去的哦。",
+			say = "Of course not! Just because you're my superior doesn't mean I'll step to the side and nicely ask you to pass through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "很好。那么，就让我看看新一代的巡洋舰有怎样的实力吧！",
+			say = "Then let us see what you're capable of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

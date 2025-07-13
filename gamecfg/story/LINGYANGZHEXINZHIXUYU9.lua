@@ -11,12 +11,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-3",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我今天看了一个纸雕的制作教程，好想试试看哦。",
+			say = "I saw someone doing paper crafts today. I wanna try it myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "不过层次稍微有点复杂呢……",
+			say = "Although, it looks pretty hard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们按照教程慢慢来吧？",
+					content = "Let's try following a tutorial.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "不如自己设计新样式？",
+					content = "How about designing something new by yourself?",
 					type = 2
 				}
 			}
@@ -71,12 +71,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room3",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好呀，跟着教程耐心地做应该不会有问题。",
+			say = "Okay! There shouldn't be any problems as long as I follow the steps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,12 +87,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且还有{tb}陪着我一起做，那我就更放心啦~",
+			say = "And with you to accompany me, I'll feel more comfortable doing it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自己设计的话……也不是不行呢。",
+			say = "Designing something new... That's not a bad idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,12 +119,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许能做出最特别的纸雕送给{tb}……想想就很期待呢。",
+			say = "Maybe I can make a special paper creation for you. Now I'm excited!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

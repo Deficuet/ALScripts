@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>浴室中的小小意外</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>44 Bathroom Slip-Up</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "受到{namecode:455:阿达尔伯特亲王}的邀请，前往了她的船舱。",
+			say = "Prinz Adalbert invites me to her cabin, and I naturally take her up on that.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "然而刚一进门，就看到了这样的画面——",
+			say = "As soon as I enter, the first thing I see is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "痛痛痛……",
+			say = "Oof, ouch...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，浴室的门正大敞着。",
+			say = "...The bathroom door, wide open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "过量的肥皂泡争先恐后地从浴室中满溢而出，连带着舱室内的地毯也变得湿润。",
+			say = "Soap suds are practically flooding out of there, soaking the cabin carpet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,18 +123,18 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而少女跌坐在浴室的泡沫堆中，身上的浴巾也因为摔倒的动作而“飞”掉了大半。",
+			say = "Prinz Adalbert herself is a veritable mountain of bubbles. When she fell, her towel slipped right off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "伸手去扶",
+					content = "(Help her up.)",
 					flag = 1
 				},
 				{
-					content = "询问状况",
+					content = "(Ask what happened.)",
 					flag = 2
 				}
 			}
@@ -148,7 +148,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（虽然很在意到底为什么会变成这样……但还是先把她扶起来再问吧。）",
+			say = "(I'm curious how she ended up this way, but first, I'd better help her up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我走进浴室，试图去扶起{namecode:455:阿达尔伯特亲王}。",
+			say = "I decide to go in there and help the poor girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "啊~指挥官小心点哦，地上滑溜溜的，别像我一样摔倒了……",
+			say = "Oh, Commander! Be careful. It's slippery in here. You don't want to end up on your butt like I just did...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "咦？指挥官走得好像还挺稳的嘛，那你顺便帮我拿一下那边的洗发露哦~",
+			say = "Wow, you've got good balance. Could you bring me that shampoo while you're at it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好。",
+			say = "Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就在帮{namecode:455:阿达尔伯特亲王}拿她要的洗发露的时候，不小心踩到了被泡泡掩盖的一块肥皂。",
+			say = "When I turn around to get the shampoo, I step on a bar of soap concealed by the bubbles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后——",
+			say = "And then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "哇啊！指挥官小心！",
+			say = "Whoa! Careful, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "啊，和我一样摔倒了呢。",
+			say = "Oh, no... Down goes another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "你还好么指挥官？唔……要不然我干脆爬过来扶你起来好了？",
+			say = "Are you okay? Hmm... Should I be the one to help you up? I can crawl over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这倒是不用了，万一你又滑倒了怎么办？",
+			say = "No, no, I'm fine. I don't want you falling a second time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "说的也是哦！那我就坐在这里不动了，指挥官就自己缓一缓吧。",
+			say = "Oh... Riiight. Okay, I'll stay right here. Good luck, Commander. I'm counting on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从湿滑的地面上坐起身，无奈地询问面前同样姿势的少女。",
+			say = "I manage to peel my upper half off of the slick floor and turn to face Adalbert, who's still sitting the way she was before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过从刚才进门就想问了，为什么浴室里到处都是泡泡……？",
+			say = "Question. Why is the bathroom covered in suds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "啊~这个啊~",
+			say = "Oooh, well, it's a funny story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "就是白天看到击沉冰山的时候感觉可以把一些攻击的思路结合到踢拳里哦！",
+			say = "When I saw that iceberg sinking earlier, I had a great idea. What if I could apply that same concept to my kickboxing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "咻咻咻——然后，啪——这样的感觉。",
+			say = "Like, whoosh whoosh, bam!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "所以感觉说不定和指挥官比划一下会很有趣，就邀请指挥官过来了。",
+			say = "I thought it'd be fun to spar with you, so I called and invited you over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "但是等指挥官的时候又好无聊，我就去洗澡了。",
+			say = "Then I got bored waiting for you, so I got in the bath...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "不过洗澡也很无聊……我就做了点有趣的事情~指挥官应该能理解的吧？",
+			say = "But JUST bathing is boring, too, so I started looking for a way to have fun. You get how I feel, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "啊……但是我也没想到能弄出来这么多泡泡啦。",
+			say = "I just... didn't think it'd lead to so many bubbles.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女隔着毛巾揉了揉自己的头发，表情有些困惑。",
+			say = "Adalbert awkwardly dries her hair with the towel that's been sitting on her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，你没受伤吧？",
+			say = "Umm... Okay. You didn't get hurt, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "嗯~完全没事哦。",
+			say = "Nope. I'm fine as can be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "指挥官看着我的眼神充满了担忧呢~这么担心我吗？",
+			say = "You really look concerned. Were you that worried about me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定会担心吧。",
+			say = "Of course I was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "嘿嘿~不用担心啦，真的没事哦，不信的话我们一起来玩泡泡吧~",
+			say = "Heheh... Thanks. I'm fine, though. C'mon, let's play in the bubbles together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还没来得及反应“玩泡泡”是什么，{namecode:456:阿达尔伯特}从一旁抓起一把肥皂泡。",
+			say = "Before I can comprehend her offer, she grabs a nearby clump of bubbles...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接着便瞄准我丢了过来。",
+			say = "...And she throws them at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "击中指挥官~{namecode:455:阿达尔伯特亲王}得分~",
+			say = "Direct hit! One point to Prinz Adalbert!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:455:阿达尔伯特亲王}玩得不亦乐乎，连带着我也跟着玩心大起。",
+			say = "Seeing her joy infects me and rouses my playful side in turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看这个——！",
+			say = "Take this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一时间，浴室之中的泡泡变得更多了。",
+			say = "The bathroom becomes an even bigger mess of bubbles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "呼……指挥官还挺厉害的嘛！",
+			say = "Phew... Not bad, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "啊~太好了，指挥官终于笑了！",
+			say = "Aww, nice. You finally smiled!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？",
+			say = "Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "唔，因为感觉今天指挥官在很认真地应对事情，都没怎么笑过。",
+			say = "You've been taking things so seriously today. I realized I haven't seen you smile much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "总之现在让指挥官露出了笑容就好了！",
+			say = "So it's a relief to see those pearly whites now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			actor = 900435,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你约我来，真正的目的是因为这个么？原本是想用踢拳让我露出笑容……？",
+			say = "Is that the whole reason you invited me here? You wanted to spar with me and... make me smile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "哦，目的是这个，但一开始不是想和指挥官玩踢拳来着。",
+			say = "Hmm... You're right about making you smile, but I was never actually going to kickbox with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "只是原本我真正想做的被我给忘了……算了，反正已经不重要了~",
+			say = "Uh, what was I trying to do, again...? Eh, forget it. I got the smile I wanted anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "现在指挥官的衣服也彻底弄湿了~接下来干脆就一起洗澡好了！",
+			say = "And look. You're all soaked now, Commander. Guess we gotta take a bath together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900435,
-			say = "我会帮指挥官仔细擦背的哦~",
+			say = "I'll wash that back good and clean for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1

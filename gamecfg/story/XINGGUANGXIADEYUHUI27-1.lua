@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "此时此刻，外部的镜面海域正在缓缓发生变化。",
+			say = "The waters of the Mirror Sea begin to shift.",
 			bgm = "battle-ironblood-defence",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "原本不可见的边界正变得愈发凝实，空间都似乎随之隐隐扭曲着。",
+			say = "Its normally invisible boundary distorts, manifesting something like a barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "没想到镜面海域还隐藏着这种功能……这就是天外来客所带来的奇迹么。",
+			say = "I had no idea the Mirror Sea had such a hidden function... Another miracle wrought by the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "截至目前，各处战斗出奇的顺利。",
+			say = "Things are going surprisingly well so far!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "指挥官连哪里会出现敌人增员，数量有多少都预测到了……",
+			say = "The Commander's predictions of enemy numbers and positioning were spot-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401520,
-			say = "我都不知道该说是料事如神，还是令人毛骨悚然了！",
+			say = "It's almost like you can see the future! Frankly, it's kinda creepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401110,
-			say = "……幸好{playername}阁下是我们这边的人。",
+			say = "I'm just glad the Commander's on our side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401090,
-			say = "形势变化和指挥官预测的一模一样……那时不是说接下来……",
+			say = "Everything is going exactly the way you said... Then that must mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……做好心理准备吧。",
+			say = "The Star Beast will appear. Steel yourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "战斗进展的十分顺利，代表敌人的光点成片消失着，胜利几乎唾手可得了。",
+			say = "Our counteroffensive went smoothly. The enemy markers on the monitor vanished one after the next, and victory seemed but a shot away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "而变故，却在这一刻悄然降临。",
+			say = "But right at that moment, a shocking development occurred.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "天空中，一颗不起眼的星星散发出万丈光芒，如同一团白色光球快速扩展着，转瞬间覆盖了一半天空。",
+			say = "A star overhead suddenly glows blindingly brightly, its magnified radiance lighting up half of the night sky in the blink of an eye.",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "光芒之中隐约可见许多蓝色光点，如同星光般闪烁着。",
+			say = "The white heavens become diffused with innumerable blue lights that flicker in and out of existence. It's like someone has inverted the colors of the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主宰级的天外之兽果然出现了……",
+			say = "A Lord class... It did appear after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 401090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的能撑得住么。",
+			say = "A-are we going to be okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们无路可退，唯有全力一战。",
+			say = "We shall see. Fighting is our only choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "随后而来的是一阵又一阵奇异的响声，如同能够引起天地万物的共振一般。",
+			say = "Strange noises come in waves, seemingly shaking all the world through to our very souls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "不过这股力量，被米德加尔特之壁牢牢阻挡在外，只在屏障上掀起了些许{namecode:9:涟}漪。",
+			say = "But the force is blocked by the Wall of Midgard, doing little more than causing some ripples on the barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "无数根触手如同缝合线，连接着天空与大海，试图将二者间的距离一寸寸拉近。",
+			say = "Countless feelers appear, reaching into the sky as though trying to stitch it and the sea together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "然而永恒之星向高空射出密集的弹幕，残破的触手碎片如同冰雹般崩落。",
+			say = "The Eternal Star's barrage of shells blow them to smithereens. The pieces fall back down into the sea like hailstones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（迄今为止一切顺利……就看接下来的了。）",
+			say = "(So far, so good. But this is where the battle truly begins.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "{namecode:426:希佩尔}，你准备好了么？",
+			say = "Hipper, are you ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "我等这一刻已经很久了，交给我吧。",
+			say = "I've been waiting for this for a long time! Let me at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "全员注意，斩首行动开始。",
+			say = "Everyone, focus your attacks on the Lord class!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "全员随我主动出击！",
+			say = "Follow my lead! We will synchronize our strikes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掩护{namecode:426:希佩尔}·META，为她开辟道路！",
+			say = "Cover Hipper and secure a route to victory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

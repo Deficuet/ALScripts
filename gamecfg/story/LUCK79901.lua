@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 799010,
 			dir = 1,
-			say = "原来如此……实际体验之后，我算是能够理解“天运拟合”系统了。",
+			say = "I see... After experiencing it for myself, I finally understand this \"Fate Simulation\" system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 799010,
 			dir = 1,
-			say = "装备性能，适应性都有了明显提升，应对敌人时也能感觉到更加从容了。",
+			say = "Significantly improved equipment efficiency and adaptability, better information processing when combatting enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 799010,
 			dir = 1,
-			say = "不过，感觉只是感觉，还需要更多实战测试才行。",
+			say = "Having that said, feelings are subjective, and no substitute for empirical data from field tests.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 799010,
 			dir = 1,
-			say = "我们现在就出发吧？趁这个机会，允许你全方面地研究我哦？",
+			say = "Now then, shall we go on a sortie? Surely you don't mind if I explore this system inside out, right? Hehehe~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

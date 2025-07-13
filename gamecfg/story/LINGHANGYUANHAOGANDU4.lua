@@ -9,7 +9,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>四 情绪的价值是—</size>",
+					"Convergence of Hearts\n\n<size=45>4 The Value of Feelings</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了，TB？",
+			say = "What's the matter, TB?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "眼前的TB闷闷不乐。",
+			say = "She looks under the weather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……就是说，虽然有些事情是我想去做的，但是结果不是很好。",
+			say = "...I did a thing I wanted to do, but it went wrong.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种情况下，是被称作“事与愿违”吗？",
+			say = "Is this what it means to be \"unsuccessful\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。是在因为在一些行程里发挥得不是很完美而不开心吗？",
+			say = "Yup. It didn't go like you hoped it would, did it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是。",
+			say = "No.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就证明你又成长了，今晚应该做些好吃的来庆祝了！",
+			say = "That means you've grown, and that's something to celebrate. Let's get something good to eat for dinner tonight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么？",
+			say = "But why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明没有发挥好不值得开心，为什么要庆祝？",
+			say = "Why celebrate something that went badly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为你有“情绪”了。",
+			say = "Because you've learned to express your feelings at last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "生气也好、不开心也好，都是“情绪”。",
+			say = "Anger, sadness – those are feelings too, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB在这方面，一直都是个迟钝的孩子，对吧？",
+			say = "Don't they often say that you're behind the other students at school?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是，老师也说我平时没什么情绪。",
+			say = "...Yeah. My teacher says I've never shown any emotion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是因为TB今天会表达自己的不开心、表达出明显的情绪了，所以要庆祝一下！",
+			say = "And you just did. You felt sad about something. I know it sounds weird, but that is something to celebrate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你好像在诡辩。",
+			say = "I think you're making excuses and just want yummy food.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么可能呢，我只是在陈述事实。",
+			say = "I'm really not. I'm just stating facts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "拥有情绪、表达情绪，在寻找“个性”的道路上，TB总算迈出了坚实的一步。",
+			say = "Gaining emotions and expressing them. TB has taken the first step on her journey to finding her personality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等下一起出门买些好吃的回来吧？",
+			say = "Come on. Don't you want to go out and get something tasty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……好。",
+			say = "...I do.",
 			painting = {
 				alpha = 0.3,
 				time = 1

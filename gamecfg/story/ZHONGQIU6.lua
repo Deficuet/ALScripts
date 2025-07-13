@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "被香气吸引过来后，唔……被吸引过来的好像不止我们啊",
+			say = "The aroma leads us here, uh... it seems we are not alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "地上一片狼藉，是为庆祝什么节日的狂欢吗……",
+			say = "What a mess. Was there some sort of a celebration...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是节日哦！中秋节！",
+			say = "It's a festival! The Mid-Autumn Festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，又来新的客人了？是被启封后的桂花酿吸引过来的吗？欢迎~",
+			say = "Huh? New guests? They must have been attracted by the smell of my osmanthus wine. Welcome~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那酒……就是香气的来源吗？",
+			say = "Those wines... Are they the source of the aroma?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是喔，存货就那些了，现在可是打碎一瓶少一瓶，所以至少在今天，暂时放下仇恨吧！",
+			say = "Yes. We only have that much left. They are too fragile though. Let's put down our hatred towards each other, at least just for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我没有值得放下的东西，也不会喝酒……不过——好香、很舒服~",
+			say = "I don't drink, and there's nothing to be put down... But —— it smells really good~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里的鲜血颜色太浅啦！不过倒很好喝——",
+			say = "It's not as red as blood! But it tastes good~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,9 +135,9 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "宁海",
+			actorName = "Ning Hai",
 			dir = -1,
-			say = "喂！你谁呀！不要偷酒！",
+			say = "Hey! Stop there! Wine thivees!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 		},
 		{
 			actor = 502022,
-			actorName = "宁海",
+			actorName = "Ning Hai",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "威尔士~我要抱~抱~",
+			say = "Wales~ Can I have a h-hug~",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -184,9 +184,9 @@ return {
 			actor = 502032,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "平海",
+			actorName = "Ping Hai",
 			dir = 1,
-			say = "姐姐一喝酒就变得很麻烦……",
+			say = "With a touch of alcohol, my sister becomes a troublemaker...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是她的可爱之处啊~来，要举高高吗",
+			say = "This is her charm point~ Come, let me hold you high.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "没想到今天最后来了这么多人……这都是你们的功劳呢",
+			say = "I didn't except that so many people would come... all thanks to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是因为大家都想念过去的亲朋吧……即使不知道今天的节日，但只要眺向夜空中的圆月，心中多少都会泛起思亲之情……所以，自然而然地就聚在了一起吧",
+			say = "I think it's because we all miss those we lost, friends, family... We cannot help ourselves thinking about them under such a beautiful moon, even if this isn't a festival for reunion... That's why we're all here together, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在别的地方，应该也有人此刻也望着今夜的明月托情祈愿吧",
+			say = "Are there other people staring at the same moon, and celebrating? Tonight, I believe there are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便节日的称呼与习俗因文化而不同，但其中蕴藏的情感在深层上是一致的。“中秋”的寓意是怀念同胞、思念亲旧、庆贺团聚吧，这些情感可都是普世皆有的……真希望明年坐在这里的人会比今年更多——",
+			say = "Even though festivals are different from cultures, they are in common in many emotional ways. The meaning of the Mid-Autumn Festival is to miss our family and friends, and to celebrate our reunion. These are universal among all cultures. I wish there would be more people join us next year~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，我的妹妹们、海伦娜的姐姐们……还有过去的朋友、同袍、对手、敌人……如果大家都能来到这里就好了……",
+			say = "Yes. My sisters and Helena's sisters... and all past friends, rivals, enemies... I wish everyone could be here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "酒快喝光了啊……对了！我的老家中秋还有种习俗——博饼，现在人这么多，就权作一项消遣游戏吧！",
+			say = "Are all the wine gone... Oh, yes! There's a custom from my hometown... Cake Game. Let's have some fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "博饼？",
+			say = "Cake Game?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,9 +324,9 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "平海",
+			actorName = "Ping Hai",
 			dir = 1,
-			say = "可是月饼都被我——咳，被大家吃光了呀……",
+			say = "But I ate all the mooncakes... I, I mean we...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "博饼是将骰子投进瓷碗里，凭运气定胜负博取不同奖品的游戏——",
+			say = "Let's roll dices, and the winner gets a mooncake~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔……类似于轮盘抽奖？",
+			say = "Huh... something like a roulette?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "某种意义上倒是差不多，不过奖品一般是各种各样的月饼——唔，月饼没了？那就用花灯做彩头吧！将过去的思念与现在的愿望写在纸上，放入灯中，寄于天上，使它们随着晚风越飞越高，直到世界的尽头……",
+			say = "Yes, they are quite similar. Except the rewards are mooncakes... Did I hear the mooncakes are all gone? Let's use these lanterns then. Write down your wishes on them, then let fly... high to the rim of the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样神明也好、亲友们也好，一定都会听到我们的愿望吧。萨拉托加，你的伙伴们还能飞得动吗？",
+			say = "So that, all your friends, and even God will hear our wishes. Saratoga, are your drunken carriers still capable to fly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！我和姐姐的伙伴们都快等不及了！",
+			say = "Of course! They cannot wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就麻烦你们了~然后，先由懂规则的人来演示一局“博饼”吧——",
+			say = "Many thanks~ Those who know the rules, let's show the others how to play Cake Game~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

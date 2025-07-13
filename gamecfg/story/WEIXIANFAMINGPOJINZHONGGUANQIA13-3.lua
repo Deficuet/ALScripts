@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "在敌人的重围下，撤退之路并非一帆风顺。",
+			say = "However, finding a way out of the encirclement proved difficult.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			actor = 11100060,
 			nameColor = "#A9F548FF",
-			say = "这，这些家伙，是从哪里来的？",
+			say = "Wh-where do these things keep coming from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			actor = 11100050,
 			nameColor = "#A9F548FF",
-			say = "请，请不要靠近我……！",
+			say = "P-please... Stay away from me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "什么？这些家伙怎么会从水面下冒出来？！",
+			say = "What... They came out of the water?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不好……贝法，敌人似乎正试图抓捕俘虏！",
+			say = "This is bad. Head maid, the enemy is trying to capture our guests!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不好，来不及了！",
+			say = "No... It's too late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 11100030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "春菜！古手川！",
+			say = "Haruna! Kotegawa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
-			say = "转瞬间，西连寺春菜与古手川唯就在复制体的裹挟下，从战场上消失了。",
+			say = "It happened in an instant. Haruna and Yui were surrounded by doppelgangers and spirited away in what seemed like no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

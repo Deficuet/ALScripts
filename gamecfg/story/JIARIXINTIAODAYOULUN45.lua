@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>微醺的冰之精灵</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>45 The Sprite's Snapshot</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "来到了娱乐室。",
+			say = "Today, I decide to go to the cruise arcade.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "为了今天的“游戏之夜”，娱乐室明显又重新被好好打扫过。",
+			say = "It has apparently just been cleaned in preparation for tonight's game night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不过……比起娱乐室里的街机，还是坐在休息区的塔什干更为引人注目。",
+			say = "But more eye-catching than all the arcade cabinets is Tashkent, who's sitting languidly on the lounge sofa.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她穿着那天在“变装舞会”时穿过的礼服，斜靠在沙发上。",
+			say = "She's still dressed in her costume from yesterday's costume party.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "同志酱，你终于来了……",
+			say = "Dear comrade, you finally came...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？塔什干在等我？",
+			say = "Hm? Were you waiting for me, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "没错哦……同志酱。",
+			say = "I sure was.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "塔什干要先给同志酱一个大大的拥抱……嘿嘿……",
+			say = "I wanted to give you a biiig hug... Mmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此时我才注意到，她的眼神有些朦胧。",
+			say = "When I approach, I finally notice a soft haze in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,18 +177,18 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一旁小几上的玻璃高脚杯中盛放着某种液体，这无一不是在彰显着——",
+			say = "Add that to the wine glass on the low table next to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "塔什干喝多了？",
+					content = "Do you think maybe you drank a little too much?",
 					flag = 1
 				},
 				{
-					content = "塔什干困了？",
+					content = "Getting a little sleepy?",
 					flag = 2
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唯独这个是不可能发生在塔什干身上的事情，同志酱。",
+			say = "Nah. That would never happen to me... Mmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道说，塔什干是困了么……？既然如此，下次要不要一起去参加睡衣派对？",
+			say = "Maybe consider having a nap? Call it a pajama party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "睡衣派对…这样，塔什干才没有兴趣。",
+			say = "Pajama party? I dunno. I'm not interested.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且塔什干也不是困了。",
+			say = "Besides, I'm not even tired...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她从小几上端起高脚杯，杯中的液体被她一饮而尽。",
+			say = "She picks up the wine glass and gulps down the rest of its contents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "随着少女白皙脖颈的微微收缩，液体被她吞咽而下。",
+			say = "The ice sprite's throat bobs with each little gulp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "哈……",
+			say = "...Mmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同志酱要尝尝看么？饮料。",
+			say = "Wanna drink some, dear comrade? It's just soda.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她说着用手拍了拍沙发的空位，示意我坐到她身边去。",
+			say = "Tashkent pats the couch next to her, urging me to join her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "就在我坐下的时候，塔什干已经又倒了一杯饮料，端到我面前。",
+			say = "I sit down as directed. She refills her emptied glass and then hands it to me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "高脚杯正对着我的杯口，是少女刚刚啜饮时所留下的唇印。",
+			say = "Traces of Tashkent's lip balm are present on the rim.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "同志酱就用这个喝吧，塔什干不会介意的。",
+			say = "Use my glass. I don't mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接过塔什干递过来的杯子，喝了一口。",
+			say = "I accept and take a sip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然真的是饮料……",
+			say = "It really is just soda...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样~同志酱，塔什干没有说谎吧……",
+			say = "Yeah♪ See? I told no lies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "塔什干只是在露天水吧喝了一会儿，然后想起同志酱之前好像很喜欢塔什干这身衣服……",
+			say = "I remembered you told me you liked this outfit when we were drinking at the bar, so I changed clothes and came here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "所以塔什干就又换上了。塔什干知道同志酱今晚会来参加“游戏之夜”，就……",
+			say = "You're joining the game night, aren't you? So...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就一直在这里等我，等到了现在么？",
+			say = "So you waited here for that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塔什干点了点头。不知是因为娱乐室有点热，还是因为别的什么原因，",
+			say = "Tashkent nods silently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女的双颊上晕染出浅淡的红。",
+			say = "Either from the heat of the arcade, or for some other reason, her cheeks are a little flushed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "同志酱不仅来得晚，还质疑塔什干喝多了……",
+			say = "First you get here late, then you accuse me of drinking too much...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……",
+			say = "I'm sorry. That wasn't nice of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "…这样。塔什干不喜欢听同志酱道歉，这样很没有诚意。",
+			say = "Oh, it's okay if you apologize, but I wasn't trying to get you to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女自顾自地说着。处在这样的状态下，她似乎比平日里更加坦率。",
+			say = "Tashkent visibly pouts... She's a lot more candid than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "还是直接惩罚一下同志酱比较好……",
+			say = "You need to be punished, dear comrade...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "惩罚？",
+			say = "Punished?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "嗯……比如让同志酱躺在塔什干腿上，让塔什干给同志酱清理耳朵。",
+			say = "I know... I'll punish you by putting your head in my lap and cleaning your ears for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,11 +637,11 @@ return {
 			},
 			options = {
 				{
-					content = "这是惩罚吗？",
+					content = "That doesn't sound like punishment.",
 					flag = 1
 				},
 				{
-					content = "这种惩罚很好！",
+					content = "You're going to punish me in a way that's good for me...?",
 					flag = 2
 				}
 			}
@@ -655,7 +655,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塔什干说是惩罚，那它就是惩罚。",
+			say = "If I say it is, then it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……原来同志酱是期待这种事的么？这样…塔什干明白了。",
+			say = "Oh, you mean you like that? I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过，再怎么看，塔什干现在的状态都没办法做这种事啊……）",
+			say = "(Now that I really think about it, she's not exactly in a state to be going near any of my orifices.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不要暂时先换一个“惩罚”？等塔什干稍微清醒一点再……",
+			say = "Could you pick something else, actually? Maybe after you sober up a little...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…这样，那好吧。塔什干现在想试试玩街机，同志酱就来做陪练吧。",
+			say = "Oh. Then I'm going to play on the arcade cabinets. Come help me practice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "我们走……",
+			say = "Now, goooo... Mmph.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塔什干从沙发上突然站起，没走两步路，身体就开始摇晃。",
+			say = "Tashkent jumps onto her feet, but before she can take so much as three steps, she starts to lose balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "在她快要倒下的时候伸手接住了她。",
+			say = "I rush to catch her before she falls.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900436,
-			say = "嘿嘿……同志酱……最喜欢……",
+			say = "Mmph... Dear comrade... I love you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,7 +815,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她闭着双眼，双颊的红晕蔓延至了耳廓、脖颈……",
+			say = "She closes her eyes and blushes all the way to her ears and neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（果然还是喝多了啊。）",
+			say = "(Yeah, she's too drunk.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			actor = 900436,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没办法，就抱着她，将她送回房间好好休息一下吧。",
+			say = "Left with no other choice, I pick her up and carry her off to her cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

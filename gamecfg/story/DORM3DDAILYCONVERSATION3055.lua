@@ -17,14 +17,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……听说……海星在这里……找找看……！",
+			say = "{dorm3d}... I heard there are starfish here...! Let's look together...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们一起找找吧",
+					content = "I'd love to.",
 					flag = 1
 				}
 			},
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……会仔细找……给{dorm3d}……",
+			say = "Anchorage... will try hard to find them... as a present for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "作为……礼物……给{dorm3d}的……惊喜……！",
+			say = "A surprise for {dorm3d}...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……说出来……不是惊喜了……",
+			say = "Aww... I said it... Now it's not a surprise anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

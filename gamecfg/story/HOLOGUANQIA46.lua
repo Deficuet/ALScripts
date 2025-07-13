@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-fff",
 			dir = 1,
-			say = "之前的战斗里，对面的军师提到了一个我很在意的东西呢",
+			say = "Come to think of it, that \"Advisor\" person said something about being \"the ruler of time and space.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间与空间的支配者…最初以为是测试怪人给自己起的名字，现在看来是那个…",
+			say = "I thought that was Tester's deal, so why did she...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "DARK FOX BIZZARD！时间与空间的支配者那个帅气的DARK FOX BIZZARD的称号呢！",
+			say = "Shadow Eye Blizzard Fox... why does it feel like I've heard that before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对…就是这个，之前也有过几次来自时间与空间的支配者的传话吧。",
+			say = "Hmm... It doesn't ring any bells, but I feel like I should know something about that \"ruler of time and space.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "难道说……不，不可能吧，那种东西，怎么可能造的出来。",
+			say = "Surely you don't mean... No, there's no way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "肯…肯定是那个名侦探吹雪，随便取了一张卡片的名字而已啦",
+			say = "I-I'm sure it's just the name of a card that the Master Detective person made up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅，完全没有自信呢",
+			say = "Ayanami thinks so too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰隆隆----",
+			say = "RUMBLE RUMBLE RUMBLE! MENACING NOISES!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海底地震…？！",
+			say = "An earthquake...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方发现一个体型巨大敌人突然降落在海面上，正在向我们高速驶来！",
+			say = "Everyone, over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "DARK FOX BIZZARD…Boss出现了！",
+			say = "That's the Shadow Eye Blizzard Fox! ... It's the final boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,9 +202,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "那个测试怪人，真真真真的造出来了？！！",
+			say = "Is that thing Tester's trap card?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "大家不要惊慌！有驱逐舰负责在第一线与敌人纠缠，重火力舰队居中。航空编队拉开安全距离利用空中优势进行打击",
+			say = "Don't panic! We don't know if that thing's an enemy yet. And even if it is, we can't let it stop us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "………这么安排没问题吧？",
+			say = "Because I have to face myself, because it's my reflection in the mirror - I have to accept reality and move forward without running away from it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然都是些书本知识…看来之前你要去的作战资料没有白要呢",
+			say = "...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "哎嘿嘿，有些指挥官的风范了么~",
+			say = "That's why... Kawakaze, don't worry about me! I'll be okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "庆祝的话等到把敌人解决掉再说",
+			say = "That's right...! Right now... you should be true to yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "嗯！不论即将面对多么艰苦的战斗，只要集合起所有存在于此处的同伴和远在彼方同伴的力量…",
+			say = "Mhm! No matter how hard the battle gets, if you think about all your friends - not just the ones here, and gather their power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "只要有这份连接起来的羁绊在，我们就一定会胜利的！",
+			say = "As long as the bond between all of us remains unbroken, we'll definitely find a way to win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

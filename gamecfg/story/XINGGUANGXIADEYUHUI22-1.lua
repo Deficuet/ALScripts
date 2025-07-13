@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "激荡的海面上，{namecode:540:Z52}潇洒地游走在天外之兽间。",
+			say = "Z52 dashes bravely through the herd of extradimensionals.",
 			bgm = "battle-ironblood-defence",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"永恒之星·内部",
+				"Floating Boat",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "我也放弃了量产型指挥舰，选择乘坐浮空快艇与{namecode:540:Z52}一同高速冲刺着。",
+			say = "I switch from the warship and board a high-speed boat, following her wake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
-			say = "雷火之心爆燃模式，开启！",
+			say = "Thunderheart, burst!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "似乎是对战场的变化有所察觉，天外之兽群咆哮着伸出了触手，试图在水面之上构建阻碍屏障。",
+			say = "Sensing a change in the battle, the extradimensionals extend their feelers to try to cut off our path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
-			say = "哼，太慢了~",
+			say = "Too slow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
-			say = "爆燃吧，雷火之心！",
+			say = "Thunderheart, burn and send 'em flying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "尚未成型的阻碍顷刻间被突破了。",
+			say = "She breaches through the wall of tentacles before its completion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "嗡——",
+			say = "BZZZZT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "空间中出现了某种奇异的响声，心跳、甚至浮空快艇的引擎都因此停转了一拍。",
+			say = "A strange sound suddenly rings out, and for an instant, it feels like the boat's engine and my heart completely stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,20 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "不过这种感觉转瞬间便消失了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_cg_6",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "哦？急了么……",
+			say = "The next moment, though, that sensation vanishes like it was nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +258,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来作战策略是没错的……",
+			say = "I felt that. The enemy's feeling pressured.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +271,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你先别急，马上来会会你。",
+			say = "That means our plan is working.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_cg_6",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Relax. I'm not going anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "目标近在咫尺，飞剑龙群——出击！",
+			say = "Almost at the target! Pterosaurs, go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "飞剑龙无人机群扫清了最后的障碍，带我径直飞进了入口中。",
+			say = "The drones scatter the incoming enemies and carry off my boat into the Eternal Star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来……该回去与大部队汇合了。",
+			say = "Z52, regrouping with original fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望你的计划能成功……",
+			say = "Here's hoping this will work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官——加油！",
+			say = "Good luck, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

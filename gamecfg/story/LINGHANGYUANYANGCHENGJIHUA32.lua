@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "就这样，TB的“个性”培养计划暂时告一段落——",
+			say = "At this point, the project's primary goal of cultivating a personality for TB has been achieved.",
 			bgm = "story-richang-quiet",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "不过{namecode:98}说过，TB会因此走上不同的职业道路……",
+			say = "In the second stage, TB will have chosen a career based on how I raised her, according to Akashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "现在的她，会成长为怎样的模样呢？",
+			say = "I wonder what she's like now that she's grown even more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

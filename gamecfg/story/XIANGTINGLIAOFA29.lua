@@ -12,7 +12,7 @@ return {
 			side = 0,
 			bgm = "battle-boss-4",
 			dir = 1,
-			say = "终于到面对面的距离了，还记得我么，没想到这么快又见面了吧！",
+			say = "There you are! You beat my ass hard last time, but that ain't gonna happen again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前袭击的时候为了保护纽约港把你们放跑了，今天可没这么多顾虑了！",
+			say = "You got away earlier because we had to prioritize defending the harbor, but now we have you just where we want you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鉴于你的事迹，本来还以为能作为盟友争取一下……",
+			say = "I thought we could maybe become allies after you rescued North Carolina and company, but in light of what you did...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到真的和塞壬是一丘之貉啊，“神秘人”先生！",
+			say = "What you did - attack NY City - is unforgivable! We should've known better; you're no different from the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么强大的电磁场，果然和在北方海域时一样，我本来以为…",
+			say = "Though at first glance they seem different, the electromagnetic readings emitted by the storm in the Bermuda Triangle are identical to those of the Winter's Crown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在看起来，“王冠”本来就是你的杰作吧！",
+			say = "That incident was your doing as well, wasn't it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,9 +132,9 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			bgName = "bg_xiangting_cg1",
-			actorName = "胜利",
+			actorName = "Victorious",
 			dir = 1,
-			say = "企业！！！",
+			say = "Enterprise!",
 			effects = {
 				{
 					active = true,
@@ -152,11 +152,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要过来！！",
+			say = "Stay out of this!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此时此刻的你在想什么呢，企业？",
+			say = "What are you thinking, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,12 +183,12 @@ return {
 			}
 		},
 		{
-			actorName = "企业",
+			actorName = "Enterprise",
 			nameColor = "#a9f548",
 			bgName = "bg_xiangting_cg1",
 			side = 0,
 			dir = 1,
-			say = "……为什么不对她们的问题做出解释？",
+			say = "... Why won't you answer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我曾经一直想尽可能的避免与你见面，但是，你们却还是愚蠢的被安蒂克丝给骗了。",
+			say = "You were the one person I hoped never to encounter. But, in the end, you're just a lifeless puppet being controlled by Antiochus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,23 +220,7 @@ return {
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "甚至还主动把“她”送到了我的眼前。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 0,
-			actorName = "企业",
-			bgName = "bg_xiangting_cg1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "………？",
+			say = "You've even brought \"the Key\" right into my hands...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,75 +232,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…全员警戒，保护好指挥舰，她的目标是指挥官！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			actorName = "？？？",
-			bgName = "bg_xiangting_cg1",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "放心，我不会对“她”下手的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			actorName = "？？？",
-			bgName = "bg_xiangting_cg1",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "至少，在“她”醒来能回答我的问题之前…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "企业",
-			nameColor = "#a9f548",
-			bgName = "bg_xiangting_cg1",
-			side = 0,
-			dir = 1,
-			say = "你究竟是敌是友？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 1,
-			actorName = "？？？",
-			bgName = "bg_xiangting_cg1",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "……",
+			say = "Anti...ochus? Key...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,11 +248,91 @@ return {
 		},
 		{
 			side = 0,
+			actorName = "Enterprise",
+			bgName = "bg_xiangting_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... Everyone, protect Commander! It's not us she's after!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 1,
+			actorName = "？？？",
+			bgName = "bg_xiangting_cg1",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "... That's not why I'm here. I am not here for the Key...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 1,
+			actorName = "？？？",
+			bgName = "bg_xiangting_cg1",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "At least not until I've brought someone close to me back.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Enterprise",
 			nameColor = "#a9f548",
 			bgName = "bg_xiangting_cg1",
-			actorName = "企业",
+			side = 0,
 			dir = 1,
-			say = "快回答我！",
+			say = "You haven't answered my question! Are you friend or foe?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 1,
+			actorName = "？？？",
+			bgName = "bg_xiangting_cg1",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "... ... ...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			nameColor = "#a9f548",
+			bgName = "bg_xiangting_cg1",
+			actorName = "Enterprise",
+			dir = 1,
+			say = "ANSWER ME!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -348,10 +348,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			actor = 107030,
 			side = 2,
+			nameColor = "#a9f548",
+			say = "Enterprise!",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————！",
 			flashN = {
 				color = {
 					1,
@@ -399,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			actor = 107060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业！！！",
+			say = "I'm okay, but stay alert, everyone! Enemy reinforcements, incoming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,22 +420,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我，我没事，这是从远距离打来的炮弹，全员戒备炮击！敌人不止一个！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……！！",
+			say = "... Gah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,9 +450,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_xiangting_cg4",
-			actorName = "企业",
+			actorName = "Enterprise",
 			dir = 1,
-			say = "？？？这是…",
+			say = "What is this...?!",
 			effects = {
 				{
 					active = false,
@@ -483,11 +470,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“既视感”……",
+			say = "Where am I...? What happened...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +490,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我说过了，不要在这个时间奇点发生没必要的接触。",
+			say = "I've warned you about making unnecessary contact with others in this timeline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +506,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我会帮你拖住她们的，去完成你该做的事。",
+			say = "I shall hold them back. You... should know what to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +522,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那么，之后就拜托你了。",
+			say = "... Appreciate it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +538,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			side = 1,
 			dir = 1,
-			say = "人数众多，小心为战。",
+			say = "... There are a lot of them. Be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +554,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明白。",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,11 +566,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "企业",
+			actorName = "Enterprise",
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想就这么逃走了，快告诉我…",
+			say = "Where do you think you're going?! Come back! Answer me...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +586,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们目前还不配与她交手。",
+			say = "You have no right to face her yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +602,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "看着眼前的敌人！对，吾辈将作为你们的对手！",
+			say = "I am Ember. I am residue, born from an exhausted flame. But my resentment of humankind still burns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +618,7 @@ return {
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "究竟这个时间奇点和其他的比起来有什么不同，就让我见识一下吧！",
+			say = "Come! I shall appraise the strength of you beings from this timeline!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

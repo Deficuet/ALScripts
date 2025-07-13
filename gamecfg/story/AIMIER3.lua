@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>三 意外的特长</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 3 - Hidden Talent</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,9 +49,8 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
-			say = "指挥官，我又来借埃米尔了喵！",
+			say = "Commander, I need to borrow Émile from you again, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,14 +72,14 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……{namecode:98}这已经是本周的第三次了",
+			say = "... For the third time this week? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问理由",
+					content = "Ask Akashi what she needs her for",
 					flag = 1
 				}
 			}
@@ -89,9 +88,8 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
-			say = "自从埃米尔当了店员，这个月的营收终于…简直是奇迹喵",
+			say = "My sales for this month have miraculously increased thanks to Émile helping out at my shop, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？我有做什么特别的事情吗？",
+			say = "Huh? How is that thanks to me?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -134,9 +132,8 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
-			say = "埃米尔是大好人喵～给大家带来帮助的天使喵～",
+			say = "Because you're a nice person, nya! You're an angel, nya! You're always helping everybody out, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～？难道是帮忙看店的时候，顺道给 {namecode:15}带了带路，还有帮黑暗界照看了一会妹妹…这类的？",
+			say = "Really...? But the last time I substituted for you, all I did was show Shiratsuyu around, looked after Terror on Erebus' behalf...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是很平常地帮帮需要帮助的伙伴们而已呀，剩下的…就只有跳舞了吧，啊哈哈…",
+			say = "... gave advice to some friends of mine, and showed off some of my dance performances. I'm pretty sure that's all I did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,9 +179,8 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
-			say = "就是这个喵！大家在得到埃米尔帮助，或者看完埃米尔的舞以后，都会来{namecode:98}这里光顾喵！",
+			say = "That's exactly it, nya! You're helping everyone out, nya! And they show their gratitude by shopping at my store, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +196,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～是吗？我觉得还挺普通的呢，舰队里的大家平时也会互相帮助不是嘛",
+			say = "D-do they...? I'll always help a friend in need, that's all it is. I don't do it so that they'll feel indebted to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,9 +210,8 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "因为埃米尔小姐总是能发现大家想要什么，而且总能以不会让人尴尬的方式去满足大家。",
+			say = "That is because you are always able to discern what it is a person wants, and you know how to help them with it in a capable manner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:20}不知道什么时候也出现了",
+			say = "Suddenly, Shiranui popped up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，被人这么一说其实有点害羞呢~",
+			say = "It sounds quite embarrassing when you describe it like that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,9 +251,8 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "不用谦虚，毕竟我也是来请你帮忙的",
+			say = "Please, you need not be so humble. I, too, am indebted to you.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -276,9 +270,8 @@ return {
 			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "喵！？{namecode:20}从哪里冒出来的喵？不要抢我的埃米尔喵！",
+			say = "Nya?! Where the heck did you come from, nya?! If you came to try to steal Émile from me then get lost, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,9 +285,8 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "嘁…总之埃米尔小姐的本领是货真价实的，看我们最近的营业额就知道了",
+			say = "Bah... In any event, Émile's talent to sell products is undeniable. She need only see our recent increases in sales to understand her influence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,9 +300,8 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "所谓的治愈系？说实话，在一边看着的我都感觉要被净化成佛了…",
+			say = "Indeed, one could call her very presence therapeutic. Even I felt as though I may ascend to the heavens when observing her, even from afar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +317,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…哪有{namecode:20}说的这么夸张啦，不过既然如此，我就两边都帮帮忙好了，指挥官，可以吗？",
+			say = "Please, I'm not THAT amazing! Still, if you think my contributions matter so much, then how about I watch both of your stores for a while? Would that be okay, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "答应",
+					content = "Agree to her proposition",
 					flag = 1
 				}
 			}
@@ -347,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "之后也去店里围观一下身为看板娘的埃米尔吧",
+			say = "I guess I should go check on her later when she's shopkeeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

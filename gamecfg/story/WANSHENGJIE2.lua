@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其二　Gold、开始行动</size>",
+					"Witches' Eve II\n\n<size=45>「Gold, Ready Set Action」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还用说！那个“恶作剧之日”快到了呀！",
+			say = "Without even noticing, the “day of mischief” is fast approaching!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，重樱的少女们啊，你们就好好期待那天吧！",
+			say = "Haha, you girls from the Sakura Empire are highly anticipating the day, aren’t you!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "气氛好像更紧张了……{namecode:6}，你怎么看？",
+			say = "The atmosphere seems to be more tense than last year... {namecode:6}, what do you think?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -118,7 +118,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "总不会是和白鹰开战……",
+			say = "It’s not like as if we’re going to start a battle with the Eagle Union...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -138,7 +138,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "哎哎哎——！",
+			say = "Ack——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "没错！储蓄食物，准备“捣乱”，这是再明显不过的战争讯号！",
+			say = "That’s right! Let’s start rationing supplies and practice our “pranks”, these are clear signs of war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "如果要开战，她们不会隐瞒我",
+			say = "If there is indeed a war coming, you girls aren’t hiding it from me, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "那、那是为了防止走漏风声……对了，去找“她”商量一下吧",
+			say = "O that, that’s to prevent the intel from getting leaked… which reminds me, go find “her” to discuss about that thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "海~伦娜，吾来啦",
+			say = "He-le-na~~ I am comingggg~!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -234,7 +234,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "等、等等——！！你们就不懂得进门之前先敲门吗！",
+			say = "W-wait, waitt!! Don’t you all ought to knock on the door before entering!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "吾们这次带来了大情报——要开战了！",
+			say = "We’ve got vital intel to report—— we’re going to war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！？",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此，恶作剧和南瓜灯都是万圣节的习俗吗……",
+			say = "Say… are pulling pranks and carving pumpkins both traditions of Halloween?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -317,7 +317,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "其他的还有糖果之类的，{namecode:96}应该会用天妇罗代替糖果吧，她喜欢吃天妇罗",
+			say = "Other Halloween customs include giving out candies. Although, perhaps {namecode:96} should give out tempura instead, since she likes to eat tempura.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -336,7 +336,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过克利夫兰倒是更中意南瓜派",
+			say = "Cleveland, however, seems to be more focused on pumpkin pies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "海伦娜，你手中的“那个”是？",
+			say = "Helena, what’s “that” in your hands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……万圣节还有一项习俗是大家打扮成鬼怪的形象游玩。我想给克利夫兰一个惊喜，一直在偷偷缝制她的万圣节服装……这件事绝不要告诉她噢",
+			say = "...One last tradition for Halloween is to dress up in costumes, such as ghosts. Therefore, I’ve been secretly sewing this Halloween costume for Cleveland. I want it to be a surprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "克利夫兰也能参加“Trick or treat！”？",
+			say = "Cleveland will also be joining us for “Trick or treat”?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，当然可以啊",
+			say = "Oh, of course, she will be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "……你只做了这一件衣服吗？",
+			say = "…Did you only make this one costume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，因为得瞒着克利夫兰，这件衣服恐怕都得当天才能完成，实在没有时间再为你们……",
+			say = "Sorry, because I want it to be a surprise for Cleveland, so it won’t be ready until Halloween day. And I won't have time to prepare more for all of you....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "实际上，吾前几天收到了一件类似的服装……",
+			say = "Actually, I’ve received a similar outfit in the mail a few days ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "喂，这次决斗如果我赢了，就帮我个忙！",
+			say = "Hey, if I win the duel this time, then you gotta help me!",
 			flashout = {
 				black = true,
 				dur = 1,

@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：指挥官，前方海域出现未知强敌，塞壬区域封锁装置正在自动解除中。",
+			say = "This zone’s blockade device has been lifted. I’m detecting a strong Siren presence ahead. Please be careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "准备战斗",
+					content = "Let’s get ready for battle.",
 					autochoice = 1
 				}
 			}

@@ -15,15 +15,15 @@ return {
 			bgm = "battle-deepecho",
 			sequence = {
 				{
-					"分队代号「孤狼」",
+					"Wolf Unit",
 					1
 				},
 				{
-					"旗舰：库尔斯克",
+					"Flagship: Kursk",
 					2
 				},
 				{
-					"楚科奇海要塞周边·塞壬临时防线外围",
+					"Objective: Scout the region",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "即将接近危险区域……舰队停止航行。",
+			say = "The region up ahead is extremely dangerous. Stop for a moment.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "巨大的云层遮蔽了天空，似乎正酝酿着一场猛烈地暴风雪。",
+			say = "Layers and layers of dark clouds covered the sky, blotting out the sun and heralding the arrival of a great snowstorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "云层之下的远方，依稀可见露出水平面的塞壬浮岛要塞群。",
+			say = "On the horizon, just as far as the eyes could see, was a structure that looked to be a Siren facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "前方就是塞壬的楚科奇海要塞，清除者极地防御体系的重要组成部分之一。",
+			say = "The Sirens' floating fortress, one of the pillars of Omitter's Polar North defenses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "情报已经证实，过去出现在极地海域的诸多极端天气均和此处要塞有关。",
+			say = "Intelligence has confirmed that the weather control device, the cause of the frequent abnormal weather in this polar sea, is there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "负责这座要塞的，是基洛夫同志？",
+			say = "Kirov is handling that one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "没错。根据计划，基洛夫同志所带领的「镰鼬」分队将负责此处要塞的攻略任务。",
+			say = "Yep. According to the plan, Kirov's Weasel unit should be attacking that fortress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "但是战斗还没开始。",
+			say = "So the battle has yet to begin.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "也许是在路上遭遇到塞壬的抵抗舰队了吧。",
+			say = "They must be fighting some Siren patrols they ran into along the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "毕竟与我们不同，她们的舰队在明处，遭受到的阻力也更大。",
+			say = "Unlike us, they have tons of mass-produced ships. They're not exactly going to be stealthy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "嗯。可惜没法借助混战从此处穿行了。",
+			say = "I was hoping to slip through in the confusion of battle. Shame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "伏罗希洛夫同志，启动「曙光航标」，我们重新规划航线。",
+			say = "Voroshilov, activate the Light of Dawn. We'll adjust our route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "了解，正在启动航标————",
+			say = "Got it. Activating now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "……奇怪，目标的位置……变动了？",
+			say = "Wait... Our objective's coordinates changed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "变动了？",
+			say = "They changed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "诶！难道是仪器出现故障了么！",
+			say = "Are we sure this device is working?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "无法确定。",
+			say = "It was made based on the documents Comrade Commander recovered, so it should be more reliable than most of the toys we get from the higher-ups.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "本次行动确实是「曙光信标」的首次实战应用，不过目标并没有消失，只是位置发生了变动。",
+			say = "Either our objective has changed coordinates, its relative position to us has changed, or another abnormal wavelength has been detected nearby.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "或许是随着我们的移动……距离我们更近的地方出现了新的异常点而被优先标记出来了。",
+			say = "The device only detects the flow of energy, so it's kind of natural that it's not the most reliable thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "……只能标记出最近处异常点的装置真不方便。",
+			say = "So our only course forward is to thoroughly check every anomalous coordinate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "毕竟我们要寻找的是塞壬隐藏在海域里的秘密……",
+			say = "Yeah. That just goes to show how hard it is to proactively investigate Siren secrets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "能有这样的仪器已经是科研部门能为我们提供的最大支持了。",
+			say = "Honestly, I'm happy just to have a device that leads us to any possible clues.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703020,
-			say = "我明白。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705070,
-			say = "唔……新的异常点看上去不在塞壬要塞周边，要不然去那边看看好了？",
+			say = "So? It seems like the closest coordinates aren't those of the floating fortress. Should we start there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702070,
-			say = "嗯，调查信号异常点是我们的唯一目标，不能放过一处。",
+			say = "Yep. As planned, we'll investigate any unusual wavelengths that the device finds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "调整航线，我们走。",
+			say = "Changing course. Let's go.",
 			painting = {
 				alpha = 0.3,
 				time = 1

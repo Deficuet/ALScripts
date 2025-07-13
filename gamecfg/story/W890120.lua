@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进入塞壬实验场后，舰队正在运输的物件（比如能源矩阵）将会消失。",
+			say = "All devices in your possession will be lost when you enter a Siren Research Facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Continue anyway.",
 					flag = 0
 				}
 			}

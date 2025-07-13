@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>灰烬与宝石</size>",
+					"Uncharted Summer\n\n<size=45>Of Mining and Crafting</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "岛上那座高耸的火山是如此醒目，去调查一下吧——",
+			say = "The giant volcano has caught my eye since we set foot here. I decide to go check it out.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔？指挥官也是来调查火山的么？",
+			say = "Oh, Commander. Did you want to explore the volcano too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在山脚下遇到了正蹲在地上仔细调查着什么的{namecode:6}。",
+			say = "At the volcano's foot, I run into Ayanami. She's squatting, looking intently at something on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然很令人在意啊，有火山分布的区域……",
+			say = "Volcanos have a way of drawing people closer, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能有一把钻石镐就好了……",
+			say = "If only I had a diamond pickaxe right about now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,11 +126,11 @@ return {
 			},
 			options = {
 				{
-					content = "要用镐子收集石头么？",
+					content = "\"To gather stone for the camp?\"",
 					flag = 1
 				},
 				{
-					content = "首先要有制作台才行",
+					content = "\"You'd need a crafting table first.\"",
 					flag = 2
 				}
 			}
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不是普通的石头，而是矿石。",
+			say = "Not stone, per se, but minerals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "这是我刚刚找到的，送给指挥官。",
+			say = "I found this one just a minute ago. You can have it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哇噢，指挥官很懂嘛！",
+			say = "Yes, exactly! Your game knowledge is up to scratch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "收集木材的事我已经拜托标枪了。",
+			say = "I've already asked Javelin to gather the wood for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "然后用木稿去挖石头，石稿去挖铁，铁镐去挖钻石……",
+			say = "I'll use that to make a wood pickaxe, mine enough iron to make an iron pickaxe, then use that to mine for diamonds...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "……用不了几天，我们能在岛屿上修建出富丽堂皇的宫殿了。",
+			say = "Give it a few days, and I'll have enough materials to make a palace fit for a king.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "当然，还有四通八达的地下交通线……",
+			say = "With tons of underground passages, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "对了，这是我刚刚找到的，送给指挥官。",
+			say = "Oh, by the way, I found this mineral just a minute ago. You can have it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "{namecode:6}递过来的是——一小块黑曜石。",
+			say = "She hands me a small shard of obsidian.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为没有挖掘工具，能找到的只有这样留在地表的小块……",
+			say = "Little fragments like this are all I can get at the moment, since I don't have a way to mine...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是很漂亮，一会可以用来点缀我们的海岛帐篷。",
+			say = "Although they are small, they're still dazzling. I'm gonna decorate my tent with them later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "黑曜石确实是会在火山活动中形成的漂亮的宝石，看起来……这座火山曾经喷发过？",
+			say = "\"It is quite the gem. No pun intended. Also, this volcano must've erupted at some point for there to be obsidian lying around.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这么说来，这一片除了黑曜石之外，也许还会有别的宝石。",
+			say = "\"There's a high likelihood there are other kinds of minerals and gemstones to be found here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:6}也是这么觉得的……指挥官，我们再在山脚调查一下吧。",
+			say = "Yes, I think so too. Should we take a look around together?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "和{namecode:6}一起搜寻了一会漂亮的宝石，而后沿着原路离开了这座火山——",
+			say = "Ayanami and I briefly search the area for materials before we retrace our steps back to camp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

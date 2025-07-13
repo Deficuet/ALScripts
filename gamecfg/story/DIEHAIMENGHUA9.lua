@@ -15,7 +15,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "还不够，这种程度还远远不够！……妾身的力量，应该远不止这种程度才对！",
+			say = "\"Why... This body should be capable of so much more...!\"",
 			flashN = {
 				color = {
 					1,
@@ -68,8 +68,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "无趣……",
+			actorName = "Tester",
+			say = "How dull... Is this really all that the mighty \"Shinano\" is capable of?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "{namecode:83}级船体改，{namecode:182}号装甲航母。原本被视为重樱的希望而被建造出来，实际上的数据只是这种程度么。",
+			actorName = "Tester",
+			say = "Converted Yamato-class hull, armored aircraft carrier Shinano. You were built to represent the hope of the Sakura Empire, but your actual performance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "区区测试者而已……妾身已经与你进行过无数次对局了！",
+			say = "\"Tester... This one has faced you countless times...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "进行过无数次的对局？这应该是我要说的台词才对。",
+			actorName = "Tester",
+			say = "Is that so? That was supposed to be my line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +136,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "真正的实验，需要可靠的数据，严谨的建模，以及大量的计算。你所依靠的不过是虚无缥缈的幻想而已。",
+			actorName = "Tester",
+			say = "Real experiments require reliable data, rigorous modeling, and a large amount of calculations. What you rely upon is nothing but a fantasy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}大人，您位置太靠前了！快退回来！",
+			say = "Lady Shinano, you're overextending! Get back into formation, quickly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不……这样才是正确的，只有这样才能在测试者放松警惕的时候抵达它脆弱的部分！",
+			say = "(Nay... This is the correct way. Only this way will Tester let her guard down and reveal her vulnerability!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "Tester",
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "嗯？居然直接攻击这个地方……",
+			say = "Hm? Is this what you're aiming for?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -253,7 +253,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "观察到测试者的主炮受损，敌方攻击频率下降了！",
+			say = "I've confirmed that Tester's main battery has been damaged, and her attack frequency has decreased!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后是能量的供应模块，妾身记得是在……",
+			say = "(Next, the energy supply module... If I remember properly...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_mirror",
-			say = "轰————————————！",
+			say = "KABOOM——!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -340,7 +340,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "潜艇的袭击？！怎么可能…？究竟什么时候从哪里……",
+			say = "(Submarines?! Impossible... When did they... Where...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,8 +356,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "战场需要的不是无纪律的匹夫之勇，重樱的命运也不会因为你一人的行动而改变。",
+			actorName = "Tester",
+			say = "Reenactment concluded. I'm glad you came here, Shinano, but know this. Your actions alone will never change the fate of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,8 +373,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "……测试结果录入，{namecode:182}的结局没有发生任何改变。",
+			actorName = "Tester",
+			say = "...Data entry complete. And upon this timeline... nothing will change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 2,
-			say = "什么…？就这么草率的？！",
+			say = "(What... It can't be... I...)",
 			bgm = "bsm-2",
 			flashout = {
 				black = true,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，妾身还不能在这里结束……好不容易才醒来，明明一切都才刚刚开始！",
+			say = "(I saw the dreams many times... what was going to happen... I had awoken...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明妾身还什么都没有做啊…",
+			say = "(How could this life amount to so little...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会这样，这种事也，太不讲道理了……………………",
+			say = "(This fate... is too cruel.........)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

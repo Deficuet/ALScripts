@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区附近海域",
+			say = "In a sea area close to Port...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻，呼…各位～！还差一点就到港区啦。虽然大家都很累了，不过再咬咬牙加把劲哦！",
+			say = "Phew...! Hey guys~! We're almost back home. It's been pretty rough, but let's hang in there a bit longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“玩”了这么长的时间，电池也快没电了吧？{namecode:13}倒是还能继续就是了！",
+			say = "Looks like my battery's in the red from \"playing\" too much? But I have enough juice to last another stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:14}也没问题。就这样继续前进吧",
+			say = "No problem here. Let's keep it up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…呼…能、能不能…稍微休息一下？",
+			say = "*pant* *pant*... Can... Can we rest for a minute...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，没事吧？拉菲…看来似乎还能继续航行一会，的说",
+			say = "Z23, are you okay? Looks like... Laffey is doing fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轻松",
+			say = "Easy-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~~还是休息一下好了，勉强自己是大忌！{namecode:408}就先好好休息一下吧！",
+			say = "Hmm... I suppose we should take a break, overexerting yourself is not allowed! Zed, take your time and rest up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢你，标枪",
+			say = "Thanks... thanks a ton, Javelin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "休息时间，好闲，拉菲去散散步…",
+			say = "Sitting around is boring, so I'll be right back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，要小心…的说",
+			say = "Laffey, please be careful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}也想去“杀时间”一下！",
+			say = "Time to... kill some time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}去的话，{namecode:14}也一起去吧",
+			say = "If Ikazuchi is going, I'll tag along as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们三个要小心哦！差不多到时间就尽快回来！",
+			say = "Take care, you three. Make sure to get back before break time is over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到～",
+			say = "Got it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "……有人在那……？",
+			say = "... Is someone there...?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -297,7 +297,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊噗噜噜噜、救、救命噗噜噜噜噜！要、要淹死了！",
+			say = "Abfffft... *glug* *glug* Someone... help meeeeEEEE!! Anyone!! I'm, I'm drowningggg!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是“遇难”吧！",
+			say = "I see, I see! So this is what \"thanatophobia\" looks like!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在不是说这种话的时候吧。要去救援咯",
+			say = "Now's not the time to be saying stuff like that. Let's go help her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "噗噜噜噜噜……（咦？说起来我是AI应该不用呼吸才对吧！）",
+			say = "*gurgle* *gurgle* *blub* ... (Huh? Come to think of it, I'm an AI, so do I even need to breathe?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！？糟糕了，不动了！",
+			say = "!? Crap, she's not moving anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快、快救人！",
+			say = "H-Hurry up and save her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "哗——！",
+			say = "SPLAAAAASHH~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "拉菲全速前进，把穿着粉白色衣服的神秘人从海里捞了出来。",
+			say = "In a blur, Laffey dove into the water and pulled out a mysterious figure clad in pink and white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没事吧？还活着？",
+			say = "... Still alive? Hello...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢你呜呜呜！救了我一命——！",
+			say = "Thank youuuuuuu! You saved my life~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……拉菲酱！？",
+			say = "Huh...? Laffey-chan?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好高兴——！没想到居然能遇到真正的拉菲酱——！（抱",
+			say = "Ahh, I'm so happy! I never thought I'd get to meet the real Laffey-chan! *huuugs*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "认识拉菲…？拉菲，你在哪里和她认识过吗？",
+			say = "You know who Laffey is...? Laffey, have you met this person before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（一边被蹭着脸）拉菲，不认识……",
+			say = "(Her cheeks are being rubbed against) Don't have a clue...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶诶诶！骗人的吧！？难道你忘了吗！和我一起越过重重磨难的那些日子！",
+			say = "Ehhhhh?! You're kidding!? We overcame so many hardships together! Did you forget?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "记忆混乱…？这个人是不是陷入了“Punic”状态了？",
+			say = "Her memory seems to be fried...? Did she go into Panic Mode?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来连舰装都没有，应该也不是敌人……为了确认下状况，跟标枪她们合流以后，带着她一起回港区看看吧？",
+			say = "She doesn't even have riggings, so at least I don't think she's an enemy. Even if it's just to figure out the situation, why don't we join up with Javelin and bring her back with us to the base?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样办…别哭了，跟我们走吧",
+			say = "Okay... Stop crying, and follow us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…冷静下来了吗？",
+			say = "Have you calmed down a bit?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -669,7 +669,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，没事了。谢谢拉菲酱♪简而言之，就是不知怎么的，我穿越到了碧蓝航线的世界来了对吧",
+			say = "Mmhm, I'm fine now. Thank you, Laffey-chan♪ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本来就想着总有一天要见到真正的大家～这下算是实现愿望了呢！",
+			say = "I was just thinking about how much I wanted to meet all of you in person~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是所谓的“异世界召唤”了吧！",
+			say = "I see, I see! So this is that \"summoned from another world\" trope!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“第四面墙”之类的……？",
+			say = "Talking about the \"fourth wall\" again...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -738,7 +738,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是说…什么意思？？",
+			say = "In other words... what are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不可以太过深究{namecode:13}和{namecode:14}的发言”，这是{namecode:11}经常说的",
+			say = "Akatsuki once said, \"Never take anything Ikazuchi and Inazuma say seriously.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我还没自我介绍过吧！我的名字是绊爱！你们叫我爱酱就可以了哦！",
+			say = "Ah, I haven't introduced myself yet! My name is Kizuna AI! You can just call me AI for short!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实际上我是高智能的超级AI哦！在原本的世界被称为“虚拟Youtuber”，投稿了许多动画呢——",
+			say = "Actually, I'm an intelligent super A.I.! In my original world, I was a \"Virtual YouTuber,\" and I posted a lot of videos-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请多指教，绊爱…虚拟Youtuber？听起来…有点帅",
+			say = "It's a pleasure, AI... What's a \"Virtual YouTuber?\" It sounds... really futuristic, maybe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐，请多指教了。话说回来，在发现爱小姐的地方还回收了这个漂浮着的像是箱子一样的东西，这个也是跟着爱小姐一起被召唤来的的东西吗？",
+			say = "Miss AI, it's a pleasure to meet you. Come to think of it, we picked up this box-like thing from near where we found you. Perhaps it was summoned here along with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "粉白色的箱子，上面还写着…“R”的说？",
+			say = "It's white and pink... and has an \"R\" written on it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！随机单词生成器——！也跟着我一起来到这个世界了吗！？",
+			say = "Ah! The random word generator~! It followed me here as well?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“suijidancishengchengqi”？这个也是爱酱世界的东西吗？是做什么用的呢？",
+			say = "\"Random word generator?\" Is this something from your world as well, AI-chan? What's it for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，很想看，怎么用的",
+			say = "I... want to see how it's used...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼～既然都说到这份上了，就给你们演示一下吧！锵咔锵咔锵咔～锵！",
+			say = "Heh heh heh~ since you're all so curious, I'll have to show you for myself! Jakajakajaka~jan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……诶？奇怪了，没有生成…我重来一次哦！嘿！（晃）嘿！（摇）",
+			say = "Huh...? How strange, nothing happened at all... Let me try this again! Hiya! *slap!* Hiya! *bang!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
-			say = "砰！",
+			say = "BOOOOMM~!! Pshhhhhhhh~!",
 			flashN = {
 				color = {
 					1,
@@ -986,7 +986,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哇哇！？真的不是故障了吗！？从里面冒出好多浓烟了啊！？",
+			say = "Wh-woah!? Did it malfunction? There's so much smoke coming out of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！？有什从里面出来了！小心！",
+			say = "!? There's something coming out of it! Watch out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,8 +1019,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900179,
-			actorName = "绊爱？",
-			say = "………",
+			actorName = "Kizuna AI?",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1036,7 +1036,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有两个爱酱！？危险！打过来了！",
+			say = "There are two AI's now?! Watch out! She's coming at us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1051,7 +1051,7 @@ return {
 			side = 2,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
-			say = "咚！",
+			say = "--------BADOOOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -1099,7 +1099,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！冒出来的爱被谁一击打倒了的样子",
+			say = "Who was that? They took her out in one shot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,7 +1115,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，各位，没事吧？",
+			say = "Ayanami! Are you all uninjured?",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -1133,7 +1133,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:66}酱～～～～！谢谢～～～～！（抱",
+			say = "TA-KAO-CHWAAAAN~!! THANK YOUUUUUU~! *glomps*",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1153,7 +1153,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕唔！？是新的敌人吗！？",
+			say = "Hnn...?! A new enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1169,7 +1169,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是，抱住你的这个应该是好的爱酱",
+			say = "No problem over here. That's the good Kizuna AI, probably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,7 +1185,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这个箱子坏了的话，该怎么修理呢……",
+			say = "But, how are we supposed to fix this box...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "百忙中打扰了喵～这个箱子的调查在指挥官的命令下，就交给科研部门了喵～",
+			say = "Sorry to bother you when you're all busy, nya~ Commander has assigned the investigation of this box to the Research Department, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1218,7 +1218,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "困难时刻提供帮助的猫神大人出现了━━━━ლ(´ڡ`ლ)━━━━!!",
+			say = "HELPFUL CAT GODDESS!! TIMES OF NEED!! COME!!! ━━━━ლ(´ڡ`ლ)━━━━!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1234,7 +1234,7 @@ return {
 			bgName = "bg_story_ourdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵！？不要突然抱过来喵！",
+			say = "Unya?! Don't hug me all of a sudden, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1260,7 +1260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她说这个“随机单词生成器”似乎能连接到许多不同的空间",
+			say = "We've hypothesized that this \"random word generator\" connects a multitude of worlds together, or so it seems.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -1293,7 +1293,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错～这可是本天才构想出的超绝Super Idea呢～",
+			say = "That's right~ It's only right that a super genius like me would be able to make a super item like this~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1309,7 +1309,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后似乎正是因为”随机单词生成器”出现故障，才导致绊爱迷失到了这个世界。如果能把内部的通道接回原来的世界的话……",
+			say = "It would appear that Kizuna AI got stranded in our world because of a malfunction with the \"random word generator.\" We thought that if we were able to re-establish a link with her original world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1325,7 +1325,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过刚才调查了一下，内部的虚拟空间现在似乎只有类似镜面海域的反应喵…",
+			say = "But when we looked into it, we found a virtual space inside that gave off the same readings is a Mirror Sea, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1341,7 +1341,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶！？镜、镜面海域吗？！这个箱子里！？",
+			say = "Eh!? A Mirror Sea?! Inside that box?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			actor = 900179,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说什么！这是不把BUG修好就回不去的套路吗！？",
+			say = "What?! Isn't this like one of those light novels where I can't get home unless the bug gets fixed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1384,7 +1384,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的喵。只能进入这个镜面海域寻找让爱酱回到原来世界的办法了喵",
+			say = "Looks that way, nya. We have no choice but to enter this Mirror Sea to search for some way to get Kizuna AI back home, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1400,7 +1400,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "直接钻进去就好了哦。就像这样",
+			say = "You can project yourself inside just by thinking about it. Like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1425,7 +1425,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这里等着也不会有任何进展。大家，总之一起进入镜面海域，帮爱酱寻找回去的办法吧",
+			say = "Sitting around isn't going to help us make any progress. Everyone, let's head inside and look for a way to get Miss AI home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1441,7 +1441,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虚拟空间的镜面海域……也就是“虚拟镜面海域”了吧！",
+			say = "A Mirror Sea inside virtual cyberspace... in other words, the \"Virtual Mirror Sea!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1457,7 +1457,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}和{namecode:37}会在这里为大家提供援助的喵，加油喵",
+			say = "Yuubari and Akashi will provide support from this side, so everyone, give it your all, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1473,7 +1473,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那在下也在这里警戒吧。毕竟不能保证刚才那种敌人会不会再出现啊",
+			say = "I shall remain on guard here then. There's no saying if the enemy might appear on this side again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1490,7 +1490,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯！谢谢～那就出击～！嘿、嘿、喔～！",
+			say = "Mmhmm! Thanks, everyone. Let's set out then~! Hip, hip, hooray~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

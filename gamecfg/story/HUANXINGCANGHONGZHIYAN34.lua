@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "斯卡帕湾锚地·阿瓦隆之门地下入口",
+			say = "Scapa Flow – Underground",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "自从收到了海伦娜·META的联络，远程命令卡美洛之庭前往指定区域支援指挥官的行动后，伊丽莎白就一直待在地下通道中。",
+			say = "Ever since dispatching Vanguard according to the Commander's orders and using Camelot to break through into Naraka, Queen Elizabeth had remained inside the underground passage the entire time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海伦娜·META……狩猎结束后操纵卡美洛之庭返回之人，指挥官的友军。",
+			say = "Helena META... An ally who assisted the Commander in the return of Camelot during the previous hunt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能够一定程度取得伊丽莎白·META的信任，证明她确实是一个可合作对象。",
+			say = "Someone who has managed to win over the trust of both the Commander, and even my \"other\" self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……这不代表她不危险。",
+			say = "But, there's something dangerous about that woman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官的友军么。",
+			say = "It's true that she follows the Commander's orders... but there's no telling what's going on beneath that smile of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那对于指挥官之外的人……你的态度又如何呢，充满谜团的海伦娜·META小姐？",
+			say = "Good grief. What a shady lot, the whole bunch of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "时间在一分一秒中过去，伊丽莎白的心思也从最初对于海伦娜·META的分析，转变为了对于卡美洛之庭的担忧。",
+			say = "Several more minutes passed, and her thoughts turned toward Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪……怎么花了这么久？按理说早就该回来了啊……",
+			say = "Strange... Why is this taking so long? They should be back by now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,11 +134,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Machine",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮叮叮——咚咚咚——",
+			say = "BEEP BEEP BEEP... BOOP BOOP BOOP...",
 			bgm = "theme-thedeathxiii",
 			typewriter = {
 				speed = 0.05,
@@ -175,11 +175,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Machine",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "DING DING DING... THUNK...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Machine",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "CLANG CLANG CLANG... PSHHHHH...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "嗯……怎么用的是通讯联络？",
+			say = "Miss D's communicator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂？前卫，行动出什么问题了么？",
+			say = "Vanguard! What's wrong? Is something amiss?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "并非如此。陛下，我们的行动十分顺利！",
+			say = "No, Your Majesty! The operation is proceeding smoothly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "我们在奈落之中成功接到了人，并且在归来的路上协助{namecode:74:长门}和{namecode:71:比叡}小姐完成了净化仪式。",
+			say = "The rescue operation in the Naraka Singularity has been completed, and Nagato and Hiei have also been cleansed of their META corruption!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "但是……我们在返回后，却发现和之前一样……我们如论如何都无法离开阿瓦隆之门。",
+			say = "But, there is a minor issue... We seem to be unable to come back through the Gate of Avalon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还是无法离开？",
+			say = "Does that mean the safety mechanism is still in place...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是本王之前明明已经校准了所有错乱的数据，也让卡美洛之庭重新运行了一个来回……",
+			say = "But, I'm not seeing any data errors on my end, and Camelot is still active...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（难道说……数据再次错乱了么。）",
+			say = "(Unless... there's some factor other than Naraka that can trip the safety mechanism?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（怎么会有这么荒唐的事……可，这听上去像是唯一的解释了。）",
+			say = "(No, that shouldn't be possible... It CAN'T be possible.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样，你们先前往这个新坐标待命。那里是伊丽莎白·META寻找到的一处安全世界，原本是用来以防万一的避难所。",
+			say = "For now, please take shelter at the coordinates I am about to send you. It's a special site that my META self prepared for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等这边的事情结束后，本王会排查掉所有问题再接你们回来。",
+			say = "Once I've ironed out the problem on this end, I'll contact you again to bring you back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "遵命！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

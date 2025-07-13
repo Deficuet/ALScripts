@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "该区域的海水中充斥着腐蚀性液体，还是不要靠近比较好……",
+			say = "This place is steeped with corrosion. We should keep our distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

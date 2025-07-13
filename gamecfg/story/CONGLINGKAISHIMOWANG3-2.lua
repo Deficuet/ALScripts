@@ -9,7 +9,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "接下来就是终结一击了！",
+			say = "This is it for you!",
 			bgm = "ryza-az-battle",
 			painting = {
 				alpha = 0.3,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "看招——勇者之剑！",
+			say = "Taste the sharpness of my hero's sword!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰——————！",
+			say = "SHWING!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "蹬蹬瞪♪~蹬蹬♪~蹬蹬瞪♪~",
+			say = "Dadadada-daadaa-dadadaaa♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伴随着一阵象征胜利的悠扬音乐，啾莱姆之王化为粒子消失了。",
+			say = "An upbeat victory song starts to play as the King Slimejuu disintegrates into little balls of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,10 +132,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "战斗胜利~我们冒险小队的配合真是完美无缺啊~！",
+			say = "Victoryyy! We are SO good! Best party ever!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,11 +149,11 @@ return {
 			expression = 1,
 			side = 2,
 			actor = 236031,
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……没想到哥哥这里一上来就碰到了这么夸张的魔物……",
+			say = "Phew. That monster was really strong for our first encounter...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,11 +167,11 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 202341,
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊……真是充满恶意的设计者！",
+			say = "Seriously! I think someone wants you dead, Master!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,8 +185,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "就是说啊……不过没想到我们竟然打赢了。",
+			factiontag = "Commander",
+			say = "It wouldn't surprise me. Still, we won, despite the odds being against us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "你们也和我一样是刚开始冒险的初始状态吧？",
+			factiontag = "Commander",
+			say = "You three are still only level one, just like me, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,10 +207,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "是的，没错~这个啾莱姆之王，按理说以我们现在的等级肯定是打不赢的。",
+			say = "Yuppers. Adventurers at our level can't even dream of beating monsters like that King Slimejuu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,10 +224,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "但是——哼哼哼~抚顺身为制作委员会的人，账号里自然是有些特权的！",
+			say = "Not ordinarily, anyway! We won this battle 'cause of the bonus item I got for my part in the project!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,10 +241,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "比如我刚才使用的这把传说中的勇者使用的勇者之剑！",
+			say = "THIS! The sword wielded by the legendary hero!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,10 +258,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "有了这把传说之剑，斩杀区区啾莱姆之王，不费吹灰之力~",
+			say = "The power within it lets me make quick work of any monster the likes of a King Slimejuu!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,8 +275,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "原来如此……是作弊啊。",
+			factiontag = "Commander",
+			say = "Ohh, I get it. It's comically overpowered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,10 +286,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "是制作人员才知道的彩蛋！彩蛋！",
+			say = "I prefer the term \"dev-exclusive weapon\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,10 +313,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "不过好奇怪……完成了和指挥官汇合的任务之后，终端里就没有新的主线任务出现了。",
+			say = "That aside, something is strange here... Our quest was just to find you, but we haven't gotten a new one yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,8 +330,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "难道是因为主线任务还没完全做好……？",
+			factiontag = "Commander",
+			say = "Maybe the quest is a work in progress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,10 +341,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "有可能……",
+			say = "Uh-oh. It might be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,11 +358,11 @@ return {
 			expression = 3,
 			side = 2,
 			actor = 202341,
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不是制作委员会的人么？",
+			say = "Shouldn't you know what's up, Fu Shun? You WORKED on the game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,10 +376,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "我是故意不去了解的！",
+			say = "Well... no. I went out of my way to avoid spoilers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,38 +393,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "不然，如果提前知道了全部的剧本，自己玩的时候不就没有新鲜感了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "很有道理，游戏的新鲜感确实很重要。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			nameColor = "#A9F548FF",
-			factiontag = "勇者",
-			dir = 1,
-			hidePaintObj = true,
-			say = "对吧对吧~",
+			say = "I mean, what's the fun in knowing everything that's gonna happen? You'd just be going through the motions, and that's lame!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,8 +410,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "那么接下来，我们按照冒险游戏的传统惯例，去最近的村子收集情报如何？",
+			factiontag = "Commander",
+			say = "That's a good point. The game wouldn't feel very fresh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,10 +421,38 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "嘿嘿~指挥官已经乐在其中了呢~",
+			say = "See? The Commander gets it!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			nameColor = "#A9F548FF",
+			factiontag = "Commander",
+			say = "I think we should follow adventure game custom and go gather info at the nearest village. Who's with me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			nameColor = "#A9F548FF",
+			factiontag = "The Hero",
+			dir = 1,
+			hidePaintObj = true,
+			say = "Aha! Already immersed in your role, I see!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,10 +466,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "没问题，你是小队指挥官，都听你的！",
+			say = "I second that idea. You ARE the commander of our party, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,10 +483,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "不过——冒险小队的名字依然是勇者抚顺的冒险小队哦~！",
+			say = "Having said that, the party's name stays the same! It's still Fu Shun the Hero's Party!",
 			painting = {
 				alpha = 0.3,
 				time = 1

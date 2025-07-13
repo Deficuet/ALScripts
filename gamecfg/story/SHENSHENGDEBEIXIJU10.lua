@@ -8,7 +8,6 @@ return {
 			bgm = "battle-italy",
 			side = 2,
 			bgName = "bg_italy_cg1",
-			say = "轰----",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -64,7 +63,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "加富尔！！",
+			say = "Cavour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +90,7 @@ return {
 			actor = 605050,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "怎…怎么会",
+			say = "Ugh... why...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +107,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不…这不可能",
+			say = "Impossible... How dare they...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +118,7 @@ return {
 			}
 		},
 		{
-			say = "燃烧、爆炸…硝烟将夜晚的塔兰托港染成一片鲜红",
+			say = "Taranto harbor had become a sea of flames under the moonlight.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
@@ -177,7 +176,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "怎么会这样",
+			say = "How did they know... to take advantage of us while our forces were split...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			say = "防空炮仍在嘶吼着，却无法完全阻止剑鱼们的突袭",
+			say = "In addition to having lost the initiative, the Sardegnian forces were unable to muster their anti-air defenses due to the poor visibility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +207,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "居然能在夜晚利用舰载机发动空袭…",
+			say = "How were they able to mobilize their aerial squadrons at night...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +218,7 @@ return {
 			}
 		},
 		{
-			say = "这仿佛地狱般的光景，不 ，这里就是地狱吧",
+			say = "The ships staying in the harbor were gasping for air amidst all the fire and smoke.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
@@ -277,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "…行动完全暴露了呢",
+			say = "They completely saw through us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +293,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这不可能，我们趁着夜色行进，沿途也没有被侦察机发现",
+			say = "How did they anticipate that we'd redeploy our battleships here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +310,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "况且，敌机居然是在夜晚进行偷袭，这可从来没有听说过啊！！",
+			say = "And how are they operating their air wings at night? I've never heard of this before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +339,7 @@ return {
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "收手吧，利托里奥，行动已经失败了",
+			say = "Littorio, order everyone to retreat. We've been completely defeated.",
 			flashN = {
 				color = {
 					1,
@@ -394,7 +393,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不，我们还没失败，只要击败这个能够在夜晚发动空袭的航母…我们还能够在黎明前抵达马耳他防线！",
+			say = "No, Veneto, it's not over yet. If we can take out the enemy carrier, then we can seize Malta before dawn comes. Then the Royal Navy will have their hands tied without their precious intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +410,7 @@ return {
 			actor = 605020,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "全体战列舰，回到塔兰托港寻找掩护！侦察部队，立刻沿着敌机方位寻找敌方航母！",
+			say = "Attention, all battleships! We are evacuating the harbor! Find and put an end to the carrier launching these planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

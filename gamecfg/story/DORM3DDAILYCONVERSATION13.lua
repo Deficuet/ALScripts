@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "每次天狼星都会在我准备敲门的时候开门，时机拿捏得很合适啊。",
+			say = "You always open the door just before I knock. Your timing is impeccable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵，那是因为{dorm3d}的脚步声和气息对于天狼星而言，实在是太好辨别了。",
+			say = "Heehee. I'm simply very good at detecting your footsteps and your presence, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，天狼星还是觉得这个应该算作是一种和{dorm3d}您的心有灵犀呢~",
+			say = "No, actually, perhaps we simply operate on the same wavelength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"太阳般的辣妹\n\n<size=45>一　猜猜我是谁？</size>",
+					"Light Up My Day\n\n<size=45>1 Guess Who!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "某个暖洋洋的日子——",
+			say = "It was a sunny day. The port was enveloped in a pleasant warmth.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -57,7 +57,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼啊……这么温暖舒适的天气，感觉好容易犯困啊。",
+			say = "*yawn*... Man, I always get so sleepy when it's warm. Almost makes me wanna go tan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且还好无聊……咦？在那里的是……一个人坐着不知道在做什么的指挥官？",
+			say = "Especially when I've got nothing else to do... Hang on, is that the commander? All alone in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——哼哼，想到个好主意☆",
+			say = "Well, well... I just found the cure to my boredom!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻♪我说指挥官，猜猜我是谁呀？",
+			say = "Heyo, Commander! Guess who!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "——？！",
+			say = "Someone approached me from behind and covered my eyes with her hands, then prompted me to guess her name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，别乱动，快猜猜看嘛~猜中的话也许有好事发生哦—？",
+			say = "C'mon, timer's ticking away. Get it right, and you might just win a prize, or whatevs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里士满？不对不对。不过…也不算差得很远啦~",
+			say = "...Richmond? Er-err, wrong. You're not completely off the mark, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:524}？哎呀呀，越猜越远了哟？——５、４、３、２、１…０！时间到~",
+			say = "San Diego? No. Hint: I'm not a redhead. 5 seconds left to get it right! 4... 3... 2... 1... Sorry, time's up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么猜不到是我呢？辣妹指数这么高的女孩，应该很好猜出来吧！",
+			say = "The disappointment is real. How come you don't remember the trendiest girl in port? That's, like, punishable in my book.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -246,7 +246,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "马布尔黑德气嘟嘟地鼓起了脸，然后抓起了我的左手。",
+			say = "Marblehead pouted at me, then softly poked my left hand with her index finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为惩罚，现在我要给指挥官你做个美甲~！",
+			say = "So, I hereby sentence you to a manicure, performed by me, personally!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽说比不过孟菲斯，不过我美甲也做得不错哦。快把手放这里，我来给你做个可可爱爱的~",
+			say = "Memphis might be the queen of nails, but I can still do a solid job. Now gimme your hand, and we'll get those nails lookin' worthy of a Juustagram header.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“之后要处理文件所以不能做美甲”？唔……但没猜出我这事可不能就这么算了。",
+			say = "...You've got paperwork to do? Should've thought about that before you forgot my name, sweetie!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,23 +320,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "她依旧没有松手，然后突然像是想到了什么般又兴奋了起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了！那不如就这样陪我散会步怎样？工作再繁忙也需要休息一会吧~",
+			say = "She grabbed my hand, but then suddenly paused as though her train of thought just changed tracks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +336,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“还有事情要想”？那就更应该出去走走了！",
+			say = "Tell you what! If a manicure's too much, why don't we instead go outside for like, a short walk?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...You've gotta plan something important? All the more reason to get some fresh air!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 102270,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧走吧~干对着桌子可没法想到什么好点子。跟我出门换个心情，出发咯――☆",
+			say = "C'mon. You won't get any work done by staying glued to your desk. A quick breather will do you good!",
 			effects = {
 				{
 					active = true,
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "就这样被马布尔黑德顺势带到了外面——",
+			say = "She was very insistent on this, so I yielded and agreed to go outside with her.",
 			effects = {
 				{
 					active = false,

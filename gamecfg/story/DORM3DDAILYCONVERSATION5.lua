@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
+			say = "The Dragon Empery has a dish called \"duo jiao yu tou,\" which is fish head with chopped peppers, and the Royal Islands are traditionally a nation that loves fish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,18 +52,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星就想将“剁椒”这种风味，融入仰望星空派。您觉得这个创意如何？",
+			say = "So what I want to try is to incorporate the flavour of chopped peppers into stargazy pie. What do you think of that idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "难度会不会太高了？",
+					content = "Sounds awfully difficult, doesn't it?",
 					flag = 1
 				},
 				{
-					content = "这个创意很好！",
+					content = "That's a great idea!",
 					flag = 2
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "说的也是呢……不过天狼星会努力的！",
+			say = "That it does... However, I will still try my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "真、真的么！果然还是{dorm3d}您最支持天狼星了！",
+			say = "R-really? Of course – I can always count on you to support me, {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

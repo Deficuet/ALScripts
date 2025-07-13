@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>飞蛾扑火</size>",
+					"Crimson Prelusion\n\n<size=45>3 Reality - In the Holy Capital</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "教国首都的街道上，人山人海，热闹非凡。",
+			say = "On a major street in the Orthodoxy's holy capital...",
 			bgm = "story-musicanniversary-gorgeous",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "重樱的少女们艰难地穿过人群，向着会场前进着。",
+			say = "Sakuran shipgirls were wading through the crowds toward their destination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 399050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让一让——请让一让——！",
+			say = "Out of my way! Let me through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让一让——！！！",
+			say = "MOVE, dammit!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "道路终于打开了，{namecode:182:信浓}大人，我们快过去！",
+			say = "We've opened up a path. Let's hurry, Lady Shinano!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……终于过街了。",
+			say = "Phew... Finally, we made it to an at least somewhat open space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "真是好热闹啊，{namecode:182:信浓}大人，今天是举办什么节日庆典么？",
+			say = "It's staggering how crowded it is. Do you think there's some festival happening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身并未听说过近期有如此规模活动的举办计划。",
+			say = "This one has not heard of any such thing taking place today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399050,
-			say = "说不定是一时兴起呢~快乐是不需要理由的！",
+			say = "Maybe it's a spur-of-the-moment thing. Don't need an excuse to have fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们不也因为看到了月色不错，于是临时举办了一场赏月会么。",
+			say = "Like a few days back, when we all got together on a whim to watch the moon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于那场赏月会……",
+			say = "Well, that never actually–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "咳、此地不是闲聊之处。{namecode:204:白龙}，继续开路，吾等先返回驻地再说。",
+			say = "Ahem. Let us chat elsewhere. Hakuryuu, continue leading the way. Before all else, we must get back to our lodgings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包在我身上吧——！",
+			say = "Yeah, yeah! Will do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "又艰难走过一个路口后，两位维持秩序的鸢尾骑士进入了众人的视线。",
+			say = "After passing another intersection, the Sakurans came across a group of young Orthodoxy girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家注意秩序，有序前进。让我们一同庆祝这场抵抗战争的胜利时刻吧！",
+			say = "Please move forward in an orderly fashion! Let us celebrate our victory in this war of resistance together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鸢尾、皇家与重樱的友谊永存！",
+			say = "May the Orthodoxy, Royal Navy, and Sakura Empire remain allies forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们有人知道她们在说什么东西么……抵抗战争的胜利是什么？",
+			say = "\"War of resistance\"? What the hell is she talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有那句口号……“鸢尾、皇家与重樱的友谊永存。”",
+			say = "The three of us, allies forever? That's news to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些人……很不对劲！",
+			say = "Something is weird with these girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "是啊，{namecode:175:骏河}阁下，这些人看上去好奇怪！",
+			say = "Exactly! They're weirder than a toad in a kimono!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:182:信浓}大人……看来，鸢尾首都已经受到影响了呢。",
+			say = "Lady Shinano... I think they've been put under the dream spell, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对于此事，妾身在返回之前便有料想。",
+			say = "Aye... It's little surprise that the holy capital has been affected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "但是影响之深……规模之广，确是大大超出了妾身的预期。",
+			say = "However, this one never could've anticipated the effect was this vast in scale...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不过……遇到鸢尾的骑士也好，妾身正好有事找她们。",
+			say = "But, as fortune would have it, this one has business with the knights... Let us go speak to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位鸢尾的骑士，请问你们知道克莱蒙梭阁下现在身处何处么？",
+			say = "Greetings, knights of the Holy Iris... Where is Clemenceau?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱的贵客！欢迎来到庆典现场，让我们一同欢庆吧！",
+			say = "Ah, Sakurans! Welcome to our parade! Come celebrate with us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "（……无法顺利交流么。既然如此……）",
+			say = "(They're ignoring me... I should show it to them.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝等且看，这是什么？",
+			say = "Have a look at this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_530",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}将十字胸针亮出，再次重复了自己的要求。",
+			say = "She showed them the brooch the Commander gave to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "鸢尾的骑士，带妾身去找克莱蒙梭阁下。",
+			say = "Please, young knights... This one would like a meeting with Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱的贵客，您是要前往庆典的主会场么，可是需要我们带路？",
+			say = "Do you want to go to the main venue? Shall we escort you there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "（……亦是视而不见么。这下麻烦了……）",
+			say = "(My words aren't reaching them... So be it, then.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无需劳烦，二位去忙吧。",
+			say = "Thank you, but no. That shan't be necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好的，在此值得庆祝的日子里，祝愿诸位度过美好的一天！",
+			say = "Very well. Please be sure to have a look around! There's so much to see!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "日暮低垂之时，重樱一行人终于抵达了位于会场的驻地。",
+			say = "As the sun began to set, the Sakurans finally made it back to their lodgings.",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "一路上目睹的混乱局势令{namecode:182:信浓}的心口隐隐作痛。",
+			say = "Despite doing everything she could, Shinano was unable to arrange a meeting with Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "回到驻地后，少女将自己关入房中，陷入了沉思。",
+			say = "Resigned, she sat in her room, deep in thought about how the dream had affected her comrades from the Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……洪流之中，如同一叶孤舟般漂泊的无力感。",
+			say = "Ah, like a small boat caught in a great storm, I can do naught but lament my own helplessness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此等感受……妾身究竟还要经历多少次。",
+			say = "How much more must I experience this feeling of futility?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "过去……妾身终日于梦中沉眠之时曾想过，只要醒来，一切都会变好。",
+			say = "In dreams of yore, there was always the hope that all would change once I woke again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然而……终究不过是一厢情愿。",
+			say = "Alas, prayers cannot change the reality of the waking world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "于梦境之中随波逐流，于现实之中随波逐流……终日半梦半醒，飘荡于须臾之间。",
+			say = "Now, I am equally at the whims of both the real world and the dream world, allowed not even a moment of reprieve...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……只知随波逐流之人，如何对抗汹涌的波涛？",
+			say = "How could one who only knows how to drift possibly fight the waves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……外无援手，亦无退路。",
+			say = "Neither is there a way out, nor will anyone come to my aid...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万千危局……此刻真正系于妾身一人。",
+			say = "Only one person can resolve this crisis... 'tis I and I alone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身……不能再继续逃避了。",
+			say = "I can flee from my problems no longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "少女握紧了手中的玉佩。紧闭双目的她不曾注意到，玉佩此刻正散发着淡淡微光。",
+			say = "Shinano closed her eyes and tightly clutched the Watatsumi amulet in her hands. Hearing her prayer, it began to glow faintly.",
 			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身……从来都知道梦境的来源，亦知道力量的本质。",
+			say = "I've always known the essence of my power, the root of my dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身的力量……还有梦境……与神石从来都是一体的。",
+			say = "It is this fragment... The Watatsumi gives me my strength, my dreams...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身……只是选择视而不见。",
+			say = "And yet, I have always turned a blind eye to the truth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "身为承载着无上荣光的{namecode:83:大和}级，却是一个离开了神石就无法发挥出丝毫力量……孱弱无力的残次品。",
+			say = "That without this fragment, I am a hollow person with no power despite the Yamato-class hull I possess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……是时候正视这个现实了。",
+			say = "It is time I accepted reality for what it is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -849,7 +849,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "而后……去做只有妾身才能做到的事。",
+			say = "Then... I shall do what I can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}睁开双眼，而后惊讶地发现——手中的护符，宛如一轮明月。",
+			say = "When she opened her eyes, the light from the amulet had faded, like the moon's reflection upon a lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "神石，亦是武器。",
+			say = "The Watatsumi is a sacred relic, but it can also be a weapon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "人类依靠枪炮，舰船依靠舰装，而妾身……有更多的选择。",
+			say = "Soldiers rely upon their firearms, and ships rely upon their riggings... whilst my everything hinges upon this fragment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -901,7 +901,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "现实的异状与神石有关，梦境的异状……亦与神石有关。",
+			say = "With this amulet, you helped me see reality when I would not accept it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -914,7 +914,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这枚由妾身亲手雕刻的护符，帮助妾身察觉出了现实世界的异状。",
+			say = "This amulet of my own creation cast light upon the dream that has bewitched so many... It made me realize that the waking world was asleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,7 +928,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "那么……必能帮助妾身调查出梦境世界的异状。",
+			say = "Thus far it has guided me, and no doubt it will continue to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身与梦境……是通过神石相连的。依靠护符……妾身定能重新入梦。",
+			say = "It is my connection to the dreamscape as well as my guiding light to it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,7 +955,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然妾身的话语已经无法通过现实世界传达给众人——那就从梦中。",
+			say = "If my words mean nothing in the real world, then perhaps they have weight in the dream world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "进入这场笼罩鸢尾首都的幻梦，从梦中达成妾身的任务！",
+			say = "I shall dispel the illusion placed upon the holy capital and accomplish my mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "少女将护符收起，急切地站起身来。与此同时——",
+			say = "Steeling her resolve, she again clenched the amulet between her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -991,7 +991,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "咚咚咚——房门外传来了敲门声。",
+			say = "Then, there was a sudden knocking on the door.",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -1004,9 +1004,9 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			nameColor = "#A9F548FF",
-			say = "{namecode:182:信浓}阁下，听说您在城中四处找我？",
+			say = "It's Clemenceau. I heard you've been running across the city trying to find me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,9 +1018,9 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			nameColor = "#A9F548FF",
-			say = "我来了，有什么事么？",
+			say = "What can I do for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭阁下……？！",
+			say = "Clemenceau?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1044,7 +1044,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "少女将访客迎入房中，以不可思议的目光注视着眼前之人。",
+			say = "Shocked, Shinano was quick to open the door and let Clemenceau in.",
 			bgm = "theme-clemenceau",
 			typewriter = {
 				speed = 0.05,
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "克莱蒙梭阁下……汝、清醒了？",
+			say = "Have you... awoken from the illusion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如你所见。",
+			say = "Yes, as you can see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,7 +1104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "汝是……如何做到的？",
+			say = "How?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1118,7 +1118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这个嘛……因为这场梦——太过美好了。",
+			say = "Simple. Things seemed too perfect even for a dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,7 +1132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而不幸的是，我很清楚……过去、现在，亦或是将来，世间绝对不会如此美好。",
+			say = "As sad as it is, I know the past, present, and future alike can never be that pretty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,7 +1146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "因此我接受了牺牲，再次做出了正确的选择，仅此而已。",
+			say = "So, I accepted a sacrifice and made the right choice again. That is all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "幻梦的迷惑力……妾身十分清楚。主动打破如此美好的梦，非常人之所能。",
+			say = "Seeing as you were fooled, too, you must know well how powerful this illusion is. A layman cannot correctly identify a perfect dream for what it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1174,7 +1174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……呵呵，指挥官这次算错了两点呢。",
+			say = "Furthermore... it seems the Commander made two misjudgments...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1188,7 +1188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "算错了两点？",
+			say = "Misjudgments? Go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1202,7 +1202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "其一——这枚十字胸针并没有想象中那么好用。",
+			say = "The first – this one showed your comrades this brooch, yet they wouldn't let me see you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1213,7 +1213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}自嘲般举起胸针，在空中挥舞了两下。",
+			say = "Shinano took out the brooch and showed it to Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1227,7 +1227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "而其二——在欧罗巴的清醒之人，远比此前预料的更多。",
+			say = "The second – the assumption that few Europans would snap out of the illusion by themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,7 +1241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "欸~那确实是指挥官的错。",
+			say = "We all make mistakes sometimes, even the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1255,7 +1255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "光天化日，朗朗乾坤，怎么能把一个女孩子送的礼物转送给另一个女孩子呢~？",
+			say = "Also, that brooch was a gift. I'm a bit peeved to hear it was given to someone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1269,7 +1269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "此等做法，胸针的效果大打折扣也是应该的。",
+			say = "I'd wager it being in your hands is the reason it didn't work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1282,7 +1282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这枚胸针我就收回了哦？",
+			say = "Regardless, now we've come face to face. Would you mind giving it back to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1293,7 +1293,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "虽然微笑着，不过克莱蒙梭以不容置疑的力道将胸针拿了回去。",
+			say = "With a nod, Shinano handed over the brooch to Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1307,7 +1307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我已经开始调查欧罗巴的异状了。",
+			say = "Now, I've already launched an investigation into this strange phenomenon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1320,7 +1320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至少指挥官的两项判断都是对的。第一，我确实需要你，第二，欧罗巴也确实需要更多清醒的人。",
+			say = "The Commander was wise to send you here. I'm going to need your power, and we want as many awoken people on our side as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1334,7 +1334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "{namecode:182:信浓}阁下，听说你有进入他人梦境的能力？",
+			say = "Speaking of your power, I'd like to put it to use as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,7 +1348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "事不宜迟，请随我去一个地方吧。有一场梦，正在等待着阁下的拜会——",
+			say = "You're able to enter other people's dreams, yes? I have a particular one in mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

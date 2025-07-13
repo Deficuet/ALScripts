@@ -13,7 +13,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "成功了！",
+			say = "We did it!",
 			bgm = "sk-az-battle",
 			painting = {
 				alpha = 0.3,
@@ -29,8 +29,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
 			side = 2,
-			actorName = "测试者",
-			say = "看来就到此为止了啊。作为临时做出来的东西来说也算是撑了不少时间，收集到了不错的数据呢。",
+			actorName = "Tester",
+			say = "Well, seems this is it. It held up well, for being so hastily constructed. Moreover, the results of this experiment were fascinating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来就轮到你了！做好觉悟吧！！",
+			say = "You're all that's left, bastard! Say your last prayers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,8 +58,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
 			side = 2,
-			actorName = "测试者",
-			say = "……真没想到你们还有战斗的力气，不过我已经没这个兴致了。",
+			actorName = "Tester",
+			say = "You still have the energy to fight? I'm surprised. I'm afraid this is starting to drag on, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
 			side = 2,
-			actorName = "测试者",
-			say = "测试结果已经收集完毕，就此告辞。",
+			actorName = "Tester",
+			say = "While I wouldn't mind playing with you, I've run out of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，等等！别想逃！！",
+			say = "Hey! Wait! Get your ass back here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,8 +116,8 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
-			actorName = "测试者",
-			say = "这趟外勤还算有趣，下次有机会再见咯。",
+			actorName = "Tester",
+			say = "Now, now, this was fun. We will meet again another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "一段时间后，天守阁深处——",
+			say = "Sometime later, deep in the keep...",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雪不归小姐，你没事吧！？",
+			say = "Fubuki! Are you alright?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……",
+			say = "Mmgh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来来，让我看看……瞳孔反应，正常。脉搏，正常。呼吸，正常。",
+			say = "Let me have a look at her. Pupil dilation is fine. Pulse, fine. Breathing, fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，虽然受了些皮外伤，不过并无大碍，只要回港区休养一下很快就能康复了吧。",
+			say = "...Yeah, she's okay, save for a couple of scratches. Just needs a little rest back at the port and she'll be back to normal in no time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的……太好了……",
+			say = "Oh, thank goodness...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我们立刻撤离吧……在事态再发生什么变化之前……",
+			say = "Let's all get out of here before anything bad happens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像是“让你们和我一起陪葬”或是“城池最后来个自爆！”之类的——以塞壬那些家伙的风格来说，都是很有可能的！",
+			say = "I wouldn't put it past the Sirens to be like, \"I'm taking you with me!\" and blowing the castle up at the last second!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "（衣物摩擦声——）",
+			say = "RUSTLE...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？这个是……！？雪不归小姐的身体……似乎……",
+			say = "Huh? Look! Fubuki – she's moving.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雪不归小姐，醒来了……呀——！",
+			say = "You're awake, Fubuki. Thank go– Aaahhh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -380,7 +380,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雪不归小姐……向我们……发动了攻击……！？",
+			say = "What's happening? Why is she attacking us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，她的意识并没有清醒。但也没有被操纵的迹象……这是本能还是某种自动反应……？",
+			say = "I think she's still in her slumber. Nothing suggests she's being puppeteered, though... She's either acting on instinct, or it's something automatic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可恶，塞壬果然留下了什么东西！",
+			say = "I knew it! The Sirens left us a parting gift!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是爆炸倒塌结局，而是伙伴暴走结局么……真不喜欢这种剧情设计啊……",
+			say = "They skipped past blowing up the castle and went straight to turning one of our own on us! They've hit a new low!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雪不归小姐！振作点！",
+			say = "Fubuki, please! Come to your senses!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "在春菜和唯被掳走后，也许是超级游戏制作机认为难度已经被修正，菈菈等人的舰装再次运作起来。",
+			say = "With the kidnapping of Haruna and Yui, Questy MacGuffin seemed to deem balance restored. With that, it restored the Deviluke sisters' rigging to working order.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "虽然敌人数量众多，但在众人齐心协力下终于还是成功击退了敌人。",
+			say = "Many enemies remained, but with the party's restored fighting strength, they were able to fight the rest off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "而此刻众人却没有丝毫的喜悦之情，菈菈更是心急如焚，却又无计可施。",
+			say = "However, the victory was not a joyous one. Lala was especially anxious, but there was nothing she could do now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "呜啊啊……这，这下怎么办啦……",
+			say = "Ugh... What are we supposed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人，一定没问题的。",
+			say = "I'm sure they're okay, Lala.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "超级游戏制作机应该不会伤害春菜和唯的，这毕竟是个模拟冒险的机器呢。",
+			say = "Questy is just a device that simulates adventures. It wouldn't really hurt Haruna and Kotegawa, I'm sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "可是……它毕竟失控了……",
+			say = "But it's malfunctioning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "等一下，这个是什么？",
+			say = "Look at this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "娜娜指着超级游戏制作机的屏幕，只见屏幕上显示着春菜和唯的位置，并且生命体征很平稳。",
+			say = "Questy MacGuffin's monitor displayed the vital signs of Haruna and Yui, proving that they were still alive and well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "欸！？真的耶，超级游戏制作机还能监控玩家的状况吗？！",
+			say = "Huh?! Wow, you're right! I didn't know Questy could monitor players' game states, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐大人，你该不会……忘了这项功能了吧？",
+			say = "Lala, I don't want to imagine this, but did you forget about a feature YOU implemented?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊哈哈……因为太专注在修复工作上，我都忘了还有这回事了……",
+			say = "Hahaha... I was so focused on fixing it that I forgot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此……真有趣。",
+			say = "I see... Fascinating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也就是说，只要顺着它的指示，就能救回你们的朋友吧？",
+			say = "Will we be able to save your friends if we go there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯！应该就是这样！",
+			say = "Yep! I think so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔……但是……",
+			say = "Mm, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有何顾虑，但说无妨。",
+			say = "If you have concerns, then out with them. We don't have time to waste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯……我在想敌人似乎变得越来越具有智慧，所以这次会不会也是个圈套呢。",
+			say = "Hmm... The enemies are getting smarter and smarter. I just wonder if this is a trap, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有道理，不过本王调动的皇家舰队主力也快到了。",
+			say = "You do have a point, yes, but we have backup. My Royal Navy main fleet will be here in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,10 +251,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "前卫，一路上还顺利么？",
+			say = "Vanguard, has the trip been smooth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "我们在路上遭到了少量敌人阻碍，不过并无损失，将会按时抵达您所在的港口。",
+			say = "The enemy made some effort to disrupt us, but we suffered no casualties. We expect to arrive at the nearest port to you on time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不用来了，本王要再次出海作战，直接去目标海域与本王汇合！",
+			say = "That won't be necessary. We'll be setting sail again, so rendezvous with us at the coordinates I'm sending you now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "……再次？",
+			say = "Did you say \"again\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咳……",
+			say = "Ahem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "……遵命！",
+			say = "Understood, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

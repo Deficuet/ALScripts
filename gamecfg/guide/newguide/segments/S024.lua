@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"指挥官请点击<color=#ff7d36>出击</color>",
-	"这次我们的舰队已经比较完善啦~一定可以击破大黄蜂的！",
-	"可恶，又遭到了敌方舰队的拦截！但是我们的<color=#ff7d36>总机动值已经提高</color>，轻而易举的就能避开这种无谓的战斗",
-	"点击<color=#ff7d36>规避</color>轻松甩掉他们的拦截吧！"
+	"Commander, please Tap <color=#ff7d36>Attack</color>",
+	"Our fleet is even more perfect now~! We can definitely take down Hornet!",
+	"Damn, we've been stopped by enemy ships again. Our <color=#ff7d36>total Evasion has improved</color> though, so we can just skirt around unnecessary battles like this one.",
+	"Tap <color=#ff7d36>evade</color> to avoid interception!"
 }
 
 return {

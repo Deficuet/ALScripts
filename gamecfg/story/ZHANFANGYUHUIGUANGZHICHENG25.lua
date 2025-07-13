@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一片璀璨与辉煌。",
+			say = "The world of memories crumbles away, and when I next open my eyes, I'm back in the Martyrium again.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "太好了，助手！我们回来了！",
+			say = "We did it! We're back here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "这里是辉光之城的第三片出现的区域，也是最中心！",
+			say = "This is the Martyrium's third ring! The third ring is the heart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "所有折叠的部分终于全部展开了哦！",
+			say = "This SHOULD be the last unfolded space now that that weird memory thing is over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哼哼~这样鲸鱼也终于无处可藏了！",
+			say = "You're mine now, whale! There's nowhere left to run!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "让我看看鲸鱼的位置在——",
+			say = "Come out, come out, wherever you–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "欸？！！！！鲸鱼跑回到最外圈去了？！！！",
+			say = "...Are?! It's flown off to the outermost ring!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "助手，我们立刻——",
+			say = "Assistant, we have to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嘘——等等，周围有些不对劲。",
+			say = "Hold on. Something doesn't feel right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "环顾四周，作为辉光之城的中心，此处的光芒比其他区域更加耀眼。",
+			say = "I survey the area. The Martyrium's white basilica seems to glow brighter than anything else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "距离此处不远的前方广场中，矗立着一座巨大的雕塑。",
+			say = "Even more attention-drawing, however, is the plaza at the center of the third ring and the enormous structure that towers above it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "数片被雕刻成羽翼造型的大理石之翼环绕着中心的淡黄色水晶块，一切看上去都是如此的圣洁与美丽。",
+			say = "It's a yellow crystal encased in wings carved from marble. At a glance, it feels almost sacred...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "但是，只要仔细观察就会发现——原本洁白无瑕的大理石道路和墙面上，如今还覆盖着另一种白。",
+			say = "Looking closer, though, I realize that it's the epicenter of a marbled, blank whiteness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,19 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "那是一种仿佛拥有生命的，如同菌丝一般正蔓延扩散着的白。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "……侵蚀性络合物？！",
+			say = "A whiteness that lives, multiplying and propagating like the roots of a tree, corroding its surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +261,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "为什么侵蚀性络合物会突然出现在辉光之城中？！",
+			say = "(Like an invasive mycelium... Is this what corrosion is?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +273,19 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "难道是迪贝路和{namecode:522:旗风·META}搞的鬼……",
+			say = "(Did the Class-IX mimic beast appear in that memory because of this corrosion?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "(Right, there was that META working together with Devil... Was this their doing?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "呃啊……好恶心。助手，我们快走吧！",
+			say = "Eww... Let's get out of here, assistant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "启动通讯器尝试联络阿尔萨斯小队和位于后方的伊丽莎白·META。",
+			say = "I open my communicator and try to reach Elizabeth and Alsace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,19 +335,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "可是通讯器在发出滴的一声之后，就彻底损坏了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "……这次发现干扰没用，所以选择摧毁通讯装置么？！",
+			say = "There is a click, but no sound beyond that. It isn't working.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,18 +347,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "——迪贝路！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#5CE6FF",
-			side = 2,
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			say = "耳边，仿佛依稀听到了迪贝路得意的笑声。",
+			say = "(Dammit, Devil is at it again. She's jamming our comms.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +359,30 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "D小姐，你知道怎么返回最外圈么？",
+			say = "(I'm isolated from the girls and have no backup from Elizabeth. I'm in serious danger.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#5CE6FF",
+			side = 2,
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			say = "I can almost hear Devil laughing smugly at my predicament.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "Hey, how do we get to the outermost ring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "先出城再进城就可以了！",
+			say = "Just exit the Martyrium and come back in again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "出城的方式也查清楚了哦！我们从中间那个亮晶晶的地方走！",
+			say = "I know how to leave! It's through the glowy spot in the middle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……那里也是侵蚀性络合物最密集的地方。",
+			say = "The middle... where the corrosion is coming from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "看来……不论如何都要先去广场中调查一下了。",
+			say = "Dammit. If it's the only way, so be it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

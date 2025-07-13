@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>纪念日</size>",
+					"Crimson Prelusion\n\n<size=45>1 Dream - In Memory of the Battle</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "皇家斯卡帕湾，尖锐的警报声在空中回荡着。",
+			say = "Warning sirens were blaring in the air around Scapa Flow.",
 			bgm = "airraidalarm",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "然而，警报声下的人群没有选择逃离，而是纷纷驻足——有些还摘下了帽子。",
+			say = "And yet, nobody there was gearing up for battle. On the contrary, many took off their hats as a gesture of respect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "此时此刻，只为纪念。",
+			say = "This was no battle – it was a ceremony to commemorate a battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 900262,
-			say = "感谢诸位致以的思念与敬意。",
+			say = "Thank you all for your thoughts and prayers.",
 			bgm = "theme-camelot-up",
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也感谢诸位在今年此时共聚此地，纪念那场艰难的斯卡帕湾保卫战与在战斗中牺牲的英烈们。",
+			say = "We have gathered here again this year to pay our respects to our comrades who fell in the defence of Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "虽然已经过去了多年，那场战斗的牺牲与精神依然时时鼓舞着我们。",
+			say = "Though the battle has long since passed, the courage our soldiers showed here continues to inspire us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "那场战斗的痕迹也依然静静躺在此处，向我们诉说着当日的悲壮。",
+			say = "The vessels we lost, too, still rest at the bottom of the sea, silently recounting what happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "那日，正是依靠皇家、铁血、重樱三国舰队的浴血奋战，我们才能挫败塞壬的进攻，皇家本岛也才得以保全。",
+			say = "On that day, the Royal Navy, Iron Blood, and Sakura Empire all united against the Sirens, pushing them back and defending our great motherland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "我们眼前的废墟，正是构建者在失败前那无奈地一击造成的。",
+			say = "We defeated Compiler, proving that humanity will endure. These ruins you see are the final thing she did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "它们是伤痕，更是三国友谊的见证。",
+			say = "It is not only the remains of a battle, it is also proof of our bonds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "愿友谊长存——",
+			say = "I truly hope that this friendship of ours will last forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "演讲台上，激昂地演讲持续着——",
+			say = "The stirring speed continued from the ceremonial podium.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,15 +202,15 @@ return {
 			},
 			sequence = {
 				{
-					"皇家·斯卡帕湾旅游区",
+					"Scapa Flow - Tourist Area",
 					1
 				},
 				{
-					"友谊酒店",
+					"Hotel",
 					2
 				},
 				{
-					"一段时间后",
+					"Sometime later",
 					3
 				}
 			}
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "作为整个斯卡帕湾旅游区最大最豪华的酒店，每年仪式后的宴会都会安排在此地举行。",
+			say = "The tourist area at Scapa Flow is home to a massive, regal hotel. There, a party is held after the remembrance ceremony each year.",
 			bgm = "theme-partydress",
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "据说，这座酒店所坐落的位置，就是当年在战争结束后，三国将士召开庆功宴的地方。",
+			say = "Legend has it that the heroes of all three factions held their own celebration here after the battle was over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊……好累好困，今天也辛苦我了。",
+			say = "*yaaawn*... I'm beat. This has been a long day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "我要先大吃一顿，补充一下今天的消耗，然后再美美睡上一觉~",
+			say = "I'm gonna stuff my face and recharge my batteries, then fall asleep in half a second of lying in bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "呵呵，{namecode:461:吕佐夫}小姐还是和以前一样可爱呢。",
+			say = "Heehee. You really know how to let loose after a hard day's work, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "多谢夸奖~",
+			say = "Yep. Relaxing is my middle name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "诸位贵客远道而来，一路辛苦了。尤其是{namecode:161:天城}女士，每年都从重樱本岛跨越万里而来。",
+			say = "I'd like to thank you both for coming all this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我代表皇家向诸位致以最诚挚的问候。",
+			say = "Especially you, Amagi. On behalf of the entire Royal Navy, thank you for attending this ceremony every year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "呵呵，阁下客气了。每年能有一次这样从沉闷的事务中脱身远游的机会，自然是不辛苦的。",
+			say = "You needn't thank me. It shames me to admit this, but part of the reason I come is so I can have a break from my work at home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，我也是自己想来看看过去的老朋友们……",
+			say = "Of course, reuniting with old friends is always the main draw, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……敬老朋友们！",
+			say = "Same for me. Let's have a toast! To our old friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,9 +364,9 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:161}&{namecode:461}",
+			actorName = "Amagi & Lützow",
 			side = 0,
-			say = "敬老朋友们——\n敬老朋友们。",
+			say = "To our old friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "现在战局逐渐明朗，我们在筹备一场对于塞壬的大型反攻作战，到时候还需要诸位的鼎力相助啊。",
+			say = "The tides of war are turning in our favour. We are presently preparing a major counterattack and would much appreciate your aid in executing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心~我来之前{namecode:441:腓特烈}特意跟我说了。你们要是准备作战行动，铁血舰队一定到场。",
+			say = "You can count on us. Before we set off, Friedrich told us to agree to help if you brought up any talks of a counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "重樱自然也是。来~我也敬大家一杯吧，敬友谊长存。",
+			say = "The Sakura Empire will assist you as well. Allow me to raise a toast next. To our friendship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			bgName = "star_level_bg_600",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "厌战&乔治五世&{namecode:461}",
-			say = "敬友谊长存！\n敬友谊长存——\n友谊长存~！",
+			actorName = "Warspite & King George V & Lützow",
+			say = "To our friendship!",
 			hidePaintEquip = true,
 			actorPosition = {
 				x = 200,
@@ -488,22 +488,22 @@ return {
 			},
 			sequence = {
 				{
-					"皇家·？？？",
+					"Royal Islands - Location Unknown",
 					1
 				},
 				{
-					"阿瓦隆之门",
+					"Royal Navy Gate",
 					2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟——嘟——",
+			say = "BEEP BEEP!",
 			bgm = "theme-camelot",
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299020,
-			say = "不行……还是无法和外界取得任何联络。",
+			say = "Bugger. I knew it wouldn't be so easy to contact the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 299020,
-			say = "前卫，你那边情况如何？",
+			say = "Vanguard, any luck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一样毫无进展。不论重新启动系统多少次，都提示“无法定位出口目标，无法开启通道。”",
+			say = "Afraid not. \"Could not construct passageway: failed to locate exit coordinates.\" I've restarted over and over, and it's the same thing every time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……和外界失去联络，又没办法主动出去，我们不是完全被困在这里了嘛！",
+			say = "We can't reach the outside and we can't escape. We're bloody stuck in Camelot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事的，等外面的人发现联系不到我们了，自然会来救援的。",
+			say = "They SHOULD send a rescue fleet once they realise they've lost contact with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "话虽如此，但只是原地等待是否有些消极……而且我有点在意无法定位出口目标的事。",
+			say = "I, for one, don't fancy twiddling my thumbs until rescue arrives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "阿瓦隆之门内一直一切正常，也就是说……变故发生在外部。",
+			say = "The teleporter can't find exit coordinates, even though nothing's changed on the inside. That means the problem is external.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "或许现在外部的情况和我们一样，也无法开启进入阿瓦隆之门的通道了。",
+			say = "Maybe they're in the same boat as us, unable to use the gate from their end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "如果更严重一些的话……或许完全观测不到我们也有可能，毕竟内外通讯已经全部断绝了。",
+			say = "In the worst case... we may have become unobservable to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真、真的么……？！",
+			say = "But then... aren't we proper screwed?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "我倒也不能确信……毕竟这里不是我修的。",
+			say = "I'm only speculating. It's not like I know how this thing works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只能说，存在这样的可能性。",
+			say = "All I'm saying is it's POSSIBLE.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对这里最了解的就是陛下……可是陛下现在人在欧罗巴，我们根本无法与她取得联系。",
+			say = "Her Majesty knows the gate better than anyone... but she's in Europa at the moment, and we obviously can't reach her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，你们那边的陛下情况如何？",
+			say = "What about Her META Majesty?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "完全、联系不上！应该是女王之光号又追到什么信号不好的地方去了吧……倒也不是没发生过这种事。",
+			say = "Not an option. She hath boarded the Queen's Light and traveled to god knoweth what place where she cannot be reached. As she so often doeth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……我们该怎么办才好？",
+			say = "Then what are we supposed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "我倒是有个想法。",
+			say = "I may have an idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "既然是实验场β的外部出现了问题，那我们开着卡美洛之庭去更远的地方观察一下实验场β，或许就能发现问题所在了。",
+			say = "If trouble has sprung up outside test site beta, we could take Camelot to a place just a bit further away. Then we may figure out what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，陛下专门下过命令。出于安全考虑，没有她的许可，任何人都不能启动卡美洛之庭。",
+			say = "Her Majesty explicitly ordered us not to use the gate without her permission, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可是如果不启动卡美洛之庭摆脱干扰，要怎么才能联系到你们的陛下？",
+			say = "And how are we supposed to GET her bloody permission in the first place, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "那倒也……是。",
+			say = "I see your point, but still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "欸呀~这种时候，肯定会有什么预案能用上吧，你仔细想想嘛。",
+			say = "We were endowed with brains for times like these. Go on, let's hear some alternative ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……陛下有一次好像随口说过……在紧急情况下，我有权启动一次卡美洛之庭。",
+			say = "Well... Her Majesty DID say I had permission to use the gate one single time in the event of an emergency, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "那不就得了~现在就是紧急情况呀！",
+			say = "Mean thou to say this is NOT an emergency?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你说的对，现在就是紧急情况！",
+			say = "You're right. It is. There's no other way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "那你们给我一个坐标，我立刻启动卡美洛之庭。",
+			say = "Then input a set of coordinates and I'll activate the gate at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "欸……",
+			say = "Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "唔……",
+			say = "Err...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "呃……",
+			say = "Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家……都不知道坐标怎么设置么？",
+			say = "For the love of... Do none of you know how to input coordinates?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不知道，我只负责战斗和追踪任务。",
+			say = "Fighting and hunting are my fortes, not operating teleporters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "人家才刚来不久，每天都待在玫瑰区里改建防御设施，不知道怎么弄哦~",
+			say = "I've been far too preoccupied setting up defences in the Rose Block to learn such things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -973,7 +973,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "声望和反击小姐呢？算时间的话，她们才是待得最久的吧？",
+			say = "What about you, Repulse and Renown? Ye came here before the rest of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900327,
-			say = "时间长倒是长……不过你看看我和姐姐，你觉得我们会弄么？",
+			say = "Do we LOOK like we know how that thing works? Coming first doesn't automatically make us experts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这下麻烦了……一直以来，坐标都是由陛下亲自提供的。",
+			say = "Ugh. Great... Then Her Majesty is likely the only one who knows how.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有坐标的话，我就算有启动权限……也不知道该怎么让卡美洛之庭动起来。",
+			say = "Having her permission means nothing if we can't use the damn thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不然……让我来试试？",
+			say = "I'll do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前我有偷偷研究过卡美洛之庭的坐标结构，也亲自操作过。",
+			say = "I've fed it coordinates once before and I know more or less how the machine works.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你之前那次只是误打误撞吧！",
+			say = "Only because you were so reckless back then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "况且陛下自从那次之后，就已经把机器里预设的所有坐标都删除了。",
+			say = "Still, it's not that simple. All the coordinates that were stored on it have been erased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "看来只能使用最终手段了。我们用暴力手段破开阿瓦隆之门的外壁——",
+			say = "It seems we've no other choice. We must punch a hole through the outer barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绝对不行——！",
+			say = "No, no, NO! Don't even think about it, Renown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "那我也没主意了。",
+			say = "Hmph. Very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701050,
-			say = "看来乖乖等在这里才是上策呢~说不定一会我们跟陛下的联络恢复了，或者外面有救援抵达了，危机自然就解除了。",
+			say = "Simply waiting doth seem our best option. Either Our Majesty wilt come, or yours wilt send a rescue fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1165,7 +1165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "看来也只能如此了……那大家回归各自的岗位，继续处理手头的工作吧。",
+			say = "Our best and ONLY option. Ugh... Return to your posts and resume your work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

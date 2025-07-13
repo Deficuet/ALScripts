@@ -1,8 +1,166 @@
 pg = pg or {}
 pg.enemy_data_statistics_27 = {
+	[90807] = {
+		cannon = 0,
+		name = "Shadow of Corruption - Gale",
+		type = 2,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90807,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "wuxing_CL",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 180,
+		wave_fx = "danchuanlanghuazhong2",
+		prefab = "wuxing_CL",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.74,
+					1.28,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.18,
+					0.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.13,
+							0.77,
+							-0.48
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.67,
+							1.02,
+							-0.19
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanheiyan_CL = 1.3
+		},
+		appear_fx = {
+			"appearsmall",
+			"danchuanheiyan_CL"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90808] = {
 		cannon = 0,
-		name = "「无形之息-环流」",
+		name = "Shadow of Corruption - Reflux",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -173,7 +331,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90809] = {
 		cannon = 0,
-		name = "「无形之息-大地」",
+		name = "Shadow of Corruption - Terra",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -344,7 +502,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90810] = {
 		cannon = 0,
-		name = "「无形之息-天空」",
+		name = "Shadow of Corruption - Welkin",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -516,7 +674,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90811] = {
 		cannon = 0,
-		name = "「无形之息-火山」",
+		name = "Shadow of Corruption - Volcano",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -667,7 +825,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90812] = {
 		cannon = 0,
-		name = "「无形之息-深渊」",
+		name = "Shadow of Corruption - Abyss",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -816,7 +974,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90813] = {
 		cannon = 0,
-		name = "「无形之息-X半影」",
+		name = "Shadow of Corruption - Penumbral X",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -955,7 +1113,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90814] = {
 		cannon = 0,
-		name = "「无形投影-驱逐舰」",
+		name = "Shadow of Corruption - Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1112,7 +1270,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90815] = {
 		cannon = 0,
-		name = "「无形投影-轻巡洋舰」",
+		name = "Shadow of Corruption - Light Cruiser",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1269,7 +1427,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90816] = {
 		cannon = 0,
-		name = "「无形投影-重巡洋舰」",
+		name = "Shadow of Corruption - Heavy Cruiser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1426,7 +1584,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90817] = {
 		cannon = 0,
-		name = "「无形投影-战列舰」",
+		name = "Shadow of Corruption - Battleship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1583,7 +1741,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90818] = {
 		cannon = 0,
-		name = "「无形投影-航空母舰」",
+		name = "Shadow of Corruption - Aircraft Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1733,7 +1891,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90819] = {
 		cannon = 0,
-		name = "「无形投影-暗面」",
+		name = "Shadow of Corruption - Umbral Core",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1890,7 +2048,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90820] = {
 		cannon = 0,
-		name = "朝凪",
+		name = "Asanagi",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2046,7 +2204,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90821] = {
 		cannon = 0,
-		name = "初月",
+		name = "Hatsuzuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2202,7 +2360,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90822] = {
 		cannon = 0,
-		name = "瑞凤",
+		name = "Zuihou",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2351,7 +2509,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90823] = {
 		cannon = 0,
-		name = "企业",
+		name = "Enterprise",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2504,7 +2662,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90824] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "Weights of Equilibrium",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2673,7 +2831,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90825] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "Weights of Equilibrium",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2842,7 +3000,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90826] = {
 		cannon = 0,
-		name = "伊势改",
+		name = "Ise (Retrofit)",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2999,7 +3157,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90827] = {
 		cannon = 0,
-		name = "日向改",
+		name = "Hyuuga (Retrofit)",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3155,7 +3313,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90828] = {
 		cannon = 0,
-		name = "伊势级量产型",
+		name = "Mass-Produced Ise Class",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3323,7 +3481,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90829] = {
 		cannon = 0,
-		name = "秋月级量产型",
+		name = "Mass-Produced Akizuki Class",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3478,7 +3636,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90830] = {
 		cannon = 0,
-		name = "阳炎级量产型",
+		name = "Mass-Produced Kagerou Class",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3633,7 +3791,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90831] = {
 		cannon = 0,
-		name = "白雪",
+		name = "Shirayuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3789,7 +3947,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90832] = {
 		cannon = 0,
-		name = "科律治城邦-护卫舰",
+		name = "Collegepolis Corvette",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3942,7 +4100,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90833] = {
 		cannon = 0,
-		name = "繁星城邦-巡航舰",
+		name = "Stellapolis Frigate",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4095,7 +4253,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90834] = {
 		cannon = 0,
-		name = "别兰特城邦-战列舰",
+		name = "Plantpolis Ship of the Line",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4263,7 +4421,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90835] = {
 		cannon = 0,
-		name = "王座城邦-大型战列舰",
+		name = "Crownpolis Man-of-War",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4429,7 +4587,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90836] = {
 		cannon = 0,
-		name = "新世界-快速帆船",
+		name = "New World Clipper",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4580,152 +4738,6 @@ pg.enemy_data_statistics_27 = {
 		},
 		hp_bar = {
 			200,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90837] = {
-		cannon = 0,
-		name = "新世界-火攻船",
-		type = 16,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90837,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "fengfan_zibao",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 16,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 30,
-		luck = 0,
-		antisub = 0,
-		scale = 200,
-		wave_fx = "danchuanlanghuaxiao2",
-		prefab = "fengfan_zibao",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 96,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.112,
-							0.664,
-							0
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.473,
-							1.283,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
 			4
 		},
 		equipment_list = {},

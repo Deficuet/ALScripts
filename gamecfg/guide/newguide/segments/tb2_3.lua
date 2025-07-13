@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "与娜比娅的日常交流也是重要的养成环节",
+				text = "Day-to-day conversations with Navi are instrumental to her growth.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当出现对话气泡时，就代表娜比娅想要与指挥官聊天哦",
+				text = "When a speech bubble appears, it means that she wants to talk to you.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击看看娜比娅想说些什么吧！",
+				text = "Tap on it and see what she has to say.",
 				mode = 2,
 				dir = -1,
 				char = 1,

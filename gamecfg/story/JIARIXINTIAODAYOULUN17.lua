@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "当我抵达宴会厅的时候，发现{namecode:224:哈尔滨}正在门口等我。",
+			say = "When I arrive at the banquet, I find that Harbin is already there, waiting for me.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你可算来了！就等你了！",
+			say = "Great of you to show, Commander! Been waiting for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599012,
-			say = "哎呀，快来快来，都这种时候就别傻站着了。来来来大家给指挥官让个位置！",
+			say = "C'mere, don't just stand there. Hey, everyone! The Commander's arrived! Open 'er up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "金碧辉煌的宴会厅中，大家有说有笑，俨然一幅惬意悠哉之景。",
+			say = "A beautiful sight unfolds – the banquet is filled with people laughing, chatting, and generally having a good time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "众人各自围坐的圆桌上盛满了各色美食，而一旁的长桌上也摆放着造型精美的甜品台。",
+			say = "There are tables lined from end to end with various cuisines. There is even an ornate dessert stand atop one of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉怎么样？是不是食指大动了？哈哈哈，快坐下尝尝吧！",
+			say = "Whaddya think? Really gets the stomach grumbling, doesn't it? Have a seat and chow down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,11 +124,11 @@ return {
 			},
 			options = {
 				{
-					content = "看上去就很美味！",
+					content = "Man, this smells delicious!",
 					flag = 1
 				},
 				{
-					content = "太豪华了吧？！",
+					content = "You really went all out!",
 					flag = 2
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599012,
-			say = "那是！为了庆贺，我可是做了很多准备的！",
+			say = "For sure! Tons of good grub livens up any party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599012,
-			say = "为了保证大家能吃到原汁原味的美食，我还从东煌提前运了不少食材过来。",
+			say = "I had crates and crates of ingredients shipped in from the Empery to give everyone a taste of our home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599012,
-			say = "当然，其它阵营的同伴也出了不少力，她们付出的也不比我少，哈哈哈。",
+			say = "Of course, I couldn't have done it alone. All the folks who helped are the party's real MVPs! Ahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家都在厨房拿出看家本领了，指挥官只需要享受就行了。",
+			say = "The chefs 'mong us are flexing their cooking muscles in the kitchen, so all you gotta do is enjoy their food!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，本来本王也想让大家见识下传统皇家美食的，但是大家纷纷求着本王只负责下午茶和甜品的部分……",
+			say = "Hmph. I hoped to flaunt the Royal Islands' traditional cuisine, but the plebeians all insisted we keep it strictly to tea and desserts...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是实在太美味了，无法忘怀。呵呵呵，真是拿大家没办法啊~",
+			say = "\"They're so delicious we can't get them out of our mind,\" they said. Bollocks! Suit yourselves, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（伊丽莎白看上去还挺开心的……太好了，至少这次不用品尝传说中的皇家料理了……）",
+			say = "(She's complaining, but she's happy in spite of that. Thank god I won't have to eat Royal cuisine this time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "呜呜呜……姐姐我本来也想露一手的！结果被安保团队拦在了厨房外……",
+			say = "*sigh*... And I wanted to display my cooking skills as well, but the Security Committee stopped me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "我也是有认真在学习做菜的哦！还想着让指挥官好好品尝一下姐姐我的手艺呢……QuQ",
+			say = "I've been practicing really hard, I promise! I just wanted you to taste how far I've come, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,11 +287,11 @@ return {
 			},
 			options = {
 				{
-					content = "安保团队，Good Job！",
+					content = "Good job, Security Committee!",
 					flag = 1
 				},
 				{
-					content = "安慰济安",
+					content = "There, there.",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也不信任我手艺吗……姐姐我好伤心哦。",
+			say = "Even YOU don't believe me? *sob*... I'm hurt...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "其实是今天的菜已经够多了，我怕浪费。之后再单独做给我吧？",
+			say = "No, I mean that there's more than enough food as it is and I'd hate to see it go to waste. You can cook just for me another time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "没关系，总有机会下厨的。",
+			say = "Don't be sad. There's always next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "接下来的旅途中总还有机会进厨房的，现在先享受宴会如何？",
+			say = "The cruise only just started. You'll get your chance to cook soon! For now, just enjoy the party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "真的吗？我一定会让指挥官吃到的！",
+			say = "You mean it? You have to promise you'll eat what I make, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "在宴会进行了一段时间后，黎塞留端着一只高脚杯，缓步走向了宴会厅的中心。",
+			say = "As the celebrations continue, I see Richelieu leisurely walk up to the center of the hall, wine glass in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "大家今天欢聚在这里，一起参与庆祝假日邮轮的启航之宴……",
+			say = "My dear friends, thank you for gathering here today to celebrate this voyage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "这艘由港区内的大家齐心协力建造的、用于度假的豪华邮轮，离不开指挥官的鼎力支持。",
+			say = "She will surely carry us on many luxurious pleasure cruises. Though she was built through all our efforts, none of those efforts would've been possible without the Commander's support.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在，就请指挥官说些祝酒词吧？",
+			say = "I'd like to call the Commander up to give us a few words.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯？来之前也没说过有这个环节啊……）",
+			say = "(Wait, what? Nobody said I'd have to deliver a speech!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "似乎是看出了我眼神中的疑惑，坐在我身边的{namecode:435:俾斯麦}开了口。",
+			say = "Sensing my hesitation, Bismarck in the seat next to me chimes in to encourage me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "这也是身为领导者的责任，即兴发挥一下吧。",
+			say = "This is your responsibility as a leader. It's okay if it's off the cuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我相信指挥官你一定可以的。",
+			say = "I know you can handle yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……确实，什么都不说有些说不过去。",
+			say = "No backing off when the spotlight calls your name, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,19 +528,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "将椅子向后挪了挪，我端着高脚杯，从座位上站起身。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "感谢大家汇聚在这里，这次的邮轮可以顺利落成，完全是大家的功劳。",
+			say = "I push my chair back a bit, pick up a wine glass, and rise to my feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +540,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我就不说什么煽情的话了，好好享受这次的邮轮度假之旅吧，放松一下精神。",
+			say = "Thank you, everyone, for creating and gathering at this place. Without you, this cruise ship would've never gotten off the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +552,19 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么……干杯！",
+			say = "I don't have anything profound to say, only this – I hope you have a relaxing, pleasant cruise.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Cheers to us all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "干杯——",
+			say = "Cheers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干杯。",
+			say = "Cheers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，干杯！",
+			say = "You too, servant. Cheers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉妹妹也来——干杯！",
+			say = "Cheers to us all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯！",
+			say = "Cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干杯~！",
+			say = "Cheers♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这样所有人欢聚一堂的场景，真是令人心潮澎湃。",
+			say = "It warms my heart to see every last one of us gathered in one place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "谨以我个人的名义，这杯敬你，指挥官同志。",
+			say = "I raise this toast for you in particular, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，没错。大家都会和指挥官一起，朝着更美好的明日迈进哦。",
+			say = "Don't we all? Together with you, Commander, we're all headed for a better tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "在彼此碰杯和各种祝福之中，度过了剩下的宴会时光。",
+			say = "Amids clattering glasses and jubilant toasts, the party reaches its climax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "吃饱喝足，接下来就去邮轮上四处看看吧。",
+			say = "I've had my fill, so it's time to get up and have a walk around the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

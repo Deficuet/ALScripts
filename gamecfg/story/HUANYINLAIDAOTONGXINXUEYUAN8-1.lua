@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "经过一番波折，众人终于成功离开了理性办公楼。",
+			say = "Eventually, the team managed to solve the problem in the admin building.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "指挥官，校园内的主要建筑我们都调查一遍了。接下来——",
+			say = "Commander, we've finished investigating all of the main facilities in the academy now. Next–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等。指挥官，我有一个紧急情况需要汇报。",
+			say = "Sorry to interrupt. Commander, I have an urgent report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "我们已经确认，「校园陪伴系统」的系统终端就位于校园总控室中。",
+			say = "The Academy Companion System terminal has been found inside the campus control room.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而失联的{namecode:37:夕张}，很可能也在那里。",
+			say = "Yuubari should be there, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（总控室……那看来那里就是本次异常的发生源头。）",
+			say = "(The control room... It seems likely that's where this all began.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,10 +122,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "召集其余两支小队，所有人向总控室的位置集中。",
+			say = "Contact the two investigation teams and have them meet up there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "明白~",
+			say = "Roger~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "童心学院·总控室",
+			say = "Little Academy - Control Room",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "总控室中，巨大的屏幕上闪烁着的彩色噪点，拼凑成了同校园门口相同的标语。",
+			say = "In the control room, there's a giant screen flickering with colorful static while it displays the same slogan as the banner at the gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "——“童真，可爱的乐园”。",
+			say = "\"A little paradise for the pure, innocent, and mischievous.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "操作面板前，站着一只巨大的异常石膏喵，眼中闪烁着危险的蓝光。",
+			say = "In front of the control panel, a giant Meowfficer bust stands with an intimidating blue gleam in its eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "而正在与它对峙的人——",
+			say = "And the one facing that Meowfficer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "是{namecode:37:夕张}！指挥官，我们找到{namecode:37:夕张}了！",
+			say = "It's Yuubari! Commander, we found her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了……你们的支援终于到了。",
+			say = "Thank goodness... You're all here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,10 +261,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:37:夕张}，现在的情况如何了？",
+			say = "Yuubari. How's the situation in there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "陷入了僵局……不过有了你们的帮助，这场危机一定能得到化解。",
+			say = "It's still a stalemate... But with your help, we can get through this danger, no problem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}一边警惕异常石膏喵，一边简单快速地说明了情况。",
+			say = "Wary of the giant Meowfficer bust, she briefly explains the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "原来，{namecode:37:夕张}今天本应该对陪伴系统进行常规的检查维护，可就在她将系统关停的瞬间，异常事态发生了。",
+			say = "Today is routine maintenance of the Academy Companion System. When she shut it down to perform said maintenance, everything went haywire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "本该被关停的系统陷入了某种异常启动模式，大量石膏喵源源不断走下了生产线。",
+			say = "When it should've shut down, the system began an abnormal startup and started producing endless Meowfficer busts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "而就在{namecode:37:夕张}转而处理生产线问题的时候，一个巨大的身影突袭了{namecode:37:夕张}，抢走了她的工具箱。",
+			say = "When Yuubari was forced to focus on the production issue, something took advantage of the opening to steal her toolbox.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "再之后，就出现了那个笼罩整片学院的特殊空间。",
+			say = "Then, the anomaly appeared and covered the entire academy. That was when we at the port learned about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,10 +347,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可以基本认定，袭击{namecode:37:夕张}和制造出特殊空间的“人”，就是那个此刻正在总控室中与{namecode:37:夕张}对峙的巨大石膏喵……",
+			say = "It's evident that the Meowfficer right there is the one that stole your toolbox and made a mess of everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。等我再次醒来的时候，一切都晚了……",
+			say = "Yeah. By the time I realized it, it was too late...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "还好，整个陪伴系统还有最后一道保险。",
+			say = "But the Companion System has one final safety feature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "{namecode:37:夕张}指了指自己手中紧握的操纵杆。",
+			say = "She gestures at the lever she's holding tightly in one hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当我拉下操纵杆后，它必须在五秒内摁下控制台上的正确按钮，无效我的指令，否则陪伴系统的电源将被强制切断。",
+			say = "When I pull this lever, unless the correct sequence of buttons is pressed in five seconds, the Companion System's power source will be forcibly cut off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "而当它要过载陪伴系统将影响进一步扩大时，我也必须拉下操纵杆无效它的指令。",
+			say = "Alternatively, if it tries to overload the Companion System to expand this special space, I'll need to pull this lever in order to nullify the overload.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302019,
-			say = "所以……如各位所见，此处就变成了这幅陷入僵持的景象……",
+			say = "So... As you can see, whoever acts first loses in this state.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,11 +457,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "永葆童心·石膏喵",
+			actorName = "Meowfficer Bust of Innocence",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵~~~~~！",
+			say = "MREEEEOW!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "原来如此~原来如此~",
+			say = "Heheh, I see~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是现在我们来了，平衡就该打破了吧？",
+			say = "So basically, it's up to our interference to break the stalemate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "行动目标，击败异常石膏喵！",
+			say = "Mission objective: defeat the crazy Meowfficer bust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "只要打败它，我们就可以回去了！",
+			say = "If we take that thing down, we can all go home!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307140,
-			say = "回去……有软软的、舒服的床，还有指挥官……",
+			say = "At home... Soft, comfy bed, and the Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "大家，冲鸭——！！",
+			say = "Let's go for it, everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1

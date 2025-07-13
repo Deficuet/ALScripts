@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"首先通过“预订”从{namecode:98}的商店获取喵箱！"
+	"Start by going to the Buy menu to purchase a Cat Box from Akashi!"
 }
 
 return {

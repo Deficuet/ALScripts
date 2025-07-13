@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，想玩捉迷藏！安克雷奇躲起来，{dorm3d}，找！",
+			say = "Anchorage wants to play hide-and-seek! I'll hide. {dorm3d}, you look for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "3、2、1……安克雷奇藏好了！",
+			say = "Three, two, one... Okay, I hid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "好像还在原地完全没动啊……？",
+			say = "Er... You don't seem to have gone anywhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因为……安克雷奇，想要快点被{dorm3d}找到！不然，会寂寞……",
+			say = "Yeah... Anchorage wanted you to find me soon! Or else I'd be lonely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "输、赢，不重要……和{dorm3d}玩，开心，重要！",
+			say = "Losing is okay! Because playing with {dorm3d} is fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

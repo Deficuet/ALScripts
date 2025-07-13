@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>三　摇曳的灯火·上</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>3 A Light in the Darkness</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "借助应急灯和海伦娜来到了线路箱所在的位置。",
+			say = "Helena and I relied on the backup lights to find our way to the breaker room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚一接近，一股烧焦的气味就扑鼻而来……看来一时半会是无法修复了。",
+			say = "A scorched smell lingered in the air when we got to the power station. Whatever broke here, fixing it wouldn't be quite so easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我记得仓库里好像放着一台应急用的小型发电机……",
+			say = "Commander, I think we have a small generator over in the depot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用那个的话……应该能解决今晚的照明问题。",
+			say = "If we can get it online, we should be good on power... for a while, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们一起去把它找出来吧……？",
+			say = "Let's head there together, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥室大楼地下的结构十分复杂，再加上停电的影响，实在有些难以摸清方向。",
+			say = "This building's confusing layout was only made worse by our inability to see anything in the dark. Getting lost seemed an inevitability...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "是这边吗？——不对，这边是档案室。是那边么？似乎也不对……",
+			say = "\"Is it this way? No, that leads to the archives... What about that way? Wait, that's not right either...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，存放发电机的区域，好像是往这边走……",
+			say = "The depot is this way. Or at least, I'm pretty sure it is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			},
 			options = {
 				{
-					content = "海伦娜，你对这里熟悉吗？",
+					content = "\"Do your notes include a blueprint of this place, or...?\"",
 					flag = 1
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没有，只是很久之前来过一次，所以有一点点印象……",
+			say = "Oh, not exactly. It's just that I've been here once before, so I know roughly where to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我记得，应该是先往右边，然后往左，之后再往左……",
+			say = "If I remember right, we just have to turn right here, then left, then left again, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "跟着海伦娜前进，很快便到达了仓库的位置。",
+			say = "I let Helena lead the way, and after just a short while, we'd made it to the depot.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "仅仅来了一次就记住这么复杂的路了么……真厉害。",
+			say = "Did she really memorize such a complex layout after just one prior visit? That was amazing, if so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不过找到仓库只是第一步，接下来还要在众多的物品中找到那个应急发电机——",
+			say = "\"Well, we're here. Now the question is, how are we going to find a needle in a haystack? The generator could be anywhere.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发电机的话，我记得…...好像是在这里。第十二排第一层的位置？",
+			say = "I'm fairly sure it should be over in... aisle twelve, first shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……呼~太好了，没有记错……！",
+			say = "Ah, there it is! Thank goodness my memory didn't betray me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "居然连具体位置都记得这么清楚……",
+			say = "She even remembered its exact location. I was stunned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			},
 			options = {
 				{
-					content = "海伦娜的记忆力，真的很厉害啊。",
+					content = "\"You've got a memory like an elephant.\"",
 					flag = 1
 				}
 			}
@@ -349,7 +349,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？没有的事啦，只是稍微有些印象而已……",
+			say = "Please, that's not true. I just had a gut feeling it would be here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接，接下来还要找到配套的燃油……",
+			say = "Also, uh... We're going to need some fuel for the generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "不知为何，在一片昏暗之中似乎看到了海伦娜脸颊上出现的一抹红晕。",
+			say = "Even in near pitch-black darkness, I could tell my compliment made Helena smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "伴随着发电机嗡嗡的运转声，指挥室重新恢复了光明。",
+			say = "We found some fuel and got the generator started. The office lights lit once more.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -428,7 +428,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能正常运转真是太好了……接下来…...",
+			say = "That takes care of that. Now we should probably–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……？！发电机？对不起，对不起…….",
+			say = "Eek! Oh god! Did I do something wrong?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不用紧张，不是操作错误引起的。",
+			say = "\"No, it's fine. I doubt that flickering was because of you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看来是发电机因为老化性能下降了……总之先关掉一些用电设施……只开一盏台灯试试吧——",
+			say = "\"The generator's probably just gotten weaker over the years. Let's turn off all the non-essentials and use my desk lamp for light.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "暖黄色的灯光点亮了指挥室的一隅。和坐在身旁的海伦娜一起分享着这来之不易的光明。",
+			say = "The office was bathed in the faint glow of a lone light bulb atop my desk. Helena and I found a cozy spot to sit down and rest for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

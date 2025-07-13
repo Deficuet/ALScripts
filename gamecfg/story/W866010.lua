@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "使用验场气候调节装置可以消除5x5区域内的所有浮冰，是否确认使用？",
+			say = "Using the Weather Control Device lets us temporarily melt all the ice floes in a 5x5 tile area. What should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "Use the device.",
 					flag = 1
 				},
 				{
-					content = "否",
+					content = "Do nothing for now.",
 					flag = 2
 				}
 			}

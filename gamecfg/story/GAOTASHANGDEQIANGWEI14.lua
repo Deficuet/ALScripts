@@ -8,10 +8,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一片陌生的荒芜。",
+			say = "Once the light fades, I find myself in a wasteland I've never seen before.",
 			bgm = "story-antix-past",
 			location = {
-				"？？？·？？？",
+				"Unknown location",
 				3
 			},
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "原本巨大的蓝黑色鲸鱼变为了黄黑色，大小也缩小成了两米左右，悬浮在地面数公分之上，如同一个可爱的游乐园儿童骑乘设施。",
+			say = "The dark-blue whale has turned a yellowish black and shrunk to about two meters in size. It floats a few centimeters above the ground, making it look like an amusement park ride for children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哇哦，助手助手你快看！我可以骑上去哦！",
+			say = "Heeey! Assistant, look! I can ride it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "我还可以骑着它飞来飞去哦~！",
+			say = "I can even fly around on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "跟屁虫也不见了——好像这次郊游也不错嘛！",
+			say = "My stalker's gone, too! This trip turned out pretty rad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "芜湖——骑鲸鱼飞咯~！",
+			say = "Woohoo! Whale flying, whale flying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "D小姐非常开心地玩了起来，俨然已经将这场突发危机定义为了“郊游”。",
+			say = "Miss D gleefully rides the whale. She apparently sees this terrifying situation as a fun little trip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,20 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "另一边，构建者则——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "已经修建起来一个临时指挥部了！？",
+			say = "Meanwhile, Compiler...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,85 +142,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你修建设施的速度真是惊人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "还好。我正在确认周边区域情报。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "从地形图上分析，我们此刻位于皇家本岛威尔士南部的格拉摩根谷地区。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "根据土地成分分析，这里过去发生过激烈的战斗，不过在最近三年内都没有爆发过任何冲突。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我检测到了，“我”，也就是构建者留下的信号。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "但是并未检测到主机塔或同类机体的存在。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900230,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "推测，我们来到了某处实验场，而且此处的实验机关已经处于毁灭状态。",
+			say = "You already built a command center?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +155,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "短时间内就已经掌握了这么多情报么……你们还真是厉害。",
+			say = "Your compiling speed is jaw-dropping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +168,72 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还好。更多情况还在确认中，你可以先去搭建好的建筑中休息。",
+			say = "Not especially. Confirming information on our environs.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "According to the topographical map, we are currently in the Vale of Glamorgan in southern Wales.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Analysis of the land composition yields traces of fierce combat in the past. However, there have been no major battles here in the past three years.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I've also detected a signal left by me – by Compiler.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "However, there is no mainframe or similar vessel nearby.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hypothesis: This is a test site, but the experimentation division has been destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +246,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "机会难得，我想近距离观察你的工作。",
+			say = "You learned all of that just now? Impressive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,29 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "随你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			say = "说话并没有影响构建者继续手头的工作。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			say = "无数微型机器人从它的舰装中飞出，一些升入高空、一些钻入地下，还有一些向着大海的方向飞去。",
+			say = "Not especially. Continuing situation analysis. Recommendation: Go to the nearby building to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +272,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你现在是在做什么？",
+			say = "No, thank you. I don't get to see you work often, so I'd like to observe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +285,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我现在只有本地性能，在无主机塔支持的情况下，能做到的事情很有限。",
+			say = "Do as you please.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			say = "Even throughout our conversation, she doesn't stop her analysis.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			say = "A flock of microdrones flies out of her rigging. Some go up into the sky, some dig underground, and yet others fly toward the ocean.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "What are you doing now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，我正在寻找有修复潜力、或者进入休眠状态的设施，以增强我的实力。",
+			say = "I am only able to use local resources at this moment. Without my mainframe, my capacity is limited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可能的话，我想要尽快重建主机塔。",
+			say = "Thus, I am searching for repairable and dormant facilities in order to bolster my resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……有新发现了。",
+			say = "If possible, I prefer to build a new mainframe as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在附近找到了一处具有修复价值的沿海军用集成模块……你可以理解成尚未进行组装的模块化军事基地。",
+			say = "...There.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，很好，防御模块和量产型生产模块都完好无损。",
+			say = "I've found an integrated coastal military module nearby that is worthy of repair. Think of it as a modular base that has not yet been assembled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,18 +398,31 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们可以去那里建立一支量产型护卫舰队，然后固守待援。",
+			say = "...Good. The defense module and mass-production module are both intact.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900230,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "We can construct a mass-produced escort fleet to defend ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这就是塞壬的扩张效率么……",
+					content = "Wow. You Sirens are incredibly efficient.",
 					flag = 1
 				},
 				{
-					content = "你们真是天生的战争机器……",
+					content = "It's like you're born for war.",
 					flag = 2
 				}
 			}
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "还好。",
+			say = "Not especially.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "当然，这本就是我们诞生的理由。",
+			say = "I was, so yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "移动方式的话……",
+			say = "As for a means of travel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "大鲸鱼——！",
+			say = "Whale!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "坐我的大鲸鱼，坐我的大鲸鱼！",
+			say = "Ride my whale! Get on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "构建者无言，只是改变了部分舰装结构，让其看上去变成了某种大型悬浮装甲车。",
+			say = "Miss D's pleas fall on deaf ears, as Compiler transforms part of her rigging into a sort of hovering armored vehicle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "做鲸鱼，还是坐车？",
+			say = "Whale, or truck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,18 +541,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "哇哦，虽然不如我的鲸鱼，但你这个也很酷！",
+			say = "It's no whale, but your thing's pretty cool, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "坐车！",
+					content = "I want the truck!",
 					flag = 1
 				},
 				{
-					content = "骑鲸鱼！",
+					content = "Whale time!",
 					flag = 2
 				}
 			}
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "明智的选择，走了——",
+			say = "Wise decision. Let us go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "芜湖——鲸鱼骑士，出~发~咯~！",
+			say = "Woohoo! Let's go, whale rider!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

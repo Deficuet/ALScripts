@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=45>四　庆典一隅</size>",
+					"Ceremonial Gala\n\n<size=45>Chapter 4: The Festival</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "你看，这边是厨神大赛，我记得是明天开赛，场地已经完全布置好了呢。",
+			say = "So this is for the big cooking competition. It's tomorrow, but they got it all set up already.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条路通往海边，牌子上写的是……“赶上夏日的尾巴！泳装大赛期待你的到来！”",
+			say = "And over here's... Some kinda... \"Swimsuit Competition\"? Reeaally?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -91,7 +91,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明才刚加入舰队，你还真是了解呢。",
+			say = "You sure seem to know a lot for someone who only just joined the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，我可是打算在庆典里玩个痛快的呢，当然要做好功课啦~",
+			say = "Ehehee. I'm just making sure I'm gonna have a good time at this festival. Of course, I did my homework~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,7 +128,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以{namecode:97}你这样把自己关在房间里太可惜啦！",
+			say = "You see how sad it is you've cooped yourself up in your room like that, Taihou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“在最后的宴会上穿着亲手制作的礼服和指挥官大人共同度过一个美好的夜晚！”才是我唯一的目的哟，其他的事都无关紧要——",
+			say = "I have only one goal for this festival: To wear a handmade dress to the party and share a beautiful evening with my Commander! Nothing else matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦，好像有什么声音……",
+			say = "Oh, what's that sound?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是……乐器声？噢，是{namecode:2}和{namecode:414}啊！换了衣服差点认不出来了……",
+			say = "I think it's... music? Oh! It's Fubuki and U-81! I almost didn't recognize them in those outfits... Hey, Fubuki!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,43 +190,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			actor = 108020,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "喂，{namecode:2}！！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.2,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = -1,
 			actor = 301013,
-			actorName = "{namecode:2}",
-			say = "呜————————————！……欸，谁叫我？",
+			dir = -1,
+			nameColor = "#a9f548",
+			say = "Achoo! ... Did somebody call me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +215,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边这边~",
+			say = "Over heeeeere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +241,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是潜艇的朋友呢！{namecode:2}，一起过去看看吧！",
+			say = "Oh, she's from the submarine squadron! Come on, Fubuki!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,11 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = -1,
 			actor = 301013,
-			actorName = "{namecode:2}",
-			say = "诶等等啊！我拿着这个大号不能跑的啊——",
+			dir = -1,
+			nameColor = "#a9f548",
+			say = "Hey, wait up! I'm hauling this huge tuba, I can't run that fa–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +274,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:2}你拿的这个是什么啊？",
+			say = "What the heck is that thing, Fubuki?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -335,8 +307,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actorName = "{namecode:2}",
-			say = "啊这个是大号啦，女将她不是在召集一个管弦乐队在宴会的时候奏乐吗？我觉得挺好玩的就参加了",
+			say = "Oh, it's a tuba. Amazon's been putting together an orchestra to play at the party. It sounded fun, so here I am.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -357,7 +328,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（呵呵，管弦乐队吗……正好，到时侯为了我和指挥官大人的登场而奏出最美妙的乐章吧）",
+			say = "(Heh heh, an orchestra, huh? Perfect. A beautiful symphony will provide accompaniment to the union of Taihou and her Commander.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +345,7 @@ return {
 			actor = 408011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶，{namecode:2}你会吹大号吗？",
+			say = "Huh? You know how to play the tuba?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +359,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = -1,
 			actor = 301013,
-			actorName = "{namecode:2}",
-			say = "不会哦！",
+			dir = -1,
+			nameColor = "#a9f548",
+			say = "Nope!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,11 +376,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = -1,
 			actor = 301013,
-			actorName = "{namecode:2}",
-			say = "……啊啊啊我已经在努力的练习啦！不要用那种眼神看着我！",
+			dir = -1,
+			nameColor = "#a9f548",
+			say = "... Errrm but I've been practicing a lot! Don't look at me like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +406,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "额……啊！港区第一武道会决赛好像马上开始了！大家都一起去看看吧！",
+			say = "Um... Oh! There's some kind of Martial Arts Tournament thingy that's about to start! Let's go watch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +423,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘁，打扰了我为心爱的指挥官准备衣服的时间，还一路磨蹭的不知道是哪里的谁……喂，等我一下！",
+			say = "Hrmph, you keep wasting the time I should be using to prepare my dress for my Commander. Not to mention... Hey! Wait for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,8 +450,8 @@ return {
 			side = 0,
 			dir = -1,
 			hideOther = true,
-			actorName = "{namecode:414}&{namecode:2}",
-			say = "……这两个人为什么会突然凑在一起的？",
+			actorName = "Fubuki&U81",
+			say = "... Why are those two together?",
 			subActors = {
 				{
 					dir = -1,
@@ -499,12 +468,11 @@ return {
 		},
 		{
 			actor = 303030,
-			actorName = "司仪·{namecode:55}",
-			bgName = "bg_story_school",
 			side = 2,
-			dir = 1,
+			bgName = "bg_story_school",
 			nameColor = "#a9f548",
-			say = "战斗~~结束！！虽然{namecode:96}之前以高调的姿态一路高歌猛进，拿下了冠军，但在不败的王者——企业面前，她终究还是败下阵来！",
+			dir = 1,
+			say = "And that's the end!! While Zuikaku made a good showing and looked like she was set to take the crown, the grand champ herself, Enterprise, came in and crushed her dreams!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -538,7 +506,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好热烈的掌声……好像还是来晚了欸。",
+			say = "The crowd's going wild... Looks like we're late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +523,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官大人……啧，不在啊……难怪不管是味道脚印还是【哔-】都感觉不到指挥官大人的存在——",
+			say = "My Commander? Hmph... No. Not here. I know my Commander's scent (sniff) and it's not here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,12 +535,11 @@ return {
 		},
 		{
 			actor = 301013,
-			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
 			dir = -1,
-			actorName = "{namecode:2}",
-			say = "呼呼！嗯嗯，胜利的大号感觉不错呢！",
+			say = "Toot toot!! Yeaaah! Victory tubaaaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +556,7 @@ return {
 			actor = 408011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呃……{namecode:2}你在旁边一直吹号最后谁赢了都没听清……",
+			say = "Oww... Can you chill with the tuba, Fubuki? I couldn't even hear who won.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +573,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯…？那是…埃塞克斯？",
+			say = "Wait... is that... Essex?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

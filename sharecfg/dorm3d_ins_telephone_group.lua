@@ -14,11 +14,11 @@ pg.base = pg.base or {}
 pg.base.dorm3d_ins_telephone_group = {
 	[10517301] = {
 		ship_group = 10517,
-		name = "{namecode:199}视频通话",
+		name = "Video Call - New Jersey",
 		background = "voice_placeholder",
 		type = 1,
 		id = 10517301,
-		unlock_desc = "进入{namecode:199}宿舍",
+		unlock_desc = "Visit New Jersey's private quarters.",
 		content = {
 			11,
 			110602

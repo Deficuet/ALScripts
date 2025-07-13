@@ -9,7 +9,7 @@ return {
 			actor = 107110,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "“这里是执行侦察任务中的库珀，前方出现的塞壬浑身散发着紫色光芒，看起来好帅，也许是新型号”",
+			say = "\"Cooper here. I've detected a new type of mass-produced Siren ship that emits some purple glow while patrolling.\"",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -34,7 +34,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不但火力变强了，而且装甲也变厚了，我的龙卷…”，咳……！",
+			say = "\"It looks pretty tough, but I think my Cyclone Smasher works on it. Wish me luck!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "“我的‘龙卷风爆裂射击’造成的损伤也明显变小了，请求迅速增援”",
+			say = "\"On second thought, I don't think I can win! Wanna head over? Help me!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "库珀刚刚用侦察机传来了这样的消息哎…",
+			say = "That girl just can't stay put...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗力更强的新型塞壬…理论上来说应该会守卫着重要目标吧。",
+			say = "The fact that there's a new mass-produced model here means that we're probably getting closer to their base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bingo~！看来我们判断的没错，中大奖了。",
+			say = "Bingo! Looks like you're right on the money~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家准备支援库珀。向新型塞壬出现的方向进攻，迷雾生成的秘密肯定就在那里！",
+			say = "All right. Let's go bail Cooper out, defeat the Sirens, and lift this mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到~无畏、Getting on!",
+			say = "Roger that!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,

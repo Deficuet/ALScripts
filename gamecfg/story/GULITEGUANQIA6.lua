@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "校园区·操场",
+			say = "School — Schoolyard",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "你是{namecode:439}吧……？",
+			say = "Roon... It's you, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "然后背上的是……？怪兽？…舰装？你是操纵舰装？进行了一场和怪兽的战斗？",
+			say = "What's with that iron dragon...? Huh, a kaiju? Rigging...? Did you use the rigging to fight the kaiju?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怪兽也是分类型的……有些的话，也许是可以成为同伴的。",
+			say = "(There are various types of kaiju, so... I wonder if there are kaiju that can become our partners...?)",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然但是……{namecode:439}突然从哪里找到的怪兽啊？！",
+			say = "Roon, did you partner up with a kaiju?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是怪兽，是舰装哦。",
+			say = "Of course not. This is just my rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "从哪里找到的么……你们果然什么都想不起来了啊。",
+			say = "I had a feeling something was wrong. You've all forgotten something important... and the fact that you don't even recognize my rigging confirms that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "「舰船」，这个词对你们来说意味着什么？",
+			say = "Does it jog your memory when I say the word, \"shipgirls?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "军舰。",
+			say = "Ship... girls? Like, sailors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "船只……？",
+			say = "Like, warships...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "果然……那，港区和指挥官呢？",
+			say = "Guess that wasn't enough. Then, how about \"Port,\" and \"Commander\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "军事系统相关的词汇……？",
+			say = "Port? Commander? Hrmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，是和军事相关的词汇呢。不过指挥官……指挥官…………",
+			say = "Commander... THE Commander! Oh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,25 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉逐渐想起什么了吧~呼呼呼，果然指挥官这个词比较有效呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_ssss_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 900318,
-			say = "爱丁堡，你不是普通的高中生，而是皇家所属舰船轻巡洋舰爱丁堡。",
+			say = "Hehehe, I guess \"Commander\" carries a lot of power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +286,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "孟菲斯你也一样，你的真正身份是白鹰所属奥马哈级巡洋舰孟菲斯。",
+			say = "We aren't a group of schoolgirls. We're shipgirls, born to fight against the Sirens.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_ssss_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 900318,
+			say = "Edinburgh, light cruiser of the Royal Navy, and Memphis, light cruiser of the Eagle Union.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "——哎！？好像确实是这样！就像脑海中有片云雾突然散去一样！奇怪……这种最基本的事为什么会忘记了呢。",
+			say = "...That's right! How did we forget something so important...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也一样……怪不得我怎么都想不起来昨晚做了什么，你是怎么发现的？",
+			say = "So that's why I couldn't remember anything about the game I played last night! How were you able to figure all this out, Roon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "之前在饭点的时候心中一直有股没由来的焦虑感，就像缺了一块什么一样。",
+			say = "I wonder... Earlier today, during lunch... I felt that there was a hole in my heart, and that hole only continued to grow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就这样，在脑海中逐渐出现了一个形象……然后我想到了指挥官的名字，再之后一切就豁然开朗了。",
+			say = "I came to realize that what I had been missing so sorely... was the Commander. After I remembered that, the other pieces quickly fell back into place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "恐怕这里是塞壬的特殊镜面海域，我们基于某种不知名的原因来到了这里，然后被困住了。",
+			say = "We were in the process of investigating a Mirror Sea, and then before we knew it... we ended up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是灾难级的糟糕状况啊，要是可靠的贝法在就好了……",
+			say = "I wish Bel was here... I can't even make heads or tails of this situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "哎呀，是在说我们不够可靠的意思么？",
+			say = "Well, there's no need to panic. Let's put our heads together and figure out how to get out of this mess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（微笑）",
+			say = "Hehehe... So I'm not good enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是不是，绝对！没有这个意思！只不过相比贝法我实在……算啦，什么事都没有！",
+			say = "I'm glad you're here too R-Roon! Let's do our best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额，现在是什么情况？舰船、镜面海域之类的都是什么？",
+			say = "Umm... Is there something I'm missing out on here? What's this Mirror Sea and shipgirl stuff you've been talking about?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -515,7 +515,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们不是同学么？",
+			say = "Are we not just ordinary classmates?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "关于这一点，你们那边也有明白情况的人，就让她替你们说明好了。",
+			say = "You should ask your friend over there. She's the one who can tell you what's really going on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "茜……？果然你知道些什么啊。现在究竟是什么情况？",
+			say = "Akane...? Is there something you haven't been telling us? What's going on?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -568,7 +568,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "现在的状况和一个提案有关，虽然就结果而言我好像也被它们摆了一道呢，嘿嘿~",
+			say = "I guess there is, but I've somewhat been duped myself. So, it all began when I got a proposal––",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

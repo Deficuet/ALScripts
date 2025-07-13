@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "童话故事，安克雷奇，喜欢！最喜欢，公主的故事！",
+			say = "Anchorage loves fairy tales! Stories about princesses... are the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "七个好朋友，头发长！长着鱼尾巴，被王子……吻……嘿嘿……",
+			say = "Seven friends, long hair! She has a mermaid tail, and a prince... kisses her... Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,14 +41,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后，寻找丢掉的，7颗星星圆球！",
+			say = "And then they look for... seven starry balls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "后面好像混进了奇怪的故事……",
+					content = "I don't think that last part is from a fairy tale.",
 					flag = 1
 				}
 			},
@@ -88,14 +88,14 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "欸……？安克雷奇……不明白！",
+			say = "Hm...? Anchorage doesn't understand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇也想成为公主吗？",
+					content = "Do you want to be a princess, Anchorage?",
 					flag = 1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，想成为……公主！不过，安克雷奇，更喜欢{dorm3d}！",
+			say = "Anchorage... wants to be a princess! But I like {dorm3d} more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……要找到7颗星星圆球，把{dorm3d}变成……童话王子！",
+			say = "I'll find the seven starry balls... and make {dorm3d} a fairy tale prince!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

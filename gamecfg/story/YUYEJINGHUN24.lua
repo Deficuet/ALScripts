@@ -10,12 +10,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "虽然黑暗之中，你的观察力没能帮你辨认出从背后接近的人。",
+			say = "Roll a D100... 48. Success. It is unfortunately too dark to make out their identity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,11 +42,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你成功注意到，就在手边不远处有一扇不知通往什么房间的门。",
+			say = "However, you do realize that there's a door next to you. You don't know where it leads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,22 +56,22 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "脚步声正变得越来越清晰，接下来你打算——",
+			say = "As the footsteps draw closer by the second, you decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "潜伏于黑暗之中！",
+					content = "Hold my breath and hide in the darkness!",
 					flag = 1
 				},
 				{
-					content = "躲在柱子之后！",
+					content = "Hide behind the pillar!",
 					flag = 2
 				}
 			}
@@ -80,12 +80,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "你看着自己尚未回忆起的几个技能，一个想法从脑海中冒了出来——“难道说，我其实是潜伏大师？”",
+			say = "You probably have skills you don't remember yet, and you start to think you might have a Stealth skill with expert-level proficiency.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,12 +95,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "可惜，你在等待了片刻后，什么事都没有发生。遁入黑暗的技能并不属于你。",
+			say = "Contrary to your hopes, though, nothing happens after waiting for a few moments. Yes, it seems you don't have the chops to blend in with the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……还是躲去柱子后面吧。",
+			say = "...Alright, let's hide behind the pillar instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "根据地图来说，前面的房间并不是书房。",
+			say = "The map says the room in front of me isn't the study.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "在这座古堡中如果随便闯入陌生的房间不知道会发生什么事。",
+			say = "And there's no telling what will happen if I go inside without the occupant's permission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "还是躲到柱子后静观其变吧。",
+			say = "What I should do is hide behind the pillar and wait and see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你回忆起了管家的警告，没有贸然进入未知的房间，而是选择躲藏在石柱的阴影后。",
+			say = "You recall São Martinho's warning and decide to conceal yourself behind the stone pillar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "脚步声越来越近，很快就要到达你的身边。",
+			say = "The footsteps draw closer and closer until they're almost right next to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且更糟糕的是，一道光芒伴随着脚步声一同接近着。",
+			say = "What's more, your surroundings get brighter the closer the footsteps come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,22 +204,22 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管接近的人是谁，她似乎都选择一个了更加稳妥的走夜路方式——拿提灯。",
+			say = "While you still can't discern their identity, you can tell that the person is carrying a lantern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我有枪！",
+					content = "And I've got a gun!",
 					flag = 1
 				},
 				{
-					content = "静观其变",
+					content = "Best to stay put for now.",
 					flag = 2
 				}
 			}
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "终于，是时候展现真正的技术了！",
+			say = "This is it! Time to finally show off what a crack shot I am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,12 +241,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "你怀着这样的想法，掏出枪，一个箭步主动冲到了光芒之中。",
+			say = "You proudly unholster your firearm and go running towards the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "即便危机已迫在眉睫，你依然选择以不变应万变。",
+			say = "Despite knowing how close the danger is to you now, you decide to quietly stay and watch what happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,12 +271,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "光芒越来越近，然后不出意外，你被发现了。",
+			say = "Then, the lantern shines right on you, and you're discovered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,12 +286,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……调查员，您这是在玩什么呢？",
+			say = "...What are you doing here, Investigator?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,11 +318,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "二小姐担心您找不到书房的位置，所以让我带您前往。",
+			say = "Whydah had a hunch you wouldn't find the study on your own, so she asked me to show you there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,12 +332,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我刚才担心短路的问题，回去拿了一盏灯，所以浪费了些时间。",
+			say = "Then the lights went out, so I had to turn around to get a lantern, and that took ages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,11 +347,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "现在看来，我的担心是对的。请随我来吧，书房就在前面不远的地方了。",
+			say = "Judging by how lost you look... Seems she made the right call. Follow me, the study's just around the corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（总觉得女仆长的态度似乎和善了不少。）",
+			say = "(Is it just me, or is she a lot friendlier than before?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这么说来，记得现在的女仆长原本是二小姐的贴身侍女……所以说，她们两位其实是同一阵线的？）",
+			say = "(I think someone mentioned that she was Whydah's personal maid at one point... Maybe the two are on the same side?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,11 +385,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "……请问我身上是沾到什么了吗？您似乎一直在盯着我看？",
+			say = "Why are you staring at me? Is there something on my face?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,12 +399,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？我的态度有点变了？",
+			say = "...Are you thinking about my friendlier tone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,12 +414,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……我本以为您和之前来的那些人一样，不过是徒有虚名的骗子。",
+			say = "Well... You know... That's because I thought you were just a fraud posing as an investigator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "不过刚才……我从二小姐那边听说了一些事。",
+			say = "That is, until Whydah told me about you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,12 +443,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这并非是说我认可您了，但既然二小姐相信您，那么我便也相信您。",
+			say = "I still don't like you, but she trusts you, so I trust you, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,40 +458,40 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "二小姐是那么聪明的人，我永远相信她的选择。请您……一定救救她们。",
+			say = "Whydah is smart, and I have faith in her judgement. Please, Investigator... solve this case and save us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那是自然！",
+					content = "I will!",
 					flag = 1
 				},
 				{
-					content = "尽力而为！",
+					content = "I'll give it my best shot!",
 					flag = 2
 				},
 				{
-					content = "要加钱！",
+					content = "Sure, if the pay is right.",
 					flag = 3
 				}
 			}
 		},
 		{
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			optionFlag = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就拜托您了……",
+			say = "Thank you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,28 +501,28 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			optionFlag = 3,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，差点忘了您是个生意人了。",
+			say = "Heh. Right, you're running a business, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			optionFlag = 3,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请放心，既然是原本工作之外的内容，那自然会支付给您额外报酬的。",
+			say = "Don't worry, you'll be paid handsomely for any work on top of what you were hired for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,11 +532,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哒哒哒——哒哒哒——",
+			say = "Step, step... Step, step...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,11 +546,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说话的间隙，不远处再次传来脚步声。",
+			say = "As you're chatting away with the maid, you suddenly hear footsteps not far from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,12 +560,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好……我们快走。这次应该是大小姐她们，如果遇上的话我们的麻烦就大了！",
+			say = "Crap! We'd better hurry. That's probably Golden Hind and Galley, and we do NOT wanna bump into them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,11 +575,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女仆长熄了灯，你们一同在黑暗中快速前行。",
+			say = "Royal Fortune extinguishes her lantern, then the two of you run through the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,11 +589,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们的速度非常快，几乎是小跑着前进，可是身后的脚步声却越来越近。",
+			say = "The footsteps behind you are still getting closer, despite you running as fast as your legs can go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,36 +603,36 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这万分危急的时刻，你准备——",
+			say = "This is a do-or-die situation. You decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我有枪！",
+					content = "And I've got a gun!",
 					flag = 1
 				},
 				{
-					content = "寻找其它阻止方法！",
+					content = "Come up with some other way to shake them off!",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			optionFlag = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，调查员！再怎么说那也是大小姐，请您别开枪！",
+			say = "No, Investigator! I know you're desperate, but you will NOT pull a gun on Golden Hind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,12 +642,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "你注意到，在女仆长诚恳的语气之下隐藏着一丝杀意。",
+			say = "Her tone is serious, with a hint of \"I will kill you if you do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……还是寻找其它阻止追兵的方法吧。",
+			say = "...I'll think of something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,11 +670,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "脚步声越来越清晰，如果不立刻做点什么的话，恐怕将会有相当恐怖的事发生。",
+			say = "Ever closer draw the footsteps... If you don't act now, something horrifying will befall you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "此时立刻能做的事么……有了！用投掷障碍物的方式阻止追兵前进好了。",
+			say = "What to do, what to do... I know! I'll knock over some planks to block the path!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,11 +696,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在调查员触摸到木箱的那一刻，往日的记忆涌入了脑海！",
+			say = "You reach towards a stack of wooden crates. The moment you touch it, a surge of memories returns to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,17 +710,17 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你回忆起了自己曾经最擅长的技能：投掷，熟练程度：精通。",
+			say = "You have remembered your number one skill – Throwing. You have expert proficiency with this skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"角色卡内容解锁",
+				"Investigator Stat Revealed",
 				3
 			}
 		},
@@ -728,11 +728,11 @@ return {
 			portrait = 301160,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			factiontag = "LCK-Maxed GM",
+			actorName = "Yukikaze",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……终于解锁{namecode:22:雪风}大人设计的技能了。",
+			say = "You did it! Finally, you unlocked the skill I came up with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,11 +742,11 @@ return {
 			portrait = 301160,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			factiontag = "LCK-Maxed GM",
+			actorName = "Yukikaze",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=1）——投掷判定大成功！",
+			say = "The dice result in a – surprise – 1! Critical success!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,11 +756,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你抓住手边的木箱，向后用力扔去。一片黑暗之中，你的木箱并没有直接命中追击而来的人，而是命中了一旁的杂物山。",
+			say = "You grab a box instead of a plank and throw it with full force at your pursuers. Since it's too dark to see, you miss, and hit a nearby pile of junk instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,11 +775,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被命中的杂物山发生了崩塌，无数杂物彻底堵塞了你身后的走廊。至少很长一段时间之内，追兵都过不来了。",
+			say = "The pile collapses, blocking off the path behind you. For now, you don't have to worry about your pursuers catching up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,11 +794,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "就是现在，我们快走！",
+			say = "Let's run for it! Now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,11 +808,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁着地动山摇之际，女仆长拉着你快速逃离了这里——",
+			say = "Taking advantage of the confusion, the maid grabs your hand and hastily runs off with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

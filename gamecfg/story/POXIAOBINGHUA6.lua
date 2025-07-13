@@ -11,7 +11,7 @@ return {
 			actor = 701040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "定时联络。同志酱，我们已经到达预定海域，现在已经停止推进就地坚守。",
+			say = "This is our regularly-scheduled transmission. Dear comrade, we’ve already reached our destination, and are now holding our positions.",
 			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "还没有见到诸如清除者一类的塞壬人型指挥者出现，但是只要继续打下去，相信很快就能逼它们出来了。",
+			say = "I haven’t seen any higher-tier Sirens like Omitter yet, but I’m sure they’ll be forced to come out as long as we keep fighting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "同志酱那里怎么样？",
+			say = "How are things on your end, dear comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "作战有效，塞壬没有继续增援。不过“密室”周边的塞壬也没有回援，我们正在与之交战。",
+			say = "The Sirens here haven’t gotten any stronger. I’d say your gamble was a success. However, the Sirens around the Sanctum haven’t pulled back either, and we’re currently engaging them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "这样。同志酱的话肯定没问题，狠狠地痛扁它们吧，定时联络结束。",
+			say = "I see. Well, I believe in you. Teach them a harsh lesson for me. Over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "看来对于王冠的进攻正在顺利进行，反倒是我们这边遇到了预想之外的巨大阻力啊……",
+			say = "Seems like the assault on the Winter’s Crown is going smoothly. Unfortunately, we’re facing more resistance here than expected...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "与清除者接触的次数越多越能感受到一股的违和感，作为整体的极地塞壬与理论上作为其指挥的清除者给人的印象差实在太大了。",
+			say = "The more times we clash with Omitter, the more incongruous her behavior seems. The way she acts says little about the way she commands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			actor = 701070,
 			dir = 1,
-			say = "同感。在极地航线上，雷鸣经常会遭遇到塞壬各种方式的狡猾伏击。",
+			say = "I concur. I have witnessed their cunning ambushes time and time again along the Arctic routes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 701070,
 			dir = 1,
-			say = "实在令人没办法把这样狡猾的袭击者同实际见到的滑稽清除者联系在一起。嗯，就这样。",
+			say = "It is hard to picture such ruthless and cunning attacks coming from that clown. Mm, that’s all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "我倒是有一个想法……指挥官同志，塞壬其实是某种类似于机械的存在吧……？",
+			say = "I do have a theory though... Commander, the Sirens are supposed to be some kind of program, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "嗯。虽然塞壬身上还存有诸多谜团，不过在指挥部的分类下，塞壬在结构上更类似于机械而不是有机生命体。",
+			say = "Mhm. Though there’s much we don’t understand about the Sirens, based upon the Naval HQ’s classifications, Sirens are more structurally similar to machines than they are to organic lifeforms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通常的下级塞壬战斗单位只是单纯的破坏机器，而上位的人型指挥者则拥有似于知性与智能的存在，无条件统领着下级单位。",
+			say = "Normally, lower-level Siren combat units are simply mindless tools of destruction, whereas higher-tier humanoid Sirens exhibit both knowledge and intelligence, and have absolute command over the lower-level units.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "感觉就像女王指挥的蜂群一样……",
+			say = "Almost like a hive of bees commanded by a queen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没错，就是这种感觉。",
+			say = "“Right, that’s the impression I get.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然理论上每次只要消灭指挥单位就能有效消除一支塞壬舰队的威胁。但是塞壬经常会出现复数指挥单位，而每个指挥单位又会以特殊型号的指挥舰为中继对舰队进行远程进行指挥。",
+			say = "In theory, you can eliminate the treat of a Siren fleet by taking out their command structure. But in reality, the Sirens often have multiple command units, and each command unit can use special flagships to remotely relay their orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "实际操作总是比理论研究要困难得多啊。",
+			say = "Theory rarely stacks up to the reality of the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "既然是这样的话……塞壬之间明显存在某种更加贴近机械语言、更加高效的交流方式，她们为什么要拥有人格呢？",
+			say = "Given that fact... there’s obviously a better way for the Sirens to communicate that would not only be more efficient, but also be more machine-like. Why would they need to take on human personalities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？这个问题我到是一直都没想过……",
+			say = "Hmm... I can’t say I’ve considered this before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			actor = 701070,
 			dir = 1,
-			say = "也许是为了让我们产生同情心，利用我们的犹豫在战场中获得优势……",
+			say = "Perhaps they’re trying to exploit our empathy to create an advantage on the battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "指挥官同志，你怎么看？",
+			say = "What’s your take on this, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "唔————",
+			say = "“Hm......”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,11 +326,11 @@ return {
 			},
 			options = {
 				{
-					content = "像是一种用于接近我们的伪装……",
+					content = "“Maybe it’s a disguise used to approach us...?”",
 					flag = 1
 				},
 				{
-					content = "有些参考我们进行设计的痕迹……",
+					content = "“Are they trying to cast themselves in our image...?”",
 					flag = 2
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "嗯……明明下级塞壬都是极尽张牙舞爪的设计，作为其指挥者的上级塞壬不但拥有丰富的情感，就连身姿都如少女一般。",
+			say = "Mm... Obviously, lower-level Sirens are unambiguously menacing in their appearance. As for their leaders, they not only are rich with emotions, but also take on the appearance of young girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "考虑到塞壬的务实与精确，理解为用于接近我们的伪装最为合适。",
+			say = "Given the Sirens’ pragmatism and precision, it’s understandable that they would seek to reach out to us in a form we can relate to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "啊，说起这个……基洛夫，你最近的工作是不是就和这种事有关？",
+			say = "Oh, that reminds me... Kirov, has your latest work been related to this kind of stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "唉，算是吧。随着与塞壬人型指挥者的战斗增加，世界范围内居然出现了很多因其可爱的身形对塞壬抱有好感的群体，真是令人困扰。",
+			say = "Uhh, I guess? As we continue to encounter these Siren commanders, a growing number of Siren-worshipping cults have begun to appear across the world, their members perhaps bewitched by their alluring forms. A most disturbing trend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "亲塞壬团体……我也有所耳闻。",
+			say = "“Siren worshippers, huh? I’ve also heard about this...”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "指挥官同志，这股不良风气可不能放任下去！北方联合一直在对此类情况进行密切关注，指挥部也尽快注意到事态的严重性比较好。",
+			say = "Comrade, we can’t allow this trend to continue! The Northern Parliament has been monitoring this development closely, but the Naval NQ needs to recognize the seriousness of this situation and act accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "嗯，我们会注意的。",
+			say = "“I’ll make sure they get the memo.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "少女的身形，与巨大的舰装……这些塞壬人型指挥者确实有很多与我们相似的部分。",
+			say = "The bodies of young girls, and massive ship riggings... These Siren commanders are similar to us in many ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "指挥官同志觉得塞壬是某种人造物么？",
+			say = "Do you think the Sirens might be a product of humankind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "虽然我们没有这样的能力，不过塞壬身上有着极其强烈的造物痕迹。不论如何，创造塞壬的人肯定对于我们非常了解。",
+			say = "Though we don’t have that kind of technology, I’d say it’s quite likely that the Sirens were constructed. In any case, whoever created the Sirens... must know us very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "很有趣的观点……",
+			say = "You make a very interesting point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "而设计这些的目的，毫无疑问是某种用于更好接近我们的伪装。",
+			say = "And the purpose of designing them in this manner... must surely be some kind of disguise to let them get closer to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "与我们相似的声音，与我们相似的体格，与我们相似的面容。塞壬利用这些相似之处在无形中利用我们的思维惯性，从而干扰了我们的判断。",
+			say = "They sound like us. They look like us. The Sirens exploit these similarities to subconsciously influence our thinking and interfere with our judgment, even without us being aware of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "本次作战也是因为将清除者表现出的个性纳入考虑之后，才发生的对于战局的误判。",
+			say = "This battle is proof of that. We misjudged the battle situation based upon an assessment of Omitter’s outward personality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "利用情绪作为伪装误导我们，让我们产生能够沟通的错觉，其实在活泼的感情之下充斥着的冷酷无情的计算与敌意。这还真是……",
+			say = "Wearing emotions as a disguise to give us the illusion of having common ground, of being able to communicate... when in fact, underneath those expressions, they are cold-blooded killing machines. How terrifying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就像伪装成人类，说着人类的语言，却在残杀人类的恶魔一样。",
+			say = "Like demons that adorn themselves in the trappings of men... but humans are their victims.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "没错，简直就像恶魔一样……将它们的名字命名为象征海妖的塞壬真是再贴切不过了。",
+			say = "Indeed... Just like what the name they’ve been given symbolizes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "说起来……塞壬是我们起的代号还是塞壬的自称啊？",
+			say = "Speaking of which... did humans name them “Sirens,” or is that what they call themselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			actor = 701070,
 			dir = 1,
-			say = "在我开始服役之时，塞壬就已经被称作塞壬了，嗯，我不清楚具体的名称来源。",
+			say = "When I entered service, the Sirens were already known as Sirens. Mm, I don’t know anything else beyond that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			actor = 702040,
 			dir = 1,
-			say = "我也没印象呢…不过大概率因为是从大洋中出现的未知之敌，然后就被当时发现的人顺势命名成塞壬了吧。",
+			say = "I don’t think I remember either... But most likely, whoever discovered them named them “Sirens,” as mysterious enemies that emerged from the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "如果是这样的话，根据塞壬带来的破坏力顺势被叫成利维坦之类的不是更加合理么……为什么是塞壬？",
+			say = "Just going off of destructive potential, wouldn’t it have made more sense to call them “Leviathans” or something? ...Why Siren?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有道理……一直以来就这么顺势叫下来，好像从来没有任何地方解释过名称的来源啊。",
+			say = "You have a point... But they’ve just been called that for so long, I’m not sure anyone actually has an explanation for the origin of that name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（余烬好像一直都用安蒂克丝这个称呼指代塞壬，安蒂克丝难道就是塞壬的真实名称么……）",
+			say = "(The Ashes keep referring to something as “Antiochus”... Could that have something to do with the Sirens’ true identities...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "摩尔曼斯克，你这家伙今天还真是问了不少好问题啊，最近的观察对象从小动物变成哲学书了么？",
+			say = "Murmansk, your questions have been unusually on the mark today. Have you recently changed your hobby from observing small animals to perusing tomes of philosophy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "不论是观察自然，还是阅读书籍，抱有思索与求知之心总是会有所收获哦~",
+			say = "Whether you’re observing nature or reading books, a thirst for knowledge goes a long way~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			side = 2,
 			actor = 702060,
 			dir = 1,
-			say = "哎嘿嘿，好像不小心说了帅气的话。其实我是今天见到指挥官同志之后才突然想到这些问题的啦……",
+			say = "Ehehe... Did I just say something totally quotable? To be honest though, I suddenly thought of all these things after meeting Comrade Commander today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			actor = 705040,
 			dir = 1,
-			say = "这样啊……那只能希望在“密室”的大门之后能存放有我们需要的答案了。",
+			say = "I see... I can only hope that the answers we seek lie behind the doors of the Arcana Sanctum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（没错，希望在“密室”之中真的能回收到解决疑问所需的答案……）",
+			say = "(I can only pray... that the solution to our problems also lies behind those doors...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

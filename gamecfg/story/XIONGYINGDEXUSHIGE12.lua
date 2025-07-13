@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "重樱馆·外围森林",
+			say = "Sakura Empire Pavilion - Woods",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "哼哼哼，我已经对所有飞行器的飞行轨迹进行了重新设定。",
+			say = "Heheh! I've updated all the drones' patrol routes and scan parameters! This is what I call Hyper-Focused Super-Searcher Mode!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "接下来就等着看它们发来的画面之中有无异常情况就可以了！",
+			say = "Now we just wait for them to find the abnormality and send in a status report!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——华丽的空中作战画面捕捉！",
+			say = "Photo op! Here we see Leonardo da Vinci, the to-be savior of Sardegna, the guiding star of the patrol team, taking matters into her own hands!",
 			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这样真的不是保留“犯罪”证据么……",
+			say = "You don't think they'll use that photo as proof that she hacked the security system?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "错啦~等到解决事件之后，这就是我们出色行动的表彰凭证！",
+			say = "It'll be fine! They'll hail her as a hero when they learn she did it to resolve this whole ordeal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "等等，大家快准备转移，的里雅斯特正在向我们的方向飞速接近中。",
+			say = "Aw, dangit! Hide, everyone! Trieste is coming towards us, and fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呜啊……被发现的好快！",
+			say = "Whaaat?! She's on to us already?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "快撤快撤，躲到森林深处去！要是被发现了可就惨了！",
+			say = "Let's head into the woods! She'll brand us as some band of conspirators if she catches us now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……不是说要等表彰么？",
+			say = "*sigh*... You should honestly rip that photo apart now while you have the chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "那是事件解决之后的事啊！现在事件还没解决，被抓到了我们怎么说的清！",
+			say = "Maybe later! But right now, we've gotta split!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呼……这下应该安全了吧。",
+			say = "*pant pant*... Did we lose her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不清楚……我在移动中没法查看监控系统。",
+			say = "No idea. The drone cameras can't see through these thick woods.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不过应该不至于这么执着地在森林里搜索我们吧……",
+			say = "But realistically, there's no way she'd chase us THIS far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "你们闹出了这么大的乱子，不坚决彻底地跟着你们怎么行啊~",
+			say = "Wrong. I'd pursue you to the ends of the earth after what you've done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "呜啊啊啊！的里雅斯特，你是怎么找到我们位置的？！",
+			say = "Is that... It's her! H-h-how the heck did you manage to find us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "你们的通讯器又没关，会场里的安保设施可不止有空中一套系统哦。",
+			say = "Using the drone that went in the same direction as me. You were using it to keep an eye on me, weren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "欸！失策，应该把通讯器关掉的……",
+			say = "Oops... I was so focused on running that I forgot to change that thing's flight route...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "的里雅斯特，你听我们解释，我们不是故意要捣乱的！",
+			say = "We're sorry, Trieste... But believe me, we weren't trying to cause any trouble.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "嗯，我知道。我这次来找你们也是奉了维内托大人的命令。",
+			say = "I know you weren't. I came looking for you by orders from Veneto.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "她希望你们能够正式参与调查。",
+			say = "You're going to help us resolve this situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "原来维内托大人已经知道我们在做的事了么……那！你直接通讯器告诉我们一声不就好了！",
+			say = "Wait, Veneto knows we took over the system?! Then she should've just asked us for help directly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我们这么担心又东躲西藏是为了什么啊！",
+			say = "Because like, we spent all this time running and hiding, and for what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "你们做贼心虚，通讯器里一时半会说不清吧？",
+			say = "For what? You of all people should know, Alfredo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "况且抓一抓你们更能给你们点教训。",
+			say = "Oh, and we also know you trailed Bolzano and Garibaldi. You set yourselves up to be caught sooner or later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "维内托大人想要谨慎的暗中行动，你们把天空搞成一团糟引起会场骚乱了怎么办？",
+			say = "Now that we're on the same page, would you return command of the drones to the control room already? The other factions will start getting suspicious soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 603040,
-			say = "快点把飞行器恢复原状，然后跟我来，维内托大人正在等你们。",
+			say = "Be quick, then follow me to the Colosseum. Veneto is waiting for you there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
-			say = "……是！",
+			say = "Roger-roger!",
 			painting = {
 				alpha = 0.3,
 				time = 1

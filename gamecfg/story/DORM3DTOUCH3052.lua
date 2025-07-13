@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是……做什么？安克雷奇……该怎么做，才对……？",
+			say = "What is this for...? What should Anchorage do with it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

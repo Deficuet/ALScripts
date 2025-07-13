@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"呼~轻松甩掉他们的拦截！不然就要被拖入无谓的战斗了！",
-	"<color=#ff7d36>舰队的总机动值将影响规避的结果</color>，如果机动值不足，很容易出现规避失败的情况噢，这点还请指挥官多加注意"
+	"Whew! You shook off that ambush with ease! Good thing you did, or else you'd been dragged into a pointless battle.",
+	"<color=#ff7d36>Your fleet's combined EVA stat impacts your probability of avoiding an ambush.</color> If your EVA is too low, you might be caught in an ambush. Be on your guard!"
 }
 
 return {

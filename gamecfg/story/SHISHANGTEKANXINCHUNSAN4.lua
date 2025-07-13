@@ -15,7 +15,7 @@ return {
 			actor = 503011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "推开建武房间的门，映入眼帘的是她正专注调整礼服的身影。",
+			say = "I open the door to Chien Wu's room, where she's hard at work adjusting her dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武注意到我的到来，转过身来，脸上带着淡淡的微笑。",
+			say = "She notices my arrival, turns around, and grins slightly.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "这么早就过来了？看来你对我的设计还挺迫不及待的。",
+			say = "You're here quite early. That excited to see my outfit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "看你的表情……哼，算你还有点眼光，能看出我这次设计礼服的价值。",
+			say = "Heh. That look on your face tells me that you see the value of my design. Your fashion sense isn't half bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "确实很惊艳。",
+			say = "You put a lot of work into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "你的设计还是一如既往地出色。",
+			say = "As always, your design is more than stunning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			live2d = "main1",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "听到赞美，建武只是嘴角不易察觉地稍微上扬，依旧专注地调整着礼服的细节。",
+			say = "Chien Wu gives a slight grin at my praise, but she remains fully focused on the dress.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "还有些时间，等我调整完，我们就出发……",
+			say = "There's still some time. Let's set out once I've finished these details...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她拢起胸前的旗袍后微微托起，似乎是为了更好地观察礼服的线条和贴合度。",
+			say = "Seemingly to check the fit, she gathers the fabric at her chest and then lifts the dress slightly.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随着她的动作，礼服的布料更加紧贴着身体曲线，勾勒出优美的轮廓。",
+			say = "The dress hugs her figure, highlighting a charming and elegant silhouette.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "接着她微微侧过身，从镜子中仔细端详着，不时调整扣子与肩带的位置。",
+			say = "She turns to the side, contemplating herself in the mirror. She then starts adjusting the button and strap positioning...",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "突然间，她像是想到了什么抬头看向我。",
+			say = "Just then, she seems to remember something and gazes at me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -201,18 +201,18 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正你现在也没什么事……别杵在那里了，过来帮帮我。",
+			say = "You're free, aren't you? Don't just stand there, come help me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "为建武泡茶",
+					content = "(Offer tea.)",
 					flag = 1
 				},
 				{
-					content = "询问是否需要帮忙调整礼服",
+					content = "(Offer to help her adjust the dress.)",
 					flag = 2
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我去帮你泡茶吧。",
+			say = "Want me to brew you some tea, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 503011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "建武点了点头，默许了我的提议。",
+			say = "She nods, accepting my offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "需要我帮你调整礼服吗？",
+			say = "Hm? Want me to help you with the dress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 503011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好意我心领了，但这件礼服是我的作品，我想亲手把它调整到完美。",
+			say = "I appreciate the offer, but no, I'd like to perfect my own work with my own hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 503011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过既然你想帮忙的话，帮我泡杯茶如何？",
+			say = "That said, since you're offering, why not brew me some tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我为建武端来一杯茶，她优雅地品了一口。",
+			say = "Thus, I bring her a cup of freshly brewed tea. She savors it in an elegant manner.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -315,7 +315,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你觉得这些香水哪个最好？",
+			say = "If you don't mind my asking, which of these perfumes do you think is the best for tonight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武像是变魔术般拿出了数瓶香水，示意我帮忙挑选。",
+			say = "She produces several bottles of perfume as if by sleight of hand and has me pick one.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯……这瓶的香气我印象很深刻，应该最适合今晚的场合。",
+			say = "Hmm... This one left the deepest impression, I think. It seems perfect for such a special occasion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "品味倒是不错，这瓶也很适合我今晚的装扮，那就用这个吧。",
+			say = "I see. It does match this outfit, too... Then I'll choose this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武欣然接受了我的建议，随后她的目光落在了我的身上。",
+			say = "She happily accepts my suggestion and then looks at my clothes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -385,7 +385,7 @@ return {
 			live2d = "home",
 			dir = 1,
 			side = 2,
-			say = "你的礼服这里有些空，我给你搭配些配饰吧。",
+			say = "Your tuxedo looks a bit plain here. How about I go get some accessories to jazz it up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武拿出一个精致的首饰盒，打开后里面琳琅满目的饰品让我一时难以选择。",
+			say = "She takes out an elaborate jewelry case, but there are so many inside that I struggle to decide which ones to choose.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -412,7 +412,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我下意识看向建武寻求建议，目光不经意间扫过她身上的装饰。",
+			say = "When I look to her for advice, my eyes stop on her delicate brooch.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武顺着我的目光看了看自己的胸针，露出了然的神色。",
+			say = "She follows my gaze down to the brooch and grins in understanding.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "嗯？喜欢我身上这个是吗？",
+			say = "Oh, I see. So you like this one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "选得不错，我还有剩余的材料，就给你做一个同款的胸针吧。",
+			say = "Good taste. I happen to have some materials left over, so I'll make you one to match.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说着建武拿出裁缝工具，熟练地裁剪着材料，纤细的手指灵巧地穿梭于各种工具之间。",
+			say = "With that, she takes out her tools and begins working with swift, deft movements.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -482,7 +482,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不一会儿，一枚与她胸前相呼应的精美胸针就完成了。",
+			say = "Before long, she's made a beautiful brooch matching the one on her chest.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			actor = 503011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "你还真是注重每一个细节。",
+			say = "What attention to detail...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "这是当然，毕竟这次是与你同行。",
+			say = "Of course. We're going together, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "所以服饰设计上也要考虑适配你的气质风格，比起“吸睛”，“般配”更加重要。",
+			say = "I'm paying more attention to ensuring it complements your attire and that we match, rather than trying to just draw attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "帮我也进行了一番整理后，建武满意地看看我，又看看镜中的自己，露出欣慰的微笑。",
+			say = "After helping me adjust a few details, Chien Wu looks at our outfits with satisfaction, checks herself in the mirror once more, and then finally beams.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "时间差不多了，我们出发吧。",
+			say = "It's almost time. Let's be off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 503011,
-			say = "可别错过晚宴的开场。",
+			say = "We don't want to miss the opening of the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武点点头，和我并肩走出房间，向着宴会厅缓步而去。",
+			say = "With that, we walk out of the room and head to the main hall together.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -595,7 +595,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "身边飘来的淡淡香水味，为这个美好的夜晚又增色许多。",
+			say = "The subtle scent of perfume drifting from beside me adds an extra touch of magic to this wonderful night.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -606,7 +606,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_146",
-			say = "晚宴结束后，我和建武回到了房间。",
+			say = "After the banquet, we go back to her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武扶着门框，缓缓抬起腿准备脱下高跟鞋，脸上带着一丝疲惫。",
+			say = "Chien Wu puts a hand on the door frame to support herself as she prepares to take off her heels. I see traces of exhaustion on her face.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -650,7 +650,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "之后我没什么紧急的设计工作了，打算好好休息一天。",
+			say = "I'm done with work, so I plan to relax tomorrow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "你如果也没什么安排的话，就留下来吧。",
+			say = "If you don't have any plans, why not stay with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "正当我思考这个提议时，建武突然帮我解开了礼服。",
+			say = "I'm given no time to consider the sudden offer before she takes off my tuxedo.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -691,7 +691,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "这礼服穿了一晚上，应该不太舒服吧？",
+			say = "You've been wearing that all night. Surely it feels stuffy by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武凑近我的身体，轻嗅了一下。",
+			say = "Then, she leans in close and sniffs me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "你身上有我的香水味……是不是刚刚在晚宴上靠得太近的缘故？",
+			say = "I smell my perfume on you... Maybe I stayed a little too close to you during the banquet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武轻笑着，手指在我的衣领处流连。",
+			say = "She giggles and touches my collarbone.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -746,7 +746,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……而且体温也有些高？是因为喝多了酒精饮料……还是因为别的~？",
+			say = "Commander, you feel a little hot... Is it all about the alcohol? Or something else? ♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			actorName = "{playername}",
-			say = "也许二者都有……",
+			say = "Could be anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "呵呵……为了硬挺有型，这双高跟鞋几乎没有舒适度可言，站久了很累呢……",
+			say = "I put on high heels and sacrificed comfort for the look tonight. Standing around for extended periods is pretty tiring...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武的声音虽然依旧带着疲惫，但却明显多了一丝撒娇般的语气。",
+			say = "Fatigue lingers in her voice, but there's an obvious hint of flirtation.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -803,7 +803,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "不要光是看着，过来帮我……",
+			say = "Don't just stand there. Help me out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "下意识地伸手去碰她的鞋子，建武愣了一下。",
+			say = "When I unconsciously reach for her shoes, she acts surprised for a moment.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "我的意思是，扶着我。",
+			say = "I meant support me, silly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "你这是想……帮我脱鞋？",
+			say = "What? You want to take my shoes off for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,18 +859,18 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			actorName = "{playername}",
-			say = "啊，我理解错了。",
+			say = "Oh, that's what you meant...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "扶着建武",
+					content = "(Support her.)",
 					flag = 1
 				},
 				{
-					content = "继续帮她脱鞋",
+					content = "(Take her shoes off.)",
 					flag = 2
 				}
 			}
@@ -885,7 +885,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			actorName = "{playername}",
-			say = "我来扶着你吧。",
+			say = "Okay, okay. I'll help you balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "我扶着建武的身体，她顺势靠在我肩上。",
+			say = "I give her my shoulder, and she leans on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +915,7 @@ return {
 			optionFlag = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "真是的...本来想让你主动点的，结果还是这么老实啊。",
+			say = "I was hoping you'd be more assertive, but you're still so slow to act...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "建武轻笑着抬头看向我，眼中闪烁着狡黠的光。",
+			say = "She chuckles and looks up at me, a mischievous glint in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			actorName = "{playername}",
-			say = "不过，我直接帮你脱掉也没关系吧。",
+			say = "I mean, may I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "建武似乎被我的举动逗笑了，却并未抽回脚。",
+			say = "Either amused... or stunned, she doesn't pull her leg away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "呵呵……这话说得也是，随你开心吧。",
+			say = "Heehee... Sure. Do what you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "接着她抬头看着我，眼中闪烁着狡黠的光。",
+			say = "She then looks up at me, a mischievous glint in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "反正你闲着也是闲着，帮我按摩放松一下，如何？",
+			say = "Since you're free, Commander, why not give me a massage...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "毕竟你刚刚也是直接把手伸过来了，不是吗？",
+			say = "You're already trying to touch me, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			actorName = "{playername}",
-			say = "当然可以，我很乐意帮忙。",
+			say = "Sure. I'd be happy to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我点点头，准备帮建武按摩一下脚掌。",
+			say = "I nod and prepare to massage her feet.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1059,7 +1059,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她保持着手伏在门框上的姿势，表情看起来也放松了下来。",
+			say = "She rests her hand on the door frame, her expression relaxed and at ease.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1074,7 +1074,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "袜子也想帮我脱下来么？",
+			say = "You want to peel off my stockings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1087,7 +1087,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "还真是一如既往喜欢把时间浪费在这种事情上啊……可以，请便吧。",
+			say = "Ah, you and your tedious ideas... Fine, come here ♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,7 +1100,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我小心地捏住袜子边缘，缓缓向下褪去。",
+			say = "I gingerly pinch the edge of her stockings and pull them down.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1114,7 +1114,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "丝质袜子在灯光下泛着柔和的光泽，随着我的动作，建武的脚踝显得越发纤细优雅。",
+			say = "The silk texture has a soft sheen under the light, making her ankles appear even more delicate and slender as I slowly slip them off.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1128,7 +1128,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……这样悠闲相处的时间……老实说不太多呢……",
+			say = "*sigh*... Honestly, we don't often get to spend time together like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1142,7 +1142,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "啊，稍等一下，那里很痒……唔！",
+			say = "Ah, that spot tickles... Eep?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			hideRecordIco = true,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "似乎触碰到了建武怕痒的地方，她试图躲开差点失去平衡，好在我赶快扶住了她。",
+			say = "She pulls her foot away to escape my hands, nearly losing her balance in the process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,7 +1170,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "不过……还是不小心踩到了她礼服的裙摆。",
+			say = "As I manage to catch her just in time, I accidentally step on the train of her dress.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1184,7 +1184,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "啊……踩到裙摆了……休息时间里穿着礼服确实不太方便，不如……",
+			say = "That's not good. Yes, I suppose keeping this dress on might be inconvenient later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1197,7 +1197,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "建武的话戛然而止，她露出一个意味深长的微笑。",
+			say = "She pauses for a moment and then smiles meaningfully.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -1211,7 +1211,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵……看你的表情，应该是在期待着什么吧……？",
+			say = "Heehee... Look at you. What were you just imagining?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1225,7 +1225,7 @@ return {
 			dir = 1,
 			actor = 503012,
 			nameColor = "#A9F548FF",
-			say = "难得的休息时间，指挥官会想做点什么呢？",
+			say = "Is there something special you want to... do during this rare time together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "如果让我开心的话……我会酌情……满足你的……",
+			say = "If you can please me... then yes, I might just be willing to do it. ♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

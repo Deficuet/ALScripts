@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "G.M系统已开启，周边区域中的各类事件将以不同标记的形式显示在系统的可视化面板上。",
+				text = "You now have access to the navigation system. An overview of your current zone will be displayed here.",
 				mode = 2,
 				posY = 211.02,
 				char = "1",
@@ -17,7 +17,7 @@ return {
 		},
 		{
 			style = {
-				text = "此处显示有海域中累积战斗次数，可以为某些舰船技能是否生效提供参考。",
+				text = "The total number of battles you've taken in this zone is displayed here! Use it for your own reference and to check whether your skills will take effect!",
 				mode = 2,
 				posY = 211.02,
 				char = "1",

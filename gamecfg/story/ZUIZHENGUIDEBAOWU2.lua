@@ -12,7 +12,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——目标全数击破~太棒了，离橡叶勋章又近了一步！",
+			say = "Phew! We got them all! One step closer to that Knight's Cross!",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "没有敌人了，{namecode:420}可以玩游戏了吧。",
+			say = "With the enemies all gone, can we play now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 408080,
 			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "{namecode:420}从背后掏出恩尼格玛密码机，准备开始敲打键盘。",
+			say = "U-110 reached into her backpack and took out her Enigma machine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不·要·拿·密·码·机·来·玩！",
+			say = "... Hey, what did I tell you about playing with the Enigma machine?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "上次就是你，不小心把游戏记录混在作战报告里发回司令部！害得大家迷茫了好一阵子！",
+			say = "Remember how you made headquarters panic last time you sent a word search puzzle through telegram?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "这次{namecode:435}姐姐特别叮嘱我，一定要看好你！不许再拿重要的机器玩游戏了！",
+			say = "Listen, Lord Bismarck told me to look after you! So come on, put it back in your backpack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "——要是不听话，以后可就再也没人陪{namecode:420}玩了哦~",
+			say = "And if you don't do as I say, then I won't play with you anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "……太可怕了。多么残忍，{namecode:420}很震惊。",
+			say = "... You're meeaaan. Booooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 408080,
 			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "{namecode:420}火速投降，把恩尼格玛收了起来。",
+			say = "U-110 did as she was told and put the Enigma machine back.",
 			action = {
 				{
 					type = "shake",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "明白就好……啊，司令部有通知，我先离开一下。",
+			say = "*Sigh*... Oh, I received a message from Lord Bismarck! I have to go for a bit, so keep watch here by yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "没关系，不暴露就好了。{namecode:420}，悄悄玩。",
+			say = "What she doesn't know can't hurt her. Time to play, in seeeecret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "{namecode:420}，喜欢恩尼格玛。这是{namecode:420}的，宝物。",
+			say = "I love you, Enigma. My preeeecious~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

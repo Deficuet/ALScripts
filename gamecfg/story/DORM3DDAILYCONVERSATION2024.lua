@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，最近几次自主训练的成绩都不太符合我自己的预期。",
+			say = "{dorm3d}，my recent training hasn't been yielding the results I hoped for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽然已经在休息时间进行了额外训练，但还是没什么起色。",
+			say = "I included extra training during my break time, but it hasn't had much effect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "能麻烦你陪我一起训练吗？",
+			say = "Do you think you could help with my training?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要有你在附近看着的话……我想应该会提升得很快的。",
+			say = "All I need is for you to be nearby and watch... I feel like that would help me improve so much faster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

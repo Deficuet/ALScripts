@@ -12,7 +12,7 @@ return {
 			side = 0,
 			bgm = "battle-boss-italy",
 			dir = 1,
-			say = "雷达检测到前方有新的舰队出现，是新的皇家巡逻队么…",
+			say = "There's a fleet we haven't seen before ahead of us... I wonder if it's another Royal patrol fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "维希教廷的驱逐舰队，你们怎么会在这里……？",
+			say = "A Vichya fleet?! Why would they be here...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 1,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "等等，你难道是……敦刻尔克？！",
+			say = "And if I'm not mistaken, you're that battlecruiser, Dunkerque?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			actor = 900236,
 			dir = 1,
-			say = "糟了，是皇家的阿瑞托莎！",
+			say = "I knew it, a blasted Royal fleet! Dunkerque, don't push yourself too hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			actor = 901020,
 			dir = 1,
-			say = "意图被发现了，不能让她回去报信。",
+			say = "If we let them get away, they're going to report our position... Vauquelin, we have to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "速战速决，虽然很抱歉，但是我们今天必须通过这里！",
+			say = "No hard feelings... but you will be letting us through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在NY港等隶属于碧蓝航线的己方港口中，您可以使用G.M系统的舰队指令模块对参战舰队进行快捷管理。",
+			say = "You can manage your Operation Siren fleet from the NY City port.",
 			voice = "event:/tb/34/tb-34",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "比如，您可以使用舰队部署指令在港口中对参与大型作战的舰队成员进行调整。",
+			say = "This, of course, includes changing your fleet composition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>决战兵器之相</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>8 Decisive Weapon</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……咳、咳咳……头好晕。",
+			say = "*cough cough*... My head is spinning...",
 			bgm = "story-nailuo-theme",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我再也不要用神木进行移动了……咳、咳咳……",
+			say = "Is teleporting into the sacred tree's domain always this bad? *cough*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看这幅光景……应该算是来到仪式的核心区域了吧。",
+			say = "It looks like... this must be the circle at the core of the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "暗红色的天空下，岸边开满了无边无际的彼岸花。",
+			say = "The sky was a dark red, and a sea of red spider lilies covered the earth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "泛着幽幽光芒的河水犹如传说中的三途之川，时不时可以看见幽蓝色的火光一闪而过。",
+			say = "The mountain stream was as the Sanzu River, with faint, spectral blue flames dancing upon it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,31 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "而空中流淌的能量，正在向着一棵枯萎的巨大樱花树缓慢汇聚着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_bianzhihua_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……真是阴森的地方，得赶紧找到{namecode:84:武藏}大人的位置才行！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_bianzhihua_1",
-			hidePaintObj = true,
-			say = "{namecode:96:瑞鹤}放出侦察机凌空搜索，很快就在彼岸花海中找到了所搜寻的目标。",
+			say = "Palpable energy flowed through the air and into the great, withered tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +98,31 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……{namecode:84:武藏}大人，等等我，我们一同行动吧！",
+			say = "Eerie... I'd better go find Musashi, and fast!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_bianzhihua_1",
+			hidePaintObj = true,
+			say = "Zuikaku promptly sent out recon planes. Amidst the bed of lilies, she spotted Musashi.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_bianzhihua_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "*pant*... *pant*... Musashi, let me come with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "……{namecode:96:瑞鹤}？没想到你能追到这里来……",
+			say = "...Zuikaku? I didn't think you would come here, nor so quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "你是怎么进来的？",
+			say = "How did you do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了{namecode:292:四万十}大人曾经送给{namecode:88:瑞凤}的一枚玉牌，据说是用神石的碎片制作的。",
+			say = "With this token made from a Watatsumi fragment! Zuihou says Shimanto gave it to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "没想到本岛内还留存有这样的东西……",
+			say = "I had no idea such a thing remained on the mainland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "看你身上散发的淡淡金光，想来是她把{namecode:83:大和}曾经送给她的礼物也借给你了吧。",
+			say = "Seeing that faint golden aura about you, you must have what Yamato once gave her, as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦……淡淡金光？",
+			say = "Golden aura...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "听到{namecode:84:武藏}的话后{namecode:96:瑞鹤}这才注意到，自己的身上似乎在进入仪式的核心区域后，就散发着似有似无的金色光芒。",
+			say = "Zuikaku finally realized that her whole body was emitting golden light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "……想来，那玉牌是只能使用一次的。既然你已经来了，也没法就这样赶你回去。",
+			say = "That token can only be used once. Now that you've used it to come here, you won't be going home so easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96:瑞鹤}，你可知接下来所做之事要承担的风险？",
+			say = "I'm sure you're here to stay my hand, but I won't be leaving you alone for the sake of my return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是很清楚……但，我知道这是必须由我们去完成的事。",
+			say = "Let's stop Akagi together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且{namecode:84:武藏}大人不怕，我也不怕。",
+			say = "I don't know what danger awaits, but I know someone has to do something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也好。有你在，胜算也大了几分。",
+			say = "...Very well. With you here, my chances of success have increased.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人，我们接下来要怎么做？",
+			say = "What do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "阻止仪式的办法有两个。",
+			say = "There are two ways to stop the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "其一，去仪式的核心法阵中心直接打倒{namecode:91:赤城}，接管并停止仪式。",
+			say = "Either we defeat Akagi at the core of the circle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "其二，打破仪式的守护结界，破坏仪式的封闭性，进而逐步瓦解仪式。",
+			say = "...Or we break its protective barrier and open it up to the outside world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我原本是计划去直接破坏仪式的守护结界的。",
+			say = "That was the approach I was going to take – originally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？不是直接去法阵中心阻止{namecode:91:赤城}前辈继续进行仪式更快么？",
+			say = "Huh? You weren't going to stop Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "仪式汇聚了相当程度的力量。在仪式完成之前，越接近中心，作为仪式操控者的{namecode:91:赤城}所能调用的力量就越大。",
+			say = "The ritual has gathered immense power. If we don't stop it, then her power will only grow as we approach the core.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "相应的，想要去阻止她的人，所要受到的阻力也越大。",
+			say = "Forget defeating her – just approaching her will take enormous strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "相比之下，破坏仪式的守护结界虽然不能立刻阻止仪式，但是却有另一个好处。",
+			say = "While breaking the defensive barrier will not in itself prevent the ritual, it will open up a new course of action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "此时此刻，仪式的守护结界已经和笼罩本岛的重樱大结界合二为一了。",
+			say = "The ritual barrier has fused with the Prime Barrier that protects the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "打破仪式的守护结界，也就等于打破了封闭重樱群岛的大结界。",
+			say = "In breaking it, we will essentially create a route to the outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，不但可以让更多人进入核心区域与我们并肩作战。",
+			say = "That will allow us to join forces with our allies on the outside, but that's not all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "也可以在万一局面失控的时候……让本岛内的人通过结界的缺口撤离。",
+			say = "It can also be used as an escape route if needs must.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那{namecode:84:武藏}大人，我陪您一起去破坏仪式的守护结界！",
+			say = "Then let me help you fight, Musashi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，你去仪式的核心法阵中心阻止{namecode:91:赤城}。",
+			say = "...No. You must go to Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……可是您刚才不是说，越往中间，{namecode:91:赤城}前辈的力量就越大，我受到的阻力也越大么……？",
+			say = "Huh? But didn't you just say she'd be stronger there? And it would be really hard just to get there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错，但那是只有你一人的情况。",
+			say = "Only if she can bring all to bear against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "如今，我可以在结界内尽情破坏，吸引{namecode:91:赤城}的注意力。",
+			say = "When I'm busy ripping holes into her barrier, she'll be forced to focus her attention on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "而你就可以借此机会，偷偷靠近中心伺机行动了。",
+			say = "Use that opportunity to approach her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有{namecode:83:大和}……还有你带的那些种类繁多的道具保护你，一路上的侵蚀力量对你是毫无威胁的。",
+			say = "With what Yamato and the others have given you, the corrosion should be negligible for a time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，我明白了，我一定会阻止{namecode:91:赤城}前辈的！",
+			say = "Got it! I'll go stop Akagi, I swear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "呵呵，不错的气势。",
+			say = "Heheh. That's the spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「那就由吾来打响第一枪，为汝开路吧。」",
+			say = "\"With this strike, I clear thy path forward.\"",
 			bgm = "theme-musashi-marching",
 			typewriter = {
 				speed = 0.05,
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "雷霆之力游走于{namecode:84:武藏}周身，很快便在空中凝聚成了一个虚影。",
+			say = "Purple electricity surged from Musashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "虚影越变越大，越变越清晰。头盔、铠甲、护臂、长刀——很快，一个近百米高的雷电武士之影出现在半空中。",
+			say = "It formed a helmet, arms, a torso – until it had become a giant, yet empty suit of armor, perhaps a hundred meters tall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人……这究竟是？！",
+			say = "What's that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "这是……咳……吾为今日，所准备的决战兵器。",
+			say = "...Ahem. Consider this the trump card I've prepared for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "便用这第一击，拉开此次决战的序幕吧。",
+			say = "Now, Zuikaku, brace yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			bgName = "bg_bianzhihua_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "「宁如镜湖，缥若云岚，天剑出鞘，万钧雷霆。」",
+			say = "\"Thunderhead on lake's reflection, by my heavenly blade, unleash thy lightning.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "「斩————」",
+			say = "\"Cleave!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bianzhihua_1",
-			say = "百米高的武士之影对着天空挥出巨剑。一击，便引发了天崩地颤。",
+			say = "The suit of armor swung its sword toward the sky, cleaving the barrier like heaven and earth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "似乎是作为对于这样一位肆无忌惮的入侵者的回应，黑色的浪潮由远方汇聚而来。",
+			say = "Countless demons emerged from the horizon in response to Musashi's strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "宛如魑魅魍魉，百鬼夜行。",
+			say = "The horde of monsters descended from sky and sea alike, a wave of sheer chaos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人……这、这些如同潮水一般的敌人是？！",
+			say = "Uh, what are those?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "呵呵……咳、这就是吾不久前跟汝提到的，将会出现的阻力了。",
+			say = "...They're here to stop you from approaching Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +976,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这第二击，就为汝扫清这些魑魅魍魉，为汝开出道路！",
+			say = "Allow me to strike once more and clear a path for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			bgName = "bg_bianzhihua_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "「雷动千钧，电射斗牛，天剑扫秽，万里净空。」",
+			say = "\"Thousand thunderbolts that pierce the stars, by my heavenly blade, purify the heavens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「斩————」",
+			say = "\"Cleave!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,7 +1022,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "又是一剑挥下，电光飞驰，黑色的浪潮被武士之影硬生生劈开一道巨大的缺口。",
+			say = "Her slash cleaved the wave of demons in twain, cutting a path big enough for a shipgirl to proceed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305100,
-			say = "咳、咳咳……咳……",
+			say = "*cough cough*... Urgh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人，您没事吧？！",
+			say = "Musashi? Are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用管吾，快走，去阻止{namecode:91:赤城}！",
+			say = "Forget me! You must hurry to Akagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好，我明白了。{namecode:84:武藏}大人……千万保重！",
+			say = "...Okay! Good luck, Musashi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,15 +1110,15 @@ return {
 			},
 			sequence = {
 				{
-					"「彼岸花，三途川。」",
+					"\"Sanzu River, blooming spider lilies.\"",
 					1
 				},
 				{
-					"「奈落降世，烈焰焚天。」",
+					"\"Draw in the eternal, and burn the heavens.\"",
 					2
 				},
 				{
-					"「姐姐，终于……能见到你了。」",
+					"\"Sister... It's finally time...\"",
 					3
 				}
 			}

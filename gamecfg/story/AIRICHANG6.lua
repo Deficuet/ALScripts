@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=45>六 法官绊爱</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 6 - Judge Kizuna AI</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "我是虚拟主播……不！法官绊爱！虽然没有犯法，但是让人觉得“不带这样的吧”的事情，大家应该经常遇到吧？",
+			say = "Virtual You- Wait! No! Judge Kizuna AI here! While I've never touched on the law before, sometimes you just gotta wing it, right?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,24 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就让我法官绊爱来为这种令人心情不快的事情进行判决吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "如此这般，碧蓝航线出差版第1回绊爱法庭，现在～～开庭！！",
+			say = "It's up to my gloomy self to determine who's guilty and who's innocent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咚！咚！）",
+			say = "And so the First Azur Lane Kizuna Ai Court is now IN SESSIONNNNNN!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天要判决的是这位的事件。约克酱请！",
+			say = "*BANG BANG*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,49 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
-			side = 1,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "前几天，我把出于“饮料开发”的兴趣而制作的约克特制饮料给指挥官喝了！",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 0
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203070,
-			side = 1,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但是，喝下饮料的瞬间，指挥官一下子失去意识，昏睡过去了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 0,
-			bgName = "bg_story_task",
 			actor = 10400010,
-			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "诶诶！？到底放了什么东西进去啊？",
+			dir = 1,
+			say = "Our first case will be the trial of this young lady here. YORK, PLEASE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,11 +117,11 @@ return {
 		},
 		{
 			actor = 203070,
-			side = 1,
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是依照命运<Fate>的引导而制作饮料罢了。硬要说的话，加入的正是从我内心深处涌出的力量<Love>！",
+			say = "The other day, I had the Commander try some of my York's Special Drink I created while putting my talents to use in \"Beverage Development.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,29 +132,28 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 0,
+			actor = 203070,
+			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But just as he partook of the beverage, the Commander's very soul slipped its bonds and the officer fell into a deep sleep!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "哦哦，好热情啊。虽然不是很懂，不够还是有请女灶神小姐吧。指挥官倒下的原因究竟是什么呢！？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 112010,
-			side = 1,
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是～经过检查，指挥官是因为饮料太难喝，难喝到晕倒了～",
+			say = "Wow! What the heck did you put in it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +165,11 @@ return {
 		},
 		{
 			actor = 203070,
-			side = 1,
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么可能！明明是经过我完美的调配<Formulation>而制成的饮料……！",
+			say = "I simply crafted it with the guidance of †Fate† Herself. Twas the indomitable power of †Love† boiled up from my breast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,42 +177,15 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
-			expression = 2,
-			side = 0,
-			bgName = "bg_story_task",
 			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "嗯～总而言之，只要让约克酱自己喝一次同样的饮料，结果自然就出来了不是吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203070,
-			side = 1,
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对啊！这么说起来我自己还没试过味道呢。就让我把这杯约克特制饮料一饮而尽，来证明我是无罪<Innocent>的吧！",
+			say = "Ooh. Kinda hot, huh? Anyway I have no idea what you're talking about so I asked Ms. Vestal to join us. Please, explain to the court what incapacitated the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "约克酱，还是不要……呃，已经喝完了啊",
+			say = "Aye-aye. After a thorough medical examination, I discovered some residual toxins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕！？唔嗯嗯嗯嗯！",
+			say = "Th- that's absurd! My perfect †Formulation† would never employ such crude ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,13 +228,12 @@ return {
 			}
 		},
 		{
-			expression = 6,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "没、没事吧？脸色都发青了啊…！？",
+			dir = 1,
+			say = "Hmmm. Now we have one of York's \"Special Drinks\" right here. Why don't you take a swig and see if that answers some questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,33 +249,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…呼、呼呼呼……确实是让人不禁满地打滚的味道呢。指挥官的感受，我已经深深地明白了…不过，这样一来，我们就是喝下同样的罪恶圣杯的共犯<crime>……（倒地）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = -2250,
-					delay = 1,
-					dur = 0.5,
-					x = 0
-				}
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "约克酱！！？？女灶神小姐！拜托你治疗了！！",
+			say = "Verily! In fact, I've never had a chance to taste it before. Allow me to prove my †Innocence† by draining this very cup!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +265,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的～真是的，这么勉强自己。爱酱，之后就交给我了",
+			say = "York, I really don't think you should- aaand she's already drinking it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,56 +276,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……走掉了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "啊，绊爱法庭还没结束呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 10400010,
+			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯～那就让我来下判决吧",
+			say = "*Gulp! Gulp! Nnnnnnggggggg!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咚！咚！）",
+			say = "Ah- are you all right!? You're turning as blue as a berry!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,106 +308,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "<size=67.5>无 罪</size>",
-			effects = {
-				{
-					active = true,
-					name = "speed"
-				}
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "虽然一开始想判有罪来着，不过本人都把饮料喝干了呢。对此我觉得值得称赞！指挥官也一定会原谅她的吧！",
-			effects = {
-				{
-					active = false,
-					name = "speed"
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "而且毕竟是为了指挥官而做的嘛，也没办法！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "只要有爱，什么都不是问题！我不也叫爱吗！哈哈",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "嘛，也许还有其他什么人会喝到这饮料也说不定，到那时候就靠那个人自己努力吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "那么，今天的绊爱法庭就此闭庭！！",
+			say = "Urkk... it's... a sort of \"writhing around on the ground\" kind of flavor. I.... understand how the Commander felt.... and with this, we are accomplices in draining the †Chalice of Sin†.... *collapses*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +329,199 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咚！咚！）",
+			say = "York!? Ms. Vestal! Can you do anything for her!?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 112010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Aye-aye. But we've really gone too far here. Do you think you could let me handle it next time, AI?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "....and they're gone.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh, we were in the middle of a Kizuna AI trial!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wellllllll... I guess I should pass judgment.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "*BANG BANG*",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "NOT GUILTY",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I thought she was guilty at first, but then she went ahead and chugged that stuff down all by herself. I gotta give props for that. I think the Commander'll forgive her too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I mean I did all this for the Commander's sake, after all.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Really, all you need is love. And AI means love, got it? Just A.I... J.K.!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Well, maybe someday somebody will drink something again, and then somebody will come along to make the magic happen one more time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And with that, today's session of Kizuna Ai court is officially ADJOURNED!!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 10400010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "*BANG BANG*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,13 +533,12 @@ return {
 		},
 		{
 			actor = 201210,
-			stopbgm = true,
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
-			say = "（抖）……总觉得不知道为什么有种不祥的预感，还是当作什么都不知道吧…",
+			say = "*shudder* I just got the strangest feeling that somebody somewhere was doing something really stupid but... I'm just gonna let it go....",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -619,16 +563,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 1,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		}
 	}

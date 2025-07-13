@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "休息时间结束，探索救援行动再度开始。",
+			say = "Rest time ends, and the shipgirls resume the rescue operation.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "此刻，推测校园内的理性办公楼内仍有被困人员。",
+			say = "The girls speculate that there might be more little shipgirls trapped in the office building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "为了加快效率，众人再次一分为二。",
+			say = "In order to increase the efficiency of the search, we decide they should split into two groups again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "闪耀星星小队从办公楼正门进入，而其他人则组成“酷酷骑士队”从后门进入。",
+			say = "The Twinkling Little Stars infiltrate from the main entrance, while the others form a team called Sparkling Knight and circle around the back of the admin building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "童心学院·理性办公楼",
+			say = "Admin Building",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "或是因为天色暗淡，也或许是在先前的行动中耗尽了体力，这一路众人少有言语。",
+			say = "The investigation team's chit-chat dies down over time, probably either because it's dark or because they're tired from the search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "咔哒——咔哒——咔哒——",
+			say = "*tap*... *tap*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "黑暗之中，传来了一串质感冰冷的脚步声。",
+			say = "During a moment of silence, footsteps can be heard from the dark hallway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "这个声音是，嘶——",
+			say = "Is that sound...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "咿呀呀呀——！！！！暗黑镇魂曲！！！！",
+			say = "Eeeek! I-it's Dark Requiem!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "我可是叛恶者啊！！你们不要过来啊！！！",
+			say = "You'd better keep your distance! I'm a REBEL, you know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "在脚步声即将转过拐角的瞬间，{namecode:537:Z43}决定率先出击。",
+			say = "Before the footsteps can round the corner, Z43 leaps to the front of the group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "伴随着{namecode:537:Z43}的尖叫，{namecode:536:U-31}也猛地回身——亚尔薇特和约克公爵出现在了画面内。",
+			say = "Her scream echoes through the halls, prompting U-31 and the little ships to rush over. Alvitr and Duke of York come into view of the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "我们是听到声音后出来调查的，怎么是你们……？",
+			say = "We came here because we heard voices. I had no idea it would be you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "抱歉，吓到你们了。",
+			say = "Sorry for scaring you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205074,
-			say = "是余同亚尔薇特思虑不周，令汝等受惊了。",
+			say = "I guess we weren't cautious enough. We really didn't mean to give you such a fright.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "没有哦~明显是{namecode:537:Z43}一惊一乍的反应更吓人吧！",
+			say = "Honestly, Z43's screaming was what really scared us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "你们怎么会来这里，外面的情况如何了？",
+			say = "So, why are you all here? What's the situation like outside?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,10 +345,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_519",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，还是由我来说明吧。",
+			say = "Allow me to explain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "原来如此，发生了这么多事啊……",
+			say = "I see. A lot has happened in so little time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,10 +393,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_519",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们这边呢，办公楼的情况如何？",
+			say = "What about things on your end? Is the admin building safe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "我们这边也确实遇到了些情况……",
+			say = "Well, we've run into our fair share of troubles here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "请跟我来办公室吧。等到了办公室，大家一看便知。",
+			say = "Follow me to the staff office. I think you'll be able to see the problem there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "理性办公楼·教师办公室",
+			say = "Office Building - Staff Office",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -469,11 +469,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "理性思维·石膏喵",
+			actorName = "Meowfficer Bust of Studying",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵！喵！喵！喵！",
+			say = "Meow meow meeeow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "此刻，办公室中已经成为了石膏喵的天堂。",
+			say = "Alvitr opens the door to the staff office, revealing a Meowfficer bust playground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这……这是怎么回事？",
+			say = "Wh-what's going on here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "如各位所见，办公室已经被这群突然出现的小家伙占领了。",
+			say = "See for yourself. These pipsqueaks appeared out of nowhere and took over the office.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "它们虽然没有展现出敌意，不过也丝毫没有离开的打算。",
+			say = "They don't seem malicious... but I also doubt they plan to leave any time soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "正如亚尔薇特所言，充斥着教师办公室的石膏喵只是高举手中的出题板，在地上成群结队奔跑着。",
+			say = "Alvitr's right. The Meowfficers are holding up signs with questions on them and running around the room in a line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "而在办公室的角落中，则堆积着更多的出题板。",
+			say = "On closer inspection, there are more signs piled up in the corner of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,10 +665,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那些角落中的出题板是……？",
+			say = "Is this their way of holding a test, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "那些啊……这些石膏喵虽然没有展现出敌意，但是会一直递过来出题板。",
+			say = "Well... I did say they're not malicious, but for some reason, they really want to quiz us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "刚才想着也是闲着，就顺手做了些练习……",
+			say = "As for the ones in the corner, we answered those already since we were bored and annoyed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,11 +712,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "理性思维·石膏喵",
+			actorName = "Meowfficer Bust of Studying",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵！喵！喵！喵！",
+			say = "Meow meow meeeow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "出题板……递过来了。",
+			say = "They're... quizzing us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,7 +958,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "我知道了，这是要我们也来做题的意思呀！",
+			say = "I get it! So they want us to answer their questions, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:527:小圣地亚哥}接过了石膏喵手中的题板，看了一眼上面的题，接着把出题板塞给了{namecode:537:Z43}。",
+			say = "Li'l Sandy accepts a quiz sheet, takes a look at it, and immediately hands it to Z43.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "这种题目太简单啦！不需要闪耀星星小队的队长出手！",
+			say = "Easy stuff! This isn't even worth wasting the leader's time! My Twinkling Little Stars can handle this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "呵……我、不是……吾的魔眼早已将冥冥中的答案全都告诉了吾……我就不参与了！",
+			say = "Huh? M-me...? Hmph! My demon eye has already divined the answer... For the sake of fairness, I'd best not participate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "埃尔德里奇哟，此等重担就交付于汝手了。",
+			say = "Eldridge! I leave this great responsibility in your capable hands!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1041,7 +1041,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "不想做的话我来做，指挥官大人可是在看着哟~",
+			say = "If you don't want to do it, I'll do it. The Commander is watching, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "……简单。",
+			say = "...No. This is easy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1077,7 +1077,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "……题目，完成。",
+			say = "Done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1109,7 +1109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "埃尔德里奇以最快的速度完成了题目，石膏喵接过了她提交的题板，进行检查。",
+			say = "Eldridge answers the quiz with awesome speed, hands it in to the Meowfficer bust, and has it check her work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,11 +1117,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "理性思维·石膏喵",
+			actorName = "Meowfficer Bust of Studying",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵喵~~！！",
+			say = "Meow meow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "石膏喵开心地高高蹦起，在空中分裂成了两只。",
+			say = "It leaps into the air happily... and splits in two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1154,7 +1154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307060,
-			say = "咦——竟然分裂了？！",
+			say = "They multiplied!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1172,7 +1172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307050,
-			say = "这些石膏喵的异常特性……是分裂么。",
+			say = "No wonder there are so many... It's like they're doing mitosis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1187,7 +1187,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "随后，分裂出来的石膏喵拿来了更多的题板。",
+			say = "The two new Meowfficers bring in new quiz sheets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "又、又来了？我要做不完了啦——！",
+			say = "More of them? At this rate, we'll never finish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1219,7 +1219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "咦？按照这样下去的话，岂不是会越做越多？",
+			say = "I'm starting to think that answering their questions will just lead to more questions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1233,10 +1233,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来顺着它们的行为来解题不是正确的思路。",
+			say = "Hmm... Okay, so solving the questions as they're given to us isn't enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者……“给出正确的回答”这一行为是错误的？",
+			say = "Rather... Perhaps giving the correct answers is the wrong idea in itself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1269,7 +1269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404061,
-			say = "你的意思是故意填写错误的答案么？",
+			say = "Are you saying we should give incorrect answers on purpose?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1287,7 +1287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "这种事我喜欢，就交给我吧~",
+			say = "Good idea. Leave it to me~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1302,7 +1302,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}在出题板上画了一只小乌龟，然后递给了石膏喵。",
+			say = "U-31 takes a quiz sheet, draws a turtle on it instead of writing an answer, and gives it back to the Meowfficer bust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1310,11 +1310,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "理性思维·石膏喵",
+			actorName = "Meowfficer Bust of Studying",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵——！！！",
+			say = "MREEEOW!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1421,7 +1421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "石膏喵愤怒地给了{namecode:536:U-31}一记头槌，落在地上后，由一只变成了两只。",
+			say = "Infuriated, the Meowfficer jumps up and headbutts her. When it lands, it splits into two just like it would've if she'd answered correctly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,7 +1435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "呜……好痛！",
+			say = "Rrrgh... That hurt!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1463,7 +1463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "真是的！答对不行，答错也不行，那就干脆把它们丢在这里不管吧！",
+			say = "Ugh! If it doesn't matter whether we're right or wrong, how about we just ignore them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1481,7 +1481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "反正之前亚尔薇特她们把这些石膏喵丢在这里离开也没出什么问题嘛……",
+			say = "They seem harmless, and you were able to get out of this room without bothering with them, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1496,7 +1496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}一边说着一边来到了门前。可是与来时不同，此刻的办公室门就像嵌在空间之中，纹丝不动。",
+			say = "U-31 tries to open the door to prove it, but unlike when they came in, it won't budge an inch no matter how she tries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1510,7 +1510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "欸……好奇怪啊，之前亚尔薇特不是能自由出入么？！",
+			say = "Huh... That's weird. Alvitr was able to get out just fine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1526,7 +1526,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……不出所料，看来只能先着手解决眼前的问题了。）",
+			say = "(I knew it. We need to solve the problem here before we can leave, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1538,7 +1538,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（根据之前的经验，要停止石膏喵的分裂行为，一定与童心与开心有关。）",
+			say = "(Stopping them from cloning themselves... It must be related to innocence and fun.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1550,7 +1550,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是童心与开心，不等于要故意做错题，实际上做错题也确实没能解决问题。）",
+			say = "(Whether they answer right has no relation to those things. And the result is effectively the same if you get them wrong on purpose...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1564,7 +1564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "哼，真麻烦。它们要你们做题，你们就做题么？",
+			say = "Hmph, what a bother this all is. They ask you questions – is it not reasonable to assume you must ANSWER them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1583,7 +1583,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些麻烦的板子，一把火全烧了不就得了？",
+			say = "Why don't we just burn all of these sheets at this rate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我明白了，原来盲区在这里。",
+			say = "That makes sense... I was totally blind to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "嗯？指挥官也同意么，那{namecode:291:小大凤}，准备点火。",
+			say = "Oh? So you agree, Commander? Taihou-chan, ready a fire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1629,7 +1629,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等……不是这个意思！",
+			say = "Hold it, hold it! That's not what I meant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1641,7 +1641,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里的盲点在于，不是不应该答题，而是——不应该只答题。",
+			say = "I was saying that it's not about just answering the questions. JUST answering the questions isn't enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1651,10 +1651,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "学习，要讲究劳逸结合才是。",
+			say = "All work and no play makes you a dull shipgirl. Get what I mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1669,7 +1669,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "劳逸……结合。",
+			say = "All work and no play...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1688,7 +1688,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……原来如此。",
+			say = "Heheh, I understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多亏了某人，现在办公室内已经累计做了足够多的题，接下来只需要“逸”就可以了呢。",
+			say = "Thanks to someone, the work is done. Now all that's left is to play, is that it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1721,10 +1721,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。接下来大家要做的事就是休息。放松、尽兴地去玩吧——",
+			say = "Exactly. That's enough work. Relax and play, girls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

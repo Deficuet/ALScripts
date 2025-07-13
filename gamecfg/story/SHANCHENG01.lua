@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>一　冬天与被炉</size>",
+					"Winter Offensive\n\n<size=45>Chapter 1 - A Kotatsu in the Winter</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呼…果然冬天还是最适合被炉呢…",
+			say = "Phew... there's nothing quite like a warm kotatsu during the winter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "哈啊…感觉要和被炉融为一体了…",
+			say = "Ahh... I don't want to ever get out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "唉…看你这样子…真是不成体统…",
+			say = "My, my, is that how you should be acting?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "哎～姐姐自己还不是一样窝在被炉里～",
+			say = "Ehh? But Fusou, you look pretty cozy too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "咳咳…",
+			say = "Umm... *cough*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "没办法嘛…谁让冬天这么冷呢～",
+			say = "It's not like I have a choice... it's way too cold this year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "再这样下去，身体都要变差了呢，冬天也需要锻炼身体呀",
+			say = "We're going to get all chubby at this rate. Even if it's cold, we're going to need to get some exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "诶～这种天气？能做什么锻炼嘛……",
+			say = "Ehh? In this weather? What kind of stuff is there to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "比如…冬泳什么的？还能锻炼气魄呢？嘻嘻…",
+			say = "Hmm... how about cold-water freediving? We'd also be able to show some guts in the process. Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "咿～这玩笑一点都不好笑啦…想想都觉得好冷呀…",
+			say = "Jeez, Fusou, don't even make jokes about that... just thinking about it is making me cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

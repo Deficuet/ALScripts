@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp",
 			sequence = {
 				{
-					"分队代号「重锤」",
+					"Hammer Unit",
 					1
 				},
 				{
-					"旗舰：苏维埃贝拉罗斯",
+					"Flagship: Sovetskaya Belorussiya",
 					2
 				},
 				{
-					"“王冠”周边海域·塞壬控制区",
+					"Objective: Contain the Sirens' main force at the Crown",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈哈哈哈！只有这点实力吗！",
+			say = "What's the matter, Sirens?! Is that all you've got?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "前方发现新的塞壬增援舰队！",
+			say = "Enemy reinforcements spotted ahead! They're approaching!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "无妨，不管来多少结局都是一样的！",
+			say = "I don't care! Send all the reinforcements you want, it won't matter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "继续开火————！",
+			say = "I feel my blood boiling! Finally, I'm in battle again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，这波增援舰队就由我收下了~",
+			say = "Sorry, but you're not the only one in this battle, Gangut~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "炮火的隆隆声响彻天空，但是在那之前，塞壬的增援舰队已经在无数航弹的爆炸中化作燃烧的残骸。",
+			say = "Before Gangut could fire her main cannon once more, Chkalov's carrier-borne craft mowed down the Siren reinforcements with explosions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "好样的，契卡洛夫同志。这个威力真令人安心啊！",
+			say = "Very well! Watch my back, Comrade Chkalov!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢夸奖，不过现在这种程度只能算是热身战吧。",
+			say = "Don't expect too much from me, but that wave was little more than a warm-up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是超出预期的热闹场面啊。",
+			say = "This is a hell of a violent reception here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，既然闹成这样，正主想来随时都会登场了吧。",
+			say = "But if we cause enough havoc, she won't be able to sit idly by and let the Crown be taken from her—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,10 +277,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "汝等真是——————",
+			say = "—Don't push your luck, fools!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,10 +288,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "一叶蔽目，不见泰山！两豆塞耳，不闻雷霆！",
+			say = "Is every one of you both blind and deaf?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,10 +304,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "没想到竟会自以为是到如此地步！",
+			say = "Do you believe your power is so great that you can outwit Omitter?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,10 +315,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
-			say = "以为依靠全线进攻，吾就看不出汝等的图谋了么？！",
+			say = "Or did you think your idiotic all-out attack would overcome my genius?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个登场方式……真是一点新意都没有。",
+			say = "...Seems like we've found the main body.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那·又·如·何！",
+			say = "That I am! I've seen through your whole goddamned strategy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "汝等的进攻不也是如此么？！",
+			say = "I'm almost impressed by how you go through the same pointless struggle time and time again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过是一次又一次的尝试，一次又一次的徒劳！",
+			say = "It's time for you to learn once and for all that your efforts are in vain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次可就难说了哦。",
+			say = "Hold it! I don't know if I believe you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你既然自称看出我们的图谋了，不妨细细说说看？",
+			say = "If you know the entirety of our strategy, then enlighten us. We'd all love to hear your opinion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你觉得聊天流对我有用么！！",
+			say = "You're trying to buy time now?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们这么大张旗鼓的闹腾，无非是吸引我的注意力然后拖延时间罢了！",
+			say = "The whole point of your struggle here is to detain my forces and allow your stupid friends to move as they like through my domain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吸引我的注意力嘛，那就如你们所愿~拖延时间就别想了！",
+			say = "Well, here I am! Just like you asked! But now it's my turn!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "看我先解决了你们再去收拾其他的方向！",
+			say = "I'll slaughter you all in seconds, and then, I'll do the same to the other units!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈，死到临头还在嘴硬。",
+			say = "Hahahahaha! That's big talk, for someone who's about to get hers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "想逃跑的话先过了我们这一关再说吧！",
+			say = "We're not here to detain you—we're here to DEFEAT you, Omitter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "接招吧——「于吞噬天地的巨口之中诞生出的璀璨星河」！",
+			say = "Take this! Spacetime-Devouring Big Bang Destruction Cannon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "一道耀眼的白光扫过水面，沿途的海水在刹那间沸腾，冰层与来不及规避的量产型军舰瞬间就化为了蒸汽。",
+			say = "Dazzling light emitted from the optical weapon swept across the water's surface, vaporizing mass-produced ships and the ice itself instantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "好烫！",
+			say = "Hot, hot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "一上来就进入正题了啊……不能和它拉开距离，近身战！",
+			say = "She's gone straight for a powerful attack! ...Don't run away! You need to get in close to her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "这次我倒要看看，你还能不能拿出点新花样！",
+			say = "Show me all of your new tricks, Omitteeer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仪器回传，电磁压制效果正在消失，周边风力持续减弱中……",
+			say = "Wait, the wind is weakening... Jamming and abnormal weather indicators are rapidly falling!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干得漂亮，「手术刀」分队与「镰鼬」分队！",
+			say = "Fantastic work, Lancet and Lightning units!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -760,7 +760,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "啧……要不是构建者系统出现故障……怎么会出现IV型舰队不够用的情况……",
+			say = "Tch... If Compiler were here, I could overcome you trash with mass-produced ships alone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔啊啊啊啊，无所谓了！",
+			say = "This is the first time... I've been made such a fool of...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "先集中力量消灭了你们，之后我一个个去解决就是了！",
+			say = "You'll pay for this! I'll torture every last one of you to the bitter end!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "现身吧，执行者IV型舰队！",
+			say = "Consider this an honor! You will be the first to witness the true strength of my fleet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……IV型舰队？指的是那些绿色的新型量产型么……",
+			say = "The mass-produced ships are recovering? Ah, so you're the new command unit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "啊哈哈哈，看来你还是藏了些新东西的！",
+			say = "Hah! A fight's no fun without a trick or ten up your sleeve!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			bgName = "bg_hms_8",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "庆贺吧，汝等将会有幸收到由吾亲自送出的终结祝福！",
+			say = "Enough talk! I'll personally send you to the ocean floor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -883,7 +883,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "这种祝福还是留给你自己吧。",
+			say = "You're the only one who's going down there, Omitter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "多说无益，同志们，继续进攻！",
+			say = "I've had enough talk, too. Comrades! Continue your offensive!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -975,7 +975,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
-			say = "“王冠”之下，来自极北之地的勇士们正在向这片海域的主宰发起着挑战。",
+			say = "At the base of the Crown, the heroic Northern Parliament warriors challenged the evil master of the Polar North.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			blackBg = true,
-			say = "闪烁的光芒中夹杂着凌乱的爆炸声，此地的战斗看来还会持续很久，很久——",
+			say = "The cacophony of booms, flashes of light, and steel wings unfurling in the sky continued on and on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

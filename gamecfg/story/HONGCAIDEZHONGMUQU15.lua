@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作战行动成功，塞壬舰队已被拦腰截断了！",
+			say = "Direct hit. We've broken up the Sirens' fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种战术换在以前肯定想都不敢想吧……",
+			say = "Fascinating. It seems charging in is a valid strategy when you're a shipgirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "绝对会被骂死的……！用这种T劣的方式绞入敌人阵型中。",
+			say = "Warships can do that too! Though they'll get lit up like a Christmas tree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "但对于现在的我们来说是一种完全可以纳入考虑的战术。",
+			say = "Speaking of which, we've only fought warship-sized Sirens thus far. Zuikaku mentioned \"humanoid Sirens\" in passing earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "我们灵活，量产型敌人死板。近距离的话，手头的剑也能派上用场。",
+			say = "I imagine they're in a league of their own. Running and gunning like this will only work on small groups of big enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "嗯，这个也是令人震惊的发现……真没想到这些也是能爆发出强大威力的特制兵器。",
+			say = "Should it come down to a point-blank fight with a human-sized adversary, my sword will come in handy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "这样就算弹药用完了也无所谓了，光凭这把剑就能继续战斗下去！",
+			say = "Even if all my shells are spent, I can keep fighting the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "我可不要，这也太累了……",
+			say = "Knock yourself out. Me, I'd just call it quits at that point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "嘘——现在正好有点空闲，周围也没有别人，大家靠过来听我说。",
+			say = "On another note, is anyone else curious how inter-faction relations have developed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "你们应该感觉出来那几个人之间的微妙氛围了吧！",
+			say = "Putting aside the obvious stuff anyone can infer, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "你们觉得现状是什么样的？",
+			say = "You reckon things are getting tense because of this operation they've got going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来迎接我们的是祖国铁血，重樱，以及皇家。",
+			say = "It's safe to say there are at least two major camps: the Azur Lane and the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405040,
-			say = "而且听上去碧蓝航线确实成立过，可那个伊丽莎白女王却说我们不是并肩作战的关系。",
+			say = "The Azur Lane seems to be under Naval HQ's joint command, whereas the Iron Blood is the de-facto representative of the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "果然…………我也感觉是这样！只不过因为气氛怪怪的，她们没说，我也没问。",
+			say = "Sooo... Which side is fighting the Sirens? They can't still be fighting among themselves, surely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过虽然不再友好，却还来一起接我们，说明坏的也没那么彻底吧？",
+			say = "Both of them do. They have the same objective, but differ in how they aim to achieve it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谁知道呢，阵营之间一直都是这样的吧？",
+			say = "That is human nature – to splinter off into groups that fight among each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "分分合合，昨日的敌人可能会变成明日的朋友。",
+			say = "\"However, they can achieve incredible things on the rare occasions they come together as one.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "能让彼此不友好的她们一起出现在这里只能说明一个问题——",
+			say = "\"Taken as individuals, they are frail, powerless, and always yearning for stability.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "让我们回来，是她们共同觉得很重要的事。",
+			say = "That's what makes them so sweet. Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "唉……倒也不是不能理解吧。",
+			say = "Weird definition of \"sweet,\" but you do you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "按照她们的时间计算已经过去了那么久，塞壬的威胁依然没有平息，真是辛苦她们了。",
+			say = "Speaking of coming together, anyone else find it interesting how representatives from the Iron Blood, Sakura Empire, and Royal Navy are all in one place to do something other than fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那位{namecode:96}小姐说我们是先驱者……其实当时的我们什么都没能做到，就在莫名奇妙的状况中沉没了。",
+			say = "It is unusual, yes. Perhaps they've managed to purge the Sirens from their world... or they now face a threat even bigger than them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "后面的与塞壬的战争全是靠她们这些新生代维持下来的。",
+			say = "Either way, they deserve respect for all the battles they've fought leading up to today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起我们，作为后辈的她们其实更值得尊敬。",
+			say = "Remember what Friedrich said – a shipgirl's duty is to wage war on the Sirens, not her own kind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "……不过，现在的我们也已经不是过去的我们了。",
+			say = "We are soldiers, which is both our greatest strength and greatest flaw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "过去的我们失败的事，就由现在的我们弥补。过去的我们遭受的屈辱，就由现在的我们亲手来洗刷！",
+			say = "Our forte is fighting, not unifying all of humanity. Only one person can reforge the Azur Lane of old...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402070,
-			say = "讲的好，{namecode:460}！现在剩下的敌人还有多少？",
+			say = "The one known as the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "虽然阵型已被打乱，不过数量依然可观。",
+			say = "Indeed. All shipgirls, regardless of affiliation, are welcome under the Commandant's banner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那足够我们闹一番的了。大家还能跟得上吗？",
+			say = "\"To think a feeble human would be the key to a peaceful future.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "在得到众人一致肯定的答复后，公海舰队以更灵活也更致命的方式行动了起来。",
+			say = "The Iron Blood shipgirls became more and more proficient at tracking and sinking Sirens as they accustomed to their new riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_5",
-			say = "此时的塞壬舰队，已经从不久之前的猎人彻底变成了猎物。",
+			say = "The former warships that were hunted down at Scapa Flow had now become the hunters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么，就让我们为此次的复仇画上一个圆满的句号吧~",
+			say = "I wish to see this Commander – my darling human – for myself. Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

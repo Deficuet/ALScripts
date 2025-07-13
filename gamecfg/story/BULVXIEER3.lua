@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>三　比阳光更绚烂的热情</size>",
+					"All-Love Assault!\n\n<size=45>3. Warmer Than the Sun</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于等到了大晴天！今天也要跟{namecode:450}一起尽情地约会哦~",
+			say = "It's sunny outside! Perfect weather for a date, right? Heheh☆",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "休息日的第二天，一大早便被{namecode:450}上门拉来了港区的商业街……",
+			say = "For once, I have two days off in a row, and Blücher has taken me to the commercial district first thing in the morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "本想问她要不要趁着休息日好好休息一下的——",
+			say = "\"Are you sure you don't want to spend the day relaxing indoors instead?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "休息……？能有指挥官陪伴在{namecode:450}身边，对{namecode:450}来说就是最好的休息！",
+			say = "Thanks, but no thanks. To me, there's no better way to relax than simply being with you!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
-			say = "没办法，只好稍微陪陪她了。",
+			say = "\"Alright then. I'll stick around as long as you want me to.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走啦，指挥官~咱们今天要一起把雨天留下的遗憾全部补上才行哦！要去的地方可是很多呢~",
+			say = "Great, then follow me! There's a ton of places I want to go that we couldn't when it rained!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "首先是，奶茶店——",
+			say = "Our first destination: a boba café...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "给，指挥官，这杯是你的哟~",
+			say = "Hey, lemme taste yours!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -196,7 +196,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官只要了三分糖的嘛？感觉……有点淡淡的呢。",
+			say = "*sip*... It's kind of... bland. Are you not a fan of sweet stuff, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！要不来尝尝{namecode:450}的吧~",
+			say = "You don't know what you're missing out on! Try some of mine♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "接过{namecode:450}递过来的奶茶尝了一口——是全糖……好甜。",
+			say = "She shoves her boba tea in my face. Since she insists, I take a sip. It tastes extremely sweet, almost like liquid sugar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，间接接吻达成~",
+			say = "Heheh☆ We just shared an indirect kiss~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奶茶就是要甜甜的才好啦~就像我和指挥官之间的情感一样！",
+			say = "Boba tea is at its best when it's super sweet! Just like our love♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "然后是，游乐园——",
+			say = "Next up: the amusement park...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇！指挥官，来陪我坐坐这个吧！看上去应该很刺激很好玩！",
+			say = "Ooh, that ride looks fun! Let's go on that, Commander!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "居然是过山车……原本以为她会选比较适合聊天的旋转木马呢。",
+			say = "\"The roller coaster? I thought you'd want to go on the merry-go-round first, knowing how much you love chit-chatting.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "旋转木马当然也要，不过先来陪我过山车嘛！",
+			say = "Of course we'll ride that too! But we're doing the roller coaster first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在紧张刺激的环境下，指挥官就会抱住我，然后对我心跳加速对吧~对吧！",
+			say = "When we go downhill, you'll feel afraid and hug me, turning your feelings of fear into feelings of love for me! That's how it works!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "吊桥效应——好像确实是有这样一个词来描述这种现象。",
+			say = "It sounds like she's describing the psychological phenomenon known as misattribution of arousal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "不过过山车相比台风天的指挥舰来说……",
+			say = "Considering I've weathered storms aboard command ships before, I doubt a roller coaster can faze me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~又在突然发呆了！快来快来，过山车已经到了哦！",
+			say = "C'mon, don't just stand there! The roller coaster's arriving at the station!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊对了，一会还得让你陪我去鬼屋玩才行~！",
+			say = "After this, we'll totally try out the haunted house! Heheh☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "最后是，电影院——",
+			say = "And finally: the movie theater...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……电影最后表白的桥段真是让人感动啊……",
+			say = "*sob*... The final scene with the proposal was so good it made me cry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……但是为什么是一部关于海难的电影呢？",
+			say = "\"While it was a phenomenal movie, it was odd how a shipwreck was the start of it all.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为放的片子是我选的~！而海难是指挥官最有可能出的事故嘛。",
+			say = "That's why I picked it! The only time you're in danger is at sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到那个时候就由我{namecode:450}出马，把指挥官从水里救出来，然后就像电影最后那样……",
+			say = "If you ever got shipwrecked, I'd sail across the seas to rescue you. Oh, it'd be just like the end of the movie...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,18 +542,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "手边突然传来温柔的触感——",
+			say = "She gently grasps my hand with hers. It feels soft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "握住她的手",
+					content = "(Grasp hers back)",
 					flag = 1
 				},
 				{
-					content = "轻轻抱住{namecode:450}",
+					content = "(Give her a tender hug)",
 					flag = 2
 				}
 			}
@@ -568,7 +568,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~能感受到从指挥官手心里面传过来的温度呢~",
+			say = "Heheh♡ Your hand is so warm~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇……那我也用力抱回去！毕竟{namecode:450}心里对指挥官的爱都要满到溢出来啦~！",
+			say = "Heheh♡ I feel like I'm gonna explode with love! I've just gotta hug you back~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然电影有散场的时候，我对指挥官的爱可是永不散场的哟~",
+			say = "A movie may come to an end, but my love for you is endless♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明天、后天、还有今后的每一天{namecode:450}都想跟你呆在一起~",
+			say = "I wanna be with you forever and ever, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们的约会永不停歇地进行下去吧，指挥官~！",
+			say = "I hope we'll always be together, whatever happens!",
 			painting = {
 				alpha = 0.3,
 				time = 1

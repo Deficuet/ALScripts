@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "根据文件中记载的术式，我们轻松破解了“永夜之暗”，进入了东方据点。",
+			say = "Casting the spell written on the paper, we swiftly dispelled the Neverending Night and entered the Eastern Fortress.",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "驻守在这里的吸血鬼似乎根本没有想到据点的防御术式会被破解，没能做出实质性抵抗就被我们轻松解决了。",
+			say = "The vampires who reside here have no idea that their protective spell has been neutralized. We quickly overwhelm them with little resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "咳……这个术式是……",
+			say = "*cough cough*... That spell...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,11 +69,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "你们和约克公爵族长是什么关系……",
+			say = "You must've gotten it from Miss York... How do you know her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,63 +87,10 @@ return {
 			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "……这样啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "……多亏了这个术式，感觉头脑终于清醒起来了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 408024,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			nameColor = "#FF9B93",
-			say = "……已经过去这么多年了么。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "……也好，我也该休息了。",
+			say = "...Oh, it's all coming to me now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,11 +104,28 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……你们是打算攻略全部三个据点么？",
+			say = "I can finally think clearly now that the spell has been lifted.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 408024,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			nameColor = "#FF9B93",
+			say = "I can't believe how long it's been...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,11 +139,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "我倒下之后，其它据点一定会提高戒备的，突袭只能成功一次。",
+			say = "After all these centuries... I think it's time for me to sleep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,28 +157,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "中部据点是由大小姐和女仆长亲自把守的，你们最好最后再去……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 408024,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			nameColor = "#FF9B93",
-			say = "先去西方据点吧。",
+			say = "What are you going to do? Take down all three fortresses?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,11 +175,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "负责防卫西方据点的{namecode:449:埃尔宾}二小姐十分喜欢吃甜品。",
+			say = "Killing me will put the other bases on high alert. You won't catch them off guard again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,11 +193,28 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "尤其是各种有创意的甜品……",
+			say = "Bit of advice: the princess and the head maid are personally guarding the central base. I'd go there last if I were you.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 408024,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			nameColor = "#FF9B93",
+			say = "Take care of the western fortress first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,46 +228,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "因为魔王军的焦土政策，她大概已经很久没有吃到了",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "如果你们伪装成从她领地路过的不法走私商人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 408024,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			nameColor = "#FF9B93",
-			say = "主动为她献上美味甜品的话……说不定能引起她的好奇心主动见你们。",
+			say = "Elbing oversees its defenses. She has a real sweet tooth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,11 +246,82 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "这样你们就有机会了。",
+			say = "She's a sucker especially for creative desserts.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "I'll bet it's been ages since she's had any because of the Demon King Army's scorched earth approach.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "Disguise yourselves as smugglers passing through the area and tell her you'll give her a delicious dessert.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 408024,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			nameColor = "#FF9B93",
+			say = "If you're lucky, she might just come to see you in person.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "Vampire Gatekeeper",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "That'll be your chance to strike.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,11 +335,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……那么再见了。",
+			say = "...It's time for me to move on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,11 +353,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "Vampire Gatekeeper",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……一定要打倒魔王啊，冒险者们。",
+			say = "Good luck, adventurers. Kill the Demon King.",
 			painting = {
 				alpha = 0.3,
 				time = 1

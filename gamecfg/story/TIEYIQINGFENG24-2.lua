@@ -8,9 +8,9 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			actorName = "测试者",
+			actorName = "Tester",
 			side = 2,
-			say = "——通告，这是你们回头的最后机会。",
+			say = "This is your final warning. Take your fleet and retreat now.",
 			bgm = "battle-donghuang-static",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是东煌的回复，听懂了没？",
+			say = "Did ya hear that? That was our final answer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "……",
+			actorName = "Tester",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "很好，终于安静了。",
+			say = "What's the matter? Cat got your tongue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,11 +125,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官，我方在前进路线上发现了测试者的量产型机体。",
+			say = "Commander, numerous Tester vessels have been spotted on our course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能应对么？",
+			say = "Can you defeat them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "十成把握。",
+			say = "Easily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "我们这边同样目击到了测试者的量产型机体，数量在十台以上。",
+			say = "We're seeing Tester vessels here as well. There's a dozen or more of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "十台以上……你们能处理过来么？",
+			say = "A dozen is a lot... Can you can handle them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官请放心，南海风暴解析舰队保证完成战役目标。",
+			say = "We will. Our fleet will accomplish its objective no matter what.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。我们这边也会全力向测试者施压，让它不得不调配更多主机性能过来，为你们减轻压力。",
+			say = "Alright. I'll apply enough pressure to deal with Tester herself to make sure she can't divert resources to her vessels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "二阶段战役目标不变，我们马里亚纳要塞群见。",
+			say = "Continue the operation. We'll rendezvous at the Mariana stronghold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

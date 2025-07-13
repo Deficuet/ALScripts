@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>一 厨房的混乱</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 1 Kitchen Commotion</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "港区·重樱宿舍 ",
+			say = " ",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我回来了喵~呼呼…刚采购了荞麦面和年糕喵～",
+			say = "I'm back nya~! Whew... I bought some soba and mochi nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有没有人要来帮{namecode:98}煮年糕喵？可以优先品尝哦喵！",
+			say = "So, could you all help me make some zouni? You can be the first to taste it once it's done nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇哇！有年糕！我要吃我要吃……可是，不知不觉就被暖炉给困住出不来了……呜",
+			say = "Woof! I smell mochi! Let's eat, right now! ...But I don't wanna leave the kotatsu, it's too comfy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "传统的食物，自然要通晓历史才能做出真正的传统味道！",
+			say = "On that topic, making New Year's food is a Sakura Empire tradition... and a historian would be able to make truly traditional zouni!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就让我们十七驱来帮忙吧！姐妹们，出阵！",
+			say = "We of Destroyer Division 17 shall lend you a hand! Now let us head for the kitchen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过大家动作最好快点哦，做完年糕还要去打扫院子呢！",
+			say = "We ought to make it fast! We've still got the backyard to clean afterwards!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "帮大家准备新年的食物，也是很重要的工作的呀~",
+			say = "I don't think we should rush it; it's important to get New Year's food done right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "一心二用的话，会两件事都办不成的，总之眼下还是先去帮{namecode:98}吧。",
+			say = "\"The man who chases 2 rabbits catches neither.\" We have to help Akashi first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家没问题吗喵…年糕煮起来可是很花时间的喵，先做好心理准备喵！",
+			say = "Can you handle it nya...? Making zouni takes quite some time nya. I hope you're ready for that nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇！汤汁溅到衣服上了啦！",
+			say = "Oh, shoot! I got it on my clothes!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "干嘛用力那么猛嘛！虽然说要搅拌是没错…也不用这么用力啦！",
+			say = "I told you to be careful! Why would you mix it so hard?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜喵……那个粘在衣服上可是很难去掉的喵……",
+			say = "Oh dear nya... Those stains aren't easy to get rid of nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:143}总是这么鲁莽啊",
+			say = "Isokaze just never listens to people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经这样了也没有办法嘛……对咯！我记得好像最近{namecode:142}在做新的衣服来着？",
+			say = "Well, there's no use grumbling over it now... But that reminds me, wasn't Urakaze-chan making some new clothes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个还是未完成的设计！而且，只有一件而已……",
+			say = "I'm not finished with them yet! And I'm only making one set anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "都这种时候了，难道你要让{namecode:143}新年穿着脏衣服么？",
+			say = "Come on, Urakaze. You're not just going to let Isokaze spend New Year's wearing dirty clothes, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，我知道了啦！真是的，明明是{namecode:143}做错了事为什么我要被你说……",
+			say = "Fine, fine! I get it! *Sigh*, why should I have to pay for Isokaze's mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,11 +383,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actorName = "{namecode:143}",
-			dir = 1,
 			actor = 301601,
+			dir = 1,
 			nameColor = "#a9f548",
-			say = "将将~{namecode:142}做的衣服真的超级可爱的！",
+			say = "Tadah! Look at these cute clothes! They fit me perfectly!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -420,7 +419,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可爱不是当然的吗？就算是半成品也是我的心血结晶哦！",
+			say = "They're hardly a perfect fit, but of course they're cute. Though they're not finished, I still poured my heart into making them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +435,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之喵，年糕已经完成大半了，剩下我自己做完吧喵。",
+			say = "A-anyway, all that's left is adding the mochi to the mix nya. Just let me handle that nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +451,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再弄脏衣服{namecode:142}酱要暴走了喵……",
+			say = "Since Urakaze-chan could go crazy if someone gets her precious clothes dirty nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +467,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "抱歉，说来帮忙结果却基本没做什么，还添了麻烦……",
+			say = "We're really sorry. We said we'd help, but in the end we hardly did anything but get in the way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +483,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系啦，感谢喵！新年之前大家都很忙，真是猫的手都要借呢喵。",
+			say = "It's okay nya! Everyone's so busy around this time of year that I appreciate almost any help I can get nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,13 +495,12 @@ return {
 		},
 		{
 			actor = 301601,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actorName = "{namecode:143}",
-			say = "等年糕煮好了我们再来帮{namecode:98}端给大家哦，这里就先退散啦！",
+			say = "Okay, then it's time for us to withdraw! We'll be back to help again when the zouni is ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

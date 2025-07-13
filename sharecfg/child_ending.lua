@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_ending = {
 	{
 		group = 1,
-		name = "平面模特",
+		name = "Busy Fashion Model",
 		pic = "bg_project_tb_cg26",
 		id = 1,
 		polaroid_condition = 201,
@@ -34,7 +34,7 @@ pg.child_ending = {
 	},
 	{
 		group = 2,
-		name = "艺术家",
+		name = "Skilled Painter",
 		pic = "bg_project_tb_cg27",
 		id = 2,
 		polaroid_condition = 201,
@@ -71,7 +71,7 @@ pg.child_ending = {
 	},
 	{
 		group = 3,
-		name = "音乐人",
+		name = "Popular Musician",
 		pic = "bg_project_tb_cg28",
 		id = 3,
 		polaroid_condition = 201,
@@ -98,7 +98,7 @@ pg.child_ending = {
 	},
 	{
 		group = 4,
-		name = "瞩目新星",
+		name = "Stellar Actor",
 		pic = "bg_project_tb_cg29",
 		id = 4,
 		polaroid_condition = 203,
@@ -135,7 +135,7 @@ pg.child_ending = {
 	},
 	{
 		group = 5,
-		name = "烘焙达人",
+		name = "Talented Cook",
 		pic = "bg_project_tb_cg30",
 		id = 5,
 		polaroid_condition = 203,
@@ -167,7 +167,7 @@ pg.child_ending = {
 	},
 	{
 		group = 6,
-		name = "小说作家",
+		name = "Up-and-Coming Writer",
 		pic = "bg_project_tb_cg31",
 		id = 6,
 		polaroid_condition = 203,
@@ -199,7 +199,7 @@ pg.child_ending = {
 	},
 	{
 		group = 7,
-		name = "赛场新秀",
+		name = "Amazing Athlete",
 		pic = "bg_project_tb_cg32",
 		id = 7,
 		polaroid_condition = 202,
@@ -226,7 +226,7 @@ pg.child_ending = {
 	},
 	{
 		group = 8,
-		name = "商业奇才",
+		name = "Big Shot Businesswoman",
 		pic = "bg_project_tb_cg33",
 		id = 8,
 		polaroid_condition = 202,
@@ -258,7 +258,7 @@ pg.child_ending = {
 	},
 	{
 		group = 9,
-		name = "农场能手",
+		name = "Lively Farm Owner",
 		pic = "bg_project_tb_cg34",
 		id = 9,
 		polaroid_condition = 202,
@@ -295,7 +295,7 @@ pg.child_ending = {
 	},
 	{
 		group = 10,
-		name = "日复一日",
+		name = "Repetitive Everyday",
 		pic = "bg_project_tb_cg35",
 		id = 10,
 		polaroid_condition = 0,
@@ -328,7 +328,7 @@ pg.child_ending = {
 	},
 	{
 		group = 11,
-		name = "足不出户",
+		name = "Shut-In Life",
 		pic = "bg_project_tb_cg36",
 		id = 11,
 		polaroid_condition = 0,

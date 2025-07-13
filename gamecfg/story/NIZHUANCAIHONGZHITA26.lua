@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔内侧·未知海域",
+			say = "Inside the Singularity - Near the Tower",
 			side = 2,
 			bgName = "bg_midgard_6",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说各位……周围真的是我们刚才走过的航路么？",
+			say = "Hey, Elbe, don't take this the wrong way, but... Couldn't you have chosen a different route?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "这才几个小时，怎么残骸上的火焰都熄灭了……周围这么安静，怪渗人的。",
+			say = "This place was spooky enough when all the wreckage was on fire, but now... it's like even worse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "我也有同感……感觉温度都变得更低了，残骸的形态也有些，说不上来的不自然……",
+			say = "It, it's not like I picked this route just to mess with you! And gosh, why is it so cold... Brr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总感觉在刚来的时候听过{namecode:476}说过类似的话……",
+			say = "The temperature feels normal to me... Wait, didn't U-1206 say something about getting a weird sensation when we first came through here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "{namecode:476}，你来水面上看看，是和之前你见到的残骸一样的感觉么？",
+			say = "Hey, U-1206, what was it you were talking about earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:476}……？",
+			say = "Uhh, U-1206, are you still alive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "嘘———你们听到了么？周围有一种有规律又密集的敲击声传来，好像施工现场一样……",
+			say = "Shhh! Did you hear that just now? It sounded like the kind of noise that'd come from a constructions site...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么都没听到诶，可能是你在水下听得比较清楚吧。",
+			say = "Nope, nothing... Well, you're underwater, so the vibrations must be transmitting better. Guess that's why subs tend to pick up on more things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "能听出声音是从哪儿传来的么？",
+			say = "So? Where's the sound coming from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……感觉四面八方都有，就像敲击残骸的声音一样……",
+			say = "From all over? Like... inside the wreckage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "就在众人侧耳聆听时，从远方清晰地传来了一阵巨大物体撞击海面形成的轰鸣声。",
+			say = "Just as everyone perked up their ears to try to figure out the source of the sound, a large explosion rang out just in front of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "刚刚这下你们总听到了吧！",
+			say = "You heard that, didn't you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "水面上有残骸坍塌了……？！",
+			say = "Clear as day! Wait, could these sounds be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "紧接着，从四周都传来了类似的响声，声音有大有小，此起彼伏。",
+			say = "As if responding to the first explosion, the other charred husks in the area began to creak and groan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "大家停止移动，仔细观察残骸区，有古怪。",
+			say = "Ugh... What is that cacophony...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "啊，在残骸中有塞壬人型埋伏！是之前遇到的代行者「Combination」！",
+			say = "We might've not come out here specifically to look for a fight, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "四周的声音和巨响就是它们弄出来的！",
+			say = "If it'll get these assholes to stop making so much noise, I'm down to throw down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "什么？雷达完全没能识别出来，这些残骸真是太碍事了……",
+			say = "We're really going to need to upgrade our radars... I'm tired of getting ambushed like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "我这边也一样……侦察机之前路过的时候也完全没能发现隐藏在残骸里的敌人，非常抱歉！",
+			say = "I feel so bad... I can't believe I failed to spot the enemy twice in one mission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没关系。仔细观察一下的话，其实我们刚才经过的残骸区里已经有不少了。",
+			say = "It's not your fault. We know they're here, but we can't do anything until they make the first move anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来我们都还不熟悉跟完全不展现出敌意的塞壬打交道呢。",
+			say = "We're not used to being constantly at risk of attack, but that's all the reason to proceed carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "它们这是在干嘛，转行施工队了么……",
+			say = "But what are they doing inside the wreckage? ...If they were really trying to ambush us, would they really be making so much noise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "见到我们经过居然完全不做反应，真是专心啊",
+			say = "And I don't think that explosion was caused by U-1206 firing a torpedo, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我偷偷去看了一下，切割下的部分都被拖入水下很深很深的地方了！",
+			say = "Hmm... If you look closely, some of the wreckages have been cut cleanly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "唔……难道是废物再利用之类的？我们怎么办，要进攻么？",
+			say = "Why would they do that? To recover resources? Have the Sirens ever needed to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们在事实上已经处于被包围的状态了，不过看来这群代行者现在对于残骸更有兴趣。",
+			say = "If they're not attacking us, just ignore them. We need to save our strength for when it matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不要刺激它们，抓紧时间，快速通行。",
+			say = "(If Scharnhorst ended up encountering the Arbiter Vessel, I'm not sure that our forces are sufficient...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

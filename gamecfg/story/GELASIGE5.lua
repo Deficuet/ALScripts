@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>五 是格拉斯哥呀</size>",
+					"'Tis the Season of Love!\n\n<size=45>5.The Name... Is Glasgow</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "放学后——",
+			say = "After school...",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起！格拉斯哥！ 今天能不能帮我打扫一下？",
+			say = "I’m sorry, Glasgow!  Can you help me clean up the classroom today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不会是有什么企图吧？",
+			say = "...You’re not up to something weird, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(好，好敏锐……)",
+			say = "(Sh-she’s sharp...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我有很重要的事要做，真，真的哦，我说的是实话！",
+			say = "There’s something we need to do, and it’s really serious! T-trust us, we’re telling the truth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "连爱丁堡都参合进去，就显得更可疑了……你们准备搞什么——",
+			say = "So you’re in on it too, Edinburgh? How suspicious... Now, I’m almost convinced the two of you are—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔、唔哇~！再这样下去就来不及了！对不起格拉斯哥，回头一定会补偿你的——！",
+			say = "Woahhh! We’re gonna be late if we don’t hurry up! Sorry, Glasgow, I swear I’ll make it up to you later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！等等！ 等一下啊——",
+			say = "Hey! Come back here! Tell me what’s going on—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……真是的，如果太晚回去的话，会给纽卡斯尔姐姐添麻烦的",
+			say = "...Good grief. I’m going to cause trouble for Newcastle if I get back too late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "「需要帮忙吗？」",
+			say = "“Need some help?”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不用了，你先回去告诉姐姐我要迟点。打扫对我来说只是小菜一碟。",
+			say = "...No need. Just head back first and tell my sister I’m running late. Cleaning is my specialty, so I’ll be done in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(……而且，因为刚刚的壁咚，现在总觉得莫名在意…)",
+			say = "(...Why do I feel so self-conscious? Is it all because of what happened earlier...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "格拉斯哥脸颊发热，一边开始打扫，一边感受着内心的躁动。",
+			say = "Glasgow’s cheeks flared up again as she threw herself into her cleaning, her movements more agitated than normal. Her emotions were a mess, and she couldn’t figure out why.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(……啊，真是的！都说了让你先走了，怎么还在等我…真是爱管闲事…）",
+			say = "(...Good grief! Even though I said to just leave without me... Why is that busybody waiting for me...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都说了我一个人没关系了——",
+			say = "Hey, you! I said, I’m fine by myself, seriously!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？抽屉里有东西？这是…信？",
+			say = "...Huh? There’s something inside the desk? Is it... a letter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "信封十分可爱。",
+			say = "The stationery was cutely adorned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "格拉斯哥好奇地靠过来，读出了寄信人的名字。",
+			say = "She approached me and read the name of the sender.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看，名字是——原来如此，是格拉斯哥呀。我好像在哪里听过这个名字…",
+			say = "The name.... is Glasgow. Where have I heard that name before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等，等等！我可不知道这个啊！？我没见过也没写过这样的信——",
+			say = "Eh? Ehhhhh?! What the heck is going on here?! I never wrote a letter like this— Hey, wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "撕开信封，便看到信纸上直白的文字，传达着不坦率的少女的真挚感情——",
+			say = "I unsealed the letter and perused its contents — the raw, unspoken feelings of a girl who was painfully bad at expressing herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "――我爱你  格拉斯哥。",
+			say = "——I love you. From, Glasgow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，不是的！ 这是假的！ 这绝对是热心、爱丁堡她们搞的鬼！！",
+			say = "Wait, no! This is a fake! I swear, Ardent and Edinburgh are behind this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就觉得她们肯定在搞什么……真的不是我！因为我不喜欢你！",
+			say = "I always knew they were up to no good! ...Seriously, this wasn’t me! Because I don’t like you at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "「这样啊……不是真的啊……」",
+			say = "“I see... So it was fake...”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欸。",
+			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "意外的反应令格拉斯哥不禁露出困惑的表情。",
+			say = "Glasgow seemed dumbfounded by this unexpected remark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "温柔的夕阳，从窗外照进两人独处的教室——",
+			say = "In that moment, time seemed to stand still for the figures alone in the classroom, the orange light of the afternoon sun filtering in through the windows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

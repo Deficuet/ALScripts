@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>八　不兼容的预兆</size>",
+					"Return From the Beyond\n\n<size=45>8 Omen of Incompatibility</size>",
 					1
 				}
 			}
@@ -24,15 +24,15 @@ return {
 			bgm = "battle-newwind",
 			sequence = {
 				{
-					"实验场β",
+					"Test Site Beta",
 					1
 				},
 				{
-					"NA海域",
+					"NA Ocean",
 					2
 				},
 				{
-					"中心奇异点外",
+					"Outside the central Singularity",
 					3
 				}
 			},
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "早在返航之前，NA海域的战斗就先一步结束了。",
+			say = "The battle in the NA Ocean was over before we even left the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "根据{namecode:191:飞龙·META}所说，这一切还要多亏了余烬派来的增援——虽然她也不知道来的人是谁。",
+			say = "According to Hiryuu META, the reinforcements the Ashes brought finished the fight. However, she herself didn't know who the reinforcements were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "总之，在{namecode:91:赤城}号量产舰离开奇异点后，早就等在此处的联合舰队立刻迎了上来。",
+			say = "At any rate, leaders of all factions were informed when we'd left the Singularity, and they swiftly gathered to welcome me back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "——包括在房间醒来后，就急急忙忙赶来的{namecode:182:信浓}。",
+			say = "Shinano was there too, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "此刻，众人正汇聚在行驶中的{namecode:199:新泽西}号量产舰上，庆祝着危机的解除。",
+			say = "Now, we're having a party aboard a New Jersey mass-produced ship to celebrate a mission accomplished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}号量产舰·临时宴会厅",
+			say = "New Jersey Mass-Produced Ship - Ad Hoc Banquet Hall",
 			bgm = "theme-partydress",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "为了庆祝这场伟大的胜利，让我们一同干杯吧——",
+			say = "A toast! To the Commander's great triumph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "干杯~",
+			say = "Yes! Let us have a toast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,18 +166,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "干杯~！！！",
+			say = "Honey, you do the honors!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "呃……干杯？",
+					content = "Uhh... Cheers.",
 					flag = 1
 				},
 				{
-					content = "干杯——！",
+					content = "Cheers!",
 					flag = 2
 				}
 			},
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "在众人燃烧的热情下，原本简单的接风宴成功变为了一场盛大的筵席。",
+			say = "The party is a rather lavish one, owing to their immense enthusiasm in the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，和我们多讲讲这场奈落之行中发生的事吧。",
+			say = "Commander, could you share with us what happened inside Naraka?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊是啊，我们都好好奇！您究竟是怎么把{namecode:161:天城}阁下平安带回来的呢！",
+			say = "Yes! Please tell us! How did you bring Amagi and Kaga back to life? We're all dying to hear it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……应该从哪里开始说比较好呢。",
+			say = "Hmm... Where do I start?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，在讲故事之前，我们先来谈一下这件事吧？",
+			say = "Pardon me, but there's one thing I want you to explain to me first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭拿出一个金色的十字胸针，在灯下轻轻晃动着。",
+			say = "Clemenceau produces a small brooch as she interjects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你看此物可还眼熟~？",
+			say = "Do you remember this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "啊……这个是。",
+			say = "That's your brooch, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，看来还是记得的。",
+			say = "So you DO remember. Good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "拿好，不要再弄丢了哦~",
+			say = "Here, take it. Make sure it doesn't get lost again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "克莱蒙梭微笑着将胸针递了过来。",
+			say = "She leans closer and offers the brooch not to me, but to Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……嗯？孟菲斯小姐，你怎么突然呆住了？",
+			say = "...What's the matter? Cat got your tongue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸？是在……找我？",
+			say = "Wait, you're giving it to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "对哦，给，下次别再弄丢了哦~",
+			say = "That I am. Keep it safe, will you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "这一次，克莱蒙梭直接将胸针轻轻抛了过来。",
+			say = "It looks like Memphis isn't going to take it, so Clemenceau takes aim and tosses it to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "欸——？！",
+			say = "Wha– Hey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，不错的反应力。",
+			say = "Good reaction speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（等等……怎么回事？）",
+			say = "(Uhh... What's going on?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,34 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这枚胸针……不是克莱蒙梭女士要给指挥官的么？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_145",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "（为什么会突然给我……？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "star_level_bg_145",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（欸？……难道是让我来转交的意思么？！）",
+			say = "(I thought she was going to give it to the Commander?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +454,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "（我明白了！）",
+			say = "(Why did she give it to me?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "star_level_bg_145",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(Does she, like... want ME to give it to the Commander?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_145",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "(Why do it in such a roundabout way? The Commander is right... over...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，胸针给……你？",
+			say = "Wait... Where is the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "不知何时，原本近在身旁的指挥官消失了。",
+			say = "Memphis' eyes open wide in shock and confusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……？",
+			say = "C-Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咦，海伦娜，指挥官去哪儿了？",
+			say = "Helena, where'd the Commander go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……我和你一样，当意识到的时候……指挥官就已经不见了。",
+			say = "I don't know... I closed my eyes for one second, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "……“指挥官”？",
+			say = "\"Commander\"? Who?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "难道你指的是联合舰队的指挥官么？",
+			say = "Ah, you mean the person commanding our joint fleet, I assume.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "……咦？原来是在说我的事么？",
+			say = "So me, in other words?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "？？？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "……情况似乎有些诡异了呢。",
+			say = "This does not bode well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？大家这是怎么了，怎么慌慌张张的？",
+			say = "Girls? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯——似乎这位孟菲斯小姐在接到我的胸针之后，突然变得有些兴奋呢。",
+			say = "Hmm... What a curious reaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "看来我这个充满魔力的胸针，确实不适合由除了我们之外的其他任何人保管啊。",
+			say = "It seems that my little brooch doesn't want to be in anyone's hands but mine or the Commander's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "你还是快亲自收好吧~",
+			say = "Take it, Commander, and keep it close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这、这到底是怎么回事……？）",
+			say = "(What... just happened?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官……您刚才去哪儿了？",
+			say = "Commander, where did you go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？我不是一直站在这里……？",
+			say = "\"Go\"? I was standing right here this whole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……是这样么？",
+			say = "What? But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "怎么，你的表情不太对，身体不适么？",
+			say = "You look a bit pale. Are you feeling ill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "欸嘿嘿……可能是我稍微喝多了些吧？",
+			say = "I'm fine! I think I've just had too much to drink...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不，绝对不是这样的……刚才肯定发生了某种可怕的事。）",
+			say = "(Even if I was just drunk, that wouldn't explain how the others reacted! Something is seriously wrong!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "（没想到居然连指挥官本人都没有发现异常……！）",
+			say = "(What's going on? Even the Commander is acting like nothing happened!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，给！克莱蒙梭女士托我转交给您的胸针~",
+			say = "Well, uh, you heard Clemenceau. You should hold on to the brooch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "胸针在蓝色手帕的包裹下被重新递了出去。",
+			say = "She hands me the brooch. It's wrapped up in a blue handkerchief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？这条手帕好像是你最喜欢的那条吧？",
+			say = "Isn't this your favorite handkerchief? I'll take the brooch, but you keep this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "没事，这么珍贵的胸针要是碰坏了就不好了，暂时先用这个手帕包吧。",
+			say = "No, no, it's fine. You should keep it wrapped up so it doesn't get scratched. That'd be terrible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "是借你的，等用完了还得还我哦！",
+			say = "Besides, you can just give the handkerchief back later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（我在做什么啊……！）",
+			say = "(Wait, what am I doing? Focus, me!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "（现在不是应该赶紧弄清楚发生了什么事么……！）",
+			say = "(I've got to figure out what in the world just happened!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（至少应该从这一刻起……目不转睛的盯着指挥官！）",
+			say = "(Starting by not letting the Commander out of my sight for even a second...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看到了有趣的一幕呢。",
+			say = "Hahaha! That was a fine scene to behold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "那么，小小“骚乱”结束，让我们再干一杯吧——",
+			say = "Now, unless anyone has anything else to say, let's get back to our drinks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "宴会中途，指挥官再次毫无征兆的消失了。",
+			say = "Without any warning, the Commander vanished into thin air right again before the shipgirls' eyes.",
 			bgm = "story-amagi-up",
 			typewriter = {
 				speed = 0.05,
@@ -965,7 +965,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "和之前一样，{playername}阁下消失的瞬间并没有被任何人注意到。",
+			say = "It seems as though most people didn't notice, just like the last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "而在消失之后，其存在过的痕迹也一同不见了。",
+			say = "It gets even stranger... All signs of the Commander ever existing disappear at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -990,7 +990,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不但同步从除了我们之外的所有人的记忆中消失，文字和影像记录中也一并不见了。",
+			say = "Writings, pictures – anything recording the Commander's existence just vanishes. Even our memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "甚至连这场宴会本身的目的，都变为了欢迎我的回归而举办的。",
+			say = "Reality even bends in accordance with it. Clemenceau handed you the brooch instead, and instead of celebrating the Commander's return, we're celebrating mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,21 +1015,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "就好像……整个世界本身将{playername}阁下排斥而出，然后以某种合理化的方式抹除和解释了所有与其有关的痕迹一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_145",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "我明明专门开了录制，就是想弄清楚事情是怎么发生的……",
+			say = "It's as if {playername} was erased from reality, with everything else being rewritten to conform to that change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1029,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "怎么会这样……我们接下来该怎么办才好。",
+			say = "I started recording to figure out what's going on, and still nothing...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_145",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "Why is this happening? What are we supposed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "别急，急有什么用。",
+			say = "Don't panic, for a start. It won't do us any good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "嗯，大家先冷静下来。",
+			say = "Akagi is right. Let's try to stay calm and work through the facts together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,7 +1082,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们对于{playername}阁下的记忆还在，这种抹除并不是真的如同表面上看上去那般无解的。",
+			say = "No one but us has noticed anything is wrong. If nothing else, that proves that not everyone here is compromised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1094,7 +1094,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许不是真的不见了，而是某种能够影响认知的精神干扰？",
+			say = "That leads me to think that the Commander isn't disappearing per se, but rather that someone is influencing our cognition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1106,9 +1106,9 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯&海伦娜&{namecode:96}",
+			actorName = "Memphis & Helena & Zuikaku",
 			side = 2,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1144,7 +1144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……你们这么看我干什么？",
+			say = "Don't look at me. I have nothing to do with this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1158,7 +1158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……与我无关！",
+			say = "Why would I do that to someone I care about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,7 +1171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "呵呵，那是自然的。",
+			say = "I don't suspect you, Akagi. We've walked around the whole night together, so you can't have done anything behind my back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,7 +1184,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "只是，似乎你对这一块领域比较熟悉，我想问问你的想法。",
+			say = "Having said that, you're the only one amongst us with any knowledge pertaining to cognitive influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1198,7 +1198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啧……这么说来，倒确实与精神干扰的表现形式很像。",
+			say = "You're not wrong, and this does indeed resemble a case of cognitive influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "不过我有一点不明白——为什么只有我们的记忆没有受到影响？",
+			say = "However, why, then, are we not affected, even though we're surrounded by others who are?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1225,7 +1225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从我的经验上来看，只有两种可能性能导致这样的结果。",
+			say = "I can think of only two plausible explanations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1239,7 +1239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "其一，操控者就在附近观察着局势的变化，然后用某种手段针对性的精确影响了人群。",
+			say = "One – the perpetrator is nearby and can selectively control whose cognition is affected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1252,7 +1252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过我想不出操控者刻意放过我们的理由。",
+			say = "This theory doesn't explain why we are unaffected, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1266,7 +1266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "其二的话，就是我们自身存在某些特殊之处，导致并非操控者主观上想放过我们，而是客观上做不到。",
+			say = "Two – there is something special about our bodies or minds, and therefore we aren't affected by the influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1280,7 +1280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "准确来说，是客观上不能完全做到。",
+			say = "We are within range of it, but we're simply unaffected by it, in other words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1294,7 +1294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "因为我们虽然记忆没受到影响，但是在视觉认知中依然感受不到{playername}阁下的存在。",
+			say = "On the other hand, while we remember the Commander, we cannot see the Commander with our own eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1307,7 +1307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说，我们并没与完全免疫干扰带来的影响。",
+			say = "This makes me think that we are only partially immune to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1321,7 +1321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "不过……我也没想出来我们身上到底有什么特殊之处就是了。",
+			say = "As for the thing we have in common that those affected don't have...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1335,7 +1335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "要说我们之间的共性的话，我只能想到都是自奈落之中回归而来这一点了。",
+			say = "It's the fact that we're all returnees from Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1349,7 +1349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "难道是我们从奈落之中离开的时候，身上沾染了奈落的某种性质么……",
+			say = "We may have picked up something inside Naraka and unknowingly brought it back with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1363,7 +1363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我对这方面其实不太了解。{namecode:182:信浓}，你有什么看法么？",
+			say = "Shinano, does anything come to mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1377,7 +1377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……妾身并未在会场之中察觉出任何能够干涉认知的力量。",
+			say = "This one detects no traces of powers in this place that may alter the cognition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,7 +1391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此事……绝非简单的“干扰”那般简单。",
+			say = "Alas, 'tis unlikely this be a simple case of such tampering of the mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1405,7 +1405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "如果这样的话，问题就更严峻了……你能确定么？",
+			say = "Are you saying that the situation is far more serious than we suspected?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1418,21 +1418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确定……{namecode:83:大和}也赞同妾身的判断。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_145",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 306070,
-			say = "等等……{namecode:182:信浓}大人，您是说{namecode:83:大和}大人？！",
+			say = "Indeed... Yamato concurs with this conjecture...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,7 +1432,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306070,
-			say = "{namecode:83:大和}大人现在在这里么？！",
+			say = "Come again? Did you say Yamato concurs?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_145",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 306070,
+			say = "Is she here? Where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1460,7 +1460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不在。",
+			say = "She is not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1474,7 +1474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你竟然……一直都可以与{namecode:83:大和}直接联系？",
+			say = "So you've been talking to her then, have you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1488,7 +1488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身不能。",
+			say = "Nay, this one hasn't had the privilege for a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1502,7 +1502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "只是……{namecode:83:大和}片刻前主动联系了妾身。",
+			say = "However, Yamato did priorly relay to this one a message...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1516,7 +1516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "她让吾等保持冷静，对于这件事切莫声张。",
+			say = "\"Retain your composure and let not the others catch on.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1529,21 +1529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而后，立刻前往位于撒丁帝国博览会会场的四季花馆。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_145",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 307080,
-			say = "只有在那里，吾等才有机会度过此次危机。",
+			say = "\"Go to the World Expo and enter the garden of our Empire's pavilion.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1557,7 +1543,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不光是为指挥官阁下，更是为吾等自身。",
+			say = "\"There, you shall find a way to resolve this crisis.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_145",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 307080,
+			say = "\"For the good of not only us, but for {playername} as well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1571,7 +1571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……事态如此严重？",
+			say = "Elaborate instructions from Yamato... This must be extremely dire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1585,7 +1585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "倘若，吾等也遗忘了指挥官阁下呢？",
+			say = "We cannot let the Commander be forgotten...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1599,7 +1599,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "倘若，指挥官阁下自此后从吾等的世界中彻底消失了呢？",
+			say = "{playername} must not vanish tracelessly from this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……那可不行。",
+			say = "That will not happen. Not as long as I breathe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1627,7 +1627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……事不宜迟，我们即刻出发！",
+			say = "Dear sister, ladies – let's leave at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

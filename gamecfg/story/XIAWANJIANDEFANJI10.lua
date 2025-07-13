@@ -11,7 +11,7 @@ return {
 			side = 1,
 			bgm = "level02",
 			dir = 1,
-			say = "联系到她了！爱斯基摩人遭遇了铁血驱逐主力，现在正在战斗中，希望我们迅速支援！！",
+			say = "We've made contact! Eskimo has encountered the main force of Iron Blood destroyers. She has engaged them and requests immediate support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "铁血驱逐主力？！难道说瞄准了落单的爱斯基摩人去的么……",
+			say = "Their main force? Engaging Eskimo on her own...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……能够确定方位么？",
+			say = "What is her position?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在洛姆巴科斯峡湾之中。",
+			say = "In Rombaksfjord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "调整航线，我们立刻出发！",
+			say = "Adjust course, full speed ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

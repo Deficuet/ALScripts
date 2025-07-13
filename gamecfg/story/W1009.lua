@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "设备运行中………………嗯？",
+			say = "Operating scanning device... Oh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告：发现了一支包含运输舰「COURIER」在内的塞壬隐藏舰队，也许含有某些高价值目标。",
+			say = "Detecting hostile Siren presence conducting logistics operations in this sector. Pursuing may yield valuable loot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			},
 			options = {
 				{
-					content = "准备战斗",
+					content = "Got it.",
 					flag = 0
 				}
 			}

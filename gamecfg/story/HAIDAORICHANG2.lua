@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>落难</size>",
+					"Uncharted Summer\n\n<size=45>Stranded... and That's Okay!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "变故是突然发生的，先前还风平浪静的海面，在转瞬间便狂风四起。",
+			say = "Right before our eyes, the tranquil seas turn tempestuous and a storm whips up.",
 			soundeffect = "event:/dalei",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "空气中浮起水腥气，暴雨哗啦啦地砸在甲板上，狂风撕扯着船身——暴风雨来了。",
+			say = "Fierce gales rattle the rails, a downpour showers the deck, and the windstorm threatens to tear our hull in two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，附近海域忽然发生雷暴天气！",
+			say = "Oh my gosh! We've sailed right into a storm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "到底是变化多端的大海，不过我们的量产型应该是能抵御这种影响的。",
+			say = "\"The weather is a fickle mistress. However, our vessel should withstand anything this storm throws at us.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不好，指挥官，导航系统失灵了，通讯也出现了问题！",
+			say = "I'm not so sure! The navigation system is on the fritz, and our comms equipment is down after that thunderstrike!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正在试图稳定航线，但是……风浪太大了，动力系统也开始出现问题了！",
+			say = "I'm trying to change course, but it's impossible to fight the storm! The propulsion system is starting to fail as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "砰————————！",
+			say = "CRAAASH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，大事不好……我们触礁了。",
+			say = "Uh-oh... Commander, we just hit a rock...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "坏消息接连不断……不过触礁，意味着附近也许有岛屿。",
+			say = "Things go from bad to worse. I fear the worst – that we'll run aground. But to run aground, there must be land nearby.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，刚刚风平浪静的时候完全没有看到————啊！",
+			say = "Oh! I can see something that wasn't visible prior to the storm... Over there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的有……指挥官，我在附近发现了一处岛屿！",
+			say = "Look, Commander! An island!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这难道就是传说中……只有在猛烈暴雨时才会现身的海盗藏宝岛？",
+			say = "Yes. It must be the mythical island that only appears during a storm, where the treasure is hidden.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，继续待在船上可能有沉没的风险……咱们先去那座岛上躲避一下吧！",
+			say = "We'll be in deep-sea trouble if we lose our ship... Let's go to that island and wait out the storm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "暂时也只能这样了……弃船，全员前往岛上避难！",
+			say = "\"Doesn't look like we have much other choice right now. To that island we go!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 201210,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "终于回到陆地上了……呜，衣服都湿透了，讨厌的暴风雨。",
+			say = "Phew, we made it in one piece... Not dry, though! I'm soaked through!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雨势正在减小，也许很快就要天晴了。",
+			say = "Yes, but the rain is waning. The skies will hopefully clear soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来不用去找避雨的地方了……",
+			say = "No need to go looking for shelter...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "谈话间，太阳露出了云层。恶劣天气就像猛然间出现时一样，转瞬间消失不见了。",
+			say = "A few minutes later, the sun pokes through the grey clouds above. Not long after that, the storm vanishes into thin air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这里是一座郁郁葱葱的小岛。我们登陆的地点在海岸边缘的金色沙滩上。",
+			say = "Then, we see the island clearly, in all its verdant glory. We disembark on the beach and step down onto the golden sand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "向岛屿的深处看去，映入眼帘的是葳蕤的森林与高耸的火山。",
+			say = "Beyond these shores is a lush forest, and then a large volcano rising over the treeline in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "能看得出来这是一处风景秀丽之地……如果作为度假的目标地点的话，也许是不错的选择。",
+			say = "This is probably the most picturesque vacation island anyone has ever seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "可是就现状而言……我们应该算是落难至此吧。",
+			say = "...But, it's not exactly the kind of place you'd want to be shipwrecked in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我刚刚检查了一下，与港区的通讯还没有恢复。",
+			say = "The good news is, we're not experiencing any Mirror Sea jamming. The bad news is... we still can't contact the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是因为附近的恶劣天气还没完全过去，不过不用担心，恢复只是时间问题！",
+			say = "The storm likely hasn't entirely subsided yet. Don't worry, we'll probably be fine, we just need to wait.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看来直到港区支援抵达前的时间，都要在这座岛屿上度过了。",
+			say = "\"I suppose we'll just have to survive on this island until rescue arrives.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管怎样，至少大家都没事就好啦~！",
+			say = "Shouldn't be that hard, since we made it out alright!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，寻宝队探险途中流落到荒岛，不得不在岛上进行荒野生存——",
+			say = "Setting off in search of treasure, getting stranded on a deserted island, and being forced to survive in the wilderness...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在同类作品里也算是常见设定呢。",
+			say = "It's so cliché, but it's so good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "按照惯例展开，首先要侦察岛屿环境，然后收集必要资源。",
+			say = "Typically, this is the point where we explore and gather materials needed for survival.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这座岛屿看上去很大的样子，应该会有不少能用的材料吧。",
+			say = "This place looks pretty big, so there should be plenty to forage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到{namecode:6}的奇奇怪怪的知识也有能派上用场的一天……",
+			say = "It seems today is the day your game knowledge might end up saving our lives...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也赞同。既然要在这里过夜，侦察、物资收集和搭建临时据点都是很重要的。",
+			say = "I endorse Ayanami's idea. To survive, we'll need to learn our surroundings and erect a provisional camp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我提议大家可以先分头去收集搭建据点的材料，同时侦察岛屿环境，等傍晚再回到这里集合。",
+			say = "So, I suggest we all spread out until evening and search the island for materials to build a shelter with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像荒野探险小队一样……",
+			say = "We've officially respecced as explorers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最近一直在港区待着，很久没到野外郊游了，这是一次不错的机会呢~！",
+			say = "Sounds good to me! I've been feeling too comfortable back at the port and could use a little adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官觉得怎么样？",
+			say = "Oh, to be as carefree as you three... Commander, what do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "郊游呢……",
+			say = "I, too, could use a little adventure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "尽管落难到了荒岛，不过看起来大家对荒岛求生这件事情意外有兴致，自然没有阻止的理由。",
+			say = "Who's to say you can't make something fun out of being shipwrecked? They all seem to think so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "倒不如说，我也四处搜索一下，看看能不能找到什么能用的资源好了——",
+			say = "\"Let's have a look around and see what we can find.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

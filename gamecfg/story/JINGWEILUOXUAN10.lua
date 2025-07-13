@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "埃塞克斯级航空母舰{namecode:194}前来参战，大家久等了~",
+			say = "Sorry to keep you waiting. You're all safe under my wing now.",
 			bgm = "hunhe-battle",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "得……得救了。",
+			say = "W-we're saved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还以为要交代这里了……",
+			say = "Though their planes were individually weak, there were just so many of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有这么夸张么？我觉得战斗起来很轻松哦，你们也打下来不少吧？",
+			say = "That was just like swatting flies for me, though~ Did the two of you get hurt at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦、说……说起来好像是这样，这些飞机虽然声势很大，战斗力好弱……",
+			say = "I'm perfectly fine. Morrison, how about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的哎……我还有小熊都没受伤……？！",
+			say = "I'm fine as well... The planes weren't a big deal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，看到满天的重樱飞机，心里不自觉就慌乱起来了…………",
+			say = "Just seeing so many of them coming at us was a bit scary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是真正的重樱航母在操纵的话，这么大规模的机群确实能带来极其恐怖的破坏力。",
+			say = "No kidding. Luckily, their accuracy was pretty laughable, so it was easy to take countermeasures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过从刚才的战斗强度上来看，充其量也就是略强一点的棋子水平哦。",
+			say = "I wonder if these planes came from a Siren Pawn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，真正的重樱舰队果然不可能来的这么快……",
+			say = "That's the impression I'm getting as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！既然只是塞壬的棋子舰队的话，我们赶紧解决剩下的敌人吧……！",
+			say = "Maybe if we follow where the planes came from, we'll be able to find the commander as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "等等，不要全部消灭敌人。",
+			say = "Hmm, good thinking! The planes have to return to their source eventually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶？为什么……",
+			say = "In other words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些棋子舰队的作战模式及其单纯。你们看，投弹完毕的舰载机已经准备返航了。",
+			say = "Yeah, if we can trace the planes back to the carriers, we'll be able to catch out the attacking Siren fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "既然有舰载机的话，那就一定有一支棋子航空舰队在前方等着我们吧~",
+			say = "And hopefully, that gives us a clue as to where the commander is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 107140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，你想利用它们锁定敌方舰队的位置么？",
+			say = "I see. In that case, you shouldn't waste any more time here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错！很方便吧~",
+			say = "Mhm! I'll be counting on you, Ty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

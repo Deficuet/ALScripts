@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>三 飞将来袭</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>3. The Flying General Approaches!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·东煌风园林",
+			say = "Port - Dragon Empery Estate",
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（园林的郊外，此时正被薄薄的白雪覆盖着。）",
+			say = "(Some snow was shovelled into the courtyard for use as part of a prop set.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（嗯……？白雪？）",
+			say = "(My, what's that sound...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "（然后是……马蹄声。而且，越来越近了……）",
+			say = "(Hoofsteps? They're getting closer too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,9 +109,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 105031,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "站住，来者何人！",
+			say = "You over there! Identify yourself!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "鄙人乃东煌所属，谋士镇海。今日得见宾夕法尼亚将军，实是荣幸之至。",
+			say = "I am Chen Hai, strategist to the Dragon Empery. It is an honor to meet the Flying General of the Keystone State in person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？",
+			say = "......Uhh, come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "没想到镇海小姐你回答得那么正经，倒是我这边不知道怎么往下接了呢，哈哈。",
+			say = "I didn't expect you to give me an answer like that with a straight face. I'm not sure what I'm supposed to say, haha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "今天的拍摄场地，也是非常有氛围啊……",
+			say = "Today's photoshoot set is quite a faithful reproduction, if I must say so myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "“北风卷地白草折，胡天八月即飞雪”……虽然现在是春天就是了~",
+			say = "\"The north wind blows, the fountaingrass folds. In the eighth month falls winter's cold.\" ...Though, we'll be leaving winter behind soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "我和海圻联手布置的场景如何？",
+			say = "How do you like the set that Hai Chi and I put together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "正所谓“飞雪带春风”，不过……白的印象色同时是为了象征白门楼么？",
+			say = "I suppose this is \"the spring breeze arriving on the dancing snow.\" I wonder if this set is supposed to represent the White Gate Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，说起来“飞将”的确有一点……",
+			say = "Oh, speaking of the Flying General...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……请问，白门楼是？",
+			say = "The White Gate Tower? What's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "不用在意。同为飞将，宾夕法尼亚这身戎装的渊源是比白门楼那位将军早了三百年呢",
+			say = "Oh, don't worry about it. The White Gate Tower marked the winter of the Dragon Empery's Flying General, but your outfit seems inspired by another brave general 300 years prior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "原来如此……又学到新的知识了！",
+			say = "I see. You learn something new every day! But I have no doubts that both of those Flying Generals were heroic and fierce!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就是拍照对吧，台词我记得是——",
+			say = "But uh, this is the place I was supposed to come for the photoshoot, right? And the lines I was supposed to memorize went something like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "“我乃石州飞将宾夕法尼亚，谁敢与我一战！”",
+			say = "\"Pennsylvania, the Keystone General, has arrived!\"",
 			effects = {
 				{
 					active = true,
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "咔嚓——抓拍完毕，辛苦了！",
+			say = "––Thank you very much! That was a fantastic shot!",
 			effects = {
 				{
 					active = false,
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "在白色大地上自由驰骋的猛将……嗯，这张照片一定能大火。",
+			say = "A fierce general painting her legacy onto a pristine, snow-white landscape... This concept will surely win over hearts and minds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，没想到{namecode:98}小姐居然愿意免费借给我们马和造雪机，真是大好人啊！",
+			say = "Yup! We'll have to make sure to thank Akashi later for providing a snow machine and the horse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "等等……{namecode:98}，免费……？",
+			say = "Wait... Akashi... did all that for free?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "海天，海圻……一会拍摄结束之后，大概有些事情我们要好好聊聊！",
+			say = "That must be a saga for the ages. You must tell me more about it later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

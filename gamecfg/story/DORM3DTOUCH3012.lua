@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "心跳声……听见了！",
+			say = "I heard... my heartbeat!",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture2_tone3",
 			typewriter = {
 				speed = 0.05,

@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "欣然接受了洞穴赠予的礼物——",
+			say = "Who's dumb enough to pass up free treasure? Not you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "打开箱子，里面满是价值连城的珠宝与黄金，如果把它们卖掉的话………",
+			say = "You open the treasure chest and find that it's filled to the brim with priceless gold and jewels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "苏醒。什么都没有发生，没有洞穴，没有箱子，也没有黄金和珠宝。",
+			say = "You wake up. The cave, the treasure chest, and the precious booty are all nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你依然躺在巨大的蘑菇上休息，刚才发生的事情不过黄粱一梦。",
+			say = "It seems what you saw was merely a dream induced by that weird mushroom you slept on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

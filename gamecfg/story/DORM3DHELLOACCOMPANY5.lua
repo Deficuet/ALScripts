@@ -17,8 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}好像会用这个抱枕……\n所以抱枕上面也有{dorm3d}的气味了。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_chair1",
+			say = "You've been using this pillow quite a lot... I can tell because it smells like you, {dorm3d}.",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_chair1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

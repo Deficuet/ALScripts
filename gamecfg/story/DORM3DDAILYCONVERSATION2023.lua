@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真安静啊，安静得能听到风拂过的声音。",
+			say = "It's quiet. So quiet I can even hear the wind blowing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "能和{dorm3d}一起享受这份安静，真是一件幸事。",
+			say = "I'm so lucky to get to enjoy this serenity together with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "愿之后的每一天也都像今天一样，安静并幸福。",
+			say = "I hope all our days will be as peaceful and blissful as this one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -35,7 +35,7 @@ return {
 				"clickOpreation"
 			},
 			style = {
-				text = "点击行动可以查看在港口中发布的任务列表。随着作战进度推进，港口中发布的任务类型和数量都会有所增加。",
+				text = "Tap the missions button to bring up the list of available missions! There will be more missions for you to take on as you progress the story!",
 				mode = 2,
 				posY = 191.87,
 				char = "1",
@@ -60,7 +60,7 @@ return {
 				"clickShop"
 			},
 			style = {
-				text = "补给商店中会出售各类作战补给物资。售卖物品会随着时间周期性刷新。",
+				text = "The item lineup in the store changes regularly, so don’t forget to give it a look whenever you dock in a port!",
 				mode = 2,
 				posY = 191.87,
 				char = "1",
@@ -85,7 +85,7 @@ return {
 				"clickDockyard"
 			},
 			style = {
-				text = "船坞中可以对停泊舰船进行修理、更换舰队等操作。",
+				text = "Here at the dock you can repair your ships or update your fleet composition!",
 				mode = 2,
 				posY = 191.87,
 				char = "1",

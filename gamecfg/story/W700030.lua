@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "进入了核心区前哨站。通过前方的特殊通行装置可以挑战普通难度的仲裁机关。",
+			say = "Entering the temporary base in the NA Ocean Core Sector. Use the devices around the map to commence an Arbiter Battle on Normal difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

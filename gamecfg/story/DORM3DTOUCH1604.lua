@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "嗯？您觉得这样的感觉会更好吗？",
+			say = "Is this, umm... better?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch14",
 			typewriter = {
 				speed = 0.05,

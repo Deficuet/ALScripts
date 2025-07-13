@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "holo-matsuri",
 			dir = 1,
-			say = "好弱…",
+			say = "Her firepower wasn't particularly strong, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是好顽强…不论打倒多少次，还是会精神饱满的贴上来！",
+			say = "What tremendous resilience... she just revives again after being defeated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "斯哈…斯哈…斯哈（战术换气）",
+			actorName = "Ma Tsu Ri",
+			say = "Nnnngh... haaah.... Nnnngh... haah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "好不容易诞生在这个充满美少女的世界上，祭可不能倒在这里啊！",
+			actorName = "Ma Tsu Ri",
+			say = "Just when I've been reborn into a world filled with cute girls... I refuse to fall here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "祭酱，加油啊！",
+			say = "Matsuri, I believe in you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			actor = 10500040,
 			dir = 1,
 			hideOther = true,
-			actorName = "夏色祭&夏 色 祭",
-			say = "哦哦哦！！",
+			actorName = "Both",
+			say = "Ohhhhhhh!!",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 			actor = 10500050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "吹雪的应援对双方都产生了效果？！",
+			say = "Fubuki's support just gave both of them a burst of energy?!",
 			effects = {
 				{
 					active = false,
@@ -157,8 +157,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "哦哦哦啊啊啊啊啊啊！！！",
+			actorName = "Ma Tsu Ri",
+			say = "Oooohhhhhh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔…？对敌方的激励效果好像更明显…",
+			say = "Oh no... the fake Matsuri is powering up even more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "欸…欸？！！",
+			say = "Eh... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,8 +215,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "FUBUKI↓FUBUKI↑FUBUKI↑FUBUKI!!!!!啊啊，啊啊啊啊！",
+			actorName = "Ma Tsu Ri",
+			say = "Fubuki! Fubuki! Fubuki! Fubuki!! Aaahhhnnn!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停！！一！！！下！！！！啊！！！！！",
+			say = "Wait! W-w-wait a sec! Time out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "可恶的塞壬…！迫害也要分清地点和场合啊！！！",
+			say = "Siren! Even if you're going to make me look bad... there's a time and place for it, as well as a target!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "明明还有祭妹啊，拉拉队员啊，这么多出色的人设可以选！为什么偏偏是这一个啊！！！！",
+			say = "There are plenty of people on stream spamming stuff like \"Big Sister Matsuri~\" or \"I love your character, Matsuri,\" so why are you going to such lengths?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪，你喜欢夏色祭么？",
+			say = "Fubuki, do you like Matsuri?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "哎，拉菲酱？怎么突然说起……原来如此",
+			say = "Ehh?! Laffey, why are you asking me that all of a sudden... Oh, I see! That's the key to this battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "祭，喜欢你哦。",
+			say = "Matsuri, I love you~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,8 +347,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "！！！！",
+			actorName = "Ma Tsu Ri",
+			say = "AHH!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人…石化了",
+			say = "She turned into a statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有破绽，就是现在！",
+			say = "She let her guard down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "趁着敌方行动停止的间隙，{namecode:158}干净利落的一击解决了战斗",
+			say = "With a single decisive blow, Kawakaze struck down the fake Matsuri.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是和之前一样…敌方反应在白光中消失了。",
+			say = "She turned into light and disappeared...",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "周边无其他敌方信号反应，雷达，是这么看的吧…",
+			say = "Ay am not detecting any other enemies. Is this what it's like to have a radar...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "大家继续前进吧~带路就麻烦祭了哦…祭酱？",
+			say = "Let's continue onward, everyone~ Lead the way, Matsuri. Matsuri?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边的祭也石化了啊……",
+			say = "The Matsuri over here turned into a statue as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

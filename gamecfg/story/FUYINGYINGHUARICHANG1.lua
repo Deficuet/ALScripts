@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>一 新年偶遇？</size>",
+					"Blessings and Tidings\n\n<size=45>Chapter 1: Greetings and Meetings?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "呼…要买的东西都买的差不多了吧",
+			say = "Mhm... That should be the last item on the shopping list.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，说什么“{namecode:74}大人没必要一起折腾，请坐在那边休息就好”，我也想一起做新年的准备啊！",
+			say = "\"Lady Nagato, you mustn't sully your hands with common work; please leave it to us and return to the castle.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把这些带回去以后再跟她们……嗯？那是……",
+			say = "Kawakaze and the others can be so stiff at times... I, too, wish to assist everyone in the New Year's preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499021,
-			say = "呵呵…在这里碰到也算是一种缘分呢，重樱的神子",
+			say = "The Guardian Fox of the Sakura Empire... perhaps us meeting here is a \"sign\" of the things to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是铁血的{namecode:440}啊…唔…你这一身…",
+			say = "Friedrich der Große of the Iron Blood... Hmm, what in the world is with that outfit...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499021,
-			say = "这就是你们重樱称作“和服”的装扮吧。质地舒适，色调高雅，确实是非常棒呢~",
+			say = "Yes, this is a kimono from your own Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed, this is indeed a product of the highest caliber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(和、和服还能穿成这样的吗…不过…总觉得有种“输了！”的感觉……)",
+			say = "(Since when did they make kimonos that looked like this...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(咕…！这股挫败感究竟是怎么回事…)",
+			say = "(First Akagi, then St. Louis... Now everyone is dressing like this...? Ugh... I feel like I've lost something valuable...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是重樱的{namecode:74}大人和铁血的{namecode:440}？",
+			say = "Huh? Lady Friedrich der Große of the Iron Blood? Lady Nagato of the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜哇！？吓了我一跳，是皇家…女仆队的？",
+			say = "Geh?! ...Ahem! You're from the Royal Maids?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 202071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~女仆队她们每天都要忙这忙那的…我可做不到啦~",
+			say = "Um... former maid... That place was a bit too hectic for me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 202071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可是正经的皇家骑士哦！",
+			say = "I'm now one of the Royal Knights!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、这样…",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499021,
-			say = "呼呼…这也是重樱风格的服装呢，不错，皇家的小姑娘",
+			say = "You're also dressed in a kimono... The Royal Navy also seems to come prepared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 202071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，谢谢夸奖~{namecode:440}的也…嗯…很厉害！",
+			say = "I am honoured by your praise! Lady Friedrich der Große, your appearance is also... most striking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家都对重樱这么感兴趣的啊…唔，既然如此，新年要来神社看看吗？",
+			say = "I am glad that both of your factions have taken interest in our customs. As such, I welcome you both to come to our shrine to celebrate Shougatsu with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499021,
-			say = "哦？在重樱是叫做“新年初诣”吧？呵呵，有点期待呢",
+			say = "Shougatsu...? If I recall, that was the Sakura Empire's ceremony to welcome in the coming year?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道重樱的新年活动还有“板羽球”！克利夫兰她们和重樱的小伙伴还约了要比赛呢，嘿嘿，后面我要去给她们做裁判来着~",
+			say = "Oh, Cleveland mentioned something about that and a sport called \"hanetsuki,\" right? I somehow ended up being dragged in to serve as a referee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			actor = 305052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（总觉得话题有点对不上来…呜…女孩间的谈话真难啊……！）",
+			say = "(Th-they're talking right past each other...! What a fearsome display of a culture gap...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哦哦…板羽球！我也…——啊，咳咳，希望你们都能过一个有意思的新年",
+			say = "Hanetsuki sounds like f– I mean... Ahem! Perhaps if the opportunity arises...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

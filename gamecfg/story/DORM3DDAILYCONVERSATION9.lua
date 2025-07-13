@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION9",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个房间里，天狼星最喜欢部分之一就是壁炉哦！",
+			say = "One of my favourite places in my quarters would have to be the fireplace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +49,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一想到天气再冷一些的时候，就能够和您依偎着坐在暖暖的壁炉旁，天狼星就……///",
+			say = "I like to imagine that, when it gets colder, we'll cuddle up in front of the warm fire...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

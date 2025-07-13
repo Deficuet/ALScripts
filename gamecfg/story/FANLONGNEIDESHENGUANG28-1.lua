@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -72,7 +72,7 @@ return {
 				number = 2
 			},
 			location = {
-				"撒丁岛·安德烈亚防线",
+				"Sardegnia Island - Andrea Defensive Line",
 				3
 			}
 		},
@@ -82,7 +82,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（机械轰鸣声）",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "浓厚的雾气中，一台巨大的机械正在全方位无死角地倾泻着炮火。",
+			say = "Shrouded in thick fog, the huge machine was firing in all directions, not a single blind spot out of range of its cannons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "佛罗伦萨共和国",
+			factiontag = "Republic of Florence",
 			paintingNoise = true,
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安德烈亚阁下，我们已经夺回超过九成的节点了。",
+			say = "Andrea, 90% of all the nodes have been captured now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "无需再等了……直接超载系统，将功率推至最大，让永夜彻底将其吞噬吧！",
+			say = "Then we should be good. Overclock the system and encase the enemy completely in the Domain of Eternal Night!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "红黑色的浓雾变得愈发厚重，一道道血红色的光，如同血液一般穿梭着。",
+			say = "The fog thickened, and streaks of blood-red light rushed through it.",
 			effects = {
 				{
 					active = true,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "整个永夜领域仿佛正在凝聚成某个实体，如同一头即将苏醒的巨兽。",
+			say = "It was like the Domain of Eternal Night had converged into a single entity – like a giant had risen from its slumber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "而在雾气中游弋的安德烈亚一行人，动作则愈发协同，仿佛逐渐成为了巨兽的一部分。",
+			say = "Andrea's group coordinated so closely that it was almost like they were an extension of this giant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（机械急促的轰鸣声）",
+			say = "ROOOOAAAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "炮弹缠绕着浓雾，在审判机坚不可摧的护盾上留下了无数明亮的光斑。",
+			say = "Cannons covered in fog struck the MECHArbiter's sturdy barrier as blinding beams of light burst forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,11 +264,11 @@ return {
 			actor = 9703010,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "安德烈亚，目标的反击速度正在减慢，护盾整体亮度也有所下降。",
+			say = "Andrea, the enemy's attacks are getting duller and its barrier is growing darker!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,12 +278,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "进攻有效了。",
+			say = "Looks like it worked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,12 +293,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_595",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……终于到这一刻了，马可波罗圣座！",
+			say = "The moment has finally come... Marco Polo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,13 +308,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			bgm = "battle-shenguang-holy",
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本圣座知道了，现在开始进行极性急转作战。",
+			say = "I know! Commencing the final step of the plan now!",
 			effects = {
 				{
 					active = false,
@@ -344,7 +344,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"撒丁岛·马可波罗准备区",
+				"Sardegnia Island - Defense Line",
 				3
 			}
 		},
@@ -352,12 +352,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神啊，我在此呼唤你的国度，让天国于此处降临吧——",
+			say = "O God, I call for you! Manifest your heavenly kingdom upon this earth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,12 +373,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么……？！",
+			say = "...What?!",
 			effects = {
 				{
 					active = false,
@@ -394,13 +394,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "马可波罗圣座，我什么现象都没有看到……仪式出现什么意外了么？！",
+			say = "It doesn't seem like anything happened... Did the ritual work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,12 +410,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……神对我说，时机依然未至。",
+			say = "...God just told me to \"hang on a minute\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,12 +425,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……居然依然未至么，这还真是。",
+			say = "Did I hear that right? God wants you to wait?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,13 +440,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没关系……我们还有最后一个备用方案。",
+			say = "Seems we have no other choice... I'll use the final card in our hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,12 +456,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们还能增强攻势么？",
+			say = "What are you talking about?! The cursed thing's barrier is completely attuned to your attacks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,13 +471,13 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "引爆核心节点、实验室、以及撒丁岛上的所有其他设施。",
+			say = "I'll destroy all our equipment. The core node, the laboratory, and everything else on Sardegnia Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,13 +487,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这些设施包含庞大的能量源，一旦被引爆，将会释放出极其强大的能量冲击。",
+			say = "They contain a tremendous source of energy. Destroying them all at the same time will generate a massive shock wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,12 +503,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "引爆之后的后果呢？",
+			say = "What consequences will that have?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,12 +518,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们无力制造新的实验室，在设备全毁之后，就不会再有META化的舰船诞生了。",
+			say = "It won't be possible to rebuild the laboratory. No new METAs will come to be if we destroy all that machinery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,12 +533,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "META么……也好，没了就没了吧！",
+			say = "No more METAs? An acceptable price to pay. We don't NEED them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,11 +548,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们的安全呢？",
+			say = "Can you ensure the safety of your comrades, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,13 +562,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可以保证。",
+			say = "No need to worry about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,12 +578,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_598",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，就如此做吧！",
+			say = "Magnificent! Do it, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "与此同时，无垠的纯白之中，借助雕像的眼睛，我同步观察着战局的变化。",
+			say = "In the endless white expanse, I witnessed all of the shipgirls' conversations and the changes in the battle through the eyes of the statue.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……能够催生META化的异化心智魔方……指的是元魔方吧？",
+			say = "An energy source that creates METAs... Is she talking about a special Wisdom Cube? Origin Cubes, to be specific?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……她们想引爆元魔方？！",
+			say = "They're not seriously considering detonating them, are they?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "脑海中不禁浮现出了黑色风暴席卷之下，那宛如末日般的景象。",
+			say = "The image of a black tornado destroying everything in its path flashes in my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，必须阻止她们，这个后果不是她们能够承受的！！",
+			say = "Hierophant, you have to stop them! Nobody will be able to withstand the damage if those Cubes go off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "不远处，一扇门出现了。",
+			say = "In response to my plea, another door appears not far from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？难道她们的计划真的可行？",
+			say = "...What does that mean? That the plan will work out just fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……你想要告诉我什么？",
+			say = "What are you trying to tell me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奥斯塔，我的实验成功了。",
+			say = "Well, Dr. Aoste, my experiment was a success.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……你最终还是找到了将能源魔方变成炸弹引爆的办法啊。",
+			say = "You discovered a way to blow up Energy Cubes, you mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			bgName = "bg_aostelab_2",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "一间有些眼熟的实验室中，奥斯塔与柯蕾正在交谈着。",
+			say = "I see Dr. Aoste and Colette conversing inside a strangely familiar laboratory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明是正经科研项目，别把我说得跟炸弹狂魔一样。",
+			say = "Hey, it's a serious research project. Don't paint me like some kid experimenting with firecrackers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不管业内的偏见有多重，我都认为引爆式推进引擎是一个前景远大的项目。",
+			say = "My peers can be as biased against it as they want, but I still believe the explosive-propulsion engine is a promising subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "心智魔方与能源魔方本是同源。",
+			say = "It was widely believed that it was impossible for E-Cubes to release an explosion of energy in a short time, despite the enormous amount of energy they contain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "心智魔方既然可以展现出META化的性质，能源魔方没有理由不能。",
+			say = "And yet, Wisdom Cubes – particularly ones that have undergone METAmorphosis – are reliably able to cause a destructive shock wave in response to stimulus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能源魔方蕴含有澎湃的能量，但是其无法像炸药一样在短时间内快速释放，而心智魔方却可以。",
+			say = "And what's true for Wisdom Cubes is true for Energy Cubes as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尤其是META化的心智魔方，通过刺激使其产生具有破坏性的META化冲击，这一性质是可以稳定复现的。",
+			say = "If a Wisdom Cube can undergo METAmorphosis, there's no reason why E-Cubes shouldn't be able to in theory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "因此，尝试制作META化的能源魔方是一个很自然的方向吧。",
+			say = "Isn't it natural, then, to change our way of thinking and try to work out how METAmorphosis works for Energy Cubes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "想到思路是一方面，能做成功是另一方面……能源魔方的性质比心智魔方稳定得多，你是怎么使其META化的？",
+			say = "\"In theory\" is not the same as \"in practice.\" Energy Cubes are far more stable than Wisdom Cubes. How on earth did you make it turn META?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是核心机密，告诉你是不可能了，不过你要是想用的话——回头我们走商业合作流程？",
+			say = "Sorry, OXS trade secret. If you want to use our technique, we can discuss a business contract later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我更在意安全性上的问题。",
+			say = "No, see, what I'm concerned about is the safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "这方面不用担心，还记得你以前拿出来的心智魔方输出功率监视器与限制器么？",
+			say = "Talk about being a worrywart. Do you remember that Wisdom Cube power output monitor and limiter you showed me before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的团队在其基础上研发出了一种适配META化能源魔方的版本，我暂时将其称之为M型限制器。",
+			say = "My team used that as a template for our own version made for META Energy Cubes. I've named it the M-type limiter – subject to change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "搭载了M型限制器的META化能源魔方将会根据要求输出的功率是否达到起爆值而呈现出两种截然不同的状态。",
+			say = "A META Energy Cube with the limiter installed exhibits completely different behaviors based on whether the desired output exceeds the value needed for an explosion or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "当要求输出的功率低于起爆值的时候，由于M型限制器的存在，其将不会对外输出任何能源，也不会展现出任何META化特性，就像一块石头一样。",
+			say = "If it's below the value, the limiter ensures not a single iota of energy will be released, preventing the expression of its META characteristics. Basically, it's just a brick then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而当要求输出的功率高于起爆值的时候——Boom。",
+			say = "But, if the value exceeds the detonation threshold... Kaboom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "M型限制器会在收到指令的瞬间失效，从而对外释放出一次强大的冲击。",
+			say = "The limiter is immediately disabled, and the violent energy surge is then released as a shock wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "而在冲击发生的同时，能源魔方本身的外壳材料会因为无法承受冲击而自行解体，从而杜绝了次生危害的产生。",
+			say = "Since this simultaneously destroys the Cube's casing, there's also zero risk of a secondary hazard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒是……我现在还没想好这种特殊能源魔方的名字。",
+			say = "Come to think of it, I haven't come up with a name for these unique E-Cubes yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			actor = 900408,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——你觉得，M型能源魔方（MEC——META E-Cube）如何？",
+			say = "META Energy Cube... MEC for short. Actually, how about M-Type Energy Cube? M-TEC.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像眼神清澈地与我四目相对着。",
+			say = "The statue's eyes stare back at me inside the endless white space.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -1105,7 +1105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……呈现出META化性质的能源魔方？",
+			say = "An Energy Cube with META properties...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1118,7 +1118,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……能被引爆的能源魔方？",
+			say = "Not just that – a Cube that can be detonated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……啊？！",
+			say = "...That's what they are?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

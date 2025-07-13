@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "和菈菈把可以越是加班会越让人愉悦的“嘻嘻加班君”交给了迪普莱克斯。",
+			say = "Lala and I successfully deliver the All Work, All Play Robot to Dupleix.",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "几天后，正在走廊上的我被大喊着不妙的花剑拽住，来到了指挥室。",
+			say = "Days later, when I'm walking through the hallway, Fleuret screams about an emergency, seizes my arm, and drags me to my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901050,
-			say = "指、指挥官，你看，迪普莱克斯她说着要提前处理秘书舰的工作，结果现在……",
+			say = "She was really excited to do her secretary work ahead of time, but she ended up like... this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "花剑的语气甚至有些颤抖。",
+			say = "Her voice quivers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……指挥官……嘿嘿嘿……工作……工作好开心啊……",
+			say = "Commandeeer... Hehehee... Work is fun... Sooo much fun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "这么多的工作……一个接一个……已经什么都不用想了……",
+			say = "All this work and nothing else... I don't have to think, it's just work, work, work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "只要继续工作……不停的工作……",
+			say = "Do nothing... but work until your arms fall off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官……救命……",
+			say = "Commander, you have to help her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "……为什么……我们也要跟着加班……",
+			say = "Why... Why is she making us work overtime with her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901060,
-			say = "不行……不行了已经……对不起……",
+			say = "I can't take it anymore... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "指挥官……花剑……你们也是来帮忙的对吗？",
+			say = "Oh, Commander? And Fleuret, too? Did you both come to help us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "姐姐我已经连续工作五十个小时了哦，感觉很快乐……",
+			say = "I've been at this for fifty hours without a single break. It's just so fun, so very fun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "你们也一起来感受这种快乐吧……",
+			say = "Come, everyone... Join in the fun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901050,
-			say = "不行……迪普莱克斯好像已经坏掉了，先想办法制服她！",
+			say = "This is bad... She's broken! You have to stop her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "休想！都给我来加班——！！",
+			say = "I won't let you! Work with meee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在这时，她戴在耳朵上的“嘻嘻加班君”冒出了一阵黑烟，彻底坏掉了。",
+			say = "Right on cue, the All Work, All Play Robot lets out a puff of white smoke as it breaks from the stress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "随即迪普莱克斯便趴在了桌子上，带着幸福的微笑晕了过去。",
+			say = "Dupleix falls face-first onto the desk and loses consciousness. A blissful smile on her face is the only remaining sign of life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "走上前检查了一下迪普莱克斯的状况，似乎是因为劳累过度昏迷了。",
+			say = "I warily approach and examine her. Unsurprisingly, she fainted from overwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "唉……快通知英仙座她们来接人吧。",
+			say = "Okay... I'll go call Perseus and the others to come get her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

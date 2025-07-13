@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "当前正在进行普通难度仲裁机关作战。",
+			say = "Currently challenging an Arbiter on Normal difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "离开后当前作战进度将会保留，本月内再次进入可继续挑战。",
+			say = "During this month, your progress will be saved even if you leave the combat zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "击破普通难度仲裁机关后，将会开启困难难度仲裁机关作战。",
+			say = "By defeating the Arbiter on Normal difficulty, you will unlock Hard difficulty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

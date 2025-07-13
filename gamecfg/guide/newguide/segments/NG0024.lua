@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"META研究室中拥有<color=#ff5c5c>能量激活</color>、<color=#ff5c5c>舰装强化</color>、<color=#ff5c5c>战术研习</color>、<color=#ff5c5c>资讯同步</color>四个系统模块。",
-	"来看看META角色的战术研习吧。",
-	"META角色的技能在进行升级之前首先需要解锁。",
-	"需要消耗一定数量与技能类型相同的技能书进行解锁操作。"
+	"The META Lab is equipped with three primary functions to increase the strength of META ships: Somatic Activation, Rigging Fortification, and Tactical Research. You can also collect rewards for accumulating Sync Points here!",
+	"Though META ships are a little bit different, increasing their strength should feel familiar. Now, let’s go through how to level their skills!",
+	"Before you can start, they need to learn the skill in the first place.",
+	"Just lob a few Skill Books at ‘em, that ought to do the trick!"
 }
 
 return {

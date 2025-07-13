@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "东大陆架C区域·指挥舰内",
+			say = "Northern Parliament Control Center - Commanding Vessel",
 			side = 2,
 			bgName = "bg_endingsong_10",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，现在开始战况汇报。",
+			actorName = "Georgia",
+			say = "Commander, I've come to update you on the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "根据{namecode:529:苏维埃同盟}的情报，舰队行动重点已经从排除铁血幻影转为了对斯卡帕湾进行包围。",
+			actorName = "Georgia",
+			say = "Soyuz's fleet is in the midst of encircling Scapa Flow, as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}稍早前发来的联络表示，其手下的一支舰队在向斯卡帕湾前进之时遭遇到铁血{namecode:436}带领舰队的猛烈阻击。",
+			actorName = "Georgia",
+			say = "New Jersey's fleet is also on the move, but progress is still slow owing to Iron Blood's jamming and stalling tactics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "她本人所在的舰队也遭遇了自称{namecode:482}与{namecode:480}的两艘未知铁血计划舰的阻拦。",
+			actorName = "Georgia",
+			say = "Speaking of the Iron Blood, we've caught wind of the fact they're fielding blueprint ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "同时根据{namecode:199}的情报，她发现了铁血前线总指挥{namecode:463}的行踪。",
+			actorName = "Georgia",
+			say = "Most of them are under Ulrich's command. She seems to be making a beeline for this very fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "其正带领着包括计划舰{namecode:439}与{namecode:479}在内的舰队主力向我们的方向直扑而来。",
+			actorName = "Georgia",
+			say = "Our forces are spread out because of all the jamming, so stopping Ulrich's fleet in its tracks will be difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}表示所有拦截企图均已失败，她已经改变作战部署，也希望我们一切小心。",
+			actorName = "Georgia",
+			say = "But, if they do reach us, we can deal with them just fine. You're with us, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "佐治亚，回复{namecode:199}我们了解了。",
+			say = "\"Sounds like whatever they do, it won't be enough to turn the battle in their favor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "同时向华盛顿和企业发报，敌方航空舰队正向着我方前进，护卫舰提高警惕，舰载机群升空待命，准备迎战。",
+			say = "\"Just earlier, I heard Iron Blood planes have been spotted as well. I'll notify Enterprise's reserve fleet to be on their guard.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,8 +184,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "遵命。",
+			actorName = "Georgia",
+			say = "The fact they're fielding blueprint ships now has me a bit wary, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "真没想到铁血居然还有隐藏起来的计划舰……",
+			say = "\"You're right to be. Every faction voiced concerns over blueprint ships as this operation was being drafted, too. Soyuz insisted there wouldn't be any.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "斯卡帕湾方向果然有问题，我们一改变部署，铁血的部署也变了。",
+			say = "\"One of her informants had said so. Allegedly. Looking back at it now, she might just have been bluffing for the sake of getting the operation approved...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "皇家的回复呢？",
+					content = "\"Have you heard anything from the Royal Navy?\"",
 					flag = 1
 				}
 			}
@@ -235,8 +235,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "皇家LD司令部表示，其在开战不久后确实与斯卡帕湾失去了联络。",
+			actorName = "Georgia",
+			say = "You mean regarding Scapa Flow? They're still dancing around the subject.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过之前一直在当成单纯的通讯故障进行排查。",
+			actorName = "Georgia",
+			say = "One minute they say they can't get in touch with anyone at the base, the next they say it's largely irrelevant to the operation at hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "在上次斯卡帕湾遇袭之后那里就一直在进行重建，没有什么军事力量，也没有什么补给物资。",
+			actorName = "Georgia",
+			say = "Curiously, Her Majesty has also been telling us not to worry about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "虽然存在被铁血乘虚而入的可能性。",
+			actorName = "Georgia",
+			say = "All signs point toward an Iron Blood invasion, but then why is the Royal Navy being so uncooperative? Scapa Flow is still an important base to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +303,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过那里一旦被包围就是死地，看不出战略价值所在。",
+			actorName = "Georgia",
+			say = "If they wanted to hide something from us, it'd be the ideal location for it, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "嗯……从常规来讲这个判断十分正确。",
+			say = "\"An invasion does seem like the likeliest answer. If this operation is intended as a retaliatory attack against the Iron Blood, why are we headed for a Royal Navy anchorage?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "铁血没有丝毫道理抛下岌岌可危的前线，转而进攻一处基本丧失功能的锚地。",
+			say = "\"And for that matter, why would the Iron Blood attack Scapa Flow to begin with?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,24 +346,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_10",
-			say = "不过{namecode:440}的部署总是不走寻常路……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_10",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，关于袭来的铁血主力舰队，能否让我带领舰队前去迎战。",
+			say = "\"Friedrich and Elizabeth will both have some explaining to do the next time I see them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,8 +362,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:463}是一位优秀的指挥者，铁血的计划舰同样不容小觑。",
+			actorName = "Georgia",
+			say = "Guess we'll have to find out for ourselves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +379,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "本次我就是为了保护您的安全，为了应对现在这种局面而离开星海提前服役的。",
+			actorName = "Georgia",
+			say = "Sorry for changing topics, but would you let me deal with Ulrich's fleet, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +396,8 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "至此，除总旗舰{namecode:440}之外，铁血在NA海域中的所有已知主力舰均已暴露行踪。",
+			actorName = "Georgia",
+			say = "Your fleet is more than enough to handle hers, but that would take time, and we've been stalled long enough as it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +413,25 @@ return {
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "此时的斯卡帕湾必定防御空虚。指挥官请带领舰队直奔目的地，这里就交给我吧。",
+			actorName = "Georgia",
+			say = "I just need a few others to come with me. We'll head out and intercept Ulrich's blueprint brigade to ensure you have a clear path to Scapa Flow.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_10",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Georgia",
+			say = "We've identified the majority of the blips on the map by now, and if Friedrich's anywhere, she should be in the harbor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,15 +442,15 @@ return {
 			},
 			options = {
 				{
-					content = "许可",
+					content = "\"All right. Permission granted to sortie.\"",
 					flag = 1
 				},
 				{
-					content = "注意安全",
+					content = "\"Do it, and treat yourself to an Oxy-cola.\"",
 					flag = 2
 				},
 				{
-					content = "首次参战，可不要用力过猛哦?",
+					content = "\"One must wonder what Ulrich's goal is with all this...\"",
 					flag = 3
 				}
 			}
@@ -462,9 +462,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			actorName = "佐治亚",
+			actorName = "Georgia",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "Thanks. I'll head out right now then. Best of luck to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,9 +481,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "佐治亚",
+			actorName = "Georgia",
 			hidePaintObj = true,
-			say = "遵命。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "Thanks. I'll head out right now then. Best of luck to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,13 +495,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "佐治亚",
+			actorName = "Georgia",
 			bgName = "bg_endingsong_10",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "相比指挥官您，铁血的{namecode:463}恐怕更需要担心这件事~",
+			say = "Yeah. I doubt you're their real objective, because that'd be way too simple...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,9 +518,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "佐治亚",
+			actorName = "Georgia",
 			hidePaintObj = true,
-			say = "那么我去了。白鹰所属计划舰佐治亚，现在加入战斗——",
+			say = "Hahahah! I'll treat myself to a whole case of 'em after we get home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "路过居住船舱的时候，发现有一间舱室的门大开着。",
+			say = "While I walk through the cabin quarter, I notice a certain door has been left wide open.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "一道粉色的身影正倒在走廊之中。",
+			say = "A pink figure lies on the floor in front of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……？拉菲……？",
+			say = "Hm...? Laffey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101177,
-			say = "Zzz……指挥官怎么会在拉菲的梦里……",
+			say = "Zzz... Commander, why are you in my dream...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这不是做梦，我扶你起来，回房间睡吧。",
+			say = "You're not dreaming. Take my hand, and let's get you to bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101177,
-			say = "房间……哦……拉菲想起来了……指挥官，跟拉菲进来……",
+			say = "Bed... Oh, I just remembered... Come with Laffey...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "拉菲从地上起来，抓住我的手腕就往房间里走。",
+			say = "Laffey stands up, grabs me by the wrist, and pulls me into her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 9600051,
-			say = "指挥官？哦……原来拉菲消失了那么久，是去找你一起来参加睡衣派对啊……",
+			say = "Commander? *yaaawn*... Laffey was gone for so long, I figured she was off trying to get you to join our pajama party...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,22 +151,22 @@ return {
 			hidePaintObj = true,
 			recallOption = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拉菲是在走廊上睡觉吧！",
+					content = "No, actually, she was sleeping in the hallway.",
 					flag = 1
 				},
 				{
-					content = "现在明明才起床没多久吧……",
+					content = "You just woke up, and you're already going to sleep again?",
 					flag = 2
 				},
 				{
-					content = "为什么会在白天开睡衣派对啊？",
+					content = "Why are you having a pajama party in the middle of the day?",
 					flag = 3
 				}
 			}
@@ -180,7 +180,7 @@ return {
 			actor = 101177,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲是去找指挥官的路上睡着的……嗯……Zzz……",
+			say = "I fell asleep on my way to find the Commander, yep... Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600051,
-			say = "又没有规定起床了就不能继续睡……对吧，恶毒？",
+			say = "There's no law that says you can't do that... Isn't that right, Le Malin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,10 +223,10 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 2,
-			actor = 900443,
+			actor = 901113,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，白天睡觉反而更享受……",
+			say = "Yep yep. Sleep is best when it's daytime, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妾身原本也问了与汝相同的问题，但……",
+			say = "This one asked the same question, and yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "唔，应该问……为什么白天不能开睡衣派对才对吧？",
+			say = "Ugh, you've got it all wrong... You're supposed to ask what's so wrong with sleeping just because it's daytime.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "看着这些参与睡衣派对的人选，忽然意识到自己才是那个“作息不对劲”的。",
+			say = "When I'm confronted by the pajama party attendees, I realize that I'M the one with the screwed up work-life balance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，你们打算怎么进行这个派对？是打游戏……还是？",
+			say = "Okay, so how does this party work? Do you play games, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101177,
-			say = "拉菲原本想拜托{namecode:182:信浓}小姐，靠{namecode:182:信浓}小姐的力量让大家一起做个美梦的……",
+			say = "Laffey wanted to ask Shinano... to use her power to give everyone sweet dreams...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,8 +321,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900443,
-			say = "哈啊……结果我们都睡太多了，导致根本睡不着……",
+			actor = 901113,
+			say = "*sigh*... We've just slept so much that it's hard to sleep any more...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……所以我向大家提了“干脆进行枕头大战吧”的建议。",
+			say = "Phew... That's why I suggested we should have a pillow fight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,20 +356,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600051,
-			say = "这样打累了的话，维达就能继续睡了……",
+			say = "Throwing pillows around really helps tire you out, after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900443,
+			actor = 901113,
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过{namecode:182:信浓}倒是一直在犹豫要不要参加就是了。",
+			say = "But Shinano's so hesitant to join us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？{namecode:182:信浓}不喜欢枕头大战么？",
+			say = "Hm? Shinano, do you dislike pillow fights?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身……妾身不是不喜。只是以妾身的体型而言，与大家进行枕头大战多少有些……",
+			say = "I wouldn't say I dislike them... However, this one's constitution poses a problem...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来是在担心这个么。）",
+			say = "(Is that what she's worried about?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，我在这里。{namecode:182:信浓}就尽情地玩吧。",
+			say = "Don't worry about it. I'm here, so have all the fun you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "那……妾身就恭敬不如从命了。",
+			say = "If you say so... then I shall...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "虽说是枕头大战……但其实刚开始进行没多久，拉菲就抱着枕头躺下了。",
+			say = "They started pillow fighting, but before long, Laffey decided to lie down, clutching her pillow tight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101177,
-			say = "拉菲累了……想睡觉……",
+			say = "Laffey too tired... Sleepy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,8 +504,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900443,
-			say = "我也是……不过机会难得，就让指挥官给我们讲睡前故事，怎么样？",
+			actor = 901113,
+			say = "Me, too... But opportunities like this don't come every day. Commander, can you tell us a story?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也不是不行，你们想听什么？",
+			say = "Sure, but what kind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，讲一些指挥官拿手的就好了。",
+			say = "Mm, just whatever you can tell engagingly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600051,
-			say = "维达没意见哦~反正只要听着指挥官的声音就好了，故事是什么不重要。",
+			say = "Agreed~ The story itself doesn't matter. We just want to hear your voice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:182:信浓}呢？",
+			say = "Shinano?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "扭头看去，少女不知何时已经重回梦境之中，而她蓬松而柔软的尾巴舒展开来，将我包围。",
+			say = "I turn around and find that Shinano's already drifted off to dreams. Her soft, fluffy tail has stretched over and wrapped around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……Zzz……",
+			say = "...Zzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "讲完一个普通的童话故事后，拉菲、恶毒、尼古拉斯和维达已经全都睡着了。",
+			say = "By the time I've told them a decidedly average fairy tale, Laffey, Le Malin, Nicholas, and Whydah have all fallen asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "小心翼翼地离开{namecode:182:信浓}尾巴的“束缚”后，轻手轻脚地为她们盖好了被子。",
+			say = "I gently free myself from Shinano's fluffy restraint and put a blanket over the group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			say = "拉上房间内的遮光窗帘，确认不会打扰她们睡觉后，离开了居住船舱。",
+			say = "After I've closed the blackout curtains, I quietly leave the cabin, careful not to wake them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "bg_story_room",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不好，我也有点困了……还是四处走走，吹吹风清醒一下吧。）",
+			say = "(Man, now I'm a little tired... I'll walk around a little, get some fresh air, and hopefully clear my mind.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

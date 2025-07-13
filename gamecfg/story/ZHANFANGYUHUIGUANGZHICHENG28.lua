@@ -7,7 +7,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "战场的角落中，凡人正用自己的方式努力着。",
+			say = "Through our efforts, we manage to bring the Mirror Sea's concept closer to its original state.",
 			bgm = "story-finalbattle-unity",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "报告指挥官，阿尔萨斯成功消灭了三点方向的敌方集群！",
+			say = "Enemies at three o'clock confirmed down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CE6FF",
-			say = "指挥官，侵蚀性络合物的蔓延速度肉眼可见地变缓了。",
+			say = "Yaaay♪ The corrosion's visibly slowing down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "很好，乘胜追击，继续向着中心水晶的方向清理。",
+			say = "Keep it up! Press on to the central crystal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "{namecode:522:旗风·META}很可能是利用那块水晶控制辉光之城的。",
+			say = "The Martyrium's... The Mirror Sea's control system might be waiting for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "指挥官，我们这边遭遇到火力余波的压制，暂时无法前往预定区域。",
+			say = "Fleuret speaking! The suppression fleet still can't reach the target sector due to the threat of being caught in the crossfire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "直接去下一处目标搜索，绕过交火地带",
+			say = "Skip that one. Let Elizabeth's fleet fight freely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "记住，你们的目标不是天空上的战斗，而是搜索{namecode:522:旗风·META}的位置，安全第一。",
+			say = "I'm concerned about the battle with Rodney. Contact me as soon as you spot Hatakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 901060,
 			nameColor = "#5CE6FF",
-			say = "明、明白……！",
+			say = "R-roger dodger...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 803020,
 			nameColor = "#5CE6FF",
-			say = "指挥官，战场之中虽然存在些许迪贝路的舰载机，不过我依然没能找到其本体的位置。",
+			say = "I've spotted some of Devil's drones, but the Arbiter herself is nowhere to be seen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "不要与敌人缠斗，专心搜寻。",
+			say = "Don't pursue the drones too far. Focus on the search as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 803020,
 			nameColor = "#5CE6FF",
-			say = "遵命。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "（……天空中的罗德尼在夹击之下已经颓势尽显。）",
+			say = "(Perfect. Rodney should be weakening with every passing moment.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "（可是{namecode:522:旗风·META}除了驱动侵蚀性络合物，并没有亲自加入战斗。）",
+			say = "(Hatakaze hasn't shown herself since she manifested the corrosion, though.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "（迪贝路也是如此……她们还在谋划着什么。）",
+			say = "(Devil must be plotting something, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "（难道……她们在等待我们将罗德尼消灭掉……？！）",
+			say = "(Could it be... they're waiting for us to defeat Rodney?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "D小姐，现在空中的罗德尼状态如何？",
+			say = "Miss D, status report on Rodney.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 900430,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "看上去很威风，但其实已经快解体了哦！",
+			say = "She's still acting tough, but she'll disintegrate soon enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……解体？如果解体了的话，之后会发生什么？",
+			say = "...Disintegrate? What happens then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 900430,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我不知道！",
+			say = "I dunno!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "（看来只能试着呼叫海伦娜了……虽然不知道她现在有没有分心的余力。）",
+			say = "(Should I try contacting Helena? We're in the middle of a fight... but I think it's my best bet.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,10 +394,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "海伦娜，能听到么？",
+			say = "Helena, can you hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "嗯。战斗马上结束，保护好自己。",
+			say = "We're almost done here. Focus on keeping yourself safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "不用担心，我很安全。不过，现在可以问你几个问题么？",
+			say = "I'm fine. But I do have a few questions for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "……现在？",
+			say = "...Must it be right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "嗯……抱歉，情况紧急，我必须现在就弄清楚。",
+			say = "Yeah, it must. It's related to this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "好，你问吧。",
+			say = "Okay, then. Ask me anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "现在这个罗德尼，真的只是单纯由侵蚀性络合物构成的仿制品么?",
+			say = "That Rodney is a fake made from a complex, which means she's similar to a Pawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "为什么简单的仿制品能拥有如此惊人的力量？",
+			say = "How can she be so strong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "……侵蚀性络合物起到的只是粘合剂的作用，重要的是茧的碎片。",
+			say = "The corrosion only serves as glue for the cocoon. What matters is the cocoon itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "所谓茧，原本就是「罗德尼」为自己降临世间所准备的，在现实世界锚定了自身概念的实体。",
+			say = "As for the cocoon, it's a foundation that anchors the concept of Rodney to this world in order to manifest itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……那如果这个实体彻底解体了，之前在空间中帮助过我们的罗德尼会怎么样？",
+			say = "The cocoon is fragmented now, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "之前空间中出现的X，恐怕是{namecode:522:旗风·META}的手笔……目的是为了对「罗德尼」进行彻底污染。",
+			say = "Yes. At first, Hatakaze sent the X into this memory region in order to corrode Rodney.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而受到你的影响，原本只会静待一切结束的「罗德尼」选择主动击碎了茧。",
+			say = "Thanks to your interference, the concept of Rodney destroyed the cocoon herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "这一行为虽然阻止了X的蔓延，但也摧毁了其连接现实世界的通道。",
+			say = "The X corrosion has stopped, but that also weakened the concept's own connection to reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "……而这一通道的碎片，被{namecode:522:旗风·META}控制了下来，但也在其力量下重新拼合了起来？",
+			say = "And from there, Hatakaze used the leftover fragments to create a puppet of pure power?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "没错。",
+			say = "Exactly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "你能净化存在于其中的污染么？",
+			say = "If your glue statement is right, then purifying the corrosion would make the cocoon fall apart... Do you think it's possible?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "可以。",
+			say = "Yes, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "那你有办法在不摧毁通道的情况下夺取其控制权么？",
+			say = "Okay... What about, instead of destroying her, we left Rodney in this world? Would that work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "……有些困难，但……并非不可能。",
+			say = "It would be difficult, but not impossible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "只是，真的这样做的话……出于安全考虑，我必须对她的力量进行大幅度的限制以确保安全。",
+			say = "If that's your goal, then we'll need to suppress that Rodney's power for the sake of our own safety.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "没问题。我推测……{namecode:522:旗风·META}和迪贝路此时还不出手，就是在静待我们摧毁通道的瞬间。",
+			say = "We have to try. It's just a gut feeling, but I think Hatakaze and Devil are counting on you destroying that puppet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			side = 2,
 			bgName = "bg_huiguangzhicheng_5",
 			nameColor = "#5CE6FF",
-			say = "虽然不清楚她们的真实目的为何，但是决不能让其得逞。",
+			say = "Otherwise, I don't think they would've shown themselves just to provoke you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "明白了。D，帮我接近罗德尼。我要到贴身的距离才能进行下一步处理。",
+			say = "Understood. D, help us approach the target. We'll proceed from there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			actor = 900430,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "这种事情没拿到鲸鱼做不到！",
+			say = "How many times do I have to say it?! No whale, no dice! Not happening!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,7 +790,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "没事，我来帮你。",
+			say = "Fine. I'll do it for you, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			actor = 900315,
 			nameColor = "#FFC960",
-			say = "数据传输模式，调用执行——",
+			say = "Resource diversion, data transfer mode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "蓝色碎片构成的洪流凭空自通讯器中冲出，覆盖了D小姐。",
+			say = "A current like a blue collage rushes out of the communicator and engulfs Miss D.",
 			bgm = "theme-thetowerxvi",
 			typewriter = {
 				speed = 0.05,
@@ -850,7 +850,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "下一秒，D小姐与海伦娜·META一同出现在了罗德尼的双翼之后。",
+			say = "Instantly after, Miss D and Helena appear behind Rodney.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -863,8 +863,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "…………？",
+			actorName = "Rodney",
+			say = "...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			actor = 900430,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "欸？！！这是怎么回事？！呜哇哇哇——",
+			say = "Hwuh? What's going on? Whoa, whoa, whoa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "侵入开始————————完成。",
+			say = "Hacking... Complete.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "覆写模式调用——————结束。",
+			say = "Overwriting... Complete.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "「罗德尼」，于此处重塑自身，作为罗德尼·META归来吧。",
+			say = "Rodney. In accordance with the Commander's wishes, resculpt yourself as a META.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "柔和的蓝色清流逐渐包裹住罗德尼的全身，濒临崩溃的身躯正以肉眼可见的速度修复着。",
+			say = "Gentle blue light covers Rodney. Her battered form recovers in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "侵蚀的气息，也在清流的冲刷中消失殆尽。",
+			say = "The corrosion wafting in the air disappears all at once, as if washed away by the current.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "当清流消散后——",
+			say = "When it ends...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			actor = 9705050,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……你竟然，将我呼唤至此。",
+			say = "So you've called \"me\" here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			actor = 900315,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不然任你在漂泊中消散么？不用谢我，要谢就谢指挥官吧。",
+			say = "If I hadn't, you would have been swallowed whole by the concept. Don't thank me – thank the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1040,7 +1040,7 @@ return {
 			actor = 9705050,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			actor = 9705050,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "好。",
+			say = "Very well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			nameColor = "#5CE6FF",
 			side = 2,
 			bgName = "star_level_bg_589",
-			say = "这一刻，天空中的战斗以一个所有人都没想到的方式结束了。",
+			say = "Thus, the battle in the Martyrium sky came to an abrupt end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

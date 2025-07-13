@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>五　未知的景色</size>",
+					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>5 An Unseen Scenery</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我搭好天幕后又听了一会儿，直到围绕海天的松鼠们散去。",
+			say = "I finish setting up the tarp and then come back to watch Hai Tien for a little longer before the squirrels scurry off.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "故事还挺有趣的。",
+			say = "Your story's pretty captivating, Hai Tien.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "啊，一时兴起就……忘了指挥官也能听到了……",
+			say = "Oh, umm... I got a bit carried away in the moment. I forgot that you'd be able to hear me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海天是能和松鼠交流么？",
+			say = "By the way, are you able to talk to squirrels?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能哦。",
+			say = "Huh? I definitely can't...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咦？那你和它们互动的有来有回，我还以为沟通很顺畅？",
+			say = "What? The way they were moving and responding to you made it seem like you were able to communicate with them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "只要用亲切友好的语气说话，它们就会回应哦。",
+			say = "I think they were just responding to me being nice to them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于看上去像是理解了彼此的意思……大概只是指挥官的错觉？",
+			say = "The reason it looked like we were communicating is probably because of some preconception on your part, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，你也坐下来休息一下吧？休息一会儿以后，我们就在这附近走走。",
+			say = "Since you've been working so hard, why don't you take a seat and rest for a while? We can take another walk around the area later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用，我们现在就可以去逛逛。",
+			say = "Actually, I'm good to go still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "放下手中的工具，我和海天开始围绕着这片营地散步。",
+			say = "I put down the work tools and start taking Hai Tien around our campsite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "欸？那边有一条小路……",
+			say = "Hmm? Do you see that little trail over there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "海天抬手指向了某个方向。",
+			say = "I look in the direction she's pointing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "过去看看吧？说不定会有什么神奇的际遇。",
+			say = "Looks promising. Want to head over and take a look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "小径的尽头是一片开阔的草地，远处甚至还有一方小小的湖泊。",
+			say = "The path leads to a grassy clearing, and there's even a little lake in the distance.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然曲径通幽处用来形容这里不合适，但……",
+			say = "\"Winding paths lead to secluded beauty\" ...I'm not sure this saying quite captures the essence of this place, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "方才的林间小路，与这眼前的开阔之景倒是形成了鲜明的对比。",
+			say = "This scenery is quite different from what we've seen so far in the woods.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊，这曲径通幽的幽字，眼下怕是要换成悠闲的悠了。",
+			say = "That's true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "呵呵……曲径通悠么？也是有趣的说法。",
+			say = "Heehee. That's an interesting idea. You certainly have a way with words, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "“柳丝袅袅风缲出，草缕茸茸雨剪齐……”",
+			say = "\"Willow threads sway in the wind, the grass' garments trimmed by the rain\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "没想到还能看见这样的一幅美景。",
+			say = "I never expected to see such beautiful scenery here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，我想，我现在有灵感了。",
+			say = "Commander. I've got it. I think I just had an epiphany.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
-			say = "身旁的少女微微踮起脚，将头靠在了我肩上。",
+			say = "The girl next to me gently gets up on her tiptoes, and rests her head against my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

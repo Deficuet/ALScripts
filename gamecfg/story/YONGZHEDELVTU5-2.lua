@@ -6,9 +6,9 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			bgm = "login-2022401jp",
-			say = "标枪 使用 亿万斩击 对魔王 造成了100000000点伤害，魔王被击败了。",
+			say = "JAVELIN performed ENDLESS SLASH! DARK LORD took 100,000,000 DMG! DARK LORD was defeated!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -57,9 +57,9 @@ return {
 		{
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			actorName = "魔王",
+			actorName = "The Demon King",
 			side = 2,
-			say = "怎、怎么可能……本魔王居然被击败了！！！！",
+			say = "Th-this cannot be! How could you possibly defeat me?!",
 			effects = {
 				{
 					active = true,
@@ -74,9 +74,9 @@ return {
 		{
 			actor = 900233,
 			nameColor = "#ff5c5c",
-			actorName = "魔王",
+			actorName = "The Demon King",
 			side = 2,
-			say = "啊啊啊啊啊啊啊啊——————",
+			say = "Graaaghhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			actorName = "系统提示",
-			say = "获得了道具 魔王宝物库的钥匙。",
+			actorName = "System",
+			say = "You received DARK LORD'S TREASURY KEY!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这个就是…………只有传说级的勇者才能使用的传说级武器？！",
+			say = "Oh my gosh... This has to be the legendary weapon that only the chosen one can wield!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 201217,
 			dir = 1,
-			say = "…………虽然看起来有点奇怪，但是攻击力确实提升了？！",
+			say = "It looks fishy... but it has the best attack stat I've ever seen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			actor = 201217,
 			dir = 1,
-			say = "哎嘿嘿，这样也不错呢~！",
+			say = "Heheh, I think I'm gonna hang on to this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,9 +163,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "就这样，魔王被消灭了，世界迎来了和平。",
+			say = "And so the Demon King was defeated and the world was at peace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,9 +173,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统提示",
+			actorName = "System",
 			nameColor = "#A9F548FF",
-			say = "——THE END——",
+			say = "THE END",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

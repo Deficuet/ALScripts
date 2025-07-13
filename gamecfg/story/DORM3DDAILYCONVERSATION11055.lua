@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这里的蛋糕味道还挺不错。",
+			say = "This cake is delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯嗯！又松软又香甜，确实非常好吃呢~",
+			say = "Right?! It's so fluffy and sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过……Honey想不想尝尝更香甜的东西？比如说……chu~",
+			say = "But... Don't you want something even sweeter, honey? For example... Mwah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么样！是不是非常美味呢？",
+			say = "How's that? Super sweet, right? Hehe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

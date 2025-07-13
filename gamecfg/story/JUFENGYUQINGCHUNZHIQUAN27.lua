@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "新世界·隐秘水域·傍晚——",
+			say = "New World - Shipwreck Point - Evening",
 			bgm = "theme-tempest",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "在尽情的玩闹后，沙滩终于恢复了往日的宁静。",
+			say = "The feast to celebrate our victory has ended, and stillness has returned to the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "风暴逐渐聚拢，看来还是到了该分别的时候。",
+			say = "A storm – the gateway between worlds – is approaching. It's almost time for me to say goodbye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样~我的巴巴柯阿？和你的手艺不相上下吧？",
+			say = "Whaddya think? I'd say my barbacoa is just as good as yours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,12 +63,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且食材也是独一无二的~沉没之地的触手肉，意外地有嚼劲呢。",
+			say = "This meat is one of a kind, too. Throw these tentacles on the grill, and you've got yourself a chewy treat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			},
 			options = {
 				{
-					content = "毕竟是能挡下炮弹的肉质……",
+					content = "It's no wonder, since they could withstand cannonballs.",
 					flag = 1
 				}
 			}
@@ -88,11 +88,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈，也是呢。",
+			say = "Oh, yeah, true!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,12 +106,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也是呢…………",
+			say = "Yeah... Makes sense...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,11 +125,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的要走么？",
+			say = "...Are you really leaving?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "已经麻烦玛丽准备了这么久的风暴奇点，不离开就对不起玛丽小姐的辛苦劳动了。",
+			say = "Mary spent way too long looking for the storm Singularity for me to go, \"Actually, forget about it\" now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,12 +155,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唔，好吧。",
+			say = "Aww. I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再说，晚风是最适合送行的风，选择这个时候正好。",
+			say = "Hey, it's better to leave on a high note than to drag your feet, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,14 +188,14 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个给你。",
+			say = "Here. This is for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "把罗盘交给皇家财富。",
+					content = "(Give her the golden compass.)",
 					flag = 1
 				}
 			}
@@ -204,12 +204,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就、就这么留给我真的好么？",
+			say = "Really? Shouldn't you hold on to it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "它对你会有用的。",
+			say = "I'm sure it'll serve you well one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我该走了。",
+			say = "Now, I think it's time I be on my way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,11 +247,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，愿海风赐予你永恒的祝福。",
+			say = "Okay. May the winds of fortune carry your sails.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,12 +265,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有，我、我会想你的……！",
+			say = "I'll never forget about you, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,12 +294,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会给你写信的……！",
+			say = "I'll write you, I promise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,12 +313,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会去找你的！",
+			say = "We'll meet again sometime!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,12 +342,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_3",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "……………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "皇家财富的声音消失在了风暴中。",
+			say = "Royal Fortune's voice grows more and more distant as my ship sails into the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "——我们会再见面的。",
+			say = "My heart feels heavy to part ways like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "不知为何，在这个想法冒出的同时，一直紧绷的神经也终于放松了下来。",
+			say = "But then I think to myself, \"We WILL meet again,\" and the weight lessens a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "闭环已经顺利完成，过去与现在的桥梁已经铸就。",
+			say = "With the compass now in her hands, a bridge has been forged between the past and the present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "接下来，是迈向未知的未来——",
+			say = "All that remains is to take the first step towards an unknown future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
-			say = "「飓风与青春之泉」·完？",
+			say = "The End...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

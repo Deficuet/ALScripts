@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3TIMELINE01",
 	alpha = 0,
+	id = "DORM3TIMELINE01",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			typewriter = {
@@ -28,15 +25,15 @@ return {
 							options = {
 								[4] = {
 									{
-										content = "先好好休息一下吧"
+										content = "For starters, sit down over there."
 									}
 								},
 								[5] = {
 									{
-										content = "不是那个意思……"
+										content = "You misunderstand..."
 									},
 									{
-										content = "你误会了……"
+										content = "What I meant is..."
 									}
 								}
 							},

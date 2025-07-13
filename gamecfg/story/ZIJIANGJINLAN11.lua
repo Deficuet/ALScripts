@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg7",
 			stopbgm = true,
-			say = "大棋盘·{namecode:74}控制区 第三回合",
+			say = "Exercise Area - Turn 3 (Nagato's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这雾，碍事。",
+			say = "...This sea fog throws a wrench in our plans.",
 			effects = {
 				{
 					active = true,
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呵呵呵，这种只对舰载机有利的事件，明显是前辈弄出来的……",
+			say = "Crafting an environment that only benefits carriers such as herself... I'd expect nothing else from that crafty woman.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然我也不会受影响，不过单靠我一个人实在势单力薄，如果{namecode:96}在就好了。",
+			say = "Oh, I almost forgot, I'm also a carrier, so it won't affect me negatively. Now if only Zuikaku were here, *sigh*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "回想起来，{namecode:96}会被临时调走正是因为收到了{namecode:84}大人的命令。",
+			say = "By the way, Musashi was the one who ordered Zuikaku to pay a visit to Iron Blood before this exercise, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:84}大人难道从那时开始就开始算计了么？！",
+			say = "*gasp*... Do you think she purposefully did that to split us up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不至于吧，只是一盘棋而已……为了在一盘游戏上取得优势而特意准备作战任务，也太小家子气了。",
+			say = "I think you're overthinking things... This is just a naval exercise, isn't it? Why would Musashi arrange a whole diplomatic move over an elaborate game of Go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "说的也是~与前辈不同，{namecode:84}大人可不是这么小家子气的人。",
+			say = "Musashi never struck me as that kind of person, but when Akagi is involved, you never know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可是这样也改变不了我们处在困境中的现实哦。",
+			say = "It wouldn't surprise me if some of that vixen's craftiness rubbed off on Musashi... Though, I suppose I shouldn't be throwing baseless accusations around...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "确实战况不妙……我和{namecode:72}都是战列舰，原本这回合就可以彻底关闭与{namecode:84}大人的边界通道的。",
+			say = "Right, it's hard enough to focus on what's going on in front of us. We can't see Musashi's fleet through all the fog...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "现在由于海雾的影响，恐怕需要非常好的运气才能做到了。",
+			say = "If Musashi takes advantage of the fog to slip her forces closer to us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信汝等都看到突然出现的海雾了，鉴于现状，吾必须要改变原定的作战计划。",
+			say = "Listen well, everyone. I shall now tell you our countermeasures for Akagi's sea fog.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "本回合放弃进攻与{namecode:84}区域相邻的边界据点GH56。",
+			say = "Haruna will patrol the territory adjacent to Musashi's forces after capturing the base there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:72}进入上回合攻下的据点IJ56，{namecode:71}移动至I5，保持对于{namecode:84}的压力。",
+			say = "Hiei, Kawakaze, and Harutsuki will retreat to provide backup for Shoukaku while fending off Musashi's fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:158}移动至H5，{namecode:157}移动至G5，防范{namecode:84}可能的入侵行动。",
+			say = "We must prevent Musashi from taking the Sacred Sakura under the cover of fog.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:95}就近进入IJ12据点控制区I2。",
+			say = "Shoukaku will solidify her position using our mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾将上回合利用「荣耀之传承」获得的额外行动分配与汝，并使用新的指挥卡为汝提高伤害。",
+			say = "I already know what Akagi seeks to do, but if I were to disclose it, she would change her actions accordingly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "汝一人配合量产型，将小据点IJ12拿下，以上。",
+			say = "Remain vigilant, but carry out the instructions I just gave you. Take control of the surrounding bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg7",
 			hidePaintObj = true,
-			say = "{namecode:74}的话语结束后，{namecode:95}身上瞬间被两种光芒所覆盖。",
+			say = "When Nagato's voice disappeared, new symbols appeared around Shoukaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哇哦……上回合{namecode:157}失去的行动力加在{namecode:95}身上了！",
+			say = "Wow... This must be the protection of the gods... I mean, of the Guardian Fox!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 304030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不止如此，{namecode:74}大人还使用指挥卡「总旗舰之令」大幅度提高了{namecode:95}的伤害！",
+			say = "Since Shoukaku is the core of Nagato's strategy this turn, she's being funneled all our power and resources!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如此奇妙的感觉……这些难道不应该只是演习规则的设定么……",
+			say = "(I feel a tremendous amount of power welling up within me... What exactly IS this exercise area?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "为什么我感觉此刻，自身正充盈着力量……",
+			say = "(Does nobody else feel something strange about this? How are we supposed to get any practical training done when you can \"will\" incredible power into existence here?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_wuzang_bg7",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "以现在的状态，一个人拿下一座据点感觉也绝非不可能的事，放心交给我吧！",
+			say = "(Well, I'll worry about it later. Maybe the Commander knows a thing or two about what's going on~)",
 			painting = {
 				alpha = 0.3,
 				time = 1

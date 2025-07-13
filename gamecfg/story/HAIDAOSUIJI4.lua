@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgm = "main-SeaAndSun",
-			say = "山峦的悬崖旁边，和可畏一起散步。洁白的云雾在脚下荡漾，这里风景正好。",
+			say = "Formidable and you are walking along the cliffs of the mountain while a white mist ripples beneath your feet. The view from here is astonishing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,7 +17,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "只是……一抹扎眼的橙色出现在了视线当中。",
+			say = "That's when all of a sudden, you catch sight of an orange rectangle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "似乎是个新设不久的警示牌，静静地矗立在远处的悬崖边上。",
+			say = "It's in the distance, but if you had to guess, it's a warning sign that was put up recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 207050,
 			dir = 1,
-			say = "欸，那个是……唔，这里云雾有点大，看不清楚上面写的是什么呢。",
+			say = "Hmm... I can't make out what it says on account of this mist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，我靠近点看看上面的内容好了——",
+			say = "I'll get a bit closer and try to read it, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "——提醒可畏小心脚下。",
+					content = "Just watch your step.",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			actor = 207050,
 			dir = 1,
-			say = "知道咯。嗯，我看看……",
+			say = "I will. Now let's see here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			actor = 207050,
 			dir = 1,
-			say = "“岩基不稳，当心坠落……？”",
+			say = "\"Unstable foundation. Beware of rockslides\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——伴随着一声吓人的开裂声，可畏脚下的土地开始出现裂纹，然后——",
+			say = "There is an ominous cracking sound, and suddenly, the ground beneath Formidable's feet collapses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "诶诶诶诶诶！！！！——————",
+			say = "Aaaahhhh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "是谁把这种警示牌放在这么靠近悬崖的地方的啊——！！！",
+			say = "Oh! *pant*... *pant*... Thank goodness there's a vine here, or else I'd been done for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 207050,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……还好抓住了悬崖上的藤蔓……指挥官，快过来帮帮我啊————！！！！",
+			say = "That sign is worthless where it's placed now! ...C-Commander, come and help me up!",
 			painting = {
 				alpha = 0.3,
 				time = 1

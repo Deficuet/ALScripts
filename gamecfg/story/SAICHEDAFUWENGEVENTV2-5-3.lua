@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "帮助契卡洛夫验证了新研发的赛车装备，获得了奖励【五星装备设计图纸*6】"
+			say = "You and Chkalov performed an inspection on a new car model. You received six SR gear blueprints!"
 		}
 	}
 }

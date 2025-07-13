@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}看起来好像有点疲惫，没什么精神呢？一定是工作太累了吧……",
+			say = "My honourable {dorm3d}, you seem to be rather listless. Your work must have taken a toll on you, I assume.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,14 +52,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，天狼星这里有一个能让{dorm3d}快速恢复精神的技巧哦！",
+			say = "I know just the thing that could raise your spirits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "什么技巧？",
+					content = "What would that be?",
 					flag = 1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是——在感到疲惫的时候，立刻洗个热水澡！",
+			say = "A bath! Bathing is the quickest way to relieve fatigue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星现在就来侍奉{dorm3d}沐浴吧！……就从帮您脱掉衣服开始！",
+			say = "I shall prepare a bath for you right away! Let's start by undressing you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -110,6 +110,7 @@ function var_0_0.Ctor(arg_8_0, arg_8_1)
 	arg_8_0.commanderBagMax = arg_8_1.commander_bag_max
 	arg_8_0.displayTrophyList = arg_8_1.medal_id or {}
 	arg_8_0.banBackyardUploadTime = arg_8_1.theme_upload_not_allowed_time or 0
+	arg_8_0.rmb = arg_8_1.rmb or 0
 	arg_8_0.identityFlag = arg_8_1.gm_flag
 	arg_8_0.mailStoreLevel = arg_8_1.mail_storeroom_lv
 

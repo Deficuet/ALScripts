@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_kagura_2",
-			say = "镜面海域・第二扇门",
+			say = "Mirror Sea - The Second Door",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "紫小姐、夕烧小姐、还有{namecode:449:埃尔宾}、{namecode:461:吕佐夫}和我一起负责这扇门……没问题吧？",
+			say = "Murasaki, Yūyaki, Elbing, Lützow, and I make up the team for this door. Everyone cool with that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你既然问可不可以……那有意见也可以说吗？",
+			say = "Cool as a cucumber... Am I free to complain, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说是可以说啦……不过就算说了可能也只会得到一个“稍微忍耐一下”这样的回答哦？",
+			say = "You are, but it's not gonna change anything. Only response you'll really get is, \"Just put up with it for a while.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就，没有什么问题了……（呜呜……好想回去……）",
+			say = "*whimper*... I wanna go home... I mean, no objections here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 11000070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要能让我大战一场，我就没问题哦！",
+			say = "Won't hear me complain as long as I get to grind some foes to dust.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊哈哈，那你可以尽管放心。肯定会有数不尽的战斗在等着你的。",
+			say = "Uh... Yeah, you can bet on it. There'll be so much dust-grinding that you'll get sick of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………嗯。",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……像这样突然间就完全改变了性格，果然很难习惯呢。",
+			say = "Man, I'm still not used to her switching personalities at the tip of a hat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一具身体被两个人所共有……想象成这种感觉……就可以了……",
+			say = "Think of it as... two people sharing the same body.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 404040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一开始见到的时候确实把我吓了一跳，不过听完原因后其实也能理解啦。",
+			say = "It shocked me the first time I saw it for myself, but now that I know why she's like that, I get it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 404040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就和队伍里有一对性格不同的双胞胎差不多嘛。",
+			say = "You can think of it like being around a pair of twins with opposite personalities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "（其实差远了……{namecode:448:埃姆登}，也许可以理解吧。）",
+			say = "(It's not really anything like that, but... Perhaps Emden would understand...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 11000070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别嘀咕了，赶紧出发吧！趁那些家伙改变主意之前把问题解决掉吧！",
+			say = "Enough yackety-yak, we've got skulls to crack! I wanna finish this before she changes her damn mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，好的好的。那我们出发吧~！",
+			say = "Oh, okay. Let's get in there, girls!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_kagura_2",
-			say = "一段时间后，第二扇门内——",
+			say = "Sometime later...",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -289,7 +289,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说实话……其实我并不想来这种地方……只要我出门就不会发生什么好事……",
+			say = "In truth, I'd rather not be in this place... Nothing good ever happens when I go anywhere.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是，想尽量待在家里……强行让自己行动…效率也会变低……",
+			say = "Same. I'd rather be alone in my room all I can... Forcing myself to move around is inefficient.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以说……我觉得无论什么时候，都应该允许居家学习和居家修行",
+			say = "That is why I should be allowed to always study and train in the comfort of the indoors...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "赞同，反正我就算战斗也很可能输……能不能就让我在家中待机呢？",
+			say = "Plus, there's a good chance we'd lose if I fought in the battle anyway... Can I go home and wait for the rest of you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 11000070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂！别在战斗中做白日梦啊！至少这种时候好好认清现实吧！",
+			say = "Hey, losers! Stop daydreaming during combat! At least face reality this one goddamn time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你那里有没有适合躲起来的忍术？",
+			say = "...Do you know any ninjutsu that conceals you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "藏身术……之类的么？那“叶隐术”或者“鹌鹑隐术”如何？",
+			say = "You mean... camouflage? Like the technique known as leaf hiding, or another called quail hiding?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "忍者的任务就是隐匿……所以有很多藏身的技巧哦……",
+			say = "Subterfuge is the mission of a shinobi, so we have countless ways of hiding ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是躲避水面搜索的话……可以伪装成水草隐藏在水下，也就是“狐隐术”。不过如果搜寻者来自水下的话……要怎么做呢？",
+			say = "Water-related concealment options are... blending in among aquatic foliage and a technique called fox hiding, among others... It's when you hide underwater with only your head poking out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水下的话……我有听潜水艇的伙伴们说过，只要不发出声音静止不动就能躲避敌人搜索之类的……",
+			say = "Under the water? That reminds me, submarine shipgirls say you should stay still to avoid making any noise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……对我们来说，在水下躲藏还是稍微有些困难的……",
+			say = "For us surface shipgirls, though... diving underwater isn't exactly in our toolkit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总是不遂人愿呢……",
+			say = "That's unfortunate...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能如此公开讨论该怎么偷懒的你们，真的很厉害……！",
+			say = "It's astonishing how brazenly you girls talk about getting out of doing any work...",
 			painting = {
 				alpha = 0.3,
 				time = 1

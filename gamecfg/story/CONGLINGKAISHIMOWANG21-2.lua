@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			actor = 201233,
 			side = 2,
 			nameColor = "#FF9B93",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			live2d = "main1",
-			say = "呵，就凭汝等这点三脚猫的功夫还想困住身为完美究极吸血鬼的吾？",
+			say = "Hah! Is that all? Thou think this will hold back the unsurpassable vampire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			expression = 2,
 			side = 2,
 			actor = 201233,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "降临吧，吾的使魔们，赐予这群不知天高地厚的凡人永恒的解脱吧——！",
+			say = "I summon thee, my minions! Give these impudent humans sweet, eternal release!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,9 +107,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "有翼啾莱姆群",
+			actorName = "Winged Slimejuu Herd",
 			nameColor = "#A9F548FF",
-			say = "翼啾——翼啾————！",
+			say = "CHIRP CHIIIRP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,8 +165,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "独角兽、利物浦，注意魔法值管理，优先使用消耗少的持续性回复。",
+			factiontag = "Commander",
+			say = "Unicorn, Liverpool! Keep your MP consumption under control and try to stick to healing over time spells with minimal mana cost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "努比亚人，使用群体性伤害的爆裂魔药攻击魔物群。",
+			factiontag = "Commander",
+			say = "Nubian, throw every last explosive potion you have at that flock of monsters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,8 +187,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "谢菲尔德和{namecode:460:塞德利茨}，优先使用远程火力将落单的魔物逐个击杀。",
+			factiontag = "Commander",
+			say = "Sheffield, Seydlitz, focus on eliminating isolated monsters from afar, one at a time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,8 +198,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "贞德留在回复阵内，只处理突入身边的敌人。",
+			factiontag = "Commander",
+			say = "Jeanne d'Arc, stay within the healing circle and deal with any monsters that come close!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,8 +209,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "抚顺也是，注意阵型，别一个人冲得太远！",
+			factiontag = "Commander",
+			say = "Fu Shun, get back in formation! You're overextending!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 			expression = 2,
 			side = 2,
 			actor = 201233,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "呵，还真是密不透风啊。",
+			say = "Heh. Not giving me any openings, are thee?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,10 +255,10 @@ return {
 			actor = 201233,
 			side = 2,
 			nameColor = "#FF9B93",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			live2d = true,
-			say = "小队指挥……看吾先解决了汝——！",
+			say = "I shall deal with thou first, leader of this party!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,8 +281,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "——终于上钩了。",
+			factiontag = "Commander",
+			say = "She's finally taken the bait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "不枉我大声指挥了那么久。",
+			factiontag = "Commander",
+			say = "Yelling my orders for all to hear was the winning move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "就在吸血鬼向我笔直冲来之际，她触碰到了吸血鬼女仆在消散前设置的陷阱。",
+			say = "The vampire comes charging straight toward me... and springs the trap that the maid laid before she left this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,22 +328,22 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "随即——时间停止了。",
+			say = "Then everything stops. Time is frozen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "竟然是时间停止魔法？！",
+					content = "What?! Time-stopping magic?!",
 					flag = 1
 				},
 				{
-					content = "果然是时间停止魔法！",
+					content = "I knew that trap was going to be good!",
 					flag = 2
 				},
 				{
-					content = "THE——WORLD",
+					content = "ZA WARUDO!",
 					flag = 3
 				}
 			}
@@ -352,9 +352,9 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			optionFlag = 3,
-			say = "时间啊——停止吧！",
+			say = "Toki yo, tomare!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,10 +364,10 @@ return {
 			actor = 201233,
 			side = 2,
 			nameColor = "#FF9B93",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			live2d = true,
-			say = "可、可恶……身体动不了……",
+			say = "My... body... I can't move!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,10 +398,10 @@ return {
 			actor = 501020,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			hidePaintObj = true,
-			say = "这样就——结束了！",
+			say = "Say goodnight, vampire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,10 +415,10 @@ return {
 			actor = 201233,
 			side = 2,
 			nameColor = "#FF9B93",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
 			live2d = true,
-			say = "可恶啊————！",
+			say = "Damn you, humaaans!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "就这样，魔王军的全部三座据点都被摧毁了。",
+			say = "Now, all three of the Demon King's bases have been destroyed.",
 			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
@@ -460,7 +460,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "我依靠光明之加护的力量，净化了大地上的诅咒，让荒芜之地重新焕发了生机。",
+			say = "My Blessing of Light repels the wretched curse, restoring life to the Wasteland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,12 +470,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最开始我只是以为遇到了又一批鲁莽的冒险者……",
+			say = "When I first saw you, I thought you were just another bunch of reckless adventurers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,12 +489,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到你们竟然能做到这一步……",
+			say = "I've never been happier to be proven completely wrong.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,12 +508,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我代表全体吸血鬼猎人，向诸位致以最诚挚的谢意。",
+			say = "On behalf of all vampire hunters, thank you for all you've done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,11 +527,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吸血鬼猎人将永远是诸位的盟友。",
+			say = "If you ever need assistance, we will always answer your call.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,12 +545,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此间事毕。接下来，我们需要前往世界各地告知其他猎人王都沦陷日的真相。",
+			say = "Now that our battle here is over, we're going to spread out and tell other hunters the truth of what happened to the city all those years ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,11 +564,11 @@ return {
 			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们必须要暂时分别一段时间了。",
+			say = "As such, I doubt we will see each other for a short while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,12 +582,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我没有什么能够代表吸血鬼猎人整体的信物能够给你们。",
+			say = "I'm afraid we don't have any items to give you to express our gratitude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,12 +601,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "Vampire Hunter",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过请你们放心，当你们和魔王决战的时候——",
+			say = "But we can give you something else – our word. When your battle with the Demon King comes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,13 +618,13 @@ return {
 		},
 		{
 			hideOther = true,
-			actorName = "谢菲尔德&塞德利茨",
+			actorName = "Sheffield & Seydlitz",
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			side = 0,
-			say = "吸血鬼猎人一定在场！",
+			say = "We will come to your aid!",
 			subActors = {
 				{
 					actor = 404031,

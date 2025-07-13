@@ -16,7 +16,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "前方发现塞壬人型单位！看起来像是执行者系列……不过是没有记录过的型号？",
+			say = "I've spotted a humanoid Siren! It looks to be... a new model entirely.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "这么快就发现了新型敌人么……有点意思。",
+			say = "Surprised we've come across a new Siren model already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真希望我们的舰装翻新也能跟上敌人型号的进化速度啊……",
+			say = "Wonder if our attacks'll work on it... Good opportunity to find out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "比如爆破拳套之类的！",
+			say = "Should I blast it, or go in for a punch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "现在不是做梦的时候吧，说回正题——",
+			say = "Neither, you idiot! Let's not tempt fate! Moreover, something is strange with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "发现的塞壬执行者好像是孤立个体，没有看到周围有更多敌人存在。",
+			say = "It's alone. Usually Sirens come in groups, don't they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "好耶，那就把它打爆之后回去研究一下！",
+			say = "Looks like it's on wreck-retrieval duty or somethin'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "塞壬从来不孤立行动。尤其是执行者系列……不对劲。",
+			say = "Don't take that for granted. Sirens, especially humanoid ones, hardly ever work alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "没错，{namecode:464}阁下！我在水下发现了借助残骸隐藏起来的塞壬舰队，前面是个陷阱！",
+			say = "Heads up, Ulrich! I've spotted functioning mass-produced Siren ships among the wrecks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "哎，不会吧！用这种方法逃过我的侦察机么？",
+			say = "What?! Agh! I must be blind for somehow missing those!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从来没见过只靠执行者和量产型就能执行复杂战术的塞壬啊……",
+			say = "Hey, don't beat yourself up. Anyone could hide a ship among this many wrecks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "也许是型号改进的特点，也许是有隐藏起来的指挥者吧。",
+			say = "This either means these Sirens are capable of using tactics, or that they have a command unit leading them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "果然有点意思。迎战还是绕开？",
+			say = "Whatever the case, what are your orders, Ulrich? Fight, or flee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "塞壬侦察系统比我们先进，设下陷阱的同时也就意味着早就发现我们了。",
+			say = "Supposing they're lying in ambush for us, they must possess sensor equipment outranging ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "在敌人面前撤退只会让情况变得更麻烦。",
+			say = "Ergo, avoiding them is not an option. Prepare to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "那就是战斗了~哼哼，进入奇异点后的第一战，让这里的塞壬也见识一下我们铁血舰队的厉害吧！",
+			say = "Oh sweet, our first-ever battle in a Singularity. Let's mess 'em up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，我同意。舰队排成战斗队形，只不过……用量产型舰队先上。",
+			say = "Hold it. They could be stronger than we expect. That being the case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "敌情不明，首先用量产型试探一下对方的实力！",
+			say = "Send in the mass-produced ships first. We will not waste precious ammunition on Sirens if we can help it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

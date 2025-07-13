@@ -12,7 +12,7 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这一路的“夹道欢迎”可真是热闹啊，帝国的军舰们",
+			say = "I didn't expect such an... extravagant welcome from the Sardegna Fleet...",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "维内托大人吩咐过了，要让皇家的淑女们体验到“不一样的陆间海风情”",
+			say = "Lady Veneto instructed me to show the Ladies of the Royal Navy our Mediterranean hospitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这“卡拉布里亚的宝石”还真是名副其实啊，搞了那么大的阵仗…",
+			say = "(What is this \"Jewel of Calabria\" that Her Majesty spoke of...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			actor = 207050,
 			dir = -1,
-			say = "呜，实在是不想弄脏这套最喜欢的衣服呀——",
+			say = "W-wait! You're going to get my new clothes dirty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那么，尊贵的女士，得罪了！",
+			say = "Please forgive me for my indiscretion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

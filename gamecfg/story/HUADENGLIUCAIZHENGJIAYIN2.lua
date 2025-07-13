@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>松戏梅·其一</size>",
+					"Myriad Colors of the New Year\n\n<size=45>Frolicking Flowers, Verse I</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——",
+			say = "Walking into a room, I smell fresh ink in the air. I presume someone is writing Spring Festival couplets... which isn't entirely right.",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼~",
+			say = "Heheh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,9 +68,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "肇和",
+			actorName = "Chao Ho",
 			side = 2,
-			say = "喂！应瑞，你刚刚在偷笑对吧？",
+			say = "Hey! I heard you laugh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有哦。",
+			say = "Laugh? You're just imagining it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "肇和",
+			actorName = "Chao Ho",
 			side = 2,
-			say = "明明就是在偷笑吧！我在桌下都听见了！",
+			say = "I know what I heard! You clearly snickered up there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,26 +121,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "肇和",
+			actorName = "Chao Ho",
 			side = 2,
-			say = "绝对是你在捣鬼……真是的……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 502042,
-			side = 2,
-			bgName = "star_level_bg_144",
-			live2d = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "比起这个……新年快乐，指挥官~",
+			say = "That confirms it – you're playing a prank on me. Ugghh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +140,24 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。",
+			say = "Ahem... Happy Lunar New Year, Commander.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 502042,
+			side = 2,
+			bgName = "star_level_bg_144",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Sister, you should finish up down there before the Commander sees you in a rather shameful pose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,9 +173,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "肇和",
+			actorName = "Chao Ho",
 			side = 2,
-			say = "啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！",
+			say = "The Commander's here?! Since when?! Err... Happy Lunar New Year!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			},
 			options = {
 				{
-					content = "看向应瑞",
+					content = "\"What are you up to, Ying Swei?\"",
 					flag = 1
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~如指挥官您所见，我们正在……嗯，写春联？",
+			say = "Heehee. Nothing you should worry about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对，没错，写春联哟。至于现在的状况……呵呵，不必在意~",
+			say = "More specifically, I'm writing couplets, as I'm sure you can tell.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请您在旁边稍微休息片刻，静待事情的发展就好。",
+			say = "Feel free to take a seat and watch while I finish up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您说肇和吗？呵呵，她负责的工作是……春联的装饰。",
+			say = "What about Chao Ho? Ah, she's in charge of putting up the ornaments.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，她现在似乎遇到一点小小的麻烦了呢。",
+			say = "Though it does seem she's having... a bit of trouble, let's say♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你手上拿着的是……？",
+			say = "\"What are you doing with that joystick?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是能为春节增添一点点意料之外的情趣的东西。",
+			say = "Heehee. Oh, just having a little bit of innocent fun, I suppose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘，指挥官。有时候知而不言也是一种智慧哟。",
+			say = "Shhh. As the proverb goes, \"he who knows, does not speak.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,9 +339,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "肇和",
+			actorName = "Chao Ho",
 			side = 2,
-			say = "啊！真是讨厌！！这小东西跑得太快了吧……快把装饰还给我！！！",
+			say = "Come ooon! Stop running away, you little pipsqueak! Get back here with my ornament!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			},
 			options = {
 				{
-					content = "可怜的肇和……",
+					content = "\"Just don't take the prank too far.\"",
 					flag = 1
 				}
 			}
@@ -369,7 +369,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就当做春节故事上一抹华丽的点彩好了~",
+			say = "Of course not. I only want to leave you with a lovely memory from us both.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，劳烦您继续美好的春节游园之旅吧~",
+			say = "On that note, I hope you'll enjoy the rest of the Lunar New Year, Commander♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

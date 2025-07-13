@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "说起来之前确实没聊过这个话题呢。",
+			say = "Come to think of it, we don't talk about this much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "果然还是帮派片吧，嘿嘿，怎么，很意外吗？",
+			say = "But for me, it's gotta be gangster flicks. Heheh, does that surprise you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "biu~直接射中你的心，很酷吧？",
+			say = "Bam! Right through your heart. Isn't that the coolest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

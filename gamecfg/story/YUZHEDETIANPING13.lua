@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"撒丁帝国所属",
+					"Sardegna Empire - Taranto",
 					1
 				},
 				{
-					"塔兰托·调度管理中心",
+					"Immediately after the Gazer appearance",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不得了啦！天上下蘑菇孢子了！",
+			say = "Whoooa! Giant dandelions are falling from the sky!",
 			bgm = "story-clemenceau-judgement",
 			action = {
 				{
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才不是蘑菇孢子！不过是什么……我也不知道。",
+			say = "Whatever those are, they're obviously NOT dandelions!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜啊……没听说塞壬袭击的时候会丢这些恶心的东西……",
+			say = "Bleehhh... Since when did the Sirens start fielding disgusting weapons like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "港口周边已经一团乱了，维内托大人和利托里奥大人也都联系不到。",
+			say = "The area around Taranto is a mess... Worse yet, I can't get in touch with Veneto or Littorio.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "阿布鲁齐公爵，我们该怎么办，要紧急出击么？",
+			say = "Abruzzi, don't you think we should set out to battle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "情况不明，我们不宜贸然行动。",
+			say = "No. Best not to jump the gun before we know what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			actor = 602010,
 			side = 2,
-			say = "在这方面我们吃过的教训实在是够多了。",
+			say = "Rash decisions have cost us too many times in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说的也是……或许一会情况明晰之后，就会有命令下来了。",
+			say = "Good point... Then hopefully, someone will contact us very soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,9 +169,9 @@ return {
 			nameColor = "#ffff4d",
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			stopbgm = true,
-			say = "滴————",
+			say = "BEEP—",
 			bgm = "theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "元老院呼叫塔兰托港，有人能收到么？",
+			say = "This is Marco Polo. Do you read me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "这个声音，是马可波罗阁下？",
+			say = "Oh! It's you, Marco Polo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "太好了，这里是天鹰，马可波罗阁下，您现在是在会场对吧？",
+			say = "Thank goodness. This is Aquila speaking. Are you still at the World Expo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在情况如何，发生什么事了？",
+			say = "How's the situation over there? Do you have any idea what's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "你们应该已经见到异变的发生了。",
+			say = "I had a feeling you knew something bizarre is happening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "正如你们所见，撒丁帝国全境目前都处于紧急情况之中。",
+			say = "As you can already tell, all of Sardegna is in serious danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "鉴于目前之状况，元老院已经授予我处理眼下事态的全部权限。",
+			say = "In accordance with the state of emergency protocol, I am tasked with resolving this situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "从现在起，包括舰队指挥权在内，撒丁帝国的所有国防军事力量均受我统率，直至紧急状态解除。",
+			say = "Until the state of emergency is lifted, all military forces in and around Sardegna are under my command.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "因此，我要求塔兰托舰队服从命令，做好战斗准备，前往博览会会场。",
+			say = "Aquila, you and everyone else at Taranto are to head to the Expo immediately, prepare for battle, and wait for further instructions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "是要救援会场么？当然没问题。",
+			say = "To provide rescue and relief efforts? Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过维内托大人呢？她不是和您一起在会场么？为什么元老院没有按照顺位授权给维内托大人？",
+			say = "Actually, wait... If I remember right, Veneto takes precedence over you on the chain of command on the state of emergency protocol...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "如果可以，能叫维内托大人报个平安么？",
+			say = "What happened to her? Did she confer authority to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "维内托、维内托、维内托……怎么到处都一个样。",
+			say = "Veneto this, Veneto that... It's always about her, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "就是这样，我才非选这条路不可……",
+			say = "That's precisely why I've chosen this path.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "我对你们没兴趣了。再也不见。",
+			say = "You know what? Screw all of you! Hmph!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,11 +465,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "欸？挂、挂断了……",
+			say = "Hm? H-hello? Marco Polo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "到底是怎么回事她也不说清楚……",
+			say = "Aren't you going to tell us what's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "回拨拨不通……看来，帝国内部也许正在发生某些我们不应该插手的事。",
+			say = "It seems safe to say something quite bad is going down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过很明显，帝国现在确实处于紧急状态",
+			say = "It'd be one thing if this was just another quarrel between them, but this clearly goes way beyond any feud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			actor = 602010,
 			side = 2,
-			say = "这些正在扩散的，如同菌毯一般的白色物质，怎么想都不会是怀着友好目的来的。",
+			say = "That strange substance continues to spread even as we speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			actor = 601060,
 			side = 2,
-			say = "不好啦！",
+			say = "Bad news! Really bad news, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			actor = 601060,
 			side = 2,
-			say = "达雷科船长发现了一个巨大的三脚机器人！它还在喷洒白色的雾气！",
+			say = "Look outside! Some ginormous three-legged robot appeared out of nowhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			actor = 601060,
 			side = 2,
-			say = "而且，它好像直接冲我们来了！",
+			say = "It's releasing a white mist everywhere, and it's coming towards us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "白色的雾气…………",
+			say = "A white mist? It can't be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			actor = 602010,
 			side = 2,
-			say = "原来如此，看来这就是越来越多白色物质出现的原因了。",
+			say = "That robot must be the source of the spore-like substance gumming up the sky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607010,
-			say = "保护我们的海军基地，准备迎敌！",
+			say = "Abruzzi! Da Recco! Let us prepare for battle at once!",
 			painting = {
 				alpha = 0.3,
 				time = 1

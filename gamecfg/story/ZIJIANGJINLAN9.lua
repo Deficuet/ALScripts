@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg5",
 			stopbgm = true,
-			say = "大棋盘·{namecode:91}控制区 第三回合",
+			say = "Exercise Area - Turn 3 (Akagi's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			say = "伴随着事件「海雾弥散」的触发提示，棋盘中的所有水域上都凭空出现了一层厚厚的海雾。",
+			say = "At the start of Akagi's turn, a cloud symbol appeared above the exercise area, blanketing the entire domain in a thick sea fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呜哇！起雾啦……！出、出什么事了！",
+			say = "Wh-wh-where'd all this fog come from all of a sudden?!",
 			effects = {
 				{
 					active = true,
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "别慌，这就是事件卡，从第三回合往后，在每次回合开始时都会出现一次。",
+			say = "This symbol must be a manifestation of Akagi's will.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "根据规则，大前辈、{namecode:74}大人、{namecode:91}大人、{namecode:84}大人每人都为此设计了两张。",
+			say = "As far as I can tell, the sea fog is spreading through the entire exercise area... Akagi has already used two special commands, so we've got to make the most out of this powerful effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我大概明白了！这个海雾是类似塞壬那种能对我们的造成通讯干扰之类的东西嘛？",
+			say = "Um, are you sure we're going to be fine? Don't the Sirens usually deploy sea fog like this before launching an attack?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那你现在是在用什么跟我们说话的……",
+			say = "Yes, which is why we should check on our communication equipment. Siren sea fog almost always has a jamming effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们现在看到的这片雾气，只是使用了海雾这个形式进行表现的其他东西而已。",
+			say = "All my communication equipment, sensors, and electronics are operating normally. This seems to be nothing more than ordinary fog.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "其具体效果都是按照设计者的喜好设定的，与你们以前见过的塞壬海雾完全不同。",
+			say = "Well, it's too early to make that conclusion. If this is a manifestation of Akagi's will, she must be trying to secure a significant advantage for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然棋中之人无法了解事件卡的具体效果，不过这张卡是{namecode:91}设计的，所以我很清楚。",
+			say = "I know Akagi better than anyone else. She is trying to create a situation ideal for our carriers, something that the other players cannot take advantage of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在海雾弥散的回合，所有非舰载机武器受到强烈干扰，且所有人的阻碍效果消失。",
+			say = "The fog is thin, sitting just above the water's surface. It does not interfere with our ability to operate carrier-based aircraft, and our planes will be free from the fog's effects as soon as we launch them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阻碍消失可是个好消息，我们不用因为注意阵型而绕远路了。",
+			say = "But the fog is still dense enough to prevent the others from reading our movements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不错，在阻碍消失后，所有人都可以无视他人的控制区，就算借机直接穿越非友方侍从占据的海域也是可行的。",
+			say = "Indeed. We will now be able to secretly capture surrounding bases without committing as many resources to each one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是诸位，切忌因此而得意忘形。在自己行动结束之后，一定要停在空旷的海域格内。",
+			say = "With the exception of the central tower and the strongholds, individual nodes only have low-ranking humanoid enemies and can be easily defeated by any of us alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 301040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为侍从，一切听从{namecode:91}大人的安排就是了。",
+			say = "Th-then, I'll go towards Mikasa's forces to try to capture the base between her and Lady Nagato...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "棋局之中的我们是无法违抗命令的，{namecode:92}大人为什么要特意嘱托呢？",
+			say = "I, I'd rather not go alone, but if Akagi wants us to divide and conquer, then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“侍从必须按照大将指令行动”这一规则，仅仅适用于大将还未入场的时候。",
+			say = "You'll be fine, Miyuki. I'll cover you from a distance if necessary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果大将进入了棋盘之中，情况就要发生些许变化了……",
+			say = "Under this arrangement, our forces will be spread thin and we won't always be able to help each other out. But, Akagi always has THAT option.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:92}大人的意思是……？",
+			say = "What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 307020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感觉姐姐很快就要亲自进场大闹一番了，到时候的形势也许又要发生变化吧……",
+			say = "During this exercise, the players have the advantage of not only being able to survey the entire battlefield, but can also observe their opponents to try to gain a mental edge over them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "话说远了……现在我方的舰载机最多，受到海雾的影响最小。",
+			say = "However, they may also choose to give up those advantages and directly enter the battlefield to assist their forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_wuzang_bg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "借助天时，继续扩大我们的优势吧——",
+			say = "That's right. If Akagi wishes to take matters into her own hands, she too will descend upon this battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1

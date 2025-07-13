@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这一次的舞台边，居然是META同伴的立牌啊。",
+			say = "Looks like this vote is all about META shipgirls.",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……不光是身为同伴的META，不是同伴的也混进来了！",
+			say = "And not just METAs we see every day. There are some who don't live here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是了不起的投票……",
+			say = "Imagine that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果成为了人气第一，她们会来领奖么……？",
+			say = "Do you think first place will appear at the award ceremony?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应、应该不会吧……毕竟塞壬那一次也没人来。",
+			say = "I doubt it. The winning Siren didn't show up, did she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是来了的话……就让指挥官想办法吧！",
+			say = "But on the off chance the winner does show up, the Commander can handle it!",
 			painting = {
 				alpha = 0.3,
 				time = 1

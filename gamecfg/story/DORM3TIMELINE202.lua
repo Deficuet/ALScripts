@@ -26,7 +26,7 @@ return {
 							options = {
 								{
 									{
-										content = "走吧"
+										content = "Let's go."
 									}
 								}
 							},

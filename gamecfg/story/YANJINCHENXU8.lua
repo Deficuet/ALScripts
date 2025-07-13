@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_2",
 			stopbgm = true,
-			say = "一番鏖战后，曾经如怒涛般汹涌而来的棋子大军，终于土崩瓦解。",
+			say = "Working together, the investigation team and Richelieu's fleet led the Pawns out of the Basilica and dispatched every last one of them.",
 			bgmDelay = 2,
 			bgm = "theme-kerguelen",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩，一定要仔细地打扫战场，不要放过任何一个还能动的棋子。",
+			say = "Béarn, inspect the Pawns one at a time and ensure they're neutralized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807010,
-			say = "那是自然。这个地方与我也算有缘，请您放心吧。",
+			say = "As you command, Cardinal. I will personally examine the Basilica's Sacraments later as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "接下来就是……",
+			say = "Thank you for aiding us, Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "真是漂亮的战斗啊~想不到多年未见，您依然身手不凡呢，黎塞留大主教（鼓掌声）",
+			say = "No, thank YOU. We're in your debt for saving Argus and Royal Oak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "自上次伊比利亚一别，确实有一段时间了。",
+			say = "Please, think nothing of it. You are our allies, and we are yours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "听说你在回到本土之后就一直在进行舰装的升级改造，直到不久前才作为安塔迪卡舰队的旗舰被调动到附近？",
+			say = "Argus told me you're leading the investigation into this Basilica. Is that correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没错，大主教真是一如既往地消息灵通。",
+			say = "Why, yes, I am.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "此次多亏您及时出手相救，才没有让危机继续恶化，我代表皇家海军向您致以最诚挚的感谢。",
+			say = "It's been a bumpy ride thus far, but that's about to change now that you're here, Cardinal. It's an honour.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然大家是盟友，事情又发生在鸢尾教国的领土上，我出手帮忙自然是分内之事，何须客气呢，怨仇女士。",
+			say = "The honor is all mine. I've wanted to join the Royal Navy in battle again ever since the incident with the Skybound Basilica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那我就不客气了~",
+			say = "(The Skybound Basilica? I suppose that's the one Illustrious spoke about.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实大主教，我有一事不明，还希望您能帮我解惑一下。",
+			say = "Well... Now that you're here, I might as well spill the beans.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但说无妨。",
+			say = "Spill what beans, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "您驻扎在阿非利加，我驻扎在安塔迪卡。",
+			say = "That Her Majesty kept this investigation a secret from you until our fleet had already embarked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "再加上海域中存在的通讯干扰，您是怎么做到提前收到求救信息，并赶在我们前面抵达这里的呢？",
+			say = "Despite that, you somehow arrived at this Basilica at nearly the same time as us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "原来如此……你会有这样的疑惑也很正常。",
+			say = "Oh, I see. If you're confused, I can explain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "不过此处的圣堂毕竟是我鸢尾教国的造物，从圣堂中发出的消息除了会走常规途径传出之外，我们还有其他的接收手段。",
+			say = "Truth be told, I also set out to investigate these islands as soon as I heard that Vichya had withdrawn its forces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我就是利用这些特殊仪器比你们更早收到这里发出的求援信息的。",
+			say = "Then, when we heard the SOS signal coming from the Basilica, we used special instruments to amply it before rushing to the rescue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，我们银底洋巡逻舰队收到的求援信息其实是你转发的对吧？",
+			say = "Amplify it? To what end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……银底洋巡逻舰队？你是在指什么事呢？",
+			say = "Your patrol fleets weren't receiving the distress call before we gave it a signal boost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（小声）听好，因为你出手相助，皇家橡树和百眼巨人才能都平安无事……这件事我是真心感谢你。",
+			say = "I see. It seems you've seen right through us, Cardinal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "（小声）所以，这件事就当成求救信号偶然突破了干扰被巡逻舰队接收到好了。",
+			say = "I suppose I should thank you for letting us save face by independently responding to the distress call, rather than alerting us directly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "接下来谈正事。黎塞留，你对这次的事件怎么看？",
+			say = "If you'll pardon me for changing topics, I'd like to propose the idea of making this a joint investigation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "这里曾经是鸢尾教国修建的圣堂，你知道的情报肯定比我多吧。",
+			say = "It's a lot for either of us to handle alone, but it's a different story if we work together. Would you happen to know anything about this Basilica?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "确实如此。虽说它落入维希教廷手中已经有段时间了，不过毕竟也曾是我鸢尾教国的圣堂……",
+			say = "Yes. This place was a sanctuary of sorts for the Iris Orthodoxy, before the Vichya Dominion seized control of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是没想到啊，维希教廷居然如此疏于维护，以至于出现这么严重的事故。",
+			say = "It appears it has suffered numerous breakdowns, owing to not being properly maintained for a long while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "事故？看来大主教对这座圣堂的了解比我想象中还要多呢？",
+			say = "Are those Pawns the result of some breakdown as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "算是如此吧，不过要详细说明就有些复杂了。",
+			say = "Yes, but only broadly speaking. It would take a while to explain it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总而言之，为了解决这次事件，我们还有不少区域要去，边走边谈吧——",
+			say = "Fortunately, I know a solution to the problem. Ladies of the Royal Navy, please follow me.",
 			painting = {
 				alpha = 0.3,
 				time = 1

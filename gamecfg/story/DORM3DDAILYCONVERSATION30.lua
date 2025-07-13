@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION30",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在这里的体验怎么样……？",
+			say = "How do you like living here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +49,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很好哦……因为和您的见面频率和独处时间都大大增加了，所以天狼星觉得很幸福。",
+			say = "It's a fantastic place, made all the better by the fact I get to see you and be alone with you much more than before. I'm very happy here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +61,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过还是有一点不太方便呢。",
+			say = "There is one drawback, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不太方便是指？",
+			say = "What would that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +84,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是……没办法像在指挥室一样，在晚上也侍奉{dorm3d}呢……",
+			say = "Well... That I can't serve you at night, like I can at your office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

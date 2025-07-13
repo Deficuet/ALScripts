@@ -11,7 +11,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看这个在阳光下闪闪发光的黑曜石建筑，这里就是反抗军基地了。",
+			say = "See that building over there made of sparkling obsidian? That's our base.",
 			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然还加装了固定炮台…已经完全要塞化了呢",
+			say = "How'd you get artillery up there?! This is way beyond the definition of \"base,\" it's a straight-up fort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还不是全部哦，更厉害的是，地表的建筑只是伪装，真正的基地本体隐藏在水面之下，要通过特殊通道才能抵达！",
+			say = "Actually, everything above ground is just a decoy, the real base is hidden underwater. You can only enter through a secret entrance, so follow me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利用伪装结构吸引火力，真正重要的部分全部隐藏起来，名副其实的战时秘密基地",
+			say = "The structure above ground draws attention away from the true fortification below ground... Now I see why you call it a secret base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到祭和阿库娅酱的反抗军基地，居然有派上正经用处的一天，世界还真是奇妙啊…",
+			say = "I'm honestly amazed that Aqua's and Matsuri's base would come in handy one day. As that one guy said, life's like a box of chocolates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，那么大家做好准备，首先来跟我一起跳入这个水坑吧~",
+			say = "Alright everyone, take a deep breath and follow me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

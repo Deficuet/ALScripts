@@ -8,14 +8,14 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "当蔷薇塔迸发出第一缕光芒时，我已经抵达了构建者修建的指挥中枢内。",
+			say = "When the tower begins to shine for the first time, I've already taken my place in the command center built by Compiler.",
 			bgm = "story-antix-past",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·构建者指挥中枢",
+				"Rose Tower - Compiler's command center",
 				3
 			},
 			flashout = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "屏幕上代表可用军事力量的部分令我大吃一惊。",
+			say = "The monitor shows an impressive breadth of information on our allied forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……两百多条生产线，一百七十二支量产型II型舰队？！",
+			say = "More than 200 production lines... 172 Type II mass-produced fleets?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一切还要多亏光荣·META。",
+			say = "Thanks to the help of Glorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然她在这么多年来并没有充分利用她所控制的设备，但，至少维护保养得很不错。",
+			say = "She has not fully utilized the facilities under her control, but she has kept them maintained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在得到了蔷薇塔百年来侦察数据的支持后，我又找到了更多此前构建者与清除者留在附近的储备资源和备用计划。",
+			say = "With the reconnaissance data collected over the past hundred years, I've discovered the resource reserves and backup plans created by this world's Compiler and Omitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "预计在六个小时内，我还可以再开动一百条以上的生产线，并修复、新增七十支以上的标准量产型II型混合舰队。",
+			say = "Within six hours, I can start at least 100 production lines and reform at least 70 Type II mass-produced mixed fleets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "很显然，只用了短短几个小时，构建者就已经完成了战争准备。",
+			say = "In a sparse few hours, she would have us ready to go to war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我看到的是遍地废墟……你看到的是遍地可利用资源么。",
+			say = "It all looks like ruins to me, but you see resources in it all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "安蒂克丝的资源利用效率还真是……惊人。",
+			say = "The Antiochus are incredibly efficient at utilizing resources.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你现在只能生产II型量产型么？能生产浮空舰队么？",
+			say = "By the way, can you only produce Type II models? Can you create flying fleets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很遗憾，我并没有生产理事会标准型浮空战舰的许可。",
+			say = "Unfortunately, I do not have the Council's permission to do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那你能生产得最厉害的型号是什么？",
+			say = "Okay. What's the most powerful model available to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "标准量产型V型。",
+			say = "The standard Type V model.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……居然还有V型？我还以为IV型就已经到顶了呢。",
+			say = "I thought IV was the last one, but they have Type V now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "量产型的型号越高，生产过程就越复杂，所需资源和生产时间也会增加。",
+			say = "Higher model numbers require more complex production processes, increasing both resource and time costs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通常来说，应对实验场的各类实验，III型量产型已经足够了，IV型只是备用，而V型是用来应对非实验因素导致的极端情况的。",
+			say = "Type III will suffice for experiments in test sites. Type IV is only for reserve use, and Type V is only for extreme situations caused by factors beyond the experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要被当前的数据所迷惑，我在短期内所调集的兵力大多依靠消耗过去的资源储备。",
+			say = "Do not be misled by the current data. The only reason we can mobilize so many forces in such little time is that we're consuming existing reserves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由于缺乏主机塔的支持，我的持续生产能力并不乐观，战场精细化指挥能力也很有限。",
+			say = "Without support from a mainframe, sustained production is unlikely, and battlefield micromanagement will be limited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此，我选择生产大量标准量产型II型充当可持续消耗的炮灰，服务于拖延时间的战略目标。",
+			say = "That is why I've chosen Type II mass-produced ships as simple cannon fodder, prioritizing our goal of stalling for time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来如此……嗯，量大管饱，也挺好。",
+			say = "I see. Prioritizing raw numbers... Yeah, I like that plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "storymap_qiangweizhanqu",
 			hidePaintObj = true,
-			say = "虽说最终目的是要拖延时间，但是也不能一开始就全力死守蔷薇塔。",
+			say = "Though our ultimate goal is buying time, that doesn't mean we can afford to focus all of our forces around the Rose Tower right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "storymap_qiangweizhanqu",
 			hidePaintObj = true,
-			say = "既然我们拥有多个战区的战略纵深，再加上敌人缺乏统一协调指挥，那首先在周边战区内梯次分段阻击，以空间换时间是最好的方案。",
+			say = "We have multiple combat sectors available to us, and the enemy has no unified control structure. That means that intercepting them in the outside sectors is the ideal strategy, using space to buy more time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "作为最熟悉这片战场的人，光荣·META于蔷薇塔中坐镇全局，并负责第一战区，伊丽莎白、贝法和前卫协防。",
+			say = "As the person most familiar with the battlefields here, Glorious will take charge of everything from the Rose Tower. Elizabeth, Belfast, and Vanguard will assist in defending the first combat sector.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -350,7 +350,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "第二、第三、第六战区由构建者的塞壬舰队负责，伊丽莎白同时派出了擅长于塞壬舰队协作的声望·META和反击·META。",
+			say = "Sectors two, three, and six will be defended by Compiler's Siren fleet, assisted by Renown and Repulse – those most experienced with fighting alongside Sirens.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -367,7 +367,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "我与D小姐也一同协助构建者防御此片区域。",
+			say = "Miss D and I will be working with Compiler through this process.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "第四战区交给了狮一行人负责，她们可以借助太阳船在区域内机动，寻找战机。",
+			say = "I put Lion's team in charge of the fourth sector. They'll use the Mesektet's mobility to secure strategic advantages.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -402,7 +402,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "第五战区面积广阔，最适合女王之光号发挥，因此交给了伊丽莎白·META一行人负责。",
+			say = "The fifth sector is vast enough for the Queen's Light to exploit, so I assigned Elizabeth META's team to it.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -421,7 +421,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "与此同时，构建者还尝试在周边所有战区，和沿海区域内激活塞壬设施，利用舰队和防御装置在更广阔的范围内扰乱敌人。",
+			say = "At the same time, Compiler will operate Siren facilities in surrounding combat sectors and other sea regions to disrupt the enemy on a wide scale.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我已经收到了光荣·META发来的开战信号。",
+			say = "Combat commencement signal received from Glorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经根据你的要求，将第二战区内三分之一的塞壬舰队交由你来指挥。",
+			say = "Per your request, I have transferred authority over one-third of the Siren fleet in the second combat sector to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥中枢内对应操作权限已向你开放。",
+			say = "Permissions in this command center have been opened to you as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，我们将全程停留在此处进行指挥，直到我决定撤回蔷薇塔为止，没问题吧？",
+			say = "We will remain here and command the battlefield until it is time to retreat to the Rose Tower. Do you object?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "自然。",
+			say = "Not at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，那就让战斗开始吧。",
+			say = "Good. Then let us begin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

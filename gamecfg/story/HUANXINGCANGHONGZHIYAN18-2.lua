@@ -9,7 +9,7 @@ return {
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "哼，化作尘埃吧。",
+			say = "Hah! Be reduced to ashes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "区区无形之息，果然不堪一击……接下来只剩下南边最后一队要处理了。",
+			say = "All that's left is the southern group. These shapeless heaps of corruption are pathetic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 302140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这真的是，那个{namecode:91:赤城}？",
+			say = "Wooow... You're incredible, Akagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 301310,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉变化好大，简直像换了个人一样。",
+			say = "Yes, it's like she's a changed person all of a sudden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 301850,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有……这航空母舰的战斗力，真是恐怖如斯。",
+			say = "The might of a carrier is awe-inspiring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "不久后，海域中的所有敌人被彻底清扫干净。",
+			say = "It's not long before all the invading spawns of corruption have been mopped up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "换上和煦笑容的{namecode:91:赤城}向着{namecode:161:天城}的方向跑来，似乎是想要得到姐姐的夸奖。",
+			say = "Akagi's mood has done a complete U-turn – she smiles as she turns to me and Amagi for approval.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "而危险，就是在这一刻发生的。",
+			say = "But then, tragedy strikes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……大家小心，有敌人偷袭！",
+			say = "Ambush! Look out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "……敌人？！",
+			say = "Where'd they come from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "一束红黑色的光芒凭空出现，向着我所在的方向笔直袭来。",
+			say = "From the distance, a crimson shimmer comes flying straight toward my command vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，快后退！",
+			say = "Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "孟菲斯飞身迎向袭来的光芒，阻挡在指挥舰前。而那束光芒，却陡然调整了方向。",
+			say = "The girls promptly jump in the way, blocking the path of the object.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这股气息……",
+			say = "This aura... Is it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 305070,
-			say = "何方宵小在此偷袭？！",
+			say = "Coward! Resorted to dirty tricks, huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "{namecode:92:加贺}将炮口对准袭来的光束，主炮齐射。而那束光芒，却再次调整了方向。",
+			say = "Kaga aims her cannons and fires a volley, but the crimson light changes course and dodges.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "这一次，瞄准的目标是位于人群最后方的{namecode:161:天城}。",
+			say = "It locks on to a new target – Amagi – and speeds up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然是你搞的鬼……你，休想！",
+			say = "I knew it was you! I'm not letting you hurt them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}飞身迎向飞来的光芒，阻挡在{namecode:161:天城}之前。这一次，光束没有转向。",
+			say = "Akagi rushes to her sister's side and gets between her and the crimson light, using her own body as a shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "电光石火之间，世界被黑暗所吞噬。",
+			say = "Before she can get a word out, the world segment is instantly shrouded in darkness.",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "theme-akagi-meta",
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳边，依稀听到了{namecode:91:赤城}的声音。",
+			say = "Even so, a faint voice reaches my ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "短暂的梦，还是要结束了么。",
+			say = "Commander... I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也好……等待我的，就应该是这样的结局。",
+			say = "At least this is a fitting end for someone who committed such grave sins in the name of obsession.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，谢谢你为我这个罪无可赦之人带来这场最后的温柔与体贴。",
+			say = "Thank you... Thank you for being kind to me to the very end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你一定要带姐姐和{namecode:92:加贺}回去……",
+			say = "Protect... them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定……",
+			say = "Kaga, Amagi, and all the rest... Protect them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_3",
 			hidePaintObj = true,
-			say = "世界重回光明后，{namecode:91:赤城}的身影已经从海面上彻底消失了。",
+			say = "When the light comes back, Akagi is nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

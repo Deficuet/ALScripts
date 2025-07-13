@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>七　献给碧海的诗歌</size>",
+					"An Ode to the Sea\n\n<size=45>7 A Song for the Azure Seas</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从那日的相处后，列克星敦似乎就一直在准备着什么。",
+			say = "Ever since that day, Lexington has been preparing something big.",
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，终于到了与萨拉托加“约定”好的演出日——",
+			say = "Tonight, it's finally time for the concert I agreed to come to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "港区·Live现场",
+			say = "Port - Concert Venue",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "明明是作为观众而来，列克星敦的兴致却格外高涨。",
+			say = "Although we're only attending as audience members, Lexington is exceptionally fired up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，应援棒给你~",
+			say = "Have a glow stick, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			},
 			options = {
 				{
-					content = "你看起来心情不错。",
+					content = "\"Sounds like you're really enjoying yourself.\"",
 					flag = 1
 				}
 			},
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因为到该揭开“礼物盒子”的时候了~",
+			say = "Why wouldn't I be? I'm with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，今天我们也为你准备了一个……小小的惊喜哦~",
+			say = "Plus, I've got a surprise prepared for you. I think you're going to like it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，萨拉她登台了，我也要准备一下了。",
+			say = "Ah, Sara's going on stage. I need to get ready!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "接下来轮到萨拉托加组合啦——！什么？为什么是组合？哼哼，猜猜看啊~我的搭档在哪里？",
+			say = "Everyone, it's time for a special feature with someone close to my heart! With who, you wonder? Good question! Can you guess?",
 			bgm = "theme",
 			painting = {
 				alpha = 0.3,
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "诶？大家猜不到嘛~哎呀，真是没办法呢——",
+			say = "What's that? Nobody has any ideas?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼呼，那就让我来亲自揭晓答案吧~",
+			say = "Alright, I'll just show you then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "伴随着萨拉托加的响指声，舞台上的聚光灯整齐地指向了已经起身的列克星敦。",
+			say = "With a snap of Saratoga's fingers, the spotlights shine down on Lexington, standing right beside me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "今日的Live，将由特别的列克星敦-萨拉托加组合为大家呈现~",
+			say = "It's what you've been asking for! A duet featuring both Lexington sisters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,18 +279,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "……………………",
+			say = "The audience bursts into applause.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "祝你好运。",
+					content = "(Cheer her on.)",
 					flag = 1
 				},
 				{
-					content = "原来如此。",
+					content = "\"Now that's a wonderful surprise.\"",
 					flag = 2
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "当然，会把最棒的Live献给指挥官的~",
+			say = "Heehee. This will be the best concert of your life.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "看来我们的小惊喜惊讶到你了~",
+			say = "Weren't expecting this, were you? Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这可是最沉浸式的观赏体验哦，指挥官。",
+			say = "You're going to love this performance, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，我出发了♪",
+			say = "I'll see you after the show♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "列克星敦挥手的那一刻，欢呼声几乎响彻云霄。",
+			say = "She faces the crowd and throws her hands in the air. She is answered with booming cheering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "实力派偶像组合的影响力，真是不可小觑。",
+			say = "The excitement of two big time idols appearing on stage together is nothing short of incredible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "答案揭晓~今日的惊喜是，列克星敦姐姐的回归演出，大家有没有惊讶到呀~？",
+			say = "There you have it! Our surprise for you is a comeback performance with my sister! Hope you're all as excited as I am!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "感谢大家的热情，萨拉，让我们的演唱继续吧♪",
+			say = "Thank you all for your heartfelt support! Now, Sara, let us sing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "愿我们的热情与真挚，响彻碧海！",
+			say = "We dedicate this song to our love and passion for the azure seas!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
-			say = "列克星敦踏上了那闪耀的舞台。",
+			say = "Lexington gracefully steps onto the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "又或者说，那舞台正因为她而闪耀——",
+			say = "Tonight, it's not the spotlights lighting up the stage, but rather her luminous presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

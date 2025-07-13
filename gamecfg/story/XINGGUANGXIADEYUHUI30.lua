@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？？·？？？？",
+					"Time: Unknown",
 					1
 				},
 				{
-					"？？？",
+					"Location: Unknown",
 					2
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "几日中，蓝发少女一直注视着眼前的面板，推进着各项任务的进展。",
+			say = "For several days now, Helena has gazed endlessly at the panel before her and worked without pause.",
 			bgm = "story-startravel",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "面板上的内容显示，针对实验场β的重新定位将在一个系统时内完成。",
+			say = "Only one system hour remained until she would find test site beta's coordinates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "而对于幻象实验场核心装置的捕获工作则在三个系统时前就圆满结束了。",
+			say = "She had captured the core device of the phantom test site three system hours prior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "总感觉，有些过于顺利了……",
+			say = "It's almost going too smoothly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "D小姐在实验场β出现过的消息不是绝密，麦纪莎肯定是有意识留下这么明显的漏洞的……",
+			say = "Magician must have set a trap. That much is clear from the fact that Miss D's appearance in test site beta isn't kept confidential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "为了定位实验场β的位置，塔与卡美洛之庭必须一直保持通讯连接状态。",
+			say = "Besides, the Tower and Camelot need to maintain a constant connection for this to work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "这段时间明明是最好的出手时机……",
+			say = "This would be the perfect time for her to launch an attack, and yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "它到底在等什么……",
+			say = "Why isn't she doing anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "总不会只是单纯为了把我支开几天，自己在全神贯注布局吧……",
+			say = "Was this the whole point? Just delaying me for a few days, and nothing else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "滴——（警报音）",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "似乎是聆听到了少女的心声，变故终于如期而至了。",
+			say = "Right on cue, the situation took a turn for the worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "突如其来的强烈冲击从四面八方袭来，转瞬间击碎了海伦娜早就准备好的诱饵目标。",
+			say = "A strong impact came from seemingly all directions. The bait that Helena had prepared was destroyed in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……就这点水平？",
+			say = "Is that all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不对……原来如此，它的目标原本就不是塔，而是想扰乱空间，拖延我与实验场β恢复联系的时间么。",
+			say = "No... She was never after the Tower. She wanted to disrupt time-space and delay my contact with test site beta!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "观察者，你那边处理好了没？",
+			say = "Observer, are you done over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900232,
-			say = "我才刚选定主机塔的架设位置，哪有这么快！",
+			say = "I'm still selecting a location for the mainframe. How fast do you think I am?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "也是，那先暂停吧。",
+			say = "I see. Then put that on hold for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900232,
-			say = "……你不会是想让我去打麦纪莎吧？",
+			say = "...You're not about to tell me to go fight Magician, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900232,
-			say = "我？打仲裁机关……？真的假的？",
+			say = "Me? Fight an Arbiter? You must be kidding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "……我的意思是让你快停机躲起来，别莫名其妙成了别人的傀儡。",
+			say = "Shut down and go into hiding at once – before she can seize control and take us unawares.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "到时候我还得把你清理掉。",
+			say = "Otherwise, I'll be forced to dispose of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900232,
-			say = "嘶……告辞！",
+			say = "Ugh... Fine, I'm out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "呼……",
+			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "申请访问——安蒂克丝备份数据库仲裁机关系统资料库。",
+			say = "Requesting access to Antiochus database: Arbiter System Information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "调用仲裁机关备份数据——IV号至XIV号——同步构建模拟机体。",
+			say = "Reading Arbiter IV to XIV backup data. Building simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "麦纪莎……早看你不顺眼了。",
+			say = "Magician... I've always considered you an eyesore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "接下来——该我出招了！",
+			say = "It's time I made a move!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

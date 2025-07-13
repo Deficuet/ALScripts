@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春节游园摄影会\n\n<size=45>七 宾客盈门</size>",
+					"The Great Lunar New Year Photoshoot\n\n<size=45>7. A Gathering of Guests</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "终于，开园日到了",
+			say = "On the day of the Grand Opening––",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 312012,
-			say = "欢迎大家光临东煌风园林，请尽情享受旅途喵~",
+			say = "Welcome to the Dragon Empery Estate, nya! Please make sure to schedule your sightseeing tour here, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 312012,
-			say = "园中纪念品小卖部也在盛大营业中，营业首日全部商品九五折，欢迎进店选购喵~",
+			say = "Akashi's souvenir shop is also open as well, nya! Enjoy a 5% discount on all purchases, today only, so come on by for some great deals, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "东煌风园林·屏风桥",
+			say = "Dragon Empery Estate - Windscreen Bridge",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101450,
-			say = "哇哦~这里就是布里斯托尔拍照的那个地方哎~屏风真漂亮！",
+			say = "So, Bristol, this is where you did your photoshoot? It's freakin' gorgeous here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~看我现在这个姿势，是不是和照片上的布里斯托尔一样？",
+			say = "Hehe~ I can make that same pose too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那你别动，我来给你拍个照好好对比一下——",
+			say = "Hold that pose! I'll take your picture too, and we can compare 'em later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "东煌风园林·林中雪地",
+			say = "Dragon Empery Estate - Snowy Plains",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "呵！来者何人！",
+			say = "You over there! Identify yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吾乃亲王英勇，来一决雌雄吧！",
+			say = "I am the successor to the crown, Valiant! I challenge you to glorious combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205100,
-			say = "爱丁堡扶我上马！",
+			say = "Edinburgh, get me my horse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105031,
-			say = "哎？！你的马也是租来的么？",
+			say = "Where is Akashi getting all these horses...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼，我这可是从皇家马厩里牵出来的哦~",
+			say = "Hehe... This fine steed was hand-picked from Her Majesty's Royal Stables!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205100,
-			say = "吃我一剑，接招——！",
+			say = "Come! Test your mettle!",
 			effects = {
 				{
 					active = true,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "东煌风园林·蒸馏浓缩茶室",
+			say = "Dragon Empery Estate - Chemistry Lab?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好香的气味啊~",
+			say = "What a wonderful aroma...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408052,
-			say = "欢迎来到{namecode:417}的蒸馏浓缩茶室！要来一杯蒸馏浓缩茶么！",
+			say = "Welcome to U-73's Chemis-Tea Lab! Would you like to try a cup?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301822,
-			say = "要，请给我一杯——！",
+			say = "Y-yes, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408052,
-			say = "没问题，稍等片刻哦~",
+			say = "Alright, coming right up! Just give me a sec.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "东煌风园林·湖心亭",
+			say = "Dragon Empery Estate - Pavilion in the Pond",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "哇……这个汹涌的人潮，摄影会作战大成功！",
+			say = "Woah... Look how many people there are! Our plan worked perfectly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502070,
-			say = "大家都玩得很开心呢~",
+			say = "Yes, everyone looks like they're having a great time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "哼哼，一切都依计而行。连环宣传的第一步已经完成了，接下来的一切都是水到渠成。",
+			say = "Now that our strategy has been set in motion, all that remains is to see things through to the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502080,
-			say = "我也想去跟大家一起玩——",
+			say = "I wanna go have fun with everyone else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "可以哦~等一切都忙完之后。",
+			say = "Sure, but we need to finish our work here first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "作为主办方，开园只是所有事情的第一步，接下来还有源源不断的工作会来呢。",
+			say = "As the organizers of this event, we're in charge of making sure everything here continues to run smoothly. And I trust more work will be on its way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，找到你们了~！",
+			say = "Oh, there you girls are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你看，说到就到。",
+			say = "Hehe. Right on schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "有什么需要帮忙的么，应瑞？",
+			say = "Did you need us for something, Ying Swei?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然拜托刚刚结束辛劳的你们有些不妥……不过，年夜饭的准备还缺少人手，如果可以的话，三位能搭把手吗？",
+			say = "Umm, I know you've been busy setting up over here, but do you think you could lend me a hand in finishing the Spring Festival banquet preparations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "呵呵……当然可以，这是我们应该做的。",
+			say = "Of course. That was on the schedule anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			actor = 506011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "走吧~新的工作开始了，让我们一起把春节变得热闹起来吧——",
+			say = "All right, everyone. Let's make this Lunar New Year the most memorable one ever~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "问我这周的安排么？",
+			say = "My schedule for this week?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我想先把借来的几本书看完，还有一些额外的自主训练安排……",
+			say = "Read a few books I borrowed, then follow up with some solo training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看来约你出门是没机会了？",
+					content = "I was hoping we could go out together, but I guess your schedule is packed?",
 					flag = 1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……约、约我？那……其他事情都可以搁置的。",
+			say = "G-go out together? In that case... I can postpone everything else for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你一直都是……最优先事项。",
+			say = "You're my number one priority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

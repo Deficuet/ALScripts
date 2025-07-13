@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "深红的天空之下是黑色的海面。",
+			say = "A deep red sky, a murky, jet-black sea.",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "仍在燃烧的残骸互相碰撞、坍塌。",
+			say = "Burning wreckages smashing together before disappearing beneath the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这里是………",
+			say = "This place is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，我回想起来了……",
+			say = "Yes, I remember now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这里是我的狩猎场，也是我的坟墓……",
+			say = "My hunting grounds... and my grave...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "炮火将残骸再次撕碎，化作灰烬被海风吹散，不见踪迹。",
+			say = "Gneisenau's cannons rang out, tearing the smoldering husks around her into fine dust that was carried away on the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "这是她的第多少个日夜，这是她毁灭的第多少个敌人……已经不重要了。",
+			say = "How long had she been fighting here all by herself? How many enemies had she sunk? None of it mattered anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "在漫无边际的海面上游荡，将目之所及的东西尽数毁灭，似乎就是她现在存在的唯一意义。",
+			say = "Her existence had become nothing more than wandering this vast, boundless ocean, destroying everything in sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错……这就是我存在的唯一意义。",
+			say = "Yes... That is the sole purpose I have left.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "我不需要思考也不需要感受，只需要接连不断地消灭敌人就好……",
+			say = "I don't need to think or feel. I need only destroy my enemies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:434}在水面上一刻不停地疾驰着，仿佛一旦停下，脚下冰冷的海水就要将她淹没。",
+			say = "She never stopped treading through the smoke and flames, lest the icy water beneath her feet swallow her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "就在这时，她的耳边传来鱼雷报警。",
+			say = "But suddenly, her eternal, unchanging vigil was torn by a new, alien sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "脚下漆黑的水中，有什么东西正在向她高速接近。",
+			say = "The acceleration of a torpedo that should not exist. A foe that was not of Siren origin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……呵，新的增援又上来了么。",
+			say = "New... reinforcements?",
 			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
@@ -294,7 +294,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "雕虫小技———什么？！",
+			say = "You'll need to try harder than that if you– What?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:434}直接轰碎了袭来的鱼雷，可是紧接着一个身影从水中窜出，径直向着{namecode:434}的方向撞了过来。",
+			say = "She cleanly shot through the slow-moving torpedo, but from the torrent of water leapt a small, familiar figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,8 +326,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "————————！",
+			actorName = "U-556 META?",
+			say = "*SPLASH!!*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你、你是，{namecode:416}？！",
+			say = "What?! U-556?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "意料之外的画面让{namecode:434}在袭击者面前失去了冷静。",
+			say = "The sight of the girl left Gneisenau utterly bewildered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "她本能地进行回避，却依然向后踉跄出一段距离。",
+			say = "She instinctively sidestepped the incoming submarine, but staggered in surprise as a spark of life returned to her hazy eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你不是早就跟{namecode:435}大人一起…………",
+			say = "You... I thought you sank with Bismarck long ago...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "为什么会出现在这里？！又……为什么会变成这副模样？",
+			say = "How are you here? And what became of you...?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这样岂不是……跟我一样……成为了被诅咒的人……",
+			say = "You're... just like me now! A cursed husk of your former self!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,8 +442,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "得赶快……赶过去才行……",
+			actorName = "U-556 META?",
+			say = "Need to hurry... I need to go back...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:416}没有理会{namecode:434}的呼唤，袭击落空后的她此时已经再次钻入水中，向着远处的光芒驶去。",
+			say = "U-556 ignored Gneisenau. She dove beneath the waves once more, heading straight towards a light in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "等等……这究竟是怎么回事…………",
+			say = "The Tower of Midgard? That can't be... It doesn't exist in my branch...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "那个光芒是…………米德加尔特之塔发出的光芒？",
+			say = "No, I see... I understand now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "对了……我想起来了…………",
+			say = "This is just a dream. A hallucination drawn from my memories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我已经找回了应当守护的人……岂能沉浸在这些无聊的幻象中！",
+			say = "I've already rediscovered my reason to fight... So I don't have time to waste on these illusions!",
 			soundeffect = "event:/ui/glassbroken",
 			painting = {
 				alpha = 0.3,
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……没想到连我也会受到噩梦的影响。",
+			say = "...How could I have been careless enough to fall prey to the Arbiter's hallucinations?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "难道和之前从控制室中传出的冲击有关……",
+			say = "I must've fallen unconscious after that shockwave back in the control room...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "对了，{namecode:464}，{namecode:96}和控制室……",
+			say = "Right... Ulrich, Zuikaku, and the control room...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "{namecode:434}环顾四周，发现自己已经来到了米德加尔特之塔的外环结构上。",
+			say = "She looked around and saw she was on the tower's outer ring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "而在不远处，有一个似乎仍然沉浸在噩梦中的身影。",
+			say = "And not far from her, there was another shipgirl, lying unconscious on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "…………希望爆炸的余波能让她清醒过来。",
+			say = "Looks like I'll have to make some noise to wake her up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "呵，之后还是随身带点演习弹好了……",
+			say = "I really should bring some blanks next time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_2",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

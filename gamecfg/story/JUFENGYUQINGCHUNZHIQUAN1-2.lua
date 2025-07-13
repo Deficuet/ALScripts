@@ -9,13 +9,13 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			bgm = "story-temepest-1",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开炮开炮！",
+			say = "Fire! Fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -29,11 +29,11 @@ return {
 			expression = 1,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "新世界的宝藏可不分先来后到——",
+			say = "It's the early bird who gets the New World booty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -46,7 +46,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——轰！",
+			say = "KABOOOM!",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在隆隆的炮声中，对手调转方向，逃向了远方。",
+			say = "Amid thundering cannon fire, the warship's opponent turned tail and fled.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -67,11 +67,11 @@ return {
 			expression = 1,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻~这样就是我的胜利呢！",
+			say = "Hahaha! I won!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,10 +85,10 @@ return {
 			actor = 9600010,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			hidePaintObj = true,
-			say = "伟大的皇家财富的又一次辉煌胜利……",
+			say = "Another glorious victory to my name, another heap of–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "啪嚓——！",
+			say = "CRACK! BOOOOOM!",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/dalei",
 			typewriter = {
@@ -113,11 +113,11 @@ return {
 			expression = 3,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咿？！",
+			say = "Whoa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,11 +148,11 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！好大的风暴！怎么回事？！",
+			say = "What was that?! A storm out of the blue?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,11 +166,11 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要快点收帆！",
+			say = "I need to lower my sails, right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,11 +184,11 @@ return {
 			expression = 3,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来、来不及了！！",
+			say = "Dammit! I won't make it in time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,11 +212,11 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 9600010,
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为一场冒险而言也太过刺激了呀啊啊啊——",
+			say = "This is NOT the kind of high-octane adventure I signed up fooooor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "鼓满了帆的战舰，义无反顾地撞进了风暴中。",
+			say = "The warship, with all her sails hoisted, hurtled headfirst into the storm.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

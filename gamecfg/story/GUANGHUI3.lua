@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"淑女的小小提案\n\n<size=45>三 意外事件</size>",
+					"A Lady's Modest Proposal\n\n<size=45>Chapter 3 - An Unexpected Disaster?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "稍作休息后，和光辉一起来到了皇家宿舍。",
+			say = "After finishing writing the letters, I escorted Illustrious back to the Royal Navy's dorms.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当天的食器就由女仆队的各位准备…除此之外。还需要别的什么呢…？",
+			say = "A member of the Royal Maids will be setting the tableware for the tea party. Is there anything else we need to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哥哥…光辉姐姐…在商量什么…？",
+			say = "G-good afternoon! What are you two talking about...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "碰巧路过的独角兽，向这边头来了疑惑的目光。",
+			say = "Unicorn, who had just been passing by, came up to us with a curious look on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，也跟独角兽说说这件事吧。",
+			say = "Oh! I'd love to get your thoughts too, Unicorn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "光辉把绝景胜地以及准备在那举办茶会的事情都告诉了独角兽。",
+			say = "Illustrious told Unicorn about how she was planning a tea party to be held at her beautiful secret spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "茶会的准备……独角兽…也想帮忙…",
+			say = "Preparing for a tea party? I want to help out too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了~啊，说起来，还没有准备遮阳用的伞呢。",
+			say = "Oh, come to think of it. We didn't bring a parasol to block out the sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遮阳伞…之前在仓库…好像见过……",
+			say = "I think I saw one at the storehouse earlier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在独角兽的带领下，与光辉一起来到了仓库，里面果然放着各种款式的遮阳伞。",
+			say = "Unicorn guided us to the storehouse. Inside were a variety of parasols with different designs, all stored away.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~之前准备的桌椅是白色的，就选一样的颜色搭配吧！",
+			say = "The table and chairs we're going to be using are all white, so let's look for a white one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "于是大家分头行动，开始寻找白色的阳伞。",
+			say = "Everyone split up to look for a white parasol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像都不太搭呢…是不是找点更有些高级感的比较好……",
+			say = "All of these don't fit well enough... It'd be nice if there was a high-quality one...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀…！",
+			say = "Eek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被这个声音吓了一跳，转过身去，发现了在后面架子前的梯子上摇摇晃晃的独角兽。",
+			say = "When I turned toward the source of the noise, Unicorn was swaying unsteadily on top of a ladder propped in front a shelf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独角兽…什么时候爬得这么高了？！",
+			say = "Unicorn! When did you manage to get up so high?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "大概因为都在专心地找遮阳伞，竟然彼此都没有注意到对方。",
+			say = "Nobody had been watching out for each other. It was probably because everyone was so absorbed in their search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与光辉共同赶到的那一瞬间，独角兽失去平衡，从梯子上摔了下来——",
+			say = "The moment Illustrious and I rushed over to help her, Unicorn lost her balance and fell off the ladder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…！",
+			say = "...Nooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哥、哥哥？",
+			say = "...Y-you caught me...?",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…千钧一发之际，接住了掉下来的独角兽，这才松了一口气。",
+			say = "Fortunately, I caught Unicorn just in the nick of time as she fell off the ladder. I breathed a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而一同倒下的梯子则是由光辉接住，总算是有惊无险。",
+			say = "Illustrious had supported the falling ladder so it didn't crash into the floor, and thus, we somehow made it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "独角兽，没受伤吧？",
+			say = "Are you alright, Unicorn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对、对不起…哥哥…光辉姐姐……看到上面好像…有合适的遮阳伞…就……",
+			say = "I-I'm sorry, you two... There was a really nice parasol up at the top...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没事的，是我们没注意到你…不过，下次要小心，别再做这么危险的事情了哦？",
+			say = "No, it's our fault for not being careful. But make sure you're not reckless like this next time, you hear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "光辉一面安慰着，一面温柔地抚摸着独角兽的头。",
+			say = "Illustrious stroked Unicorn's hair gently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "表情中充满了如同对亲妹妹一般的怜爱之心——",
+			say = "Her expression was full of affection, as if Unicorn were her real sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

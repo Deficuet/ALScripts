@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 {namecode:408}老师\n\n<size=45>一 问题儿童都来自——</size>",
+					"Class Z I\n\n<size=45>Troublesome Kids Come From The Port</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日的港区·学院",
+			say = "Academy Port",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…这个实在是……",
+			say = "*Sigh*... What should we do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……就连我也想不出什么好办法呢……",
+			say = "*Sigh*... What should we do...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然无论是哪里的学校，都会有这么一群呢……",
+			say = "I guess every school has some students like them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是应该严厉地给她们一点“教育”啊…就用我这教鞭，哼哼——",
+			say = "Looks like I'll need to \"discipline\" them. With my whip, that is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐、姐姐…你的“教育”还是稍微收敛一点……",
+			say = "Um, Köning... I think a whipping might be too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁……",
+			say = "Tsk. Oh well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…哈啊…究竟该怎么做才好呢……",
+			say = "But still... *Sigh*... What exactly should we do about them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于这群“问题儿童”们——",
+			say = "We can't just let them do as they please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "老师们的烦恼，我全都听到了！",
+			say = "I just so happened to overhear your concerns, Köln and Königsberg!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,10 +180,10 @@ return {
 			actorShadow = true,
 			bgName = "bg_story_school",
 			side = 0,
-			actorName = "{namecode:421}&{namecode:423}",
+			actorName = "Königsberg&Köln",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "{namecode:408}？",
+			say = "Zed? When did you get here?",
 			subActors = {
 				{
 					actor = 402010,
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题儿童什么的，就交给我{namecode:408}吧！",
+			say = "No matter! Please allow me to deal with your problematic students!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“学习”的重要和乐趣，就让我来教给她们吧！",
+			say = "I'll give them a lengthy lecture on how important and fun it is to study!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

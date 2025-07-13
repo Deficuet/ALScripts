@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>四 旅途的终点</size>",
+					"Superstar of the Blue Seas\n\n<size=45>Chapter 4 - Seal Located!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = ".........",
+			say = "……",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			},
 			options = {
 				{
-					content = "把海豹雷达关掉",
+					content = "\"We must be getting close...\"",
 					flag = 1
 				}
 			}
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，确实变得有些太吵了呢。",
+			say = "For sure! This is the last place it was sighted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不过，看来也已经不需要雷达了。",
+			say = "All that's left is to roll up our sleeves and search for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "干得好{namecode:524}！小海豹的最后的线索就是在这里了！",
+			say = "Great job, San Diego! There's no doubt about it, this is the location of the latest Seal sighting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我果然很厉害吧！哼哼，我们一定会最先找到小海豹的！",
+			say = "See? Aren't I a genius? We'll be the first team to find that Seal~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，对，对不起……！",
+			say = "P-pardon us, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等啊！找小海豹这个没有什么先后之分吧！",
+			say = "Hey, haven't we already been here before?! We didn't find anything last time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后关头突然出现的劲敌……！？",
+			say = "We're so close, and now another team is trying to get there before us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "双方的前进方向一致，既然如此——！",
+			say = "If we're on the same course, we'll just have to speed up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇哇！指挥官，不要拉我啊！",
+			say = "Hey! Be gentle with an idol's outfit, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指、指挥官！？",
+			say = "C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，要朝着那边赛跑吗？？",
+			say = "Hahaha~! So, they wanna race there, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，快停下快停下！还太早了啦！",
+			say = "Stop! Stop, Commander! It's not time yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 102220,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "萨拉托加！…没办法了，赶快通知大家紧急启动！",
+			say = "Saratoga?! ... If that's how you want it, then you'll get it! Quick, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "——就在那时，从海中浮现出了一个巨大的建筑物",
+			say = "Then, a large structure emerged suddenly from beneath the waves.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "建筑物的水槽里，各种各样的海洋动物们开心呢的嬉戏着",
+			say = "The structure was fitted with numerous water tanks, inside of which a myriad of adorable marine animals was playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			},
 			options = {
 				{
-					content = "那是……舞台！？",
+					content = "\"Is this... a stage?!\"",
 					flag = 1
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "今天的主角正式登上了舞台……",
+			say = "And then, from the center of the stage, with lights shining down on it, emerged none other than the star of the show...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "那是……“传说中的海豹”！",
+			say = "The Mythical Seal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

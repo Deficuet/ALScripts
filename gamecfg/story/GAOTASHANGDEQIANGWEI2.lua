@@ -9,11 +9,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"卡美洛之庭定位点",
+					"Camelot - Coordinate point",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "昏暗的天空中，闪过了一丝不易察觉的轻微波动。",
+			say = "A faint tremble suddenly shook the dark emptiness.",
 			bgm = "theme-brokenworld-sad",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在新型隐蔽系统的遮蔽下，搭载有伊丽莎白一行人的卡美洛之庭悄无声息地来到了定位区域——一片汪洋之上。",
+			say = "Under the cover of their new stealth system, Camelot – carrying Elizabeth and her entourage – appeared in the air above a great ocean, where the coordinates pointed to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "陛下……这座小岛的情况，看上去情况不妙。",
+			say = "Your Majesty, this island appears to be rather dangerous.",
 			location = {
-				"？？？·列车停泊地",
+				"Unknown location - Queen's Light's stopping point",
 				3
 			},
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在让卡美洛之庭进入隐蔽待机模式后，伊丽莎白·META启动女王之光号列车，带领众人来到了最近的一处海岛上。",
+			say = "Having put Camelot into its passive stealth mode, Queen Elizabeth META started the Queen's Light and led her team to a nearby island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "这里的天空呈现出一种朦胧的灰，仿佛被大气中某种终年不散的烟雾遮蔽着。",
+			say = "The sky overhead had a faint ashen tinge to it, as though it was covered by smoke that would not disperse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "海岛的表面则尽是战火留下的疮痍。",
+			say = "Setting foot on the island, they saw the aftermath of a battle all over the place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这里的气温明显偏低，湿度……也偏低，自然植物更是完全不见踪迹。",
+			say = "Air temperature: Low. Humidity... Also low. Don't see any native vegetation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "岛上的建筑群显然已经被摧毁多年了，但是废墟之上没有植物……我甚至连昆虫都没发现。",
+			say = "Buildings appear to have been destroyed a while back. No sign of plant life or even insects in the ruins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701010,
-			say = "只有一片死寂，我有种不好的预感……",
+			say = "There's nothing here but deathly silence. Feels foreboding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "雷达上看到的也是这个结果。",
+			say = "There is nothing on the radar either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900326,
-			say = "我认为需要首先找到大陆，任何一片大陆。我们必须先搞清楚这个世界的基本情况，只靠海岛来分析是不行的。",
+			say = "I believe that we first of all need to find a continent. Any continent. A few islands alone cannot provide us with a sufficient grasp of the basic situation of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王同意，那我们继续出发如何？",
+			say = "She's right. Shall we leave already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "先等等，伊丽莎白，本王已经有了些发现。",
+			say = "Hold on, Elizabeth. We've found something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "刚刚我们下车之前，本王就利用车载设备在高空进行了一次大规模扫描。",
+			say = "We ran a high-altitude scan with the train's onboard equipment before exiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "现在分析结果出来了，你猜怎么样？",
+			say = "The scan just yielded something. Care to guess what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会是和我们看到的一样……各处都是一片死寂吧？",
+			say = "Surely not the entire world is the same as this island, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "从文明的角度来说……差不多。",
+			say = "From the point of view of civilisation, yes, it's much like this island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "当然，如果把活跃的塞壬信号也加入其中就另当别论了。",
+			say = "Naturally, it's a different story if you include the signals from Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道终盘清算已经启动……我们来晚了？",
+			say = "It sounds like they engaged the reset... Are we too late?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王觉得不是终盘清算，否则这些塞壬信号也太弱了些。而且特征也有些奇怪，像是经过了更改的塞壬机械发出的。",
+			say = "The Sirens' signals are far too weak for it to have been a reset. The signals themselves are quite unusual, possibly indicating they originate from modified Siren equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "分析结果本王已经同步了，诸位觉得呢？",
+			say = "Whatever the case, those are the results of our analysis. Any second opinions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不像是终盘清算。清理得不够彻底，对塞壬来说太浪费了。",
+			say = "It doesn't look like a reset. Everything hasn't been cleanly swept away. The Sirens wouldn't be so wasteful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯，我也是这么觉得的。",
+			say = "Yeah. I think so, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些信号特征……也有些奇怪，与我此前见过的塞壬实验机关发出的信号都不一样。",
+			say = "The signals are quite... idiosyncratic. They differ from what we've recorded of every other Siren experimentation division that we've engaged previously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒好像……和之前凯尔盖朗岛那次，在维希圣堂中记录的信号类似？抱歉，我也不是很确定。",
+			say = "No, rather... Perhaps they bear some similarity to the patterns of the Basilicas on the Kerguelen Islands? I'm afraid I cannot help more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900488,
-			say = "贝法，你的判断有部分是正确的，这确实是经过人为调整的塞壬信号，不过调整阵营不是鸢尾……而是皇家。",
+			say = "Bel's analysis is on point. The signals have been tampered with. It wasn't the Orthodoxy, though. The Royal Navy did it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900488,
-			say = "陛下，那是用于操控塞壬量产型兵团的设备所发出的信号……调整方式我曾见过，和我们过去所用的一模一样！",
+			say = "Your Majesty, I think the signals are coming from the command centre of a mass-produced Siren force. The tampering method is the same as our world once used!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这么说的话，这个世界的局势，或许也和当时你的经历类似……",
+			say = "Then it is possible that this world has fared a similar fate to that of Grenville's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "检测不到文明信号是因为她们大规模使用了塞壬技术？",
+			say = "Could this absence of human signals be due to a mass adoption of Siren technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "有可能，追查这些信号最密集的区域，我们一定有所发现。",
+			say = "That is a possibility. We're sure to discover something if we search the area where the signals are densest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……至少算是个好消息。",
+			say = "Phew. That's good news, at least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "那么，我这边恐怕有一个坏消息了。",
+			say = "Unfortunately, I have bad news to share.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这些是我刚从城市的残骸中提取的样本，你们看是什么？",
+			say = "This is a sample I collected from a wreckage in the city ruins. Please have a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "不知何时离去而又在何时归来的谢菲尔德·META带来了一小块悬浮在分析仪中的残骸。",
+			say = "Sheffield META returned from her excursion, took out an analyzer, and presented the small debris floating inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "残骸主体为白色，如同某种生物的肉块，但散发着大理石般的光泽。",
+			say = "It was white and almost resembled some sort of chunk of flesh, yet it also had a luster like marble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "白色之上附着着一些不知名材质的机械结构，虽然已经被彻底摧毁，却不知为何依然闪烁着点点蓝光。",
+			say = "Attached to the top of the \"chunk of flesh\" was a machine made with an unidentified material. In spite of having sustained devastating damage, the debris still blinked with a blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……本王怎么看这个配色有些眼熟？",
+			say = "Hmm... The colouring looks like something I've heard of before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个该不会就是之前指挥官发来的情报里提到过的“天外之兽”的残骸吧？",
+			say = "Could it be a part of those extradimensionals that my servant spoke of?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702030,
-			say = "我没有直接见过天外之兽的样本，所以不能肯定。",
+			say = "I'm afraid that is difficult to determine. I've never seen a sample from these \"extradimensionals,\" you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "仅从样品本身来看，其应该确实是某个巨大“生物体”的一部分。",
+			say = "However, based on what I see, I can all but confirm that it was previously part of some enormous creature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "而且，虽然其金属结构受到的侵蚀较轻，但其生物质部分呈现出了非常典型的「眷属化侵蚀」特征。",
+			say = "Although only low levels of corrosion have affected the metallic part, the organic part exhibits the typical traits of subjugative corrosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702030,
-			say = "不论它是不是天外之兽的残骸，我们都应该提高警惕。",
+			say = "Whether it came from an \"extradimensional\" or not, I advise exercising caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那个信息丢失严重的求救信号里只提到了塞壬，本王还以为要应对的只是塞壬实验机关而已。",
+			say = "...We could only decode the \"Siren\" part of the distress signal, so I was sure we were merely dealing with one of the Sirens' experimentation divisions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……现在的局势，似乎比预想中更麻烦啊。",
+			say = "It seems this will be a lot more troublesome than I'd anticipated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

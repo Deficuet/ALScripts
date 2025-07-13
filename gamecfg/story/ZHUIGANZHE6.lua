@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与「大小姐」共处的时刻\n\n<size=45>六 并不优雅的尝试？</size>",
+					"Moments with the Young Miss\n\n<size=45>6 An Ungraceful Attempt?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在追赶者和{namecode:11}的双重热情压迫下，决定让{namecode:11}来展示下重樱的忍术——忍者的特技。",
+			say = "The combined enthusiasm of both Chaser and Akatsuki pushed us to a demonstration of Sakura Empire ninjutsu techniques, courtesy of the latter.",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实就像长岛说的那样，忍者可以在水面上奔跑！",
+			say = "I think Long Island once said that ninjas can run on water!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，以在下的力量，甚至能做到这种程度…！",
+			say = "That’s right. With my power, I can even achieve such feats!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "{namecode:11}加快了速度，在海面上转了三圈。",
+			say = "Akatsuki sped up and did three loops around the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…还能使用叫做“火遁”的技能，射出火球！",
+			say = "And you can use like that “katon” jutsu power to throw some fireballs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也很简单！",
+			say = "Easily!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "{namecode:11}用主炮射击，低威力的模拟弹命中了目标，产生了一个小火球。",
+			say = "Akatsuki sounded her main gun. A low-powered training round hit the target and popped into a small fireball.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还可以用烟雾之类的隐藏自己！",
+			say = "And you can vanish in a puff of smoke!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是这个吗？",
+			say = "L-Like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "{namecode:11}拉起了烟幕……唔？",
+			say = "Akatsuki put up a smoke screen... huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，似乎每个都是靠舰装就能做到的事情呢……",
+			say = "Seems like you do all of it with your rigging...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "就如追赶者所说，只要使用舰装，舰船们都能使出这些“非现实”的技能。",
+			say = "As Chaser said, the ships can use these rather fantastical techniques with the power of their riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用舰装的技能…呣……",
+			say = "You want to see something that doesn’t use rigging...? Hm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "色诱之术之类的？",
+			say = "The art of seduction?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:66}＆{namecode:11}",
-			say = "什么！？",
+			say = "Wha?!",
 			subActors = {
 				{
 					actor = 303110,
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是…这种感觉的…？",
+			say = "Like so...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "瞬间感到右臂传来一阵柔软的触感。",
+			say = "My right arm pressed against something soft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "……看来是被追赶者抱住了右臂。",
+			say = "...Chaser had snuggled herself up against me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 303110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳…！",
+			say = "Ah-Ahem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 206050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊…抱歉抱歉，好像有点跑题了。",
+			say = "Oh... Sorry! That’s not quite right, is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "手臂得到了解放……这是这几天来追赶者最让人吓一跳的时刻了吧……",
+			say = "She released my arm... And that was the most shocking thing Chaser had done over the past few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那么…{namecode:66}小姐，接下来的项目是什么呢…？",
+			say = "What’s the next item on our agenda, Miss Takao?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "校园区·保健室",
+			say = "School—Clinic",
 			side = 2,
 			bgName = "star_level_bg_138",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎来到保健室，本次平安度过危机，可喜可贺可贺可喜~！",
+			say = "Aaand welcome to the clinic~! We made it through the crisis unharmed. Hooray!",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -70,7 +70,7 @@ return {
 			actor = 10800030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "来笑一个，拍下这个在异世界重逢的感动瞬间吧。",
+			say = "Say cheese! Let's snap a quick pic of this touching reunion!",
 			hidePaintEquip = true,
 			effects = {
 				{
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "莲、奈美子！你们两个也在这里么？！",
+			say = "Hass! Namiko! You guys are here too?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -121,7 +121,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你这是什么话……今早不是还一起来着么。",
+			say = "Did you hit your head, Rikka? We were with you this morning!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			actor = 10800030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然不是同一个班。而且进来之前的时候，我们也是在一起去plaza了吧~",
+			say = "Well, we're not in the same class, but still. We went to the plaza together before we came to school!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好像是这么回事……不行，脑子还是好乱。",
+			say = "Now that you mention it... Wait, how is that possible? I'm so confused...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用着急，脑子需要一段时间熟悉这种感觉，过一会就好了。",
+			say = "There's no need to rush, Rikka! Now that we're onto the Sirens' tricks, we just need some time to sort out our memories.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有各位港区的同伴，大家能回想起来真是太好了！",
+			say = "At least, I'm glad that I remember all my friends from the Port!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到塞壬还有这种机关……多亏了{namecode:439}的说明，不然继续浑浑噩噩下去不知道会发生什么恐怖的事么。",
+			say = "I can't believe I let myself get fooled by these cheap illusions though... Who knows what would've happened to me if you girls weren't here!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "莲还有奈美子，你们都受伤了？",
+			say = "By the way, why are the two of you at the clinic? Did you get hurt?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "擦伤而已，不用在意。都怪莲突然激动起来说要去拍怪兽……",
+			say = "Nothin' but a scratch! It's all Hass's fault, too. She was throwing a fit, saying she was HAD to go take some pictures of the kaiju.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -274,7 +274,7 @@ return {
 			actor = 10800030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是难得一见的场景嘛！",
+			say = "Well yeah, who'd pass up a chance like that?!",
 			hidePaintEquip = true,
 			dialogShake = {
 				speed = 0.08,
@@ -297,7 +297,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的，太冒险了……给我好好去避难啊。",
+			say = "Just... don't push your luck like that. Next time, safety first. Got it?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -315,7 +315,7 @@ return {
 			actor = 10800030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有在反省了……嗯，反省完毕！",
+			say = "My bad, my bad~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "然后你们就遇到{namecode:90}了么？",
+			say = "And then you ran into Ryuujou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，是{namecode:90}护送我们来医务室做包扎的！",
+			say = "Yep. She brought us over to the clinic.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明都想不起自己是舰船了，还能这么做啊……真厉害。",
+			say = "Ryuujou's sense of justice really comes from her soul, huh? She went out of her way to look after you two and brought you to the clinic while not even realizing that she's a shipgirl. That's incredible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论何时何地，英雄就应该挺身而出嘛！",
+			say = "Protecting the weak is the duty of a warrior such as I!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本打算包扎完就走的，没想到正好遇到赶过来的茜和{namecode:439}。",
+			say = "Thanks to Ryuujou, we were able to make it here safely. After getting patched up, we were just about to leave, and that's when all of you showed up.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茜跟我们说了一些事，之后我们就什么都想起来了。",
+			say = "Yup. And after hearing Akane tell me what's going on, my memories started to come back as well.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -458,7 +458,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，你们口中的净化者&自称净化亲的老师也被关在这里，不过她真的是坏人么？根本看不出来啊。",
+			say = "Oh, right. The Purifier that's calling herself Miss Purity? She's being held over here.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那可是塞壬哎，肯定是坏人……",
+			say = "What?! You managed to capture a Siren?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintEquip = true,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "关于这件事，情况好像有些复杂，你们还是来亲自看一下吧……",
+			say = "It's a long story, but basically...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

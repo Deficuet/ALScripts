@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我又挑了一部电影……放心吧，这次不是恐怖电影。",
+			say = "Commander, I picked out another movie. Don't worry, it's not a horror movie this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是一部高分爱情电影，说是很适合……嗯……情侣之间一起观看。",
+			say = "It's an acclaimed romance movie. It's, um... perfect for couples to watch. Or so they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "稍后坐下来一起看吧。",
+			say = "Let's get comfy and give it a look later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

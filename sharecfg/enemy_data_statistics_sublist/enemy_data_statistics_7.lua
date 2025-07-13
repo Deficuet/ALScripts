@@ -1,8 +1,161 @@
 pg = pg or {}
 pg.enemy_data_statistics_7 = {
+	[90175] = {
+		cannon = 0,
+		name = "Nowaki",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90175,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "yefen",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "yefen",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.143,
+					0.598,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.653,
+					0.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							0.56,
+							-0.07
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.22,
+							1.95,
+							2
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90176] = {
 		cannon = 0,
-		name = "新月",
+		name = "Niizuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -977,7 +1130,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90182] = {
 		cannon = 0,
-		name = "罗利",
+		name = "Raleigh",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1137,7 +1290,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90183] = {
 		cannon = 0,
-		name = "阿瑞托莎",
+		name = "Arethusa",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1306,7 +1459,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90184] = {
 		cannon = 0,
-		name = "加拉蒂亚",
+		name = "Galatea",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1475,7 +1628,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90185] = {
 		cannon = 0,
-		name = "夕张",
+		name = "Yuubari",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1644,7 +1797,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90186] = {
 		cannon = 0,
-		name = "长良",
+		name = "Nagara",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1800,7 +1953,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90187] = {
 		cannon = 0,
-		name = "五十铃",
+		name = "Isuzu",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1970,7 +2123,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90188] = {
 		cannon = 0,
-		name = "阿武隈",
+		name = "Abukuma",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2123,7 +2276,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90189] = {
 		cannon = 0,
-		name = "川内",
+		name = "Sendai",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2280,7 +2433,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90190] = {
 		cannon = 0,
-		name = "神通",
+		name = "Jintsuu",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2437,7 +2590,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90191] = {
 		cannon = 0,
-		name = "阿贺野",
+		name = "Agano",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2594,7 +2747,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90192] = {
 		cannon = 0,
-		name = "柯尼斯堡",
+		name = "Königsberg",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2763,7 +2916,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90193] = {
 		cannon = 0,
-		name = "卡尔斯鲁厄",
+		name = "Karlsruhe",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2932,7 +3085,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90194] = {
 		cannon = 0,
-		name = "科隆",
+		name = "Köln",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3101,7 +3254,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90195] = {
 		cannon = 0,
-		name = "莱比锡",
+		name = "Leipzig",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3270,7 +3423,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90196] = {
 		cannon = 0,
-		name = "什罗普郡",
+		name = "Shropshire",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3439,7 +3592,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90197] = {
 		cannon = 0,
-		name = "肯特",
+		name = "Kent",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3601,7 +3754,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90198] = {
 		cannon = 0,
-		name = "萨福克",
+		name = "Suffolk",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3761,7 +3914,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90199] = {
 		cannon = 0,
-		name = "古鹰",
+		name = "Furutaka",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3924,7 +4077,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90200] = {
 		cannon = 0,
-		name = "加古",
+		name = "Kako",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4101,7 +4254,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90201] = {
 		cannon = 0,
-		name = "青叶",
+		name = "Aoba",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4264,7 +4417,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90202] = {
 		cannon = 0,
-		name = "衣笠",
+		name = "Kinugasa",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4427,7 +4580,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90203] = {
 		cannon = 0,
-		name = "妙高",
+		name = "Myoukou",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4580,7 +4733,7 @@ pg.enemy_data_statistics_7 = {
 	},
 	[90204] = {
 		cannon = 0,
-		name = "那智",
+		name = "Nachi",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4688,166 +4841,6 @@ pg.enemy_data_statistics_7 = {
 							0.27,
 							2.17,
 							1.99
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90205] = {
-		cannon = 0,
-		name = "筑摩",
-		type = 3,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90205,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "zhumo",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "zhumo",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 3,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.24,
-					0.73,
-					0
-				}
-			},
-			plane = {
-				{
-					0.76,
-					0.53,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.12,
-							0.57,
-							-0.21
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.4,
-							2.25,
-							2.02
 						}
 					}
 				}

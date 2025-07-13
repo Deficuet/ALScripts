@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "在飞船与列车的协作下，区域中的敌人数量正在大幅减少。",
+			say = "The Mesektet's and the train's combined efforts managed to bring down a significant number of airborne enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "感受到压力大减的狮开始尝试与对面的列车通信，然后迅速得到了回应。",
+			say = "When Lion determined they'd gained enough breathing room, she contacted the train, and they immediately answered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,11 +96,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "对面的朋友，你们好。",
+			say = "Good evening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "我是代表皇家的伊丽莎白女王，「永日计划」的发起人之一。",
+			say = "I am Queen Elizabeth, one of the original proponents of the Eternal Sun Project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "这辆列车是女王之光号列车，我们收到了你们的求援信号，并且遵循盟约而来。",
+			say = "This train is called the Queen's Light. We heard your distress signal and were obliged by oath to come and assist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "很高兴这里还有抵抗力量存在，你们没事吧？",
+			say = "I'm glad there is still an active resistance here. What's your status?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,9 +170,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "勇气",
+			actorName = "Gallant",
 			hidePaintObj = true,
-			say = "总督大人，她说她叫伊丽莎白，而且是遵循盟约而来……（小声）",
+			say = "Psst! Miss Governor! She said she's Elizabeth and claims she came because of an oath...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,9 +185,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "特立尼达",
+			actorName = "Trinidad",
 			hidePaintObj = true,
-			say = "而且，似乎还把我们当成本地人了哦……（小声）",
+			say = "She seems to have mistaken us for the natives of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,9 +200,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			hidePaintObj = true,
-			say = "她提到的「永日计划」，是不是就是求救信号里提到的「以永日之名」啊……（小声）",
+			say = "I wonder if this \"Eternal Sun Project\" has anything to do with the distress signal – \"in the name of the Eternal Sun.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,9 +215,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			hidePaintObj = true,
-			say = "那岂不是……人家才是正牌盟友，还先我们一步来了这里，科技水平也比我们高得多……（小声）",
+			say = "I think they're the real allies of whoever sent that signal, they got here before us, and their technology is much more advanced than ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,9 +230,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			hidePaintObj = true,
-			say = "……该怎么办，总督大人？（小声）",
+			say = "Miss Governor, what should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "喂？你们好？能听到么？奇怪……通讯器是接通了啊……",
+			say = "Hello? Do you copy? How strange – it does say we're on the line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,9 +259,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			fontsize = 24,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			hidePaintObj = true,
-			say = "总督大人，快说点什么啊……（小声）",
+			say = "Miss Governor, please say something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "咳……通讯器没问题。",
+			say = "Ahem. We hear you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "伊丽莎白阁下……对吧？你好，我是来自日不落帝国的狮，在帝国内的身份为尼罗河总督。",
+			say = "Lady Elizabeth, is it? I am Lion, and I serve the Realm of the Neversetting Sun. I am the governor of the Nile in my home world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "你好，狮阁下。本王初来乍到，急需了解这个世界。",
+			say = "Good to meet you, Lion. We only just arrived here, so we know nothing about your situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "你可以整理一下现在世界的局势、皇家残存的力量，以及敌人的情报给本王么，越快越好。",
+			say = "I want all the information you have about this world, its Royal Navy's remaining forces, and the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呃………",
+			say = "Hrmh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "你的声音听上去有些困惑，有什么不方便之处么？",
+			say = "Did you just grunt? Is something the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "其实……我们和你一样，也是在收到了求援信号后组织力量前来的救援队。",
+			say = "Well, you see, we also came here after receiving a distress signal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "因此我们同样一无所知，也急需找到一个本地人问个明白……",
+			say = "We know almost nothing about this world, just like you. In fact, we've been looking for someone from here who could explain things to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "通讯器另一头经历了短暂的沉默，然后，声音重新响了起来。",
+			say = "The other end of the line fell silent for a while before speaking up again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "……没想到竟然会是这样，那现在的局势确实足够令人困惑。",
+			say = "...This is NOT what I was expecting. What a confusing mess this is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "而且，不仅如此……你叫伊丽莎白女王对么？",
+			say = "There's more. You said your name was Queen Elizabeth, did you not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "其实……我们还是第一次见到活着的伊丽莎白……",
+			say = "This is my first time meeting you. Alive, I mean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,21 +437,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "通讯器另一头再次经历了短暂的沉默。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_538",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 205010,
-			say = "那还，真是本王的荣幸。看来你们的世界也有着复杂的历史啊……",
+			say = "Again, the other side fell silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "不过现在不是谈这些的时候，既然我们都是回应了求援信号而来的救援队，那我们合作行动吧。",
+			say = "What an honour. Your world must have quite a complicated history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +465,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "首先解决剩余敌人，然后找一处据点统合情报，从长计议如何？",
+			say = "We'll have to discuss it another time, though. Since we're both here for the same reason, shall we team up?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_538",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 205010,
+			say = "First, let's deal with what remains of these things, then find a safe place and exchange information. Sound good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "没问题，我们合作吧，伊丽莎白阁下。",
+			say = "That it does. Let us work together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "咦……？等等！",
+			say = "Hm? Hang on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "你也察觉到了么，西北方有一支量产型舰队正在向我们的方向靠拢。",
+			say = "So you noticed. Yes, a mass-produced fleet is approaching us from the northwest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "而且天上飞的型号是，皇家的舰载机群……？",
+			say = "What are those things in the air? Royal Navy aircraft?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "不会又是一支前来支援的皇家舰队吧……？",
+			say = "Could they be another force that received the distress signal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "从本王已经了解到的情报来看，这次应该是真的本地幸存者……",
+			say = "No. This time, it's actual survivors from this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205010,
-			say = "……走，打出去，我们去与那支舰队汇合！",
+			say = "Come on, then. Let's deal with these foes, then go and meet up with them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

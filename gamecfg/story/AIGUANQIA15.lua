@@ -10,8 +10,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "哈啊…哈啊…总算…赢了…",
+			actorName = "Kizuna AI",
+			say = "Phew... haah... finally... we won...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然一边寻找躲避毒雾的安全圈，一边战斗是很困难的呢",
+			say = "Trying to find a safe place to fight while avoiding the fog definitely proved to be difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从天而降的补给，还有毒雾…让人想起和长岛一起玩的游戏，的说",
+			say = "Supplies dropping from the sky, and that fog... reminds me of that one game I tried playing with Long Island...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从天上掉下来这种事情只要体验过一次就已经非常足够了…啊哈哈",
+			say = "Falling from the sky like that is something I don't want to experience again... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也不想试第二次了",
+			say = "I ... am in agreement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知为什么，每次捡到装备都有微妙的不同，能力也不太一样，真是很麻烦呢",
+			say = "I'm not sure why, but every piece of equipment that I found was a little different, with some being better than others. How annoying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:13}知道哦！那就是所谓的“随机BUFF”对吧！",
+			say = "I know, right? That's just called RNG!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "{namecode:13}酱还真是什么都知道呢～好棒好棒♪",
+			actorName = "Kizuna AI",
+			say = "Ikazuchi, you really know everything, don't you? So smart~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "什、什么嘛！别把我当小孩子！{namecode:13}可是不折不扣的大人了！",
+			say = "Wh-what's your deal? Don't treat me like a cat! I only know what I know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400030,
 			dir = 1,
-			actorName = "绊爱",
-			say = "啊～真是太可爱了～摸摸～",
+			actorName = "Kizuna AI",
+			say = "Ahhh, so cute~! *rub* *rub*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然逗{namecode:13}玩是没什么关系，不过，爱小姐，通过刚才的战斗，数据应该已经回来了吧？",
+			say = "I don't mind if you dote on Ikazuchi, but... AI, you should have recovered the rest of your data by now, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,9 +179,9 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "啊，没错！好～～大家看好了～！",
+			say = "Ahh... that's right! All right, watch me closely~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,9 +195,9 @@ return {
 			actor = 10400040,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "锵锵～！虚拟玩家绊爱，登场～！",
+			say = "Ta-da~! Super Gamer Kizuna AI, transformation complete~!",
 			flashN = {
 				color = {
 					1,
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，舰装也变成战舰的了。{namecode:6}这边大家都是驱逐舰，这下战力大幅提升了，的说",
+			say = "Woah... your ship rigging turned into battleship-type as well. Since we're all destroyers over here, our firepower just increased by a ton.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！看起来很可靠呢！",
+			say = "AI, you look super duper strong~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战舰绊爱，看起来就很强",
+			say = "Kizuna AI... battleship version... looks really strong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,8 +278,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400040,
 			dir = 1,
-			actorName = "绊爱",
-			say = "呵呵呵，大家就尽管依靠我这艘大船吧！",
+			actorName = "Kizuna AI",
+			say = "Eh heh heh~ watch me closely, and I'll show you what being a capital ship is all about!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（总觉得有点不放心…不过似乎不是说这种话的时候，还是保持沉默吧……）",
+			say = "(I feel like she's going to shoot herself in the foot... but I don't have the heart to say anything... Guess I'll see what happens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

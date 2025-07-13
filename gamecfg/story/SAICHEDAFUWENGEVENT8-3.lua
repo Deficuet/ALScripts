@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在比赛中使用了氮气加速，前进三格"
+			say = "Nitro boost! Now this is true speed...! Move forward 3 spaces!"
 		}
 	}
 }

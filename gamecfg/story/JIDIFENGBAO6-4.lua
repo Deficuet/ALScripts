@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "BOOOOOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一枚炮弹从后方射来，在距离二人很近的地方爆炸了。",
+			say = "A shell fired from behind landed dangerously close to the pair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶？怎么会有从这个方向来的攻击，我们被包围了吗……？",
+			say = "It came from behind us. Are we surrounded...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉……可能是我们的量产型把我们也识别成敌人了吧，哈哈……",
+			say = "D-did our mass-produced ships mistake us for the enemy?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这也太危险了！",
+			say = "Umm... We're in danger, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能见度这么低干扰又这么强不，也别太难为它们了。",
+			say = "Can't blame them... The Siren jamming is so strong, and this weather definitely isn't helping.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,9 +138,9 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "……已标记……位置……立即集合……",
+			say = "Rendezvous point... Contact... Coordinates...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~是罗西亚同志的声音，通讯器好像终于有反应了。",
+			say = "That was Rossiya's voice! Thank goodness the communicator is working...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不单单是通讯，甚至连风雪好像也变弱了……",
+			say = "Phew... Oh! It's cool that the communicator is fixed, but look. The snow is thinning out, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来「镰鼬」分队的行动成功了啊，太好了~",
+			say = "Maybe the Weasel unit cleared their objective! Ugh, thank the stars for that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是明斯克，我已经和伏尔加汇合，通讯似乎正在恢复，请再次发送集合位置。",
+			say = "This is Minsk. Volga and I have joined up again, and our communication line seems to be recovering! Please give us the coordinates of the rendezvous point!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "苏维埃罗西亚已收到，集合位置已再次发送。",
+			say = "This is Sovetskaya Rossiya. I've sent the coordinates.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "干扰正在减轻，清除者的量产型机体也已被再次击退。",
+			say = "Perhaps due to the weakening interference, Omitter's vessel has retreated for the time being.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的任务目标不变，继续向北极要塞方向接近。",
+			say = "We will continue the mission. Once we've all regathered, we resume our march toward the Polar North stronghold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "了解~",
+			say = "Roger that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，大家都没事！",
+			say = "Everyone's okay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			BlackBg = true,
 			nameColor = "#A9F548FF",
-			say = "是呀，我们也该去和大家汇合咯——",
+			say = "Yeah! Let's go meet them right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1

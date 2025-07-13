@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欢迎，{dorm3d}——嘿嘿……差点忘了，这里可不是工作的场合哦Honey~不如一起放松一会儿吧！",
+			say = "Welcome, Commander! Haha... Oopsie, I forgot we aren't at work! Let's take a load off, honey!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello1",
 			typewriter = {
 				speed = 0.05,

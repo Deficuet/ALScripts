@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "按照约定的时间来到了酒馆，推门而入后，看见匹兹堡已坐在桌子上等待着。",
+			say = "When I enter the tavern at the arranged time, I find Pittsburgh already sitting at a table.",
 			bgm = "story-richang-westdaily",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~你迟到了，赏金猎人。",
+			say = "Heheheh. You're late, bounty hunter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "匹兹堡轻轻摇晃着腿，对我露出了笑容。",
+			say = "She crosses her legs and smiles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？这是第三幕的台词，看来匹兹堡已经入戏了。）",
+			say = "(Hm? Isn't that a line from Act 3? She's already gotten into her role...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不算迟，毕竟我们等的人还没有来。",
+			say = "Not quite. The one I'm waiting for isn't here yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "按照剧本上的编排，一边说着台词，一边走位到了匹兹堡身前。",
+			say = "I reply with my line and approach her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样么~？那……",
+			say = "Really? In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在等待的时间里，不妨做些什么解解闷？",
+			say = "How's about you and I pass the time together 'till then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……这是即兴发挥？）",
+			say = "(She's improvising now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "匹兹堡轻轻地抓住了我的衣袖，身体朝我倾来。",
+			say = "She takes me by the sleeve and leans in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "温热的气息洒落在我的颈侧，周围的空气似乎也跟着升温。",
+			say = "Her breath hits my neck. It feels like the room is getting hotter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么不说话了呢，赏金猎人？是不知道该做些什么吗~？",
+			say = "Say, bounty hunter... Cat got your tongue? Not sure what to say or do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "她手中的道具枪枪口抵住了我的胸口，轻轻地碾着我的外套往下滑。",
+			say = "She presses her prop gun's muzzle against my collar and then lowers it down to my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这已经超出即兴发挥的范畴了吧……？接下来的剧情不需要这种展开吧？）",
+			say = "(This is going a little far for improv... I mean, this isn't even part of the story, is it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~那就让我来教你吧，解·闷·的·方·式♡~",
+			say = "Then let me tell you... how we can kill some time♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "她脸上带着淡色的红晕，双眼中是呼之欲出的情感。",
+			say = "Flushed cheeks, eyes burning with passion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这个状态……她难道是……）",
+			say = "(Wait a second. Is she...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~你的心跳很快哦~？",
+			say = "Heehee♡ Your heart's just pounding, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是不是因为窗户开着，外面还有其他同伴经过……所以更有感觉了一些~？",
+			say = "Is it because the window's open, and people can look in and see us? Did that excite you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "匹兹堡……",
+			say = "Pittsburgh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,18 +284,18 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我在听哦，你想对我做些什么呢~？我都可以满足你哦~",
+			say = "Go on, I'm listening. What do you wanna do to me? I'm ready to satisfy♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你喝果汁了？",
+					content = "How much juice have you drank?",
 					flag = 1
 				},
 				{
-					content = "要不要先去休息一下？",
+					content = "Consider cooling down a little...?",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "握住了匹兹堡手中的道具枪，阻止了她继续下滑的动作。",
+			say = "I grab the barrel of her prop gun before it can touch any... inappropriate places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们现在可是在排练！排练！快点进入状态啊，指挥官~",
+			say = "Commander, this is a rehearsal. Get into an acting mood already~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "少女带着一些鼻音，发出不满地抱怨。",
+			say = "She huffs unhappily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你已经醉了。",
+			say = "You're drunk, Pittsburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没醉~真是的~",
+			say = "I'm not drunk~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "她用力向后一扯，想从我的手中抽出那把道具枪。",
+			say = "While we struggle over the gun, a wooden cask next to me falls over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "在拉扯之间，脚边的木桶翻倒在地，流出了少量的橙色液体。",
+			say = "An orange liquid spills out of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这木桶里的是橙汁……？",
+			say = "Is that orange juice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~天气太热了，在拍摄的间隙忍不住就多喝了几口……",
+			say = "Yep~ It's too hot, so I drank a little between shoots...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反正现在还是排练~指挥官要喝点橙汁解解渴么？",
+			say = "It's still just a rehearsal... If you're thirsty, have a drink~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……是不是已经被我喝完了？",
+			say = "Oh... Did I drink it all already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,91 +448,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "她作势要去查看木桶，不过下一刻身体便摇晃着靠在了我的身上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_160",
-			live2d = true,
-			dir = 1,
-			actor = 103281,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "尝不到这样鲜甜的橙汁也是有点可惜呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_160",
-			live2d = true,
-			dir = 1,
-			actor = 103281,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "或许我的嘴唇上还残留着橙子的甜味哦……要试试么~？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_160",
-			live2d = true,
-			dir = 1,
-			actor = 103281,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "嗯~？赏金猎人……指挥官……你的身体怎么这么烫……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（是她自己的体温变高了吧……？算了，这个状态下就算和她解释，她也听不进去。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_160",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "先找个地方休息吧，你这个状态也没法排练。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_160",
-			live2d = true,
-			dir = 1,
-			actor = 103281,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "嗯？要去哪里休息呢？楼上就有房间哦，不过……",
+			say = "She tries to look inside the cask, but as soon as she leans forward, she falls toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +463,22 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果只是回去休息睡觉，那也太无聊了，我不去哦~",
+			say = "Such sweet, refreshing orange juice... It's a shame you didn't get some~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_160",
+			live2d = true,
+			dir = 1,
+			actor = 103281,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "There might be a taste of it still on my lips... Wanna try?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +493,76 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除非……",
+			say = "Oh my, bounty hunter... I mean, Commander. You're awfully hot...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(I think she's the one who's heating up... Not that she'd listen when she's in this state.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_160",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "This won't be a very useful rehearsal at this rate. Let's get you somewhere you can rest...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_160",
+			live2d = true,
+			dir = 1,
+			actor = 103281,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Like where? There are rooms upstairs, but...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_160",
+			live2d = true,
+			dir = 1,
+			actor = 103281,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Just going back to my room and sleeping... That's boring. I'll pass on that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_160",
+			live2d = true,
+			dir = 1,
+			actor = 103281,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Except...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "匹兹堡抬眼看向我，绯色的瞳孔中似乎也不尽是醉意。",
+			say = "Her crimson eyes look up at me. There's a gleam behind that glaze of intoxication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除非，你陪我在房间里，一起做些有趣的事情吧♡~",
+			say = "If you do something fun with me... I might change my mind♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

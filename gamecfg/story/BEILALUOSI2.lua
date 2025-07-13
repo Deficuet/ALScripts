@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>二 瞄准目标</size>",
+					"White Gallantry\n\n<size=45>2 Eyes on the Prize</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区",
+			say = "Port - A later date",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "和秘书舰贝拉罗斯一起巡视港区的时候……",
+			say = "Belorussiya and I were out on an inspection around the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，又没中！雷鸣，你还有钱吗？",
+			say = "Dang it, that's the 30th bust in a row! I can't believe my luck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经抽了30张二等奖，只剩最后一张奖券了！",
+			say = "Gremyashchy, do you have any money left? If I could just buy the last ticket, we'd be guaranteed first prize!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "已经没了。这种抽奖又不是你想抽就能抽到的…",
+			say = "Nope, I'm all out. Talk about bad luck, burning through 30 tickets then not having enough for the last one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵！都是运气喵！",
+			say = "That's RNG for you, nya! You win some, you lose some, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "似乎是{namecode:98}正在举办抽奖活动的样子…",
+			say = "We came across Akashi, who had set up a lottery and was selling tickets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也有兴趣吗？",
+			say = "Want to try your luck, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "还没被抽出来的奖券只剩最后一张了。如果买下来的话，那张将100%会是一等奖。",
+			say = "There was but one lottery ticket left. We're guaranteed the first prize if we buy it, I reasoned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "不过这样对洪亮她们来说是不是太残忍了点…",
+			say = "I felt that would be mean to Gromky and Gremyashchy, though. After all, they'd spent all their money trying to get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "听完这些，贝拉罗斯一瞬间露出了惊讶的表情，然后又恢复到了平时的神态。",
+			say = "When I pointed this out to Belorussiya, she took on an astonished look. The next moment, her expression returned to its default nonchalant state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就由我来买下吧，然后我再想办法把奖品分给大家，怎么样？",
+			say = "If you won't do it, then I will do it for you. I will share the prize with our comrades, so you need not feel guilt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……好，就这么办。等我一下，我这就去买。",
+			say = "No objections? Good. Then stay here. I'll be right back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "就交给贝拉罗斯好了。",
+			say = "I decided to let Belorussiya go ahead with her plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "久等了，把一等奖抽出来了",
+			say = "I'm back. With first prize, of course.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "贝拉罗斯拿着一个小信封回来了",
+			say = "Belorussiya returned, holding a small envelope in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，真的要把一等奖分给大家吗？这个又不是指挥官同志和贝拉罗斯使坏才拿到的！",
+			say = "Are you sure you wanna give it to us, Comrade Commander? It's not like Belorussiya cheated or stole it from us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不、不用太在意我们的……嗯，没事的。",
+			say = "You don't exactly owe it to us... Mm, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果没听见你们在那边喊就剩一张了的话，我和指挥官同志也不会去抽这个奖券吧。放心告诉大家吧，没事的。",
+			say = "We don't, but we insist even so. I wouldn't have known that was the last ticket if you hadn't said it. Take it, and share it with all our comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "也没多少钱，交给贝拉罗斯应付就好了。",
+			say = "The ticket didn't cost much anyway, so I was fine with giving the prize away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "star_level_bg_113",
 			dir = 1,
 			blackBg = true,
-			say = "说起来，这个一等奖到底是什么来着……？",
+			say = "Come to think of it, they didn't even say what the prize was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

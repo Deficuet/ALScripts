@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_ryza_item = {
 	{
 		rarity = 4,
-		display = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
-		name = "神杆慈悲",
+		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
+		name = "Divine Fishing Rod",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 1,
@@ -17,14 +17,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 4
 		}
 	},
 	{
 		rarity = 4,
-		display = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
-		name = "蓝炎烧杖",
+		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
+		name = "Blue Bomb Rod",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 1,
@@ -37,14 +37,14 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 3
 		}
 	},
 	{
 		rarity = 4,
-		display = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
-		name = "黄金之斧",
+		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
+		name = "Golden Axe",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -58,14 +58,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 2
 		}
 	},
 	{
 		rarity = 4,
-		display = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
-		name = "寂静镰刀",
+		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
+		name = "Silent Sickle",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -79,14 +79,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 1
 		}
 	},
 	{
 		rarity = 4,
-		display = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
-		name = "激光切割器",
+		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
+		name = "Laser Cutter",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -102,14 +102,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 5
 		}
 	},
 	{
 		rarity = 2,
-		display = "在沙滩相对容易发现的贝类。含有适量的盐分，直接烤一下就很好吃。",
-		name = "普鲁姆鲁螺",
+		display = "A shellfish commonly found near beaches. Roast it over an open flame and dig in for a delicious meal.",
+		name = "Pourpremoule",
 		type = 1,
 		id = 6,
 		icon = "ryza_item_6",
@@ -119,7 +119,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"Obtained through: Gathering Site TH4 - The Desolate Capital",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -151,8 +151,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "栖息在河川和湖泊中的淡水鱼，是常见鱼类之一。",
-		name = "沙丁鱼",
+		display = "A freshwater fish found in rivers and lakes. It is a common sight on the dinner table.",
+		name = "Sardine",
 		type = 1,
 		id = 7,
 		icon = "ryza_item_7",
@@ -162,7 +162,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"Obtained through: Gathering Site TH4 - The Desolate Capital",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -194,8 +194,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "据说栖息于湖底最深处，是湖中的鱼类之主。",
-		name = "湖底之主",
+		display = "The lord of all fish that live in lakes.",
+		name = "Lake Master",
 		type = 1,
 		id = 8,
 		icon = "ryza_item_8",
@@ -205,7 +205,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"Obtained through: Gathering Site TH4 - The Desolate Capital",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -242,8 +242,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "如结晶般透明的石头碎片。碎片种类包罗万象，从普通石头到矿石都有，甚至会有高级宝石混在其中。",
-		name = "小晶石",
+		display = "A collection of transparent stone fragments. It includes a variety of materials, including rare and expensive jewels.",
+		name = "Small Crystals",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -254,7 +254,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"Obtained through: Gathering Site TH3 - The Castle of Strife",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -284,8 +284,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "敲碎岩石时可采集到的砂，散发出挥发性气体的气味，一点火就会燃烧。",
-		name = "可燃之砂",
+		display = "Sand that can be collected by pulverizing rocks. It smells like a volatile gas and burns up when lit.",
+		name = "Burning Sand",
 		type = 1,
 		id = 10,
 		icon = "ryza_item_10",
@@ -295,7 +295,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"Obtained through: Gathering Site TH3 - The Castle of Strife",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -327,8 +327,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "由熔岩矿粉碎而成的粉末状物质。虽为粉末，但仍具有熔岩特质，因此仅是闲置在旁就有发热或起火的危险。要是被风吹走，估计会酿成悲剧。",
-		name = "岩浆粉",
+		display = "Crushed lava ore in a powdered form. Even as a powder, it's still magma and may suddenly combust if left unattended. It will be a disaster if you let it get scattered by the wind.",
+		name = "Magma Powder",
 		type = 1,
 		id = 11,
 		icon = "ryza_item_11",
@@ -338,7 +338,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"Obtained through: Gathering Site TH3 - The Castle of Strife",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -370,8 +370,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "只是杂草。唯一的特点就是无所不在，所以只被称为杂草。由于太常见，因此也常被列入炼金术的配方。",
-		name = "无名草",
+		display = "A common weed that grows absolutely everywhere. It has no distinct features, which is why it doesn't have a proper name. At the same time, it's also a staple ingredient in a large number of alchemy recipes.",
+		name = "Nameless Grass",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -382,7 +382,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"Obtained through: Gathering Site TH1 - The Land of Beginnings",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -407,8 +407,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "形状像鸟类翅膀的叶片。因为很轻，只要风一吹就会打转飘走。",
-		name = "翼叶草",
+		display = "A plant with leaves that resemble a bird's wings. They are very light and are easily carried around by the wind.",
+		name = "Wing Plant",
 		type = 1,
 		id = 13,
 		icon = "ryza_item_13",
@@ -418,7 +418,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"Obtained through: Gathering Site TH1 - The Land of Beginnings",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -450,8 +450,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "和一般通草不同，是红黑色的。通常认为是因生长在含有铁质的土壤中才会变成这个颜色。特征是即使刚砍下来尚未干燥，一旦靠近火源也会烧得很旺。",
-		name = "血红通草",
+		display = "This type of Taun is distinct from regular Tauns due to its reddish-black coloration, which comes from the fact that it only grows in soil rich in iron. It is very flammable, even when it hasn't been dried.",
+		name = "Blood Taun",
 		type = 1,
 		id = 14,
 		icon = "ryza_item_14",
@@ -461,7 +461,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"Obtained through: Gathering Site TH1 - The Land of Beginnings",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -498,8 +498,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "拥有雷之力的矿石。经常在雷雨多发之地、山丘等高处挖掘到。据说是因落雷导致岩石变质，进而产生这种矿石。",
-		name = "闪电矿",
+		display = "A seemingly normal ore that hides the power of lightning. It's most often found at high areas where thunderstorms are common. Some believe the ore was transformed after being struck by lightning.",
+		name = "Lightning Ore",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -510,7 +510,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"Obtained through: Gathering Site TH2 - The Underworld Grove",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -535,8 +535,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "巨大陨石的碎片。这种碎片必定成对存在，而且两者之间有着无论相隔多远都能超越空间相系的连结。只要利用这点就能进行空间移动……也说不定。",
-		name = "引导之星碎片",
+		display = "A fragment of a gigantic meteor. They always come in pairs, and are connected no matter how far they are from each other. Some say you can use them to teleport... maybe.",
+		name = "Star Fragment",
 		type = 1,
 		id = 16,
 		icon = "ryza_item_16",
@@ -546,7 +546,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"Obtained through: Gathering Site TH2 - The Underworld Grove",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -583,8 +583,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "内部闪耀七彩光辉且带有透明感的矿石。强度与其他矿石天差地别，据说无法使用正常方法进行加工。",
-		name = "圣石",
+		display = "A rainbow-colored ore that glows from within. Despite its appearance, it's actually one of the hardest known ores. In fact, it's nearly impossible to process using conventional means.",
+		name = "Septrin",
 		type = 1,
 		id = 17,
 		icon = "ryza_item_17",
@@ -594,7 +594,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"Obtained through: Gathering Site TH2 - The Underworld Grove",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -626,8 +626,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "从核心区挖掘获得的未知结晶。质地坚硬，其中融合了各种元素的能量，或许是不错的炼金素材？",
-		name = "未知结晶矿",
+		display = "A strange crystal ore collected from the Central Foundation. It's durable, contains energy from all elements, and might serve as a good alchemy material.",
+		name = "Strange Crystal Ore",
 		type = 4,
 		id = 18,
 		icon = "ryza_item_18",
@@ -640,7 +640,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"Obtained through: Gathering Site TH5 - The Central Foundation",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -687,8 +687,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "拆解核心区残骸获得的神秘装甲板，坚韧光洁的白色外壳显然经过各种元素的淬炼，似乎可以作为高阶炼金素材来使用。",
-		name = "未知装甲板",
+		display = "An armor plate salvaged from a wreck in the Central Foundation. Its hard, splendid white surface appears to have been tempered using all elements. It may be useful as a potent alchemy material.",
+		name = "Strange Armor Plate",
 		type = 4,
 		id = 19,
 		icon = "ryza_item_19",
@@ -701,7 +701,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"Obtained through: Gathering Site TH5 - The Central Foundation",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -748,8 +748,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "古代遗迹守护者的动力来源。即使离开了守护者的躯体，依然在向外散发着仿佛无穷无尽的能量。",
-		name = "未知能源核心",
+		display = "A core that powered the guardian of the ancient ruins. Even after being taken out of the guardian, it continues releasing energy, seemingly never running out.",
+		name = "Strange Energy Core",
 		type = 4,
 		id = 20,
 		icon = "ryza_item_20",
@@ -762,7 +762,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"Obtained through: Gathering Site TH5 - The Central Foundation",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -809,8 +809,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "小瓶中封存了以炼金术人工制造的精灵之力。可适应任何属性，却不易使用。",
-		name = "精灵的小瓶",
+		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
+		name = "Spirit Bottle",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 1,
@@ -825,7 +825,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 210
 		},
 		normal_circle = {
@@ -838,8 +838,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为红色液体，与火属性素材的契合度高。",
-		name = "中和剂·红",
+		display = "A common alchemic compound. A red liquid with fire affinity.",
+		name = "Red Neutralizer",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -851,7 +851,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 220
 		},
 		normal_circle = {
@@ -864,8 +864,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为蓝色液体，与冰属性素材的契合度高。",
-		name = "中和剂·蓝",
+		display = "A common alchemic compound. A blue liquid with ice affinity.",
+		name = "Blue Neutralizer",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -877,7 +877,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 230
 		},
 		normal_circle = {
@@ -890,8 +890,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为黄色液体，与雷属性素材的契合度高。",
-		name = "中和剂·黄",
+		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
+		name = "Yellow Neutralizer",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -903,7 +903,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 240
 		},
 		normal_circle = {
@@ -916,8 +916,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为绿色液体，与风属性素材的契合度高",
-		name = "中和剂·绿",
+		display = "A common alchemic compound. A green liquid with wind affinity.",
+		name = "Green Neutralizer",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -929,7 +929,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 250
 		},
 		normal_circle = {
@@ -942,8 +942,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "从四种元素核心制作而成的最高阶素材之一。具备全属性与高属性值，进行高阶调合时可派上用场。",
-		name = "核水晶元素",
+		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
+		name = "Crystal Element",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 3,
@@ -958,7 +958,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 260
 		},
 		normal_circle = {
@@ -971,8 +971,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "代表异界之森的遗迹之钥，匙柄上镶嵌有粉色的托帕石。握在手中，会让人想起这片森林曾经葳蕤的岁月。",
-		name = "遗迹之钥·异界之森",
+		display = "A key that's symbolic of the Underworld Grove. Its handle is embellished with a light-pink topaz, evoking the image of a once lush forest when holding it.",
+		name = "Underworld Grove Key",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -985,14 +985,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56202
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表起始之地的遗迹之钥，匙柄上镶嵌有无暇的钻石。愿冒险之人的本心始终如钻石般洁白无暇。",
-		name = "遗迹之钥·起始之地",
+		display = "A key that's symbolic of the Land of Beginnings. Its handle is embellished with a flawless diamond that's as etermally pure as the hearts of those who seek out adventure.",
+		name = "Land of Beginnings Key",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1005,14 +1005,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56201
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表失落之都的遗迹之钥，匙柄上镶嵌有青翠的祖母绿。比起宝藏本身，寻找宝藏的过程才是冒险者真正的财富。",
-		name = "遗迹之钥·失落之都",
+		display = "A key that's symbolic of the Desolate Capital. Its handle is embellished with a turquoise emerald, reminding you that the true reward of an adventure is not gold and silver, but rather the journey itself.",
+		name = "Desolate Capital Key",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1025,14 +1025,14 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56204
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表争斗之城的遗迹之钥，匙柄上镶嵌有绚烂的红宝石。往昔的残酷真相，或许已经伴着时间溶解在其中。",
-		name = "遗迹之钥·争斗之城",
+		display = "A key that's symbolic of the Castle of Strife. Its handle is embellished with a dazzling ruby, making you wonder if the long-buried brutal truth has forever been lost to the sands of time.",
+		name = "Castle of Strife Key",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1045,14 +1045,14 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56203
 		}
 	},
 	{
 		rarity = 5,
-		display = "借助炼金术融合四把钥匙之后形成的类似门卡的装置，形状似乎能与核心之所大门上的凹槽完美对应。",
-		name = "遗迹之钥·核心之所",
+		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
+		name = "Central Foundation Key",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1068,14 +1068,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 190
 		}
 	},
 	{
 		rarity = 4,
-		display = "累计收集「遗迹水晶簇」10000点获得的纪念徽章，用来调合「遗迹冒险之证」的必要素材",
-		name = "徽章·遗迹水晶簇",
+		display = "Obtained by gathering 10,000 Crystal Clusters. This item is required to make the Ruins Explorer Sculpture.",
+		name = "Crystal Cluster Badge",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1089,14 +1089,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56217
 		}
 	},
 	{
 		rarity = 4,
-		display = "成功开发温泉获得的纪念徽章，用来调合「遗迹冒险之证」的必要素材",
-		name = "徽章·温泉开发战",
+		display = "Obtained by playing Operation Hot Spring for seven days. This item is required to make the Ruins Explorer Sculpture.",
+		name = "Operation Hot Spring Badge",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1110,14 +1110,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56228
 		}
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得炮击、航空、雷击属性提高的效果",
-		name = "输出提升核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
+		name = "Offense Boost Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1132,7 +1132,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 270
 		},
 		benefit_buff = {
@@ -1143,8 +1143,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得伤害降低的效果",
-		name = "防御提升核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
+		name = "Defense Boost Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1159,7 +1159,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 280
 		},
 		benefit_buff = {
@@ -1170,8 +1170,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得恢复耐久的效果",
-		name = "缓慢修复核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
+		name = "Regeneration Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1186,7 +1186,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 290
 		},
 		benefit_buff = {
@@ -1197,8 +1197,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得损伤管控的效果",
-		name = "损伤管控核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
+		name = "Damage Control Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1213,7 +1213,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 300
 		},
 		benefit_buff = {
@@ -1224,8 +1224,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得点燃弹幕支援的效果",
-		name = "点燃支援核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
+		name = "Covering Fire Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1240,7 +1240,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 310
 		},
 		benefit_buff = {
@@ -1251,8 +1251,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得易伤弹幕支援的效果",
-		name = "易伤支援核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
+		name = "Anti-Armor Volley Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1267,7 +1267,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 320
 		},
 		benefit_buff = {
@@ -1278,8 +1278,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得经验提升的效果",
-		name = "经验提升核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
+		name = "Experience Boost Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1294,7 +1294,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 330
 		},
 		benefit_buff = {
@@ -1305,8 +1305,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得好感提升的效果",
-		name = "好感提升核心",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
+		name = "Affinity Boost Core",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1321,7 +1321,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"Obtained through: Synthesis",
 			recipeid = 340
 		},
 		benefit_buff = {
@@ -1330,8 +1330,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「闪耀梦想」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「闪耀梦想」的调合。",
-		name = "模块-闪耀梦想",
+		display = "A core component of Augment Module - Sparkling Reverie. Can be used in synthesis.",
+		name = "Sparkling Reverie Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1344,7 +1344,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56201
 		},
 		base_circle = {
@@ -1357,8 +1357,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「暗夜星矢」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「暗夜星矢」的调合。",
-		name = "模块-暗夜星矢",
+		display = "A core component of Augment Module - Astrumnox. Can be used in synthesis.",
+		name = "Astrumnox Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1371,7 +1371,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56202
 		},
 		base_circle = {
@@ -1384,8 +1384,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「百花盛开」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「百花盛开」的调合。",
-		name = "模块-百花盛开",
+		display = "A core component of Augment Module - Grand Floracion. Can be used in synthesis.",
+		name = "Grand Floracion Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1398,7 +1398,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56204
 		},
 		base_circle = {
@@ -1411,8 +1411,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「爱瑟尔剑」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「爱瑟尔剑」的调合。",
-		name = "模块-爱瑟尔剑",
+		display = "A core component of Augment Module - Edel Schwert. Can be used in synthesis.",
+		name = "Edel Schwert Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1425,7 +1425,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56203
 		},
 		base_circle = {
@@ -1438,8 +1438,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「百合长老」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「百合长老」的调合。",
-		name = "模块-百合长老",
+		display = "A core component of Augment Module - Elder Lily. Can be used in synthesis.",
+		name = "Elder Lily Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1452,7 +1452,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56213
 		},
 		base_circle = {
@@ -1465,8 +1465,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「幽兰爪」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「幽兰爪」的调合。",
-		name = "模块-幽兰爪",
+		display = "A core component of Augment Module - Oren Herald. Can be used in synthesis.",
+		name = "Oren Herald Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1479,7 +1479,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56223
 		},
 		base_circle = {
@@ -1492,8 +1492,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「炙烈炎烧」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「炙烈炎烧」的调合。",
-		name = "模块-炙烈炎烧",
+		display = "A core component of Auxiliary Gear - Grand Bomb. Can be used in synthesis.",
+		name = "Grand Bomb Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1505,7 +1505,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56208
 		},
 		base_circle = {
@@ -1518,8 +1518,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「结晶冰精」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「结晶冰精」的调合。",
-		name = "模块-结晶冰精",
+		display = "A core component of Auxiliary Gear - Crystal Ice Bomb. Can be used in synthesis.",
+		name = "Crystal Ice Bomb Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1531,7 +1531,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56209
 		},
 		base_circle = {
@@ -1544,8 +1544,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「震耳雷球」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「震耳雷球」的调合。",
-		name = "模块-震耳雷球",
+		display = "A core component of Auxiliary Gear - Laute Plajig. Can be used in synthesis.",
+		name = "Laute Plajig Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1557,7 +1557,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56207
 		},
 		base_circle = {
@@ -1570,8 +1570,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「涡旋风精」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「涡旋风精」的调合。",
-		name = "模块-涡旋风精",
+		display = "A core component of Auxiliary Gear - Wirbel Luft. Can be used in synthesis.",
+		name = "Wirbel Luft Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1583,7 +1583,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56206
 		},
 		base_circle = {
@@ -1596,8 +1596,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「创世之槌」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「创世之槌」的调合。",
-		name = "模块-创世之槌",
+		display = "A core component of Auxiliary Gear - Genesis Hammer. Can be used in synthesis.",
+		name = "Genesis Hammer Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1610,7 +1610,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板第二日任务奖励",
+			"Obtained through: Day 2 request completion rewards",
 			taskid = 56230
 		},
 		base_circle = {
@@ -1623,8 +1623,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「泡云弹车」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「泡云弹车」的调合。",
-		name = "模块-泡云弹车",
+		display = "A core component of Auxiliary Gear - Bubble Bullet. Can be used in synthesis.",
+		name = "Bubble Bullet Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1637,7 +1637,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板第二日任务奖励",
+			"Obtained through: Day 2 request completion rewards",
 			taskid = 56231
 		},
 		base_circle = {
@@ -1650,8 +1650,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「Ｎ／Ａ」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「Ｎ／Ａ」的调合。",
-		name = "模块-Ｎ／Ａ",
+		display = "A core component of Auxiliary Gear - N/A. Can be used in synthesis.",
+		name = "N/A Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1664,7 +1664,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板第三日任务奖励",
+			"Obtained through: Day 3 request completion rewards",
 			taskid = 56232
 		},
 		base_circle = {
@@ -1677,8 +1677,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「默示录」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「默示录」的调合。",
-		name = "模块-默示录",
+		display = "A core component of Auxiliary Gear - Apocalypse. Can be used in synthesis.",
+		name = "Apocalypse Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1693,7 +1693,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板第三日任务奖励",
+			"Obtained through: Day 3 request completion rewards",
 			taskid = 56233
 		},
 		base_circle = {
@@ -1706,8 +1706,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「神秘的羽衣」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「神秘的羽衣」的调合。",
-		name = "模块-神秘的羽衣",
+		display = "A core component of Auxiliary Gear - Mystic Robe. Can be used in synthesis.",
+		name = "Mystic Robe Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1720,7 +1720,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56228
 		},
 		base_circle = {
@@ -1733,8 +1733,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「万灵药剂」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「万灵药剂」的调合。",
-		name = "模块-万灵药剂",
+		display = "A core component of Auxiliary Gear - Elixir. Can be used in synthesis.",
+		name = "Elixir Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1747,7 +1747,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56227
 		},
 		base_circle = {
@@ -1760,8 +1760,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「形意口琴」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「形意口琴」的调合。",
-		name = "模块-形意口琴",
+		display = "A core component of Auxiliary Gear - Energianica. Can be used in synthesis.",
+		name = "Energianica Module",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1774,7 +1774,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"Obtained through: Request completion rewards",
 			taskid = 56229
 		},
 		base_circle = {

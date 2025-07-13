@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容Overflow！\n\n<size=45>三、{namecode:162}今天也很高兴！</size>",
+					"A Beaming Smile!\n\n<size=45>Happy to Help!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "办公室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "又是忙碌的一天。",
+			say = "Welp, time to get back into the ring and slog through more documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "盯——",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "可爱的小秘书舰在完成简单的文件整理之后又看向了这边。",
+			say = "Once again, Makinami is peeping at me with evident concern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看来{namecode:162}还在担心啊。",
+			say = "I bet she wants me to divide some of the work with her, but this is far out of her league.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了哦，指挥官！",
+			say = "Pardon our intrusion, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了。",
+			say = "Hello.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，{namecode:70}姐姐，{namecode:72}姐姐！",
+			say = "Oh! Kongou! Haruna!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "见到{namecode:70}和{namecode:72}的{namecode:162}突然就来了精神。",
+			say = "The clouds of concern looming over her clear up in a flash, revealing a bright smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这不是指挥官的小秘书{namecode:162}吗？这是第一次在办公室见到你呢。",
+			say = "Ah, I presume you are presently serving as the Commander's secretary, Makinami?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没给指挥官添麻烦吧？",
+			say = "Can you promise that you will try not to be a burden around the office?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有哦！{namecode:162}每天都会帮指挥官跑腿呢！",
+			say = "Hey, I'm not a burden bird! I'm doing a great job going around retrieving mail and documents and stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，真不错。回去让{namecode:71}姐姐帮你做些好吃的东西怎么样？",
+			say = "Ahah, most excellent. You deserve a reward for your diligence. What do you say I ask Hiei to make you a treat later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的吗？太好了！嘿嘿~",
+			say = "You'd do that for me? Yaaay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，{namecode:70}姐……",
+			say = "Um, Kongou, the package?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，没事，我知道的。{namecode:162}，{namecode:70}姐姐有点事情想拜托你，能把这个送给{namecode:98}姐姐吗？",
+			say = "Of course, I remember. First, Makinami, would you please take this and deliver it to Akashi for us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "交给我吧！我这就出发！……欸？",
+			say = "Sure thing! I'll do it right aw– Wah?! Triple-whoopsie-daisy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心！",
+			say = "Whoa now, what's the hurry? Also, hasn't anyone told you not to run in the office?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 301800,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇，差点又摔跤了呢……谢谢{namecode:72}姐姐啦！我走了！",
+			say = "Oops, hehehe... Thanks for helping me up. Anyway, I'm heading out, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，真是可爱呢。那指挥官，我们进入正题吧。",
+			say = "Take care. Now, Commander, we have a matter to discuss with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯，我要说的就是这些，辛苦你了。想必这几天指挥官也不容易吧，我听{namecode:162}酱说，指挥官每天都要加班到很晚。",
+			say = "...And that concludes our report. Say, Commander... how have you been faring as of late? I have heard some rather troubling things from Makinami.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -435,7 +435,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别看那孩子一直都在笑着，她也是会感到寂寞的呢。如果可以的话，稍微抽点时间陪陪她吧？指挥官，拜托你了。",
+			say = "As for Makinami herself, as sociable as that girl is, she is prone to bouts of loneliness. You should spend more time with her when you have the chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就这样，指挥官，我先告辞了。{namecode:72}，我们走吧？",
+			say = "That is all for now. Until next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "下次在工作途中抽点时间陪一下{namecode:162}吧。",
+			say = "Kongou's right. I can't just leave her feeling anxious all the time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

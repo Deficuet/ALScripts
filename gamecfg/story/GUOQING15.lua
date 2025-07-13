@@ -31,7 +31,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐！！！你平安无事真是太好…",
+			say = "Sis! Thank god you're o...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "......棋子...么",
+			say = "Not you too...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……为什么，你们为什么要这样做",
+			say = "... Why are you doing this?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "如果想要神明赐予更多恩惠，献上优质的祭品是理所应当的吧~",
+			say = "An exquisite sacrifice is needed so that the Creator will continue gracing us with his blessings.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -131,7 +131,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "这一切，都是为了重樱的未来",
+			say = "This is all for the sake of the Sakura Empire's future.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "......“重樱的未来”...呵，这一句话，你们还要欺骗我们多少次...",
+			say = "... \"The Sakura Empire's future\"... How many times do you think you can fool people with those words?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -169,7 +169,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "居然不惜将同胞作为实验素材也要得到的力量.....",
+			say = "And it doesn't stop at lying! Now you've dragged our people in your twisted experiments!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -188,7 +188,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "这种被诅咒的力量根本不可能是神的恩赐，它是不会给我们带来未来的！",
+			say = "That cursed power is no gift from the gods! It won't deliver us our future!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -207,7 +207,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "从第一次出手，我就隐约察觉了你们的企图",
+			say = "I knew it... I knew all along that what you two were doing was crazy.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -226,7 +226,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "而这一次，我很生气，因为，你们选错了下手的目标",
+			say = "And by forcing my sister into your dirty little schemes, you've made me really, REALLY mad!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -246,7 +246,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "呵呵呵，在此之前，不如好好想想怎么对付你眼前的这个对手吧～",
+			say = "*Giggle*~ Have you thought about how you're going to defeat the enemy in front of you?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -266,7 +266,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "就算是没有灵魂的躯壳，也将会成为你旅途的终点",
+			say = "We've already offered her soul to the Creator. And now we will turn you into an empty husk as well!",
 			shake = {
 				speed = 1,
 				number = 3

@@ -11,7 +11,7 @@ return {
 			actor = 102100,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…？那边泛着紫色光的东西…是什么？！",
+			say = "Hey, you know what that thing is? The purple glowing one?",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个是…没有任何印象，司令部提供的资料中未见过类似的记录。",
+			say = "Nope. I've never seen any intel on anything like that before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "唔，阿芙乐尔，难道说……",
+			say = "What is that, Avrora...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "那些是你们北方联合在极北之地的特产么…？",
+			say = "Is it some sort of undiscovered Northern Parliament wildlife?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉…我没听说过北方联合还有这种特产。",
+			say = "I don't... believe so, no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "啊哈哈…不对！那些怎么看都是塞壬吧！不要把塞壬当成地区特产啊！！",
+			say = "Did you forget your glasses at home? That's obviously a Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "真是的，八成又是塞壬折腾出的新型号啦！难道这就是白鹰笑话么，真难懂啊…",
+			say = "...Wait, let me guess, you were being sarcastic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到不起眼的要塞里居然隐藏着新型兵器，这次还真是歪打正着了…",
+			say = "The Sirens must've kept this secret weapon in their stronghold... Be careful, everyone! We don't know what to expect!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

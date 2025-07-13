@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡大陆",
+					"Antarctica",
 					1
 				},
 				{
-					"雪原某处",
+					"En Route to the Snowmelt Area",
 					2
 				},
 				{
-					"一段时间后",
+					"Sometime later",
 					3
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噗……",
+			say = "Pfft...",
 			bgm = "story-cccp-soft",
 			flashout = {
 				black = true,
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "噗哈哈……铁血的消息还真不灵通啊！",
+			say = "Ahahah! I can't believe Königsberg believed that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "明明咱们都已经通过矿石样本实现装备升级了……",
+			say = "She really thought Soyuz's rigging just got a little upgrade, rather than being rebuilt from scratch using that crystal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "她们的要塞负责人居然还以为是我们带了厉害装备来调查矿石的……！",
+			say = "I bet she'd also believe it if we said this gear is all mining and survey gear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "从反应上来看，{namecode:421:柯尼斯堡}应该也不清楚白鹰已经在安塔迪卡集结了一支庞大舰队的事。",
+			say = "It didn't seem like she knew the Eagle Union had dispatched a huge fleet either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "铁血的情报工作还是一如既往地符合刻板印象……",
+			say = "Either the signal jamming has left her completely clueless, or she was hiding something from us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "明明是她们自己最先发现矿石的……却处处慢半拍。",
+			say = "Then again, Iron Blood's base is the closest to the crystals, so maybe she's just been blinded by overconfidence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……不过这么说来，我对白鹰所掌握的“独家情报”更加好奇了。",
+			say = "...You know, I still can't believe the Eagle Union sent such a large fleet. And not just mass-produced ships either, but shipgirls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "{namecode:530:同盟}同志，你真的没有任何头绪么？",
+			say = "Soyuz, I know there's something you're not telling us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "关于“融雪区”，你是不是还有一些情报没有告诉我们？",
+			say = "This isn't just about the crystals. You're looking for something else near the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "嗯？你为什么会这么想？",
+			say = "...So you realized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "就算之前所有的理由加在一起，还是没有充分到你非要在这时亲自跑一趟“融雪区”不可。",
+			say = "I knew something was up. You wouldn't travel across the world with a nonfunctional rigging just to see a quarry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那片区域，还有些秘密你没有告诉我们对吧？",
+			say = "Tell us already. What ARE you here for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~是的，那片区域中还有秘密。",
+			say = "I'm sorry. I should have told you sooner. Königsberg, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不过我可以确定，这个秘密白鹰并不知道，也与她们准备舰队的事无关。",
+			say = "In fact, I was supposed to explain this shortly after we arrived on the continent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "其实，这个机密情报我原本打算是等到了之后再告诉你们的。",
+			say = "This led to that, and, well... But you've brought it up now, and we have some time before we reach our destination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过既然你们已经有所察觉，距离目标也不远，先告诉你们也没什么关系。",
+			say = "Let me start by saying that the Eagle Union almost certainly doesn't know what I'm about to tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "北方联合曾经与铁血……我曾经与{namecode:440:腓特烈大帝}合作，在安塔迪卡修建了一座秘密设施。",
+			say = "There is a shelter beneath the snowmelt area. Its construction was a joint effort between us and Iron Blood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "那是一座深入千米冰层之下，可以在地表发生任何灾难时都能保证其中人员安全存活的末日地堡。",
+			say = "It is a doomsday bunker a thousand meters below the surface. It was built to protect all the people inside no matter what calamity was unfolding on the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我称之为「智者之环」。",
+			say = "Its name is, \"The Ring of the Wise.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "「智者之环」的所在位置——就在如今的“融雪区”。",
+			say = "Naturally, I have no reason to believe it had anything to do with the discovery of the rigging-enhancing crystal...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "融雪的真相，或许就与它有关。",
+			say = "However, it might just be the reason why the snow on the surface has started melting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……啊？",
+			say = "I'll be damned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "原来神秘莫测的“融雪区”，竟然是我们自己的设施弄出来的！？",
+			say = "A bunker of ours was responsible for the snowmelt.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "可、这是与铁血的合作项目吧，{namecode:421:柯尼斯堡}为什么会不清楚？",
+			say = "Königsberg seemed completely unaware of it. I take it this is highly classified intel, then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在我告诉你之前，你不也不清楚么？就是这么回事了。",
+			say = "It is. I suspect that even you had never heard a word about it until now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "考虑到这座地堡作为最终避难所的性质，这件事在北方联合和铁血内都是鲜有人知的。",
+			say = "As it should be. Owing to its secret nature, only a very small handful of shipgirls know about its existence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "……没想到融雪的真相竟然是这样，我还以为真的出现了什么未解之谜呢。",
+			say = "A bunker's the cause of it, eh... I thought we had another unsolvable case on our hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "很遗憾，大多数“神秘事件”的背后，真相往往就是这样平平无奇哦~",
+			say = "Happens all too often that a cool mystery has a boring explanation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，这件事倒也没这么简单。",
+			say = "Let's not jump to conclusions. We don't yet KNOW if the Ring created the snowmelt area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "末日地堡虽然是我们修建的，但是其本身应该处于休眠状态才对。",
+			say = "It shouldn't be able to. It's in a dormant state right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "除非被人刻意激活并修改了部分设施的运作逻辑，否则它的散热绝不可能融化周围的冰层，以至于形成如此明显的“融雪区”。",
+			say = "The only way it could cause snowmelt on this scale is if someone deliberately activated and modified certain facilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "更何况还有随着“融雪区”一同出现的矿物与敌人……",
+			say = "Then there is the unidentified enemy and the crystal. Those obviously weren't there during the construction or planning stage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "或许，有人试图想让这一切与北方联合关联起来……",
+			say = "(If other factions are allowed to investigate freely, it's only a matter of time before they discover the bunker.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "虽然我不清楚幕后黑手是谁，目的是什么……但是我嗅到了阴谋的味道。",
+			say = "(Even if the Commander covers for us, Naval HQ will nail us for it.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以这一次，我必须要亲自去调查一下才行。",
+			say = "We have to get to the bottom of all this. This is one mission I cannot sit out on.",
 			painting = {
 				alpha = 0.3,
 				time = 1

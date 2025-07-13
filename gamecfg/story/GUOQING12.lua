@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "这次的任务目标…意外的强大呢…唔，人家明明不是正面作战类型的",
+			say = "The target seems... awfully strong... I thought they know I'm not the type to engage in face to face combat...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "对不起，{namecode:95}姐现在危在旦夕，没有时间陪你玩游戏了，速战速决吧",
+			say = "Sorry, Nowaki, I don't have time to play games. Shoukaku's in danger, so I want to finish this quick.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "虽然是强大的目标…但是{namecode:24}也是意外强大的哦…",
+			say = "You're strong... but I'm also strong...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "航空母舰什么的，也是击沉过很多的哦呵呵…大概…",
+			say = "I've fought carriers before... I can do this... probably...",
 			shake = {
 				speed = 1,
 				number = 3

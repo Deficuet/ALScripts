@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			tbActor = true,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "qe-ova-10",
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……要睡觉……故事……",
+			say = "I'm sleepy... I wanna hear a story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB是喜欢听睡前故事么？太好了，我还以为你不喜欢。",
+			say = "Oh, do you like bedtime stories? That's good to know. I thought you didn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,12 +56,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……喜欢……是什么？",
+			say = "What does... \"like\" mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个问题……得看是哪种类型的喜欢了。",
+			say = "Umm... You can \"like\" in all kinds of ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有对于人的，也有对于事物的，总之就是一种很想保持下去的感觉吧。",
+			say = "There's liking things, then there's liking people. Basically, it's a feeling of wanting that thing or person to never go away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不对……现在和TB说这些，她应该是理解不了的。）",
+			say = "(Hmm... She's probably too young to understand it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（应该换一种表达方式和现在的TB交流的，失策啊失策。）",
+			say = "(I should have explained it differently. That's an error on my part.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "眼前幼小的孩童面无表情地看着我，随后说出了——",
+			say = "The little girl stares at me, no sign of emotion on her face at all, then tells me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,9 +131,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "……{tb}讲故事……喜欢……",
+			say = "I like it... when you read to me.",
 			tbActor = true,
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "嗯，今天一定要讲一个精彩绝伦的故事来回报这份喜欢了！",
+			say = "That's lovely. I'll have to find a first-rate story for her tonight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "校园区·保健室",
+			say = "Clinic",
 			side = 2,
 			bgName = "star_level_bg_138",
 			dir = 1,
@@ -43,12 +43,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在学生真是越来越过分了，居然敢把老师关在保健室里……",
+			say = "Students these days are the worst! I can't believe they'd lock their teacher up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,12 +62,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "现在只是发生点事故就敢把老师关起来，之后敢做什么我都不敢想！",
+			say = "Ugh! You dare do this to your teacher just because we had a bit of an incident? And what do you plan on doing next now that I can't do anything about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,9 +94,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "气死我了……！",
+			say = "...The sheer indignity of it all!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "……这是怎么回事？净化者的记忆没恢复么？",
+			say = "What in the world is going on...? Why's she talking like her memories still haven't come back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与其说没恢复……倒不如说塞壬也会中招么？",
+			say = "How strange... Can Sirens be fooled by their own illusions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………好麻烦，要让塞壬恢复记忆的话，得去回想些什么比较好啊。",
+			say = "Mentioning the Commander helped us regain our memories, but what would stir a Siren's memory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "天知道了……",
+			say = "God knows what. Besides, what if she already got her memories back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就现状而言，怎么看都是个普通老师的样子。",
+			say = "It's possible... but this Purifier is nothing like the vicious beast that we know.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "孟菲斯，给净化者上上课吧，说不定能回忆起来什么呢。",
+			say = "I've got an idea. Memphis, why don't you feed her a bit of our knowledge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我想想…就从塞壬的入侵的时候开始好了。",
+			say = "Starting from the time the Sirens first appeared in our world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "原来如此……塞壬真是坏东西啊！",
+			say = "So, Sirens are the bad guys?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -286,7 +286,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！这就是我们关押你的原因，现在想起来了么！",
+			say = "That's right! That's why we're keeping you on a leash, Purifier!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想起来之后就快告诉我们怎么离开！",
+			say = "Now, tell us how to escape from this Mirror Sea already!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -328,12 +328,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好像确实想起来一些知识……但是没什么实感啊。",
+			say = "...I kind of have a liiiiittle inkling in the back of my mind, but it's really faint still~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,12 +347,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "而且听起来，你们要抓的是塞壬的净化者吧，我是净化亲哦，和我有什么关系！",
+			say = "Putting that aside, isn't your enemy Purifier? What does that have to do with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 10800040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来有道理哦，你们刚才介绍的塞壬净化者和这位净化亲老师无论如何都对不上哎。",
+			say = "She might have a point. The Purifier you were talking about and the Purity in front of us sound pretty different.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不不不，怎么看都是在强词夺理吧。",
+			say = "That's certainly plausible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说不定是演技哦，演技。",
+			say = "Or, maybe she's acting. Hehe.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "绝对是演技……",
+			say = "There's no way she's not acting. She sucks at it too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是，如果真的是那么厉害的净化者，为什么她在被抓之后会老老实实呆在这里不反抗呢。",
+			say = "But see, if I'm really as awesome and powerful as this Purifier person you keep talking about, do you think I'd still be sitting here helplessly?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -457,7 +457,7 @@ return {
 			actor = 306060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这确实有些奇怪……",
+			say = "Hrmmm...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "六花，你觉得呢！",
+			say = "What do you think, Rikka?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -491,7 +491,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？我么……确实感觉不像是在说谎，可能真的只是长得相似的人而已？",
+			say = "Hmm... At least, I don't think she's lying. Maybe she's just a lookalike?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -509,7 +509,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实看起来挺无害的，放着不管大概也没什么关系吧？",
+			say = "She doesn't seem to pose any threat to us right now. Wouldn't it be fine to leave her alone...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_138",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，有千濑发来的消息。",
+			say = "Oh, I just got a message from Chise.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -544,7 +544,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“看到学校方向发生爆炸就赶过来了，大家都没事吧？”",
+			say = "\"I saw that there was an explosion at the school. Is everyone okay?\"",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -562,7 +562,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……额、千濑也来这里了吗…？！",
+			say = "Wait a sec, that means Chise's here too...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这位千濑小姐是……？你认识的人么？",
+			say = "Is she one of your friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，看来应该和我一样也被卷进来了。",
+			say = "Yeah. My guess is that she was roped into this situation, just like us.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -627,7 +627,7 @@ return {
 			hidePaintEquip = true,
 			actor = 306060,
 			nameColor = "#a9f548",
-			say = "也不知道还有多少人被卷进这起事件了，我们还是先把学校彻底搜查一遍好了！",
+			say = "There are probably more people who were roped into this situation. Let's hurry up and find them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

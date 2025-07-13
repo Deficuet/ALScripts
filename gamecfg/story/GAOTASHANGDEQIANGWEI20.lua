@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "作为临近蔷薇塔的区域，威塞克斯战区本就处于光荣·META的绝对控制下。",
+			say = "On account of its proximity to the Rose Tower, the Wessex sector has always been firmly under Glorious' control.",
 			bgm = "theme-lion",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "加之大部分天外之兽群都向着满月之蕾靠近，从蔷薇塔到怀特岛的空中路线显得相当安全。",
+			say = "Furthermore, since almost all the extradimensionals are moving toward the Buds of the New Moon, the airspace between here and the Isle of Wight was comparatively clear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "因此，狮选择驾驶太阳船以最快速度抵近怀特岛，然后全员回到海面，展开作战队形与敌人正面作战的方案。",
+			say = "This allowed Lion to pilot the Mesektet to the Isle in record time. Once we disembarked onto the sea, the shipgirls assumed battle formations and engaged the enemy in direct combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呼~等推进到满月之蕾下，就可以安放伊丽莎白·META阁下提供的高性能炸药了。",
+			say = "Whew... Once we're below the bud, we can set down the high-yield explosives that Elizabeth META supplied us with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "以防万一，我多加了点量，再加上光荣·META女士提供的舰载机支援编队，真可以说是双重保险了~",
+			say = "I brought extra just to be safe, and asked Glorious to provide aerial support. One might call it double insurance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实伊丽莎白·META提供的炸药就足够了，她肯定考虑过留余量问题。",
+			say = "I think her explosives should more than suffice. Knowing her, she probably already gave you more than needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "欸，毕竟事关重大啊，再加上我这次出门的时候确实也带了不少。",
+			say = "Better to be safe than sorry when so much is at stake. I also brought my own bombs for the purpose of the expedition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本是为了开山碎石建立据点准备的，没想到用在炸大家伙上了。",
+			say = "I thought I'd use them to blow up a mountain to make a base or somesuch. Instead, they'll be used to bring down a giant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我们光是建造一个人工奇异点就花费了难以想象的资源，这边随随便便就出现了四百多个“野生”的……",
+			say = "We spent unimaginable amounts of resources to construct just one Singularity, and here are over 400 ones just \"growing in the wild.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "然后，我现在还必须亲手摧毁其中的一个，否则它就会顷刻间毁灭我所珍视的一切。",
+			say = "And now, I must destroy one of them with my own hands, lest everything I hold dear vanish in a heartbeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呵呵，一天之前，我还是在尼罗河畔畅想着新的时代……",
+			say = "Heh... Just yesterday, I was sitting by the bank of the Nile, looking forward to a new era.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "一天之后，我就在与诡异的敌人厮杀，然后面对事关整个世界存亡的危机了……",
+			say = "Today, I'm caught in a battle to the death with an incomprehensible foe, facing a crisis that involves the survival of my world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "怎么说呢，眼前的一切就仿佛一场诡异的梦，让我有种不真实的感觉……",
+			say = "How do I put it? It feels like being in a bizarre dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你说……这种局面让我都心生退意，我回去之后该怎么写这次行动的报告呢……",
+			say = "The situation makes me want to tender my resignation. I have no idea how I will write a report on all this when I return...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种时候还在想报告怎么写？你事业心还真重。",
+			say = "Thinking about writing reports at this time? You must utterly adore your job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……脑子里太乱了，不想点工作实在冷静不下来。",
+			say = "My mind is a mess currently. The only way I can calm myself down is by thinking about work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "你倒是看上去对这种危急时刻很熟悉了啊，有什么经验可以给我借鉴一下吗？",
+			say = "You seem like you're used to high-stakes situations such as this, Your Majesty. Care to share some nuggets of wisdom?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？本王看上去已经很熟悉这种生死危机了么？",
+			say = "Me? Do I really look like I'm taking this well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许是吧，本王也在不知不觉间经历了不少恶战了呢。",
+			say = "Hmm. Perhaps I am. I've been through so many life-or-death battles that I stopped counting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "经验这种事，人与人的环境差距太大了，本王没法给你什么，不过心得倒是有一点。",
+			say = "Everyone's life is different, so while I can't give you any advice on dealing with stress, I can share my mindset with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们所在的世界，是塞壬的实验场，也是我们的监牢。",
+			say = "My homeworld was a Siren test site. It was also a prison we could not leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "监牢之中有吃有喝，监牢之外危险重重。",
+			say = "Sure, a prison where you'd be fed and clothed, but there was danger everywhere if you took one step outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以呢，我们就要在监牢之中受人摆布一辈子吗？",
+			say = "Even if a prison is comfortable, should you be content with living and dying by the whims of its warden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "至少如果我们成功消灭了监牢的典狱官之后，我们能得到有限的自由。",
+			say = "In our case, we eliminated the warden and gained some freedom for ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，如同这些花蕾所联通的世界一样，在不明不白的危机中毁灭么？",
+			say = "That you did. Now, are you going to let your world be destroyed by an unknown danger, like what happened to those reflected in the buds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "监牢之外是很危险，但，我们得到了自由。",
+			say = "It's dangerous outside the cage. We all knew that. But now, we have freedom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有了自由，就有了选择权。",
+			say = "And with freedom comes the right to choose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们可以选择调查敌人，可以选择积蓄力量，可以选择探索未知，可以选择追寻希望。",
+			say = "You can learn about your enemies, you can grow stronger, you can explore the unknown – you can keep chasing after hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再之后……或许终有一天，我们可以战胜危险，可以赢得真正美好的未来，不是么，狮阁下？",
+			say = "One day, you'll have gotten through the true danger, and then, a glorious future won't seem like a pipe dream anymore. Do you know what I mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "……您的心得十分宝贵。",
+			say = "A noble perspective. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "伊丽莎白阁下，我想我明白应该如何写这次的远征报告了。",
+			say = "I think I can picture the outline of that report now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很高兴能帮到你。",
+			say = "Glad I could help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "关于求救信号……",
+			say = "As for the distress signal we both received...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "What about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我们在收到求救信号后，里面提到了「以永日之名」。",
+			say = "The signal we received contained a message: \"In the name of the Eternal Sun.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "「永日」，是你们的结盟暗语么？",
+			say = "What is this \"Eternal Sun\"? Is it some sort of code word used in your alliance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算是吧~本王有一份在世界之外拓展盟友的计划，名为「永日计划」。",
+			say = "Something like that. According to my other self, it's a plan to recruit allies from beyond worlds of our own – the Eternal Sun Project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "我想和你正式结盟，加入「永日计划」。",
+			say = "Then I would like to formally request to join. I want to be part of this project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——代表皇家，还是代表尼罗河总督？",
+			say = "Do you mean as a representative of your country, or in your capacity as the Governor of the Nile?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "恐怕……我现在只能代表尼罗河总督。",
+			say = "I'm not sure yet... For now, the latter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "归根结底未来还是自己人，本王无意分裂你们世界的皇家。",
+			say = "That can be arranged. As to-be allies, I naturally have no plans of meddling with the affairs of your world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王可以让你加入「永日计划」，也可以与你制定临时盟约。",
+			say = "You're permitted to join the Eternal Sun Project. Alternatively, we can form a temporary alliance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是最终，本王希望能够与你们那边的皇家整体制定正式盟约。",
+			say = "However, I ultimately do hope to establish a formal alliance with the entirety of your Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你能明白本王的意思么？",
+			say = "You see what I'm driving at, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205160,
-			say = "呵呵，自然，合作愉快~",
+			say = "Of course. I pray that we can form a cooperative arrangement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯——既然是盟友了，本王也多关心一句。",
+			say = "Good. Since we're true allies now, I want to ask something that's been weighing on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说你们成功战胜了塞壬，那你们真的成功摧毁所有塞壬主机塔了么？",
+			say = "You said you \"defeated\" the Sirens – does that mean you destroyed all of their mainframes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如安塔迪卡大陆冰盖下面那个——你们摧毁了吗？",
+			say = "Like the one under the ice sheets in Antarctica. Did you deal with it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "与此同时——",
+			say = "Meanwhile...",
 			hidePaintObj = true,
 			bgm = "story-royalnavy-serious",
 			typewriter = {
@@ -696,7 +696,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "与狮等人经过的威塞克斯战区不同，我们沿途所经过的威尔士战区以及康沃尔战区基本都是光荣·META投入力量极少的战区。",
+			say = "Unlike the well-defended Wessex that Lion's team was passing through, Wales and Cornwall had almost nothing in the way of allied forces stationed there.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -713,7 +713,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "因此，这里的战斗格外危险，我们也没有办法乘坐女王之光号列车直达目的地。",
+			say = "Not only would fighting there be extremely dangerous, but it was also impossible for the Queen's Light to cut right through it to our destination.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -731,7 +731,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "还好，我们的火力相当充分——",
+			say = "The silver lining was that we had more than enough firepower.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -752,7 +752,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "在塞壬与META联合舰队的火力打击下，天外之兽群没有丝毫反抗的能力。",
+			say = "The combined onslaught of the Sirens and the METAs was ruthless. The extradimensionals were forced to fall back.",
 			bgm = "story-antix-past",
 			typewriter = {
 				speed = 0.05,
@@ -776,7 +776,7 @@ return {
 				}
 			},
 			location = {
-				"皇家·目标满月之蕾周边",
+				"Near the Bud of the New Moon",
 				3
 			}
 		},
@@ -785,7 +785,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
-			say = "很快，我们就推进至了目标花蕾的下方。",
+			say = "Soon after, we'd reached our destination below the bud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（和之前与铁血抵抗军对抗天外之兽群时形成了鲜明对比啊……）",
+			say = "(This was a lot easier than when I fought alongside the Iron Blood's Resistance.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次速度快多了~有一套嘛，土木白毛！",
+			say = "We got here fast this time! Good job, albino!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "还有伊丽莎白，你也很不错！",
+			say = "And you, Elizabeth! Good job on you, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还夸起本王来了……？再得意扣你零食。",
+			say = "Praising us now, are you? Stop being cheeky, lest we suspend your snacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900430,
-			say = "我错了QAQ……你的伤没事吧，伊丽莎白！",
+			say = "Nooo! I'm sorry! Uh... How are your wounds?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还好。花蕾看上去没有开放的征兆，不过谁知道情况何时会发生变化，先做正事吧。",
+			say = "Just fine. There is yet to be any sign of the bud opening, but anything could happen. Keep your guard up and let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,9 +896,9 @@ return {
 			bgName = "bg_gaotaqiangwei_1",
 			hidePaintObj = true,
 			actor = 900488,
-			actorName = "格伦威尔·META",
+			actorName = "Grenville META",
 			nameColor = "#FFC960",
-			say = "陛下，构建者已经开始安放高性能炸药了。",
+			say = "Your Majesty, Compiler has begun placing the high-yield explosives!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "只用炸药能确保一次性将其摧毁么？",
+			say = "Are you sure bombs will really do the trick?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -926,7 +926,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "萼片屏蔽能力极好，本王看不出其内部具体结构。",
+			say = "It's hard to tell how durable the inside is on account of how well-isolating the sepal is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过参考之前那次破坏行动所动用的构建者武装数据，本王认为可以。",
+			say = "However, based on the destructive power of her weaponry in previous missions, we think it'll be more than enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且我们还有用车载火力进行超远程摧毁的后备方案呢，不用担心。",
+			say = "We also have a backup plan of bombarding the bud from a distance with the train's weapons. You need not worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "事关重大……直到将其彻底摧毁的时候我才能放下心来吧。",
+			say = "So much is on the line here, though. I can't help but worry until it's been thoroughly destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "我凝视着半空中的满月之蕾。",
+			say = "I stare at the Bud of the Full Moon floating in the air.",
 			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
@@ -1009,7 +1009,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "恍然间，我看到了萼片徐徐舒展，花蕾盛开，露出了内部变幻的空间。",
+			say = "All of a sudden, the sepal opens and the bud begins to bloom. Its inside reveals a continuously changing space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "而后，D小姐胯下的鲸鱼突然变大，五米……十米……一百米……",
+			say = "The very next moment, Miss D's whale just as suddenly grows rapidly in size – from 5 meters, to 10, to 50...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,7 +1031,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_2",
 			hidePaintObj = true,
-			say = "巨大的鲸鱼一跃而起，带着我与D小姐笔直冲入了满月之蕾中——",
+			say = "The whale leaps into the air, Miss D still riding it, and it charges straight into the center of the bud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

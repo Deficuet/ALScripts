@@ -681,7 +681,7 @@ function var_0_0.updateQuickEquipments(arg_54_0)
 end
 
 function var_0_0.setListCount(arg_55_0, arg_55_1, arg_55_2)
-	if arg_55_0.onSelected and isActive(arg_55_0._tf) then
+	if arg_55_0.onSelected and isActive(arg_55_0._tf) and arg_55_0.list then
 		arg_55_0.list:SetTotalCount(arg_55_1, arg_55_2)
 	end
 end

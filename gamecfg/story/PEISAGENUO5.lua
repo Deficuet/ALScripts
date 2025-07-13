@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>五　观察、近近的</size>",
+					"A View For Two, With You\n\n<size=45>5 Close-Up</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "三日后——",
+			say = "Three days later...",
 			bgm = "story-richang-8",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早上好……指挥官……",
+			say = "Hi, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室的门被轻轻地推开，依然垂头丧气的佩萨格诺走了进来。",
+			say = "The door to my office slowly opens, and once again, one dejected Ema appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "达芬奇……这次好慢啊。",
+			say = "Da Vinci's taking so long this time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "该不会在望远镜里，加了什么奇奇怪怪的功能吧……！",
+			say = "Y-You don't think she's adding some weird features to my telescope, is she?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好担心……好担心…………",
+			say = "Worry... Fear... Concern...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺麻木地整理着文件，就差把“心不在焉”四个大字用横幅挂出来了。",
+			say = "Even as she mumbles about her feelings, she never stops organizing documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,14 +145,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "这样下去可不行，是时候拿出拜托达芬奇做的那个了——",
+			say = "(I need to put a stop to this. It's about time for a certain invention of da Vinci's to take the stage.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这个，送给你",
+					content = "\"Take this.\"",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这是……小型单筒望远镜？！让我试试！",
+			say = "The... Scenery-Spiffying Telescope Mk.II? Th-thanks, I'll give it a try.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "等等，这个望远镜根本就没有镜片啊！",
+			say = "...Hm? Uhh... It doesn't have any lenses?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "没有镜片的望远镜，要怎么看风景……？",
+			say = "How are you supposed to look at the scenery...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,11 +212,11 @@ return {
 			},
 			options = {
 				{
-					content = "能看到",
+					content = "\"Don't worry about that.\"",
 					flag = 1
 				},
 				{
-					content = "不试试看怎么知道",
+					content = "\"Just give it a try.\"",
 					flag = 2
 				}
 			}
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官想说的是，身边的风景么……",
+			say = "Are you saying I should look at what's around me, instead of seeing everything through a lens?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼…………嗯，你说得对。",
+			say = "Yeah... Maybe you're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直以来，我似乎只会将目光投向远方。",
+			say = "Telescopes let you see distant things with such clarity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "身边的风景，人和事……我都没有仔细观察过。",
+			say = "I end up getting so focused on those things...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "既然忽略了她们，又怎么能知道该如何向她们传达心中的想法呢……",
+			say = "It made me forget all about everything close to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……用这个的话，说不定可以……",
+			say = "To communicate with others, you need to see them head-on. I've always missed this simple, but vital truth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "那么，我就开始了哦，指挥官~",
+			say = "Yeah... I'll give this one a try, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,8 +350,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "嗯嗯……这个就是指挥官的座椅。",
+			actorName = "Emanuele Pessagno",
+			say = "Hmm, so this is the seat you always sit in...",
 			effects = {
 				{
 					active = true,
@@ -386,8 +386,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "原来指挥官一直坐着这样的椅子啊……",
+			actorName = "Emanuele Pessagno",
+			say = "Every day, you sit here and do your work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,8 +399,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "这个是衣帽架，上面挂着指挥官的帽子与大衣……",
+			actorName = "Emanuele Pessagno",
+			say = "This is your coat rack, where you put your hat and jacket...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,8 +412,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "嗯……书柜里放着不少有趣的书呢，之前都没有仔细看过。",
+			actorName = "Emanuele Pessagno",
+			say = "Hmm... Those are some interesting books on your shelf. I'd never noticed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,8 +425,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "这个是…………啊！",
+			actorName = "Emanuele Pessagno",
+			say = "And over here... Eep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,8 +438,8 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "抱歉指挥官，不小心撞到你了！",
+			actorName = "Emanuele Pessagno",
+			say = "Sorry, Commander! I should watch where I'm going...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "（推门声）",
+			say = "*knock* *knock*",
 			effects = {
 				{
 					active = false,
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "打扰咯，指挥官~",
+			say = "Yoohoo, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "咦？是望远镜小姐！",
+			say = "Hey, it's the telescope dork, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "欸？欸！",
+			say = "U-Umm...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水星纪念，你又吓到人家了。",
+			say = "Ema, was it? Sorry for her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "抱歉抱歉！",
+			say = "Heheh, my bad.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，没关系的。",
+			say = "Uh, it's... fine...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "是北方联合的两位啊，上次没能帮到二位真是不好意思。",
+			say = "We met before, didn't we? The girls from the Northern Parliament?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来指挥室有什么事要办么？",
+			say = "I'm sorry I couldn't be more helpful last time. Do you have business here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，确实有一份需要指挥官处理的文件。",
+			say = "Yes, we have some documents that we'd like the Commander to check.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "话说……你为什么要用望远镜看着我们？",
+			say = "And... Not to be rude, but why are you looking at us through a telescope?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这其中有很深的缘由，希望二位见谅……",
+			say = "Umm, i-it's a long story... Sorry you had to see me like this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是不介意啦，毕竟你之前就是这种形象。",
+			say = "Don't be silly. As far as I can tell, you're not Ema without a telescope!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不过望远镜没有对着窗外，而是对着室内……",
+			say = "Weird that you've got it pointed inside instead of outside, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是把我们也一起当成风景了么~？",
+			say = "Hahah! Does that mean I'm part of the scenery?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "（好、好敏锐……）",
+			say = "(In a way, she's actually right...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊……这、这个其实是……",
+			say = "U-Umm, basically, this is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事，您请自便。",
+			say = "Don't worry about it! No need to force yourself to explain everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们是来找指挥官汇报工作的，马上处理完就走了。",
+			say = "We're just here to report to the Commander. Once we finish, we're out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "不过看来很快，就能听到你的景点介绍了呢~",
+			say = "Heheh♪ I get the feeling we're gonna hear all about Ema's favorite spots soon~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "适合约会的地点……没错吧。",
+			say = "You mean the date destinations?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……请再稍等一段时间，我一定会好好地传达给你的。",
+			say = "I'll do my best to get better at communicating, so just give me a little longer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "…………适合约会的地点？",
+			say = "\"What's this about dates?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哇啊啊啊啊！都说了之前是在开玩笑啦~开玩笑！",
+			say = "Whoa whoa whoa! That was a joke, I swear! A joke!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这个孩子也太认真了！",
+			say = "Gosh, why is this girl so serious about everything?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我突然想起来还有点事，阿芙乐尔，后面工作就交给你了！",
+			say = "Oh, yeah! I just remembered we're here for a thing! Avrora, show them the thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，慌张地走掉了……",
+			say = "And there she goes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我说了什么奇怪的话么？",
+			say = "Did I say something weird?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -964,7 +964,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用理她，我们还是把注意力放回到工作上吧。",
+			say = "Pamiat' will be just fine. Shall we get back to work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这份文件————",
+			say = "Now, regarding this document...",
 			painting = {
 				alpha = 0.3,
 				time = 1

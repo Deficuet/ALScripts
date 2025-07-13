@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>二 正义！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 2 - Justice Is Served!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "几小时前——",
+			say = "A few hours ago...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！大事不好了喵！今天仓库出了点状况喵！急需人手喵！",
+			say = "Commander, something bad's happened, nya! There's been a catastrophe in the depot, and we need help, nya!",
 			effects = {
 				{
 					active = true,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵？指挥官还有工作抽不开身喵…？唔喵…那就…这样行不行喵？——",
+			say = "What's that, nya?! You're too busy and can't spare the time, nya?! C-can't you help in some way, nya...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多谢指挥官喵！那我就把秘书舰小姐暂时借走了喵！",
+			say = "... Your secretary can give us a hand, nya? That'd be great, nya!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在——",
+			say = "It's now been several hours since Akashi took my secretary and left.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "棘鳍被借走了，又开始不得不为了事务奔波于各个部门之间……",
+			say = "With no one around to help, I've been out and about the port, doing things on my own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说起来，仓库那边是出了什么事情呢…？",
+			say = "Come to think of it, that thing Akashi said about the depot–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我回来了！",
+			say = "I'm back!",
 			actorPosition = {
 				x = -1000,
 				y = 0
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……好快？！",
+			say = "... Cavalla came back sooner than I expected.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，我照着指挥官的安排，和其他伙伴们一起帮助{namecode:98}度过了仓库的危机！",
+			say = "I did just as you instructed, and I even managed to get some friends to help out in the depot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正义必胜！",
+			say = "Justice has been served!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，指挥官看起来不知道发生了什么呢。就让我来好好说明一下吧！",
+			say = "... Huh? Nobody told you what happened? Okay, let me explain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "棘鳍讲述了她今天在仓库的经历。",
+			say = "Cavalla gave me a detailed account of the events that had unfolded.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "简单来说的话就是…{namecode:98}不小心把仓库弄得一团糟，想找帮手帮她将仓库恢复原状。",
+			say = "In short, Akashi had made a mistake which put the inventory in disorder, and they helped reorganize it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "本来{namecode:98}只拜托了秘书舰棘鳍一人，不过在处理过程中被路过的小海狸中队发现。在众人的努力之下，很快就完成了任务。",
+			say = "The \"friends\" she mentioned refers to the Little Beavers. She'd crossed paths with them by happenstance on her way to the depot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "到底…是做了什么才把仓库给变成那样的啊……",
+			say = "Apparently, they weren't very sure about what had caused the inventory mixup. I will have to investigate later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“正义永远不会缺席”！那个小海狸中队的队长是这么说的呢！",
+			say = "\"Justice will always prevail!\" That's what the captain of the Little Beavers said!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我觉得非常的酷！",
+			say = "What a cool catchphrase!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从今天起，我也要成为像她那样的正义之人！",
+			say = "I wanna be a partner of justice too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…嗯…棘鳍…似乎有点容易被别人牵着鼻子走呢。",
+			say = "Cavalla's eyes were gleaming with enthusiasm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[2]\n\n<size=45>冰雪公主</size>",
+					"Port Fashion Collection! Part 2\n\n<size=45>3 The Cat and the White Steed</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啦~啦啦~哼♪",
+			say = "Hmm-hm-hmm~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "清晨的~柴郡♪~雪中的~柴郡♪~满怀期待的~柴郡♪",
+			say = "Cheshire in the morning♪ Cheshire in the snow♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "都在~等待着亲爱的♪",
+			say = "Heart full of excitement♪ Waiting for her Owner to show♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			hidePaintObj = true,
-			say = "顺着积雪与歌声在林中穿行。",
+			say = "I walk through the snowy forest, following the sound of someone singing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			hidePaintObj = true,
-			say = "前方等待着我的，是一位如雪中精灵般的公主。",
+			say = "A clearing appears in my path. There, I find a princess draped in white.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "发现亲爱的了！",
+			say = "Owneeer! There you are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这边！这边——！",
+			say = "Come here, come here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "太慢啦，还是我跑去亲爱的身边吧！",
+			say = "Gosh, talk about dragging your feet! Fine, I'll come to you instead~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			},
 			options = {
 				{
-					content = "早安，公主！",
+					content = "Good morning, my princess.",
 					flag = 1
 				}
 			}
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "公主……嗯！公主！亲爱的真是越来越会说话了呢！",
+			say = "P-princess? Wow, someone's a real smooth-talker...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "柴郡是属于亲爱的一个人的公主哦~",
+			say = "Heehee... That's right! I am a princess – YOUR princess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "书上的故事说，这种时候只要……",
+			say = "And if this were a fairytale...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔……把手伸出来，然后亲爱的就会……",
+			say = "I'd give you my hand, you would place your lips on it, and then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸，好麻烦！",
+			say = "You know what? That trope is old and busted!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还是柴郡主动些好啦！",
+			say = "I'd rather take the lead and hug you instead!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "华丽的裙子与厚实的积雪都无法限制柴郡的活力，她就这样贴了过来。",
+			say = "Despite the deep snow, and with no regard for her delicate dress, Cheshire throws herself at me with open arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "亲爱的，想不想骑马？",
+			say = "Hey, why don't we hop on my horse?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "骑上马，一起在清晨的林中漫步……还有什么比这更开心的事呢~",
+			say = "Let's go for a horseback stroll through the forest in the morning light~ It'll be a ton of fun♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,14 +334,14 @@ return {
 			bgName = "star_level_bg_153",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是……",
+			say = "Believe me, I'd love to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这身礼服可不适合骑马哦。",
+					content = "But your dress isn't suited for riding horseback.",
 					flag = 1
 				}
 			}
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没关系，我只需要像这样——",
+			say = "That's not a problem! I know a trick!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "从后面紧紧抱住亲爱的就可以啦！",
+			say = "You can take the reins, and I'll sit in the back and hold you tightly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔……不过也对呢……地上已经有了结冰，骑马还是太危险了。",
+			say = "...You're thinking about how we don't have a saddle, and the ground is slippery, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我想想哦！",
+			say = "Yeah, I guess... Okay, lemme think about a solution!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔~~~~~~~~~~！",
+			say = "Hrrrrmmmmmhhh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "柴郡的双手越抱越紧，从身后推着我一同缓步前行。",
+			say = "Out of nowhere, Cheshire circles behind me and wraps her arms around me in a snug embrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "嗯！不骑马也没关系！",
+			say = "I've got it! Let's not ride the horse!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我们就这样散步吧！",
+			say = "We can just wander the woods like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看向一旁的马儿，它正悠闲地踱着步子，似乎在寻找积雪掩盖下的野草。",
+			say = "I look over and notice the horse has started casually walking off, probably to search for patches of grass buried under the snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我又看向柴郡，恰巧迎上她的灿烂笑容。",
+			say = "Meanwhile, Cheshire flashes me a smile as bright as the morning sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然有些难以迈步，不过……再多陪陪这位可爱的公主吧——",
+			say = "It's hard to walk like this, but I guess I can put up with it if it means spending some time with my \"princess\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

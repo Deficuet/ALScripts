@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"{namecode:66}的修行\n\n<size=45>二　不同往常的训练</size>",
+					"A Study in Takao\n\n<size=45>2 Special Cultivation Session</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "按照约定，于清晨时分准时到达了训练场。",
+			say = "I went to the training ground first thing in the morning.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "指挥官，早上好。",
+			say = "Good morning, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,30 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "一进入训练场，就听到了少女充满精神的问候声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "早上好。接下来我们要在训练场……嗯？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			say = "在今日的训练场中，赫然摆放着一张与周围氛围格格不入的办公桌。",
+			say = "As soon as I got there, I heard a spirited greeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +56,30 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么训练场中心……会有一张办公桌？",
+			say = "Morning. What are we planning... Hm?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_601",
+			hidePaintObj = true,
+			say = "For some reason, there was a work desk in the middle of the training ground.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_601",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Why is there a desk here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "这张办公桌和之后的修行有关。",
+			say = "To help with my self-cultivation, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官请稍等，我去完成最后的准备工作，马上回来。",
+			say = "Commander, wait a moment. I need to make final preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "就这样，在向办公桌上整齐地摆放好办公用品与文件后，最后的准备工作终于完成了。",
+			say = "She finished her final preparations, which seemed to be... neatly placing supplies and documents onto the desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "仿佛是注意到了我的困惑，少女开始解释起来。",
+			say = "My confusion was obvious, so she explained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "本日的修行是关于静心的内容……我需要通过修行，最终做到能平心静气地对抗外界干扰的程度。",
+			say = "Today, I mean to cultivate meditation... In short, I want to maintain a level of clear-minded calm regardless of external influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "静心……不错的修行方向。所以这张办公桌设置在此处的目的是……？",
+			say = "Meditation, huh? I think that's a good thing to train. How does this desk help, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这张办公桌是为指挥官准备的。",
+			say = "This desk is for your use, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "正如我此前所说，协助修行不会额外占用您的时间与精力。您要做的只有在此处照常办公就好。",
+			say = "As I said before, while I need your help, I don't want to waste your time needlessly. You should do your work here as usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……确实是轻松的协助工作。那你本人的修行内容是？",
+			say = "Well, thanks. What are you going to do in the meantime?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303110,
-			say = "我需要集中精神，全神贯注地完成训练场的清洁工作。",
+			say = "I will endeavor to focus and clean the training ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,18 +237,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你准备好了么？",
+			say = "Are you ready, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备好了。",
+					content = "Ready any time.",
 					flag = 1
 				},
 				{
-					content = "工作，我喜欢工作！",
+					content = "Yay, I love desk work! Woohoo!",
 					flag = 2
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "我来到办公桌前，拿出一份文件，开始了本日的工作。",
+			say = "I sat down at the desk and began the day's paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "与此同时，{namecode:66:高雄}则拿出清洁用具，开始了训练场的清洁。",
+			say = "Meanwhile, Takao took her cleaning implements and got to cleaning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然{namecode:66:高雄}手中拿的是拖把……但依然感受到了强烈的压迫感。）",
+			say = "(She's holding a mop instead of a sword, but she's still just as intimidating.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来她对于这场修行是100%认真的。）",
+			say = "(It looks like she's taking this cultivation business seriously.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么——我也开始本日的战斗吧！",
+			say = "Okay... Time for me to fight my own daily battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

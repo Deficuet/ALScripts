@@ -13,7 +13,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗还在继续…赶上了！",
+			say = "(...Akagi...)",
 			bgm = "xinnong-4",
 			flashN = {
 				color = {
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……海面上出现了黑色光芒？那个是………不好！",
+			say = "(That black light... that black box...... Is calamity itself...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，快停手！！！",
+			say = "\"Akagi... Stop...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哎？",
+			say = "...So you finally decided to show up, Shinano.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			actorName = "{namecode:82}",
 			dir = 1,
-			say = "你是……？啊，这不是{namecode:182}么！你终于睡醒了啊~！",
+			say = "Shinano?! Milady, you've finally awakened?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，把手中的不祥之物放下吧，它能带来的只有噩梦与毁灭，这种力量不是重樱需要的。",
+			say = "\"Akagi, what you hold in your hand is calamity itself. The Sakura Empire has no need for such dark power... You must discard it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵…今天怎么谁都想对我说教一番……明明一直躲在安全的地方睡大觉，你又懂些什么！",
+			say = "Ahahaha!! ...Even you're trying to lecture me? You've been hiding away all this time, sleeping away in your safe haven. What do you know?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…妾身也不是因为自己想，才沉睡这么久的啊……！",
+			say = "\"...It was not this one's decision to slumber while the world burned.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "于虚境中彷徨，眼见重樱步入危局却只能从旁坐观的无奈，妾身已经不想再经历了……",
+			say = "(...Akagi thinks more of the Sakura Empire than anyone else...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "嗯…这种状态才对，此刻充盈着力量的状态才对…",
+			say = "(...Yet this great passion also spawns great danger...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉啊，让汝等久等了。{namecode:83}级三号舰{namecode:182}，现在加入战斗。",
+			say = "(Watching peril befall the Sakura Empire from within the empty void, powerless to stop it... Such was not my desire...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:182}",
-			say = "梦境也好，现实也罢。不论身处何方，妾身须行之事都不曾有任何改变…",
+			say = "(Do I have the ability to stop Akagi...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬之{namecode:66}啊，此乃妾身守护之土，就此退场吧！",
+			say = "(But alas... all I have are these... fragments...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这份光芒是…梦境的消散，这样就要结束了么……",
+			say = "(....The light that comes to return all to the void... This fragment will come to an end soon...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果妾身能以这样的姿态直接醒来该多好啊……",
+			say = "(I awoke because of my desire to save the Sakura Empire and my comrades...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "黑色的崩坏…与梦魇的诞生…一定要…阻止…………",
+			say = "(...from the dream of ruination that I saw—)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

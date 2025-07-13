@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "除了日常交流之外，娜比娅偶尔也会向指挥官寻求建议",
+				text = "In addition to talking to you, Navi will sometimes come to you for advice.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "此时，指挥官的选择有可能将会影响娜比娅的性格发展",
+				text = "When this happens, the choice you make may affect the direction that her personality takes.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "是会让娜比娅更加叛逆，还是会让娜比娅更加乖巧",
+				text = "She could turn out rebellious, or she could become more mild...",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -44,7 +44,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "都取决于指挥官做出的选择",
+				text = "Your choices will determine that.",
 				mode = 2,
 				dir = -1,
 				char = 1,

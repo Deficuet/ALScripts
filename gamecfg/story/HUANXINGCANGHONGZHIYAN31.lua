@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "奇异点「奈落」·周边海域",
+			say = "Naraka Singularity - Surrounding Waters",
 			bgm = "battle-boss-6",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "战局还在持续性恶化。此时此刻，企业手中的预备队已经尽数投入了战场。",
+			say = "As the combat situation continued to deteriorate, Enterprise called up the final forces in her reserves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "限制奇异点奈落扩张的重樱大结界正在变得愈发脆弱。",
+			say = "The Prime Barrier holding Naraka's expansion back is getting weaker and weaker...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "TB已经发来警告，留给我们处理摧毁计划的安全时间，预计只剩下一小时了。",
+			say = "I just received a transmission from TB. We have less than an hour left until doomsday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "当然，前提是我们的防线还能再坚持一个小时。",
+			say = "I wonder, though... if our defenses can even hold out for that long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "……终于到极限了么。",
+			say = "The eleventh hour, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "企业，该启用紧急联络方式了，通知指挥官务必在一小时内撤出奈落。",
+			say = "Enterprise, it's time. Activate the emergency communication system and tell Commander to evacuate from Naraka immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "……嗯。",
+			say = "...Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "各舰队注意，指挥官将在会在一小时后返航。",
+			say = "Attention to all fleets! The Commander is scheduled to return in one hour's time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "不论如何，我们也要坚持过这最后的一小时！",
+			say = "We WILL hold the line until that final moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,12 +259,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-donghuang-static",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "企业女士，我是逸仙。",
+			say = "Enterprise, this is Yat Sen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……逸仙女士？",
+			say = "...Yat Sen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "我已知晓当前战局所面临的困境，以及死守一小时的任务目标。",
+			say = "I'm well aware of the dire situation you're currently in, as well as the difficulty of holding out for another hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "我正在带领东煌本土防御舰队的全部作战力量全速赶来。",
+			say = "We are currently rushing toward your position with the entirety of the Dragon Empery's main fleet. We should be able to reach the operational area within twenty minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "预计二十分钟后可进入交战海域，请随时分配作战任务。",
+			say = "Please command us as you see fit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "同时，我已经下达了授权许可，让前线的东煌舰船自由使用先进设备，应当可以缓解几处防线的燃眉之急。",
+			say = "Additionally, this also serves as authorization to freely utilize the high-tech equipment in our possession to hold the front lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "然后，请让这几处区域中的舰队立即撤离。",
+			say = "Afterward, please have your fleets evacuate the area following our arrival.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "目前我方正在逐步关闭天星台，转而启动屏风系统的远程打击模式，预定对这些区域中的敌人实行歼灭性打击。",
+			say = "We are in the process of shutting down the Celestial Tower and switching the Pingfeng System into long-range bombardment mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——明白了，感谢东煌的倾力支援。",
+			say = "Understood. Thank you for your support. This is a battle we cannot afford to lose, so fight with heart, Dragon Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502010,
-			say = "这是一场我们输不起，也不能输的战役，东煌自当全力以赴。",
+			say = "Indeed. There is too much on the line for us as well. Defeat is not an option!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "奇异点奈落周边的某一处战场上，原本不利的战局正在以惊人的速度逆转着。",
+			say = "Near Naraka, what seemed like an unsalvageable situation was quickly being reversed.",
 			bgm = "theme-donghuang",
 			typewriter = {
 				speed = 0.05,
@@ -461,9 +461,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "申请通过，先进设备已解锁。",
+			say = "Authorization confirmed. Cutting-edge equipment unlocked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,9 +475,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "魑魅魍魉，从现在起，让你们看看“多面手”的实力！",
+			say = "Begone, foul demons! The Thousand-Handed Boddhisattva shall exorcise you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -550,7 +550,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			nameColor = "#A9F548FF",
-			say = "这是……舰装化的导弹设备？！",
+			say = "Are those... ship-mounted guided missiles?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,9 +562,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "没错。这套装备使用起来消耗极大，而且每次使用后需要至少一个季度的缓冲才能再次使用。",
+			say = "That they are! However, this equipment's notoriously expensive to use and maintain, so it'll be at least three months until I can fire them off again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,9 +576,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "所以在此之前，我一直在等待许可。",
+			say = "That's why getting approval for this moment has been such a big deal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,9 +590,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "史特拉赛女士，你先带领舰队后退休整吧。",
+			say = "Now, Miss Strasser, please have your fleet pull back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,9 +604,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			actor = 501019,
-			actorName = "鞍山·改",
+			actorName = "An Shan (Retrofit)",
 			nameColor = "#A9F548FF",
-			say = "我以“四大金刚”之名保证，这一小时之内，一个敌人都别想跑出去！",
+			say = "Upon the honor of the Four Unbreakables, we shall see to it that no enemy gets through for the rest of this hour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = false,
 			side = 2,
 			actor = 407030,
-			say = "那就麻烦了，我会继续从后方掩护你的。",
+			say = "Your assistance is greatly appreciated. However, I will continue to provide you with support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = false,
 			nameColor = "#A9F548FF",
-			say = "（没想到真的是东煌先取得了这项技术的舰装化突破……）",
+			say = "(The technology required to integrate missiles into ship riggings... I never imagined that the Dragon Empery would be first to reach this technological milestone...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = false,
 			side = 2,
 			actor = 407030,
-			say = "（……有趣。）",
+			say = "(You've got my interest now!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "另一处战场中，原本陷入劣势中的舰队已经全数撤退。",
+			say = "On another front, a beleaguered fleet was in the process of making a complete retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "敌人正在占据这片海域，以便接下来向着更外侧的海域扩张。",
+			say = "The corrosive filth was rapidly expanding through the ocean, converting more and more territory into additional beachheads for its rampant growth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "就在这时，一道数百米粗的金色光束扫过水面，顷刻间将这片海域清理得干干净净。",
+			say = "Then, suddenly, a golden light beamed down from the sky, instantly incinerating all enemies in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "极光之壁……",
+			say = "The Skybound Wall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……第三阶段？！",
+			say = "...And, its Third Scripture, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随后，陆续又有几道光柱划破天空，将几片同样已经完成撤离的海域清理得干干净净。",
+			say = "Pillars of light continued to rain down from the sky, leaving the enemies no safe haven for retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "原本濒临极限的多处防线，终于得到了宝贵的喘息时间。",
+			say = "Beneath that dazzling glow, a front fated to fall bought itself a moment of reprieve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

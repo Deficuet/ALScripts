@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“青春之泉”海域·中央——",
+			say = "Mirror Sea - Heart of the Fountain of Youth",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "等从眩晕中恢复过来时，“伟大的皇家财富”号已经停在了平静的水面上。",
+			say = "Once I regain my footing from that stomach-churning spin, it dawns on me that we're no longer in Shipwreck Point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,14 +35,14 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "一位不速之客，也趁此机会登上了船只。",
+			say = "The sea is still, the Great Royal Fortune resting in it. Aboard her, our adversary stares us down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这可真是不礼貌的问候。",
+					content = "That was the roughest greeting I've gotten in a while...",
 					flag = 1
 				}
 			}
@@ -51,11 +51,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "呵呵，在这片海域，风暴可是最高级的问候。",
+			say = "How rude. In this sea, a storm's beckoning is the greatest invitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "命运指引我在错误的时机苏醒，我相信这是让我好去做正确的事。",
+			say = "This vessel of mine activated at the wrong time, but I've always believed this was it setting me up to do the right thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "看到此情此景，我更加确信这一点了！",
+			say = "Now that I've found you, I'm fully convinced of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +93,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "想不到“苍狼团”的旗号与无聊的传说，竟能吸引你这样的人出现！",
+			say = "Hah! Who would've thought the Black Wolves' flag and a stupid myth would lead you right to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "这正是命运给我的指示！哈哈哈哈！！",
+			say = "That's the providence of fate for you! Ahahahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你就是苍狼团的领袖？",
+			say = "It was you. You created the Black Wolves, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +133,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "嗬嗬嗬嗬……正是！",
+			say = "How astute of you. I did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +147,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "好奇心旺盛的冒险者可真是好用呢！",
+			say = "That bunch of overly curious adventurers served me well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,11 +161,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "如果不是这些人拼命收集过去的一切，我恐怕还不知道命运赋予我如此重任。",
+			say = "If they hadn't hoarded all those artifacts from the past, this vessel separated from her mainframe may never have known about her important duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,11 +175,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "而你，正是伟大计划最后的一块拼图——！",
+			say = "And now, I have you. The final piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +189,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "虽然不知道为什么，但有了你，我就能聆听到命运给予的智慧了！",
+			say = "You're the key to obtaining the wisdom fate has in store for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,11 +203,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "现在，我就是这个世界的造物主，这个世界的神明！",
+			say = "The wisdom that'll elevate me to the status of Creator – to the status of God over this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此，所以她甚至在苏醒之前，就与主机断开连接了么……）",
+			say = "(This vessel has lost connection to her mainframe... That means she's operating without any external reference points or regulators.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……难怪说话风格这么独特，真是难为她了。）",
+			say = "(She must've soaked up this world's culture like a sponge. It would explain her uncharacteristic way of speaking.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,14 +243,14 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样的话……）",
+			say = "(I might be able to take advantage of that...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们会阻止你的。",
+					content = "I'm going to stop your insane plan.",
 					flag = 1
 				}
 			}
@@ -259,11 +259,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "靠你那小小的舰队？",
+			say = "With what? That pathetic fleet of yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "你的同伴可改变不了这一切。",
+			say = "There is nothing they can do to harm me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "提斯塔启动了身边的投影设备。",
+			say = "Tester scoffs and reaches for the activation lever of the Pawn creator next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,12 +298,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让开！",
+			say = "Outta my way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "——轰！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "一同被卷过来的玛丽·西莱斯特正在奋力朝着这边前进。",
+			say = "Mary – who was also transported here – fires her cannons as she charges towards us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此，只有能在风暴中穿梭的玛丽过来了。",
+			say = "Aha. Now I get why you sent the Echo Fleet after Mary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以你之前才袭击她……你需要风暴作为行动的掩护，所以忌惮她的力量。",
+			say = "She can pass through storms just fine, so she must be a real obstacle to your plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,11 +403,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "玛丽·西莱斯特曾经的确是个麻烦。",
+			say = "She is. It would've been annoying to deal with that ability of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,11 +417,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "不过，现在她已经不再是威胁了。",
+			say = "But not anymore. It doesn't matter now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,11 +431,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "多么耀眼的挣扎。",
+			say = "Nor does it matter how much you struggle, for it's all in vain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,11 +445,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "可惜没有意义，等到伟大的计划完成，一切都是没有意义的。",
+			say = "All will perish once I complete the instruction nested in the deepest parts of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,11 +459,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "好好听着吧，战争机器重新开动的声音。",
+			say = "Listen carefully. Do you hear it? The grinding of misaligned gears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,11 +473,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "我会让计划回归正轨！",
+			say = "That's the sound of war... The sound of the experiments commencing anew!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,11 +487,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "……你笑什么？",
+			say = "...What are you laughing for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "作为初学者而言，你做得还算不错。",
+			say = "Considering you've completely lost your memory, you're not doing half-bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,18 +513,18 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "……没有意义的嘲讽。你很快就笑不出来了，“指挥官”。",
+			say = "Trying to play cool, are you? Be a dear and hold still while I wipe that smug grin off your face, \"Commander.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "使用密集队形是你唯一的错误。",
+					content = "It's too bad your formation has a glaring flaw.",
 					flag = 1
 				}
 			}
@@ -533,11 +533,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "……你到底想说什么？",
+			say = "...What are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,11 +545,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "自动报警系统",
+			actorName = "Automatic Warning System",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。第一防卫线被突破——",
+			say = "ALERT. PRIMARY LINE OF DEFENSE HAS BEEN BREACHED.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,11 +559,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "什——",
+			say = "WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

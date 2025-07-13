@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>七 在指挥室</size>",
+					"White Gallantry\n\n<size=45>7 Back in Office</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室前",
+			say = "Port - Just outside the office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和往常一样来到指挥室前，正准备打开门时，一股莫名的违和感涌了上来。",
+			say = "I was just about to enter my office and resume another day of fleet management. Right as I put my hand on the doorknob, though, I sensed something was off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，你不进来吗？",
+			say = "Well? Are you not going to enter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "声音的主人再清楚不过了。作为北方联合的战舰，虽然性格微显轻浮，但却是值得信赖的伙伴。",
+			say = "I know who's behind that door. It's a very certain Northern Parliament battleship who, despite her domineering character, I knew I could trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我来猜猜看好了。指挥官同志感到惊讶而不敢进入指挥室的理由是——",
+			say = "Then how about a bet? I think I know the exact reason why you don't want to come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错……我昨天晚上确实是锁过门的。",
+			say = "I could've sworn I locked the door the night before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "心存疑问的走进指挥室后，映入眼帘的是正依靠在桌边认真地阅读资料的贝拉罗斯。",
+			say = "Though I hesitated for a moment, I entered the office. Inside, I found Belorussiya, sat at my desk and looking ardently through some documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，这是完全接受自己会输的事实了啊~",
+			say = "Hahaha! You've realized you can't win my bets, have you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~科学部的项目提案书和下次护航任务的资料我都准备好了，出差日程表也做好了哦。",
+			say = "On a more serious note, I've drafted a proposal for the R&D department and compiled the paperwork for the next merchant vessel convoy mission. Likewise for your business outing schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的战斗状态也不错，如果有出击命令的话，我随时都能投入战斗。",
+			say = "I might add that today's weather is perfect for battle. Just give the order and I will sortie at a moment's notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，需要你来亲自处理的工作也有很多哦，作为港区的指挥官——",
+			say = "Of course, I still left some work for you to do. You are the commander, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被贝拉罗斯一把拉了过去，然后被摁在了那把我早已习惯了的指挥官座椅上。",
+			say = "She led me by the hand, taking me to my same old chair located behind the desk. I sat down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你不小心忘在我房间的指挥室钥匙，我帮你放到抽屉里了哦。",
+			say = "Your office key slipped out of your pocket when you blacked out in my room. I left it in the drawer to your right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有，不用担心。",
+			say = "...What's wrong? You have nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个坐位永远都只属于那个我所爱着，并且率领着我的人——也就是你。",
+			say = "This chair behind this desk belongs to my beloved guiding light. It belongs to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过嘛……",
+			say = "I'm only your secretary. My job is to serve you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "脖子后方感到一阵软软的触感。",
+			say = "I felt something soft press against the back of my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "作为秘书舰来帮助你的方式……要用我的方法才行哦？",
+			say = "...Using my methods, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

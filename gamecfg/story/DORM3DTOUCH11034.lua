@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这是只属于我们两个人的时间，对吧？",
+			say = "This moment is just for the two of us, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "魔王军械库——戴蒙赫勒（Dämonenhöhle）魔窟。",
+			say = "The Dämonenhöhle – the Demon King's armory.",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "一座位于炎狱湖的中心的魔王军战略要地。",
+			say = "Located at the heart of the lava lake, it is a key strategic point for the Demon King Army.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "炎狱湖中终年流淌的灼热岩浆包围着这处堡垒，成为了无数进攻者的噩梦。",
+			say = "The armory is surrounded by glowing hot lava that has been flowing for untold years. Attacking it is a nightmarish premise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "而由巨龙领主统帅的天空猎杀队则以此为基地，永无止境的袭扰着守望长城。",
+			say = "It is also the base of the Dragonlord's airborne hunters division. They have been incessantly launching attacks on Sentinel Bastion from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,10 +65,10 @@ return {
 			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这一切，该在今天结束了。",
+			say = "Today we shall bring an end to it all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,11 +82,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又见面了啊，手下败将。",
+			say = "We meet again, Dragonlord! Remember when I kicked your butt?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,11 +100,11 @@ return {
 			actor = 201371,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "药剂师",
+			factiontag = "Potion Maker",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "上次让你夹着尾巴跑了，这次可不会让你再跑一次了哦~",
+			say = "You ran with your tail between your legs last time, but that's not happening again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,11 +118,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "哈啊？……你们是认真的么？",
+			say = "Huh? Are you people serious?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,10 +153,10 @@ return {
 			actor = 403022,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "我承认，上次守望城墙之战的失败是我大意了。",
+			say = "Fine, I admit I got very careless back at your precious wall!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,11 +170,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "但是现在……在戴蒙赫勒魔窟，我的大本营……就凭你们六个人也想消灭我？",
+			say = "However! Now it's YOU attacking MY base! Do you really think the six of you can take all of us on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,11 +188,11 @@ return {
 			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错。怎么，你怕了么？",
+			say = "I don't just think – I KNOW we can!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,11 +206,11 @@ return {
 			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是怕了的话就赶快投降吧~",
+			say = "You scared? Then it's not too late to surrender!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,11 +224,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "唔唔唔！气死我了！",
+			say = "Grrrr! You're SO annoying!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,11 +242,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "既然你们这么不识好歹，那我就让你们见识一下天空猎杀队的真正实力！",
+			say = "Okay, hotshots! You're gonna see what happens when you REALLY mess with the airborne hunters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,11 +260,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "巨龙领主",
+			factiontag = "Dragonlord",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "黑暗啾莱姆骑士团，随我迎战！",
+			say = "Dark Knight Slimejuus, give 'em hell!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,10 +276,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黑暗骑士啾莱姆",
+			actorName = "Dark Knight Slimejuus",
 			bgName = "bg_camelot_6",
 			nameColor = "#FF9B93",
-			say = "Dark啾——Dark啾——！",
+			say = "CHIIIRP! CHIIIRP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,12 +347,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……对敌人的大军向我们冲过来了。",
+			say = "Big brother! A huge force is coming right at us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,16 +383,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "那就，让我们奏响海潮吧——",
+			say = "Sounds like the perfect time to use the Seatide Horn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "发动技能“海潮号角”",
+					content = "(Activate the skill.)",
 					flag = 1
 				}
 			}
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_525",
-			say = "伴随着悠扬的号角声，我们向着远方的魔物大军主动发起了冲锋。",
+			say = "The horn resounds with a serene note, and the counterattack on the army of monsters begins.",
 			bgm = "theme-tempest",
 			typewriter = {
 				speed = 0.05,
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_525",
-			say = "自然——发起冲锋的不止我们六人。",
+			say = "Naturally, our party members aren't the only ones attacking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_525",
-			say = "海潮声此起彼伏，一个又一个海盗亡灵，一艘又一艘幽灵船加入了冲锋的军势。",
+			say = "With the billow of a saltwater wave, an armada of ghost pirates and their ships join the assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_525",
-			say = "冲锋每一秒都比前一秒更浩大，更喧哗。",
+			say = "With each passing second, their fleet seems to grow larger and the splashing of the waves intensifies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,11 +459,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
-			say = "飓风海盗团，伴随潮汐与号角之声如约而至。",
+			say = "You sounded the Seatide Horn, so we've come just as promised.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,11 +477,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
-			say = "呵呵，慷慨的朋友们，没想到咱们这么快就又见面了呢~",
+			say = "Heehee. It's so nice to see our generous friends again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,11 +495,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
-			say = "接下来是要我们在岩浆里行船拿下对面的堡垒么？",
+			say = "Let me guess – you want us to dip our ships in the lava and capture that stronghold, am I right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,11 +513,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
-			say = "哈哈，我还没做过这么有趣的事呢！",
+			say = "Hahahah! Man! I can't remember the last time I fought in such a fun battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,10 +531,10 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
+			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊是啊，我还没做过这么有趣的事呢！",
+			say = "You can say that again! I've never seen something THIS fun before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,11 +565,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
-			say = "您您是……开拓与冒险之神？！传说中的皇家财富号？！",
+			say = "Holy hell... You're the goddess of pioneering and adventure! Royal Fortune!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,45 +583,10 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
+			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错没错~大家好久不见呀~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			say = "欸呀，我在昏昏沉沉的时候听到有人吹响了海潮号角。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600010,
-			side = 2,
-			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "没想到竟然赶上了这么有趣的场面！",
+			say = "That's me! Good to see you all again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,11 +600,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
+			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
-			say = "幽灵海盗船团向着巨龙领主发起挑战么？",
+			say = "I heard someone sound the Seatide Horn way off in the distance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,10 +618,45 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "开拓与冒险之神",
+			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这场狂欢盛会也算我一个吧~",
+			say = "Thought I'd check it out, and what do I find? You lot, starting the party without me!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Goddess of Pioneering and Adventure",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			say = "So, what are we doing? Fighting the Dragonlord?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600010,
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "Goddess of Pioneering and Adventure",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Fine by me! Let's take her down!",
 			painting = {
 				alpha = 0.3,
 				time = 1

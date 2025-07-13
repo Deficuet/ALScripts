@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>红色救生兔？！</size>",
+					"Beachside Vacation Vignettes\n\n<size=45>Rabbit on Watch?!</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 403092,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（盯——）",
+			say = "*stares bunnily*",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸——指挥官，这边这边~！",
+			say = "Halt! Come over here, Commander~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚准备下水，就被{namecode:453}拉住了——",
+			say = "I'm just about to jump in the pool when Prinz Heinrich orders me to stop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……你刚才不会是想就这样下水吧？",
+			say = "I hope you weren't seriously considering going into the pool just now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我从你进来就盯着你了，你还没有做热身运动呢！",
+			say = "Because you totally neglected to do your stretches! Don't think I didn't notice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "万一因为热身不充分，在水里抽筋了的话……",
+			say = "Going into water unprepared is dangerous, you know. You could get a leg cramp!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我有自信第一时间把指挥官救出来，心肺复苏和人工呼吸也学过……总之不热身是不行的！",
+			say = "I have done lifeguard training, and I do know how to perform CPR, but that's no excuse not to take safety precautions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就让我来监督你做完热身体操好了，动作的话可以指导你——",
+			say = "You're not dipping one toe in water until I've seen you do your stretches. If you don't know how to, I'll show you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一定要做到位，不许偷懒哦！",
+			say = "C'mon, stretch those muscles! No half-assing on my watch!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在{namecode:453}的带领与监督下，做完了全套的准备体操。",
+			say = "A couple minutes later, I finish my warmup stretches under her watchful eye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯……这样就好了！接下来请尽情享受游泳的乐趣吧！",
+			say = "Alright, you're clear. Enjoy yourself in the pool!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:453}不和大家一起游泳嘛？",
+					content = "\"Aren't you going to swim with me?\"",
 					flag = 1
 				}
 			}
@@ -254,7 +254,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我当然会下来游泳的！不过，要等到救生员的工作完成之后才行！",
+			say = "I will, later! I've got to finish my shift first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我坐在这里可不是闲着，要注意的事情可不少呢。",
+			say = "It might look like I'm just sitting around, but trust me, I'm keeping my eyes on ten different things at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像是督促大家做好热身，注意留心周边有没有同伴溺水，以及有没有调皮的潜艇在水下打闹之类的……",
+			say = "Like if everyone's done their stretches, if someone looks like they need rescuing, or if any prankster submarines are up to no good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，我要等到交接班之后才能放开享受！",
+			say = "So sadly, I've gotta watch from the sidelines until my shift is over!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，指挥官应该不会游一会就回去的吧？",
+			say = "But hey, you're gonna stick around for a while, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也想陪指挥官一起玩，所以一定要等到我交接班结束之后哦！",
+			say = "It's not too much trouble to wait for me until my replacement comes in, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就这样约好了！不许爽约~！",
+			say = "...Awesome! Don't go back on your word later, or you'll have a very upset bunny to deal with~!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "地点不明 ·时间不明",
+			say = "–––– ??? ––––",
 			side = 2,
 			bgName = "bg_midgard_1",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "在一个昏暗的空间中，{namecode:440}正端坐于桌前。",
+			say = "In a space engulfed by darkness, Friedrich der Große – blueprint ship, and the executor of Bismarck's will – sat and quietly mulled over the reports of her peers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:436}",
-			say = "……以上便是近期在百慕大海域的行动报告。",
+			actorName = "Tirpitz",
+			say = "Since we secured Scapa Flow from the Royal Navy, none of the other factions have made any major moves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:436}",
-			say = "和预料中一样，碧蓝航线已经将主要精力放在了中心区域的探索与稳定上。",
+			actorName = "Tirpitz",
+			say = "Across the NA Ocean and in the Bermudas, we are cooperating in joint operations and research ventures as instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:436}",
-			say = "她们只想保住眼前的战果，对于真正值得关注的地方，对于我们的目的均一无所知。",
+			actorName = "Tirpitz",
+			say = "From what circumstantial evidence we've gathered, the leaders of the other factions are still unaware of our purpose for doing so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:436}",
-			say = "那么，本次汇报到此结束。",
+			actorName = "Tirpitz",
+			say = "...This concludes my report. We will continue to \"stand by.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "声音停止，窗口关闭，但房间并没有回归黑暗。",
+			say = "The connection with Tirpitz was cut off, and another incoming call took its place on the display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,25 +135,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "一个窗口关闭，另一个窗口展开。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:413}",
-			say = "针对仲裁机关的调查没有新的进展，它们好像无声无息的消失了。",
+			say = "Friedrich der Große tapped the panel lightly––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,8 +152,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:413}",
-			say = "现在还有三个未被调查的可疑区域，补给剩余30%，应该没问题。",
+			actorName = "U-47",
+			say = "It's U-47. Oh, yeah... About that Arbiter investigation... No progress yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,36 +170,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:413}",
-			say = "{namecode:413}，汇报结束。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "她只是无言地倾听着，定期联络并不需要一一回答。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "{namecode:440}仿佛正站在漆黑的夜空中，正面对着从面前流过的无尽情报之海。",
+			actorName = "U-47",
+			say = "I ran into one of their vessels, but we weren't able to squeeze any information out of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +188,36 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:470}",
-			say = "舰队已与「米德加尔特之塔」的组件一同秘密抵达指定位置。",
+			actorName = "U-47",
+			say = "I'll keep doing what I can.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "She listened to each report in absolute silence. None of them were worth a response.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "She simply let the tides of information flow around her, drawing from them what she needed – just as Bismarck did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +234,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:470}",
-			say = "幻光系统运作正常，附近没有发现任何敌人，海况平静，适合作业。",
+			actorName = "Peter Strasser",
+			say = "The resources and combat forces required for the Tower of Midgard have already been shipped out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,25 +252,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:470}",
-			say = "计划随时可以开始，等候您的指令。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:440}",
-			say = "很好。开始组装工作吧，之后，等待下一步行动命令。",
+			actorName = "Peter Strasser",
+			say = "The active camouflage is operational, and there are no signs of interference from enemies. These are the best possible work conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,8 +270,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:470}",
-			say = "遵命，{namecode:470}通讯结束。",
+			actorName = "Peter Strasser",
+			say = "That being the case, what is the judgment of this plan's chessmaster?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,24 +282,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_midgard_1",
-			say = "从各地传来的情报汇聚在这小小的办公桌上，而{namecode:440}正将这些情报转化为决策——就像她此前一直在做的那样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
+			hidePaintObj = true,
 			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "只是今天的这次，与以往有些许不同。",
+			actorName = "Friedrich der Große",
+			say = "Start assembling your forces. I'll send your next instructions soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,8 +305,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "终于要到最终阶段了啊，我不过去没问题么？",
+			actorName = "Peter Strasser",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,13 +317,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "不能因为资源高度集中一处而在其他部分出现纰漏。",
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "She absorbed the information flowing around her, processed it, and issued commands that would lead to her desired outcomes. Exacting fidelity, like a maestro conducting a symphony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,48 +331,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "如果你那里出问题，我们的行动意义就会大大降低。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "只是大大降低，而不是全无意义么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:440}",
-			say = "你觉得呢？",
+			say = "But there was another maestro as well... the person advising her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,8 +351,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "是是是，你说得对~",
+			actorName = "Prinz Eugen",
+			say = "So, all the pieces are finally starting to fall into place. Are you sure you don't need me out there?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "I cannot afford to waste a single point of our limited resources.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "Should you fail, Bismarck's will would not be fully enacted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,8 +403,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "重樱的客人们在这里很满意，而且她们接下来也会实时观看行动进展，没问题吧？",
+			actorName = "Prinz Eugen",
+			say = "Is that really such a big deal? ...It's not like everything would be for naught, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,8 +420,8 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "没问题。就是数据传输的稳定性我们也不敢保证，这一点交代清楚。",
+			actorName = "Friedrich der Große",
+			say = "What do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,8 +438,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "那是自然~这种开拓性的行动中会发生什么都不稀奇。",
+			actorName = "Prinz Eugen",
+			say = "......Well, I'll trust in your plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,8 +456,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "仅仅能在第一时间看到对于重樱而言就已经意义非凡了，相信就算发生意外中断的情况她们也不会有所怨言的。",
+			actorName = "Prinz Eugen",
+			say = "I wonder if we can give our dear clients in the Sakura Empire a glimpse of the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,8 +473,8 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "很好。",
+			actorName = "Friedrich der Große",
+			say = "I don't mind. However, just know that I cannot guarantee the stability of the transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,81 +491,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:427}",
-			say = "那就祝我们好运咯，{namecode:427}通讯结束。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:440}",
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "通讯结束后，{namecode:440}的脸上少见的出现了一丝阴霾。不过阴云转瞬即逝，自信的笑容又回到了脸上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "接下来，屏幕上出现了两个熟悉的标志，不知为何，图像背后的人选择隐去了自身的样貌。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "而那些标志所代表的，正是直到此刻还与铁血处于交战状态的北方联合和皇家海军——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "{namecode:440}与那两人进行了简单的交谈，但交流被另外一个突然出现的声音打破了。",
+			actorName = "Prinz Eugen",
+			say = "Of course. The fact that this IS a risky operation only makes me want to show off more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,8 +509,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "哟，{namecode:441}，我来了，非常感谢汝在大展宏图之日能叫上我来一同欣赏~",
+			actorName = "Prinz Eugen",
+			say = "Considering how important our findings are to them, I'm sure they won't complain even if we do run into some technical difficulties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,8 +526,8 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "马可波罗阁下——你的联络从时间上来说是否稍微早了一些？",
+			actorName = "Friedrich der Große",
+			say = "Exercise your best judgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,8 +544,81 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "诶，是这样么？我没太在意。最近事情太多了，也许是早了一些或者晚了一些吧？",
+			actorName = "Prinz Eugen",
+			say = "Best of luck to you too. Signing off.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "............",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "For a brief moment, a tinge of melancholy flashed across Friedrich's face. But almost as quickly as it had come, her lips curled into their usual smile as she connected her next call.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "\"Royal Navy\" and \"Northern Parliament.\" She reached for the panels bearing the insignias of the two factions.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "––The Naval HQ's instructions were for the Crimson Axis and Azur Lane to remain at war.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "As soon as Friedrich finished her conversations with the representatives of the other factions, she turned her attention to a new call that had unexpectedly cut in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,8 +635,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "看你这个反应应该是早了一些？",
+			actorName = "Marco Polo",
+			say = "Thank you for your kind invitation, Friedrich der Große.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,8 +652,8 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "对的，是早了一些。而且这个频道——是紧急联络用频道。",
+			actorName = "Friedrich der Große",
+			say = "Marco Polo of Sardegna. You arrived earlier than planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,39 +670,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "啊，好像是这样！打扰你了？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:440}",
-			say = "也没有。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "{namecode:440}看着面前两个已经熄灭的窗口，微不可查地叹了一口气。",
+			actorName = "Marco Polo",
+			say = "So? Who cares if I'm a few minutes early or late? I'm also busy here, so let's not sweat the small details.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +688,25 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "那就好，那就好嘛~反正我在开始之前如约而来了。",
+			actorName = "Marco Polo",
+			say = "......Wait, so I really am too early?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "Yes. And this channel is for emergency communications only.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,8 +723,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "不过我之后还有事，就不实时观看了，后面把报告发给我就可以了哦。",
+			actorName = "Marco Polo",
+			say = "Eh?! My, I'm terribly sorry for that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,8 +740,22 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "自己参与的事，不想见证一下过程么？",
+			actorName = "Friedrich der Große",
+			say = "Let's not sweat the small details.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "Friedrich smiled wryly at the two panels that had been closed just moments before the Sardegnian ship's interjection. A narrowly averted disaster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,8 +772,26 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "马可波罗",
-			say = "其实也没有那么大兴趣，举手之劳而已。我还是更在意圣座的位置，要做的事已经堆积如山了。",
+			actorName = "Marco Polo",
+			say = "Anyway, I'm looking forward to seeing the results of your operation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Marco Polo",
+			say = "But you'd probably have to give me the details after the fact though. I can't really find the time to follow things as they unfold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,8 +807,8 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "那也祝你好运，我坚定的撒丁盟友，无可置疑的圣座马可波罗阁下。",
+			actorName = "Friedrich der Große",
+			say = "How unfortunate. I would've liked you to come witness it in person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,52 +819,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			say = "相比于坚定的盟友，马可波罗似乎对“无可置疑的圣座”表现出了更高的热情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
+			hidePaintObj = true,
 			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "再之后，撒丁帝国的通讯也结束了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "满天繁星逐次熄灭，最后，只剩两个窗口还亮着了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_1",
-			say = "{namecode:440}没有发问，两个窗口后的人也没有出声。",
+			nameColor = "#a9f548",
+			actorName = "Marco Polo",
+			say = "I appreciate the sentiment, but we've got our hands full with the Vichya right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,8 +842,64 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "终于走到了这一步……",
+			actorName = "Friedrich der Große",
+			say = "I have little to offer you in support right now, but... may you take their power and spread the glory of Sardegna.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "\"As it stands, Sardegna seems to have their interests elsewhere and will not be participating in the operation.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "Friedrich wrote a brief reminder for herself before directing her attention towards the final contact – the one in charge of carrying out the operation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "Only two panels remained to shed light across the dark space.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_1",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,8 +915,25 @@ return {
 			bgName = "bg_midgard_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "我已经搭好了舞台，奏响了乐章。",
+			actorName = "Friedrich der Große",
+			say = "The time has finally come for the operation to be set into motion.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Friedrich der Große",
+			say = "The stage has been set, and the actors are in place. All that remains is to lift the curtains.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,8 +950,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "{namecode:440}",
-			say = "接下来——让我们的演出开始吧。",
+			actorName = "Friedrich der Große",
+			say = "Let us relish in the sights and sounds of the show to come––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,47 +965,47 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「一座高塔，意图连通天界与人间」</size>",
+					"The Iron Blood has given much to reverse engineer Siren technology.",
 					1
 				},
 				{
-					"<size=51>「不分种族与国界，用相同语言描绘的相同目标」</size>",
+					"Investigating Siren capabilities, conducting Reenactments. Usurping facilities, integrating their technologies into special armaments.",
 					2
 				},
 				{
-					"<size=51>「勠力同心」</size>",
+					"And finally, a \"Singularity Deconstruction\" expedition to shed light onto the mystery of the Sirens' very existence.",
 					3
 				},
 				{
-					"<size=51>「这是属于凡人的奇迹，也是神所不能容许的奇迹」</size> ",
+					"A project that was not possible at any point in the past due to technological limitations.",
 					4
 				},
 				{
-					"<size=51>「神罚降下，物质上的高塔被毁，精神上的齐心不再」</size> ",
+					"But at last, after an experiment conducted on a floating fortress, after contact with the Sakura Empire, and after a counter-offensive operation in the NA Ocean, the doorway into the realm of the impossible revealed a crack.",
 					5
 				},
 				{
-					"<size=51>「此等奇迹永远无法再现了」</size> ",
+					"The Tower of Midgard, and the core of that project...",
 					6
 				},
 				{
-					"<size=51>「这是过去留下的教训，一个希望我们刻骨铭心牢记的教训」</size> ",
+					"Bifröst, a bridge that connected the singular existence of this world to the Singularities of other dimensions.",
 					7
 				},
 				{
-					"<size=51>「凡人，不可触碰神的领域」</size> ",
+					"Something that would elevate humanity's understanding of the Sirens.",
 					8
 				},
 				{
-					"<size=51>「凡人，不可质疑神的权威」</size> ",
+					"The operation would test the things that the Iron Blood prided themselves in– their technology, their combat prowess...",
 					9
 				},
 				{
-					"<size=51>「现在，我要重铸高塔了」</size> ",
+					"And above all else––",
 					10
 				},
 				{
-					"<size=51>「前来阻挡我的神，在哪里？」</size> ",
+					"Their audacity to transcend God.",
 					11
 				}
 			}

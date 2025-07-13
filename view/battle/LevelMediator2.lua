@@ -88,13 +88,19 @@ function var_0_0.register(arg_1_0)
 		local var_6_3
 
 		if var_6_2[arg_6_2] then
-			var_6_3 = getProxy(CommanderProxy):getCommanderById(var_6_2[arg_6_2])
+			local var_6_4 = getProxy(CommanderProxy):getCommanderById(var_6_2[arg_6_2])
+		end
+
+		local var_6_5
+
+		if var_6_2[arg_6_2] then
+			var_6_5 = getProxy(CommanderProxy):getCommanderById(var_6_2[arg_6_2])
 		end
 
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERCAT, {
 			maxCount = 1,
 			mode = CommanderCatScene.MODE_SELECT,
-			activeCommander = var_6_3,
+			activeCommander = var_6_5,
 			ignoredIds = {},
 			fleetType = CommanderCatScene.FLEET_TYPE_HARD_CHAPTER,
 			chapterId = var_6_1,

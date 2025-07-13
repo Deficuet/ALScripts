@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>二 工作吧，{namecode:144}！</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 2: Ashigara, Work!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "欸？由、由我担任秘书舰吗？",
+			say = "Eh? Serve as s-secretary? Me?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这一定是指挥官对我的信任……我会努力做好的！",
+			say = "Surely, this is a sign that Commander trusts me... so I've got to do my best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，这个月的委托报告的备份都在这里了。",
+			say = "Commander, the files of this past month's commissions are all here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……要按照日期顺序排好吗？",
+			say = "...I have to arrange them by date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，那指挥官稍等我一下……",
+			say = "I-I'm sorry, Commander... please give me a moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，那个，请用茶——",
+			say = "Commander, um, your tea is-",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -203,7 +203,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "Eep...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对，对不起！我不小心把茶杯弄倒了！我，我现在就处理好它！纸，纸巾是在这里——",
+			say = "I-I'm so sorry! I accidentally knocked the teacup over! I'll clean it up right away... um, paper towels, where are the paper towels....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奇怪，刚刚放在这里的签字笔……找不到了。",
+			say = "Weird, I swore I put the pen here just a moment ago, and now I can't find it...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（翻找）",
+			say = "*fumbles around*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "找到了！是什么时候落到这个地方的……",
+			say = "I found it! How did it get all the way over here....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，糟了，文件，文件堆要落下来了！难不成是刚刚找签字笔的时候没注意到——",
+			say = "Oh no! The pile of documents are about to fall over! I didn't notice because I was busy looking for the pen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "哗啦！",
+			say = "Fwoosh! ...Ashigara was buried under a landslide of loose papers.",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然有些折腾，任务总算是顺利完成了。",
+			say = "Though there were some obstacles in the way, Ashigara managed to finish her tasks.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -400,7 +400,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸？……已经这个时间了？",
+			say = "Huh? ...It's already this late?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起，是我的马虎耽误了指挥官的工作……我之后一定会做好的！",
+			say = "I'm so sorry.... because of my clumsiness, I delayed Commander's work... I promise I'll do better next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（呜…下次一定要做得更好才行…）",
+			say = "(Ugh... I have to redeem myself next time...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:144}似乎默默下定了什么决心的样子",
+			say = "Ashigara clenched her fist, filling herself with determination despite wanting to cry in frustration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

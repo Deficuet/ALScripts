@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "高塔之中，帕克菲克洋的真正主宰者正通过隐藏在海域各处的耳目监控着战场上的一举一动。",
+			say = "From atop her high tower, the true ruler of the Pacific observed the battlefield through her many hidden cameras.",
 			bgm = "battle-siren-centraltower",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "不过它的目光忽略了无数在西方闪烁的光点，而是紧紧地注视着东方。",
+			say = "Her gaze slid past the countless lights over the West Pacific and stopped on the East Pacific – on the Dragon Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,8 +49,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——事态的严重等级还在提升。",
+			actorName = "Tester",
+			say = "The situation is deteriorating further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,8 +62,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——已确认：东煌境内超过四成的电力已经集中至「天星台」超级计算中心。",
+			actorName = "Tester",
+			say = "A staggering amount of the Empery's electricity has been rerouted to one location – the Celestial Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——其比例还在还需升高中。",
+			actorName = "Tester",
+			say = "Early observations indicate it's more than 40% of all their electricity, and the number is growing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——已确认：东煌全境已进入一级战备状态。",
+			actorName = "Tester",
+			say = "I can also see that the whole country has entered level one combat readiness status.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,8 +101,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——以东煌当前为战役准备的力量进行模拟计算，其成功突破「大风暴」屏障的概率高于98%。",
+			actorName = "Tester",
+			say = "Considering the size of their force, and the fact that the Commander is at the helm, there's a 98% probability that they'll breach through the Storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,8 +114,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——结论：必须立刻启用应急方案。",
+			actorName = "Tester",
+			say = "In conclusion, emergency measures must be taken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,8 +127,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "根据观察者的命令，在整体实验流程推进至下一阶段前，大风暴屏障绝对不能被东煌突破。",
+			actorName = "Tester",
+			say = "Observer's orders are clear – any attempts to destroy the Storm must be stopped until the experiment reaches its next phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,8 +140,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "因此，需要依照应急方案，将大风暴屏障等级由当前的强度IV，临时调整至强度IX。",
+			actorName = "Tester",
+			say = "As a precautionary measure, I'm raising the Storm's intensity from IV to V.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,8 +153,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "直至东煌舰队弹药耗尽，无力继续进攻为止。",
+			actorName = "Tester",
+			say = "I'll hold them back until they run out of ammunition and can't keep up the assault any longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "测试者做出了决定后，便开始向着各机关模块下达指令。",
+			say = "Tester came to a conclusion and began sending out orders across all her modules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "可是——它并没有收到各模块如预期般的反馈。",
+			say = "The modules, however, did not respond to the orders. They remained unresponsive even after seconds passed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,8 +188,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "……通讯延迟？",
+			actorName = "Tester",
+			say = "Did my connection time out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,8 +201,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "主机塔被干扰了？",
+			actorName = "Tester",
+			say = "Is somebody jamming the tower of my mainframe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +214,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "不、绝不可能——",
+			actorName = "Tester",
+			say = "No... That's impossible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "这片由钢铁构成的都市中，出现了一个蓝色的光点。",
+			say = "In the city of steel that is her mainframe, a single blue dot flickered.",
 			bgm = "theme-arbitrator-tower",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "随后，蓝色光点转变为蓝色的洪流顷刻灌入了这座机械都市的每一个角落。",
+			say = "The flicker burst into a dazzling torrent that spread across the entire city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "而后，洪流又变为了光点，自它出现之处消失了。",
+			say = "It faded, becoming a dot once more before disappearing right where it originated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,8 +278,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——指令已确认。",
+			actorName = "Tester",
+			say = "Orders received.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,8 +291,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——弃用对于大风暴屏障进行强度等级调整的原定方案。",
+			actorName = "Tester",
+			say = "Canceling original plan to increase Storm's intensity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,8 +304,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——新方案已确认。",
+			actorName = "Tester",
+			say = "Alternate plan received.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,8 +317,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——正在启用IV型量产型生产线。",
+			actorName = "Tester",
+			say = "Activating Type IV mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,8 +330,8 @@ return {
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——正在调集舰队去指定区域建立防线，在大风暴屏障重新启动之前，迎击东煌舰队。",
+			actorName = "Tester",
+			say = "Repositioning units to form defensive line. Engaging enemy units until Storm initiation sequence has completed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "测试者再次开始向着各机关模块下达指令。这一次——指令顺利下达了。",
+			say = "She issued new sets of orders to her many modules, and this time, they responded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "在β实验场从未启用过的IV型量产型生产线，如今灯火通明。",
+			say = "With a series of electrical signals, construction was begun on the Type IV mass-produced model – massive units that have rarely been seen in test site beta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "大战——一触即发。",
+			say = "The situation was now a powder keg waiting to blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

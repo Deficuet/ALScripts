@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=45>一　迷路的忍者</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=45>Chapter 1 - Bad Sense of Direction</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天是{namecode:11}担任秘书舰的第一天。",
+			say = "Starting today, Akatsuki will be serving as my secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过，明明已经超过了预定的时间，{namecode:11}还是没有出现。",
+			say = "... Well, that was the plan, anyway. It's now past the time she was supposed to arrive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,14 +69,14 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "会不会发生什么事了？",
+			say = "Maybe something has happened to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "去查看{namecode:11}的情况。",
+					content = "Go looking for her",
 					flag = 1
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，早上好！",
+			say = "Hey, Commander! Good morning!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是在找{namecode:11}吗？我明白了！",
+			say = "Hm? You're looking for Akatsuki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}的话……唔唔……几分钟前好像往那个方向去了呢！",
+			say = "Let's see... I think... I saw her heading over there just a few minutes ago!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}……？",
+			say = "You're trying to find Akatsuki?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}好像看到她去那边了……",
+			say = "Ayanami saw her walking in that direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:11}吗？吾辈记得看到过她来着。嗯……",
+			say = "Akatsuki, eh? I believe I saw her just this morning... Hum, hum...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！想起来了，吾辈看到她往那个方向跑过去了！",
+			say = "Ah, now I remember! I saw her hurriedly going that-a-way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "集合目前收集到的线索，{namecode:11}似乎绕整个港区一圈……",
+			say = "Based on these testimonies, Akatsuki seems to have gone in a circle around the port...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "难道……？",
+			say = "She must've gotten lost, somehow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,23 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…这边应该是…转这个方向吧——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301090,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊——指、指挥官？",
+			say = "Hmm... It should be over here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +323,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？已经这个时间了！？万、万分抱歉！在下原本是想准时到达指挥室的……",
+			say = "Oh?! C-Commander?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301090,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Why, I'm already this late?! H-how shameful! The first thing I did in the morning was to try to make my way to the office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，前往指挥室的道路似乎比在下想象的要远一些…",
+			say = "But it seems I underestimated how far away it is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "看来果然是迷路了",
+			say = "Just as I figured, Akatsuki had gotten lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸欸？往指挥室的路是那个方向吗？！",
+			say = "W-what?! The office is in that direction?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…下次，下次在下一定能准时到达！",
+			say = "*Whimper*... Thank you for informing me... I-I swear upon my name that I won't be late tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:11}鞠了一个躬，看起来十分愧疚。",
+			say = "Akatsuki was bowing repeatedly and deeply to express her guilt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "带着{namecode:11}一起回到了指挥室",
+			say = "Being a ninja with a bad sense of direction must be a daily struggle.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "有机会的话，还是带{namecode:11}熟悉一下港区吧。",
+			say = "Next time I have the chance, I should take her along for a stroll around the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

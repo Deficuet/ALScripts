@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"淑女的小小提案\n\n<size=45>二 烦恼的谈心</size>",
+					"A Lady's Modest Proposal\n\n<size=45>Chapter 2 - Consultation</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "工作结束，正准备离开办公室时，发现光辉在门口等着。",
+			say = "When I exited the office after finishing up all of my work, Illustrious was waiting for me at the door.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安，指挥官。",
+			say = "Good afternoon, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昨天提过的，在那个地方举办茶会的事情…",
+			say = "I believe I told you about my desire to hold a tea party at the secret spot we visited together yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果方便的话，能请指挥官也一起参加吗？",
+			say = "Won't you come join us, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "机会难得，在答应之余，顺便问了下有什么可以帮忙的。",
+			say = "Gladly accepting her proposal, I asked if there was anything I could help out with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官愿意帮忙就很让人开心了…不过，不会给您添麻烦吧？",
+			say = "I'd be overjoyed to have you help me, but... wouldn't it be a hassle for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "向光辉表示没关系，并且很快决定和光辉一起筹备茶会需要的东西。",
+			say = "I told her it wouldn't be a problem. That settled, we started to look for things we'd need for the tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "总之先把白色桌子和几把椅子搬了过来。",
+			say = "Though we struggled for a bit, in the end, we were able to bring a white table and some chairs up the slope to the secret spot.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "准备工作比想象中的还要累，两人坐在搬来的椅子上稍作休息。",
+			say = "This was more back-breaking work than I had thought. Exhausted, the two of us both leaned back into the chairs we had brought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯…",
+			say = "...Mmn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,23 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "光辉似乎陷入了某种沉思。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊，对不起走神了。其实…之前收到了利托里奥的晚餐邀请信。",
+			say = "It seemed like Illustrious was deep in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +222,23 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过当时正好在忙，就没有及时回复，现在有点烦恼该如何是好…",
+			say = "Oh, I'm sorry... It's just that, a while ago, Ms. Littorio sent me a letter inviting me to dinner.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "However, I was very busy at that time, so I forgot to send her a response. I'm worried about what I should do now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			},
 			options = {
 				{
-					content = "提议邀请她参加茶会",
+					content = "Why don't you invite her to the tea party?",
 					flag = 1
 				}
 			}
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "参加…茶会？啊，原来如此！确实是个好主意呢！",
+			say = "Invite her to the tea party...? Oh, why, that's a wonderful idea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，信上还写着“务必请可畏也一起来”，所以我也跟可畏说了这件事，不过…",
+			say = "Ah, the letter also said that she wished to speak with Formidable as well, so I relayed the message to her, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "很高兴你邀请我。不过那一天我要欣赏摇……音乐——",
+			say = "\"I appreciate the invitation, but on that day, I have plans to rock in my– Err, enjoy some music.\"",
 			effects = {
 				{
 					active = true,
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——如此这般地被她推辞了呢……",
+			say = "...Is the reason she said she couldn't be in attendance.",
 			effects = {
 				{
 					active = false,
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然很想邀请她也一起参加茶会，不过她这么喜欢流行的东西，应该很难说动了吧……",
+			say = "I really wanted her to come to the tea party, but... I'm sure she really likes the new craze. That's why I think it'll be really hard to get her to come...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,23 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "趁着休息的时候，帮着光辉一起想想如何回复利托里奥，跟说动可畏好了…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呵呵，指挥官真是温柔啊~",
+			say = "I told Illustrious that I'd help her write a response to Littorio and try to convince Formidable to attend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,21 +366,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么就恭敬不如从命——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "光辉拉着椅子，很自然地靠了过来， 彼此的手臂似乎紧紧地贴在一起，令人不禁砰然心动。",
+			say = "Hehe. You're a really nice person, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +382,37 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给利托里奥小姐的回复的话，先在开头以回复迟了为由道歉，然后再说说邀请的事情吧？",
+			say = "Well, if you'd be so kind...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "Illustrious seemed to feel more relaxed as she pulled her chair up next to mine. My heart started to pound as I noticed that Illustrious was so close that our shoulders were about to touch.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "For my letter to Ms. Littorio, I should start off by apologising for my late response... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "一面拼命祈祷着不要暴露了自己的剧烈心跳，一面思考着回信的内容——",
+			say = "While praying fervently that she couldn't hear my heart exploding in my chest, I thought about how Illustrious should respond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

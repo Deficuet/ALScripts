@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>十 逃避虽可耻但有用</size>",
+					"Tonic and Tea\n\n<size=45>10. Emergency Escape</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这一天，终于到来了。",
+			say = "\"So... Here we are now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，一周的期限已经到了。",
+			say = "Mhm. The agreed-upon 7 days have passed since both our stores opened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "是啊，没想到一周会过得如此之快。",
+			say = "\"That they have. The week went by in a flash, it feels like...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "皇家午茶<Queen's Tea>与莱茵咖啡馆 Café im Rhine，两家店都得到了港区同伴的一致好评。",
+			say = "\"Let's start with what others think. Both your respective stores have been garnering rave reviews.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果可以的话，希望铁血与皇家都能将各自的店再继续运营一段时间。",
+			say = "\"In fact, some customers have even requested we keep the stores open for maybe another day or two.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "当然。如果是指挥官的希望的话，铁血会负责任将店铺经营下去的。",
+			say = "If you'd like us to do that, then it can be arranged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家自然也是如此。当然，就算不是为了仆从，考虑到提升皇家的威望，本王也会继续把店开下去就是了！",
+			say = "Ditto for The Royal Tea. I-I suppose I can tolerate being your maid for a bit longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然是这样的话，就没有问题了。散会——————",
+			say = "\"Wonderful. Then since both parties are in agreement, the stores will stay open for a while longer. That was a quick meeting.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "等等，指挥官，你还没有宣布最后的胜利者呢！",
+			say = "What? But you've not declared a winner yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家的皇家午茶<Queen's Tea，与铁血的莱茵咖啡馆 Café im Rhine，你对哪一家更满意？",
+			say = "That's what we asked you to do – decide which store you, personally, like the most.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405012,
-			say = "无须顾忌，只要是你的评判，是输是赢我都接受。",
+			say = "I'm curious to hear your opinion, regardless of which is your favorite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205015,
-			say = "好像是有这么一回事呢~那本店长也要一个说法！仆从，你觉得是谁赢了？",
+			say = "I concur. Go on! Give us your honest opinion, servant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看指挥官的样子，好像有很多话想说呢。",
+			say = "Heheh. You look like you have a lot to say, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "造成这一事态的罪魁祸首就是你吧——怀着这样的心情无言的看着{namecode:427}。",
+			say = "\"I do. There's much I'd like to say as a preface to deciding the winner...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，所以指挥官最后的结论是————",
+			say = "Nobody's stopping you. We're all ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,38 +294,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚、咚、咚（敲门声）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "打扰了，指挥官……嗯？大家都围在这里做什么呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "是企业————！",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是这样，关于后天的演习，今天下午会有一个白鹰内的作战会议，如果指挥官也能参加的话就再好不过了。",
+			say = "Sorry for barging in. I couldn't get a hold of... Why are you all gathered here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +325,38 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "来的真是太及时了……",
+			say = "Oh, thank god. Someone has come to save me in my hour of need!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107060,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "The Eagle Union's holding a briefing later today on our upcoming exercise. I was just wondering if you wanted to attend, Commander?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "That's my golden ticket out of here. Thank you, Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题",
+					content = "\"Of course I'll attend.\"",
 					flag = 1
 				},
 				{
-					content = "请务必让我参加",
+					content = "\"It would be my pleasure.\"",
 					flag = 2
 				}
 			}
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "太好了！……哎？指挥官，现在出发的话是不是有些早？",
+			say = "Oh, awesome! ...Didn't think you'd agree to it instantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没有关系！那么就是这样，因为突发事件，总结会到此结束，大家都辛苦了！",
+			say = "Now I have an excuse to postpone my final answer for later. Time to leave, quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 405012,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂，指挥官，指挥官————！",
+			say = "Wait! We're not finished here...!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

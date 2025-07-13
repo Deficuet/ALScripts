@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_skirmish_event = {
 	[101] = {
 		event = "1242017",
-		name = "P1-演习",
+		name = "P1 - Joint Exercise",
 		type = 1,
 		id = 101,
 		task_id = 16500,
@@ -10,7 +10,7 @@ pg.activity_skirmish_event = {
 	},
 	[102] = {
 		event = "1250031",
-		name = "P2-护航",
+		name = "P2 - The Convoy",
 		type = 2,
 		id = 102,
 		task_id = 16501,
@@ -18,7 +18,7 @@ pg.activity_skirmish_event = {
 	},
 	[103] = {
 		event = "FENGBAOQIANXI3",
-		name = "P3-任务",
+		name = "P3 - The Mission",
 		type = 1,
 		id = 103,
 		task_id = 16502,
@@ -26,7 +26,7 @@ pg.activity_skirmish_event = {
 	},
 	[104] = {
 		event = "1250032",
-		name = "P4-合流",
+		name = "P4 - Grouping Up",
 		type = 2,
 		id = 104,
 		task_id = 16503,
@@ -34,7 +34,7 @@ pg.activity_skirmish_event = {
 	},
 	[105] = {
 		event = "1250033",
-		name = "P5-扫荡",
+		name = "P5 - Area Sweep",
 		type = 2,
 		id = 105,
 		task_id = 16504,
@@ -42,7 +42,7 @@ pg.activity_skirmish_event = {
 	},
 	[106] = {
 		event = "FENGBAOQIANXI7",
-		name = "P6-干扰",
+		name = "P6 - Interference",
 		type = 1,
 		id = 106,
 		task_id = 16505,
@@ -50,7 +50,7 @@ pg.activity_skirmish_event = {
 	},
 	[107] = {
 		event = "1250034",
-		name = "P7-联络",
+		name = "P7 - Contact Reestablished",
 		type = 2,
 		id = 107,
 		task_id = 16506,

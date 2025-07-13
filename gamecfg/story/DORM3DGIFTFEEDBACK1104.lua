@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 10517,
 			nameColor = "#FFFFFF",
-			say = "哇哦~是我最喜欢的气泡水果糖！",
+			say = "Wow! That's like my favorite fizzy fruit candy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			actorName = 10517,
 			nameColor = "#FFFFFF",
-			say = "Honey特意挑选的吗？包装得很漂亮嘛！谢啦~！",
+			say = "You picked it out just for me? Even the packaging is cute. Thank you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

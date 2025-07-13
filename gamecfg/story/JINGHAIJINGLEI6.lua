@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>六　平和中正</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>6 Indigo Seal</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:81}宅邸附近",
+			say = "Sakura Islands - Near Tosa's residence",
 			bgm = "map-longgong",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "穿过这片竹林应该就要到了，还真是一片荒凉……",
+			say = "Should be just past this bamboo grove... Still can't believe how desolate this place is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "明明只要点个头就能搬到更好的地方去的……唉。",
+			say = "It's going to be strange seeing her again. It always is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92}大人，下午好~",
+			say = "Hi, Kaga! Whatcha doing here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是{namecode:33}啊。你怎么来这里了？",
+			say = "Mutsuki? That's my question – why are YOU here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:33}来给大家分发祭典会用到的烟花和糖果哦！这颗糖果，送给{namecode:92}大人！",
+			say = "To give out fireworks and candy! Oh, and deliver a message! Here, have a freebie!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "啊……多谢。没想到{namecode:13}和{namecode:14}也还在这里……",
+			say = "I... see... Thanks. I see Inazuma and Ikazuchi are here, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:33}，有什么带给我的留言么？",
+			say = "Listen. Tosa's not as nice as she lets on. If she's mean to you, you're welcome to be mean back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有哦，{namecode:33}只是单纯来玩的，{namecode:92}大人是指什么？",
+			say = "If you say so! I'm going home now, though!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事了。回去的路上小心哦。",
+			say = "Alright. Careful so you don't trip.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~{namecode:92}大人再见。",
+			say = "Okey-dokey! Bye-bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:81}宅邸门前",
+			say = "Sakura Islands - Near Tosa's residence",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位下午好，请问{namecode:81}在家么？",
+			say = "(First I was converted to a carrier in Amagi's stead, then the Commander appeared and somehow changed the Reenactment, resulting in Tosa's survival...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hideOther = true,
-			say = "{namecode:92}大人您好。很不巧，{namecode:81}大人外出未归。",
+			say = "Good evening, Kaga. I'm afraid Tosa isn't home at the moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "没关系，我可以进去等，让我进去。",
+			say = "Not a problem. I can wait for her to come back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			actor = 301110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个恐怕……{namecode:81}大人吩咐过，没有她的许可，任何人不能入内。",
+			say = "I see... The thing is, Tosa said nobody's allowed in without her permission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才{namecode:33}来，我们也只是在门口和她玩的。",
+			say = "Mutsuki visited just a while ago. It felt a bit awkward talking to her in front of the door, but rules are rules.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那我就在外面等好了。",
+			say = "...Alright, I'll just wait outside then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301110,
-			say = "{namecode:92}大人，{namecode:81}大人最近在忙着祭典的事情。",
+			say = "I see, I see! You might be waiting for a long time, though. Tosa's been crazy busy with festival planning and stuff.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "烟花大会的流程似乎意外消耗精力，也许今天不会回来了。",
+			say = "Arranging a fireworks display is very time-consuming. I doubt she'll even come home today.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "在这种荒郊野岭……烟花大会弄得再好又要给谁看？",
+			say = "(They're having a fireworks display here, in the middle of nowhere? That's news to me.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我有重要的事找{namecode:81}，你们想办法去联系一下。",
+			say = "You don't happen to know when she'll be back, do you? I really need to talk to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301110,
-			say = "可就算是{namecode:92}大人您这么说，我们也……",
+			say = "I see, I see! But I don't know. Do you, Inazuma?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92}大人，如果您一定要见{namecode:81}大人的话，可以让{namecode:84}大人下一道命令。",
+			say = "I'm afraid not. Musashi might, however, so you could ask her.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301110,
-			say = "没错，如果是{namecode:84}大人的命令，{namecode:81}大人应该会听的。",
+			say = "Ah, I see! If anyone would know where Tosa is, it'd be her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301110,
-			say = "而{namecode:92}大人的话，{namecode:84}大人肯定会听的。",
+			say = "Just ask and she'll probably tell you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……这个是我们之间的事，与其他人无关。",
+			say = "Musashi, huh... I'll pay her a visit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307020,
-			say = "既然如此的话……我就改日再来，不打扰了。",
+			say = "Guess I'll be on my way then. You two be good, alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,12 +544,12 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_unnamearea_1",
-			actorName = "梓&柏",
+			actorName = "Ikazuchi & Inazuma",
 			blackBg = true,
 			actor = 301120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:92}大人慢走哦——",
+			say = "- Buh-bye! - Safe travels.",
 			subActors = {
 				{
 					actor = 301110,

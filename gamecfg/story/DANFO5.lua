@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>五 来自对手的委托</size>",
+					"Denver's Quest!\n\n<size=45>5.A Rival's Quest</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "站在布告栏前的，是骑士们宿命中的对手。",
+			say = "A rival to my knightly companion approached the quest board.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——什么啊，刚想说是谁在这边吵吵嚷嚷的……原来是丹佛啊。",
+			say = "Oh, if it ain't you, Denver. That explains that shoutin' just a minute ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "重樱轻巡洋舰{namecode:38}的手中，正拿着一张纸。",
+			say = "It was Sendai from the Sakura Empire. She held a sheet of paper in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个？这是我刚准备贴上去的委托书。",
+			say = "Was just thinking about whether or not to put this quest on the board.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是什么样的委托啊？可以的话，就让我和指挥官帮忙吧！",
+			say = "What kinda quest are we talking? The commander and I could give you a hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要你们不介意的话……不是什么重要的大事哦？",
+			say = "You'd do that? It's nothin' important anyway, but if you wanna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近这几天我在打篮球，不过已经和{namecode:144}、{namecode:64}她们打腻了。因此，我正在寻找对外比赛的对手。",
+			say = "See, I got into basketball a while back. Been playin' with Ashigara and Nachi a lot. Too much, even, so I've been gathering up an away team to play against.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对外比赛？也就是说你要找其他阵营的人做对手？",
+			say = "Away team? Ah, you mean like, people you've never played against before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。不过要是从现在开始找齐两队人的话，恐怕要等到天黑了。所以就想快速找个能进行单挑的对手。",
+			say = "Basically. I've got some people already, but if I called 'em now it'd take all day for them to show. So what I'm askin' for is a one-on-one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "{namecode:38}把任务书摊开，脸上露出了微笑。",
+			say = "Sendai smiled and unfolded her handwritten quest paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说来也巧，这里不就有个喜欢篮球的克利夫兰级嘛——",
+			say = "So, what do you say? Heard your sisters are into basketball. They could spectate if they want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此， 你是想让我做你的对手么？",
+			say = "Ah, so you're challenging me to a round of basketball, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我本来只是想碰碰运气的，结果没想到一下子就遇到了合适的对手。遇到强敌就想挑战是理所当然的吧？",
+			say = "Sure am. You're the worthiest opponent I can think of. And how could I pass up a chance to find out who between us is the best?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈~既然你都这么说了，我就不能不接受这个挑战了啊！",
+			say = "Well, I'm sure as heck not one to back down when my rep's at stake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "弥漫在两人之间的并非剑拔弩张的肃杀，而是同港区的同伴之间对于即将到来的“战斗”的紧张与兴奋。",
+			say = "They glared intently at each other. Not as enemies, but as friendly rivals, each looking to prove themselves the better basketball player.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也是对我身为海上骑士的考验啊~没问题，{namecode:38}，我正式接受你的挑战了！",
+			say = "Challenge accepted! This will be one more step on my journey to become a full-fledged Knight of the Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两个小时后开始比赛，在这期间一定要好好准备一下哦。",
+			say = "All right, then we'll play in two hours. Get yourself warmed up and bring your A-game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起我们各自阵营的人，指挥官，如果方便的话裁判就由你来担任吧。",
+			say = "Oh, and Commander? I want you to be the referee. You're usually pretty impartial, compared to most girls with biases to their faction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，拜托了！",
+			say = "Yeah! Be our referee, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "丹佛和{namecode:38}的眼中都燃烧着斗志之火。看来这将会是一场相当激烈的比赛……！",
+			say = "Sendai and Denver alike had fiery hot looks of determination in their eyes. One thing was for sure: an intense game of basketball was imminent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

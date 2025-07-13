@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"淑女的小小提案\n\n<size=45>四 心跳的亲密接触</size>",
+					"A Lady's Modest Proposal\n\n<size=45>Chapter 4 - Heart-pounding Intimacy?!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "于是，马上开始了对独角兽发现的高级遮阳伞的安装。",
+			say = "The parasol Unicorn had spotted was indeed a very fancy one. We should hurry up and put it to use.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…独角兽…也可以……帮忙吗？",
+			say = "Umm, can I help out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "安装本身应该没有什么危险，于是同意了独角兽的请求。",
+			say = "It seemed safe enough, so I decided to let her help out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完成了…！",
+			say = "We did it!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确认伞能稳稳地撑起来之后，独角兽便安心地坐到了椅子上。",
+			say = "After successfully setting the parasol inside the table, Unicorn sat down on a chair next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,37 +140,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "应该是因为能帮上忙而感到很高兴吧，虽然态度不明显，但还是能感觉到她的这份心情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呵呵，独角兽看起来很开心呢。刚才的失落就像假的一样~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "光辉在旁边一脸微笑地注视着独角兽。",
+			say = "She must be happy that she was able to help out. She's quite the reserved one, but I could tell that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +156,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她很可爱，就像我真正的妹妹一样。 只是，不知道我有没有真的扮演好姐姐的角色…",
+			say = "Hehe, Unicorn seems very happy. It's almost like she hadn't been feeling downhearted at all just a bit earlier.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Illustrious looked at Unicorn gleefully, then sat down next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,21 +186,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果…我能弥补她的缺点——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "独角兽想必也是非常信任且依赖光辉的吧…把这点告诉了光辉。",
+			say = "She's such a lovely child. Sometimes it feels like she's my real sister. Though, I do worry that I'm not a very good sister to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +202,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢…指挥官总是这么温柔呢~",
+			say = "As long as I can cover for her shortcomings while she's still a young girl, that's enough for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,23 +216,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "光辉那纯粹的笑容过于耀眼夺目，让人甚至感到有些害羞了起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯…其他还需要的——啊，对了，还得准备到时候要用的杯子…",
+			say = "Even so, I'm sure that Unicorn trusts you and depends on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…指挥官？",
+			say = "You're always so nice, Commander. Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,23 +246,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "似乎是看到了自己正在做着伸展运动，光辉有点不好意思地低了低头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……一直在帮忙搬重物，自然是会觉得很累的呢…",
+			say = "Illustrious showed me a dazzling, pure smile. Staring at it made me a bit embarrassed, so I turned away from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,21 +262,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，如果指挥官不介意的话，我给您简单按摩一下吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "心怦怦跳个不停，答应了光辉这个预料之外的建议。",
+			say = "What else was there to do... Right, we need to make sure to prepare some cups as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +278,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，非常感谢~那么，请来这边——",
+			say = "...Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,21 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "与光辉细长手指交缠的温柔触感，让人甚至有些紧张了起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "就这样被拉着手坐到了椅子上，光辉站在身后，双手轻轻按在了自己的肩膀上。",
+			say = "When Illustrious saw me stretching my arms, she looked down at the ground with dejection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,21 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还是第一次这样帮人按摩肩膀，可能做得不是很好…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "没有舰装，平日的光辉的话，手劲也许真的不太够吧，不过……",
+			say = "...Of course you'd be exhausted, after carrying so many heavy things all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻~、嘿咻~…感觉如何呢，指挥官？",
+			say = "Um, would you like it if I gave a light massage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,21 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说实话…按摩的感觉什么的——完全没有进到脑子里",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "……一直顶在背上的那股柔软触感，早已夺去了一切的注意力。",
+			say = "Acceding to my pounding heart, I accepted Illustrious's unexpected proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +354,125 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻…哈…嗯…指挥官，现在的力道如何…？",
+			say = "Then, if you don't mind, please come over here.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Though I was immensely nervous when I felt the sensation of Illustrious's fingers intertwined with mine, I let go of her hand slowly,",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "I let go of her hand and sat down. Just then, I felt Illustrious place her hands on my shoulders.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "This is my first time massaging someone's shoulders, so it may not feel that good...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "As she doesn't have her rigging equipped, she may not be able to put as much strength into her massage as she hoped.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Here we go... Mmn... How does it feel?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Honestly, my brain didn't even register that as a massage.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "The only sensation I felt was that of something soft hitting my back, over and over again...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Mgh... Ahh... Hrmh... Commander, am I using the right amount of force...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "这样下去要糟——对光辉按摩的触感(?)表示了充分感谢后，赶紧逃离了现场……",
+			say = "Fearing her massage would energize me in the wrong way if this continued, I decided to hastily excuse myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

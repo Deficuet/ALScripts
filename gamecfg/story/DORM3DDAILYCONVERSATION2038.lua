@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "之前提过会为你准备惊喜……",
+			say = "I said I'd get you a surprise before, didn't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以我准备了这个——“{namecode:50:能代}的万能使唤券”。",
+			say = "Well, this is what I have for you – an anything-you-want voucher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要用这张券，想让我做什么都可以。不过仅限一次！",
+			say = "This gives you the right to ask anything of me, but only once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "真的什么都可以吗？",
+					content = "Anything? Absolutely anything?",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……我可是下了很大决心才准备了这个，所以你也要好好考虑哦？",
+			say = "Yeah. This took a lot of courage on my part, so please think carefully about what you'll use it for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

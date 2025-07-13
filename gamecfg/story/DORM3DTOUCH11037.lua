@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey的手指触碰到的地方……痒痒的……",
+			say = "Your fingers... they tickle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

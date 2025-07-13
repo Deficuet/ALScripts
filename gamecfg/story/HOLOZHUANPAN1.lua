@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哦~指挥官看起来状态不错嘛…接下来稍事休息，喝杯茶吧",
+			say = "Yo~ Looks like you're doing fine, Commander... Well then, rest up a bit and come have some tea~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

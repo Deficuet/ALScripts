@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "以中心区域的攻略成功为标志，大型作战的进攻阶段终于告一段落。",
+			say = "Following my stay with the Northern Parliament and an expedition to a Siren research facility, I rejoined the Eagle Union's forces and prepared for our next move.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "风暴并未完全消散，但塞壬再也没能组织起成规模的有效反击。",
+			say = "Despite our successful incursion into the NA Ocean, the Sirens had not been silent elsewhere. My days were quite busy as we focused on gathering information, fighting back the Sirens, and working with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "与仲裁机关交战的详细记录已经送达了指挥部，距离完成分析还需要一段时间吧……",
+			say = "Finally, the Naval HQ gave me an important piece of information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然很想就这样直接放个长假，不过在NA海域之外多处海域的塞壬都趁机扩张了控制范围。",
+			say = "A Reenactment had occurred at the same time we approached the Sakura Empire's fleet, and Siren forces had begun ramping up their activities around a remote, Eagle Union-controlled base in the AF Atoll.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_1100",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在事态进一步恶化之前，还是尽早消除隐患比较好……",
+			say = "I decided to lead the fleet there to meet the threat head-on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，舰队正在接近PH港，周边情况一切正常。",
+			say = "Commander, the fleet is approaching PH Harbor. No anomalies detected in the vicinity.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "水下也没有异常情况哦~",
+			say = "Nothing abnormal underwater either~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等入港之后我要大吃好几顿然后再大睡好几天，以弥补我这一路上疲惫的身体与心灵！",
+			say = "Wonder if there are any hotties around here~ Being submerged all the time has been such a drag~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "真是一次遥远的归途啊，指挥官。",
+			say = "Commander, when's the last time we've made such a long journey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,42 +203,7 @@ return {
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是啊……从NA海域到PH港，真是一场漫长的旅途。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 108060,
-			say = "是什么是啊！我们这次可是大战之后的凯旋而归，本来不用那么着急吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 108060,
-			side = 2,
-			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "比如好好休息一段时间，或者在沿途旅旅游什么的……",
+			say = "\"Not sure... But we're about as far away from home as we can be.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +221,42 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 108060,
-			say = "结果某个工作狂……居然就这么毫不停歇的笔直返回了PH港！真是难以置信……",
+			say = "I was hoping you'd choose a nice vacation getaway for the two of us~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 108060,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "After all, we've all been working so hard~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 108060,
+			say = "But no, a certain workaholic decided to sail straight across to the other side of the world... Not hot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			},
 			options = {
 				{
-					content = "辛苦了！回到港区之后请你吃大餐！",
+					content = "\"Thanks for coming along anyway. You've earned yourself a nice meal.\"",
 					flag = 1
 				},
 				{
-					content = "现在各地局势都不稳固，我们不能因为一场战斗的胜利就……",
+					content = "\"There's no telling what the Sirens are up to. We can't let our guards down yet.\"",
 					flag = 2
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么？吃什么都可以？指挥官全部报销？！",
+			say = "Really? You're paying for it, yeah?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "全部报销！",
+			say = "Yup, it's on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海伦娜你听到了么，指挥官说回去可以让我们随便吃大餐而且全部报销哎！",
+			say = "Now that's how you treat a girl. Helena, you hear that? It's our night out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "诶……我，我们么？",
+			say = "Um... \"Our\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "对呀，我们哦~回去不用客气，叫上所有姐妹们一起吃吧！",
+			say = "Yeah, \"our\"! Sisters gotta stick together, so of course we're gonna find the best grub around tonight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "额————",
+			say = "*twitch*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，您这次急于返回PH港是为了尽快投入新的工作中吧。",
+			say = "Oh, Commander, by the way, why were you in such a hurry to come here anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们都理解哦，所以一路上就算再辛苦也毫无怨言的跟您一起完成了任务。",
+			say = "Jokes aside, we all know how important your work is. We might grumble a bit, but we'll follow you to the ends of the earth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这么认真帅气又负责的指挥官，我们姐妹们都超尊敬您的！",
+			say = "Besides, you're a total hottie when you get all serious and responsible. All of us have nothing but respect for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "所以——如此令人尊敬的人，自己说出口的话可不会突然反悔吧~？",
+			say = "And naturally, a serious and responsible person... wouldn't ever walk back a promise, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "一言为定……",
+			say = "\"Uh, yeah... Of course not...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，好耶~！",
+			say = "Eheh, that's what I like to hear~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "嗯嗯嗯，我懂！",
+			say = "Yeah, yeah, that much I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，您这次急于返回PH港是为了尽快投入新的工作中吧。",
+			say = "Oh, Commander, by the way, why were you in such a hurry to come here anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我们都理解哦，所以一路上就算再辛苦也毫无怨言的跟您一起完成了任务。",
+			say = "Jokes aside, we all know how important your work is. We might grumble a bit, but we'll follow you to the ends of the earth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "这么认真帅气又负责的指挥官，我们姐妹们都超尊敬您的！",
+			say = "Besides, you're a total hottie when you get all serious and responsible. All of us have nothing but respect for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只是……疲劳如果积累下去的话也会影响工作效率的嘛~",
+			say = "However... just remember that overworking yourself can cloud your judgment at a crucial moment~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "有道理……回去之后请大家好好吃一顿好了。",
+			say = "\"You're right... After we get situated, let's get everyone together and have a nice meal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真的么？！吃什么都可以？！指挥官全部报销？！",
+			say = "Really? Are you gonna be treating us then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "全部报销！",
+			say = "Yup, it's on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "海伦娜你听到了么，指挥官说回去可以让我们随便吃大餐而且全部报销哎！",
+			say = "Now that's how you treat a girl. Helena, you hear that? It's our night out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			actor = 102050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哎……我，我们么？",
+			say = "Huh? Oh... even me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "对呀，我们哦~回去不用客气，叫上所有姐妹们一起吃吧！",
+			say = "Yeah, \"our\"! Sisters gotta stick together, so of course we're gonna find the best grub around tonight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "额————",
+			say = "*twitch*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯？如此令人尊敬的指挥官，自己说出口的话可不会突然反悔吧~？",
+			say = "Oh, is something the matter? Surely such a respectable commander wouldn't already be having second thoughts, right~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -770,7 +770,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "一言为定……",
+			say = "\"Uh, yeah... Of course not...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			actor = 108060,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，好耶~！",
+			say = "Eheh, that's what I like to hear~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "回到PH港之后，不论如何也要大出血了啊……",
+			say = "I knew they would take advantage of this offer and gut my wallet with expenses...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然，这都是她们应得的。",
+			say = "But that was fine... The girls had earned it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,8 +835,8 @@ return {
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "识别编号认证完毕，前方海域已为您开启。",
+			actorName = "Communicator",
+			say = "\"ID authentication complete. You are now authorized to enter the sea sector ahead of you.\"",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -865,12 +865,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "军港重地，请沿着指定航道前行，切勿偏航与停留。",
+			say = "\"As this is a military port, please proceed along the designated approach route and do not stop or stray from it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,12 +882,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎回家，指挥官。",
+			say = "\"Welcome to PH Harbor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,31 +902,31 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「螺旋，由自然选择中诞生的稳定结构」</size>",
+					"<size=38>\"The helix is a stable structure born from natural selection.\"</size>",
 					1
 				},
 				{
-					"<size=51>「卷曲与延伸构成了无限」</size>",
+					"<size=38>\"Through its waves and iterations, it approaches infinity.\"</size>",
 					3
 				},
 				{
-					"<size=51>「变化与接纳构成了可能性」</size>",
+					"<size=38>\"Within its rungs lie the change and acceptance of all possibilities.\"</size>",
 					5
 				},
 				{
-					"<size=51>「无限与可能性构成了希望」</size> ",
+					"<size=38>\"Where the infinite and the possible meet, hope is born.\"</size> ",
 					7
 				},
 				{
-					"<size=51>「希望孕育了悲伤」</size>",
+					"<size=38>\"Yet within the mirror, what is hope but the sorrow of infinite emptiness?\"</size>",
 					9
 				},
 				{
-					"<size=51>「在悲伤的尽头，期望的结果终将到来么？」</size>",
+					"<size=38>\"What awaits us at the terminus of infinity, at the end of hope and sorrow?\"</size>",
 					11
 				},
 				{
-					"<size=51>「螺旋，真的只有一条么？」</size>",
+					"<size=38>\"Is there yet another helix that lies beyond the Mirror?\"</size>",
 					14
 				}
 			}

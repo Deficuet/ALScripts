@@ -16,6 +16,14 @@ return {
 				}
 			},
 			signDate = {
+				"Twelve years ago, at the Sacred Sakura",
+				0.2,
+				{
+					600,
+					-480
+				}
+			},
+			signDate = {
 				"——？？年前，重樱群岛",
 				0.2,
 				{
@@ -29,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哇，姐姐姐姐，我刚才往外偷看了一下，外面已经聚集了好多信徒了，好——厉害啊~",
+			say = "Nagato! I just took a look outside and saw tons of people have gathered! You should see it, it's amazing!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -71,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊啊…真的吗（害羞）",
+			say = "I... see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐姐不愧是重樱的守护神，世界第一的超级战舰~人气真高啊！！好厉害！！",
+			say = "They've all come to see you, the Protector of the Sakura Empire and the mightiest battleship in the world! You're so cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呼…别这样说了啦，快来帮我看看衣装都整理清楚了吗？这套神子的服装穿起来好复杂…",
+			say = "Do not ridicule me. More importantly, is this outfit on properly? It looks the same as my rigging, yet it feels rather odd to wear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "恩，这边的发髻稍微歪了一点呢，等等哦…",
+			say = "Hmm... hang on, your hairpins are a little off! Let me fix that for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "恩…好啦！这下就状态100%完美啦嘻嘻~",
+			say = "Let's see... maybe this will... ah, it'll do... There, done! You look perfect, Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "可以了吗…那…",
+			say = "T-thank you... Now then, it is time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "别磨蹭啦，大家都在等着你呢，快去",
+			say = "Yeah, let's go! Everyone's waiting for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呼…呼…调整语气…",
+			say = "*Inhale*... *Exhale*... Remember: speak with dignity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "少女做了几个深呼吸，踏着优雅的步伐，缓慢地走到玄关口，回过头——",
+			say = "The young girl took several deep breaths, slowly and elegantly walked up to the shrine doors, then she turned around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "谢谢你，我的妹妹",
+			say = "Mutsu, my little sister... Thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,11 +225,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "民众A",
+			actorName = "The People",
 			mode = 2,
 			dir = 1,
 			blackBg = true,
-			say = "来了来了！！",
+			say = "The shrine maiden is here!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -250,11 +258,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "民众B",
+			actorName = "The People",
 			mode = 2,
 			dir = 1,
 			blackBg = true,
-			say = "出现了，是樱花的神子，{namecode:74}大人！！",
+			say = "Nagato is here! Our Protector graces us with her presence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +271,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "在撑天巨大的重樱御神木下，古老的神社被从四面八方涌来的人群围得水泄不通",
+			say = "There lied a shrine at the base of the Sacred Sakura, from which the Sakura Empire got its name. Countless people, both citizens of the Sakura Empire and visitors from abroad, had gathered on this day.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -289,7 +297,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "在民众的欢呼声中，一个优雅端庄的少女，缓缓从神社中走来",
+			say = "A young girl, clad in red and white, emerged from the shrine, taking graceful steps down the shrine's steps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +306,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "她步伐沉稳、面色坚定，娇小的身躯和背后巨大的御神木形成鲜明的对比",
+			say = "She wore a shrine maiden's traditional clothing, many gorgeous ornaments, and most important of all: two golden hairpins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +319,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "一身轻盈的羽衣、乌黑的秀发、代表着皇室的发髻，无一不在强调她与众不同的身份",
+			say = "These golden hairpins were the definitive sign that this girl was the keeper of the Sacred Sakura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +332,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "只见少女缓缓地走到了祈福台的中央，然后驻足转身，朗声宣告——",
+			say = "The young girl stopped in the center of a podium resting outside the shrine, then faced her people, bearing a magnificent expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,38 +344,10 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "{namecode:74}",
-			bgName = "bg_story_nagato1",
-			side = 0,
-			say = "吾乃{namecode:74}，重樱的守护者、联合舰队旗舰——{namecode:74}，在此，将代表重樱皇室…向八百万神明献上诸君之信仰！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			mode = 2,
-			bgName = "bg_story_nagato1",
-			say = "少女憋足了劲，用和自己身形不相符的庄严口吻，向台下的民众们说道",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			mode = 2,
-			actorName = "{namecode:74}",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "请大家一起闭上眼睛和我一起祈愿，祈愿重樱群岛来年依然风调雨顺，谷物发达…",
+			say = "I am Nagato. Protector of the Sakura Empire and flagship of her Combined Fleet! Let us offer our humblest prayers to the Gods!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,10 +359,8 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "{namecode:74}",
 			bgName = "bg_story_nagato1",
-			side = 0,
-			say = "——愿御神木永远盛放",
+			say = "The young girl, with a dignified voice unbefitting of her small stature, made an appeal to the Sakura Empire's people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,10 +372,10 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "众人",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "——愿御神木永远盛放",
+			say = "People of the Sakura Empire, pray with me, so that we may ensure our nation prospers for many long years to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +386,37 @@ return {
 			}
 		},
 		{
-			say = "奇迹出现了，随着大家的祈祷，空气开始流动起来，御神木上的樱花瓣也开始泛起淡淡的微光",
+			mode = 2,
+			actorName = "Nagato",
+			bgName = "bg_story_nagato1",
+			side = 0,
+			say = "... O Sacred Sakura, in exchange for thy blessings, I offer a prayer to thee...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			mode = 2,
+			actorName = "The People",
+			bgName = "bg_story_nagato1",
+			side = 0,
+			say = "Just and pure of heart I shall be, so that thy flowers may bloometh for eternity...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "It was a miracle. The Sacred Sakura had taken in their prayers, and its petals began to glow with a faint light.",
 			mode = 2,
 			bgName = "bg_story_nagato1",
 			bgm = "nagato-map",
@@ -447,7 +455,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "转眼，整个神社就被樱花雨所包围了起来",
+			say = "Then, the shrine and everything around it became enveloped in a gentle downpour of sakura petals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,10 +467,10 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "民众",
+			actorName = "The People",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "哇，快看，是神明显灵了！！不愧是神子大人！",
+			say = "The shrine maiden has brought us a miracle! The Sacred Sakura graces us with its light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,10 +482,10 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "民众",
+			actorName = "The People",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "{namecode:74}！{namecode:74}！{namecode:74}！",
+			say = "All hail Nagato! All hail Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +498,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "随着民众们的欢呼，空中的樱花瓣化为一颗颗小小的光玉，以神社为中心，向天际四散开去",
+			say = "In response to the voices of the people, the sakura petals turned into tiny globes of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +511,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "它们正是民众的信仰、八百万神明的化身，此时此刻，它们正飞散到重樱群岛的各个角落",
+			say = "They converged at a single point above the Sacred Sakura before splitting apart, flying away and spreading out evenly through all of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +524,7 @@ return {
 		{
 			mode = 2,
 			bgName = "bg_story_nagato1",
-			say = "片刻之后，少女缓缓转过身，用充满威严的语气说到",
+			say = "Then, after a short while, the young girl turned to the crowd and began to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,25 +536,10 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "{namecode:74}",
-			bgName = "bg_story_nagato1",
-			side = 0,
-			say = "吾乃{namecode:74}，重樱的守护者、联合舰队旗舰——{namecode:74}，只要诸君献上自己的信仰，重樱群岛就将永远繁荣昌盛！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			mode = 2,
-			actorName = "众人",
+			actorName = "Nagato",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "永远繁荣昌盛！永远繁荣昌盛…",
+			say = "I am Nagato. Protector of the Sakura Empire and flagship of her Combined Fleet! Hear my words! For as long as you believe in the Gods, the Sakura Empire's prosperity is guaranteed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,23 +551,10 @@ return {
 		},
 		{
 			mode = 2,
-			bgName = "bg_story_nagato1",
-			say = "在欢呼声中..少女缓缓的往神社走去…在不被人察觉的时候偷偷松了一口气，自言自语道",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			mode = 2,
-			actorName = "{namecode:74}",
+			actorName = "The People",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "呼呼…您看到了吗？..我这次的表现…",
+			say = "May the Sakura Empire prosper for all eternity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,10 +566,38 @@ return {
 		},
 		{
 			mode = 2,
-			actorName = "{namecode:74}",
+			bgName = "bg_story_nagato1",
+			say = "Amidst the cheers of her people, Nagato turned around and proceeded to walk back to the shrine's interior.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			mode = 2,
+			actorName = "Nagato",
 			bgName = "bg_story_nagato1",
 			side = 0,
-			say = "对的…就如您所说，守护重樱的人，必须要伟大！我…会努力的！",
+			say = "So, how did I fare...? Am I behaving as I should...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			mode = 2,
+			actorName = "Nagato",
+			bgName = "bg_story_nagato1",
+			side = 0,
+			say = "Yes... As you say, the Protector of the Sacred Sakura must be magnificent... I shall do everything to be magnificent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +639,7 @@ return {
 					1
 				},
 				{
-					"——墨染的钢铁之花",
+					"Ink-Stained Steel Sakura",
 					2
 				}
 			}

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个时间来……Honey一定是过度疲劳了，让我来想办法为你舒缓压力吧！先从一个拥抱开始如何？还是膝枕开始你会喜欢呢~？",
+			say = "Wow, you came this late? You must be tired. Let me relieve some stress for you! Should we start with a hug? Or do you wanna lie down in my lap?",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello7",
 			typewriter = {
 				speed = 0.05,

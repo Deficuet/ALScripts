@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"Inside the Naraka Singularity",
 					1
 				},
 				{
-					"世界切片·「苍红」",
+					"World Segment",
 					2
 				},
 				{
-					"指挥官特别行动舰队",
+					"Commander's Special Fleet",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "离开凉亭后，我们在{namecode:91:赤城}的带领下再度出发了。",
+			say = "We finally began our journey to Amagi's mansion.",
 			bgm = "story-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "这一次她没有再绕路，而是径直进入了颇具规模的{namecode:161:天城}宅邸中。",
+			say = "Now resolved, Akagi beelined toward her objective without a single detour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "一路之上，{namecode:96:瑞鹤}和{namecode:179:龙凤}对所有见到的景象都感到非常好奇。",
+			say = "Tensions between the Sakurans and other factions' shipgirls seem to have relaxed a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "毕竟进入世界切片之中，就如同回到了过去的世界一般。",
+			say = "It's not every day you get to enter such a perfectly replicated slice of life, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "不过因为{namecode:91:赤城}散发出的气压愈发强大，二人总算是勉强维持着表面上的认真与严肃。",
+			say = "Another reason might be the air of determination emanating from Akagi now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "孟菲斯和海伦娜则继续维持着进入世界切片后就不自觉间形成的默契——走在一个离我最近又距离{namecode:91:赤城}最远的位置。",
+			say = "Under her leadership, we marched down the petal-strewn road until we reached our destination – Amagi's home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_2",
 			hidePaintObj = true,
-			say = "穿过几道围墙，又经过一段宽广的道路后，{namecode:91:赤城}突然停了下来。",
+			say = "After going through the gate, several hallways, and a veranda by the courtyard, Akagi stops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……会客厅，到了。",
+			say = "We're here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "门内，依稀有两个不同的声音传出。",
+			say = "Two voices can be heard from the other side of the sliding door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "一个柔和而沉稳，另一个则凌厉中带着几分不甘。",
+			say = "One is calm, while the other is both frustrated and fierce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……这样就将死了。",
+			say = "Heehee... I win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_191",
-			say = "可恶……又败给你的诡计了！",
+			say = "Damn... How do I keep falling for your tricks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "再来——！",
+			say = "Again! I demand a rematch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
-			say = "虽然是陌生的声音，不过在看到{namecode:91:赤城}如同触电般僵住的表情时，答案已经呼之欲出了。",
+			say = "Upon hearing the winner's voice, Akagi stiffens up as if her feet have become lead blocks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}，我带她们去附近转转，一会见。",
+			say = "Akagi, would you like to be alone with them first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哼，别走太远，小心迷路。",
+			say = "Commander? I-I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们回头见啦，{namecode:91:赤城}前辈。",
+			say = "It's cool if we wait outside, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走吧，给她们一点时间和空间。",
+			say = "Agreed. Let's give Akagi some breathing room here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "砰———！",
+			say = "BANG!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "门被猛然拉开，这场对弈被不请自来的外来者粗暴打断了。",
+			say = "Akagi yanks the sliding door open, interrupting their game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,22 +345,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "跪坐在桌前的身影、容貌、气质，一切都与{namecode:91:赤城}记忆中的相同。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg4",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……不，比记忆中的更完美。",
+			say = "Their faces, how they sit, their auras... Everything is just the way she remembers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +360,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐……",
+			say = "(I missed you. I missed you so much...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +375,22 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人……",
+			say = "Sister...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg4",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Amagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "说出几个字，仿佛已经耗尽了她毕生的力气。",
+			say = "Just calling her sister's name was enough to drain her all of all of her energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg4",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "而后，泪水已然决堤，再也无法多说出一个字来。",
+			say = "Everything she'd been holding in – her love, her hopes, and her tears – comes rushing out all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "喂——你这人怎么回事！",
+			say = "Akagi? What the hell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "连最基本的礼仪……都……不记得了？",
+			say = "I knew you were a crybaby, but surely you can remember basic manners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_cg5",
-			say = "呜……呜呜……呜呜呜……",
+			say = "*sniffle*... Urkh... *sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "你、你没事吧，谁欺负你了？",
+			say = "Uh... A-are you okay? Did someone say something nasty to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:91:赤城}？",
+			say = "Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐……大人……呜呜呜……",
+			say = "Amagi... My dear sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……我终于……终于见到你了……",
+			say = "Ooh, I missed you so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜啊啊啊啊——",
+			say = "Waaaaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "淹没在泪水中的身影径直扑入了{namecode:161:天城}怀中。",
+			say = "Unable to control her sobbing, she throws herself into her beloved sister's arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "纵使在过去，{namecode:91:赤城}在{namecode:161:天城}面前也没有如此放肆过。",
+			say = "Never before had she let anyone see her cry like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "在决心要复活姐姐后，{namecode:91:赤城}设想了太多种与姐姐重逢的场景。",
+			say = "Never when Amagi was there, never after she'd lost her, and never even when she'd fantasized about seeing her again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "得意、喜悦、请罪、领罚，没有一种是像如今这般不堪的。",
+			say = "No measure of relief, joy, regret, or sorrow could match up to this moment of raw pathos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "可是在短时间内经历了大喜大悲，在失而复得这一情绪的冲击下。",
+			say = "Such fervent obsession, such a short-lived dream. Ever losing, ever regaining, a tumult of instability.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "一切，都已经不重要了——",
+			say = "In this moment, though, none of that mattered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,27 +656,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人……我好想你……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "呜呜呜呜呜……我好想你啊……姐姐大人……",
+			say = "Amagi... I missed you so much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +676,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "求求你……不要再离开我了……",
+			say = "*sob*... So much... I can't even begin to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +696,27 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人……不要再离开我了……",
+			say = "Please, never leave me again...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Amagi... Never leave your poor little sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……呜呜……呜呜呜……",
+			say = "*sniffle*... Urkh... *sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没事了，{namecode:91:赤城}。",
+			say = "It'll be okay, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就在这里，哪里都不会去……",
+			say = "I'm here with you. I'm not going anywhere, I promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "{namecode:161:天城}感受着怀中身躯在剧烈情绪下的颤抖，用手轻轻抚摸着少女的发丝。",
+			say = "Amagi holds her little sister in her arms, stroking her hair lovingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "{namecode:161:天城}没有出声询问发生了什么事，最初的疑惑、不解、震惊亦转瞬而逝。",
+			say = "She's equally surprised and confused, but she asks no questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "少女的哭声之中传递出的悲伤，是如此撕心裂肺、刻骨铭心。",
+			say = "Her sister's cries are sorrowful, as if her heart had been torn in two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,212 +814,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "就连自认为早已看淡生死天命的{namecode:161:天城}，心中也涌出了一股难以言说的感情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			actor = 305070,
-			nameColor = "#A9F548FF",
-			hidePainting = true,
-			say = "呃……我今天是不是来得不是时候？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			actor = 305070,
-			nameColor = "#A9F548FF",
-			hidePainting = true,
-			say = "要不……你们先忙，我先走啦？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			hidePainting = true,
-			say = "察觉到气氛不对的{namecode:92:加贺}晃了晃身子，预备起身、做好了夺路而逃的准备。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			hidePainting = true,
-			say = "然而有一个比她更快的身影扑了过来，将她牢牢压在了原地。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "不……你不许走……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……你哪里都不许去！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……我再也不允许你自作主张了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			actor = 305070,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			hidePainting = true,
-			say = "喂、你是睡坏脑子了么，你说的话我一句都听不懂！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			actor = 305070,
-			nameColor = "#A9F548FF",
-			hidePainting = true,
-			say = "{namecode:161:天城}……快来管管这个疯女人！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			actor = 305070,
-			nameColor = "#A9F548FF",
-			hidePainting = true,
-			say = "黏着你就算了，怎么还黏到我身上来了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "呜……呜呜……呜呜呜……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePainting = true,
-			dir = 1,
-			actor = 307010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "总之……不许你走……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_canghongzhiyan_cg5",
-			hidePaintObj = true,
-			hidePainting = true,
-			say = "实际感受到心口传来的悸动后，{namecode:92:加贺}脑中最后一丝“这是恶作剧”的想法彻底粉碎。",
+			say = "Even Amagi, who'd long accepted that her end as a shipgirl would come, pities the poor girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,35 +828,45 @@ return {
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（她竟悲伤至此……？）",
+			say = "*sigh*... Well, I obviously came at a bad time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			expression = 3,
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			actor = 305070,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "好了，好了。我不走了就是了……",
+			say = "I can read the room. I'll go ahead and get out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
-			actor = 305070,
-			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "你去你姐姐那边哭吧……我的衣服都被你弄湿了……",
+			say = "Realizing how out of place she is, Kaga gets up to leave.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			hidePainting = true,
+			say = "But before she can exit, Akagi rushes over to her and holds her in place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +881,133 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯。",
+			say = "Kaga... Don't go, please.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I'm not letting you go again!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Never... I won't ever let you do such a thing again!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			actor = 305070,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "Okay, what is this girl going on about? Did she hit her head, or something?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			actor = 305070,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "Ugh... Control your sister, Amagi!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			actor = 305070,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "Let your little shadow stick to you all you want, but I'm not having any part of it!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "*sniffle*... Urkh... *sob*...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Please, just don't go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1019,64 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "朱红色的身影重新趴回了她心心念念的位置上。",
+			say = "Feeling how the girl's heart is pounding, Kaga realizes that this isn't just a childish prank.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			actor = 305070,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "(What's gotten into her?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			actor = 305070,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "Yeah, yeah, I'm not leaving. Happy now?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			actor = 305070,
+			nameColor = "#A9F548FF",
+			hidePainting = true,
+			say = "If you're gonna cry, take it over there. You're getting tears and snot all over my clothes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePainting = true,
+			dir = 1,
+			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1100,7 +1088,19 @@ return {
 			bgName = "bg_canghongzhiyan_cg5",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "就这样过了许久，许久——",
+			say = "Akagi obediently returns to her sister's arms.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_canghongzhiyan_cg5",
+			hidePaintObj = true,
+			hidePainting = true,
+			say = "The reunion she had dreamt of seems to last an eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

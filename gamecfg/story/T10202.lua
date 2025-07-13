@@ -7,7 +7,7 @@ return {
 			actor = -1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "港口外围防守成功！不过可惜的是让他们逃脱了呀…",
+			say = "Harbor perimeter defense established! It's a shame that they managed to escape...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = -1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "从装备来看，那艘军舰似乎是用于舰队掩护型的角色，看来还有更大的部队在远处集结…",
+			say = "From their gear, I'd wager that the warship was used as cover for their fleet. There may be an even bigger division assembling in the distance...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = -1,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "司令部下令我们对他们继续进行追击，不知道身上的弹药还够不够呀TAT",
+			say = "HQ has ordered us to give chase. Hopefully we have enough ammo... *cries*",
 			shake = {
 				speed = 1,
 				number = 3

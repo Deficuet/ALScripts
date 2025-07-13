@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_kagura_2",
-			say = "天守阁前",
+			say = "Mirror Sea - Keep Entrance",
 			bgm = "sk-az-battle-2",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先登入城~！咦……？！",
+			say = "First! ...Or not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "太慢了！飞鸟，怎么慢吞吞的，你前世是乌龟吗？",
+			say = "Finally, after a million years. The hell took you so long? Were you a turtle in a previous life or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，焰酱？那我就不是第一了啊～好不甘心！……不过，如果我真是乌龟的话，这么快就到应该算我赢了吧？",
+			say = "You're here, Homura? Dang it, then I lost! That's so annoying! ...Hey, if I was a turtle, I'd have won! Slow and steady, remember?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "飞鸟小姐她们也同时到了哦。现在就等紫小姐她们……",
+			say = "I'm glad to see you've made it. Now to wait for Murasaki's team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……其实我们刚才起……就已经在这了……",
+			say = "Umm... We've been here for a while now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_kagura_2",
 			side = 2,
 			actor = 11000020,
-			say = "抱，抱歉，没注意到……雪泉小姐，雪不归小姐现在的情况怎么样……",
+			say = "Oh, forgive me for not noticing you sooner... Yumi, any updates on Fubuki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 11000040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，还能从前方感受到她的气息。不过……",
+			say = "I can still sense her presence just past this point. Having said that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那股从天守阁冒出的黑烟……谁看了都知道出事了吧……",
+			say = "Yeah... Looking at the rising smoke, anyone can tell something happened in the keep.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以现状不容我们再犹豫了！准备好就冲进去吧！",
+			say = "Doesn't look like there's any time to waste here! Let's rush inside as soon as everyone's ready!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在下这边已经准备万全了！接下来的战斗就请看在下的表现吧！",
+			say = "Our team is fully prepared! Let us realize the finale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好！那我们……冲吧！！",
+			say = "Alright! Here we go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

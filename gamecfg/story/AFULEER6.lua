@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>六、真正的实力</size>",
+					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 6: True Power</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "欸欸欸？？？真的要打吗？",
+			say = "Eh?! We're really going to fight against the Eagle Union?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，已经约好了，就在明天下午。",
+			say = "Yes, I got permission to use the exercise area tomorrow afternoon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管敌人是谁，只要把她们都揍扁就行了吧！",
+			say = "Is that so. Well, all we have to do is beat 'em up, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕没有那么容易。明天的演习里，她们会派出大黄蜂和萨拉托加两艘航空母舰。虽然这两位并不是白鹰最强的航空母舰，但是实力也不容小觑。",
+			say = "Wanting to win is fine, but the true purpose of this exercise is to understand how they fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且，演习一开始的时候，对方并不在罗西亚的射程之内。我们必须想一些对策才行。",
+			say = "Remember, their carriers have a much longer range than our main batteries, so stay vigilant at all times.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志说的对。我们应该彻底分析对方的战斗方法，赢得这场演习",
+			say = "Avrora's absolutely right. During this exercise, we need to carefully analyze our opponents and adapt our strategies accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			actorName = "众人",
+			actorName = "Everyone",
 			dir = 1,
-			say = "嗯！",
+			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			say = "第二天",
+			say = "The next day, at the exercise area...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为裁判，接下来就由我正式宣布——",
+			say = "As the referee for this mock battle, I hereby declare the start of this exercise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "模拟对抗演习、开始！",
+			say = "Begin the mock battle, combatants!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,11 +251,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！",
+			say = "Yeah!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那么，只要按罗西亚的计划执行就好了吧？",
+			say = "I assume we'll be sticking to Rossiya's plans?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拜托你和塔什干同志了，务必要利用你们的优势牵制住她们的前锋部队。",
+			say = "Yes, I'll be working with a separate squad. Chapayev, Tashkent, I'll be counting on you two to draw away the enemy vanguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "交给我吧！",
+			say = "Sure thing. Leave it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "剩下的同志们，在接近对手的同时务必要抱团。若是在对手的舰载机飞来的时候单独行动的话，肯定很快就会被判定击沉的。",
+			say = "Sail closer together in formation to increase the density of your anti-air fire, and respond accordingly to their air power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发现对方空母后，提高舰装的出力一口气接近到主炮射程内，给它狠狠地来上一发模拟弹！",
+			say = "And as soon as we find the enemy carriers, increase your rigging's output and focus everything into firepower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，拜托你们了。",
+			say = "Umm, they're just dummy rounds, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的话，我也应该……",
+			say = "Well, anyway, I'll be off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，断定我们不会把注意力集中在型号老旧的舰船上，所以自己一个人偷偷地绕到了我们后方呢。",
+			say = "I see, you took advantage of the fact that we wouldn't prioritize older ships to sneak up behind us...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此。",
+			say = "Yes, that's right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "趁着这边舰载机已经倾巢而出，护卫舰队也在正面应对着我的同伴们，在后方进行扰乱",
+			say = "And while our planes were focused on offense and our vanguard fleet was distracted, you flanked our main fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即使不能击破航母，也能让第一波攻击队无法降落补给，阻止第二波前往增援",
+			say = "We'd be able to disrupt the return of the first wave of planes as well as prevent the launch of the second wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是这个战术是要建立在萨拉妹妹不能还击的前提下……对吧？",
+			say = "But, that strategy is based upon the assumption the Sister Sara can't fight back, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看招！萨拉托加之————魔法炮击！",
+			say = "Behold! Sister Sara's Magic Cannon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……！！",
+			say = "What...?!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {

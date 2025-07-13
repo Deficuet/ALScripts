@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "像这样……{dorm3d}的趣味也很好懂呢。",
+			say = "Heehee. You are easy to please, my honourable {dorm3d}.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch16",
 			typewriter = {
 				speed = 0.05,

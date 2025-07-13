@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>第七话　『下次再见～♪』</size>",
+					"<size=45>Chapter 7 - Well Then, Buh-Bye!</size>",
 					1
 				}
 			}
 		},
 		{
-			actorName = "伊斯特瓦尔",
+			actorName = "Histoire",
 			side = 2,
 			bgName = "bg_story_school",
 			withoutPainting = true,
@@ -25,7 +25,7 @@ return {
 			bgm = "story-nepu1",
 			actor = 0,
 			nameColor = "#a9f548",
-			say = "……那么，虽然总觉得好像一直在玩，不过调查任务姑且也好好地完成了。各位辛苦了",
+			say = "...Now then, while I totally didn't expect you all to just sit around and play games all day, it seems you did investigate as I told you to. You have done well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "伊斯特瓦尔",
-			say = "多亏了你们的调查，我们已经大致上了解了游戏业界和这个次元的关系性和亲和性。今后可以随时自由地来往两个次元了",
+			actorName = "Histoire",
+			say = "Thanks to your investigation I was able to understand the gist of what the connection is between Gamindustri and this other world. From now on you should be able to access this world whenever you want.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！不愧是伊森！那…我们还可以继续待在这里了？",
+			say = "Woo-hoo! I knew you could do it, Histy! So then... can we just stay here forever?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……说什么傻话呢？想也知道不行吧",
+			say = "...What are you on about? We obviously can't do that.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是啊。游戏业界没有四女神在可不行呢",
+			say = "She's right. Gamindustri won't last very long without us CPUs to watch over it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,8 +111,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "伊斯特瓦尔",
-			say = "正是如此。以后想来的时候随时能来，大家先回去一趟吧。涅普顿也要",
+			actorName = "Histoire",
+			say = "Vert is correct. You can all return here whenever you want, so please, all of you come back to Gamindustri at once. And that includes you, Neptune.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯…太受欢迎的女神也真是不容易呢…是是，要回去咯",
+			say = "Sigh Being a big-shot CPU loved by everyone sure is tough... Fiiiine, I'll come back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一时还以为会怎么样呢…还好总算是解决了呢。这也多亏了大家。谢谢你们帮了这么多忙",
+			say = "For a while I had no idea how we'd manage in this world... But we did, somehow. We couldn't have done it alone though. Thank you for helping us out so much, everyone.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯嗯，拉菲、标枪、{namecode:6}、{namecode:408}……还有学院的各位，多亏了你们的帮忙呢。真的非常感谢！",
+			say = "Yeah! Thank you, Laffey, Javelin, Ayanami, Z23... And everyone else here at the academy! We owe you, big time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "另外……我们玩得很开心！",
+			say = "Also... It was tons of fun hanging out with you guys!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也……很开心",
+			say = "Yeah... It was really fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪也是哦。还想和涅普涅普多聊聊游戏的话题呢",
+			say = "I had a great time too. I'd love to have another exciting discussion about games with you, Nep-Nep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "噢，好呀！再来通宵聊天吧！",
+			say = "Oh, you wanna do that? Stay up all night talking about games, again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我们可没有做这事的时间，要回去了",
+			say = "...We don't have time for that. We gotta get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直不在游戏业界确实不太好呢",
+			say = "Leaving Gamindustri without CPUs for too long isn't very good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然很不舍…还是要在这里告别了吧？",
+			say = "Though it pains us all... I suppose you must leave now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "大家好不容易变成好朋友了…好可惜",
+			say = "Just after we'd all become such close friends... It's a shame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我也觉得。不过，毕竟还有黑土边域的事…而且我们下次还会再来的",
+			say = "Yeah, I don't want to leave either... But I've got Lastation to take care of, and I promise we'll meet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}、{namecode:6}，真的非常感谢。能遇到你们真是太好了",
+			say = "Thank you, Z23 and Ayanami. I'm glad I got the chance to meet you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呜呜，机会难得，我们再住一晚嘛～我酸素可乐和鱼雷天妇罗快要上瘾啦……还想吃～",
+			say = "Come on, guys... Let's just stay one more night while we're still here! I've gotten hooked on Oxy-Cola and Torpedo Tempura... And I need my daily dose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，涅普涅普。标枪给你们做了便当！里面放了很多鱼雷天妇罗，请拿去吃吧！",
+			say = "Oh, right! I packed some lunch for you, Nep-Nep. I filled it with Torpedo Tempura just for you. I hope you'll like it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦！谢谢你标枪酱！啊，还有一打酸素可乐！每个人能喝三瓶呢！",
+			say = "Wowzers! Thanks, Javelin! Holy moley, there's like a dozen Oxy-colas in here! We could all have 3 each!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那玩意儿啊……我的份就留给涅普顿吧",
+			say = "Uh, yeah... You can have mine, Neptune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然不能喝吗……那个是我们专用的饮料，指挥官也喝不了呢",
+			say = "You can't quite drink them, I see... They're intended for consumption by shipgirls only, not even our commander can handle drinking them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "……涅普涅普，咕嘟咕嘟地喝下去了呢。味觉和{namecode:6}我们一样？",
+			say = "...But I remember Nep-Nep downing a whole bottle. Maybe she has the same taste as we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,8 +439,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "伊斯特瓦尔",
-			say = "那么各位，差不多该进虫洞了",
+			actorName = "Histoire",
+			say = "Now then, CPUs, please line up in front of the wormhole and prepare to jump into it.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "伊斯特瓦尔",
-			say = "一直这样让次元壁开着洞不大好。等你们离开以后就要暂时关闭了",
+			actorName = "Histoire",
+			say = "I can't simply leave an inter-dimensional wormhole open here, so once you're done saying goodbye, I will close it for the time being.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "伊斯特瓦尔",
-			say = "有需要过来的时候还会打开的，不用担心",
+			actorName = "Histoire",
+			say = "When you have business in this world, I can open it again, so you don't need to worry about that.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我知道……再见了{namecode:408}、{namecode:6}，谢谢你们。虽然发生了不少事，但我还是很开心哦",
+			say = "Yeah, I guess you're right... Z23, Ayanami, thank you once again. We all had our ups and downs, but I enjoyed myself too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们才是，都不知道该说什么感谢的话了。非常感谢，诺瓦露小姐",
+			say = "I couldn't agree more. There are no words to express my gratitude. Thank you for everything, Noire.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -530,7 +530,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "{namecode:6}也玩得很开心。拜拜，诺瓦露",
+			say = "I had fun too. Sayonara, Noire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}酱，{namecode:34}酱，{namecode:137}酱，我很快会再来的……、姐姐下次会带更多好吃的糖果和点心过来的",
+			say = "Mutsuki, Kisaragi, Uzuki... I'll be back before you know it! And I'll bring you girls more candy than you could ever dream of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:33}",
-			say = "嗯，贝露姐姐，糖果、约好了！",
+			say = "Okay, Vert! I'm gonna dream of tons of candy while you're gone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:34}",
-			say = "等你……拜拜，贝露姐姐",
+			say = "We'll be waiting... Bye bye, Vert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:137}",
-			say = "拜拜♪",
+			say = "Bye byyyyeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊……真是太可爱了！果然还是不回去了吧！",
+			say = "Ahhh... You're all so lovely! I wish I didn't have to return home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…我也是，这边还有好多没有看过的书…和{namecode:405}她们也还没聊尽兴…完全不想回去……",
+			say = "Sigh... I don't either, I've barely even started on reading the books from this world... I could never get bored of talking with Künne either... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰老师，我们会一直等着你的……！",
+			say = "We'll wait for you as long as it takes, Miss Blanc...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随时等着布兰老师的归来！",
+			say = "I will patiently wait for your glorious return, Miss Blanc!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他的各位也交流颇深，难舍难分的样子呢",
+			say = "It seems we all got to know each other and now nobody wants you to leave....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，似乎是这样……不知该说幸运还是不幸，多亏如此我们的信仰也恢复了，在这个世界也能毫无障碍地活动了呢",
+			say = "Haha, yeah, it seems so... For better or worse, you've helped us increase our shares as well, so we should be able to remain active in this world unhindered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "拉菲酱、标枪酱谢谢你们！我们会很快找别的机会再来的！到时候再一起玩吧！",
+			say = "You deserve my thanks too, Laffey and Javelin! I promise we'll be back, in one way or another! Let's meet again sometime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，别说这种让人有奇怪期待的话呀",
+			say = "Hey, don't say anything that'll make them expect too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次毕竟是十分异常的事例……",
+			say = "This journey of ours was quite an extraordinary experience...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……听起来像是竖起了奇怪的flag",
+			say = "...Hearing that raises a bunch of warning flags in my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，但是…拉菲，等着涅普涅普下次再来……！",
+			say = "Yeah... I'll be waiting for your return, Nep-Nep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪也会等着的！所以，涅普涅普要保重哦！",
+			say = "As will I! I hope you'll still have fun back home in Gamindustri...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯。谢谢！我一直都是精神满满的放心吧！并且一定会元气满满地再回来的…所以耐心等着我吧！",
+			say = "I will. Thanks! I'm always finding ways to have fun no matter where I am, so don't worry! And I promise I'll be back to have even more fun with you guys... So just wait for me until then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "下次再见吧～～～！！",
+			say = "Well then, buh-bye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

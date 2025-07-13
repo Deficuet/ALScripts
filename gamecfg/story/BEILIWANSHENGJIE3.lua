@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>三 害怕幽灵的魔女</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>III 「A Witch Scared of Ghosts」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "不久前……",
+			say = "How much longer...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			actor = 302040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "怎么了，{namecode:48}？在烦恼{namecode:87}说的幽灵小姐的事情吗？",
+			say = "What's wrong, Isuzu? Are you worried about Miss ghost that Shouhou was telling you about?",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "欸？{namecode:46}姐？你怎么知道的——",
+			say = "Eh? Nagara? How did you know——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "当然是从{namecode:87}那里听说的啦～",
+			say = "Of course, I heard about it from Shouhou~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "我、我果然还是不行的啦，幽灵什么的对我来说太勉强了…",
+			say = "I, I really can't do it, ghosts are just too much for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "但是，如果幽灵小姐找不到回去的路，就会一直呆在港区了吧",
+			say = "But, if Miss Ghost can't find her way back home, then she'll wander the port area forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "如果哪天在路上碰到了幽灵小姐的话，不是更让人困扰了？",
+			say = "What if one day you bump into Miss Ghost, wouldn't it be more troublesome then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这样想的话，把幽灵送回家以后，不就少一个烦恼了吗？",
+			say = "Think about it this way, if you help the ghosts return home, wouldn't there be less to worry about",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:48}",
-			say = "啊…确、确实是这样…",
+			say = "Hmm... yeah, That's true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "加油，{namecode:48}！姐姐相信你~",
+			say = "You can do it, Isuzu! I believe in you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "回到现在…",
+			say = "Back to present...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！发现新的魔女了～嘿！",
+			say = "Ack! I found a new Witch~ Hey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "呀啊～！！",
+			say = "Ack~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊！！吓、吓了我一跳",
+			say = "Wow! You, you scared the heck outa me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "诶…是贝利啊，这一身是…魔女？",
+			say = "Huh? ...So it turned out to be Bailey, you are... the witch?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是呀～嘿嘿，{namecode:48}难道也是要去寻找幽灵小姐的吗？",
+			say = "Yea~ Heehee. Is Isuzu also trying to find Miss ghost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "跟你说哦，我刚才听到了情报呢，幽灵小姐其实在仓库！",
+			say = "Hey, let me tell ya, I just heard that Miss ghost is actually in the warehouse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "幽灵小姐…？啊，是、是的，我也在找幽灵小姐来着",
+			say = "Miss Ghost...? Um, yes, yes I was umm searching for Miss Ghost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就跟贝利一起往仓库去吧，Let's go～",
+			say = "Then why don't you join me and we'll head to the warehouse together. Let's go~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "嗯，嗯！一起去吧！",
+			say = "Yes, yes! Together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			blackBg = true,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "（有同伴一起的话……我就不会那么害怕了！）",
+			say = "(If I got someone to come along... then I'll be less afraid!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}平时总是很辛苦呢，天狼星这为您准备一杯果蔬汁来补充营养吧……！",
+			say = "{dorm3d}, you're always busy with something, so I'd like to make some vegetable juice to supplement your nutrient intake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不用麻烦了。",
+					content = "I'll be fine.",
 					flag = 1
 				},
 				{
-					content = "有你在身边就够了。",
+					content = "You being here for me is all I need.",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是为了您的健康着想的话……",
+			say = "B-but... you must pay attention to your health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那、那么，就请用天狼星的身体来……！",
+			say = "Very well... Then I shall bolster your health with my own body!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

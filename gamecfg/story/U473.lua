@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>三  礼物</size>",
+					"Days of Tranquility\n\n<size=45>3.Milky Goodness</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，这个给你。",
+			say = "This is for you, Commander.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "翌日，{namecode:413}又来了。而且这次带来了一盒牛奶。",
+			say = "U-47 came by the very next day after her first visit to my office. She brought with her a small carton of milk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,38 +71,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "包装上画了一头威风的牛，感觉喝下去就能变强（？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……这个是昨天帮我盖毯子的谢礼。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "原来如此……心怀感谢的打开了包装——里面却没有吸管。",
+			say = "The packaging sported a depiction of a brawny cow, an allusion to the widespread belief that milk promotes bone growth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，我可能把吸管掉在什么地方了……不过不管怎么喝，它都很美味。",
+			say = "A small thank-you for the blanket yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,22 +102,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:413}说完话后，就开始在书架上物色着今天的阅读目标。看来要在没有吸管的情况下自己想办法了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "利用刀子和杯子化解了危机后，品尝了一口——跟普通的牛奶简直是天壤之别，实在是太美味了！",
+			say = "\"Ah, you're welcome. By the way, do you have a straw? There's none on the carton.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +118,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是我最喜欢的特制牛奶，所以特别送给指挥官。",
+			say = "Oh, darn. Must've dropped it at some point... But it's still good, whichever way you drink it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "She shrugged, then started scouring the bookshelf for something to read, like yesterday. Meanwhile, I got a glass and poured the milk into it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I took a sip, and immediately I could tell this was not your run-of-the-mill milk. Its taste was extraordinary. I commented on this to U-47.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,22 +164,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有，今天也要打扰你了，现在有什么需要帮忙的事么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "目前还没有特别需要{namecode:413}帮忙的事……不过既然有这份心的话，询问一下她擅长的事情好了。",
+			say = "Mhm. It's my favorite. Imported, too. I wouldn't share it with just anyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "潜入任务。",
+			say = "Also, got anything you need help with? I wanna make myself useful this time around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,68 +195,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……看来暂时没有她发挥特长的机会了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哦，那有需要的时候叫我也行。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "在搜寻了一会后，她从书架上取下了一本书。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "今天最终决定的目标是————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "《军港纪念邮票集》",
+			say = "\"There's nothing I desperately need your help with, but I appreciate the offer. For future reference though, what do you excel at?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昨天好像没看到这本书……看名字感觉很有趣。",
+			say = "Stealthy stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,22 +226,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:413}拿着书来到了昨天的沙发上，然后默默开始了阅读。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "虽然这本书是我特意准备好混进去的，但没想到她真的很感兴趣。",
+			say = "\"I see... I'll let you know if any missions like that crop up.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +242,52 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……果然有点奇怪呢。",
+			say = "'Kay. Please do.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "She was content to leave it at that, and then pulled out a paperback from the bookshelf.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I took a brief glance at the cover to see what she picked.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "It was titled, 'Catalogue of Navy-issue Postage Stamps.'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +303,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给不说话又不帮忙的人特意准备本书，温柔过分了。",
+			say = "Pretty sure this wasn't here yesterday... Could be cool.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Just like yesterday, she sat down on the couch and began reading in silence.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I had put out the new book more or less at random, and was surprised to see she had taken an interest in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +349,39 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不……也不是说让你开始跟我聊天的意思。我喜欢安静，保持现状就好。",
+			say = "I've said it before, but... you really are an odd one, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I don't help around the office, but you still left this book here just for me. You're really quiet, too.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Don't get me wrong, I don't want you to start running your mouth. I like peace and quiet, so I'm fine with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			},
 			options = {
 				{
-					content = "这种只要呆在身边就能安心的关系也不错……",
+					content = "\"You don't need to exchange words to enjoy each other's company.\"",
 					flag = 1
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯。",
+			say = "Mhm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:413}没有再多说什么，全身心投入了阅读之中。",
+			say = "She briefly echoed my sentiment, then focused her attention back to the book.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然没有发生什么特别的事，但总感觉这个静谧的房间中似乎比刚才更加温暖了。",
+			say = "Not much of note happened after that, and yet, a comfy mood enveloped the quiet office for the duration of her stay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

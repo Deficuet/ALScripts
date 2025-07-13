@@ -16,7 +16,7 @@ return {
 			bgm = "battle-boss-longgong",
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "我就知道会这样…………火果然出现了啊啊啊啊啊啊！！",
+			say = "You've gotta be kidding me... Darn it, darn it, darn it!!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,7 +81,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟就算我们不开火，敌人也不会手下留情嘛……",
+			say = "Well duh, the enemies weren't going to stop shooting at us just because we stopped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快后撤……后撤！我可不想葬身在大火里啊！",
+			say = "Retreat! Run for it! I don't wanna sink in a sea of flames!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "搞什么啊这座龙宫城……自己在自己的城里放火很危险吧！",
+			say = "Isn't it way too reckless to spread oil all over your own castle and then set the freakin' thing on fire?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:208}阁下，让我再冲一次吧！",
+			say = "Katsuragi, I think I might be able to do something about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "笨蛋！火势太猛烈了！就算是你的速度也避不开！",
+			say = "Do you not see that gaping, flame-belching maw from hell? No matter how fast you might be, you're not gonna make it through there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这时候还是交给可靠地正规航母吧！",
+			say = "*cough* *cough*! If anything, I'll have my planes take out those mechanisms from a distance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_daofeng_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然海面已经引燃。我也不用束手束脚了，看我用轰炸直接解决掉远处的机关！",
+			say = "Ugh... You worthless pieces of mass-produced metal... If you wanted to see the world burn so badly, then let me show you what a true sea of flames looks like!",
 			effects = {
 				{
 					active = true,
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦~！{namecode:208}阁下加油啊！",
+			say = "You've got this, Katsuragi!",
 			effects = {
 				{
 					active = false,
@@ -263,7 +263,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "成群的舰载机从浓烟之上飞向远处的机关，然后迎接它们的是穿烟而出的密集火力…",
+			say = "Katsuragi's planes plunged into the thick plume of black smoke rising from the burning fuel, but were quickly repelled by the anti-aircraft guns defending the mechanism.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "……舰载机被全数拦截住了，{namecode:208}阁下！",
+			say = "Katsuragi, your attacks aren't going to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些防空炮又是从哪里冒出来啊！哼，搞偷袭不讲武德！",
+			say = "I can see that! Damnit, where did that anti-air gun pop out from anyway?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚趁我大意了，没有闪避及时，看我再来一次攻击——！",
+			say = "But, I won't be caught off guard twice! I'll just hit it with another airstrike!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_4",
 			dir = 1,
-			say = "{namecode:208}发动了第二轮袭击，但依然无法突破密集的防空火力网。",
+			say = "However, the second wave of planes were repelled by the anti-air fire as well, retreating just before there could be any losses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼……还没有结束！看我的第三轮攻击————",
+			say = "I'm not done yet! Third time's the charm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下暂停！暂停！前方的火力网怎么看都不像是能冲过去的！",
+			say = "Woah, um, why don't we calm down first? I don't think a single carrier's going to be able to get through anti-air fire that dense!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶……都怪结界内空间有限限制了舰载机的发挥！不然早就炸烂那个机关了！",
+			say = "Arghh!! It's all because I can't utilize my full potential inside this cramped space! Hey, Shimakaze, don't just go rushing off on your own again! Get back here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "果然我还是努力——",
+			say = "Huuuh? Why can't I go?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "给我老实下来静静地等火焰熄灭！",
+			say = "Do you have eyes?! Everything's still on fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是……{namecode:208}阁下。",
+			say = "Fiiiiine, if you say so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

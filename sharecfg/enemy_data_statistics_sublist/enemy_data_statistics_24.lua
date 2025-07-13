@@ -1,8 +1,171 @@
 pg = pg or {}
 pg.enemy_data_statistics_24 = {
+	[90717] = {
+		cannon = 0,
+		name = "Ancient Ruins Guardian Prototype - Second Form",
+		type = 5,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90717,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "lianjin_boss2",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		scale = 180,
+		wave_fx = "movewave",
+		prefab = "lianjin_boss2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.33,
+					0.8,
+					0
+				}
+			},
+			skill = {
+				{
+					0,
+					2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.43,
+							0.69,
+							-0.09
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.66,
+							2.54,
+							-0.41
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90718] = {
 		cannon = 0,
-		name = "亚利桑那·META",
+		name = "Arizona META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -174,7 +337,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90719] = {
 		cannon = 0,
-		name = "OFS.轻型护卫舰",
+		name = "Mass-Produced OFS Corvette",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -336,7 +499,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90720] = {
 		cannon = 0,
-		name = "OFS.导弹驱逐舰",
+		name = "Mass-Produced OFS Guided-Missile Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -505,7 +668,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90721] = {
 		cannon = 0,
-		name = "OFS.导弹巡洋舰",
+		name = "Mass-Produced OFS Guided-Missile Cruiser",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -681,7 +844,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90722] = {
 		cannon = 0,
-		name = "OFS.重型驱逐舰",
+		name = "Mass-Produced OFS Heavy Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -857,7 +1020,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90723] = {
 		cannon = 0,
-		name = "OFS.导弹战列舰",
+		name = "Mass-Produced OFS Guided-Missile Battleship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1033,7 +1196,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90724] = {
 		cannon = 0,
-		name = "OFS.无人机母舰",
+		name = "Mass-Produced OFS Drone Carrier",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1202,7 +1365,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90725] = {
 		cannon = 0,
-		name = "OFS.航空母舰",
+		name = "Mass-Produced OFS Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1371,7 +1534,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90726] = {
 		cannon = 0,
-		name = "OFS.自动化水下航行器",
+		name = "OFS Autonomous Submersible",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1523,7 +1686,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90727] = {
 		cannon = 0,
-		name = "OFS.攻击潜艇",
+		name = "Mass-Produced OFS Attack Submarine",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1683,7 +1846,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90728] = {
 		cannon = 0,
-		name = "OFS.防空快艇",
+		name = "Mass-Produced OFS Anti-Air Boat",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1838,7 +2001,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90729] = {
 		cannon = 0,
-		name = "OFS.快速战斗支援舰",
+		name = "Mass-Produced OFS High Speed Support Vessel",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1993,7 +2156,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90730] = {
 		cannon = 0,
-		name = "代行者XV「Temptation」",
+		name = "Enforcer XV: Temptation",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2149,7 +2312,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90731] = {
 		cannon = 0,
-		name = "代行者XV「Restriction」",
+		name = "Enforcer XV: Restriction",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2305,7 +2468,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90732] = {
 		cannon = 0,
-		name = "仲裁者·迪贝路·XV",
+		name = "Arbiter: The Devil XV",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2457,7 +2620,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90733] = {
 		cannon = 0,
-		name = "Devil.压制模块",
+		name = "The Devil – Suppression Module",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2578,7 +2741,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90734] = {
 		cannon = 0,
-		name = "Devil.狙击模块",
+		name = "The Devil – Sniping Module",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2699,7 +2862,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90735] = {
 		cannon = 0,
-		name = "OFS.深水情报舰「厄庇墨透斯」",
+		name = "\"Epimetheus\" - OFS Large Deep-Sea Exploration Submarine",
 		type = 17,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2879,7 +3042,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90736] = {
 		cannon = 0,
-		name = "阿芙乐尔",
+		name = "Avrora",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3048,7 +3211,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90737] = {
 		cannon = 0,
-		name = "甘古特",
+		name = "Gangut",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3204,7 +3367,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90738] = {
 		cannon = 0,
-		name = "忒修斯",
+		name = "Theseus",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3367,7 +3530,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90739] = {
 		cannon = 0,
-		name = "古比雪夫",
+		name = "Kuybyshev",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3523,7 +3686,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90740] = {
 		cannon = 0,
-		name = "审判型机甲武装-战争",
+		name = "Mechanicus Harbinger - War",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3686,7 +3849,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90741] = {
 		cannon = 0,
-		name = "审判型机甲武装-饥荒",
+		name = "Mechanicus Harbinger - Famine",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3849,7 +4012,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90742] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀",
+		name = "Émile Bertin",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4005,7 +4168,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90743] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "Mass-Produced Borrasque Class",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4167,7 +4330,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90744] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
+		name = "Mass-Produced Émile Bertin Class",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4329,7 +4492,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90745] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "Mass-Produced Algérie Class",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4498,7 +4661,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90746] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "Mass-Produced Bretagne Class",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4659,168 +4822,6 @@ pg.enemy_data_statistics_24 = {
 		hp_bar = {
 			200,
 			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90747] = {
-		cannon = 0,
-		name = "贝亚恩级量产型",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 1,
-		id = 90747,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "beiyaendanchuan",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 0,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 180,
-		wave_fx = "danchuanlanghuazhong3",
-		prefab = "beiyaendanchuan",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 8,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			27.7,
-			7.5,
-			9
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smokebig",
-						{
-							0.95,
-							0.99,
-							-0.48
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smokebig",
-						{
-							-1.08,
-							1.77,
-							-0.66
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1.25,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			5
 		},
 		equipment_list = {},
 		random_equipment_list = {},

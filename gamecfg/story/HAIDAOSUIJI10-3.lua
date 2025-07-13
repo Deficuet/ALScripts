@@ -5,7 +5,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "本着帮狐帮到底的原则，你又给了小狐狸一颗苹果。",
+			say = "Feeling bad for the little animal, you offer it another apple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -14,7 +14,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "这个苹果比上一个苹果更大，你相信小狐狸吃完后一定会满足的。",
+			say = "It's even bigger than the last one. Its stomach must be full after this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,18 +23,18 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……小狐狸很快吃完了苹果，而后依然眼巴巴地看着你，似乎依旧饥饿的样子。",
+			say = "Once again, it promptly wolves down on it, and when it's finished, the fox looks up at you with eyes that seem to yearn for more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "最后一个！！！(消耗50探险币)",
+					content = "One more, but that's it!",
 					flag = 1
 				},
 				{
-					content = "无视它",
+					content = "No more apples for you.",
 					flag = 0
 				}
 			}

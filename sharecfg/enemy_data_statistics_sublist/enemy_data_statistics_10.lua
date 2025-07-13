@@ -1,8 +1,152 @@
 pg = pg or {}
 pg.enemy_data_statistics_10 = {
+	[90265] = {
+		cannon = 0,
+		name = "Lurker Ⅰ",
+		type = 8,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90265,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "sairenqianting",
+		star = 0,
+		torpedo = 0,
+		antisub_growth = 0,
+		rarity = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 10,
+		luck = 0,
+		antisub = 0,
+		scale = 120,
+		wave_fx = "danchuanlanghuaxiao2",
+		prefab = "sairenqianting",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.72,
+					0.19,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.72,
+					0.19,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"hit_bubble",
+						{
+							0.21,
+							3,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.82,
+				0
+			},
+			{
+				0,
+				0,
+				0.358
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {},
+		bubble_fx = {
+			"bubble",
+			20,
+			3
+		}
+	},
 	[90266] = {
 		cannon = 0,
-		name = "伊19",
+		name = "I-19",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -146,7 +290,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90267] = {
 		cannon = 0,
-		name = "伊26",
+		name = "I-26",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -290,7 +434,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90268] = {
 		cannon = 0,
-		name = "伊58",
+		name = "I-58",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -434,7 +578,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90269] = {
 		cannon = 0,
-		name = "宵月",
+		name = "Yoizuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -581,7 +725,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90270] = {
 		cannon = 0,
-		name = "江风",
+		name = "Kawakaze",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -728,7 +872,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90271] = {
 		cannon = 0,
-		name = "朝潮",
+		name = "Asashio",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -875,7 +1019,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90272] = {
 		cannon = 0,
-		name = "春月",
+		name = "Harutsuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1022,7 +1166,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90273] = {
 		cannon = 0,
-		name = "探索者II型",
+		name = "ExplorerII",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1178,7 +1322,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90274] = {
 		cannon = 0,
-		name = "追迹者II型",
+		name = "TrackerII",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1334,7 +1478,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90275] = {
 		cannon = 0,
-		name = "领洋者II型",
+		name = "OceanaII",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1490,7 +1634,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90276] = {
 		cannon = 0,
-		name = "破局者II型",
+		name = "Peace BreakerII",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1660,7 +1804,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90277] = {
 		cannon = 0,
-		name = "执棋者II型",
+		name = "StrategistII",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1816,7 +1960,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90278] = {
 		cannon = 0,
-		name = "敦刻尔克",
+		name = "Dunkerque",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1970,7 +2114,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90279] = {
 		cannon = 0,
-		name = "勒马尔",
+		name = "Le Mars",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2124,7 +2268,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90280] = {
 		cannon = 0,
-		name = "让巴尔",
+		name = "Jean Bart",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2278,7 +2422,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90281] = {
 		cannon = 0,
-		name = "爱丁堡",
+		name = "Edinburgh",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2447,7 +2591,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90282] = {
 		cannon = 0,
-		name = "贝尔法斯特",
+		name = "Belfast",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2616,7 +2760,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90283] = {
 		cannon = 0,
-		name = "纽卡斯尔",
+		name = "Newcastle",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2772,7 +2916,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90284] = {
 		cannon = 0,
-		name = "利安得级量产型",
+		name = "Leander-class Production Model",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2932,7 +3076,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90285] = {
 		cannon = 0,
-		name = "诺福克级量产型",
+		name = "Norfolk-class Production Model",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3098,7 +3242,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90286] = {
 		cannon = 0,
-		name = "谢菲尔德",
+		name = "Sheffield",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3254,7 +3398,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90287] = {
 		cannon = 0,
-		name = "久远",
+		name = "Kuon",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3403,7 +3547,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90288] = {
 		cannon = 0,
-		name = "猫音",
+		name = "Nekone",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3550,7 +3694,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90289] = {
 		cannon = 0,
-		name = "露露缇耶 ",
+		name = "Rurutie",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3699,7 +3843,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90290] = {
 		cannon = 0,
-		name = "乌璐露",
+		name = "Uruuru",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3848,7 +3992,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90291] = {
 		cannon = 0,
-		name = "萨拉娜 ",
+		name = "Saraana",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3997,7 +4141,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90292] = {
 		cannon = 0,
-		name = "芙米露露",
+		name = "Fumiruiru",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4144,7 +4288,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90293] = {
 		cannon = 0,
-		name = "富特",
+		name = "Foote",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4304,7 +4448,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90294] = {
 		cannon = 0,
-		name = "斯彭斯",
+		name = "Spence",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4418,164 +4562,6 @@ pg.enemy_data_statistics_10 = {
 						{
 							0.293,
 							0.826,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90295] = {
-		cannon = 0,
-		name = "约克城",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90295,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "yuekecheng",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "yuekecheng",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 1,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.5,
-					0.5,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.549,
-							0.503,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.385,
-							0.667,
 							0
 						}
 					}

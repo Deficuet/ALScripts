@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士、指挥官，两翼压力过大，我们的队形出现混乱了！",
+			say = "Commander! Rumey! The attacks from our flanks are too strong! Our formation is breaking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "我来殿后，所有人在沿航线三十海里处集结重整。",
+			say = "I will cover the rear! Have all ships reform 30 nautical miles ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白，我立刻部署！",
+			say = "Understood! I'll relay that at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你与指挥舰先行，整队完毕后不用等我，直接前往基地救援！",
+			say = "Commander, lead with the command ship and oversee the reformation effort! As soon as it's complete, proceed to base immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个阵仗。",
+			say = "If they know our plans, then their next move...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "鲁梅女士，以往……有过天外之兽自爆杀敌的记录么？",
+			say = "Rumey. Are extradimensionals known to attack via self-destruction?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天外之兽只有战斗本能，并没有什么战斗策略。",
+			say = "They're beasts. They follow only their instincts – never would they end their own lives for a greater goal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遇到必死局面多会逃跑，死拼的情况都不算太多，如果要让其主动选择自爆的话……",
+			say = "They flee in the face of overwhelming odds, and it's extremely rare for them to fight to the death. If they ever did self-destruct, it would be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……必须要有领袖级的天外之兽进行指挥？",
+			say = "...Because their leader forced them to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……可怎么——",
+			say = "Good lord! But that can't–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -272,7 +272,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "象征量产舰被摧毁的爆炸声中，我的意识逐渐陷入沉寂。",
+			say = "Amidst the explosion of the mass-produced ship, my consciousness is thrown into the empty abyss.",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "theme-themagiciani",
@@ -301,7 +301,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "刷刷——",
+			say = "SHUFFLE...",
 			hidePaintObj = true,
 			blackBg = true,
 			soundeffect = "event:/ui/xipai",
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳边，似乎传来了洗牌的声音——",
+			say = "Then, I hear the sound of cards shuffling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

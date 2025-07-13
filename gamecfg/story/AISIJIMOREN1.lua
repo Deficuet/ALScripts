@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>一　极地的爱斯基摩人？</size>",
+					"Summer Surprise\n\n<size=45>1 The Arctic Eskimo?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日的港区",
+			say = "One day at port...",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“璀璨的星空中挂着一轮明亮的圆月，下面是无尽的冰川。”",
+			say = "\"Beneath the light of the glimmering stars and the moon spans a field of glaciers.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“凌冽的寒风裹挟着冰粒，在空气中滑出阵阵凄惨的哀嚎。”",
+			say = "\"A frigid wind blows across a white expanse.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“一片纯白中有一位少女，身穿大衣，手捏一柄鱼叉，静静地凝视着前方...”",
+			say = "\"Within the pure white background, a girl clad in thick furs looks out in front of her, javelin in hand.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，然后呢，然后发生什么事了！（吞口水）",
+			say = "Mm... Mm... What's next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“只见她小心翼翼的向前移动着，两只高大威猛的猎犬也心领神会的从不同方向接近着猎物。”",
+			say = "\"She advances carefully, her trusty hunting hounds at her side, the three surrounding their prey from different sides.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“然后只听见“啪”的一声，少女将手中的标枪扔了出去！终于，今天也可以饱餐一顿了...”",
+			say = "\"With a snapping sound, the spear leaps from her hands, securing a splendid meal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哦...听起来好帅啊。",
+			say = "Woah... That's badass...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，说到爱斯基摩人，听起来就是这种感觉吧！",
+			say = "Hehe... I heard Eskimo apparently gives off the same kind of vibes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "常年生活在极地冰川的冷酷猎手，会不会是一个可怕的孩子...",
+			say = "A hunter who has lived in the polar glaciers for many years... What if she's a scary person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？本森姐姐也没有见过爱斯基摩人么！",
+			say = "Huh? You haven't met her either, Benson?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还没有哦！不过~根据我在兔兔星的情报网，她很快就要轮值指挥官的秘书舰了哦~",
+			say = "Nope, not yet! But, according to my sources, she'll soon be serving as the Commander's secretary ship~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样这话，很快就能在指挥室里见到了，会是一个什么样的同伴呢...",
+			say = "So, we'll be able to meet her if we head to the office? I wonder what kind of person she is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,11 +254,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗷呜~嗷呜~",
+			say = "Oooooaaaaaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦...？树的后面发出了一阵阵嚎叫声？！",
+			say = "Huh?! A voice came from behind those trees!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,9 +298,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_113",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
-			say = "噔噔噔噔~！噔噔噔噔~！",
+			say = "Badumdumdum!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又传出来一阵鼓声...！",
+			say = "Wait, now someone's drumming?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,11 +343,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说，你们对爱斯基摩人很好奇？哼哼~那就让我来满足你们的愿望吧！",
+			say = "Hey there, heard you girls were talking about me? Heh heh, I'll put your questions to rest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（吞口水）",
+			say = "*gulp*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵锵锵~我就是皇家部族级驱逐舰，爱斯基摩人，从今天开始担任港区秘书舰的工作，请多指教啦~",
+			say = "Tadaaaah! Tribal-class destroyer, Eskimo, will be serving as secretary starting today! It's a pleasure to meetcha!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自称爱斯基摩人的少女从树后面出现了！",
+			say = "Woah, a girl calling herself Eskimo leapt out from behind the tree!",
 			effects = {
 				{
 					active = false,
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身上没有鱼叉...也没有跟着凶猛的猎犬...太好了，是一个普通的可爱美少女！",
+			say = "She doesn't have a harpoon on her... or vicious hounds following her. Phew! She's just a normal cutie just like us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 101370,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过穿着极地风格的厚大衣还带着全套的雪地装备，好帅啊。",
+			say = "But she does have thick clothes from the frozen North! How cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~刚才的故事很有趣，很遗憾和大家猜想中的不一样呢。",
+			say = "Ehehe, I'm quite familiar with that story you mentioned! It's real interesting, but unfortunately, I'm nothing like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，不是可怕的同伴真是太好了！我是本森，旁边的两位是贝利和科尔克，我们都是兔兔星人哦~",
+			say = "No no, I'm glad our new friend isn't super scary! Anyway, I'm Benson, this is Bailey right here, and this is Kalk~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，兔兔星人么...？感觉很有趣的样子！我现在还要赶去指挥官那里报道，兔兔星的事以后有机会请务必详细说给我听听！",
+			say = "Nice meeting all of you! Anyway, I need to go meet up with the Commander, so we'll talk later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题哦~！",
+			say = "No problemo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "和名称印象不同，是个十分精力旺盛的人啊。哼哼，感觉很快就会有有趣的事发生了~",
+			say = "Huh, she's pretty cheerful. Not quite what I was expecting, hehe. Looks like things will be getting a lot livelier around here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "模拟世界「未来NY」-测试海域",
+			say = "NY City Simulation - Testing Area",
 			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
@@ -36,13 +36,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再次宣读本次测试中的第四条禁令：禁止在模拟世界中与迪贝路进行任何形式的交谈，否则测试中断。",
+			say = "Regulation reminder: four, the simulation will be terminated if you attempt to communicate with the Arbiter vessel in any way, shape, or form.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,13 +56,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请再次确认。",
+			say = "Please acknowledge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,12 +76,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白，我们会严格遵守规定的。",
+			say = "I know. We'll stick to the rules.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,13 +95,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "Main Terminal",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复已确认：迪贝路数据已生成在指定区域，对抗测试即将开始。",
+			say = "Acknowledgment received. Generating Arbiter vessel and commencing combat performance test.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "远方，一台巨大的黑色机甲正在接近。",
+			say = "A hulking beast clad in black armor approached from the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "机甲的背部矗立着一个巨大的储存罐，其中存放的不明液态物质正散发着骇人的红色烟雾。",
+			say = "There was a massive tank hung on the beast's back, filled with a liquid substance that vaporized into a red steam that blanketed the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "正面的装甲板则扭曲成了一副狰狞的图案，宛如一颗地狱骑士的头颅。",
+			say = "At its front was an armored protrusion, like a knight's helmet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "而头颅之上，坐着一位娇小的少女。",
+			say = "And atop it sat a little girl wearing a black, frilly dress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +157,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在正式开始测试前，请先允许我向各位介绍一下基本情况。",
+			say = "So, before we get this thing started, a quick self-introduction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,11 +169,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的名字叫迪贝路·XV，大家可以称呼我为迪贝路。",
+			say = "My model ID is The Devil XV, but you can just call me Devil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,11 +181,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我是新一代的ANTI-X，不过我最擅长的是支援与协助，而不是攻坚与正面作战。",
+			say = "I'm a second-generation Antiochus specializing in battlefield support. Frankly, taking head-on fights isn't my forte.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以接下来的对抗测试，还请各位手下留情，点到为止了哦。",
+			say = "The purpose of today's experiment is to gauge how Antiochus and KAN-SEN fight both against and alongside each other. Mostly the latter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,12 +207,12 @@ return {
 			portrait = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "普林斯顿",
+			actorName = "Princeton",
 			hidePaintObj = true,
-			say = "（……好有礼貌？！）",
+			say = "(She's talking to us, like a civilized person?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,13 +226,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			portrait = 107230,
-			actorName = "普林斯顿",
+			actorName = "Princeton",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（感觉……和印象中的塞壬差距好大……）",
+			say = "(That's unlike what I've come to expect from the Sirens...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,11 +244,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……怎么都不说话？",
+			say = "Hm? What's the matter? Aren't you gonna say anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,11 +256,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有什么问题都可以问我哦？",
+			say = "I'll hear out your questions, if you have any.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,13 +268,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "盯————",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,11 +286,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来是沉默寡言的类型呢，那就让我们——",
+			say = "So you don't talk much. That's fine, I–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -349,13 +349,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "盯————",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喂！我还没说演习开始，你怎么能偷袭呢！",
+			say = "What the hell?! Don't shoot me before we've even started! Have some decency!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,12 +381,12 @@ return {
 			portrait = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "普林斯顿",
+			actorName = "Princeton",
 			hidePaintObj = true,
-			say = "（怎么感觉……好可爱。）",
+			say = "(I don't like this... I'm starting to feel kinship with a Siren.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,13 +400,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			portrait = 107230,
-			actorName = "普林斯顿",
+			actorName = "Princeton",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这些真的是……TB按照仲裁机关的数据模拟出来的？）",
+			say = "(Why is she so different? I don't think we've fought any Arbiter as talkative as her before.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -469,13 +469,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "拉菲II",
+			actorName = "Laffey II",
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "盯————",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,11 +487,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "迪贝路·XV",
+			actorName = "Arbiter: The Devil XV",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……！那就让我们全力一战吧！",
+			say = "Fine! I'll just come at you with all I have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,10 +501,10 @@ return {
 			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "Rigging Design Department",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正合我意……歼灭模式，启动——！",
+			say = "Good. Engaging Annihilation Mode!",
 			painting = {
 				alpha = 0.3,
 				time = 1

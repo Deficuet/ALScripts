@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-italy",
 			dir = 1,
-			say = "叮咚噔咚，这里插播一下来自沃克兰的提醒~",
+			say = "Dunkerque, sorry I took so long eating...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸……根据热情的情报，前方海域好像有皇家的纳尔逊的踪迹。",
+			say = "Fougueux reported that they've spotted the Royal battleship, Nelson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纳尔逊……是难缠的对手呢。如果可能的话尽可能规避与其的战斗。",
+			say = "Nelson, one of the Big Seven... It wouldn't be a good idea to engage her. Try to avoid her if possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 900236,
-			actorName = "沃克兰&塔尔图",
-			say = "是！",
+			actorName = "Vauquelin & Tartu",
+			say = "Got it!",
 			subActors = {
 				{
 					actor = 901020,
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "哎？等等，前方的舰队立刻停下来，你们是……！",
+			say = "Stop right there, whoever you are!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			actor = 900236,
 			dir = 1,
-			say = "唔啊，结果还是遇上了，好倒霉……",
+			say = "Shoot, she discovered us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "维希教廷的驱逐？还有你是……敦刻尔克？！",
+			say = "You guys are... the Vichya Dominion's...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "准备趁着夜色前往土伦进行进一步维修么…这我可不能当做没看见！",
+			say = "Trying to flee to Toulon for repairs, huh? ...I won't let you get away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的纳尔逊……",
+			say = "If it's just her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塔尔图，沃克兰，趁着皇家的增援舰队没到，速战速决！",
+			say = "Tartu, Vauquelin, we're going to make a break for it before she can call reinforcements!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其六　显露身形的幽灵</size>",
+					"Witches' Eve VI\n\n<size=45>「Ghosts Revealed!」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "声音是从上方传来的……",
+			say = "The sound is coming from above...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "它们在漂浮的南瓜灯上",
+			say = "They are floating on top of pumpkin lanterns...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -57,7 +57,7 @@ return {
 			actorName = "White?",
 			dir = 1,
 			withoutPainting = true,
-			say = "首先，要做什么恶作剧呢？",
+			say = "First, let’s decide on a prank to pull?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actorName = "Gold?",
 			dir = 1,
 			withoutPainting = true,
-			say = "那、那个，White姐，你一直说想在万圣夜玩乐，我以为肯定想好恶作剧了……",
+			say = "So, White, you always mentioned that you wanted to have fun on Halloween. So naturally, I thought you already decided on your prank...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "White?",
 			dir = 1,
-			say = "我又不是Sis Sara",
+			say = "I’m not Sara.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "这个声音——你果然是{namecode:95}！",
+			say = "This sound—— It was you {namecode:95} after all!",
 			withoutPainting = false,
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			actorName = "White?",
 			dir = 1,
-			say = "不，我是White！",
+			say = "No, I am White!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "你是{namecode:95}……吧",
+			say = "You are {namecode:95}... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 1,
 			actorName = "White?",
 			dir = 1,
-			say = "不，我是White！！！",
+			say = "No, I am White!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好吧，White，你们打算做什么？",
+			say = "Fine, White, what are your plans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			actorName = "White?",
 			dir = 1,
-			say = "嗯……你们喜欢什么恶作剧？",
+			say = "Right… do you all like to pull pranks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "为什么要问被恶作剧的人喜欢什么恶作剧啊……",
+			say = "Why are you asking those who were pranked if they like pulling pranks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "南瓜灯是你们操纵的吗？用南瓜灯在夜空中摆出一张巨大的鬼脸一定很棒！吾偷偷试过几次但总弄不好……",
+			say = "So were you the ones manipulating all those pumpkin lanterns? Using all those lanterns floating in the night sky to show a scary face must be fun! I secretly tried this but failed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			actorName = "White?",
 			dir = 1,
-			say = "听起来不错~",
+			say = "Sounds interesting~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			actorName = "Gray?",
 			dir = 1,
-			say = "Gold，你来负责左侧",
+			say = "Gold, you handle the left side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			actorName = "Gold?",
 			dir = 1,
-			say = "明明是我赢了，为什么却是你在指挥！",
+			say = "I was the one who won the duel, so how come you’re calling the shots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 1,
 			actorName = "Gray?",
 			dir = 1,
-			say = "再磨磨蹭蹭，我这边要摆完了哦",
+			say = "You’re dragging us behind, I’m almost finished here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 0,
 			actorName = "White?",
 			dir = 1,
-			say = "可恶——看我一口气摆好！",
+			say = "Darn—— I will finish this in one swift motion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 1,
 			actorName = "White?",
 			dir = 1,
-			say = "呵呵~对了！大家都站到南瓜灯上吧~",
+			say = "Hehe~ Oh, right! Everyone get on the lanterns~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

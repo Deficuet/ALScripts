@@ -11,7 +11,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "居然是鸢尾教国的突袭……都这么晚的时间了。",
+			say = "*Yawn*... Why did Littorio make us sortie this late in the night... What a slavedriver...",
 			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "哈啊……好困，她们难道都不睡的么——",
+			say = "Pola's going to kill me if this becomes a routine thing and I get baggy eyes because of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "也不知道是向着哪个港口去的，",
+			say = "Stupid defense duty... Oh well, I'll manage as long as all I have to do is camp out here for the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "总之按照利托里奥大人的调动命令去指定位置待机就好吧……",
+			say = "Heh, imagine if anyone actually attacked this la– Eek?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "BOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -129,7 +129,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "敌、敌袭？！难道是在路上遭遇了？！",
+			say = "Should've kept my mouth shut! Who's attacking?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……这么倒霉？！各舰注意，准备战斗！",
+			say = "Well, they picked a bad day to mess with me... I'm coming for you, jerkwads!",
 			effects = {
 				{
 					active = true,

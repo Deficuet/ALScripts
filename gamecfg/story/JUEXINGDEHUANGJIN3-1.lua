@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "根据情报，大海中甜品突然冒出的地方，就是铁爪恶魔的据点purin……",
+			say = "My intel says the Iron Claw Demon's base lies in a part of the sea where candy appears out of nowhere, purin...",
 			bgm = "story-battle-16bit-sfc",
 			painting = {
 				alpha = 0.3,
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个香甜的味道……Purin！已经距离目标很近了！",
+			say = "This sweet scent in the air... I've found it, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			hidePaintObj = true,
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌袭？！看本大人轻松挡住purin！",
+			say = "An attack, purin?! Nice try, but I can block that easily, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,10 +114,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "哦？这次来的人倒是有些本事。",
+			say = "Huh? Wow, you're a lot stronger than the last one I fought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,11 +126,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "报上你的名号吧。",
+			say = "Who are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，本大人乃是黄金（Golden）的化身，试作型布里MKII！",
+			say = "Heheh! I am Prototype Bulin MKII, the Avatar of Gold, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,10 +156,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "原来如此，黄金（Golden）的化身么……",
+			say = "The Avatar of Gold, huh... I know you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,11 +168,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "自古以来，黄金（Golden）就是贪婪与邪恶的象征。",
+			say = "Gold has long been a symbol of greed and evil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,10 +181,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
-			say = "早在上古时期，就有一位黄金（Golden）的化身曾经犯下了将甜品变为黄金的暴行。",
+			say = "There was once someone claiming to be what you are, and she went on a rampage, turning candy into gold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 3,
-			say = "……无法容忍。",
+			say = "...I won't let you do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,11 +206,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "我要在此打倒你，黄金（Golden）的恶魔！",
+			say = "I'm taking you down, you golden fiend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黄金（Golden），是光明、希望与正义的化身啊purin！",
+			say = "No! Gold is the embodiment of light, hope, and justice, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且你才是反派吧purin！",
+			say = "YOU'RE obviously the bad guy here, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,11 +253,11 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#FF9B93",
-			actorName = "铁爪恶魔",
+			actorName = "Iron Claw Demon",
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "多说无益，降临吧——巨龙机甲·铁爪！",
+			say = "Enough talk! Come down to me, Iron Claw Mechadrake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，这就是你获得的力量？",
+			say = "Hah, \"Steel Fists,\" purin? Is that what gives you your power, purin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的超级钻头MKII也不会输的！",
+			say = "My Super Drill will make quick work of it, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,9 +302,9 @@ return {
 			nameColor = "#A9F548FF",
 			side = 0,
 			hidePaintObj = true,
-			actorName = "试作型布里MKII&铁爪恶魔",
+			actorName = "Prototype Bulin MKII & Iron Claw Demon",
 			actor = 403130,
-			say = "冲击吧，试作型超级钻头MKII！\n咆哮吧，巨龙机甲·铁爪！",
+			say = "- Get her, Prototype Super Drill MKII, purin! - Give me a war cry, Iron Claw Mechadrake!",
 			subActors = {
 				{
 					expression = 0,
@@ -321,10 +321,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨龙机甲·铁爪",
+			actorName = "Iron Claw Mechadrake",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌",
+			say = "ROOOOOOAAAAARRRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

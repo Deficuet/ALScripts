@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "叩叩叩——",
+			say = "*knock knock*",
 			bgm = "bar-soft",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "敲响了{namecode:541:杜伊斯堡}所在的休息室的门。",
+			say = "I knock on the door of the room where Duisburg is waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			say = "指挥官？明明还没有到约定的时间……啊~就这么心急想要见到我么？哼哼~",
+			say = "Commander? You're here awfully early... Ah, did you want to see me that badly? Heehee.",
 			actor = 402111,
 			nameColor = "#A9F548FF",
 			withoutPainting = true,
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			say = "……",
+			say = "...",
 			actor = 402111,
 			nameColor = "#A9F548FF",
 			withoutPainting = true,
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_story_task",
 			spine = true,
 			dir = 1,
-			say = "等、等等……这、这是……？！",
+			say = "W-wait... What's THIS?!",
 			actor = 402111,
 			nameColor = "#A9F548FF",
 			withoutPainting = true,
@@ -98,7 +98,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "嗯……？",
+			say = "What's what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}骤然变得有些慌乱的语气让我有些担心，在直接推门而入后——",
+			say = "Hearing her panic, I open the door without a second thought and step inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官，您怎么就进来了？",
+			say = "Commander?! Why'd you barge in just like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}有些拘谨地跪坐在柔软的沙发上，匆忙地垂眼掩饰其中的慌张。",
+			say = "Somewhat awkwardly kneeling on the couch, she hurriedly lowers her gaze as soon as she sees me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "你没事吧？发生了什么？",
+			say = "You okay? What happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "没什么，只是、嗯……只是我差点打翻了水杯而已。",
+			say = "Nothing at all. I just... dropped a cup of water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "尽管少女这样说了，但她的周围并没有任何水渍，也没有所谓的“水杯”。",
+			say = "There is no cup nor water stain anywhere on the floor as far as I can see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "（既然她不想直说……算了，暂且不问吧。）",
+			say = "(Alright then... I just pretend that's all it was.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "无关紧要的事情就让它过去吧。眼下还是正事要紧呢。",
+			say = "It's no big deal. Anyway, let's cut to the chase, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "既然指挥官提前来了，那我们就快点开始今天的特训吧~？",
+			say = "Since you're here early, why don't we start our secret training right away?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "虽说答应陪你特训，但我其实还是不知道具体要陪你特训什么内容。",
+			say = "First, I have a question – what's this training actually about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "嗯……主要想要特训一下“如何更好地服务主人”呢~",
+			say = "Well... It involves providing service to you, as my master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "因为我还是第一次担任“服务生”这样的工作，还是有些没把握。",
+			say = "Remember, it would be my first time at this pop-up shop, and I'm not sure I'm cut out for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "所以想着约指挥官来陪我特训的话，在店里我就能够更加得心应手一些吧~",
+			say = "If I get used to being around you ahead of time, maybe I'll handle it better in the shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "原来是这样，那就开始吧。",
+			say = "Ahh. I get it now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女轻轻呼出一口气，但身体似乎仍是僵硬着、没有松懈下来。",
+			say = "She takes a deep breath, but it doesn't look like it helps calm her down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "主、主人，欢迎回来，今天就由{namecode:541:杜伊斯堡}来服侍您~",
+			say = "W-welcome back, Master... How can I serve you today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女不似平时那般游刃有余，有些不安地摩挲着自己的双臂。",
+			say = "Her typical confidence is all gone – her crossed arms are a sign of nervousness, as are her restless hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "淡色的红晕浮现在脸颊上，连耳朵都带上了粉色。",
+			say = "A soft blush spreads across her cheeks, even coloring her ears pink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "……不、不行，穿着这身衣服果然还是……！",
+			say = "Th-this isn't working... I can't do it in these clothes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "（衣服？不过仔细一看的话，{namecode:541:杜伊斯堡}的这身衣服确实不像店中的制服……）",
+			say = "(The clothes are the problem? Now that she mentions it, what Duisburg is wearing indeed doesn't look like the pop-up shop's attire...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,14 +422,14 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "（难道说……）",
+			say = "(Wait a second...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:541:杜伊斯堡}穿错衣服了？",
+					content = "(Did she get the wrong clothes?)",
 					flag = 1
 				}
 			}
@@ -443,7 +443,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "{namecode:541:杜伊斯堡}，你穿的不是店里的制服吧……？是穿错了么？",
+			say = "You're wearing the wrong clothes, aren't you? I don't think that's pop-up shop standard issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "果然这种程度瞒不过指挥官……",
+			say = "I should've known there would be no hiding it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "这一身是准备以后再用到的衣服啦……！",
+			say = "Yes, you're right! These clothes are for a different occasion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "结果包装和店里的制服盒子太像，我就拿错了……",
+			say = "They were in a box that looked so similar to the shop one, and I picked the wrong one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "不、不过，就算只有我和指挥官两个人……在外面穿成这样还是会害羞呀！",
+			say = "Even if it's just the two of us... it's still embarrassing to wear something like this... I mean, look at me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女的视线移向一边，故意避开了我的目光。",
+			say = "She averts her gaze to avoid meeting mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "还有就是，这里也没有镜子，也不知道上身效果怎么样，如果不好看的话……",
+			say = "And there's no mirror in this room either, so I can't even tell if I put it on right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,18 +540,18 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "我还是不希望您看见我不好看的一面呢……",
+			say = "I don't want you to see me in something that looks so off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "明明很适合你",
+					content = "But you look great in it.",
 					flag = 1
 				},
 				{
-					content = "穿在你身上非常好看",
+					content = "It looks cute on you.",
 					flag = 2
 				}
 			}
@@ -566,7 +566,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "这身衣服明明很适合你，不用那么紧张。",
+			say = "Not only great, but very cute as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "穿成这样的{namecode:541:杜伊斯堡}很好看。",
+			say = "There's no reason for you to feel nervous about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "这件衣服穿在你身上非常好看。",
+			say = "Super cute, in fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			optionFlag = 2,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "真的……？",
+			say = "Do you mean it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "真的。",
+			say = "I mean it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			actorName = "{playername}",
-			say = "如果还是很在意的话……我们可以先暂停特训，我陪你去把衣服换回来。",
+			say = "If it really bothers you, let's call off the training and get you into your regular clothes first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "听指挥官您这么说，我突然感觉松了口气呢。",
+			say = "No, it's fine. I'm relieved after what you just said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "好像也不那么紧张了~？",
+			say = "I don't feel so anxious now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "至于特训……",
+			say = "Oh, right, the training...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "短暂的思考过后，{namecode:541:杜伊斯堡}轻轻地摇了摇头。",
+			say = "She pauses to think momentarily, then shakes her head to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她一直紧紧环抱在身前的双手，也随着紧张情绪的消散，终于放松了下来。",
+			say = "As her nervousness fades, she finally relaxes her tightly crossed arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "既然主人您并不讨厌这身装扮……",
+			say = "Assuming you're not opposed to this, Master...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}说着朝我的方向靠近了些，房间中暖色的灯光为她镀上了旖旎的光。",
+			say = "She inches closer to me, her figure bathed in the warm, inviting light, making her look exceptionally enchanting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "那不如就让我以这样的姿态，继续服侍您吧~♥",
+			say = "Please allow me to serve you in this attire. ♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,8 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>五  贺年卡</size>",
-					1
+					"Lunar New Year Celebration\n\n<size=45>Chapter 5 - New Year's Cards</size>"
 				}
 			}
 		},
@@ -21,7 +20,7 @@ return {
 			side = 2,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "{namecode:93}，你在干什么呀？",
+			say = "Big sister Souryuu, what are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "是{namecode:34}啊，我在给大家写贺年卡呢。",
+			say = "Ah, Kisaragi. I'm writing New Year's cards for everyone.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -57,7 +56,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "贺年卡？",
+			say = "New Year's cards?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +72,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "就是写贺卡给朋友们表达新年问候，关系好的还会报告近况之类的~",
+			say = "They're for sending regards to your friends. You can also write a bit about what's going on in life, that kind of stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +88,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "我也……可以写吗？",
+			say = "Can I... try writing one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +104,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "当然可以了，你想写给谁？",
+			say = "Of course. Who would you like to send it to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +120,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "写给……写给……写给指挥官？",
+			say = "Um... uh... Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +136,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "{namecode:34}想祝指挥官新年快乐……",
+			say = "I... want to wish Commander a happy New Year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +152,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "哦？这个想法不错呢，能收到{namecode:34}的贺年卡，指挥官一定会很开心吧。",
+			say = "Oh? That's a good idea. I'm sure Commander would be very happy to get a card from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +168,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "嗯？什么指挥官会很开心？",
+			say = "Eh? Why would Commander be happy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +184,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "{namecode:16}，不要在走廊上跑……{namecode:34}想给指挥官写贺年卡，我说这样指挥官会很开心。",
+			say = "Well... Hey! Yuudachi, no running in the hallway! ... Anyway, children who send cards to adults might just receive a nice reward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +200,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "什么！那我也要写！",
+			say = "Say what? Then, I wanna write one too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +216,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "你真的要写？那就过来这边坐下吧。{namecode:34}也是，我把卡片和笔分给你们。",
+			say = "Do you really? Then, sit down right here. Kisaragi, you too. All right, take a postcard and a pen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +232,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "嗯！",
+			say = "Okay! This looks fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +248,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "{namecode:93}，这个卡上为什么画着狗呀？",
+			say = "Souryuu, why is there a picture of a pig on this card?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +264,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "因为贺年卡上一般会印着新一年的生肖，明年是狗年哦。怎么了，很开心吗？",
+			say = "These cards are usually printed with the corresponding zodiac animal. It's now the Year of the Pig. Is something the matter, Yuudachi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +280,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "我才不是狗！",
+			say = "Just looking at it is making me hungry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +296,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "呵呵，总之，贺年卡想写什么其实没有特别的规定，尤其是孩子们，把想到的写上去然后交给指挥官就好了。",
+			say = "Haha... In short, there are no rules on what you can write on your card, especially for children. Just writing what's on your mind is good enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +312,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "那我就写“指挥官，明年我也要吃好多肉”。",
+			say = "In that case, I'll write... \"Commander, I wanna eat lots of meat this year as well.\" ... And done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +328,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "……………………好吧，{namecode:16}，{namecode:34}也听着，至少要在贺年卡的开头写上“新年快乐”四个字才行哦。",
+			say = "... ... At least write \"Happy New Year,\" okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +344,7 @@ return {
 			side = 0,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "欸……这四个字怎么写啊？",
+			say = "Ohh! ... But uh, how do I spell that again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +360,7 @@ return {
 			side = 0,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "{namecode:34}……也不会。",
+			say = "Um... I also... don't know how...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +376,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "那就从这四个字开始教起吧……来，我写一遍，你们按照我的笔画跟着写。",
+			say = "I suppose we'll have to start from the basics then. Here, I'll write it out first, then you can try for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +392,7 @@ return {
 			side = 0,
 			actorName = "{namecode:55}",
 			dir = 1,
-			say = "咦，{namecode:93}，你们三个在这里干什么呢？",
+			say = "Hrm? Souryuu, Yuudachi, and Kisaragi? What are you three doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +408,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "{namecode:16}和{namecode:34}想给指挥官写贺年卡，我正在教她们。",
+			say = "I'm teaching them how to write a New Year's card to send to Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +424,7 @@ return {
 			side = 0,
 			actorName = "{namecode:55}",
 			dir = 1,
-			say = "哦？………………原来如此，我明白了，那我先走了。",
+			say = "Eh? Um... I see... In that case, I'll be slowly making my way toward the egress~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +437,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "一小时后……",
+			say = "One hour later...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -467,7 +466,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "{namecode:55}，是你干的吧……",
+			say = "Aoba, is this your doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +482,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:55}",
 			dir = 1,
-			say = "什么事？",
+			say = "What could you be talking about?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -503,7 +502,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "把驱逐的孩子们全叫过来写贺年卡……",
+			say = "Who else would call all the destroyers to come write cards?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +518,7 @@ return {
 			side = 0,
 			actorName = "{namecode:55}",
 			dir = 1,
-			say = "哪里，我只是问大家有没有兴趣向指挥官表达感谢之情而已~",
+			say = "Oh come on, I merely asked everyone if they had anything they'd like to thank the commander for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +534,7 @@ return {
 			side = 2,
 			actorName = "{namecode:33}",
 			dir = 1,
-			say = "{namecode:93}老师，你看我画的花好看吗！",
+			say = "Ms. Souryuu, I drew a flower, see?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +550,7 @@ return {
 			side = 2,
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "{namecode:93}……老师，喜字这么写……对吗？",
+			say = "Souryuu... Um, teacher... Did I do it right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +566,7 @@ return {
 			side = 2,
 			actorName = "{namecode:16}",
 			dir = 1,
-			say = "{namecode:93}，这张卡上有肉，我要用这张卡写！",
+			say = "Ah! This card has a porkchop on it! I wanna use this card!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +582,7 @@ return {
 			side = 2,
 			actorName = "{namecode:124}",
 			dir = 1,
-			say = "嚯嚯，要不要写一点稍微刺激的东西呢~",
+			say = "Oh ho ho~ I do believe I shall write some most \"stimulating\" things~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +598,7 @@ return {
 			side = 2,
 			actorName = "{namecode:125}",
 			dir = 1,
-			say = "呜呜，又写错了……",
+			say = "Uuu.... I made a mistake again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +614,7 @@ return {
 			side = 2,
 			actorName = "{namecode:19}",
 			dir = 1,
-			say = "{namecode:93}，你看吾辈的字写得好看吗？",
+			say = "Souryuu, what do you think of my elegant writing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +631,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:55}",
-			say = "好，明天的头条就决定了！《人气超高！年关将至的{namecode:93}老师特别教室！》",
+			say = "Eheh, it's decided then! The \"Super Popularity Contest - Ms. Souryuu's Special Classroom, End of Year Edition,\" will begin tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +647,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "为什么{namecode:124}也跟着混在里面凑热闹……算了，这样也不坏吧……",
+			say = "Why is Kamikaze even here... Ah jeez, I suppose this isn't so bad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +663,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "好了，有问题一个一个来，我先把“新年快乐”四个字重新写一遍，大家看清楚我的笔画——",
+			say = "All right, if you have any questions, please come up one at a time. First, I'll write \"Happy New Year\" on the board, so make sure to watch me carefully!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "哈？你们就是这一批新来的「白方<White>」？看起来完全不像是难度很高的样子嘛？",
+			say = "Huh? You're supposed to be the new White? You look weak as hell.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "不过既然能解决德意…{namecode:461}…好吧，那个蠢蛋肯定又是一路喊着“铁甲舰世界第一”之类的蠢话，然后就被你们给解决掉了吧？看你们的表情我肯定是猜对了",
+			say = "But you somehow beat Deut... I mean, Lützow... Whatever, in short you guys beat that tomboy charging into battle, yelling how she's \"the world's greatest armored ship\", right? Actually, don't answer, it's written all over your faces!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "那么，虽然对蠢蛋没有任何同情，要是让你们以为铁血的代表是那样的货色可也说不过去…",
+			say = "I don't have any sympathy for that moron, but I can't just let her give you the wrong impression of Iron blood's might either!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -61,7 +61,7 @@ return {
 			actor = 403010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "{namecode:425}号重巡洋舰，作为真正世界第一的重巡洋舰，就让我速战速决吧！",
+			say = "I, Admiral Hipper, the world's greatest heavy cruiser, will finish you off in the blink of an eye!",
 			shake = {
 				speed = 1,
 				number = 3

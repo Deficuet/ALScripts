@@ -20,11 +20,6 @@ end
 
 function var_0_0.OnInit(arg_5_0)
 	setActive(arg_5_0.tipTr.gameObject, false)
-
-	if not arg_5_0.config.text_pic or arg_5_0.config.text_pic == "" then
-		arg_5_0.hideSubImg = false
-		arg_5_0._tf:Find("Image").anchoredPosition = Vector2(120, -405)
-	end
 end
 
 function var_0_0.CustomOnClick(arg_6_0)

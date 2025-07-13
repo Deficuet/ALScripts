@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>五　空教室的不可思议</size>",
+					"School Day Celebrations\n\n<size=45> V   「Astonishingly Empty Classroom」 </size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "放学后，学院走廊",
+			say = "After school, school hallways",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（收到了放学后的空教室有奇怪动静的报告…）",
+			say = "(I received a report about strange activities in an empty classroom...)",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "滋滋…",
+			say = "~scratch~scratch~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵喵…不可以捣乱……",
+			say = "Meow Meow...stop messing around...",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			},
 			options = {
 				{
-					content = "推开教室的门",
+					content = "Opens the classroom door",
 					flag = 1
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…？指挥…官？",
+			say = "Eh...? C-Commander?",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇…没有捣乱……",
+			say = "Eldridge...is not causing mischief...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是喜欢在没人的教室…待着…",
+			say = "Eldridge likes… this empty classroom... she is staying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是喵喵…经常把书本弄得好乱…指挥官？",
+			say = "But Meow Meow...it’s always a mess with these books...Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			},
 			options = {
 				{
-					content = "帮忙收拾书本",
+					content = "Helps pack these books",
 					flag = 1
 				}
 			}
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢指挥官…喵喵…也要道谢哦",
+			say = "Thank you Commander...Meow Meow...remember to say thanks~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			},
 			options = {
 				{
-					content = "学校有趣吗？",
+					content = "Is school interesting?",
 					flag = 1
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在学校，没有在指挥官身边，有趣…",
+			say = "School, without the Commander, interesting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过学校里，大家都喜欢看埃尔德里奇放电……埃尔德里奇，很高兴！",
+			say = "Everyone at school gets charmed by Eldridge’s cute gaze... Eldridge is shining!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，要和埃尔德里奇…一起听歌吗？",
+			say = "Commander, do you want to listen to music...with Eldridge?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "和埃尔德里奇还有喵喵一起度过了一段治愈的时间……",
+			say = "Spent some healing time together with Eldridge and ...Meow Meow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>六　酒会之前</size>",
+					"Lord of Raging Seas\n\n<size=45>6 Prelude to Party</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "自从和{namecode:480:埃吉尔}在海滩边约会过后，她便开始提早到达指挥室开始工作。",
+			say = "Ever since our beach date, Ägir started coming to my office before work hours every time she got the chance.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然她自称是荒海之神给予的特别关照，但……）",
+			say = "(She calls it a favor for a friend, but...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,41 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一边这样想着，一边来到了指挥室中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（今天{namecode:480:埃吉尔}居然还没来？……嗯？桌上的是？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "桌上有一张被对折起来的卡纸，上面写着我的名字。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "将其打开后看见了里面的内容。",
+			say = "I think about it along the way to my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +71,29 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（北联和铁血的酒会……就在今天下班之后？）",
+			say = "(Is she still not here yet? Hmm... There's something on my desk.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "There's a folded card on the table with my name on it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "As for the contents...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +105,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这算是给我的邀请函么……？一会问问{namecode:480:埃吉尔}好了。）",
+			say = "(A party held by the Northern Parliament and Iron Blood... tonight?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Is this an invitation? I'll have to ask Ägir later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "几分钟后，{namecode:480:埃吉尔}回到了指挥室内。",
+			say = "Before long, Ägir comes back to the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "指挥官，你看见桌上的邀请函了吗？",
+			say = "Commander, have you already read the invitation I left for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我正想问你呢。",
+			say = "I was just about to ask you about that, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是我放在你桌上的，刚刚我不在也是因为去商量酒会的事了。",
+			say = "Yes, I was the one who left it there. I also left the office because I was off making arrangements, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "啊~不过你可以放心，我们的酒会就是简单的开怀畅饮而已，没有那些礼仪的讲究。",
+			say = "But don't worry. There's no dress code. It's a simple, casual get-together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你这段时间的辛劳我也看在眼里。不如来一起好好放松一下吧。",
+			say = "I've seen with my own two eyes how you've been exhausting yourself of late. It's about time you kick back and relax for once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "这是荒海之神的邀约，你没有拒绝的权利。",
+			say = "But let's be serious for a moment. You never had the right to refuse a god such as myself, did you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Alright. I'll avail myself of your kind offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在答应了{namecode:480:埃吉尔}的邀请后，重新和她投入到工作之中。",
+			say = "I accept her invitation, and we resume our work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "忙碌的工作时间开始了。",
+			say = "Thus begins the start of another busy day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "下班之后，{namecode:480:埃吉尔}作为举办酒会的一方，先一步前往了会场。",
+			say = "After the day's work is done, Ägir leaves early in order to prepare for the party. She is the host, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而我答应她会在稍晚一点的时候抵达。",
+			say = "I already told her that I'd catch up with her later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "趁这个时候再去给她挑一下礼物吧……",
+			say = "Finally, a free moment to myself. Time to pick a present and get it for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "来到了商业街，首饰店内的货物琳琅满目，令人目眩。",
+			say = "In the port shopping area, the jewelry shop is chock full of dazzling and eye-catching goods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "一件接着一件，一窗接着一窗——",
+			say = "I scour the entire store, not missing a single display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "突然间，有一条精致的琥珀项链吸引了我的注意力。",
+			say = "Just then, an elaborate amber necklace catches my eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "松脂内部迷人的金色，恰似那对令人留恋的璀璨金瞳。",
+			say = "That charming golden stone encased in resin, the sparkle of it – they remind me of her enchanting eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——就这个了！",
+			say = "That's it. I'm picking this one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

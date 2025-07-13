@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "上次我借的电影碟片在……",
+			say = "Where'd I put that DVD I borrowed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这里哦。",
+			say = "Right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "谢谢你，Honey！chu！",
+			say = "Thanks, honey! Mwah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

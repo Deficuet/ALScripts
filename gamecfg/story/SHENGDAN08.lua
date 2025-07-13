@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>八 Merry Christmas</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 8 - Merry Christmas!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "港区夜晚•指挥室",
+			say = "Port - Commander's Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这么说起来，好像还没跟指挥官说过吧，圣诞快乐~",
+			say = "Heheh, come to think of it, I haven't wished you Merry Christmas yet, have I? Merry Christmas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "埃尔德里奇也圣诞快乐哦~",
+			say = "Eldridge too. Merry Christmas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "圣诞、快乐",
+			say = "Merry... Christmas (again.)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,7 +98,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，真是拍到了不少好照片呀，都是很棒的回忆呢，指挥官你看——",
+			say = "But man, I managed to get some really good pictures! I've got tons of pictures of people enjoying Christmas! Here, look-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈喽~大家的圣诞偶像，圣诞亚哥登场，指挥官~给你带了祝福和歌声来啦~",
+			say = "Hello! Everyone's favorite idol, San Diego, has arrived! I'm here to sing for you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "疑？好、好热闹？",
+			say = "Hawawah! I-I didn't expect there to be so many people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:33}",
 			dir = -1,
-			say = "啊，指挥官这边好多人~大家一起玩~",
+			say = "Comainder's office is packed with people! Let's play a game!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜……胡德姐姐说什么这么可爱一定要让指挥官看看——",
+			say = "Umm... Hood told me to come here because I \"look so adorable\" and \"the commander has to see it\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "疑？大家…怎么都在这？",
+			say = "Huh? Why are... you all here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，大家大概都是看到指挥官还在辛苦工作，想来探望一下指挥官的吧~",
+			say = "Oh, I get it! You all came to say hi to the commander, since he's still in his office working so hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "这里还有一个努力的人没有得到祝福和礼物——嗯？",
+			say = "I'm here to give presents to those who're always working so... Hold on, what?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -242,11 +242,11 @@ return {
 		{
 			actor = 201102,
 			actorShadow = true,
-			actorName = "众人",
+			actorName = "Everybody",
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "啊，是企业",
+			say = "Oh, hey, Enterprise.",
 			subActors = {
 				{
 					actor = 305022,
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是企业，是“圣诞老人”，来，没收到过礼物的好孩子都能拿到一份圣诞礼物哦~",
+			say = "I'm not Enterprise. I'm Santa Claus. Come here, I've still got presents for those who haven't received one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "哇~谢谢……",
+			say = "Woow! Thank you...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "欸？我也有吗？谢、谢谢……",
+			say = "You have one for me too? T-thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 1,
 			actorName = "{namecode:33}",
 			dir = 1,
-			say = "哇！{namecode:33}要糖果~~",
+			say = "I want candy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，一直努力到现在的指挥官的份当然也少不了~接着，圣诞快乐~",
+			say = "Sure. I've got some for the commander too. Merry Christmas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "！！",
+			say = "!!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官圣诞快乐…我的圣诞装……怎么样？",
+			say = "Merry Christmas, Commander... What do you think of my... Christmas costume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "！！！",
+			say = "!!!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "指挥官圣诞快乐~",
+			say = "Merry Christmas, Commander! - Merry Christmas, Comainder!",
 			subActors = {
 				{
 					actor = 305022,
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "姐姐说难得的圣诞装，一定要给指挥官看看……",
+			say = "Fusou nee-sama told me I should really take the chance to show you my Christmas costume...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "！！！！",
+			say = "!!!!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，指挥官现在的表情真是太精彩了，我拍！",
+			say = "Ooh! That's a nice smile, Commander! Gotta take a photo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~既然大家都聚在一起了，那就一起来一张吧~",
+			say = "Looking good! Now, since we're all here, we should totally take a group photo to commemorate this moment!",
 			flashout = {
 				black = false,
 				dur = 0.35,
@@ -507,7 +507,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "3~2~1，茄子~",
+			say = "...Get ready! One, two, three... Say \"cheese\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，非常棒~这张就叫做《爱与和平的圣夜祭》吧！",
+			say = "Heheh, nice! Happy Christmas Eve, everyone!",
 			flashout = {
 				black = false,
 				dur = 0.35,
@@ -554,7 +554,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "那么就让我来给大家唱一首圣诞的祝福吧~",
+			say = "Now before we go, I have a Christmas song for you all!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -573,7 +573,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……！！！等——",
+			say = "Ah...! Wait, don-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=60>啦~~~~~~~~~~~~~~</size>",
+			say = "<size=60>LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

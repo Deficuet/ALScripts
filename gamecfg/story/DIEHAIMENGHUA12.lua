@@ -13,7 +13,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "可恶，到此为止了么…！",
+			say = "Damn it... Is this the best we can do...?!",
 			bgm = "xinnong-4",
 			flashin = {
 				delay = 1,
@@ -40,7 +40,7 @@ return {
 			actor = 306070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、到底是什么……",
+			say = "What the hell is this power...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……抱歉，{namecode:182}大人。",
+			say = "I'm so sorry... Lady Shinano...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "量产型战舰…只需一刀，岸防堡垒…只需一炮。驱逐舰、轻巡洋舰、轻型航母…若被命中了，也只需一炮。",
+			say = "Mass-produced battleships... sundered in but a single slash. Coastal installations, ruined in one shot. Destroyers, light cruisers, light carriers... Nothing could withstand even a single blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			say = "这是完全不能称之为战斗的战斗。但是，脆弱的防线依然在抵抗着。",
+			say = "This could not even be called a battle. Yet, the last, fragile line of defense still clung on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的攻击没造成有效损伤…大前辈，再这么战斗下去要全灭了！",
+			say = "We can't even lay a finger on the enemy... Mikasa, we're going to get annihilated at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚持…再坚持一阵！{namecode:95}，求援电报有回复了么？",
+			say = "Hang on... just a bit longer! Shoukaku, has there been any response to our request for aid?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "支援舰队已经从最近的基地出发了，但是到达天岩岛还需要时间！",
+			say = "The support fleet is on its way, but it'll take some time before they can reach us all the way out here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看这种架势，希望她们带来的增援足够多……还要继续拖延时间啊。",
+			say = "Judging from our current situation, I hope it'll be enough... All we can do is continue to stall for time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，你有什么主意么？",
+			say = "Akagi, do you have any ideas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:91}？",
+			say = "...Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵……很好…就是要这种程度的记录，这种程度的灵魂才行！",
+			say = "*cough*... Now you've done it... I'll have to use this!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽情地战斗吧，然后在毁灭之中起舞吧！",
+			say = "Behold, ye cruel gods... this is the power of my love! I shall bring ruin to everything!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………不要碍事。",
+			say = "...Out of my way.",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -312,7 +312,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "姐姐小心！！",
+			say = "Akagi! Watch out!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

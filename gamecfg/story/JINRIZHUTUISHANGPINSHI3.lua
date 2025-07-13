@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "今天到了差不多的时间，{namecode:98:明石}却没有出现在指挥室。",
+			say = "It's the time of day Akashi usually shows up, yet she's nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "打开电视机也没有看到她的促销直播……难道终于放弃了？",
+			say = "Turning on the TV shows that her livestream isn't on, either. Did our stubborn sales-cat finally give up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,11 +59,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~指挥官是不是想我了喵~？",
+			say = "Heheheh. Starting to miss me, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "想我了的话，就快点来滨海大道吧！{namecode:98:明石}在这里等着你喵~",
+			say = "If you wanna see me, come to Seashore Avenue now, nya! I'm waiting for you here, nya~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}的声音听起来……像是吸了猫薄荷。",
+			say = "Is she high on catnip? Her voice sure sounded like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "稍微有点担心……还是去看看吧。",
+			say = "Now I'm getting worried... I'd better check on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
-			say = "港区·滨海大道",
+			say = "Port - Seashore Avenue",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——一年一度的{namecode:98:明石}大促销正在火热进行中喵！",
+			say = "My biggest sale of the year officially starts... now, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "限定换装大量返场销售，促销活动期间还有超值限定礼包等您挑选喵！",
+			say = "There's so much to choose from, from tons of limited-time skins making a comeback, to bundle deals with unbelievable savings, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早买早享受，多买享折扣喵！",
+			say = "The more you buy, the bigger the discount, nya~ Better buy now, nya~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "不仅如此，只要前来参与促销活动，就算只看不买都能拿到免费礼包福袋喵！",
+			say = "But I'm not done yet, nya! Even if all you do is come and window-shop, you'll get a gift bag ABSOLUTELY FREE, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "机不可失失不再来，走过路过不要错过喵！",
+			say = "These prices are so low that you'd need a greatsword to slash them more, nya! Any lower would be illegal, really, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "一走进滨海大道，就听到了{namecode:98:明石}卖力的推销声。",
+			say = "The moment I set foot on Seashore Avenue, I spot Akashi with a microphone in hand – or paw, who knows? – working hard to lure in customers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "在她的身后，被商品堆满的舞台上，三位被请来充当气氛宣传员的少女正不断变换着帅气的姿势。",
+			say = "She and three other shipgirls are up on a stage packed with products. They strike eye-catching poses and hype the place up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "大海与沙滩，白云与蓝天，还有被港区同伴们围得水泄不通的滨海大道。",
+			say = "Next to the sea and the beach, under white clouds and blue skies, the shipgirls holler and hoot on Seashore Avenue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
-			say = "看来{namecode:98:明石}终于找到了适合自己的宣传方案。",
+			say = "Akashi has finally found the sales strategy that suits her most.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么接下来——",
+			say = "First of all, I want to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,11 +336,11 @@ return {
 			},
 			options = {
 				{
-					content = "前去恭喜{namecode:98:明石}",
+					content = "Congratulations on the gala.",
 					flag = 1
 				},
 				{
-					content = "向{namecode:98:明石}收取场地使用费",
+					content = "Pay up for reserving the venue.",
 					flag = 2
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气不客气，都是托了指挥官的福喵~",
+			say = "I couldn't have done it without you, Commander, nya~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是本日的免费礼包，指挥官请收好喵~",
+			say = "Here's today's free gift bag, nya. I want you to have it, nya~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "然后……来都来了，要不要顺便看看有没有喜欢的、想要买走的商品喵？",
+			say = "Hehehehe... And while you're here, why not check out my wares and buy something you like, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……这种时候都不忘做生意，不愧是你，{namecode:98:明石}！",
+			say = "Giving out freebies one second and telling you to buy something the next... Yep, that's the Akashi I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵喵喵？！指挥官在说什么喵？！场地的使用不是免费的喵？！",
+			say = "NYA?! What are you talking about, nya?! I assumed this place was free for anyone to use, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那个！{namecode:20:不知火}！接下去就交给你了喵！{namecode:98:明石}还有事，先走一步喵！",
+			say = "...Shiranui! Keep the sales coming in, nya! I've got urgent business I need to attend to, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "啊？等等？{namecode:98:明石}你……",
+			say = "What? Wait...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "{namecode:98:明石}把话筒塞进了{namecode:20:不知火}的怀里，一溜烟地跑了——",
+			say = "After dumping her microphone in Shiranui's hands, Akashi scurries away in a flash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

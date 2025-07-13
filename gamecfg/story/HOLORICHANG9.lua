@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>九 重樱观光团</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 9: The Great Castle</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "{namecode:74}大人----看来好像还在睡午觉的样子…",
+			say = "... Lady Nagato appears to still be in the midst of her nap.",
 			bgm = "holo-tokiwa",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "（开门声）",
+			say = "（door opens）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 305051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:158}……？已经到了么，吾还在睡午觉中呢……",
+			say = "Kawakaze... are they already here? I still require my midday respite...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好可爱！",
+			say = "So cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这、这是什么可爱的生物，不，是天使，是天使！",
+			say = "Ahhh~ What is this adorable creature? No, she's an angel! An angel, I tell you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，确实...这一次不得不赞同祭酱的意见了呢......",
+			say = "Yes indeed! For once, I'll admit that I agree with Matsuri!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}…{namecode:74}大人？！",
+			say = "L-Lady Nagato...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 305051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 305051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "―――――！？你们是谁！？",
+			say = "Gah...?! Wh-who are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才弄得乱七八糟的实在对不起，吾作为重樱的神子，在这里向各位道歉了",
+			say = "My sincerest apologies for my reaction earlier. I must offer my apologies as the Priestess of the Sakura Empire.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人请不用在意",
+			say = "Lady Nagato, you don't need to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会不会，不如说，原本以为是大人物，这样一下子感觉亲近了许多呢。",
+			say = "She no longer seems like she's being put on a pedestal. If anything, she's way more approachable this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有种邻居家小妹妹的感觉呢~",
+			say = "She looks just like a cute little girl from the neighborhood~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘶--------",
+			say = "Hnnnggghhhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此。{namecode:79}与{namecode:78}的神乐舞，再加上{namecode:76}和{namecode:77}的演武",
+			say = "I see. You saw Fusou and Yamashiro's Kagura dance, as well as Ise and Hyuuga's war dance.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，{namecode:76}和{namecode:77}居然和你们的绫目直接交手了啊…",
+			say = "Moreover, Ise and Hyuuga even got Miss Ayame over there involved...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，吾果然选错了欢迎的人选",
+			say = "Hmm... I must say that I chose the welcoming committee poorly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系，没关系，我们都看的很开心，请您不要放在心上~",
+			say = "Not at all! Don't worry about it. Thank you for your concern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就好。吾已经让{namecode:71}去准备晚宴了，在那之前，汝等可以在这里自由活动。",
+			say = "... Hiei will be preparing tonight's banquet. Until then, please make yourselves comfortable here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:74}大人不和我们一起玩吗？",
+			say = "Want to play with us, Lady Nagato?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余？余……不知道。",
+			say = "I don't know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:74}妹妹也来和我们一起到处走走么？",
+			say = "You should come play with us, cutie~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹、妹妹？！啊，{namecode:75}，汝从哪里窜出来的……",
+			say = "C-cutie?! ...Mutsu, where'd you come from?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}姐姐，为什么不告诉{namecode:75}大家都来了呢！为什么不让{namecode:75}来做欢迎的准备呢！明明{namecode:75}也在努力准备节目呢！",
+			say = "Nagato, why didn't you tell me that your guests were already here? And why didn't you let me throw a welcoming party for them? I was trying really hard to come up with something too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所、所以说，之前不是已经决定让吾来做欢迎的准备了么！",
+			say = "I, I already told you... I would be handling the welcoming events!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那倒还好。不过{namecode:74}姐姐为什么不和大家一起玩呢？{namecode:74}姐姐光坐着不无聊么？大家都想和{namecode:74}姐姐一起玩哦？",
+			say = "That's fine and good, but, why don't you go play with them right now? Isn't it boring sitting around all day? They want to play with you, so why not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊……如果你都说到这个份上了的话",
+			say = "Nnnnh... F-fine, if you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好啦~",
+			say = "Yaay~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为重樱的神子虽然不能与诸位一同欢闹，不过，就带领各位客人参观城堡吧。{namecode:158}，准备替吾更衣",
+			say = "Because of my duties as the Priestess, I cannot join them in merriment. However, it is within my power to give them a tour of the castle! Kawakaze, prepare me a change of clothes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！",
+			say = "At once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这个叫{namecode:75}的女孩子也是大人物吗？感觉和诗音差不多欸。",
+			say = "... Hmm, does that girl named Mutsu not seem quite precocious? She reminds me of myself.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -649,7 +649,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:75}大人是{namecode:74}大人的妹妹，因为重樱的事务都是由{namecode:74}大人承担，所以{namecode:75}大人相对轻松一些。",
+			say = "Ah, that is Lady Nagato's little sister. As you can see, she assists with preparations for the Sakura Empire's various festivals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且比你要可爱多了。",
+			say = "And she is much cuter than Shion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈？！才没有吧，最少也是一样可爱！而且大概还是诗音更可爱一些！！",
+			say = "What?! Nonsense! She's at most just as cute as I am! And probably not quite as smart as me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是。",
+			say = "Sure, sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……加入舰队后，因为有指挥官的存在，{namecode:74}大人的心情也渐渐好起来了",
+			say = "... With the Commander's support, Lady Nagato's emotions have become calmer and calmer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相比过去，这座城堡的来客也稍微多了一些。不过……这座城堡对于{namecode:74}大人来说还是太空旷了",
+			say = "This castle as well has more visitors than it did in the past. Having that said though, this castle is still a bit too big for her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，在听到你们提想来参观的时候，{namecode:74}大人是真心地期待着你们的到来",
+			say = "That's why Lady Nagato was really looking forward to your visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我知道的！{namecode:74}的要点是反差萌的属性，可不要让这样的孩子感到寂寞哦！",
+			say = "Yeah, we already knew that! Nagato's selling point is her gap moe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			bgName = "star_level_bg_111",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家难得来一次，机会难得，就陪{namecode:74}大人一起玩个痛快吧~",
+			say = "Since we're all here, let's play with Nagato~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "高高的城墙之内，回荡着少女的阵阵笑声",
+			say = "The girls' joyful voices resounded from the building protected by the towering walls of the castle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			bgName = "star_level_bg_111",
 			dir = 1,
 			blackBg = true,
-			say = "――多亏了她们的存在，今天的城堡内，十分热闹",
+			say = "... Thanks to them, the castle was very lively today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

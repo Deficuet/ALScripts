@@ -14,7 +14,7 @@ return {
 			bgm = "hunhe-level",
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "企业，它们来了。",
+			say = "They're here, Enterprise.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "不知何时，一位“不速之客”加入了这场对话中。",
+			say = "An unexpected participant had entered the gathering of shadows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬……？！！",
+			say = "A Siren...?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "突然出现的塞壬让企业条件反射般放出了舰载机，然后子弹穿过幻影消逝在远方的迷雾中。",
+			say = "Before her was an enemy who Enterprise had faced off against many times. Reflexively, she poised herself for battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +97,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "「关键点G」，向你致以审判者大人的问候。",
+			actorName = "Observer",
+			say = "Greetings on behalf of the Magister, Code G.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "「关键点G」…审判者…",
+			say = "Code G... Magister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,8 +131,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "“拉普拉斯妖”应该为全体人类服务，而不是作为战争的工具，造物主大人应该也是如此认为的。",
+			actorName = "Observer",
+			say = "Laplace's Demon should serve the common interest of humanity rather than being used as an instrument of war. The Creator is in accordance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,8 +148,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "所以，我们会提供活动基地。而你们，需要保证这里的研究不会落入不应得到之人手中。",
+			actorName = "Observer",
+			say = "Therefore, we shall provide you a base and supply you with any resources that you need. Make sure that the research you conduct never falls into the wrong hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,8 +165,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "我们也有我们的立场，有些时候无法随意行动。",
+			actorName = "Observer",
+			say = "Know that we too have our orders, and cannot always act of our free will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 		},
 		{
 			actor = 900232,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不要说出名字来。用代号称呼更有神秘感，审判者大人是这么认为的。",
+			say = "However, there should still be room for cooperation despite this.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -212,12 +212,12 @@ return {
 		},
 		{
 			actor = 900232,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "请放心，按照协议，我们会参与营救计划。",
+			say = "...Rest assured, we shall uphold our end of the bargain.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -250,8 +250,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "因为这是造物主大人与审判者大人共同的期望。",
+			actorName = "Observer",
+			say = "After all, this is the will of both the Creator and the Magister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,8 +267,8 @@ return {
 			bgName = "bg_banama_2",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "至此，谈妥了。执行者舰队的配属坐标将在稍后向你们同步，记得在行动中避开。",
+			actorName = "Observer",
+			say = "I have shared the coordinates of the Arbiters with you. Make sure to avoid them at all costs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在与塞壬协商合作…？这些…到底是什么……",
+			say = "Working with the Sirens? What is this sorcery...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "当然，面对企业的提问面前的幻影们依然没有做出任何-------",
+			say = "The shadows once again melted into the fog, none of them responding to Enterprise's question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这些都是，往昔的碎片哦。",
+			say = "Fragment replay, complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

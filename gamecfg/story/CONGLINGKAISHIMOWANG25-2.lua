@@ -33,10 +33,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨炎龙",
+			actorName = "Great Fire Dragon",
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
-			say = "吼————————！",
+			say = "ROOOAAARRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "传说级格斗家",
+			factiontag = "Legendary Fighter",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:6:绫波}",
+			actorName = "Ayanami",
 			hidePaintObj = true,
-			say = "好硬的盔甲……跃动飞踢二连击——！",
+			say = "Its scales are really tough... Dynamic Kick: Two-Hit Combo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,11 +92,11 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
-			actorName = "拉菲",
+			actorName = "Laffey",
 			hidePaintObj = true,
-			say = "拉菲的爆裂魔法，现在还秒不掉它……请继续削弱它。",
+			say = "My explosive magic won't take it out in one hit... You'll have to soften it up more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,11 +110,11 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "传说级战士",
+			factiontag = "Legendary Warrior",
 			dir = 1,
-			actorName = "{namecode:408}",
+			actorName = "Z23",
 			hidePaintObj = true,
-			say = "那就再吃我一击——天崩地裂！",
+			say = "I'll hit it one more time! Gigaaa Crash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,10 +131,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨炎龙",
+			actorName = "Great Fire Dragon",
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
-			say = "吼————————！",
+			say = "ROOOAAARRR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,11 +171,11 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "传说级战士",
+			factiontag = "Legendary Warrior",
 			dir = 1,
-			actorName = "{namecode:408}",
+			actorName = "Z23",
 			hidePaintObj = true,
-			say = "欸，怎么又这样！一到关键时刻就派下级魔物当肉盾，自己飞走回复！",
+			say = "Dammit! It used another monster to block what would've been a crippling hit! Now it's flying away to recover its health!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,11 +189,11 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
-			actorName = "标枪",
+			actorName = "Javelin",
 			hidePaintObj = true,
-			say = "这头巨龙……有着堪比魔王的智慧和战斗力，大家不要轻敌！！",
+			say = "It's got to be just as strong and intelligent as the Demon King herself... Girls, keep your guard up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,52 +207,11 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
-			actorName = "抚顺",
+			actorName = "Fu Shun",
 			hidePaintObj = true,
-			say = "勇者抚顺也来帮忙啦——勇者斩击！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_mmorpg_cg3",
-			factiontag = "药剂师",
-			dir = 1,
-			actorName = "努比亚人",
-			hidePaintObj = true,
-			say = "还有我……嘿嘿……这么热烈的气氛，我也要把珍藏的药剂拿出来使用了呢~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_mmorpg_cg3",
-			factiontag = "药剂师",
-			dir = 1,
-			actorName = "努比亚人",
-			hidePaintObj = true,
-			say = "嗷呜——野性激发！",
+			say = "Lemme help you! Hero's Slaaash!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,10 +227,51 @@ return {
 			}
 		},
 		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_mmorpg_cg3",
+			factiontag = "Potion Maker",
+			dir = 1,
+			actorName = "Nubian",
+			hidePaintObj = true,
+			say = "I'm gonna help, too! I've been saving my best potions for a big battle like this!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_mmorpg_cg3",
+			factiontag = "Potion Maker",
+			dir = 1,
+			actorName = "Nubian",
+			hidePaintObj = true,
+			say = "Here we go! Beast Essence!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "战场的后方，我在通过属性面板监控着战况。",
+			say = "While the battle continues on the frontlines, I monitor the situation using my status screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "小队当前的战斗力完全有能力消灭巨炎龙。",
+			say = "In terms of strength, our party does have what it takes to defeat this great dragon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "但这头狡猾的巨龙总会利用下级魔物干扰战场，制造间隙对自己进行回复。",
+			say = "It won't be so easy, though. Our opponent is clever, using other monsters to throw us off our game while it backs off to recover its health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "战斗陷入了僵局。",
+			say = "The battle has reached a complete stalemate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，也让我去前线对抗巨龙吧。",
+			say = "Commander, you must let me join the fight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,9 +345,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "不行。要是你离开后方，我们的神官会失去保护的。",
+			say = "I can't. You need to stay, or else the clerics will be vulnerable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,12 +355,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是现在战斗明显陷入了僵局，巨龙的魔力庞大，对耗下去我们会先撑不住的。",
+			say = "Yes, but this battle is going nowhere. The Great Fire Dragon has so much mana it'll slowly wear us down if we don't do something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,9 +374,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "嗯，看来那只巨龙也是这么打算的，真是头狡猾的魔物。",
+			say = "It knows exactly what it's doing. This dragon is a clever bastard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,9 +386,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "但是很可惜，它漏算了一点。",
+			say = "Still, our opponent has made a miscalculation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,11 +398,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "圣女贞德",
-			say = "……漏算了一点？",
+			actorName = "Jeanne d'Arc",
+			say = "A... miscalculation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,9 +416,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "也就是——我们还有一个可以加入战斗，打破这种平衡的人。",
+			say = "Yeah. The dragon didn't account for there being one more person who could influence this battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,12 +426,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "圣女贞德",
+			actorName = "Jeanne d'Arc",
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有一个……难道是？！",
+			say = "One more person? Wait, you mean...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			},
 			options = {
 				{
-					content = "对巨炎龙使用投掷技能",
+					content = "(Use your Throwing skill against the dragon.)",
 					flag = 1
 				}
 			}
@@ -451,9 +451,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（从王都的商业区到守望要塞的仓库，再到一路走来的各种宝箱中。）",
+			say = "(I've amassed quite the collection of throwables now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,9 +463,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（我一直在着重收集着威力强大的投掷爆炸物。）",
+			say = "(From the bombs I bought back at the city, to the stuff I picked out from the Sentinel Bastion armory, to even a few treasures I picked up on the way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,9 +475,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（终于——到了使用这些库存的时候了。）",
+			say = "(Now it's finally time to bring my arsenal to bear.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,10 +485,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巨炎龙",
+			actorName = "Great Fire Dragon",
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
-			say = "吼————————？！！",
+			say = "GRAAAGHH?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "突如其来的爆炸物之雨，显然不在巨炎龙的预料之内。",
+			say = "A hail storm of explosive items descends upon the dragon. Anyone can see this is far beyond its predictions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "它慌乱的进行着躲避，错过了自我回复的机会。",
+			say = "In a fit of panic, it dodges out of the way, missing its chance to heal itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "很可惜，战场的平衡一旦被打破，优势的一方就会如洪水一般将另一方吞噬。",
+			say = "And so, the precarious balance in our neck and neck battle tips in our favor. Now we just need to overwhelm them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			say = "又过了几个回合，巨炎龙就彻底倒下了。",
+			say = "Only a few turns later, the Great Fire Dragon has finally been soundly defeated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,13 +582,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级战士",
+			factiontag = "Legendary Warrior",
 			dir = 1,
 			bgm = "ryza-az-theme",
 			actor = 431232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……真是一场出色的战斗，大家都辛苦了。",
+			say = "Phew... Great work, everyone! That was a magnificent battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,12 +619,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级格斗家",
+			factiontag = "Legendary Fighter",
 			dir = 1,
 			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到你居然还隐藏着这样的绝技……真是人不可貌相。",
+			say = "Yes, to think you had such an awesome skill this whole time... Never judge a book by its cover.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,9 +638,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "就算不用亲自加入战斗，也总是需要一些防身手段的。",
+			say = "I knew I had to hold on to at least one skill to defend myself, even if I don't personally fight in battles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,9 +650,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "倒是你们的小队没有提供治疗的神官，以前冒险的时候不会很不方便么？",
+			say = "Oh, I've been wondering – why doesn't your party have a healer? It can't be easy to adventure without one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,11 +662,11 @@ return {
 			actor = 131171,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级魔法师",
+			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲记得……以前也有人问过这个问题。",
+			say = "I feel like someone else asked the same thing once...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,12 +680,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，只要在对方打倒你之前，将对面全部打到就没问题啦~",
+			say = "You don't need a healer if you can defeat all the enemies before they defeat you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,12 +699,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，冒险的途中也不总是只有我们四人哦~",
+			say = "Besides, it's not like our party always consisted of just us four.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,11 +718,11 @@ return {
 			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像今天一样与诸位并肩战斗一样。",
+			say = "We had two healers when we fought today, didn't we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,12 +736,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级勇者",
+			factiontag = "Legendary Hero",
 			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要想打倒魔王，同伴自然是越多越好嘛。",
+			say = "More is always merrier when your goal is to dethrone the Demon King!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,13 +755,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级格斗家",
+			factiontag = "Legendary Fighter",
 			dir = 1,
 			paintingNoise = true,
 			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么这一次，真的是永别了。",
+			say = "It was good to fight by your side, but now it's time to truly say goodbye.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,13 +775,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "传说级格斗家",
+			factiontag = "Legendary Fighter",
 			dir = 1,
 			paintingNoise = true,
 			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们很厉害，一定能打倒魔王的。",
+			say = "You and your party have the power. You'll wreck the Demon King, I know it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,11 +795,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "永别了，传说中的英雄们……",
+			say = "Farewell, legendary heroes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,9 +830,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "呼……龙巢已经攻略完毕，我们可以先休息一下了。",
+			say = "It's sad to see them go. At least now with the dragons out of the way, we can rest for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,11 +842,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，指挥官，你忘了一件重要的事情啊！",
+			say = "Wait! You're forgetting something crucial, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,9 +860,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "重要的事？",
+			say = "Am I? What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,11 +872,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊！现在哪里是休息的时候，我们还有一整座巨龙的宝库要搜刮呢！",
+			say = "The dragon's treasure! We have to loot the den first! No time for breaks!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -14,7 +14,7 @@ return {
 			bgm = "battle-siren-centraltower",
 			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "正前方，齐射！",
+			say = "All guns, straight ahead! Fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "巨炮轰鸣，灼热的废气似乎令海水蒸腾。",
+			say = "Again and again, the sound of cannon fire rang out across the vast ocean. The very surface of the water seemed to be evaporating from their fierce assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "它的装甲撕裂了！攻击有效，只要再来几轮，肯定就——",
+			say = "I've broken through its armor! A few more volleys should do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_5",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "？！",
+			say = "What was that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……从侧翼传来的炮击声？",
+			say = "We're getting flanked?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			actor = 9708010,
 			actorName = "{namecode:515}？",
-			say = "不好了，{namecode:435}姐姐，那些看不清楚的神秘敌人正在向我们发动进攻！",
+			say = "It's the unidentified enemy, Lord Bismarck! We're under attack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 405030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "神秘敌人……什么时候接近到这个距离的？！",
+			say = "Bastard... How'd it get this close to us?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "就算在这个距离也不能看清其轮廓细节……不太妙。",
+			say = "What even is that thing? I still can't tell from this distance–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:434}，新出现的那些就交给你……",
+			say = "Gneisenau! Watch out!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,10 +228,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*警惕地低吼*██▌",
+			say = "Graaaar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？……等等，这个感觉，还有这个强度……",
+			say = "Urgh...! What's with this insane firepower?! How are we supposed to––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全员立刻向我身后移动！革律翁！",
+			say = "No, this won't be our end! Everyone, get behind me!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,10 +288,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "革律翁猛然向前方飞去，咆哮着张开双翼，仿佛要在众人面前形成一道屏障。",
+			say = "Bismarck mounted her rigging and flew forward, turning herself into the wall separating her friends from the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_5",
-			say = "电子仪器发出滋滋杂音，危险正在急速迫近。",
+			say = "Moments before impact, she saw her life flash before her eyes. Even Geryon let out a warning cry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "准备迎接冲击！",
+			say = "We shall fight! Until the last light has faded!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			stopbgm = true,
-			say = "黑色的冲击之下，她们艰难地稳住身体。",
+			say = "Was it an explosion tearing through her body? A blunt force battering her around? Or a massive shockwave trying to turn her inside out? Even Bismarck herself could not tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "众人的身形在冲击中越发模糊，革律翁发出阵阵怒吼。",
+			say = "All she knew was that countless waves of pure malice were crashing into her, threatening to tear her asunder, forming crystalline black deposits on Geryon's wings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "黑色的气息在革律翁的双翼表面逐渐形成黑色的沉积。",
+			say = "Beneath its unrelenting onslaught, even her massive rigging seemed like little more than a dingy rowboat trapped in a hurricane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "在奔涌而来的洪流前，革律翁的屏障就像是湍流中的孤舟——",
+			say = "Yet, she and her friends continued to cling on for dear life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "——但它终究没有倾覆。",
+			say = "Though the boat was tossed around mercilessly by the storm and waves, it never capsized.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "随着冲击的消散，那些沉积以肉眼可见的速度消失了。",
+			say = "As the shock from the initial attack wore off, the deposits on Geryon's wings faded away like dust in the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "呼啸停止，海面重归平静。",
+			say = "The storm died down, and the seas were calm once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgm = "battle-siren-centraltower",
 			actor = 406030,
 			stopbgm = true,
-			say = "呼——哈——",
+			say = "*pant*... *pant*... Phew...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			actor = 406030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还、还以为要死了……",
+			say = "I thought we were all done for...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 401990,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结束了么？！真的结束了么！？！",
+			say = "Is... Is it over? Please tell me it's over!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "赫米忒量产机、塞壬IV型号还有那些未知敌人的反应都消失了……",
+			say = "The Arbiter, the Sirens, and that strange enemy are all just... gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "只有我们幸免于难，革律翁，了不起！",
+			say = "We probably would be too, were it not for Geryon. Good boy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,10 +579,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愉快地轻哼*██▌",
+			say = "RAAAWR♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然也存在重伤撤退的可能性。",
+			say = "Holy crap... Not even an Arbiter's vessel could survive whatever that was...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过考虑到它刚才单纯的战术，应该真的是被消灭了哦！",
+			say = "But considering how dumb its tactics were, maybe that's to be expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,8 +627,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "呼……这样一来米德加尔特之塔的锁定也应该解除了。",
+			actorName = "U-556 META?",
+			say = "You did it, Lord Bismarck! The tower is safe now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,8 +644,8 @@ return {
 			bgName = "bg_bsmre_5",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，我们要离开这里么？",
+			actorName = "U-556 META?",
+			say = "So, what now? Do we use the gate? The red sea will reach the tower if it expands again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "等等，{namecode:435}阁下，继续启动米德加尔特之塔也许会前往仲裁机关的主机位置。",
+			say = "I'd say so. It's not like there's anything else we can do, and it feels like the way forward.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也就是那座倒悬都市的内部么……",
+			say = "And go into the upside-down city, you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "巨大的危险同时意味着巨大的收获——虽然我想这么说，不过实际情况是我们现在别无选择。",
+			say = "It's a risky gamble... Or so I'd say, but we truly don't have any other option.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们前往出发区吧。",
+			say = "Let's go. Back to the tower, everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "{namecode:435}大人，刚刚的冲击……就算是余烬的{namecode:433}也未必能挡住。",
+			say = "(How did she block that attack? Not even one of the Ashes could...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我能确定的只有……现在的您并没有META化。",
+			say = "(No matter how advanced her Zwei rigging is, it cannot possibly be immune to corruption.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			actor = 9704010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "但其他就，完全弄不清了，在您的身上究竟发生了什么……",
+			say = "Bismarck, I must know... What is the Zwei rigging, exactly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我曾去地狱徘徊了一圈，而这就是我从地狱中带回来的力量。",
+			say = "I once fell because I used the Black Cube and tasted the powers of \"META.\" Zwei is the power that goes beyond my past limitations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——能够扫清一切阻碍，带领铁血前进的力量。",
+			say = "It is the power that will lead Iron Blood forwards.",
 			painting = {
 				alpha = 0.3,
 				time = 1

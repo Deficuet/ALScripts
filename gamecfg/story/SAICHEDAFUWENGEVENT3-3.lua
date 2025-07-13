@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "参加赛前暖场表演好评如潮，获得了奖励【心智单元*150】"
+			say = "Rumors of you trying to sneak into the cheerleaders' performance have started trending! You received 150 Cognitive Chips!"
 		}
 	}
 }

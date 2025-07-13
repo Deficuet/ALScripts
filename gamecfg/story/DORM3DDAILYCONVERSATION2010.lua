@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近从港区的图书馆借了一本侦探小说，内容很有趣。",
+			say = "I borrowed a detective novel from the port's library. It's pretty interesting stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？看你的表情，是已经读过了吗？这样啊……",
+			say = "Hm? Judging by that look... have you already read it? I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我记得最后的凶手是……",
+					content = "I'm pretty sure the final murderer was...",
 					flag = 1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是凶手最好的朋友对吧？",
+			say = "The detective's best friend – correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "看你的反应，我推理对了……？",
+			say = "Your expression tells me my inference was right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呵呵~{dorm3d}的剧透作战失败了呢。",
+			say = "Heehee. I'm afraid your attempt to spoil me failed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

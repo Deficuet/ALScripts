@@ -15,7 +15,7 @@ return {
 			bgm = "map-longgong",
 			actor = 302070,
 			nameColor = "#a9f548",
-			say = "这里的景色真漂亮……就像真的进入了浦岛太郎故事中的龙宫城一样。",
+			say = "You know, this place really does look just like the Dragon Palace from our legends...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，就算在重樱本岛也没有这么精美又规模庞大的浮岛建筑群。",
+			say = "That's true. There's no place like this on the Sakura Empire's maps though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是{namecode:84}大人见到了这座龙宫城，一定会很喜欢吧。",
+			say = "I can't really see Akagi or Nagato doing something like this though. The Yamatos though... It might be more down their alley.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……感觉确实会是{namecode:84}大人会喜欢的类型。",
+			say = "I'd agree with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……在浦岛太郎故事里，龙宫城中是没有这些机关的。",
+			say = "...But, there is one more thing I'm worried about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "由机关生成的怒涛和狂风……",
+			say = "They never said anything about the fairytale castle having weird traps and the like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你有联想到什么么？",
+			say = "In other words...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……感觉好像想到了什么，但是又好像没有……",
+			say = "All of this somehow feels like a defense system, but maybe not quite...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "情报量不足么……得收集些更多的信息才行。",
+			say = "We still don't have enough information, I suppose. Considering how we only just jumped in, we don't have much to work with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？说来就来~侦察机好像发现了些有意思的敌人啊~",
+			say = "But first, it seems like we've got company... Everyone, be careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "大家注意，前方阻拦我们行动的机关终于出现了！",
+			say = "Now then, let's get through this little puzzle~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

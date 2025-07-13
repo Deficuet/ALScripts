@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "holo-control",
 			dir = 1,
-			say = "这边……我记得是吹雪的白上神社吧？……啊，有了有了，在那边！",
+			say = "Hmm, isn't this Shirakami Shrine, a.k.a. Fubuki's place? Ah, there she is! I see her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			actor = 10500030,
 			dir = 1,
-			say = "空前辈！",
+			say = "Sora, over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 1,
 			actor = 900210,
 			dir = 1,
-			say = "咦，阿库娅？这边的也是阿库娅，那边的也是阿库娅……这是怎么回事？",
+			say = "Huh? Aqua? But you're over here, and over there... why are there multiple Aquas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当心，那边的女仆是塞壬的人！",
+			say = "Sora, look out! That maid is an imposter created by the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边那个是假的，空前辈，我才是真货啦！！！！",
+			say = "Nuh-uh, she's the imposter! Look, Sora, I'm the real one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 900210,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸欸欸？",
+			say = "Wh-whaaat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬这么快就制造出了你的镜像了么……",
+			say = "The Sirens have already made a copy of Aqua?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			actor = 10500030,
 			dir = 1,
-			say = "镜像？",
+			say = "A... copy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "解释起来很麻烦，而且我也根本不懂…不过镜面海域名称的来源，就是因为进入海域的人会遇到自己相似的复制品，就像镜子一样。",
+			say = "The Sirens can make clones out of anyone that enters waters they control, like a mirror reflection of them. That's why they're called Mirror Seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，不论外表如何相似，终究是塞壬制造出的假货，一般见到直接消灭掉就好了。",
+			say = "But the clones only LOOK like someone else, and still follow the Sirens' orders. Just knock 'em down like bowling pins!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有点奇怪，那边那个女仆，好像和通常的“棋子”不太一样",
+			say = "Zuikaku, there's more to it! That Aqua clone is different!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？",
+			say = "What...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,9 +215,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "湊阿库娅（？）",
+			actorName = "Yamada Hermione",
 			dir = 1,
-			say = "呼呼呼~我的名字叫山田·赫敏，受主人时间与空间的支配者的命令，在此迎接各位的到来。",
+			say = "Hahahah... My name is Yamada Hermione. I have awaited your arrival, as per orders of my master, the ruler of time and space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间与空间的支配者…是在说谁？",
+			say = "\"Ruler of time and space\"? What the heck?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这片海域怎么净是些乱七八糟的塞壬啊……！",
+			say = "Who's that? Is it the Siren that messed this place up?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,8 +263,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500030,
 			dir = 1,
-			actorName = "山田·赫敏",
-			say = "呵呵，是在说谁呢~诸位已经没有知道这个的必要了",
+			actorName = "Yamada Hermione",
+			say = "Perhaps, perhaps not... Ahahah, you need not know who it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,8 +280,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500030,
 			dir = 1,
-			actorName = "山田·赫敏",
-			say = "我，山田·赫敏，将会遵照主人的命令，在此将你们尽数消灭！",
+			actorName = "Yamada Hermione",
+			say = "Now remain still as I do as my master instructed and end your lives.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 0,
 			actor = 900210,
 			dir = -1,
-			say = "欸，阿库娅，不可以这样！",
+			say = "Stop it, Aqua!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,9 +311,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "山田·赫敏",
+			actorName = "Yamada Hermione",
 			dir = 1,
-			say = "请不要阻止我，空前辈，消灭这些人是我的职责。",
+			say = "Please do not interfere, Miss Sora. It is my duty to kill these people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900210,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "阿库娅才不会说这种话！",
+			say = "Aqua would never say something crazy like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,9 +353,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "山田·赫敏",
+			actorName = "Yamada Hermione",
 			dir = 1,
-			say = "……她，不，我不会吗？",
+			say = "Would she not...? You're mistaken, because...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,8 +371,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			actorName = "山田·赫敏",
-			say = "不，我会的！因为，我也是湊阿库娅。",
+			actorName = "Yamada Hermione",
+			say = "I'm Aqua, too!!!",
 			effects = {
 				{
 					active = true,
@@ -403,7 +403,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "战意高涨啊对面……喂，阿库娅，如果你下不去手，就站在旁边看着吧，这不怪你。",
+			say = "... This is why the Sirens' pawns are such a pain. Aqua, if you can't fight someone who looks just like you, I can take care of her.",
 			effects = {
 				{
 					active = false,
@@ -425,7 +425,7 @@ return {
 			side = 0,
 			actor = 10500030,
 			dir = 1,
-			say = "山田·赫敏…可恶的塞壬，不要小看了经过地狱游戏生存下来的战斗女仆啊！",
+			say = "\"Yamada Hermione\"?! You cheeky Siren bastard! I'm a battle-hardened combat maid who's played through more hardcore games than you can even imagine! Don't you dare make fun of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家不必顾虑，敌人就是敌人，尽情地开火吧！",
+			say = "You're going DOWN! Let's beat the everliving crap out of this literal nobody!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

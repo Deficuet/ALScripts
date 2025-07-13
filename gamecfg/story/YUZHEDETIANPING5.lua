@@ -13,15 +13,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"撒丁帝国",
+					"Reality",
 					1
 				},
 				{
-					"博览会主会场·大剧场附近",
+					"Sardegna Empire - World Expo Venue",
 					2
 				},
 				{
-					"闭幕式当日",
+					"Closing Day",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			bgm = "story-roma-outside",
-			say = "行走在风和日丽的会场中，四周彩旗飘扬。",
+			say = "Colorful flags flutter in the breeze as I walked through the venue on this pleasant day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "还没有接近大剧院，就听到了乐队奏响的欢快乐曲。",
+			say = "I can hear the uplifting fanfare of a band as I approach the Colosseum's entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "哇哦……这就是博览会，我还是第一次来呢。",
+			say = "You can really see why they call it the World Expo...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "前几天来的时候还有些冷清，没想到到了闭幕式当日会变得这么热闹啊！",
+			say = "Things were pretty quiet the last few days, so it totally slipped my mind how massive this event is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "连我也不自觉兴奋起来了！",
+			say = "Even I feel like I'm about to get swept away by the excitement.",
 			action = {
 				{
 					type = "shake",
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……难得见到孟菲斯会这么激动。",
+			say = "Heehee. I rarely get to see you this bubbly, Memphis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "会场的气氛这么热烈，就算是我也会受影响的嘛。",
+			say = "I mean, all of our friends are here having fun. How could I not get into the festive mood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,14 +163,14 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "………………",
+			say = "Familiar sights, familiar conversations. But, with one key difference–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "时间，回溯了？",
+					content = "This is no dream.",
 					flag = 1
 				}
 			}
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？指挥官，你的脸色好差……有哪里不舒服么？！",
+			say = "...Hm? Commander, you don't look too good. Are you feeling sick?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……你还好么。",
+			say = "Commander? Are you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "现在确实……感觉不太对。",
+			say = "\"Physically, I'm fine. But I have to do something about what I saw in that dream.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "孟菲斯，你接下来是不是打算趁着闭幕式还没开始去抢购纪念品？",
+			say = "\"Memphis, you wanted to shop for souvenirs before the closing ceremony?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……对，您是怎么知道的？",
+			say = "...Yeah. How did you know?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "其实，我们所有人都已经经历过一次闭幕式了。",
+			say = "Normally, people would think you're crazy if you tried to tell them that you saw something in a dream and needed to prevent it in real life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "虽然不知道……为什么会发生这种事。",
+			say = "Given the situation, though, I had no choice but to give them a quick and dirty explanation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官您在说什么……我有点不太明白。",
+			say = "Okay, I'm lost. Commander, what are you going on about?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……我这就联络场馆派医疗团队来。",
+			say = "You really do look sick... I'll call for a medic right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "……看来，孟菲斯和海伦娜都不记得之前经历过的事了。",
+			say = "They're used to supporting me, so it's going to be hard to convince them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,14 +322,14 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "尝试联络{namecode:182}，不过通讯器怎么都无法接通。",
+			say = "In that case, I'll have to bring a witness to the stand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "做出决定",
+					content = "\"Let's go talk to Shinano.\"",
 					flag = 1
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "海伦娜，孟菲斯，计划改变，我们立刻去重樱馆。",
+			say = "I informed them of the change of plans and devised the quickest route to the Sakura Empire pavilion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "同时联系埃塞克斯，让众人做好战斗准备。",
+			say = "Meanwhile, I called Essex and directed her to prepare the Eagle Union fleet for battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咦……？去重樱馆？还有进行战斗准备……？",
+			say = "C-Commander, what's gotten into you?! We can go to the Sakura Empire pavilion, but why are we preparing for battle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官您是，察觉到什么了么…？",
+			say = "Were you... serious about that stuff you told us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "嗯，重大危机正在发生。",
+			say = "\"Of course I was.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "重大危机……明白了，我立刻规划路线。",
+			say = "...I trust you. If danger is coming, then I'll help out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "与海伦娜和孟菲斯一同穿越人流，向重樱馆前进着——",
+			say = "I led Memphis and Helena through the crowd and toward the Sakura Empire pavilion—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "真是的，下次不要乱跑了哦",
+			say = "Argh! You'd better not run off on your own anymore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "非常抱歉，{namecode:175}阁下，没想到会在会场里迷路……",
+			say = "I'm sorry, Suruga! I didn't think I'd get lost here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "啊哈哈……今天是闭幕式召开的时候，人流和前几日不可同日而语啊。",
+			say = "Things do get pretty crowded on closing day. I wouldn't blame her too much for getting lost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，就由我带领二位前往重樱贵宾区吧。",
+			say = "Now, how about I show you two to the Sakura Empire pavilion's VIP area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "有我阿尔弗雷多带路，这次肯定会顺利抵达的~！",
+			say = "I cultivated knowledge of this place through my reporting, so I'll get you there in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "那就麻烦您了，阿尔弗雷多阁下。",
+			say = "*sigh*... I'm sorry for taking up your time, Alfredo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哎嘿嘿……那就麻烦您了，阿尔弗雷多阁下！",
+			say = "Ahahaha... Thanks for your help, friend!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "不远处，似乎是撒丁帝国的会场执勤人员帮忙找到了重樱走失的人。",
+			say = "\"Sardegnian staff are showing the Sakura Empire shipgirls around.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "嗯……重樱的人。向她们询问的话，应该能找到{namecode:182}的位置。",
+			say = "\"Shinano is likely to be in the VIP area. Let's follow them.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咦？您是打算直接上前去问么？",
+			say = "That's fine, but do we have to be all secretive about this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那可是赤色中轴的人……弄不好的话也许会变成外交事故哦！？",
+			say = "They might be with the Crimson Axis, but I'm sure they'll let you see her if you just ask.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "没关系。等找到{namecode:182}之后，重樱就会站在我们这边。",
+			say = "\"I have my reasons. There's no time to explain right now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咦？！您跟{namecode:182}应该一次面都没见过吧……？",
+			say = "I dunno about this... She won't think we're weird?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "不……指挥官和{namecode:182}……不是第一次见。",
+			say = "Don't worry, Memphis. The Commander and Shinano have met in dreams.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			say = "嗯，以前和她在“梦里”见过。",
+			say = "Helena was there during the Archerfish incident, so she backed me up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "原、原来如此……？",
+			say = "I-I see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我们————",
+			say = "Then let's go—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "指挥官，危险————！",
+			say = "Commander, watch out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
-			say = "袭击的发生毫无征兆。",
+			say = "It happened without warning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
-			say = "巨大的机甲从天而降，击碎了场馆，也击碎了会场中的欢乐与和平。",
+			say = "An enormous machine fell from the sky, obliterating the building in front of us with its pure mass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,9 +823,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			nameColor = "#A9F548FF",
-			say = "…………这，到底是什么东西？",
+			say = "Wh-what is that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,9 +841,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "海伦娜，立刻确认撤离路线！",
+			say = "Helena, secure an evacuation route right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,9 +859,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "海伦娜",
+			actorName = "Helena",
 			nameColor = "#A9F548FF",
-			say = "是……！",
+			say = "Right...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,9 +877,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "指挥官，您还好么！",
+			say = "Commander, are you okay?! Stay with us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
-			say = "只是吸入了些烟尘，没有受伤。",
+			say = "\"I inhaled some smoke from the building collapse, but I'm just fine.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,9 +906,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "太好了……",
+			say = "Phew...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,9 +924,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "呼叫所有执勤中成员，黑色代号，黑色代号，需要立即转移重要目标——",
+			say = "This is a message to all shipgirls on duty! Code Black! Secure the safety of important personnel!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,9 +942,9 @@ return {
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
-			say = "重复一遍，黑色代号——",
+			say = "Repeating! Code Black!",
 			painting = {
 				alpha = 0.3,
 				time = 1

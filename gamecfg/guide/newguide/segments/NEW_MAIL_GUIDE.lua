@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "邮件数量已达邮箱上限，将无法收到新邮件，请指挥官前往邮箱处进行清理！",
+				text = "Your mailbox is full and you cannot receive new mail. Please manage your mailbox.",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -20,7 +20,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处可对所有邮件进行批量管理！",
+				text = "Tap here to batch manage your mail!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -36,7 +36,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "通过筛选，可以快速选中仅包含以下类型资源的邮件！",
+				text = "You can narrow down your search to display mail only containing particular items!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -60,7 +60,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "要注意，如果不选中具体资源类型的话，是无法选中任何邮件的哦！现在来点击物资试试吧~",
+				text = "You need to select at least one item to narrow down your search. To start off with, tap Coins!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -84,7 +84,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "然后再点击勾选石油，这样就能选中所有仅包含物资和石油的邮件了！",
+				text = "Now tap Oil! This will select mail that contain both Coins and Oil and nothing else.",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -108,7 +108,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "以下按钮可对选中邮件进行批量操作\n<color=#FF5C5C>领取后，附件中的物资与石油会进入储藏室中。而一键删除仅会删除已领取附件的邮件哦！</color>\n<size=24>点击任意处继续</size>",
+				text = "Tap the buttons below to batch manage your mail. Batch Claim claims all the attached items. All Oil and Coins will be sent to your Storage! Batch Delete, meanwhile, gets rid of all the mail whose items you've already claimed!\nTap anywhere to continue",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -126,7 +126,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击后，将会出现信息统计界面，不会直接进行领取哦！来点击看看吧~",
+				text = "Tapping this will show you info on the selected mail first. Don't worry, you won't claim the items immediately. Give it a try!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -142,7 +142,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在这里可以确认即将领取的附件列表，以及包含这些附件的邮件信息！\n点击关闭返回邮箱界面开始清理吧！",
+				text = "Here you can see all the attached items and mail details.\nTap to close the tutorial and start managing your mail!",
 				mode = 1,
 				dir = 1,
 				char = "char",

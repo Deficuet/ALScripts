@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>六  履行赌约之时</size>",
+					"Me and the Boise\n\n<size=45>6.As Promised</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 102030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "作为外交官，我会监督{namecode:197}履行条约的。",
+			say = "Now then, I'll be the moderator to make sure Boise keeps her promise.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真严格……我知道啦。如果指挥官能过几天再说就好了……",
+			say = "We almost made it all the way to the end too... I guess you're really taking this seriously, St. Louis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实，不论输还是赢，最后我都打算让你去做相同的事情哦~",
+			say = "The outcome would've been the same even if you had won. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……相同的事情，原来你当时说的礼物是这个意思啊……",
+			say = "The same...? Does that mean you're going to tell me what Commander likes...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:197}，就当是在尝试一件新鲜的事情！勇敢一点吧！",
+			say = "Boise, I just thought up another challenge for you! You down?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "菲尼克斯……为什么连你都……",
+			say = "Brooklyn, not you too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "路易斯，对于{namecode:197}来说难度会不会有点太高了……",
+			say = "Isn't this getup way too embarrassing...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "愿赌服输哦~还是说你也想尝试一下？",
+			say = "Oh my, Honolulu, did you also want to try it on that badly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……尝试什么？！我可不打算和你打赌哦！",
+			say = "N-not a chance in hell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "路易斯，现在还没到摘面具的时间……我可以先戴着吗？",
+			say = "Do I have to take my mask off right now...? It's not time to meet with Commander yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在条约上没有事先约定的细节部分，可以由缔约双方通过协商解决。",
+			say = "Uh, there wasn't any agreement on that, but what do you think, St. Louis?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102050,
-			say = "我觉得还是别太难为{namecode:197}了……",
+			say = "Don't bully Boise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…在姐妹们的面前摘掉面具应该也没什么关系吧~？",
+			say = "You can't even take it off in front of your own sisters?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "这、这不是有其他人在嘛……！",
+			say = "Th-there are other people around too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "反正都是要摘的，难道说{namecode:197}只想给指挥官看吗~？！",
+			say = "I get it, I get it. You just want Commander to be the only person who sees your face~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "那、那好吧……",
+			say = "Uuu...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "已经没有更多借口的{namecode:197}，在众人的催促下缓缓将双手移到了面罩之上……",
+			say = "And thus, Boise set out to make good on her promise with St. Louis–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

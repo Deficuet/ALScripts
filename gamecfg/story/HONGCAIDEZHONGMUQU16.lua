@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "就如{namecode:440}所说，公海舰队的适应并没有花费太长时间。",
+			say = "The group's search for leads on the Siren superweapon had been fruitless. Worse yet, the gate to the Singularity would not last much longer.",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前言收回，现在的公海舰队确实是一支可堪一用的舰队。",
+			say = "Time is running out. How much longer until it closes, Zuikaku?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我就知道她们能做到的！",
+			say = "Don't worry, we have enough time. Though we should start getting ready to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "{namecode:441}，我们结束了哦~",
+			say = "Hey, Friedrich. We're done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "复仇的感觉怎么样？",
+			say = "There you are. I take it the fighting was rejuvenating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉十分愉快，也十分甜蜜————",
+			say = "You bet. It was a great, fun workout!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "虽然我想这么说……但其实并不是这种感觉。",
+			say = "Until a point, anyway. Then it stopped being gratifying altogether.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "之前的我们在它们面前不值一提，现在的它们在我们面前不值一提。",
+			say = "When victory comes too easily, fighting just becomes a chore, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404040,
-			say = "轻松战胜它们之后反而令我们之前的失败变得有些可笑了……",
+			say = "Kind of feels like I'm making light of warship-me's efforts, too. \"Look how easily I can beat these Sirens that annihilated you!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无须这么想。当时的你们做得很好，现在亦然。",
+			say = "Don't feel that way. That other you did the best she could, just as you're doing now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "用未来的标准衡量过去是不公平的，也是无意义的。",
+			say = "It's pointless to measure the past by the standards of the present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "想要感受更强大的敌人么？祖国现在正面对的，真正强大的敌人。",
+			say = "Now... Do you feel ready to tackle a stronger adversary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "那是自然！我们在毁灭之时从未想过能有继续为祖国服务的一天。",
+			say = "Affirmative! Fighting in the name of humanity and the Iron Blood is my mission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404030,
-			say = "让我们再次加入铁血，再次在铁血的旗帜下战斗吧！",
+			say = "Please, formally reintegrate us into the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,8 +275,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "不，铁血从未忘记过你们的存在，你们也从未真正离开我们。",
+			actorName = "Friedrich der Große",
+			say = "There is no need to reintegrate you, because the Iron Blood never left you behind. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,8 +292,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "既然从未离开，又何谈再次加入呢。",
+			actorName = "Friedrich der Große",
+			say = "You've always been with us, my children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:448}",
-			say = "呵呵……真没想到，临终之时无法返回的故土，如今却以这种形式自己找上门来了。",
+			actorName = "Emden",
+			say = "\"How terribly sentimental for someone who is evidently manipulative.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,8 +326,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:448}",
-			say = "那就下达命令吧，接下来要让我们做什么？",
+			actorName = "Emden",
+			say = "For the record, we are not your children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,8 +343,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "很简单，再次与我踏入战场。战斗，然后取得胜利。",
+			actorName = "Friedrich der Große",
+			say = "Then I won't call you that. All I wish to say is that anyone willing to fight for Iron Blood is family to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,8 +360,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:91}",
-			say = "{namecode:440}，这才是你真正的计划么！从这里创造新的舰队，然后带着她们出去以奇制胜？！",
+			actorName = "Akagi",
+			say = "...This was your goal all along, wasn't it, Friedrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +377,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "不然呢，你以为我是一个人来死地坐以待毙的么？",
+			actorName = "Friedrich der Große",
+			say = "Not quite. It wasn't my sole goal, simply one of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,8 +394,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "公海舰队将会再次驰骋在大洋之上。",
+			actorName = "Friedrich der Große",
+			say = "These girls will serve the Iron Blood well, but they are only the prelude for the greater things to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,8 +411,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "不论现在过去还是未来，铁血的同伴之间永远都被共同的命运所绑定。",
+			actorName = "Friedrich der Große",
+			say = "You've been with me on this journey. You've seen the same things I have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,8 +428,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "铁血前进的步伐不会被任何人阻挡，任何挡在铁血前方的存在也都将被粉碎。",
+			actorName = "Friedrich der Große",
+			say = "Naval HQ's falsehoods. The truth we learned in this place. The infinite potential of Wisdom Cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,8 +445,8 @@ return {
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:440}",
-			say = "战友们，让我们一同向着未来进发吧",
+			actorName = "Friedrich der Große",
+			say = "The finale is yet to come, Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,13 +458,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:440}",
+			actorName = "Friedrich der Große",
 			bgName = "bg_endingsong_9",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "前往那突破束缚的，无人所知的，不受操控的未来——",
+			say = "And I promise, it will not disappoint you, or Her Majesty, or the people outside the Singularity... or my child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

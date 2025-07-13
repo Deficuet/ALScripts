@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_1",
 			stopbgm = true,
-			say = "遗迹群岛·异界之森 一段时间后",
+			say = "Mirror Sea Ruins - Underworld Grove",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这片森林好阴森啊……到处都是破败与危险的感觉。",
+			say = "Whoooa, no, this forest is too scary for me. I can practically smell the danger and desolation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "这里真的曾经是赛莉小姐和莉拉小姐的故乡么？",
+			say = "Miss Serri and Miss Lila, did you seriously live in a place like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "虽然听你们这么说了，但还是有点难以想象如何生活在这种地方……",
+			say = "You said it yourselves, and I still can't imagine it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……确实这里和故乡很像。",
+			say = "This place does remind me of home.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "其实，莉拉小姐和赛莉小姐的故乡——欧兰族的故乡，也就是我们称之为异界的地方，在遥远的过去可是一片山清水秀风景如画的地方。",
+			say = "Basically, Lila and Serri are Oren people. Their home is the Underworld. It used to be such a beautiful place overflowing with greenery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "但是在很久很久以前，一些很坏的炼金术士找到了前往异界的方法，然后开始掠夺异界贵重的资源。",
+			say = "But long ago, some bad alchemists found out how to go to the Underworld and started stealing away all of its precious resources.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "这样无休止掠夺资源的行为最后引来了名叫菲尔弗萨的魔物，在它们的侵略之下，异界最终荒废了。",
+			say = "After they stole everything, these monsters called Philuscha started attacking the Underworld. They sucked up all of the land's power and turned it into a wasteland.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "将别人的家园破坏成这个样子，真是太坏了！！",
+			say = "They ruined people's homes... That's downright evil!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "被炼金术士毁灭了……？欸，这样的话欧兰族应该相当恨炼金术士吧，那莱莎小姐……",
+			say = "If alchemists destroyed their homeland... The Oren people must really hate alchemists because of that. D-do they hate you, too, Ryza?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道你想说什么。人有好有坏，炼金术士也一样。技术，终究取决于使用的人。",
+			say = "It's no surprise that you would think so. But just as there are good people and bad, one cannot call all alchemists evil. In the end, technology is but a tool; what matters is the wielder.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -231,7 +231,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……莱莎和那些人不一样，是一个好人。帮助过我们，也愿意用炼金术去做正确的事。",
+			say = "...Ryza isn't like them. She helped us in our time of need. She uses alchemy the way it was meant to be.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -249,7 +249,7 @@ return {
 			actor = 10900050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此，我愿意相信她。",
+			say = "That is why Ryza has my full trust.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "简直就像冒险故事的主人公一样……好厉害啊，莱莎小姐！",
+			say = "Wow, Ryza, you're too cool! You sound like the main character of a grand adventure story!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "哎嘿嘿……我不过是把炼金术用在我觉得好的地方啦。",
+			say = "Hehe... All I'm doing is using alchemy where it feels right, y'know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -353,7 +353,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……发生什么事了？！",
+			say = "Ack! What was that?!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "小心，有敌人在接近。",
+			say = "Watch yourselves! Enemies are approaching fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是和之前那些像菲尔弗萨一样的名为量产型的军舰敌人么？",
+			say = "Enemies? Do you mean the Philuscha-like mass-produced ships from before?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -415,7 +415,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不仅如此……除了它们，还有新的敌人出现了！准备战斗！",
+			say = "Yes! There are new ones among them, too. Everyone, prepare for battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1

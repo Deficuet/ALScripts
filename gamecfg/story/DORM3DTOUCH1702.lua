@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}的温度……让天狼星感觉很幸福……",
+			say = "Receiving your kindness makes me so happy.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_gift1_tone1",
 			typewriter = {
 				speed = 0.05,

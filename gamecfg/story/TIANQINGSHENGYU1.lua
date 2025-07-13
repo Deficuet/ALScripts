@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "清晨，我从睡梦中醒来，身体仍残留着工作后的疲惫。",
+			say = "I wake up to the first rays of dawn, my body still weary from work.",
 			bgm = "theme-yixian-soft-loop",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "睁开眼的瞬间，却发现屋内已经被收拾得井井有条，昨夜随手放在床头的文件也被收拾归类。",
+			say = "The moment I open my eyes, I notice that my room has been tidied up. The documents I left strewn across my nightstand are now neatly sorted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "完成这一伟大家务的少女，在冰箱的便签贴上留下了温柔的邀请。",
+			say = "And on a sticky note left on the fridge by the girl who accomplished this monumental task was a polite invitation:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_175",
-			say = "“诚邀指挥官光临新茶室，与我一起赏器品茶，共度宁静时光~”",
+			say = "\"Commander, I would love for you to come visit my new teahouse. Let's spend a moment of peace and quiet together, and enjoy a cup of tea~\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			withoutActorName = true,
-			say = "于是，我按照邀请者的提示，造访了这处陌生的茶室。",
+			say = "So, I take up the invitation and arrive at the teahouse.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "扑面而来的茶香让睡意一扫而空，正坐在茶案前浅酌新茶的长风展露了柔和的笑颜。",
+			say = "A warm fragrance of tea fills the air, sweeping away what remains of my sleepiness. I see Chang Feng sitting before a tea table, sipping freshly-brewed tea. She smiles gently at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，指挥官，你来了~",
+			say = "Oh, Commander. I'm glad you decided to come~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "早上看你还在休息，就想着提前帮你收拾一下房间~",
+			say = "You were sleeping so soundly this morning that I took the liberty of tidying up your room first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "希望干净的环境能让你开启一天的好心情~",
+			say = "Isn't it always better to start the day in a fresh and cozy environment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "好啦，别站着聊天了，指挥官快来我身边坐下吧~",
+			say = "But more importantly, why don't you come sit next to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "为了和指挥官分享这美好的初次体验，我还特地换上了这身应景的新衣裳呢，希望你会喜欢~",
+			say = "To share this wonderful new experience together, Commander, I've even changed into a new outfit to suit the occasion. I hope it's to your liking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "长风笑盈盈地拍了拍身旁的位置，我顺势坐下，一边欣赏着室内的布置。",
+			say = "Chang Feng invitingly pats the seat next to her. I sit down and am immediately captivated by the elegant decor of the teahouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actorName = "{playername}",
 			actor = 501082,
 			nameColor = "#A9F548FF",
-			say = "衣服很好看，茶室的布置也格外雅致。",
+			say = "You look really good, and so fitting for such an elegant place.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			actorName = "{playername}",
 			actor = 501082,
 			nameColor = "#A9F548FF",
-			say = "都是特地为今天准备的？",
+			say = "Was this place decorated with a special occasion in mind as well?",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "嗯，果然被指挥官猜中了~",
+			say = "Heehee. Nothing escapes you, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "因为今天有重要的事情哦——就像我刚刚说的那样，是“美好的初体验”~",
+			say = "Indeed, today is a very important day – which is why I said, I want to \"share this wonderful new experience\" with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 501082,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说话间，长风小心地捧起掌心的茶器，送到我的面前。",
+			say = "As she speaks, Chang Feng carefully offers a teacup, holding it gently in her palms, and places it before me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这是我新得的一套汝瓷茶器……釉色天青，温润如玉，是汝瓷中的上品。",
+			say = "I recently obtained this Ru-ware tea set. The ceramics are sky-blue in color, with a smoothness reminiscent of jade. They are masterpieces among the works of the renowned Ru kilns in the Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这间茶室，就是特地为了欣赏它而收拾出来的。",
+			say = "This room was decorated specifically to enhance one's appreciation of this tea set.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "只有这样明亮清透的阳光，才能完全展现出汝瓷的光泽感。",
+			say = "Only such clear and pristine sunlight can fully bring out the luster of Ru ware.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,18 +296,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			recallOption = true,
-			say = "指挥官，你觉得如何？",
+			say = "What do you think of it, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确实漂亮，这是怎么得来的？",
+					content = "It certainly is beautiful.",
 					flag = 1
 				},
 				{
-					content = "汝瓷的材质，看起来很特别。",
+					content = "I don't think I've seen any material like this before.",
 					flag = 2
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "酒香不怕巷子深，好东西可是藏不住的哦~",
+			say = "Just as we say that good wine fears not being hidden, the value of exceptional ware is self-evident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "这孩子的美，和它背后的故事，我都很喜欢呢。",
+			say = "But, these pieces are not only beautiful. There's also a wonderful meaning behind them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "像汝瓷这样的天青色，最难寻觅。",
+			say = "Did you know that this sky-blue color is the rarest kind of all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "古人形容它是“雨过天晴云破处，者般颜色做将来”……是不是很浪漫呢？",
+			say = "Our ancestors described it as such: \"After the rain's passing comes blue skies, after the cloud's parting comes new hues.\" That has a rather romantic sound to it, don't you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "似玉非玉而胜玉……都说君子如玉，这汝瓷也如君子般触手生温……",
+			say = "It resembles jade, yet isn't jade – and even surpasses it. They say a noble person is like jade; this Ru ware, too, feels warm to the touch, like such a person's presence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "哎呀，原来我是不小心握住指挥官的手啦？",
+			say = "Oh my... I got a bit carried away and ended up holding your hand on accident...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，总之呢，想获得这样的质地，调配、施釉、烧制……工艺相当讲究。",
+			say = "Ehehe... But, in any case, the process required to create this texture is quite sophisticated, from the mixing to the glazing to the firing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "看呢，它的釉面上还有细腻的开片纹路，每一道纹路都是自然形成的。",
+			say = "Look carefully. Do you see these delicate patterns? They are crackles that naturally form in the glaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "鱼鳞纹、蟹爪纹、鱼子纹……说着说着，突然感觉有点饿了呢~",
+			say = "They can take the patterns of fish scales, crab claws, or fish eggs... Actually, just talking about it is making me hungry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "指挥官，来享用一些点心吧，茶汤很快就好~",
+			say = "Now then, Commander, please help yourself to some snacks. I'll have fresh tea for you ready soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "长风娴熟地用汝瓷茶器冲泡茶水，动作轻柔专注。",
+			say = "With deft motions, Chang Feng pours hot water into the Ru teaware and starts to brew the tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "等待的间隙，也让我有更多时间观赏近处以花束点缀的汝瓷花瓶。",
+			say = "The wait gives me a chance to notice the beautiful Ru vase nearby, holding a lovely bouquet of flowers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "恰在这时，暖阳入室，落在天青釉花瓶之上，点亮了朝霞般的光辉。",
+			say = "Suddenly, a beam of warm sunshine enters the room, illuminating the sky-blue vase with the glow of dawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好漂亮……都说天青釉的奇妙之处，就在于会随着光线变化而显现出不同的韵味。",
+			say = "Exquisite, isn't it? The marvel of this sky-blue glaze, it's said, is the way it plays with the light, showing different depths and hues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "托指挥官的福，它的美才能完全展现在我们眼前呢。",
+			say = "Commander, thanks to you, we are able to witness this spectacle unfolding right before our eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "好~茶汤泡好了~！",
+			say = "Okay. The tea is now ready~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "指挥官来试试我的手艺有没有进步吧~",
+			say = "Commander, please see for yourself if my skill has improved~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actorName = "{playername}",
 			actor = 501082,
 			nameColor = "#A9F548FF",
-			say = "嗯……今天的茶，确实比以前更甘甜滑口了。",
+			say = "Hmm... You're right. Today's tea is indeed mellower and smoother than before.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -561,7 +561,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "嘿嘿，汝瓷的天青色沾在了指挥官唇边……真想拍下来呀~",
+			say = "Heehee. That beautiful sky-blue teacup right next to your lips... Ahh, I really wish I could capture this moment~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "抱歉，我好像不小心看走神了~",
+			say = "Oh my, I'm sorry for letting my imagination run wild...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "茶与器，本就相得益彰。而且，我还特地引来了泉水泡茶哦。",
+			say = "Ahem... In any case, you can see now how the tea and the ware truly complement each other. It probably also helps that I'm using the freshest spring water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官有察觉到吗，窗外的泉水声？",
+			say = "If you pay close attention, you can hear the burbling of the water outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "水流轻叩竹笕，发出清脆的“叮咚”声，也为茶室内带来了湿润而清新的空气。",
+			say = "The clear sound of water flowing through the bamboo tube drifts in, bringing with it cool, fresh air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "我曾听过一个美丽的误会，说汝窑开窑需在骤雨初歇时，仿佛是天意使然……",
+			say = "I once heard a rather lovely misconception – that Ru kilns had to be opened just as a downpour stopped, believing that precise timing, seemingly ordained by the heavens, was key to achieving this unique glaze...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "虽然是对釉色的附会解释，却意外契合当下的意境呢。",
+			say = "Romanticized as this idea may be, don't you think it captures the mood of this moment perfectly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_175",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，指挥官，要再饮一杯茶吗~",
+			say = "There's no need to be polite, Commander. How about another cup of tea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "掌中汝瓷手感温润，茶香袅袅，沁入心扉。",
+			say = "The sky-blue cup feels warm and smooth in my palm; its gentle heat, combined with the fragrance of the tea, seems to soothe my very soul.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "雅意悠然间，心中久积的疲惫仿佛也被驱散，只余一片宁静安然。",
+			say = "In this moment of leisure and elegance, all the stress that had been building up within me wafts away, leaving a deep sense of tranquility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			actorName = "{playername}",
 			actor = 501082,
 			nameColor = "#A9F548FF",
-			say = "那就麻烦你了。",
+			say = "Yes please, if you don't mind.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -703,7 +703,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "没有什么麻烦的~能像这样照顾指挥官，就是我最大的幸福了~",
+			say = "Of course I don't mind. Being able to treat you like this is my utmost pleasure~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 501082,
-			say = "剩余的闲暇时光，也请在汝瓷和我的相伴下度过吧~",
+			say = "Please spend the rest of your free time enjoying the Ru ware's company – and mine, too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

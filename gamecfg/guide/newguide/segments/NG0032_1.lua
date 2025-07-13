@@ -33,7 +33,7 @@ return {
 				end
 			},
 			style = {
-				text = "让我们来看看炼金工坊出现了哪些可以调和的配方",
+				text = "Time for a crash course on the Synthesis system, starting with recipes.",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -64,7 +64,7 @@ return {
 				1
 			},
 			style = {
-				text = "拥有工具后，可以从采集地获得更多种类与数量的素材\n制作全部工具后将会解锁更多配方",
+				text = "To get materials from Gathering Sites, you first need a tool for the job.\nCraft all gathering tools and you'll even unlock new recipes!",
 				mode = 1,
 				posY = 0,
 				dir = -1,

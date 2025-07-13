@@ -12,7 +12,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}！没事吧！？",
+			say = "U-110! Are you okay?",
 			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}，没事，只是被抓到了而已",
+			say = "I'm okay, they only captured me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			expression = 3,
 			side = 0,
 			dir = 1,
-			say = "{namecode:420}趁机与援军重新合流了。",
+			say = "U-110 seized a chance to flee and regroup with U-556, who had come to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			actor = 408040,
 			dir = 1,
-			say = "那不是很危险嘛！真是的，我稍微一不留神就……",
+			say = "That's still pretty dangerous, you know?! Don't go off and get captured while I'm not looking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			actor = 408040,
 			dir = 1,
-			say = "咳咳！既然如此就没办法了！就算逃跑也要先咬对面一口才行！",
+			say = "*Ahem*! Anyway, what's done is done! Our first order of business right now is to stun them with a counterattack before we run away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			actor = 408040,
 			dir = 1,
-			say = "就让身为水下骑士的我来……",
+			say = "I, Parzival of the Seas, will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇哇！？",
+			say = "Uwoooah?!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "先手必胜",
+			say = "We are launching the first strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			actor = 408040,
 			dir = 1,
-			say = "太卑鄙了！这边都还没报完名字呢！",
+			say = "That's so unfair! I haven't even finished introducing myself yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…那好吧，我是B级驱逐舰大斗犬。请多指教",
+			say = "Then I will do the same. I'm the B-class destroyer Bulldog. Nice meeting you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}鲨鱼，可怕的鲨鱼，嘎哦",
+			say = "U-110 is a shaaaark. Fear meeee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			actor = 408040,
 			dir = 1,
-			say = "你就不用介绍啦！准备撤退咯！",
+			say = "You're fine, you don't need to introduce yourself! Go on, get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…啧",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊！",
+			say = "Hey, what the heck?!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -325,7 +325,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "报完名字以后就可以攻击了吧？",
+			say = "Did you not allow me to attack you once you finished your introduction?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还没报完啊！",
+			say = "Uh, I STILL haven't gotten to introduce myself!",
 			action = {
 				{
 					type = "shake",
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你是{namecode:416}吧，刚才这孩子已经介绍过了",
+			say = "You're U-556, yes? At least, that's what she called you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯（点头",
+			say = "Yup-yup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "{namecode:420}闭嘴啦！",
+			say = "Be quiet already, U-110!",
 			action = {
 				{
 					type = "shake",

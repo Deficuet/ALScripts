@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "在{namecode:74:长门}的引导下，一行人在奈落中前进着。",
+			say = "The shipgirls sailed on through Naraka, with Nagato leading the way.",
 			bgm = "theme-nagato-meta",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "一路之上陆续有敌人来袭。不过不等{namecode:180:霞}与{namecode:39:神通}出手，这些敌人就被{namecode:74:长门}随手消灭了。",
+			say = "Nagato's powers easily dealt with what enemies attacked them along the way. There was no need for her META allies to even step in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "相比于敌人，一路之上对于{namecode:74:长门}干扰最多的，反而是时不时从奈落之中感受到的执念。",
+			say = "The enemies were of little concern to her – what really bothered her was the sense of obsession she felt coming out of Naraka from time to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,13 +56,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#FF9B93",
 			oldPhoto = true,
-			say = "必须要让姐姐复活……",
+			say = "Amagi must be brought back to life.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -91,9 +91,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "只有姐姐才是最适合领导重樱前进之人。",
+			say = "Why? Because she's better suited to lead our country than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,9 +105,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "谁都不能阻止我，就算是姐姐……你也不行。",
+			say = "Nobody can stop me. Not even you, not even Amagi herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……汝之内核，果然是……",
+			say = "I knew it... You get your identity from Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,9 +134,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "万事万物，有因必有果，有果必有因。",
+			say = "Where there is cause, there is effect, and vice versa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,9 +165,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "伪物为果，真物为因。果在，因成。",
+			say = "The falsehood is the effect, the original is the cause. It's only logical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "而后呢？伪物能够因此而成为真物么？",
+			say = "Be that as it may, a fake can never become the original.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "如此创造出的，只是一具概念下的空壳罢了。",
+			say = "All that you've created are empty husks, prisoners to a concept.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,9 +209,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "同样的相貌，同样的性格，同样的记忆，同样的行事方式。",
+			say = "I am. I have her likeness, memories, personality, way of thinking, even her mannerisms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "我不就是姐姐么？",
+			say = "Amagi is the only thing I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "姐姐的过去虽有定论，可是姐姐的将来却可以由我来书写……",
+			say = "I WOULD never do such a thing in the past. However, you're speaking to my future self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,9 +268,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "没错，我就是{namecode:161:天城}……",
+			say = "Yes... I am Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,9 +282,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "我是{namecode:161:天城}，{namecode:91:赤城}的姐姐，最适合领导重樱前进之人……",
+			say = "I am Akagi's sister and the one most fit to lead the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……呵，不过是自欺欺人罢了。",
+			say = "You only delude yourself, heighten your obsession, and walk the path to madness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,9 +311,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "重樱需要真正的领导者，而我需要为姐姐的出场创造一个合适的契机。",
+			say = "Our country needs a true leader. Reviving Amagi shall be the first step to achieving that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,9 +342,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "False Amagi",
 			oldPhoto = true,
-			say = "因此……奈落，尽情地吞噬吧。",
+			say = "Naraka, heed my call and devour all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……够了，余没兴趣继续听了。",
+			say = "Enough already. Your attempts to deceive me are for naught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "（并非{namecode:91:赤城}操控伪物为自己执行仪式……而是伪物反过来操控{namecode:91:赤城}执行了仪式。）",
+			say = "(Akagi did not create Naraka by her own will. She was simply manipulated by the false amalgamations.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "（{namecode:91:赤城}谋算多年，到头来，竟是被自己心中执念所化之物玩弄于股掌之间……）",
+			say = "(Akagi schemed for so long, only to be manipulated and exploited by the monster spawned by her own obsession.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "（……谋人者，终被人谋。）",
+			say = "(Then, the monster took advantage of our very minds...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "（……欸。）",
+			say = "(What a terrible turn.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "一批敌人正迎着我们的前进方向而来，看来伪物已经察觉了我们的行踪。",
+			say = "A group of enemies is approaching. It seems they've detected us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "那个伪物果然保留一部分了神石网络的控制力，因而能够一定程度感知奈落内的环境。",
+			say = "It appears the amalgamations have the ability to connect to the Watatsumi. That must be how they can freely manipulate Naraka's environment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "也因此，其已自知无法逃脱了。",
+			say = "They know there is no running away, so they come right to us instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……差不多，也该现身了吧",
+			say = "Soon, the mastermind will appear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

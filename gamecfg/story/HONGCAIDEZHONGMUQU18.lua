@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·东北航道D区域",
+			say = "NA Ocean",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "在由喀琅施塔得带队的北方联合舰队前方，一个熟悉的身影正大摇大摆的向舰队靠近着。",
+			say = "As Kronshtadt was leading the Northern Parliament's fleet forward, a familiar figure approached her from over the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哟~好久不见啊我的老朋友。",
+			say = "Ah, Kronshtadt. What a pleasant surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这不是{namecode:427}么，什么风把你吹过来了？",
+			say = "Prinz Eugen? Why in the world are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "啊，停下，不要再继续接近了，否则我就要被迫开火了哦。",
+			say = "First thing's first – we're on a mission. Come any closer and I'll shoot you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "喂喂喂，你这人面对多年没见的老朋友也太冷淡了吧！",
+			say = "Aww. You were a lot more friendly at our last drinking party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "此一时彼一时咯。",
+			say = "This isn't a social event, sweetie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "这么久都没收到过你的消息了，最近在什么地方忙什么呢？",
+			say = "Fair enough, but who's to say we can't socialize a little? What are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那自然是在需要我的地方做着需要我来做的事。",
+			say = "My job. What else should I be doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是怀念我们一起吃晚餐的时光了么？",
+			say = "And don't say \"drinking with me.\" That's not going to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "倒是有些想念，要是顺便能在饭桌上多告诉我些情报就好了。",
+			say = "A shame, because I'd love a beer. We could drink, chat, share faction secrets, and so on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "哈哈哈，那就得看你的本事了。到底是你套到的情报多，还是被我套到的情报多。",
+			say = "I definitely wouldn't mind hearing a few Iron Blood secrets, but I'm staying sober.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "多年未见，你倒是没什么变化。",
+			say = "You're sounding like Kirov now. What's wrong with treating yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "你要是观察的更仔细点的话就会发现，我多少还是变了一些的，就跟你一样。",
+			say = "Nothing, but I'll pass on the alcohol. We could talk over dinner sometime, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "欸~是么？我倒觉得自己一直以来没什么变化哦。",
+			say = "Dinner would be nice, but I was hoping for a little... more. You've changed in the time you went MIA.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只是装作没什么变化而已吧。伪装是用来掩盖的，你在试图掩盖什么？",
+			say = "As have you. I see you've worked your way up to the position of Friedrich's little errand girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对往昔的怀念？对友人的思念？或者是什么更复杂的事——？",
+			say = "I would ask what your goal here is, but I know you won't give me a straight answer. Instead, let me give you something – a piece of advice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "作为老友的经验之谈来说，过度压抑情感可是一件非常危险的事哦。",
+			say = "If you keep playing this game of lies and deception, you'll one day lose sight of the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "目光倒还是依旧那么敏锐~不过秘密让女人更女人，这一点上大家彼此彼此吧？",
+			say = "Spoken like a woman who's frustrated that her own deception always falls flat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "我倒是很乐意跟你彻夜长谈哦————在你作为俘虏跟我回去之后。",
+			say = "Oh yeah? If you think you're so much better, let's see you try to deceive your way out of us taking you prisoner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀呀，要是这样可就麻烦了。我还有要做的事呢，可不能就这么被你抓住~",
+			say = "Hahahah! What, do you expect me to simply turn around and let you cuff me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这是什么话。你人都来到这个距离了，接下来的事可由不得你了！",
+			say = "If you want to do it the easy way, yes. The hard way entails us blasting you to bits first! Fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "……炮弹不受阻碍的穿过了身体……？你是幻影？",
+			say = "What?! The shots passed right through her?! Tsk, she's just a projection!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "你们这次来势汹汹的，我也多少做了一些准备嘛~",
+			say = "Bingo. Thanks for letting me have some of your precious time, by the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "铁血的技术进步，就让你们好好感受一下吧！",
+			say = "As much as this pains me, I have to create the conditions for an uphill battle for you girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "{namecode:486}————！",
+			say = "Odin! You're up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 499040,
-			say = "主神之枪充能完毕。",
+			say = "Very well. Energy levels at maximum...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 499040,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "撕裂吧，冈格尼尔——————",
+			say = "This is the end for you! Herteitr's Rolling Thunder!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

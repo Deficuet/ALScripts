@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "进入游乐园中的城堡后，循着花香，来到了第一个房间前。",
+			say = "After stepping inside a castle at the amusement park, I'm drawn to a particular door by the floral aroma coming from the other side.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "推门走入后，原本幽深昏暗的长廊中，烛光随着步伐而渐次亮起。",
+			say = "I open the door and walk down a long corridor, candles on the side igniting with each increment forward, lighting up the dark room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上，您来了，{namecode:161:天城}已在此恭候多时了。",
+			say = "Welcome, Commander. I've been awaiting you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一道熟悉的温柔嗓音响起，被烛光点亮的长廊尽头，{namecode:161:天城}正端坐于中央的王座上。",
+			say = "The candlelight shines on a throne at the opposite end. Upon it, Amagi sits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在正式开始探索之前，先这里坐下休息片刻吧，主上。",
+			say = "Before you begin your investigation, I'd like you to come here and rest for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女说着，用权杖轻轻点了一下地板。",
+			say = "She takes her scepter and softly taps on the floor with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "随即柔软舒适的座椅和精致的下午茶点便凭空出现在身旁。",
+			say = "Out of thin air, this produces a table lined with comfortable-looking chairs and an assortment of tea and treats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "那就恭敬不如从命了。",
+			say = "Well, I'm not one to refuse another's hospitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在坐下来休息了片刻，享用了{namecode:161:天城}所准备的精致茶点后——",
+			say = "I take a seat and help myself to the refreshments she's offering. Then, a while later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，看来主上已经休息足够，是打算准备开启探索之旅了么？",
+			say = "Heehee. Have you had your fill? Are you going to start your investigation now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "不错。",
+			say = "Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得到了回应后，王座上的少女便露出了然的笑意。",
+			say = "Hearing my answer, she smiles contentedly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，那么……",
+			say = "Very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咔哒——！",
+			say = "CLICK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "房门的落锁声传来。",
+			say = "A door in the room just locked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "这是……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上，“打开门离开此处”就是探索的第一关哦。",
+			say = "This is your first investigation – how to unlock the door and leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "钥匙就在我身上……主上再走近些找找看吧。",
+			say = "I'll give you a clue – the key is on my person. Won't you come closer and investigate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,22 +284,22 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来到{namecode:161:天城}身前，看着巧笑倩兮的少女，开始思索钥匙会被藏在何处。",
+			say = "Doing as she asks, I approach her. I examine her beguiling smile while I ponder where the key might be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "钥匙在尾巴里",
+					content = "Is it in your tails?",
 					flag = 1
 				},
 				{
-					content = "钥匙在衣服里",
+					content = "Is it under your clothes?",
 					flag = 2
 				},
 				{
-					content = "钥匙在权杖里",
+					content = "Is it inside your scepter?",
 					flag = 3
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不在尾巴里哦……主上是想念尾巴的手感了吗？",
+			say = "It isn't. Are you not just pining for a tail to fluff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（不在尾巴里么……那么还有一个可能性。）",
+			say = "(So it's not in her tails. In that case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不在衣服里哦……衣物单薄，无处可藏。",
+			say = "How could it be, when there is scarcely any clothes to hide it under? No, it is not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（不在衣服里么……那么还有一个可能性。）",
+			say = "(So it's not under her clothes. In that case...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，主上若是觉得在权杖中，便亲手来取吧~？",
+			say = "Heehee. Well, why don't you take it and check for yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伸手握住了少女手中的权杖，正欲取走之际——",
+			say = "Assuming that means I have permission, I place my hand on the scepter and try to take it, but she won't let me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为城堡的主人，我可不能将权杖轻易交给你呢，主上~",
+			say = "I am the lord of this castle. I will not simply GIVE it to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女目光灼灼，手上的力道也加重了几分，和我做起了抗衡。",
+			say = "There is suddenly a sharpness to her gaze. She holds the scepter firmly to prevent me from snatching it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来回拉扯间，权杖反复摩挲着她身上轻薄的衣物，轻轻碾出褶皱。",
+			say = "The silent struggle between us continues, her scepter brushing against her tidy clothes and creating wrinkles all over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女的呼吸似乎快了些，她看着我，脸颊泛起淡淡的红晕。",
+			say = "As we keep going, she starts panting and her cheeks turn red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上……",
+			say = "Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "叮——",
+			say = "CLING!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一阵金属落在光洁地面上的敲击声打断了少女与我的小小抗衡。",
+			say = "Our miniature tug-of-war is interrupted by the sound of metal hitting the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯……？钥匙？",
+			say = "Wait... Was that the key?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来是主上在与{namecode:161:天城}的拉扯间无意触碰到了权杖的机关啊。",
+			say = "It seems I accidentally pressed the scepter's key release mechanism amidst our little scuffle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，钥匙的确如主上所想，藏在权杖之中。只要触碰到机关，宝石便会移开，露出钥匙。",
+			say = "Heehee. As you surmised, it was indeed hidden inside the scepter. You just had to press in the right spot and the gem at the top would come loose, letting the key out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然主上已经成功得到钥匙，那么便随{namecode:161:天城}离开这里，开启接下来的探索之旅吧。",
+			say = "Now that you have the key, the next step to continuing your investigation is to leave this place with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}说着便从王座上起身，她毛茸茸的尾巴轻轻拂过一旁的花束。",
+			say = "Rising from her throne, she brushes her fluffy tails against the flowers decorating the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "浓烈的花香立刻席卷而来，让人忍不住抬手摸了摸鼻子。",
+			say = "An intense floral aroma forces its way into my nostrils, making me rub my nose with my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？主上，是这里温度太低，有些冷了么？",
+			say = "What's the matter? Are you feeling cold?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "只是花香有些刺鼻。",
+			say = "No, it's just the flowers. They have a strong scent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒是{namecode:161:天城}考虑不周了，之后我会减少鲜花的数量的……",
+			say = "I'm sorry about that. I'll use less flowers in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			nameColor = "#A9F548FF",
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "没关系。不过你这么一说，这城堡之内确实有点冷……？",
+			say = "It's fine. Also, now that you mention it, it DOES feel a bit cold in here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……关于这一点，{namecode:161:天城}眼下便有个解决方案。",
+			say = "Heehee. Fortunately, I know just the thing to warm you up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女说着挽住了我的手臂，温热的身体紧紧地贴了上来。",
+			say = "She enacts her plan, folding her arm around mine and pressing up against me, sharing her body heat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上，我们靠得更近些吧。",
+			say = "Let's stick close, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			actor = 307151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这般，便会温暖许多……",
+			say = "It'll be much warmer this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

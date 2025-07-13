@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>三 任务前夕</size>",
+					"Causality Transposition\n\n<size=45>3 Moment of Truth</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "终于，在结束了第五十次算法优化后，「现实透镜」设备已经基本调试稳定。",
+			say = "After fifty iterations of the algorithm, we finally managed to stabilize the Reality Lens.",
 			bgmDelay = 2,
 			bgm = "theme-starsea-explo",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "到了该探索安克雷奇心智中离散信息块的时候了。",
+			say = "It was about time for the next stage of our research: identifying the anomalous information elements in Anchorage's hull.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "指挥官……你确定要在今天执行计划么？",
+			say = "Commander... Um, are you sure about this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "相信你在实际体验了之后应该也明白，「现实透镜」并不是一个无害的造梦机，而是一个基于星海核心设施运行的模拟设备。",
+			say = "Testing would be one thing, but we'll be connecting the Reality Lens to a shipgirl's cognition without a test run.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "在其运行过程中，你的意识必须全程与装置相连。",
+			say = "And once the connection starts, your consciousness will be stuck inside a \"dream\" until it's over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "就算现在整个流程看起来稳定又可控，但这种连接行为本身就存在无法规避的系统性风险。",
+			say = "The Sea of Stars' technology may be advanced, but there are no guarantees that we won't run into any accidents...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "况且我们根本不知道那些要探索的情报到底是什么，也不知道它们在受到外部的主动干涉后会发生什么变化……",
+			say = "Worse, we don't know what might happen when you interact with Anchorage's \"anomalies.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "当然，我也完全无法评估事先准备的“应对意外情况的紧急方案”到时候能不能真的应对得了意外出现的紧急情况。",
+			say = "Frankly, I can't even promise that our emergency protocols are enough to handle the worst-case scenarios...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "因此，从专业角度来说我对本项行动表示强烈反对。",
+			say = "Speaking from a professional's perspective, I'm still opposed to you doing this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也赞同女灶神的观点。指挥官，我们还是等技术团队进一步完善设备之后再开始行动吧。",
+			say = "Same here. Can't we at least wait until we have a bit more data on how this thing works?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……我也理解你们的担心。",
+			say = "\"I understand everyone's concerns.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果再等一等就能解决问题的话，自然可以等到装置更完善的时候再进行任务。",
+			say = "\"We could give the algorithm more time to be perfected, sure, but that doesn't mean waiting will solve all of our problems.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因为参与了「现实透镜」调试的全过程，所以我非常清楚这项技术现存的风险。",
+			say = "\"I know by now the risks involved in using the Reality Lens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但同时，我也更加清楚想要消除这些“系统性风险”的困难程度。",
+			say = "\"And I also know that these risks can't be eliminated that easily.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算再投入数倍的资源，突破技术瓶颈的时间依然需要以年为单位进行计算。",
+			say = "\"It could take years before we feel 'ready.' I say we do it now instead of waiting.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在此期间，这些未知信息块会不会对安克雷奇的心智产生负面影响，或者出现其他问题都是未知数。",
+			say = "\"Do you remember Bismarck's Cube? We don't know what effects hull anomalies might have on a shipgirl, but we do know how serious they can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,18 +272,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因此————",
+			say = "\"And most of all, I can't spend my whole life waiting here in the Sea of Stars.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "现在就是最合适的时机。",
+					content = "\"Now is our only chance.\"",
 					flag = 1
 				},
 				{
-					content = "不能再继续等下去了！",
+					content = "\"We can't keep waiting any longer.\"",
 					flag = 2
 				}
 			}
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……既然您已经下定决心了，那我就让科研部门启动对于「现实透镜」的最终检查了。",
+			say = "Think so? Well, you're the boss. I'll start final checks on the Reality Lens now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "……我也去叫上海伦娜一起再检查一下安全保障的部分。",
+			say = "I'll call Helena and the others, too. We also have final checks we should perform on our backup plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "就算真的发生意外情况……我们一定会保障您和安克雷奇的安全的！",
+			say = "Even if things take a turn for the worse, I swear that we will protect you and Anchorage, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，之后就拜托各位了。",
+			say = "\"I couldn't ask for more reliable allies.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>二　草莓与甜味</size>",
+					"From Farm to Fork!\n\n<size=45>2 Strawberries and Sweetness</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "第二天一大早，与龙武一起来到了农家探索乐园。",
+			say = "First thing Saturday morning, Lung Wu and I arrive at Farmlandia.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，龙武你们来啦~！！",
+			say = "Yo, Commander! Lung Wu! Glad y'all could make it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "欢迎来到农家探索乐园喵~",
+			say = "Welcome to Farmlandia, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "早上好。",
+			say = "Good morning, you two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "你们好……谢谢你们提供了优惠的套餐。",
+			say = "Good morning... Thank you so much for offering us this discount...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哪里哪里~你们能来真是太好了~！",
+			say = "Haha, it's just good marketin'~ Anyway, I'm stoked ya two could come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟龙武可以帮忙我们评估乐园里的食材品质，指挥官可以帮我们反馈体验~哈哈哈♪",
+			say = "After all, Lung Wu can help evaluate the quality of our ingredients, and if we can even get some review from the Commander... Ahaha ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "嗯，那我会好好记录食材的口味的。",
+			say = "Sure thing! I'll write down my feedback about every ingredient!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信以龙武和指挥官的专业程度，一定能给出很好的建议喵~",
+			say = "Nyahaha... I'm sure we'll be able to get some great feedback from our illustrious guests here, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，也不多占用你们的时间啦~乐园中还有很多很多内容等着你们去探索哦~！",
+			say = "Alrighty then, I don't wanna take up too much of your time with my yapping, 'cause there's a ton of stuff waiting for you at Farmlandia!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "在{namecode:98:明石}和{namecode:295:尾张}的推荐下，我们商定了一天的游玩路线。第一站就从正值采摘季节的草莓果园开始。",
+			say = "With Akashi and Owari's recommendation, we decide to start with a visit to the strawberry orchard, where the berries are just ripe and in season.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，草莓果园到了！",
+			say = "Commander, we've arrived at the strawberry farm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "这些草莓，看上去好好吃啊——！",
+			say = "Wow, these strawberries look so succulent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "园中，翠绿的叶片层层叠叠，藏在叶片下的草莓鲜红成熟，散发着清甜的果香。",
+			say = "Lush, green leaves overlap, with bright-red fruits peeking out through the gaps, filling the air with their sweet aroma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "指挥官，我们快一起去摘草莓吧！",
+			say = "Let's pick some strawberries!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武迫不及待地拿了木篓子，拉过我的手，一同凑到了草莓植株旁边，利落地摘起了草莓。",
+			say = "Lung Wu is unable to contain her enthusiasm any longer. Taking a bucket in one hand, and my hand in the other, she bounds over to the strawberry plants and starts harvesting them skillfully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "不知不觉中，草莓已经将两个木篓填得满满当当。",
+			say = "In no time at all, both of our baskets are filled to the brim with strawberries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武还在摘着草莓，额头上布满细密的汗珠。",
+			say = "She doesn't seem to have noticed, though, and keeps picking strawberries even as beads of sweat roll down her forehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武，要不要休息一会儿？",
+			say = "Lung Wu, why don't we take a breather?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "嗯？我也没有很累……",
+			say = "Huh? But we only just got here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "啊……已经采了这么多草莓了么？",
+			say = "Oh, wow... Have we picked this many already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "那我们就休息一会儿吧，指挥官。",
+			say = "Alright, let's take a little break, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "我去洗一些草莓一起吃。",
+			say = "I'll go wash a few for us to eat. Just give me a moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，那我跟你一起去。",
+			say = "Great. I'll help out as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "利用果园的水池仔细清洗了草莓后，我与龙武一起坐到了一旁的长凳上。",
+			say = "After washing the fresh strawberries, Lung Wu and I find a bench to sit on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "……确实有些累了呢，还好指挥官提醒我了。",
+			say = "Hmm, I guess I'm indeed a bit tired. Thank you for being so thoughtful, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "抱歉……指挥官，我总是这样，过分关注和美食相关的事情，很容易忽略周围的事……",
+			say = "And, umm, I'm sorry for getting a bit carried away. When I start thinking about ingredients and recipes, I tend to lose sight of everything else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "刚刚摘草莓的时候，我就在想，这么美味新鲜的草莓肯定能让吃的人露出幸福的笑容……",
+			say = "I kept thinking to myself, if we could share these delicious strawberries with everyone, they'd surely have big smiles on their faces...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "就想摘得更多一些，结果就一直一直没停下来……",
+			say = "The more I was thinking about that, the more my hands kept moving on their own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……应该先让指挥官尝尝草莓的，毕竟刚摘下来的草莓是最美味的！",
+			say = "I shouldn't have been so focused on picking the strawberries and instead thought more about sharing them with you first... because freshly picked strawberries taste the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,14 +476,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "龙武说完，带着期待的目光，将一颗草莓递到我嘴边。",
+			say = "As she says that, Lung Wu holds a strawberry up to my lips with sparkles in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "吃！",
+					content = "(Take a bite)",
 					flag = 1
 				}
 			}
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "一口咬下，草莓酸甜的果香在口中弥漫。",
+			say = "I eat the strawberry in a single bite. Its sweet, slightly tart taste and unique aroma spread throughout my mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吃！",
+			say = "Woah, it's so delicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "果然指挥官露出了幸福的笑容呢。",
+			say = "See, Commander? You're smiling happily right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "那我就要努力再多摘一些了！嗯！",
+			say = "That's all the motivation I need to get back to picking more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_702",
 			hidePaintObj = true,
-			say = "将采摘的草莓送回住处后，我们按照计划向下一个目的地进发——园区的中心湖泊。",
+			say = "We have the strawberries we picked sent back to our place, and then set off for our next stop – the lake in the middle of Farmlandia.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我最爱的{dorm3d}，您的到来是天狼星最大的幸福。如果可以的话……请允许天狼星拥抱您。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello14",
+			nameColor = "#FFFFFF",
+			say = "My dearest {dorm3d}, I'm beyond happy that you've come. If you wouldn't mind... I hope you'd allow me to give you a big hug...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

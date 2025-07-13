@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔，已经出海这么多天了也没有发现任何目标…",
+			say = "Hrmm... we've been out this long and still not a single target...",
 			bgm = "echo-loop",
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "除了偶尔飘来的浮冰，连个大只点的鲸鱼都没见到，是不是情报有误呀",
+			say = "nothing but icebergs. Not even a whale. I'm guessing faulty intelligence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "就算是王牌潜艇出海有时也会空手而归，能不能捕到猎物也是要看运气的",
+			say = "Even an ace submarine comes back empty-handed every once in a while",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -66,7 +66,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "难道{namecode:416}的运气不好吗？在港区的时候大家都说{namecode:416}一定是个幸运的孩子",
+			say = "Then am I just unlucky? Everybody at the port's been saying I'm such a lucky girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "如果初战只是空手而归那可就没脸见{namecode:435}姐姐了…呜",
+			say = "What happens when I come back from my first sortie with nothing to show for it? I couldn't face Lord Bismarck like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "不，看来我们的运气还是不错的，声纳有反应了",
+			say = "Seems we're not so unlucky after all. I've got a contact on sonar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哪里哪里！？",
+			say = "Where?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "前方发现目标运输船，040，接近中…",
+			say = "Target transport ship off our bow, bearing 040, advancing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "准备下潜",
+			say = "... Prepare to dive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这是…水下骑士{namecode:416}的华丽首战就要来了！",
+			say = "Witness... the first majestic battle of Unterseeritter U-556!",
 			effects = {
 				{
 					active = true,
@@ -206,7 +206,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦哦哦！这种感觉是...感觉全身都兴奋起来了！！",
+			say = "Ooohh! Such an invigorating feeling... coursing through my entire body!! I feel fantastic!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘘——你的话太多了…再不下潜就要被目标发现了",
+			say = "Shhhh! Quiet down... We need to dive before they see us.",
 			effects = {
 				{
 					active = false,
@@ -245,7 +245,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "┗|｀O′|┛ 嗷~~水下骑士{namecode:416}，出击（小声",
+			say = "(Whispering) Understood! Unterseeritter U-556, commencing operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

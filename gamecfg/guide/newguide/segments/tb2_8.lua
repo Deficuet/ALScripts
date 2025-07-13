@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "这里是行程计划界面，指挥官每回合可为娜比娅安排最多5项课程",
+				text = "This is the Activities menu. Each turn, you can set up to 5 activities for Navi to perform.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -20,7 +20,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "完成安排后，点击此处即可上课并进入下一回合",
+				text = "Once you're finished, cap here to begin the activities and advance to the next turn.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "注意：此处显示本阶段的属性目标总值",
+				text = "Navi's growth goals for the current stage are displayed here.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "各项属性之和达到此数值即为达成目标",
+				text = "Once all parameters reach the value shown here, her growth goals have been achieved.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "请根据娜比娅的天赋和您的规划选择合适的课程",
+				text = "Choose an appropriate plan for Navi based on her abilities and growth course.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -96,7 +96,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "此外，娜比娅的心情将影响课程效果：心情越好，获得的数值越高",
+				text = "Additionally, Navi's Mood affects how fruitful her activities are. The higher her Mood, the more her stats increase.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -115,7 +115,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "而心情低落时，能从课程中获得的数值则会减少",
+				text = "At the same time, if her Mood is low, she'll gain fewer stats from activities.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -134,7 +134,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "现在，试着为娜比娅安排课程吧！",
+				text = "Now, let's plan some activities for Navi.",
 				mode = 2,
 				dir = 1,
 				char = 1,

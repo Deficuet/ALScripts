@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"指挥官请点击<color=#ff7d36>出击</color>",
-	"敌方舰队出现！点击目标进入战斗！",
-	"点击<color=#ff7d36>出击</color>进行战斗！"
+	"Tap the button to <color=#ff7d36>head into battle</color>",
+	"The enemy fleet has shown itself! Tap the target to bring your fleet to bear!",
+	"Now tap on <color=#ff7d36>Battle</color>!"
 }
 
 return {

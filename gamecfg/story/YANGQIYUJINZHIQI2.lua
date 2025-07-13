@@ -14,15 +14,15 @@ return {
 			bgm = "story-richang-light",
 			sequence = {
 				{
-					"鸢尾教国·首都",
+					"Iris Orthodoxy - Capital",
 					1
 				},
 				{
-					"指挥官办公室",
+					"Commander's Office",
 					2
 				},
 				{
-					"翌日",
+					"The next day...",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "晚宴回来的第二天，一份来自指挥部的任务书揭开了昨日{namecode:435:俾斯麦}留下的谜底。",
+			say = "The day following the banquet, an operation briefing from my higher-ups gave an answer to the question Bismarck left me with yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到「NA海域净化战」这么快就要开始了……还把郁金王国舰队划入了第一阶段的参战舰队中。",
+			say = "I can't believe they're launching the NA Ocean Purification Campaign so soon... What's more, the Tulipans have a fleet participating in the first phase.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "那支舰队可是一点对抗塞壬的实战经验都没有……不会出问题吧？",
+			say = "They don't have any experience with fighting Sirens. Is this really a good idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "凡事都要有第一次。",
+			say = "Everything has to start from somewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "本次行动中，她们面对的敌人难度不大，作为首战练兵来说是十分合适的。",
+			say = "The enemies they'll be up against aren't especially threatening. That's perfect for a first battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "在塞壬实验机关离开后，世界已然进入了后塞壬秩序时代。",
+			say = "Following the departure of the Sirens' experimentation division, our world entered a new, post-Siren age.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "然而，塞壬主机塔在仓促间的自毁为世界留下了大量亟待解决的安全隐患。",
+			say = "Unfortunately, the self-detonation of their mainframes was so sudden that it left us with many problems to deal with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "其中最大、最严重的问题位于NA海域。",
+			say = "Among them, the biggest and most serious is the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "这里的构建者主机塔是被破坏而并非自毁的，因此其早已开始了自动重建程序。",
+			say = "Since Compiler's mainframe was not self-detonated, but rather destroyed by us, its restructuring program initiated very soon after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "又因为观察者下达自爆指令时，构建者主机塔尚未修复完毕，其反而成为了漏网之鱼躲过一劫。",
+			say = "To make matters worse, when Observer issued the self-detonation command, Compiler's mainframe still hadn't come back online, so it never received that order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "现状而言，如果放任其继续修复下去的话，最早今年内就会有一个新的构建者主机塔在NA海域中诞生，这是所有人都无法接受的。",
+			say = "If we don't do anything, then it's possible that a new Compiler mainframe will take shape within the NA Ocean within the year. That's a future no one wants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "因此，尽快将NA海域中的构建者残存力量连根拔起就成为了各方的第一要务。",
+			say = "Therefore, cleaning up Compiler's remaining forces in the area became the top priority between all of the world's factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "为此，碧蓝航线与赤色中轴两大阵营共同制定了一项针对重建中的构建者主机，以及海域中残存塞壬力量的清扫战役。",
+			say = "To that end, the Azur Lane and the Crimson Axis formulated a cooperative plan to neutralize the recovering mainframe as well as the lingering Siren forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "其名为——「NA海域净化战」",
+			say = "They dubbed this plan, \"The NA Ocean Purification Campaign.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "此次战役原定由皇家、鸢尾、铁血以及北方联合共同负责。",
+			say = "The plan originally only included the Royal Navy, the Iris Orthodoxy, the Iron Blood, and the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "因为郁金王国的舰船化舰队适时取得了第一阶段成果，所以顺理成章也将其纳入了参战阵营中。",
+			say = "However, the shipgirls of the Kingdom of Tulipa were added to this roster after they demonstrated promising results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（……而因为郁金王国的舰船化舰队计划与我有关，带领她们出战的行动也顺理成章落到了我的头上。）",
+			say = "(...And since I had a hand in the creation of their fleet of shipgirls, the task of commanding them fell upon me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（任务本身并不困难，只是要摧毁一处临近郁金王国海岸线的塞壬镜面海域。）",
+			say = "(The mission itself isn't that difficult. All that needs to be done is eliminate the enemy Mirror Sea sitting near the coast of Tulipa.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（作战过程中，除了郁金王国海军之外，还能得到其他参战阵营的舰队支援……预计战斗难度会进一步降低。）",
+			say = "(We'll also be accompanied by a support fleet consisting of vessels from both Tulipa and other factions. That will reduce the danger further.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（只是不清楚，这样的部署是指挥部为了拉拢郁金王国而做出的设计，还是{namecode:435:俾斯麦}的运作……）",
+			say = "(What I'm not sure of yet is whether their inclusion in this mission was an attempt by my superiors to place the Tulipans, or an attempt by Bismarck to train them.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，任务书里提到，我们需要先前往郁金王国的舰队锚地实际评估其作战能力，而后再决定是否向各阵营申请额外支援。",
+			say = "Commander, the briefing said to \"go to the Kingdom of Tulipa, review their fighting capabilities, and determine whether or not support from other factions is needed.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是又说北方联合已经主动表示将会提供舰队支援……",
+			say = "But, well... the Northern Parliament have already stated they'll provide support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我们需要先回绝北方联合么？",
+			say = "Should we politely turn them down?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不用，不论各大阵营间如何博弈，结果上能增加战斗胜算就好。",
+			say = "No. Regardless of the impression it gives, I'll gladly accept anything that gives us more leeway in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了，那我们什么时候出发？",
+			say = "Understood. When are we leaving?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们需要在行动前增进对于郁金王国的了解，尽快出发吧。",
+			say = "I want to learn more about the Tulipans before the mission. Let's leave as early as we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话……明日、火车可以么？",
+			say = "Okay. How about going there by train tomorrow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没问题。",
+			say = "Sounds good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好的，我这就去和郁金王国方面接洽！",
+			say = "Alright. I'll contact the Tulipan command and let them know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

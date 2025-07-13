@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>四　在意的人与事</size>",
+					"Slacking Off with the \"Good\" Girl\n\n<size=45>4.Mindless Scrolling</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			bgmDelay = 2,
 			bgm = "story-1",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，又到了“偷懒时间”哦。",
+			say = "It's that time again, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "今天的主题就定为，“漫无目的的网上冲浪时间”吧！",
+			say = "Today's theme will be surfing the web!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官也坐到沙发这边来吧？顺便{namecode:491}带过来的零食可以随便吃～",
+			say = "Come and sit on the couch with me, Commander. I brought snacks again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:491}不慌不忙地拿出了她的智能手机，娴熟地操作起来。",
+			say = "Jade took out her phone and tapped away at it with experienced hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "先以“指挥官”为关键词，搜索一下最近大家的发言好了～",
+			say = "First, we'll search \"Commander\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看看最近的一条是——“发现正在仓库核对物资的指挥官！看起来好像很忙的样子……”",
+			say = "Sort by new, and... \"Spotted the Commander checking supplies in the warehouse! Are you ever not busy?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "嗯……都是些关于指挥官很忙的感想啊。",
+			say = "Hmm... Well. As far as I can see, everyone's posting about how busy you are these days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "虽然她们并不知道，指挥官其实有在抽时间“偷懒”就是了～",
+			say = "They have no idea that you're slacking off with me... Heehee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "再看看别的好了——嗯？新信息？",
+			say = "How about we search for something else... Hm? A new message?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			},
 			options = {
 				{
-					content = "把目光移开",
+					content = "(Look away.)",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "倒也不是什么私密内容啦。我回一下就好，很快的～",
+			say = "It's nothing private. I'll reply now, so wait just a moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "零食的库存消耗得很快？那和{namecode:491}有什么关系……",
+			say = "Our supply of snacks is running thin faster than usual? Hmm, what could that possibly have to do with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哎呀，{namecode:468}真是的，这么一点小事还要麻烦{namecode:491}……",
+			say = "Really, Elbe can't do anything without me, can she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "OK了！指挥官，我们继续吧。",
+			say = "Done! Thank you for waiting, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "这次的搜索词就用“{namecode:491}&指挥官”——",
+			say = "Heheh, this time, I'll search the words Jade and Commander together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "搜索结果为0",
+			say = "\"Zero search results?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "果然是0啊……指挥官这段时间忙，以致于我们在别人眼里没有同时出现过——",
+			say = "Nothing at all... I suppose you've been so occupied with work that nobody knows we're spending time together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不过这样也好，说明还没有人注意到我们的关系～",
+			say = "I'm glad our little secret is still safe♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "接下来想看谁的？指挥官一直在忙，估计也没有太多时间关注自己在意的人吧。",
+			say = "Besides, being so absorbed in work must mean that you haven't been able to keep an eye on the situation around port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不如趁这个机会好好了解一下？",
+			say = "If you have any questions, I'm always willing to search for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或者搜搜看别的在意的内容也行哦。",
+			say = "For example, if there's anyone you have your mind on... Or if anything just piques your interest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "反正时间还有很多，一边吃零食一边坐在沙发悠闲地度过吧~",
+			say = "Hahaha, we still have plenty of time today. Let's really dig into you and the things that are on your mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1

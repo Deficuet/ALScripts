@@ -1,11 +1,11 @@
 local var_0_0 = {
-	"让我们前往<color=#ff7d36>船坞</color>",
-	"选择一名角色，查看她的详细情况",
-	"点击<color=#ff7d36>装备</color>按钮，查看她当前使用的装备",
-	"在这里能看到该角色所有武器的装备情况哦！",
-	"点击<color=#ff7d36>装备栏</color>添加新装备",
-	"选择刚刚制作的新装备",
-	"点击确认按钮"
+	"Let's head to the <color=#ff7d36>Dock</color>.",
+	"Select one of your girls and tap to view her details.",
+	"Tap <color=#ff7d36>gear</color> to see what gear she currently has equipped.",
+	"Here's where you can see all of the gear a ship has equipped!！",
+	"Tap <color=#ff7d36>a gear slot</color> to add gear.",
+	"Select the gear that we just made.",
+	"Now tap equip."
 }
 
 return {

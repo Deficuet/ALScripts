@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于启航之前\n\n<size=45>五　命名日</size>",
+					"The Bon Before the Voyage\n\n<size=45>5 Before the Launch</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "本日，我再次来到了那扇门前。",
+			say = "For a fourth time, I stand before the door to the Cruise Planning Committee.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过正当我在将耳朵贴近门板时，门却突然打开了。",
+			say = "Right as I press my ear against the door, it suddenly opens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "呵呵~指挥官，今天也来偷听了呢~",
+			say = "Heehee. Here to eavesdrop again, are you, dear human?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,11 +72,11 @@ return {
 			},
 			options = {
 				{
-					content = "……你从什么时候发现的？",
+					content = "Huh? How long have you known?",
 					flag = 1
 				},
 				{
-					content = "不小心听到不算打探进度！",
+					content = "I haven't broken my promise! Long Island never spoke TO me!",
 					flag = 2
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "从第一天，可爱的人类第一次离开指挥室的时候就知道了呢~「显而易见。」",
+			say = "Since the first time you set foot outside your office. \"You're as subtle as a brick through a window.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 900429,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「好好~不算不算~」呵呵~可爱的人类钻了个小空子呢。",
+			say = "\"Of course. Whatever you say.\" Oh, you are such a darling human, making clever excuses.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别担心，长岛她是不知道的哦。",
+			say = "Don't be alarmed, though. Long Island doesn't know that you're here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "这段时间以来，她一直都是在岗位上“认真”处理工作的呢。「以长岛的标准来算的哦~」",
+			say = "Her attention is solely on her work, if you can call it that. \"She's concentrating, in her own way.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以……你们是因为知道我会来偷听，故意安排长岛来当接待员的？",
+			say = "Let me guess... You knew I'd come here, so you specifically put Long Island in charge of the phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「呵呵，这也是显而易见的事，不是么？」孟菲斯猜到了指挥官肯定会按捺不住，但是又不会打破约定。",
+			say = "\"Heehee. I thought it was obvious.\" We knew that curiosity would get the better of you, yet you didn't have the heart to break your promise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "所以一定会想出这个暗中偷听的方式来收集信息。",
+			say = "So it was easy to surmise that you'd walk the razor's edge, coming here merely to eavesdrop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我们就故意安排长岛在这里，放心让指挥官来偷听啦~「真是可爱的反应啊，人类。」",
+			say = "And so, we employed Long Island and knowingly let you listen in on her. \"It's adorable how predictable you are, human.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "不用担心，长岛的那些意见最后还要经过全局统筹委员会审核处理的。",
+			say = "Don't worry about what she said on the phone. All the things she discussed have been brought before the Central Committee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "里面不合理的部分都被去除掉了哦~「有趣的点倒是酌情保留了呢~」",
+			say = "All the inane ideas, discarded. \"And all the good ones, kept.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这部分指挥官还是可以期待一下的哦~",
+			say = "Now all you need to do, dear human, is be patient and wait.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,26 +276,26 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "观点里被保留的部分……难道说会是——",
+			say = "They KEPT some of the ideas? So then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……露天公园？！",
+					content = "Did they keep the onboard garden?",
 					flag = 1
 				},
 				{
-					content = "……水族馆？！",
+					content = "Did they keep the onboard aquarium?",
 					flag = 2
 				},
 				{
-					content = "……防爆大门？！",
+					content = "Don't tell me they kept the blast door!",
 					flag = 3
 				},
 				{
-					content = "……弹药库？！",
+					content = "Please don't tell me they kept the ammo storage!",
 					flag = 4
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "呵呵~约定就是约定，就算可爱的人类如此恳求我，我也是什么都不会说的哦~「还记得么，惊喜感~」",
+			say = "Heehee. A promise is a promise, dear human. No amount of pleading will coax an answer out of Emden. \"Remember, it's meant to be a surprise.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，在下水之前倒确实还有一件极其重要的事需要指挥官来亲自决定。",
+			say = "Although, there is actually important one thing WE were hoping to ask YOU.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "关于这艘邮轮的名字，您想好了么——",
+			say = "Have you thought of a name for the cruise ship yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1

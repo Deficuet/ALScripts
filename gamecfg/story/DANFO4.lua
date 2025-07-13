@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"丹佛的港区委托！\n\n<size=45>四 骑士姐妹</size>",
+					"Denver's Quest!\n\n<size=45>4.The Knight's Sisters</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在丹佛进行委托的时候，有时也会有其他同伴加入其中。",
+			say = "After Denver turned in the pest control quest, she came back with a new addition to our little party.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "比方说，自立又严格的轻巡洋舰伯明翰——",
+			say = "It was none other than her disciplined, self-reliant younger sister and fellow Knight of the Sea, Birmingham.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官，你来的正好！",
+			say = "There you are, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你介绍一下！ 这是我的妹妹伯明翰！",
+			say = "Let me introduce you to my little sister here! Her name is Birmingham.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……丹佛。到任时我已经和指挥官打过招呼了，不需要介绍。",
+			say = "...Denver, this is silly. I already introduced myself to the commander when I took up my post here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听我说，伯明翰，上次我和指挥官一起消灭掉了凶恶的害虫哦！",
+			say = "Fair enough. Anyway, you know what the commander and I did earlier? We came to face with a swarm of wretched bugs, and we wiped 'em all out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……看来你有着足以被克利夫兰大姐认可的实力呢。但是，我可不像丹佛那么天真。",
+			say = "Which is to say... what? That you have the potential to rival Cleveland? Don't take this the wrong way, but I'm skeptical.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "就在她向我投来直视的目光，仿佛在说：“就让我在这里试试你”的那一刻——",
+			say = "Birmingham gazed intently at us, looking like she was going to throw down the gauntlet. Perhaps she would've, if someone hadn't interjected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟，指挥官！ 还有妹妹们也在啊~！",
+			say = "Oh! Commander! And two of my little sisters as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,8 +199,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 102230,
-			actorName = "伯明翰&丹佛",
-			say = "大姐头！",
+			actorName = "Denver & Birmingham",
+			say = "Cleveland! Hey!",
 			subActors = {
 				{
 					actor = 102150,
@@ -225,7 +225,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，看来大家都和我一样在做委托呀！",
+			say = "Heh, guess I've got competition now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "在说话的功夫，克利夫兰又在一份完成的委托表上盖了个章。",
+			say = "Cleveland chuckled as she put the red stamp on a quest she had just completed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头今天做了什么委托呀？",
+			say = "What kinda quest did you take on today, Cleve?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？也没什么特别的啦~就是一个打扫港区外围海域某处设施的委托而已。",
+			say = "Hm? Oh, nothing to write home about. Just did a sweep not too far from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "清扫任务……克利夫兰姐姐果然超级厉害！",
+			say = "You did a sweep by yourself?! Wow! You really are a legend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嗯，我也是这么觉得的。",
+			say = "I agree. That's incredible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？？我只是单纯地打扫了一下某个囤积有科学部门实验材料的仓库区而已啊？",
+			say = "Uh... What? Literally all I did was sweep the floor of this place the R&D guys wanted to convert into a storeroom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但正是有了大姐头的帮助，利用打扫一新的仓库，科学部门的研究就会更加顺利了！",
+			say = "Then you made their job easier, so they'll be able to work faster and come up with a series of amazing inventions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也想成为像大姐那样，能够为科学研究做出贡献的人！",
+			say = "You made a contribution to science! Man, I wanna be as awesome as you someday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "丹佛的骑士……不，是勇者之心又燃起来了。",
+			say = "Denver got fired up again, inspired by her sister's allegedly great contribution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（耳语）抱歉，指挥官，她总是这样吗？",
+			say = "Psst, Commander. Is she always like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			},
 			options = {
 				{
-					content = "无言点头",
+					content = "\"Yep.\"",
 					flag = 1
 				}
 			}
@@ -418,7 +418,7 @@ return {
 			actor = 102230,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（耳语）辛苦你照顾她了……",
+			say = "She must be a real handful... Thanks for always looking after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "无视了正在热烈演讲的丹佛与愣在一旁的克利夫兰，伯明翰略带些尴尬的感谢了我。",
+			say = "Denver sang Cleveland's praises, while Cleveland herself was left speechless. Birmingham, meanwhile, gave me her thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "在丹佛的努力（？）下，我和伯明翰的关系似乎更加融洽了……",
+			say = "Through Denver's enthusiasm, I got Birmingham to open up, if only a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

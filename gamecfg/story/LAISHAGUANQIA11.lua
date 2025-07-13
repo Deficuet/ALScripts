@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "遗迹群岛·争斗之城 一段时间后",
+			say = "Mirror Sea Ruins - Castle of Strife",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "你们发现了么，天空的颜色改变了哦。",
+			say = "Hey, is it just me, or does the sky look... off?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "刚刚还是一望无际的蓝天，转眼间就变成了灰蒙蒙的颜色。",
+			say = "It was blue just a minute ago, and now it's ash-gray all of a sudden!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "真的哎，就连水面的颜色也变得灰蒙蒙起来了。",
+			say = "Woah, you're right... Wait, even the water is turning gray!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "这个景象，我总感觉像是加了一层滤镜的镜头一样。让我后退回去看看——",
+			say = "It's almost like someone put a black-and-white filter over the world... Let me go back a bit and see what happens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦，只要向后走，天空和水面的颜色就变回去了！",
+			say = "...Holy moly! All the colors came back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的么？我也试试看！",
+			say = "Really? I want to see for myself.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -160,7 +160,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也……（后退，后退）",
+			say = "Me too...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -178,7 +178,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的欸……好像这座桥就是分界线，一边是蓝天白云，一边却是昏沉的雾霭。",
+			say = "Whoa, you weren't lying. It looks like crossing this bridge is what changes the colors.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -196,7 +196,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这究竟是用了什么魔法呢……有种类似某种结界的感觉。",
+			say = "How does that work? Is there a magic barrier of some sort?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……也许，只是塞壬设下的某些装置改变了空气的成分吧。",
+			say = "My guess is that the Sirens set up a device that changes the air's composition, or something like that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "虽然不清楚它们这么做的目的，但是无疑说明了塞壬遗迹的危险性，我们需要……",
+			say = "Why they'd do that, I can't imagine. Whatever their reasons, the fact remains that Siren ruins are rife with danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "不愧是{namecode:175}阁下！因为塞壬遗迹过于危险，所以我们需要尽快结束探索对吧！",
+			say = "Excellent point, Suruga! Since we're in a dangerous place, we should be swift and complete our investigation posthaste! Right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "其实是需要更谨慎的……算了。",
+			say = "(No! I've been saying we should proceed more carefully this whole time!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "你们不是还要比赛么？快点找到需要的东西，然后早点离开这片危险的地方吧。",
+			say = "Err, well... I suppose? Find whatever you're supposed to find quickly so we can wrap up this silly competition and get away from here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900050,
-			say = "这片土地，和之前遇到的森林不一样……",
+			say = "This place is unlike any forest I've seen before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900050,
-			say = "残骸已经有些年头了，也许和海域本身一样久远。",
+			say = "The ruins and wrecks here are quite old, too. They may even be as old as the entire region itself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……有些是不知名的建筑，有些是不知名的军舰，确实和之前遇到的敌人很不一样。",
+			say = "Yeah... These buildings and shipwrecks look unfamiliar. They're cut from a different cloth than the rest we've seen thus far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些其实也都是塞壬的残骸哦。军舰是与之前菲尔弗萨风不同的塞壬量产型III型，建筑则是塞壬的各类要塞设施。",
+			say = "Familiar or not, they're still mass-produced Siren wrecks, just without the Philuscha elements. The buildings are definitely Siren make, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "毫无疑问，过去在这里的塞壬阵地因遭受到毁灭性打击而被彻底摧毁了。",
+			say = "What's interesting is just how much damage they've sustained. Someone REALLY wanted to raze this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "这是发生在你们世界的战斗的真实模样么，真是惨烈……",
+			say = "What a ghastly sight. Battles in your world must be brutal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "嗯，这就是一直以来我们与塞壬的战斗。",
+			say = "That they are. Engagements with the Sirens always end in devastation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "不过大多数时候相比我们受到损失，把塞壬打成残骸的情况更多就是啦，就跟现在这种情况一样~",
+			say = "Having said that, it's always us who dish out the devastation, rather than receive it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "说来也奇怪，这里明显不是被我们的舰队摧毁的，而且也只能看到塞壬的残骸。究竟是谁做的呢……",
+			say = "Tangents aside, something's odd about this. We've never been here before, so who caused all this destruction?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "啊！难道这背后隐藏的秘密，就是碑文里所说的「往昔残酷的真相」？",
+			say = "Oh! That's part of the puzzle! This is where the brutal truth lay buried!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "调查方向有了……接下来就是第二轮，分头调查比赛，看看谁先得出结论！",
+			say = "Now we know what we're looking for... Well, time for round two! Everyone, split up and investigate! First to establish a theory wins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,11 +535,11 @@ return {
 			bgName = "bg_ryza_2",
 			hideOther = true,
 			dir = 1,
-			actorName = "芒&布里斯托尔&莱莎",
+			actorName = "Shimakaze & Bristol & Ryza",
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢————！",
+			say = "Okay!",
 			subActors = {
 				{
 					actor = 101490,
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "记得不要忘了我们的本来目标，寻找钥匙和炼金配方哦。",
+			say = "Ugh... Just please remember to look for the key and recipe as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "放心吧~！那么，比赛开始！",
+			say = "Yeah, we know! Ready... set... Go!",
 			painting = {
 				alpha = 0.3,
 				time = 1

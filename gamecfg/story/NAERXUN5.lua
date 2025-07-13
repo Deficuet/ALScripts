@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无法坦率的心意\n\n<size=45>五  给我点反应啊！</size>",
+					"The Virtue of Being Earnest\n\n<size=45>5.Say Something Already!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·白鹰生活区",
+			say = "Nelson, Rodney, and I finally arrived at the Eagle Union dorms.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比预定时间到的要早嘛，还以为皇家的BIG SEVEN会稍微摆一下谱呢。",
+			say = "Wow, the two of you are early. Color me surprised, I was afraid the Royal Navy's Big Seven would demand a special procession before entering our humble abode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也跟皇家的人一起来了啊，欢迎。",
+			say = "You even brought the commander with you, huh? Good stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个，我从皇家宿舍带来了一些茶叶，不介意的话，让我来给大家泡些冰红茶吧~？",
+			say = "Umm, we brought some tea leaves over from our dormitory. Should I prepare some iced tea for everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 105100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然没问题！天气这么热，会议还没开始就感觉口渴得不行了！",
+			say = "Sounds good. It's blistering hot out today, and I'm thirsty to boot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "靠着罗德尼的冰红茶稍稍平复了燥热与口渴后，演习前的作战会议正式开始了。",
+			say = "Rodney was guided to the kitchen, while everyone else headed to the conference room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的各位，因为本次演习需要跨阵营紧密合作，所以在开始之前，我希望能够充分交换彼此的意见。",
+			say = "It's a bit straight to the point, but I'd like to start discussing about how we can work together in the upcoming practice exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 105110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还真是开门见山啊…不过，这种积极讨论的态度，我并不讨厌。",
+			say = "A bit blunt, but... I don't mind people being a bit more efficiency-minded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，应该说，我们科罗拉多级也是这样的风格。",
+			say = "I agree. If anything, it might be something that we, Colorado-class sisters, are proficient at.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样么？看来我们很合得来嘛~那就继续这个话题吧——",
+			say = "It seems we're on the same page. Now then, let's continue our discussion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "BIG SEVEN的讨论一开始就十分热烈，仿佛让室温都升高了几度。",
+			say = "The discussion between the four quickly heated up from the onset.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "罗德尼会前准备的冰红茶真是帮大忙了…",
+			say = "By the time Rodney brought the iced tea over, the discussion seemed to already have boiled over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——万一出现大量敌方舰队袭来，我们在人数上将会处于压倒性的不利，为此…我有一个想法。",
+			say = "...While I will accept that this mission is relatively safe, there is no guarantee that we will not encounter the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本次演习的目标，说到底也只是成功抵达指定海域……",
+			say = "In the unlikely event that we're forced to engage with the enemy, we're likely to be outnumbered. We must be prepared to face such a situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们五人就算不组队，彼此分开也都是强大的单独战力。要是遇到无法突围的情况，就分散行动，并借机撕裂敌方封锁线怎么样？",
+			say = "If we encounter the enemy... We'll hit their weak point, then split up to flank them from the sides, cutting off their reinforcements while chipping them down piecemeal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "面对大量敌人时反而分散舰队么…确实是一个大胆的想法。指挥官觉得呢？",
+			say = "...Hmm. That's not a bad plan. What do you think, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,37 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不算泛用性特别高的战术。但强大的战列舰编队在特定场合下，也确实可以作为突破局面的方案…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼~我就是这种风格哦，指挥官你是知道的~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "既然是作战方案，就需要一个名字。",
+			say = "It's true that in a case where the enemy outnumbers you and you can't make a surprise attack to gain the initiative, you need to think of another plan. Nelson's plan is so daring, it might just work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我当然想过了，作战名字的话就叫——",
+			say = "I'm glad you have your wits about you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "纳尔逊突然伸出手指——",
+			say = "I need to give a name to the tactical maneuver, so I'll ask Nelson if she has any ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +352,37 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“纳尔逊之触”，大家觉得怎么样？",
+			say = "Of course I've thought of a name. It's...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "...*Poke*.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "What do you think about, \"The Nelson Touch\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎……？喂、喂！大家给我点反应啊！难得我亲自给作战命名一次呢！",
+			say = "Hey! Say something already! It's not every day that I come up with something innovative like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“纳尔逊之触”么。没问题，是个好名字。",
+			say = "\"The Nelson Touch,\" huh? Then that's what we'll do if we encounter enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "像五根手指一样分别突出撕裂敌人的战术，是不是叫“纳尔逊之爪”会更加贴切呢……",
+			say = "While rubbing my cheek at the location Nelson had poked at, I nodded at West Virginia's words. Indeed, I might have been zoning out for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "——看着激动的纳尔逊，一边想着这些不着边际的事，一边将杯中的冰红茶一饮而尽……",
+			say = "Maybe I wasn't hydrated enough. Feeling thirsty, I started to sip slowly at the iced tea that Rodney made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

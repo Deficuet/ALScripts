@@ -21,12 +21,10 @@ var_0_1.needStartSend = false
 
 local var_0_13
 local var_0_14
-local var_0_15
-local var_0_16
 
 function var_0_1.Connect(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 	var_0_1.erroCode = arg_1_4
-	var_0_16 = arg_1_3
+	var_0_14 = arg_1_3
 	var_0_3 = Connection.New(arg_1_1, arg_1_2)
 
 	var_0_0.UIMgr.GetInstance():LoadingOn()
@@ -44,7 +42,7 @@ function var_0_1.Connect(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 			var_0_13 = var_0_0.IPAddress.New()
 		end
 
-		var_0_15 = -1
+		pingDelay = -1
 		var_0_7 = true
 		var_0_10 = false
 
@@ -66,7 +64,7 @@ function var_0_1.ConnectByProxy(arg_3_0)
 
 	if arg_3_0:GetLastHost() ~= nil and arg_3_0:GetLastPort() ~= "" then
 		originalPrint("switch proxy! reason: first connect error")
-		arg_3_0:Connect(arg_3_0:GetLastHost(), arg_3_0:GetLastPort(), var_0_16)
+		arg_3_0:Connect(arg_3_0:GetLastHost(), arg_3_0:GetLastPort(), var_0_14)
 	else
 		originalPrint("not proxy -> logout")
 		var_0_0.m02:sendNotification(GAME.LOGOUT, {
@@ -376,17 +374,17 @@ function var_0_1.resetHBTimer(arg_25_0)
 	arg_25_0:stopHBTimer()
 
 	var_0_9 = Timer.New(function()
-		var_0_14 = TimeUtil.GetSystemTime()
+		heartTime = TimeUtil.GetSystemTime()
 
 		arg_25_0:Send(10100, {
 			need_request = 1
 		}, 10101, function(arg_27_0)
-			local var_27_0 = TimeUtil.GetSystemTime() - var_0_14
+			local var_27_0 = TimeUtil.GetSystemTime() - heartTime
 
-			if var_0_15 == -1 then
-				var_0_15 = var_27_0
+			if pingDelay == -1 then
+				pingDelay = var_27_0
 			else
-				var_0_15 = (var_27_0 + var_0_15) / 2
+				pingDelay = (var_27_0 + pingDelay) / 2
 			end
 		end, false)
 	end, HEART_BEAT_TIMEOUT, -1, true)
@@ -394,56 +392,46 @@ function var_0_1.resetHBTimer(arg_25_0)
 	var_0_9:Start()
 end
 
-function var_0_1.GetPingDelay(arg_28_0)
-	return var_0_15
+local var_0_15 = 0
+local var_0_16 = 2
+local var_0_17
+local var_0_18
+
+function var_0_1.SetProxyHost(arg_28_0, arg_28_1, arg_28_2)
+	var_0_17 = arg_28_1
+	var_0_18 = arg_28_2
+
+	originalPrint("Proxy host --> " .. var_0_17 .. ":" .. var_0_18)
 end
 
-local var_0_17 = 0
-local var_0_18 = 2
-local var_0_19
-local var_0_20
-
-function var_0_1.SetProxyHost(arg_29_0, arg_29_1, arg_29_2)
-	var_0_19 = arg_29_1
-	var_0_20 = arg_29_2
-
-	originalPrint("Proxy host --> " .. var_0_19 .. ":" .. var_0_20)
-end
-
-function var_0_1.GetLastHost(arg_30_0)
-	if VersionMgr.Inst:OnProxyUsing() and var_0_19 ~= nil and var_0_19 ~= "" then
-		return var_0_19
+function var_0_1.GetLastHost(arg_29_0)
+	if VersionMgr.Inst:OnProxyUsing() and var_0_17 ~= nil and var_0_17 ~= "" then
+		return var_0_17
 	end
 
 	return var_0_5
 end
 
-function var_0_1.GetLastPort(arg_31_0)
-	if VersionMgr.Inst:OnProxyUsing() and var_0_20 ~= nil and var_0_20 ~= 0 then
-		return var_0_20
+function var_0_1.GetLastPort(arg_30_0)
+	if VersionMgr.Inst:OnProxyUsing() and var_0_18 ~= nil and var_0_18 ~= 0 then
+		return var_0_18
 	end
 
 	return var_0_6
 end
 
-function var_0_1.CheckProxyCounter(arg_32_0)
-	var_0_17 = var_0_17 + 1
+function var_0_1.CheckProxyCounter(arg_31_0)
+	var_0_15 = var_0_15 + 1
 
-	originalPrint("proxyCounter: " .. var_0_17)
+	originalPrint("proxyCounter: " .. var_0_15)
 
-	if not VersionMgr.Inst:OnProxyUsing() then
-		if var_0_17 == var_0_18 then
-			originalPrint("switch proxy! reason: " .. var_0_18 .. " error limit")
-			VersionMgr.Inst:SetUseProxy(true)
-		end
-	else
-		VersionMgr.Inst:SetUseProxy(false)
-
-		var_0_17 = 0
+	if not VersionMgr.Inst:OnProxyUsing() and var_0_15 == var_0_16 then
+		originalPrint("switch proxy! reason: " .. var_0_16 .. " error limit")
+		VersionMgr.Inst:SetUseProxy(true)
 	end
 end
 
-function var_0_1.SwitchProxy(arg_33_0)
+function var_0_1.SwitchProxy(arg_32_0)
 	if var_0_13 and var_0_13:IsSpecialIP() then
 		if not VersionMgr.Inst:OnProxyUsing() then
 			originalPrint("switch proxy! reason: tw specialIP send timeout")

@@ -7,12 +7,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			bgm = "theme-tempest-up",
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "小的们……先停手！",
+			say = "No... Little guys, wait.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,10 +43,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "你们看对面小队指挥官身上的气息……是不是有点眼熟？",
+			say = "Look at their commander... Does anyone else recognise that aura?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,11 +60,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#FEF15E",
-			say = "……嗯？那个气息……是光明之加护呀。",
+			say = "Oh... Is that the Blessing of Light?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,11 +78,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "光明与正义女神的光明之加护……原来是王国军的人？！",
+			say = "The blessing bestowed by the goddess of light and justice... They're allies of the Royal Army!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,11 +96,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "喂——对面的指挥官，停手，快停手——",
+			say = "Hey! Commander! Let's stop fighting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,10 +114,10 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "都是误会——",
+			say = "This is all a big misunderstanding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			},
 			options = {
 				{
-					content = "让众人停止战斗",
+					content = "(Order a cease-fire.)",
 					flag = 1
 				}
 			}
@@ -137,9 +137,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "……误会？",
+			say = "A misunderstanding?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "没错……都是误会。",
+			say = "Yeah. You heard her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,11 +167,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "终于……我们终于等到你们了。",
+			say = "It's actually great that you're here. We've been waiting for this day for an eternity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,11 +185,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "……既然你们来了，就快把我们的尾款结一下吧！",
+			say = "Anyway, will you pay the rest of our reward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,15 +200,15 @@ return {
 			},
 			options = {
 				{
-					content = "……啊？",
+					content = "I'm sorry, what?",
 					flag = 1
 				},
 				{
-					content = "……什么？",
+					content = "\"The rest\" of it?",
 					flag = 2
 				},
 				{
-					content = "……尾款？",
+					content = "What reward?",
 					flag = 3
 				}
 			}
@@ -217,11 +217,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "欸……一晃都过去这么多年了。",
+			say = "*sigh*... Right, it's been centuries...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,10 +235,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "我们在过去曾是一群在海上自由自在，偶尔小奸小恶一下的海盗。",
+			say = "Okay, story time. We used to be free pirates who occasionally committed petty crimes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,11 +252,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "当然，就算海盗也总要下船返回陆地补给放松一下。",
+			say = "Every now and then, our crew made landfall to resupply and catch a break from the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,11 +270,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "这种时候，我们也做些雇佣兵的生意赚点零花。",
+			say = "Whenever we did, we'd offer ourselves as mercenaries in exchange for a bit of coin.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,11 +288,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "结果就在那一天……我们刚赚了一大票，回王都开庆功宴的那一天……",
+			say = "One day, we'd completed a really high-paying job and went to the city to celebrate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,10 +306,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "就在我们吃饭的时候，街道各处瞬间就乱成了一团。",
+			say = "We were having a meal when, all of a sudden, chaos broke out on the streets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,11 +323,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "然后突然有王都的大人物来找我们，雇佣我们保卫王宫。",
+			say = "Then this bigwig royal showed up and was like, \"Won't you come to the castle and be my guards?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,11 +341,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "我们本来想拒绝的……但是她给的实在是太多了。",
+			say = "I was gonna say, \"You think Tempesta is a bunch of sellouts, you dip?\" But that sum we were offered was too big to refuse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,11 +359,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "可是没想到……这一干，就干了几百年。",
+			say = "But there was a secret catch – that this protection gig would last hundreds of years!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,11 +377,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "我们在王都之中目睹了可怕诅咒的降临，大部分居民都变成了没有理性的不死生物。",
+			say = "We were here to witness that curse fall upon the city, turning almost everyone into a mindless undead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,11 +395,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "或许是我们对于开拓与冒险之神的信仰得到了回报，我们虽然没能从中幸存，但至少变为了幽灵海盗。",
+			say = "The goddess of pioneering and adventure must've rewarded us for our faith, because we were spared that fate. Sort of. We've existed as ghost pirates ever since then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,11 +413,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "其实……幽灵海盗还挺酷的。",
+			say = "Being a ghost pirate IS as cool as it sounds, don't get me wrong...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,11 +431,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "但是也架不住在一个地方干活几百年啊……维达已经累了……不想再工作了……",
+			say = "But being stuck in one place for countless generations suuucks! I'm fed up with it! I wish I could quit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,11 +449,11 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "还好……我们终于在今天等到你们来结账付款了。",
+			say = "Now, finally... FINALLY our payday has come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,11 +467,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……怎么说呢，明明应该是一个感人至深的悲伤故事。",
+			say = "Geesh... That's a pretty sad story.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,11 +485,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么我感觉这么……好笑。",
+			say = "Even if it sounds like it's waiting for a punchline...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,11 +503,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算啦，行侠仗义也是勇者分内之事！",
+			say = "No matter! A hero should embody the spirit of chivalry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,11 +521,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前从守望要塞里也拿了不少。不就是钱嘛，我们现在有的是~",
+			say = "If it's money you want, they gave us a load of it back at Sentinel Bastion!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,11 +539,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "给，你们看这些够不够？",
+			say = "Here! This should cover everything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_525",
-			say = "抚顺故作潇洒地拿出了一袋金币，重重的摔在地上。",
+			say = "Fu Shun assumes a cool attitude and produces a bag of gold, dropping it on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,11 +567,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "呃……她拿出的这些是什么，你们认识么？",
+			say = "Let's see... What the heck is this? Anyone recognise these?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,10 +585,10 @@ return {
 			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "我……从没见过这种钱币。",
+			say = "Can't say I do. I've never seen coins like these.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,11 +602,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "喂、你这是假钱吧，休想用假钱糊弄我们！",
+			say = "Bastards! You trying to rip us off with counterfeits?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,11 +620,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "假、假钱？！这可是货真价实的王国金币啊？！",
+			say = "Counterfeits?! This is the real stuff they use in the city!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,9 +648,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "原来如此……这些海盗幽灵一直被困在这里，不知道人类王国早就更换了新的金币。",
+			say = "Ahh. These pirates have been stuck here for so long that they don't know the kingdom's currency has changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,9 +660,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "只有旧王国时代铸造的金币才能满足她们吧……",
+			say = "We'll need coins they're familiar with if we want to pass through here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,16 +672,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（旧王国时代铸造的金币……我倒确实是有一枚。）",
+			say = "Speaking of which... it just so happens I have one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿出旧王国的金币给海盗",
+					content = "(Hand them the antique coin.)",
 					flag = 1
 				}
 			}
@@ -690,11 +690,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "噢~没错~这枚金币才是真的！",
+			say = "That's more like it. I knew you had the real deal on you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,11 +708,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#FEF15E",
-			say = "不过只有一枚可远远不够哦？",
+			say = "One single coin isn't gonna cut it, though!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,9 +726,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "这一枚算是证明我们此行诚意的保证金。",
+			say = "I know it won't. This is just a sign of goodwill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,9 +738,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "可否让我们进入王宫办事呢，办完事之后，就给你们剩下的部分。",
+			say = "I hope it's enough to let us pass. We'll pay you the rest once we've finished our business inside the castle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,11 +750,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "嗯……可以，就这么定了。",
+			say = "...Alright. You have a deal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,11 +768,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "飓风海盗团",
+			factiontag = "Tempesta Pirate",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#FEF15E",
-			say = "小的们，把路让开，让这群冒险者进去吧。",
+			say = "Little guys, clear the path and let the adventurers through.",
 			painting = {
 				alpha = 0.3,
 				time = 1

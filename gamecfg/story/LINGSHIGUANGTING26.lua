@@ -15,7 +15,7 @@ return {
 			actor = 900326,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "各位再坚持一下……我们马上就到斯卡帕湾了！",
+			say = "\"Just a little longer... and we'll be... back in port...!\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐，你现在的状态……",
+			say = "\"Hang in there, sis! Don't die on me!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "恐怕已经突破了临界点，META化已经彻底不可逆了吧。",
+			say = "\"I'm not dying... Not yet. How about you? Are you... all right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多亏姐姐打开的缺口，我们这小部分人才能撤回来……",
+			say = "\"The METAmorphosis is taking hold, but I'll manage... God, this is mental! The combined efforts of every shipgirl on the planet weren't enough...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论你变成什么样子，你永远都是我姐姐！",
+			say = "\"Listen to me, Renown. Whatever happens, you'll always be my sister! Don't forget that!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "好了，不说这些了。跟陛下的舰队联络上了么？",
+			say = "\"I won't! Have– Argh! Have you heard anything from Lady Elizabeth's fleet?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没收到任何回复……",
+			say = "\"No, the comms are dead. All of them. The Iron Blood's, the Eagle Union's, even Shinano's fleet with their Watatsumi...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "前卫究竟在做什么…！正常来说她肯定会带着陛下先撤回来吧……",
+			say = "\"Then the palace guard, the maids, and the knights have failed as well...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "不行、我要回去找。",
+			say = "\"So the task falls on me... I must bring Lady Elizabeth back to us... if it's the last thing I do...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是姐姐……我们收到的命令是在斯卡帕湾修整完毕后前往内陆避难所，不许擅自返回……",
+			say = "\"Get a grip, sis! We have orders to return to port!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "谁的命令？陛下的么？",
+			say = "\"Orders... from who? Do they matter anymore?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "\"...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "那就没有任何听从的价值。不要阻拦我，妹妹……",
+			say = "\"It's our duty as shipgirls to fight... If our inevitable fate is to sink... then I will do so fighting...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，姐姐你误会了，我要跟你一起回去。",
+			say = "\"Fine, but I'm coming with you. I refuse to let you leave alone.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "绝对不行！你现在伤的太严重了。",
+			say = "\"No, save yourself. You don't need to risk your life for my sense of duty...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我感觉，我可能也差不多到临界值了哦……",
+			say = "\"I'm not risking anything. Either I go down with you, or I turn META anyway in the end. Let's face it, my hull's not recovering from this.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "…………",
+			say = "\"...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两个人总比一个人好，不是么？",
+			say = "\"If I'm going to sink regardless, I want to do it on my own terms. With you by my side, sis.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论前方会发生什么事，都让我们一同去面对吧——",
+			say = "\"We've always been there for each other. That's not about to change.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

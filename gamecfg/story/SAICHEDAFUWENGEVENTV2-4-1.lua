@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "被评为“安全驾驶的模范赛车手”，获得了奖励【强化部件T3*2】"
+			say = "You were given the ranking of \"Safety-Oriented Driver.\" You received two T3 Parts!"
 		}
 	}
 }

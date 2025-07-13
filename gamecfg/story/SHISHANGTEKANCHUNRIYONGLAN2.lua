@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_541",
-			say = "生物钟准时敲醒沉睡的心灵，满室柔和的花香让身心不由放松下来。",
+			say = "My body clock wakes me up on time. The room smells like flowers.",
 			bgm = "story-richang-sooth",
 			live2dOffset = {
 				75,
@@ -46,7 +46,7 @@ return {
 			live2d = "login",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "缓缓睁开眼后，正好看到晨曦下的少女轻轻拨弄着枕边含苞待放的郁金香花束。",
+			say = "As I slowly open my eyes, I see a girl gently touching a budding tulip under the warm sunlight.",
 			hideRecordIco = true,
 			live2dOffset = {
 				75,
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_541",
 			live2d = true,
 			side = 2,
-			say = "♪♪~是个美好的早晨呢……你也这么认为嘛？",
+			say = "Hum hum... It's such a beautiful morning, don't you agree?",
 			live2dOffset = {
 				75,
 				0,
@@ -82,7 +82,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "乖孩子……是呢，我也希望和你一样，每时每刻都以最完美的模样陪伴在指挥官身边……",
+			say = "There, there... Good baby~ I wish I could be like you, always by the Commander's side in your most perfect state...",
 			live2dOffset = {
 				75,
 				0,
@@ -100,7 +100,7 @@ return {
 			live2d = "main3",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "七省轻轻拂去花瓣上的露水，低声絮语中带着无限温柔，直到我翻身的动作吸引走了她全部的注意。",
+			say = "Zeven gingerly brushes the dew off of the petals and coos to the flower in a sing-song voice – until my movement catches her attention.",
 			hideRecordIco = true,
 			live2dOffset = {
 				75,
@@ -119,7 +119,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "……咦？早安，指挥官~",
+			say = "...Oh? You're awake, Commander.",
 			live2dOffset = {
 				75,
 				0,
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_541",
 			live2d = true,
 			side = 2,
-			say = "你昨天工作到那么晚才休息，我还以为你会多睡一会儿呢。",
+			say = "You worked so late last night that I thought you'd sleep in a bit.",
 			live2dOffset = {
 				75,
 				0,
@@ -156,7 +156,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "七省？你怎么过来了？",
+			say = "Zeven? Why are you here?",
 			live2dOffset = {
 				75,
 				0,
@@ -174,7 +174,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "指挥官睡着的样子这么可爱，我实在不想错过嘛~",
+			say = "Umm... You're just too cute when you sleep. I couldn't bear to miss the sight.",
 			live2dOffset = {
 				75,
 				0,
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_541",
 			live2d = "touch2",
 			side = 2,
-			say = "而且，“我希望你醒来的时候，就可以看到我呢”……",
+			say = "I told the plants, \"I want to be the first thing the Commander sees when waking up.\"",
 			live2dOffset = {
 				75,
 				0,
@@ -209,7 +209,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "和植物们这么说了之后，就放我进来了~",
+			say = "And they graciously let me in!",
 			live2dOffset = {
 				75,
 				0,
@@ -229,7 +229,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（不……这句话已经很难懂了。）",
+			say = "(That doesn't make much sense.)",
 			live2dOffset = {
 				75,
 				0,
@@ -249,7 +249,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（但是七省的话，好像又可以做到……）",
+			say = "(But honestly, knowing her, I almost believe it.)",
 			live2dOffset = {
 				75,
 				0,
@@ -267,7 +267,7 @@ return {
 			live2d = "touch",
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "然后因为床垫软软的太舒服了，忍不住换了身舒服的衣服……",
+			say = "Then, the bed was so comfy that I just had to change into something more comfortable...",
 			live2dOffset = {
 				75,
 				0,
@@ -285,7 +285,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "这么说，已经完全进入居家模式了嘛~接下来的约会该怎么办呢？",
+			say = "I'm right at home now... What should I do about our date?",
 			live2dOffset = {
 				75,
 				0,
@@ -305,7 +305,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "是啊，我记得和你约定过，今早要一起去花园散步……",
+			say = "Oh, right, we did plan to go for a walk in the garden this morning.",
 			live2dOffset = {
 				75,
 				0,
@@ -325,7 +325,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我睡过时间了吗？",
+			say = "Did I oversleep?",
 			live2dOffset = {
 				75,
 				0,
@@ -343,7 +343,7 @@ return {
 			live2d = "main2",
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "没有哦。我看看，现在的时间是……",
+			say = "Nope. Right now, the time is...",
 			live2dOffset = {
 				75,
 				0,
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_541",
 			live2d = true,
 			side = 2,
-			say = "是深夜十二点钟呢~还有好几个小时才到散步时间……",
+			say = "Umm... Yes, we should have plenty of time until our date. It's 12 midnight.",
 			live2dOffset = {
 				75,
 				0,
@@ -378,7 +378,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "……咦，十二点？",
+			say = "Wait... Huh?",
 			live2dOffset = {
 				75,
 				0,
@@ -399,7 +399,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "……深夜？",
+			say = "What the...?",
 			live2dOffset = {
 				75,
 				0,
@@ -419,7 +419,7 @@ return {
 			actor = 1102011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如此阳光明媚的深夜……？",
+			say = "The clock says it's midnight, but it sure doesn't look like it outside.",
 			live2dOffset = {
 				75,
 				0,
@@ -437,7 +437,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "但是，闹钟的指针确实停在了这个位置呀……",
+			say = "B-but the clock hands really do stop here, see...?",
 			live2dOffset = {
 				75,
 				0,
@@ -457,7 +457,7 @@ return {
 			actor = 1102011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我顺着七省的视线看向床头的闹钟，事实果然如她所说。",
+			say = "I have a closer look at the clock and realize what the problem is.",
 			live2dOffset = {
 				75,
 				0,
@@ -477,7 +477,7 @@ return {
 			actor = 1102011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……然而这所谓的“停”，是指一种完全静止的状态。",
+			say = "The hands... they don't just stop – they're stuck in place.",
 			live2dOffset = {
 				75,
 				0,
@@ -495,7 +495,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "我昨天送指挥官回来的时候，想着帮指挥官定一下明早的闹钟……然后就……",
+			say = "Last night, after I walked you to your room, I thought I'd set your alarm for the morning... And then...",
 			live2dOffset = {
 				75,
 				0,
@@ -513,7 +513,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "……啊！仔细一看，指针完全停下了——",
+			say = "Ah! Oh no, it hasn't moved at all since then...",
 			live2dOffset = {
 				75,
 				0,
@@ -531,7 +531,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "难道又被我弄坏了吗……明明是认真按照说明书操作的呢……",
+			say = "Did I break it again? I'm pretty sure I followed the instructions just right...",
 			live2dOffset = {
 				75,
 				0,
@@ -552,7 +552,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "原来是这样。",
+			say = "Ah. I think I get it.",
 			live2dOffset = {
 				75,
 				0,
@@ -572,7 +572,7 @@ return {
 			actor = 1102011,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那就完全可以理解了。",
+			say = "That explains everything.",
 			live2dOffset = {
 				75,
 				0,
@@ -593,7 +593,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "是我疏忽了，下次就由我来定闹钟吧。",
+			say = "Sorry, this is really my fault. Next time, I'll set it myself.",
 			live2dOffset = {
 				75,
 				0,
@@ -611,7 +611,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "真是抱歉，又被指挥官照顾了呢……",
+			say = "I'm sorry... I keep causing trouble for you.",
 			live2dOffset = {
 				75,
 				0,
@@ -629,7 +629,7 @@ return {
 			live2d = "touch2",
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "那作为回报……请收下这份承载着我全部心意的小小惊喜吧~",
+			say = "I don't know if this makes up for it... but I have a little surprise. It holds all of my feelings for you♪",
 			live2dOffset = {
 				75,
 				0,
@@ -647,7 +647,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "七省轻轻靠近，忽然抬手遮住了我的视线——",
+			say = "Zeven gently leans in and puts a hand over my eyes.",
 			hideRecordIco = true,
 			live2dOffset = {
 				75,
@@ -683,7 +683,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "一缕清新自然的花香翩然而至。",
+			say = "A fresh fragrance envelops me.",
 			hideRecordIco = true,
 			live2dOffset = {
 				75,
@@ -702,7 +702,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "指挥官，能认得出我身上的香味吗~",
+			say = "Do you recognize this scent on me, Commander?",
 			live2dOffset = {
 				75,
 				0,
@@ -714,11 +714,11 @@ return {
 			},
 			options = {
 				{
-					content = "是春天的气味么？",
+					content = "It smells like spring.",
 					flag = 1
 				},
 				{
-					content = "嗅觉不灵敏了……",
+					content = "My sense of smell isn't too keen...",
 					flag = 2
 				}
 			}
@@ -733,7 +733,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "比起花香，更像春天的气息呢。",
+			say = "It smells like flowers... or all of spring, really.",
 			live2dOffset = {
 				75,
 				0,
@@ -752,7 +752,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 1102011,
-			say = "咦？这样的答案，比我预期的更好呢……",
+			say = "Do you think so? That's a more poetic answer than I expected.",
 			live2dOffset = {
 				75,
 				0,
@@ -773,7 +773,7 @@ return {
 			actor = 1102011,
 			actorName = "{playername}",
 			live2d = true,
-			say = "香味很好闻。不过距离太近，分辨不出来了……",
+			say = "It smells really good, but it's so close that I can't discern it.",
 			live2dOffset = {
 				75,
 				0,
@@ -792,7 +792,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 1102011,
-			say = "看来还需要准备一些咖啡豆来醒醒鼻子呢？",
+			say = "Then shall I get some coffee beans to reset your sense of smell?",
 			live2dOffset = {
 				75,
 				0,
@@ -809,7 +809,7 @@ return {
 			bgName = "star_level_bg_541",
 			live2d = true,
 			side = 2,
-			say = "今天的花香，是专属指挥官的黄色郁金香哦~",
+			say = "Heehee. Today's scent is a yellow tulip. It's just for you.",
 			live2dOffset = {
 				75,
 				0,
@@ -827,7 +827,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "“你的微笑让我的生活充满阳光”——这是黄色郁金香的花语。",
+			say = "In the Kingdom of Tulipa, it symbolizes a smile that lights up my life even more than the sun.",
 			live2dOffset = {
 				75,
 				0,
@@ -845,7 +845,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "嘿嘿，和指挥官给我的感觉很像吧~",
+			say = "That's exactly how I feel about you.",
 			live2dOffset = {
 				75,
 				0,
@@ -863,7 +863,7 @@ return {
 			live2d = "mission_complete",
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "你带给我的温暖，就像照进花房的阳光，连害羞的花蕾也忍不住悄悄绽放……",
+			say = "You bring light and warmth like the sun itself, encouraging even the shyest of buds to bloom...",
 			live2dOffset = {
 				75,
 				0,
@@ -881,7 +881,7 @@ return {
 			live2d = true,
 			nameColor = "#A9F548FF",
 			actor = 1102011,
-			say = "和你在一起的每时每刻，都会像这个春日一样灿烂吧——",
+			say = "Every moment with you is as bright and lovely as this spring day, Commander.",
 			live2dOffset = {
 				75,
 				0,

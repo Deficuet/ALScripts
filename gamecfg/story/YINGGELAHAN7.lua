@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>七　她的勋章</size>",
+					"Searching for the Light\n\n<size=45>7 Her Accolade</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，数日后————",
+			say = "Days later, at the Office...",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock* *knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -57,7 +57,7 @@ return {
 			},
 			options = {
 				{
-					content = "请进",
+					content = "\"Come in.\"",
 					flag = 1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "打扰了，指挥官。",
+			say = "Hey, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "是{namecode:525}啊，来得正好。",
+			say = "\"Ah, Ingraham. Perfect – I was just about to call for you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "你看，设备采购的文件都弄好了哦。",
+			say = "\"As you can see, I've finalized the documents to get you the equipment you asked for.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "相关的设备大概会在一个星期之内到位。",
+			say = "\"Said equipment will probably arrive within a week.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……指挥官。",
+			say = "Um, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "总之，先把文件收下吧？",
+			say = "\"In any case, why don't you hold on to the paperwork?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}有些犹豫地从我手中接过了文件。",
+			say = "Ingraham pauses for a moment before taking the documents from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "所以，在效率提高之后，困扰解决了么？",
+			say = "\"So, did the increase in efficiency fix your problems?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}急忙将视线转到一边。",
+			say = "She hastily shifts her eyes to the side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "我知道她已经明白我的言外之意了。",
+			say = "I can tell that she realized I was testing her all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "指挥官，关于新的设备……",
+			say = "Actually, Commander, about the new equipment...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "既然已经在准备了，那你就收下善加利用不好么？",
+			say = "\"I went through all the trouble of getting it, so you might as well put it to good use.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不是为了效率而不得不用，而是为了让创意发挥到最好。",
+			say = "\"Don't think of it as a way of increasing your efficiency – rather, think of it as a tool to let you better make use of your creativity.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}没有说话，抱着文件轻轻点了点头。",
+			say = "Ingraham doesn't argue back. She simply nods while holding on to the documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "很好。那今天的事情就先处理到这里，我出门透一下气。",
+			say = "\"Great. That settles things for today then. Now if you'll excuse me, I'm heading out for a breath of fresh air.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "……等一下指挥官！",
+			say = "...Wait, hold on a second, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在准备出门时，被{namecode:525}从身后叫住了。",
+			say = "Just as I'm about to leave, Ingraham calls for my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "那个……可以请你稍微弯下腰吗……",
+			say = "Umm... Would you mind bending down real quick?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "嗯……就这样别动哦…………",
+			say = "Uhh... Just like that. Don't move, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:525}从怀中掏出了一个亮闪闪的徽章，小心翼翼地为我别在胸前。",
+			say = "Ingraham takes out a shiny medal from her pocket and pins it in front of my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "好了~",
+			say = "There we go~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "别，别在意，只是镀银的而已，距离上次给你做的铁勋章已经过去很久了吧。",
+			say = "D-don't worry, it's only silver-plated. It's been a while since I last made a medal for you, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "正好没事就给你做了个新的。",
+			say = "So, I figured it was time to make you another one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,15 +374,15 @@ return {
 			},
 			options = {
 				{
-					content = "表示感谢",
+					content = "\"Thank you, Ingraham.\"",
 					flag = 1
 				},
 				{
-					content = "表示夸奖",
+					content = "\"You're the best.\"",
 					flag = 2
 				},
 				{
-					content = "摸一摸头",
+					content = "Pat her head.",
 					flag = 3
 				}
 			}
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "哼哼…………",
+			say = "Hehe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "对了，不如现在就去你的“工作室”参观一下怎么样？",
+			say = "\"Oh, before I forget, mind if I come visit your workshop?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "欸？！不行！那，那里太乱了！",
+			say = "Huh?! N-no, it's way too messy in there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "而且，那个地方也不是“工作室”，就只是被杂物堆满的库房而已！",
+			say = "B-besides, it's hardly worthy of being called a workshop! It's just a hodgepodge of junk at the moment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "可是设备什么的都已经批下来了，那里迟早要变成正式工作室的吧？",
+			say = "\"But, the official equipment has already been approved, so it will be worthy of being called a workshop sooner or later, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "这样的话，没有名字可不行。干脆叫“{namecode:525}的维修工坊”或者“{namecode:525}的万事屋”之类的？",
+			say = "\"And as an official facility, it deserves a name. Unless you have a better idea, I'm going to dub it 'Ingraham's Repair Workshop' or 'Ingraham's Fix-It-All Shop.' How does that sound?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "也没必要非要带上我的名字……",
+			say = "You don't need to stick my name onto it, seriously...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——是这样么，我倒是觉得带上名字比较可爱。",
+			say = "\"Really? I think it sounds cuter that way.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "指挥官……！",
+			say = "Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1

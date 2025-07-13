@@ -15,7 +15,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "遭受雷击？没事，凭借装甲厚度的话……无法进行水密处理？！",
+			say = "\"I'm flooding... Even with the defenses of an armored carrier... How could this be...\"",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————————！",
+			say = "KABOOM——!!",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "怎么可能…区区四发鱼雷就………………",
+			say = "\"From only four torpedoes? ...Impossible...\"",
 			bgm = "bsm-2",
 			flashout = {
 				black = true,
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "…舰装没有彻底完工，也没有搭载武装，还要选在这种时候贸然出航……也是必然的结果吧。",
+			say = "(Defenseless... Incomplete... with no planes... On my very first journey...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "真是，比醒来时失去应有的力量来还要凄惨的境况……幸好只是梦中之事。",
+			say = "(This was my past fate... as a warship...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "…………明明只是梦境而已，为什么妾身的「心」这么痛呢。",
+			say = "(But even though this is a dream, why does my body experience this agony...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			actorName = "{namecode:182}",
 			dir = 1,
-			say = "下沉还在继续，梦境还在持续么…？",
+			say = "(I am sinking... falling... Does this dream still continue...?)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意识正在远去，以往的梦境中从未出现如此真实的感觉……这个梦究竟是怎么回事……",
+			say = "(My consciousness is fading... but why does this feel so real... unlike any other? ...Is this the fate inscribed upon this one's existence...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯？鱼群身上泛起了光亮……?",
+			say = "(A series of unending dreams... But these fragments, sifting through my fingers...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那里是……",
+			say = "(What must I do... so that I may change this future...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "你来了啊，{dorm3d}。今天有什么计划吗？如果没有的话，接下来就由我来为{dorm3d}安排一下吧？",
+			say = "You've arrived, {dorm3d}. Do you have any plans for today? If not, how about I help you make a schedule?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello8",
 			typewriter = {
 				speed = 0.05,

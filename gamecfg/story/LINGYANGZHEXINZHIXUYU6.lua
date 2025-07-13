@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-3",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "衣柜好乱哦……",
+			say = "My closet is a total mess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是自己整理起来又没有头绪……",
+			say = "I would sort it out, but I have no idea where to even start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,12 +60,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}觉得怎么整理会比较好呢？",
+			say = "What do you think, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "按照类型分类放好吧",
+					content = "You could divide them into categories and go from there.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "随便塞一塞就好啦",
+					content = "Who cares? Just throw the clothes in there.",
 					type = 2
 				}
 			}
@@ -87,12 +87,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room2",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说的也是呢。这样整理的话以后会更方便找……",
+			say = "Good point. That'll make it easier to find what I'm looking for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以后我也要保持这样的习惯，让{tb}放心才好~",
+			say = "I'll try to make a habit of this to make your life easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +118,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room2",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}这么说……我感觉简单了很多呢。",
+			say = "If you say so, then alright... That's a lot less tiring ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,12 +134,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room2",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次找衣服的时候应该会很有趣吧……就像寻宝一样。",
+			say = "It'll be like a treasure hunt the next time I look in my closet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

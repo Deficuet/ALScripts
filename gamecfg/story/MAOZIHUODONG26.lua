@@ -11,7 +11,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "心怀仇怨的人，居心叵测的人，还有…无知之人！",
+			say = "The enemies have come to challenge me... and these insects have embraced evil... How ignorant, how foolish!",
 			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此处即为要塞的中心，死亡的天幕即将降下，汝等的旅途也将迎来尽头",
+			say = "What they shall find at the core, Deus ex Machina, shall put an end to their journey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "恐惧吧，战栗吧，准备陷入悲惨的灭------------",
+			say = "Give yourself to fear, for the end is nigh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…吵死了",
+			say = "...Is that so? The hell are you talking about? Are you trying to sound cool?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是什么？新型噪音攻击？有本事出来和塔什干面对面打一架",
+			say = "Come out already. That script you're reading from is lame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是塔什干，真是漂亮的应对~",
+			say = "Tashkent, do you know what she's talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "事到如今，不要再鬼鬼祟祟藏在黑暗中了，现出身影来吧，塞壬！",
+			say = "Don't just skulk about in the shadows, Siren! Come out and give us a fair fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_cccp_7",
 			actorName = "？？？",
 			dir = 1,
-			say = "咕唔唔唔……绝对让你们好看！",
+			say = "Gahaha... You asked for it!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "轰隆隆隆隆--------",
+			say = "(CREEAAAAAKKKK...!!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -206,7 +206,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！这回又是什么！？",
+			say = "What the heck is that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
-			say = "在通讯器陷入沉默的同时，伴随着一串巨响，冰雪构成的墙壁又有了新的变化",
+			say = "The ice walls cracked and split apart as a massive mechanical device began to stir, changing into a different form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
-			say = "分裂与重组，冰墙分裂为数个细小单元，按照各自不同的轨迹在水面上快速移动。",
+			say = "A giant dome rose over the icy waters and blocked out the light...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
-			say = "最终将在海面上圈出了一片海域，如同决斗场一般将所有人包围起来",
+			say = "What in the world... is this...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "璀璨的凛冬王冠加冕，墨染的钢铁之花绽放，众魂汇聚于无尽之海---将终末的序曲敲响",
+			say = "\"The king dons his Crown, the flowers are in full bloom, and the souls return to the seas. Thus begins the Overture of the End!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此处乃终末之地，亦为序曲之地，而吾将奏响这终末的序曲！",
+			say = "Every finale gives way to a new overture, as destruction gives way to new life. I am \"Omitter.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,11 +302,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "Omitter",
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "满足尔等临终前的愿望，在此显出吾之身形！",
+			say = "I am the one who rules over these seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
-			say = "伴随这一阵狂风，一个身影出现在了面前的海面之上",
+			say = "The Siren who masterminds these Mirror Seas has appeared before us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,27 +332,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "明斯克",
-			bgName = "bg_cccp_5",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唔？环绕周身的黑色漆黑巨大舰装…和先前所有记录都不一样…！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "甘古特",
+			actorName = "Minsk",
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼哈哈哈哈哈哈！居然是新型的高等塞壬单位！？性能未知能力不明，没有比这个更刺激的了啊！！",
+			say = "...I don't recognize her rigging...! Is she in the Eagle Union's database?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +348,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "威严",
+			actorName = "Gangut",
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…通讯干扰、和冰块变动，都是她的能力吗…？",
+			say = "Good, it isn't a proper finale without a high-ranking boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,11 +364,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿芙乐尔",
+			actorName = "Grozny",
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终末之地，与序曲之地…………",
+			say = "If we defeat her, we can get rid of this Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,11 +380,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "Avrora",
+			bgName = "bg_cccp_5",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(There's something different about her compared to the other Sirens we've fought before...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Omitter",
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呼呼呼，都看呆了呢，很好很好，我很满意！",
+			say = "Ahahaha! I like the looks of your faces! Yes, that's the performance that They desire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,11 +412,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "清除者",
+			actorName = "Omitter",
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "吾之名为清除者，将吾之名刻入灵魂，尽情的恐惧吧，尽情的颤抖吧",
+			say = "Let's see what it says next... \"My name shall be carved into your souls as you spend the rest of eternity trembling at the bottom of the abyss!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,11 +428,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "清除者",
+			actorName = "Omitter",
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔呼呼呼呵呵呵哈哈哈——！",
+			say = "That's so lame, it's cool! Ahahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			actor = 701040,
 			dir = 1,
-			say = "…这样。原来只是个不起眼的小不点，还以为会有多可怕呢。",
+			say = "What a cheeky brat. Can I beat her up, dear comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别浪费力气了，北方联合的战士可不会相信这些装神弄鬼的事！",
+			say = "Unfortunately, your idle threats mean nothing to the Northern Parliament!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "什？！！！！么？！！！！",
+			say = "What?! Impossible...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你们几个！从刚才开始就在破坏气氛啊啊啊啊啊啊啊啊啊啊！！！！！",
+			say = "You assholes!! You won't even play along with me for a few minutes!! Unforgivable!!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -523,7 +523,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊~对面的新型号塞壬，一边在通讯器里怪叫着，一边向我们冲过来了欸~",
+			say = "She's coming at us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,37 +539,7 @@ return {
 			side = 2,
 			actor = 705050,
 			dir = 1,
-			say = "同志们，准备战斗！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "唉…………感觉从来了之后就一直有种被耍弄的感觉，真是火大！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "快点解决了战斗，回温暖的港区睡觉吧…",
+			say = "Everyone, be on your guard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

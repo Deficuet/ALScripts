@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队2nd\n\n<size=45>一　第二次作战开始</size>",
+					"Fight On, Royal Maids!\n\n<size=45>Begin the Operation!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，听好了！这次的任务，只许成功不许失败！",
+			say = "Do I make myself clear, Bel? I won't tolerate failure on this mission!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然之前的圣诞派对主办权让给了白鹰，不过，最能在港区体现我们皇家实力的，还是实战演练！",
+			say = "We may have allowed the Eagle Union to hog the spotlight with their Christmas party, but the most effective way to prove that the Royal Navy is the mightiest faction here is through a show of force!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在联合演习上向展现我们皇家的风范吧！",
+			say = "At the upcoming joint exercises, make sure that everyone trembles before our might!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "陛下是这么说的…",
+			say = "In any case, that is what Her Majesty said...",
 			bgm = "level02",
 			flashout = {
 				dur = 0.25,
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要与骄傲的主人在演习的战场上再次兵刃相向…",
+			say = "So I must cross swords with my honourable Master's fleet once more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是因为这个才把我们集中到这里的吧",
+			say = "So that's why you called for all of us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与主人指挥的舰队进行演习倒是不成问题，不过如何控制力度反而是需要斟酌的呢…",
+			say = "I have no objections to facing off against Master's fleet, but... controlling the amount of force will take some finesse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 202210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没事没事，也不是第一次进行这种任务了，放轻松点上就好了~",
+			say = "Well, we've already done this once before, so let's not take this too seriously~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "话虽如此，毕竟是陛下的指示，还是得尽全力才行啊",
+			say = "That may be the case, but as these are the Queen's orders, I can't afford to hold back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这件事情的话，在和贝尔法斯特商量以后，决定先对参与本次演习任务的人员安排进行一次调整——",
+			say = "Indeed. Regarding that matter, I've consulted with Belfast and made some adjustments to the personnel who will be handling this important mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到刚来港区就要以这样的方式面对指挥官……",
+			say = "I'm a bit concerned... I just arrived at the base, and I already have to fight against my Master's fleet...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "黛朵，是不是要像这孩子一样被无情抛弃了……",
+			say = "Will Dido also be cast aside like this child here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 202100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧，其实这是陛下对女仆队的指示",
+			say = "Don't worry. Those are the actual orders that Her Majesty gave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如此这般……",
+			say = "*fidgets*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是说…作为女仆队的后援，在联合演习上扮演主人的对手…吗？",
+			say = "In other words, I'll be supporting the Royal Maids and... fighting against my Master's fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…！展示皇家的威光，同时也能为提升港区综合实力做出贡献，还能与舰队伙伴们加深交流…",
+			say = "Demonstrate the glory of the Royal Navy, help improve everyone's skills, and improve communication between members of the fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 202040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "更重要的…这是黛朵证明自己是“无论何种情况下都能满足主人任何要求”的好机会…！",
+			say = "...and most importantly, prove to my Master that I can fulfill any request, no matter the situation...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了…！为了陛下，为了主人！黛朵一定会全力以赴的…！",
+			say = "Understood! For the sake of Her Majesty and my Master, I will give it my all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐…简直是魔鬼",
+			say = "What a monster...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该说适才适所才对。无论是贝尔法斯特还是我上，都会在无意识里宠着指挥官，不能完全达到演习的目的",
+			say = "She's the right person for the job. If Belfast or I were to handle this job, we'd end up subconsciously holding back against the Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让黛朵来的话，综合各方面的考量，加上她对指挥官的感情，应该能达到更好的效果吧~",
+			say = "In contrast, Dido should be able to perfectly balance her obligations to the Queen, to the Maid Team, as well as to the Master, and therefore perform to her utmost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的。所以这次我们就在背后默默支援吧",
+			say = "Indeed. I suppose we'll be taking a back seat this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…主人的舰队差不多要来了。各位，做好战斗准备",
+			say = "...The Master's fleet will be arriving soon. Everyone, prepare for battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

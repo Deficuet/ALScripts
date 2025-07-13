@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>三　内心隐藏的情愫</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 3 Secretly Sprouting Sentiments</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "一个阳光灿烂的午后——",
+			say = "One sunny afternoon...",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "来到花房，花朵的芬芳一如既往——各色盛开的花卉宛如经过水滴折射的阳光。",
+			say = "As I make my way to the garden room once more, I am greeted again by the sight of the same flowers, droplets of falling water splitting the sunlight into a beautiful rainbow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "大波斯菊，月季花，金盏草，报春花……花卉的名字已经在跟{namecode:29}的相处中学到了不少，不过——",
+			say = "Tickweed, rosa chinensis, cape dandelion, fairy primrose. As I spent more time with Hanazuki, I came to know the names of more and more flowers. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "没有见到{namecode:29}。她是还没过来吗？",
+			say = "However, the one thing prominently missing today is... Hanazuki herself. She still doesn't seem to be here yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Zzz……zzz……",
+			say = "Zzz... zzz...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "房间里传来窸窸窣窣的声响。走进房间一看，{namecode:29}正趴在桌子上休息，发出轻微的呼吸声。",
+			say = "I hear some soft sounds coming from the back of the garden room, so I head inside to see what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "原来是在这里睡着了……既然如此，不如趁机————",
+			say = "I feel a sense of relief as I see her peacefully sleeping face. This is a perfect opportunity to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 			},
 			options = {
 				{
-					content = "为榵披上毯子。",
+					content = "Put a blanket over her.",
 					flag = 1
 				},
 				{
-					content = "开始收拾花房。",
+					content = "Tidy up around the garden room.",
 					flag = 2
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			optionFlag = 2,
-			say = "拿起{namecode:29}放在一旁的铲子与水壶，突然在身后听到了她断断续续的声音——",
+			say = "After that, as I bend over to pick up a gardening trowel and a watering can that had been left on the ground, I can hear a faint mumbling come from behind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……指挥官……这个……花的……意思是……Zzz……",
+			say = "Ehehe... Commander... in the language of flowers, this one means... zzz...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -212,7 +212,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……果然还是算了……Zzz……",
+			say = "Mmgh... I can't tell you after all... Zzz...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "只是梦话么……不过，稍微有些好奇，她提到的“花的意思”是指什么呢？",
+			say = "She's talking in her sleep, huh... But, I wonder what she means by \"the language of flowers.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……春天的阳光暖洋洋……一不小心就睡着了……",
+			say = "*Yaawn*... The afternoon sunlight felt so nice that it put me to sleep...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -293,7 +293,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！！指、指挥官？！你是什么时候过来的……？",
+			say = "Huh?! C-Commander? When did you get here?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -321,7 +321,7 @@ return {
 			},
 			options = {
 				{
-					content = "在你睡得香甜的时候。",
+					content = "\"When a certain someone was peacefully napping away.\"",
 					flag = 1
 				}
 			}
@@ -333,7 +333,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咕呜…糟糕，我的睡相都被指挥官看到了……",
+			say = "Ahh... No way, I hope I wasn't drooling in my sleep...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "没关系，是十分平稳的睡相。",
+			say = "\"Don't worry. You looked as serene and happy as could be.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了……",
+			say = "Oh... Is that so... I guess that's fine then...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "——就像某个栖居在花丛里的精灵一样呢。",
+			say = "I couldn't help but think to myself... Her sleeping figure felt like it blended right in with all the other lovely flowers here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官，不要开我的玩笑啦……！",
+			say = "Um, Commander, please don't make fun of me for this...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -437,7 +437,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我在睡着的时候，应该……没有说什么奇怪的话吧？",
+			say = "Also, I didn't say anything weird when I was napping, did I...?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -455,11 +455,11 @@ return {
 			},
 			options = {
 				{
-					content = "没有（斩钉截铁）",
+					content = "\"Nope, not at all.\"",
 					flag = 1
 				},
 				{
-					content = "提到了某个花朵的意思。",
+					content = "\"You mentioned something about the language of flowers.\"",
 					flag = 2
 				}
 			}
@@ -473,7 +473,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "呼，那就好……",
+			say = "Phew... Thank goodness...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "啊！真的么……如果是真的的话，请务必……务必忘掉那个！",
+			say = "Huh? Did I really? Um, can you just pretend like you didn't hear anything?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……本来打算用来和指挥官相处的宝贵的午后时光，就这样一下子过去了……好可惜……",
+			say = "Ugh... I thought I'd get a chance to spend some time chatting with you, but I ended up falling asleep and losing half the afternoon... What a shame...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -545,7 +545,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，指挥官，那个……请把这孩子带去指挥室吧……？",
+			say = "Commander, um, I feel really bad about this... But could you at least bring this back to your office?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -579,7 +579,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算我现在不是秘书舰队，只要能看到它的话，指挥官应该就能想起{namecode:29}了吧……哎嘿嘿。",
+			say = "Even if I can't be your secretary ship right now, I hope these flowers will remind you of me every time you see them... Ehehe...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -601,7 +601,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
-			say = "{namecode:29}递过来的是一盆黄白色的雏菊，带着些许淡雅的清香。",
+			say = "Hanazuki hands me another pot filled with yellow and white daisies. A faint fragrance wafts from the flowers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，下次……记得还要过来哟？",
+			say = "Commander... Will you come see me again?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

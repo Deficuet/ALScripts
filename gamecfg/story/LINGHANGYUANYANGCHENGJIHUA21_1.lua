@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "旋转木马缓缓启动，我抓准时机，坐上了TB旁边的木马。",
+			say = "I take a seat on the wooden horse just next to hers.",
 			bgm = "qe-ova-12",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，看这边。",
+			say = "Hey, TB, look here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~",
+			say = "Okay!",
 			voice = "event:/educate/tb/educate-tb-story-31-1",
 			painting = {
 				alpha = 0.3,
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "她看向镜头，伸出了手。",
+			say = "She extends her hand towards the camera.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您在拍摄的时候可不要手抖哦。",
+			say = "Make sure I'm in focus!",
 			voice = "event:/educate/tb/educate-tb-story-31-2",
 			painting = {
 				alpha = 0.3,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "放心吧。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "咔嚓——我按下拍摄键，将眼前的这幅光景定格。",
+			say = "The camera shutter clicks, and I snap a photograph of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,12 +116,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……回去之后，把今天拍下来的照片全都打印出来吧。",
+			say = "Heehee. When we're home again, you should print out all the photos we take today.",
 			voice = "event:/educate/tb/educate-tb-story-31-3",
 			painting = {
 				alpha = 0.3,
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "之后和TB在游乐园度过了一段难忘的时光。",
+			say = "Our amusement park visit continues after that, and we make some unforgettable memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

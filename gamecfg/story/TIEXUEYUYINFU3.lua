@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-1",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "雷达有反应，看起来有两只小老鼠跟在我们后面呢~",
+			say = "Oh, what's this? Were you rats looking for cheese, but found us instead?",
 			soundeffect = "event:/battle/scan",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然被、被发现了！",
+			say = "G-good heavens, they've detected us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊，快，快发电报，发电报！",
+			say = "Oh, shoot! Quick, we must send a telegram immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "{namecode:435}，要陪她们玩玩吗？",
+			say = "Bismarck, mind if I have a bit of fun with our pursuers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "许可交战，赶走她们。",
+			say = "Permission granted. Send them scampering.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			actor = 405010,
 			dir = -1,
-			say = "但是不要玩过头了，对方应该已经发送我们所在的位置信息了。",
+			say = "... But don't overextend yourself. They know where we are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "要尽力避免继续纠缠下去。",
+			say = "We must avoid spreading our forces too thin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "了解~准备交火！",
+			say = "Heheheh, got it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

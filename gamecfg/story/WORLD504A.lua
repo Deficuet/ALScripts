@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "SailAwayJustice-inst",
-			say = "NA海域 核心区域外围海域",
+			say = "NA Ocean - Core Sector",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各舰队已经在预定区域集结完毕，距离行动时间还有不到十分钟。",
+			say = "The fleet has finished assembling at the designated area. Mission will start in about 10 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于要到这一刻了……",
+			say = "Finally we're moving out again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "塞壬在中心区域中投入了大量舰队，并辅以密集的要塞群固守。",
+			say = "Our reconnaissance has confirmed the presence of a tremendous Siren force and a massive stronghold in the center of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此本次不是速战速决的斩首行动，而是稳步推进的海域清理。",
+			say = "This operation is massive in scope. Unlike usual, we won't be taking quick skirmishes to knock out their command network. Instead, we'll be pushing our entire forces through for a direct confrontation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "基于双方实力的对比，指挥部决定计划采用全线施压多点突破的行动方案。",
+			say = "Yep. Considering the size of our respective forces, Naval HQ decided the best strategy was an all-out attack from all directions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "没有什么投机取巧的战术，舰队由外至内逐层推进，彻底消灭核心区中的每一个塞壬单位。",
+			say = "It's very straightforward. All you have to do is steadily clear all the obstacles in your path and eliminate every last Siren you see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有佯攻……从六个前哨战中出发的舰队全都执行的是主攻任务，指挥部的安排还真是夸张……",
+			say = "We'll have every fleet from every outpost in the area, all fighting with the same goal in mind. Simple and straightforward, just the kind of strategy I can get behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "毕竟这次参与决战的兵力十分充足嘛~",
+			say = "It's not so simple for the girl who has to coordinate the efforts of so many people at once. Anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，从配置上看起来，我们这边的舰队规模在主攻方向之中也是最大的就是了……",
+			say = "Our fleet is the biggest one sortieing today, and we'll have the Commander at the helm. I suppose that makes it something of a superfleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			actor = 107030,
 			dir = 1,
-			say = "因为我们这边不但有指挥官，还有皇家的伊丽莎白女王陛下嘛~",
+			say = "Especially with Queen Elizabeth herself joining us too~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在摸清楚塞壬防御纵深之前，行动采用取稳扎稳打的方式。",
+			say = "But, even with the huge fleet we've assembled, we'll still have to break through one defensive barrier at a time to reach the center of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "八个方向齐头并进，全方向击溃一层防线后，再一同向下一层突破。",
+			say = "Though we have a rough idea of what we're up against, the fact remains that our intel on the whole is limited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这样，用绝对的实力彻底碾碎塞壬最后据守的孤岛吧~",
+			say = "Yup! To summarize, it's not a race, it's a multi-lane Siren-busting marathon to the center!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,26 +221,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋————————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204030,
-			nameColor = "#a9f548",
-			side = 2,
-			paintingNoise = true,
-			dir = 1,
-			say = "诸位，本次对于NA海域塞壬反攻作战，终于迎来了决战的时刻。",
+			say = "Bzzzzt––––––––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +240,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "曾几何时，我们在塞壬的入侵下毫无还手之力，战友在我们面前牺牲，海洋在我们面前沦陷。那是一段令人绝望之时——",
+			say = "This is battlecruiser Hood of the Royal Navy fleet. I've been asked to deliver a speech on behalf of the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +256,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "但亦是酝酿希望之时！面对敌人的步步紧逼，我们没有屈服，我们选择了坚持战斗。",
+			say = "Long ago, the Sirens appeared and ushered in an age of terror. Humanity could do nothing but watch as they seized our seas with ruthless aggression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +272,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "从绝望的泥淖中爬出的我们，拾起一度失去的勇气与信心，化作砥砺前行的动力。",
+			say = "They were unrelenting and merciless, but despite their best efforts, we refused to yield. Even when we lost battle after battle, we never lost hope of winning the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +288,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "作为从塞壬手中夺回自由与和平的碧蓝航线中光荣的一员，我们艰苦奋战，直至今日。",
+			say = "When they would push us to the brink, we would muster all our strength and courage to push them right back. Our resolve was tested, but it never once faltered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +304,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "终于，NA海域中的塞壬已经陷入混乱，它们调集仅存的舰队在这片由风暴保护的核心海域中负隅顽抗。",
+			say = "We, as proud members of the Azur Lane, have fought tirelessly to reclaim the seas – to reclaim our freedom and peace. Our battle is far from over yet, but luck is on our side today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +320,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "对于我们而言，这是最后的难关。最后的敌人就在那里，最终的胜利也在那里。",
+			say = "The Sirens in the NA Ocean are in disarray. They are concentrated at the ocean's centre, where a great storm defends what remains of their fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +336,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "胜利的天平正朝我们倾斜，我们的手中亦重握命运之舵轮。",
+			say = "To them, this is their last stand. To us, this is a decisive victory just within reach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +352,23 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "所以现在，我们的任务是什么？",
+			say = "They shall find no stay of execution from us this day. We are the ones who shall turn the cogs of destiny!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204030,
+			nameColor = "#a9f548",
+			side = 2,
+			paintingNoise = true,
+			dir = 1,
+			say = "Shipgirls, once more, muster your strength and courage with me, and we shall defeat the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "进攻，进攻，还有进攻。瓦解敌人最后的抵抗，取得这场战役压制性的全胜！",
+			say = "Let us take back what is rightfully ours, and seize true glory with our own hands!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "接下来就交给你了，指挥官。",
+			say = "Commander, kindly give us the order to start!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，已到达行动时间，各舰队都在等待您的进攻命令。",
+			say = "The operation is scheduled to begin now. All fleets are ready to sortie.",
 			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——————————",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			},
 			options = {
 				{
-					content = "各舰队注意，进攻开始！",
+					content = "\"All fleets! Commence the attack!\"",
 					flag = 1
 				}
 			}

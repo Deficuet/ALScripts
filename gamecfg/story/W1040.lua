@@ -10,22 +10,22 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "检测到塞壬的特殊资源补给。因为能源枯竭，已经无法正常开启了。不过，就算强行破坏也能回收一定材料。",
+			say = "A special Siren resource supply has been located. Due to a lack of power, it can no longer be opened through normal means. How should I proceed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "使用[塞壬能源存储器]（额外获得适应性）",
+					content = "Use an Energy Storage Device.",
 					flag = 0
 				},
 				{
-					content = "直接破坏",
+					content = "Smash it open.",
 					flag = 1
 				},
 				{
-					content = "暂时离开",
+					content = "Leave it for now.",
 					flag = 2
 				}
 			}

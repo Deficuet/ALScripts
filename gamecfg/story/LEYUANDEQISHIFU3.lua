@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"乐园的起始符\n\n<size=45>音符的“碰撞”</size>",
+					"Paradise Opens for Business\n\n<size=45>3 Vying Melodies</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "今日的指挥室中，出现了意料之外的人。",
+			say = "An unexpected visitor came to my office.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "斯特拉斯堡？",
+			say = "Strasbourg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "呵呵，指挥官看到我好像很惊讶？",
+			say = "Aww, are you that surprised to see me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "也是呢，毕竟原定是由{namecode:531:腓特烈·卡尔}或者西弗吉尼亚来解说我们的方案呢。",
+			say = "I get it. The original plan was for Friedrich Carl and West Virginia to present their plan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "我说我想试试看{namecode:98:明石}的这个装置，就和她们交换了一下。",
+			say = "But when I expressed my desire to use Akashi's device, they let me do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女说着向前了几步，凑到了我的耳边。",
+			say = "She sidles over to me and whispers into my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜~这次的先行体验人员不是指挥官呢……",
+			say = "It's just such a shame you're not part of the experiment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "不然就能听听看指挥官能用那些设施演奏出怎样的乐曲了。",
+			say = "I was so very interested in what melodies you'd play at the attractions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "不过还有下次机会……对吧~？",
+			say = "But there will be more opportunities... won't there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女在耳畔发出一声轻笑，随即又拉开了距离。",
+			say = "After flashing a mischievous grin, she leaves me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "斯特拉斯堡小姐过来这边喵~{namecode:98:明石}帮你戴设备喵~！",
+			say = "Strasbourg! Over here, nya~ I'll put your headset on for you, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女顺应着{namecode:98:明石}的呼唤，坐到了皇家方舟和{namecode:33:睦月}二人的身边。",
+			say = "Upon the cat's beckoning, she goes and sits next to Ark Royal and Mutsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果感觉到有痒痒的像蚂蚁爬的感觉是正常的喵~是已知问题喵~",
+			say = "If it feels like ants are crawling on your head, that's normal, nya~ Known issue, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？我记得之前进入异世界的时候没什么感觉？",
+			say = "Hmm? I didn't feel anything like that last time I wore one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要把那么大的装置调整成便携家用版，肯定会有些问题产生喵！",
+			say = "Look, I had to turn that giant machine into a portable headset, nya! There are gonna be bugs, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "调试OK了喵~随时可以启动了喵~！",
+			say = "Final adjustments done, nya~ Turn it on when you're ready, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本人和{namecode:33:睦月}妹妹也做好准备了。",
+			say = "Mutsuki and I are ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "我也准备好了。",
+			say = "Likewise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。那么，第二场游乐园DEMO体验，开始——",
+			say = "Okay. Now starting round two of the amusement park demo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "在头皮上传来熟悉的细微酥麻、以及一阵奇妙的失重感之后。",
+			say = "One bout of numbness and weightlessness later...",
 			bgm = "bar-soft",
 			typewriter = {
 				speed = 0.05,
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "再次睁开眼时，已然是不一样的世界。",
+			say = "When the girls opened their eyes, they were in another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "飘在空中的线和……黑黑的蝌蚪？",
+			say = "There are lines in the sky... and tadpoles?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "呵呵，那是音符和五线谱哦~",
+			say = "Those are musical staffs and notes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "对了，二位不妨看看自己身上的衣服。",
+			say = "More importantly, take a look at yourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？这是什么时候为本人换上的？",
+			say = "Hmm...? When did I change clothes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301322,
-			say = "{namecode:33:睦月}这样，像是参加祭典一样……！",
+			say = "I look like I'm going to a festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟在我们的设想中，这里会是以音乐为主题建造的园区。",
+			say = "That's right. Our amusement park idea is themed after music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "所以希望大家都能穿上与之调性相符的服装。",
+			say = "So I had you changed into outfits that matched your personal tastes and the amusement park theme.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "不过我没想到只是简单一笔带过的设定，也会被还原……",
+			say = "The specifications were left vague. I'm amazed that they made such a detailed world out of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "音乐……音符……{namecode:33:睦月}搞不明白耶……",
+			say = "Music? Notes? I don't really get it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "本人有些担心，这个园区的游玩门槛会不会过高？",
+			say = "Strasbourg, this park feels a tad inaccessible to the layman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实际体验一下便知。二位请随我来。",
+			say = "You'll understand when you try it. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "在萦绕着音符的园区中前行，很快便来到了一个巨大的设施面前。",
+			say = "They proceeded through the park overflowing with music and arrived at a giant attraction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好多摇摇车~！",
+			say = "So many toy cars!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "{namecode:33:睦月}妹妹，本人觉得这个更像是碰碰车哦？",
+			say = "They're not exactly toys, Mutsuki – they're bumper cars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "说的没错，不过这里的每辆碰碰车都代表一种乐器。",
+			say = "That's right. Each of them represents a musical instrument.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "我将它命名为「交响碰撞」。",
+			say = "Fittingly, this attraction is called the Bumper Symphony.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "当车辆相撞时，会发出对应乐器的声音，设施中的系统则会根据碰撞情况实时编曲。",
+			say = "When the cars bump into each other, they play sounds. Said sounds compose a song via the attraction's control system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇！会有“粑粑的粑粑叫什么~？”这种歌嘛？",
+			say = "Wow! Can it play \"The Wheels on the Bumper Car\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "呃……这个恐怕没有呢……",
+			say = "Um... P-probably not...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "二位请先选择自己想乘坐的乐器车吧。",
+			say = "Go on. Pick the car instrument that suits your fancy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "唔……那，本人就选辆竖琴车好了。{namecode:33:睦月}妹妹呢？",
+			say = "Okay... I'll go for the harp car. Mutsuki?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有点长长的、两边又有点圆圆的车……！",
+			say = "I want that long one with the head and tail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "是说小提琴车吧？",
+			say = "You mean the violin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯！看起来像把苹果糖串在一起！{namecode:33:睦月}要坐~！",
+			say = "Yeah! It looks like a stretched-out candy apple! I wanna ride that one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "对了，同时行进到场地边缘的金色区域，就可以触发音乐高潮。",
+			say = "By the way, if you go into the golden area on the edge of the lot, the song will reach its high point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "在坐上各自的乐器碰碰车后，伴随着斯特拉斯堡的指令，游戏正式开始。",
+			say = "The girls got into their cars. On Strasbourg's signal, they began playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "皇家方舟的竖琴车轻轻撞上墙壁，发出悦耳的乐声。",
+			say = "Ark Royal's harp car struck a wall, and a lovely harp chord played.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:33:睦月}也要~！",
+			say = "Me, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "少女说着将手中的方向盘一转，撞向了皇家方舟的方向。",
+			say = "When she heard it, Mutsuki spun her steering wheel and rammed her violin car into Ark Royal's harp car.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "下一刻，竖琴和小提琴的合奏响起，无比美妙。",
+			say = "The two instruments played a beautiful melody.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "不错嘛，{namecode:33:睦月}妹妹！我们配合得挺好的。",
+			say = "Good stuff, Mutsuki! Keep it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真哒？那我再来！",
+			say = "Really? Okay, here I go again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "小提琴车方向一转，但因{namecode:33:睦月}用力过猛，撞上了一辆无人的鼓车。",
+			say = "The violin car drifted... and the sudden rotation sent it careening into the unmanned drum car.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "一阵强劲有力的鼓点响起……但是根本无法和小提琴融合。",
+			say = "A powerful, rhythmic drum beat played... but it failed to mesh with the violin's dulcet tones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301322,
-			say = "唔……好难听！",
+			say = "Aww... That sucked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "{namecode:33:睦月}猛地松开了手中的方向盘。",
+			say = "Mutsuki let go of the steering wheel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "竖琴和小提琴车再度相撞后，随即又撞上了一辆萨克斯车，然后是圆号、三角铁……",
+			say = "The violin and harp cars collided again. Then they struck the sax, horn, triangle, and so on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "整个场地中开始充满不协调的乐器声。",
+			say = "The whole lot was full of a mad cacophony of random instruments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "没、没事，我们再试试。往那个金色区域开，也许能挽救一下！",
+			say = "I-it's okay! Let's do it again! If we can get into the golden area, we might just save this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "两人的碰碰车在此起彼伏的声响中，同时进入了金色区域，触发了音乐高潮。",
+			say = "While other cars kept on bouncing and making random sounds, the two manned cars entered the golden area at the same time, forcing the song to its climax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "飘出的乐声轻灵之中带着一丝浑厚，浑厚之中又涌上一阵诡异……",
+			say = "It made a melody that was light yet rich, profound yet uncanny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "本人……还是叫斯特拉斯堡小姐来帮帮忙吧……",
+			say = "Yeah... We might need Strasbourg's help for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "在结束了碰碰车设施运行后，二人有些狼狈地从车上下来。",
+			say = "When Strasbourg stopped the attraction's control system, the two of them hastily got out of their bumper cars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207022,
-			say = "抱歉，斯特拉斯堡小姐，我们刚刚好像把这里变成了噪音地狱……",
+			say = "I'm sorry. I feel like I just stepped into musical hell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "没关系，其实算不上噪音……反而也是一种独一无二的音乐。",
+			say = "Don't worry. It wasn't so messy... In fact, it was bellicoso, in a way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "不过这也让我意识到了这个设计所存在的缺陷之处。",
+			say = "However, that did prove some of the flaws in our design.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个方案就由我向指挥官提议叫停吧。",
+			say = "I'll have the Commander deny this proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1021,7 +1021,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "看着斯特拉斯堡等人睁开眼，摘下自己头上的装置后——",
+			say = "The girls woke up and took off their headset terminals.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -1053,7 +1053,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "指挥官，这一份就直接PASS吧~",
+			say = "Commander, I must apologize. You can deny our proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,7 +1067,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "下次如果还有机会，我会整理一份更完美的方案出来的。",
+			say = "If there's another opportunity, we'll correct its flaws and devise a more perfect plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1078,7 +1078,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "少女的脸上虽然依然带着笑容，但语气却有几分惋惜。",
+			say = "There was a smile on her face, but her voice had an air of disappointment to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也好。不过不用一个人逞强，如果没有太好的思路，也可以及时来找我。",
+			say = "Don't brood over it too much. If you have any good ideas, come to me whenever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1105,7 +1105,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是犯规呢……指挥官，你这样说的话，可是会让我想独占你的哦？",
+			say = "Now you've said it... Keep that up, and I'll just want to monopolize you more and more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1117,7 +1117,7 @@ return {
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "没什么~ 我看她们今天也玩儿累了，不如就各自回去休息吧~？",
+			say = "Just talking to myself. Everyone seems tired, so shall we consider ourselves done for the day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1143,7 +1143,7 @@ return {
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。大家都休息一下，明天继续吧。",
+			say = "Sure. You two get some rest, and I'll see you tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

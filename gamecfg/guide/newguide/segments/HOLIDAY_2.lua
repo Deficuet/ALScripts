@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "完成重建任务可以获得更多运力",
+				text = "Complete the reconstruction missions to improve your logistics.",
 				mode = 2,
 				dir = 1,
 				char = "char",
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "前往运输码头，消耗运力获取重建物资",
+				text = "Tap on the transport pier, spend your logistics, and procure materials!",
 				mode = 2,
 				dir = 1,
 				char = "char",
@@ -43,7 +43,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.64,
 			style = {
-				text = "推进别墅岛重建进度，解锁更多功能",
+				text = "You'll unlock all sorts of mechanics as the resort's reconstruction progresses.",
 				mode = 2,
 				dir = -1,
 				char = "char",

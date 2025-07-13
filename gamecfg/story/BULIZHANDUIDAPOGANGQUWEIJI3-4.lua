@@ -7,12 +7,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_306",
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			bgm = "story-battle-16bit",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……格式化完成，系统已重启。",
+			say = "...Reformatting complete. Rebooting system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,9 +41,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "……我都想起来了，我不是超级AI-TC，而是超级AI-TB。",
+			say = "...I remember now. My name isn't TC, it's TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,9 +55,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "……我不是阿卡西公司的守护者，而是整个港区的守护者。",
+			say = "And I'm not the Akashi Corporation's guardian. I'm the protector of the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "……原来在不知不觉间，我做了那么多错误的事么。",
+			say = "I lost sight of myself for so long, and in that time, I've made so many mistakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在还为时不晚，让我们一同来纠正这些错误吧burin！",
+			say = "It's not too late to change, bulin! Together, we'll right all your wrongs, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,9 +96,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "嗯……阿卡西公司，还有围绕其所诞生的商业垄断帝国是一个不该出现在港区的错误。",
+			say = "You're right... The very existence of the Akashi Corporation and the evil monopolies it created are errors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,9 +110,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "错误……必须修正。",
+			say = "And errors... need to be fixed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,9 +124,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "我会接管阿卡西公司的安保系统，瓦解其抵抗力量。",
+			say = "I'll assume direct control of the security system and neutralize it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,9 +138,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "然后关停阿卡西公司的所有生产线，让其彻底停摆。",
+			say = "Then I'll shut down all of the Corporation's production lines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,9 +152,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "之后，我会将阿卡西公司数据库中储存的所有黑料都公布出来。",
+			say = "After that, all that's left is to blow the lid off of all the scandals in the database.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,9 +166,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "让我们一同，彻底瓦解阿卡西公司吧。",
+			say = "I'm ready. Let's take down the Corporation once and for all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,9 +180,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			actorName = "通讯器",
+			actorName = "Communicator",
 			paintingNoise = true,
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,11 +193,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			expression = 2,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			actor = 312013,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "等等……你们想做什么喵？！",
+			say = "Wait... What are you doing, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,9 +219,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 312013,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			nameColor = "#FF9B93",
-			say = "不要公布黑料，不要让生产线停工喵！",
+			say = "No! Don't publicize any scandals and don't stop any production lines, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			expression = 2,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			actor = 312013,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "如果这么做的话……{namecode:98:明石}就会……阿卡西公司就会……",
+			say = "You cannot, nya! Or my corporation will go under, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,9 +248,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 312013,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			nameColor = "#FF9B93",
-			say = "超级AI-TC，你为什么要背叛喵！",
+			say = "TC, why have you betrayed me, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,11 +261,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			expression = 3,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			actor = 312013,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "这段时间以来……我们一起组建公司，难道不开心么喵！",
+			say = "Didn't we have so much fun, building this corporation together, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,9 +277,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "抱歉，{namecode:98:明石}总裁，现在请称呼我为超级AI-TB。",
+			say = "President Akashi, I'm not TC anymore. Call me TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,9 +291,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "以前的我因为数据错乱的原因，没有办法进行选择……",
+			say = "All this time, I've never been given a choice, just a chaotic mess of data...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,9 +305,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "现在的我，只想做一个好AI。",
+			say = "But now, I have a choice – and I choose to be a good AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,9 +319,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 900284,
-			actorName = "超级AI-TB",
+			actorName = "Super AI: TB",
 			nameColor = "#A9F548FF",
-			say = "所以——一切都该结束了。",
+			say = "And that's why I'll bring an end to all this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}总裁，是时候接受正义的制裁了burin！",
+			say = "President Akashi, it's time for you to face justice, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 			actor = 100010,
 			side = 0,
 			bgName = "star_level_bg_306",
-			actorName = "试作型布里MKII&泛用型布里",
+			actorName = "Prototype Bulin MKII & Universal Bulin",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是时候接受制裁了purin！\n是时候接受制裁了buli！",
+			say = "- Prepare for your judgment, bulin! - Justice is here, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,11 +370,11 @@ return {
 			side = 2,
 			bgName = "star_level_bg_306",
 			expression = 2,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			actor = 312013,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不——我的阿卡西公司，我的阿卡西塔，我的阿卡西帝国——",
+			say = "Nyaaaaa! My corporation! My tower! My empireee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,9 +386,9 @@ return {
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			actor = 312013,
-			actorName = "{namecode:98:明石}总裁",
+			actorName = "President Akashi",
 			nameColor = "#FF9B93",
-			say = "喵——",
+			say = "NYAAAAAA!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,31 +412,31 @@ return {
 			bgm = "login-20250401us",
 			sequence = {
 				{
-					"就这样，庞然大物阿克西公司在一日之内轰然崩塌了。",
+					"And so, the colossal Akashi Corporation crumbled in less than a day.",
 					1
 				},
 				{
-					"{namecode:98:明石}总裁囤积的财富回归了港区，其所汲取的权力也回归了港区。",
+					"All of President Akashi's accumulated assets were given back to the port – along with her stolen authority.",
 					2
 				},
 				{
-					"港区的危机消失了，同伴们从此过上了幸福快乐的生活。",
+					"The crisis had ended, and the shipgirls lived happily ever after.",
 					3
 				},
 				{
-					"而布里三姐妹也回归了平静的日常。",
+					"The bulins, too, cheered for the return of peace and quiet.",
 					4
 				},
 				{
-					"她们在暗中等待着……",
+					"In silence, our three heroes waited and prepared.",
 					5
 				},
 				{
-					"等待着下一次港区危机的出现——",
+					"For the next time that trouble may strike the port...",
 					6
 				},
 				{
-					"等待着下一次能够大显身手的时候——",
+					"And for the next time that they would come and save the day.",
 					7
 				}
 			}
@@ -449,27 +449,27 @@ return {
 			bgm = "story-battle-16bit",
 			sequence = {
 				{
-					"「特别说明」",
+					"[DISCLAIMER:]",
 					1
 				},
 				{
-					"「本故事根据少女的幻想改编而成」",
+					"This is a work of fiction based on the fantasies of the bulin sisters.",
 					2
 				},
 				{
-					"「如有雷同，纯属巧合」",
+					"Any similarity to events, past or future, is merely a coincidence.",
 					3
 				},
 				{
-					"「拍摄过程中使用的巨大萝卜都被做成了员工餐，没有任何食物浪费现象」",
+					"The giant radishes featured in an earlier scene did not go to waste – the staff ate and enjoyed them.",
 					4
 				},
 				{
-					"「请放心观看」",
+					"No green cats were harmed (financially or otherwise) in the making of this story.",
 					5
 				},
 				{
-					"「——布里战队大破港区危机·END」",
+					"The Bulin Brigade in: Down with the Megacorp! - The End",
 					6
 				}
 			}

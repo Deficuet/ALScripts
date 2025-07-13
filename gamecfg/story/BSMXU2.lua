@@ -10,7 +10,7 @@ return {
 			actor = 900180,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼～轻松轻松～",
+			say = "Ahahaha! Didn't even break a sweat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还好只是小型运输队罢了，没有遇上反潜部队",
+			say = "It was just a small transport fleet. They didn't even have anti-submarine capabilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定你真的被幸运女神笼罩着呢",
+			say = "Maybe you actually are blessed with luck, 556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照这样发展下去，{namecode:416}很快就能成为王牌，拿到橡叶勋章，接受{namecode:435}姐姐的嘉奖了吧~",
+			say = "I'll be an ace in no time. And then they'll have to give me the Knight's Cross, maybe even with oak leaves! And then Lord Bismarck will notice me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 900180,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼——",
+			say = "Heheheheeheeee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…我们刚才击破的运输舰队，大概只有不到一千吨的战果",
+			say = "No... the transport fleet we just sank was maybe a thousand tons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 900180,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！一千吨！这么多吗？！",
+			say = "A thousand tons?! That much?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是那些前辈们...基本要达成十万吨以上的战果才能被称为王牌",
+			say = "\"That little,\" you mean... You'd need to break at least a hundred thousand tons to make ace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甚至还有二十万吨以上战果的王牌中的王牌…",
+			say = "And then to be an ace among the aces you'd need something like two hundred thousand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			actor = 900180,
 			dir = 1,
-			say = "呜哇，顿时觉得前辈们好遥远…",
+			say = "Aaaughh... I suddenly feel like it's so far out of reach...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			actor = 900180,
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，好的开始代表幸运女神是站在我们这边的！",
+			say = "No matter. It's time to prove the goddess of fortune stands with us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鱼雷存量尚且足够，557，我们继续破交任务！",
+			say = "Torpedo reserves still good. 557, let's continue our war patrol!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>四 于庭院中漫步</size>",
+					"The Queen's Ordinary Day\n\n<size=45>4.A Stroll Through the Courtyard</size> ",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "阿瓦隆之门·卡美洛之庭",
+			say = "Mirror Sea - Camelot",
 			bgmDelay = 2,
 			bgm = "theme-camelot",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704030,
-			say = "老姐~女王陛下一行人来咯~",
+			say = "Hey! If it isn't Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "下午好，伊丽莎白女王陛下。还有前卫小姐和君主小姐，好久不见。",
+			say = "It is an honour to see you again, Your Majesty and company.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位下午好。调整已经完成了么？",
+			say = "Yes, it's been a while. Is everything ready?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "调整工作已经全部完成，剩下就等你来亲自操作了。",
+			say = "Yes, Your Majesty. Once the designated time arrives, the rest is up to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，那我们就向着控制台移动吧~",
+			say = "Got it. You two, follow me to the control station.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "咦？陛下，我们是要启动卡美洛之庭去执行什么任务么？",
+			say = "Your Majesty, may I ask what you intend to do? Are you going to use the Gate to teleport to another Mirror Sea?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次不是。从上次的情况来看，启动卡美洛之庭进行移动很有可能会被好人理查德盯上。",
+			say = "Nothing of the sort. We can't risk drawing the attention of that Bon Homme Richard girl by activating the gate again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在能确保绝对安全之前，本王不论如何都不会再次启动卡美洛之庭了。",
+			say = "Until we've completely ruled out any possibility of danger, use of the Gate is off-limits.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "没错，伊丽莎白女王陛下的判断是正确的。",
+			say = "A wise decision, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9704040,
-			say = "我们现在没有任何对抗那个借用好人理查德外貌的怪物的方法，要是把那种东西引来你们的世界就不妙了。",
+			say = "Whatever that monster taking the form of Bon Homme Richard really is, leading her to this branch would prove catastrophic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "嗯……上次的战斗确实是千钧一发。",
+			say = "That much is clear. We could barely even hold her off last time, and that was with outside assistance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205130,
-			say = "可是就算我们不启动，铁血那边也有人工奇异点，她们要是继续测试该怎么办……",
+			say = "Hmm... But, we're not the only ones researching translocation through Singularities, right? If Iron Blood doesn't stop their experimentation as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事本王自然也已经告知了铁血。在找到解决方案前，那边也会暂且停止直接使用人工奇异点进行传送的实验，以防万一。",
+			say = "I've contacted the Commander to hopefully get them to stop. None of us can afford to make any rash moves while we don't know what we're up against.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次来是因为别的事，本王正在研究卡美洛之庭的新用法，需要做一些测试。",
+			say = "But, that doesn't mean we can't use the Singularities at all. Today, we're here for a completely different purpose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……新用法？",
+			say = "That being...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "————跨越时空的通讯枢纽。",
+			say = "Establishing a communication hub through space-time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然卡美洛之庭能创造出足够让舰队前往其他世界的通道，那创造一些传输信息的通道自然也是完全可行的。",
+			say = "Instead of creating one large energy signature by opening the Singularity for fleet travel, we'll basically poke holes in a bunch of different Mirror Seas for data transmission only.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相比大张旗鼓的一次性能量释放，这种方案也能更加稳定和隐蔽。",
+			say = "This way, that Richard girl won't be able to trace us back to a single point of origin, assuming she even picks up on our minuscule energy footprint in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "跨越时空的通讯设备么…………那利用这些设备联络的对象是？",
+			say = "That's all well and good, but what even is your goal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的盟友。虽然现在还不多……",
+			say = "Simply stated, searching for friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是终有一日，一个个光点将会汇聚成一道划破空间与时间炙热的光束。",
+			say = "If the Ashes can make allies, there must be SOMEONE out there willing to ally with us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你在跨越世界寻找盟友？！",
+			say = "How do you know it's going to work?",
 			fontsize = 45,
 			painting = {
 				alpha = 0.3,
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错。",
+			say = "I don't, but we'll never know until we try.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些人说，我们已经在连绵不断的战争中消耗了太多资源，不论最后是作为胜利者还是失败者，太阳终将落下。",
+			say = "What's the alternative? Continuing to play along with the Reenactments? Fighting amongst ourselves forever?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王不愿意接受这样的事。",
+			say = "To hell with that. I will not sign away the lives of my subjects in an unending, unchanging war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「The empire on which the sun never sets.」",
+			say = "And, neither will the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是本王的使命，也是本王给出的保证。",
+			say = "Protecting our azure lanes is our duty as shipgirls. Fulfilling it requires ending this war and ushering in a lasting peace.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果想要跟塞壬、跟理查德，还有更强大的敌人对抗的话，就更应该如此做才行。",
+			say = "And in order to defeat those who would make an enemy of peace itself, we must have a full hand of cards to play.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这还真是……了不起的宏伟构想。",
+			say = "Your countermeasures are as magnificent as your ideals, Your Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就连为我们提供技术的铁血恐怕都没有想到这一步吧……",
+			say = "If all goes well... I can hardly imagine how bright the future ahead of us will be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你已经让我们实实在在地在所有阵营中取得了先机。",
+			say = "Hmph, if only the power-obsessed leaders of Iron Blood shared your same vision.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你能这么说本王很开心，但是也没这么简单……",
+			say = "Despite how things may appear, the situation is not so black-and-white. I believe we are ultimately working towards the same goal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在漫长的历史长河中，每个阵营都是独特的。有着独属于自己的优势，也有独属于自己的问题。",
+			say = "Every faction has its own strengths and weaknesses, as well as interests and ideals. Iron Blood is no different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们能做的事，其他阵营未必能做。但同样，其他阵营能做的事，我们也未必能做。",
+			say = "We are capable of things they are not, as is the Sakura Empire capable of things the Eagle Union is not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与其说是抢占了先机，不如说是获得了一个能够扬长避短的机会？",
+			say = "We may all have been dealt different cards, but all we can do is play our cards to the best of our abilities. That is true, regardless of which side of the table one may sit at.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们做出了我们的选择，她们做出了她们的，仅此而已。",
+			say = "...Ahem. At least, that's what my servant would say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你的意思是，其他阵营也都在背地里做着什么不得了的事么？",
+			say = "I suppose all of us, across all factions, have been forging our futures in secret.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现如今，知道“剧本”的不止我们一家。",
+			say = "You could say that. Granted, I, too, was clueless once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而但凡看过“剧本”的人，就不可能对这件事无动于衷。",
+			say = "Clueless of many things. The nature of the Reenactments, the Singularities, the Crimson Axis, and even the Commander–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于具体有哪些，哪些是有益的，哪些是有害的……",
+			say = "I could not tell good from evil, friend from foe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种事直到最终结果出现之前谁都说不好，更不是缺少情报的本王能够下结论的。",
+			say = "To be honest, I don't even know how this plan will pan out. We have neither the knowledge nor the technology to predict that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是希望有些人不要做得太过火就好……",
+			say = "But one thing is for certain – this is better than doing nothing, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了，再说下去就要过了测试时间了。",
+			say = "...It's almost time now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "加速前进吧，本王还有一些消息要发呢！",
+			say = "Hurry up onto the platform. We've got work to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1

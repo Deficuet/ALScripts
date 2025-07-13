@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明明和honey已经是这种关系了……但还是会紧张呢……",
+			say = "We're already together like this, but I still get so nervous...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

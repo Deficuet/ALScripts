@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "部分任务满足完成条件后需要手动提交。",
+				text = "Certain missions can only be completed by turning in items!",
 				mode = 2,
 				posY = -196.73,
 				char = "1",
@@ -28,7 +28,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击提交任务道具，领取奖励。",
+				text = "Select the items to turn in, complete the mission, and then claim the rewards!",
 				mode = 2,
 				posY = 0,
 				char = "1",

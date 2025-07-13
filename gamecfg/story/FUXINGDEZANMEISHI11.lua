@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……不行！维内托大人，飞机在“抵达”墙壁之前遇到了某种奇怪的阻碍。",
+			say = "Ugh... It's no good! There seems to be some kind of \"wall\" stopping my aircraft...",
 			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒不是具体撞上了什么……明明舰载机的引擎在正常运行飞行高度也没有发生变化，但是就像遇到了某种“阻力”一样无法穿过墙壁。",
+			say = "My planes are just coming to a halt... They're not getting damaged, but there doesn't seem to be any way past the wall!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然……侦察机虽然不能直接穿越迷宫墙，但是从上方飞过没问题！通过俯视侦察我可以清晰的了解到迷宫结构！",
+			say = "I'm able to get a birds' eye view of the Labyrinth, but there's some kind of haze coming from the passages that makes it impossible to see where we are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "维内托大人，这里是陷阱。塞壬既然拥有构建这样复杂迷宫的能力，就肯定有能力完全阻止我们接近这片海域。",
+			say = "Miss Veneto... This Labyrinth must be a trap set by the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是它们却让我们看到了可行的道路……仿佛是在对我们挑衅说，想要找回失踪的舰队就老老实实进入迷宫探索吧。",
+			say = "According to Carabiniere, Mirror Seas are supposed to be Siren research facilities, but I don't think there's such a rational explanation for this labyrinth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个我当然清楚，不过……我们也没有太多选择。",
+			say = "(That's a valid point... I can't see what the purpose would be of erecting such a large labyrinth.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "文琴佐舰队大概率已经深入了迷宫之中，利托里奥她们大概也…………",
+			say = "(But there's no knowing what machinations the Sirens are scheming up within their research facilities... We've already heard about some that defy all reason.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原本镜面海域就是一个易入难出的陷阱，再加上这样复杂的迷宫，没有航空引导的她们根本不可能靠自己的力量开出来。",
+			say = "(There's no telling what waits for us in there, but I don't think there's any other way to get to the bottom of this and rescue Littorio and Gioberti.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在有能力救援她们的只有我们了。",
+			say = "It's alright, Maestrale. Trap or not, there is nothing that we cannot overcome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "呵呵……天鹰，你的服役真是太及时了。有了来自雄鹰双目的指引，区区迷宫怎么可能挡住我们前进的脚步！",
+			say = "O Eternal Glory of Sardegna, guide our path—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			bgm = "theme-theloversVI",
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "轰————————！",
+			say = "KABOOM–––––––!!",
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "{namecode:439}与{namecode:479}同时开火了。",
+			say = "The combined onslaught of the Iron Blood ships began to take a toll on the Arbiter Vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "铁血舰队距离拉沃斯并不遥远。几乎是转瞬之间，二人的炮火便突破拉沃斯的防御，在它华丽的装甲上撕开数条巨大的裂口。",
+			say = "Blow after blow rained down until finally, the armor split apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………………？",
+			say = ".........?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "拉沃斯盯着受伤的部分，目光似乎有些疑惑。",
+			say = "The Arbiter, as if unable to comprehend the damage she had taken, stared at the place where her armor had been pierced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "损伤确认~看来仲裁机关也是会受伤的啊。",
+			say = "Our attacks are working! Let's make that thing bleed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 403100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是受损部位开始了高速修复……拉沃斯本体正在后撤，大量代行者扑过来了！",
+			say = "Don't get ahead of yourself. As long as we're inside the Singularity, she can continuously repair off any damage we do inflict.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是谨慎的风格，就算没造成什么实质损伤，作为火力测试来说也很有价值了。",
+			say = "It seems like it's more of the defensive type. And while we've been focusing on the Arbiter, the Enforcers have started to move again. That's fine though – I've been wanting to test my limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 403100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……它的炮口颜色正变的越来越亮，该不会打算直接对米德加尔特之塔发动攻击吧…？！",
+			say = "Wait... Look where her muzzle is pointed... She's trying to destroy the Midgard Tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 499030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为世界之间的连通点，塔可没有那么容易从单侧摧毁。",
+			say = "As a bridge between worlds, getting hit from one side shouldn't be enough to collapse it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概………………不过看这个架势，我也不敢完全肯定了。",
+			say = "A greater amount of energy is needed just to keep the bridge open. But, if the Arbiter can somehow output even more energy than that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 499030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再战斗下去大概要吃亏。{namecode:439}，{namecode:464}阁下等人已经撤离完毕了，见好就收，我们也撤吧。",
+			say = "You're right... Roon, Ulrich, we need to pull back, lest the unthinkable actually does occur.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_midgard_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同意。{namecode:455}，伤员优先~",
+			say = "Fine by me. Adalbert, after you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 403100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢，那我就不客气了。",
+			say = "Sure~ Then I'll be heading out first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "{namecode:455}一个华丽的转身，躲开了来袭的弹雨，纵身一跃进入了米德加尔特之塔中心澎湃的洪流中。",
+			say = "Protected by the fire of the mass-produced ships and her allies, Adalbert disappeared in the torrent of light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "紧随其后的是{namecode:479}，她在临行之时还不忘用主炮补了一轮射击。",
+			say = "And after her were Ulrich, Magdeburg, Elbe, U-1206, and Mainz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "最后进入的是{namecode:439}，她没有躲闪，而是依靠护盾挡住了袭来的炮弹，她向后仰倒着，借助冲击力划入了漩涡之中。",
+			say = "The last one left was Roon, who used the impact from one of the Enforcer's attacks to push her through the exit in the nick of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "紧接着，米德加尔特之塔所在的空间发生了一阵无声但剧烈的震动，冲在前方的代行者直接变为了碎片，就连后方的拉沃斯也向更远方后撤了一些。",
+			say = "The torrent of energy held together by the Towers at both ends of the Singularity suddenly distorted, instantly atomizing the Enforcer that had approached too closely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "再之后，海面上硕大的米德加尔特之塔就仿佛从未存在过一样，彻底消失了。",
+			say = "Both the gateway and the Tower... Bifröst itself – like a fleeting rainbow in the sky – vanished without a trace, as if it had never existed at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgm = "bsm-4",
 			actor = 403090,
 			nameColor = "#a9f548",
-			say = "紧急停机成功！呼…………感觉身体都要散架了。",
+			say = "The emergency cutoff was a success! Th-that was too much for my heart... I thought we were all going to get squished into space dust...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -391,7 +391,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:456}，喂你没事吧，快醒一醒！",
+			say = "But we got everyone back safely, right? Wait, Adalbert's unconscious...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:439}和{namecode:479}也没反应……完了完了，不会转移的时候出问题了吧！",
+			say = "Roon and Mainz too! Ahhhhh! Did something go wrong during the transfer?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然刚才的处理方式还是太粗暴了点……",
+			say = "The transfer could've been handled with more finesse... but at least they avoided the Arbiter's attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没办法了吧，情况那么紧急！",
+			say = "Y-yeah! All's well that ends well, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小铁很努力去咬电缆了哦！你刚才也炸了好几个设备啊！",
+			say = "Eisen over here chewed through some cables though! You're working too hard, Eisen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:439}和{namecode:479}醒过来了！",
+			say = "Oh, Roon twitched a bit right now! What a relief...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了，转移成功，快扶她们下去休息！",
+			say = "Mm... Let's bring everyone to the rest area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来只要{namecode:456}醒过来就大功告成……",
+			say = "The aftermath of this operation, the saga of Ashes and META... will surely be most interesting to hear about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是假期~和庆功宴~",
+			say = "And the best part about the operation... is always what comes afterwards! Vacaaaaation time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "假期……控制室已经被弄得一塌糊涂了，接下来希望不要上军事法庭就好。",
+			say = "Probably not this time. Given the state that the control room is in, we may have to all write an official apology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，有通讯过来了，是铁血司令部发来的！",
+			say = "Uh oh... I hope that's not what this incoming message is about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我刚刚想起还有重要的任务没有完成，先走一步。",
+			say = "Same here. I'll have to explain what happened to Peter as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要逃避啊！要关禁闭的话还有我陪你一起！",
+			say = "Help meeee, Viersechs! I'll never be able to write an apology note all by myself! Save meeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……谢谢你{namecode:454}。",
+			say = "To be relied on is comforting indeed, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我完全没有感觉到安心！",
+			say = "For you to grow as an individual, you must learn to confront your weaknesses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_midgard_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…………我这是在……啊——————",
+			say = "Ughh... My head... Where... am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			actorScale = 0.6,
-			say = "在宛若废墟的控制室中疾驰而来的{namecode:412}——这是刚刚清醒过来的{namecode:455}看到的第一个，也是最后一个画面。",
+			say = "When Adalbert woke up, she saw the familiar sight of the facility in the floating fortress.",
 			effects = {
 				{
 					active = true,
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "迎面而来的剧烈撞击令她再次昏迷了过去。",
+			say = "Relieved, she promptly fell back down, exhausted from the mission.",
 			effects = {
 				{
 					active = false,
@@ -750,11 +750,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:453}",
+			actorName = "Prinz Heinrich",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！不好了！{namecode:456}又昏过去了！",
+			say = "Adalbert! Adalbert! Oh... she's out cold again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,11 +766,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:455}",
+			actorName = "Prinz Adalbert",
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次还真是运动过度……结束之后也和{namecode:454}一样，想办法好好休个假吧…………",
+			say = "No, I'm fine... It's just that... I pushed myself a bit too hard at the end there... Hey, Heinrich, can you request some time off for me as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,31 +785,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「至此，塔基铸成，世界的改变已经不可逆转了」</size>",
+					"\"So this is how the Tower's functionality test concludes.\"",
 					1
 				},
 				{
-					"<size=51>「高高在上的神将会如何应对呢？」</size>",
+					"\"Indeed. It's almost as if we've angered the Divine.\"",
 					2
 				},
 				{
-					"<size=51>「若降下洪水，铁血便制作方舟」</size>",
+					"\"...If they attack us, then we shall respond in kind.\"",
 					3
 				},
 				{
-					"<size=51>「若迎来审判，铁血将举起叛旗」</size> ",
+					"\"We will need my child's assistance.\"",
 					4
 				},
 				{
-					"<size=51>「若世间残酷皆有定论，那就由铁血开辟出新的道路」</size> ",
+					"\"We'll fire the first shot. And we'll pave a new path.\"",
 					5
 				},
 				{
-					"<size=51>「我们的生存空间，不是靠乞求和抗议来实现的」</size> ",
+					"\"I'll make sure that your wish comes true, Bismarck.\"",
 					6
 				},
 				{
-					"<size=51>「我们没有别的路可走，唯有奋斗」</size> ",
+					"\"You're as reliable as always, Friedrich.\"",
 					7
 				},
 				{
@@ -817,7 +817,7 @@ return {
 					8
 				},
 				{
-					"<size=51>「盟友们，让我们一同向着未来进发吧」</size> ",
+					"...For the sake of our great victory, and the Iron Blood's bright future.",
 					9
 				}
 			}

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "像这样，完成日常交流可提升与娜比娅的好感度",
+				text = "Talking with Navi raises her Affection.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -29,7 +29,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可确认当前好感度等级",
+				text = "Tap here to view her current level of Affection.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -49,7 +49,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "此后每升一级，都可以获取额外奖励",
+				text = "Each level of Affection gained comes with bonus rewards.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击空白处关闭弹窗吧",
+				text = "Tap the screen to return.",
 				mode = 2,
 				dir = 1,
 				char = 1,

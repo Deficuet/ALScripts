@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "指挥……我是说，H……没什么，总之，欢迎！嘿嘿嘿！别太在意！来让我们喝杯饮料吧！",
+			say = "Comm... Uh, hon... I mean... Nothing! Anyway, welcome! Forget all the little things, have a drink, and take it easy!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello3",
 			typewriter = {
 				speed = 0.05,

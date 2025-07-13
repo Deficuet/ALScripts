@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>五　这是什么！</size>",
+					"Javelin's Monthly Manga\n\n<size=45>Chapter 5 - What the Heck is This...</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "……这是什么",
+			say = "...... What the heck is this...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到一半就开始变得乱七八糟了、的说。",
+			say = "It turned into a trainwreck halfway through...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪、烂尾了…",
+			say = "Javelin... rushed the ending...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在漫画社体验入社的时候画了一半，最后部分是其他人完成的啦！",
+			say = "I only got to write half of it when I was in the Manga Club! The ending was done by someone else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，所以最后才有{namecode:400}和{namecode:524}的名字吗…",
+			say = "So that's why only Lebe's and San Diego's names are left in the credits...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没画完的原因，求详细。",
+			say = "You should explain... why you stopped writing halfway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那是…因为画到一半突然不知道要怎么编下去了…后面就这样把素描本忘在社团活动室了…",
+			say = "W-well, so much was going on that I didn't know how to continue... and then I left my sketchbook in the classroom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知什么时候就被大家各种补画完了…",
+			say = "And then everyone took turns drawing in it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "制作漫画果然很难的说。",
+			say = "Making a manga seems hard, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果叫上我们一起帮忙就好了。",
+			say = "You should have asked us to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，总会有不顺的时候嘛，下次努力画到最后吧？",
+			say = "Well, everyone has their slumps. Next time, let's do our best to see things through to the end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}也想要一起画漫画的说",
+			say = "Ayanami wants to help too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也要帮忙",
+			say = "I... will also help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家…嗯！下次再一起制作漫画吧！",
+			say = "You guys... Mmhmm! Next time, we'll all make the best manga ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,8 +276,8 @@ return {
 			side = 2,
 			dir = 1,
 			hideOther = true,
-			actorName = "全员",
-			say = "噢！",
+			actorName = "Everyone",
+			say = "Yeah!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -309,8 +309,117 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			bgName = "bg_story_task",
-			say = "敬请期待标枪的新作品！",
+			blackBg = true,
+			say = "\"Please look forward to Javelin and friends' next work!\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			say = "I see, I see! So this is what they call the \"shameless plug\" section!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301120,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "But what if they don't see this message on time? You never know with extended maintenance...",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			nameColor = "#a9f548",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			say = "Well, let's not worry about that!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			nameColor = "#a9f548",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			say = "Azur Lane will be coming to Anime Expo 2019 from July 4th to the 7th! Check us out at booth #206, as well as at Idea Factory's booth #3906!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			nameColor = "#a9f548",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			say = "There will be awesome events for you to get some exclusive goodies, like wall scrolls and t-shirts. You might even get to meet a couple of your favorite voice actresses!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301120,
+			side = 0,
+			hideOther = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "We'd love to see you there!",
+			subActors = {
+				{
+					actor = 301110,
+					pos = {
+						x = 1185
+					}
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

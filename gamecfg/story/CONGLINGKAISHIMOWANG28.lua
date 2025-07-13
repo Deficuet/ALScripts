@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_185",
-			say = "离开游戏的世界后，来到了{namecode:531:腓特烈·卡尔}的房间外。",
+			say = "After closing the game, I head to the Iron Blood dorm to speak to Friedrich Carl.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_185",
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -44,11 +44,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:531:腓特烈·卡尔}",
+			actorName = "Friedrich Carl",
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "门没锁，请进哦。",
+			say = "Come in! The door is unlocked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_185",
-			say = "推开门，一个躺在日光下的慵懒身影映入眼帘。",
+			say = "Stepping inside her room, I see her lying down on the carpet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是刚刚打败了魔王的、我英勇的指挥官么，怎么突然来我这里看我了？",
+			say = "Heehee. If it isn't the brave little soul who dethroned the Demon King. Why are you here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
-			say = "之前在守望要塞的客房，你也是突然来访。",
+			say = "I guess you could say I'm returning the favor for that one night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
-			say = "所以算是礼尚往来了。",
+			say = "You know, at Sentinel Bastion, when you paid me a sudden visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~所以当时您果然没中招下线啊~过度沉迷游戏可不好哦，我的指挥官。",
+			say = "Ah, yes, you didn't close out of the game that night. Don't you know that playing for too long isn't good for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
-			say = "那天庆功宴本身就办到了很晚就是了……",
+			say = "What can I say? The celebrations ran late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
-			say = "不过，就算体验了全流程，还是有些不太明白的事。",
+			say = "But that's not what I came to talk about. I have a question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？作为制作委员会的成员，我可以尽可能回答你哦。",
+			say = "Yes? I was on the production team, so I should have an answer for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,22 +169,22 @@ return {
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
 			recallOption = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于和你这个角色的行动动机……",
+					content = "What was your role in the story?",
 					flag = 1
 				},
 				{
-					content = "有些神的称号起的很有特色……",
+					content = "Can you tell me about the goddesses' roles?",
 					flag = 2
 				},
 				{
-					content = "关于智慧魔女，还有从前的故事……",
+					content = "What's the story behind the wise witch and the ancient heroes?",
 					flag = 3
 				}
 			}
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~我的动机确实没有自称的那么单纯呢。",
+			say = "Heehee. I'll admit my role wasn't quite as simple as a mere mechanic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟无数次都恰好出现在了勇者小队的身边，又在暗中不停提供帮助。",
+			say = "I appeared out of nowhere to help you on your quest, and more than just once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不过其背后的原因嘛……目前游戏被设置成了开放式结局。",
+			say = "As for why I did... Well, the game is meant to have an open ending.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "我的指挥官不妨自己猜猜看？",
+			say = "You're welcome to create your own theory for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "呵呵~是啊，这些称号当时讨论的可激烈了哦~",
+			say = "Ah, the goddesses. Our discussions about those were pretty passionate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不过最后，自然还是加入委员会里的人占了些便宜。",
+			say = "Perhaps unsurprisingly, project members were given priority for those roles.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,42 +304,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "起始与终焉之神，是布里斯托尔给萨拉托加选的称号。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_185",
-			actor = 403141,
-			dir = 1,
-			optionFlag = 2,
-			nameColor = "#A9F548FF",
-			say = "领航员小姐的秩序与规则之神同样也是她设定的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 403141,
-			side = 2,
-			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 2,
-			say = "伊丽莎白女士的茶会与点心之神是英勇强烈要求设定的。",
+			say = "First, there's the goddess of beginnings and ends. Bristol gave that title to Saratoga.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +322,42 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "同样……维内托小姐的复兴与浴室之神也是马可波罗强烈要求如此设定的。",
+			say = "She also chose TB for the role of the goddess of order and rules.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 403141,
+			side = 2,
+			bgName = "star_level_bg_185",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			optionFlag = 2,
+			say = "On the other hand, Valiant quite insistently nominated Queen Elizabeth to be the goddess of desserts and tea parties.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_185",
+			actor = 403141,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "The title of goddess of revivals and baths was similarly forced upon Veneto by Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435:俾斯麦}大人的钢铁与巨龙之神，则是{namecode:428:欧根}在来回比对了多个方案之后，从中选择了一个她最满意的。",
+			say = "Then there's the goddess of steel and dragons. Eugen evaluated candidate after candidate until she chose Bismarck in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}女士的火焰与净化之神是{namecode:6:绫波}、{namecode:13:雷}和{namecode:14:电}一起选定的。",
+			say = "The role of goddess of fire and purity was a three-way nomination between Ayanami, Ikazuchi, and Inazuma, who chose Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,42 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "其实最初还有一个{namecode:13:雷}很喜欢的方案……好像是叫火与农林业之神？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_185",
-			actor = 403141,
-			dir = 1,
-			optionFlag = 2,
-			nameColor = "#A9F548FF",
-			say = "不过最后因为过于难以理解而在投票中出局了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 403141,
-			side = 2,
-			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			optionFlag = 2,
-			say = "黎塞留女士的光明与正义之神是克莱蒙梭女士选定的名字，黑暗与诡计之神同样是她给自己选的。",
+			say = "That one actually had an alternative name proposed. I think it was \"goddess of fire and agriculture.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +428,42 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "{namecode:529:苏维埃同盟}女士的团结与坚韧之神命名来自于水星纪念。",
+			say = "It didn't make the cut because people thought it was too difficult to understand.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 403141,
+			side = 2,
+			bgName = "star_level_bg_185",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			optionFlag = 2,
+			say = "Anyway... Clemenceau nominated herself for the role of goddess of darkness and conspiracy and also picked Richelieu to be the goddess of light and justice.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_185",
+			actor = 403141,
+			dir = 1,
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			say = "Goddess of unity and toughness went to Soyuz. Pamiat' endorsed her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "逸仙小姐的平安与守护之神则是来自于海天小姐的推荐。",
+			say = "Meanwhile, Hai Tien thought Yat Sen would be a good pick for the goddess of peace and protection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "其它的话……开拓与冒险之神和幸运与财富之神都是当事人各自为自己选的。",
+			say = "Finally, there's the goddesses of pioneering and adventure and luck and riches. Those two were self-nominated.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "嗯~差不多就这些吧。",
+			say = "That should be all of them, I think.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "旧神的部分呢呢？",
+			say = "And what about the ancient gods?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "旧神的部分要暂时留个悬念哦~我的指挥官~",
+			say = "For those, I'll have to say... Stay tuned, my dear little one♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
-			say = "没错哦，前代勇者小队的故事也十分精彩呢。",
+			say = "Heehee. It's a very interesting story, I can tell you that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
-			say = "在那个时代，曾经的吸血鬼、巨龙与人类竟然是彼此和谐相处的。",
+			say = "Long, looong ago, humans and dragons and vampires all managed to coexist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "当时整个大陆的格局也与现在截然不同——",
+			say = "The power structure of the old world was completely different from the new world. More mysterious, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
-			say = "海天小姐为了这部分写了很多背景设定呢。",
+			say = "So Hai Tien says, anyway. She wrote a lot of background lore about them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "日后如果有DLC的话，或许就有展现出来的时候了吧~",
+			say = "If we ever add more content, I'm sure they'll appear in it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，还有一件事您应该已经注意到了。",
+			say = "Oh, one more thing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在制作过程中，委员会的每一个人都为自己在游戏中选择了一项特权。",
+			say = "As you've probably already figured out, everyone who worked on the game got to choose a special bonus for their efforts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有些是身为神的身份，有些是仅供自己使用的强力道具。",
+			say = "Some chose to appear in it as goddesses, others gave themselves unique and powerful items.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于我——我选择制作了一个特殊的地方。",
+			say = "Then there's me... Heehee. I chose to create a very special place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是一个神秘的房间，隐藏在大陆中无人注意的角落。",
+			say = "It's a mysterious hideout, tucked away in a corner of the world where nobody will find it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "房间之中，我重现了昔日乐歌城在设定中最为辉煌的时期。",
+			say = "Furnished with all the things Ballad Castle did at the peak of the city's prosperity...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是一个爱意随着乐声散布，终日不断地美丽之处——",
+			say = "It's a beautiful place where love and music hang in the air from dawn 'til dusk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果感兴趣的话。",
+			say = "Would you like to see it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			actor = 403141,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一会我偷偷带你去看看吧？我亲爱的指挥官~",
+			say = "Then let's go and visit it, just the two of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1

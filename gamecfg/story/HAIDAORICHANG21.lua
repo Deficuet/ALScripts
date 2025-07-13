@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>温泉乡抢先体验</size>",
+					"Uncharted Summer\n\n<size=45>Early Access</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "时隔多日，再次来到{namecode:2}发现的那片天然温泉时，这里已经支起了告示牌——",
+			say = "I visit the natural hot spring Fubuki found for the first time in a while. There, I find that someone's put up a sign.",
 			bgmDelay = 2,
 			bgm = "story-richang-4",
 			flashout = {
@@ -48,11 +48,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "告示牌",
+			actorName = "Sign",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“天然温泉，施工中，请勿入内喵”",
+			say = "\"Under construction! Do not enter, nya!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "后面还印着{namecode:98}的头像。看起来不太凑巧，温泉的建设依然在进行中。",
+			say = "It even has Akashi's likeness on it. So the hot spring resort still isn't ready yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊啦啦~是来温柔乡享受温暖怀抱的客人么~？",
+			say = "My, do we have a customer trying to be the first to enjoy the hot spring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "正要准备转身离去的时候，从身后传来了熟悉的声音——",
+			say = "When I turn to leave, I hear a familiar voice behind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "只是很不巧，这里还没有开始营业。",
+			say = "Unfortunately, it's not ready yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过也不必这么着急离开哦，指·挥·官~",
+			say = "Heehee, but you don't have to leave so soon. It's okay, Commander♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "……嗯？",
+			say = "\"...Uh?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "还没等做出反应，满面笑意的{namecode:91}就贴到了身旁。",
+			say = "Before I can react, Akagi sidles over with a beaming smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "像您这样的贵客，可是有着所谓的“VIP通道”可以使用的哦~",
+			say = "Customers as important as you deserve the VIP treatment, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果有需要的话，就请跟我来吧，呵呵~",
+			say = "If you'd like, just come with me!♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "……虽然说的是“如有需要”，不过鉴于胳膊已经被紧紧搂住的现状……",
+			say = "She acts like it's up to me, but she wraps her arm around mine like she won't take no for an answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
-			say = "应该是“必须要来”的意思吧……",
+			say = "\"I guess I have no choice...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "与{namecode:91}并排在昏暗的石青色通道里前进着——",
+			say = "Akagi and I walk arm-in-arm through the dim corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "一段时间后，似乎闻到了香薰的味道。",
+			say = "\"Hm... Something smells sweet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "呵呵~就快到了哦，指挥官~",
+			say = "Heehee, we're almost there, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "又走了一段时间后，眼前豁然开朗，一汪清澈的温泉映入眼帘。",
+			say = "We continue a little further until the space opens up and a steamy hot spring comes into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "这里似乎是一处刚刚竣工的设施。",
+			say = "\"So this spot alone is finished?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "清澈见底的水面上飘着桃色的花瓣，周边的装潢也显得精致而富有韵味。",
+			say = "Pink petals float on the crystal-clear water, and the elaborate decorations around it add to the elegance of it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "看起来这里就是{namecode:91}所说的“VIP房间了”。",
+			say = "This must be the VIP treatment Akagi was referring to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你现在的身体感觉如何呢？",
+			say = "How do you feel, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "……似乎是受到了空气中的熏香影响，身体仿佛渐渐出现了暖意。",
+			say = "(I think incense in the air is making me heat up somehow...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "这个熏香难不成……",
+			say = "\"Is that scent what I think it is?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘻嘻，指挥官还不换衣服么？",
+			say = "Heehee. Why don't you go ahead and get undressed?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "接下来不是要泡温泉么~？",
+			say = "Are you having trouble keeping up? You did come to take a dip in the hot spring, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "{namecode:91}把身体用力贴了过来，香气直扑鼻腔，使得大脑没有办法冷静下来分析现在的处境。",
+			say = "Akagi leans in. Her sweet smell makes me go dizzy, making it even more difficult to calmly analyze the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "还是说，在等{namecode:91}来帮您呢？",
+			say = "Aww. Do you need my help?♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,11 +417,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……就在……里面……吗？",
+			say = "Inside... Here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……情报……不会有错……",
+			say = "Our intel... Has to be it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,11 +441,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……当然……情报费喵……",
+			say = "Of course, nya... I paid the fee, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "忽然，细微而嘈杂的喧哗声从甬道外面传了进来。",
+			say = "In my daze, I hear chatter from the other end of the corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "…………切，不是派她们出去收集建筑素材了么。",
+			say = "Tch. And after I sent them off to collect materials...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "有两个由远及近的声音，似乎是……{namecode:95}和{namecode:96}的声音。",
+			say = "\"Those first voices... Were they Zuikaku and Shoukaku?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "还有一个……由近及远的喵声……？",
+			say = "\"And that third one is very obviously a certain cat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！果然指挥官在这里！",
+			say = "Ooh! Commander, so you were here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵，前辈这是在做什么呢？",
+			say = "Heheheh. Akagi, what exactly do you think you're doing?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "……看起来卷入了什么不得了的事件里面了呢。",
+			say = "\"...Well, this doesn't seem good.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……气氛都被破坏了。",
+			say = "What a waste of this perfect mood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "本来打算独享您的……啧，可惜。",
+			say = "I thought I'd finally get to be alone with you... Such a shame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "现状如您所见，接下来您打算怎么办呢？",
+			say = "*sigh*... Well, you see our conundrum. What should we do, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,11 +607,11 @@ return {
 			},
 			options = {
 				{
-					content = "打算回去了！",
+					content = "\"I'd better leave.\"",
 					flag = 1
 				},
 				{
-					content = "大家一起来泡？",
+					content = "\"How about we all go in?\"",
 					flag = 2
 				}
 			}
@@ -625,7 +625,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是抱歉……下次我会再选一个绝对不会被打扰的时间约您过来的~",
+			say = "I'm sorry for this. Next time, I'll pick a better place so we can be alone and undisturbed... Heehee, heeheehee!♥",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "咦？！！！！！！！！！",
+			say = "Huh? Whaaaat?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "不愧是指挥官……真是拥有超乎常人的应变能力。",
+			say = "What a quick wit. That's the Commander for you!♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然您这么说了，那偶尔一次的话……也好。",
+			say = "If that's what you want, Commander... I suppose I don't mind sharing once in a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "两位后辈，该不会打算辜负指挥官的好意吧？",
+			say = "Fifth Carrier Division, I presume you won't put the Commander's kindness to waste?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "就这样，在氤氲的白色雾气中，留下了令人难忘的温泉体验——",
+			say = "Thus, we spend an unforgettable time together in the steamy hot spring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

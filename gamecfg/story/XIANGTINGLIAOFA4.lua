@@ -12,7 +12,7 @@ return {
 			bgm = "story-6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊啊啊---不会让你们继续轰炸下去了！",
+			say = "Not on my watch!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			actor = 107070,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "快给我乖乖上路吧————！！",
+			say = "Return to the depths you crawled out of—!!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			dialogShake = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "就算对这些量产型大喊大叫，也不会得到什么忏悔之词哦。",
+			say = "What good does yelling at a lifeless lump of metal do? Are you trying to blow off steam...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			actor = 103160,
 			dir = 1,
-			say = "这里看起来陷入苦战了啊，需要帮助吗牛仔？",
+			say = "So, do you even need any help here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊..哈啊...大黄蜂也是，巴尔的摩也是，都热血上头冲的太靠前了！",
+			say = "Haah... You both... should think... before you charge in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，抱歉抱歉。要想挡住我，这点塞壬还不够看呢！",
+			say = "Haha, sorry 'bout that. I suppose Hornet's enthusiasm is rather contagious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官和各位…都没事吧！",
+			say = "Are Commander and the others safe? How about the harbor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了某位热血牛仔小姐的英勇战斗，撤离工作总算顺利进行了。",
+			say = "Thanks to your heroism, the evacuation is going smoothly, and the Sirens are being pushed back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，就是相信你们一定会来，我才能拼命战斗到现在啊~",
+			say = "Thank goodness... I was able to fight without fear because I knew you'd come after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前面的应该就是敌人的指挥系统了。只要消灭它们，量产型舰队的指挥就会瓦解。",
+			say = "The only thing left now is the Siren flagship. If we wipe it out, the rest of the production-type fleet should fall apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你受的伤不轻，还能战斗么？",
+			say = "Hornet, you've been hurt pretty badly, are you still able to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们这打的越激烈，后方转移才越安全。怎么能在这个时候撤下去！",
+			say = "The fiercer the battle up here, the safer things are in the back. How could I retreat at a time like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也没意见吧，塞壬？你们犯下的罪恶，就在此处用生命偿还吧！",
+			say = "That decides it then. We'll make the Sirens atone for their sins in blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,11 +12,11 @@ return {
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
-					"<size=51>>>发出：情报显示，铁血正在向边境增兵，有发动全新军事行动的意图。</size>",
+					">>RECEIVED: Buildup of Iron Blood forces near Iris Orthodoxy borders. Military action likely imminent.",
 					2.5
 				},
 				{
-					"<size=51>>>收件：了解，请继续收集情报。</size>",
+					">>SENT: Understood. Please keep monitoring the situation.",
 					3
 				},
 				{
@@ -24,15 +24,15 @@ return {
 					3.5
 				},
 				{
-					"<size=51>>>发出：情报显示，铁血的间谍网络进入了高度活跃状态。</size> ",
+					">>RECEIVED: New intel shows that Iron Blood's spy network has entered a highly active state.",
 					4
 				},
 				{
-					"<size=51>>>发出：其电文分析显示，铁血正在为大型军事行动收集信息。</size>",
+					">>RECEIVED: Believed to be an intelligence-gathering operation in preparation for large-scale military action.",
 					4.5
 				},
 				{
-					"<size=51>>>收件：了解，请继续收集情报。</size>",
+					">>SENT: Understood. Please keep monitoring the situation.",
 					5
 				},
 				{
@@ -45,11 +45,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>>>发出：情报显示，铁血参谋部正在制定进攻的详细方案，请尽快做好准备。</size>",
+					">>RECEIVED: Iron Blood is now confirmed to be planning a large-scale invasion. Please prepare defensive countermeasures.",
 					2.5
 				},
 				{
-					"<size=51>>>收件：了解，陆军正在巩固防线，确保万无一失。</size>",
+					">>SENT: The upper echelons have already begun preparing for war.",
 					3
 				},
 				{
@@ -57,19 +57,19 @@ return {
 					3.5
 				},
 				{
-					"<size=51>>>发出：情报部门截获了一份情报，注明为黄色方案。</size> ",
+					">>RECEIVED: We've caught sensitive information containing the keywords: \"Fall Gelb\".",
 					4
 				},
 				{
-					"<size=51>>>审判庭判定其高度可信，请司令部立刻进行应对。</size>",
+					">>SENT: The Tribunal has deemed this intel highly credible. Please forward findings to the higher-ups.",
 					4.5
 				},
 				{
-					"<size=51>>>收件：了解，D计划正在准备中，皇家盟友将不日抵达，注意海上的动向。</size>",
+					">>RECEIVED: \"Plan D\" is underway. Expecting allied reinforcements to arrive in the near future.",
 					5
 				},
 				{
-					"<size=51>>>收件：同时，为了行动顺利进行，请严格保密。</size>",
+					">>SENT: Please continue to maintain strict confidentiality.",
 					5.5
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "轰————————————！",
+			say = "KABOOM––!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 801030,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "呼……呼…………",
+			say = "*pant*... *pant*...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 801030,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人！敌方舰队……全部消灭了！",
+			say = "Lady Richelieu, the enemy Siren forces have been completely wiped out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 801040,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "果然不论什么型号的代行者都很难缠……",
+			say = "Those Enforcers sure packed a punch though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 807010,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "黎塞留大人，侦察机已抵达圣赫勒拿岛上空，很快就能返回结果。",
+			say = "My recon planes have reached the Saint Helena airspace. I'll start scouting now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "希望我们不会到的太迟……",
+			say = "I can only pray we're not too late...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "可怖，要塞有可能抗住代行者舰队的攻击么？",
+			say = "Le Terrible, do you think the stronghold would be able to defend against those Enforcers we fought against earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "额……也许能坚持一段时间。",
+			say = "Under normal circumstances, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "只要它们不决意把山头削平就行。",
+			say = "As long as the Sirens don't completely flatten the mountains on the island...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "仲裁机关本体呢？",
+			say = "What if an Arbiter mainframe were to show up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "那肯定很快就会沦陷的。",
+			say = "Unfortunately, it'd fall in a heartbeat if that were the case.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "根据以往仲裁者的战斗力来推测，移平圣赫勒拿岛对其来说并非不可能。",
+			say = "The Arbiters wield a completely different magnitude of power. They could vaporize the entire island at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不过……我想不通塞壬为什么会对冠冕感兴趣。",
+			say = "Why would you think that an Arbiter could be here though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "虽然那是鸢尾正统的象征，但也不过只是一件文物而已。",
+			say = "We understand the Crown of the Holy See to be the symbol of the Iris Orthodoxy, but the Sirens would see it as they would any other object.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "我现在也没什么头绪……这件事之后再研究。",
+			say = "...You say that, but the reality is that an Arbiter's Enforcers have arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "当务之急还是加快行进速度，救人要紧。",
+			say = "We must make haste and rescue Marseillaise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 805010,
-			say = "不管情况如何，我们早到一些，马赛曲可能遭遇的危险就小一些。",
+			say = "If we can get there first, we can minimize the perils that our colleague faces.",
 			painting = {
 				alpha = 0.3,
 				time = 1

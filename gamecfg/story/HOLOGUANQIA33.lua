@@ -13,8 +13,8 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "军师，那群反叛军好像找到一条地下的路绕过屏障继续前进了",
+			actorName = "Tester?",
+			say = "Advisor, it seems that the Resistance has traversed the barrier using a different route.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,10 +37,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "为什么每次都要费事的把“棋子”传送回来啊。用这些资源生产几个新的充实战斗力不好么？",
+			say = "Oh, and you don't need to bother teleporting these pawns back all the time. I'm the ruler of time and space; as long as I have direct control over the Mirror Sea, I don't need an army...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			actor = 10500010,
 			dir = 1,
 			blackBg = true,
-			actorName = "军师",
-			say = "十分抱歉，接下来我会布置更加严密的防御的。",
+			actorName = "Advisor?",
+			say = "My apologies. I shall ready the next line of defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			actor = 10500010,
 			dir = 1,
 			blackBg = true,
-			actorName = "军师",
-			say = "传送回来虽然看似费事，不过当修复完毕后，保留了之前战斗经验的“棋子”就会变得更强哦",
+			actorName = "Advisor?",
+			say = "Even with the ability to teleport, I fear that we are only feeding them experience, allowing them to become even more powerful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			actor = 10500010,
 			dir = 1,
 			blackBg = true,
-			actorName = "军师",
-			say = "况且，现在的设备在生产高级型号时好像还有些许问题…",
+			actorName = "Advisor?",
+			say = "Moreover, with the current level of authorization, it is difficult to create something significantly stronger than they are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,10 +108,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "这个该死的权限认证…",
+			say = "This whole authorization thing is such a pain...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			say = "利用秘密基地的通道，众人终于来到了屏障的另一边。",
+			say = "Returning to the barrier...",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "太好了，这样就可以继续前进了！",
+			say = "All right! We've gotten through the barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，那个隐藏在看板之后的房间，不论什么时候看都是最棒的啊！",
+			say = "Heheh~ See that sign over there? The room right by it is full of amazing stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "……说起来，标枪和阿库娅她们，之后也要走房间里的那条路过来哦",
+			say = "... Huh? By the way, Javelin and Aqua are headed straight for that room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…！",
+			say = "Uh-",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊！头，整面墙都是头啊！！",
+			say = "Wh-wh-wh-whaaaaat is thaaaaaaat?!?!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "这里有牌子写着我的名字哎，里面是…我的头？",
+			say = "My name's written on this sign. And inside the room, there's... my head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "…诗音不要再被关进去了啊…",
+			say = "Nooooo...! Shion doesn't want to be trapped inside anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 10500030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊啊！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+			say = "AAAAAAAAAAAAAAHHHHH!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是…祭小姐的秘密基地么……",
+			say = "If Atago was here, she'd take this thing down in one hit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的十分，对不起！！！祭也没想到之前一时兴起弄得恐怖元素会被还原的如此逼真",
+			say = "I'm so sorry! I never expected that the Hololive horror room would be reproduced to this degreeeeee!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -385,7 +385,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尤其是…门的机关部分和…那个…大家的头的部分…",
+			say = "And uh... especially, the door traps... Um, watch your heads...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭有制作恐怖游戏的潜质…",
+			say = "Matsuri, you have what it takes to be a horror game maker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实在是太刺激了，咱的胃…（呕）",
+			say = "It's too much for me to take... My stomach... Blaaarghh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜呜…祭这个大白痴！！",
+			say = "Ughh... You're a jerk, Matsuri...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "我好像看到了毕业的先代阿库娅们在天上招手…",
+			say = "I feel like the past Aquas are looking down on me from the skies, watching me waving my arms...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吓唬同伴们可不好哦",
+			say = "I agree that might have been overdoing it... Guh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的！！非常！！抱歉！！！（土下座）",
+			say = "I'm sorry! Deeply sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在大家恢复过来之前暂缓前进了…啊哈哈……",
+			say = "We won't be able to move forward until everyone recovers... Ahahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

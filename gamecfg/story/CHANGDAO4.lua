@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>四　正确的休假方式</size>",
+					"Long Island's Inner Peace\n\n<size=45>IV 「The Proper Relaxation Method」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼哼…哼哼哼…不要以为这样就可以打乱我的放假懒散节奏！",
+			say = "Hmph... don’t think that you can change my lazy nature!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长岛酱要开始忙了，没事请不要吵我——",
+			say = "I’m going to be busy, so please don’t bother me ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "忙什么？当然是忙着玩！",
+			say = "What am I busy with? Playing, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，既然指挥官人都来了，那就顺手帮我处理掉这些东西吧——",
+			say = "Ah, since the Commander is also here, then help me take care of these things---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这样就不用出门了，计划通～",
+			say = "Hehe, with the Commander's help, I don't need to go out, just as I planned~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

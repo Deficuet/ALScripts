@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日重建！海岛别墅度假计划！\n\n<size=45>完工！派对游戏之夜</size>",
+					"Midsummer Returns: The Villa Reconstruction\n\n<size=45>8 All Is Done and It's Time to Party!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_608",
 			hidePaintObj = true,
-			say = "海岛别墅的地下游戏室内，霓虹灯摇曳，光影在人群中流动。",
+			say = "In the underground game room, neon lights flicker and illuminate the figures of the guests.",
 			bgm = "story-dazy-style",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_608",
 			hidePaintObj = true,
-			say = "{namecode:189:初月}换上了她心爱的礼服，她轻晃着酒杯，嘴边是一抹狡黠可爱的笑容。",
+			say = "Among the crowds, Hatsuzuki, wearing her beloved dress, gently shakes her glass with a strange, mischievous grin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~全员注意——",
+			say = "Heehee. Your attention, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900511,
-			say = "{namecode:189:初月}宣布，本次派对游戏之夜的规矩只有一条——那就是玩到尽兴为止！",
+			say = "There's only one rule to the game party tonight – have as much fun as you can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900511,
-			say = "指挥官，一定要好好享受今夜哦！",
+			say = "You, too, Commander! Have a good time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:97:大凤}",
+			actorName = "Taihou",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有{namecode:97:大凤}在，指挥官不会舍得离开吧~",
+			say = "You don't want to leave because I'm by your side, isn't that right, my Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,12 +109,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对，指挥官是因为和可畏待在一起才没有觉得无聊吧？",
+			say = "Wrong. You're having fun because you're here with me, correct, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,12 +122,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:97:大凤}",
+			actorName = "Taihou",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呵呵呵，这是要对{namecode:97:大凤}宣战的意思吗……",
+			say = "Heehee... So you're issuing a declaration of war, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,12 +135,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼~？好啦指挥官，现在就把麻烦的人际交往丢到一边，来尝尝可畏的草莓蛋糕吧~",
+			say = "Hm? Say, Commander, why don't we forget about all the humdrum interpersonal relationships and have some strawberry cake? Here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,12 +148,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:97:大凤}",
+			actorName = "Taihou",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你竟敢……呵呵，明明是{namecode:97:大凤}的樱桃蛋糕看起来比较美味吧。指挥官，张嘴~",
+			say = "Why, you... Heehee. It goes without saying that my cherry cake is better. Please open your mouth, my Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（…………）",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（怎么办，现在逃走还来得及么？）",
+			say = "(What to do? Should I just run for it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,12 +187,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "可畏",
+			actorName = "Formidable",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指~挥~官~！你不会走神了吧？",
+			say = "Commander? Hellooo? Why are you just standing there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:97:大凤}",
+			actorName = "Taihou",
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:97:大凤}的甜蜜，可是一直在等待指挥官来享受呢~",
+			say = "I'm waiting for you to have a taste, my Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（…………）",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不应该辜负她们的心意……但是，我只长了一张嘴啊……）",
+			say = "(I appreciate what they're trying to do, but there's only one of me.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,8 +244,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "打扰了，这是两位点的饮品~",
+			actorName = "Hatsuzuki",
+			say = "Sorry for butting in, but I've got drinks for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,21 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "推着冷饮车路过的{namecode:189:初月}，似乎是我最后的救命稻草。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 900511,
-			side = 2,
-			bgName = "bg_villaisland_cg3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "……诶嘿嘿~指挥官怎么露出了这副表情？",
+			say = "Hatsuzuki comes along, pushing a cart. She is my salvation in this moment of desperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,8 +269,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "没事哒，没事哒！{namecode:189:初月}会在心里为指挥官加油打气的~",
+			actorName = "Hatsuzuki",
+			say = "Heehee. Why are you making that face?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,8 +283,22 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "不过伸出援手什么的还是免了吧~这可不是属于{namecode:189:初月}的战场呢~",
+			actorName = "Hatsuzuki",
+			say = "Don't worry, I'm rooting for you in my heart!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 900511,
+			side = 2,
+			bgName = "bg_villaisland_cg3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actorName = "Hatsuzuki",
+			say = "I'm not going to save you, though. I know how to pick my fights!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,8 +311,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雅努斯",
-			say = "那个……{namecode:189:初月}小姐，能给我们送一些果汁嘛？",
+			actorName = "Janus",
+			say = "Um, excuse me, Hatsuzuki... Could you bring us some juice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,8 +325,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "来啦——",
+			actorName = "Hatsuzuki",
+			say = "Sure thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,8 +339,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雅努斯",
-			say = "双、双脚不能同时离开地面嘛？",
+			actorName = "Janus",
+			say = "So... I can't take both feet off the ground at the same time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,8 +370,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雅努斯",
-			say = "……好难……保持平衡……要摔倒了……！",
+			actorName = "Janus",
+			say = "Ugh, this is so hard... Need to stay balanced, or I'll fall over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "贾维斯",
-			say = "我帮你稳住重心，安心击球吧。",
+			actorName = "Jervis",
+			say = "I'll keep you stable. Just breathe and take the shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,8 +398,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雅努斯",
-			say = "嘿——进、进球啦！贾维斯，我做到啦！",
+			actorName = "Janus",
+			say = "There! ...I-I did it! It went in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,8 +412,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "贾维斯",
-			say = "确实是……进球了。",
+			actorName = "Jervis",
+			say = "Ahem... Yes, it sure did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,8 +426,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "贾维斯",
-			say = "……但进兜的，是白球啊。",
+			actorName = "Jervis",
+			say = "The cue ball, that is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +440,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "贾维斯",
-			say = "很遗憾，这是犯规——",
+			actorName = "Jervis",
+			say = "I'm afraid that's a foul, Janus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,8 +454,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雅努斯",
-			say = "欸……咦咦咦咦——？！",
+			actorName = "Janus",
+			say = "A... A foul?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,8 +468,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "嗨嗨~两位的果汁送到了哦~",
+			actorName = "Hatsuzuki",
+			say = "Hey! I've got the juice you asked for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,8 +481,8 @@ return {
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "打扰啦{namecode:189:初月}小姐！我们这边也——",
+			actorName = "Gallant",
+			say = "Hatsuzuki! We need you for a sec!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "正在热火朝天地进行桌游的勇气等人举起了手。",
+			say = "Gallant and some friends are enthusiastically playing a board game. They raise their hands toward Hatsuzuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,8 +506,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:189:初月}",
-			say = "这就来——",
+			actorName = "Hatsuzuki",
+			say = "I'll be right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,8 +520,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "胜利",
-			say = "这位忙碌的小姐，需要美丽的胜利前来助阵吗~",
+			actorName = "Victorious",
+			say = "You certainly look busy. Perhaps you need the help of a gorgeous lady like me, hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,8 +534,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "胜利",
-			say = "不过，需要我提供服务的客人，请务必大声歌颂皇家海军的美丽哦~",
+			actorName = "Victorious",
+			say = "I'm willing to lend a hand, but first, you must praise the beauty of the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,8 +548,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "天狼星",
-			say = "胜利，你的酒好了。",
+			actorName = "Sirius",
+			say = "Miss Victorious, here is the wine that you ordered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,8 +562,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "胜利",
-			say = "收回前言~帮忙什么的实在无法彰显我的美丽嘛~",
+			actorName = "Victorious",
+			say = "Actually, I withdraw my offer. Helping people just doesn't work to accentuate my beauty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,8 +575,8 @@ return {
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "欸——？！不、不是吧，这张卡对应的惩罚难道是……「入狱卡」？！",
+			actorName = "Gallant",
+			say = "What?! Nooo! Why'd I have to draw the go-to-jail card?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,8 +605,8 @@ return {
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "我……警备队队长，正义的秩序维护者，设置门禁和路障之人——",
+			actorName = "Gallant",
+			say = "Me, of all people! The captain of the Guards! The protector of justice and order! The designer of our barriers and gates!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,8 +618,8 @@ return {
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "竟然……入狱了？！",
+			actorName = "Gallant",
+			say = "And now I'm being thrown into jail?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,8 +632,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "没事的！有我在，一切难题都将迎刃而解！",
+			actorName = "Pompeo Magno",
+			say = "Have no fear! Captain Pompey will save you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,8 +646,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "让我看看我抽到了什么……啊？「交换卡」？和上一个玩家交换处境？",
+			actorName = "Pompeo Magno",
+			say = "With this card, I'll... Hm? \"Swap\"? My character swaps statuses with the player ahead of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,8 +660,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "……这、这只是一场游戏而已！无所不能的庞贝才不会因此产生动摇呢！绝对不会！",
+			actorName = "Pompeo Magno",
+			say = "Well... It's just a game! A trifling matter like this could never perturb the almighty Captain Pompey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,8 +674,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "那、那个……我肚子突然痛起来了……可以允许我离开五分钟——直到这一局结束吗……？",
+			actorName = "Pompeo Magno",
+			say = "Urgh... My stomach hurts all of a sudden... Can I leave my seat for five minu– Actually, until the end of the round?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,8 +688,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "抚顺",
-			say = "哦——「购置房产卡」！对象是……闹鬼的旅店！？太！棒！啦！！",
+			actorName = "Fu Shun",
+			say = "Oh, a property purchase card! It's for the... Wait, it's for the haunted hotel?! Oh hell yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,8 +702,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "有了这处房产，就可以向路过的所有人强制收取高额的游览费？！",
+			actorName = "Pompeo Magno",
+			say = "So, owning this property means you can actually make everyone who passes by cough up a hefty sightseeing fee?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,8 +716,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "庞培·马格诺",
-			say = "……还好我入狱了，嘿嘿。",
+			actorName = "Pompeo Magno",
+			say = "Phew! Good thing I landed in prison. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,8 +729,8 @@ return {
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "勇气",
-			say = "不是吧——？？",
+			actorName = "Gallant",
+			say = "NOOOOOO!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,10 +742,10 @@ return {
 			bgName = "bg_villaisland_cg3",
 			portrait = 501070,
 			dir = 1,
-			actorName = "飞云",
+			actorName = "Fei Yuen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "旅店……闹鬼？",
+			say = "Did you say... \"haunted\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "下一秒，代表飞云的棋子就毫不犹豫地向着鬼宅飞速挺进了！",
+			say = "The very next moment, Fei Yuen's piece rushes toward the haunted hotel without a hint of hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,10 +768,10 @@ return {
 			bgName = "bg_villaisland_cg3",
 			portrait = 501070,
 			dir = 1,
-			actorName = "飞云",
+			actorName = "Fei Yuen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，飞云大人要开始输出了——！",
+			say = "Heheh! Lady Yuen's time has come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,8 +784,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "飞云",
-			say = "就这样全力前进吧，我们的假期大冒险——！！！",
+			actorName = "Fei Yuen",
+			say = "Onward at full speed! This is our vacation adventure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "在飞云的棋子抵达闹鬼旅店的同时，雅努斯的白球终于顺利将1号球击落入兜——",
+			say = "Just as her piece lands on the haunted hotel, Janus finally sinks a red ball into the pocket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "{namecode:97:大凤}和可畏也在经历了一段激烈的勺子大战后，默契地选择同时展开下一步攻势——",
+			say = "After an intense feeding battle, Taihou and Formidable, in a synchronized move, launch their next offensive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,7 +818,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "在此起彼伏的笑声中，所有的疲惫都化作温暖的回忆，所有的努力都值得肯定。",
+			say = "Amidst cheers and laughter, all my fatigue melts into pleasant memories. Our hard work has paid off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_cg3",
 			hidePaintObj = true,
-			say = "而这场永不打烊的海岛别墅假日，此刻才刚刚翻过扉页——",
+			say = "This never-ending villa vacation has only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			bgm = "story-dazy-style",
 			sequence = {
 				{
-					"——「夏日重建！海岛别墅度假计划！」·FUN",
+					"Midsummer Returns: The Villa Reconstruction - The End",
 					2
 				}
 			},

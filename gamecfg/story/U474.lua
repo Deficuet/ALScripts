@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>四  聒噪的访客</size>",
+					"Days of Tranquility\n\n<size=45>4.The Loudmouthed Visitor</size>",
 					1
 				}
 			}
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:413}变得会经常呆在指挥室里。虽说不会影响工作，但是……",
+			say = "U-47 was now making regular visits to my office, which I didn't mind. I enjoyed her company, and she didn't interfere with my work at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……突然很在意她和其他潜艇同伴之间的关系。",
+			say = "But, because she hung out with me so often, her fellow submarines weren't seeing her very much. This thought nagged me a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，怎么了？",
+			say = "Something wrong, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想得太出神，不知不觉与{namecode:413}四目相对了。正当我想把注意力转回工作上时——",
+			say = "I was staring idly at her. Sensing this, she turned around, and our gazes met. Just as I remembered I should start working, I heard a banging on the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！！ 喂，开门啦——！",
+			say = "Commander! It's me! Open up!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "伴随着巨大的嗓音和咚咚的敲门声，指挥室的宁静被打破了。",
+			say = "A voice yelled from beyond the door, breaking the peaceful silence up to that point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,170 +154,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "听这个声音，好像是{namecode:413}的同伴，{namecode:414}……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 408010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "指挥官~指挥官~！你看到{namecode:413}了吗？",
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "{namecode:413}的话……目光转向了她所坐的沙发——但那里没有任何人的身影。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 408010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "真是的，她到底在哪呀？因为有人看到她最近往这个房间跑，我才来的！",
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "{namecode:414}露出沮丧的表情坐在沙发上，我也重新回到办公桌前坐准备坐下的时候——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "我意识到了一件不得了的事——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……让我躲在这里，直到{namecode:414}离开。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯？指挥官，你不坐下来吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……没办法了。虽然有尽力避开{namecode:413}的身体，但是在桌下狭小的空间中还是能清晰地感受到她的存在。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 408010,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "{namecode:413}那家伙，好多时候根本找不到跑哪儿去了……！",
+			say = "Startled by this abrupt noise, I got up and opened the door. U-81 immediately sprung inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +171,170 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果任凭她这样逃跑的话，不是显得我很没用吗！我绝对会找到你的，{namecode:413}！",
+			say = "Hey, random question, but you seen U-47 around?",
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I turned my gaze to the couch only to find U-47 was gone, even though she was there just a moment ago.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 408010,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Where the hell has she gone off to? I was sure I saw her headed here, so I came to investigate!",
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "U-81 sat down on the couch with a disgruntled expression. I watched her as I returned to my desk to sit down.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "That was when I spotted U-47, hiding underneath my desk. It caught me so off guard that I froze in place.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Shhh. Let me hide here until she's left.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "What're you doing, Commander? Don't you have work to do?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Trying to avoid making U-81 suspicious, I sat down in my chair and positioned my legs so they wouldn't bump into U-47.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 408010,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "U-47's damn good at hiding, I'll give her that! TOO good, sometimes!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 408010,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "But I'm the hide-and-seek champion! My title hinges on finding her, so I can't give up now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法，就再去别的地方看看好了！对不起打扰你啦，指挥官！",
+			say = "Ah, screw it! She's obviously not here, so I've gotta look elsewhere. Sorry for interrupting your work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "余音还未完全消失，{namecode:414}已经从指挥室中离开了……",
+			say = "U-81 apologized, then promptly darted out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,38 +390,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "又过了好一会儿，{namecode:413}才慢吞吞地从桌子下面钻了出来，然后无奈地短叹了一声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 408020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "原本没想打扰到指挥官的……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "作为打扰来说，也不算很打扰……不过为什么{namecode:413}不愿意在{namecode:414}面前出现呢？",
+			say = "Then, U-47 emerged from under the desk after the coast was clear. She exhaled an exasperated sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +406,22 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为周围的潜艇同伴都很聒噪。",
+			say = "Sorry about that. I'd hoped she wouldn't come by...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "\"It's no big deal, so don't worry about it. But why were you hiding from her?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +437,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请别误会，我并不是讨厌她们。只是我单纯不擅长应对……吵闹的人。",
+			say = "Like I said, most people I know love to make a racket.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 408020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "That's not to say I don't like them, it's just... I'd rather bail when things get rowdy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说罢，她又拿起书，像刚刚一样坐回到沙发上。",
+			say = "She explained herself, then sat down on the couch and picked up her book where she left off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥室又恢复了先前的宁静，我再次重新回到办公桌前坐准备坐下的时候——",
+			say = "This reminded me it was high time for me to start working, so I went back to my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……还是做好{namecode:414}冷不防杀个回马枪的准备吧。",
+			say = "At the same time, I decided to plan for the possibility of U-81 making another sudden visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

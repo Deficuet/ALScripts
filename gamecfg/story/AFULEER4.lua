@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>四、同为“老兵”</size>",
+					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 4: Old Soldiers</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日",
+			say = "One day, at port...",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "一队奇妙的组合正聚在一起享用重樱的茶会",
+			say = "Unfolding before me was the strangest tea ceremony(?) I had ever witnessed in my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦，这就是传闻中的重樱的抹茶吗！",
+			say = "Hehh~ So this is the Sakura Empire's famous matcha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喝惯了刺激的东西，偶尔换换口味也不赖嘛。",
+			say = "Hahah! Wouldn't mind having some of this stuff every now and then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}，感谢你用家乡的茶叶招待我们。",
+			say = "Mikasa, thank you for bringing us all these souvenirs from the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈，哪里哪里。大家都是活跃在一个时代的伙伴，不用客气！",
+			say = "Ahaha! No need to be reserved, my comrades! We've all lived through the same era together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，我们几个就是老人……“舰历很长的人”呢！",
+			say = "How strange... I don't seem to see anyone here who fits that description! There aren't any girls here with super long service histories~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说好像也没错呢，呵呵~",
+			say = "Come to think of it, you're right. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，对了对了！之前让指挥官跑腿买的那个游戏还挺好玩的！下次有机会的话一起来玩吧！",
+			say = "Hey Avrora, the video game that Commander bought looked super fun, right? Why don't we all give it a try next time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "游戏？说的是……电子游戏吗？那个的话，有点……",
+			say = "Video games? I'm no good at those...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸欸？我以为{namecode:82}在港区这么久，多多少少会玩一点呢~",
+			say = "Ehh? Mikasa, you're not a gamer~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我为什么要玩这个啊！",
+			say = "I-is there any particular reason for me to become a \"gamer?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，水星纪念，每个人的兴趣都是不同的啦。你也不要每天光玩游戏比较好哦",
+			say = "Well, we're all allowed to have our own hobbies. Besides, Kuku, wouldn't it be better if you had other interests outside of playing games?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好啦，我知道了（棒",
+			say = "Suuure, whatever you say~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，真的是一点都没变呢。",
+			say = "Hahaha, it's good to see that neither of you have changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔，看来只有我一个人对这个印象比较模糊吗。虽然并不是一点也没有…",
+			say = "Hmm... Seems like I'm the only person here whose memories are a rather hazy... though it's not like I don't remember anything at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "甘古特在说什么话，不管时间过去了多久，大家并肩战斗过的事实是不会消失的",
+			say = "What are you saying, Gangut? Regardless of the length of time, we've always been working together towards the same goals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突然从海洋出现的强敌、被掠夺的制海权、无数的牺牲、质和量上都令人绝望的战力差",
+			say = "The sudden emergence of powerful enemies from the depths that seized the seas from us and resulted in countless sacrifices... the despair that came from the overwhelming difference in power between us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……即使在这个艰难状况下，为了守护碧蓝色的航线，各个阵营的伙伴们并肩战斗——",
+			say = "And, the friends from all over the world who set aside their differences and banded together to desperately fight to protect our azure lanes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，虽然状况有所不同，但是就各个阵营的伙伴们都聚集在一起这件事上来说，这个港区和当时确实很像呢",
+			say = "Mm... and while the times may have changed, comrades from all different factions once again gather at the same port to sail under the same banner, just like back then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这都是指挥官的功劳呢",
+			say = "Yes, and it's all thanks to Commander's hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便是作为前辈的我们，在这个舰队里也能够发挥自己的力量，去正确的引导后辈们的前进方向",
+			say = "Even though we are older, we can still use our powers to guide our juniors on the right path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，引退还为时尚早啊。哈哈哈",
+			say = "Ahh, but it's still too soon to retire. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "伴随着横溢的茶香，四人的对话就这么进行了下去。",
+			say = "And thus, the conversation of the venerable veterans continued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

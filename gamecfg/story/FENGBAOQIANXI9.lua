@@ -12,7 +12,7 @@ return {
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方没有再出现新的的阻拦舰队，我们成功突围了",
+			say = "We somehow made it out unscathed...",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周围的海况和天气也都恢复正常了！",
+			say = "Look, the weather's back to normal! We can finally breathe easy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...还好有企业的引导，要是迷失在镜面海域里结果可就真的难说了",
+			say = "Thank God you were with us, Enterprise! If you weren't, we'd never have left that place alive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，被摆了一道！到底从哪儿冒出来这么多塞壬啊",
+			say = "Where the heck did those Sirens even come from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是塞壬消失的主力部队么？居然在这个位置出现，难道说塞壬的目的是...",
+			say = "No clue... Maybe the ones we spotted way earlier just disappeared and then reappeared in there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头，通讯好像恢复了。等等...司令部居然在用明码播报？！",
+			say = "Cleve, I'm getting a transmission! Let's hear what it... Oh my God...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在开始接收来自纽约港的联络--------------",
+			say = "... It's... an unencoded message... from NY City...! Enterprise... there has been an attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

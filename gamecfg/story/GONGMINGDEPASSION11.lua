@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_ouxiangsanqi_1",
 			hidePaintObj = true,
-			say = "港区·大会海域",
+			say = "Port - Muse System Test Area",
 			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家期待的港区大型Live终于又召开了喵~！我是本次担任总主持人的{namecode:98:明石}喵！",
+			say = "It's time for what you've been waiting for – the idol concerts are back, nya! I'm Akashi, your main master of ceremonies, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "为什么说是总主持人呢——因为本次还有两位小组主持人和{namecode:98:明石}一起主持喵~",
+			say = "That's right, main, nya! This time, there are two other people hosting this event alongside me, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信大家也注意到了此次和以往大不相同的舞台结构喵！",
+			say = "Two is the name of the game today, nya! Two teams, two stages, two more hosts, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "所以两位小组主持人会分别在不同的舞台进行控场和协助主持喵~！",
+			say = "Let's hear a word from the lovely ladies who are with me here today, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "锵锵，「青组」主持人萨拉托加闪亮登场~",
+			say = "Hiii! It's me, Sara! I'm hosting for the blue team!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "还有我，本次被选中成为「红组」主持人的{namecode:224:哈尔滨}。",
+			say = "And I'm Harbin, the non-singing voice of the red team!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本次的舞台就交给可爱的萨拉妹妹和飒爽的{namecode:224:哈尔滨}为大家解说吧~",
+			say = "We're both so excited to be hosting this event today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "事不宜迟，就让我们欢迎双方选手入场吧！",
+			say = "Without further ado, let's introduce the faces both new and old who'll be performing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "首先是「红组」的领军组合——「Alizarin」！",
+			say = "Starting with the red team! Give it up for Alizarin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "（哼哼~可畏在上台之前可是有好好练习过表情管理，绝对能好好呈现C位的魅力的！）",
+			say = "(This is what I practiced my stage face for – so I could be at the centre of the team!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "你好像很开心？",
+			say = "(Heehee. You sound like you're having fun.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然了，毕竟是要在这么大的舞台上展现属于可畏的魅力呢~",
+			say = "(I certainly am. I've been waiting to flaunt my charm on stage in front of an audience!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为C位有这样的心态是好事呢，但也不要忘记组合间的配合哦？",
+			say = "(You have the confidence to take center stage, but don't forget about the teamwork.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "这点可畏当然知道的啦。",
+			say = "(Yes, yes, I know!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来入场的是来自「青组」的——「 Cyanidin」哦~！",
+			say = "And now for the blue team! A round of applause for Cyanidin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "哇哦~虽然知道这次会很隆重，但是没想到会是这么大的场面啊！",
+			say = "Oh gosh! I knew we were going big, just not THIS big!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "鲁莽，作为我们的Center，你的举止要优雅一点才行。",
+			say = "(Téméraire! You're the center, so please act with due elegance!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "啊！情不自禁就……我会注意的啦！对了，{namecode:197:博伊西}，你现在感觉还好么？",
+			say = "(Oops! Sorry! I'll focus! Boise, how are you holding up?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "呼~哈~我、我会努力把其他人当成南瓜的……",
+			say = "(Huff... Puff... I-I'm trying to imagine the audience in their underwear!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,42 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以上两个组合就是本次参与「μ兵装实验测试」的强力新舰船偶像喵！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_ouxiangsanqi_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 312010,
-			say = "而且，大家熟悉的面孔也在本次回归了喵！相信本次的对抗赛一定比之前还要精彩喵！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_ouxiangsanqi_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "分别是首届最强的组合「Polaris」、爱与毁灭的「Verheerender」，",
+			say = "These are the new units participating in this Muse System test, nya! There's powerful shipgirls on both sides, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +392,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "慵懒且优雅的「Lumière」，以及闪亮的「Astrum」喵！",
+			say = "That's not all, nya! Some familiar faces will be performing today as well, nya!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "bg_ouxiangsanqi_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "First up, the powerhouse unit Polaris and the beautiful but dangerous Verheerender, nya!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_ouxiangsanqi_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 312010,
+			say = "Then there's the graceful yet slothful Lumière, and the shining stars of Astrum, nya! This sing-off is bound to be the most exciting yet, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了以上这些装备着「μ兵装」的偶像组合，本次也还有其他的舰船偶像参加哦！",
+			say = "And last, but not least – the many, many idols without Muse Systems who are also participating!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "哈哈哈，是啊！就让我们掌声欢迎东煌姐妹——",
+			say = "Oh yes! Let me hear you clap first for the Empery's reps, the Dragon Sisters!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯嗯？这是萨拉妹妹的词哦！",
+			say = "Hey! I was gonna introduce them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 599010,
-			say = "毕竟是来自东煌的偶像嘛，偶尔串一下台词也没啥大事吧~",
+			say = "It just feels right for me to do the honors! Let me be a little biased toward my countrymen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟了喵……开场前的时间没控制好喵！大家快点登场吧喵！",
+			say = "Uh-oh, we're running a little short on time, nya! Let's get everyone up on stage right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "bg_ouxiangsanqi_1",
 			hidePaintObj = true,
-			say = "在一片兵荒马乱之中，剩余的选手也悉数登场。",
+			say = "A brief flurry occurred as the shipgirls got up on stage, all donning idol attire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			side = 2,
 			bgName = "bg_ouxiangsanqi_1",
 			hidePaintObj = true,
-			say = "——由{namecode:408:Z23}和{namecode:2:吹雪}两人组成的限定组合、伊丽莎白女王、拉菲、独角兽还有哈曼。",
+			say = "There was the temporary duo of Z23 and Fubuki, and Queen Elizabeth, Laffey, Unicorn, and Hammann, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之！本次的规则就是同时登场进行Live喵！",
+			say = "There you have it, nya! As per the rules, both teams will perform on stage at the same time, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "会从吸引力、舞台表现等方面综合打分喵~！",
+			say = "They'll then be rated based on the quality of their performance and their appeal, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,12 +585,12 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_ouxiangsanqi_1",
-			actorName = "{namecode:224:哈尔滨}＆萨拉托加",
+			actorName = "Harbin&Saratoga",
 			dir = 1,
 			actor = 599010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各位，加油吧！",
+			say = "Good luck, girls!",
 			subActors = {
 				{
 					actor = 107039,
@@ -620,11 +620,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_ouxiangsanqi_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们是不会输的！",
+			say = "It's showtime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

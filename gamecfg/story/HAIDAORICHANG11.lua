@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>另类捕鱼法</size>",
+					"Uncharted Summer\n\n<size=45>Fishing Friends</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这里是鱼群富集的海鸟栖息地。",
+			say = "Just a while away from here is a sea bird habitat where schools of fish congregate.",
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "上次来的时候还只有漫天白鸟，现在则在距离栖息地还有一段距离时便听到了少女的欢笑声——",
+			say = "There were only flocks of birds there on my last visit, but now even from quite some distance, I can hear a group of girls laughing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇！又钓上来一条。",
+			say = "Ahah! Got another one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "这好像是今天钓到的最大的一条鱼呢~！",
+			say = "Check it out! It's got to be the biggest we've caught today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，我们这边今天的收获也很不错哦~",
+			say = "I caught a pretty large one too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样今天晚上的全鱼宴食材就有着落了~",
+			say = "At this rate, we'll be set for a quán yú yàn tonight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108020,
-			say = "全鱼宴是……？",
+			say = "Huh? A what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是一大桌全部用鱼做的菜！",
+			say = "It means, \"whole fish feast.\" It's a full-course meal consisting of fish dishes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "逸仙姐姐说了，等今晚回去的时候会展现一下手艺，让我们敬请期待……嘿嘿~",
+			say = "I can hardly wait. Yat Sen said she'll go all-out tonight with tonight's dinner if we bring her enough fish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看起来，这里正在为了晚餐的食材而进行着忙碌的钓鱼活动。",
+			say = "Looks like the girls are all catching fish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在钓点的不远处，一大群海鸟正在用好奇的眼神盯着她们。",
+			say = "A flock of seagulls off to the side seems to be observing them with curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看起来是正在围观她们钓鱼的活动……也不知道它们能不能看得懂。",
+			say = "They must be wondering how on earth they're getting so many fish when they can't even fly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全鱼宴……看来需要再多带些鱼回去了……",
+			say = "There'll be a lot of us, so I think we should catch extra.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此……也许拉菲说的计策会有帮助……",
+			say = "Oh, that reminds me... I want to try the trick Laffey taught me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "{namecode:6}突然俯下身子，似乎对着身边的海鸟说了些什么。",
+			say = "Ayanami bends down and whispers something to a seagull.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "然后……海鸟点了点头，向着大海的方向振翅飞去。",
+			say = "After which, it seems to nod its head and take off into the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "这个难道是……",
+			say = "\"You've got to be kidding me...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官也是来这里钓鱼的么？",
+			say = "Hi, Commander. Here to fish?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问刚刚的事",
+					content = "\"First of all, what was that about?\"",
 					flag = 1
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像拉菲说的一样……这里的海鸟很亲人。",
+			say = "Well, Laffey told me the seagulls on this island are super friendly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我刚刚跟噗噶说了，如果能带一条鱼给我的话，晚上的全鱼宴它也可以来参加。",
+			say = "So I told Squawkey that he can sit at the dinner table tonight if he brings some fish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……噗噶？",
+			say = "\"Squawkey? Who's that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我刚刚给它起的名字，很有驯兽师的感觉吧……",
+			say = "The seagull. He squawks, so I named him Squawkey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，噗噶回来了。",
+			say = "Oh, look. He's back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,11 +412,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海鸟",
+			actorName = "Seagull",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "噗噶——噗——",
+			say = "Squawk! Squawk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "似乎是刚刚离开的那只海鸟蹦跳着走到{namecode:6}的身边，然后丢下了一条鱼。",
+			say = "The seagull Ayanami spoke to returns to her side and drops off the fish held in its beak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,22 +435,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "海鸟",
+			actorName = "Seagull",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "噗——噶噗——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "胖胖的白色海鸟，似乎有些心情愉快地飞走了。",
+			say = "Squawk! Squaaawk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +450,18 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "看来，今晚吃饭的时候，要专门留出一个区域给海鸟用餐了呢——",
+			say = "It lets out a cheerful cry, as though it's eagerly anticipating tonight's dinner, then flies off again.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			say = "It seems we'll have to prepare a chair to seat a seagull.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

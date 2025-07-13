@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "注意！敌方新型单位，开始向我方靠近，全员做好战斗准备！",
+			say = "A humanoid Siren is approaching us rapidly! Everyone, prepare for battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "哟，居然还学会会主动出击了",
+			say = "Hah, trying to get the jump on us, huh? That ain't gonna work!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "新型的塞壬舰船…似乎一直在模仿着我们的作战方式呢",
+			say = "The new Sirens seem to be mimicking our combat strategies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,11 +57,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "华盛顿",
+			actorName = "Washington",
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！正合我意，那就让他们瞧瞧真正的白鹰战斗风格吧！",
+			say = "Perfect! We'll show them just how big the difference is between true Eagle Union technique and their flimsy imitation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

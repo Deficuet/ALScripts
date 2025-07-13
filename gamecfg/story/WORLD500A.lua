@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "今天的前哨站内也是一片平静，犹如一潭死水。",
+			say = "The maritime outpost at the forefront of Operation Siren, a major counter-offensive to eliminate Siren activity in the NA Ocean, has been quiet lately.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "时间已经过去了十日，总攻依然没有开始。",
+			say = "Ten days have passed, but the next phase of the large-scale assault has not started yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "翻看明日日程，从上到下依然写满了会议两个字。",
+			say = "The only things on the calendar are meetings, meetings, and more meetings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "舰队集结多时，总攻方针却怎么也定不下来……箭已在弦却迟而不发可不是好现象。",
+			say = "Though the Eagle Union's fleet is assembled and stands ready, the green light has not been given to continue the large-scale assault, and the operation's progress has slowed down considerably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "不过，也不能完全怪指挥部过于官僚么……",
+			say = "As anyone who has studied the art of war knows... it is rarely a good idea to lose the initiative when on the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "白鹰前哨站 十日前",
+			say = "Eagle Union Outpost - 10 days earlier",
 			dir = 1,
 			bgm = "xinnong-3",
 			flashout = {
@@ -127,11 +127,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警报音————",
+			say = "(Alarms blaring)",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚刚的是，警报音……？",
+			say = "I was looking over some reports in the office when the sound of sirens blaring ripped through the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，深夜打扰了。指挥官还没休息么？",
+			say = "Sorry for bothering you this late, Commander. Are you still working?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "稍微完善一下进攻的细节再睡……总攻方案一直定不下来可不行。出什么事了么？",
+			say = "I was fine-tuning the details for the upcoming large-scale assault. As the commander, it is my responsibility to see the operation through to completion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是这样，海域中心的旋涡内部突然出现了异常现象。",
+			say = "Earlier, there was a report that an anomalous phenomenon was seen from the maelstrom in the middle of the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这是刚从前线发来的侦察情报，请过目。",
+			say = "Here's the intel that our recon team put together for us. I thought you should look over it as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……巨大的要塞群出现在了风暴边缘。原本以为只是异常气象的中心区域现在变为了风暴与要塞的混合体……？",
+			say = "\"...A large cluster of Siren facilities has been seen around the maelstrom. The facilities may directly be linked to the weather abnormalities...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在确认了这一情况后我们本想继续深入调查，结果侦察机被密不透风的要塞火力瞬间摧毁了。",
+			say = "I initially also tried to send some recons out to survey the situation, but my planes were shot down before they could gather any information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "塞壬除了一直在避战的主力舰队之外，居然还修建有这种规模的防御设施，这还是……",
+			say = "The fact that the Sirens have erected an entire complex of facilities while also not revealing their main forces is a reason for concern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这个新情况超出了我们所有人的心里预估。",
+			say = "The extent of the activity we're seeing goes beyond what we predicted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "有进攻的迹象么？",
+			say = "\"Were they poised to attack you?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还没有。但是以防万一，我已经提高了基地的警戒等级，现在舰队正在紧急集结中。",
+			say = "Not yet. Just to be safe though, I raised the threat level and gathered the main fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "很好，我们也去指挥室吧。中心海域要塞的出现不可能毫无意义，我们必须得尽快做好准备才行。",
+			say = "\"I have to meet with the Naval HQ about this. We must make preparations to face the Siren stronghold.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……指挥官，指挥部发来了预计在半小时后召开紧急会议的联络，您也需要参加。",
+			say = "Of course. By the way, there was also another emergency message from the Naval HQ. I originally was coming to let you know about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实我原本是来通知这件事的……",
+			say = "It may be about the same thing we're talking about, but I'm getting the hunch that there might be a lot more to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "啊……说的也是。发生了这种突发事件，指挥部肯定要协调所有系统进行应对……",
+			say = "We'll find out. Regardless, the Naval HQ should be taking any measures necessary to combat this anomaly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "那在会议期间基地的防御和情报收集就拜托你们了。",
+			say = "\"While I'm busy, you're in charge of defending the base, as well as collecting any information you can.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，我立刻出海指挥，指挥官也尽快前往会议室吧。",
+			say = "Understood. I'll take command of the fleets patrolling the base. I'll make sure you're able to complete your work without being disturbed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "唉……看来之前做好的作战计划怕是要全部作废了……",
+			say = "I sighed to myself, knowing that everything I had been working on was just about to go out the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "虽然预想到会出现一定程度的争执，但如此复杂与漫长的会议还是太过夸张了……",
+			say = "I knew there would be a drawn-out debate among the higher-ups at Naval HQ, but I didn't think it'd end like this...",
 			dir = 1,
 			bgm = "blueocean-image",
 			flashout = {
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "在中心要塞的气势压迫下，想要一鼓作气冲破防线的激进派与围困塞壬逐步推进的稳健派争论不休。",
+			say = "Two approaches have been hotly debated: the first, launching a focused assault to break through the Sirens' defensive line, and the second, slowly whittling their forces down until we have them surrounded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "甚至还出现了希望抽调主力舰队进行科研任务，对塞壬展开深入研究的革新派……",
+			say = "What's more, some are requesting our capital ships be withdrawn and reassigned to do Siren research missions instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			blackBg = true,
-			say = "感觉在漫长的讨论中会议已经逐渐偏离了最初的主题，如果明天能得出一个切实有效的结论就好了……",
+			say = "Either way, we have too little intel to determine our best course of action... Hopefully, tomorrow, we will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

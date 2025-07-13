@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "东煌·？？？",
+			say = "Dragon Empery - ???",
 			bgm = "china-party",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "「朱雀坠九天」……没想到，寰昌的卜算这么快就应验了一半啊。",
+			say = "\"The Vermilion Bird falls from the heavens.\" Something's going to happen in the south... Huan Ch'ang's divination is already half confirmed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是不佩服不行……",
+			say = "Man, she's something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "是啊，现在安塔迪卡的局势可是糟糕到夸张的地步了哦。",
+			say = "No kidding. Things in the Antarctic have gotten extremely dangerous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "似乎是因为观察者主机正处于危险之中，目前，各处海域的塞壬大军正在向着安塔迪卡集结。",
+			say = "Siren hordes are going there from all directions. It must be because of the danger Observer's mainframe is in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "它们正在多地同时修建一条圆环防线，意图将整个安塔迪卡大陆包围起来。",
+			say = "Some seem to be building a defensive line around a portion of Antarctica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "与此同时，引发事件的幕后黑手似乎还没有放弃，安塔迪卡大陆上的战斗依然在持续。",
+			say = "The battle in Antarctica rages on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不过具体战况如何就不得而知了……",
+			say = "But it's difficult to get a read on such a hectic battle...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。目前指挥部已经撤离了安塔迪卡战区内的所有人员，暂停了一切科考活动。",
+			say = "Fortunately, the Commander has withdrawn all allies from Antarctica and the research station.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由白鹰、皇家，还有主动要求协同作战的铁血，一同在塞壬的防线外部部署力量。",
+			say = "Currently, the Royal Navy, Eagle Union, and Iron Blood are monitoring the Sirens' defensive line.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在监视安塔迪卡战况的同时，也防止可能的风险外溢。",
+			say = "I'd love to see the Sirens take themselves out at this rate, but pipe dreams aside... If the battle did spill out of the area, they'd surely take care of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是风云诡谲的局势，一向稳定的安塔迪卡竟然会在转瞬间变成这样。",
+			say = "Antarctica has been peaceful for so long. What could have caused this sudden violence?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们建设安塔迪卡科考站的计划……也得无限期推迟了呢。",
+			say = "Our plans to build a research station will have to be postponed indefinitely...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很遗憾，但这也是没办法的事。",
+			say = "We have no choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且不光是在安塔迪卡，全球各处海域中的塞壬也出现了一系列全新部署。",
+			say = "Besides, the Antarctic isn't an anomaly. Siren activity has increased all over the world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本被塞壬放弃的各处海域中，塞壬巡逻舰队重新出现了。",
+			say = "Even in areas we've taken back from the Sirens, their patrols have been spotted again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就连已经被指挥部通过摧毁构建者主机而彻底夺回控制权的NA海域中也是如此。",
+			say = "This is true of the NA Sea, too, even after Compiler's mainframe was destroyed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "根据指挥部提供的情报，这些巡逻队的型号虽然没有变化，但是智能得到了显著增强。",
+			say = "They don't seem to be new models of Sirens, but they clearly work in unison.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但会主动避战，在被迫进行战斗的时候也展现出了与以往截然不同的战术能力。",
+			say = "They don't just evade battle. When forced to fight, they act in entirely different ways from before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就好像随时随地，都被某个看不见的高阶塞壬所直接指挥一样。",
+			say = "It's as if they're being controlled by an invisible command unit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "构建者的主机被重建了？",
+			say = "Do you think... Compiler's been rebuilt?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也有所怀疑，不过指挥部的资料中并没有任何构建者的目击报告。",
+			say = "That is feasible, but we have no witness testimony to back that up yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒不如说，资料中没有提到任何一个高阶塞壬的目击报告。",
+			say = "Observer and the other high-level Sirens have obscured their whereabouts, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "活跃在各处海域中的只有棋子和量产型，似乎所有实验机关都不见了。",
+			say = "The only Siren forces appearing in the world's seas are pawns, mass-produced fleets, and lower-level enforcers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总参谋部认为，净化者、测试者等高阶塞壬的消失是观察者将其力量主力集中至安塔迪卡的结果。",
+			say = "Our staff believe that the disappearance of high-level Sirens is the result of them focusing their forces in the Antarctic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而外部海域中塞壬常规力量的智能增强与行为模式改变可能与其背后操纵者的变更有关。",
+			say = "While it is possible that Compiler will return, we find it more likely that Observer has ceded control to another Siren.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观察者在专心应对安塔迪卡战局的同时，很可能将外部海域的管理权交给了另一个高阶塞壬。",
+			say = "For example, focusing herself on the fight with Gazers in the Antarctic while leaving the rest to another higher-level Arbiter...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而这个高阶塞壬，很有可能是一个我们曾经交手过、或尚未见过的仲裁机关。",
+			say = "Arbiters are no monolith. The Commander witnessed as much in the NA Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总参谋部的分析很有道理……",
+			say = "You have a point...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "一个能给世界上全部塞壬量产型和棋子进行能力升级的仲裁机关……？",
+			say = "Those Arbiters are already bad enough, and you're telling me there's one who can control all the Sirens in the world on her own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还真是来了个不得了的强敌啊……",
+			say = "Arbiters are one hell of an enemy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "更糟的是，大风暴之外同样出现了高密度的塞壬巡逻队。",
+			say = "We have word that a large quantity of Siren patrols have gathered outside the storm as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似乎是终于察觉到了我们正在解析大风暴的行为，并企图做些什么。",
+			say = "They seem to be planning something with the knowledge that we're analyzing said storm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "种种迹象都表明，寰昌在卜算中提到的另一个事件，将会出现远超此前预料的不确定性。",
+			say = "The other half of Huan Ch'ang's divination... This is sure to be another handful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "情况可能会变得极端糟糕。",
+			say = "Things may get even worse than they have in the Antarctic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "我懂了，今天叫我和鞍山来，是打算给我们新任务了。",
+			say = "Now I get it. You called me and An Shan here for a new mission, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，鉴于情况变化，总参谋部决定暂停你和鞍山级手头正在执行的任务。",
+			say = "That's right. The situation has changed, so your current mission has been suspended.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来一段时间，你们将加入济安带领的东海风暴解析舰队。",
+			say = "I'll need you to rendezvous with Chi An's storm analysis team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时鞍山，你们已经获得许可。",
+			say = "Also, An Shan, you've been given permission regarding the other matter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当在前线遭遇到突发状况时，你们可以根据实际情况，自行决定是否使用先进设备。",
+			say = "You may use your advanced equipment at your discretion in case of emergency.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "就是这样，接下来一段时间就请诸位多关照了哦~",
+			say = "Good luck out there, everyone♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

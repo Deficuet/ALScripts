@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "呼……雷达范围内塞壬舰队清理完毕，萨拉妹妹大胜利~",
+			say = "Phew... No more Siren signals on the radar. Sister Sara wins again~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "侦察机发来报告，东南方向又出现多支敌军…",
+			say = "I have news from the scout planes. A new enemy flagship has been spotted to the southeast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没完没了啊！！！",
+			say = "There's no end to them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "空袭？！萨拉托加小心——！",
+			say = "Sara, watch out---!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没有发动攻击？",
+			say = "... They didn't attack?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特意从高空俯冲下来，只是吓我们一下…吗？",
+			say = "Did they just dive down just to... scare us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全被小看了……",
+			say = "(No, that's...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家快看，十一点钟方向有一个高速移动的黑影！",
+			say = "Everyone, look! There's something coming at us from 11 o'clock!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么近的距离，雷达上居然什么都看不到？！",
+			say = "It's so close, but there's no reading from the radar?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…………企业？）",
+			say = "(... Enterprise?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

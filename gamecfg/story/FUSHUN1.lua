@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"不可思议的“大危机”\n\n<size=45>一　指挥室的密道在哪里！</size>",
+					"Mysteries and Danger!\n\n<size=45>1 Where's the Hidden Passage?!</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（今天来就任的新秘书舰，我记得是——）",
+			say = "(As I recall, my new secretary ship starting today was...)",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，驱逐舰“抚顺”号，来担任秘书舰啦！",
+			say = "Commander! Destroyer Fu Shun, reporting for her first day of secretary work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女充满活力的声音在指挥室响起。不知为何，总觉得接下来的一天会充满“波折”。",
+			say = "An energetic voice fills my office. I can already tell that today's going to be a hectic day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,24 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "话说，秘书舰的工作要先从指挥官的行程安排开始吧？让我看看……唔……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官，你中午要去参加会议，得提前了解重点内容……我这就去打印文件！",
+			say = "Right, so... The first thing a new secretary ship does is... check your schedule? Let's see what you've got... Hmm, yep...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，口渴了吗？想喝咖啡还是果汁？不过还是喝茶比较好吧！",
+			say = "You have a meeting at noon, so you should understand the important parts in advance, right? I'll go print the materials!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这几份报告需要你签字，我放在你桌上了！",
+			say = "Commander, are you thirsty? Do you want coffee or juice? Oh, or maybe tea after all?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +112,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……",
+			say = "Commander, you need to sign this report. I'll leave it on your desk!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "本以为今天的秘书舰工作会热闹又混乱，没想到抚顺相当认真。",
+			say = "I'd expected things to be more chaotic with her here, so it surprises me how seriously she takes the job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "这样的话……让她自己处理工作好像也不会出问题，可以放心去开会了。",
+			say = "It seems safe to delegate work to her, so I can head to the meeting with peace of mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我差不多该去开会了。抚顺，工作就交给你了。",
+			say = "It's almost time for the meeting. I'll leave this work to you, Fu Shun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~指挥官就放心吧！",
+			say = "Got it! Rest assured, your work is in capable hands!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间后，少女停下了手中的工作。",
+			say = "After a while, Fu Shun stops working.",
 			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的工作就到此为止啦！接下来——调查♪~探险♪~",
+			say = "Oookay, that's enough work for one day! Now it's time for... Investigation! Adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "密道♪~隐藏在指挥室的密道入口在哪里♪~一定藏在书柜后面♪~",
+			say = "Oh, hidden passage, where are yooou~♪ It's gotta be behind that bookshelf~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "等开完会后，再度推开指挥室大门时，映入眼帘的便是——",
+			say = "After my meeting, I open the door to my office—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "被搬离了原来位置的书柜、铺了满地的书和文件，以及一脸慌张的抚顺。",
+			say = "There, I find my bookshelf moved out of place, books and documents scattered all over the floor, and one panicked Fu Shun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎，指挥官？怎么突然回来……会，会议结束了？这么快？",
+			say = "Huh? Commander? You're back early... Th-the meeting is over? That was too fast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,36 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "趁你不在指挥室的时候开始捣乱？没有这回事！……是……嗯……调查！对！我在调查！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "调查？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "像是“隐藏在指挥室某处的密道”——之类的！把书柜和书弄到一边，都是为了确认有没有机关哦！",
+			say = "Taking advantage of your absence to do mischief? Pssh, who, me? Never! This is just... Yeah, an investigation! Yep! I'm investigating stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +332,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥室里没有“密道”，更没有机关……",
+			say = "Investigating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,41 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要急着下结论嘛！可能是指挥官你一直没发现而已哦？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "机会难得，我们一起来找吧！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 501020,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "你说秘书舰的工作……？你出去开会的时候就结束了呀！接下来的时间我会好好用来调查的！",
+			say = "I'm seeing if there are any hidden passages leading out of your office! Moving the bookshelf and books were just to check for traps!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +361,58 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（该纠正她的工作观念么？……但现在这个兴奋的样子又让人有点不忍心制止。）",
+			say = "I should hope there aren't any hidden passages, let alone traps. There... aren't, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Hey, there's no need to jump to conclusions! Maybe you just never noticed, right?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I already started the job. Let's search together!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "My secretary work and stuff? I already finished it while you were out at your meeting! Let's use the rest of the day to investigate!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +424,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（唉，算了……至少上午的时候抚顺有认真做事，下午的工作就自己来吧。）",
+			say = "(Should I correct her attitude toward work here? No, I'd feel bad stopping her now...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Ah, whatever. She took her job seriously in the morning. I'll manage the afternoon work myself.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在铺满书的地毯上勉强找到落脚点，再度坐回到办公桌前开始忙碌。",
+			say = "I manage to weave through the piles of books on the carpet, sit at my desk, and get to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

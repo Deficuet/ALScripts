@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "theme-clemenceau",
-			say = "维苏威火山，此刻依然笼罩在一片宁静之中。",
+			say = "Silence swept across the peak of Mount Vesuvius.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "那些肆意蔓延的白色物质，不知为何选择了避开这里。",
+			say = "This was one place where the white substance – the Divine Vestige – had not made its mark yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "四处战斗的喧嚣声，也在此处销声匿迹。",
+			say = "Battles were being fought across the Mediterranean Sea, but the sounds of war could not reach this tall peak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,12 +43,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭卿，你现在到哪里了？",
+			say = "Oh, Clemenceau! Where are you now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,12 +77,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "我现在正在向着你借给我们的隐秘据点前进。",
+			say = "I'm on the way to the safehouse you told me about earlier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,12 +94,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "审判庭舰队也已经快到了，我们修整一下就出发前往博览会场。",
+			say = "The Tribunal's mass-produced ships have arrived, so it's time for me to set off to the Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,8 +116,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "太好了，总算来了点好消息。",
+			actorName = "Marco Polo",
+			say = "Magnificent! Finally, some good news.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,8 +134,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "降临之时将至，而杂音，依然未平……还是你靠得住啊！",
+			actorName = "Marco Polo",
+			say = "It's ridiculous how much pushback we've faced when God's descent is so close to completion... Thank goodness I have you to rely on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,8 +152,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "在你加入战斗之前，我也给你点好消息。",
+			actorName = "Marco Polo",
+			say = "Before your final battle, I have something nice to tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,8 +170,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "哼哼哼，你知道么，借给你的据点位置可是我特意挑选的。",
+			actorName = "Marco Polo",
+			say = "I chose the safehouse you'll be staying in, especially for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,8 +188,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "那里与元老院的秘密设施就隔一条街。",
+			actorName = "Marco Polo",
+			say = "It's separated from the Senate's secret facilities by only one block.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,8 +206,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "没错，就是正在进行计划舰弗兰德尔研发的那座设施。",
+			actorName = "Marco Polo",
+			say = "Also, you'll find Flandre waiting for you there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,8 +224,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "——我们合作的弗兰德尔已经完成了。",
+			actorName = "Marco Polo",
+			say = "You heard that right – Flandre, the blueprint ship. The ace up our sleeve, better than anyone else at manifesting religious concepts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,8 +242,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			actorName = "克莱蒙梭",
-			say = "已经完工了么……？那还真是，令人意外的消息。",
+			actorName = "Clemenceau",
+			say = "Really? I would've never guessed she was so close by.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,8 +260,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "哈哈哈哈~我是想给你个惊喜，所以一直没告诉你。",
+			actorName = "Marco Polo",
+			say = "Hahaha! I reckoned she'd be of use to you, so I had her redeployed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,8 +278,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "克莱蒙梭卿，我现在就给你授权，由你去启动弗兰德尔。",
+			actorName = "Marco Polo",
+			say = "Besides, she belongs to the Holy See, right? It only makes sense that you'd command her, not me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,8 +296,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "你命令她……不对，你亲自带领她，还有你的审判庭舰队一同前往会场。",
+			actorName = "Marco Polo",
+			say = "Now go. Rendezvous with Flandre, take the Tribunal's fleet with you, and head for the World Expo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,8 +314,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "我也让特伦托去帮你。",
+			actorName = "Marco Polo",
+			say = "I'll send Trento META to assist you as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,8 +332,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "这一次，务必要铲除掉那群聒噪的苍蝇！",
+			actorName = "Marco Polo",
+			say = "Make those nonbelievers see the light of God!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,12 +345,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "我明白了。",
+			say = "I will, Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,12 +362,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不用担心，这些麻烦由我来处理，你专心进行仪式就好……",
+			say = "Don't worry about me. Focus only on completing the ritual to...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,12 +379,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀，直接挂断么……",
+			say = "Oh. She hung up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这么早就把牌打完，未免也太急躁了。",
+			say = "So you're going to show your full hand this early. Reckless as always, Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "还以为你能在赌桌上多陪我一会呢……",
+			say = "And I hoped you'd stay in the game for at least a while longer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真可惜。",
+			say = "A shame. It truly is a shame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "克莱蒙梭摇了摇头，抬起手来在眼前的屏幕上点了几下——",
+			say = "Clemenceau lightly shook her head in disappointment, then extended a hand up to her holograms and tapped through a menu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "克莱蒙梭大人，我们已经在预定位置待机了，接下来需要我们做什么？",
+			say = "Kersaint speaking. I've arrived at the coordinates. What am I supposed to do now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "听好，一会将会有一艘名为弗兰德尔的计划舰前去与你们汇合。",
+			say = "I'll tell you. Listen closely. Blueprint ship Flandre will come there to meet you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,59 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她虽然是我们与撒丁帝国合作的产物，但完全听从于审判庭的命令，绝对可靠。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 905020,
-			say = "等她到达之后，由你一并指挥。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 905020,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "然后，你们需要前往我发你的新地点待命，并做好战斗准备。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 905020,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "作战目标是不久之后将会抵达那片区域的特伦托·META。",
+			say = "She did briefly serve Marco Polo, but I assure you, she's on our side. Whatever you do, don't attack her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "当她出现的时候，她将会认为你们是友军，因而不会做出防备。",
+			say = "Once she has arrived, call everyone to regroup with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们直接发动突袭一举将其拿下。",
+			say = "Then, you will go to the new set of coordinates I just sent. Be ready for a battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +571,25 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不许将其击沉，让她失去战斗能力就可以了。",
+			say = "Your enemy is a META – Trento.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 905020,
+			say = "She'll think you're on her side, so try to catch her off guard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "任务完成之后向我汇报，然后在原地等待我的后续命令。",
+			say = "Be quick and incapacitate her with one blow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +623,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许你会因为过于震惊而漏听了部分内容，需要我重复一遍命令么？",
+			say = "You must not sink her, and you must not let her get away. Just incapacitate her.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 905020,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Once that's done, call me back, and remain on standby until your next orders.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 905020,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "...Did you get all that, or was it too shocking for you? Shall I start over?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			actor = 901040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不需要……我已经全部记下来了，克莱蒙梭大人！",
+			say = "N-no need, I heard you loud and clear! I've committed it all to memory!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			actor = 901040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "保证完成任务！",
+			say = "By the will of the Holy Iris.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好。",
+			say = "Yes. By the will of the Holy Iris.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "与凯尔圣的通讯结束后，克莱蒙梭关闭了面前所有的通讯面板。",
+			say = "Clemenceau terminated the call, then closed all her holograms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "她整理了一下衣袖，将法杖举了起来。",
+			say = "She grasped her staff firmly, held it high...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "然后，维苏威火山，喷发了——",
+			say = "And at that exact moment, Mount Vesuvius erupted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,12 +784,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "审判型机甲，代号「支配」，鸢尾教国审判庭的至高杰作。",
+			say = "The old Tribunal's crowning achievement among conceptual weapons – Blanc, the symbol of Conquest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,12 +801,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "……蔽日的浓烟、喷涌的烈焰，还有火光之中缓缓现身的机甲骑士。",
+			say = "Smoke blotting out the sun, flames consuming everything; finally, a horseman to signal the end days.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,12 +818,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "还有什么比这样的场景更适合渲染剧目的高潮呢。",
+			say = "It really sets the scene for the climactic finale. Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,12 +835,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "然后，我差不多也该真的动身启程了……",
+			say = "Now, I'd better leave while I'm ahead of the clock.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,12 +852,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "有一句话我没有说谎哦，马可波罗。",
+			say = "Although I've told Marco Polo countless lies, there's one thing I haven't lied about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,12 +869,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "被“神之痕”覆盖的路，真的很难走。",
+			say = "That roads covered by the Divine Vestige are truly, truly awful to walk on.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……Honey今天格外温柔呢。",
+			say = "Mm... Are you being sweeter than usual today?",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone4",
 			typewriter = {
 				speed = 0.05,

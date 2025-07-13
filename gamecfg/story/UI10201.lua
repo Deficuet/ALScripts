@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			stopbgm = true,
 			mode = 2,
-			say = "姐姐…",
+			say = "Sister...",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			actor = 105040,
 			nameColor = "#a9f548",
 			mode = 2,
-			say = "姐姐…你在哪里",
+			say = "Sister… where are you?",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			actor = 105040,
 			nameColor = "#a9f548",
 			mode = 2,
-			say = "姐姐…海…燃烧起来了",
+			say = "Sister… the sea… it's burning…",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			actor = 105040,
 			nameColor = "#a9f548",
 			mode = 2,
-			say = "姐姐…对不起…没能守护好他们…",
+			say = "Sister… I'm sorry… I couldn't protect them...",
 			blackBg = true,
 			withoutPainting = true,
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			nameColor = "#a9f548",
 			bgspeed = 2,
 			blackBg = true,
-			say = "主啊，如果这个世界真的有炼狱存在…那么我们现在一定身陷其中…",
+			say = "If Hell exists, this must be what it feels like.",
 			bgm = "story-5",
 			effects = {
 				{
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "如果这一切的牺牲能够换来您的怜悯，只希望您能再次指明我们未来的道路",
+			say = "May you guide us to a future in which these sacrifices welcome your compassion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "至少…带着这个孩子的灵魂一起…给予我们抗争的勇气",
+			say = "At least... take this child's soul... Give us the courage to fight back...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "呵呵…可恶的战争…又开始了",
+			say = "This damn war... has started again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			},
 			sequence = {
 				{
-					"          第一章   珍珠之泪 <size=34.5>Tears Of Pearls</size> \n\n\n\n",
+					"          Chapter 1 - <size=43.5>Pearl's Tears</size> \n\n\n\n",
 					2
 				}
 			}

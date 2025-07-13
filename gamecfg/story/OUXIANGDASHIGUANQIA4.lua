@@ -31,7 +31,7 @@ return {
 			actor = 202250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "干得不错…嘛！",
+			say = "Incredible...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 102240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到对方居然这么厉害…",
+			say = "That's insane... What kind of performance was that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 905030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "演唱・舞蹈・视觉——确认对方的演出处于全方位的优势",
+			say = "In terms of Vocals, Dance, and Visuals— the opponent's performance is superior in every aspect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来怎么办，{namecode:91}？这么僵持下去也不是办法。",
+			say = "What do we do, Akagi? We're not going to be able to get through here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			actor = 307100,
 			dir = 1,
-			say = "……撤退吧。虽然很不甘心，这场演出的确是我们输了。",
+			say = "...Retreat. It pains me to say this, but we've been thoroughly defeated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……输了呢。",
+			say = "We really lost, huh...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			actor = 10700070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "讨厌，明明只差一点点了~",
+			say = ".........",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你们看到丢人的一面了。",
+			say = "I apologize for my unsightly performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "没、没关系的啦！大家都没受伤，之后再来挑战就好！",
+			say = "D-don't give up! It might be frustrating, but at least nobody got hurt, and we can come back as many times as needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…进行特训，做好完全的准备以后再来挑战，一定能赢的。",
+			say = "That's true... If you undergo special training and prepare thoroughly, you can always face them again later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用演出决胜负的这个设定可不是{namecode:98}的主意喵～",
+			say = "It wasn't Akashi's plan to have everything be settled through concerts, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁都没想到会变成这样。{namecode:98}就专心研究为什么会出现那样的“城市”吧。",
+			say = "Nobody knows exactly why it happened. Akashi, you should focus on analyzing how that city came into being in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个冒牌货怎么回事嘛！……不可原谅！",
+			say = "I won't let those clones get away with this!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是抱歉，为了我们…",
+			say = "I feel bad that you have to go through all of this because of us...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -290,7 +290,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（大家的演出水平其实并不差，但是怎么说呢…）",
+			say = "(The Azur Lane girls are putting on a pretty good show, but...)",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -307,7 +307,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有传达出“为了谁而歌唱”的心…",
+			say = "...it feels like they don't know who they're singing for...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -324,7 +324,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千早，你有什么在意的地方吗？",
+			say = "Chihaya? Why are you mumbling to yourself...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…有点……",
+			say = "Huh? I what? Oh, err, I guess I was thinking about the impression I got from the concert out loud...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -358,7 +358,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽说输给那样的对手情有可原…但是，单纯只把歌唱出口，是没法打动人心的。",
+			say = "It might've simply been because our opponents were too strong, but simply singing is not enough to convey the feelings that can move one's heart.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "刚才的“失败”应该就是这个原因吧。",
+			say = "While I don't believe that there are winners or losers when it comes to concerts, I'd say this is the main reason for our \"defeat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此……现在重要的是先搞清了“为谁而唱，想要传达什么”，再进行表演是吧。",
+			say = "The potential is definitely there, but what you currently lack is professionalism.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "身为偶像的我们，时刻都意识着何谓能够打动人心的表演。如果舰船的的大家也能做出打动人心的表演，应该就能改变现在这个状况？",
+			say = "I'm not saying you all have to become professional idols, but you're going to need a certain level of pro finesse if you want to keep moving forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "全员",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "……………！",
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "事情的经过，本王了解了！",
+			say = "I have heard the lamentations of my subjects!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下…！",
+			say = "Your Majesty...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			actor = 205012,
 			dir = 1,
-			say = "我是皇家的女王陛下，伊丽莎白女王！你们这样下去可不行啊！",
+			say = "Queen Elizabeth of the Royal Navy has arrived! And what a marvelous suggestion I just heard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵？！赞助商大人登场了喵！",
+			say = "Nya?! One of our sponsors has arrived, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样下去可赢不了那冒牌货，特训之后再去挑战吧！还有…让其他μ兵装的组合也动员起来！",
+			say = "If you are unable to defeat those clones, then you must undergo special training and try again! Also, do deploy the other Muse units!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			actor = 205012,
 			dir = 1,
-			say = "765事务所的偶像们，能否助我们一臂之力呢？",
+			say = "Can we also count on the cooperation of the idols of 765 Production?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？是在问我们吗……？",
+			say = "*gasp*...!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -580,7 +580,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀~怎么办呢……",
+			say = "Oh my...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "突然说什么呢…她们又不属于碧蓝航线，只是突然从异世界穿越过来的普通人。",
+			say = "What are you saying all of a sudden...? These girls aren't a part of Azur Lane. They're just ordinary people who've been blown here from their world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			actor = 205022,
 			dir = 1,
-			say = "对啊！陛下，不管怎么说这也…",
+			say = "I agree! Your Majesty, please consider...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王当然知道！可是不调查那片海域的话，这几位也回不去不是吗？",
+			say = "I know, I know! However, if we don't investigate that location, there's no way to get these girls back home, correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且最重要的是…这场演出的赞助商可是皇家！不能就这样放着演出海域不管！",
+			say = "Most importantly, the Royal Navy is an official sponsor! It would reflect poorly upon us to leave the venue in its current condition!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "明白了……我们会帮忙的。如果我们能帮上忙的话。",
+			say = "Hmm, I see. If there's anything we can do to help...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 10700060,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "好像很有趣的样子，亚美也会帮你们的！",
+			say = "Now, this is something I can get behind. We're all in!",
 			dir = 1,
 			hidePaintEquip = true,
 			typewriter = {
@@ -710,7 +710,7 @@ return {
 			actor = 10700070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "异世界偶像…听上去就好帅啊！",
+			say = "We can be idols spanning across worlds... Nihihi, I like the sound of that!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你们。",
+			say = "Thank you. We appreciate your cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "我也会加油帮忙的。",
+			say = "It's decided then. But, umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "就交给超级偶像伊织酱我吧！嘻嘻嘻♪",
+			say = "We're gonna be working together now! Isn't that great?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“碧蓝航线”的各位，请多多关照！一起加油吧！",
+			say = "Yeah, I'm looking forward to it! Let's give it our all, everyone!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -801,7 +801,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼哼…………",
+			say = "Hehehe...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -834,7 +834,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "专业的偶像啊…{namecode:98}已经闻到新的商机了喵。",
+			say = "Professional idols... I can already smell a new business opportunity, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "想什么呢…她们只是“顾问”而已。",
+			say = "Calm down, Akashi... They're just going to be advising us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "她们只是来帮我们进行训练和彩排而已，可别给她们安排什么奇怪的任务哦？",
+			say = "They'll basically only be helping out with rehearsals and lessons, so don't go cooking up any weird plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			side = 2,
 			hidePaintEquip = true,
 			dir = 1,
-			say = "二位是{namecode:98}…还有{namecode:408}…对吧？现在方便吗？",
+			say = "Um, if I'm remembering correctly, Akashi and Z23, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "律子小姐？有什么事吗？",
+			say = "Miss Ritsuko? Did you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我有点在意，那个冒牌“伊织”身上的机械一样的东西……",
+			say = "Actually, I was a bit concerned about the rigging that the fake Iori was wearing...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,

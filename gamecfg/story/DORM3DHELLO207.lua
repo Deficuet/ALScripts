@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "刚刚你不在的时候，我稍微整理了一下房间，怎么样，是不是感觉整洁有序了很多？呵呵……没错，我就是想让{dorm3d}夸我一下呢。",
+			say = "I did some cleaning while you were away. How does the place look? Is it nice and refreshing? Heehee. Yes, in truth, I just wanted you to compliment me.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello7",
 			typewriter = {
 				speed = 0.05,

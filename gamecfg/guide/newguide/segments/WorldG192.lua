@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标列表可以查看其他指挥官请求支援的信标列表",
+				text = "You can view a list of Ashes Showdowns initiated by other players on the coordinates overview screen!",
 				mode = 2,
 				posY = -310.7,
 				char = "1",
@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "其他指挥官发布请求志愿的信标会显示在此列表中",
+				text = "Here’s the list of Ashes Showdowns initiated by other players!",
 				mode = 2,
 				posY = 0,
 				char = "1",
@@ -36,7 +36,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "参与其他指挥官发布的信标战斗结束后，将会根据造成的伤害程度立刻获得奖励",
+				text = "When you participate in these battles, you’ll be rewarded based on your damage dealt!",
 				mode = 2,
 				posY = 0,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "挑战次数于每日0点重置为3次，每次战斗会消耗1个挑战次数",
+				text = "However! Participating costs 1 Showdown Point, so choose who you fight alongside wisely!",
 				mode = 2,
 				posY = 312.35,
 				char = "1",
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在返回主界面查看一下解锁的下一项功能吧",
+				text = "Thought the tutorial was over? Not yet! Let’s check out what else you’ve unlocked!",
 				mode = 2,
 				posY = 330.98,
 				char = "1",

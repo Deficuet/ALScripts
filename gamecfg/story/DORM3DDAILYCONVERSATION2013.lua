@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "前几天在路上走的时候，风吹过来把一些奇怪的传单吹到了我手里……",
+			say = "I was walking through the street earlier, and the wind blew a strange flyer into my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "上面写着“喝下去3秒让对方爱上你”“爱情秘法药水”之类的……",
+			say = "It said things like, \"Love potion\" and, \"Secure your lover in only three seconds.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是谁在做这种传单……？",
+					content = "Who would make something like that?",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不清楚呢，如果有必须的话可以调查看看。",
+			say = "I have no idea. We should look into it if needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我姑且把传单留下来了。要订购产品试试看吗，{dorm3d}？",
+			say = "I kept the flyer just in case. Should we order the potion and try it out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "啊！我这样提议是为了顺藤摸瓜哦……！",
+			say = "Err, just as a follow-up investigation, I mean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

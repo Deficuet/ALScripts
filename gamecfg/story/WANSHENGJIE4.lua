@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其四　消失的南瓜派</size>",
+					"Witches' Eve IV\n\n<size=45>「The Missing Pumpkin Pie」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "抱歉，吾辈遇到了紧急事态——你们有看到吾辈的南瓜派吗？",
+			say = "Sorry, I’ve got an emergency—— Has anyone seen my pumpkin pie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "没有……怎么了？",
+			say = "No I haven’t… what’s wrong?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "{namecode:19}姐烤的南瓜派消失了……",
+			say = "{namecode:19}’s baked pumpkin pie has disappeared...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "可恶……为了让妹妹们吃到最好吃的派，吾辈努力了三个星期，结果刚刚出炉吾辈还没尝味就全都消失了！",
+			say = "Argh… I’ve worked tirelessly for three weeks in order to make the tastiest pumpkin pies for my sisters, and now I’ve got nothing to show for it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "派出炉后{namecode:19}姐回屋换外出服，在她换好衣服前我一直在玄关前发呆——然后，派就不见了……",
+			say = "When the pies were baking, {namecode:19} had gone to change her outfit. And I was blanking out at the front door—— then, the pies were gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "吾辈换好衣服后，那些派就一个不剩地全都消失了——",
+			say = "After I changed my clothes, all those pies went missing——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "倒也不是“一个不剩”，我有尝一个，很好吃",
+			say = "Not entirely “all”, I tried one of the pies before they went missing, it was very delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "真的吗？你可不要骗姐姐！",
+			say = "Really? You better not be lying to your sisters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "那时候这里只有你们两个人？",
+			say = "When they went missing, was it just you two in the room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘿嘿，其实当时我也在",
+			say = "Hehe, actually I was also there at the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "克利夫兰！？",
+			say = "Cleveland?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这身衣服是海伦娜送给我的。我乃恶魔，收割灵魂。怎么样？嘿嘿~",
+			say = "This costume was given to me by Helena. I’m dressed as a reaper harvesting your “souls”. What do you think? Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我当时正巧路过{namecode:19}的宿舍，那段时间内——没有人从玄关进出",
+			say = "I happened to pass by {namecode:19}’s dorm, during that time—— no one came in or out of the entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 1,
 			actorName = "{namecode:19}",
 			dir = 1,
-			say = "你“路过”了那么久吗",
+			say = "You “passed by” for so long?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "时间虽然是金钱，但我偶尔也会挥霍一下啦",
+			say = "Even though “time is money”, I do tend to wander around from time to time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			actorName = "{namecode:19}",
 			dir = 1,
-			say = "——（盯）",
+			say = "—— (Stares)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "不会是克利夫兰，她身上藏不了那么多派",
+			say = "It couldn’t have been Cleveland, she can’t hide so many pies by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "还有什么问题吗？",
+			say = "Is there a problem?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "海上骑士的宝贵时间可不要总用在“路过”别人家上",
+			say = "A knight out at sea shouldn’t waste her precious time “wandering around” other people’s dorms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "万圣节的准备很充分，少了姐姐这份也没有什么影响……",
+			say = "We’ve fully prepared for Halloween, well, your absence will not affect the result, Shiranui...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "笨蛋{namecode:20}，什么叫“没什么影响”！妹妹们期待吾辈的南瓜派很久了，可恶，现在再烤一炉……",
+			say = "Idiot {namecode:20}, what do you mean “the result is not affected”! All those sisters were highly anticipating my pumpkin pies. Drat, I’ll start baking another batch right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "马上就要入夜了，时间已经来不及了。而且，大家至少都尝过试做的派……",
+			say = "Sunset is fast upon us, there’s not enough time. Everyone has already tried your pies before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "可这次才是最完美的！",
+			say = "But the missing ones are perfect this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "万圣夜可不是用来烤派的。姐姐，她们都在那边等你呢",
+			say = "Halloween is not only about baking pies. Sister, they’re all waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "只能自认倒霉了吗……可恶，这番屈辱吾辈记住了！",
+			say = "I guess I’ll count this as bad luck… darn, I’ll definitely remember this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 1,
 			actorName = "{namecode:20}",
 			dir = 1,
-			say = "{namecode:87}、{namecode:6}、克利夫兰……笨蛋姐姐，今晚玩得开心……",
+			say = "{namecode:87}, {namecode:6}, Cleveland and that idiot sister of mine… I hope you all have fun tonight…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘻嘻，你也，辛苦啦！",
+			say = "Hehe, you too, you’ve worked hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "克利夫兰，海伦娜为什么没有跟你一起来？",
+			say = "Cleveland, how come Helena did not come with you?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -483,7 +483,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "弗莱彻们已经开始四处讨要糖果了——哪怕她们的主要目标不是我，我也拼尽全力才跑出来……",
+			say = "Those Fletcher class sisters are already out asking for candy—— Even if their main target is not me, I’ve tried my best to avoid them...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -503,7 +503,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "所以才会在{namecode:19}宿舍附近休息了好一会儿吗？",
+			say = "So {namecode:19} has been resting for awhile at her dorm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿……",
+			say = "Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "很好，这样就准备万全了！嗯……应该没有遗漏什么吧",
+			say = "Excellent, we’re ready for Halloween! Yes… I don’t think we missed anything.",
 			flashout = {
 				black = true,
 				dur = 1,

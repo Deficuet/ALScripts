@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>三　娃娃机的“试炼”</size>",
+					"Date with an Angel\n\n<size=45>3 The Trial of the Crane Game</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "离开祷告堂后，和霞飞来到了港区的商业街附近。",
+			say = "The two of us leave the chapel and head towards the port city's shopping mall.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "街边最显眼的地方不知何时摆上了一排有着猫爪印记的娃娃机。",
+			say = "For whatever reason, a row of crane games with cat paw prints are lining the side of the street.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这不会是{namecode:98:明石}搞出来的新花样吧……）",
+			say = "(What is Akashi up to this time...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "霞飞看着那一排娃娃机，随即停下了脚步。",
+			say = "Joffre comes to a stop when she walks up to one of the crane game machines, her eyes fixed on the plushies inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "这是……？",
+			say = "What are these...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,18 +82,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "……看来她是第一次看到这种机器。",
+			say = "It would appear that the battle-hardened Angel of the Iris has never seen a crane game before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "鸢尾的日常事务很忙碌吗？",
+					content = "(Do they not have these in the Iris Orthodoxy?)",
 					flag = 1
 				},
 				{
-					content = "要不要一起玩？",
+					content = "\"Wanna give it a spin together?\"",
 					flag = 2
 				}
 			}
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（——这种问题如果真的问出口了，未免太煞风景。）",
+			say = "(––I almost blurted these words out, but caught myself in time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（此时此刻最好的做法，就是教霞飞一起玩。）",
+			say = "(What's important is that I show her how to have a good time.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "机会难得，要不要一起玩？",
+			say = "Since this opportunity doesn't come around too often, I don't mind showing you the ropes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "……要。",
+			say = "...Show me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你看，这是操作面板，这里是投币口，用这个控制里面的钩爪。",
+			say = "So, first, you need to insert a coin here. Then, use this joystick to control the claw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当你觉得时机成熟之后，就按下这个按钮。钩爪在合适的位置降下去后，就会抓到想要的娃娃了。",
+			say = "If you think you've found a good spot, press this button to send the claw down. It's harder than it looks, though, and you'll have to find the right center of gravity to pick up the plushie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "先这样……再按这里……我明白了。",
+			say = "First here... then press here... Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（说起来，这娃娃机里面的娃娃，怎么都是我的形象啊？）",
+			say = "(Wait, why do those plushies... look awfully like me...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:98:明石}到底在搞什么……）",
+			say = "(What on earth is that green cat up to now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "我现在应该已经掌握了抓娃娃的方法。指挥官，我们是否可以开始行动？",
+			say = "I think I get the hang of it. Shall we give it a try, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊先等一下，我去兑换下游戏币。",
+			say = "Sure, give me a moment to grab some tokens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "在用物资以非常不合理的比例兑换了一堆游戏币后，和霞飞开始了今日的首次挑战。",
+			say = "I went to convert my money into tokens at an extremely unreasonable exchange rate, and so began my first \"trial\" of the day with Joffre.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "调整角度……把握时机……",
+			say = "Adjust the position... and find the right timing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "钩爪缓缓下降，眼看着就要抓住目标，但结果却只从旁边掠过。",
+			say = "The crane slowly descends, the claw seeming like it would be able to lift the plushie at first, but ultimately barely making it move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "……没想到竟然如此困难。",
+			say = "...You're right, it certainly is harder than it looks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "指挥官，我可以再试一次吗？",
+			say = "Mind if I try again, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,11 +344,11 @@ return {
 			},
 			options = {
 				{
-					content = "当然",
+					content = "\"Go for it.\"",
 					flag = 1
 				},
 				{
-					content = "（直接向霞飞展示刚刚兑换的一大桶游戏币）",
+					content = "(Show Joffre the bucket full of tokens you just exchanged.)",
 					flag = 2
 				}
 			}
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "这桶里的都是游戏币，你可以慢慢试。",
+			say = "All the tokens in this bucket are all yours. Keep going as long as you'd like to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "有这么多次机会的话，不获得点战绩就说不过去了呢。",
+			say = "With this many chances, I can't settle for any outcome short of complete victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "这一定是上天给予我的试炼……我不能轻易放弃。",
+			say = "Undoubtedly, this is a trial meant to shake my resolve... But, I won't give up so easily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907010,
-			say = "再来一次……！",
+			say = "...One more time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "桶里的游戏币逐渐见底，而霞飞依然没能在娃娃机的试炼中取得胜利。",
+			say = "The number of tokens in the bucket continues to dwindle, but Joffre seems no closer to being able to pass her trial.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

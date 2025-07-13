@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "风和日丽的午后，我和狮结伴来到了宁静的海滩边。",
+			say = "One beautiful afternoon, Lion and I take a peaceful walk to the beach.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "star_level_bg_106",
 			live2d = "login",
 			side = 2,
-			say = "嗯，真是个让人挑不出毛病的好天气。",
+			say = "Mmm. Fantastic weather.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "狮惬意地躺到了安置在海滩边的沙滩椅上。",
+			say = "She sits comfortably on a beach chair left in the sand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 205161,
 			actorName = "{playername}",
 			live2d = true,
-			say = "刚到海滩就躺下休息……这可不像是平时的你啊。",
+			say = "Taking a break already? That isn't like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 6,
-			say = "谁能够拒绝这样迷人的阳光呢？",
+			say = "Please. I'm only availing myself of the sun's bounty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 5,
-			say = "更何况，这可是能够轻松观测到整片海滩的绝佳位置。",
+			say = "Besides, this spot has the best view of the beach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "狮一脸满足地伸了个懒腰，悠哉地打了个哈欠。",
+			say = "She stretches, satisfied, and lets out a big yawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "缀有荷叶边的纯白泳装更衬托得她肌肤白皙，在阳光下流转着珍珠般的光泽。",
+			say = "Her ruffled white swimsuit draws attention to her fair skin, which shines like a pearl in the sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 3,
-			say = "哦？指挥官你的目光在我的身上停留得有些久了哦~",
+			say = "Hmm? Commander, I notice your eyes lingering...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			live2d = "mission_complete",
 			side = 2,
 			expression = 2,
-			say = "是在担心带着海风的阳光会伤害到我的肌肤吗？",
+			say = "Is someone worried that these rays will damage my skin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 6,
-			say = "那要不要……帮我涂些防晒油呢？",
+			say = "In that case... Help me put some lotion on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 205161,
 			actorName = "{playername}",
 			live2d = true,
-			say = "当然没问题。",
+			say = "I'd be happy to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "狮从提包中取出了防晒油递给我，爽快地脱掉了泳衣披肩。",
+			say = "She takes suntan lotion out of her bag and hands it to me before removing her beach shawl.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			live2d = "main1",
 			side = 2,
 			expression = 5,
-			say = "说起来，要是指挥官能涂得更均匀……",
+			say = "Here's an idea. Apply it well enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 3,
-			say = "我也可以为你解开泳衣……如果你想这么做的话。",
+			say = "And I might just untie my swimsuit for you... If that's what you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,18 +236,18 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "狮轻笑着伸出手指，轻轻勾了勾脖颈间的细带。",
+			say = "She grins and hooks a finger around the strap of her bikini top.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不需要。",
+					content = "That's not necessary.",
 					flag = 1
 				},
 				{
-					content = "要是遇到意外情况的话……",
+					content = "What if something happens?",
 					flag = 2
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			actor = 205161,
 			actorName = "{playername}",
 			live2d = true,
-			say = "和你出来前，我有认真学习如何涂抹防晒油，你只需要好好享受就可以了。",
+			say = "I practiced putting suntan lotion on. Sit back and relax, and that's reward enough for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 205161,
-			say = "呵呵……既然如此，那我可要好好期待一下。",
+			say = "Heheh... Alright, then. Sounds good to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 205161,
-			say = "如果能让我感到满意的话……或许会有意外惊喜哦？",
+			say = "But if you satisfy me, there might just be a surprise waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 205161,
 			actorName = "{playername}",
 			live2d = true,
-			say = "要是遇到意外情况的话，狮就麻烦了。",
+			say = "If something happens, there might be trouble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 205161,
-			say = "嗯哼……比如说？",
+			say = "Such as...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 205161,
 			actorName = "{playername}",
 			live2d = true,
-			say = "要是遭遇敌袭的话，可没办法第一时间进行反击。",
+			say = "Like an enemy attack? You can't exactly fight like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 205161,
-			say = "唔，即便是在这种时候也依旧毫无破绽……真不愧是指挥官呢。",
+			say = "Never showing vulnerability, even in such a relaxed moment... You really are a warrior, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 205161,
-			say = "我真是越来越中意你了。",
+			say = "I like you more and more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "防晒油与狮的肌肤轻柔相触，沿着少女那精致的曲线留下暧昧的光泽。",
+			say = "I gently spread lotion on her skin, leaving an enticing luster on her delicate curves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "掌间传来柔软细滑、充满弹性的触感，似乎还有一丝莫名的颤栗。",
+			say = "I can feel her soft, springy skin against my palm. For some reason, she's trembling just a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "掌中传来的炽热似乎高了几分时，略带湿润的光滑腹部与大腿也被防晒油涂满了。",
+			say = "By the time her stomach and thighs are fully covered in oily lotion, I notice that she's a tinge hotter than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "顺利涂抹完防晒油后，我的唇边多了一丝带着果香的冰凉。",
+			say = "Just as I finish my work, she presses something cold against my lips. It smells like fruit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_106",
 			live2d = "main2",
 			side = 2,
-			say = "辛苦你了指挥官。张嘴，啊——",
+			say = "Good work, Commander. Open up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 6,
-			say = "这是我给予你的奖赏，所以放心接受就好。",
+			say = "This is your reward. Accept it with confidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "star_level_bg_106",
 			live2d = true,
 			side = 2,
-			say = "这片海滩如今只有你我二人，你无需感到局促。",
+			say = "You and I are the only ones on this beach. Relax a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 2,
-			say = "当然，如果你不满足于此的话……只要你喜欢，我就将它们统统送到你的嘴边。",
+			say = "Of course, if you're not satisfied... then I'll feed you as much as you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "star_level_bg_106",
 			live2d = true,
 			side = 2,
-			say = "呵呵……这里的水果还有很多呢。",
+			say = "We have plenty of fruit left, after all. Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,22 +502,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 3,
-			say = "你的眼神……是在期待另一项奖赏吗。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_106",
-			withoutActorName = true,
-			hideRecordIco = true,
-			actor = 205161,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "狮放下了鲜艳饱满的水果，将摆放于桌面上的饮料杯轻轻举起。",
+			say = "That look in your eyes tells me you were expecting something different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +517,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "伴随着她的动作，杯中冰块与点缀其上的薄荷叶微微摇晃。",
+			say = "She puts down the plump, juicy fruit and raises a drinking glass this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +532,22 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "然而杯中吸管前端的咬痕昭示着我——已经有人先一步享用了它。",
+			say = "The ice and mint leaves in the cup rock with her motions.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_106",
+			withoutActorName = true,
+			hideRecordIco = true,
+			actor = 205161,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "At the tip of the straw is a light bite mark, indicating that someone has already drunk from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 205161,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "仿佛是看透了我内心所想，眸中闪过一丝狡黠的狮轻舔嘴唇，露出了尖利的虎牙。",
+			say = "Lion seems to read my mind. With a mischievous gleam in her eye, she licks her lips, revealing a sharp fang.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			live2d = "main3",
 			side = 2,
 			expression = 1,
-			say = "呵呵……指挥官要先降降温吗？",
+			say = "Heheh... Cool down a little while you still can, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 3,
-			say = "我为你准备的真正的奖励……我想你应该猜到了吧~",
+			say = "You've realized what your real reward is, haven't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 6,
-			say = "……指挥官应该不会就此止步不前吧？",
+			say = "You're not the kind of person to stop things now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 5,
-			say = "放心，留给我们两人的时间非常充裕。",
+			say = "Don't worry. We still have ample time together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			live2d = true,
 			side = 2,
 			expression = 2,
-			say = "所以……顺从你的本心吧，指挥官。",
+			say = "Forget everything else and follow your heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

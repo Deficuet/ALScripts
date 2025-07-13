@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>五　吃我必杀技啦！</size>",
+					"Long Island's Inner Peace\n\n<size=45>V 「Taste My Ultimate」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看我的！必杀技！",
+			say = "Take this! My ultimate will finish you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀～指挥官好弱～",
+			say = "Ack~ Commander you’re so weak~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要在对战游戏上胜过我，估计要再练个两三年吧～",
+			say = "You think you can beat me at video games? You’ll probably need to practice another two, three years~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟西，作为胜利的庆祝，就再来两包薯片吧～",
+			say = "Yes! To celebrate my victory, let’s open up two more bags of chips~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶，没、没了！？",
+			say = "Th-there’s no more?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "存粮告急，长岛酱大危机！",
+			say = "Emergency food shortage, I’m going into panic mode!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官（盯）——",
+			say = "Commander (Stares Innocently) ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

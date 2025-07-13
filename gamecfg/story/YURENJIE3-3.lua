@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "login-2022401us",
-			say = "在“超级彩虹锤1号”的攻击面前，魔王很快萌生了退意——",
+			say = "The Ultra Rainbow Hammer's mighty attacks wore away at the Lord of Evil's will to battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,8 +19,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 900233,
 			dir = 1,
-			actorName = "恐怖大魔王？",
-			say = "这不公平！我要撤退了！",
+			actorName = "Lord of Evil",
+			say = "Screw it! This is unfair! I'm outta here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "她露出破绽了buli！",
+			say = "She has her back turned, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好机会purin，大家一起上呀purin！",
+			say = "Now's our chance, bulin! Gang up on her, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "让魔王见识一下彩虹之力burin！！！",
+			say = "Hope you like the taste of rainbow punch, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,8 +130,8 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
-			actorName = "布里三姐妹",
-			say = "这一击，砸穿大地呀buli！\n这一击，突破天际呀purin！\n这一击，击坠星辰呀burin！",
+			actorName = "All Three Bulins",
+			say = "- This is the blow that pierces the earth, bulin! - This is the blow that pierces the heavens, bulin! - This is the blow that strikes down the stars, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "以“超级彩虹锤1号”的七彩虹光为引导，布里姐妹的力量汇聚到了一起，化为了点亮星辰的白色光芒。",
+			say = "The hammer glowed with all the colors of the rainbow, and the Bulin sisters' strength converged into a single beam of light that outshone even the stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "——轰！！！",
+			say = "KABOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "………………………………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "魔王消失了，我们赢啦purin！",
+			say = "Victory is ours, bulin! We vanquished the big baddie, bulin!",
 			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
@@ -299,7 +299,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "burin？“超级彩虹锤1号”好像完全不亮了burin！",
+			say = "But at what cost, bulin? The hammer's light is gone, bulin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "坏、坏了buli…………",
+			say = "Oh no... Did it break, bulin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔~没关系，当做纪念品就好burin！刚刚感觉到，好像我们在一起的力量比“超级彩虹锤1号”还强burin！",
+			say = "Oh well, it's still a nice trophy, bulin! Besides, our combined strength felt stronger than even the hammer, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "还是庆祝胜利更重要，我们去吃烤肉吧burin！",
+			say = "Now we have to celebrate our triumph, bulin. Let's go for barbecue, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,8 +385,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "泛用型布里&试作型布里MKII",
-			say = "好耶buli！\n好耶purin！",
+			actorName = "<size=28>Universal Bulin & Prototype Bulin MKII</size>",
+			say = "Hooray, bulin!",
 			subActors = {
 				{
 					actor = 100010,
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "就这样，布里姐妹们享受了一顿完美的烤肉大餐。",
+			say = "And so, the Bulin sisters left to treat themselves to first-rate barbecue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "至于那传说本身，也许还会继续是个传说吧——",
+			say = "As for the legend that inspired their adventure... It remains only a tale to this day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

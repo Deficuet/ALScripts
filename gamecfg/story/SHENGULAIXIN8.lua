@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "来到关押米勒的房间，四下张望之际——",
+			say = "I arrive at the room Miller has been confined to and look around the area. Then, suddenly...",
 			bgm = "theme-room-rosy",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			side = 2,
 			actorName = "？？？",
-			say = "搭档——！！！",
+			say = "Partneeer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "可爱雀跃的呼唤自头顶传来，我抬头看去——",
+			say = "A sweet, bouncy voice rings out from overhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "米勒借着脚踝上束缚着她的镣铐锁链，从天而降，刚好倒吊着、落在了我的面前。",
+			say = "I lift my gaze, and there she is – Miller lands right in front of me, suspended upside-down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101531,
-			say = "米勒大人这样子登场是不是很帅很酷啊，我……欸？欸欸欸……！",
+			say = "How'd you like the GOAT's entry, huh? Pretty awesome, I dare say! I'm... Whoa, whoa, whoa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "米勒的沾沾自喜还没结束，悬空的身体便因为没有支点而摇晃旋转起来。",
+			say = "Her proud parade is rained on as the very next moment, she starts spinning around in the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
-			say = "小心，快扶住我的肩膀！",
+			say = "Careful! Here, take hold of my shoulders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊哈哈~这些对米勒大人都是家常便饭，我早就习惯了！",
+			say = "Hahaha! The GOAT is used to this! I could handle it in my sleep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101531,
-			say = "不过既然搭档你都这么说了，那我就扶一下吧！",
+			say = "But, if you insist, I suppose I'll oblige!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,38 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "米勒将她的猫爪放在了我的肩膀上，总算固定住了自己，不再旋转。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_130",
-			nameColor = "#A9F548FF",
-			say = "我找找帮你解开镣铐的方法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_130",
-			say = "我四下观察，希望能找到钥匙或者是能够斩断锁链的工具。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_130",
-			say = "与此同时，我也感受到了米勒一直停留在我的脸上的目光。",
+			say = "She puts her squishy paws on my shoulders and manages to stabilize herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +142,38 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
-			say = "怎么了？是有什么事情要跟我说么？",
+			say = "Okay, now we need to get you out of those shackles.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_130",
+			say = "I scan the area, searching for a key or a tool that can break through the chains.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_130",
+			say = "After some time, I realize that Miller's gaze is completely fixated on my face.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_130",
+			nameColor = "#A9F548FF",
+			say = "What? Is something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 101531,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没什么……",
+			say = "No. It's nothing...",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "米勒轻声嘟囔着，小心翼翼地将锋利的爪子避开了我，双臂环绕上我的肩头，给了我一个亲密的拥抱。",
+			say = "She mutters a response, then – taking care not to cut me with her sharp claws – wraps her arms around my shoulders, giving me a gentle embrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就是想抱抱你……",
+			say = "I just wanted to hug you...",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "两人最后的距离悄然融化在暧昧的温度里。",
+			say = "The distance separating us silently vanishes in a sweet warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "随后，我听见“咔嗒”一声——那是镣铐被解开的声音。",
+			say = "Then, there is a click – the shackles on her feet come undone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "我眼疾手快地接住了落下的米勒，将小小一团的她紧紧抱在怀里。",
+			say = "I quickly catch her as she falls down, holding the little girl tightly in my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
-			say = "你早就找到解开的方法了？",
+			say = "You already knew how to get it off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101531,
-			say = "嗯！这种事情可难不倒米勒大人！顺着锁链上去就找到了~！",
+			say = "Yup! Just had to follow the chain to find it! Piece of cake when you're GOATed like me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过呢，其实也没有很早，大概就是你来的时候我刚好解开的。",
+			say = "Well, not exactly. I managed to open it right when you got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这就是搭档之间的默契吧~！",
+			say = "Stuff like this is why we make such a good team!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
-			say = "刚刚怎么不告诉我？",
+			say = "You could've told me sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101531,
-			say = "因为从天而降的欢迎方式很酷啊，而且这样子，搭档你才会更加关注我！",
+			say = "But that's lame. It's much more majestic to descend from above! Makes you pay more attention to me, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "她蹭了蹭我的脸，温暖而柔软，毛茸茸的头发蹭得人有些发痒。",
+			say = "She rubs her cheek against mine. It's soft and warm, although her fluffy hair tickles a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "接着，一个犹如羽毛般轻盈的吻落在了我的脸颊上。",
+			say = "Then, with the lightness of a feather, she gives me a small kiss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我的搭档，谢谢你来救我啦~！",
+			say = "Thanks for coming to save me, partner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

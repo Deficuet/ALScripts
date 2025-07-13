@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "是么，那位前辈回来了吗？…",
+			say = "So it seems our old friend has returned.",
 			dir = 1,
 			blackBg = true,
 			actor = 303110,
@@ -45,7 +45,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "新生重樱联合…？真是令人感到可靠的名头呢",
+			say = "The... War God of the Combined Fleet? Her persistence knows no bounds.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "无论如何…不能把“那位大人”交到她的手上…",
+			say = "But regardless... we can't allow them to have the Creator.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "重樱…只需要神明的力量…",
+			say = "If the Sakura Empire manages to get their hands on that power...",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

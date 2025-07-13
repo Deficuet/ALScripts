@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是最后一个了！",
+			say = "This is the last one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（砰）",
+			say = "*CLICK!*",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就把所有装置的开关都关上了！",
+			say = "With this, we've turned off all the power switches!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位！快看巨大化的爱酱！",
+			say = "Everyone, look at big AI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原本看上去强得不行的气场，消失了呢",
+			say = "That aura of invincibility... it's gone now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样下去很快就会因为“行动限制”而动弹不得了吧？",
+			say = "Soon, she'll be crowd controlled and won't be able to move, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能动了以后，如果进入“暴走”状态可就顶不住了呢。还是趁现在赶紧解决掉吧",
+			say = "Maybe for the time being. But if we take too long and she hard enrages, we'll totally wipe. Let's find some way to finish it now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的话，就算是我们，也能跟巨大化爱酱一战",
+			say = "Now, even we will be able to go toe-to-toe with the titan Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在就是机会，的说",
+			say = "Now's our chance, yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！各位，一口气解决吧！",
+			say = "All righty! Everyone, let's end it here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

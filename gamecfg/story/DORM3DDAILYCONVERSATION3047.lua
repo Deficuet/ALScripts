@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}！明天……安克雷奇，也能看到……{dorm3d}吗？",
+			say = "{dorm3d}! Tomorrow... can Anchorage see you again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明天的明天……也可以？还有，很多个……明天，都能吗？",
+			say = "And the day after tomorrow... And the day after that? And then that day's tomorrow...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，能和安克雷奇，约定吗？",
+			say = "{dorm3d}, Anchorage wants... promise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不……不是每天都见面的约定……",
+			say = "No... Not that you'll come every day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是……{dorm3d}……没来，安克雷奇……也会等着{dorm3d}……的约定！",
+			say = "{dorm3d}... even if you don't come, I'll be waiting for you! That's... my promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：海域中发现塞壬舰队与机关的痕迹。指挥官，首先寻找途径获取海域的详细情报吧。建议，优先摧毁海域中的塞壬增援点以阻止更多塞壬增援舰队的到来。",
+			say = "Scan complete. Signs of Siren activity have been detected. Proceed with caution.Destruction of Siren Rally Point to prevent further reinforcements is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

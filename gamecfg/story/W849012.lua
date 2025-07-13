@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "因为黄色区域被重复触发，舰队回到了起始点。",
+			say = "We get sent back to the start if we pass over a yellow tile twice. Let’s try again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

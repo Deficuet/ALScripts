@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_1",
 			hidePaintObj = true,
-			say = "镜面海域·城门前",
+			say = "Mirror Sea - Outside the castle gates",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "在两点钟方向确认有航行痕迹。看着像是铁血和白鹰……以及一些无法辨认的型号。",
+			say = "I'm detecting wakes at two o'clock. Looks like Iron Blood, Eagle Union... and some girls with riggings who the database doesn't recognise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是里诺她们吗？",
+			say = "Maybe it's Reno's team?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "人数有些太多了，虽然有可能是已经和飞鸟她们的伙伴会合了……",
+			say = "Too many to be them. I'll grant you, it's possible they've grouped up with some of Asuka's friends.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "但是这样解释不了那些奇怪型号的舰装使用痕迹。",
+			say = "Occam's razor argues that it's a Siren fleet containing Pawns, however.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以更有可能是塞壬“棋子”的舰队。",
+			say = "Regardless, let's advance cautiously. Whatever happens, we can respond accordingly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "“棋子”？",
+			say = "\"Pawns\"? What are those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简单来说，就是塞壬制造的与我们外表相似的机械克隆体。",
+			say = "Simply put, they're clones of us shipgirls that the Sirens made.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 319010,
-			say = "既然你们已经与塞壬接触过了，那么就算见到“棋子”的出现也不会被吓到吧？",
+			say = "The Sirens have already caught sight of you and your friends, so I wouldn't be shocked to see Pawns of them as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "欸？！我的话肯定会吓一跳的吧！",
+			say = "What?! I, for one, would be VERY shocked!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "飞鸟你会每次都被变身术吓到吗？……不对，仔细想想好像确实是这样……",
+			say = "God's sake, Asuka. Do you always get shocked by transformation ninjutsu, too? Actually, you probably do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			actor = 402080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "即将接触目标舰队。小心。",
+			say = "Contact with target fleet imminent. Be careful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才说的，记住了吗？就算见到再像认识的人，在仔细确认之前也不能掉以轻心哦！",
+			say = "Remember what we just told you, aight? Doesn't matter if they look exactly like your friends – you can't be sure if they're the real deal or not!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "啊！雪泉酱～！！",
+			say = "Oh! Hey, Yumi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,8 +267,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "雪泉",
-			say = "飞鸟小姐！……嗯，你是飞鸟小姐对吧？",
+			actorName = "Yumi",
+			say = "Asuka! I mean... That IS you, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "是啊。我是半藏学院二年生的飞鸟呀？雪泉酱，我看起来有什么奇怪的吗？",
+			say = "Well, yeah. Asuka, second-year student at Hanzō Academy. Something the matter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没，没什么。果然你也来到这个世界了呢？",
+			say = "No, never mind. You got transported here just as I did, I assume?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "是啊……突然就过来了呢，而且，斑鸠小姐和焰酱也在哦！……但是雪不归小姐她……",
+			say = "To this world? Yup, I did. Ikaruga and Homura, too! And Fubuki, but she's... well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "我……感觉到了。你们之前有段时间是在一起的吧？",
+			say = "Yes... I sensed as much. She was there with you for at least a while, wasn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "是的，但是突然之间一道光嗖地闪过。当我再看时，雪不归小姐已经不在了。",
+			say = "She was, but then there was this blinding light, and all of a sudden she was gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "取而代之的是一个光球，然后就唰地飞走了……",
+			say = "A ball of light appeared in her place, and it took off like a rocket.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "我明白了……那个光球是往那边的城池飞去的对吧？",
+			say = "So that's what happened... The ball of light then traveled towards the castle over there, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "没错！不愧是雪泉酱！居然立刻就猜到了呢！",
+			say = "Yup! I'm impressed but not surprised you've figured it out already!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那是因为我可以感知到雪不归小姐的存在……",
+			say = "Only because I can sense her presence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402080,
-			say = "欸，真是对于“棋子”没有一点防备之心呢……",
+			say = "Doesn't sound like Asuka is the least bit wary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "嗯，非常有飞鸟小姐的作风……",
+			say = "That's very on-brand for her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "咳……总之这次算是有惊无险的会合了呢！不光是你们的同伴，{namecode:11:晓}也在这里，大家没事就好啦~",
+			say = "At least we're all in one place now! I'm glad we found not just Akatsuki, but all the rest of you as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是惭愧……让你们担心了。",
+			say = "You shouldn't have needed to find me at all... I am ashamed.",
 			painting = {
 				alpha = 0.3,
 				time = 1

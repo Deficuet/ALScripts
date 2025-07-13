@@ -13,7 +13,7 @@ return {
 			actor = 701030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位久等啦！北方联合主力舰队，关键时刻飒爽登场！",
+			say = "How's that for a timely entrance!",
 			bgm = "bgm-cccp",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 701040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…这样，果然是陷入危机了吗，就让塔什干来挽救你们吧",
+			say = "Heh. See, figures you wouldn't be able to do it without us. I suppose we can bail you out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈哈！那些就是提到的新型号塞壬吗，看起来是不错的靶子嘛！",
+			say = "Ahahaha! A new type of Siren! Now this is what makes life worth living!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "кролик убийца，也已经跃跃欲试了呢",
+			say = "кролик is also raring for a fight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，阿芙乐尔、水星纪念，那边的处理花了比预想还多的时间，不过，看样子是勉强赶上了呢",
+			say = "Avrora, Pamiat, sorry we took so long to get here. It seems like we made it in the knick of time though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战况我们已经有所了解，绝境之中孤军奋战到现在辛苦了！",
+			say = "I've grasped the situation. Just leave the rest to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，指挥官好像因为震惊而陷入僵硬了哦？是不是我们登场的冲击力太大了？",
+			say = "Sorry for butting in all of a sudden. Anyway, you can just sit back and let us handle the enemies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于来了啊！差点就以为真的不行了啊呜呜呜…",
+			say = "I'll do just that. I'm bushed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，让我们先把眼前的敌人消灭，再来寒暄吧！",
+			say = "Leave it to us... Comrades of the Northern Parliament, break their ranks!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_cccp_7",
-			actorName = "北方联合众人",
+			actorName = "Everybody",
 			dir = 1,
 			say = "Ура！",
 			effects = {

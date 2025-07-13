@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"穿越彼方的水线\n\n<size=45>一　{namecode:175}、登场！</size>",
+					"Crosswave\n\n<size=45>Suruga, Sally Forth!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——本次演习，将由我们重樱舰队，迎击指挥官所率领的舰队。",
+			say = "In this exercise scenario, our fleet will ambush another fleet led by the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家应该都知道，过去皇家·白鹰联合阵营也曾进行过类似的演习。虽说本次演习与那次一样，只是一般的联合演习……",
+			say = "As I'm sure you all know, this will be similar to the friendly spars we've had with the Royal Navy and Eagle Union in the past; it is merely an exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但目的绝不仅仅是提高本港区舰队的实力，更是为了加深阵营之间的交流，特别是让各位在与平时不同的编队、战况下战斗，提升面对突发状况时的反应力。",
+			say = "However, its goal isn't solely for our fleet to gain more experience; it's also meant to strengthen bonds among factions, and more importantly, to expose us to different combat formations and unexpected scenarios.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。",
+			say = "And so, as per Mikasa's advice, I shall serve as the commander of the Sakura Fleet since I have not become a full-fledged member of this naval base yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为突然到来的新面孔，想必会让各位感到有些不知所措吧。",
+			say = "I'm sure many of you who have never seen me before are confused or upset by this decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，战列舰“{namecode:175}”，愿为舰队献上微薄之力。",
+			say = "But I, Battleship Suruga, promise to dedicate my body and spirit to carry out this task!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我们在这次的联合演习中一起奋斗到最后吧！",
+			say = "Now, let's get ourselves ready and see this exercise through to the end!",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，真是精彩的战前动员。果然没有白把你叫过来啊。",
+			say = "That was a rousing speech, Suruga. I knew it wasn't a mistake to summon you here.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是。我会为联合演习的顺利进行全力以赴的！",
+			say = "Thank you. I shall give it my all to ensure that this joint exercise is conducted successfully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，这次联合演习，重樱阵营的总指挥不是我，而是你。势必要向指挥官展示出吾等重樱的威严与荣耀！",
+			say = "Of course. For this exercise, you are the one in charge, not me. I trust that you will be able to fully display the Sakura Fleet's majesty and honor to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………是！",
+			say = "............ Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，就由我来公布我军的作战与配置——",
+			say = "Next, I shall announce our combat strategy and formations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "HO，HO，HO！有我{namecode:22}大人在，指挥官的舰队什么的，根本不堪一击哒！",
+			say = "Wa ha hah! Just call upon Yukikaze the Great, and Commander's fleet will fall in the blink of an eye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就有点难办了啊～难得的联合演习，{namecode:97}也想作为敌方角色，与指挥官大人好好缠绵一番呢～",
+			say = "We can't have that happening. I have waited for this exercise for so long, and I want to truly savor each moment as my Commander's opponent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，请把{namecode:97}配置在指挥官大人必定会前往的海域吧？",
+			say = "Suruga, would you please have me deployed to the area where my dear Commander will be waiting for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我会考虑的。不过，即便只是演习，也要从作战目标与身为舰队指挥的立场出发，充分考虑配置的合理性……",
+			say = "I will take it into consideration. I'm aware this is simply an exercise, but my deployment decisions must be based on logic and take the mission's goal into account...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 307070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦～也行。只要你全心全意为指挥官大人效力就好。",
+			say = "Hmm, very well. We must do our best for my Commander, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次不是“{namecode:22}大人舰队”而是“{namecode:175}舰队”啊……真没办法，就乖乖听{namecode:175}的吧！",
+			say = "I hate to admit it, but this fleet is called the Suruga Fleet, not the Yukikaze Fleet... so just this once, I'll follow your orders, Suruga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 900200,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明、明白了，我会妥善处理的。",
+			say = "R-right... I shall do everything that I can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "抱歉，要你多辛苦了。",
+			say = "Sorry for putting you through all this trouble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

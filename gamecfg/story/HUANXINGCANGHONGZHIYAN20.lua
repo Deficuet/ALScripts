@@ -13,15 +13,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"Inside the Naraka Singularity",
 					1
 				},
 				{
-					"世界切片·「苍红」",
+					"World Segment",
 					2
 				},
 				{
-					"深夜",
+					"Amagi's Mansion",
 					3
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "在决定变更计划后，我立刻告知了{namecode:161:天城}与{namecode:92:加贺}。",
+			say = "I promptly told Amagi and Kaga about the change of plans.",
 			bgm = "logo-amagi",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}在听到航空母舰的改装的计划后，表现出了浓厚的兴趣。",
+			say = "The former readily agreed to save her sister, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "而{namecode:92:加贺}则表示现在这样的状态就挺好，还是不要改装成航空母舰了。",
+			say = "Kaga wasn't hard to convince, either. She agreed to help us in her current form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "于是，时间来到了深夜，计划的准备工作已经完成了。",
+			say = "Late that night, we finished our preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "{namecode:182:信浓}正在调整神石的建造场地，进行着最后的准备工作。",
+			say = "While Shinano performed final adjustments on the makeshift construction site, Amagi visited my room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "这个时候，{namecode:161:天城}突然来访了——",
+			say = "Despite her unease, she was determined to rescue her sister.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，打扰到你了么？",
+			say = "Apologies for bothering you so late, Commander.",
 			bgm = "theme-amagi-cv",
 			typewriter = {
 				speed = 0.05,
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没事，我这边已经忙完了。怎么了，还有什么对于计划不明白的地方么？",
+			say = "It's okay. I have to apologize, too – sorry for springing this on you all of a sudden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "倒是没有。只是……突然有种心神不宁的感觉。",
+			say = "It's no problem. Part of me does feel uneasy, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用担心，我们一定能成功的。",
+			say = "Because the plan might fail?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{playername}阁下。你说，逆转命运之事——是好，还是坏呢？",
+			say = "No. Commander... Is changing fate really for the best?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果是像今天这样，将悲伤逆转为幸福的事，当然是好事。",
+			say = "If it means turning sorrow into joy, then I think so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果这次逆转，影响了世界原本的轨迹，从而诞生了更多悲伤呢？",
+			say = "But what if changing fate brings forth greater suffering later on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "比逆转之前的世界，更多的悲伤……",
+			say = "Maybe we're making the world worse than it originally would be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就继续逆转下去，直到出现一个再无任何悲伤的完美世界。",
+			say = "Then we'll keep on changing things until there's no more sadness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "你真的相信有这样的世界存在么？",
+			say = "Do you believe that such a world can exist?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你不相信么？",
+			say = "Do you not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "……呵呵，还是相信，会比较好呢。",
+			say = "...Heehee. I guess it's better to believe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,21 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你、{namecode:91:赤城}，还有许多人一同逆转了我的命运。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_192",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 304050,
-			say = "而我在重生之后，也将尽我所能，与你们一同逆转更多人的命运。",
+			say = "You, Akagi, and everyone else here have changed my fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +287,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "直到世间的悲伤消失殆尽，直到这样一个完美世界出现的那一天。",
+			say = "It's up to me to do everything I can to change things for others.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_192",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 304050,
+			say = "Until the world can be a happy one. One without sorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那……首先，让我们先从{namecode:91:赤城}开始吧。",
+			say = "Yeah. It all starts with saving Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "嗯。她既因我的离去而陷入深渊……那么，我就用重生后的双手，将她亲手拉回来。",
+			say = "Agreed. She fell into the darkest abyss for my sake, and it's time I pull her back into the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,11 +335,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "指挥官阁下，妾身这边的准备已经完成了。",
+			say = "Commander, this one is ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "看来心理准备的时间结束了呢。",
+			say = "Heehee... I've steeled my resolve just in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走吧，{namecode:161:天城}。该迈出走向未来的第一步了——",
+			say = "Thanks, Amagi. Let's make a new future together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

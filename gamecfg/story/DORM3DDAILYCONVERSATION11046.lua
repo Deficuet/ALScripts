@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "相机存储空间快用完了呢……",
+			say = "My camera storage is getting full...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近喜欢上摄影了吗？",
+			say = "Have you gotten into photography, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "并不是啦，和Honey在一起的时间我都想记录下来而已。",
+			say = "That's not it. I've just been keeping records of our time together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘻嘻，提起回忆不能总是从前的那些事情嘛。",
+			say = "Heheh, I can't have just Academy memories in there, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有必要给我们添加更多更好的回忆，才不会让人感到后悔呢！",
+			say = "Let's make many more good memories so we never have any regrets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

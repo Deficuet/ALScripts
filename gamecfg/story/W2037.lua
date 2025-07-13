@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：指挥官，舰队正在遭受异常海况影响。",
+			say = "The fleet is under the effect of abnormal weather conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

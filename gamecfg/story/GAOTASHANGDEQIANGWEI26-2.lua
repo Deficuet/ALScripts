@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_538",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,13 +75,13 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_538",
-			say = "拟态物并没有出现在我们的撤退线路上，因此我们不需要离开河道绕路。",
+			say = "Mimic entities haven't appeared on our escape route, so there's no need to leave the river and detour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"第二战区·伊钦河",
+				"2nd combat sector - River Itchen",
 				3
 			}
 		},
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_538",
-			say = "负责殿后的II型量产型舰队虽然在拟态物前毫无抵抗能力，好在，它们作为障碍物的效果还不错。",
+			say = "The Type II mass-produced fleet protecting our rear is no match for the mimic entities, but they're effective enough as obstacles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_538",
-			say = "加之声望·META与反击·META摧枯拉朽般地摧毁前方的天外之兽，撤退过程顺利又平稳。",
+			say = "Renown and Repulse quickly dispatch the extradimensionals ahead of us, as well, making our retreat a smooth one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（X的拟态物和此前从辉光之城中看到的一样，被摧毁后变为附着区，而后从附着区中再次诞生……）",
+			say = "(Like the X mimic entities from the Martyrium, they become vector zones when destroyed, allowing them to spawn anew.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（但是……为什么，这次从附着区中诞生的，除了拟态物之外……还有天外之兽？）",
+			say = "(But this time, extradimensionals are mixed among the things spewing out of the vector zones. Why?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（天外之兽的战斗力远小于拟态物，其尸骸也不能百分之百被转换为拟态物……）",
+			say = "(Extradimensionals are much weaker than mimic entities, and their corpses don't fully convert to mimics...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……用附着区生产天外之兽，难道不是在降低附着区的整体作战能力么？）",
+			say = "(Doesn't that just make the vector zones less effective?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,8 +160,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…指挥官…[杂音]…听到吗…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...Commander... hear me...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……海伦娜？！你完成定位了么？！）",
+			say = "(Helena? Have you found our coordinates?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +186,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…麦纪莎…[杂音]…设局…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...Magician... a trap...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……通讯被干扰了，我听不清。）",
+			say = "(Our communications are being sabotaged. I can't hear her well!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,8 +212,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…听我说…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...Listen...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,8 +226,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…我本次无法前来帮你了…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...can't save you this time...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,8 +240,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…但是我会密切关注…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...watching you...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,8 +254,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…你尽管做自己想做的事…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...Follow your heart...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…想救就救…[杂音]…不想救就走…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...If you want to, save them... can't, then run...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…诸事…[杂音]…有我兜底…[杂音]…）",
+			actorName = "Helena META",
+			say = "(...No matter what... I'm by your...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,8 +296,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			paintingNoise = true,
-			actorName = "海伦娜·META",
-			say = "（…[杂音]…）",
+			actorName = "Helena META",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……海伦娜？海伦娜！）",
+			say = "(Helena? Helena!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_538",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……可恶，通讯彻底断了。）",
+			say = "(Damn. We've been totally cut off!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

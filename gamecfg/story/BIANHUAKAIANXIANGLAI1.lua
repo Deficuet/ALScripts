@@ -12,7 +12,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位请举杯——",
+			say = "My friends, raise your glasses!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "让我们一同为了我们的外交成就，干杯~！",
+			say = "A toast! To our glorious diplomatic achievement!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯~",
+			say = "Salute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +71,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "撒丁帝国众人",
+			actorName = "Sardegnians",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯！！",
+			say = "Salute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "装饰华丽的大厅中，一场属于撒丁帝国内部的宴会正在热烈进行着。",
+			say = "With the Arbiter's plans in the Antarctic foiled, today's meeting had greater zeal than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "联盟合并的会议在我们的协调下正如火如荼地召开。",
+			say = "Thanks to everyone's efforts with the Commander, discussions regarding our reunification have been going smoothly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与鸢尾盟约的成功签订，既是各方对于我们协调人身份的最大认可。",
+			say = "Brightest among our achievements of late has been the signing of a treaty between our Sardegna and the Iris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "也是一次我们外交能力的充分展现。",
+			say = "For helping us show the other factions not just our authority, but our diplomatic capabilities...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在这里衷心感谢诸位所做出的贡献。",
+			say = "I must thank you all once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~这样一来，不论今后局势如何变化，我们都有应对的把握了。",
+			say = "No matter how the situation changes, Sardegna can respond flexibly and smoothly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 602010,
-			say = "这应该是鸢尾合并之后签订的第一个外交协议吧……还是如此重量级的。",
+			say = "Let us not forget that it's also the first diplomatic agreement of a unified Iris. That's no small matter to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么会选我们呢……？",
+			say = "Why did they choose Sardegna for such an important milestone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "这还用问，肯定是看到了我们撒丁帝国的潜力。",
+			say = "Obviously they see the potential of the Sardegna Empire. I mean, look at us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "自从博览会之后，随着我们在国际舞台上的频繁亮相，我们的影响力是蒸蒸日上。",
+			say = "Ever since the World Expo, our shipgirls have been center stage in world events. Sardegna's influence is rising like never before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "好事也是一件接一件。",
+			say = "Good things are gonna happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "今后，说不定能在合并后的联盟内成为举足轻重的一极呢。",
+			say = "We might just end up with a major voice in the new Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们如今取得的成就离不开大家的齐心协力，不过现在只是一个开始。",
+			say = "That's right. And we couldn't have done it without you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "为了帝国的今后，还需要大家继续努力，不要松懈才是。",
+			say = "Know that this is only the beginning. Let's endeavor for the future of our dear nation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "那是自然，那是自然~",
+			say = "But of course. Ahahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就让我们再次共同举杯。",
+			say = "Another toast to our achievements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为了撒丁帝国的伟大与复兴，干杯！",
+			say = "For the glory of our great nation, salute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "干杯~！",
+			say = "Salute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,11 +348,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "撒丁帝国众人",
+			actorName = "Sardegnians",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干杯！！",
+			say = "Salute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

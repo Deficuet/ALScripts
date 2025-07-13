@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>四　樱桃与拥抱</size>",
+					"From Farm to Fork!\n\n<size=45>4 Cherries and Hugs</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "计划中的地点游览结束后，我们在园中漫步，不经意间来到了樱桃园前。",
+			say = "After going through all our scheduled activities, the two of us start wandering aimlessly and eventually find ourselves at the entrance of a cherry orchard.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "园内的樱桃已然成熟，紧闭的藤织门上却挂着“施工中，暂未开放”的牌子。",
+			say = "The cherries inside the orchard already appear to be ripe, but the gate is firmly locked with a sign reading \"Closed for Construction.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "嗯？现在怎么会有樱桃？看起来特别新鲜呢……",
+			say = "Ehh? Cherries, at this time of year? And they look ripe and ready-to-eat too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "应该是{namecode:295:尾张}的改良品种。",
+			say = "Might be a variety that Owari bred.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:295:尾张}好厉害……这些樱桃的状态看上去特别好，现在吃应该是最美味的……",
+			say = "Owari is super amazing, isn't she? The cherries are all growing so well, as if they're begging to be eaten right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我去联络一下{namecode:98:明石}和{namecode:295}，看看能不能破例让我们摘一些。",
+			say = "Let me give her and Akashi a call and see if they can let us in as a favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "太好了！那就拜托指挥官了！",
+			say = "Really? I'd really appreciate that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "得到{namecode:98:明石}和{namecode:295:尾张}的允许后，我们进入了樱桃园。",
+			say = "After getting their permission, we step into the orchard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她们说之所以未开放是因为是改良品种的樱桃树高度比预想中要高，还来不及配套攀爬的安全设施。",
+			say = "When Owari improved this strain, she didn't expect the trees to grow so tall. They had to close this area down for now because they couldn't set up adequate safety measures in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "让我们注意安全。",
+			say = "Which is why they wanted to tell us: Be very careful when picking the cherries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,14 +182,14 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "没问题，我平时采集食材也经常爬树的。",
+			say = "I'll be fine! I often have to climb trees when I go looking for ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "经常爬树？",
+					content = "It's something you do often...?",
 					flag = 1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "嗯……有些食材会长在比较高的树上，比如荔枝、榆树钱什么的……",
+			say = "Of course. A lot of food ingredients, like mangoes and lychees, grow high up off the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "虽然也能买到，但果然还是新鲜采摘的最美味！",
+			say = "Though you can also buy them from the market, those freshly picked taste the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "我先上去啦~",
+			say = "Now then. Time to head up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "小心一些。",
+			say = "Remember to be VERY careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "龙武点点头，三下两挽好袖子，灵活地爬上了樱桃树，开始采摘起来。",
+			say = "Lung Wu nods, rolls up her sleeves, then nimbly climbs up a cherry tree to start picking the fruit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "这些应该够了……",
+			say = "Alright. With this much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "指挥官，我现在下去——",
+			say = "Commander, I'm coming down—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "话未说完，一只飞鸟落在了细细的树枝上，与龙武对峙着。",
+			say = "Before she can finish her words, a bird lands on a thin branch in front of Lung Wu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "这是野斑鸠么？好像也不大像……有点像鸽子，肉质上应该不会差……",
+			say = "A wild dove? Err, not quite... It does look a bit like squab, so the meat should be pretty good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "见龙武又陷入了对食材的思考，我担心地出声提醒。",
+			say = "Lung Wu is still perched in a precarious place, and I can tell that she's starting to get lost in her thoughts about cooking again. I quickly try to grab her attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "龙武，先下来吧，注意安全……",
+			say = "Lung Wu, it's dangerous up there! Please come down first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "话音未落，飞鸟突然腾起，扑向了龙武的脸——",
+			say = "However, the moment I call out to her, the bird is also startled by my voice and flies straight into Lung Wu's face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "唔哇——！",
+			say = "Bwehh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,14 +384,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "意外来得飞快，毫无准备的龙武在慌乱之下，松开了抓着树枝的手——",
+			say = "Completely caught off-guard, Lung Wu loses her grip on the branch she was holding for support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接住龙武",
+					content = "Catch Lung Wu.",
 					flag = 1
 				}
 			}
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我稳稳地接住了坠落的龙武，她的身躯在我的怀中微微发抖，尾巴不自觉地缠上了我的腰。",
+			say = "I rush forward and catch Lung Wu, holding her firmly in place. She must've been quite spooked by what just happened, because she is trembling in my arms while inadvertently wrapping her tail around my waist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "我轻轻拍着她的手臂，希望能够安抚她。",
+			say = "All I can do is quietly pat her until she calms down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "别怕，没事了。",
+			say = "You're fine now. There's nothing to be scared of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "……嗯……谢谢指挥官。",
+			say = "*sniffle*... Th-thank you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "待龙武平复了情绪，我才将她轻轻放到了地上。",
+			say = "I wait a few more minutes for Lung Wu to gather herself before setting her back down again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没事了吧？",
+			say = "Can you stand on your own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "没事了……谢谢指挥官……",
+			say = "Yes... Thank you again for looking out for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "啊……！樱桃……！",
+			say = "Oh no! The cherries!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "龙武急忙打开了手中的袋子，确认里面的樱桃完好无损后，露出了放心的笑容。",
+			say = "Lung Wu looks over at her basket in a panic to check the cherries she just collected. Seeing that they're safe and sound, she lets out a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "太好了，樱桃都没事。",
+			say = "Phew... Thank goodness the cherries didn't get crushed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "樱桃和龙武都没事就好。",
+			say = "I'd rather the cherries get bruised than you, but all's well that ends well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "天色不早了，我们回去吧。",
+			say = "It's starting to get late, so why don't we head back now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "好，我们回去~今晚做好多好吃的！",
+			say = "Okay! I'll make lots of delicious food once we get back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

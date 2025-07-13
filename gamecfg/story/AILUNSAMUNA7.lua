@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>七 真正想要的礼物</size>",
+					"Three-Star Luxury Romance\n\n<size=45>7.What Allen Wanted</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "走进指挥室，刚刚安装好按摩椅的蛮啾们一个接一个跳了出去。",
+			say = "We went back to the office. Manjuus came waddling out the door, having finished installing the chair just as we arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在艾伦的催促下，试着坐在新买的椅子上。",
+			say = "As per Allen's recommendation, I immediately gave the chair a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样？坐着很舒服吧？",
+			say = "So, whaddya think? Pretty comfy, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这可是我精挑细选的“奖励”之一呢♪嘿嘿嘿，过一会也让我在上面躺一下哦～",
+			say = "Pretty much the best reward I could've chosen, if I do say so myself~ Once you're done, I wanna take it for a spin too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "艾伦的声音从按摩仪的后方传了出来。",
+			say = "Allen stood behind the chair and spoke to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个椅子除了有奖励的含义之外，还有谢礼的含义在里面吧。",
+			say = "Although, this chair's less of a reward and more like me returning your kindness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为有了这个目标，我才能更努力的工作。也因为我更努力了，指挥官才会把礼物送给我。",
+			say = "It's funny when you think about it. Your reward idea motivated me to take my job more seriously, and because I did, you rewarded me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说，这个贴……这个椅子就是有着这样的意义呢。另一样“东西”也是……",
+			say = "I got pretty much all I could want. The stickers, access to this chair, and that thing I talked about before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说起来，还没有听艾伦说过她想要的另一件“奖励”是什么呢。",
+			say = "That reminded me – she still hadn't told me what that \"other thing\" she wanted was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问艾伦",
+					content = "\"What exactly is that last thing you want?\"",
 					flag = 1
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？已经拿到了哦。我说过了，是一个不需要让指挥官再破费的奖励吧？",
+			say = "What? Just told you, I've already got it. Didn't cost you anything, like I said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来的话……",
+			say = "Wait, don't tell me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "艾伦绕过椅子直接坐在了我的大腿上，然后笑容满面的望了过来。",
+			say = "She flashed a teasing grin, then came around and sat down in my lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官～意外的有些迟钝呢～",
+			say = "...You don't get what I mean, do you? You're one dense commander, huh~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我之所以能好好工作，说到底还是因为指挥官经常在意我、提醒我嘛？",
+			say = "Then let me spell it out. You know how your constant reminders helped me stay focused so I could do actual work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是说必须要这样才能干活啦…诶嘿嘿，只是因为对被指挥官在意的这种感觉…有点上瘾了。",
+			say = "I've kiiinda become dependent on them. I love the attention you give me, because you make me feel wanted and cared about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也就是说，她想要的另一个“奖励”是——",
+			say = "That's when I realized what she wanted from me. A few words. I opened my mouth to speak...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，才不会让你说出口呢～",
+			say = "Ahaha! Don't say it, Commander, I already know~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,23 +324,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚要开口的瞬间，嘴唇被艾伦用手指上的贴纸点住了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101450,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官不是说过吗，既然是重要的伙伴，表达感谢就没有什么资格不资格的。",
+			say = "She put a small sticker on my mouth using her index finger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +340,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，指挥官现在什么都不用做，只要老老实实接受我的感谢就好了……",
+			say = "You wanted to thank me because you treasure our relationship, remember? I feel the same!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101450,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "So you don't have to say or do anything special. Just keep doing what you have all this time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这就是————我给指挥官的“奖励”，以及“回礼”哦。",
+			say = "This is just my own way of saying thanks, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢你，指挥官。",
+			say = "For everything you do, and for who you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这次就换我来全力给指挥官心跳加速的感觉吧！",
+			say = "Consider that kiss a little bonus for you, just like these stickers were to me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

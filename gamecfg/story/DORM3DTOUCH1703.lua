@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}……恶作剧太过头可不行哦。",
+			say = "{dorm3d}... I don't like when you tease me too much.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_gift1_tone5",
 			typewriter = {
 				speed = 0.05,

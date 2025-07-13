@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万圣夜的「奇遇」\n\n<size=45>三　魅魔之爱</size>",
+					"Halloween Hijinks\n\n<size=45>3 A Succubus' Love</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "离开了夜裔的城堡，继续探索着万圣节会场。",
+			say = "I left the Halloween castle and returned to the party venue.",
 			bgm = "battle-highseasfleet-reborn",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎来到“魅魔之爱”！这里也接待幽灵哟！",
+			say = "Welcome to Succubus Love, our hottest attraction! Even you can join in the bloody fun, Master Ghost!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -86,7 +86,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，请把头套带上，指挥官如果不把头套带上的话，样子可就不像幽灵啦。",
+			say = "Oh, but keep the mask on! Take it off, and ya won't be ghastly anymore!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "其实……",
+			say = "\"F-Fair, I guess...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…之前因为装扮得太过写实而吓到了雅努斯？啊哈哈……万圣节会场上偶尔是会有这种情况啦。",
+			say = "Wow... Your costume was so good that it scared Janus? Heheh, only on Halloween, eh?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -149,7 +149,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过请放心，我是不会被这种程度吓住的~！",
+			say = "But it's okay! It'll take a lot more than that to scare me!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -167,7 +167,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像这样把门一锁，再把信号干扰器一开——很好，这样这里就绝对无人来打扰了。",
+			say = "Now, let's go in this room, lock the door, turn on the phone signal jammer... Heehee! Now nobody can interrupt us.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -185,7 +185,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，欢迎来到曼彻斯特的私人医护室“魅魔之爱”，在这里一定能带给你带来超棒的休息体验哟~",
+			say = "Master-and-Commander, I welcome you anew to Manchester's special clinic, Succubus Love. Here, you can relieve all your tension until you feel sooo much better.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "为了创造出无人打扰的环境，曼彻斯特还确实……做了不少准备。",
+			say = "She put a whole lot of effort into creating a situation where nobody could interrupt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "嗯……四周充斥着熏香的气味……让精神不自觉地放松下来了。",
+			say = "An aromatherapeutic fragrance gradually filled the room...relaxing all of my tension before I knew it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官怎么一脸没睡醒的样子，这可不好啊~",
+			say = "Ah! Master, you look sleepy already. Are you okay?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……是熏香的效果导致的吧。",
+			say = "\"...I think it's because of the aroma.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才不是呢哦~",
+			say = "That's a right silly thing to say, innit. Come on, now.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -268,7 +268,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事不宜迟，快让我这个白衣天使来给你治疗看看吧！",
+			say = "Your angel in white, Manchester, will make you feel all better!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……可是你这身明明是恶魔的翅膀。",
+			say = "\"Now that I'm getting a good look at your costume, I see little demon wings on your back.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有恶魔的尾巴呢哦~没有人规定恶魔不能成为白衣天使吧。",
+			say = "I've got a demon tail, too! Ehehe, who says a succubus can't be a nurse, too?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -314,7 +314,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快躺下快躺下~作为应对疲劳的对策，指挥官要不要先来点舒缓用的药片，然后享受一下身体的全套呵护呢？",
+			say = "Well alright, lie down. We're gonna heal all of ya fatigue. Swallow this, and get ready for the full healing experience!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "魅魔护士曼彻斯特会好好照你的哦~",
+			say = "Your succubus maid...no, your succubus nurse is gonna make ya feel better than ever!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "感觉今天的曼彻斯特别热情……难道也是受到角色扮演的影响么？",
+			say = "I've never seen her this excited. Is she just fully engrossed in the Halloween mood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官、指挥官！在发什么呆呢？",
+			say = "Master, what are ya staring for?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -388,7 +388,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊我知道了~肯定是想让曼彻斯特来喂你对吧？",
+			say = "I know! Ya want me to help ya take it, eh?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -406,7 +406,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真拿你没办法，来，张嘴，啊————",
+			say = "Aww, you're helpless... Okay. Open up! Say aah!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "在没搞清楚状况的情况下吃下了曼彻斯特递来的药片——是草莓味的。",
+			say = "As directed, I open my mouth and let Manchester put a small tablet in my mouth. It tastes like strawberry candy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，忘了跟你说了，药片只是各种口味的糖果而已，请不用担心~",
+			say = "Oh, I forgot to tell you! This isn't real medicine. It's just candy! Don't worry!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -452,7 +452,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，指挥官请躺好，我来给你做一下全身按摩吧~",
+			say = "Nooow, stay still in this bed, Master! It's time for Manchester's full healing massage experience!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……真做么？",
+			say = "\"Wait, you're actually doing this? It's not an act?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "当然了！我好歹也是皇家女仆队的成员，手艺可是货真价实的！",
+			say = "Of course! I'm a royal maid, after all! Soothing my master is my forte, innit.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -497,7 +497,7 @@ return {
 			actor = 202091,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官还请放弃抵抗，在曼彻斯特的私人医护室里好好缓解一下疲劳吧——",
+			say = "Ehehe... You can't escape, so just relax and let me do all the work.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

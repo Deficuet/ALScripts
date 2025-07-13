@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>一　望远镜少女</size>",
+					"A View For Two, With You\n\n<size=45>1 A Girl and Her Telescope</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃曼努埃尔·佩萨格诺，前来报道。",
+			say = "Emanuele Pessagno, reporting for secretary duty.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "背着巨大单筒望远镜的少女出现在了办公室的门口。",
+			say = "A girl lugging a giant telescope around stands at the entrance to my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她便是从今天开始担任秘书舰的佩萨格诺。",
+			say = "Today is her first day working as my secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官早上好，我可以进来吗？",
+			say = "Good morning, Commander. Umm... May I enter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "当然，请进。",
+			say = "\"Of course. Come on in.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……啊！",
+			say = "...Ah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺才刚抬起右脚，便径直僵在了半空中。",
+			say = "Pessagno—who we've taken to calling Ema for short—tries to take a step, but she suddenly freezes up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好悬……望远镜差点撞到门框上了。",
+			say = "That was close... I almost smashed my telescope against the door frame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，这个！失礼了……",
+			say = "S-sorry! Just a second...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺略带狼狈的迅速退了出去，再进来的时候，她将单筒望远镜抱在怀里。",
+			say = "She backs off, frantically takes the telescope off of her back, and enters my office holding it with both arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她看上去有些紧张。",
+			say = "The poor girl is even more nervous than usual now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,14 +206,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而且……相较于佩萨格诺娇小的身材，这个巨大的望远镜，确实有些……过于特别。",
+			say = "And compared to her small figure, the giant telescope stands out even more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这单筒望远镜有什么特别之处吗？",
+					content = "\"Is there something special about that telescope?\"",
 					flag = 1
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯？指挥官对这个单筒望远镜感到在意么？",
+			say = "Hm? Are you curious about it, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "虽然看起来是复古的单筒望远镜，但它实际上是特制的舰船辅助装备哦。",
+			say = "It may just look like an antique monocular, but it's actually special supporting equipment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "能在航行和战斗中发挥重要作用，同时，作为望远镜它的性能也是非常优秀的。",
+			say = "It's important for both navigation and combat... Oh, and of course, it naturally works just fine as a normal telescope.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "有了它，不管多远的景色都能一览无余、尽收眼底。",
+			say = "With this, you can get a perfect view of even the most distant scenery!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这样就能完全沉浸在优美的风景里了！",
+			say = "I just love immersing myself in... Oh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，抱歉指挥官，我一味自顾自地说……",
+			say = "Sorry. I didn't mean to go on a whole monologue...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			},
 			options = {
 				{
-					content = "真是个不错的望远镜。",
+					content = "\"It's good to be passionate about things. I like your telescope.\"",
 					flag = 1
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺没有刚才那么紧张了。",
+			say = "(She's not as nervous now. I'm glad I brought it up.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……谢谢你，指挥官。",
+			say = "...Thanks, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "本来对于担任秘书舰一事，我还挺担心的。",
+			say = "I was so worried about being given this job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "毕竟我收到过不擅长表达、不知道想什么、有点难相处……之类的评价。",
+			say = "People tell me I'm not very good company, they can't tell what I'm thinking, I don't express myself enough...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我很害怕指挥官也这么觉得，所以才会这么紧张。",
+			say = "It made me nervous thinking that you would feel the same way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "不过现在已经不紧张了，因为指挥官也是对望远镜感兴趣的人！",
+			say = "But I'm okay! Now that I know you like telescopes, too...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "重点在这里吗……",
+			say = "(That's what matters to her?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "达雷科说得没错，和指挥官在一起根本不需要担心呢。",
+			say = "Da Recco was right. There's nothing to worry about as long as we're with you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "要道谢的人是我才对，秘书舰的工作，加油哦。",
+			say = "\"I'm glad you think so. Now, are you ready to get to work?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "请指挥官放心把工作交给我吧。",
+			say = "Yeah! Leave anything to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1

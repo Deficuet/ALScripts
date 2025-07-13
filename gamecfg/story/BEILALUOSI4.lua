@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>四 加深了解</size>",
+					"White Gallantry\n\n<size=45>4 Belorussiya, As a Person</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "如此这般，欢迎会上寒暄的时候，顺便尝试着向北方联合的伙伴们聊了对于对贝拉罗斯的看法。",
+			say = "While we still had all the Northern Parliament girls gathered in one place, I decided to chat them up. At the same time, I asked what they think about Belorussiya.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝拉罗斯吗？那家伙意外地很照顾人呢！要是约她去喝酒的话，她肯定会开心地接受的！",
+			say = "Belorussiya? She takes good care of people, despite what her attitude might have you think. She's a hell of a drinking partner to boot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的欢迎会估计也是她想和大家一起喝才提出来的吧！",
+			say = "In fact, she might've thrown this party today because I told her I wanted to get together with everyone and have a drink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 705010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以说啊指挥官同志，也来陪我甘古特喝一杯！哈哈哈！",
+			say = "That \"everyone\" includes you, Comrade! I won't take no for an answer! Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝拉罗斯是个好人哦～",
+			say = "Belorussiya is a very good person~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -140,7 +140,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有在你看起来不是好人的孩子么？",
+			say = "You say that about everyone. Is there even such a thing as a \"bad person\" to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……这么说起来好像没有呢~",
+			say = "Hmm... Now that you mention it, nope~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎…指挥官想问的不是这个人好不好，而是她的性格、待人方式，以及在战斗中的“习惯”吧？",
+			say = "Surprise... Look, the commander isn't simply asking if she's good or bad, it's about the details. What's she like? How do you approach her? What sets her apart from others in battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过指挥官并没有去问她本人，而是选择去问她的同伴呢。",
+			say = "Also, the commander wants to hear it from us. Not from Belorussiya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是因为害羞……？",
+			say = "Because it's too embarrassing to ask her directly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "才不是吧。贝拉罗斯那家伙聪明的很，要是指挥官直接问她，不光得不到想要的回答，没准还会被耍得团团转。",
+			say = "No. That girl is on another level. If you asked her about herself, she'd probably play mindgames with you rather than tell the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "嗯……和我的预感一样。",
+			say = "\"That's what I thought, too. It's why I'm asking you all instead.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，我当然能告诉你。不过作为代价，你得陪我们喝几杯哦。",
+			say = "All right, I'll give you my take on her. But I expect you to stick around and share a drink with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这就去拿几杯过来～",
+			say = "I'll go and get you some beers~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，你的脸色看起来不太好啊，发生什么事了？",
+			say = "What's the matter, Comrade Commander? You look a tad ill to me.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -321,7 +321,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……在向伙伴们询问有关贝拉罗斯的事情？那还真是巧啊。",
+			say = "...Asking around about Belorussiya? Ah, I see. So you both had the same idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			},
 			options = {
 				{
-					content = "真是巧……？",
+					content = "\"What do you mean?\"",
 					flag = 1
 				}
 			}
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝拉罗斯也在向伙伴们打听关于你的事情。",
+			say = "I am saying that Belorussiya has been asking around about you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她虽然很依赖直觉，但也不是那种会忽视踏实收集情报的性格。",
+			say = "That girl has a strong and accurate intuition, but she is not one to pass on gathering concrete information to supplement it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有时候她会跟你打赌吧？这种时候最好不要上她的当哦。",
+			say = "You know of her habit of making bets, yes? You'd be wise never to accept one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "贝拉罗斯有时候是会提出进行打赌，但不要上当是指……？",
+			say = "\"She's brought bets up a few times before, yeah. Why shouldn't I accept them?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那家伙只会在自己“绝对会赢”的时候才会“赌”。",
+			say = "Because she only makes bets she is absolutely certain she will win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，不好意思，没注意指挥官同志的杯子空了的。",
+			say = "Oh, sorry, it just came to me that your glass is empty. We can't have that now, can we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "苏维埃罗西亚一边说着，一边又给玻璃杯中倒满了伏特加。",
+			say = "My glass was, indeed, empty. Rossiya produced a bottle of vodka and poured me a drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

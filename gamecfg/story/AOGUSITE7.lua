@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"魔女的命运之夜\n\n<size=45>七 共赴星河</size>",
+					"A Night with the Unhulde\n\n<size=45>7 Into the Galaxy</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "夕阳早已完全落入地平线，夜幕降临。",
+			say = "The sun has completely set over the horizon and the curtain of night has descended.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在，该换一种光了。",
+			say = "The time has come to change the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}轻轻拍了两下手，原本点缀在帐篷周围的光源便依次熄灭。",
+			say = "She claps lightly two times, and the light sources all around the tent go out one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "四周骤暗，铃声也停了下来，再无一丝风动，仿佛黑暗是主动回应了她的召唤。",
+			say = "Everything turns black, almost like the darkness itself has answered her summons. Even the wind seems to stop on August's command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "“魔女”的仪式要开始了吗？",
+			say = "Is it finally time for your ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "嗯，闭上眼睛，适应黑暗。",
+			say = "Yes. Close your eyes and accustom yourself to the dark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "我闭上双眼，感受到{namecode:482:奥古斯特}靠近了我，我们并肩坐在黑夜之中。",
+			say = "I close them gently and I sense that she's coming closer. I sit down, and she does the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "缓缓睁开双眼吧，我的使魔，星河已为我们燃起。",
+			say = "Now slowly open them again, my familiar. The stars have lit up for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,54 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "星空在山野之上悄然展开，远比我记忆中的更加清澈、更加靠近，仿佛一伸手就能触及。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_558",
-			hidePaintObj = true,
-			side = 2,
-			actor = 499060,
-			say = "把手给我。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_558",
-			hidePaintObj = true,
-			say = "我将手递过去，{namecode:482:奥古斯特}的手掌凉而软，像星光本身。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_558",
-			hidePaintObj = true,
-			say = "她握着我的手，指向夜空中的一颗星。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499060,
-			side = 2,
-			bgName = "star_level_bg_558",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "那是第一颗，记住它。",
+			say = "The vast night sky stretches on above. The stars seem so close it feels like I could reach out and touch them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "接下来是这颗，还有这一颗……再往左一点。",
+			say = "Give me your hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +155,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}引导着一颗颗星光，宛如在夜空织线，那些看似孤立的星点，被她连缀起来。",
+			say = "The touch of her hand is soft and cool – it's like the light of the stars on my skin.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_558",
+			hidePaintObj = true,
+			say = "She points up at the sky, toward one star in particular.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +178,43 @@ return {
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是——北冕座。",
+			say = "That is the first star. Remember it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_558",
+			hidePaintObj = true,
+			side = 2,
+			actor = 499060,
+			say = "That's the second, and that one... a little more to the left.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_558",
+			hidePaintObj = true,
+			say = "She points to one, then another, connecting them like she's weaving a thread high up above.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499060,
+			side = 2,
+			bgName = "star_level_bg_558",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "This is Corona Borealis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "像是一顶……星辰组成的王冠？",
+			say = "It looks like... a crown made of stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "没错。",
+			say = "That's precisely what it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "传说中，那是酒神献给恋人的王冠。",
+			say = "According to an old myth, it was a gift from Dionysus, the god of wine, to his lover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,18 +266,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 499060,
-			say = "闪耀着不属于凡间的光辉，只在夜晚中才会显现。",
+			say = "It shines with a light that is not of this world and only appears during the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们今晚应该算得上幸运？",
+					content = "We must be really lucky to see it tonight.",
 					flag = 1
 				},
 				{
-					content = "如果我要摘下这顶王冠呢？",
+					content = "What if I were to take it?",
 					flag = 2
 				}
 			}
@@ -290,7 +290,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "能看到它，我们今晚应该算得上幸运？",
+			say = "I suppose we should count our lucky stars for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "更幸运的是，你是那个抬头看星星时，刚好站在我身边的人。",
+			say = "What's even luckier for you is that I'm here, watching the stars right by your side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "牢记这份幸运吧，我的使魔。",
+			say = "Etch this good fortune into your memory, my familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "如果我要摘下这顶王冠呢？",
+			say = "What if I were to take it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "有何不可？",
+			say = "Well, I wouldn't stop you, I know that much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "我的使魔，配得上一切。",
+			say = "You are my familiar. You deserve everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}忽然微微离远了一点，侧过身，像是在寻找角度。",
+			say = "She suddenly shifts away a bit and tilts her body, looking for an angle to the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "现在，这顶王冠是你的了。",
+			say = "This crown is yours now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "今夜，由我为你加冕。",
+			say = "Tonight, I will be the one to crown you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "她的指尖轻轻点在我的额前。",
+			say = "Her fingertips grace my forehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "仿佛真的有什么从星空中落下，正被她小心地安置在我眉心。",
+			say = "It's as if something actually fell from the skies, and she's carefully adjusting it between my eyebrows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别人若试图靠近，星辰不会回应——它只为选中的人落下。",
+			say = "Others may try to approach, but the stars will not respond – they only do so for the chosen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是星辰选中了我，还是你选中了我？",
+			say = "Did the stars choose me, or did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "为什么不能是，二者皆有？",
+			say = "Why not both?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}的指尖顺着我的侧脸滑下，轻轻抵着我的下颌。",
+			say = "She runs her fingers along my cheek, gently stopping at the very tip of my jaw.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "她的目光充满侵略性在我的身上划过。",
+			say = "Her gaze pierces through my body like a stake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "看上去……你并不打算逃。",
+			say = "You don't seem intent... on running away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我觉得，你也没打算给我这个机会。",
+			say = "You wouldn't give me the chance to in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "我的使魔居然学会反击了。",
+			say = "Ah, my familiar has learned to struggle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "真让人期待你被完全驯服之后的样子。",
+			say = "Now I'm all the more eager to see what becomes of you after I make you fully submit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "你今晚能走到哪一步——由你决定。",
+			say = "How far will you take things tonight? The decision is all yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_558",
 			hidePaintObj = true,
-			say = "星光洒在我们之间，无需触碰，就已灼热。",
+			say = "All of a sudden, the starlight pouring down on us is starting to warm me up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

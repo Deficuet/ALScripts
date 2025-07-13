@@ -15,7 +15,7 @@ return {
 			actor = 900319,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "………………",
+			say = "......",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "两个人都已经整整三分钟没再说话了……",
+			say = "They haven't said a word for a while now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "你们看那个{namecode:433}的眼神……是不是正盘算着要干掉我们啊。",
+			say = "But the look in Scharnhorst's eyes makes me think she's said more than she should have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我说{namecode:433}，将这些情报透露给我们真的好吗？",
+			say = "(Knowing her, she accidentally told Ulrich something specific about the Ashes.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "保守秘密的最好方式就是保持沉默，所以现在才一言不发了对么？",
+			say = "(She may try to act cool and composed, but at the end of the day, she's still Scharnhorst.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜啊……眼神变得更凶恶了。",
+			say = "She's not gonna like, attack us outta the blue, is she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "嘘——{namecode:434}，你这是在说什么话，不要火上浇油啊！",
+			say = "Probably won't, since you're here, but I think ya shoulda just given her a hard \"no\" earlier when you could.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我最熟悉这种气氛了，反正接下来或多或少都要打一架，没什么关系吧。",
+			say = "When push comes to shove, we'll just shove back, if that's what she wants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "怎么看都打不赢吧……",
+			say = "But I don't wanna fight her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "不打起来怎么知道呢，你害怕了么？",
+			say = "Why not? Are you afraid?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "害怕……！",
+			say = "Yes, I'm afraid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在战场上面对强敌姑且不论，因为知道的太多被偶然路过的META灭口也太悲惨了……",
+			say = "Not because she's super powerful, but I'm afraid of hurting someone who could've been an ally...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我倒是没感觉到。不过能感受到恐惧，也是你们还正常的标志吧。",
+			say = "(Ah, right. They aren't yet numb to the feeling of fighting.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "那转身逃离也可以哦。",
+			say = "(They haven't felt the despair of fighting an endless, futile war...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这要由{namecode:464}阁下进行判断了，舰队旗舰没有命令，我们不能擅自行动。",
+			say = "We'll be fine. Worst-case scenario we can always just run away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 9704010,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "约束么……还真是好久没有体验过的感觉了啊。",
+			say = "Run away, you say... Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

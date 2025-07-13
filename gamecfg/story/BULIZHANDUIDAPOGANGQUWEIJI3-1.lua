@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在输入了密码后，位于阿卡西塔的地下区域的蜂巢基地为布里三姐妹敞开了大门。",
+			say = "The bulin sisters entered the password, and the door opened to the hive cluster beneath the Akashi Tower.",
 			bgm = "story-battle-16bit-sfc",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "顺着地图一路前进，三姐妹很快来到了一处被标注为“餐厅”的区域——",
+			say = "Following the directions on the map, they arrived at an area designated as a restaurant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐们，我们是不是走错了burin？",
+			say = "I think maybe we went the wrong way, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "地图上标注的是餐厅，可是到处堆满了箱子的大厅怎么看也不像餐厅啊burin？",
+			say = "The map says this is a restaurant, but all I see is a corridor with a bunch of boxes, bulin. That's not very restaurant-like at all, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，确实怎么看都不像餐厅呢……buli！姐姐妹妹快看我从箱子里发现了什么buli！",
+			say = "Hmm... Yeah, it doesn't look like a restaurant, bulin... Wait, look, there's something in the boxes, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "burin！……如此庞大的数量，如此巨大的体积，如此夸张的形状……",
+			say = "Bulin! There are so many, and they're so big, bulin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些难道是说不上来什么品种的超级大萝卜burin？！",
+			say = "Could these be some kind of... weird-shaped mega radishes, bulin?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此巨大的萝卜，比我们三姐妹加到一起还要高buli！还要大buli！",
+			say = "Each one is bigger than all three of us combined, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前进的道路被这些巨大萝卜挡住了burin……",
+			say = "And now they're blocking our path, bulin... What do we do, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，妹妹们，不用担心purin！",
+			say = "I know just the thing, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萝卜，就要用萝卜（Robot）来对抗purin！",
+			say = "All we have to do is turn these radishes... into rad dishes, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "燃烧吧，我的黄金（Golden）之魂purin！",
+			say = "Burn, my golden soul, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 100011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "降临吧，黄金（Golden）时代的机甲purin！",
+			say = "The glory of the Gilded Age has come, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,12 +246,12 @@ return {
 			actor = 100020,
 			side = 0,
 			bgName = "star_level_bg_148",
-			actorName = "泛用型布里&特装型布里MKIII",
+			actorName = "Universal Bulin&Specialized Bulin Custom MKIII",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐buli！\n姐姐burin！",
+			say = "- Holy smokes, bulin! - Amazing, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 100011,
-			say = "这里就交给我purin！",
+			say = "I'll handle the veggies, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 100011,
-			say = "你们快走，不要停下来啊purin！",
+			say = "You two go on ahead, bulin! Don't stop for anything, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "于是，布里三姐妹战队的大姐试作型布里MKII留在了此处，却为姐妹们开辟了继续前进的道路——",
+			say = "And so, the oldest of the bulins armored up and opened a path for her sisters while she stayed behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

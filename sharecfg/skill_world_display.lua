@@ -3,7 +3,7 @@ pg.skill_world_display = {
 	[3631] = {
 		desc_get = "",
 		id = 3631,
-		desc = "【大型作战效果】\n自身氧气存量额外提高$1点，大型作战中作为潜艇支援被呼叫时，消耗行动力减少$2",
+		desc = "[Operation Siren only] \nIncreases this boat's OXY by $1. When deploying your Submarine Fleet during Operation Siren: -$2 AP cost.",
 		desc_get_add = {
 			{
 				"2",
@@ -102,7 +102,7 @@ pg.skill_world_display = {
 	[4161] = {
 		desc_get = "",
 		id = 4161,
-		desc = "【大型作战效果】\n自身所在编队进入战斗时，若自身存活，提升队伍中所有正航、轻航的航空$1、装填$2，自身舰载机的第一轮空中支援加载时间缩短$3；关卡海域内其他编队进入战斗时，若自身存活，提升该队伍中所有正航、轻航的航空$4、装填$4，同名技能效果取最大值，不可叠加",
+		desc = "[Operation Siren only] \nThe following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -291,7 +291,7 @@ pg.skill_world_display = {
 	[11460] = {
 		desc_get = "",
 		id = 11460,
-		desc = "【大型作战效果】\n若潜艇编队仅有自身一名角色，战斗中自身对战列舰(不包括战巡、航战)造成的伤害提高$1，大型作战中作为潜艇支援被呼叫时，消耗行动力减少$2、潜艇部队弹药量+2",
+		desc = "[Operation Siren only] \nWhen your Submarine Fleet consists of this boat only: increases this boat's DMG to BBs (does not affect BCs or BBVs) by $1. When deploying your Submarine Fleet during Operation Siren: -$2 AP cost and +2 AMO.",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -390,7 +390,7 @@ pg.skill_world_display = {
 	[12440] = {
 		desc_get = "",
 		id = 12440,
-		desc = "【大型作战效果】\n自身所在编队每击破一个敌方编队，战斗中自身炮击提高$1，击破5个敌方编队后，战斗中我方主力编队受到的伤害降低$2；战斗中，自身每击破一个敌舰，自身炮击提高$1（该技能炮击加成最高叠加7层）【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nEvery time the fleet this ship is in defeats an enemy fleet during a sortie: increases this ship's FP by $1; also, for every enemy this ship sinks during a battle: increases this ship's FP by $1 until the battle ends (this skill's FP buffs stack up to a total of 7 times). After 5 enemy fleets have been defeated: reduces DMG taken by your Main Fleet by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -489,7 +489,7 @@ pg.skill_world_display = {
 	[12610] = {
 		desc_get = "",
 		id = 12610,
-		desc = "【大型作战效果】\n开场时为自身及先锋领舰生成2枚护盾，每枚护盾可阻挡$1次鱼雷攻击；自身所在编队的前三次战斗自身炮击提升$2；【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nAt the start of the battle, deploys 2 shields that can each block up to $1 enemy torpedoes around this ship and the ship in the frontmost position in your Vanguard. Additionally, increases this ship's FP by $2 for its first 3 battles of each sortie. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1",
@@ -579,7 +579,7 @@ pg.skill_world_display = {
 	[13030] = {
 		desc_get = "",
 		id = 13030,
-		desc = "【大型作战效果】\n自身所在编队的前两次战斗中，战斗开始时，自身编队每有一个北方联合或东煌阵营角色，自身炮击、命中属性提高$1，最高叠加4层【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nFor each Northern Parliament and/or Dragon Empery ship in the same fleet as this ship: increases this ship's FP and Accuracy by $1 (can be stacked up to 4 times.) This skill only works for the first 2 battles of each sortie this ship takes part in. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -633,7 +633,7 @@ pg.skill_world_display = {
 	[13080] = {
 		desc_get = "",
 		id = 13080,
-		desc = "【大型作战效果】\n自身所在编队的第1、3、5次战斗自身航空提升$1；第2、4、6次战斗自身受到的伤害降低$2【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nOn the 1st, 3rd, and 5th battles of each sortie that this ship takes part in: increases this ship's AVI by $1. On the 2nd, 4th, and 6th battles: decreases this ship's DMG taken by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -732,7 +732,7 @@ pg.skill_world_display = {
 	[13120] = {
 		desc_get = "",
 		id = 13120,
-		desc = "【大型作战效果】\n战斗开始时，若队伍中存在轻航或正航，自身暴击率提高$1；主力舰队中每有一艘轻航或正航，提升自身对驱逐、轻巡造成的伤害$2，最高叠加三层；自身所在编队的前四次战斗，自身及队伍中的轻航、正航受到的伤害降低$3【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nAt the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"20.0%",
@@ -876,7 +876,7 @@ pg.skill_world_display = {
 	[13170] = {
 		desc_get = "",
 		id = 13170,
-		desc = "【大型作战效果】\n当自身受到伤害，或敌方进入防卫射程时，触发一轮特殊弹幕$1(威力依据技能等级)，触发后进入15秒冷却；关卡海域内其他旗舰为战列舰的编队进入该编队的第3、4场战斗时，若自身存活，战斗开始后20秒发动一轮支援弹幕$1【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \n1) When: a) this ship is afloat, b) a fleet this ship is NOT in has a BB as its Flagship, and c) said fleet is engaging in its 3rd or 4th battle: your Tosa fires a covering barrage 20s after said fleet's battle begins. 2) When this ship is in combat and takes DMG or when an enemy comes within close range of this ship: fires a special $1 barrage. Barrage DMG is based on the skill's level and has a cooldown of 15s between activations. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -921,7 +921,7 @@ pg.skill_world_display = {
 	[13430] = {
 		desc_get = "",
 		id = 13430,
-		desc = "【大型作战效果】\n自身机库总容量扩充为3【该效果不受舰只破损状态影响】，战斗中自身所在编队的所有角色每$2秒回复1.0%耐久；关卡海域内其他编队进入战斗时，若自身存活，战斗开始20秒后，恢复该编队先锋舰队角色$1耐久",
+		desc = "[Operation Siren only] \nIncreases this ship's max Airstrike capacity to 3 (this effect is unaffected by your ship's damage status) and restores 1.0% HP to all ships in the same fleet as this ship once every $2s. 20s after a fleet this ship is NOT in starts a battle: heals said fleet's Vanguard for $1 HP.",
 		desc_get_add = {
 			{
 				"0.5%",
@@ -1020,7 +1020,7 @@ pg.skill_world_display = {
 	[13590] = {
 		desc_get = "",
 		id = 13590,
-		desc = "【大型作战效果】\n自身所在编队进入前2场战斗时，自身航空提升$1；战斗中每15秒，发动特殊弹幕进行一次攻击$2；海域内其他编队进入该编队的第3、4场战斗时，若自身存活，战斗开始后15秒发动一轮支援弹幕$2（弹幕威力依据航空属性及技能等级）【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nEvery 15s: fires a $2 special barrage. During the 1st and 2nd battles this ship fights in during a sortie: increases this ship's AVI by $1. When a fleet this ship is NOT in starts its 3rd and 4th battles of a sortie: fires a $2 barrage (DMG is based on the skill's level) 15s after the battle starts. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -1110,7 +1110,7 @@ pg.skill_world_display = {
 	[13650] = {
 		desc_get = "",
 		id = 13650,
-		desc = "【大型作战效果】\n自身所在编队的前三次战斗中，自身受到的炮击伤害降低$1；战斗开始时，若队伍中存在至少2个重樱阵营角色，提高自身航速10【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nFor the first 3 battles of a sortie this ship fights in: decreases the Main Gun DMG this ship takes by $1. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: increases this ship's Speed by 10. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1164,7 +1164,7 @@ pg.skill_world_display = {
 	[13670] = {
 		desc_get = "",
 		id = 13670,
-		desc = "【大型作战效果】\n一场战斗中自身受到3次伤害后触发，自身受到的伤害降低$1，持续至战斗结束；战斗开始时，若队伍中存在至少2个重樱阵营角色，本场战斗强化全弹发射样式；自身所在编队的第2、4、6场战斗中，战斗开始60秒后回复自身$2耐久【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nAfter this ship takes DMG 3 times in battle: decreases this ship's DMG taken by $1 until the battle ends. During the 2nd, 4th, and 6th battles of a sortie this ship fights in: heals this ship for $2 HP 60s after the battle starts. If there are 2 (or more) Sakura Empire ships in the same fleet as this ship: improves this ship's All Out Assault. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"3.5%",
@@ -1263,7 +1263,7 @@ pg.skill_world_display = {
 	[13840] = {
 		desc_get = "",
 		id = 13840,
-		desc = "【大型作战效果】\n自身所在编队的前三次战斗中，自身炮击提升$1，第四场战斗起自身防空提升$1【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nFor the 1st, 2nd, and 3rd battles fought by the fleet this ship is in: increases this ship's FP by $1; from the 4th battle onwards: instead increases this ship's AA by $1. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -1317,7 +1317,7 @@ pg.skill_world_display = {
 	[14160] = {
 		desc_get = "",
 		id = 14160,
-		desc = "【大型作战效果】\n战斗中，自身剩余耐久高于60%时，自身炮击提升$1，被点燃时间减少3秒；在战斗中受到伤害，导致耐久低于50%时，8秒内回复自身9%耐久，每场战斗最多触发2次；在一次关卡出击中，自身所在编队的第三次战斗起，降低先锋舰队成员受到的伤害8%【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nIn battle, when this ship's HP is greater than 60.0%: increases FP by $1 and reduces Burn duration by 3s. Twice per battle, when this ship's HP falls below 50.0% as a result of DMG, restores 9.0% of its max HP over 8s. From the third battle of each sortie that this ship participates in: reduces the DMG your vanguard fleet takes by 8.0%. (In Operation Siren, this counter will reset when moving between sectors.)",
 		desc_get_add = {
 			{
 				"10.0%",
@@ -1371,7 +1371,7 @@ pg.skill_world_display = {
 	[14330] = {
 		desc_get = "",
 		id = 14330,
-		desc = "【大型作战效果】\n进入战斗时，若队伍中存在其他撒丁帝国阵营角色，或自身装备穿甲弹主炮时触发，提高自身炮击属性$1；在一次关卡出击中，自身所在编队的前三次战斗，舰队成员受到的鱼雷伤害降低$2【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only]\nAt the start of the battle, if your fleet contains at least one other Sardegna ship, or if this ship has an AP Main Gun equipped: increases this ship's FP by $1. Additionally, for the first 3 battles of a sortie: the fleet this ship is in takes $2 less DMG from torpedoes. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -1470,7 +1470,7 @@ pg.skill_world_display = {
 	[14440] = {
 		desc_get = "",
 		id = 14440,
-		desc = "【大型作战效果】\n自身所在编队的前三次战斗中，自身防空、机动提高$1，自身航速提高5；在一次关卡出击中，自身所在编队每击破一个敌方编队，战斗中自身炮击、雷击、装填提高$2，最高叠加3层【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only]\nFor the first 3 battles of a sortie: increases this ship's AA and EVA by $1 and Speed by 5. When the fleet this ship is in defeats an enemy fleet: increases this ship's FP, TRP, and RLD by $2 (can be stacked up to 3 times). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -1569,7 +1569,7 @@ pg.skill_world_display = {
 	[14630] = {
 		desc_get = "",
 		id = 14630,
-		desc = "【大型作战效果】\n本场战斗中由【天之骑士】技能触发的弹幕获得额外强化，并触发【空域辅助】技能效果：自身所在编队进入战斗时，若自身存活，提升队伍中所有正航、轻航的航空$1、装填$2，自身舰载机的第一轮空中支援加载时间缩短$3；关卡海域内其他编队进入战斗时，若自身存活，提升该队伍中所有正航、轻航的航空$4、装填$4（技能效果与【空域辅助】技能不叠加）",
+		desc = "[Operation Siren only]\nImproves the \"Knight of the Sky\" TBF Avenger airstrike. Additionally, the following buffs are active as long as this ship is afloat (does not stack with the \"Supporting Wings\" skill):\n1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3.\n2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in.",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -1758,7 +1758,7 @@ pg.skill_world_display = {
 	[14980] = {
 		desc_get = "",
 		id = 14980,
-		desc = "【大型作战效果】\n在一次关卡出击中，自身所在编队每击破一个敌方编队，战斗中自身造成的伤害提高$1（最多叠加4次):\n战斗中每击破一个敌舰，自身命中、机动属性上升$1（最多叠加4次）",
+		desc = "[Operation Siren only] \nWhen the fleet this ship is in sinks an enemy fleet: increases this ship's DMG dealt by $1 (can be stacked up to 4 times). When this ship sinks an enemy in combat: increases this ship's ACC and EVA by $1 (can be stacked up to 4 times).. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"1.0%",
@@ -1812,7 +1812,7 @@ pg.skill_world_display = {
 	[16190] = {
 		desc_get = "",
 		id = 16190,
-		desc = "【大型作战效果】\n战斗中，自身受到的伤害降低$1，自身炮击属性提高$2；进入战斗后，恢复自身$3耐久，自身在战斗中受到伤害，导致耐久首次低于50%后5秒，或自身参加作战超过60秒后，撤退并离开战斗【撤退条件不受舰只破损状态影响】",
+		desc = "[Operation Siren]\nDecreases this ship's DMG taken by $1 and increases her FP by $2. When this ship enters the battle: restores $3 of this ship's max HP. 5s after this ship's HP falls below 50.0% as a result of DMG taken, or 60s after she enters the battle: this ship leaves the battle (the Tolls of War debuff does not affect when this ship leaves the battle).",
 		desc_get_add = {
 			{
 				"15.0%",
@@ -1956,7 +1956,7 @@ pg.skill_world_display = {
 	[16220] = {
 		desc_get = "",
 		id = 16220,
-		desc = "【大型作战效果】\n战斗开始时，若队伍中存在至少3个白鹰阵营角色，自身航空属性和命中属性提升$1；\n战斗开始后每18秒有$2概率触发一轮特殊弹幕$3(威力依据技能等级），并使自身被侦测条回复速率在接下来的5秒内提升2点/秒；\n关卡海域内其他编队进入该编队的前4场战斗时，若自身存活，队伍中的白鹰阵营主力角色炮击属性$4，并在战斗开始后20秒发动一轮支援弹幕$3【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nWhen the battle starts, if there are 3 or more Eagle Union ships afloat in your fleet: increases this ship's AVI and ACC by $1. \nEvery 18s after the battle starts: $2 chance to fire a $3 special barrage (DMG is based on the skill's level) and decreases this ship's Detection Gauge value by 2 once a second for 5s. \nWhile this ship is afloat, for the first 4 battles another fleet fights during a sortie: increases the FP of that fleet's Main Fleet Eagle Union ships by $4; 20s after that fleet's battle starts: fires a $3 special barrage (DMG is based on the skill's level). [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -2136,7 +2136,7 @@ pg.skill_world_display = {
 	[16450] = {
 		desc_get = "",
 		id = 16450,
-		desc = "【大型作战效果】\n自身发动空袭时有$1的概率使在场的所有敌方单位2秒内缓慢减速至航速为0，航速为0效果持续2秒，之后在2秒内缓慢恢复至原航速，并在6秒内降低一个敌方单位机动属性$2，该效果优先对精英目标生效；关卡海域内其他编队进入该编队的第1、2、3场战斗，旗舰第一轮主炮射击或第一轮发动空袭时消耗所有【怨仇】，2秒后根据消耗的【怨仇】层数获得以下效果：\n①3-5层，在场的敌方单位2秒内减速20%\n②6-8层，在场的敌方单位2秒内减速60%\n③9层，在场的敌方单位2秒内航速变为0【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren]\nWhen this ship launches an airstrike: $1 chance to lower the SPD of all enemies to 0 over 2s, keep it at 0 for 2s, then gradually restore their SPD to normal over 2s; when this effect activates: targets 1 random enemy (prioritizing humanoid enemies) and lowers their EVA by $2 for 6s. \nEach sortie, for the first 3 battles fought by a fleet this ship is NOT in: when that fleet's Flagship fires her first Main Gun volley or launches an airstrike: expends all stacks of No Mercy and, after 2s, activates one of the following effects based on the number of No Mercy stacks expended: \n1) 3 to 5: decreases the SPD of all enemies by 20.0% for 2s; \n2) 6 to 8: decreases the SPD of all enemies by 60.0% for 2s; \n3) 9: decreases the SPD of all enemies by 100.0% for 2s.\n[In Operation Siren, the battle count resets when the fleets enter a new zone or when the Fleet Deployment order is issued.]",
 		desc_get_add = {
 			{
 				"70.0%",
@@ -2235,7 +2235,7 @@ pg.skill_world_display = {
 	[16510] = {
 		desc_get = "",
 		id = 16510,
-		desc = "【大型作战效果】\n战斗中，若队伍中的正航、轻航受到伤害导致耐久低于20%时，恢复该角色10%耐久，恢复效果每个角色一场战斗只能触发一次；自身所在编队进入战斗时，若自身存活，提升队伍中所有正航、轻航的航空$1、装填$2，自身舰载机的第一轮空中支援加载时间缩短$3；关卡海域内其他编队进入战斗时，若自身存活，提升该队伍中所有正航、轻航的航空$4、装填$4（技能效果与【空域辅助】技能不叠加）",
+		desc = "[Operation Siren]\nWhen the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG taken: restores 10.0% of that ship's max HP (can only activate once per ship). While this ship is afloat:\n1) When the fleet this ship is in starts a battle, increases your CVs' and CVLs' AVI by $1 and RLD by $2, and decreases the loading time of this ship's first airstrike by $3;\n2) When the battle starts for the fleet this ship is NOT in, increases your CVs' and CVLs' AVI and RLD by $4. Does not stack with the skill \"Supporting Wings.\"",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -2424,7 +2424,7 @@ pg.skill_world_display = {
 	[150760] = {
 		desc_get = "",
 		id = 150760,
-		desc = "【大型作战效果】\n自身第三武器栏装备轻巡主炮时，其索敌范围和射程提升至$1且发射的子弹无视护盾阻挡；自身装备特殊重巡主炮武器，该武器命中同一敌方单位8次，使其受到的伤害提高8%【该效果不受舰只破损状态影响】；战斗开始后每10秒触发一轮特殊弹幕$2（威力依据技能等级）",
+		desc = "[Operation Siren]\nEvery 10s: fires a $2 special barrage (DMG is based on the skill's level).\nIf this ship has a CL Main Gun equipped in her third weapon slot: sets that CL Main Gun's Detection Range and Range to $1 and makes its shells penetrate enemy shields. \nThis ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy 8 times: increases that enemy's DMG taken by 8.0% (this effect is unaffected by the Tolls of War debuff).",
 		desc_get_add = {
 			{
 				"80",
@@ -2514,7 +2514,7 @@ pg.skill_world_display = {
 	[19260] = {
 		desc_get = "",
 		id = 19260,
-		desc = "【大型作战效果】\n每次主炮射击均可独立瞄准【该效果不受舰只破损状态影响】，手动进行瞄准时，手动发射带来的跨射伤害增幅效果提高到$2；战斗开始后每20秒，有$1概率发射强力弹幕(威力随技能等级提升)",
+		desc = "[Operation Siren only] \nEach Main Gun reload gives this ship 2 Salvoes that can be fired independently (this effect is unaffected by your ship's damage status.) This ship's DMG bonus with manually aimed Salvoes becomes $2. Every 20s: $1 chance to fire a special barrage (barrage DMG is based on the skill's level.) [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"50.0%",
@@ -2613,7 +2613,7 @@ pg.skill_world_display = {
 	[19510] = {
 		desc_get = "",
 		id = 19510,
-		desc = "【大型作战效果】\n关卡出击中，自身所在编队每击破一个敌方舰队，自身防空、机动属性提高$1（最高叠加三层）；关卡海域内其他编队进入该编队的第1、2场战斗时，若自身存活，战斗开始后20秒发动一轮支援弹幕$2(威力依据技能等级)，进入该编队的第3、4场战斗时，若自身存活，战斗中撒丁帝国阵营角色受伤降低$3【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nDuring a sortie, whenever the fleet this ship is in sinks an enemy fleet: increases this ship's AA and EVA by $1 (can be stacked up to 3 times). While this ship is afloat: launches a $2 supporting barrage (DMG is based on the skill's level) 20s after a fleet this ship is NOT in starts its 1st and 2nd battles that sortie; for said fleet's 3rd and 4th battles: decreases DMG taken by $3 for your Sardegnian ships.",
 		desc_get_add = {
 			{
 				"0.5%",
@@ -2748,7 +2748,7 @@ pg.skill_world_display = {
 	[19980] = {
 		desc_get = "",
 		id = 19980,
-		desc = "【大型作战效果】\n自身战斗中主炮齐射时，最后一轮底座炮击会优先瞄准精英目标（人形单位）【该效果不受舰只破损状态影响】；战斗开始后每8秒触发，为自己叠加一层【蓄势】，每有一层【蓄势】，自身防空属性提高$1，【蓄势】最多叠加三层；战斗中，主炮开火时消耗自身所有【蓄势】并触发一轮特殊弹幕$2（威力依据技能等级），每消耗一层【蓄势】，自身炮击属性提高$1，持续5秒，并根据消耗的【蓄势】层数在接下来的5秒依次获得以下效果：①大于等于一层：自身主炮暴击率提高$3；②大于等于二层：自身造成的伤害提高$4；③三层：强化本轮开火触发的特殊弹幕，自身造成的暴击伤害提高$3",
+		desc = "[Operation Siren]\nWhen this ship fires her Main Guns, the final volley prioritizes humanoid enemies (this effect is not affected by the Tolls of War debuff). Every 8s: gives this ship 1 stack of Charge (can be stacked up to 3 times); increases her AA by $1 for each stack she has.\nWhen this ship fires her Main Guns: spends all Charge and increases this ship's FP by $1 for 5s per each Charge spent and fires a $2 special barrage (DMG is based on the skill's level); when this effect activates, the following effects apply for 5s based on the number of Charge stacks spent:\n1) 1+ spent: increases this ship's Main Gun Crit Rate by $3;\n2) 2+ spent: increases this ship's DMG dealt by $4;\n3) 3 spent: improves the special barrage and increases this ship's Crit DMG by $3.",
 		desc_get_add = {
 			{
 				"1.5%",
@@ -2928,7 +2928,7 @@ pg.skill_world_display = {
 	[105010] = {
 		desc_get = "",
 		id = 105010,
-		desc = "【大型作战效果】\n三号武器栏位变更为轰炸机栏位并统一将其武器外观替换为「2.25马赫狐笋」，由于不熟悉召唤方法，空袭需要的整备时间增加了100%【该效果不受舰只破损状态影响】；战斗中，每20秒额外召唤一轮场外航空支援$1(支援威力依据雷击属性和技能等级)",
+		desc = "[Operation Siren only] \nDive Bombers can be equipped in this ship's third gear slot, and will use the \"Mach 2.42 Bermbew Sprawt\" gear skin, but this ship's Airstrike load time increases by 100.0% (this effect is unaffected by your ship's damage status.) Every 20s: launches a $1 special airstrike (DMG is based on the skill's level and this ship's TRP stat.)",
 		desc_get_add = {
 			{
 				"Lv.1",
@@ -2973,7 +2973,7 @@ pg.skill_world_display = {
 	[105020] = {
 		desc_get = "",
 		id = 105020,
-		desc = "【大型作战效果】\n战斗开始时，提升自身炮击属性$1；自身所在编队击破3个敌方编队后，额外提升自身雷击属性$2【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren only] \nIncreases this ship's FP by $1 at the start of the battle. If the fleet this ship is in has sunk 3 enemy fleets on the map: also increases this ship's TRP by $2. [This skill's sortie battle counter resets when moving to a new area or changing your formation within Operation Siren.]",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -3072,7 +3072,7 @@ pg.skill_world_display = {
 	[800790] = {
 		desc_get = "",
 		id = 800790,
-		desc = "【大型作战效果】\n大型作战中作为潜艇支援被呼叫时，消耗行动力减少$1；战斗开始时，若潜艇舰队有其他潜艇角色，自身雷击提高$2；氧气不足上浮时发射一轮鱼雷弹幕$3（威力依据技能等级)并回复自身500点耐久",
+		desc = "[Operation Siren]\nWhen called in as Submarine Support in Operation Siren, AP consumption is decreased by $1. When the battle starts, if there are any other SSs in your fleet: increases this boat's TRP by $2. When this boat resurfaces: fires a $3 torpedo barrage (DMG is based on the skill's level) and this boat recovers 500 HP.",
 		desc_get_add = {
 			{
 				"4.5%",
@@ -3203,217 +3203,217 @@ pg.skill_world_display = {
 	[800121] = {
 		desc_get = "",
 		id = 800121,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，先锋舰队成员造成的所有伤害提高3%",
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena I once every 15 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800122] = {
 		desc_get = "",
 		id = 800122,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，先锋舰队成员造成的所有伤害提高5%",
+		desc = "[Operation Siren only] \nActivates Ashen Might - Helena II once every 10 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: increases your Vanguard's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800451] = {
 		desc_get = "",
 		id = 800451,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，META角色受到的伤害降低2%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800452] = {
 		desc_get = "",
 		id = 800452,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，META角色受到的伤害降低5%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800531] = {
 		desc_get = "",
 		id = 800531,
-		desc = "【大型作战效果】\n主炮每进行9次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800532] = {
 		desc_get = "",
 		id = 800532,
-		desc = "【大型作战效果】\n主炮每进行6次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800601] = {
 		desc_get = "",
 		id = 800601,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800602] = {
 		desc_get = "",
 		id = 800602,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800631] = {
 		desc_get = "",
 		id = 800631,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800632] = {
 		desc_get = "",
 		id = 800632,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800701] = {
 		desc_get = "",
 		id = 800701,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800702] = {
 		desc_get = "",
 		id = 800702,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800771] = {
 		desc_get = "",
 		id = 800771,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800772] = {
 		desc_get = "",
 		id = 800772,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800811] = {
 		desc_get = "",
 		id = 800811,
-		desc = "【大型作战效果】\n进入战斗时，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800812] = {
 		desc_get = "",
 		id = 800812,
-		desc = "【大型作战效果】\n进入战斗时，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nFires a special barrage immediately after entering the battle. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800881] = {
 		desc_get = "",
 		id = 800881,
-		desc = "【大型作战效果】\n主炮每进行9次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低3%",
+		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800882] = {
 		desc_get = "",
 		id = 800882,
-		desc = "【大型作战效果】\n主炮每进行6次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低8%",
+		desc = "[Operation Siren]\nActivates All-Out Assault II every 6 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800911] = {
 		desc_get = "",
 		id = 800911,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 2.0%",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800912] = {
 		desc_get = "",
 		id = 800912,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 6.0%",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800951] = {
 		desc_get = "",
 		id = 800951,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，队伍中META角色受到的所有伤害降低5%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[800952] = {
 		desc_get = "",
 		id = 800952,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，队伍中META角色受到的所有伤害降低8%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801051] = {
 		desc_get = "",
 		id = 801051,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801052] = {
 		desc_get = "",
 		id = 801052,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高5%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801081] = {
 		desc_get = "",
 		id = 801081,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801082] = {
 		desc_get = "",
 		id = 801082,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801121] = {
 		desc_get = "",
 		id = 801121,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发一轮特殊弹幕I，自身处于【旧日荣光】状态时，特殊弹幕强化；与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. If this ship has the Glory of the Past buff: improves this barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801122] = {
 		desc_get = "",
 		id = 801122,
-		desc = "【大型作战效果】\n主炮每进行8次攻击，触发一轮特殊弹幕II，自身处于【旧日荣光】状态时，特殊弹幕强化；与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高5%",
+		desc = "[Operation Siren]\nEvery 8 times this ship fires her Main Guns: fires a special barrage. If this ship has the Glory of the Past buff: improves this barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801191] = {
 		desc_get = "",
 		id = 801191,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801192] = {
 		desc_get = "",
 		id = 801192,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801250] = {
 		desc_get = "",
 		id = 801250,
-		desc = "【大型作战效果】\n战斗开始后，自身炮击属性提高$1；在一次关卡出击中，自身所在编队每击破一个敌方编队，战斗中自身受到的伤害降低$2（最多叠加3次）；自身受到弹药匮乏状态的影响降低(弹药匮乏状态时造成的伤害提高$3)【大型作战内，战斗次数在开启新的海域，或重新编队时清零】",
+		desc = "[Operation Siren]\nIncreases this ship's FP by $1. When the fleet this ship is in sinks an enemy fleet: decreases this ship's DMG taken by $2 for the rest of the sortie (can be stacked up to 3 times; when moving into a new zone, or if the fleet's composition is changed, the enemies sunk counter will reset). Decreases the DMG penalty on this ship from the Out of Ammo debuff by $3.",
 		desc_get_add = {
 			{
 				"5.0%",
@@ -3557,98 +3557,98 @@ pg.skill_world_display = {
 	[801261] = {
 		desc_get = "",
 		id = 801261,
-		desc = "【大型作战效果】\n主炮每进行9次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801262] = {
 		desc_get = "",
 		id = 801262,
-		desc = "【大型作战效果】\n主炮每进行6次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801301] = {
 		desc_get = "",
 		id = 801301,
-		desc = "【大型作战效果】\n主炮每进行12次攻击，触发破敌之炬·威奇塔I，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高3%",
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801302] = {
 		desc_get = "",
 		id = 801302,
-		desc = "【大型作战效果】\n战斗中若自身耐久大于50%，主炮每进行8次攻击，扣减自身当前5%耐久值，触发破敌之炬·威奇塔II，并提升该次弹幕20%暴击率；战斗中若自身耐久不大于50%，主炮每进行4次攻击，触发破敌之炬·威奇塔II，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高8%",
+		desc = "[Operation Siren]\nWhile this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801341] = {
 		desc_get = "",
 		id = 801341,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801342] = {
 		desc_get = "",
 		id = 801342,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身造成的所有伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801561] = {
 		desc_get = "",
 		id = 801561,
-		desc = "【大型作战效果】\n主炮每进行9次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低3%",
+		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801562] = {
 		desc_get = "",
 		id = 801562,
-		desc = "【大型作战效果】\n主炮每进行6次攻击，触发一轮特殊弹幕II，被特殊弹幕命中的敌方单位会进入【束缚之焰】状态，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低8%",
+		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. Inflicts the Coiling Flames status to enemies hit by this barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801591] = {
 		desc_get = "",
 		id = 801591,
-		desc = "【大型作战效果】\n主炮每进行9次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低3%",
+		desc = "[Operation Siren]\nActivates All-Out Assault I every 9 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801592] = {
 		desc_get = "",
 		id = 801592,
-		desc = "【大型作战效果】\n主炮每进行6次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低8%",
+		desc = "[Operation Siren]\nActivates All-Out Assault II every 6 times the Main Guns are fired. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801741] = {
 		desc_get = "",
 		id = 801741,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕I，与精英舰队或BOSS舰队交战时，自身造成的伤害提高2%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801742] = {
 		desc_get = "",
 		id = 801742,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕II，与精英舰队或BOSS舰队交战时，自身造成的伤害提高6%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801831] = {
 		desc_get = "",
 		id = 801831,
-		desc = "【大型作战效果】\n主炮每进行15次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身暴击伤害提高5%",
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG by 5.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},
 	[801832] = {
 		desc_get = "",
 		id = 801832,
-		desc = "【大型作战效果】\n主炮每进行10次攻击，触发一轮特殊弹幕，与精英舰队或BOSS舰队交战时，自身暴击伤害提高8%",
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's Crit DMG by 8.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

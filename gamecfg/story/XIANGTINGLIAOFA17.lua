@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "有六支…七支……不对，更多塞壬舰队包围过来了！",
+			say = "Six... Seven, no, even more Sirens are closing in on us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来塞壬做了十分充分的准备啊！",
+			say = "They must have expected us to be here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“奇异点拥有改变战局的力量”，这件事我们知道，塞壬也知道我们知道。",
+			say = "\"The Singularity has the ability to alter the course of the war.\" If this is true, then it must be heavily guarded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在塞壬制造奇异点之时，我们就已经别无选择了。",
+			say = "We have to find out what is going on and stop their assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便遭遇阻拦，我们也只能勇往直前，冲破险境。",
+			say = "Heh, doesn't matter who stands in my way, I'll blow 'em all away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！是时候让塞壬感受一下萨拉妹妹积蓄的怒火了！",
+			say = "Heh! Sister Sara's ready to give 'em some hell too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

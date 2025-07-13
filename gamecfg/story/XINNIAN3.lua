@@ -10,15 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>三  向未知伸出双手</size>",
-					1
+					"Lunar New Year Celebration\n\n<size=45>Chapter 3 - Reach Toward the Unknown</size>"
 				}
 			}
 		},
 		{
 			dir = 1,
 			side = 0,
-			say = "数日前",
+			say = "Several days prior...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,22 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一年…又要结束了呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "新年啊…每年和同样的面孔看一成不变的《一个人的晚餐》…确实是有点无趣呢……",
+			say = "Looks like another year is drawing to an end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +43,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那是……重樱的……？",
+			say = "I'll probably spend the end of this year eating dinner alone just like everyone else... It feels a bit inane...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hm? Isn't that the Sakura Fleet's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "喵！是{namecode:428}喵！看起来有点没精神喵？",
+			say = "Nya! It's Eugen! What's the matter? You look kind of down, nya.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -94,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是购买部的{namecode:98}啊…看起来很忙的样子呢？生意很好嘛？",
+			say = "You're Akashi, from that shop, right? How's everything been? You seem rather busy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +109,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "{namecode:98}和重樱的小伙伴们在做新年的准备喵！可是有很多事情要忙的喵！生意都要落下了喵……",
+			say = "Everyone in the Sakura Fleet is getting ready for the New Year! It's actually an extremely busy time, nya! Business is suffering as a result, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +124,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦～？重樱的新年，有这么多要准备的吗？",
+			say = "Hmmm~? Tell me about this Sakura's \"New Year.\" What kind of preparations are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +140,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "好多要准备的喵！对于重樱的各位来说，新年可是很重要的节日喵！",
+			say = "There's way too much to do, nya! For the Sakura Empire, the New Year is a very important holiday, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～好像挺有趣的嘛……",
+			say = "I see. That sounds a bit interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +168,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "时间回到现在……",
+			say = "Present - Sakura Dormitory",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -198,7 +197,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "既然如此，那就麻烦帮忙摆放一下装饰品吧。这些都是正月要摆放的装饰，今天之内要把它们摆好，这边正愁人手不够呢…",
+			say = "If you want to help out, then let's start by having you set the decorations. All these are for New Year's day, so we need to get it done today. It looks a bit sparse here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呵呵…这个竹子一样的是什么？",
+			say = "Got it. What are these bamboo-like things?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -233,7 +232,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "这个叫门松，放在一起的是一对，一左一右摆门口就好，来由嘛，太复杂的说起来也麻烦，你就当竹子象征长寿吧。",
+			say = "These are called \"kadomatsu,\" or gate pines. They come in pairs and should be placed to the sides of the door. They represent prosperity and longevity and are said to welcome home ancestral spirits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +247,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竹子象征长寿吗……那这个稻草做的挂饰一样的东西呢？还挺好看的",
+			say = "They certainly stand out when placed around the door like this... So, what's this straw-like decoration? It looks pretty cool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +263,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "啊，那个怎么说呢，寓意上是有不让进了家门的神明跑掉的意思在，所以麻烦你把它挂在门口和窗口吧，厨房也可以摆一下。",
+			say = "Ah, how should I say this... it is used to mark a sacred site so that the visiting spirits won't leave. They are placed in entrances, so you can hang it in the doorway or on windows. Oh, and in the kitchen too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +278,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的讲究还真多……挂好了",
+			say = "It seems that the Sakura Empire likes things... high-strung.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个白白的饼呢，能吃吗？",
+			say = "Can I eat this white biscuit thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +309,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "那个叫做镜饼喵。虽然确实是食物，不过现在还不能吃喵……要供奉好，等时间到了才能砸开吃掉喵",
+			say = "That is called \"kagami mochi,\" or mirror rice cake, nya! It is food, but you can't eat it just yet, nya... You'll have to make offerings first, and wait until after the New Year to eat it, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +324,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，这个小小的白白的东西明明就在勾引我吃掉它，居然现在不能吃吗……",
+			say = "What? These things are sitting here begging to be eaten and you're telling me to wait?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +340,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "忍耐喵！等到跨年会就可以大吃大喝了喵",
+			say = "Be patient, nya! After the New Year, you can eat and drink to your heart's content, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +355,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的跨年会……吗……我也能参加吗？",
+			say = "A party to celebrate the passing of the year... Hmm, can I come to that as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +371,7 @@ return {
 			side = 1,
 			actorName = "{namecode:98}",
 			dir = 1,
-			say = "港区的大家都是伙伴喵，欢迎喵～",
+			say = "Everyone in this base is a friend, so anyone is welcome, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +386,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……那我就满怀期待地等着了……听说重樱的酒非常好喝呢—— ",
+			say = "Ehehe... I'm looking forward to it then... I hear Sakura's liquor is like ambrosia. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

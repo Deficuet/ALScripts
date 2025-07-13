@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>四 脸靠得太近了！</size>",
+					"'Tis the Season of Love!\n\n<size=45>4.Your Face is Too Close!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "休息时间——",
+			say = "During break...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻……",
+			say = "Sigh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,23 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥抱着叠成小山的讲义，开始了她作为班长最初的工作。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202261,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "突击者老师大骗子…这才不是一点“零碎的杂务”啊…",
+			say = "Glasgow, having started her first errand as a class representative, was walking around with a stack of papers in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,21 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也真是…那么轻易就接受了，真的没问题吗？以后肯定还有更麻烦的活儿…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			say = "「……太轻率了吗？」",
+			say = "Ms. Chaser is such a liar... “Minor chores,” she said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全是随波逐流啊…倒是很符合你的风格。",
+			say = "And you... You just nodded along to whatever she told you to do. Are you sure you’re okay with this? You know the workload is only going to get more and more unreasonable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,23 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "「帮你再拿点吧？」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202261,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没，没关系啦！就这么点东西，我自己就能搬得动！",
+			say = "“...Should I not have?”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +131,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？“看不见前面”……不，不用你操心！这点事难不倒我！",
+			say = "You just go along with whatever people say... You’re always like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +145,53 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥加快了脚步——就在这时，前面传来舰船们聊天的声音。",
+			say = "“Need a hand?”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202261,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "N-no, I can manage on my own! I don’t need your help for something like this!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202261,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wh-what is it? “I can’t see in front of me?” ...Look, I don’t need your concern! As if I’d let something like that trip me up!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			say = "Glasgow hastened her steps... The lively voices of other ships could be heard straight ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等我嘛，印第酱~头发还没梳好啊~",
+			say = "Come back, Indyyyy~ I haven’t combed your hair yet~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 103071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还不是因为姐姐你一直贴着我不放开…",
+			say = "You’re always sticking to me... If you don’t give me some personal space, I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~冷淡的印第酱也超可爱！",
+			say = "Ahhhhh~ You’re being so cold to me, Indy... But that side of you is suuuuper cute too~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "没注意到迎面而来的的波特兰姐妹，格拉斯哥仍大步向前走着。",
+			say = "Glasgow didn’t seem to notice the two sisters in front of her and continued her brisk pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "波特兰的目光全都集中在波利斯身上，也没注意到从前面走来的格拉斯哥。",
+			say = "Portland’s gaze was affixed to her little sister, totally oblivious of the incoming Glasgow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "再这么下去两人就要撞上了——",
+			say = "At this rate, they were going to collide. Suddenly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀——！",
+			say = "Eek!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "连忙抱住格拉斯哥双肩，没想到一下却把她压到了墙边。",
+			say = "I hurriedly reached out to grab onto Glasgow’s shoulders to steer her away from trouble... but somehow ended up pinning her back against the wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你，你突然干什么啊！",
+			say = "Wh-what are you doing all of a sudden?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而，而且…这个姿势是——",
+			say = "And... and... this position...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 103071,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…姐姐，都是因为你不看前面，撞到格拉斯哥她们了……",
+			say = "...Sis, you almost crashed into Glasgow because you weren’t watching your steps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 103061,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，真的欸！对不起~我光顾着看印第酱了！",
+			say = "Eh, really?! Wow, you’re right... I’m so sorry, I was just totally fixated on you, Indy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "波特兰伸舌头道歉，波利斯礼貌地点了点头。",
+			say = "Portland stuck her tongue out and grinned goofily, while Indianapolis bowed politely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥没有余力看离去的两人，保持着靠墙的姿势，心脏扑通扑通直跳。",
+			say = "Glasgow continued to stand there blankly. She didn’t even see the others leaving, and her heart was about to fly out of her chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（怎么办…虽然说是突发意外…但竟然被壁咚了……！）",
+			say = "(What do I do, what do I do?! Even though it was an emergency, this is a kabedon... right out of one of those mangas...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "格拉斯哥头昏目眩，脸通红地抱着讲义。想着自己得说些什么——",
+			say = "Though her head was spinning and her face was completely flushed, Glasgow managed to hold on to the handouts. The awkward silence was deafening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "脸，脸靠得太近了！！我，我们得赶紧回教室发讲义！",
+			say = "Y-your face is too close! W-we need to hurry back to the classroom and pass these out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "话音落下，两人才终于从壁咚的状态里恢复过来。格拉斯哥心还砰砰直跳，不过仍然迈开了步伐。",
+			say = "Upon those words, the two slowly peeled themselves away from the wall. Glasgow stepped away, her heart still pounding furiously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哎呀~明明刚才气氛那么好。这两位还是太僵硬了啊~",
+			say = "...Oh my, that was passionate. Too bad those two are practically statues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "热心，偷看可不好哦——不过我好像也这么说别人的资格就是了，啊哈哈……",
+			say = "Ardent, it’s not good to peep on others— Though I’m not really one to talk. Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来我们还是得给他们加把火才行？",
+			say = "Does it fall upon us to give them some extra motivation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嗯，为格拉斯哥加加油吧…",
+			say = "Mm... I’m totally cheering for Glasgow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

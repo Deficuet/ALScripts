@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>二　抽屉里的谜团</size>",
+					"Javelin's Monthly Manga\n\n<size=45>Chapter 2 - The Mystery Within the Drawer</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起我迟到了——！",
+			say = "I'm so sorry I'm late!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪，好晚",
+			say = "You're late, Javelin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，已经开始上课了哦",
+			say = "Really now? Class has already started!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是笔记，的说",
+			say = "The notes you missed, here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可不能作为迟到的理由呢……",
+			say = "All right, that's no excuse for being late...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是说真的啦！遇到了一只会说话的指挥喵，说着“会遇到命运之人”什么的！",
+			say = "I'm telling the truth! I met a talking Meowfficer, and it said something about how I am \"destined to have a fateful encounter today,\" or something like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "学园七大不可思议要增加到八个了，的说",
+			say = "The Seven Mysteries of the Academy just increased to eight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许只是标枪没睡醒犯迷糊了…",
+			say = "Maybe Javelin just isn't a morning person...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实有可能…不过，也可能是科学部又进行了什么奇怪的改造…",
+			say = "That is a possibility, but... there is also a chance that the Science Club crossed a certain line without permission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之，下次再碰到的话，还是抓住它，然后送到{namecode:98}那里去比较好",
+			say = "In any case, our best bet is to catch that thing and bring it to Akashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也会注意的，遇到了就抓住",
+			say = "If I see it, I'll catch it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你们见识一下特型驱逐舰的速度、的说",
+			say = "I'll show you the agility of a special-type destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的~大家都太较真了啦！",
+			say = "Hey... aren't you guys taking this a bit too seriously?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(奇怪？抽屉里好像有什么奇怪的东西……）",
+			say = "(Huh? There seems to be something weird in this drawer...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…粉红色的信封…？",
+			say = "This is... a pink envelope...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情书…？",
+			say = "Love letter...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真亏大家能注意到的说",
+			say = "Be careful, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这难道是——！",
+			say = "D-don't tell me this is...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "「一封神秘的信件，送到了标枪面前——」",
+			say = "\"A mysterious love letter appeared before Javelin...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "赛车使用了最新款的发动机，前进两格"
+			say = "The cutting-edge engine that you swapped in belches flames! Move forward 2 spaces!"
 		}
 	}
 }

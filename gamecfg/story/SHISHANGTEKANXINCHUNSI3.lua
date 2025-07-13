@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "进入房间之中，空气中弥漫着淡淡的甜香，周围一切的景色显然是经过了精心布置。",
+			say = "As I enter the room, a sweet scent tickles my nose. The space is meticulously decorated, with intricate details everywhere.",
 			bgm = "china-party",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "正当我沉浸于这片幽静雅致的景色时，突然悠扬的乐声响起。",
+			say = "While I quietly take in the elegant scenery, a gentle melody begins to play.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "循声望去，只见{namecode:199:新泽西}身着一袭华美的东煌风格舞裙，翩然跃至面前。",
+			say = "In the direction of the sound, I find New Jersey dancing in a gorgeous Empery-style dress.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "裙摆飘逸，点缀着精致的东煌刺绣，腰间丝带更是轻盈灵动。",
+			say = "The exquisitely embroidered dress sways gracefully as she moves, while the ribbon at her waist twirls as if it has a life of its own.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她每一个舞动的动作都恰到好处，随着最后一个音符落下，她稳稳停住朝我走来。",
+			say = "Her graceful movements come to a perfect stop just as the last note fades, and she approaches me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "呼~~收尾的动作可真难啊，不过根本难不倒我啦！",
+			say = "Phew... It was really hard to complete the ending, but I can handle anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,18 +108,18 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "Honey~我跳的怎么样啊~？Honey？已经完全看入迷了吗~哈哈哈~♪~",
+			say = "So, honey, did you like it? Hellooo, honey? Aww, are you so mesmerized that you can't speak? Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "太美了",
+					content = "You were just so beautiful.",
 					flag = 1
 				},
 				{
-					content = "特地为我准备的？",
+					content = "Did you do all this?",
 					flag = 2
 				}
 			}
@@ -134,7 +134,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			actorName = "{playername}",
-			say = "太美了，你的舞姿优美得让人移不开眼睛。",
+			say = "You were just so beautiful. I couldn't take my eyes off you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嘻嘻，看你的表情，我准备的惊喜很成功呢~！",
+			say = "Heheh! When I saw you stunned and gawking, I just knew this surprise was a success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			optionFlag = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "欢迎准时赴约的Honey~♪",
+			say = "Anyway, you're right on time. Welcome, honey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			actorName = "{playername}",
-			say = "这是……特地为我准备的？这些布景，还有这身衣服……",
+			say = "Wait... Did you prepare all of this for me? The set, the outfit, and all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			optionFlag = 2,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "当然是我亲自布置的啦~这种东西可难不倒最大最强的Black Dragon哦！",
+			say = "Of course I did! This is easy stuff for the indomitable Black Dragon of the Eagle Union!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "当然，还得感谢定安提供的这些布景道具啦！",
+			say = "Ting An deserves some of the credit for getting me the tools, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			actorName = "{playername}",
-			say = "不管是服装和布景都好精致啊，一定准备了很久吧。",
+			say = "I can tell a lot of thought went into this. It must have taken a long time to get everything ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "我想想……嗯……好像还蛮久的……不过只要Honey喜欢，一切都是值得的~！",
+			say = "Hmm... I mean, I guess it did. But what matters to me is that you like it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:199:新泽西}拉起我的手，眼神里充满了期待。",
+			say = "She takes my hands and looks at me expectantly.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "Honey，别只是站着，来一起跳舞吧~",
+			say = "Come on! Don't just stand there. Dance with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "不会也没关系，我教给你嘛，手给我，一起转圈吧~哈哈哈~♪",
+			say = "I'll teach you, so don't worry if you've never done it before. Now, give me your hand and try spinning with me! Hahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她的手心温暖柔软，指尖传来淡淡的体温，身上也带着淡淡的甜香，让人感觉心情愉悦。",
+			say = "New Jersey's palm is warm and soft, and the sweet scent emanating from her puts me at ease.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -306,7 +306,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我的舞步有些笨拙，但在她耐心的引导下，渐渐找到了韵律，步伐逐渐合为一体。",
+			say = "I'm clumsy at first, but her patient guidance helps me find the rhythm. Eventually, we're able to dance in perfect sync.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "正当我们渐入佳境时，{namecode:199:新泽西}的发饰突然和腰间的丝带缠在了一起。",
+			say = "As we're really getting into the groove, though, her hair ornament gets tangled with her ribbon.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "哎呀……饰品和飘带怎么缠在一起了？Honey帮我解开吧，拜托了！",
+			say = "Ack... How did these two get tangled together? Honey, help me untangle them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我靠近她，试图帮她解开这恼人的缠绕，而她却突然扑进了我的怀里，紧紧抱住我。",
+			say = "When I approach to help, she suddenly lunges at my chest and pulls me into a tight embrace.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿……honey你看起来有点冷呢，果然晚上还是有些冷吧？来，抱抱~！",
+			say = "Heheh... It's cold at night, y'know? Come here, honey. Huuug!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "嗯~~？看来honey很喜欢我这身衣服呢……",
+			say = "Did that make your heart skip a beat? You must really love this outfit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "那通常{namecode:199:新泽西}和东煌风{namecode:199:新泽西}，Honey更喜欢哪一个呀~？",
+			say = "Okay, pick. Which do you like more – the usual me, or me in this dress?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			actorName = "{playername}",
-			say = "这个嘛……",
+			say = "Uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "……怎么还犹豫起来了？回答当然是“都喜欢”啦！",
+			say = "Geez, don't hesitate now. You're supposed to say you love both, silly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			actorName = "{playername}",
-			say = "都喜欢！",
+			say = "Yeah, you're right. I love both.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~Honey果然最好了呢，对了，东煌好像有句诗叫人有……月有什么……",
+			say = "Heehee! You're the best, honey! By the way, there's this thing they say in the Dragon Empery... Umm, something about the moon waxing and waning and driving people apart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "总之在我这里，可是永远不会缺的满月哦，所以我们要永远永远在一起~",
+			say = "Anyway, the moon here never wanes! And that means I'll always get to be with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她的声音轻柔，作出带着几分甜蜜的承诺。",
+			say = "She pledges eternal love in a soft tone.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -490,7 +490,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "月光洒落而下，为{namecode:199:新泽西}的轮廓镀上一层柔和的银边。",
+			say = "Silver moonlight showers upon us.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -504,7 +504,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:199:新泽西}依偎在我怀中，温顺得像只爱撒娇的猫咪。",
+			say = "New Jersey snuggles into my arms like a needy kitten.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +518,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "让人想要永远将这一刻定格。",
+			say = "Part of me wishes that this moment could last forever.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,

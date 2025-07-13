@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_613",
-			say = "在别墅闲逛时，我注意到本应空无一人的游戏室内依旧亮着灯光。",
+			say = "As I'm strolling around the villa, I notice the light is on in the billiards room.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_613",
-			say = "我略带好奇地推开了半掩的房门，走进了游戏室。",
+			say = "Curious who might be in there, I push the half-open door and go in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			live2d = "login",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官~您终于来看{namecode:97:大凤}了吗？",
+			say = "My Commander~ Did you come here to see me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "有些昏暗的的游戏室内，面带倦容的{namecode:97:大凤}正慵懒地躺在不远处的台球桌上。",
+			say = "In the dim room, Taihou reclines lazily on a pool table, her face showing signs of weariness.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女如瀑的黑发披散于台球桌面，让她白皙的皮肤更显突出。",
+			say = "Her black hair is scattered across the table like a splash of water radiating from her beautiful features.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,18 +112,18 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "略显孤寂的灯光拂过她酒红色的兔女郎服饰，荡漾起宝石般的光泽。",
+			say = "Her wine-red bunny girl costume reflects the faint light as a ruby would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "一时兴起",
+					content = "Just checking on things...",
 					flag = 1
 				},
 				{
-					content = "看到亮着灯",
+					content = "I noticed the light was on...",
 					flag = 2
 				}
 			}
@@ -139,7 +139,7 @@ return {
 			actor = 307076,
 			actorName = "{playername}",
 			live2d = true,
-			say = "只是一时兴起，想来游戏室看看。",
+			say = "I just decided to check on the billiards room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~肯定是因为指挥官大人感受到了{namecode:97:大凤}的思念~",
+			say = "No, no. I'm certain that you sensed I was here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以才会不知不觉地来到{namecode:97:大凤}的身边呢~呵呵呵……",
+			say = "Otherwise, you wouldn't have unconsciously wandered to my side! Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 307076,
 			actorName = "{playername}",
 			live2d = true,
-			say = "我路过附近时见游戏室还亮着灯，所以就进来看看。",
+			say = "I came to see what was going on in here, since the light was on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "呵呵……我就知道指挥官大人一定会注意到{namecode:97:大凤}留下的痕迹~",
+			say = "Heheh, of course you would notice the hint I left behind for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "因为，指挥官大人与{namecode:97:大凤}是心灵相通的嘛~",
+			say = "After all, our hearts are so in tune with each other...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:97:大凤}抱紧了怀中的台球杆，红润透亮的面容流露着陶醉的神情。",
+			say = "She holds a pool cue tightly in her arms, her cheeks flushed with an intoxicated glow.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +241,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我驻足在少女的身边，浓醇的葡萄酒香气扑向了我的鼻腔。",
+			say = "When I approach her, the rich aroma of wine quickly explains why.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "{namecode:97:大凤}想弄明白怎么打台球，但一个人……根本弄不明白……",
+			say = "I've been trying to get better at billiards, but it's just so hard to learn without a teacher...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "而且一个人，越研究越没什么意思~",
+			say = "And I get awfully bored when I'm all alone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:97:大凤}修长的双腿无聊得晃动了两下，细长的红色高跟轻轻敲在了我的脚背。",
+			say = "Her long, slender legs swing from the edge of the table, causing her red high heels to tap against my leg.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			actor = 307076,
 			actorName = "{playername}",
 			live2d = true,
-			say = "如果{namecode:97:大凤}想学习如何打台球的话，或许我可以帮忙。",
+			say = "If you want to learn, I can teach you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			side = 2,
-			say = "呵呵。指挥官果然知道{namecode:97:大凤}想要什么呢~",
+			say = "Heehee. I knew you'd understand my needs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "{namecode:97:大凤}啊，一直期待着指挥官大人来，亲自~好好地~教导{namecode:97:大凤}哦……",
+			say = "I waited all this time for my Commander to finally come and give me intimate, personal instruction~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "{namecode:97:大凤}也绝对不会辜负您的期望，一定送上指挥官大人期待的一切❤",
+			say = "I'll return the favor by doing any little thing you want me to do♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:97:大凤}的手指缠上我的衣角，随即带着酒香的气息也一起挤在了我的怀中。",
+			say = "Her finger hooks around the hem of my shirt, and she throws herself into my arms.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "{namecode:97:大凤}想要那种，更亲密的教导……",
+			say = "I need sooo much more guidance from you, my Commander♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "没有布料的阻隔，伴随{namecode:97:大凤}体温传来的，还有她肌肤的柔软触感。",
+			say = "Our skin touches, and I'm struck by her warmth and softness.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "指挥官的温度好舒服……{namecode:97:大凤}，好喜欢……❤",
+			say = "I love your warmth, my Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "双颊韵红的{namecode:97:大凤}将被她埋在胸前的台球杆递到了我的手中。",
+			say = "Blushing a vivid red, she hands me the pool cue that she'd been clutching to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "球杆上还保留着她的温度，手持的位置似乎还裹着一层轻薄而霏靡的水雾。",
+			say = "Her body heat still clings to it, and the grip is just a tiny bit moist.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "希望指挥官也能喜欢{namecode:97:大凤}的温度呢……",
+			say = "I hope you like mine, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我正准备换个位置示范动作，却发现{namecode:97:大凤}的双腿已经悄悄缠住了我的腰。",
+			say = "Before I can go around the table to show her an example stance, she wraps both legs around my waist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "{namecode:97:大凤}可以就这样，好好地接受指挥官大人的教导吗？",
+			say = "Won't you please \"teach\" me like this, my Commander?♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 307076,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的身体宛如暖炉般开始逐渐发烫，像是忍耐不住似的轻颤了起来。",
+			say = "Her lower half is practically burning now, and she trembles with barely contained excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "指挥官大人~既然是教导{namecode:97:大凤}……那就请在{namecode:97:大凤}这里示范吧~",
+			say = "Please, my Commander~ If you're going to teach me, then you need to show me how it's done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "与我对上视线后，{namecode:97:大凤}伸出粉嫩的舌尖，舔了舔晶莹湿润的嘴唇。",
+			say = "We lock eyes. She licks her lips ecstatically.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -525,7 +525,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "毕竟，{namecode:97:大凤}真的很想近距离好好观察……",
+			say = "How do you hold the cue? From what position do you strike?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307076,
-			say = "指挥官大人喜欢用什么样的姿势与力道操控球杆……",
+			say = "How do you thrust your tool? How do you take control...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "以及……会更喜欢击入哪个洞口呢~",
+			say = "I want to learn, up close and personal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "现在……请快点给{namecode:97:大凤}解答这些问题吧~指挥官大人~❤",
+			say = "Come on... Teach me, my Commander♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

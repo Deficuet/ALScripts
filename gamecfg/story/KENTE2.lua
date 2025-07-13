@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"GO！肯特选手！\n\n<size=45>二 肯特选手毫无防备！ </size>",
+					"Unbridled Positivity\n\n<size=45>Chapter 2 - Kent the Unbeatable! </size>",
 					1
 				}
 			}
 		},
 		{
-			say = "虽然第一天多少遇到了些手忙脚乱的意外，但之后肯特还是很好地履行了秘书舰的职责。",
+			say = "The first day may have seen a couple reckless accidents, but since then Kent has been handling her secretarial duties just fine.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "平心而论，在有大量工作等着要做的情况下，有她在确实感觉轻松了许多。",
+			say = "And honestly, with all the work to be done around here, she does make things easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女仆队的工作结束了！肯特选手接下来就要开始秘书舰的工作了！",
+			say = "Done with my maid work! Time for secretary business!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的肯特依然带着饱满的笑容走进了指挥室。要是能从她那无穷无尽的活力分一点出来就好了…",
+			say = "Kent strides into the office with the same bright smile she always has. If only I could seize a share of that boundless energy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait！指挥官，停一下！",
+			say = "Wait! Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在准备把文件放回书架时，被肯特一声大喊喝住了。",
+			say = "Just as I’m putting my papers back on the shelf, a loud shout from Kent stops me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "方便看一下你的袖子吗？",
+			say = "Let me see your sleeve?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,23 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "乖乖伸出了手臂…而肯特则是看着袖子观察了一会——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "Hmmm……果然，这里的扣子都脱线了。",
+			say = "I extend my arm, as requested... and Kent takes a moment to observe my sleeve—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,21 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好，指挥官，在这坐一下吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "只见肯特从围裙里拿出针线包，在身边很近的地方坐了下来，开始缝了起来。",
+			say = "Hmmm... So this button is misaligned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +195,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "针线包是刚才帮萨福克把干活时弄掉的扣子缝上的时候准备的，幸好还带在身上~",
+			say = "Righto, Commander. Have a seat.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Kent takes out a sewing kit from her apron, sits strikingly close to me, and starts in with her needle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,49 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "马上就好，不要乱动哦……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "手臂被肯特拉到了她的胸前，只见肯特手法熟练地缝着线…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "唔…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "嗯…有种不知道该看哪里的感觉。",
+			say = "I started carrying the sewing kit to fix all the buttons Suffolk loses while she works. Lucky, that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +241,49 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "衣服是不是太薄了？唔…衣服要是不够轻便的话，活动起来很不方便欸…",
+			say = "Almost done. Don’t move...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Kent pulls my arm right up against her chest, and I keep my eyes locked firmly on her practiced technique...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Gulp...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "I, erm... suddenly feel like my eyes are wandering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +299,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个回头再说，指挥官，你离得这么远我很难缝啊！再靠近一点嘛！来！紧贴着我！",
+			say = "You think I’m wearing too little? Oh... But if my clothes are too heavy, it’s a pain to get around...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "We’ll come back to that one, Commander, I can’t sew with you that far from me! Get over here! C’mon! Right up against me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在抵抗拉扯渐渐无效，马上要贴到一起的时候，肯特终于缝好了纽扣。",
+			say = "With my resistance faltering and me very nearly smushing into her, Kent finally finishes sewing the button.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别乱动~好！这就缝好啦！",
+			say = "Stay still~ done! Lovely, that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Finished！嗯哼，肯特选手缝得真不错！",
+			say = "And Bob’s your uncle! Mmhmm. What a fine job I did!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,23 +385,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "甚至无暇确认她的手艺，急急忙忙便站起身来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 203030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯？指挥官你怎么了？好像从刚才就一直怪怪的？",
+			say = "Without even checking her work, she hurries to her feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +401,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~~算啦！今天还有很多事要做呢，有什么要肯特选手帮忙的尽管说哦！",
+			say = "Oh? What’s the matter, Commander? You seemed a tad off just now?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 203030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh, never mind! We’ve got way too much to do today! Call me if you need my help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "肯特露出了无忧无虑的笑容。",
+			say = "Kent flashes a carefree smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看着她的笑容，就让人不禁打消了对她的天然粗神经加以指摘的想法。",
+			say = "Seeing that smile makes me banish the thought of calling out her carelessness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过，之后还是找个机会和她好好聊聊这事吧……",
+			say = "But I still file it away to bring up with her someday, gently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

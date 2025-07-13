@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其五　Trick or treat！</size>",
+					"Witches' Eve V\n\n<size=45>「Trick or Treat!」</size>",
 					1
 				}
 			}
@@ -41,7 +41,7 @@ return {
 		{
 			actor = 301051,
 			actorShadow = true,
-			actorName = "{namecode:6}&克利夫兰",
+			actorName = "{namecode:6}&Cleveland",
 			side = 0,
 			dir = -1,
 			hideOther = true,
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "给~顺便尝尝我烤的南瓜派吧",
+			say = "Here~ Have a taste of my freshly baked pumpkin pie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "真美味，南瓜的香甜完全被诱发出来了！",
+			say = "It tastes delicious, the sweetness of the pie is just perfect!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "没想到早已吃腻的南瓜，还能变得这么美味！{namecode:95}无论哪方面都是吾学习的榜样呢",
+			say = "I didn’t expect to taste such a delicious pie after recently being sick of eating them! Whichever way you slice it {namecode:95}, you are my role model!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "哈哈~我可不是完美无缺的哟",
+			say = "Haha~ I am not perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯……我还是更中意海伦娜的",
+			say = "Well… I’m more focused on what Helena is up to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吾们走啦~",
+			say = "Let’s go!~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -183,7 +183,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
 			dir = 1,
-			say = "一路走好",
+			say = "Have a safe journey.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "呼……欸——！！",
+			say = "Hmm… ack——!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀——南瓜灯都飘起来了？是、是幽灵吗——！",
+			say = "Hey look—— are those pumpkin lanterns floating in the sky? Is, is there ghosts——!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "南瓜灯对着我们冲了过来——",
+			say = "Those pumpkin lanterns are coming straight at us——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -272,7 +272,7 @@ return {
 			side = 1,
 			actorName = "{namecode:19}",
 			dir = 1,
-			say = "眼前什么都看不到，全是南瓜灯……你们没事吧，可恶，吾辈的连装炮呢！？",
+			say = "I can’t see anything in front of me, it’s all just lanterns… is everyone OK? Drat, where are my guns?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等——",
+			say = "Wait——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 1,
 			actorName = "{namecode:95}",
 			dir = 1,
-			say = "你是——呀呀呀呀！",
+			say = "It’s you—— ahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 0,
 			actorName = "{namecode:87}",
 			dir = -1,
-			say = "{namecode:95}——！！！",
+			say = "{namecode:95}——!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "南瓜灯都飞到天空中了……{namecode:96}也不见了！",
+			say = "Those pumpkin lanterns were all flying in the air… {namecode:96}, where is {namecode:96}!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -363,33 +363,13 @@ return {
 			}
 		},
 		{
-			actor = 306051,
-			side = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:87}",
-			dir = 1,
-			say = "发、发生了什么！？",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 0
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 307060,
 			actorName = "？？？",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "翔——White姐，我本来也想像你那样缝几套衣服，可是动手后发现缝衣服好难……所以，先勉强用这个吧",
+			say = "Shou—— White, I wanted to sew something for you like this, but then I realized how hard it is to sew... so, please use this for now.",
 			withoutPainting = true,
 			flashout = {
 				black = true,
@@ -421,7 +401,7 @@ return {
 			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "这个南瓜是不是忘记挖透气孔了，我怎么什么都看不到！？{namecode:96}、企业你们究竟要干什么？",
+			say = "Did you girls forget to carve this pumpkin, I can’t see anything?! {namecode:96} and Enterprise, what exactly are you two up to?!",
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
@@ -446,7 +426,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "咳咳，我是gold，她是gray。总、总之，现在我们不是“大人”而是“孩子”，所以在万圣夜大闹一番也完全没问题！",
+			say = "Cough, I am Gold, she is Grey. In short, we are no longer “adults” tonight but more like “adolescents” instead. It won’t be a problem to go wild during Halloween night!",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -464,7 +444,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "我是输给了瑞……gold，所以来帮她忙——",
+			say = "I lost to Zui... Gold, therefore I’ve come to help her——",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -482,7 +462,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "喂，你难道一点不甘心都没有吗！",
+			say = "Hmm? Are you not convinced of your defeat!",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -500,7 +480,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "好好好，那么长不大的孩子们就尽情恶作剧吧，我会用南瓜灯配合你们的",
+			say = "Ok ok ok, these girls who’re still “kids at heart” will enjoy pranking tonight. I will use my pumpkin lantern to help them.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +498,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
-			say = "哼哼，毕竟“我”可比你小不少，gray",
+			say = "Hehe, after all “I” am younger than you by a lot, Grey.",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

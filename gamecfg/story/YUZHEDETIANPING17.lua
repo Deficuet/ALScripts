@@ -12,7 +12,7 @@ return {
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "世界仿佛笼罩在了一片古怪的白色中。",
+			say = "I stepped out of the Vichya pavilion and looked all around me.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "肆意生长的粘稠菌丝仍然在蔓延着，山川大地仿佛被其转化为了某种活物。",
+			say = "The mysterious substance was still growing, stretching, reaching out like a living mycelium that sought to pull heaven and earth into one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "除了迪洛伊之外，更多的怪异敌人也出现在了水面上。",
+			say = "In addition to the Gazers, smaller enemies began to appear with greater frequency as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "虽然依靠极光之壁的保护和各阵营联合舰队的作战，会场中的战况正在逐渐好转。",
+			say = "Fortunately, between the Skybound Wall and the alliance fleet's growing cohesion, the combat situation around the pavilion was slowly stabilizing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "但从全局上来看，局势毫无疑问正在每分每秒中恶化。",
+			say = "However, just reaching a standstill could hardly be considered a victory with how quickly the situation everywhere else was deteriorating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们刚刚拍摄到了一些最新画面。",
+			say = "...Our analysis of the mysterious substance has brought something new to light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许揭示了这些源源不断出现的敌人的……诞生过程。",
+			say = "It may just point us to where these smaller enemies are appearing from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "光辉发来了侦察机的画面。",
+			say = "I check the two pictures taken by Illustrious' recon planes that popped up on my phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "在第一组照片中，无数大小不一的“茧”出现在了被白色物质覆盖的大地上。",
+			say = "The first shows a place covered in white, dotted with hundreds of cocoon-like objects of varying sizes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "“茧”与“茧”之间，通过某种红色的脉络相连，就像在吸收大地的养分一样。",
+			say = "Each cocoon is connected by a small thread, almost resembling cells making up a larger organ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "然后是第二组照片，“茧”爆裂开来，怪异敌人从中破茧而出。",
+			say = "The second picture shows a cocoon rupturing, an indescribable enemy emerging from it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好恶心……居然是……孵化出来的？",
+			say = "That is disgusting... What ARE these things?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "将万物转化为养料，然后孵化增殖……",
+			say = "Beings that consume all matter, giving birth to abominations, multiplying...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不过指挥官，妾身认为这里虽然不是吾等熟知的镜面海域，但也并非就是于现世中发生之事。",
+			say = "It is like a scene out of a nightmare, something that could not exist in reality... Even with the Commander by my side, I feel fear...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此等宛如梦魇之景，或许真的是一场梦，一场特殊的梦。",
+			say = "We may be in a new type of Mirror Sea... Or perhaps, even inside this one's dream...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "{namecode:182}女士，您所说的，听上去有点像逃避现实时的借口……",
+			say = "Not to be rude, but that just sounds like wishful thinking to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "{namecode:182}，你有什么证据么？",
+			say = "\"Don't take that personally, Shinano. Others don't understand the power you have, but I do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "直观的证据虽然没有，不过确有佐证。",
+			say = "No... She is correct... I have no evidence, therefore it is natural that I be doubted...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "自从那些名为迪洛伊的敌人出现后，妾身就感觉到了一股喷涌而出的力量。",
+			say = "Reality as this one knows it and the reality we are in have diverged drastically since the arrival of these Gazers...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能将如此之多的人卷入的梦，定然与妾身平日游历之梦不同。",
+			say = "Supposing that this is a dream, it would explain Marco Polo's and Clemenceau's unusual behavior...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "但妾身在现世之中，从未拥有过如此力量……这就是妾身认为此处为梦境的佐证。",
+			say = "What we do not yet know is if you and this one are the only dreamers, or if all shipgirls are...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "（在此前的作战中，{namecode:182}错将一处塞壬构建的特殊空间当成了梦境。）",
+			say = "That reminds me... Shinano said the same thing back in AF – that the events of that Mirror Sea were a dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "（或许……这次也一样。）",
+			say = "Of course, no sane person would believe that. There is no way that an anomaly that has tangible effects on both people and reality is only a dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "如果{namecode:182}的判断是正确的，此处是一个人为构建的特殊空间，而不是现实世界本身。",
+			say = "However, it's a different story if we assume we've been pulled into a space which functions like a new kind of Mirror Sea, rather than just a dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "那就有一定有一套核心装置在维持空间的存在。",
+			say = "It's a very optimistic guess, but approaching the situation this way is the only way we can hope to resolve it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "就和应对镜面海域时相同，找到并将其破坏，就可以从无休止的消耗战中解脱出来，一举扭转局势。",
+			say = "\"First of all, we're going to treat this space – including the Gazers, the goopy substance, even the World Expo – as part of an anomalous Mirror Sea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "为此，首先需要恢复通讯，整合陆间海中各处的力量才行。",
+			say = "\"To free ourselves from it, we will need to find whatever controls the Mirror Sea and destroy or neutralize it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,14 +404,14 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "埃塞克斯那边，应该也处理的差不多了——",
+			say = "\"That could be Marco Polo, or it could be a machine of some sort. Either way...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "联系埃塞克斯",
+					content = "\"I will lead you to victory.\"",
 					flag = 1
 				}
 			}
@@ -426,7 +426,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "受信清晰，指挥官。",
+			say = "...Commander! Our signal is online!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我们已经成功修复了「太空针」的信号阵列。",
+			say = "We have connected directly to the Space Needle tactical line and can communicate with all bases within a huge radius!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "接下来只要启动临时中继阵列，就大功告成了。",
+			say = "Starting up cross-pavilion data transfer line and signal array now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通讯恢复倒计时，Stand by，Stand by。",
+			say = "Royal Navy, Iron Blood, Sakura Empire, Sardegna Empire, Dragon Empery, Northern Parliament, Iris Libre... standby!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "3……2……1……就是现在！海伦娜，合闸！",
+			say = "Three... two... one... Helena! Turn it on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,11 +528,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "[滋啦——]要塞呼叫[滋啦——]，收[滋啦——]请[滋啦——]复——",
+			say = "BRRRRZZZZZ... fortress here... BRRRRZZZZZ.... received... BRRRRZZZZZ... respond... BRRRRZZZZZ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,22 +540,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "马[滋啦——]耳他要塞呼叫博览[滋啦——]场，收到请[滋啦——]复——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
-			say = "寂静了许久的通讯器中传来了沸沸扬扬的嘈杂呼叫，转眼间竟如喧嚣的街市般热闹。",
+			say = "Malta... BRRRRZZZZZ... Expo... BRRRRZZZZZ... please respond... BRRRRZZZZZ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "情报正伴随着通讯如雪片般传来。",
+			say = "There was a reason I had everyone avoid combat with the Gazers and go through the risk of eliminating the enemies inside the Expo venue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "好消息是，陆间海中各处要塞的抵抗并没有停止。",
+			say = "It was so we could connect to the Space Needle and amplify our signal, establishing a communications network with all bases around the Mediterranean Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +577,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "坏消息则是……这个被马可波罗称为“神之国度”空间所影响的范围比之前认为的要广阔得多，也严重得多。",
+			say = "The flow of incoming signals all but overloaded the line. This meant our allies were out there, fighting as we spoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +588,18 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "必须要尽快与各处战斗中的要塞建立稳定的通讯频道，整理出海域中的态势图才行。",
+			say = "At the same time, however, it also meant that this anomalous phenomenon was not contained to just the sea around the World Expo.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_italy",
+			hidePaintObj = true,
+			say = "\"First thing's first – we need to sort the situation out and establish a chain of command.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我立刻着手处理。",
+			say = "Leave that to me, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也来帮忙，现阶段需要的人应该是多多益善吧？",
+			say = "Two heads are better than one, right? I'll help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，人多力量大，我和水星纪念也来帮忙。",
+			say = "Make that four. Pamiat' Merkuria and I will assist, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "这方面的事不是我的专长，不过我这里正好有一个擅长的人。",
+			say = "I'm no expert when it comes to this stuff, so let me instead introduce someone who is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:401}，你去帮忙吧",
+			say = "Thiele, come here and give these people a helping hand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好。",
+			say = "Very well. I can do that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:50}，汝也去协助。",
+			say = "You, too, should step forth, Noshiro...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:182}大人。",
+			say = "Certainly, Shinano.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "storymap_huanlujianhai1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在各阵营的齐心协力下，很快海域中的所有已知情报都被整理完毕。",
+			say = "Working with our allies across the Mediterranean, we finally managed to get a basic grasp on the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			bgName = "storymap_huanlujianhai1",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "总算可以摆脱盲目作战的状态，找回一些主动权了。",
+			say = "Finally, we could pierce through the fog of war and seize the initiative.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "直布罗陀要塞的战况并不严峻。",
+			say = "Though Gazers had appeared as far as Gibraltar, the fortress there managed to hold.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -809,7 +809,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在得知了会场情况后，厌战表示将会留下一部分人驻防，之后带领主力舰队前来支援。",
+			say = "I asked Warspite to mobilize what forces she could, and she is now on her way with her main fleet to link up with us.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "马耳他要塞的情况则严峻许多，在敌人猛烈的进攻下，驻防舰队已经被包围在要塞中。",
+			say = "The situation in Malta, however, is far more dire. The garrison is being besieged, its defenders all but surrounded.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -847,7 +847,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在评估了实际情况后，{namecode:427}同意了带领铁血舰队前去马耳他支援的方案。",
+			say = "In light of this, I put Eugen in charge of a small but battle-hardened detachment of Iron Blood forces to provide support.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -866,7 +866,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "之后她们会与皇家舰队一同返回会场集结。",
+			say = "Assuming they're able to repel the enemy and secure the island, the plan for now is that they'll group up and return here.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -884,7 +884,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "土伦港中驻扎着维希教廷的主力舰队。",
+			say = "As for the Iris and Vicha forces in Toulon, Clemenceau apparently requested them to defend an anchorage there.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -906,7 +906,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过其在通讯中只进行了公示性回应，拒绝提供任何情报，也拒绝了联合作战的邀请。",
+			say = "As far as the intel they shared told us, they have no idea what the Vichya's Holy See fleet and the Tribunal are up to.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -926,7 +926,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "目前也只能先静观其变……",
+			say = "So, to keep an eye on Clemenceau, they sent Jean Bart and her fleet away to be on standby.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -946,7 +946,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "撒丁帝国的情况也不容乐观。",
+			say = "Then, there was the Sardegna Empire, and their groups were quite split.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -966,7 +966,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在袭击开始前，马可波罗似乎尝试过利用元老院的授权控制撒丁舰队。",
+			say = "Marco Polo declared their state of emergency protocol to be in effect and made calls to all Sardegnian bases to inform the shipgirls there that they were under her control.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -986,7 +986,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过因为种种原因未能得逞。现在随着通讯恢复，维内托已经重新取回了控制权。",
+			say = "None of them believed her, however. Later, Veneto convinced them to join our side.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1005,7 +1005,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "目前，塔兰托要塞周边的战斗已经暂时结束，其中的撒丁帝国驻防舰队正在原地待命。",
+			say = "Aquila's fleet over in Taranto had eliminated all enemies in the surrounding waters, and were now regrouping and resupplying.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1027,31 +1027,9 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "撒丁帝国舰队的二把手利托里奥目前人在威尼斯办事。",
+			say = "Littorio and Torricelli were in Venice, investigating a matter relating to their Senate. Then, when the Gazers appeared, they fled the area.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			canMarkNode = {
-				"huanlujianhai1",
-				{
-					1,
-					2,
-					3,
-					5,
-					6
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			blackBg = true,
-			say = "并在袭击发生后立刻前往了安全的地堡躲避，虽然被孤立在外，但还算安全。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1073,7 +1051,29 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "维内托原本打算让塔兰托舰队前去威尼斯救援，不过利托里奥表示远水解不了近渴，她自己会尝试其他方法脱困。",
+			say = "They then wound up alone inside a bunker, but as they assured me, there was no need to worry whatsoever and they'll find an alternate escape route.",
+			canMarkNode = {
+				"huanlujianhai1",
+				{
+					1,
+					2,
+					3,
+					5,
+					6
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			dialogueBgAlpha = 0.6,
+			hidePaintObj = true,
+			blackBg = true,
+			say = "That didn't stop me from worrying, of course. Based on Veneto's relieved response to hearing them, however, I just had to believe they'd be okay.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1094,7 +1094,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "撒丁帝国的首都也遭到了袭击。不过因为驻防舰队的及时应对和来自本土的支援，目前战斗已经接近尾声。",
+			say = "Then there's Roma and a few others. They were in the capital and had successfully repelled an attack on it.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1119,7 +1119,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "维内托级的罗马表示，将会在确保首都安全后，带领驻防舰队前来会场集合。",
+			say = "They said they'd mop up the stragglers then group up with us. More importantly, though, they told me a very important piece of information.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1142,7 +1142,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "同时她提供了一个重要信息，马可波罗的王座目前正在某处海域上空发光盘旋，似乎在进行着某种仪式。",
+			say = "That Marco Polo is performing some kind of ritual on her giant, flying throne.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1164,7 +1164,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "值得注意的还有亚历山大港，那里原本应该驻扎有一支撒丁帝国舰队，但对其的呼叫没有取得任何回应，目前情况不明。",
+			say = "Finally, there was one Sardegnian fleet near the Oasis port that we were completely unable to contact.",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1190,7 +1190,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "塔兰托已经派出侦察机前往亚历山大方向了，相信不久后就能得到更确切的消息。",
+			say = "That could just have been due to the weather, since a sandstorm appeared there just before the closing ceremony. Just to be sure, we had Taranto send recon planes there.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1214,7 +1214,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "撒丁帝国的全部舰队、皇家与维希教廷的陆间海舰队，再加上集结在博览会会场的各阵营联合舰队。",
+			say = "All in all, our allied fleet includes everyone at the World Expo, a few Sardegnian fleets around the Mediterranean, scattered Iris and Vichya fleets, and a Royal Navy detachment.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1238,7 +1238,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "总体来说，被卷入“神之国度”的舰队力量十分可观。",
+			say = "The Gazers are powerful, and they're aided by endless cannon fodder. We are outmatched ten to one... but, there is still a chance.",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1262,7 +1262,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "就算面对此等不利局面……只要能团结一致，依然有胜算！",
+			say = "Now, what's our next move?",
 			canMarkNode = {
 				"huanlujianhai1",
 				{

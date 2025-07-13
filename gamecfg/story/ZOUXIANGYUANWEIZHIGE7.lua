@@ -12,15 +12,15 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"数年前",
+					"Years ago...",
 					1
 				},
 				{
-					"圣赫勒拿岛·审判庭要塞",
+					"Saint Helena Island - Secret Tribunal Stronghold",
 					2
 				},
 				{
-					"EP4-「独行」",
+					"Marseillaise's recollection",
 					3
 				}
 			},
@@ -44,7 +44,7 @@ return {
 			actor = 801070,
 			nameColor = "#92fc63",
 			hidePaintObj = true,
-			say = "整体浏览了一遍，感觉如何？",
+			say = "So here we are, Marseillaise. The place I told you about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "没想到你们居然在山体里挖出了这么大的空间……",
+			say = "Incredible. When did we excavate such a massive facility deep inside the mountains?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "这座要塞并不在军事规划之内。圣座也没有特别批准过……",
+			say = "I've never seen any allocations being made for a project of this scale... How many outside channels would the Tribunal have needed to go through?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "审判庭修建要塞的资金是哪里来的……？",
+			say = "And how did it secure the permissions and funding to construct something like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "这个嘛……大概用的是审判庭自己的资金？",
+			say = "Extraordinary circumstances call for extraordinary measures. Is that not why the Tribunal keeps spare change lying around?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "具体我也不是很清楚。",
+			say = "I'm not overly concerned about the specifics.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "不过在教国，审判庭的事也不用搞得那么清楚，不是么？",
+			say = "Setting aside the motivations of the higher-ups, the Tribunal has always been a shadowy organization. It's only natural that they have secrets they don't want the general public to know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "圣座一直觉得审判庭的权利有些过于膨胀了……",
+			say = "The Naval HQ has always been wary of the power held by the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "看来果然如此。",
+			say = "With this, I can see why they've thought that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "要是没有这份膨胀，你之后可是要露宿荒野了哦？",
+			say = "Goodness, Marseillaise. Is it really the right time to nip at the hand that feeds you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "总之，要塞的控制权已经移交给你了。",
+			say = "In any case, you are now the master of this estate. The Tribunal's secret stronghold is in your hands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "我们就在这里分别吧。",
+			say = "Remember the sacred order given to you – protect the Crown of the Holy See.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "哎？你不跟我一起待在这里吗？",
+			say = "You're not going to stand guard here with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "嗯，我还有审判庭的任务要去做。",
+			say = "Unfortunately, I have no shortage of work to attend to.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "还有很多需要我去调查，我去见证的事……",
+			say = "There are too many other areas that require my attention, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "你就藏在这里，守护好圣座冠冕。",
+			say = "Yes, while I am certainly loathe to leave you on your lonesome, this is also the Holy Iris' will. We both have been given our respective duties.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "等时机成熟的那一天，我会再来找你的。",
+			say = "I will be back sometime later to check on you, so bear with it until then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "明白了。守护冠冕是我的职责，我会不惜生命守护它。",
+			say = "Understood. I, the Fighting Angel of the Iris Orthodoxy, swear to protect this Crown with my life.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "…………",
+			say = "...Well, we did say before that the Crown is just an object.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "马赛曲，如果有一天，冠冕和你的生命只能二选一的时候，我希望你能选择自己的生命。",
+			say = "It's not worth losing your life over. Remember, if at any point, you are forced to choose between it and your life, I want you to choose the latter without hesitation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#92fc63",
 			actor = 801070,
-			say = "……珍惜生命，鸢尾的血已经流得够多了。",
+			say = "...The Iris Orthodoxy has already had to make too many sacrifices.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,11 +458,11 @@ return {
 			},
 			sequence = {
 				{
-					"此刻",
+					"Present day",
 					1
 				},
 				{
-					"圣赫勒拿岛·要塞周边",
+					"Waters near Saint Helena Island",
 					2
 				},
 				{
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "异样的雾气遮蔽了月色。",
+			say = "The haze continued to spread until it even blotted out the moonlight.",
 			bgmDelay = 1,
 			bgm = "battle-underholyflag",
 			typewriter = {
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "它们扭曲着、抖动着，仿佛拥有某种意识一般。",
+			say = "The formless mass of black and red writhed and extended outwards, as if it had a will of its own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "仔细聆听，似乎还能听到无数混合在风声中的嘶啸声。",
+			say = "If one listened closely, it almost seemed like there was a distant howl drifting along the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "……这一天还是到来了。",
+			say = "I knew this day would come...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "觊觎冠冕的人，最终还是露出了獠牙。",
+			say = "Agents of evil who would seek to snatch the Crown... Conceal your appearances as much you like, but you cannot hide your vile intent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "敌人是无孔不入的鬼魅，坚固的要塞已为牢笼。",
+			say = "You stand on hallowed ground, a bastion that protects our Sacraments from the enemies of the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "既然如此……那就正面迎敌，光荣一战吧。",
+			say = "Even if you have torn through the boundary of possibility to invade this place, it is my honor to stand unflinching against you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "抱歉，可怖……",
+			say = "My apologies, Le Terrible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "我是鸢尾教国的首席天使。",
+			say = "I am the fighting angel of the Iris Orthodoxy. To do battle is my purpose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "在冠冕和我的生命只能二选一的时候，我将毫不犹豫选择冠冕。",
+			say = "If I am forced to choose between my life and the Crown, I will always choose the Crown without hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "不论陷入何种处境，不论面对何种敌人。",
+			say = "No matter what kind of situation I find myself in, no matter what kind of enemy I face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "如果要对冠冕出手的话，就要先赢过我手里的剑。",
+			say = "You shall not lay a finger upon the Sacrament of the Crown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 902020,
-			say = "……魑魅魍魉。",
+			say = "Demons and heretics that would seek to sully what is sacred––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#92fc63",
 			actor = 902020,
-			say = "以鸢尾之名，放马过来吧！",
+			say = "In the glorious name of the Holy Iris, I shall destroy you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女守护冠冕的意志，仿佛转化为了源源不断的力量。",
+			say = "The angel's pure, unyielding will to protect manifested itself into power, pushing the formless foes back again and again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "但敌人，是无穷无尽的。",
+			say = "But, the enemy's numbers were limitless.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "压倒性的不利将少女一步步逼向悬崖。",
+			say = "And she had already pushed herself beyond her limits. Little by little, the girl was cornered into a cliff overlooking the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "终于，距离万丈深渊只有一步之遥。",
+			say = "One more step would push her not into the sea's embrace, but rather the embrace of defeat. At last, she had nowhere left to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,12 +761,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "…………要到此结束了么。",
+			say = "So this... is how it ends...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "这时，少女终于注意到了远方的呼唤，还有依稀透出雾气的光。",
+			say = "Just at that time, she saw a glimmer of light from beyond the haze that choked her vision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,11 +789,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "那个声音是……黎塞留？",
+			say = "That light... that voice... Is that you, Cardinal Richelieu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,11 +801,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "她怎么找到这里来的……",
+			say = "But, why are you here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,11 +813,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "不……管不了这么多了。",
+			say = "No, now's not the time to think about that... I must keep fighting on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女手中的长剑再次嗡鸣起来，浩然的剑光将迷雾撕开了一道裂口。",
+			say = "Having found hope once more, the girl once again lifted her sword, the radiance from the blade parting the mist for a brief moment.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -854,7 +854,7 @@ return {
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
-			say = "少女看清了不远处旗帜下的那个身影。",
+			say = "As fleeting as it was, that moment was enough to clearly reveal Richelieu, approaching with her glistening banner held high.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,11 +862,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "黎塞留主教，保护冠冕！",
+			say = "Cardinal! I hereby entrust the Crown to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,11 +879,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马赛曲",
+			actorName = "Marseillaise",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
-			say = "保护冠冕————！",
+			say = "Please, you must ensure the Crown's safety!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -899,7 +899,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "冠冕被抛向了光的方向。",
+			say = "With the last of her might, Marseillaise threw the Crown towards the holy light.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -932,7 +932,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
-			say = "少女的身影，也在这一刻消失在诡谲的雾气中———",
+			say = "As soon as the Crown left her hand, the girl was swallowed up by the surging haze and disappeared within its depths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

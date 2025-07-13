@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "确保了商船安全，任务完成！",
+			say = "You’ve successfully escorted the transport ship to its destination. Mission complete!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

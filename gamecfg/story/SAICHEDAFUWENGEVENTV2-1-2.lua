@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "完成了{namecode:98}委托的广告宣传委托，获得了委托奖励【物资*1000】"
+			say = "You were paid by Akashi to give her a shoutout. You received 1,000 Coins!"
 		}
 	}
 }

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"风暴中心的依偎\n\n<size=45>七 可靠又不可靠的人</size>",
+					"Warmth in the Storm\n\n<size=45>She Seems Dependable, But...</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "或许是因为昨日的疲惫，今天竟难得睡了个懒觉。",
+			say = "Perhaps because of yesterday's exhaustion, I indulged in a rare sleep-in today.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -47,14 +47,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "当睁开双眼后，莫加多尔早就已经洗漱完毕，在休息室中沉浸地看着什么。",
+			say = "By the time I wake up, Mogador has already done her morning routine and is sitting down, engrossed in something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "早上好",
+					content = "Good morning.",
 					flag = 1
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "哈啊……早上好啊，指挥官~",
+			say = "*yaaawn*... Good morning, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔打了个哈欠，然后伸了个懒腰。",
+			say = "She stretches with a small grunt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你昨晚没休息好么？",
+			say = "Didn't sleep well last night?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "前半夜休息得还挺好的，可是做噩梦了，梦里都是怪谈里出现的奇怪声音。",
+			say = "I slept like a baby for a good few hours, but then I had a nightmare about eerie sounds, like in the ghost story...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么说来……之前在发电机那里听到的怪异声音确实还没有调查清楚来源呢……",
+			say = "Speaking of which, we still haven't figured out the source of those strange noises near the generator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "不用担心，已经调查清楚了……哈啊……",
+			say = "No worries. I already went and investigated that. *yaaawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔又伸了个懒腰，然后将手中的笔记本抛了过来。",
+			say = "She stretches once more and throws the notebook in her hands toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……夜间巡逻记录？",
+			say = "Oh. Your night patrol log?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "因为在意识到了危险之后，就实在睡不踏实了嘛……",
+			say = "Mhm. I couldn't really sleep after that dream, feeling like there might be danger lurking nearby...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "你往后看，往后看~",
+			say = "Take a look at the last page.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "莫加多尔的记录显示，她在凌晨四点又独自进行了一次详细巡查。",
+			say = "According to her notes, she went on a solo patrol at around 4 in the morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "而在之前的发电机周围，她发现了——",
+			say = "And when she went to the generator room, she found something interesting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……一台录音机？",
+			say = "A tape recorder?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "是啊，不但藏在了隐秘的角落里，而且设置了发电机一旦启动就会自动播放录音的功能。",
+			say = "Yup. It was hidden way out of view in a corner, and it had been set up to automatically start playing sounds when the generator was fired up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………查到是谁干的了么。",
+			say = "...Do you know who might have done it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嗯，因为昨晚就已经恢复和港区的通信了，我连夜调查了当时来这片岛屿的探索队。",
+			say = "Sure do. Since our signal came back last evening, I looked into who had been here previously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "你猜当时是谁带头的？",
+			say = "Can you guess who it was?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,18 +281,18 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "冒险之王抚顺？",
+					content = "It wasn't Fu Shun, was it?",
 					flag = 1
 				},
 				{
-					content = "……不会真的是布里斯托尔吧？",
+					content = "Was it actually Bristol after all?",
 					flag = 2
 				}
 			}
@@ -306,7 +306,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遗憾……回答错误。当时是布里斯托尔带的队哦~",
+			say = "Sadly, no. It was Bristol. She led the team at the time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官……回答正确！",
+			say = "Ding-ding-ding. Correct!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没想到你连夜调查清楚了，出门有你在身边真可靠。",
+			say = "I didn't think we'd solve that mystery overnight. My hat's off to you, Mogador. You're dependable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嘿嘿嘿……工作中的我一向很可靠哦，指挥官又不是第一天知道啦……",
+			say = "Heheh... I've always been dependable. You know that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "觉得我做得好的话，之后的奖励……",
+			say = "If you really think I did good, well, I'd love some kind of reward...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "说着话，莫加多尔慢慢回了床上，试图再次钻到被子里。",
+			say = "As she says that, she returns to bed and tries to wriggle her way under the sheets again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……先把斗篷穿上！",
+			say = "Put on your cloak before anything else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嘿嘿嘿……人家昨晚后半夜巡逻了那么久……很累的……",
+			say = "But I'm tiiired... I wanna go back to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "现在想睡个回笼觉呢……",
+			say = "I spent the whole night on patrol, you know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "呼呼呼……指挥官应该……也还没睡够吧……",
+			say = "Besides, you're still sleepy yourself, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "港区的船队要到中午以后才到呢……♥",
+			say = "Our rescue won't arrive until noon, so...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们还有……呼呼呼……尽情独处的时间呢……♥",
+			say = "We still have plenty of time all to ourselves... Heheheh♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "让我们不要浪费这最后的美好时光……♥",
+			say = "Let's not waste this opportunity...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一起来睡回笼觉吧……呼呼……嘿嘿嘿嘿……♥",
+			say = "Sleep with me, Commander... Heheheh...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「镰鼬」",
+					"Weasel Unit",
 					1
 				},
 				{
-					"旗舰：基洛夫",
+					"Flagship: Kirov",
 					2
 				},
 				{
-					"弗兰格尔岛前哨站外围海域·北方联合控制区",
+					"Objective: Destroy the weather control device",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在舰队离开弗兰格尔岛后没过多久，原本还算和蔼的天气立刻转变为了狂风暴雪。",
+			say = "Shortly after departing from the mission starting position, the calm weather abruptly changed into a violent blizzard.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "自从白令海的塞壬要塞被击破之后，这里的天气就变得好差……",
+			say = "Ever since Rossiya's unit took down that Siren fortress, the weather in this area has been so unstable...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说不定清除者从那时候就开始在这里捣鬼了……",
+			say = "Maybe Omitter had some kind of crazy back-up plan!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很有可能。如果不是它们最近扩建防御设施闹出这么大动静的话，真不知道我们什么时候才能发现这座要塞。",
+			say = "If so, that would reveal that we've attacked at a time when her defenses are incomplete. There will be no better time than now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "聪明反被聪明误。",
+			say = "*hic*... So she back hired?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，没错，真是聪明反被聪明误。",
+			say = "Haha! Her plan backfired, you mean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "一路打过去，消灭敌人，破坏要塞，让天气好一些……",
+			say = "Okay. So we fight the bad guys, destroy the device, and that'll fix the weather.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "破坏了要塞，天气就能好起来了吧……？",
+			say = "That will actually fix the weather, right...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "理论上是这样的，这座塞壬的楚科奇海要塞大概率就是清除者用于操纵极地天气的气象武器的所在地。",
+			say = "We can't be certain. But given the scale and our intelligence, we have good reason to believe that the main device is in the fortress we are targeting now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是路上的风雪，唔——好大的风！",
+			say = "Then let's hurry—Aaaah! The wind...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "洪亮奋力按住头上的帽子，狂乱的风雪似乎要彻底抹去这支舰队一般猛烈的吹着。",
+			say = "Gromky held her hat down and tried her hardest to fight the wind, but the wild blizzard seemed unwilling to allow the fleet's advance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "不赶到要塞就不能停止暴风雪，但是暴风雪一直吹就没法走到要塞……",
+			say = "We can't stop the snow unless we reach the fortress, but we can't get there in this blizzard...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们倒是有一个秘密装置可以用~",
+			say = "Don't worry. I have a way to deal with this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "秘密装置？",
+			say = "Huh? Like a secret weapon?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "科研部门将其命名为“便携式气象稳定装置”。",
+			say = "That's right. Though only for a short time, this device will allow us to resist the Sirens' extreme weather.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要开启这个装置的话，就可以抑制恶劣的风雪天气对于我们的影响。",
+			say = "The Portable Weather Stabilizer... When activated, it should reduce the impact of this extreme weather on us somewhat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "“便携式气象稳定装置”……是什么？",
+			say = "Portable... Whuh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好像是由冻土改造装置改装而成的便携式加热阵列，被放置在多艘特制的量产型上……",
+			say = "I don't know its inner workings myself, but according to Voroshilov, it seems to be made to \"modify the climate of a permafrost environment to make it livable\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "“冻土改造装置”……是什么？",
+			say = "Modify the... Bwuh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……你就简单理解成我们的便携式气象武器好了~",
+			say = "Kronshtadt simplified it as such: \"an easy-to-use weapon for the Northern Parliament to level the playing field a little bit.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过为了便携而牺牲了稳定性，需要严格限制使用时间。",
+			say = "That said, due to their size, they can only be installed on mass-produced ships. Their energy usage means that we can't use them for long, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体开启时机由我来把控，等到关键的时候可以打敌人一个措手不及。",
+			say = "I will decide when to activate them. When I do, we charge through all at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过路上就只好先忍耐一下了……",
+			say = "Unfortunately, we will have to weather the storm for the rest of the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同志们，这是对我们意志的锤炼，即便没有它的帮助，也不能阻挡我们前进的脚步。",
+			say = "Consider it a trial that tests our will to pursue victory. Let them know that the Northern Parliament's charge cannot be stopped, with or without this device!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一次势必要让塞壬付出代价！",
+			say = "On this day, we will show the Sirens our true strength!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "好，威严忍耐，忍耐到能揍扁塞壬的时候……",
+			say = "Yeeeah! I'll do my best to hold out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "Ура————！",
+			say = "Ura! Me, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1

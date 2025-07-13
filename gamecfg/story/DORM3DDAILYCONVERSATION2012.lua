@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欸？我最近在房间里的时间变多了吗？有、有吗？",
+			say = "Huh? I'm been spending a lot more time in my quarters lately? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "从日程表上看，待在房间里的时间也只多了……唔……60%……",
+			say = "Let's have a look at my schedule... Hmm... Yes, my time here has gone up by... 60%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……因为我想多陪在{dorm3d}的身边，所以就调整对应的安排……",
+			say = "I want to spend time with you, so I adjusted my schedule accordingly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这么看的话，{dorm3d}待在这里的时间，是不是……也变多了？",
+			say = "On that note... haven't YOU been spending more time here, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -207,11 +207,11 @@ pg.base = pg.base or {}
 pg.base.guild_base_event = {
 	[1001] = {
 		workload = 907200,
-		name = "北方海域清扫作战",
+		name = "North Sector Cleanup Operation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "1_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -219,7 +219,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1001,
-		ship_camp_display = "米德维北方近海(白鹰角色评价加成)",
+		ship_camp_display = "Northern Coast of Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -267,18 +267,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1002] = {
 		workload = 907200,
-		name = "南方海域清扫作战",
+		name = "Southern Sector Cleanup Operation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "1_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -286,7 +286,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1002,
-		ship_camp_display = "米德维南方近海(白鹰角色评价加成)",
+		ship_camp_display = "Southern Coast of Miday (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -334,18 +334,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1003] = {
 		workload = 1209600,
-		name = "波尔港航路清扫",
+		name = "Pearl Harbor Route Clearance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "1_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -353,7 +353,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1003,
-		ship_camp_display = "波尔港-米德维航路(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor - Midway Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -402,18 +402,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1004] = {
 		workload = 1209600,
-		name = "航迹岛航路清扫",
+		name = "Wake Island Route Clearance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "1_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -421,7 +421,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1004,
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Wake Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -470,18 +470,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1005] = {
 		workload = 907200,
-		name = "波尔港物资接收护卫",
+		name = "Pearl Harbor Supply Delivery Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -489,7 +489,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1005,
-		ship_camp_display = "波尔港方向海域(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor Regional Waters (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -533,18 +533,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1006] = {
 		workload = 907200,
-		name = "航迹岛物资运输护卫",
+		name = "Wake Island Supply Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -552,7 +552,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1006,
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Wake Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -596,18 +596,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1007] = {
 		workload = 907200,
-		name = "波尔港飞机接收护卫",
+		name = "Pearl Harbor Aircraft Delivery Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "飞机运输(驱逐、轻母效率加成)",
+		ship_type_display = "Aircraft Transport (DD, CVL increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -615,7 +615,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1007,
-		ship_camp_display = "波尔港方向海域(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor Regional Waters (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -663,18 +663,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1008] = {
 		workload = 907200,
-		name = "航迹岛飞机运输护卫",
+		name = "Wake Island Aircraft Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "飞机运输(驱逐、轻母效率加成)",
+		ship_type_display = "Aircraft Transport (DD, CVL increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -682,7 +682,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1008,
-		ship_camp_display = "米德维-航迹岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Wake Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -730,18 +730,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1009] = {
 		workload = 604800,
-		name = "米德维近海巡逻",
+		name = "Coast of Midway Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -749,7 +749,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1009,
-		ship_camp_display = "米德维近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -792,18 +792,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1010] = {
 		workload = 604800,
-		name = "波尔港近海巡逻",
+		name = "Coast of Pearl Harbor Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -811,7 +811,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1010,
-		ship_camp_display = "波尔港近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Pearl Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -854,18 +854,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1011] = {
 		workload = 604800,
-		name = "查尔斯环礁海域巡逻",
+		name = "Johnston Island Sector Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -873,7 +873,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1011,
-		ship_camp_display = "查尔斯环礁近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Johnston Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -916,18 +916,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1012] = {
 		workload = 604800,
-		name = "航迹岛海域巡逻",
+		name = "Wake Island Sector Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -935,7 +935,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1012,
-		ship_camp_display = "航迹岛近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Wake Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -978,18 +978,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1013] = {
 		workload = 1058400,
-		name = "玛丽安娜群岛侦察",
+		name = "Northern Mariana Islands Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "1_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -997,7 +997,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1013,
-		ship_camp_display = "玛丽安娜群岛(白鹰角色评价加成)",
+		ship_camp_display = "Northern Mariana Islands (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -1046,18 +1046,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1014] = {
 		workload = 756000,
-		name = "米德维岛南部海域侦察",
+		name = "Midway South Sector Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "1_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -1065,7 +1065,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1014,
-		ship_camp_display = "米德维南方海域(白鹰角色评价加成)",
+		ship_camp_display = "Sector South of Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -1113,18 +1113,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1015] = {
 		workload = 1058400,
-		name = "莫沙尔群岛侦察",
+		name = "Marshall Islands Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "1_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -1132,7 +1132,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1015,
-		ship_camp_display = "莫沙尔群岛(白鹰角色评价加成)",
+		ship_camp_display = "Marshall Islands (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -1181,26 +1181,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1101] = {
 		workload = 1512000,
-		name = "新楠塔基特岛航路清扫",
+		name = "Baker Island Route Clearance",
 		base_point = 10,
 		extra_squadron = "Brooklyn-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "1_1",
-		extra_squadron_display = "特殊编制：布鲁克林级轻巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Brooklyn-class CL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1101,
-		ship_camp_display = "米德维-新楠塔基特岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Baker Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -1257,26 +1257,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1102] = {
 		workload = 1512000,
-		name = "查尔斯环礁航路清扫",
+		name = "Johnston Island Route Clearance",
 		base_point = 10,
 		extra_squadron = "Northampton-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "1_1",
-		extra_squadron_display = "特殊编制：北安普敦级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northampton-class CA or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1102,
-		ship_camp_display = "米德维-查尔斯环礁航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Johnston Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1333,26 +1333,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1103] = {
 		workload = 1058400,
-		name = "古阿姆岛护航任务",
+		name = "Guam Escort Mission",
 		base_point = 10,
 		extra_squadron = "Fletcher-Class",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "1_2",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Fletcher-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1103,
-		ship_camp_display = "米德维-古阿姆岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Guam Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -1408,26 +1408,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1104] = {
 		workload = 1058400,
-		name = "新楠塔基特岛护航任务",
+		name = "Baker Island Escort Mission",
 		base_point = 10,
 		extra_squadron = "Cleveland-Class",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "1_2",
-		extra_squadron_display = "特殊编制：克利夫兰级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Cleveland-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1104,
-		ship_camp_display = "米德维-新楠塔基特岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Baker Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1483,26 +1483,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1105] = {
 		workload = 756000,
-		name = "查尔斯环礁护航任务",
+		name = "Johnston Island Escort Mission",
 		base_point = 10,
 		extra_squadron = "Benson-Class",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "1_2",
-		extra_squadron_display = "特殊编制：本森级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Benson-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1105,
-		ship_camp_display = "米德维-查尔斯环礁航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Johnston Island Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -1557,26 +1557,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1106] = {
 		workload = 756000,
-		name = "西部海岸护航任务",
+		name = "West Coast Escort Mission",
 		base_point = 10,
 		extra_squadron = "Omaha-Class",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "1_2",
-		extra_squadron_display = "特殊编制：奥马哈级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Omaha-class CL or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1106,
-		ship_camp_display = "米德维-白鹰本土航路(白鹰角色评价加成)",
+		ship_camp_display = "Midway - Eagle Union Mainland Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1631,26 +1631,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1107] = {
 		workload = 907200,
-		name = "利亚辛海域警戒",
+		name = "Lisianski Island Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "Sims-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：西姆斯级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Sims-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1107,
-		ship_camp_display = "利亚辛岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Lisianski Island Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1705,26 +1705,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1108] = {
 		workload = 1058400,
-		name = "莱珊海域警戒",
+		name = "Laysan Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "Gridley-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：格里德利级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Gridley-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1108,
-		ship_camp_display = "莱珊岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Laysan (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1780,26 +1780,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1109] = {
 		workload = 1209600,
-		name = "爱丽丝环礁海域警戒",
+		name = "Kure Atoll Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "Pensacola-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：彭萨科拉级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Pensacola-class CA or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1109,
-		ship_camp_display = "鸢尾环礁海域(白鹰角色评价加成)",
+		ship_camp_display = "Kure Atoll Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1855,26 +1855,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1110] = {
 		workload = 1058400,
-		name = "玛库纳马纳海域警戒",
+		name = "Necker Island Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "Farragut-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：法拉格特级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Farragut-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1110,
-		ship_camp_display = "玛库纳马纳岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Necker Island Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -1930,26 +1930,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1111] = {
 		workload = 907200,
-		name = "尼阿霍海域警戒",
+		name = "Nihoa Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "Mahan-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：马汉级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Mahan-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1111,
-		ship_camp_display = "尼阿霍岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Nihoa Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -2004,26 +2004,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1112] = {
 		workload = 756000,
-		name = "北方海域侦察",
+		name = "North Sector Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Fletcher-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Fletcher-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1112,
-		ship_camp_display = "米德维北方海域(白鹰角色评价加成)",
+		ship_camp_display = "Sector North of Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -2074,26 +2074,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1113] = {
 		workload = 907200,
-		name = "查尔斯环礁南部海域侦察",
+		name = "Johnston Island South Sector Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Benson-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：本森级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Benson-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1113,
-		ship_camp_display = "查尔斯环礁南方海域(白鹰角色评价加成)",
+		ship_camp_display = "Sector South of Johnston Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -2144,26 +2144,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1114] = {
 		workload = 1058400,
-		name = "新楠塔基特岛海域侦察",
+		name = "Baker Island Sector Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Lexington-Class",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "1_4",
-		extra_squadron_display = "特殊编制：列克星敦级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Lexington-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 1114,
-		ship_camp_display = "新楠塔基特岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Baker Island Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -2219,18 +2219,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[1201] = {
 		workload = 453600,
-		name = "米德维近海夜间警戒",
+		name = "Coast of Midway Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2238,7 +2238,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1201,
-		ship_camp_display = "米德维近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2281,18 +2281,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1202] = {
 		workload = 453600,
-		name = "波尔港近海夜间警戒",
+		name = "Coast of Pearl Harbor Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2300,7 +2300,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1202,
-		ship_camp_display = "波尔港近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Pearl Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2343,18 +2343,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1203] = {
 		workload = 453600,
-		name = "环礁海域夜间警戒",
+		name = "Atoll Sector Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2362,7 +2362,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1203,
-		ship_camp_display = "查尔斯环礁近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Johnston Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2405,18 +2405,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1204] = {
 		workload = 453600,
-		name = "航迹岛海域夜间警戒",
+		name = "Wake Island Sector Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "1_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2424,7 +2424,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1204,
-		ship_camp_display = "航迹岛近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Wake Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2467,18 +2467,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1205] = {
 		workload = 604800,
-		name = "米德维岛后勤整备",
+		name = "Midway Supply Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "Regional Logistics (AR increased efficiency)",
 		pic = "1_5",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2486,7 +2486,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1205,
-		ship_camp_display = "米德维岛(白鹰角色评价加成)",
+		ship_camp_display = "Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2529,18 +2529,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1206] = {
 		workload = 907200,
-		name = "波尔港后勤整备",
+		name = "Pearl Harbor Supply Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "Regional Logistics (AR increased efficiency)",
 		pic = "1_5",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -2548,7 +2548,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1206,
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2592,18 +2592,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1207] = {
 		workload = 1209600,
-		name = "波尔港舰装维修",
+		name = "Pearl Harbor Rigging Repair",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "1_5",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -2611,7 +2611,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1207,
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2656,18 +2656,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1208] = {
 		workload = 604800,
-		name = "米德维岛物资整备",
+		name = "Midway Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "1_5",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -2675,7 +2675,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1208,
-		ship_camp_display = "米德维岛(白鹰角色评价加成)",
+		ship_camp_display = "Midway (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2718,18 +2718,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[1209] = {
 		workload = 907200,
-		name = "波尔港物资整备",
+		name = "Pearl Harbor Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "1_5",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -2737,7 +2737,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 1209,
-		ship_camp_display = "波尔港(白鹰角色评价加成)",
+		ship_camp_display = "Pearl Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2781,18 +2781,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2001] = {
 		workload = 1209600,
-		name = "NA海域西南护航战",
+		name = "North Atlantic SW Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -2800,7 +2800,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2001,
-		ship_camp_display = "NA海域西南(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic SW Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2849,18 +2849,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2002] = {
 		workload = 1209600,
-		name = "NA海域东南护航战",
+		name = "North Atlantic SE Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(重巡、战列效率加成)",
+		ship_type_display = "Zone Control (CA, BB increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -2868,7 +2868,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2002,
-		ship_camp_display = "NA海域东南(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic SE Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2917,18 +2917,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2003] = {
 		workload = 1209600,
-		name = "NA海域西北护航战",
+		name = "North Atlantic NW Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、航母效率加成)",
+		ship_type_display = "Zone Control (CL, CV increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -2936,7 +2936,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2003,
-		ship_camp_display = "NA海域西北(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic NW Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -2985,18 +2985,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2004] = {
 		workload = 1209600,
-		name = "NA海域东北护航战",
+		name = "North Atlantic NE Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、战列效率加成)",
+		ship_type_display = "Zone Control (CL, BB increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3004,7 +3004,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2004,
-		ship_camp_display = "NA海域东北(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic NE Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3053,18 +3053,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2005] = {
 		workload = 1209600,
-		name = "NA海域西部护航战",
+		name = "North Atlantic West Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3072,7 +3072,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2005,
-		ship_camp_display = "NA海域西部(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic West Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3121,18 +3121,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2006] = {
 		workload = 1209600,
-		name = "NA海域东部护航战",
+		name = "North Atlantic East Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(重巡、战列效率加成)",
+		ship_type_display = "Zone Control (CA, BB increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3140,7 +3140,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2006,
-		ship_camp_display = "NA海域东部(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic East Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3189,18 +3189,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2007] = {
 		workload = 1209600,
-		name = "NA海域北部护航战",
+		name = "North Atlantic North Sector Escort Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "2_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3208,7 +3208,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2007,
-		ship_camp_display = "NA海域北部(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic North Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3257,18 +3257,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2008] = {
 		workload = 1209600,
-		name = "极地航线西段护卫",
+		name = "Polar Route West Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3276,7 +3276,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2008,
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_camp_display = "NY City - Murmansk Route (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3325,18 +3325,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2009] = {
 		workload = 756000,
-		name = "LD至SP西段护卫",
+		name = "LD - SP Route West Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3344,7 +3344,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2009,
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Northern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3388,18 +3388,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2010] = {
 		workload = 756000,
-		name = "NY至LD西段护卫",
+		name = "NY - LD Route West Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3407,7 +3407,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2010,
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Southern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3451,18 +3451,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2011] = {
 		workload = 1209600,
-		name = "极地航线东段护卫",
+		name = "Polar Route East Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -3470,7 +3470,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2011,
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_camp_display = "NY City - Murmansk Route (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3519,18 +3519,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2012] = {
 		workload = 756000,
-		name = "LD至SP东段护卫",
+		name = "LD - SP Route East Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3538,7 +3538,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2012,
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Northern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3582,18 +3582,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2013] = {
 		workload = 756000,
-		name = "NY至LD东段护卫",
+		name = "NY - LD Route East Sector Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3601,7 +3601,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2013,
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Southern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3645,18 +3645,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2014] = {
 		workload = 604800,
-		name = "NY近海巡逻",
+		name = "Coast of NY City Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -3664,7 +3664,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2014,
-		ship_camp_display = "NY近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of NY City (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3707,18 +3707,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2015] = {
 		workload = 604800,
-		name = "王家海峡巡逻",
+		name = "Royal Channel Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -3726,7 +3726,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2015,
-		ship_camp_display = "王家海峡(皇家角色评价加成)",
+		ship_camp_display = "Royal Channel (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3769,18 +3769,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2016] = {
 		workload = 604800,
-		name = "摩斯科尔曼近海巡逻",
+		name = "Coast of Murmansk Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域巡逻(驱逐效率加成)",
+		ship_type_display = "Zone Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -3788,7 +3788,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2016,
-		ship_camp_display = "摩斯科尔曼(北联角色评价加成)",
+		ship_camp_display = "Murmansk (Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3831,18 +3831,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2017] = {
 		workload = 907200,
-		name = "萨默斯群岛侦察",
+		name = "Bermuda Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3850,7 +3850,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2017,
-		ship_camp_display = "萨默斯群岛(白鹰角色评价加成)",
+		ship_camp_display = "Bermuda (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3898,18 +3898,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2018] = {
 		workload = 907200,
-		name = "简·梅恩岛侦察",
+		name = "Jan Mayen Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3917,7 +3917,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2018,
-		ship_camp_display = "简·梅恩岛(皇家角色评价加成)",
+		ship_camp_display = "Jan Mayen (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -3965,18 +3965,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2019] = {
 		workload = 907200,
-		name = "拉布多拉海侦察",
+		name = "Labrador Sea Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -3984,7 +3984,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2019,
-		ship_camp_display = "拉布多拉海(皇家角色评价加成)",
+		ship_camp_display = "Labrador Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -4028,18 +4028,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2020] = {
 		workload = 907200,
-		name = "巴伦支海侦察",
+		name = "Barents Sea Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -4047,7 +4047,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2020,
-		ship_camp_display = "巴伦支海(北联角色评价加成)",
+		ship_camp_display = "Barents Sea (Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -4091,18 +4091,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2021] = {
 		workload = 907200,
-		name = "诺斯克哈维特海侦察",
+		name = "Norskehavet Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -4110,7 +4110,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2021,
-		ship_camp_display = "诺斯克哈维特海(皇家角色评价加成)",
+		ship_camp_display = "Norskehavet (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -4154,26 +4154,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2101] = {
 		workload = 1512000,
-		name = "拉布多拉护航战",
+		name = "Labrador Sea Escort Battle",
 		base_point = 10,
 		extra_squadron = "Leander-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "2_1",
-		extra_squadron_display = "特殊编制：利安得级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Leander-class CL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2101,
-		ship_camp_display = "拉布多拉海(皇家角色评价加成)",
+		ship_camp_display = "Labrador Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4230,26 +4230,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2102] = {
 		workload = 1512000,
-		name = "诺斯克哈维特护航战",
+		name = "Norskehavet Escort Battle",
 		base_point = 10,
 		extra_squadron = "Nelson-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、战列效率加成)",
+		ship_type_display = "Zone Control (CL, BB increased efficiency)",
 		pic = "2_1",
-		extra_squadron_display = "特殊编制：纳尔逊级战列舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Nelson-class BB or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2102,
-		ship_camp_display = "诺斯克哈维特海(皇家角色评价加成)",
+		ship_camp_display = "Norskehavet (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4306,26 +4306,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2103] = {
 		workload = 1512000,
-		name = "巴伦支海护航战",
+		name = "Barents Sea Escort Battle",
 		base_point = 10,
 		extra_squadron = "Northern Union-DD",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "2_1",
-		extra_squadron_display = "特殊编制：北联所属驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northern Parliament Aff. DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2103,
-		ship_camp_display = "巴伦支海(皇家、北联角色评价加成)",
+		ship_camp_display = "Barents Sea (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4386,26 +4386,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2104] = {
 		workload = 1512000,
-		name = "圣洛伦茨湾护航战",
+		name = "Gulf of Saint Lawrence Escort Battle",
 		base_point = 10,
 		extra_squadron = "County-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "2_1",
-		extra_squadron_display = "特殊编制：郡级重巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 County-class CA or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2104,
-		ship_camp_display = "圣洛伦茨湾(皇家角色评价加成)",
+		ship_camp_display = "Gulf of Saint Lawrence (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -4462,26 +4462,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2105] = {
 		workload = 1209600,
-		name = "极地航线中段护卫",
+		name = "Polar Route Central Sector Escort",
 		base_point = 10,
 		extra_squadron = "Northern Union-DD",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
-		extra_squadron_display = "特殊编制：北联所属驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northern Parliament Aff. DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2105,
-		ship_camp_display = "NY-摩斯科尔曼航线(皇家、北联角色评价加成)",
+		ship_camp_display = "NY City - Murmansk Route (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4537,26 +4537,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2106] = {
 		workload = 756000,
-		name = "LD至SP中段护卫",
+		name = "LD - SP Route Central Sector Escort",
 		base_point = 10,
 		extra_squadron = "C-Class",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
-		extra_squadron_display = "特殊编制：C级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 C-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2106,
-		ship_camp_display = "NY-利维浦北方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Northern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -4607,26 +4607,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2107] = {
 		workload = 756000,
-		name = "NY至LD中段护卫",
+		name = "NY - LD Route Central Sector Escort",
 		base_point = 10,
 		extra_squadron = "B-Class",
 		class = 3,
-		ship_type_display = "商路护航(驱逐效率加成)",
+		ship_type_display = "Shipping Escort (DD increased efficiency)",
 		pic = "2_2",
-		extra_squadron_display = "特殊编制：B级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 B-class DD or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2107,
-		ship_camp_display = "NY-利维浦南方航线(皇家角色评价加成)",
+		ship_camp_display = "NY City - Liverpool Southern Route (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4677,26 +4677,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2108] = {
 		workload = 1058400,
-		name = "林鸽群岛警戒",
+		name = "Azores Monitoring",
 		base_point = 10,
 		extra_squadron = "J-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CL increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：J级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 J-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2108,
-		ship_camp_display = "林鸽群岛(皇家角色评价加成)",
+		ship_camp_display = "Azores (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -4752,26 +4752,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2109] = {
 		workload = 1058400,
-		name = "凯尔特海警戒",
+		name = "Celtic Sea Monitoring",
 		base_point = 10,
 		extra_squadron = "F-Class",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CL increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 F-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2109,
-		ship_camp_display = "凯尔特海(皇家角色评价加成)",
+		ship_camp_display = "Celtic Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4827,26 +4827,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2110] = {
 		workload = 1058400,
-		name = "北方海域警戒",
+		name = "North Sector Monitoring",
 		base_point = 10,
 		extra_squadron = "County-Class",
 		class = 6,
-		ship_type_display = "海域警戒(重巡、战列效率加成)",
+		ship_type_display = "Zone Monitoring (CA, BB increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：郡级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 County-class CA or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2110,
-		ship_camp_display = "NY海域北部(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic North Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4902,26 +4902,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2111] = {
 		workload = 1058400,
-		name = "白海警戒",
+		name = "White Sea Monitoring",
 		base_point = 10,
 		extra_squadron = "Town-Class",
 		class = 6,
-		ship_type_display = "海域警戒(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (CL, CA increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：城级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Town-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2111,
-		ship_camp_display = "白海(皇家角色评价加成)",
+		ship_camp_display = "White Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -4977,26 +4977,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2112] = {
 		workload = 1058400,
-		name = "冲沙湾警戒",
+		name = "Chosha Bay Monitoring",
 		base_point = 10,
 		extra_squadron = "Northern Union-CL",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CL increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：北联所属轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northern Parliament Aff. CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2112,
-		ship_camp_display = "冲沙湾(皇家、北联角色评价加成)",
+		ship_camp_display = "Chosha Bay (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -5056,26 +5056,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2113] = {
 		workload = 1058400,
-		name = "绍伯拉海警戒",
+		name = "Pechora Bay Monitoring",
 		base_point = 10,
 		extra_squadron = "Northern Union-CL",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CL increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：北联所属轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northern Parliament Aff. CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2113,
-		ship_camp_display = "绍伯拉海(皇家、北联角色评价加成)",
+		ship_camp_display = "Pechora Bay (Royal Navy, Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -5135,26 +5135,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2114] = {
 		workload = 1360800,
-		name = "绿地海深处侦察",
+		name = "Depths of the Greenland Sea Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Royal Fleet-CVL",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Royal Navy Aff. CVL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2114,
-		ship_camp_display = "绿地海深处(皇家角色评价加成)",
+		ship_camp_display = "Depths of the Greenland Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -5211,26 +5211,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2115] = {
 		workload = 1360800,
-		name = "NA海域深处侦察",
+		name = "Depths of the North Atlantic Reconnaissance",
 		base_point = 10,
 		extra_squadron = "F-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 F-class DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2115,
-		ship_camp_display = "NA海域中心(皇家角色评价加成)",
+		ship_camp_display = "North Atlantic Central Sector (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -5287,26 +5287,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2116] = {
 		workload = 1360800,
-		name = "巴弗因湾侦察",
+		name = "Baffin Bay Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Eagle Union-CVL",
 		class = 7,
-		ship_type_display = "海域侦察(轻母、航母效率加成)",
+		ship_type_display = "Zone Reconnaissance (CVL, CV increased efficiency)",
 		pic = "2_4",
-		extra_squadron_display = "特殊编制：白鹰所属轻型航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Eagle Union Aff. CVL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 2116,
-		ship_camp_display = "巴弗因湾(白鹰、皇家角色评价加成)",
+		ship_camp_display = "Baffin Bay (Eagle Union, Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -5367,18 +5367,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2201] = {
 		workload = 453600,
-		name = "NY近海夜间警戒",
+		name = "Coast of NY City Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -5386,7 +5386,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2201,
-		ship_camp_display = "NY近海(白鹰角色评价加成)",
+		ship_camp_display = "Coast of NY City (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5429,18 +5429,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2202] = {
 		workload = 453600,
-		name = "王家海峡夜间警戒",
+		name = "Royal Channel Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -5448,7 +5448,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2202,
-		ship_camp_display = "王家海峡(皇家角色评价加成)",
+		ship_camp_display = "Royal Channel (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5491,18 +5491,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2203] = {
 		workload = 453600,
-		name = "摩斯科尔曼夜间警戒",
+		name = "Murmansk Night Patrol",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "夜间巡逻(驱逐效率加成)",
+		ship_type_display = "Night Patrol (DD increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -5510,7 +5510,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2203,
-		ship_camp_display = "摩斯科尔曼(北联角色评价加成)",
+		ship_camp_display = "Murmansk (Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5553,18 +5553,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[2204] = {
 		workload = 907200,
-		name = "贝尔岛侦察",
+		name = "Bear Island Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5572,7 +5572,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2204,
-		ship_camp_display = "贝尔岛(北联角色评价加成)",
+		ship_camp_display = "Bear Island (Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5620,18 +5620,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2205] = {
 		workload = 907200,
-		name = "霍本岛侦察",
+		name = "Hopen Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5639,7 +5639,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2205,
-		ship_camp_display = "霍本岛(北联角色评价加成)",
+		ship_camp_display = "Hopen (Northern Parliament Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5687,18 +5687,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2206] = {
 		workload = 907200,
-		name = "圣洛伦茨湾侦察",
+		name = "Gulf of Saint Lawrence Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5706,7 +5706,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2206,
-		ship_camp_display = "圣洛伦茨湾(皇家角色评价加成)",
+		ship_camp_display = "Gulf of Saint Lawrence (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5750,18 +5750,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[2207] = {
 		workload = 907200,
-		name = "卡坦布里安海侦察",
+		name = "Cantabrian Sea Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD increased efficiency)",
 		pic = "2_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5769,7 +5769,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 2207,
-		ship_camp_display = "卡坦布里安海(皇家角色评价加成)",
+		ship_camp_display = "Cantabrian Sea (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5813,18 +5813,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3001] = {
 		workload = 907200,
-		name = "西部峡湾海战",
+		name = "Vest Fjord Sea Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CL increased efficiency)",
 		pic = "3_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5832,7 +5832,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3001,
-		ship_camp_display = "西部峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Vest Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5884,18 +5884,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3002] = {
 		workload = 907200,
-		name = "哈特里岛海域遭遇战",
+		name = "Hitra Encounter Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CL increased efficiency)",
 		pic = "3_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5903,7 +5903,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3002,
-		ship_camp_display = "哈特里岛海域(皇家、铁血角色评价加成)",
+		ship_camp_display = "Hitra (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -5955,18 +5955,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3003] = {
 		workload = 907200,
-		name = "伯克纳峡湾海战",
+		name = "Bokna Fjord Sea Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CL increased efficiency)",
 		pic = "3_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -5974,7 +5974,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3003,
-		ship_camp_display = "伯克纳峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Bokna Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6026,18 +6026,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3004] = {
 		workload = 907200,
-		name = "北海海战",
+		name = "North Sea Sea Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "3_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6045,7 +6045,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3004,
-		ship_camp_display = "北海(皇家、铁血角色评价加成)",
+		ship_camp_display = "North Sea (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6097,18 +6097,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3005] = {
 		workload = 907200,
-		name = "尼尔瓦克运输线破袭",
+		name = "Narvik Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "Supply Disruption (CA, BB increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6116,7 +6116,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3005,
-		ship_camp_display = "尼德罗斯-尼尔瓦克航路(铁血角色评价加成)",
+		ship_camp_display = "Trondheim - Narvik Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6164,18 +6164,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3006] = {
 		workload = 907200,
-		name = "南索斯运输线破袭",
+		name = "Namsos Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "Supply Disruption (CA, BB increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6183,7 +6183,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3006,
-		ship_camp_display = "尼德罗斯-南索斯航路(铁血角色评价加成)",
+		ship_camp_display = "Trondheim - Namsos Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6231,18 +6231,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3007] = {
 		workload = 907200,
-		name = "夸特运输线破袭",
+		name = "Kristiansand Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "Supply Disruption (CA, BB increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6250,7 +6250,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3007,
-		ship_camp_display = "阿克斯胡斯-夸特航路(铁血角色评价加成)",
+		ship_camp_display = "Oslo - Kristiansand Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6298,18 +6298,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3008] = {
 		workload = 907200,
-		name = "斯特凡格运输线破袭",
+		name = "Stavanger Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "补给破坏(重巡、战列效率加成)",
+		ship_type_display = "Supply Disruption (CA, BB increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6317,7 +6317,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3008,
-		ship_camp_display = "布丽根-斯特凡格航路(铁血角色评价加成)",
+		ship_camp_display = "Bergen - Stavanger Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6365,18 +6365,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3009] = {
 		workload = 907200,
-		name = "尼尔瓦克港制海权夺取",
+		name = "Narvik Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6384,7 +6384,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3009,
-		ship_camp_display = "尼尔瓦克近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Narvik (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6436,18 +6436,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3010] = {
 		workload = 907200,
-		name = "南索斯港制海权夺取",
+		name = "Namsos Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6455,7 +6455,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3010,
-		ship_camp_display = "南索斯近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Namsos (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6507,18 +6507,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3011] = {
 		workload = 907200,
-		name = "夸特港制海权夺取",
+		name = "Kristiansand Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6526,7 +6526,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3011,
-		ship_camp_display = "夸特近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Kristiansand (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6578,18 +6578,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3012] = {
 		workload = 907200,
-		name = "斯特凡格港制海权夺取",
+		name = "Stavanger Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6597,7 +6597,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3012,
-		ship_camp_display = "斯特凡格近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Stavanger (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6649,18 +6649,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3013] = {
 		workload = 907200,
-		name = "尼尔瓦克港制空权夺取",
+		name = "Narvik Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6668,7 +6668,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3013,
-		ship_camp_display = "尼尔瓦克近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Narvik (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6712,18 +6712,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3014] = {
 		workload = 907200,
-		name = "南索斯港制空权夺取",
+		name = "Namsos Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6731,7 +6731,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3014,
-		ship_camp_display = "南索斯近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Namsos (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6775,18 +6775,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3015] = {
 		workload = 907200,
-		name = "夸特港制空权夺取",
+		name = "Kristiansand Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6794,7 +6794,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3015,
-		ship_camp_display = "夸特近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Kristiansand (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6838,18 +6838,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3016] = {
 		workload = 907200,
-		name = "斯特凡格港制空权夺取",
+		name = "Stavanger Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -6857,7 +6857,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3016,
-		ship_camp_display = "斯特凡格近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Stavanger (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6901,18 +6901,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3017] = {
 		workload = 1058400,
-		name = "奥福托峡湾侦察",
+		name = "Ofot Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -6920,7 +6920,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3017,
-		ship_camp_display = "奥福托峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Ofot Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -6973,18 +6973,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3018] = {
 		workload = 1058400,
-		name = "诺斯海峡侦察",
+		name = "Skagerrak Strait Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -6992,7 +6992,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3018,
-		ship_camp_display = "诺斯海峡(皇家、铁血角色评价加成)",
+		ship_camp_display = "Skagerrak Strait (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7045,18 +7045,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3019] = {
 		workload = 1058400,
-		name = "伯克纳峡湾侦察",
+		name = "Bokna Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -7064,7 +7064,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3019,
-		ship_camp_display = "伯克纳峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Bokna Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7117,18 +7117,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3020] = {
 		workload = 1058400,
-		name = "马特拉斯峡湾侦察",
+		name = "Mastra Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -7136,7 +7136,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3020,
-		ship_camp_display = "马特拉斯峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Mastra Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7189,18 +7189,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3021] = {
 		workload = 907200,
-		name = "布列斯特舰装维修",
+		name = "Brest Rigging Repair",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -7208,7 +7208,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3021,
-		ship_camp_display = "布列斯特港(皇家角色评价加成)",
+		ship_camp_display = "Brest Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7252,18 +7252,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3022] = {
 		workload = 907200,
-		name = "威尔海姆港舰装维修",
+		name = "Wilhelmshaven Harbor Rigging Repair",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -7271,7 +7271,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3022,
-		ship_camp_display = "威尔海姆港(铁血角色评价加成)",
+		ship_camp_display = "Wilhelmshaven Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7315,18 +7315,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3023] = {
 		workload = 756000,
-		name = "布列斯特物资整备",
+		name = "Brest Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -7334,7 +7334,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3023,
-		ship_camp_display = "布列斯特港(皇家角色评价加成)",
+		ship_camp_display = "Brest Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7378,18 +7378,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3024] = {
 		workload = 756000,
-		name = "威尔海姆港物资整备",
+		name = "Wilhelmshaven Harbor Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -7397,7 +7397,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3024,
-		ship_camp_display = "威尔海姆港(铁血角色评价加成)",
+		ship_camp_display = "Wilhelmshaven Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -7441,26 +7441,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3101] = {
 		workload = 1209600,
-		name = "萨特罗岛海域遭遇战",
+		name = "Gibraltar Sector Encounter Battle",
 		base_point = 10,
 		extra_squadron = "H-Class",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CL increased efficiency)",
 		pic = "3_2",
-		extra_squadron_display = "特殊编制：H级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 H-class DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3101,
-		ship_camp_display = "萨特罗岛海域(皇家、铁血角色评价加成)",
+		ship_camp_display = "Gibraltar Sector (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7520,26 +7520,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3102] = {
 		workload = 1209600,
-		name = "诺斯海峡海战",
+		name = "Skagerrak Strait Sea Battle",
 		base_point = 10,
 		extra_squadron = "Nelson-Class",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "3_2",
-		extra_squadron_display = "特殊编制：纳尔逊级战列舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Nelson-class BB or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3102,
-		ship_camp_display = "诺斯海峡(皇家、铁血角色评价加成)",
+		ship_camp_display = "Skagerrak Strait (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7599,26 +7599,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3103] = {
 		workload = 1209600,
-		name = "尼德罗斯运输线破袭",
+		name = "Trondheim Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "U-boat",
 		class = 4,
-		ship_type_display = "补给破坏(重巡、潜艇效率加成)",
+		ship_type_display = "Supply Disruption (CA, SS increased efficiency)",
 		pic = "3_3",
-		extra_squadron_display = "特殊编制：U型潜艇2艘以上",
+		extra_squadron_display = "Special Composition: 2 U-Boat SS or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3103,
-		ship_camp_display = "尼尔瓦克-尼德罗斯航路(铁血角色评价加成)",
+		ship_camp_display = "Narvik - Trondheim Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7674,26 +7674,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3104] = {
 		workload = 1209600,
-		name = "布丽根运输线破袭",
+		name = "Bergen Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "U-boat",
 		class = 4,
-		ship_type_display = "补给破坏(轻巡、重巡效率加成)",
+		ship_type_display = "Supply Disruption (CL, CA increased efficiency)",
 		pic = "3_3",
-		extra_squadron_display = "特殊编制：U型潜艇2艘以上",
+		extra_squadron_display = "Special Composition: 2 U-Boat SS or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3104,
-		ship_camp_display = "南索斯-布丽根航路(铁血角色评价加成)",
+		ship_camp_display = "Namsos - Bergen (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7749,26 +7749,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3105] = {
 		workload = 1209600,
-		name = "阿克斯胡斯运输线破袭",
+		name = "Oslo Transport Route Disruption",
 		base_point = 10,
 		extra_squadron = "Admiral Hipper-Class",
 		class = 4,
-		ship_type_display = "补给破坏(轻巡、重巡效率加成)",
+		ship_type_display = "Supply Disruption (CL, CA increased efficiency)",
 		pic = "3_3",
-		extra_squadron_display = "特殊编制：{namecode:425}级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Admiral Hipper-class CA or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3105,
-		ship_camp_display = "夸特-阿克斯胡斯航路(铁血角色评价加成)",
+		ship_camp_display = "Kristiansand - Oslo (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7824,26 +7824,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3106] = {
 		workload = 1209600,
-		name = "尼德罗斯港制海权夺取",
+		name = "Trondheim Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "Leander-Class",
 		class = 5,
-		ship_type_display = "炮击港口(轻巡、重巡效率加成)",
+		ship_type_display = "Harbor Bombardment (CL, CA increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：利安得级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Leander-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3106,
-		ship_camp_display = "尼德罗斯近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Trondheim (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7903,26 +7903,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3107] = {
 		workload = 1209600,
-		name = "布丽根港制海权夺取",
+		name = "Bergen Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "Konigsberg-Class",
 		class = 5,
-		ship_type_display = "炮击港口(轻巡、战巡效率加成)",
+		ship_type_display = "Harbor Bombardment (CL, BC increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：{namecode:421}级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Königsberg-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3107,
-		ship_camp_display = "布丽根近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Bergen (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -7982,26 +7982,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3108] = {
 		workload = 1209600,
-		name = "阿克斯胡斯港制海权夺取",
+		name = "Oslo Harbor Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "Admiral Hipper-Class",
 		class = 5,
-		ship_type_display = "炮击港口(重巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (CA, BB increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：{namecode:425}级重巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Admiral Hipper-class CA or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3108,
-		ship_camp_display = "阿克斯胡斯近海(皇家、铁血角色评价加成)",
+		ship_camp_display = "Coast of Oslo (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -8061,26 +8061,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3109] = {
 		workload = 1209600,
-		name = "尼德罗斯港制空权夺取",
+		name = "Trondheim Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Illustrious-Class",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：光辉级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Illustrious-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3109,
-		ship_camp_display = "尼德罗斯近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Trondheim (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -8132,26 +8132,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3110] = {
 		workload = 1209600,
-		name = "布丽根港制空权夺取",
+		name = "Bergen Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Illustrious-Class",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：光辉级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Illustrious-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3110,
-		ship_camp_display = "布丽根近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Bergen (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -8203,26 +8203,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3111] = {
 		workload = 1209600,
-		name = "阿克斯胡斯港制空权夺取",
+		name = "Oslo Harbor Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Illustrious-Class",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "3_1",
-		extra_squadron_display = "特殊编制：光辉级航空母舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Illustrious-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3111,
-		ship_camp_display = "阿克斯胡斯近海(皇家角色评价加成)",
+		ship_camp_display = "Coast of Oslo (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -8274,26 +8274,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3112] = {
 		workload = 1360800,
-		name = "尼德罗斯峡湾侦察",
+		name = "Trondheim Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Royal Fleet-CVL",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Royal Navy Aff. CVL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3112,
-		ship_camp_display = "尼德罗斯峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Trondheim Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -8354,26 +8354,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3113] = {
 		workload = 1360800,
-		name = "森弗峡湾侦察",
+		name = "Fens Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "F-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
-		extra_squadron_display = "特殊编制：F级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 F-class DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3113,
-		ship_camp_display = "森弗峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Fens Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -8434,26 +8434,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3114] = {
 		workload = 1360800,
-		name = "巴约纳峡湾侦察",
+		name = "Bjørna Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "C-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
-		extra_squadron_display = "特殊编制：C级驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 C-class DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3114,
-		ship_camp_display = "巴约纳峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Bjørna Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -8514,26 +8514,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3115] = {
 		workload = 1360800,
-		name = "阿克斯胡斯峡湾侦察",
+		name = "Oslo Fjord Reconnaissance",
 		base_point = 10,
 		extra_squadron = "Royal Fleet-CVL",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "3_4",
-		extra_squadron_display = "特殊编制：皇家所属轻型航空母舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Royal Navy Aff. CVL or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 3115,
-		ship_camp_display = "阿克斯胡斯峡湾(皇家、铁血角色评价加成)",
+		ship_camp_display = "Oslo Fjord (Royal Navy, Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -8594,18 +8594,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[3201] = {
 		workload = 756000,
-		name = "布列斯特运输护航",
+		name = "Brest Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -8613,7 +8613,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3201,
-		ship_camp_display = "布列斯特近海航路(皇家角色评价加成)",
+		ship_camp_display = "Coastal Route via Brest (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8661,18 +8661,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3202] = {
 		workload = 756000,
-		name = "威尔海姆港运输护航",
+		name = "Wilhelmshaven Harbor Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -8680,7 +8680,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3202,
-		ship_camp_display = "威尔海姆近海航路(铁血角色评价加成)",
+		ship_camp_display = "Coastal Route via Wilhelmshaven (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8728,18 +8728,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3203] = {
 		workload = 1058400,
-		name = "利维浦运输护航",
+		name = "Liverpool Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -8747,7 +8747,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3203,
-		ship_camp_display = "利维浦近海航路(皇家角色评价加成)",
+		ship_camp_display = "Coastal Route via Liverpool (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8796,18 +8796,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3204] = {
 		workload = 1058400,
-		name = "霍尔斯坦港运输护航",
+		name = "Kiel Harbor Transport Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 3,
-		ship_type_display = "舰队护航(驱逐、轻巡效率加成)",
+		ship_type_display = "Fleet Escort (DD, CL increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -8815,7 +8815,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3204,
-		ship_camp_display = "霍尔斯坦近海航路(铁血角色评价加成)",
+		ship_camp_display = "Coastal Route via Kiel (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8864,18 +8864,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3205] = {
 		workload = 604800,
-		name = "尼尔瓦克运输拦截",
+		name = "Narvik Transport Blockade",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "Logistics Blockade (CL, BC increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -8883,7 +8883,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3205,
-		ship_camp_display = "尼德罗斯-尼尔瓦克航路(铁血角色评价加成)",
+		ship_camp_display = "Trondheim - Narvik Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8930,18 +8930,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3206] = {
 		workload = 604800,
-		name = "南索斯运输拦截",
+		name = "Namsos Transport Blockade",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "Logistics Blockade (CL, BC increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -8949,7 +8949,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3206,
-		ship_camp_display = "尼德罗斯-南索斯航路(铁血角色评价加成)",
+		ship_camp_display = "Trondheim - Namsos Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -8996,18 +8996,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3207] = {
 		workload = 907200,
-		name = "斯特凡格运输拦截",
+		name = "Stavanger Transport Blockade",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "Logistics Blockade (CL, BC increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9015,7 +9015,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3207,
-		ship_camp_display = "阿克斯胡斯-夸特航路(铁血角色评价加成)",
+		ship_camp_display = "Oslo - Kristiansand Route (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9063,18 +9063,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3208] = {
 		workload = 907200,
-		name = "夸特运输拦截",
+		name = "Kristiansand Transport Blockade",
 		base_point = 10,
 		extra_squadron = "",
 		class = 4,
-		ship_type_display = "运输拦截(轻巡、战巡效率加成)",
+		ship_type_display = "Logistics Blockade (CL, BC increased efficiency)",
 		pic = "3_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9082,7 +9082,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3208,
-		ship_camp_display = "布丽根-斯特凡格航路(铁血角色评价加成)",
+		ship_camp_display = "#N/A",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9130,18 +9130,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3209] = {
 		workload = 831600,
-		name = "尼尔瓦克港控制权确保",
+		name = "Narvik Harbor Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "对岸压制(重巡、重炮效率加成)",
+		ship_type_display = "Shore Suppression (CA, BM increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9149,7 +9149,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3209,
-		ship_camp_display = "尼尔瓦克港(皇家角色评价加成)",
+		ship_camp_display = "Narvik Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9197,18 +9197,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3210] = {
 		workload = 831600,
-		name = "南索斯港控制权确保",
+		name = "Namsos Harbor Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "对岸压制(重巡、重炮效率加成)",
+		ship_type_display = "Shore Suppression (CA, BM increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9216,7 +9216,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3210,
-		ship_camp_display = "南索斯港(皇家角色评价加成)",
+		ship_camp_display = "Namsos Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9264,18 +9264,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3211] = {
 		workload = 831600,
-		name = "斯特凡格港控制权确保",
+		name = "Stavanger Harbor Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "Shore Suppression (CA increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9283,7 +9283,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3211,
-		ship_camp_display = "斯特凡格港(铁血角色评价加成)",
+		ship_camp_display = "Stavanger Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9327,18 +9327,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3212] = {
 		workload = 831600,
-		name = "夸特港控制权确保",
+		name = "Kristiansand Harbor Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "Shore Suppression (CA increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9346,7 +9346,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3212,
-		ship_camp_display = "夸特港(铁血角色评价加成)",
+		ship_camp_display = "Kristiansand Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9390,18 +9390,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3213] = {
 		workload = 1209600,
-		name = "利维浦舰装维修",
+		name = "Liverpool Rigging Repair",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -9409,7 +9409,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3213,
-		ship_camp_display = "利维浦港(皇家角色评价加成)",
+		ship_camp_display = "Liverpool Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9454,18 +9454,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3214] = {
 		workload = 1209600,
-		name = "霍尔斯坦港舰装维修",
+		name = "Kiel Harbor Rigging Repair",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -9473,7 +9473,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3214,
-		ship_camp_display = "霍尔斯坦港(铁血角色评价加成)",
+		ship_camp_display = "Kiel Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9518,18 +9518,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3215] = {
 		workload = 1058400,
-		name = "利维浦物资整备",
+		name = "Liverpool Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -9537,7 +9537,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3215,
-		ship_camp_display = "利维浦港(皇家角色评价加成)",
+		ship_camp_display = "Liverpool Harbor (Royal Navy Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9582,18 +9582,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[3216] = {
 		workload = 1058400,
-		name = "霍尔斯坦港物资整备",
+		name = "Kiel Harbor Funds Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "物资整备(维修效率加成)",
+		ship_type_display = "Funds Maintenance (AR increased efficiency)",
 		pic = "3_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -9601,7 +9601,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 3216,
-		ship_camp_display = "霍尔斯坦港(铁血角色评价加成)",
+		ship_camp_display = "Kiel Harbor (Iron Blood Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9646,18 +9646,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4001] = {
 		workload = 756000,
-		name = "北方海域塞壬清理",
+		name = "North Sector Siren Elimination",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
+		ship_type_display = "Sub Raid (SS, SSV increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9665,7 +9665,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4001,
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "North Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9717,18 +9717,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4002] = {
 		workload = 756000,
-		name = "克罗尔海塞壬清理",
+		name = "Coral Sea Siren Elimination",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
+		ship_type_display = "Sub Raid (SS, SSV increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9736,7 +9736,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4002,
-		ship_camp_display = "克罗尔海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coral Sea (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9788,18 +9788,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4003] = {
 		workload = 907200,
-		name = "木偶环礁塞壬歼灭",
+		name = "Nukumanu Islands Siren Annihilation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Control (DD, CA increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9807,7 +9807,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4003,
-		ship_camp_display = "木偶环礁(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Nukumanu Islands (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9859,18 +9859,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4004] = {
 		workload = 907200,
-		name = "因迪萨布海峡控制权确保",
+		name = "Indispensable Reefs Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Control (DD, CA increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9878,7 +9878,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4004,
-		ship_camp_display = "因迪萨布海峡(白鹰角色评价加成)",
+		ship_camp_display = "Indispensable Reefs (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9926,18 +9926,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4005] = {
 		workload = 907200,
-		name = "拉维湾控制权确保",
+		name = "Vella Gulf Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -9945,7 +9945,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4005,
-		ship_camp_display = "拉维湾(重樱角色评价加成)",
+		ship_camp_display = "Vella Gulf (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -9993,18 +9993,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4006] = {
 		workload = 1058400,
-		name = "布伦查海峡阻击战",
+		name = "Blanche Channel Blockade Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -10012,7 +10012,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4006,
-		ship_camp_display = "布伦查水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Blanche Channel (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10065,18 +10065,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4007] = {
 		workload = 1058400,
-		name = "黑色海峡遭遇战",
+		name = "Blackett Strait Encounter Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -10084,7 +10084,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4007,
-		ship_camp_display = "黑色海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Blackett Strait (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10137,18 +10137,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4008] = {
 		workload = 1058400,
-		name = "马恩宁海峡遭遇战",
+		name = "Manning Strait Encounter Battle",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -10156,7 +10156,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4008,
-		ship_camp_display = "马恩宁海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Manning Strait (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10209,18 +10209,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4009] = {
 		workload = 907200,
-		name = "北方海域制空权夺取",
+		name = "North Sector Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10228,7 +10228,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4009,
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "North Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10280,18 +10280,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4010] = {
 		workload = 907200,
-		name = "南方海域制空权夺取",
+		name = "Southern Sector Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10299,7 +10299,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4010,
-		ship_camp_display = "克罗尔海北部海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coral Sea North Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10351,18 +10351,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4011] = {
 		workload = 907200,
-		name = "达古康纳尔制空权夺取",
+		name = "Guadalcanal Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10370,7 +10370,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4011,
-		ship_camp_display = "恩格拉群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Nggela Islands Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10422,18 +10422,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4012] = {
 		workload = 831600,
-		name = "北方海域对空护航",
+		name = "North Sector Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CVL increased efficiency)",
 		pic = "4_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10441,7 +10441,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4012,
-		ship_camp_display = "罗默斯岛北方海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "North Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10493,18 +10493,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4013] = {
 		workload = 831600,
-		name = "南方海域对空护航",
+		name = "Southern Sector Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CVL increased efficiency)",
 		pic = "4_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10512,7 +10512,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4013,
-		ship_camp_display = "克罗尔海北部海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coral Sea North Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10564,18 +10564,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4014] = {
 		workload = 831600,
-		name = "达古康纳尔对空护航",
+		name = "Guadalcanal Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、轻母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CVL increased efficiency)",
 		pic = "4_3",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10583,7 +10583,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4014,
-		ship_camp_display = "恩格拉群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Nggela Islands Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10635,18 +10635,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4015] = {
 		workload = 756000,
-		name = "塔里古岛航空支援",
+		name = "Tulagi Island Aerial Support",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10654,7 +10654,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4015,
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coast of Tulagi Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10706,18 +10706,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4018] = {
 		workload = 756000,
-		name = "塔里古岛战役支援",
+		name = "Tulagi Island Battle Support",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "对岸压制(重巡效率加成)",
+		ship_type_display = "Shore Suppression (CA increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10725,7 +10725,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4018,
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coast of Tulagi Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10773,18 +10773,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4019] = {
 		workload = 756000,
-		name = "塔里古岛制海权夺取",
+		name = "Tulagi Island Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10792,7 +10792,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4019,
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coast of Tulagi Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10844,18 +10844,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4020] = {
 		workload = 756000,
-		name = "塔里古岛制空权夺取",
+		name = "Tulagi Island Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10863,7 +10863,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4020,
-		ship_camp_display = "塔里古岛近海(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coast of Tulagi Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10911,18 +10911,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4021] = {
 		workload = 907200,
-		name = "恩德群岛警戒",
+		name = "Santa Cruz Islands Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(轻巡、航母效率加成)",
+		ship_type_display = "Zone Monitoring (CL, CV increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -10930,7 +10930,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4021,
-		ship_camp_display = "恩德群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Santa Cruz Islands Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -10982,18 +10982,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4022] = {
 		workload = 907200,
-		name = "圣佩欧卡机场警戒",
+		name = "Santo-Pekoa Airport Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(轻巡、航母效率加成)",
+		ship_type_display = "Zone Monitoring (CL, CV increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -11001,7 +11001,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4022,
-		ship_camp_display = "圣灵岛(白鹰角色评价加成)",
+		ship_camp_display = "Espiritu Santo (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11049,18 +11049,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4023] = {
 		workload = 756000,
-		name = "瓦里港警戒",
+		name = "Vila Bay Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CA increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -11068,7 +11068,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4023,
-		ship_camp_display = "瓦里港(白鹰角色评价加成)",
+		ship_camp_display = "Vila Bay (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11116,18 +11116,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4024] = {
 		workload = 756000,
-		name = "诺埃姆港警戒",
+		name = "Noumea Harbor Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、航母效率加成)",
+		ship_type_display = "Zone Monitoring (DD, CV increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -11135,7 +11135,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4024,
-		ship_camp_display = "诺埃姆港(白鹰角色评价加成)",
+		ship_camp_display = "Noumea Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11183,18 +11183,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4025] = {
 		workload = 756000,
-		name = "辛普森港警戒",
+		name = "Rabaul Harbor Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Monitoring (CL, CA increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -11202,7 +11202,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4025,
-		ship_camp_display = "辛普森港(重樱角色评价加成)",
+		ship_camp_display = "Rabaul Harbor (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11250,18 +11250,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4026] = {
 		workload = 756000,
-		name = "乌古拉特警戒",
+		name = "Chuuk Lagoon Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 6,
-		ship_type_display = "海域警戒(驱逐、战列效率加成)",
+		ship_type_display = "Zone Monitoring (DD, BB increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -11269,7 +11269,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4026,
-		ship_camp_display = "乌古拉特(重樱角色评价加成)",
+		ship_camp_display = "Chuuk Lagoon (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11317,18 +11317,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4027] = {
 		workload = 1058400,
-		name = "罗默斯岛水道警戒",
+		name = "Ramos Island Waters Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -11336,7 +11336,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4027,
-		ship_camp_display = "罗默斯岛水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Ramos Island Waters (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11389,18 +11389,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[4028] = {
 		workload = 1058400,
-		name = "巴弗尔水道警戒",
+		name = "Balfour Channel Monitoring",
 		base_point = 10,
 		extra_squadron = "",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -11408,7 +11408,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4028,
-		ship_camp_display = "巴弗尔水道(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Balfour Channel (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -11461,26 +11461,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[4101] = {
 		workload = 1058400,
-		name = "佐治亚海峡塞壬清理",
+		name = "New Georgia Sound Siren Elimination",
 		base_point = 10,
 		extra_squadron = "Gato-Class",
 		class = 1,
-		ship_type_display = "猎杀潜航(潜艇、潜母效率加成)",
+		ship_type_display = "Sub Raid (SS, SSV increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：猫鲨级潜艇舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Gato-class SS or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4101,
-		ship_camp_display = "佐治亚海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "New Georgia Sound (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -11540,26 +11540,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4102] = {
 		workload = 1209600,
-		name = "恩加瓦南部暗礁塞壬清理",
+		name = "Reef South of Rennell Island Siren Elimination",
 		base_point = 10,
 		extra_squadron = "Brooklyn-Class",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：布鲁克林级轻巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Brooklyn-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4102,
-		ship_camp_display = "恩加瓦南部暗礁(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Reef South of Rennell Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -11619,26 +11619,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4103] = {
 		workload = 1209600,
-		name = "喀特蕾特群岛塞壬歼灭",
+		name = "Carteret Islands Siren Annihilation",
 		base_point = 10,
 		extra_squadron = "Cleveland-Class",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：克利夫兰级轻巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Cleveland-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4103,
-		ship_camp_display = "喀特蕾特群岛海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Carteret Islands Sector (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -11698,26 +11698,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4104] = {
 		workload = 1512000,
-		name = "索瓦岛海战",
+		name = "Savo Island Sea Battle",
 		base_point = 10,
 		extra_squadron = "Northampton-Class",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、重巡效率加成)",
+		ship_type_display = "Zone Control (DD, CA increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：北安普敦级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Northampton-class CA or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4104,
-		ship_camp_display = "索瓦岛附近海域(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Coast of Savo Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -11778,26 +11778,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4105] = {
 		workload = 1360800,
-		name = "特努拉河口决战",
+		name = "Tenaru Decisive Battle",
 		base_point = 10,
 		extra_squadron = "Furutaka-Class",
 		class = 1,
-		ship_type_display = "战舰对决(重巡、战巡效率加成)",
+		ship_type_display = "Battleship Showdown (CA, BC increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：狼级重巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Furutaka-class CA or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4105,
-		ship_camp_display = "特努拉河口(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Tenaru (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -11858,26 +11858,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4106] = {
 		workload = 1360800,
-		name = "埃隆勃特姆炮击战",
+		name = "Iron Bottom Sound Gun Battle",
 		base_point = 10,
 		extra_squadron = "Kongo-Class",
 		class = 1,
-		ship_type_display = "战舰对决(战巡、战列效率加成)",
+		ship_type_display = "Battleship Showdown (BC, BB increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Kongou-class BC or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4106,
-		ship_camp_display = "埃隆勃特姆(重樱角色评价加成)",
+		ship_camp_display = "Iron Bottom Sound (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -11934,26 +11934,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4107] = {
 		workload = 1360800,
-		name = "萨塔弗隆加遭遇战",
+		name = "Tassafaronga Point Encounter Battle",
 		base_point = 10,
 		extra_squadron = "Kagero-Class",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、重巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CA increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：萩级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Kagerou-class DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4107,
-		ship_camp_display = "萨塔弗隆加(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Tassafaronga Point (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -12014,26 +12014,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4108] = {
 		workload = 1058400,
-		name = "埃隆勃特姆夜战",
+		name = "Iron Bottom Sound Night Battle",
 		base_point = 10,
 		extra_squadron = "Special Type",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、战巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, BC increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：特型驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Special Type DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4108,
-		ship_camp_display = "埃隆勃特姆(重樱角色评价加成)",
+		ship_camp_display = "Iron Bottom Sound (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -12089,26 +12089,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4109] = {
 		workload = 1058400,
-		name = "拉克湾夜战",
+		name = "Kula Gulf Night Battle",
 		base_point = 10,
 		extra_squadron = "Special Type",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、轻巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CL increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：特型驱逐舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Special Type DD or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4109,
-		ship_camp_display = "拉克湾(重樱角色评价加成)",
+		ship_camp_display = "Kula Gulf (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12164,26 +12164,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4110] = {
 		workload = 1058400,
-		name = "萨塔弗隆加夜战",
+		name = "Tassafaronga Point Night Battle",
 		base_point = 10,
 		extra_squadron = "Kongo-Class",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、重巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, CA increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Kongou-class BC or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4110,
-		ship_camp_display = "萨塔弗隆加(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Tassafaronga Point (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12243,26 +12243,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4111] = {
 		workload = 1209600,
-		name = "特努拉河口制空权夺取",
+		name = "Tenaru Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Eagle Union-CVL",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
-		extra_squadron_display = "特殊编制：白鹰所属轻型航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Eagle Union Aff. CVL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4111,
-		ship_camp_display = "特努拉河口(白鹰角色评价加成)",
+		ship_camp_display = "Tenaru (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12318,26 +12318,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4112] = {
 		workload = 1209600,
-		name = "星雨岛制空权夺取",
+		name = "Stewart Island Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Essex-Class",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Essex-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4112,
-		ship_camp_display = "星雨岛(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Stewart Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12397,26 +12397,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4113] = {
 		workload = 1209600,
-		name = "因迪萨布海峡制空权夺取",
+		name = "Indispensable Reefs Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Independence-Class",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
-		extra_squadron_display = "特殊编制：独立级轻型航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Independence-class CVL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4113,
-		ship_camp_display = "因迪萨布海峡(白鹰角色评价加成)",
+		ship_camp_display = "Indispensable Reefs (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12472,26 +12472,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4114] = {
 		workload = 1209600,
-		name = "恩德群岛制空权夺取",
+		name = "Santa Cruz Islands Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Yorktown-Class",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
-		extra_squadron_display = "特殊编制：约克城级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Yorktown-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4114,
-		ship_camp_display = "恩德群岛海域(白鹰角色评价加成)",
+		ship_camp_display = "Santa Cruz Islands Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12547,26 +12547,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4115] = {
 		workload = 1058400,
-		name = "恩加瓦岛对空护航",
+		name = "Rennell Island Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "Atlanta-Class",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CV increased efficiency)",
 		pic = "4_3",
-		extra_squadron_display = "特殊编制：亚特兰大级轻巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Atlanta-class CL or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4115,
-		ship_camp_display = "恩加瓦岛(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Rennell Island (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -12626,26 +12626,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4116] = {
 		workload = 1058400,
-		name = "加隆角航空支援",
+		name = "Lunga Point Aerial Support",
 		base_point = 10,
 		extra_squadron = "5th-airfleet",
 		class = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
+		ship_type_display = "Aerial Bombing Raid (CVL, CV increased efficiency)",
 		pic = "4_1",
-		extra_squadron_display = "特殊编制：五航战所属航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 5th CarDiv CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4116,
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Lunga Point (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12705,26 +12705,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4117] = {
 		workload = 1058400,
-		name = "古斯塔奥湾海战",
+		name = "Empress Augusta Bay Sea Battle",
 		base_point = 10,
 		extra_squadron = "Essex-Class",
 		class = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
+		ship_type_display = "Aerial Bombing Raid (CVL, CV increased efficiency)",
 		pic = "4_1",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Essex-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4117,
-		ship_camp_display = "古斯塔奥湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Empress Augusta Bay (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -12784,26 +12784,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4118] = {
 		workload = 1058400,
-		name = "加拉班科海战",
+		name = "Battle of Kolombangara Sea Battle",
 		base_point = 10,
 		extra_squadron = "Yorktown-Class",
 		class = 2,
-		ship_type_display = "空袭轰炸(轻母、航母效率加成)",
+		ship_type_display = "Aerial Bombing Raid (CVL, CV increased efficiency)",
 		pic = "4_1",
-		extra_squadron_display = "特殊编制：约克城级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Yorktown-class CV or more",
 		node_num = 4,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4118,
-		ship_camp_display = "加拉班科岛附近海域(白鹰角色评价加成)",
+		ship_camp_display = "Coast of Kolombangara Island (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -12859,26 +12859,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，获得如下奖励",
-			"作战成功，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・The following rewards have been earned:",
+			"Operation Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4120] = {
 		workload = 907200,
-		name = "加隆角战役支援",
+		name = "Lunga Point Battle Support",
 		base_point = 10,
 		extra_squadron = "Astoria-Class",
 		class = 5,
-		ship_type_display = "对岸压制(重巡、战巡效率加成)",
+		ship_type_display = "Shore Suppression (CA, BC increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：新奥尔良级重巡洋舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 New Orleans-class CA or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4120,
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Lunga Point (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -12937,26 +12937,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4121] = {
 		workload = 907200,
-		name = "加隆角制海权夺取",
+		name = "Lunga Point Secure Zone Control",
 		base_point = 10,
 		extra_squadron = "Kongo-Class",
 		class = 5,
-		ship_type_display = "炮击港口(战巡、战列效率加成)",
+		ship_type_display = "Harbor Bombardment (BC, BB increased efficiency)",
 		pic = "4_4",
-		extra_squadron_display = "特殊编制：鲤级战列巡洋舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Kongou-class BC or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4121,
-		ship_camp_display = "加隆角(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Lunga Point (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -13015,26 +13015,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4122] = {
 		workload = 907200,
-		name = "加隆角制空权夺取",
+		name = "Lunga Point Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "Essex-Class",
 		class = 5,
-		ship_type_display = "轰炸港口(航母效率加成)",
+		ship_type_display = "Harbor Air Raid (CV increased efficiency)",
 		pic = "4_1",
-		extra_squadron_display = "特殊编制：埃塞克斯级航空母舰2艘以上",
+		extra_squadron_display = "Special Composition: 2 Essex-class CV or more",
 		node_num = 3,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4122,
-		ship_camp_display = "加隆角(白鹰角色评价加成)",
+		ship_camp_display = "Lunga Point (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 2,
 		ship_camp_effect = {
 			{
@@ -13085,26 +13085,26 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，发现了线索，获得如下奖励",
-			"任务完成，发现了线索，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・Information has been discovered.・The following rewards have been earned:",
+			"Mission Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4123] = {
 		workload = 1512000,
-		name = "佐治亚海峡警戒",
+		name = "New Georgia Sound Monitoring",
 		base_point = 10,
 		extra_squadron = "Fletcher-Class",
 		class = 7,
-		ship_type_display = "海域侦察(驱逐、轻母效率加成)",
+		ship_type_display = "Zone Reconnaissance (DD, CVL increased efficiency)",
 		pic = "4_1",
-		extra_squadron_display = "特殊编制：弗莱彻级驱逐舰3艘以上",
+		extra_squadron_display = "Special Composition: 3 Fletcher-class DD or more",
 		node_num = 5,
 		sub_type = 1,
 		extra_squedron_ratio = 200,
 		type = 2,
 		id = 4123,
-		ship_camp_display = "佐治亚海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "New Georgia Sound (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 3,
 		ship_camp_effect = {
 			{
@@ -13165,18 +13165,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"调查非常成功，发现了线索，获得如下奖励",
-			"调查成功，发现了线索，获得如下奖励",
-			"调查失败，获得如下奖励"
+			"Flawless Reconnaissance・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Complete・Information has been discovered.・The following rewards have been earned:",
+			"Reconnaissance Failed・The following rewards have been earned:"
 		}
 	},
 	[4201] = {
 		workload = 1058400,
-		name = "威尔森海峡控制权确保",
+		name = "Wilson Strait Secure Position",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(轻巡、重巡效率加成)",
+		ship_type_display = "Zone Control (CL, CA increased efficiency)",
 		pic = "4_1",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -13184,7 +13184,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4201,
-		ship_camp_display = "威尔森海峡(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Wilson Strait (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13237,18 +13237,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4202] = {
 		workload = 907200,
-		name = "哈留那湾伏击战",
+		name = "Haliuna Bay Ambush",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -13256,7 +13256,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4202,
-		ship_camp_display = "哈留那湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Haliuna Bay (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13308,18 +13308,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4203] = {
 		workload = 907200,
-		name = "露缇湾伏击战",
+		name = "Luti Bay Ambush",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "海域压制(驱逐、轻巡效率加成)",
+		ship_type_display = "Zone Control (DD, CL increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -13327,7 +13327,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4203,
-		ship_camp_display = "露缇湾(重樱角色评价加成)",
+		ship_camp_display = "Luti Bay (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13375,18 +13375,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4204] = {
 		workload = 680400,
-		name = "马罗乌湾塞壬歼灭",
+		name = "Maro’u Bay Siren Annihilation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、战列效率加成)",
+		ship_type_display = "Battleship Showdown (DD, BB increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13394,7 +13394,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4204,
-		ship_camp_display = "马罗乌湾(白鹰角色评价加成)",
+		ship_camp_display = "Maro’u Bay (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13441,18 +13441,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4205] = {
 		workload = 680400,
-		name = "怀拉哈湾塞壬歼灭",
+		name = "Wairaha Bay Siren Annihilation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(驱逐、战巡效率加成)",
+		ship_type_display = "Battleship Showdown (DD, BC increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13460,7 +13460,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4205,
-		ship_camp_display = "怀拉哈湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Wairaha Bay (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13511,18 +13511,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4206] = {
 		workload = 680400,
-		name = "苏皮内湾塞壬歼灭",
+		name = "Su'upeine Bay Siren Annihilation",
 		base_point = 10,
 		extra_squadron = "",
 		class = 1,
-		ship_type_display = "战舰对决(轻巡、重巡效率加成)",
+		ship_type_display = "Battleship Showdown (CL, CA increased efficiency)",
 		pic = "4_4",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13530,7 +13530,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4206,
-		ship_camp_display = "苏皮内湾(白鹰、重樱角色评价加成)",
+		ship_camp_display = "Su'upeine Bay (Eagle Union, Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13581,18 +13581,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"作战大获成功，发现了线索，获得如下奖励",
-			"作战成功，发现了线索，获得如下奖励",
-			"作战基本成功，获得如下奖励"
+			"Flawless Operation・Information has been discovered.・The following rewards have been earned:",
+			"Operation Complete・Information has been discovered.・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4207] = {
 		workload = 604800,
-		name = "近海制空权夺取",
+		name = "Coast Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13600,7 +13600,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4207,
-		ship_camp_display = "圣灵岛东面海域(白鹰角色评价加成)",
+		ship_camp_display = "East Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13647,18 +13647,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4208] = {
 		workload = 604800,
-		name = "近海制空权夺取",
+		name = "Coast Secure Air Superiority",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "制空争夺(轻母、航母效率加成)",
+		ship_type_display = "Air Superiority Contension (CVL, CV increased efficiency)",
 		pic = "4_2",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13666,7 +13666,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4208,
-		ship_camp_display = "辛普森港南面海域(重樱角色评价加成)",
+		ship_camp_display = "South Sector (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13713,18 +13713,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4209] = {
 		workload = 604800,
-		name = "近海对空护航",
+		name = "Coast Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CV increased efficiency)",
 		pic = "4_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13732,7 +13732,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4209,
-		ship_camp_display = "圣灵岛东面海域(白鹰角色评价加成)",
+		ship_camp_display = "East Sector (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13779,18 +13779,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4210] = {
 		workload = 604800,
-		name = "近海对空护航",
+		name = "Coast Anti-Air Escort",
 		base_point = 10,
 		extra_squadron = "",
 		class = 2,
-		ship_type_display = "对空掩护(轻巡、航母效率加成)",
+		ship_type_display = "Anti-Air Support (CL, CV increased efficiency)",
 		pic = "4_3",
 		extra_squadron_display = "",
 		node_num = 2,
@@ -13798,7 +13798,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4210,
-		ship_camp_display = "辛普森港南面海域(重樱角色评价加成)",
+		ship_camp_display = "South Sector (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13845,18 +13845,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4211] = {
 		workload = 756000,
-		name = "圣佩欧卡机场补给运输",
+		name = "Santo-Pekoa Airport Supply Transport",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "Regional Logistics (AR increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -13864,7 +13864,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4211,
-		ship_camp_display = "诺埃姆港-圣灵岛航路(白鹰角色评价加成)",
+		ship_camp_display = "Noumea Harbor - Espiritu Santo Route (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13908,18 +13908,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4212] = {
 		workload = 756000,
-		name = "辛普森港补给运输",
+		name = "Rabaul Harbor Supply Transport",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "区域后勤(维修效率加成)",
+		ship_type_display = "Regional Logistics (AR increased efficiency)",
 		pic = "1_2",
 		extra_squadron_display = "",
 		node_num = 3,
@@ -13927,7 +13927,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4212,
-		ship_camp_display = "乌古拉特-辛普森港航路(重樱角色评价加成)",
+		ship_camp_display = "Chuuk Lagoon Route (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -13971,18 +13971,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4213] = {
 		workload = 1209600,
-		name = "诺埃姆港后勤整备",
+		name = "Noumea Harbor Supply Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -13990,7 +13990,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4213,
-		ship_camp_display = "诺埃姆港(白鹰角色评价加成)",
+		ship_camp_display = "Noumea Harbor (Eagle Union Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -14035,18 +14035,18 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	},
 	[4214] = {
 		workload = 1209600,
-		name = "辛普森港后勤整备",
+		name = "Rabaul Harbor Supply Maintenance",
 		base_point = 10,
 		extra_squadron = "",
 		class = 8,
-		ship_type_display = "紧急维修(维修效率加成)",
+		ship_type_display = "Emergency Repair (AR increased efficiency)",
 		pic = "2_3",
 		extra_squadron_display = "",
 		node_num = 4,
@@ -14054,7 +14054,7 @@ pg.base.guild_base_event = {
 		extra_squedron_ratio = 0,
 		type = 1,
 		id = 4214,
-		ship_camp_display = "辛普森港(重樱角色评价加成)",
+		ship_camp_display = "Rabaul Harbor (Sakura Empire Operation Rating Bonus)",
 		extra_squadron_num = 0,
 		ship_camp_effect = {
 			{
@@ -14099,9 +14099,9 @@ pg.base.guild_base_event = {
 			}
 		},
 		report = {
-			"任务完美完成，获得如下奖励",
-			"任务完成，获得如下奖励",
-			"任务基本完成，获得如下奖励"
+			"Flawless Mission・The following rewards have been earned:",
+			"Mission Complete・The following rewards have been earned:",
+			"Partial Success・The following rewards have been earned:"
 		}
 	}
 }

@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "一到晚上，总有些平时被埋藏的胡思乱想都会冒出来。",
+			say = "When night rolls around, I start getting weird thoughts that I usually wouldn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "比如说上次就想到，万一哪一天不够好看了要怎么办……",
+			say = "For instance, what would happen if I stopped being attractive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,18 +62,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "万一……{dorm3d}失去了新鲜感要怎么办……",
+			say = "What would happen? Would you get bored of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "放心吧！",
+					content = "Don't worry about that.",
 					flag = 1
 				},
 				{
-					content = "绝对不会的！",
+					content = "That's never going to happen.",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "就知道{dorm3d}会这么说，我相信你哦……",
+			say = "I knew you'd say that. I believe you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

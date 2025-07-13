@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜惊魂\n\n<size=45>Chapter-0-山中古堡</size>",
+					"Prologue - The Castle in the Mountains",
 					1
 				}
 			}
@@ -21,12 +21,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "Serious Protégé GM",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "一本正经的后辈KP",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "一阵“吱呀”的开门声后，调查员发现有人推开房门走了进来。",
+			say = "You hear the clunk of a door opening, and you realize that someone has entered the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？调查员？您怎么会在佣人休息室里？",
+			say = "Hmm? Comma– Investigator, what are you doing in the servants' room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "噢~我明白了，您已经开始进行调查了啊，真不愧是业内一流的调查员呢。",
+			say = "Wait, I know! You've already begun investigating, right? Wow, that's our first-rate investigator for ya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？只是迷路走错房间了？",
+			say = "...No? You're just lost?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,12 +80,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，城堡内的通道错综复杂，如果不是常年生活在这里的话确实容易迷路。",
+			say = "That's fair. This place IS basically a maze. It's easy to get lost when you haven't lived here your whole life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看着眼前这个陌生的女仆，脑海里调动不出任何与之有关的记忆。",
+			say = "You can't remember anything about the maid speaking to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是从她的话语间，你了解到自己是一名优秀的调查员。",
+			say = "But, if what she claims is true, you are an outstanding investigator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "对讲机里再次传来了布里斯托尔的声音。",
+			say = "The GMs come chiming in through my communicator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此，刚才说的关键道具是这个意思……通过对讲机来履行KP的职责么。）",
+			say = "(Ahh. The game advances through the communicator. That explains why it's a key item.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,11 +146,11 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
+			factiontag = "Castle Maid",
 			side = 2,
-			actorName = "古堡女仆长",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
-			say = "嗯……调查员，您为什么总是盯着我看？",
+			say = "Uh, Investigator? What's with all the head-turning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,11 +160,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "Serious GM",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你发现自己总是不由自主地打量周围的环境以及身边的人，这样的行为似乎有些异常。",
+			say = "Ahem. You have a habit of constantly examining your surroundings. To an obsessive degree, even. Others must think it's very abnormal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +174,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "Serious GM",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "突然间，你的脑海中闪过一些片段。（d100=31）嗯……成功。",
+			say = "Suddenly, a fragmented memory flashes in your mind. Roll a D100... 31, success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,11 +188,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "Serious GM",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你想起自己为了成为一名出色的调查员，曾刻苦锻炼过自己的侦察术。",
+			say = "You remember that you're a brilliant investigator and have honed your sleuthing skills to a T.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,11 +202,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "Serious GM",
+			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长久的训练使你的观察力远超常人。",
+			say = "Thanks to years of training, your observational skills far exceed those of a layperson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,17 +216,17 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜，你已回忆起技能：观察力。熟练程度：精通。",
+			say = "Congratulations. You have remembered the skill Eagle Eye. You have expert proficiency in this skill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"角色卡内容解锁",
+				"Investigator Stat Revealed",
 				3
 			}
 		},
@@ -234,11 +234,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……这个是企业前辈设计的技能呢。",
+			say = "Ah, this is the skill Enterprise proposed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来这就是在探索中通过找回记忆取回能力的意思啊。）",
+			say = "(Oohh, so this is what they meant by \"rediscovering\" my skills during the investigation.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（企业设计的观察力，熟练程度还是精通，感觉对于调查会有帮助……）",
+			say = "(I'm glad Enterprise came up with this. An expert-level sleuthing skill will definitely come in handy during this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "可爱迷人的反派角色",
-			actorName = "古堡女仆长",
+			factiontag = "Castle Maid",
+			actorName = "Royal Fortune",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "调查员？您身体不舒服吗？我带您去接待室休息吧？",
+			say = "What's the matter? You got a stomachache? Let me take you to the guest room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

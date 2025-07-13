@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>七　纯白之网</size>",
+					"Veiled in White\n\n<size=45>7 Veiled in White</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "最后，看到黎塞留尽情享受后，克莱蒙梭仅用了一根逗猫棒就将{namecode:523}解救了出来。",
+			say = "Eventually, Clemenceau used a cat toy to lure them all away from poor Jean Bart.",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "{namecode:523}逃回了宿舍，黎塞留带着猫返回猫咖，克莱蒙梭则与我一同随便闲逛着。",
+			say = "After that, Richelieu took them back to the cat café, and Jean Bart's sister ships got her to go back to the Iris dorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看你应付猫很有一套，你也喜欢猫？",
+			say = "Do you like cats, Clemenceau? You look like you're good at handling them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "谈不上喜欢还是不喜欢，而且，我可能不适合养宠物哦~",
+			say = "I wouldn't say I especially \"like\" them. I'm not the best person to keep a pet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有什么原因么？",
+			say = "Why do you say that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯～因为不喜欢重要的东西被分享的感觉？",
+			say = "Well, I don't like having to share the things I care about...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果是我的宠物，那就只能独属于我。",
+			say = "If I have a pet, it must be all mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "不能对其他人摇尾乞怜，就算只是被摸一下都不行。",
+			say = "It can't beg others for affection, and I don't want anyone touching it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "毕竟我对它付出了绝对的爱，我也理应收到同等回报才行。",
+			say = "After all, if I'm to give it all of my love, then I want that in return.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "（不过，如果对象是指挥官的话，确实不能由我来独占呢……）",
+			say = "(Though of course, even I know that I couldn't monopolize you if you were to become my pet...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "好啦好啦，宠物的话题就先到这里。",
+			say = "Heehee, anyway, that's enough talk of pets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "已经接近晚饭时间了，接下来去吃晚餐吧~",
+			say = "It's getting dark. Shall we get dinner?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果克莱蒙梭接下来的日程允许的话？",
+			say = "Is your schedule free for once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "当然允许啦。就算有冲突也会特意为你腾出来就是了。",
+			say = "Of course. Even if I had plans, I'd drop them the moment you invited me out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "走吧，我可是订了一家最近备受好评的店，想和你一起去试试呢。",
+			say = "I already have a reservation at a restaurant with wonderful reviews. I've wanted to go there with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？什么时候订好的？",
+			say = "When did you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "秘密~",
+			say = "I'll never tell♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "晚餐结束后，又与克莱蒙梭一同去看了话剧。",
+			say = "After dinner, Clemenceau and I watch a play together.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "从剧院出来后，天空已经挂上满天繁星了。",
+			say = "When we leave the theater, the sky is already full of shining stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "在工作完成后还能有放松时间——这一在克莱蒙梭成为秘书舰前几乎从未出现过的景象，现在也逐渐多了起来。",
+			say = "Despite the influx of work lately, I've been able to relax outside of work hours. That's all thanks to Clemenceau.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "看来确实是在她的带动下，进行了……劳逸结合？",
+			say = "Maybe I'm finally experiencing that \"work-life balance\" that she mentioned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "不但一起去了书店，还去看了话剧，甚至还一起去了猫咖，商业街，还有之前……",
+			say = "Looking for books at the bookstore, watching plays at the theater, going to cat cafés and shopping, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "这么算起来，最近的休息时间好像大多数时候都是和克莱蒙梭一起度过的呢……",
+			say = "Now that I think about it, I've spent all of my extra free time with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵，指挥官阁下终于发现了么？",
+			say = "Oh? You finally figured it out, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "之前推荐的书，可不只是因为思维练习的原因才推荐给你的哦？",
+			say = "I didn't pick that mystery novel out for you just to help you relax.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "紧盯着每个人的日程，利用秘书舰的职权对日程表进行调整，刻意制造出只有我们两人有空的时间——",
+			say = "I've kept a strict hold on your schedule in order to take advantage of my secretary ship position, adjust your plans, and make time just for us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "这港区亦是一座修罗场，想要独占指挥官的话，是得好好下一番功夫才行呢~",
+			say = "You know, it takes a lot of ingenuity to keep one Commander all to myself in a port practically bursting with girls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "震惊还未消散之余，克莱蒙梭突然用双手紧紧环抱上来。",
+			say = "Before I can comment on how perfectly she'd caught me in her trap, Clemenceau comes closer and pulls me into a hug.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "明天的工作，其实我已经提前处理的差不多了。",
+			say = "I've already taken care of almost all of tomorrow's work, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "夜还很长，接下来，我们一起去哪里好呢~？",
+			say = "The night is young... Where will it take us next~?",
 			painting = {
 				alpha = 0.3,
 				time = 1

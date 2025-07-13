@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "委托是受到信任的证明喵！",
+			say = "Accepting to go on commissions is proof that I trust you, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "{namecode:98}想知道指挥官是不是个值得信赖的人喵！",
+			say = "{namecode:98} wants to know if you’re a trustworthy person! nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "接受委托，帮助他人喵！",
+			say = "To go on commissions is to help others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "{namecode:98}会好好看着指挥官的喵！",
+			say = "{namecode:98} wants to see the Commander’s true mettle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

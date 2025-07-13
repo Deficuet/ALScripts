@@ -1,362 +1,362 @@
 pg = pg or {}
 pg.activity_liner_event = {
 	{
-		option_desc = "收到{namecode:427}的联络后来到了女仆咖啡厅。\n据悉，{namecode:446}在本日闭店前，于这张餐桌的餐盘下发现了这张奇怪的字条。\n字条上的字迹被水晕开了，只能勉强看清部分内容——“遥远”以及“敬上”\n一同抵达现场的埃塞克斯表示，从墨迹的状态判断，这张字条应该是在本日邮轮启航后才写下的。\n虽然不清楚她是如何得出这一结论的，不过她的一身侦探装为该结论增加了不少可信度。",
-		option_desc_2 = "在咖啡厅的餐盘下发现了一张被打湿的字条。纸条上只能辨认出“遥远”与“敬上”。",
-		option = "和{namecode:427}打招呼",
+		option_desc = "Prinz Eugen messaged me to come to the maid café.\nToday, before closing time, Nürnberg found a strange slip of paper under a tray on a table.\nThe paper was wet and the writing stained, but you could just about make out the words, \"come\" and \"afar.\"\nEssex, who arrived on the scene, determined based on the ink's splotchiness that it was written sometime after the ship's departure today.\nHow she reached this conclusion, I'm not sure... but her detective outfit strangely lends her an air of credibility.",
+		option_desc_2 = "A wet note was found under a tray in the maid café. The only legible words on it were \"come\" and \"afar.\"",
+		option = "(Speak to her.)",
 		id = 1,
-		title = "线索一：餐盘下的字条",
+		title = "A Note Under the Tray",
 		option_desc_display = {
 			{
-				"在{namecode:427}的引导下来到了发现异常事件的餐桌前。"
+				"Eugen guides me to the table where the incident took place."
 			},
 			{
-				"据悉，{namecode:446}在本日闭店前，于这张餐桌的餐盘下发现了这张奇怪的字条。"
+				"Today, before closing time, Nürnberg found a strange slip of paper under a tray on this table."
 			},
 			{
-				"字条上的字迹被水晕开了，只能勉强看清部分内容——“遥远”以及“敬上”"
+				"The paper was wet and the writing stained, but you could just about make out the words, \"come\" and \"afar.\""
 			},
 			{
-				"一同抵达现场的埃塞克斯表示，从墨迹的状态判断，这张字条应该是在本日邮轮启航后才写下的。"
+				"Essex, who arrived on the scene, determined based on the ink's splotchiness that it was written sometime after the ship's departure today."
 			},
 			{
-				"虽然不清楚她是如何得出这一结论的，不过她的一身侦探装为该结论增加了不少可信度。"
+				"How she reached this conclusion, I'm not sure... but her detective outfit strangely lends her an air of credibility."
 			},
 			{
-				"除此之外，此处已经没有更多线索了，去别处调查吧。"
+				"There are no more clues to be gained here. It's time to go somewhere else."
 			}
 		}
 	},
 	{
-		option_desc = "露天公园中，布里斯托尔似乎正调查着什么。\n在提灯的光束下仔细观察，确实在地上发现了明显的碾压痕迹。\n布里斯托尔表示，土地的湿度似乎也不太正常，她还需要在这里深入调查一下。",
-		option_desc_2 = "露天公园中，灌木丛出现了一个三十公分左右被重物碾压后形成的痕迹。",
-		option = "前去搭话",
+		option_desc = "In the onboard garden, I spotted Bristol looking around.\nI looked thoroughly under her light, and she was right – someone left some conspicuous footprints here.\nBristol also pointed out how the soil's humidity was different from the rest and insisted on investigating further.",
+		option_desc_2 = "Something left a roughly 30 centimeter big imprint on a bush in the onboard garden.",
+		option = "(Speak to her.)",
 		id = 2,
-		title = "线索二：被分开的灌木",
+		title = "The Crushed Bushes",
 		option_desc_display = {
 			{
-				"“指挥官，你看这里是不是很可疑！”布里斯托尔用手指着林地中的一处灌木说道。"
+				"She points to a thicket among the trees and asks, \"Don't you think that looks suspicious?\""
 			},
 			{
-				"顺着提灯的光束看去，原本整齐的灌木被外力从中间分开了，留下了一个大约三十公分的空隙。"
+				"Shining her lantern on it, I look and see that something has carved a gap straight through the middle of the otherwise orderly bushes. It's about 30 centimeters big."
 			},
 			{
-				"“不是分开，是压倒！指挥官你看，地上有被压倒的树枝呢！”布里斯托尔一边用手翻动泥土，一边补充道。"
+				"\"They weren't brushed aside,\" she tells me while feeling the ground, \"they were crushed! Look at the ground! There are trampled branches, too!\""
 			},
 			{
-				"在提灯的光束下仔细观察，确实在地上发现了明显的碾压痕迹。"
+				"I look thoroughly under her light, and she's right – someone has left some conspicuous footprints here."
 			},
 			{
-				"布里斯托尔表示，土地的湿度似乎也不太正常，她还需要在这里深入调查一下。"
+				"Bristol also points out how the soil's humidity is different from the rest and insists on investigating further."
 			},
 			{
-				"在明确禁止了布里斯托尔将泥土放入口中“分析”的危险行为后，将公园的调查交给了她。"
+				"I tell her in no uncertain terms to not study the soil by tasting it, then entrust the garden investigation to her."
 			},
 			{
-				"除此之外，此处暂时没有更多线索了，去别处调查吧。"
+				"There are no more clues to be gained here. It's time to go somewhere else."
 			}
 		}
 	},
 	{
-		option_desc = "在路过运动场时，听到了重物拖过地板的声音。\n当准备离开运动场时，拖动声再次出现了。经过辨认，这次声音是从运动场的室内部分传出的。\n跑向室内运动场时，踩到走廊上的积水，险些滑了一跤。和从拐角奔跑来的埃塞克斯侦探相撞。\n之后，与埃塞克斯侦探一同打扫了室内运动场走廊上的积水。\n辛苦劳动后，邀请埃塞克斯在睡前去露天水吧喝一杯，不过被她以继续调查拖动声为由拒绝了。",
-		option_desc_2 = "运动场中，出现了数次位置来源不同的疑似重物拖动声。",
-		option = "进入调查",
+		option_desc = "As I was passing by the gym, I heard the scraping of a heavy object being dragged along the floor.\nJust as I considered leaving, I heard the sound again. Upon closer inspection, it was coming from further inside the gym.\nI immediately ran in to check and nearly slipped on a puddle. Then I turned a corner and literally bumped into Essex.\nWe decided to clean up the place so nobody else would slip.\nI offered her a drink at the balcony bar for her hard work, but she politely turned me down, citing wanting to focus on her investigation.",
+		option_desc_2 = "Strange sounds like a heavy object being dragged have been in various places around the gym.",
+		option = "(Investigate.)",
 		id = 3,
-		title = "线索三：运动场的巨响",
+		title = "Noise in the Gym",
 		option_desc_display = {
 			{
-				"凌晨的运动场上空空荡荡。没有发现人，也没有发现货物推车。"
+				"It's midnight, and the gym is empty. There are no people, of course, but also no cargo carts in sight."
 			},
 			{
-				"“难道刚才听到的声音是邮轮运行中的机械音么……”就当如此想着准备离开运动场时，拖动声再次出现了。"
+				"I wonder if what I heard was just noise from some machine and consider leaving, but then I hear the sound again."
 			},
 			{
-				"经过辨认，这次声音是从运动场的室内部分传出的。"
+				"Upon closer inspection, it's coming from further inside the gym."
 			},
 			{
-				"跑向室内运动场时，踩到走廊上的积水，险些滑了一跤。"
+				"I run toward the source of the noise to see what it is, and I nearly slip on a puddle of water in the corridor."
 			},
 			{
-				"还未稳住身形，另一个奔跑的身影从不远处的拐角处出现，然后在积水的作用下扑倒过来。"
+				"Before I can regain my balance, someone enters the corridor and they, too, slip on a puddle."
 			},
 			{
-				"“呜啊！快躲开！！”这是在将我扑倒前的瞬间，身影的主人埃塞克斯侦探发出的最后警告。"
+				"\"Oh no! Look out!\" were Detective Essex's last words immediately before she slammed into me."
 			},
 			{
-				"之后，与埃塞克斯侦探一同打扫了室内运动场走廊上的积水。"
+				"Since it's clearly a tripping hazard, she and I decide to wipe the floor."
 			},
 			{
-				"辛苦劳动后，邀请埃塞克斯在睡前去露天水吧喝一杯，不过被她以继续调查拖动声为由拒绝了。"
+				"I offer her a drink at the balcony bar for her hard work, but she politely turns me down, citing wanting to focus on her investigation."
 			},
 			{
-				"今天的时间也差不多了，该去休息了。"
+				"That's enough for one day. It's time to rest."
 			}
 		}
 	},
 	{
-		option_desc = "收到龙武的联络后来到了中央厨房。\n根据龙武所说，她和其他东煌同伴原本正在为几个小时后的早餐准备包子，可是盛放包子馅儿的容器却不见了。\n联系警卫室调取监控后，却发现原本放置包子馅容器的位置正好处于监控死角中。\n……真是令人毫不意外的结果。",
-		option_desc_2 = "厨房中的肉包子馅在一转眼间就全部消失了。",
-		option = "听取龙武的汇报",
+		option_desc = "I got a message from Lung Wu to come to the central kitchen.\nApparently, she and her Empery friends were making breakfast baozis when they noticed the container with the stuffing inside had disappeared.\nI called the security room and got the surveillance camera footage. It turned out that the container was placed just out of sight of the camera.\nSomehow I'm not surprised at all.",
+		option_desc_2 = "A container full of freshly-cut meat stuffing vanished in the blink of an eye from the kitchen.",
+		option = "(Ask Lung Wu about her report.)",
 		id = 4,
-		title = "线索一：消失的包子馅",
+		title = "The Stolen Stuffing",
 		option_desc_display = {
 			{
-				"“包子馅儿！我们刚调好的包子馅儿不见了！”神情激动的龙武交代了本次联络的原因。"
+				"\"It's gone!\" she explains, \"The stuffing I just made for our meat buns is all gone!\""
 			},
 			{
-				"根据龙武所说，她和其他东煌同伴原本正在为几个小时后的早餐准备包子，可是盛放包子馅儿的容器却不见了。"
+				"Apparently, she and her Empery friends were making breakfast baozis when they noticed the container with the stuffing inside had disappeared."
 			},
 			{
-				"“刚调好的馅儿，都是肉啊！放边上一转眼的功夫就没了！“"
+				"\"I worked hard on that stuffing!\" she elaborates, \"It was all meat, too! I looked away for just an instant, and then it was gone!\""
 			},
 			{
-				"“发面团倒是还在……可是没馅儿了，不就只能改做馒头了嘛！”龙武主厨气愤地说道。"
+				"\"All that's left is the dough. Without stuffing,\" she says with anger, \"the only thing I can make is steamed buns, dammit!\""
 			},
 			{
-				"联系警卫室调取监控后，却发现原本放置包子馅容器的位置正好处于监控死角中。"
+				"I call the security room and get the surveillance camera footage. It turns out that the container was placed just out of sight of the camera."
 			},
 			{
-				"……真是令人毫不意外的结果。"
+				"Somehow I'm not surprised at all."
 			},
 			{
-				"又经过一番调查，于此处没有发现更多线索。接下来去别处调查吧。"
+				"That's all the clues I'm getting out of this place. It's time to visit a different location."
 			}
 		}
 	},
 	{
-		option_desc = "收到纽卡斯尔的联络来到了宴会厅的储藏室。\n纽卡斯尔表示，皇家女仆队为明日早茶所预制好的点心在此处遭到了洗劫。\n经过评估，点心的损失情况不算特别严重，不过十分有特点。\n所有含有肉类的点心都被拿走了，不含有肉类的点心被拿走了一部分，而所有含有蔬菜的点心都被留下了。\n联系警卫室调取监控后，却发现此处的监控器在案发时遭受到了干扰，出现了十秒左右的空档。\n……真是令人毫不意外的结果。",
-		option_desc_2 = "宴会厅储藏室中的点心遭到了洗劫，其中含肉的点心损失情况最为严重。",
-		option = "听取纽卡斯尔的汇报",
+		option_desc = "Newcastle contacted me, urging me to come to the banquet hall's food storage.\nShe told me that the food to be served at tomorrow's Royal Maid tea party had been stolen.\nThe extent of the damage wasn't that severe, but the perpetrator clearly had very particular targets in mind.\nEverything with meat in it was missing, so were some things without meat, but everything with vegetables in it was still here.\nI called the security room and got the surveillance camera footage. The camera there malfunctioned at the time of the crime, leaving a gap of about 10 seconds.\nThis didn't come as a surprise to me whatsoever.",
+		option_desc_2 = "The food storage in the banquet hall was looted. Primarily food that contains meat was stolen.",
+		option = "(Ask Newcastle about her report.)",
 		id = 5,
-		title = "线索二：被洗劫的点心",
+		title = "The Ransacked Fridge",
 		option_desc_display = {
 			{
-				"纽卡斯尔表示，皇家女仆队为明日早茶所预制好的点心在此处遭到了洗劫。"
+				"She tells me that the food to be served at tomorrow's Royal Maid tea party has been stolen."
 			},
 			{
-				"经过评估，点心的损失情况不算特别严重，不过十分有特点。"
+				"My examination reveals that the extent of the damage isn't that severe, but the perpetrator clearly had very particular targets in mind."
 			},
 			{
-				"所有含有肉类的点心都被拿走了，不含有肉类的点心被拿走了一部分，而所有含有蔬菜的点心都被留下了。"
+				"Everything with meat in it is missing, so are some things without meat, but everything with vegetables in it is still here."
 			},
 			{
-				"联系警卫室调取监控后，却发现此处的监控器在案发时遭受到了干扰，出现了十秒左右的空档。"
+				"I call the security room and get the surveillance camera footage. The camera here malfunctioned at the time of the crime, leaving a gap of about 10 seconds."
 			},
 			{
-				"……真是令人毫不意外的结果。"
+				"This doesn't come as a surprise to me whatsoever."
 			},
 			{
-				"又经过一番调查，于此处没有发现更多线索。接下来去别处调查吧。"
+				"That's all the clues I'm getting out of this place. It's time to visit a different location."
 			}
 		}
 	},
 	{
-		option_desc = "两起事件都与食物有关，而说到食物保有量最大的地方，无疑就是仓库了。\n检查仓库大门后发现，仓库的大门紧闭，门上的锁孔完好，没有发现任何被人试图以非正常手段开启的痕迹。\n联系警卫室调取监控后，这一次顺利调取到了监控录像。监控无死角地覆盖了仓库大门。\n录像中，监控器无死角覆盖了仓库的各个角落，也没有出现任何遭受干扰的现象。",
-		option_desc_2 = "保有食物量最大的仓库在今夜没有遭受到任何入侵。",
-		option = "检查仓库大门",
+		option_desc = "Both the previous two incidents involved food. The place with the most food on board is without a doubt the warehouse.\nThe door was still sealed shut and the lock was intact. There was no sign that anyone used an unlawful method to get in.\nI called the security room and got the surveillance camera footage. This time, there was no blind spot or temporary outage.\nThe cameras perfectly covered each and every angle of the warehouse, and there was no sign of any theft.",
+		option_desc_2 = "The warehouse, despite having more food than anywhere else on the ship, has gone completely unscathed.",
+		option = "(Examine the warehouse door.)",
 		id = 6,
-		title = "线索三：完好无损的仓库",
+		title = "The Untouched Warehouse",
 		option_desc_display = {
 			{
-				"仓库的大门紧闭，门上的锁孔完好，没有发现任何被人试图以非正常手段开启的痕迹。"
+				"The door is sealed shut and the lock is intact. There's no sign that anyone used an unlawful method to get in."
 			},
 			{
-				"联系警卫室调取监控后，这一次顺利调取到了监控录像。监控无死角地覆盖了仓库大门。"
+				"I call the security room and get the surveillance camera footage. This time, there's no blind spot or temporary outage."
 			},
 			{
-				"录像中，监控器无死角覆盖了仓库的各个角落，也没有出现任何遭受干扰的现象。"
+				"The cameras perfectly cover each and every angle of the warehouse, and there is no sign of any theft."
 			},
 			{
-				"当然——也什么都没发现。毕竟没有任何来自仓库管理员的异常事件汇报，本次检查只是以防万一而已。"
+				"My scrutiny reveals nothing. The manager of the warehouse never reported anything unusual in the first place, but I wanted to be sure."
 			},
 			{
-				"又经过一番调查，于此处没有发现更多线索。"
+				"That's all the clues I'm getting out of this place."
 			},
 			{
-				"布里斯托尔发来了联络，接下来前去神秘角落与调查小队成员汇合吧。"
+				"Then, Bristol shoots me a message. I decide to head to the mystery room and meet up with the other investigators."
 			}
 		}
 	},
 	{
-		option_desc = "根据抚顺收集到的情报来到了居住船舱（A区）的某条走廊中。\n据情报所称，这里在临近午夜之时总会出现一组规律的脚步声，可是却没人见到过脚步声的主人。\n时间一分一秒地过去，我与抚顺屏气凝神等待着。\n啪嗒，啪嗒——一串脚步声居然真的凭空出现在走廊中。\n抚顺大吼一声，扑向声音传出的位置。然而，走廊之中空无一人，脚步声也消失了。\n联系警卫室调取监控后，监控录像中除了我与抚顺，走廊上确实不曾出现过第三个人。",
-		option_desc_2 = "居住区的某条走廊在午夜会传来神秘的脚步声。",
-		option = "开始调查",
+		option_desc = "Fu Shun and I came to cabin quarter A in order to investigate a lead she had found.\nAccording to her info, one can hear a perfectly disciplined set of footsteps as midnight approaches. Nobody has ever seen the cause of these footsteps.\nTime passed by little by little. We waited with bated breath.\nThen, we heard the tapping of footsteps from in the corridor.\nFu Shun screamed before rushing in the direction of the sound, but nobody was in the corridor. The footsteps faded, too.\nWe contacted security to check the surveillance cameras, and there was no footage of anyone else going through the corridor.",
+		option_desc_2 = "Mysterious footsteps can be heard from a corridor near the cabins late at night.",
+		option = "(Begin investigation.)",
 		id = 7,
-		title = "线索一：午夜的脚步声",
+		title = "Footsteps in the Night",
 		option_desc_display = {
 			{
-				"据情报所称，这里在临近午夜之时总会出现一组规律的脚步声，可是却没人见到过脚步声的主人。"
+				"According to her info, one can hear a perfectly disciplined set of footsteps as midnight approaches. Nobody has ever seen the cause of these footsteps."
 			},
 			{
-				"“幽灵，肯定是幽灵做的！”抚顺兴奋地挥舞着手中的照相机。"
+				"\"It's a ghost! This must be the work of a ghost!\" Fu Shun excitedly swings her camera about."
 			},
 			{
-				"时间一分一秒地过去，我与抚顺屏气凝神等待着。"
+				"Time passes by little by little. We wait with bated breath."
 			},
 			{
-				"啪嗒，啪嗒——一串脚步声居然真的凭空出现在走廊中。"
+				"Then, we hear the tapping of footsteps from in the corridor."
 			},
 			{
-				"“嘿——看你哪里跑！”抚顺大吼一声，扑向声音传出的位置。"
+				"\"Get back here! I'm not letting you get away!\" Fu Shun screams, before rushing in the direction of the sound."
 			},
 			{
-				"然而，走廊之中空无一人，脚步声也消失了。"
+				"But nobody's in the corridor. The footsteps have faded, too."
 			},
 			{
-				"联系警卫室调取监控后，监控录像中除了我与抚顺，走廊上确实不曾出现过第三个人。"
+				"We contacted security to check the surveillance cameras, and there's no footage of anyone else going through the corridor."
 			},
 			{
-				"……难道，真的是幽灵？"
+				"Could it really be a ghost, after all?"
 			}
 		}
 	},
 	{
-		option_desc = "接到记者兼调查员阿尔弗雷多的联络，来到了居住船舱（B区）。\n阿尔弗雷多兴奋地向我展示了一张照片。照片的背景一片漆黑，唯有在角落处出现了一个惨白的身影。\n根据背景中出现的房号可以判定，照片是在居住船舱A区拍摄的，而那个惨白的身影确实漂浮在半空中。\n这确实是一份十分有价值的线索，或许和走廊午夜的脚步声存在某种关联。\n在狠狠夸奖了阿尔弗雷多一番后，我将照片收入了档案袋。",
-		option_desc_2 = "阿尔弗雷多得到了一张走廊中的鬼影照片。",
-		option = "了解情况",
+		option_desc = "Detective-journalist Alfredo Oriani contacted me, and we met up at cabin quarter B.\nShe excitedly showed off a photo. The background was dark, save for a single pale figure looming in the corner.\nBased on the room numbers in the background, it must have been taken in cabin quarter A. The pale figure definitely looked realistic, too.\nThis is an extremely valuable clue. It might be related to the footsteps that have been heard in the corridor at night.\nAfter giving Alfredo my sincere compliments, I deposit the photo in my file.",
+		option_desc_2 = "Alfredo Oriani got a picture of a ghost in one corridor.",
+		option = "(Ask about the situation.)",
 		id = 8,
-		title = "线索二：鬼影照片",
+		title = "Spirit Photography",
 		option_desc_display = {
 			{
-				"阿尔弗雷多兴奋地向我展示了一张照片。照片的背景一片漆黑，唯有在角落处出现了一个惨白的身影。"
+				"Alfredo excitedly shows off a photo. The background is dark, save for a single pale figure looming in the corner."
 			},
 			{
-				"“嘿嘿，这可是我好不容易才从{namecode:55}那里换到的情报哦！不得不说，重樱对这些东西确实有一套~鬼影照片，厉害吧！”阿尔弗雷多得意地推了推墨镜。"
+				"\"Heheheh, I put Aoba through the wringer to get this secret scoop! The Sakura Empire's too good at this stuff~ Isn't this an awesome photo?\" Alfredo smugly pushes up her sunglasses."
 			},
 			{
-				"根据背景中出现的房号可以判定，照片是在居住船舱A区拍摄的，而那个惨白的身影确实漂浮在半空中。"
+				"Based on the room numbers in the background, this must have been taken in cabin quarter A. The pale figure definitely looks realistic, too."
 			},
 			{
-				"这确实是一份十分有价值的线索，或许和走廊午夜的脚步声存在某种关联。"
+				"This is an extremely valuable clue. It might be related to the footsteps that have been heard in the corridor at night."
 			},
 			{
-				"在狠狠夸奖了阿尔弗雷多一番后，我将照片收入了档案袋。"
+				"After giving Alfredo my sincere compliments, I deposit the photo in my file."
 			},
 			{
-				"此处已经没有更多线索了，去别处调查吧。"
+				"There don't seem to be any more clues around. Time to check elsewhere."
 			}
 		}
 	},
 	{
-		option_desc = "路过居住船舱（C区）的走廊时，看见了一个鬼鬼祟祟的身影。——是侦探埃塞克斯。\n根据埃塞克斯所述，她正在调查一个“无法逃离的走廊”的传闻。据说，只要有两个人在深夜来到这条走廊内，就再也别想离开了。\n疑惑之中，我与埃塞克斯穿过本应是走廊出口的地方。然而，我们并没有穿越走廊。房号显示，我们又回到了走廊的入口之处。\n一段时间后，我与埃塞克斯都成功走出了走廊，看来也没有传闻中那么夸张嘛。",
-		option_desc_2 = "居住区的某条走廊会出现使人迷失方向的浓雾。",
-		option = "准备战斗",
+		option_desc = "When I went through the corridor of cabin quarter C, I saw Essex skulking around.\nShe claimed that she was just in the middle of investigating rumors of an inescapable corridor.\nThe rumors say that when two people enter the corridor late at night, they may never leave again.\nShe pulled me by the hand and ran toward the corridor, yet we couldn't go through. When I checked the room numbers, we'd been returned to where we came from.\nIn the end, we manage to get out of the corridor just fine. I think the rumors were a little exaggerated.",
+		option_desc_2 = "In one corridor, a thick fog appears and disorients people passing through.",
+		option = "(Prepare for combat.)",
 		id = 9,
-		title = "线索三：无法逃离的走廊",
+		title = "The Inescapable Corridor",
 		option_desc_display = {
 			{
-				"“等、等等！怎么就突然准备战斗了啊！”一个慌张的声音从斗篷之后传出——是侦探埃塞克斯。"
+				"From behind their cloak, I hear a panicked voice. \"H-hold on! Why do you look like you're ready for a fight?!\" It's Detective Essex."
 			},
 			{
-				"根据埃塞克斯所述，她正在调查一个“无法逃离的走廊”的传闻。"
+				"She claims that she was just in the middle of investigating rumors of an inescapable corridor."
 			},
 			{
-				"据说，只要有两个人在深夜来到这条走廊内，就再也别想离开了。"
+				"The rumors say that when two people enter the corridor late at night, they may never leave again."
 			},
 			{
-				"“没想到触发条件就这么集齐了！我本来还想打电话叫香格里拉过来呢。那机不可失，我们来试试这条传闻的真假吧！”侦探埃塞克斯拉着我向着走廊的出口跑去。"
+				"\"I was going to call Shangri-La and have her come here, but since you wandered in, we have everything we need! It's time to figure out whether this rumor holds any water or not!\" Detective Essex pulls me by the hand and runs toward the corridor."
 			},
 			{
-				"随着出口越来越近，四周的雾气也越来越浓。"
+				"As we approach the door, the fog around us thickens."
 			},
 			{
-				"“好奇怪啊……船舱中哪儿来的雾气呢。”疑惑之中，我与埃塞克斯来穿过本应是走廊出口的地方。"
+				"While I wonder to myself why there's fog in a cruise ship, Essex and I pass through what should've been the door to the corridor."
 			},
 			{
-				"然而，我们并没有穿越走廊。房号显示，我们又回到了走廊的入口之处。"
+				"Yet we couldn't go through. When I check the room numbers, we've been returned to where we came from."
 			},
 			{
-				"“没想到传闻居然是真的？！那这次我们相互往反方向走，看看能不能出去！“埃塞克斯兴奋地向前跑去，我也转身向来时的方向走去。"
+				"\"The rumors were true?! Commander, let's try walking in opposite directions this time!\" Essex excitedly runs forward, so I turn to go the other way."
 			},
 			{
-				"一段时间后，我与埃塞克斯都成功走出了走廊，看来也没有传闻中那么夸张嘛。"
+				"In the end, we manage to get out of the corridor just fine. I think the rumors were a little exaggerated."
 			}
 		}
 	},
 	{
-		option_desc = "路过电影院时，听到了一声凄惨的尖叫，紧接着是一连串细小的爆炸声。\n进入后，在电影院中发现了缩成一团瑟瑟发抖的伊丽莎白、在一旁服侍的贝尔法斯特和维持警戒状态的谢菲尔德。\n放眼望去，放映机已经被子弹摧毁，电影停止了播放。\n立刻前往放映室，在机器残骸中找到了被替换的电影带。\n埃塞克斯侦探发现电影带像是卡萨布兰卡的珍贵收藏，布里斯托尔因此认定卡萨布兰卡就是制造事件的人。\n不过抚顺与阿尔萨斯随即提出反对意见。最终四票比一票，布里斯托尔的结论被打回。",
-		option_desc_2 = "伊丽莎白在看电影时，喜剧片突然变成了恐怖片。",
-		option = "进入电影院",
+		option_desc = "When I passed by the movie theater, I heard a scream followed by several small explosions.\nI went inside and found three people: Elizabeth curled up in a ball and quivering, Belfast trying to console her, and Sheffield on alert.\nI investigated and found that the projector had been destroyed by gunfire, stopping the movie.\nDetective Essex said the film was from Casablanca's precious collection, so Bristol asserted that Casablanca was the perpetrator.\nHowever, she was outnumbered four to one, and was forced to give up on her theory.",
+		option_desc_2 = "When Elizabeth was watching a comedy movie, it suddenly turned into a horror movie.",
+		option = "(Enter the movie theater.)",
 		id = 10,
-		title = "线索一：被更换的录像带",
+		title = "The Switched Film",
 		option_desc_display = {
 			{
-				"进入后，在电影院中发现了缩成一团瑟瑟发抖的伊丽莎白、在一旁服侍的贝尔法斯特和维持警戒状态的谢菲尔德。"
+				"I go inside and find three people: Elizabeth curled up in a ball and quivering, Belfast trying to console her, and Sheffield on alert."
 			},
 			{
-				"“本王在看喜剧片的时候，突然间就变成恐怖片了！仆从，快去调查原因！”受到惊吓的伊丽莎白描述了事件的经过。"
+				"Elizabeth explains the situation, still shaking like a leaf, \"We were watching a comedy movie, and it turned into a horror movie out of nowhere! Servant, investigate this!\""
 			},
 			{
-				"放眼望去，放映机已经被子弹摧毁，电影停止了播放。"
+				"I investigate and find that the projector has been destroyed by gunfire, stopping the movie."
 			},
 			{
-				"立刻前往放映室，在机器残骸中找到了被替换的电影带。"
+				"I go to the projection booth and find the film amidst the wreckage."
 			},
 			{
-				"“这份电影带，很像卡萨布兰卡的珍贵收藏呢！还好没被打坏，不然她可得哭好一会了~”闻讯而来的埃塞克斯侦探如此说道。"
+				"Detective Essex came running as soon as she'd heard the news. \"This film is from Casablanca's precious collection! It's a good thing it isn't damaged... She'd cry for days.\""
 			},
 			{
-				"“我知道了！制造这起事件的人就是卡萨布兰卡！”同样闻讯而来的布里斯托尔迅速得出了结论。不过抚顺与阿尔萨斯随即提出反对意见。"
+				"Bristol, who'd also come running, already had a theory brewing. \"I know! Casablanca must have caused this!\" However, Fu Shun and Emanuele immediately and vehemently disagree."
 			},
 			{
-				"最终四票比一票，布里斯托尔的结论被打回。"
+				"Outnumbered four to one, Bristol is forced to give up on her theory."
 			},
 			{
-				"除此之外，没有在此地发现更多线索，继续分头调查吧。"
+				"No more clues here. Time to check elsewhere."
 			}
 		}
 	},
 	{
-		option_desc = "收到佩萨格诺的联络，大浴场中举行的撒丁派对出现了一场极其严重的危机事件。\n推门进入后，身裹浴巾、一脸愤怒的的里雅斯特介绍了事情的经过。\n原来就在不久前，撒丁众人发现，自己为派对准备的披萨上出现了菠萝片。\n“是今晚为派对准备的所有披萨，所有！披萨！都被放上了菠萝片！”的里雅斯特包含情绪地纠正道。\n“其实菠萝披萨……还蛮好吃的哦？”同样闻讯而来的侦探埃塞克斯开心地说道，然后拿了一块披萨放入口中，“嗯~美味！”\n在事态进一步升级之前，以继续调查为名拉着侦探埃塞克斯一同离开了大浴场。",
-		option_desc_2 = "撒丁众人在开派对时，准备的所有披萨都变成了菠萝披萨。",
-		option = "迅速推门进入",
+		option_desc = "Emanuele Pessagno called me about a serious crisis that unfolded at the Sardegnian bath party.\nA short while ago, the Sardegnian shipgirls found that the pizzas they'd made for their party had pineapple slices on it.\n\"All of the pizzas we made for tonight! Every single one! All pineappled!\" Trieste emotionally added.\n\"Umm... I think pineapple on pizza is pretty good,\" said Detective Essex, who took a bite of pizza and clearly liked it.\nI dragged her out of the baths before things could escalate further.",
+		option_desc_2 = "When the Sardegnian girls were partying, their pizzas all had pineapples on them.",
+		option = "(Strike while the iron is hot. Barge in.)",
 		id = 11,
-		title = "线索二：披萨上的菠萝",
+		title = "The Pineappled Pizza",
 		option_desc_display = {
 			{
-				"推门进入后，身裹浴巾、一脸愤怒的的里雅斯特介绍了事情的经过。"
+				"When I throw open the door, one furious Trieste, wearing only a towel, explains what happened."
 			},
 			{
-				"原来就在不久前，撒丁众人发现，自己为派对准备的披萨上出现了菠萝片。"
+				"A short while ago, the Sardegnian shipgirls found that the pizzas they'd made for their party had pineapple slices on them."
 			},
 			{
-				"“是今晚为派对准备的所有披萨，所有！披萨！都被放上了菠萝片！”的里雅斯特包含情绪地纠正道。"
+				"\"All of the pizzas we made for tonight! Every single one! All pineappled!\" Trieste emotionally adds."
 			},
 			{
-				"“真是个大新闻，但是我一点也不觉得开心！”闻讯而来的阿尔弗雷多一边拍照，一边默默擦着眼泪。"
+				"Alfredo wastes no time. She rushes to the scene and takes pictures, all the while wiping her tears. \"It's a huge scoop, but I can't even be happy about it!\""
 			},
 			{
-				"“其实菠萝披萨……还蛮好吃的哦？”同样闻讯而来的侦探埃塞克斯开心地说道，然后拿了一块披萨放入口中，“嗯~美味！”"
+				"\"Umm... I think pineapple on pizza is pretty good,\" says Detective Essex, who had likewise rushed here. She takes a bite of pizza. \"Mmm, tasty!\""
 			},
 			{
-				"在事态进一步升级之前，以继续调查为名拉着侦探埃塞克斯一同离开了大浴场。"
+				"After making the excuse that we have more important things to investigate, I drag Detective Essex out of the baths before things can escalate further."
 			}
 		}
 	},
 	{
-		option_desc = "路过大商场时，埃塞克斯突然提出要去商场里购买纪念品。\n进入商场后，埃塞克斯立刻选好了自己的目标——一个大章鱼玩偶。\n在确认结账的瞬间，自动收银机突然吐出了与玩偶标价相等的物资。埃塞克斯兴奋地抓起了最大的购物袋。\n正当我以利用系统故障占便宜不太好为理由制止埃塞克斯时，埃塞克斯指了指店铺的牌子——“{namecode:98}的假日玩具店”。\n最后，与埃塞克斯一同满载而归了。",
-		option_desc_2 = "与埃塞克斯一同购物时，收银机突然开始主动吐钱。",
-		option = "进入商场",
+		option_desc = "As we walked by the mall, Essex suddenly said she wanted to go in and buy souvenirs.\nAs soon as we went in, Essex found her mark – a giant octopus plushie.\nWhen we finished paying, the automatic cash register spat out money – the exact price of the plushie. Seeing this, Essex gleefully grabbed the biggest shopping bag in sight.\nI tried to stop her from taking advantage of an obvious mistake, but Essex pointed at the store's sign, which said, \"Akashi's Holiday Toy Store.\"\nIn the end, Essex did much \"shopping.\"",
+		option_desc_2 = "When I went shopping with Essex, the register started giving us money.",
+		option = "(Go in.)",
 		id = 12,
-		title = "线索三：暴走的收银机",
+		title = "The Rampaging Register",
 		option_desc_display = {
 			{
-				"进入商场后，埃塞克斯立刻选好了自己的目标——一个大章鱼玩偶。"
+				"When we go in, Essex has already found her mark – a giant squid plushie."
 			},
 			{
-				"“本以为要逛很久，没想到意外地速战速决了……”就当我抱着这样的心思打算将玩偶作为礼物买给埃塞克斯时，意外发生了。"
+				"Surprised at how quickly she'd made her decision, I get ready to buy the plushie for her. But then, something unexpected occurs."
 			},
 			{
-				"在确认结账的瞬间，自动收银机突然吐出了与玩偶标价相等的物资。"
+				"When we finish paying, the automatic cash register spits out money – the exact price of the plushie."
 			},
 			{
-				"“……买了玩偶之后非但没扣钱，还返还了等额的钱？怎么会有这种好事？那指挥官，咱们把这家店都买空吧~！”埃塞克斯兴奋地抓起了最大的购物袋。"
+				"\"Wait, the register paid us? Not the other way around? This is a huge win! Commander, let's buy everything in this shop!\" Essex gleefully grabs the biggest shopping bag in sight."
 			},
 			{
-				"正当我以利用系统故障占便宜不太好为理由制止埃塞克斯时，埃塞克斯指了指店铺的牌子——“{namecode:98}的假日玩具店”。"
+				"I try to stop her from taking advantage of an obvious mistake, but Essex points at the store's sign. It says \"Akashi's Holiday Toy Store.\""
 			},
 			{
-				"最后，与埃塞克斯一同满载而归了。"
+				"In the end, Essex did much \"shopping.\""
 			}
 		}
 	},

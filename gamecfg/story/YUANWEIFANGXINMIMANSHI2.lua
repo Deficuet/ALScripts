@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>致辞的准备</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Enterprise's Speech</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "As much as I want to check out the venue, I feel that I should have a look around the palace.",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "那边正在交谈的二人是……",
+			say = "Two people are having a chat just down the hall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯……需要留意的事项……我知道了。",
+			say = "That's everything I need to know? Noted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "原本以为是黎塞留在负责这些事，但没想到会是你，稍微有些令人意外。",
+			say = "I'm surprised that you came to tell me that. I was expecting Richelieu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~幕后的人偶尔也是需要走到台前来的。",
+			say = "What can I say? Even I – a known behind-the-scenes schemer – need to take center stage now and again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "白鹰的致辞环节，就拜托你了。",
+			say = "Now, I trust you're willing to deliver the Eagle Union's speech, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "明白，请放心吧，克莱蒙梭女士。",
+			say = "Yeah. I'm up for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "那么，我这边就先……嗯？指挥官？",
+			say = "Great. Then if you'll excuse me... Oh, if it isn't the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "噢~指挥官，你也已经到了啊。",
+			say = "Didn't see you there, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "打扰到你们的谈话了吗？",
+			say = "\"Good evening, you two. I hope I didn't interrupt your conversation.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "哪里的话，我们的谈话刚结束，指挥官出现的恰到好处哦。",
+			say = "Not at all. Your timing couldn't have been better, in fact. We just finished our little talk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "距离宴会正式开始还有一些时间，我会让人单独先拿些饮品来，两位慢聊~",
+			say = "Seeing as there's still some time before the banquet officially starts, I'll go on ahead and find some drinks. You two have a good one, now.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "请问，指挥官，你在来的路上有没有看到埃塞克斯和马萨诸塞？",
+			say = "You haven't seen Essex or Massachusetts around, have you? They said they were on the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "好像没有，你们走散了么？",
+			say = "As far as I can tell by Enterprise's expression, she doesn't seem particularly worried about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "没有，只是稍微有些在意她们。",
+			say = "\"Can't say I have, no. Do you reckon they've gotten lost?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "埃塞克斯在帮我换完礼服后就莫名其妙消失了。",
+			say = "Maybe. I helped Essex with her dress, then sometime later she just disappeared on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "马萨诸塞也一样，在换完礼服后就颇有兴致的离开了。",
+			say = "Same with Massachusetts. She put on her dress, I turned around for a minute, and she was gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "倒不是担心她们会出什么危险，毕竟是在会场之中。",
+			say = "They're obviously SOMEWHERE in the palace, so I don't think they're in danger or anything. It's just...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "只不过……算了，随她们去吧。",
+			say = "Ah, forget it. I'm sure they're just doing something to pass the time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "指挥官，请问你现在有时间么？",
+			say = "Anyway... Could I have a minute of your time, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "我有件事情想听一听你的看法。",
+			say = "It's nothing important. I just wanted to ask you something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "当然。不过企业在现在，在这种场合下想听的看法……",
+			say = "\"Sure, not a problem. What's on your mind?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "……指挥官，觉得我这一身礼服怎么样？",
+			say = "It feels weird to just come forth and ask it outright, but... what do you think about my dress?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,22 +446,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "………………",
+			say = "I expected something else, given how she beat around the bush for a bit. I'm relieved this is all it was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很适合你",
+					content = "\"It looks great on you.\"",
 					flag = 1
 				},
 				{
-					content = "非常适合你",
+					content = "\"You completely own the look.\"",
 					flag = 3
 				},
 				{
-					content = "相当适合你",
+					content = "\"It's breathtakingly beautiful.\"",
 					flag = 2
 				}
 			}
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "是这样么……太好了。",
+			say = "You really think so?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "平时没什么机会穿这样的衣服，稍微有些没自信。",
+			say = "It took a while to put on, and I rarely ever wear dresses, so I wasn't entirely sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "你能喜欢真是太好了。",
+			say = "Hearing you say it does look good is a big relief.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "刚才在来的时候，好像听克莱蒙梭提到了致辞。",
+			say = "\"Glad to give you some peace of mind. On another subject, what were you and Clemenceau talking about earlier?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯，毕竟今天不是单纯的宴会，而是整个庆典的一部分。",
+			say = "Oh, that. We were discussing a speech for the banquet. It's a big day, after all, so it feels appropriate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "所以会有我代表白鹰进行致辞的环节。",
+			say = "She asked me to deliver it on behalf of the Eagle Union.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "原来如此，需要帮忙么？",
+			say = "\"I see. Do you need any help with that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "演讲稿本身我已经写完了，不过……",
+			say = "Well, the script itself is already finished, so I'm good on that front.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "嗯，指挥官如果不介意的话，能帮我检查一下细节就更好了。",
+			say = "But I'd appreciate it if you could read it through, and maybe offer some feedback too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "当然没问题，只是，在这纷乱的会场中似乎有些静不下心来。",
+			say = "\"I could do that, no problem. First, though, we should find a place with fewer inquisitive people.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107065,
-			say = "确实如此……那么指挥官，我们去找一间空屋子吧。",
+			say = "You're right. Someplace quiet would be ideal. Let's go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "与企业一同，暂时离开了宴会的会场——",
+			say = "And so, Enterprise and I take off, leaving the hall behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

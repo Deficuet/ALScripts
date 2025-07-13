@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万圣夜的「奇遇」\n\n<size=45>五　不速之客</size>",
+					"Halloween Hijinks\n\n<size=45>5 An Uninvited Guest?</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "远离主题公园的海岸边，一个黑色的身影独自站在那里。",
+			say = "On the beach near the Halloween party venue, I found a pirate girl wearing a red hat.",
 			bgm = "battle-highseasfleet-reborn",
 			flashout = {
 				black = true,
@@ -48,14 +48,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "请问……",
+			say = "When I addressed her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘——",
+			say = "Shh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你听见了么，来自大海的悲鸣。",
+			say = "Do you hear the ocean's cries?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "你是指海浪的声音……？",
+			say = "\"You mean the sound of waves hitting shore?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,13 +106,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是大海的悲鸣啊，悲鸣！",
+			say = "Hmph. I said they're the ocean's cries! Geez!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,14 +136,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "海盗打扮的少女走进灯光下，有些不满地盯着我看。",
+			say = "The pirate girl with the hat turned around and glared at me unhappily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话说，你哪位啊？",
+			say = "Who are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "我是这里的指挥官，你是哪位？",
+					content = "(Play along)",
 					flag = 1
 				}
 			}
@@ -171,14 +171,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦~你就是这里的姑娘们都在谈论的指挥官啊。",
+			say = "Aha, I see. So you're the one that my friends here... Ahem. You're the one that these lasses call the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "初次见面，我就是乘风破浪而来，为了寻找世间所有美好之物而游历四方的，充满谜团的，可爱又迷人的——",
+			say = "I am the mysterious, heartstopping shipgirl who rides wind and waves alike, searching all the seven seas for the beauties of the world...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大海盗————皇家财富号！",
+			say = "Royal Fortune, of the great Tempesta!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			},
 			options = {
 				{
-					content = "所以……其实你是偷偷混进来的吧？",
+					content = "(Stare vacantly)",
 					flag = 1
 				}
 			}
@@ -249,7 +249,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是混进来的，不过是光明正大混进来的！我进来的时候也没人拦我啊~",
+			say = "What?! I just walked into the venue, okay?! Nobody tried to stop me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "……没人拦截的原因，恐怕是你这身海盗的衣服恰好隐藏在了万圣节的鬼怪之中了吧。",
+			say = "\"In that get-up, you don't really stand out at a Halloween party. And pirate swords kind of look like Halloween props...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许吧~今晚的鬼怪夜会确实有趣，不过我这身可不是伪装，而是货真价实的哦。",
+			say = "Ah, well. This Halloween stuff is fun! But I'm the real thing, got it?! This ain't a costume!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实……我正在寻找隐藏在会场中的财宝呢！要不要来陪我转转？",
+			say = "So, I'm looking for treasure hidden in this venue. Wanna search with me, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "在这之前，首先应该解释一下你的身份问题吧？",
+			say = "\"Huh? Wait, are you serious about that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我不是说了么，大海盗，皇家财富号！",
+			say = "Of course! I'm Royal Fortune of the great Tempesta, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我懂我懂~这里是你的场子，放心吧我不会捣乱的。",
+			say = "But there are a lot of people here, so I probably won't do anything too crazy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果实在是不放心的话，就更应该跟我一起转转了吧？",
+			say = "If you can't rest easy with me running around, then you'll just have to scour the venue with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就当是监督一下我这位不安分的海盗小姐好咯？",
+			say = "You're a Commander, aren't ya? Shouldn't you be watching over the shipgirls anyway?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "……看来也没有更好的办法了。如果只是想玩的话，欢迎你，海盗小姐。",
+			say = "\"...Well, I definitely can't leave you alone now. I've got no choice; I'll tag along for a little while.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "不过隐藏在会场中的宝藏……这里恐怕没有这样的东西吧。",
+			say = "\"But I haven't heard about any treasure buried in the venue...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有的~有的~你看着这里的宣传传单，上面写的不就是吗？",
+			say = "There's treasure! See?! It's written on this flyer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "接过传单，上面写着「最先找到会场内宝藏之人，将会获得一周的甜品免费畅饮券喵~」",
+			say = "I read the flyer, and indeed it said, \"The first person to get the treasure gets free drinks for a week, nya!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走吧走吧~身为大海盗，我怎么能对眼前的财宝坐视不理呢！",
+			say = "As a pirate of the great Tempesta, I can't cast aside treasure lying before my very eyes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……啊，首先先得填饱肚子才行。循着香味飘来的方向，冲啊冲啊！",
+			say = "*grumble* B-But first, I need food in my belly! Let us set sail toward the smell of delicious food! Yo ho, heave ho!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "皇家财富突然抽出腰间的佩刀，高举过头顶，一边喊着口号一边跑远了。",
+			say = "She raised the cutlass at her hip and charged toward the food court.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
-			say = "…………绝对不能放着她不管，还是赶紧跟上去吧。",
+			say = "To protect the venue from the cutlass—much more dangerous than the girl wielding it—I rushed after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

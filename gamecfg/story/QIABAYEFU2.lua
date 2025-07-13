@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"独占时光\n\n<size=45>二 忠诚与占有</size>",
+					"Bonded Together\n\n<size=45>Loyalty and Possessiveness</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "动物园·冰雪区",
+			say = "Zoo - Polar Habitat",
 			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "刚踏入冰雪区，一股清凉的空气便扑面而来，带走了身上的燥热。",
+			say = "When we get to the exhibit, chilly air touches my cheeks, taking all of the heat and tension out of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "玻璃墙后，一群企鹅悠闲地晃动着，或依偎在一起，或小步挪动，在雪面上留下歪歪扭扭的爪印。",
+			say = "Through the glass I see a flock of penguins. They sway, cuddle, and waddle leisurely about, leaving little footprints in the snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "企鹅繁育区尤为热闹，几对企鹅正蹲在一个个小隔间内孵蛋。还有些毛茸茸的小企鹅依偎在父母身旁，偶尔发出微弱的叫声。",
+			say = "The breeding area is particularly lively. In small, fenced-off areas, penguin couples warm their eggs. There are also some fuzzy little chicks snuggling in for warmth and chirping for attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "真是有趣的景象啊……它们总是成双成对，形影不离。",
+			say = "Doesn't it sound like fun? Always in pairs, inseparable for even a moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你是不是也挺喜欢这种“独占”的感觉？",
+			say = "It's like they're possessive of each other. Is that what you like about them, Chapayev?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "目光落在那些依偎在一起的企鹅身上，我随口调侃了一句。",
+			say = "I tease her while we watch the penguins in love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "这话刚出口，恰巴耶夫的目光便缓缓转向我，那双蓝眸在冷调的光线下显得愈发深邃。",
+			say = "She slowly turns to me. Her blue eyes are emphasized in the cold air, and her grin seems to deepen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "也许吧。谁会不想独享属于自己的东西……或爱人呢？",
+			say = "Maybe. Don't we all want things just for ourselves? Particularly... our lovers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,18 +143,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "她的声音带着一丝若有似无的尾音，像是刻意放慢的试探，又似随口而出。",
+			say = "That last word comes out like a sigh. It seems probing, though it's hard to see what she's after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是在暗示什么吗？",
+					content = "(Ask what she's getting at.)",
 					flag = 1
 				},
 				{
-					content = "“爱人”这种说法……是不是太夸张了？",
+					content = "(Point out her use of \"lovers.\")",
 					flag = 2
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "你是在暗示什么吗？",
+			say = "(Ask what she's getting at.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "恰巴耶夫的嘴角微微扬起，带着些许玩味。",
+			say = "Her lips curl up into a meaningful smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官觉得呢？既然是你主动问的，我可不介意给你一个直白的答案哦~",
+			say = "Hmm, is there? Since you asked so directly, maybe I should say it outright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "“爱人”这种说法……是不是太夸张了？",
+			say = "(Point out her use of \"lovers.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "恰巴耶夫轻轻笑了一声，目光停留在相互依偎的企鹅身上。",
+			say = "She giggles, leans on me again, and returns her attention to the penguins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "心之所向，情之所至，就是“爱人”。指挥官还没有过这种感觉吗？",
+			say = "I just said what came to mind. Have you never felt the same way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "这番话让空气微微凝滞，恰巴耶夫的目光在远处那对亲密无间的企鹅身上停留了一会儿，随后她忽然转过身，轻轻依偎进了我的怀里。",
+			say = "There's a short moment of silence. Chapayev gazes at a loving penguin couple before turning and snuggling into me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "她的动作温柔而亲昵，令人无法拒绝。",
+			say = "Her movements are so gentle and natural that, before I know it, I'm hugging her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "指挥官，我们现在……像不像那对企鹅？",
+			say = "Commander, wouldn't you say... that we're a lot like those penguins?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你这是在学企鹅？",
+			say = "Are you imitating them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "是呀，这样依偎着，感觉真的很安心呢。",
+			say = "Yep♪ Snuggling close to you is relaxing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "也许这就是动物的直觉吧——总是能找到最令自己安心的相处方式。",
+			say = "It's like animal instinct. Nobody tells them to do it, but they naturally find out how to reassure themselves and each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "说不定指挥官的怀抱，就是我的避风港呢~",
+			say = "And I think your arms... are the most reassuring place for me to be♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "她的声音轻柔，有着说不清道不明的满足感。",
+			say = "Her voice is filled with immense satisfaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "我也不自觉地放松了身体，享受着这一刻的悠闲与亲昵。",
+			say = "I subconsciously relax alongside her and enjoy the intimacy of the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "企鹅虽然不会说话，但它们用行动表达了自己的感情。",
+			say = "Penguins can't communicate as well as we can, but they understand each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,18 +375,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "亲密无间，形影不离……这种关系，指挥官会不会觉得太过黏人？",
+			say = "Forever inseparable... Heehee, is that too clingy for you, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "亲密关系本来就需要陪伴。",
+					content = "That's how I like it.",
 					flag = 1
 				},
 				{
-					content = "人与人的界限，和企鹅还是不太一样的。",
+					content = "People and penguins aren't the same.",
 					flag = 2
 				}
 			}
@@ -399,7 +399,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "亲密关系本来就需要陪伴，这算不上负担。",
+			say = "Love is fostered by togetherness, so I prefer it that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "恰巴耶夫微微扬眉，嘴角勾起一个意味深长的弧度。",
+			say = "She raises an eyebrow and grins at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我会记住指挥官的这句话。",
+			say = "Heehee... I'll remember that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "人与人的界限，和企鹅还是不太一样的。",
+			say = "People and penguins aren't the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "恰巴耶夫脸上的笑意不减，似乎并没有泄气，反而愈发有兴致了。",
+			say = "When she hears my answer, she seems oddly fascinated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 702030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样吗……如果人类也能像它们一样简单就好了。",
+			say = "Oh, really? If only we could be as simple as them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她没有再继续这个话题，而是转过头寻找着什么。",
+			say = "Without another word, she turns to look for something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "恰巴耶夫的目光若有似无地扫过我，随后落在了不远处的指引牌上。",
+			say = "After a quick glance at me, her eyes finally stop on a nearby sign.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702030,
-			say = "好啦，休息结束——但我们的约会还没结束哦~",
+			say = "Okay, that's enough of a break. Back to our date~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "恰巴耶夫离开了我的怀抱向前走去，她回过头伸出手，仿佛是在等待我主动跟上。",
+			say = "She suddenly leaves my arms and takes a step away. Then, she turns and offers me her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "互动区应该更有趣……指挥官，愿意陪我一起近距离看看这些可爱的家伙吗？",
+			say = "The interactive area will be even more fun. Don't you want to see these adorable animals up close and personal, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "在企鹅们好奇的目光注视下，我握住她的手向前走去。",
+			say = "The penguins watch on curiously as I take her hand and walk along with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽然港区的同伴里有许多是真正的女仆……",
+			say = "There are quite a lot of genuine maids around the port...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但不是女仆的大家还是会在活动的时候打扮成女仆呢，当然也包括我。",
+			say = "Still, some of us non-maids still dress up like maids on special occasions. Me included.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……我这么说，是不是有点太绕了呢……",
+			say = "...Maybe I'm being too roundabout with this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过，就算不是真正的女仆，你的要求我也会满足的。",
+			say = "What I'm trying to say is, even though I'm not a real maid, I can still fulfill all your requests.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我可不会输的。",
+			say = "Nobody else will outdo me on that front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

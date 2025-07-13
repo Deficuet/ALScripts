@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>五　大家的想法</size>",
+					"An Ode to the Sea\n\n<size=45>5 Always There for You</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "吃完晚餐后，在列克星敦的请求下帮她整理Live用的训练室。",
+			say = "After dinner, I accompany Lexington to the concert rehearsal room to help tidy it up.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好了，就是这里。",
+			say = "Here we are, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "有指挥官帮忙的话，应该很快就能把训练室整理好了。",
+			say = "With your help, this will be done in a flash.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "列克星敦推开了门，然而——",
+			say = "She opens the door, and to the surprise of us both...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！已经被收拾好了……",
+			say = "Huh? It's already been tidied up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "到底是什么时候……明明说过我来整理就好了的……",
+			say = "But why? I said I'd do it myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "训练室中的一切都被收拾的井井有条，就连地面都被擦得光洁如新，正倒映着皎洁的初升月色。",
+			say = "Not only is all the recording equipment neatly organized, but the floor has also been polished to a mirror sheen, reflecting moonlight coming in through the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,14 +143,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "上次和大家一起整理训练室是什么时候？",
+					content = "\"When was the last time anyone was here?\"",
 					flag = 1
 				}
 			}
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔，有些时间了吧，感觉连亲自登台都快成回忆了……",
+			say = "A decent while ago. It feels like it's been ages since I last went on stage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我做一些后台的工作就好了，我多做一些，大家就能轻松一些。",
+			say = "I mainly do background work these days. It makes everyone else's job easier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "毕竟我要求大家准备更加复杂精彩的节目，剩下的杂务自然应该我来处理。",
+			say = "Since they're the ones doing the hard work of creating a wonderful performance, it's only fair that I take care of the little things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过大家看起来不太赞同我的观点……",
+			say = "Clearly, someone wanted to take on extra work, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦……？那是——",
+			say = "Hm? I don't remember this being here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "属于列克星敦的置物架上正放着一个小盒，似乎是专门留给列克星敦的。",
+			say = "There is a small box placed on her personal shelf. Whoever cleaned the room must've left it for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "打开盒子的一瞬间，快节奏的音乐突然响了起来——",
+			say = "She opens the box, and an upbeat tune starts playing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108050,
-			say = "大-惊-喜！怎么样，吓了一跳吧？",
+			say = "Surpriiiiise! Got you pretty good, didn't I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼，这下你没事做了吧？…………那个，我这样说就可以了？",
+			say = "You mustn't work yourself too hard, Lexington. Take a well-earned break. We'll all be on stage together again soon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403070,
-			say = "哈？我、我为什么要说这个……好吧好吧！咳，听好，你只管休息，剩下的事情交给我们。",
+			say = "Ugh, do I really have to say this? Fine... Ahem! We'll take care of the small stuff. You just focus on enjoying yourself! Got it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 102240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "辛苦了，接下来也请继续关照，不过在那之前，还是好好休息一下吧。",
+			say = "Heya, Lex! Seriously, take a break, alright? You'll burn yourself out if you force yourself to keep working. Don't you worry, the rest of us'll pick up the slack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#A9F548FF",
-			say = "要是姐姐再偷偷加班，萨拉妹妹就要对姐姐恶作剧了！萨拉妹妹，现在正处于绝赞大生气中哦。",
+			say = "And if I catch you lifting one finger, you bet your butt you're gonna get pranked! I'm already super-duper upset with you for not listening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#A9F548FF",
-			say = "不过呢~要是姐姐答应休整一段时间，然后和指挥官一起来下一次Live的话，我就原谅姐姐啦。",
+			say = "I'll only forgive you if you do two things – lay off the work, and bring the Commander to the concert!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看起来是将有声贺卡改造成了礼物盒的样子。",
+			say = "The little box, like a voiced greeting card, finishes playing its message.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "盒子的最底部，是两张Live的门票。",
+			say = "We look inside it and find two concert tickets taped to the bottom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔，原来大家是这么想的……",
+			say = "I'm... I'm glad I have friends who look out for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总感觉，列克星敦的烦恼又更上一层楼了。",
+			say = "With a serious gaze and tender smile, she eyes the box and the tickets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

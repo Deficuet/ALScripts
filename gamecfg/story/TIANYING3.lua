@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大小姐的学习日记\n\n<size=45>三 关于协作的课程</size>",
+					"The Growth of a Courtly Lady\n\n<size=45>3 Making Things Work</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・资料室",
+			say = "Port - Data Room",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "为了帮助天鹰继续寻找她感到“不足”的地方，将她带到了资料室。",
+			say = "In order to help Aquila find her missing \"something,\" I explained the situation to the kids who were helping sort out files in the Data Room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "——是让我跟这里的同伴一起工作的意思么？",
+			say = "Is there anything I can do to help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解！如果有秘书舰天鹰小姐的帮助，肯定能事半功倍地完成工作的！",
+			say = "Why certainly! Having the commander's secretary helping us will make things a hundred times faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且能够早点完成工作下班去玩了呢~对吧，西北风？",
+			say = "Woohoo! The sooner we finish, the sooner we get to go out and play. Right, Maestrale?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "嗯……谢、谢谢。",
+			say = "Y-yeah... We appreciate the assistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，大家一起开始了工作。",
+			say = "And thus, everyone got to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "性格认真的龙骑兵和西北风一起干净利落地分拣着文件。",
+			say = "The serious-looking girls, Carabiniere and Maestrale, pulled materials from the files and handed them to Aquila and Libeccio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "然后，西北风在复印机旁哼着歌的西南风的带领下，天鹰和她一起将分拣好的文件————",
+			say = "The latter pair were standing next to the copying machine, humming cheerfully while carefully copying the documents they were given.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……不知为何又装回了未完成分拣的文件袋中。",
+			say = "...But for whatever reason, they were stuffing the documents back into the same old mess of a drawer that they came out of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "嗯？指挥官大人，天鹰这边的工作有什么问题么？",
+			say = "Ah, Commander, is there something unsatisfactory about my work? I'm just putting things back where they belong~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，肯定是来夸西南风的吧？我认真起来的话也是能好好工作的哦！",
+			say = "Look what I can do when I get serious, Commander! Praise me, praise me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……比起夸她们，更想提醒一下她们干活的方法搞错了……",
+			say = "...I'm not sure I had the heart to tell them that what they needed wasn't praise, but rather a gentle reminder that they were creating even more work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "天鹰小姐，好不容易分拣出来的资料又被放回去了哦……",
+			say = "Um, Miss Aquila, you shouldn't just stuff the documents back into the drawer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "咦……这样不对么？我是听西南风说应该这么整理的……",
+			say = "Did I mess up? I thought I was just doing what Libeccio told me to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "西南风、你在干什么啊…！真是的，为、为什么连天鹰小姐也……",
+			say = "Libeccio, what in the world are you doing?! Jeez, y-you even got Miss Aquila to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起＞＜~~~~！",
+			say = "Sowwy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "终于，工作回到了正轨，然后在不久时候顺利完成了……",
+			say = "After the slight interruption, the workflow was corrected and the documents were soon organized correctly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "谢、谢谢……",
+			say = "Phew... That saved quite a bit of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶嘿嘿，西北风她的意思是“非常感谢”哦！",
+			say = "What Maestrale meant to say was, thanks a ton! Hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "虽然在最开始出现了些小插曲……哈哈哈。",
+			say = "Well, we did run into some hiccups along the way... Heh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607010,
-			say = "嗯……不过从结果来看，可以说是圆满成功呢~",
+			say = "Well... All's well that ends well, I suppose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看来天鹰欠缺的也并不是与同伴的协作能力……",
+			say = "Whatever Aquila was missing, it certainly didn't seem to be her ability to get work done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

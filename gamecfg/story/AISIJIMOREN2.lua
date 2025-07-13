@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>二　来自太空的兔兔星雪糕</size>",
+					"Summer Surprise\n\n<size=45>2 Ice Pops from Planet Bunny</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼~哼哼~啦啦啦~（开心的整理文件中）",
+			say = "Hum, hum~ hum, dee dum~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,23 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "明明是炎热夏日的正午，最容易感到疲惫的时候，爱斯基摩人还真是精力充沛啊......",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201320,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯？指挥官为什么这么看着我...啊！到午休时间了么。",
+			say = "While everyone else was seeking relief from the sweltering summer heat, Eskimo was happily humming away, going about her business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +85,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，指挥官半天的工作辛苦了！今天还真热啊...我去找点解渴又解暑的东西来吧~！",
+			say = "Hmm? Why are you staring at me, Commander? Oh, I know! It's lunch break, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201320,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hehe, you did a darn good job this morning too! It's real hot outside today... Maybe we should go find something cool and refreshing. Wouldn't want to get heat stroke, y'know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，爱斯基摩人，我给你们带了点好东西来哦~",
+			say = "Commander, Eskimo, I've got something nice for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些是......兔兔形状的雪糕？！",
+			say = "Let's see here... Planet Bunny... ice pops?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚还在跟指挥官说找点解暑的东西来...居、居然正好就送来了雪糕！",
+			say = "Wow, I was just talking to the Commander about getting something to help us keep cool! Talk about a sweet coincidence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，今天实在是太热啦...看着大家都没什么精神，萨拉托加就说做点雪糕给大家提提神。",
+			say = "Heh heh! Because it's so hot today, everyone's been struggling to get anything done... So, Saratoga went and made ice pops to perk us up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,23 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "萨拉托加做的雪糕......难道说？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101270,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没错~萨拉托加用舰载机将原材料全部准备好，我和本森姐姐她们一起用模具加工出来的。",
+			say = "Saratoga made ice pops? Oh no, oh no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其名为「来自太空的兔兔星雪糕」哦~",
+			say = "That's right! Saratoga had her planes mix all the ingredients together, and us Benson sisters cut out the shapes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +245,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝利还要给其他人去送雪糕，指挥官，爱斯基摩人，工作加油哦~",
+			say = "We named it, \"Planet Bunny Ice Pops From Outer Space!\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101270,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'll be going around passing out the ice pops, so you two keep up the good work over here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "贝利留下了一盒兔兔形的雪糕，转身离开了。",
+			say = "Bailey quickly hops away after leaving behind a box of rabbit-shaped ice pops.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼——！指挥官也来一个吧~",
+			say = "Wowee! Want one, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "世界上有雪糕这种美好的东西真是太好了！",
+			say = "Mmmm~ Ahh, I'm so blessed that the wonderful creations known as ice pops exist in this world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，夏天有雪糕这种美好的东西真是太好了。",
+			say = "\"Right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，总感觉这样还远远不够呢......",
+			say = "Hmm... But, it still feels like something is missing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夏日的应对对策...盛大一点的...唔......啊，有了！",
+			say = "Ways to beat the heat... Something bigger and larger... Ah, I've got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "爱斯基摩人盯着手上的雪糕愣了一会儿，然后好像突然想到了什么主意。",
+			say = "After looking at the ice pop in my hand for a bit, Eskimo suddenly seems to have a flash of inspiration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问爱斯基摩人的想法",
+					content = "\"What'd you come up with this time?\"",
 					flag = 1
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，是秘密！",
+			say = "Heheh, it's a secret for now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官就吃着雪糕在指挥室好好休息，我稍微离开一会哦~！",
+			say = "Just kick back and enjoy those ice pops! I'll be right back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

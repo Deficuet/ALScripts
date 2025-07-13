@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女仆的另一面\n\n<size=45>不擅长工作的女仆</size>",
+					"The Many Lives of Maids\n\n<size=45>The Maid with the Distaste</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "赶在打烊之前，来到了莱茵咖啡馆。",
+			say = "It was just before closing time at Scharlachroter Tresen – the Iron Blood's café.",
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？为什么在这个时间……咳……！是你啊，指挥官。",
+			say = "What? Who's visiting this late in the– Oh! It's you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欢迎回来，主……果然还是算了。你来做什么？",
+			say = "W-welcome back, Mast– Ah, forget it! I'm not doing it. So, what's brought you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "负责迎宾的似乎是{namecode:480}，不过是身着与平时不同的服装，以及与平时不同的姿势——",
+			say = "Ägir greeted me at the entrance. Her new uniform took me very much by surprise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂，你在看着哪里啊？我这身打扮难道很奇怪么？",
+			say = "What are you gawking at? Does my outfit offend you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是说，你觉得刚打扫完的我趴在这里休息是一件奇怪的事情？",
+			say = "Or is it the fact I'm lying down? I'll have you know I'm enjoying a break after cleaning all day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……衣服很适合我？多。多谢……",
+			say = "...Y-you're just surprised by how good I look? Well, thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳……不管怎么说，来者是客。虽然有些晚了，不过本店尚在营业中。",
+			say = "That aside! I assume you want to order something. You're lucky we're still open a while longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官想要点些什么？",
+			say = "So, I'm listening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不管点什么我都能做哦。区区的女仆工作，对我而言不过是小事一桩~",
+			say = "Let's hear your order. If it's on the menu, I'll have it done in a flash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			},
 			options = {
 				{
-					content = "点一份碳酸拉花饮料",
+					content = "\"I'll have a beer.\"",
 					flag = 1
 				},
 				{
-					content = "点一份文件整理服务",
+					content = "\"File my paperwork, thanks.\"",
 					flag = 2
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "选择了本店备受好评的特色饮品呢~",
+			say = "Everyone's favorite. As you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "没问题哦，请稍等片刻。我已经学会做法了……大概。",
+			say = "Wait right here. This will just take a second... unless I fumble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "整理文件？！现在担任秘书舰的又不是我……",
+			say = "Excuse me? That's work fit for a secretary, not a maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "再说了，就算真的交给我也不一定就能做好就是了……",
+			say = "Even if I say \"sure,\" there's no guarantee I'll do a good–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "不对，根本问题在于为什么要在咖啡店点文件整理服务？",
+			say = "Wait a damned minute! That's not even an item on the menu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "虽然很抱歉，不过本店并不提供除餐饮之外的特殊服务哦~",
+			say = "For god's sake... Stick to what's on it, or I won't bother with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "指挥官要是一定想要的话，我们可以下班后再说~",
+			say = "If you really need documents sorted, ask me again after I've finished my job here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "现在就先喝一杯本店的特色碳酸饮料如何，我请客~？",
+			say = "Tell you what, I know something you'll like – I'll pour a glass of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "很好，那稍等片刻哦。做法我已经学会了……大概。",
+			say = "Wait right here. This will just take a second... unless I fumble.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "给，碳酸拉花饮料到了，请慢用。没什么事的话，我就继续休息咯？",
+			say = "Here's your drink. Get comfortable and take your time. If that'll be all, I'll be over here resting on this couch.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -417,7 +417,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘴上说着休息，但趴在沙发上的{namecode:480}依旧在盯着这边。",
+			say = "I sat down with my drink, but held off on sipping it. I could feel Ägir's gaze on me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			},
 			options = {
 				{
-					content = "不适应女仆的工作么？",
+					content = "\"How's your maid work been going?\"",
 					flag = 1
 				}
 			}
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "都说了区区女仆工作，对我不过是……",
+			say = "What do you think? It's child's play for me! No trouble at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "唉……算了，到这个份上了就算我说能适应你大概也不会信吧。",
+			say = "...You know what, let's not kid ourselves. It's obvious I'm not in my element.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "我就不该听信{namecode:483}说的“就当转换心情”……",
+			say = "August persuaded me into this, insisting it would be \"a pleasant role reversal.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "她自己好像是乐在其中……不过光是“被当成女仆”这件事就让我很不甘心！",
+			say = "That may be right up her alley, but I feel a fervent distaste toward being ordered around as a maid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "算了算了，等你回去之后最后的客人就算接待完毕。",
+			say = "I'll stop myself now before I grumble myself hoarse. This will all be over once you leave anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "这段屈辱的历史马上就要永远得划上句号，我也要回归平时的{namecode:480}了。",
+			say = "Then I can close the book on this humiliating chapter of my life and go back to being myself again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 499051,
 			nameColor = "#a9f548",
 			live2d = true,
-			say = "……意外听到了{namecode:480}在女仆工作中积累的压力。不过……她调制的饮料，味道真好啊——",
+			say = "Ägir subjected me to a short rant, which wasn't very pleasant on the ears. On the bright side, the drink she poured for me was excellent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

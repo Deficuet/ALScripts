@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "在闪烁的光芒中，米德加尔特之塔启动了。",
+			say = "The girls once more returned to the Tower of Midgard and passed through the gate.",
 			bgm = "story-midgard",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "然而————",
+			say = "However, it didn't lead to where they hoped...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "依然没能出去啊……",
+			say = "Thiiis... doesn't look like the Fortress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "众人环顾四周，眼前的景色虽然相比之前有些许变化，但毫无疑问的是，她们依然被困在这个神秘的空间之中。",
+			say = "They all looked around. While a few details had changed, they were, without a doubt, still trapped in the perplexing Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "之前推测的一样，“红区”的面积再次扩展了。",
+			say = "Beyond the red sea expanding again, it's all the same...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来每次利用米德加尔特之塔移动，都会把我们送到“蓝区”与“红区”的交界处。",
+			say = "(What will happen if it expands to cover everything? Nothing good, I imagine...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "但是天上的那个……",
+			say = "Wait... What's that in the sky?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "那个是…………一座城市吧。",
+			say = "It almost looks like... a city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "没有日月照耀的天空上，一座高楼林立的城市正以倒悬的姿态呈现在众人的眼前。",
+			say = "Above them, a city full of high-rises was suspended upside-down in the starless sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "两条螺旋形的“公路”穿行其中，绕着整座城市盘旋而上。",
+			say = "Two helix-like pathways spiraled through the city, reaching down towards the Tower of Midgard's gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
-			say = "这种布局，与众人记忆中的任何一座城市都对不上。",
+			say = "An entity that should not exist, yet somehow felt hauntingly familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "简直像海市蜃楼一样……",
+			say = "I keep rubbing my eyes, but it's not going away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "但那可是真真正正存在于此的！",
+			say = "That's no illusion, silly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我现在雷达上现在全是它的回波，根本都没法正常工作了！",
+			say = "It's flooding me with pings and rendering my radar completely useless!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……嗯，最高的那个建筑物难道是……",
+			say = "The tallest building... Why does it seem like I've seen it before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:464}大人，您发现什么了么？",
+			say = "Have you? Where?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "我有一些在意的东西。",
+			say = "I can't quite tell from here. I need to get a bit closer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里太远了，我需要更近一些观察。",
+			say = "Gneisenau, come along, will you? You too, Zuikaku. Might need your planes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然如此，我们就先坐电梯前往一号塔台的最顶层吧",
+			say = "You should use the elevator to get up to the viewing platform.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "那里是米德加尔特之塔的最高处，看得更清楚。",
+			say = "It's the highest point on the tower and should give you a better view.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "稍等，{namecode:435}大人，侦察机有了发现！",
+			say = "Heads up! I've spotted a Siren fleet within range of the facility!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在远方“红区”中发现了塞壬舰队的活动痕迹，但是情况有些奇怪。",
+			say = "...Huh, that's odd. They appear coordinated, yet they're not attacking us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那些塞壬好像在和什么别的东西交战……？",
+			say = "Wait, they seem to be fighting \"something\"...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别的什么东西？",
+			say = "What do you mean by that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "侦察机镜头看不清楚……我无法辨认出它们的型号，甚至无法看清它们的外结构。",
+			say = "I... I can't get clear visuals on it all. It's like... my recon planes can't focus in on it at all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "简直就像被一团有实体的雾气包裹着的某些……东西一样。",
+			say = "The shape is so vague I can't even tell if it's a plane or a person...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "抱歉，我找不出更贴切的形容词了。",
+			say = "It's almost as if it's wrapped in some sort of living fog... Solid, yet not really.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "听上去有些令人费解……能拍些照片回来么？",
+			say = "That doesn't tell us anything at all. Can you try taking a picture of it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "我试试，但也许会变得更模糊哦……",
+			say = "It's worth a shot, but don't expect anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "像雾气一样无法看清外形，听上去不就是鬼影嘛！感觉好恐怖……",
+			say = "A vaguely-shaped mass of mist... You sure that's not a ghost?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（无法被辨识的“存在”……伊丽莎白确实说过，在摆脱理查德追击的时候遭遇过类似的东西。）",
+			say = "(An unidentifiable \"something\"... That sounds similar to what Queen Elizabeth encountered when Bon Homme Richard pursued her.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，是不是近距离侦察一下比较好？",
+			say = "Alright, we'll just have to get closer. I'll send in Regina.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，确实有必要仔细调查一下……",
+			say = "(\"Please fight until the last light has faded\"...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,9 +597,9 @@ return {
 			bgName = "bg_bsmre_5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:515}？",
+			actorName = "U-556 META?",
 			side = 2,
-			say = "这样一来，{namecode:435}姐姐，要不要让大家分头行动？",
+			say = "Lord Bismarck, do you think we should all split up?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，我也想到了一个需要去控制室里验证的事。",
+			say = "Yes. You can come with me and search the control center for potential leads.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样好了，{namecode:464}和{namecode:434}·META、{namecode:96}一组，前往一号塔台最高处收集天空中倒悬都市的情报。",
+			say = "Ulrich, Zuikaku, Gneisenau, head up to the observation deck and see what you can figure out about the city in the sky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "没问题。",
+			say = "That's what I was gonna do anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:516}、{namecode:513}、{namecode:491}一组，负责收集海域中与塞壬交战的未知势力的情报。",
+			say = "Regensburg, Otto, Jade, stand guard outside the facility and keep an eye on the Sirens and this unidentified enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "记住，保持安全距离。不要靠得过近，也不要参与交火",
+			say = "Whatever you do, don't intervene, and don't get too close.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "就让塞壬跟它们相互消耗，我们隔岸观火就好。",
+			say = "Let the two sides wear each other out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "Understood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:416}就跟我一起前往控制室吧。",
+			say = "And remember, stay vigilant at all times.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所有人通讯频道保持畅通，开始行动。",
+			say = "Our comms should still work at this range. Report anything you find.",
 			painting = {
 				alpha = 0.3,
 				time = 1

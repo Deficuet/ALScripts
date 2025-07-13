@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>二　龙骨是灵魂</size>",
+					"Royal Fortune's Secret Shipyard\n\n<size=45>2 A Keel, a Soul</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_battleshipyard_1",
 			hidePaintObj = true,
-			say = "皇家财富造船厂·龙骨铺设完毕——",
+			say = "Royal Fortune's Secret Shipyard - Keel laid down",
 			bgm = "theme-seaandsun-image",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_1",
-			say = "龙骨，是在船体的基底中央连接船首柱和船尾柱的一个纵向构件。",
+			say = "The keel is an oblong structural part located down the middle of the hull's underside. It connects with the ship's sternpost.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -51,7 +51,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_1",
-			say = "其最重要的作用，就是作为船舶的承重结构。",
+			say = "Its most important role is to function as the ship's load-bearing structure.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -70,7 +70,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_1",
-			say = "从工程力学的角度出发，龙骨主要承受船体的纵向弯曲力矩。",
+			say = "From an engineering mechanics perspective, the keel bears the hull's longitudinal bending moment.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -89,7 +89,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_1",
-			say = "优秀的龙骨，是船舶结构最强而有力的保证。",
+			say = "In other words, an excellent hull is the proof of a ship's structural soundness.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -108,7 +108,7 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_battleshipyard_1",
-			say = "除此之外，龙骨还扩大了船的侧面面积——这对逆风航行尤为重要。",
+			say = "Furthermore, the keel enlarges the ship's side surface area, which is really important when sailing in a headwind.",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，龙骨对于一艘舰船而言，就是定海神针一般的存在哦。",
+			say = "Its weight stabilises the ship, keeping it steady from heeling and unexpected turning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "海面上的水况复杂，龙骨的重量还能稳定船只，减少倾斜以及意料之外的反向转动哦。",
+			say = "To put it simply, the keel is the cornerstone of a ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "对于一艘风帆战舰而言，龙骨就是她的根骨与灵魂~",
+			say = "And to a sailing frigate, it's like her core, or even her soul!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，也不是只靠龙骨就能撑起整艘战舰。",
+			say = "Of course, a keel alone cannot support an entire ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "和其它部分的配合也至关重要，这点请务必牢记哦。",
+			say = "I want you to remember that its relationship to the ship's other components is just as vital.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，让我们开始下一阶段的建造任务吧——",
+			say = "Now, let's move on to the next step!",
 			painting = {
 				alpha = 0.3,
 				time = 1

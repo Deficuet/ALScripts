@@ -18,7 +18,12 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	local var_1_4 = math.max(arg_1_1.chapter_id, 101)
 	local var_1_5 = pg.chapter_template[var_1_4]
 
-	arg_1_0.chapterName = var_1_5.chapter_name .. " " .. var_1_5.name
+	if PLATFORM_CODE == PLATFORM_US and var_1_5.model == ChapterConst.TypeMainSub then
+		arg_1_0.chapterName = pg.chapter_template[var_1_4 - 1].chapter_name .. " " .. var_1_5.name
+	else
+		arg_1_0.chapterName = var_1_5.chapter_name .. " " .. var_1_5.name
+	end
+
 	arg_1_0.guildName = arg_1_1.guild_name
 	arg_1_0.proposeCount = arg_1_1.marry_number
 	arg_1_0.medalCount = arg_1_1.medal_number

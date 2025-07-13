@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "携带的塞壬能源存储器不足，看样子只能强行开启了……",
+			say = "Guess that one was a dud. Looks like we’ll have to force it open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

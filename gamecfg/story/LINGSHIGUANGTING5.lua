@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "众人在茂密的森林中前进了一阵后，眼前的树影逐渐斑驳，明亮的阳光再一次照下。",
+			say = "After wading through the woodlands for just short of an hour, the search party arrived at a lone little castle resting quietly amid the trees.",
 			side = 2,
 			bgName = "bg_camelot_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "在城堡大门之前，有一位正在打扫道路的少女。",
+			say = "Beneath the curtain wall, there stood a girl with a greatsword hung over her back, humming a tune while sweeping the ground with a broom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,9 +51,9 @@ return {
 			bgName = "bg_camelot_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "……你们是……人么？",
+			say = "Hmm-hm-hmm♪ ...What the–?! Are you people real?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……这确实是一个值得思考的哲学问题。",
+			say = "Are YOU real?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不过我们认为我们是。请问您是？",
+			say = "Hang on, answering your question with another question is improper of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,9 +104,9 @@ return {
 			bgName = "bg_camelot_3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
+			actorName = "???",
 			side = 2,
-			say = "不得了……居然回话了！",
+			say = "I don't mind. In fact, it's been ages since I've had the pleasure!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,9 +133,9 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900327,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "老姐！我们有客人了欸？！",
+			say = "That confirms it, I've not gone bonkers! Siiis, we've got visitors!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "没等众人做出反应，少女就突然兴奋起来，自顾自的喊着些什么冲入了城堡。",
+			say = "The girl excitedly tossed aside her broom and ran off into the castle without saying another word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "…………这算是什么反应。待客的礼仪也太怠慢了吧。",
+			say = "How rude... At least we can presume that girl to be neither Pawn nor Siren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "也许是我们凶神恶煞的吓到她了……？",
+			say = "I fear we may have scared her... Do you think she's a native of this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……凶猛程度而言我觉得她才比较可怕啊。前卫，你注意到了么……",
+			say = "Don't be silly – that was obviously Repulse. And if anything, WE should be scared of that massive sword she has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "嗯……META信标检测仪有反应，毫无疑问……她是META。",
+			say = "There's a high chance that she's a META. Let me check... Yup, her identification signal resembles that of Ark Royal META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "所以…我们千里迢迢穿越森林，把一个在城堡前扫地的META吓跑了？",
+			say = "In other words... We just met the META version of Repulse?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "别这么看我，我也完全没搞明白现在的状况。",
+			say = "That'll probably make it easier for us to find common ground, but don't let your guard down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "不过她没关门，应该是邀请我们进去的意思吧……？",
+			say = "She sure is taking her sweet time. Vanguard, should we follow her into the castle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "看来是这样。既然她完全没有敌意，我们就跟上去看看好了。",
+			say = "Right. She didn't sound hostile, so let's go after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "？？？？·林中城堡",
+			say = "Location unknown - Castle",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "欢迎各位远道而来的客人，我是声望，旁边的是我的妹妹反击。",
+			say = "Welcome to our humble abode, shipgirls of the Royal Navy. I apologise for my younger sister's discourtesy earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "刚才妹妹在门口的失礼行为还请多包涵，我们已经太久没有见过来访者了。",
+			say = "She was simply excited to have visitors. We haven't seen another person since we were confined to this Mirror Sea so long ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是皇家近卫骑士前卫，随我一起来的也是皇家的成员。",
+			say = "Well met. I am Vanguard, head of the Mirror Sea Expedition Fleet. I take it you ladies are Renown and Repulse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "二位自称是声望和反击，不过其实更应该称呼二位为声望·META与反击·META吧？",
+			say = "You don't mind if we omit the \"META\" part of your names for as long as we're here, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "……如果你要做区分的话，这么叫也可以。",
+			say = "Hmm... Well, that is probably preferable for both of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "前卫，你们来这里做什么？",
+			say = "Let us cut to the chase. Lady Vanguard, what are you doing in this Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "我们是来寻找陛下的，请问你们有见过她么？",
+			say = "We're looking for Her Majesty, Queen Elizabeth. Have you seen her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "陛下是指……？",
+			say = "Queen Elizabeth?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "伊丽莎白陛下。",
+			say = "Indeed, Battleship Queen Elizabeth, the leader of our Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "伊丽莎白女王……反击，你今天有见过其他人么？",
+			say = "...Repulse, have you seen anyone matching that description around here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "没有哦。别说今天了，最近几年我也没见过除了她们之外的人欸！",
+			say = "Obviously not, sis. I've not seen a single soul in my time here, never mind the Queen herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "如你所见，就是这样，抱歉没帮上忙。",
+			say = "Well, I'm afraid there you have your answer, Lady Vanguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "你们真的是META么……？",
+			say = "(These girls are remarkably agreeable... In stark contrast to what the Commander's and the Iron Blood's intel asserted.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉和我认知里的完全不一样……META的话不是应该更……有破坏力一些？",
+			say = "If you don't mind, could you elaborate on the part about having not seen anyone at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "会发出这种感慨……看来你们已经见过其他的META了吧。",
+			say = "We are not withholding any information from you. You are literally the only other people we've seen since our arrival here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "那也难怪。虽说META多种多样，不过像我们这样的估计也不多。",
+			say = "We've not seen this Queen Elizabeth you speak of, or anyone else for that matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "马上要到吃饭时间了，如果不着急的话，要不要吃了饭再走？",
+			say = "Though we come from a different Royal Navy, we still welcome you with open arms as our guests of honour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "作为城堡的主人，招待客人这种事还是应该做的。我们可以边吃边聊。",
+			say = "If you'll pardon my sudden invitation, would you care to sit down and continue this conversation over dinner?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "（前卫，我们是不是应该继续找陛下……？）",
+			say = "(Vanguard, do we oblige?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（不急，寻找META也是陛下的目的之一，我们再留一会打听下情报吧）",
+			say = "(Let's hear what they have to tell us. We can't write off the possibility Her Majesty is somewhere in this place just yet.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_3",
-			say = "不久后，饭桌之上",
+			say = "Castle - Dining Room",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "鱼、水果还有面包……十分简约的午餐呢。",
+			say = "Fish, fruit, and bread... You've got a feast going here, even if it's on the simple side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "非常抱歉，周围的环境如各位所见，在这种地方也没办法奢求更精致的食物了。",
+			say = "Thank you. I'm afraid our cooking is restricted by what we can find in the wild here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "请用“茶”。",
+			say = "Further restricted by the fact my sis is hardly a master chef. Anyway, have some tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "谢————咳、咳咳……这个是什么欸？！",
+			say = "*gulp*... *cough cough*! Good lord, what did you put in this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "抱歉啊，真正的茶叶还没有传入这片区域，你刚才喝的是我们用树叶和草药制作的代替品。",
+			say = "Is it not to your taste? I apologise, but there are no tea plants in this place, so we have to make do with herbs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "（……贾维斯，你带茶包了么？）",
+			say = "Psst! Jervis! Did you bring tea bags?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "（……不挠大人，我的职责是管理大家的健康，随身携带的是医疗箱。）",
+			say = "Pardon my tone, but I am not a corner shop on legs – my job is rescuing and nursing people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -876,7 +876,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（茶包这种生存必需品，自然是带着的。）",
+			say = "Having said that, I did bring daily essentials, including tea bags.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "（好诶————！）",
+			say = "You're a lifesaver! Cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……咳、二位应该不是一开始就在这里的吧，你们是什么时候因何事而来呢？",
+			say = "You said earlier that you were \"confined\" to this Mirror Sea. Did you end up here through a Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "什么时候么……大概是很久很久以前吧？",
+			say = "Yes, we came here from a different branch... what must've been a lifetime ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "离开了战火与争斗之后，我们对于时间的概念似乎都淡化了。",
+			say = "Not of our own volition, mind you. We were forcibly displaced. Separated from the battlefield, our sense of time gradually faded as well. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "至于来的目的……没有目的，一切的起因恐怕只是一场意外。",
+			say = "We couldn't find a way out, so all we could do was settle down in the only habitable area we could locate and await rescue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "你们知道安蒂克丝么？",
+			say = "Are you familiar with Antiochus? They were the ones who sent us here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "针对塞壬的另一种称呼？",
+			say = "I've heard another META use that term before. You're talking about the Sirens, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "基本没错，那余烬呢？",
+			say = "Yes. If you're aware of all that, then I should state now that we are members of the Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1038,7 +1038,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不但有所耳闻，而且亲身体验过……之前余烬的企业、皇家方舟等人可是在我们那里大闹了一场呢。",
+			say = "You are?! So you know Ark Royal, Enterprise, and Hiryuu?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "企业她啊……看来还是老样子。不过皇家方舟……？",
+			say = "Enterprise?! Is she alive?! ...Ah, pardon – yes, I know her and Hiryuu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "罢了。看来穿越世界壁垒而来的你们也不是一般人。",
+			say = "I do not know an Ark Royal in our ranks, however. She must be someone Enterprise recruited from a different branch after... the incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,7 +1093,7 @@ return {
 			actor = 900326,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "相遇即是缘分，要听听我们的故事么？",
+			say = "The incident that separated us from our comrades...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

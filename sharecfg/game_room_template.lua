@@ -45,7 +45,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.玩家点击屏幕任意位置下落，堆叠成功即视为得分，落空3次会导致游戏结束\n2.玩家需要注意屏幕右侧的平衡条，当平衡条上的小蛮啾触及到红色区域时堆叠倒塌，会导致游戏结束\n\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-5：180游戏奖券\n6-10：200游戏奖券\n11-20：220游戏奖券\n21-30：240游戏奖券\n31及以上：260游戏奖券"
+				info = "- Minigame Overview -\nCollect the fallen blocks and stack them as high as you can to rack up points.\n\n- How to Play -\n· Tap the screen to release the block at the top and try to land it on the tower below.\n· If you land the block on the tower, you earn points. If you miss the tower 3 times, the game ends.\n· The tower has a balance gauge (seen on the right side of the screen) that needs to be managed. If the manjuu at the center of the gauge reaches either of the red areas, the tower will collapse and end the game.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-20 points: 220 Game Tickets\n21-30 points: 240 Game Tickets\nOver 30 points: 260 Game Tickets\n"
 			}
 		},
 		position = {
@@ -181,7 +181,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：1.点击开始游戏，会在18个位置中的12个生成有塞壬头像的标靶，通过移动按钮和开火按钮在倒计时结束前击中不同的标靶获得不同的积分\n2.不同标靶对应的积分标注在右侧\n3.当十字准心中心在头像区域内时开火即判定命中，每次开火后需要等待一秒才能再次开火\n4.每次击倒标靶后，该标靶消失，其余标靶都会刷新重新排列位置\n5.游戏倒计时12秒，当倒计时用尽时游戏结束并结算\n\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-5：180游戏奖券\n6-10：200游戏奖券\n11-20：220游戏奖券\n21-30：240游戏奖券\n31及以上：260游戏奖券"
+				info = "- Minigame Overview -\nRack up points by destroying as many Siren targets as possible within the time limit.\n\n- How to Play -\n· When the game starts, 12 enemies will appear on the screen.\n· You can aim using the joypad at the bottom left side of the screen, and fire your weapon with the button at the bottom right side.\n· After firing your weapon, you won't be able to fire again for a period of time. When you hit a target, the rest of the targets will be randomly rearranged around the screen.\n· The game will end when the timer runs out, and your score will be tabulated depending on the number of targets hit.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-20 points: 220 Game Tickets\n21-30 points: 240 Game Tickets\nOver 30 points: 260 Game Tickets\n"
 			}
 		},
 		position = {
@@ -234,7 +234,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1点击选购开始游戏，左侧角色头顶会出现想要的三种食\n物，在思考五秒之后头顶食物消失，玩家需要凭记忆在十秒内从右侧九种食物中选出角色之前想要的三种食物\n2.需要按照之前角色头顶从左到右的食物顺序选择食物\n3.单击食物选择，再次单击该食物可以取消选择，选择好三种食物后自动提交结果\n4.倒计时未用尽的情况下，选好三种食物会进入结算界面，选出的正确食物会增加剩余时间和积分，可以选择继续\n游戏或者游戏结算，增加时间和积分规则如下：选中3个正确的食物： 剩余时间增加5秒  积分增加5分选中2个正确的食物： 剩余时间增加2秒  积分增加2分选中1个正确的食物： 剩余时间增加1秒  积分增加1分选中0个正确的食物： 剩余时间增加0秒  积分增加0分   \n5.如果选择继续游戏则保留剩余时间和积分，并继续选出符合左侧角色想要的三种食物\n6.如果倒计时用尽或者主动选择游戏结算，则算作游戏结束\n\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-5：180游戏奖券\n6-10：200游戏奖券\n11-15：220游戏奖券\n16-20：240游戏奖券\n21及以上：260游戏奖券"
+				info = "- Minigame Overview -\nYour shipgirls are hungry, and it's up to you to get them what they want! Buy as many correct food items as possible within the time limit!\nBuying the correct food will increase your remaining time, and increase your score.\n\nWhen the time limit expires or you exit the game, the game will be considered complete.\n\n- How to Play -\n· When the game starts, the character on the left side of the screen will display their desired items.\n· After 5 seconds, the displayed items will disappear, and you will have to select the correct items from the food vendor's menu from memory.\n· Select or deselect the food items by tapping on their icons. After selecting 3 types of foods, the results screen will be displayed.\n· You will earn points for purchasing food items corresponding to the items that the character wanted. This process repeats until you run out of time, or you end the game.\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-5 points: 180 Game Tickets\n6-10 points: 200 Game Tickets\n11-15 points: 220 Game Tickets\n16-20 points: 240 Game Tickets\nOver 20 points: 260 Game Tickets\n"
 			}
 		},
 		position = {
@@ -364,7 +364,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.指挥官点击画面上的敌人时，特装型布里MKIII会对其进行攻击，击败敌人可以获取分数。不同种类的敌人需要点击的次数不同，获取的分数也不同\n①<color=#92fc63>怪盗啾啾 需要点击1次 100分</color>\n②<color=#92fc63>忍者啾啾 需要点击1次 150分</color>\n③<color=#92fc63>巨大啾啾 需要点击2次 200分</color>\n④<color=#92fc63>纸箱喵     需要点击1次 150分</color>\n2.指挥官击败敌人后下方的EX槽会上涨，涨满时点击EX槽，特装型布里MKIII会进入EX模式，攻击力和攻击范围会上升\n3.敌人会从四周向蛋糕靠近，靠近蛋糕时会偷取蛋糕，蛋糕被偷取<color=#92fc63>3</color>次或时间耗尽游戏结束\n4.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-800：180游戏奖券\n801-2000：200游戏奖券\n2001-4000：220游戏奖券\n4001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nProtect the cake from being eaten by Manjuus and Meowfficers!\nThe minigame will end when the time runs out, or when the cake has been eaten three times.\n\n- How to Play -\n· When the game starts, Manjuus and Meowfficers will make their way towards the cake in the middle of the screen.\n· If a Manjuu or Meowfficer is allowed to reach the cake, they will eat the cake.\n· By tapping on a Manjuu or Meowfficer, a Specialized Bulin Custom MKIII will appear to whack it with her Kitty Kabam Hammer, protecting the cake.\n· The number of taps required to defeat each enemy depends on its type. The more difficult the enemy, the more points you will obtain.\n1) Phantom Thief Manjuu: 1 tap, 100 points.\n2) Ninjuu: 1 tap, 150 points.\n3) Kyoujuu: 2 taps, 200 points.\n4) Solid Sna-Kitty: 1 tap, 150 points.\n\n· You will fill your EX gauge upon defeating a Manjuu or Meowfficer. When your EX gauge is full, tap it to increase the attack power and range of your Bulin MKIII.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-800 points: 180 Game Tickets\n801-2000 points: 200 Game Tickets\n2001-4000 points: 220 Game Tickets\n4001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -417,7 +417,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.指挥官通过点击画面上的左、右和跳跃按钮，控制萨拉托加向上跳跃。每上升一个台阶则层数加1\n2.指挥官需要注意右侧的生命值，从平台边缘坠落、触碰到陷阱或者被生气啾追上都会扣除生命值，生命值耗尽游戏结束\n3.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同层数获得如下数量的奖券：\n0-10：180游戏奖券\n11-20：200游戏奖券\n21-30：220游戏奖券\n31-40：240游戏奖券\n41及以上：260游戏奖券"
+				info = "- Overview -\nTake control of Saratoga and jump up to reach as high as you can!\n\n- How to Play -\n· Use the arrow icons and the jump button to control the chibi Saratoga, and guide her up the platforms.\n· Running into a trap, thorns, or the Manjuu at the bottom of the screen will deplete 1 life. The game will end when you run out of lives.\n· Climb more floors to earn a higher score!\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-10 points: 180 Game Tickets\n11-20 points: 200 Game Tickets\n21-30 points: 220 Game Tickets\n31-40 points: 240 Game Tickets\nOver 40 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -470,7 +470,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.当年兽进入可攻击区域时，指挥官可以点击<color=#92fc63>A键</color>、<color=#92fc63>B键</color>进行攻击，当可攻击区域内没有年兽时点击A、B键，则会对自身造成硬直\n2.若指挥官没有及时击败年兽则会被年兽攻击，每被年兽攻击一次，扣除一颗生命值\n3.年兽根据血量分为三种难度，不同难度的年兽需要攻击的次数也不同，击败年兽会获得相应的分数\n得分规则：\n击败小型年兽： <color=#92fc63>加10分</color>\n击败中型年兽： <color=#92fc63>加20分</color>\n击败大型年兽： <color=#92fc63>加30分</color>\n4.连续击败年兽可以累计combo，combo达到20后击败年兽可以获得额外加分，被年兽攻击则会打断combo\n5.击败年兽时画面下方能量槽会上涨，当能量槽涨满时抚顺会进入<color=#92fc63>特殊模式</color>此时指挥官需要快速连续点击A、B键，点击次数越多得分越高。能量槽变空后特殊模式结束\n6.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-500：180游戏奖券\n501-1000：200游戏奖券\n1001-2000：220游戏奖券\n2001-4000：240游戏奖券\n4001及以上：260游戏奖券"
+				info = "- Overview -\nTake control of Fu Shun and defeat all the Nianjuus in your way!\n\n- How to Play -\n· Nianjuus move side-to-side across the screen. When an enemy is within attack range, you can attack it using the A and B buttons on the left and right.\n· The Nianjuus come in different sizes and take more or fewer attacks to defeat. The scores they grant are as follows:\nSmall Nianjuu: 10 pts\nMedium Nianjuu: 20 pts\nLarge Nianjuu: 30 pts\n· Defeating a Nianjuu charges the energy gauge at the bottom of the screen. When the gauge is full, you can gain a lot of score by quickly mashing the A and B buttons.\n· Fu Shun's HP will decrease if a Nianjuu gets too close to her. The game ends when her HP bar at the top of the screen reaches 0, or when you exit the minigame.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-500 points: 180 Game Tickets\n501-1000 points: 200 Game Tickets\n1001-2000 points: 220 Game Tickets\n2001-4000 points: 240 Game Tickets\nOver 4001 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -523,7 +523,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.指挥官选中转珠后，最多有7秒的移动时间，在这7秒的移动时间内，可以拖动转珠上下左右不限距离移动\n2.移动过程中会与路径上的转珠交换位置，7秒时间结束或指挥官松手后，会开始消除并结算\n3.同色转珠横或竖组成三个及以上会进行消除，一次结算消除转珠越多，获得的分数越高\n4.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-500：180游戏奖券\n501-1000：200游戏奖券\n1001-1500：220游戏奖券\n1501-2000：240游戏奖券\n2001及以上：260游戏奖券"
+				info = "- Overview -\nLine up three of a kind as many times as you can to rack up points!\n\n- How to Play -\n· After selecting a jewel, you have up to 7 seconds to move it. During the 7 seconds, you can drag it up, down, left, or right an unlimited distance.\n· While moving, the jewel will exchange positions with any jewels on its path. After 7 seconds or upon letting go of the jewel, the game will settle the results of that move.\n· If 3 or more jewels of the same color are adjacent either horizontally or vertically, they will be cleared from the board.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-500 points: 180 Game Tickets\n501-1000 points: 200 Game Tickets\n1001-1500 points: 220 Game Tickets\n1501-2000 points: 240 Game Tickets\nOver 2001 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -576,7 +576,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.指挥官通过点击画面的左侧和右侧，控制拉德福特左右移动。\n2.每次接取到糖果，分数增加100，没有接到糖果或者接到南瓜炸弹，扣除一点生命值\n3.当有小幽灵附身在拉德福特身上时，拉德福特的移动速度会降低，点击右侧手电筒可以消除小幽灵\n4.当生命值扣除到0时，游戏结束\n5.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-100：180游戏奖券\n101-400：200游戏奖券\n401-800：220游戏奖券\n801-1200：240游戏奖券\n1201及以上：260游戏奖券"
+				info = "Event Rules:\nControl Radford and help her catch the candy falling from above!\n\n- How to Play -\n· Tap either side of the screen to move Radford in that direction.\n· If Radford hits a falling bomb, or if she doesn't catch the candy before it hits the ground, she will lose 1 HP. The game is over when her HP reaches 0.\n· Radford will be slowed down if she bumps into one of the Ghost Manjuus appear on the screen.\n· You can scare the Ghost Manjuu away by tapping the flashlight on the right side of the screen.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-100 points: 180 Game Tickets\n101-400 points: 200 Game Tickets\n401-800 points: 220 Game Tickets\n801-1200 points: 240 Game Tickets\nOver 1200 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -629,7 +629,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "小游戏玩法：\n1.指挥官需要点击左侧按钮控制小人上下移动躲避敌方雪\n球，被雪球击中会扣除生命值，生命值耗尽游戏结束。\n2.指挥官点击敌方小人即可使用雪球攻击，击中不同敌人\n会获得不同分数。\n特别注意：击中乱入场地的无辜路人会扣分哦！\n得分规则：\n击中：樟、松、楙、橗、椿、莲 <color=#92fc63>加100分</color>\n击中：皇家方舟 <color=#92fc63>加200分</color>\n击中：挖矿啾啾、梿 <color=#ff5c5c>扣50分</color>\n3.画面右侧支援槽会随着时间上涨，当支援槽涨满时指挥官可以点击支援槽呼叫空袭支援。空袭支援会清除当前场上敌方雪球并对敌人进行雪球轰炸\n4.奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-300：180游戏奖券\n301-600：200游戏奖券\n601-1500：220游戏奖券\n1501-3000：240游戏奖券\n3001及以上：260游戏奖券"
+				info = "- Overview -\nSnowball fiiight! Take control of Mutsu and hit the opponents with snowballs while dodging theirs!\n\n- How to Play -\n· Tap the button on the left to move Mutsu up and avoid your opponent’s snowballs. Getting hit by a snowball will deduct 1 HP.\n· Tap on the opponents to throw snowballs at them. Hitting different opponents will give different point values.\n· Warning: You will lose points if you hit innocent passersby that randomly enter the playing field!\n· The score values are as follows:\nKisaragi, Mutsuki, Uzuki, Fumizuki, Yuudachi, or Yukikaze: <color=#92fc63>+100 points</color>\nArk Royal: <color=#92fc63>+200 points</color>\nDigging Manjuu or Shiratsuyu: <color=#ff5c5c>-50 points</color>\n· The support gauge on the right side of the screen will fill up over time. When the gauge is full, tap on the gauge to call in snowfall support, peltering all opponents with snowballs while clearing theirs out of the air.\n· The minigame ends either when your HP reaches 0 or when you manually exit the minigame.\n\n· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-300 points: 180 Game Tickets\n301-600 points: 200 Game Tickets\n601-1500 points: 220 Game Tickets\n1501-3000 points: 240 Game Tickets\nOver 3000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -637,331 +637,7 @@ pg.game_room_template = {
 			-280
 		}
 	},
-	{
-		coin_max = 5,
-		game_id = 1013,
-		add_type = 12,
-		type = 11,
-		id = 12,
-		add_base = 200,
-		icon = "shuiguangong",
-		order = 12,
-		unlock_time = {
-			{
-				2025,
-				6,
-				5
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		game_help = {
-			{
-				icon = {
-					atlas = "helpbg/pipe_minigame",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		},
-		position = {
-			0,
-			-120
-		}
-	},
-	{
-		coin_max = 5,
-		game_id = 1014,
-		add_type = 12,
-		type = 11,
-		id = 13,
-		add_base = 200,
-		icon = "songdangao",
-		order = 13,
-		unlock_time = {
-			{
-				2026,
-				4,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		game_help = {
-			{
-				info = "活动规则：\n1.<color=#92fc63>12月27日</color>为止每日0点开放<color=#92fc63>1</color>场新的游戏，总计<color=#92fc63>7</color>场，可累计。完成游戏可以获得限定家具在内的丰富奖励。\n\n游戏规则：\n1.指挥官需要操控角色获取对应甜品送给场中的啾啾裁判，上对甜品加分，上错扣分，时间结束时分数高的一方获胜\n2.甜品大作战共计12位角色，指挥官可以选择任意角色和队友进行作战\n3.时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。"
-			}
-		},
-		position = {
-			0,
-			-120
-		}
-	},
-	{
-		game_id = 1015,
-		type = 11,
-		add_base = 200,
-		game_help = "",
-		add_type = 12,
-		coin_max = 5,
-		id = 14,
-		icon = "zuma",
-		order = 14,
-		unlock_time = {
-			{
-				2026,
-				4,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		position = {
-			0,
-			-120
-		}
-	},
-	{
-		coin_max = 5,
-		game_id = 1016,
-		add_type = 12,
-		type = 11,
-		id = 15,
-		add_base = 200,
-		icon = "dalaotuan",
-		order = 15,
-		unlock_time = {
-			{
-				2026,
-				4,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		game_help = {
-			{
-				info = "游戏规则：\n1.屏幕内会出现不同的打捞物，点击屏幕可伸出抓钩进行打捞。部分打捞物可获得积分，部分打捞物会扣取积分。\n2.打捞物积分表：\n怀表：20秒游戏时间\n宝箱：600分\n珍珠：500分\n潜水啾：400分\n金砖：300分\n蝴蝶鱼：200分\n贝壳：200分\n鲨鱼：250分\n海龟：180分\n小丑鱼：150分\n石头：50分\n十纱：-150分\n衣玖：-100分\n双叶梦：-80分\n伊吕波：-50分\n鱼雷：-50分\n3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n4.持有「探险许可证」的情况下游玩「啾啾打捞团」会获取探险币奖励"
-			}
-		},
-		position = {
-			0,
-			-120
-		}
-	},
-	{
-		game_id = 1017,
-		type = 11,
-		add_base = 200,
-		game_help = "",
-		add_type = 12,
-		coin_max = 5,
-		id = 16,
-		icon = "shatan",
-		order = 16,
-		unlock_time = {
-			{
-				2026,
-				4,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		position = {
-			0,
-			-200
-		}
-	},
-	{
-		game_id = 1018,
-		type = 11,
-		add_base = 200,
-		game_help = "",
-		add_type = 12,
-		coin_max = 5,
-		id = 17,
-		icon = "kuangshi",
-		order = 21,
-		unlock_time = {
-			{
-				2026,
-				4,
-				18
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		add_num = {
-			{
-				601,
-				1.3
-			},
-			{
-				451,
-				1.2
-			},
-			{
-				301,
-				1.1
-			},
-			{
-				151,
-				1
-			},
-			{
-				0,
-				0.9
-			}
-		},
-		position = {
-			0,
-			-200
-		}
-	},
-	{
+	[18] = {
 		coin_max = 5,
 		game_id = 1019,
 		add_type = 12,
@@ -1006,7 +682,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.屏幕自右向左会跑过不同身着布偶装的啾啾，点击右侧套绳按钮套出绳索，套索套中啾啾后可获得积分。\n2.套中不同的啾啾获得的积分不同：\n奶牛啾啾：50分\n安格斯牛啾啾：100分\n非洲水牛啾啾200分\n美洲野牛啾啾300分\n3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-300：180游戏奖券\n301-600：200游戏奖券\n601-1500：220游戏奖券\n1501-3000：240游戏奖券\n3001及以上：260游戏奖券"
+				info = "Minigame Rules:\n- In this minigame, you control a Manjuu Cowboy, and you'll earn points by lassoing Cowjuus.\n\nHow to Play:\n- When the game starts, Cowjuus will appear on the right side of the screen and start moving to the left.\n- Tap on the \"Lasso\" button on the right side of the screen to throw the lasso at the Cowjuu. You'll earn points when you successfully lasso a Cowjuu.\n- You'll earn points depending on the type of Cowjuu you lasso:\nCowjuu: 50 points\nAngusjuu: 100 points\nCape Bufflejuu: 200 points\nBisonjuu: 300 points\n\nThe game ends when the timer reaches 0 or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-300 points: 180 Game Tickets\n301-600 points: 200 Game Tickets\n601-1500 points: 220 Game Tickets\n1501-3000 points: 240 Game Tickets\nOver 3000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1014,7 +690,7 @@ pg.game_room_template = {
 			-150
 		}
 	},
-	{
+	[19] = {
 		coin_max = 5,
 		game_id = 1020,
 		add_type = 12,
@@ -1059,7 +735,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏由三小局组成，最终得分为三小局的分数和\n2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>\n3.将冰壶发射至冰面上的圈内可获得积分，蓝色区域1000分，黄色区域2000分，红色区域3000分；不在圈内不得分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\n· Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.\n\n- How to Play -\n· Every round of Manjuu Curling consists of 3 curling stone slides.\n· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you hold, the faster it will go. Let go when you wish to launch the curling stone.\n· While your finger is on the Meowfficer, move it up and down on the screen to change the curling stone's course.\n· The curling stone's course will change if it bumps into an object.\n· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 1,000 points, the yellow circle gives you 2,000 points, and the red circle gives you 3,000 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1067,7 +743,7 @@ pg.game_room_template = {
 			-200
 		}
 	},
-	{
+	[20] = {
 		coin_max = 5,
 		game_id = 1021,
 		add_type = 12,
@@ -1112,7 +788,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1120,7 +796,7 @@ pg.game_room_template = {
 			-200
 		}
 	},
-	{
+	[21] = {
 		coin_max = 5,
 		game_id = 1022,
 		add_type = 12,
@@ -1165,7 +841,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1173,7 +849,7 @@ pg.game_room_template = {
 			-200
 		}
 	},
-	{
+	[22] = {
 		coin_max = 5,
 		game_id = 1023,
 		add_type = 12,
@@ -1218,7 +894,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1226,7 +902,7 @@ pg.game_room_template = {
 			-200
 		}
 	},
-	{
+	[23] = {
 		coin_max = 5,
 		game_id = 1024,
 		add_type = 12,
@@ -1271,7 +947,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1279,7 +955,7 @@ pg.game_room_template = {
 			-432
 		}
 	},
-	{
+	[24] = {
 		coin_max = 5,
 		game_id = 1025,
 		add_type = 12,
@@ -1324,7 +1000,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1332,7 +1008,7 @@ pg.game_room_template = {
 			-200
 		}
 	},
-	{
+	[25] = {
 		coin_max = 5,
 		game_id = 1026,
 		add_type = 12,
@@ -1377,7 +1053,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1385,7 +1061,7 @@ pg.game_room_template = {
 			0
 		}
 	},
-	{
+	[26] = {
 		coin_max = 5,
 		game_id = 1027,
 		add_type = 12,
@@ -1430,7 +1106,7 @@ pg.game_room_template = {
 		},
 		game_help = {
 			{
-				info = "游戏规则：\n1.每局游戏不限时间，损失4点血量或掉下屋顶游戏结束\n2.点击左侧跳跃按钮抚顺会进行跳跃，点击右侧攻击按钮抚顺会进行攻击\n3.吃到不同的道具将会有不同的效果\n金币：获得50分\n玉佩：获得300分\n跑鞋：跳跃力&移速增加，可通过跳跃踩消灭年兽啾\n导弹炮：攻击变为远程导弹攻击\n磁铁：会自动吸引附近的道具\n护盾：可以抵消一次伤害，最多同时持有三个\n消灭年兽啾会获得500分\n4.完成游戏或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。\n奖励规则：游玩时投入游戏币可获得奖券奖励，每投入一枚游戏币，会根据不同分数获得如下数量的奖券：\n0-1000：180游戏奖券\n1001-2000：200游戏奖券\n2001-3000：220游戏奖券\n3001-6000：240游戏奖券\n6001及以上：260游戏奖券"
+				info = "- Overview -\nIn the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.\n\n- How to Play -\n· Tap the button on the bottom left of the screen to jump.\n· Tap the button on the bottom right of the screen to attack.\n· Coming in contact with a Nianjuu will hurt you for 1 health point.\n· When you run out of health points, fall off, or use the \"End Game\" button, the minigame is done.\n· You may come across useful items as you play through the minigame. These include:\n1. Coin - Worth 50 points\n2. Amulet - Worth 300 points\n3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them\n4. Missiles - Upgrades your regular attack into a missile strike\n5. Magnet - Attracts nearby items\n6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)\nDefeating Nianjuu is worth 500 points.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nThe game ends when you finish the game or when you tap the End Game button.\n\nWhen completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.\n· Refer to the following score-to-ticket values for each Credit spent:\n0-1000 points: 180 Game Tickets\n1001-2000 points: 200 Game Tickets\n2001-3000 points: 220 Game Tickets\n3001-6000 points: 240 Game Tickets\nOver 6000 points: 260 Game Tickets"
 			}
 		},
 		position = {
@@ -1450,12 +1126,6 @@ pg.game_room_template = {
 		9,
 		10,
 		11,
-		12,
-		13,
-		14,
-		15,
-		16,
-		17,
 		18,
 		19,
 		20,

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>四 意外！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 4 - Mistakes Were Made!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区附近海域",
+			say = "Port - Nearby Waters",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈——！我是第一！",
+			say = "Pwah! Heck yeah, first place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦呼！……欸，我是第二吗？",
+			say = "Dangit... Welp, I'm clearly not performing at my best today~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官！",
+			say = "... Oh, hey, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们三个在举行潜泳比赛！谁输了就要请赢的人喝酸素可乐！",
+			say = "... What we're doing? Just a friendly competition between us subs. Loser has to buy Oxy-cola for everyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来，败者就是棘鳍了呢！",
+			say = "And it's looking like Cavalla's the loser this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定是秘书舰的工作多了，疏于训练了！",
+			say = "You think she lost cause she's been skipping out on training in favor of her secretary work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，这样说的话，指挥官心里可就要有负罪感了呢。让我看看最后一名在哪里~",
+			say = "That'd make the Commander feel bad about it and make her resign. Now then, Cavalla, you owe us some...~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦？等等，有些奇怪……棘鳍呢？",
+			say = "... drinks? Hey, where's Cavalla?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她不是还在后面吗？",
+			say = "Wasn't she right behind you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，后面没有人了……该不会她还在往前游？",
+			say = "No? Maybe she just kept going past the buoys that indicate the extent of the exercise area?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "(小声)…难道是我故意把终点的标志弄模糊的原因——",
+			say = "(Whispering) Oops. I probably shouldn't have moved those around to confuse people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？前面的海域不是重樱航母正在使用中么？",
+			say = "If she did then she'll end up where the Sakura Empire is conducting an exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呃…指、指挥官，我们快去看看吧！",
+			say = "That'd be big trouble! C'mon, Commander, we gotta find her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "海域另一侧",
+			say = "Exercise Area",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇——！",
+			say = "Bah! You win!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是姐姐我的胜利呢~",
+			say = "Victory is mine♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……居然用偷袭的方法，姐姐太狡猾了！",
+			say = "It's not fair to pull a sneak attack like that, sis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，精神不够集中的话可是赢不了姐姐我的呢~",
+			say = "*Giggle*, it's your fault for not realizing one was coming. You won't be able to defeat me if you don't concentrate~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说了，万一实战的时候，有什么东西突然出现——",
+			say = "Furthermore, you should expect to see sneak attacks utilized in a real battle, since–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈！",
+			say = "Pwah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！",
+			say = "Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，我是第一名！我就说她们两个怎么可能追得上……呃……奇怪？",
+			say = "I made it here first! Heheh, Albacore, Dace, you know what that means! It's time to buy me some Ox... y... cola...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这是……！",
+			say = "I know you...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐就由我来守护！接招！",
+			say = "Sis, this time, I will protect you! Stay back, pesky sub!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -493,7 +493,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个状况……难道是突发状况演习？",
+			say = "W-wait, where am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然这样的话……！",
+			say = "I-I'm so confused!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			},
 			options = {
 				{
-					content = "叫住双方",
+					content = "Call out to Cavalla",
 					flag = 1
 				}
 			}
@@ -532,7 +532,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "原来如此……是奋力向前的小鱼一不小心游过了终点呢。",
+			say = "I see... So Cavalla went beyond the boundary buoys and ended up here.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -567,7 +567,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没，没想到我会犯这样的失误……",
+			say = "I made such a stupid mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非，非常抱歉！",
+			say = "I'm so sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，没关系的。顺便一提，{namecode:96}，要在分清楚敌友之后再攻击哦？你刚刚过于紧张了呢。",
+			say = "*Giggle*, it's fine. My little sister shouldn't have reacted the way she did, either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，对不起…吓到你了",
+			say = "Y-yeah, I shouldn't have... Sorry, Cavalla!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为惩罚，你的天妇罗要分一半给指挥官和小鱼们哦。",
+			say = "As punishment, you will give the Commander and these submarines half of your tempura ration today♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,8 +669,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 108020,
-			actorName = "大青花鱼&鲦鱼",
-			say = "耶——！",
+			actorName = "Albacore & Dace",
+			say = "Yippee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,23 +694,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎，怎么会这样！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "等等怎么又多了两个啊！！",
+			say = "And when did you all show up?!",
 			effects = {
 				{
 					active = true,
@@ -736,7 +720,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "美味的天妇罗，为今天的插曲划上了句号。",
+			say = "Later that day, we all savored Shoukaku's delicious handmade tempura.",
 			effects = {
 				{
 					active = false,

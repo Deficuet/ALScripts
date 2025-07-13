@@ -2,82 +2,82 @@ pg = pg or {}
 pg.property_data_template = {
 	durability = {
 		view = "durability",
-		name = "耐久",
+		name = "HP",
 		icon = "durability"
 	},
 	cannon = {
 		view = "cannon",
-		name = "炮击",
+		name = "Firepower",
 		icon = "cannon"
 	},
 	torpedo = {
 		view = "torpedo",
-		name = "雷击",
+		name = "Torpedo",
 		icon = "torpedo"
 	},
 	antiaircraft = {
 		view = "antiaircraft",
-		name = "防空",
+		name = "Anti-Air",
 		icon = "antiaircraft"
 	},
 	air = {
 		view = "air",
-		name = "航空",
+		name = "Aviation",
 		icon = "air"
 	},
 	reload = {
 		view = "reload",
-		name = "装填",
+		name = "Reload",
 		icon = "reload"
 	},
 	range_view = {
 		view = "range_view",
-		name = "射程",
+		name = "Range",
 		icon = "range"
 	},
 	armor = {
 		view = "armor",
-		name = "装甲",
+		name = "Armor",
 		icon = "armor"
 	},
 	hit = {
 		view = "hit",
-		name = "命中",
+		name = "Hit",
 		icon = "hit"
 	},
 	dodge = {
 		view = "dodge",
-		name = "机动",
+		name = "Evasion",
 		icon = "dodge"
 	},
 	speed = {
 		view = "speed",
-		name = "航速",
+		name = "Speed",
 		icon = "speed"
 	},
 	luck = {
 		view = "luck",
-		name = "幸运",
+		name = "Luck",
 		icon = "luck"
 	},
 	damage = {
 		view = "damage",
-		name = "火力",
+		name = "Firepower",
 		icon = "cannon"
 	},
 	healthy = {
 		view = "healthy",
-		name = "治疗",
+		name = "Healing",
 		icon = "durability"
 	},
 	cd = {
 		view = "cd",
-		name = "射速",
+		name = "FR",
 		icon = "reload"
 	},
 	speciality = {
 		view = "speciality",
-		name = "特性",
+		name = "Special",
 		icon = "damage"
 	}
 }

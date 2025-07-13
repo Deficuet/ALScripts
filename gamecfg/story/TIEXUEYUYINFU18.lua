@@ -12,7 +12,7 @@ return {
 			actor = 405010,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哈啊…哈啊……啊啊啊————！！！",
+			say = "Aha... Haha... Ahahahahaha!!!",
 			bgm = "bsm-9",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "随着巨大的光圈收束，无数塞壬的舰艇被吸入其中，被碾碎成了粉末",
+			say = "Bismarck cackled as a massive ring of light began to contract around her, dragging countless Siren ships into her core and crushing them into dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			actor = 205050,
 			dir = -1,
-			say = "这是…居然连塞壬的船都被卷进去了？！",
+			say = "She's... absorbing the entire Siren fleet?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失控了吗！？真是危险的力量！",
+			say = "Is she going berserk? There's no way she can handle all this power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，{namecode:435}正在瞄准舰队中心！！",
+			say = "Watch out! She's aiming towards the center of our formation!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			actor = 205050,
 			dir = -1,
-			say = "躲不开了..全员准备应对第二次冲击——",
+			say = "We won't be able to dodge in time! Brace for impact, everyone!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 0,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			say = "Boom——",
 			flashN = {
 				color = {
 					1,
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "怎么，没有受到伤害？…",
+			say = "What...? I'm still alive...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "（在能量聚集到{namecode:435}周边之后，一场巨大的爆炸打断了这一切)",
+			say = "(Instead of unleashing all the energy she had stored, Bismarck dissipated it in a huge explosion.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "同时也摧毁了{namecode:435}的大半身舰装",
+			say = "(When the smoke cleared, half of her rigging had been blown away.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			expression = 2,
 			dir = 1,
-			say = "呼…呼…这就是",
+			say = "*cough* *cough* ...What...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "这就是…你们的极限吗！！",
+			say = "Is this the limit of your so-called power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,9 +322,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "居然自己摧毁了自己的主炮，嗯…果然还是没能和魔方完美融合吗",
+			say = "To think that you'd attempt to self-destruct... Ahh, turns out we weren't able to synchronize with your Wisdom Cube after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "呵呵，没想到…就算是自以为足够坚定的意志…",
+			say = "Heh... even though I thought I had the resolve to wield this power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "也有那么一瞬…",
+			say = "All it took was a moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "被这股力量给完全侵蚀了…",
+			say = "For it to completely consume me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -402,9 +402,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试者",
+			actorName = "Tester",
 			dir = 1,
-			say = "汇报记录：第151号测试结果：测试目标主动脱离活性化状态的元魔方影响，可以初步推定存在成为关键点的潜力，但整体表现未达到目标恕限值…",
+			say = "Uploading Report: Results of Experiment No. 151 - Test subject managed to forcefully eject from the Awakening Protocol. While statistically significant, overall performance failed to reach target benchmarks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "塞壬，我不知道你们究竟在打着什么算盘…",
+			say = "I don't know what you're plotting, Siren...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "但是，唯独这份荣耀，不容你们玷污!",
+			say = "But whatever it is, I won't allow you to defile my honor and glory any longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "皇家舰队的战士们，虽然我们有着多年的恩怨…但是很可惜",
+			say = "Proud warriors of the Royal Navy... Though our grudge goes back many moons, I regret to inform you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "我不能就这样败在你们手下",
+			say = "I have no intention of falling into your hands today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = 1,
-			say = "铁血的命运，将由自己把握！",
+			say = "The Iron Blood shall seize our own destiny!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "LONG LIVE IRON BLOOD!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "{namecode:435}的最后一门主炮朝着皇家舰队的方向射出了最后一发炮弹",
+			say = "Bismarck fired her very last shot in the direction of the Royal fleet.",
 			flashN = {
 				color = {
 					1,
@@ -579,7 +579,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "由于测距设备已经被完全摧毁，炮弹偏离了轨道，仅仅在远处炸起了一朵水花",
+			say = "Since her fire control had been completely destroyed, the shell crashed harmlessly into the water well before it reached the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…明明已经没法正常的瞄准了，居然还选择反击…",
+			say = "She has no ability to fight us anymore. I'm not sure I want to finish her off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要如此执着…",
+			say = "But why is she so persistent...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "我收回之前对你的看法，如果这就是你最后的选择",
+			say = "I take back what I said about you before. If that is the decision you've made...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "我们会用炮火送你一程",
+			say = "We shall send you off with our warmest regards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "皇家舰队全员，集中最后的火力",
+			say = "All members of the Royal Navy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			actor = 205050,
 			dir = -1,
-			say = "目标{namecode:435}！！",
+			say = "Focus all of your firepower upon Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			bgName = "bg_bsm_3",
-			say = "轰——",
+			say = "Boom——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -738,7 +738,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -754,12 +754,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "（…还是没能…达成…我们的夙愿啊……）",
+			say = "(... In the end, I was still unable... to achieve our aspirations...)",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -808,12 +808,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（一个能够重新回到大洋的…）",
+			say = "(Ah... I can finally become one with the ocean again...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,12 +824,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（威严的海军…）",
+			say = "(My beloved Iron Blood...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,12 +840,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "等一下！",
+			say = "No... not yet...!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -881,11 +881,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯？还有什么问题么，{namecode:435}。",
+			say = "Don't tell me you're having second thoughts now, Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,12 +896,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我想知道，在你们所观察到的无数个可能性中，是否存在…",
+			say = "Tell me, Siren, of all those infinite possibilities that you saw, were there any that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,11 +913,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "并没有哦",
+			say = "Of course not. Not a single one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -928,87 +928,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
-			nameColor = "#ffde38",
-			bgName = "bg_bsm_5",
-			side = 2,
-			dir = 1,
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "观察者",
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "在绵延数千载的历史长河中，“你”作为个体，不过是沧海一粟",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "观察者",
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "太过于渺小，以至于连选择自己命运的权力都不曾拥有",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "观察者",
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "至诞生、至消亡，都不曾拥有",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "观察者",
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "无论“你”能否在那场关键的战斗中幸存，时代的走向都不会改变",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
@@ -1024,44 +944,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
-			nameColor = "#ffde38",
-			bgName = "bg_bsm_5",
 			side = 2,
-			dir = 1,
-			say = "不…你错了。我想知道的并不是关于我的命运。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:435}",
-			nameColor = "#ffde38",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
-			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "而是我的民族、我的人民、我的同僚…我的妹妹",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:435}",
-			nameColor = "#ffde38",
-			bgName = "bg_bsm_5",
-			side = 2,
-			dir = 1,
-			say = "她们的未来是否拥有获得救赎的可能…",
+			say = "We have been observing humanity for thousands of years. Your existence is but a drop of water in the ocean of data. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1073,7 +961,119 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "You are so small, so insignificant. Even if I was to tell you, you do not even have the power to choose your own destiny.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Observer",
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Your only purpose in life was to wage war meaninglessly and sink meaninglessly.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Observer",
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "No matter how many times we re-simulate this battle, the course of history will not change even if you survive.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "You're sorely mistaken",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "What happens to me is of no significance. Tell me what happens to the Iron Blood...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Tell me what happens to our people... to my compatriots... and to my sister.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Tell me if their future can be saved.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1089,11 +1089,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你可真是个有趣的样本，居然能达成超出我们预测的对话",
+			say = "What a pitiful specimen you are. Of all the things you could have asked about, you chose the ones with the lowest priority.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1105,11 +1105,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欲带皇冠必承其重，看来你已经理解了其中的意味呢",
+			say = "Hypothetically, if there was a way to save your people, would you be able to shoulder that burden, O Great Fleet Leader?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,12 +1120,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "“要真正体验生命,你必须站在生命之上”",
+			say = "I would die trying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,12 +1136,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我们作为个体的生命在诞生之时便已消亡",
+			say = "My idea of \"self\" died the day I was given the name of Bismarck. I live only to protect the Iron Blood, and would gladly give my life for my people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1152,28 +1152,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "取而代之的，是一个名为“铁血”的钢铁之躯。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:435}",
-			nameColor = "#ffde38",
-			bgName = "bg_bsm_5",
-			side = 2,
-			dir = 1,
-			say = "铁血终将高于一切",
+			say = "Not once have I feared facing my fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1185,11 +1169,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "去吧，用你渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
+			say = "Hahaha...! I've changed my mind. Let us see you dance once more as you try to turn the cogs of fate by yourself. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,11 +1185,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "让海涛为你翻滚，让风云为你变色",
+			say = "Use our power. Show us how you are able to reshape this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1217,11 +1201,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "届时，渺小的生命便成就了你，你便找到了“另一个自我”",
+			say = "If you are able to transcend your limitations as \"Bismarck\" and become one with your \"alter ego,\" perhaps then you may find your answer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1233,11 +1217,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
+			actorName = "Observer",
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "然后你就能找到答案了——————",
+			say = "Until then... we shall be awaiting your little dance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1249,27 +1233,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "观察者",
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "前提是那时候的你能够认可“另一个自我”呢~呵呵呵呵呵———",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "铁的纪律与…血的荣耀…………",
+			say = "Discipline is our Iron, and glory is our Blood.",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 1,
@@ -1307,12 +1275,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "至少到最后，铁血的战舰还能选择面对自己的命运…",
+			say = "At long last... we of the Iron Blood are free to choose our own fate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1323,7 +1291,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "KABOOM---!",
 			side = 2,
 			bgName = "bg_bsm_3",
 			dir = 1,
@@ -1375,12 +1343,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "您曾经说过，",
+			say = "You once said that,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,12 +1359,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "音乐总是能唤起人心中两种截然不同的渴望，一是战争，另一则是田园般的宁静",
+			say = "Music can evoke two very different desires within people. One is the desire for the rapture of war, and the other is the desire for an idyllic tranquility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1407,12 +1375,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			nameColor = "#ffde38",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "原来如此",
+			say = "I'm finally able to experience that tranquility...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1423,12 +1391,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_3",
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我终于能感受到宁静的一面了…",
+			say = "Ahh... am I getting... sleepy?",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1481,7 +1449,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=60>（我的妹妹…到最后还是期待能和你们并肩前行呀…）</size>",
+					"<size=60>(My sister... I'm sorry that... I won't ever be able to meet you...)</size>",
 					1
 				}
 			}
@@ -1491,7 +1459,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就…结束了吧",
+			say = "It's finally over...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1538,7 +1506,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……是的，塞壬也消失得无影无踪了，我们取得了最后的胜利",
+			say = "Yes, the Sirens have disappeared without a trace. The victory is ours today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1553,7 +1521,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…还真是一场沉重的胜利啊",
+			say = "But... it was a costly one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1583,7 +1551,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家舰队的所有成员，今天，我们合众人之力，击败了长久以来威胁着我们的强大敌人",
+			say = "Members of the Royal Navy, together, we have finally put an end to a powerful foe who has long threatened our waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1598,7 +1566,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这场战斗中，我们的敌人展现出了顽强的战斗精神",
+			say = "During this battle, our enemies fought tenacity and an indomitable spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1581,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我希望皇家舰队的各位，在未来，在同样被数倍于自己的敌人包围时，能够回忆起今天的战斗",
+			say = "My hope is that one day, should any of you find yourselves outnumbered against a superior enemy, you will fight with the same tenacity that you witnessed today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1628,7 +1596,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "将皇家舰队的战斗意志贯彻始终",
+			say = "Carry forth the fighting spirit of the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1643,7 +1611,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "天佑女王——",
+			say = "God save the Queen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1656,9 +1624,9 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "众人",
+			actorName = "Crowd",
 			dir = 1,
-			say = "天佑女王——",
+			say = "God save the Queen!",
 			effects = {
 				{
 					active = true,
@@ -1685,7 +1653,7 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "全员注意，做好必要的损管检查，准备返航！",
+			say = "Well, everyone, let's go home! Make sure to inspect any damage thoroughly and get repairs as necessary.",
 			effects = {
 				{
 					active = false,

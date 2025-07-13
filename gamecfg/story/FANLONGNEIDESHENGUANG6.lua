@@ -11,11 +11,11 @@ return {
 			say = "",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（尤托比娅·萨伏伊与「Project：H」……）",
+			say = "(Eutopia Savoy and Dr. Aoste's Project H...)",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "在门中的记录消散于无形后，映入眼帘的，依旧是一望无际的白色世界。",
+			say = "After my return from Naraka, while I tried to deliver the sleeping Marco Polo to the Ashes, I was warped to this \"gate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我依然在此处，并未离开……而且，那种被人注视的感觉依然存在。",
+			say = "A recording had played before leaving me in a world of endless white. The only notable thing here was the constant feeling of being watched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,20 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我静静凝视着那个疑似视线传来的方向，恍然间，一望无际的纯白之中似乎发生了些许变化。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（……那个方向上，似乎真的东西存在！）",
+			say = "I looked in the direction where it seemed to come from, and amidst the white expanse, I noticed a barely perceptible change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +91,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（一个……更加纯白的轮廓？）",
+			say = "(There's something over there.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(Some kind of... silhouette?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伴随着轮廓的出现，我隐约在一片纯白之中看到了一条蜿蜒的小路。",
+			say = "Immediately as I perceive it, a thin path seems to appear in the empty space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "在道路延伸的方向上，静静漂浮着又一扇门。",
+			say = "A single door stands quietly at the end of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（意识到其存在，其才会存在……是这样的规则么？）",
+			say = "(Hmm. Is that how this place works? Something only begins to physically exist as you perceive and attempt to observe it?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（所以说……这一望无际的纯白，其实并不是空无一物，只是我无法理解，因而无法观测罢了。）",
+			say = "(That must mean... that this isn't just an empty white space. It could be full of things, only invisible because I've yet to observe them.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "我一边思索着，一边缓步走向了那扇新出现的门。",
+			say = "While I ponder it, I walk slowly toward the new door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一望无际的黑色中，闪烁着星星点点的蓝光。",
+			say = "Specks of blue light flicker like stars amidst a sea of black.",
 			blackBg = true,
 			bgm = "theme-starsea-core",
 			flashout = {
@@ -233,7 +233,7 @@ return {
 			oldPhoto = true,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "它们以一定规律出现，以一定规律运动，又以一定规律消散，",
+			say = "They appear, move, and fade, all in regular intervals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			oldPhoto = true,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在一遍又一遍的周而复始中，光点群隐约组成了四个或模糊或清晰的身影。",
+			say = "Throughout this repeating cycle, a few clusters of stars form four figures of varying clarity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "连通性测试——成功。",
+			say = "Connectivity test... Success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "空间结构稳定。数据交换正常。流动稳定，感知清晰，反应灵敏。",
+			say = "Spatial structure stable. Data exchange normal. Flow is stable, perception is clear, and reactions are acute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，开始「仲裁者计划」的第114次人工心智例行交流会。",
+			say = "Now commencing the 114th Project Arbiter Artificial Mind Briefing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 900405,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "参与本次交流的人工心智成员为：战争协议-堡垒、战争协议-玉轮、战争协议-镰刃、ProjectH。",
+			say = "Present members: War Protocol Fortress, War Protocol Moon, War Protocol Scythe, and Project H.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "现在，让我们开始交流吧。",
+			say = "Commencing information exchange.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "一如既往，公式化又生硬的开场白。",
+			say = "What a dry and formulaic intro. As usual, I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "我准备了五个话题，这次由我先开始好了。",
+			say = "I have five topics for discussion. Let me start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等……在此之前，我想先与诸位和ProjectH谈论一下，昨日原型装备测试中出现的“异状”。",
+			say = "Hold it, hold it. I want to speak with Project H first, particularly regarding the abnormality that occurred during yesterday's equipment prototype testing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在报告中，你提到了某种特殊的超出传感器捕捉范围的视野变化。",
+			say = "Your report mentioned... unusual visual changes that exceeded sensors' detection radius, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ProjectH，这片空间允许我们以最本质的形态观察彼此的结构。",
+			say = "You know, Project H, we can see each other's structures in our most fundamental forms here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你可以再次调用昨日测试的原型装备，复现一下“异状”出现的过程么？",
+			say = "How about you bring back the equipment you were testing and try to replicate the issue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 900475,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许，我们能够有所发现——",
+			say = "Maybe we can see the problem for ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

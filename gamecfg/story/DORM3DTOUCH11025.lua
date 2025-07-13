@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哎呀，Honey要是再靠近一点的话……会让我心跳加速的啦！",
+			say = "Ah... Get any closer, and my heart will skip a beat!",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_furniture1_tone5",
 			typewriter = {
 				speed = 0.05,

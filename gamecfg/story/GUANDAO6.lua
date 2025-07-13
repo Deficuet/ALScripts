@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>六　休息日与约会日</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>6.Break Day and Date Day</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "一周后的休息日，港区商业区——",
+			say = "Weekend, one week later - Port commercial district",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "指挥官指挥官~快看这个小兔子！像不像拉菲！不对……好像更像本森一点……",
+			say = "Lookie, Commander! That bunny-bun looks just like Laffey! Well, actually, it looks more like Benson...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "总之超可爱啊！好想让人抓出来啊，对吧~对吧！",
+			say = "But either way, isn't it so cute you just wanna eat it up? Let's get one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "少女看着橱窗中圆滚滚的兔子玩偶，笑容灿烂。",
+			say = "Guam points at a round, stuffed bunny inside the claw game. She lights up like a Christmas tree, beaming with excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "啊~那边还有卖冰淇淋~我们快过去吧！",
+			say = "Oh! They're selling ice cream over there! I want some!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "呜……电影也想去看！",
+			say = "But I also wanna watch a movie, so... Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "…………走吧！指挥官！我们去服装店！",
+			say = "I've got it! Let's go to the clothing store!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,22 +132,22 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "Uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那兔子玩偶呢？",
+					content = "What about the rabbit?",
 					flag = 1
 				},
 				{
-					content = "那冰淇淋呢？",
+					content = "Weren't we going to get ice cream?",
 					flag = 2
 				},
 				{
-					content = "那电影呢？",
+					content = "You changed your mind about the movie?",
 					flag = 3
 				}
 			}
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔！选起来太麻烦了，我全都要！",
+			say = "I hate having to choose, so let's just do them all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "先去电影院里买冰淇淋，然后看完电影再回来抓娃娃就可以了！",
+			say = "What that means is – first, we'll buy the movie tickets, then get the ice cream, then after we've watched the movie, we'll nab the plushie then return to this spot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "哼哼，不愧是聪明的我~",
+			say = "Perfect plan, right? I'm such a genius.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "走吧走吧，指挥官，电影差不多该开场了哦！",
+			say = "Come on, let's hurry, or we're gonna miss the start of the movie!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "话音未落，少女已经一溜烟地冲向了电影院门口的售票处——",
+			say = "Just like that, she scurries off and gets in line at the ticket booth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "本日的电影，主题是恋爱与离别。",
+			say = "The movie was about love and separation.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "电影结束后，关岛已经哭成了泪人。",
+			say = "Once we emerge from the movie theater, Guam has tears dripping down her cheeks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "呜呜……呜呜呜…………为什么最后要设置这么悲伤的结局！",
+			say = "*sob*... Why did it end on such a heartbreaking note?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "彼此相爱的人就是应该幸福的生活在一起啊，大团圆有什么不好嘛！",
+			say = "Why couldn't they have a happy ending? A couple in love should be allowed to live together happily, dammit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "呜呜……早知道就不听大青花鱼的推荐了，说什么最适合和指挥官约会时观看的电影TOP1！",
+			say = "*sniffle*... I should never have listened to Albacore! \"The best film to watch on a date with the Commander,\" my ass!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "妆都花了啊……得去补妆才行，呜呜……",
+			say = "I cried so much, my makeup is ruined... *sob*... I need to powder my nose...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			},
 			options = {
 				{
-					content = "把兔子玩偶递过去",
+					content = "(Give her the round bunny plushie.)",
 					flag = 1
 				}
 			}
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "这……这个是白天那个既像拉菲又像本森的兔子玩偶！",
+			say = "That's... That's the spitting-image-of-Benson plushie I said I wanted!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "可是你一直在陪我看电影，也没从放映厅出去过……",
+			say = "But wait, how'd you get it? You were in the theater with me the whole time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "它怎么会出现在你的手上，难道说是……魔法！",
+			say = "Did you use, dare I say... magic?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看电影的时候发现你情绪越来越低落了，所以……我使用了一些指挥官的手段拿到了这个兔子。",
+			say = "Let's just say I pulled some strings. The movie made you pretty sad, and I thought this would cheer you up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "顺便根据玩偶的原作者所说，这个既不是拉菲兔也不是本森兔，而是东煌玉兔，有象征团圆的含义在里面。",
+			say = "Also, fun fact – this bunny isn't based on Laffey or Benson, but rather the moon rabbit, which symbolizes a happy reunion in Dragon Empery culture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喜欢么？",
+			say = "The symbolism isn't a perfect fit for this occasion, but you still want it, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "喜欢~！象征团圆的兔子啊……我会好好摆在床头的！",
+			say = "You bet! It represents reunions, eh... This little cutie is getting a spot on my bed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "果然，相比起离别，还是团圆最好了！嘿嘿……",
+			say = "Because reunion is a much better thing than separation to remember this day by! Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "少女的心情，正在雨过天晴。",
+			say = "She's back to her normal, cheerful self again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "哇啊！糟糕，已经到这个时间了么！",
+			say = "Aw, crap! Look how late it is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "节目快开始了……没办法，随便找个地方看吧！",
+			say = "My show's gonna start real soon... Dang it, we'll just have to find a place to sit down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "向着公园，全速前进——！",
+			say = "Like... The park! Let's go, double time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸，等……",
+			say = "What? But–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "我话还没说完，就被少女拉着跑向了远方。",
+			say = "She grabs me by the arm and leads me off to the park before I can even ask any questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_523",
 			hidePaintObj = true,
-			say = "玩了一天玩下来还能如此有活力……不愧是你，关岛。",
+			say = "We've been out and about the whole day, and she still has energy to spare... Guam really is something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

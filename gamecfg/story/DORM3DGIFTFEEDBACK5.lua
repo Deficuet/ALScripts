@@ -5,12 +5,9 @@ return {
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
-			say = "好可爱的玩偶……咦？{dorm3d}不在时就由它来陪伴天狼星……？",
+			say = "What an adorable little plushie... Hm? It's to keep me company while you're gone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +30,7 @@ return {
 			}
 		},
 		{
-			say = "明白了，天狼星一定会把它当成{dorm3d}一样好好爱护，二十四小时寸步不离。",
+			say = "Understood! I'll keep it by my side at all times and take very good care of it as if it were you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

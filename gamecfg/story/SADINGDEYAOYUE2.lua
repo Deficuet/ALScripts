@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>二　北方的回应</size>",
+					"Where All Roads Lead\n\n<size=45>2 The Northern Parliament's Speculation</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "北方联合·某处",
+			say = "Somewhere in the Northern Parliament...",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "撒丁帝国已经发来了世界博览会的参展邀请，你怎么看这件事？",
+			say = "Kronshtadt, what do you think about the invitation we received from Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "世界博览会啊……这种世界性的大型活动已经中断很多年了吧？",
+			say = "The return of the World Expo? To my understanding, the event has been on the decline since the rise of the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "现在欧罗巴的战火刚刚消停，就这个时间点来说，倒不算不合适。",
+			say = "Now that the situation in the NA Ocean is finally starting to wind down, it's certainly not a bad time to reboot the event.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只不过没想到会由撒丁帝国先提出来……",
+			say = "I just didn't expect Sardegna to be the first to make the proposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "在发现军事手段不如意之后，她们终于决定用文化手段来彰显自己的影响力了吧。",
+			say = "No, I'd say that was a fairly predictable outcome. Sardegna likely sees the World Expo as a prime opportunity to \"spread their splendor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "也是个挺不错的思路不是么？",
+			say = "I must admit, it's an efficient way of doing so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "是啊……至少也算是个和平的方式。",
+			say = "And, through completely peaceful means too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "怎么了？听你的口气，你觉得我们不应该去？",
+			say = "Do you think the Northern Parliament should participate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不，我们当然应该去。",
+			say = "I do think it would be in our best interests to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这种舞台虽然对于主办方有优势，但大体来说还是对所有人公平的。",
+			say = "The World Expo is an event where not only the organizers, but all the participants as well, can show off their abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "参会对于我们来说也是扩展影响力的好机会。",
+			say = "Needless to say, that's meaningful for us as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "只不过我是在想……其实你心里已经拿定注意了吧？",
+			say = "...And, knowing you, I'm sure you've already sent the reply saying that we'll participate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然我没证据，不过我觉得由撒丁帝国举办世界博览会是你很乐意看到的结果哦。",
+			say = "I'm just speculating here, but I suspect that there's nobody else you'd rather have hosting the World Expo than Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "喀琅施塔得，你是不是又偷翻机密文件了？",
+			say = "Oh? Your speculation is rather prescient. If I didn't know better, I'd suspect you've been secretly browsing through confidential intelligence and communication records.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "单纯只是猜测而已~或者你可以告诉我，之前你暗中派神速去撒丁帝国是去做什么的？",
+			say = "We all get lucky sometimes. By the way, for what purpose did you secretly dispatch Stremitelny to Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "呵呵，那个只是加强与外界联系而采取的行动之一而已。",
+			say = "Just your routine business contact. Strengthening our communication with Sardegna is a worthwhile endeavor, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "你猜的没错，我其实已经拿定主意了。",
+			say = "As for the matter of our participation in the World Expo, your \"speculation\" is correct. I have already responded on behalf of the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "本次，北方联合将会作为碧蓝航线阵营内第一个同意撒丁帝国邀请的阵营，卖撒丁帝国一个人情。",
+			say = "As the first party from the Azur Lane to accept the invitation, our prestige has already increased in Sardegna's eyes. Treat it as my loan for them to repay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "至于带队前往撒丁帝国的人选……这次除了与撒丁帝国展开协商之外，还有其他几件事需要办。",
+			say = "As for the girls who will be representing us to Sardegna, there are actually a few things I'd like to take care of beyond the routine stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "你有没有兴趣去一趟？",
+			say = "Are you interested in going, Kronshtadt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "当然~谍报工作是我的专长，这种事非我莫属吧？",
+			say = "Of course. It's my job to take care of whatever goes \"beyond the routine stuff\" after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "不过我和外界脱节时间有点长了，需要帮手。",
+			say = "Having that said, if I'm to serve as a delegate, all eyes will automatically be on me no matter how much I try to keep a low profile. I'll need some backup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "嗯……阿芙乐尔一直负责欧罗巴的外交事务，让她协助你一同带队吧。",
+			say = "Avrora will accompany you. She's quite familiar with the workings of the other factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "不过极地舰队不能跟你一起去，相比欧罗巴方向，极地方面更需要战斗力。",
+			say = "Unfortunately, the Polar Fleet is tied up with some investigatory work right now and won't be able to provide you with much support. I do hope you understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "没问题。还有一件事，我需要看之前涉及欧罗巴方面行动的全部机密文件。",
+			say = "I've been dealt worse hands before. But, I do have one request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "既然要负责这件事了，总不能两眼一抹黑吧~",
+			say = "I want authorization to see all of the higher-ups' classified documents on the Europa operation. Can't be rushing in blind after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "你就是惦记着你那机密文件不放……",
+			say = "...I do wonder, is that request actually for work purposes, or to sate your own curiosity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "玩笑话了。用人不疑，这个当然也没问题，你可以看。",
+			say = "But, I understand. I will give you the authorization. Be sure to make good use of that information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "那我就没有其他问题了~",
+			say = "Understood. ...Oh, there's one last thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "这次还是给指挥官同志也发一份邀请函？",
+			say = "Um... What about Comrade Commander? Should we send an invitation from our end as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900218,
-			say = "那是自然。虽然我对这次的成功率不抱希望。",
+			say = "It can't hurt to try... But this time, our chance of success is probably pretty close to zero.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "也是啊……这次为了减少对立情绪，两大阵营都没有设置阵营馆。",
+			say = "All the factions are going to want to get their hands on the Commander, huh... Wait, isn't this pretty bad for us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "指挥官同志隶属于碧蓝航线，不特定属于某个特定势力，要想参加缺乏合理理由。",
+			say = "Whichever faction's invitation the Commander ends up accepting will likely have ramifications for all of us. I can see it becoming a very sensitive issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 718010,
-			say = "虽然理论上可以作为嘉宾和游客来玩，不过白鹰那边恐怕会阻挠吧……",
+			say = "Plus, the Commander likely is being hosted by someone else right now. Us sending an invitation could potentially create a diplomatic mess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			actor = 900218,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大概率。不过这不影响我们的态度，不是么？",
+			say = "Indeed. And that's why I already sent the invite, Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

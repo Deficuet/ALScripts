@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>月下的追逐</size>",
+					"Sails and Spooks\n\n<size=45>2 Moonlit Escape</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "散发着苍凉光芒的满月此刻正照耀着这座神秘的小镇。",
+			say = "The full moon shines over a town full of mystery.",
 			bgm = "story-ghostnight-fascinsting",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "倒也算得上别有一番景致——如果忽略背后急促迫近的马蹄声的话。",
+			say = "It's a beautiful sight to be appreciated – assuming you can ignore the sound of four hooves pursuing you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "呼……呼……再跑快点啊！",
+			say = "*pant*... *pant*... Faster! Go faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "千万别被抓住了！！",
+			say = "Whatever you do, don't let him catch you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "自称为传奇调查员的布里斯托尔，与作为传奇调查员助手的我正在一路向着小镇的出口撒腿狂奔着。",
+			say = "The self-dubbed legendary investigator Bristol – and I, her assistant – are running for our lives to get out of the town.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "传奇调查员的怀中紧抱着“无头骑士”的头颅，而失去头颅的“无头骑士”正在骑马紧追着。",
+			say = "Bristol carries the Headless Horseman's head in her arms, and the horseman in question is hot on our trail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "要问为什么会发生这种事，这一切都要从她在图书馆中找到了一本《无头骑士传说真相》的手抄本说起——",
+			say = "If you're wondering how we got to this point, it all started when she found a manuscript in the library called, \"The True Story Behind the Legendary Horseman.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "这种时候就不要露出“说来话长”的表情啦！",
+			say = "Don't give me that \"it's a long story\" look! Now's not the time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "既然是我雇的你，我也有责任把你安全带出这里……",
+			say = "Sure, I got us into this, but I can only take the blame for it if we get out alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "总、总之再和我一起，跑快一些吧！",
+			say = "Forget about the story and focus on running faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "少女一边说着，一边紧紧地将无头骑士的头颅夹住。",
+			say = "She clutches the Horseman's heads between her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,18 +168,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "DATA-857，要是等下我们都跑不动了的话，就在我们身后帮忙推一把哦！",
+			say = "Data 857, when we can't run anymore, you'll have to push us the rest of the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "它还有这个用处……？",
+					content = "It comes with a feature to push you?",
 					flag = 1
 				},
 				{
-					content = "我是不会停下来的！",
+					content = "Run, Bristol, run!",
 					flag = 2
 				}
 			}
@@ -193,7 +193,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理论上是不行啦，但是现在事态紧急……",
+			say = "Strictly speaking, no, but this is an emergency!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "再说了，要是我们跑不动不就死定了么！",
+			say = "If we stop moving, we're toast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "放心吧，我是不会停下来的！",
+			say = "Don't let 'em catch you, Bristol! Run!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "那就好！",
+			say = "I know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "和布里斯托尔继续奔跑在苍白的月光下。",
+			say = "We continue running while the bright moon shines overhead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,35 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "四周的景色也变得越发荒凉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_521",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 101492,
-			say = "“浓雾弥漫在这片荒芜的沼泽地……”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_521",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 101492,
-			say = "“腐烂的植物散发出令人作呕的气味……”",
+			say = "Then, we realize that the further we go, the more desolate our surroundings become.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "“但我不能停下，因为停下意味着死亡，或者更糟。”",
+			say = "\"A thick veil of fog hangs over this marshland...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +285,35 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "“身后的马蹄声越来越清晰，但那声音又不像是来自任何正常的生物……”",
+			say = "\"The stench of rotting plants stabs my nose, and nausea wells in my stomach...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_521",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 101492,
+			say = "\"But I cannot stop. To stop running would beckon certain death, or perhaps a fate even worse than such.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_521",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 101492,
+			say = "\"The sound of four galloping hooves from behind is drawing closer... Those sounds could not be of any living creature.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "“天啊，它越来越近了……金属铠甲的碰撞声和一种低沉的、非人的嘶吼……”",
+			say = "\"O, closer they draw – the rattling of metal armor, and low groans like no human could utter...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "“我看到了，骑士空洞的颈部喷吐着黑色的烟雾……”",
+			say = "\"I saw it. I saw smoke begin to spew from the neck of the Headless Horseman...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "急速的奔跑让她的话语时断时续。",
+			say = "Between her gasps for air, she recites a story to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……？这是那个手抄本里，有关无头骑士的描写？",
+			say = "What? Is that from the manuscript you read?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "没错！我在试图通过这种方式增加紧张的氛围感，让我们跑得再快点！",
+			say = "Yeah! I thought adding some tension would help us run faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "你看，我们两个人有四条腿，无头骑士骑着马所以也是四条腿……",
+			say = "You know what else? We're on even footing with the Horseman! Literally!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家都是四条腿，没道理跑不过~！",
+			say = "His horse has four legs, and we have four legs between us as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……",
+			say = "Right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,20 +440,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "在沉默地点了点头，勉强接受了少女的乐观说辞后，我突然想起了手抄本末页的记录。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_521",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "末页的记录里说，骑士只会存在于太阳升起之前。",
+			say = "I can hardly believe the words coming out of her mouth, but I digress because, all of a sudden, I remember something else the manuscript said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +453,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也许我们找个地方拖延时间，等到日出就安全了。",
+			say = "Hey, didn't the last page say the Horseman can only exist until the sun rises?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_521",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "If so, we should find a place to hide and bide our time until morning comes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "拖延时间么……要不然我们现在立刻折返方向跑回去~？",
+			say = "Hmm... I guess we could go back the way we came.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "它肯定想不到我们会回头，只要小心一点不被它抓住，就又能兜个圈子了。",
+			say = "The Horseman probably won't expect us to do a 180, and if we just stay on the lookout, we should be able to wait him out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "布里斯托尔换了个姿势，用一只手紧紧抓着头盔，接着把另一只手塞进我手里。",
+			say = "She extends her empty hand and takes mine into it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "少女的掌心温热，能感受到她不知道是因为紧张还是剧烈运动而沁出的汗水。",
+			say = "Her hand feels warm. It's covered in sweat, be it from fright or simply from running.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "我抓紧她的手，带着她向反方向的小镇跑去。",
+			say = "I grasp her hand back and change direction with her. This time, we are running towards the town.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈~你再快一点也可以哦，我还跟得上啦！",
+			say = "Ahaha! You can run faster if you want! I've still not hit peak speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "传奇调查员少女发出一串清脆的笑声。",
+			say = "The legendary investigator lets out a refreshing smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "看起来……她还十分享受这种紧张刺激的追逐。",
+			say = "She is really enjoying this thrilling chase with all her heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101492,
-			say = "我们继续逃跑吧~直到日出之前~！",
+			say = "Come on! Let's keep running until daybreak!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

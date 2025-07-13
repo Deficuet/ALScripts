@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_newyork",
 			bgm = "level02",
 			dir = 1,
-			say = "白鹰·纽约司令部 稍早之前 ",
+			say = "Eagle Union Mainland - NY City (Post-Siren attack)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！天气晴朗，风速平稳，今天是个出航的好天气呢",
+			say = "Good winds, check. Calm waves, check. Today's looking like it'll be smooth sailing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴拿马要塞是连接大洋的重要通道，一定要确保它的安全，之后就拜托你们了哦~",
+			say = "Yup. If nothing else, we'll have a nice journey on our way to the Canal Zone. We'll be busy after that though, because that stronghold isn't gonna protect itself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近我和萨拉托加都有任务在身，塞壬很可能抓住我们防线薄弱的时候发动进攻，驻防的时候千万小心",
+			say = "Saratoga and I will have our hands full with a separate mission, so we won't be able to accompany you. Still, someone has to keep watch on our territories when our defenses are weak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心放心~如果有塞壬趁机来“拜访”，我一定用主炮好好“招待”它们",
+			say = "Don't you worry. If any Sirens show up, they'll get a welcoming present from my 8-inch guns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "各位，出航的时间到了，准备完毕之后就动身吧",
+			say = "You should start setting off now. Good luck out there, and stay on your guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么我们出发了…企业、萨拉托加，你们也要注意安全",
+			say = "Yeah, we ought to get going as well. Good luck, Enterprise, Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些都是毛毛雨啦，不用担心。大家一路顺风哦~",
+			say = "It's no biggie, we're just checking out a remote stronghold! Anyhoo, safe travels to you all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业，我也该出发和指挥官汇合了",
+			say = "All righty, Sara's gonna go ahead and link up with the Commander~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -187,7 +187,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白令海的冰雪要塞攻略作战终于要开始了么？",
+			say = "I wonder how things are going up there in the Bering Sea. I heard they were going to investigate an iceberg fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一贯冰冷的北方联合这么热情的邀请我们进行联合作战，还推荐指挥官前去指挥，总感觉有一丝阴谋的味道呢…",
+			say = "Think so... I think it's a bit suspicious how they invited the Commander out of the blue, when the Northern Parliament has been handling it by themselves so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次作战一定有哪个环节不对劲，我一定要去亲自看看",
+			say = "So I want to be on the safe side and come along to ensure everything's fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业就按之前说好的就坐镇纽约司令部，等着我们凯旋的好消息吧~",
+			say = "In the meanwhile, you just need to hold the line here and await our triumphant return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "预祝你们作战顺利，顺便帮我向指挥官带个好",
+			say = "Roger that. Good luck, and give my regards to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "收到~",
+			say = "Will do~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

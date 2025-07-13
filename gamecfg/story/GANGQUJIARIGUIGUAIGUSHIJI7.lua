@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>恶魔的“等价交换”</size>",
+					"Sails and Spooks\n\n<size=45>7 A Deal with the Devil</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "感受着地砖冰凉的触感，我缓缓睁开双眼。",
+			say = "I awaken to a cold tile floor under me.",
 			bgm = "story-ghostnight-fascinsting",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "大厅中央的王座上，端坐着一位美丽的少女。",
+			say = "My attention jumps right to a beautiful woman sitting on a throne in the middle of this big hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "哦？这位客人，你醒了吗？",
+			say = "Ah, finally awake, visitor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "虽然语气和笑容都称得上是甜美可人，但是少女周身散发出的气场形成了一股巨大的压迫力。",
+			say = "Her looks and her voice alike are the definition of gorgeous, and yet, she exudes an intidimating aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~不用紧张哦，我是这座城堡的主人，叫我{namecode:295:尾张}就好。",
+			say = "Hey, ya don't gotta be so on edge. I'm the boss of this place. Just call me Owari.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "我是看到你晕倒在路边，所以就把你捡回来了~",
+			say = "Saw you lyin' on the side of the road, so I brought you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "对了，你是从哪里来的呢？捡到你的时候，你可是把自己搞得乱七八糟的哦。",
+			say = "Speaking of, where're you from? Looked mighty battered when I found ya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女角上的装饰随着说话摇晃着，真诚的语气中还带着几分关切。",
+			say = "Her horn ornaments – hornaments, if you will – sway as she speaks. Her tone suggests that she's genuinely concerned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,20 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "尽管明确地知晓她并非人类，但这样还是让人很难不对她产生好感。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（记得……我是在赶路的过程里被野兽袭击，受了重伤而逃到这附近的……）",
+			say = "Even knowing that she isn't human, I can't help but feel affection for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +132,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？我身上的伤口怎么不见了……？",
+			say = "(Let's see... I was hurt badly by a beast while on the road, and I dragged myself over here, then...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_177",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Wait... Where did my wounds go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦哦，原来你是在找伤口啊，我不是说你把自己搞得乱七八糟嘛……",
+			say = "Your wounds? Yeah, you were beat up real bad, so I healed ya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "所以就顺手帮你治好了哦~我超厉害的对吧！",
+			say = "Pretty based of me, wouldn'tcha say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "她露出了明媚的笑容，得意地冲我点了点头，像是等着人夸奖一样。",
+			say = "She flashes a bright smile and nods proudly, seemingly waiting for me to praise her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "确实很厉害。",
+			say = "Yeah, you did an amazing job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "不过呢，我捡你回来，也不是白捡的哦？",
+			say = "Thing is, I didn't do it outta the kindness of my heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……嗯？难道是……）",
+			say = "(What? Oh boy...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,20 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "脑海之中，不禁浮现起那些关于恶魔会诱骗人类进行“等价交换”的传言。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "唉……我要付出怎样的代价？",
+			say = "A story I'd heard suddenly comes to mind – that demons trick humans into making \"deals of equivalent exchange\" with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +247,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是要为你率领恶魔大军攻城略地，还是要……",
+			say = "So... what do you want from me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_177",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Will you make me command your demon army and invade enemy territory, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "欸？你在说什么？",
+			say = "What? Ya lost me there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "恶魔少女露出了不解的神色，甚至有点手足无措的扯了扯自己的衣服。",
+			say = "A look of confusion forms on her face and she idly tugs on her clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？你不是要找我进行“等价交换”么？",
+			say = "You're not? I thought you'd make me offer something of equal value.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦……对哦！你是要“等价交换”是吧~",
+			say = "Oh, right! Yeah, that's the one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "咳咳，我可是救了你的命，你该不会以为这种程度的代价就可以吧？",
+			say = "Ahem... You owe your life to me. You must give me something worth more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来~接着。",
+			say = "Here, take this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "恶魔少女从王座后面掏出了一把金锄头，丢在我面前。",
+			say = "She reaches behind her throne and pulls out a hoe of gold, then throws it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "而后少女又调整了一下坐姿，使自己看起来更是威严。",
+			say = "She then corrects her posture and assumes her regal looks again before continuing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "你懂我的意思了吧，客人~？",
+			say = "I take it you know what this is, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,18 +387,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……我懂了。",
+			say = "...I sure do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是用来击败敌人的武器！",
+					content = "It's a weapon imbued with powerful magic!",
 					flag = 1
 				},
 				{
-					content = "这是用来埋葬敌人的工具！",
+					content = "It's a tool to dig the graves of your enemies!",
 					flag = 2
 				}
 			}
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "以农具击败敌人，同时带给敌人无穷的羞辱，不愧是恶魔！",
+			say = "Using a farming tool to slay your foes and humble them at the same time... How ingeniously devilish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "用这个来挖掘坑洞，埋葬敌人……不愧是恶魔！",
+			say = "I can use this to bury those who oppose you... How ingeniously devilish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过……不管是哪一种，恐怕效率都不是很高啊。",
+			say = "Actually... That sounds like a pretty inefficient way of doing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "不对不对，不可以把宝贵的农具用来做那种事哦！",
+			say = "Yo! Don't go usin' my precious tools for none of that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女稍微鼓起脸颊，好像在生气，同时也伸出食指左右摇晃。",
+			say = "She puffs her cheeks up in anger and wags her finger at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "好好听我说！你要付出的代价就是——和我一起去种菜啦！",
+			say = "Listen up! Here's how you're gonna repay me: by hittin' the farms and workin' the soil with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "她说话的同时挺起胸膛，看上去是对自己的决定非常满意。",
+			say = "Chest held high, she looks very content with her own proclamation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我给予了你生命，所以你也要以生命回报！",
+			say = "I saved your life, so you gotta give some life back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "你刚刚来的时候浑身都在流血，我可是用了好多恶魔胡萝卜作为草药才给你止住了血呢。",
+			say = "You were bleedin' like a stuck pig, remember? It took a buttload of demon carrots to stop it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女从王座上站起，缓缓向我走来。",
+			say = "Rising from her throne, she slowly walks over to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，在新的生命孕育之前，我可不会放你走哦。",
+			say = "You'll be staying right here, helpin' the greens grow, and you ain't leaving 'til then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她将金锄头放进我手里。",
+			say = "She places the golden hoe in my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女的指尖温暖而柔软，眼神中更是充满了温柔和对生命的渴望。",
+			say = "Her fingertips are warm and soft, and her eyes are brimming with kindness and a longing for new life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "嘿嘿~走吧客人~！",
+			say = "Heehee! C'mon, visitor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900464,
-			say = "让我们一起去制造新生命吧~！",
+			say = "Let's go bring new life into this world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

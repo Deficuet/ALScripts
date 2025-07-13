@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_wuzang_bg9",
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}控制区 第四回合",
+			say = "Exercise Area - Turn 4 (Mikasa's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:70}姐，{namecode:91}的舰队直冲我们的方向过来了。",
+			say = "Akagi has sent a fleet to hold the waters around the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看起来是意图拿下我们与{namecode:74}大人之间的连接处啊……",
+			say = "Is she trying to prevent us from assisting Lady Nagato?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是一次长距离的机动，把大前辈设计的事件效果完全利用了。",
+			say = "She just took a base, but is already poised to make her next move...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我们的区域据点还没拿下……这时候受到夹击的话就太被动了！",
+			say = "Doesn't this put us in a tough position though? We haven't even finished capturing the Diadem of Light yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，{namecode:82}前辈手里有足以应付当前状况的指挥卡。",
+			say = "Mikasa said she can handle this situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "「海域封锁」-一张可以彻底封锁一处小据点，让其3回合内无法被攻击的策略卡。",
+			say = "We will maintain pressure around the central area to keep Akagi's forces occupied and allow Nagato to take all the remaining small bases along the perimeter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果使用这张卡的话，我们就有余力首先结束眼前的战斗，然后再去应付{namecode:91}了。",
+			say = "Akagi is trying to fulfill three objectives at once, using speed and misdirection to throw us off. However, she is unable to muster significant numbers for any one of those objectives.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			say = "{namecode:70}的话音未落，远方的一处边界据点就被覆盖上了一座宛如牢笼的灰幕。",
+			say = "While surveying a map of the exercise area, Kongou relayed the messages she received directly from Mikasa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，{namecode:82}前辈用的是这张卡！",
+			say = "Even if Akagi manages to capture some of the bases around the central tower, she won't have the resources to push further west.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……封锁的是距离中心较远的EF12，而不是EF34，为什么？",
+			say = "Why is she doing this? Shouldn't Akagi know that our forces are concentrated around the Diadem of Light?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这两个边界据点，至少其中一个{namecode:91}是势在必得的。",
+			say = "That's most likely the reason why she only sent a small detachment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "如果封锁EF34，{namecode:91}必然会进攻EF12。能把敌人分割成两股分而破之固然好。",
+			say = "If she planned on taking any other bases on the western side, she would have to commit a lot more resources.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 301790,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是我们双方实力相同，这时候把对面分成两部分可能反而会对我们形成钳制之势。",
+			say = "That's why I think this might be a feint. Even though we have the numerical advantage, we're prone to getting pincered if we get too focused on surrounding the detachment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "要是她们选择避战的话，在后方牵制我们会很麻烦，还不如将她们集中到一起去处理。",
+			say = "Regardless of what Akagi is specifically aiming to do, she's going to keep her forces in an area where they will be able to come to each others' aid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此……就现状而言，避免多线作战确实是更为稳健的选择。",
+			say = "In other words, it's advantageous to keep the enemy in one place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不仅如此哦。因为我们封锁了边境通道，{namecode:91}队的人要想过来就只能穿越危险的中心区域了。",
+			say = "What we can most likely surmise is, Akagi is trying to keep us from attacking the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:91}看上去是因为不想让我们接触中心据点，所以才一口气把E5与E6两个点都堵死了。",
+			say = "I understand what Mikasa is trying to accomplish, so the next step is turning this situation into an advantage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可是我们本来也不着急过去，就先让{namecode:91}队的人替我们探一探中心区域的机关好了~",
+			say = "After all, we're in no hurry to take the central tower. If anything, Akagi would do us a huge favor by scouting out exactly what kind of enemy we're dealing with in that tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "眼下，我们只需要先放心解决掉面前的清除者就好。",
+			say = "For the time being, focus on capturing the Diadem of Light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是大前辈，真是滴水不漏的作战……",
+			say = "So we'll be directing all our firepower at the bases and trying to avoid other shipgirls, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过{namecode:84}大人进攻区域据点用了三回合，我们也差不多要三回合吧。",
+			say = "Right, I just got a report from the recon planes - we're dealing with an Omitter vessel up ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 303100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜这回合的移动力要浪费了……没想到没有利用上大前辈事件卡的竟是我们自己。",
+			say = "Omitters tend to be more aggressive than other types of Sirens, but this isn't a fight we can back down from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不，这回合足以。",
+			say = "Don't worry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,24 +413,7 @@ return {
 			bgName = "bg_wuzang_bg9",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要忘了我设定的技能哦，那个随着每次战斗逐渐增强的「光荣的一番舰」。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_wuzang_bg9",
-			actor = 304010,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "已经到了第四回合，差不多能用一次了！",
+			say = "Mikasa informed me that this battle will be pivotal for us. Don't hold anything back, and hit that Omitter vessel with everything you've got.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +430,24 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主攻就交给我这个{namecode:70}级光荣的一番舰，大家在拿下这里之后向据点EF34全线移动，阻止入侵之敌的继续深入！",
+			say = "Naturally, I will be joining you too. How could the first ship of the Kongou-class battleships miss this chance for glory?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_wuzang_bg9",
+			actor = 304010,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I will lead the charge! Capture the Diadem of Light, then turn around as a unit and intercept Akagi's fleet!",
 			painting = {
 				alpha = 0.3,
 				time = 1

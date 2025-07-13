@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"意外的旅途\n\n<size=45>一 庆典</size>",
+					"Letters and Travels\n\n<size=45>1 Opening Ceremony</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "斯卡帕湾·演讲会场 某日",
+			say = "Scapa Flow - Ceremony Venue",
 			side = 2,
 			bgName = "bg_endingsong_3",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "呼，在萨福克辛苦的工作下，会场的布置终于圆满结束了……大概！",
+			say = "Whew... Everything is finally in place. It took a lot of work, but I did it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了不起！虽然有几个椅子歪了，演讲台上的横幅好像也有点歪……",
+			say = "Great work. Although I'm afraid this chair is in the wrong place, and the banner behind the podium is a little misaligned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "啊……好细心><！",
+			say = "Don't sweat the small stuff! Nobody will notice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202270,
-			say = "没关系，这里就交给其他同伴，萨福克去布置贵宾室的茶点吧。",
+			say = "I'll have someone else take care of it. You can head to the dessert room and start on that next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "工、工作正在源源不断的被分配过来？！",
+			say = "Awww... Just when I thought I could catch a break...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "找到了你了，萨福克。",
+			say = "There you are, Suffolk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝法不是把迎宾工作交给你了么，你怎么会在这里？",
+			say = "Why are you in here and not outside, welcoming the guests as Belfast asked you to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "啊！差点把贝法交代的工作耽误了，那么我就先行告退——",
+			say = "Oh right, that's what I was supposed to do! I'll be right there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是看到萨福克一个人在外面闲逛，正好会场布置还缺些人手，就拜托她来帮忙了……",
+			say = "Oh, my apologies. I found Suffolk staring at the clouds outside, so I decided to ask her to set up things around here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此。会场布置还顺利么？",
+			say = "That explains that, then. Speaking of which, are you finished in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202270,
-			say = "老实说会场的规模有些过大了……不过应该能在预定的时间内完成。",
+			say = "Not yet – it's quite a lot bigger than I anticipated. But worry not, I'll finish on schedule!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "辛苦。那我也差不多该回归岗位了。",
+			say = "That's what I like to hear. If you'll excuse me, I have to get back to my station.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有皇室成员参加的活动，安保方面也是一个令人费心的难题啊……",
+			say = "We have some very important guests tonight. We cannot slack on security.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "斯卡帕湾·码头",
+			say = "Scapa Flow - Pier",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "上次来这里的时候景象可以说是一片狼藉，没想到再修复工作进展的这么迅速。",
+			say = "Incredible. This place has already recovered so well after all the damage the Sirens did in that battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道是幸运还是不幸，看来施工队对于斯卡帕湾的修复工作已经越来越熟练了~",
+			say = "You can thank the manjuu construction corps for that. Those little guys are rather capable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也是啊，皇家最重要的舰队锚地居然一而再再而三的被偷袭，这真的是完全没法笑着说出来的事……",
+			say = "Yes, but we should be ashamed that a critical part of our naval infrastructure has come under attack so many times!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来我们一定要好好守住它，不能让祖国的领土再受到伤害了。",
+			say = "We must defend it to the last woman henceforth and never let such a thing happen again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~我们会的！",
+			say = "Yes, and we shall do just that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过首先还是开心一点，今天可是为了斯卡帕湾的重生特意准备的庆典活动哦。",
+			say = "For now, just settle down. Scapa Flow is back in business, and that's what we're here to celebrate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德大人不是之后要在庆典中演讲么？一脸愁眉苦脸的你站在她身边可是会让太阳都黯淡几分的！",
+			say = "Brighten up, Renown. Hood's going to be in attendance, and you wouldn't want to disgrace the Royal Knights by facing her with a frown, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说得对……我们这次代表的是整个皇家海军，可不能因为自己不成熟的表现让伊丽莎白女王大人和胡德大人的颜面蒙羞！",
+			say = "You're right. I must conduct myself properly on this occasion for Her Majesty's and Lady Hood's sake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从一副唉声叹气的模样变成了一直以来我熟悉的那个标准的老姐，欸~也算是可以吧。",
+			say = "There you go! That's more like the Renown I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走吧，向着会场出发！",
+			say = "All right, enough frivolities. Look sharp and let's head for the ceremony venue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………反击，你知道会场在哪里么？",
+			say = "...Incidentally, where even is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道！贝法不是说过码头会有人来迎宾么，不会是把我们忘了吧……",
+			say = "No idea. Belfast said someone would come get us, but I don't see anyone here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "让，让你们，久，久等了！",
+			say = "P-pardon my tardiness! ",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 203040,
-			say = "会……会场在这边！请跟我来！",
+			say = "I'll show you to the venue. Follow me, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "一段时间之后",
+			say = "Scapa Flow - Ceremony Venue",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "阳光明媚的斯卡帕湾上空礼花炸响，五彩的飘带在港湾内部飘荡。",
+			say = "A cannon salute and fireworks were set off at the open-air venue to commemorate the occasion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "经历了多次战火洗礼后，斯卡帕湾终于再次修复完毕了。",
+			say = "Friedrich's plan had succeeded, resulting in the elimination of a key Siren. However, Scapa Flow sustained significant damage in the battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "本次典礼则是为了庆祝斯卡帕湾的重生暨对抗构建者的重大胜利而举办的。",
+			say = "The Royal Navy and Eagle Union attributed this damage to the Sirens in their formal report to Naval HQ.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "随着贵宾陆续入座，所有人的目光都聚集在了会场正中的演讲台上。",
+			say = "And so, this ceremony serves two purposes – to keep up appearances, and to celebrate this great leap forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德阿姨，好慢啊……",
+			say = "Gee, granny Hood's awfully late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "就在人群已经有些喧闹，声望也打算去后场查看一下情况的时候——",
+			say = "As the curtain rose on the opening ceremony, Hood – the guest of honor – was nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐……该不会胡德大人在来的路上……",
+			say = "Wonder if something came up that she has to tend to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可能！在我们抵达之后我就确认过一次，航线一切正常。",
+			say = "Lady Hood is punctual and a lady of her word. She wouldn't miss this event for the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽说活动的主角在最后时刻登场效果会更好。但……现在已经迟到太久了。",
+			say = "She's not one to keep Naval HQ representatives waiting either, but she IS late...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德大人绝对不是一个不守时的人。",
+			say = "I can't imagine she's engaging Sirens either. They'd have to be mad to attack when practically our whole navy is here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等……姐姐，你注意到了么，会场里的女仆队成员不知不觉少了一些。",
+			say = "Maybe the Royal Maids know what's up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我还是去后场看看吧。",
+			say = "They aren't acting out of the ordinary, so I don't believe so... I'll have a look around the area. You stay here, Repulse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "时间在一分一秒的过去，演讲的主讲人却没有一丝一毫打算登台的迹象。",
+			say = "Just as Renown rose from her seat to do some sleuthing, an alarm went off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_3",
 			dir = 1,
-			say = "警报音————",
+			say = "BWEEEEE! BWEEEEE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -851,7 +851,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "老姐，这个难道是……防空警报？",
+			say = "What's that?! The air raid siren?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "会场周边的安保应该是万无一失的，怎么可能在这时候出现敌袭……！",
+			say = "How?! They couldn't possibly have slipped through our anti-air patrols!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,24 +882,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_3",
-			say = "突如其来的警报音撕碎了萦绕在斯卡帕湾内的欢快空气，会场开始逐渐混乱起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202120,
-			side = 2,
-			bgName = "bg_endingsong_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "大家请不要惊慌，敌袭并不会立刻到来。",
+			say = "Panic broke out across the venue as the warning alarm kept blaring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +899,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "皇家海军会全力确保大家的安全，塞壬舰载机群在抵达之前就会被全部消灭的。",
+			say = "Dear guests, please calm down. We assure you everything is fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +916,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过以防万一，请大家跟随会场工作人员的引导，有序前往防空设施暂避。",
+			say = "This venue is under the protection of the Royal Navy's finest shipgirls. Any Siren aircraft headed this way will be shot down before they reach the harbour.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202120,
+			side = 2,
+			bgName = "bg_endingsong_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "However, as a precautionary measure, please follow our staff to the on-site bunker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大意了……是因为我们巡查航线的时候出了疏漏吗……",
+			say = "I don't understand... The alarm shouldn't sound if our fleets can eliminate the planes well before they get near us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贝尔法斯特，敌人的方位在哪里？我们必须迅速出击，消灭一切隐患才行！",
+			say = "Belfast, me and Repulse shall sortie as well. Kindly tell us where the enemy is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "二位不必担心，已经有舰队前去处理威胁了。",
+			say = "Of course. Our patrols are currently spread out over a wide perimeter beyond the bay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在乔治五世大人正在组织舰队护送皇室成员返回，请二位也一同加入吧。",
+			say = "Please join up with King George's support fleet. They shall be setting sail to assist the patrols shortly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "只是很遗憾，看来今天的活动必须取消了。",
+			say = "As for the rest of the ceremony... I'm afraid to say it needs to be cancelled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

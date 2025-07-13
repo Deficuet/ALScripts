@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "遗迹群岛·核心之所 外围",
+			say = "Mirror Sea Ruins - Near the Central Foundation",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "大家小心，先前的侦察机就是在进入前方海水的分界线之后被防空炮击落的。",
+			say = "Everyone, be careful. My recon plane was immediately shot down after it flew through the barrier up ahead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被设置成接近一定距离就会自动迎敌的模式了啊。",
+			say = "It sounds safe to assume they have automated defenses that intercept anything or anyone that comes close enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "唔…………",
+			say = "Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了，莱莎阁下有什么发现么？",
+			say = "Is there something the matter, Ryza?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "前面的应该就是“门”了…但是好像不是用钥匙打开的门，倒像是一堵墙……",
+			say = "I'm thinking about the, well, \"door\" over there. It doesn't look like any old door you just open with a key, more like a big obstacle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "已经打到这里了就不用在意大门啦！水域那么开阔，我们直接从旁边绕过去~",
+			say = "We've come this far – I see no reason to worry about any barrier! All we need to do is circle around it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "提高警惕莱莎，要进入塞壬的火力网了哟。",
+			say = "Miss Ryza, we will soon be in range of the Sirens' defences. Please keep your guard up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "……！知道了，看来不得不上了呢！冲过去吧！",
+			say = "...Alright, I guess this is the only way! Let's get in there!",
 			painting = {
 				alpha = 0.3,
 				time = 1

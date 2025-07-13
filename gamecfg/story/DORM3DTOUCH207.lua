@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "果然还是教指挥官怎么对待女孩子会比较好……",
+			say = "Seems I'll have to teach you how to treat a girl right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

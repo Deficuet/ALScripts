@@ -14,7 +14,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…… ……？",
+			say = "...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "TB正好奇地看着我。",
+			say = "TB stares at me with eyes brimming with curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "虽然已经习惯了港区大家的目光，但被幼小的TB这么盯着，我居然有点不知所措。",
+			say = "While I'm used to the shipgirls at the port staring at me, it feels different when little TB does it. It's making me feel oddly flustered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……你还记得我是谁吗？",
+			say = "So, uh... Do you remember who I am?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之飞关……？",
+			say = "Co-man-dur?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Incredible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是在叫我，指挥官吗？",
+			say = "You just called me Commander, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "似乎将我的疑问理解成了教导，眼前的幼小孩童再一次重复起刚刚的称呼。",
+			say = "She must be mistaking my question for an instruction and begins to repeat the word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指……挥……官?",
+			say = "Com...man...der?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "虽然这次重复的很慢，但依然呈现出了惊人的语言学习能力。",
+			say = "Although she is struggling with the pronunciation, she just gave me a glimpse of her astonishing language-acquisition ability, having learned a new word instantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过……让这么小的TB叫我指挥官，好像有点奇怪。",
+			say = "At the same time, her referring to me as \"Commander\" at such a young age somehow doesn't sit right with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "要不趁着这个机会，让她改变一下对自己的称呼吧！",
+			say = "If I'm going to ask her to call me something else, now would be a good time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

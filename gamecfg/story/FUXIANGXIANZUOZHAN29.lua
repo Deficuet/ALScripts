@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "尽管黑白色的身影借助夜色的掩护一面灵巧的闪避着炮火，一面持续发动着轰击。",
+			say = "Though she had taken enough firepower to wipe out a fleet of regular mass-produced ships, Compiler's armor didn't have a single scratch on it.",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "尽管水面与空气都在激烈的震荡，蓝色的巨大屏障却依然纹丝不动的矗立在海面上。",
+			say = "Heinrich landed a solid coordinated attack with her rigging, but unfortunately... it wasn't enough to have any effect on the barrier produced by Compiler's defense module.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这——也——太——硬——了——吧————！！！！",
+			say = "She's... not taking any damage...?!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "行动模式解析完毕，狙击模块准备进度：70%——90%——完毕。",
+			say = "Finished analyzing enemy's attack pattern. Initiating capture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,11 +116,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:453}",
+			actorName = "Prinz Heinrich",
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊！！这是又什么东西啊！！！！！！！",
+			say = "Huh?!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			say = "突然水面之下出现了数十根机械链臂从四面八方向{namecode:453}缠绕而来。",
+			say = "The huge tentacles that were part of Compiler's rigging shot up from the water underneath Heinrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			say = "不过总算在千钧一发之际被勉强躲开了……",
+			say = "Though she was barely able to dodge the tentacles, the seemingly weightless tentacles instantly turned to make another attack on her, putting her in a rough spot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,10 +162,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			actorName = "{namecode:453}",
+			actorName = "Prinz Heinrich",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好险！！这些东西好恶心啊！幕后黑手的某种具现化表现么？",
+			say = "W-what is this...?! Waaah!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -182,11 +182,11 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "构建者",
+			actorName = "Compiler",
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "锚定解除，移动模块充能进度30%————",
+			say = "Cancelling anchoring of frame. Powering up movement module to 30%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:453}",
+			actorName = "Prinz Heinrich",
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，还是想逃跑么！都说了不可能了，啊啊啊！这些东西好碍事！",
+			say = "I-I told you I won't let you get away!!! ...Ugh, these tentacles are in my way!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -257,7 +257,7 @@ return {
 			actor = 407030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:454}，立刻进行回避。",
+			say = "Heinrich, you can fall back now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 406010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些东西的清理交给我们，让塞壬感受一下铁血航空舰队的威力！",
+			say = "Leave the offensive to us now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就拜托你们了~！",
+			say = "Roger that!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
@@ -360,7 +360,7 @@ return {
 			actor = 900230,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "………………………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			say = "还没完呢，你的那个巨大的护盾，对于舰载机来说是绝佳的标靶，接下来的火力也全部吃下吧！",
+			say = "Ahaha! How many shots can that barrier of yours withstand? Smash it to pieces!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			}
 		},
 		{
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊……不但有我们的飞机，之前做出来的塞壬飞机也在进行着轰炸。",
+			say = "Peter and Weser's carrier-planes are here! And so are the supporting aircraft made in the research facility!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬舰载机在轰炸塞壬构建者，还真是一副令人愉悦的画面，{namecode:443}，从黑暗之中潇洒降临！",
+			say = "I'm here to make a joint attack with the attack aircraft! Have a taste of the my Crimson Hellfire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "近距离一看，装甲和护盾都巨大到离谱，要塞型的精英塞壬么……感觉会很耐打的样子~",
+			say = "And stay down...! W-wait, that rigging is so massive that we can't get through it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_fuxiangxian_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到这次出行居然会遇到这么刺激的事……就算是巨兽狩猎在下也会竭尽全力的！",
+			say = "Soldati-class destroyer, Carabiniere, joining the battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 401280,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有我哦，{namecode:454}，我们都来支援你了！",
+			say = "Heinrich, we're here to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "大家来的正好，四面进攻饱和打击，它的护盾快撑不住了！",
+			say = "The barrier looks like it's about to crumble! Everyone, just a bit more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

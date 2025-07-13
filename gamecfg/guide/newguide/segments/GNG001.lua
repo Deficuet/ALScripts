@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"攻坚队可以协助大舰队成员进行首领战",
-	"让我们试着派遣一名角色前往攻坚队吧！",
-	"点击此处编辑攻坚队",
-	"点击添加前往攻坚队的角色"
+	"Your Support Fleet can aid fellow Guild members during boss battles.",
+	"Let's try adding a ship to your Support Fleet!",
+	"Tap here to edit your Support Fleet.",
+	"Tap the ship you'd like to add to your Support Fleet."
 }
 
 return {

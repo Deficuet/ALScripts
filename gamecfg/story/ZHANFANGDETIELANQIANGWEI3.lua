@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>三　桑德菈的朋友们</size>",
+					"The Iron Rose Blooms\n\n<size=45>3 Seydlitz's Friends</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "与{namecode:460}在港区的街道上并肩而行。",
+			say = "I was walking through the port town along with Seydlitz.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "或者更准确地说，是和{namecode:460}一起“巡查”。",
+			say = "Though, it would be more accurate to say that we're on patrol together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "这正是个闲聊的好机会，就从她的人际关系入手好了——",
+			say = "(This is the perfect opportunity. I can use this chance to ask about what's been bothering her. Let's start with her relationships...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我和大家的关系……？长官多虑了，我和大家相处得还算愉快哦！",
+			say = "Personal relationships? Oh, that's nothing to worry about. I'm getting along with everyone just as much as ever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,15 +83,15 @@ return {
 			},
 			options = {
 				{
-					content = "所以是{namecode:461}么？",
+					content = "\"That means you're worried about Lützow, then?\"",
 					flag = 1
 				},
 				{
-					content = "所以是{namecode:435}么？",
+					content = "\"Is Bismarck worrying you?\"",
 					flag = 2
 				},
 				{
-					content = "……难道是{namecode:426}？",
+					content = "\"Oh, no. Is it Hipper?\"",
 					flag = 3
 				}
 			}
@@ -105,7 +105,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……！那个懒散的……",
+			say = "W-well... I mean, she can be a little bit of a lazybones, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过再怎么说，她也不会故意给长官添麻烦啦！",
+			say = "But even she hasn't done anything worth troubling you over, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会，我很尊敬她的，长官。",
+			say = "Not at all. I have utmost respect for her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她脾气是奇怪了点啦，不过我觉得她是值得信赖的战友哦。",
+			say = "While Hipper can be difficult at times, I consider her a very trustworthy ally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "所以说，只是我自己的问题而已，长官。",
+			say = "Commandant, I appreciate your concern. I really do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我信赖着同伴们……要怀疑的话，也是我对自己的怀疑。",
+			say = "But it's nothing to do with our friends. In fact, I trust them across the board. If there is a problem, I'd say it's myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "……总之，不用为我担心，长官！",
+			say = "So I'll do my best to solve it and avoid causing trouble for you, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能在长官身边忠实地完成自己的使命，我就已经没有什么可抱怨的了！",
+			say = "Besides, as long as I can faithfully fulfill my duty by your side, I'm more than satisfied!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "看来一时半会得不到答案了，干脆先继续前进吧——",
+			say = "(It doesn't seem like questioning her further will get me answers. I'll just have to keep waiting and watching...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在路过街边的露天座位时，听到了旁边传来的闲聊声。",
+			say = "I happen to overhear a conversation as we pass by the outdoor patio of a nearby restaurant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "哎？！居然这么快就获得了最新的狩猎情报吗？",
+			say = "Wait?! You already have the latest monster-hunting news?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，盾斧岂不是完全不能用了——",
+			say = "...Oh, I see. But doesn't that make charge blades useless here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "偶尔就是会有这种很有挑战性的大型目标。",
+			say = "You'll find that these occasional large targets are more than worth the effort.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用远程武器来攻击弱点吧！那个大家伙的攻击太依赖尾巴了，只要能斩尾的话，会轻松很多……",
+			say = "Aim for its weakness from afar. That giant uses its tail for all of its attacks, so if you cut it off...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "两人的声音渐渐远去。",
+			say = "(Very intriguing. Seydlitz is listening in, too. Might as well ask what she thinks.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很在意么？",
+					content = "\"Did that pique your interest?\"",
 					flag = 1
 				}
 			}
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "嗯……稍微有点。",
+			say = "Y-yes! A little...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "她们说的好像是游乐场利用虚拟现实技术搭建的新项目。",
+			say = "As far as I can tell, they're discussing a new virtual gaming attraction that recently opened up in the amusement park.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主打的是身临其境，能够在各种场景里自由地狩猎。",
+			say = "I hear the monster-hunting experience it provides is like the real thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "就连骑着战马在草原上驰骋这种事也能做得到……",
+			say = "In the simulation, you can even ride horses and gallop through the plains.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔，感觉真不错啊。",
+			say = "Oh, I'd love to try it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:460}平时会骑马么？",
+					content = "\"Do you go horseback riding often?\"",
 					flag = 1
 				}
 			}
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸……？其实只有巡逻时会偶尔会骑一下。",
+			say = "Umm, I occasionally do when I'm on patrol...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "至于骑马打猎，我就完全没试过了……",
+			say = "But I've never experienced hunting on horseback.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "……啊，我不是说现在就想去尝试哦，还是要优先完成手头的工作才行！",
+			say = "Oh! I'm not saying I want to try it right now, though! We haven't even finished our patrols here yet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "{namecode:460}仿佛看破了我想要邀请她一起去骑马的想法。",
+			say = "(I was about to invite her to go horseback riding together, but she shot that down before I could say a word.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "话已经说到这里，似乎也不方便再开口。",
+			say = "(And she's right. We haven't finished our patrols yet.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "想让她敞开心扉，还得再想想办法才行——",
+			say = "(I'll have to think of a way to make her open up more...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

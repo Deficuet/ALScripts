@@ -12,7 +12,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，这些棋子的飞机稍微有点难缠……！战斗力不错，组织也很严密……总之我继续尝试打乱它们的阵型！",
+			say = "Those Iron Blood planes are pretty persistent... Zuikaku, should I keep trying to disrupt their formation?",
 			bgm = "xinnong-2",
 			flashout = {
 				black = true,
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要勉强，{namecode:95}姐！舰载机数量上我们有优势，分割之后多打少消灭它们！",
+			say = "Yeah! Remember, we have the superior numbers here. Just pick them apart and capitalize on that advantage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在努力中……{namecode:96}，我们不会遇到的是真正的铁血舰队吧……？",
+			say = "Sounds good... But jeez, don't you think these planes are a bit too strong for Pawns to have...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绝对不可能……铁血舰队里有战斗力的航空母舰只有{namecode:437}一艘，而且一直部署在欧罗巴大陆，怎么会跑到这里来。",
+			say = "Are you saying there's an actual Iron Blood carrier here...? But, Akagi should be with Graf Zeppelin over in Europa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "况且现在对面机群数量也不是{namecode:438}一艘航母能放出来的。从位置和数量上都和真正的铁血舰队对不上。",
+			say = "Besides, why would an Iron Blood carrier randomly be attacking us out here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说来又是一处“圣域”么……正常作为战斗消耗品的棋子可没有这种程度战斗能力……",
+			say = "Well you see, we encountered those Pawns imitating the Sakura fleet, right? Maybe the Iron Blood got us mixed up for those Pawns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:95}，{namecode:96}也许我们遇到的不止塞壬舰队这么简单的问题……我们真的还在预定航线上么？",
+			say = "I'm a bit concerned about where our fleet is headed. Do you think we've entered an even larger Mirror Sea after passing through the sea fog...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "暂时无法判断，我们在迷雾中绕了一圈之后又进入气候异常的镜面海域，暂时无法确定当前的准确位置。",
+			say = "...I don't know what to make of all this. These strange buildings clearly point to this being a Siren research facility, but this isn't showing up anywhere in our navigation records...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过应该不会偏离太远才对，你有什么发现么？",
+			say = "Kongou, do you know anything about these islands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……周边的海域给我一种很陌生的感觉。虽然镜面海域本身会干扰判断，但是周边陆续出现的小岛……这绝对不是我当时从欧罗巴返回重樱的航线……",
+			say = "Nothing at all. There shouldn't be any islands situated this densely together in the Southern hemisphere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……居然迷航和遭遇塞壬二者全中了么……！",
+			say = "Nuu, I don't want to get lost in a Mirror Sea... Kongou, what should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "综合现有信息，我们也许大幅偏离航线进入了某处塞壬严格守卫的试验场。在补给有限敌情不明的情况下，我建议进行避战，尽快撤离。",
+			say = "That won't happen. I'm sure that this Siren research facility is the source of both the sea fog and the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们还要前往NA海域执行后续作战，如果在这里遭受过大损失，或者消耗过多补给以至于到了必须返回本岛的地步，势必会对NA海域作战造成影响。",
+			say = "If we are to have any strength left for the actual operation, we'll have to find a way out of here as quickly as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……你说得没错，这里是塞壬主场，不适合跟它们硬拼。{namecode:95}姐，我负责把敌机群引开，你趁机寻找一下离开的航线。",
+			say = "Kongou's exactly right. Sorry, Shoukaku. Looks like we'll need to prioritize shaking off the Iron Blood planes. Let's get out of the Mirror Sea first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 304010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "重点留意一下岛屿的方位和标志性地理环境，我们需要尽快确定当前所处的方位。",
+			say = "Make sure to take note of the location and landmarks of these islands. We need to find out where we are, because we likely won't have another chance to scout this place out later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_fuxiangxian_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，放心交给我吧~！",
+			say = "Understood! Just leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "前锋舰队取消侦察任务立即返回，舰队调整航向，做好撤离准备！",
+			say = "I'm counting on you, Shoukaku! Everyone else, get in diamond formation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

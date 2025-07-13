@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_40 = {
+	[844] = {
+		cannon = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		speed = 15,
+		dodge = 0,
+		id = 844,
+		cannon_growth = 0,
+		rarity = 1,
+		reload_growth = 0,
+		dodge_growth = 0,
+		armor = 0,
+		star = 1,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90139,
+		durability = 250,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		luck = 0,
+		torpedo = 200,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300185
+		}
+	},
 	[845] = {
 		cannon = 0,
 		battle_unit_type = 15,
@@ -41,7 +80,7 @@ pg.enemy_data_statistics_40 = {
 	},
 	[850] = {
 		cannon = 65,
-		name = "王牌护卫舰",
+		name = "Ace Corvette",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -110,7 +149,7 @@ pg.enemy_data_statistics_40 = {
 	},
 	[851] = {
 		cannon = 95,
-		name = "王牌巡逻舰",
+		name = "Ace Frigate",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -182,7 +221,7 @@ pg.enemy_data_statistics_40 = {
 	},
 	[852] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "Cargo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -911,7 +950,7 @@ pg.enemy_data_statistics_40 = {
 	},
 	[70013] = {
 		cannon = 225,
-		name = "测试者(?)",
+		name = "Tester(?) ",
 		speed_growth = 0,
 		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -1080,46 +1119,6 @@ pg.enemy_data_statistics_40 = {
 				ID = 50510,
 				LV = 5
 			}
-		}
-	},
-	[70031] = {
-		cannon = 165,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		rarity = 3,
-		air = 0,
-		torpedo = 175,
-		dodge = 22,
-		durability_growth = 0,
-		antiaircraft = 260,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 0,
-		star = 4,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90249,
-		durability = 1000000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		speed = 20,
-		armor = 0,
-		id = 70031,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			200901,
-			200902,
-			200903,
-			200904,
-			200905,
-			200906
 		}
 	}
 }

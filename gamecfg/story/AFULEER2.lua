@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>二、思乡</size>",
+					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 2: Nostalgia</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "和阿芙乐尔谈到了上次演习的事情。",
+			say = "Avrora told me about what happened at the training exercise.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我没有做什么哦？我只是激发了大家心中的曙光而已。真正战胜强敌的还是她们自己。",
+			say = "In the end, I didn't really do much. The others were the ones who charged forward and seized victory...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说可能有点说不明白？嗯……那要从什么地方说明才好呢…",
+			say = "But maybe that's not a very satisfactory explanation? Hmm... how should I explain this then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "阿芙乐尔拿过来了两个装着透明液体的不锈钢杯",
+			say = "Avrora brought two stainless steel cups before me, each filled with a clear liquid.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要说起来可能会很长呢。指挥官，来点喝的吧。",
+			say = "This story might take a while, so why don't we have a drink first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会难得，要不要尝试一下北方联合的特产呢？",
+			say = "This is one of our authentic specialties from the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "北方联合的特产……应该指的就是那个了吧。",
+			say = "\"Authentic specialty?\" ...Was she talking about... \"that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "刚才阿芙乐尔开的那个玻璃瓶，上面的标签上没记错应该是……",
+			say = "Come to think of it, the label on the bottle she poured the liquid from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，请吧~",
+			say = "Here you go, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "面对眼前的这小杯透明的，看起来和纯净水无异的液体——",
+			say = "If it really is \"that,\" then I should...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 			},
 			options = {
 				{
-					content = "小心翼翼地尝一点",
+					content = "Sip it like a hoity-toity bourgeoisie",
 					flag = 1
 				},
 				{
-					content = "直接仰头喝下全部",
+					content = "Slam it down like a true proletariat",
 					flag = 2
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "仅仅是品尝了一点点，强烈的酒精味道便在口腔中扩散开来。",
+			say = "...I knew it, it's alcohol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "口中像是燃起了纯净的火焰一般。先是火星，再是火把，最后是烈焰，直到燃尽口腔里的一切之后慢慢熄去……",
+			say = "With even a small sip, a burning sensation spread through my mouth as if I had consumed fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "指挥官，你还好么？",
+			say = "Commander, are you all right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "在酒进入身体的那一瞬间，体内像是燃起了一把火。",
+			say = "I could feel the flames slithering through my body...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "那火焰饥渴，暴躁，肆虐，像是要蚕食喉咙里，甚至是整个身体的一切，大脑也变得恍惚起来……",
+			say = "Not only were my mouth and throat on fire, it felt as if all the organs that substance had coursed through were also wreathed in fire, a burning halo threatening to burst through my skull as lights danced before my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "终于，那狂暴的火焰被身体安抚着，逐渐冷却下来。",
+			say = ".........It took a few minutes for my senses to fully return to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "指挥官，你没事吧？",
+			say = "Commander, are you still with me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "心中的曙光，还有我们北方联合舰船的历史和革命……",
+			say = "To bring the \"light of dawn\" to our peoples, and to fulfill the history of revolutsiya embodied within the keels of us Northern Parliament ships...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就好好给指挥官介绍一下吧",
+			say = "Commander, there's a lot that I have to tell you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			say = "阿芙乐尔讲起了她的故事。",
+			say = "And thus Avrora began here recollection of the Northern Parliament with a soothing voice.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在聊起北方联合伙伴们的趣事时，她毫不掩饰自己的开心。",
+			say = "It was a lighthearted tale of her daily misadventures with her quirky friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在说到北方联合与塞壬的战事时，她的目光显得坚定无比。",
+			say = "It was a solemn tale of her peoples' struggles against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在提到北方联合的景色时，她的眼神又充满了思念。",
+			say = "It was an eye-opening tale of the various peoples whose diverse cultures and lifestyles dyed the white of the North into a dazzling array of colors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "直到故事的最后一个句点落下，那瓶伏特加已然是空空如也。",
+			say = "And as one topic flowed into the next, the bottles of vodka flowed freely into my cup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~有机会的话，真想和指挥官一起在北方联合旅行看看呢",
+			say = "Someday, I want to take you to the Northern Parliament with me, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿芙乐尔的健谈，就像她的酒量一样，深不见底。",
+			say = "Her words, tinged with nostalgia and longing, seemed as profound as her stomach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

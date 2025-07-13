@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "映入眼帘的，是——璀璨的星河。",
+			say = "A galaxy of glimmering silver lights expands before my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……如果我的记忆没有出错，我应该已经上床休息了。）",
+			say = "(I was in my bed, dozing off just a moment ago...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（也就是说，我现在位于自己的梦境之中。）",
+			say = "(I must be dreaming, then. Or maybe I'M not dreaming... It could be Shinano's, or someone else's dream.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（或者……我的意识又被人劫持到某处了么。）",
+			say = "(Or... it could be a vision created by that conceptual weapon. The black sun...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "答案是第一种，也是第二种哦。",
+			say = "It's not that. It's both your dream and someone else's.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "好久不见，指挥官~",
+			say = "Good to see you again, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜？！",
+			say = "Helena? Or should I say, Helena META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "嗯，是我哦。",
+			say = "Mhm. Your Helena.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太好了，上次你走得太急，陆间海的事我还没来得及向你道谢呢。",
+			say = "I never got to thank you earlier. Thank you for all your help in the Mediterranean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "不用客气，都是我应该做的。",
+			say = "I only did what had to be done, but you're welcome.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "倒是……你第一反应居然是这个啊。",
+			say = "I have to say, you're surprisingly calm for someone who's been mind-jacked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "我还以为会再惊讶一些呢？",
+			say = "Most people tend to... freak out, I suppose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟陷入这种状况中也不是一次两次了……",
+			say = "Well, it's not my first rodeo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且，我相信你不会害我的，不是么？",
+			say = "Besides, I know you're not here to hurt me. I don't have any reason to freak out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "……嗯，我是绝对不会害你的。",
+			say = "That's true. I would never hurt you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "来说正事吧。",
+			say = "...Let's cut to the chase.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "今夜，我用着这种方式约你来此，主要是出于安全考虑。",
+			say = "You wouldn't know about it, but there's a fierce battle taking place somewhere extremely close to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "在一处你所不知道，又距离此处咫尺之遥的地方，一场激烈的战斗正在展开。",
+			say = "You don't need to know who or what the battle is about, but I will say that it's forced me to use this roundabout way of contacting you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,25 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "关于这场战斗的情报，不是现在的你需要关心的，所以不告诉你。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9702010,
-			say = "不过因为这场战斗所带来的影响，今天来找你的时候也只能采用这种更加谨慎的形式了。",
+			say = "It's for your own safety. If I could, I would've simply called you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +332,25 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "数据传输模式，调用执行——",
+			say = "Methods aside... I have something to tell you, Commander.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9702010,
+			say = "Initiate data transfer mode. Execute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "海伦娜的身边泛起蓝光，又在转瞬间破碎，形成碎片流迎面冲来。",
+			say = "A blue light glows around Helena before splitting up into rays, forming a cloudy stream that rushes toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这、这是……！",
+			say = "What's happening?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "这也是出于安全考虑而进行的情报传输手段哦。",
+			say = "It's safe, don't worry. Just think of it as an unusual data transfer procedure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "不要躲避，接受它。",
+			say = "Don't try to fight it. Let it happen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "这件事你必须要知道。",
+			say = "You simply must know what I'm about to show you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "光芒迎面而来——",
+			say = "The blue light obstructs my vision completely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "随后，情报从脑海中凭空出现了。",
+			say = "Then, a picture suddenly forms inside my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "南极出现了一种性能独特的矿物，或许有助于突破新一代舰装研究的瓶颈……",
+			say = "A crystal with extraordinary properties has been discovered in Antarctica. It may lead to a breakthrough in the development of rigging technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "得知此事的NY司令部正在调动舰队进行一场前往安塔迪卡的特别行动……",
+			say = "In light of this news, Naval HQ sent out a fleet that is currently on its way there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "行动由萨拉托加直接指挥，代号「冰天使」……而我并不知情。",
+			say = "The group is under the command of Saratoga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "And the operation's name is... Frozen Angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "没办法。",
+			say = "Saratoga couldn't help herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "一涉及列克星敦的事，就算是冷静如萨拉托加也会发热上头呢。",
+			say = "She always gets passionate about anything that involves Lexington.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你怎么看这件事？",
+			say = "What will you do with this knowledge, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "NY司令部与碧蓝航线指挥官分属不同系统，那边确实可以根据需要调动所辖舰队。",
+			say = "Naval HQ does have the power to dispatch a force. It's not wise to openly object to their command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只不过……这件事，透着些不对劲。",
+			say = "But, it doesn't sit right with me that they sent Saratoga's team of all people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "先不论矿物的情报来源。",
+			say = "I'm not concerned with whether this new crystal is real or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "单是在各阵营刚有放下成见，试图重建联盟的时间点发生这种事，就不像是巧合。",
+			say = "What I am concerned with is the timing. It can't be a coincidence that this happened at a time when leaders from all factions, and myself, are gathered here in the Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……倒是，很有塞壬进行挑拨的风格。",
+			say = "It just stinks of Siren involvement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "白鹰独占这份资源的行动如果真成功了，观察者再通过其它手段散布出这个消息，阵营间新一轮混乱的种子也就埋下了。",
+			say = "If Naval HQ gets their hands on this and uses it to stage another Reenactment, we can say goodbye to any hope of reforming the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "我也是这么想的哦。",
+			say = "Fair analysis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "你想推动联盟前进一步，我也想推你前进一步。",
+			say = "If reforming the Azur Lane is your goal, then I can help with that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "情报我给你了，后续不论你想如何行动，我都支持。",
+			say = "What happens next is up to you, though. My goal here was just to pass on this information.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "那场战斗的结局，将会决定整个实验场β，也就是你所在世界的命运。",
+			say = "The battle that's unfolding now will determine the fate of test site beta. That's your branch, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "所以有些事，还是早想明白，早做决定比较好哦。",
+			say = "If you have any plans, you should put them in motion sooner rather than later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,7 +762,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你这是什么意思？",
+			say = "...The situation is very dire, in other words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "你猜？",
+			say = "Yes. It really is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "那么拜拜~祝你在今夜剩下的时间里能有个好梦~",
+			say = "Good night, Commander. Sweet dreams for the rest of the night.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:97:大凤}都说了……只要足够热烈就好了！",
+			say = "I told you already! All you need is passion!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "这种粗暴的模式怎么能行得通！对方肯定也会做充分准备的！",
+			say = "Your idea of a performance is too violent! The other team will use that against you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101176,
-			say = "zZZZ……拉菲，先睡了……",
+			say = "Zzz... I'm going to sleep...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502023,
-			say = "{namecode:197:博伊西}，你要不要吃口包子？是刚刚出炉的哦~",
+			say = "Boise, do you want a baozi? It's fresh out of the oven!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "呼~哈~谢、谢谢……",
+			say = "Huff... Puff... Y-yes please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "明明是在商讨属于舞台上的风格战术，现在的局面却变得……",
+			say = "How did we get to this point? We were just discussing performances and tactics...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "真是一点也不优雅！",
+			say = "You are all severely lacking in grace!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是这样不也挺好的嘛？热热闹闹的~偶像就是应该带来活力的嘛~！",
+			say = "What's wrong with it? They're creating a lively atmosphere! That's what idols are supposed to do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说的对，鲁莽……",
+			say = "In that way, I suppose you're right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "就是说嘛~我觉得这才是我们的特色哦~！",
+			say = "Exactly! In fact, I think building hype is our team's greatest strength!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "活泼、欢快，带来希望~这就是属于我们「 Cyanidin」的鲜活的生命力哦！",
+			say = "It's just like the kind of energy Cyanidin brings – cheerful, fun, and full of aspiration!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "啊哈哈……虽然「青组」的大家好像和我们的组合理念有点微妙的出入……",
+			say = "Then again, maybe not all of us are like that. Ahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是也没什么关系哦，原原本本呈现自己最鲜活的状态，或许才是Live中最重要的~",
+			say = "But that's okay! Being yourself is the most important trait an idol can have!",
 			painting = {
 				alpha = 0.3,
 				time = 1

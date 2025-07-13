@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直以来辛苦指挥官了呢，呵呵~",
+			say = "Thank you, Commander. I owe you so much after all you've done for me.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 399040,
 			dir = 1,
-			say = "和指挥官一起的这段时光，真的是非常美好呢…",
+			say = "I'm both honored and delighted that you've been with me on every step of this journey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，我们是不会仅仅止步于此的，对吧？",
+			say = "Now a new journey beckons us... I hope you'll accompany me on this one, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 399040,
 			dir = 1,
-			say = "请放心，今后{namecode:165}也会一直陪着你的，指挥官~",
+			say = "As long as you're happy with me, I will remain by your side, through thick and thin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融冰\n\n<size=45>四　出击</size>",
+					"「Schmelzen」\n\n<size=45>Chapter 4: Sortie</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某海域",
+			say = "Location: Unspecified sea area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "今天的巡逻分队由{namecode:436}担当旗舰",
+			say = "At the place the sea patrol fleet that Tirpitz was flagship of was cruising through...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "啊，好无聊~今天的海面也是风平浪静呢。",
+			say = "*Sigh*... Boooring... Another day where nothing happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "集中注意力！要是这种时候敌人出现了怎么办！",
+			say = "Please focus! What are you going to do if the enemy appears right now?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "不会有敌人的啦！按照最近的观测报告，这一片海域已经两个多星期没出现敌人了。",
+			say = "It's fine~ According to recent observation reports, no enemies have appeared in this area for over two weeks~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "但是，万一的话……",
+			say = "But, in the one in a million chance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "没有什么万一的啦！哈啊……赶紧结束吧，我还要去长跑呢！",
+			say = "One in a million basically means it won't happen, you know? *Sigh*... I want this to end quickly so I can go back and go for a run or something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们差不多到达巡逻折返点了，做好返航的准备吧。",
+			say = "We'll be arriving at the turnaround point soon. Please prepare for the return journey.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -179,8 +179,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 401190,
-			actorName = "{namecode:405}&{namecode:406}&{namecode:407}",
-			say = "遵命！",
+			actorName = "Z19&Z20&Z21",
+			say = "Roger!",
 			subActors = {
 				{
 					actor = 401200,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "（不过，这种不详的预感究竟是……）",
+			say = "(What is this unsettling premonition I'm getting...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雷达发现敌人！是塞壬的驱逐舰部队！",
+			say = "I'm getting enemy readings on my radar! It's a Siren destroyer fleet!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "敌方数量很少，只要交给我们驱逐部队就……",
+			say = "With these numbers, I'm not sure that just us destroyers will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "可恶！",
+			say = "I won't let my comrades be injured...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			bgName = "bg_story_nepu1",
-			say = "连续的猛烈炮击从后方响起",
+			say = "The intense bombardment from her main battery continued for a while.",
 			flashN = {
 				color = {
 					1,
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "哇！发生什么了？",
+			say = "Holy cow! What was that...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:436}的支援炮击…敌方部队，全灭",
+			say = "It was support shelling from Tirpitz... Confirmation of enemy fleet's annihilation!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "总，总之我们没事了吧？",
+			say = "W-With this we're fine... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "谢谢你，{namecode:436}…",
+			say = "Tirpitz, thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
-			say = "…不客气",
+			say = "... It wasn't a big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "先向指挥部汇报这里的情况吧。",
+			say = "Let's report this situation to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（我这是怎么了？）",
+			say = "(What... did I...)",
 			flashout = {
 				black = true,
 				dur = 1,

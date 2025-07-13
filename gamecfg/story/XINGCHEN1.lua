@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>一  演唱会的门票</size>",
+					"Bits of Courage \n\n<size=45>I 「A Concert Ticket」</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			blackBg = true,
 			mode = 2,
-			say = "某一天，港区",
+			say = "One day, in the port area...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "不知道指挥官…哥哥找独角兽有什么事…",
+			say = "Commander nii-chan... why are you looking for Unicorn?...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -81,7 +81,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "不过…能见到哥哥…就好开心了…嘻嘻……",
+			say = "Although... to be able to see Onii-chan... has made Unicorn so happy... hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			blackBg = true,
 			mode = 2,
 			withoutPainting = true,
-			say = "几分钟后，港区指挥室",
+			say = "A few minutes, in the command room...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -126,7 +126,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "独角兽…报到…找独角兽有什么事情吗？哥哥？",
+			say = "Unicorn... reporting in... is there anything you need from Unicorn, Onii-chan?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -187,7 +187,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这个是……？票？",
+			say = "Is this…?  A Ticket?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -218,7 +218,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "演-唱-会？虽然不是很明白那是什么……",
+			say = "Con-concert? Unicorn doesn't understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "和哥哥……一起去？",
+			say = "Unicorn will go with Onii-chan... together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "难道……这就是传说中的……yue-hui？",
+			say = "Could this be... what Unicorn has been hearing about... a date?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嘻嘻……能和哥哥一起出去，独角兽……很期待……",
+			say = "Hehe... to go on a date with Onii-chan. Unicorn… can’t wait...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

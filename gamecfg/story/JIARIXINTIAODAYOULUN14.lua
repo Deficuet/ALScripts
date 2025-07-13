@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "假日邮轮·储藏室",
+			say = "Cruise Ship - Warehouse",
 			bgm = "login_us_0401",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "指挥官、抚顺、埃塞克斯、阿尔弗雷多、佩萨格诺、阿尔萨斯……再加上我，所有调查小队本部的成员都到齐了呢。",
+			say = "Commander, Fu Shun, Essex, Alfredo, Ema, Alsace... and me, Bristol. Yep, the gang's all here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……所有人都到齐了，队长，接下来我们要做什么？",
+			say = "Yeah! So? Out with it! What do we do now, Captain?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "当然是……进行第三次事件的复盘了！",
+			say = "Naturally... it's time to review our third mystery!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……复盘的话可以去神秘角落进行，为什么要特意来到储藏室？",
+			say = "Then why did we gather here in the warehouse instead of the mystery room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是因为来这里复盘的话方便接下来的行动。指挥官别急，你马上就知道了。",
+			say = "I think we'll have a freer range of motion here. Don't worry, Commander. I'll explain everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "现在还有时间，我们先来看第三组——居住区的幽灵事件。",
+			say = "We still have time before we get started, so let's review the third case: the ghost of the cabin quarter.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,25 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该事件中，各位调查员总共收集到三条线索。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107094,
-			say = "线索一，午夜的脚步声。居住区的某条走廊在午夜会传来神秘的脚步声。",
+			say = "Once again, we have exactly three clues.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索二，鬼影照片。阿尔弗雷多得到了一张走廊中的鬼影照片。",
+			say = "Clue the first: footsteps in the night. Mysterious footsteps can be heard from a corridor near the cabins late at night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +175,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "线索三，无法逃离的走廊。居住区的某条走廊会出现使人迷失方向的浓雾。",
+			say = "Clue the second: spirit photography. Alfredo Oriani got a picture of a ghost in one corridor.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_148",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107094,
+			say = "Clue the third: the inescapable corridor. In one corridor, a thick fog appears and disorients people passing through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你是怎么看待本次事件的呢？",
+			say = "As usual, Commander, I'd like to hear your thoughts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,15 +221,15 @@ return {
 			},
 			options = {
 				{
-					content = "都可以用科学解释……",
+					content = "All of these have logical explanations.",
 					flag = 1
 				},
 				{
-					content = "我心中已经有了嫌疑人……",
+					content = "I have an idea who the culprit is.",
 					flag = 2
 				},
 				{
-					content = "我有一个新奇的想法……",
+					content = "Okay, bear with me here. No – SQUID with me here.",
 					flag = 3
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "这一组线索都可以用科学进行解释，所谓异常事件纯属捕风捉影，无稽之谈。",
+			say = "Well, all of this can be explained with science. There isn't even a mystery here. It's all just dumb rumors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！都可以解释，这一系列事件都是被人为制造出来的！",
+			say = "Yeah! And that means that this series of events was all artificially set up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "而且我们已经锁定了嫌疑人哦~",
+			say = "We've already identified the suspect, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "水汽、海雾与幽灵，同时满足以上条件的飓风船团嫌疑最大。",
+			say = "Water vapor, sea fog, ghosts... Tempesta has to be behind this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 601090,
-			say = "不愧是指挥官……我们是讨论了好久才得出这条结论的。",
+			say = "Incredible, Commander... You reached that conclusion this quickly? It took us hours of discussion to figure it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "幽灵的真身是一个能够隐身漂浮的、能释放出迷雾的巨型八爪鱼。",
+			say = "Because the ghost might just be a giant squid monster that can disappear and spew sea fog at will.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……这时候，指挥官就别开玩笑啦！",
+			say = "*sigh*... Commander, now isn't the time for jokes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "飓风船团——就是制造出这一系列异常事件的幕后推手。",
+			say = "I think we can all agree that Tempesta must be the culprits behind this series of events.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "在邮轮被劫持的时候，我就觉得很奇怪了。",
+			say = "I've found it strange ever since the ship was attacked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "飓风船团要通过风暴才能来到我们的世界。那她们是怎么恰好出现在我们的航线前方，正好堵截到我们的？",
+			say = "Tempesta has to pass through a storm to come to our world. Don't you find it a little convenient that they'd appear at the perfect place and time to get in our way?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "答案只有一个——她们的人早就潜入到了我们的假日邮轮之上，这次袭击是一场里应外合的配合行动。",
+			say = "This leads us naturally to one answer: Tempesta sent informants onto the cruise ship ahead of time. They coordinated the ambush.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "移动的痕迹、奇怪的巨响、消失的食物、还有那些水汽和海雾都是她们的人早已潜入船上的证明。",
+			say = "The sounds of dragging things, strange noises, disappearing food, water vapor, and sea fog... All of it is evidence that someone with Tempesta is on board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幽灵事件中收集到的线索更是决定性的证据，飓风船团里就有一个能使用隐身能力的人。",
+			say = "The clue we found while investigating the ghost is the most damning of all. Tempesta just happens to have one shipgirl who can turn invisible, does it not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "而她——没有参与到今日的“打劫”行动中！",
+			say = "And what do you know, that same girl didn't appear during the attack today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……玛丽·西莱斯特！",
+			say = "It's Mary Celeste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "没错~她，就是在邮轮之上引发这一系列不可思议事件的人！",
+			say = "Exactly! She's the culprit behind everything that's been happening!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实，是她的嫌疑最大。",
+			say = "Mary definitely does seem to be the likely culprit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然找到了幕后推手，我们还来仓库里是为了……？",
+			say = "So, we know who the mastermind is. I still don't understand why we assembled in the warehouse today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "当然是为了人赃俱获嘛！嘿嘿，埃塞克斯设下了一个陷阱，很快她就会自己乖乖上钩啦~",
+			say = "To catch her red-handed, of course! Heheh, Essex set a brilliant trap. Our prey should take the bait any minute now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "陷阱……？",
+			say = "A trap?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我今天故意假装闲聊，让码头的玛丽·西莱斯特得知了指挥官今晚会“一个人”来仓库检查库存的消息。",
+			say = "Earlier, feigning small talk, I told Mary Celeste at the wharf that you would be coming to take inventory in the warehouse tonight. Alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "当时我就看她的眼睛在滴溜溜转，肯定是上钩了。",
+			say = "She was visibly disturbed. By then, I already knew that I had her in my grasp.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘……除了指挥官外所有人隐蔽，我设下的压力传感器有反应，有人正在接近仓库。",
+			say = "Shh. Everyone but the Commander, hide. The pressure sensor I set up just went off – someone's coming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "此刻，除了我之外理应“空无一人”的仓库中，凭空传来了一阵脚步声。",
+			say = "The sound of footsteps suddenly becomes audible in the seemingly empty warehouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "脚步声在背后停下来，随后——后背感受到了一个柔软的触感。",
+			say = "When the sound stops, suddenly, something soft presses against my back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呼……终于找到跟指挥官独处的机会了……）",
+			say = "(Phew... I can finally be alone with the Commander...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（真是的……这个邮轮是怎么回事啊……明明我会隐身……居然都找不到什么接近的好机会……）",
+			say = "(Something's really wrong with this cruise ship. I can go invisible, and it's still so darn hard to get close to you!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "咳、别动，打劫！",
+			say = "Ahem. Don't move! Yarrr, I be a pirate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "一个身影缓缓从原本空无一物的位置出现，是玛丽·西莱特斯号。",
+			say = "A silhouette emerges out of thin air. It's Mary Celeste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "看来此前的推理完全正确，引发这一系列事件的正是玛丽·西莱特斯和她的宠物阿尔戈。",
+			say = "Our hypothesis from before was right on the money. Mary Celeste and her pet, the giant squid(?) monster Argo, are the ones behind all of these mysteries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咔嚓——",
+			say = "*snap!*",
 			soundeffect = "event:/ui/kuaimen",
 			typewriter = {
 				speed = 0.05,
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "嘿嘿，证据固定完毕！",
+			say = "Heheh, got my evidence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于——到了大冒险的最终回！",
+			say = "Finally, the adventure reaches its climax!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "不可思议事件的真相在此时揭开！",
+			say = "The truth of the seven mysteries will now be unveiled!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107094,
-			say = "真相只有一个——玛丽·西莱特斯，你就是“凶手”！",
+			say = "There can only be one truth: Mary Celeste, you are the culprit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805030,
-			say = "铁心灭绝者阿尔萨斯，准备进入灭绝模式！",
+			say = "Cold-Hearted Killing Machine, entering extermination mode!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,7 +850,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "等等！等等等等！这个就不必了啊！！！",
+			say = "W-wait, wait, wait! You don't have to go that far!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,7 +878,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "嘿嘿……没想到你们早就发现了，还在此设下陷阱，挺厉害的啊。",
+			say = "Hahaha... I can't believe you got me that fast. And you even set a trap... Not bad, not bad at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,7 +896,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "看来我这次是落在你手里了，你打算怎么办，指挥官？",
+			say = "I admit defeat. You got me. What are you gonna do to me, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我想想……非法登船、偷窃食物再加上试图绑架指挥官……",
+			say = "Hmm... Illegal boarding, food theft, attempted kidnapping...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -926,7 +926,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "不是，你来真的啊？！",
+			say = "H-huh? You're actually planning to punish me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "开玩笑而已。不过你的行动确实对船上的各位同伴造成了一定的困扰，你打算怎么弥补呢？",
+			say = "I'm kidding. But it is true that your flippant actions have caused trouble for everyone else on the cruise. How do you plan to make up for that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600040,
-			say = "哼哼，这个简单，我已经想好了。",
+			say = "Heheh, easy! I've already got a plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一场在飓风码头举办的深夜篝火宴会——诸位觉得如何？",
+			say = "A late-night bonfire party at Tempesta HQ. All are invited! How's that sound?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "（咚咚）",
+			say = "*knock knock*",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室 第二次μ兵装实验前不久",
+			say = "Office - Some time prior to the second Muse System trial",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "手边有一份实验演习——订正，是现场活动的实施概要，以及μ兵装舰装的解析资料。",
+			say = "Cluttering my desk were papers relating to the implementation of a massive port-funded concert. Or, as it's formally known, a second Muse System trial.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在决定实施活动之前，同类型的舰装就已经发放到了各个阵营手中。",
+			say = "Before the trial was announced, I arranged for the same model of rigging to be sent out to each of the participating members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "那也是应该的，毕竟为了准备活动，提出补给各种类型的「μ兵装」舰装的正是自己。",
+			say = "Given the theme of the event, it should come as little surprise that I requisitioned that Muse System riggings also be distributed among all the factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "目的十分单纯，就是借「μ兵装」实验测试活动来鼓励各阵营之间的交流。",
+			say = "My plan was simple: encourage a friendly intercultural exchange while also testing a new weapons system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "奇怪的是，每件舰装上都有一个独立的型号，所以组合成员的决定方法显得有些别扭。",
+			say = "But for reasons I've yet to understand, all the participants ended up with different rigging modules, which made assigning the members into groups a major issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官大人，是您在叫我么？",
+			say = "You called for us, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你好像有什么烦心事……没事吧？",
+			say = "Is everything all right? You look as though there's something on your mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "现在，是时候向她们解释了——",
+			say = "I suppose it's high time I explain the situation to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			say = "港区・观众席",
+			say = "Port - Concert Venue",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什、什么喵？ 这不是正在使用「μ兵装」演习中……她们难道打算动真格喵？！",
+			say = "Oh no, nya... The mood in here has done a complete μ-turn, nya! Verheerender look like they're about to start shooting everything in sight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎怎怎怎怎么办喵……得快点准备避难喵……",
+			say = "And I don't wanna get caught in the crossfire, nya... I need to get out of here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………",
+			say = "...…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开玩笑的喵！不过刚才真的吓了一跳喵……大家请看！",
+			say = "O-oh! Never mind, false alarm, nya! They really had me for a second there, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 307110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抛开战斗不谈，舞台不是决定「谁最闪亮」的吗？所以我们决定就在这个舞台上一决胜负。",
+			say = "You clearly misunderstood our intentions. The winner is the one who shines the brightest, both in theater and war. It was all part of our performance, you see.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			actor = 307110,
 			dir = 1,
-			say = "只要其他人和观众都消灭了，那也就不存在所谓更加闪耀的问题了吧？",
+			say = "If we were to actually destroy everything, there would be nobody around to witness our brilliance, would there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			actor = 403080,
 			dir = 1,
-			say = "是的，就是这样～吓了一跳吧？",
+			say = "Exactly! Did we scare you~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			actor = 307110,
 			dir = 1,
-			say = "（你吓死我了，{namecode:439}！）",
+			say = "(You're one to talk about scaring people, Roon!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			actor = 103250,
 			dir = 1,
-			say = "真是的，连我们这都被吓了一跳……",
+			say = "Halfway to death, geesh... Don't do that again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但我们也不会就此退缩。 即使live并非战斗，我们也要让氛围更加热烈起来！",
+			say = "You might've frightened us good, but we're not running away anytime soon. We've still got a score to settle and a show to finish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,11 +393,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "巴尔的摩(μ兵装)",
+			actorName = "Baltimore μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都准备好了吗？",
+			say = "Am I right, folks?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,11 +409,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "光辉(μ兵装)",
+			actorName = "Illustrious μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的歌声中蕴含的光芒，一定能传达给更多人。",
+			say = "Quite so! The light of our songs must reach more of the world's hearts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,11 +425,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "塔什干(μ兵装)",
+			actorName = "Tashkent μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，同志酱也在看！",
+			say = "Yeah! Our dear comrade is watching, so we can't quit now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,11 +441,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黛朵μ兵装)",
+			actorName = "Dido μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，请你一定，一定要注视着黛朵！",
+			say = "Master is watching... I must not disappoint! Not now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,11 +457,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "大青花鱼(μ兵装)",
+			actorName = "Albacore μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，{namecode:97}，我可以去你的组合吗？",
+			say = "Sorry, Taihou, but we've got this in the bag! We can still team up after we beat you, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "鹩(μ兵装)",
+			actorName = "Taihou μ",
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "拒绝！……来吧，这就是最后的舞台了！",
+			say = "No! Not now, not ever! Now onto the final stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

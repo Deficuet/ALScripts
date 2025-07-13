@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>一　不苟言笑的她</size>",
+					"Quintessential\n\n<size=45>1. So Cool, She's Cold?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……………………",
+			say = "...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天的指挥室内也充斥着谜一般的沉默。",
+			say = "A mysterious silence continues to pervade the office today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "虽然很想说有窥视他人的空闲不如在手头继续加把劲，不过——",
+			say = "If you have time to stare at other people, you also have time to work harder. Or so I'd like to say, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "指挥官，文件已经整理完毕，需要销毁的部分都放在废纸箱里了。",
+			say = "I've already finished sorting through the old documents. Anything that needs to be disposed of goes into that cardboard box over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "桌上贴便签的部分都是需要你再次过目的，记得看。",
+			say = "I also took a look at the documents on your desk. I put a sticky note on the ones you should probably give another pass, so make sure you don't forget about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——面前这位英姿飒爽的女性是最近莅任港区，并在数天前就任了秘书舰的{namecode:463}。",
+			say = "That was Ulrich von Hutten, a new arrival at the port. She had only taken up her post as secretary a few days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她的工作能力确实肉眼可见的优秀，不过……",
+			say = "Her work ethic and the quality of her work were self-evident, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "布置的工作已经完成了，还有什么其它的事么？",
+			say = "I've finished everything you asked me to. What's next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			},
 			options = {
 				{
-					content = "没什么了。",
+					content = "\"That's it for the day.\"",
 					flag = 1
 				},
 				{
-					content = "今天天气不错呢。",
+					content = "\"The weather's pretty nice today.\"",
 					flag = 2
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "很好。那接下来的时间你就好好休息，我也去自由行动一下好了。",
+			say = "Sounds good. Enjoy your free time, then. I'll be doing the same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，是不错。既然没什么工作，接下来的时间我就自由行动了。",
+			say = "Hmm, I suppose it is... If we're done with work, I'll go take care of my own business.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……担任秘书舰的这几天，{namecode:465}除了必要的对话以外几乎不会参与闲聊话题。",
+			say = "...Since Ulrich's assignment as the secretary ship, she hasn't spoken any more than what's necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这已经不是一般的冷淡了吧，她该不会是那种对他人毫无兴趣的类型……？",
+			say = "At this point, it wasn't even a matter of playing it cool. She simply seemed disinterested in others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区内倒不是没有沉默寡言的伙伴，不过像她这种程度的……真的能正常融入港区的生活么……",
+			say = "Though there are other girls around the port who aren't very talkative, I couldn't help but wonder if she was able to get along with other people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "嗯？你问我在港区过得如何？不用担心，我过得挺好。",
+			say = "Hm? You want to know about how I've been faring around the port? There's nothing to worry about. I can look after myself just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果你是想打听我的人际关系，那没有必要。我本来就是作为你的部下在此，没有特别在意别人的打算。",
+			say = "If you're trying to find out about my relationship with others, that's wasted effort. I'm here to be your subordinate, and it matters little what others think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你也只需考虑自己就好。",
+			say = "I would recommend you do likewise. Focus on yourself first and foremost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			},
 			options = {
 				{
-					content = "……",
+					content = "...",
 					flag = 1
 				}
 			}
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "别说放心，这回答反而更让人担忧了……",
+			say = "I wasn't sure if I should feel relieved by that answer, or more worried.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

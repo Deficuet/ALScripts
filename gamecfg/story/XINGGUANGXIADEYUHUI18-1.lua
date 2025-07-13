@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "战斗进展的十分顺利，代表敌人的光点成片消失着，胜利几乎唾手可得了。",
+			say = "Our counteroffensive went smoothly. The enemy markers on the monitor vanished one after the next, and victory seemed but a shot away.",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "而变故，却在这一刻悄然降临。",
+			say = "But right at that moment, a shocking development occurred.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "天空中，一颗不起眼的星星散发出万丈光芒，如同一团白色光球快速扩展着，转瞬间覆盖了一半天空。",
+			say = "A star overhead suddenly glows blindingly brightly, its magnified radiance lighting up half of the night sky in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "光芒之中隐约可见许多蓝色光点，如同星光般闪烁着。",
+			say = "The white heavens become diffused with innumerable blue lights that flicker in and out of existence. It's like someone has inverted the colors of the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "随后而来的是一阵又一阵奇异的响声，如同能够引起天地万物的共振一般，就连灵魂都在其中微微颤抖着。",
+			say = "A strange sound – like encroaching waves – rings out, resonating with everything and everyone and shaking the very soul.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这、这是……传说中的主宰级天外之兽？！",
+			say = "Oh my god... Is that a Lord class?! I thought they were a myth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……主宰级？",
+			say = "A Lord class?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领袖级天外之兽的之上的存在……天外之兽真正的主宰者……",
+			say = "A being that surpasses even the Chief class... The true leader of the extradimensionals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其名为星之兽……在历史中只有三次出现的记录。",
+			say = "The Star Beast is its name... It has only appeared three times throughout history.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……每一次结果都不太好。",
+			say = "Every appearance has been marked with disaster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……也就是说今天这是第四次出现星之兽？",
+			say = "That makes this the fourth time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "前三次……你们都是如何应对的？",
+			say = "How did you deal with it the previous three?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第一次我们拼尽了黄金时代的底蕴……第二次塞壬展现了最后的辉煌。",
+			say = "The first time, we threw all of humanity's golden age creations at it. The second, the Sirens displayed their final glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于第三次……我们除了眼睁睁的看它肆虐之后自然退去，已经没有第二种办法了。",
+			say = "The third – we could do nothing but witness its fury.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……不容乐观啊。",
+			say = "This is looking grim.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "无数根触手如同缝合线，连接着天空与大海，并将二者间的距离一寸寸拉近着。",
+			say = "Countless feelers appear, reaching into the sky as though trying to stitch it and the sea together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "海浪愈发猛烈，恐惧亦随波飘向远方。",
+			say = "The waves grow strong and furious, striking fear into the heart of every shipgirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "是你……",
+			say = "Star Beast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "当年，就是你！",
+			say = "Back then... It was you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "啊哈哈哈……我终于等到你了！",
+			say = "Ahahahaha... Finally, I've found you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "很好……很好……！",
+			say = "Yes... It's time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "妹妹们的仇……就由我来报！",
+			say = "Time to take revenge for what you did to my sisters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "我已经不是当年弱小的我了……！",
+			say = "I was weak back then – but not anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "成为{namecode:425:希佩尔海军上将}级最辉煌的战果吧！",
+			say = "Your death will be the Admiral Hipper class' crowning achievement!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "娇小的少女对着浩瀚的星空发起了开战宣言。",
+			say = "Hipper gazed up at the vast sky and declared her intent for all to hear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 401520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，{namecode:426:希佩尔}，你冷静一点！",
+			say = "No, Hipper! Calm down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没用的，她已经听不进去了。",
+			say = "It's no use. She won't listen to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……此刻她是我们的最强战斗力，只能赌在她身上。",
+			say = "That doesn't mean we're going to let her kill herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没办法了。所有人，全力掩护她！",
+			say = "All units, support Hipper with all you have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

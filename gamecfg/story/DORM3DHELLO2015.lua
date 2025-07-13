@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽、虽然我不常说这种话，但看着你的时候，我突然意识到我有多么依赖你……唔，今后你可不可以也多依赖我一些呢？毕、毕竟我想永远陪伴在你的身边……",
+			say = "I-I don't say this often, but... when I look at you, I suddenly realize how much I rely on you. Could you, um, lean on me more often as well? I just want to be by your side as much as possible...",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello15",
 			typewriter = {
 				speed = 0.05,

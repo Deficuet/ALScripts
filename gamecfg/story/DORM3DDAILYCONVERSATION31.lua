@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION31",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "前几天港区下雨后出了彩虹，不过天狼星那时候在打扫房间，没看到彩虹呢……",
+			say = "I heard a rainbow appeared after it rained yesterday, but I was cleaning my quarters at the time and didn't get a chance to see it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +49,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "听大家说，对着彩虹许愿也很灵验，这么一想就觉得有些可惜了……",
+			say = "My acquaintances have told me that if you make a wish to a rainbow, it'll probably come true. What a shame I missed it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "说不定对着彩虹的照片许愿也能实现，要试试么？",
+			say = "Maybe making a wish to a PICTURE of a rainbow works the same. Wanna try it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +72,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯！那天狼星希望能和{dorm3d}……",
+			say = "Yes, please! I wish for you and I to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +84,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，剩下的说出来就实现不了了……还请{dorm3d}原谅天狼星在这一点上对您保密哦。",
+			say = "Oh, wait, my wish won't come true if I say it out loud... Apologies, but I'll have to keep my wish a secret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

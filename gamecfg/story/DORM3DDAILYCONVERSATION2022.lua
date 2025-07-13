@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我刚刚看到一则占卜，上面说我今天运气很好。",
+			say = "{dorm3d}, I just read my fortune, and it says my luck for today is great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "理性而言，我是不相信这些的，但既然是好消息，相信一下好像也没问题。",
+			say = "Logically speaking, I don't believe in fortunes, but I think it's fine to believe in their good message for the placebo effect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那个占卜上也说了，如果与所爱之人待在一起，好运就能够传递给对方……",
+			say = "It also says that spending time with your sweetheart will pass your luck on to them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，让我们一直、一直陪在彼此身边吧，可以吗？",
+			say = "Please, {dorm3d}... always stay with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

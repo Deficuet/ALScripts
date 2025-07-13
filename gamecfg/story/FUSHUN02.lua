@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>二　任务是维修机械？</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 2 - Can You Fix It?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春长春！你看我们找到了什么！",
+			say = "Chang Chun, look at this!",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇…抚顺姐你还真的去翻了旧仓库啊…",
+			say = "Oh wow... You actually went to that old warehouse, huh...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？长春你说什么？",
+			say = "Hm? Did you say something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没什么…所以呢，找到什么好玩的了？",
+			say = "No, nothing! ...So, what did you find?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将将！",
+			say = "Alright, don't be shocked, now... Ta-dah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是…掌机？",
+			say = "Isn't that a... handheld game console?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春果然知道~",
+			say = "I knew you'd recognize it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…好老旧的型号…而且…好像已经打不开了？",
+			say = "Looks pretty ancient, though... And it's... Huh? It won't open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣…是啊，但是你不好奇吗！这里面究竟是什么样的游戏！",
+			say = "Aw... But don't you think it's cool? I wonder what games you can play on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也没有那么好奇就是了…",
+			say = "Not really...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸！？",
+			say = "You don't think it's cool?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦…说到游戏的话，大概可以去问问“她”吧",
+			say = "But I know a certain gamer you can ask about what games it has!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是…掌机？",
+			say = "Isn't that a... handheld?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春说，这方面的问题，来问长岛一定没问题！",
+			say = "Chang Chun said you could tell me more about it!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿…被这么夸奖还有点不好意思呢…",
+			say = "Heheheh... I'm not used to being complimented in that sorta way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…这个型号…我也没见过呢",
+			say = "Really though, what is this thing... I've never seen anything like this before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连博览古今游戏的我都没见过的类型，难道是自制的…？",
+			say = "This is pretty hipster even for a hardcore gamer like me... It might actually be homemade...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？！长岛也不知道内容是什么吗？",
+			say = "What?! You don't know what it is either?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然很不甘心…这时候就要靠专业人员上场了——",
+			say = "Sorry to say, but you'll need to call in a pro for this one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

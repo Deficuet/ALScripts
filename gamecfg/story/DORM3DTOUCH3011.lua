@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很舒服……安克雷奇，还要……",
+			say = "That feels good... Anchorage wants more...",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture2_tone6",
 			typewriter = {
 				speed = 0.05,

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱操心的她可不是闹着玩的\n\n<size=45>四 注意绿色</size>",
+					"Heart in the Right Place\n\n<size=45>4 Be Mindful Around the Green</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在神社内没有发现{namecode:16}，只看到在神社办公室中向这边招手的{namecode:79}和{namecode:78}。",
+			say = "Unable to find Yuudachi, we went back to the yard. There, we saw Yamashiro and Fusou wave at us from over by the shrine.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好刚沏好茶，殿下和{namecode:17}，你们要不要稍微休息一下？",
+			say = "Wonderful work, you two. I just brewed some tea, so how about we take a short break from all the cleaning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}姐姐，{namecode:78}姐姐。你们看见{namecode:16}了吗？明明拜托了她清理参拜道，结果途中不知道跑到哪里去了……！",
+			say = "Yes, let's. By the way, have either of you seen Yuudachi? She was supposed to help with the sweeping, 'til she up and vanished on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:16}？她应该没有来过这里……",
+			say = "Yuudachi? Hmm... No, I don't believe I have. Sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……{namecode:16}那家伙真是……罚她今天只能吃一半的菜！",
+			say = "For the love of... That moron's gonna pay for this. With her dinner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事情已经发生了也没办法……殿下和{namecode:17}不要着急，首先请用这杯茶~",
+			say = "Now, now, let's not get too worked up! Here, have some tea. You too, Milord~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,39 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "我们决定听从{namecode:79}的话稍事休息。无意中看到神社办公室里存放着着许多御守和神符。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305010,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这个神社不只是对重樱开放，其他阵营的舰船们也会来这里参拜许愿哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "{namecode:78}姐姐，那个六角形的筒……难道是抽签桶么？！",
+			say = "I took up on their offer and accepted the cup of tea. My eyes casually glanced over at the shrine office to the side, where I saw a myriad of charms and talismans on display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,21 +159,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，这是抽签筒哦~只要摇一摇就会出现写有编号的小棒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_room",
-			say = "{namecode:17}兴致满满地摇了摇签筒，然后漂亮地将对应大吉的签摇了出来。",
+			say = "You may be surprised to know that we get visitors from not just the Sakura Empire, but every other faction as well, who come to pay their respects.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +175,53 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼。看到没指挥官！ 果然{namecode:17}大人的运气才是港区第一吧！！",
+			say = "What's that hexagonal box thingie over there?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305010,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh, that? It's our fortune slip box. You shake it around, then out comes a stick with a number written on it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_room",
+			say = "Curious to see for herself, Shigure shook the box. The fortune she received was – astoundingly – \"supreme luck.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Heheheh... Watch this, Commander. I'll prove that I'm the luckiest lucky ship that ever lucked into this port!",
 			effects = {
 				{
 					active = true,
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "{namecode:17}一边说着，一边又接连摇出了五次“大吉”。",
+			say = "She shook the box again, and again, and again. When she finished, she had received that same fortune a whole five times in a row.",
 			effects = {
 				{
 					active = false,
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}姐姐要不要也抽抽看？",
+			say = "Do you want to give it a try, Yamashiro?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有{namecode:17}大人在，{namecode:79}姐姐肯定也会抽到吉的！",
+			say = "If I stand right next to you, you'll probably get a big luck boost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗~…我总是抽不到什么好签呢…",
+			say = "You really think so? I've... never gotten much of a positive result with this thing. But why not, I suppose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,23 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "{namecode:79}说着，摇出来的签是——吉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯……上面写着“要注意绿色”",
+			say = "Yamashiro picked up the box, gave it a gentle shake, and out came a fortune – regular luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +325,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "落叶是绿色的，所以注意别踩在上面滑倒就行了吧？",
+			say = "Huh... There's something else written on the fortune slip. \"Be mindful around the green.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,21 +341,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_room",
-			say = "{namecode:17}突然注意到了{namecode:79}端着的茶杯。",
+			say = "Leaves are green, so you should probably watch out around those. You could slip, or something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +357,37 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}姐姐，如果现在喝茶的话——",
+			say = "...Oh no.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_room",
+			say = "Shigure's attention was suddenly drawn to the teacup in Yamashiro's hand.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Wait, Yamashiro! Let it cool before–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？？？……好烫！！",
+			say = "Oww! Hot! Hot!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "{namecode:79}保持着低头的姿势将迅速将嘴离开了茶杯边缘，伸出舌头露出了悲伤的表情。",
+			say = "Yamashiro tilted her head back to drink from the teacup. The next moment, she cringed in pain, lowered the teacup, and stuck her tongue out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜，呜……被茶烫到了……绿茶...... 这是绿茶……呜！",
+			say = "Aww... I think I just burned my tongue. As it turns out, this is green tea... Errph...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……即使是{namecode:17}大人的运气，也是存在极限的啊……",
+			say = "...Well, if there's one thing this proves it's that there's limits to what even my luck can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "看来，就算是{namecode:17}的好运也有力不从心的时候。",
+			say = "Even Shigure's aura of supreme luck could not prevent misfortune from striking the accident-prone Yamashiro.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

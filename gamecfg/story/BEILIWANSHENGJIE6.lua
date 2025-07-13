@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>六 幽灵追击队！</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>VI 「Chasing Ghosts!」</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
-			say = "这边！",
+			say = "Over here!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！她往这边跑了！",
+			say = "No! Over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…呼…没想到一路追到了天台…",
+			say = "Huff... puff... I can't believe we chased her all the way to the rooftop...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "我，我跑不动了啦…",
+			say = "I, I can't run any longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过这下就无路可逃了。你究竟是谁？你的目的是什么？",
+			say = "There's nowhere left for you to run. Who are you exactly? What are you up to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幽灵小姐，贝利和大家都不是坏人哦，我们是来帮助你的呢！",
+			say = "Miss Ghost, Bailey and the others are not here to scare you, we've come all the way here to help you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "竟、竟然飞走了？！",
+			say = "Sh-she flew away?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "这，这怎么办！我们可不会飞…",
+			say = "Wh-what now! We can't fly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "飞、飞…啊！刚才拿到的扫帚！既然如此…我跳！",
+			say = "F-Fly! I just got this broomstick! Could it be time for me to... jump!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，等、等等，这样的话你会掉下去——",
+			say = "Wa-wait! Wait wait wait, you'll fall off the roof if you jump.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "飞，飞起来了…真的飞起来了？！",
+			say = "She... she's flying... She's ACTUALLY flying?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，可别以为这次还能逃走！",
+			say = "Hmph, don't think that you can escape this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不、不会吧，这个扫帚究竟是…",
+			say = "No way, what's with this broomstick...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈~真的是飞翔的魔女耶~{namecode:48}、纳尔逊，你们也快来呀~",
+			say = "Hahaha~ I'm now a flying witch~ Quick, come join me Isuzu, Nelson~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等——",
+			say = "Wait——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "呜哇哇哇！真的飞起来了！我，我在飞！",
+			say = "Wahahaha! I'm actually flying! I... am... flying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "扫，扫把，追上她们……！",
+			say = "Broomstick, catch up to them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我这是在做梦吗…",
+			say = "...am I dreaming...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一切都是真的哦。我推~",
+			say = "This is not a dream. Here, let me push you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罗德尼？！……呀！",
+			say = "Rodney?! ...Yeeha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好好享受飞行的时光吧，这可是难得的新鲜体验呢。坐稳了，还有玩得开心，姐姐~",
+			say = "Go and enjoy this feeling of flying, this is a once in a lifetime experience. Hold on tight. Have fun, sisters",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

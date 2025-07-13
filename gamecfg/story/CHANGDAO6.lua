@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>六　大·失·败</size>",
+					"Long Island's Inner Peace\n\n<size=45>VI 「Total Defeat」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜……输、输了……这把不算啦……只是我一时大意而已——",
+			say = "Sigh... I-I lost... this one doesn’t count... I was careless that’s all ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？说话算话愿赌服输？",
+			say = "What? No more excuses?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我是说过指挥官要是赢了一次我就一起去参加日常训练啦……但、但是这个不算啦——",
+			say = "I-I said that if you won once then I’ll attend the daily exercises with you...but, but this time it didn't count!---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "No～～～～我不要出门～～～～明明就在休假中啊啊啊啊啊～",
+			say = "No~~~~I don’t want to go out~~~ I’m on vacation, ahhhhhh~~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

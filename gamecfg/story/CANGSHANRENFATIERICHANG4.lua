@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"苍闪忍法帖-「日常篇」\n\n<size=45>青春学园生活-其一</size>",
+					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Teenage High School Ninja Girls - Part 1</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
-			say = "港区·休息室",
+			say = "Port - Break Room",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来……雪泉提到过的「月闪女学馆」是个什么样的学校呢？",
+			say = "Hey, tell me about your school. What's Gessen Girls' Academy like?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了吗？突然问起这个……",
+			say = "Oh? Why do you ask?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103160,
-			say = "你看，我们这里也有舰船上学的学园，或许在这方面我们能很聊得来？",
+			say = "We've got an academy of our own, so I figured it's something to talk about.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且我也很好奇，忍者们上学的学园究竟是什么样子的。",
+			say = "Plus, I'm a little curious about what an academy for ninjas is actually like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "可能并没有你想象中那么有趣哦？",
+			say = "I'm afraid you'll find the answer rather boring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们上的「死塾月闪女学馆」是专门为培养忍者而设的学校。",
+			say = "For a start, the Shijuku Gessen Girls' Academy is a school specializing in raising shinobis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "所以和普通学校有些不同，学校的课程主要以忍者的训练为主。",
+			say = "It's a bit different to ordinary schools. The curriculum is mainly centered around practicing ninjutsu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……其实和来到这边之后，你们所见到的日常修行感觉差不多？",
+			say = "Which is to say... Well, it's not much different from the training we do on a daily basis here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000070,
-			say = "至于我们「远野天狗之忍众」……甚至可能连“学园”的概念都算不上吧……",
+			say = "In the case of the Tohno Tengu Shinobi Group, it may be a misnomer to even call us a \"school.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天狗么……感觉像是在山林里行动的组织，从名字上听起来就和城里的“学园”无缘呢。",
+			say = "Tengu Group... From the name alone, it sounds like you'd reside up in the mountains, and not in a school building within a town.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "是的，忍者之里就又是另一回事了……可以说是一种古老的忍者培养机构吧。",
+			say = "Yes, the Hidden Village is something quite different. I suppose you could call it a school for shinobi that has existed in Japan since ancient times.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000070,
-			say = "——要说普通，飞鸟小姐的「国立半藏学院」……应该算是挺“普通”了的吧？",
+			say = "What about Asuka's school? Isn't Hanzō National Academy fairly normal?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000070,
-			say = "毕竟表面上就是一个单纯的重点学校呢。",
+			say = "If nothing else, it does present itself as being ordinary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那应该上的课也是很普通的吧？比如数学之类的……",
+			say = "Do you study general subjects there? Y'know, math, history...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "嗯，不过数学和外语等一般课程在我们学院也是很重要的哦。",
+			say = "All the standard subjects are important parts of our school's curriculum as well, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了能融入社会，这些可都是不可或缺的。你们也应该有开设这些课吧？",
+			say = "I would assume you shipgirls learn the same things about society as us. Shinobis need to blend into the world, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有的哦！会分为理论课和实战，还有测验考试之类的……",
+			say = "Yep, we learn all kinds of stuff at the academy! Not much teacher variety, though – it's always the same shipgirl...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果要说和你们有什么区别的话，应该是校服的问题吧。",
+			say = "There are lectures, combat training, and tests, of course. The only we don't really have is a uniform.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对哦，港区的学院是没有校服的。",
+			say = "Oh, yeah. I'd almost forgotten that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "没有校服……吗？",
+			say = "You... don't have a uniform?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，上学时可以穿类似学园校服的衣服，也可以穿平时的衣服。",
+			say = "Nope. It's fair game to wear clothes resembling a uniform, or you could wear your regular fit if you want. Commander says both are fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "其实……有时候总感觉我们这里的制服，就像是某种COSPLAY一样呢……",
+			say = "Honestly, sometimes it feels like the students are straight-up cosplaying at school.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，我感觉衣服都很好看哦！",
+			say = "As long as it's cute, I don't mind what people wear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "不是好看还是不好看的问题啦……",
+			say = "Looking cute is not what's important with uniforms...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，其实我们那边的情况也是这样。感觉比起校服，大家都觉得忍者装扮更像是正装呢。",
+			say = "To be fair, even in our case, I feel like many regard our respective shinobi attires as their true uniforms.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，并不是说我不喜欢每天穿的校服。为了融入社会，校服是重要因素之一。",
+			say = "Oh, I'm not saying we don't like the uniforms we wear every day. It is an essential part of blending in with society.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……到头来还是会有人一下就把校服脱掉呢……",
+			say = "But there are also some who take it off at the first chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "顺带一提~我们的校服出于一些不可避免的情况很容易破，所以做得可结实了哦！",
+			say = "That is true. Oftentimes, they also get torn in unavoidable circumstances. Despite them being made of strong fabric...",
 			painting = {
 				alpha = 0.3,
 				time = 1

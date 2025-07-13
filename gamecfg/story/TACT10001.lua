@@ -8,7 +8,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "前方海域发现复数不明敌机，未发现水面舰队！",
+			say = "Unknown enemy planes ahead, no fleet detected nearby!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "可恶，舰队居然被发现了，这一带难道有潜艇在游曳么？~",
+			say = "Damn, we have been discovered, is there a submarine in the area?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -50,7 +50,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "没关系，轰炸机不会是战列舰的对手，继续前进，防空炮准备迎敌！",
+			say = "It's ok, those bombers are no match for our battleships, keep advancing, ready all anti-aircraft guns!",
 			shake = {
 				speed = 1,
 				number = 3

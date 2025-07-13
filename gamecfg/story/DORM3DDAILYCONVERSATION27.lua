@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "喜欢的东西？",
+			say = "My favourite thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是您……我骄傲的{dorm3d}。",
+			say = "Of course, my favourite thing would have to be you, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，采用“东西”这样的措辞好像容易有歧义呢……",
+			say = "Err, that didn't sound right! I didn't mean to make it sound like you're an object!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个问题果然还是换成“天狼星喜欢的人”才比较恰当……",
+			say = "Let's just retroactively change the question to, \"who's my favourite person,\" please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

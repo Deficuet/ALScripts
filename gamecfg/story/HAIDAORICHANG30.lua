@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>再访温泉</size>",
+					"Uncharted Summer\n\n<size=45>Revisiting the Hot Spring</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "温泉门口，鸟居样的门扉上，绯红色的欢迎致辞显得格外耀眼。",
+			say = "The entrance to the hot spring resort, modeled after a torii gate, is adorned with decorations celebrating its grand opening.",
 			bgmDelay = 2,
 			bgm = "story-richang-4",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "手里拿着那封由赤红色信封包裹的邀请函，走进了这片弥散着白色雾气的温泉馆——",
+			say = "With the red envelope of a letter of invitation in hand, I return to the place where I spent a steamy time with Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "刚穿过温泉的门帘，一道赤色的身影就迎了上来——",
+			say = "When I pass through the hot spring curtain, I'm greeted by a familiar, elegant figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎~如约来了呢，指挥官。",
+			say = "Welcome, Commander. I'm so glad you stuck to your promise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "温泉馆的工程已经完全竣工，原本带着些微硫磺味道的天然热泉，如今已经被朦胧的水汽环绕。",
+			say = "I enter the completed facility. There's a faint sulfur smell as hot spring water is diverted to several indoor baths.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "在这水汽之中，还混杂着与上次不同的熏香气息。",
+			say = "There's a different aroma from the last time I came here, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "配上内部富有韵味的装潢，显然这里已经被建设了一处上佳的休息场所。",
+			say = "The warmth of the hot spring, the aromatic scent, and the charming decorations give the place a refined air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "唉……本来本日的邀请只是针对您个人的。",
+			say = "*sigh*... I wanted you to be the only one invited today, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "可惜总有人不解风情，结果最终变成了……对所有人的温泉邀请。",
+			say = "Unfortunately, circumstances have forced me to welcome everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啧……难得的独处机会又被煞风情的人给破坏掉了。",
+			say = "(Tch... Foiled again.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "没办法。指挥官就先宽衣解带，随后让我带您在温泉内稍微逛逛好了。",
+			say = "Enjoy a dip in the hot spring, and once you're done, I'll show you where to rest and get dressed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "原来是这样……大概明白为什么她的神情看起来稍微有些阴郁了。",
+			say = "(That is how you normally do hot springs, yes, but that's not what I'd expect from Akagi... I can see why she's so down.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "在{namecode:91}的带领之下，来到了温泉最大的厅堂之内。",
+			say = "Akagi shows me to the biggest bath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "选了温泉的一个角落，把身体浸泡进去，感受温暖的浸泡。",
+			say = "I get in the bathtub, sink down to my shoulders, and heave a sigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "伴随着蒸腾而起的雾气，意识几乎都要融化在这带着温度的香草香气里。",
+			say = "The hot water clouds my thoughts, and my consciousness begins to melt into the rising steam...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "蒸腾的雾气中，白色的影子向我靠了过来——",
+			say = "I suddenly notice someone approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702060,
-			say = "啊，指挥官~！也是来这里享受温泉的么？",
+			say = "Commander~ Did you get invited here, too~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702060,
-			say = "水温刚刚好呢。总是在北国的风雪中活动，偶尔像现在这样享受一下温暖的怀抱，嗯~",
+			say = "The water temperature is perfect~ I'm used to the Northern Parliament's climate, but it's so nice to be all warm once in a while, right~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702060,
-			say = "感觉整个人的身心都舒展开来了呢~",
+			say = "Phew... I can feel my body and mind stretching~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "指挥官要来试试我新学的温泉精油按摩么？",
+			say = "Sorry to intrude on your hot bath, Commander! Wanna give my new massage technique a go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "温泉配上按摩，保证会让您体会到别样的舒爽感受的哦？",
+			say = "Hot springs boost your circulation, so a massage would go perfect with that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "还是先来品尝一下为汝准备的点心吧。",
+			say = "One wishes to partake of sweets with you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "温泉水煮蛋和羊羹，如果需要的话，请用吧……",
+			say = "Yokan and manjuu... If it suits you, please give them a try...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "或者说，如果打算享受劳累中的片刻宁静的话，请您在我的身边沉沉入梦吧……",
+			say = "If you desire tranquility after your bath... You may lay your head to sleep alongside me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "点心非常好吃，甘甜的味道直入心脾。",
+			say = "The shipgirls and I have a lovely time together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "按摩的触感也非常舒服，四肢百骸无不通畅。",
+			say = "The hot spring and massage take all of my fatigue and stiffness away, and I fill my stomach with exquisite sweets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "……只是不知为何，伴随着香氛的味道和温暖的触摸，意识渐渐远去。",
+			say = "Tempted to sleep by Shinano's gentle whisperings and the sweet scent of incense, my eyelids grow heavy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
-			say = "仿佛就要沉醉在这温柔乡之中——",
+			say = "Finally, melting in the warmth of everyone's kindness, I doze off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

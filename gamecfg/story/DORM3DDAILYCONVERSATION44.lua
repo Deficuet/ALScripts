@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION44",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "之前利物浦有问过天狼星平时使用手机的频率不高，{dorm3d}要找天狼星找不到怎么办。",
+			say = "Liverpool asked me earlier what would happen if you couldn't find me after you tried to contact me, seeing as I don't use my cellphone much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +49,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "后来天狼星自己想了想，“{dorm3d}想要寻找天狼星，而天狼星不在”的这种前提永远不存在呢。",
+			say = "I thought about it for a bit, and I came to the conclusion that there will never be a time when I'm not there for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +61,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且如果{dorm3d}允许的话，天狼星可以二十四小时侍奉在您身边，不会让您有片刻感到寂寞。",
+			say = "In fact, if you'll let me, I can be by your side around the clock! I will never let you feel lonely for even an instant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在指挥官等人离开后，企业也开始了自己的战斗。",
+			say = "After the Commander's group had left, the Pacific fleet began their own battle.",
 			bgm = "theme-designfleet-vii",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "{namecode:152:伊吹}小姐，重樱舰队现在的真实情况如何？",
+			say = "Ibuki, how much has the Sakuran fleet recovered?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "实不相瞒……量产型舰队损失殆尽，战斗人员中……保有战斗力的不足五成。",
+			say = "Our mass-produced fleet is... frankly hopeless. Even an optimistic estimate of our shipgirls puts us at 50% combat capacity, and that's including the ones who can barely fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "情况确实严峻……我已经在后方展开了多座浮动船坞，随时可以投入使用。",
+			say = "The Commander wasn't kidding. I've deployed a few floating docks at the rear – you're free to use them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "你们的伤员可以去浮动船坞内修整治疗，补给不足的人员，也可以自由使用其中的物资。",
+			say = "Treat and repair the wounded. Use all the supplies you need, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "同时，你们的舰队需要进行重新编队，才能参与接下来的战斗行动。",
+			say = "Reform your fleet, and I'll call for you again. What matters is that you recover enough that you can back us up later on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢，浮动船坞的事我马上同步回去。",
+			say = "My sincerest gratitude. I shall inform the others about the floating docks right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "至于重新编队的事，{namecode:81:土佐}大人和{namecode:89:凤翔}大人已经在处理了。",
+			say = "Tosa and Houshou are reforming the fleet now, so no worries there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "说到接下来的行动，确保缺口到仪式核心法阵安全通道的任务可否交由我们负责？",
+			say = "One thing, though... Can the Sakuran fleet still be the one in charge of making the path from the crack to the core of the ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "我们是最熟悉重樱本岛的情况……以及那些敌人的人了。",
+			say = "We know the situation on the mainland, and the enemies up ahead, better than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "这是一个非常危险的任务。你们刚刚脱离险境，真的要回去么？",
+			say = "Really? You just got out of danger, and you're going back for more?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399011,
-			say = "事关重樱安危存续，我们责无旁贷。",
+			say = "That's not it. This poses an existential threat to our people, and we wish to rid ourselves of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "好，这项任务就交给你们，不过，我还是会派遣一支状态良好的舰队与你们同行。",
+			say = "Okay. The Sakuran fleet can lead the vanguard, but just in case, I'm sending a healthier fleet alongside you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是小看你们的能力，而是确保行动万无一失的准备。",
+			say = "Not that we don't trust you – it's just in case things take a turn for the worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题，我们明白。",
+			say = "Understood. Thank you for your consideration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "大黄蜂，带领你的舰队配合重樱舰队执行任务。",
+			say = "Hornet, can I entrust you to accompany the Sakuran fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "噢~是要去最危险最刺激的地方呢，正好可以检验一下新型装备的能力！",
+			say = "Yes, ma'am! What better opportunity to test the Type II rigging I got from the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "不要大意，你们的任务是整场战役的关键，绝不能出现任何差错。",
+			say = "Just don't get too cocky. You and the Sakuran fleet are the key to this whole mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "放心放心~姐姐你在外面也小心哦~",
+			say = "No problem, no problem. You be careful, too, Enty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "等等，我也去。在这件事上，绝对不能出现任何差错。",
+			say = "I'll go, too. We can't leave any room for mistakes, not against a Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Thanks, Kirov.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前的裂口处，由我的舰队和重樱留在外部的舰队足够处理。",
+			say = "Our fleet here, plus the girls undergoing repairs and treatment, will handle the crack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其余诸位，按照之前的规划重组舰队，然后前往预定位置待命。",
+			say = "The rest of us will position around the Singularity per the Commander's plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "北部防区由{namecode:529:苏维埃同盟}负责，西部防区由滨江负责，东部防区由邦克山负责，南部防区由匹兹堡负责。",
+			say = "Soyuz to the north, Harbin to the west, Bunker Hill east, and Pittsburgh south. You know your positions, so get to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "随着时间推移，奈落的强度会不断增强，裂隙也会越来越多。各舰队需要保存实力，以便第一时间投入战斗。",
+			say = "The Singularity will only intensify over time, which means more cracks are liable to appear. Each fleet needs to fight prudently – you never know when you might end up in a protracted battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "目前，{namecode:524:圣地亚哥}司令部的援军还在路上，沿线各港口的驻防舰队也在汇聚而来。",
+			say = "It's a rough situation, but reinforcements are on the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "NY司令部的援军则要更晚一些。",
+			say = "SD Naval Base, NY Naval Base, and other garrisons are sending their best. The Northern Parliament is contributing to the effort, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "这些就是我们可以依仗的全部后援力量。",
+			say = "We're going to stand strong here until the Commander's job is done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "战斗预计会拖成持久战，注意保存实力，灵活应对战局变化。",
+			say = "No matter how difficult, no matter how long the fight, we will seize victory in the end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是——！",
+			say = "Aye-aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			hidePaintObj = true,
-			say = "「奈落」裂口周边海域·三号浮动船坞",
+			say = "Near the Singularity - Floating Dock 3",
 			bgm = "story-newsakura",
 			typewriter = {
 				speed = 0.05,
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "给~{namecode:68:摩耶}姐姐，拿上号牌先去休息，维修服务稍后就到哦~",
+			say = "Maya, take this numbered ticket and go rest! It'll be your turn for repairs in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢。",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气啦~欸，{namecode:234:凉波}，你也受伤了么？！",
+			say = "No problem! Oh! Suzunami, did you get hurt, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是一点擦伤，不碍事……我是来进行弹药补给的。",
+			say = "Just a minor scratch. What I really need is an ammo resupply, if you don't mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "弹药补给的话，请在此登记，然后走绿色通道一直向前哦~",
+			say = "Write your name here and go that way, and you'll be refilled in no time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301910,
-			say = "嗯……麻烦了。",
+			say = "Phew... Thanks, Zuihou!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 112010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇，{namecode:88:瑞凤}妹妹，你好厉害……这里不久前还是一片混乱呢，没想到现在已经井然有序了。",
+			say = "Impressive, Zuihou... This place was a jumbled mess just minutes ago, but you got it organized in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "嘿嘿，其实只是现在人变少了而已啦。",
+			say = "Chirp~♪ It was just easy for me since the crowd thinned out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女灶神姐姐~你那边忙完了么？",
+			say = "Are you finished with yours, Vestal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还没有，只是有事要去一下五号浮船坞，顺便来看看你这边的情况。",
+			say = "Well, I had some stuff to do at Dock 5... I was just checking on things here along the way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，来你这边的重伤员多么？",
+			say = "There were a lot of injured girls here too, right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……嗯，有一些。我已经按照你的嘱咐，把重伤员都转移去五号浮船坞了。",
+			say = "Yeah... There were. I sent them to Dock 5 like you said, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女灶神姐姐，你一定要帮帮她们啊！",
+			say = "Go help them for us, Vestal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，{namecode:88:瑞凤}妹妹，包在我身上！",
+			say = "Don't worry. I'll make sure they're taken care of♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,11 +682,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_port_chuanwu1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？对，是我，女灶神。",
+			say = "Oh? Hello, this is Vestal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:88:瑞凤}妹妹，正好在我身边，三号浮船坞……嗯？我明白了。",
+			say = "Zuihou? She's right next to me, here at Dock 3... Hm? Okay, got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,11 +721,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_port_chuanwu1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "出什么事了么，女灶神姐姐？",
+			say = "Vestal? What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，没有。是你们的人有重要的事要找你，接你回去的人就快到了。",
+			say = "Nothing major. The Sakurans were looking for you, so I just told them where you were.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:88:瑞凤}，你在这里么？{namecode:151:出云}大人有急事找你，让我们来接你回去~",
+			say = "Zuihou! You here? Izumo's looking for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			actor = 302260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大、大家打扰了……",
+			say = "E-excuse us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇哦，是{namecode:140:旗风}和{namecode:233:绫濑}。女灶神姐姐，我可以先回去么？",
+			say = "Oh! Hatakaze, Ayase! Sorry, Vestal, but is it okay if I go now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然没问题啦，管理这里原本就是我的工作，你能来帮忙一段时间我已经很感谢啦！",
+			say = "Go ahead. Dock management is my job, so I'm just happy that you made things easier for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			hidePaintObj = true,
-			say = "{namecode:88:瑞凤}离开三号浮动船坞，跑向{namecode:140:旗风}和{namecode:233:绫濑}的位置。不经意间，她似乎看到{namecode:140:旗风}的眼角闪过了一抹苍白色的光。",
+			say = "Zuihou jumped off of Dock 3 and ran to her comrades. Along the way, though, she noticed a faint glint in Hatakaze's eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,7 +852,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "{namecode:140:旗风}，刚才你的眼睛里……？",
+			say = "Hatakaze? What was that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "……？我的眼睛里怎么了？",
+			say = "What was what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 306040,
-			say = "唔……没事，大概是错觉吧。",
+			say = "Uh... Nothing! I must've just imagined it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，别让{namecode:151:出云}大人等急了，我们快回去吧~",
+			say = "I'd better not keep Izumo waiting. Let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

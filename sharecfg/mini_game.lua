@@ -828,8 +828,12 @@ pg.mini_game = {
 		hub_id = 56,
 		request_data = 1,
 		simple_config_data = {
-			stroy_act = 5523,
 			drop = {
+				{
+					2,
+					59849,
+					1
+				},
 				{
 					2,
 					54006,
@@ -837,18 +841,13 @@ pg.mini_game = {
 				},
 				{
 					2,
-					50004,
-					5
-				},
-				{
-					1,
-					2,
-					300
-				},
-				{
-					2,
 					54034,
 					2
+				},
+				{
+					15,
+					106,
+					1
 				},
 				{
 					2,
@@ -861,9 +860,9 @@ pg.mini_game = {
 					1
 				},
 				{
-					2,
-					30359,
-					2
+					14,
+					108,
+					1
 				}
 			},
 			story = {
@@ -1219,19 +1218,19 @@ pg.mini_game = {
 					1
 				},
 				{
-					1,
-					1,
-					300
+					2,
+					59840,
+					1
 				},
 				{
-					2,
-					50004,
-					5
+					15,
+					104,
+					1
 				},
 				{
-					2,
-					20012,
-					2
+					14,
+					105,
+					1
 				},
 				{
 					14,
@@ -1661,7 +1660,7 @@ pg.mini_game = {
 		game_room = 0,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
-		name = "砰砰咚挑战赛",
+		name = "Butt Battle",
 		config_data = "",
 		config_csv = "",
 		id = 51,
@@ -1838,13 +1837,28 @@ pg.mini_game = {
 			drop_ids = {
 				{
 					2,
-					54050,
+					59846,
+					1
+				},
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					54034,
 					2
 				},
 				{
-					1,
-					1,
-					300
+					15,
+					105,
+					1
+				},
+				{
+					2,
+					20013,
+					1
 				},
 				{
 					2,
@@ -1852,24 +1866,9 @@ pg.mini_game = {
 					1
 				},
 				{
-					1,
-					1,
-					300
-				},
-				{
-					2,
-					50004,
-					5
-				},
-				{
-					2,
-					20012,
-					2
-				},
-				{
-					2,
-					30347,
-					2
+					14,
+					107,
+					1
 				}
 			}
 		}
@@ -1928,7 +1927,7 @@ pg.mini_game = {
 		}
 	},
 	{
-		is_ranking = 1,
+		is_ranking = 0,
 		view_name = "RacingMiniGameView",
 		type = 2,
 		game_room = 0,
@@ -2298,7 +2297,7 @@ pg.mini_game = {
 		game_room = 0,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
-		name = "啾啾蛋糕塔",
+		name = "Manjuu Cake Tower",
 		config_data = "",
 		config_csv = "",
 		id = 66,
@@ -2724,7 +2723,7 @@ pg.mini_game = {
 		game_room = 0,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
-		name = "『别墅度假岛』合成小游戏",
+		name = "Villa Resort Minigame - Shipgirl Game",
 		config_data = "",
 		config_csv = "",
 		id = 76,
@@ -2777,7 +2776,7 @@ pg.mini_game = {
 		game_room = 0,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
-		name = "『别墅度假岛』打捞团小游戏",
+		name = "Villa Resort Minigame - Manjuu Salvaging Crew",
 		config_data = "",
 		config_csv = "",
 		id = 77,

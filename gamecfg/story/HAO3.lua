@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"属于彼此的甜蜜饼干\n\n<size=45>三　穿上围裙吧！</size>",
+					"Our Sweet Cookies\n\n<size=45>3 Don't Forget the Apron</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "豪的寝室·厨房",
+			say = "Howe's Quarters - Kitchen",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "在将食材放到了台面上，开始准备进行下一步时，少女却一本正经地制止了我。",
+			say = "I place the ingredients on the counter, and just as I'm about to start on the next step, Howe stops me all of a sudden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "指挥官先坐下来休息一会儿吧，不着急。",
+			say = "Before you do that, take a seat. Let's get comfortable first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我先去给你倒杯凉茶~",
+			say = "I'll get you some iced tea♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "不一会儿，少女就将装满的茶碗塞进我手里，然后开始了她的忙碌。",
+			say = "She brings the iced tea over, but does not sit down at the counter. Instead, she starts processing the ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？你不坐下来休息一下么？",
+			say = "Huh? Aren't you going to sit down?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "我完全不累，倒不如说现在正因为太开心了而干劲十足。",
+			say = "No, I'm not feeling very tired. If anything, I'm restless and raring to do something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "所以，指挥官就好好休息一下，等我把前期准备工作都做好吧~",
+			say = "You just sit there and relax while I work on this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女将食材和烘焙用具都准备妥当后，又找出了两件围裙。",
+			say = "After checking that she has all the ingredients and tools ready, she takes out two aprons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，要穿围裙么？",
+			say = "Here. Put this on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,18 +165,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "这样就不用担心黄油、面粉之类的沾到衣服上了~",
+			say = "We don't want you to get butter or flour on your clothes, do we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接过围裙自己穿上",
+					content = "(Put on the apron.)",
 					flag = 1
 				},
 				{
-					content = "主动提出让豪帮忙",
+					content = "(Ask her to do it for you.)",
 					flag = 2
 				}
 			}
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "伸手接过豪手中的围裙套在了身上，就在准备自己系上后背的带子时——",
+			say = "Taking the apron, I hang it around my neck and fiddle around the back to tie a knot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 205090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我帮你吧，指挥官，看不到背后是有些麻烦。",
+			say = "Let me help. It's pretty tricky to do when you can't see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "豪绕到我身后，用她的双手环过我的腰间，拉住了两侧的带子替我系上。",
+			say = "She steps forward, getting behind me and using her hands to skillfully tie a knot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "后面的带子有点……你能帮我穿上么？",
+			say = "I can't see behind me, so... give me a hand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "欸？当然可以。",
+			say = "Hm? Oh, sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "豪走上前来，微微踮起脚，将围裙套上我的脖子。",
+			say = "She first walks up and tiptoes to reach up and place the apron around my neck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "随即又绕到我身后，用她的双手环过我的腰间，拉住了两侧的带子替我系上。",
+			say = "Then she wraps her hands behind my back and skillfully ties a knot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "如同从背后拥抱一般。",
+			say = "All while practically hugging me with how close she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这样子的松紧度可以么？",
+			say = "What's the matter? Is it too tight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，这样刚好。",
+			say = "No, it's perfect. Thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "那就好，我还担心会系得太紧呢。",
+			say = "Lovely! I was wondering if I went too hard with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,14 +328,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女说着，拿起了另一条围裙，打算为自己穿上。",
+			say = "While she says that, she takes the other apron and gets ready to put her head through it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我帮你穿吧。",
+					content = "(Offer to help her.)",
 					flag = 1
 				}
 			}
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "这次让我来帮你穿围裙吧。",
+			say = "Let me give you a hand this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？啊……好。",
+			say = "Huh? Oh, by all means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "为了避免系带时扯到她的头发，伸手将豪脖颈后的发丝捋了捋。",
+			say = "Before anything else, I hold up her hair so it won't get caught on anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女白皙的耳尖迅速染上一抹粉红。",
+			say = "A blush briefly turns her ears pink before going away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "替豪系完围裙，在重新拉开距离后，她抬起双手摸了摸自己的脸颊。",
+			say = "Once I finish tying her apron, I back off. She places her hands on her fair cheeks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "然后带着几分羞涩，露出了甜美的笑容。",
+			say = "She smiles a charming and sweet yet slightly embarrassed smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "呼……跟指挥官离得太近，果然还是会有点害羞呢。",
+			say = "Whew... Standing so close to you really gets my heart beating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "虽然也很想就这样近距离相处下去……不过我们今天的“主要任务”还没完成呢。",
+			say = "As much as I'd love to just do that all day... there are still things to do before that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女说着，从厨房台面上将黄油和打蛋盆郑重地放到了我手中。",
+			say = "As she says that, she hands me a bowl and a stick of butter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205090,
-			say = "好了，一起做小饼干吧，指挥官！",
+			say = "Come on, love. It's time to make cookies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

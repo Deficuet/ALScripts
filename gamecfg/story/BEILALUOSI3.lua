@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>三 Welcome to 港区！</size>",
+					"White Gallantry\n\n<size=45>3 Luck of the Draw</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "За здоровье！干杯！",
+			say = "Za zdorov'ye! To the revolution!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -65,9 +65,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_107",
-			actorName = "大家",
+			actorName = "Everyone Else",
 			dir = 1,
-			say = "干杯！",
+			say = "To the revolution!",
 			effects = {
 				{
 					active = true,
@@ -89,7 +89,7 @@ return {
 			},
 			options = {
 				{
-					content = "干杯！",
+					content = "To the revolution!",
 					flag = 1
 				}
 			}
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "结束了一天的工作，给北方联合的伙伴们开了场欢迎会。",
+			say = "After the workday was over, I attended a welcoming party for the new Northern Parliament girls.",
 			effects = {
 				{
 					active = false,
@@ -121,7 +121,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢你的支持，指挥官同志。",
+			say = "I thank you for your kindness, Comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然是我提议的开欢迎会，不过在提的时候其实还挺担心“万一指挥官没同意怎么办”呢。",
+			say = "Granted, it is I who came up with this idea, but I was worried for a moment that you wouldn't approve of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本来以为抽到大奖是赚到，没想到却因此整了个更大的应酬出来啊。",
+			say = "Rather than profit from the prize, it instead incurred us further expenses. I feared you'd want to cut your losses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "{namecode:98}抽奖活动里的一等奖，原来是张宴会的优惠券。",
+			say = "Belorussiya went on to explain to me that the lottery prize was in fact a discount voucher for an all-inclusive party bundle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "洪亮她们就算努力拿到了这个，也没有什么用的机会啊。",
+			say = "As Gromky was left without a coin to her name, she obviously couldn't use the voucher herself. Thus, a bit of additional funding was needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，是这样呢…我们买的时候也不知道一等奖到底有什么就是了。",
+			say = "We kind of didn't stop to check what the prize was. Mm, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你们不会连是什么都不知道就一口气买了几十张吧？",
+			say = "You really bought thirty tickets, unaware of what you were hoping to win?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 701080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看、看到“就剩几张”的告示就忍不住…><",
+			say = "S-seeing the \"almost sold out\" on the store display gave us tunnel vision...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "好像在不知不觉中做了件好事(?)的样子",
+			say = "In the end, I was left feeling like we did a good deed today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，洪亮她们走了，我这得跟指挥官同志道个歉才行呢。没想到最后变成得开个规模这么大的宴会。",
+			say = "Now that we're alone, it's time I offer you an apology, Comrade. I did, in essence, coerce you into funding this lavish party.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -300,7 +300,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“贝拉罗斯啊，性格上来说，偶尔会有些我行我素”，经常被这么说呢。",
+			say = "I blame it on my being insistent on having things my way. It's a bad habit of mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要拿什么比喻的话…难以驯服的桀骜之马？给指挥官同志多少会带来些麻烦…你又是怎么想的呢，指挥官同志？",
+			say = "I can be a wildcard, I will admit that. It does inconvenience people at times, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "确实，从她上任秘书舰的第一天就被吓了一跳……",
+			say = "That rang true. I looked back to the day that I appointed her as my secretary. It was astonishing, to say the least.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "不过既然结果是好的，就没有必要去刻意压制她的自主性。最多是注意下别让她做过头了就好。",
+			say = "Nevertheless, I figured there was no need to limit her authority as long as she uses it for good things, like on this day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "为此，还是得更加深些对她的了解才行…",
+			say = "Her forwardness just required a bit of adjusting to. To that end, I had to get to know her better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

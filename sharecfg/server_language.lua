@@ -3,117 +3,122 @@ pg.server_language = {
 	{
 		id = 1,
 		limitation = -1,
-		content = "轻巡洋舰的防空能力比较强"
+		content = "Light Cruisers have relatively high Anti-Air defenses."
 	},
 	{
 		id = 2,
 		limitation = -1,
-		content = "普通战列舰的火力强大，但是航速就..."
+		content = "Normal Battleships have high Firepower but move slowly..."
 	},
 	{
 		id = 3,
 		limitation = -1,
-		content = "战列舰的主炮如果手动瞄准，可以提高20%的伤害呢！"
+		content = "If you manually aim your battleships' guns and land a bullseye, damage will be increased by 20%!"
 	},
 	{
 		id = 4,
 		limitation = -1,
-		content = "航母的空中支援可以清除当前屏幕内所有的敌方子弹~"
+		content = "Use your carrier's air support to clear the screen of all enemy shells!"
 	},
 	{
 		id = 5,
 		limitation = -1,
-		content = "装甲类技能只能抵消口径较小的炮弹，无法抵消大口径主炮、鱼雷和舰载机炸弹的攻击"
+		content = "Shield-type skills can only block smaller ammo and cannot block shells from main guns, torpedoes, or aircraft attacks."
 	},
 	{
 		id = 6,
 		limitation = -1,
-		content = "己方战斗机会自动升空拦截敌方飞机，但是有冷却时间限制"
+		content = "Your fighters will automatically intercept enemy aircraft, but are limited by a cooldown timer."
 	},
 	{
 		id = 7,
 		limitation = -1,
-		content = "防空炮会攻击虚线圈范围内所有敌机，造成的伤害由所有敌机分摊"
+		content = "Anti-air guns attack all enemies within range and deal damage shared across the hit enemy aircraft."
 	},
 	{
 		id = 8,
 		limitation = -1,
-		content = "敌方舰艇或飞机突破先锋防线（屏幕左侧）后，将会对主力舰队造成伤害"
+		content = "Enemy ships and aircraft that penetrate your vanguard's defensive line (left side of the screen) will attack and deal damage to your main fleet."
 	},
 	{
 		id = 9,
 		limitation = -1,
-		content = "大部分的战舰都可以装备140mm口径以下的舰炮作为副炮"
+		content = "Most battleships come equipped with a 140mm Secondary Gun."
 	},
 	{
 		id = 10,
 		limitation = -1,
-		content = "大型军舰拥有数量众多的副炮防御，近身投雷时一定需要注意"
+		content = "Large ships have more auxiliary defenses. Be careful when launching torpedoes from close range!"
 	},
 	{
 		id = 11,
 		limitation = -1,
-		content = "无法击穿？不妨试试使用鱼雷和轰炸机来对付大型军舰"
+		content = "Can't get through enemy defenses? Try using torpedoes and dive bombers to deal with large ships."
 	},
 	{
 		id = 12,
 		limitation = -1,
-		content = "穿甲弹武器可以对重装甲单位造成更大的伤害"
+		content = "AP weapons can deal large amounts of DMG to heavy ships."
 	},
 	{
 		id = 13,
 		limitation = -1,
-		content = "高爆弹武器有几率导致目标起火"
+		content = "Use high explosive ammo for a chance to set enemy ships on fire."
 	},
 	{
 		id = 14,
 		limitation = -1,
-		content = "同类型技能优先取等级最高的效果，无法叠加"
+		content = "Identical skills don't stack. Higher level skills have priority over lower level skills."
 	},
 	{
 		id = 15,
 		limitation = -1,
-		content = "起火状态下再次遭到高爆弹攻击将有可能继续延长起火的时间，导致更大的伤害"
+		content = "Fire another round of high explosive ammo after setting a target on fire to keep it burning for more damage!"
 	},
 	{
 		id = 16,
 		limitation = -1,
-		content = "战前准备时，依然可以重新选择旗舰噢"
+		content = "Did you know that you can change your flagship while preparing for battle?"
 	},
 	{
 		id = 17,
 		limitation = -1,
-		content = "单纵阵利于输出，复纵阵利于闪避，而轮型阵对于应对舰载机有奇效"
+		content = "Single line increases damage, reduces evasion. Double line increases evasion, reduces damage. Circular is balanced and improves Anti-Air. "
 	},
 	{
 		id = 18,
 		limitation = -1,
-		content = "可在设置-通知-其他设置中，修改游戏内是否显示自定角色名称"
+		content = "You choose whether or not to display custom ship names in 'Settings - Notifications - Other'."
 	},
 	{
 		id = 19,
 		limitation = -1,
-		content = "自律战斗在通关1-3后开放"
+		content = "Auto battle unlocks once you have cleared stage 1-3."
 	},
 	{
 		id = 20,
 		limitation = -1,
-		content = "演习中获得的功勋可以在功勋商店中兑换奖励"
+		content = "Merit you earn from exercises may be exchanged for various rewards in the Merit Shop."
 	},
 	{
 		id = 21,
 		limitation = -1,
-		content = "技能分为攻击（红色）、防御（蓝色）、支援（黄色）三种"
+		content = "There are three types of skills: Offensive (red), Defensive (blue), and Support (yellow)."
 	},
 	{
 		id = 22,
 		limitation = -1,
-		content = "后宅的舒适度由所拥有的家具决定，与家具的摆放无关"
+		content = "The comfort level in the dorm is determined by the furniture and decorations you have collected. "
 	},
 	{
 		id = 23,
 		limitation = -1,
-		content = "运输舰会很快脱离战场，集中火力优先消灭吧！"
+		content = "Cargo ships only appear on the battlefield for a short amount of time. Make sure not to miss them!"
+	},
+	{
+		id = 24,
+		limitation = -1,
+		content = "Your ships will only earn 50% EXP if you send them to battle while their moods are low."
 	},
 	all = {
 		1,
@@ -138,6 +143,7 @@ pg.server_language = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24
 	}
 }

@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgm = "holo-inochi-inst",
 			dir = 1,
-			say = "「真的好吗？」「已经来不及了哦」「前方可是地狱」一路上的这些牌子……",
+			say = "\"Are you sure about this?\" \"I don't think you're going to make it.\" \"Hell lies just ahead, all right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些牌子究竟是什么意思…？",
+			say = "What's up with these signs...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家一起来的话，果然氛围上完全不一样了呢~",
+			say = "It's a totally different atmosphere with everyone together~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			actor = 10500040,
 			dir = 1,
-			say = "哎？！不对…祭的三块牌子应该是「真的好吗？」「还来得及」「没有下次了哦」啊",
+			say = "Wait a sec... the signs I made should have said \"You still can make it!\" and \"There's always next time!\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			actor = 10500010,
 			dir = 1,
-			say = "难道说……",
+			say = "Does that mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
-			say = "夏色祭，hololive中，你最喜欢的女孩子是谁？",
+			say = "Natsuiro Matsuri, answer me! Among the Hololive girls, who do you love the most?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁在那边？！",
+			say = "Who is it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "那是……祭的镜像？！",
+			say = "Is that... a Matsuri imposter?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +136,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "镜像？那作为本体的你，来回答我刚才的问题啊。在hololive中，你最喜欢的女孩子是谁？",
+			actorName = "Ma Tsu Ri",
+			say = "Imposter? If you're the real deal, then you should be able to answer this question. Now, answer me! Among the Hololive girls, who do you love the most?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "唔………………………",
+			say = "Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +169,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "看来回答不出来呢~",
+			actorName = "Ma Tsu Ri",
+			say = "You can't answer, can you? Matsuri, you know what that means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，想要尽快解决战斗回到大家的身边，而不是在这里回答问题，这就是祭的答案！",
+			say = "Well, if you suddenly ask me something like that... my answer is this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,11 +198,11 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actorName = "夏 色 祭",
+			actorName = "Ma Tsu Ri",
 			actor = 10500040,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "什么？！",
+			say = "Gyahh?!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一炮漂亮！",
+			say = "Woah, she pulled out her rigging and started firing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500040,
 			dir = 1,
-			actorName = "夏 色 祭",
-			say = "居然没有被这个问题干扰，怎么可能……",
+			actorName = "Ma Tsu Ri",
+			say = "I was... deceived...? Impossible!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是“我全都喜欢”，还是“我选不出来”…区区语言，怎么有陪在对方的身边有说服力！",
+			say = "I could have said \"I love them all,\" or \"I can't decide,\" but... actions speak louder than words!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "祭已经不想思考为什么要在这里给镜像的名字加空格了…",
+			say = "I'll solve the mystery of the Mirror Sea, defeat you and the other imposters, and take everyone home to Hololive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打败造成这次事故的罪魁祸首，然后回到hololive的大家身边！阻拦祭的，都是敌人！",
+			say = "If you plan to get in my way, then Natsuiro Matsuri will dance with you - with everything she has!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "内容姑且不论，好像说了很帅气的话啊…",
+			say = "Woah, I don't know what just happened, but she started pulling out inspirational one-liners?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…全员注意，准备战斗！",
+			say = "Everyone, prepare for battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

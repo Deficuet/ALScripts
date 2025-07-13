@@ -11,7 +11,7 @@ return {
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "消失吧——！",
+			say = "Take THIS, you dirty impostor!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，能用这种风格战斗，你比看起来更豪放嘛~",
+			say = "Whoa, Balty! I never knew you could be so zealous when you fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "抱歉，看到这种用伙伴的样子作恶的家伙，我就没办法控制心中的怒火了。",
+			say = "Sorry. My blood boils when I see these bastards masquerade as my friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全理解！",
+			say = "I totally feel you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰大姐头还是一如既往的潇洒啊~",
+			say = "Cleve, you're as cool as ever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蒙彼利埃也很帅气哦！",
+			say = "Montpelier, you're also super cool!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里，我和大姐头比还差得远呢。",
+			say = "Me? But compared to her, I'm just a...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，不过伯明翰好像和你们的战斗风格不同，要…更谨慎一些？",
+			say = "Hey, that reminds me - doesn't Birmingham have a different fighting style compared to you two? It was more... how do you put it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那孩子…稍微有些自己的个性呢…",
+			say = "She does things her own way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是什么大问题，不过偶尔会执着于一些奇妙的地方。",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，我有很多姐姐，也有很多妹妹，她们都很有个性。",
+			say = "There's a lot of variety within the Fletcher class as well. Everyone has their own style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然偶尔会有些小矛盾，不过我还是最喜欢她们了~可不能因为小事影响到姐妹关系哦！",
+			say = "Of course, we often bump heads, but true sisters can't let those things get in the way~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！嘿嘿，姐妹间就是要相互包容和睦相处才是~",
+			say = "Well said, Ausburne! What matters most is that everyone gets along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，我们即将进入中心海域，按照预定计划，由驱逐舰护卫补给舰在此待命。",
+			say = "Indeed. We're about to break through into the objective area, so let's take a moment to rest and resupply first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其余诸舰完成补给后，继续向着前方的风暴进发！",
+			say = "Destroyers, stay behind and be on alert. Everyone else will keep advancing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

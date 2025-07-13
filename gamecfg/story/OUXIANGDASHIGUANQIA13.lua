@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Appeal",
-			say = "演出海域·中央舞台",
+			say = "Port - Concert Sea Area Center Stage",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "装备了μ兵装的亚美一行在舞台上是不会输给任何人的！",
+			say = "With the power of the Muse System, there's not a soul out there that can put on a better show than Ami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "尤其是不会输给冒牌货们的♪",
+			say = "Yeah! We're not gonna lose to anyone, let alone some dumb clone~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧，大家，让我们在这个世界也闪耀光辉吧！",
+			say = "Now, let's light up this world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然！不只是这个世界，无论在哪个舞台上都要闪耀光辉才对！",
+			say = "And not just this world, let's illuminate the universe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "后台",
+			say = "Offstage",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -138,7 +138,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:91}、各位，大事不好了喵！",
+			say = "Akagi, everyone... Big trouble, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			actor = 307100,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…什么情况？！",
+			say = "What... is the meaning of this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糟糕了喵！能量越来越强了喵！",
+			say = "It's bad news, nya! The energy signature is spiking through the roof, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，冷静一下，先说清楚发生了什么事情，以及该做什么。",
+			say = "Calm down, Akashi. Tell us what exactly is going on, and what we need to do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:98}也不是很清楚喵…",
+			say = "I'm not so sure myself, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "演唱会开始后，本来就异常的能量反应变得越来越强喵。",
+			say = "Ever since the concert started, the energy signature has been increasing steadily, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汇报，根据加斯科涅的监视，判断能源的发生源是“舞台上”。",
+			say = "Monitor module output: energy reading is coming from atop the stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 201216,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "连加斯科涅都这么说…那，如果一直这样下去会怎么样？",
+			say = "Gascogne, you too? ...So, what's going to happen now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果能量暴走的话……先不提原本设置在这里的机器…",
+			say = "If the energy overloads, it's going to spill over to all the machinery set up here, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…不止是舞台，整个港区都会灰飞烟灭的喵！",
+			say = "And if that happens... not just the stage, but the entire port's going to get blown to smithereens, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 403054,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那，那要马上联络她们终止演唱会才行…！",
+			say = "So, that means we need to stop the concert immediately...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 312010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算刚刚中场休息的时候，能量也在上涨，就算现在停下来也阻止不了爆炸了喵！",
+			say = "At the pace it's increasing, we'd be too late even if we stopped the concert right now, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 905030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提案，有能减轻能量暴走风险的方法。",
+			say = "Proposing a manner to reduce the risk of energy overload:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——装备μ兵装的全部舰船参加演唱会，用其产生的最大功率抑制能量暴走。",
+			say = "—All ships equipped with the Muse System are to join the concert and counteract the energy overflow by operating the gear at maximum output.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "意思就是说，用全力以赴的演出“正面压制”吗…",
+			say = "In other words... You want to use the energy from the Muse System to block the incoming overflow?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 103250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是单纯明快的作战呢。幸好之前为了能一起演出而做了彩排呢。",
+			say = "A simple and straightforward solution. I'm glad we rehearsed together in case of contingencies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们需要做什么？",
+			say = "What should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照原来的计划就好。多亏有你们在，演唱会的气氛才能更加热烈哦。",
+			say = "Follow the original plan. Thanks to you girls, this concert's just about to get a lot more interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊…绝不能辜负了大家的努力！",
+			say = "I guess so... See, that just goes to show that hard work is never wasted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来是要和舰船的大家一起登上舞台吗？",
+			say = "So, we're all going to get on stage together for the next part of the concert?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			actor = 101176,
 			dir = 1,
-			say = "嗯…不然的话，大家都会爆炸的。",
+			say = "Mm... Otherwise, we're all going to go kaboom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			actor = 10700060,
 			dir = 1,
-			say = "爆炸……？",
+			say = "Kaboom? Whaddya mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 2,
 			actor = 10700070,
 			dir = 1,
-			say = "是说爆炸性的特别演出？",
+			say = "Isn't that some kind of special effect?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "很遗憾并不是…事情是这样的……",
+			say = "Actually, not quite... So, um, this is the situation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			actor = 10700010,
 			dir = 1,
 			hideOther = true,
-			actorName = "春香・千早",
+			actorName = "Haruka & Chihaya",
 			say = "………………………………",
 			subActors = {
 				{
@@ -627,7 +627,7 @@ return {
 			actor = 10700050,
 			dir = 1,
 			hideOther = true,
-			actorName = "律子・梓",
+			actorName = "Ritsuko & Azusa",
 			say = "………………………………",
 			subActors = {
 				{
@@ -654,7 +654,7 @@ return {
 			actor = 10700060,
 			dir = 1,
 			hideOther = true,
-			actorName = "亚美・真美",
+			actorName = "Ami & Mami",
 			say = "………………………………",
 			subActors = {
 				{
@@ -680,7 +680,7 @@ return {
 			side = 2,
 			actor = 301057,
 			dir = 1,
-			say = "…我们并不想牵连大家。只是…",
+			say = "...We did not mean to get you involved in all of this. Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			side = 2,
 			actor = 201216,
 			dir = 1,
-			say = "都怪我们带大家来到这里…对不起…",
+			say = "I'm so sorry... This is all because we decided to bring you here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有必要道歉哦。",
+			say = "What are you saying? You have nothing to apologize for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伊织小姐……？",
+			say = "Miss Iori...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们是在知道这些风险的前提下，让你们准备了“μ兵装”，才来到这里的。",
+			say = "We had the Muse rigging made for us, and we didn't end up here by mistake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，伊织酱说的对。",
+			say = "That's right. We chose to be here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都到这一步了，只能一起加油努力到最后了不是吗？",
+			say = "We've already been through so much together, so we might as well see things through, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且要是成功了，不仅可以解除这次危机，我们也能回到原来的世界，皆大欢喜！",
+			say = "If we succeed, we can save this world from destruction, then truly go back home as heroes! Everyone's happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是就是！真美们的字典里可没有失败这个词—！",
+			say = "Yeah, yeah! I'll say it again, we aren't losing to some crappy clones!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我们的歌能帮上大家的忙，我很愿意歌唱下去。",
+			say = "If our song will make a difference, we'll sing our hearts out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是这个道理！大家齐心构建出的舞台，我可不允许它就这么被破坏了！",
+			say = "Exactly. Plus, there are people here looking forward to our performance, so I won't let this place be destroyed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位……",
+			say = "Girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，大家一起登上舞台吧！",
+			say = "That's why... we're going to put on the best show ever, together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了在这个世界最后的舞台上，大家能闪耀到最后一刻！",
+			say = "This is the last performance we're putting on in this world, so shine like you've never shone before!",
 			effects = {
 				{
 					active = true,

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "喧嚣的会场中，佩萨格诺正一个人向着北方联合馆的方向前进着。",
+			say = "A pink-haired girl sat in a corner of the Northern Parliament's exhibition hall, looking intently through her large telescope.",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "她时而用望远镜进行观察，时而在笔记本上记录着些什么。",
+			say = "She kept careful tabs on everything going on in the venue, occasionally jotting things down onto the notepad in her hand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,8 +63,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "会场地图展开，事件记录开始……",
+			actorName = "Emanuele Pessagno",
+			say = "Visibility is fine. Observation range is good. Nothing out of the ordinary spotted...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,8 +80,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "北方联合馆，气势恢宏，使用的建材雪白且十分坚固……也许能抗住陨石撞击呢。",
+			actorName = "Emanuele Pessagno",
+			say = "The Northern Parliament's pavilion looks like it's primarily made out of white marble... Very sturdy looking. Might even be able to withstand a meteorite strike.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩萨格诺在地图上北方馆的位置画了一个十分可爱的砖头，也许是在表示坚固程度。",
+			say = "Emanuele drew a cute-looking square next to the pavilion's spot on the map, perhaps to represent how sturdy it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			side = 2,
-			say = "当再次拿起望远镜时，佩萨格诺发现了不远处边招手边接近的二人组。",
+			say = "As soon as she put her eyes to the lens again, she noticed a couple of her friends waving at her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actorName = "文琴佐·焦贝蒂",
+			actorName = "Vincenzo Gioberti",
 			nameColor = "#A9F548FF",
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			side = 1,
-			say = "单独行动的佩萨格诺发现~！",
+			say = "Ema~! Are you here by yourself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,8 +145,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "上午好，佩萨格诺小姐！",
+			actorName = "Stremitelny",
+			say = "Good morning, Miss Pessagno!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,8 +162,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "文琴佐跟神速的组合……有一段时间没见了。",
+			actorName = "Emanuele Pessagno",
+			say = "Oh, it's GB and Stremitelny. Good morning, you two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,8 +179,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "你们也是在会场巡逻么？",
+			actorName = "Emanuele Pessagno",
+			say = "Are the two of you also looking around the venue?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,8 +196,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "文琴佐·焦贝蒂",
-			say = "不不不~我只是来陪神速玩的。",
+			actorName = "Vincenzo Gioberti",
+			say = "Nope. I'm just taking Snezhok around while keeping watch around the expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,8 +213,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "文琴佐·焦贝蒂",
-			say = "毕竟博览会结束之后，神速就要跟北方联合代表团一起回去了嘛~",
+			actorName = "Vincenzo Gioberti",
+			say = "After all, Snezhok here is going straight back to the Northern Parliament after the expo is over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "欸……就要走了么？",
+			actorName = "Emanuele Pessagno",
+			say = "Huh... You can't stay a bit longer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,8 +247,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "哎嘿嘿~祖国正在召唤，我也差不多该到回去的时间了！",
+			actorName = "Stremitelny",
+			say = "I've been away for a while already, and I'm needed back home. So, I have to head back soon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,8 +264,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "不过今天才是博览会开幕的第一天，我们还有大把的时间一起玩呢~",
+			actorName = "Stremitelny",
+			say = "But today's just the first day of the expo, so we'll have plenty of time to play together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,8 +281,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "佩萨格诺，要不要跟我们一起去北方联合馆看一看？",
+			actorName = "Stremitelny",
+			say = "Do you want to take a look around our exhibition hall as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,8 +298,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "听说这次阿芙乐尔她们带来了很多有趣的东西哦！",
+			actorName = "Stremitelny",
+			say = "I heard Avrora and the others brought a whole bunch of neat things!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,8 +315,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "神速",
-			say = "啊~水星纪念发现！大家在这里稍等我一下，我去打个招呼，让她带我们走员工通道进去！",
+			actorName = "Stremitelny",
+			say = "Oh, it's Pamiat'! Hold on for a moment, let me call her over here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,8 +332,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "自顾自的跑掉了……还是那么充满精神。",
+			actorName = "Emanuele Pessagno",
+			say = "That girl is always so full of energy, just like da Recco...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,8 +349,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "文琴佐·焦贝蒂",
-			say = "神速就是这样啦。佩萨格诺好像更喜欢单独行动吧？要不然你先走，我一会跟她解释好了。",
+			actorName = "Vincenzo Gioberti",
+			say = "That's just how she is. Are you still on patrol? Sorry to bother you if you are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,8 +366,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "没关系……这次分别之后下次相见就不知道是什么时候了，需要更加珍惜。",
+			actorName = "Emanuele Pessagno",
+			say = "Don't worry about it, I can afford to slack off a bit. Besides, who knows when the next time I'll be able to see Snezhok is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,8 +383,8 @@ return {
 			bgName = "bg_roma_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "而且我对北方联合馆也有些兴趣……她们常年在极地作战，也许会有什么应对恶劣海况的特殊技术……",
+			actorName = "Emanuele Pessagno",
+			say = "I also can't deny that there are quite a few interesting things here... For example, the Polar observation technology, the response system to poor weather...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "欢迎来到北方文化宫~两位就是佩萨格诺小姐跟文琴佐小姐吧？",
+			say = "Hey, hey! So you two are the girls I've been hearing so much about! Welcome to the Northern Parliament's exhibition hall!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "非常感谢你们这段时间对于神速的照顾。",
+			say = "I hope our little snowball here hasn't been giving you any trouble! Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我是来自北方联合的水星纪念。很不巧，代表团的其他同志们都出门办事了，只留了我在看家~",
+			say = "Oh, I haven't introduced myself yet, have I? I'm Pamiat' Merkuria from the Northern Parliament, but you can just call me Pamiat'!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 701060,
-			say = "来吧来吧，我们一起跟水星纪念进去吧！",
+			say = "Pamiat' will show you the way! Quick, come with us!",
 			painting = {
 				alpha = 0.3,
 				time = 1

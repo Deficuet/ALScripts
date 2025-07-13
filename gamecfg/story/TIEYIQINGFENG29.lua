@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·马利亚纳群岛方向",
+					"Pacific Ocean - Mariana Islands",
 					1
 				},
 				{
-					"东煌东海风暴解析舰队",
+					"East Sea Storm Analysis Fleet",
 					2
 				},
 				{
-					"指挥舰内",
+					"Commander's Vessel",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "东煌舰队三路并进，战线正向着马里亚纳群岛方向缓慢推进着。",
+			say = "Four fleets are displayed on the command system screen – three en route toward the Mariana Islands, and one giant fleet that just recaptured the Marshall Islands.",
 			bgm = "theme-designfleet-vii",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官……当前的推进速度虽然还在计划之内。",
+			say = "Thanks to this, the operation is still on track, despite the slow-down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "不过……我们原本计划的是自主控制推进速度，以等待马绍尔方向作战结束，实行两面夹击的作战计划。",
+			say = "It's good our fleets advanced carefully, since now that we've retaken the Marshall Islands, we luckily have some troops to spare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "可是现在，我们却是被敌人拖在这里的。",
+			say = "The bad news is, moving forward will only get harder from here on out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前进的阻力越来越大，是否需要我和海伦娜去支援？",
+			say = "Do you want me to tell the Royal Navy and Iron Blood to pick up the pace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "敌情尚不明朗，预备队继续待命。",
+			say = "That won't be necessary. Considering our now-advantageous position, I'd like to keep them in reserve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你还在担心那个头戴狐面的人么？",
+			say = "You're worried about that Amagi, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。她在海域各处搅扰起了如此风云，可是真实意图却令人捉摸不透。",
+			say = "I am. After hearing the reports of what she did, plus Nagato's account of what happened, I have good reason to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在局势彻底明朗之前，还是谨慎些好。",
+			say = "We need to keep an eye out for any surprises from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……那个头戴狐面，四处以{namecode:161:天城}之名行事之人，究竟在谋划着什么呢。）",
+			say = "(I wonder what she wants – that being who has some traits from both Akagi and Amagi.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一段时间前的指挥舰——",
+			say = "Sometime earlier...",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "——汝之判断不错，制造那些幻境的并非塞壬，而是一个自称{namecode:161:天城}的伪物。",
+			say = "....As you've surmised, it was not the Sirens who were responsible for the illusory phenomena. It was someone who claimed – and believed – to be Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "其是利用神石的力量诞生的，具现化的执念。身上还附着有「息」的气息。",
+			say = "To me, she is akin to a lingering will given form by the Watatsumi, tainted with corrosion from head to toe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,34 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“噩兆实体”，为何物？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305050,
-			say = "……唔，从汝所提供的资料来看，噩兆实体与「息」确实有一定的相似度。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过……「息」能够具象化形，或许可以理解为一种更高级的噩兆实体？",
+			say = "...Indeed, she shares many similarities with the beings you call corrosion entities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +235,34 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "而那个伪物，似乎是更高级的「息」……其基于神石网络而存在，并可在网络中自由穿梭而行。",
+			say = "One could say she is an offshoot of the corruption that eats away at the world. It would lend sense to us calling it \"the Shadow of Corruption.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "However, what sets the Shadow of Corruption apart is that it took the form of our own mass-produced ships on the battlefield.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305050,
+			say = "Moreover, the Amagi-like entity knew how to and was able to use a Sacred Sakura domain to move to a new location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……注意神木，神木所在之处皆是它的影响范围。",
+			say = "...It's true. The Sacred Sakura domain, the Sirens' teleporters, and the microlayer transference system share some striking similarities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“微层化混合物”，为何物？",
+			say = "Putting that aside, what's important is that this entity is dangerous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……唔，感谢汝提供的资料，待战役结束后吾会仔细阅读的。",
+			say = "You and I both have apprehensions about Akagi. It's for that reason we must stop her as soon as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……不，伪物只是傀儡，目的是拖延时间而已。",
+			say = "Otherwise, she may un-become herself and turn into a monster that ravages not just the Sakura Empire, but the entire world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "隐于幕后的{namecode:91:赤城}才是关键。她有一个危险的计划，只是吾尚未洞悉其全貌……",
+			say = "...What? Don't try to be everywhere at once?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "……汝也在调查重樱本岛的消息？",
+			say = "...So you are keeping an eye on the Sakura Empire, too. I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "如此甚好，吾等保持联络共享情报，一定要尽快查个水落石出。",
+			say = "Then I will take your advice to heart and do what I can. To a reasonable degree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:74:长门}认定此物只是{namecode:91:赤城}的傀儡，在外部搅扰风云是为了给真正的计划拖延时间。）",
+			say = "(I've considered a lot of angles, and none of them quite explain what – or who – this fusion of Amagi and Akagi really is.)",
 			bgm = "theme-designfleet-vii",
 			typewriter = {
 				speed = 0.05,
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:74:长门}为重樱的高层，按理说她对于重樱当前的局势应该是最为了解的……）",
+			say = "(Is she a part of Amagi's soul which the corruption absorbed? Is she a phantom conjured up by the corruption? Is she a puppet controlled by Akagi? Is she Akagi herself, distorted and warped by the corruption? The possibilities are many.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是从各处提交的报告来看，那个头戴狐面之物似乎有着很强的自我意识，行事亦有很强的自主性。）",
+			say = "(Personally, I doubt that she's either simply a puppet or a corrosion entity with identity issues.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在真相水落石出之前，还是不要把她单纯当成拖延时间的傀儡比较好。）",
+			say = "(What we know for sure is that she's extremely dangerous and not to be taken lightly.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（暗流之下，亦有暗流……么。）",
+			say = "(...Thanks for this, Nagato. Be safe out there.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

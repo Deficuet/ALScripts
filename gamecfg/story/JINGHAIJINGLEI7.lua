@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>七　另一条道路</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>7 Divergent Paths</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:91}宅邸",
+			say = "Sakura Islands - Akagi's residence",
 			bgm = "battle-inthememory",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于回来了……真是一次漫长的旅途。",
+			say = "From Compiler's defeat, to what we saw beyond the Singularity... Everything, my decisions included, followed Friedrich's plans to a T.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "外面的风景再好，终归不如在家中舒心。不是么？",
+			say = "As nice as it was to see the Commander, watching everyone dance to that woman's little tune... was just uncanny.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_15",
 			hidePaintObj = true,
-			say = "阿瓦隆之门内侧·？？？",
+			say = "Singularity - Inside the Mirror Sea",
 			effects = {
 				{
 					active = true,
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实现我的计划需要的不是某一个人，而是所有人都在正确的位置上做正确的事。",
+			say = "A perfect symphony requires each and every individual to play the right instrument correctly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "因此，我必须要向着更广阔的可能性进发。",
+			say = "To accomplish that, I must expand my horizons and seek out greater fidelity in my sounds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "{namecode:91}，你要跟我一起来么？",
+			say = "So I ask you, Akagi – will you be coming with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……我又不是铁血的人，对你的计划也没有兴趣。",
+			say = "Sorry, but I'm no longer interested in your plans. You'll have to find yourself a new puppet. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你是觉得在这里无事可做了，我在这里要做的事还如山一样多呢。",
+			say = "Your rondo may have reached its denouement, but I still have many, many things to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "恕不奉陪。",
+			say = "This is farewell, Friedrich der Große.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "沉迷于自己的执念置大局于不顾……呵，果然还只是个小姑娘而已。",
+			say = "Very well. I have already seen our paths diverge.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么就再见了。",
+			say = "You seek to carve out a new future for those dear to you. You seek to regain that feeling of belonging that you've lost. You seek the warm embrace of the one you desire––",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "也许在未来的某一天，我们会在某处再次相遇吧。",
+			say = "Ah, what a discordant, contradiction-filled opus you are. Yet, your song may still please the audience.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "在那之前，好好活下去哦。",
+			say = "We shall meet again in another place. Until then, may you be in good health, Akagi. Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这种事还用你多嘴…………真是的，临走了还这么让人火大。",
+			say = "The Watatsumi is back in our hands, we gained valuable intel on Iron Blood, and we learned a lot about the Commander.",
 			effects = {
 				{
 					active = false,
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "你的篇章已经告一段落了，{namecode:440}，乖乖退场吧。",
+			say = "While we never reached the center of the NA Ocean, we also did not come home empty-handed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来要上演的，将会是我{namecode:91}的篇章……",
+			say = "You've made your move, Friedrich. Now it's my turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_map_tiancheng",
 			hidePaintObj = true,
-			say = "就在{namecode:91}陷入沉思之时，一只蓝色的式神从窗外飞到了桌上。",
+			say = "A shikigami taking the form of a bird shrouded in blue flames entered the room through the window, landing on the table in front of Akagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "{namecode:92}的报告啊……听听看吧。",
+			say = "A recorded message from Kaga? Interesting...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐大人，我此行没能见到{namecode:81}。",
+			say = "Sister, I wasn't able to meet with Tosa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "十分抱歉，是我办事不力。",
+			say = "I'm sorry... The fault lies entirely with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据{namecode:13}与{namecode:14}所说，{namecode:81}目前正忙于烟花大会的准备工作。",
+			say = "I talked to Inazuma and Ikazuchi. They said Musashi would know where she is, and I likely have no other choice but to ask her directly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "另外，{namecode:33}似乎先我一步拜访过{namecode:81}的宅邸，且我没有从她那里获得任何「话语」。",
+			say = "One more thing. I encountered Mutsuki on my way to Tosa's residence. She was apparently also there to speak to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以上。",
+			say = "I'm led to believe someone may visit your residence soon, so bear that in mind. End of report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "没见到{namecode:81}倒是不出所料……在那之后就连我也难得见到她一次。",
+			say = "I see... It seems I've sent you on a difficult mission, Kaga.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "不过……{namecode:81}，闹脾气总要有个结束的时候吧。",
+			say = "I wonder... What would've become of you and me, had the Commander not appeared at the right time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "我终究不是{namecode:161}姐，也不能代替她……不要逼我……",
+			say = "...Amagi, I'm sorry that I cannot be like you. This... This is just who I am...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "…………………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "至于{namecode:33}……亲朋好友齐聚一堂互道寒暖的和睦之月。",
+			say = "Mutsuki... An old Sakura word that signifies a time of closeness between family.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "呵，想要表达的意思不是尽在不言中么……",
+			say = "Ah, so that's what you wanted to tell me. That's why you sent her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91}大人，打扰了。",
+			say = "May I have a word, Akagi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "这回又是什么事？！",
+			say = "Gah! Jintsuu? What do you want?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉……{namecode:84}大人的特使已经到了。",
+			say = "Pardon me for interrupting you while you are busy. There's a girl at the door with a message from Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是你现在心情不好的话，我可以让她改日再来。",
+			say = "Do I send her away, or shall I relay the message to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "啊，等等。{namecode:84}的特使啊……让她进来吧。",
+			say = "Let her in. It's an affront not to personally receive a message from Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "呵呵呵，重樱总算还有几个头脑清醒的人。",
+			say = "Ah, Musashi... I knew you'd do something like this sooner or later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果{namecode:84}那边进展顺利的话，我这边也可以将计划推进到下一阶段了。",
+			say = "Since you're sticking your neck out, it's time for me to put my own plan in motion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵呵呵……让我们的好戏上演吧————",
+			say = "Yes. This is the start of a new play. Heehee, heeheehee...",
 			painting = {
 				alpha = 0.3,
 				time = 1

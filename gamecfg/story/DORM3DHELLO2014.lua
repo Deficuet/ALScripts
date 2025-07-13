@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不知道从什么时候开始……只要陪在{dorm3d}的身边就会感觉无比喜悦……如果可以的话，希望我们能有更多时间在一起呢。",
+			say = "I don't know when it got like this... but just being around you makes me so happy. I wish we could have even more time together.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello14",
 			typewriter = {
 				speed = 0.05,

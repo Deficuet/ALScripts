@@ -78,6 +78,9 @@ function var_0_0.Show(arg_3_0, arg_3_1)
 
 		local var_3_5 = arg_3_1:GetPlayer()
 		local var_3_6 = getProxy(PlayerProxy):getData()
+
+		print(var_3_3, var_3_4)
+
 		local var_3_7 = {
 			id = 4,
 			timestamp = pg.TimeMgr.GetInstance():GetServerTime(),

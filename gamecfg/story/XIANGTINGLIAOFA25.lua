@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "story-6",
-			say = "百慕大三角·第四舰队交战区",
+			say = "Bermuda Triangle - Baltimore Fleet Combat Zone",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟吼~~没有敌人撑过我们正义的炮火~！",
+			say = "No evil can withstand the gunfire of justice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也这么认为吧，正义的伙伴！",
+			say = "Isn't that right, my partner in justice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次的编队，还真是奇妙啊…",
+			say = "Ah... right, justice always prevails!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前我的伯明翰妹妹受你们照顾了，十分感谢！",
+			say = "Heard you're the one who saved Birmingham in that battle earlier! You're a real champ, Baltimore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伯明翰战斗的十分英勇，直面净化者也没有丝毫怯懦，我们才是受她照顾了。",
+			say = "She was the one who stood against Purifier without hesitation. If anything, she is the one who saved all of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸亏你们及时赶到，受伤的结果才会止步于严重受损…",
+			say = "You have my thanks as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，一定要让塞壬付出代价！",
+			say = "... The Sirens aren't getting away with what they've done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奥斯本，你的妹妹们还好么？",
+			say = "Ausburne, Little Beavers, how are you all holding out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还好，她们都没大事~",
+			say = "Back in NY City, we made use of our speed to support from the rear and disrupt the Sirens, so we haven't been in a real fight yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当时我们主要负责扰乱塞壬的部署，受到的都是擦伤，这点伤害可是阻止不了正义的小海狸分队的！",
+			say = "We took some light scratches, but nothing that'll slow us down! We'll fight tooth and nail in the name of justice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，为什么司令部要让大家分开行动呢？",
+			say = "... But I'm wondering, why did headquarters split us up into several fleets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次行动的伙伴这么少，大家组成大舰队一路消灭敌人不是更好吗？",
+			say = "Wouldn't it better to get everyone together and smash the enemy in one go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…这次作战本来就是在紧急情况下制定的。",
+			say = "Our rescue effort response in NY City delayed our regrouping plan, and it took a lot of time to properly analyze the abnormal weather patterns in the Bermuda Triangle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "百慕大三角当前天气恶劣，海况复杂",
+			say = "Furthermore, we don't know exactly where the singularity is. In order to locate it given our limited intel and personnel, the only viable approach is to divide and conquer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果要在没有足够情报支援的情况下准确找出塞壬的奇异点，我们只能各自分配搜索区域",
+			say = "Remember, the main goal of this operation is to prevent the singularity's formation, rather than to eliminate the Sirens. Then we can figure out which fleet should make the final move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "司令部做出这种部署也是迫于无奈吧。",
+			say = "Have to say, headquarters really thought this through...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，只要有一名勇者能够击败魔王就行了的意思吧！",
+			say = "So that's how it is... Like a true hero of justice, you're so knowledgeable about everything~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。",
+			say = "Come to think of it, Baltimore, for a hero of justice, you don't seem to talk about it a whole lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊。不过呢，正义的勇者虽然只要有一人就可以，但是同伴可是越多越好啊~",
+			say = "Ah, that's because for me, justice isn't something you preach. Justice is simply the pursuit of doing what is right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是我还是克利夫兰，还有蒙彼利埃也好，虽然大家平时不一定会把正义挂在嘴边，但是大家都和你一样是正义的伙伴哦。",
+			say = "In that regard, you, Cleveland, and I all believe in the same kind of justice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………我也是？",
+			say = "... I do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！那么正义的伙伴们呀，让我们赶紧把敌人都消灭了吧！",
+			say = "That's the spirit! Come, my partners of justice, and we'll take down the evil Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正义必胜~！！",
+			say = "Justice always prevails!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

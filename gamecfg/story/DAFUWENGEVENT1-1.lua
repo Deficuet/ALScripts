@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在补给商店给{namecode:20}帮忙，获得了奖励【物资*100】"
+			say = "You helped Shiranui out at her store! Collect 100 Coins!"
 		}
 	}
 }

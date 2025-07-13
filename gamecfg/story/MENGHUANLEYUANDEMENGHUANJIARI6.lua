@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "theme-amagi-cv",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "晨光熹微，我伸了个懒腰，揉揉惺忪的睡眼。",
+			say = "I wake up bathed in gentle morning sunlight. After a big stretch, I lightly rub my sleepy eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,19 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在游乐园中的所经历的一切仍然占据着脑海，每一处细节都清晰到让人有些恍惚。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（昨晚的梦……还真是让人回味啊。）",
+			say = "Memories of Dream Park are still fresh in my mind. I can still clearly remember specific details of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +60,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过，当务之急是让{namecode:98:明石}先停止手头的工作。）",
+			say = "(I have so many good memories from that dream.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(But now isn't the time to reminisce. I need to go tell Akashi to stop what she's doing.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "想到这里，便接通了{namecode:98:明石}的通讯。",
+			say = "I waste no time and call the cat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是指挥官喵，发生什么事了喵？",
+			say = "Good morning, nya~ Anything wrong, Commander, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于港区游乐园的扩建方案，我已经有了新的想法。",
+			say = "It's about the amusement park remodel. I came up with a new idea I'd like to move forward with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98:明石}，你不用做那个我提议的融合式的DEMO了，好好休息一下吧。",
+			say = "You don't need to make those demos we were discussing anymore. Get some rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵？新方案？",
+			say = "Nya? A new idea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白了喵，那{namecode:98:明石}可以放心好好睡一觉了喵……",
+			say = "Okay, nya. Then I'm gonna take a little cat nap, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦你了。",
+			say = "Sorry for canceling all of a sudden. I appreciate your work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之后有什么我能提供给你的，尽管开口。",
+			say = "If you need a favor, let me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼~有指挥官这句话就够了喵~！",
+			say = "Nyahaha~ That's all I needed to hear, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "挂断通讯后，便拿起桌上空白的纸张，试图将昨夜梦中的游乐园重现于纸上。",
+			say = "I hang up, pick up the pen and paper left on my desk, and try to replicate the park I'd dreamed of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在此时，指挥室外传来轻柔的敲门声。",
+			say = "But I'm interrupted by a knock at my office door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "请进。",
+			say = "Come on in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "熟悉的身影推门而入，同时带来温柔的问候。",
+			say = "A familiar friend opens the door and enters with a kind greeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "早安，主上。",
+			say = "Commander, good morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "呵呵……看来您已经决定了呢。",
+			say = "Heehee... I see you've made your decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊，多亏了昨晚的梦境。",
+			say = "Yeah. All thanks to that dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，还有些细节我想和你商讨一下。多少有些担心自己考虑的不够周到。",
+			say = "But I would appreciate some help nailing down a few details. I'm not sure if my idea is complete enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "主上愿意和{namecode:161:天城}商讨，自是{namecode:161:天城}之幸。",
+			say = "You, of all people, asking for my help? Why, I'm honored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "而且，我也为主上叫来了其他的帮手。",
+			say = "Unfortunately, I've already brought in someone more suitable for this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "帮手？",
+			say = "Oh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "设计游乐设施一事，自然也需要些详细的资料，不是么？",
+			say = "Planning facilities and rides will require more detailed documentation than a dream can provide, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不多时，{namecode:91:赤城}和{namecode:92:加贺}便来到了指挥室，两人的手中还各自拿着一沓厚厚的文件。",
+			say = "Not long after, Akagi and Kaga enter with thick bundles of documents in hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是我与{namecode:91:赤城}早上粗略整理的游乐设施相关的资料……应该够用了。",
+			say = "Akagi and I slapped together this documentation today. Surely this should be enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过现在时间还早，指挥官急着用的话，{namecode:91:赤城}可以再处理一遍哦~",
+			say = "It's still early. If you want, I'd be happy to reorganize them again for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这个女人为了指挥官真是……",
+			say = "Akagi, is there anything you wouldn't do for the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就拜托你们了。",
+			say = "Sure. That would be great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵呵……乐意之至哦~",
+			say = "Heeheehee... My pleasure♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一时间，指挥室里只听得到纸张翻动的沙沙声。",
+			say = "My office is filled with the sound of rustling papers for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "长时间盯着文件也是伤眼呢……主上，歇息一下吧？我去为大家备些茶点。",
+			say = "Staring at papers all day is no good for the eyes. Commander, might I suggest a break? I can make tea and sweets for everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Sounds good to me. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，我昨晚……好像做了个奇怪的梦。",
+			say = "By the way, Commander... I had an odd dream last night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦？什么样的梦？",
+			say = "Oh? Tell us more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "起初是个关于游乐园的噩梦，但后来突然变成了美梦。",
+			say = "Well... At first, it was a nightmare about an amusement park. But it turned into a good dream along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然记不太清楚细节，但醒来总感觉很幸福。",
+			say = "I don't remember the details, but when I woke up, I felt oddly happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真巧，我也做了类似的梦。只记得最后是在看烟花……",
+			say = "Heh, what a coincidence. I had a dream like that, too. At the end of it, I think I was watching fireworks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是因为之前指挥官在那里开大会聊游乐园扩建的事情，才会梦到这个？",
+			say = "Might be because the Commander was telling us about that park redesign plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "或许这就是日有所思夜有所梦吧。",
+			say = "I hear people tend to dream about what they thought about during the day, so it's possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在此时，{namecode:161:天城}从门外缓步走来，手中的托盘上盛放着各色点心和一壶茶。",
+			say = "While the three of us chat about dreams, Amagi casually strolls in with a tray holding sweets and a kettle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她将茶点放置在桌上，又不知从何处变出了几个茶盅，一一斟满。",
+			say = "After putting the tray down on the table, she produces teacups out of seemingly nowhere and pours tea for everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "你们刚刚在聊什么呢？",
+			say = "What were we talking discussing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，我们在说昨晚的梦。你有做梦吗？",
+			say = "The dreams we had last night. By the way, did you dream at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "我吗？我也做了个很美的梦呢。",
+			say = "Me? Hmm... Yes, I had a lovely dream.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也和游乐园有关么？",
+			say = "Was yours about a park, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "嗯。不过具体是什么内容记不起来了呢……",
+			say = "Indeed it was. But I've forgotten all about what happened in it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是奇怪……大家都梦到了游乐园……看来之后要找{namecode:182:信浓}问问了。",
+			say = "Strange that all of us dreamed about amusement parks... I'll have to ask Shinano about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "或许只是因为大家都在期待游乐园的扩建吧。",
+			say = "Consider that proof of just how excited we are for the park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是吧。不过那个梦的感觉真的让人很怀念呢……",
+			say = "You may be right. Still, that dream felt so intensely nostalgic...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}微微一笑，将斟满热茶的茶盅递到我手边，随后附在我耳边低语。",
+			say = "Amagi grins slightly and offers me a cup of hot tea. Then, she whispers into my ear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "看来大家都留下了美好的“回忆”呢。",
+			say = "I think everyone left with lovely memories of their time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是啊，多亏了你。",
+			say = "Agreed. All thanks to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "目光交汇，我与{namecode:161:天城}皆是会心一笑。",
+			say = "Our eyes meet. We smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们俩在说什么悄悄话？该不会是在计划什么吧？",
+			say = "Hm? What are you whispering about over there? You're not plotting something, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:92:加贺}带着调侃的嗓音响起。",
+			say = "Kaga sounds just a tad exasperated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没什么，只是{namecode:161:天城}向我提议了一项秘密的游乐项目，还不能公开。",
+			say = "Not at all. Amagi was just proposing a secret attraction. Sorry, but it stays between us... for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "嗯，主上说的没错。",
+			say = "That's right, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307150,
-			say = "是不能公开的秘密呢——",
+			say = "This is one secret that can't be revealed just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

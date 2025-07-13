@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			bgm = "battle-heroines-image",
 			flashN = {
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "“重樱”航空舰队旗舰{namecode:91}号被我击沉了哦·~！",
+			say = "That's the Akagi Pawn down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			actor = 401460,
 			dir = 1,
-			say = "“重樱”水雷舰队旗舰{namecode:39}，确认击沉。",
+			say = "The Jintsuu Pawn has been successfully eliminated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "战场结果确认，“重樱舰队”已被击溃。看来作战进展顺利呢，立刻向下一区域移动么，{namecode:471}？",
+			say = "Good. I've also eliminated the Sakura Pawns in this area. Shall we move to the next location?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "稍等，战斗机又发现了新的重樱机群……",
+			say = "...Wait, there are still more Sakura planes inbound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "居然有漏网之鱼？能定位到漏网航空母舰的位置么。",
+			say = "If we've destroyed all the carrier Pawns, there shouldn't still be any operational aircraft. Did we miss something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在展开搜索…………啊！",
+			say = "That shouldn't be possible... Wait, huh...?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "出什么事了？",
+			say = "What happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "不是被判定击落……战斗机被直接击落了？！新出现的重樱机群装填的是实弹！",
+			say = "That's not one of the Pawns that I set. It's using a live ammunition loader rather than training rounds!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪，怎么会出现这种事……生成标靶的装置发生故障了么？",
+			say = "I don't think any of the settings were wrong. Could the equipment in the Floating Fortress be malfunctioning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也许是升级后的浮岛控制系统发生了某些未被测试出的故障，或者……",
+			say = "Either a malfunction, or... No, that shouldn't be possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:471}！我在频道里听到好大一声叫，发生什么事了？！",
+			say = "Strasser, you okay over there? Somehow, there's more Sakura aircraft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			actor = 401460,
 			dir = 1,
-			say = "你们的情况还好么？",
+			say = "The communication line is open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "出现了突发情况，或许是因为装置故障，海域中出现了装填实弹的棋子与量产型舰队……",
+			say = "For some reason, Pawns and mass-produced fleets are being deployed outside of D13. They're using live ammunition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？！！！！！！这种事有可能发生么？！！",
+			say = "Ehh?! How the heck did that happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "有可能。归根结底，训练用的设施大多是从我们接收到的塞壬设施改造而来的，只要进行正确设置的话完全可以实现。",
+			say = "It shouldn't be possible, but our eyes aren't deceiving us. Not even Bismarck had an absolute understanding of Siren technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "嗯，而且如果你有好好阅读基地资料的话就会知道，我们现在部署在外围海域伪装成塞壬封锁舰队的量产型舰队就是这么制造出来的。",
+			say = "For the time being, these look just like the mass-produced ships being kept around the perimeter as anti-intruder countermeasures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			actor = 403090,
 			dir = 1,
-			say = "居然是这样………………！",
+			say = "I see... So, what's the plan now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "现在变更作战计划，{namecode:454}和{namecode:412}带领护卫舰队立刻返回。{namecode:467}和我负责清理天上的敌机群，并寻找敌方航空母舰的位置。",
+			say = "We'll join up first. For the time being, we have to find this carrier Pawn and take care of it before it can damage the facility.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此刻已经不是单纯的演戏训练了，敌方造成的每一次伤害是货真价实的！大家立刻调整心态，准备战斗！",
+			say = "Don't forget to swap out the training rounds for live ammunition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			actor = 401460,
 			dir = 1,
-			say = "收到，即将带领舰队返航，{namecode:412}通讯结束。",
+			say = "Understood. Ending communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实战么……终于等到实战机会了！小铁，让大家见识一下我们的厉害吧！{namecode:454}通话结束！",
+			say = "Yo, Eisen! We're gonna have a real battle on our hands! You ready for this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

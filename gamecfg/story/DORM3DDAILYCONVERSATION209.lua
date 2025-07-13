@@ -15,14 +15,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，要不要来一起看个电影呢？",
+			say = "{dorm3d}, do you want to watch a movie?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "电影的内容是？",
+					content = "What kind of movie?",
 					flag = 1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "关于深山老林里恐怖怪物……这个是不是听起来还不错？",
+			say = "A movie about a terrifying monster that lives deep in the woods. How's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……忘了问{dorm3d}是不是喜欢这种类型了。",
+			say = "Ah, right... I forgot to ask if you even like horror movies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不如还是由{dorm3d}来挑一部电影吧。",
+			say = "How about you just choose the movie instead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我只要能和你一起看就好，其他的倒是无所谓啦。",
+			say = "I'm happy to watch anything if it's with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

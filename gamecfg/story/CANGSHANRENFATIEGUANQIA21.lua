@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			bgm = "sk-az-battle-boss",
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好痛！那种攻击好卑鄙！",
+			say = "Oww! That was such a cheap attack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说它卑鄙难道它就会放你一马吗？！别再废话了，奋力反击啊！",
+			say = "Stop whining and fight back! It's not gonna go easy on you just 'cause you called it cheap!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "夕烧！你那边能抵挡住吗！？",
+			say = "Yūyaki! Can you keep that thing in check?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			actor = 11000070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "勉勉强强，但撑不了太久！快想个方法干掉它们！",
+			say = "For now, but I can't keep this up forever! Think of something to take it out, dammit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，这个机体怎么回事啊，为什么相同的攻击手段能打出截然不同的效果……真难缠！",
+			say = "The hell is this? Its attack pattern's the same, but different stuff happens every time! What're we supposed to do?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			actor = 402080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它在利用我们的固有印象打乱战斗的节奏，让我们难以把握虚实……感觉就像忍者的战斗方式一样。",
+			say = "It's purposely throwing us off our rhythm so we can't predict its moves. It's... a bit like how a ninja attacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不但名字叫战忍机铠武装，连战斗方式也在向忍者学习……可是武器威力可是测试者级别的啊！",
+			say = "She called it \"battle ninja armor,\" yeah? It's got the schmoves of a ninja and the strength of Tester herself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真麻烦啊……必须得想出应对办法才行！",
+			say = "We've gotta think of something, quick, or we are so boned!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "噢~如果是这样的话，那我们也用新学到的忍术来应对就好了吧！接招，手榴弹分身术！",
+			say = "If it fights like a ninja, I shall hit tit for tat with the new techniques I've learned! High-explosive clone shell, strike my foe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 102260,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那里诺就展示一下紫小姐她们协助开发的新装备吧！无限十字钉散炮！开火！",
+			say = "Then I'll whip out the new gear I made with the shinobis' help – the infinite caltrop gun! Fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我确实是教过她们分身手里剑，但没想到会被改造成这样……莫非她们挺有这方面的天分？",
+			say = "Wow. I taught her the clone shuriken technique, and she's using it in a whole new way... Reno might just be a natural genius.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个十字钉散射器好像很方便呢！能不能再做小一点，让我们也能使用呢？",
+			say = "That caltrop launcher could be extremely useful! If you scaled it down a little, maybe we could use them as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的——！现在还在战斗中啊！",
+			say = "Focus, people! Don't get distracted by her gadgets!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=45>四 世道冷暖，尽在小食酒吧-爱！</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 4 - Sometimes You Wanna Go Where Every AI Knows Your Name!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·小食酒吧-爱(食堂)",
+			say = "Port - AI's Place (Canteen)",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难得来到这个世界，也想听听这里大家的烦恼呢。所以久违的《小食酒吧-爱》，开张啦～",
+			say = "I think it's time we get a feel for the troubles that plague the people of this world. So, after a long hiatus, I'm reopening my bar!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "（锵啦锵啦）",
+			say = "*woosh woosh squeak squeak*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀，呀吼～！超绝可爱美少女本森酱来光临啦～！",
+			say = "Ahoy-hoy! It's everyone's favorite, the unstoppable, the gorgeous, the adorable BENSON!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,14 +96,13 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
 			actor = 900179,
-			actorName = "爱妈妈",
-			say = "欢迎欢迎，啊，拉菲酱也来捧场了吗，谢谢～",
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "C'mon in. And if it ain't Laffey too. Thanks for comin'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +118,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说这里可以倾诉烦恼，就带着本森姐来了",
+			say = "I heard you were hearing out girls' problems so I brought my sister Benson along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,8 +134,8 @@ return {
 			bgName = "star_level_bg_104",
 			side = 2,
 			dir = 1,
-			actorName = "爱妈妈",
-			say = "哦？有什么烦恼吗？说来听听～？",
+			actorName = "Mama AI",
+			say = "Oh? What sort of problems? Lay 'em on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,323 +151,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇奇奇奇怪了？本、本本本本森怎么可能会有烦恼呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 3
-				}
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不要勉强了，说吧（拍肩）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "（啊，这是装出来的性格吧。原来如此，这里就再再进一步——）",
-			paintingFadeOut = {
-				time = 0.5,
-				side = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "我认识和本森酱很像的孩子哦，跟我聊聊吧？我想应该能帮到你的。啊，放松点叫我“爱妈妈”就行了哦",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "和本森姐很像的……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "没错哦。那孩子，其实是个天才，却硬要装成废柴的样子，也是遇到了很多麻烦呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哦哦——实、实际上是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "想要和指挥官搞好关系，也尝试了很多努力，不过总是在做无用功……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "仔细想想，我平常的行为举止是不是就很“令人羞耻”呢…（失落）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "啊～“别人是怎么看自己的”确实是件难事呢～",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900179,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
-			side = 0,
-			dir = 1,
-			actorName = "爱妈妈",
-			say = "每个人都会有自己想成为的模样，或者说想要让人看到的模样呢。不过，如果就这样原原本本的表现出来，基本上是不会那么容易让人理解的呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "想要表达心意，好难……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "不过，本森酱是想着指挥官而努力着的不是吗？只要这份心意是真的，总会传达到指挥官那里的不是吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果是这样的话，我究竟该处理现在这心情…！？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900179,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
-			side = 0,
-			dir = 1,
-			actorName = "爱妈妈",
-			say = "指挥官肯定不会觉得讨厌的，不如就照着这样继续下去，变成比现在更“超绝可爱”的美少女不是更好吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "诶？比现在更加可爱？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 0,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "没错，“可爱就是正义”！可爱是世界共同的！所以呢，本森酱！加油变得更加可爱，让指挥官吓一跳吧，如何？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 1,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“可爱就是正义”……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "………",
+			say = "Ahahaha! Wha? Me? Benson? Problems? Th- that's ridiculous. *trembling*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +167,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本森姐……？",
+			say = "Just come out with it already. *bonk*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,32 +175,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊哈☆我明白了！爱妈妈！拉菲！谢谢你们☆",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.2,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -526,8 +183,25 @@ return {
 			bgName = "star_level_bg_104",
 			side = 2,
 			dir = 1,
-			actorName = "爱妈妈",
-			say = "没关系，不用客气。看来已经想开了呢，本森酱，加油吧～",
+			actorName = "Mama AI",
+			say = "(Ah, I'm playing this character, and this is the part where I jump in to help.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "I know a girl a lot like Benson here. You wanna talk about it? No pressure. In fact, feel free to call me Mama AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +217,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱……爱妈妈，谢谢",
+			say = "A girl like Benson?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,31 +225,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			actor = 101160,
-			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "既然想清楚了，就马上开始修炼吧～♡两位拜拜啦～！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 1,
-					x = 2250
-				}
 			}
 		},
 		{
@@ -584,27 +233,8 @@ return {
 			bgName = "star_level_bg_104",
 			side = 2,
 			dir = 1,
-			actorName = "爱妈妈",
-			say = "再见～啊，那边有台阶，要小心哦～",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_104",
-			say = "（咚！）",
-			dialogShake = {
-				speed = 0.09,
-				x = 12.75,
-				number = 2
-			},
+			actorName = "Mama AI",
+			say = "Sure. This girl, she's a real genius, but people still call her garbage just because she's always screwin' things up in a big way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +250,73 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好疼！",
+			say = "Oooh... I act- I actually thought of something to talk about...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "See, I'm always trying to get closer to the Commander, but it feels like I'm just spinning my wheels here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I thought about it for a while and I'm starting to think maybe my whole style is a little bit.... \"cringey?\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "Hmm, it is pretty tough to step outside yourself and see what others see.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "There's no way to know if you're lettin' out the same you that you wanna be, or that you wanna show off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +332,24 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本森姐……？",
+			say = "Communicating is........ hard..........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "But if Benson is really all about this Commander, don't you think your feelings are gonna come across in the end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +365,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系！这点小事完全影响不到超级可爱的本森酱的！",
+			say = "Then what the hell am I supposed to do about them...!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,14 +376,29 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "I'm thinkin' your Commander's gonna be plenty happy about your feelings, so why not carry on as \"the unstoppable, the gorgeous, the adorable\" BENSON?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900179,
-			actorName = "爱妈妈",
-			say = "真有精神啊…这样我也算是没白说这些话了呢",
+			say = "What do you mean \"carry on!?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,13 +409,238 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "Haven't you heard? \"CUTE IS JUSTICE!\" Kawaii is the universal language, Benson, so keep bein' cuter and cuter and you'll impress the Commander. Right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Cute is Justice....!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "...........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Benson........?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Right! ☆ Benson's got it down! Mama AI, Laffey, thanks a lot! ☆",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "Heh heh. Don't sweat it. I'm just glad we got it all cleared up. Knock 'em dead, Benson!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Kizuna....... Mama AI..... Thanks.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Right then. I'd better hurry on back and study up on my cuteness! ♡ See you both again soon!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "Good lu- oh! Watch the threshold there, it's a little-",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_104",
+			say = "*PLONK*",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Aiieee!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Benson...........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101160,
+			side = 2,
+			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'm fine! Ain't nothin' gonna slow down the cute Benson!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900179,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_104",
+			side = 2,
+			dir = 1,
+			actorName = "Mama AI",
+			say = "Look at her toughenin' up like that... our little talk worked wonders.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 10400010,
-			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
-			say = "之后，变得加倍烦人的本森酱被指挥官抓着训了很久——",
+			dir = 1,
+			say = "Several days later, Benson was reprimanded by the Commander for being increasingly annoying.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -715,14 +668,13 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 10400010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 10400010,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
-			say = "嘛，也是会有这种情况的吧！",
+			say = "Eh. These things happen. What are you gonna do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

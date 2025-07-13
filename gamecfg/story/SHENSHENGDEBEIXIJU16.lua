@@ -12,7 +12,7 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…你这样窜来窜去的样子可真烦人",
+			say = "... Your scurrying back and forth is giving me a headache.",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看着在眼前不断进行高速规避移动，又时而进行炮击的龙骑兵，可畏说到",
+			say = "Carabiniere made use of her agility to avoid the carrier's attacks while gradually closing the distance between them, poking and prodding at Formidable with her guns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哼哼，龙骑兵的名字本就源于数百年前帝国的高速机动部队",
+			say = "Hah! My very name comes from a centuries-old type of Sardegnian light cavalry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "用高速移动迷惑对手，伺机给予致命一击是我们最擅长的作战方式",
+			say = "Using rapid movements to confuse our enemies while I wait for the perfect moment to strike true, that is my fighting style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			actor = 601020,
 			dir = 1,
-			say = "就算是像你这样的钢铁巨兽也…",
+			say = "Miss Formidable, a lumbering carrier like you has no chance of keeping up with my speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			actor = 207050,
 			dir = -1,
-			say = "嗯？！",
+			say = "... I beg your pardon?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可畏眉头一紧，露出了和平时不一样的气场",
+			say = "Formidable raised an eyebrow, giving off an uncharacteristically vexed aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			actor = 207050,
 			dir = -1,
-			say = "你说…",
+			say = "You... take that back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你说谁是笨重又死板的庞然大物啦！！？",
+			say = "Who. Did. You. Call. Lumbering?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -161,7 +161,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可畏一反平常稳重的表情，嘟起嘴生气的说到，眼角似乎还泛出了泪光",
+			say = "Carabiniere was taken back by Formidable's pouty lips and the tears welling up in the corners of her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			actor = 601020,
 			dir = 1,
-			say = "啊，我…我没…",
+			say = "No, I... That's not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			actor = 207050,
 			dir = -1,
-			say = "——【机关禁止】！！！",
+			say = "DON'T MOVE AN INCH!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "随着可畏挥起右手，周围的海域瞬间被一股奇怪的气场笼罩",
+			say = "An intense pressure began to exude from Formidable as she glared at the Sardegnian destroyer, enveloping her in a distorted aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 601020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "这…这是？",
+			say = "Wha... what is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,23 +245,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "连同龙骑兵在内，周围数艘驱逐舰的锅炉同时出现了故障",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#ff5c5c",
-			side = 1,
-			actor = 601020,
-			dir = 1,
-			say = "可恶，无法保持航速了！",
+			say = "Carabiniere's boiler suddenly gave out with a pop. One by one, her fellow destroyers lost power from their boilers and slowed to a crawl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +261,7 @@ return {
 			side = 0,
 			actor = 207050,
 			dir = -1,
-			say = "本来姐姐不允许我在实战中使用这一手的…可是…",
+			say = "So, who's the lumbering one now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +277,7 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "都怪你说人家是丑陋又懒惰的肥恐龙啦！！",
+			say = "Care to say that again? Who's the lumbering one now?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -324,7 +308,7 @@ return {
 			actor = 601020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我才没有说过啊！！",
+			say = "W-wait! That's not what I meant...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +334,7 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "化为可畏的战绩吧！！青花鱼，出击！！",
+			say = "You're about to become a kill marking on my Baraccuda! Engage!!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -367,7 +351,7 @@ return {
 			actor = 601020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呜，皇家的女孩子都是这样的吗（泪）————",
+			say = "Waaaaaaaahhh!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,10 +375,10 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "……",
+			actorName = "Warspite",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +391,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "缓缓赶来的旗舰厌战碰巧看到了这一幕，不禁流出了一身冷汗",
+			say = "Warspite arrived just in time to see Carabiniere get blown away. She broke out in a cold sweat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,10 +405,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "可...可畏，好像有点做得太过火了…",
+			actorName = "Warspite",
+			say = "Formidable... Don't you think you might have overdone it a bit...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊啊，贵安，旗舰大人~光辉级航空母舰可畏号向你献上午后的问候",
+			say = "Oh, um... What a fine day it is, Warspite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +446,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可畏双手提了下裙子，行了一个标准的英式问候礼，露出阳光般灿烂的微笑",
+			say = "Formidable executed a graceful curtsy and smiled wryly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +462,7 @@ return {
 			side = 2,
 			actor = 207050,
 			dir = -1,
-			say = "帝国的先锋部队都已经被我解决掉了哦",
+			say = "I took the liberty of clearing out Sardegna's vanguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +478,7 @@ return {
 			side = 2,
 			actor = 207050,
 			dir = -1,
-			say = "放心吧，都按姐姐说的，避开她们的要害部位了~",
+			say = "But don't worry, I made sure to not hit any vital areas. Just disable her, as Illustrious instructed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,10 +492,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "没，没什么，你做得很好...我们继续前进吧，目标——“卡拉布里亚的宝石”",
+			actorName = "Warspite",
+			say = "Um... w-well done, I suppose. We should hurry and search for this \"Jewel of Calabria\" next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

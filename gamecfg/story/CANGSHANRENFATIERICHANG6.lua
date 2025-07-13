@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"苍闪忍法帖-「日常篇」\n\n<size=45>开始训练-其一</size>",
+					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Start the Training - Part 1</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			bgm = "sk-az-story",
-			say = "训练海域·营地小岛",
+			say = "Port - Training Area Campsite",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:11:晓}——！！",
+			say = "Akatsukiii!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -52,7 +52,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这边打算去爬一下那边的石头山，要不要一起来！",
+			say = "I'm gonna climb that rock over there for training's sake. You wanna come with me?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -69,7 +69,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯！飞鸟小姐，请务必让在下同行！",
+			say = "Of course! I would love to accompany you!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -87,7 +87,7 @@ return {
 			actor = 301110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此！这就叫“日常随机事件”呢！",
+			say = "I see! This is what you'd call a random event!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "完成之后也许会收获大量好感度奖励哦。",
+			say = "Finishing it should award you with a significant amount of affection.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你们又在说令人听不懂的话了……不过这么有干劲的{namecode:11:晓}确实很少见呢。",
+			say = "There they go, doing stuff for no reason again. Oh well, it's nice to see Akatsuki in such high spirits for once.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -138,7 +138,7 @@ return {
 			bgName = "star_level_bg_106",
 			side = 2,
 			actor = 11000020,
-			say = "这些人真是的……刚结束完训练，要稍微注意下休息和保养啊。",
+			say = "It's a problem when they get carried away. While being active is good, it's important to rest up after intense exercise.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家辛苦了—！我把作为慰劳品的牛奶搬过来了哦～",
+			say = "Hey, girls! Who wants a cold bottle of milk?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -170,7 +170,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？好像紫小姐不在……？她不是和焰小姐你们在一起吗？",
+			say = "...By the way, where's Murasaki? Shouldn't she be here?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -188,7 +188,7 @@ return {
 			actor = 11000030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，那家伙可能还是宅在屋里吧……？",
+			say = "Nah. If I had to guess, she's probably playing video games in her room again.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "营地小岛·临时营地一角的阴影里",
+			say = "Meanwhile, in a dark corner of the island...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -234,7 +234,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜，失败了，失败了……被大家开心的声音钓出房间实在实在是太失败了……",
+			say = "This was a mistake... I fell for the sound of people having fun... Going outside was a horrible mistake...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -252,7 +252,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然还是在这种阴暗、安静的地方一个人宅着才能让人安心……",
+			say = "I'd much rather be somewhere dark and quiet where I can relax by myself...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不行了……日晒太强了……要倒下……了……",
+			say = "Why does it have to be so sunny... I feel like I'm going to faint...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "离营地就差一点点了……要努力……鱼鱼……鼓励我一下……",
+			say = "Almost there... Almost at the campsite... Fishy, I need your encouragement right now...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -304,7 +304,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……",
+			say = "......",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -338,11 +338,11 @@ return {
 			bgName = "star_level_bg_106",
 			hideOther = true,
 			dir = 1,
-			actorName = "紫&{namecode:424}",
+			actorName = "Murasaki&{namecode:424}",
 			hidePaintEquip = true,
 			actor = 11000060,
 			nameColor = "#A9F548FF",
-			say = "那、那个……\n你难道是……",
+			say = "Umm...Aren't you...?",
 			subActors = {
 				{
 					actor = 402040,
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哇啊啊！？",
+			say = "Eep!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -379,12 +379,12 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "star_level_bg_106",
-			actorName = "紫&{namecode:424}",
+			actorName = "Murasaki&{namecode:424}",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 11000060,
 			nameColor = "#A9F548FF",
-			say = "欸！？\n呜啊！",
+			say = "Who's there?!Eek!",
 			subActors = {
 				{
 					actor = 402040,
@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊……对、对不起……我还以为这个时间营地里谁都不在……",
+			say = "Oh... S-sorry. I didn't expect to see people here at this time of day.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -423,7 +423,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……不好意思，我就在这里呆一小会……一会就离开……",
+			say = "I-I'll be out of your hair soon... Just give me a minute...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼……嘿嘿嘿…………",
+			say = "Heheh... Heheheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,12 +450,12 @@ return {
 			actor = 11000060,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "紫&{namecode:424}&{namecode:30}",
+			actorName = "Murasaki&{namecode:424}&{namecode:30}",
 			dir = 1,
 			hidePaintEquip = true,
 			hideOther = true,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊啊啊啊！！！",
+			say = "EEEEEEEEK!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608010,
-			say = "呀啊啊啊啊啊啊！！！",
+			say = "AAAAAAHHHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608010,
-			say = "吓、吓死我了…………居、居然是我托里拆利被吓到了……",
+			say = "Y-you nearly scared me to death... You don't have to scream so loud...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608010,
-			say = "你们不用那么害怕……我、我可是从一开始就在这里的……",
+			say = "I-in case you didn't know... I've been here since the start...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是吗？那……对不起……我不是故意打扰你的……是真的没注意到有别人……",
+			say = "You have? Oh... Sorry. I didn't realize when I first got here.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -545,7 +545,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我、我现在就走……真、真的…立刻就……",
+			say = "L-like I said, I'll be out of here before you know it... I-I won't be long...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -562,7 +562,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？大家聚在这里做什么呢？",
+			say = "What's going on here? Some kind of party?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			hidePaintEquip = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "托里拆利一行人",
-			say = "哇啊啊啊啊啊啊啊！！！！",
+			actorName = "Everyone Else",
+			say = "AAAAAAAHHHHHHHHHHH!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -621,7 +621,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也就是说紫也想和大家一起参加演习，但是又不敢去人太多的地方。",
+			say = "So, basically, you wanna participate in the exercise, but you lack the courage to show up.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -656,7 +656,7 @@ return {
 			actor = 105170,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以就和其他碰巧没有一起参加的伙伴们聚在这里了……对吧？",
+			say = "Now you're all meeting up here with others who aren't participating either. Is that right?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -674,7 +674,7 @@ return {
 			actor = 11000060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不是这样的……我其实并没有和大家约定什么……",
+			say = "Not exactly... It's not like... we all agreed to meet here or anything.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -691,7 +691,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但确实是因为怕人多对吧？",
+			say = "Ah. So you independently opted for a place where there's few people, then?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -708,7 +708,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没错……",
+			say = "Correct...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -725,7 +725,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此……要点在于“人多”啊……",
+			say = "You don't like dealing with people, I suppose...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -743,7 +743,7 @@ return {
 			actor = 105170,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，我有主意了！",
+			say = "Oh! That gives me an idea! Heheh!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

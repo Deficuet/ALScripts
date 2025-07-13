@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_1",
 			bgm = "ryza-az-theme",
 			stopbgm = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				black = true,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:18}，完成了最后一击！",
+			say = "Aha! The killing blow is mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好厉害……虽然身材和我相仿，但是居然有这等技艺…看来我还有很多需要学习的地方呢。",
+			say = "Incredible... Your stature is similar to mine, but your swordsmanship is on a whole different level... Clearly I still have a long way to go.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "嘿嘿，帕特莉夏阁下要是想要切磋的话随时奉陪哦。",
+			say = "If you want to hone your skills, Miss Patricia, I'd be glad to spar with you whenever you want!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "不过能够如此在水上移动，舰装的功劳也不可小觑。等找到图纸之后，帕特莉夏小姐说不定也能有一套呢哦。",
+			say = "Although, you would need a rigging to move on the water. Don't worry, I'm sure we'll find another recipe that lets you equip a rigging just like mine!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也能有一套……就像莱莎那样么？那还真是……很令人期待呢！",
+			say = "You mean I'll get to use something like what Miss Ryza received? I'm... definitely looking forward to that!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -172,7 +172,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了{namecode:18}小姐，如果不介意的话，叫我帕蒂就好。",
+			say = "By the way, Shimakaze, you can simply call me Patty.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哦哦——帕蒂阁下么，我明白了~",
+			say = "Really? As you say, Miss Patty!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……帕蒂就可以了哦。",
+			say = "Um... I meant that you can omit the \"Miss\" as well...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "诶诶诶——是！",
+			say = "Huh? Oh! Right, sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "{namecode:18}，你对刚才这些敌人怎么看？",
+			say = "Hey, Shimakaze, did you notice anything about those enemies?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "唔……比III型要强一点，应该是某种改进型？",
+			say = "Hmm... They were just a bit stronger than Mark III's. I'd speculate that they're upgraded variants.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "我也是这么认为的。就和用菲尔弗萨的数据改进的量产型一样，执行者中也出现了新型号。",
+			say = "Agreed. I think the Sirens applied the same method they use to make upgraded Enforcers – they added improvements based on external data. In this case, the Philuscha.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 10900010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "III型……执行者？这些是刚才那些人型机器的名字么？",
+			say = "Mark III's? Enforcers? Is that what you call the Sirens we just engaged?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，就要从塞壬的组织和结构开始讲了，所谓塞壬————",
+			say = "It's a long explanation, but basically what you need to know is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……原来如此。和菲尔弗萨一样，塞壬也根据在群体中的功能将个体划分入不同的系统啊。",
+			say = "...I see. So Sirens are categorized by the purpose they serve. In that regard, they're somewhat similar to the Philuscha.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -395,7 +395,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且和菲尔弗萨一样，被打倒了将军后战斗力就会削弱，被打倒了女王之后军队就会瓦解。",
+			say = "Eliminate their commander, and their army weakens. Eliminate their queen, and their army falls apart...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -413,7 +413,7 @@ return {
 			actor = 10900040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们这边的塞壬就是在发现了这种相似性之后，才进行的这种融合实验么？",
+			say = "I wonder if the Sirens discovered this shared trait from analyzing the Philuscha and decided to attempt a fusion with them.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "是一个值得记录的推测，背后也许会牵扯出一个惊人的塞壬阴谋呢！得记入笔记，等空下来之后好好调查一番才行~",
+			say = "That's an interesting theory. It's possible we have a huge Siren plot on our hands! I'll write that down and investigate later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "……还是先着眼于眼前的事吧，布里斯托尔。",
+			say = "Uh, let's focus on more immediate things first. The plot can wait.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "留心观察身边。如果石碑说的没错的话，第二把钥匙与更多舰装图纸的线索正隐藏在这片森林之中呢。",
+			say = "First of all, there's the second key and rigging recipe. If the monument is correct, it should be somewhere in this forest.",
 			painting = {
 				alpha = 0.3,
 				time = 1

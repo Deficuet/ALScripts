@@ -8,7 +8,7 @@ return {
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
-			say = "可恶，{namecode:92}居然被你们…",
+			say = "Bastards!! What have you done to Kaga!!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
-			say = "右满舵，全力回避敌机俯冲，立即召回所有“灵”式拦截敌机！！",
+			say = "Hard starboard! Evade the enemy attacks, and call back all the Zeros this instant!",
 			shake = {
 				speed = 1,
 				number = 3

@@ -12,7 +12,7 @@ return {
 			bgm = "story-6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "坚固也要有个限度！差不多该给我倒下了吧！",
+			say = "Guh...! There's no armor that won't split open eventually! Let's see your insides!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -64,9 +64,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "唉，你们一直耗在我这边真的好么，那边，越烧越厉害了哦？",
+			say = "Oh no, I'm so scared~ By the by, while you've been messing around here, NY back there's been having a city-wide barbecue party! You should go check it out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…！指挥官，再拖下去纽约港就……",
+			say = "...! Commander, if we stay here any longer, the harbour will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、这样就结束了！",
+			say = "Not yet, I'm not... done with you yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,9 +120,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "？！！",
+			say = "HUH?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————",
+			say = "BOOOOOOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -187,9 +187,9 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "净化者",
+			actorName = "Purifier",
 			dir = 1,
-			say = "背后吗…居然是你这个不起眼的小姑娘，大意了…",
+			say = "My engines...?! Argh... did she teleport behind me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 103160,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "在冰冷的海底为牺牲的同胞赎罪吧，净化者。",
+			say = "You'll have an eternity in hell to think about that one, Siren scum!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "做…做到了！",
+			say = "We... we got her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "朱诺…做的不错，这样大家也会对你刮目相看了吧。",
+			say = "Nice shot, Juneau!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿、嘿嘿~",
+			say = "P-please... It's embarrassing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "击败了净化者，解除了塞壬对长岛防线的最大威胁，之后的战斗可以放心交给朱诺她们了。",
+			say = "I felt confident leaving the cleanup work in the hands of Juneau and the others. We had to press forward to the next destination... NY Harbor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "接下来舰队的目标就是…纽约港——",
+			say = "However, Purifier's words weighed heavily upon my mind. What did she mean by \"lead actors?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

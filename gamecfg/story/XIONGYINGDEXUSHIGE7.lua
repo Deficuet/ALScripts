@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "博览会会场·某处",
+			say = "Somewhere in the Expo Venue...",
 			bgm = "story-roma-outside",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "阿尔弗雷多，这么着急把我叫回来……出了什么事么？",
+			say = "What's wrong, Alfredo? Why the sudden call?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……还有你为什么要躲在墙角后面，达·芬奇呢？",
+			say = "And why are you hiding behind the other side of the wall? Where's da Vinci?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘘，达·芬奇现在正在空中执行重要作战，我们要低调，隐藏身份！",
+			say = "Hush! Teach is currently monitoring things from the air, so we have to stay on the down-low and focus on staying hidden!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "啊，佩萨格诺你来了么？正好，我重新找到目标了。",
+			say = "Is Ema here? Good, I'll reconfirm the targets' location then–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "博尔扎诺和加里波第正在向着橡树花穹顶方向前进。",
+			say = "Mark B and Mark G are currently heading towards the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "一路上似乎正在调查着什么，通讯器也一直没有中断。",
+			say = "They seem to be checking something while moving, and they've been busy on the communicators this whole time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "情报已收到~达·芬奇探员，你做得很好！",
+			say = "Understood! Something big is happening, Teach, just like I said!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "就这样继续保持在空中的观察，我跟佩萨格诺要移动位置了。",
+			say = "Continue offering air support. Ema and I are moving out now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "了解~",
+			say = "You got it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……所以说，你们现在从会场巡逻改成跟踪博尔扎诺和加里波第了……？",
+			say = "...I thought you were patrolling the venue. Why in the world are you tailing Bolzano now?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不是跟踪，是事件调查！",
+			say = "Excuse me, I'm not TAILING her, I'm conducting an undercover investigation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你不觉得很奇怪么！明明已经把会场巡逻交给我们了，为什么负责文化馆安保的她们俩会跑出来？",
+			say = "Don't you think something's fishy, Ema? We're in charge of patrolling the venues, so why would the two people in charge of keeping an eye on the Colosseum suddenly leave their posts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "还一边四处张望一边跟不知道是谁的神秘人物保持着通讯联络！",
+			say = "Plus, they've continuously been in touch with someone this whole time while moving about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……也许是文化馆内已经有人接手了，而阿尔弗雷多和达·芬奇实在有些让人觉得靠不住？",
+			say = "Or... They got someone else to watch the underground warehouse and went on patrol themselves because some people here, and I won't name names, are so unreliable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "咳、咳咳！佩萨格诺好过分~",
+			say = "Wow, mean!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "复议！",
+			say = "Yeah, what she said! That was mean!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "那阿尔弗雷多先停止跟踪行为，达·芬奇也先从天上下来，也许我的评价会稍微做些修改……",
+			say = "...In any case, I want you, Alfredo, to call off your \"undercover\" investigation, and I want you, da Vinci, to get down from there already. At this rate, WE'RE going to start looking like the suspicious ones sneaking around...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "如果好奇博尔扎诺她们在做什么的话，上去问一下就好吧？",
+			say = "If you're worried about Bolzano being out here, you should probably just ask her upfront. I guarantee you, she'll happily fill you in on whatever she's doing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不行！这样的话还怎么体现我作为记者的价值！",
+			say = "Heh heh... And that's why you're an amateur! You'll never be able to land a huge scoop with such naive methods!",
 			effects = {
 				{
 					active = true,
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "………………",
+			say = "...Sure then.",
 			effects = {
 				{
 					active = false,
@@ -416,7 +416,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "大家注意，情况有变！博尔扎诺她们没有进入橡树花穹顶！",
+			say = "This is da Vinci! The situation has changed! Bolzano and Garibaldi are no longer heading to the Colosseum!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我也看到了！她们进了后面的小房子，上面还有个访客禁止的牌子，那是什么地方啊？",
+			say = "Way ahead of you! I saw them walk into a small room that says \"Do Not Enter\" near the Colosseum! What kind of place do you think it is, da Vinci?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "那个地方……是负责整个会场警戒系统的控制室！",
+			say = "It's the control room for the venue's security system.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "什么……？那她们肯定是进去检查会场的警备情况了……",
+			say = "Oh...? In other words, there must be something wrong for them to need to check the security system?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿嘿嘿……有种将要捕获到大新闻的预感！",
+			say = "Hrmmmmmmmmm... Yes – this is, without a doubt, a huge scoop in the making!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "必须想办法弄清楚她们具体在检查什么……有没有溜进去的办法…………",
+			say = "Is there any way to find out what exactly they're looking for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "哪里用得着这么麻烦~别忘了整套系统都是我设计的！",
+			say = "Hah~♪ Who the hell do you think I am? I practically designed the base framework for the security system here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "那么自然，后门早就为了这种时候特意留好了哦~",
+			say = "Naturally, I left a little backdoor specifically for times like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不愧是达·芬奇探员！做事真周到啊？！",
+			say = "Woah, I knew I could count on you! The excitement's making my hairs stand on end!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不过那个执行起来有点麻烦，我们需要找一个僻静点的地方偷偷操作。",
+			say = "Well, the process is actually quite complicated, so we'll need some peace and quiet as well as a bit of time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……重樱馆上有一大片森林，去那里怎么样？",
+			say = "Hmm... Then how about the forest next to the Sakura Empire pavilion?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "好主意！嘿嘿~我就知道佩萨格诺肯定会对这场冒险感兴趣的！",
+			say = "That's a great idea! I'm so glad you're on board, Ema~! The investigation team gets another member!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601080,
-			say = "探员增加————",
+			say = "Let's get ready to go, Teach!",
 			painting = {
 				alpha = 0.3,
 				time = 1

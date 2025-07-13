@@ -1,9 +1,9 @@
 local var_0_0 = {
-	"啊~作战失败！点击确定退出当前关卡",
-	"指挥官请点击<color=#ffde38>出击</color>",
-	"选择主线",
-	"再次选择<color=#ff7d36>近海演习</color>关卡",
-	"点击<color=#ff7d36>立刻前往</color>开始索敌！"
+	"Ah, you were defeated! Tap confirm to exit the stage.",
+	"Commander, please Tap <color=#ffde38>Attack</color>",
+	"Choose campaign",
+	"Now, select the <color=#ff7d36>Offshore Exercises</color> stage.",
+	"Tap<color=#ff7d36> to go </color> and start scanning"
 }
 
 return {

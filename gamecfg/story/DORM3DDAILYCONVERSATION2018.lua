@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？想在平时看看偶像模式的{namecode:50:能代}？",
+			say = "What? You want to see me in idol mode on a regular day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这、这是什么要求啦……",
+			say = "W-what a thing to ask... I was wondering what you were going to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过，既然是你提出的要求，也没有不满足你的道理。",
+			say = "But if that's what you want, then I see no reason not to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等我准备一下，然后就在房间里为你举办只属于你一个人的Live吧。",
+			say = "Give me a minute to prepare, and I'll give you a special, private performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

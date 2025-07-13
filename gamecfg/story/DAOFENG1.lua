@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>一　最速剧情高潮传说</size>",
+					"Full Steam Ahead!\n\n<size=45>1 First on the Scene</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区・指挥室",
+			say = "Port - Office",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天是{namecode:18}上任秘书舰的第一天。",
+			say = "Today was the day I would welcome Shimakaze as my secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "之前从她的友人{namecode:175}那里听了不少关于她的事。据{namecode:175}所说……",
+			say = "I'd heard much about her quirky personality through her friend, Suruga. She said something to the tune of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让{namecode:18}当秘书舰吗……啊，她绝对不是什么坏人。",
+			say = "You're making HER your secretary? Don't get me wrong, she isn't a bad person by any means.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -121,7 +121,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……就是，打个比方的话，她是那种看起来比较机灵其实并不是的类型。虽然看上去好像很灵活，其实挺笨手笨脚的……",
+			say = "How should I put it... She's just as clever as she is dumb. She's proactive and quick to act, yet she's astonishingly slow-witted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总之，请不要抱过度的期待，当做是个喜欢逞强的孩子来相处就好。",
+			say = "What I'm trying to say is, please temper your expectations. You'll be dealing with someone who's essentially an overgrown child.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "本以为就性能而言是个不错的选择，没想到{namecode:175}的评价意外地严厉。",
+			say = "Shimakaze has a good reputation as a shipgirl with outstanding abilities. Despite this, Suruga was quite critical of her.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -185,7 +185,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，马上就要到{namecode:18}来报道的时间了……",
+			say = "The word of the many against the word of her closest friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……",
+			say = "As I watched the minutes tick away while waiting for her to arrive, I wondered whether there was some truth to what Suruga said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,11 +211,11 @@ return {
 			},
 			options = {
 				{
-					content = "怀着期待的心情等着",
+					content = "Stay sharp, ready to greet her",
 					flag = 1
 				},
 				{
-					content = "慢悠悠地等着",
+					content = "Hunker down and get comfortable",
 					flag = 2
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			dir = 1,
-			say = "……距离约好的时间已经过了30分钟，{namecode:18}依然没有出现。难道迷路了么……",
+			say = "...30 minutes had passed since Shimakaze was meant to show up. I feared for the worst—that she had a case of Akatsuki syndrome.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等……收到了塞壬量产型舰队正在接近的报告。",
+			say = "All of a sudden, the raid siren began blaring. It was the signal that enemy mass-produced ships had appeared in the surrounding waters.",
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			},
 			options = {
 				{
-					content = "进行迎击准备",
+					content = "Get ready to sortie at once",
 					flag = 1
 				}
 			}
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然对不住还没报道的{namecode:18}，但是眼下必须优先处理袭击的问题。",
+			say = "I felt guilty about leaving Shimakaze hanging, but I had no choice but to deal with this pressing threat.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，海域里起了碍事的雾气，舰队丢失目标了。",
+			say = "Great you could come, Commander. We'll need all the help we can to find them in this thick fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "事情有些麻烦，必须尽快确认隐藏在浓雾中的敌人位置才行。",
+			say = "Before we could neutralize the enemy, we had to locate them first. What's more, we had to do it quick, before they could cause any significant damage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官，雷达上发现了友方信号！",
+			say = "Huh? What's this? I'm picking something up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "难道是有恰好路过的舰队自主加入战斗了么。",
+			say = "Abukuma had her eyes fixated on her radar. The look of focus on her face turned into one of surprise. What had she picked up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就在七点钟方向……哎，正在战斗的难道是——",
+			say = "Oh... It's a friendly signal. Looks like there wasn't any need for us to show up after all. Look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "一边顺着七点钟方向靠近过去，出现在浓雾中的身影是——",
+			say = "I turned to look southwest at what she was pointing at. What I saw caught me by surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,12 +422,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的！喂，坏蛋量产舰！赶快停下来！今天可是我重要的日子！",
+			say = "Stupid, stupid mass-produced ships! Get back here! I have a very important meeting today, and I don't wanna miss it because of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,9 +455,9 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 301290,
-			actorName = "？？？",
+			actorName = "???",
 			hidePaintObj = true,
-			say = "好痛？！就知道攻击耳朵……真是又准有狠的攻击呢！但是我不会输的，全力迎击！",
+			say = "Owwie! You... You can't target my ears! That's cheating! Hmph... Fine, if that's how you want it, then I won't pull my punches either!",
 			flashN = {
 				color = {
 					1,
@@ -511,7 +511,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "可爱而勇敢的声音与电击般迅疾的身影，没错，前方正在战斗的正是迟迟没有出现在指挥室中的{namecode:18}。",
+			say = "A sweet, yet courageous voice rang out amid the thundering roars of battle. Was it really her...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "鱼雷反击！驱逐舰{namecode:18}，参上！！",
+			say = "An eye for an eye, a torpedo for a shell! Watch out, because here I come!",
 			effects = {
 				{
 					active = true,

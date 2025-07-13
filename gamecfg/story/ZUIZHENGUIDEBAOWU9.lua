@@ -12,7 +12,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈—！总、总算是脱身了…",
+			say = "*Gasp*! I-I finally managed to throw them off...",
 			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:416}，没事就好",
+			say = "I'm glad you're okay, U-556.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "呜哇！是{namecode:420}啊…吓了我一跳…",
+			say = "Bwah! Don't scare me like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "她们没追过来吧？趁现在快逃吧！",
+			say = "They're not chasing you, are they? Okay, then let's use this chance to run away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在这之后——",
+			say = "And then...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "呼…差、差点以为真的不行了…",
+			say = "*Pant*... I thought we were dead for sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢{namecode:420}的机智吧—",
+			say = "I'd say my ruse deserves a thank yooouu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "是啊…多亏了{namecode:420}把大斗犬吸引开了",
+			say = "True... You drew their attention as well, which is why we managed to get away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "嗯嗯",
+			say = "Yup-yup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "然后呢，所谓的机智是？",
+			say = "So, what was your ruse, even?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}装死了。特意把包丢下，吸引大斗犬的注意。超努力。",
+			say = "I feigned death. Then I dropped my backpack to slow Bulldog down. It was noooot easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "干得不错…不过下次可不能干这么危险的事情哦？如果真的被抓到的话，棒棒糖也没得吃了哦？",
+			say = "Well, nicely done... Just don't do anything that dangerous again, okay? Next time, they might take your lollipop away from you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "嗯嗯",
+			say = "Okey-dokey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，恩尼格玛和密码本都在包里吧？有先拿出来收好吗？",
+			say = "Also, you keep your Enigma machine and codebooks inside your backpack, right? You retrieved it afterwards, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊。",
+			say = "... Oh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "啊！",
+			say = "OH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…………",
+			say = "Oh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

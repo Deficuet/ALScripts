@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.6,
 			style = {
-				text = "室内娱乐区重建完成，解锁小游戏「合成\"大\"舰船」  ",
+				text = "The indoor recreation area has been fully rebuilt! You've unlocked the Shipgirl Game minigame. ",
 				mode = 2,
 				dir = -1,
 				char = "char",

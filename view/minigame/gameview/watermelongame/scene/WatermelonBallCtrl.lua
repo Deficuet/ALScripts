@@ -89,10 +89,7 @@ function var_0_0.clear(arg_5_0)
 	arg_5_0.countId = WatermelonGameConst.ball_count_id
 	arg_5_0.tickToOver = nil
 
-	if arg_5_0._megerEffect then
-		setActive(arg_5_0._megerEffect, false)
-	end
-
+	setActive(arg_5_0._megerEffect, false)
 	arg_5_0:clearBallContainer()
 end
 
@@ -172,7 +169,10 @@ function var_0_0.createReadyBall(arg_12_0)
 	arg_12_0.nextBallId = nil
 	arg_12_0.readyBall = var_12_2
 
-	arg_12_0:setBallEvent(var_12_2)
+	if var_12_1 then
+		arg_12_0:setBallEvent(var_12_2)
+	end
+
 	arg_12_0:setBallPhysics(arg_12_0.readyBall, false)
 end
 
@@ -190,7 +190,10 @@ function var_0_0.createMegerBall(arg_13_0, arg_13_1, arg_13_2)
 
 	local var_13_2 = arg_13_0:initBallData(var_13_0, arg_13_1)
 
-	arg_13_0:setBallEvent(var_13_2)
+	if var_13_1 then
+		arg_13_0:setBallEvent(var_13_2)
+	end
+
 	table.insert(arg_13_0._balls, var_13_2)
 end
 
@@ -209,23 +212,20 @@ function var_0_0.setBallEvent(arg_14_0, arg_14_1)
 end
 
 function var_0_0.checkCollisionBall(arg_18_0, arg_18_1)
-	local var_18_0 = arg_18_0:getBallByTf(arg_18_1.collider.transform)
-	local var_18_1 = arg_18_0:getBallByTf(arg_18_1.otherCollider.transform)
-	local var_18_2 = arg_18_0:checkColliderBall(var_18_0, var_18_1)
+	local var_18_0 = arg_18_0:getBallByName(arg_18_1.collider.transform.name)
+	local var_18_1 = arg_18_0:getBallByName(arg_18_1.otherCollider.transform.name)
 
-	if var_18_2 then
+	if arg_18_0:checkColliderBall(var_18_0, var_18_1) and var_18_0.next and var_18_1.next then
 		arg_18_0:removeBall(var_18_0)
 		arg_18_0:removeBall(var_18_1)
 
-		local var_18_3 = var_18_0.next
-		local var_18_4 = arg_18_1:GetContact(0)
+		local var_18_2 = var_18_0.next
+		local var_18_3 = arg_18_1:GetContact(0)
 
-		arg_18_0:createMegerBall(var_18_3, var_18_4.point)
+		arg_18_0:createMegerBall(var_18_2, var_18_3.point)
 		arg_18_0._event:emit(WatermelonGameEvent.ADD_SCORE, {
-			num = WatermelonGameConst.ball_data[var_18_3].score
+			num = WatermelonGameConst.ball_data[var_18_2].score
 		})
-	elseif not var_18_2 then
-		-- block empty
 	end
 end
 
@@ -252,39 +252,30 @@ function var_0_0.removeBall(arg_21_0, arg_21_1)
 		if arg_21_0._balls[iter_21_0] == arg_21_1 then
 			local var_21_0 = table.remove(arg_21_0._balls, iter_21_0)
 
-			GetComponent(arg_21_1.tf, "Physics2DItem").CollisionEnter:RemoveAllListeners()
-			Destroy(var_21_0.tf)
+			arg_21_0._gameVo:returnTplItem("ball", var_21_0.tf)
 
 			return true
 		end
 	end
 
-	warning("移除ball失败 name = " .. arg_21_1.name)
+	print("移除ball失败 name = " .. arg_21_1.name)
 
 	return false
 end
 
 function var_0_0.checkColliderBall(arg_22_0, arg_22_1, arg_22_2)
-	if arg_22_1 and arg_22_2 then
-		if arg_22_1.id == arg_22_2.id then
-			if arg_22_1.next > 0 and arg_22_2.next > 0 and arg_22_1.next == arg_22_2.next then
-				return true
-			else
-				return false
-			end
-		else
-			return false
-		end
+	if arg_22_1 and arg_22_2 and arg_22_1.id == arg_22_2.id and arg_22_1.next and arg_22_2.next then
+		return true
 	end
 
 	return false
 end
 
-function var_0_0.getBallByTf(arg_23_0, arg_23_1)
+function var_0_0.getBallByName(arg_23_0, arg_23_1)
 	for iter_23_0 = 1, #arg_23_0._balls do
 		local var_23_0 = arg_23_0._balls[iter_23_0]
 
-		if var_23_0.tf == arg_23_1 then
+		if var_23_0.name == arg_23_1 then
 			return var_23_0
 		end
 	end
@@ -292,92 +283,79 @@ function var_0_0.getBallByTf(arg_23_0, arg_23_1)
 	return nil
 end
 
-function var_0_0.getBallByName(arg_24_0, arg_24_1)
+function var_0_0.clearBallContainer(arg_24_0)
 	for iter_24_0 = 1, #arg_24_0._balls do
-		local var_24_0 = arg_24_0._balls[iter_24_0]
-
-		if var_24_0.name == arg_24_1 then
-			return var_24_0
-		end
+		arg_24_0._gameVo:returnTplItem("ball", arg_24_0._balls[iter_24_0].tf)
 	end
 
-	return nil
+	arg_24_0._balls = {}
 end
 
-function var_0_0.clearBallContainer(arg_25_0)
-	for iter_25_0 = 1, #arg_25_0._balls do
-		GetComponent(arg_25_0._balls[iter_25_0].tf, "Physics2DItem").CollisionEnter:RemoveAllListeners()
-		Destroy(arg_25_0._balls[iter_25_0].tf)
-	end
-
-	arg_25_0._balls = {}
+function var_0_0.setCreateCd(arg_25_0)
+	arg_25_0.createBallCd = arg_25_0._gameVo.createBallCd
 end
 
-function var_0_0.setCreateCd(arg_26_0)
-	arg_26_0.createBallCd = arg_26_0._gameVo.createBallCd
-end
+function var_0_0.initBallData(arg_26_0, arg_26_1, arg_26_2)
+	setActive(arg_26_1, true)
 
-function var_0_0.initBallData(arg_27_0, arg_27_1, arg_27_2)
-	setActive(arg_27_1, true)
+	local var_26_0 = arg_26_2 and arg_26_2 or arg_26_0:getRandomIdByWeight()
+	local var_26_1 = WatermelonGameConst.ball_data[var_26_0]
+	local var_26_2 = GetComponent(arg_26_1, typeof(UnityEngine.CircleCollider2D))
+	local var_26_3 = GetComponent(arg_26_1, "Rigidbody2D")
 
-	local var_27_0 = arg_27_2 and arg_27_2 or arg_27_0:getRandomIdByWeight()
-	local var_27_1 = WatermelonGameConst.ball_data[var_27_0]
-	local var_27_2 = GetComponent(arg_27_1, typeof(UnityEngine.CircleCollider2D))
-	local var_27_3 = GetComponent(arg_27_1, "Rigidbody2D")
+	var_26_2.radius = var_26_1.size
 
-	var_27_2.radius = var_27_1.size
+	arg_26_0:setChildVisible(findTF(arg_26_1, "size_image"), false)
+	setActive(findTF(arg_26_1, "size_image/" .. var_26_0), true)
 
-	arg_27_0:setChildVisible(findTF(arg_27_1, "size_image"), false)
-	setActive(findTF(arg_27_1, "size_image/" .. var_27_0), true)
-
-	arg_27_0.countId = arg_27_0.countId + 1
-	arg_27_1.name = "ball_" .. arg_27_0.countId
+	arg_26_0.countId = arg_26_0.countId + 1
+	arg_26_1.name = "ball_" .. arg_26_0.countId
 
 	return {
-		id = var_27_1.id,
-		tf = arg_27_1,
-		rigidbody = var_27_3,
-		count = arg_27_0.countId,
-		name = arg_27_1.name,
-		next = var_27_1.next_id,
-		size = var_27_1.size
+		id = var_26_1.id,
+		tf = arg_26_1,
+		rigidbody = var_26_3,
+		count = arg_26_0.countId,
+		name = arg_26_1.name,
+		next = var_26_1.next_id,
+		size = var_26_1.size
 	}
 end
 
-function var_0_0.getRandomIdByWeight(arg_28_0)
-	if not arg_28_0.weightTotal then
-		arg_28_0.weightTotal = 0
-		arg_28_0.weightList = {}
-		arg_28_0.weightIdList = {}
+function var_0_0.getRandomIdByWeight(arg_27_0)
+	if not arg_27_0.weightTotal then
+		arg_27_0.weightTotal = 0
+		arg_27_0.weightList = {}
+		arg_27_0.weightIdList = {}
 
-		for iter_28_0 = 1, #WatermelonGameConst.drop_ball_ids do
-			arg_28_0.weightTotal = arg_28_0.weightTotal + WatermelonGameConst.drop_ball_ids[iter_28_0].weight
+		for iter_27_0 = 1, #WatermelonGameConst.drop_ball_ids do
+			arg_27_0.weightTotal = arg_27_0.weightTotal + WatermelonGameConst.drop_ball_ids[iter_27_0].weight
 
-			table.insert(arg_28_0.weightList, arg_28_0.weightTotal)
-			table.insert(arg_28_0.weightIdList, WatermelonGameConst.drop_ball_ids[iter_28_0].id)
+			table.insert(arg_27_0.weightList, arg_27_0.weightTotal)
+			table.insert(arg_27_0.weightIdList, WatermelonGameConst.drop_ball_ids[iter_27_0].id)
 		end
 	end
 
-	local var_28_0 = math.random(1, arg_28_0.weightTotal)
+	local var_27_0 = math.random(1, arg_27_0.weightTotal)
 
-	for iter_28_1 = 1, #arg_28_0.weightList do
-		if var_28_0 <= arg_28_0.weightList[iter_28_1] or iter_28_1 == #arg_28_0.weightList then
-			return arg_28_0.weightIdList[iter_28_1]
+	for iter_27_1 = 1, #arg_27_0.weightList do
+		if var_27_0 <= arg_27_0.weightList[iter_27_1] or iter_27_1 == #arg_27_0.weightList then
+			return arg_27_0.weightIdList[iter_27_1]
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.setChildVisible(arg_29_0, arg_29_1, arg_29_2)
-	for iter_29_0 = 1, arg_29_1.childCount do
-		local var_29_0 = arg_29_1:GetChild(iter_29_0 - 1)
+function var_0_0.setChildVisible(arg_28_0, arg_28_1, arg_28_2)
+	for iter_28_0 = 1, arg_28_1.childCount do
+		local var_28_0 = arg_28_1:GetChild(iter_28_0 - 1)
 
-		setActive(var_29_0, arg_29_2)
+		setActive(var_28_0, arg_28_2)
 	end
 end
 
-function var_0_0.dispose(arg_30_0)
+function var_0_0.dispose(arg_29_0)
 	return
 end
 

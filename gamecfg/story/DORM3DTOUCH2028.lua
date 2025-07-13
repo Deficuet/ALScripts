@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}也过来放松一下吧？",
+			say = "Won't you come and relax with me?",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture1_tone2",
 			typewriter = {
 				speed = 0.05,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>三　秘书舰的第一天</size>",
+					"Work Hard, Play Harder!\n\n<size=45>3 First Day on the Job</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "灿烂的阳光从窗外斜射进来——",
+			say = "The sun's brilliant rays shine through the office windows.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "今天是水星纪念担任秘书舰的第一天。可现在已经是正午时分了，指挥室里依旧没有见到水星纪念的影子。",
+			say = "Today is supposed to be Pamiat's first day as my secretary. Noon has rolled around, but she is still nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不会是出了什么问题吧……",
+			say = "Hopefully nothing bad happened to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "正当打算给阿芙乐尔打个电话的时候，哒哒哒的皮靴声出现了。",
+			say = "I was just about to call Avrora when I hear the familiar sound of boots clopping down the hallway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官！我来了哦！早上好！",
+			say = "Yoohoo, Commander! Morning!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,11 +97,11 @@ return {
 			},
 			options = {
 				{
-					content = "早上好——",
+					content = "\"Good morning.\"",
 					flag = 1
 				},
 				{
-					content = "但是现在已经是中午了！",
+					content = "\"It's afternoon, if you didn't notice. Again.\"",
 					flag = 2
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿~",
+			say = "Hehehe~ I'll be your secretary starting today!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似曾相识的对话！那就下午好！都没什么所谓啦！",
+			say = "Don't \"again\" me! It's not the end of the world!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,14 +159,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她倒是一点迟到的自觉都没有……",
+			say = "I'm starting to wonder if punctuality means nothing to this girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问迟到的原因",
+					content = "\"You're late. Might I ask why?\"",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "额……这个……一定要说嘛？",
+			say = "Ahah! I knew it! You can't stop thinking about me after all, can you~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "其实是昨天晚上打游戏打到太晚，睡过头了，诶嘿嘿……",
+			say = "It's simple, actually~ I stayed up all night playing games so I overslept!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……果然。",
+			say = "\"...At least try to make an excuse for yourself.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "诶？你问为什么我看起来一点都不着急的样子？",
+			say = "Why would I do that? You never said anything about a specific time I had to be in your office, so that's on you~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "唔你看，反正都已经晚点了嘛！事情都已经发生了，那再着急也没什么办法呀！你说对吧！",
+			say = "You can lecture me if you want, but it won't change the facts! Might as well look on the bright side – now I'm here and ready to work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……亏我刚才还小小地担心了一下。",
+			say = "\"Ugh. I was a fool for thinking you had run into trouble...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哎呀哎呀~好啦好啦~下次不会再这样啦~",
+			say = "Ahaha♪ In my defense, I had to do a ton of stuff to prepare for my new position.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "毕竟这可是我第一天做秘书舰嘛~出了点岔子也很正常啦~",
+			say = "I promise I won't be late again! Go easy on me this one time and I'll make myself real useful from here on out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "………………………………",
+			say = "\"...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "总、总之，现在开始处理文件就好吧！",
+			say = "Great~ Let's start on this stack of documents then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "好啦好啦，别板着脸了~时间不等人，该开始工作了哦~",
+			say = "Come on, don't just sit on your butt, Commander! We've both got work to do!",
 			painting = {
 				alpha = 0.3,
 				time = 1

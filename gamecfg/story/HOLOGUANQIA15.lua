@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "holo-control-inst",
 			dir = 1,
-			say = "祭，收集物资暂停。{namecode:96}发来消息，侦察机发现塞壬航空队正在对一座巨大的木质城堡发动攻击。",
+			say = "Hold, Matsuri. I'm receiving a message from Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "城堡好像比看起来要结实不少，不过应该也撑不了太久了。",
+			say = "Siren aircraft are bombing \"a giant wooden castle.\" Target is believed to be one of the Hololivers. Heading there to provide support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}认为城堡中的可能是你们的伙伴，因为我们这边离得比较近，她让我们快去看一下",
+			say = "... End of transmission. Seems we've located one of your friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨大的木质城堡…难道是…绫目的百鬼城？！明白了，祭这就动身！",
+			say = "Giant wooden castle...? Wait, that sounds like... Nakiri Castle! Ayame should be there! We'd better go help her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,15 +14,15 @@ return {
 			bgm = "story-tulipa",
 			sequence = {
 				{
-					"郁金王国周边海域",
+					"Sea Near the Kingdom of Tulipa",
 					1
 				},
 				{
-					"联合作战舰队",
+					"Joint Fleet",
 					2
 				},
 				{
-					"两日后",
+					"Two days later...",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "和煦的海风中，郁金王国的旗帜随风飘扬，王国的首战之日终于到了。",
+			say = "On the day of the Tulipan fleet's first battle, their flag flutters in the gentle sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "万众瞩目下，七省与埃佛森将舰装展开为军舰形态，率先驶出新港。",
+			say = "Zeven and Evertsen deploy their rigging and set sail first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "而后是我所乘坐的指挥舰，再之后是浩浩荡荡的郁金王国量产型舰队。",
+			say = "They're followed by my command ship, which is then followed by the imposing mass-produced Tulipan fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "喀山和奥列格为了不抢本日主角的风头，选择与我一同待在指挥舰中，低调离开。",
+			say = "Kazan and Oleg have joined me on the command ship so that the stars of the day can keep the spotlight to themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "当然——如此的高调只维持了很短一段时间，",
+			say = "That said, though the parade is flashy, it is a short affair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "在离开港口后不久，七省与埃佛森便将舰装收起，在近海等候多时的北方联合量产型联合舰队也汇聚而来。",
+			say = "Not long after we leave the port, Zeven and Evertsen put away their rigging and join the Northern Parliament's mass-produced fleet waiting close by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_188",
 			hidePaintObj = true,
-			say = "舰队主体队形变换为以指挥舰为中心的轮形阵，而后继续向目标前进。",
+			say = "The fleet changes to a circular formation centered around the command ship, and we make way for our destination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Shortly later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 702080,
-			say = "喀山，你说指挥官是不是过于谨慎了些？",
+			say = "Kazan, is it just me, or is the Commander a little too cautious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没有了实验机关那几个大头目，我们这种阵容出马，收拾剩下的小卡拉米还不是轻松拿捏？",
+			say = "The experimental division's big shots are gone. I bet Sirens would be easy pickings for our fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官同志这样安排，一定是有道理的。",
+			say = "I'm sure the Commander has good reasons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705090,
-			say = "而且你没看到，郁金王国的同伴已经紧张成那种样子了么？",
+			say = "Besides, you've seen how nervous the Tulipan girls are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 702080,
-			say = "呃……她们啊，那确实……",
+			say = "Oh... Yeah, now that you mention it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "顺利……不顺利……顺利……不顺利……顺利……不顺利……",
+			say = "It will work out... It won't work out... It will work out... It won't work out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "欸……不行，重来……",
+			say = "Aww... This is no good. Let me try again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "顺利……不顺利……顺利……不顺利……",
+			say = "It will work out... It won't work out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "七省姐，再拔下去手杖就要秃了。",
+			say = "Keep pulling out petals, and that wand won't have any flowers left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "喔……我再催生一些出来……",
+			say = "Ah... Th-then I'll just grow more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "能力不是这样用的吧……！",
+			say = "Not a good use of your powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "噢……那我去拿几束花出来。",
+			say = "O-okay, I'll just go get more flowers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "不……算了，我也不好说什么。",
+			say = "That's not the problem – ugh, forget it. I'm wasting my breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "七省姐，要是实在紧张的话，我们去周围巡逻吧？",
+			say = "If you really can't settle down, might I suggest a round of patrols?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "哦！好主意，那我们立刻出发？！",
+			say = "Oh! That's a good idea. Shall we go now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,8 +369,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "孟菲斯",
-			say = "……等等，我听到了！",
+			actorName = "Memphis",
+			say = "Wait a minute, I heard that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,10 +382,10 @@ return {
 			bgName = "bg_yujin_2",
 			portrait = 102160,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "Memphis",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "舰队之中不要擅自行动啊！！！",
+			say = "You're acting as part of a fleet. No individual action without approval!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "喔……抱歉，是我们缺乏考虑了。",
+			say = "I'm sorry. I guess I didn't think things through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "…………已经紧张过头了吧？！",
+			say = "Okay, they're getting TOO tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 702080,
-			say = "正常来说不应该这样啊……作战纪律性不是我们生来就有的本能么？",
+			say = "This isn't normal... It's almost shipgirl instinct to maintain discipline in battle, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705090,
-			say = "或许……是因为她们背负的压力太大，也或许……是因为那批特殊的心智魔方？",
+			say = "Are they under too much pressure? Or could it be... because of their special Wisdom Cubes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,32 +473,7 @@ return {
 			bgName = "bg_yujin_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对哦，你不说我都差点忘了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yujin_2",
-			hidePaintObj = true,
-			side = 2,
-			actor = 702080,
-			say = "那批在密室行动之后出现变化的心智魔方确实有些意思！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702080,
-			side = 2,
-			bgName = "bg_yujin_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "在结构依然稳定的情况下，性质却活跃了不少……我也研究了好久呢。",
+			say = "Aha! That must be it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +486,32 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 702080,
-			say = "就这样的心智魔方诞生的郁金王国舰队……我越来越期待她们在实战中的表现了！",
+			say = "After the investigation of the Arcana Sanctum, everyone's Wisdom Cubes had changed in subtle ways.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702080,
+			side = 2,
+			bgName = "bg_yujin_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Their structure is still stable, but they're extra active. They were there for a long time, after all.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yujin_2",
+			hidePaintObj = true,
+			side = 2,
+			actor = 702080,
+			say = "So we'll get to see the Tulipan fleet using the power of those cubes... I'm getting even more excited to see them in battle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "指挥舰·指挥甲板",
+			say = "Commander's Vessel - Command Deck",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "呼……真是的，简直太乱来了。",
+			say = "*sigh*... These people are such a mess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没事，距离进入危险区还有时间，让她们再紧张一会吧。",
+			say = "Don't worry. There's still time until we enter the danger zone, so let them get acclimated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "说起来，你第一次上战场的时候也是这样么？",
+			say = "Weren't you like this during your first operation, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "怎么可能！",
+			say = "Goodness, no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我第一次战斗的时候可是沉着冷静地消灭了好几艘塞壬量产舰呢~",
+			say = "I was calm and collected, and I sunk countless mass-produced Siren ships to boot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "飒爽的英姿给同行人员留下了难以磨灭的深刻印象~",
+			say = "Why, my heroic acts left an unforgettable impression on everyone there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……你那是什么眼神，不信你去问火奴鲁鲁啊！",
+			say = "...What? If you don't believe me, then go ask Honolulu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没……我只是在想，这么多年过去了啊。",
+			say = "That's not it. I'm just thinking about how time flies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？指挥官在暗示我的年龄大么——",
+			say = "Hm? Are you calling me old now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "绝对没有。",
+			say = "Not at all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "哼，我们舰船可是青春永驻的哦！",
+			say = "Hmph. We shipgirls are forever young!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,11 +695,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -713,7 +713,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好了，来正事了。",
+			say = "Whoops, there we go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，是侦察机发回来的报告。",
+			say = "Commander, we have intel reports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的航线正确。维持当前航速的话，预计将会在45分钟后进入镜面海域影响区。",
+			say = "Our route remains clear. If we continue at our current pace, we should enter the Mirror Sea in approximately 45 minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "该调整阵型了。",
+			say = "Time to get into formation, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,11 +761,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "埃佛森，能听到么？",
+			say = "Evertsen, can you hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1101010,
-			say = "指挥官，我在。有什么需要我去做的么？",
+			say = "Evertsen speaking. Commander, what are your orders?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我想问一下，郁金王国的通讯设备能够无视镜面海域的干扰么？",
+			say = "Let me ask one thing first. Have Tulipan communication devices been prepared to deal with the jamming in Mirror Seas?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			actor = 1101010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……抱歉，做不到。",
+			say = "I'm sorry... You won't like the answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "奥列格，北方联合那边呢？",
+			say = "Oleg, what of the Northern Parliament's?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			actor = 702080,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不好说，理论上是可以的……不过实战中还是时灵时不灵。",
+			say = "It's possible in theory, but I can't make any promises. Sometimes, they fail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "明白了，通知各舰，我们将会在45分钟后进入镜面海域的影响范围。",
+			say = "Understood. All units, listen carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "届时，我们与外部联络大概率将会中断，这是正常现象，让各舰不要惊慌。",
+			say = "In forty-five minutes, we will enter the Mirror Sea. Communications with the outside will most likely be cut off. This is expected – remain calm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "同时，各舰根据孟菲斯的命令调整队形，准备应战。",
+			say = "Memphis will give you orders to adjust your formations, so listen to her and prepare for battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,11 +895,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（一下子又回到以前的状态，真不习惯啊。）",
+			say = "(Things are just like they used to be. It's almost disconcerting.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（之后问一下海伦娜有没有什么能够分享出来的技术好了……）",
+			say = "(I should ask Helena META if she has any tech she can share with us...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,7 +955,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（嗯，实在不行让星海去逆向解析也行，这总不会拒绝了吧……）",
+			say = "(Worst case, I can have her reverse engineer it at the Sea of Stars. I doubt she'll say no to that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

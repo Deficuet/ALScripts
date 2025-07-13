@@ -16,7 +16,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开仓库",
+				text = "Tap to open your depot.",
 				mode = 2,
 				posY = -229.8,
 				dir = 1,
@@ -40,7 +40,7 @@ return {
 				"IntroduceEquip"
 			},
 			style = {
-				text = "介绍下装备页面",
+				text = "Now, we will introduce the Gear page.",
 				mode = 2,
 				posY = -162.96,
 				dir = 1,

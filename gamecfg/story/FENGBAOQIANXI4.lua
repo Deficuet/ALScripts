@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "level02",
-			say = "白鹰近海 冲突海域 Risk 1",
+			say = "Eagle Union coastal waters \n\tSiren Threat Assessment Rating: 1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇！简直像聚团的鱼群一样...没想到防线内残留了这么多敌人",
+			say = "Man, wasn't expecting to see this many Sirens 'round here...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都是些失去了指挥的杂鱼，又在被作战部队围剿，对我们倒是没有实质威胁",
+			say = "Just a bunch of stragglers. We could zoom by without bothering to mop 'em up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这个数量啊...看来要想成功和大姐头汇合，首先要清理出一条路才行",
+			say = "... is what I'd like to say, but we can't group up with Cleve until we get rid of 'em.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算面对再弱小的敌人也不能大意轻敌，大家打起精神来",
+			say = "Don't underestimate the enemy. You never know what'll happen when Sirens are involved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各舰自由开火，前进！",
+			say = "All units, prepare to engage! Don't get cocky!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

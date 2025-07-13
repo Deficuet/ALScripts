@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>三　静谧之时</size>",
+					"Lord of Raging Seas\n\n<size=45>3 A Quiet Moment</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "送走{namecode:470:彼得·史特拉塞}后，我重新回到了指挥室。",
+			say = "After Peter Strasser's exit, I go back into the office.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "因为{namecode:480:埃吉尔}将所有的文件分门别类地整理好，原本预计要通宵才能处理完的工作，在夜半时分就全部处理完毕了。",
+			say = "Thanks to Ägir's help sorting the files, work that could've taken all night to do has been finished as early as midnight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我看向另一旁的办公桌。",
+			say = "I look at the desk she's working at.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，{namecode:480:埃吉尔}正用手肘撑着自己头，一脸倦色。",
+			say = "She's sitting with her head in her hands, plumb tired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "怎么了，指挥官，你是有什么想对我说的吗？我允许你说出来。",
+			say = "What's wrong, Commander? Got something to say? You may speak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "察觉到我的视线后，少女重新换上了一副骄矜的神色。",
+			say = "Noticing my eyes on her, she returns to her usual imperious demeanor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果不是有{namecode:480:埃吉尔}在的话，今天肯定不会这么轻松。",
+			say = "If I didn't have you here, today would've been a lot more difficult.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我很庆幸有你在身边。",
+			say = "I'm really happy you were here with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "什……咳嗯，指挥官，既然如此，是不是应该为深渊之神送上“祭品”呢？",
+			say = "Wha...?! Ahem! If you think so, then perhaps you should provide an offering to the lord of the abyss?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "不然，我就只能让指挥官付出别的代价了呢~",
+			say = "If you won't, then I expect some other means of recompense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,18 +170,18 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“祭品”啊……让我想想。",
+			say = "An offering, huh... Let me think about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "约{namecode:480:埃吉尔}吃饭",
+					content = "How about we go out to eat together?",
 					flag = 1
 				},
 				{
-					content = "约{namecode:480:埃吉尔}逛街",
+					content = "Wanna go shopping with me?",
 					flag = 2
 				}
 			}
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我知道港区里有一家不错的餐厅，休息日那天一起去吗？",
+			say = "I know a nice restaurant here at port. Let's go on our next day off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……虽然一顿饭无法满足荒海之神的胃口……",
+			say = "Heehee... One meal is far from enough to sate my hunger...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过既然是你献上的心意，那应允也无妨。",
+			say = "But if that is your heartfelt offering, then I'll accept.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "等到休息日那天，一起去逛街吧。",
+			say = "Next time we're off, how about we splurge a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？逛街？这是要买东西给我么？不过，我要的东西……",
+			say = "Ooh, shopping? Do you plan to buy me something? But what I want is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你可要做好觉悟呢，哈哈哈哈~",
+			say = "Commander, you'd better prepare yourself. Heehee♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "不过，这样的话就是我们两个独处了呢，指挥官。",
+			say = "I see you trying to be alone with me on our day off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "简直就像是约会一样啊……还是说，你就是这么打算的？",
+			say = "The very definition of a date... Was this your plan from the start?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，就是约会。",
+			say = "Yeah. It's a date.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "你、你你你，直接就说出来了吗！等等，你、你该不会是认真的吧！？",
+			say = "G-gah...! How direct! W-wait, are you serious?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "和方才呈现出的游刃有余截然相反，在听到我的回答后，少女再一次陷入了慌乱之中。",
+			say = "Her bravado disappears in an instant. She's totally shaken by my response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从一开始就是认真的。",
+			say = "When have I not been serious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "这样太狡猾了！指挥官，你真是……！",
+			say = "N-no fair! You don't play fair, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "之后，和{namecode:480:埃吉尔}约好了休息日一起出门后，结束了今天的工作。",
+			say = "After that, we make arrangements to go out together, and another hard day of work comes to an end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

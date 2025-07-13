@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样!\n\n<size=45>一　风风火火</size>",
+					"Duelling Sunshine!\n\n<size=45>1 Bright and Bubbly</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port—Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天是新的秘书舰到任的日子",
+			say = "Today, the new secretary ship is supposed to stop by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "我记得这次轮到的人是——",
+			say = "If I remember correctly, she should be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "Hello，指挥官，我是大黄蜂哦！今天开始我就是你的秘书舰啦！",
+			say = "Yo, Commander, were you waiting for me? I'll be in charge of secretarial duties starting today!",
 			effects = {
 				{
 					active = true,
@@ -102,7 +102,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "呃…从流程上来讲，我是不是应该先敲个门？",
+			say = "Oh shoot... Should I have knocked first?",
 			effects = {
 				{
 					active = false,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然这位新秘书舰的突然闯入令人有些措手不及，不过还是向她示意了“没关系”。",
+			say = "I was a bit surprised by this greeting, but I shrugged it off and told her it was fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "嘿嘿，秘书舰的工作我已经事先全部了解过了~指挥官请不用客气，尽管把事情交给我吧！",
+			say = "Hahaha, I've already learned how to do a secretary's duties, so feel free to rely on me for just about everything~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如同刚才风风火火地闯入一般，大黄蜂处理起工作来也是雷厉风行。",
+			say = "...Just as she said, Hornet went about doing tasks with just as much vigor as her greeting from earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "偶尔有一些拿不准的地方，在经过提示后也能很快掌握诀窍。",
+			say = "Even when she came across something she wasn't familiar with, once I taught her, she got it pretty quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "照着这个节奏，今天的工作应该很快就能结束了——",
+			say = "At this rate, we should be done with today's work in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿，指挥官，有你的信！接好了！",
+			say = "Haha, here's some mail! Commander, catch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "伸手接住",
+					content = "Caught it!",
 					flag = 2
 				}
 			}
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "还没等反应过来，信件就在空中华丽优雅地转了几圈后落到了地面上。",
+			say = "She didn't even wait for my response, a piece of paper soon flying across the room and landing on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，抱歉抱歉，想着你应该能接住的……",
+			say = "Ah... Sorry, sorry. I thought you'd be able to catch it no problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "大黄蜂俯身捡起落在地上的信件，这一次老老实实地递了过来。",
+			say = "Picking up the letter, she calmly handed it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "Nice！",
+			say = "Nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "见我接住了飞来的信件，大黄蜂向我比了个大拇指。",
+			say = "Seeing me catch the letter she tossed at me, she gave me a thumbs up with a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呼——第一天的工作顺利完成！指挥官辛苦啦！",
+			say = "Whew... And that's a wrap to my first day as a secretary! Cheers, Commander~!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -368,7 +368,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞大黄蜂",
+					content = "\"You certainly lived up to your reputation as a Yorktown-class ship!\"",
 					flag = 1
 				}
 			}
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#92fc63",
-			say = "毕竟我可是约克城级的小妹，不能拖了姐姐们的后腿呢！嘿嘿~",
+			say = "I'm the youngest member of the Yorktown-class. I can't sully their honor, you know, hahaha~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

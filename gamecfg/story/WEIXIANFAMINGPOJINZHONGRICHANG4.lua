@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "港区·游泳池附近。",
+			say = "Port - Pool",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "正在寻找有趣事物的娜娜，漫步走到了港区的游泳池附近。",
+			say = "After wandering around in search of something fun to do, Nana found herself near the port's pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "说起来，我记得姐姐提过港区里有非常棒的露天游泳池呢……",
+			say = "Lala did say there was a great outdoor pool here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "说是使用了某种特殊的技术，让水温一年四季都非常舒适，而且水质也非常好……",
+			say = "Apparently they use special tech to make the water a comfy temperature all year, and the water is always clean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我也有点想游泳了……虽然没准备泳衣，但果然还是先去看看好了！",
+			say = "Well, now I wanna swim. I didn't bring a swimsuit, but I might as well take a look around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "娜娜循着路上的标识，来到了游泳池旁。",
+			say = "She followed the signs and headed over to the pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "清新的水汽迎面扑来。",
+			say = "The air around the pool was pleasant and refreshing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "而泳池里，几位少女正在按照自己的节奏游着泳。",
+			say = "A few friends from port were swimming at their own paces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:66:高雄}双臂在水中划出完美的弧线，轻盈地划过水面。",
+			say = "Takao's arms drew perfect arcs as she swam, and Bluegill traveled quickly yet gracefully in the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "蓝鳃鱼则快速而灵巧地穿梭于泳池中，一旁的{namecode:526:扎拉}则是在优雅地仰泳，像是在享受着水的包围。",
+			say = "Zara meanwhile swam slowly and elegantly on her back, as if enjoying the water's embrace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇……好厉害……港区的大家还真是与众不同……",
+			say = "Whoa... Everyone here is so good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "作为普通的放松居然也能游得这么棒……",
+			say = "They're just relaxing, but they look like they could win a race.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "嗯？娜娜小姐……？",
+			say = "Oh? Nana?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你一直在那里看着么，娜娜小姐？",
+			say = "How long have you been watching us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不好意思！我不是要偷看……",
+			say = "S-sorry! I didn't mean to gawk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "只是觉得你们游得很好啦……所以情不自禁就……！",
+			say = "It's just that you're all such good swimmers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "意识到自己的行为有些欠妥的少女急忙出声解释。",
+			say = "Realizing that she was being impolite, she got flustered and tried to explain herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108040,
-			say = "欸？这个有什么好道歉的啦！",
+			say = "Hey, that's nothing to apologize over!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再说了，娜娜小姐会过来应该也是打算来游泳吧~？",
+			say = "You came to swim too, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "还有点犹豫……所以就打算先来看看这样……",
+			say = "I'm still not sure... I was kind of just taking a look, I guess...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莫非是娜娜小姐不擅长游泳？",
+			say = "Are you... a poor swimmer, perhaps?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有那种事！",
+			say = "No way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "我其实是擅长游泳的那一类啦！",
+			say = "I'm actually pretty darn good at it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "既然这样，不如来和我们一起游？",
+			say = "In that case, why don't you join us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "只是在岸上看着，应该也会觉得有点无聊吧？",
+			say = "It can't be that fun to sit around and watch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "但是我没带泳衣……",
+			say = "But I don't have a swimsuit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "没关系，穿我的备用泳衣也可以哦~？我还没穿过呢~",
+			say = "Use one of mine. I haven't even worn it before, so don't worry about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "那，那种尺寸的怎么可能啦……！",
+			say = "I-it's obviously not gonna fit...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "少女在纠结了一番后，想游泳的心情还是占据了上风。",
+			say = "Nana struggled over the question for a while, but in the end, she decided that she wanted to swim too much to care.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "算了……回去再换衣服吧。",
+			say = "Welp... I can just change clothes after, I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "做出了决定后，少女跃入了泳池之中。",
+			say = "She muttered in resignation, resolved herself, and jumped into the pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……这个时间来游泳果然最棒了！",
+			say = "Phew... Swimming is the best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可你明明刚才还在犹豫哦？果然除了泳衣之外还有别的原因吧！",
+			say = "Hm? You were all unsure before. Was there something other than the swimsuit on your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "才，才没有！",
+			say = "N-no!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,48 +490,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "像是为了掩饰自己的情绪，少女说完后便以优美的姿态游向了前方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_164",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 603021,
-			say = "呵呵，我果然没有猜错，娜娜小姐的泳技很厉害。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303112,
-			side = 2,
-			bgName = "star_level_bg_164",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这个是怎么猜出来的？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_164",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 603021,
-			say = "娜娜小姐的肌肉线条，一看就是擅长游泳的类型。",
+			say = "Nana immediately started swimming with beautiful form, hoping to avoid further questioning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +504,20 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "所以刚刚我才一直没有说话。",
+			say = "Heheh. I knew it – you're a great swimmer!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303112,
+			side = 2,
+			bgName = "star_level_bg_164",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Might I ask how you inferred that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +531,35 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603021,
-			say = "或许是作为客人还多少还有些拘谨吧……",
+			say = "Look at her muscles. I could tell she was a good swimmer from that alone.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_164",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 603021,
+			say = "That's why I didn't say anything before.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_164",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 603021,
+			say = "She's a guest, so she must have some residual shyness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "娜娜小姐，就请把这里当做自己的家吧，我们随时欢迎你一起游泳！",
+			say = "Nana, consider this your home. Relax. We welcome you to join us any time you want!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "{namecode:66:高雄}提高了自己说话的音量，确保娜娜能够听得到。",
+			say = "Takao raised her voice so that Nana would be sure to hear her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼……这是你说的哦……当成自己的家……那我也不客气了！",
+			say = "Ooh... If that's how you feel, then I'll take you up on that offer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100020,
-			say = "我们比比看谁游得更快吧！",
+			say = "Let's race! Who here is the fastest swimmer?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "说完，娜娜突然再度加速，在大家看不到的远处，脸上露出了开心的笑容。",
+			say = "With that, she swam off at max speed with a big smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "阳光洒在翻起的波光水面之上，泳池中再度充满了少女们的欢声笑语。",
+			say = "The sun reflected on the rippling water, and the pool was once again filled with joyous laughter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

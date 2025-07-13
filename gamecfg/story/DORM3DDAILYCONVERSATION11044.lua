@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……最近的训练水平又有提升，太好了！",
+			say = "Hmm... My training results are improving lately! Very nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}已经很强了。",
+			say = "I think you're strong enough already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还不够呢！Black Dragon还可以为了Honey变得更强！",
+			say = "Not at all! The Black Dragon has to be the strongest ever to protect you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "强到什么都能一下解决的话，能和Honey共处的机会不就更多了吗？",
+			say = "If I can get strong enough to kill any enemy in one blow, then that would give me so much more time with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,11 +13,11 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"<size=22.5>Opposite-colored Bishops\n</size>异色格象",
+					"Operation Divergent Chessboard",
 					2
 				},
 				{
-					"    ——双方棋手各有的一个象存在于不同色的棋格里，它们将永远无法接触",
+					"——If two opposing bishops are on different-colored squares, they would be fated to never meet.",
 					2
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actorName = "???",
 			withoutPainting = true,
 			blackBg = true,
-			say = "醒醒，战斗开始了",
+			say = "Wake up. The battle is about to begin.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "……我好像作了一个很漫长的梦",
+			say = "...I had a really long dream.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -109,7 +109,7 @@ return {
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "梦里面是一片冰天雪地以及…孤独与寂寞，那种感觉，似乎就像真的发生过一样…",
+			say = "I dreamed of a world of ice... A lonely, desolate world on the border between the transient and reality...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -129,7 +129,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			say = "梦？不，你不会做梦的，如果有，那只会是一个遥远的记忆",
+			say = "A dream...? Nonsense. A mere Pawn like you does not dream. Even if you did, it would merely be a fragment of your own thoughts, like a hallucination.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "切，我才没有闲功夫管你是看到什么奇怪的幻觉还是做了什么无聊的梦",
+			say = "Bah, who cares whether you were dreaming or hallucinating. It doesn't matter either way.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "我只知道现在的局面是，「白方<White>」的「棋子<Piece>」们都已经进入「镜面海域」了",
+			say = "The only thing that matters now is that the White Pieces have entered the Mirror Sea.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "不想成为「弃子<Sacrifice>」的话，就马上做好准备战斗吧",
+			say = "If you don't want to get sacrificed then you'd better get ready to fight.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -209,7 +209,7 @@ return {
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "「弃子<Sacrifice>」…吗？",
+			say = "Sacrificed, huh...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "嘻嘻~就让本大小姐作为先手出战吧，拦截作战对我来说就跟家常便饭一样，只不过是又一次无聊的觅食罢了～",
+			say = "Ahhah~! I, Deutschland, will spearhead the attack! Interceptions are my forte, after all! I bet it'll just be another round of shooting fish in a barrel anyway.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -251,7 +251,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,
-			say = "就让世人重新领略下世界第一装甲舰<Panzerschiffe>的伟大之处吧！",
+			say = "They will learn the true horror of facing the best Panzerschiff in the world!",
 			shake = {
 				speed = 1,
 				number = 3

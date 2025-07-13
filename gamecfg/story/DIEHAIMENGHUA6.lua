@@ -13,7 +13,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……大家注意，有敌人。",
+			say = "...Watch out, everyone. I see enemies!",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种一瞬间的变化……我们已经进入镜面海域内部了。",
+			say = "That sudden disturbance... We've already entered a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么可能？！这片海域已经很久没有塞壬入侵了，刚刚{namecode:103}她们也平安无事的通过了啊！！",
+			say = "How can that be?! It's been ages since Sirens have entered these waters, and besides, Chiyoda and Chitose passed through a moment ago without any issues!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 301840,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来是在这里特意等着我们的呢…也就是伏击战！",
+			say = "By the looks of things, were they waiting for us... We've been ambushed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说，塞壬伏击的目标就是……{namecode:182}大人，一会战斗的时候请绝对不要离开我的身边。",
+			say = "The Sirens must be after... Lady Shinano, the Sirens will surely be targeting you! Please do not leave my side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……拜托汝等了。妾身也会竭尽全力战斗的。",
+			say = "\"...Very well. This one shall do whatever she can.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是可恶，居然瞄准{namecode:182}大人最虚弱的时候袭击过来…！",
+			say = "Those bastards! They're trying to take advantage of Lady Shinano when she's most vulnerable...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不能让它们的阴谋得逞，以{namecode:182}大人为中心排列战斗队形，准备作战！",
+			say = "Don't let their little plan succeed. Enter battle formation around Lady Shinano and prepare to engage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

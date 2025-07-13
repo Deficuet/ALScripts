@@ -15,15 +15,15 @@ return {
 			bgm = "battle-maid",
 			sequence = {
 				{
-					"接管第四日  04:10:15",
+					"Vicinity of Kerguelen Islands - Early Dawn",
 					1
 				},
 				{
-					"皇家海军安塔迪卡洋舰队",
+					"Royal Navy Antarctic Fleet",
 					2
 				},
 				{
-					"安塔迪卡洋舰队司令部",
+					"Basilica Investigation Primary Team",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——（敲门声）。",
+			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -67,10 +67,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "斯库拉",
+			actorName = "Scylla",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "深夜打扰了，怨仇女士。有来自银底洋方向发来的紧急联络。",
+			say = "Pardon for disrupting you this late, Lady Implacable, but there is an urgent message from the islands' patrol fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……这个点？",
+			say = "Mmh... Mrgh... A message? At this hour?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等，斯库拉，我要准备一下。",
+			say = "Alright, give me a minute or two to wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "五分钟后——",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "进来吧，斯库拉……",
+			say = "Okay, I'm ready, Scylla.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "女王陛下在上，究竟是什么事需要在这个点发紧急联络过来……",
+			say = "So, what's this about an urgent message?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "银底洋方向的事务应该由那边的司令部处理才对吧……",
+			say = "You said it's from our patrol fleet, not Argus or Royal Oak?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "通讯来自我们在银底洋方向的巡逻舰队，据称是在凯尔盖朗岛周边发现了异常状况。",
+			say = "Correct. The fleet is reporting unusual sightings around the Basilica island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "因岛屿附近海域突发的通讯干扰，巡逻舰队花费了些时间才把消息送过来。",
+			say = "Apparently, all contact with the island was suddenly lost last night. Everyone in the area promptly evacuated to relay this information.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "凯尔盖朗岛周边发生异常状况？！我有种不好的预感……快把电报拿给我看！",
+			say = "All contact was lost, just like that? I fear for the worst... Show me the timeline.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……巡逻舰队于21：00经过凯尔盖朗岛时对接管分队进行呼叫……",
+			say = "2100 hours, patrol fleet attempts scheduled contact with Argus...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……发现接管分队失去联络，派出的侦察机亦遭遇强电磁干扰失联……",
+			say = "It was discovered the signal was being jammed. Recon aircraft were sent out, but vanished without a trace...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……21:35，接受到散射电波，判定为SOS信号……",
+			say = "2135, received an SOS signal from the Basilica island...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……十分钟后，遭遇未知敌人袭击，舰队遂向后撤离。",
+			say = "2145, patrol fleet is attacked by an unidentified enemy approaching from the Basilica island's direction. Patrol fleet immediately retreats...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "根据规定，派遣至凯尔盖朗岛的维希圣堂接管分队需要于每日18时与司令部进行一次定期联络。",
+			say = "Yes. Following emergency protocols, they contacted us as soon as they could.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "昨日的联络是按时进行的，当时汇报的内容为“圣堂内部一切正常”。",
+			say = "The message prior to this arrived on time and reported nothing unusual. It was only after that that the unusual activity began.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也就是说异常状况发生在昨日18点到21点之间的某个时间点……距离现在至少过去七八个小时了。",
+			say = "In other words, something happened in the span of those few hours.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "你来找我之前肯定已经试图联系过那边了吧，结果怎么样？",
+			say = "Since you got the news first, what action have you taken?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "结果为无应答，我们跟圣堂接管分队失去联络了。",
+			say = "I have attempted to radio the advance team, but failed due to the jamming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "非常抱歉，怨仇女士。",
+			say = "I'm sorry that I failed to anticipate any of this, Lady Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "前三次汇报里都说一切正常，然后突然一下子就变成这样……",
+			say = "Don't be. Her Majesty warned us to expect the unexpected with that Basilica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就知道陛下关注那里是有原因的。",
+			say = "It was practically a given that something would go awry during this investigation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "要立刻安排救援行动么？",
+			say = "What shall we do now? Begin a rescue mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那是自然。事关重大，我要亲自带队前往。",
+			say = "Of course. They require our assistance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "遵命，我立刻去安排。",
+			say = "Understood. I shall contact the patrol fleet and let them know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "请稍等一下，斯库拉。",
+			say = "One moment, Scylla. I'd like to ask you something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了避免忙中出错，在出发之前我们有必要先对可能遭遇的敌人有一个大致推测。",
+			say = "Who do you think is behind this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "关于这一点我想听取一下你的看法。",
+			say = "We'll learn soon enough, but I want to hear your guess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "如果有我能帮上忙的地方的话。",
+			say = "What exactly do you want me to guess, Lady Implacable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得是谁引发了这次事件？",
+			say = "Who our enemy is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "一上来就是高难度问题啊，怨仇女士。",
+			say = "That's... quite the loaded question.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "毕竟皇家海军平时树敌实在太多嘛，突然遭受袭击我反而很难一下猜到是谁做的。",
+			say = "Among the Sirens, the META, and the factions we're not exactly on great terms with, there are many potential suspects.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "你觉得会是维希教廷派来夺回圣堂的舰队么？",
+			say = "Let's start with Vichya. Do you think they're trying to take the Basilica back?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我认为没有这种可能性。",
+			say = "That seems rather improbable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "维希教廷的一举一动都处于情报机关的监视之下，舰队规模的行动是一定会被发现的。",
+			say = "We have the Templar Knights under strict surveillance. If they were involved, we would already know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "况且这才过去没几天，先不论她们的舰队是怎么变出来的。",
+			say = "It would be next to impossible for them to amass an attack force completely unbeknownst to Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "如果现在要来夺取，当初又何必要放弃呢。",
+			say = "Furthermore, Vichya's high command withdrew the fleet they had here. Why would they abandon the islands in the first place if they want to recapture them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "言之有理，铁血舰队呢？",
+			say = "Makes sense. What about Iron Blood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "凯尔盖朗岛上的圣堂虽然是维希教廷的资产，不过铁血也有做这种事的前科吧。",
+			say = "Without a doubt, Iron Blood is salivating over the prospect of getting their hands on the technological relics lying inside the Basilica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "看到圣堂被我们占领恼羞成怒前来将其破坏呢？",
+			say = "The question is, would they seek to destroy the relics before they can fall into anyone else's hands?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "我觉得不可能是铁血，理由与之前相同。",
+			say = "I also find that to be highly improbable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "在与构建者的战斗之后，铁血的几乎全部舰队都已经重新回到了情报机关的监视之下。",
+			say = "Ever since their rebellion at Scapa Flow, Iron Blood has been kept under close supervision by the Naval HQ.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "况且在{namecode:435}接手铁血控制权后，她就一直在外交场合强调铁血在击破构建者主机中做出的贡献。",
+			say = "They need allies now more than ever, which may be why they've shown more cordiality and willingness to cooperate, both with Her Majesty and with the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "其意图应该是改善铁血在各阵营中的形象。",
+			say = "Since Bismarck took over, they have not shown any signs of aggression.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "就实际而言，铁血也没有在那之后发动过任何针对碧蓝航线……或是赤色中轴成员的袭击。",
+			say = "And, given their uncertain circumstances, I cannot fathom any reason they would have to change that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "挑起与我们的正面冲突与{namecode:435}目前的方针不符，所以我认为不可能是铁血。",
+			say = "Even if they were aiming to pull the wool over the Naval HQ's eyes again, I doubt they would fall for the same trick twice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,7 +924,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……",
+			say = "Next, there's the Sakura Empire as well, but let's be realistic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "也不可能是重樱所为，她们没理由千里迢迢跑到这里来。",
+			say = "Right. They're on the other side of the world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "塞壬发动袭击的可能性虽然不能排除，不过……对抗塞壬应该也不需要做什么特别准备。",
+			say = "By process of elimination, it seems highly likely that either the Sirens or a hostile META group are behind this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "毕竟我们每时每刻都在大海上进行着对抗塞壬的战斗。",
+			say = "If it is the Sirens, taking care of them should prove simple enough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "自由鸢尾现在没有实力也没有理由与我们发生正面冲突，如果想要拿回圣堂的话应该只能考虑外交手段。",
+			say = "I'd also like to add that betrayal from one of our allies is nigh impossible. If Iris Libre wanted the Basilica, a diplomatic approach would be their only option.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "至于白鹰，我觉得她们应该会等到我们从圣堂中提取到有价值的情报之后再出手。",
+			say = "As for the Eagle Union, they'd be first to know if we got our hands on something valuable. Even assuming they were interested in attacking us, a wait-and-see approach would've been more sound.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那么撒丁帝国呢？",
+			say = "Well summarised. Finally, what of the Sardegna Empire?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "您是在对我进行能力考评么，怨仇女士？",
+			say = "Are you testing me, Lady Implacable?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "欸~被你发现了么？",
+			say = "Heehee, so you've noticed? I can tell you've done your homework thoroughly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "毕竟除了明知故问之外，我想不出第二个“由陛下钦定的皇家海军安塔迪卡洋舰队旗舰”会问出这个问题的理由。",
+			say = "Hardly. As your adjutant for this operation, I am simply doing what would normally be expected of me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "您对于我的表现还满意么？",
+			say = "Hopefully my answers have satisfied you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1121,7 +1121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "超出预期的满意哦~",
+			say = "More than satisfied.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1139,7 +1139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我知道陛下一贯有派遣女仆队成员前往各地舰队帮忙的习惯。",
+			say = "In fact, I'm now confident I have the most capable Royal Maid aiding me on this mission.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1157,7 +1157,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不过我们毕竟是初次合作，现在又要一同前往危险的战场，所以多问了点，还请你不要介意。",
+			say = "Please don't take this the wrong way – this is the first time the two of us are working together on a potentially dangerous mission, so it's only natural to feel each other out a bit first, yes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "那是自然的，怨仇女士。",
+			say = "Of course, Lady Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1192,7 +1192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉，你听说帝国博物馆的失窃案了么？",
+			say = "Speaking of Sardegna, I assume you're already aware that a number of exhibition items were stolen from both the World Expo site as well as our own repositories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1210,7 +1210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "之前有从情报网中看到过类似的情报……现场的证据似乎指向了未知的META，不过具体情况尚未查清。",
+			say = "Yes, and the culprits behind the incidents were tracked back to separate groups – Sirens in the case of the World Expo, and an unknown META in our own case.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1228,7 +1228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "没错，最近似乎有来源不明的META正在与皇家作对哦。",
+			say = "Indeed. We were warned of potentially hostile META factions, and this may be evidence of just that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1246,7 +1246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "……我们驻守在此处的舰队规模并不大，如果要准备针对META的作战行动，需要向白鹰请求支援么？",
+			say = "Should I contact the Eagle Union and request backup, just in case?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1264,7 +1264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "接管凯尔盖朗岛的维希圣堂一事，陛下不希望闹得太大。",
+			say = "No need. Her Majesty doesn't want to draw too much attention to this investigation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1282,7 +1282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "百眼巨人和皇家橡树大人都是十分可靠的战士。",
+			say = "It's why our team is small to begin with, and why the patrol fleets are under instructions to avoid direct engagements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1299,7 +1299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你刚刚已经展现了自身的能力，我也恰好有点战斗力。",
+			say = "Besides, even if we're dealing with a META group, we should be able to hold our ground without the Eagle Union.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1317,7 +1317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "再加上前几天从银底洋方面调动来的英雄，这件事就靠我们自己的力量来解决吧。",
+			say = "We won't call for outside help unless absolutely necessary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1335,7 +1335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "不好……不知不觉稍微聊得有点久了。你去准备吧，我给陛下发完消息就去港口与你们汇合。",
+			say = "In any case, Hero will be here soon. You go on ahead, and I'll report the situation to Her Majesty first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1353,7 +1353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "遵命，怨仇女士。",
+			say = "As you say. I'll see you soon, Lady Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1371,7 +1371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "以女王陛下之名，我一定会让这件事顺利解决的！",
+			say = "Mhm. Let's ensure this mission is a success.",
 			painting = {
 				alpha = 0.3,
 				time = 1

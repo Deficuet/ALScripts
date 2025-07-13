@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.memory_storyline = {
 	{
-		description = "将至的“大演习”，智斗与勇武交汇的演武场之上，阻挡「王将」前进之路的「步兵」是……？",
-		name = "苍红的回响·上",
+		description = "A battle of wits and courage will intersect in this upcoming grand exercise. The general's path is blocked by soldiers – who do they serve?",
+		name = "Crimson Echoes - Part 1",
 		world_id = "",
 		memory_lock = 0,
 		column = 1,
@@ -47,8 +47,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "异色格象——双方棋手各有的一个象存在于不同色的棋格里，它们将永远无法接触。",
-		name = "「异色格」作战",
+		description = "Bishops of opposite color – two beings forbidden to ever touch, existing as reflections of a mirror.",
+		name = "Divergent Chessboard",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -68,8 +68,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「仁慈的主啊，愿您的光辉能照耀至教国的每一处——」\n「护佑我等的和平与希望——」\n「护佑我等平静又安宁的日常——」",
-		name = "来自鸢尾的天使",
+		description = "\"O, Holy Iris, we thank you for watching over us today. I pray we will have your protection tomorrow and the day after as well. Please grace us with your blessings so we may live in peace forever more.\"",
+		name = "Angel of the Iris",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -90,8 +90,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "从隐秘的不冻港到宏伟的极地要塞，一场极地的破冰之旅就要开始了。",
-		name = "深度回音·上",
+		description = "A team of Northern Parliament shipgirls set out to investigate a mystery resting at the bottom of a distant sea.",
+		name = "Abyssal Refrain - Part 1",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -139,8 +139,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「希望我们有能再次相见的一天，腓特烈。」\n「俾斯麦，让我们一同向着未来进发吧。」",
-		name = "远汇点作战·上",
+		description = "\"I hope we will meet again, Friedrich.\" – \"Let us march for the future, Bismarck. Together.\"",
+		name = "Operation Convergence - Part 1",
 		world_id = "",
 		memory_lock = 0,
 		column = 3,
@@ -164,8 +164,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "高举战无不胜的鹫旗，吾辈再次凯旋。鸢尾之安危，吾辈之担当。纵使烈焰灼身，吾辈义无反顾。",
-		name = "杰诺瓦的焰火",
+		description = "\"May our flag fly victoriously over every battlefield. May our might bring peace to the land. Even should we be engulfed in flames... we will continue to tread forth dauntlessly.\"",
+		name = "The Flame-Touched Dagger",
 		world_id = "",
 		memory_lock = 0,
 		column = 4,
@@ -188,8 +188,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "前往搜索攻击维希教廷的皇家H舰队，在途中遭遇了塞壬舰队前锋，一场遭遇战即将打响..……",
-		name = "光与影的鸢尾之华·上",
+		description = "In the middle of their search for a Vichya Dominion force, the Royal Navy's fleet encounters Sirens. Thus, a battle unfolds.",
+		name = "Iris of Light and Dark - Part 1",
 		world_id = "",
 		memory_lock = 0,
 		column = 5,
@@ -217,8 +217,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一场神圣的喜剧，一场神圣的悲剧。古老的帝国在风雨中摇摆，璀璨的宝石，却依然闪耀着亘古不变的光芒。",
-		name = "神圣的悲喜剧",
+		description = "A holy play, equal parts comedic and tragic. An old empire, shaking in the storm. A radiant gem, still glowing with an eternal light.",
+		name = "Empyreal Tragicomedy",
 		world_id = "",
 		memory_lock = 0,
 		column = 6,
@@ -240,8 +240,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "我们的生存空间，不是靠乞求和抗议来实现的。铁血没有别的路可走，唯有奋斗！——Eisen und Blut über alles！",
-		name = "铁血、音符与誓言·上",
+		description = "From this point onwards, we will pay no heed to deception, debate, and other such cheap parlor tricks! We shall expand our lands with the might of our black iron and the courage of our crimson blood!",
+		name = "Scherzo of Iron and Blood - Part 1",
 		world_id = "",
 		memory_lock = 0,
 		column = 7,
@@ -266,8 +266,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>实验对象已入场，开始为「红方」与「蓝方」生产「棋子<Piece>」——参与测试之人，祝你好运。",
-		name = "远汇点作战·中",
+		description = "<<SysLog>> Experiment participants have entered the perimeter. Creating Pawns for use by combatants.",
+		name = "Operation Convergence - Part 2",
 		world_id = "",
 		memory_lock = 0,
 		column = 7,
@@ -299,8 +299,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "世界分崩离析，拥有力量之人站了起来，想要对抗历史的洪流\n殊不知，力量与力量之间互相吸引，唤起了更大的波澜……",
-		name = "战火序幕",
+		description = "When the world starts to crumble, the mighty will rise and stand against the waves of history. Power will contend with power, oblivious that this will cause even bigger ripples.",
+		name = "Campaign Story",
 		world_id = "",
 		memory_lock = 0,
 		column = 8,
@@ -326,8 +326,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「保证书」\n……无论在任何地方，如果俾斯麦姐姐不幸受伤，哪怕是用拖，U556也要把她的姐姐拖回港口……",
-		name = "小小的誓言",
+		description = "\"I, U-556, hereby declare that I will provide any desired assistance to my ally and Lord, battleship Bismarck, at any place on the water, under water, on land, or in the air.\"",
+		name = "One Small Promise",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -347,8 +347,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "俾斯麦丧失了行动力，但仍在负隅顽抗。胜利终将属于我们，为了胡德，为了皇家舰队的荣耀，开火！",
-		name = "铁血、音符与誓言·下",
+		description = "Bismarck is limping, barely able to keep fighting. For retribution, and for the Queen, we shall seize victory here and now!",
+		name = "Scherzo of Iron and Blood - Part 2",
 		world_id = "",
 		memory_lock = 0,
 		column = 9,
@@ -391,8 +391,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>指令已获取，作战名「远汇点」，于远方相汇的交点，数据记录完毕。",
-		name = "远汇点作战·下",
+		description = "<<SysLog>> Instructions received. Operation Convergence has completed beyond the mirror boundary. End of log.",
+		name = "Operation Convergence - Part 3",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -419,8 +419,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "收到急报，PH港受到不明舰队空袭，停泊舰队已陷入火海之中……究竟发生什么事了？",
-		name = "虎！虎！虎！",
+		description = "PH received an emergency report, then the harbor was attacked by an unidentified enemy. The whole fleet anchored there is already ablaze in a sea of fire... What in the world happened?",
+		name = "Campaign Story",
 		world_id = "",
 		memory_lock = 0,
 		column = 10,
@@ -443,8 +443,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "坚守阵地，在敌人没有开枪射击以前，不要先开枪。但是，如果敌人硬要把战争强加在我们头上——那么，就让战争从这儿开始吧！",
-		name = "珊瑚海首秀",
+		description = "Hold your positions and do not fire unless you're fired upon. However, if the enemy wants to force us into a war, then a war they shall have!",
+		name = "Campaign Story",
 		world_id = "",
 		memory_lock = 0,
 		column = 11,
@@ -470,8 +470,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "“AF可能缺少淡水，攻击部队带足淡水”——我们这次可是钓到大鱼了",
-		name = "决战中途岛",
+		description = "\"We may be short on water. Attacking force should bring plenty of drinking water.\" Looks like we have a big one on the hook.",
+		name = "Campaign Story",
 		world_id = "",
 		memory_lock = 0,
 		column = 12,
@@ -494,8 +494,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "尘封的档案，承载着沉重的过去。有些事永远不会被遗忘，但是，我们依然要鼓起勇气迈向明天——",
-		name = "银色档案",
+		description = "The old archives shoulder a heavy past. We may never be able to forget some things, but even so, we must muster our courage to head toward tomorrow.",
+		name = "Silver Archives",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -515,8 +515,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "天城大人，如果是你的话，能告诉我接下来该如何选择吗？",
-		name = "苍红的回响·下",
+		description = "\"Amagi, if you were here, what would you do...?\"",
+		name = "Crimson Echoes - Part 2",
 		world_id = "",
 		memory_lock = 0,
 		column = 12,
@@ -541,8 +541,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "穿越风暴，与同伴离散，瑞鹤独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
-		name = "红染的参访者",
+		description = "After going through a storm and getting separated from her allies, Zuikaku sets foot in unknown waters. Is this the Sanctuary she's been searching for?",
+		name = "Visitors Dyed in Red",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -562,8 +562,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "后辈们，再次一起奋战吧！——新生重樱联合，出击！",
-		name = "归来与新生",
+		description = "Younglings, let us fight once more! Reborn Combined Fleet, full speed ahead!",
+		name = "The Return of the War God",
 		world_id = "",
 		memory_lock = 0,
 		column = 14,
@@ -587,8 +587,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "在凯比尔港修养了将近两年之后，敦刻尔克终于踏上了回家的道路，首先，突破前方的海域吧！",
-		name = "夜幕下的归途",
+		description = "After sustaining injuries at Mers-el-Kébir, Dunkerque and the group of little knights escorting her embark on their home voyage.",
+		name = "The Way Home in the Dark",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -609,8 +609,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "大洋彼岸“最强”的两艘战列舰，为了各自的正义与信仰，在这个宿命的舞台上展开了对决……",
-		name = "光与影的鸢尾之华·下",
+		description = "On both sides of a great ocean, there were two shipgirls. Both had their own brand of justice and a claim to the title of \"the strongest battleship.\" Now, they finally face each other.",
+		name = "Iris of Light and Dark - Part 2",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",
@@ -640,8 +640,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "我曾认为，把所有枪口对准我们的敌人都击败后，就能找回些许的宁静。然而，未来背叛了我们。就算再怎么努力，前方依然只有无尽的战斗……",
-		name = "坠落之翼",
+		description = "I thought by defeating all of my enemies, I'd finally get some peace, but this world's future has betrayed us. Even if the steel of my body creaks, this war will not end.",
+		name = "Fallen Wings",
 		world_id = "",
 		memory_lock = 0,
 		column = 16,
@@ -663,8 +663,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "极北之北，完成护航任务的皇家舰队在返航的途中先后遭遇到了新型塞壬与铁血舰队的袭击……这一切真的只是巧合么？",
-		name = "凛冬皇冠",
+		description = "In the remote Arctic Ocean, a Royal Navy fleet that just concluded its escort mission is attacked by never-before-seen Sirens and Iron Blood... Could it all be a coincidence?",
+		name = "Winter's Crown",
 		world_id = "",
 		memory_lock = 0,
 		column = 17,
@@ -687,8 +687,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了寻找重要的同伴，新生重樱联合的众人回到了令人怀念的故土，然而，等在众人面前的，却是塞壬的舰影..……",
-		name = "墨染的钢铁之花",
+		description = "The brave Sakuran warriors sail homeward to rescue their comrades. Unbeknownst to them, Sirens are lying in ambush en route.",
+		name = "Ink-Stained Steel Sakura",
 		world_id = "",
 		memory_lock = 0,
 		column = 18,
@@ -712,8 +712,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "指挥官即将抵达NY司令部，白鹰舰队正在紧锣密鼓的准备着……然而，陷阱已经布下。视线之外的地方，一场风暴正在酝酿！",
-		name = "风暴前夕",
+		description = "The shipgirls are making preparations to welcome the Commander in NY City. They are oblivious to the storm just out of view that is forming.",
+		name = "Approaching Storm",
 		world_id = "",
 		memory_lock = 0,
 		column = 19,
@@ -736,8 +736,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一场蓄谋已久的意外，两处精心布置的舞台。何为箱庭？谁为病人？\n唯有直面过去，才能走向未来——",
-		name = "箱庭疗法",
+		description = "A preplanned mishap, and two arranged stages. The open sandbox, and the confined subject. Only by confronting the past can one face the future.",
+		name = "Ashen Simulacrum",
 		world_id = "",
 		memory_lock = 0,
 		column = 19,
@@ -760,8 +760,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "远离重樱本岛，供奉着神石「海若」的天岩岛之上，各方面的势力汇聚一堂。渴望力量之人，信仰坚定之人，耍弄权谋之人……祭典就要开始了。",
-		name = "浮樱影华",
+		description = "A sacred stone, known as the Watatsumi, rests enshrined on a distant island in the Sakura Empire. As seekers of power, keepers of faith, and schemers all gather in one place, a new battle draws near.",
+		name = "Swirling Cherry Blossoms",
 		world_id = "",
 		memory_lock = 0,
 		column = 20,
@@ -786,8 +786,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "迷雾突现，白鹰派往巴拿马要塞的增援舰队在不知不觉间迷失在了浓厚的海雾之中——",
-		name = "迷雾之下",
+		description = "As a fleet traverses the Panama Canal, it unwittingly wanders into a strange mist.",
+		name = "Under the Mist",
 		world_id = "",
 		memory_lock = 0,
 		column = 21,
@@ -809,8 +809,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了调查失踪的舰队企业一行人来到了连接大洋的枢纽，巴拿马要塞。迷雾中的同伴、水面下的敌人，当你凝视深渊时——深渊也在凝视你。",
-		name = "微层混合",
+		description = "A fleet has gone missing inside a mist of unexplained origin. Enterprise's fleet mobilizes to find its source and rescue its allies. New Sirens arrive to block their path – while eyes gaze at them from the abyss.",
+		name = "Microlayer Medley",
 		world_id = "",
 		memory_lock = 0,
 		column = 21,
@@ -832,8 +832,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "纵使经历了毁灭与新生，神圣的梦想却从未消散。同志们，团结起来，凝结成最坚固的堡垒，构建出牢不可破的联盟。",
-		name = "北境序曲",
+		description = "Like water are we – you may liquefy us, freeze us, or even vaporize us to fade into the cold winter air. However, whatever form we take, our hearts will never change. Comrades! Unite and build an unbreakable alliance!",
+		name = "Northern Overture",
 		world_id = "",
 		memory_lock = 0,
 		column = 21,
@@ -854,8 +854,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "向上苍奉献信仰，向内心赋予勇气。故事之外，穹顶之下，圣咏之曲再次奏响——",
-		name = "穹顶下的圣咏曲",
+		description = "Furious shocks tainted with darkness. A golden, holy wall woven of hope. Once more, with resolve, strike at Heaven.",
+		name = "Skybound Oratorio",
 		world_id = "",
 		memory_lock = 0,
 		column = 22,
@@ -879,8 +879,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "满载物资的船团正行驶在危险的极地航线上。虽然永夜并不是执行任务的理想时期，不过紧急任务从来就没有选择时间的权利......不是么？",
-		name = "永夜幻光",
+		description = "A merchant fleet loaded with cargo sails through the Barents Sea. While nobody desired to sail through this frigid sea that hardly ever sees the sun, the Northern Parliament's request came first.",
+		name = "Aurora Noctis",
 		world_id = "",
 		memory_lock = 0,
 		column = 23,
@@ -904,8 +904,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "昔者庄周梦为胡蝶，栩栩然胡蝶也。自喻适志与，不知周也。俄然觉，则蘧蘧然周也。不知，周之梦为胡蝶与？胡蝶之梦为周与？",
-		name = "蝶海梦花",
+		description = "Once, Zhuang Zhou dreamed he was a carefree butterfly, not knowing that he was Zhuang Zhou. When suddenly he awoke, he was certain that he was Zhuang Zhou, but did not know if he was Zhuang Zhou who had dreamt he was a butterfly, or a butterfly dreaming that he was Zhuang Zhou.",
+		name = "Dreamwaker's Butterfly",
 		world_id = "",
 		memory_lock = 0,
 		column = 24,
@@ -927,8 +927,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "北境的战士们，挥舞冷彻的冰华，斩断漫长的夜幕，迎接破晓之曙光吧！",
-		name = "破晓冰华",
+		description = "O warriors, wielders of the piercing cold, become the furious storm of daybreak that dispels the darkness of night!",
+		name = "Khorovod of Dawn's Rime",
 		world_id = "",
 		memory_lock = 0,
 		column = 25,
@@ -951,8 +951,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "NA海域大型作战已经开始，指挥官，预祝您战斗顺利。",
-		name = "银翼苍穹",
+		description = "A large-scale operation against the Sirens has begun in the NA Ocean. Give your orders, Commander!",
+		name = "Operation Siren - Trails of Ashen Wings",
 		memory_lock = 0,
 		memory_id = "",
 		column = 26,
@@ -976,8 +976,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "<<SysLog>>T2-XI-N002号镜面海域数据录入结束，试验场设置完毕——测试开始。",
-		name = "负象限作战",
+		description = "<<SysLog>> Data entry of Mirror Sea T2-XI-N002 complete. Test site established. Beginning experiment.",
+		name = "Inverted Orthant",
 		world_id = "",
 		memory_lock = 0,
 		column = 26,
@@ -999,8 +999,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "NA海域被分为了四个战区，其中B战区由皇家海军负责。时机已至，舰队启航！",
-		name = "皇家号令",
+		description = "The operation area is divided into four Zones. Royal Navy, set sail for Zone B!",
+		name = "Operation Siren - Queen's Orders",
 		memory_lock = 0,
 		memory_id = "",
 		column = 27,
@@ -1025,8 +1025,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "在AB战区开战的同时，针对C战区的战斗也开始了。现在白鹰的实力已经今非昔比，其中的变化就让塞壬好好领教一下吧！",
-		name = "渐入迷踪",
+		description = "Intense battles are unfolding across numerous fronts. Eagle Union, show the Sirens your newfound strength!",
+		name = "Operation Siren - Labyrinthine Sea",
 		memory_lock = 0,
 		memory_id = "",
 		column = 27,
@@ -1046,8 +1046,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "在NA海域战场的一角，重樱舰队开启了属于自己的远航——",
-		name = "红樱远航",
+		description = "In a corner of the NA Ocean, a Sakuran fleet has begun a voyage of its own...",
+		name = "Operation Siren - Upon Crimson Winds",
 		memory_lock = 0,
 		memory_id = "",
 		column = 28,
@@ -1072,8 +1072,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「花瓣纷飞，旌旗飘扬。凯旋门下，再铸辉煌。」",
-		name = "复兴的赞美诗",
+		description = "A gust, flower petals, and a hoisted banner. Upon their army's triumph, glory shall be theirs once more.",
+		name = "Daedalian Hymn",
 		world_id = "",
 		memory_lock = 0,
 		column = 28,
@@ -1093,8 +1093,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "碧色号角奏于大洋，赤红之影迷离虚妄。海妖之暗，燃烬之灰，四方势力于此汇聚。仲裁机关的目的与风暴中心的秘密……海域之中隐藏的一切，即将揭晓——",
-		name = "火烬余辉",
+		description = "Amidst beguiling mist, the horn of war is blown. Upon a single point, they converge: The Sirens, the Ashes, the Azur Lane, the Crimson Axis, and the Arbiters – their goal, the secret in the storm's eye.",
+		name = "Operation Siren - Glimmers of Rekindling",
 		memory_lock = 0,
 		memory_id = "",
 		column = 29,
@@ -1120,8 +1120,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「亦或因循守旧，亦或随波逐流。在螺旋的尽头，究竟是绝望，还是希望呢？」",
-		name = "镜位螺旋",
+		description = "Should one adhere to the old way of things, or adapt to changing times? What awaits at the end of the spiral – hope, or despair?",
+		name = "Mirror Involution",
 		world_id = "",
 		memory_lock = 0,
 		column = 30,
@@ -1143,8 +1143,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "意外之旅终于意外之获。在那碧海的光粼之中，命运之轮已然开始转动。隐藏在谜面中的答案，你注意到了么？",
-		name = "碧海光鳞",
+		description = "An unexpected journey with unexpected gains. A gust from the sea sets fate into motion. Has the hidden answer dawned on you?",
+		name = "Upon the Shimmering Blue",
 		world_id = "",
 		memory_lock = 0,
 		column = 30,
@@ -1167,8 +1167,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「现在，我要重铸高塔了。前来阻挡我的神，在哪里？」",
-		name = "逆转彩虹之塔",
+		description = "The operation would test the things that the Iron Blood prided themselves in – chief of which, their audacity to transcend God.",
+		name = "Tower of Transcendence",
 		world_id = "",
 		memory_lock = 0,
 		column = 31,
@@ -1191,8 +1191,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一份来之不易的情报，揭开了一段尘封的往事……度过黑暗的煎熬，黎明终将到来。",
-		name = "黎明之暗",
+		description = "A vignette from the distant past brought to light by intel. It is always darkest before the dawn.",
+		name = "Darkness Within Dawn",
 		world_id = "",
 		memory_lock = 0,
 		column = 32,
@@ -1214,8 +1214,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「完成任务，然后将全员平安带回。这就是我喀琅施塔得立下的誓言，也是我为祖国献上的忠诚！」",
-		name = "深度回音·下",
+		description = "\"I will complete the mission and bring my comrades home safely – that is my promise and my vow to my motherland!\"",
+		name = "Abyssal Refrain - Part 2",
 		world_id = "",
 		memory_lock = 0,
 		column = 32,
@@ -1248,8 +1248,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「逆转彩虹之塔，奏响终幕乐章~Die götter sind tot~」",
-		name = "虹彩的终幕曲",
+		description = "\"Put the Rainbow Tower in reverse and play the final melody. Die götter sind tot.\"",
+		name = "Rondo at Rainbow's End",
 		world_id = "",
 		memory_lock = 0,
 		column = 33,
@@ -1275,8 +1275,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为了拯救皇家海军的荣耀，君主暗自下定了某个决心……",
-		name = "意外的旅途",
+		description = "Monarch steeles her resolve to protect the glory of the Royal Navy...",
+		name = "Letters and Travels",
 		world_id = "",
 		memory_lock = 0,
 		column = 34,
@@ -1298,8 +1298,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「如清风拂面，如冷泉沁淋。少女之姿，近卫之仪。泠然之誓、光耀之庭——」",
-		name = "泠誓光庭",
+		description = "\"Gentle like the summer breeze, cool like the spring river. The coquettishness of a young lady, the strictness of a royal guard. A radiant pledge, a castle of golden light.\"",
+		name = "Pledge of the Radiant Court",
 		world_id = "",
 		memory_lock = 0,
 		column = 34,
@@ -1322,8 +1322,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "撒丁帝国正在筹备世界博览会，为此，向世界各方广发邀约——",
-		name = "撒丁的邀约",
+		description = "A World Expo is being held in the Sardegna Empire, and invitations are sent to all the world's factions...",
+		name = "Where All Roads Lead",
 		world_id = "",
 		memory_lock = 0,
 		column = 35,
@@ -1352,8 +1352,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "所有的史诗都将迎来终结，正如所有的帝国都将走向崩塌。但在那之前，雄鹰依旧振翅高歌于广袤天穹之上。",
-		name = "雄鹰的叙事歌",
+		description = "Just as all empires are bound to collapse, all epic poems are bound to end. Until that time comes, however, the eagle will remain in the vast sky, its wings spread wide and its song reaching far.",
+		name = "Aquilifer's Ballade",
 		world_id = "",
 		memory_lock = 0,
 		column = 35,
@@ -1384,8 +1384,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「将欲弱之，必固强之。将欲去之，必固兴之。此乃以柔克刚，以弱胜强之道也。」",
-		name = "静海惊雷",
+		description = "\"To save the weak, you must first empower them. To vanquish evil, you must first bolster your ranks. This is the way to temper the firm with the soft and overcome the strong with the weak.\"",
+		name = "Tranquil Sea, Distant Thunder",
 		world_id = "",
 		memory_lock = 0,
 		column = 36,
@@ -1407,8 +1407,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "一副与众不同的棋盘，四位心思各异的棋手，在棋盘上演绎的舞台剧，现在开幕——",
-		name = "紫绛槿岚",
+		description = "On high in a tower in the Sanctuary, a grand game of shogi unfolds. May the greatest tactician with the strongest resolve win.",
+		name = "Violet Tempest, Blooming Lycoris",
 		world_id = "",
 		memory_lock = 0,
 		column = 37,
@@ -1432,8 +1432,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「蝴蝶已经扇动了翅膀，风暴将在何处降临？」",
-		name = "异向偏振",
+		description = "\"The butterfly has flapped its wings. Whereto will the storm go?\"",
+		name = "Causality Transposition",
 		world_id = "",
 		memory_lock = 0,
 		column = 36,
@@ -1455,8 +1455,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「从随机到稳定的定向， 从无限到有限的折叠。蝴蝶既存在于此处，又存在于彼方。」",
-		name = "定向折叠",
+		description = "\"From randomness to exactness, from infinite to finite, the present status folds. The butterfly is both over here and over there.\"",
+		name = "Parallel Superimposition",
 		world_id = "",
 		memory_lock = 0,
 		column = 37,
@@ -1476,8 +1476,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "日之计在于晨，阳光穿过窗帘将金色洒入室内，女王美好的一天即将开始了——",
-		name = "女王的一天",
+		description = "A day's plans start in the morning. As the sun's light peers through the curtains, the queen's grand day is about to begin.",
+		name = "The Queen's Ordinary Day",
 		world_id = "",
 		memory_lock = 0,
 		column = 36,
@@ -1499,8 +1499,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「证物在湮灭中化为灰烬，真相在尘墟中永世封存。」",
-		name = "湮烬尘墟",
+		description = "Transient proof turns to dust in the sands of time, and the truth is forever sealed away in the ruins.",
+		name = "Revelations of Dust",
 		world_id = "",
 		memory_lock = 0,
 		column = 37,
@@ -1521,8 +1521,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "智者在沉思，蜘蛛在编织。浩瀚星空，无垠大海——尽在蛛网中。",
-		name = "智者与蜘蛛",
+		description = "A sage in deliberation. A spider committed to weaving. The stars above, the sea... the web has already ensnared everything.",
+		name = "The Weaver's Omen",
 		world_id = "",
 		memory_lock = 0,
 		column = 38,
@@ -1547,8 +1547,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「身处星盘之上的空相位，将会在何时迎来交汇？」",
-		name = "空相交汇点",
+		description = "\"Where will the phaseless stars converge on the astrolabe?\"",
+		name = "Confluence of Nothingness",
 		world_id = "",
 		memory_lock = 0,
 		column = 38,
@@ -1572,8 +1572,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "本次行动代号「极地风暴」,战役开始时间为今日0100时。请各作战分队提前就位，祝各位旗开得胜！",
-		name = "极地风暴",
+		description = "Operation Frostfall will begin at 0100 hours. Move to your positions swiftly and stand by for battle. That is all, comrades. Good luck.",
+		name = "Frostfall",
 		world_id = "",
 		memory_lock = 0,
 		column = 38,
@@ -1593,8 +1593,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "肆虐的沙尘让这片小小绿洲成为了风暴中的孤岛。无事可做，不如来一场关于往昔的故事会吧——",
-		name = "绿洲往事",
+		description = "The oasis has turned into an isolated island amidst a sandstorm. Since there's nothing else to do, let's share old stories!",
+		name = "Reflections of the Oasis",
 		world_id = "",
 		memory_lock = 0,
 		column = 39,
@@ -1614,8 +1614,8 @@ pg.memory_storyline = {
 		link_event = {}
 	},
 	{
-		description = "为了寻找圣座冠冕，黎塞留一行人出发前往圣赫勒拿。然而此行，注定艰险……l",
-		name = "奏响鸢尾之歌",
+		description = "Richelieu and her party set out to save their comrades and reclaim the Crown of the Holy See. However, the journey ahead of them is fraught with danger.",
+		name = "Anthem of Remembrance",
 		world_id = "",
 		memory_lock = 0,
 		column = 39,
@@ -1637,8 +1637,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "不论有千种安排，都到今夜为止。\n明日——审判将至——祂将降临。",
-		name = "长夜降临之前",
+		description = "Whatever plans and schemes have been laid out, they end tonight. Tomorrow, judgment will come. Tomorrow, He will come.",
+		name = "Eventide's Eve",
 		world_id = "",
 		memory_lock = 0,
 		column = 40,
@@ -1666,8 +1666,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「剧目名为《愚者的天平》，可是，何为愚者？何为天平？」",
-		name = "愚者的天平",
+		description = "\"Who is the eponymous fool in this performance called 'The Fool's Scales,' and what are the scales?\"",
+		name = "The Fool's Scales",
 		world_id = "",
 		memory_lock = 0,
 		column = 41,
@@ -1697,8 +1697,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "夜幕中，众人回想起多年前的那场传说之战……",
-		name = "月夜未央",
+		description = "As the curtain of night falls, the Sakurans recollect a great battle of many years ago.",
+		name = "Waxing Moonlight",
 		world_id = "",
 		memory_lock = 0,
 		column = 42,
@@ -1720,8 +1720,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "望月之下，须臾之间，是谁牵动了她的心弦？",
-		name = "须臾望月抄",
+		description = "In a blink under the moonlight, in a corner of the garden, who was it that plucked her heartstrings?",
+		name = "Effulgence Before Eclipse",
 		world_id = "",
 		memory_lock = 0,
 		column = 42,
@@ -1744,8 +1744,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「陆上神国」事件结束了，世界一扫阴霾，沐浴在晴空之下——",
-		name = "晴空之下",
+		description = "The near-superimposition event had been terminated safely, and clear skies enveloped the world.",
+		name = "Beneath Clear, Starry Skies",
 		world_id = "",
 		memory_lock = 0,
 		column = 43,
@@ -1772,8 +1772,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「逐光星海间，何处是归途。」",
-		name = "星海逐光",
+		description = "\"Chasing the light in the sea of stars, where is the path that leads home?\"",
+		name = "Light-Chasing Sea of Stars",
 		world_id = "",
 		memory_lock = 0,
 		column = 43,
@@ -1796,8 +1796,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "为什么要向山而行？因为——山就在前方。",
-		name = "向山而行",
+		description = "Why do you ascend the mountain? Because the mountain is there.",
+		name = "Mist Upon Silver Summits",
 		world_id = "",
 		memory_lock = 0,
 		column = 44,
@@ -1824,8 +1824,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「真实与虚妄、未来与往昔，到头来只剩下这片无垠的白。雪境之中，路在何方？」",
-		name = "雪境迷踪",
+		description = "Soyuz leads a Northern Parliament fleet to the Antarctic for a unique crystal that resonates with riggings, yet someone in their midst has other motives…",
+		name = "Snowrealm Peregrination",
 		world_id = "",
 		memory_lock = 0,
 		column = 44,
@@ -1851,8 +1851,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "彼岸花，曼珠沙华，艳丽、张扬、有毒。早在花开之前，你就已经深陷其中了——",
-		name = "彼岸花开暗香来",
+		description = "Lycoris radiata, the red spider lily – beautiful, garish, and poisonous. It has already lured you in before it blooms.",
+		name = "Spider Lily's Redolence",
 		world_id = "",
 		memory_lock = 0,
 		column = 45,
@@ -1879,8 +1879,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "你听到了么，那跨越了现实与梦境，在星间回荡的彼方之音？",
-		name = "彼方之音",
+		description = "Did you hear it – the distant sound echoing among the stars that transcends reality and dreams?",
+		name = "Echoes From Afar",
 		world_id = "",
 		memory_lock = 0,
 		column = 46,
@@ -1905,8 +1905,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「辉光之城中，你将见证死亡，接受死亡，最终——在死亡之中绽放。」",
-		name = "绽放于辉光之城",
+		description = "\"In the glorious Martyrium, you will witness death, accept death, and be extolled in death.\"",
+		name = "Light of the Martyrium",
 		world_id = "",
 		memory_lock = 0,
 		column = 46,
@@ -1930,8 +1930,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「一曲间奏，一场幻梦。长梦不醒，曲终不散——」",
-		name = "幻梦间奏曲",
+		description = "\"It is both an interlude and a dream. You cannot open your eyes, and the music keeps playing.\"",
+		name = "Interlude of Illusions",
 		world_id = "",
 		memory_lock = 0,
 		column = 47,
@@ -1961,8 +1961,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「万事万物，有因必有果，有果必有因。伪物为果，真物为因。果在，因成。」",
-		name = "朱红迷局",
+		description = "\"The impostor is the effect, the original is the cause. It's only logical.\"",
+		name = "Crimson Prelusion",
 		world_id = "",
 		memory_lock = 0,
 		column = 48,
@@ -1990,8 +1990,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「自由之翼，钢铁之躯。巨鹰展翅，碎浪擎风。」",
-		name = "铁翼擎风",
+		description = "\"Wings of freedom, body of steel. They flap their wings and break the waves!\"",
+		name = "Windborne Steel Wings",
 		world_id = "",
 		memory_lock = 0,
 		column = 48,
@@ -2016,8 +2016,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「斯人已逝，彼岸成花。心有执念，奈落留形。」",
-		name = "埋葬于彼岸之花",
+		description = "\"A soul has departed, leaving behind a flower. Lingering sentiment scatters into the depths.\"",
+		name = "Whence Flowers Bear No Fruit",
 		world_id = "",
 		memory_lock = 0,
 		column = 48,
@@ -2039,8 +2039,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「尘土虽微，聚沙成塔。集此岸之尘，战命定乾坤。」",
-		name = "汇聚于此岸之尘",
+		description = "\"Even the dust carried by the winds, if brought enough of, can build a tower. Let it become your weapon for fighting destiny.\"",
+		name = "Whence the Dust Settles",
 		world_id = "",
 		memory_lock = 0,
 		column = 49,
@@ -2065,8 +2065,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「出于现实，落于幻想。虽有执念，亦是执着。」\n「狐鸣凤影，烈火浴心。苍红之炎，于此新生。」",
-		name = "唤醒苍红之炎",
+		description = "\"Founded on reality, built into fantasy. Attachment is not obsession, and will is the construction of the soul. In the flames of rebirth, the Watatsumi grants a hull. A new life – a singular life – shall be made manifest here.\"",
+		name = "Ode of Everblooming Crimson",
 		world_id = "",
 		memory_lock = 0,
 		column = 50,
@@ -2096,8 +2096,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "所谓归途，并不总能一帆风顺。领域之中尚且如此，领域之外亦存乾坤——",
-		name = "领域外的归途",
+		description = "Returns are not always smooth sailing. This is true within the realm, and even more so beyond it.",
+		name = "Return From the Beyond",
 		world_id = "",
 		memory_lock = 0,
 		column = 51,
@@ -2121,8 +2121,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「在余晖消散前，于星光下尽情探寻吧。寻找那些被白日掩盖的细节，寻找黑夜之中隐藏的——真正秘密」",
-		name = "星光下的余晖",
+		description = "\"Before the glimmer of evening fades, let us search under the stars for the hints hidden by the day and the truth concealed by the night.\"",
+		name = "Substellar Crepuscule",
 		world_id = "",
 		memory_lock = 0,
 		column = 51,
@@ -2148,8 +2148,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「余乃海洛芬特。秉持沟通，提倡交流。受选之人，来余身边。合余之道，颂余之名」",
-		name = "受选者之路",
+		description = "\"I am Hierophant. Upholder of harmony, advocate for diplomacy. O chosen one, come to me. Accept my principles and sing praises of my name.\"",
+		name = "Path of the Chosen",
 		world_id = "",
 		memory_lock = 0,
 		column = 52,
@@ -2174,8 +2174,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「以天地为笼，化信仰为锁。如此，樊笼之中，亦有神光。」",
-		name = "樊笼内的神光",
+		description = "\"With the world as the enclosure and faith as its lock, let there be God's light within the cage.\"",
+		name = "Paradiso of Shackled Light",
 		world_id = "",
 		memory_lock = 0,
 		column = 52,
@@ -2198,8 +2198,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "经过烈火焚烧的土地，新芽将会更加繁盛。扬起郁金之旗，驶向那充满希望的远方吧——",
-		name = "扬起郁金之旗",
+		description = "In the scorched earth, new buds spring forth. Raise the Tulipan banner and set sail for the glimmering horizon of hope.",
+		name = "Toward Tulipa's Seas",
 		world_id = "",
 		memory_lock = 0,
 		column = 53,
@@ -2224,8 +2224,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "愿帝国的太阳永不落下，愿帝国的舰队永远强盛——",
-		name = "日不落的远征",
+		description = "May the sun never set on the empire, and may it remain mighty forevermore...",
+		name = "March of the Neversetting Sun",
 		world_id = "",
 		memory_lock = 0,
 		column = 54,
@@ -2248,8 +2248,8 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "「蔷薇塔，就由我来守护你。然后，我们一同守护皇家吧——」",
-		name = "高塔上的蔷薇",
+		description = "\"Heed me, Rose Tower: I will be your protector. Together... we will protect the Royal Islands.\"",
+		name = "A Rose on the High Tower",
 		world_id = "",
 		memory_lock = 0,
 		link_event = "",

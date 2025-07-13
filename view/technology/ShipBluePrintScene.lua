@@ -1694,7 +1694,7 @@ function var_0_0.updateAdvanceTF(arg_132_0, arg_132_1, arg_132_2, arg_132_3)
 				var_132_5(var_132_8, var_132_1[iter_132_0])
 			else
 				setActive(var_132_7, true)
-				setText(var_132_7:Find("Text"), var_132_1[iter_132_0][3])
+				setScrollText(var_132_7:Find("Text"), var_132_1[iter_132_0][3])
 			end
 		end
 	end
@@ -1707,7 +1707,7 @@ function var_0_0.updateAdvanceTF(arg_132_0, arg_132_1, arg_132_2, arg_132_3)
 		setActive(var_132_9:Find("attr_tpl"), false)
 		setActive(var_132_9:Find("breakout_tpl"), false)
 		setActive(var_132_9:Find("empty_tpl"), false)
-		setText(var_132_10:Find("Text"), var_132_2[iter_132_1])
+		setScrollText(var_132_10:Find("Text"), var_132_2[iter_132_1])
 	end
 end
 

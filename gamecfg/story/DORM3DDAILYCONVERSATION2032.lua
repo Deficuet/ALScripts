@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}如果身体疲劳的话，我可以帮忙按摩。",
+			say = "{dorm3d}, I can give you a massage if you're feeling tired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过在跟着书里学习按摩手法的时候，我还看到了关于踩背按摩的描写……",
+			say = "Also, I've been reading up on massage techniques, and the book had a section on massages using your feet as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要试试吗？",
+					content = "Wanna give it a try?",
 					flag = 1
 				},
 				{
-					content = "想试试看！",
+					content = "Please step on me!",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真、真的要试吗？！会不会有些过分……而且我也没{dorm3d}想得那么轻……",
+			say = "Y-you sure?! Would it be a bit too much... Also, I'm not as light as you may think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但如果是你的要求，我会努力踩的……是，是全身都要吗？",
+			say = "But if that's what you want... I'll give it my best shot. So, uh, full-body?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

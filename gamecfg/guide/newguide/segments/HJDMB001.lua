@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"点击按钮查看帮助"
+	"Click the button for help"
 }
 
 return {

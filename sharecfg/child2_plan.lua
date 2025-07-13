@@ -2,13 +2,13 @@ pg = pg or {}
 pg.child2_plan = {
 	[1101] = {
 		type = 1,
-		name = "趣球课堂",
+		name = "Play Ballgame",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_1",
 		result_node = 20001,
 		is_show = 1,
 		icon_square = "plan_square_1",
-		name_2 = "趣球课堂",
+		name_2 = "Play Ballgame",
 		id = 1101,
 		group_id = 1,
 		level = 1,
@@ -37,13 +37,13 @@ pg.child2_plan = {
 	},
 	[1102] = {
 		type = 1,
-		name = "巧手课堂",
+		name = "Play with Wooden Blocks",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_2",
 		result_node = 20003,
 		is_show = 1,
 		icon_square = "plan_square_2",
-		name_2 = "巧手课堂",
+		name_2 = "Play with Wooden Blocks",
 		id = 1102,
 		group_id = 2,
 		level = 1,
@@ -72,13 +72,13 @@ pg.child2_plan = {
 	},
 	[1103] = {
 		type = 1,
-		name = "悦读课堂",
+		name = "Read",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_3",
 		result_node = 20005,
 		is_show = 1,
 		icon_square = "plan_square_3",
-		name_2 = "悦读课堂",
+		name_2 = "Read",
 		id = 1103,
 		group_id = 3,
 		level = 1,
@@ -107,13 +107,13 @@ pg.child2_plan = {
 	},
 	[1104] = {
 		type = 1,
-		name = "奇思课堂",
+		name = "Have a Think",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_4",
 		result_node = 20007,
 		is_show = 1,
 		icon_square = "plan_square_4",
-		name_2 = "奇思课堂",
+		name_2 = "Have a Think",
 		id = 1104,
 		group_id = 4,
 		level = 1,
@@ -142,13 +142,13 @@ pg.child2_plan = {
 	},
 	[1105] = {
 		type = 2,
-		name = "律动课堂",
+		name = "Dance Practice",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_5",
 		result_node = 20009,
 		is_show = 1,
 		icon_square = "plan_square_5",
-		name_2 = "律动课堂",
+		name_2 = "Dance Practice",
 		id = 1105,
 		group_id = 5,
 		level = 1,
@@ -166,13 +166,13 @@ pg.child2_plan = {
 	},
 	[1106] = {
 		type = 2,
-		name = "生活课堂",
+		name = "Do Housework",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_6",
 		result_node = 20011,
 		is_show = 1,
 		icon_square = "plan_square_6",
-		name_2 = "生活课堂",
+		name_2 = "Do Housework",
 		id = 1106,
 		group_id = 6,
 		level = 1,
@@ -190,13 +190,13 @@ pg.child2_plan = {
 	},
 	[1107] = {
 		type = 1,
-		name = "体能课程Lv.1",
+		name = "Fitness Work Lv. 1",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20013,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 1107,
 		group_id = 7,
 		level = 1,
@@ -224,13 +224,13 @@ pg.child2_plan = {
 				{
 					20010
 				},
-				"体能<color=#f7f7f7>>=300</color>"
+				"Fitness<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"总属性<color=#f7f7f7>>=600</color>"
+				"Stats Total<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -247,13 +247,13 @@ pg.child2_plan = {
 	},
 	[1108] = {
 		type = 1,
-		name = "体能课程Lv.2",
+		name = "Fitness Work Lv. 2",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20015,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 1108,
 		group_id = 7,
 		level = 2,
@@ -281,13 +281,13 @@ pg.child2_plan = {
 				{
 					20011
 				},
-				"体能<color=#f7f7f7>>=1000</color>"
+				"Fitness<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"总属性<color=#f7f7f7>>=1800</color>"
+				"Stats Total<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -304,13 +304,13 @@ pg.child2_plan = {
 	},
 	[1109] = {
 		type = 1,
-		name = "体能课程Lv.Max",
+		name = "Fitness Work Max Lv.",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20017,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 1109,
 		group_id = 7,
 		level = 3,
@@ -342,13 +342,13 @@ pg.child2_plan = {
 	},
 	[1110] = {
 		type = 1,
-		name = "实践课程Lv.1",
+		name = "Dexterity Work Lv. 1",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20019,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 1110,
 		group_id = 8,
 		level = 1,
@@ -376,13 +376,13 @@ pg.child2_plan = {
 				{
 					20020
 				},
-				"实践<color=#f7f7f7>>=300</color>"
+				"Dexterity<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"总属性<color=#f7f7f7>>=600</color>"
+				"Stats Total<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -399,13 +399,13 @@ pg.child2_plan = {
 	},
 	[1111] = {
 		type = 1,
-		name = "实践课程Lv.2",
+		name = "Dexterity Work Lv. 2",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20021,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 1111,
 		group_id = 8,
 		level = 2,
@@ -433,13 +433,13 @@ pg.child2_plan = {
 				{
 					20021
 				},
-				"实践<color=#f7f7f7>>=1000</color>"
+				"Dexterity<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"总属性<color=#f7f7f7>>=1800</color>"
+				"Stats Total<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -456,13 +456,13 @@ pg.child2_plan = {
 	},
 	[1112] = {
 		type = 1,
-		name = "实践课程Lv.Max",
+		name = "Dexterity Work Max Lv.",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20023,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 1112,
 		group_id = 8,
 		level = 3,
@@ -494,13 +494,13 @@ pg.child2_plan = {
 	},
 	[1113] = {
 		type = 1,
-		name = "阅读课程Lv.1",
+		name = "Knowledge Work Lv. 1",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20025,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 1113,
 		group_id = 9,
 		level = 1,
@@ -528,13 +528,13 @@ pg.child2_plan = {
 				{
 					20040
 				},
-				"知识<color=#f7f7f7>>=300</color>"
+				"Knowledge<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"总属性<color=#f7f7f7>>=600</color>"
+				"Stats Total<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -551,13 +551,13 @@ pg.child2_plan = {
 	},
 	[1114] = {
 		type = 1,
-		name = "阅读课程Lv.2",
+		name = "Knowledge Work Lv. 2",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20027,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 1114,
 		group_id = 9,
 		level = 2,
@@ -585,13 +585,13 @@ pg.child2_plan = {
 				{
 					20041
 				},
-				"知识<color=#f7f7f7>>=1000</color>"
+				"Knowledge<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"总属性<color=#f7f7f7>>=1800</color>"
+				"Stats Total<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -608,13 +608,13 @@ pg.child2_plan = {
 	},
 	[1115] = {
 		type = 1,
-		name = "阅读课程Lv.Max",
+		name = "Knowledge Work Max Lv.",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20029,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 1115,
 		group_id = 9,
 		level = 3,
@@ -646,13 +646,13 @@ pg.child2_plan = {
 	},
 	[1116] = {
 		type = 1,
-		name = "感知课程Lv.1",
+		name = "Sensitivity Work Lv. 1",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20031,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 1116,
 		group_id = 10,
 		level = 1,
@@ -680,13 +680,13 @@ pg.child2_plan = {
 				{
 					20030
 				},
-				"感知<color=#f7f7f7>>=300</color>"
+				"Sensitivity<color=#f7f7f7>>=300</color>"
 			},
 			{
 				{
 					20050
 				},
-				"总属性<color=#f7f7f7>>=600</color>"
+				"Stats Total<color=#f7f7f7>>=600</color>"
 			}
 		},
 		result_display = {
@@ -703,13 +703,13 @@ pg.child2_plan = {
 	},
 	[1117] = {
 		type = 1,
-		name = "感知课程Lv.2",
+		name = "Sensitivity Work Lv. 2",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20033,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 1117,
 		group_id = 10,
 		level = 2,
@@ -737,13 +737,13 @@ pg.child2_plan = {
 				{
 					20031
 				},
-				"感知<color=#f7f7f7>>=1000</color>"
+				"Sensitivity<color=#f7f7f7>>=1000</color>"
 			},
 			{
 				{
 					20051
 				},
-				"总属性<color=#f7f7f7>>=1800</color>"
+				"Stats Total<color=#f7f7f7>>=1800</color>"
 			}
 		},
 		result_display = {
@@ -760,13 +760,13 @@ pg.child2_plan = {
 	},
 	[1118] = {
 		type = 1,
-		name = "感知课程Lv.Max",
+		name = "Sensitivity Work Max Lv.",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20035,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 1118,
 		group_id = 10,
 		level = 3,
@@ -798,13 +798,13 @@ pg.child2_plan = {
 	},
 	[1119] = {
 		type = 2,
-		name = "元气舞蹈",
+		name = "Cheerful Dance",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_12",
 		result_node = 20037,
 		is_show = 1,
 		icon_square = "plan_square_12",
-		name_2 = "元气舞蹈",
+		name_2 = "Cheerful Dance",
 		id = 1119,
 		group_id = 11,
 		level = 1,
@@ -822,13 +822,13 @@ pg.child2_plan = {
 	},
 	[1122] = {
 		type = 2,
-		name = "庄园助手",
+		name = "Farmhand",
 		replace_type_show = 1,
 		icon_rectangle = "plan_rectangle_11",
 		result_node = 20039,
 		is_show = 1,
 		icon_square = "plan_square_11",
-		name_2 = "庄园助手",
+		name_2 = "Farmhand",
 		id = 1122,
 		group_id = 12,
 		level = 1,
@@ -846,13 +846,13 @@ pg.child2_plan = {
 	},
 	[3001] = {
 		type = 1,
-		name = "自由漫步",
+		name = "Walk",
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		result_node = 20501,
 		is_show = 1,
 		icon_square = "plan_square_15",
-		name_2 = "自由漫步",
+		name_2 = "Walk",
 		id = 3001,
 		group_id = 30,
 		level = 1,
@@ -870,13 +870,13 @@ pg.child2_plan = {
 	},
 	[3002] = {
 		type = 1,
-		name = "自由漫步",
+		name = "Walk",
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		result_node = 20503,
 		is_show = 1,
 		icon_square = "plan_square_15",
-		name_2 = "自由漫步",
+		name_2 = "Walk",
 		id = 3002,
 		group_id = 30,
 		level = 2,
@@ -894,13 +894,13 @@ pg.child2_plan = {
 	},
 	[3003] = {
 		type = 1,
-		name = "自由漫步",
+		name = "Walk",
 		replace_type_show = 2,
 		icon_rectangle = "plan_rectangle_15",
 		result_node = 20505,
 		is_show = 1,
 		icon_square = "plan_square_15",
-		name_2 = "自由漫步",
+		name_2 = "Walk",
 		id = 3003,
 		group_id = 30,
 		level = 3,
@@ -918,13 +918,13 @@ pg.child2_plan = {
 	},
 	[3107] = {
 		type = 1,
-		name = "体能课程Lv.1",
+		name = "Fitness Work Lv. 1",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20513,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 3107,
 		group_id = 15,
 		level = 1,
@@ -953,13 +953,13 @@ pg.child2_plan = {
 	},
 	[3108] = {
 		type = 1,
-		name = "体能课程Lv.2",
+		name = "Fitness Work Lv. 2",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20515,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 3108,
 		group_id = 15,
 		level = 2,
@@ -988,13 +988,13 @@ pg.child2_plan = {
 	},
 	[3109] = {
 		type = 1,
-		name = "体能课程Lv.Max",
+		name = "Fitness Work Max Lv.",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_7",
 		result_node = 20517,
 		is_show = 1,
 		icon_square = "plan_square_7",
-		name_2 = "体能课程",
+		name_2 = "Fitness Work",
 		id = 3109,
 		group_id = 15,
 		level = 3,
@@ -1023,13 +1023,13 @@ pg.child2_plan = {
 	},
 	[3110] = {
 		type = 1,
-		name = "实践课程Lv.1",
+		name = "Dexterity Work Lv. 1",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20519,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 3110,
 		group_id = 16,
 		level = 1,
@@ -1058,13 +1058,13 @@ pg.child2_plan = {
 	},
 	[3111] = {
 		type = 1,
-		name = "实践课程Lv.2",
+		name = "Dexterity Work Lv. 2",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20521,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 3111,
 		group_id = 16,
 		level = 2,
@@ -1093,13 +1093,13 @@ pg.child2_plan = {
 	},
 	[3112] = {
 		type = 1,
-		name = "实践课程Lv.Max",
+		name = "Dexterity Work Max Lv.",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_8",
 		result_node = 20523,
 		is_show = 1,
 		icon_square = "plan_square_8",
-		name_2 = "实践课程",
+		name_2 = "Dexterity Work",
 		id = 3112,
 		group_id = 16,
 		level = 3,
@@ -1128,13 +1128,13 @@ pg.child2_plan = {
 	},
 	[3113] = {
 		type = 1,
-		name = "阅读课程Lv.1",
+		name = "Knowledge Work Lv. 1",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20525,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 3113,
 		group_id = 17,
 		level = 1,
@@ -1163,13 +1163,13 @@ pg.child2_plan = {
 	},
 	[3114] = {
 		type = 1,
-		name = "阅读课程Lv.2",
+		name = "Knowledge Work Lv. 2",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20527,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 3114,
 		group_id = 17,
 		level = 2,
@@ -1198,13 +1198,13 @@ pg.child2_plan = {
 	},
 	[3115] = {
 		type = 1,
-		name = "阅读课程Lv.Max",
+		name = "Knowledge Work Max Lv.",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_9",
 		result_node = 20529,
 		is_show = 1,
 		icon_square = "plan_square_9",
-		name_2 = "阅读课程",
+		name_2 = "Knowledge Work",
 		id = 3115,
 		group_id = 17,
 		level = 3,
@@ -1233,13 +1233,13 @@ pg.child2_plan = {
 	},
 	[3116] = {
 		type = 1,
-		name = "感知课程Lv.1",
+		name = "Sensitivity Work Lv. 1",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20531,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 3116,
 		group_id = 18,
 		level = 1,
@@ -1268,13 +1268,13 @@ pg.child2_plan = {
 	},
 	[3117] = {
 		type = 1,
-		name = "感知课程Lv.2",
+		name = "Sensitivity Work Lv. 2",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20533,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 3117,
 		group_id = 18,
 		level = 2,
@@ -1303,13 +1303,13 @@ pg.child2_plan = {
 	},
 	[3118] = {
 		type = 1,
-		name = "感知课程Lv.Max",
+		name = "Sensitivity Work Max Lv.",
 		replace_type_show = 3,
 		icon_rectangle = "plan_rectangle_10",
 		result_node = 20535,
 		is_show = 1,
 		icon_square = "plan_square_10",
-		name_2 = "感知课程",
+		name_2 = "Sensitivity Work",
 		id = 3118,
 		group_id = 18,
 		level = 3,

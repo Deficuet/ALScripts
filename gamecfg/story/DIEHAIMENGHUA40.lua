@@ -14,8 +14,8 @@ return {
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			actor = 900011,
-			actorName = "测试者",
-			say = "警告---装甲破损，能量供应受损，系统即将停止运行。",
+			actorName = "Tester",
+			say = "Armor damaged, energy supply damaged. Critical error in the young program—",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,12 +36,12 @@ return {
 		},
 		{
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "Tester",
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "测试结果录入，{namecode:182}的结局发生改变，存在产生变局的可能性……",
+			say = "Transmitting test data to the intermediate program. A phenomenon similar to but independent from Cognitive Awakening has been observed. Noting possibility of errors within the computation system.",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -96,7 +96,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "测试者，汝失败了。告诉妾身，那场决战的最后发生了什么？虽然只是推测，由火炬变为余烬的故事，汝等也十分清楚吧。",
+			say = "(You've lost, Tester. Tell me about your kind, about \"Antiochus.\" And tell me about what I saw at the end of that dream... those ships, and \"Ember.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,8 +112,8 @@ return {
 			bgName = "bg_mirror",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "…………………………无可奉告。",
+			actorName = "Tester",
+			say = "(I have nothing to tell you. Too bad.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，果然迟到的舰队是汝等的……",
+			say = "(......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "罢了，妾身会用自己的力量寻找出答案，汝在此退场吧。",
+			say = "(...Very well. I shall find the answers myself then...)",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -204,7 +204,7 @@ return {
 			bgm = "story-4",
 			actor = 301840,
 			nameColor = "#a9f548",
-			say = "敌将讨伐~！我们战胜掉测试者了！！",
+			say = "We've eliminated the enemy general! Tester is retreating!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -238,7 +238,7 @@ return {
 			actor = 319010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "物资运输船都平安无恙，镜面海域也在解除…真是精彩的战斗。",
+			say = "The transport fleet has only suffered minor damage! Now, we can all go home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 306090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是重樱的最强航母！首次出战就能神勇无比的解决战斗，真是太华丽了~！",
+			say = "I wasn't even able to do much because Lady Shinano was so strong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诸位过奖了……能让命运的轨迹发生改变非妾身一人之功，汝等的努力也同样重要。",
+			say = "Phew... Only if it was just a single step... we've taken our first step towards overcoming fate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 302210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}……您刚才的战斗状态和威力…身体的力量已经恢复了么！",
+			say = "(Shinano's power is overwhelming, even if it's hard to control. Why did they keep her under the Diadem of Light instead of back on the main island?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊、对啊！刚才在战斗中没有看到{namecode:182}有任何虚弱的感觉，和来之前听说的情报完全不一样哎！",
+			say = "(Time to post to Juustagram! This is gonna go viral for sure!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳，{namecode:60}……",
+			say = "Now, I'll have more to talk about when I'm out drinking with Ise. Ahh, too bad Suruga couldn't be here.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -354,7 +354,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………………",
+			say = "(............)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论这次运输是刻意安排的也好，偶然相遇的也罢…",
+			say = "(In the course of less than a day, I've made my way from the Diadem of Light, through countless dreams, to defeating the Sirens...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "此刻不过是借来的力量…恍若白日之梦，虚无缥缈，转瞬即逝。",
+			say = "(Through all my dreams and the many futures I saw, my friends gave me the power to move forward... Alas, is this also part of my fate...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好像明白了，又好像没明白…",
+			say = "Lady Shinano, we're waiting for your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 305120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "即使刚刚发生只是白日之梦，那也是值得载入档案的精彩梦境，不是么？",
+			say = "Shinano, you are no longer our charge, someone to be escorted and protected. You are now one of our comrades-in-arms, standing with us on the field of battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祝愿您回到本岛之后能够查明原因，早日恢复您应有的力量。",
+			say = "Let us hear your words! Bring us home, haha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "希望如此吧……毁灭的风暴正在接近，阴云已经笼罩了重樱上空。",
+			say = "(Y-yes... It's about time...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是妾身会，不…妾身会同汝等一起，化解危局，带领重樱回到正确的航道上。",
+			say = "(If the goal of the Sirens extends beyond me and the cargo Kashino carries, and the dream of ruination that I saw... then what must be changed is not a dream, but rather reality itself...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "整理舰队，重新出航。之后要做的事还有很多呢……",
+			say = "...Let us return home at last, to the Sakura Empire—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

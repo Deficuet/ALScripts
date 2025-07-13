@@ -15,7 +15,7 @@ return {
 			actor = 407030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "抱歉，让各位久等了。",
+			say = "This is Strasser. Sorry I took so long.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:472}阁下，现在情况如何？",
+			say = "How are things on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "战斗已经进入收尾阶段，因为采用了外围阻击策略加上要塞防御设施的帮助，敌方袭击没有造成任何损伤。",
+			say = "We're almost done with them. The Tower's turrets will make short work of the Sirens once Heinrich's team softens them up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在正在抽调防御系统的供能至主系统，预计15分钟后米德加尔特之塔就能完全启动了。",
+			say = "I'll reroute power to the Singularity generator now. Just hang on a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "辛苦了，{namecode:472}阁下。",
+			say = "Understood. We'll get ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在距离开启还有最后一点时间，大家做好出发前的最后检查吧。",
+			say = "Everyone, run a final equipment check, then prepare to enter the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:464}阁下，你觉得这个人工奇异点像什么呀，马桶圈，还是甜甜圈？",
+			say = "Hey, Ulrich, what shape do you think the Singularity is? Like a donut?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "居然还在纠结这个话题……",
+			say = "Here we go again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "这个嘛……我觉得都不像。这个建筑物可不是如此美好的东西哦。",
+			say = "You're viewing it through a perspective both too limited and too childish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你知道现在这个名字的含义么？",
+			say = "It is no donut – it is a tower. A tower that extends into other worlds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "米德加尔特……是神话之中人类居住的世界？",
+			say = "You lost me... How is it like a tower?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没错，所以我觉得这个名字就足够形象了。",
+			say = "Never mind that. It's not important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "米德加尔特之塔——人类世界制作的，通向未知的高塔。",
+			say = "(Above, the domain of the gods. Below, the land of the dead. And betwixt the two... Midgard.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "不过倒是让我想起来了一个其他问题，现在这座高塔，究竟是通向上呢，还是在通向下呢……",
+			say = "What matters is directionality. If this is a tower, and not a bridge, then we will either go up... or down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "通向上，还是通向下？",
+			say = "Soooo... Singularities are like the layers of a cake?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向上为神之国度，向下为冥界……不论如何，要等实际进去看看之后才知道了。",
+			say = "Who can say? We know hardly anything about how Singularities function. The only way we'll learn more is by going inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "伴随着巨大的轰鸣声，海水，连同光束，甚至天空的云层都开始一同旋转，形成了一个巨大的立体旋涡。",
+			say = "With a thundering great rumble, a maelstrom whipped up at the facility's center. It erupted into the sky, turning into a radiant cyclone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "{namecode:464}阁下，启动程序已经全部完成。",
+			say = "Good. The Singularity looks stable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "米德加尔特之门在成功启动后将会稳定运行至少17个小时，请在严格遵守时限，务必在时间结束前返回。",
+			say = "But it won't stay that way forever. The clock is ticking, and you must come back before time runs out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "现在请踏入旅途吧，祝愿你们一切顺利。",
+			say = "I can't stress this enough: if you run out of time, you are as good as dead! Waste not a moment getting ready to enter the Singularity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "明白，接下来就是我们的战场了。",
+			say = "I know. Now it's time we play our part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "探索舰队全员注意，现在设置17小时的倒计时。",
+			say = "Starting countdown. Listen up, everyone! Your orders are as follows...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "进入次序为，{namecode:476}，我，{namecode:456}，{namecode:447}先进，{namecode:468}带领量产型舰队最后进入。",
+			say = "Enter in formation. U-1206 goes first, Magdeburg and I follow, then Adalbert. Elbe takes the rear, leading the mass-produced ships forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我们的任务是探索奇异点所连通的未知世界，因此需要尽可能收集其中的每一条情报。",
+			say = "Keep one eye on your monitoring equipment and the other on your surroundings. We have no idea what to expect in there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "此行的成果将会直接影响到之后铁血的战略方针，我们就像先驱者一般，要为后人开拓前进的道路。",
+			say = "The future of Iron Blood – if not the future of all mankind – hinges on this operation. Failure is not an option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "出发————！",
+			say = "Operation begins NOW!",
 			effects = {
 				{
 					active = true,
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "{namecode:463}下完命令后，率先冲入激流，消失在光怪陆离的漩涡之中。",
+			say = "When the signal was given, U-1206 sprang into motion, followed by all the other members of the team.",
 			effects = {
 				{
 					active = false,
@@ -503,7 +503,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的要进去么，突然感觉我好像还没准备好……",
+			say = "Are you sure about this?! I'm not sure I'm quite ready yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "准备工作是永远做不完的。该上就要上，冲了哦！",
+			say = "Time waits for no one, girl! Doesn't matter if you're ready or not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "伴随着转瞬即逝的悲鸣声，{namecode:476}在{namecode:447}的裹挟下一同消失在漩涡之中。",
+			say = "One by one, the shipgirls's faded as they crossed over the Singularity's event horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:454}，我走了。",
+			say = "Yo, Heinrich, I'm going in now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403090,
-			say = "加油哦————！",
+			say = "Gotcha! Break a leg!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "那我们奇异点后见了，{namecode:468}。",
+			say = "Talk to you inside, Elbe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "奇异点后见啦。",
+			say = "Of course. Godspeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "说完话，{namecode:455}从容淡定地进入了漩涡之中。",
+			say = "After notifying her sister, Adalbert proceeded into the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "检查完成。量产型舰队的规模作为护卫来说也算可堪一用。",
+			say = "Here's hoping all these mass-produced ships can, at the very least, serve as a distraction...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "真是的……完全不知道另一侧的情况，究竟会遇到什么东西呢，令人期待啊~",
+			say = "I have no idea what's waiting for me inside... yet somehow, that's making my heart beat with excitement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "那么{namecode:471}和{namecode:467}，我也走啦，等着我凯旋归来的身影吧。",
+			say = "Strasser... Weser... Trust me, when I return, there'll be trumpets blowing to celebrate my success!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406010,
-			say = "加油！不论在何处，都要展现铁血航空母舰的英姿，让我们的舰载机翱翔在异世界的天空之上吧。",
+			say = "I don't expect you to conquer another dimension with your planes, but... well, I wish you the best of luck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有拜托你的气动力学数据，别忘了哦。",
+			say = "As do I. I look forward to seeing your findings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +727,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "放心放心，我走啦~",
+			say = "*sniffle*... All right, I'm off now. Bye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "在装置中心如心跳般律动的光芒中，探索舰队成员，连同庞大的量产型舰队在内全部消失的无影无踪。铁血的探索行动终于开始了。",
+			say = "Finally, Elbe – the last member of the team – entered the Singularity, with a stunning column of mass-produced ships in tow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			bgName = "bg_midgard_2",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——16小时55分。",
+			say = "The girls cut off from their comrades, the operation had officially commenced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

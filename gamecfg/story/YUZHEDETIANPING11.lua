@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"皇家所属",
+					"Royal Navy Rally Point Temporary Malta Base",
 					1
 				},
 				{
-					"马耳他·海军要塞",
+					"After the Gazer appearance",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 205030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所有人动起来！",
+			say = "Act fast, everyone!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "检查还在工作状态的雷达，把那些黏糊糊的玩意清理掉！",
+			say = "Use active radars to help locate and mop up that gross, gooey substance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "未开机的雷达全部执行冷启动程序！快快快——",
+			say = "Cold start all inactive radars! Hurry, hurry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "皇家方舟，近海的情况如何？",
+			say = "...Ark Royal, how are things on your end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前还没有向我们驶来的敌人，不过……撒丁帝国那边就很惨了。",
+			say = "No enemies coming our way... But the Sardegna Empire isn't looking good at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207020,
-			say = "你搞清楚那些白色物质的成分了么？",
+			say = "Nelson, any idea what the properties of that goo might be?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "有点像某种正在生长中的菌类……但又表现出某些金属的性质，不怕火还坚固。",
+			say = "Not a clue. It looks like fungus, but also has metallic properties. It doesn't burn, and it's surprisingly tough.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "我已经快要放弃了……",
+			say = "What are we supposed to do about this...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有出现伤亡么？！",
+			say = "Are there any casualties?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "那倒没有，放心，只是被恶心到了而已……",
+			say = "No. Fortunately, it's just... kind of gross.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "罗德尼正带着雅努斯、贾维斯和命运女神清理着呢。",
+			say = "Rodney, Jervis, Janus, and Fortune are working to clean it up as we speak.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "嗯~？是谈到我了么？",
+			say = "You called~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 205040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实没那么糟糕啦，我们刚刚找到了一个“秘密武器”哦。",
+			say = "We're doing just fine here! In fact, we just discovered our secret weapon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "秘密武器？",
+			say = "Secret weapon? What have you done?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 205040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，之前我们在博览会上卖的清新柔顺洗发液。",
+			say = "It's the souvenir shampoo we were selling at the World Expo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 205040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为销量不佳，存货积压，所以就匀了一些到我们这边来。",
+			say = "We didn't sell much, so we got to take some of the stock home for free...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "结果没想到……居然会在驱散白色真菌上意外派得上用场。",
+			say = "Imagine our surprise when we learned that it dissolves that gooey stuff right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205030,
-			say = "这还真是令人庆幸，那我也去帮忙，我们再联系，纳尔逊通话结束。",
+			say = "That's more than just surprising! *sigh*... I'll come over and help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207020,
-			say = "真是的，想不到那些东西会怕这个……感觉莫名其妙有点好笑。",
+			say = "So it's weak to shampoo? Odd, but dealing with it is our first priority for the moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个情报得尽快共享出去才行……",
+			say = "I'll pass this information on to Her Majesty and the Commander right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些东西……怕洗发液？",
+			say = "Defeated by shampoo, of all things...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "能给我一份样品研究一下么？",
+			say = "Excuse me. May I take a sample with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "仓库里不是多得是么，你拿……就……行？",
+			say = "We have a whole pile of it outside. Take as much as you... Wha?!",
 			action = {
 				{
 					type = "shake",
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207020,
-			say = "………………可怖？！",
+			say = "Le Terrible?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "嗯，是我。",
+			say = "Yes, that is my name.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……我知道是你，可你是从哪里冒出来的？",
+			say = "*sigh*... Where did you come from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……密道？",
+			say = "Call it a... secret passage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是重点啦，我是来帮黎塞留主教带句话的。",
+			say = "More importantly, I come with a message from Cardinal Richelieu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "光辉女士现在应该在博览会会场……那么说要塞的负责人是纳尔逊女士？",
+			say = "I wish to speak with whoever is in charge of this fortress. Could you tell me who that is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801070,
-			say = "你能带我去见她么？",
+			say = "If Illustrious is at the venue... then would you happen to be in charge?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207020,
-			say = "当然没问题。不过……密道……？",
+			say = "Sure, but what's this about the secret passage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？马耳他要塞居然有我们都不知道的密道么？",
+			say = "Are you saying the Royal Navy aren't the only ones who know about it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "马耳他岛是曾经的某个伟大骑士团的驻地，确实隐藏了一些秘密哦。",
+			say = "We Iris happen to have a history with this place, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论如何都必须守卫这座岛屿。",
+			say = "Since there are sacred objects hidden here, it is our duty to protect it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算黎塞留阁下不嘱托，我们也会这么做的。",
+			say = "Well, whether the Cardinal asks us to or not, we're here to secure an escape route for our allies fleeing from the venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207020,
-			say = "不过，还是谢谢了。",
+			say = "That goes for my little sisters, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不客气。保卫要塞的事，也让我出一份力吧。",
+			say = "R-right... Well, please allow me to assist you.",
 			painting = {
 				alpha = 0.3,
 				time = 1

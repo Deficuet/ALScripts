@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"消除疲劳的秘诀是？\n\n<size=45>二　消除疲劳的秘诀是美食？</size>",
+					"The Secret to Curing Exhaustion?!\n\n<size=45>2 Is the Secret Good Food?</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌日清晨，刚来到指挥室门口，就看见圣哈辛托正在全神贯注地处理着文件。",
+			say = "When I arrive at my office the next morning, I find San Jacinto already single-mindedly focused on paperwork.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "第二批物资清单得再去核对一下呢。",
+			say = "The second supply manifest needs a second pair of eyes on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "港口的桥式起重机出现故障，这个之后得去找维修部了~",
+			say = "The port's overhead crane has broken down, too. We'll need to have it repaired.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "哎呀，指挥官~一直站在门口看着，是被我认真工作的模样迷住了吗？",
+			say = "Oh, Commander? You're just standing at the door... Are you entranced by the sight of my work?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "呵呵，开玩笑的~指挥官难道是害羞了？",
+			say = "Haha, I'm just kidding~ Don't be so bashful, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，只是没想到圣哈辛托居然这么早就来了。",
+			say = "No. I'm just surprised that you got here so early, San Jacinto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "作为秘书舰，比指挥官更早到也是一种义务嘛~",
+			say = "I think it's only right for a secretary ship to arrive before her Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，指挥官昨晚休息得如何？",
+			say = "More importantly, did you sleep well last night?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "多亏了圣哈辛托的协助，昨晚总算是久违的睡了个好觉。",
+			say = "Yeah. Thanks to you, I slept like a log for the first time in a long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "指挥官，工作之外的事……圣哈辛托也可以协助哦~",
+			say = "That's lovely~ By the way, I can help you... in ways other than work, you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "圣哈辛托放下手中的文件，用手托着腮，笑吟吟地看着我。",
+			say = "San Jacinto puts down her documents, rests her chin in her hands, and smiles meaningfully at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "好啦，指挥官还是快点进来吧，不然早餐就要冷了呢~",
+			say = "Heehee, come on in already. Your breakfast is getting cold.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "早餐……？",
+			say = "Breakfast...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "带着些许疑惑走到办公桌前，眼前的是堪称一桌豪华的早餐。",
+			say = "Confused, I approach my desk. I realize a luxurious breakfast has been put there without my noticing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "一顿营养丰富的早餐，不光可以补充精力，还能消除积攒的疲劳哦。",
+			say = "I made your breakfast full of nutrients! It won't just give you energy – it'll heal your exhaustion, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "之前指挥官都是拿方便食品随便应付的吧？从今天开始可绝~对~不~行~",
+			say = "You scrape by on convenient instant foods when you're busy, don't you? From now on, we're having no more of that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "必须要让指挥官按时吃饭，摄入均衡的营养才行。",
+			say = "You must eat balanced, nutritious meals on time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "毕竟，品尝美食可是消除疲劳的秘诀呢~",
+			say = "Most of all, good food is the secret to curing exhaustion♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "虽然这么说好像有点在自夸的嫌疑，但还是希望我做的美食能够抚慰到指挥官哦。",
+			say = "I sound a little too proud, don't I? I just hope my home cooking is enough to soothe your heart, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样会不会太辛苦了……",
+			say = "You shouldn't go out of your way for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "当然不会哦。",
+			say = "That's not true at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "身为秘书舰的我，不管是指挥官的工作还是生活，都要照顾妥当才行呢。",
+			say = "As your secretary ship, it's my duty to support you both in your work and in your private life!",
 			painting = {
 				alpha = 0.3,
 				time = 1

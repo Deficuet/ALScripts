@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>三　数学、哲学、心理学</size>",
+					"An Ode to the Sea\n\n<size=45>3 Data Isn't Everything</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·普林斯顿工作室",
+			say = "Port - Princeton's Room",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在犹豫片刻后，列克星敦还是敲响了这座清静小屋的门。",
+			say = "After a moment's hesitation, Lexington knocks on the door leading to a quiet room.",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请进，今天应该没有访客预定才——啊，下午好，指挥官，列克星敦！",
+			say = "Come in. I wasn't expecting visitors today, so I don't have– Oh! Commander and Lexington! Hi there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还真是稀有的组合……呃，这里最近稍微有些乱，见谅。",
+			say = "Don't see you two together every day... Uhh, my room's a bit of a mess. Please try to ignore that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么会呢，毕竟我们这边才是不请自来的。",
+			say = "That's fine. We are dropping by unannounced, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以……这些都是算式？",
+			say = "What's that on your whiteboard? One big equation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "普林斯顿的小屋里，写满数字的白板几乎要绕屋一圈。",
+			say = "There is a very long equation on her whiteboard, so long it could make a loop around Princeton's room if you laid it out on a single row.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，算是个人兴趣吧~",
+			say = "Yeah, it's the proof to Bulschwartz's nil-point problem. I'm nearly finished with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我觉得这已经超过个人兴趣了……",
+			say = "I... see...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊………今天难得有不少空闲时间，不知不觉就写了这么多。",
+			say = "Oh, pardon my math jargon. It's fine if you don't understand. Anyway, you two came at the perfect time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，你也不是来看我计算公式的对不对？我现在有时间可以听听你的烦恼哦，列克星敦。",
+			say = "...What's the matter, Lexington? If something's on your mind, tell me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……谢谢，不过我表现得有那么明显么？",
+			say = "Thank you. But do I really look THAT under the weather?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有没有，只是听萨拉托加前辈说过一些。",
+			say = "Well, it's more like... Saratoga told me something has been bothering you lately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然详情我不了解，但既然你们来到这里，就是相信能在我这里找到答案吧？",
+			say = "Although, she didn't give me specifics, so I just assumed you coming here has something to do with your problem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔，该从哪里说起好呢——",
+			say = "Hmm. Where to begin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……………………",
+			say = "Lexington explained her worries to Princeton.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实是很微妙的烦恼呢……我还没想过数学工具会造成这么大的困扰。",
+			say = "That is a tricky one... I've never even thought about that before, I've just enjoyed your and Saratoga's music.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数学应该是快乐的才对，我觉得问题不是出在工具本身……",
+			say = "I daresay I have a knack for math and statistics. The question is, how can I put that to use...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "唔。我就勉为其难地客串一回“医生”好了，指挥官，这是我开出的“药方”。",
+			say = "...I've got it! Commander, read this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "普林斯顿递过来一张叠好的纸条，颇有送来锦囊妙计的感觉。",
+			say = "Princeton quickly jots down something on her notepad, then rips the sheet off and folds it up before handing it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官，上面的内容只有你能看哦。",
+			say = "This may well help solve Lexington's problem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "咦……？我不能看么？",
+			say = "Huh? Am I not allowed to read it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在写下证明的最后一行算式前，真理永远是未知的惊喜哦~",
+			say = "It's, uh, best if it's kept a surprise for you. You know, like how your concerts always end with a surprise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "原来如此……就像在Live开始前，永远不知道谁才是最受欢迎的组合……",
+			say = "I'm not sure I get it, but alright.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，对于数学更是如此，它可不是什么全能的预言机器，只是一条可能性的道路。",
+			say = "I'll say this: data is useful, but it's not everything. It only tells you the probability of things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			actor = 107230,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没法给你更有诗意的答案了，也许就是你说的那么回事吧~",
+			say = "This insight is all I can give you. The Commander and other people will need to do the rest. Sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我会记住的。",
+			say = "Don't be. I appreciate your help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "从列克星敦身上，感受到了强烈的好奇情绪，她脸上地神色也轻松了不少。",
+			say = "Confiding in Princeton seems to have helped as Lexington's expression brightens quite a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这么说来，普林斯顿给出的“药方”，其实是——",
+			say = "I unfold the note and start reading it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

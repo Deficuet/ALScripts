@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在课程小测试中得到了第一名，获得了奖励【五星装备设计图纸*2】"
+			say = "You got the highest score on one of Amazon's tests! Collect 2 Blueprints (5 ☆)!"
 		}
 	}
 }

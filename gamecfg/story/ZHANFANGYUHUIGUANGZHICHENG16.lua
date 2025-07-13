@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一片海滩与夕阳。",
+			say = "As the light recedes, I find myself standing on a beach at sunset.",
 			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（等等……海滩与夕阳？）",
+			say = "(What the hell is this place? Wasn't she bringing me back to the Martyrium?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "阿尔萨斯发现目标！指挥官还有D小姐，你们来啦！",
+			say = "One has spotted the targets! Miss D and the Commander are uninjured!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "这次也是……迟来一步呢。",
+			say = "You had me worried, Swordbearer. You lagged behind us again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "是啊！真不知道怎么回事，每次转移助手的时候都要出问题，害我多花好多力气！",
+			say = "This ONLY happens with you every time we warp! If you're doing it on purpose, cut it out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,11 +109,11 @@ return {
 			},
 			options = {
 				{
-					content = "……这里是哪里？",
+					content = "Where even are we?",
 					flag = 1
 				},
 				{
-					content = "……这里是辉光之城？",
+					content = "If this isn't the Martyrium, what is it?",
 					flag = 2
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "不太清楚，起码我们在抵达的时候，这里就是这样的。",
+			say = "I have no clue, sorry. We just moved on forward, and the next thing I know, here I am.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "看上去似乎是一个面积较大的珊瑚岛，不过除此之外我也辨认不出什么了。",
+			say = "All I can tell you is it's an island with some decently-sized coral reefs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "阿尔萨斯也不清楚么？这里不是从你的幻想中诞生出来的么？",
+			say = "Hey, Alsace – you sure this place didn't come from your imagination?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "不、不是啦！阿尔萨斯也没见过这座岛！而且阿尔萨斯之前也根本没有想过岛的事啦！",
+			say = "One never imagined any sort of island, let alone this particular one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "那究竟是怎么回事呢……难道是D小姐把路带错了？",
+			say = "Okay, then why are we here? Did you make a wrong turn or something, Miss D?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "呸呸呸，我才不会带错路呢！不信你们问伊丽莎白！",
+			say = "I don't make mistakes, full stop! Tell them, Elizabeth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯，D小姐标记的位置没错。本王也进行了测定。",
+			say = "Miss D did not botch the jump. Your coordinates are, in fact, inside the Martyrium.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "结果显示，你们所处的地方就是由第六节车厢所转化的辉光之城第二环，其承载的概念也是死亡。",
+			say = "Specifically, you're in the second ring that we manifested using our sixth train car. The concept that rules there is still death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没想到发生了这种突发事件，通讯居然没有中断……？！",
+			say = "You're still with us, Elizabeth! I thought our comms would be down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵，看来你以前在这方面吃了不少苦啊。",
+			say = "Your phrasing suggests this is a regular occurrence for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "放心吧，有本王做后援，这种事绝无可能发生。",
+			say = "Worry not. That will not happen as long as we're backing you up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,18 +329,18 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（只要通讯一直通畅，就能更好应对突发状况了！）",
+			say = "(The improved communicator probably helps, too. In any event, I can better deal with emergencies this way.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "真是可靠的后援！",
+					content = "Thanks. I'm glad we have you.",
 					flag = 1
 				},
 				{
-					content = "就算META化了依然是可靠的伊丽莎白！",
+					content = "Thank you, Your Majesty. META or not, you can always be counted on!",
 					flag = 2
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "知道就好，对本王感恩戴德吧~",
+			say = "Yes, and you should be grateful for it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "可是……呃，这里看上去和进来之前差得也太多了吧？",
+			say = "Are you SURE this is the Martyrium? It looks nothing like the outside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "第二道圆环出现的时候，从外面看可完全不是这样子的！",
+			say = "The second ring looked, you know, just like the first one. Gold, marble, yadda yadda.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "外面是外面，里面是里面！都说了这里是独立的空间！外面和里面当然不一样！",
+			say = "Because the inside isn't the outside! It's a stand-alone space, just like the train cars!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "就像伊丽莎白的列车车厢，从外面透过窗户也看不出里面那么大吧！",
+			say = "Does it also confuse you how those look different on the inside, or what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "可是这里的变化格外违和欸！",
+			say = "But these two are COMPLETELY different! A train's interior still looks like a train's interior even if you redecorate it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "唔……都是基于同一个概念进行的转化，确实不应该和之前相差这么大。",
+			say = "I mean... Yeah, I guess two manifestations of the concept of death shouldn't look THIS different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "噢……我知道了！也许是进来的人太多了，构成“死亡”的要素混杂了！",
+			say = "I've got it! The concept probably got all jumbled up 'cause there's too many people here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "现在这里展现的不光是阿尔萨斯的“死亡”，而是其他人的，更多人的，不知道是什么人的“死亡”！",
+			say = "This isn't JUST Alsace's idea of death – it's mashed together with someone else's, too. Several people's, in fact!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "所以才会变得和之前的辉光之城完全不一样！",
+			say = "That's the only explanation for why it looks so different!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（展现了其他人的“死亡”么……）",
+			say = "(Then if this is a mix of concepts, does that mean it's closer to what the space originally looked like?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "等等，哇！不仅如此！这里有“时间”欸！",
+			say = "Hang on... It doesn't just LOOK different, it functions differently, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "这里的时间在流动欸？！",
+			say = "Time is flowing in here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "……时间在流动？时间不是一直都在流动么？",
+			say = "Uh, isn't time a constant? Because it doesn't really start or stop?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "笨蛋！不是我们的时间，是空间的时间！",
+			say = "I'm not talking about OUR time, moron! I mean time is flowing for this space!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "原本在展开辉光之城时，伊丽莎白并没有设置时间！",
+			say = "Elizabeth didn't make it like that when she materialized the Martyrium.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "因为我们需要的只是一个单纯的载体，能用就行！",
+			say = "She didn't, because all we needed was a simple foundation. She made an unchanging space!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "但是现在，这里，空间中出现时间的概念了！",
+			say = "But this place is different. The concept of time has been added to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "也就是说，这里不是静态的死！而是动态的死！",
+			say = "That means this isn't a representation of static death anymore – it represents fluid death!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "……动态的死？意思是……承载死亡概念的空间本身会随着时间的流逝而发生变化么？",
+			say = "Come again? So, like... this space will change as time goes on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "对对对对！随着时间的变化，空间也会发生变化！",
+			say = "Yeah! Exactly that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "所以，接下来会出现什么景象都说不准哦！",
+			say = "Which means I have no idea what's coming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 803020,
-			say = "但是不论是怎样的景象，最终通向的都是死亡……？",
+			say = "Be that as it may, death is still death. Whatever will happen, it will involve death.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "没错！",
+			say = "You're not wrong!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（听上去这处空间就像录像带，再现了某个人记忆中的一段“死亡”，或者这个地点的……一段“死亡”？）",
+			say = "(So it's like a videotape? A tape showing the process of someone dying... Or maybe, of this world dying.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "环顾四周，沙滩与大海，绿树与小山。这里看上去像是一个随处可见的大洋小岛。",
+			say = "Waves lapping at the beach. Tropical plants up on a small hill. It looks like any old island across the Pacific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,19 +888,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "不过很快，一栋远方的建筑物吸引了我的目光。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "（虽然和之前相比，岛上的建筑有不少变化，但是那座建筑的位置与造型……不会错。）",
+			say = "However, one thing sets it apart – the building off in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +900,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（那是仅仅在世界α才存在过的，萨默斯海洋鱼类研究所！）",
+			say = "(The exterior is a little different from how I remember it, but the silhouette and location match...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +912,19 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（也就是说……这里是将会展现的是，一段发生在世界α萨默斯岛上的“死亡”？！）",
+			say = "(That's it. It's the Samos Marine Research Institute from the alpha timeline!)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_zhedie_7",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "(If my guess is right, then this is a recording of the death of someone from that timeline – or of the \"death\" of this space.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901060,
-			say = "好、好可怕……",
+			say = "Th-this place creeps me out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901060,
-			say = "虽然现在看上去非常平静，但其实死亡正在迫近……",
+			say = "It looks so calm and peaceful, but death is around the corner...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -975,7 +975,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不用担心，“死亡“已经成为空间规则的一部分。它现在只能作为移动和离开的手段，仅此而已。",
+			say = "You needn't be so afraid. Death is merely the rule that governs that space and the means to get in, out, and around it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,7 +994,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "由于已经被重新定义了概念，所以在这里死去是不会迎来真正的死亡的，安心吧。",
+			say = "Dying in there, so to speak, does not spell your literal death. That would only be a concern if the concept were to engulf you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且本王刚检查了一下，此时此刻，那些因为空间冲击所导致折叠的部分依然没有完全展开。",
+			say = "Apropos of nothing, we checked again and have determined that there is STILL more space to unfold, if you can believe that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +1032,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以，接下来如果要追得更深入、需要继续扩展辉光之城的话，利用空间产生的“死亡”也是一种可选方案。",
+			say = "Know that if you need to pursue the whale further, you can use death to get to the next space.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1050,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "可是这样的话……会经历非常恐怖的场景吧！",
+			say = "A-are you suggesting actually having a brush with death?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1068,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 805030,
-			say = "……如果可以的话，阿尔萨斯还是想和之前一样走捷径！",
+			say = "One would much prefer to travel using the train cars!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "有我在，这点小事当然没问题~不过我有一个更好的建议！",
+			say = "Death won't mess with you as long as I'm here. Besides, I have a better idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1104,7 +1104,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "那就是——现在！在这里！就把鲸鱼抓住！",
+			say = "We'll just catch the whale right here and now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901050,
-			say = "可是现在天上已经没有鲸鱼了哦，不会已经逃走了吧？",
+			say = "Great idea! Only problem is, I don't see the whale anywhere. It's probably run off again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1150,7 +1150,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "哼哼~我能隐约感觉到，鲸鱼只是在附近藏起来了而已。",
+			say = "Nuh-uh! I know it hasn't! It's just hiding somewhere nearby!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1168,7 +1168,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "具体位置的话……难道是在大海里？！",
+			say = "Somewhere like... Aha! The sea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1196,7 +1196,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "嗯嗯嗯，一定在大海里！",
+			say = "That's GOT to be where it is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,7 +1214,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "我们下海去找吧~！",
+			say = "Ready or not, we're going swimming!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1240,7 +1240,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "等等。D小姐，你先仔细看看这座岛，尤其是那边那座建筑群，你能认出来么？",
+			say = "Just a second, Miss D. Don't you recognize this island? And more importantly, that building over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "我用手引导D小姐看向海洋鱼类研究所的方向。",
+			say = "I point to the research institute for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1263,7 +1263,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（如果D小姐真的和仲裁者·戴斯·XIII存在联系的话，那她理应能认出奥斯塔秘密研究所的所在地。）",
+			say = "(If she's an Arbiter, she has to know the place Dr. Aoste did his research.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "唔……“海洋鱼类研究所”？",
+			say = "Oh, you mean the Marine Research Institute?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1295,7 +1295,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "好像是有那么点眼熟。也许以前是我家吧……也或许是你家？我们家？",
+			say = "Yeah, I remember it. I think it was my house. Or yours. Or both of ours. Maybe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1311,7 +1311,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "为什么要用“也许”？",
+			say = "\"Maybe\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1325,7 +1325,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "因为我也不知道啊！只是有这种感觉而已！",
+			say = "I'm not sure, okay?! It's just a gut feeling!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1353,7 +1353,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "我有很多重要的事都记在鲸鱼里了！不夺回鲸鱼，很多事想不起来！",
+			say = "All my important memories are stored inside the whale! I won't remember until we catch it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1371,7 +1371,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "难道，助手还记得那里的事么？！",
+			say = "How come YOU remember being here, anyway?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1397,7 +1397,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不记得了……所以能不能先陪我去那里看看，我有一些想要调查的事。",
+			say = "\"Remember\" isn't really the right word. It's too much to explain right now. Can we just please investigate the institute first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1411,7 +1411,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 901070,
-			say = "指挥官，你已经认出这座岛屿是什么地方了吗？",
+			say = "Wait, you recognize this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯，这里是百慕大海域的萨默斯岛，而且或许是……世界α的萨默斯岛。",
+			say = "I do. It's Samos Island, located in the Bermuda Sea. Well, Samos Island from the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1442,7 +1442,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……世界α？！世界α的情报居然会以这种方式出现……？",
+			say = "From the alpha timeline? You mean to say that this space was built with data from there?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1460,7 +1460,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 900430,
-			say = "欸~好吧好吧，那听助手的，先去海洋鱼类研究所，一会再抓鲸鱼！",
+			say = "Fiiine, we'll do as you say, assistant. We'll investigate the institute and THEN go catch the whale!",
 			painting = {
 				alpha = 0.3,
 				time = 1

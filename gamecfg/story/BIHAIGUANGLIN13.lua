@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "battle-boss-longgong",
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actor = 302070,
 			dir = 1,
-			say = "那个……我应该是被打中了吧？但是完全没有受伤哎……",
+			say = "I'm sure that last shot landed, but I barely even felt anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是以旧型号的标准来说，这些敌人的攻击力也是弱的离谱。",
+			say = "These mass-produced models are pretty old and busted, but isn't their firepower a bit too low?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "不过我这边的攻击也没起到什么效果就是了……敌人的船体好像被特殊的护盾保护着。",
+			say = "Having that said, I don't think our attacks are exactly having the desired effects either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}，你那边也不行么。",
+			say = "Any luck on your end, Suruga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "造成的损伤很有限……这些敌人真是硬的离谱啊！",
+			say = "None! We're gonna be stuck here forever if we keep fighting like this...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "看来强攻不是上策……我仔细侦察一下前方海域，看看能否找到避开敌人前进的道路。",
+			say = "I can't tell if we're going to have any success with the direct attack approach, so let's try to avoid them for now and continue scouting ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（要是{namecode:18}带队的话肯定会说什么“{namecode:175}阁下，让我们一起加油努力冲过去吧！”之类荒唐的话。）",
+			say = "(Well duh, not everyone can charge headlong into the enemy like Shimakaze. Of course it's better to avoid fighting whenever possible.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（不过重视分析的{namecode:62}就不一样了……就是这样作战才对，认真的收集情报，制定战术，然后仔细思考！）",
+			say = "(But is this really the right way of doing things...? While I'm in the back overanalyzing everything, Shimakaze's group is already about to break through...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "啊~有可靠的{namecode:62}带队真是太好了~",
+			say = "It's so nice that Chikuma has a nice grasp over things with her \"eyes.\" I'm glad I'm on this team instead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……？{namecode:175}你刚刚说了什么么？",
+			say = "Did you say something, Suruga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（糟糕，不小心放松过头了！）",
+			say = "(Oh, crap! I let my tongue slip...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "刚刚我是在……嗯，是在感慨{namecode:62}真是太可靠了！",
+			say = "Err, it's nothing! I just was thinking out loud...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "过奖了~跟{namecode:175}相比，我还有很多需要提升的地方呢。",
+			say = "If you have any suggestions, I'm all ears. Naturally, you bring plenty of your own expertise that I cannot hope to match~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要你愿意，我可以随时把旗舰的位置交给你。",
+			say = "If you want to try leading the team, I'd be glad to pass that role to you any time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用不用，保持现状就好！不要在意这些细节，我们去寻找前进的道路吧！",
+			say = "I'm flattered, but err, I think things are better this way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

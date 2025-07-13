@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "经过了105圈的比试，异常石膏喵全数败下阵来。",
+			say = "After 105 games, the Meowfficer busts have suffered a total defeat.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "比试失败的石膏喵全数变成了石膏雕塑，跑道也停了下来。",
+			say = "The failed Meowfficers returned to stone busts, and the track finally stopped moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102200,
-			say = "呼……呼……知道未来海上骑士的厉害了吧！",
+			say = "*pant*... *pant*... Now do you see the power of a future Solomon Knight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 204040,
-			say = "堂堂正正的比试我可是不会输！",
+			say = "I would never lose a fair contest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "好耶！果然我们是最厉害的~！",
+			say = "Woohoo! We are number one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "那么接下来——",
+			say = "So next would be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,10 +119,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大家跑完之后都很累了，在执行接下来的调查之前，先休息一下吧。",
+			say = "You all must be tired after all that running. Take a break before you continue your investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，不愧是体贴的指挥官，我正想这么建议呢~",
+			say = "Ahaha♡ You're too sweet, Commander! I thought you might say that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "操场之上，少女们开始了休息时光。",
+			say = "The shipgirls enjoy a moment's respite on the field.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "而后，很快休息时光转变成了游戏时光——",
+			say = "Though, of course, not all of them are happy to just relax. The little shipgirls quickly tire of sitting around and resort to playing together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……虽说异变还没被彻底解决，不过——也不错吧。）",
+			say = "(Things haven't been resolved yet, but... there's nothing wrong with taking a nice break.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "为了不打扰她们，我暂时将前线频道从临时指挥室公屏切换到了私人频道。",
+			say = "I change my communication line from the public channel to a private channel, so as not to disturb their rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "此刻的健康活力操场上，大家正热热闹闹地使用着操场上的各类设施游玩，只有{namecode:494:Z47}独自坐在跷跷板上玩手机。",
+			say = "While her friends all enjoy the many play facilities near the track, Z47 sits on the seesaw alone and plays with her phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,10 +218,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:494:Z47}你不和大家一起玩么？",
+			say = "Z47? You don't want to play with them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401471,
-			say = "好吧，既然指挥官都这么说了……那就不玩手机了……",
+			say = "If you want me to, Mandy... I'll put my phone away...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401471,
-			say = "但是……指挥官又不在，我不知道和大家说什么……",
+			say = "But I don't know what to talk about with them... You're not here, either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,10 +267,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我人不在现场，但是还是可以通过这种方式陪着你呀？",
+			say = "I may not be there, but thanks to our communication lines, it's like I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,10 +280,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天多亏你发来的求救消息，我才能在第一时间组织救援赶来。",
+			say = "Your calls for help also helped resolve the situation before it could take a turn for the worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是……指挥官都没有回我消息……虽然知道可能是因为异变的关系……",
+			say = "Do you mean that? I thought you left me on read, even if it was just because of the stuff going on...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401471,
-			say = "……这样啊，我发的短信帮上忙了啊。",
+			say = "But my message really helped...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401471,
-			say = "那我想要奖励。",
+			say = "Can I have a reward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,10 +346,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么奖励？陪你一起玩跷跷板？",
+			say = "Sure. Want me to play some phone games with you? Or I could join you on the seesaw when this is all over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事件结束后，单独陪我出来玩……",
+			say = "Alone with you here, when it's all over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,10 +376,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "Communication",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一言为定。",
+			say = "Sure. It's a promise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401471,
-			say = "那就这么说定了……不准反悔哦。",
+			say = "Okay. When the time comes, you better not act like you forgot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "将视线从屏幕上收回，重新梳理了一遍当前的情况。",
+			say = "I switch back to the public channel and reevaluate the situation.",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（校园大门，教室门，健康活力操场跑道都是基础设施。）",
+			say = "(The academy gate, classrooms, and field tracks are all basic infrastructure that any school should have.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（所有的破解规则，都与“童心”、“开心”有关，而且每个区域都会有异常石膏喵的出现……）",
+			say = "(All of the occurrences so far have been related to innocence and fun. Save for the gate, every area where they happened have had Meowfficer busts present.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,19 +461,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "几条线索结合后，我想起了不久前曾审批过的一份提案。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（「校园陪伴系统」建设方案……提案人……{namecode:37:夕张}。）",
+			say = "As I unravel things, I recall a request I'd approved several days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +473,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（而恰好，{namecode:37:夕张}也在校园失联人员名单之内。）",
+			say = "(The Academy Companion System development plan... Who requested that? It was Yuubari.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +485,19 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难道说，本次事件的真实原因，会和这个系统有关系么……）",
+			say = "(Yuubari was also on the missing persons list.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Did that companion system cause everything that's happening right now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

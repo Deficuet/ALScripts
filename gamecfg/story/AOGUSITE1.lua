@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"魔女的命运之夜\n\n<size=45>一 魔女的邀请函</size>",
+					"A Night with the Unhulde\n\n<size=45>1 The Unhulde's Invitation</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "手中事务终于告一段落，正准备休息片刻之时，门外突然传来了敲门声。",
+			say = "Having finished a good chunk of my accumulated paperwork, I stop and take a breather. That's when I hear a knock on the door.",
 			soundeffect = "event:/ui/knockdoor1",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "请进。",
+			say = "Come in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "门缓缓打开，{namecode:482:奥古斯特}走了进来。",
+			say = "The door slowly opens, and August von Parseval steps in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她手中拿着一个黑底描金的信封，步伐优雅地走向我，眼神比平日多了几分意味深长。",
+			say = "In her hand is a black envelope adorned with golden highlights. She approaches me with a graceful gait, the look in her eyes a bit more implicative than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正如我所料，你现在有空。",
+			say = "Just as I thought. You have time on your hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你有事找我？",
+			say = "What brings you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "命运的星轨将在明夜交汇，我希望你能亲自回应。",
+			say = "The stars of fate will intersect tomorrow night. Take this, and give me your answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她将手中的信递了过来。信纸质地上乘，还隐约透着一股奇异的香气。",
+			say = "She presents the envelope to me. The luxurious paper gives off a mysterious smell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是……邀请函？",
+			say = "What is this? An invitation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "我的使魔——你愿赴这场命运的仪式吗？",
+			say = "For you, my familiar. Dare you to undertake destiny's ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,20 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我努力理解了一下邀请函上的文字。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "如果我没理解错的话，你是……邀请我一起去露营？",
+			say = "I manage to decipher the contents of the invitation, albeit after some effort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +198,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过看你这阵势，似乎不像普通出游。",
+			say = "So, if I understand this right, you want to go camping with me, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Something about this tells me it's no regular camping trip, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "普通的露营，不配我这么郑重其事。",
+			say = "Would I take such elaborate measures, were it a regular wilderness excursion?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}优雅地在我对面的椅子上坐下，缓缓梳理着长发。",
+			say = "With grace, she sits down on a chair opposite me and gently runs her fingers through her long hair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "它对你而言也许是一场放松。",
+			say = "Perhaps you consider it a mere leisure activity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "但对我而言……是引导你踏入命运轨迹的最佳时机。",
+			say = "To me, however, it is an ideal opportunity to guide you to your destiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "听起来不会太轻松。",
+			say = "That doesn't sound very laid-back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我从未承诺轻松。",
+			say = "I have said nothing suggesting thusly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "但你没有直接拒绝，就说明你准备好了。",
+			say = "Will you join me on this occasion? You've yet to decline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧，我答应。",
+			say = "Yeah, I'll come along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过，露营应该要准备很多东西吧？",
+			say = "Question, though – if we're going camping, don't we need to pack a lot of stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不必担心，我已经列好了清单。",
+			say = "Don't worry about that. I've already composed a list of all the items we will need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "明早我们一起去采购。",
+			say = "We will go on a shopping trip tomorrow morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "听起来你已经都计划好了。",
+			say = "Wow. You really came prepared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就这么有把握我会答应？",
+			say = "Were you that sure I was going to say \"yes\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "我从不会看错人。",
+			say = "I do not make erroneous predictions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧，至少这次你没有。",
+			say = "Clearly not, as proven right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我真的什么都不用准备？",
+			say = "Just to be clear, do I really not need to bring anything beyond what's on the list?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "准备好期待。",
+			say = "There is one thing. Bring high expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "期待未知，期待命运的降临即可。",
+			say = "High expectations for the unknown and the destiny that's to come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……行吧，那出发时间？",
+			say = "Okay then... What time do we meet up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明日清晨六点，大楼正门前，不见不散。",
+			say = "Tomorrow, six in the morning. By the gates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "六点就出发么？还真是早。",
+			say = "Six? That's pretty early.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,18 +490,18 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我不喜欢太阳升得太高，那会掩盖星辰最后的低语。",
+			say = "I'm not partial to the sun rising too high. It stifles the whispers of the stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我会准时，倒是你别起晚了。",
+					content = "Alright. Just don't be late.",
 					flag = 1
 				},
 				{
-					content = "那就明天见了，魔女小姐。",
+					content = "Okay, then that's everything.",
 					flag = 2
 				}
 			}
@@ -514,7 +514,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "我会准时，倒是你别起晚了。",
+			say = "Alright. Just don't be late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "我可是这场仪式的引导者，怎会缺席？你只需照着我的节奏来。",
+			say = "How could I call myself a guide if I were late to my own rendezvous? You need only keep up with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "引导者，也就是说都由你掌控？听起来似乎有些危险哦？",
+			say = "\"Guide\"? So you'll be handling everything for me? Somehow, that sounds a bit risky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 499060,
-			say = "危险本就是命运的调味剂，不是吗？",
+			say = "Risk is, after all, the spice of destiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "那就明天见了，魔女小姐。",
+			say = "Okay, then that's everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "……叫得太顺口了，指挥官。",
+			say = "Ah, you're using my title now, \"Commander.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "看来你已经适应了自己的角色呢。",
+			say = "You've taken to your role quite well, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "我只是在顺应你的安排罢了。",
+			say = "Just trying to keep up with you, like you asked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 499060,
-			say = "正因为如此，你才这么有趣。",
+			say = "Of course. This is why I find you so amusing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}起身，带着淡淡笑意离开了指挥室。",
+			say = "August gets up and gives me a small smile as she leaves my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "空气中残留的香气久久不散，令人不禁开始期待即将到来的神秘旅程。",
+			say = "A whiff of her eternally lingering scent lights inside my heart a spark of anticipation for the mystic journey ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

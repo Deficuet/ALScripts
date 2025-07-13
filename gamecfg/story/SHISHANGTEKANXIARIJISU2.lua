@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "经过一天的密集测试，赛车的试跑终于顺利完成。",
+			say = "After a full day of intensive work, the car's test runs are finally complete.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "就当我在进行最终检查，准备离开车辆时，窗外传来了哒哒的敲击声。",
+			say = "While final checks occur, I try to get out of the car. I'm stopped by a tapping on the windshield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "（有人在敲车窗玻璃……？是谁？）",
+			say = "(Hm? Who's that?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,18 +60,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "抬头望去，鸢尾的天使用胸口和掌心压着车前的玻璃，凝视着我。",
+			say = "I turn around and see a fighting angel of the Iris on all fours on the hood of the car, palms and chest pressed firmly against the windshield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "霞飞……？",
+					content = "Joffre?",
 					flag = 1
 				},
 				{
-					content = "车盖上，不烫么！",
+					content = "Careful. The hood's gotta be hot right now.",
 					flag = 2
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907013,
-			say = "无须担心，车辆已经得到了冷却……我不会有事。",
+			say = "Don't worry about me. The engine is off now... and I'm just fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不过指挥官被我吓了一跳的样子，是做了什么违反规则的事情吗？",
+			say = "You look surprised. Have I caught you in the middle of violating some kind of rule?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，当然，我知道指挥官不会这么做的。",
+			say = "Heehee. The Commander I know would never do such a thing, I'm sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907013,
-			say = "不然，就不是趴在这里这么简单了。",
+			say = "Otherwise, I wouldn't get to just sit here and watch you, now, would I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不过……指挥官，您的视线，是否太过飘忽了呢？",
+			say = "But... I can't help but notice your eyes darting back and forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "那是因为……",
+			say = "That's, uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "因为？",
+			say = "Go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,18 +173,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女的嘴角微微翘起，似乎在等待着接下来的狡辩。",
+			say = "Her lips curl up softly, as if excited to hear my poor excuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "因为感受到了更耀眼的光——",
+					content = "You're just so dazzling, y'know...",
 					flag = 1
 				},
 				{
-					content = "因为太出乎意料——",
+					content = "I just didn't expect you there.",
 					flag = 2
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 1,
-			say = "那是因为……此刻的霞飞比外面的阳光更耀眼，所以才……",
+			say = "Even moreso than the sun itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，难道……呵呵，战斗天使妨碍到了您的驾驶了吗？",
+			say = "Aww, Commander... Heehee. Do you mean to say I got in the way of your driving? Is that it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 2,
-			say = "因为刚刚抬起头的时候发现了突然出现的霞飞，实在是出乎意料。",
+			say = "You came out of nowhere, so it startled me a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "这就是所谓的意外惊喜了，指挥官。",
+			say = "We call that a \"surprise,\" Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907013,
-			say = "不过……虽然知道您此刻是在“狡辩”，但我也不会为您降下裁决。",
+			say = "...An obvious lie, but I won't pass judgment for that alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女将身体放松，靠在了车窗上。",
+			say = "She relaxes her arms a little and leans fully on the windshield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官，您看着我的表情，看起来是有问题想问呢。",
+			say = "That look on your face tells me you have questions for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯……确实。",
+			say = "Yeah, well... Maybe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "现在还没有开始比赛吧？为什么霞飞出现在了赛场上……？",
+			say = "The race hasn't started. Why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 907013,
-			say = "呵呵……为什么出现在这里？",
+			say = "Heehee. Why, indeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,20 +324,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "天使闭上了眼睛，仿佛是在祈祷。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 907013,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_186",
-			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "因为，指挥官正在为了获得优胜而努力。",
+			say = "The fighting angel closes her eyes in apparent prayer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "作为鸢尾的天使，为指挥官献上祝福也是必要的事情。",
+			say = "Right now, you're doing everything you can for the sake of your victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,51 +350,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "无需裁决，这是……名为“喜欢”的祝福。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_186",
-			hidePaintObj = true,
-			say = "霞飞在车窗前吹上了白色的雾气，朦胧了车窗前的视线。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_186",
-			hidePaintObj = true,
-			say = "一枚带着翅膀的爱心图案被少女用手指在白雾中仔细地描绘出来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_186",
-			hidePaintObj = true,
-			say = "恍惚间，我的手和她的手隔着玻璃彼此触碰，坚硬的触感唤回了我的神智。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_186",
-			hidePaintObj = true,
-			say = "霞飞在我面前，露出了淡然的微笑。",
+			say = "It's only natural for an angel of the Iris to offer a blessing to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "可以为我打开车门吗，指挥官？",
+			say = "Not judgment, but a blessing known as love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +374,40 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "晴空之下，代表胜利的天使比阳光更加耀眼。",
+			say = "She blows onto the windshield, causing some of it to fog up.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_186",
+			hidePaintObj = true,
+			say = "Then, she draws a cute little heart with wings on it with her finger.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_186",
+			hidePaintObj = true,
+			say = "My finger brushes against the glass where hers is, but I'm brought back to reality by the hardness of it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_186",
+			hidePaintObj = true,
+			say = "She smiles briefly at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +420,31 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "在比赛开始之前，就让我为指挥官施加名为“必胜”的祝福吧。",
+			say = "Commander, could you open the door for me, please?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_186",
+			hidePaintObj = true,
+			say = "Under the blue sky, the angel symbolizing victory shines brighter than the sun.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 907013,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_186",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "Before the race, let me give you a blessing known as certain victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"风暴中心的依偎\n\n<size=45>六 只有一张床</size>",
+					"Warmth in the Storm\n\n<size=45>There Is Only One Bed</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "深夜，迷迷糊糊的睡梦之中，似乎感觉有什么钻入了被子里。",
+			say = "It's the dead of night. Barely conscious, I feel something slide in under the sheets with me.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -43,11 +43,11 @@ return {
 			},
 			options = {
 				{
-					content = "……谁？",
+					content = "...Who's there?",
 					flag = 1
 				},
 				{
-					content = "……莫加多尔？",
+					content = "...Mogador?",
 					flag = 2
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "怪谈规则三——",
+			say = "Remember the third rule...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "如果你进入了只有一张床且有淋浴室的休息室，你应该在同一张床上休息——",
+			say = "\"If there is a shower room and only a single bed, you must sleep together.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……墙上的字不是这么写的吧。",
+			say = "...It didn't say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "我可是审判官，眼神很好的哦……墙上的字就是这个意思……嘿嘿嘿……",
+			say = "It did! I'm a judge with a keen eye, and we have to follow the rules. Heheheh...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "……指挥官要赶我去地铺么？",
+			say = "You're not going to kick me out of the bed, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你老实睡觉就行。",
+			say = "...As long as you sleep like normal, I won't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嘿嘿嘿……已老实……",
+			say = "Heheh... Don't worry, I'll be normal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "就这样，我与莫加多尔并肩睡在床上，感受着窗外逐渐平息的风暴。",
+			say = "Mogador and I lie side by side in bed, listening as the storm raging outside the window gradually dies down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "我竟然真的和指挥官躺在一起了……这种感觉真奇妙啊……",
+			say = "I almost can't believe we're lying in bed like normal... It's so strange...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "似乎是受到了睡意的侵扰，一向热烈的莫加多尔声音柔和了些许。似乎与窗外的风暴一同平息了。",
+			say = "The voice of the usually energetic girl beside me is softer now, as though she's settling down along with the storm outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没想到始作俑者会发出这种感慨来。",
+			say = "Strange? You're the one who snuck under my sheets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿嘿……指挥官……你不觉得很奇妙吗？",
+			say = "Heheheh... I mean, think about this situation as a whole... Isn't it strange?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……确实是有些奇妙。",
+			say = "I guess you're not wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "呼呼……看来……我已经成为指挥官心中独一无二的存在了！",
+			say = "Strange means unique, and if I'm part of that uniqueness, that gives me a special place in your heart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你是怎么得出这个结论的？",
+			say = "What are you talking about...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "这不是很显而易见嘛……我们不是都睡在一张床上了嘛……",
+			say = "You know, we're in the same room, in the same bed, just sleeping like perfectly normal people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那我去地铺……",
+			say = "Get up to anything funny and I'm going straight to the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "别……已老实……求放过……",
+			say = "I won't... I promise I'll behave tonight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "昏昏欲睡的氛围中，我与莫加多尔有一搭没一搭的闲聊着。",
+			say = "While drowsiness is half-overtaking my mind, our silly little conversation continues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "对了……你之前说的那个假期，是真的么？",
+			say = "When you said you'd take me on a vacation earlier, did you really mean it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然了……我可是指挥官……指挥官说话算话……",
+			say = "Of course. I don't make promises I don't intend to keep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "太好了……那是不是有机会和你躺在一起……在沙滩上……",
+			say = "So... it'll be just you and me on the beachside, lying together on our backs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901070,
-			say = "嘿嘿……希望那天是个好天气……",
+			say = "I hope it'll be sunny then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这样……海风里就都是指挥官的气味了……",
+			say = "And that the sea breeze will be filled with your scent...♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她喃喃低语着，渐渐沉入梦中。",
+			say = "She mutters under her breath, slowly but surely falling asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "看着终于安静下来的莫加多尔，我也终于沉浸在了无尽的困意中。",
+			say = "I look at her as she quietly lies there, and I too feel the blanket of sleepiness finally wrapping around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

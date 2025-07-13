@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助打扫赛车场时，发现了掉落的图纸，获得了【四星装备设计图纸*6】"
+			say = "You worked hard with the Great Veteran and the Manjuus to clean up the venue! You recieved 6 Gear Designs!"
 		}
 	}
 }

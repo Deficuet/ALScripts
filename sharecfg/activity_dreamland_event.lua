@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_dreamland_event = {
 	{
 		icon = "tag_story_main",
-		name = "梦境的入口",
+		name = "At the Dream's Entrance",
 		id = 1,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI1",
@@ -13,7 +13,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "来一杯冰牛奶吧~",
+		name = "Nice and Cold Milk",
 		id = 2,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI13",
@@ -24,7 +24,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "一日之计在于晨？",
+		name = "Most Important Meal of the Day",
 		id = 3,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI2",
@@ -35,7 +35,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "通往心房的钥匙",
+		name = "Key to the Heart",
 		id = 4,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI14",
@@ -46,7 +46,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "闪耀的魔法表演",
+		name = "Magical Performance",
 		id = 5,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI7",
@@ -57,7 +57,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "泳装女仆与冰镇汽水",
+		name = "The Maid, the Drink, and Her Tricks",
 		id = 6,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI15",
@@ -68,7 +68,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特别的花车巡游",
+		name = "The Fantastic Parade",
 		id = 7,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI8",
@@ -79,7 +79,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "正中靶心的甜蜜赌局",
+		name = "Bullseye Wager",
 		id = 8,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI16",
@@ -90,7 +90,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "换上纯白礼服吧！",
+		name = "Dressing for the Banquet",
 		id = 9,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI17",
@@ -101,7 +101,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "逢魔之时",
+		name = "Ominous Twilight",
 		id = 10,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI3",
@@ -112,7 +112,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "迷宫之中",
+		name = "In the Maze",
 		id = 11,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI10",
@@ -123,7 +123,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "缠绕的黑暗",
+		name = "Entwining Darkness",
 		id = 12,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI11",
@@ -134,7 +134,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特殊时刻",
+		name = "A Special Time",
 		id = 13,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI12",
@@ -145,7 +145,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "夜晚的游乐时间",
+		name = "Nighttime Merrymaking",
 		id = 14,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI4",
@@ -156,7 +156,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "烟花与回忆",
+		name = "Fireworks and Memories",
 		id = 15,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI9",
@@ -167,7 +167,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "美梦落幕之时",
+		name = "Sweet Dreams 'til the End",
 		id = 16,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI5",
@@ -178,7 +178,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "梦幻的烟火",
+		name = "Dreamlike Fireworks",
 		id = 17,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI18",
@@ -189,7 +189,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特别的睡前服务",
+		name = "A Massage Before Bedtime",
 		id = 18,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI19",
@@ -200,7 +200,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "后日谈",
+		name = "Epilogue",
 		id = 19,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI6",

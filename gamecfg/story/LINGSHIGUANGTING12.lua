@@ -16,7 +16,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "净化者？！",
+			say = "Oi! It's Purifier!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没错，是我！",
+			say = "Yeah, it's me, what's up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "迟到了这么久也就算了，都说了要低调行事了，怎么还打坏了那么多量产型？",
+			say = "Don't answer that – what's up is, on top of you being late, you smashed up like six thousand ships when we were SUPPOSED to do this on the quiet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "本来我还在头疼怎么给你们找隐蔽航线呢……结果你们先把巡逻队给扬了。",
+			say = "I suffered the headache of plotting a safe route for you, and you pay me back by putting an entire patrol fleet outta commission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "倒是给我省了不少事……不过要是引起「理事会」的注意我这边接下来会更麻烦啊！",
+			say = "What, did you think nobody would realize if you just sank everything in sight? Assholes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "啊……？你在说什么？",
+			say = "What in god's name is she on about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "在说什么？！当然在说我们行动的事啊！",
+			say = "*sigh*... What's done is done, yada yada. Let's get this show on the road.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "然后把你们的武器收起来，那边的航空母舰，别以为把飞机藏在云层中我就看不到了！",
+			say = "Put on your booties, stow away your planes, and form a line. We're going on a field trip, children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "还有那边的驱逐舰！不对……驱逐舰？",
+			say = "You! The destroyer! ...Are you even a destroyer? Hella stacked for one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "不按规定时间来也就算了，人员配置也跟说好的不一样啊。",
+			say = "Hang on, this ain't the lineup I heard about. All right, roll call! Raise your hand when you hear your name!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "声望和反击呢？原本不是她俩要跟你来么？",
+			say = "Renown! Repulse! Vanguard! Jervis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "罢了罢了……这时候估计你们也有不少困难吧，至少来的还是皇家的舰队……",
+			say = "...Some of you called in sick, huh. Oh well, whatever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "现在已经耽误了很多时间，不能继续节外生枝了。",
+			say = "Listen up – we're going straight to Point Berth. No detours, no bathroom breaks, nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "接下来你们行动一切听我的，严禁开火行为！",
+			say = "You're under Antiochus' command while you're here. Don't start anything if you don't wanna sully the good Doctor's name any further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "我会顺顺利利安安全全的把你们带到关押伊丽莎白的地方的，听到了么？！",
+			say = "C'mon, it's time to go see Elizabeth. Y'all ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（她刚才说的是关押女王陛下的地方……？！你怎么看，前卫……）",
+			say = "Umm... Was she talking to us this whole time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（这个净化者十分异常……但是我没从它身上感受到敌意。）",
+			say = "No clue. For all I know, she just spent the last minute monologuing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "（现在最优先要确保的是陛下的安全，就算对方是塞壬，暂时观察一阵也不是不行，这是我的结论。）",
+			say = "All I caught was \"Elizabeth.\" Maybe she can point us in the general direction of Her Majesty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "那你就在前面带路吧，在受到攻击之前，我们不首先开火。",
+			say = "All right, ladies. Let us follow this Siren and see what she has in store for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 900233,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这就对了！这里的巡逻路线都是我亲手布置的，有我带路你们就放心吧！",
+			say = "There ya go. Follow the teacher, children. AND DON'T! SHOOT! ANYTHING! I swear to god if you do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

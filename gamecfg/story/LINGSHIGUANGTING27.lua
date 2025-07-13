@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡 圆桌大厅中",
+			say = "Mirror Sea - Forest of Forgetfulness",
 			side = 2,
 			bgName = "bg_camelot_14",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "老姐，怎么你也转到这个地方了啊……",
+			say = "...Looks like the visions are over. We're back, sis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "不知不觉吧。",
+			say = "What a relief. We're back to reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "明明早就决定把骑士的身份与誓言放在一边了，当初为什么会修这么一个圆桌大厅呢……",
+			say = "Do you think Vanguard's team has come back? Based on the fact their memories were among those we witnessed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "是啊，为什么呢……也许我们作为骑士的本心是隐藏不住的吧。",
+			say = "Can't say. All I know is the situation's dire. We need to find and warn them about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "也许吧……",
+			say = "You're right. We must head for their gate posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，老姐！快看大海的方向，有一阵金光落下去了！",
+			say = "...Look! Someone just came through it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "哦？前卫她们这么快就把事办完了？",
+			say = "Oh! It must be Vanguard and company!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "欸，糟糕……光顾着回忆过去，东西还完全没收拾呢……",
+			say = "No, not quite... Their numbers and looks don't match.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "好像也没什么需要带走的吧？",
+			say = "Numbers? But if it isn't them, who could it–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "有啊，当然有的！我们的特质草药“茶”啊！",
+			say = "It's Warspite?! Plus Sheffield and some others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "你没看到刚才不挠喝了之后奇怪的表情么……这么好的东西肯定要给所有人都尝尝！",
+			say = "Phew. If I had to guess, I think they're reinforcements from Vanguard's branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "呵呵……说的也是。那就让她们稍微等一会好了。",
+			say = "We're in luck, then! We'd better go introduce our–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "啊，老姐！",
+			say = "Whoa, whoa, sis! Wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "……这次又怎么了？",
+			say = "What? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "从圆环里出来的人不是前卫她们。",
+			say = "Did you forget we're META? And Ashes members, to boot? They'll shoot at us if we're not careful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "嗯……？我看看————",
+			say = "Oh dear. You're right. But then what should we...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "最前面的是谢菲尔德，旁边的厌战，然后再后面的是独角兽么？",
+			say = "Wait, I know! Use the broom again! Pretend you're sweeping the ground!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "怎么今天客人这么多，一个两个都找到我们这里来了……",
+			say = "Once they've established you're not a threat, I'll come forth and explain everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "嘿嘿，感觉事情要变有趣了。",
+			say = "It's a silly plan... but I think it's going to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900327,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "时隔多年，再次履行誓言的时刻已到————老姐，让我们披挂上阵吧！",
+			say = "Let's be quick, then find Vanguard's team and help them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

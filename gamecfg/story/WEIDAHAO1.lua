@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>一　出门什么的好麻烦哦！</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>Going Outside Sucks</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·指挥室外",
+			say = "Port - Outside the Office",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "簌——簌簌——",
+			say = "*sip* *siiiiiiiiip*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "走廊一侧传来了用吸管喝饮料的声音，循声走去，看见了瘫坐在地板上的维达。",
+			say = "I hear the sound of someone sipping loudly through a straw coming from the other end of the hallway. I follow the noise to find Whydah, splayed out on the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维达，你怎么不在房间里？",
+			say = "Whydah, what are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "是指挥官啊……",
+			say = "*yaaawn*... Oh, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "我的房间设置了定时清洁功能，现在正在打扫中……我只能先换个地方待着。",
+			say = "My room has this regularly-scheduled cleaning functionality, and that's what's going on right now... So in other words, I've been exiled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "果然定时清洁这种功能也很麻烦……好想回去打游戏……",
+			say = "Banished from paradise, sacrificed on the altar of convenience... *sigh*, what a pain. I just wanna go back and play games...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……怎么不把定时清洁功能关了？",
+			say = "...Have you ever considered turning it off?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "关闭功能也很麻烦啊……又要申请，还要设置……",
+			say = "I'd have to redo all the settings again. And that'd be a pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "先不说我了……指挥官是要去做什么？",
+			say = "More importantly, were you going somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难得没什么工作，就想出去走走。",
+			say = "Yeah. I somehow don't have any work lined up at the moment, so I figured why not take a stroll?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "哈啊~那一路走好哦。",
+			say = "*yaaawn*... Is that so? Well, have a good time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "哦……要不要带上薯片或者饮料？一边晒太阳一边吃零食也很舒服吧。",
+			say = "Oh, right. Can you bring me some crisps? Gotta have some snacks while basking in the sun, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（记得维达好像还挺喜欢晒太阳的……）",
+			say = "(Huh. She does like relaxing beneath the warm sunlight, doesn't she?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,18 +216,18 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（比起回不去房间，瘫坐在走廊上，果然还是问问她要不要出去比较好吧。）",
+			say = "(Maybe I should take her somewhere instead of leaving her stranded out here in the hallway...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要不要出去约会？",
+					content = "Wanna go on a date?",
 					flag = 1
 				},
 				{
-					content = "要不要出去晒太阳？",
+					content = "If you want to bask in the sun, the hallway's not the best place for that.",
 					flag = 2
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "约、约会……？原来指挥官也喜欢这种肉麻又麻烦的事情吗……",
+			say = "A d-date? Do you really enjoy such... physically and emotionally draining ordeals?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "欸……也不是不行……不过出门什么的也太麻烦了吧……",
+			say = "Ehh... I'm not opposed to that, but going outside is a pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是是跟指挥官一起出门……想想好像也不错……",
+			say = "But maybe... with you, it might not be so bad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但果然还是不想动啊……",
+			say = "Then again, I don't wanna get up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果有代步工具什么的就好了……难得指挥官有时间欸……",
+			say = "But at the same time, I don't wanna miss out on this opportunity either since you're always busy... Maybe if you could arrange a ride for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行，已经开始觉得累了……",
+			say = "Bleh, I'm already getting exhausted just thinking about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "走不走？",
+			say = "So, wanna go or not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "……唔……走！",
+			say = "Errrhhhhmmm... Fine, I'll go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

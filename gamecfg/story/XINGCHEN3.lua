@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>三  独角兽的烦恼</size>",
+					"Bits of Courage \n\n<size=45>III 「Unicorn’s Annoyances」</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			withoutPainting = true,
 			mode = 2,
-			say = "几天后……",
+			say = "A few days later…",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "哈啊……独角兽……想不明白……",
+			say = "Hmm... Unicorn… just can’t understand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "那时候的哥哥……好像全身都散发着光芒一样……",
+			say = "During that concert... Onii-chan appeared as if he was bathing in a light of happiness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "有种……输了的感觉……",
+			say = "But that light didn’t come from Unicorn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "（猛摇头）嗯嗯，不对…独角兽只是…想要让指挥官……哥哥开心……",
+			say = "(Shakes head furiously) No no... Unicorn just wants to make Onii-chan feel... happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "哈啊……究竟怎么做……才能让哥哥……那么开心呢……",
+			say = "Hmm... what exactly can Unicorn do... to make Onii-chan... that happy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "星尘……姐姐吗？嗯……感觉那个姐姐身上……也散发着光芒呢……",
+			say = "Lady Stardust? Could it be... Unicorn can feel that she was the source of that light... the one bathed on Onii-chan...making him so happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "哥哥好像说过……“不耻下问”？",
+			say = "Onii-chan once said… “Don’t be afraid to ask”?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "独角兽……要去问问那位姐姐……",
+			say = "Unicorn... wants to ask Lady Stardust...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

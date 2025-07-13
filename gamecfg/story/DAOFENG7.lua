@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>七　我为人人</size>",
+					"Full Steam Ahead!\n\n<size=45>7 All for One</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……以上，就是本次事件的始末！",
+			say = "...And that concludes my mission report!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在指挥室中听取了{namecode:18}整理的关于之前演习时跟塞壬战斗的报告。",
+			say = "Shimakaze gave me a debriefing on yesterday's battle with the mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,120 +72,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "已经能制作的有模有样了，不论怎么看都是出自一流秘书舰的手中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "嘿嘿嘿，能帮到指挥官就太好啦~！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "面前正自豪笑着的{namecode:18}，相比刚担任秘书舰时也成熟了许多。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "那指挥官觉得这次的报告能拿多少分呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "90分！",
-					flag = 1
-				},
-				{
-					content = "75分吧",
-					flag = 2
-				}
-			}
-		},
-		{
-			actor = 301290,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "这样吗，那下次我会争取拿更高分的……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "其实给100也不是不行，不过想让她能更加努力。",
+			say = "\"This is quite the detailed report. One should expect no less from a first-rate secretary.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,144 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "秘书舰的工作真是很有意义呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "刚开始的时候，想着只要自己拼尽全力就行，可是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "看到在我的努力的影响下，其他的人也变得更加努力的时候，我真的很开心……啊，这么说会不会太自大了！？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "不会，100分！",
-					flag = 1
-				},
-				{
-					content = "（温和的微笑）",
-					flag = 2
-				}
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "看着一会害羞一会惶恐的{namecode:18}，不禁也感到开心起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "多亏了{namecode:18}，自己也获得了新的力量。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "（轻笑一下）",
-					flag = 1
-				},
-				{
-					content = "（开玩笑的）",
-					flag = 2
-				}
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "好像冷场了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "就是这样……就是这样才对！",
+			say = "Oh, please, it's nothing special! I'm just happy to make myself useful to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +115,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……？",
+			say = "She flashed a proud smile. It made me realize how much more mature she seemed now compared to just a few days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "真是的！想让我都说出来吗？没办法了……！",
+			say = "On a scale from 1 to 10, how would you rate my report?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,35 +141,26 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 301290,
-			say = "又强大，又温柔，又聪明，而且还能适时灵活的打趣，这样的指挥官……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
-			painting = {
-				alpha = 0.3,
-				time = 1
+			options = {
+				{
+					content = "\"9, for sure.\"",
+					flag = 1
+				},
+				{
+					content = "\"7.5, I suppose?\"",
+					flag = 2
+				}
 			}
 		},
 		{
-			expression = 1,
+			actor = 301290,
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 301290,
-			say = "{namecode:18}从以前开始，就一直很喜欢了！",
+			say = "Aww, dang it! I'll just have to do better next time, I suppose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +185,266 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "激动地挥舞着双手的{namecode:18}突然发出了内容不得了的宣告，然后——",
+			say = "Frankly, I could have given her a perfect 10, but I just thought it'd be wiser to have her strive to become even better.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "You know, being the secretary is honestly pretty great!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "Initially, I agreed to do it just as a means to push my own limits. And while it did have that effect...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "It also became an opportunity to inspire others to work hard because I myself am working hard! ...Wait, doesn't that make me sound like a slave-driver?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "\"All in the name of productivity!\"",
+					flag = 1
+				},
+				{
+					content = "Chuckle heartily",
+					flag = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Hearing her stumble over what she just said brought a smile to my face.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "\"I have to say, I feel like I've grown after working with you these days.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "\"...Physically, that is.\"",
+					flag = 1
+				},
+				{
+					content = "\"Or maybe you've just shrunk?\"",
+					flag = 2
+				}
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "She fell silent. I worried that my joke didn't land, or worse yet, that she took it at face value...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "This... This is why being the secretary's so great!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "\"What? Elaborate.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "Oh, for goodness' sake! Do I have to say it out loud?! All right, fine!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "It's great because I get to work with a strong, kind, smart, wisecracking person like you...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 301290,
+			say = "I mean, who wouldn't want to work with the person they love? I've loved you since– Whuah?! Oh no!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Before she could finish pouring her heart out, a cup of coffee slipped out of her hand and hit the floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "打翻了桌子上的咖啡……看来一会的工作又要变得稍微忙碌一点了。",
+			say = "And that was Shimakaze in a nutshell. Sometimes clumsy, sometimes reckless, but always lovable. And our time together had only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

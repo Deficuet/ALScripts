@@ -10,12 +10,12 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "没有人比我更懂kp",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "传奇调查员KP（自称）",
+			actorName = "Bristol",
 			hidePaintObj = true,
-			say = "嘶嘶嘶@#￥%……&…………嘶——！！",
+			say = "*hisss* friaghgleh... grsh... *hisssssss*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,11 +47,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个混乱无序的声音再次出现了。",
+			say = "You hear the garbled growling again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,11 +61,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，地板上的水渍似乎也开始逐渐蔓延，如同某种生物移动过后留下的痕迹一般——",
+			say = "At the same time, the suspicious water stains on the ground start to multiply, like a trail left by some sea creature...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,18 +77,18 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "必须要尽快找出对策——",
+			say = "I need to act, quickly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "尝试用超群的智力寻找办法",
+					content = "I think of something using my exceptional intellect!",
 					flag = 1
 				},
 				{
-					content = "夸奖大小姐身上的华丽婚纱",
+					content = "That's a beautiful wedding dress you have!",
 					flag = 2
 				}
 			}
@@ -97,12 +97,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "（d100=23）……判定成功。你灵光一闪，决定夸奖大小姐穿在身上的华丽婚纱。",
+			say = "Roll a D100... 23. Success. You promptly decide to compliment the gorgeous wedding dress she's wearing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（就说被婚纱吸引了注意力好了。）",
+			say = "(Let's just say her dress stole my attention.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的这身婚纱真漂亮，近期是要举行婚礼了吗？",
+			say = "Sorry, it's just so stunning I couldn't help but notice it. Are you getting married today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,11 +137,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的眼神相当真诚，可是对面的大小姐却愣住了。",
+			say = "Golden Hind is briefly stupefied by your earnest question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			side = 2,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
-			say = "这身婚纱……真的美吗？",
+			say = "Do you... really think it's beautiful?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,11 +165,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她看着你，目光缥缈，仿佛在透过你看一些很遥远的东西。",
+			say = "She looks at you, but if anything, it feels like she's looking THROUGH you at something distant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,27 +179,27 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
-			actorName = "古堡大小姐",
+			factiontag = "Lord's Daughter",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……调查员，有人说过，你长得很好看么？",
+			say = "...Investigator, has anyone ever told you you're good-looking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没有。",
+					content = "No.",
 					flag = 1
 				},
 				{
-					content = "有！",
+					content = "Absolutely!",
 					flag = 2
 				},
 				{
-					content = "……啊？",
+					content = "What?",
 					flag = 3
 				}
 			}
@@ -208,11 +208,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听到这话，你愣了一下。好像有记忆的碎片正在缓慢回归……",
+			say = "Something about those words makes another memory fragment shake in your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,11 +222,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=48）……判定成功~",
+			say = "Roll a D100... 48. Success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,11 +236,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你想起了自己曾不止一次听到过相似的评论，你的外貌能被绝大多数人所认可。",
+			say = "You've received more than a few compliments for your looks. Yes, in fact, most people like your appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,17 +250,17 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜，你已成功回忆起基础属性：外貌：85。",
+			say = "Congratulations. You have remembered that your Looks stat is 85.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"角色卡内容解锁",
+				"Investigator Stat Revealed",
 				3
 			}
 		},
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……原来这个问题是用来交代角色设定的啊。",
+			say = "Wow. I didn't expect THAT to lead to me remembering something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,11 +280,11 @@ return {
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			side = 2,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
-			say = "和那个人一样……（小声）",
+			say = "(whisper) In story terms, it's just like that NPC.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
-			actorName = "古堡大小姐",
+			factiontag = "Lord's Daughter",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这身婚纱是我的婚约者给我挑选的。只是今天有些怀念，所以穿出来看看。",
+			say = "...Speaking of my dress, my beloved chose it for me. I felt a little nostalgic, so I thought I'd put it on again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,12 +309,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
-			actorName = "古堡大小姐",
+			factiontag = "Lord's Daughter",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您还没回答我刚才的问题呢……您看到了我的神像，那么，我可以知道您的秘密了么？",
+			say = "You still haven't answered my first question, by the way. You saw my sculpture, so will you tell me your secrets now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来躲不过去了……反正编了那么多，再编一些好了。）",
+			say = "(I guess there's no sidestepping it... I've already lied before, so I'll just lie some more.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,11 +336,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尽管你只是一个普普通通的神秘学爱好者，但为了给雇主的女儿留下一个良好的映像，你决定随意编造一些事迹。",
+			say = "Since you only dabble in the occult but still want to leave a good impression on your employer's daughter, you decide to make up a personal history with the paranormal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,11 +350,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "History Nerd GM",
+			actorName = "Sheffield",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=16）……啧，判定成功。得益于你聪明的大脑，你编造出了好几段离奇的神秘经历。",
+			say = "Roll a D100... 16. Success. Using your great intellect, you weave together a number of dramatic anecdotes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +364,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "History Nerd GM",
+			actorName = "Sheffield",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大小姐聚精会神地听着你诉说的故事，她显然相信了你的鬼话，那双美丽的眼睛越来越亮……",
+			say = "Golden Hind doesn't just buy your tall tales, she adores them. The joy in her eyes intensifies as you go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,11 +378,11 @@ return {
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			side = 2,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
-			say = "终于！我终于遇见了知音！",
+			say = "Wonderful! I've finally met a fellow enthusiast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +397,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
-			actorName = "古堡大小姐",
+			factiontag = "Lord's Daughter",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亲爱的调查员，您真无愧于“神秘学大师”的称号！您的见识之广和学识之深让我深感佩服！",
+			say = "Oh, my dear Investigator! Such is your depth of knowledge and breadth of experience that you deserve the title of Occult Master! I am amazed~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算是蒙混过关了吧……不过这个称号又是什么设定？算了，还是别深究了……）",
+			say = "(Well, it worked... Will that title come into play later, though? Actually, better not think too hard about it.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,11 +424,11 @@ return {
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			side = 2,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
-			say = "调查员，我这里还有样东西想给您看看……或许，它和城堡里的事件有着什么联系也不一定呢？",
+			say = "There's something I'd like to show you, Investigator. It may have something to do with the disappearances, in fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,12 +438,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			factiontag = "忧愁又疯狂的新娘",
-			actorName = "古堡大小姐",
+			factiontag = "Lord's Daughter",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请随我移步至中庭吧。",
+			say = "Follow me to the courtyard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,13 +453,13 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "进入中庭后，只一眼，你就看到了画在地上的黄色魔法阵，以及魔法阵后方那一座难以形容外貌的巨大石像。",
+			say = "As soon as you enter the courtyard, you see a glowing yellow magic circle on the ground. Behind it is a giant, enshrined stone statue with a mystic appearance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,12 +486,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "你注意到石像兜帽下那扭曲的触手正在向你伸来，翻滚的长袍仿佛要将你吞噬进去。",
+			say = "From under its hood, twisted tentacles extend towards you, and you feel as though they're drawing you into the darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,12 +501,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "你动弹不得，冷汗顺着脊背往下流，你无法抑制地开始打颤……你尝试恢复理智……",
+			say = "You are frozen in place... Chills and sweat run down your back, and you begin to tremble. You desperately try to regain your composure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,12 +516,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "（d100=78）……你失败了，光是这么看上一眼，你就陷入了无尽的恐惧与混乱中……",
+			say = "Roll a D100... 78. Failure. The one glance you took has filled you with immeasurable fear and distress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,13 +531,13 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			oldPhoto = true,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "终于找到了……令我主满意的祭品……",
+			say = "At last... I've found a sacrifice to appease my lord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,13 +547,13 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "忧愁又疯狂的新娘",
+			factiontag = "Lord's Daughter",
 			oldPhoto = true,
-			actorName = "古堡大小姐",
+			actorName = "Golden Hind",
 			actor = 9600031,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "亲爱的……我终于能把你带回来了……我们…再也不会分开……",
+			say = "I will soon be reunited with my beloved, and we will never be apart again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,12 +563,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "陷入昏迷的你被送上了祭坛，然后……",
+			say = "You fall unconscious and are placed on the altar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,12 +578,12 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_521",
-			factiontag = "子曰：",
+			factiontag = "Bookworm GM",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "文学少女KP",
+			actorName = "Hai Tien",
 			hidePaintObj = true,
-			say = "很遗憾。调查员，冰冷的死亡已然将你带走！",
+			say = "Unfortunately, the Investigator meets a chilling death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"古堡调查实录\n\n<size=45>BE-02-美丽的婚纱</size>",
+					"BE-02 - Looks Can Be Deceiving",
 					1
 				}
 			}
@@ -606,7 +606,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……所以，大小姐其实是邪教徒，而我是被献祭了？",
+			say = "So... The lord's older daughter is a cult member, and she turned me into a sacrifice?",
 			bgm = "theme-ijndailymeeting",
 			typewriter = {
 				speed = 0.05,
@@ -617,11 +617,11 @@ return {
 			portrait = 502070,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，没错哦~指挥官在行动前应该再谨慎一些才是。",
+			say = "Heehee, that's correct. You should learn to exercise some caution before you act, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我还以为跟大小姐走能获得什么新线索呢。",
+			say = "And here I thought I was about to find a new lead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,11 +643,11 @@ return {
 			portrait = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			factiontag = "LCK-Maxed GM",
+			actorName = "Yukikaze",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂……下雨天穿着婚纱在阴森古堡里晃悠的大小姐，就连{namecode:22:雪风}大人都能感觉到不对劲哦！",
+			say = "From a creep in a wedding dress, wandering a dark castle during a rainstorm? Even I would know to steer clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,11 +657,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对啊对啊，我都设计的那么明显了！",
+			say = "What she said! We made it so obvious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,11 +676,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前的小雕像，还有她一直问有关神秘学的事情其实也都是提示哦！",
+			say = "That sculpture and her incessant questions about occult stuff were meant to hint at it further!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,11 +690,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "有疑问找{namecode:428:欧根}",
-			actorName = "代理KP",
+			factiontag = "Impromptu Replacement GM",
+			actorName = "Z2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，最后调查员是被血祭的，也就是放干了所有的……血。",
+			say = "By the way, it says here your cause of death was... having all the blood drained from your body. Interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………真恐怖。",
+			say = "Yikes... Terrible way to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,11 +716,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "调查之路才进入了第一幕，继续加油吧，指挥官~",
+			say = "You're still only on chapter one! Try again, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "前往舰队集结点。",
+			say = "We should move our fleets to the rally point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

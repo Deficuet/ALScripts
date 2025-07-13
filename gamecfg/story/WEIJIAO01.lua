@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有点想和刚刚抵达的姐姐叙叙旧，不过还是留到路上再说吧。",
+			say = "Hmmf. I thought we'd have time for some chitchat, but it seems we'll have to do it on the move. Admiral Graf Spee has sunk another freight ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才接到了商船沉没前发出的无线电报，报告了两个月来胡作非为的{namecode:431}的位置，要开始追踪了哦",
+			say = "It's been 9 hours since the last one. Just before they sunk, I received a telegram from the ship. After 2 months of searching, I've now managed to pinpoint Admiral Graf Spee's location. We'd better start giving chase to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "啊哈哈，阿贾克斯还是老样子嘛，那么…我们要去哪里？",
+			say = "Hahah, giving chase right away? You never change, huh~ So, where is Spee now?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐也是呢，呵呵，要是在那边被欺负了尽管跟我说哟，最近正好有些无聊呢~",
+			say = "It seems she's in the Atlantic near the African coast. Mmmm... Hopefully we can find someone worthy of my harassment along the way. It's been a while since I had some fun... Hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目标，拉普拉塔河口，方位南纬32度，西经47度，匀速航行，保持警戒，路上可能会有些小虫子呢。",
+			say = "Anyway, our objective is the Río de la Plata Estuary. Chart a course for 32 degrees south and 47 degrees west. Remain highly vigilant and maintain formation at cruising speed. ...We may run into some pests along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，虽然长官的命令是绝对的，这几个月的搜索任务中的捉弄我也忍了…",
+			say = "Now hold on! I've put up with you for months now because you're in charge of this operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是我必须搞清楚你不是在胡乱地下达指令！",
+			say = "But here you go again giving us orders you decided on a whim! I want an explanation for why we're doing this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，阿贾克斯，埃克塞特怎么说也是前辈，平时不要太欺负她呀。",
+			say = "Wuh-oh. Ajax, don't be too mean to Exeter. She's served longer than you have after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为搜索任务太无聊嘛，总得找点事情~",
+			say = "Because, Exeter, search missions are boring. Don't you agree? So let's do something else, even if just to kill time... Ahahah♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你！",
+			say = "Now listen, you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀，埃克塞特姐姐，我家妹妹平时就是这样没大没小的，让你生气了我替她向你道歉。",
+			say = "Wait! Exeter, please calm down! You don't need to fight with her to solve this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过请相信，我们姐妹里最聪明的一个，阿贾克斯从来不会说没有根据的话的，对吧？",
+			say = "I know she's strange, but she's still the smartest Leander-class, so she won't make us go on a pointless mission... I think... Right, Ajax?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，电报的位置在南大西洋，而拉普拉塔河口作为那一带航线最为拥堵的地方，如果你是{namecode:431}，会不会想去那个能给敌人造成最大损伤的地方？",
+			say = "Ahahah. The telegram came from the South Atlantic, and the Río de la Plata is the most prominent route for merchant ships in that area. If you were Graf Spee and wanted to disrupt trade routes, wouldn't you pick a location where you can cause as much damage as possible?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我……会去。",
+			say = "If I were her... that... is where I'd go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就出发吧，如果我的想法没有错，半路上我们就会遇到敌人了，呵呵呵，可千万不要让我失望啊，{namecode:431}……",
+			say = "It's good that you understand. Unless I turn out to be wrong, we may even engage enemies on our way there. Ahahah... I hope you won't disappoint me, Graf Spee♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……还有坎伯兰怎么办？",
+			say = "...Shouldn't we wait for Cumberland?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间不等人，让她后面赶上吧。",
+			say = "We don't have the time. Tell her to catch up to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………我知道了，但愿你的判断没有出错，还有——",
+			say = "...Understood. I'll have faith in your judgement. Just one more thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回去后我会把你的一言一行都上报给军部的！",
+			say = "When we're back, I will report everything you've done up to this point to the Admiralty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，请便~",
+			say = "Ahahah, do as you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈，你们关系不错嘛~",
+			say = "Aha, hahah, I guess you two are starting to get along...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里看出来关系不错了啊！",
+			say = "You call this \"getting along\"?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

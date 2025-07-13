@@ -5,11 +5,11 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟嘟——",
+			say = "RING RING RING! RING RING RING!",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "在响过两声提示后，随即舱室内的通讯便被接通。",
+			say = "The call chime rings two times, then immediately connects to my cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "早上好，指挥官，希望你昨天做了个好梦。",
+			say = "Good morning, Commander. I hope you slept well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "本日将由我来进行简报工作。那么，我就先去办公区等你了。",
+			say = "I'll be reporting to you today. I'm waiting for you in your workspace.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "挂断通讯洗漱一番后，来到了办公区。",
+			say = "I hang up, have a shower, and get dressed, then head for my workspace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "邮轮·办公区",
+			say = "Cruise Ship - Workspace",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "早，指挥官。看来你已经彻底清醒了……嗯，那我就简单地进行一下汇报吧。",
+			say = "Good morning again. I take it you're fully awake? Then allow me to give you today's report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "目前假日邮轮状况良好，按照现在的航速，我们将于明早抵达无人岛。",
+			say = "The ship is on course and everything is running well. We should arrive at Seabreeze Island tomorrow morning.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "今日的固定行程为——露天水上乐园大赛，大赛将于本地时间14点-18点之间举行。",
+			say = "There's an event planned today – a water fight at the water park. It will be held from 2 PM to 6 PM.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官可于自己方便的时间段前往。以及，大家会等到指挥官来了之后再正式举行大赛。",
+			say = "You can stop by whenever it's convenient for you. No pressure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以，请指挥官不要忘记本日的活动安排。",
+			say = "Bear in mind, though, that the main part of the event won't start until you're there, so don't forget to come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我明白了。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "以上就是今日的简报，指挥官现在可以自由享受在邮轮上的闲暇时光了。",
+			say = "That's all I have to report. Hope you enjoy your free time aboard the ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "说完，认真的秘书舰小姐就抱起了一沓文件，坐到了办公区中另一张办公桌前。",
+			say = "Memphis brings her stack of documents to a separate table and takes a seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？孟菲斯还要继续工作么？",
+			say = "Wait, you're going to WORK? On our holiday?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难得的假期，要我享受闲暇时光的孟菲斯，自己是不是也该也多享受一下？",
+			say = "You just told me to enjoy my free time. I think you should follow your own advice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "放心吧指挥官，工作和度假之间的平衡我还是能把握住的哦。",
+			say = "Don't worry about me. I know how to balance my work and private life.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "再说了，现在就开始工作也是因为我想早点处理完今天的份，方便去参与今天的水上活动。",
+			say = "Also, I'm doing this now so I won't have to do it later. I'm looking to participate in the evening events.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "所以指挥官不要打扰我工作了，快点去享受一下吧——享受！",
+			say = "I'll be fine. You just concentrate on enjoying yourself! Go on, shoo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "之后就这样被孟菲斯推着离开了办公区。",
+			say = "Memphis walks over and pushes me out the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "顺势来到了甲板上，迎接我的是清新的海风，和一声鹰啸。",
+			say = "My feet hit the deck with a stumble. A cool, salty breeze and the cry of a bald eagle bid me welcome outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（天上盘旋的那只鹰……有点眼熟啊。）",
+			say = "(That eagle, circling in the air... I think I've seen it before.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "向前看去，此刻一身休闲装束的企业正背对着我依靠在甲板的栏杆上看风景。",
+			say = "I turn my gaze ahead and spot Enterprise, dressed in casual clothes and leaning against a handrail. She's marveling at the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然是企业的鹰。）",
+			say = "(It must be Grimmy, her pet eagle.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "指挥官？你也来甲板上欣赏风景么？",
+			say = "Ah, Commander. Here to enjoy the view, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……随便走走就到这里了。",
+			say = "Sort of. I was just walking around before I stumbled upon you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你一个人？我还以为你会和约克城她们一起行动。",
+			say = "Are you here by yourself? I thought you'd follow your sisters around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本是一起的。大黄蜂她上船后就有些亢奋，今早一醒过来就拉着我和约克城在邮轮上到处逛。",
+			say = "I did, for a while. Hornet has been like an excited dog without a leash ever since we boarded. As soon as she woke up this morning, she dragged me and Yorktown all around the ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "来到甲板这附近的时候，我说想留在这里吹吹风，就暂时和她们分开行动了。",
+			say = "When we got here, I told her I wanted to feel the breeze for a minute, and she let me go.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此……",
+			say = "Ahh, I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "难得有度假的时间，这种闲暇宁静的氛围，对我而言也是一种享受。",
+			say = "Sometimes, you just want to stop and smell the roses on a vacation. You can't always be moving.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "指挥官呢？",
+			say = "Maybe you think otherwise, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,11 +526,11 @@ return {
 			},
 			options = {
 				{
-					content = "赞同企业",
+					content = "(Agree with her.)",
 					flag = 1
 				},
 				{
-					content = "打趣企业",
+					content = "(Tease her a bit.)",
 					flag = 2
 				}
 			}
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯，单纯以度假的心态吹着海风，看着眼前这片大海，确实很放松。",
+			say = "No, I agree. Feeling the wind in your hair, taking in the vastness of the ocean – that's the most relaxing thing I could ask for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "现在的企业，已经适应了全身心投入享受假期和旅途的状态了么？",
+			say = "Sounds like you've changed. What happened to the girl who struggles to unwind on a vacation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "咳……毕竟指挥官说过，“为了能更好的工作，休息也是必要的。”",
+			say = "Ahem... She took your advice to heart. \"Everyone needs breaks in order to work better.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "少女露出了放松的神情。",
+			say = "Enterprise gives me a relaxed look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "如果指挥官接下来没什么安排的话……就像现在这样陪我一起看一会儿风景吧？",
+			say = "Are you free right now? If so, do you wanna stay and watch the waves with me for a while?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Don't mind if I do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "和企业一起享受了一会儿海风的吹拂后——",
+			say = "Sometime later, while Enterprise and I are still basking in the briny breezes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "企业！指挥官？啊~你们在这里啊~",
+			say = "Enterprise! And my honey, too! I finally found you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是专程在找我们？",
+			say = "\"Finally\"? You've been looking for us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错~毕竟企业也算是今天露天水上乐园大赛的主力嘛！",
+			say = "Of course I have! Did you forget you're one of the main hosts of the water fight happening today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "正好在找你的时候遇到了大黄蜂和约克城，是她们告诉我你在甲板这里的哦~",
+			say = "I ran across your sisters a minute ago and they pointed me here when I asked about you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过没想到指挥官也在这里就是了。",
+			say = "Wasn't expecting to see YOU here, though, honey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个大赛，不是预计在14点-18点间开始么……为什么这么早就开始准备了？",
+			say = "Wait, I thought the water fight started at 2 PM? Why do you need to start getting ready this early?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "当然是为了……哎呀，虽然说了指挥官也不一定能理解。",
+			say = "Isn't that obvious? Well, maybe not, I guess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "但是被水流命中也不会受影响的妆容啦、发型啦之类的可是要做很久呢！",
+			say = "Basically, we need to style our hair and put on makeup that won't get utterly ruined when we get splashed with water. That takes time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,7 +790,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我应该，不用做这些吧？",
+			say = "I don't HAVE to do that, do I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "毕竟我也不是很擅长这个……",
+			say = "I'm not exactly an expert at makeup and styling, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "当然不可以！下午可是要和Honey一起玩嘛！你就放心好啦，包在我身上！",
+			say = "Yes, you do, if you want to play with honey here! And don't worry – I'll do it for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,7 +844,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "那……指挥官，我就先和{namecode:199:新泽西}去准备了。",
+			say = "Oh. Uh... Well then, Commander, I guess she and I will go get ourselves ready.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "Honey~你也快去准备准备吧~我们就先走一步咯！",
+			say = "I want you looking your best too, honey. Remember that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -880,7 +880,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "下午比赛见哦~",
+			say = "Anyway, time for us to go. See you later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
-			say = "目送着{namecode:199:新泽西}拉走企业后——",
+			say = "I wave the two goodbye as they leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:199:新泽西}说的妆容和发型什么的……我应该没什么要准备的吧……）",
+			say = "(It's too bad I didn't pack any water-resistant makeup or equipment to style my hair with, I guess...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（下午就以平时的状态去参加好了。）",
+			say = "(I'll just show up looking like I always do.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			bgName = "star_level_bg_179",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（离大赛开始还有相当长的一段时间，就利用这段空闲时间在邮轮上四处看看吧。）",
+			say = "(Anyway, there's still plenty of time before the water fight starts. I'll have a look around the ship in the meantime.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

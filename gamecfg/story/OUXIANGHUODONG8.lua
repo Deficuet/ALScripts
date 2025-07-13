@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "azumaster-ins",
 			dir = 1,
-			say = "{namecode:6}，这边！",
+			say = "Ayanami, we're over here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}小姐……还有“Polaris”的各位，和{namecode:6}比试比试吧",
+			say = "Akagi, and Polaris... We're not going to lose to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:426}小姐也拜托了！大家一起努力完成实验任务吧",
+			say = "Miss Hipper! W-well met! L-let's do our best to successfully carry out this rigging test!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，舞台招呼",
+			say = "Zed, your stage introduction...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "啊，是有这么回事！咳咳！",
+			say = "Ah, that's right! Ahem! Here I go...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“努力偶像{namecode:6}，元气120%可爱参上！”……的说",
+			say = "\"I'm the hardworking idol, Ayanami. I'm 120% energetic and cute, so keep your eyes on me!\" ...Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“吾之歌声即为弥赛，吾之舞步即为温蒂尼，偶像{namecode:408}，将各位的加油都——”",
+			say = "\"My song is the Messiah, and my dance is the Undine. I am the idol, Z23, and I shall capture your adoration for all of eternity...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "那啥，这是{namecode:410}还是{namecode:411}教你的吧",
+			say = "...Who taught you that? Was it Z35 or Z36?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "呜！？",
+			say = "Ack?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			actor = 301057,
 			dir = 1,
-			say = "萨拉托加老师，作战失败了",
+			say = "Miss Saratoga... the operation has failed due to cringe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "轮不到这边出手了，本想说彻底让场面冷掉的",
+			say = "...It looks like we won't even have to do anything. The venue's excitement level has already dropped three bars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}太紧张了啦！不用管对面那么多的！",
+			say = "Calm down, Zed! You're too nervous! You can't allow yourself to get caught up in your opponent's pace while you're on stage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			actor = 401236,
 			dir = 1,
-			say = "对不起……",
+			say = "I'm sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，没事",
+			say = "Don't worry, Zed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这么一来大家也都不紧张了呢。也不用计较彼此面子了",
+			say = "Well, at least the nerves seem to have eased up on both sides. We won't have to worry about that stuff now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后面的表演和实战测试都是真本事了！嘿嘿，不要以为这边用的是不习惯的舰装就大意了哦",
+			say = "From here on out, we'll be getting to the actual performance and testing phase! Hehe, if you think we're still struggling to use our new equipment, you'll be in for a surprise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！舰装测试我们会配合的！",
+			say = "Mhm! We'll do everything we can to ensure the trial run is as successful as possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你们看看和L.I小姐一起通宵看视频学到的偶像表演技术",
+			say = "Long Island and I didn't pull an all-nighter studying idol performances for nothing... I'll show you the fruits of our research!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

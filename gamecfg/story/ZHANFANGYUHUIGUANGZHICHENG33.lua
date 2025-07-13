@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "实验场F-45733·？？？",
+			say = "Somewhere, in test site F-45733...",
 			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我们已抵达目标地点，比预定时间晚了十四小时十三分。",
+			say = "We've arrived at the objective, albeit 14 hours and 13 minutes behind schedule.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "余烬的拖延决心比预想中更强，她们肯定同时派人来此处进行了行动。",
+			say = "The Ashes proved more resilient than anticipated. They've likely dispatched members here as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "还有中间的那次莫名其妙的干扰。",
+			say = "We also encountered an abnormal type of jamming en route.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "如果不是那股冲击，我们肯定能到得更早……",
+			say = "Had it not been for that impact, we would've arrived sooner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "到底是什么人在途中阻拦我们？",
+			say = "Who the hell tried to stop us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "不明——我的数据库中没有匹配结果。",
+			say = "Unknown. No data matching characteristics found in database.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "也就是说……这是一个没有在任何实验场中被记录，此前也从未与我们交战过的敌人。",
+			say = "So it's a new enemy we've never recorded across any of our test sites, huh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "有趣……",
+			say = "Color me intrigued.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "天帕岚斯，你从这一片虚无之中能寻找我们需要的情报么？",
+			say = "Temperance, what're our prospects of extracting any data from the void?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "检索分析中——否定。",
+			say = "Searching. Analyzing. None.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "整片区域已经被细致清理过了，而且手段很高明。",
+			say = "This area has been scrubbed completely clean. Agent responsible possesses remarkable skill.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "就连我都做不到处理得如此不留痕迹……",
+			say = "Not even I possess the ability to perform a scrub leaving no traces.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "恐怕需要托瓦，或者麦纪莎亲自来处理才能留下这样干净的现场。",
+			say = "Only known agents possibly capable of this are Tower and Magician.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "它们没有回应本次行动的增援请求，不会来这里的。",
+			say = "They didn't answer our request for reinforcements. There's no way either of 'em were here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "那只能认定这个人拥有与其相同的水平了。",
+			say = "Then it must be an agent of equal skill to them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "不论如何，此地已是一片空白。",
+			say = "There is simply nothing here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我们既无法调查出空间冲击发生的原因，也无法找到引发空间的存在。",
+			say = "Identifying cause and origin of the spatial impact event is impossible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "任务失败。我们需要在提交报告后，执行此时任务列表中的第一项任务。",
+			say = "Mission failed. Proceed with first task on mission list following submission of after-action report.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "正在提交报告——",
+			say = "Submitting the report now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……收到了恩普雷斯发来的紧急联络。",
+			say = "...Hey, I just got an urgent message from Empress.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "嗯？实验场β的局势存在失控的风险，要求我们立刻前去稳定局面？",
+			say = "\"Risk of test site beta running out of control... Requesting Arbiters to perform calming measures\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "它怎么也跑去实验场β了？",
+			say = "What's she also doing over in test bite beta?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "因为那鬼地方特殊呗……",
+			say = "It is a special site.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "真是的……尤其是那个指挥官。",
+			say = "Owing particularly to the entity known as \"the Commander.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "不能真打又不能不打……麻烦死了。",
+			say = "An all-out attack is not an option; neither is not attacking. A bothersome dilemma.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我申请去拉沃斯的防线支援可以么？",
+			say = "Requesting permission to join Lovers at defensive line.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "恩普雷斯还没下达具体的任务分配，你之后可以试试。",
+			say = "Well, Empress hasn't set our assignments in stone, so if you wanna go, now's your chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "唉……走吧，回实验场β。",
+			say = "*sigh*... Back to test site beta we go.",
 			painting = {
 				alpha = 0.3,
 				time = 1

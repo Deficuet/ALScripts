@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>露营前的准备</size>",
+					"Uncharted Summer\n\n<size=45>Living Off the Land</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "海岛上那座郁郁葱葱的茂盛森林很能吸引人的视线。",
+			say = "The forest covering the island is both beautiful and bountiful.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "去那里看看的话，应该能找到不少合用的东西——",
+			say = "There's sure to be plenty of things to forage here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "正这样想着的时候，碰到了同样打算前往森林的标枪。",
+			say = "Then, just as I'm about to start, I run into Javelin, who seemingly had the same idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官也打算去森林里看看吗？",
+			say = "Oh, are you going into the woods too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我打算进森林里找些枯枝，一会可以用来生火。",
+			say = "Me? I'm going to gather branches so we can get a fire started.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果要露营的话，篝火堆是必不可少的吧~",
+			say = "A camp without a campfire is like fish without chips, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且还有被雨水打湿的衣服之类……也要烤一下。",
+			say = "And also because I'd like to dry my clothes after that storm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "两个人的效率会更高，和她一起去收集一些吧——",
+			say = "\"We'll cover more ground if we work together. Come on, let's get searching.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "繁茂的森林中，鸟在耳边鸣叫，阳光则透过树叶，斑驳地落在草地上。",
+			say = "The air is filled by the chirps of birds of paradise. Sunlight breaks through the leaves, creating scattered light dots on the grassy ground below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼哼~",
+			say = "Hmm-hm-hmm♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "标枪一边哼着歌一边采集着地上的枯枝，看起来已经完全将落难的事抛诸脑后了。",
+			say = "Javelin hums a peppy tune while collecting dead branches off the ground. She doesn't seem the least concerned over being shipwrecked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,68 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，反正既然都已经流落到岛上了，那再去考虑这些就没什么用啦，只会让自己心烦而已。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 201210,
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不如想想该怎么让今晚的露营更舒服些比较好~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201210,
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而且仔细看看，这座岛真的很漂亮呢~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201210,
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "有漂亮的浅海，大片的金色沙滩，还有这——么大的森林！",
+			say = "Hey, we're safe and sound, and that's what matters. There's no point crying over spilt milk!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,35 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能把它开发成度假地的话，应该会很不错的吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "嗯——如果能开发成港区度假地的话，确实是一个不错的选择。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 201210,
-			side = 2,
-			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嘿嘿，所以不妨把我们这次行动当成对度假地的前期侦查好了~",
+			say = "Thinking about how to establish our camp is a much better use of our energy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +254,96 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼~指挥官，收集到这么多度过今晚肯定没问题啦。",
+			say = "Besides, look around – this is a gorgeous place to be stranded.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "A crystal-clear coast, a vast golden beach, and a truly massive forest!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Frankly, the only thing this place needs is some nice accommodations!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			say = "\"That's not a bad idea. I could see myself sunbathing here on a holiday, tropical drink in hand.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Heehee~ Then think of this as the laying-the-groundwork phase of making this place into a vacation spot!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_summerisland_map",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Alright, this should be plenty to keep a fire going.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！那边的树下好像有很多蘑菇……我们采一些回去吧~",
+			say = "Oh! Look, Commander! There's a whole colony of mushrooms growing under that tree!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,11 +388,11 @@ return {
 			},
 			options = {
 				{
-					content = "也许会有很鲜美的蘑菇",
+					content = "\"We're eating good tonight.\"",
 					flag = 1
 				},
 				{
-					content = "也许会摘到毒蘑菇",
+					content = "\"What if they're poisonous?\"",
 					flag = 2
 				}
 			},
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿，我也是这么觉得的~",
+			say = "Mhm! Let's bring these back to camp!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "没关系，辨认就交给我吧！",
+			say = "Don't worry, I know which ones are safe. Leave this to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "和标枪一起在森林里忙碌后，得到了可食用的蘑菇与露营用的柴火——",
+			say = "And so, we walk back to camp with a hefty haul of firewood and mushrooms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

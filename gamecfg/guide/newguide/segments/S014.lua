@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"关闭奖励界面",
-	"这里是快捷分解界面，我们暂时不需要分解装备，这里就先取消",
-	"确认取消",
-	"返回主界面"
+	"Close the rewards menu.",
+	"This is the batch disassemble menu. We're not going to disassemble anything right now, so just go back to the previous screen.",
+	"Tap to return.",
+	"Return to the main menu."
 }
 
 return {

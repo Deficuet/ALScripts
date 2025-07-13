@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>四 定番的尾声</size>",
+					"Swept Away in the Moment\n\n<size=45>Classic Conclusion</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "虽说起因有些莫名其妙，不过看着大家乐在其中的模样，总算是这几天的准备没有白费了",
+			say = "Although there are a few who were reluctant to join in, what matters is that everyone seems to be enjoying themselves.",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼哼，这就是铁血的宴会！怎么样，是不是说不出话来了呀，皇家的小矮子～",
+			say = "Ahahahaha! What's the matter, dwarf queen? Are you left speechless by how perfect our party was?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 205011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你·说·谁·是·小矮子啊啊啊啊啊啊！！！！你才是铁血的小矮子呢！！",
+			say = "You dare call me a dwarf?! Quite ironic, considering that you are hardly taller than a destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小矮子小矮子小矮子，说的就是你！",
+			say = "What did you just say?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "这边演变成了毫无营养的互相占嘴上便宜",
+			say = "It was astounding how they took such a petty quarrel so seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 403053,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐、姐姐……冷静一点",
+			say = "Deutschland! Don't start a fight with her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 202123,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，两位的关系已经变得这么好了呢",
+			say = "It is moving to see that you are on such amicable terms with one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,10 +182,10 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "{namecode:429}&伊丽莎白",
+			actorName = "Both",
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "谁跟她关系好了啦！！",
+			say = "\"Amicable?\" Hah!",
 			effects = {
 				{
 					active = true,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "真是令人不禁微笑的场景，不过，也差不多到了最后的定番登场的时候了——",
+			say = "It doesn't seem this quarrel will end on its own... I suppose it's time to send off the night.",
 			effects = {
 				{
 					active = false,
@@ -241,7 +241,7 @@ return {
 			},
 			options = {
 				{
-					content = "喊停两人",
+					content = "With a bang.",
 					flag = 1
 				}
 			}
@@ -252,10 +252,10 @@ return {
 			bgName = "star_level_bg_115",
 			hideOther = true,
 			dir = 1,
-			actorName = "{namecode:429}&伊丽莎白",
+			actorName = "Both",
 			actor = 403043,
 			nameColor = "#a9f548",
-			say = "干嘛！仆从/仆人？",
+			say = "What?!",
 			effects = {
 				{
 					active = true,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			say = "砰！",
+			say = "Whiiiiiish... ba-boom!",
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
@@ -309,8 +309,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:429}&伊丽莎白",
-			say = "哇……",
+			actorName = "Both",
+			say = "Are those...?",
 			subActors = {
 				{
 					actor = 205011,
@@ -336,7 +336,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，怎么样，最后的烟花，不比之前那次的差吧！",
+			say = "... Ahahahahahaha! How's *that*? Do you see the dazzling fireworks my servant prepared?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 205011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽、虽然还不及皇家宴会的烟花，不过，姑且给你个及格分吧！",
+			say = "Well... Not bad, but compared to the Royal Navy's fireworks, they're not any... Wait a moment, I recognize these from the summer festival!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 403043,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你说什么！！？？",
+			say = "Blast it! The jig is up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "真该感谢每次帮忙准备烟花的茗她们呢，回头再好好当面向她们道谢吧",
+			say = "Good thing they let me have some of the leftovers from the fireworks workshop. I'll need to stop by Akashi's shop later to say my thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "烟花下的一杯酒，嘻嘻，也是别有一番风味呢～",
+			say = "Looks like liquor tastes even better when watching fireworks.",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -429,7 +429,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，铁血也喜欢这种华而不实的玩意儿吗。算了，总归是道不错的风景……",
+			say = "Et tu, Iron Blood... But, guess everyone's gotta be flashy when it matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…虽然有点吵……不过，嗯，还不错……",
+			say = "Too loud... Although the fireworks aren't shabby...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 499011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是不错的烟花啊～下次在战场上也来放“烟花”吧～",
+			say = "If only I could make the battlefield \"light up\" as beautifully as these fireworks do~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 199011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈，{namecode:439}还是老样子，时不时就会说出让人吓一跳的话呢～",
+			say = "Ahaha, aha... What, like, literally?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 301143,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，鹬快看快看，是烟花～好棒啊～",
+			say = "Shoukaku! Om nom... Look, fireworks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 307051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，话说至少看烟花的时候放下手上的烤串也好啊…",
+			say = "Yuudachi, please... don't talk with your mouth full.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "在绚烂的烟花映衬下，这场心血来潮的宴会也算是步向了尾声。嗯，下次有机会，再来办一次这样的宴会吧——",
+			say = "The dazzling sight of the fireworks was a fitting end to such a delightful party. Indeed, I hoped every party could be so invigorating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：侦测到塞壬增援点出现了强烈信号波动，预计之后将会出现战斗力更强的塞壬增援舰队。",
+			say = "Detecting amassing Siren presence. Powerful hostile reinforcements are approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

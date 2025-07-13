@@ -114,426 +114,426 @@ pg.base = pg.base or {}
 pg.base.dorm3d_subtitle = {
 	[101] = {
 		id = 101,
-		subtitle = "就让天狼星为$dorm3d演示，一名合格的女仆应该如何清洁花瓶吧。"
+		subtitle = "Honourable $dorm3d, allow me to show you how a truly great Royal Maid cleans a vase."
 	},
 	[102] = {
 		id = 102,
-		subtitle = "扶住花瓶，轻轻上下擦拭。"
+		subtitle = "Hold it with one hand and gently wipe up and down."
 	},
 	[103] = {
 		id = 103,
-		subtitle = "力度要适中……嗯，像这样。"
+		subtitle = "Not too forcefully, but not too gently..."
 	},
 	[104] = {
 		id = 104,
-		subtitle = "要注意幅度，不能脱手……它其实是很脆弱的呢。"
+		subtitle = "It's a delicate item, so one must be careful not to drop it..."
 	},
 	[105] = {
 		id = 105,
-		subtitle = "这样就擦干净了……！"
+		subtitle = "There! It's all clean now!"
 	},
 	[201] = {
 		id = 201,
-		subtitle = "……啊！"
+		subtitle = "Eep!"
 	},
 	[202] = {
 		id = 202,
-		subtitle = "这，这种事……不该让$dorm3d来……呜！！"
+		subtitle = "I-I mustn't trouble you with such a... Hyah?!"
 	},
 	[203] = {
 		id = 203,
-		subtitle = "这下您可以放心了呢，我温柔的$dorm3d。"
+		subtitle = "Thank you, my sweet, honourable $dorm3d. That will do."
 	},
 	[301] = {
 		id = 301,
-		subtitle = "$dorm3d，您可以帮天狼星一下吗？"
+		subtitle = "Honourable $dorm3d, could you help me for a..."
 	},
 	[302] = {
 		id = 302,
-		subtitle = "嗯~原来$dorm3d也有想恶作剧的时候呢。"
+		subtitle = "$dorm3d?"
 	},
 	[303] = {
 		id = 303,
-		subtitle = "$dorm3d？"
+		subtitle = "Even you have a mischievous side, I see."
 	},
 	[401] = {
 		id = 401,
-		subtitle = "天狼星荣幸之至……！"
+		subtitle = "Why, I'm most honoured...!"
 	},
 	[402] = {
 		id = 402,
-		subtitle = "……令我沉醉的$dorm3d啊。"
+		subtitle = "My adored $dorm3d..."
 	},
 	[501] = {
 		id = 501,
-		subtitle = "$dorm3d，天狼星在此恭候您多时了"
+		subtitle = "I've been waiting for you, my honourable $dorm3d. Please, come in."
 	},
 	[601] = {
 		id = 601,
-		subtitle = "欸？这样就很好……不用道歉？"
+		subtitle = "Oh? Do you consider this enough?"
 	},
 	[602] = {
 		id = 602,
-		subtitle = "您还是一如既往呢，我温柔的$dorm3d。"
+		subtitle = "You're always too kind, $dorm3d."
 	},
 	[603] = {
 		id = 603,
-		subtitle = "不过，能在这样……较为私密的场合中侍奉您，天狼星真的非常开心。"
+		subtitle = "Still, the honour of being able to serve you in a more... intimate, private setting has me trembling with joy."
 	},
 	[604] = {
 		id = 604,
-		subtitle = "这些都是天狼星应该做的。"
+		subtitle = "Not at all! I just did what was expected of me as a maid."
 	},
 	[605] = {
 		id = 605,
-		subtitle = "作为一名皇家女仆，天狼星份内的职责之一就是将$dorm3d要经过的地方清扫得一尘不染呢。"
+		subtitle = "It is a Royal Maid's duty to keep every location frequented by her $dorm3d spotless."
 	},
 	[606] = {
 		id = 606,
-		subtitle = "事实上，为了随时迎接$dorm3d的到来，天狼星已经做好了万全准备……！"
+		subtitle = "Umm... Actually, I fully prepared myself in anticipation of your visit today, my honourable $dorm3d!"
 	},
 	[701] = {
 		id = 701,
-		subtitle = "请进。"
+		subtitle = "This way, please."
 	},
 	[702] = {
 		id = 702,
-		subtitle = "还请您原谅天狼星刚刚有些简陋的迎接仪式。"
+		subtitle = "Please forgive your poor excuse of a maid for the simplicity of her welcome."
 	},
 	[703] = {
 		id = 703,
-		subtitle = "如果准备时间更充足的话，天狼星一定会安排得更加隆重和正式。"
+		subtitle = "If only I had more time, I could've prepared something more grand. Something more fitting."
 	},
 	[801] = {
 		id = 801,
-		subtitle = "口感和温度恰到好处的红茶，鲜美且营养均衡的高级茶点……"
+		subtitle = "I have prepared delicious tea that's just the temperature, premium refreshments that both taste lovely and are healthy."
 	},
 	[802] = {
 		id = 802,
-		subtitle = "干净整洁的寝具，还有天狼星本人，现在都已经是完美状态。"
+		subtitle = "There is also a well-tidied bed, and lastly, me. Everything has been made perfect for you."
 	},
 	[803] = {
 		id = 803,
-		subtitle = "无论提出什么要求，天狼星都能满足$dorm3d。"
+		subtitle = "Should you have any requests, I shall do all I can to fulfill them."
 	},
 	[804] = {
 		id = 804,
-		subtitle = "这是让……天狼星开始侍奉的意思么？"
+		subtitle = "Wait... You're asking me to provide THAT service, are you not?"
 	},
 	[805] = {
 		id = 805,
-		subtitle = "啊！终于，这一天终于来了……我和$dorm3d一起……天狼星一直以来期待的……"
+		subtitle = "Finally, this day has come! How long I've waited to be with you in..."
 	},
 	[806] = {
 		id = 806,
-		subtitle = "只是普通的坐下休息？做了这么多事情应该很累……？"
+		subtitle = "...You just assumed that I must be tired after all that, and wanted me to take a break?"
 	},
 	[807] = {
 		id = 807,
-		subtitle = "原来是这样……该怎么说呢……"
+		subtitle = "Oh, so that's what you meant... Umm..."
 	},
 	[808] = {
 		id = 808,
-		subtitle = "没想到会收到这种要求……但如果这是$dorm3d所希望的，天狼星当然会做到。"
+		subtitle = "Although I am a little disappointed, I will fulfill your request."
 	},
 	[809] = {
 		id = 809,
-		subtitle = "那么，就请和天狼星来沙发上休息吧，我骄傲的$dorm3d。"
+		subtitle = "Now then, please take a seat next to me on the couch, my honourable $dorm3d."
 	},
 	[901] = {
 		id = 901,
-		subtitle = "$dorm3d，没想到您也会来这里沐浴……！"
+		subtitle = "$dorm3d, I didn't think you'd come here to bathe, too!"
 	},
 	[902] = {
 		id = 902,
-		subtitle = "唔……是因为看到了这样的$dorm3d……还是因为这里的温度太高……？"
+		subtitle = "Aah... Is it getting too hot in here, or is it just because I'm seeing you in a state of undress?"
 	},
 	[903] = {
 		id = 903,
-		subtitle = "甚至……甚至产生了一个不尊敬$dorm3d的想法。"
+		subtitle = "Such unbecoming thoughts are coming to mind..."
 	},
 	[1001] = {
 		id = 1001,
-		subtitle = "这里和这里都要清洁干净呢……"
+		subtitle = "I need to clean over here... and over there, too..."
 	},
 	[1002] = {
 		id = 1002,
-		subtitle = "嗯……嗯……"
+		subtitle = "Scrub... Scrub..."
 	},
 	[1003] = {
 		id = 1003,
-		subtitle = "都怪天狼星太过愚笨，所以才……"
+		subtitle = "Stupid Sirius, spilling so much tea... Causing so much trouble for your poor, honourable Master..."
 	},
 	[1004] = {
 		id = 1004,
-		subtitle = "唔……"
+		subtitle = "Ooh..."
 	},
 	[1005] = {
 		id = 1005,
-		subtitle = "$dorm3d是在安慰天狼星吗……？"
+		subtitle = "Master? You're trying to console me...?"
 	},
 	[1006] = {
 		id = 1006,
-		subtitle = "呵呵，感谢您，我骄傲的$dorm3d。"
+		subtitle = "Th-thank you, my honourable Master!"
 	},
 	[1007] = {
 		id = 1007,
-		subtitle = "还差最后一点……"
+		subtitle = "Just a little more..."
 	},
 	[1008] = {
 		id = 1008,
-		subtitle = "呼……这样就好了……"
+		subtitle = "Phew... That should do it!"
 	},
 	[2101] = {
 		id = 2101,
-		subtitle = "猜猜我是谁？"
+		subtitle = "Gueeess who?"
 	},
 	[2102] = {
 		id = 2102,
-		subtitle = "唔……{namecode:226}教我的这种恶作剧看来不适合我呢……"
+		subtitle = "Hmm... On second thought, I'm not suited for this little tease Sakawa taught me..."
 	},
 	[2103] = {
 		id = 2103,
-		subtitle = "你觉得很可爱？这、这样啊……///"
+		subtitle = "You thought it was cute? Oh, okay..."
 	},
 	[2201] = {
 		id = 2201,
-		subtitle = "嗯……这样就好了。"
+		subtitle = "Alright, that should do it."
 	},
 	[2202] = {
 		id = 2202,
-		subtitle = "还不出发吗？"
+		subtitle = "Aren't we leaving yet?"
 	},
 	[2301] = {
 		id = 2301,
-		subtitle = "$dorm3d，请把手给我……"
+		subtitle = "$dorm3d, lend me your hand."
 	},
 	[2302] = {
 		id = 2302,
-		subtitle = "这样加速的心跳……"
+		subtitle = "Do you feel how hard my heart is beating?"
 	},
 	[2303] = {
 		id = 2303,
-		subtitle = "面对你的时候……就会这样哦……///"
+		subtitle = "It gets like this when... I'm with you..."
 	},
 	[3401] = {
 		id = 3401,
-		subtitle = "老师……！颜料……安克雷奇……用来画画！"
+		subtitle = "Teacher...! Paint... Anchorage will make art!"
 	},
 	[3402] = {
 		id = 3402,
-		subtitle = "哼哼♪~ "
+		subtitle = "Hum hum~"
 	},
 	[3403] = {
 		id = 3403,
-		subtitle = "安克雷奇……和……老师！还有……爱心……！"
+		subtitle = "Me... and Teacher! And... a heart!"
 	},
 	[3404] = {
 		id = 3404,
-		subtitle = "老师……！颜料……掉了……"
+		subtitle = "Teacher! My paints fell..."
 	},
 	[3405] = {
 		id = 3405,
-		subtitle = "不担心……？嗯~！安克雷奇……继续画！"
+		subtitle = "It's okay...? Okay! Anchorage will... keep drawing!"
 	},
 	[3406] = {
 		id = 3406,
-		subtitle = "嗯嗯……唔……"
+		subtitle = "Hmm... Umm..."
 	},
 	[3407] = {
 		id = 3407,
-		subtitle = "画了……老师……安克雷奇，永远在一起！……嗯！"
+		subtitle = "Picture... Anchorage and Teacher, together forever...! Yeah!"
 	},
 	[3101] = {
 		id = 3101,
-		subtitle = "帮帮……安克雷奇，老师！"
+		subtitle = "Help me... Teacher!"
 	},
 	[3102] = {
 		id = 3102,
-		subtitle = "唔……老、师……？"
+		subtitle = "Hmm... Teach...er...?"
 	},
 	[3103] = {
 		id = 3103,
-		subtitle = "欸嘿嘿，老师……要一起玩……？"
+		subtitle = "Hehe... Do you wanna play with Anchorage?"
 	},
 	[3104] = {
 		id = 3104,
-		subtitle = "和安克雷奇……一起……！"
+		subtitle = "Together...!"
 	},
 	[3105] = {
 		id = 3105,
-		subtitle = "点击"
+		subtitle = "Tap"
 	},
 	[3106] = {
 		id = 3106,
-		subtitle = "点击"
+		subtitle = "Tap"
 	},
 	[3301] = {
 		id = 3301,
-		subtitle = "老师……！该……起床了！"
+		subtitle = "Teacher... Your hands are warm!"
 	},
 	[3302] = {
 		id = 3302,
-		subtitle = "老师……暖暖的……手！"
+		subtitle = "Teacher! W-wake up!"
 	},
 	[3303] = {
 		id = 3303,
-		subtitle = "亲亲……学会了！"
+		subtitle = "Kissing... learned!"
 	},
 	[3304] = {
 		id = 3304,
-		subtitle = "安克雷奇……喜欢！"
+		subtitle = "Anchorage loves you!"
 	},
 	[3305] = {
 		id = 3305,
-		subtitle = "老师……也喜欢……？"
+		subtitle = "Do you love Anchorage, Teacher...?"
 	},
 	[3201] = {
 		id = 3201,
-		subtitle = "老师……安克雷奇……在这里！"
+		subtitle = "Teacher... Anchorage is here!"
 	},
 	[3202] = {
 		id = 3202,
-		subtitle = "老师……抱抱……！"
+		subtitle = "Give me a hug...!"
 	},
 	[2401] = {
 		id = 2401,
-		subtitle = "说起来……做成这样的能量修复仪很少见呢。"
+		subtitle = "You know, you don't get a foot massage like this every day."
 	},
 	[2402] = {
 		id = 2402,
-		subtitle = "这样可能更有助于足部的血液循环？这样啊……"
+		subtitle = "This will improve my feet's circulation? Okay..."
 	},
 	[2403] = {
 		id = 2403,
-		subtitle = "唔嗯……"
+		subtitle = "Mmh..."
 	},
 	[2404] = {
 		id = 2404,
-		subtitle = "温温热热的……确实很舒服呢。"
+		subtitle = "Feels warm... It's very nice."
 	},
 	[11001] = {
 		id = 11001,
-		subtitle = "唔……唔……"
+		subtitle = "Hmm... Hmmmm…"
 	},
 	[11002] = {
 		id = 11002,
-		subtitle = "嗯？Honey~吓我一跳！你很好奇吗？"
+		subtitle = "Huh? Oh, honey, you scared me! Are you curious about them?"
 	},
 	[11003] = {
 		id = 11003,
-		subtitle = "嘿嘿，那不妨Honey也戴戴看吧~"
+		subtitle = "Heheh, then you should try them on too!"
 	},
 	[11004] = {
 		id = 11004,
-		subtitle = "哇哦~没想到这个很适合你嘛！"
+		subtitle = "Wow! They actually suit you super well!"
 	},
 	[11005] = {
 		id = 11005,
-		subtitle = "我的Honey~真是太迷人啦！"
+		subtitle = "That's my honey! You're too charming!"
 	},
 	[11006] = {
 		id = 11006,
-		subtitle = "哼哼♪~，……啊！"
+		subtitle = "Hum dee dum♪ ...Ah!"
 	},
 	[11007] = {
 		id = 11007,
-		subtitle = "Honey！"
+		subtitle = "Honey!"
 	},
 	[11008] = {
 		id = 11008,
-		subtitle = "嘿嘿~我在这里哦，Honey~"
+		subtitle = "Haha, this way, silly!"
 	},
 	[11009] = {
 		id = 11009,
-		subtitle = "你失落的样子真是可爱~是因为找不到我吗？ "
+		subtitle = "You're cute even when you're all sad! Do you feel bad because you couldn't find me?"
 	},
 	[11010] = {
 		id = 11010,
-		subtitle = "放心吧，我永远都会陪在Honey身边哦~"
+		subtitle = "Don't worry! I'm always by your side, honey!"
 	},
 	[11011] = {
 		id = 11011,
-		subtitle = "呼~放松一下吧！草莓的香味，真不错呢♪~"
+		subtitle = "Phew... So relaxing! Strawberry flavor is the best♪"
 	},
 	[11012] = {
 		id = 11012,
-		subtitle = "♪~是Honey啊~"
+		subtitle = "Oh, honey!"
 	},
 	[11013] = {
 		id = 11013,
-		subtitle = "Honey先猜猜嘛~提示是：甜美的味道！"
+		subtitle = "You gotta guess, honey. Here's a hint: It's sweet!"
 	},
 	[11014] = {
 		id = 11014,
-		subtitle = "不要作弊啦Honey~"
+		subtitle = "No cheating, now."
 	},
 	[11015] = {
 		id = 11015,
-		subtitle = "好啦好啦，也给Honey吃一口啦~"
+		subtitle = "Okay, okay. You can have some, too!"
 	},
 	[11016] = {
 		id = 11016,
-		subtitle = "啊——狡猾的气泡水果糖！"
+		subtitle = "Grr, you sneaky candy!"
 	},
 	[11017] = {
 		id = 11017,
-		subtitle = "欸？是糖果折射的光落在胸口了吗？"
+		subtitle = "Huh? Is it reflecting light onto my chest?"
 	},
 	[11018] = {
 		id = 11018,
-		subtitle = "Honey是看入迷了吗？这样不行哦~"
+		subtitle = "Were you staring, honey? That's not good~"
 	},
 	[11019] = {
 		id = 11019,
-		subtitle = "啊！Honey想趁机偷走我的糖果吗？"
+		subtitle = "Ah! You wanted my candy, after all!"
 	},
 	[11020] = {
 		id = 11020,
-		subtitle = "不可以哦！说好是我先尝尝看的~"
+		subtitle = "Nuh-uh! You promised I'd get to try it first!"
 	},
 	[11021] = {
 		id = 11021,
-		subtitle = "啊！Honey~快喂给我！"
+		subtitle = "Ooh! Honey, hurry up and feed it to me!"
 	},
 	[11022] = {
 		id = 11022,
-		subtitle = "唔~你选的味道我很喜欢！"
+		subtitle = "Mmm... I love the flavor you picked out!"
 	},
 	[11023] = {
 		id = 11023,
-		subtitle = "啊……！"
+		subtitle = "Ah...!"
 	},
 	[11024] = {
 		id = 11024,
-		subtitle = "在Honey的关心下，似乎不怎么痛啦~我决定奖励你哦♥"
+		subtitle = "Mmm... Thanks to your help, I feel better now. You deserve a reward!"
 	},
 	[11025] = {
 		id = 11025,
-		subtitle = "现在的话……你是不是更期待主动一点的我呢？"
+		subtitle = "Should I be a little more... forward right now, maybe?"
 	},
 	[11026] = {
 		id = 11026,
-		subtitle = "那就一起品尝甜蜜水晶的味道吧……"
+		subtitle = "Okay... Let's taste this sweet crystal candy together... *munch*"
 	},
 	[11027] = {
 		id = 11027,
-		subtitle = "Honey，感受到了吗……是青苹果味道的气泡哦~（亲吻的声音）"
+		subtitle = "Tell me... Can you taste the fizzy green apple on my lips? Mwah…"
 	},
 	[11028] = {
 		id = 11028,
-		subtitle = "唔！轻一点啦Honey~"
+		subtitle = "Mm... Be a little gentler…"
 	},
 	[11029] = {
 		id = 11029,
-		subtitle = "这样会碰到头的~"
+		subtitle = "I might hit my head again."
 	},
 	[11030] = {
 		id = 11030,
-		subtitle = "呜呜……痛痛痛~"
+		subtitle = "Ouch... That hurts!"
 	},
 	[11031] = {
 		id = 11031,
-		subtitle = "好痒~Honey，怎么可以趁人之危~！"
+		subtitle = "Honey, that tickles... Ambushes are no fair!"
 	}
 }

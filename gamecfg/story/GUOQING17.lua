@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "所有的日志都已经交给神明了，接下来，就能获得更多的力量了吧，呵呵呵~",
+			say = "All logs have been submitted to the Creator. Now we wait for the arrival of our superiors.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "但是，五航战的那孩子还在后面紧追不舍。",
+			say = "... It seems that imbecile is chasing after us. What should we do about her?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "反正神明给予我们的任务已经完成，我们不妨来和她好好玩上一局吧~",
+			say = "We were given orders, and we successfully carried them out. It won't hurt to play a little with our pursuer.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,7 +69,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "你的性格果真还是一点都没变呢",
+			say = "I should've expected you to say that...",
 			shake = {
 				speed = 1,
 				number = 3

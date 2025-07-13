@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助抚顺击退了年兽，获得了奖励【五星装备设计图纸*4】"
+			say = "You hung out with Yuubari as she made improvements to new equipment! Collect 4 Super Rare Gear Blueprints!"
 		}
 	}
 }

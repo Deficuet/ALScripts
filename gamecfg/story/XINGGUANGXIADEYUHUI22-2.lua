@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"永恒之星·控制台",
+				"Eternal Star - Command Platform",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "此刻，我正在第三座控制台中仔细检查着。",
+			say = "I turn my attention to the third control panel in the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……攻防一体的屏障，「米德加尔特之壁」。",
+			say = "Huh. The Wall of Midgard – a protective barrier that combines offense and defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（果然……这里的镜面海域不光是为了掩盖基地存在的痕迹。）",
+			say = "(I knew it. This Mirror Sea isn't just here to camouflage the headquarters.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（可惜与反击有关的部分当年就没完工，只能试试启用防御模式了。）",
+			say = "(Was the offensive part of it never completed? Seems we'll have to rely on its defensive features.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "我根据记录中的操作流程在控制台上操作着。",
+			say = "Following the operation manual left in the data logs, I issue a set of instructions to the structure via the panel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "权限认证一路畅通，一道道指令如同流水般得到了执行。",
+			say = "My credentials are verified without issue, and the orders are executed one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,31 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "与此同时，外部的镜面海域也在缓缓发生变化。原本不可见的边界正变得愈发凝实，空间都似乎随之隐隐扭曲着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_3",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不知道第四座控制台里有什么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yuhui_3",
-			hidePaintObj = true,
-			say = "在镜面海域转换为防御模式的同时，我开始检查第四座操作台。",
+			say = "The Mirror Sea's invisible boundary line starts to warp, creating what appears to be a sort of barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +129,18 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这座操作台中记录的信息主要是关于能量塔的部分……",
+			say = "Up next – station four.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yuhui_3",
+			hidePaintObj = true,
+			say = "I examine the fourth control panel while the defenses activate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +153,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，能量塔倒是一切正常，这么多年来没有丝毫损伤。",
+			say = "Okay, logs, logs... This is the energy tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +166,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "名字是……米德加尔特之塔？",
+			say = "Zero damage sustained. I'm amazed, considering how long it's stood there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,18 +179,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（奇怪……这个名字怎么有些耳熟？与我被封印的记忆有关么……？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_yuhui_3",
-			hidePaintObj = true,
-			say = "联想到之前{namecode:541:杜伊斯堡}提到能量塔中蕴含有隐藏秘密，我继续深入查询着与之有关的信息。",
+			say = "Huh... It's called the Tower of Midgard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +192,18 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "相关记录和操作权限都被锁定了……",
+			say = "(Feels like I've seen that name somewhere before. Could it be linked to my lost memories?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_yuhui_3",
+			hidePaintObj = true,
+			say = "I start looking for what secret knowledge the Tower contains.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +216,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……需要「耶梦加得」的整体进度达到40%之后才能解锁。",
+			say = "Damn. The logs and operating access are locked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……耶梦加得？",
+			say = "Let's see... It can only be accessed once Jörmungandr reaches 40%?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +242,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "塞壬当年到底想在这里制造什么……",
+			say = "\"Jörmungandr\"? What is that?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_3",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "What were the Sirens trying to do here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "很遗憾，在仔细搜索后，除了这个名字之外，没有再找到一丝一毫的线索。",
+			say = "Despite looking around all over, I fail to find anything that could clue me in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "嗡——",
+			say = "BZZZZT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "突然间，奇异的响声再次出现了。",
+			say = "Right then, the shockwaves of the Star Beast appearing transmit through the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "天空中，一颗不起眼的星星散发出万丈光芒，如同一团白色光球快速扩展着，转瞬间覆盖了一半天空。",
+			say = "A star overhead suddenly glows blindingly brightly, its magnified radiance lighting up half of the night sky in the blink of an eye.",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……抵达的时间提前了，难道是感受到了危机感？",
+			say = "That's quicker than last time! Did it catch on to what I'm doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也好，那就来试试这一次准备的成果吧……",
+			say = "Fine! I'll have to play the hand I've built up, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "永恒之星阵列，准备迎敌！",
+			say = "Eternal Star, commence attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

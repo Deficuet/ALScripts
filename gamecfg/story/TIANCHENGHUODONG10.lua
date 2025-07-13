@@ -11,31 +11,31 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>我明白的</size>",
+					"<size=51>Now, I understand.</size>",
 					2
 				},
 				{
-					"<size=51>物竞天择,适者生存</size>",
+					"<size=51>One must evolve in order to survive.</size>",
 					4
 				},
 				{
-					"<size=51>弱者被淘汰是必然的下场</size> ",
+					"<size=51>For the weak to become extinct is a fact of nature.</size> ",
 					6
 				},
 				{
-					"<size=51>太弱了,才会死,仅此而已</size>",
+					"<size=51>Those who perished were simply too weak. Nothing more.</size>",
 					8
 				},
 				{
-					"<size=51>既然都是一样的下场,不如在战场上奋战至死</size>",
+					"<size=51>If this is to be my fate, then at least let me meet my end on the battlefield.</size>",
 					10
 				},
 				{
-					"<size=51>联合舰队和重樱的未来就拜托你了——</size>",
+					"<size=51>I now entrust the future of the Combined Fleet- no, of the Sakura Empire to you...</size>",
 					12
 				},
 				{
-					"<size=51>我一生的对手哟</size>",
+					"<size=51>My... sworn... rival...</size>",
 					14
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			actorName = "{namecode:144}",
 			dir = 1,
 			bgmDelay = 2,
-			say = "不好了！！{namecode:161}大人，{namecode:92}大人她留下了这样一封信后就一个人朝着塞壬控制的镜面海域去了！",
+			say = "Amagi, there's trouble! Kaga just left this letter before charging straight towards the Siren-controlled Mirror Sea by herself!",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "驱逐小队已经追过去了，但到目前为止都没找到她的踪影…",
+			say = "A destroyer division has already been deployed to chase after her, but they lack the firepower to handle recon on the Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 1,
 			bgName = "bg_story_tiancheng4",
-			say = "{namecode:161}拿着{namecode:144}递过的信件，面无表情的站在那里。",
+			say = "Amagi, standing there emotionlessly, receives Kaga's letter from Ashigara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（真像是你的性格会写出来的东西啊…{namecode:92}，难道你……）",
+			say = "(It's just like you to write something like this, Kaga... Could you be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情况我都了解了。麻烦你们继续在外围搜索吧。后续的事我会妥善安排的。",
+			say = "I understand the situation. Please continue the search. I shall handle the rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "了解！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自从那份条约公布以来…一切都改变了…",
+			say = "Since the singing of that \"Treaty,\" everything has changed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就连白鹰的六艘列克星敦级战列巡洋舰都因条约的缘故削减为两艘，还是以改装为航空母舰的方式…",
+			say = "We're not the only ones who were affected. Even those girls in the Eagle Union...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}姐…我们的武装也要拆卸掉，换成那些奇怪的小玩意了吗…",
+			say = "Amagi, will our equipment also be dismantled and replaced with those strange things...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！我甚至都还没尝过410mm主炮齐射的滋味……",
+			say = "I haven't even had a chance to experience the recoil of my 41cm cannons yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的时间不多了，有件事我一定要完成…不过在此之前，得先找回{namecode:92}才行",
+			say = "Our time is short, and there is something I still must finish. But before that, I have to bring Kaga back first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不过，现在派出主力舰队进入塞壬控制的海域展开大规模搜索…果然还是太无谋了吧…究竟还有什么办法…）",
+			say = "(However, sending a hastily cobbled-together fleet into Siren territory is extremely ill-advised... What should I do...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}姐，你说啊，那个只会漫天乱飞的小玩意真的能替代巨炮么？",
+			say = "Say, Amagi, are these little mosquitoes really able to replace the splendor of our main batteries?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "From the very beginning, the world has never judged who is weak or strong. You are just using that as an excuse to escape from reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……对了，会飞的小玩意儿……",
+			say = "... Mosquitoes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想到办法了…！",
+			say = "... That's right! There is a way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng4",
-			say = "在{namecode:91}的惊愕中，一向稳重的{namecode:161}大呼着快步奔出了宅邸。",
+			say = "To Akagi's surprise, the normally collected Amagi let out a yell and bolted out of the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 304050,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼…呼…{namecode:89}大人……{namecode:89}大人，现在…呼…有时间吗？",
+			say = "*Gasp* *Gasp* ... Houshou, do you have... some spare time?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:161}大人…！？…这么急着跑来是...？",
+			say = "Amagi! What brought you here in such a hurry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:89}看着气喘嘘嘘的{namecode:161}露出了疑惑的表情",
+			say = "Whether it was because she hadn't exercised without her rigging for so long or because she'd ran there in a hurry, Amagi seemed out of breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "而{namecode:161}则难以抑制激动般地抓着{namecode:89}的双肩——",
+			say = "After taking several deep breaths, Amagi clasped Houshou's shoulders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:89}大人…你是重樱第一艘完工的航空母舰！也是我们唯一的航空母舰……",
+			say = "Houshou, as the first aircraft carrier of the Sakura Empire, I have a favor to ask of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "…能拜托你派出飞机去镜面海域寻找{namecode:92}吗？！",
+			say = "Are you able to send your planes to search for Kaga in the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶..诶？{namecode:92}大人？可是…我也才刚学会使用这些飞机，还不太熟悉战斗…",
+			say = "Eh? Kaga? B-but I only learned how to use these planes recently... I don't have any real combat experience...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "拜托了，只需要找到{namecode:92}就好了。剩下的就交给我们…！",
+			say = "Please, I'm begging you, you only have to find Kaga. I'll handle the rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不知道出了什么事…不过，既然{namecode:161}大人都这么拜托了，我会尽力的！",
+			say = "I don't quite understand the situation, but for you to be this desperate... I'll see what I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:89}缓缓的走向开阔的空间，闭上双眼舞动起振袖。",
+			say = "As if embraced by the sea breeze, Houshou extended her hand towards the horizon like she was parting the clouds-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/plane",
-			say = "话音落下，十数架舰载机逐次从{namecode:89}的甲板上升入空中，并在她的身边盘旋着。",
+			say = "As her words vanished into the wind, over a dozen aircraft began to materialize from Houshou's flight deck, encircling the sky above her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:161}和{namecode:91}都被平生中第一次见到的舰载机群起飞画面震撼了。",
+			say = "Amagi, Akagi, and the newly-arrived escort fleet could only watch in silence, mouths agape, as they witnessed the spectacle in front of them for the first time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,22 +536,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…此刻的她们，仿佛看到了一个新时代的开始。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 306030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "孩子们，帮助{namecode:161}大人去寻找失踪的{namecode:92}大人吧，就在那片黑云笼罩的海域里~",
+			say = "...For a brief moment, they thought they could see the first rays of an era about to dawn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +551,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，一定要平安归来呀！",
+			say = "Please help search for Kaga in the dark clouds of the Mirror Seas~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 306030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And most importantly, everyone, please come back safely!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/plane",
-			say = "舰载机们在空中组成编队，分为7个方向着镜面海域飞去，很快便消失在天空中。",
+			say = "With Houshou's instructions, the aircraft fanned out in seven different directions, soon disappearing into the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "非常感谢{namecode:89}大人的帮助！我这就带领护卫舰队出海，一定会把{namecode:92}带回来的！另外……",
+			say = "Thank you so much for your assistance, Houshou. I'll definitely bring Kaga back. Also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:161}靠近{namecode:89}，在耳边说了句悄悄话后，深深的鞠了个躬。",
+			say = "Amagi drew close to Houshou, her lips brushing against her ear, whispering something before pulling away. With that, she took a deep bow of gratitude before leading the escort fleet away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。祝你们好运",
+			say = "I understand. May the Gods of Fortune be with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐！我也——",
+			say = "Sister, you're now going to search the Mirror Seas by staying in contact with those planes, right? I also-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "{namecode:91}，你也看到了吧？舰载机并不是你想象的那么没用。",
+			say = "See that, Akagi? Aren't those planes far more capable than you had first expected?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你的武装还没完成，现在跟我们出海也是徒增累赘，乖乖的留在港区接受改装吧",
+			say = "As for you, your new armaments are still not complete. There's no way we'd be able to risk you on the front lines. Be a good girl and wait back in port for your new equipment, all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			actorName = "{namecode:91}",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是！姐..姐姐…我总有种不祥的预感…",
+			say = "B-but... I can't help but have a bad feeling about this still...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			side = 2,
 			actor = 304050,
 			dir = -1,
-			say = "傻孩子，听姐姐的话。我一定会带{namecode:92}一起平安的回来的。",
+			say = "Listen to your big sister. I swear to bring Kaga back safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:161}给了{namecode:91}一个温柔的笑容后便转身而去。",
+			say = "Amagi smiled warmly in an attempt to console her little sister before turning towards the ocean and departing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "没有人注意到这份笑容里隐藏着的焦虑、与不安——",
+			say = "But she could not hide the unease and anxiety seeping out from her smile, not even from herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

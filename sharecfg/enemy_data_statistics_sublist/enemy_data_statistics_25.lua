@@ -1,8 +1,170 @@
 pg = pg or {}
 pg.enemy_data_statistics_25 = {
+	[90747] = {
+		cannon = 0,
+		name = "Mass-Produced Béarn Class",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90747,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "beiyaendanchuan",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 0,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 180,
+		wave_fx = "danchuanlanghuazhong3",
+		prefab = "beiyaendanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 8,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			27.7,
+			7.5,
+			9
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.07,
+					0.24,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.8,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							0.95,
+							0.99,
+							-0.48
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							-1.08,
+							1.77,
+							-0.66
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			5
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90748] = {
 		cannon = 0,
-		name = "伊丽莎白·META",
+		name = "Queen Elizabeth META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -174,7 +336,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90749] = {
 		cannon = 0,
-		name = "领域骑士",
+		name = "Phantom Knight",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -330,7 +492,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90750] = {
 		cannon = 0,
-		name = "侵扰者IV型",
+		name = "Obstructor Mk. IV",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -494,7 +656,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90751] = {
 		cannon = 0,
-		name = "库尔斯克",
+		name = "Kursk",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -650,7 +812,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90752] = {
 		cannon = 0,
-		name = "伏罗希洛夫",
+		name = "Voroshilov",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -806,7 +968,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90753] = {
 		cannon = 0,
-		name = "塞瓦斯托波尔",
+		name = "Sevastopol",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -962,7 +1124,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90754] = {
 		cannon = 0,
-		name = "环",
+		name = "Tamaki",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1118,7 +1280,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90755] = {
 		cannon = 0,
-		name = "露娜",
+		name = "Luna",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1273,7 +1435,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90756] = {
 		cannon = 0,
-		name = "代行者IX「Concealment」",
+		name = "Enforcer IX: Concealment",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1429,7 +1591,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90757] = {
 		cannon = 0,
-		name = "代行者IX「Exploration」",
+		name = "Enforcer IX: Exploration",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1585,7 +1747,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90758] = {
 		cannon = 0,
-		name = "代行者IX「Concealment」/*0x0F*/",
+		name = "Enforcer IX: Concealment /*0x0F*/",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1741,7 +1903,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90759] = {
 		cannon = 0,
-		name = "代行者IX「Exploration」/*0x0F*/",
+		name = "Enforcer IX: Exploration /*0x0F*/",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1897,7 +2059,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90760] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX/*0x0F*/",
+		name = "Arbiter: The Hermit IX /*0x0F*/",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2049,7 +2211,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90761] = {
 		cannon = 0,
-		name = "U-556.META？",
+		name = "U-556 META?",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2193,7 +2355,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90762] = {
 		cannon = 0,
-		name = "女灶神·META",
+		name = "Vestal META",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2362,7 +2524,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90763] = {
 		cannon = 0,
-		name = "俾斯麦Zwei",
+		name = "Bismarck Zwei",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2522,7 +2684,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90764] = {
 		cannon = 0,
-		name = "革律翁",
+		name = "Geryon",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2668,7 +2830,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90765] = {
 		cannon = 0,
-		name = "阿尔及利亚·META",
+		name = "Algérie META",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2817,7 +2979,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90766] = {
 		cannon = 0,
-		name = "堕天之柱",
+		name = "Pillar of Sin",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2973,7 +3135,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90767] = {
 		cannon = 0,
-		name = "华盛顿",
+		name = "Washington",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3120,7 +3282,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90768] = {
 		cannon = 0,
-		name = "南达科他",
+		name = "South Dakota",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3267,7 +3429,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90769] = {
 		cannon = 0,
-		name = "安德烈亚·多利亚",
+		name = "Andrea Doria",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3423,7 +3585,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90770] = {
 		cannon = 0,
-		name = "阿蒂利奥·雷戈洛",
+		name = "Attilio Regolo",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3579,7 +3741,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90771] = {
 		cannon = 0,
-		name = "戈里齐亚",
+		name = "Gorizia",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3735,7 +3897,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90772] = {
 		cannon = 0,
-		name = "爪子",
+		name = "Chelae",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3881,7 +4043,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90773] = {
 		cannon = 0,
-		name = "南梦芽",
+		name = "Yume Minami",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4030,7 +4192,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90774] = {
 		cannon = 0,
-		name = "宝多六花",
+		name = "Rikka Takarada",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4179,7 +4341,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90775] = {
 		cannon = 0,
-		name = "新条茜",
+		name = "Akane Shinjo",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4328,7 +4490,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90776] = {
 		cannon = 0,
-		name = "公主",
+		name = "Princess Hime",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4368,162 +4530,6 @@ pg.enemy_data_statistics_25 = {
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
 		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					0.98,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.39,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.53,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90777] = {
-		cannon = 0,
-		name = "第二代",
-		type = 10,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90777,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "erdaimu",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "erdaimu",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 108,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 3,
 		world_enhancement = {
 			0,
 			0,

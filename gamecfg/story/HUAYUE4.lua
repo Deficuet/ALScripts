@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"花之语\n\n<size=45>四　少女真实的心</size>",
+					"The Language of the Flowers\n\n<size=45>Chapter 4 A Maiden's True Feelings</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "又是几日过去了……不知之前她种下去的紫丁香和茉莉花现在长势如何了呢？",
+			say = "Now that I think about it, I originally planned to keep visiting the garden room because I was curious about how the flowers I planted were faring.",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "在想起了与{namecode:29}和约定，脚步不自觉地向着花房的方向走了过去。",
+			say = "I find myself heading back once more, both for that purpose and to uphold the promise I made with Hanazuki last time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "花朵芬芳的气息跟悠扬的歌声一同传入思绪中——",
+			say = "As the gentle fragrance of flowers once again caresses my cheeks, I can hear Hanazuki's softly-singing voice in my ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "花儿哟~♫花儿哟~♫",
+			say = "Flowers, o flowers~ How the world changes~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -118,7 +118,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不见方三日，世上满樱花~♫",
+			say = "In the three days since we last met~",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -142,7 +142,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官！今天是来和{namecode:29}一起赏花的么？",
+			say = "Oh, Commander! Are you here to see how the flowers are growing?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -170,11 +170,11 @@ return {
 			},
 			options = {
 				{
-					content = "（点头示意）",
+					content = "(Nod.)",
 					flag = 1
 				},
 				{
-					content = "花与榵都十分令人牵挂——",
+					content = "\"Actually, I wanted to see you.\"",
 					flag = 2
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，指挥官能来陪{namecode:29}，{namecode:29}很高兴，花园里的花朵们也会很高兴的吧~",
+			say = "We're all glad to see you again. Not only me, but all the flowers as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "您不在的这几天，这里又多了好多漂亮的花哦。",
+			say = "There are a lot more flowers here now than the last time you were here. Want to go take a look?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "……////",
+			say = "Oh my... *blushes*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "谢、谢谢指挥官……好害羞……",
+			say = "Umm... Thank you very much for your concern...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "感受着清风与阳光，与{namecode:29}一同漫步在花海之中。",
+			say = "I go on a stroll with Hanazuki through the sea of flowers, surrounded by warm sunlight and a fragrant breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，咱们之前一起种的紫丁香还有茉莉花，已经在茁壮成长了哟。",
+			say = "Commander, the jasmine and lilacs you planted are growing well.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}指了指旁边正释放着绿意的两丛花——当然，距离真正开花还有很长时间就是了。",
+			say = "Hanazuki points to a number of lush, green plants. Of course, it's still too early for flowers to bloom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多亏了指挥官的帮助，它们才能像现在这样生长在花圃之中哦。",
+			say = "Thanks to you, these children were born into this world...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:29}觉得每种花都有自己不可替代的特质。",
+			say = "Even though flowers are different from us in many ways, they can also be quite similar to us.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -406,7 +406,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有些花儿生长得很快，没过多久就绚烂夺目起来……也有些花儿会选择在角落里默默地积蓄力量。",
+			say = "Some grow up and bloom in the blink of an eye, whereas others look plain but actually have incredible potential to shine.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -430,7 +430,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不管是哪种花，只要时机成熟，它们都会绽放出漂亮的花朵哦？",
+			say = "When the right time comes, each and every one will blossom beautifully.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -448,11 +448,11 @@ return {
 			},
 			options = {
 				{
-					content = "确实如此。",
+					content = "(Nod.)",
 					flag = 1
 				},
 				{
-					content = "你刚刚只是在聊花的事情么~？",
+					content = "\"You weren't just talking about flowers, right?\"",
 					flag = 2
 				}
 			}
@@ -466,7 +466,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "诶嘿嘿……",
+			say = "Heehee. You get what I'm trying to say, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintEquip = true,
 			actor = 301820,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼哼~♫先不聊这个咯。",
+			say = "Heehee. I'll leave that to your imagination, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官渴了么~我给您准备了花茶，去房间里品尝一下吧？",
+			say = "By the way, would you like something to drink? I have some floral tea for you today. It's great for helping you unwind and relax.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -538,7 +538,7 @@ return {
 			actor = 301820,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！在那之前，还请您收好这个……",
+			say = "...Oh, umm, but before that...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "{namecode:29}突然递过来一支漂亮的大波斯菊，粉色的花瓣在阳光下显得更加灿烂。",
+			say = "Hanazuki holds out a single beautiful tickseed sunflower. Its petals, illuminated beneath the sun's rays, seem to shine even brighter than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "因为之前有些在意{namecode:29}提到过的“花的意思”，所以稍微去了解了一下……",
+			say = "Come to think about it, she mentioned something about the \"language of flowers\" the other day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
-			say = "大波斯菊，我记得它的花语应该是——",
+			say = "I looked into it a bit, and this one in particular should mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -58,7 +58,7 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 		if var_7_1 and var_7_2 then
 			local var_7_4 = getProxy(ActivityProxy):getActivityById(Item.getConfigData(var_7_0.id).link_id)
 
-			setText(arg_7_0:findTF("Text", arg_7_0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(var_7_4.stopTime, "%m.%d")))
+			setText(arg_7_0:findTF("Text", arg_7_0.timeLimitTF), i18n("eventshop_time_hint", var_7_4:GetEndTimeStrByConfig()))
 		end
 	end
 

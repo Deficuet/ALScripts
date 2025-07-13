@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：塞壬守卫舰队的旗舰正在接近，建议尽快摧毁海域中的最后一处塞壬增援点。",
+			say = "Detecting approaching Siren capital fleet. Destruction of all Siren Rally Points is recommended.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

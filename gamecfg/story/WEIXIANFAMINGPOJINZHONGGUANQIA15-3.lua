@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 11100050,
-			actorName = "西连寺春菜&古手川唯",
-			say = "小暗……！\n小暗！",
+			actorName = "Haruna Sairenji & Yui Kotegawa",
+			say = "Yami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "任务完成……",
+			say = "...Mission complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

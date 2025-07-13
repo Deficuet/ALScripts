@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>五　观看演习</size>",
+					"Nursing Honesty\n\n<size=45>5 To the Exercise</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "演习当天，与贾维斯一起来到了现场。",
+			say = "The day of the exercise had come. Jervis and I were headed for the scene.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "雅努斯应该没有问题吧……",
+			say = "I just hope she'll be okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			},
 			options = {
 				{
-					content = "在担心么？",
+					content = "\"Are you that worried about her?\"",
 					flag = 1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "担心。不过……",
+			say = "Well... Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然她自己的选择，我肯定会支持她的。",
+			say = "But this is her choice, and I support it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就是希望能够一切顺利了……",
+			say = "All I can do now is pray that she'll finish without getting hurt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "直率又温柔的展现出关心之情的贾维斯还真少见。",
+			say = "Jervis showed a side of herself I don't see much – the candidly considerate side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "终于结束了……",
+			say = "Phew... It's finally over.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "看到演习顺利结束，贾维斯也松了口气。",
+			say = "Seeing the exercise concluded without incident, Jervis breathed a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "整个演习期间，贾维斯都一言不发的紧紧盯着水面。",
+			say = "She had been dead quiet up to that moment, spectating the fighting on the edge of her seat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "虽然并没有表现得特别激动，不过假如演习之中出现任何一点意外情况，她肯定会带着医疗箱冲过去的。",
+			say = "Though she won't admit it, I knew she was ready to run right in with her first-aid kit and care for Janus if she had an accident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好了指挥官，既然演习已经结束，我们也该回去继续工作了。",
+			say = "Well, seeing as the exercise is over, let's head back and wrap up our work for the day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "因为你提议要观看演习我才特意调整了安排，接下来——",
+			say = "Your coming here has thrown the programme completely off. First order of business is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊，是指挥官和贾维斯——！",
+			say = "Oh, if it isn't... the Commander and Jervis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

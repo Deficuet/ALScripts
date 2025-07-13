@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "实验场β·外围防线",
+			say = "Test Site Beta - Outer Defensive Perimeter",
 			bgm = "theme-richard",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "这里是拉沃斯与恩普雷斯为防御X而设立的防御体系的外围。",
+			say = "Two Arbiters, the Lovers and the Empress, had erected a defensive line to ward off the invasion of the X.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "无休无止的攻防战依然在继续着。",
+			say = "This clash between the unstoppable and the immovable was still being waged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "哎呀~真是笑死我了——",
+			say = "You people make me laugh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我说，你们差不多就得了啊。",
+			say = "Come on, can't you call it quits already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "我也就是过来串个门而已，不至于吧~",
+			say = "I'm only gonna pay a small visit. You're being dramatic about this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你看看你们，防线修得跟铁桶一样，可是有什么用呢？",
+			say = "Look at yourselves. You've constructed an airtight defensive line, and what good has it done?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "就算我没进去实验场β，里面不也要乱成一团了？",
+			say = "Test site beta is already a giant mess, and I haven't even gotten in yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你们在这里拦我根本没意义啊。",
+			say = "Like, what's the point in keeping me out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "逻辑不成立。",
+			say = "Your logic is flawed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "放你进去，情况只会更糟。",
+			say = "Allowing you inside would only make a bad situation even worse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我说了，你的战场在这里。",
+			say = "I told you before – your battlefield is HERE.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "你不是很有耐心么？那就再耐心点吧。",
+			say = "You're patient, no? Then show us how patient you can be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "帕克菲克洋·某处海岛",
+			say = "Somewhere, in the Pacific...",
 			bgm = "theme-warmwinter-daily",
 			typewriter = {
 				speed = 0.05,
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "艳阳，海滩，冷饮——",
+			say = "Ahh! Sunshine, sand, and a tropical drink!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "真悠闲啊~",
+			say = "I needed this vacation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "忙，你们都忙，忙去吧！",
+			say = "If they all wanna busy themselves, they can do it without me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我就在这里美美度个假咯~",
+			say = "I'll just be here, chilling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,11 +326,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广播",
+			actorName = "PA System",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（持续不断的警报蜂鸣音）",
+			say = "*sirens blaring*",
 			bgm = "airraidalarm",
 			typewriter = {
 				speed = 0.05,
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……空袭警报？",
+			say = "What?! An air raid alarm?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "我没发动进攻啊……？",
+			say = "But I haven't even done anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "难道是塞壬……？",
+			say = "Are Sirens invading or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "可这里不早就是白鹰的后花园了么……？",
+			say = "I thought this was the Eagle Union's own backyard?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……什么情况？",
+			say = "What's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……啊？",
+			say = "...Oh.",
 			painting = {
 				alpha = 0.3,
 				time = 1

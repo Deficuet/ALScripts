@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>二　在此处签字！</size>",
+					"Captain Pompey Has You Covered!\n\n<size=45>2 Your Signature Here</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培坐在办公桌前，双手抱胸，似乎是在思考什么问题。",
+			say = "Pompeo Magno sat behind the desk. Her arms crossed, she was brooding over something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "不对啊……",
+			say = "This is lousy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说是把这间办公室交给我了，但是这看起来怎么想都像是……",
+			say = "I thought \"being in charge\" and \"looking after the port\" meant doing something...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "让我来看家的吧？！",
+			say = "All I'm doing is keeping the bench warm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不对不对不对，不能有这种想法，指挥官可是信任我才拜托我的。",
+			say = "No, no, I can't think like that. The Commander trusted me and asked me for help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "总，总之先来看看要处理的文件吧。",
+			say = "Need to get it together... L-let's have a look at this paperwork to be done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "面前的文件有两叠，一叠堆成了小山，而这座“小山”的侧面还能看到密密麻麻的贴条注释。",
+			say = "There were two stacks of documents in front of her. One was a true pile of documents, with labels attached to them visible from the side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "另一叠则要轻薄很多，不过文件的封面被贴上了便利贴，上面写着“今日完成”的字样。",
+			say = "The other stack was much thinner, and the topmost paper had a sticky note attached to it that read, \"Due today.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "就是这个了，让我看看这里面的内容……",
+			say = "Here we are. Let's see here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……嗯……？",
+			say = "Uhh... Um...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "这份文件应该怎么处理来着，我记得指挥官以前好像有说过……",
+			say = "What did the Commander say I should do with these, again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "又好像没说过……",
+			say = "Right, I never asked about that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "那这份就先放在一边，来看看下一份……",
+			say = "You know what? I'll leave this for later. In the meantime, there's the...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "《港区卫生检查确认表》？",
+			say = "...\"Port Hygiene Inspection Report\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "“如对以上报告无异议可在此处签字。”",
+			say = "\"Please sign here if the report's findings are satisfactory.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "只是签字的话，也太简单了，让我来把名字签上去——",
+			say = "That's all I have to do? Pfft, easy-peasy! Let me do that right awa–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培正打算签字的手突然僵在半空中。",
+			say = "Pompeo's hand stopped abruptly before the pen touched the paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "等下，这个时候我应该怎么签呢，是签我的名字吗，还是写“指挥官已阅”？",
+			say = "Hang on! Whose name am I supposed to write? My own? Or should I write, \"Commander checked and approved\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "但是但是，如果是签我的名字这份文件还会生效吗，可是如果写上指挥官已阅似乎也不合适……",
+			say = "Doesn't the document become invalid if I write my name on it? But it doesn't feel right to write, \"The Commander says it's fine\" either...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这，这份文件也先放在一边好了……",
+			say = "I-I'll leave this one for later, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601070,
-			say = "然后是下一份……",
+			say = "Let's see what's next...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间后，在庞培的辛勤工作下。",
+			say = "Captain Pompey put her all into processing the paperwork due that day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "贴着“今日完成”的那叠文件的厚度——好像一点也没有减少。",
+			say = "And after all that effort, the pile had not shrunk even one bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

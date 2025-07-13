@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_133",
 			nameColor = "#A9F548FF",
-			say = "悠闲的午后，正准备去海边畅快地游个泳，却被泳池方向飘来的优美旋律勾住了脚步。",
+			say = "One calm afternoon, I set out for a nice swim by the beach, but a beautiful melody coming from the pool area stopped me in my tracks.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "阳光透过棕榈叶的间隙，洒向波光粼粼的池面，仿佛也将池中的她笼罩在一层柔情爱意之中。",
+			say = "The sun shines through the palm leaves and onto the water's surface, lighting up a certain someone's figure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "……♪~哎呀，我的指挥官？",
+			say = "Hm hmm♪ Oh, little one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "您是循着爱之乐章的指引，来到我身边了吗~？",
+			say = "Did my tune of love guide you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:531:腓特烈·卡尔}回首的同时，阳光吻过的水珠从她湿润的发梢和肩头滑落，坠入水床的后碎作一圈光晕。",
+			say = "Friedrich Carl turns to me. Water droplets fall from her bangs and shoulders in the sun, creating sprinkles of light when they hit her inflatable bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "注意到我的到来，她轻轻拨起水花，让水床飘到了靠近我的位置。",
+			say = "Noticing my arrival, she splashes the water a few times to guide the bed closer to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "唔，光线太耀眼，看不清指挥官了……",
+			say = "Mm, it's too bright to see you clearly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "请到我身边来吧，让我触碰你，如同触碰爱的真谛……",
+			say = "Come to my side, little one~ Let me touch you as love touches us all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "……呵呵，这样就可以牵着指挥官的手了~",
+			say = "Heehee, now we can hold hands~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "您的到来，让我的心里也泛起了爱的涟漪呢。",
+			say = "Your coming has set my heart aripple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,18 +172,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "这汹涌澎湃的爱意，也通过灼热的肌肤相触传递给您了吧~",
+			say = "Every wave of love surges between us through our burning, passionate touch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "完全感受到了。",
+					content = "I think I feel it.",
 					flag = 1
 				},
 				{
-					content = "确实很炽热……",
+					content = "You're not kidding. It's too hot.",
 					flag = 2
 				}
 			}
@@ -199,7 +199,7 @@ return {
 			actor = 403142,
 			actorName = "{playername}",
 			live2d = true,
-			say = "你的手，被太阳晒得有点烫了。",
+			say = "Your hands feel really hot from the sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 403142,
 			actorName = "{playername}",
 			live2d = true,
-			say = "不如说是过于炽热了……我是指体温。",
+			say = "Are you sure you're not overheating?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "唔……听您这么一说，确实感觉身体有点软绵绵的呢……",
+			say = "Hmm... Now that you mention it, I do feel a little lightheaded...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 403142,
 			actorName = "{playername}",
 			live2d = true,
-			say = "日光浴也要适度，先做些防晒措施吧？",
+			say = "Be careful sunbathing in this heat. Let's make sure you don't get sunburned, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "嗯~您的担心是合理的呢……",
+			say = "Aww... My poor little one worried about me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "被这样炽热的爱意包裹着，确实让人幸福得头晕目眩了……",
+			say = "Your hot, passionate love is making me dizzy from happiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "那就麻烦您帮我多涂些防晒霜吧~",
+			say = "Then put suntan lotion on for me, won't you, little one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "不过，在那之前，还得麻烦您帮我把身子擦干净呢。",
+			say = "But first... Can you clean me up a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "干渴的肌肤，才会更加渴求爱的滋润哦~",
+			say = "Only a clean body can truly appreciate your loving nourishment~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 403142,
 			actorName = "{playername}",
 			live2d = true,
-			say = "好，我去拿毛巾。",
+			say = "I'll go get a towel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "从池边取来干净的毛巾，展开后轻轻贴上{namecode:531:腓特烈·卡尔}的后背，立刻晕开一片深色水痕。",
+			say = "I take a clean towel from the poolside rack and press it against her back. It darkens from wetness in no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从肩胛骨到腰际，再滑向柔软丰满的大腿……浸透水分的布料贴合她的曲线，一寸寸勾勒出体态的起伏。",
+			say = "I go from her shoulder blades, to her waist, and finally to her thick thighs. Each time I drape the towel over her, it outlines her gorgeous curves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "您的力道真柔和呢，我的指挥官……",
+			say = "You're too gentle, little one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "呼……呵呵，这个位置有点痒……您不会是故意的吧~？",
+			say = "Heehee... That one tickled. Did you do that on purpose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "看来，稍后要让您接受一些爱的惩罚了呢——",
+			say = "I'll have to lovingly punish you for that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "最后一道水痕悄然消散，她的肌肤却愈发透亮。",
+			say = "By the time I've finished drying her off, her skin looks even more radiant in the sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "嗯？后背，这么快就擦干净了吗……？",
+			say = "Hmm? Already done wiping down my back?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "那……前面，也要请您好好“关照”了哦？",
+			say = "Then get the front for me, too, little one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:531:腓特烈·卡尔}微微仰头看向我，随后解开了泳装的吊带扣。",
+			say = "She looks up at me and undoes the straps of her swimsuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在我还没有反应过来的瞬间，她扣住了我的手腕，只是略施巧劲——",
+			say = "Before I can react, she seizes my wrist, and with just a little bit of force...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			actor = 403142,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "水床摇晃，我落入{namecode:531:腓特烈·卡尔}的怀抱。",
+			say = "...The inflatable pool bed shakes, and I'm lying in her arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "呵呵，指挥官就不要继续站在岸边了，布道者之间不应该存在任何隔阂呢——",
+			say = "Heehee. That's enough standing around, little one~ As two evangelists of love, we need to be more direct with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "欢迎来到我专门为指挥官准备的，“爱”的浮岛~",
+			say = "Welcome to my little island of love~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "哎呀，还请您再靠近我一些呢……在这里，只有靠近才能维持平衡哦~",
+			say = "Come closer, now. We can't stay balanced unless we're right on top of each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "毕竟，您刚刚才给我擦干净身体，也不想这么快就弄湿吧~",
+			say = "We don't want me getting all soaked again right after you toweled me down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "那么，就请您继续吧……",
+			say = "Now, little one, keep going...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403142,
-			say = "擦拭完前面之后，要用充满“爱”的防晒霜，在人家的肌肤上好好地“布道”哦……♪",
+			say = "Dry off my front, and then, you may douse me with your creamy lotion of love♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

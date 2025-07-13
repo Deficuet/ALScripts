@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "齐颂之音消失了，而我依然漫步在纯白之中。",
+			say = "The sound of the chorus had faded, but the pure-white world stretched on infinitely.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "门的内外失去了意义，距离的远近失去了意义，就连空间与时间也在逐渐失去意义。",
+			say = "There was no more concept of \"inside\" or \"outside\" the doors, and distance became meaningless. Even time and space gradually lost meaning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，有一个身影在无尽的纯白之中出现了。",
+			say = "Finally, among the infinite whiteness, a single figure appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "……不对劲，此处为何如此平静。",
+			say = "Weird... Why is it so quiet here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "明明一路之上都是汹涌澎湃的海潮……",
+			say = "I had to fight through violent tides the whole way over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "……有不可视之物存在于此？！",
+			say = "Wait... Am I sensing something invisible?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "——「审视」开始，展现此处之现实吧。",
+			say = "Begin inspection. Reveal the truth of this place to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "白色凝聚成了一道虚影，可维持了片刻便重新消散了。",
+			say = "A figure took form for an instant, but it disappeared once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "层次居然如此之高……？",
+			say = "Goodness, such a high level...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "等等，这个身影我有印象……你是安蒂克丝？",
+			say = "Hold it, I recognize you. Antiochus?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "此处如此平静，是你做的么？",
+			say = "Are you the one who calmed this place so much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "……我明白了，你晋升了层次，但也深陷其中……？",
+			say = "I see... You've advanced in level, but you're still trapped here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "你的层次比我高，我现在帮不了你……但是我有帮助你的思路。",
+			say = "Mine is too low to help you... but I do have an idea to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9701030,
-			say = "助我脱困……而后，由我来助你“降临”！",
+			say = "Release me, and I will help you descend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，又有一个身影出现了。",
+			say = "It was then that another figure appeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "局势已经危在旦夕，而我什么都做不到……",
+			say = "The situation is as dire as they come, but I'm helpless to act...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "神啊，我需要您的力量。",
+			say = "O God, thy power must be mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道，您想要降临于世……",
+			say = "I know... that you want to descend upon this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我会用这股力量，打造出一片陆上神国，远离一切危险的永恒的乐园……",
+			say = "I'll use your power to create the Kingdom of God... The beginning of a blissful, eternal age of glory for all of mankind, free of danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……马可波罗？）",
+			say = "(Marco Polo? Are these her memories from before the false god's arrival?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我情不自禁地伸手触碰眼前自言自语的身影，而后，周围重新变为了无垠的纯白。",
+			say = "I reach out my hand and touch the soliloquizing figure, but when I do, all turns to endless white again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我意识到，我依然身在门中。",
+			say = "This makes me realize that I'm still in the gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "齐颂之音再次响起。",
+			say = "The chorus begins anew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,11 +367,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ľk×źą¸şĂÁËÓëÉůŇôśÔť°˛ťÂŰĘÇŇť¸öÉůŇôŁŹťšĘÇÎŢĘýÉůŇôśř×îÖŐŁŹÎ¨ÓĐťŘÉ",
+			say = "OL PZ YLHKF AV JVUCLYZL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「祂准备好了与声音对话」",
+			say = "\"He is ready to converse.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,11 +392,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "˛ťÂŰĘÇŇť¸öÉůŇôŁŹťšĘÇÎŢĘýÉůŇôśř×îÖŐŁŹÎ¨ÓĐťŘÉů",
+			say = "IL AOLPY CVPJLZ VUL VY THUF",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「不论是一个声音，还是无数声音」",
+			say = "\"Be their voices one or many...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,11 +417,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "śř×îÖŐŁŹÎ¨ÓĐťŘÉů",
+			say = "VUSF LJOVLZ YLTHPU PU AOL LUK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「而最终，唯有回声」",
+			say = "\"Only echoes remain in the end.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

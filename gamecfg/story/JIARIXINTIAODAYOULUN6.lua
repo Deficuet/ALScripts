@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "半睡半醒之间听见了蜂鸣的警报声，意识在这瞬间恢复了清醒。",
+			say = "As I'm drifting off to sleep, warning alarms suddenly start blaring, immediately putting me on alert.",
 			bgm = "airraidalarm",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（已经响起警报了，却连常规的通讯都没有？）",
+			say = "(Something's clearly wrong, so why has nobody called me yet?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（得快点前往驾驶台搞清楚是怎么回事。）",
+			say = "(I'd better get to the bridge quick and find out what's happening.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_136",
 			hidePaintObj = true,
-			say = "匆忙起身下床，穿好衣物后，我踏出了舱室——",
+			say = "I rush out of bed, throw some clothes on, and leave my cabin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "与此同时，另外一边。",
+			say = "Meanwhile, somewhere else...",
 			bgm = "battle-temepest-1",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "邮轮·甲板",
+			say = "Cruise Ship - On the Deck",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "意识到不对的诸人早已聚集在甲板区域，目光锁定着海面上骤然卷起的狂风。",
+			say = "An alarmed crowd had already gathered on the deck, their brows furrowed at the storm that appeared so suddenly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "格律翁，进行海面观测，有什么情况马上报告给我。",
+			say = "Geryon, keep a watchful eye on the sea. Report anything unusual.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "伴随着一声令下，钢铁的巨龙循声飞上天空。",
+			say = "At Bismarck's command, the steel beast flew into the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "旅行途中出现了意外啊，接下来会有什么样的展开呢~？「如果是敌人的话，就彻底歼灭吧。」",
+			say = "This is unfortunate. I wonder what will happen next? \"If someone means us harm, we will crush them.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯……出发前我已经和寰昌碰过面，她也无法占卜出这个异常的大风暴相关的缘由。",
+			say = "It's strange... I spoke to Huan Ch'ang before we set off, and even she couldn't foretell the coming of any storm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不过这场风暴暂时干扰了我们联系指挥官的通讯方式……只能等指挥官自己从房间内出来了。",
+			say = "The storm has made it hard to reach the Commander, too... We'll just have to wait here until we get orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，不知道指挥官同志现在怎么样了。总之，先从我们眼下能做到的事开始做起吧。",
+			say = "Yes, I wonder what the Commander is doing... Until we're told otherwise, we'll just have to do what we can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "邮轮·驾驶室",
+			say = "Cruise Ship - Bridge",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，海面上出现了未知原因的风暴。系统已经在着手分析，但暂时无法解明。",
+			say = "Commander, a storm of indeterminate origin has appeared. I am analyzing it but as of yet unable to explain it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "驾驶室中，领航员-TB的投影浮现在桌面上。",
+			say = "A hologram of TB appears above the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原本是为了让领航员-TB也能享受本次邮轮旅行，而特意在邮轮上进行了一次简单的系统备份。",
+			say = "A simple system backup of TB was performed on the ship so TB, too, could enjoy the cruise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在绝大多数情况下，邮轮的工作都由秘书舰和其他阵营的同伴们完成，TB并不需要出手。",
+			say = "Normally, she wouldn't have to take any action, since all the work on the ship is done by shipgirls coordinating with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "但此时，确实是需要TB出场的时候了。",
+			say = "This, needless to say, is not a normal circumstance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，此前的观测记录中有异常吗？",
+			say = "TB, were there any errors in our observation records?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令确认中：答案是没有。目前我们所遭遇的风暴，是在海面上凭空出现的。",
+			say = "Processing order... There were no errors. This storm appeared spontaneously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，根据最新的观测结果，我发现风暴中疑似有被称为“克拉肯”的大型海洋生物出现。",
+			say = "Based on latest observations, there is a high probability that a large octopod known as a \"kraken\" is present in the storm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "疑似？",
+			say = "Really? A high probability?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错。因为我只能根据风暴中的轮廓，判定有类似该传说生物的触手存在。",
+			say = "Yes. By comparing its appearance with that of similar entities in my database, the most likely match was determined to be this legendary creature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟，热成像仪与雷达中均无异常。目前系统已重新规划航线，可随时准备更换航路。",
+			say = "It is worth noting that the thermal imager and radar are not malfunctioning. A new course has been calculated and may be initiated at any time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，考虑到本次邮轮之旅，各位乘客的实力——",
+			say = "Additionally, defensive measures have been planned out, incorporating the firepower of the shipgirls aboard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战斗与防御措施也已准备完毕，如有必要，可随时与其开战。",
+			say = "If necessary, the vessel is prepared to enter combat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，先维持观望态度吧，我有些事情想确认一下。",
+			say = "Just keep your eyes on the situation for now. There's something I want to check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "了解。",
+			say = "Orders received.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "与此同时，甲板上。",
+			say = "Meanwhile, on the deck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 405050,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "格律翁看到从风暴中延伸出来的触手……不过奇怪的是，这些触手并没有攻击的欲望。",
+			say = "Geryon says tentacles are emerging from the storm. Strangely, though, the tentacles show no sign of aggression.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有攻击欲望？",
+			say = "They aren't hostile to us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "砰——",
+			say = "CREEEAK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "伴随着一阵剧烈的摇晃，从风暴中心伸出的巨大触手，将邮轮整个船身牢牢抓握住。",
+			say = "The ship rocked fiercely. A rally of tentacles extended from the storm, gently wrapping themselves around the ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,8 +571,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "维内托",
-			say = "这个行事风格，怎么看都是海盗吧？",
+			actorName = "Vittorio Veneto",
+			say = "I... think these tentacles may belong to someone from Tempesta.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我已经问过{namecode:523:让·巴尔}了，不——就算不问，我也觉得没有任何人能够驱使这样的庞然大物，且只为了扣留这艘邮轮。",
+			say = "I refuse to believe a sea creature of this size is anyone's pet. Furthermore, they are clearly targeting the ship.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样说的话事情确实很可疑，哪有这样缠着不放的？而且这种行为与其说是攻击，不如说根本就是来找茬的吧！",
+			say = "If it IS Tempesta, it's all the more suspicious! They're clearly after something, seeing as they aren't attacking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……既然如此，答案就只有一个了。",
+			say = "We're talking about pirates. They could be after one thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "对方的目的是——",
+			say = "No, you don't mean...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,11 +654,11 @@ return {
 			bgName = "star_level_bg_504",
 			actor = 307010,
 			dir = 1,
-			actorName = "{namecode:91:赤城}＆{namecode:97:大凤}",
+			actorName = "Akagi & Taihou",
 			hideOther = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！",
+			say = "The Commander!",
 			subActors = {
 				{
 					actor = 307070,
@@ -693,7 +693,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然……）",
+			say = "(I knew it...)",
 			bgm = "theme-tempest-up",
 			typewriter = {
 				speed = 0.05,
@@ -722,7 +722,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在触手抓握住船身来带的摇晃中，一路扶着栏杆从驾驶台中离开走到了甲板上。",
+			say = "As the tentacles shake the ship's hull, they creep along the railings and slither their way from the bridge onto the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所有人——做好准备！",
+			say = "Brace for the storm, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "风暴愈演愈烈，在一道道不间断落下的雷霆中，自风暴深处出现了几道漆黑色的身影。",
+			say = "The winds grow in fury as the rain pours down. As thunderbolts strike without pause, a few shadowy figures appear deep within the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一支舰队将邮轮团团包围，彻底阻断了所有撤退的后路。",
+			say = "The dire situation gets even worse when we realize that a fleet has surrounded the ship, cutting off all escape routes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,9 +768,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			actor = 9600010,
-			actorName = "？？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "哼哼，敢航行在这片海域上，就要做好失去一切的心理准备！",
+			say = "Heheh. By sailing in these seas, you've already signed a pact to surrender everything you have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,8 +792,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？？",
-			say = "你们难道没听过这样一句话么？当风暴出现，黑色船帆升起之时，就是船长们归来的时刻！",
+			actorName = "???",
+			say = "Have you heard the tale? \"When a sudden storm brews up and black sails flutter in the wind, that is when the great captains shall return.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,9 +805,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			actor = 9600010,
-			actorName = "？？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "这也就意味着——",
+			say = "For the uninitiated–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,12 +817,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "意味着你们已经被我们这些无恶不作的海盗包围了哦~",
+			say = "That means us evil, evil pirates have you completely surrounded♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,9 +848,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			actor = 9600010,
-			actorName = "？？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
-			say = "哎呀，金鹿你就别抢我的话嘛！",
+			say = "Oi! You stole my line, Hind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "抱歉抱歉，一时情不自禁就接话了呢。那接下来就由皇家财富你来说吧。",
+			say = "Forgive me, dear. I just couldn't resist the urge to finish your sentence. Go on, say the rest, Fortune.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "咳咳——上面的人听好了！逃跑和抵抗都是没用的，我们要把你们全部~带走！",
+			say = "Ahem... Listen up, people! We can do this the easy way, or the hard way! Either way, you and your ship are coming with us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……旅途中的风暴，还是出现了。）",
+			say = "(Seems I was wrong. We did run into a tempest after all.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +910,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没想到竟然是飓风船团的“海盗”行动……算了，先让她们开心一会。）",
+			say = "(I'm surprised Tempesta are actually practicing piracy. Not that it's off-brand for them... I suppose I'll play along for now.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,7 +922,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可恶的海盗，没想到今天竟会栽到你们手里……",
+			say = "Goddamn pirates! Of all the hands we'd fall into, I can't believe it's yours!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "把我们带走后，接下来要怎么处置我们？！",
+			say = "You're going to abduct us, huh? Then what are you going to do to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +947,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然是全部去走独木板……不对，把你们扣押在手上，然后等着赎金！",
+			say = "That's obvious. You're all gonna walk the pla– I mean, we're gonna ransom you off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是你把我们抓走了，我们没办法回到港区就没有赎金，这该怎么办？",
+			say = "And who's going to pay you the ransom if you've already made a hostage of everyone who could do so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600010,
-			say = "没、没有赎金！怎么可能！你们的船看起来明明很值钱……不对不对！没有赎金你就用自己来抵债！",
+			say = "You... can't pay the ransom? Fine, then we'll liquidate that posh ship you've– No, that won't work either! You'll just have to pay with your BODY, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "哎呀，这么快就把我们的目的直接暴露了吗~？",
+			say = "Well, well, you've let the cat out of the bag now, Fortune!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600010,
-			say = "啰、啰嗦！等等，不要笑场啊，我也要忍不住了……",
+			say = "Aw, shoot... Hey, wipe that grin off your face! I couldn't help myself, alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "哈啊……维达已经困了……快点结束吧……",
+			say = "*yaaawn*... I'm shleepy. Can we get this over with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们是怎么找过来的？",
+			say = "How did you find us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1065,7 +1065,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9600010,
-			say = "这个、那个……",
+			say = "Uhh, we...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "就是又想来找你们玩嘛~总之努力了一下就成功了。",
+			say = "We really, really missed you, my darling! I looked all over for you, and now I've finally found you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "看样子，你们现在应该在度假吧~？机会难得，要不要去我们那边玩玩儿？",
+			say = "And my, looks like we caught you on a vacation. If you don't have anywhere else to be, why don't you come visit us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1113,7 +1113,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，也算是个难得的机会，我征求一下大家的意见吧。",
+			say = "I DO like the sound of that... but first, I should hear what everyone else thinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在得到了一致的“想去”的答复后，邮轮的下一站改为了和飓风船团同行。",
+			say = "The answer is unanimous – they all want to visit Tempesta's secret retreat. And so, it becomes our next destination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "巨大的触手松开邮轮后，金鹿甚至贴心地帮我们重新调整了航向。",
+			say = "The giant tentacles let go of the vessel, and the pirates graciously adjust our course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,7 +1146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "邮轮朝着闪电雷鸣的风暴中心缓缓航行。",
+			say = "Our ship and theirs cruise onward, to the center of the storm that still bursts with flashes and lightning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600030,
-			say = "大家~抓紧坐稳~",
+			say = "Grab something and hold on tight, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1177,7 +1177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "出发——！新世界的大门要打开了！",
+			say = "Ahoy! The door to the New World will open any second now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1192,7 +1192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在皇家财富开心的笑声中，邮轮径直驶向了风暴的最中心——",
+			say = "Our ship thrusts straight into the storm's center as Royal Fortune boisterously laughs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

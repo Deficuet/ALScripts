@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日别墅筹备中\n\n<size=45>精英投资战略宣讲</size>",
+					"Planning the Villa Vacation\n\n<size=45>1 Strategic Investment Briefing</size>",
 					1
 				}
 			}
@@ -29,23 +29,23 @@ return {
 			},
 			sequence = {
 				{
-					"「阿卡西度假别墅岛」",
+					"\"The Akashi Island Resort!\"",
 					2
 				},
 				{
-					"「夏日、阳光、海滩」",
+					"\"Summer, sunshine, the beach!\"",
 					4
 				},
 				{
-					"「远离工作，远离喧嚣」",
+					"\"Get away from work and all the hustle and bustle!\"",
 					6
 				},
 				{
-					"「与心爱的人一同」",
+					"\"Bring your beloved along...\"",
 					8
 				},
 				{
-					"「度过一段美妙的时光吧——」",
+					"\"And have a break in paradise.\"",
 					10
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室（划掉）",
+			say = "Port - Office (Formerly)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·精英投资战略宣讲室",
+			say = "Port - Executive Strategic Investment Briefing Room (Currently)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（…………）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一走进指挥室，就看到了立在门口那张风格难以名状的临时广告牌，以及一只面如春风的绿头猫咪。",
+			say = "As soon as I enter my office, I'm greeted by the sight of a sign with some bizarre writing on it. Akashi is there, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵喵喵——贵客终于来齐了喵——",
+			say = "Great, nya! Now everyone is here, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:20:不知火}，快带贵客去贵宾区入座，精英投资战略宣讲即将要开始了喵——",
+			say = "Shiranui, escort our esteemed guests to the VIP seats, nya. The executive strategic investment briefing is starting, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鼓掌、鼓掌——",
+			say = "Clap, clap, clap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,18 +160,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（…………）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……这是闹的哪一出？",
+					content = "What's the meaning of this?",
 					flag = 1
 				},
 				{
-					content = "……这是又闹的哪一出？",
+					content = "What is it this time?",
 					flag = 2
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不要急，诸位贵客不要急喵~",
+			say = "Now, now, everyone settle down, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}眼含热切地看向了只有我一个人落座的指挥室。",
+			say = "Akashi shoots an ardent gaze at the \"VIP seats,\" which only seat me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}首先有一个问题，想问一下在座的诸位贵宾——",
+			say = "First of all, I have a question for our kind and charitable guests, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "——诸位，想和心爱的人一同享受一场豪华的假日之旅嘛喵？",
+			say = "Would you like to go on a luxury vacation with your beloved, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“想，很想，特别想——”",
+			say = "\"Oh yeah, totally. I so wanna go on a vacation. Absolutely.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼~诸位热切的心情，已经完全传递给{namecode:98:明石}了喵~！",
+			say = "Nyahaha – I hear you loud and clear, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "而为了不辜负诸位热切的心情，请看大屏幕——",
+			say = "In that case, please direct your attention to the screen, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "——「阿卡西度假别墅岛」喵！",
+			say = "Introducing: The Akashi Island Resort, nya!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "夏日、阳光、海滩——",
+			say = "Summer, sunshine, the beach!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,18 +315,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（…………）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……不要念了，大师不要念了。",
+					content = "I've had plenty of all that.",
 					flag = 1
 				},
 				{
-					content = "……讲点和宣传广告里不一样的？",
+					content = "So, got anything for me besides the marketing talk?",
 					flag = 2
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "咳咳~总之，这就是我们专为您这样的投资战略精英贵宾所准备的金牌产品喵！",
+			say = "Ahem. In summary, this is the top-tier offering we've prepared specifically for big-time elite investors like you, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鼓掌、鼓掌——",
+			say = "Clap, clap, clap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（总算放弃假装这里有很多人在听了么……！）",
+			say = "(They didn't even hire shills to clap along...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过看这个架势……难道说？）",
+			say = "(The direction this is going, though... Surely not...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:20:不知火}，别光鼓掌了……快念词喵！",
+			say = "Nui, you can't just clap! Say your lines, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊——诸位贵宾请听我说——",
+			say = "Oh. Allow me to tell you about this island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这座小型海岛——地处风景极其优美的{namecode:98:明石}精选海域——",
+			say = "Its location is within a region specially selected by Akashi for its picturesque scenery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其上所修建的别墅——更是最新——最豪华——最时尚的款式——",
+			say = "Here, you'll find a grand villa representing state-of-the-art luxury and style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "室内室外各类设施一应俱全——可以容纳百人同饮——千人同游——",
+			say = "It comes with all indoor and outdoor facilities – including space to host a hundred guests for drinks, and areas large enough to accommodate a thousand for activities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其交通更是方便——从港区出发一日内即可抵达——",
+			say = "Connections to the port are also excellent. Reachable within a day of travel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一座堪称钻石级度假胜地的小岛——一座远离尘世宛如仙境的小岛——",
+			say = "It is truly an ultra-luxurious resort – a slice of paradise, a piece of heaven itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一座自由与最爱的人一同拥有，才算不枉此生的小岛——",
+			say = "Bring your loved ones and treat them to the experience of a lifetime – to an unforgettable, perfect vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“欸，真让人憧憬啊——”",
+			say = "\"Whoa... That sounds amazing. I'm sold already.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“好想快点和心爱的人一起住进这么厉害的大别墅里哦——”",
+			say = "\"I wish I could live in such an amazing villa with my sweetheart.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "预购名额仅限一位，专为最尊贵的贵宾所准备，心动不如行动喵！",
+			say = "The reservation is limited to just one person – only the finest for our distinguished VIPs, nya! Act now while you have the chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:98:明石}……你这是在向我推销房产？",
+			say = "Akashi, are you really trying to sell me on real estate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哼哼哼，指挥官把{namecode:98:明石}当成什么喵了！",
+			say = "Heheheh – who do you take me for, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果只是普通的房产，我才不会大费周章地铺垫这么多呢！",
+			say = "If this was just any regular old plot of land, I wouldn't have prepared such an elaborate show, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这可是通过了我和{namecode:20:不知火}重重严格考核的超·优质房产喵~！",
+			say = "This is the cream of the crop – a top-tier property that passed both Shiranui's and my rigorous assessment, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,18 +590,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "就连最挑剔的人看了，都要惊叹“这简直是度假天堂的范本”！更不要说身临其境该有多幸福了喵~",
+			say = "Even the nitpickiest of nitpickers will praise this as the ideal island, nya! And it looks even better in person, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，我买了！",
+					content = "Okay, I'm sold!",
 					flag = 1
 				},
 				{
-					content = "感觉有哪里不对劲……",
+					content = "Hang on a second...",
 					flag = 2
 				}
 			}
@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "这个度假岛……和港区的区别在哪里？",
+			say = "What sets this island apart from the port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "美丽的沙滩与海景喵？",
+			say = "A beautiful beach and ocean view, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "那……和港区的区别在哪里？",
+			say = "Again, what sets it apart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完善的设施喵？……能容纳成百上千人一起尽情度假喵？",
+			say = "Uhh... It's fully furnished, nya? And it can hold 1,000 people, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "……那和港区的区别在哪里？",
+			say = "Still not seeing what makes it any special.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……和心爱的人一起住的大别墅喵……？",
+			say = "Err, umm... The luxury villa where you can live with your beloved, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,7 +700,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "……所以和港区的区别在哪里？",
+			say = "I'll ask one last time – what sets it apart from the port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别墅岛上也有办公室，可以享受到不一样的办公体验喵！",
+			say = "There's also an office on the island so you can work in a completely new environment, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "我买了！",
+			say = "Okay, I'm sold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老板大气喵！",
+			say = "I knew you'd be charitable, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵呼呼~既然指挥官上钩、不是……既然尊敬的贵宾做出了最为明智的决定！",
+			say = "Heheh... Command– I mean, esteemed client, you've made an exceptionally wise decision, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "接下来请看这一份，我们精心为您准备的独家度假方案——",
+			say = "Now, please have a look at this exclusive vacation plan we've prepared for you, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一同购买，可以享受九五折的折扣喵——！",
+			say = "Buy it as a package deal to receive a whole 5% off, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

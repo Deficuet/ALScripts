@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "两小时后——",
+			say = "Two hours later...",
 			bgm = "battle-ironblood-defence",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"能量塔·内部",
+				"Inside the Energy Tower",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "在净化装置有条不紊的运作下，第一批能源金晶已经完成了净化处理。",
+			say = "The radiation purger worked, and we managed to purify a batch of mineralized energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}和{namecode:541:杜伊斯堡}已经与{namecode:426:希佩尔}·META一同来到了能源塔中，其他人则在镜面海域内侧清理着过于靠近基地的敌人。",
+			say = "We left cleaning up the enemy force to our allies while Rumey, Duisburg, and Hipper accompanied me to the energy tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……用这东西给我提升战斗力？",
+			say = "So this stuff is supposed to make me stronger?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "你认真的？",
+			say = "Is this a joke, or what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "不出所料，{namecode:426:希佩尔}在看到能源金晶后露出了疑惑的表情。",
+			say = "Unsurprisingly, Hipper is suspicious at best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在还不行，我需要再加工处理一下。",
+			say = "With a little more work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "所谓加工，就是设法激活神石的性质，将常人无法直接使用的能源金晶转化{namecode:426:希佩尔}·META能够使用的，增幅自身战斗力的物品。",
+			say = "By drawing out the shared attributes between mineralized energy and the Watatsumi, and by imbuing emotion into the result, it can be turned into an item that affects a shipgirl's hull and boosts her firepower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "不过重樱的这一套方法实在是难以言传，还是直接行动，用结果来说服众人吧。",
+			say = "Instead of trying to explain such a high-level concept, however, I opt to show rather than tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（要专注于这是赠送给{namecode:426:希佩尔}所使用的礼物这一心念么……）",
+			say = "(Imbuing emotions... In other words, I should focus on how much I care about Hipper.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "根据{namecode:91:赤城}的方法，我拿出一块净化打磨后的能源金晶块，贴近额头静静感受着。",
+			say = "Recalling the method that Akagi taught me, I raise the mineral fragment and touch it to my forehead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "恍然间，我来到了这片空间。",
+			say = "My mind seems to collapse, and I realize that I'm somewhere else.",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "story-startravel",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "无垠、广袤、虚无，方位与时间似乎在此处失去了意义。",
+			say = "The void stretches on endlessly in all directions. Time and orientation mean nothing here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "这种感觉……有些似曾相识？",
+			say = "Why does this feel... nostalgic?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "……难道是最初遇到罗德尼·META的地方？",
+			say = "Is this where I first met Rodney META?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "糟糕……！",
+			say = "Ah, damn it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "我的意识开始被拉扯，被溶解……缓缓消逝在这片无垠的广袤与虚无中。",
+			say = "My hazy mind starts melting, assimilating into the never-ending void.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "等、等等——",
+			say = "Wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "就在意识将要消散之际……耳边响起了熟悉的风铃声。",
+			say = "As my consciousness starts to fade, I hear the familiar sound of wind chimes.",
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CFFC0",
-			say = "哈？要送我的礼物为什么要来问我？！",
+			say = "Ugh, why do you keep asking me what gifts I'd like?",
 			bgm = "bgm-waterwave",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			actor = 403010,
-			say = "你真是笨蛋么？！",
+			say = "Are you stupid?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#5CFFC0",
 			actor = 403010,
-			say = "哼，下不为例，可不是为了帮你哦！",
+			say = "Hmph! Fine, but I'll only tell you just this once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CFFC0",
-			say = "笨蛋！",
+			say = "You idiot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（刚刚……发生了什么？）",
+			say = "(What was that?)",
 			bgm = "battle-ironblood-defence",
 			typewriter = {
 				speed = 0.05,
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "明明是一瞬之前的记忆，却顷刻间烟消云散。",
+			say = "I witness a strange scene, but it quickly slips from my memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "我茫然地抬起头，迎来的是众人更加茫然的目光。",
+			say = "I look up in confusion. Everyone around me is just as surprised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（…………）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 402110,
-			say = "{playername}阁下，你居然……真的成功了？",
+			say = "Commander... You did it that easily?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没用到任何机器，也没有任何处理流程……就一贴脸，能源金晶就变成其他东西了……？",
+			say = "No special equipment, no special treatment... Just by touching it to your forehead, you changed the mineralized energy into something else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……这不科学吧。",
+			say = "Unscientific.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……不愧是天外来客，真恐怖。",
+			say = "Visitor from the beyond, indeed. You're something special.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,20 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "这时我才注意到，原本被我握在手中的能源金晶，此刻已经变为了一个包装精美的小巧礼盒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_301",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（这就是神石……？）",
+			say = "Their comments make me realize that the mineral in my hand has turned into a small box.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（虽然转换过程无法理解，不过真的得到了想要的结果……？）",
+			say = "(Giving emotions material form... Is that the Watatsumi's true power?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +502,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（礼盒么……原来如此。）",
+			say = "(I don't know if this works like Wisdom Cubes, but either way, it looks like it worked.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +515,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:426:希佩尔}，这个送给你。",
+			say = "(But is this box what I think it is?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_301",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Hipper, I want you to have this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……礼盒中有能提升我战斗力的物品？",
+			say = "This is supposed to make me stronger? What's in this thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "礼盒之中装载的是未知，而未知之中，蕴含着名为希望的力量。",
+			say = "The unknown. That's exactly why it can give you the power known as hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "命运不是既定的，能决定我们命运的，只应该是我们自己。",
+			say = "Not knowing the future is what gives us hope. We get to decide our destiny, not others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以，我们今日不会毁灭，这个世界亦然。",
+			say = "We're not done yet. And neither is this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "利用这份力量取得胜利，然后亲自打开礼盒，迎接充满希望的未来吧。",
+			say = "With this power, we'll seize victory and find a future full of hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……我不是很明白。",
+			say = "...Still not getting what you're going for here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "不过……还是多谢你的礼物了~",
+			say = "Well, it is a gift. Thanks. I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "再之后，我与{namecode:542:弗里茨·鲁梅}争分夺秒对于基地的防御体系进行了最后的部署。",
+			say = "Rumey and I worked together to prepare HQ's defenses as fast as humanly possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "而后我独自前往了一号永恒之星，操作第三座控制台将镜面海域转为了防御模式。",
+			say = "After that, I went to the Eternal Star and used the console to switch the Mirror Sea to defense mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "星之兽……我已经做好了能做的一切——一决胜负吧。",
+			say = "The Star Beast is coming. Let's see how it can handle us this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

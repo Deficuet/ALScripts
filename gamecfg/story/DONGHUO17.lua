@@ -9,13 +9,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "织梦者",
+			actorName = "Dearmweaver",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
 			stopbgm = true,
-			say = "“主对他们说，我曾看见撒旦从天上坠落，像闪电一样”",
+			say = "“To them, the Great One spake: 'I saw Lucifer fall, like a bolt of lightning descending from the sky.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,8 +32,8 @@ return {
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
-			actorName = "织梦者",
-			say = "“所有跟随他反叛的天使都蜕变成了最丑恶的形象，但却仍保有天使的光翼形象”",
+			actorName = "Dearmweaver",
+			say = "“Those who followed in rebellion were warped and twisted, but it is said that their fallen wings were not torn off.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
-			actorName = "织梦者",
-			say = "“造物主不忍看到自己最杰出的作品蒙尘，让他就算在地狱里也能放光”",
+			actorName = "Dearmweaver",
+			say = "“That is because the Great One could not bear to see His most beloved work sullied, and thus allowed them to glow even from the depths of the Underworld.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			actor = 900136,
 			dir = 1,
 			blackBg = true,
-			actorName = "织梦者",
-			say = "人类真是会写有趣的故事呢…",
+			actorName = "Dearmweaver",
+			say = "Humans really do write the quaintest stories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,10 +83,10 @@ return {
 			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "织梦者",
+			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "不过，节点终端目前确实没有能够对抗她的能力…",
+			say = "But, Tester and Purifier... Indeed, these lower-level terminals do not have the ability to hold her back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,10 +100,10 @@ return {
 			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "织梦者",
+			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "嗯…接下来就劳烦你们去“地狱”走一趟了…",
+			say = "In that case... I must ask you to descend into the \"Underworld\" to call forth those children.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,10 +117,10 @@ return {
 			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "织梦者",
+			actorName = "Dearmweaver",
 			dir = 1,
 			blackBg = true,
-			say = "仲裁机关",
+			say = "...My \"Arbiters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

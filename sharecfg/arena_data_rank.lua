@@ -2,7 +2,7 @@ pg = pg or {}
 pg.arena_data_rank = {
 	{
 		battle_award = 50,
-		name = "列兵",
+		name = "Seaman",
 		point = 0,
 		refresh_limit = 5,
 		k_value = 50,
@@ -15,7 +15,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 60,
-		name = "士官",
+		name = "Petty Officer",
 		point = 100,
 		refresh_limit = 5,
 		k_value = 45,
@@ -34,7 +34,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 70,
-		name = "少尉",
+		name = "Ensign",
 		point = 200,
 		refresh_limit = 5,
 		k_value = 40,
@@ -53,7 +53,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 70,
-		name = "中尉",
+		name = "Lieutenant Junior Grade",
 		point = 300,
 		refresh_limit = 5,
 		k_value = 35,
@@ -72,7 +72,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 70,
-		name = "上尉",
+		name = "Lieutenant",
 		point = 400,
 		refresh_limit = 5,
 		k_value = 30,
@@ -91,7 +91,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "少校",
+		name = "Lieutenant Commander",
 		point = 550,
 		refresh_limit = 5,
 		k_value = 30,
@@ -110,7 +110,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "中校",
+		name = "Commander",
 		point = 700,
 		refresh_limit = 5,
 		k_value = 30,
@@ -129,7 +129,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "上校",
+		name = "Captain",
 		point = 850,
 		refresh_limit = 5,
 		k_value = 25,
@@ -148,7 +148,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "准将",
+		name = "Rear Admiral Lower Half",
 		point = 1050,
 		refresh_limit = 5,
 		k_value = 20,
@@ -167,7 +167,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "少将",
+		name = "Rear Admiral",
 		point = 1250,
 		refresh_limit = 5,
 		k_value = 20,
@@ -186,7 +186,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "中将",
+		name = "Vice Admiral",
 		point = 1450,
 		refresh_limit = 5,
 		k_value = 20,
@@ -205,7 +205,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "上将",
+		name = "Admiral",
 		point = 1650,
 		refresh_limit = 5,
 		k_value = 20,
@@ -224,7 +224,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "五星上将",
+		name = "Fleet Admiral",
 		point = 1900,
 		refresh_limit = 5,
 		k_value = 20,
@@ -243,7 +243,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 100,
-		name = "海军元帅",
+		name = "Admiral of the Navy",
 		point = 2200,
 		refresh_limit = 5,
 		k_value = 20,

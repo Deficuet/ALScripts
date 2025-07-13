@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……小狐狸要为它的贪心承担一点代价。",
+			say = "This is a greedy little creature. You don't want to indulge it any more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你这样想着，无视了缠在你身边的小狐狸，不论它如何对你摆出一副可怜的表情。",
+			say = "You pay no attention to the fox, which looks at you with a lovable expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "雨停了。你离开了树下，这场简单的邂逅随即落幕。",
+			say = "The rain stops. You leave the shelter behind, and the insignificant encounter recedes into the back of your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

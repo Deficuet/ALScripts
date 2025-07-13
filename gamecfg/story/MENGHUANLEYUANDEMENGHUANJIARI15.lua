@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "从水上乐园区域离开后，回到了休息区。",
+			say = "Leaving the water park, I return to the break area.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "而完美且潇洒的女仆长早已在休息区中等候。",
+			say = "There, I find the impeccable and fashionable head maid, Belfast, who has been waiting for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人，欢迎回来。",
+			say = "Welcome back, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经为您准备好了可以消暑的冰镇汽水，还请您稍等片刻，这就为您……",
+			say = "There is an iced beverage ready, if you'd like to cool down. Please wait just one moment and I'll get it for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "正在贝尔法斯特优雅地将一缕鬓发别至耳后，拿出冰汽水正要打开时。",
+			say = "She gracefully brushes her hair up, then brings out the cold drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "那张无论何时都浮现着游刃有余的笑容面庞上，浮现出了少见的、有些苦恼的神情。",
+			say = "But then, in an uncharacteristic fashion for the maid prepared for anything, a bothered look forms on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这下稍微有点麻烦了呢。",
+			say = "Well... This is troublesome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "What's the problem?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我准备好的开瓶器，稍早一点的时候被{namecode:77:日向}小姐借走了。",
+			say = "You see, Miss Hyuuga asked to borrow my opener earlier, and I obliged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然提醒过她还回来的时间，不过现在看来……她应当是忘了。",
+			say = "She should have given it back by now, but it seems she forgot to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在再去找她拿的话……算上一来一回的时间，未免影响饮料的口感。",
+			say = "I'm afraid that if I go to reclaim it now, it's going to take quite some time. This will undoubtedly change the beverage's texture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那么，只能用其它方式开瓶了。",
+			say = "Therefore, I am left with no choice but to open the bottle through some other means.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其它方式？",
+			say = "\"Other means\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人，请您退后一些。",
+			say = "Yes. Master, would you mind standing back a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "依言与贝尔法斯特拉开了距离。",
+			say = "As she asks, I take a few steps back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "一阵行云流水的动作过后——",
+			say = "She strikes some sort of ready pose, then with a lightning-quick maneuver...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "咔——",
+			say = "POP! FSSHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "瓶盖被拨开，甜美的气味随之弥漫在空气中。",
+			say = "The bottlecap flies off, and a sweet aroma fills the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "飞溅的汽水落在了她白皙的肌肤上，留下淡淡的橙色水渍。",
+			say = "A splash of liquid hits her dazzlingly fair skin, leaving a faint red trace on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,18 +272,18 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人，您的汽水，请品尝。",
+			say = "Please enjoy, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "谢谢",
+					content = "Thanks.",
 					flag = 1
 				},
 				{
-					content = "还能这么开瓶？！",
+					content = "How in the world did you do that?",
 					flag = 2
 				}
 			}
@@ -298,7 +298,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用谢，这是女仆的职责。",
+			say = "You're welcome. This is only a maid's job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~欣赏您惊讶的神情依旧很有趣呢。",
+			say = "Heehee. I'm pleased to see you were surprised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用太在意开瓶的方式，请喝汽水吧。",
+			say = "Let's not get hung up on bottle-opening techniques. Please have a taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "重新靠近贝尔法斯特接过汽水时，注意到了她面颊上浮起的红晕。",
+			say = "I walk back up and accept the bottle from her. That's when I notice that she's faintly blushing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,19 +352,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "阳光透过透明的穹顶直接照射在少女白皙的肌肤上，能清晰地看到沁出的薄薄一层汗珠。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_117",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（嗯……一直在休息区等我，还这样被太阳晒着……）",
+			say = "The sunlight coming in from the glass ceiling shines on her, highlighting every little bead of sweat on her skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,18 +364,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "贝尔法斯特，天气这么热，你也喝一些降温吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_117",
-			hidePaintObj = true,
-			say = "不等少女回答，将手中的汽水倒入了一旁的玻璃杯中，推向了她的方向。",
+			say = "(Ah... This place is scorching. Now I feel sorry for keeping her waiting so long.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +376,30 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然后也去休息一下。",
+			say = "Hey, why don't you have a drink, too? It's pretty hot in here.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_117",
+			hidePaintObj = true,
+			say = "Not giving her the chance to be humble, I take a glass, fill it, and offer it to her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_117",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Also, you could probably use a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我并不累，主人。这是我作为女仆的职责。",
+			say = "Heehee. I appreciate it, Master, but I am not tired. Waiting for her master is but one of a maid's many duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，我也明白您的意思……谢谢您的关心。",
+			say = "Of course, I do understand your concern. Thank you kindly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "贝尔法斯特拿起桌上装着冰饮的玻璃杯，与我手中的汽水瓶轻轻相碰。",
+			say = "She takes the glass. I extend mine to offer her a toast, and she reciprocates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "干杯，主人，祝您今日在游乐园中玩得开心。",
+			say = "Cheers. I sincerely hope you'll have a wonderful day at the amusement park.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等您游玩结束的时候，或许我可以……",
+			say = "Then, later on, in the event that you feel tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
-			say = "完美且潇洒的女仆长突然止住了言语，随即冲我露出了一个略带深意的笑容。",
+			say = "The well-spoken Belfast suddenly trails off before looking at me with a slightly cheeky smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……到那时，再谈论关于“休息”的事吧。",
+			say = "Then we may discuss having a break. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

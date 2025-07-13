@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "来到了邮轮上的运动场。",
+			say = "I decide to pay a visit to the ship's gym.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（室内和室外的区域都被兼顾到了……甚至连动线规划也很合理啊。）",
+			say = "(Huh, so it's divided into two sections. It makes sense that they'd include space for track events.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "啊~你来了呢，指挥官。",
+			say = "Oh, Commander. Fancy seeing you here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "随便走走。你们继续做自己喜欢的运动就行，不用管我。",
+			say = "I'm just passing by. Don't mind me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "那可不行哦~对了，指挥官接下来有安排么？",
+			say = "Too late for that. Hey, are you busy right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这倒是没有，怎么了？",
+			say = "Not really. Why?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "呵呵，来都来了，不如和大家一起做些有意思的事情吧~",
+			say = "Heehee. Well, since you're here, let's do something fun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "那就麻烦你在这里稍等一下了呢，指挥官。",
+			say = "Just wait here and I'll be right back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "说完这句话后，{namecode:428:欧根}转身向室内区域走去，在马赛曲耳边说了什么。",
+			say = "Eugen turns on her heel and goes to the indoor part of the gym. Marseillaise is there, and Eugen whispers something to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "随后马赛曲也起身，两人似乎开始召集起了运动场上的所有人……",
+			say = "Marseillaise then gets up and starts talking to everyone else inside the gym.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "不一会儿，{namecode:427:欧根亲王}、{namecode:462:布伦希尔德}、{namecode:412:Z46}、马赛曲、凯尔圣和絮弗伦等人就一起来到了我面前。",
+			say = "A short while later, a small crowd has gathered – Eugen, Marseillaise, Z46, Brünhilde, Kersaint, and Suffren.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902021,
-			say = "……战斗天使马赛曲，在这种事情上是不会失败的！",
+			say = "...I am the Fighting Angel. Defeat is not an option for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404051,
-			say = "为了指挥官，就由我来创造胜利！",
+			say = "I answer your call, Commander, and I'll bring you victory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……？",
+			say = "Sorry, what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "指挥官还记得我刚才说的，要做些有意思的事么？",
+			say = "Did you forget what I said? We're going to do something fun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "我们商量好了，要开始3对3的沙滩排球。不过，我原本打算也让指挥官参与其中的……",
+			say = "The girls and I talked, and we settled on a three-versus-three game of beach volleyball. I wanted you to join us... but you can't have everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902021,
-			say = "但是如果指挥官作为一方的选手的话，作为对手的另一队就不知道该不该使出全力了呢。",
+			say = "If you were playing, the team you're not on might be hesitant to go all out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，我要在一边……？",
+			say = "So, what am I supposed to do? Spectate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然不是了，我们希望指挥官能在旁边控制记分牌。",
+			say = "Not quite. We'd like you to keep score for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 803011,
-			say = "没错，指挥官来计分就是绝对公平公正的了哦~姐姐我为了这份机会要全力全开了！",
+			say = "Yeah. You don't have a horse in this race, so you'll tally points fair and square! That's why I'm gonna give it 100%!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401462,
-			say = "享受斗争、争夺奖品，我会以猎豹一样的速度和力量，夺取“冠军”。",
+			say = "For fun we play, for prize we fight. Like leopards we'll move, seize victory proud and bright.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901041,
-			say = "只、只要为了胜利而祈祷的话……",
+			say = "If I j-just pray for victory, maybe, just maybe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "看，大家都开始兴奋起来了呢，接下来就拜托指·挥·官·了。",
+			say = "Hear that? They're all fired up. We're just waiting for your answer, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（如果只是普通的沙滩排球比赛，这种对于胜利的追求明显有些不正常……）",
+			say = "(There's no way this is a casual match, considering the motivation on display here...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等……{namecode:428:欧根}，你是不是对大家承诺了什么？",
+			say = "Let me guess... you promised something to the winners, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "哎呀，被你发现了呢~我只是告诉大家，赢的一方可以和指挥官共进晚餐哦~？",
+			say = "Dang, the jig is up. I only promised the winning team would get to have dinner with you, that's all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403036,
-			say = "事到如今，指挥官不会说“不”的吧？",
+			say = "You're not going to turn them down now that we're all here, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "少女的脸上浮现着明显的得逞的神色，在阳光下，衬得整个人格外明艳。",
+			say = "Eugen's expression screams, \"I have you exactly where I want you.\" Admittedly, she does look brilliant in the sunlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "随即，激烈的沙滩排球大赛拉开了帷幕。",
+			say = "With a nod, the curtains rise on a fervent game of beach volleyball.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "高高跳起的马赛曲对着排球全力扣杀。",
+			say = "Marseillaise leaps up into the air, hitting the ball with all her might.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "伴随着破风的呼啸，原本即将落地得分的球却被{namecode:412:Z46}垫起。",
+			say = "With a whoosh, it flies straight toward the floor, but Z46 intercepts the ball just before it lands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "在{namecode:462:布伦希尔德}漂亮的假动作后，{namecode:428:欧根}跃起把球用力扣下。",
+			say = "Brünhilde makes a brilliant feint, followed by Eugen jumping up high, smacking the ball with full force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "凯尔圣面对飞来的排球慌乱之下跌倒，铁血小队得分。",
+			say = "It's on course toward Kersaint, who panics and trips, thus giving a point to Iron Blood's team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404051,
-			say = "这样就先下一城了，保持着这样的节奏朝着胜利前进！",
+			say = "That's one point to us! Keep at it and we'll win!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401462,
-			say = "如同流星一般，让这排球飞向终点。",
+			say = "The ball shall fly like a star through the sky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901041,
-			say = "呜呜……对不起，都是凯尔圣的问题……",
+			say = "I'm sorry... It's all my fault...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 803011,
-			say = "站起来啊凯尔圣！正场现在才开始呢！",
+			say = "Don't be like that! The game has only just begun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 902021,
-			say = "指挥官可是在旁边看着呢，不可以输！",
+			say = "The Commander is watching. We must give this our all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "战局正在变得愈发白热化。",
+			say = "The motivation flowing through the players burns even brighter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（越发激烈了啊，到底会怎么样呢……）",
+			say = "(This is getting intense. I really wonder who'll win in the end.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "在马赛曲和絮弗伦的努力下，不出意料地成了平局，理所当然地决定所有人一起吃晚饭。",
+			say = "Marseillaise and Suffren fought tooth and nail and finally ended the match with a draw. That means I'll have dinner with both teams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "不过在晚饭之前还有一段时间，再去别的地方散散步吧。",
+			say = "There's still a while to go until then. I'll take the time to check out something else meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

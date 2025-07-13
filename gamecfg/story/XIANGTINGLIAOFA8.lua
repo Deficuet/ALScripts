@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "白鹰·长岛防线 此刻",
+			say = "Eagle Union - NY Harbor Combat Zone",
 			effects = {
 				{
 					active = true,
@@ -30,7 +30,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "纽约港作为白鹰第一大港，拥有最先进的港区设备和最完善的配套设施。",
+			say = "NY Harbor is the largest naval base in the Eagle Union, complete with cutting-edge equipment and auxiliary facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "加之其重要的地理位置，自碧蓝航线成立之初就在纽约港设置了负责整片NA海域作战的舰队司令部。",
+			say = "In addition to its strategic location, it has served as the command center for all Atlantic operations since Azur Lane's inception.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "而负责保护纽约司令部及周边配属企业设施群的就是这条长岛防线了。",
+			say = "The Long Island Defense Line is responsible for protecting NY Harbor as well as its neighboring auxiliary facilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "坚固的防御工事，大口径的要塞炮，充足的补给储存，加上沿海岸线分布的多处军港和本土防御舰队，",
+			say = "With its superb fortifications, large-caliber coastal artillery, plentiful supply routes, multiple military bases, as well as several operational fleets along the coast...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "构成了一条固若金汤的防御线。",
+			say = "It is practically impenetrable, a fortress that safeguards the heart of the Azur Lane.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这条防线帮助人类在最黑暗的年代，抵御了塞壬最疯狂的进攻。",
+			say = "When humanity was driven to the brink by the appearance of the Sirens, this was the only place that managed to withstand the Sirens' onslaught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这是一条绝对不会沦陷的防线，只要一切仍在正轨的话。",
+			say = "In a sense, this is humanity's last bastion. As long as it stands, there is still hope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "因为赤色中轴的背叛，即便是纽约司令部也不得不将大多数防御舰队调防到世界各地，以应对愈发危险的局势。",
+			say = "After the Crimson Axis broke off, there was no choice but to send many forces to various different countries in order to try to preserve the precarious peace around the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬就是瞄准了这一刻吧。",
+			say = "It was as if everything had been dancing within the Sirens' palms...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "But now there is no time to speculate about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "漂浮的残骸，燃烧的废墟——",
+			say = "If the Eagle Union were to fall, the entirety of Azur Lane would soon follow, and the delicate balance of power around the globe would be cast into chaos. The stalemate with the Sirens would be broken, potentially ushering in another massive offensive...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不论如何，此刻，昔日最坚固的长岛防线已经沦陷了。",
+			say = "Time is running out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…怎么可能……",
+			say = "How can this be... Commander, what should we do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "可恶……！",
+			say = "Bastards... Unforgivable...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 11,

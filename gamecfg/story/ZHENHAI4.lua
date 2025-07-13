@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>四　“棋之四艺”其一</size>",
+					"The Go Master and Her Disciple\n\n<size=45>4 The Four Arts of Go - 1</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "跟着镇海来到泳池。不过和平时不同的是，泳池的下方多了一处小小的人造瀑布。",
+			say = "I accompany Chen Hai to the swimming pool. Someone has added a small artificial waterfall to the pool. When and why, I don't know.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们要在这里下棋么……？",
+			say = "Uh... Are we going to play Go out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "当然不。指挥官应该也从港区的其他同伴那里，听说过“修行”的概念吧？",
+			say = "No, of course not. You're going to meditate under the waterfall. I take it the concept is familiar to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "——在瀑布下，让湍急冰冷的水流拍打在自己的头脑和身体上。",
+			say = "You're to sit there and let the cold water whip your head and body.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个我知道……但是这和围棋有什么关系吗？",
+			say = "I've obviously heard about it before, I just don't see what it has to do with Go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "这就要说到我所归纳的“棋之四艺”之一——不可心怀怯意了。",
+			say = "It is the first of the Four Arts of Go that I've summarized – \"be bold, fear nothing.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "指挥官在和我对弈时候，并不能真正做到虚怀若谷般的冷静吧？",
+			say = "When you play with me, inhibition prevents you from reaching a state of flow, does it not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "镇海凑到了我的耳畔。呼吸之间气息交错，能嗅到她身上散发的清冷幽香。",
+			say = "She comes within whispering range. Only a small nudge away, she gives off a cool fragrance that tickles me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "教人确实无法做到所谓的，虚怀若谷般的冷静。",
+			say = "It's too much for anyone to stay calm under. My composure crumbles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "仿佛是察觉到了我内心的躁动，镇海在我耳畔轻笑出声。",
+			say = "She senses the restlessness in my heart and lets out a small giggle into my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵……所以，扫除内心的躁动，遇事坐怀不乱就是我想让指挥官学习的第一课呢。",
+			say = "Heehee. There you have it. Your first lesson will be learning to stay calm in the face of anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我明白了……具体要怎么做？",
+			say = "Alright. Then what exactly do I have to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "首先，就请让我帮您褪下衣物吧。",
+			say = "First of all, I'd like to help take off your clothes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等，等一下！？",
+			say = "Whoa, WHAT?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "您不必紧张，只是帮您褪去外套而已。莫非……指挥官想到了别的什么……？",
+			say = "No need to be so alarmed. I'm only referring to your coat. What did you think I meant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，不不，没什么……那就麻烦你了。",
+			say = "Uh, nothing. Go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "在镇海的示意下，走进了人造瀑布的水流中。",
+			say = "She points me to under the waterfall. I sit down in the water, most of my clothes still on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "并非是预想中寒冷刺骨的水流……甚至感觉有点像在淋浴？",
+			say = "The water doesn't feel as cold as I expected it to. Hell, it's closer to a warm shower than anything else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "毕竟不可能真的让指挥官在严苛的环境下修行呢……冻坏了身子就不好了。",
+			say = "I was never going to make you train in a truly grueling environment. It would be for nothing if you got hypothermia or somesuch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "您就在这温暖的水流中静下心来，好好冥想一番吧。",
+			say = "Let the warm water wash over you. Now pull your thoughts inward and start meditating.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "我依言闭上眼。",
+			say = "Following her instructions, I close my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "思绪在黑暗中下沉，宛如浸入了幽黑的大海之中。",
+			say = "My thoughts sink into a deep, dark ocean.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "接着，散发着红色光芒的钻石从我的思绪角落出现，一个，两个，三个……",
+			say = "As my mind drifts, a glowing red diamond appears. Then another, and yet another...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "然后是一只猫……一只一边唱歌一边追逐红尖尖的猫……",
+			say = "Then, a cat manifests out of thin air. It starts chasing after the red diamonds while singing something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……是，是精神世界中形成的{namecode:98:明石}吗？）",
+			say = "(...Has Akashi snuck her way into my mind palace?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "我预感到了，马上会有更迷离的幻景出现在我的脑海中……",
+			say = "Something tells me that there will be more of these perplexing visions inside my mind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "啪。",
+			say = "POKE...",
 			bgm = "stopbgm",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "镇海的手指轻轻拍打在我的鼻尖上，我的思绪也随之回到现实。",
+			say = "Chen Hai nudges my nose with one of her fingers, bringing me back to reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然没法那么容易进入状态吧？",
+			say = "You went into some kind of trance, didn't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Guess so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "呵呵~没关系。",
+			say = "Heehee. It's alright. Just follow my instructions next time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "来，握住我的手，然后把你的注意力集中在我的手上，保持均匀呼吸。",
+			say = "First, hold my hand. Concentrate your mind on only the sensation in your hand, then breathe steadily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再试试看吧。",
+			say = "Let's try again.",
 			painting = {
 				alpha = 0.3,
 				time = 1

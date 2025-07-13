@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "检测到塞壬信号发生装置，因为能源枯竭，已经无法正常启动了。不过，就算强行破坏也能回收一定材料。",
+			say = "A Siren signal logger has been located. To access its contents, you must supply it with a new power source, or force it open. How do we proceed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "启动设备需要消耗一个1个[塞壬能源存储器]，确定启动吗？",
+			say = "It might be possible to activate it with an Energy Storage Device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			},
 			options = {
 				{
-					content = "启动设备",
+					content = "Activate the device.",
 					flag = 0
 				},
 				{
-					content = "破坏设备",
+					content = "Smash the device.",
 					flag = 1
 				},
 				{
-					content = "离开设备",
+					content = "Leave it for now.",
 					flag = 2
 				}
 			}

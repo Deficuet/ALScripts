@@ -1,8 +1,155 @@
 pg = pg or {}
 pg.enemy_data_statistics_13 = {
+	[90355] = {
+		cannon = 0,
+		name = "Giant Kizuna AI ",
+		type = 1,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90355,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "aijiangDD",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 1,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "aijiangDD",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 3,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.73,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90356] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -149,7 +296,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90357] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -296,7 +443,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90358] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -443,7 +590,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90359] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "Kizuna AI Clone ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -590,7 +737,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90360] = {
 		cannon = 0,
-		name = "绊爱",
+		name = "Kizuna AI",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -737,7 +884,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90361] = {
 		cannon = 0,
-		name = "多塞特郡",
+		name = "Dorsetshire",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -904,7 +1051,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90362] = {
 		cannon = 0,
-		name = "克利夫兰",
+		name = "Cleveland",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1074,7 +1221,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90363] = {
 		cannon = 0,
-		name = "巴尔的摩",
+		name = "Baltimore",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1221,7 +1368,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90364] = {
 		cannon = 0,
-		name = "？？？",
+		name = "Takao",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1388,7 +1535,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90365] = {
 		cannon = 0,
-		name = "波特兰",
+		name = "Portland",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1548,7 +1695,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90366] = {
 		cannon = 0,
-		name = "亚利桑那",
+		name = "Arizona",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1718,7 +1865,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90367] = {
 		cannon = 0,
-		name = "列克星敦",
+		name = "Lexington",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1897,7 +2044,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90368] = {
 		cannon = 0,
-		name = "光辉",
+		name = "Illustrious",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2050,7 +2197,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90369] = {
 		cannon = 0,
-		name = "鲦鱼",
+		name = "Dace",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2194,7 +2341,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90370] = {
 		cannon = 0,
-		name = "布鲁克林",
+		name = "Brooklyn",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2364,7 +2511,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90371] = {
 		cannon = 0,
-		name = "菲尼克斯",
+		name = "Phoenix",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2534,7 +2681,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90372] = {
 		cannon = 0,
-		name = "约克",
+		name = "York ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2701,7 +2848,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90373] = {
 		cannon = 0,
-		name = "扎拉",
+		name = "Zara ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2855,7 +3002,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90374] = {
 		cannon = 0,
-		name = "波拉",
+		name = "Pola",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3009,7 +3156,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90375] = {
 		cannon = 0,
-		name = "龙骑兵",
+		name = "Carabiniere ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3163,7 +3310,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90376] = {
 		cannon = 0,
-		name = "朱利奥·凯撒",
+		name = "Giulio Cesare ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3317,7 +3464,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90377] = {
 		cannon = 0,
-		name = "加富尔伯爵",
+		name = "Conte di Cavour ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3471,7 +3618,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90378] = {
 		cannon = 0,
-		name = "特伦托",
+		name = "Trento ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3625,7 +3772,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90379] = {
 		cannon = 0,
-		name = "利托里奥",
+		name = "Littorio ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3779,7 +3926,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90380] = {
 		cannon = 0,
-		name = "骏河",
+		name = "Suruga ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3933,7 +4080,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90381] = {
 		cannon = 0,
-		name = "U110",
+		name = "U-110",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4077,7 +4224,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90382] = {
 		cannon = 0,
-		name = "女将",
+		name = "Amazon",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4244,7 +4391,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90383] = {
 		cannon = 0,
-		name = "U556",
+		name = "U-556",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4388,7 +4535,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90384] = {
 		cannon = 0,
-		name = "加斯科涅(μ兵装)",
+		name = "Gascogneμ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4497,159 +4644,6 @@ pg.enemy_data_statistics_13 = {
 							-0.6,
 							2.26,
 							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90385] = {
-		cannon = 0,
-		name = "拉菲",
-		type = 1,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90385,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "lafei_6",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "lafei_6",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 1,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.23,
-					0.74,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.52,
-					0.3,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.23,
-							0.55,
-							-0.07
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.4,
-							2.39,
-							1.02
 						}
 					}
 				}

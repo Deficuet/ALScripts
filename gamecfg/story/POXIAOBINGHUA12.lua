@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_cccpv2_2",
 			dir = 1,
-			say = "消灭了沿途的敌人后舰队来到了一处巨大的冰山前。据说这处冰山是唯一拥有内部结构的设施，也是“密室”之中“大门”的所在地。",
+			say = "The fleet made its way to a massive iceberg, easily dispatching the enemies in the way. It is said that this iceberg is the only facility here with an internal structure, and also houses the “Gate.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这处设施就是我们最初回收到重要资料的地方，很壮观吧，指挥官同志~！",
+			say = "This place is where we first recovered some truly revolutionary information. Isn’t it spectacular, Comrade?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -62,7 +62,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在最初进来的时候可不像现在这样轻松，在无数海军先烈的奋斗与牺牲下我们才最终肃清了充斥在设施周边的塞壬舰队。",
+			say = "The first time, we had to fight our way here. Countless comrades became martyrs in these very waters before we finally managed to clear out the swarming Siren forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过就结果而言，我们的那次行动胜利了。",
+			say = "But considering what we got out of it... their sacrifices were not in vain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当初发现这里的发现可以说是命运的转机。正是对于回收情报研究，曾经濒临崩溃的北方联合才能维持住摇摇欲坠的防线，并在今日重回世界之巅。",
+			say = "It can be said that what we discovered here was a turning point for fate. The intelligence we recovered from here was the reason why the Northern Parliament, then on the verge of collapse, managed to hold its tattered line of defense and then claw its way back into becoming one of the major world powers today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过不止如此，我们在这里还会回收到了一部分塞壬的秘密……",
+			say = "But that’s not all. We also discovered a sliver of the Sirens’ secrets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "塞壬的秘密……？",
+			say = "The Sirens’ secrets...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这一部分就是我们从来没有对外公开过的情报之一了。在发生了这么多次泄密事件后，我们完全不信任指挥部的保密能力，不过我们认为指挥官同志需要知道这些情报。",
+			say = "What I’m about to tell you has never been made public. After so much information has been leaked, we’ve completely lost trust in the ability of the Naval HQ to maintain confidentiality, but we do think you need to know this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "是让我对指挥部进行保密的意思么？",
+			say = "I assume I’m also to keep this a secret from the Naval HQ?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不是让指挥官同志对于指挥部进行隐瞒，只是希望指挥官同志在听过之后，自行考虑将哪些部分，在什么时候以什么方式告诉指挥部而已~",
+			say = "That’s not our intent, no. However, I do hope that after listening to everything, you will utilize your best judgment in deciding what to disclose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_cccpv2_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本日在“密室”室中您了解到的一切情报也请都按照这样的方式进行处理。",
+			say = "All the information you learn in the Arcana Sanctum today should be treated in that manner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "如果是这样的话，没问题。",
+			say = "I can agree to those terms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们确信，塞壬并不是现在一般说法中从大洋中自发诞生的存在，而是来源于一个很遥远的地方。",
+			say = "We’re almost convinced that the Sirens were not spontaneously “born” from these oceans, in any sense of the word, but rather came from a distant place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而它们的真实目的，也绝非单纯想要消灭我们这么简单。",
+			say = "As for their true purpose, it is not something as simple as trying to eradicate humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自始至终，它们的大多数行动都是为了挑拨和激化各个阵营之间的矛盾，然后让我们彼此之间陷入无尽的战争。",
+			say = "Since the very beginning, most of their actions have been aimed at driving wedges between our major factions and amplifying those conflicts, plunging us into a state of endless war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在回过头来看，与塞壬关系最深的铁血发起的分裂行动，赤色中轴的成立与突然背叛，这一系列事件的背后都若隐若现的存在着塞壬的影子。",
+			say = "Looking back at everything that’s happened, the Iron Blood had the deepest ties to the Sirens. Their splintering from the Azur Lane, sudden betrayal, and formation of the Crimson Axis, all reek with the Sirens’ lingering influence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而过去的我们，不……也许包括现在的我们在内都已经完全陷入了塞壬设下的陷阱，然后就这样在陷阱之中一路前行着。",
+			say = "And perhaps, us too in the past, no... Even right now, we might have walked straight into a trap set by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,24 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			say = "不只你们，白鹰和皇家对于这点也多少有些察觉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_cccpv2_3",
-			actor = 705040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "有些察觉，但是还是因为各种原因继续战斗了下去，结果上来说还是一切还是均如塞壬所愿，这才正是它们的厉害之处。",
+			say = "It’s not just you. Both the Eagle Union and Royal Navy have been somewhat aware of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +320,24 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于塞壬来源和真正的目的……很遗憾，我们并没有掌握到。不过我们确信，一切的答案就隐藏在“密室”中的“大门”之后。",
+			say = "Somewhat aware, perhaps. But they still continued to fight, whatever the reasons may have been. In the end, everything still happened as the Sirens desired. This is the true nature of their power.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_cccpv2_3",
+			actor = 705040,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "As for where the Sirens came from and what they’re actually after... Unfortunately, we still haven’t found the answers. But we’re sure that the answers can be found behind the Gate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "“大门”就在前面的大厅中，我们继续前进吧。",
+			say = "We’ll reach it on the other side of this great hall. Let’s keep moving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

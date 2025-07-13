@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……来啦！{dorm3d}，不在……安克雷奇，好寂寞……抱抱……安克雷奇！",
+			say = "Teacher, you're here! When you're not around, Anchorage is lonely... Give me a hug!",
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_hello14",
 			typewriter = {
 				speed = 0.05,

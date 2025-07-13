@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"皇家所属",
+					"Royal Navy Rally Point Iberian Peninsula - Strait Fortress",
 					1
 				},
 				{
-					"伊比利亚半岛·直布罗陀要塞",
+					"After the Gazer appearance",
 					2
 				}
 			},
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "（防空警报声——）",
+			say = "The blaring of anti-raid sirens through the air–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通告所属国籍不明之战舰，你正在进入我方警戒区域。请表明你的身份。",
+			say = "Unidentified vessels spotted! You have entered our domain... Er, the Royal Navy alert perimeter! Identify yourselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重复一遍，通告所属国籍不明之战舰……",
+			say = "Repeating! Unidentified vessels, you've...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对方没有做出任何回应，厌战大人。",
+			say = "Miss Warspite, they're not responding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过也没有做出任何攻击姿态，只是静静地向我们接近，还要继续呼叫么？",
+			say = "They're just approaching silently, not even attacking... Should I keep yelling at them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先呼叫着，不要主动发起攻击，我们首先需要更多时间来……搞清现状。",
+			say = "Please do. Rather than being the first to attack, we should patiently work to understand the situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "Roger!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战大人，一群极为高大的机械造物降落在了伊比利亚大陆和周边海域中。",
+			say = "Miss Warspite, we've received word that giant, anomalous machines have appeared in nearby waters and along the coast!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很难形容它们究竟有多大，因为这些机械似乎能够依靠自己的腿部在浅海中前进……",
+			say = "It seems they can move through the sea of their own volition... What should we do about them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我看到了。",
+			say = "I can see them even from here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于它们的具体情报呢……？",
+			say = "Do we know anything about them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皆不明。不像塞壬使用过的任何兵器，但也不像任何其他阵营能造出来的东西……",
+			say = "They don't look like Siren weapons, and we think they aren't made from any other faction's technology... In short, no...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我明白了……和周边的联络呢？",
+			say = "Understood. Are we able to communicate with other bases?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通讯状况十分混乱。",
+			say = "We're doing our best to restore the connections now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们成功与马耳他要塞短暂恢复过联系，得知她们那边也遇到了相同情况，之后通讯就中断了。",
+			say = "We made contact with the Malta base for a moment and learned that they were in a similar situation, but we quickly lost the connection again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与博览会会场和本土的通讯则一直没能恢复。",
+			say = "Unfortunately, we still haven't restored contact with the World Expo venue or Royal mainland.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我们似乎被困在了陆间海之中。",
+			say = "According to wide-area recon, the seas between the Mediterranean and the NA Sea are covered in fog.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直布罗陀海峡与NA海域的连接处，如今海雾弥漫。",
+			say = "It extends from surface to sky like a wall, making it impossible to measure its height.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些海雾如同一堵墙，从水面连到了空中。",
+			say = "We've sent mass-produced submarines, too, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论是水面侦察艇还是水下侦察潜艇，都在进入后失去了联系。",
+			say = "We lost control of recon ships and submarines alike the moment they entered the foggy area. They're lost at sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "试图穿越云层飞出的侦察机，也在进入云朵中后失去了联系。",
+			say = "It's possible that we may be trapped in the Mediterranean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "云，和平时不同了……变得很危险，好像恐怖的怪物一样。",
+			say = "Oh, no... It's like the clouds combined and turned into a big, scary monster.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……云的事，萨福克最有发言权，再加上实际发生了这种事，我认为确实应该小心。",
+			say = "The same thought occurred to me. This is an extremely abnormal situation, so we should be cautious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算有些离奇，现状也不容我不信了。",
+			say = "So we should stay calm no matter what, huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟那些在陆地上蔓延的白色东西已经接近要塞外墙了……",
+			say = "The unusual substance emitted by those machines continues to spread. At this rate, it's only a matter of time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克，对面的舰队还是没有反应么？",
+			say = "York, have you warned that mass-produced fleet that we will attack them if they don't identify themselves?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，依然没有任何反应。",
+			say = "Yes! I did, but they haven't responded whatsoever!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那就是敌人了。",
+			say = "Then they are the enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多余的话我就不重复了，陛下期待我们恪尽职守。",
+			say = "We have no more need for warnings. Her Majesty told us to protect this area, and that is exactly what we will do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "依托要塞防御进行作战，消灭入侵者！",
+			say = "All ships, obliterate the enemy fleet! You have the fortress's defenses to support you!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容之下的真心\n\n<size=45>一 开朗活泼的秘书舰</size>",
+					"The Heart Beneath the Smile\n\n<size=45>Chapter 1 - The Bright and Cheery Secretary Ship</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "今天起，将由反击担任秘书舰。",
+			say = "Repulse takes up her post as secretary ship today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我可以进来了吗？",
+			say = "Commander, can I come in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,23 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "应着敲门声打开门。迎面走进来的，是脸上挂着欢快笑容的反击。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "听说指挥官指定我当秘书舰的时候，我可是吃了一惊呢。",
+			say = "There is a knock before the door flies open. In walks Repulse, with a cheerful smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +99,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，既然被选中了，我一定会全力以赴为指挥官地工作的！无论什么事都好，尽管把工作交给我吧！",
+			say = "I was surprised to hear you made me secretary ship, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But since you chose me, I'll do everything I can to help with your work. Just leave it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "反击一副按耐不住的模样，似乎恨不得立马投身于秘书舰的事务之中。",
+			say = "Repulse has an impatient look on her face, like she can't wait to dive right into her secretary work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,37 +153,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然她如此积极，那就立马交代她一些工作好了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "噢噢！终于要开始正式的秘书舰工作了！指挥官，从哪个任务开始比较好？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "给她看了看桌子上堆成小山的文件。",
+			say = "Let's give her something to do, since she's so eager.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +169,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？ 这些纸张都是什么…",
+			say = "Yes! It's finally time to start being a real secretary ship! So, Commander, where should we start?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +183,37 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "总之，先从文书管理的工作开始做起吧——",
+			say = "I'll show her the mountain of files on the desk.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh? What are all these papers...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "We'll start with file management for now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "「无尽的战争已经开始了！」",
+					content = "So begins your endless struggle！",
 					flag = 1
 				}
 			}
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸、欸欸欸！？有这么多的文件要处理？？",
+			say = "Whaaaaaat?! Th-there's so much paperwork!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还以为会是些更费体力的工作…原本要一直动脑的事都是声望在做，我其实不太擅长这种的呢…",
+			say = "I thought it would be something more physical. I always leave the brainier stuff to Renown. I'm not so good at it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "反击似乎有些困扰地皱起了眉头。要不要给她找找其他工作的工作呢…",
+			say = "Repulse's famous smile is now a troubled frown. Should we give her something else to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对啦！ 指挥官，整理资料的话我应该能行！",
+			say = "Oh, but, Commander! I'm sure I can organize these for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我不太擅长需要一直盯着许多文字的那种工作，但是要整理好这些文件的话可是小菜一碟！",
+			say = "I may be no good at sitting around reading all day, but getting the files sorted will be a piece of cake!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话音刚落，反击就开始着手整理那座“小山”来。",
+			say = "The moment she finishes speaking, Repulse's hands flash into action, tidying up the pile of paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一旦决定好了，就应该立刻开始去做！",
+			say = "No time to waste! I'll get started at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确实如同反击所说，在逐个确认这堆成小山的文件之前，先将它们整理一下会更好。",
+			say = "She has the right idea. It's better to sort through the pile before going over each document one by one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "听到这个意外的建议，不由得觉得选她当秘书舰是个正确的选择。",
+			say = "Seeing her work, I'm sure I made the right choice to appoint her secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星会肩负起护卫{dorm3d}的责任，不会让任何可疑人士靠近您！",
+			say = "I will shoulder the responsibility of protecting you, my honourable {dorm3d}. No ne'er-do-wells shall come near you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

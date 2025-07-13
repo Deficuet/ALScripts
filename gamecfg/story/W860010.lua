@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通过使用海域中不同颜色标识区域上的控制装置，可以改变对应颜色标识区域上障碍物的状态。",
+			say = "Using the colored devices scattered around this zone lets us change obstacles marked with the same-colored symbols.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "利用控制装置清理航线，将能源矩阵移动至指定区域。",
+			say = "Move the obstacles to clear a path to the Energy Matrix storage platform.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

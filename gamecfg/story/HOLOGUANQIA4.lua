@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "？？？",
-			say = "啊----啊啊----啊啊啊！！",
+			say = "AAAAAHHH!",
 			dir = 1,
 			bgm = "holo-fff-inst",
 			dialogShake = {
@@ -31,7 +31,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "救-----命------救命啊！",
+			say = "HELP! SOMEBODY HEEEEELP!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像…是呼救的声音？！",
+			say = "I hear... someone screaming for help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道还有其他人迷航在这里么？！{namecode:158}！",
+			say = "Kawakaze, we're not the only ones trapped in here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白。空中支援拜托了，先行一步！",
+			say = "Understood! I'm counting on your aerial support while I go investigate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

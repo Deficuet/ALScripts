@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其三　深夜的恶作剧</size>",
+					"Witches' Eve III\n\n<size=45>「Late Night Pranks」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "学院的南瓜灯也全都完成了",
+			say = "The pumpkin lights have all been prepared and placed all over the school courtyard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "哇，越来越有万圣节的气氛啦！",
+			say = "Wow! It’s becoming more and more like a Halloween atmosphere!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			actorName = "{namecode:95}",
 			dir = -1,
-			say = "拜你们所赐，大家都开始期待万圣夜了~唉，我也想参加“Trick or treat”呀",
+			say = "Thanks to you, everyone must be highly anticipating Halloween now, huh~ I’ll also join your “Trick or treat”!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "哼哼哼，很可惜，你已经是大人了！",
+			say = "Hehehe, what a pity but you’re already an adult!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			actorName = "{namecode:95}",
 			dir = -1,
-			say = "明明……对了，你们知道吗？听说最近港区深夜里有“幽灵”出没",
+			say = "Well... you’re right. Did you know? Lately, I hear that the port area has ghosts lurking at night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "幽灵？",
+			say = "Ghosts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			actorName = "{namecode:95}",
 			dir = -1,
-			say = "嗯，闪烁着幽光的南瓜成群结队漂浮在空中上，就像是戴上了南瓜头的幽灵一样",
+			say = "Well, all those floating pumpkin lanterns shimmering late at night looks a lot like “ghostly” pumpkin heads.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "欸欸欸——这么好玩的事吾怎么没遇到！",
+			say = "Ahhhh—— How come I haven’t seen any of those “ghosts”, I’m missing out on all the fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:87}，最近吾辈遇到了一件怪事",
+			say = "{namecode:87}, lately a strange thing is happening.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -186,7 +186,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "怪事！？",
+			say = "A strange thing?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = 1,
-			say = "其实……吾辈昨天回到宿舍的时候，发现门前有一件包裹，里面是——这个",
+			say = "So… the other day when I returned to my dorm, I found a package sitting in front of the door. Inside there was—— this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "这是——",
+			say = "This is——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "好漂亮~吾也好想要……",
+			say = "So pretty—— I want one too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			actorName = "{namecode:19}",
 			dir = -1,
-			say = "很可爱吧~可是，包裹上没有署名，吾辈的妹妹只看见是一道白色的身影放下的包裹。吾辈想当面向她道谢。听说{namecode:87}也收到了类似的包裹，有什么线索吗？",
+			say = "So cute~ But there’s no name on the package, and my sister only saw a white figure placing it at the door. I want to thank that mystery figure in person. I heard {namecode:87} also received a similar package, is there any meaning behind all of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "吾什么都没看到……",
+			say = "I didn’t see anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "白色的身影……",
+			say = "A white figure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "终于快到万圣节之夜了！呼呼~吾的衣服好看吗？（转圈）",
+			say = "At last, it’s Halloween night! Hehe~ Do you like my costume? (Twirls)",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "其实——我也收到了“礼物”",
+			say = "Actually—— I’ve also received a “gift”.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -355,7 +355,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "欸，你也有吗？你有找到什么线索吗？",
+			say = "Huh, you got one as well? Did you find any clues to these mystery packages?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "嗯，我看见了——是幽灵送来的",
+			say = "Yes, I saw something—— those packages were sent by ghosts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "哈哈~{namecode:6}也会开玩笑了。奇怪，{namecode:19}怎么还没到？",
+			say = "Haha~ {namecode:6} is making a joke. Strange, {namecode:19} still hasn’t arrived yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = -1,
-			say = "我们去她宿舍看看吧",
+			say = "Let’s go see if she’s in her dorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "没想到缝制衣服会这么麻烦……",
+			say = "I didn’t expect sewing clothes to be this troublesome...",
 			flashout = {
 				black = true,
 				dur = 1,

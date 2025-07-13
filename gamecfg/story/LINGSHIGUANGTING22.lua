@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？·林中城堡",
+			say = "Mirror Sea - Castle Dining Room",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "于是——我们的小小城堡又恢复了平静。",
+			say = "I guess it's just us two again, sis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "……不过内心的喧嚣好像没那么容易呢。",
+			say = "Nothing's changed in the end. Though it was pretty all right having guests over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "真没想到来找我们的是前卫，居然还是在寻找失踪陛下的途中……",
+			say = "Can you believe they came all the way out here to save a friend? Sirens probably have them on their knees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "命运就是这样充满巧合的东西，不是么？",
+			say = "Indeed. It's a shame there's nothing we can do to help anyone anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "真是……命运就是这种不讲逻辑的东西啊。",
+			say = "Nothing? Vanguard said they have a way out of this place. Their gate, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900327,
-			say = "老姐，我们接下来做点什么？今天的预定完全被打乱了啊……",
+			say = "I'll bet we can catch up with them if we head out right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "在她们办完事来找我们之前不知道要过多久。",
+			say = "...Wait, you're saying we can leave?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "等我们走了之后，再回到这里不知道又要过多久……",
+			say = "...Oh, lord. I'm such an idiot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "去巡视一下吧。",
+			say = "Yes, we must head out immediately. Those girls are likely going to need our help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 900326,
-			say = "再仔细看看我们这么多年来创造的小小家园。",
+			say = "If we can relocate the rest of the Ashes so we can fight alongside them, we may– AGH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 900326,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "在投入战斗之前，再享受片刻的宁静吧……",
+			say = "What's happening...?! My head... Is this the work of–?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

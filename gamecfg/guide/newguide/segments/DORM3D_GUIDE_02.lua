@@ -5,12 +5,12 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击进入角色宿舍",
+				text = "Tap the character's icon to proceed!",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -137,
-				posX = 198,
+				posX = 160,
 				uiset = {}
 			},
 			ui = {

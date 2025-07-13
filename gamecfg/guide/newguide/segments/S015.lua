@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>仓库</color>界面",
-	"去看看现有的<color=#ff7d36>设计图纸</color>吧",
-	"点击制作按钮<color=#ff7d36>制作装备</color>吧！",
-	"就决定是你啦！点击确定按钮"
+	"Let's check out your <color=#ff7d36>storage</color>.",
+	"Let's see what <color=#ff7d36>designs</color> you currently have!",
+	"Tap here to start <color=#ff7d36>making gear</color>!",
+	"I knew it'd be you! Tap here to confirm."
 }
 
 return {

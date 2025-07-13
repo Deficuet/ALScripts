@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"无效节能\n\n<size=45>六 意料外的决策</size>",
+					"Ineffective Energy Saving\n\n<size=45>6 Surprising Decision</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "港区公园·人工湖边",
+			say = "Port Park - Artificial Lake",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "终于，上岸了……",
+			say = "At last, we've reached the shore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "下一站是公园集市？",
+			say = "We're going to the park market next, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "欸？要这么严格的执行行程吗……",
+			say = "Huh? We don't need to stick to the plan that strictly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "其实，先休息一下也不错……",
+			say = "I think we should, umm, squeeze in a break right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "去集市找个地方休息一下吧，总比坐在湖边吹风要好。",
+			say = "Then let's head to the market and find a place to relax. Better than standing in the wind out here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧，那……可以拜托指挥官带路吗？",
+			say = "Alright. May I ask you to lead the way, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可以是可以，但你怎么走得这么慢？",
+			say = "Sure – but why are you walking so slowly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "其实，光是劝自己走路，就已经要花费很大的力气了……你就别笑我了。",
+			say = "Because even convincing myself to move takes quite a lot of effort... Please don't tease me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,20 +155,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "不挠缓缓向前挪动着，虽然是她规划的行程，但语气中却透露出几分“不想动”的懒散。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_182",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "来吧，我带路，你只需要轻松跟着就行了。",
+			say = "Her tone spells it out clear as day: \"I don't want to move another inch.\" This is in spite of the fact that this whole outing was her idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +168,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "从地图上看，其实很近呢。",
+			say = "I'll go on ahead. Just follow me at a comfortable pace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +181,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……甚至可以说，我们已经到了。",
+			say = "The map says the market should be pretty close.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_182",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "...And by that I mean we're already here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "这里？集市？",
+			say = "Come again? This is the market?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比想象中要小很多呢。",
+			say = "It's quite a lot smaller than I had imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "何止是小很多，只有两三个小摊而已。",
+			say = "Yep. There are two or three stalls and that's it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "几个摊位简单地摆在空旷的街道上，摊主们悠闲地坐在摊位后，没有任何热闹的气氛。",
+			say = "A handful of simple stalls line the sides of the road, and there's not an iota of liveliness in the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了，反正本来就没有什么大期待……",
+			say = "Oh well – I wasn't expecting much in the first place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "这样也不错，两步就能逛完了~",
+			say = "This isn't all that bad, really. We can tour the entire market in just a few steps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "怎么感觉，你反而松了口气？",
+			say = "Is it just me, or do you sound relieved?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "咦，那边有长椅，指挥官，先坐下再说！",
+			say = "Ah, look, there's a bench over there. Let's have a seat, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "嗯……坐下的感觉……终于活过来了。",
+			say = "Ahh... Finally, a place to rest my feet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "接下来怎么办？",
+			say = "Can I ask what's next on the itinerary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "按理说，逛完集市就该去吃大餐了。",
+			say = "Well, the plan was to have a lavish dinner after we'd toured all the stalls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可现在时间有点太早了。",
+			say = "It's a little bit early for dinner, methinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "是啊……而且也还不饿。",
+			say = "True. I'm not even hungry, for that matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,18 +381,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "吃大餐要坐很久……想想也是件麻烦事呢。",
+			say = "Furthermore, a lavish dinner means sitting for a long time... Just thinking about it makes me feel knackered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "继续在公园散步",
+					content = "How about a walk around the park?",
 					flag = 1
 				},
 				{
-					content = "回港区？",
+					content = "Wanna go back to the port?",
 					flag = 2
 				}
 			}
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "继续在公园里散散步如何？",
+			say = "How about a walk around the park? That should get your blood pumping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "散步？！",
+			say = "A bloody walk?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我、我真的走不动了……",
+			say = "Ahem... I can't move one more step...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "要不先回港区？",
+			say = "We can always head back to the port for a bit if you want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……我确实想念我的房间，我的床了。",
+			say = "Ah, yes... I'll admit I'm pining for the comfort of my own bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但如果现在就回去……晚上岂不是还要再跑出来吃大餐？",
+			say = "The issue with that, however, is that we'd need to go outside come dinnertime, wouldn't we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "怎么办才好呢？",
+			say = "What to do, what to do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "全身上下每一个细胞都在抗议，感觉已经无法思考了呢……",
+			say = "All the cells in my body have gone on strike – I can't even think properly anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "不挠忍不住身子一歪，又软软地靠在了我肩上。",
+			say = "She leans in and rests her head on my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "稍微休息一下，然后再想办法……",
+			say = "I'll think about it after a quick rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "或许，我们可以直接回港区，晚上就不出来了。",
+			say = "There IS the option of returning to the port and just not going out again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "点外卖在房间一起吃，听起来很轻松吧？",
+			say = "We can order takeout to the room. Doesn't that sound much better?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "不挠的表情瞬间松了下来，她终于舒了一口气，显然对这个提议感到非常满意。",
+			say = "Her expression relaxes in the blink of an eye. My idea must sound like a godsend to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "就这么定了！",
+			say = "Yes, let's do that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "不愧是指挥官，做决策就是很迅速呢~",
+			say = "I can always count on you to make a swift decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "虽然做出了决策，但不挠依旧软软地倚在我身边，没有丝毫要起身的意思。",
+			say = "Despite the enthusiasm in her voice, she's still leaning against me and doesn't seem inclined in the least to get up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "一步也走不动了……啊……",
+			say = "I really can't walk another step... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207120,
-			say = "指挥官，带我回去的事，就拜托你了……",
+			say = "Please, Commander, carry me back home...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

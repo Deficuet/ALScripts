@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轻轻的……保持这样就好……///",
+			say = "Gently... Just like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

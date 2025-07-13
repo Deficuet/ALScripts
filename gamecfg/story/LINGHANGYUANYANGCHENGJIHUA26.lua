@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "在商店街的活动里抽中了温泉奖券后，正好遇到大幅降温，干脆就决定和TB来泡温泉了。",
+			say = "We won tickets to a hot spring resort weekend through a raffle, and since it's the cold season, TB and I immediately set off.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……真是舒服啊。",
+			say = "Whew... This is heaven.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了，TB？",
+			say = "Is something the matter, TB?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好热……",
+			say = "It's really hot...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,12 +98,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好热……",
+			say = "It's really hot...",
 			voice = "event:/educate/tb/educate-tb-story-32-11",
 			painting = {
 				alpha = 0.3,
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
-			say = "她一边说着，一边将浴巾的上沿拉开，进行徒劳无功地“散热”。",
+			say = "She pulls on the towel covering her chest in a vain attempt to vent some steam and cool herself down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要换个池子？",
+			say = "Do you want to try a different hot spring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果不舒服的话，我们就出去。",
+			say = "We'll just get up if it's too uncomfortable for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,12 +168,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你很喜欢温泉。",
+			say = "You must really like hot springs.",
 			voice = "event:/educate/tb/educate-tb-story-32-12",
 			painting = {
 				alpha = 0.3,
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，应该算是喜欢吧？毕竟这种天气很适合泡温泉嘛。",
+			say = "I guess? There's also that this is the best season for a hot bath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那我，可以再坚持一阵子。",
+			say = "Alright... I'll bear with it for now, then.",
 			voice = "event:/educate/tb/educate-tb-story-32-13",
 			painting = {
 				alpha = 0.3,
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来是因为我，才在勉强自己啊……）",
+			say = "(Oh. She's putting up with it for my sake...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……我也觉得有点热了。",
+			say = "Oh, man... I think the heat is getting to my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们出去喝一杯冰牛奶吧！",
+			say = "It's time to get up and have some cold milk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,12 +252,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好。",
+			say = "Okay.",
 			voice = "event:/educate/tb/educate-tb-story-32-14",
 			painting = {
 				alpha = 0.3,
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "离开了温泉，在那之后和TB度过了悠闲的假期。",
+			say = "And so, we have a pleasant stay at the hot spring resort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

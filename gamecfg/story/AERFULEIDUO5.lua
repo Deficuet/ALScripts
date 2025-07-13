@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区秘闻特别篇\n\n<size=45>五 变装与舞会</size>",
+					"The Sensationalist Sensation\n\n<size=45>Dressing the Part</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "舞会如期而至——",
+			say = "Later, on the day of the ball...",
 			bgmDelay = 2,
 			bgm = "story-richang-5",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎样，指挥官，这身衣服还不错吧？是不是很有舞者的感觉？",
+			say = "Voila! What do you think, Commander? Looks pretty good, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,11 +73,11 @@ return {
 			},
 			options = {
 				{
-					content = "非常漂亮。",
+					content = "\"It looks amazing on you.\"",
 					flag = 1
 				},
 				{
-					content = "完美的变装。",
+					content = "\"It's the perfect disguise.\"",
 					flag = 2
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，虽然很开心，不过我更在意的是这身衣服能不能融入进舞会里面~",
+			say = "Aww, you mean it? Let's just hope it'll actually help me blend in with the guests...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，谢谢啦，指挥官~",
+			say = "At any rate, thanks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 601081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼，不只是身份伪装，我确实也有认真练习过舞步哦~",
+			say = "Heheh~ It's not JUST a disguise, though! I've practiced my dance moves just for tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么……阿尔弗雷多的舞会取材计划，正式开始！",
+			say = "Anyway, time to get this show on the road. Operation Scoop Goldmine starts now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "指挥官，跟紧我！还要指望你帮我打掩护呢，可别露馅咯！",
+			say = "Stick close to me, Commander. I need you to cover me while I take notes and photos, so don't raise any suspicion!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "陪阿尔弗雷多在舞会上四处搜寻素材的行动，开始——",
+			say = "And so, I accompany Alfredo on her hunt for scoops under the pretense that we're simply dance partners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "时间过得飞快。在她的带领下，调查了舞会的后台，排到了许多大家休息时的花絮。",
+			say = "A short while later, she and I stroll around the backstage, snapping photos of shipgirls in moments of graceful leisure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "啊……那边感觉会有事件发生！我的记者雷达又亮起来啦，指挥官，跟紧我！",
+			say = "Whoa, there's news to be found that-a-way, because my scoop senses are tingling! Come with me, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "……当然，也包括一些不够优雅的抓拍。不知道当事人看到会作何感想呢……",
+			say = "...And pictures of them in less-than-graceful moments. I wonder how they'll react to seeing them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "取材的过程中偶尔也会被察觉到异样……我只好努力帮她打圆场。",
+			say = "Our activities were questioned a couple of times, but luckily, I somehow managed to clear us of suspicion each time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "哼哼~搜集到了好多不错的素材呢！这下子一定能写出最棒的一期《港区秘闻》了吧？",
+			say = "Heheh, this is all pretty solid material. I think this next issue of the Port Journal will be my magnum opus!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "呼啊……好累……感觉整个人都要散架了……",
+			say = "Also... *yawn*... I'm pooped. The exhaustion is catching up to me now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "说起来，舞会差不多要结束了呢……明明是难得的舞会，咱们居然连舞都没有跳过，感觉好可惜欸……",
+			say = "The ball is coming to a close, too, but we haven't even set foot on the dance floor yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，来陪我跳一支舞吧？",
+			say = "You know what? Let's dance, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "你不是已经很累了么？",
+			say = "\"What happened to being exhausted?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "只要是做自己喜欢的事情，累点也没关系！难得的机会摆在眼前的时候，怎么能不去珍惜呢？",
+			say = "A chance to dance with you comes only once in a blue moon! Being a little tired won't stop me from doing something I like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "包括编写新闻的时候也是……很多时候为了抢占时效性强的热点新闻，晚上会编稿到很晚呢。",
+			say = "I'm used to working tirelessly anyway, editing articles late into the night to deliver news as fresh as can be!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "不过因为都是我喜欢做的事情，所以即便身体上偶有劳累，心灵上也不会感到疲倦啦~",
+			say = "I may burn through physical energy while doing stuff I like, but there's no shortage of mental energy left in my tank~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "这也算是……属于阿尔弗雷多·奥里亚尼的“秘闻”吧？",
+			say = "If you were to ask me how I can just keep going seemingly forever, then that's my answer, I suppose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么指挥官，舞池正空着呢，我们开始吧？",
+			say = "So what do you say, Commander? May I have this dance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601081,
-			say = "不、不过先说好，我的水平只是稍微学了学的程度，指挥官可不要笑我哦！",
+			say = "O-one thing, though... I've only practiced my moves a little bit, so promise you won't laugh! Okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日的寻路人\n\n<size=45>五　完美谢幕？</size>",
+					"Winter Pathfinder\n\n<size=45>5 Welcome Party</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "中央广场·真理之梯",
+			say = "Port - Main Plaza Set  Mock Battlefield",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "骑着“扫帚”的巫女，和召唤出“魔偶”的守门人间的“战斗”开始了。",
+			say = "A battle began to unfold between Theseus, who used her broom-like rigging to fire off planes, and Kuybyshev who fought them off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "两人的技艺都很精湛，让最后的比试看起来就像是优雅却又彪悍的舞曲。",
+			say = "Though they couldn't put their full power on display in the port, their masterful technique allowed the battle to unfold like a glorious dance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "话虽如此，胜负已分——",
+			say = "But eventually, a victor emerged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,8 +82,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "忒休斯",
-			say = "我认输——",
+			actorName = "Theseus",
+			say = "Ack... Okay, I give up! You win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,8 +110,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 206080,
-			actorName = "忒休斯",
-			say = "我承认你对角色的坚持了，古比雪夫。",
+			actorName = "Theseus",
+			say = "Congrats, Kuybyshev! You did great!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "哦哦，分出胜负了！",
+			say = "It looks like we have a winner!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "甘古特，是古比雪夫赢了！",
+			say = "Hooray! Gangut, Kuybyshev won!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "好诶！古比雪夫同志！就是要有这股气势！",
+			say = "Comrade Kuybyshev, beautifully done! You've given them a real taste of the Northern Parliament's power!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……？",
+			say = "Oookay...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "等等……难道说……",
+			say = "Um, are you telling me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我宣布，本次「港区特别情景剧大赛」的优胜者是，古比雪夫同志！",
+			say = "Congratulations. You've won the Fairy Coin Collecting Contest with aplomb!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在公开优胜奖品~恭喜古比雪夫同志获得“与指挥官同志的一日面谈券”！",
+			say = "As for the fairies' treasure... You've won a ticket good for one day with the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古比雪夫同志，请到真理之梯上来。指挥官同志，请为优胜者颁奖。",
+			say = "Come, Commander. You must give the victor her prize, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这个……",
+			say = "Wait, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "所以真理之梯是颁奖台，妖精的宝藏是……和指挥官同志您的一日面谈券？",
+			say = "Err... So this was never a mission or an exercise? It was mere play?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,14 +334,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "没错。",
+			say = "\"Exactly.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "优胜的感觉如何？",
+					content = "\"Here's your prize, Kuybyshev.\"",
 					flag = 1
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，请不要取笑我了——",
+			say = "*sigh*... I had a feeling, you know, but it's embarrassing to hear it outright.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "指挥官同志，我也会害羞的。",
+			say = "Frankly, all I wanted was to find out why everyone was acting so strange. Now I've made a fool of myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我只是想着要调查清楚异常事态的原因，不知不觉就也陷入气氛之中了。",
+			say = "But thanks to you all—especially Theseus—I'm in a much more festive mood now. I've forgotten all about my investigation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "不得不说这次情景剧的设置确实十分出色，但是…………居然真的只是情景剧啊。",
+			say = "Either way, I'm glad that I could assist you all without causing any undue trouble.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,12 +421,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			actorName = "忒休斯",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总而言之，恭喜优胜哦♪",
+			say = "Yeah! Congrats again for winning, Kuybyshev.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,9 +452,9 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "忒休斯",
+			actorName = "Theseus",
 			side = 2,
-			say = "没有你的演出，我的谢幕也会逊色不少呢。",
+			say = "I had a lot of fun thanks to you, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "谢谢，忒休斯。这是个美妙而温暖人心的胜利呢。",
+			say = "You're too kind. I'm overjoyed to have both achieved this heated victory and livened up the event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我会记住这次胜利的……嗯，不如说，我也有很多感悟。",
+			say = "Never will I forget this day. Thank you all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "非常感谢大家给我这次展示自己的机会，作为回礼，请大家品尝我准备好的罗宋汤~",
+			say = "It may not be the best way to show my gratitude, but why don't I go back to the dorm and make some piping-hot borscht—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "就这样，港区特别情景剧大赛正式结束了。",
+			say = "But before Kuybyshev could go out of her way to be so kind to us, we announced the beginning of today's main event.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "几日后，在指挥室中再次见到了古比雪夫。",
+			say = "A few days later, Kuybyshev visited me in my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,14 +558,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……………………",
+			say = "There were two documents on my desk. One concerned the Fairy Magic event. As for the other...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是……？",
+					content = "\"Port welcome party investigation report...?\"",
 					flag = 1
 				}
 			}
@@ -578,7 +578,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "总结报告，或者说……检讨书？",
+			say = "Consider the first one a report on my own impressions of the event.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这次事件中，我确实感受到了我的不足之处。",
+			say = "Thanks to you all, I've come face to face with some of my own inadequacies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我一直以为，只要我能自己解决所有问题，就能帮大家分担压力了……没想到最后反而让大家担心了。",
+			say = "My foolhardiness in trying to solve problems all alone, my thickheadedness in refusing to notice my comrades' goodwill...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "以后，我会主动请求大家帮助的。",
+			say = "As for the other... It's an investigation into your holding a welcome party for us without prior approval.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "当然，指挥官同志自然也包括在内，所以……",
+			say = "You've made a mistake, Commander, in indulging us without first deferring to the rules of the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "古比雪夫将那张一日面谈券摆在了办公桌上。",
+			say = "After giving me a token scolding, Kuybyshev placed a certain ticket on my desk. And then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "我累了，今天就请指挥官好好陪一陪我吧~",
+			say = "You'll have to explain yourself during our date today, Commander. Heehee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "总而言之，这位可靠的北方联合同志确实有好好反省自己的问题。",
+			say = "Our guiding light Kuybyshev bashfully extended her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "作为承诺过的奖励，就与她一起度过这美好的一天吧——",
+			say = "(A promise is a promise. It looks like I'll be spending the rest of the day with her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

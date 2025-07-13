@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "呼呼，居然和计算的数据产生了偏差…真是可怕的对手…",
+			say = "The data in my simulation was wrong... You are a force to be reckoned with, indeed...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "不过，只要能和姐姐进行合流，我们的胜率就可以提高到80%以上",
+			say = "But if I can join forces with my sister, our chances of winning will increase to above 80%...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "嗯…一切以大局为重，目前还是先暂时撤退吧…",
+			say = "...It is time for me to make a tactical retreat.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -107,7 +107,7 @@ return {
 			nameColor = "#FF0000",
 			mode = 2,
 			dir = 0,
-			say = "怎么，又看到什么了吗？",
+			say = "What's the matter?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -131,7 +131,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "这一次的「白方<White>」并没有按照以往的规律行动",
+			say = "Every move White has made so far is different from the last time...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -151,7 +151,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "嗯？这不正是「审判者」所期盼的表现么",
+			say = "I see. Perhaps that's what the Judge is hoping for.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -171,7 +171,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "然而，我曾经想过，假设…只是假设…如果包含我们在内的这一切，只是为了引诱\n「白方<White>」进行变化而制造的的模因…",
+			say = "I've been thinking about something... What if we're just meant to be...\nmere stepping stones for White to \"evolve\"...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -191,7 +191,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "换句话说，如果连我们从「塞壬」那里得到的一切力量，也都只是他们计划中的一部分的话…",
+			say = "The Sirens gave us our powers... And what if this is all part of their plan...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -211,7 +211,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "这样的思维模式迟早会让你毁灭自己的，这样可对不起“她”为铁血所做的一切",
+			say = "Stop... Your ego will crumble if you keep thinking like that. Don't make her sacrifices for Iron blood all in vain...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -231,7 +231,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "“她”…？",
+			say = "\"Her\"...?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -251,7 +251,7 @@ return {
 			mode = 2,
 			nameColor = "#FF0000",
 			dir = 0,
-			say = "没什么，不过是另一个无聊的妄想家罢了，甚至最后为了那飘渺的妄想而葬送了自己…何等愚蠢…",
+			say = "...Never mind. She was a dreamer, just like you are. Hmph, what a fool she was, losing herself to her idealistic delusions...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -291,7 +291,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"              然而，却也正是“她”，赋予了铁血前往不同未来的可能性…",
+					"              And yet, she was the one who paved the way towards a different future for our kind in this world...",
 					2
 				}
 			}

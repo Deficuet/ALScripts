@@ -17,7 +17,7 @@ return {
 				}
 			},
 			style = {
-				text = "此外，解锁了控制中心功能",
+				text = "Look at that! You've also unlocked the Core Nexus.",
 				mode = 1,
 				posY = -214.2,
 				dir = 1,
@@ -58,7 +58,7 @@ return {
 				}
 			},
 			style = {
-				text = "现在试试将核心放入圆形控制盘中，点击选中左侧圆盘",
+				text = "Core Upgrades can be placed on the circle to the left. Select a slot to place one.",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -81,7 +81,7 @@ return {
 				}
 			},
 			style = {
-				text = "将拥有的核心放入控制盘中",
+				text = "Now select a Core to add.",
 				mode = 1,
 				posY = 0,
 				dir = 1,
@@ -94,7 +94,7 @@ return {
 				1
 			},
 			style = {
-				text = "生效的效果加成将显示在此处",
+				text = "All your active buffs and boosts are shown here.",
 				mode = 1,
 				posY = 372.9,
 				dir = 1,
@@ -111,7 +111,7 @@ return {
 				1
 			},
 			style = {
-				text = "核心可通过炼金工坊的对应配方获取",
+				text = "If you want more Core Upgrades, you can make them using the Synthesis system.",
 				mode = 1,
 				posY = 0,
 				dir = 1,

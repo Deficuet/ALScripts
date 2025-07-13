@@ -8,7 +8,7 @@ return {
 		{
 			bgm = "xinnong-2",
 			side = 2,
-			say = "哐！",
+			say = "……",
 			dir = 1,
 			soundeffect = "event:/ui/kuang",
 			flashN = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃……",
+			say = "Guh...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/kuang",
-			say = "哐！",
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -126,7 +126,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "由于镜面海域效果而显得格外平静的夜色中，弥漫着刀剑碰撞的声音",
+			say = "Across the Mirror Seas, black and white shadows danced in a roar of steel and flame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…居然，和{namecode:95}姐两人合击也完全占不到优势",
+			say = "...Without the use of my aircraft, all I can do is fight her hand-to-hand...! And even with Shoukaku's support, it's taking everything I have just to parry her blows...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对…对手完全没有在用心战斗",
+			say = "This person is monstrously strong...!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "在下并不想进行无谓的争斗，只不过，神石必须摧毁…",
+			say = "I have no intention of clashing with you. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "所谓的恩宠只不过是依赖",
+			say = "If you would hinder my objectives - the destruction of Watatsumi, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "而过度的依赖只会带来毁灭…",
+			say = "You shall taste my swordsmanship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}小心！！",
+			say = "Zuikaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰！！",
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐！",
+			say = "Shoukaku!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "你的攻击太激进了，这样会给对手露出破绽的",
+			say = "Remember this well: If you rely exceedingly on your rigging, then you shall become incompetent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我…我没事，用羽翼偏转了炮弹的轨迹",
+			say = "Zuikaku, it's fine... only our equipment and our clothes have sustained any damage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个剑法，没错...{namecode:66}！你就是{namecode:66}吧？！为什么会是现在这副模样？",
+			say = "You're Takao, aren't you? Why are you trying to destroy one of the Sakura Empire's relics? What happened to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,23 +344,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "听到这个名字，“不速之客”的动作突然停了下来，发愣了一下",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900192,
-			nameColor = "#FF5C5CFF",
-			side = 2,
-			actorName = "？？？",
-			dir = 1,
-			say = "……这个叫法，似乎是很遥远以前的代号之一了…",
+			say = "Upon hearing that name, \"Ember\" stopped moving and spun around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +360,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "…说到名字这种东西…",
+			say = "...My name... No, that codename... I haven't heard it for a long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +376,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "这不过是人类一厢情愿强加于我们的代号罢了…",
+			say = "...But speaking of that name, \"Takao\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +392,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "如果，给你起名的存在全都消失了…",
+			say = "It is just a seal of wishful thinking that the humans imposed upon us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +408,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "名字…",
+			say = "If those people were to disappear...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +424,23 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "就毫无意义了！",
+			say = "Then that name...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900192,
+			nameColor = "#FF5C5CFF",
+			side = 2,
+			actorName = "？？？",
+			dir = 1,
+			say = "Becomes meaningless!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/kuang",
-			say = "哐！",
+			say = "!!",
 			flashN = {
 				color = {
 					1,
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃！！可恶，这家伙…实力甚至在灰色幽灵之上",
+			say = "Gaah...! Sh-she's even stronger than... the Grey Ghost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/kuang",
-			say = "哐！",
+			say = "！！",
 			flashN = {
 				color = {
 					1,
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
-			say = "…援军来了吗",
+			say = "...Reinforcements?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,8 +589,8 @@ return {
 			bgName = "bg_xinnong_cg5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:181}",
-			say = "{namecode:96}、{namecode:95}大人！我来迟了",
+			actorName = "Kinu",
+			say = "Don't you dare lay a finger on our friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,8 +606,8 @@ return {
 			bgName = "bg_xinnong_cg5",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:96}",
-			say = "小心，这个家伙的实力非比寻常！",
+			actorName = "Zuikaku",
+			say = "Everyone, be careful! She's not like anything we've faced before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,8 +623,8 @@ return {
 			bgName = "bg_xinnong_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:179}",
-			say = "看出来了，航空支援就交给我吧！",
+			actorName = "Ryuuhou",
+			say = "Yes, that's why we must fight! Let me handle the aerial support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,8 +640,8 @@ return {
 			bgName = "bg_xinnong_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:175}",
-			say = "炮击支援就位！",
+			actorName = "Suruga",
+			say = "You won't win with an attitude like that, Zuikaku!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,8 +657,8 @@ return {
 			bgName = "bg_xinnong_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:180}",
-			say = "{namecode:180}…{namecode:180}也会努力的！！",
+			actorName = "Kasumi",
+			say = "Kasumi... and Foo as well... will do our best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,8 +674,8 @@ return {
 			bgName = "bg_xinnong_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:96}",
-			say = "啊啊…虽然有点以多欺少的感觉…",
+			actorName = "Zuikaku",
+			say = "Hah... it won't be a fair fight with all of you here, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,8 +691,8 @@ return {
 			bgName = "bg_xinnong_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:96}",
-			say = "但是，为了保护神石，只好上了！！",
+			actorName = "Zuikaku",
+			say = "...the most important thing right now is protecting Watatsumi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

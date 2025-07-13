@@ -14,10 +14,10 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.cleanStack = defaultValue(arg_1_1.cleanStack, false)
 	arg_1_0.cleanChild = defaultValue(arg_1_1.cleanChild, false)
 	arg_1_0.irregularSequence = defaultValue(arg_1_1.irregularSequence, false)
-	arg_1_0.skipBack = defaultValue(arg_1_1.skipBack, false)
 	arg_1_0.data = arg_1_1.data or {}
 	arg_1_0.parent = arg_1_1.parent
 	arg_1_0.children = {}
+	arg_1_0.transType = defaultValue(arg_1_1.transType, var_0_0.TRANS_TYPE.CROSS)
 end
 
 function var_0_0.extendData(arg_2_0, arg_2_1)

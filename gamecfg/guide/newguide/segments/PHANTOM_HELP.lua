@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "换装投影功能已开启，点这里进入换装投影制作界面吧！",
+				text = "You've unlocked the skin projection feature! Tap here to create a skin projection!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -22,7 +22,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "制作换装投影可以方便指挥官同时展示方案舰的多种换装！",
+				text = "The projections you make can be applied to skins!",
 				mode = 1,
 				dir = -1,
 				char = "char",
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "这里是换装投影管理界面的入口，指挥官可以随时点击进入调整哦！",
+				text = "You can manage your finished projections over here!",
 				mode = 1,
 				dir = -1,
 				char = "char",

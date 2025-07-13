@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"合雅之宴\n\n<size=45>二　记录者</size>",
+					"The Graceful Banquet\n\n<size=45>2 The Garden</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "东煌风园林的某处——",
+			say = "Meanwhile, at a set designed after a Dragon Empery garden...",
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "{namecode:103}小姐，请看镜头——嗯，拍好了。",
+			say = "Look this way, Chitose. Yes, hold that pose... *click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "唔……这照片也不能说是不好看，不过似乎缺少一点“眼前一亮”的感觉……",
+			say = "Hmm... It came out nicely, but I don't quite feel like it's \"the one.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "要想拍出好看的照片也是一门复杂的学问呢……呀————！",
+			say = "Snapping the perfect photo is tricky... Ow, my hair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,56 +107,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:103}打算起身稍微活动身体，长发却不小心挂到了矮木的树枝上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_152",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 506011,
-			say = "这可不妙……{namecode:103}小姐，你先别动，这里就交给我吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 306082,
-			side = 2,
-			bgName = "star_level_bg_152",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……呼，嗯，头发就拜托你了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "star_level_bg_152",
-			say = "只费了一小番功夫，镇海便顺利地将{namecode:103}挂在树枝上的头发取了下来。",
+			say = "Just as Chitose stood up, her hair got caught on a tree branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +125,56 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "好了~{namecode:103}小姐的头发保养得非常好呢，万幸没有受到影响。",
+			say = "Oh dear. Let me help you with that. Hold still, please.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 306082,
+			side = 2,
+			bgName = "star_level_bg_152",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Ugh... Sorry, and please do...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "star_level_bg_152",
+			say = "The calm and collected Chen Hai carefully disentangled Chitose's hair without incident.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_152",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 506011,
+			say = "That should do it. You've got such gorgeous hair, and I'm truly relieved it wasn't damaged just now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "头发的话，都是{namecode:104}每天帮我打理的。",
+			say = "Thanks... Chiyoda deserves the credit for my hair, though. She's the one who puts in all the work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拍照也是她提议的。",
+			say = "This photoshoot was her idea, actually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "说着什么“姐姐这么漂亮的头发和衣服，不留点纪念就太可惜了”什么之类的……",
+			say = "She said it'd be a shame not to take a photo after all the effort of dressing me up and styling my hair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "你和妹妹的关系很好呢，下次也拉她来一起拍照如何？",
+			say = "I find it wonderful how close you two are. Next time, why not invite her to take pictures together with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好主意……",
+			say = "That would be nice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "哼哼，我好像恰好有一些灵感了，{namecode:103}小姐能配合我一下么？",
+			say = "Oh, I just had a flash of inspiration. Could you stay for just one more photograph?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "可以哦，需要我做些什么？",
+			say = "Sure, I guess. What do you want me to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "请将您的头发搭在旁边的树枝上~",
+			say = "Could you gently hang your hair on the branch back there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "欸？！不、不是刚刚才取下来么……！",
+			say = "Huh? But it got caught on it just a second ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "啊~请放心，只是搭上去，不是缠上去，不会对你的头发产生任何影响的。",
+			say = "I know, hence my use of the word \"gently.\" Would you mind doing that for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306082,
-			say = "那、那好吧……你，你可要轻点哦？",
+			say = "Uh, sure... I-is this good enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
-			say = "咔嚓————",
+			say = "*click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506011,
-			say = "——————那么，这一张就叫做“喜上梢头”好了。",
+			say = "Heehee, now this is a wonderful picture. I think I'll call it, \"Beauty Among the Branches.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:103}离开后，镇海来到了园林中另一处热闹的地方——",
+			say = "After she and Chitose parted ways, Chen Hai heard some sort of loud noise, which she decided to go investigate.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "动作稍微柔和一点，不要太用力。",
+			say = "Nice and easy. Try not to push down too hard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好的……不要太用力————啊！",
+			say = "Okay... Nice and easy... Oh. Aww...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102293,
-			say = "纸破了......呜，我果然还是不行……",
+			say = "I broke it... Ugh, I just can't do it right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用心急哦，{namecode:197}小姐只是暂时还没适应这种感觉而已。",
+			say = "Please don't fret, Miss Boise. You just need a little practice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "你看这一张虽然纸破了，不过上面的字不是很好吗？下次只要再轻一点就好了。",
+			say = "It's true you punctured the paper, but your calligraphy itself is excellent. Try again, but relax your hand a bit and I'm sure it'll go better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好、好的！我再试一次......",
+			say = "Well, all right! I'll give it another shot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_152",
-			say = "{namecode:197}再次摊开一张宣纸，如临大敌一般郑重的用毛笔在砚台中蘸上墨水。",
+			say = "Boise laid out a new sheet of paper, then picked up the writing brush with a determined look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "放轻松一点拉，你可以做到的{namecode:197}小姐！",
+			say = "Please take your time. I know you have it in you, Miss Boise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102293,
-			say = "呼……哈……深呼吸……嗯！",
+			say = "Huff... Puff... Deep breaths... Huff... Puff... Okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102293,
-			say = "......完成了！",
+			say = "...I did it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 502040,
-			say = "嘿嘿，这张看起来很棒哦！我就说你能做到的~",
+			say = "And you did it very well. See? I knew you could pull it off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			}
 		},
 		{
-			say = "咔嚓————",
+			say = "*click*",
 			side = 2,
 			bgName = "star_level_bg_152",
 			dir = 1,
@@ -696,7 +696,7 @@ return {
 			actor = 506011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵，这一张就叫做“苦尽甘来”好了。",
+			say = "Heehee. This one I will call, \"Bitterness Passes, Sweetness Lingers.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

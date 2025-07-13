@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "需要天狼星吗？",
+			say = "Is it me you desire?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_tone13",
 			typewriter = {
 				speed = 0.05,

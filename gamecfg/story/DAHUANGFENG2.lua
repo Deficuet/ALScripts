@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>二　不爱说话的朋友</size>",
+					"Duelling Sunshine!\n\n<size=45>2 Silent Friend</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port—Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北安普顿，到你了到你了！",
+			say = "Northampton, it's your turn, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我在考虑接下来该怎么走……",
+			say = "Yeah, I'm just thinking about what to do next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "现在……正与大黄蜂和北安普顿一起在指挥室中玩着桌游。",
+			say = "Hornet and Northampton were playing a board game in the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "要问为什么会是现在这个状况……",
+			say = "How did this happen, you ask...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我说指挥官！今天工作完之后要不来玩会游戏吧？",
+			say = "By the way Commander, since we're just about done with work, want to play a game together?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好可以把我那个不怎么喜欢说话的朋友一起叫上~",
+			say = "I happened to invite my friend who's a bit quiet, but reliable~",
 			effects = {
 				{
 					active = true,
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官……？别发呆别发呆，到你了哦！",
+			say = "Commander...? Anyone there? Stop zoning out, it's your turn!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大黄蜂从游戏开始前就是一副活力旺盛的样子，与在一旁安静思考的北安普顿正好相反。",
+			say = "There was Hornet, who had been lively since starting the game, and Northampton, who was deep in thought without letting out as much as a single peep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "稍微考虑一下之后，完成了本次行动轮。",
+			say = "After thinking for a moment, I skipped my turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼~很有想法啊，指挥官。接下来是我的回合！那就先这样…然后再这样…OK！",
+			say = "Hehe~ So you thought pretty hard, didn't you. Well, then it's my turn! Let me move this here... and this piece over there... Done~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……感觉有些口渴了，要不我去买些饮料回来吧！",
+			say = "Oh, I'm feeling a bit thirsty... I guess I'll go buy some drinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北安普顿就老样子。指挥官呢？你想喝什么？",
+			say = "Northampton, you'll be having the usual right? What about you, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，我知道了，我去去就回~",
+			say = "...Roger! I'll be back in a bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "大黄蜂离开后，整个房间也变得安静下来。",
+			say = "The moment Hornet left, silence fell over the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…………",
+			say = "Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,23 +395,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "率先打破这片宁静的，是大黄蜂的那位安静的朋友。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "一开始听大黄蜂说指挥官会来，我还以为是她在开玩笑呢……",
+			say = "The one that broke the silence was Hornet's silent friend.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,22 +411,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说她最近在当秘书舰…她没有吵闹到你吧…？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "向北安普顿简单说了下大黄蜂最近工作的状况——",
+			say = "When Hornet said that you were going to show up, I thought it was a joke...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +427,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，是我多虑了……",
+			say = "Hornet's currently on duty as the secretary ship, right...? Is she causing any trouble for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,23 +442,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "机会难得，向作为好友的北安普顿多打听了一下大黄蜂的情报。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 103030,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "就像你了解的一样，大黄蜂总是活泼又自信、就像牛仔一样潇洒……",
+			say = "I told her how Hornet was handling her job at the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +458,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只不过，我也说不太好……也许有两位优秀的姐姐，所带来的不只是自豪，还有压力吧……",
+			say = "I see. I wonder if I was worrying over nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +473,39 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "姐姐么……之前好像确实听大黄蜂提起过，“不能拖姐姐们的后腿”之类的。",
+			say = "Since she was here, I figured I'd ask Hornet's best friend, Northampton, about a few things.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hornet is a bright and free soul. I don't know how accurate it is, but my mental image of her is that of a cowboy.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 103030,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But I wonder if she's really fine. Isn't she concerned with her place among her sisters? ...I don't really know how to phrase this properly, but it might be related to her pride, or be some kind of complex...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +520,22 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "机会合适的时候问一下她本人的想法吧……",
+			say = "Speaking of sisters... she did talk about not wanting to sully their honor.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I should ask what the person in question thinks when I have the chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "秘籍，杜立特式邮递！我回来啦！是不是很快？",
+			say = "I'm back! Pretty quick, wasn't I~?",
 			effects = {
 				{
 					active = true,
@@ -575,7 +575,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "给，你们的饮料——然后~游戏继续！",
+			say = "Here, have a sip~ and then it's right back to the game!",
 			effects = {
 				{
 					active = false,

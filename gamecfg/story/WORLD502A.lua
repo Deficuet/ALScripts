@@ -11,7 +11,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬{namecode:94}一直保持在我方炮击范围边缘移动，既没有猛攻进攻，也没有完全停火。",
+			say = "She's staying just barely out of range of our cannons... While she's not charging at us, she's not letting up her assault either.",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保持着一个恰到好处的压力呢……",
+			say = "Didn't she say she wanted to finish this? It feels like she's still only testing us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "指挥官，她正在通过这种方式改变着我们的航线，舰队距离中心区域越来越近了。",
+			say = "Wait... Is she trying to drive us off course with her attacks...? Commander, we're slowly drifting towards the center of the NA Ocean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "这么做究竟有什么意义呢……",
+			say = "Hey, you're right! What in the world is she thinking?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "太过接近的话塞壬也会对她发动攻击，她自己不也要两面作战。",
+			say = "Doesn't she know the Sirens are gonna attack her too if she gets too close?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "或许一面作战和两面作战对她来说都无所谓，将我们吸引过去这件事很重要…？",
+			say = "Is she planning to use the Sirens to get us off her tail? But then why did she reveal her location to us in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -156,7 +156,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "远方突然传来几声如轰雷一般的巨响。",
+			say = "Out of nowhere, a loud thundering crash rang out in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙、居然主动对塞壬要塞发起挑衅了啊！！！",
+			say = "What?! She's provoking the Sirens with her planes?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "然后塞壬也立刻进行了回应。风暴之中，无数的防御设施对余烬{namecode:94}发起了猛烈反击。",
+			say = "The Sirens' retaliation came immediately. Hundreds upon hundreds of defense turrets emerged from the storm and opened fire on Hiryuu META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些像是浮岛要塞一类的东西以前只在镜面海域中偶尔见过，这么夸张的规模还是第一次见。",
+			say = "That entire island... is one giant Siren facility?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 102230,
 			dir = 1,
-			say = "这才是正常塞壬守备核心区应该有的样子吧……",
+			say = "This is the heart of the Sirens' territory... It makes sense they have defense to match that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在可以基本确定了，塞壬一直藏着的主力部队早已转移到了核心区域中。",
+			say = "Now we have an idea of what we're up against. We can't defeat them here if we don't attack with everything we've got.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "以前就有点感觉，塞壬还真擅长在恶劣气候中作战呢。",
+			say = "This proves my hunch. The Sirens excel at using abnormal weather to their advantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "正常来说没有人会想让舰队穿越猛烈的风暴吧，更不用说布置防御设施了……",
+			say = "We would've never found their defenses on our own... I mean, who'd intentionally steer a fleet into a storm in search of Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "可是塞壬却反过来利用这一点，将风暴本身都变为了防御体系的一部分。",
+			say = "They not only defied human common sense, they even made the storm a part of their defenses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哟，原本你们是打算来执行侦察任务的吧，刚刚那几下就当做附赠~",
+			say = "Seems I was right. You came out here to perform recon on the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "怎么样，挺壮观吧？",
+			say = "In that case, think of this as my parting gift. Hope it's satisfied you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………完全是在添乱！我们哪有余力一边和你作战一边应付塞壬！",
+			say = "...I mean, we did wanna find out the size of their force, but this is NOT what we were hoping for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没有么……就算有些熟悉的感觉，终究也是幻影一逝。",
+			say = "(Hm. The sweetness of an old memory relived is waning already...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "不好不好……无意中竟有些沉浸了。",
+			say = "(Curses... I thought I had rid myself of those wretched things long ago...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谜语人行为禁止！",
+			say = "Commander, what do we do? We can't fight possibly fight the Sirens and Hiryuu at the same time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "…………厌烦了，今天就到此为止吧，再见。",
+			say = "You won't have to, because I'm content to leave it here for today. Farewell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，要打一场的也是你，打到一半要走的也是你，未免也太任性了吧！！！",
+			say = "First you challenge us to a fight out of nowhere, then you decide to flee in the middle of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哼！如果想继续和余烬打交道的话，还是尽早习惯这种感觉比较好。",
+			say = "Don't get cocky with me. I'm one of the Ashes, not some damn circus clown here to amuse you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬{namecode:94}的舰载机停止攻击了……她真是，完全不把我们放在眼里。",
+			say = "Hiryuu's planes stopped firing at us... Are we really letting her go, just like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "伯明翰，保持冷静。从未知的对手身上获得的任何一点情报都是有益的。",
+			say = "We have no other choice, Birmingham. We don't know the full extent of what Hiryuu is capable of, but we did learn a little more about her today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "如果是朋友的话，等到机会合适时抱怨一下也无妨。如果是敌人的话，过度轻视我们就将是她们失败的原因。",
+			say = "And besides, like Reno said, we can't possibly fight her and the Sirens at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，塞壬舰队也向我们过来了，那些可不是我们现在能解决的规模哦！",
+			say = "Speaking of the Sirens, they're coming straight for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "侦察到这种程度已经差不多了。",
+			say = "\"And a lot of them, too. I think we've probed enough for one day.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同感。实际见到的塞壬舰队与浮岛要塞规模都比从情报中了解的夸张了许多。",
+			say = "I agree. We have a pretty good idea of the extent of their presence in the area now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "相信这些新情报足够让指挥部产生紧迫感了。",
+			say = "If we inform Naval HQ about this, they'll take this operation a lot more seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "现在根本不是所谓的胜利已定……一但塞壬发动反击，战线铺开的我们才是最被动的一方。",
+			say = "I'm confident they'll make the correct decision once they realize the entire operation is at risk if we don't strike with all the power we can muster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "领航员小姐，立刻联系最近的前哨站进行接应，我们撤退吧。",
+			say = "\"Exactly. But before we launch an all-out offensive, we should pay a visit to the Royal Navy's forward base.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,11 +1,11 @@
 local var_0_0 = {
-	"指挥官，新解锁了喵窝功能，快来看看吧",
-	"把指挥喵放入空置的喵窝中后，会随着时间自动获得经验",
-	"喵窝解锁及0点刷新后放入未互动过的指挥喵可以进行互动，指挥官来试试吧",
-	"清扫会增加喵窝经验，一次清扫对所有喵窝生效，进行互动的指挥喵越多，获得的喵窝总经验越多。",
-	"喂食会增加喵窝经验与指挥喵经验，一次喂食对所有喵窝生效，进行互动的指挥喵越多，获得的收益越多。",
-	"逗喵会加喵窝经验并有概率获得喵箱训练加速道具与家具币，进行互动的指挥喵越多，获得的总奖励越多",
-	"点击这里可以查看具体的帮助信息！要加油哦！拜拜~"
+	"You've unlocked Comf-Forts!",
+	"You can put a Meowfficer in a Comf-Fort, and it will receive EXP over time!",
+	"Once a day, you can clean the Comf-Forts, play with your Meowfficers, or feed them!",
+	"Cleaning will upgrade your Comf-Forts! The more Meowfficers you have housed, the more upgrade points you'll get!",
+	"Feeding, meanwhile, will give EXP to all your housed Meowfficers!",
+	"Lastly, playing with your Meowfficers has a chance of rewarding you with Cat Box Quick Finishers and Furniture Coins! The more Meowfficers you have, the better the rewards!",
+	"If you want some more info, just tap the Help button!~"
 }
 
 return {
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			alpha = 0.4,
-			delay = 2,
+			delay = 1,
 			style = {
 				dir = -1,
 				mode = 1,
@@ -170,7 +170,7 @@ return {
 		},
 		{
 			alpha = 0.4,
-			delay = 2,
+			delay = 1,
 			ui = {
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/bg/bubble/play",
 				triggerType = {

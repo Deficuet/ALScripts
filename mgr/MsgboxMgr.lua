@@ -261,7 +261,7 @@ local function var_0_6(arg_10_0, arg_10_1)
 
 			local var_11_1 = arg_11_2:Find("IconTpl/name")
 
-			setText(var_11_1, shortenString(getText(var_11_1), 6))
+			setText(var_11_1, shortenString(getText(var_11_1), 5))
 			onButton(arg_10_0, arg_11_2, function()
 				if var_11_0.anonymous then
 					return

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>二　怀表兔与柴郡猫</size>",
+					"Adventures in the Forest of Fables\n\n<size=45>2 The White Rabbit and the Cheshire Cat</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "沿着曲折的小路向前走了一阵之后，一个熟悉的身影映入眼帘——",
+			say = "As I was walking deeper into the forest, I suddenly caught sight of a familiar face.",
 			side = 2,
 			bgName = "star_level_bg_158",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是人类。",
+			say = "Comma– I mean! How strange to find a human out here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,11 +66,11 @@ return {
 			},
 			options = {
 				{
-					content = "啊，是{namecode:18}。",
+					content = "\"Oh. Hey, Shimakaze.\"",
 					flag = 1
 				},
 				{
-					content = "请问你是？",
+					content = "\"You there! Who are you?!\"",
 					flag = 2
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "不不不，我现在不是{namecode:18}！而是怀表兔！",
+			say = "No, no, I'm not Shimakaze! I'm the White Rabbit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "我的名字叫怀表兔！",
+			say = "Hello, hello! My name is White Rabbit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实我现在遇到了大麻烦……",
+			say = "Forgive my forwardness, but I urgently need your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "到了晚上，森林里就会出现凶恶的大灰狼，所以我必须要在夜晚来临前回到家才行！",
+			say = "Jin– I mean, a vicious wolf prowls these woods at night! I simply must get back to my house before it turns dark!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是如你所见，我一不小心在这里迷路了……请问你可以帮帮我么？",
+			say = "The problem is, I have lost my way, as I'm sure you can tell...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不想被吃掉，拜托你了，好心的人类！",
+			say = "So please, help me get back home! I don't want to be wolf food! I'll do anything you ask in return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "{namecode:18}……不对，怀表兔说完话之后，就转过身沿着道路缓缓走了出去。",
+			say = "Shimakaze – or should I say, the White Rabbit – offered to accompany me deeper into the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "看来现在的任务是帮助{namecode:18}找到回家的路，总之先跟上她吧。",
+			say = "It seemed my mission for the opening act was to help her find her house.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "跟随怀表兔来到了一个满是镜子的房间，这里看起来像是一座构造精巧的迷宫。",
+			say = "After walking for a while, we came across a cabin amid the trees. On the other side of the door was a place lined with mirrors in all directions.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -265,7 +265,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "人类，如果我要回家，就必须穿过这座迷宫才行……",
+			say = "I'm afraid we'll need to go through this maze to find my home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是，怀表兔完全忘记穿过这里的方法了……",
+			say = "Unfortunately, I've completely forgotten which way leads out of it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好心的人类，帮帮怀表兔吧！你一定能想到办法的！",
+			say = "You must help me find the correct path, or else the two of us will be stuck here forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "如怀表兔所言，房间中的镜子相互折射，延展出无数道路与空间。",
+			say = "Everywhere I looked there were doors and corridors reflected in the mirrors, and there was no telling which led to the exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "要是盲目走入，大概率会陷入进入设计好的死路而被困其中。",
+			say = "I knew we would get lost in a heartbeat if we walked around at random.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "就算要做标记前进，做好的标记也会被镜子折射……似乎没有那么容易的样子。",
+			say = "Leaving a mark on paths we've taken wouldn't work either, because we'd still lose all sense of direction after turning just a few corners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "就在思考的时候，听到了一个由远及近的声音。",
+			say = "While I stood there, trying to think up a plan, I suddenly heard the sound of rapidly approaching footsteps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "亲·爱·的，我在这里哦————",
+			say = "Owneeeeer! I'm right over heeeeere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（咳咳、柴郡小姐，台词！）",
+			say = "(Wait, please! Cheshire! You're supposed to stick to the script!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "哎嘿~人类居然跟兔子一起行动还真是少见。",
+			say = "Glomp! Ahem... A human and a rabbit. What an odd combination indeed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是柴郡猫~回答我，人类与兔子，你们为什么想要穿越这座镜子迷宫呢？",
+			say = "Tell me, why do you need to traverse through this maze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "外婆还在家里等我，我要想回家就必须穿过这里！",
+			say = "Because my house is through here! My grandma is worried about me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个好心的人类是来送我的，大概也是带着某种目的需要穿越森林的人吧。",
+			say = "This person here – who I assume wants to leave this forest for whatever reason – is helping me get there! Would you happen to know the path forward?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "原来如此~今天柴郡猫的心情不错，你们只要陪我玩，等玩够了我就放你们过去好了~",
+			say = "I see, I see. It so happens I'm in a good mood today, so tell you what – if you play with me, I will take you to the exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "具体的话，要陪你多久呢？",
+			say = "You will?! That's so kind! But I wonder – how long do you wish to play?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道！也许转瞬即逝，也许直到永恒，时间由柴郡猫的心情而定~",
+			say = "How long, indeed? I never specified a timeframe, did I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "在这个世界，心情是最重要的吧~",
+			say = "Could be five years, maybe even ten if I so desire! It all depends on my mood~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……没办法了，人类，这里就交给我吧。",
+			say = "If that's how it's going to be... Human, let me handle this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "柴郡猫，我留下来陪你玩，可不可以先送这个人类走出迷宫？",
+			say = "You know what else you didn't specify? WHO will be playing with you! So I volunteer for the task!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "不可以，我想要亲爱的留在这里陪我！",
+			say = "Hey! But I want to play with my Owner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（柴郡小姐，我要生气了哦——————！）",
+			say = "(That's enough, Cheshire. Let's keep things moving along.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,7 +632,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "喵哈哈哈，开玩笑而已喵~",
+			say = "Hrmmph... Worry not, I was only kidding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299033,
-			say = "确实留着人类在这里也没什么意思，这里就如怀表兔所言好了~",
+			say = "Besides, it wouldn't be fun to keep the human trapped in here forever. My Owner can go, while the rabbit stays and plays.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你可以离开了，人类。",
+			say = "The exit is right that way. You're free to leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "这样真的好么……？",
+			say = "\"What, just like that? I didn't do anything, and you're letting me move forward?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，比起我们两个人一起被困，这已经是最好的办法了。",
+			say = "Don't sweat the details! It's better for one of us to make it out than for both of us to be trapped in here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是有一件事，需要拜托你帮忙……",
+			say = "Oh, one more thing just before you go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的外婆还在家里等我，拜托你去一趟，告诉外婆让她不要担心我。",
+			say = "When you find my house, would you mind relaying a message to my grandma? Let her know I'm just fine so she has no reason to worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我跟柴郡猫玩完就会回去的！",
+			say = "And that I'll be there after I've finished playing with Cheshire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 301292,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，带上这个怀表，希望它能在剩下的路途里陪伴你。",
+			say = "Also, please take this watch with you! I'm sure it will come in handy on the next leg of your journey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -780,7 +780,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "怀表兔将她的怀表递出后，便与柴郡猫一起消失在镜子迷宫中。",
+			say = "After I received her pocket watch, she and Cheshire ran off elsewhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "与此同时，在前方出现了一条没有镜子的路，看来这就是离开的路。",
+			say = "At the same time, a passage previously blocked by mirrors opened up, revealing a path to what presumably is the exit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "拿着怀表继续前进吧——",
+			say = "And so, I proceeded to the next act.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

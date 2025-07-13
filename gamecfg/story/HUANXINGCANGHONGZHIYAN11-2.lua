@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "穿越一片厚重的烟尘，周围的环境陡然变化，仿佛进入了一个全新的世界中。",
+			say = "Hiei cut through the black mist and her surroundings changed completely, as though she'd been thrust into a new place.",
 			bgm = "battle-againstfate",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "阴云，雷雨，还有燃烧的海面……作为幻境来说相当逼真。",
+			say = "Dark clouds, thunder, a burning sea... This might not be real, but it certainly feels real.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "难道幻境也是这个怪异世界的组成部分么……",
+			say = "I suppose an illusion has gripped this place, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "抬头望去，此前只能听到声音的舰载机群，如今清晰可见。",
+			say = "She looked at the sky and saw the clear silhouettes of a squadron of aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "而舰载机群锁定的目标，是一只翱翔于天空中的巨鸟。",
+			say = "The unidentified aircraft were attacking a massive phoenix manifested by the corrosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "攻击没有起到效果，舰载机群在巨鸟的反击中顷刻消失了。",
+			say = "In but the blink of an eye, the phoenix attacked back, knocking them all out of the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可惜了……这只巨鸟和一路之上遇到敌人外观相似，但是战斗力却截然不同。",
+			say = "A shame about the planes... That phoenix fights unlike anything I've seen before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "这些怪物究竟是什么来路呢……",
+			say = "Where did that beast come from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "战斗的声音已经停止了。",
+			say = "The sounds of fighting stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "刚才的舰载机似乎是最后一轮徒劳的攻势，海域中残骸遍地，战斗的结果已经显而易见。",
+			say = "The aerial attack had been meaningless, and the remains of the aircraft lay scattered in the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还……没有结束。",
+			say = "It's not over... Not yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尔等的力量之源……我已经十分清楚了。",
+			say = "I've figured out the source of your strength!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算这个世界已经万劫不复……我也要把你们一同拖入地狱之中！",
+			say = "Even if this world is beyond salvation, I can still send you to the deepest depths of hell!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:140:旗风}……？",
+			say = "Hatakaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9704050,
-			say = "……不行，她的伤好严重，再打下去会没命的！",
+			say = "She's gravely wounded... She'll sink at this rate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "在仔细权衡自己当前的处境和敌人的危险性之前，身体先于大脑而行。",
+			say = "Although Hiei was hardly in a favorable position herself, her body acted before her brain did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "伴随着炮击声，少女的身影切入了战场——",
+			say = "Cannons boomed, and she dodged the incoming shells. She had no choice but to help Hatakaze against the beast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

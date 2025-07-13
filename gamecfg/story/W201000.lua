@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "暂时无法进入港口，请先前往附近海域的舰队集合点。",
+			say = "Before docking at port, you should first head to the rally point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

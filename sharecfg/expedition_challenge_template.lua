@@ -13,7 +13,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -31,7 +31,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -49,7 +49,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -67,7 +67,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -85,7 +85,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -103,7 +103,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -121,7 +121,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -139,7 +139,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -157,7 +157,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -175,7 +175,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -193,7 +193,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -211,7 +211,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -229,7 +229,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -247,7 +247,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -265,7 +265,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -283,7 +283,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}
@@ -301,7 +301,7 @@ pg.expedition_challenge_template = {
 		},
 		chapter_name = {
 			"Challenge",
-			"  限界挑战",
+			"Challenge Mode",
 			""
 		},
 		bufficon = {}

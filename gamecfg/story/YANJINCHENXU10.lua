@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			stopbgm = true,
-			say = "圣堂Blanc·统御中心，一段时间后——",
+			say = "Basilica Blanc Control Center",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
 			flashin = {
@@ -34,7 +34,7 @@ return {
 			actor = 205140,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "东、东侧主干道压制完毕！",
+			say = "W-we've gained control of the main passages along the east side!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202330,
-			say = "南侧桥梁安全。",
+			say = "The southern bridge has also been secured.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北侧也搞定了哦~☆",
+			say = "And I've already finished conquering the north side~☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "辛苦了，我这边也没有侦察到更多敌人了。",
+			say = "Thank you for your hard work, everyone. I'm not detecting any more enemy signals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207070,
-			say = "大主教，你那边呢？",
+			say = "How are things on your end, Cardinal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "已经全部清理完毕，看来刚才消灭的那些就是最后一批棋子了。",
+			say = "Done. Looks like we've cleaned up the last batch of Pawns over here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝亚恩，情况如何？",
+			say = "Béarn, how's your situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 807010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "净化系统中污染指数已经回归安全水平，可以认定该区域安全了。",
+			say = "The infection index in the purification system has dropped to normal levels, which means this area is effectively safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好。",
+			say = "Excellent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "不知道是不是心理作用……之前在圣堂中感受到的那股令人压抑的气息似乎也随之不见了。",
+			say = "I'm not sure if I'm just imagining things... but this place doesn't seem as claustrophobic and dreary as it did before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "逐渐变为了一种，令人感到安心的气息……",
+			say = "If anything, it has a bit of a calming, reassuring atmosphere now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "听你这么一说，好像确实有这么一点感觉。",
+			say = "Now that you mention it, I think I feel it as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，似乎不仅如此……之前一直笼罩在视线边缘的雾气也一同消失了！",
+			say = "Woah, and that's not all – look, the dense fog that was obscuring the horizon has completely disappeared as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "仔细一看，这里的建筑就连每座白色的尖顶都经过了细致的雕琢……再配上金色的鎏金，简直就像一座巨大的艺术品一样。",
+			say = "The gilded inscriptions on the Basilica's white spires are so majestic... Magnificent works of art in their own right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206020,
-			say = "没想到只是氛围换了一些，同样的建筑给人的感觉差别居然会如此之大啊……",
+			say = "Incredible... Just a slight change in the atmosphere can completely alter the way I perceive this place...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得更重要的一点在于，这里从设计目的上来说应该是军事要塞或者军用工厂一类的地方吧……",
+			say = "Don't get distracted from the fact that this place was functionally designed to be something akin to a military stronghold or factory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我说大主教，你们该不会还做过把圣堂往战舰上修的事吧？",
+			say = "Tell me, Cardinal, you wouldn't have happened to retrofit Basilica technology onto your warships, would you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯…………审判庭在过去倒确实有过类似的计划，还用自己的资源实际造出来过一艘。",
+			say = "...Indeed, the Tribunal did have such plans in the past, and managed to build one prototype using their own resources.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我记得当时的分类是「战地祷告舰」。",
+			say = "I believe it was classified as a Mechanicus Confessor.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "咦？居然真的造出来过一艘么？！可是我怎么从来没听说过……",
+			say = "Oh? Did something like that really get built? I wonder why I haven't heard anything about it until now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那是很久之前的事情了。而且在祷告舰完工后不久，审判庭就把它拉去了战场的最前线。",
+			say = "It's practically ancient history by now. And shortly after the Confessor was completed, the Tribunal sent it to the front lines.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "只是很遗憾，首航即终航。",
+			say = "Unfortunately, its maiden voyage was also its final voyage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "原来如此，那还真是可惜呢……",
+			say = "That's a pity. I would've liked to see it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "那么大主教，这座圣堂应该就算处理完毕了？接下来我们去哪里？",
+			say = "So, are we done with this Basilica? Shall we move on to the next one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "接下来是第二座圣堂，圣堂Rouge，诸位请随我来——",
+			say = "Yes. Our next destination is Basilica Rouge. Please follow me, everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1

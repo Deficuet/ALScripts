@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "薄云挡住了月光，远处的湖面泛着涟漪。",
+			say = "On this night, wispy clouds covered the moon, and even the ripples of light on the water were indistinct.",
 			bgm = "deepblue-image",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "宅邸附近的庭院之中，两个人影正踩着石阶，在院中步行。",
+			say = "After leaving the castle, Nagato and Musashi walked slowly upon the stone path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "忽然，一阵微风袭来，扬起落叶。",
+			say = "It was then that a slight breeze lifted some fallen leaves and blew them toward the young Guardian Fox.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "娇小的少女用长袖遮挡，她回首望去。",
+			say = "She fended them off with her sleeve and looked to the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "薄云已经消散，月光为整座庭院撒上一层幽蓝。",
+			say = "The clouds had faded, allowing the moon to shine its delicate blue light upon the courtyard again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:74}大人，您还好吗。",
+			say = "Lady Nagato...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "向着她注目的方向看去，宁静的湖边，空无一人。",
+			say = "After gazing in silence at the lake for some time, Nagato finally spoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝可还记得这里？",
+			say = "...Musashi, do you remember this place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "多年前的那个时候，她曾借助神木传递消息。",
+			say = "Long ago, she used the Sacred Sakura to communicate a message to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让吾举行仪式，唤她到此。",
+			say = "To perform the ritual and summon her to this place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您说的那人，可是「大贤者」？",
+			say = "...You mean the Sage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "正是。",
+			say = "Exactly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "短暂的沉默之后，{namecode:74}向着湖边走去。",
+			say = "After a short silence, Nagato began walking toward the lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实关于这一切，自见到那梦中的场景之后，汝心中想必已经有了答案。",
+			say = "If you and I have had similar dreams, then the solution to this problem is all but clear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "对吗？",
+			say = "Isn't that right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "{namecode:84}，有任何话，但说无妨。",
+			say = "Musashi, you and I are alone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里没有旁人。",
+			say = "Speak frankly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人……",
+			say = "Then allow me, Lady Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "神木的枯萎是与重樱“大神木”安危相关的恶兆。",
+			say = "The withering of the Sacred Sakura is an ill omen concerning the safety of the Prime Sakura.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "若枯萎也影响到了那里，便可解释此前一系列事件的成因。",
+			say = "If signs of decay can be found there, too, then that will explain things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "亦如十多年前的那个时候一样。",
+			say = "...It's like the last time this happened.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "可现在的我们是否已经具备与之一战的实力？",
+			say = "However, I don't know if we have the strength to fight our enemy today...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "自吾有记忆开始，重樱的大神木就在大贤者的庇护之下与世隔绝，平安无事。",
+			say = "The Prime Sakura is isolated from the earthly world, protected by the Sage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如今再起波澜，想必大神木所在的圣域之中已经生出变故。",
+			say = "If something did happen there, that would mean the entire sanctuary is in peril.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "如果真如您的判断一样，神木的枯萎是怕多年前那次事件的……回响。",
+			say = "This is true. The withering of the Sacred Sakura may be reverberations from the last time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "我们必须做好最坏的打算。",
+			say = "We may need to be prepared for the worst.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾等必须即刻出发，亲临圣域。",
+			say = "...I say we make for the sanctuary right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1

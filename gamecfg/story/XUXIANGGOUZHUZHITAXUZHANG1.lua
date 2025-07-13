@@ -12,7 +12,7 @@ return {
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
-			say = "某日·某海域",
+			say = "Somewhere At Sea",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "距离抵达港区还有半日航程，石油剩余五成上，弹药储备充足，不过食物储备就……",
+			say = "We're about half a day away from the Port. Oil reserves are over half, ammunition is plentiful, but our supply of food is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哇…明明马上就到港区了居然还在进行物资统计……",
+			say = "Yikes... We're almost there, and you're still counting beans?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "你这个军需官也太敬业了吧？！",
+			say = "A quartermaster you may be, but isn't this a bit too much dedication to your job?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "物资储备事关重大。重则影响战斗成败，轻则影响……你今天中午的午餐。",
+			say = "Nothing is more important than keeping tabs on our supplies. Victory or defeat during battle hinges upon it – and so does your lunch today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "欸？！！连今天午餐份的食物都没有了么！？",
+			say = "Hwuh?! We don't even have enough supplies for lunch?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "呼呼呼……放心。一路上我都有好好管理，剩下的食物足够再吃三天的。",
+			say = "Heh heh... Don't worry. Because I've been rationing so diligently, we'll have enough food left over for three more days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "……比出发前携带的量还多了一天？！",
+			say = "...How do we have more days' worth of food NOW than before we set sail?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "物资管理，很神奇吧？",
+			say = "...Bean counting is quite miraculous, is it not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "......意面。",
+			say = "...Spaghetti.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯……？帝国中午想吃意面么？",
+			say = "Huh? Oh, Impero, did you want spaghetti for lunch?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "伟大的庞培队长非常认同你的观点，一会午饭就吃意面吧！",
+			say = "Captain Pompey the Great happens to agree with you, so let us have spaghetti!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "舰载机意面，从舰载机里面发射出意面来......",
+			say = "Carrier-based spaghetti. We'll shoot the spaghetti out from my planes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "…………啊？",
+			say = ".........Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "那是什么东西啦！不要把舰载机和意面结合起来啊！",
+			say = "What the heck is that! Nobody asked for this high-level playing with your food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "而且为什么要用舰载机发射？",
+			say = "And why are you sticking spaghetti into your planes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "舰载机可以给意面保温。",
+			say = "The planes help keep the spaghetti warm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "因为帝国还要睡觉泡澡......舰载机发射意面，可以随时吃到......",
+			say = "Because I still need to sleep and bathe... Spaghetti fired from my planes can be ready to eat at any time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国又在产出奇妙的想法了……",
+			say = "Impero came up with something incredible again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "唔嗯…好像有些道理……伟大的庞培队长也心动了！",
+			say = "More like incredibly stupid... Well, I must admit that the ambition behind the idea has moved Captain Pompey the Great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "啊……？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "啊......",
+			say = "Uhh......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次又想到什么了……飞天披萨么？",
+			say = "What is it this time? Flying pizza?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "......帝国的舰载机，失去联系了。",
+			say = "...I've lost track of my planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哎？！是被塞壬袭击了么？舰载机失联之前最后发来的情报是什么？",
+			say = "What?! Could it be a Siren attack? What was the last bit of data you got from them before you lost their signals?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "一座奇怪的城市和一座奇怪的高塔……舰载机就是在那失联的（气）。",
+			say = "A strange city and tower... That's the last thing I got from them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来像是遭遇了一片镜面海域呢……",
+			say = "Sounds a bit like a Mirror Sea, doesn't it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "距离港区半日的地方出现镜面海域可是一件值得重视的事。",
+			say = "A Mirror Sea appearing only half a day away from the Port is definitely noteworthy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "先向港区申请支援，然后我们转向去侦察一下情况吧。",
+			say = "Let's request backup from the Port first, then turn around to scout out the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "没问题！不过也许等不到港区的增援到达，塞壬就被伟大的庞培队长及其同伴摆平了哦！",
+			say = "Well said! However, Captain Pompey the Great and her valiant comrades will make quick work of any Sirens even before reinforcements show up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "居然打掉了帝国的舰载机……意面计划取消，先送它们去外太空（气！）。",
+			say = "How dare they shoot down Impero's planes... How dare they shoot down my SPAGHETTI! We must make them pay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			say = "港区·通讯室",
+			say = "Port - Communication Room",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "通讯联络到了！看来庞培她们会准时回港呢。",
+			say = "Incoming communication! Seems like Pompeo and the others will arrive back at the Port in time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,60 +639,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			say = "龙骑兵播放了收到的通讯，不过内容却完全出乎她的预料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 601020,
-			say = "求、求援通讯？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 601020,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "欸？！求援的话应……立刻发给指挥官一份！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 601020,
-			say = "应该是这样操作的吧.......好————完成。",
+			say = "Carabiniere played the contents of the message, but was completely unprepared for what she heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,24 +657,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "……然后就等指挥室的回复，希望庞培她们别出什么事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "通讯器",
-			say = "滴————",
+			say = "A s-support request?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,41 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯~确认回复收到，今天的秘书舰效率好高啊~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "通讯器",
-			say = "滴滴————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "通讯器",
-			say = "滴滴滴————",
+			say = "Ehh?! If you need backup, you should've contacted the Commander directly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +692,111 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601020,
-			say = "欸……怎、怎么又收到了两份确认的回复......？",
+			say = "This is how you do it, right... Okay, sent the info over.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 601020,
+			say = "...Alright, now to wait for the Commander's response. Hopefully Pompeo and the others aren't in any real trouble.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Communicator",
+			say = "BEEP––––",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 601020,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Confirming receipt, huh. Guess the secretary today is on top of it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Communicator",
+			say = "BEEP BEEP––––",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Communicator",
+			say = "BEEP BEEP BEEP––––",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 601020,
+			say = "Huh? Wh-why am I getting multiple confirmation replies...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			blackBg = true,
-			say = "龙骑兵浑身一颤，想到了某种可能性————",
+			say = "Carabiniere suddenly shuddered when she thought of a potential possibility––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

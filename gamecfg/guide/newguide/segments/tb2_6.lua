@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "根据指挥官刚才的选择，娜比娅的性格已经产生了一些变化",
+				text = "Navi's personality is already showing changes based on the choice you just made.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这个界面中，红色代表叛逆的倾向，蓝色代表乖巧的倾向",
+				text = "Red means her personality is becoming more rebellious, while blue indicates it's becoming milder.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在今后的日常互动和特殊事件中，指挥官的选择也将继续影响娜比娅的性格发展",
+				text = "Your choices in day-to-day interactions and special events with her will also have an influence on her personality.",
 				mode = 2,
 				dir = -1,
 				char = 1,

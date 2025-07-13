@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>盛夏的圣迹</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>39 Heat-Beating Summer Sacrament</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hideRecordIco = true,
-			say = "（记得这附近就是邮轮上的露天泳池……）",
+			say = "(The ship's pool is supposed to be around here, I think...)",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -48,13 +48,14 @@ return {
 			}
 		},
 		{
-			actor = 900441,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼~哼哼~♪",
+			live2d = "home",
+			say = "La la la la laaa~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,13 +66,14 @@ return {
 			}
 		},
 		{
-			actor = 900441,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿尔萨斯~帅气的阿尔萨斯~",
+			live2d = true,
+			say = "Alsaaace~ The fleet's aaace~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,13 +84,14 @@ return {
 			}
 		},
 		{
-			actor = 900441,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与指挥官相伴~无所畏惧地并肩作战～",
+			live2d = true,
+			say = "Fearless fighter, here with the Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,100 +102,101 @@ return {
 			}
 		},
 		{
-			actor = 900441,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
-			hidePaintObj = true,
 			withoutActorName = true,
-			nameColor = "#A9F548FF",
-			say = "少女含着冰棒，模模糊糊地哼着曲调奇怪的歌曲，整个人浸泡在水里。",
 			hideRecordIco = true,
+			actor = 805031,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I spot Alsace, soaking in the pool and singing an odd song to herself while she sucks on a popsicle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 9,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知是天气的炎热影响了感知，还是休假状态下的过分放松……",
+			say = "Either her senses are dulled by the heat, or she's so relaxed that she's not paying attention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 9,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯并未发觉我的到来。",
+			say = "Whichever it is, she doesn't seem to realize that I'm here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "咳嗽一声提醒她",
+					content = "(Clear throat.)",
 					flag = 1
 				},
 				{
-					content = "直接叫她的名字",
+					content = "(Call her name.)",
 					flag = 2
 				}
 			}
 		},
 		{
-			expression = 9,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			optionFlag = 1,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "咳……",
+			say = "Ahem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 10,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			optionFlag = 2,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "阿尔萨斯？",
+			say = "Alsace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 11,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "指、指挥官！？请等一下再进入这个泳池！阿、阿尔萨斯需要时间准备！",
+			live2d = "main3",
+			say = "C-Commander?! If you're coming in, wait a sec! I'm looking for something right now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,42 +204,32 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
-			expression = 11,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女不知为何突然进入了惊慌失措的状态，手忙脚乱间，就连墨镜都掉入了泳池之中。",
+			say = "When she notices me, Alsace suddenly panics. In the commotion, she drops her sunglasses into the pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "不、不不不不见了……阿尔萨斯的「指挥官电波阻断器」不见了……！",
+			live2d = true,
+			say = "I-I can't find it... My Commander brainwave interceptor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,59 +240,59 @@ return {
 			}
 		},
 		{
-			expression = 14,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然不理解为什么会出现戴着墨镜找墨镜、并且还把墨镜碰掉进水里才发现这种事……",
+			say = "(She had her sunglasses on until just now... Did she not notice?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但姑且还是潜入水中帮她捡了回来。",
+			say = "I get into the pool and pick up her sunglasses for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "给，「指挥官电波阻断器」……是指这副墨镜对吧？",
+			say = "Commander brainwave interceptor... Would those happen to be these sunglasses?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 12,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "没、没没没错，谢谢指挥官……",
+			live2d = true,
+			say = "Y-y-y-yeah... Thanks, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,29 +303,29 @@ return {
 			}
 		},
 		{
-			expression = 12,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从我手中接过墨镜，阿尔萨斯有些慌张地将它戴好之后——",
+			say = "She accepts them and puts them back on her face, still a little flustered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 7,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "阿尔萨斯，状态已恢复，机体温度正常。",
+			live2d = "main1",
+			say = "Ahem! Status, fully recovered. Temperatures normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,14 +336,14 @@ return {
 			}
 		},
 		{
-			expression = 8,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "指挥官，有何指示？",
+			live2d = true,
+			say = "Awaiting your orders, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,44 +354,44 @@ return {
 			}
 		},
 		{
-			expression = 8,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "（这种状态的切换是不是有点太……）",
+			say = "(She's making a big show of being fine...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 8,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "没事，我也只是来这里游游泳，正好碰到阿尔萨斯在这里。",
+			say = "I just came here to swim, and I happened to find you here. Kick back and relax, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 5,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "阿尔萨斯，在进行情感模块的水冷处理。",
+			live2d = true,
+			say = "Emotion module is being liquid-cooled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,14 +402,14 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "因为会和指挥官产生长时间接触的可能性，阿尔萨斯决定长时间浸泡在水中，防止升温。",
+			live2d = true,
+			say = "Due to a likelihood of prolonged contact with the Commander, this one has been liquid-cooling my module to avoid overheating...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,44 +420,44 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "一直泡在水里的话，可能会错过邮轮上其它的安排。",
+			say = "If you stay in the water forever, you won't get to join in the festivities inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 1,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
-			actorName = "{playername}",
+			live2d = true,
 			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
+			actor = 805031,
+			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "之后我带你好好玩一下吧！",
+			say = "Wanna walk around with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 11,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "指挥官是在邀请阿尔萨斯……约会？",
+			live2d = "headtouch",
+			say = "Commander, are you inviting me on a date...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,24 +468,24 @@ return {
 			},
 			options = {
 				{
-					content = "没错，是邀请。",
+					content = "Yeah, I guess I am.",
 					flag = 1
 				},
 				{
-					content = "没错，是约会。",
+					content = "A date it is.",
 					flag = 2
 				}
 			}
 		},
 		{
-			expression = 11,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "啊……啊啊……",
+			live2d = true,
+			say = "Ah... Aah... Whoa...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,72 +493,62 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			action = {
-				{
-					type = "shake",
-					y = 45,
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
-			expression = 12,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在得到了肯定答复后，阿尔萨斯就像陷入了短路的状态一样。",
+			say = "Hearing my affirmative answer, Alsace suddenly starts trembling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 12,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "四周的水温也开始了明显上升。",
+			say = "(Is it just me, or is the pool getting hot awfully fast?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 12,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_133",
+			live2d = true,
+			hideRecordIco = true,
+			actor = 805031,
 			actorName = "{playername}",
-			hideRecordIco = true,
-			actor = 900441,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯……？你还好么？",
+			say = "Alsace? You okay there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 13,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "「指挥官电波阻断器」失效了……阿、阿尔萨斯即将陷入混乱……",
+			live2d = true,
+			say = "Commander brainwave interceptor... malfunctioning... I-I'm losing control...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,14 +559,14 @@ return {
 			}
 		},
 		{
-			expression = 14,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "感情模块的温度无法靠水冷维持……不、不不不行！",
+			live2d = true,
+			say = "The liquid-cooling was supposed to outpace my emotion module... No, no, no, no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,14 +577,14 @@ return {
 			}
 		},
 		{
-			expression = 13,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "啊、啊啊啊……指挥官，离阿尔萨斯越来越近……",
+			live2d = true,
+			say = "O-oooh, the Commander's getting even closer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,14 +595,14 @@ return {
 			}
 		},
 		{
-			expression = 13,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "视觉回路出现异常、理解回路断开链接……",
+			live2d = true,
+			say = "Visual module malfunctioning! Thought module connection going haywire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,14 +613,14 @@ return {
 			}
 		},
 		{
-			expression = 14,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "阿尔萨斯要、要不行了……！",
+			live2d = true,
+			say = "I-I'm going to explode!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,59 +631,59 @@ return {
 			}
 		},
 		{
-			expression = 14,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "眼前的少女看起来更加手足无措，那副墨镜在慌乱中不知被她弄丢去了何处。",
+			say = "Alsace panics more and more. Her sunglasses fall off again at some point, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知是因为体温升高，又或是某种害羞的情绪作祟。",
+			say = "I don't know if it's because of her higher body temperature or pure embarrassment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明显能看到她白皙的肌肤上蔓延开来淡淡粉色。",
+			say = "...But her fair skin visibly turns a shade of pink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 12,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "阿、阿尔萨斯，即将失去行动能力……",
+			live2d = "touch",
+			say = "I-I'm losing my ability to move...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,29 +694,29 @@ return {
 			}
 		},
 		{
-			expression = 12,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_133",
 			withoutActorName = true,
 			hideRecordIco = true,
-			actor = 900441,
+			actor = 805031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着她的一声宣告，她的身体一软，径直倒入了我的怀中。",
+			say = "Alsace goes limp and collapses right into my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			expression = 14,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "果、果然，阿尔萨斯还需要更多更有效的冷却方法……",
+			live2d = true,
+			say = "I-I might need a more efficient liquid-cooling method...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -743,14 +727,14 @@ return {
 			}
 		},
 		{
-			expression = 14,
+			actor = 805031,
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 900441,
-			say = "唔……",
+			live2d = true,
+			say = "Mm...♡",
 			painting = {
 				alpha = 0.3,
 				time = 1

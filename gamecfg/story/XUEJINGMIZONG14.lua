@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"智者之环·圆环区",
+					"Ring of the Wise - Ring Area",
 					1
 				},
 				{
-					"数据处理中心",
+					"Data Center",
 					2
 				},
 				{
-					"一段时间后",
+					"Sometime later",
 					3
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……不幸中的万幸，被删除的数据是可以进行恢复的。",
+			say = "Phew. Fortunately, I've managed to recover some of the data.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "那真是太好了，有什么发现么？",
+			say = "That's great news. So, what'd you find?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "嗯，之前我们关于“融雪区”和“矿物样本”的推测有了确切证据。",
+			say = "I learned a few things about the geography of the snowmelt area and the manufacturing of those crystals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“矿物”确实是在RF-17-36制造区中生产的，通过要塞的物流系统被送至地表。",
+			say = "I can confirm now that the crystals were indeed produced inside HL-17-36 and transported to the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "在地表的矿物形成规模后，散热系统被调整并指向了地表，融化了盖在其上的冰雪。",
+			say = "As for the snowmelt area, the bunker's heat dissipation system was behind it after all. The heat was directed toward the area after a certain amount of crystals had been delivered to the surface.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像是在冰雪融化后，特殊矿物才从冰层中暴露出来一样。",
+			say = "Therefore, whoever produced these crystals also melted the ice around the dropoff point so they would inevitably be discovered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "如此复杂的调度，就为了将其打造成一种自然现象……",
+			say = "So they went out of their way to make it look like an anomalous phenomenon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……其意义和目的又是什么呢？",
+			say = "But why? Why do any of this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "尚不清楚。或许是计划以矿物为诱饵，让各阵营发现北方联合在安塔提卡秘密修建的地堡，以此来引发新的混乱吧。",
+			say = "Most likely to spark a conflict between factions, using the crystals as bait. Or maybe they wanted to expose the bunker's existence to the world to block the Azur Lane from reforming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,78 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于勘探任务我也有所发现。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "首先，与我们此前的推测不同，勘探任务的启动时间早于矿物的生产时间。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "任务的内容是对于这片冰下海洋的调查，并为此发出了大量无人潜航器。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "从表格中可以看出，无人潜航器一直忠实地履行任务，定时发回的数据也相当丰富。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "直到这个时间点……有一台潜航器没有发回数据。",
+			say = "As I was about to say... I also found info on some scan scans the intruder ran.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +244,78 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "然后随着时间推移，发回数据的潜航器越来越少，直到再也没有新的数据发回来。",
+			say = "Apparently, before they even started producing the crystals, they released underwater exploration drones into this sea.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "It stands to reason they were looking for something under the water. They left behind quite a lot of survey data.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "The drones initially sent in regular monitoring data. Initially.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "After some point, the feeds started going offline, and as time passed, eventually all connection with the drones was lost.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "Currently, there are zero operational drones in the water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "有什么东西……袭击了这些潜航器？",
+			say = "That can't be a coincidence. I think something attacked them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "这片海洋可是在几百万年前就被压在冰盖下了啊……",
+			say = "Maybe something that's been living in this place since it formed millions of years ago...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "该不会真的有史前深海怪物……",
+			say = "So we ARE dealin' with a million-year-old sea monster...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗷呜——————",
+			say = "Roooar!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,10 +413,10 @@ return {
 			bgName = "bg_xuejing_4",
 			actor = 701120,
 			dir = 1,
-			actorName = "凶猛&火力",
+			actorName = "Svirepy & Ognevoy",
 			hideOther = true,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊啊！",
+			say = "AAAAAHHHH!",
 			pos = {
 				x = -300
 			},
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "水星纪念同志，突然吓人可不好哦！",
+			say = "What was that for?! You're so mean!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿嘿嘿，看你们那么可爱，没忍住嘛~",
+			say = "You two just looked sooo cute, eyes sparkling, and I couldn't help myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "你说谁可爱，打你哦！",
+			say = "Don't call me \"cute,\" asshat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "别生气，别生气，要一个抱抱么~？",
+			say = "Ahahaha! Don't be so mad! Come here and let me apologize by way of a big hug.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我要~",
+			say = "Okay, I forgive you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "我才不要！",
+			say = "I don't want a damn hug!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "啊哈哈哈~",
+			say = "Ahahahaha♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "水星纪念的插科打诨成功缓解了紧张的气息。",
+			say = "The girls' silly antics helped to lighten the tense mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "而与此同时，波尔塔瓦的搜索也有了意外发现。",
+			say = "Meanwhile, the adults had a look around. Poltava found a tablet, which she gave to Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "{namecode:530:同盟}同志……我看到了一个有使用痕迹的平板，被单独放在了桌子上。",
+			say = "It looks like it's been used. It was just lying there on the table.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,7 +637,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被使用过的平板……？这里除了我们就只有那个不速之客来过，我看看。",
+			say = "Interesting... It might have been the intruder. Let me have a look.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "平板不出意料地被先前的用户锁定了，不过这没什么意义。",
+			say = "Unsurprisingly, the intruder had put a lock on the tablet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}接过平板，用自己的权限对其进行了解锁。",
+			say = "Then, Soyuz got an idea. She could use her administrator access.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "然后——",
+			say = "She tried to lift the lock on the device, and then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "周围的环境在转瞬间发生了改变。",
+			say = "Again, her surroundings all changed in an instant.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -741,7 +741,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "这种事，{namecode:529:苏维埃同盟}今天已经不是第一次遇到了。",
+			say = "She took it surprisingly well. After all, she had already experienced it once before when she touched the crystal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "自从和矿石共鸣结束后，这些幻象就始终没有离开过。",
+			say = "Or maybe she had simply accustomed to it – these tremors in reality – that she had been getting ever since she left the research station.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "不过此时的景象，还是令她大为震惊。",
+			say = "Whichever it was, she wasn't too shocked... until she saw that tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "这是……塞壬…的……主机空间？！",
+			say = "Is that... a Siren's mainframe?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "远方，是一座机械构成的都市。",
+			say = "Across the horizon, a black tower with a frightening red eye reached high into the heavens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +803,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "不时有光点出现，沿着一定的轨道飘荡着，最后消失在不能被称之为天空的远方。",
+			say = "Light radiated from its crown, spreading out across the sky like great ripples in a lake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "在消灭构建者的战役结束之后，北方联合也获取了关于塞壬主机空间的资料。",
+			say = "Following Compiler's defeat, Soyuz studied the information that the Commander had shared with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "所以{namecode:529:苏维埃同盟}很确信，自己所处的位置，就是某处塞壬的主机空间中。",
+			say = "She was certain of what she was looking at. This was the inside of a Mirror Sea where a mainframe was stored.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			side = 2,
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "而更令她震惊的，是近在咫尺的景象——",
+			say = "She was also certain of – and in shock from – the one right in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "眼前，是一位巨大舰装簇拥下的白发少女。",
+			say = "A rigging shaped like an octopus grabbed hold of Soyuz with its tentacles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "她的触手狰狞地缠绕上来，封锁住了{namecode:529:苏维埃同盟}的一切行动。",
+			say = "Its apparent master, a dainty little girl at its center, extended a hand toward her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,12 +893,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观察者……的袭击？！",
+			say = "You're... Observer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "压迫感从四面八方席卷而来。{namecode:529:苏维埃同盟}试图抵抗，却发现舰装已经无法控制了。",
+			say = "It felt like pressure was acting on her from every direction. Her body couldn't move as she wanted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,12 +921,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无法开火……甚至……无法移动……",
+			say = "I can't move... My rigging... Why can't I move?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,12 +938,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是……观察者的干扰能力么……",
+			say = "You... It's your jamming, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,12 +955,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕，越缠越紧，视线开始……模糊了……",
+			say = "Shit... The tentacles are crushing me... Can't breathe... I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -992,7 +992,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "意识即将坠入黑暗前，{namecode:529:苏维埃同盟}注视到了观察者的面庞。",
+			say = "Just as she was on the brink of falling unconscious, Soyuz looked at Observer's face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "那是一副隐藏在触手阴影中的，万分痛苦的面庞。",
+			say = "Hidden behind her many tentacles, she looked as though... she was in pain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,12 +1028,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……万分痛苦？",
+			say = "She's... hurting?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
-			say = "平板上血红的SOS，似乎正在昭示着某种非同一般的现实。",
+			say = "The target of her jamming was in fact not Soyuz – but rather the tablet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,12 +1056,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观察者……在求救？",
+			say = "\"SOS\"... She's asking... for help?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "许久后，光芒回归。",
+			say = "An inordinate amount of time passed. Then, the darkness gave way to light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,7 +1104,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "不远处的波尔塔瓦面带微笑地将平板递了过来。",
+			say = "Soyuz sharpened her focus and saw Poltava, handing her the tablet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,7 +1115,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg5",
 			hidePaintObj = true,
-			say = "似乎在幻象中度过的时间并没有影响现实。",
+			say = "The vision was just that – a vision. Her reality was untouched.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,7 +1130,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我回来了？",
+			say = "...I'm back again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1165,7 +1165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "回来了？",
+			say = "\"Back\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,7 +1183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "从哪里回来了？",
+			say = "Back from where, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1201,7 +1201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "不……没什么。",
+			say = "Nowhere. Forget I said it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1219,7 +1219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "{namecode:530:同盟}同志，你的脸色突然很差，又出现幻觉了么？",
+			say = "You okay, Soyuz? You dropped the tablet and looked like you saw a ghost. What happened?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1237,7 +1237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "嗯……不过不要紧，稍微休息一下就好。",
+			say = "I had another hallucination. Don't worry, I'll be fine. I just need to rest a bit...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1252,7 +1252,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "被搀扶着坐下后，{namecode:530:同盟}在心中回忆着幻象之中发生的景象。",
+			say = "After going through the tablet's contents, Soyuz sat down on a chair to compose her thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1283,7 +1283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "呵，虽然之前在和{namecode:440:腓特烈大帝}合作的时候，我也没有将真实意图和盘托出。",
+			say = "(Was that Observer's mainframe? Iron Blood has said the likelihood is high that her mainframe is somewhere in the Southern Ocean...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1300,95 +1300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是她能同意合作，现在看来也是另有深意啊……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "……刚才所见到的景象似乎就是……最为神秘的观察者的主机了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "所以……观察者的主机，大概就隐藏在安塔迪卡冰层下的大洋中。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "这一切，是观察者布的局。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "而其布局的目的是……求救？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……不对，不可能。",
+			say = "(But that can't be... right? This is too good to be a coincidence. Bismarck, Friedrich...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1406,7 +1318,24 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我何德何能，会让观察者选择来向我求救……",
+			say = "(So much of our intel is uncertain. Still, I need to start forming theories.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(There are three potential suspects for who the intruder is. A Siren, a META, or whoever controlled that Arbiter during the near-superimposition event.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1424,24 +1353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "……被引来的阵营不止一家，其中只有白鹰派出了一支大规模舰队。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "难道，观察者原本计划要引来的是白鹰……",
+			say = "(They all possess advanced technology. It's also not far-fetched to say they could breach the security here with ease... but my only lead is Observer.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1459,7 +1371,24 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "只是因为我先到了，它的状态又很差，所以别无选择么……",
+			say = "(The odds that she'd disclose her mainframe's whereabouts of her own volition are as good as zero. So if it's not her, it's someone who's trying to gather everyone here.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(That's the most plausible theory I've got right now...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1477,24 +1406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "逻辑到这里为止算是通顺的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过……就算矿石和融雪是观察者准备的诱饵……环境勘测的目的又是什么呢？",
+			say = "(I don't know who, but SOMEONE has pinpointed the location of her mainframe.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1512,7 +1424,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "如果说冰层之下就是观察者的主机空间，那它为什么自己要用仪器再勘测一次。",
+			say = "(This person must've used the bunker's drones to try to find a way inside the Mirror Sea that hosts the mainframe.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1529,59 +1441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除非…………进行勘测的另有其人！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 705020,
-			say = "勘探任务的时间早于生产线启动的时间……原来是这样！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "除了观察者之外，还有一个人利用了「智者之环」……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_4",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "而这个人……拥有足以将观察者逼入绝境的实力，所以观察者才制定了这个潦草又冒险的计划……",
+			say = "(For one reason or another, they didn't succeed, so they're trying something new – assembling all the factions here.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1459,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "……不行，不管这次危机背后的操盘手是谁，都已经不是我们能够应付的级别了。",
+			say = "(They produced those crystals, brought them to the surface, and leaked intel to Naval HQ to mobilize the Eagle Union. Outside shipgirls would get involved and be used as scapegoats...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "(Ugh... No, this isn't enough. The theory has too many holes.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1616,7 +1494,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "必须立刻脱身，从长计议才行。",
+			say = "(Maybe Observer brought those crystals into existence and is asking for us to rescue her.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1634,7 +1512,129 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "波尔塔瓦！",
+			say = "(Maybe someone is showing me these visions to guide our attention to Observer for some reason that would benefit them.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(Maybe the Sirens are behind it all. They could be trying to turn us against each other to keep us away from Antarctica.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "(What if they're putting us in danger to lure out Comrade Commander...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(Using the bunker as a means to guide us – to guide the first party to discover the truth...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(Is that it? Could that be... why Pamiat' is here...)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "(I'm not sure of anything anymore. Whatever's really going on here, we can't deal with this situation with this few people.)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(We've got to get out of here immediately and tell the world what we've seen!)",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xuejing_4",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 705020,
+			say = "Poltava!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1669,7 +1669,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "{namecode:530:同盟}同志，你……为何面色还是如此之差？",
+			say = "Yes? What is it? You look pale.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1687,7 +1687,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我明白过来了，这是个陷阱！",
+			say = "The snowmelt area, the crystals... I think this is all one big trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1704,7 +1704,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "全员立刻撤退，我们离开地堡，离开安塔迪卡！",
+			say = "We need to return to the surface... No, we need to retreat from Antarctica entirely!",
 			painting = {
 				alpha = 0.3,
 				time = 1

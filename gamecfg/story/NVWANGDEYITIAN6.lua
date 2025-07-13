@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"女王的一天\n\n<size=45>六 晚饭时光</size>",
+					"The Queen's Ordinary Day\n\n<size=45>6.A Hearty Dinner</size> ",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "皇家本岛·伊丽莎白的办公室",
+			say = "Royal Islands - Elizabeth's office",
 			bgmDelay = 2,
 			bgm = "theme-partydress",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "日暮西沉，忙碌了一天的伊丽莎白此刻正靠在舒适的办公椅上。",
+			say = "With her work for the day complete, the queen leaned back in her comfortable chair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "她心不在焉地用手从桌子上随机抓取着报告，心不在焉地浏览了一遍，然后心不在焉地将报告随手扔到另一边。",
+			say = "She leafed through a few reports on her desk, tossing finalized documents into a big pile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,10 +67,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_115",
 			nameColor = "#A9F548FF",
-			say = "滴————————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……是贝法啊，我在听，你说。",
+			say = "Ah, Bel. What do you have for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202120,
-			say = "陛下，我收到了一份关于维希教廷的重要情报。",
+			say = "Your Majesty, I have received a report regarding Vichya's movements.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202120,
-			say = "凯尔盖朗岛上的驻防部队已于今日全部撤离，目前整个岛屿以及岛上的维希圣堂都处于无人控制的状态。",
+			say = "Their mass-produced fleet stationed at the Kerguelen Islands has evacuated, effectively leaving it and its Basilica facility deserted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202120,
-			say = "自由鸢尾那边似乎还没有注意到这件事，也许是我们的一个好机会。",
+			say = "Iris Libre appears unaware of this fact. Shall I contact Lady Richelieu?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？",
+			say = "No need. She'll go running over in no time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "终于收缩防御收缩到这个岛了……让本王好等啊！",
+			say = "...Wait a moment. Why would they even station that many mass-produced ships near the Antarctic region?",
 			effects = {
 				{
 					active = true,
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻命令安塔迪卡洋舰队将圣堂控制下来！",
+			say = "Bel, tell the fleet in the region to capture the islands and investigate the Basilica at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抢在自由鸢尾前面，看看维希教廷究竟在那里面弄了些什么东西！",
+			say = "Find out what's inside, before the Tribunal gets to it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202120,
-			say = "遵命，我这就去安排。贝尔法斯特通讯结束。",
+			say = "As you command. I shall see to it.",
 			effects = {
 				{
 					active = false,
@@ -262,7 +262,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~交火夺取是一回事，接管无人控制的地区又是另一回事了。",
+			say = "(The Basilicas are said to represent the authority of the Iris Orthodoxy... but that's not the whole story.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等调查清楚之后做个人情送还给黎塞留也不错……",
+			say = "(The island that Richelieu occupied before contained a secret weapon called the Skybound Wall. There's a chance those facilities are the Holy See's research facilities.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "糟糕……好不容易恢复的一点精神又用光了。",
+			say = "(If we get to it before the Tribunal does, we might be able to get a step ahead of the Naval HQ and assist Richelieu in the process.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么就这个点了啊……纽卡斯尔，本王要回房间休息了。",
+			say = "It's already getting late. Newcastle, we should head back now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "晚饭直接送到我的卧室就行，除此之外不管收到什么消息都别打扰我！",
+			say = "Just bring dinner over to my bedchamber. I don't want anyone bothering me this evening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。那么陛下，今晚前往威斯敏斯特大教堂的行程要取消么？",
+			say = "Understood. Shall I cancel your visit to the Coronation Abbey?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊………………",
+			say = "......Huh?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就过半小时，等本王休息半小时就出发……",
+			say = "There's STILL more work to do? Ugh, let me rest for half an hour first...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "二小姐与收藏室……？",
+			say = "Whydah, and something about a collection room?",
 			bgm = "qe-ova-15",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得收藏室位于古堡的二楼，看来下一步应该前往二楼区域进行调查了。",
+			say = "That's on the second floor, I think. I should head up there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,18 +54,18 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，现在她们都在走廊上，直接上二楼一定会被阻止。首先得想个办法才行——",
+			say = "Those two will probably still be in the corridor, though. I can't sneak past them like this. What to do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我有枪！",
+					content = "Time to use my gun.",
 					flag = 1
 				},
 				{
-					content = "原地等待一会",
+					content = "Wait here for a while.",
 					flag = 2
 				}
 			}
@@ -74,12 +74,12 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "Impromptu Replacement GM",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			actorName = "代理KP",
+			actorName = "Z2",
 			hidePaintObj = true,
-			say = "没错，你有枪，然后呢？你要用枪去威胁古堡中柔弱可怜的少女们么？",
+			say = "Sure. What are you going to do with it? Threaten the two servants standing outside?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "……还是先在原地等待一会吧。",
+			say = "...On second thought, I'll just wait here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,11 +102,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只经过了片刻等待，从墙外传来的声音就彻底消失了。",
+			say = "A while later, the voices on the other side have gone away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,11 +130,11 @@ return {
 			},
 			options = {
 				{
-					content = "出发！",
+					content = "Time to run for it!",
 					flag = 1
 				},
 				{
-					content = "再等一会。",
+					content = "Not quite yet...",
 					flag = 2
 				}
 			}
@@ -143,11 +143,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又经过了一段时间后，依然没有传来任何声音。你现在可以确信，走廊外已经没有任何人了。",
+			say = "You've been waiting patiently without making as much as a peep. You are certain there's nobody in the corridor anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,11 +157,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你穿过走廊，回到了一楼大厅。",
+			say = "Leaving the banquet hall, you take the stairs up to the second floor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "真相只有一个",
+			factiontag = "Serious Protégé GM",
 			blackBg = true,
 			bgm = "stopbgm",
-			actorName = "一本正经的后辈KP",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "城堡的楼梯很长，你总觉得自己走了很久很久……",
+			say = "It is a long staircase, and it takes you a considerable time to climb them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,12 +203,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "Serious Protégé GM",
 			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "一本正经的后辈KP",
+			actorName = "Essex",
 			hidePaintObj = true,
-			say = "终于，你顺利到达了二楼，没有任何人发现你的踪迹。",
+			say = "You set food on the second floor without anyone catching on to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,11 +235,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "Serious Protégé GM",
+			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你突然觉得很累，开始觉得有些头晕乏力，一些模糊的画面突然闪过你眼前……",
+			say = "Now exhausted, your head starts spinning, and blurry images flash before your eyes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,11 +249,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=15）——成功！你终于想起了一件极其重要的事情！从小，你的身体就不是特别好。",
+			say = "Roll a D100... 15, success! You've remembered something important! Believe it or not, your health has been poor ever since you were little!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,11 +263,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜，你已经回忆起了自己的能力值：体质，15。",
+			say = "This is reflected by your Constitution stat – so, your stamina – being 15!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别看你身形高大、体态匀称、还有着不少肌肉的样子，实际上这不过是徒有其表的躯壳罢了。",
+			say = "You are an investigator with a beautiful mug and balanced physique, yet lacking musculature, and the toil of adventuring is too much for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……多少？",
+			say = "Wait... 15?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +303,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只有15点哦！骰运不济啊~",
+			say = "Yep, a mere 15. I'm sorry, Commander. My luck with the dice is awful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,11 +317,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然成年后你已经不用担心一场小小的感冒就会夺走你的生命。但每当过度劳累后，你都会陷入一段时间的头晕目眩。",
+			say = "At least you're an adult, so you won't die randomly from catching a cold. Still, you will suffer brief vertigo when you push yourself...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,11 +331,11 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "(Self-Proclaimed) Great Detective GM",
+			actorName = "Bristol",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这期间，你什么都做不了，只能等待身体慢慢恢复。",
+			say = "You can't do any investigating when that happens. You just have to wait and recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……看来只能稍微休息一下，再继续前进了。",
+			say = "Alright... Time for a break, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

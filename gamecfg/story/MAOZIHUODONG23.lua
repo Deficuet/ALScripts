@@ -10,7 +10,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "不久前，塞壬要塞中心海域",
+			say = "Later, at the Siren stronghold",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "白色舰队势不可挡，一路披荆斩棘将战线推入了要塞的中心区域",
+			say = "Little could impede the progress of the Northern Parliament's fleet as it plunged deeper into the Siren stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "四周是高耸入云的冰壁，海面则变得越发的汹涌，能规避攻击的空间变得越来越少。",
+			say = "As was suspected earlier, the stronghold was linked to the defensive structures on the surrounding icebergs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "冰壁上布满了密密麻麻的防御炮，冰壁的缝隙之间则是一支支的巡航舰队",
+			say = "Light reflected off the jagged spires of ice, revealing the countless defensive structures and artillery mounts encased within.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "和从外边看起来的冷清沉寂相比，真是热闹的不像话",
+			say = "This was the true nature of the stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀呀，没想到在眼皮底下毫无动静的冰雪要塞，内部竟然大有玄机呢",
+			say = "I didn't expect all of this to be dwelling just beneath us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯…看来早就应该灭了它才对。",
+			say = "We should have addressed this threat long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			},
 			options = {
 				{
-					content = "北方联合为什么一直没有出手清理呢？",
+					content = "Why didn't you...?",
 					flag = 1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "北方联合在塞壬出现之初遭受了巨大损失，之后虽然情况有所好转，但盘踞于极地的塞壬拖住了我们几乎全部的精力",
+			say = "Well, the Northern Parliament's anti-Siren capacities are concentrated along our sea routes, coastal areas, and in the Arctic region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,24 +139,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里虽然同时隶属于两个司令部管辖，但并不是白鹰的战略重心。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_cccp_7",
-			actor = 705050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "虽然曾经也进行过数次联合进攻，不过结果就如指挥官所知，皆是无功而返",
+			say = "We did not have the ability to reach a remote location like this one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +156,24 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果不是这次纽约司令部遭袭，白鹰认真对待周边威胁，派出主力舰队前来的话。",
+			say = "Like Azur Lane, we're trying to first re-establish control over our sailing routes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_cccp_7",
+			actor = 705050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "As was with the case in NY City, it can be difficult to justify mobilizing forces to areas that have not presented a clear threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算北方联合能够派遣主力舰队，只依靠北方联合恐怕也很难取胜",
+			say = "I hope you understand the circumstances.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "指挥部的行动呢？",
+					content = "What's your broader strategy?",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为赤色中轴的那些事，各大海域战事频发，不但要应付塞壬，还要和昔日的盟友开战",
+			say = "Our general principle is to use whatever resources are at our disposal, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再加上撤换司令部，重新分配管辖海域…现在皇家和白鹰连身边的事都快忙不过来了吧",
+			say = "Admittedly, we didn't give much consideration to the idea of taking this stronghold for ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 702030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里不是指挥部的战略重心，再加上确实一直以来都没什么威胁，就被一直放任下来了",
+			say = "...We may not have done the proper amount of research in this case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,24 +261,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "放置…吗。上次的事就是警示，虽然塞壬的攻势陷入低潮，但是它们的阴谋从来都没有停下……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_cccp_7",
-			actor = 705050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "По сути ничего не меняется.Меняются лишь наши представления о сути（实质上什么也没变，变化的只是我们对实质的理解）",
+			say = "Either way, since we've already come this far, we can't leave empty-handed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +278,24 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，指挥官同志。塞壬的实质从来都没有变，变化的只有我们对实质的理解",
+			say = "Right, our objective is still the same. We just have to take down this stronghold.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_cccp_7",
+			actor = 705050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "We are under your command, comrade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

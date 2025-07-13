@@ -1,5 +1,5 @@
 local var_0_0 = {
-	"点击帮助查看按钮说明"
+	"Tap the help button to check the detailed explanation"
 }
 
 return {

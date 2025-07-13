@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -73,10 +73,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "最终星耀·LALA",
+			actorName = "Lala, Final Spark",
 			bgName = "bg_tolove_2",
 			nameColor = "#FF9B93",
-			say = "……“可”……“恶”……",
+			say = "YOU... DARE...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "居，居然会说话了……？！",
+			say = "Huh? Did it just talk?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "明明只是复制体，却拥有智能吗？",
+			say = "Are you telling me that doppelganger is intelligent?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			say = "一股不祥的红色光芒自复制体菈菈的身上迸发而来。",
+			say = "While the party was stunned by this revelation, the Lala doppelganger burst into ominous red light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不好！贝法，将量产型全部顶上去！",
+			say = "This is bad! Bel, position the mass-produced ships to shield us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所有人立刻退后！",
+			say = "Everyone, fall back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "耀眼的光芒化做巨大的火球，伴随着巨大的冲击波，周围的一切都被火焰吞噬殆尽——",
+			say = "The blinding light became an enormous fireball, engulfing everything alongside a world-shaking shockwave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……所有人，都没受伤吧？",
+			say = "Ugh... Status report, everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "咳咳……好险……",
+			say = "*cough* *cough*... That was close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "呼……呼……大家，都还好吧？",
+			say = "*pant*... Is everyone okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "我，我没事……",
+			say = "I-I'm fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,10 +247,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "最终星耀·LALA",
+			actorName = "Lala, Final Spark",
 			bgName = "bg_tolove_2",
 			nameColor = "#FF9B93",
-			say = "……“……“……”……",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "原本已经化作火球的复制体菈菈，居然又重新出现在众人面前。",
+			say = "The same doppelganger who'd just detonated mere moments ago appeared before them once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这……这怎么可能啊？",
+			say = "N-no way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,10 +301,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "警告！警告！最终防御系统启动！",
+			say = "WARNING! WARNING! ACTIVATING FINAL DEFENSE SYSTEM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,10 +312,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "即将进入最终试炼关卡——",
+			say = "ENTERING FINAL CHALLENGE LEVEL!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……最终试炼关卡？",
+			say = "...Final challenge level?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "只见超级游戏制作机的屏幕上，显示出一个巨大的红色倒计时——",
+			say = "A big red countdown appeared on Questy MacGuffin's display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,10 +345,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
-			say = "“10、9、8……”",
+			say = "\"TEN, NINE, EIGHT...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看来，不击败这个“最终试炼关卡”，我们是没法回去了呢。",
+			say = "It seems we must overcome this final challenge before it will allow our safe return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸……看上去好像是这样呢。",
+			say = "Ugh... Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "无妨，让这场最终试炼成为本王战史的又一场胜利吧。",
+			say = "Fine by me. Let this be one of the many glorious victories of Queen Elizabeth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "梦梦，娜娜，小暗，春菜，唯……",
+			say = "Momo, Nana, Yami, Haruna, Yui...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "终于到决战的时候了！大家，拜托了！",
+			say = "This is our final battle! Let's kick butt, girls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人，就放心交给我吧。",
+			say = "Leave it to me, sis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姐姐，就算你不说，我也会全力战斗的！",
+			say = "You're wasting your breath. I'm always ready to kick butt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "一起战斗吧……菈菈公主……",
+			say = "I'll fight with you, Princess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "我，我相信菈菈……！",
+			say = "I-I believe in you, Lala...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "哼，我早都想狠狠收拾一下这群不守风纪胡乱攻击的家伙了。",
+			say = "Hmph. Breaking the rules, disturbing the peace, attacking people at random... It's high time someone punished them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "联合舰队，出击！",
+			say = "Royal Navy, attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			stopbgm = true,
-			say = "过去的片段————",
+			say = "Mirror Sea - In the past",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "一片高楼林立的建筑群中，无数小型飞行器正在净化亲的指挥下忙碌地飞舞着。",
+			say = "Under Purity's command, countless small flying units circled around a forest of skyscrapers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "这边需要再来几个激光炮台，护盾生成器也需要点，不过，动能武器也不能太少了……",
+			actorName = "Purity",
+			say = "Throw a few laser turrets here, add in a shield generator or two... Ooh, and I'll have to grab a good number of kinetic weapons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "……汝把这里修得这么危险，那吾等之前排除威胁又是为了什么？",
+			say = "You confuse me. What is the point of \"cleaning things up\" for them if you're planning to add real weapons?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,8 +88,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "这个火力阵地可不是为了伤害其他人而存在的哦？它的使命是守护这片核心区！",
+			actorName = "Purity",
+			say = "Heheh! These aren't for the adventurers. They're to protect the central hub.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,8 +115,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "如果传送门在其他人到来之前因为意外被摧毁，那事情就麻烦了吧？",
+			actorName = "Purity",
+			say = "We don't want something going WAY wrong and destroying the transporter before the others get here. That'd be catastrophic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,8 +133,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "另一方面也是为了唬住人。在获取能够安全通行的权限卡之前，为了避免不速之客的来访，就得修得夸张一点才行！",
+			actorName = "Purity",
+			say = "Plus, it's a good bluff. Having a bunch of defensive weapons around helps keep them from wandering in before they get the keycard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,8 +150,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "一看这里这么危险，肯定不会有人想着冲过来对吧？",
+			actorName = "Purity",
+			say = "Make it look scary as hell, and there isn't an idiot in the world who would make this their first destination.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "唔……妾身觉得汝这招应该不太管用。",
+			say = "Hrmmm... I doubt it will have the intended effect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,8 +186,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "你觉得这样都吓不住么？唔……既然如此，那就，再来几个！不对，再加一倍火力好了！",
+			actorName = "Purity",
+			say = "Say what?! You're not saying this stuff wouldn't scare them, are you? Then... Fine! I'm doubling the firepower!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,8 +203,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "既然已经留下了指引，就要按照规则来，如果不讲规则进行强攻的话——",
+			actorName = "Purity",
+			say = "I was kind enough to leave instructions for them. If they wanna break the rules and try to break into the final destination...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,8 +221,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
-			say = "就来感受一下净化亲超强火力阵地的威力吧，啊哈哈哈！！",
+			actorName = "Purity",
+			say = "Then let's see if they can make it through Purity's super-strong, no-holds-barred fortifications! Aaahahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900060,
-			say = "简直像某个反派一样……",
+			say = "You're starting to sound like a villain now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_ryza_1",
 			nameColor = "#A9F548FF",
-			say = "遗迹群岛·起始之地 莱莎的临时炼金工房",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "已经集齐了三把钥匙了，但是最后一把钥匙所在的失落之都怎么都找不到呢……",
+			say = "Okay, so we found our third key. But, uh... We still don't know where the \"Desolate Capital\" is, do we? How will we find the last one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我觉得也没必要石碑说什么我们就听什么吧？",
+			say = "I've been meaning to ask about that. Do we actually need to follow the monument word for word?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "\"打开障壁”的意思应该是说要打开什么门吧……我们现在的钥匙已经能够打开四个门里的三个了，那就剩下最后一个！",
+			say = "If \"breaching the towering barrier\" means opening some kind of door, then that means we can open three out of four doors now, yeah? That just leaves one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "说到底这里也不过是一处塞壬的镜面海域，就算还有一道门没有钥匙，靠我们的火力打过去不就行了？",
+			say = "And if the Mirror Sea belongs to the Sirens, why do we have to be nice and use a key for every single door? I bet we could blow that last one away with cannon fire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "真是个……不错的的建议啊！也许最开始的时候火力是差了一点。但是现在莱莎、帕特莉夏、赛莉、莉拉都有了舰装。",
+			say = "Ooh, good idea! We've got added firepower in the form of Ryza, Patricia, Serri, and Lila's riggings, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的战斗力已经大幅提高，肯定够给这里的塞壬一点教训了！",
+			say = "With these forces, we could give those Sirens a real walloping!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "调查陷入僵局的时候，偶尔这么胡来一下……好像也不错呢！",
+			say = "True... Our search has hit a dead end. Why not try brute force once in a while, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莱莎，没问题吗？",
+			say = "Are you sure about this, Ryza?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系，科洛蒂娅~如果出现强敌的话，大家齐心协力将其打倒就好！",
+			say = "Don't you worry, Klaudia. Even if we run into strong enemies, I know we can win if we just work together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900030,
-			say = "嗯，我也想检验一下新获得的力量，一场与强敌的对决再合适不过了。",
+			say = "She's right. I happen to be in just the mood to use my newly-obtained power, so I would appreciate a strong foe right about now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207050,
-			say = "赞同，不能一直被塞壬耍得团团转，是时候由我们主动出击正面迎敌了。",
+			say = "You have my approval as well. It irks me to be toyed with by Sirens. I say it's high time we mount our own offensive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "（……如果要正面进攻塞壬核心区，现在舰队实力其实还有些不足。）",
+			say = "(Do we have the numbers to attack the Sirens' central hub head-on? I have my doubts.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "（但是……这里的战斗一直都不太激烈，也许此处镜面海域不能靠常理来判断……）",
+			say = "(But it's not like the battles so far have been really hard... Maybe we shouldn't assume this Mirror Sea follows the rules of common sense.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（既然大家都跃跃欲试的话，那就试试看好了。）",
+			say = "(Forget that. Everyone's ready and raring to go! Let's ride this momentum and give it a shot!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:175}阁下，你果然还是有些担心么？",
+			say = "What's wrong, Suruga? Something on your mind?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "嗯，但是现在也没有其他更好的办法了。我来当前锋，就让我们去北边塞壬的核心之所一探究竟吧！",
+			say = "You could say that... But we don't have any other leads. I will take the vanguard; let us investigate the Siren island to the north!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "story-richang-flexible",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}，吃饱了……",
+			say = "Whew. I'm stuffed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "看着桌上横七竖八的零食包装，不禁有些头疼。",
+			say = "Snack packages lie scattered across the table. Looking at it all makes my head hurt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "只吃零食的话会营养不良的……",
+			say = "It's not healthy to eat nothing but snacks, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系。",
+			say = "Hmph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "看来这种程度的劝说完全不会起作用啊。",
+			say = "That doesn't seem to faze her. Time to turn up the heat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "只吃零食的话，是没办法变成大人的。",
+			say = "Also, you can't become an adult on a diet of snacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,11 +110,11 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧……",
+			say = "Really? In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在那之后，TB就不再吃那么多零食了。",
+			say = "Since then, she has stopped eating snacks in large quantities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

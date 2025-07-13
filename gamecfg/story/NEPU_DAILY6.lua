@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>第六话　『游戏大会！』</size>",
+					"<size=45>Chapter 6 - Game Night With The Girls!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在！第一届游戏大会正式开始！！",
+			say = "And now I'd like to announce the first Annual Gaming Party as having officially begun!",
 			bgm = "story-nepu2",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——哇～～～！咚咚！啪啪！",
+			say = "HOORAAAAAAAY! DA-DA-DADA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}提供的材料，加上{namecode:37}的技术协助！以及诺瓦露带来的游戏业界最新的游戏光盘！把一切进行超次元融合！",
+			say = "We bring you a hyperdimensional fusion of materials provided by Akashi, technical know-how provided by Yuubari, and game discs Noire brought with her from Gamindustri!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这才得以实现的大型活动！仅限今天，学院化作了游戏中心！来吧，各位！放开了玩吧！！",
+			say = "We bring you... A hyperdimensional event! For the whole day, the academy will be one giant arcade! Now come, everyone! Play and enjoy yourselves to your heart's content!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——哇～～～！咚咚！啪啪！",
+			say = "HOORAAAAAAAY! DA-DA-DADA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "材料可不是免费赠送的喵。这回活动赚的利润要全部回收喵…",
+			say = "I didn't provide anything for free, nya. I will get my share of the profits you earn from this event down to the last cent. Capiche?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:37}",
-			say = "呒呒呒、异次元的游戏技术…都是从未接触过的资料，真是太新鲜了！以这些技术为参考不知道能不能开发出什么新装备？",
+			say = "Hum hum, I'd never come across gaming technology from another dimension before... But now that I have, I can say it was an invigorating experience! Could I use these as reference for designing some new equipment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作、作为游戏业界的女神，随身带着游戏光盘是当然的嘛…啊哈哈哈哈哈（只是偶然带着什么的…事到如今怎么说的出口嘛……）",
+			say = "W-well, it's only natural a CPU from Gamindustri would have some spare games on her... Ahahahaha... (Now I can't go and tell them I just happened to bring them with me...)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了诺瓦露，大家都玩得很开心呢！",
+			say = "It's all thanks to Noire that we'll be able to have so much fun today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所以各位！让我们为带来了许多最新的游戏光盘，此次最大的功臣，女神诺瓦露献上鼓掌！啪啪啪啪啪啪！",
+			say = "You heard it, folks! This lady here who brought tons of the latest and greatest games is our MVP! A round of applause for the wonderful Noire! Clap clap clap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——哇～～～！咚咚！啪啪！",
+			say = "HOORAAAAAAAY! DA-DA-DADA!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等、等一下…诶嘿嘿，这点程度，对女神来说是理所当然的！好，今天大家玩得开心点！我请客！",
+			say = "Um, well, you know... Hahaha, this is just, um, how I roll as a CPU! Go on, enjoy yourselves today! It's all on me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:13}",
-			say = "竟然举办了这么大型的“ebent”…原来如此！不愧是诺瓦露！这就是所谓的“管理技巧”吧！",
+			say = "It's amazing they're able to hold an event as big as this... I see! Noire really knows her stuff! This must be why they call it \"item management\"!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:14}",
-			say = "我也很佩服…“企划力”和“策划力”完全不是一个档次的",
+			say = "I am amazed as well... After all, planning something is easy, but to realize it is not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘛，提出这个的是涅普顿，只不过她干到一半就腻了把东西都丢给我了而已。真是的，如果没有我在的话看她怎么办……",
+			say = "Well, Neptune was the one who proposed it, but halfway in she got bored and left everything to me. Who knows how poorly things could have gone if I wasn't here to take over...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，看大家都这么开心我也就满足了",
+			say = "But still, I'm glad I get to make everyone happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……好久没看到诺瓦露的笑容了",
+			say = "...I haven't seen you smile in a long time, Noire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么，布兰？",
+			say = "Did you say something, Blanc?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…没什么…来吧，突击者、{namecode:405}。让你们见识一下电子小说的魅力……",
+			say = "...No, nothing... Now, Ranger and Künne, come along and I'll teach you the true joy of visual novels...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……电子小说的文学性，解读剧情，通往正确选项的方法…我仔细给你们解说……",
+			say = "...The literary nature of visual novels, how to read and analyze a story, how to make the right choices... I'll teach you everything there is to know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！拜托你了布兰老师！",
+			say = "We will follow your lead, Miss Blanc!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "今天也感谢您的指导！布兰老师！",
+			say = "We are as always thankful for your guidance, Miss Blanc!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "布兰…老师？你到底教了她们什么……？",
+			say = "Miss Blanc...? What have you been teaching them...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…在图书馆稍微…发生了点事呢",
+			say = "...Just some stuff from the library.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "咚！咚！咚咚！——砰！",
+			say = "BANG! BANG BANG! POW! BA-BOOOOM!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗就是火力、战斗就是火力……啊啊，弹药不足了！",
+			say = "Firefight, firepower, firefight, firepower... Ahh, I don't have enough ammo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}！把弹药给我、弹药！这样下去要输了！",
+			say = "Ayanami! You've gotta bring me some ammo, otherwise we're gonna lose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "请自己想办法…这里也快弹尽粮绝了！",
+			say = "You'll have to do something about that on your own... Things are only getting worse for me over here as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵呵…还是太嫩了呢，看来都还是新兵啊？别以为在战略FPS上能胜过姐姐我哦？",
+			say = "Ohoho... I see you have much to learn. You're both newbies, aren't you? Did you really think you could beat me in a tactical shooter?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -498,7 +498,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "……贝露姐姐，果然很强……！",
+			say = "...I guess you're really good at this after all, Vert...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明2对1应该很有利的，为什么还是输了啊……？",
+			say = "It's a 2v1, we're supposed to have the advantage, so how come we're losing~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……其实，拉菲一直跟姐姐是一边的",
+			say = "...Truth is, I've been on Vert's side all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪也偷偷跟着哦♪",
+			say = "As have I!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦！？还想说那边的兵力怎么这么多！原来是3对2吗！？",
+			say = "What?! No wonder your team's got better stats than we do! But that makes this a 3v2!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "太卑鄙了！贝露姐姐……！",
+			say = "That's not fair! You play dirty, Vert...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵呵……正所谓“兵不厌诈”，这也是战术的一部分哦。大家学到了吗",
+			say = "Hohoho... There are no rules in war. Also, deceiving the enemy could be thought of as a tactic. Perhaps you've learned something today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "原来如此……既然这样，这里也要请求救援了！",
+			say = "I see... Then we will call for some reinforcements as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此——“见义不为无勇也”！就让我助你们一臂之力吧！",
+			say = "Indeed! Only a coward with no morals would stand by and watch! I will assist Ayanami and Long Island!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这时候进一步！陷阱卡发动！",
+			say = "What's more, now's the time to use the ace up our sleeves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "——咚咔——！",
+			say = "KABOOOOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊啊啊啊！？贝露小姐，要被逆转了啊～！？",
+			say = "Eeeeek?! They've turned the tables on us, Vert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "兵力对等…玩家也是3对3…",
+			say = "Now they have the same stas as us, and they made it a 3v3...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎呀呀，一下子陷入苦战了。败色浓厚啊",
+			say = "Oh dear, and in the blink of an eye we're not winning anymore. We're most likely going to lose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是…就是有逆转才有趣，这也是游戏的一种玩法呢",
+			say = "But... Some people play games precisely because they want a challenge, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此！这里的是“四轮驱动”呢！",
+			say = "I see! So at this corner you do a four-wheel drift!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -769,7 +769,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:14}",
-			say = "{namecode:13}真熟练呢。选了转向灵活的车种呢",
+			say = "That was good, Ikazuchi. It seems you picked a model with good steering.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -789,7 +789,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么～明明选了最快的车却还是赢不了！？",
+			say = "What the heck! I picked the fastest car there is, so why can't I win?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是因为涅普顿用不惯这个车吧",
+			say = "I think it's because you can't handle all that speed.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -825,7 +825,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赛车游戏比起速度，更应该用精巧的操作减少无谓的行驶距离，尽可能的跑在跑道内才对吧……",
+			say = "In racing games, how well you can control your vehicle, how many shortcuts you can take, and going as fast as possible without going off course are more important than just going the fastest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你，从头到尾都只顾着踩油门啊",
+			say = "And all you were doing was putting the pedal to the metal and crashing into things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "转弯就要这样……涅噗～！？又撞了！？",
+			say = "Then I'll turn at the curve properly this... Nep?! I totaled my car again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +874,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:13}",
-			say = "就在涅普涅普四处乱撞的时候到达“goal”！“winning”永远是{namecode:13}大人的囊中之物！",
+			say = "And while Nep-Nep's busy with that, I'm gonna slamdunk that finish line! It's victory lap time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:14}",
-			say = "{namecode:13}、干得好…我也“goal”了…姐妹“独占”第一第二。看来要开胜利的“xiangbin”了呢",
+			say = "Bravo, Ikazuchi... I'm just behind you... It seems we will never lose first and second place. I think it's time for some victory champagne...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -911,7 +911,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呒…再来一次！再来玩一次嘛，{namecode:13}酱、{namecode:14}酱！",
+			say = "You got me... But let's play one more round! Just one more! Come on, man",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "玩几次输的都是涅普顿啦。这两个孩子明显玩得比你好",
+			say = "You can try again all you want but you're just gonna lose every time.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -947,7 +947,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "才没这么回事呢！只要玩到赢就好了！",
+			say = "Nuh-uh, no way! I will win eventually as long as I keep trying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真拿你没办法啊。我也尽量给你些建议吧",
+			say = "If you're gonna be that way then fine. I guess I'll give you as much advice as I can, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在搞些似乎很有趣的活动呢！就让本王也加入你们吧！把有趣的游戏都拿过来吧！",
+			say = "You seem to be having quite the time! I permit you to accept me as a team member! Now let us play a game that will appease me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是～快请快请伊丽莎白酱～！你想玩什么样的游戏呢～？",
+			say = "Sure thing, Lizzy! Whaddya wanna play?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1015,7 +1015,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然是和身为女王的我相符的，有品位的游戏了！然后还要能满足我的最好玩的那种！明白了吗！？",
+			say = "A game brimming with elegance fit for a queen as myself, of course! And you will prepare the very best that will satisfy me! Understood?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,7 +1031,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近殿下似乎对游戏燃起了兴趣…可以的话，请让我们也参加吧？",
+			say = "Her Majesty seems to have become interested in games as of late... If you don't mind, may I ask you to let us play with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,7 +1047,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，非常欢迎哦！厌战酱想玩什么呢？",
+			say = "No probs, you guys are welcome any time. Whaddya wanna play, O Spite of War?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1063,7 +1063,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "酱……？算了……我的话…对了，我想玩玩看战斗类的游戏，就是那种，充满杀气地一决胜负的……有吗？",
+			say = "Spite of War...? Well, whatever... Hmm, let's see... I'd like to try a war game. As in, a game teeming with violence in a battle to the death... Do you have anything like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那～你想玩格斗系的还是动作系的？真实度都比较高",
+			say = "Then maybe what you want is a fighting game or action game? They're pretty realistic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有这种！？那我一定要试试！",
+			say = "You do? In that case... I would love to try one of those!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,7 +1111,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼……现在正是活用游戏同好会中学到的技能之时！厌战，紧急准备可乐和薯片！",
+			say = "Hahaha... This is my chance to show you the tricks I've learned at the Gamer Club! Warspite, fetch me a bottle of soda and a bag of crisps at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,7 +1127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "殿下，那些并不是游戏必须的……",
+			say = "Your Majesty, those are not required in order to play video games...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

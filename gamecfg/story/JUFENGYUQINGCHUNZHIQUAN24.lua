@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "提斯塔先前的自信已经消失不见。",
+			say = "Not long after the fighting broke out, all of Tester's confidence evaporated away.",
 			bgm = "battle-boss-temepest-1",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "在与主机长久失联的当下，这位“提斯塔”女士的战争技巧比白纸更白。",
+			say = "Having been cut off from her mainframe for so long, she lacks even the most basic tactical knowledge even if her hardware is impressive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,25 +43,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "自动报警系统",
+			actorName = "Automatic Warning System",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。严重误击损失。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
-			side = 2,
-			actorName = "提斯塔",
-			hidePaintObj = true,
-			say = "可恶可恶可恶……！！",
+			say = "ALERT. DAMAGE INCURRED DUE TO DROP INACCURACY.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,11 +57,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "第一、第三防卫机构，向两侧散开！",
+			say = "Dammit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,57 +71,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "第二防卫机构，拖住敌人！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "自动报警系统",
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "执行。错误。队形过密。撞击风险。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "自动报警系统",
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "警告。重大损失。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			say = "被提斯塔一同编入密集编队的，除了塞满了火炮的巨舰外，更有不清的自爆舰船。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			say = "但这显然起了反作用：在盛大的烟火演出中，屏幕中的提斯塔舰队，正如雪花般飞快消逝。",
+			say = "1st and 3rd defense units, spread out left and right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +85,57 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "不、不……！我的舰队！！",
+			say = "2nd unit, don't crumble yet!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Automatic Warning System",
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "EXECUTING... ERROR. CANNOT EXECUTE. RISK OF COLLISSION DUE TO UNIT PROXIMITY TOO HIGH.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Automatic Warning System",
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "ALERT. SERIOUS DAMAGE SUSTAINED.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			say = "Not only are her warships with big cannons rubbing shoulders, but her many bombing ships are, too.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_525",
+			hidePaintObj = true,
+			say = "This shortsighted positioning backfires – friendly fire sets off a series of explosions, and a good part of her forces are wiped out in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,11 +145,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "你到底做了什么！",
+			say = "No! Nooo! My fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +159,25 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "告诉我，“指挥官”，你到底做了什么？！",
+			say = "What did you do?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900011,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_525",
+			factiontag = "A Lake Reflection",
+			side = 2,
+			actorName = "Tester",
+			hidePaintObj = true,
+			say = "Spit it out, \"Commander\"! What did you DO to my fleet?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,11 +185,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "自动报警系统",
+			actorName = "Automatic Warning System",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。最终防卫线被突破。",
+			say = "ALERT. FINAL LINE OF DEFENSE HAS BEEN BREACHED.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,12 +199,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "船上的家伙听着！",
+			say = "Hey, you! The scallywag on the big ship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,12 +218,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "立刻缴械投降！",
+			say = "Lay down your arms and surrender!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,12 +237,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "否则我们就不客气了！",
+			say = "If you don't, we'll blast you to kingdom come!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,11 +256,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "想都别想！！",
+			say = "Hah! You wish, you little brat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,11 +270,11 @@ return {
 			actor = 900011,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
+			factiontag = "A Lake Reflection",
 			side = 2,
-			actorName = "提斯塔",
+			actorName = "Tester",
 			hidePaintObj = true,
-			say = "可恶！待会再和你算账！",
+			say = "Stay there so I can end you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "提斯塔恼怒地翻下船舷，踏上了自己最终的战场。",
+			say = "Tester leaps off the side of her ship, summons her rigging, and goes into battle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "她留下的仪器中，依然还在播放着战场中的画面——",
+			say = "Leaving behind the device she used to monitor the battlefield right where she sat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

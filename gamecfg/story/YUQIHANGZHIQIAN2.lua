@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于启航之前\n\n<size=45>二　可靠的接待员？</size>",
+					"The Bon Before the Voyage\n\n<size=45>2 Working Hard Or Hardly Working?</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "本日，我再次来到了那扇门前。",
+			say = "It's a new day, and I'm at the door to the Cruise Planning Committee. Again.",
 			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "经过彻夜思考，我终于在满足好奇心和遵守约定之间，寻找到了一个折中方案。",
+			say = "I spent the whole night arguing with the angel and devil on my shoulders, one telling me to keep my promise, and the other, to satisfy my curiosity. I've come up with a compromise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……只是偷听一下接待员的工作内容，应该不算过问吧？",
+			say = "It's not breaking my promise if I overhear them through the door... right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "哈啊……好累……假装工作到今天已经是极限了。",
+			say = "Ugh... I'm beat. I don't know if I can keep on pretending to work hard like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "{namecode:448:埃姆登}之前说什么指挥官肯定会忍不住过来检查……",
+			say = "Emden said the Commander WILL give in to curiosity and walk through that door...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "这不是完全没有来过么……都白装了。",
+			say = "But I'm really starting to doubt that! All my efforts have been for nothing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "装工作好辛苦的>_<！",
+			say = "Hard work is hard, even when you're faking it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "呼……既然如此，接下来就决定是轻松的摸鱼时间了~",
+			say = "*sigh*... Well, since it doesn't matter, I'm gonna do something fun instead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "哼~哼哼♪打点什么游戏好呢~",
+			say = "Let's see here... What game do I play...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,11 +175,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃——",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "啊……工作来了。",
+			say = "Oh. Here comes work.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "喂——这里是行政部的长岛，请问有什么可以帮你的？",
+			say = "Hi, this is Long Island from General Affairs. How can I help you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "嗯嗯嗯……邮轮建造委员会，你们的问题我记下了。",
+			say = "Uh-huh. A question for the Construction Committee. Got it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍等哦，我去帮你们问一下全局统筹委员会。",
+			say = "Stay on the line and I'll ask the Central Committee about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,11 +259,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟——",
+			say = "CLUNK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "呼，继续玩游戏吧~",
+			say = "Whew. Anyway, time to game!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,11 +317,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮铃铃——",
+			say = "RING RING RING!",
 			soundeffect = "event:/ui/bell",
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "啊……工作又来了。",
+			say = "Dang it, someone's calling again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "喂——这里是行政部的长岛，请问有什么可以帮你的？",
+			say = "Hi, this is Long Island from General Affairs. How can I help you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "啊……啊？邮轮建造委员会啊……哎嘿嘿，关于你们的问题……",
+			say = "Mhm... What? The Construction Committee? Oh, right, your question...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "嗯……嗯嗯嗯，我这边已经得到回复了哦！",
+			say = "Well, good news! I got an answer from them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "“反正预算是无限的，你们想修什么功能区就修什么功能区吧。”长岛得到的回复是这样的。",
+			say = "They said there's ample room in their budget and you can implement whatever you want.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "嗯嗯，什么自然公园，水上乐园，大商场，大剧院都可以修哦。",
+			say = "An onboard garden, a pool, shops, a theater – anything you can think of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "撒丁式大浴场……？嗯，可以哦。",
+			say = "Yeah, including a large Sardegnian thermae!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "……能修多大？修多大都可以哦。",
+			say = "...How large? As large as you want it to be!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "水族馆……？嗯，也可以哦。",
+			say = "Yup, they could easily squeeze in an aquarium somewhere, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "总之想修什么都可以啦~",
+			say = "Listen, if you can imagine it, there's room for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "那么拜拜~有问题随时来电哦~",
+			say = "I hope that answers your question. Please call again if you have any more. Bye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,11 +528,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "办公电话",
+			actorName = "Phone",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘟——",
+			say = "CLUNK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106014,
-			say = "呼，轻松解决~继续玩游戏吧~",
+			say = "Easiest job of my life. Back to the game!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "与此同时，一墙之隔外——",
+			say = "I back away from the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………？！",
+			say = "I can't believe my ears!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个长岛……工作时间打游戏已经很过分了，怎么还能如此随便的对待其他部门的问题！",
+			say = "Not only is she gaming on the job, she's also casually approving every idea that blows her way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她根本就没给委员会打过电话，回答全是自己瞎编的吧！",
+			say = "I'll bet a thousand coins she hasn't run any of this by the Central Committee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这艘邮轮最后究竟会变成什么样子呢。",
+			say = "That cruise ship is doomed if she keeps manning the phone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "这场邮轮之旅虽然在有条不紊地筹备中，但你内心的疑云正在变得愈发厚重。",
+			say = "No matter how smoothly the construction is going, I can't ignore what I just heard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "纵使你之前和所有人约好了在邮轮建造完成之前既不打听也不干涉。",
+			say = "That said, I can't directly confront the committee about it, either. That would break my promise with Harbin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,22 +664,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "但是看到现在的情况，你依然决定在返回指挥室工作前做点什么。",
+			say = "This situation calls for an indirect approach. I should...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "制裁一下摸鱼的长岛！",
+					content = "Punish Long Island for her indolence.",
 					flag = 1
 				},
 				{
-					content = "鼓励一下摸鱼的长岛！",
+					content = "Reward Long Island for her efforts.",
 					flag = 2
 				},
 				{
-					content = "算了，还是直接回去吧。",
+					content = "Shrug and go back to the office.",
 					flag = 3
 				}
 			}
@@ -691,7 +691,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "喜欢在工作时间打游戏是么……很好。",
+			say = "The ghost wants to play games during her shift, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "记得长岛的游戏账号是……找到了。",
+			say = "Let me just fetch her account info...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +716,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "之后，你联系TB为长岛安排了一些“旗鼓相当”的对手给她，祝她游戏愉快。",
+			say = "I issue an order to TB to pit Long Island against some \"worthy\" opponents. If she really wants to game on the job, she can go right ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃啊……又输了！",
+			say = "Dang it! They killed me again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么回事……这游戏的AI有这么强么？！",
+			say = "This is dumb! When did the AI in this game get so overtuned?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……一晃眼都到下班时间了。",
+			say = "Ugh... Now it's clock-out-o'-clock, too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -827,7 +827,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "输了一天好累啊……欸，该下班咯！",
+			say = "I can't even be bothered to leave! I'm too tired after getting whooped all day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -843,7 +843,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "转念一想，你又觉得，一个人坐在办公桌前一整天确实是一种莫大的痛苦，摸摸鱼也是可以理解的。",
+			say = "On second thought, I can empathize. Sitting alone in front of a desk all day is incredibly boring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "记得长岛的游戏账号是……找到了。",
+			say = "Let me just fetch her account info...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "之后，你联系TB以各种名义向长岛的账号发放了大量奖励道具，祝她游戏愉快。",
+			say = "I issue an order to TB to give Long Island a whole heap of in-game items. If she really wants to game on the job, she can go right ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "邮箱里堆满了邮件……怎、怎么回事？",
+			say = "What the heck? My inbox is flooded!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "BUG补偿……BUG修复补偿……BUG修复导致的BUG补偿……BUG修复导致的BUG修复补偿……？",
+			say = "Compensation for bugs, compensation for bug fixes, compensation for bugs caused by bug fix... Even compensation for a bug fix for a bug fix!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,7 +949,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸~？！这难道是摸鱼之神对于我摸鱼一天的嘉奖……？",
+			say = "Wait! Could this be a gift from the God of Laziness for my dedication to the faith?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻~好耶~！正好也到下班时间了，真是充实又快乐又的一天~下班咯！",
+			say = "Yippee! My shift just ended, too! Whew, what a long but satisfying workday this was!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,7 +994,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……真是畅快淋漓的战斗。",
+			say = "Whew, that was a lot of fun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1045,7 +1045,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "摸了一天鱼好累啊……",
+			say = "I did nothing the whole day – just the way I like it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1064,7 +1064,7 @@ return {
 			actor = 106014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？已经这个时间了么，好耶~该下班咯~！",
+			say = "Oh, it's the end of my shift! Woohoo! Time to go home!",
 			painting = {
 				alpha = 0.3,
 				time = 1

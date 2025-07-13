@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "要塞东侧外海？·海雾中",
+			say = "Canal Stronghold - Eastern Region",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "白色。放眼望去，视野中只有纯粹的白色",
+			say = "A dense mist enveloped the seas. All was painted white as far as the eye can see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……又在耍这些小把戏！",
+			say = "A Mirror Sea! Those damn Sirens are pulling the same trick on us again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家彼此保持距离，小心从浓雾中袭来的攻击！",
+			say = "Attention, everyone! Enter battle formations and maintain a safe distance! Prepare for engagement with the Sirens!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "白鹰舰队在浓烈的海雾中前进着，从四面八方袭来的炮弹和鱼雷来看，潜伏在周边的塞壬数量十分可观",
+			say = "The Eagle Union fleet found themselves in a Mirror Sea whilst they were en route to the Canal Stronghold. They readied themselves for a Siren ambush.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜，雷达索敌的情况怎么样？",
+			say = "Helena, you see anything on your radar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是和之前一样，雷达上什么都看不到…",
+			say = "No, it's not been detecting anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬的军舰明明到处都是，雷达上居然什么都看不到么…！",
+			say = "We all but know there are Sirens here, yet you can't detect them?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -197,7 +197,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“海雾”本身也许就是塞壬的陷阱，通过某种手段干扰了雷达系统…",
+			say = "Radio waves get jammed in Mirror Seas. We'll have to rely on our other sensors and plain line of sight to spot them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且它们好像可以透过海雾掌握到我们的动向…这样下去会变成单方面挨打的",
+			say = "However, with this mist obscuring our view, even that might be nigh-impossible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在收到气象部门有海雾正在蔓延的情报的时候，就在想有没有可能是塞壬的袭击…",
+			say = "I feared a Mirror Sea was coming just after I heard about this dense fog...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来猜中了开头，没猜中展开啊…",
+			say = "My premonition proved right, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉…这次直接驶入海雾是我大意了。没想到塞壬可以在镜面海域之外引起这么大规模的气象变化",
+			say = "This is my fault. I shouldn't have kept us on course through the fog and sailed into a Siren trap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全被摆了一道呢…接下来怎么办…？",
+			say = "What's done is done. Besides, we have to pass through here to get to our objective. So, what do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还用说？打得过就打，打不过就撤呗~我们应该只是在换防途中恰好撞上塞壬进攻要塞的主力部队了",
+			say = "It's obvious; we fight our way out of here. Which, funnily enough, we might've needed to do later anyway, if these Sirens were gonna attack the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正确的判断~在塞壬主场里白白牺牲可谈不上什么高明的选择",
+			say = "Right. A flawless plan, assuming it goes as we hope...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海伦娜，拜托你向巴拿马要塞发出警报，让要塞准备迎接伴随海雾而来的袭击",
+			say = "By the way, Helena, would you please see if you can contact with Canal Stronghold? I suspect we're being jammed, but it doesn't hurt to try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚刚已经…发送完毕了！海雾好像没有干扰我们的通讯系统",
+			say = "I'll give it a shot... Oh, I think my message went through! It looks like our communications are *not* being jammed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好样的！大家相互掩护继续向要塞前进，和驻防舰队汇合之后依托防御体系收拾它们吧！",
+			say = "Wait, seriously?! How in the world... Seems this Mirror Sea is different to what we've dealt with before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

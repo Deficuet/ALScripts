@@ -849,2209 +849,2209 @@ pg.base.child2_word = {
 	{
 		id = 1,
 		main_character_face = 0,
-		word = "哎呀~废柴$1这么简单的积木都搭不好？真没办法，让我来教你吧。",
+		word = "Wooow, you're such a dweeb you can't even stack wooden blocks? You poor thing. I'll show you how it's done!",
 		char_type = 1
 	},
 	{
 		id = 2,
 		main_character_face = 0,
-		word = "我肚子饿了啦！不许说“再等一下”！人家要立刻吃饭！",
+		word = "I'm hungry! And don't you dare say \"be patient\"! I wanna eat NOW!",
 		char_type = 1
 	},
 	{
 		id = 3,
 		main_character_face = 0,
-		word = "来陪我玩过家家吧！$1就演我的仆人就可以了~毕竟是本色出演嘛~",
+		word = "Hey, $1, you wanna play house? Then you'll play my servant! Just like you already are♪",
 		char_type = 1
 	},
 	{
 		id = 4,
 		main_character_face = 0,
-		word = "唔……人家可是很忙的啦，不过看$1这么可怜，勉强让你陪我玩一会儿好了~",
+		word = "Hmm... I'm kinda super busy right now. Buuut, you just look so pitiable that I'll make an exception and play with you for a while!",
 		char_type = 1
 	},
 	{
 		id = 5,
 		main_character_face = 0,
-		word = "$1想不想摸摸我的头呢~？不想？哼哼~错过了今天可没有下次了哦~",
+		word = "Hey, $1, don't you wanna pat my head? ...What? You don't? You'll never get this chance again if you don't take it now!",
 		char_type = 1
 	},
 	{
 		id = 6,
 		main_character_face = 0,
-		word = "杂鱼$1，在发什么呆呢？如果是在想需要我帮忙的事，可是要付出相应的代价才行哦~",
+		word = "Hey, dweebmaster, what're you staring at? If you want my help, you gotta make it worth my while!",
 		char_type = 1
 	},
 	{
 		id = 7,
 		main_character_face = 0,
-		word = "看在废柴$1最近工作这么辛苦的份上，人家特别为你准备了点心哦！不过要是敢说不好吃的话，以后就没有这种待遇了！",
+		word = "You've been busting your butt at work lately, so I made you some snacks! And don't say they don't taste good, or you'll never get any ever again!",
 		char_type = 1
 	},
 	{
 		id = 8,
 		main_character_face = 0,
-		word = "哼哼~笨蛋$1打瞌睡的样子真好笑，人家要把这张珍贵的抓拍照片好好保存起来，说不定以后能派上大用场呢～",
+		word = "Heheh! Yknow, dweeb, you look really funny when you're snoring. I'm keeping this pic for the future. Who knows – it might come in handy!",
 		char_type = 1
 	},
 	{
 		id = 9,
 		main_character_face = 0,
-		word = "今天放学不用来接人家……不过那个时候你要是已经等在那里了的话，那我也没办法啦~就只能勉为其难地和你一起回家咯~",
+		word = "You don't have to come pick me up at school today. Although, if you're gonna be waiting there anyway, you'll leave me with no choice but to come along♪",
 		char_type = 1
 	},
 	{
 		id = 10,
 		main_character_face = 0,
-		word = "笨蛋$1，既然你这么无聊，那就陪我玩捉迷藏吧！输了的话要请人家吃整整一周的冰淇淋哦~",
+		word = "Dweebo, if you're so bored, why not play hide and seek with me? And if you lose, you gotta buy me a whole week's worth of ice cream♪",
 		char_type = 1
 	},
 	{
 		id = 11,
 		main_character_face = 0,
-		word = "$1看起来很累的样子。我最近跟着教程学会了按摩，您要是不嫌弃的话……",
+		word = "You look pretty beat. I've been reading up on massages, so if you want one…",
 		char_type = 1
 	},
 	{
 		id = 12,
 		main_character_face = 0,
-		word = "厨房里有我烤的小饼干，都是照着$1喜欢的口味做的，要不要来尝一块？我在旁边等着听您的评价。",
+		word = "I left some homemade cookies in the kitchen. They're your favorite flavor, by the way. Eat up, and I'll be right there to hear your feedback.",
 		char_type = 1
 	},
 	{
 		id = 13,
 		main_character_face = 0,
-		word = "农场里的花开得很漂亮哦。$1如果不太忙的话，能陪我出去走走吗？我带了相机，想和您一起记录些美好时刻呢。",
+		word = "The flowers on the farm are blooming beautifully, $1. If you're free, wanna go on a walk with me? I have a camera on me so we can snap some nice photos.",
 		char_type = 1
 	},
 	{
 		id = 14,
 		main_character_face = 0,
-		word = "今天学习钢琴的时候，老师夸我进步了哦。$1愿意听我弹一小段吗？我想让您看看我最近的练习成果。",
+		word = "My piano teacher said my performance today was great! Do you wanna listen, $1? I've really improved, so you should!",
 		char_type = 1
 	},
 	{
 		id = 15,
 		main_character_face = 0,
-		word = "啊，盆栽的叶子都蔫了……明明$1教过要每天浇水的，是我疏忽了。明天开始一定会记得按时浇水的……呜。",
+		word = "Oh, the potted plant isn't looking so healthy... I know you told me to water it every day, but I forgot... I'll make extra sure to remember it from now on. *sigh*…",
 		char_type = 1
 	},
 	{
 		id = 16,
 		main_character_face = 0,
-		word = "今天人家做了新的甜点呢，虽然不是专门为废柴$1准备的，不过看在你最近表现不错的份上，就大发慈悲地分你一份好了~",
+		word = "I made some sweets today. Not specifically for you, obviously, but I'll let you have some since you've been working so hard!",
 		char_type = 1
 	},
 	{
 		id = 17,
 		main_character_face = 0,
-		word = "无聊的时候就想找笨蛋$1打球呢。怎么样，要来比试一场吗？不过要是输了可不准找借口哦~",
+		word = "Y'know what happens when I'm bored, dweeb? It makes me wanna play with you. How about a game, huh? I don't wanna hear any excuses if you lose♪",
 		char_type = 1
 	},
 	{
 		id = 18,
 		main_character_face = 0,
-		word = "哎呀呀，没有人家在身边的话，$1根本就活不下去吧？真是个离不开人的笨蛋呢~",
+		word = "My, oh my~ How would you ever survive without me? It's this complete reliance on me that makes you such a dweeb♪",
 		char_type = 1
 	},
 	{
 		id = 19,
 		main_character_face = 0,
-		word = "哼哼~今天天气这么好，待在家里发呆的话人家可是会生气的哦~？赶快陪我出门，这是命令呢~",
+		word = "Heheh♪ If you won't touch grass when it's such nice weather outside, you're getting a scolding! Come on, come with me! That's an order♪",
 		char_type = 1
 	},
 	{
 		id = 20,
 		main_character_face = 0,
-		word = "$1今天的表现勉强算及格吧。不过~要是以为这样就能让我满意，那可就大错特错了哦~？",
+		word = "You're not doing half-bad today, $1. Buuut, if you think I'm that easily pleased, you've got another thing coming!",
 		char_type = 1
 	},
 	{
 		id = 21,
 		main_character_face = 0,
-		word = "您的眼下有些青黑呢……工作现在算是告一段落了吧？我帮您按按太阳穴，很快就会舒服一些哦。",
+		word = "You've got bags under your eyes. You've done enough work for now, haven't you? I'll massage your temples to make you feel better.",
 		char_type = 1
 	},
 	{
 		id = 22,
 		main_character_face = 0,
-		word = "这首曲子我改了很多遍……创作的灵感来源是您和我的日常。$1愿意听听看吗？",
+		word = "I've revised this song a hundred times... It was inspired by the things we do together. Do you wanna listen?",
 		char_type = 1
 	},
 	{
 		id = 23,
 		main_character_face = 0,
-		word = "$1，您放在阳台的衬衫我收进来了哦。因为天气预报说今晚可能会下雨，所以我把它们都熨好挂在衣帽间了。",
+		word = "Don't worry about the shirt you left on the balcony to dry. The forecast said it's gonna rain tonight, so I took it in, ironed it, and put it in the closet.",
 		char_type = 1
 	},
 	{
 		id = 24,
 		main_character_face = 0,
-		word = "咖啡喝太多对身体不好哦。我泡了玫瑰花茶，$1要不要换换口味呢？",
+		word = "It's not healthy to drink too much coffee. How about trying something different? I've got rose tea ready.",
 		char_type = 1
 	},
 	{
 		id = 25,
 		main_character_face = 0,
-		word = "我最近在图书馆看到一本园艺书，才发现养护花草的意义不只在于欣赏它们的美，照料的过程本身就是一种治愈呢。",
+		word = "I've been reading about gardening in the library for a while now. I learned that caring for plants isn't just for the sake of appreciating their beauty, but also that caring for them is in a way caring for yourself.",
 		char_type = 1
 	},
 	{
 		id = 26,
 		main_character_face = 6,
-		word = "哎呀，看来$1这个笨蛋已经不忙了呢。",
+		word = "Wooow, dweebie, you sure look bored.",
 		char_type = 6
 	},
 	{
 		id = 27,
 		main_character_face = 6,
-		word = "人家今天放学回来的时候特地给你带了红豆大福哦♪",
+		word = "I bought some rice cakes for you while on my way back from school today ♪",
 		char_type = 6
 	},
 	{
 		id = 28,
 		main_character_face = 8,
-		word = "不过要先陪我玩个游戏才给你吃。来猜猜哪个里面被我加了芥末吧？",
+		word = "If you want one, you gotta play a little game first! Which do you think has the wasabi filling?",
 		char_type = 6
 	},
 	{
 		id = 29,
 		main_character_face = 0,
-		word = "左边的大福",
+		word = "The left one.",
 		char_type = 3
 	},
 	{
 		id = 30,
 		main_character_face = 0,
-		word = "右边的大福",
+		word = "The right one.",
 		char_type = 3
 	},
 	{
 		id = 31,
 		main_character_face = 0,
-		word = "哼哼~终于做出了选择呢~看你这么紧张的样子真有趣。",
+		word = "Heheh, you finally decided! Watching you get all nervous was so much fun.",
 		char_type = 6
 	},
 	{
 		id = 32,
 		main_character_face = 7,
-		word = "不过很遗憾，两边都是普通的大福哦？",
+		word = "Sorry to say, but both are just regular old rice cakes!",
 		char_type = 6
 	},
 	{
 		id = 33,
 		main_character_face = 8,
-		word = "好啦好啦，张嘴，啊——",
+		word = "Go on, open your mouth and I'll feed you.",
 		char_type = 6
 	},
 	{
 		id = 34,
 		main_character_face = 6,
-		word = "哈啊~没想到回来的时候会突然下大雨呢，差点就被淋湿了。",
+		word = "Ugh. It started raining out of nowhere on the way back home. I almost got soaked.",
 		char_type = 6
 	},
 	{
 		id = 35,
 		main_character_face = 7,
-		word = "还好有我带着伞，不然$1就变成笨蛋落汤鸡了~",
+		word = "If I hadn't brought an umbrella, you would've gotten soaked, too!",
 		char_type = 6
 	},
 	{
 		id = 36,
 		main_character_face = 8,
-		word = "作为报答，要给我买玩具哦！",
+		word = "You can thank me by buying me a new toy ♪",
 		char_type = 6
 	},
 	{
 		id = 37,
 		main_character_face = 5,
-		word = "唔……今天尝试做的煎蛋形状又很奇怪呢……",
+		word = "Hmph... My fried egg turned out all weird-looking again...",
 		char_type = 6
 	},
 	{
 		id = 38,
 		main_character_face = 8,
-		word = "不过是给$1这个笨蛋吃的，这种程度也足够好了哼哼♪",
+		word = "Guess that's fine, though. It's going on $1's dweeby plate, after all! Heheh♪",
 		char_type = 6
 	},
 	{
 		id = 39,
 		main_character_face = 8,
-		word = "我听到了。",
+		word = "I heard that.",
 		char_type = 2
 	},
 	{
 		id = 40,
 		main_character_face = 7,
-		word = "欸~被听到了吗？那正好！",
+		word = "Oh, did you? Perfect.",
 		char_type = 6
 	},
 	{
 		id = 41,
 		main_character_face = 7,
-		word = "$1可要感恩戴德地把人家亲手做的煎蛋吃完哦？一点都不准剩~",
+		word = "Aren't you thankful for my fried egg, hmm? You better eat it all!",
 		char_type = 6
 	},
 	{
 		id = 42,
 		main_character_face = 0,
-		word = "今晚想吃什么？我去做饭吧。",
+		word = "What do you want for dinner? I'll cook.",
 		char_type = 2
 	},
 	{
 		id = 43,
 		main_character_face = 6,
-		word = "哦~？$1这个笨蛋今天是想献殷勤了吗？",
+		word = "Wooow, desperate to get on my good side, huh?",
 		char_type = 6
 	},
 	{
 		id = 44,
 		main_character_face = 7,
-		word = "虽然你的厨艺还不错啦...不过要人家吃你做的饭可是有条件的哦？",
+		word = "Sure, I'll admit that you're a good cook, but there's a condition for me to eat your food, see?",
 		char_type = 6
 	},
 	{
 		id = 45,
 		main_character_face = 7,
-		word = "把这条写着“笨蛋专用”的围裙乖乖穿上吧♪",
+		word = "You gotta put on this \"For Dweebs Only\" apron!",
 		char_type = 6
 	},
 	{
 		id = 46,
 		main_character_face = 7,
-		word = "要是不愿意的话…今天的晚餐评分可是要大大扣分的哦？",
+		word = "And if you don't, well, your dinner's rating is gonna drop like a rock.",
 		char_type = 6
 	},
 	{
 		id = 47,
 		main_character_face = 5,
-		word = "喂喂~$1，你这几天可是一直都在熬夜呢？",
+		word = "Hey, Dweebo Mc$1, haven't you been working nonstop all-nighters recently?",
 		char_type = 6
 	},
 	{
 		id = 48,
 		main_character_face = 5,
-		word = "忙完这段时间就好了。",
+		word = "What can I say? It's a busy period.",
 		char_type = 2
 	},
 	{
 		id = 49,
 		main_character_face = 4,
-		word = "哼！每天都说这种话，真当人家是笨蛋吗？",
+		word = "Uh-huh. You say that every day. You think I'm stupid or something?",
 		char_type = 6
 	},
 	{
 		id = 50,
 		main_character_face = 7,
-		word = "现在！立刻！马上去休息！不然…人家可是存了好多有趣的照片哦？嘿嘿♪",
+		word = "Take a break! Now! Right this moment! Or else... Well, I dunno, someone might \"find\" all these goofy pics of you. Heehee ♪",
 		char_type = 6
 	},
 	{
 		id = 51,
 		main_character_face = 7,
-		word = "好好好，我这就去休息。",
+		word = "Alright, alright. I'll take a break.",
 		char_type = 2
 	},
 	{
 		id = 52,
 		main_character_face = 8,
-		word = "哼哼♪~这还差不多，来，把热牛奶也喝了吧。",
+		word = "Heheh! That's more like it. Here, have this glass of hot milk.",
 		char_type = 6
 	},
 	{
 		id = 53,
 		main_character_face = 6,
-		word = "$1~你的早餐我已经准备好啦！",
+		word = "$1, breakfast is ready.",
 		char_type = 6
 	},
 	{
 		id = 54,
 		main_character_face = 6,
-		word = "谢谢，不过你怎么突然想到做早餐？",
+		word = "Thanks. Any reason why you're treating me to this today?",
 		char_type = 2
 	},
 	{
 		id = 55,
 		main_character_face = 8,
-		word = "因为人家准备了特别的惊喜嘛♪",
+		word = "Because it's a special surprise!",
 		char_type = 6
 	},
 	{
 		id = 56,
 		main_character_face = 7,
-		word = "猜猜今天的煎蛋里加了什么？猜错了就没有早饭吃哦~",
+		word = "Can you guess what's in this fried egg? Get it wrong and you're getting no breakfast!",
 		char_type = 6
 	},
 	{
 		id = 57,
 		main_character_face = 7,
-		word = "……该不会又是芥末吧？",
+		word = "It's not wasabi again, is it?",
 		char_type = 2
 	},
 	{
 		id = 58,
 		main_character_face = 8,
-		word = "欸~不愧是被人家调教过的呢，这么快就猜中了~",
+		word = "Wooow. You picked up on that running theme of mine pretty fast.",
 		char_type = 6
 	},
 	{
 		id = 59,
 		main_character_face = 0,
-		word = "（她今天一直在摆弄相机，是在打什么主意么……）",
+		word = "(She's been fiddling with that camera all day. What is she up to?)",
 		char_type = 2
 	},
 	{
 		id = 60,
 		main_character_face = 0,
-		word = "在拍什么呢？",
+		word = "What are you photographing?",
 		char_type = 3
 	},
 	{
 		id = 61,
 		main_character_face = 0,
-		word = "在计划恶作剧么？",
+		word = "Are you setting up another prank?",
 		char_type = 3
 	},
 	{
 		id = 62,
 		main_character_face = 7,
-		word = "呵呵~被发现了吗？",
+		word = "Heheh, so you noticed.",
 		char_type = 6
 	},
 	{
 		id = 63,
 		main_character_face = 7,
-		word = "这是在准备“$1的四季糗事精选集”哦~要不要先看看封面？",
+		word = "It's for my annual album of all your blunders! Wanna see the cover?",
 		char_type = 6
 	},
 	{
 		id = 64,
 		main_character_face = 8,
-		word = "尽管期待一番吧~人家可是很用心在记录你的每一个珍贵瞬间呢~",
+		word = "You'll have to wait! I'm working tirelessly to preserve your \"greatest\" moments ♪",
 		char_type = 6
 	},
 	{
 		id = 65,
 		main_character_face = 0,
-		word = "我买了毛毯回来。",
+		word = "I bought a blanket.",
 		char_type = 2
 	},
 	{
 		id = 66,
 		main_character_face = 7,
-		word = "哦？$1身体这么虚弱吗？居然还需要这种东西取暖，真是杂鱼~",
+		word = "Oh? You saying you need a blanket to stay warm? What are you, getting all feeble? Hah!",
 		char_type = 6
 	},
 	{
 		id = 67,
 		main_character_face = 7,
-		word = "你最近不是喜欢晚上看电影么，是怕你着凉准备的。",
+		word = "It's for you. You like watching movies late at night, and I figure this will keep you from catching a cold.",
 		char_type = 2
 	},
 	{
 		id = 68,
 		main_character_face = 6,
-		word = "欸~这么体贴吗？莫非人家最近欺负你让你感觉很开心？",
+		word = "Ooh, how considerate! Does me messing with you these days make you THAT happy?",
 		char_type = 6
 	},
 	{
 		id = 69,
 		main_character_face = 7,
-		word = "甚至还买来毛毯给人家~",
+		word = "Like, so happy you even bought a blanket for me!",
 		char_type = 6
 	},
 	{
 		id = 70,
 		main_character_face = 8,
-		word = "你表现得这么有诚意，那今晚就一起看电影吧~记得准备零食哦~",
+		word = "Since you're that nice, I'll let you watch a movie with me tonight. Don't forget to bring some snacks!",
 		char_type = 6
 	},
 	{
 		id = 71,
 		main_character_face = 0,
-		word = "我把书房收拾好了。",
+		word = "I cleaned the study.",
 		char_type = 2
 	},
 	{
 		id = 72,
 		main_character_face = 7,
-		word = "哼哼♪~没想到你居然也会收拾房间呢。",
+		word = "Well, well! I'm surprised you'd go and clean up for me like that.",
 		char_type = 6
 	},
 	{
 		id = 73,
 		main_character_face = 6,
-		word = "收拾得勉强合格啦~不过书架上的相框歪了哦。",
+		word = "Meh, I guess you did okay. Why'd you move the photo frame on the bookshelf, though?",
 		char_type = 6
 	},
 	{
 		id = 74,
 		main_character_face = 8,
-		word = "那可是我精心挑选的你打喷嚏的抓拍照片呢~快去帮人家放好啦！",
+		word = "That's my magnum opus – a picture of you mid-sneeze. Put it back the way it was!",
 		char_type = 6
 	},
 	{
 		id = 75,
 		main_character_face = 5,
-		word = "$1，我放在冰箱里的布丁怎么不见啦？",
+		word = "Hey, $1, the pudding in the fridge is gone.",
 		char_type = 6
 	},
 	{
 		id = 76,
 		main_character_face = 4,
-		word = "该不会是……你偷偷吃了吧？",
+		word = "You didn't... eat it, did you?",
 		char_type = 6
 	},
 	{
 		id = 77,
 		main_character_face = 4,
-		word = "啊，我确实吃了。",
+		word = "Uhh, yes, I did.",
 		char_type = 2
 	},
 	{
 		id = 78,
 		main_character_face = 7,
-		word = "哎呀哎呀，这下可糟糕了呢~",
+		word = "Uh-oh! That's no good!",
 		char_type = 6
 	},
 	{
 		id = 79,
 		main_character_face = 6,
-		word = "真好奇你马上会变成什么样呀~",
+		word = "I'm curious to see what's gonna happen to you, though!",
 		char_type = 6
 	},
 	{
 		id = 80,
 		main_character_face = 8,
-		word = "嘿嘿嘿……",
+		word = "Heehee...",
 		char_type = 6
 	},
 	{
 		id = 81,
 		main_character_face = 6,
-		word = "$1，我新养了一盆绿萝哦。",
+		word = "$1, I've started growing a golden pothos.",
 		char_type = 6
 	},
 	{
 		id = 82,
 		main_character_face = 6,
-		word = "嗯？怎么突然想养植物了？",
+		word = "Huh? What gave you the sudden interest in growing plants?",
 		char_type = 2
 	},
 	{
 		id = 83,
 		main_character_face = 0,
-		word = "嗯哼，因为总觉得杂鱼你和这盆绿萝很像呢。",
+		word = "Heheh, well, it just reminded me of you, that's all.",
 		char_type = 6
 	},
 	{
 		id = 84,
 		main_character_face = 7,
-		word = "都需要人家细心照顾才行。",
+		word = "You're similar, because you both require tender care.",
 		char_type = 6
 	},
 	{
 		id = 85,
 		main_character_face = 8,
-		word = "不然就会变得一副可怜兮兮的样子了~对吧~",
+		word = "Without it, you'll just wither away into a pitiful state!",
 		char_type = 6
 	},
 	{
 		id = 86,
 		main_character_face = 0,
-		word = "我听说学校里好像在举办摄影展？",
+		word = "I heard they're holding a photo contest at the school.",
 		char_type = 2
 	},
 	{
 		id = 87,
 		main_character_face = 6,
-		word = "嗯~人家早都知道啦。",
+		word = "Yeah. I know.",
 		char_type = 6
 	},
 	{
 		id = 88,
 		main_character_face = 6,
-		word = "那你不想参加么？你不是总用相机在拍照么。",
+		word = "Aren't you going to participate? You're always snapping photos with that camera of yours.",
 		char_type = 2
 	},
 	{
 		id = 89,
 		main_character_face = 1,
-		word = "哈——？$1这个笨蛋，你是说让我拿着你那些出糗照参展吗？",
+		word = "Huh? You want me to flaunt those pics of your cringey moments?",
 		char_type = 6
 	},
 	{
 		id = 90,
 		main_character_face = 4,
-		word = "我才不要呢！",
+		word = "Not happening!",
 		char_type = 6
 	},
 	{
 		id = 91,
 		main_character_face = 6,
-		word = "$1~在想什么呢？",
+		word = "$1, what're you staring into space for?",
 		char_type = 6
 	},
 	{
 		id = 92,
 		main_character_face = 6,
-		word = "在想要不要去外面的咖啡店。",
+		word = "I was thinking about going to the café.",
 		char_type = 2
 	},
 	{
 		id = 93,
 		main_character_face = 4,
-		word = "哼，外面的店里的咖啡怎么可能会有我泡的咖啡好喝！",
+		word = "Hmph. Like the café would ever make better coffee than I do.",
 		char_type = 6
 	},
 	{
 		id = 94,
 		main_character_face = 4,
-		word = "这一点我承认。不过，我其实是在想一起去咖啡店里坐坐。",
+		word = "True. Still, I want to go there with you.",
 		char_type = 2
 	},
 	{
 		id = 95,
 		main_character_face = 4,
-		word = "毕竟你之前看起来好像很想吃那里的小蛋糕的样子。",
+		word = "You were eyeing their mini-cakes the last time we passed by.",
 		char_type = 2
 	},
 	{
 		id = 96,
 		main_character_face = 2,
-		word = "唔……好吧，如果杂鱼你坚持要请客的话。",
+		word = "Hmph... Fine, if you insist, dweeb.",
 		char_type = 6
 	},
 	{
 		id = 97,
 		main_character_face = 6,
-		word = "勉强陪你去一次也不是不行。",
+		word = "You're permitted to buy dessert for me.",
 		char_type = 6
 	},
 	{
 		id = 98,
 		main_character_face = 7,
-		word = "不过我会点最贵的哦~",
+		word = "Prepare your wallet, because I'll be choosing the most expensive one!",
 		char_type = 6
 	},
 	{
 		id = 99,
 		main_character_face = 0,
-		word = "娜比娅，今天天气还不错，你要不要……",
+		word = "The weather's nice today. Maybe we could go out?",
 		char_type = 2
 	},
 	{
 		id = 100,
 		main_character_face = 7,
-		word = "欸~不会吧，$1这是想约人家出门玩吗？",
+		word = "Oh, you're asking me to hang out with you, huh?",
 		char_type = 6
 	},
 	{
 		id = 101,
 		main_character_face = 8,
-		word = "明明只是个杂鱼~却在想着约可爱的人家呢~",
+		word = "A dweeb, asking to hang out with me! Talk about bold!",
 		char_type = 6
 	},
 	{
 		id = 102,
 		main_character_face = 8,
-		word = "那就在家……",
+		word = "Okay, stay at home then...",
 		char_type = 2
 	},
 	{
 		id = 103,
 		main_character_face = 2,
-		word = "也没有说不去啦！",
+		word = "I didn't say anything about NOT coming with you.",
 		char_type = 6
 	},
 	{
 		id = 104,
 		main_character_face = 6,
-		word = "好啦，$1也快点去换衣服，磨磨蹭蹭的话我要生气了，哼哼~",
+		word = "Now hurry up and get dressed. Don't waste any time or I'll get mad. Heheh.",
 		char_type = 6
 	},
 	{
 		id = 105,
 		main_character_face = 4,
-		word = "喂笨蛋，人家想看那个动画频道啦！",
+		word = "Hey, dweeb, I wanna watch the cartoon channel.",
 		char_type = 6
 	},
 	{
 		id = 106,
 		main_character_face = 4,
-		word = "好，我换过去。",
+		word = "Okay, I'll switch channels.",
 		char_type = 2
 	},
 	{
 		id = 107,
 		main_character_face = 8,
-		word = "哼哼~既然这么听话……就勉强让你靠在我这边看吧♪",
+		word = "Wow, you're obedient for once... You know what? You can sit next to me ♪",
 		char_type = 6
 	},
 	{
 		id = 108,
 		main_character_face = 7,
-		word = "但是靠得太近的话我可是会生气的哦！",
+		word = "But don't fidget around, or I'll get mad ♪",
 		char_type = 6
 	},
 	{
 		id = 109,
 		main_character_face = 0,
-		word = "我说啊~",
+		word = "Hey, dweeb.",
 		char_type = 6
 	},
 	{
 		id = 110,
 		main_character_face = 8,
-		word = "你知道书房的台灯坏了吗？",
+		word = "The desk lamp in the study is broken. Did you know that?",
 		char_type = 6
 	},
 	{
 		id = 111,
 		main_character_face = 8,
-		word = "我知道，我正准备买新的。",
+		word = "Yeah. I was thinking about buying a new one.",
 		char_type = 2
 	},
 	{
 		id = 112,
 		main_character_face = 7,
-		word = "哼哼~就知道你这个杂鱼废物修不好，人家已经修好啦！",
+		word = "Heheh. I knew a loser like you couldn't repair it, so I went and did it myself.",
 		char_type = 6
 	},
 	{
 		id = 113,
 		main_character_face = 6,
-		word = "让我想想……报酬的话，就用平时两倍的甜点吧~",
+		word = "As thanks, give me... let's say... twice as much dessert as usual!",
 		char_type = 6
 	},
 	{
 		id = 114,
 		main_character_face = 6,
-		word = "喂，在发什么呆呢，杂鱼？",
+		word = "Hey, dweeb, why are you staring into space?",
 		char_type = 6
 	},
 	{
 		id = 115,
 		main_character_face = 6,
-		word = "在想工作的事。",
+		word = "I was thinking about work.",
 		char_type = 2
 	},
 	{
 		id = 116,
 		main_character_face = 8,
-		word = "哈——真是个无可救药的笨蛋！",
+		word = "*sigh*... Yup, you're just as hopeless as ever.",
 		char_type = 6
 	},
 	{
 		id = 117,
 		main_character_face = 7,
-		word = "这种时候不是应该想着人家吗？",
+		word = "You should be thinking about ME right now!",
 		char_type = 6
 	},
 	{
 		id = 118,
 		main_character_face = 0,
-		word = "看来得好好惩罚你才行……今晚陪我看恐怖片，不许逃！",
+		word = "Guess I'll have to punish you. We're watching horror movies tonight! Don't think about excusing yourself!",
 		char_type = 6
 	},
 	{
 		id = 119,
 		main_character_face = 3,
-		word = "哼~虽然你做饭很好吃啦……但是今天也教教人家嘛！",
+		word = "Hmph. I'll admit, you're a good cook. Give me a cooking lesson!",
 		char_type = 6
 	},
 	{
 		id = 120,
 		main_character_face = 3,
-		word = "好啊，想学什么？",
+		word = "Sure. What do you want to learn?",
 		char_type = 2
 	},
 	{
 		id = 121,
 		main_character_face = 2,
-		word = "就、就是上次你做的那个蛋包饭……",
+		word = "You know, that omelet with rice you made before...",
 		char_type = 6
 	},
 	{
 		id = 122,
 		main_character_face = 4,
-		word = "不过要是敢笑话我笨手笨脚的话，你今晚就别想吃晚饭了哦！",
+		word = "Don't make fun of me while I'm learning! Or else you'll go without dinner tonight!",
 		char_type = 6
 	},
 	{
 		id = 123,
 		main_character_face = 6,
-		word = "来，给杂鱼准备的特调咖啡做好啦！",
+		word = "Here. I made blended coffee for you.",
 		char_type = 6
 	},
 	{
 		id = 124,
 		main_character_face = 6,
-		word = "……你又加了什么奇怪的东西么？",
+		word = "Did you add something dubious to it again?",
 		char_type = 2
 	},
 	{
 		id = 125,
 		main_character_face = 8,
-		word = "要不要猜猜看？猜对了有奖励哦？",
+		word = "Take a guess. There's a reward for you if you get it right.",
 		char_type = 6
 	},
 	{
 		id = 126,
 		main_character_face = 7,
-		word = "不过你这么怕我，真让人伤心呢~",
+		word = "Well, not really. It'd be sad if I actually made you afraid of me!",
 		char_type = 6
 	},
 	{
 		id = 127,
 		main_character_face = 6,
-		word = "今天我可是大发慈悲没有捉弄你哦~只是普通的特调咖啡啦！",
+		word = "I'm a fair and just lady today, and there'll be no pranks. It's just regular, blended coffee.",
 		char_type = 6
 	},
 	{
 		id = 128,
 		main_character_face = 6,
-		word = "$1，你在找这个吗？",
+		word = "$1, have you been looking for this?",
 		char_type = 6
 	},
 	{
 		id = 129,
 		main_character_face = 6,
-		word = "嗯？没错……不过怎么在你这里？",
+		word = "What? Oh, yeah, I have. How did you get it?",
 		char_type = 2
 	},
 	{
 		id = 130,
 		main_character_face = 7,
-		word = "这个你就别管了~你想要回去的话，就先承认人家比你厉害♪",
+		word = "Don't worry about it. If you want it back, you just have to admit that I'm better than you ♪",
 		char_type = 6
 	},
 	{
 		id = 131,
 		main_character_face = 7,
-		word = "……",
+		word = "......",
 		char_type = 2
 	},
 	{
 		id = 132,
 		main_character_face = 6,
-		word = "开玩笑啦~给你。",
+		word = "Hey, it was a joke! Take it.",
 		char_type = 6
 	},
 	{
 		id = 133,
 		main_character_face = 8,
-		word = "不过看你着急的样子真有趣呢~",
+		word = "Your \"oh crap\" face is really funny, by the way ♪",
 		char_type = 6
 	},
 	{
 		id = 134,
 		main_character_face = 2,
-		word = "$1，我刚刚整理了衣柜时候发现，你的衬衫有些皱了呢。",
+		word = "I was sorting through the closet earlier, and I noticed your shirt was all wrinkly, $1.",
 		char_type = 6
 	},
 	{
 		id = 135,
 		main_character_face = 2,
-		word = "是吗？我都没注意到。",
+		word = "Really? I didn't even notice.",
 		char_type = 2
 	},
 	{
 		id = 136,
 		main_character_face = 6,
-		word = "没关系啦，我已经把它们熨好了哦。",
+		word = "It's fine, I already ironed it out.",
 		char_type = 6
 	},
 	{
 		id = 137,
 		main_character_face = 8,
-		word = "对了，你接下来有时间的话，要不要我来教你怎么快速把衣服熨好？",
+		word = "Oh, also, should I show you how to iron when you have some free time? I know a trick to do it really fast.",
 		char_type = 6
 	},
 	{
 		id = 138,
 		main_character_face = 6,
-		word = "呼~今天真是个适合散步的好天气啊。",
+		word = "Ahh... Today is perfect for a walk.",
 		char_type = 6
 	},
 	{
 		id = 139,
 		main_character_face = 0,
-		word = "$1，我们要一起出去走走吗？",
+		word = "$1, why don't we go outside?",
 		char_type = 6
 	},
 	{
 		id = 140,
 		main_character_face = 0,
-		word = "好啊，正好可以活动一下筋骨。",
+		word = "Good idea. I was just thinking I should get some exercise.",
 		char_type = 2
 	},
 	{
 		id = 141,
 		main_character_face = 8,
-		word = "太好了~我刚好想试试新买的相机。",
+		word = "That's good. I wanna try my new camera while I'm at it.",
 		char_type = 6
 	},
 	{
 		id = 142,
 		main_character_face = 8,
-		word = "我们就去公园拍点照片吧~",
+		word = "Let's go to the park and snap some pictures ♪",
 		char_type = 6
 	},
 	{
 		id = 143,
 		main_character_face = 2,
-		word = "唔……$1……",
+		word = "Oh... $1.",
 		char_type = 6
 	},
 	{
 		id = 144,
 		main_character_face = 2,
-		word = "我今天在尝试写一首新歌，但是好像思路突然卡住了。",
+		word = "I'm working on a new song, but I've gotten writer's block...",
 		char_type = 6
 	},
 	{
 		id = 145,
 		main_character_face = 0,
-		word = "嗯？写到哪里了？",
+		word = "Where are you at with now?",
 		char_type = 3
 	},
 	{
 		id = 146,
 		main_character_face = 0,
-		word = "需要我帮忙么？",
+		word = "Want me to help you?",
 		char_type = 3
 	},
 	{
 		id = 147,
 		main_character_face = 6,
-		word = "嗯……歌词是“你的笑容如阳光般温暖”，但是下一句怎么接我有点纠结……",
+		word = "Uhh... I've got the lyric, \"Your smile is like a ray of sunshine,\" but I can't figure out a follow-up to that.",
 		char_type = 6
 	},
 	{
 		id = 148,
 		main_character_face = 6,
-		word = "也许……$1能给我些灵感吗？",
+		word = "Maybe... Maybe if I look at you, I'll get inspiration.",
 		char_type = 6
 	},
 	{
 		id = 149,
 		main_character_face = 7,
-		word = "比如说让我观察一下你的笑容……",
+		word = "For instance, if you could give me a smile...",
 		char_type = 6
 	},
 	{
 		id = 150,
 		main_character_face = 6,
-		word = "$1，我今天在整理书架的时候发现了一本有趣的食谱呢。",
+		word = "$1, I found an interesting cookbook while organizing the bookcase.",
 		char_type = 6
 	},
 	{
 		id = 151,
 		main_character_face = 0,
-		word = "哦？什么样的食谱？",
+		word = "Oh, really? What are the recipes for?",
 		char_type = 3
 	},
 	{
 		id = 152,
 		main_character_face = 0,
-		word = "你想试着做做看吗？",
+		word = "Want to try cooking some?",
 		char_type = 3
 	},
 	{
 		id = 153,
 		main_character_face = 8,
-		word = "是一本甜点食谱哦，我已经迫不及待想试试看了呢。",
+		word = "Well, it's a book of dessert recipes. I can hardly wait to make some of them.",
 		char_type = 6
 	},
 	{
 		id = 154,
 		main_character_face = 6,
-		word = "里面有很多看起来就很美味的点心。",
+		word = "There are so many yummy-looking desserts inside...",
 		char_type = 6
 	},
 	{
 		id = 155,
 		main_character_face = 8,
-		word = "我在想，要不要每天都选一道做做看呢？",
+		word = "We should make a different recipe each day!",
 		char_type = 6
 	},
 	{
 		id = 156,
 		main_character_face = 6,
-		word = "$1，放学回来的路上我买了一些点心。",
+		word = "$1, I bought some desserts on the way home.",
 		char_type = 6
 	},
 	{
 		id = 157,
 		main_character_face = 6,
-		word = "嗯……看上去都是我喜欢的口味？",
+		word = "You did? Hang on... Aren't these all of my favorites?",
 		char_type = 2
 	},
 	{
 		id = 158,
 		main_character_face = 6,
-		word = "你是特意去买的这些么？",
+		word = "Did you get these just for me?",
 		char_type = 2
 	},
 	{
 		id = 159,
 		main_character_face = 6,
-		word = "是呀，因为想让你开心嘛。",
+		word = "Yeah. I wanted to make you happy.",
 		char_type = 6
 	},
 	{
 		id = 160,
 		main_character_face = 8,
-		word = "你平时那么辛苦，偶尔吃吃点心放松一下也很重要哦。",
+		word = "It's important to relax with something sweet once in a while when you work as hard as you do.",
 		char_type = 6
 	},
 	{
 		id = 161,
 		main_character_face = 8,
-		word = "$1，我刚刚在阳台上发现了一只小鸟的巢耶！",
+		word = "$1, I found a small bird's nest on the balcony!",
 		char_type = 6
 	},
 	{
 		id = 162,
 		main_character_face = 6,
-		word = "虽然鸟妈妈不在，但里面好像有三个小小的蛋呢。",
+		word = "There are three eggs inside, but mommy bird is nowhere to be seen.",
 		char_type = 6
 	},
 	{
 		id = 163,
 		main_character_face = 6,
-		word = "嗯……要不要照看一下？",
+		word = "In that case, we'd better help look after the eggs.",
 		char_type = 2
 	},
 	{
 		id = 164,
 		main_character_face = 0,
-		word = "嗯嗯！我也正有此意哦。",
+		word = "Yeah! That's what I was thinking.",
 		char_type = 6
 	},
 	{
 		id = 165,
 		main_character_face = 8,
-		word = "我们可以每天观察一下，但尽量不要打扰到它们。",
+		word = "We can check on them every day, but try not to get in the way too much.",
 		char_type = 6
 	},
 	{
 		id = 166,
 		main_character_face = 6,
-		word = "啊，要是能看到小鸟孵化的那一刻就好了~",
+		word = "I hope we'll get to see the little birdies coming out of their eggs.",
 		char_type = 6
 	},
 	{
 		id = 167,
 		main_character_face = 8,
-		word = "一定是很美好的画面吧，我要把全程都拍下来~",
+		word = "That would be such a beautiful sight. I wanna film it from start to finish!",
 		char_type = 6
 	},
 	{
 		id = 168,
 		main_character_face = 0,
-		word = "我今天特意看了天气预报呢。",
+		word = "I had a look at the weather report.",
 		char_type = 6
 	},
 	{
 		id = 169,
 		main_character_face = 8,
-		word = "接下来几天昼夜温差都会很大，所以我给$1准备了一件薄外套。",
+		word = "They said the temperature is going to plummet at night over the next few days, so I prepared a thin jacket for you.",
 		char_type = 6
 	},
 	{
 		id = 170,
 		main_character_face = 8,
-		word = "平时出门要记得带上哦。",
+		word = "Remember to take it whenever you go out.",
 		char_type = 6
 	},
 	{
 		id = 171,
 		main_character_face = 0,
-		word = "$1，学校里最近教了插花艺术这门课哦。",
+		word = "$1, I've been taking flower arrangement lessons for a while now.",
 		char_type = 6
 	},
 	{
 		id = 172,
 		main_character_face = 2,
-		word = "你喜欢哪种花呢，可以告诉我吗？",
+		word = "Could you tell me what kind of flowers you like?",
 		char_type = 6
 	},
 	{
 		id = 173,
 		main_character_face = 6,
-		word = "下次我想试着用你喜欢的花做一个特别的作品呢。",
+		word = "I want to make a special arrangement using some of your favorites sometime.",
 		char_type = 6
 	},
 	{
 		id = 174,
 		main_character_face = 8,
-		word = "我买了一个好看的收纳册，用来收纳之前一起看电影的票根哦。",
+		word = "I bought a wonderful album to preserve the ticket stubs of all the movies we've seen together.",
 		char_type = 6
 	},
 	{
 		id = 175,
 		main_character_face = 0,
-		word = "你收集了很多么？",
+		word = "Have we really seen that many?",
 		char_type = 3
 	},
 	{
 		id = 176,
 		main_character_face = 0,
-		word = "原来你都保存着啊。",
+		word = "You've been saving them this whole time?",
 		char_type = 3
 	},
 	{
 		id = 177,
 		main_character_face = 2,
-		word = "嗯，我把每一次的票根都好好保存着呢。",
+		word = "Yeah. I've been keeping each and every one safe.",
 		char_type = 6
 	},
 	{
 		id = 178,
 		main_character_face = 6,
-		word = "要不要找个时间再去看电影？",
+		word = "Do you wanna go watch another movie soon?",
 		char_type = 6
 	},
 	{
 		id = 179,
 		main_character_face = 8,
-		word = "这次我们可以选一部轻松点的喜剧片，让你好好放松一下精神~",
+		word = "I think a light comedy would be a nice change of pace for you.",
 		char_type = 6
 	},
 	{
 		id = 180,
 		main_character_face = 0,
-		word = "嗯？错觉么？家里有一种好闻的香味。",
+		word = "Is it just me, or does something smell really good?",
 		char_type = 2
 	},
 	{
 		id = 181,
 		main_character_face = 2,
-		word = "$1注意到了吗？我正想告诉你呢。",
+		word = "You noticed? I was just thinking of bringing it up.",
 		char_type = 6
 	},
 	{
 		id = 182,
 		main_character_face = 6,
-		word = "这是我在手工课上学着做的香薰蜡烛。",
+		word = "It's coming from this scented candle I made in my crafts class.",
 		char_type = 6
 	},
 	{
 		id = 183,
 		main_character_face = 8,
-		word = "我特意选了薰衣草的味道，睡前可以点上哦。",
+		word = "I chose lavender for mine, so you could light it up before bedtime.",
 		char_type = 6
 	},
 	{
 		id = 184,
 		main_character_face = 0,
-		word = "啊，不过要小心别碰到蜡烛，安全第一~",
+		word = "Oh, just be careful with the flame. Safety comes first.",
 		char_type = 6
 	},
 	{
 		id = 185,
 		main_character_face = 5,
-		word = "$1，可以帮我一个忙吗？",
+		word = "$1, I'm wondering something...",
 		char_type = 6
 	},
 	{
 		id = 186,
 		main_character_face = 5,
-		word = "嗯？什么事？",
+		word = "Yeah? What?",
 		char_type = 2
 	},
 	{
 		id = 187,
 		main_character_face = 2,
-		word = "我自学了编织，想给你做一条围巾……",
+		word = "I wanna make a scarf for you, so I started studying knitting on my own.",
 		char_type = 6
 	},
 	{
 		id = 188,
 		main_character_face = 6,
-		word = "可以让我量一下尺寸吗？",
+		word = "Mind if I measure your size first?",
 		char_type = 6
 	},
 	{
 		id = 189,
 		main_character_face = 8,
-		word = "虽然还很生疏……还织得还不太好，但我会努力的！",
+		word = "I'm still only a beginner, but I'll try my best.",
 		char_type = 6
 	},
 	{
 		id = 190,
 		main_character_face = 2,
-		word = "$1，书房的灯好像有点暗呢。",
+		word = "$1, the lights in the study aren't as bright as they used to be.",
 		char_type = 6
 	},
 	{
 		id = 191,
 		main_character_face = 2,
-		word = "确实，看文件的时候感觉有点吃力。",
+		word = "You're right. It feels a little harder to read in there.",
 		char_type = 2
 	},
 	{
 		id = 192,
 		main_character_face = 5,
-		word = "这样下去对眼睛不好呢……",
+		word = "Yeah, that's bad for your eyes.",
 		char_type = 6
 	},
 	{
 		id = 193,
 		main_character_face = 6,
-		word = "趁着周末，一起去挑一个新的灯吧？要选护眼的那种。",
+		word = "We can go and buy new lights on the weekend. Ones that are easy on the eyes.",
 		char_type = 6
 	},
 	{
 		id = 194,
 		main_character_face = 8,
-		word = "顺便也可以出去散散步，呼吸新鲜空气~",
+		word = "That's also a good opportunity to take a walk and get some fresh air!",
 		char_type = 6
 	},
 	{
 		id = 195,
 		main_character_face = 8,
-		word = "$1，你看，家里的植物是不是长得特别精神呀？",
+		word = "Hey, $1, don't the plants around the house look really green?",
 		char_type = 6
 	},
 	{
 		id = 196,
 		main_character_face = 8,
-		word = "是啊，最近都很有活力的样子，这也多亏了娜比娅照顾得好。",
+		word = "They do. They've been full of life lately, all thanks to you.",
 		char_type = 2
 	},
 	{
 		id = 197,
 		main_character_face = 6,
-		word = "嘿嘿……其实我在图书馆看到了一本园艺书呢。",
+		word = "Heehee... I found a gardening book at the library the other day.",
 		char_type = 6
 	},
 	{
 		id = 198,
 		main_character_face = 0,
-		word = "书上说植物也是有听觉的，每天和它们说说话，它们会长得更好。",
+		word = "According to the book, plants have a sense of hearing. Talking to them every day makes them grow better.",
 		char_type = 6
 	},
 	{
 		id = 199,
 		main_character_face = 6,
-		word = "所以我每天给它们浇水的时候，都会和它们聊天呢。",
+		word = "That's why I've always been chatting with the plants while I water them.",
 		char_type = 6
 	},
 	{
 		id = 200,
 		main_character_face = 8,
-		word = "$1要不要也试试看？说不定它们会更开心哦。",
+		word = "Maybe you should do it, too. I think they'd like it.",
 		char_type = 6
 	},
 	{
 		id = 201,
 		main_character_face = 0,
-		word = "$1，你喜欢听音乐吗？",
+		word = "Commander, do you like music?",
 		char_type = 6
 	},
 	{
 		id = 202,
 		main_character_face = 0,
-		word = "怎么突然问起了这个？",
+		word = "Why do you ask?",
 		char_type = 2
 	},
 	{
 		id = 203,
 		main_character_face = 6,
-		word = "我觉得工作或者学习的时候放点轻音乐，注意力会变得更集中呢。",
+		word = "I just thought it might help your concentration to play some light music while studying or working.",
 		char_type = 6
 	},
 	{
 		id = 204,
 		main_character_face = 6,
-		word = "而且……也能让房间的氛围变得更温馨一些。",
+		word = "It also lightens up the mood.",
 		char_type = 6
 	},
 	{
 		id = 205,
 		main_character_face = 8,
-		word = "等下要不要试试看呢？",
+		word = "Do you wanna try it later?",
 		char_type = 6
 	},
 	{
 		id = 206,
 		main_character_face = 0,
-		word = "家里有面包的香味……你在做面包吗？",
+		word = "I smell bread... Navi, are you baking?",
 		char_type = 2
 	},
 	{
 		id = 207,
 		main_character_face = 1,
-		word = "啊，被发现了……本来想给你一个惊喜的。",
+		word = "Oh, you figured it out... I was hoping to surprise you.",
 		char_type = 6
 	},
 	{
 		id = 208,
 		main_character_face = 1,
-		word = "这么香的味道，想不发现也很难。",
+		word = "When something smells this good, it's hard NOT to notice.",
 		char_type = 2
 	},
 	{
 		id = 209,
 		main_character_face = 2,
-		word = "就别提前夸奖我啦，这还是我第一次尝试烤面包呢。",
+		word = "Don't compliment me just yet. This is my first time baking bread.",
 		char_type = 6
 	},
 	{
 		id = 210,
 		main_character_face = 6,
-		word = "等会儿烤好了我们一起品尝怎么样？希望味道不会太糟糕……",
+		word = "Let's eat it together once it's done. I hope it'll turn out good...",
 		char_type = 6
 	},
 	{
 		id = 211,
 		main_character_face = 5,
-		word = "$1，你的肩膀是不是很酸？",
+		word = "$1, do your shoulders feel stiff?",
 		char_type = 6
 	},
 	{
 		id = 212,
 		main_character_face = 5,
-		word = "我看你刚才一直在揉肩膀……",
+		word = "I notice you keep rubbing them over and over.",
 		char_type = 6
 	},
 	{
 		id = 213,
 		main_character_face = 2,
-		word = "要不要我帮你按按？虽然可能不太专业……",
+		word = "Do you want a massage? I'm not the best at it, but still...",
 		char_type = 6
 	},
 	{
 		id = 214,
 		main_character_face = 0,
-		word = "那就拜托娜比娅了",
+		word = "Yes, please.",
 		char_type = 3
 	},
 	{
 		id = 215,
 		main_character_face = 0,
-		word = "好，来吧！",
+		word = "Go right ahead.",
 		char_type = 3
 	},
 	{
 		id = 216,
 		main_character_face = 8,
-		word = "好~如果等下觉得不舒服，要及时告诉我哦。",
+		word = "Okay! Please tell me if it hurts.",
 		char_type = 6
 	},
 	{
 		id = 217,
 		main_character_face = 8,
-		word = "$1，你看我找到了什么？",
+		word = "Commander, look! Do you know what this is?",
 		char_type = 6
 	},
 	{
 		id = 218,
 		main_character_face = 8,
-		word = "这是……相册？",
+		word = "Is it... a photo album?",
 		char_type = 2
 	},
 	{
 		id = 219,
 		main_character_face = 6,
-		word = "嗯！里面都是我们一起拍的照片哦。",
+		word = "Yep! It has all the photos we've taken together.",
 		char_type = 6
 	},
 	{
 		id = 220,
 		main_character_face = 6,
-		word = "能和$1一起创造这么多美好的回忆，真的很幸福呢。",
+		word = "I'm so glad I got to make all these wonderful memories together with you.",
 		char_type = 6
 	},
 	{
 		id = 221,
 		main_character_face = 6,
-		word = "$1~",
+		word = "Hey, $1!",
 		char_type = 6
 	},
 	{
 		id = 222,
 		main_character_face = 6,
-		word = "我今天学会了折纸星星哦~",
+		word = "I've learned how to make paper stars.",
 		char_type = 6
 	},
 	{
 		id = 223,
 		main_character_face = 8,
-		word = "你看，这些都是我折的哦。",
+		word = "Look! I made all of these myself.",
 		char_type = 6
 	},
 	{
 		id = 224,
 		main_character_face = 8,
-		word = "据说集够一千颗星星就可以实现一个愿望哦。",
+		word = "I heard you can make a wish if you get 1,000 of them.",
 		char_type = 6
 	},
 	{
 		id = 225,
 		main_character_face = 8,
-		word = "那你想许什么愿望呢？",
+		word = "What are you going to wish for?",
 		char_type = 2
 	},
 	{
 		id = 226,
 		main_character_face = 2,
-		word = "欸？这个是秘密啦……",
+		word = "Heehee. That's a secret.",
 		char_type = 6
 	},
 	{
 		id = 227,
 		main_character_face = 6,
-		word = "不过倒是有一部分可以告诉你——是和你有关的愿望哦。",
+		word = "But I can tell you this: It has something to do with you.",
 		char_type = 6
 	},
 	{
 		id = 228,
 		main_character_face = 2,
-		word = "唔……$1，我发现你最近总是很晚才休息呢。",
+		word = "Hmm... $1, you haven't been sleeping well lately.",
 		char_type = 6
 	},
 	{
 		id = 229,
 		main_character_face = 2,
-		word = "是有些睡不太好。",
+		word = "Yeah. My sleep quality has been pretty bad...",
 		char_type = 2
 	},
 	{
 		id = 230,
 		main_character_face = 5,
-		word = "是工作的事让你睡不好吗？",
+		word = "Is it because of your work?",
 		char_type = 6
 	},
 	{
 		id = 231,
 		main_character_face = 5,
-		word = "这样下去身体会受不了的……对了，我有个主意。",
+		word = "You're going to get sick if this keeps up... Oh, that gives me an idea.",
 		char_type = 6
 	},
 	{
 		id = 232,
 		main_character_face = 8,
-		word = "今晚我给你泡杯热牛奶，再陪你散散步放松一下吧？",
+		word = "How about I make some hot milk tonight, and we go for a walk together?",
 		char_type = 6
 	},
 	{
 		id = 233,
 		main_character_face = 0,
-		word = "$1，天气预报说最近都是晴天哦。",
+		word = "$1, the weather forecast says it's going to stay sunny for a few days.",
 		char_type = 6
 	},
 	{
 		id = 234,
 		main_character_face = 6,
-		word = "要不要一起去运动？",
+		word = "Do you wanna go get some exercise?",
 		char_type = 6
 	},
 	{
 		id = 235,
 		main_character_face = 0,
-		word = "好啊，确实该活动活动了。",
+		word = "Yeah, I'm aching to get some.",
 		char_type = 3
 	},
 	{
 		id = 236,
 		main_character_face = 0,
-		word = "你想做什么运动呢？",
+		word = "Sure! What kind?",
 		char_type = 3
 	},
 	{
 		id = 237,
 		main_character_face = 0,
-		word = "我想趁着这么好的天气，可以一起去户外，随便做些什么运动都行。",
+		word = "This sunny weather is perfect for going out. Also, any kind of exercise will do.",
 		char_type = 6
 	},
 	{
 		id = 238,
 		main_character_face = 6,
-		word = "反正活动一下对身体好，也能放松心情嘛。",
+		word = "It's great to get moving and relax your mind outside.",
 		char_type = 6
 	},
 	{
 		id = 239,
 		main_character_face = 8,
-		word = "我已经准备好运动装备了哦~现在就出发吧~",
+		word = "I'm already prepared, so let's go.",
 		char_type = 6
 	},
 	{
 		id = 240,
 		main_character_face = 5,
-		word = "喂……废柴$1……",
+		word = "Hey, dweeb...",
 		char_type = 6
 	},
 	{
 		id = 241,
 		main_character_face = 5,
-		word = "你…你最近看起来好像很累的样子呢！",
+		word = "You look like you've been working way too much lately.",
 		char_type = 6
 	},
 	{
 		id = 242,
 		main_character_face = 5,
-		word = "尤其今天也还有黑眼圈……",
+		word = "Especially today. You've got circles under your eyes.",
 		char_type = 6
 	},
 	{
 		id = 243,
 		main_character_face = 2,
-		word = "……我给你泡了咖啡，不过别误会了哦，我只是不想看你倒下而已！",
+		word = "Anyway, I made you this coffee just so you wouldn't pass out! Not because I'm nice or anything!",
 		char_type = 6
 	},
 	{
 		id = 244,
 		main_character_face = 0,
-		word = "谢谢你特地为我准备",
+		word = "Just for me? Thank you.",
 		char_type = 3
 	},
 	{
 		id = 245,
 		main_character_face = 1,
-		word = "笨、笨蛋！谁说是特地准备的！",
+		word = "What? No! I never said anything about doing it just for you!",
 		char_type = 6
 	},
 	{
 		id = 246,
 		main_character_face = 2,
-		word = "不过既然你这么说了，我以后也可以偶尔帮你泡一下啦……",
+		word = "But if you appreciate it... I guess I could make coffee for you once in a while.",
 		char_type = 6
 	},
 	{
 		id = 247,
 		main_character_face = 0,
-		word = "正好渴了，谢谢",
+		word = "Thanks. I was feeling pretty thirsty.",
 		char_type = 3
 	},
 	{
 		id = 248,
 		main_character_face = 2,
-		word = "哼，真是的……",
+		word = "Hmph. I bet...",
 		char_type = 6
 	},
 	{
 		id = 249,
 		main_character_face = 7,
-		word = "算了，要好好记住人家的这份恩情哦~废柴$1",
+		word = "Remember, you owe me for this, dweeb!",
 		char_type = 6
 	},
 	{
 		id = 250,
 		main_character_face = 6,
-		word = "哼哼~$1，整天在家里待着多无聊啊~？",
+		word = "Heheh. $1, doesn't it get boring just sitting around the house all the time?",
 		char_type = 6
 	},
 	{
 		id = 251,
 		main_character_face = 8,
-		word = "我要出去跑步了哦，你这种弱不禁风的家伙肯定跟不上吧~？",
+		word = "Me, I was just about to go running, but I guess that's too much for a dweeb like you, huh?",
 		char_type = 6
 	},
 	{
 		id = 252,
 		main_character_face = 7,
-		word = "要不要试试看？输了的话就要听人家的命令哦？",
+		word = "Think you can keep up with me? If you lose, you've got to listen to my orders!",
 		char_type = 6
 	},
 	{
 		id = 253,
 		main_character_face = 0,
-		word = "这么想看我认输的样子吗？",
+		word = "Are you that desperate to see me fail?",
 		char_type = 3
 	},
 	{
 		id = 254,
 		main_character_face = 7,
-		word = "哼哼，被你发现了呢～",
+		word = "Heheh, so you noticed.",
 		char_type = 6
 	},
 	{
 		id = 255,
 		main_character_face = 8,
-		word = "既然你都这么有自知之明了，那就快点跟上来吧，弱者～",
+		word = "Let's see if your legs are as sharp as your senses, dweeb!",
 		char_type = 6
 	},
 	{
 		id = 256,
 		main_character_face = 0,
-		word = "好啊，一起运动吧",
+		word = "Okay. Let's get some exercise!",
 		char_type = 3
 	},
 	{
 		id = 257,
 		main_character_face = 4,
-		word = "真没意思……$1完全不懂人家的点呢。",
+		word = "You are SO lame... You really don't get my point at all, huh?",
 		char_type = 6
 	},
 	{
 		id = 258,
 		main_character_face = 7,
-		word = "不过也无所谓了，反正等会儿有你好受的~！",
+		word = "Whatever. You're gonna regret this later anyway!",
 		char_type = 6
 	},
 	{
 		id = 259,
 		main_character_face = 6,
-		word = "$1，我今天心情好，所以要问你一个问题~",
+		word = "Hey, $1, I'm in a good mood today, so hear me out for a minute.",
 		char_type = 6
 	},
 	{
 		id = 260,
 		main_character_face = 2,
-		word = "如果……人家是说如果哦~？",
+		word = "I've got a strictly hypothetical question for you.",
 		char_type = 6
 	},
 	{
 		id = 261,
 		main_character_face = 2,
-		word = "收到礼物的话，你更喜欢哪种类型的呢？",
+		word = "If someone was getting a gift for you, what would you want?",
 		char_type = 6
 	},
 	{
 		id = 262,
 		main_character_face = 0,
-		word = "只要是娜比娅送的我都喜欢",
+		word = "I'd be happy to receive anything from you.",
 		char_type = 3
 	},
 	{
 		id = 263,
 		main_character_face = 1,
-		word = "什、什么啊！？谁、谁说要给你送礼物了！？",
+		word = "Whoa, what?! I never said ANYTHING about ME giving a gift to you!",
 		char_type = 6
 	},
 	{
 		id = 264,
 		main_character_face = 2,
-		word = "……不过看在你这么期待的份上，到时候就勉为其难地送你一个好了……",
+		word = "But... since you're that eager, then maybe I will do it someday!",
 		char_type = 6
 	},
 	{
 		id = 265,
 		main_character_face = 0,
-		word = "更偏实用性的东西吧",
+		word = "Something practical, I guess.",
 		char_type = 3
 	},
 	{
 		id = 266,
 		main_character_face = 5,
-		word = "还是真是无趣的答案呢……",
+		word = "Ugh... What a boring answer...",
 		char_type = 6
 	},
 	{
 		id = 267,
 		main_character_face = 2,
-		word = "算了，反正人家也没打算送你礼物~！",
+		word = "Oh well. It's not like I was gonna get a gift for you anyway!",
 		char_type = 6
 	},
 	{
 		id = 268,
 		main_character_face = 8,
-		word = "$1~看得出来人家今天有什么不一样的地方吗~？",
+		word = "Hey, $1, do you notice anything different about me today?",
 		char_type = 6
 	},
 	{
 		id = 269,
 		main_character_face = 7,
-		word = "要是猜不出来的话，就要接受我的惩罚游戏哦~",
+		word = "If you can't point it out, you'll have to play a punishment game ♪",
 		char_type = 6
 	},
 	{
 		id = 270,
 		main_character_face = 0,
-		word = "又在找机会捉弄人了吧？",
+		word = "You just want to prank me again, don't you?",
 		char_type = 3
 	},
 	{
 		id = 271,
 		main_character_face = 7,
-		word = "欸~被发现了？真没意思……",
+		word = "Dang, you figured it out. Laaame...",
 		char_type = 6
 	},
 	{
 		id = 272,
 		main_character_face = 8,
-		word = "反正你也发现了，不如就直接陪我玩惩罚游戏吧~！",
+		word = "Oh well, since you did, you might as well play the punishment game with me anyway!",
 		char_type = 6
 	},
 	{
 		id = 273,
 		main_character_face = 0,
-		word = "是发饰调整了一点角度吧",
+		word = "Is it about your new hairpin?",
 		char_type = 3
 	},
 	{
 		id = 274,
 		main_character_face = 2,
-		word = "切……这么认真回答做什么嘛。",
+		word = "Tsk... Why did you have to give a serious answer?",
 		char_type = 6
 	},
 	{
 		id = 275,
 		main_character_face = 3,
-		word = "人家明明准备了那么多好玩的惩罚游戏，这下派不上用场了……",
+		word = "I spent all that time thinking about punishments, and now it was all for nothing!",
 		char_type = 6
 	},
 	{
 		id = 276,
 		main_character_face = 6,
-		word = "嗯哼~人家今天特意试着做了咖喱哦~",
+		word = "Heheh! I made some curry today!",
 		char_type = 6
 	},
 	{
 		id = 277,
 		main_character_face = 8,
-		word = "保证是废柴$1从来没有尝试过的全新口味呢~",
+		word = "It has a unique taste like nothing you've ever had before – I guarantee it!",
 		char_type = 6
 	},
 	{
 		id = 278,
 		main_character_face = 6,
-		word = "我已经放到餐桌上咯，你可不准剩下！",
+		word = "It's already on the table, so go and eat up!",
 		char_type = 6
 	},
 	{
 		id = 279,
 		main_character_face = 0,
-		word = "总觉得这份咖喱有点可疑",
+		word = "Looks dubious to me...",
 		char_type = 3
 	},
 	{
 		id = 280,
 		main_character_face = 7,
-		word = "哼哼~那又如何~？",
+		word = "Dubious? I don't know what you mean!",
 		char_type = 6
 	},
 	{
 		id = 281,
 		main_character_face = 8,
-		word = "你现在想逃也已经来不及了哦。",
+		word = "Either way, there's no pulling out now!",
 		char_type = 6
 	},
 	{
 		id = 282,
 		main_character_face = 0,
-		word = "谢谢，那我就开动了",
+		word = "Thanks. Time to dig in.",
 		char_type = 3
 	},
 	{
 		id = 283,
 		main_character_face = 6,
-		word = "真是个一点都不谨慎的笨蛋呢~",
+		word = "Wow. You are one stupid dweeb.",
 		char_type = 6
 	},
 	{
 		id = 284,
 		main_character_face = 6,
-		word = "就好好享受人家的特制料理吧。",
+		word = "Well, enjoy my special curry!",
 		char_type = 6
 	},
 	{
 		id = 285,
 		main_character_face = 2,
-		word = "$1……那个……",
+		word = "$1... Um...",
 		char_type = 6
 	},
 	{
 		id = 286,
 		main_character_face = 2,
-		word = "我看你一直在处理文件……",
+		word = "You've been going through documents for a long time now...",
 		char_type = 6
 	},
 	{
 		id = 287,
 		main_character_face = 6,
-		word = "要不要休息一下喝杯红茶呢？",
+		word = "Why don't you take a break and sip some tea?",
 		char_type = 6
 	},
 	{
 		id = 288,
 		main_character_face = 0,
-		word = "娜比娅是在关心我么？",
+		word = "Are you concerned about me, Navi?",
 		char_type = 3
 	},
 	{
 		id = 289,
 		main_character_face = 6,
-		word = "嗯……因为希望$1能适当放松一下……",
+		word = "Yeah. I want you to relax a little.",
 		char_type = 6
 	},
 	{
 		id = 290,
 		main_character_face = 8,
-		word = "我准备了红茶和饼干，就暂时放下工作，休息一下吧。",
+		word = "I've got some cookies and tea for you. Put your work on hold for a bit and rest.",
 		char_type = 6
 	},
 	{
 		id = 291,
 		main_character_face = 0,
-		word = "不用了，我再忙一会",
+		word = "I'm fine. I still have stuff to do.",
 		char_type = 3
 	},
 	{
 		id = 292,
 		main_character_face = 3,
-		word = "这样啊……",
+		word = "Well, okay...",
 		char_type = 6
 	},
 	{
 		id = 293,
 		main_character_face = 2,
-		word = "那我……过一会儿再来好了。",
+		word = "I'll be back later, then.",
 		char_type = 6
 	},
 	{
 		id = 294,
 		main_character_face = 0,
-		word = "$1，我准备整理一下书架……",
+		word = "$1, I'm going to organize the bookcase.",
 		char_type = 6
 	},
 	{
 		id = 295,
 		main_character_face = 6,
-		word = "你有什么需要特别放到手边的书吗？",
+		word = "Are there any books that you want to keep within arm's reach?",
 		char_type = 6
 	},
 	{
 		id = 296,
 		main_character_face = 0,
-		word = "我来帮你一起整理吧",
+		word = "How about we organize it together?",
 		char_type = 3
 	},
 	{
 		id = 297,
 		main_character_face = 2,
-		word = "欸？这样会不会太麻烦你了……",
+		word = "Eh... wouldn't that take up too much of your time?",
 		char_type = 6
 	},
 	{
 		id = 298,
 		main_character_face = 6,
-		word = "不过…能和$1一起，我很开心哦……",
+		word = "Then again... I guess I'd be happy to do it with you.",
 		char_type = 6
 	},
 	{
 		id = 299,
 		main_character_face = 0,
-		word = "没什么，按照你的习惯来就好",
+		word = "Not really. Just go with whatever feels comfortable for you.",
 		char_type = 3
 	},
 	{
 		id = 300,
 		main_character_face = 8,
-		word = "那就放心交给我吧。",
+		word = "Alright, I'll get it done.",
 		char_type = 6
 	},
 	{
 		id = 301,
 		main_character_face = 6,
-		word = "一定会整理得井井有条的。",
+		word = "It'll be nice and orderly when I'm finished!",
 		char_type = 6
 	},
 	{
 		id = 302,
 		main_character_face = 6,
-		word = "我整理了一些我们的照片。",
+		word = "I organized our photos today.",
 		char_type = 6
 	},
 	{
 		id = 303,
 		main_character_face = 2,
-		word = "想把它们放在相框里……",
+		word = "I found a few I want to frame.",
 		char_type = 6
 	},
 	{
 		id = 304,
 		main_character_face = 5,
-		word = "不过数量有点多呢，我有点纠结装裱哪些了……",
+		word = "Well, I say \"a few,\" but there were so many that I don't know which to choose.",
 		char_type = 6
 	},
 	{
 		id = 305,
 		main_character_face = 0,
-		word = "你觉得好看的都可以放上去",
+		word = "If you like the photos, let's just frame them all.",
 		char_type = 3
 	},
 	{
 		id = 306,
 		main_character_face = 1,
-		word = "欸？这样吗？",
+		word = "Really? Are you sure?",
 		char_type = 6
 	},
 	{
 		id = 307,
 		main_character_face = 6,
-		word = "唔……虽然也不是不行，但是这样就要买更多相框了……",
+		word = "No, wait... Then we'd have to buy a lot more frames, wouldn't we?",
 		char_type = 6
 	},
 	{
 		id = 308,
 		main_character_face = 0,
-		word = "一起挑选照片吧！",
+		word = "Let's pick out the best together!",
 		char_type = 3
 	},
 	{
 		id = 309,
 		main_character_face = 8,
-		word = "欸嘿嘿，那太好了~",
+		word = "Heehee. That'd be fun!",
 		char_type = 6
 	},
 	{
 		id = 310,
 		main_character_face = 8,
-		word = "这样就像是两个人一起回忆美好时光一样，好幸福~",
+		word = "It'll be like we're reminiscing about all the good times we had together!",
 		char_type = 6
 	},
 	{
 		id = 311,
 		main_character_face = 6,
-		word = "我在研究一些瑜伽动作哦。",
+		word = "I've been reading a lot about yoga lately.",
 		char_type = 6
 	},
 	{
 		id = 312,
 		main_character_face = 6,
-		word = "$1平时工作太久了，要不要和我一起活动一下？",
+		word = "You mostly sit during your work, don't you? We should do some exercises together.",
 		char_type = 6
 	},
 	{
 		id = 313,
 		main_character_face = 0,
-		word = "教我几个舒展筋骨的动作吧",
+		word = "Will you teach me how?",
 		char_type = 3
 	},
 	{
 		id = 314,
 		main_character_face = 8,
-		word = "好~我这就去准备瑜伽垫哦。",
+		word = "Okay! I'll get the yoga mat out right now.",
 		char_type = 6
 	},
 	{
 		id = 315,
 		main_character_face = 0,
-		word = "可以先示范给我看看么？",
+		word = "Can you demonstrate it for me?",
 		char_type = 3
 	},
 	{
 		id = 316,
 		main_character_face = 2,
-		word = "嗯……虽然有点害羞……",
+		word = "Umm... It's kind of awkward...",
 		char_type = 6
 	},
 	{
 		id = 317,
 		main_character_face = 0,
-		word = "但为了$1的健康着想，我会认真示范的。",
+		word = "But, for the sake of your health, I'll do that!",
 		char_type = 6
 	},
 	{
 		id = 318,
 		main_character_face = 8,
-		word = "新买的烤箱今天送到啦。",
+		word = "The cookie oven I ordered arrived today!",
 		char_type = 6
 	},
 	{
 		id = 319,
 		main_character_face = 6,
-		word = "我想拿它烤些曲奇……$1等会儿愿意尝尝看吗？",
+		word = "I'm gonna go make some cookies! You'll eat them once they're done, won't you?",
 		char_type = 6
 	},
 	{
 		id = 320,
 		main_character_face = 0,
-		word = "要不要一起做？",
+		word = "Why don't we make them together?",
 		char_type = 3
 	},
 	{
 		id = 321,
 		main_character_face = 8,
-		word = "真的吗？$1愿意和我一起做曲奇？",
+		word = "Really? Are you going to join me?",
 		char_type = 6
 	},
 	{
 		id = 322,
 		main_character_face = 8,
-		word = "太好了……",
+		word = "That's so great!",
 		char_type = 6
 	},
 	{
 		id = 323,
 		main_character_face = 0,
-		word = "没问题，期待你的手艺",
+		word = "Sure. I can't wait to taste them.",
 		char_type = 3
 	},
 	{
 		id = 324,
 		main_character_face = 0,
-		word = "嗯嗯，我会小心完成的。",
+		word = "Yeah! I'll try my best.",
 		char_type = 6
 	},
 	{
 		id = 325,
 		main_character_face = 6,
-		word = "希望能做出让$1赞不绝口的曲奇呢……",
+		word = "I hope you love my cookies!",
 		char_type = 6
 	},
 	[1001] = {
 		id = 1001,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这座古老的庭院。",
+		word = "I took Navi to an old garden.",
 		char_type = 0
 	},
 	[1002] = {
 		id = 1002,
 		main_character_face = 0,
-		word = "花藤环绕的走廊里，看着她陶醉地闻着花香的模样，我忍不住按下了快门留住这一刻。",
+		word = "As we walked along a path surrounded by flowers and vines, I couldn't resist the urge to take a photo of her literally stopping to smell the fragrant roses.",
 		char_type = 0
 	},
 	[1003] = {
 		id = 1003,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了某处的公园。",
+		word = "I took Navi to a public park.",
 		char_type = 0
 	},
 	[1004] = {
 		id = 1004,
 		main_character_face = 0,
-		word = "在被几把长椅环绕的白色建筑前，娜比娅站在小径中央指着空荡荡的内部，转过头来一脸好奇地问我这是做什么用的，我记录下了她这瞬间的模样。",
+		word = "She stood in the middle of the path, pointed at the white building with the hollow interior, and looked at me with a curious expression. \"What kind of building is that?\" she asked. I captured that moment in time.",
 		char_type = 0
 	},
 	[1005] = {
 		id = 1005,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了某处景区。",
+		word = "I took Navi to a sightseeing spot.",
 		char_type = 0
 	},
 	[1006] = {
 		id = 1006,
 		main_character_face = 0,
-		word = "站在湖边的木制观景台里，娜比娅安静地凝望着眼前波光粼粼的湖面，留给我一个若有所思的背影。",
+		word = "She went inside a wooden pavilion on the lake shore and silently watched the shimmering surface of the water, leaving me with a contemplative back view.",
 		char_type = 0
 	},
 	[1007] = {
 		id = 1007,
 		main_character_face = 0,
-		word = "抵达目的地后，我和娜比娅踏上这铺满白樱的小径。",
+		word = "When we reached our destination, I took Navi along a path lined with white cherry blossom trees.",
 		char_type = 0
 	},
 	[1008] = {
 		id = 1008,
 		main_character_face = 0,
-		word = "娜比娅站在洁白花影中开心地冲我笑着，这让我忍不住按下快门。",
+		word = "She stood amidst the snow-white flowers, smiling. I snapped a photo without a second thought.",
 		char_type = 0
 	},
 	[1009] = {
 		id = 1009,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这座被冬雪笼罩的公园。",
+		word = "Navi and I visited a snow-covered park.",
 		char_type = 0
 	},
 	[1010] = {
 		id = 1010,
 		main_character_face = 0,
-		word = "娜比娅伸出手掌轻接飘落的雪花，她若有所思的侧脸和飞舞的雪点交织成一幅唯美的画面。",
+		word = "She spread out her hands and let snowflakes fall into them. The airborne snow and her side profile combined into a beautiful picture.",
 		char_type = 0
 	},
 	[1011] = {
 		id = 1011,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片连绵的千本鸟居。",
+		word = "I took Navi to a place where rows of torii gates stretched endlessly.",
 		char_type = 0
 	},
 	[1012] = {
 		id = 1012,
 		main_character_face = 0,
-		word = "在朱红色的木制鸟居隧道中，娜比娅踩着石阶回眸，橙红色的光影透过层叠的门框洒在她的侧脸上。",
+		word = "As she walked along the stone path lined with vermilion torii, she glanced back, and the orange light bathed her side profile in a warm glow.",
 		char_type = 0
 	},
 	[1013] = {
 		id = 1013,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这座横跨河面的钢铁大桥。",
+		word = "Navi and I arrived at a long bridge spanning the river.",
 		char_type = 0
 	},
 	[1014] = {
 		id = 1014,
 		main_character_face = 0,
-		word = "在昏黄的路灯下，娜比娅静静倚靠在冰冷的金属栏杆上，半明半暗的光影勾勒出她的侧脸。",
+		word = "Beneath the dim yellow glow of the street lamps, she silently leaned against the cold metal railing as the light and shadow painted an outline of her.",
 		char_type = 0
 	},
 	[1015] = {
 		id = 1015,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这条林荫小径。",
+		word = "Navi and I passed by a tree-lined pathway.",
 		char_type = 0
 	},
 	[1016] = {
 		id = 1016,
 		main_character_face = 0,
-		word = "在郁郁葱葱的树影下，娜比娅站在道路中央俏皮地弯腰。",
+		word = "She stood in the middle, striking an adorable pose in the shadows of the overgrown trees.",
 		char_type = 0
 	},
 	[1017] = {
 		id = 1017,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片沙漠。",
+		word = "I took Navi to a dessert.",
 		char_type = 0
 	},
 	[1018] = {
 		id = 1018,
 		main_character_face = 0,
-		word = "她有些惊讶地抬手捂住了嘴。",
+		word = "She covered her mouth with her hand in surprise.",
 		char_type = 0
 	},
 	[1019] = {
 		id = 1019,
 		main_character_face = 0,
-		word = "而她的身后是黑色的光秃树干，静默地伫立在这片金色的荒原上。",
+		word = "Dead trees behind her stood like silent sentinels in the vast, barren, golden landscape.",
 		char_type = 0
 	},
 	[1020] = {
 		id = 1020,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片森林的岔路口。",
+		word = "Navi and I reached a fork in the road in the woods.",
 		char_type = 0
 	},
 	[1021] = {
 		id = 1021,
 		main_character_face = 0,
-		word = "她在两条分叉的小径前驻足，左右张望着比较着两边的路况，在认真思考该选择哪一条路继续前进。",
+		word = "She stopped at the branching paths, looking from one to the next, wondering which way to go.",
 		char_type = 0
 	},
 	[1022] = {
 		id = 1022,
 		main_character_face = 0,
-		word = "我划着船在山间河道前行，娜比娅就坐在船头。",
+		word = "Navi and I got in a boat and sailed along a river in the mountains.",
 		char_type = 0
 	},
 	[1023] = {
 		id = 1023,
 		main_character_face = 0,
-		word = "她时而仰头看两岸的山壁，时而低头望着水面，对这峡谷的风光颇感兴趣。",
+		word = "Her curious gaze went everywhere – from the cliffs on the banks, to the surface of the water, and across the valley landscape.",
 		char_type = 0
 	},
 	[1024] = {
 		id = 1024,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片阳光明媚的海滩。",
+		word = "I took Navi to a scenic beach.",
 		char_type = 0
 	},
 	[1025] = {
 		id = 1025,
 		main_character_face = 0,
-		word = "穿着校服的娜比娅踮着脚尖站在潮湿的沙滩上，望着涌来的浪花，心情似乎很是不错。",
+		word = "In her uniform, she watched the waves ebb and flow, clearly having the time of her life.",
 		char_type = 0
 	},
 	[1026] = {
 		id = 1026,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片被晨雾笼罩的森林。",
+		word = "I took Navi to a dense forest shrouded in morning mist.",
 		char_type = 0
 	},
 	[1027] = {
 		id = 1027,
 		main_character_face = 0,
-		word = "娜比娅抬起手遮挡着前额，望向被雾气模糊的林间小径，厚厚的落叶在她脚下发出沙沙声响。",
+		word = "As she moved forward, her eyes fixed on the foggy path ahead, the thick carpet of fallen leaves rustled underfoot with every step.",
 		char_type = 0
 	},
 	[1028] = {
 		id = 1028,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这片海滩。",
+		word = "I went to a small beach with Navi.",
 		char_type = 0
 	},
 	[1029] = {
 		id = 1029,
 		main_character_face = 0,
-		word = "娜比娅蹲在老树根旁，好奇地注视着提灯中的亮光。",
+		word = "She squatted at the base of an old tree and curiously examined it under the light of her lantern.",
 		char_type = 0
 	},
 	[1030] = {
 		id = 1030,
 		main_character_face = 0,
-		word = "我举起相机想记录这一刻，结果不小心对焦到了提灯上……",
+		word = "Sadly, my camera focused on her lantern rather than her…",
 		char_type = 0
 	},
 	[1031] = {
 		id = 1031,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了这座建筑参观。",
+		word = "I took Navi to have a look at a building.",
 		char_type = 0
 	},
 	[1032] = {
 		id = 1032,
 		main_character_face = 0,
-		word = "娜比娅躲在石柱后面，露出半个身子偷偷向我张望，嘴角藏着一丝顽皮的笑意。",
+		word = "She hid behind a stone pillar, peeking out to look at me with a mischievous smile on her face.",
 		char_type = 0
 	},
 	[1033] = {
 		id = 1033,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了目的地。",
+		word = "Navi and I reached our destination.",
 		char_type = 0
 	},
 	[1034] = {
 		id = 1034,
 		main_character_face = 0,
-		word = "娜比娅坐在木桥尽头，双腿轻轻晃荡，望向远处薄雾中若隐若现的湖面。",
+		word = "She sat down on the edge of a wooden pier, dangled her feet in the air, and idly looked at the lake's misty surface in the distance.",
 		char_type = 0
 	},
 	[1035] = {
 		id = 1035,
 		main_character_face = 0,
-		word = "我和娜比娅一起来到了目的地。",
+		word = "Navi and I reached our destination.",
 		char_type = 0
 	},
 	[1036] = {
 		id = 1036,
 		main_character_face = 0,
-		word = "她身后是平静的湖水，在阳光照耀下泛着粼粼波光。",
+		word = "Behind her, the landscape was calm, with sunlight shimmering on the sea.",
 		char_type = 0
 	},
 	[1037] = {
 		id = 1037,
 		main_character_face = 0,
-		word = "看着她的笑容，我忍不住拍下了这一幕。",
+		word = "Seeing her smile, I couldn't help but take a photo.",
 		char_type = 0
 	},
 	[1038] = {
 		id = 1038,
 		main_character_face = 0,
-		word = "我和娜比娅来到了山洞前。",
+		word = "Navi and I came across a cave entrance.",
 		char_type = 0
 	},
 	[1039] = {
 		id = 1039,
 		main_character_face = 0,
-		word = "娜比娅略显紧张地回过头，微微蹙起的眉头和欲言又止的表情显得十分可爱。",
+		word = "She turned around with a hint of nervousness, her slight frown looking absolutely adorable.",
 		char_type = 0
 	},
 	[1040] = {
 		id = 1040,
 		main_character_face = 0,
-		word = "于是我将这一幕拍了下来。",
+		word = "I captured the moment with a photo.",
 		char_type = 0
 	},
 	[5001] = {
 		id = 5001,
 		main_character_face = 0,
-		word = "独角兽正站在树下，低着头似乎在思考着什么。",
+		word = "Unicorn is standing under a tree, eyes to the ground as if deep in thought.",
 		char_type = 0
 	},
 	[5002] = {
 		id = 5002,
 		main_character_face = 0,
-		word = "去和独角兽聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5003] = {
 		id = 5003,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5004] = {
@@ -3063,19 +3063,19 @@ pg.base.child2_word = {
 	[5011] = {
 		id = 5011,
 		main_character_face = 0,
-		word = "海天坐在公园的长椅上，手拿纸笔，时而凝望飘落的花瓣，时而写下几笔。",
+		word = "Hai Tien sits on a bench in the park, pen in hand, writing something while watching the flower petals flutter around her.",
 		char_type = 0
 	},
 	[5012] = {
 		id = 5012,
 		main_character_face = 0,
-		word = "去和海天聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5013] = {
 		id = 5013,
 		main_character_face = 0,
-		word = "去看看海天在做什么",
+		word = "Go see what Hai Tien is doing.",
 		char_type = 2
 	},
 	[5014] = {
@@ -3087,19 +3087,19 @@ pg.base.child2_word = {
 	[5021] = {
 		id = 5021,
 		main_character_face = 0,
-		word = "安克雷奇正坐在地上，认真地摆弄着一堆彩色卡纸，时不时露出开心的笑容。",
+		word = "Anchorage is sitting on the floor, concentrating on folding multicolored origami paper. She occasionally breaks into a wide smile.",
 		char_type = 0
 	},
 	[5022] = {
 		id = 5022,
 		main_character_face = 0,
-		word = "去和安克雷奇聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5023] = {
 		id = 5023,
 		main_character_face = 0,
-		word = "去看看安克雷奇在做什么",
+		word = "Go see what Anchorage is doing.",
 		char_type = 2
 	},
 	[5024] = {
@@ -3111,19 +3111,19 @@ pg.base.child2_word = {
 	[5031] = {
 		id = 5031,
 		main_character_face = 0,
-		word = "{namecode:491}正坐在咖啡店里，一边吃着精致的甜点一边刷着手机，时不时露出狡黠的笑容。",
+		word = "In a café, I spot Jade enjoying some trendy dessert while fiddling with her phone, a mischievous grin appearing on her face now and then.",
 		char_type = 0
 	},
 	[5032] = {
 		id = 5032,
 		main_character_face = 0,
-		word = "去和{namecode:491}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5033] = {
 		id = 5033,
 		main_character_face = 0,
-		word = "去看看{namecode:491}在做什么",
+		word = "Go see what Jade is doing.",
 		char_type = 2
 	},
 	[5034] = {
@@ -3135,19 +3135,19 @@ pg.base.child2_word = {
 	[5041] = {
 		id = 5041,
 		main_character_face = 0,
-		word = "在小镇的围墙边，凶猛正专注地用喷漆在墙上创作着她的“艺术”。",
+		word = "Svirepy is standing in front of a building wall, spray paint in hand, concentrated on her \"art.\"",
 		char_type = 0
 	},
 	[5042] = {
 		id = 5042,
 		main_character_face = 0,
-		word = "去和凶猛聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5043] = {
 		id = 5043,
 		main_character_face = 0,
-		word = "去看看凶猛在做什么",
+		word = "Go see what Svirepy is doing.",
 		char_type = 2
 	},
 	[5044] = {
@@ -3159,19 +3159,19 @@ pg.base.child2_word = {
 	[5051] = {
 		id = 5051,
 		main_character_face = 0,
-		word = "{namecode:439}正在美食街提供的烘焙厨房里专注地调配着什么，时不时露出意味深长的微笑。",
+		word = "Roon is at a dessert workshop in the gastronomy district. She is concentrating on mixing something, occasionally flashing a mysterious grin.",
 		char_type = 0
 	},
 	[5052] = {
 		id = 5052,
 		main_character_face = 0,
-		word = "去和{namecode:439}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5053] = {
 		id = 5053,
 		main_character_face = 0,
-		word = "去看看{namecode:439}在做什么",
+		word = "Go see what Roon is doing.",
 		char_type = 2
 	},
 	[5054] = {
@@ -3183,991 +3183,991 @@ pg.base.child2_word = {
 	[5101] = {
 		id = 5101,
 		main_character_face = 0,
-		word = "独角兽在花园附近，看上去似乎心情很不错的样子。",
+		word = "Unicorn is near the garden. It looks like she's in high spirits.",
 		char_type = 0
 	},
 	[5102] = {
 		id = 5102,
 		main_character_face = 0,
-		word = "去和独角兽聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5103] = {
 		id = 5103,
 		main_character_face = 0,
-		word = "和独角兽聊了一会儿天，娜比娅若有所思。",
+		word = "After a chat with Unicorn, Navi seemed to ponder over something.",
 		char_type = 0
 	},
 	[5104] = {
 		id = 5104,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5111] = {
 		id = 5111,
 		main_character_face = 0,
-		word = "在图书馆偶遇了海天，她今天似乎心情不错的样子。",
+		word = "I've run into Hai Tien at the library. She seems to be in a great mood.",
 		char_type = 0
 	},
 	[5112] = {
 		id = 5112,
 		main_character_face = 0,
-		word = "去和海天聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5113] = {
 		id = 5113,
 		main_character_face = 0,
-		word = "和海天聊了一会儿，娜比娅似乎对文学产生了更深厚的兴趣。",
+		word = "After a conversation with Hai Tien, Navi seemed to gain a greater interest in literature.",
 		char_type = 0
 	},
 	[5114] = {
 		id = 5114,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5121] = {
 		id = 5121,
 		main_character_face = 0,
-		word = "在码头边遇到了安克雷奇，她正在折一只纸船。",
+		word = "I've run into Anchorage at the pier. It looks like she's working on a paper boat.",
 		char_type = 0
 	},
 	[5122] = {
 		id = 5122,
 		main_character_face = 0,
-		word = "去和安克雷奇聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5123] = {
 		id = 5123,
 		main_character_face = 0,
-		word = "看着安克雷奇试着让纸船漂在水面上，娜比娅似乎感受到了童真的美好。",
+		word = "Watching Anchorage try to set the paper boat afloat, Navi seemed to be taken by the childlike innocence of it all.",
 		char_type = 0
 	},
 	[5124] = {
 		id = 5124,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5131] = {
 		id = 5131,
 		main_character_face = 0,
-		word = "遇到{namecode:491}的时候，她正靠在树下认真看书，要去聊聊吗？",
+		word = "I've found Jade, engrossed in a book in the shade of a tree. Should I speak to her?",
 		char_type = 0
 	},
 	[5132] = {
 		id = 5132,
 		main_character_face = 0,
-		word = "去和{namecode:491}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5133] = {
 		id = 5133,
 		main_character_face = 0,
-		word = "走近一看，{namecode:491}只是看似认真，实际上是将游戏机藏在书中打游戏。看着{namecode:491}如何将玩乐伪装成学习的行为，娜比娅若有所思。",
+		word = "I approach her, and it turns out that she wasn't studying diligently, but rather playing on a handheld game console behind the book.",
 		char_type = 0
 	},
 	[5134] = {
 		id = 5134,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5141] = {
 		id = 5141,
 		main_character_face = 0,
-		word = "凶猛正站在她完成的涂鸦墙前，一边吃着零食一边得意地欣赏自己的作品。",
+		word = "Svirepy is standing in front of a finished graffiti painting, admiring her work while munching on snacks.",
 		char_type = 0
 	},
 	[5142] = {
 		id = 5142,
 		main_character_face = 0,
-		word = "去和凶猛聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5143] = {
 		id = 5143,
 		main_character_face = 0,
-		word = "通过凶猛对艺术的独特诠释，娜比娅领悟到了表达自我的另一种方式。",
+		word = "Through Svirepy's unique interpretation of her art, Navi discovered another way to express oneself.",
 		char_type = 0
 	},
 	[5144] = {
 		id = 5144,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5151] = {
 		id = 5151,
 		main_character_face = 0,
-		word = "{namecode:439}正在农场里喂食小动物，脸上带着令人捉摸不透的微笑。",
+		word = "Roon is at the farm, feeding the animals. There is an unreadable smile on her face.",
 		char_type = 0
 	},
 	[5152] = {
 		id = 5152,
 		main_character_face = 0,
-		word = "去和{namecode:439}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5153] = {
 		id = 5153,
 		main_character_face = 0,
-		word = "听{namecode:439}谈论完“关爱”的想法后，娜比娅露出了恍然大悟的表情。",
+		word = "After hearing Roon's thoughts on \"love and care,\" Navi seemed to have gained some insight.",
 		char_type = 0
 	},
 	[5154] = {
 		id = 5154,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5201] = {
 		id = 5201,
 		main_character_face = 0,
-		word = "在商业街附近看到了独角兽，要去和她聊聊吗？",
+		word = "I've found Unicorn at the commercial area. Should I speak to her?",
 		char_type = 0
 	},
 	[5202] = {
 		id = 5202,
 		main_character_face = 0,
-		word = "去和独角兽聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5203] = {
 		id = 5203,
 		main_character_face = 0,
-		word = "和独角兽聊了一会儿天，娜比娅受益匪浅。",
+		word = "After a chat with Unicorn, Navi seemed to have learned a lot.",
 		char_type = 0
 	},
 	[5204] = {
 		id = 5204,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5211] = {
 		id = 5211,
 		main_character_face = 0,
-		word = "遇到了海天，要去和她聊聊吗？",
+		word = "I've come across Hai Tien. Should I speak to her?",
 		char_type = 0
 	},
 	[5212] = {
 		id = 5212,
 		main_character_face = 0,
-		word = "去和海天聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5213] = {
 		id = 5213,
 		main_character_face = 0,
-		word = "打完招呼后，又和海天讨论一会儿，娜比娅似乎有所收获。",
+		word = "After talking with Hai Tien for a while, Navi seemed to have learned something.",
 		char_type = 0
 	},
 	[5214] = {
 		id = 5214,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5221] = {
 		id = 5221,
 		main_character_face = 0,
-		word = "安克雷奇正在看着故事绘本描摹插画，要去和她聊聊吗？",
+		word = "Anchorage is looking at a picture book and tracing the illustrations. Should I speak to her?",
 		char_type = 0
 	},
 	[5222] = {
 		id = 5222,
 		main_character_face = 0,
-		word = "去和安克雷奇聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5223] = {
 		id = 5223,
 		main_character_face = 0,
-		word = "看着安克雷奇认真画画的样子，娜比娅产生了一些新的想法。",
+		word = "After watching Anchorage draw so earnestly, Navi seemed to have gotten an idea.",
 		char_type = 0
 	},
 	[5224] = {
 		id = 5224,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5231] = {
 		id = 5231,
 		main_character_face = 0,
-		word = "{namecode:491}正在研究什么有趣的事情，看起来心情不错的样子，要去聊聊吗？",
+		word = "Jade seems to be in a good mood, studying something interesting. Should I speak to her?",
 		char_type = 0
 	},
 	[5232] = {
 		id = 5232,
 		main_character_face = 0,
-		word = "去和{namecode:491}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5233] = {
 		id = 5233,
 		main_character_face = 0,
-		word = "打完招呼后，和{namecode:491}聊了一会儿，娜比娅似乎有所收获。",
+		word = "After a chat with Jade, Navi seemed to have learned something.",
 		char_type = 0
 	},
 	[5234] = {
 		id = 5234,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5241] = {
 		id = 5241,
 		main_character_face = 0,
-		word = "凶猛正对着一张地图写写画画，时不时露出得意的笑容。",
+		word = "Svirepy is jotting something down on a map in the library, nodding and smirking with satisfaction.",
 		char_type = 0
 	},
 	[5242] = {
 		id = 5242,
 		main_character_face = 0,
-		word = "去和凶猛聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5243] = {
 		id = 5243,
 		main_character_face = 0,
-		word = "了解到凶猛是在计划接下来的涂鸦路线后，娜比娅也欣然加入。",
+		word = "Once she learned that Svirepy was planning out her next graffiti-painting route, Navi gladly joined her.",
 		char_type = 0
 	},
 	[5244] = {
 		id = 5244,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[5251] = {
 		id = 5251,
 		main_character_face = 0,
-		word = "{namecode:439}正在修剪花园里的玫瑰，脸上挂着温柔的笑容。",
+		word = "Roon is tending to the roses in the garden, a gentle smile resting on her face.",
 		char_type = 0
 	},
 	[5252] = {
 		id = 5252,
 		main_character_face = 0,
-		word = "去和{namecode:439}聊聊",
+		word = "(Go and talk to her.)",
 		char_type = 2
 	},
 	[5253] = {
 		id = 5253,
 		main_character_face = 0,
-		word = "听着{namecode:439}的“修理”之道，娜比娅若有所思地点了点头。",
+		word = "After hearing about Roon's philosophy on \"looking after\" things, Navi nodded thoughtfully.",
 		char_type = 0
 	},
 	[5254] = {
 		id = 5254,
 		main_character_face = 0,
-		word = "现在似乎不太方便",
+		word = "(Leave her be.)",
 		char_type = 2
 	},
 	[6001] = {
 		id = 6001,
 		main_character_face = 0,
-		word = "阳光下，一家复古机车店静静地等待着有缘人的到访……",
+		word = "On a sunny day, a vintage motorcycle shop quietly awaits visitors…",
 		char_type = 0
 	},
 	[6011] = {
 		id = 6011,
 		main_character_face = 0,
-		word = "娜比娅的脚步在电影院门前不由自主地停了下来……",
+		word = "While passing by the movie theater, Navi comes to a stop…",
 		char_type = 0
 	},
 	[6021] = {
 		id = 6021,
 		main_character_face = 0,
-		word = "废弃园区里，一片空旷的水泥场地诉说着往日的喧嚣……",
+		word = "This empty concrete lot lies abandoned now, but its scars tell of a time when it was bustling with life…",
 		char_type = 0
 	},
 	[6101] = {
 		id = 6101,
 		main_character_face = 0,
-		word = "午后的图书馆里，一本被翻开的书静静地躺在桌面上……",
+		word = "It's afternoon, and an opened book quietly rests atop a desk, basking in the sunlight…",
 		char_type = 0
 	},
 	[6111] = {
 		id = 6111,
 		main_character_face = 0,
-		word = "书店的心理学区一如既往地安静，书架上一排排书籍仿佛在等待着有缘人的翻阅……",
+		word = "The bookstore's psychology section is quiet as always. The books line the shelves, seemingly waiting for someone to explore their pages…",
 		char_type = 0
 	},
 	[6121] = {
 		id = 6121,
 		main_character_face = 0,
-		word = "夕阳为公园镀上一层温暖的橘色，长椅静静地见证着生命中那些重要的决定……",
+		word = "The evening sun dyes the park a warm orange color, and the benches stand silently in witness to those important life choices…",
 		char_type = 0
 	},
 	[20002] = {
 		id = 20002,
 		main_character_face = 0,
-		word = "玩皮球玩得很开心，运动出了一身汗！",
+		word = "I played a fun ball game and worked up quite a sweat!",
 		char_type = 3
 	},
 	[20004] = {
 		id = 20004,
 		main_character_face = 0,
-		word = "完美地把积木拼图合上了，真厉害！",
+		word = "I completed a block puzzle flawlessly! I'm the best!",
 		char_type = 3
 	},
 	[20006] = {
 		id = 20006,
 		main_character_face = 0,
-		word = "认真看完了整个故事，学到了新知识！",
+		word = "I attentively read a story to the end and learned something new!",
 		char_type = 3
 	},
 	[20008] = {
 		id = 20008,
 		main_character_face = 0,
-		word = "发挥了想象力，想出了好多有趣的点子！",
+		word = "I let my imagination run wild and came up with lots of cool ideas!",
 		char_type = 3
 	},
 	[20010] = {
 		id = 20010,
 		main_character_face = 0,
-		word = "跟着音乐跳得很投入，动作也越来越标准了！",
+		word = "Dancing to the rhythm is so fun. My moves are getting better, too!",
 		char_type = 3
 	},
 	[20012] = {
 		id = 20012,
 		main_character_face = 0,
-		word = "把小房间清理得干干净净，真棒！",
+		word = "I cleaned the small room so it's nice and tidy now! Hooray!",
 		char_type = 3
 	},
 	[20014] = {
 		id = 20014,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness!",
 		char_type = 3
 	},
 	[20016] = {
 		id = 20016,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness!",
 		char_type = 3
 	},
 	[20018] = {
 		id = 20018,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness!",
 		char_type = 3
 	},
 	[20020] = {
 		id = 20020,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "I was diligent in my transport work. It was satisfying!",
 		char_type = 3
 	},
 	[20022] = {
 		id = 20022,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "I was diligent in my transport work. It was satisfying!",
 		char_type = 3
 	},
 	[20024] = {
 		id = 20024,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "I was diligent in my transport work. It was satisfying!",
 		char_type = 3
 	},
 	[20026] = {
 		id = 20026,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "I quietly read a book in the classroom and felt the joy of learning!",
 		char_type = 3
 	},
 	[20028] = {
 		id = 20028,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "I quietly read a book in the classroom and felt the joy of learning!",
 		char_type = 3
 	},
 	[20030] = {
 		id = 20030,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "I quietly read a book in the classroom and felt the joy of learning!",
 		char_type = 3
 	},
 	[20032] = {
 		id = 20032,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "After observing the flowers and plants, I made a new discovery!",
 		char_type = 3
 	},
 	[20034] = {
 		id = 20034,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "After observing the flowers and plants, I made a new discovery!",
 		char_type = 3
 	},
 	[20036] = {
 		id = 20036,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "After observing the flowers and plants, I made a new discovery!",
 		char_type = 3
 	},
 	[20038] = {
 		id = 20038,
 		main_character_face = 0,
-		word = "通过练习舞蹈，身体的柔韧性变好了！",
+		word = "I practiced dancing and feel more flexible now!",
 		char_type = 3
 	},
 	[20040] = {
 		id = 20040,
 		main_character_face = 0,
-		word = "在庄园度过了一段忙碌的时光，获得了应有的回报！",
+		word = "It was a busy time at the garden. I gained some nice rewards!",
 		char_type = 3
 	},
 	[20501] = {
 		id = 20501,
 		main_character_face = 0,
-		word = "离校自由漫步了！呼吸课堂之外的新鲜空气，有了意外收获！",
+		word = "I had a walk outside school. The fresh air was nice, and I got something unexpected!",
 		char_type = 3
 	},
 	[20514] = {
 		id = 20514,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness! Way to go, me!",
 		char_type = 3
 	},
 	[20516] = {
 		id = 20516,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness! Way to go, me!",
 		char_type = 3
 	},
 	[20518] = {
 		id = 20518,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "I tried extra hard during gym class and I feel proud of my fitness! Way to go, me!",
 		char_type = 3
 	},
 	[20520] = {
 		id = 20520,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "I was diligent in my work. It was satisfying and I feel amazing!",
 		char_type = 3
 	},
 	[20522] = {
 		id = 20522,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "I was diligent in my work. It was satisfying and I feel amazing!",
 		char_type = 3
 	},
 	[20524] = {
 		id = 20524,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "I was diligent in my work. It was satisfying and I feel amazing!",
 		char_type = 3
 	},
 	[20526] = {
 		id = 20526,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "I quietly read a book in the classroom and felt the joy of learning! Thinking is fun!",
 		char_type = 3
 	},
 	[20528] = {
 		id = 20528,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "I quietly read a book in the classroom and felt the joy of learning! Thinking is fun!",
 		char_type = 3
 	},
 	[20530] = {
 		id = 20530,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "I quietly read a book in the classroom and felt the joy of learning! Thinking is fun!",
 		char_type = 3
 	},
 	[20532] = {
 		id = 20532,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "After observing the flowers and plants, I made lots of new discoveries!",
 		char_type = 3
 	},
 	[20534] = {
 		id = 20534,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "After observing the flowers and plants, I made lots of new discoveries!",
 		char_type = 3
 	},
 	[20536] = {
 		id = 20536,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "After observing the flowers and plants, I made lots of new discoveries!",
 		char_type = 3
 	},
 	[30001] = {
 		id = 30001,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "I had a busy time and was well rewarded for it!",
 		char_type = 3
 	},
 	[30002] = {
 		id = 30002,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "I had a busy time and was well rewarded for it!",
 		char_type = 3
 	},
 	[30003] = {
 		id = 30003,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "I had a busy time and was well rewarded for it!",
 		char_type = 3
 	},
 	[30004] = {
 		id = 30004,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "I saw some new sights on my journey, which cheered me up!",
 		char_type = 3
 	},
 	[30005] = {
 		id = 30005,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "I saw some new sights on my journey, which cheered me up!",
 		char_type = 3
 	},
 	[30006] = {
 		id = 30006,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "I saw some new sights on my journey, which cheered me up!",
 		char_type = 3
 	},
 	[31001] = {
 		id = 31001,
 		main_character_face = 0,
-		word = "娜比娅似乎还不太适应考核的节奏，平时要多加练习才行。",
+		word = "Navi isn't used to doing assessments yet. She needs to practice more.",
 		char_type = 3
 	},
 	[31002] = {
 		id = 31002,
 		main_character_face = 0,
-		word = "娜比娅达到了基本要求，不过还需要在某些方面多加训练。",
+		word = "Navi achieved the basic goals of her assessment, but she still needs to improve in some regards.",
 		char_type = 3
 	},
 	[31003] = {
 		id = 31003,
 		main_character_face = 0,
-		word = "娜比娅的各项能力都发挥得不错，继续保持这个水准吧！",
+		word = "Navi is making good use of her abilities. Let's keep this up!",
 		char_type = 3
 	},
 	[31004] = {
 		id = 31004,
 		main_character_face = 0,
-		word = "娜比娅展现出了出色的综合实力，这样的表现让人印象深刻！",
+		word = "Navi demonstrated incredible overall skill. Her performance was very impressive!",
 		char_type = 3
 	},
 	[4101001] = {
 		id = 4101001,
 		main_character_face = 0,
-		word = "在小镇的一角发现了一处无人照料的小花园。",
+		word = "We come across an unmaintained flower bed in a corner of the town.",
 		char_type = 0
 	},
 	[4101002] = {
 		id = 4101002,
 		main_character_face = 0,
-		word = "整理花园",
+		word = "Care for the Flowers",
 		char_type = 2
 	},
 	[4101003] = {
 		id = 4101003,
 		main_character_face = 0,
-		word = "在照料这片被遗忘的角落时，悄然产生了一些微妙的变化",
+		word = "While tending to this forgotten little corner, something seems to have changed within Navi.",
 		char_type = 0
 	},
 	[4102001] = {
 		id = 4102001,
 		main_character_face = 0,
-		word = "娜比娅在摊位前发现了会发光的水晶球，要怎么办？",
+		word = "Navi found a glowing crystal ball at a stand. What do I do?",
 		char_type = 0
 	},
 	[4102002] = {
 		id = 4102002,
 		main_character_face = 0,
-		word = "买下来",
+		word = "Buy It",
 		char_type = 2
 	},
 	[4102003] = {
 		id = 4102003,
 		main_character_face = 0,
-		word = "买下水晶球送给娜比娅后，她小心翼翼地把球收进包里",
+		word = "I buy the crystal ball for her. She carefully puts it inside her bag.",
 		char_type = 0
 	},
 	[4102005] = {
 		id = 4102005,
 		main_character_face = 0,
-		word = "仔细观察",
+		word = "Observe Carefully",
 		char_type = 2
 	},
 	[4102006] = {
 		id = 4102006,
 		main_character_face = 0,
-		word = "娜比娅发现只是普通的玻璃球，不想买了",
+		word = "Navi figures out that it's just a plain glass ball and loses interest in buying it.",
 		char_type = 0
 	},
 	[4102008] = {
 		id = 4102008,
 		main_character_face = 0,
-		word = "讨价还价",
+		word = "Haggle",
 		char_type = 2
 	},
 	[4102009] = {
 		id = 4102009,
 		main_character_face = 0,
-		word = "在我的言传身教下，娜比娅学会了“交涉”技巧",
+		word = "Under my guidance, Navi learns how to negotiate.",
 		char_type = 0
 	},
 	[4102011] = {
 		id = 4102011,
 		main_character_face = 0,
-		word = "找别的摊",
+		word = "Check Another Stand",
 		char_type = 2
 	},
 	[4102012] = {
 		id = 4102012,
 		main_character_face = 0,
-		word = "带她找其它有趣的小物件",
+		word = "I take her elsewhere to look for interesting gadgets.",
 		char_type = 0
 	},
 	[4103001] = {
 		id = 4103001,
 		main_character_face = 0,
-		word = "路过面包店时，被店外屏幕上播放的烘焙过程视频吸引。",
+		word = "While passing by the bakery, we catch sight of a video of bread baking at the storefront.",
 		char_type = 0
 	},
 	[4103002] = {
 		id = 4103002,
 		main_character_face = 0,
-		word = "认真观察",
+		word = "Watch Closely",
 		char_type = 2
 	},
 	[4103003] = {
 		id = 4103003,
 		main_character_face = 0,
-		word = "看着面包从生到熟的过程，娜比娅对某些事物有了新的理解。",
+		word = "Navi seems to have hit upon some realization after watching the baking process.",
 		char_type = 0
 	},
 	[4104001] = {
 		id = 4104001,
 		main_character_face = 0,
-		word = "街角处正在举办露天艺术展，有各种绘画作品以及奇特的发明品。",
+		word = "There is a street art exhibit being held at a corner. Various drawings and strange inventions are on display.",
 		char_type = 0
 	},
 	[4104002] = {
 		id = 4104002,
 		main_character_face = 0,
-		word = "驻足观看",
+		word = "Stop and Look",
 		char_type = 2
 	},
 	[4104003] = {
 		id = 4104003,
 		main_character_face = 0,
-		word = "娜比娅的目光在展品间流转，从中汲取了不少灵感！",
+		word = "Navi's eyes are glued to the exhibit, and she gains a ton of inspiration from all the things on display!",
 		char_type = 0
 	},
 	[4105001] = {
 		id = 4105001,
 		main_character_face = 0,
-		word = "公园的长椅上，一只彩色信封随风飘来。",
+		word = "The wind blows a colorful envelope onto a park bench.",
 		char_type = 0
 	},
 	[4105002] = {
 		id = 4105002,
 		main_character_face = 0,
-		word = "打开信封",
+		word = "Open It",
 		char_type = 2
 	},
 	[4105003] = {
 		id = 4105003,
 		main_character_face = 0,
-		word = "信封中写着奇妙的内容——第10回合与第16回合将出现关键转折。",
+		word = "Inside, there's a letter with some strange writing: \"There will be important turning points on turn 10 and turn 16.\"",
 		char_type = 0
 	},
 	[4105004] = {
 		id = 4105004,
 		main_character_face = 0,
-		word = "嗯……看来那时需要特别留意才是。",
+		word = "Hmm... We'll have to pay extra attention when the time comes.",
 		char_type = 0
 	},
 	[4106001] = {
 		id = 4106001,
 		main_character_face = 0,
-		word = "去花店买点花吧，据说不同的花有不同效果哦",
+		word = "Let's buy some flowers at the florist's. It's said that different flowers have different effects.",
 		char_type = 0
 	},
 	[4106002] = {
 		id = 4106002,
 		main_character_face = 0,
-		word = "紫丁香",
+		word = "Lilacs",
 		char_type = 2
 	},
 	[4106003] = {
 		id = 4106003,
 		main_character_face = 0,
-		word = "淡雅的香气让思绪更加清晰了！",
+		word = "The gentle aroma clears Navi's mind!",
 		char_type = 0
 	},
 	[4106004] = {
 		id = 4106004,
 		main_character_face = 0,
-		word = "向日葵",
+		word = "Sunflowers",
 		char_type = 2
 	},
 	[4106005] = {
 		id = 4106005,
 		main_character_face = 0,
-		word = "阳光般的色彩激发了行动力！",
+		word = "The bright colors give Navi some motivation!",
 		char_type = 0
 	},
 	[4106006] = {
 		id = 4106006,
 		main_character_face = 0,
-		word = "[免费赠品]薰衣草",
+		word = "[For Free] ",
 		char_type = 2
 	},
 	[4106007] = {
 		id = 4106007,
 		main_character_face = 0,
-		word = "幽静的芳香唤醒了内在直觉！",
+		word = "The calming scent awakens Navi's inner intuition!",
 		char_type = 0
 	},
 	[4106008] = {
 		id = 4106008,
 		main_character_face = 0,
-		word = "[免费赠品]铁线莲",
+		word = "[For Free] Clematis",
 		char_type = 2
 	},
 	[4106009] = {
 		id = 4106009,
 		main_character_face = 0,
-		word = "生机勃勃的姿态带来活力了！",
+		word = "The vibrant appearance boosts Navi's energy!",
 		char_type = 0
 	},
 	[4107001] = {
 		id = 4107001,
 		main_character_face = 0,
-		word = "去咖啡馆吧，据说不同的咖啡有不同效果哦",
+		word = "Let's go to the café. It's said that different types of coffee have different effects.",
 		char_type = 0
 	},
 	[4107002] = {
 		id = 4107002,
 		main_character_face = 0,
-		word = "[免费赠饮]小天才拿铁",
+		word = "[For Free] Genius' Latte",
 		char_type = 2
 	},
 	[4107003] = {
 		id = 4107003,
 		main_character_face = 0,
-		word = "唔……好像并没有变聪明的感觉？",
+		word = "Hmm... It doesn't really seem to make anyone smarter.",
 		char_type = 0
 	},
 	[4107004] = {
 		id = 4107004,
 		main_character_face = 0,
-		word = "[免费赠饮]大冒险摩卡",
+		word = "[For Free] Adventurer's Mocha",
 		char_type = 2
 	},
 	[4107005] = {
 		id = 4107005,
 		main_character_face = 0,
-		word = "不知为何，喝下后突然冒出了“好想去大冒险！”的念头",
+		word = "Somehow, drinking it inspires a sense of adventure!",
 		char_type = 0
 	},
 	[4107006] = {
 		id = 4107006,
 		main_character_face = 0,
-		word = "喵喵美式",
+		word = "Black Cat Americano",
 		char_type = 2
 	},
 	[4107007] = {
 		id = 4107007,
 		main_character_face = 0,
-		word = "喵！感觉整个世界都清晰起来了~！",
+		word = "Meow! Suddenly, the world seems much clearer!",
 		char_type = 0
 	},
 	[4107008] = {
 		id = 4107008,
 		main_character_face = 0,
-		word = "元气满满特调",
+		word = "Special Energizing Brew",
 		char_type = 2
 	},
 	[4107009] = {
 		id = 4107009,
 		main_character_face = 0,
-		word = "哇！浑身充满干劲了！",
+		word = "Whoa! Motivation is coursing through every vein!",
 		char_type = 0
 	},
 	[4108001] = {
 		id = 4108001,
 		main_character_face = 0,
-		word = "在商业街前的长椅上，发现了一张「今日大冒险」纸条，指向水族馆，要怎么做？",
+		word = "Navi and I found a note saying \"Today's Adventure\" on a bench in the commercial area, and it points toward the aquarium. What do we do?",
 		char_type = 0
 	},
 	[4108002] = {
 		id = 4108002,
 		main_character_face = 0,
-		word = "接受挑战",
+		word = "Go on an Adventure",
 		char_type = 2
 	},
 	[4108003] = {
 		id = 4108003,
 		main_character_face = 0,
-		word = "去看看会遇到什么有趣的事",
+		word = "Something interesting might happen.",
 		char_type = 0
 	},
 	[4108005] = {
 		id = 4108005,
 		main_character_face = 0,
-		word = "放回原处",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4108006] = {
 		id = 4108006,
 		main_character_face = 0,
-		word = "今天就算了",
+		word = "We're not doing this today.",
 		char_type = 0
 	},
 	[4109001] = {
 		id = 4109001,
 		main_character_face = 0,
-		word = "和娜比娅一起抵达了水族馆了，发现了一台自动售货机，屏幕上面写着：\n请问你是从哪里获知的此地点？",
+		word = "I arrive at the aquarium with Navi and find a vending machine. The screen on it says:\n\"Where did you learn about this place?\"",
 		char_type = 0
 	},
 	[4109002] = {
 		id = 4109002,
 		main_character_face = 0,
-		word = "商业街",
+		word = "The Commercial Area",
 		char_type = 2
 	},
 	[4109003] = {
 		id = 4109003,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n恭喜选对了，给您大奖：免费啾黎水1瓶！",
+		word = "In big letters, the vending machine's display says:\n\"Correct! First prize: 1 manjuu water!\"",
 		char_type = 0
 	},
 	[4109005] = {
 		id = 4109005,
 		main_character_face = 0,
-		word = "游乐园",
+		word = "The Amusement Park",
 		char_type = 2
 	},
 	[4109006] = {
 		id = 4109006,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，给您安慰奖：免费啾蛋糕1个！",
+		word = "In big letters, the vending machine's display says:\n\"Incorrect! Participation prize: 1 manjuu cake!\"",
 		char_type = 0
 	},
 	[4109008] = {
 		id = 4109008,
 		main_character_face = 0,
-		word = "酒吧",
+		word = "The Bar",
 		char_type = 2
 	},
 	[4109009] = {
 		id = 4109009,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，小镇里没有这个地点呢！不给您奖品了！",
+		word = "In big letters, the vending machine's display says:\n\"Wrong! There is no such place in the town! You win nothing!\"",
 		char_type = 0
 	},
 	[4109010] = {
 		id = 4109010,
 		main_character_face = 0,
-		word = "山畔池塘",
+		word = "The Mountain Pond",
 		char_type = 2
 	},
 	[4109011] = {
 		id = 4109011,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，给您安慰奖：免费啾啾糖1个！",
+		word = "In big letters, the vending machine's display says:\n\"Incorrect! Participation prize: 1 manjuu candy!\"",
 		char_type = 0
 	},
 	[4110001] = {
 		id = 4110001,
 		main_character_face = 0,
-		word = "在便利店的告示板上看到了被张贴的一张「今日大冒险」便条，指向学校，要怎么做？",
+		word = "Navi and I found a note saying \"Today's Adventure\" on a bulletin board outside the convenience store, and it points toward the academy. What do we do?",
 		char_type = 0
 	},
 	[4110002] = {
 		id = 4110002,
 		main_character_face = 0,
-		word = "接受挑战",
+		word = "Go on an Adventure",
 		char_type = 2
 	},
 	[4110003] = {
 		id = 4110003,
 		main_character_face = 0,
-		word = "去试试看吧！",
+		word = "Let's check it out!",
 		char_type = 0
 	},
 	[4110005] = {
 		id = 4110005,
 		main_character_face = 0,
-		word = "继续逛逛",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4110006] = {
 		id = 4110006,
 		main_character_face = 0,
-		word = "现在没空，下次一定",
+		word = "We don't have time for this right now. Maybe another day.",
 		char_type = 0
 	},
 	[4111001] = {
 		id = 4111001,
 		main_character_face = 0,
-		word = "和娜比娅一起如约抵达了学校了，发现了一台自动售货机，屏幕上面写着：\n请问便利店在此售货机的什么方向？",
+		word = "I arrive at the academy with Navi and find a vending machine. The screen on it says:\n\"From the vending machine's point of view, where is the convenience store?\"",
 		char_type = 0
 	},
 	[4111002] = {
 		id = 4111002,
 		main_character_face = 0,
-		word = "西南方",
+		word = "Southeast",
 		char_type = 2
 	},
 	[4111003] = {
 		id = 4111003,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n恭喜选对了，给您大奖：免费啾黎水1瓶！",
+		word = "In big letters, the vending machine's display says:\n\"Correct! First prize: 1 manjuu water!\"",
 		char_type = 0
 	},
 	[4111005] = {
 		id = 4111005,
 		main_character_face = 0,
-		word = "西北方",
+		word = "Northwest",
 		char_type = 2
 	},
 	[4111006] = {
 		id = 4111006,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，给您安慰奖：免费啾啾奶茶1瓶！",
+		word = "In big letters, the vending machine's display says:\n\"Incorrect! Participation prize: 1 manjuu milk tea!\"",
 		char_type = 0
 	},
 	[4111008] = {
 		id = 4111008,
 		main_character_face = 0,
-		word = "东北方",
+		word = "Northeast",
 		char_type = 2
 	},
 	[4111009] = {
 		id = 4111009,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，给您安慰奖：免费啾啾无糖饮料1瓶！",
+		word = "In big letters, the vending machine's display says:\n\"Incorrect! Participation prize: 1 sugar-free manjuu drink!\"",
 		char_type = 0
 	},
 	[4111011] = {
 		id = 4111011,
 		main_character_face = 0,
-		word = "东南方",
+		word = "Southwest",
 		char_type = 2
 	},
 	[4111012] = {
 		id = 4111012,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了几个大字：\n哎呀答错啦，给您安慰奖：免费啾啾拿铁1瓶！",
+		word = "In big letters, the vending machine's display says:\n\"Incorrect! Participation prize: 1 manjuu latte!\"",
 		char_type = 0
 	},
 	[4111014] = {
@@ -4179,1711 +4179,1711 @@ pg.base.child2_word = {
 	[4111015] = {
 		id = 4111015,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了奇怪的字符：\n烫烫烫烫烫屯屯屯屯屯1瓶！",
+		word = "In a weird font, the vending machine's display says:\n\"1 hot hot hot it burns!\"",
 		char_type = 0
 	},
 	[4112001] = {
 		id = 4112001,
 		main_character_face = 0,
-		word = "橱窗前，发现了一张写着「今日大冒险」的纸条，\n上面分别标注着商业街、美食街和静谧之峰三个地点。\n\n其中1号地点打了√，2号地点上标记了一个X，而3号地点上有个花朵图案，要怎么做？",
+		word = "Navi and I found a note saying \"Today's Adventure\" on a store window. \nIt lists three locations: the commercial area, the gastronomy district, and Tranquil Summit. \nThe first has a check mark, the second has an X, and the third has a flower symbol. What do we do?",
 		char_type = 0
 	},
 	[4112002] = {
 		id = 4112002,
 		main_character_face = 0,
-		word = "接受挑战",
+		word = "Go on an Adventure",
 		char_type = 2
 	},
 	[4112003] = {
 		id = 4112003,
 		main_character_face = 0,
-		word = "接受挑战试试看吧！",
+		word = "Let's see what's waiting for us!",
 		char_type = 0
 	},
 	[4112005] = {
 		id = 4112005,
 		main_character_face = 0,
-		word = "置之不理",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4112006] = {
 		id = 4112006,
 		main_character_face = 0,
-		word = "改天再说",
+		word = "Maybe another day.",
 		char_type = 0
 	},
 	[4113001] = {
 		id = 4113001,
 		main_character_face = 0,
-		word = "要去哪里来着...？凭借记忆抵达了商业街了，发现了一台自动售货机，屏幕上面写着：\n恭喜您找到正确地点了！请选择奖励！",
+		word = "Is this the right way? Trusting our memory, Navi and I arrive at the commercial area and find a vending machine. The screen on it says:\n\"Congratulations! You made the right choice! Choose your reward!\"",
 		char_type = 0
 	},
 	[4113002] = {
 		id = 4113002,
 		main_character_face = 0,
-		word = "啾黎水",
+		word = "Manjuu Water",
 		char_type = 2
 	},
 	[4113003] = {
 		id = 4113003,
 		main_character_face = 0,
-		word = "获得了免费啾黎水1瓶！",
+		word = "Obtained 1 manjuu water!",
 		char_type = 0
 	},
 	[4113005] = {
 		id = 4113005,
 		main_character_face = 0,
-		word = "啾啾奶茶",
+		word = "Manjuu Milk Tea",
 		char_type = 2
 	},
 	[4113006] = {
 		id = 4113006,
 		main_character_face = 0,
-		word = "获得了免费啾啾奶茶1瓶！",
+		word = "Obtained 1 manjuu milk tea!",
 		char_type = 0
 	},
 	[4113008] = {
 		id = 4113008,
 		main_character_face = 0,
-		word = "啾啾无糖饮料",
+		word = "Sugar-Free Manjuu Drink",
 		char_type = 2
 	},
 	[4113009] = {
 		id = 4113009,
 		main_character_face = 0,
-		word = "获得了免费啾啾无糖饮料1瓶！",
+		word = "Obtained 1 sugar-free manjuu drink!",
 		char_type = 0
 	},
 	[4113011] = {
 		id = 4113011,
 		main_character_face = 0,
-		word = "啾啾拿铁",
+		word = "Manjuu Latte",
 		char_type = 2
 	},
 	[4113012] = {
 		id = 4113012,
 		main_character_face = 0,
-		word = "获得了免费啾啾拿铁1瓶！",
+		word = "Obtained 1 manjuu latte!",
 		char_type = 0
 	},
 	[4113014] = {
 		id = 4113014,
 		main_character_face = 0,
-		word = "我全都要",
+		word = "All of Them",
 		char_type = 2
 	},
 	[4113015] = {
 		id = 4113015,
 		main_character_face = 0,
-		word = "自动售货机的屏幕上出现了奇怪的字符：\n锟斤拷锟斤拷锟斤拷锟斤拷1瓶！",
+		word = "Obtained 1 bang bang bang!",
 		char_type = 0
 	},
 	[4114001] = {
 		id = 4114001,
 		main_character_face = 0,
-		word = "要去哪里来着...？凭借记忆抵达了美食街了，发现了一台自动售货机，屏幕上面写着：\n您没有找到正确地点，只能从以下创新菜式中选择一样吃掉了！",
+		word = "Is this the right way? Trusting our memory, Navi and I arrive at the gastronomy district and find a vending machine. The screen on it says:\n\"Wrong choice! Choose one of the following creative dishes!\"",
 		char_type = 0
 	},
 	[4114002] = {
 		id = 4114002,
 		main_character_face = 0,
-		word = "巧克力馅包子",
+		word = "Chocolate Stuffed Bun",
 		char_type = 2
 	},
 	[4114003] = {
 		id = 4114003,
 		main_character_face = 0,
-		word = "娜比娅的脸上写满了难以置信，退后了几步拼命摇头。",
+		word = "Navi makes an unbelievable expression, frantically shaking her head while stepping back.",
 		char_type = 0
 	},
 	[4114005] = {
 		id = 4114005,
 		main_character_face = 0,
-		word = "奶茶味叉烧",
+		word = "Milk Tea-Flavored Pork",
 		char_type = 2
 	},
 	[4114006] = {
 		id = 4114006,
 		main_character_face = 0,
-		word = "娜比娅的脸上写满了难以置信，退后了几步拼命摇头。",
+		word = "Navi makes an unbelievable expression, frantically shaking her head while stepping back.",
 		char_type = 0
 	},
 	[4115001] = {
 		id = 4115001,
 		main_character_face = 0,
-		word = "要去哪里来着...？凭借记忆抵达了静谧之峰了，发现了一台自动售货机，屏幕上面写着：\n虽然您没有找到正确地点，但这里的风景很不错哦~！感受一下吧！",
+		word = "Is this the right way? Trusting our memory, Navi and I arrive at Tranquil Summit and find a vending machine. The screen on it says:\n\"This is the wrong place, but the view here is fantastic! Enjoy yourself!\"",
 		char_type = 0
 	},
 	[4115002] = {
 		id = 4115002,
 		main_character_face = 0,
-		word = "观赏花海",
+		word = "Admire the Flowers",
 		char_type = 2
 	},
 	[4115003] = {
 		id = 4115003,
 		main_character_face = 0,
-		word = "和娜比娅一起欣赏花海",
+		word = "Navi and I marvel at the sea of blossoms together.",
 		char_type = 0
 	},
 	[4116001] = {
 		id = 4116001,
 		main_character_face = 0,
-		word = "娜比娅最近觉得自己的学习效率忽高忽低。新买的日程练习册就摊在桌上，要不要尝试建立一个更规律的学习计划呢……",
+		word = "Navi feels like her learning efficiency has been fluctuating lately. A newly-bought schedule notebook is spread out on the table. Should we try to establish a more regular study plan?",
 		char_type = 0
 	},
 	[4116002] = {
 		id = 4116002,
 		main_character_face = 0,
-		word = "开始计划",
+		word = "Form a Plan",
 		char_type = 2
 	},
 	[4116003] = {
 		id = 4116003,
 		main_character_face = 0,
-		word = "虽然决定开始之后有些后悔\n但还是咬牙坚持下来了！果然努力就有回报！",
+		word = "There was some regret after deciding to start. Yet with grit and determination, everything kept going! Hard work pays off!",
 		char_type = 0
 	},
 	[4116004] = {
 		id = 4116004,
 		main_character_face = 0,
-		word = "暂不开始",
+		word = "Not Yet",
 		char_type = 2
 	},
 	[4116005] = {
 		id = 4116005,
 		main_character_face = 0,
-		word = "只要不影响成绩的话，暂时维持原样就行了吧",
+		word = "As long as it doesn't affect her grades, it should be fine the way it is.",
 		char_type = 0
 	},
 	[4117001] = {
 		id = 4117001,
 		main_character_face = 0,
-		word = "翻看着渐渐写满的日程练习册，开始思考之后要不要继续下去……",
+		word = "The schedule notebook is pretty filled-out now. Should we continue?",
 		char_type = 0
 	},
 	[4117002] = {
 		id = 4117002,
 		main_character_face = 0,
-		word = "坚持下去",
+		word = "Continue",
 		char_type = 2
 	},
 	[4117003] = {
 		id = 4117003,
 		main_character_face = 0,
-		word = "在渡过瓶颈期后，“坚持下去”这件事就会变得没那么痛苦，果然努力就有回报！",
+		word = "Once the starting hurdle was overcome, keeping it up wasn't all that difficult. Hard work pays off!",
 		char_type = 0
 	},
 	[4117004] = {
 		id = 4117004,
 		main_character_face = 0,
-		word = "暂时搁置",
+		word = "Stop for Now",
 		char_type = 2
 	},
 	[4117005] = {
 		id = 4117005,
 		main_character_face = 0,
-		word = "还是保持原有安排吧！",
+		word = "Let's stick to the schedule we have now!",
 		char_type = 0
 	},
 	[4118001] = {
 		id = 4118001,
 		main_character_face = 0,
-		word = "一个特别的机会悄然而至，需要持续付出，但或许能带来意想不到的收获……",
+		word = "A special opportunity has come! While it requires continued effort, there may be unexpected rewards...",
 		char_type = 0
 	},
 	[4118002] = {
 		id = 4118002,
 		main_character_face = 0,
-		word = "接受挑战",
+		word = "Go for It",
 		char_type = 2
 	},
 	[4118003] = {
 		id = 4118003,
 		main_character_face = 0,
-		word = "虽然决定开始之后有些后悔\n但还是咬牙坚持下来了！果然努力就有回报！",
+		word = "There was some regret after deciding to start. Yet with grit and determination, everything kept going! Hard work pays off!",
 		char_type = 0
 	},
 	[4118004] = {
 		id = 4118004,
 		main_character_face = 0,
-		word = "不予理会",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4118005] = {
 		id = 4118005,
 		main_character_face = 0,
-		word = "还是保持原有安排吧！",
+		word = "Let's stick to the schedule we have now!",
 		char_type = 0
 	},
 	[4119001] = {
 		id = 4119001,
 		main_character_face = 0,
-		word = "持续的付出开始显现效果，但同时也感受到了不小的压力。是继续坚持，还是就此放弃呢？",
+		word = "Ongoing efforts have started to bear fruit, but there's also a sense of pressure. Should the effort continue, or is it time to pause?",
 		char_type = 0
 	},
 	[4119002] = {
 		id = 4119002,
 		main_character_face = 0,
-		word = "继续坚持",
+		word = "Keep at It",
 		char_type = 2
 	},
 	[4119003] = {
 		id = 4119003,
 		main_character_face = 0,
-		word = "在渡过瓶颈期后，“继续坚持”这件事就会变得没那么痛苦，果然努力就有回报",
+		word = "Once the starting hurdle was overcome, keeping it up wasn't all that difficult. Hard work pays off!",
 		char_type = 0
 	},
 	[4119004] = {
 		id = 4119004,
 		main_character_face = 0,
-		word = "适时退出",
+		word = "Stop Here",
 		char_type = 2
 	},
 	[4119005] = {
 		id = 4119005,
 		main_character_face = 0,
-		word = "还是保持原有安排吧！",
+		word = "Let's stick to the schedule we have now!",
 		char_type = 0
 	},
 	[4120001] = {
 		id = 4120001,
 		main_character_face = 0,
-		word = "去图书馆吧，要看什么书呢",
+		word = "Let's go to the library. What kind of book should we read?",
 		char_type = 0
 	},
 	[4120002] = {
 		id = 4120002,
 		main_character_face = 0,
-		word = "《皇家淑女礼仪手册》",
+		word = "The Royal Lady's Guidebook on Etiquette",
 		char_type = 2
 	},
 	[4120003] = {
 		id = 4120003,
 		main_character_face = 0,
-		word = "里面写着：作为皇家淑女，要优雅地把下午茶点心全吃光……嗯？",
+		word = "It says: \"The elegant thing for a royal lady to do during her afternoon tea is to eat all the desserts.\" Huh. Interesting.",
 		char_type = 0
 	},
 	[4120004] = {
 		id = 4120004,
 		main_character_face = 0,
-		word = "《偶像养成指南》",
+		word = "How to Raise an Idol",
 		char_type = 2
 	},
 	[4120005] = {
 		id = 4120005,
 		main_character_face = 0,
-		word = "内容相当正经的日程计划，详细说明了为了成为偶像要做哪些准备。",
+		word = "This book contains a detailed schedule and plan on how to get someone ready to become an idol.",
 		char_type = 0
 	},
 	[4120006] = {
 		id = 4120006,
 		main_character_face = 0,
-		word = "《迟到的驱逐舰小姐想要睡觉》",
+		word = "The Late Destroyer Just Wants to Sleep",
 		char_type = 2
 	},
 	[4120007] = {
 		id = 4120007,
 		main_character_face = 0,
-		word = "书里画满了：Zzzzz……的睡觉符号，不好，看困了。",
+		word = "There is a lot of \"Zzz...\" in this book. It's enough to make anyone sleepy...",
 		char_type = 0
 	},
 	[4120008] = {
 		id = 4120008,
 		main_character_face = 0,
-		word = "《轮值成为指挥官的秘书舰后我却只想摸鱼？！》",
+		word = "It's Time to Be the Commander's Secretary, But I Want to Slack Off",
 		char_type = 2
 	},
 	[4120009] = {
 		id = 4120009,
 		main_character_face = 0,
-		word = "里面写着各种各样的摸鱼计划，作者是……算了，不追究了。",
+		word = "The book describes various ways to avoid doing one's job. It's written by... Actually, better not think about it right now.",
 		char_type = 0
 	},
 	[4121001] = {
 		id = 4121001,
 		main_character_face = 0,
-		word = "巷子深处有台奇怪的自动贩卖机，商品外包装全都是看不出内容物的盲盒，按钮也在异常地闪烁……要投币吗？",
+		word = "There's an odd vending machine at the end of an alley. The items are packed in opaque boxes and the button is flickering eerily. Should I put money in?",
 		char_type = 0
 	},
 	[4121002] = {
 		id = 4121002,
 		main_character_face = 0,
-		word = "投币",
+		word = "Insert Coins",
 		char_type = 2
 	},
 	[4121003] = {
 		id = 4121003,
 		main_character_face = 0,
-		word = "叮咚…咔嗒…滋滋…哐当！一个盲盒被贩卖机吐了出来。\n屏幕上出现了像素风格的字体：恭喜您获得了幸运的眷顾，要善加利用喵！",
+		word = "Beep, beep... Clunk... Rattle... Thud! The vending machine dispenses a box.\nThe screen shows in pixelated letters: \"Congratulations. You have received a blessing of good luck. Make good use of it, nya!\"",
 		char_type = 0
 	},
 	[4121005] = {
 		id = 4121005,
 		main_character_face = 0,
-		word = "离开",
+		word = "Leave",
 		char_type = 2
 	},
 	[4121006] = {
 		id = 4121006,
 		main_character_face = 0,
-		word = "看起来不太正常，还是算了",
+		word = "It looks super suspicious. Better not.",
 		char_type = 0
 	},
 	[4122001] = {
 		id = 4122001,
 		main_character_face = 0,
-		word = "商店门口的按摩椅空着，看起来挺舒服的，不过这种免费按摩椅的力度总是不太好掌控……",
+		word = "There's an unoccupied massage chair in front of the store. It's worth noting that it's often difficult to adjust the intensity on these kinds of free massage chairs...",
 		char_type = 0
 	},
 	[4122002] = {
 		id = 4122002,
 		main_character_face = 0,
-		word = "坐下休息",
+		word = "Sit and Rest",
 		char_type = 2
 	},
 	[4122003] = {
 		id = 4122003,
 		main_character_face = 0,
-		word = "感受着椅子规律的按摩，不知不觉进入了梦乡……醒来时身体轻松了不少。",
+		word = "During the chair's rhythmic massage, sleepiness crept in... Upon waking, the body felt lighter.",
 		char_type = 0
 	},
 	[4122005] = {
 		id = 4122005,
 		main_character_face = 0,
-		word = "还是算了",
+		word = "Don't",
 		char_type = 2
 	},
 	[4122006] = {
 		id = 4122006,
 		main_character_face = 0,
-		word = "还是继续逛街吧，反正也不是很累",
+		word = "Not feeling that tired anyway, let's get back to shopping.",
 		char_type = 0
 	},
 	[4123001] = {
 		id = 4123001,
 		main_character_face = 0,
-		word = "来到健身房，该安排今天的训练计划了……",
+		word = "We've come to the fitness room. Time to decide what exercise to do today...",
 		char_type = 0
 	},
 	[4123002] = {
 		id = 4123002,
 		main_character_face = 0,
-		word = "高强度训练（需要体能>50）",
+		word = "Intense Training (Fitness > 50 required.)",
 		char_type = 2
 	},
 	[4123003] = {
 		id = 4123003,
 		main_character_face = 0,
-		word = "体能获得大量强化了！",
+		word = "Fitness increased greatly!",
 		char_type = 0
 	},
 	[4123005] = {
 		id = 4123005,
 		main_character_face = 0,
-		word = "有氧运动（需要体能>25）",
+		word = "Aerobic Exercise (Fitness > 25 required.)",
 		char_type = 2
 	},
 	[4123006] = {
 		id = 4123006,
 		main_character_face = 0,
-		word = "体能获得中等强化了！",
+		word = "Fitness increased moderately!",
 		char_type = 0
 	},
 	[4123008] = {
 		id = 4123008,
 		main_character_face = 0,
-		word = "巩固核心",
+		word = "Core Training",
 		char_type = 2
 	},
 	[4123009] = {
 		id = 4123009,
 		main_character_face = 0,
-		word = "体能获得少量强化了！",
+		word = "Fitness increased slightly!",
 		char_type = 0
 	},
 	[4123012] = {
 		id = 4123012,
 		main_character_face = 0,
-		word = "高强度训练（需要体能>240）",
+		word = "Intense Training (Fitness > 240 required.)",
 		char_type = 2
 	},
 	[4123015] = {
 		id = 4123015,
 		main_character_face = 0,
-		word = "有氧运动（需要体能>120）",
+		word = "Aerobic Exercise (Fitness > 120 required.)",
 		char_type = 2
 	},
 	[4123022] = {
 		id = 4123022,
 		main_character_face = 0,
-		word = "高强度训练（需要体能>600）",
+		word = "Intense Training (Fitness > 600 required.)",
 		char_type = 2
 	},
 	[4123025] = {
 		id = 4123025,
 		main_character_face = 0,
-		word = "有氧运动（需要体能>300）",
+		word = "Aerobic Exercise (Fitness > 300 required.)",
 		char_type = 2
 	},
 	[4123032] = {
 		id = 4123032,
 		main_character_face = 0,
-		word = "高强度训练（需要体能>1600）",
+		word = "Intense Training (Fitness > 1600 required.)",
 		char_type = 2
 	},
 	[4123035] = {
 		id = 4123035,
 		main_character_face = 0,
-		word = "有氧运动（需要体能>800）",
+		word = "Aerobic Exercise (Fitness > 800 required.)",
 		char_type = 2
 	},
 	[4124002] = {
 		id = 4124002,
 		main_character_face = 0,
-		word = "来到了图书馆，今天要读点什么书呢？",
+		word = "We've come to the library. What should we read today?",
 		char_type = 0
 	},
 	[4124003] = {
 		id = 4124003,
 		main_character_face = 0,
-		word = "专业论文（需要知识>50）",
+		word = "Specialist's Thesis (Knowledge > 50 required.)",
 		char_type = 2
 	},
 	[4124004] = {
 		id = 4124004,
 		main_character_face = 0,
-		word = "知识获得大量强化了！",
+		word = "Knowledge increased greatly!",
 		char_type = 0
 	},
 	[4124006] = {
 		id = 4124006,
 		main_character_face = 0,
-		word = "进阶教材（需要知识>25）",
+		word = "Practical Textbook (Knowledge > 25 required.)",
 		char_type = 2
 	},
 	[4124007] = {
 		id = 4124007,
 		main_character_face = 0,
-		word = "知识获得中等强化了！",
+		word = "Knowledge increased moderately!",
 		char_type = 0
 	},
 	[4124009] = {
 		id = 4124009,
 		main_character_face = 0,
-		word = "入门读物",
+		word = "Introductory Book",
 		char_type = 2
 	},
 	[4124010] = {
 		id = 4124010,
 		main_character_face = 0,
-		word = "知识获得少量强化了！",
+		word = "Knowledge increased slightly!",
 		char_type = 0
 	},
 	[4124013] = {
 		id = 4124013,
 		main_character_face = 0,
-		word = "专业论文（需要知识>240）",
+		word = "Specialist's Thesis (Knowledge > 240 required.)",
 		char_type = 2
 	},
 	[4124016] = {
 		id = 4124016,
 		main_character_face = 0,
-		word = "进阶教材（需要知识>120）",
+		word = "Practical Textbook (Knowledge > 120 required.)",
 		char_type = 2
 	},
 	[4124023] = {
 		id = 4124023,
 		main_character_face = 0,
-		word = "专业论文（需要知识>600）",
+		word = "Specialist's Thesis (Knowledge > 600 required.)",
 		char_type = 2
 	},
 	[4124026] = {
 		id = 4124026,
 		main_character_face = 0,
-		word = "进阶教材（需要知识>300）",
+		word = "Practical Textbook (Knowledge > 300 required.)",
 		char_type = 2
 	},
 	[4124033] = {
 		id = 4124033,
 		main_character_face = 0,
-		word = "专业论文（需要知识>1600）",
+		word = "Specialist's Thesis (Knowledge > 1600 required.)",
 		char_type = 2
 	},
 	[4124036] = {
 		id = 4124036,
 		main_character_face = 0,
-		word = "进阶教材（需要知识>800）",
+		word = "Practical Textbook (Knowledge > 800 required.)",
 		char_type = 2
 	},
 	[4125001] = {
 		id = 4125001,
 		main_character_face = 0,
-		word = "发现了一些能运用所学的机会，要试试看吗？",
+		word = "A chance has appeared to put the things we've learned into practice. What do we do?",
 		char_type = 0
 	},
 	[4125002] = {
 		id = 4125002,
 		main_character_face = 0,
-		word = "深入探索（需要实践>50）",
+		word = "In-Depth Exploration (Dexterity > 50 required.)",
 		char_type = 2
 	},
 	[4125003] = {
 		id = 4125003,
 		main_character_face = 0,
-		word = "实践获得大量强化了！",
+		word = "Dexterity increased greatly!",
 		char_type = 0
 	},
 	[4125005] = {
 		id = 4125005,
 		main_character_face = 0,
-		word = "实地应用（需要实践>25）",
+		word = "Practical Application (Dexterity > 25 required.)",
 		char_type = 2
 	},
 	[4125006] = {
 		id = 4125006,
 		main_character_face = 0,
-		word = "实践获得中等强化了！",
+		word = "Dexterity increased moderately!",
 		char_type = 0
 	},
 	[4125008] = {
 		id = 4125008,
 		main_character_face = 0,
-		word = "初步尝试",
+		word = "Modest Attempt",
 		char_type = 2
 	},
 	[4125009] = {
 		id = 4125009,
 		main_character_face = 0,
-		word = "实践获得少量强化了！",
+		word = "Dexterity increased slightly!",
 		char_type = 0
 	},
 	[4125012] = {
 		id = 4125012,
 		main_character_face = 0,
-		word = "深入探索（需要实践>240）",
+		word = "In-Depth Exploration (Dexterity > 240 required.)",
 		char_type = 2
 	},
 	[4125015] = {
 		id = 4125015,
 		main_character_face = 0,
-		word = "实地应用（需要实践>120）",
+		word = "Practical Application (Dexterity > 120 required.)",
 		char_type = 2
 	},
 	[4125022] = {
 		id = 4125022,
 		main_character_face = 0,
-		word = "深入探索（需要实践>600）",
+		word = "In-Depth Exploration (Dexterity > 600 required.)",
 		char_type = 2
 	},
 	[4125025] = {
 		id = 4125025,
 		main_character_face = 0,
-		word = "实地应用（需要实践>300）",
+		word = "Practical Application (Dexterity > 300 required.)",
 		char_type = 2
 	},
 	[4125032] = {
 		id = 4125032,
 		main_character_face = 0,
-		word = "深入探索（需要实践>1600）",
+		word = "In-Depth Exploration (Dexterity > 1600 required.)",
 		char_type = 2
 	},
 	[4125035] = {
 		id = 4125035,
 		main_character_face = 0,
-		word = "实地应用（需要实践>800）",
+		word = "Practical Application (Dexterity > 800 required.)",
 		char_type = 2
 	},
 	[4126001] = {
 		id = 4126001,
 		main_character_face = 0,
-		word = "平日锻炼用的体育馆，今天十分安静。阳光透过高窗洒落，不知不觉就想在这里多待一会了。",
+		word = "The gymnasium, which we often use for exercise, is very quiet today. It's a good opportunity to stay for a while.",
 		char_type = 0
 	},
 	[4126002] = {
 		id = 4126002,
 		main_character_face = 0,
-		word = "研究建筑（需要感知>50）",
+		word = "Study the Building (Sensitivity > 50 required.)",
 		char_type = 2
 	},
 	[4126003] = {
 		id = 4126003,
 		main_character_face = 0,
-		word = "感知获得大量强化了！",
+		word = "Sensitivity increased greatly!",
 		char_type = 0
 	},
 	[4126005] = {
 		id = 4126005,
 		main_character_face = 0,
-		word = "查看设施（需要感知>25）",
+		word = "Examine the Facilities (Sensitivity > 25 required.)",
 		char_type = 2
 	},
 	[4126006] = {
 		id = 4126006,
 		main_character_face = 0,
-		word = "感知获得中等强化了！",
+		word = "Sensitivity increased moderately!",
 		char_type = 0
 	},
 	[4126008] = {
 		id = 4126008,
 		main_character_face = 0,
-		word = "看看周围",
+		word = "Survey the Area",
 		char_type = 2
 	},
 	[4126009] = {
 		id = 4126009,
 		main_character_face = 0,
-		word = "感知获得少量强化了！",
+		word = "Sensitivity increased slightly!",
 		char_type = 0
 	},
 	[4126012] = {
 		id = 4126012,
 		main_character_face = 0,
-		word = "研究建筑（需要感知>240）",
+		word = "Study the Building (Sensitivity > 240 required.)",
 		char_type = 2
 	},
 	[4126015] = {
 		id = 4126015,
 		main_character_face = 0,
-		word = "查看设施（需要感知>120）",
+		word = "Examine the Facilities (Sensitivity > 120 required.)",
 		char_type = 2
 	},
 	[4126022] = {
 		id = 4126022,
 		main_character_face = 0,
-		word = "研究建筑（需要感知>600）",
+		word = "Study the Building (Sensitivity > 600 required.)",
 		char_type = 2
 	},
 	[4126025] = {
 		id = 4126025,
 		main_character_face = 0,
-		word = "查看设施（需要感知>300）",
+		word = "Examine the Facilities (Sensitivity > 300 required.)",
 		char_type = 2
 	},
 	[4126032] = {
 		id = 4126032,
 		main_character_face = 0,
-		word = "研究建筑（需要感知>1600）",
+		word = "Study the Building (Sensitivity > 1600 required.)",
 		char_type = 2
 	},
 	[4126035] = {
 		id = 4126035,
 		main_character_face = 0,
-		word = "查看设施（需要感知>800）",
+		word = "Examine the Facilities (Sensitivity > 800 required.)",
 		char_type = 2
 	},
 	[4127001] = {
 		id = 4127001,
 		main_character_face = 0,
-		word = "走在商业街上，娜比娅突然被一家手工艺品店的橱窗吸引，驻足观察着里面精致的作品。",
+		word = "As we're walking through the commercial area, Navi is drawn to the display window of an artisan's shop. She gazes at the intricate craftsmanship of the items inside.",
 		char_type = 0
 	},
 	[4127002] = {
 		id = 4127002,
 		main_character_face = 0,
-		word = "一起观赏",
+		word = "Gaze with Her",
 		char_type = 2
 	},
 	[4127003] = {
 		id = 4127003,
 		main_character_face = 0,
-		word = "她指着一件特别精美的作品，眼中闪烁着向往的光芒。于是和她在店外讨论了起来……",
+		word = "Navi points to the most outstanding item of them all, eyes glittering. We talk about the item outside the store.",
 		char_type = 0
 	},
 	[4127005] = {
 		id = 4127005,
 		main_character_face = 0,
-		word = "催促离开",
+		word = "Get Her Moving",
 		char_type = 2
 	},
 	[4127006] = {
 		id = 4127006,
 		main_character_face = 0,
-		word = "提醒她之后还有其他安排，今天就不看了。",
+		word = "I tell her that we have other things to do. We can pass by another time.",
 		char_type = 0
 	},
 	[4128001] = {
 		id = 4128001,
 		main_character_face = 0,
-		word = "因为娜比娅很感兴趣，所以又去到了手工艺品店。这次她走进店内，认真地打量起店内的制作工具和材料。",
+		word = "Since Navi took a keen interest, we've returned to the artisan's shop. She goes inside and marvels at the tools and materials used to create these crafts.",
 		char_type = 0
 	},
 	[4128002] = {
 		id = 4128002,
 		main_character_face = 0,
-		word = "鼓励尝试",
+		word = "Encourage Her Interest",
 		char_type = 2
 	},
 	[4128003] = {
 		id = 4128003,
 		main_character_face = 0,
-		word = "询问她是否想要亲手制作些什么后，她点了点头，眼神中带着期待。",
+		word = "I ask her if there's anything she'd like to make on her own. She nods with eyes full of anticipation.",
 		char_type = 0
 	},
 	[4128005] = {
 		id = 4128005,
 		main_character_face = 0,
-		word = "默默观察",
+		word = "Watch Silently",
 		char_type = 2
 	},
 	[4128006] = {
 		id = 4128006,
 		main_character_face = 0,
-		word = "让她自己慢慢看就好了。",
+		word = "I'm not one to disrupt her flow. I decide to watch in silence.",
 		char_type = 0
 	},
 	[4129001] = {
 		id = 4129001,
 		main_character_face = 0,
-		word = "再次去到手工艺品店，娜比娅提出想要购买一套初学者工具。",
+		word = "We return again to the artisan's shop. Navi says she wants to buy a beginner's toolkit.",
 		char_type = 0
 	},
 	[4129002] = {
 		id = 4129002,
 		main_character_face = 0,
-		word = "承担费用（花费100金钱）",
+		word = "Buy It for Her (Costs 100 Funds.)",
 		char_type = 2
 	},
 	[4129003] = {
 		id = 4129003,
 		main_character_face = 0,
-		word = "主动提出帮她支付这套工具的费用。",
+		word = "I offer to buy it for her.",
 		char_type = 0
 	},
 	[4129005] = {
 		id = 4129005,
 		main_character_face = 0,
-		word = "帮忙挑选(需要实践>32，感知>16)",
+		word = "Help Her Choose One (Dexterity > 32, Sensitivity >16 required.)",
 		char_type = 2
 	},
 	[4129006] = {
 		id = 4129006,
 		main_character_face = 0,
-		word = "凭借经验为她选出一套适合初学者的工具组合。",
+		word = "Using my experience, I pick out a toolkit that's perfect for beginners.",
 		char_type = 0
 	},
 	[4129008] = {
 		id = 4129008,
 		main_character_face = 0,
-		word = "提出建议",
+		word = "Help Her Choose One",
 		char_type = 2
 	},
 	[4129009] = {
 		id = 4129009,
 		main_character_face = 0,
-		word = "给到的建议好像并没有帮上忙……",
+		word = "Seems my advice wasn't particularly helpful...",
 		char_type = 0
 	},
 	[4129015] = {
 		id = 4129015,
 		main_character_face = 0,
-		word = "帮忙挑选(需要实践>160，感知>80)",
+		word = "Help Her Choose One (Dexterity > 160, Sensitivity >80 required.)",
 		char_type = 2
 	},
 	[4129025] = {
 		id = 4129025,
 		main_character_face = 0,
-		word = "帮忙挑选(需要实践>400，感知>200)",
+		word = "Help Her Choose One (Dexterity > 400, Sensitivity >200 required.)",
 		char_type = 2
 	},
 	[4129035] = {
 		id = 4129035,
 		main_character_face = 0,
-		word = "帮忙挑选(需要实践>1200，感知>600)",
+		word = "Help Her Choose One (Dexterity > 1200, Sensitivity >600 required.)",
 		char_type = 2
 	},
 	[4130001] = {
 		id = 4130001,
 		main_character_face = 0,
-		word = "漫步在后山的山坡上，娜比娅发现了一台架设在观景台的望远镜。阳光下，铜制的镜筒泛着温暖的光泽。",
+		word = "While we're strolling along a mountain hillside, Navi spots a telescope installed on an observation platform. Its brass cylinder gives off a warm glow in the sunlight.",
 		char_type = 0
 	},
 	[4130002] = {
 		id = 4130002,
 		main_character_face = 0,
-		word = "驻足尝试",
+		word = "Look through It",
 		char_type = 2
 	},
 	[4130003] = {
 		id = 4130003,
 		main_character_face = 0,
-		word = "透过镜头，远处的景色变得清晰可见。娜比娅小心地调整着望远镜，突然发出一声轻呼。",
+		word = "We get a clear view of the distant scenery. As Navi carefully adjusts the telescope, she suddenly lets out a small gasp.",
 		char_type = 0
 	},
 	[4130005] = {
 		id = 4130005,
 		main_character_face = 0,
-		word = "顺路而过",
+		word = "Move On",
 		char_type = 2
 	},
 	[4130006] = {
 		id = 4130006,
 		main_character_face = 0,
-		word = "对娜比娅说下次再来看后，便离开了观景台。",
+		word = "I tell Navi we'll check it out another time and leave the platform behind.",
 		char_type = 0
 	},
 	[4131001] = {
 		id = 4131001,
 		main_character_face = 0,
-		word = "天气晴朗，娜比娅提议再去观景台。清晨的后山上雾气未散，景色如画。",
+		word = "It's a sunny day, and Navi suggests we should go to the observation platform. The morning mist still covers the woods, but even so, we should be able to catch a magnificent view.",
 		char_type = 0
 	},
 	[4131002] = {
 		id = 4131002,
 		main_character_face = 0,
-		word = "与她同行",
+		word = "Go with Navi",
 		char_type = 2
 	},
 	[4131003] = {
 		id = 4131003,
 		main_character_face = 0,
-		word = "找到了一处视野良好的位置，通过望远镜欣赏着远处的景色。",
+		word = "We find a place with a good view and use the telescope to gaze into the distance.",
 		char_type = 0
 	},
 	[4131005] = {
 		id = 4131005,
 		main_character_face = 0,
-		word = "婉拒邀约",
+		word = "Say No",
 		char_type = 2
 	},
 	[4131006] = {
 		id = 4131006,
 		main_character_face = 0,
-		word = "因为雾气还未散去而婉拒了邀约，娜比娅露出些许失望的表情。",
+		word = "It's still misty, so I turn down Navi's idea. She looks a little disappointed about this.",
 		char_type = 0
 	},
 	[4132001] = {
 		id = 4132001,
 		main_character_face = 0,
-		word = "娜比娅站在望远镜前，专注地观察着远处的景色。",
+		word = "Navi stands in front of the telescope, gazing at the distant scenery with great interest.",
 		char_type = 0
 	},
 	[4132002] = {
 		id = 4132002,
 		main_character_face = 0,
-		word = "安静陪伴(需要性格：乖巧)",
+		word = "Quietly Stand Next to Her(Personality Needed: Mild)",
 		char_type = 2
 	},
 	[4132003] = {
 		id = 4132003,
 		main_character_face = 0,
-		word = "静静地看着她认真观察景色的样子。",
+		word = "I quietly watch from the side while she marvels at the view.",
 		char_type = 0
 	},
 	[4132005] = {
 		id = 4132005,
 		main_character_face = 0,
-		word = "分享见闻(需要体能>32，感知>16)",
+		word = "Tell Her a Story (Fitness > 32 required, Sensitivity >16 required.)",
 		char_type = 2
 	},
 	[4132006] = {
 		id = 4132006,
 		main_character_face = 0,
-		word = "说起曾经见过的其它景色，娜比娅睁大了双眼，十分感兴趣。",
+		word = "I tell her about another vista I saw once. Her eyes open wide, brimming with interest.",
 		char_type = 0
 	},
 	[4132008] = {
 		id = 4132008,
 		main_character_face = 0,
-		word = "跟她聊聊",
+		word = "Tell Her a Story",
 		char_type = 2
 	},
 	[4132009] = {
 		id = 4132009,
 		main_character_face = 0,
-		word = "似乎没能说明白想表达的意思，气氛有些尴尬。",
+		word = "I can't quite get my message across, which makes the mood a little awkward.",
 		char_type = 0
 	},
 	[4132015] = {
 		id = 4132015,
 		main_character_face = 0,
-		word = "分享见闻(需要体能>160，感知>80)",
+		word = "Tell Her a Story (Fitness > 160 required, Sensitivity >80 required.)",
 		char_type = 2
 	},
 	[4132025] = {
 		id = 4132025,
 		main_character_face = 0,
-		word = "分享见闻(需要体能>400，感知>200)",
+		word = "Tell Her a Story (Fitness > 400 required, Sensitivity >200 required.)",
 		char_type = 2
 	},
 	[4132035] = {
 		id = 4132035,
 		main_character_face = 0,
-		word = "分享见闻(需要体能>1200，感知>600)",
+		word = "Tell Her a Story (Fitness > 1200 required, Sensitivity >600 required.)",
 		char_type = 2
 	},
 	[4133001] = {
 		id = 4133001,
 		main_character_face = 0,
-		word = "在美食街的长椅上发现了画着鱼的奇怪金属罐头，上面写着“1号：腐乳腌制”。包装上的标记风格莫名让人觉得有些熟悉。",
+		word = "On a bench in the gastronomy district, Navi and I find a weird can with a drawing of a fish on it. The can says: \"#1: Pickled in Tofu.\" The symbol on the packaging looks familiar.",
 		char_type = 0
 	},
 	[4133002] = {
 		id = 4133002,
 		main_character_face = 0,
-		word = "拿走罐头",
+		word = "Take the Can",
 		char_type = 2
 	},
 	[4133003] = {
 		id = 4133003,
 		main_character_face = 0,
-		word = "犹豫着拿起了罐头，但总感觉有什么不对",
+		word = "With some hesitation, we pick up the can, but it still feels odd.",
 		char_type = 0
 	},
 	[4133005] = {
 		id = 4133005,
 		main_character_face = 0,
-		word = "装作没看到",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4133006] = {
 		id = 4133006,
 		main_character_face = 0,
-		word = "还是假装没看到好了",
+		word = "We'll just pretend we didn't see it.",
 		char_type = 0
 	},
 	[4134001] = {
 		id = 4134001,
 		main_character_face = 0,
-		word = "在美食街的长椅上发现了画着鱼的奇怪金属罐头，上面写着“2号：咖喱混合”。微妙的气味混合着咖喱香料的味道扑面而来。",
+		word = "On a bench in the gastronomy district, Navi and I find a weird can with a drawing of a fish on it. The can says: \"#2: Curry Mix.\" It does smell like curry, but with something bizarre in there.",
 		char_type = 0
 	},
 	[4134002] = {
 		id = 4134002,
 		main_character_face = 0,
-		word = "拿走罐头",
+		word = "Take the Can",
 		char_type = 2
 	},
 	[4134003] = {
 		id = 4134003,
 		main_character_face = 0,
-		word = "犹豫着拿起了罐头，但总感觉有什么不对",
+		word = "With some hesitation, we pick up the can, but it still feels odd.",
 		char_type = 0
 	},
 	[4134005] = {
 		id = 4134005,
 		main_character_face = 0,
-		word = "视而不见",
+		word = "Ignore It",
 		char_type = 2
 	},
 	[4134006] = {
 		id = 4134006,
 		main_character_face = 0,
-		word = "这次依旧什么也没看到，嗯",
+		word = "Nope. Didn't see anything this time either.",
 		char_type = 0
 	},
 	[4135001] = {
 		id = 4135001,
 		main_character_face = 0,
-		word = "在美食街的长椅上发现了画着鱼的奇怪金属罐头，上面除了写着“3”的编号以外，还被贴了一张便条：“已经帮忙调整过配方了，这次应该很美味。”",
+		word = "On a bench in the gastronomy district, Navi and I find a weird can with a drawing of a fish on it. The can has the number 3 on it, and there's a small note: \"I adjusted the recipe. It should taste good this time.\"",
 		char_type = 0
 	},
 	[4135002] = {
 		id = 4135002,
 		main_character_face = 0,
-		word = "打开尝尝",
+		word = "Open and Eat It",
 		char_type = 2
 	},
 	[4135003] = {
 		id = 4135003,
 		main_character_face = 0,
-		word = "味道确实还不错。",
+		word = "Wow, it does taste pretty good.",
 		char_type = 0
 	},
 	[4136001] = {
 		id = 4136001,
 		main_character_face = 0,
-		word = "山畔池塘旁新建了一片花园迷宫，带着娜比娅去探索一下吧！",
+		word = "A new garden maze has been set up near the mountain pond. How about exploring it with Navi?",
 		char_type = 0
 	},
 	[4136002] = {
 		id = 4136002,
 		main_character_face = 0,
-		word = ">映入眼帘的是两条被月季花丛环绕的小径，该左转还是右转呢？",
+		word = "Two paths surrounded by rose bushes come into view. Should we turn left or right?",
 		char_type = 0
 	},
 	[4136003] = {
 		id = 4136003,
 		main_character_face = 0,
-		word = "左转",
+		word = "Go Left",
 		char_type = 2
 	},
 	[4136004] = {
 		id = 4136004,
 		main_character_face = 0,
-		word = "这边的花丛生长得有点凌乱……似乎不大对劲",
+		word = "The flower beds here seem a bit unkempt... Something feels off.",
 		char_type = 0
 	},
 	[4136006] = {
 		id = 4136006,
 		main_character_face = 0,
-		word = "右转",
+		word = "Go Right",
 		char_type = 2
 	},
 	[4136007] = {
 		id = 4136007,
 		main_character_face = 0,
-		word = "石板路铺得整整齐齐，应该没走错！",
+		word = "The cobblestone path is well-maintained... This must be the right way!",
 		char_type = 0
 	},
 	[4136009] = {
 		id = 4136009,
 		main_character_face = 0,
-		word = "池塘的倒影透过花墙若隐若现，前方又出现了一个岔路口……",
+		word = "Through the wall of flowers, the pond's reflection shimmers. Another fork in the road appears...",
 		char_type = 0
 	},
 	[4136010] = {
 		id = 4136010,
 		main_character_face = 0,
-		word = "左转",
+		word = "Go Left",
 		char_type = 2
 	},
 	[4136011] = {
 		id = 4136011,
 		main_character_face = 0,
-		word = "藤蔓缠得好密，都快挡住去路了……",
+		word = "The vines are thick and nearly block the path ahead...",
 		char_type = 0
 	},
 	[4136013] = {
 		id = 4136013,
 		main_character_face = 0,
-		word = "右转",
+		word = "Go Right",
 		char_type = 2
 	},
 	[4136014] = {
 		id = 4136014,
 		main_character_face = 0,
-		word = "空气中传来阵阵花香，看来是这条路没错了！",
+		word = "The aroma of flowers hangs in the air. This has to be the right direction!",
 		char_type = 0
 	},
 	[4136016] = {
 		id = 4136016,
 		main_character_face = 0,
-		word = "微风送来阵阵清香，眼前的路又分成两条……",
+		word = "A gentle breeze carries a light fragrance as yet another fork appears...",
 		char_type = 0
 	},
 	[4136017] = {
 		id = 4136017,
 		main_character_face = 0,
-		word = "左转",
+		word = "Go Left",
 		char_type = 2
 	},
 	[4136018] = {
 		id = 4136018,
 		main_character_face = 0,
-		word = "迷宫的出口是一片观景平台，在这里能俯瞰整个花园和池塘的风景",
+		word = "The maze's exit leads to a viewing platform where you can get a stunning view of the garden and pond.",
 		char_type = 0
 	},
 	[4136020] = {
 		id = 4136020,
 		main_character_face = 0,
-		word = "右转",
+		word = "Go Right",
 		char_type = 2
 	},
 	[4136021] = {
 		id = 4136021,
 		main_character_face = 0,
-		word = "这片区域的小径都断了……只能原路返回了！",
+		word = "This is a dead end... There's no choice but to turn back!",
 		char_type = 0
 	},
 	[4137001] = {
 		id = 4137001,
 		main_character_face = 0,
-		word = "巷子深处有台奇怪的自动贩卖机，商品外包装全都是看不出内容物的盲盒，按钮也在异常地闪烁……要投币吗？",
+		word = "There's an odd vending machine at the end of an alley. The items are packed in opaque boxes and the button is flickering eerily. Should I put money in?",
 		char_type = 0
 	},
 	[4137002] = {
 		id = 4137002,
 		main_character_face = 0,
-		word = "投币",
+		word = "Insert Coins",
 		char_type = 2
 	},
 	[4137003] = {
 		id = 4137003,
 		main_character_face = 0,
-		word = "叮咚…咔嗒…滋滋…哐当！一个盲盒被贩卖机吐了出来。\n屏幕上出现了像素风格的字体：恭喜您获得了幸运的眷顾，要善加利用喵！",
+		word = "Beep, beep... Clunk... Rattle... Thud! The vending machine dispenses a box.\nThe screen shows in pixelated letters: \"Congratulations. You have received a blessing of good luck. Make good use of it, nya!\"",
 		char_type = 0
 	},
 	[4137005] = {
 		id = 4137005,
 		main_character_face = 0,
-		word = "离开",
+		word = "Leave",
 		char_type = 2
 	},
 	[4137006] = {
 		id = 4137006,
 		main_character_face = 0,
-		word = "看起来不太正常，还是算了",
+		word = "It looks super suspicious. Better not.",
 		char_type = 0
 	},
 	[4138001] = {
 		id = 4138001,
 		main_character_face = 0,
-		word = "山顶的神庙据说很灵！",
+		word = "They say the temple at the summit offers blessings!",
 		char_type = 0
 	},
 	[4138002] = {
 		id = 4138002,
 		main_character_face = 0,
-		word = "投5元",
+		word = "Put the 5 Coin into the Offering Box",
 		char_type = 2
 	},
 	[4138003] = {
 		id = 4138003,
 		main_character_face = 0,
-		word = "投20元",
+		word = "Put the 20 Coin into the Offering Box",
 		char_type = 2
 	},
 	[4138004] = {
 		id = 4138004,
 		main_character_face = 0,
-		word = "投50元",
+		word = "Put the 50 Coin into the Offering Box",
 		char_type = 2
 	},
 	[4138005] = {
 		id = 4138005,
 		main_character_face = 0,
-		word = "投100元",
+		word = "Put the 100 Coin into the Offering Box",
 		char_type = 2
 	},
 	[4138006] = {
 		id = 4138006,
 		main_character_face = 0,
-		word = "许愿实践+感知",
+		word = "Pray for Dexterity and Sensitivity",
 		char_type = 2
 	},
 	[4138007] = {
 		id = 4138007,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138009] = {
 		id = 4138009,
 		main_character_face = 0,
-		word = "许愿体能+知识",
+		word = "Pray for Fitness and Knowledge",
 		char_type = 2
 	},
 	[4138010] = {
 		id = 4138010,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138012] = {
 		id = 4138012,
 		main_character_face = 0,
-		word = "许愿实践+感知",
+		word = "Pray for Dexterity and Sensitivity",
 		char_type = 2
 	},
 	[4138013] = {
 		id = 4138013,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138015] = {
 		id = 4138015,
 		main_character_face = 0,
-		word = "许愿体能+知识",
+		word = "Pray for Fitness and Knowledge",
 		char_type = 2
 	},
 	[4138016] = {
 		id = 4138016,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138018] = {
 		id = 4138018,
 		main_character_face = 0,
-		word = "许愿实践+感知",
+		word = "Pray for Dexterity and Sensitivity",
 		char_type = 2
 	},
 	[4138019] = {
 		id = 4138019,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138021] = {
 		id = 4138021,
 		main_character_face = 0,
-		word = "许愿体能+知识",
+		word = "Pray for Fitness and Knowledge",
 		char_type = 2
 	},
 	[4138022] = {
 		id = 4138022,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138024] = {
 		id = 4138024,
 		main_character_face = 0,
-		word = "许愿实践+感知",
+		word = "Pray for Dexterity and Sensitivity",
 		char_type = 2
 	},
 	[4138025] = {
 		id = 4138025,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138027] = {
 		id = 4138027,
 		main_character_face = 0,
-		word = "许愿体能+知识",
+		word = "Pray for Fitness and Knowledge",
 		char_type = 2
 	},
 	[4138028] = {
 		id = 4138028,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，这大概是愿望会实现的预兆吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must be a sign that the prayer will come true!",
 		char_type = 0
 	},
 	[4138030] = {
 		id = 4138030,
 		main_character_face = 0,
-		word = "变得更乖巧听话吧",
+		word = "Pray for Honesty",
 		char_type = 2
 	},
 	[4138031] = {
 		id = 4138031,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，一定会得偿所愿吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must mean that the prayer will come true!",
 		char_type = 0
 	},
 	[4138033] = {
 		id = 4138033,
 		main_character_face = 0,
-		word = "变得更随心所欲吧",
+		word = "Pray for Freedom",
 		char_type = 2
 	},
 	[4138034] = {
 		id = 4138034,
 		main_character_face = 0,
-		word = "投币时，硬币上闪过一道奇妙的光芒，一定会得偿所愿吧！",
+		word = "After I throw in the coin, a mysterious light envelops it. That must mean that the prayer will come true!",
 		char_type = 0
 	},
 	[4138035] = {
 		id = 4138035,
 		main_character_face = 0,
-		word = "不投",
+		word = "Don't Offer Anything",
 		char_type = 2
 	},
 	[4138036] = {
 		id = 4138036,
 		main_character_face = 0,
-		word = "今天还是先不投了。",
+		word = "Maybe another time.",
 		char_type = 0
 	},
 	[4139001] = {
 		id = 4139001,
 		main_character_face = 0,
-		word = "漫步街头时，偶然路过了一家安静的复古机车店。",
+		word = "As we stroll through the town, we stumble upon a tranquil, vintage motorcycle shop.",
 		char_type = 0
 	},
 	[4139002] = {
 		id = 4139002,
 		main_character_face = 0,
-		word = "驻足观看",
+		word = "Stop and Look",
 		char_type = 2
 	},
 	[4139003] = {
 		id = 4139003,
 		main_character_face = 0,
-		word = "轻步走到她身边，和她一起欣赏着这台造型优美的重型摩托。\n\n娜比娅仔细端详着车身的每一处细节，从流畅的油箱线条到精致的排气管，眼神中的憧憬愈发明显。",
+		word = "I step closer to join her in admiring that cruiser motorcycle. \nNavi carefully examines every detail, from the sleek lines of the fuel tank to the intricate exhaust pipe. She seems to be enraptured by it.",
 		char_type = 0
 	},
 	[4139005] = {
 		id = 4139005,
 		main_character_face = 0,
-		word = "提议离开",
+		word = "Keep Moving",
 		char_type = 2
 	},
 	[4139011] = {
 		id = 4139011,
 		main_character_face = 0,
-		word = "轻声提醒娜比娅还有别的安排。她恋恋不舍地又看了一眼那台摩托，和我一起离去。",
+		word = "I gently remind Navi that we have other plans. She reluctantly takes one last look at the motorcycles before leaving with me.",
 		char_type = 0
 	},
 	[4139012] = {
 		id = 4139012,
 		main_character_face = 0,
-		word = "店外陈列着一台经典款的重型摩托，黑色车身在阳光下折射出典雅的金属光泽。",
+		word = "The storefront features a black classic cruiser motorcycle on display, its elegant metallic sheen glinting in the sunlight. ",
 		char_type = 0
 	},
 	[4139013] = {
 		id = 4139013,
 		main_character_face = 0,
-		word = "娜比娅停下脚步，目不转睛地盯着那台车，脸上浮现出一丝向往。",
+		word = "Navi stops, her eyes glittering with admiration.",
 		char_type = 0
 	},
 	[4139014] = {
 		id = 4139014,
 		main_character_face = 0,
-		word = "橱窗里整齐陈列的机车装备讲述着独特的故事。透过玻璃，能看到一台正在维护的复古款机车，机油和皮革的气息若隐若现。",
+		word = "A vintage aroma wafts from a motorcycle being repaired inside, mingling with the scent of oil and leather.",
 		char_type = 0
 	},
 	[4140001] = {
 		id = 4140001,
 		main_character_face = 0,
-		word = "经过电影院时，发现正在放映一部备受好评的公路题材电影。",
+		word = "We notice that a popular new road movie is being screened.",
 		char_type = 0
 	},
 	[4140002] = {
 		id = 4140002,
 		main_character_face = 0,
-		word = "买票观影",
+		word = "Watch the Movie",
 		char_type = 2
 	},
 	[4140003] = {
 		id = 4140003,
 		main_character_face = 0,
-		word = "坐在影厅里，随着剧情的展开，能感受到娜比娅的情绪越来越投入。\n\n每当摩托车穿梭在壮丽风景中的画面出现，她都会不自觉地屏住呼吸。\n\n散场后，她兴致勃勃地和我说起起那些令人心驰神往的公路场景。",
+		word = "During the movie, I could sense Navi's excitement rising as the story unfolded. \nWhenever there was a scene of a motorcycle weaving through breathtaking landscapes, she would literally watch with bated breath.\nAfterward, she enthusiastically recounts the exhilarating road scenes.",
 		char_type = 0
 	},
 	[4140005] = {
 		id = 4140005,
 		main_character_face = 0,
-		word = "提议离开",
+		word = "Maybe Another Time",
 		char_type = 2
 	},
 	[4140006] = {
 		id = 4140006,
 		main_character_face = 0,
-		word = "看了看时间，遗憾地向娜比娅表示还有其他事情。她低头应了一声，眼中闪过一丝失落。",
+		word = "Checking the time, it seems we don't have enough time to watch the movie. Navi hangs her head, and there is a hint of dejection in her eyes.",
 		char_type = 0
 	},
 	[4140011] = {
 		id = 4140011,
 		main_character_face = 0,
-		word = "海报上是英姿飒爽的摩托骑士御风飞驰在海岸线上的剪影，落日将背景渲染成金红色。",
+		word = "The poster shows a gallant rider on a motorcycle against the backdrop of a sunset shoreline.",
 		char_type = 0
 	},
 	[4140012] = {
 		id = 4140012,
 		main_character_face = 0,
-		word = "娜比娅驻足在海报前，指着简介里提到的“一段关于追寻自由的旅程”，眼中闪烁着期待的光芒。",
+		word = "Navi stands in front of the poster, pointing excitedly at the subtitle, \"A Journey of Pursuing Freedom.\"",
 		char_type = 0
 	},
 	[4141001] = {
 		id = 4141001,
 		main_character_face = 0,
-		word = "路过某片废弃园区时，看到一片宽阔的水泥场地静静地延展开来。",
+		word = "While passing by an abandoned area, we come across this vast expanse of concrete.",
 		char_type = 0
 	},
 	[4141002] = {
 		id = 4141002,
 		main_character_face = 0,
-		word = "陪伴身旁（需要体能>1500）",
+		word = "Stay by Her Side (Fitness > 1500 required.)",
 		char_type = 2
 	},
 	[4141003] = {
 		id = 4141003,
 		main_character_face = 0,
-		word = "静静陪在她身边，等她开口诉说心中所想。渐渐地，娜比娅的眼神从纠结变得明亮，开始畅想未来驰骋在这里的场景。",
+		word = "I stand next to her quietly, waiting for her to speak. Slowly, the hesitation in her eyes transforms into excitement as she imagines herself riding a motorcycle here in the future.",
 		char_type = 0
 	},
 	[4141005] = {
 		id = 4141005,
 		main_character_face = 0,
-		word = "静静等待",
+		word = "Stay by Her Side",
 		char_type = 2
 	},
 	[4141006] = {
 		id = 4141006,
 		main_character_face = 0,
-		word = "想要说些什么，却只能看着她若有所思的侧脸。娜比娅轻轻叹了口气，转头回家。",
+		word = "I want to say something, but all I can do is watch her thoughtful profile. She lets out a small sigh, then turns to head home.",
 		char_type = 0
 	},
 	[4141011] = {
 		id = 4141011,
 		main_character_face = 0,
-		word = "角落里零散地摆放着几个路障，地面上残留着蜿蜒的轮胎痕迹。",
+		word = "There are a few roadblocks scattered around the corners and meandering skid marks left on the ground.",
 		char_type = 0
 	},
 	[4141012] = {
 		id = 4141012,
 		main_character_face = 0,
-		word = "娜比娅靠在栏杆边，目光不断扫过那些交错的轨迹。",
+		word = "Navi leans against the railing, looking at those marks in silence.",
 		char_type = 0
 	},
 	[4141013] = {
 		id = 4141013,
 		main_character_face = 0,
-		word = "她的手指无意识地敲打着栏杆，似乎在思考着什么。",
+		word = "She keeps unconsciously tapping the railing with her fingers as she gets lost in thought.",
 		char_type = 0
 	},
 	[4142001] = {
 		id = 4142001,
 		main_character_face = 0,
-		word = "午后的图书馆里，阳光透过窗棂洒在木质书架上，将整个角落染上一层温暖的色调。",
+		word = "It's afternoon, and an opened book quietly rests atop a desk, basking in the sunlight...",
 		char_type = 0
 	},
 	[4142002] = {
 		id = 4142002,
 		main_character_face = 0,
-		word = "询问想法",
+		word = "Ask for Her Thoughts",
 		char_type = 2
 	},
 	[4142003] = {
 		id = 4142003,
 		main_character_face = 0,
-		word = "走近关心她的阅读心得，询问是否有所发现。娜比娅眸光一亮，轻声分享起自己的感悟。",
+		word = "I approach to ask what she thinks about the book and whether it has given her any insights. Her eyes light up as she softly shares her reflections.",
 		char_type = 0
 	},
 	[4142005] = {
 		id = 4142005,
 		main_character_face = 0,
-		word = "默默离开",
+		word = "Leave Her Be",
 		char_type = 2
 	},
 	[4142006] = {
 		id = 4142006,
 		main_character_face = 0,
-		word = "不打扰她的阅读时光，悄然退出图书馆。",
+		word = "I decide not to disturb her reading time and quietly exit the library.",
 		char_type = 0
 	},
 	[4142011] = {
 		id = 4142011,
 		main_character_face = 0,
-		word = "娜比娅托腮翻看起一本书籍，从她专注的神情看来，这本书似乎格外吸引她。",
+		word = "Chin on her hand, Navi is reading a book. Her focused expression suggests it has captured her interest more than usual.",
 		char_type = 0
 	},
 	[4142012] = {
 		id = 4142012,
 		main_character_face = 0,
-		word = "她的指尖轻轻划过书页，时而停顿，时而继续。",
+		word = "She traces the words on the page with her fingers, occasionally pausing, sometimes going long periods without a single stop.",
 		char_type = 0
 	},
 	[4142013] = {
 		id = 4142013,
 		main_character_face = 0,
-		word = "少女不经意间抬头望向窗外时，眼神中闪过一丝若有所思的光芒。",
+		word = "At one point, her gaze drifts out the window, a contemplative look flashing across her eyes.",
 		char_type = 0
 	},
 	[4143001] = {
 		id = 4143001,
 		main_character_face = 0,
-		word = "路过书店时，娜比娅提出想去看看心理学区的新书。",
+		word = "As we pass by the bookstore, Navi says she wants to look at the new books in the psychology section.",
 		char_type = 0
 	},
 	[4143002] = {
 		id = 4143002,
 		main_character_face = 0,
-		word = "温和询问",
+		word = "Kindly Ask about It",
 		char_type = 2
 	},
 	[4143003] = {
 		id = 4143003,
 		main_character_face = 0,
-		word = "帮她捡起笔记本，轻声问起她对心理学的理解。娜比娅眼中闪过一丝惊喜，开始分享起她这段时间的思考。",
+		word = "I pick up the notebook and gently ask her about her take on psychology. Navi looks delighted and explains her recent thoughts to me.",
 		char_type = 0
 	},
 	[4143005] = {
 		id = 4143005,
 		main_character_face = 0,
-		word = "体贴退让",
+		word = "Better Not to Ask",
 		char_type = 2
 	},
 	[4143006] = {
 		id = 4143006,
 		main_character_face = 0,
-		word = "默默帮她收拾好东西，让她保持自己的节奏。",
+		word = "I decide not to intrude on her personal musings. Silently, I help her put the notebook away.",
 		char_type = 0
 	},
 	[4143011] = {
 		id = 4143011,
 		main_character_face = 0,
-		word = "在结账时，她不小心把自己的包掉在了地上，散落出来的笔记本上写满了密密麻麻的字迹。",
+		word = "Later, when she goes to pay, she accidentally drops her bag, and out falls her notebook filled with dense handwriting. ",
 		char_type = 0
 	},
 	[4143012] = {
 		id = 4143012,
 		main_character_face = 0,
-		word = "翻开的那页正好记录着一些心理学概念，还有她独特的理解和思考。",
+		word = "It contains her distinctive interpretations and thoughts on certain psychological terms.",
 		char_type = 0
 	},
 	[4143013] = {
 		id = 4143013,
 		main_character_face = 0,
-		word = "她慌忙想要合上笔记本，却又犹豫了一下，似乎在考虑要不要分享自己的想法。",
+		word = "She tries to close the notebook in a panic, but then hesitates, like she's wondering if she should share her thoughts or not.",
 		char_type = 0
 	},
 	[4144001] = {
 		id = 4144001,
 		main_character_face = 0,
-		word = "陪娜比娅坐在公园的长椅上，目光望向远方的天际线。夕阳将天空染成淡淡的橘红色，为这个时刻增添了几分静谧。",
+		word = "Navi and I sit on a bench in the park and gaze at the distant horizon. The setting sun casts a soft orange hue across the sky, adding to the silence of the moment.",
 		char_type = 0
 	},
 	[4144002] = {
 		id = 4144002,
 		main_character_face = 0,
-		word = "给予建议（需要知识>1500）",
+		word = "Give Her Advice (Knowledge > 1500 required.)",
 		char_type = 2
 	},
 	[4144003] = {
 		id = 4144003,
 		main_character_face = 0,
-		word = "和她交流对未来的想法。随着交谈，娜比娅的眼神逐渐明亮起来，仿佛找到了前行的方向",
+		word = "We talk about her future, and as the conversation goes on, the glimmer in her eyes brightens, as if she's found her direction.",
 		char_type = 0
 	},
 	[4144005] = {
 		id = 4144005,
 		main_character_face = 0,
-		word = "和她谈谈",
+		word = "Give Her Advice",
 		char_type = 2
 	},
 	[4144006] = {
 		id = 4144006,
 		main_character_face = 0,
-		word = "想要给出建议，却发现自己对这个领域的理解还不够深入。娜比娅轻轻叹了口气，决定以后有机会再说。",
+		word = "I attempt to offer some advice but realize my understanding of this field isn't deep enough. Navi sighs softly and determines that we'll discuss this another time.",
 		char_type = 0
 	},
 	[4144011] = {
 		id = 4144011,
 		main_character_face = 0,
-		word = "她手中捏着一份心理学相关的资料，眼神中既有向往，又带着迟疑。",
+		word = "She holds some materials about psychology in her hands, with a mix of yearning and hesitation in her eyes.",
 		char_type = 0
 	},
 	[4144012] = {
 		id = 4144012,
 		main_character_face = 0,
-		word = "微风轻拂过她的发梢，掀起几页纸张，上面密密麻麻写满了她的批注和思考。",
+		word = "A passing breeze strokes her hair and flips the papers, which are densely packed with her annotations and thoughts.",
 		char_type = 0
 	},
 	[4144013] = {
 		id = 4144013,
 		main_character_face = 0,
-		word = "这个看似平常的黄昏，却像是人生轨迹即将转向的预兆。",
+		word = "This unremarkable evening seems like a turning point in her life.",
 		char_type = 0
 	},
 	[4145001] = {
 		id = 4145001,
 		main_character_face = 0,
-		word = "游乐场门口遇到了抽卡小游戏推广广告牌，要参与抽奖吗（20%概率）",
+		word = "At the entrance to the amusement park, Navi and I spot a signboard that says, \"Lucky Draw.\" Should we give it a try? (20% chance of winning.)",
 		char_type = 0
 	},
 	[4145002] = {
 		id = 4145002,
 		main_character_face = 0,
-		word = "果断参与，20%概率中奖（花费30金钱）",
+		word = "All or Nothing (20% chance of winning; costs 30 Funds.)",
 		char_type = 2
 	},
 	[4145003] = {
 		id = 4145003,
 		main_character_face = 0,
-		word = "周围突然响起了喜庆的乐声，广告牌上的横幅展示了几个大字“恭喜！您中奖了！”",
+		word = "Lively music suddenly starts playing, and the signboard lights up with the words, \"Congratulations! You Won!\"",
 		char_type = 0
 	},
 	[4145004] = {
 		id = 4145004,
 		main_character_face = 0,
-		word = "算了，及时止损",
+		word = "Let's cut our losses.",
 		char_type = 2
 	},
 	[4145005] = {
 		id = 4145005,
 		main_character_face = 0,
-		word = "没有抽中，要再抽一次吗？",
+		word = "It's a blank. Try again?",
 		char_type = 0
 	},
 	[4145006] = {
 		id = 4145006,
 		main_character_face = 0,
-		word = "继续抽奖，40%概率中奖（花费30金钱）",
+		word = "1 More Try (40% chance of winning; costs 30 Funds.)",
 		char_type = 2
 	},
 	[4145008] = {
 		id = 4145008,
 		main_character_face = 0,
-		word = "继续抽奖，60%概率中奖（花费30金钱）",
+		word = "1 More Try (60% chance of winning; costs 30 Funds.)",
 		char_type = 2
 	},
 	[4145010] = {
 		id = 4145010,
 		main_character_face = 0,
-		word = "继续抽奖，80%概率中奖（花费30金钱）",
+		word = "1 More Try (80% chance of winning; costs 30 Funds.)",
 		char_type = 2
 	},
 	[4145012] = {
 		id = 4145012,
 		main_character_face = 0,
-		word = "继续抽奖，100%概率中奖（花费30金钱）",
+		word = "1 More Try (100% chance of winning; costs 30 Funds.)",
 		char_type = 2
 	},
 	[4146001] = {
 		id = 4146001,
 		main_character_face = 0,
-		word = "游乐场门口遇到了抽王牌小游戏推广广告牌，抽中王牌则游戏结束哦~如果连续4轮都没有失败则可以赢取终极大奖，失败则要接受惩罚哦~要参与吗？",
+		word = "At the entrance to the amusement park, Navi and I spot a signboard that says, \"Dodge the Ace.\" If you draw an ace then you lose the game, but if you avoid it 4 consecutive times then you win the grand prize. If you fail, however, you have to take a punishment... Should we give it a try?",
 		char_type = 0
 	},
 	[4146002] = {
 		id = 4146002,
 		main_character_face = 0,
-		word = "参与试试，20%概率失败",
+		word = "Start Challenge (20% chance of failing.)",
 		char_type = 2
 	},
 	[4146003] = {
 		id = 4146003,
 		main_character_face = 0,
-		word = "抽到王牌，只能结束了！",
+		word = "I drew an ace. Time for a punishment...",
 		char_type = 0
 	},
 	[4146004] = {
 		id = 4146004,
 		main_character_face = 0,
-		word = "算了，不玩了",
+		word = "I've had enough.",
 		char_type = 2
 	},
 	[4146005] = {
 		id = 4146005,
 		main_character_face = 0,
-		word = "运气不错，没有抽到王牌，要继续吗？",
+		word = "Nice! I didn't draw an ace. Should I keep going?",
 		char_type = 0
 	},
 	[4146006] = {
 		id = 4146006,
 		main_character_face = 0,
-		word = "继续抽奖，40%概率失败",
+		word = "1 More Try (40% chance of failing.)",
 		char_type = 2
 	},
 	[4146008] = {
 		id = 4146008,
 		main_character_face = 0,
-		word = "继续抽奖，60%概率失败",
+		word = "1 More Try (60% chance of failing.)",
 		char_type = 2
 	},
 	[4146010] = {
 		id = 4146010,
 		main_character_face = 0,
-		word = "继续抽奖，80%概率失败",
+		word = "1 More Try (80% chance of failing.)",
 		char_type = 2
 	},
 	[4146012] = {
 		id = 4146012,
 		main_character_face = 0,
-		word = "周围突然响起了喜庆的乐声，广告牌上的横幅展示了几个大字“恭喜！挑战成功！”",
+		word = "Lively music suddenly starts playing, and the signboard lights up with the words, \"Congratulations! You Won!\"",
 		char_type = 0
 	},
 	[4405001] = {
 		id = 4405001,
 		main_character_face = 0,
-		word = "公园的长椅上，一只彩色信封随风飘来。",
+		word = "The wind blows a colorful envelope onto a park bench.",
 		char_type = 0
 	},
 	[4405002] = {
 		id = 4405002,
 		main_character_face = 0,
-		word = "打开信封",
+		word = "Open It",
 		char_type = 2
 	},
 	[4405003] = {
 		id = 4405003,
 		main_character_face = 0,
-		word = "看着信封中写着奇妙的内容，娜比娅悄然产生了一些微妙的变化",
+		word = "Looking at the strange contents of the letter, something silently changed inside Navi.",
 		char_type = 0
 	}
 }

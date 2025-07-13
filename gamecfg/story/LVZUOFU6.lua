@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夺回甜蜜美梦！\n\n<size=45>六　深夜的守候</size>",
+					"Sweet Dreams, Come Back to Me\n\n<size=45>6 Night Watch</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "港区·{namecode:461:吕佐夫}卧室",
+			say = "Port - Lützow's Bedroom",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "躺在床上的{namecode:461:吕佐夫}，从黑暗中睁开了双眼。",
+			say = "Lützow seemed to be sleeping like a log – until she opened her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……结果还是睡不着啊……",
+			say = "Dang. That didn't work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "因为不想再给指挥官添更多麻烦才选择了装睡什么的……",
+			say = "I had to pretend to be asleep so the Commander wouldn't worry over nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "算了，再努力一下吧……",
+			say = "Hmm. Maybe I have to try a little harder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "也许是白天的散步起到了作用，少女在努力了一番后，终于陷入了朦胧之中。",
+			say = "After their midday stroll and some effort on her part, she finally began to drift off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "恍惚之中，好像又传来了房门被轻轻推开的声响。",
+			say = "In her half-awake state, she could swear she heard the door quietly open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "隐约有熟悉的身影来到身边，又似乎只是不甚清醒的梦境。",
+			say = "It felt like a familiar figure snuggled up beside her, but maybe that was just a figment of her tired mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又过了一会儿，{namecode:461:吕佐夫}再度睁开了双眼。",
+			say = "She opened her eyes once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊……果然还是太勉强了……",
+			say = "*sigh*... Figures. Like that would happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "不过刚才我是做梦了吧……指挥官应该已经回去了……",
+			say = "That had to be a dream... The Commander's already left.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "哎，要是刚才不装睡，直接开口让指挥官留下陪我会不会好一些呢。",
+			say = "Man... Maybe I should've asked the Commander to stay with me instead of pretending to be asleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "要是指挥官在这里的话……",
+			say = "It'd sure beat being alone right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "就在少女抱着鲨鱼抱枕胡思乱想时，忽然注意到门缝下透出的一丝光亮。",
+			say = "As she daydreamed with the shark pillow in her arms, she suddenly realized there was light peeking through the crack in the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "欸……这是……？",
+			say = "Huh? Why's the light on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "带着好奇和一丝期待，她轻手轻脚走出了卧室。",
+			say = "With curiosity and a tinge of hope in her heart, she got up and left her bedroom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "推开门的一瞬间，眼前的景象让{namecode:461:吕佐夫}怔住了。",
+			say = "As soon as she opened the door, her mouth was left agape at the sight before her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "（指……指挥官？）",
+			say = "(C-Commander?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "台灯的暖光下，指挥官正趴在堆满文件的桌前沉沉睡去。",
+			say = "Indeed – there was the Commander, head resting on the table, illuminated by the soft glow of a desk lamp and surrounded by a pile of paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,21 +304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "平日里总是精神抖擞的面容此刻显得有些疲惫，却莫名让她感到安心。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_146",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 404040,
-			say = "（原来……刚刚的不是梦吗？）",
+			say = "Although a dash of fatigue could be seen on that usually-clear expression, Lützow felt strangely at ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +318,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "（是在担心我又会睡不着，所以回去拿了文件又来守着吗……）",
+			say = "(So I wasn't just dreaming...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_146",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 404040,
+			say = "(You were worried I still couldn't sleep, so you brought your paperwork here and stood at the ready...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "（会有这么多工作，也都是因为要帮我解决失眠问题才积攒下来的……）",
+			say = "(All those papers... It's my insomnia's fault that the work has piled up like this.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "嗯……现在就换我来照顾你吧，指挥官~",
+			say = "Hmm... Looks like it's my turn to take care of you. Heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "她小声地说着，然后从沙发上拿起平时方便睡觉用的毯子，轻轻地盖在了指挥官身上。",
+			say = "She took her napping blanket from her couch and placed it on the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "随后小心翼翼地抽走未完成的文件，坐在了一旁开始处理。",
+			say = "Then, carefully, so as to not make any noise, she grabbed the unfinished documents and began working on them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "虽然平时总是在偷懒……不过偶尔也要表现一下呢，这可是我自愿的哦♪",
+			say = "I gotta make myself look good once in a while – can't be lazy all the time. I'll do these for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_146",
 			hidePaintObj = true,
-			say = "在月色与台灯的光芒之下，少女露出了连自己也不曾察觉的温柔微笑。",
+			say = "Under the light cast by the desk lamp, Lützow smiled a small smile that even she wasn't aware of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这歌声里的情感……可畏有好好表现出来吗？）",
+			say = "(I can only hope I'm expressing the emotion in this song well...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "（这里的节奏也不能错，只要按照计划来，一切都没问题。）",
+			say = "(Be sure to focus on the rhythm for this part. Stick to the plan and everything will go smoothly.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "（我可是有着不能输给她们的理由呢~嗯……接下来再认真一点也无妨~）",
+			say = "(I've got a good reason to want to win. Tell you what – I'll perform just a bit harder, heehee.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "（哈哈！我们这边也是不会输的哦！）",
+			say = "(I wanna win just as much as anyone!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "（呼~哈~……这就是站在舞台上的感觉……）",
+			say = "(Huff... This is what it feels like to be up on stage...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "（没错……就是这样，要用最优雅的姿态呈现属于我们的偶像魅力呢！）",
+			say = "(Come on, ladies! Let's show the crowd what charming and elegant idols we are!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "哇哇哇哇、这下又出现了不得了的情况了喵！",
+			say = "Whoa, whoa, whoa! I've never seen anything like this, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "两边的比分……还有「μ兵装」的数据……？！计分器要坏掉了喵！",
+			say = "Both their scores and Muse System output are off the charts, nya! The scoreboard's gonna overflow, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "只要解放出可畏全部的感情，把它们融入在可畏的歌声里就行了！",
+			say = "Unleash the wellspring of emotion inside you and let it flow through your song!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "礼仪什么的……都不如可畏现在的Live重要！",
+			say = "This moment matters more than anything else! Even more than being a well-mannered lady!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "（指挥官……这就是最原原本本的可畏……可畏要用这种方式，向你倾诉我的一切……！）",
+			say = "(Commander, this is my whole, unfiltered being! I hope these feelings reach you!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……没错，就这样目不转睛地看着我吧……",
+			say = "Yes, that's it. Don't look away – keep your eyes on me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "这Live上的舞蹈也好、歌声也好……都是为了你而展现的哦？",
+			say = "My song, my dance, my performance... It's all for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "必须要再努力一些……再多传递一些……",
+			say = "It's still not enough! More, harder, louder!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302240,
-			say = "这份感情、这份心意……一定能随着我的歌声，传达到的吧！",
+			say = "My song has to carry these feelings straight into your heart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "怎、怎么回事喵！「Alizarin」这边的状态突然提升到了夸张的程度喵！",
+			say = "Great Scott, nya! Alizarin's readings suddenly just shot through the roof, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "{namecode:197:博伊西}……认真练习了很久……所以，不会再怕了！",
+			say = "I've rehearsed plenty... I'm not afraid anymore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "必、必须献上最完美的演出……！",
+			say = "I've got to deliver a flawless performance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "嘿嘿~这场盛大的Live，指挥官有在好好看着吗？",
+			say = "Heehee! The hype is at an all-time high! Commander, I hope you're watching!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "鲁莽会拼尽全力，带来最最完美和最最梦幻的Live哦~！",
+			say = "I'm gonna pour my all into this and show you the best, most dreamy performance ever!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "成为偶像的理由……事到如今已经没有必要再用玩笑掩饰了呢。",
+			say = "We're past the point of needing to joke about the reason why I became an idol.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "没错……就是为了让指挥官记住我在舞台上，最优雅迷人的姿态！",
+			say = "The real reason was that I did it for you, Commander! All so you could see me at my best!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "欸、欸欸？！就连「 Cyanidin」这边也？！",
+			say = "Nyanyanyaaa! Now it's happening with Cyanidin as well, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "不不不不好了喵！这样下去的话不光是计分器，就连舞台也要炸掉了喵——！",
+			say = "Stop, stop, stooop, nya! Any more and the stages are gonna explode, nyaaa!",
 			painting = {
 				alpha = 0.3,
 				time = 1

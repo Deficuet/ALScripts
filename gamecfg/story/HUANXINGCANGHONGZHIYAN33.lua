@@ -10,7 +10,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown Location",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "一处广袤无垠的空间中，悬浮着一个精巧的庭院。",
+			say = "An elaborate garden floated amidst a vast, endless space.",
 			bgm = "story-startravel",
 			typewriter = {
 				speed = 0.05,
@@ -46,11 +46,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BZZT...",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "诸位，准备执行备用计划F。",
+			say = "Execute Contingency Plan F.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "……？怎么回事，出什么问题了么？",
+			say = "Why? Did something bad happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "帕克菲克洋联合舰队的防线已经岌岌可危。考虑到实验场β的安危，指挥官刚刚已经下令关闭了奇异点「奈落」。",
+			say = "The defensive line in the Pacific is about to crumble. The Commander has chosen to close the Naraka Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "现在指挥官必须从另一条路回来了。",
+			say = "In other words, another escape route is needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……走NA海域中的那个永久奇异点？",
+			say = "...Should we use the permanent singularity in the NA Ocean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "嗯。海伦娜已经发来了重新规划后的路线，我们需要立刻前去支援。",
+			say = "Yes. Helena has already sent me the route. We must begin preparations right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "……在奈落中绕路实在是太危险了。",
+			say = "They've gotta be nuts to try to take a detour through Naraka!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "那种怕什么来什么的地方，天知道一路上会遇到什么东西……我们快出发吧！",
+			say = "You never know where you're gonna end up trying to navigate a place like that! We don't have a moment to waste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "等等，这次我也去。",
+			say = "Wait. I'll go as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "……约克城？可是，你不是还不能和指挥官见面么？",
+			say = "...Wait, Yorktown? I thought you were still not allowed to meet with the Commander yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,22 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900316,
-			say = "我隐藏在远方就好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "奈落之中蕴含的危险，纵使是海伦娜……也不可能全部算出。",
+			say = "I will... simply watch from afar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +234,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……我必须要去。",
+			say = "Even Helena is unable to calculate the full extent of Naraka's dangers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +249,22 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好了，这件事就这么定了，我们一同出发吧。",
+			say = "...I have to go.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "Wait for me, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

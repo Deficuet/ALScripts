@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日重建！海岛别墅度假计划！\n\n<size=45>重建！点亮奇迹之光</size>",
+					"Midsummer Returns: The Villa Reconstruction\n\n<size=45>7 Let the Miracle Shine</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗅嗅~阴暗潮湿的气息还未散去……",
+			say = "*sniff sniff*... Still smells a bit humid in here.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "吸吸~谜团还在飞舞的尘埃中静候光临……",
+			say = "*huff*... Mystery is silently waiting for us in the airborne dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "……这……这是……",
+			say = "Great Scott...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "窸窣的耳语从黑暗最稠密处渗出，如冰冷的蛛丝，将我的意识与那段被遗忘的悲惨过往紧密关联……",
+			say = "Scattered whispers seep out from the deepest dark and, like strands of cold spider silk, tightly link my mind to a forgotten tragic past...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "虽然我从未直面任何可见的恐怖，但这不详的奥秘已经深深吸引了我——",
+			say = "Though I've yet to lay eyes on this shapeless terror, its ominous secrets already have my heart in a tight, unrelenting grip...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "接下来应该发生的是……",
+			say = "This marks the beginning of...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大冒险·暴风雪灯塔杀人事件！",
+			say = "The adventure of the murder at the snow-covered lighthouse!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "大冒险·诅咒之光与看不见的幽灵！",
+			say = "The adventure of the cursed light and the invisible ghost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "大冒险·地下室里的无名失踪者……等一下，为什么你们起的名字都这么酷啊？！",
+			say = "The adventure of the nameless disappearance in the cellar... Hey, how come your names sound cooler than mine?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "……那个，我的提灯刚刚是不是闪烁了一下？它是在回应我吗？这是开启秘闻的信号吗？",
+			say = "...My lamp just glimmered. Was it reacting to something over there? Is that a sign that a secret route just unlocked?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，但关于“支线”的剧透，可以暂时打住嘛……",
+			say = "I see! You're kinda spoiling the B-story, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "—————————分割线—————————",
+			say = "————————BACK TO THE MAIN PLOT————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:13:雷}和{namecode:14:电}又在说些别人听不懂的话了……",
+			say = "As usual, nothing they say ever makes sense...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好啦，灯塔区的重建工作终于顺利结束，指挥官也辛苦了呢。",
+			say = "Well, that's that. The lighthouse area has been rebuilt. Outstanding work, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，我们还为指挥官准备了一个小小的收尾仪式——",
+			say = "It's now time for the completion ceremony we prepared for you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，来与本王并肩吧！身为这场重建活动的组织者，只有你有资格接受此等荣耀！",
+			say = "Come, servant! By my side! You organised this great undertaking, and that qualifies you to receive this honour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_2",
 			hidePaintObj = true,
-			say = "晨曦将海面染作温暖的蜜柑色，为修复一新的灯塔披上了如香槟般流淌的绸带。",
+			say = "The morning glow dyes the sea a warm orange color, casting a shimmer like flowing champagne over the newly rebuilt lighthouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_2",
 			hidePaintObj = true,
-			say = "在大家的指引下，我走向系在航标灯启动器前的彩带。",
+			say = "The girls lead me to the activation switch for the lighthouse, which has a colorful ribbon tied to its front.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，就有劳指挥官剪断彩带，重启灯塔吧。",
+			say = "Now, you just need to cut the ribbon and activate the lighthouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这是吾为汝，特地准备的仪式剪……",
+			say = "Here, scissors. I prepared them specifically for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_villaisland_2",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}递来的剪刀握把处，系着用特殊的编法织成的水引结。",
+			say = "Nagato produces a pair of scissors with unique ornamental mizuhiki knots tied to the handles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "请收下这份祝贺和祝福。",
+			say = "Accept our congratulations and blessings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,18 +311,18 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "谢谢。",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "直接剪断彩带。",
+					content = "(Cut the ribbon.)",
 					flag = 1
 				},
 				{
-					content = "（是不是应该说点什么？）",
+					content = "(Maybe deliver a speech first?)",
 					flag = 2
 				}
 			}
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_villaisland_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "接过贝尔法斯特递来的剪刀，毫不犹豫地剪断了眼前的彩带——",
+			say = "Belfast hands me the scissors on Nagato's behalf, and I cut the ribbon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "喔，真是干脆的一剪刀呢。",
+			say = "A quick and clean cut.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "还以为会有些客套的答谢发言环节之类的……",
+			say = "I was expecting there to be a speech first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "这也很有指挥官的风格啊。",
+			say = "Getting straight to the point suits the Commander just as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,21 +387,7 @@ return {
 			bgName = "bg_villaisland_2",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "台下，一双双盛满期待的眼睛看向我。一些未经雕琢的词句就这样自然地脱口而出。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "bg_villaisland_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
-			actor = 0,
-			say = "这些天，大家都辛苦了。",
+			say = "With so many expectant eyes upon me, I start expressing my sincere feelings without any polish or planning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "说实话，开启这场度假计划的初期，我也没有料到后续会发生这样重大的转变。",
+			say = "I'm proud of what you've all achieved over the past few days.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +415,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "也是你们的陪伴，让所有的事情变得有趣了起来。",
+			say = "I honestly had no idea things would turn out like this when I started planning the vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,19 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "我想说的就是这些。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_villaisland_2",
-			hidePaintObj = true,
-			optionFlag = 2,
-			say = "说到这里，我剪断了彩带。",
+			say = "Still, having you by my side makes everything more fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +443,33 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "往后——就是属于我们的假期。",
+			say = "And that's all I wanted to say.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_villaisland_2",
+			hidePaintObj = true,
+			optionFlag = 2,
+			say = "Not wanting to drag things out, I cut the ribbon.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_villaisland_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			optionFlag = 2,
+			actor = 0,
+			say = "Now our vacation can really begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么——",
+			say = "Well, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "灯塔区的重建工作——应该说，整个海岛别墅的重建工作，就此圆满落幕了！",
+			say = "Once again, the reconstruction of the lighthouse – no, I should say the whole island resort – is now complete!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "接下来，就请大家尽情享受美好的海岛别墅度假时光吧——！",
+			say = "Get out there and enjoy your villa vacation, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

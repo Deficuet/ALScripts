@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在港区见到了金色的精灵，但立刻就消失了，找到了奖励【五星装备设计图纸*6】"
+			say = "You found one of the Base's 7 Wonders - the Strange Golden Being! Collect 6 Blueprints (5 ☆)!"
 		}
 	}
 }

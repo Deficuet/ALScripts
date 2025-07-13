@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，有没有觉得，安克雷奇，笨……？",
+			say = "{dorm3d}, do you think Anchorage is dumb...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，是不是，{dorm3d}的，麻烦？",
+			say = "Do I... get in your way...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过……安克雷奇会加油，为了{dorm3d}！",
+			say = "But I'll do my best... for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有{dorm3d}在……安克雷奇什么都……做得到！",
+			say = "As long as you're here... Anchorage can do anything...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

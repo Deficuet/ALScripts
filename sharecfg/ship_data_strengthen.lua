@@ -1512,30 +1512,6 @@ pg.ship_data_strengthen = {
 			13
 		}
 	},
-	[10217] = {
-		id = 10217,
-		durability = {
-			25,
-			31,
-			0,
-			0,
-			52
-		},
-		level_exp = {
-			30,
-			25,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			10,
-			10,
-			0,
-			0,
-			13
-		}
-	},
 	[10218] = {
 		id = 10218,
 		durability = {
@@ -2482,7 +2458,7 @@ pg.ship_data_strengthen = {
 			36
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2506,7 +2482,7 @@ pg.ship_data_strengthen = {
 			36
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2530,7 +2506,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2554,7 +2530,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2578,7 +2554,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2602,7 +2578,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2746,7 +2722,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2965,7 +2941,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -2989,7 +2965,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3037,7 +3013,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3061,7 +3037,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3085,7 +3061,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -5554,7 +5530,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5578,7 +5554,7 @@ pg.ship_data_strengthen = {
 			42
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5602,7 +5578,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5650,7 +5626,7 @@ pg.ship_data_strengthen = {
 			40
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5674,7 +5650,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5698,7 +5674,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5722,7 +5698,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5770,7 +5746,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -6181,7 +6157,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -6205,7 +6181,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -6779,7 +6755,7 @@ pg.ship_data_strengthen = {
 		},
 		level_exp = {
 			40,
-			10,
+			15,
 			0,
 			0,
 			15
@@ -8736,30 +8712,6 @@ pg.ship_data_strengthen = {
 			12
 		}
 	},
-	[30315] = {
-		id = 30315,
-		durability = {
-			37,
-			34,
-			0,
-			0,
-			52
-		},
-		level_exp = {
-			25,
-			30,
-			0,
-			0,
-			25
-		},
-		attr_exp = {
-			23,
-			12,
-			0,
-			0,
-			13
-		}
-	},
 	[30317] = {
 		id = 30317,
 		durability = {
@@ -9034,7 +8986,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			0,
@@ -9058,7 +9010,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			0,
@@ -9565,7 +9517,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9589,7 +9541,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9613,7 +9565,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9637,7 +9589,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -10090,7 +10042,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			35,
@@ -10234,7 +10186,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -10258,7 +10210,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -10872,30 +10824,6 @@ pg.ship_data_strengthen = {
 			12
 		}
 	},
-	[40213] = {
-		id = 40213,
-		durability = {
-			28,
-			50,
-			0,
-			0,
-			48
-		},
-		level_exp = {
-			30,
-			25,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			12,
-			17,
-			0,
-			0,
-			12
-		}
-	},
 	[40204] = {
 		id = 40204,
 		durability = {
@@ -11434,7 +11362,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			35,
 			0,
 			0,
@@ -11458,7 +11386,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			35,
 			0,
 			0,
@@ -11626,7 +11554,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			35,
 			0,
 			0,
@@ -11821,7 +11749,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -16008,198 +15936,6 @@ pg.ship_data_strengthen = {
 			8
 		}
 	},
-	[1020001] = {
-		id = 1020001,
-		durability = {
-			10,
-			37,
-			0,
-			0,
-			49
-		},
-		level_exp = {
-			35,
-			20,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			3,
-			12,
-			0,
-			0,
-			12
-		}
-	},
-	[1020002] = {
-		id = 1020002,
-		durability = {
-			7,
-			46,
-			0,
-			0,
-			47
-		},
-		level_exp = {
-			35,
-			20,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			2,
-			15,
-			0,
-			0,
-			12
-		}
-	},
-	[1030001] = {
-		id = 1030001,
-		durability = {
-			43,
-			36,
-			0,
-			0,
-			44
-		},
-		level_exp = {
-			30,
-			25,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			24,
-			12,
-			0,
-			0,
-			11
-		}
-	},
-	[1030002] = {
-		id = 1030002,
-		durability = {
-			18,
-			66,
-			0,
-			0,
-			55
-		},
-		level_exp = {
-			35,
-			20,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			6,
-			22,
-			0,
-			0,
-			14
-		}
-	},
-	[1030003] = {
-		id = 1030003,
-		durability = {
-			28,
-			45,
-			0,
-			0,
-			47
-		},
-		level_exp = {
-			25,
-			30,
-			0,
-			0,
-			25
-		},
-		attr_exp = {
-			12,
-			15,
-			0,
-			0,
-			12
-		}
-	},
-	[1030004] = {
-		id = 1030004,
-		durability = {
-			0,
-			0,
-			0,
-			43,
-			43
-		},
-		level_exp = {
-			0,
-			0,
-			0,
-			20,
-			40
-		},
-		attr_exp = {
-			0,
-			0,
-			0,
-			29,
-			11
-		}
-	},
-	[1030005] = {
-		id = 1030005,
-		durability = {
-			0,
-			0,
-			0,
-			43,
-			43
-		},
-		level_exp = {
-			0,
-			0,
-			0,
-			20,
-			40
-		},
-		attr_exp = {
-			0,
-			0,
-			0,
-			29,
-			11
-		}
-	},
-	[1030006] = {
-		id = 1030006,
-		durability = {
-			0,
-			0,
-			0,
-			63,
-			26
-		},
-		level_exp = {
-			0,
-			0,
-			0,
-			20,
-			40
-		},
-		attr_exp = {
-			0,
-			0,
-			0,
-			53,
-			7
-		}
-	},
 	[1040001] = {
 		id = 1040001,
 		durability = {
@@ -17578,11 +17314,11 @@ pg.ship_data_strengthen = {
 			45
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			30,
+			25,
+			0,
+			0,
+			15
 		},
 		attr_exp = {
 			0,
@@ -17602,11 +17338,11 @@ pg.ship_data_strengthen = {
 			46
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			15,
+			0,
+			0,
+			0,
+			35
 		},
 		attr_exp = {
 			0,
@@ -17626,11 +17362,11 @@ pg.ship_data_strengthen = {
 			51
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -17650,11 +17386,11 @@ pg.ship_data_strengthen = {
 			40
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			15,
+			0,
+			0,
+			0,
+			35
 		},
 		attr_exp = {
 			0,
@@ -17674,11 +17410,11 @@ pg.ship_data_strengthen = {
 			47
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -17698,11 +17434,11 @@ pg.ship_data_strengthen = {
 			52
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -18640,7 +18376,6 @@ pg.ship_data_strengthen = {
 		10214,
 		10215,
 		10216,
-		10217,
 		10218,
 		10219,
 		10220,
@@ -18941,7 +18676,6 @@ pg.ship_data_strengthen = {
 		30312,
 		30313,
 		30314,
-		30315,
 		30317,
 		30318,
 		30319,
@@ -19030,7 +18764,6 @@ pg.ship_data_strengthen = {
 		40201,
 		40202,
 		40203,
-		40213,
 		40204,
 		40205,
 		40206,
@@ -19244,14 +18977,6 @@ pg.ship_data_strengthen = {
 		1010006,
 		1010007,
 		1010008,
-		1020001,
-		1020002,
-		1030001,
-		1030002,
-		1030003,
-		1030004,
-		1030005,
-		1030006,
 		1040001,
 		1040002,
 		1040003,

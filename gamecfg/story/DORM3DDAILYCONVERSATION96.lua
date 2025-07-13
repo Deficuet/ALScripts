@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION96",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION96",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
@@ -59,7 +56,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，天狼星有个问题想要问您——",
+			say = "主人，Sirius有个问题想要问您——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +124,7 @@ return {
 		{
 			actorName = "指挥官",
 			nameColor = "#FFFFFF",
-			say = "天狼星怎么突然在做红豆相关的料理了？",
+			say = "Sirius怎么突然在做红豆相关的料理了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +172,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "所以天狼星想学习如何做好红豆饭……",
+			say = "所以Sirius想学习如何做好红豆饭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +181,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "您说还早？欸……怎、怎么会……又是天狼星迫不及待了吗……",
+			say = "您说还早？欸……怎、怎么会……又是Sirius迫不及待了吗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +229,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "啊……天狼星明白了，我骄傲的{dorm3d}。",
+			say = "啊……Sirius明白了，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

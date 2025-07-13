@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "沿着海岸线，一路向着加里冒险的隐居之地航行。",
+			say = "Trailing the coastline, we make for the place where the shipgirl Adventure Galley has retired to.",
 			bgm = "theme-tempest-up",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "虽说航程已经有了几天，但船上的生活却依旧热闹非凡。",
+			say = "While we've been sailing for several days straight now, life aboard the ship hasn't changed much – there's always something happening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "大呼小叫的皇家财富，以及东躲西藏的维达，似乎已经成了大家所熟悉的日常——",
+			say = "From Royal Fortune making a racket when there's trouble, to Whydah playing solo hide-and-seek to avoid doing any work, the days are always full of character.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向你问好，指挥官。",
+			say = "Greetings, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "在驾轻就熟地抬起羽翼，挡去众人玩闹时溅起的水花后，圣马丁在一旁坐了下来。",
+			say = "The girls are bathing on deck, and one of them shoots a playful splash of water at me. São Martinho effortlessly blocks it with her wing, then sits down in one of the water-filled barrels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感谢遮挡。",
+			say = "Thanks. I nearly got drenched there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,10 +82,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……举手之劳。",
+			say = "Don't mention it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我从没想过，热闹的世界与僻静的港湾，会是同义词。",
+			say = "I must say, you are a fascinating person.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您真是有种奇特的魔力。",
+			say = "You have a presence that alters the mind. The New World, bustling as it is, feels just like a calm Thalasso port when you're around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,14 +124,14 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "她慢慢地说着，眼睛却始终跟着正到处乱窜的维达，还有追着她的玛丽·西莱斯特。",
+			say = "She draws a curious comparison, her eyes tracking Mary Celeste and Whydah as the former chases the latter around the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "改行研究哲学了？",
+					content = "That's a philosophical way of putting it.",
 					flag = 1
 				}
 			}
@@ -140,10 +140,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哲理本就存乎万物之间。",
+			say = "Philosophy exists in all things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,11 +153,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官，我放弃邀请您加入我们的行列了。",
+			say = "...I've wanted to formally invite you to my fleet. I give up on that now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,10 +167,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不仅是您的同伴不会同意，您自己大概也不会同意吧。",
+			say = "Your comrades would surely object, and I doubt you're much interested to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,11 +180,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，我有个新的想法……",
+			say = "But, I have another idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,11 +192,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "甲板上的喧闹声",
+			actorName = "Noise on Deck",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抓到你咯♪",
+			say = "Gotcha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "看起来这场甲板上的追逐大战终于有了结果。",
+			say = "The wild chase around the deck has resulted in a winner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,11 +217,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放我下来啦！",
+			say = "L-lemme doooown!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,11 +241,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的糖果翻倍？",
+			say = "Let me have this, and I'll double your snacks for today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,17 +259,17 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔…唔……翻、翻倍…………",
+			say = "D-double...? You mean it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "小心长蛀牙！",
+					content = "Don't overdo it, or you'll get cavities!",
 					flag = 1
 				}
 			}
@@ -278,11 +278,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道的啦！我是大人了，指挥官！",
+			say = "I know, okay?! I'm not a little kid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,11 +292,11 @@ return {
 			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼~♪",
+			say = "Ahahahahah!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,10 +310,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "笑、笑什么……",
+			say = "What's so funny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,11 +323,11 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总、总之，看在糖果的份上！我就勉为其难地，让你继续举着本大人吧！",
+			say = "Fine, if you'll really give me extra snacks, I'll let you hold me for just a while...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,11 +337,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "荣誉领袖",
+			factiontag = "The Risen Tempesta",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！别晃呀！",
+			say = "Aaaahhhh! Stop shaking meeeeee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,14 +362,14 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抱歉，我们刚才说到哪了？",
+					content = "Sorry, what were you going to say?",
 					flag = 1
 				}
 			}
@@ -378,11 +378,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没什么。",
+			say = "Oh. Nothing too important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,11 +392,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "突然感觉说这些尚且为时过早……嗯，我对人际关系的研究还缺乏经验。",
+			say = "It might be too soon to bring it up, actually... My capacity for interpersonal relationships leaves much to be desired.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,10 +406,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在就去思考构建新的海洋安全秩序似乎不太合适……",
+			say = "My idea was to build a new maritime order. The time isn't ripe for it yet, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,18 +419,18 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许我还需要继续学习。",
+			say = "I will need to study the matter further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "祝你顺利。",
+					content = "I hope you learn everything you need.",
 					flag = 1
 				}
 			}
@@ -439,11 +439,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "借您吉言。",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,11 +453,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来还有我的巡逻任务，先告辞了。",
+			say = "Now, I'd better get back to my patrol. Farewell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "于是，载着各种各样的梦想，“伟大的皇家财富”的旅程还在继续——",
+			say = "The Great Royal Fortune sails onward, carrying the dreams of all those aboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

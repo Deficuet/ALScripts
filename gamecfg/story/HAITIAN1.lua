@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"出发！寻找灵感之旅！\n\n<size=45>一　枯竭的灵感</size>",
+					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>1 Writer's Block</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室——",
+			say = "Port - Office",
 			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "指挥官，这是本周的工作安排，请过目。",
+			say = "Commander, I've brought you the itinerary for next week. Please go over it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "新任秘书舰——海天将本周的行程表和任务清单递了过来。",
+			say = "Hai Tien, the newly-appointed secretary ship, hands me a schedule for the upcoming week as well as the corresponding task list.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "行程表丰富且详细，各项任务之间的优先级划分清晰、逻辑也十分严谨。",
+			say = "The schedule is packed with detailed notes, and the task list is numbered in order of priority. Everything is logically arranged and beyond reproach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过——",
+			say = "However–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,19 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "认真的少女似乎没有发现，有几条特殊的纸张碎片夹在了她递给我的文件之中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（她用力抱住了眼前朝思暮想的人……删除线，删除线，恋人的胸膛宽厚而温暖，删除线……）",
+			say = "The super-focused girl doesn't seem to notice that there are some peculiar strips of paper stuck to the documents she just handed me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +110,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（删除线，雨幕遮挡了二人的视线，天地之间此刻唯有彼此，删除线）",
+			say = "(\"She leaps as hard as she can into the arms of the one she loves...\" Scribbles. \"Her lover's embrace is so strong, yet so very warm...\" More scribbles.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +122,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……这是海天在写的小说么？）",
+			say = "(Scribbles... \"The rain surrounds the two of them like a silken veil, casting the illusion that nothing exists between heaven and earth except for each other...\" Scribbles.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +134,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（用了这么多删除线，外加这明显是碎纸机掉落出来的碎片，是她对自己写的内容不满意么？）",
+			say = "(Huh. Is this a story that Hai Tien has been working on?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +146,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过，要创作小说，应该是需要时间好好构思框架的吧！）",
+			say = "(There are a lot of things scribbled out, and she clearly threw the paper into a shredder... Maybe she's been struggling with her work?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "(Though, writing a novel is a time-consuming process. Formulating the story's framework is no easy feat...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,18 +169,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "念及此处，我决定——",
+			say = "After gathering my thoughts, I decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "给海天放假",
+					content = "Give Hai Tien the rest of the day off.",
 					flag = 1
 				},
 				{
-					content = "直接问海天",
+					content = "Ask Hai Tien about the matter.",
 					flag = 2
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "海天，今天的行程和任务清单我看过了，那些工作我一个人就足够了。",
+			say = "Mm. According to the itinerary, I should be able to take care of everything on my own today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "你今天可以先休息。不过如果你想在指挥室里处理自己的事情，也没问题。",
+			say = "Why don't you go back and get some rest? Oh, but I don't mind if you'd like to stay in the office to get your personal work done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（直接问她会更好吧？不过还是得换个问法……）",
+			say = "(There's no point making wild speculation. I might as well ask her since she's already here...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "海天，你最近有什么烦心事么？",
+			say = "Hai Tien, has something been bothering you lately?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "欸？指挥官为什么突然这么说？",
+			say = "Huh? What do you mean by...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "难、难道是小女子作为秘书舰的表现实在差得让指挥官难以忍受……？",
+			say = "D-did I do something to displease you? Have I failed to meet your expectations as secretary ship in any way?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不。作为刚上任的秘书舰而言，海天已经把工作做得十分出色了。",
+			say = "That's not it at all. If anything, you've been doing remarkably well considering you were just assigned the job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且之前的日子里，你也为我做了不少。所以，我也想为你做些什么。",
+			say = "You've already helped me in a whole lot of ways, so I'd like to take this opportunity to return the favor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "嗯……指挥官既然都这么说了，那小女子便把近日的困惑说与你听吧。",
+			say = "Umm... If that's the case, I will accept your gracious offer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "……如此如此，这般这般。",
+			say = "...So that's basically the gist of things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "总之就是在写小说的时候，灵感枯竭，彻底卡壳，写不出能让自己满意的剧情了……",
+			say = "I've been going through a bit of writer's block, and now I can't come up with anything remotely satisfying anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通过其它的媒介来汲取一些创意有用么？比如听听音乐、看看名家之作？",
+			say = "Have you tried drawing inspiration from other works? Maybe a song or an old masterpiece of some sort?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女一脸无奈地摇了摇头。",
+			say = "The girl shakes her head helplessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502070,
-			say = "这些方法我都试过了，完全没有用。",
+			say = "I already tried that, but it didn't do anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了！古人往往畅游于山水之间，而后便得灵感赋诗一首……",
+			say = "Oh, I've got just the thing! You know how in the olden days, people would take long journeys through the rivers and mountains to draw inspiration for their poetry?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出去露营的话，说不定你就有灵感了！",
+			say = "Why don't we go on a camping trip of our own and give that a try? Maybe you'll find your inspiration somewhere along the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "众人在{namecode:62}选择的航线上穿行着，最初十分顺利地绕开了战斗力低下但防御力奇高的敌舰。",
+			say = "Suruga and her allies continued to press forward, neutralizing the mechanisms identified by Chikuma's \"eyes\" while fending off any enemies in the way.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "可是随着不断前进，敌人的密度越来越高。",
+			say = "Though they struggled to eliminate the extremely durable mass-produced ships, they continued to make progress, slow and steady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
 			dir = 1,
-			say = "最终，居然出现了船连着船将宽广的航路彻底堵死的情况。",
+			say = "However, the density of the enemy vessels continued to increase, to the point where they completely blocked off the waterway by lining up side-to-side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 302070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像屹立在河道上的群山一样……",
+			say = "They're blocking the way forward, just like a metal wall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不可理喻，这里的机关太不可理喻了吧？！",
+			say = "Damn it, why are the obstacles along our path this ridiculous?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离{namecode:18}提到的控制建筑已经不远了……必须在这里硬碰硬开辟出一条道路来。",
+			say = "We seem to be much closer to the Dragon Palace's control structure than Shimakaze's fleet... so I guess this is what we have to deal with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 303060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:175}，接下来就请你全开火力，让我们见识一下重樱精锐的力量吧。",
+			say = "Suruga, are you able to bring your full firepower to bear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题，我会竭尽全力的。",
+			say = "Sure thing. I'm raring to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、我们现在正在赶时间，碍事的家伙能不能让出条道路来！",
+			say = "I'm sick and tired of being stuck here... and I'll give a piece of my mind to anyone who blocks our way!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_3",
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "攻击有效！大家一起上，就这样集中火力一艘一艘突破敌人的阻隔！",
+			say = "Yura, hurry up and push through the opening Suruga made for us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……等打完这些船，{namecode:18}说不定都从中心绕一圈过来了吧……）",
+			say = "(With how long we're taking, Shimakaze's probably getting ready to lap us by now...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 305140,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（是随口说了不管遇到什么机关都好的我的报应么，运气真差……）",
+			say = "Let's bust our way out of here, finish our mission, and then go back home already...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没什么……大家开火吧——！",
+			say = "Gaaah! Forget it, let's just keep going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			actor = 601080,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "佩萨格诺的记录好认真……能让我看看你的笔记本么。",
+			say = "What'cha writing in your notepad, Ema? Mind if I have a look?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "反正不给也会被你想办法偷偷看吧……给。",
+			say = "Well, um... Fine, it's not like you'll take no for an answer anyway...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哎嘿，多谢~",
+			say = "Hehe, appreciate it! ...Umm, what's all this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……哇哦，你在地图上画的标志都好可爱！",
+			say = "Oh, I see now! These cute little symbols form a map!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "对话框代表的是我们跟人打招呼的地方……",
+			say = "The speech bubbles mark the spot where we had a chat with those girls...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "叉表示的是被排除的展厅，感叹号则是我们商量可疑点的地方么？",
+			say = "Crosses denote places we've investigated... And exclamation marks denote points of interest. Am I on the money?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……这里就是地上最后一处区域了。",
+			say = "Yeah. Which means this next hall is the only place left to look, save for the underground warehouse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "结果来说一无所获……",
+			say = "So far we haven't found anything unusual...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不是一无所获，而是彻底排除了地上区域哦！",
+			say = "That's a good sign. It means that there aren't any abnormalities on the ground level of the Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "在排除了地上区域之后，有可能出问题的部分就只有地下区域了！",
+			say = "That, in turn, means it can stay open for business while we investigate the underground areas with peace of mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这次所有参展的文物都是由罗马大人亲自进行检查的。",
+			say = "We'll want to be thorough, because we do know Roma went down there to do a check of the exhibition items stored there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "地下部分主要是文物保管区，她在演讲结束后过去查看一下的可能性也并非不存在！",
+			say = "It would make sense if she went there right after the opening ceremony, which is when she went missing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "听起来确实如此！达·芬奇调查的好详细啊，地下区域我还没去过呢。",
+			say = "You're right it would, Teach! But that raises the question... How do we get there in the first place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "毕竟那里完全不对外开放嘛，连入口都是隐藏的。",
+			say = "Good question. It's the hardest place to get inside in the whole Colosseum, since it's where the items not on display are stored.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "………………至少理论上应该是隐藏的，为什么这里有个大门大开的通向地下室的入口啊！",
+			say = "The entrance is behind a hidden door, and finding it is not going to be... Wait, what?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "就在走廊的转角处，众人发现了一个大门敞开的通道口。",
+			say = "At the end of a corridor between two halls, the party found the passage to the underground warehouse. The door had been left open for anyone to see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "欸？会不会是谁下去之后没关门……？",
+			say = "Oh, silly Roma~ She forgot to close the door behind her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "……我们的人不可能这么不谨慎。况且门一定时间没有关闭的话，安保系统一定会提醒的。",
+			say = "She would NOT forget! And even if she did, the door would sound an alarm when left open for too long!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "除非是……地下室的安保系统已经失灵了！",
+			say = "The fact there's no alarm means the security system is probably offline down there. I have a bad feeling about this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "喂————那边的几位朋友，你们见到飞过去的绿色幽灵了么？！",
+			say = "Hey, fellow detectives! Are you hunting the green ghost too?",
 			effects = {
 				{
 					active = true,
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "绿色幽灵……？那是什么东西……话说你是哪位？",
+			say = "What green ghost? And who are you?",
 			effects = {
 				{
 					active = false,
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "我是来自白鹰的调查员布里斯托尔！现在正在调查博览会绿色幽灵事件中！",
+			say = "I'm Bristol, Allen M. Sumner-class destroyer from the Eagle Union! I'm investigating rumors about a ghost that's appeared at the World Expo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "好奇怪……应该是从这里冒出来的啊……",
+			say = "Strange that it's nowhere to be seen... Data 857 said it came from here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "既然你们没看到，那我就先行一步！",
+			say = "Oh well, I'll go on ahead! Good luck to you all, and take care not to lose your sanity!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "你们一定要注意安全哦！绿色幽灵我来了————！",
+			say = "Just you wait, green ghost! I'm coming for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "自称调查员的布里斯托尔带着点亮的提灯，风风火火地跑来，又风风火火地跑走了。",
+			say = "Holding a lantern in one hand and a strange robot in the other, the self-proclaimed Eagle Union detective departed for the exit, going where the Sardegnian team had already investigated before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "注意安全……我们才是会场巡逻队，那应该是我们的台词啊！",
+			say = "She didn't see the entrance to the warehouse, did she? Also, why the heck is someone besides us snooping around here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "而且那个提灯是怎么回事……现在是白天吧。",
+			say = "Carrying a lantern in broad daylight, at that! Is that super suspicious or what?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "那个是浪漫……我能懂！",
+			say = "Ditto for that little robot of hers! Very, very suspicious!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你居然能懂么？！",
+			say = "Let's not kid ourselves. We both know you just want to take it apart to study!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "不说这些了。你们怎么看她提到的绿色幽灵？",
+			say = "Oof... Anyway! She's probably a random lost guest. Seeing as she headed for the exit, let's just leave her be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "应该只是看错了吧……",
+			say = "What was that green ghost she mentioned, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不！这毫无疑问是重大线索啊！佩萨格诺当时不在所以不清楚。",
+			say = "Oh yeah, that's another one for the suspicious list!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "我们刚和你分开的时候，皇家的雅努斯也说过类似的话，见到了绿色的老鹰之类的。",
+			say = "A green ghost... Hang on, doesn't that kind of sound like the emerald eagle...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "本来想说闲下来的时候再去调查，没想到会在这里串联起来……！",
+			say = "That makes two oddities spotted around the Colosseum, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "说起来，当时也是在文化馆附近呢……",
+			say = "Hey, that's it! Two eyewitnesses, two sightings of green things, both around the Colosseum! It's all connected!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "唔，连续两个人都在文化馆附近发现了绿色的幽灵……确实有问题。",
+			say = "You're right. It's not like two separate eyewitnesses would lie about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "刚刚那个自称调查员确实提到了，幽灵是从这下面飞出来的对吧……？",
+			say = "That Bristol girl said it \"came from here\" too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "达·芬奇跟阿尔弗雷多有默契的一起点了点头，然后向着通往地下室的通道展开了全力冲刺。",
+			say = "Just then, da Vinci and Alfredo looked at each other. Their eyes lit up as they were both hit by similar realizations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,9 +727,9 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hideOther = true,
-			actorName = "阿尔弗雷多&达·芬奇",
+			actorName = "Alfredo Oriani & Leonardo da Vinci",
 			hidePaintObj = true,
-			say = "大新闻，我来了————！\n无限的预算，我来咯————！",
+			say = "- Hot scoop, here I coooome! - Increased budget, here I coooome!",
 			effects = {
 				{
 					active = true,
@@ -760,7 +760,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我说你们等一下——",
+			say = "W-wait, come back here...",
 			effects = {
 				{
 					active = false,
@@ -782,7 +782,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			side = 2,
-			say = "佩萨格诺手中的通讯器传出了维内托关切的声音。",
+			say = "The person on the other end of the communicator in Emanuele's hand let out a massive sigh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,7 +800,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 601090,
-			say = "欸……还是先跟维内托大人汇报一下，然后……追上去吧。",
+			say = "F-forgive me, Veneto... I'll t-try to catch up to them...",
 			painting = {
 				alpha = 0.3,
 				time = 1

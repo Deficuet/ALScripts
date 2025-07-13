@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "撒丁帝国塔兰托港 ·宴会厅",
+			say = "Sardegna Empire - Taranto Conference Hall",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "唔……终于连热闹的宴会厅也变得冷清下来了……",
+			say = "All right, Maestrale! Let's hear your report!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "宴会终有结束之时，别太失落了，西南风。",
+			say = "O-okay... The other faction representatives have finally left, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "哎……如果皇家和重樱也能按计划出席该多好啊……明明准备得那么辛苦！还有那么多好吃的！",
+			say = "C'mon, why are you such a nervous wreck? I know how hard you've been working, so everything's gonna be fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "是啊~要是我肯定走不了！眼前就有这么华丽的宴会，不享受一下实在是太可惜了~！",
+			say = "Yeah, shinsh you puff in all ish wurk, you shoub be froud ob yourhelf!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比之下，我觉得还是铁血的{namecode:440}更有气度一些。",
+			say = "Hey, stop talking with your mouth full!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "嗯，{namecode:440}好像没传说中那么可怕！虽然有着一股上位者的威严，但是一直都在微笑，说话举止也很有修养！",
+			say = "*nomnomnom*... *gulp*... Phewww, in any case, I'm just glad that scary Iron Blood lady is gone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，她是一位和{namecode:435}不相上下的优秀外交官与领导者。",
+			say = "Scary? Are you talking about Friedrich?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "维内托大人，欢迎回来~您辛苦了！",
+			say = "Oh, Lady Veneto! Welcome back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，相比要继续护送下去的利托里奥，我只是在近海稍微送了铁血舰队一段路而已，不算辛苦哦。",
+			say = "Thank you. You've all done well. Da Recco, despite her appearances, Lady Friedrich is an excellent stateswoman who earned the trust of Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "{namecode:440}已经返回铁血了么？",
+			say = "Is she headed back to Iron Blood now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "不，她说突然想来一场罗马之旅，顺便去和元老院商量一些东西。",
+			say = "Who knows? She did say she wanted to take a quick tour around Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "……这是、临时决定的行程？",
+			say = "...and you're fine with that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看起来是的，真是一个随性的人啊~",
+			say = "Hmm... If you put it that way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "铁血马上就要和重樱进行联合作战了，这么悠闲没问题吧……",
+			say = "Are you sure it's okay for such an important person to be touring around leisurely?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "不也挺好嘛~有种整个世界都在停战协议生效之后变得和平的感觉~真想趁这个时候来个世界巡游啊！",
+			say = "You're waaaay too uptight, Maestrale. You're acting just like Carabiniere~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "我记得、停火协议的范围仅限于NA海域内……",
+			say = "Ugh... Well, if Miss Veneto says it's fine, then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "哎？！是这样么……等等，那我们的陆间海要怎么办啊！？",
+			say = "My navigator's instinct is telling me that everything's gonna be just fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，陆间海也是位于停火协议覆盖范围内的……啊，稍等一下。",
+			say = "Now now, I'm sure she will be availing herself to information about how our Senate functions. Moreover—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "怎么了，利托里奥，铁血舰队那边出什么问题了么？",
+			say = "...Littorio, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "铁血舰队一切正常，倒是我们这边出了点突发情况……",
+			say = "Sorry for interrupting, but we've got a situation on our hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605020,
-			say = "资料也发到你那里去了，详细情况面谈吧。我现在正在返航途中，你在会议厅里稍微等一下哦。",
+			say = "I've already forwarded the relevant information to you, so let's discuss the details shortly. I'm on my way back as we speak, so please wait for me in the conference hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 605010,
-			say = "明白了。诸位，看来发生了一些需要我去处理的紧急事件，暂且失陪。",
+			say = "Understood. I'll be waiting for you right here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601050,
-			say = "嗯！这里的收拾工作交给我们，维内托大人就放心去忙吧~",
+			say = "All right! Let's hear Maestrale's report in the meantime!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601060,
-			say = "西北风西北风！你觉得到底出了什么事呀？",
+			say = "Oooh... You can do it, Maestrale! Go, go!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601040,
-			say = "不清楚。不过也许……你想要出门航行的计划可能很快就要实现了……",
+			say = "Ahem! Anyway, this is Maestrale, destroyer from the Sardegna Empire, now beginning the situation report—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,47 +528,47 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「七丘之上，有过一个伟大帝国。」</size>",
+					"<size=35>\"During the last \"Reenactment,\" we engaged with ships from both Sardegna and the Royal Navy.\"</size>",
 					1
 				},
 				{
-					"<size=51>「黑海是帝国的池塘，陆间海是帝国的花园。」</size>",
+					"<size=35>\"The Royal Navy confirmed the fractures between us and the Azur Lane.\"</size>",
 					2
 				},
 				{
-					"<size=51>「欧罗巴是帝国的武库，阿非利加是帝国的粮仓。」</size>",
+					"<size=35>\"Consequently, Sardegna continued to side with the Crimson Axis under the advisement of the Senate.\"</size>",
 					3
 				},
 				{
-					"<size=51>「从哈德良长城上的火炬到亚历山大港中的灯塔，帝国的光辉普照黎庶。」</size> ",
+					"<size=35>\"We continued to communicate with the different factions, and kept a particularly close eye on the Iron Blood.\"</size> ",
 					5
 				},
 				{
-					"<size=51>「然后，帝国沉沦了。」</size>",
+					"<size=35>\"At the Iron Blood's behest, Carabiniere went to one of their facilities and was given an exhibition of Iron Blood technology related to their research into Mirror Seas.\"</size>",
 					6
 				},
 				{
-					"<size=51>「在漫长的战争中，帝国耗尽了力量。」</size>",
+					"<size=35>\"Also, Lady Veneto gained some insight based upon the development of Siren movements in the NA Ocean and Mediterranean.\"</size>",
 					7
 				},
 				{
-					"<size=51>「在轰鸣的炮火中，帝国迎来了毁灭。」</size>",
+					"<size=35>\"A treaty was forged for a joint operation among the major naval powers, and a summit was held for that purpose.\"</size>",
 					8
 				},
 				{
-					"<size=51>「但是，帝国的光辉从未消散。」</size>",
+					"<size=35>\"Furthermore, we know that the Commander has returned to the Eagle Union following a lengthy stay in the Northern Parliament.\"</size>",
 					9
 				},
 				{
-					"<size=51>「七丘仍在，七丘之上的帝国仍在。」</size>",
+					"<size=35>\"We are currently spearheading a counteroffensive against the Siren forces.\"</size>",
 					10
 				},
 				{
-					"<size=51>「新的征程，自此而启。」</size>",
+					"<size=35>\"This is the end of the situation report regarding the current state of the Sardegna Navy.\"</size>",
 					11
 				},
 				{
-					"<size=51>      ——————撒丁帝国诗歌·节选</size>",
+					"<size=35>\"Now we await your orders, Lady Vittorio Veneto, Eternal Flagship of Sardegna—\"</size>",
 					13
 				}
 			}

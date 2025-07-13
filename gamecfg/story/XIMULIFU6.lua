@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"祈愿与祝福之宴\n\n<size=45>六　场外的休息</size>",
+					"A Prayer for Peace\n\n<size=45>Chapter 6 - A Brief Interlude</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "宴会场外",
+			say = "Outside the Banquet Hall",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢噢噢噢…宴会场里满满的都是可爱的驱逐妹妹们！真是太棒了！！",
+			say = "Hnnnng! There are so many cute destroyers all in one place!! I'm in heaven!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是一如既往地火力全开啊，皇家方舟",
+			say = "Don't make me get Enterprise, Ark Royal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 207022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！！我、我只是在这边看着会场，防止有可疑人物或者意外状况而已！绝绝绝、绝对没有在做什么奇怪的事情！",
+			say = "Woooooahh! Let's not get too trigger happy here. I'm just out here monitoring the situation, making sure no questionable individuals get in and whatnot. I'm absolutely not doing anything suspicious at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 199021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…啊哈哈哈，你这么一说不是更像是在做亏心事了吗",
+			say = "Calm down. You're only drawing more attention to yourself like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 207022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，原来是佐治亚小姐啊，别吓我嘛…你怎么不在宴会场里玩，反而跑出来了",
+			say = "Ah... Phew... It's just you, Georgia. What are you doing outside?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会场里太热闹了，有点热了，就出来透透气",
+			say = "Oh. It got a bit too noisy and stuffy in there, so I came out to get some fresh air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 199021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒是你，怎么样，拍到好照片了吗",
+			say = "How are things on your end? Managed to get any good photos?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕嘿嘿嘿，有好多好多可爱妹妹们的——",
+			say = "Guhehe... You bet, so many cute little destroyers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 207022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳、咳咳，都说了，我只是在这边保证宴会场的安全而已！",
+			say = "*cough* *cough* Ahem, I meant, no! This camera is solely for monitoring the perimeters. It definitely has no photos on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 199021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，所以说皇家的舰船，还真是有趣啊",
+			say = "Well, I'll leave you to it. I'd be careful, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 207022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种被玩弄的微妙感觉究竟是…啊，那是…",
+			say = "Ah, um, thanks, I suppose... Huh? Who's that over there?",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -284,7 +284,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦哦？竟然还准备了这个，是{namecode:98}吗？",
+			say = "Akashi? Woah, she even prepared those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

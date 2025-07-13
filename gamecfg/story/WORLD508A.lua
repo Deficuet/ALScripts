@@ -11,7 +11,7 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，前方有舰队正在对峙……一边看起来是塞壬，另一边雷达上完全没显示，大概是余烬吧。",
+			say = "Stop for a sec! I see people on the horizon!",
 			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "领航员小姐，请分析一下周围的余烬信标数据——",
+			say = "Some of them definitely look like Sirens. The rest, though... I think they're Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很不巧，出故障的领航员系统现在可指望不上。",
+			say = "We can't use TB's scans to identify them since it would mean observing a greater area, yes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对哎……",
+			say = "Unfortunately, yeah. Does anyone here have good long-distance eyesight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，能分辨出主要目标么？",
+			say = "Bel, you're up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有问题，陛下。通过进行资料比对，前方舰队中威胁程度最高的目标有五个。",
+			say = "Certainly, Your Highness. Let's see... As far as I am able to tell, there appears to be five silhouettes in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其中三个为塞壬仲裁机关，两个为余烬成员。",
+			say = "Three of them match the descriptions of documented elite Sirens. As for the remaining two, I concur with Miss Memphis and conclude that they are Ashes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬居然同时出现了两个人？！她们会集体行动还真是少见。",
+			say = "Two Ashes members in one place? That's gotta be a first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与之对应的，名为仲裁机关的塞壬超强力个体也一次性出现了三个……",
+			say = "They seem to be holding their own against the Sirens, too. It's no wonder, given how frighteningly strong they are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在五个目标之中，有四个为已知目标。分别是仲裁者·司特莲库斯、仲裁者·天帕岚斯、仲裁者·赫米忒、余烬{namecode:94}。",
+			say = "I believe we have encountered these Sirens before. They are Temperance, Strength, and The Hermit. One of the Ashes is Hiryuu, and the other...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "剩下的一个未知的余烬目标根据外貌特征判断……极大可能是皇家方舟。",
+			say = "...There's no mistaking it. That must be Ark Royal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？那个就是救了白鹰科研舰队的皇家方舟啊。",
+			say = "The Ark Royal that approached the Eagle Union fleet, hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王终于见到你了。",
+			say = "At last we meet, Ashes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "救了我们科研舰队的……？等等，那不是我们之前正在追踪的不明目标么？！",
+			say = "Oh dear, it's her... Now I remember what a nightmare it was to capture her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是怎么可能……余烬当时怎么会出现在我们的雷达上……？",
+			say = "Not to mention we didn't have a coordinate tracker back then. Locating her was like trying to find a needle in a haystack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好意思，埃塞克斯小姐……我觉得现在不是考虑这些问题的合适时机……",
+			say = "Fighting them in a sea of shipwrecks sounds like a bad idea. Commander, I think we should keep a low profile and leave them be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "趁她们没发现，我们先躲起来看看情况会不会比较好……",
+			say = "They don't know we're here yet, so now's a good time to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是个好想法，可惜已经太迟了哦。",
+			say = "Pass by unnoticed? Sorry, but it's too late for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "哟，来的刚刚好。我就知道你们一定会赶上的。",
+			say = "You came at just the right time. I knew I could count on you to show up when I needed it.",
 			bgm = "battle-ashes-theme",
 			flashout = {
 				black = true,
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "到底是怎么回事，{namecode:94}？这段时间你一个人神出鬼没的就是在弄的这些事么……",
+			say = "What's the meaning of this, Hiryuu? I know you've been sneaking off on your own for a while now. Suppose you've made some new friends, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "塞壬有基地，我们可没有，所以一直以来我们才会采取速战速决的运动战。",
+			say = "Our hit-and-run tactics work fine for dispatching detached Sirens. When invading a stronghold, however, we could certainly use the backing of a big fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,54 +362,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "现在突然要和它们打阵地战了，稍微来点智慧不是挺好~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#ffa500",
-			side = 2,
-			actor = 9707020,
-			dir = 1,
-			say = "{namecode:66}不是说尽量不要产生交集……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#ffa500",
-			side = 2,
-			actor = 9707010,
-			dir = 1,
-			say = "计划赶不上变化嘛。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 9707010,
-			side = 2,
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "你看对面这么认真，只靠我们两人怎么跟三台仲裁机关打？",
+			say = "And let's not forget we're up against Arbiters here. I'm not afraid to pull a few strings to gain an advantage over them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +378,54 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "随便你了…………",
+			say = "I'm aware, but remember what Takao said about minimising contact with outsiders?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#ffa500",
+			side = 2,
+			actor = 9707010,
+			dir = 1,
+			say = "It's a little late for that now. They found me before I found them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 9707010,
+			side = 2,
+			nameColor = "#ffa500",
+			dir = 1,
+			say = "Look, the Commander is our golden ticket out of here. I guarantee you the Arbiters won't be coming after us.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#ffa500",
+			side = 2,
+			actor = 9707020,
+			dir = 1,
+			say = "Hmph... Whatever you bloody well say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "看到舰队的出现，两名余烬成员之间似乎发生了轻微的争执。",
+			say = "A small argument broke out between the Ashes members just as we got here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不过片刻之后，共识就被达成了。放弃争执的皇家方舟转而看向指挥舰的方向。",
+			say = "Ark Royal conceded the argument with a sigh, then directed her gaze at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 9707020,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "………………你就是G很在意的指挥官？",
+			say = "...So you're the one. The Commander she – \"Code G\" – is so fond of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,11 +478,11 @@ return {
 			},
 			options = {
 				{
-					content = "（沉默）",
+					content = "Say nothing",
 					flag = 1
 				},
 				{
-					content = "你好——",
+					content = "Respond",
 					flag = 2
 				}
 			}
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 1,
-			say = "……………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 1,
-			say = "沉默不言么，哼。",
+			say = "Not in the mood for a conversation, eh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			side = 2,
 			optionFlag = 2,
-			say = "初次见面，你是余烬那边的皇家方舟吧？",
+			say = "\"And you're Ark Royal... Member of the Ashes.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 2,
-			say = "不错。",
+			say = "The very same.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "指挥官，原来是这种感觉的存在么。",
+			say = "You're... an interesting one, Commander. I've heard the tales about you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是……皇家方舟？",
+			say = "Are you... Are you really Ark Royal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "陛————",
+			say = "Your High––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "………………是的。别会错意了！对于我来说，我是皇家方舟，但是对于你来说，我就未必是了。",
+			say = "...Yes, I am. Mind you, I may not necessarily be the Ark Royal you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			side = 2,
 			actor = 9707020,
 			dir = 1,
-			say = "……………………就这样，我不想再继续谈下去了。",
+			say = "...You don't need to know anything more than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也罢，那就如此吧。",
+			say = "...Very well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "别在意，她一直都是这种风格。虽说像她这样才是最正确的选择吧……",
+			say = "Please don't take offense, she's always like this. Having said that, perhaps you should take a leaf out of her book.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "言归正传。经过这段时间的观察，我觉得你们也不是什么安蒂克丝的牢固盟友。",
+			say = "Getting back on topic... Based on all your actions up to this point, it's safe to say you in fact are not allied with Antiochus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "这次既然来了这么多人，怎么样，有兴趣一起来打一场么？",
+			say = "That being the case, I'd like to propose a temporary truce between us. Together, we can get out of this sticky situation. What do you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问舰队的意见——",
+					content = "\"Girls, what do you think?\"",
 					flag = 1
 				}
 			}
@@ -702,7 +702,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？你才是舰队指挥官吧！这种小事你自己看着办！",
+			say = "What do I think? Thinking and making decisions is your job, you doltish servant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我没有意见。",
+			say = "It's your call, Commander. I'm behind you either way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也没有。一边是可交流的不确定阵营，一边是明确的敌人，这种情况下我选择优先消灭确定的敌人。",
+			say = "I can't say whether the Ashes are friends or foes, but if nothing else, they can be reasoned with. Sirens, meanwhile, are the antithesis of everything we stand for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，不论如何塞壬都是要消灭的存在！",
+			say = "Things probably aren't quite that clear-cut. Just saying...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且趁这个机会近距离收集一下余烬的情报也好。",
+			say = "If nothing else, this is a good opportunity to gather intel on the Ashes. That's worth something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "喂喂喂，当着我们的面说这种话真的合适么？",
+			say = "We won't stop you from taking notes. After all, we're the ones asking for help here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "本来也没隐藏的打算，我们已经尝试与你们对话很久了吧！",
+			say = "You sound sure we won't learn anything useful. We never wanted to fight you, you know. We just wanted to understand you. That's what the Commander wanted all along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "呵，你们可远没有你们自我认知中的那样可信哟。",
+			say = "I see... Be that as it may, you aren't as trustworthy as you'd like to think you are. That's all I'll say on the matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			side = 2,
 			actor = 9707010,
 			dir = 1,
-			say = "不过当然，只是偶尔一起打打安蒂克丝倒也挺不错的。你们觉得呢，对面的仲裁机关？",
+			say = "At any rate, I'm certainly not opposed to occasionally teaming up to defeat a common enemy. Like now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,11 +838,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "仲裁者·天帕岚斯·XIV",
+			actorName = "Arbiter: Temperance XIV",
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "………………出现计划外的干扰者，行动是否取消？",
+			say = "...An unexpected development has occurred. Should we abort the mission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,11 +854,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX",
+			actorName = "Arbiter: The Hermit IX",
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "无妨。我们只需在允许的范围内恰到好处完成任务即可。",
+			say = "Yeah, no. The risk's still well within an acceptable range. Continue as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,11 +870,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "仲裁者·司特莲库斯·VIII",
+			actorName = "Arbiter: Strength VIII",
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "消除余烬，维持实验场的正常运传。",
+			say = "Agreed. Stick to the mission. Eliminate the invaders so we can reinstate normal test site conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -886,11 +886,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX",
+			actorName = "Arbiter: The Hermit IX",
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没错~消除余烬，或者被余烬所消除。直到任何一方机能彻底停止之前，让我们尽情战斗吧！",
+			say = "I'll have faith in your assessments, then. Proceed as proposed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
-			say = "全员注意，现在开始与余烬联合行动————",
+			say = "Doesn't look like we have much choice here but to join forces with the Ashes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
-			say = "目标，塞壬仲裁机关，自由开火！",
+			say = "\"All ships! Target the Arbiters! Open fire!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

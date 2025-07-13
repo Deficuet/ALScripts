@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "{namecode:199}舰队 返航途中",
+			say = "Patrol Fleet",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidePaintObj = true,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "AF遭受了疑似重樱舰队的袭击而失去联络……？",
+			say = "The AF base came under attack and we've lost contact with them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "怎么我一走就出这种事啊！指挥官的应对呢？",
+			say = "I step away from the base for a second and this happens... So, what's the commander's response?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "在多次联络无果之后，指挥官已经在带领舰队前往AF增援的路上了。",
+			say = "Um, a rescue fleet was formed and is now on its way to AF.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "又是亲自去前线？",
+			say = "And is the commander with them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "听起来像是这样的。",
+			say = "Looks that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "唉……不论职位如何变动，这方面的风格还是一点没变。",
+			say = "All righty, looks like I'll finally be seeing some action!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "{namecode:199}，你觉得我们应该怎么办？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是呢，调动过程中居然发生了这种事……",
+			say = "Round up the patrol fleet. We're heading to AF as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "紧急军情。和司令部打个招呼之后我们也返航。",
+			say = "From everything you've told me, it's pretty clear that the Sirens are involved, don'tcha think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "居然敢袭击AF，已经不是一般敌人了……我们必须给予有力的回击才行！",
+			say = "That's why you've gotta bring the firepower for the job!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，刚才还在说指挥官呢。你这风格不也一样么？",
+			say = "Hehe, seems like you're all fired up~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可是白鹰最大最强的战列舰，在战场中冲锋在前是理所当然吧！",
+			say = "That's right! Besides, don'tcha think the commander would've done the same thing?",
 			effects = {
 				{
 					active = true,
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "别说是敌人，就算是风暴也能冲给你看哦！",
+			say = "The indomitable Black Dragon isn't some hotel that sits on the sideline while her friends are in trouble!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在发布舰队指令。",
+			say = "Ticonderoga, put me through to the other girls.",
 			effects = {
 				{
 					active = false,
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "各舰队，情况简报你们已经收到了吧。我们现在要去执行紧急作战任务咯！",
+			say = "Listen up, everyone. You've all heard the news right? We're gonna go back up the commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "{namecode:197}收到……护卫舰队正在重新排列队形。",
+			say = "O-okay...! I hear you, loud and clear...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "{namecode:198}收到，前锋舰队现在开始掉头，稍后与你们汇合哦。",
+			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "很好！{namecode:199}舰队，向着AF——出航~！",
+			say = "That's the spirit! Reverse course, everyone! We're headed for AF Atoll!",
 			effects = {
 				{
 					active = true,

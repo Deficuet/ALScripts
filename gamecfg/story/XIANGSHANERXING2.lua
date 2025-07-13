@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……果然，来到这里的仲裁机关不只有三个。",
+			say = "I knew it. There weren't just three Arbiters that came to this branch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "仲裁者·恩普雷斯·III……还真是挺能藏啊。",
+			say = "Empress III... You're good at hiding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "终究还是我的耐心与谨慎得胜了呢。",
+			say = "In the end, my patience won out, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵……既然你已入局，可就没法再躲回阴影中了。",
+			say = "Now that you've involved yourself in this branch, you can't slip back into the darkness anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "惹不起躲得起~",
+			say = "You have access to far more resources than I do, yes, but that's not something I can't compensate for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来终于可以继续开展计划了。",
+			say = "My plan can finally continue now, thanks to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是你？",
+			say = "...Observer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好久不见啊{namecode:91:赤城}~近来如何？睡眠可好？胃口可好？",
+			say = "We meet again. How are you, Akagi? Have you been sleeping and eating well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……大晚上来打骚扰电话？我要挂了。",
+			say = "...What do you want? It's the middle of the night. If you just want to chat, I'm going to hang up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啧，这可不是求人办事应该有的态度哦~",
+			say = "Hang up? That's no way to treat the person you want help from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……求人办事？你消失多久了？",
+			say = "Help? I thought you were dead. I haven't heard from you for the longest time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且如果我没记错的话，我们的关系应该是互利互惠吧。",
+			say = "Besides, we're not friends. We're just acquaintances who exploit one another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遇到不可抗力我也没办法啊。",
+			say = "I know it's been a long while. I couldn't do anything about that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于互利互惠，只要是能开奇异点，谁来开我都无所谓哦，也不一定非要是你。",
+			say = "But don't talk to me about \"exploiting one another.\" I never needed you in particular. Anyone who could open a Singularity would've been fine by me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是离开我的帮助，你有足够的「算力」达成你的心愿么？",
+			say = "You, on the other hand? You DID need me. Without access to my resources, who could've granted your wish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好啦，别板着脸了~最近我也没闲着哦，你看这是什么。",
+			say = "Don't give me that look. I'm not here to waste your time. Have a look at this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "……你发来的这份资料是？",
+			say = "...What is this? Documents?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "用重樱的话术来说，应该叫……“阵法图”？",
+			say = "In your language, I guess you'd call it a... formation diagram.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你想借助我搭建的“御神木”系统放大海若的能力，没有操作手册怎么行？",
+			say = "You want to amplify the Watatsumi's power using the Sacred Sakura system I constructed, don't you? This is the system's operation manual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还是说，你想靠之前和{namecode:84:武藏}弄出来那个玩具？",
+			say = "But perhaps you've changed your mind and you're going to pin your hopes that toy you and Musashi made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那东西连入门都算不上，我这份可是专门为了你的行动而定制化设计的方案哦~",
+			say = "You won't get anywhere with that thing. This, on the other hand, is tailor-made for your needs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "免费送你了，不用客气~",
+			say = "It's all yours. Go on and take it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那我就不客气收下了。",
+			say = "...That I will.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，行动计划的名字想好了么？",
+			say = "Incidentally, have you named your operation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "还没顾得上想这些细枝末节，怎么了？",
+			say = "I've not even thought about it yet. What does it matter?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "名字的话，你觉得叫「蟒蛇」如何？",
+			say = "Well, it's going to need one, so how about \"Orochi\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……「蟒蛇」？你又有什么恶趣味的想法了么？",
+			say = "\"Orochi\"? Is this another one of your sick schemes?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀呀，只是偶然间在资料库里看到过的名字罢了，不是挺适合你的么？",
+			say = "No, not at all. It's just a name I came across in my database.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "蟒蛇（Orochi）……八岐大蛇。",
+			say = "Orochi... The legendary serpent...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵……「蟒蛇」计划，就叫这个名字好了。",
+			say = "Heehee... You know what? I'll go with that name.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，别忘了把元魔方从玩具里拿出来，放到核心系统里面去哦，知道是哪棵树吧？",
+			say = "Great. Take the Origin Cube out of your toy and stick it into the core system. You know which tree that is, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还用你说？",
+			say = "Yes. I'm not stupid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "…[杂音]…准备…[杂音]…布局…[杂音]…",
+			say = "I'll... BZZZ... set up... BZZZ... and when it's... BZZZ...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…[杂音]…出发…[杂音]…",
+			say = "BZZZ... set off... BZZZ...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,11 +566,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……滋……滋滋………",
+			say = "BZZZZZZ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喂，{namecode:91:赤城}？",
+			say = "Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喂……？",
+			say = "Hello? Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,23 +602,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "………………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "bg_endingsong_14",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "哈啊？",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +618,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯不畅？",
+			say = "Strange...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +630,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她用的可是我给的设备啊……？",
+			say = "Is the signal being jammed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +642,7 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的设备，在我的实验场里，居然会通讯不畅？",
+			say = "Isn't she using the communicator I gave her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +654,19 @@ return {
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "————岂有此理？！！",
+			say = "Someone is jamming MY equipment in MY test site?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900232,
+			side = 2,
+			bgName = "bg_endingsong_14",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "No... THAT CANNOT BE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

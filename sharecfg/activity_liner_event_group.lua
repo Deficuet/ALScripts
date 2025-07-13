@@ -2,16 +2,16 @@ pg = pg or {}
 pg.activity_liner_event_group = {
 	{
 		id = 1,
-		title = "神秘的字条",
+		title = "Mysterious Note",
 		ids = {
 			1,
 			2,
 			3
 		},
 		conclusion = {
-			"A.证据不足，还需要进一步调查。",
-			"B.字条只是一张意外掉落的便条，其余时间均为偶发意外事件，能够用走近科学解释。",
-			"C.留下字条的是一个能够使用钢笔的、可超音速移动的巨型八爪鱼。"
+			"A.Too little information. Further investigation is required.",
+			"B.The note just happened to be there. The rest were all happenstance.",
+			"C.It was a giant squid monster that can write and move at supersonic speed!"
 		},
 		drop_display = {
 			1,
@@ -21,16 +21,16 @@ pg.activity_liner_event_group = {
 	},
 	{
 		id = 2,
-		title = "美食消失事件",
+		title = "Case of the Disappearing Food",
 		ids = {
 			4,
 			5,
 			6
 		},
 		conclusion = {
-			"A.证据不足，还需要进一步调查。",
-			"B.某些深夜看完美食视频后的同伴将这些食物全部偷吃了。",
-			"C.洗劫食物的是一个喜欢吃肉不喜欢蔬菜的、能够干扰监控的巨型八爪鱼。"
+			"A.Too little information. Further investigation is required.",
+			"B.Some night owl got hungry after watching too much food porn.",
+			"C.The squid monster! It hates vegetables and can hack security cameras!"
 		},
 		drop_display = {
 			2,
@@ -40,16 +40,16 @@ pg.activity_liner_event_group = {
 	},
 	{
 		id = 3,
-		title = "居住区的幽灵",
+		title = "Ghost of the Stateroom",
 		ids = {
 			7,
 			8,
 			9
 		},
 		conclusion = {
-			"A.所谓事件纯属捕风捉影，无稽之谈。",
-			"B.水汽、海雾与幽灵，同时满足以上条件的飓风船团嫌疑最大。",
-			"C.幽灵的真身是一个能够隐身漂浮的、能释放出迷雾的巨型八爪鱼。"
+			"A.There is no mystery. It's all nonsense rumors.",
+			"B.Water vapor, sea fog, ghosts... It's almost certainly Tempesta's doing.",
+			"C.That giant squid monster? Yeah, it can turn invisible and spew fog now."
 		},
 		drop_display = {
 			2,
@@ -59,16 +59,16 @@ pg.activity_liner_event_group = {
 	},
 	{
 		id = 4,
-		title = "邮轮狂欢夜",
+		title = "Night of Merriment",
 		ids = {
 			10,
 			11,
 			12
 		},
 		conclusion = {
-			"A.事件，什么事件？今夜无事发生。",
-			"B.有一个人的嫌疑正在急剧增加……难道有人假冒了她的身份。",
-			"C.制造这一切的是一个喜欢找乐子、能够自由出入任何房间的巨型八爪鱼。"
+			"A.What mystery? Nothing happened tonight.",
+			"B.I'm getting particularly suspicious of one person... Is there an impersonator afoot?",
+			"C.Imagine a giant squid monster that can phase through walls. Bam, solved."
 		},
 		drop_display = {
 			15,

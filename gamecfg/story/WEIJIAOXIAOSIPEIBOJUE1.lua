@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "有些故事没有开端，有些故事没有结尾。而有些故事，就这样发生了————",
+			say = "\"Some stories have fuzzy beginnings, others have ambiguous endings. As for this one, well...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "■■■■年■月■日 海域坐标■■■■ ■■■■",
+			say = "■■■■■ber ■■th, ■■■■ - ■■■■■ ■■■■■■■■ Sea",
 			bgm = "login-2022401jp",
 			flashout = {
 				black = true,
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "轰————————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "敌袭出现了？！海伦娜，你没事吧！",
+			say = "An ambush?! Hey, Helena, you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没事……但是货物又被抢走了！",
+			say = "I'm fine... But they got away with the goods we were transporting again...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么会这样………已经是本周第三次袭击了。",
+			say = "What the heck is their deal? That's the third time this week!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再这样下去，我们的甜品供应就要彻底中断了啊！",
+			say = "We'll run all out of candy if they keep stealing from us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 102210,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主动出击啊，主动出击！事到如今只能主动出击了！",
+			say = "You know what that means! We've got to fight fire with fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 102210,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们一定要把抢夺货船的人抓出来！",
+			say = "It's time to teach the evil candy thief a good lesson!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 102190,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之还是先收集情报吧……没有情报的话是抓不到犯人的哦。",
+			say = "F-first we need information, though. We can't catch the thief if we don't know where they are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就这么决定了，我带领更多的量产型加强护航力度。",
+			say = "I have a plan! I'll take the mass-produced ships and reinforce the convoy carrying the candy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 102200,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海伦娜去跟其他阵营交换情报。甜品供应中断的话，其他阵营应该也很困扰才是。",
+			say = "Helena, contact the other factions in the meanwhile. Nobody's gonna like it if we run out of candy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 102210,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那我呢，那我呢？！",
+			say = "What about me? What should I do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:524}就负责去写给萨拉托加的报告好了！也许她那边会知道什么事！",
+			say = "You could call Saratoga! If anyone can figure out what's going on, it's her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "了解啦~！给小加加写报告的事就交给我吧！",
+			say = "Okey-dokey! That's easy peasy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 403130,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "呼呼呼……甜品，美味的甜品……",
+			say = "Hehehe... So much candy, so many snacks...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 403130,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "再多收集一些吧~",
+			say = "I should gather even more...",
 			painting = {
 				alpha = 0.3,
 				time = 1

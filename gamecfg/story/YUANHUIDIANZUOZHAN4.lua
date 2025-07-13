@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			stopbgm = true,
-			say = "铁血试验场·战场区块H8",
+			say = "Mirror Sea - Experiment Area H8",
 			bgm = "story-6",
 			flashout = {
 				black = true,
@@ -40,8 +40,8 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:412}？",
-			say = "……",
+			actorName = "Z46？",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "发现敌方侦察舰队！",
+			say = "Enemy recon fleet spotted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 401160,
-			say = "领头的是……{namecode:412}的棋子和大量与我们相同的塞壬I型量产型！",
+			say = "It's made up of a bunch of mass-produced Sirens, with a Z46 Pawn at the helm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "唔……{namecode:412}啊。在她离开本土之前我见过她一面，当时她的舰装应该还没完工才是。",
+			say = "Z46, huh? Last time I saw her she was still getting used to her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "没想到这里的棋子居然已经是完成状态了……有趣！",
+			say = "Guess this Pawn version of her is ready for action, though. Now that's interesting~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
-			say = "不过她应该不难对付吧~毕竟{namecode:412}只是驱逐舰，而我们这边可是有一整支战列舰编队呢！",
+			say = "Even if her Pawn ends up being pretty strong, we have her fleet completely outgunned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			expression = 4,
 			blackBg = true,
-			say = "哼哼~就当开胃菜，碾压式取胜吧！",
+			say = "That just means our first match is gonna be a crushing victory! Let's gooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

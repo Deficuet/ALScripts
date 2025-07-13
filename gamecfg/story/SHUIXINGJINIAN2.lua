@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>二　为了健康作息</size>",
+					"Work Hard, Play Harder!\n\n<size=45>2 A Lifestyle In Need of Correction</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			say = "北方联合休息室·晚饭后",
+			say = "Northern Parliament Dormitory - After dinner",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "水星纪念的房间，应该是这一间吧……",
+			say = "If I remember properly, this is where her room should be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（敲门声）咚、咚咚——",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
-			say = "啊，门没有锁~请进吧。",
+			say = "Come in! The door's unlocked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "推门进入房间后，映入眼帘的是摆放混乱的储物柜以及多少有些需要清理的地板。",
+			say = "I open her door, and immediately feel like I'm stepping into a warzone. Candy bar wrappers and empty bottles of soda are strewn all over the place, and her shelves look like they haven't been organized in ages.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "水星纪念正坐在一个巨大的懒人沙发上打着游戏。昏暗的房间中，炫目的闪光此起彼伏。",
+			say = "Pamiat' is sitting there on a big Manjuu cushion, gaming away without a care in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，晚上好！",
+			say = "Oh hey, Commander! Evenin'!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "居然使用了和时间相符的正确问候用语……！",
+			say = "\"...At least you still have some perception of time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟天已经完全黑了，可以开始夜晚生活了~",
+			say = "Well yeah, duh. It's dark outside!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我现在正在打的是上周出的新游戏哦，嘿嘿~指挥官，要一起来玩嘛？",
+			say = "Hey, you wanna play some co-op? This game came out just last week and it's amaaazing~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！不对，不是现在！！",
+			say = "Wait, hold up, what are you doing?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官稍等一下……诶诶诶诶诶稍等一下啦！",
+			say = "Nuooooh! I'm gonna die! Commander, waaaait!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————————！",
+			say = "The speakers play a meaty, stabbing sound.",
 			flashN = {
 				color = {
 					1,
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "一阵看起来颇为逼真的演出反馈之后，水星纪念面前的屏幕正中间出现了一个大大的“死”字。",
+			say = "After an alarmingly realistic cutscene, the phrase \"YOU DIED\" appears in big red letters on the center of the screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然被流弹击中……呜！都怪你指挥官！",
+			say = "I seriously just died to a random monster and it's all your fault, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			},
 			options = {
 				{
-					content = "向她表示歉意，同时提醒她注意休息",
+					content = "\"Sorry, but you should take a break every now and then.\"",
 					flag = 1
 				}
 			}
@@ -297,7 +297,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……指挥官不要突然开始说教啊！",
+			say = "Hmph. I AM taking breaks! What do you think I'm doing right now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "休息方式可以有很多种，打游戏放松不也是休息的一种方式嘛！",
+			say = "There are a million ways to relax! Gaming is obviously one of them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看起来很累？呜……知道啦，我之后会注意的！",
+			say = "As for getting enough sleep, that was just a one-off! I, I'll work on it! Hmph...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,14 +345,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "看上去完全被敷衍过去了……既然如此————",
+			say = "Pamiat' being who she is, I know it takes more than a single lecture to get her to change her stubborn ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "提出希望水星纪念担任秘书舰的邀请",
+					content = "\"One more thing: you'll be my new secretary.\"",
 					flag = 1
 				}
 			}
@@ -364,7 +364,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈？！怎、怎么这么突然？！现在的秘书舰不是阿芙乐尔么！",
+			say = "Whaaat?! Just like that?! You've already got Avrora filling that role!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "其实在来之前已经和阿芙乐尔谈好了，她也十分支持这个提议。",
+			say = "\"Yes. We discussed swapping you in and she supports the idea.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（呜……相比于我帮指挥官做事，我还是更喜欢现在这样指挥官替我忙前忙后的氛围呢……不过——）",
+			say = "While I'd love to work my butt off for you, I'd love it more if you worked YOUR butt off for me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……这样好了！",
+			say = "Hmm, you know what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "水星纪念举起游戏机的手柄递了过来。",
+			say = "She shoves a game controller into my hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果指挥官能在游戏里赢过我，我就答应指挥官当秘书舰的邀约，如何呀？",
+			say = "I'll do as you say! If you can beat me in a game, that is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，在这方面我还是挺有自信的哟？",
+			say = "Hehehe~ Don't expect me to go easy on you~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "十分钟之后——",
+			say = "Ten minutes later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -496,7 +496,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶诶诶！！！……刚才那个不算啦！重来！",
+			say = "That doesn't count! You just got lucky! Come on, rematch! Best of three!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			withoutActorName = true,
 			actor = 702022,
 			nameColor = "#A9F548FF",
-			say = "又一个十分钟之后——垂头丧气的水星纪念正颓废的瘫倒在懒人沙发上。",
+			say = "Another ten minutes later, Pamiat' throws herself at her cushion in defeat. Whether out of resignation or rage, no one knows.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -548,7 +548,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可恶……反应还是慢了一点点……怎么会……呜……",
+			say = "Urgh... I was THIS close, too! This blows...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "（难道她的游戏水平其实很差的么……令人意外。）",
+			say = "What is clear to me is that she's not quite the gamer she makes herself out to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			actor = 702022,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜，再见了，我美好的居家生活……",
+			say = "Ugh... Dasvidaniya, my easygoing life...",
 			painting = {
 				alpha = 0.3,
 				time = 1

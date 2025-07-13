@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱操心的她可不是闹着玩的\n\n<size=45>二 如果是为了{namecode:79}姐姐</size>",
+					"Heart in the Right Place\n\n<size=45>2 To Yamashiro's Aid</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "唔哇……比想象中还要严重的情况……！",
+			say = "Oh no... This is even worse than I thought.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "正如{namecode:17}所说，通向主殿的参拜道上盖满了镇守森林的残枝与落叶。",
+			say = "Indeed, the place was in a terrible state. The footpath leading up to the shrine was buried beneath branches and leaves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "歪倒的树木没有堵住道路真是不幸中的万幸。",
+			say = "There was at least a silver lining – the path was not blocked by toppled trees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}姐姐——！{namecode:78}姐姐——！",
+			say = "Yamashiro! Fusou! Are you all right?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "看到参拜道上的景象后，{namecode:17}急匆匆的冲向了主殿——————",
+			say = "Seeing what happened to the footpath prompted Shigure to run up and check on the shrine itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——{namecode:17}，然后是……殿下？你们怎么来这里了？！",
+			say = "Shigure? Milord, too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "迎面遇到的{namecode:79}正拿着扫把站在院外，看来是在清理落叶与树枝。",
+			say = "Yamashiro was sweeping the yard with a broomstick, trying to clear up the debris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你平安无事真是太好了……{namecode:78}姐姐呢？",
+			say = "Phew, thank god you're all right... Where's Fusou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐正在主殿那边清理被风吹过去的垃圾——{namecode:17}和殿下为什么会来这边？",
+			say = "She's just by the shrine, cleaning up some trash that flew in. Now, Milord, why are you here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "向{namecode:79}解释了自己是在确认母港内受灾情况途中被{namecode:17}拉来这里的。",
+			say = "\"I'm going around the port and doing damage assessment. Shigure told me to come along.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是说……殿下也会帮忙打扫神社吗？",
+			say = "I see... Then would you mind helping us out here? There's a lot of leaves, trash, and stuff we need to clear out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然啦{namecode:79}姐姐！指挥官怎么会拒绝{namecode:17}大人的请求呢！对不对，指挥官？",
+			say = "Of cooourse! Right, Commander? I mean, you wouldn't refuse me if I asked you to do it, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "既然人手不足的话，就留在这里帮帮忙好了——",
+			say = "They needed help, and it had to be done eventually anyway. I told them yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇……！那今天就拜托两位了！",
+			say = "Great! Thank you both so much! I'll go find you a broom and a trash bag!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯~事不宜迟，我们应该从哪里做起比较好？",
+			say = "Sure. Just to make sure right off the bat: where should we even start?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐和我负责打扫主殿……参拜道那边就拜托两位了~",
+			say = "Fusou's handling the shrine, and I've got the yard covered, so you could start by sweeping the footpath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，也得和在主殿的姐姐说一下！这里就——————呀！",
+			say = "Let me go get what you need, I'll be right ba– Aaaack?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "正当{namecode:79}急匆匆转向主殿的方向转身时，她踩到了自己的和服下摆。",
+			say = "Yamashiro turned around to go back to the shrine, and immediately tripped on the hanging sleeve of her own kimono.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "危险——！",
+			say = "I've got you!",
 			effects = {
 				{
 					active = true,
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "如同预测了倒地轨迹一般，{namecode:17}抢先冲到{namecode:79}身旁化解了这次摇摇欲坠的危机。",
+			say = "Before she could actually fall over, Shigure jumped in and grabbed her hand. She was so fast, it's like she predicted this would happen.",
 			effects = {
 				{
 					active = false,
@@ -377,7 +377,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}姐姐，你还好吗？",
+			say = "You okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢，谢谢你呀{namecode:17}……是我太不小心了。",
+			say = "Y-yeah, I'm okay! Thanks. You know how clumsy I can be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_129",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？一脸惊讶干嘛？这种情况下{namecode:79}姐姐接下来会发生什么不是显而易见的嘛~",
+			say = "...Yeah, what, Commander? Like she just said, she's known to slip up, sometimes literally. I saw it coming, that's all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
-			say = "真不愧是长时间相处的同伴，{namecode:17}对{namecode:79}突发状况的应对堪称完美。",
+			say = "They have been friends a long time, so it wasn't really surprising how her save was so perfect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_129",
 			dir = 1,
 			blackBg = true,
-			say = "一边这样想着，一边拿起扫把和{namecode:17}开始了清扫工作。",
+			say = "With that minor accident prevented, she retrieved the brooms for us and we started sweeping the footpath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

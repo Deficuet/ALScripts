@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "此时此刻，我正看着手机上收到的消息——",
+			say = "I switch on my phone and check my recent messages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“指挥官，我们被困在学院了！”",
+			say = "\"Mandy pls help! I'm trapped in the academy.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“居然发出去了——”",
+			say = "\"Nice I've got signal, says my message got delivered.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "是{namecode:494:Z47}的信息，与以往的轰炸式文字信息与各种表情包混发的形式不同，这次只有两条简短的文字信息。",
+			say = "The messages are from Z47, short and to the point, unlike her usual walls of texts and stickers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（是恶作剧么？不对，{namecode:494:Z47}不像是会恶作剧的人……总之先确认一下情况吧。）",
+			say = "(Is she trying to prank me? No, that's not like her. I should ask for more details.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "小企业",
+			actorName = "Little Enterprise",
 			nameColor = "#A9F548FF",
-			say = "指挥官，指挥官！",
+			say = "Commander! We need help!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,9 +115,9 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:193}",
+			actorName = "Amagi-chan",
 			nameColor = "#A9F548FF",
-			say = "咳咳、指挥官……",
+			say = "*cough cough*... Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "正当我准备进一步确认状况时，两道小小的身影冲进了指挥室。",
+			say = "Just as I'm about to reply, two little shipgirls barge into my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}，你还好么？抱歉……一路拉着你跑过来……",
+			say = "Are you okay, Amagi? I didn't mean to exhaust you by dragging you along...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "虽说要时刻保持冷静……但是现在……唔……发生的事情让人根本冷静不下来！",
+			say = "I know you're supposed to stay calm in these situations, but I just couldn't. Sorry.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304070,
-			say = "我没事……只是因为不擅长运动而已……我们还是先把紧急情况告诉主上吧！",
+			say = "Whew... It's fine, I simply have poor cardio. Never mind that – we need to report to the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,11 +192,11 @@ return {
 			},
 			options = {
 				{
-					content = "你们也有紧急情况？",
+					content = "Trouble has come your way, too?",
 					flag = 1
 				},
 				{
-					content = "到底发生了什么事？",
+					content = "Report what? What's wrong?",
 					flag = 2
 				}
 			}
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "也……？指挥官已经收到求助了吗？",
+			say = "\"Too\"? Are you saying that you received the SOS as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯，总之先和我说说到底发生了什么吧。",
+			say = "Let's get our facts straight first. Tell me what's happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "学院突然发生了异变！还在里面上课的同伴们完全失联了……外面的人也进不去……",
+			say = "Something's happened at the academy! We can't reach anyone there or get inside to check.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？失联……？）",
+			say = "(They've lost all contact? That's odd...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "异变发生的时候，{namecode:494:Z47}也在里面么？",
+			say = "Is Z47 there, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，她在哦。",
+			say = "Yes, she is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我拿出手机试图与校园内的{namecode:494:Z47}取得联系，但聊天气泡前出现了回复失败的感叹号。",
+			say = "I whip out my phone and send Z47 a message, but it doesn't go through – I get an error saying that my message could not be delivered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来事态比预想中更加紧急……）",
+			say = "(This is looking more serious than I anticipated.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "指挥官，看来我们只能亲自去调查一下了呢。",
+			say = "I think we should all go and investigate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只靠我们恐怕力有不逮，主上，我们再叫些同伴来帮忙吧。",
+			say = "Just us three? That won't be enough. Commander, would you mind calling for some backup?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。{namecode:193:小天城}、小企业，你们跟我一起去。我在路上呼叫支援。",
+			say = "Good idea. Let's head to the academy and I'll make some calls along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,10 +377,10 @@ return {
 			bgName = "bg_story_task_2",
 			hideOther = true,
 			dir = -1,
-			actorName = "小企业&{namecode:193:小天城}",
+			actorName = "Little Enterprise & Amagi-chan",
 			actor = 107990,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Okay!",
 			subActors = {
 				{
 					dir = -1,
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "港区·校园入口",
+			say = "Port - Academy Entry Gate",
 			bgm = "level",
 			typewriter = {
 				speed = 0.05,
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "不远处众人正一脸严肃地站在校园入口处。",
+			say = "A while later, I and a group of shipgirls have gathered outside the academy's entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，我和姐姐在收到通讯后就第一时间赶到了这里，可是无法打开大门……",
+			say = "I came running as soon as I got Bismarck's message. I tried to open the gate, but couldn't.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嗯，不论是常规方法还是武力突破都试过了。",
+			say = "We tried the regular way, then the hard way... Even brute force couldn't get it open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "整座学院似乎进入了某种特殊的空间中，就像镜面海域一样，必须要满足特定的条件才能进入。",
+			say = "I believe the academy has been pulled into a bizarre dimension and can only be entered by fulfilling certain requirements, much like a Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（镜面海域……在学院里？）",
+			say = "(A Mirror Sea around the academy? It can't be...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "在两人的说明中，我走到了学院大门前，靠近了安保系统的面部识别处。",
+			say = "With that knowledge, I walk up to the gate's facial recognition system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,11 +518,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{playername}认证失败。警告！警告！非认证人员不得入内！”",
+			say = "Alert! Your identity could not be verified! No entry for unauthorized individuals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然没那么容易啊……",
+			say = "Of course it wouldn't be that easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "嗯，我和{namecode:436:提尔比茨}的认证也失败了，没想到就连指挥官的权限也会失灵啊。",
+			say = "It wouldn't let me or Tirpitz in either. I can't believe it won't let YOU in, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，我们已经联系过{namecode:525:英格拉罕}和灵敏，她们应该很快就到了。",
+			say = "I've already messaged Ingraham and Soobrazitelny. They should be here soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "说话间，{namecode:525:英格拉罕}和灵敏就赶到了，她们在简单了解情况过后便开始尝试攻破安保系统。",
+			say = "A while later, our little engineers show up. After a quick briefing, they get to work and try to break through the security.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "不行……还是弄不开。",
+			say = "No dice. It won't open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "嗯……因为我们面对的问题根本不是系统故障。",
+			say = "Urgh... At least I can say this is not the fault of a system malfunction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然是寻找进入加密空间的方法，找个密码学专家来也许更有效……",
+			say = "There are two options if you want to get access to the encrypted data. Either you call in a specialist...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "或者找到设立这套安保系统的人，我记得是{namecode:37:夕张}吧……指挥官，你联系过她么？",
+			say = "Or you get the system developer to have a look. Did you get in touch with Yuubari yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，在来的路上我联系过她，不过没有收到任何回复。",
+			say = "Yeah. I messaged her on the way here, but she has yet to reply.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "说起来，{namecode:37:夕张}好像说今天要去学院里维护什么设备来着……难道她已经被困在里面了？！",
+			say = "Speaking of Yuubari, I think she went to the academy to do some equipment maintenance... Oh no. She's also trapped in there, isn't she?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "制作者被困入其中，这样的话就有些麻烦了呢。",
+			say = "Trapped by the very system she created... How ironic, but also problematic for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（再怎么说，也不能对港区内部设施使用重火力，看来只能让TB解码试试了……）",
+			say = "(Bombarding it with all we have should be our last resort. I could ask TB to hack her way in...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "就在我思考如何进行救援行动时——",
+			say = "Then, while I'm weighing my options, the security system speaks again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,11 +768,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{namecode:536:U-31}认证成功，请通行。”",
+			say = "Verification successful. Welcome to the academy, U-31.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "安保系统发出了一声柔和的通过提示，校园大门缓缓打开了。",
+			say = "With an unceremonious voice clip, the gate slowly slides open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "什么嘛~这不是往这一靠近，门就打开了吗~？",
+			say = "That's it? I didn't even have to do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "而通过认证的人员——不知何时出现的{namecode:536:U-31}。",
+			say = "U-31 has appeared beside us, donning a school uniform – of some kind, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "嘿嘿~指挥官，我来保护你啦。",
+			say = "Hiya, Commander. I'm here to protect you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然不清楚发生了什么事，不过门已经打开了哦。",
+			say = "Don't know how I did it, but I got the gate open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "门居然就……这么打开了？",
+			say = "Just like that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "认证系统原来还有在正常工作么，我还以为铁定被锁死了！",
+			say = "It was working as normal this whole time? I thought the dang system had locked up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……异变后，门禁系统的开启条件同样发生了改变么，有趣。",
+			say = "Then if it's still working, it must've been tampered with. Interesting...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家快看校园内的景象……",
+			say = "Um... You should all probably look at the academy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "放眼望去，印有彩色图案的宣传标语映入眼帘。",
+			say = "As instructed, I turn my gaze toward it and immediately catch sight of a colorful banner with some sort of slogan written across it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "——\"童真，童心，童趣的乐园。\"",
+			say = "\"A little paradise for the pure, innocent, and mischievous.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前……校园里是没这个标语的，对吧？",
+			say = "That banner wasn't there before, was it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "嗯，没有哦！",
+			say = "No, definitely not!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此，或许是这样……",
+			say = "Hmm. This gives me an idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "小企业，{namecode:193:小天城}，你们也靠近门禁系统试试看？",
+			say = "Enterprise, Amagi, could you look into the facial recognition machine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,11 +1016,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客小企业认证成功，请通行。”",
+			say = "Verification successful. Welcome to the academy, Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,11 +1028,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{namecode:193:小天城}认证成功，请通行。”",
+			say = "Verification successful. Welcome to the academy, Amagi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来童真、童心和童趣就是通行条件啊！那让本调查员来试试吧~",
+			say = "Aha! The conditions to enter must be being pure, innocent, and little! Let me give it a shot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,11 +1057,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客布里斯托尔认证失败。警告！警告！非认证人员不得入内！”",
+			say = "Alert! Your identity could not be verified! No entry for unauthorized individuals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "欸……开什么玩笑！",
+			say = "Hey! What the heck?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1102,7 +1102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，看来作为调查员的你因为接触了太多黑暗秘密，已经失去童心咯~",
+			say = "Aww, you poor thing. You must've lost your innocence after digging into too many dark secrets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是让本冒险之王抚顺来试试吧~！",
+			say = "When an investigator fails, it's time for an adventurer to step up to the plate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1131,11 +1131,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客王抚顺认证失败。警告！警告！非认证人员不得入内！”",
+			say = "Alert! Your identity could not be verified! No entry for unauthorized individuals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……啊？冒险之王抚顺，抚顺啊！你这个系统是故意的吧！",
+			say = "Are you kidding?! I'm the port's foremost adventurer! Let me iiin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "气死我了……指挥官，我们直接把它炸了进去吧！",
+			say = "You leave me with no choice... Commander, permission to open fire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1203,7 +1203,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "嘿嘿，别那么暴力嘛，让飞云大人来试试~!",
+			say = "Hold your violent horses! Lady Yuen will get this gate open right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,11 +1215,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客飞云认证失败。警告！警告！非认证人员不得入内！”",
+			say = "Alert! Your identity could not be verified! No entry for unauthorized individuals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1233,7 +1233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "怎么会QAQ！",
+			say = "Waaah! This is slander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1251,7 +1251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇……也要……！",
+			say = "Teacher, let me try!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1263,11 +1263,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客安克雷奇认证失败。警告！警告！非认证人员不得入内！”",
+			say = "Alert! Your identity could not be verified! No entry for unauthorized individuals!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1281,7 +1281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "就连安克雷奇的认证也失败了……？奇怪，这个认证条件到底是怎么回事啊……",
+			say = "Not even Anchorage, huh? So what ARE the conditions to get in, then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1299,7 +1299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304070,
-			say = "可是我和企业、还有{namecode:536:U-31}就能进去……",
+			say = "It's strange. Enterprise, U-31, and I were all authorized...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1317,7 +1317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101266,
-			say = "埃尔德里奇，试试。",
+			say = "Let me... try.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1329,11 +1329,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客埃尔德里奇认证成功，请通行。”",
+			say = "Verification successful. Welcome to the academy, Eldridge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1347,7 +1347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "原来如此……穿校服，或者是小船，这就是进入门禁的条件？",
+			say = "I think I understand now. They must either be \"little,\" or wear the correct kind of uniform.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来如此。",
+			say = "Looks like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1375,7 +1375,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（幸好，异变发生时有一些小船因为课外任务没有在学院内。）",
+			say = "(I believe some of the little shipgirls were doing extracurricular activities outside the academy when this thing started.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1387,7 +1387,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（既然是这样的话，关于接下来的调查营救行动——）",
+			say = "(That being the case, I know a few candidates for this mission.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1398,7 +1398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "根据通过门禁的要求，很快小队就组建完毕了。",
+			say = "A team capable of meeting the security system's criteria has been swiftly assembled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1429,7 +1429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "吾的魔眼已给予吾启示，一切都是暗黑镇魂曲的阴谋！深陷绝境之友，由吾来拯救！",
+			say = "My demon eye has revealed the truth – it is all a Dark Requiem conspiracy. Fear not, for I shall rescue our comrades caught beyond the periphery!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307130,
-			say = "嘿嘿……指挥官大人，{namecode:97:大凤}会好好完成这项任务的，请耐心等着我哦。",
+			say = "Heehee... I promise this won't take long, my Commander. I'll accomplish this mission before you know it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "放心吧指挥官，我会好好看住、咳……保护{namecode:291:小大凤}安全的。",
+			say = "That's the spirit! Meanwhile, I'll keep an eye o– I mean, keep Taihou safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1492,7 +1492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小队……需要一个名字。",
+			say = "Rescue team... has no name.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1510,7 +1510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "命名？那就叫清剿世界全部之恶小队吧！",
+			say = "Do we need one? In that case, I propose \"Banishers of all Evil\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1527,7 +1527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……意义不明。",
+			say = "I don't get it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1545,7 +1545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "闪耀星星小队怎么样！",
+			say = "Then how about \"Twinkling Little Stars\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1562,7 +1562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……很可爱。",
+			say = "Cute...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1580,7 +1580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "可爱是可爱啦……不能有更时尚一些的名字了吗？",
+			say = "I don't have anything against a cute name, but I want something with a cooler ring to it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1598,7 +1598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "可恶！多么难得的不可思议事件啊！身为调查员的我居然被拒之门外！",
+			say = "Unbelievable... A big mystery is right at our doorstep, and I'm barred from entry! This is criminally unfair!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1615,7 +1615,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "校服……校服……指挥官，我想要校服！",
+			say = "I need a school uniform! Commander, get one for me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,7 +1633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501070,
-			say = "指挥官~飞云大人也想要校服~！",
+			say = "Me too! I want a uniform!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1658,7 +1658,7 @@ return {
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "就这样，在一片吵闹声中，救援小队正在进行出发前的最后准备。",
+			say = "While the racket carries on in the background, the rescue team makes their final preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1689,7 +1689,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "指挥官，我也可以加入救援小队的，让我一起去吧？",
+			say = "Commander, I can go inside. Will you let me go with them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304070,
-			say = "{namecode:161:天城}也可以……！",
+			say = "I'd like to come, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1723,7 +1723,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再怎么说，你们两个受到了惊吓，还是留在外面休息吧。",
+			say = "Sorry, but no. The incident shook you, so you should stay out here and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1737,7 +1737,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107990,
-			say = "唔……好吧。",
+			say = "Hrmh... Fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1753,7 +1753,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:536:U-31}，拿好这个摄影设备。我们会从外部全程关注你们的行动，并为你们提供支援。",
+			say = "U-31, take this camera equipment with you. We'll tune in from out here and support you as best we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1767,7 +1767,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "知道啦！那么晚点见咯，指挥官~",
+			say = "Alrighty! I'll be back in a minute, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1785,7 +1785,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "吾的魔眼已预见了凯旋的未来，等着吾吧！",
+			say = "Mwahaha! My demon eye has already foretold the future. We shall return triumphantly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1803,7 +1803,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102210,
-			say = "闪耀星星小队一定会把大家都救出来的！",
+			say = "Yeah! We'll bring 'em all back safe and sound!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1820,7 +1820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，拜拜。",
+			say = "Bye-bye, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1832,11 +1832,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "安保系统",
+			actorName = "Security System",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客闪耀星星小队认证成功，请通行。”",
+			say = "Verification successful. Welcome to the academy, Twinkling Little Stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1847,19 +1847,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「欢迎来到童心学院。」",
+					"\"Welcome to Little Academy.\"",
 					2
 				},
 				{
-					"「愿你在这里度过开心快乐的每一天。」",
+					"\"A place where you can live happily.\"",
 					4
 				},
 				{
-					"「愿你永远保持童真。」",
+					"\"A place where you can keep your innocence.\"",
 					6
 				},
 				{
-					"「愿童心永驻。」",
+					"\"A place where your inner child can always be with you.\"",
 					8
 				}
 			}

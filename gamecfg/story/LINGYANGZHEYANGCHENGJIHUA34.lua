@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "毕业后，娜比娅意外地爱上了调酒这门艺术。",
+			say = "After graduation, Navi unexpectedly fell in love with cocktail mixing.",
 			bgm = "qe-ova-4",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "在积累了一段时间的经验后，如今的她已是一位技艺精湛的调酒师。",
+			say = "She trained and gained experience quickly. Today, she continues to work as a skilled bartender.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "夜晚的酒吧内，灯光柔和暧昧。",
+			say = "The lights of the bar are dim tonight, giving it a bit of a seedy vibe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "穿着合身的调酒师制服的娜比娅，此刻正坐在光滑的吧台之上。",
+			say = "Navi, dressed in a well-fitting and handsome uniform, sits casually on the counter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "她手中那只盛满酒液的高脚杯，正被她轻巧地放在身旁反扣的冰桶上。",
+			say = "She places a full cocktail glass on top of an upside-down ice bucket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然你要的酒我已经调好了……",
+			say = "I made the cocktail you wanted. Buuut...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是这么轻易就给你的话，也太没意思了呢？",
+			say = "Just giving it to you wouldn't be all that fun, would it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "明明我才是客人吧？",
+			say = "I thought the customer was always right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,11 +132,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸~在我这里可不讲这种规矩哦。",
+			say = "Nuh-uh. I'm the bartender, so I make the rules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "她晃了晃悬空的双腿，得意地看向站在吧台前的我。",
+			say = "She swings her dangling legs and smirks at me deviously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,11 +155,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想要的话，就乖乖求我吧~",
+			say = "If you want it that badly, how about you beg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

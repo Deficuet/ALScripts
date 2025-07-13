@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>金龙的休憩</size>",
+					"Myriad Colors of the New Year\n\n<size=45>Golden Dragon Among Auspicious Clouds</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 499052,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "新年快乐，指挥官。",
+			say = "Happy Lunar New Year, Commander.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，欢迎来到——金龙休憩的角落。",
+			say = "Welcome to the abode of the golden dragon among auspicious clouds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听说在东煌的故事里有不少关于“龙”的传说？不过它代表的感情似乎和我平常熟稔的那种恶兽完全不同呢。",
+			say = "I've heard bits and pieces of the Empery's dragon folklore. Apparently their dragons are very different to Iron Blood's.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "于是就试着扮成了现在的样子——",
+			say = "Incidentally, their dragons inspired the design of this outfit, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎样，在气质上还不赖吧？",
+			say = "What do you think? Looks quite stunning, doesn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……喂，你那是什么表情！怎么，我选的这套衣服难道不合节日的氛围吗？",
+			say = "...What's with that look, huh? Are you suggesting that it doesn't fit the spirit of the holiday?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,11 +138,11 @@ return {
 			},
 			options = {
 				{
-					content = "赞美",
+					content = "\"Of course not. It does.\"",
 					flag = 1
 				},
 				{
-					content = "质疑",
+					content = "\"I'd say it's a bit risqué.\"",
 					flag = 2
 				}
 			}
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "果然，指挥官还是很有眼光的嘛。",
+			say = "Heehee. That's what I thought. You have good taste.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "你能喜欢那就再好不过了。",
+			say = "But what matters most is that I'M happy with how it looks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "……不许质疑和有意见！选衣服可是花了我好久呢！",
+			say = "I don't care for your critique! I chose this outfit very deliberately, I'll have you know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "“春节才不是什么色色的节日”？我、我当然知道！",
+			say = "So what if this isn't a holiday for celebrating virility? I know that, obviously!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "真是的，不解风情的家伙……唉，算了。",
+			say = "Hmph. Whatever. You simply have no taste in fashion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和流光溢彩的外面不同，这里是喧闹春节之中一处难得的宁静角落呢。",
+			say = "...I will say, I'm pleasantly surprised by how quiet it is here. Everywhere else seems to be swept up in merrymaking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果节日的准备工作做得差不多了的话，要不要来我的身边稍微放松一会呢？",
+			say = "Seeing as you've mostly finished the festival preparations, why don't you have a seat next to me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,76 +283,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哪怕是驰骋在海上的恶兽，也会有想要享受片刻安静的时候啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499052,
-			side = 2,
-			bgName = "star_level_bg_102",
-			live2d = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "在{namecode:480}的邀请下坐在了她的身边。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499052,
-			side = 2,
-			bgName = "star_level_bg_102",
-			live2d = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯~很在意吗，熏香的味道？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499052,
-			side = 2,
-			bgName = "star_level_bg_102",
-			live2d = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呼呼，打理熏香可是我新学会的技能哟~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 499052,
-			side = 2,
-			bgName = "star_level_bg_102",
-			live2d = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不仅如此，我最近还学到了很多有趣的东西呢。",
+			say = "Even lords of the sea yearn for moments of respite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +301,76 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……比如？",
+			say = "I take her up on her suggestion and sit down next to her.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Heehee. You're curious about the aroma, are you?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "It's from an incense I made. I learned how to just today.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "That's not the only exciting skill I've picked up. In fact, it's one of many.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 499052,
+			side = 2,
+			bgName = "star_level_bg_102",
+			live2d = true,
+			withoutActorName = true,
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "\"Such as...?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "书法！嗯~这用毛绒绒的毛笔在宣纸上写字也意外地有意思哦——",
+			say = "Oh, you know! Calligraphy! Writing with this fluffy brush is more satisfying than I expected.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔唔唔，不过毛笔……应该怎么握来着？这样？还是……这样？",
+			say = "My only issue is... I'm unsure how to hold the brush. Is it like this? Or like... this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,11 +415,11 @@ return {
 			},
 			options = {
 				{
-					content = "伸手帮忙",
+					content = "\"I'll show you.\"",
 					flag = 1
 				},
 				{
-					content = "笑而不语",
+					content = "Simply observe her.",
 					flag = 2
 				}
 			}
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "哦！我就知道你会这个……",
+			say = "Hah! Of course YOU would know the proper technique.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "先、先说好，区区毛笔，我自己也能学会哦？",
+			say = "Then I shall give you a demonstration of what I've learned, and I permit you to verbally correct me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "有、有点难弄……",
+			say = "Bah, I can't seem to get it right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "我知道你会这个，别光看着了，快来教教我！",
+			say = "I refuse to believe you don't know the proper technique! Stop gawking and tell me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:480}在尴尬中下意识地挥起毛笔来……不过这样的话——",
+			say = "Ägir haplessly runs the brush over the paper. I can feel something bad about to happen...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等，等一下？！墨汁沾到上面了……",
+			say = "Aahh! Dammit, I got ink on myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？！不、不用！我，我自己擦就行了！！",
+			say = "...Do I need help? No, I can do it on my own, thank you very much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "一阵手忙脚乱之后——",
+			say = "A bit of floundering later...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……唔，没想到还挺有难度……",
+			say = "Ugh... This is needlessly complicated...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "笑、笑什么？我已经学会了哦！",
+			say = "Don't you grin at me! I've figured it out now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦！指挥官！",
+			say = "...There! Finally.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚的小插曲就让它这么过去，此刻就请放空心绪，专心享受这节日的甘美吧——",
+			say = "Forget about the new skills thing! We'll simply lie back, relax, and enjoy the quiet!",
 			painting = {
 				alpha = 0.3,
 				time = 1

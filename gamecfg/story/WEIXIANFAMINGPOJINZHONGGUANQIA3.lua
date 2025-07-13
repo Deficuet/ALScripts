@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "一段时间后——",
+			say = "Shortly after...",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "众人操作着舰装，轻松消灭了来袭之敌。",
+			say = "Everyone put their new rigging to good use, easily fending off the enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "也就是说，根据菈菈的调查，现在的情况和所有装备，都是超级游戏制作机创造出来的吗？",
+			say = "So if I'm understanding this right, Lala thinks that this situation and this equipment were all made by Questy MacGuffin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "战斗结束后，少女们观察着散落的金属碎片，回忆着那些突然出现的奇怪机器敌人。",
+			say = "Once the battle was over, the girls pondered over the wreckage, their new equipment, and how it all related to each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "是的，而且这些敌人很有可能也是超级游戏制作机为了这场游戏而设计的敌人呢。",
+			say = "Yep. I bet Questy designed those for this game based on the world it generated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不够可爱……",
+			say = "They're not very cute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "欸？是吗……我觉得还蛮可爱的……",
+			say = "Huh? Really...? I thought they were plenty cute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "啊哈哈，原本设计的装备和现在差别很大啦。",
+			say = "They're not really what I imagined, though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "但是就好像和这些装备一样，敌人的形态也随着这个世界而进行了调整。",
+			say = "I bet you Questy decided to adjust THEM to fit the world, just like it did our gear~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "如果是姐姐大人制造的超级游戏制作机，会有这些奇妙的功能倒也能理解……",
+			say = "Knowing your skills, I'm not surprised that you'd be able to make such a flexible game...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸嘿嘿，大家尽管放心哦！我们的装备性能是远远超过敌人的~",
+			say = "Hehe, so don't worry, everyone! Our rigging is a million times stronger than they are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "它们的强度绝对足够保护我们哦！",
+			say = "Strong enough to protect us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "虽说如此，但还是要小心为妙。",
+			say = "Either way, stay vigilant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "嗯……毕竟我们对这个世界还一无所知。",
+			say = "Yeah... We still don't know anything about this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "既然会有敌人出现，那还是需要商量一下接下来的对策。",
+			say = "And there are hostile creatures... Maybe we should discuss a course of action first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "等等，大家快看！",
+			say = "Wait, look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那边的海面上，整个都被黑色的烟雾笼罩着呢。",
+			say = "There's black mist over the ocean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "看起来不是普通的敌人啊……",
+			say = "It doesn't... look like those things from before, at least...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "我会掩护西连寺春菜和古手川唯的……",
+			say = "I'll protect Haruna Sairenji and Yui Kotegawa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "放心展开进攻吧。",
+			say = "Rest assured and focus on offense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "太好了~小暗真是可靠呢！",
+			say = "Thanks, Yami~ You're a big help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "那么大家，互相之间别离开太远哦。",
+			say = "Okay, everyone, stay close together~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我们一起去看看是什么样的敌人吧！",
+			say = "Let's go see what's going on over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

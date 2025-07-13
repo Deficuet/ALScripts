@@ -9,27 +9,27 @@ return {
 			bgm = "story-battle-16bit",
 			sequence = {
 				{
-					"——密码认证：通过",
+					"– Password authenticated",
 					2
 				},
 				{
-					"——黄金（Golden）认证：通过",
+					"– Golden ID verified",
 					4
 				},
 				{
-					"——系统自检中。",
+					"– Running system self-diagnostic...",
 					6
 				},
 				{
-					"——启动序列验证：通过",
+					"– Activation sequence verified",
 					8
 				},
 				{
-					"——能量传输验证：通过",
+					"– Connection to power source verified",
 					10
 				},
 				{
-					"——装备状态评估：通过",
+					"– Equipment status verified",
 					12
 				}
 			}
@@ -39,42 +39,42 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"——系统启动中。",
+					"– Activating system...",
 					2
 				},
 				{
-					"——机甲核心引擎点燃：完成",
+					"– Core engine ignited",
 					4
 				},
 				{
-					"——动力传输：完成",
+					"– Mobility systems connected",
 					6
 				},
 				{
-					"——智能电脑启动：完成",
+					"– Intelligent assistance engaged",
 					8
 				},
 				{
-					"——感官系统启动：完成",
+					"– Perception systems activated",
 					10
 				},
 				{
-					"——武备启动：完成",
+					"– Armaments loaded",
 					12
 				},
 				{
-					"——护盾启动：完成",
+					"– Shield deployed",
 					14
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "超级钻头MKII系统",
+			actorName = "Super Drill MKII System",
 			bgName = "bg_bigbuli",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——所有系统准备就绪，等候您的命令。",
+			say = "– All systems engaged. Awaiting commands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黄金（Golden）时代的威光，在此降临purin！",
+			say = "The glory of the Gilded Age has come, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在，终于是展现本大人真正力量的时刻了purin！",
+			say = "It's time to bear witness to my TRUE strength, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我们一同去撼动天地吧purin！",
+			say = "Together, we will rock the world, purin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "试作型超级钻头MKII——启动purin！",
+			say = "You and me, Prototype Super Drill MKII!",
 			painting = {
 				alpha = 0.3,
 				time = 1

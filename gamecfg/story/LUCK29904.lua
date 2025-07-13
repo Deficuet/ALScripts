@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，这种感觉比发现了财宝还要令人愉悦呢。",
+			say = "Hehehe. Somehow, this feels even more satisfying than finding treasure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 299040,
 			dir = 1,
-			say = "多亏了你，接下来可以进行更加惊险刺激的冒险了！",
+			say = "It's all thanks to you that we'll be able to partake in more exciting adventures!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "扬帆之时已至，我已经迫不及待想要出发了。",
+			say = "Okay, it's time to set sail! Hurry up, there's no time to waste!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			actor = 299040,
 			dir = 1,
-			say = "接下来的日子里，就让我们一同去探寻更多的宝藏，享受更多冒险的乐趣吧！",
+			say = "Let us keep searching for greater treasures while enjoying our majestic voyage together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			actor = 904021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "油量还不够吗……",
+			say = "Still not enough gas, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这样的话……",
+			say = "In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "嗯……",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "赛车维修站中，少女正认真地对赛车进行着检修。",
+			say = "In the pit, Strasbourg is hard at work on car maintenance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "因为戴着耳机的缘故，她并没有发现我的靠近，直到我一不小心碰到了旁边的工具箱。",
+			say = "Since she's wearing headphones, she doesn't notice me approaching until I accidentally bump into the toolbox next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,14 +92,14 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "啊，指挥官。在这个时间居然出现在这里……你该不会，是一个人悄悄跑出来了吧？",
+			say = "Oh, Commander. What brings you here right now... Did you sneak out alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（点头）",
+					content = "(Nod.)",
 					flag = 1
 				}
 			}
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 1,
-			say = "发现你不在，我有点担心，所以就出来找你了。",
+			say = "I got worried when I noticed you weren't around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 1,
-			say = "放心，我该做的事情也已经做完了，不会影响到其它流程。",
+			say = "Don't worry about me, though. My work is done, and my absence won't cause any problems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "这、这样。嗯，指挥官的好意我心领了。",
+			say = "Okay... Well, I appreciate the thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "如你所见，我在对赛车做最后的维护保养。指挥官……现在还会担心吗？",
+			say = "I'm just doing final checks on this car. Surely you understand why I'd worry about that, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女的紫眸直直凝视着我，带着些许笑意。",
+			say = "Her purple irises focus on me. I see a teasing glint in them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "摇了摇头后，我拿起了地上的工具箱，蹲在少女身旁。",
+			say = "I shake my head, pick up the toolbox on the floor, and squat down next to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "我也来帮忙吧，两个人会更轻松些。",
+			say = "Let me help. Two sets of hands are better than one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "帮忙？嗯……话先说在前面，指挥官如果要帮我的话……",
+			say = "Really? Just so you know, if you wanna help me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "接下来的时间就只能和我在一起，除了检修和我之外，不准想其他的事情。",
+			say = "That means staying right by my side. Focusing only on me and our work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "只准想着我、看着我。",
+			say = "Yeah. Think about nothing but me, look at nothing but me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "斯特拉斯堡捏紧了我的衣袖。",
+			say = "She squeezes my sleeve tight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "指挥官接下来的时间，全部都是我一个人的。",
+			say = "Your time is all mine now, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "好了……一起检修吧。",
+			say = "Now... Let's get to work, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "两个人一起工作，进度快了很多。",
+			say = "Strasbourg and I efficiently knock out task after task.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "呼……这样就差不多了。谢谢你陪着我，指挥官",
+			say = "Phew. I'd say that does it for that. Thanks for helping me out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "说起来，斯特拉斯堡为什么不拜托其他人来帮忙呢？",
+			say = "Don't mention it. Say, why didn't you ask any of the others for help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "……因为我一个人就足够了。",
+			say = "...Because it's a job I can do alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女的语气听起来有些强硬，她一边说着，一边继续手上的工作。",
+			say = "Her answer sounds a little prickly. Throughout, she continues her work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "在她处理完毕后，我发现了地上多出来的螺丝。",
+			say = "While she does that, she notices a screw on the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "……",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "虽然斯特拉斯堡很快重新处理完毕，但现场仿佛进入了凝固状态。",
+			say = "She deftly swipes it up and screws it back where it belongs, all without a word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "在短暂的沉默后，少女开口了。",
+			say = "Awkward silence hangs over us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……你也觉得我在逞强吧？",
+			say = "...Do you think I'm acting tough, or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "不是。斯特拉斯堡一个人可以做到这种程度，已经很厉害了。",
+			say = "Not at all. It's impressive that you can handle all of this alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "我原本只想展示出最好的那一面……但指挥官看见了现在这样的我。",
+			say = "Honestly, I wanted you to see how capable I am. But I messed it up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女靠在了我身边，在这个距离可以感受到她温暖的体温。",
+			say = "We're so close that our skin gently touches. I can feel her warmth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "周围的空气都仿佛在缓慢升温。",
+			say = "So close that the air between us feels like it's heating up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "不过……也无所谓了。",
+			say = "It doesn't matter, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "因为在你的面前，我不需要逞强、也不需要伪装自己。",
+			say = "When I'm with you, I don't need to act tough or pretend I'm someone who I'm not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,14 +496,14 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "但你也得记住，今天的事情，是我们两个人的秘密哦？",
+			say = "As long as you keep what's happened between us today a secret...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "点头",
+					content = "(Nod.)",
 					flag = 1
 				}
 			}
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，很好~那么接下来……",
+			say = "Heheh, good. Okay, next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "得到期望的回应后，斯特拉斯堡满意地站起身来。",
+			say = "After getting the answer she wants, she gets ready to stand up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "可是，似乎是由于维持蹲下的姿势太久，少女的身体在展开的瞬间失去了平衡。",
+			say = "But perhaps as a result of squatting for so long, she loses balance as soon as she tries to straighten her legs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "糟、糟糕——",
+			say = "Hyah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "千钧一发之际，我用手臂揽住了斯特拉斯堡的腰。",
+			say = "I reach my arm around and catch her before she can fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "此刻，少女正安稳地躺在我的怀中。",
+			say = "She's fully in my arms now, at my mercy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "谢谢……",
+			say = "Thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "维持着现在的动作，我和少女靠在了一起。",
+			say = "Yet she relaxes and even leans in closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "指挥官，不要动。可以就这样抱着我吗？",
+			say = "Don't move. Keep hugging me, just like you are now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "指挥官现在乱动的话，我就会因为腿部麻木倒在地上吧？呵呵……",
+			say = "If you let go... I might fall, you know. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "在不知从何而起的燥热中，少女靠近我的耳畔，窃窃私语。",
+			say = "My skin starts to burn hot, and the girl in my arms whispers into my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "这里就我们两个人，所以……指挥官，再做点别的事情吧~",
+			say = "You know, Commander, it's just the two of us... What if we took things a little bit further?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904021,
-			say = "时间还有很多呢——",
+			say = "We still have pleeenty of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

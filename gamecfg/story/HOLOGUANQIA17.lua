@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-control-inst",
 			dir = 1,
-			say = "那边的是…{namecode:6}和拉菲？！",
+			say = "Is that... Ayanami and Laffey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "那两个可爱的女孩子是你的同伴吗？",
+			say = "Are they your friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。",
+			say = "In essence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "好厉害，面对比自己大那么多的航母还能这么英勇的战斗！",
+			say = "Then you've got awesome friends! Look at them fighting carriers many times their size without any hesitation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真奇怪，这片海域的塞壬以纯航空母舰编队为主，缺乏随行的护卫舰…",
+			say = "I've never seen a Siren fleet composed only of carriers and no backup. This Mirror Sea is making them behave differently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走吧，我们去帮她们解决这场战斗。",
+			say = "No matter, we must take care of them. Matsuri, I'll need your support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！",
+			say = "You can count on me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

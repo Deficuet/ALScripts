@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"香醇的提拉米苏\n\n<size=45>二  新任秘书舰{namecode:197}</size>",
+					"Me and the Boise\n\n<size=45>2.The Rookie Secretary</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，很高兴见到你……我是新任秘书舰{namecode:197}。",
+			say = "G-good morning, Commander... I, I hope we can have a productive relationship...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "（深呼吸、深呼吸……）",
+			say = "(Deep breaths, deep breaths...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天是{namecode:197}担任秘书舰的第一天。",
+			say = "And thus, the first day of Boise's secretary duties arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "——秘书舰的工作要从这里开始吗…我明白了。",
+			say = "So these are my responsibilities as a secretary ship...? I understand.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来{namecode:197}应该是比较好相处的类型，和初见时给人的印象完全不一样。不过说起来……",
+			say = "Unlike the first impressions I got of her, Boise was surprisingly straightforward and quite easy to work with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就算是在日常工作中，她也一直戴着那副面具…？",
+			say = "...But I couldn't stave off my curiosity about her uncomfortable-looking mask...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "委托相关的文件……我已经整理好了。",
+			say = "I've finished sorting through the commission-related paperwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然是第一次担任秘书舰，不过{namecode:197}很快就进入到工作状态之中。",
+			say = "Despite this being her first time as secretary, Boise was already well-adjusted to the job's pacing. She remained focused on her work, occasionally asking me questions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "指挥官，快到午休时间了……需要准备什么饮品么？",
+			say = "Commander, shouldn't we take our lunch break soon...? Can I get you something to drink...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能量饮料么……指挥官还是喝点甜甜的，稍微放松一下比较好吧……？",
+			say = "An energy drink...? Um, Commander, I believe something lighter would be better...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "与{namecode:197}渐渐熟悉一些后，开始与她闲聊起来。",
+			say = "After accepting her suggestion, I started to chat her up while waiting for her to finish preparing my beverage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "潜水吗？算是我的一个小爱好吧……",
+			say = "I, I like diving...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过毕竟我不是潜艇……只是借助潜水装备稍微在水下待一会啦。",
+			say = "But, I'm not a submarine, so I can only dive for a little bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "外表与行为都很可爱的{namecode:197}，她的爱好居然是潜水呀……",
+			say = "I never could've guessed that would be her hobby from the way she appeared and conducted herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:197}为什么会喜欢潜水呢",
+					content = "\"What is it that you like about diving?\"",
 					flag = 1
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喜欢潜水的理由……",
+			say = "Um, how do I put this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "有时候会想要和世界隔绝开来，享受只属于自己的宁静……指挥官应该也有过这样的想法吧。",
+			say = "Sometimes, I like the feeling of being able to drown everything out and just be by myself... Do you ever get that way, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "的确，有时候也会想要自己独处一会。",
+			say = "I'm sure everyone has times where they just want to leave everything behind for a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "潜到水下之后，就会有这样一种与世隔绝的感觉……",
+			say = "Being surrounded by the ocean... makes me feel like time is standing still.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "水下的世界很漂亮……有各种颜色的珊瑚，还有游来游去的海龟。",
+			say = "Not to mention, it's also very colorful and beautiful. Coral reefs of all shapes and sizes, sea turtles and other wildlife...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "如果碰到鱼群迁徙的话，还可以游进它们的中心跳舞……那种感觉也不错。",
+			say = "You can swim with schools of fish, or you can just immerse yourself in the beautiful scenery there... It's a really profound feeling...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只是想象着这样的情景，就感觉身心逐渐放松下来。",
+			say = "Her heartfelt description made me visualize the beautiful sceneries of the underwater world without me even being there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			dir = 1,
-			say = "——再加上身处其中的{namecode:197}的话，更是一幅美丽的画卷。",
+			say = "And when I thought about her being in the middle of that serene, enchanting world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "感觉对这位略显神秘的面具秘书舰又多了些不一样的认识。",
+			say = "...I felt like I got a glimpse into the mind of the girl in front of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

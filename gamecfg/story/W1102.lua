@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "异常海况消失了。海面上似乎有些新发现……",
+			say = "The weather abnormality has lifted. New points of interest seem to have emerged from the sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "离开",
+					content = "Leave",
 					flag = 1
 				}
 			}

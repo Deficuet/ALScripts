@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日攻势\n\n<size=45>七 温泉Attack!</size>",
+					"Winter Offensive\n\n<size=45>Chapter 7 - Hot Springs Offensive!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "呼哈～～复活了复活了～～",
+			say = "Fwaahh... I can feel my hitpoints recovering~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "嘻嘻，果然冬天还是更适合温泉呢～",
+			say = "Heehee, nothing beats a soak in the hot springs during the winter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "But what about training?",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "锻、锻炼？那种事还是等到夏天再……",
+			say = "T-training? Can't that wait 'til summer...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "还是说…殿、殿下不喜欢和我一起泡温泉呢？",
+			say = "Milord, perhaps you don't like being in the hot springs with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "！！（摇头）",
+			say = "That's not it!!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "嘿嘿…殿下送的泳装，{namecode:79}一直很珍惜地收着唷～",
+			say = "Ehehe... Did you know? I've always treasured that swimsuit that you bought for me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然还有很多辛苦的事、让人难过的事…",
+			say = "We've had to endure a whole lot of hardships up until now, and surely... more will await us in the future...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "但是只要能和大家、和殿下像这样在一起…就感觉什么都不是问题了呢！",
+			say = "But as long as we're all together, we can accomplish anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "That's right!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "从今往后也请多多关照了哦？殿～下～",
+			say = "So... please continue to guide us forward, Milord~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

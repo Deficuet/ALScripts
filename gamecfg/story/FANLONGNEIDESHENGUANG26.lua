@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "在马可波罗风风火火地前往撒丁岛时，我也从雕像的眼眸中同步了解到了一切。",
+			say = "I watched through the statue's eyes as Marco Polo traveled to Sardegnia Island in a great hurry.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你果然是这个打算……",
+			say = "So that's what you were planning...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过从她的反应来看，你让她看到的并非原本的记录，而是一个经过加工的幻象么？",
+			say = "Judging by her reaction, though, she didn't see records as they were – rather, you showed her doctored visions, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，不过想必答案就是如此，不然马可波罗没有理由对于仲裁者·海洛芬特·V这一身份毫无反应。",
+			say = "While the statue remains silent, I feel like it's silently confirming my suspicions. If Marco Polo had seen the same things as I, she wouldn't have reacted to Hierophant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以……你其实是在她一开始误会了之后错过了解释的时间，之后也不知道该怎么解释，所以干脆放弃了？",
+			say = "Let me guess. You aren't presenting yourself to her as \"God\" on purpose, but the time to clear up that misunderstanding has passed, and now you're simply going along with it – right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "脑海中突然想到了这样一种有趣的可能性。",
+			say = "That amusing possibility crosses my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，但眼神似乎躲闪了一下。",
+			say = "Somehow, I get the feeling that the statue averted its gaze for but a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "………………那你确定，你给出去的情报足够马可波罗应对敌人么？",
+			say = "...Can Marco Polo really deal with the MECHArbiter with the information you've given her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "提尔瑞特不是说，她留下的审判机「战车」战斗力足以匹敌实验场中所有阵营军事力量的总和么？",
+			say = "Chariot said something about her MECHArbiter having the strength to rival the entire test site all at once, didn't she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，但眼神似乎又躲闪了一下。",
+			say = "Although a statue cannot express emotions, it feels like it just looked away anxiously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我好像有点明白，你这次为什么把我也卷进来了。",
+			say = "I'm starting to figure out why you dragged me into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……你之前给我看的记录中有提到，META化侵蚀与心念样本之间存在中和现象。",
+			say = "Marco Polo and her subjects wield the collective power of the mind, while Andrea and her supporters have the corrosive might of METAmorphosis on their side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而构成永夜领域的力量来自于META化侵蚀，陆上神国则传递的是心念具现化的力量……",
+			say = "\"Bring the other down with them.\" \"Neutralization phenomenon between polar opposites.\" The powers you gave them will be the key to victory against your army in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "记得实验机关里，主要负责战斗的测试者、净化者和清除者用的都是自适应型护盾……",
+			say = "In the branch I come from, we did something similar for dealing with the protective barriers of Tester, Purifier, and Omitter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，这个审判机「战车」上所搭载的是自适应型护盾么？",
+			say = "Tell me, Hierophant. Does the MECHArbiter have an adaptive barrier of its own?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "不远处，一扇门出现了。",
+			say = "Just a stone's throw away, another door appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是。",
+			say = "Yes.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，我回到了无垠的纯白之中——",
+			say = "I'm then returned to the white expanse again.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -350,15 +350,15 @@ return {
 			},
 			options = {
 				{
-					content = "？",
+					content = "Huh?",
 					flag = 1
 				},
 				{
-					content = "？？",
+					content = "What?",
 					flag = 2
 				},
 				{
-					content = "？？？",
+					content = "Come again?",
 					flag = 3
 				}
 			}
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然无声，雕像沉默以对。",
+			say = "Only silence from the statue answers me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………行吧。",
+			say = "Once the barrier adapts too much in one direction, it becomes hard for it to pivot in another direction. That property can be exploited.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样一来……最可行的方案应该就是利用极性急转了。",
+			say = "It's like heating steel to high temperatures, then rapidly cooling it to make it brittle. You just have to \"quench\" the barrier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "首先，安德烈亚·多利亚·META应当利用永夜领域的力量对审判机的护盾进行最初的打击。",
+			say = "When the MECHArbiter appears, Andrea's group will begin by attacking the barrier with the power of the Domain of Eternal Night. They'll be the figurative fire that heats the steel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "同时，拉斐尔等撒丁尼亚联盟的其余舰队应当尽可能多地夺回神光之网的节点，并布设永夜战旗，增强永夜领域的力量。",
+			say = "Meanwhile, the Sardegnia League will raise the Banner of the Eternal Night over as many nodes as possible, amplifying the strength of META corrosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而马可波罗需要在撒丁岛的镜面海域内准备陆上神国，并且在神国即将完成时停止仪式，以待时机。",
+			say = "Marco Polo will set up the ritual on Sardegnia Island, halt it at the last moment before the Kingdom of God materializes, then wait for the right time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "直到安德烈亚部将审判机诱入陆上神国的中心，并且已经动用了全部力量，濒临极限的时候。",
+			say = "That's when they'll spring their bait plan into action, drawing out as much of the MECHArbiter's power as possible while luring it inside the center of where the Kingdom of God will appear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这时，敌人的自适应型护盾已经完全偏向了处理META化侵蚀的方向，也是发动进攻的最好时机。",
+			say = "If all goes well, the barrier will be firing on all pistons to counter against META corrosion. That will be the opportune time to annihilate it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "马可波罗需要在此时完成仪式，让敌人深陷陆上神国的中心，之后利用全部力量在最短时间内对其发动总攻，以期能够将其一举摧毁。",
+			say = "Marco Polo finishes the ritual, locks the enemy in place, and unleashes all conceptual power at once to deal a devastating blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……这是她们在现有条件下能够取胜的最优方案了。",
+			say = "This plan is their best shot at victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，我需要你把这个计划传递给马可波罗。",
+			say = "Hierophant, relay this plan to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_4",
 			hidePaintObj = true,
-			say = "与此同时，已经转移至撒丁岛的撒丁尼亚联盟作战司令部中，安德烈亚也提出了同样的问题。",
+			say = "At the same time, inside the Sardegnia League's new joint headquarters on Sardegnia Island, Andrea was having familiar apprehensions.",
 			bgm = "battle-shenguang-freely",
 			typewriter = {
 				speed = 0.05,
@@ -537,11 +537,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "歼敌的这部分计划，似乎有些太粗糙了……",
+			say = "So, the killing-blow part of this plan... Isn't it a bit crude?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,12 +551,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果在你全力进攻之后依然没能打败神之兵器，我们之后应当如何应对？",
+			say = "What if, for example, all our combined strength still isn't enough to beat God's weapon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,11 +566,11 @@ return {
 			actor = 9705080,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然我们对于敌人的情报确实知之甚少，但是我们还是需要在最坏情况发生时的预案。",
+			say = "I know there's very little intel on our enemy, but we should be prepared for the worst-case scenario.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,12 +580,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说得也不无道理……稍等，我请示一下神谕。",
+			say = "Yes, I understand your concern, just... hold on. I'll ask for a revelation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,11 +595,11 @@ return {
 			actor = 9703010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "说请示神谕、就……能请示到神谕？",
+			say = "Ask for one? Do revelations really come simply when you ask for them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,12 +609,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……有趣。",
+			say = "Heh. Interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			bgName = "bg_shenguang_4",
 			hidePaintObj = true,
-			say = "马可波罗没有理会众人疑惑的目光。她只是紧闭双眼，而在片刻后再次睁开。",
+			say = "Ignoring the doubtful looks around her, Marco Polo closed her eyes, opening them again just a short while later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,11 +635,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——本圣座知道了。",
+			say = "I've got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,12 +649,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这么快？你的神跟你说了什么？",
+			say = "That was quick. Did your God tell you anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,12 +664,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神说——「极性急转」。",
+			say = "God hath spoken – we shall quench it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,11 +679,11 @@ return {
 			actor = 699010,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要利用自适应型护盾的特性，在短时间内用两种性质截然相反的攻击体系交替打击，以便突破其转换极限。",
+			say = "We'll exploit a property of the Siren's barrier and pummel it with attacks of two opposing natures within a short span. This will allow us to break through the limits of its defense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,12 +693,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……啊？",
+			say = "Um... What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,12 +708,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这是……神谕？",
+			say = "Is... Is that the revelation you received?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,12 +723,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没错啊？幻象里的影子这么说的啊……怎么了？",
+			say = "Well, yes? The figure in my vision said so. Are you doubting me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,12 +738,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你这个神真是……非同一般。",
+			say = "This \"God\" of yours sure is something else...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,12 +753,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼，本圣座也是如此认为的！",
+			say = "Heheh. Right? I couldn't agree more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,12 +768,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_shenguang_4",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然方向已经有了，接下来，让我们来制定更细致的计划吧！",
+			say = "Now that we have a plan, we just have to iron out the details!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

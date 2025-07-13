@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像依然无声，但其眼神中的景色每分每秒都在变换着。",
+			say = "The statue in the endless white expanse is as silent as ever, but the sights reflected in its eyes are changing every moment.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "里面似乎记录的是……马可波罗当前的一举一动？",
+			say = "Is that... Marco Polo? Are these more memories?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她这是跑去哪里了……怎么感觉忙得热火朝天。",
+			say = "No, not quite. It feels like it's happening in the present... like it's unfolding right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "又是进行奇怪仪式，又是进行军事部署……",
+			say = "They were performing some strange ritual, then redeploying their forces...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就算人在家里睡大觉，精神都能如此活跃地跑出来进行……大冒险？",
+			say = "So while her body is sound asleep, her mind is off on these unbelievable escapades?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,20 +106,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "现状很明显，你出于某种原因被困在了某个地方。",
+			say = "There is nothing but silence from the statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +119,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "出现在我眼前的，不过是一个可以被我认知的投影而已。",
+			say = "Well, from what I can tell, you're trapped somewhere for some reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +132,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我可以确定，你能够一定程度观察到我，但是我不确定在这期间信息传递的效率究竟有多少。",
+			say = "What I'm seeing here is just a projection that I can recognize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +145,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "当我需要问你某个明确问题的答案的时候，或许我应该对你进行意志明确的许愿？",
+			say = "You can probably see me to some extent just as I can see you, but who knows how much information is being relayed to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,18 +158,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就像马可波罗之前那样做的一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_499",
-			hidePaintObj = true,
-			say = "雕像依然沉默无声。",
+			say = "Am I supposed to make a clear and definite wish to you if I want you to answer any of my questions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +171,18 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（反正也没什么损失，试试看吧……）",
+			say = "Marco Polo did that once, so...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			say = "There is nothing but silence from the statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +195,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海洛芬特，我需要更多关于马可波罗所在地点的情报。",
+			say = "(I'll give it a try. It can't hurt.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_499",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Hierophant, please show me any information pertaining to Marco Polo's location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "于是，我向着面前的雕像寻求答案。",
+			say = "I make a wish to the statue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "而后在不远处，一扇门出现了。",
+			say = "Not long after, another door appears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			mode = 1,
 			asideType = 3,
 			stopbgm = true,
-			say = "记录00000000-3",
+			say = "Record 00000000-3",
 			blackBg = true,
 			bgm = "story-shenguang-holy",
 			flashout = {
@@ -291,7 +291,7 @@ return {
 			},
 			sequence = {
 				{
-					"记录00000000-3",
+					"Record 00000000-3",
 					1
 				}
 			}
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——实验机关展开顺利，各处主机布设进度正常。",
+			say = "Deployment of experiment mechanism proceeding smoothly. Installation of mainframe proceeding normally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——核心实验项，「心念」的产生与应用，已确立。",
+			say = "Core experiment – generation and application of conceptualization – has been established.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——信仰体系干涉已开始。",
+			say = "Commencing intervention of belief system.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,10 +360,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04000101-7",
+			say = "Record 04000101-7",
 			sequence = {
 				{
-					"记录04000101-7",
+					"Record 04000101-7",
 					1
 				}
 			}
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——信仰体系已建立，思潮引导进入第二阶段。",
+			say = "Formulation of belief system has been completed. Moving to second phase of ideological guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——心念效果已初步显现，产生机制仍有不明确之处。",
+			say = "Detecting effects of conceptualization. Generation mechanism is a point of uncertainty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——准备引入陨石样本至实验区。",
+			say = "Initiating introduction of meteorite sample to test site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——心智魔方实验继续延期，计划在思潮引导进入第三阶段后投放。",
+			say = "Wisdom Cube experiments postponed until further notice. Launch will commence following start of third phase of ideological guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,10 +446,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04760101-1",
+			say = "Record 04760101-1",
 			sequence = {
 				{
-					"记录04760101-1",
+					"Record 04760101-1",
 					1
 				}
 			}
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——心念效果已能初步复现，产生机制仍有不明确之处。",
+			say = "Basic replication of conceptual effect has been successful. Generation mechanism remains uncertain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——思潮引导即将进入第三阶段。",
+			say = "Preparing to initiate third phase of ideological guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——准备引入心智魔方至实验区。",
+			say = "Implementing introduction of Wisdom Cubes to test site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——已分配任务至测试者系统、净化者系统与构建者系统。",
+			say = "Task allotments for Tester, Purifier, and Compiler systems complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——行动代号「神光圣裁」。",
+			say = "Mission codename: \"Paradise Lost.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,10 +546,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04770330-14",
+			say = "Record 04770330-14",
 			sequence = {
 				{
-					"记录04770330-14",
+					"Record 04770330-14",
 					1
 				}
 			}
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——心念效果已能稳定复现，其产生机制仍有不明确之处。",
+			say = "Stable replication of conceptual effect has been successful. Generation mechanism continues to elude understanding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——已确认单一思潮的心念依然具有不稳定性。",
+			say = "Instability of mind due to singular ideology has been detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——已确认基于陨石样本可以稳定放大心念的效果。",
+			say = "Stable amplification of conceptual effect due to meteorite sample has been detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——已确认经过陨石样本增幅的心念效果在特定环境下可以改变心智魔方的结构。",
+			say = "Observations verify that, under specific circumstances, the amplified conceptual effect provided by the meteorite sample can affect the structure of Wisdom Cubes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——准备引入元魔方至实验区。",
+			say = "Initiating introduction of Origin Cubes to test site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——思潮引导即将进入第四阶段。",
+			say = "Preparing to initiate fourth phase of ideological guidance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,10 +660,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791201-17",
+			say = "Record 04791201-17",
 			sequence = {
 				{
-					"记录04791201-17",
+					"Record 04791201-17",
 					1
 				}
 			}
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——已确认基于信仰诞生的心念在提纯后可以呈现出两个截然相反的性质。",
+			say = "Observations verify that thoughts stemming from faith can present two polarizing properties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——正在进行扩大化实验。",
+			say = "Initiating amplification experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,10 +718,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791202-4",
+			say = "Record 04791202-4",
 			sequence = {
 				{
-					"记录04791202-4",
+					"Record 04791202-4",
 					1
 				}
 			}
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——已确认纯净样本能够以思潮传播的形式扩大陨石样本的同化行为。",
+			say = "Observations verify that pure samples can amplify the assimilation property of the meteorite sample in the form of thought transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——正在进行扩大化实验。",
+			say = "Initiating amplification experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,10 +776,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791207-8",
+			say = "Record 04791207-8",
 			sequence = {
 				{
-					"记录04791207-8",
+					"Record 04791207-8",
 					1
 				}
 			}
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——已确认纯净样本能够以思潮传播的形式扩大元魔方的侵蚀行为。",
+			say = "Observations verify that pure samples can amplify the corrosion property of origin Cubes in the form of thought transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——正在进行扩大化实验。",
+			say = "Initiating amplification experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,10 +834,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791210-44",
+			say = "Record 04791210-44",
 			sequence = {
 				{
-					"记录04791210-44",
+					"Record 04791210-44",
 					1
 				}
 			}
@@ -850,7 +850,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——已确认正向样本与反向样本之间存在中和现象。",
+			say = "Observations verify the existence of a neutralization phenomenon between polar opposite samples.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——正在进行扩大化实验。",
+			say = "Initiating amplification experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,10 +892,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791210-176454",
+			say = "Record 04791210-176454",
 			sequence = {
 				{
-					"记录04791210-176454",
+					"Record 04791210-176454",
 					1
 				}
 			}
@@ -908,51 +908,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——警告：纯净样本失控率已逼至30%。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			flashout = {
-				black = true,
-				dur = 1,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			}
-		},
-		{
-			mode = 1,
-			oldPhoto = true,
-			asideType = 3,
-			blackBg = true,
-			say = "记录04791210-333762",
-			sequence = {
-				{
-					"记录04791210-333762",
-					1
-				}
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			oldPhoto = true,
-			say = "——警告：纯净样本失控率已逼至50%。",
+			say = "Warning: Rate of control loss in pure samples has reached 30%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,10 +936,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791210-778690",
+			say = "Record 04791210-333762",
 			sequence = {
 				{
-					"记录04791210-778690",
+					"Record 04791210-333762",
 					1
 				}
 			}
@@ -996,123 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——警告：纯净样本失控率已逼至70%。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			flashout = {
-				black = true,
-				dur = 1,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			}
-		},
-		{
-			actor = 900232,
-			oldPhoto = true,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			side = 2,
-			say = "——计划停用心念中和性实验研究所。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			mode = 1,
-			oldPhoto = true,
-			asideType = 3,
-			blackBg = true,
-			say = "记录04791211-145876",
-			sequence = {
-				{
-					"记录04791211-145876",
-					1
-				}
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			oldPhoto = true,
-			say = "——警告：纯净样本失控率已逼至90%。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			flashout = {
-				black = true,
-				dur = 1,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			}
-		},
-		{
-			actor = 900232,
-			oldPhoto = true,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			side = 2,
-			say = "——计划停用心念与META双向干涉实验研究所.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			mode = 1,
-			oldPhoto = true,
-			asideType = 3,
-			blackBg = true,
-			say = "记录04791211-6708655",
-			sequence = {
-				{
-					"记录04791211-6708655",
-					1
-				}
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			oldPhoto = true,
-			say = "——准备执行局部清理程序。",
+			say = "Warning: Rate of control loss in pure samples has reached 50%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,10 +980,10 @@ return {
 			oldPhoto = true,
 			asideType = 3,
 			blackBg = true,
-			say = "记录04791211-16946671",
+			say = "Record 04791210-778690",
 			sequence = {
 				{
-					"记录04791211-16946671",
+					"Record 04791210-778690",
 					1
 				}
 			}
@@ -1156,7 +996,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "——已确认紧急命令，局部清理程序已终止。",
+			say = "Warning: Rate of control loss in pure samples has reached 70%.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,7 +1027,167 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——根据命令，开始执行实验场ES-131618（7.728,55.597,17.334,-62167144220）控制权移交程序。",
+			say = "Devising plans to shut down Conceptual Neutralization Experiment Laboratory.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			mode = 1,
+			oldPhoto = true,
+			asideType = 3,
+			blackBg = true,
+			say = "Record 04791211-145876",
+			sequence = {
+				{
+					"Record 04791211-145876",
+					1
+				}
+			}
+		},
+		{
+			actor = 900232,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			say = "Warning: Rate of control loss in pure samples has reached 90%.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			actor = 900232,
+			oldPhoto = true,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			side = 2,
+			say = "Devising plans to shut down Conceptual and META Bidirectional Interference Experiment Laboratory.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			mode = 1,
+			oldPhoto = true,
+			asideType = 3,
+			blackBg = true,
+			say = "Record 04791211-6708655",
+			sequence = {
+				{
+					"Record 04791211-6708655",
+					1
+				}
+			}
+		},
+		{
+			actor = 900232,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			say = "Preparing to initiate local purification program.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			mode = 1,
+			oldPhoto = true,
+			asideType = 3,
+			blackBg = true,
+			say = "Record 04791211-16946671",
+			sequence = {
+				{
+					"Record 04791211-16946671",
+					1
+				}
+			}
+		},
+		{
+			actor = 900232,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			say = "Emergency orders received. Halting local purification program.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				black = true,
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			actor = 900232,
+			oldPhoto = true,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			side = 2,
+			say = "Initiating control transfer of test site ES-131618 (7.728, 55.597, 17.334, -62167144220).",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "——移交目标：仲裁机关系统，仲裁者·海洛芬特·V。",
+			say = "Recipient: Arbiter System – Arbiter: The Hierophant V.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "无垠的纯白之中，雕像依然无声。",
+			say = "As it has this whole time, the statue maintains its silence.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -1241,7 +1241,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我心中的疑惑得到了部分解答，随之而来的是更多的疑惑。",
+			say = "While some of my questions were answered, this also created a whole slew of new ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1254,7 +1254,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "实验场ES-131618……是由你中途接手的实验场。",
+			say = "Test site ES-131618... The one you took charge of, Hierophant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,7 +1267,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可是你已经陷入这种状态了……你还能管理实验场么？",
+			say = "Are you able to oversee it, even in the state you're in now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1280,7 +1280,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你召唤马可波罗，是想让她帮你做些什么？",
+			say = "Did you bring Marco Polo there in order to get help from her or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1293,7 +1293,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那召唤我呢，你想让我帮你什么？",
+			say = "If so, did you bring me here for the same reason? Because you need my help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,7 +1304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默，无垠的纯白之中，唯有回声。",
+			say = "Silence. The statue offers no answers, and my voice echoes hollowly in this horizonless stretch of white nothingness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

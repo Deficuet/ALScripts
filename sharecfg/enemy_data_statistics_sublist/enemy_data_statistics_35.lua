@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_35 = {
+	[91049] = {
+		cannon = 0,
+		name = "Duca degli Abruzzi",
+		type = 2,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91049,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "abuluqi",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "abuluqi",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 6,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.11,
+					1.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							2.09,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[91050] = {
 		cannon = 0,
-		name = "克莱蒙梭",
+		name = "Clemenceau",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +314,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91051] = {
 		cannon = 0,
-		name = "腓特烈大帝",
+		name = "Friedrich der Große",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +470,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91052] = {
 		cannon = 0,
-		name = "特伦托·META",
+		name = "Trento META",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -470,7 +626,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91053] = {
 		cannon = 0,
-		name = "博尔扎诺·META",
+		name = "Bolzano META",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -626,7 +782,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91054] = {
 		cannon = 0,
-		name = "朱利奥·凯撒·META",
+		name = "Giulio Cesare META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -782,7 +938,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91055] = {
 		cannon = 0,
-		name = "安德烈亚·多利亚·META",
+		name = "Andrea Doria META",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -938,7 +1094,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91056] = {
 		cannon = 0,
-		name = "代行者VII「Victory」",
+		name = "Enforcer VII: Victory",
 		type = 13,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1080,7 +1236,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91057] = {
 		cannon = 0,
-		name = "代行者VII「Pulverization」",
+		name = "Enforcer VII: Pulverization",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1222,7 +1378,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91058] = {
 		cannon = 0,
-		name = "校射飞盘",
+		name = "Aim Disc",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1343,7 +1499,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91059] = {
 		cannon = 0,
-		name = "莱昂纳多·达·芬奇",
+		name = "Leonardo da Vinci",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1487,7 +1643,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91060] = {
 		cannon = 0,
-		name = "巴拉卡少校",
+		name = "Maggiore Baracca",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1631,7 +1787,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91061] = {
 		cannon = 0,
-		name = "焦苏埃·卡尔杜齐",
+		name = "Giosuè Carducci",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1787,7 +1943,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91062] = {
 		cannon = 0,
-		name = "拉斐尔",
+		name = "Raffaello",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1943,7 +2099,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91063] = {
 		cannon = 0,
-		name = "大黄蜂·META",
+		name = "Hornet META",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2093,7 +2249,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91064] = {
 		cannon = 0,
-		name = "病院梦魇-驱逐",
+		name = "Hospital Nightmare DD",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2253,7 +2409,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91065] = {
 		cannon = 0,
-		name = "病院梦魇-轻巡",
+		name = "Hospital Nightmare CL",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2413,7 +2569,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91066] = {
 		cannon = 0,
-		name = "病院梦魇-重巡",
+		name = "Hospital Nightmare CA",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2579,7 +2735,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91067] = {
 		cannon = 0,
-		name = "病院梦魇-战列",
+		name = "Hospital Nightmare BB",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2739,7 +2895,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91068] = {
 		cannon = 0,
-		name = "病院梦魇-航母",
+		name = "Hospital Nightmare CV",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2906,7 +3062,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91069] = {
 		cannon = 0,
-		name = "病院梦魇-爆炸",
+		name = "Hospital Nightmare Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3052,7 +3208,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91070] = {
 		cannon = 0,
-		name = "病院梦魇-潜艇",
+		name = "Hospital Nightmare SS",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3203,7 +3359,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91071] = {
 		cannon = 0,
-		name = "莫加多尔",
+		name = "Mogador",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3359,7 +3515,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91072] = {
 		cannon = 0,
-		name = "圣塔菲",
+		name = "Santa Fe",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3515,7 +3671,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91073] = {
 		cannon = 0,
-		name = "神速",
+		name = "Stremitelny",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3671,7 +3827,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91074] = {
 		cannon = 0,
-		name = "华盛顿",
+		name = "Washington",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3827,7 +3983,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91075] = {
 		cannon = 0,
-		name = "铃谷",
+		name = "Suzuya",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3983,7 +4139,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91076] = {
 		cannon = 0,
-		name = "赤城",
+		name = "Akagi",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4139,7 +4295,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91077] = {
 		cannon = 0,
-		name = "伏罗希洛夫",
+		name = "Voroshilov",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4295,7 +4451,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91078] = {
 		cannon = 0,
-		name = "米勒",
+		name = "Miller",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4335,162 +4491,6 @@ pg.enemy_data_statistics_35 = {
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
 		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					0.98,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.39,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.53,
-					1.18,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[91079] = {
-		cannon = 0,
-		name = "富兰克林",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 91079,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "fulankelin_2",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "fulankelin_2",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 1,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
 		world_enhancement = {
 			0,
 			0,

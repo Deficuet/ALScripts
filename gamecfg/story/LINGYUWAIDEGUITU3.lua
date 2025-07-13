@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>三　解离感</size>",
+					"Return From the Beyond\n\n<size=45>3 Dissociation</size>",
 					1
 				}
 			}
@@ -24,15 +24,15 @@ return {
 			bgm = "battle-eagleunion",
 			sequence = {
 				{
-					"{namecode:91:赤城}号量产舰",
+					"Aboard the Akagi Mass-Produced Ship",
 					1
 				},
 				{
-					"休息室",
+					"Break Room",
 					2
 				},
 				{
-					"返航途中",
+					"En route home",
 					3
 				}
 			},
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "与孟菲斯一同来到休息室后，休息室的桌子上果然已经摆上了几盘点心。",
+			say = "Entering the break room, I see there are already plates of Sakuran snacks lining the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "哇哦，真是精致的点心啊。",
+			say = "Goodness. These treats are pretty fancy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,21 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "孟菲斯将果盘放在一旁，对着桌上的点心仔细详观起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 102160,
-			say = "与欧罗巴流行的点心风格不同，和在东煌见到的也有差异。",
+			say = "Memphis places the bowl of fruits next to the plates and examines the snacks with great curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +90,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这就是重樱风格的点心么……指挥官，来尝尝么？",
+			say = "They're very different to what you'd see in Europa or the Empery...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 102160,
+			say = "I wonder if all Sakuran snacks are like this. Do you want one, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "孟菲斯选了一串点心递了过来。",
+			say = "She hands me a plate with colorful little doughy balls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……一串糯米团？",
+			say = "What are these? Dango?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯，这是一种在重樱被称为“团子”的点心，确实主要是由糯米制作的。",
+			say = "Yep! Sakuran dango. I believe they're made using flour ground from koshihikari rice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "口味的话……这一串是红色的，或许是红豆味？",
+			say = "As for the flavor... I think the red one is stuffed with red bean paste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "一串有三个，指挥官吃两个……我吃一个怎么样？",
+			say = "Actually, do you mind if I help myself to one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……也好，是有些饿了。",
+			say = "Not at all. There's plenty to go around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "舰内广播",
+			actorName = "Onboard Broadcast System",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——（警报音）",
+			say = "BWEEE! BWEEE!",
 			soundeffect = "event:/ui/jingbaodi",
 			typewriter = {
 				speed = 0.05,
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这是……全舰警报？",
+			say = "Is that the ship-wide alarm?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "啊，指挥官小心——",
+			say = "*gasp*! Commander, grab on to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "突如其来的晃动让我的身体陷入了失衡之中。",
+			say = "The ship rocks and shakes, and my grip on my body starts slipping away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不对，不光是身体上的失衡，还有意识上的……）",
+			say = "(Not just my body... My mind is slipping away, too...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,11 +264,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的声音",
+			actorName = "Strange Sound",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刷刷——",
+			say = "SHUFFLE...",
 			soundeffect = "event:/ui/xipai",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（？！这个声音是——）",
+			say = "(What? What was that noise?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "滴————",
+			say = "SHREEE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "巨大的耳鸣声中，意识勉强集中了起来。",
+			say = "An ear-splitting ring jolts me just enough to stay conscious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（我这是……在某个高速移动的机械中？）",
+			say = "(Where am I this time? Some sort of... machine moving at incredible speed?)",
 			bgm = "story-antix-past",
 			typewriter = {
 				speed = 0.05,
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "视野之中，只能看到一片幽幽蓝光。",
+			say = "The only thing that I can see is a faint, blue light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（完全无法移动身体……所有关节都被束缚住了么……？）",
+			say = "(I can't move... My muscles won't lift an inch...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（可是又没有感受到压迫力，到底是怎么回事……）",
+			say = "(And yet, it doesn't feel like I'm in restraints...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,95 +397,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "远方的声音",
+			actorName = "Distant Voice",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没想到，这么快就追过来了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（……这个声音，似乎有些耳熟……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "另一个声音",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "计划的本质被察觉了？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "另一个声音",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "还是说，它们的封锁包围比我们预测中更彻底？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "远方的声音",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "继续释放诱饵编队，引导它们分散追兵，前往错误的坐标。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "远方的声音",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "只要再离开这个世纪，我们就安全了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "另一个声音",
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "是。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			say = "远方的声音消失了。",
+			say = "...I was not expecting them to catch up so quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +414,78 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（有两个声音，一个有些耳熟，另一个则完全没有印象。）",
+			say = "(Whose voice is that? It sounds familiar...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Second Voice",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Have they figured out the true purpose of our plan?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Second Voice",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Or is their blockade simply more solid than we thought?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Distant Voice",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Keep releasing decoys. Disperse the pursuers and lead them to different coordinates.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Distant Voice",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "We will be safe as long as we leave this century.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Second Voice",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Got it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			say = "Then, the voices fall silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +498,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……不行，音色失真太多，辨认不出来。）",
+			say = "(Two distinct voices... One of them I think I recognize, but the other was completely foreign.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,29 +511,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……不能被继续困在这里了，得想个办法脱困才行。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			say = "虽然所有关节都因为某种未知的束缚无法移动，不过眼球显然不在此列。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			say = "集中精神，利用唯一可以转动的眼球尽可能观察周边环境时，我突然发现了一件怪异的事。",
+			say = "(It was hard to hear them through all the noise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +524,29 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（余光之中……看不到鼻子？）",
+			say = "(Never mind that. Focus on getting back to reality.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			say = "My arms and legs don't seem to obey me at all... but at least I can still look around freely.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			say = "I concentrate as best as I can and survey my surroundings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +559,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……这怎么可能？）",
+			say = "(Wait a sec... Where has my nose gone?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +572,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（就算全身关节都被束缚住了，可是……怎么会看不到鼻子。）",
+			say = "(You don't usually notice your own nose, but being unable to see it at all is another thing.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +585,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道，无法移动不是因为关节被束缚而是……）",
+			say = "(Unless... No... Surely that can't be right.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(What if the reason I can't move my body is because... there is no body to move...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "一个恐怖又有些荒唐的念头出现在脑海中。",
+			say = "A terrifying thought crosses my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			shakeTime = 3,
-			say = "仿佛是被这个念头所惊吓，幽蓝色的空间开始抖动起来。",
+			say = "As if in response to my anxiety, the space around me trembles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			shakeTime = 3,
-			say = "意识在这愈发剧烈的抖动中逐渐消散——",
+			say = "The trembling intensifies and intensifies, and my mind feels on the brink of collapse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "抖动突兀的停止了。",
+			say = "All of a sudden, it slows down, growing weaker until stopping completely.",
 			bgm = "beverly_short_inst",
 			typewriter = {
 				speed = 0.05,
@@ -673,7 +673,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "恍惚间，仿佛看到了一片转瞬即逝的蓝色花海。",
+			say = "Mind still hazy from the shock, I see a sea of blue flowers and a woman standing in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "还有一个与花海一同离去的身影。",
+			say = "Petals take off into the cerulean sky and a head of silver hair flutters in the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "落花之中，银发飞扬。",
+			say = "A flash of white light envelops it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是……孟菲斯？",
+			say = "When it fades, Memphis META appears before me.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "欢迎回来，指挥官。",
+			say = "Welcome back, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……孟菲斯？",
+			say = "Memphis...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "是我，但——不是你想的那个我。",
+			say = "That's me. Although, I'm not the Memphis you were just speaking to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "她的话，已经被我打发去排查舰体损伤了。",
+			say = "She went off to see if the ship sustained any damage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "虽然其实根本没有损伤就是了~",
+			say = "Pointless, really. A little tumble like that couldn't possibly damage it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哈哈……怎么不光是{namecode:91:赤城}，连你也欺负她。",
+			say = "Well, you can't blame her for wanting to make sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "因为好玩嘛。",
+			say = "Whatever soothes her mind, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "你现在感觉如何，有没有什么难受的地方？",
+			say = "Anyway, how are you feeling? You don't feel ill, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……目前感觉一切正常。",
+			say = "I'm fine, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对了，你怎么来了？",
+			say = "Might I ask why you're here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "当然是来帮忙咯。",
+			say = "I'm here to help you, if that wasn't obvious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,7 +887,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "欸~应该说是，好不容易，我终于能来帮忙了。",
+			say = "Oh, sorry. Let me rephrase, I'm glad to finally get to help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "都怪海伦娜的偏心安排，要不是你们临时绕路，这次根本就没有我出场的机会，更别提来这里帮你了。",
+			say = "You can blame Helena for this. If it wasn't for her and her plan, you wouldn't have had to take a detour, and I wouldn't have had to show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……海伦娜的偏心安排？",
+			say = "\"Her and her plan\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "啊——没什么，口误、口误。",
+			say = "Uh... Nothing important. Forget I said it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧……对了，刚刚的警报和晃动是怎么回事？",
+			say = "If you say so. Do you know what that rocking and the alarm were about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还有我刚才……应该是昏迷了吧？这又是怎么回事？",
+			say = "Also, I got really close to passing out there again... What's happening to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "出现警报是因为在奈落之中出现了涌动现象，导致了奈落烟尘的大幅激荡。",
+			say = "One thing at a time. Firstly, the shaking happened due to a surge within Naraka, which shifted around a lot of debris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……“涌动现象”？",
+			say = "A surge? Care to elaborate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "嗯，一种会在奈落之中随机发生的危险现象。",
+			say = "It's a phenomenon that occurs sometimes within Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "一旦被激荡的涌动的烟尘所裹挟进奈落深处的未知地带，或许就要永远迷失在里面了哦。",
+			say = "When a surge happens, debris starts churning around like a current that drags anything caught within into the depths of Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,7 +1022,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "至于昏迷现象，应该也是由于突如其来的涌动引起的。",
+			say = "I suspect that's what caused your blackout as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1036,7 +1036,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "不过放心，目前我们已经脱离危险区了~",
+			say = "But, don't worry. You're not in danger anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1049,7 +1049,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "原来如此，奈落之中确实危险重重……",
+			say = "Being inside a Singularity is as dangerous as you'd expect, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1062,7 +1062,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这次我昏迷了多久？",
+			say = "By the way, how long did it take me to wake up after passing out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "七分多一点，不到八分钟。",
+			say = "Somewhere between seven and eight minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1088,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（上次是发呆，这次是昏迷，而且时间变长了……）",
+			say = "(They said I was just \"blanking out\" the first time, and this time I completely lost consciousness... I was out for longer, too.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,7 +1102,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 900390,
-			say = "看你是一脸疲惫的样子，还是再休息一下吧！",
+			say = "You look ready to keel over. Shouldn't you get some rest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1113,7 +1113,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_593",
 			hidePaintObj = true,
-			say = "与此同时，某个特殊空间中。",
+			say = "At the same time, in a special space...",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -1144,7 +1144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "第二次了，你对于这段通道的控制力正在减弱？",
+			say = "That's two times now. Is your control over this passage weakening?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1158,7 +1158,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "我要调动更多「塔」的力量去稳定通道，导航就全部交给你了。",
+			say = "I'll reroute resources from the Tower to stabilize it. You do the navigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1172,7 +1172,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "还有这些权限也暂时交给你，善用。",
+			say = "Take these admin privileges. Use them well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,20 +1183,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_593",
 			hidePaintObj = true,
-			say = "蓝色的光芒星星点点落入了观察者的眼中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900232,
-			side = 2,
-			bgName = "star_level_bg_593",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这就是……「塔」的权限？！",
+			say = "Observer's eyes twinkle like the stars in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不是验证环节完全不同，我还以为连接上自然进化演算系统了呢！",
+			say = "Hold on... Is this access to the Tower?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,7 +1209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早就听说了它的能力不简单，没想到它居然能够如此厉害且……全面。",
+			say = "I would've thought this was connected to the Natural Calculation System if the verification process wasn't completely different!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1235,7 +1222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "凭借「塔」的力量……就算构建出一个全新的塞壬网络……也是没问题的吧？",
+			say = "I've heard the stories about you, but wow, you're something else. Your talent is truly comprehensive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,7 +1235,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……「塔」到底是什么东西？",
+			say = "You could even construct a new network using the Tower's powers.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900232,
+			side = 2,
+			bgName = "star_level_bg_593",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I must ask, though... What is the Tower really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,7 +1262,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "话太多了，先顾好眼前的事。",
+			say = "Less talk, more focus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1275,7 +1275,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~我现在难得充满了干劲，放心吧~！",
+			say = "Heehee. Naturally! I feel strangely motivated for once, so rest assured, I'll do my job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,27 +10,27 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋",
+					"Pacific Ocean",
 					1
 				},
 				{
-					"前往「奈落」的航线上",
+					"En Route to Naraka",
 					2
 				},
 				{
-					"指挥舰内",
+					"Commander's Vessel",
 					3
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-eagleunion",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			},
 			options = {
 				{
-					content = "开启通讯器",
+					content = "(Answer)",
 					flag = 1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "没想到真的接通了……",
+			say = "Oh! It finally got through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "指挥官同志……？能听到么？！",
+			say = "Comrade Commander! Do you copy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯很清晰。灵敏，你现在应该是在极地王冠附近吧？",
+			say = "Loud and clear, Ms. Genius Mechanic. You're near the Winter's Crown, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "没错！在王冠出现异常状况后，我们一直在监测它的情况。",
+			say = "Correct! I've been monitoring the Crown since those bizarre phenomena happened to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "可是之前的通讯干扰一直很严重，我们的监测结果根本发不出去！",
+			say = "I wanted to contact you sooner, but there's been intense jamming in the area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不过就在刚才，我发现干扰突然全部消失了！所以就想着先联系一下指挥官同志……嘿嘿，果然接通了！",
+			say = "Anyway, the jamming just let up, so I contacted you immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，不用担心，之后不会再有干扰出现了，通讯会持续性畅通无阻的。",
+			say = "Jamming? If the Sirens were behind it, then there's nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "噢~？听你这么说，难道是指挥官同志用了什么奇妙的方法把问题解决了？",
+			say = "Why do you say that? Have you developed a means of rendering their jamming wholly useless?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不对不对……不是闲聊的时候。指挥官同志，我有一个重要的消息要告诉你！",
+			say = "Actually, forget about that for now – there's a more pressing matter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "清除者在不久之前突然摧毁了王冠？",
+			say = "Did Omitter destroy the Winter's Crown?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "没错，而且不光如此——",
+			say = "Why, yes, in fact. And–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "清除者的主机在不久之后也发生了自爆，彻底毁灭了？",
+			say = "And her mainframe suddenly appeared out of nowhere and blew up by itself, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "没、没错……指挥官同志，你怎么什么都知道……",
+			say = "Yes! How did you know that? You can't just have guessed that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "……该不会你一直在哪里偷看我们吧！",
+			say = "You're spying on us, aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "……怎么可能，我只是有其他的消息源罢了。",
+			say = "No. Well... Let's just say one of my sources told me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "原来如此！指挥官同志真厉害！",
+			say = "Ah, a source! Of course! You're well-connected, after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（真正厉害的是海伦娜·META就是了……）",
+			say = "(I'll explain everything later, I promise...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳、不用担心极地的问题，清除者已经不会构成威胁了。",
+			say = "As I was going to say – you don't need to worry about Omitter, or any Siren in the Arctic, for that matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你去联络苏维埃罗西亚，让她准备带领舰队前往帕克菲克洋，支援针对奇异点奈落的战斗。",
+			say = "More urgently, I need you to call Rossiya and tell her to bring her fleet to assist with the Naraka Singularity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "……奇异点奈落？",
+			say = "What's a Naraka Singularity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "详细信息和具体作战任务稍后送达。",
+			say = "There's no time to explain! I'll send you a mission brief later!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "明白！",
+			say = "Roger, roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第二座自毁的主机塔……没想到观察者做得这么绝。",
+			say = "That's two mainframes down already. Observer sure works fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“我会确保你的存在”，海伦娜，你给观察者的交换条件难道是……",
+			say = "The promise of a new lease on life must have really sprung her into action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

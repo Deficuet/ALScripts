@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"来自鸢尾的天使\n\n<size=45>六　宴会</size>",
+					"Angel of the Iris\n\n<size=45>6 The Party</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 903020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "皇家盟友们，远道而来辛苦了。",
+			say = "Thank you for coming all this way to be with us, my esteemed guests of the Royal Navy.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "我为能在此设宴招待诸位贵宾深感荣幸和愉快。",
+			say = "We are honored to greet you on behalf of Cardinal Richelieu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "即便在此时此刻，我们的欧罗巴依然笼罩在一片阴云之下。",
+			say = "We are aware that it may be difficult to find room in your hearts for merriment after the grueling war against the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "天空愈是黑暗，光芒就愈是闪耀。",
+			say = "But today only, we urge you to set that aside and enjoy the hospitality the Iris Orthodoxy has to offer so that we may strengthen the bonds between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "我相信，在此黑暗之中，皇家与鸢尾的联盟定能闪耀出更加夺目的光芒！",
+			say = "Once again, let us toast to our continuing friendship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请大家尽情举杯，享受今夜吧——",
+			say = "May the Holy Iris guide us. Glory to Her Majesty the Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,11 +142,10 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/pengbei2",
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			dir = 1,
-			say = "讲话结束后，轻快的音乐响了起来。",
+			say = "After the toast, the participants at the venue started to chat cordially to the backdrop of light music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不但有古典音乐，还有皇家本岛的民谣呢。",
+			say = "Not a bad selection of music here. They've got some favourites from the Royal Islands in addition to the classical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我认为这是十分贴心的安排。",
+			say = "Yes, they definitely rolled out the red carpet for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "熟悉的音乐能让身在异国他乡的人产生亲切感，也能让紧张的精神得到放松。",
+			say = "The selection of music not only helps us relax, but also provides a sense of familiarity and being back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过菜品就基本以鸢尾菜系为主了呢。",
+			say = "As far as the food goes, though, the main emphasis is definitely Iris cuisine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +231,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "……这有什么不妥么？鸢尾菜制作精致口味细腻，堪称欧罗巴高端菜系的代表。",
+			say = "That's fine, isn't it? Its refined, delicate taste perfectly suits an occasion like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们的宴会也是以鸢尾菜为主吧？",
+			say = "Now that I think about it, we sometimes prefer to serve Iris cuisine even when hosting our own parties, no?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这些虽然是实情，不过这里毕竟是异国他乡，稍微有点让我作为前女仆长的竞争心上来了呢。",
+			say = "That's true. These dishes reflect the kind of peace that we strive towards – a perfect selection, if you ask me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "单论甜品，皇家是绝对不会输给鸢尾的。",
+			say = "Having said that, as a member of the Royal Maids, I do have immense pride in our desserts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "那就去后厨做你想做的事吧~我觉得鸢尾的盟友们不会介意宴会上多几道菜哦。",
+			say = "Right, maybe you can see if you can help out in the kitchen. Heehee, I'm sure nobody will object to having more delicious food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。进取，跟我一起去后厨。接下来轮到我们女仆队大显身手了哟。",
+			say = "I'll do just that. Enterprise, let's head over right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "了解，就让我们女仆队为这场宴会再增彩一分吧~",
+			say = "Understood. I'll be right there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "请问……您就是鸢尾教国的天使，霞飞小姐吧？",
+			say = "Oh my... If I'm not mistaken, you're the Iris Orthodoxy's... Miss Joffre?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -387,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "初次见面，我是乔治五世级的豪，今天刚刚抵达教国！",
+			say = "I am Howe of the King George V class. It's a pleasure to make your acquaintance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "如果不介意的话，请用点心~",
+			say = "Would you like to try some of our sweets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "您好，豪小姐。",
+			say = "Oh, thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "这个点心……好香甜的味道。",
+			say = "(This sweet fragrance... It must be a freshly-baked cookie.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……宴会的菜单上原本有这道菜么？",
+			say = "There aren't any cookies on today's menu, are there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "呵呵，女仆队的孩子们还不习惯被招待，看到这样的宴会已经坐不住了。",
+			say = "Correct. But our hardworking Royal Maids aren't used to sitting back and relaxing, so they went to help out in the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以我干脆让她们去后厨加了几道甜品，要是您能喜欢就好了。",
+			say = "It never hurts to have more delicious food to satisfy more people, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "原来如此……这就是皇家女仆队做的甜点么。",
+			say = "I see... So the Royal Maids made this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我不客气了——",
+			say = "Allow me to have a taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +541,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "霞飞小口的吃着盘子中的点心，却在余光中发现了豪笔直射来的目光。",
+			say = "Joffre savored the cookie she was given, then noticed Howe was staring at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "请问豪小姐……我脸上是粘了什么东西么？",
+			say = "Did I get something stuck on my face... Um, Miss Howe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "没有没有……抱歉，是我失礼了。",
+			say = "Ah, no... I apologise for my rudeness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "只是因为我还是第一次见到天使……不知不觉看入神了。",
+			say = "I was just a bit surprised by the wings of light that appeared from your back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +612,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到天使，真的存在啊~！",
+			say = "They make you look like an angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……您太夸张了，豪小姐。",
+			say = "You flatter me, Miss Howe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "虽然说是天使，其实也不是那么夸张的事。",
+			say = "Though, now that you mention the word \"angel\"... Some shipgirls in the Iris Orthodoxy are indeed given that name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "天使只是鸢尾教国诸多部门中的一个职能分类，教国中的天使也绝非我一人。",
+			say = "Even though it's more a description of functionality, it is still an extraordinary honor for me to hold one of the Iris Orthodoxy's sacraments...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +684,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "即便如此……您也真美啊，宛如真正的天使一样…………",
+			say = "You even have the humility to boot. Maybe you are a bona fide angel~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "多谢夸奖……",
+			say = "Y-you're going to make me blush...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -716,7 +715,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "霞飞背后的翅膀微微抖动了几下，像是在表达愉悦的心情一样。",
+			say = "The wings on her back fluttered slightly, as if in reaction to Joffre's emotions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +732,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……！您的翅膀，我可以摸摸看么？",
+			say = "*gasp*...! Um, may I... please touch your wings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "……通常来说是不可以的。",
+			say = "It's not strictly forbidden, but allowing someone to touch the sacraments is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +767,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过你的甜点很好吃……所以为了感谢你的款待，允许你稍微摸一下好了……",
+			say = "Never mind, I'll allow it. Consider it a fair trade for that delicious cookie you gave me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +785,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "多谢！那我就不客气了~",
+			say = "Thank you very much! Now, don't mind if I do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,42 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……这个羽翼的手感。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 205090,
-			say = "对了，我其实会烤饼干哦，同伴们尝了都赞不绝口的那种~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205090,
-			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "今天刚刚到这里还没来得及准备，不过明天的话，能否请您到我那里做客呢？",
+			say = "Oh? My, oh my... They seem illusory but still have a nice, feathery feel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +820,24 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "我也好亲手烤些饼干给你吃！",
+			say = "Ahh, thanks, that was amazing. Anyway, I'm quite good at baking cookies as well. My friends have no shortage of good things to say about them~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205090,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I just arrived today so I'm still getting settled in, but I can try to have some for you tomorrow if you'd like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,7 +855,25 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "当然，前提是霞飞小姐明天有空的话！",
+			say = "I'm sure you'd like to try some of my fluffy, freshly-made cookies, right? Hehe~♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_115",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 205090,
+			say = "...Oh! I hope I'm not bothering you with all my rambling!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +891,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 907010,
-			say = "明天的话……应该没什么事。",
+			say = "Um, sure, if you aren't busy tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +909,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205090,
-			say = "太好了，那我就在公馆静候您的到来了~",
+			say = "Alright then! I'll be waiting tomorrow at the mansion we're staying at.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +923,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "不远处的另一边——",
+			say = "Meanwhile, Algérie was watching the two of them chatting away.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -958,7 +957,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来就该到霞飞的发言环节了……",
+			say = "There's not much time left before Joffre has to give her speech...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,7 +975,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 903020,
-			say = "不过，去打断这样的交流也太不合时宜了……",
+			say = "But, it's rare for that girl to get opportunities like this, especially considering her line of \"work.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +993,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "罢了……还是让后厨继续上菜，让这场宴会按照自己的意志进行下去吧——",
+			say = "I suppose I should also enjoy the party. Maybe I'll take a look at what kinds of sweets the Royal Maids are making.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

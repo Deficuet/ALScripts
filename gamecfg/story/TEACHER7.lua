@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 {namecode:408}老师\n\n<size=45>七 教教我吧，{namecode:408}老师！</size>",
+					"Class Z VII\n\n<size=45>Teach Me, Miss Z23! </size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说{namecode:408}在这里……",
+			say = "I heard Zed was here...",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特别辅导什么的，好像很好玩的样子～",
+			say = "What's \"special tutoring?\" Sounds like something that would be fun with the Commander~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}…也想当一回{namecode:408}的学生",
+			say = "Ayanami... also wants to be Z23's student...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你、你们是来逗我玩的吧！",
+			say = "Y-you've come to tease me, haven't you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,10 +90,10 @@ return {
 			actorShadow = true,
 			bgName = "bg_story_school",
 			side = 0,
-			actorName = "拉菲&标枪&{namecode:6}",
+			actorName = "Laffey&Javelin&{namecode:6}",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "「「「教教我吧，{namecode:408}老师！」」」",
+			say = "\"Teach me, Miss Z23!!\"",
 			subActors = {
 				{
 					actor = 201210,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好吧，那我就勉为其难地——",
+			say = "All right, all right. There's no point being shy now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是重点！（敲黑板）不乖乖记笔记的话，{namecode:408}老师就要惩罚你了哦！",
+			say = "This is important! (knocks on the blackboard) If you don't take notes carefully, Miss Z23 is going to punish you!",
 			flashout = {
 				black = true,
 				dur = 1,

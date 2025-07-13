@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "咚咚……咚咚……这是……心跳的声音！",
+			say = "Ba-dump... Ba-dump... That's the sound of my heart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

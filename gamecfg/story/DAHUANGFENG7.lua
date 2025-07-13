@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>七　所以说，我喜欢你！</size>",
+					"Duelling Sunshine!\n\n<size=45>7 I Love You!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "大黄蜂和{namecode:96}的演习结束后——",
+			say = "The day after Hornet and Zuikaku's bout...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！我们去约会吧！",
+			say = "Commander! You're free, right? Let's go on a date!",
 			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "？！",
+			say = "Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呃……好像有些太大声了，抱歉抱歉……",
+			say = "Oh, I was being a bit too loud, sorry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我从{namecode:98}那里搞到了两张西部片的电影票，我们一起去看电影吧！顺便再玩个一整天~",
+			say = "Don't you see that I've got two movie tickets in my hand? Let's get going! We weren't able to hang out yesterday, so we're going for double today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是……不管作为之前事情的封口费也好……报答也好，还是单纯的邀请之类的……总之没那么多理由，一起去玩吧！",
+			say = "You can take this as me blackmailing you to keep your mouth shut, or as a display of gratitude. Of course, you can just consider this hanging out as well... Regardless of the reason, let's get going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快点快点，电影要开始了！别忘了拿上3D眼镜！",
+			say = "Hurry, hurry! The movie's going to start! Oh, can't forget about the 3D glasses!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "还以为大黄蜂那种性格肯定会在剧情高潮的时候喊出声来……",
+			say = "I thought Hornet would get all worked up at the climax scene, but...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -229,7 +229,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "没想到她只是聚精会神地沉浸在电影的世界中。",
+			say = "She was fully absorbed in movie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_1100",
 			dir = 1,
-			say = "因为一直被她握着手，反倒是我这变得有点不好意思起来……",
+			say = "If anything, I was the one getting worked up, unable to ignore the feeling of her hand in mine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然西部片最经典的场景就是骑马和拔枪决斗了呢~",
+			say = "The best parts of Westerns are the riding scenes and the shootouts~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -294,7 +294,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎，指挥官~你该不会是握个手就脸红了吧？",
+			say = "Heehee~ Are you turning red just from holding hands?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走吧走吧，让我们去下一个地方——",
+			say = "Well then, let's head to the next place on our list~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			dir = 1,
-			say = "在接下来的时光里，就这样被大黄蜂拉着体验了整栋大楼的全部娱乐设施……",
+			say = "And just like that, Hornet dragged me along to all the other stores in the mall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼哇——过瘾了过瘾了，把一整年的份量都玩够了哎~特别是那个牛仔套环，真是超有趣~！",
+			say = "Whew... that was so fun! I feel like I had all the fun in the world~ The cowboy experience corner was especially good...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -396,7 +396,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？你已经撑不住了么，那我们休息一会吧！",
+			say = "Commander, are you tired? Let's take a break then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			dir = 1,
-			say = "与大黄蜂一同在长椅上坐了下来。",
+			say = "Taking my hand, Hornet and I sat down at a bench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照惯例，这种时候应该到那个什么……倾诉环节了吧？彼此说说心里话，让感情更进一步之类的？",
+			say = "Ehem, is this one of those... special confiding events where my affection points go up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我是已经没有什么好倾诉的啦……多亏了你、北安普顿还有企业姐，我现在感觉状态极好~",
+			say = "Hmm... Is there anything I haven't confided in you about... Northampton and Enty have taught me a lot, and thanks to yesterday's practice, my head's a lot clearer and I'm feeling a lot better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,40 +460,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你知道么，那个平时不爱说话的闷葫芦居然在观众席上为我大声加油了！虽然我当时离得太远完全没听到，哈哈哈……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_night",
-			actor = 107070,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "企业姐也是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107070,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“不要回避模仿姐姐这件事，只不过不要成为企业姐的模仿者，而是学会借助姐姐的力量……”",
+			say = "Speaking of which. Did you see Northampton cheering for me with a loud voice? I was really surprised, though I wasn't really able to make out what she was saying because of how far away she was, ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +477,40 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯，说的没错，不过我还想补充一句。…我啊，也有不想用姐姐们的力量，不去模仿姐姐战斗的时候哦",
+			say = "And, about my sister...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 107070,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "\"Copying your sister isn't bad, but don't just copy her. Use her power as a basis for your own skills and show off your own strength.\" ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_night",
+			actor = 107070,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "That was nicely said, but I wanted to add one thing. ...There are times when I don't want to rely on my sisters' powers, don't want to copy their tricks, and just want to fight with what I have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比如说…你看，我没有姐姐那么麻烦吧。你眼前的大黄蜂我啊，对喜欢的人是会直接说喜欢的",
+			say = "For example... Like, I'm not as much of a trouble to deal with as my sisters are. I speak the truth about what I like and what I don't like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以说这种“战斗”就是只属于我一个人的——指挥官，我喜欢你！",
+			say = "So, this is my fighting style. I'll say it loud and clear. Commander, I love you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			blackbg = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "————指挥官，你呢？",
+			say = "...Commander, how do you feel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

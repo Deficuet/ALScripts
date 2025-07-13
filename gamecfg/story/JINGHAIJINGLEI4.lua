@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>四　神木之风</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>4 Faded Blossoms</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "重樱离岛·御神木所在海域",
+			say = "Sakura Islands islet - Nagato's Shrine",
 			bgm = "nagato-map",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "何等残破的景象……在吾离开之后，这里就再无人进行修缮了啊。",
+			say = "What a pitiful sight... It seems no one has repaired the shrine during my absence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "御神木下，众人抬头仰望着。曾经枝繁叶茂的巨大神木，如今已变成了一棵枯死的空壳。",
+			say = "The Sacred Sakura, once a symbol of worship for the Sakura Empire's encased shrine maiden, had been reduced to a withered, hollow husk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "地面上堆积着枯叶，水面被不知名的藻类所覆盖，木质房屋与鸟居也出现了大量垮塌。",
+			say = "It was now an ink-stained steel sakura – a monolith that loomed silently over the land.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "曾经的信仰汇聚之地，重樱的精神寄托之地，如今竟如此破败了吗……",
+			say = "It is here that I sealed myself away, heart heavy from the guilt of having embroiled my friends in war.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "吾终究没能阻止御神木的枯萎……",
+			say = "I awoke once more thanks to the efforts of Mutsu, Zuikaku, Mikasa, and many more. But I was unable to save the \"Sakura Empire.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "………………",
+			say = "It is as Mikasa said. I am still lacking in wisdom and experience.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾还记得曾经在这里经历的一切……虽说不怎么美好。",
+			say = "Both as the guardian of the Sakura Empire's people, and as the flagship of the Combined Fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，{namecode:74}大人，我应该早下决心带您离开这里的。",
+			say = "Forgive me, Lady Nagato. So many tragedies could've been avoided had I taken you away from this place...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说是遭到了欺骗，但留在这里终究是吾自己的决定，你也只是听从吾的命令罢了……",
+			say = "Do not blame yourself. While it is true I was manipulated, the decision to encase myself in this tree was ultimately mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "好了，感慨到此为止，该办正事了。",
+			say = "Let us linger on the past no more and instead focus on the present.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此处被废弃也不妨视为一件好事，至少没人会来打扰我们。",
+			say = "Shoukaku. Only those who have faith in me stand here today. Everything I say henceforth shall be true, sincere, and from my heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74}大人，我对这里的情况其实一窍不通……而且档案调查的任务也没有完成……",
+			say = "I understand. If I may ask, why did you lead me here? Mikasa and Zuikaku entrusted me with an investigation I've yet to finish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次为什么要叫我一起来呢……？",
+			say = "Is it something to do with the Sacred Sakura? If so, what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于安排此事的理由。其一，吾离开本岛需要护卫。",
+			say = "I shall answer your questions. Firstly, I must have an entourage of capital ships whenever I leave the mainland.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "其二，如果不带着汝，也许汝会和{namecode:96}一样被派到本岛之外，那样的话事情就麻烦了。",
+			say = "Secondly, I chose you so that you wouldn't be sent elsewhere, like Zuikaku.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您不能把{namecode:96}调回来么……？",
+			say = "Like how she was sent as a representative to the Iron Blood, you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "很遗憾，吾亲自去问过了，{namecode:96}的调动命令确实是{namecode:84}下的，吾也没有办法。",
+			say = "Indeed. I thought the orders were a Naval HQ forgery, but I spoke with Musashi and confirmed she issued them. Likewise with the orders Shinano received.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过只要汝作为护卫一直跟在吾身边，就算是{namecode:84}也无法随便将汝调离。",
+			say = "By making you part of my escort, neither Musashi nor the Naval HQ can simply point and dispatch you somewhere else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "这段时间就安心与吾同行吧。",
+			say = "All that is to say, you will be accompanying me until further notice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。{namecode:74}大人，接下来我们是需要在这里寻找与神石相似的物品对吧？",
+			say = "Understood. What do you need me to do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是。此前的天宇启户祭上，{namecode:91}用了假的海若掉包了真的。",
+			say = "We will take part in Musashi's \"exercise,\" while deepening our investigation of the Watatsumi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "可是那个赝品，却骗过了吾的眼睛。",
+			say = "As you'll remember, \"Ember,\" who we now know as one of the Ashes, claimed that the Watatsumi we had at the Diadem of Light was a fake.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这说明，那个赝品至少外壳的成分与真正的海若相差无异。",
+			say = "I initially thought she was lying, but within a few days, we had definitive proof that the Watatsumi there indeed had been replaced with a replica.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "也就是说——神石并不是独一无二的。",
+			say = "In other words, none of us at the ritual site were able to determine the difference between the real Watatsumi and a replica until the Ashes made us aware of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "让汝等调查典籍也是这个原因。",
+			say = "Allegedly, the real Watatsumi was handed to Iron Blood, then later retrieved by Akagi. However, I suspect we once again will be unable to determine whether or not it is real.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海若，或者说我们手中那能够引发不可思议现象的海若的历史并没有吾等认知中的那般古老。",
+			say = "We have been conducting rituals using the Watatsumi for as long as we can remember, yet we somehow know nothing about its true nature or its origins.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "其的本质为何，从何处而来，在何时，被何人放置于天岩岛，与其相似的物品又有多少，都被用在了何处。",
+			say = "Who declared this stone an artifact of the Sakura Empire, and when?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些都是吾等急需调查清楚的内容。",
+			say = "Who began the tale that using it as a catalyst could birth shipgirls free from the constraints of fate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今日来此地也是如此。在吾的回忆中，曾经在御神木之中的吾也在此地感受到过相同的气息。",
+			say = "What is the Watatsumi? What is the Sanctuary? We must find the answers to all of these questions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:74}大人，请看这里……前方的鸟居似乎有被打扫过的痕迹。",
+			say = "...Lady Nagato, someone else seems to have tidied up the building ahead of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除了我们之外，近期还有别人来过这里。",
+			say = "It would seem that we're not the only ones who've been here recently.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "嗯…………这个感觉是。",
+			say = "Hrmh... Something isn't right...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "有趣。不知何人，出于何种目的在此处残破的神木上设置了一个微不可察的结界。",
+			say = "(It feels as if an imperceptible barrier has been woven around the Sacred Sakura... Is it to impede our investigation?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝等提高警惕，接下来吾要集中精力进行结界的破解工作。",
+			say = "Kawakaze, Shoukaku, be vigilant. I am going to search the husk of the tree.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结界之下隐藏的秘密，就让吾来一探究竟吧————",
+			say = "(Whatever this barrier hides, I shall expose it all.)",
 			painting = {
 				alpha = 0.3,
 				time = 1

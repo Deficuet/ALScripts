@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "holo-mio",
-			say = "三个小时后",
+			say = "Three hours later",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "…对不起，是咱太自信了。",
+			say = "... Sorry, everyone, I was wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "不但拓展了规模，新设置了大量机关和伏兵，甚至还制造了模仿原迷宫安全路线的陷阱路线…还是在海上…",
+			say = "I thought the labyrinth had only gotten bigger, but somebody's added new traps and ambush areas. What was originally the safe way through has become littered with traps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "已经是堪比孔明陷阱的海上大迷宫了啊。",
+			say = "And it's all made from the ocean... If only we could simply swim beneath it. Go down where it's wetter, down where it's better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			actor = 10500050,
 			dir = 1,
-			say = "改造这片迷宫的人肯定对原本的迷宫非常熟悉呢…",
+			say = "Whoever remodeled the labyrinth must be familiar with how it was originally like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…答案很明显了。",
+			say = "That leaves few candidates as to who it might be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "这次是澪么…从合理性角度来说，确实是最适合守卫迷宫的人选。",
+			say = "A clone of Mio, I suppose... Would make sense if she was the keeper of this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "会特意派人设置阻挡，反而说明我们走的是正确方向吧",
+			say = "But if someone went through all the trouble of changing the labyrinth, that might mean we're on the right track.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正因如此，敌人依然停留在迷宫中，伺机袭击我们的可能性很高",
+			say = "If the key to solving the mystery of the Mirror Sea really does lie in here, then the enemy must be ready to protect it fiercely. Stay on your guards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶，咱也要认真起来了！真品怎么可能输给赝品啊！",
+			say = "You got it. I'm pumped up and ready to take on this chump of a pawn!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -178,7 +178,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可是著名flag哦，澪…",
+			say = "Don't tempt fate with one-liners like that, Mio...",
 			effects = {
 				{
 					active = false,

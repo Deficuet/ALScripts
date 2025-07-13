@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "激烈的交战依然在进行中——",
+			say = "The battle rages on––",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家继续支援净化亲，火力不要停哦！",
+			say = "Keep laying down the fire support! Don't stop shooting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900318,
-			say = "没想到取得全部控制权之后居然还是没法立刻分出胜负……",
+			say = "Even with all the control devices, we still aren't able to take down that kaiju...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "更多的塞壬量产型舰队围过来了，看来对面也着急了。",
+			say = "The mass-produced Sirens are converging on this location as well... Looks like they're serious about this showdown as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我去解决吧，对付成群的塞壬量产型用我的舰装很合适。",
+			say = "I'll handle them. My rigging is perfect for dealing with enemies that try to swarm us with sheer numbers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，那我也一起去吧~其实从距离稍远一点的地方上看视野才更好哦。",
+			say = "Hehe. I'll come with you then. I want to take a better look at this splendid scenery from a distance~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800030,
-			say = "好像确实是这样！也带我去吧~我想拍点好看的照片下来！",
+			say = "I bet that'd make for a terrific photo op! Let me come with you too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800040,
-			say = "莲要是去的话我也要去~",
+			say = "If Hass is going, then count me in as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800010,
-			say = "我就……这边也很需要火力支援，我就不去了。",
+			say = "I'll pass. Someone's got to stay behind and keep up the fire support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……虽然由我来说可能会有点奇怪，不过我们现在是不是都太缺乏紧张感了……？",
+			say = "...Also am I going crazy, or does nobody here have any sense of urgency?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "没错~",
+			say = "What a killjoy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟现在最需要努力战斗的不是我们，而·是净化亲嘛~",
+			say = "I guess it's because Purity is doing most of the hard work, not us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,9 +238,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "我能听到啊————！都给我加把劲支援啊——————！",
+			say = "I heard that, you know!! Hurry up and give me more backup––!!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "是是是~总之先帮你解决掉周围的杂鱼嘛，我们去去就回哦~",
+			say = "Alright, you heard her. Let's go take out that Siren trash!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

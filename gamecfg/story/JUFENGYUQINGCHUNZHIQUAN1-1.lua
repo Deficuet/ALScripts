@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一场小小的争斗拉开了序幕。",
+			say = "And so, the curtains rise on a small conflict.",
 			bgm = "story-temepest-1",
 			typewriter = {
 				speed = 0.05,
@@ -21,7 +21,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "她们中的赢家，将独享宝藏，而输家，只能败兴而归。",
+			say = "The victor will seize the treasure, whilst the loser will walk away empty-handed.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "但相比辽阔的海洋，这样的事情，还是太小、太小了——",
+			say = "This conflict, compared to the immeasurable vastness of the ocean, is unbelievably tiny...",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,

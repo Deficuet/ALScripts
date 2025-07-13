@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>阴云之下</size>",
+					"Crimson Prelusion\n\n<size=45>2 Dream - Let the Past Be the Past</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "阴云之下，猎手与猎物正在海面上疾驰着。",
+			say = "Dark clouds. A song of black steel played across the sea while a relentless pursuit unfolded.",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -32,7 +32,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "皇家舰队H舰队所属——声望号战列巡洋舰，奉命拦截贵舰，请放弃无谓的抵抗。",
+			say = "I am Renown, battlecruiser of the Royal Navy's Force H! I am here because of your ambush on our ships! Cease your meaningless resistance at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "皇家已经发动了总动员，整个皇家舰队的战舰都在往此处赶来，你是没有机会逃脱的。",
+			say = "The Royal Family's most capable ships are heading this way en masse! I will not let you flee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "……转身而逃了么。",
+			say = "She's... not resisting as I figured she would.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 207020,
-			say = "果然和预期的一样，这家伙是不会束手就擒的。",
+			say = "No matter. She's not getting away on my watch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 207020,
-			say = "想要拦截这个怪物，必须得先减慢她的航速。",
+			say = "Let's do precisely what King George V said and slow her down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 207020,
-			say = "剑鱼818中队出击！目标，{namecode:435:俾斯麦}！",
+			say = "Swordfishes, launch! Capture Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啧……那个角度……是死角！",
+			say = "Torpedoes... from my blind spot...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回避……来不及了。",
+			say = "I won't... be able to avoid them in time...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
 			paintingNoise = true,
-			say = "这是最后的通牒了，{namecode:435:俾斯麦}。",
+			say = "This is the end, Bismarck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 900262,
 			nameColor = "#FF9B93",
 			paintingNoise = true,
-			say = "以女王的名义，请你立刻解除武装，与我们返回皇家，接受应有的审判——",
+			say = "By the decree of the Queen, you are to lay down your arms and come with us. You shall have a fair trial in our courts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我舰已失去行动能力，莱茵行动已经失败……到此为止了么。",
+			say = "I lost power to my engines, and the operation was a failure... It was over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,8 +302,8 @@ return {
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "{namecode:435:俾斯麦}女士，就算是这样的局面，也不打算使用“那个”吗？",
+			actorName = "Tester",
+			say = "Miss Bismarck... You almost lost your life, and yet you still refuse to use \"that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……这里不需要你们插手。",
+			say = "I don't need help from the likes of you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,8 +329,8 @@ return {
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "到了最后时刻也还在嘴硬啊。明明只需要一点点的决心，就可以把这些敌人送入海底——",
+			actorName = "Tester",
+			say = "Still acting tough even in this condition? You could have sent your enemies to the bottom of the sea so easily. All you needed was a little bit of... determination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不和谐的杂音。",
+			say = "Such terrible dissonance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "测试者，{namecode:435:俾斯麦}女士应该已经说的很清楚了，这里不需要你们插手。",
+			say = "Bismarck has already made her will clear, Siren. You are not part of this orchestra.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:435:俾斯麦}阁下，久等了，您没事吧？",
+			say = "I'm sorry I took so long, Bismarck. Are you alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "{namecode:441:腓特烈}和……你是……？",
+			say = "Friedrich... You – who are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:161:天城}。阁下不记得我了么？",
+			say = "I am Amagi. Do you remember me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "重樱的……{namecode:161:天城}。{namecode:91:赤城}的……姐姐？",
+			say = "You're Akagi's older sister, if I remember right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "你身后的那支黑色舰队是……？",
+			say = "What's that fleet over there? Why is it so black?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由我所带领的支援舰队哦，铁血的支援舰队也已经抵达，皇家舰队不敢再继续接近了。",
+			say = "That's my support fleet. Reinforcements from your side are here, too. The Royal Navy won't dare come any closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "你已经安全了哦，{namecode:435:俾斯麦}阁下。",
+			say = "You're safe now. You're going to be alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我已经……安全了？",
+			say = "I'm... safe...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "{namecode:435:俾斯麦}口中缓缓重复着这个词，似乎在细细品味它的味道。",
+			say = "Bismarck could hardly believe her ears. She paused to let the word sink in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,8 +541,8 @@ return {
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "意料之外的变量出现，推演结果相应更改。看来你多了一条路可选呢，你要怎么做？",
+			actorName = "Tester",
+			say = "With the arrival of those unforeseen variables, the predicted test results have changed. Seems you have the option to choose a new path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我要……",
+			say = "A new path...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "{namecode:435:俾斯麦}的视线划过测试者，划过{namecode:161:天城}，划过{namecode:440:腓特烈大帝}，最后停留在舰装之中散发着漆黑光芒的心智魔方上。",
+			say = "Bismarck gazed at Tester, then at Amagi, then at Friedrich, then finally at the Black Cube resting atop her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "呵呵……",
+			say = "Heheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435:俾斯麦}阁下……为何要发笑？",
+			say = "What's so funny?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "{namecode:441:腓特烈}，你亲自带人来救我，改变我在“围剿{namecode:435:俾斯麦}”事件中的最终命运——就是你的救援计划么？",
+			say = "Was this your plan? To change fate by bringing reinforcements to save me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你觉得呢？",
+			say = "Perhaps. What do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不是。",
+			say = "No. This is wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "因为这与我们的约定不同。",
+			say = "This is not what we agreed would happen here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你现在应该在司令部中，等待着我沉没的消息，然后以雷霆手段接管铁血——而不是出现在这里。",
+			say = "You're supposed to be back at the base. When news of my \"sinking\" reaches you, you'll initiate a purge of our higher command and lead Iron Blood in my stead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "所以——这不是现实，对么？",
+			say = "Which means that this isn't reality. Am I correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵——",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "{namecode:435:俾斯麦}阁下……您究竟在说什么？",
+			say = "What are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此处毫无疑问就是现实，而且是一个美好的现实。",
+			say = "Of course this is reality. Not only that, it's better than it once was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304050,
-			say = "就让现实如此发展下去不好么？",
+			say = "Shouldn't we let reality continue as it is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "人生路漫漫。回首过往，难免有尴尬、有遗憾、有血泪……更有错误。",
+			say = "Reality isn't all sunshine and butterflies. There will be regrets, goodbyes, and mistakes along the path that is life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "然而，过去是未来的基石。",
+			say = "There can be no future without the real past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一度发生过的事，绝对不能当成没发生过。",
+			say = "And you cannot undo what has been done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不管这件事是尴尬，是遗憾，是血泪，亦或是错误。",
+			say = "It doesn't matter how frustrating or saddening the past is, or how much you want to change it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "我们能做的，都只有接受它。接受过去，才能真正迈向未来。",
+			say = "We must accept reality for what it is. By accepting it, we can move on to the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "{namecode:435:俾斯麦}一边说着，一边让主炮开始了蓄能。",
+			say = "She began to charge up her main cannons as she used the terrifying power in her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "不祥的黑色光芒在炮口集中着，汇聚而成了一个微小的“点”。",
+			say = "The strange black light gathered in her barrel, eventually shrinking down to a single dot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435:俾斯麦}阁下快住手！……你这是要……做什么？",
+			say = "Please don't, Bismarck! What do you think you're trying to accomplish?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "做我应该做的事。",
+			say = "I'm doing what must be done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "就如同过去那般——测试者，我将用这股力量，再次粉碎你的舰队！",
+			say = "Just as I did in the past. Tester! I will use this power to turn your fleet to dust!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "而后——迎接我的终局！",
+			say = "I accept my fate – my end – for what it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			hidePaintObj = true,
-			say = "黑色的光芒自微小的“点”中倾泻而出。吞没了冷漠的测试者，吞没了不解的{namecode:161:天城}，吞没了微笑的{namecode:440:腓特烈大帝}，亦吞没了操纵之人。",
+			say = "Power burst forth from the tiny dot, engulfing not just Tester and Bismarck herself, but the puzzled Amagi and smiling Friedrich as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,11 +892,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "革律翁",
+			actorName = "Geryon",
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "▁▂▃▄▅▆▇███*猛烈的咆哮*██▌",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……看来，这里才是现实呢。",
+			say = "This... This is reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "你看……接受了过去，才有未来。",
+			say = "Do you see? Only by accepting the past can you move on to the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "——更美好的未来。",
+			say = "Toward a brighter, better future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

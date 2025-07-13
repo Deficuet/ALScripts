@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>四　表里音轨</size>",
+					"Personality, Presenter, Secretary\n\n<size=45>4.Commentary</size>",
 					1
 				}
 			}
@@ -19,11 +19,11 @@ return {
 			bgName = "bg_story_task_2",
 			portrait = 118020,
 			dir = 1,
-			actorName = "关岛",
+			actorName = "Guam",
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“欸？我抢到了？唔、答案、答案是……呜啊啊啊！时间怎么这么快就到了！“",
+			say = "\"Huh? I get to answer? Umm, the answer is... Aw, shoot! Time's up!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室中，熟悉的声音从屏幕里传来。",
+			say = "A familiar voice flows through the computer speakers in my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "演播室中的关岛随着游戏提示音响起，露出了夸张的笑容。",
+			say = "On the screen, I see Guam in her studio, smiling an exaggerated grin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "啊~指挥官这是在看我参加的节目吗？",
+			say = "Commander! You watching my show?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时这一段在录制现场也超有趣的！难得看到埃塞克斯笑得那么厉害啊~",
+			say = "Ah, this part! Yeah, it was hilarious to record. A very rare sight of Essex laughing her ass off, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "现实中的关岛，亦伴随着爽朗的笑声推门而入。",
+			say = "Guam, in the flesh, walks in through my door whilst laughing to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官感觉怎么样，还算喜欢么？",
+			say = "What do you think? Did you like it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,11 +129,11 @@ return {
 			},
 			options = {
 				{
-					content = "很有趣",
+					content = "It was pretty funny.",
 					flag = 1
 				},
 				{
-					content = "非常有节目效果",
+					content = "You put on a great show.",
 					flag = 2
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿~太好了，听到指挥官这么说我就放心了！",
+			say = "You mean it? Thanks! I'm relieved to hear you say that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "不过也不用特意趁我出门不在的时候偷偷看嘛，直接当着我的面看也可以哦。",
+			say = "Also, why were you watching it here all by yourself? You should've totally watched it with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "跟你一起看屏幕里的我多有趣啊，就像！！唔……就像表里音轨录制节目的感觉？",
+			say = "It's more fun that way! 'Cause then I can point at dumb stuff I said and laugh about it with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官能理解么？！",
+			say = "It's like a commentary track, you know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好像能……？不过你日程安排的这么满真的没问题么？",
+			say = "Won't that take even more time out of your already busy schedule?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果一直把怀表上满发条的话，反而会出现突然崩坏的情况哦。",
+			say = "To borrow an expression, wind up a pocket watch too much and the spring will break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "没问题啦，而且我可是美少女舰船，不是什么发条怀表哦♪",
+			say = "Oh no! Without the spring, we'd only have 3 seasons a year!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这时候使出装傻技能？",
+			say = "...Are we playing the straight man and the fool now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿，不是时机恰到好处嘛~从日常生活中获取灵感也是创作节目所需的必备技能哦！",
+			say = "Heh. I just felt like it'd be funny to say. I'm always looking for new material for my show.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,11 +281,11 @@ return {
 			},
 			options = {
 				{
-					content = "时机是很好，但是——",
+					content = "It is funny, but as I was saying...",
 					flag = 1
 				},
 				{
-					content = "不要转移话题！",
+					content = "Let's get back on topic.",
 					flag = 2
 				}
 			}
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "唔、这么细想下来，最近的行程确实有一点紧呢……",
+			say = "True, true. Come to think of it, my schedule HAS been pretty tight lately.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也不知道你是怎么忙得过来的，如果觉得累的话申请休假也是可以的。",
+			say = "I have no idea how you manage it. You can apply for a vacation if you feel overwhelmed, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈~我也不知道欸？可能……就是想做就做了？",
+			say = "Hahah, yeah... How DO I do it? I guess my passion gets me through the worst of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无论是新闻主持、参加电视节目、成为艺人还是当指挥官的秘书舰——",
+			say = "Being a presenter, a personality, and a secretary all at once isn't easy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些都是关岛感兴趣的事，所以就直接去做啦~",
+			say = "But I do it because I like it. I don't want to quit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "至于会不会累……呼呼~关岛可是有着无穷活力的！",
+			say = "\"What about the physical toll,\" you ask? I'm always full of energy, so I wouldn't worry about it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "下午的工作，也尽管放马过来吧~！",
+			say = "Now, where's that afternoon work? Lemme at 'em, coach!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“嗡————嗡————”",
+			say = "Vrrroom! I'm comin' in hot!",
 			soundeffect = "event:/battle/plane",
 			painting = {
 				alpha = 0.3,
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "关岛伸开双臂，模仿着轰炸机的样子冲向了文件堆，宣告了午后工作的正式开始。",
+			say = "She extends her arms and imitates a bomber plane as she charges at the pile of paperwork, announcing the start of her afternoon shift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不愧是艺人，打断话题的技巧真是层出不穷。",
+			say = "Now we're entering the domain of theatrics...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 118020,
-			say = "嘿嘿……多谢指挥官的关心啦，我会注意的！",
+			say = "Heehee... I do appreciate your concern, Commander, and I hear you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "适度削减日程表的密度，注意休息，同时文书处理工作也不落下，这样就可以了吧~？",
+			say = "I'll try to ease up my schedule, take breaks, and still do my job as a secretary. Is that good enough?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说着，少女便蹦蹦跳跳地回到了座位用文件把自己的头盖了起来。",
+			say = "She takes a seat and immediately buries her head in documents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "——感觉今天下午的工作，也要在热热闹闹的气氛中度过了。",
+			say = "I get the feeling this is going to be a lively afternoon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

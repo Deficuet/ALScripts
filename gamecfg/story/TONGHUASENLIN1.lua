@@ -33,7 +33,7 @@ return {
 			},
 			sequence = {
 				{
-					"童话森林奇遇记\n\n<size=45>一　童话森林</size>",
+					"Adventures in the Forest of Fables\n\n<size=45>1 Into the Forest</size>",
 					1
 				}
 			}
@@ -45,7 +45,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，早上好喵！",
+			say = "Good mornyan, Commander!",
 			bgm = "bar-soft",
 			flashout = {
 				black = true,
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "——在休息日的指挥室里遇到了{namecode:98}。",
+			say = "Akashi came into my office on my day off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:98}怎么会在这里？",
+					content = "\"Why are you here?\"",
 					flag = 1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}还想问，指挥官为什么会在这里喵？",
+			say = "That's my question, nya. Why are you spending your day off in the office, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难得的休息日，指挥官就不要在这里自主加班，去做些更有趣的事情吧喵~",
+			say = "There are so many better things you could be doing, nya. So many more fun things, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,23 +129,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "有种不好的预感——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "是这样的喵，指挥官还记得上次的密室逃脱设施么？",
+			say = "Already I could tell where this was going...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一次，{namecode:98}也和其他同伴一起设计了新的场景！想让指挥官来体验一下喵！",
+			say = "Remember the escape room we made just a while ago, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了表示诚意，这次体验依然是完全免费的喵！",
+			say = "Me and the others have designed a new esca– I mean, a new attraction for the port, nya! And we want you to test it, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，是不是已经心动了喵？",
+			say = "It'll be free of charge just like last time since you'd be doing us a favor, nya.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hehehe... You're just aching to try it now, aren't you, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			},
 			options = {
 				{
-					content = "听起来还不错。",
+					content = "\"You've made me interested.\"",
 					flag = 1
 				},
 				{
-					content = "下次一定！",
+					content = "\"Another time, maybe.\"",
 					flag = 2
 				}
 			}
@@ -220,7 +220,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "喵呼呼，我就知道指挥官会有兴趣的！",
+			say = "Great, nya! I knew we could count on you, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "指挥官太见外了喵！俗话说得好，择日不如撞日！同伴们已经各就各位了，请务必今日就去体验一下喵~",
+			say = "I'm afraid it's now or never, nya. Everyone's already prepped and waiting for you over by the set, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经拜托了一位女仆队的孩子等在门口，她会为你解答困惑的喵~",
+			say = "I've asked a Royal Maid to brief you this time. If you have any questions for her then don't be afraid to ask, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么就请尽快出发吧喵~",
+			say = "Now let's get going, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "来到{namecode:98}指定的位置，果然女仆队的进取已经等在这里了。",
+			say = "After arriving at the place Akashi pointed me to, I was greeted by Enterprise of the Royal Maids.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，本次冒险的主题为“童话森林”。",
+			say = "Without further ado, allow me to explain this attraction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 202320,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "概括来说，就是一个人类误闯与世隔绝的森林，经历了一番奇妙冒险的故事。",
+			say = "This is the Forest of Fables, where our tale is set. You are a lone person who has gotten lost in these woods. That's it – that's the premise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "入口就在我身后，待您准备好之后，顺着这条路进去就好了。",
+			say = "The staff are all ready to begin, so please just make your way past the entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "进取所说的“入口”处并没有明显的门，而是一条蜿蜒的小道一直延伸至树林深处。",
+			say = "I couldn't see anything resembling an \"entrance,\" as Enterprise called it, only a straight path that continued into the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些花草树木是女仆队花了很长时间精心布置的，上面没有任何机关，还请爱护好它们哦。",
+			say = "Is something the matter? The Royal Maids set up all the greenery here, so rest assured, there are no booby traps or anything of the sort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
-			say = "这次没有通讯器么？",
+			say = "\"Wait, am I not getting a communicator this time around?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 202320,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，这次会有NPC与您一起合作过关，遇到困难的时候她们会帮助您。",
+			say = "Correct. Staff members will join your party during this adventure, and they will essentially try to guide you down the right path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "star_level_bg_158",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "剩下的内容就交给主人自己体验了，祝您能有个愉快的旅程~",
+			say = "I'm sure you don't want to listen to me talking all day long, so please head on inside and have fun, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_158",
 			dir = 1,
 			blackBg = true,
-			say = "不知道这次又有什么场景等在前面，总之进去看一下吧——",
+			say = "It wasn't really clear what I should expect from this attraction, but since I didn't have much other choice, I went into the forest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

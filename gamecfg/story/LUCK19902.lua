@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈！不愧是我的指挥官！一直以来多亏了你，我才能发挥出比自己想象更强大的力量！",
+			say = "Hahaha! I knew you could do it, Commander! Thanks to you, I'm stronger than I ever imagined I could be!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 199020,
 			dir = 1,
-			say = "就让我们干杯可乐庆祝下这一时的成果吧～",
+			say = "Let's split a cola to commemorate this moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，这可不是结束哦？接下来还有更多的困难，更多的目标，在前方等待着我们。",
+			say = "But it doesn't end here. We've got so much more to do, so much more to overcome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 199020,
 			dir = 1,
-			say = "我会一如既往地用巨炮为你粉碎一切敌人，所以，再和我一起，努力一下吧？",
+			say = "I'll keep using my huge guns to blow your enemies to pieces. Let's do it, you and me together, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

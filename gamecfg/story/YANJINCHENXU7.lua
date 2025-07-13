@@ -15,7 +15,7 @@ return {
 			bgm = "theme-vichy-church",
 			actor = 201360,
 			stopbgm = true,
-			say = "呵……呵…………",
+			say = "*pant*... *pant*...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些没脑子的棋子一齐压上来的时候，还挺有压迫感……",
+			say = "Is there no end to these damn Pawns?! I'm working up a sweat here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过区区杂鱼，还为难不了英雄呢！",
+			say = "Not that a bunch of mooks could ever dream of beating me, but still!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但敌人也一点没有减少的痕迹，要是这么僵持下去，就算砍到两臂酸痛也解决不了问题。",
+			say = "While I wouldn't quite say we're losing, our weapons will wear out sooner or later if we continue fighting in these close quarters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你说得对，在这种狭窄的空间中与敌人缠斗对我们不利。",
+			say = "Mhm. Moreover, I need more room to launch my planes. Even that armoury would suffice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "必须转移到能尽情释放火力的地方……",
+			say = "Do you think we could lead the pawns in that direction?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，我记着这里的地图，如果将火力集中到墙壁的话，应该能从建筑中开出一条通往海面的路。",
+			say = "Certainly. If need be, we could also break through the wall there to retreat into the water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过首先要离开这里到海平面以上才行，否则我们就要被水淹没了。",
+			say = "Our riggings are designed for naval combat, not ground combat, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果变成那样还真让人笑不出来。",
+			say = "Good point. Every enemy we take out is one fewer for Argus and Royal Oak to deal with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "英雄，向另一个方向冲！",
+			say = "Although, we wouldn't want to draw more enemy fire than we already do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们先原路返回，然后炸墙开路，去开阔地带解决这些敌人！",
+			say = "At any rate, let's go! To the hall we came from!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "圣堂Blanc·4号军械库",
+			say = "Basilica Blanc - Indoors",
 			effects = {
 				{
 					active = false,
@@ -259,7 +259,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "杂鱼~杂鱼~全都消失吧~☆",
+			say = "Move it, losers! Hero coming through!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -326,7 +326,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "路通了，没发现英雄这么有爆破天赋啊。",
+			say = "Nice work. You have a knack for punching holes through walls and hordes alike.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "英雄的优点还有很多哦~☆",
+			say = "Well, yeah! It comes with the title!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "斯库拉你看，我们这么一闹，皇家橡树大人那里的压力也会减轻不少吧~",
+			say = "Of course. Does anyone have a backup plan if the Pawns don't pursue us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该会这样。但是这里还请先顾好您自己，怨仇女士。",
+			say = "Isn't that for you to consider, Lady Implacable? You are our leader, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 202330,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "更多的敌人正在包围过来，请您继续前进，由我来殿后。",
+			say = "Although, we may not need one as they seem to be following us. Keep advancing and I shall cover your back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是是是~",
+			say = "Got it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
-			say = "圣堂Blanc·外围",
+			say = "Basilica Blanc - Coastline",
 			bgmDelay = 1,
 			bgm = "theme-richelieu",
 			typewriter = {
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -518,7 +518,7 @@ return {
 			actor = 201360,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们到开阔地了哦~☆",
+			say = "Bosh! There's our path to the ocean~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，在这里总算能尽情施展火力了。",
+			say = "Thanks, Hero. Now we can fight unrestrained.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝不容忍，绝不留情，让这些没脑子的棋子见识一下我们的厉害！",
+			say = "No pity, no mercy. Let us show these mindless Pawns our true strength!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_firedust_2",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -619,7 +619,7 @@ return {
 			actor = 805010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“绝不容忍，绝不留情”，说得好啊。",
+			say = "Well said. Waste neither pity nor mercy on them, for they will show you none.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留大主教？！",
+			say = "Cardinal?! Is that you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "好久不见啊，怨仇女士。",
+			say = "Yes. It's a pleasure to see you again, Implacable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你在这里做什么？！",
+			say = "You're here sooner than Her Majesty predicted! Thank goodness for that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 206020,
 			nameColor = "#A9F548FF",
-			say = "那个……怨仇女士，黎塞留大人是收到我们的救援信号之后特地前来支援我们的。",
+			say = "She, well... also rescued us. Cardinal Richelieu was the first to respond to our SOS.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			dir = 1,
 			actor = 206020,
 			nameColor = "#A9F548FF",
-			say = "多亏她带领舰队及时出现，我和皇家橡树大人才得以脱离险境。",
+			say = "If she hadn't come along, Royal Oak and I likely wouldn't be here right now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			actor = 205140,
 			nameColor = "#A9F548FF",
-			say = "非、非常抱歉，我没能及时处理掉危机……明明我应该做得更好的……",
+			say = "Forgive me, Implacable... I've put the Royal Knights to shame.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系没关系，见到你们人没事我也就放心了。",
+			say = "It's alright. I'm just glad you're both in one piece.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -763,7 +763,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳……黎塞留主教……",
+			say = "Cardinal, if I may ask, what brought you to this remote island in the first place?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "怨仇女士，危机尚未解除，其他的事等到之后再说。",
+			say = "I shall explain later. For now, we must focus on defeating the enemy in front of us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			actor = 805010,
 			nameColor = "#A9F548FF",
-			say = "首先让我们一同教训一下这些敢于在我鸢尾教国圣堂内搅扰的不速之客吧！",
+			say = "Let us smite these wicked doppelgangers who dare violate the sanctity of the Iris's territory!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"essential.\n\n<size=45>四　毒</size>",
+					"Quintessential\n\n<size=45>4. Cause for Concern</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区・演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "今天的铁血演习似乎{namecode:465}也参加了。",
+			say = "If I remember correctly, Ulrich was supposed to be participating in an exercise today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，舰队集结完毕……很好。那就让模拟战开始吧。",
+			say = "Is everyone ready? Then, let us begin our mock battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让大家见识一下我{namecode:426}的实力，全速前进！",
+			say = "Come at me! I'll show you what's good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "喂{namecode:426}，你冲太前了！稍微跟其他人的步调配合下！",
+			say = "Hey, Hipper, don't go so far ahead of the rest of the team! Slow down and match our pace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "这场演习看起来是由{namecode:465}进行指挥的，{namecode:440}似乎更多沉浸在了战斗的乐趣上。",
+			say = "Though Ulrich and Friedrich belonged to the same ship class, Ulrich followed Friedrich's orders during the mock battle while keeping an attentive eye on the other participants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "不知不觉间，出神的看完了全程。",
+			say = "My eyes were glued to the mock battle until the very end, and at some point, it seemed that Ulrich had noticed my presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你都看到了吗。",
+			say = "So you were watching us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "刚刚的演习非常不错。",
+					content = "\"Looks like the exercise went very well.\"",
 					flag = 1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就好。说实话我并没有{namecode:441}那么喜欢战斗……但为了在战场上能把所有伙伴都平安带回来，这些演习是必要的。",
+			say = "If you say so. To be honest, I don't like fighting... But if that's what's necessary to bring back my allies safely during a real battle, I'll do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "到是你那边没问题么？铁血舰队的事我还要处理一段时间，你再去找个新的秘书舰顶班也可以哦。",
+			say = "By the way, do you not need me back on secretary duties? I can head back to the office if you need me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "最近出人意料的工作逐步空下来了，暂时来说并没有什么问题。",
+			say = "\"I appreciate it, but there really isn't much going on right now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "{namecode:465}可以安心处理铁血同伴之间的事，之后再返回工作也是可以的。当然——",
+			say = "Above all else though, Ulrich surely must've been tired from having to learn a lot of new duties. I wanted her to take this opportunity to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			},
 			options = {
 				{
-					content = "要多注意休息哦。",
+					content = "\"Really, don't worry about it. Go and rest up.\"",
 					flag = 1
 				}
 			}
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "是是是……",
+			say = "If you say so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "（小声）观察力倒是一如既往的敏锐……",
+			say = "Huh... Was I really showing signs of fatigue, or is the Commander simply that perceptive?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比起担心别人更应该考虑自己，周围所有人里，最需要休息的人不就站在这里么。",
+			say = "My child is correct. You've earned your rest. But more importantly, you should focus on yourself first and foremost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我同意。",
+			say = "So you were listening in on us, Friedrich.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "温柔可成药，过度的温柔亦能为毒。",
+			say = "I heard you became the secretary. While this may not be the case, my child may have come here out of concern for your well-being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "全部饮下可是需要相当觉悟的呢。",
+			say = "But that worry is misplaced. Just like you, Ulrich is neither weak nor fragile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "还是说……",
+			say = "Just know that excessive kindness can be just as much of a poison as it is a medicine. Do understand that before you imbibe it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "{namecode:441}……指挥官已经完全陷入困惑了，要不就先到这里吧……",
+			say = "Leave it. You're just going to confuse the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "总而言之，不需要太在意我。如果需要帮忙的话马上直说，等到出了什么事再说就晚了哦。",
+			say = "Listen, I don't need you to look after me. Just let me know if things get busy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么今天的演习就到此为止，大家都回去休息吧。包括你哦，指挥官。解散——",
+			say = "If you wait until you're already swamped, it'll be too late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

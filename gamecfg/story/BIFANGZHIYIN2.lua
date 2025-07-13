@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "北方联合境内·某处",
+			say = "Somewhere in the Northern Parliament...",
 			bgm = "story-cccp-soft",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "房间内是柔和的灯光与炉火，桌子上是热乎乎的菜与汤。",
+			say = "A fireplace crackled beneath gentle lighting inside a house. A bowl of steaming hot food rested on the countertop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "纵使窗外天寒地冻，狂风呼啸，也无法将此刻的温暖之景动摇分毫。",
+			say = "Outside, a freezing blizzard rattled the windows. Despite its fury, its winds could not carry even a touch of cold through the four walls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "刚出锅的汤，很好喝哦。",
+			say = "Here – hot soup. It's really good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "（嗯………………）",
+			say = "(Ugh...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "不用担心，我先喝给你看。吨吨吨——",
+			say = "It's safe to eat. I'll have a bite first, if you're unsure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "（明明都决定要主动避开了……）",
+			say = "(I was trying my damnedest to avoid this scenario...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701020,
-			say = "呼……给你，喝点暖暖身子吧。",
+			say = "*burp*... See? Now you eat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "（为什么，会变成这样……？）",
+			say = "(How did I end up in here?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "唉，你这身装备都打得烂成这样了……",
+			say = "God. Your rigging is barely holding itself together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "一路上都有谁欺负你了，尽管说出来，同志，我们替你报仇！",
+			say = "Comrade, give me the name of the bastard who did this! I'll make them pay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "等等……甘古特，现在不是问这些问题的合适时机。",
+			say = "Settle down, Gangut. You can talk about that later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "没错没错~人家历尽千辛万苦才流浪过来，过去的那些不愉快哪里是现在该问的！",
+			say = "Yes, settle down! This lady fled from a hellish branch, so spare her the revenge talk for a minute!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不用担心，基洛夫·META同志。你安心休息，装备维修的事就放心交给我吧~",
+			say = "Don't you worry, Comrade Kirov META. This genius mechanic will make your rigging as good as new! You just rest and relax!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "（呃……流浪？她们在说什么？）",
+			say = "(\"Fled from\"? What is she talking about?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "唉……没想到那个水星纪念·META嘴里居然有几句真话。",
+			say = "We're all surprised to see you. Your coming was foretold by Pamiat' Merkuria META.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "你真的是从遥远的地方历尽艰辛流浪过来的啊……",
+			say = "I can tell you've been through a lot by looking at you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "不论如何，既然来了，北方联合就是你的家。",
+			say = "But it's okay now. You're safe here, and our Northern Parliament welcomes you as one of our own.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "你先静养一段时间，有什么需要请尽管提，千万不要跟我们客气。",
+			say = "For the time being, focus on resting and recovering your strength. If anything happens, you can talk to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "（……这个可恶的水星纪念，到底给这里的人说了些什么乱七八糟的东西。）",
+			say = "(Pamiat', you bastard... What lies have you told the people of this branch?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "（……不过，至少可以证明，她就在此地，并且已经执行了一次并不怎么成功的行动。）",
+			say = "(Whatever you tried to do here, I can tell that you failed. They wouldn't have shown me this much kindness if you'd succeeded.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "（也就是说……一切都还来得及。）",
+			say = "(And since you failed... that means I still have time.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "（或许……我还有时间做更多的事……）",
+			say = "(There's still something I can do.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "（……伙伴们。）",
+			say = "(Comrades...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "（……看来，我要在此处多留一段时间了。）",
+			say = "(I hope you won't mind me staying here a while.)",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>七　当一切成为日常</size>",
+					"A Party for the Ages\n\n<size=45>7.A Morning Like Any Other</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，一个特别的清晨。",
+			say = "Office - A morning unlike any other",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……倒也不能算“特别”，因为——",
+			say = "...Except it's actually not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早——上好~指挥官！",
+			say = "Mornin', Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "吃过了吗？没有的话先一起吃点什么吧~",
+			say = "You had breakfast yet? If not, you want some of this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "一套撒丁风格的早餐被端到了桌上。",
+			say = "Seattle places a tray lined with Sardegnian dishes onto my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,14 +126,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "别出心裁的早餐，正在逐渐变为熟悉的习惯。",
+			say = "As has become a morning routine, she's pushing a new, tasty breakfast meal onto me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "早点很不错。",
+					content = "\"Sardegnian this time, eh?\"",
 					flag = 1
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "对吧~今天达芬奇她们开了一家撒丁风格的早点铺哦！说是从晚宴里得到了灵感什么的……",
+			say = "Yup-yup! Got these from the food stand Veneto and da Vinci opened in response to the Empery's li'l joint!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "好像还弄了一个自动烙饼机器人什么的，果然集体活动就是能让大家灵感多多。",
+			say = "Apparently, she also came up with a new invention – the Pizza Ovenator. Group activities like parties inspire people in surprising ways!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，指挥官，有没有喜欢上这种氛围？",
+			say = "Speaking of, how'd you like the party on the whole?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "热闹的氛围的确很不错。",
+			say = "\"It was awesome. Hopefully we can do something like it again.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就知道指挥官会喜欢上的！不过，听指挥官的语气，是还发现了更有趣的事情吗？",
+			say = "Yeah! Glad to hear you liked it, 'cause I really wanted to make it something memorable!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "欸？真的？指挥官发现了什么？",
+			say = "Can you tell me something specific you liked?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,18 +260,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "要不和她开个玩笑好了——",
+			say = "\"I'd have to say...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你。",
+					content = "\"You.\"",
 					flag = 1
 				},
 				{
-					content = "看着西雅图。",
+					content = "(Stare silently at her.)",
 					flag = 2
 				}
 			}
@@ -285,7 +285,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "......咦，我？",
+			say = "Me? Come again?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "我懂了！是夸赞我策划派对的手法非常棒对吧！",
+			say = "You mean like, you liked my expertise as a party organizer, or...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还、还是说，指挥官想说的，是那个意思……",
+			say = "No? So wait, you mean that as in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是什么意思……？",
+			say = "Yeah? I'm listening.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……难、难道说……",
+			say = "...Wait, you mean you liked ME?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "等……等等……稍等，我仔细想想……这样的话……以后就得……还得……",
+			say = "Hang on, don't say anything! I need a second to sort my thoughts out! I'll just, uhh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "我，我先稍微离开一会！很快回来！",
+			say = "I'll be right back!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在西雅图消失了几分钟后——",
+			say = "Several minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "我回来了！……唔唔唔，心情整理完毕！",
+			say = "Back! Whew... Okay, I'm as ready as I'll ever be!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "果然，我也是对指挥官有意思的——！和指挥官一起准备派对，要比以前还要开心！",
+			say = "Commander, I like you too. I had way more fun walking around at the party with you than I normally do!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，从今天起，我们除了派对，又有了一样要做的事呢！",
+			say = "Well, guess I've got something else to plan today, besides my next party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "那就是——",
+			say = "That being, our da–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,7 +537,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——工作。",
+			say = "I interrupt her before she can throw a wrench into my schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "毕竟要劳逸结合嘛。",
+			say = "\"I'm up for a date, but only after I've finished work.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "……",
+			say = "...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——————！？",
+			say = "Come on! Whyyyy?!",
 			painting = {
 				alpha = 0.3,
 				time = 1

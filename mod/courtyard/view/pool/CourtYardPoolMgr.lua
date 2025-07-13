@@ -63,7 +63,7 @@ function var_0_0.GenPool(arg_2_0, arg_2_1)
 					return
 				end
 
-				if go then
+				if Object.Instantiate(arg_6_0) then
 					local var_6_0 = Object.Instantiate(arg_6_0)
 
 					arg_2_0.pools[iter_2_3] = CourtYardEffectPool.New(arg_2_1, var_6_0, 0, 3)

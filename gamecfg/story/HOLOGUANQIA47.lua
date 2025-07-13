@@ -14,7 +14,7 @@ return {
 			bgm = "holo-fff",
 			actor = 10500010,
 			nameColor = "#ff5c5c",
-			say = "哈哈哈哈，历尽了千难万险到达此处的反抗军哦，吾名为DARK FOX BIZZARD，在此迎接各位的到来",
+			say = "Hahahah... You're here at last, Resistance. I've been waiting for you. My name is Shadow Eye Blizzard Fox.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨巨巨巨巨大化的吹雪？！",
+			say = "Whew... it's a giant Fubuki?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就是测试怪人手中的最后的底牌么",
+			say = "So you're the last ace up Tester's sleeve!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对！装在上甲板两侧的是…测试者的主炮？！",
+			say = "No, Zuikaku, look! Her riggings include Tester's!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "好眼力，不愧是{namecode:158}大人。测试怪人不过是我计划中的一个棋子，完成了任务之后因为太碍事，就被我处理掉了",
+			say = "How perceptive, Kawakaze. That's right. Tester, in her incomplete state, was merely a pawn in my plans to use this Mirror Sea. I simply eliminated her because she got in the way.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬居然被自己生产的“棋子”解决了…？！",
+			say = "What?! Making a Siren... into her pawn?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,9 +124,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "哈哈哈，活该测试怪人！这么说只要把你打败了，战斗就结束了吧！",
+			say = "Ahahahaha! Serves you right, creep! Anyway, if we defeat you, then this entire sea area is going to fall apart?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actorName = "DARK FOX BIZZARD",
 			dir = -1,
 			actorScale = 2,
-			say = "哼哼哼，大家且慢，测试怪人有和你们拼个你死我活的打算，我可没有哦。",
+			say = "Now now, calm down a little bit. That \"Tessy\" does seem to like interacting with you bunch, am I right?",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -165,7 +165,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "我的计划是允许你们存在的！毕竟我的计划比测试怪人的更加伟大嘛！",
+			say = "My plan will allow you all to survive! After all, my designs are much grander in scale!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有点无法理解…",
+			say = "... I don't get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "这个镜面海域因为偶然连接到了异世界，其中的状况貌似对塞壬来说也明显出现了异常。正因为如此我才能存在在这里！",
+			say = "Apparently, the gateway that formed between worlds as a result of this Mirror Sea caused many unexpected things to happen to the Sirens, and that in turn gave birth to me.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -224,7 +224,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "仔细看看周围吧。只要拥有本社大楼内的众多塞壬的科技结晶！有了这些，我想制造出多少“棋子”都没有问题！",
+			say = "Take a closer look at your surroundings. The Hololive Headquarters still stands, and look at the manifestation of Siren technology! With this power, you can create as many \"pieces\" as you desire!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -246,7 +246,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "“棋子”可是很棒哦，不但可以分担工作，还能更长时间的陪伴观众。况且只要人数增加的话，快乐也会增加吧。",
+			say = "\"Pieces\" are excellent. They can do just about anything for you. There's no limit to how many you can produce, and the more there are, the greater the variance of the projects you can carry out!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -268,7 +268,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "与此同时，利用不同属性的“棋子”满足不同属性的观众，抢占了市场份额，收益化自不用说，预算也是想要多少就有多少了！科学的力量真棒啊~",
+			say = "At the same time, iterating upon different attributes to satisfy the tastes of fans around the world will generate a near infinite stream of revenue, thus removing worries about monetization! The power of science is truly intoxicating!!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -290,7 +290,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "能想出这些的我简直是天才啊，啊哈哈哈哈哈",
+			say = "Am I not a genius for coming up with this? Ahahaha!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是想要自己独占镜面海域……！？",
+			say = "You intend to... keep the Mirror Sea for yourself?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actorName = "DARK FOX BIZZARD",
 			dir = -1,
 			actorScale = 2,
-			say = "才不只是这些。“棋子”的生产，气象的控制，平行世界的观测以及未来的演算——只要这个镜面海域能维持……不，能够扩大到覆盖整个世界的话，我就能够支配所有人了！",
+			say = "Oh, but that's not all. In addition to manufacturing \"pieces,\" I can control the weather, monitor other dimensions, or even predict the future with simulations. If I can expand my influence around the world, then I can become the true ruler of humanity!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -348,7 +348,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "到那个时候，人类的所有娱乐都在hololive本社的掌握下。我也能君临所有Vtuber之上！",
+			say = "When that time comes, Hololive Headquarters will manage every form of human entertainment in this world! I will reign over all VTubers!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -369,7 +369,7 @@ return {
 			actorName = "DARK FOX BIZZARD",
 			dir = -1,
 			actorScale = 2,
-			say = "至于你们这些舰船和不是“棋子”的Vtuber，你们也不用担心自己失去工作——",
+			say = "Oh, that's right, KAN-SEN and VTubers who are not \"pieces\" never have to worry about not having work.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -391,7 +391,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "在我日更的“永久更新定番企划”里面，你们会一直和塞壬战斗下去，直到永远！哈哈哈哈哈！",
+			say = "The endless battle between your kind and the Sirens shall become a permanent classic with daily updates! Ahahahaha!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙完全暴走了啊！……果然塞壬的技术太危险了！",
+			say = "She's completely out of her mind...! As expected, Siren technology is far too dangerous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把整个世界用镜面海域包裹起来，支配全人类……这种野心不能放任下去！",
+			say = "We'll never let anyone try to enslave humanity using the Mirror Seas ever again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "但、但是对面一个人还好，如果她把之前那堆“棋子”都召唤出来了怎么办……啊啊啊啊！这就是中二狐发展到极限后的样子么…",
+			say = "But, you can't win all by yourself. No matter how many \"pieces\" you summon, nobody wants to fight the same enemies over and over again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "吹雪，还有大家，先等一下！这里交给我吧！",
+			say = "Hold up, Fubuki! Step back, everyone, and just leave it to Matsuri!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "DARK FOX BIZZARD，你的想法我完全理解了！",
+			say = "Ahem! Shadow Eye Blizzard Fox! I understand your sentiments!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "但是，在你的计划里面有一个致命的破绽！那就是你制造的“棋子”会和你一样有自己独立的思想！",
+			say = "However, there is just one flaw in your plan! And that is - what if you made a \"piece\" that has the same ego as you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "“山田赫敏”“澪川依代”、名字里带空格的两个人、还有化为抖S的空前辈……",
+			say = "Yamada Hermione, Miokawa Iiyo, Kakitsubata Nakiri, Ma Tsu Ri, and Shi O N, and the super-charismatic version of Miss Sora...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果她们也有机会成为像你一样的存在的话，是不会安心当你的部下为你所用的！",
+			say = "If they're anything like you, they'll never be satisfied with being your subordinate!",
 			effects = {
 				{
 					active = true,
@@ -545,7 +545,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "……！啊，说起来确实是这样！我居然忘了！",
+			say = "...! You, you're right! I forgot about what I did!",
 			effects = {
 				{
 					active = false,
@@ -582,7 +582,7 @@ return {
 			actorName = "DARK FOX BIZZARD",
 			dir = -1,
 			actorScale = 2,
-			say = "哼哼，虽然你马上发觉了我计划的弱点，但是我会立刻修复它！“棋子”们，出来吧！",
+			say = "How perceptive of you to detect the flaw in my plans! Gather here, my \"pieces!\"",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -603,7 +603,7 @@ return {
 			actorName = "DARK FOX BIZZARD",
 			dir = -1,
 			actorScale = 2,
-			say = "呃，这里应该是这样修复一下数据库，然后把“棋子”的人格信息重置……嗯，就这样！",
+			say = "Um, if I remember properly, you mess with the database here, initiate the \"piece\" data... like that!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -621,9 +621,9 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "山田·赫敏",
+			actorName = "\"Piece\"",
 			dir = 1,
-			say = "………………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,9 +646,9 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "夏 色 祭",
+			actorName = "Ma Tsu Ri",
 			dir = 1,
-			say = "………………",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“棋子”们居然一个接一个的倒下了……？",
+			say = "I thought we already defeated Matsuri's clone...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "啊啊！糟了！这些“棋子”删除了人格信息的话，不就只是不会动的立绘和模型了么！",
+			say = "Ahhh! Their personality data has disappeared!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "还真是这样！所有“棋子”都不动了！",
+			say = "It's true! They're not moving at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "DARK FOX BIZZARD，现在你明白了吧！",
+			say = "Ahem! Do you see now, Shadow Eye Blizzard Fox?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "向他人强加自己的野心，不重视别人的想法的你，就算造出再多的“棋子”也是无法让世界幸福的！",
+			say = "If your ambitions do not value the feelings of others, you can't make the world a happier place, no matter how many \"pieces\" you make!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "额……可是我……只要我还有hololive本社的力量……！",
+			say = "Gah... Even if that's the case, I still have the power of the Hololive Headquarters...!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -789,7 +789,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "不是这样的！hololive是不能靠一个人撑起来的！",
+			say = "No! Hololive is not yours alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有画师爸爸妈妈这样的创作者、制作成员、还有观众们……只有大家一起互动，才有了我们hololive的活动啊！",
+			say = "The parents that created us, the staff, and the support of the fans... Everyone comes together to make Hololive what it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			dir = -1,
 			actorName = "DARK FOX BIZZARD",
 			actorScale = 2,
-			say = "……………交涉决裂了么。那么，你们就在此被毁灭吧",
+			say = "Nooooo...!! Curse you, Hololive Resistance...!!",
 			actorPosition = {
 				x = 150,
 				y = -400

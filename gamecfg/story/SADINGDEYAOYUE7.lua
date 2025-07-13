@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"撒丁的邀约\n\n<size=45>七　大鹏展翅</size>",
+					"Where All Roads Lead\n\n<size=45>7 The Great Peng Takes Flight</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "东煌·？？？",
+			say = "Somewhere in the Dragon Empery...",
 			side = 2,
 			bgName = "star_level_bg_144",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "逸仙姐，晚上好。",
+			say = "Good evening, Miss Yat Sen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "逸仙，今天这么有兴致请我们来吃饭啊？",
+			say = "Yat Sen cooking dinner for us? Has the karma of the cosmos turned upside down or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "两位晚上好哦。",
+			say = "Oh my, if it isn't An Shan and Harbin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "怎么连镇海都来了？那我知道了，看来是今晚有事要说。",
+			say = "Chen Hai's here too? Well, something big must be happening if we're all here in one place, heh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "两位先入座吧，边吃边聊。",
+			say = "Please be seated, you two. Let's have a little chat over dinner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "哇哦！今天的这道主菜的摆盘是……白头鹰？",
+			say = "Woah... What the heck did you cook for us today? Is this... a vulture?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "……是，大鹏哦。",
+			say = "It's the Great Peng.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "精致倒是挺精致，不过量实在是有点……",
+			say = "It looks pretty exquisite, but the portions are a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，你看我说什么，镇海？",
+			say = "What did I say, Chen Hai? You know how Harbin is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "还是你了解她……我去把剩下那道也端上来。",
+			say = "Yes, yes, I should've known better. I'll go bring out the rest of the portion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 506010,
-			say = "你看现在这道怎么样，量大管饱哦？",
+			say = "This should be enough to eat to your heart's content, yes?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "这份看起来不错了！吃饭嘛，最重要的是要吃饱不是~",
+			say = "Haha! That it is! The best food is whatever fills your stomach up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "三位，撒丁帝国要举办博览会的消息你们听说了么？",
+			say = "Alright then. Everyone, have you heard about Sardegna's World Expo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我一直在忙着训练，没太关注国际新闻。",
+			say = "Sorry, but I've been a bit out of the loop... All the training recently has taken a lot out of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "我也没听说过，不过现在倒是听你说了~",
+			say = "Yeah, I heard about it. Like, five seconds ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "这件事跟我们有关系吗？",
+			say = "So what's this expo thing, and are going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "按照以往的惯例来说，没关系。",
+			say = "What do you all think? We've been invited, and the Commander has also been contacted regarding this matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，就近期建设取得的成果来说，我们觉得差不多是时候了。",
+			say = "So I do wonder if this is the right opportunity for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "什么差不多了？等等……你指的该不会是？",
+			say = "Right opportunity? What are you... Wait, do you mean–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，韬光养晦已经差不多了。",
+			say = "Yes, we're about to make a big announcement, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“大鹏一日同风起，扶摇直上九万里”。",
+			say = "\"Upon the wind the Great Peng soars into the sky, in a single day ninety-thousand meters high.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "东煌，即将重回世界舞台。",
+			say = "In other words, the Dragon Empery shall step onto the world stage as a major player.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而这次博览会，将会成为这一巨变的小小预热。",
+			say = "As such, let us enliven the World Expo together and make it the prelude to our great announcement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "好啊！那参会人选定了么，要不让我带人去瞅瞅？",
+			say = "I like the sound of that! So, have you decided on who's going? Is there anything I can do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "我还从来没去过欧罗巴呢！",
+			say = "I, for one, would love to see Europa in person!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让你去可不行，岂不是平白无故泄露我们一张底牌？",
+			say = "Hehe. Sorry, Harbin, but you'll have to wait for your turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 599010,
-			say = "啊哈哈……说的也是。那就之后有机会再说吧。",
+			say = "I guess that's true... Sucks, but I'll just have to deal with it! Ahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "逸仙姐会说这件事，肯定是人选也一并决定下来了吧？",
+			say = "Then, who will be our representative?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错。",
+			say = "That has already been decided.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所谓知己知彼百战不殆。",
+			say = "The fact that we've been relatively isolated from the other camps up until this point has been both a blessing and a curse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "外界对于东煌缺乏了解，这是我们的优势。",
+			say = "Naturally, the others have little knowledge of the cards we hold in our hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但同时，我们也对于外界了解有限，这是我们的短板。",
+			say = "But we also know very little about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既是短板，就要补齐。",
+			say = "Therefore, our top priority at this expo should be to learn as much as we can about the other camps, and bring that knowledge back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "经过仔细研究，我们决定由镇海带队代表东煌前往撒丁帝国参会。",
+			say = "Chen Hai, will you make the journey to Sardegna?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "海天与海圻同行，也让她们去见见世面。",
+			say = "Take Hai Tien and Hai Chi with you, and broaden your horizons for the sake of the Dragon Empery. Then––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			actor = 506010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是。我一定会不负厚望，向世人展现东煌的魅力的~",
+			say = "Display the allure of the Dragon Empery to the world, yes? I will try not to disappoint you. Hehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

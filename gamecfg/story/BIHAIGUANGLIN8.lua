@@ -15,7 +15,7 @@ return {
 			bgm = "battle-longgong",
 			actor = 307120,
 			nameColor = "#a9f548",
-			say = "附近区域我已经用侦察机全部探查清楚了，接下来顺着这条水道走！",
+			say = "My planes have already finished scouting out this area. Now onto this path!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:208}阁下真可靠，跟着你就完全不用担心迷路了，不愧是正规航空母舰！",
+			say = "Wow, Katsuragi, you're super reliable! There's no way we get lost with you around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~{namecode:62}虽然也有侦察机，但是和身为正规航母的我相比差的还远呢！",
+			say = "Heh heh~ My recon planes are on a whole 'nother level from Chikuma's seaplanes! Feel free to shower me with more praise! Yes, keep it coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周围的敌人也是轻松有余，迎上来的尽是些老旧型号。",
+			say = "We've run into some straggler mass-produced ships, but they're pretty weak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "吼吼吼~这里被废弃的感觉越来越明显了。",
+			say = "Maybe this place really was abandoned a long time ago...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是那个…大家有没有觉得海浪也越来越明显了……",
+			say = "Is it just me, or have the waves been getting stronger and stronger...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，{namecode:18}也感觉到了！",
+			say = "Huh, you're right! The deeper in we go, the rougher the waters get.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是奇怪…现在是海底，我们又在结界之中，没理由出现这么大的风浪啊。",
+			say = "We're in a pretty narrow waterway inside an enclosed area... How are there even any waves in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_daofeng_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊我想起来了，之前那个谜之音是不是说过什么要突破机关笔直前行之类的？",
+			say = "Ahh! This must be what that voice meant by \"rewarding the brave!\" This must be like some kind of dungeon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此…！那这些风浪就是机关了吧？而只要突破了机关，我们就是勇者！",
+			say = "So you're saying that the wind and waves here are a part of the Dragon Palace's mechanisms? Sounds like a job for heroes like us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 301480,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感觉燃起来了！",
+			say = "Woohoo! We're gonna be real life heroes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "{namecode:18}也是，感觉浑身充满了干劲！",
+			say = "We got this! I'm already feeling that big protagonist energy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 301470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是这么大的风浪……我们要怎么过去呢？",
+			say = "Um, but... If the wind and waves continue to get stronger and stronger...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "用更快的速度就好了！",
+			say = "At that point, we can just use one of those mass-produced ships!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "那些笨重的量产型敌人不会给我们带来威胁，反而会帮我们减小风浪。",
+			say = "They might not be very strong, but at least we'll be able to use them to block the elements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "只要灵活穿梭于敌阵之中，加速向前总是能冲过去的！",
+			say = "After that, all we have to do is jump from enemy to enemy! If you go fast, it'll be totally fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听起来好像很有趣啊~不过这是你们这样灵活的驱逐舰才能用的战术，身为正规航母的我是没办法了。",
+			say = "That sounds fine on paper and all, but you're the only person who can pull something like that off. An aircraft carrier like me can't keep up with a speedy destroyer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过我会用舰载机为你护航的，火力掩护就交给我吧！",
+			say = "Having that said, I'll totally back you up though! No need to worry about the enemies – just charge through with everything you've got!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "非常感谢，{namecode:208}阁下！",
+			say = "Great! I appreciate it, Katsuragi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "区区怒涛是无法让我停下脚步的！{namecode:18}去去就回！",
+			say = "All righty then, it's time to go fast!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

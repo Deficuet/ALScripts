@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"陆间海·某处",
+					"Somewhere in the Mediterranean",
 					1
 				},
 				{
-					"维希教廷博览会舰队",
+					"Vichya Dominion fleet - Immediately following World Expo evacuation",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "一段时间后，维希教廷舰队离开了博览会会场，来到了一片平静的海域",
+			say = "Having escaped from the World Expo, the Vichya fleet had ended up somewhere in the Mediterranean Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
-			say = "一路上果然如同克莱蒙梭在通讯中所说，没有遭遇到任何阻拦。",
+			say = "The Gazers did not even try to launch an attack on them, just as Clemenceau had promised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "此情此景，我自己都在怀疑我们跟这场袭击事件有脱不开的干系了。",
+			say = "You know, it's gonna look like we're the bad guys, since we fled the Expo after it was attacked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "凯尔圣，这里现在没外人了，你可以解释一下了么？",
+			say = "Kersaint, there's no one else around now. I think it's time you explained everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "现在的局面究竟是怎么回事，克莱蒙梭大人究竟在做什么？",
+			say = "What the heck is going on? And what is Lady Clemenceau after?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "嗯……其实，我真的知道的不比你们多多少。",
+			say = "I haven't the faintest idea, myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "克莱蒙梭大人只是说，她有一个非常、非常不得了的计划。",
+			say = "Lady Clemenceau said she had an ingenious plan in store, but that's all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "但是…不能向任何人透露这个计划的细节。",
+			say = "She wouldn't tell anyone what the plan is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "总之，大家只要按照克莱蒙梭大人的命令行动……计划就一定能成功。",
+			say = "All she would tell me is that everything will go well if we do as she says.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 907010,
-			say = "连你都不知道计划的任何细节，我更是连计划本身都从未听说……",
+			say = "Only Kersaint would naively trust that plan with so little information given.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 907010,
-			say = "对审判庭内都如此提防……也就是说计划的知情人从一变成二都会带来巨大风险。",
+			say = "A plan she kept secret not only from the Senate, but also her own comrades within the Tribunal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭大人，您究竟在做什么……",
+			say = "I can only pray this plan will lead to something good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,11 +234,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "凯尔圣，看来你们已经到达第一处坐标了。",
+			say = "I see you've arrived at the first set of coordinates, Kersaint.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "离开的过程还顺利么？",
+			say = "Has everything gone well so far? The Commander left you alone, just as I said, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "最初遇到了一点点波折，不过那位指挥官是通情达理的人。",
+			say = "Yes! We wouldn't have been able to leave the pavilion, had the Commander not been there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "我们没有发生任何冲突就顺利离开了。",
+			say = "We're fortunate that the Commander is a truly kind person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "不但通情达理，而且聪明。",
+			say = "Not just kind, but reasonable and keen as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "很好，现在向你发送第二处坐标，你带领舰队过去集结。",
+			say = "Now, I'll send you the next coordinates. Make sure you're ready for battle before you head there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "所有人做好战斗准备，但一路上不论遇到谁，或者什么东西都不要开火。",
+			say = "That being said, you are under no circumstances to engage anyone or anything you encounter until you reach the coordinates.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "等待我的后续命令。",
+			say = "I will call you again once you arrive.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "遵命，克莱蒙梭大人。",
+			say = "Understood, Lady Clemenceau.",
 			painting = {
 				alpha = 0.3,
 				time = 1

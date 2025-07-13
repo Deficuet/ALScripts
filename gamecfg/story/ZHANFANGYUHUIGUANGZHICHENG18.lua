@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "暴雨与雷电彼此交织轰鸣，在恶劣的天气中，一支舰队在汹涌的波涛中驶向萨默斯岛。",
+			say = "In the midst of the raging storm, the fleet known as the Flare sails for Samos Island.",
 			bgm = "battle-torch-theme",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107070,
-			say = "唉……不久前还是晴空万里，突然就狂风暴雨了。",
+			say = "Aw, man. It was sunny just a little while ago. Why'd it have to go and rain on us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107070,
-			say = "萨默斯岛的天气真是越来越多变了啊~",
+			say = "The weather's so fickle around Samos Island, I swear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 807010,
-			say = "天气和海况的异常都是研究拉普拉斯妖导致的副产物。",
+			say = "The abnormal weather and sea conditions here are side effects of research on Laplace's Demon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 807010,
-			say = "我还听说，偶尔还有人能看到幽灵和鬼影哦？",
+			say = "Sometimes, people even report ghost and monster sightings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "已经到了这种程度……在下觉得稍微有点吓人了……",
+			say = "Is it that bad? That's a little spooky...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 301810,
-			say = "{namecode:180:霞}倒是想亲眼见一见呢~",
+			say = "Kasumi wants to see them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 303110,
-			say = "呵呵，有你在，说不定我们这一路就能遇到呢。",
+			say = "With you around, we might just end up meeting some ghosts.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 303110,
-			say = "不过也因为这些事，我们才能一直藏身于这片海域中，此次行动也能全程保持隐匿状态。",
+			say = "I'd say this storm comes with a silver lining. It makes it easier for us to hide our maneuvers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107050,
-			say = "……就算发生全面战争，也有办法取得胜利并抚平一切损失……这种事情是不可能的。",
+			say = "The higher-ups put too much faith in Laplace's Demon. They went and stirred up a crisis just because it's \"almost done.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107050,
-			say = "高层对于拉普拉斯妖的作用有些过于自信了，明明都没有彻底完工，就急于挑起这一切……",
+			say = "And for what? Because they think if things come to all-out war, they can win, and it won't matter? As if anything could be that easy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "是啊！前进阵线也是沉不住气，还没彻底完工呢，就声势浩大地来抢了……",
+			say = "They're not the only crazy ones. The RF came out in full force just to steal the incomplete machine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 102160,
-			say = "……对他们来说，如果等装置完工了，且拉普拉斯妖真的能如大洋联邦军方的意图所运行，一切不就都晚了？",
+			say = "I can't say I don't empathize. If they waited until it was complete and things went the way the Federation wants, it would already be too late.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "有道理……！",
+			say = "You do have a point!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107060,
-			say = "“拉普拉斯妖应该用于为全人类服务，而不是作为战争的工具，更不应该成为毁灭人类的导火索……“",
+			say = "\"Laplace's Demon is meant to serve all mankind. Not as a tool of war, nor as the trigger that ushers the destruction of mankind.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107060,
-			say = "……我们必须要阻止这一切。",
+			say = "We have to stop them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 902010,
-			say = "那是自然~而且你说——我们为什么不更进一步呢？",
+			say = "Of course! In fact, why don't we take it a step further?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 902010,
-			say = "安洁好不容易才联系到我们，我们已经知道了她的位置和周边的守卫情况。",
+			say = "Thanks to Dr. Anzeel, we already know her location and the status of the defenses near her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 902010,
-			say = "干脆我们把她一起救出来嘛~",
+			say = "Why don't we go rescue her, while we're at it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 902020,
-			say = "……救出来，之后呢？和我们一起逃亡么？",
+			say = "Rescuing her is one thing. What happens after that? Will she actually flee with us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 807010,
-			say = "别添乱，安洁博士有自己的计划。",
+			say = "That would be unnecessary. Dr. Anzeel is sure to have a plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107070,
-			say = "是啊是啊~当初她在监狱的时候都不许我们行动，现在只是赋闲在家，我们去添什么乱啊？",
+			say = "Yeah! Even when she was imprisoned, she told us not to come to her rescue. She's just under house arrest right now, so we don't have to go out of our way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107050,
-			say = "况且……我们在外面越活跃，安洁和所有无法脱身的同伴就越安全……你们忘记了么？",
+			say = "Besides, the more of a mess we make out here, the more dangerous things will be for Dr. Anzeel and the people confined with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 902010,
-			say = "哎嘿嘿……忘记了！",
+			say = "Ooh... My bad!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 101380,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 102050,
-			say = "企业，前进阵线的舰队已经开始向萨默斯岛下达最后通牒了。",
+			say = "Enterprise, the Revolutionary Front has issued an ultimatum to Samos Island.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 102050,
-			say = "大洋联邦的伏击舰队，也抵达了预定位置……",
+			say = "The Federation's ambush fleet has also arrived at their target coordinates.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107060,
-			say = "……看来，我们也该开始行动了。",
+			say = "...Sounds like it's time for us to act.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107060,
-			say = "威奇塔，你今天怎么这么安静……紧张了？",
+			say = "Wichita, what's the problem? You're awfully quiet today... You nervous, or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "我……",
+			say = "I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "啊哈哈……我就是有点不放心，我和金伯利再去旁边侦察一下哦！",
+			say = "Ahahaha, nah, I've just got a lot on my mind. I'll go scout the area with Kimberly again, try to get my head on straight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 107060,
-			say = "好，记得不要与我们脱节。",
+			say = "Alright. Don't stray too far from the main fleet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "那是自然，放心吧~",
+			say = "Duh. Don't you worry about me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "呼……到这里就不会被人听到了。",
+			say = "...Nobody should hear us around here.",
 			bgm = "battle-ashes-theme",
 			painting = {
 				alpha = 0.3,
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "真没想到会再次回到这一天……一切毁灭的开端。",
+			say = "The beginning of the end... I didn't think we'd be brought back to this day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "我能确定，这里就是辉光之城新展开的空间。",
+			say = "I can tell that this is the new space manifested by the Martyrium.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "只是……不知道为什么重现了当年的情景。",
+			say = "But why today? Why is this what it manifested?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "或许是因为我们的加入，我们所认知的“死亡”也混入了空间所承载的概念中。",
+			say = "Our concept of death must have mixed into the formula when we entered.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "最终让此地变成了这样，不是其实验场β的创造者所认知的“死亡”，而是我们所认知的“死亡”。",
+			say = "No, to take it even further, maybe our concept of death is so strong that it superseded the beta timeline's perception of the Iris ruins...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "至于为什么是这一天，这意思是，我们早就应该在这一天死了吗……哈哈。",
+			say = "Heh. So that means we died today, huh? Hahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "……威奇塔。",
+			say = "Wichita.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "抱歉……开个玩笑。",
+			say = "Ah, sorry. That was meant to be a joke.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "追踪到{namecode:522:旗风·META}的踪迹了么？",
+			say = "Can you trace that META Hatakaze?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -823,7 +823,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "还在空间中，我没发现具体位置，大概是藏起来了。",
+			say = "She's in this space, but I can't trace her exact coordinates. She must be in hiding.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,7 +841,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "不过空间出现了被侵蚀的迹象，那些本应存在于此的前进阵线和大洋联邦的军舰，都被噩兆实体替换了。",
+			say = "But there's no doubt that this space is corroded. The RF and the Federation are all corrosion entities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "呵，我说她怎么急着自杀跑路，来这一出啊……",
+			say = "Aha. So that was the point of that whole suicide shtick.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "……你还记得么，那一日，噩兆天象确实出现了。",
+			say = "Wichita, do you remember that day? Corrosion phenomena appeared back then, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "虽然当时的我们都不清楚那是什么，只会称呼其为黑色风暴。",
+			say = "We didn't know anything, so we only called them black tornadoes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "……或许，我们这次能够注意到当时没能注意到的事，为早已盖棺定论的事件带来一个新的真相。",
+			say = "If we can learn the things we overlooked back then, we might just be able to dig out new truths from these fixed memories.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "也或许……这是一次机会。",
+			say = "This is a big opportunity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "虽然对于已经发生的过去于事无补，但我还是想试一试……",
+			say = "Heh. We can't change what really transpired, but what about righting the wrongs of the past in our memories?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "假如。假如当时的我们采取不一样的行动、做出不一样的选择……",
+			say = "If we did things differently, made better choices back then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "会不会让局势向着更好的方向进行呢……？",
+			say = "Could we have made a better future?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9701040,
-			say = "我不知道。至少……我不想看到惨剧再次在眼前发生。",
+			say = "There's no way to know now, but I certainly don't want to see that tragedy a second time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900432,
-			say = "同意。那就让我们——开始行动吧。",
+			say = "Agreed. Let's do something about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1

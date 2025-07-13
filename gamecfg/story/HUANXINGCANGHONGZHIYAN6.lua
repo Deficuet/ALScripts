@@ -11,27 +11,27 @@ return {
 			bgm = "main-arbitrationsystem-theme",
 			sequence = {
 				{
-					"主机连接——连接中",
+					"Establishing connection to mainframe...",
 					1
 				},
 				{
-					"连接成功",
+					"Connection established",
 					2
 				},
 				{
-					"观察者——实验场β——",
+					"Observer – Test Site Beta",
 					3
 				},
 				{
-					"——2.9143,1.7420,-1.3776,-2376029143",
+					"2.9143, 1.7420, -1.3776, -2376029143",
 					4
 				},
 				{
-					"数据校验——校验中",
+					"Verifying data...",
 					5
 				},
 				{
-					"校验通过",
+					"Data verification complete",
 					6
 				}
 			}
@@ -42,31 +42,31 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"自然进化演算系统调用申请——评估中",
+					"Querying Natural Calculation System...",
 					1
 				},
 				{
-					"评估通过——调用中",
+					"Query complete",
 					2
 				},
 				{
-					"世界切片生成：「苍红」",
+					"Creating World Segment...",
 					3
 				},
 				{
-					"地点设定：天城宅邸周边",
+					"Sampling range: Near Amagi's living quarters",
 					4
 				},
 				{
-					"切片生成中-生成完成",
+					"Generating sample... Generation complete",
 					5
 				},
 				{
-					"数据下载中-下载完成",
+					"Downloading data... Download complete",
 					6
 				},
 				{
-					"自然进化演算系统调用结束——",
+					"Natural Calculation system call complete",
 					7
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~一切顺利，你想要的东西到手了。",
+			say = "Heehee, things are going smoothly. You have what you wanted now.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来只要把切片投影到奈落中的指定区域就好了。",
+			say = "All you have to do is project this into the designated area of Naraka.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，全程果然没被主机察觉到异常~",
+			say = "We moved so openly, and yet my mainframe doesn't suspect a thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这虽然依靠的是塔的力量，不过全程操作的人是你——我现在对你身上的秘密越来越有兴趣了~",
+			say = "I find myself even more fascinated by these methods of yours, even if you do have the tower's assistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "不该好奇的事情别好奇。",
+			say = "Abandon that idle curiosity, Observer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好~不得不说，能和现在这种状态的{namecode:91:赤城}谈成合作，你的指挥官确实有点本事。",
+			say = "Yes, yes. Your Commander is impressive, too, for being able to work with Akagi given the state she's in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，奈落内部的情况你也清楚，你这个计划可以说是如履薄冰。",
+			say = "You know what's going on in Naraka, and you know how slim the chances of success are, yet you still send the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你怎么舍得让你的指挥官去冒这么大的险？",
+			say = "What drives you to take such risks, hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 900315,
-			say = "再说一遍，不该好奇的事情别好奇。",
+			say = "I repeat – abandon that idle curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀~真没劲。",
+			say = "Aww, how boring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧好吧，那人家就老老实实去准备世界切片的投影了~",
+			say = "Fine. I'll start preparing the projection of this world segment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别忘了，维持切片的存在依然需要和主机连线，记得全程保护好人家的安全哦~",
+			say = "I'll need to maintain my connection to my mainframe, so keep me good and safe, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

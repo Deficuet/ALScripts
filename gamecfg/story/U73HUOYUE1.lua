@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>一　某日的午后</size>",
+					"Science Rules!\n\n<size=45>Chapter 1 - An Afternoon, One Day</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "这是一个天气晴朗，再平静不过的港区午后——",
+			say = "It was a clear afternoon...",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！午休结束，下午的课程就要开始了，拉菲、{namecode:6}、标枪，走吧！",
+			say = "Okay, lunch break is over! It's time for the afternoon lect... Hey, Laffey, wake up! You too, Javelin and Ayanami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Zzzzz…",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…再五分钟就好，的说",
+			say = "... Just... five more minutes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔～这种天气不多睡会午觉太可惜了啦～",
+			say = "Jeez, the weather is too good! I need to be rested for when class ends~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…就算是没有作战任务的日子，你们这也太懒散了…",
+			say = "*Sigh*... It doesn't matter if we don't have any missions today, you can't be slacking around like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快·起·来——",
+			say = "Get! UP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "砰！",
+			say = "KA-BOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…！？",
+			say = "Huh...!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爆、爆炸…？！",
+			say = "W-was that an explosion!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌袭…？",
+			say = "Are we being attacked...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "应该不可能吧…声音好像是从战术教室那边传来的",
+			say = "I-I don't think so... I heard it coming from the classroom down the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总、总之先去战术教室看看吧！",
+			say = "We'd better go check what it was!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,12 +290,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "其他人",
+			actorName = "Everyone",
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哦——",
+			say = "Yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

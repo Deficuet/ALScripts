@@ -175,7 +175,42 @@ pg.login = {
 			}
 		}
 	},
-	[7] = {
+	{
+		id = 6,
+		login_static = "login",
+		op_play = 0,
+		op_time = "",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2021,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2021,
+					11,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		id = 7,
 		login_static = "login_newyear",
 		op_play = 0,
@@ -210,7 +245,7 @@ pg.login = {
 			}
 		}
 	},
-	[8] = {
+	{
 		id = 8,
 		login_static = "login",
 		op_play = 0,
@@ -245,7 +280,7 @@ pg.login = {
 			}
 		}
 	},
-	[9] = {
+	{
 		id = 9,
 		login_static = "login_0214",
 		op_play = 0,
@@ -280,7 +315,7 @@ pg.login = {
 			}
 		}
 	},
-	[10] = {
+	{
 		id = 10,
 		login_static = "login",
 		op_play = 0,
@@ -315,13 +350,13 @@ pg.login = {
 			}
 		}
 	},
-	[11] = {
+	{
 		id = 11,
-		login_static = "",
+		login_static = "login_2022401us",
 		op_play = 0,
 		op_time = "",
-		login_cri = "loginbg_0401",
-		bgm = "login_0401",
+		login_cri = "login_2022401us",
+		bgm = "login-2022401us",
 		date = {
 			"timer",
 			{
@@ -385,125 +420,20 @@ pg.login = {
 			}
 		}
 	},
-	[14] = {
-		id = 14,
-		login_static = "login",
+	[18] = {
+		id = 18,
+		login_static = "login_20221117us",
 		op_play = 0,
 		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2022,
-					4,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[15] = {
-		id = 15,
-		login_static = "login",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2022,
-					5,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					5,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[16] = {
-		id = 16,
-		login_static = "login",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2022,
-					6,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					6,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[19] = {
-		id = 19,
-		login_static = "login_ryza",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "ryza-1",
+		login_cri = "login_20221117us",
+		bgm = "login_20221117us",
 		date = {
 			"timer",
 			{
 				{
 					2022,
 					11,
-					24
+					17
 				},
 				{
 					0,
@@ -514,223 +444,8 @@ pg.login = {
 			{
 				{
 					2022,
-					12,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[20] = {
-		id = 20,
-		login_static = "login",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[21] = {
-		id = 21,
-		op_play = 1,
-		login_static = "login",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2022,
-					12,
-					22
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2022,
-					12,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[22] = {
-		id = 22,
-		op_play = 1,
-		login_static = "login",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					2,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					1,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[23] = {
-		id = 23,
-		op_play = 1,
-		login_static = "login",
-		login_cri = "loginbg_0223",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					2,
+					11,
 					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					2,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					8
 				},
 				{
 					23,
@@ -743,20 +458,107 @@ pg.login = {
 	[24] = {
 		id = 24,
 		login_static = "login",
-		date = "stop",
 		op_play = 0,
 		op_time = "",
 		login_cri = "loginbg_230401",
-		bgm = "login-2022401jp"
+		bgm = "login-2022401jp",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[25] = {
+		id = 25,
+		login_static = "login_20230401us",
+		op_play = 0,
+		op_time = "",
+		login_cri = "login_20230401us",
+		bgm = "theme-fool23-en-long",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[27] = {
 		id = 27,
 		login_static = "login",
-		date = "stop",
 		op_play = 0,
 		op_time = "",
 		login_cri = "",
-		bgm = "doa_guanqia"
+		bgm = "doa_guanqia",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					5,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[28] = {
 		id = 28,
@@ -782,7 +584,7 @@ pg.login = {
 				{
 					2023,
 					6,
-					15
+					14
 				},
 				{
 					23,
@@ -855,9 +657,8 @@ pg.login = {
 	},
 	[30] = {
 		id = 30,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -878,7 +679,33 @@ pg.login = {
 				{
 					2023,
 					7,
-					20
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2023,
+					7,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					7,
+					19
 				},
 				{
 					23,
@@ -912,7 +739,7 @@ pg.login = {
 				{
 					2023,
 					8,
-					23
+					30
 				},
 				{
 					23,
@@ -938,51 +765,7 @@ pg.login = {
 				{
 					2023,
 					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[32] = {
-		id = 32,
-		login_static = "login_0817_1",
-		date = "stop",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = ""
-	},
-	[33] = {
-		id = 33,
-		login_static = "login",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					7
+					30
 				},
 				{
 					23,
@@ -1063,37 +846,11 @@ pg.login = {
 	},
 	[36] = {
 		id = 36,
+		date = "stop",
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					9,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		op_time = {
 			{
 				{
@@ -1123,37 +880,11 @@ pg.login = {
 	},
 	[37] = {
 		id = 37,
+		date = "stop",
 		op_play = 1,
 		login_static = "login_0929",
 		login_cri = "",
 		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		op_time = {
 			{
 				{
@@ -1183,11 +914,37 @@ pg.login = {
 	},
 	[38] = {
 		id = 38,
-		date = "stop",
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					9,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					10,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		op_time = {
 			{
 				{
@@ -1455,7 +1212,7 @@ pg.login = {
 				{
 					2023,
 					12,
-					7
+					6
 				},
 				{
 					23,
@@ -1467,19 +1224,70 @@ pg.login = {
 	},
 	[44] = {
 		id = 44,
-		login_static = "login",
-		date = "stop",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2023,
+					12,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					1,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[45] = {
 		id = 45,
 		login_static = "login",
 		date = "stop",
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
 		login_cri = "",
 		bgm = ""
 	},
@@ -1508,7 +1316,7 @@ pg.login = {
 				{
 					2024,
 					2,
-					22
+					21
 				},
 				{
 					23,
@@ -1520,9 +1328,8 @@ pg.login = {
 	},
 	[47] = {
 		id = 47,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1543,7 +1350,33 @@ pg.login = {
 				{
 					2024,
 					3,
-					14
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
 				},
 				{
 					23,
@@ -1555,9 +1388,8 @@ pg.login = {
 	},
 	[48] = {
 		id = 48,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1586,15 +1418,41 @@ pg.login = {
 					59
 				}
 			}
+		},
+		op_time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
-	[49] = {
-		id = 49,
-		login_static = "login_0401",
+	[51] = {
+		id = 51,
+		login_static = "login_20240401us",
 		op_play = 0,
 		op_time = "",
-		login_cri = "",
-		bgm = "votefes-start",
+		login_cri = "login_20240401us",
+		bgm = "login-20240401us",
 		date = {
 			"timer",
 			{
@@ -1625,9 +1483,8 @@ pg.login = {
 	},
 	[52] = {
 		id = 52,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1648,7 +1505,33 @@ pg.login = {
 				{
 					2024,
 					4,
-					11
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
 				},
 				{
 					23,
@@ -1660,9 +1543,8 @@ pg.login = {
 	},
 	[53] = {
 		id = 53,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1683,7 +1565,33 @@ pg.login = {
 				{
 					2024,
 					5,
-					9
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					8
 				},
 				{
 					23,
@@ -1718,7 +1626,7 @@ pg.login = {
 				{
 					2024,
 					6,
-					13
+					12
 				},
 				{
 					23,
@@ -1730,9 +1638,8 @@ pg.login = {
 	},
 	[55] = {
 		id = 55,
+		op_play = 1,
 		login_static = "login",
-		op_play = 0,
-		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1761,22 +1668,13 @@ pg.login = {
 					59
 				}
 			}
-		}
-	},
-	[56] = {
-		id = 56,
-		login_static = "login",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
+		},
+		op_time = {
 			{
 				{
 					2024,
-					8,
-					15
+					7,
+					11
 				},
 				{
 					0,
@@ -1787,8 +1685,8 @@ pg.login = {
 			{
 				{
 					2024,
-					8,
-					29
+					7,
+					18
 				},
 				{
 					23,
@@ -1797,6 +1695,15 @@ pg.login = {
 				}
 			}
 		}
+	},
+	[56] = {
+		id = 56,
+		login_static = "login_20240815us",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
+		login_cri = "login_20240815us",
+		bgm = ""
 	},
 	[57] = {
 		id = 57,
@@ -1861,37 +1768,11 @@ pg.login = {
 	[59] = {
 		id = 59,
 		login_static = "login",
+		date = "stop",
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					10,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					11,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[60] = {
 		id = 60,
@@ -1918,7 +1799,7 @@ pg.login = {
 				{
 					2024,
 					12,
-					5
+					4
 				},
 				{
 					23,
@@ -1931,37 +1812,11 @@ pg.login = {
 	[61] = {
 		id = 61,
 		login_static = "login",
+		date = "stop",
 		op_play = 0,
-		op_time = "",
+		op_time = "stop",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[62] = {
 		id = 62,
@@ -1988,7 +1843,7 @@ pg.login = {
 				{
 					2025,
 					2,
-					6
+					5
 				},
 				{
 					23,
@@ -2022,7 +1877,7 @@ pg.login = {
 				{
 					2025,
 					3,
-					1
+					12
 				},
 				{
 					23,
@@ -2048,7 +1903,7 @@ pg.login = {
 				{
 					2025,
 					3,
-					1
+					12
 				},
 				{
 					23,
@@ -2060,9 +1915,8 @@ pg.login = {
 	},
 	[64] = {
 		id = 64,
-		login_static = "login",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -2091,17 +1945,68 @@ pg.login = {
 					59
 				}
 			}
+		},
+		op_time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[65] = {
 		id = 65,
-		login_static = "login_0401",
 		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = "story-richang-light",
+		login_static = "login_20250401us",
+		login_cri = "login_20250401us",
+		bgm = "login-20250401us",
 		date = {
 			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
 			{
 				{
 					2025,
@@ -2130,18 +2035,68 @@ pg.login = {
 	},
 	[66] = {
 		id = 66,
-		login_static = "login",
-		date = "stop",
 		op_play = 0,
-		op_time = "",
+		login_static = "login",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2025,
+					4,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[67] = {
 		id = 67,
-		login_static = "login_0424",
-		op_play = 0,
-		op_time = "",
+		op_play = 1,
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -2161,8 +2116,34 @@ pg.login = {
 			{
 				{
 					2025,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2025,
 					4,
-					30
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					7
 				},
 				{
 					23,
@@ -2175,8 +2156,16 @@ pg.login = {
 	[68] = {
 		id = 68,
 		login_static = "login",
+		date = "stop",
 		op_play = 0,
 		op_time = "",
+		login_cri = "",
+		bgm = ""
+	},
+	[69] = {
+		id = 69,
+		op_play = 0,
+		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -2185,7 +2174,7 @@ pg.login = {
 				{
 					2025,
 					5,
-					1
+					20
 				},
 				{
 					0,
@@ -2197,7 +2186,33 @@ pg.login = {
 				{
 					2025,
 					5,
-					8
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2025,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					28
 				},
 				{
 					23,
@@ -2206,15 +2221,6 @@ pg.login = {
 				}
 			}
 		}
-	},
-	[69] = {
-		id = 69,
-		login_static = "login",
-		date = "stop",
-		op_play = 0,
-		op_time = "",
-		login_cri = "",
-		bgm = ""
 	},
 	[70] = {
 		id = 70,
@@ -2253,12 +2259,63 @@ pg.login = {
 	},
 	[71] = {
 		id = 71,
+		op_play = 1,
 		login_static = "login",
-		date = "stop",
-		op_play = 0,
-		op_time = "",
 		login_cri = "",
-		bgm = ""
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[72] = {
 		id = 72,
@@ -2320,34 +2377,45 @@ pg.login = {
 			}
 		}
 	},
+	[4001] = {
+		id = 4001,
+		login_static = "login_20231116us",
+		date = "stop",
+		op_play = 0,
+		op_time = "",
+		login_cri = "login_20231116us",
+		bgm = ""
+	},
+	[4002] = {
+		id = 4002,
+		login_static = "login_20241114us",
+		date = "stop",
+		op_play = 0,
+		op_time = "",
+		login_cri = "login_20241114us",
+		bgm = ""
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
+		6,
 		7,
 		8,
 		9,
 		10,
 		11,
 		13,
-		14,
-		15,
-		16,
-		19,
-		20,
-		21,
-		22,
-		23,
+		18,
 		24,
+		25,
 		27,
 		28,
 		29,
 		30,
 		31,
-		32,
-		33,
 		34,
 		35,
 		36,
@@ -2363,7 +2431,7 @@ pg.login = {
 		46,
 		47,
 		48,
-		49,
+		51,
 		52,
 		53,
 		54,
@@ -2383,6 +2451,8 @@ pg.login = {
 		69,
 		70,
 		71,
-		72
+		72,
+		4001,
+		4002
 	}
 }

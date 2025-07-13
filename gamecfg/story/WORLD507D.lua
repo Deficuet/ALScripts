@@ -8,7 +8,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这一片不像是塞壬设施的残骸，反而有一些我们的风格……",
+			say = "This debris doesn't appear Siren in origin. It appears man-made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

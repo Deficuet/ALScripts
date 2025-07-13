@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "夜色渐深，游乐园的灯光愈发明亮。",
+			say = "The veil of night descends, and the park's lighting shines even brighter.",
 			bgm = "story-fantasyland-light",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得没错的话……嗯，就是这里。",
+			say = "If I remember right, it should be riiight... here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "旋转小罐罐~！",
+			say = "Yaaay! The spinning cups!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "{namecode:33:睦月}发出一声欢呼，便迫不及待地冲向了设施内部。",
+			say = "Mutsuki jumps for joy and runs toward the attraction at full speed as soon as she sees it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真是的，别跑那么快！",
+			say = "Watch your step, or you'll trip!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}看了一眼我与{namecode:161:天城}，明显纠结了一下后选择了去追{namecode:33:睦月}。",
+			say = "Akagi looks at me and Amagi and hesitates for a moment, then runs after Mutsuki anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "呵呵……",
+			say = "Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "无事。只是{namecode:161:天城}十分开心，情之所至……便笑了。",
+			say = "It's nothing. Seeing her like that, I just couldn't help but laugh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了，关于这个梦境，我一直有个疑问。",
+			say = "True. Also, there's a thing I've been wondering about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原本只是模糊的想法，但你刚刚那一笑，便加深了我的疑问。",
+			say = "It started as just a vague hunch, but seeing you smile, I'm sure about it now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "哦？主上的想法是？",
+			say = "Oh? What are you sure about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你构筑这个梦境的目的，其实并不全是让我来做游乐园扩建用的吧。",
+			say = "That you didn't create this dream just for me to review redesign plans for the amusement park. I'm right, aren't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "主上既然已有结论，又何须问我呢？",
+			say = "If you feel you're certain about it, then there is no need for me to answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "{namecode:161:天城}的所思所想，主上已然猜中，不是么？",
+			say = "You already know it in your heart. You know how I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}用盈满笑意的剔透双眸看向我。",
+			say = "She looks at me with clear eyes that make no attempt to conceal a smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "姐姐——指挥官——",
+			say = "Commander! Dear sister!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快点过来吧！",
+			say = "Come here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "嗯，来了~",
+			say = "Of course. I'll be right there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "主上，我们快些过去，别让{namecode:91:赤城}和{namecode:33:睦月}等急了。",
+			say = "Let's go, Commander. Akagi and Mutsuki are waiting for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。",
+			say = "Right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "来到了旋转蜜罐前，{namecode:33:睦月}早已是一副迫不及待的模样。",
+			say = "When we arrive at the spinning cups – technically, they're honeypots, but I digress – Mutsuki's eyes already gleam with anticipation to get on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301324,
-			say = "{namecode:33:睦月}要坐！",
+			say = "They're like cotton candy – big, round, and sweet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301324,
-			say = "小罐罐~甜甜的，像{namecode:33:睦月}手里的棉花糖！",
+			say = "I wanna ride them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别急，等它停稳再上去。",
+			say = "Settle down. You have to wait for them to stop first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "知道辣。",
+			say = "Okey-dokey!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "等到设施停稳后，{namecode:33:睦月}第一个冲了上去。",
+			say = "The attraction comes to a stop, and she boards a cup immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301324,
-			say = "{namecode:91:赤城}姐姐也一起！",
+			say = "Ride with me, Akagi!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……就非要我和你一起么？",
+			say = "Does it HAVE to be me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "呵呵，难得这孩子这样粘你，不如就陪她一起玩吧？",
+			say = "She doesn't display this affection for you every day. Why not indulge her, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对啊对啊！{namecode:91:赤城}姐姐来和{namecode:33:睦月}一起玩嘛！",
+			say = "Yeah! Play with me, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……好吧。",
+			say = "Fine, if you insist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}摇了摇头，有些无奈地和{namecode:33:睦月}坐进了同一个蜂蜜罐。",
+			say = "Akagi shakes her head reluctantly, then sits in Mutsuki's cup with an exasperated expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们也上去吧。来，把手给我，我扶你进去。",
+			say = "We should ride it, too. Give me your hand and I'll help you get in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "嗯，那就有劳主上了。",
+			say = "Certainly. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			bgName = "bg_fantasyland_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "待我与{namecode:161:天城}双双坐稳后，旋转蜂蜜罐开始了转动。",
+			say = "All of us take a seat, and the cups start to gently spin around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg1",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "怎么了，{namecode:161:天城}？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,21 +591,7 @@ return {
 			bgName = "bg_fantasyland_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "少女一反平时的落落大方，此刻面上尽是紧张忐忑之色。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307151,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_fantasyland_cg1",
-			say = "只是忽然意识到，这样和主上坐在同一个蜂蜜罐中，如此……像是“约会”一般。",
+			say = "Ordinarily so calm and collected, Amagi looks both tense and confused for some reason.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,31 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg1",
-			say = "先前于城堡之中虽然亲密，但……现在的气氛确是与那时截然不同。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_fantasyland_cg1",
-			hidePaintObj = true,
-			hidePainting = true,
-			say = "说话间，远处的第二轮烟花表演也开始了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_fantasyland_cg1",
-			hidePaintObj = true,
-			hidePainting = true,
-			say = "夜色再度被绚烂的烟火点亮，也让我清楚地看见少女剔透双眸中的自己的倒影。",
+			say = "Oh, it's nothing... It just occurred to me that this feels somewhat like a date between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg1",
-			say = "主上，于{namecode:161:天城}而言，今日亦是幸福的美梦。",
+			say = "Although we were alone in the castle before, the mood feels quite different now than it did then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +631,7 @@ return {
 			bgName = "bg_fantasyland_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "淡淡的红晕浮上{namecode:161:天城}的白皙的面颊。",
+			say = "Meanwhile, in the background, the second round of fireworks begins all of a sudden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +643,45 @@ return {
 			bgName = "bg_fantasyland_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "然后是她伸出的手，十指与我紧紧相扣。",
+			say = "Their vivid lights illuminate the dark sky. From their light, I can see myself reflected in her mirror-like eyes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307151,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_fantasyland_cg1",
+			say = "Commander, this has been a wonderful day and a wonderful dream for me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_fantasyland_cg1",
+			hidePaintObj = true,
+			hidePainting = true,
+			say = "A tinge of pink crosses her fair cheeks.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_fantasyland_cg1",
+			hidePaintObj = true,
+			hidePainting = true,
+			say = "She stretches out her hand and meets mine, locking fingers with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "无论是此处的梦境，还是醒来之后的现实。",
+			say = "I swear that I will never, ever leave you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "{namecode:161:天城}都永远不会放开主上的手。",
+			say = "Not in this perfect dream, nor in reality once we awaken.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,7 +740,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "{namecode:161:天城}姐姐，指挥官，你们在干什么呀？",
+			say = "Comainder, Amagi, what are you doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "……！",
+			say = "Ah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			bgName = "bg_fantasyland_cg2",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "突如其来的声音让{namecode:161:天城}本能地想要将手缩回去。",
+			say = "Caught off guard by having her name called, she instinctively tries to pull back her hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			bgName = "bg_fantasyland_cg2",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "但反应了片刻后，她只是摇晃了一下尾巴，将我们紧握的双手藏了起来。",
+			say = "But, after a moment's hesitation, she just wags her tails and hides our joined hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "我们在说游乐园的烟花呢。{namecode:33:睦月}，你看那边。",
+			say = "We're talking about the fireworks. Look, over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "哦哦！烟花好看！",
+			say = "Whoa! Fireworks! So pretty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "欸嘿嘿，和指挥官一起玩~开心！",
+			say = "Heehee! Riding the spinning cups with the Comainder is so much fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,7 +850,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明是我在陪你坐蜂蜜罐才对吧！",
+			say = "You're not with the Commander, you're with ME, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_fantasyland_cg2",
-			say = "欸……难道{namecode:91:赤城}姐姐不开心？",
+			say = "Yeah, but... Hey, are you upset?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那倒也没有。",
+			say = "No. Not really.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "从安全停稳的旋转蜂蜜罐上下来后，{namecode:33:睦月}仍显得有些依依不舍。",
+			say = "The cups come to a complete stop and we get out. Mutsuki, however, still hasn't had enough fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:33:睦月}还想玩……",
+			say = "I wanna ride something else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "闭园时间要到了，我们该回去了。",
+			say = "Sorry, but we have to go home. It's closing time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "已经要结束了么……",
+			say = "Alas, it's over already...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "少女的声音里透露出一丝失落。",
+			say = "Akagi sounds vaguely disappointed about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -970,7 +970,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "嗯……主上，在闭园前应该还有一些别的小项目能让{namecode:33:睦月}玩一下。",
+			say = "Not quite, Commander. There are a few quick things we could still do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "就由我带她去吧。",
+			say = "Allow me to look after Mutsuki.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -997,7 +997,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好啦~！{namecode:33:睦月}还能玩，嘿嘿~",
+			say = "Yaaay! I get to have more fun! Heehee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1021,7 +1021,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307151,
-			say = "相对的，{namecode:91:赤城}就拜托你了哦~",
+			say = "In return, please keep Akagi company.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐？",
+			say = "Wait... Me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}笑着拍了拍{namecode:91:赤城}的手后，便带着{namecode:33:睦月}离开了。",
+			say = "Amagi smiles and pats Akagi on the hand, then takes Mutsuki and leaves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那……我们也走吧？",
+			say = "Alright, well... Should we go somewhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（既然是姐姐主动给我创造的和指挥官独处的机会，那就更不能浪费了……呵呵呵……）",
+			say = "(She hatched a plan so I could be alone with the Commander... Thank you, dear sister. I will not let this opportunity go to waste. Heehee...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1084,7 +1084,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "嗯~！无论指挥官要带{namecode:91:赤城}去哪里，{namecode:91:赤城}都会欣然前往的哦♡",
+			say = "Yes, let's! I'll gladly accompany you no matter where we're going♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,7 +1097,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了指挥官，下次……您可以和{namecode:91:赤城}两个人一起去坐摩天轮么？",
+			say = "Oh, but if I may make a suggestion – next time, won't you ride the Ferris wheel with me, please?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1111,7 +1111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			say = "没有其他人打扰，只有您和{namecode:91:赤城}两个人。然后……呵呵呵……",
+			say = "There'll be no one to disturb us. We'll be all to ourselves. And then... Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1124,7 +1124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（在摩天轮升到最高的时候，就能用亲吻许下永不背叛的爱的誓言了呢。）",
+			say = "(Once we reach the peak of the Ferris wheel, I'll kiss you and pledge my eternal, unwavering love to you.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，我答应你。",
+			say = "Alright. I promise we'll do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1149,7 +1149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好的♪呵呵，呵呵呵呵……",
+			say = "It's going to be so wonderful! Hehehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1165,7 +1165,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "少女笑着，然后伸出小指勾住了我的小指。",
+			say = "She lets out a sweet laugh, then extends her hand and wraps her little finger around mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉勾~这样一来，就是您和{namecode:91:赤城}约定好了的证明哦~♪",
+			say = "It's a pinky promise! We've officially struck an agreement, you and I♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1194,7 +1194,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "赤红的狐尾轻轻摇曳，她的身后是依旧绚丽的烟花。",
+			say = "Her reddish tails wag joyously while brilliant fireworks burst in the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1205,7 +1205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "这一刻，仿佛永恒。",
+			say = "This moment feels like an eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

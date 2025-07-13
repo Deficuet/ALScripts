@@ -11,7 +11,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余烬的火力还……真是夸张…………我们全员加起来的航空火力都无法跟余烬的{namecode:94}相提并论……",
+			say = "The Ashes are something else! Just one of them is enough to match the firepower of several of us...",
 			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "不过我们和余烬方舟的火力差不多哦！",
+			say = "I'm just glad we were somehow able to make up for the reduction of Ark Royal's power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来余烬舰队成员彼此之间的战斗力也存在较大差别，并不是都是那样战斗力强到反常。",
+			say = "(Actually, I feel like we did more than just make up for it. I've heard the Ashes differ in how strong they each are, but I guess the gap between them and us isn't as big as we thought.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "嘿嘿，作战收获情报加一条~",
+			say = "(This is crucial information for us. I'll have to add it in my report to the Commander later.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "就是这条情报在这种场合下真不知道应该算好消息还是坏消息……",
+			say = "It's pretty troubling that we don't have a grasp on the true strength of the Arbiters. Stay focused.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仲裁机关深不可测的实力真令人发毛……难怪强如余烬也会对它们如此忌惮。",
+			say = "One thing's for sure though – they're strong enough to keep the Ashes on the back foot. The moment we underestimate them may be our undoing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此处实验舰队呈现出高于预测值的战斗力，十分有趣的现象。",
+			say = "Look at that, the test subject fleet possesses firepower exceeding our estimates. This is some interesting data.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "经过之前的战斗，参数不是已经修正过了么？",
+			say = "Did we not just calibrate the parameters of our test vessels?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "修正过了，然后依然产生了偏差——很有趣吧？",
+			say = "Seems there's a discrepancy between our simulated and actual performance. Saving the data log for later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "司特莲库斯，改变重力场环境。",
+			say = "Anyway... Strength, go ahead and crank up the gravity fluctuations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "明白。",
+			say = "On it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机关系统IX=VIII连协干扰机制，启动。",
+			say = "Executing IX-XIV Linked Jamming Protocol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

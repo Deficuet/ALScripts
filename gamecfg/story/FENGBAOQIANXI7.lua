@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-4",
-			say = "白鹰近海 警戒海域外边界 Risk 3",
+			say = "Hostile territory perimeter \n\tSiren Threat Assessment Rating: 4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "结果一路下来真的连点像样的抵抗都没有...",
+			say = "They didn't stage anything even resembling an organized attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是塞壬兵力空虚这个程度的话，我们真的需要考虑发动全面反攻了",
+			say = "Have we gotten really good, or did the Sirens just stop trying?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要掉以轻心，我们严重缺少危险海域内部的情报，之后的战斗可能不会这么顺利了",
+			say = "Don't make me keep saying it. Keep your guard up while we're in hostile territory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，既然现在派我们去里面收集情报，说明司令部绝对已经开始考虑反攻计划了吧~",
+			say = "But they're giving us the chance to take back territory they stole from us... Maybe that was always part of the plan, and that's why we prepared so much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？奇怪...现在已经到定时联络时间了，大家有收到任何消息么？",
+			say = "Uh, guys? My transceiver's bugging out on me... Anyone else getting a signal?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Transceiver",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滋-----滋-------滋-----",
+			say = "KRRRRRRRRRHHHHHHH...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行，通讯器里只有杂音在响",
+			say = "Nope... Nothing but static.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "杂音...这好像是通讯干扰啊。糟糕，我们被孤立在海上了！",
+			say = "Hang on, lemme check... Oh, I knew it! Someone or something is jamming our comms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然塞壬不会放我们轻松执行任务...！",
+			say = "Dammit! They must've lured us into a trap!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业，还要继续前进么？",
+			say = "Enterprise, what do we do? Do we keep going, or pull out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果按照预案，在海域执行任务的侦察舰队在遭遇干扰时，应该立刻中断一切任务撤回最近的港口",
+			say = "... We're pulling out. Our orders are not to take unnecessary risks, and to keep going forward would be one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔...安全优先，舰队掉转航向，保持最大战速，我们返回纽约港",
+			say = "All ships, 180-degree turn! We're heading back to NY City!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

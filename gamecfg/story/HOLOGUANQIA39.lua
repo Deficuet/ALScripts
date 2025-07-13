@@ -11,7 +11,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止了，你这个冒牌货！！居然敢破坏本诗音大人辛辛苦苦搭建的过山车！",
+			say = "That's the end of the line for you, imposter! How dare you blow up the roller coaster that I made!",
 			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
@@ -26,9 +26,9 @@ return {
 			actor = 10500060,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "诗 音",
+			actorName = "Sh I On",
 			dir = 1,
-			say = "……?",
+			say = "...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "名…名字又带空格！祭有种非常强烈不好的预感",
+			say = "She has spaces between her name again! I have a bad feeling about this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500060,
 			dir = 1,
-			actorName = "诗 音",
-			say = "…祭酱？",
+			actorName = "Sh I On",
+			say = "... Matsuri?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500060,
 			dir = 1,
-			actorName = "诗 音",
-			say = "祭↓祭↓祭↓祭↑啊啊啊啊阿!!!!!啊啊，啊啊啊啊！啊！祭↓祭↓祭↑啊啊啊啊啊！",
+			actorName = "Sh I On",
+			say = "MatsuriMatsuriMatsuriii! Ahhhh! Ahhh! MatsuriMatsuriMatsuri! *sniff* *sniff* Haaaaah.... haaaah...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊啊啊啊啊！快停下！快停下啊啊！！！！",
+			say = "Eeehhhhh? Stop! Stop that this instant!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "噢？！这次是一般友情小诗音么！真可爱呐~",
+			say = "Oh? It's Shion this time. How cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到诗音小姐，也有性格这么热烈的一面啊…",
+			say = "Does Shion sometimes act like this too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！这是诗音酱原本也存在这种个性么，我还以为测试者的装置终于出问题了",
+			say = "I think Tester's device broke...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个只是一时兴起的黑历史，才不是本性啦啊啊啊啊阿！！！",
+			say = "Those were truly dark times! Forget you ever saw this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "同一个Neta玩两次，设计者的大忌",
+			say = "This is a recycled plot. The Sirens must be punished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Neeeeeeee！大家别顾着看热闹，快帮我阻止她啊！！",
+			say = "Neeeeee! Stop staring and help me stop this thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,8 +243,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500060,
 			dir = 1,
-			actorName = "诗 音",
-			say = "新意不足么…没关系，诗音还准备了一个大招呢",
+			actorName = "Sh I On",
+			say = "You haven't had enough yet? But it's not a problem! I still... have another trump card!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			actor = 10500060,
 			dir = 1,
-			say = "你还打算做什么啊？！",
+			say = "Eh? You're going to get even cringier?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,8 +276,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500060,
 			dir = 1,
-			actorName = "诗 音",
-			say = "要开始了哦~有一些事，想要说给你听啊！果然祭酱，是最可爱的啊！喜欢你，喜欢你，最------",
+			actorName = "Sh I On",
+			say = "I have something to prove after all! Matsuri, you're so cute! I love you! I love you so much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 10500060,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "EX--------------Plosion！！！！！！！！！！！！！！！！！！！",
+			say = "EX... PLOSION ! ! ! !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

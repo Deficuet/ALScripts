@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>权限验证中————————————</size>",
+					"Access authentication in progress–––",
 					0.5
 				},
 				{
-					"<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>",
+					"Archived data from [CV-3 Saratoga] –– Access Level: II",
 					1
 				},
 				{
-					"<size=51>权限验证完毕————————————</size>",
+					"Access authentication successful–––",
 					1.5
 				},
 				{
-					"<size=51>数据解析中————————————</size> ",
+					"Accessing data–––",
 					2
 				},
 				{
-					"<size=51>正在播放纪录————————————</size>",
+					"Starting data playback–––",
 					2.5
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "————6月5日",
+			say = "\"–––Action Report Records\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "大约十分钟前，收到了约克城受损情况的照片……",
+			say = "\"Aircraft carrier Yorktown was heavily injured during the Siren offensive, but thanks to everyone's efforts, the Sirens were pushed back successfully.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "除了爆炸痕迹外，还有一些宛如结晶一般的细小颗粒附在舰装的碎裂口和约克城的身体上……",
+			say = "\"Damage Report Status ––– CV-5 Yorktown ––– Heavy Damage\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无法确定这些异常景象出现的原因是因为浓烟颗粒的附着还是拍照时的污渍。",
+			say = "\"Though her condition is stable, her rigging was heavily damaged, necessitating her to be transferred from the front lines for long-term medical care.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "也许二者都有，也许二者皆无……",
+			say = "\"–––In addition, the phenomenon of 'Microlayer' particulate matter adhesion to her rigging was confirmed.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗已成定局，我们胜利了。",
+			say = "Anyway, what's important is that we all made it back in one piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "塞壬果然开始了大规模进攻，继续拖下去将会面对无法预估的风险。",
+			say = "At least we retrieved Yorktown safely, though I have no idea what this \"Microlayer\" thing is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因此前线舰队正在离开前线……",
+			say = "After all, I was so focused on trying to stop the Sirens that I couldn't worry about other things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "……剩下的事，就交给我吧。",
+			say = "TB, sweetie, can you give me the details on what's going on with the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数据解析完毕————————————",
+			say = "Understood. Ending playback of recording log.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "播放结束————————————",
+			say = "Beginning search and analysis for the next recording log.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

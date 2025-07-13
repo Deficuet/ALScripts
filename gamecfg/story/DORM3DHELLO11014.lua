@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天的能量已经快耗尽了……Honey！我需要你来为我充能了！这次换你来摸摸我的头了，快点！",
+			say = "I'm all out of juice today... Honey, recharge me! It's your turn to give me headpats, so hop to it!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello14",
 			typewriter = {
 				speed = 0.05,

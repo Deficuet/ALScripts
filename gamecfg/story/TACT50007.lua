@@ -6,7 +6,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "在火力差距和被包夹的不利条件面前， 阿斯托利亚姐妹一方渐渐落了下风……",
+			say = "Under the withering fire of the enemies, Astoria and her sisters were quickly becoming overwhelmed by their enemies' superior numbers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,7 +17,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "阿斯托利亚姐姐！",
+			say = "Astoria!",
 			flash = {
 				delay = 0.3,
 				dur = 0.5,
@@ -41,7 +41,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "没事，我还坚持得住！",
+			say = "I'm all right... I can still keep fighting!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "姐姐……呜……",
+			say = "Sis... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "没事的，文森斯。",
+			say = "It'll be okay, Vincennes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "呼，在这么艰难的战斗里有两个妹妹在身边真是太好了呢，不然姐姐我也要忍不住哭鼻子了。",
+			say = "Heh. I'm lucky to have sisters like you two in such a tough fight. Otherwise I wouldn't be able to keep myself from crying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "阿斯托利亚姐姐……说的没错了。",
+			say = "Astoria... Big sister, that's right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
-			say = "嗯……没有姐姐们在，我也早就哭了。",
+			say = "Mm... as long as we're all together, Vincennes will also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "啊哈哈，那么，让我们准备最后的反击吧！",
+			say = "All right, let's make our final counterattack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

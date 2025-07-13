@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "虽然很想帮助落水的小动物，但盲目下水的危险性不容小觑。",
+			say = "As much as you want to save the animal, you don't want to put yourself in harm's way. What if you need rescuing next, after all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -16,7 +16,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "去附近喊人来帮忙或许是更明智的选择。",
+			say = "It's wiser to call for someone nearby to help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "在大家的齐心协力之下，对落水小动物的援助行动获得了成功。",
+			say = "With your friends' help, you manage to rescue the little critter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "小动物离开时留下了它的谢礼……这是对你冷静智谋的褒奖和证明。",
+			say = "It runs off, leaving behind a token of gratitude. You've been rewarded for your level-headed response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

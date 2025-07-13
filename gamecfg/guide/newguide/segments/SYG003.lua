@@ -1,10 +1,10 @@
 local var_0_0 = {
-	"<color=#ff7d36>军事委托</color>从这里进入",
-	"前往<color=#ff7d36>军事委托</color>",
-	"这里显示着今日的所有委托，<color=#ff7d36>每个委托耗时不同，消耗与奖励也不同</color>",
-	"点击看看详细要求吧",
-	"点击这里能看到当前的<color=#ff7d36>紧急委托</color>",
-	"<color=#ff7d36>紧急委托会在出击战斗时随机出现</color>，并且有时间限制，记得查看哦"
+	"Check <color=#ff7d36>Commissions</color> here.",
+	"Go to <color=#ff7d36>commissions</color>.",
+	"Here you can see today's available commissions. <color=#ff7d36>Each commission has different times, costs and rewards.</color>",
+	"Tap here to see the detailed requirements.",
+	"Tap here to check <color=#ff7d36>urgent ops</color>.",
+	"<color=#ff7d36>Urgent ops will appear randomly</color> and are available for a limited amount of time. Remember to keep an eye out!"
 }
 
 return {

@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "story-6",
-			say = "百慕大三角·第三舰队交战区",
+			say = "Bermuda Triangle - Essex Fleet Combat Zone",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据照片判断，至少有两位数的塞壬编队在周边海域徘徊。",
+			say = "According to the photos taken from the air, there are two Siren fleets patrolling this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "单从数量对比上来说，我们此战处于十分不利的位置",
+			say = "In terms of numbers, we're at an overwhelming disadvantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明只是佯攻路线，塞壬居然能抽出这么大规模的舰队迎接我们……",
+			say = "We're clearly just a decoy, but to think that the Sirens are still willing to face us with such numbers...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "企业前辈所在的主攻方向不知道变成什么样子了……",
+			say = "I wonder what kind of enemies Enterprise is fighting right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，换言之…只要我们这边能吸引的敌人越多，企业前辈那边的压力就会越小吧！",
+			say = "But, on the other hand... the more enemies we can draw to us, the more pressure we can take off of everyone else...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（奋笔急书中）",
+			say = "(scribbles frantically)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等、等等！你突然记些什么啊！",
+			say = "H-huh? What are you doing, Shangri-La?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "不用在意，只是例行的航海记录而已。",
+			say = "Don't worry about it, just keeping some regular old naval records.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“即便在身陷敌军重围之时，埃塞克斯心中依然挂念着企业前辈的安危”…？！！",
+			say = "\"Essex is getting all dreamy thinking about Enterprise even when completely surrounded by the enemy\" ...Whaaat?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "咕唔……！",
+			say = "H-hold on! I was merely considering the best way to minimize our losses!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 107090,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我们的迎击战术也有好好考虑啦！",
+			say = "What kind of naval records are these anyway? Jeez, don't get distracted with this kind of stuff!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "我明白，一会儿埃塞克斯活跃的身姿我也会好好记录下来的。",
+			say = "Of course I won't. After all, it falls upon me to record Essex's flustered expression for posterity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然希望能在准备更加充分地时候开战，不过士兵无法选择战场…",
+			say = "Jokes aside, I personally could use a bit more time to prepare, but you know how the saying goes... A soldier can't choose her battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			actor = 107380,
 			dir = 1,
-			say = "舰艏迎风，让塞壬见识一下自由的重量吧！",
+			say = "All ships, forward! Let's drop some freedom on those Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯级绝对不会输给任何人————",
+			say = "As an Essex-class, I can't afford to lose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "这一点，首先让塞壬切身体会一下！",
+			say = "Especially not to you Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

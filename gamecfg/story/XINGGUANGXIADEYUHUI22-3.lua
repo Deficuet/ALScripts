@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "天空之上，蓝色的星光冷漠地俯瞰着。",
+			say = "Blue stars glimmer in the inverted sky.",
 			bgm = "theme-starbeast",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到真的出现了……主宰级天外之兽。",
+			say = "A Lord class... It did appear after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "镜面海域屏障正在发生变化，看来{playername}阁下的想法也成功了。",
+			say = "The Mirror Sea is changing. The Commander must have succeeded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 401090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的能撑得住么。",
+			say = "A-are we going to be okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们无路可退，唯有全力一战。",
+			say = "We shall see. Fighting is our only choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "无数根触手如同缝合线，连接着天空与大海，试图将二者间的距离一寸寸拉近。",
+			say = "Countless feelers appear, reaching into the sky as though trying to stitch it and the sea together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "然而永恒之星向高空射出密集的弹幕，残破的触手碎片如同冰雹般崩落。",
+			say = "The Eternal Star's barrage of shells blow them to smithereens. The pieces fall back down into the sea like hailstones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "嗡——",
+			say = "BZZZZT!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "一阵又一阵奇异的响声传来，但其蕴含的能量都被一层不可见的屏障阻挡在外。",
+			say = "There is that odd sound again. Beams of energy are fired at me – but the Mirror Sea's protective barrier blocks them all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来计划有效。",
+			say = "It worked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "呵……你这东西也有今天，不是一向无往不利么？",
+			say = "Hah! Not so tough anymore! Your reign of terror is OVER!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "终于有报仇的机会了……",
+			say = "I can finally, finally have my revenge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:426:希佩尔}，别冲动，按计划行事。",
+			say = "Calm down, Hipper. Stick to the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "我知道。",
+			say = "Yeah, I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePainting = true,
-			say = "不过……屏障未必能拦住它。",
+			say = "Although... that barrier probably won't hold up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多撑一时，就多一分胜算。",
+			say = "It's sufficient to stall for time. Now we must come up with a countermeasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "集中火力攻击那些触手，延缓星之兽的降临！",
+			say = "All ships, focus fire on the tentacles! Stop the Star Beast's descent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

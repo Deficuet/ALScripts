@@ -2,13 +2,10 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION77",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION77",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
@@ -55,7 +52,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "是的，因为{dorm3d}您来和天狼星见面了。",
+			say = "是的，因为主人您来和Sirius见面了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +84,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "这是天狼星最为期待，也是最为开心的时刻。",
+			say = "这是Sirius最为期待，也是最为开心的时刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +93,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "和我骄傲的{dorm3d}独处一室，实在是令天狼星心潮澎湃……",
+			say = "和我骄傲的主人独处一室，实在是令Sirius心潮澎湃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +136,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "天狼星——",
+					content = "Sirius——",
 					flag = 2
 				}
 			}
@@ -179,7 +176,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "抱歉……我的{dorm3d}，是天狼星太心急了。",
+			say = "抱歉……我的主人，是Sirius太心急了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

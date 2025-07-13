@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "story-6",
 			dir = 1,
-			say = "法拉格特级驱逐舰杜威，向指挥官报到。",
+			say = "Farragut-class destroyer, Dewey, reporting for duty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 101400,
 			dir = 1,
-			say = "同样是法拉格特级驱逐舰，艾尔温，向指挥官报到。",
+			say = "I'm another Farragut-class destroyer, Aylwin. Reporting for duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "法拉格特级驱逐舰...你们就是现在留守长岛的防御舰队吗？",
+			say = "Are you two from the defense line?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -63,7 +63,7 @@ return {
 			side = 1,
 			actor = 101020,
 			dir = 1,
-			say = "是的…胜利小姐。",
+			say = "Yes we are, Miss Victorious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他人情况怎么样？！",
+			say = "What about the others?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "佯攻舰队成功吸引了塞壬的注意，我们才能趁机带着伤员突围出来…",
+			say = "The diversion force managed to draw the Sirens' attention away, giving us the opportunity to retreat with the wounded. But after that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			actor = 101400,
 			dir = 1,
-			say = "可是又能撤到哪里去呢，纽约港已经被包围，海面上又都是塞壬舰队…",
+			say = "We'd like to check back with the others, but the Siren fleet is blocking the way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 101400,
 			dir = 1,
-			say = "只靠我们实在是……",
+			say = "It's too much for just us to handle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 101020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不过，既然指挥官来了，就一定有办法…对吧！",
+			say = "B-but... as long as you're here, Commander, you'll think of something, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			},
 			options = {
 				{
-					content = "向她们保证",
+					content = "Reassure them",
 					flag = 1
 				}
 			}
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			actor = 103160,
 			dir = 1,
-			say = "放心，后面包在我们身上了！",
+			say = "Don't worry. You've done well. With Commander's help, we'll get through this",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "保持距离在后方航行，我们来保护你们的安全。",
+			say = "The goddess of victory is with you! We'll keep you two safe - just stay behind us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 101020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对、对了！伯明翰和朱诺还在带领舰队拖延塞壬净化者的行动，",
+			say = "V-Victorious! We received a transmission from Juneau and Birmingham, informing us that they made contact with an elite Siren!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			actor = 101020,
 			dir = 1,
-			say = "指挥官快去救救她们吧！",
+			say = "Commander, we should go save them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

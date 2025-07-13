@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飒爽之白\n\n<size=45>一 不速之客？</size>",
+					"White Gallantry\n\n<size=45>1 The Earliest Bird</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室前",
+			say = "Port - Just outside the office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和往常一样来到指挥室，正准备打开门时，一股莫名的违和感涌了上来。",
+			say = "I was just about to enter my office and resume another day of fleet management. Right as I put my hand on the doorknob, though, I sensed something was off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了吗？进来吧。",
+			say = "At last. Come on in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,23 +83,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "没错。违和感…是因为指挥室里已经有人了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "？？？",
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "怎么了？不进来吗？",
+			say = "Then I realized what it was. Someone had entered my office before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我来猜猜看好了。指挥官同志感到惊讶而不敢进入指挥室的理由是——",
+			say = "Well? Are you not coming in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,21 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想起来自己昨天晚上忘了锁门了，对吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "……！！",
+			say = "Then how about a bet? I think you're feeling too startled to enter the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后指挥官同志又想到，明明昨晚只有自己一个人在加班，为什么会有别人知道……",
+			say = "And the reason? You forgot to lock the door last night. Am I right, or am I wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,21 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一直这么站在指挥室前也不是办法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "虽然已经大概猜到谁在里面，不过呆站在这的话，周围舰船们的视线实在让人感到有些窘迫。",
+			say = "She was right. I gasped in surprise. How did she know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "实在是太好猜了，甚至都构不成赌注呢。",
+			say = "Now, I know what you're thinking. You're wondering how I deduced that when you were working late all by yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +175,51 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咔嚓",
+			say = "I couldn't just keep standing there, hesitant to enter my own office. It would be humiliating.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Besides, I was less worried about who's waiting for me inside than about the weird looks the ships in the hallway were giving me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "？？？",
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "The answer is blatantly obvious. So obvious that it's pointless to bet about.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "I opened the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我为什么会知道？原因其实也很简单，作为秘书舰，我比你早到了一点，并且为了早晨的准备工作而进入了指挥室，如此而已。",
+			say = "The reason I came early, of course, was to get everything in order to assume my role as your secretary.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "带着一副唯我独尊的表情，坐在办公位上的，正是北方联合的战列舰，苏维埃贝拉罗斯。",
+			say = "There in my chair sat Sovetskaya Belorussiya, claiming the throne as if she owned the place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看，这些是今天的演习预定和委托的资料，这些是其他伙伴们发来的提案书。看来每天你干的活也不少嘛。",
+			say = "Exercise plans, commission forms, and feedback from members of the fleet... Today's agenda looks to be jam-packed indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一身白色戎装的美丽女性轻轻敲了敲桌上的资料堆，站起身来。",
+			say = "The girl, clad in the Northern Parliament's signature white uniform, stood up. She softly thumped the stack of paperwork on the desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心。既然任命我当了秘书舰，自然会让你随心所欲的干你想干的，不过嘛……",
+			say = "At ease, Comrade. I'm as capable a secretary as they come. You're free to work me as you see fit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "完成了早晨准备工作的秘书舰朝这边走来，在耳边低声说道——",
+			say = "She had already finished the morning's preliminary work, which I was grateful for. She walked over to me and whispered into my ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "下次，可不要忘了锁门哦？",
+			say = "Next time, remember to lock the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

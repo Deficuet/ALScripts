@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=45>二　潜水体操！</size>",
+					"Submarine Subterfuge!\n\n<size=45>Chapter 2: Gato Do Your Stretches!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "潜水艇们集合到了演习海域进行训练。",
+			say = "I went to the exercise area to observe the submarines as they were practicing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一，二——！",
+			say = "One, two! Arms, legs, shoulders, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,22 +69,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = -30,
-					delay = 0,
-					dur = 0.2,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.2,
-					x = 0
-				}
 			}
 		},
 		{
@@ -94,8 +78,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:155}&鲦鱼",
-			say = "一，二——！",
+			actorName = "I-26 & Dace",
+			say = "One, two! Arms, legs, shoulders, too!",
 			subActors = {
 				{
 					actor = 108010,
@@ -111,22 +95,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = -30,
-					delay = 0,
-					dur = 0.5,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.5,
-					x = 0
-				}
 			}
 		},
 		{
@@ -135,7 +103,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "三，四——！",
+			say = "Three, four! Hips, back, stretch some more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,22 +111,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = 30,
-					delay = 0,
-					dur = 0.2,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.2,
-					x = 0
-				}
 			}
 		},
 		{
@@ -168,8 +120,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:414}&{namecode:154}",
-			say = "三，四~",
+			actorName = "U-81 & I-19",
+			say = "Three, four! Hips, back, stretch some more!",
 			subActors = {
 				{
 					actor = 308010,
@@ -185,22 +137,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = 30,
-					delay = 0,
-					dur = 0.2,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.2,
-					x = 0
-				}
 			}
 		},
 		{
@@ -209,7 +145,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "五，六——！",
+			say = "Five, six! Fingers, toes, that does the trick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,22 +153,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = -30,
-					delay = 0,
-					dur = 0.2,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.2,
-					x = 0
-				}
 			}
 		},
 		{
@@ -242,8 +162,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:156}&{namecode:415}",
-			say = "五，六……",
+			actorName = "I-58 & U-557",
+			say = "Five... six! Fingers, toes, that does the trick!",
 			subActors = {
 				{
 					actor = 408030,
@@ -259,29 +179,13 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					type = "move",
-					y = -30,
-					delay = 0,
-					dur = 0.2,
-					x = 0
-				},
-				{
-					type = "move",
-					y = 0,
-					delay = 0.5,
-					dur = 0.2,
-					x = 0
-				}
 			}
 		},
 		{
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "在大青花鱼的带领下，大家正做着热身运动。",
+			say = "It seemed that they were doing warmup stretches before going underwater.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +197,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来是腰！",
+			say = "And let's not forget to stretch our backs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +213,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先这样，再像这样……",
+			say = "Repeat! Lean back, lean forward! Back, forward...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +240,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "好的！这样一来“潜水前热身体操”就全部完成了呢！",
+			say = "That should do it for warmups! Everyone ready?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -370,7 +274,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，感觉身体都热起来了呢！",
+			say = "Sure am! I'm warmed up and ready to go!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -390,7 +294,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我只想快点到水里……",
+			say = "Let's start already...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +310,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，为什么{namecode:413}没有来呢？",
+			say = "Hey, wait a minute... Where's U-47?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +326,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说47吗？她比较喜欢一个人呆着呢。无论平时和训练，她都是几乎是一个人。",
+			say = "Not here, she's a lone wolf! She's basically all on her own both on and off duty, y'know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +342,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……",
+			say = "Huh. Well then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +358,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那下次就让我说服她一起来吧！",
+			say = "I'll just have to convince her to come with us next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +384,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这可能有点困难……",
+			say = "I doubt... that's going to work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +401,7 @@ return {
 			actor = 108020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，放心吧！我的话一定没问题的！",
+			say = "I can make anything work! If I can't convince her to come, then my name isn't Albacore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +415,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "大青花鱼看起来很自信的样子。",
+			say = "Albacore was brimming with confidence. She really did seem like she could do anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +425,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "说起来，刚刚那谜一般的热身运动一直是大青花鱼带领着大家在做。",
+			say = "I suppose self-confidence would also explain why she was teaching everyone her strange stretches just earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +436,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "似乎在这么短的时间里，她就已经和港区里的潜水艇们弄好关系了呢。",
+			say = "She only came to port a while ago, yet she had made friends with almost all the submarines here already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

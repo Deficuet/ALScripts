@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「重锤」",
+					"Hammer Unit",
 					1
 				},
 				{
-					"旗舰：苏维埃贝拉罗斯",
+					"Flagship: Sovetskaya Belorussiya",
 					2
 				},
 				{
-					"乔治地岛前哨站外围·冲突海域",
+					"Objective: Contain the Sirens' main force at the Crown",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在战役开始后不久，耀眼的极光便出现在天空中。",
+			say = "Not long after the start of the mission, aurora spread out in the sky above the shipgirls.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "明明还是白天……居然能在天空中生成如此耀眼的极光。",
+			say = "It's daytime... There shouldn't be an aurora at this time of day, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "塞壬的气象控制装置真是有着非凡的力量……",
+			say = "The Sirens' weather control device really is extraordinary...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "唔，与极光有关，难道涉及到地磁场的影响么……",
+			say = "Making an aurora would be connected to the weather control, jamming device, and magnetic fields...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话……",
+			say = "In that case...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "契卡洛夫同志，你有什么发现么？",
+			say = "Chkalov? Do you have any ideas?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "贝拉罗斯同志，你知道地磁倒转现象么？",
+			say = "Tell me, do you know the phrase \"geomagnetic reversal?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍微有所了解……",
+			say = "I only have cursory knowledge of it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似乎是地磁的两极在随着时间不断移动，磁场强度也在不断减弱……",
+			say = "That would be when the northern and southern poles of a planet weaken in magnetism and ultimately reverse polarity, correct?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最终磁场的南北极将会出现一次逆转？",
+			say = "Is that related to the Sirens... and to this aurora?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "没错，比如我们现在的北极点其实是磁场的南极，而南极点则是磁场的北极。",
+			say = "That's more or less right. This planet's magnetic extremity actually isn't at the Polar North. Observation has revealed that it is actually slowly moving towards it by the day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "可是之前我在研究所检查数据的时候，发现了一个值得在意的问题。",
+			say = "As such, you can calculate where it is moving to an extent, allowing you to predict some things about the protons and electrons... That is, er, the aurora. Namely, you can predict where and when it will appear, along with its strength.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "地磁南极的移动似乎正在加速，其轨迹正向着与地理北极点的位置移动。",
+			say = "The problem is that it's outright impossible for an aurora to appear in this location, unless it is an illusion created by the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "这个轨迹与过去的预测轨迹不同，而地理北极点的位置又恰好是清除者防守最严密的北极点要塞所在地……",
+			say = "Moreover, if there is a Siren base at the Polar North... Well, that's an issue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "或许磁场的异常变化与塞壬能够操纵极光之间存在某种关联……",
+			say = "Because if this aurora is real, it's likely that the Sirens are controlling the entire planet's magnetic field. That's what I'm getting at.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个观点我倒是第一次听说……",
+			say = "If you'll allow me to be frank, it all sounds absurd.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以你这次不但身负作战任务，还被委派了某些与地磁异常有关的调查任务？",
+			say = "Just checking... You didn't join the operation just to investigate this, did you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "啊哈哈，这倒没有……",
+			say = "Hah! Of course not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "此事目前还属于我个人的怀疑阶段，只是见到异常极光现象之后突然沉浸其中了。",
+			say = "I don't like taking on problems until I've witnessed them with my own two eyes. It's just that seeing it for myself helped me make a hypothesis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "非常抱歉，贝拉罗斯同志。",
+			say = "Sorry to trouble you, Comrade Belorussiya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无妨。第一次正式作战任务感觉如何？",
+			say = "Not a problem. So? What are your thoughts now that you've entered your first official battle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "倒是没什么特别的感觉，不过是从一个战场走向另一个战场罢了。",
+			say = "Nothing has changed. It's just another battlefield where I work to earn my keep. I'd say they're all the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "我为这一刻已经准备多时了，请放心。",
+			say = "Anyway, rest assured. I'm very prepared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "同志们，已经可以看到王冠的外边缘了哦。",
+			say = "Comrades, the Crown is in sight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "在舰队航线的前方，突兀出现的尖刺状的浮冰格外显眼。",
+			say = "In the distance stood the icy, crown-like singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
-			say = "向更远处望去，巨大的“王冠”刺破海平线，在天空下投射出巨大的剪影。",
+			say = "The countless hunks of ice floating at its tips cast shadows from beyond the clouds, making for an uncanny sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "这就是王冠……曾经余烬的企业没能开启成功，而后又被塞壬占据的奇异点……",
+			say = "The Crown... A singularity opened by Code G of the Ashes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "我还是第一次来到距离“王冠”如此近的地方……",
+			say = "Hearing that the Sirens had conquered it was one thing, but now that I can get such a close-up look at it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "有趣……不知道其内部现在是什么状态呢。",
+			say = "I'm so curious to find out what's happened to the inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "会和NA海域中心旋涡的情况相同么，还是说……",
+			say = "Would it be like the NA Ocean the Commander described, or would it connect to a different Mirror Sea like the Tower of Midgard?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 799010,
-			say = "呵呵呵，不论如何值得彻底调查一番……",
+			say = "If I ever get the chance, I'd die to check it out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，契卡洛夫同志，有干劲是好事，不过夺回王冠可是战役下一阶段才需要操心的事哦？",
+			say = "Unfortunately, the dying will have to wait, Chkalov.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现阶段我们只需要在这里大闹一番，尽可能把清除者的舰队吸引过来就好。",
+			say = "While investigating the Crown is a long-term priority, our current objective is to attract Omitter's attention.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相应的，我们这边也要承受巨大的攻击压力，有信心么，同志们？",
+			say = "That will mean taking the brunt of their enormous forces. We don't have the luxury of fantasizing about anything else. Comrades! Do you still believe that you can rise above this challenge?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701100,
-			say = "没问题。就算是再厚的冰，基辅也能击碎。",
+			say = "No problems here. No matter how strong the enemy is, I will fight. And I will win.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "哈哈哈，那是自然~",
+			say = "Hahahahaha! That's the spirit!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705010,
-			say = "我来这附近轮战也不是一次两次了，对这种工作算是轻车熟路~",
+			say = "I fought here once before the Crown opened! Of course I can win!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我是第一次来前线参与作战任务，但也请放心包在我身上。",
+			say = "It's my first time out on the front lines, but it seems like I'm on the winning side. I'll help out where I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			actor = 799010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "北方联合计划舰的作战实力，我相信一定能够达到让清除者大吃一惊的程度的。",
+			say = "By the way, I am a blueprint ship, so I bet I could even throw Omitter for a loop.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "很好，那就让我们向前迎战“王冠”，让清除者吃点苦头吧！",
+			say = "Good. Let us charge for the Crown and drag Omitter out of hiding!",
 			painting = {
 				alpha = 0.3,
 				time = 1

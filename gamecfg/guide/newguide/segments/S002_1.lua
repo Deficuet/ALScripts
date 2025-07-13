@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"前往查看<color=#ffde38>建造</color>详情！",
-	"点击<color=#ffde38>建造队列</color>查看建造进程",
-	"已经完成建造 点击下水仪式"
+	"Let's check out <color=#ffde38>build</color> details!",
+	"Tap <color=#ffde38>queue</color> to see construction progress.",
+	"Construction complete! Now, tap <color=#ffde38>deploy</color>."
 }
 
 return {

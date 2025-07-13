@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "在你的面前……就会想尝试一下呢。",
+			say = "I get the urge to try something like this when I'm with you.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_furniture3_tone1",
 			typewriter = {
 				speed = 0.05,

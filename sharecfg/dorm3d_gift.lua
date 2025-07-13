@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.dorm3d_gift = {
 	[1021001] = {
-		name = "绒兔布偶",
-		display = "粉色的兔子布偶，采用柔软织物填充。抱在怀中十分舒适。",
+		name = "Bunny Plushie",
+		display = "A pink stuffed bunny with a scarf. It's made of soft materials that make you want to hug it all day.",
 		rarity = 2,
 		unlock_dialogue_id = 0,
 		shop_id = "",
@@ -58,12 +58,12 @@ pg.dorm3d_gift = {
 	},
 	[1021002] = {
 		ship_group_id = 0,
-		display = "花束散发着迷人的香气。玫瑰与其它红色为主的花卉彰显着它所代表的热烈与浪漫。",
+		display = "This bouquet exudes a rich, captivating aroma. Both the roses and the other red flowers are practically dripping with emotion and romance.",
 		rarity = 3,
 		unlock_dialogue_id = 0,
 		id = 1021002,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift2",
-		name = "浪漫满分",
+		name = "Romantic's Bouquet",
 		favor_trigger_id = 1010,
 		reply_dialogue_id = {
 			{
@@ -120,12 +120,12 @@ pg.dorm3d_gift = {
 	},
 	[1021003] = {
 		ship_group_id = 0,
-		display = "礼盒采用精致的包装，内含各种美味的蛋糕。无论是自己享用还是作为礼物，都是非常不错的选择。",
+		display = "A meticulously wrapped box containing slices of delicious cake. You can eat them yourself, or you can gift them and make someone's day.",
 		rarity = 4,
 		unlock_dialogue_id = 0,
 		id = 1021003,
 		icon = "dorm3dicon/3Ddrom_everyone_CommonGift1",
-		name = "蛋糕礼盒",
+		name = "Cake Gift Box",
 		favor_trigger_id = 1019,
 		reply_dialogue_id = {
 			{
@@ -179,12 +179,12 @@ pg.dorm3d_gift = {
 	},
 	[2022001] = {
 		ship_group_id = 20220,
-		display = "整理家居及办公室的必备良品。结实耐用的箱体可保护内部的工具免受损伤。",
+		display = "A toolbox of must-have items for cleaning and tidying up both at home and at the workplace. It's built with durable and resilient materials to protect the tools inside from damage.",
 		rarity = 4,
 		unlock_dialogue_id = 10060,
 		id = 2022001,
 		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift2",
-		name = "清扫工具箱",
+		name = "Cleaning Supplies Toolbox",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{
@@ -209,12 +209,12 @@ pg.dorm3d_gift = {
 	},
 	[2022002] = {
 		ship_group_id = 20220,
-		display = "经典优雅的皇家茶具套组，清新的蓝白色调令人心旷神怡。\n让每一次品茶都成为一场雅致的享受。",
+		display = "A classy, elegant tea set from the Royal Islands.\nIts blue and white design feels both refreshing and relaxing, bringing grace to your teatime.",
 		rarity = 4,
 		unlock_dialogue_id = 10070,
 		id = 2022002,
 		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift1",
-		name = "茶享套装",
+		name = "Royal Tea Set",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{
@@ -239,12 +239,12 @@ pg.dorm3d_gift = {
 	},
 	[3022101] = {
 		ship_group_id = 30221,
-		display = "纯色设计的制服鞋，鞋型舒适轻盈。\n舒适贴合足底弧度，陪你走过每段时光。",
+		display = "A simple design with a simple color scheme. Easy and comfortable to wear. \nThey fit perfectly around the heel and welcome your feet every time you put them on.",
 		rarity = 4,
 		unlock_dialogue_id = 29991,
 		id = 3022101,
 		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift1",
-		name = "素色物语 ",
+		name = "Sincere Loafers",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{
@@ -269,12 +269,12 @@ pg.dorm3d_gift = {
 	},
 	[3022102] = {
 		ship_group_id = 30221,
-		display = "修复心灵共振回忆， 探索能量注入动力。",
+		display = "Relieve your stress, soothe your mind, and feel your body's energy return to you!",
 		rarity = 4,
 		unlock_dialogue_id = 20530,
 		id = 3022102,
 		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
-		name = "能量修复仪",
+		name = "Foot Massager",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{
@@ -299,12 +299,12 @@ pg.dorm3d_gift = {
 	},
 	[1990301] = {
 		ship_group_id = 19903,
-		display = "绽放着绚丽色彩的可爱画板，仿佛将整个世界浓缩其中，用它绘制的每一笔都交织着纯洁与童真。",
+		display = "An adorably colored canvas that seems to capture all of Anchorage's world within. Every line reflects her innocence.",
 		rarity = 4,
 		unlock_dialogue_id = 30510,
 		id = 1990301,
 		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift1",
-		name = "彩虹心语",
+		name = "Heart in Crayon",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{
@@ -329,12 +329,12 @@ pg.dorm3d_gift = {
 	},
 	[1051701] = {
 		ship_group_id = 10517,
-		display = "透明的玻璃罐里，装满了晶莹剔透的彩色糖果。打开罐子，甜蜜的香气扑鼻而来，那是幸福的味道~",
+		display = "The transparent glass jar is full of shiny, colorful candy. When you open the lid, you smell the sweet scent of bliss.",
 		rarity = 4,
 		unlock_dialogue_id = 110541,
 		id = 1051701,
 		icon = "dorm3dicon/3Ddrom_xinzexi_CommonFurniture4",
-		name = "水晶糖",
+		name = "Crystal Candy",
 		favor_trigger_id = 1004,
 		reply_dialogue_id = {
 			{

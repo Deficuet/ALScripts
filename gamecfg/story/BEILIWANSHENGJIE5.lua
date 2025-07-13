@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=45>五 棺材里的帮手？</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>V 「Helper From A Coffin?」</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·仓库",
+			say = "Port - Warehouse",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幽灵小姐——！快出来吧——！大家都在担心你呢——！",
+			say = "Miss Ghost~! Come out, come out! Everyone is worried about you",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:48}",
-			say = "这样喊的话，幽灵小姐会被吓跑吧……",
+			say = "If you shout like that, you'll scare her away...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "而且，这里有点黑，感觉会有什么呜呜……",
+			say = "Also, it's dark in here, I feel like something ominous will...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "幽灵小姐——！快……嗯？那是什么？棺材？",
+			say = "Miss Ghost——! Hurry... huh? What's over there? A coffin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "呜哇啊！？棺、棺材？！",
+			say = "Ack! A C-Coffin?!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先打开来看看吧！我开！",
+			say = "Let's open it first! Allow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等——",
+			say = "Wait——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇、吓你一跳。",
+			say = "Boo! Surprise, surprise~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "呀啊啊啊啊啊！！！",
+			say = "Ahhhh!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦！突然出现了一个人呢！",
+			say = "O gosh, suddenly someone appeared!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是…恐怖？",
+			say = "You are... Terror?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……果然吓人的练习还不够吗。",
+			say = "Sigh... I need to practice more on how to scare people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "还以为是僵尸什么的，吓死我了…",
+			say = "I thought it was a zombie or something, you scared me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…为什么恐怖你会在仓库的棺材里？",
+			say = "...Why are you in a coffin, Terror?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "话又说回来为什么仓库里会放着这么个棺材啊……",
+			say = "Wait, why is there a coffin in the warehouse in the first place..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "恐怖不能说，恐怖答应了要保密…",
+			say = "Terror cannot say, Terror is keeping a promise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！快看那边！",
+			say = "Ah! Quick, look over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "呜、幽，幽灵小姐现身了！！",
+			say = "Hey, M-Miss ghost has appeared!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 205031,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是谁？！",
+			say = "Who is it?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她跑了！快追！",
+			say = "She's running away! Chase her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等下…请带上这个。这个是“魔女的扫把”。",
+			say = "Wait... Take this. These are \"Witch's Broomsticks\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 101271,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚好一人一把吗…总之得先追上那个幽灵！",
+			say = "Wow, exactly one broomstick per person... We must catch up to that ghost",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别以为自己能从兔兔手上逃走！贝利，追击!",
+			say = "Don't think you can easily escape from us! I'm coming for ya!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			blackBg = true,
 			actor = 302051,
 			nameColor = "#a9f548",
-			say = "贝利，跑太快了啦…!",
+			say = "Bailey, don't rush...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

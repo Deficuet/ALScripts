@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "这四项是基础属性，刚刚的任务奖励也提升了这四种属性的数值。",
+				text = "There are 4 basic stats. The rewards you just claimed also granted a stat boost.",
 				mode = 2,
 				posY = -300,
 				char = 1,
@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "努力提升这四项属性，在帮助TB成长的同时，也能让TB在日后出现不同的“个性”。",
+				text = "TB will grow as you raise these stats and develop a personality accordingly.",
 				mode = 2,
 				posY = -300,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "接下来，需要了解的是——成长目标。",
+				text = "Now let's go back and set some growth goals.",
 				mode = 2,
 				posY = -384.5,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateTargetSetLayer",
 			style = {
-				text = "在养成过程中，不同的成长目标会产生不同的目标任务，从而影响到属性。",
+				text = "Setting growth goals will unlock growth missions. Complete those missions to receive stat points.",
 				mode = 2,
 				posY = -365,
 				char = 1,
@@ -73,7 +73,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "另外，每个新的阶段，都可以重新设置成长目标。",
+				text = "When you reach a new growth stage, you can set new growth goals.",
 				mode = 2,
 				posY = -365,
 				char = 1,

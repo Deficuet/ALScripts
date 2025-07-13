@@ -1,8 +1,171 @@
 pg = pg or {}
 pg.enemy_data_statistics_34 = {
+	[91019] = {
+		cannon = 0,
+		name = "Lala, Final Spark",
+		type = 10,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91019,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "tolove_boss01",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 10,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "tolove_boss01",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 99,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.33,
+					0.8,
+					0
+				}
+			},
+			skill = {
+				{
+					0,
+					2,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.43,
+							0.69,
+							-0.09
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.66,
+							2.54,
+							-0.41
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[91020] = {
 		cannon = 0,
-		name = "斯库拉",
+		name = "Scylla",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +321,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91021] = {
 		cannon = 0,
-		name = "德文郡",
+		name = "Devonshire",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +477,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91022] = {
 		cannon = 0,
-		name = "努比亚人",
+		name = "Nubian",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -470,7 +633,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91023] = {
 		cannon = 0,
-		name = "利物浦",
+		name = "Liverpool",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -626,7 +789,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91024] = {
 		cannon = 0,
-		name = "金色暗影",
+		name = "Golden Darkness",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -782,7 +945,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91025] = {
 		cannon = 0,
-		name = "大凤·META",
+		name = "Taihou META",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -932,7 +1095,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91026] = {
 		cannon = 0,
-		name = "天外之兽-奇虾式合成舰",
+		name = "Extradimensional - Anomalocaris",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1055,7 +1218,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91027] = {
 		cannon = 0,
-		name = "天外之兽-三叶虫式合成舰",
+		name = "Extradimensional - Trilobite",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1178,7 +1341,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91028] = {
 		cannon = 0,
-		name = "天外之兽-软舌螺式合成舰",
+		name = "Extradimensional - Hyolitha",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1301,7 +1464,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91029] = {
 		cannon = 0,
-		name = "天外之兽-怪诞虫式合成舰",
+		name = "Extradimensional - Hallucigenia",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1424,7 +1587,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91030] = {
 		cannon = 0,
-		name = "天外之兽-飞螅式合成舰",
+		name = "Extradimensional - Hydra",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1554,7 +1717,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91031] = {
 		cannon = 0,
-		name = "天外之兽-鹦鹉螺式合成舰",
+		name = "Extradimensional - Ammonite",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1677,7 +1840,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91032] = {
 		cannon = 0,
-		name = "天外之兽-班府虫式合成舰",
+		name = "Extradimensional - Banffia",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1800,7 +1963,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91033] = {
 		cannon = 0,
-		name = "星之兽",
+		name = "Star Beast",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1953,7 +2116,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91034] = {
 		cannon = 0,
-		name = "“飞剑龙”式双翼无人机",
+		name = "\"Pterosaur\" Ornithopter",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2099,7 +2262,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91035] = {
 		cannon = 0,
-		name = "希佩尔海军上将·META",
+		name = "Admiral Hipper META",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2266,7 +2429,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91036] = {
 		cannon = 0,
-		name = "抚顺改",
+		name = "Fu Shun (Retrofit)",
 		type = 20,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2422,7 +2585,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91037] = {
 		cannon = 0,
-		name = "海容",
+		name = "Hai Yung",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2578,7 +2741,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91038] = {
 		cannon = 0,
-		name = "建武",
+		name = "Chien Wu",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2734,7 +2897,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91039] = {
 		cannon = 0,
-		name = "神光型驱逐舰",
+		name = "God's Light DD",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2896,7 +3059,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91040] = {
 		cannon = 0,
-		name = "神光型轻巡洋舰",
+		name = "God's Light CL",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3056,7 +3219,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91041] = {
 		cannon = 0,
-		name = "神光型重巡洋舰",
+		name = "God's Light CA",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3236,7 +3399,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91042] = {
 		cannon = 0,
-		name = "神光型战列舰",
+		name = "God's Light BB",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3416,7 +3579,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91043] = {
 		cannon = 0,
-		name = "神光型航空母舰",
+		name = "God's Light CV",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3583,7 +3746,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91044] = {
 		cannon = 0,
-		name = "神光型突袭舰 ",
+		name = "God's Light Assault Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3729,7 +3892,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91045] = {
 		cannon = 0,
-		name = "神光型潜水艇",
+		name = "God's Light SS",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3880,7 +4043,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91046] = {
 		cannon = 0,
-		name = "审判机·「战车」",
+		name = "MECHArbiter: The Chariot VII",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4033,7 +4196,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91047] = {
 		cannon = 0,
-		name = "超级马可波罗",
+		name = "Super Marco Polo",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4190,7 +4353,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91048] = {
 		cannon = 0,
-		name = "巴托洛梅奥·科莱奥尼",
+		name = "Bartolomeo Colleoni",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4219,162 +4382,6 @@ pg.enemy_data_statistics_34 = {
 		scale = 150,
 		wave_fx = "movewave",
 		prefab = "batuoluomeiao",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 6,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.15,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.11,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							2.09,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[91049] = {
-		cannon = 0,
-		name = "阿布鲁齐公爵",
-		type = 2,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 91049,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "abuluqi",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 2,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "abuluqi",
 		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
 		reload = 150,

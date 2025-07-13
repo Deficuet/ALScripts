@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日别墅筹备中\n\n<size=45>泳装与风云</size>",
+					"Planning the Villa Vacation\n\n<size=45>4 Swimsuits and the Wind</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "距离出发的日子又近了一天。",
+			say = "The day of the voyage is approaching.",
 			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "依靠港区优秀的后勤体系与{namecode:91:赤城}出色的讲价技巧，度假物资此时已经整整齐齐地堆放在码头进入装船流程了。",
+			say = "Thanks to the port's excellent logistics and Akagi's outstanding \"negotiation\" skills, all the vacation supplies had been neatly stacked by the docks, waiting to be loaded up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "众人的私人准备也进入了一个更加“私人”的阶段——",
+			say = "Meanwhile, the passengers are moving on to a more... \"private\" part of their preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说到海岛别墅度假——",
+			say = "When it comes to island vacations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最令人期待的果然是沙滩吧~",
+			say = "The most anticipated thing is going to the beach!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而说到沙滩，泳装与各类休闲服饰自然是少不了呢，呵呵~",
+			say = "And if you're going to the beach, you need swimsuits and beachwear. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，接下来的衣服都是重要的惊喜环节。",
+			say = "Which means what clothes we pick here will be an important surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们虽然邀请了你一起来，但是——绝对不要偷看哦~",
+			say = "We did invite you to come along for it, but there will be absolutely no peeking – understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "于是，在众人纷纷离去后，我一个人坐在等候区开始思考起之后的计划来。",
+			say = "The girls all run off, and I sit alone in the waiting area, starting to think about my plans for the near future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "不过就在这时，一只手从隔间里伸出来，悄悄地向我挥了挥。",
+			say = "Just then, though, a hand reaches out from behind the curtain right ahead and gestures for me to come closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……呀吼~指挥官，这里这里~",
+			say = "...Yoohoo! Come here, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_166",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "来当我的专属时尚顾问吧~我这里是安全地带哦♪",
+			say = "I need you to be my personal fashion advisor. Don't worry, this place is safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			withoutActorName = true,
 			hideRecordIco = true,
-			say = "看到我进来后，水星纪念左右手各拿了一件衣服，得意地转了个圈。",
+			say = "I go in, and Pamiat' Merkuria, holding a garment in each hand, beams and gives a little twirl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_166",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你觉得哪件好看？",
+			say = "Which do you think's cutest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702025,
-			say = "要不要换上给你看看——嘿嘿，真的不用吗~？",
+			say = "I could put 'em on and show you, maybe♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702025,
-			say = "人家可是提前好好做了准备的哦~",
+			say = "Come ooon, I prepared this well in advance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_166",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不用管其他人，让她们慢慢准备她们的就好~",
+			say = "Don't worry about what the other girls will think. Let them take what time they need.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702025,
-			say = "也不用担心没了惊喜，人家准备的惊喜还有很多呢~",
+			say = "...It'll ruin the surprise if I do? Heheh, good news for you: I have many more surprises up my sleeve!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_166",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "比如——",
+			say = "For instance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 702025,
-			say = "会让你心动的，到底是黑色……还是白色呢~？",
+			say = "Which one makes your heart race – the black one, or the white one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "与此同时，港区周边的某个驻防小岛上——",
+			say = "At the same time, on an island in the port's vicinity...",
 			bgm = "story-richang-sooth",
 			typewriter = {
 				speed = 0.05,
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……呼……很好！",
+			say = "*pant*... *pant*... There!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "跑过这个拐角，今天的训练量就算达标了~！",
+			say = "Just need to pass this bend and I'll have finished my quota for today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，身上变得汗津津的……干脆吹着海风，做会儿拉伸运动吧~",
+			say = "Gosh, I've worked up such a sweat... I suppose I'll do some stretches while letting the sea breeze cool me off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……唔？远处的晚霞，是罕见的紫红色欸？",
+			say = "...Hm? Is that a sort of reddish-purple I'm seeing in the sunset glow? That's an unusual sight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "紫红色的晚霞……紫红色……好像在指挥官给我看的哪本书里提到过……",
+			say = "Reddish-purple sunset... Purple... I feel like I've read about that somewhere. I think the Commander showed it to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……完全想不起来了！",
+			say = "Dang it, I can't remember!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈，觉得自己学会了什么的，果然是幻觉嘛~",
+			say = "Haha, I thought I'd learned something new, but I guess I just imagined it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……说起来，怎么感觉吹来的海风都闷闷的，一点也不凉快啊？",
+			say = "...That's odd. Why does the breeze feel stuffy and not cool in the least?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算了，还是早点回去吧~",
+			say = "Meh, it's nothing! Time to head back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

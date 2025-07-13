@@ -29,7 +29,7 @@ function var_0_0.findUI(arg_2_0)
 end
 
 function var_0_0.initData(arg_3_0)
-	arg_3_0.paintCount = 18
+	arg_3_0.paintCount = 16
 	arg_3_0.curPaintIndex = 1
 	arg_3_0.paintSwitchTime = 1
 	arg_3_0.paintStaticTime = 3.5
@@ -89,15 +89,15 @@ end
 
 function var_0_0.initBtnList(arg_9_0, arg_9_1)
 	onButton(arg_9_0, arg_9_1[1], function()
-		arg_9_0:emit(ActivityMediator.GO_PRAY_POOL)
+		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[2], function()
 		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[3], function()
-		local var_12_0 = ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
-
-		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, getProxy(ActivityProxy):getActivityByType(var_12_0).id)
+		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP, {
+			type = SkinShopScene.SHOP_TYPE_TIMELIMIT
+		})
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[4], function()
 		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
@@ -122,31 +122,19 @@ function var_0_0.initTimer(arg_15_0)
 	end, var_15_0, -1, false)
 
 	arg_15_0.frameTimer:Start()
-
-	arg_15_0.frameTimer2 = Timer.New(function()
-		local var_17_0 = arg_15_0.btnContainer.anchoredPosition.x - arg_15_0.btnSpeed * var_15_0
-
-		if arg_15_0.startAnchoredPosX - var_17_0 >= arg_15_0.moveLength then
-			var_17_0 = arg_15_0.btnContainer.anchoredPosition.x + arg_15_0.moveLength
-		end
-
-		arg_15_0.btnContainer.anchoredPosition = Vector3(var_17_0, 0, 0)
-	end, var_15_0, -1, false)
-
-	arg_15_0.frameTimer2:Start()
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	if arg_18_0.frameTimer then
-		arg_18_0.frameTimer:Stop()
+function var_0_0.OnDestroy(arg_17_0)
+	if arg_17_0.frameTimer then
+		arg_17_0.frameTimer:Stop()
 
-		arg_18_0.frameTimer = nil
+		arg_17_0.frameTimer = nil
 	end
 
-	if arg_18_0.frameTimer2 then
-		arg_18_0.frameTimer2:Stop()
+	if arg_17_0.frameTimer2 then
+		arg_17_0.frameTimer2:Stop()
 
-		arg_18_0.frameTimer2 = nil
+		arg_17_0.frameTimer2 = nil
 	end
 end
 

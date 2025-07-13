@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐！快想起原本的你吧！",
+			say = "Miss AI! Please remember who you are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "啊…呜……",
+			say = "Ugh... Arghh..",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能输给病毒",
+			say = "You can't lose to the virus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,12 +59,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "好痛…",
+			say = "It... hurts...",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回去以后再一起玩游戏吧",
+			say = "Let's play video games together when we get home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,12 +96,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "呜呜…咕啊！",
+			say = "Uuugh...! Aaaaaughhh!",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你还得回到原来的世界继续投稿动画的不是吗！？还有许多人在等着爱酱回去不是吗！？快变回原来的爱酱吧！！！",
+			say = "You still have to return to your original world and record lots of videos, right? There are a ton of fans waiting for you, right? Please come back, AI!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,12 +133,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "呜呜哇哇哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊呜呜！！",
+			say = "WAAAAAAAAAAAAAAAaaaaaaaaaaahhhhh!!",
 			flashN = {
 				color = {
 					1,
@@ -199,7 +199,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400010,
 			dir = 1,
-			say = "大家…谢谢……添了这么多麻烦，对不起……！",
+			say = "Thanks... everyone... I'm so sorry for all the trouble I've caused!",
 			flashN = {
 				color = {
 					1,
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系的，欢迎回来，爱酱♪",
+			say = "Don't worry, AI~♪ Welcome home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了！变回原来那个精神奕奕的爱小姐了！",
+			say = "We did it! Our lively AI is back to normal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快看！爱小姐的身体渐渐变回原来的大小了！",
+			say = "Look, look! AI's body is returning to her normal size!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了，这下就算是“全面通关”了吧？",
+			say = "Awesome! With this, maybe it's time to roll the credits?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰隆隆隆隆隆隆隆隆隆隆隆隆……！！！",
+			say = "MENACING RUMBLING....!!!!!!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "地震…？难道说，是这片虚拟镜面海域开始崩溃了…？",
+			say = "What's that \"JOJOJO\" sound? An earthquake? Is this entire Virtual Mirror Sea about to collapse...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这下糟了喵！如果我们被卷进崩溃里，有可能一辈子都被困在虚拟空间里出不去了喵！",
+			say = "This is bad, nya! If we get caught when this Mirror Sea collapses, we might be trapped inside virtual space for an eternity, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么会这样！我们快点逃出去吧！",
+			say = "N-no way! Let's hurry up and get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 10400010,
-			actorName = "绊爱(伪)",
+			actorName = "Kizuna AI clones",
 			say = "………",
 			flashN = {
 				color = {
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么多冒牌绊爱！？糟了，经过刚才的战斗，几乎已经没剩下多少弹药了！",
+			say = "So many Kizuna AI clones?! This is bad... we've already used up all our ammo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出口也还很远。就算一边突破冒牌绊爱的包围网也不知道能不能到达…",
+			say = "The exit portal is too far away! Even if we manage to break through them, we might not make it in time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绊爱，没办法靠骇入干点什么吗？",
+			say = "Kizuna AI, can't you hack into something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃，骇入…？",
+			say = "Huh... hacking...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，能够对抗敌人骇入的爱的话，也许能做点什么…？",
+			say = "That's right... since AI was able to out-hack the enemy earlier, maybe she can do something...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			actor = 10400010,
 			dir = 1,
-			say = "(诶诶诶！？好久没干了，也不知道习惯不行啊～！？）虽然不知道能不能成，我会时时看的！嗯…努努努……嘿！！！",
+			say = "(Ehhhhhh?! I haven't done it for a long time, so I'm probably super rusty?!) I'm not sure what I'll be able to do, but I'll give it my best shot! Nnnhh... Hnnnnng.... Hah!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10400010,
-			actorName = "绊爱(伪)",
+			actorName = "Kizuna AI clones",
 			say = "！！！",
 			subActors = {
 				{
@@ -582,7 +582,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好厉害！冒牌绊爱的动作停下来了！",
+			say = "Amazing! All the Kizuna AI clones stopped moving!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			actor = 10400010,
 			dir = 1,
-			say = "总、总算是做到了～～～～～！！！",
+			say = "I-I somehow did it~!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我要连上这片虚拟镜面海域的系统，把各位送回港区咯！虽然没办法阻止崩溃了，但是只是要送大家回去应该还是来得及的！",
+			say = "I'm going to connect this Virtual Mirror Sea back to the home port! Although I can't stop this place from collapsing, it shouldn't be too late to send everyone home!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			side = 2,
 			actor = 10400010,
 			dir = 1,
-			say = "！这个错误是……",
+			say = "!! An error...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,10 +641,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "系统公告",
+			actorName = "System Message",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即将把玩家传送至港区。请移动至安全区域做好传送准备",
+			say = "Teleporting player to home port. Please move to the safe zone to commence teleportation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "……柔和的光芒将少女们缓缓包住",
+			say = "A gentle light began to envelop all the girls...",
 			flashN = {
 				color = {
 					1,
@@ -690,7 +690,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——除了绊爱自己",
+			say = "...except Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱！？爱酱也一起来啊！",
+			say = "AI?! AI, aren't you coming with us?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起，似乎只有我留在这边，才能控制这片虚拟镜面海域并且把大家送回去了",
+			say = "I'm sorry. It seems that I have to stay behind in order to keep this portal open so that everyone can get home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会这样………！",
+			say = "How could this be...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能陪我一路来到这里，真的非常谢谢你们。和大家共同度过的时间，我一生都不会忘记的",
+			say = "Thanks for accompanying me all this time. Truly, I can't thank you all enough. Our time together was short, but I'll never forget it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐，等一下！",
+			say = "Miss Ai, wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不行…！大家要一起！",
+			say = "No, no...! We have to go back together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一定会让大家回到原来的地方的",
+			say = "I swear to get you all back home safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟，我可是——",
+			say = "After all, I am...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "超级AI啊！",
+			say = "...an intelligent super A.I.!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "——“再见了”",
+			say = "--- \"Goodbye.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "爱酱————————————！！！",
+			say = "AIIIIIIIIIIIIII------!!!",
 			flashN = {
 				color = {
 					1,

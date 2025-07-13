@@ -81,7 +81,7 @@ pg.base = pg.base or {}
 pg.base.box_data_template = {
 	{
 		id = 1,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -89,7 +89,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 2,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -97,7 +97,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 3,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -105,7 +105,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 4,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -113,7 +113,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 5,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -121,7 +121,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 6,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -129,7 +129,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 7,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -137,7 +137,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 8,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -145,7 +145,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 9,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -153,7 +153,7 @@ pg.base.box_data_template = {
 	},
 	{
 		id = 10,
-		name = "物资箱",
+		name = "Supply Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -161,7 +161,7 @@ pg.base.box_data_template = {
 	},
 	[21] = {
 		id = 21,
-		name = "食物箱",
+		name = "Snack Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -169,7 +169,7 @@ pg.base.box_data_template = {
 	},
 	[22] = {
 		id = 22,
-		name = "食物箱",
+		name = "Snack Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -177,7 +177,7 @@ pg.base.box_data_template = {
 	},
 	[23] = {
 		id = 23,
-		name = "食物箱",
+		name = "Snack Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -185,7 +185,7 @@ pg.base.box_data_template = {
 	},
 	[24] = {
 		id = 24,
-		name = "食物箱",
+		name = "Snack Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -193,7 +193,7 @@ pg.base.box_data_template = {
 	},
 	[101] = {
 		id = 101,
-		name = "装备箱",
+		name = "Gear Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -201,7 +201,7 @@ pg.base.box_data_template = {
 	},
 	[102] = {
 		id = 102,
-		name = "装备箱",
+		name = "Gear Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -209,7 +209,7 @@ pg.base.box_data_template = {
 	},
 	[103] = {
 		id = 103,
-		name = "装备箱",
+		name = "Gear Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -217,7 +217,7 @@ pg.base.box_data_template = {
 	},
 	[104] = {
 		id = 104,
-		name = "装备箱",
+		name = "Gear Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -225,7 +225,7 @@ pg.base.box_data_template = {
 	},
 	[105] = {
 		id = 105,
-		name = "装备箱",
+		name = "Gear Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event2",
@@ -233,7 +233,7 @@ pg.base.box_data_template = {
 	},
 	[1001] = {
 		id = 1001,
-		name = "事件",
+		name = "Event",
 		type = 2,
 		effect_arg = 1,
 		icon = "event2",
@@ -241,7 +241,7 @@ pg.base.box_data_template = {
 	},
 	[1002] = {
 		id = 1002,
-		name = "事件",
+		name = "Event",
 		type = 2,
 		effect_arg = 1,
 		icon = "event2",
@@ -249,7 +249,7 @@ pg.base.box_data_template = {
 	},
 	[1003] = {
 		id = 1003,
-		name = "事件",
+		name = "Event",
 		type = 2,
 		effect_arg = 1,
 		icon = "event2",
@@ -257,7 +257,7 @@ pg.base.box_data_template = {
 	},
 	[1004] = {
 		id = 1004,
-		name = "事件",
+		name = "Event",
 		type = 2,
 		effect_arg = 1,
 		icon = "event2",
@@ -265,7 +265,7 @@ pg.base.box_data_template = {
 	},
 	[2001] = {
 		id = 2001,
-		name = "触雷",
+		name = "Torpedo",
 		type = 7,
 		effect_arg = 1,
 		icon = "torpedo",
@@ -273,7 +273,7 @@ pg.base.box_data_template = {
 	},
 	[3001] = {
 		id = 3001,
-		name = "空袭",
+		name = "Airstrike",
 		type = 4,
 		effect_arg = 1,
 		icon = "event2",
@@ -281,7 +281,7 @@ pg.base.box_data_template = {
 	},
 	[4001] = {
 		id = 4001,
-		name = "刷怪",
+		name = "Radar",
 		type = 5,
 		effect_arg = 1,
 		icon = "event2",
@@ -289,7 +289,7 @@ pg.base.box_data_template = {
 	},
 	[5001] = {
 		id = 5001,
-		name = "弹药补给",
+		name = "Ammo Chest",
 		type = 6,
 		effect_arg = 1,
 		icon = "event2",
@@ -297,7 +297,7 @@ pg.base.box_data_template = {
 	},
 	[5002] = {
 		id = 5002,
-		name = "照明弹补给",
+		name = "Flare Shell",
 		type = 2,
 		effect_arg = 3,
 		icon = "event_flare",
@@ -305,7 +305,7 @@ pg.base.box_data_template = {
 	},
 	[6001] = {
 		id = 6001,
-		name = "绊爱空袭",
+		name = "Kizuna AI Air Raid",
 		type = 8,
 		effect_arg = 1,
 		icon = "event2",
@@ -313,7 +313,7 @@ pg.base.box_data_template = {
 	},
 	[6002] = {
 		id = 6002,
-		name = "holo岩浆",
+		name = "Hololava",
 		type = 9,
 		effect_arg = 1,
 		icon = "event2",
@@ -321,7 +321,7 @@ pg.base.box_data_template = {
 	},
 	[10001] = {
 		id = 10001,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -329,7 +329,7 @@ pg.base.box_data_template = {
 	},
 	[10002] = {
 		id = 10002,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -337,7 +337,7 @@ pg.base.box_data_template = {
 	},
 	[10003] = {
 		id = 10003,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -345,7 +345,7 @@ pg.base.box_data_template = {
 	},
 	[10004] = {
 		id = 10004,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -353,7 +353,7 @@ pg.base.box_data_template = {
 	},
 	[10005] = {
 		id = 10005,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -361,7 +361,7 @@ pg.base.box_data_template = {
 	},
 	[10006] = {
 		id = 10006,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -369,7 +369,7 @@ pg.base.box_data_template = {
 	},
 	[10007] = {
 		id = 10007,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -377,7 +377,7 @@ pg.base.box_data_template = {
 	},
 	[10008] = {
 		id = 10008,
-		name = "拼图箱",
+		name = "Jigsaw Box",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -385,7 +385,7 @@ pg.base.box_data_template = {
 	},
 	[10101] = {
 		id = 10101,
-		name = "港区回忆NO.17",
+		name = "Port Memories No. 17",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -393,7 +393,7 @@ pg.base.box_data_template = {
 	},
 	[10102] = {
 		id = 10102,
-		name = "港区回忆NO.18",
+		name = "Port Memories No. 18",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -401,7 +401,7 @@ pg.base.box_data_template = {
 	},
 	[10103] = {
 		id = 10103,
-		name = "港区回忆NO.19",
+		name = "Port Memories No. 19",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -409,7 +409,7 @@ pg.base.box_data_template = {
 	},
 	[10104] = {
 		id = 10104,
-		name = "港区回忆NO.20",
+		name = "Port Memories No. 20",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -417,7 +417,7 @@ pg.base.box_data_template = {
 	},
 	[10105] = {
 		id = 10105,
-		name = "徽章·克利夫兰",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -425,7 +425,7 @@ pg.base.box_data_template = {
 	},
 	[10106] = {
 		id = 10106,
-		name = "徽章·谢菲尔德",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -433,7 +433,7 @@ pg.base.box_data_template = {
 	},
 	[10107] = {
 		id = 10107,
-		name = "徽章·{namecode:91}",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -441,7 +441,7 @@ pg.base.box_data_template = {
 	},
 	[10108] = {
 		id = 10108,
-		name = "徽章·{namecode:426}",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -449,7 +449,7 @@ pg.base.box_data_template = {
 	},
 	[10109] = {
 		id = 10109,
-		name = "徽章·加斯科涅",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -457,7 +457,7 @@ pg.base.box_data_template = {
 	},
 	[10110] = {
 		id = 10110,
-		name = "密码箱",
+		name = "Treasure Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event6",
@@ -465,7 +465,7 @@ pg.base.box_data_template = {
 	},
 	[10111] = {
 		id = 10111,
-		name = "密码箱",
+		name = "Treasure Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event6",
@@ -473,7 +473,7 @@ pg.base.box_data_template = {
 	},
 	[10112] = {
 		id = 10112,
-		name = "密码箱",
+		name = "Treasure Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event6",
@@ -481,7 +481,7 @@ pg.base.box_data_template = {
 	},
 	[10113] = {
 		id = 10113,
-		name = "密码箱",
+		name = "Treasure Chest",
 		type = 1,
 		effect_arg = 1,
 		icon = "event6",
@@ -489,7 +489,7 @@ pg.base.box_data_template = {
 	},
 	[10114] = {
 		id = 10114,
-		name = "徽章·大青花鱼 ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -497,7 +497,7 @@ pg.base.box_data_template = {
 	},
 	[10115] = {
 		id = 10115,
-		name = "徽章·塔什干",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -505,7 +505,7 @@ pg.base.box_data_template = {
 	},
 	[10116] = {
 		id = 10116,
-		name = "邮票·{namecode:439} ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -513,7 +513,7 @@ pg.base.box_data_template = {
 	},
 	[10117] = {
 		id = 10117,
-		name = "杯垫·恶毒 ",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -521,7 +521,7 @@ pg.base.box_data_template = {
 	},
 	[10118] = {
 		id = 10118,
-		name = "写真·{namecode:97}",
+		name = "Future Content ",
 		type = 1,
 		effect_arg = 1,
 		icon = "event5",
@@ -657,7 +657,7 @@ pg.base.box_data_template = {
 	},
 	[20001] = {
 		id = 20001,
-		name = "障碍物",
+		name = "Barrier",
 		type = 0,
 		effect_arg = 1,
 		icon = "torpedo2",

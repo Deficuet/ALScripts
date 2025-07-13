@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼~总算成功阻止干扰并且打倒boss了！刚才差点都不知该怎么办了~",
+			say = "Phew, we managed to defeat it while the hacking was interrupted! I was worried for a second there~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之可以稍微安心一会了哎！",
+			say = "Looks like there’s nothing to worry about now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都没事，真是太好了~！",
+			say = "I’m so glad nobody got hurt~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			actor = 10400010,
 			dir = 1,
-			say = "但是……嗯，果然自己打倒自己还是感觉有点奇怪啊",
+			say = "But... hmm, it’s a bit weird watching yourself get beat up after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，很快就会习惯了。{namecode:14}一开始也很不习惯的",
+			say = "Don’t worry, you’ll get used to it. I couldn’t get over it either for the longest time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在打倒绊爱(伪)的时候，好像有发光的东西飘到了绊爱的身体里。那个，是数据？",
+			say = "When we defeated the clone, I saw some glowing light thing get absorbed into Kizuna AI. Is that... data?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "确实，从绊爱(伪)身上飘出了许多光点。爱，怎么样？有感觉到什么变化吗？",
+			say = "That’s right, the clone was giving off a lot of light. AI, how do you feel? Is there any difference?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			actor = 10400010,
 			dir = 1,
-			say = "啊！总觉得力量涌上来了呢！现在的话感觉应该能变身了！",
+			say = "Ah! Is this maybe some kind of power rushing through me?! I feel like I’m transforming...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			actor = 10400010,
 			dir = 1,
-			say = "大家看好咯~变…身！",
+			say = "Everyone, look closely~ Traaaans... form~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,11 +146,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 10400020,
-			say = "成功！衣装变更完成！非常感谢诸位的支持！",
+			say = "I did it! I managed to change my outfit! It’s all thanks to your help, everyone!",
 			flashN = {
 				color = {
 					1,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，好厉害！感觉看上去比平常更加成熟了一些呢！",
+			say = "Yay! Amazing! You look more mature and adult than usual!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除了外表，连说话方式都不太一样了。很棒哦，爱小姐",
+			say = "In addition to your appearance, your speech seems more mature as well, Miss AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "太好了。接下来只要把随机单词生成器修好就行了……",
+			say = "I’m relieved, yes. It would have been nice if the random word generator was fixed as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰隆隆隆隆隆隆隆隆……！",
+			say = "MENACING...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？大家快看！前面好像出现了新的镜面海域！",
+			say = "Huh? Look at that, everyone! Another Virtual Mirror Sea is opening up over there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来还没那么快结束呢……",
+			say = "Here we go again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似乎那边也需要好好调查一下呢。稍微回去补给一下，就往新的海域前进吧！",
+			say = "By the looks of things, we’ll need to investigate over there as well. Let’s refuel first, then head out at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,8 +289,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "哼哼～哼♪好了，各位！兵贵神速，让我们尽快出发吧～",
+			actorName = "Kizuna AI",
+			say = "*hums* Hehe~♪ All right, everyone! Full speed ahead~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

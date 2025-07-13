@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，您看，天狼星把我们一起在沙滩上找到的贝壳串成项链了",
+			say = "Look, {dorm3d}. I made this necklace out of the seashells we gathered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打算佩戴用吗？",
+					content = "Are you going to wear it?",
 					flag = 1
 				},
 				{
-					content = "打算收藏用吗？",
+					content = "Are you going to start a necklace collection?",
 					flag = 1
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……其实天狼星是打算把它放在房间里观赏。",
+			say = "Oh, um... I was actually thinking about displaying it as a decoration in my quarters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "毕竟是和{dorm3d}一起找到的贝壳……只要看到它，就会想起今天呢~",
+			say = "Just seeing it will remind me of the time we spent gathering all these seashells today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

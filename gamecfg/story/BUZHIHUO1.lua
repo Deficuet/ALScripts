@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>一　冷静的{namecode:20}</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 1: Ice-Cold Shiranui</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从让{namecode:20}担任秘书舰后，总觉得精神力得到了巨大的锻炼。",
+			say = "Ever since I let Shiranui become my secretary ship, I always feel like my mental fortitude is being exercised to its limit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我应该说好久不见吗？",
+			say = "Am I supposed to say \"long time no see?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是笨蛋呢，把贵重的资源用在我身上……",
+			say = "What a dullard, wasting precious resources on me again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为想要冷气就靠近我，你是笨蛋吗？",
+			say = "If you wanted to be treated coldly so much, you might as well have just stood in the refrigerator, you moron.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我等了1分钟也没看到指挥官发现委托已经完成了，指挥官果然是个离开我就没用的废柴",
+			say = "I've waited a whole minute and you still haven't noticed that your commissions have returned. Commander, without me, you're just a washed-up lump of driftwood after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……诸如此类，再加上冰山一样从不变化的表情，让人感觉好像在她身边呼吸都是一种错误一样。",
+			say = "... these are just a few examples. On top of that, her expression - as cold and impassive as an iceberg - really makes one feel like even breathing is a mistake.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而且不只是在指挥室，即使来到了店里……",
+			say = "And if dealing with her at the office was hard enough, when I arrived at the store...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·军火商店",
+			say = "Port - Supply Shop",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下一个科技箱里就会有好东西的……",
+			say = "The next tech box will surely have something good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打折？没有的不存在的……",
+			say = "Discount? There's no such thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，运气不好就要用数量来弥补，相信自己，你可以的。",
+			say = "Commander, if your luck is bad, you have to make up for it with quantity. Believe yourself. You can do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 			},
 			options = {
 				{
-					content = "买！",
+					content = "Buy! Buy!",
 					flag = 1
 				},
 				{
-					content = "再来一箱！",
+					content = "CAPITALISM, HO!",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……不对，重点不在这里。",
+			say = "... Wait a second, this isn't the important part.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "重点是即使在顾客是上帝的商店里，受到的也是同样的对待……",
+			say = "The important thing is that even in the store, where the customer is king, she still acts this way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "让人忍不住好奇，难道{namecode:20}真的永远都是这样一副表情吗？",
+			say = "One really can't help but to wonder, is Shiranui only capable of making this expression?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而且为什么这样的{namecode:20}会成为店长呢？",
+			say = "And what's more, how did Shiranui manage to become the head of this store?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "为了探明这两个问题，稍微采取一些行动吧……",
+			say = "In order to solve these two mysteries, a little investigation is needed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

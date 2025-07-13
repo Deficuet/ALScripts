@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在净化者的带领下，众人在重重封锁线的间隙中顺利前进着。",
+			say = "Led by Purifier, the fleet made its way into a great facility on an island.",
 			side = 2,
 			bgName = "bg_camelot_7",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "净化者真的有在老老实实带我们穿过塞壬的封锁线哎……",
+			say = "Good gosh, look at these mass-produced ships and defence structures... I've never seen a Siren facility this well-guarded before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "塞壬带着我们躲塞壬，太怪了……",
+			say = "What's more interesting is how they're seemingly completely unaware of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "难道这里的塞壬正在打内战么？",
+			say = "It appears she wasn't lying about plotting out a safe route. We are indebted to your mastery of the art of stealth, Purifier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "哼哼哼~(*^▽^*)♪",
+			say = "Aww, you're makin' me blush!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "看起来也不太像……",
+			say = "...Am I the only one who's feeling even a little tense?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别问我，我好累，我不想思考了……",
+			say = "Me, I've given up on trying to make sense of what's even going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "怎么样，这里的防御设置不错吧！",
+			say = "Don't worry your pretty little heads. This here permanent anchorage is perfectly safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "完全符合理事会的标准，堪称天罗地网插翅难飞！",
+			say = "The security here's so tight, even those edgelords won't come near it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "然而你还是带我们混进来了。",
+			say = "Permanent anchorage? What, for shipgirls? Why would you Sirens need that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "那不是肯定的？我设置的防御，那自然知道怎么绕开它~负责本次行动的最佳人选哦。",
+			say = "Humans totally flipped out after the Richard incident, remember? So, Antiochus started gaining traction because we don't go nuts like your kind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "等救援结束之后，你们就赶紧带人速速回你们的总部去，再也别过来了。",
+			say = "In any case, once you've picked up Elizabeth, scram back to port and don't ever come back here again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 900233,
-			say = "记得回去的时候也尽量别发生战斗！不然我这边要处理的麻烦事又要变多了……",
+			say = "Also, I'm only gonna say this one more time! DO! NOT! SHOOT! ANYTHING! You already owe us for the damage you've done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 900233,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "呜呜呜呜呃呃呃……",
+			say = "The Doctor's reputation is at stake here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

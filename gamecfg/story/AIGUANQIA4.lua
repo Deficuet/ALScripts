@@ -9,7 +9,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呐呐，大家快看～",
+			say = "Hey hey, everyone, come take a look at this~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400010,
 			dir = 1,
-			say = "将将！{namecode:98}的“试做型舰装制造装置”制造的专用舰装！这样我就和大家一起战斗了～！",
+			say = "Tada! I've just installed this \"Prototype Ship Rigging Construction Module\" that Akashi-chan made for me! Now, I'll be able to fight alongside all of you~!",
 			flashN = {
 				color = {
 					1,
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦～还想说刚才为止是怎么跟上我们的，原来是这样呀！毫无违和感，完全没注意到呢～",
+			say = "Oooohh, I was just about to ask how you were able to keep up with us. So this is the reason, huh? It doesn't stick out at all - I didn't even notice it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明一直在一起移动，标枪…天然呆？",
+			say = "She's been with us the whole time, Javelin... airhead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来是和我们一样的驱逐舰装备呢。机动性比较高，执行调查任务还是很方便的",
+			say = "It seems like she has destroyer-type equipment, just like us. The mobility is well-suited for recon missions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯！总是在游戏画面里看着大家，一直想着有机会一定要亲自在海上驰骋一番～没想到真的有实现的一天呢！",
+			say = "Mmhmm! Every time I saw all of you on the game screen, I'd dream about how much I wanted to try gliding across the ocean myself. I never thought that dream would come true!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "竟然这么快就熟悉了舰装，好厉害！……果然因为是“超级AI”吗？",
+			say = "It's amazing how quickly you were able to pick up on how to use the ship rigging! Is this because of your \"Super AI\" abilities?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，对于超级AI来说没有什么是不可能的！只要装上插件就行了！有什么困扰的时候就尽管跟我说吧～",
+			say = "Heh heh! There's nothing that a Super AI cannot do, as long as you install the plug-in for it! If you're having trouble with anything, just let me know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“插件”吗……？虽然不是很懂，总之看起来很自信呢。不愧是超级AI",
+			say = "\"Plug-in...?\" I don't quite get, but I'm glad you're confident in yourself. As expected of a Super AI.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 1,
 			actor = 10400010,
 			dir = 1,
-			say = "（居、居然会这么夸我…！感、感觉好棒！？）",
+			say = "(I-I didn't think I'd get praised this much...! It feels... super good?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "话说回来，初次见到爱小姐的时候，你明明泡在水里，衣服却没有湿呢？这究竟是什么原理啊？",
+			say = "Come to think of it, Miss AI, when we found you, you seemed to be drowning but your clothes didn't even get wet. What's the reason behind that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问得好！作为超级AI的我，衣服自然也是全息投影这样的东西啦，因此基本上是不会脏也不会湿的哦？不过也会些需要演出效果的时候，比如动画的缩略图什么的时候也会变就是",
+			say = "Good question! Because I'm an AI, my clothes are basically like holograms so they won't get wet or dirty. However, I sometimes will add them as special effects for my videos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			actor = 10400010,
 			dir = 1,
-			say = "不过，毕竟本质是全息影像数据，所以现在其实就跟没穿衣服一样呢～",
+			say = "Well, since holograms are just data, I'm basically naked right now if you think about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 10400010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈！该不会因为我说这种话导致碧蓝航线被下架吧！？非常抱歉！刚才的话请当作没听到吧！！",
+			say = "*gasp*! Is Azur Lane going to get banned in several different countries because of what I just said? I'm so sorry... forget you heard anything!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对、对了！其实我还有其他各种各样的衣服哦！机会难得，就让你们看看我可爱的样子吧！",
+			say = "Ah, th-that's right! I actually have a variety of different outfits! Since I don't get to use them very often, I'll let you see my cute wardrobe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "变身！",
+			say = "Trans--form!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400010,
 			dir = 1,
-			say = "……奇怪？换不了装！？为什么？？？",
+			say = "Huh? I can't change my skin? What's going on??",
 			flashN = {
 				color = {
 					1,
@@ -331,7 +331,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道说…在经过镜面海域的时候数据被抽走了…！？",
+			say = "Is it possible... that some data was taken away when we entered the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 10400010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么会这样！？怎么办，我很喜欢那几件衣服的啊～～～！",
+			say = "No way...!? What should I do? I really liked those outfits too~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些遗失的数据也能在虚拟镜面海域找回来也说不定。一起加油找找吧",
+			say = "We might be able to recover the lost data by exploring around. Let's see what we can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没错！只要努力找一定能找回来的吧！？加油，爱酱！",
+			say = "Th-that's right! As long as we work hard, we'll be sure to find it!? Cheer up, AI-chan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，也会一起加油的",
+			say = "Laffey... will also do her best...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说、说的对呢！嗯！一起加油吧——！",
+			say = "Yes, you're right! Okay, let's do it~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "咚！",
+			say = "BA-DOOSH!!",
 			flashN = {
 				color = {
 					1,
@@ -479,7 +479,7 @@ return {
 			actor = 10400010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀啊啊啊啊啊！好不容易才重新鼓起干劲开始加油的，突然又搞什么啊！",
+			say = "Woooahhhhhhh! Just when I was starting to get my motivation back, this happens?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌袭！来自6点钟方向的攻击！",
+			say = "Enemy attack from 6 o'clock!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,8 +520,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱(伪)",
-			say = "………",
+			actorName = "Kizuna AI clone",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此！那就是所谓的“一面BOSS”了吧！我们上吧！",
+			say = "I see, I see! So this is what you'd call a \"tutorial boss!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

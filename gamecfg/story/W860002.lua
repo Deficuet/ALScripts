@@ -8,7 +8,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "使用紫色区域控制装置可以改变海域中紫色标识区域上障碍物的状态，是否确认使用？",
+			say = "Using the purple device lets us change obstacles marked with purple symbols. What should we do?s",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,11 +19,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "Use the device.",
 					flag = 1
 				},
 				{
-					content = "否",
+					content = "Do nothing for now.",
 					flag = 2
 				}
 			}

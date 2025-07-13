@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……之前……看过书……！",
+			say = "Anchorage... read a book!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "书上说……听话……{dorm3d}就，喜欢……！",
+			say = "It says... {dorm3d}s like good kids...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……乖乖的……听{dorm3d}的话！",
+			say = "Anchorage... is a good girl!！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再多喜欢安克雷奇……{dorm3d}！",
+			say = "{dorm3d}... Like me more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

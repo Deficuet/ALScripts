@@ -11,39 +11,39 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>通向真实的努力</size>",
+					"<size=51>The search for truth</size>",
 					1
 				},
 				{
-					"<size=51>展望未来的幻想</size>",
+					"<size=51>The longing for the future</size>",
 					2
 				},
 				{
-					"<size=51>镜花水月</size>",
+					"<size=51>The reflection that is there, but always out of reach</size>",
 					3
 				},
 				{
-					"<size=51>与命运的抗争，大抵都会迎来如此结局</size> ",
+					"<size=51>Our battles with destiny most oft end in much the same way</size> ",
 					4
 				},
 				{
-					"<size=51>如同计划的结果一样</size>",
+					"<size=51>Its outcome, as expected</size>",
 					5
 				},
 				{
-					"<size=51>何为真物，何为伪物</size>",
+					"<size=51>What is real? What is false?</size>",
 					6
 				},
 				{
-					"<size=51>留存下来的只有微不足道的谜题</size>",
+					"<size=51>All that remains is a small mystery</size>",
 					7
 				},
 				{
-					"<size=51>就让故事开始吧</size>",
+					"<size=51>So let the tale be told</size>",
 					8
 				},
 				{
-					"<size=51>存在于彼方的你，能解出来么？</size>",
+					"<size=51>Will you, perhaps, solve the mystery?</size>",
 					9
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "正午时分，商路护航舰队",
+			say = "Noon - Within the Route Escort Fleet",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天任务也平安无事顺利完成了~",
+			say = "Another commission completed without a hitch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "微风拂面，艳阳高照，天气也是个难得的好天气,好想就这么睡过去啊~",
+			say = "Nice breeze, calm waves, nice weather all around. I can't wait to get home and take a nap in the sun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，从刚才开始就一言不发的。",
+			say = "Something wrong, Kawakaze? You're being awfully quiet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "....无趣，如果一直做护卫任务的话，剑会生锈的。",
+			say = "Oh, it's nothing... I was just thinking about my sword. It'll surely start rusting if they continue giving us nothing but escort missions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是偶尔跑一次后勤任务不是蛮好嘛，抓住机会好好放松一下才是~",
+			say = "I don't mind getting a break from the action. Plus, it's an important job, and someone's gotta do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一直这么严肃可是会和舰队的大家产生距离感的哦，来，笑一个，笑一个~",
+			say = "Speaking of breaks, you need to start letting up that poker face if you hope to make friends. Come on, let's see a smile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等一下。",
+			say = "Uh, Zuikaku, look ahead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，别这么……咦，怎么回事。",
+			say = "... What the heck is that...?",
 			effects = {
 				{
 					active = true,
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "起雾了。",
+			say = "It appears to be fog... but there's more to it than that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空气湿度和海水温度都发生了明显变化。虽然因为大雾看不清楚，不过隐约能看到陆地一样的东西。",
+			say = "My gauges indicate the humidity levels and water temperature in the area are changing rapidly. There also seems to be an island coming into view in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毫无疑问是镜面海域啊…专挑人心情好的时候来！真是…塞壬只会迟到，永远不会缺席！",
+			say = "All signs point toward this being a Mirror Sea. Come on, Sirens! Can't you at least once let us return home in peace?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发现多处塞壬舰队反应，向我们这里靠过来了。",
+			say = "Detecting numerous mass-produced Siren vessels heading in our direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，短暂的快乐时光…护卫就拜托了。舰载机还勉强放得出来，让塞壬感受一下精锐航空母舰的力量吧！",
+			say = "Kawakaze, you watch the front. I'll scramble my planes in the meanwhile so we can take out the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

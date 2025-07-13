@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>七　西南风继续前行</size>",
+					"A Gust of Motivation!\n\n<size=45>7 You Can Do It, Libeccio!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_113",
 			bgmDelay = 2,
-			say = "港区·广场",
+			say = "Port - Main Plaza",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -47,7 +47,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "今天是西南风担任秘书舰的最后一天，目前正在从码头返回指挥室的路上。",
+			say = "Today is Libeccio's last day as secretary, and I was making my way back to the office from the piers, when suddenly––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "不知不觉就是最后一天了呢，明天就可以稍微偷个懒了~",
+			say = "I guess I made it, huh... It'll be nice to sleep in tomorrow~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嘿嘿嘿，跟指挥官在一起是很开心啦，但是秘书舰的工作也确实辛苦。",
+			say = "Ehehe~ Commander, getting to spend so much time with you was an absolute blast, but being the secretary is really tough after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "一直工作也难免会想要休息一下的吧？指挥官难道不想偷个懒吗？",
+			say = "Working so much all the time makes you want to take it easy from time to time, doesn't it? Have you ever wanted to just stay home, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,18 +110,18 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "这个嘛————",
+			say = "Well, uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表示肯定",
+					content = "\"Of course.\"",
 					flag = 1
 				},
 				{
-					content = "表示否定",
+					content = "\"Of course not.\"",
 					flag = 2
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是吧是吧！所以和西南风一起玩吧~！",
+			say = "Riiiight? In that case, come play with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜啊…………不愧是指挥官！！！",
+			say = "Woahhh... That's super crazy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "咦那边的是西北风姐姐她们吗？",
+			say = "Oh, look, isn't that Maestrale over there...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "顺着西南风手指的方向看过去，果然看到了西北风拉菲{namecode:6}还有{namecode:408}四个人结伴而行。",
+			say = "My eyes follow in the direction Libeccio is pointing, and there I see Maestrale, walking alongside Laffey, Ayanami, and Z23.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "哇哦~大家下午好呀~",
+			say = "Good afternoon, everyone~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "啊！指挥官还有西南风，下、下午好！",
+			say = "Oh, it's Libeccio and the Commander! G-good afternoon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下午好…的说。",
+			say = "Good afternoon, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "两位下午好。",
+			say = "Hello, you two.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下午好......指挥官和西南风也是一起去茶会的么？",
+			say = "'ello... Would you like to join our tea party as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别犯困啦拉菲！指挥官和西南风还在工作中呢！",
+			say = "Stop that, Laffey! The Commander is still working!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就下一次……",
+			say = "Mm... Maybe next time then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "你们是要去参加茶会吗？",
+			say = "Were you going to throw a tea party?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊，标枪邀请我们一起去参加皇家的茶会呢。",
+			say = "Not quite. Javelin invited us to attend the Royal Navy's tea party.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "这样呀，那么就祝大家跟西北风姐姐一起度过一个愉快的下午吧~",
+			say = "I see, I see! That sounds fun! Have a good time over there, Maestrale!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "谢、谢谢你西南风……",
+			say = "Th-thank you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不久后的指挥室",
+			say = "Office - Soon afterwards",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "哼哼，西南风的秘书舰作战大成功！",
+			say = "Heh heh, Libeccio's secretary operation was a huge success!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "不仅好好完成了工作还帮西北风姐姐交到了朋友，西南风很棒对吧？",
+			say = "I did a good job with my work, and I even got to help Maestrale make friends! Libeccio is super awesome!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,11 +456,11 @@ return {
 			},
 			options = {
 				{
-					content = "西南风真棒！",
+					content = "\"You sure are, Libeccio~\"",
 					flag = 1
 				},
 				{
-					content = "西南风了不起！",
+					content = "\"Brava, Libeccio!\"",
 					flag = 2
 				}
 			}
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "嘿嘿嘿，我去给指挥官倒茶~",
+			say = "Ehehe... I'll go make some tea for you, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "这是最后一杯了呢，要好好珍惜哦指挥官！",
+			say = "Here you go, your very last cup of Secretary Libeccio's tea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "西南风的秘书舰工作即将告一段落。尽管有些不舍，不过西南风有所成长才是最重要的。",
+			say = "Seeing Libeccio's time as secretary come to an end was a little bittersweet, but I was proud of how much she had grown during this short time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,14 +513,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "拿起桌上的茶水抿了一口——————",
+			say = "I bring the cup of tea that was just served to me to my lips...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是冷水。",
+					content = "Cold. The tea bag had been steeped in cold water...",
 					flag = 1
 				}
 			}
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "呜哇哇！莫非我搞错了？！指挥官对不起！",
+			say = "Ehh? Did I mess up?! I'm so sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "指挥官等一下！我先把帽子脱下来——西南风的头给你摸，指挥官就原谅我吧~",
+			say = "Wh-wh-what should I do? We're out of tea bags... I'm sorry–!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，结论下太早了……看起来西南风还是有不少成长的空间呢————",
+			say = "Having that said, she still has a lot more growing to do––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

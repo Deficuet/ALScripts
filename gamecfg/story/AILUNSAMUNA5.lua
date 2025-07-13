@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>五夕阳下的晚餐</size>",
+					"Three-Star Luxury Romance\n\n<size=45>5.Dinner in the Sunset</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 101450,
 			nameColor = "#a9f548",
-			say = "好棒……！这道菜真好吃啊！",
+			say = "Om nom! Mmm! Thif if deeewifious!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔……呼……不好意思，不应该边吃边聊的！",
+			say = "...Oops, did I just talk with my mouth full? Excuse my bad table manners!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过真的很美味啊！谢谢指挥官带我来了这么棒的一家店！",
+			say = "As I was saying: this food is *mwah*! Thanks for introducing me to this amazing restaurant, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "在逛了几家艾伦想去的店之后，决定带她到了一家常去的饭店吃饭。",
+			say = "After we'd visited all the stores she wanted to check out, I treated Allen to dinner at a restaurant I frequent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "天色在不知不觉间暗了下来，落日的余晖映入餐厅，金色的光芒点亮了室内。",
+			say = "Before we knew it, the day had grown late. The restaurant's fancy interior was basked in the beautiful glow of sunset.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，在下一道菜上来之前先再检查一下今天的采购清单吧。",
+			say = "All righty, lemme take a quick look at the shopping list while we wait for our next dish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯…这个OK……然后这个断货了，要找{namecode:98}再去进一次货才行……",
+			say = "Check... Check... Oh right, this one was outta stock, so we'll have to ask Akashi if she can order it for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "风卷残云般吃完了前菜的艾伦拿出采购清单，一条条认真确认起来。",
+			say = "Allen wolfed down the appetizers and decided to spend the time checking off items on the shopping list.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官？其实我有一个事情想问……",
+			say = "Hey, Commander? There's something I've been meaning to ask you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个，指挥官为什么要对我这么好呢？你看我在工作的时候经常走神，还给你添了不少麻烦…",
+			say = "Aren't you kinda spoiling me for no real reason? I barely do any work around the office and I don't exactly make your job any easier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听到有奖励之后还特意挑了件那么贵的，最后也没做出什么能够报答指挥官的事。",
+			say = "Sure, the promise of a reward made me try a little harder, but I'm not giving you nearly as much as you're giving me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "或许是因为害羞，艾伦用采购清单挡住了自己的脸。",
+			say = "She hid her face behind the shopping list. It must have been embarrassing for her to say this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么说呢…作为秘书舰来说努力工作是理所应当的吧？既然是理所当然的事，我又有什么资格拿奖励呢……",
+			say = "...What I'm trying to say is, it's literally my job as your secretary to help out around the office. Isn't it weird to reward me for just, you know, doing my job?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			},
 			options = {
 				{
-					content = "不是这样的。",
+					content = "\"I don't think it's weird at all.\"",
 					flag = 1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "虽然我们的职务不同，但是我们彼此之间是重要的伙伴吧。",
+			say = "\"A commander's job and a shipgirl's job are very different, but I treasure my relationship with all of you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "既然是一起努力的伙伴，给予一些自己的感谢又有什么“资格”不“资格”的说法呢？",
+			say = "\"You always do your best, Allen. I know you do. It would be weird NOT to reward you for it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			say = "仔细想想，“奖励”这个词用的确实不太好呢……",
+			say = "\"Although, I suppose it is weird to call it a 'reward,' now that you mention it. Think of it as my way of saying thank you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对，对哦……我也是指挥官重要的伙伴呢……呼……",
+			say = "Well, I suppose we are good friends, that's definitely true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！我明白了！既然指挥官这么说的话，我也要用尽全力才行！",
+			say = "That explains it! If that's how it is, then it's about time I started giving it one-hundo percent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "为了我的“奖励”能够顺利入手呢~嘿嘿♪",
+			say = "Or at the very least, work as hard as you do, hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

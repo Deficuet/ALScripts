@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 2,
-			say = "海浪声阵阵。",
+			say = "Mirror Sea - α phase",
 			bgm = "bsm-6",
 			flashin = {
 				delay = 1,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "朦胧中，她睁开双眼。",
+			say = "The sound of waves roused her consciousness. From the darkness, her hazy eyes slowly came into focus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……这是？",
+			say = "Where... am I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "不远处，米德加尔特之塔正发出幽幽光芒。",
+			say = "Nearby, the teleporter connecting the Floating Fortress to the Tower of Midgard hummed with an eerie light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "（米德加尔特之塔开始充能了？）",
+			say = "The Tower of Midgard has been... activated?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "举目四顾，周围没有其他人的踪影，整片海域望不到尽头。",
+			say = "She rose to her feet and looked around. There was nobody there– only an empty sea that seemed to stretch on forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "（之前的我应该是在浮岛要塞才对……）",
+			say = "(I should be in the Floating Fortress right now...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "这里是梦境么，还是某种模拟场景……？",
+			say = "(Is this another daydream? But it feels so real...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "记忆一片混乱，连日的噩梦令她心神难安。",
+			say = "Her memory was a mess, and her recurring nightmares made her very thoughts feel unreliable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "现实和梦境的界限似乎正在消失。",
+			say = "Her physical body had also been wracked by bouts of lethargy, blurring the lines between dream and reality even further.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "可她俯下身子，海水没过她的指尖。",
+			say = "But, as she reached down, brushing her fingertips through the water swirling around her feet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "那种真实的触感，又是任何现有手段都无法模拟的冰冷现实。",
+			say = "She felt an icy-cold reality that did not pass right through her fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "荧光在她的眼中闪烁，像某种呼唤。",
+			say = "The massive construct near her pulsed with a hypnotic light, as if calling to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_0",
 			hidePaintObj = true,
-			say = "而她选择回应那个呼唤。",
+			say = "And she chose to answer it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "短暂的眩晕之后，海面被米德加尔特之塔散发的光辉点亮了。",
+			say = "Just as the spinning sensation in her head was starting to subside, a burst of light from the Tower of Midgard illuminated the world around her.",
 			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "天空和水面仿佛倒转了一般，海面呈现出比星空更加梦幻的质感。",
+			say = "It was as if sky and sea had swapped places, the lucent surface at her feet shimmering more brilliantly than the stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "位置改变了……但，环境没有变……",
+			say = "Is this the same place... only turned upside-down?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "果然是梦么……",
+			say = "Hah, guess that settles it. Another damn dream.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "她的视线穿过海面中升起的那些造型奇特的方块。",
+			say = "In the distance were strange cube-like objects rising from the sea, casting long shadows in every direction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "此刻，米德加尔特之塔正以一种前所未见的状态运转着。",
+			say = "Her eyes were drawn to the Tower of Midgard – it was working, but not as normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "远处蓝色的光柱直冲天际，宛如指引迷途者的灯塔。",
+			say = "The column of blue light surging from it ascended straight into the sky, like a lighthouse guiding the lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_bsmre_1",
 			hidePaintObj = true,
-			say = "她凝视着那束光，像是下定了某种决心一般，朝着它的方向驶去。",
+			say = "Following its call, Ulrich activated her rigging and started to make her way towards the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

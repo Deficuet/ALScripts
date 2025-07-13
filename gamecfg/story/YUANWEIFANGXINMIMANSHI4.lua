@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>意外的颠簸</size>",
+					"The Orthodoxy's Banquet\n\n<size=45>Bumpy Road</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "宴会还未正式开始，稍微留意下会场内外吧。",
+			say = "As much as I want to check out the venue, I feel that I should have a look around the palace.",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "就在这么想的时候。",
+			say = "Curious about what the Sakura Empire is doing, I decide to go have a look – until a sound interrupts my thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "“咔——”的一声突然出现，随后是各种东西翻滚掉落的声音。",
+			say = "A loud clanging, like something metallic fell over on the road.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "看来发生了什么事故……？！",
+			say = "In other words – the sound of an accident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大事不好了！{namecode:84}大人，后面载着我们行李的马车发生了颠簸，我们的行李……",
+			say = "Bad news, Lady Musashi! Our manjuu carriage toppled on its side!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇呀——怎么办，行李全部散落一地了！",
+			say = "What do we do? Our luggage is all over the road!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "莫要慌张，人没事就好，至于散落的行李……",
+			say = "Don't panic. First, check if anybody is hurt, then load the baggage back into the carriage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "我也来帮忙收拾。",
+					content = "\"Need any help with that?\"",
 					flag = 1
 				}
 			}
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "哦呀，原来是指挥官。",
+			say = "Oh, it's you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "在我们遇到困难的时候出现，也是缘分的一种。",
+			say = "Just as trouble strikes, you appear before us. Perhaps this is fate?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "那就恭敬不如从命，有劳您了。",
+			say = "Yes, your help would be much appreciated. Let's fix this little accident.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "与{namecode:84}一行人一同整理了散落的行李。",
+			say = "With everyone working together, we manage to load the luggage back onto the carriage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼~多亏了指挥官帮忙，我们才能这么快收拾完。",
+			say = "Whew... Thanks for the assistance, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "指挥官，您辛苦了，得再次向您表示感谢才是——",
+			say = "Indeed. You have my gratitude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "啊——！！怎么会这样！",
+			say = "Oh! Oh no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "发生什么事了，{namecode:225}？！",
+			say = "\"Oh no\" what? What's wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "{namecode:84}大人的……{namecode:84}大人的礼服……",
+			say = "Look what happened to Lady Musashi's banquet dress!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "偏偏是{namecode:84}大人今天要穿的礼服……弄脏了……",
+			say = "It seems it got dirty whilst we were loading the luggage back up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶诶？那件超——厉害的礼服弄脏了！？",
+			say = "Oh dear, that's awful. You can't wear a dirty dress to a banquet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "怎么办……宴会……不久后就要正式开始了吧……",
+			say = "What do we do... Lady Musashi is meant to appear at the banquet really sooon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "嗯……还好，礼服并未脏污到严重的程度。",
+			say = "It's not the end of the world. Fortunately, it didn't tear.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "只是这些污渍的话，宴会前能清理干净吗？",
+			say = "A little dirt is nothing we can't fix with some soap and water before I make my entrance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "唔……礼服的材质……需要小心清理……再算上烘干的时间……",
+			say = "Right! Of course. Let me see how long it would take to clean and dry the fabric... Hmm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "我加把劲的话，但勉强能赶得上……！",
+			say = "Not too long, luckily! Allow me to do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "那礼服就拜托你了，{namecode:225}。",
+			say = "Very well. If you insist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，我去通知鸢尾那边关于抵达时间的变动！",
+			say = "Meanwhile, I'll call the banquet staff and inform them you'll arrive a bit later than planned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "黎塞留那边还是由我来亲自联络吧。",
+			say = "You mean calling Richelieu? It's best if I do that myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "虽是意外事故，但终究影响到了预定安排，得亲自致以歉意才是。",
+			say = "Accident or not, it affects the schedule. The least I can do is personally apologize to her for the delay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:84}大人！",
+			say = "As you say, Lady Musashi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,11 +636,11 @@ return {
 			},
 			options = {
 				{
-					content = "遵命，{namecode:84}大人！",
+					content = "\"As you say, Lady Musashi!\"",
 					flag = 1
 				},
 				{
-					content = "真是冷静的处理。",
+					content = "\"I suppose everything worked out in the end.\"",
 					flag = 2
 				}
 			}
@@ -654,7 +654,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~指挥官就不要跟着起哄了。",
+			say = "You really needn't parrot people without reason...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "也许是因为指挥官在我身边，我才能这么从容哦？",
+			say = "It's truly fortunate you were here, Commander. Without your help, we'd still be lifting luggage.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "嗯……距离宴会开始还有一段时间。",
+			say = "Now, it'll take a while for Wakatsuki to clean my garb, and I don't wish to stand around idly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "指挥官，稍后有空闲时间么？",
+			say = "Say, would you lend me a bit of your time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "您在危机之时出手搭救之事，我想好好答谢一下————",
+			say = "I wish to repay my debt of gratitude to you for coming to our aid.",
 			painting = {
 				alpha = 0.3,
 				time = 1

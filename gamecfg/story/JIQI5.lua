@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>五 故事！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 5 - Tell Me A Story!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，完成了！",
+			say = "All done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么样，指挥官？我果然非常能干吧！",
+			say = "Well, Commander? Aren't I amazing~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "和棘鳍一起完成了今天的工作。",
+			say = "With Cavalla's help, I managed to finish all the work for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天鲦鱼和大青花鱼都没找我，其他的潜艇们好像也都有安排。",
+			say = "Dace and friends didn't show up earlier, and all the other subs seem busy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔唔唔……难道要在这里坐着过一个下午吗……",
+			say = "*Sigh*... I bet I'll end up spending the afternoon just sitting on my butt...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，指挥官，我们来互相讲故事吧！怎么样？",
+			say = "Oh, I've got an idea! Let's have a storytelling contest, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "有点小孩子气的要求，不过作为打发时间的手段似乎也不错。",
+			say = "I'm presuming the idea is that we'll each take turns telling a story and then decide whose is the best.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那指挥官，你先来吧！",
+			say = "You go first, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "讲什么故事好呢？",
+			say = "Right, what kind of story should I tell her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,15 +200,15 @@ return {
 			},
 			options = {
 				{
-					content = "英雄牺牲拯救世界的故事",
+					content = "A story about a hero who sacrifices himself to save the world",
 					flag = 1
 				},
 				{
-					content = "国王为了爱人放弃王位的故事",
+					content = "A story about a king who abdicates to be with his sweetheart",
 					flag = 2
 				},
 				{
-					content = "侦探步步为营找出凶手的故事",
+					content = "A story about a detective who uses his wits to track down a criminal",
 					flag = 3
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "为什么拯救世界就一定要牺牲掉主人公啊！",
+			say = "Why did the hero have to die?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "就没有既救了世界又不用牺牲自己的方法吗？这样的结局我绝对不认同！",
+			say = "There's gotta be a way to save the world without sacrificing yourself! Boo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "棘鳍看起来反应很激烈。",
+			say = "Cavalla seemed really upset with my story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "不是，为什么国王为了一个女人愿意放弃自己的王位？",
+			say = "Why did he need to... \"abbey-cate\"... to be with his sweetheart?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "他难道是笨蛋吗？",
+			say = "I don't get it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "唔，或许这种情感对她来说还是太难理解了",
+			say = "... It seems Cavalla is too young to enjoy the story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
-			say = "Zzz……Zzz……",
+			say = "Zzzzzzzzz……",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "欸？结，结束了吗？",
+			say = "H-huh? Is the story over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#a9f548",
-			say = "我，我睡着了吗？非，非常抱歉！",
+			say = "I must've fallen asleep... Sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……这个故事似乎对棘鳍没什么吸引力",
+			say = "It seems Cavalla thought my story was rather dull.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那接下来就到我了！",
+			say = "Okay, now it's my turn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，我的故事肯定比指挥官的精彩一百倍！",
+			say = "Heheh! I'm sure my story will be much more exciting!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "棘鳍把自己记忆中的经历讲了一遍",
+			say = "She told me a story centered around her own service record.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么样，是不是很厉害！我的经历可是独一无二的！",
+			say = "Well? Aren't I the best? No one else would ever understand the richness of Cavalla's personal story!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸头",
+					content = "Pat her on the head",
 					flag = 1
 				}
 			}
@@ -582,7 +582,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，真是的，指挥官又把我当成小孩子了！",
+			say = "Hey! You're treating me like a baby again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一定会让指挥官对我刮目相看的！",
+			say = "That does it! Next time I'm gonna make it clear to you that I'm not a baby anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "留下了这样的宣言，明天的棘鳍会有什么变化吗？",
+			say = "I sensed an unusual flash of determination in her words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

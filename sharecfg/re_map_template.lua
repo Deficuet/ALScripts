@@ -225,7 +225,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 6,
 		bg = "temp_yisege",
-		order = 6,
+		order = 7,
 		config_data = {
 			2100041,
 			2100042,
@@ -303,7 +303,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 7,
 		bg = "temp_zhuiluo",
-		order = 7,
+		order = 6,
 		config_data = {
 			2100061,
 			2100062,
@@ -373,7 +373,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 8,
 		bg = "temp_yuanwei",
-		order = 8,
+		order = 9,
 		config_data = {
 			2100081,
 			2100082,
@@ -443,7 +443,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 9,
 		bg = "temp_moran",
-		order = 9,
+		order = 10,
 		config_data = {
 			2100101,
 			2100102,
@@ -513,7 +513,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 10,
 		bg = "temp_guangrong",
-		order = 10,
+		order = 8,
 		config_data = {
 			2200021,
 			2200022,
@@ -622,11 +622,11 @@ pg.re_map_template = {
 	},
 	[12] = {
 		memory_group = 132,
-		name = "月光下的序曲常驻复刻",
+		name = "月光下的序曲",
 		activity_type = 2,
 		id = 12,
 		bg = "temp_xinaoerliang",
-		order = 12,
+		order = 14,
 		config_data = {
 			2200031,
 			2200032,
@@ -655,7 +655,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 13,
 		bg = "temp_bisimai",
-		order = 13,
+		order = 12,
 		config_data = {
 			2100141,
 			2100142,
@@ -725,7 +725,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 14,
 		bg = "temp_ouxiang",
-		order = 14,
+		order = 13,
 		config_data = {
 			2200041,
 			2200042,
@@ -851,7 +851,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 16,
 		bg = "temp_longxiang",
-		order = 16,
+		order = 17,
 		config_data = {
 			2200051,
 			2200052,
@@ -880,7 +880,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 17,
 		bg = "temp_xiangting",
-		order = 17,
+		order = 16,
 		config_data = {
 			2100181,
 			2100182,
@@ -1036,7 +1036,7 @@ pg.re_map_template = {
 		activity_type = 2,
 		id = 19,
 		bg = "temp_u110",
-		order = 19,
+		order = 21,
 		config_data = {
 			2200061,
 			2200062,
@@ -2225,7 +2225,7 @@ pg.re_map_template = {
 	},
 	[40] = {
 		memory_group = 223,
-		name = "雄鹰的叙事歌常驻复刻",
+		name = "Aquilifer's Ballade Added Permanently",
 		activity_type = 1,
 		id = 40,
 		bg = "temp_luoma",

@@ -29,7 +29,7 @@ return {
 			actorName = "{namecode:94}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "是么，一航战和{namecode:93}都已经…",
+			say = "So, the First Carrier Division and my sister have already...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -49,7 +49,7 @@ return {
 			actorName = "{namecode:94}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "不能就这么空着手回去，所有舰载机立刻起飞！",
+			say = "But I can't let it end like this... All squadrons, attack!!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,7 +69,7 @@ return {
 			actorName = "{namecode:94}",
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "让你们看看二航战的底力，这是我们“最后的反击”！",
+			say = "I'll show you what the Second Carrier Division is made of! This is our final counterattack!",
 			shake = {
 				speed = 1,
 				number = 3

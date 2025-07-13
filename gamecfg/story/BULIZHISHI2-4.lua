@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "battle-boss-1",
-			say = "在三只布里如潮水一般的攻势下面，净化者渐渐开始支撑不住，终于露出破绽————",
+			say = "Finally, after enduring wave after wave of unrelenting attacks, Purifier showed an opening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好机会purin，大家和我一起上呀purin！",
+			say = "Now, bulin! Hit her with everything you've got, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "接下我这突破天际的钻头purin！",
+			say = "Taste this – my drill that pierces the heavens, bulin!",
 			effects = {
 				{
 					active = true,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有我这砸穿大地的扳手buli！",
+			say = "And my wrench that pierces the earth, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			actor = 100020,
 			dir = 1,
-			say = "以及我这击坠星辰的锤子burin！",
+			say = "And my hammer that strikes down the stars, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			actor = 900233,
 			dir = 1,
-			say = "呜啊————本净化者竟然会输！？！这不可能！",
+			say = "Gaghh! How is this possible?! How could a bunch of glorified resources defeat me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "巨大的爆炸声后，净化者狼狈地逃离了战场。",
+			say = "Purifier was hit with a huge explosion. Once the smoke of it cleared, she ran away with her tail between her legs.",
 			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
@@ -178,8 +178,8 @@ return {
 			side = 0,
 			actor = 100000,
 			dir = 1,
-			actorName = "布里三姐妹",
-			say = "赢啦，我们赢啦buli！\n赢啦，我们赢啦purin！\n赢啦，我们赢啦burin！",
+			actorName = "All Bulins",
+			say = "We did it, bulin! We beat the big baddie, bulin!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -211,7 +211,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就这样，三只布里合力挫败了塞壬的进攻，世界暂时迎来了和平。",
+			say = "With their combined powers, the three Bulins put a stop to the Siren's invasion, and the world enjoyed a brief period of peace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "可是，布里三姐妹的故事仍未停止。",
+			say = "And while the world could breathe easy now, the Bulins' quest had only just begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "下次她们会在梦中迎来怎样的冒险呢？",
+			say = "What is the next challenge that awaits them in their dreams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "欲知后事如何，请听下回分解——————",
+			say = "Find out in the next episode! To be continued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

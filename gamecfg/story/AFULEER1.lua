@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>一、胜利的曙光（？）</size>",
+					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 1: Daybreak of Victory</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "轻型巡洋舰演习中",
+			say = "Today, many light cruisers from around the port gathered to conduct a ship-class specific exercise...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不好！可恶，我也被判定击沉了么……",
+			say = "Crap! Damn it, don't tell me I've also been sunk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "又有同伴被“击沉”了……再这样下去的话，队伍就要撑不住了啊！",
+			say = "Another team member is out... at this rate, we won't be able to hold out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该，该不会是{namecode:98}他们一时糊涂，把敌人的参数给弄错了吧！没听说过这次的演习难度有这么高呀？",
+			say = "D-did Akashi mess up the settings with these virtual enemies? I've never fought enemies this tough before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，不专心点的话，下一个被“击沉”的可就是你了。",
+			say = "Sister, please focus on the enemies in front of you! Otherwise, you too will be sunk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "正在演习的众人们陷入了苦战。",
+			say = "Even with their combined strength, the light cruisers were still struggling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，我们该怎么办？",
+			say = "Ning Hai, what are we gonna do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总，总之先努力规避敌人的攻击吧！但是，这个状况实在是……",
+			say = "Focus on dodging! But if this keeps up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家，不要放弃！",
+			say = "Don't panic, everyone!",
 			effects = {
 				{
 					active = true,
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "突然之间，海面上响起阿芙乐尔的声音，洪亮而富有穿透力。",
+			say = "Suddenly, the inspiring voice of the protected cruiser, Avrora, rang out across the surface of the ocean.",
 			effects = {
 				{
 					active = false,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我曾经在北方联合对塞壬的战斗中面对过比这更糟糕的情况。但是，我和我的同伴们都在那次战斗中坚持了下来。",
+			say = "In our fights against the Sirens, my comrades never lost hope, even when severely outnumbered and outgunned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，大家，不要放弃！就把这当成是真正的战场，放手一搏吧！",
+			say = "We shouldn't treat this exercise any differently - treat this as a life or death battle, and show your true power - the determination of a ship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，既然阿芙乐尔前辈都这么说了——",
+			say = "Heh, if Avrora's going to give us a pep talk like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们这些后辈们可不能示弱啊。白鹰的海上骑士，你还有余力吧？",
+			say = "...then we have no choice but to do our utmost. Am I correct, Lady Cleveland?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			actor = 102090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是当然！上了！",
+			say = "You betcha! All right everyone, we're gonna take out every last one of them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海，要上了！跟上我！",
+			say = "Ping Hai, we're pushing ahead! Follow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢噢！",
+			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别说着漂亮话然后就冲上去了呀！",
+			say = "Jeez, look at them, charging forward after saying something cool...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真，真是的！既然大家都这样的话，那我也——！",
+			say = "I-I'm coming too! If everyone else is going, I can't be left behind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就应该有这样的干劲，不是么？呵呵~",
+			say = "Hehe~ Now that's what revolutsiya looks like~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "最终，在阿芙乐尔激起了大家的斗志之后，所有演习的敌人都被顺利消灭了，可喜可贺。",
+			say = "After hearing Avrora's rousing words, her colleagues began to charge forward courageously, smashing through the enemy ships.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "顺便一提，把敌人参数弄错的正是{namecode:98}。作为补偿，每个人都得到了一张{namecode:98}商店的优惠券（一次性）。",
+			say = "...By the way, Akashi really did make a mistake in the settings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

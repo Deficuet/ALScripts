@@ -9,7 +9,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "端坐在王座上的马可波罗高悬于天空，引导着一轮又一轮地联合攻击。",
+			say = "With Marco Polo commanding from atop her throne, the offense struck like an unstoppable tsunami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "终于，在又一次齐射后，审判机的护盾骤然消失，炮火在其装甲上引发了一轮猛烈的爆炸。",
+			say = "The MECHArbiter's barrier was completely destroyed after a coordinated volley, so the shipgirls mercilessly bombarded its exposed armor with their cannons.",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（愈发急促的机械轰鸣声）",
+			say = "ROOOOAAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,12 +192,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……终于打碎这个又厚又硬的乌龟壳了！",
+			say = "Phew... We've finally broken through that stupidly thick barrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,12 +207,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_0",
-			factiontag = "撒丁教国",
+			factiontag = "Sardegna Ecclesia",
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来就是装甲，所有人继续攻击，给本圣座一层一层拆了它！",
+			say = "Now to pierce the armor. Continue the attack! Strip away everything it has!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "与此同时，无垠的纯白之中，借助雕像的眼睛，我也同步看到了护盾破裂的一幕。",
+			say = "In the endless expanse of white, I watch as the barrier disintegrates through the statue's eyes.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像的眼眸闪过了一丝诡异的光。",
+			say = "A strange light flashes in the statue's eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "而后，我便与雕像一同，被卷入了白色空间中突然出现的漩涡中——",
+			say = "Then, the next moment, it and I are both sucked into a vortex that appeared out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

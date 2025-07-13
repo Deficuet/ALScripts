@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "龙宫城·中心区 稍早前",
+			say = "Dragon Palace - Heart",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "掩护{namecode:18}离开后，战斗依然在激烈地进行着。",
+			say = "While Shimakaze searched for the mechanism's pedestal, Suruga's group was fighting a fierce battle against the defender of the castle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 307120,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个{namecode:204}的舰装……明显是航空母舰吧！",
+			say = "Even though Hakuryuu and I are both supposed to be aircraft carriers, I've never seen anyone fight like that before!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 307120,
 			dir = 1,
-			say = "……同为航空母舰，为什么她的威力能到这么夸张啊！",
+			say = "Doesn't it seem like each one of her blows are as powerful as Odin's?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要勉强，{namecode:208}！敌人不是你单枪匹马就能对付的。",
+			say = "Katsuragi, focus on handling your planes! We'll try to draw Hakuryuu's attention!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			actor = 301470,
 			dir = 1,
-			say = "那个……非常感谢你，{namecode:427}小姐。从战斗开始后就一直在保护我和{namecode:207}……",
+			say = "Oh, um... Thank you so much, Miss Eugen! You've been protecting us this entire time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "小事一桩，我可不忍心看到你们这样可爱的女孩子受伤啊。",
+			say = "Don't worry about it~ How could I let any misfortune befall the guests of the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "虽然精疲力尽的我在战斗上已经没什么用处了，不过防御上还是可以再努努力的！",
+			say = "Besides, all of you must already be exhausted from your previous battles. Get too close to that Hakuryuu, and she'll take you out in a heartbeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "姑且也算生死攸关的局面，我怎么说也得再加把劲才是。",
+			say = "Since this is a matter of life and death... I suppose I can afford to put in some effort~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（什么再加把劲……当时在天宇启户祭上你对{namecode:50}可不是这么打的！）",
+			say = "(This woman, I swear... She was nothing like this back at the Diadem of Light! She's been holding back this entire time!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			actor = 305140,
 			dir = 1,
-			say = "（……那个{namecode:486}更是连主炮都没有再发射过一次，这些铁血的人是怎么回事啊，一点紧张感都没有么！）",
+			say = "(The same with Odin! Between her and Eugen, they've fired a total of one single shot since we found them! Who are these people...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（等等，这么说作为唯一的战列舰，战斗的火力不是只能靠我了么！）",
+			say = "(And I sure hope Shimakaze doesn't mess up... If she figures out some way of bungling this, I'm going to be livid...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "大家注意防空，不要急于取胜。",
+			say = "Suruga, we're making our stand here! Buy her as much time as possible!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			actor = 303060,
 			dir = 1,
-			say = "在{namecode:18}成功启动机关之前，尽可能长时间的拖下去！",
+			say = "If Shimakaze can activate that mechanism, we'll surely have an opening!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

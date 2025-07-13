@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"暴风雨与麦芽糖\n\n<size=45>四　摇曳的灯火·下</size>",
+					"Cinnamon Roll on a Rainy Day\n\n<size=45>4 Warming Words</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "借着这辛苦得到光明，终于顺利地把工作的处理完了。",
+			say = "Thanks to Helena's efforts, I finally managed to wrap up my work for the day.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "至于接下来……至于暴雨没有丝毫减弱的痕迹，干脆聊会天吧。",
+			say = "\"Well... The storm doesn't seem to be dying down. Why don't we talk about stuff to kill some time?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……陪指挥官聊天的话，可以的。",
+			say = "Talk about... what stuff?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜有什么喜欢的东西么？",
+			say = "\"I guess for starters... What's your favorite thing?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喜欢的东西么……SG……",
+			say = "Hard to say... Maybe my SG radar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不出意外……不过日常一些的喜好呢？",
+			say = "\"Your radar, huh. I had a hunch... What about something more general?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "日常一些的话……可爱的衣服。",
+			say = "Hmm... Nice clothes, I suppose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（有用的情报增加，下次准备一些礼物送给她吧。）",
+			say = "I made a mental note to buy some nice clothes later to thank her for her outstanding performance today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,55 +160,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "那海伦娜害有什么害怕的东西么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 102050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "害怕的东西……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "海伦娜把头低了下去，沉默了一会。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 102050,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "……我其实，有点害怕战斗……",
+			say = "\"I see. What about... something you consider a shortcoming of yours?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +177,21 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只要看到有同伴受伤，就会感觉心都要裂开一样……",
+			say = "A shortcoming? Well...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "She gazed into the floor and went quiet for a short while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +208,41 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我能够变的更强大就好了……这样就不会只是眼看着她们受伤，自己又无能为力……",
+			say = "Um... I dislike going into battle...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 102050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Because every time I see my friends get hurt, it feels like my heart is coming apart at the seams...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 102050,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I really wish I was stronger so I could do something to prevent that, not just watch powerlessly while it happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说完，海伦娜便陷入了沉默。",
+			say = "A somber look formed on her face, and she fell silent again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "好像有些选错话题了啊……",
+			say = "In retrospect, I should've asked a different question instead...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "轻轻起身，借着微弱的灯光，从保温杯里杯倒了一杯热茶。",
+			say = "Dropping the topic, I got up and poured a cup of tea for each of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,11 +295,11 @@ return {
 			},
 			options = {
 				{
-					content = "（默默地把茶递到海伦娜面前。）",
+					content = "Quietly give it to Helena",
 					flag = 1
 				},
 				{
-					content = "来喝杯茶放松一下吧。",
+					content = "\"Sorry for asking about such a touchy subject.\"",
 					flag = 2
 				}
 			}
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "欸，指挥官，这是给，给我的吗？谢谢……",
+			say = "For me? Th-thanks for the tea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "……谢谢，指挥官。",
+			say = "...Thanks, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "海伦娜捧着茶久久地望着窗外，仿佛在思考着什么。",
+			say = "Cup of tea held in her hands, she gazed through the office window, brooding for a considerable time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "忽然，她转过头，神情认真地问道——",
+			say = "Eventually, after gathering up enough courage, she turned around and threw me a decided look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，也一定有害怕的东西吧……",
+			say = "What about you, Commander? What's one of your shortcomings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我想知道指挥官在碰到害怕的东西时会怎么做。",
+			say = "And what do you do to try to make up for it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这样的话，我就可以照着指挥官的方法，尝试着去战胜恐惧了……",
+			say = "Knowing you, you must have some good advice for fixing your own flaws.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……欸？指挥官的意思是……不用刻意想着战胜它们么？",
+			say = "...Why are you shaking your head? Are you saying I don't need to fixate on that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，海伦娜只要按照自己的节奏来就好。",
+			say = "\"Yeah. You'll be just fine if you work on it at your own pace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而且，今天海伦娜也帮了很多忙，还没来得及道谢呢。",
+			say = "\"I should've said it sooner, but you've been a lifesaver today. You deserve a huge thank-you for that.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "你已经很出色了哦。",
+			say = "\"So thank you, Helena, for going above and beyond.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这，这样么……",
+			say = "Y-you really think so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能得到指挥官的肯定，我还是很开心的……",
+			say = "I'm... I'm delighted to hear those words from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "相较于之前的沉默，海伦娜的眉头似乎舒展了一些。",
+			say = "Her expression lightened up a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

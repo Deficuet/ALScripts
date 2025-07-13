@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>一　情书</size>",
+					"All-Love Assault!\n\n<size=45>1. A Pink Letter</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "某个阳光明媚的工作日——",
+			say = "It's a clear, sunny day at the port...",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀吼，指挥官~！这么棒的日子，工作结束后要和我一起去约会哟？",
+			say = "Heheh☆ Good morning, Commander! It's a beautiful day, so let's go on a date after work!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -81,7 +81,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是去游乐园？去水族馆？去餐厅？去电影院？还是就在港区的街道上两个人一起随便逛逛呢~",
+			say = "Where should we go? The amusement park? The aquarium? A restaurant? The movie theater? Or maybe just a walk around the port?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "嗯……还有这份报告也要处理……",
+			say = "\"Hmm... I still need to get through these documents.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！不要不理我呀！",
+			say = "Earth to Commander! Don't ignore me like that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……这位正缠在我身边要着约会的姑娘，就是理论上应该在辛勤工作的港区秘书舰——{namecode:450}。",
+			say = "This needy girl, Blücher, is my secretary. She should be assisting me with my work around the office, but instead she's badgering me about date plans.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看我看我！把视线从工作当中移开一下嘛~！",
+			say = "Commander! Look at me! You can afford to put your paperwork on hold for one second!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			},
 			options = {
 				{
-					content = "好的好的（敷衍）",
+					content = "(Shoot her a quick glance)",
 					flag = 1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "瞟了一眼{namecode:450}，而后重新进行手头上的工作。",
+			say = "Taking her words at face value, I look at her for exactly one second, then resume my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……！真是的，指挥官……一点都不正经嘛！这未免也太敷衍了！",
+			say = "Wooow! You meanie! I need more attention than that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "…………？",
+			say = "\"I'm sorry, but I have a job to do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明就没有那么多工作，更何况还有{namecode:450}陪在您的身边~跟{namecode:450}约会嘛！",
+			say = "It's not like you have THAT much work! I'm here to help, remember? Let's get out of this place and go on a date, come on!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "无言地指了指桌子上的文件堆。",
+			say = "Silently, I point to the stack of documents on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（假装没看到）嘛算了~每天都能陪在指挥官的身边，{namecode:450}就已经心情大好啦~",
+			say = "Fiiine. Simply being with you all the time is enough to make me the happiest girl alive anyway♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼哼~经营着爱情的少女，今天也努力向着粉红色的热恋奔去~",
+			say = "Just know that there are no breaks on the Blücher train. It's on a one-way trip to our dream romance! Heheh☆",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "接下来处理一下演习相关的事务好了……",
+			say = "\"Noted. Now could you go through the documents regarding the upcoming exercise?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是指挥官！工作结束之后去哪约会，您还没有告诉我呢！~",
+			say = "Not until you answer my question! You didn't say where we're going for our date after this shift!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官指挥官！来个大大的拥抱吧！没有指挥官的拥抱，做事情有些提不起来力气，呜~",
+			say = "Tell you what, I'll do some work in exchange for your loving embrace. I need hugs from you to get the energy to do anything!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~！有{namecode:450}陪在身边，心情一定会变得愉悦起来对吧~",
+			say = "Heehee... Doesn't having me around make you happy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官指挥官！……",
+			say = "Hey! Commandeeer! Heeeey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "最终还是决定不理她，先做完手头的工作再说——",
+			say = "I'll take care of her later. For now, I have to focus on my paperwork...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿嘿……指挥官……抱抱……",
+			say = "Hehehe... Commandeeer... Gimme a hug...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不知什么时候，{namecode:450}已经趴在旁边的桌子上睡着了。",
+			say = "While I wasn't looking, Blücher had fallen asleep on the desk next to mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好在工作已经处理完了……说起来，当初为什么要同意让{namecode:450}来当秘书舰呢。",
+			say = "At least I managed to finish a good chunk of work without her. Come to think of it, why DID I appoint her as my secretary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "就在站起身来的时候，在{namecode:450}的手边发现了一封桃红色信纸包着的信，难道是——",
+			say = "On second glance, I notice her hand is resting on a pink letter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——果然，是她在工作中摸鱼写出来的情书。",
+			say = "It looks to be a love letter... addressed to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

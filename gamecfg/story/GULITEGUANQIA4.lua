@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "众人在一遍又一遍的警报中快速穿行在走廊上。",
+			say = "The group hurried down the hallway toward the gym.",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -45,7 +45,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "奇怪……怎么不见了，明明早上的时候还在的。",
+			say = "That's strange... No matter how hard I look for it, I can't find it! I know I had it this morning...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了，梦芽，刚才开始就在找什么啊？",
+			say = "Yume, what are looking for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我的戴拿……不，我的一个东西不见了。",
+			say = "Dyna, err... I mean, I dropped something earlier...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有那个的话，没法和怪兽战斗啊……",
+			say = "(If I can't find it, I won't be able to fight the kaiju...)",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……要去战斗么，好麻烦。这种事交给专门的人处理就好了吧。",
+			say = "What? Fight...? I think you should just leave that to the pros.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "没错！好好去避难，市政部门肯定会有什么对策的！",
+			say = "She's right! The people in the town will be able to think up some countermeasures! In the meantime, we should hurry up and evacuate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然是这样，但是如果有自己能做到的事……",
+			say = "You're not wrong, but if there's anything I can do to help...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……好像已经有人过去了哦。",
+			say = "Look, who's that person out there...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？真的哎，这种状况下一个人过去？",
+			say = "Huh, no way! Who'd be outside at a time like this?!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "是处理威胁的专业人员么？",
+			say = "Someone from the next town over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不太像，怎么看都感觉是跟怪兽一起过来的！",
+			say = "I don't think so... Now that I'm looking closely... is that person walking towards us WITH the kaiju?!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -250,7 +250,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "手机的变焦真是方便……瞄准前方的位置，扩大倍率……啊真有人。",
+			say = "I'm going to grab my phone and zoom in for a closer look! ...Wow, you're right, there really is someone there!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且那个，难道是……貉？",
+			say = "Wait... is that... Mujina?!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "貉是？梦芽的熟人么？",
+			say = "Someone you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……怎么说呢，算是有过一些交集的人吧。",
+			say = "Uh... Kind of, we've got some history between us...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -321,7 +321,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怪兽和貉一起出现啊……不会又是怪兽优生主义做的吧…？",
+			say = "So, Mujina and the kaiju show up at the same time... Are the Kaiju Eugenicists up to something again?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "怪兽优生主义是什么？",
+			say = "Kaiju Eugenicists...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也不大清楚……简单来说，算是让怪兽暴走的组织？",
+			say = "It's a bit hard to describe, but... to put it simply, they're people who want to let kaiju run rampant, or something along those lines.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "感觉是{namecode:90}会喜欢的设定……",
+			say = "W-what kind of evil organization is that? Almost sounds like something right out of those shows Ryuujou watches...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘛，第一次听起来确实是这样吧。",
+			say = "Yeah, that's a natural reaction to have...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +410,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			actorName = "净化亲",
+			actorName = "Purity",
 			hidePaintObj = true,
-			say = "啊，又在发呆了！现在我们可是正在遭受巨大怪兽的袭击哎，脚下动起来动起来，距离体育馆还有一段距离呢！",
+			say = "What are you loitering around for?! Let's hurry on up to the evacuation site already! The giant kaiju is just around the corner!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -431,12 +431,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "六花也是，从刚才开始就很奇怪哎……能不能有点紧迫感！",
+			say = "You too, Rikka! Hurry up, or we're going to leave you behind!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为，茜还没有回来……",
+			say = "But... Akane still hasn't come back...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -478,12 +478,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "她肯定直接去避难了吧，现在警报已经响的满天都是了。",
+			say = "I'm sure she's already made it somewhere safe. It'd be impossible not to hear the blaring sirens after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是怪兽怎么会又出现了……明明在之前的战斗里已经……",
+			say = "Why would a kaiju appear right here though? I thought we already defeated them all the last time...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "……之前的战斗？又什么设定？",
+			say = "...Last time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,12 +533,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "梦芽怎么也在说战斗的事，额……最近的JK流行话题？",
+			say = "Defeated the what? Are kids these days still into that roleplaying stuff even at your age?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果在意的话打个电话问问呗，现在又不是上课时间了。",
+			say = "Why don't you try calling Akane? We're not in the middle of class right now, so we can use our phones, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,12 +569,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "刚刚在上课的时候也没见到你们有任何顾忌啊！！",
+			say = "You were already using your phone during class earlier! Why bother asking for permission now?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800010,
 			nameColor = "#a9f548",
-			say = "啊，确……确实是这样。稍等一下——",
+			say = "You're right. Hold on for a second, let me call her—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

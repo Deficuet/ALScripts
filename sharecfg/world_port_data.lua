@@ -2,11 +2,11 @@ pg = pg or {}
 pg.world_port_data = {
 	{
 		port_bg = "port_niuyue",
-		name = "NY",
+		name = "NY City",
 		port_camp = 1,
 		port_entrance_icon = "port_niuyue",
 		id = 1,
-		scan_desc = "一处白鹰所属的重要港口。",
+		scan_desc = "A port in Eagle Union territory.",
 		open_condition = {
 			{
 				1,
@@ -20,11 +20,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_liwupu",
-		name = "利维浦",
+		name = "Liverpool",
 		port_camp = 1,
 		port_entrance_icon = "port_liwupu",
 		id = 2,
-		scan_desc = "一处皇家所属的重要港口。",
+		scan_desc = "A port in Royal Navy territory.",
 		open_condition = {
 			{
 				1,
@@ -38,11 +38,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_zhibuluotuo",
-		name = "直布罗特",
+		name = "Gibraltar ",
 		port_camp = 1,
 		port_entrance_icon = "port_zhibuluotuo",
 		id = 3,
-		scan_desc = "一处皇家所属的重要港口。",
+		scan_desc = "A port in Royal Navy territory.",
 		open_condition = {
 			{
 				1,
@@ -56,11 +56,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_shenbidebao",
-		name = "圣彼得伯格",
+		name = "St. Petersburg",
 		port_camp = 1,
 		port_entrance_icon = "port_shenbidebao",
 		id = 4,
-		scan_desc = "一处北方联合所属的重要港口。",
+		scan_desc = "A port in Northern Parliament territory.",
 		open_condition = {
 			{
 				1,
@@ -74,11 +74,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_jier",
-		name = "霍尔斯坦",
+		name = "Kiel",
 		port_camp = 2,
 		port_entrance_icon = "port_jier",
 		id = 5,
-		scan_desc = "一处铁血所属的重要港口。",
+		scan_desc = "A port in Iron Blood territory.",
 		open_condition = {
 			{
 				1,
@@ -92,11 +92,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_talantuo",
-		name = "塔伦托",
+		name = "Taranto",
 		port_camp = 2,
 		port_entrance_icon = "port_talantuo",
 		id = 6,
-		scan_desc = "一处撒丁帝国所属的重要港口。",
+		scan_desc = "A port in Sardegna Empire territory.",
 		open_condition = {
 			{
 				1,
@@ -110,11 +110,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_buleisite",
-		name = "布勒斯特",
+		name = "Brest",
 		port_camp = 2,
 		port_entrance_icon = "port_buleisite",
 		id = 7,
-		scan_desc = "一处维希教廷所属的重要港口。",
+		scan_desc = "A port in Vichya Dominion territory.",
 		open_condition = {
 			{
 				1,
@@ -128,11 +128,11 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_dakaer",
-		name = "达咯尔",
+		name = "Dakar",
 		port_camp = 2,
 		port_entrance_icon = "port_dakaer",
 		id = 8,
-		scan_desc = "一处维希教廷所属的重要港口。",
+		scan_desc = "A port in Vichya Dominion territory.",
 		open_condition = {
 			{
 				1,
@@ -146,11 +146,11 @@ pg.world_port_data = {
 	},
 	[20] = {
 		port_bg = "port_zuozhangangkou",
-		name = "作战港口",
+		name = "Forward Base ",
 		port_camp = 1,
 		port_entrance_icon = "",
 		id = 20,
-		scan_desc = "参与作战的舰队在此集结",
+		scan_desc = "A forward base for the fleets participating in Operation Siren. ",
 		open_condition = {
 			{
 				1,
@@ -164,11 +164,11 @@ pg.world_port_data = {
 	},
 	[30] = {
 		port_bg = "port_zuozhangangkou",
-		name = "核心区前哨站",
+		name = "NA Ocean Core Sector Forward Base",
 		port_camp = 1,
 		port_entrance_icon = "",
 		id = 30,
-		scan_desc = "参与作战的舰队在此集结",
+		scan_desc = "Your forward base for the counteroffensive in the NA Ocean Core Sector.",
 		open_condition = {
 			{
 				1,
@@ -182,7 +182,7 @@ pg.world_port_data = {
 	},
 	[100] = {
 		port_bg = "port_chuanwu1",
-		name = "海域补给商店",
+		name = "Future Content ",
 		port_camp = 0,
 		port_entrance_icon = "",
 		id = 100,
@@ -200,7 +200,7 @@ pg.world_port_data = {
 	},
 	[301] = {
 		port_bg = "port_chongdong",
-		name = "虫洞商店",
+		name = "Future Content ",
 		port_camp = 0,
 		port_entrance_icon = "",
 		id = 301,

@@ -15,18 +15,18 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}平时有运动习惯吗 ？",
+			say = "Do you exercise much, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "经常运动。",
+					content = "All the time.",
 					flag = 1
 				},
 				{
-					content = "不太运动。",
+					content = "I don't do it that often.",
 					flag = 1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "果然和我预想得差不多呢。",
+			say = "Just as I imagined.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……其实定期且适量的运动对维持健康很有帮助。",
+			say = "Doing regular, moderate exercise is very good for maintaining your health, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要是你觉得自己运动比较难坚持的话，要不要和我一起？",
+			say = "If you find it hard to keep up on your own, why don't we exercise together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂…{namecode:182}，在这里哦……",
+			say = "Shinano, over here...",
 			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
@@ -48,7 +48,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "白鹰的拉菲…是侦查舰队么。好的，看妾身的——————！",
+			say = "You're the Eagle Union destroyer... Laffey...?",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停！{namecode:182}，停！",
+			say = "What's the matter, Shinano? Why'd you change your movements all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:161}…？发生什么事了？",
+			say = "...Hmm? Amagi...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，像这样不顾周围的一个人逞强就是你的战斗方式么？",
+			say = "I know we're not using live rounds, but even getting hit by practice rounds will still leave a bump...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "并非逞强。妾身乃是重樱的最强航母，是扭转重樱命运的希望，由妾身承担破局的责任是理所应当的。",
+			say = "Nay... I was just thinking about... why there is still a need for us to fight in a peaceful world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为什么？扭转重樱命运……重樱本岛陷入危急了么？",
+			say = "......You are free to decide if you wish to fight or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这到没有……本岛周边的塞壬基本清理完毕，和白鹰的战线目前也在僵持…",
+			say = "Yes... However, the dream that I saw is different from the reality that I know... If this is only a \"fragment\" for me to collect, then the destination of this dream is also...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "联合舰队已经没有其他人了么？",
+			say = "I see. You're worried about us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不…{namecode:91}、{namecode:92}、{namecode:74}、{namecode:83}、{namecode:84}都在。",
+			say = "Azur Lane was once a single faction... But the world was torn asunder by the rise of the Crimson Axis. And though we have much in common...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，就算重樱的未来真的充满阴云，又为什么要你独自一人承担？",
+			say = "The two sides still had to fight, as enemies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:182}，你焦虑的根源究竟来自何处？",
+			say = "Shinano, you believe that this is fate, beyond your ability to control despite your intentions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（啊……如此想来，现在最严重的事也不过是噩梦预兆的显现，距离真正的危机尚有时日…）",
+			say = "...I only can peer into dreams. I have no ability to influence reality...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（为什么一直没有意识到这么简单的事，那妾身心中这股焦虑究竟来源于……）",
+			say = "How am I... to turn this dream into reality...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:161}，请问————————",
+			say = "Amagi... can you tell me...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来就是你应该自己思考的部分了，{namecode:182}。",
+			say = "Of course. Allow me to demonstrate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "放下焦躁，冷静下来。注意观察战场，与指挥官的演习还在继续哦。",
+			say = "...what it means to exist. In this port. No, in this world itself—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

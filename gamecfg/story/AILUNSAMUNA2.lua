@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>二 买椟还珠？</size>",
+					"Three-Star Luxury Romance\n\n<size=45>2.Sticker Star</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "真的吗！？只要我努力工作，指挥官就会给我奖励吗！",
+			say = "You serious?! You'll reward me if I do a good job?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官真是大好人！我终于明白为什么大家都喜欢你啦！",
+			say = "Wowzie! You're the best boss ever, Commander! Now I see why everyone likes you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，指挥官的奖励会是什么呢~看来得努力工作才行了♪",
+			say = "Wonder what the reward's gonna be! Might just go the extra mile so I can find out~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然不知道能不能让艾伦的注意力集中起来，至少在鼓起干劲的方面还是有效果的。",
+			say = "Whether or not this would help her concentrate remained to be seen, but she definitely sounded more motivated than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "既然如此，那就让她的目标更明确一点——",
+			say = "I decided to take it one step further and give her a concrete goal to work towards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我选？真的可以吗？指挥官不用勉强的哦？",
+			say = "Say what? You'll even let me choose the reward? You sure about that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我选了什么奇怪的东西，指挥官也许会卷入奇怪的传闻哦～？",
+			say = "Like, what if I pick something that'll make people start weird rumors about you? Wouldn't want that, would you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！莫非这才是指挥官的目的？",
+			say = "Unless... that IS what you want? Everyone gets their kicks one way or another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……要是她真敢选什么特别奇怪的东西，就赶紧阻止住吧……",
+			say = "She made a... strangely good point. If she asked for something too bizarre, I would just tell her to pick something else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "港区·小卖部",
+			say = "Port - Shop",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -224,7 +224,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官！诶嘿嘿，想要的奖励已经决定好了！",
+			say = "I've decided, Commander! I want this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "艾伦拿来了一张传单，指着上面的一件家具说到。",
+			say = "Allen picked up a brochure from the counter, showed it to me, and pointed to a piece of furniture on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "3星高级按摩椅！就要这个！",
+			say = "That's right! A three-star luxury massage chair!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "按摩椅么……感觉不像是她的风格，不过如果她能因此对工作充满干劲的话，这样的奖励也不错。",
+			say = "It wasn't something I'd expect Allen to want, but if it would help her concentrate on her work, then it was all good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个家具正在搞活动，买入的话就送一套特别贴纸哦！",
+			say = "There's this campaign where if you buy one of these, you get a limited-edition sticker set as a bonus!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我一直都想要这个！因为太贵了所以拖了很久都没有买～谢谢指挥官！",
+			say = "I've always wanted this set, but I never had the money for it. Thanks a bunch for finally uniting me with these little beauts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "嗯…不愧是艾伦啊。",
+			say = "Now her choice made sense. She has always had a thing for stickers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，除了这个家具以外我还想要一个奖励……",
+			say = "On that note, there's actually one more thing I want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "还想要一个吗…？",
+			say = "One more thing? That wasn't part of the deal, but I felt curious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			},
 			options = {
 				{
-					content = "问问她想要什么奖励",
+					content = "\"What would that be?\"",
 					flag = 1
 				}
 			}
@@ -378,7 +378,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心，这个不用花钱买！不用指挥官再破费啦！",
+			say = "Before you ask, don't worry, it won't cost you anything! It's not something you can just walk into a store and buy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，到时候你就知道了～",
+			say = "As for what it is, you'll see soon enough~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好了，从今天开始要努力工作了——！",
+			say = "All righty, we're done here! Let's head on back and get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

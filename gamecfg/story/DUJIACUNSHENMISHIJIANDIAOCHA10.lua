@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>番外篇：于演出开始之前</size>",
+					"The Spiriting-Away Incident?\n\n<size=45>Before the Play</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "这是在正式演出开始前发生的，某一幕故事的后续——",
+			say = "This is a small story from before the Youkai Troupe performed their play...",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "stopbgm",
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "温泉度假村·？？？",
+			say = "Onsen Resort - ???",
 			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
@@ -59,12 +59,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……看阁下也是通情达理之人，",
+			say = "Great. I knew you'd be willing to talk it out.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -80,12 +80,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾等妖怪剧团在此常年演出，从未做出过伤人之事。",
+			say = "*yawn*... So, our troupe has been entertaining the resort for a looong time, and we've never hurt a soul...",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -101,12 +101,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于演出之事，不只阁下可否容吾等继续进行呢？",
+			say = "So, be nice and pretend you didn't see us, alright?",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -124,11 +124,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "……妾身若是没有理解错。",
+			say = "This one has a question, as a fellow member of the Napping Club...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,11 +142,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "汝等所谓的演出，是打算装神弄鬼吓唬妾身的同伴们，没错吧？",
+			say = "Is this play of yours merely a contrivance to frighten my compatriots?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "虽然是笑着说出了自己的疑问，然而妖怪剧团的团长——食梦貘并没有从对方的话语中感觉到任何笑意。",
+			say = "The sleepy Shinano questioned the also sleepy Dream-Eater Baku with a sharp tone she seldom ever employs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "强烈的压迫感席卷了它的全身。",
+			say = "This shook the Dream-Eater Baku in a way that made it impossible to nap, even though she wanted to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,12 +180,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个，{namecode:182}大人您说笑了，怎么就是装神弄鬼吓唬人了呢？",
+			say = "We're not gonna scare them. It's just an attraction – a part of the onsen resort, you see?",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -201,12 +201,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是普通的恶作剧罢了……既然{namecode:182}大人不喜欢的话，我这就去通知团员停止演出。",
+			say = "But if you really don't want us pulling pranks on people, I'll be sure to tell them not to do that.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -224,11 +224,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "汝等……为何要将恶作剧称之为演出？",
+			say = "No, what I really meant was... why do you wear those outfits?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,12 +240,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉，其实恶作剧捉弄人也不是吾等的本意。",
+			say = "Hmm? Because the youkai asked us to.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -261,12 +261,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是在结界之外，一般人无法看到吾等。要想被人所察觉，只能弄出些奇怪的动静……",
+			say = "The onsen resort gets a looot of customers, but nobody plays with them. So the play and the outfits are like a way to draw them closer.",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -284,11 +284,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "换言之，只要进入结界，便能如妾身一般见到汝等的真面目了？",
+			say = "What are you implying...? That a real Youkai Troupe exists beyond the boundary of the torii gate...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,12 +300,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "食梦貘",
+			actorName = "Dream-Eater Baku",
 			bgName = "star_level_bg_517",
-			factiontag = "现在是剧团长zzz",
+			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "道理上是这样。只是结界入口日渐破败……已经没有让一般人进入其中的力量了。",
+			say = "Pretty much. The barrier's entrance is starting to crumble, and it needs people to maintain it, so...",
 			icon = {
 				scale = 8,
 				image = "Props/story_shimengmo",
@@ -323,10 +323,10 @@ return {
 			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "夏日与妖怪剧团……呵呵，倒是不错的组合。指挥官与同伴们一定会喜欢的。",
+			say = "So what seemed like an act of greed on Akashi's part was actually for the greater good... I am sure the guests will adore the youkai...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,11 +340,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
-			factiontag = "蝶海梦花",
+			factiontag = "Habitual Sleepwalker",
 			dir = 1,
 			actor = 307080,
 			nameColor = "#A9F548FF",
-			say = "剧团长，妾身忽然想到了……一个双赢之法，不知可否听上一听？",
+			say = "\"Chief\"... I have an idea that may benefit everyone...",
 			painting = {
 				alpha = 0.3,
 				time = 1

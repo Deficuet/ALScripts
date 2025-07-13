@@ -16,7 +16,7 @@ return {
 			actor = 406020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:464}阁下快看！已经能看到米德加尔特之塔发出的光亮了！",
+			say = "I can see the light emanating from the Tower, Ulrich!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒计时还有四十多分钟，绝对来得及！",
+			say = "We don't have much time left... but as long as we can keep up the pace, we should be able to make it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是感觉后面有个极具压迫感的东西正在高速接近啊！！！",
+			say = "B-b-b-but, there's something frightening behind us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别回头，坚定地往前跑！",
+			say = "Don't look back! Run, with all your might!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "加速，再坚持一下——",
+			say = "That's right! We're almost there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 499030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:464}阁下，舰队已经部署完毕，接下来就交给我们吧",
+			say = "Ulrich, the reserve team is in position! Leave it to us!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是难得见到你这么狼狈的一面啊，{namecode:464}阁下。",
+			say = "My, what a precious express you have, Ulrich. I've never seen you frazzled before~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "来的很准时……不过怎么只有你们两个？",
+			say = "Your timing couldn't have been better... Is it just you two?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明明是值得感动的瞬间，第一句话就直入主题……",
+			say = "Are the two of us not good enough for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然任务是保障撤退的火力支援，我跟{namecode:479}不是绰绰有余嘛。",
+			say = "Just kidding. There are others behind us. We can call them in if necessary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是这样的，{namecode:464}阁下。{namecode:480}和{namecode:482}因为接到了{namecode:440}的紧急命令，所以临时调动走了。",
+			say = "Friedrich called back some of our forces, but we should have ample firepower to take out the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "真遗憾……如果你们都到齐的话，我还真想硬打一次试试……",
+			say = "Scrap that idea. This entire Singularity is already under the control of an Arbiter. We need to withdraw immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说不定{namecode:440}就是考虑到这一点才会把她们临时调走的哦。",
+			say = "...Understood. We'll hold them back, so make your way to the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伤员就不要想太多，快点撤退。跟在你们后面的那个大家伙就交给我们吧。",
+			say = "I guess so. It'd be more fun if we all fought together though~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然欺负你们这么惨……接下来要怎么对付它才好呢，呵呵呵。",
+			say = "Let's see how scary you actually are, Arbiter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………！什么时候飞到这么近的距离了？",
+			say = "W-when did she get here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "所有人小心，那个就是仲裁者·拉沃斯·VI！",
+			say = "That instant materialization...! It's the Arbiter! She's here!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499030,
-			say = "嗯……？你们两位是。",
+			say = "Scharnhorst and... Gneisenau? Wait, the two of you are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "情况复杂，回去解释。",
+			say = "There's no time to explain. If we don't take care of her and the Tower is destroyed, we'll be stuck here for eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明白了。",
+			say = "Roger. Engaging in combat with the Siren higher-ups is part of the plan... We'll support you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "{namecode:464}，我的伤比较轻，让我也留下殿后吧。",
+			say = "By the way, Ulrich, I'd keep the Ashes out of this if possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "没问题，记得千万不要让她们恋战，我们走了。",
+			say = "Yeah. The Sirens were after them from the very beginning, and we must get them back to our world safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "我明白，放心吧。",
+			say = "Gotta look after our allies after all. Make me proud, mass-produced ships!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "一路顺风哦~",
+			say = "Enough chit-chat. See you back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "伴随着轰鸣声，{namecode:464}一行人径直冲入了前方涌动的蔚蓝光芒中。",
+			say = "Ulrich entrusted the two new allies to the reserve fleet, and turned back to face the Siren threat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,52 +495,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_8",
-			say = "几乎是同一时刻，巨大的白色身影也来到了米德加尔特之塔上空。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_midgard_8",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "{namecode:439}",
-			say = "你就是仲裁者·拉沃斯·VI？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_8",
-			say = "无言，对于塞壬来说应该畅通无阻的舰队频道中没有传来任何声音。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_8",
-			say = "不过，作为回应，一束能量惊人的光束从海域上横扫而过，激起的海水如同局部暴雨般落在铁血众人身上。",
+			say = "Just at that time, a massive figure formed in the sky, its gargantuan white rigging casting a shadow across the Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,8 +511,36 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:439}",
-			say = "看来是沉默寡言的类型啊……{namecode:479}，这个自信的家伙正毫无防备的停在我们面前呢，要不要试试火力？",
+			actorName = "Roon",
+			say = "That's... Arbiter VI?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_8",
+			say = "There was no answer. The massive construct looming overhead seemed unable to speak.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_8",
+			say = "But its response was thundering. Lasers swept across the waters as the rigging revealed its arsenal of optical weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,8 +556,8 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:479}",
-			say = "那是自然，千里迢迢跑一趟就是为了这一刻。",
+			actorName = "Roon",
+			say = "Doesn't look like they want to talk. Guess there's only one thing left to do, Mainz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,8 +573,8 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:455}",
-			say = "大家不要恋战，奇异点就要关闭了，我们也要尽快撤退才是。",
+			actorName = "Mainz",
+			say = "Naturally. I didn't come all this way to have a tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,8 +590,25 @@ return {
 			bgName = "bg_midgard_8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:439}",
-			say = "这种事我还是清楚的哦。就算只有几分钟也好，让我们大闹一场吧~",
+			actorName = "Prinz Adalbert",
+			say = "Only 10 minutes until the Singularity maintenance limit! Don't get carried away!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_midgard_8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Roon",
+			say = "Of course, I know~ Hehe... Let's have some fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			bgName = "bg_midgard_8",
 			dir = 1,
 			blackBg = true,
-			say = "距离米德加尔特之塔关闭剩余——0小时21分。",
+			say = "Battleship Ulrich von Hutten firmly grasped the massive scythe in her rigging, unleashing her full powers in a decisive stand against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

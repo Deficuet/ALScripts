@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>四　对决</size>",
+					"Duelling Sunshine!\n\n<size=45>4 The Appearance of a Rival?!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port—Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，不好了不好了！！",
+			say = "Commander, it's terrible!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -82,7 +82,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "————？！",
+			say = "Huh...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天，秘书舰大黄峰再次风风火火的闯入了指挥室。",
+			say = "A flustered Hornet came flying into the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			},
 			options = {
 				{
-					content = "发生什么事了？",
+					content = "What's wrong?",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你听我说啊，事情是这样的——",
+			say = "Gasp... You see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这几天指挥官和秘书舰休假，也没有演习的安排！嘿嘿，得好好玩上一番才行~",
+			say = "The Commander and I are both on extended vacation, and I'm not scheduled to participate in any practice exercises! Hehehe, that means it's time to play to my heart's content~!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -176,7 +176,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！你是那个企业的妹妹，约克城级的……大黄蜂对吧！",
+			say = "Hey, the Union ship over there! If I remember correctly, you're Enterprise's sister... the Yorktown class's... Hornet! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是我啊？你是…重樱的{namecode:96}？",
+			say = "Yes? You're... the Sakura Empire's Zuikaku?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来的正好！我一直在找那个灰色幽灵——啊就是你那个企业姐。你知道她现在哪里吗？",
+			say = "Perfect timing! Do you know where that \"Grey Ghost\"... basically, I was looking for your sister. Do you know where she is?",
 			effects = {
 				{
 					active = true,
@@ -252,7 +252,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你说企业姐啊~她刚有个紧急委托，要明天晚上才能归来，现在不在港区哦。",
+			say = "Oh, Enterprise should be out on an emergency commission. She'll be back tomorrow night.",
 			effects = {
 				{
 					active = false,
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，这样啊……本来说好了今天要比试比试的…看来只有另找机会了…",
+			say = "Is that so... We were planning on having a bout today... I guess it'll have to wait for next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是演习对手的话这里也有喔！这几天我可是超有时间~要不，让我来当你的对手吧？",
+			say = "Hehe, if you're looking for a practice partner, I'm here, you know? I'm free for the next few days anyway, I don't mind sparring with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我当时不知为什么就说了那种话……然后{namecode:96}就真的答应了！",
+			say = "Is what I said in the heat of the moment... but I didn't think she would actually take me up on the offer.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -355,7 +355,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "突然安排的演习啊……是想确认一下有没有空置的演习区域么？",
+			say = "It seems that she's due for a 1-on-1 exercise... and she wants to know if there's a practice area that's free to use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这件事当然也是来找指挥官的原因之一！不过还有件更根本的事……",
+			say = "That's part of it, but, what's more important is that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "担心会输？",
+			say = "Are you worried... that you might lose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "当然不是！演习本来就是有输有赢的友好切磋，我大黄蜂可不会在这种事上斤斤计较。",
+			say = "No! There's nothing bad about losing during practice, and I'm usually not one who cares about winning or losing anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也早就想和{namecode:96}切磋一下，试试自己的实力了！",
+			say = "And I've always wanted to take on the Sakura Empire's Zuikaku as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只不过……这次切磋，我是作为企业姐的替补去跟{namecode:96}比的。",
+			say = "But even so! I'm going in place of Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么说呢……要是输了的话，不太好吧……",
+			say = "If I were to lose... nothing good would come from that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以指挥官，为了取得胜利！请给我一些建议吧！",
+			say = "So, Commander! Please give me some advice for how to win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,11 +512,11 @@ return {
 			},
 			options = {
 				{
-					content = "原来如此，没问题。",
+					content = "\"I see, sure.\"",
 					flag = 1
 				},
 				{
-					content = "{namecode:96}可没来寻求帮助哦？",
+					content = "\"And what about Zuikaku..?\"",
 					flag = 2
 				}
 			}
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，我就知道你一定会帮忙的！",
+			say = "Ehehe, I knew you'd be up to help me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "谁让她最近不是秘书舰咯~近水楼台先得月！就交给你了，指挥官~",
+			say = "I'm closer to you since I'm currently the secretary ship, so I'm first in line! Please, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

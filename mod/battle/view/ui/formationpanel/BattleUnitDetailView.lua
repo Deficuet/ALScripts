@@ -10,10 +10,7 @@ local var_0_6 = class("BattleUnitDetailView")
 
 var_0_0.Battle.BattleUnitDetailView = var_0_6
 var_0_6.__name = "BattleUnitDetailView"
-var_0_6.DefaultActive = {
-	"attr_panels",
-	"attr_panels/buff"
-}
+var_0_6.DefaultActive = {}
 var_0_6.EnemyMarkList = {}
 var_0_6.HIGH_LIGHT_BUFF = {}
 var_0_6.PrimalAttr = {

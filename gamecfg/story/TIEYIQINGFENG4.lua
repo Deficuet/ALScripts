@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "海面之上，由印第安纳带领的舰队如同热刀切黄油般撕裂敌方阵线，向着位于舰队中枢的指挥者直奔而去。",
+			say = "The Eagle Union fleet tore through the enemy with overwhelming momentum, coming face-to-face with their leader.",
 			bgm = "battle-eagleunion",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各舰注意，敌方指挥者已经进入目视距离。",
+			say = "Heads up! I've sighted their command unit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "呵呵，你隐藏在面具之下的真面目，就由我们来揭开吧~",
+			say = "Come now, reveal your true self to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "齐射开火——！",
+			say = "All cannons! Fireee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -177,13 +177,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,13 +191,13 @@ return {
 		},
 		{
 			actor = 900445,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
 			side = 2,
-			say = "呵呵~",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在齐射的炮弹抵达之前，头戴狐面的身影随着一阵樱花色的烟雾消散了。",
+			say = "The instant before the shell could hit, the being donning a fox mask vanished in a cloud of pink smoke, leaving not a trace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "竟然凭空消失了？！简直像忍者一样……！",
+			say = "She disappeared! How?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "看来这个领头的，不是单纯的棋子呢……",
+			say = "We're not dealing with any regular old Pawn here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "难道又是一个不知道从哪儿冒出来的META？还是塞壬的新型智能兵器？",
+			say = "A META, then? Or a new kind of Siren?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "根据幻境之中的情报，带领访问舰队的人为重樱的{namecode:161:天城}。",
+			say = "It seems our \"visitor\" was going to be someone known as \"Amagi.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "你们有人了解{namecode:161:天城}的事么？",
+			say = "Does anyone have any information on this person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}……不清楚，在重樱的高层里没听说过这么一号人物啊？",
+			say = "Nope. There's no one named Amagi among the Sakura Empire's current leadership.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "我从来不关注这些的，别问我。",
+			say = "Yeah, sorry, I don't do politics or whatever so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "贝尔，你平时看重樱的消息比较多，知道些什么么？",
+			say = "Aren't you our local Sakuran expert, Bell? Do you know anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看的主要是漫画和电影啦……里面没有提到过{namecode:161:天城}的事。",
+			say = "I mean, I only watch their movies and read their manga... I've never heard of anyone named \"Amagi.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "看来关于{namecode:161:天城}的事，只能等到和{namecode:524:圣地亚哥}司令部恢复联系后再说了。",
+			say = "Guess we'll have to reestablish contact with SD before we can figure out who she is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家休整一下，接下来我们去圣诞岛。",
+			say = "Catch your breaths then we'll head out again. We're going to Kiritimati.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "……圣诞岛？",
+			say = "Why Kiritimati?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "圣诞岛上的通讯设备更先进。前往那里，我们或许就能和司令部恢复联系了。",
+			say = "Their radio equipment is more advanced than what's here. Maybe we can reach another base from there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "不止如此，你们注意到了敌人来的方向了么？",
+			say = "That's not all. Did any of you notice where those misty things were coming from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "从航线推测，敌人应该是从圣诞岛方向来的。",
+			say = "Just from their bearing, chances are pretty high they came from Kiritimati.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "也就是说……在圣诞岛上驻扎的舰队恐怕已经陷入危险中了。",
+			say = "If true, that could also mean the fleet stationed there is in some deep shit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "我们是距离她们最近的舰队，必须前去救援！",
+			say = "We're the closest allied fleet to them, so we're obliged to assist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

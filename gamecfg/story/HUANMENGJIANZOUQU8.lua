@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_11",
 			hidePaintObj = true,
-			say = "紫色的夜空下，映入眼帘的是无边无际的白。",
+			say = "A purple sky hung overhead while corrosion entities covered the land in white as far as the eye could see. This was a dream – a dream of the World Expo.",
 			bgm = "theme-thehierophantv",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "斯特拉斯堡，黎塞留主教带领的自由鸢尾舰队已经抵达，此刻正在清理前往首都的道路。",
+			say = "Strasbourg, the Cardinal's fleet is manipulating conceptual anchors and securing a path to the holy capital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 903030,
-			say = "克莱蒙梭主教也发布了行动命令，要求我们净化圣米歇尔山圣堂，启动节点设备，配合黎塞留主教的行动。",
+			say = "Also, Lady Clemenceau has told us to cleanse Mont-Saint-Michel and activate the conceptual anchors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……这一天还是来了。",
+			say = "Well, ladies, this day has finally come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是啊……终于来了。",
+			say = "At long last!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "真是选了一个合适的时机……",
+			say = "And the timing couldn't be any better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……一个能够将旧的一切都果断抛开，重新开始的时机。",
+			say = "We'll tear down the old world and forge a new path for ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "没错，鸢尾终于要重新开始了！",
+			say = "Yes. A new path for a unified Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "斯特拉斯堡，各地的教廷驻军正在陆续向黎塞留主教发去贺电，我们什么时候发？",
+			say = "Vichyan fleets across the country are contacting the Cardinal one by one. Should we follow suit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "我们不发。",
+			say = "No. We won't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "克莱蒙梭主教给我们的任务只有净化圣堂，以及启动节点设备而已。",
+			say = "Lady Clemenceau's orders are only to cleanse the Basilica and activate the anchors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……出发吧。",
+			say = "Which is what we'll do now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_11",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_11",
 			hidePaintObj = true,
-			say = "黑发少女在白色中艰难地开辟着道路。",
+			say = "Just like then, Strasbourg carved a way forward, cutting down strange foes along the way. Though calm on the surface, her heart was in discord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "怎么回事……越是接近圣堂，心中的感情就愈发难以抑制。",
+			say = "I don't understand... The closer I get to the Basilica, the stronger my feelings get...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……这种感情是什么？喜悦……愤怒……欣慰……不甘？",
+			say = "Joy, anger, happiness, regret... Why am I feeling these things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "从离开到归来……一切都顺理成章，又是如此不讲道理。",
+			say = "We did as ordered and split up, then regrouped, restarted, and returned to where we should be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……如果，我再强大一些。",
+			say = "No... That's it, isn't it? I wasn't strong enough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "强大到能够影响这场棋局……过去的那些悲剧，或许能少发生些。",
+			say = "If only I were stronger, I could've fought back against these Reenactments and averted that blight upon our motherland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这一日，或许也能更早到来……",
+			say = "If only this day had come sooner...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "届时……此刻涌动在心中的感情……恐怕只会有激动与喜悦了吧。",
+			say = "If only things were different, I'd be free of this regret and hopelessness...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_11",
 			hidePaintObj = true,
-			say = "似乎受到感受到了斯特拉斯堡涌动的情绪，被白色物质覆盖的圣堂突然迸发出耀眼的光芒。",
+			say = "All of a sudden, the corrosion-covered Basilica began to glow like the sun, as though it heard her plight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_2",
 			hidePaintObj = true,
-			say = "圣洁的光芒将周边的白色一扫而空，令人熟悉又安心的夜色回归了。",
+			say = "The holy light purged the corrosion, restoring the night sky to its calm dark blue color.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "圣堂……对于我的心意做出了回应。守护着鸢尾的诸圣也是如此认为的么！",
+			say = "It's... gone! Did the guardian saints of the Holy Iris hear my wish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "还不够，对于漫漫长夜来说，光芒还不够……！",
+			say = "It's still not enough, though... More must be done to lift the eternal night over the Orthodoxy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "我要尽快……尽快到达那里！",
+			say = "I must reach it... I must go faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "bg_story_shengmixieer_2",
 			hidePaintObj = true,
-			say = "夜色下，快步而行的少女消失在光芒中——",
+			say = "She raised her engine speed and disappeared into the light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
-			say = "阴云下，肃杀的气氛笼罩了凯比尔港。",
+			say = "The curtains rose on a dream of Kébir – where light and dark intersected.",
 			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
@@ -487,7 +487,7 @@ return {
 			actor = 204030,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "相信我们此次前来的原因贵方已经很清楚了。",
+			say = "I do hope that you understand the reason we are here today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "由于种种不可抗的原因，我们希望你们在未来能够更加配合我们反抗铁血的行动。",
+			say = "The Royal Navy would like your cooperation in halting the advances of Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 204030,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你们有四种选择。",
+			say = "I shall give you four options.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "一、立刻出港，加入皇家舰队，继续对抗铁血与赤色中轴。",
+			say = "First: Leave with us right now, and enlist in the Royal Navy in our fight against Iron Blood and the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			actor = 204030,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "二、解除武装，开往皇家港口，我们会保证你们的安全。",
+			say = "Second: Completely disarm. In return, the Royal Navy shall offer safe harbor for all of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 204030,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "三、在我们的护送下，加入白鹰联邦，解除武装。",
+			say = "Third: Allow us to escort you to the Eagle Union, where they shall disarm you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "四、立刻自沉，这是我们并不希望看到的。",
+			say = "Or, the final option we would rather not see: Sink right here and now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这算是你们的最后通牒吗？……如果所有的条件我们都无法接受呢？",
+			say = "...Is this your ultimatum? And what if all your options are unacceptable to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 204030,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "那么我们只能遵照司令部的命令，用武力解除你们的威胁了。",
+			say = "Then I hope you won't take it personally when we simply follow the orders we were given... and disarm you forcefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "我给你们考虑的时间，希望你们能做出明智的决定。",
+			say = "I hope that you can reconsider and join our fight, and that you'll make the right choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "欺人太甚……敦刻尔克，我们绝不屈服。",
+			say = "What nonsense. Dunkerque, we must NOT yield to them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "那是自然。纵使局势不利……我们亦要奋战至最后一刻。",
+			say = "Agreed. We will fight to the end, no matter how poor our odds are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "嗯……奋战至最后一刻。",
+			say = "Yeah. To the bitter end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,9 +681,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
-			actorName = "▇ ▇ ▇ ▇",
+			actorName = "▇▇▇▇▇",
 			side = 2,
-			say = "看来，诸位陷入了困局之中呢。",
+			say = "You seem to be in trouble, ladies.",
 			bgm = "theme-akagi-inside",
 			typewriter = {
 				speed = 0.05,
@@ -715,7 +715,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "你是……？",
+			say = "Who are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "▇ ▇ ▇ ▇阁下，没想到会将您卷到这种事情里来。",
+			say = "I never wanted you to get dragged into this, ▇▇▇▇▇. I'm sorry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "您不是鸢尾骑士，不必与我们一同在此死战，还请从陆路撤离吧。",
+			say = "You aren't a knight and have no obligation to fight by our side. You should evacuate by land, quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "（▇ ▇ ▇ ▇阁下……是谁？）",
+			say = "(What? Who's \"▇▇▇▇▇\"?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,8 +769,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "亲眼见到了这种事，叫我如何能够转身离开呢？",
+			actorName = "▇▇▇▇▇",
+			say = "No. I will not turn my back on you, knowing you're faced with such a dilemma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,8 +782,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "其实，你们还有一条路可以选哦——一条解决眼下困局的最佳之路。",
+			actorName = "▇▇▇▇▇",
+			say = "There is another way. The perfect option to get you out of this difficult situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "请▇ ▇ ▇ ▇阁下不吝赐教。",
+			say = "Really? Please, ▇▇▇▇▇, tell me what it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,8 +809,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "吓退她们。我此次前来，可不是孤身前来，还记得么？",
+			actorName = "▇▇▇▇▇",
+			say = "Drive them back with a show of force. Don't forget that I've not come alone this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
-			say = "伴随着轰鸣声，一艘又一艘巨舰从船坞中驶出，在皇家舰队与鸢尾舰队之间形成了一道屏障。",
+			say = "With booming rumbles, one massive ship after the next appeared out of the dock, cutting a wedge between the Royal Navy and Vichya Dominion forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "（黑色的……巨舰？这些船是什么……什么时候来的？）",
+			say = "(What are these pitch-black ships? Have they been here all along?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,8 +847,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "作为技术交流的一环随我一同前来的，斯特拉斯堡小姐不记得了么？",
+			actorName = "▇▇▇▇▇",
+			say = "I brought them here as part of our agreement to share technology. Surely you remember that, Strasbourg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "欸……好像确实有这回事？",
+			say = "Oh... Right. Yeah, that happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -874,8 +874,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "呵呵~没错，确有其事哦。",
+			actorName = "▇▇▇▇▇",
+			say = "Yes. We all know that happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,8 +887,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "我的舰队，加上诸位的舰队，对上皇家的H舰队——诸位觉得有几成胜算？",
+			actorName = "▇▇▇▇▇",
+			say = "Dunkerque, what do you believe our odds of victory are against their H Fleet if we combine our forces?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "完全有一战之力。",
+			say = "I think we'll stand a fighting chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -914,8 +914,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "呵呵~皇家的诸位呢？",
+			actorName = "▇▇▇▇▇",
+			say = "And you, Hood? What are your thoughts on this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "……重樱的▇ ▇ ▇ ▇阁下，皇家会牢记这笔账的。",
+			say = "You've made a grave mistake today, ▇▇▇▇▇ of the Sakura Empire. We will not forget this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 204030,
-			say = "H舰队的诸位，我们撤。",
+			say = "Ladies, let us retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,8 +955,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "呵呵~一路走好，不送哦。",
+			actorName = "▇▇▇▇▇",
+			say = "Have a safe voyage home. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -970,7 +970,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "这到底是怎么回事……头……好乱。",
+			say = "I don't understand... My head... I'm so confused...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,8 +999,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "斯特拉斯堡小姐，从刚才开始就见你一直心神不宁的。",
+			actorName = "▇▇▇▇▇",
+			say = "Is something the matter? You've been acting quite disoriented.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1012,8 +1012,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "皇家舰队已经离开了，你还有什么担心的事么？",
+			actorName = "▇▇▇▇▇",
+			say = "The Royal Navy is gone. What more do you have to worry about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1027,7 +1027,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "那倒没有，只是……",
+			say = "Nothing, really, it's just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,8 +1039,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "“只是”？噢~我知道了，你昨夜做了个噩梦，对么？",
+			actorName = "▇▇▇▇▇",
+			say = "\"Just\" what? Oh, I understand. Heehee. You had a nightmare last night, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "……噩梦？",
+			say = "Nightmare...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,7 +1067,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海上骑士自诞生之时起便宣誓效忠圣座与信仰，我们不会听令于任何异邦人的指令！",
+			say = "The Templar Knights are loyal to our Cardinal and to our faith. We will not take orders from anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1087,7 +1087,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "包括铁血和撒丁帝国，我们发誓绝不为其所用，绝不成为他们口中侵略的獠牙！",
+			say = "And that includes the Iron Blood as well as the Empire. We shall never allow ourselves to become the instruments of their aggression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "……曾经的盟友居然连这种程度的承诺都无法信任么。",
+			say = "It is clear to me how cynical your \"alliance\" is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1114,7 +1114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "皇家舰队不值得信任，我们将战斗到最后一刻！",
+			say = "Our official response is this: \"The Royal Navy is not trustworthy. We will fight until our last breath.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1127,7 +1127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "凯比尔港的惨案已经给予了我们答案。",
+			say = "They already made their intentions clear to us with what they did to Dunkerque and the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "骄傲的圣教骑士不会和他们同流合污，骄傲的天之子民绝不会向淫威屈服。",
+			say = "While I draw breath, I will never allow us to bow before such hypocrites!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,7 +1170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "前有狼，后有虎，现在是存亡的最后时刻。",
+			say = "The Vichya Dominion is about to draw its last breath...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1183,7 +1183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "勇敢的圣教骑士绝不低头，绝不成为任何人的傀儡！",
+			say = "We are surrounded by vultures ready to devour us. But what of it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1196,7 +1196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以自由之名，我命令，陆间海全军舰队，就地自沉，就地自沉！",
+			say = "The proud Templar Knights shall never bow their heads! So that we may never become puppets, I hereby order all of you to sink!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1215,7 +1215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "是啊……做了一场噩梦。",
+			say = "Now I remember... That nightmare...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1252,7 +1252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "一场很长……很长的噩梦。",
+			say = "It lasted for so, so long...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,8 +1264,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "还好你醒过来了呢。",
+			actorName = "▇▇▇▇▇",
+			say = "Fortunately, you're awake now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,8 +1277,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "不用担心，不管噩梦有多可怕，只要醒过来就没事了。",
+			actorName = "▇▇▇▇▇",
+			say = "All nightmares, even the most haunting ones, go away when you wake up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1292,7 +1292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "嗯……只要醒过来就没事了。",
+			say = "You're right. I'm awake now, and everything is fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1304,8 +1304,8 @@ return {
 			bgName = "bg_qiongding_10",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "▇ ▇ ▇ ▇",
-			say = "好啦~走吧，我很期待今夜的晚宴之上斯特拉斯堡小姐的演奏哦。",
+			actorName = "▇▇▇▇▇",
+			say = "Precisely. Now, shall we go? I'm quite excited to hear your performance at the banquet later tonight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1319,7 +1319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904020,
-			say = "呵呵~一定不会让您失望的，▇ ▇ ▇ ▇阁下——",
+			say = "Of course. The last thing I'll do is disappoint the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

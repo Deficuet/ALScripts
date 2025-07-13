@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天也要战斗下去……嗯！",
+			say = "Another day, another mental conflict... Here goes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "战斗？和谁？",
+			say = "Conflict? With who?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是今天是主动的{namecode:199:新泽西}，还是被动的{namecode:199:新泽西}！",
+			say = "It's a war between the proactive New Jersey and the timid New Jersey, of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那么结果是？",
+			say = "Okay. Who won?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "chu~你猜猜看呢~？Honey~",
+			say = "Mwah! I dunno, who do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

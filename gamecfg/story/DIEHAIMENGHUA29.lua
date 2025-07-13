@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "前方发现了一座正在运作中的厂房。",
+			say = "Shinano arrived at a building that appeared to be a workshop.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}？你也是来进行设备维修的么？",
+			say = "Lady Shinano? Did you come for repairs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是…维修厂？",
+			say = "(This is... a repair facility...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是科研部门哦，一起进来吧~",
+			say = "If you're here for repairs, don't just stand there! Come on in, Chitose and I both came for the same reason!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎来到科研部门…各位今天有装备需要调整么？",
+			say = "Hmm... Need something from the Research Department?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机的升降装置这几天感觉有些问题，一会就要演习了，想来检查一下。",
+			say = "My aircraft elevator isn't working quite right. I have an exercise soon, so I'd like to get it taken care of before then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的是动力装置问题！",
+			say = "I'd like a little boost to my engine performance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了，请两位到这边来。",
+			say = "I don't really feel like taking on such uninteresting jobs, but... guess somebody's gotta do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一会儿再见了哦~{namecode:182}。",
+			say = "Sorry! Lady Shinano, once we finish up over here, it'll be your turn!。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "随着三人的离开，空旷的房间中只有{namecode:98}一个人还在忙碌着。",
+			say = "Chitose, Chiyoda, and Yuubari disappeared into the workshop.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -224,7 +224,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:98}…汝不是方才还在那边摆摊么……？",
+			say = "(Akashi...? Didn't I see her with Kii and the others not too long ago...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵？那里已经被设置成自助式购物了喵~就算放着不管也能源源不断的自动赚钱喵！",
+			say = "Hm? Why are you looking at me like that, nya? I let the Manjuus take over back there. They don't need sophisticated orders to sell things for me, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:182}喵是来这里做什么的喵？有哪里不舒服么喵？",
+			say = "But what brings you here, Shinano? Is something the matter, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这么说来……",
+			say = "\"......\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有感觉到任何异常。舰装的状态良好，设备搭载齐全，身体也没有任何虚弱感…）",
+			say = "(I'm in perfect condition... As if I've been completely reborn after the last \"dream.\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，海若在这片区域的某个地方么？",
+			say = "(But just in case... maybe I should get an inspection...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hairuo？那是什么东西喵？港区的设备清单里没有这件东西喵。",
+			say = "Nya? Yes, no? Maybe so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "神石不存在于这里…？那妾身现在的状态是…",
+			say = "\"Yes...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔喵……让我看看喵！",
+			say = "That's what I want to hear, nya. It's not every day I get to work on a ship as important as you, so I'll see you for free, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来{namecode:182}喵没有任何问题，现在正处于正常状态喵！",
+			say = "I don't see anything wrong at all, nya. Purrfect condition, nya.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -425,7 +425,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在这样才是正常状态么…？",
+			say = "(I see... This is what I should have been... and this power...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错喵？现在的{namecode:182}喵才是处于正常状态的{namecode:182}喵。喵！{namecode:182}喵怎么了喵！小心脚下喵！",
+			say = "By the way, were you about to go see the Commander, nya? You see, I have this brochure for my new product, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "慌慌张张的跑走了喵…",
+			say = "Huh? Did Shinano just disappear into thin air, nya??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,8 +10,8 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			dir = 1,
-			actorName = "{namecode:13}＆{namecode:14}",
-			say = "嘿！",
+			actorName = "Ikazuchi＆Inazuma",
+			say = "Eat this!",
 			effects = {
 				{
 					active = true,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "咚！",
+			say = "KABOOOOM!!",
 			effects = {
 				{
 					active = false,
@@ -93,8 +93,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 303118,
 			dir = 1,
-			actorName = "{namecode:66}酱",
-			say = "鄙人居然会如此…输、输了…！",
+			actorName = "Takao-chan",
+			say = "For this to happen to me... how shameful...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "{namecode:66}小姐，真难对付呢",
+			say = "Takao, you were a formidable foe.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -127,9 +127,9 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
+			actorName = "Chune-Chune",
 			dir = -1,
-			say = "啊呜～＞＜",
+			say = "Uguuuu~ ><",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,9 +143,9 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
+			actorName = "Shou-chan",
 			dir = 1,
-			say = "好不容易达到比{namecode:91}前辈更高的等级……",
+			say = "Just when I managed to surpass Akagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "再高这边就很困扰了……",
+			say = "If you had surpassed her a bit more, we might have been in trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "命运女神酱，没事的…爱酱就交给我们吧…！",
+			say = "Fortune, don't cry! Just leave AI to us, we'll save her...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:428}小姐，抱歉了！",
+			say = "Sincerest apologies, Miss Eugen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,9 +204,9 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
+			actorName = "Prinz-chan",
 			dir = 1,
-			say = "没事，你不需要道歉。不过，至少…想和那个废柴AI指挥官说句话呢……",
+			say = "It's fine. There's nothing you need to apologize for. However, I want to leave a message for Commander... for AI...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,9 +220,9 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
+			actorName = "Prinz-chan",
 			dir = 1,
-			say = "这逊爆了的名字…其实我还挺喜欢的……",
+			say = "This shitty nickname that you gave me... I'm actually quite fond of it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽说是为了帮爱，不过这样总有种我们做了坏人一眼的感觉，的说",
+			say = "Even though we're all trying to help AI, I can't help but to feel that we're the villains here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊…不过，我们得连绊爱舰队的各位的份一起努力，把爱酱救出来才行呢",
+			say = "Maybe... but, we have to carry on the will of the Kizuna AI Fleet, and do our best to save Kizuna AI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赶紧结束这一切吧！爱酱，我们一定会把你救出来的！！",
+			say = "Let's put an end to all this! AI, we're coming to save you!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

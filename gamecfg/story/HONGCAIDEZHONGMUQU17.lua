@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "佐治亚",
+			actorName = "Georgia",
 			side = 2,
 			bgName = "bg_endingsong_1",
 			dir = 1,
@@ -15,7 +15,7 @@ return {
 			bgm = "theme-highseasfleet",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官，现在开始战况汇报。",
+			say = "All right, Commander. It's time for a mission briefing.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "目前，本次参战的几乎全部舰队均与铁血展开交战。",
+			actorName = "Georgia",
+			say = "Almost all our fleets across this entire ocean sector are engaging the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "铁血舰队数量虽然远不如我们，但依靠庞大的幻影与单体作战性能强大的计划舰，已经大幅拖慢了我们的时间表。",
+			actorName = "Georgia",
+			say = "Though we greatly outnumber them, their jamming has thrown a wrench into our plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "我们所在的主力打击群受到的直接阻力最小，主要以遭遇到的大量幻影舰队为主，推进速度基本正常。",
+			actorName = "Georgia",
+			say = "Let me break it down fleet by fleet. Our fleet has mainly only encountered jamming and a few ghost fleets. They've not done too much to slow us down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "不过北方联合舰队在与我们汇合途中遭遇了包含名为{namecode:486}的计划舰在内的铁血舰队阻击，汇合时间推迟。",
+			actorName = "Georgia",
+			say = "The Northern Parliament's fleet was intercepted by the Iron Blood, so they're expected to arrive behind schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "{namecode:199}带领的NA海域舰队打击群也遭遇到了包含名为{namecode:479}的计划舰在内的铁血舰队阻击。",
+			actorName = "Georgia",
+			say = "Lastly, New Jersey's fleet. Hers is also in the midst of trading shots with the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "同时因后勤舰队遭遇到铁血狼群的猛烈进攻，{namecode:199}不得不分出一部分编队进行护航。",
+			actorName = "Georgia",
+			say = "As for our rear guard... Iron Blood submarines have been ambushing them. That's one of the reasons our advance has been going slowly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,8 +142,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "总体来说各舰队进展均不如预期，不过延后时间依然在可控范围内。",
+			actorName = "Georgia",
+			say = "All that is to say, while things are taking longer than expected, everything is going more or less as planned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,8 +159,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "……嗯？指挥官，插播一条最新消息。",
+			actorName = "Georgia",
+			say = "...Wait, we just received new intel. Let's see here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "目标26,30,31已被确认为干扰幻影，现在从地图上排除。",
+			actorName = "Georgia",
+			say = "Huh. Blips 26, 30, and 31 have been identified as fake targets. I'll remove them from our map.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "很好，又排除了一部分干扰。剩下的疑似目标还有多少？",
+			say = "\"Great, that's three we can rule out. How many more are there?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,8 +207,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "71处。",
+			actorName = "Georgia",
+			say = "71, in total.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			},
 			options = {
 				{
-					content = "……排除速度还能加快么？",
+					content = "\"We have our work cut out for us, huh...\"",
 					flag = 1
 				}
 			}
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "拥有地利优势的铁血出动了大量陆基飞机，一定程度上抵消了我们的舰队航空优势。",
+			actorName = "Georgia",
+			say = "Yup. Our recon planes can't identify them from afar either, thanks to their optical camouflage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,8 +247,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "况且铁血航空舰队的位置依然不明，如果继续增派侦察机队的话，舰队本身的安全将会承受巨大风险。",
+			actorName = "Georgia",
+			say = "The only way we can identify fake targets is by getting in close. Our planes would get promptly shot down if they tried that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "……因为铁血直到此刻仍未登场的主力舰队，全军在海域中不以更谨慎的方式行动。",
+			say = "\"Worse yet, it's impossible to pinpoint their flagship fleet with this many blips on the map.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "没想到会以这种形式重新领教到存在舰队的厉害。",
+			say = "\"The Iron Blood knows their technology, and they're really making the most of it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,24 +290,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "…………不得不说，铁血的拖延战术虽然意图明显，却依然极其有效。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_endingsong_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "佐治亚",
-			say = "指挥官，我认为任何拖延都是要有目的的。",
+			say = "\"It doesn't change the fact our forces far eclipse theirs, though. Sooner or later, their plan is going to fall apart.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,64 +306,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "毫无目的的拖延不过是延后死亡的无用之功罢了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "没错。在此紧要关头，作为总旗舰的{namecode:440}缺行踪不明，铁血的海外舰队也依然没有任何回援迹象。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "毫无疑问，{namecode:440}是出于某些目的在有计划的拖延时间。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "而这个目的一旦达成，将对战局产生颠覆性影响……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_endingsong_1",
-			say = "就是她究竟想要做什么呢……",
+			actorName = "Georgia",
+			say = "Exactly. They're succeeding at slowing our advance, but they can't stop it without inflicting actual damage to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,8 +323,64 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "通讯器",
-			say = "滴——————",
+			actorName = "Georgia",
+			say = "Give it some time and we'll be able to counteract their jamming as well.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "\"This all begs the question – why are they stalling us to begin with? Are they buying time for reinforcements?\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "\"Or... Maybe this has something to do with Friedrich's request for information surrounding Wisdom Cubes. The one she made a while back.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "\"But who knows. Cubes, Singularities, this whole thing... It's often a mystery what goes on inside her head.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_endingsong_1",
+			say = "\"Just thinking about it gives me a headache.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +396,8 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "……指挥官，通讯器，在响。",
+			actorName = "Communicator",
+			say = "BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +413,25 @@ return {
 			bgName = "bg_endingsong_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佐治亚",
-			say = "是后方司令部发来的通讯么？",
+			actorName = "Eldridge",
+			say = "Commander... Your communicator.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_endingsong_1",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Georgia",
+			say = "If it's Naval HQ, let's hope they're not in a sour mood. Heh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
-			say = "不对，接收到消息的是私人频道，而发信人是……",
+			say = "I picked up the communicator, which made the screen before me flash with the caller's ID.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			blackBg = true,
-			say = "————{namecode:529:苏维埃同盟}？",
+			say = "\"It's... Soyuz?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

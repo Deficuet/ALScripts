@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰-------------！",
+			say = "BOOM!",
 			dir = 1,
 			bgm = "battle-boss-1",
 			flashN = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家海军厌战，参上！",
+			say = "Warspite of the Royal Navy, ho!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……厌战…终于来了么…！（倒）",
+			say = "Waah! Warspite... you're finally here! (splash)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱斯基摩人、爱斯基摩人你没事吧！",
+			say = "Eskimo, are you alright?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…她怎么样？",
+			say = "What happened to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚昏迷过去了…舰装多处受损，不过还在可控范围",
+			say = "She passed out. Her rigging has taken heavy damage, but we can get it under control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是么…太好了。",
+			say = "Glad to hear it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对面的铁血驱逐舰，我代表皇家，现在给你们一次投降的机会。",
+			say = "Hear me, Iron Blood! In the name of the Queen, I hereby give you one chance to surrender.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "没能来得及么…算了。",
+			say = "Here they are... Well played, Eskimo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "厌战，铁血海军是不会向皇家投降的。",
+			say = "Warspite, I'm afraid we have no intention of surrendering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "反正你们也是为了勇敢和猎人的事专门来找我们的吧。",
+			say = "I suppose you came here for Hardy and Hunter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………你们选择战斗么？",
+			say = "Then you choose to fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "嗯，铁血海军会战斗到底。",
+			say = "Yes. The Iron Blood will fight to the last.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "“恶人”就要有“恶人”的觉悟，我没什么要辩解的哦。",
+			say = "Let's give you that proper villainous feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有点小看你们了……",
+			say = "I underestimated you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很荣幸能遇到你们这样真正的战士。",
+			say = "It is an honour to meet such proud warriors in battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，准备战斗！",
+			say = "Royal Navy, to arms!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

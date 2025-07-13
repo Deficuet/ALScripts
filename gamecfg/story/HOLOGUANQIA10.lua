@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "holo-control-inst",
 			dir = 1,
-			say = "……标枪，你怎么会在这里？",
+			say = "How did you get here, Javelin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完成委托返航的路上忽然就起雾了，我也不是很清楚…",
+			say = "We were on our way back from a commission when suddenly this fog appeared out of nowhere, and suddenly we found ourselves inside a Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "委托……也就是说，还有其他我们的人也来了吗？",
+			say = "Were there any others in your fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，{namecode:6}，拉菲，23，今天是我们4个一起出委托哦~",
+			say = "Yeah, there were. Ayanami, Laffey, and Z23 were with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，得把她们也都找到才行了……",
+			say = "We'd better go looking for them then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "吹雪！澪！你们都没事真是太好了！！",
+			say = "Fubuki! Mio! I'm so relieved to see you're okay!",
 			bgm = "holo-matsuri",
 			flashout = {
 				black = true,
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			actor = 900209,
 			dir = 1,
-			say = "嗯，你没事也真是太好了呢（棒读）。",
+			say = "Likewiiiise. I don't know what I would've pooooossibly done if you'd gotten huuuurt. God forbiiiid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这是我新认识的好朋友，标枪！",
+			say = "Let me introduce you to my new friend: Javelin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你也是hololive的成员么？",
+			say = "Are you a Hololive character too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "没错，我就是hololive里最清纯的普通JK——夏色祭哦。",
+			say = "Yup. I'm Hololive's pure and innocent highschool girl – Natsuiro Matsuri!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，你就是{namecode:158}对吧，我知道的，那个，我可以摸摸你的尾巴吗？拥抱一下可以吗？可以和我约会吗？",
+			say = "And you're Kawakaze, aren't you? I've heard about you before! Listen, I've got a bucket list to check off, so would you mind if I stroked your tail? And could I get a hug? Can we go on a date after?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我想知道，如果你和白上吹雪都是一般人的话，你的舰装是怎么回事？",
+			say = "... If you're from the same place as this Shirakami Fubuki, where did you get your rigging from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "舰装是净化亲给我的哦。",
+			say = "Oh, you mean my shooty bang bang stuff? I got it from Purity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲…?",
+			say = "Purity? Who's that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "嗯，净化亲哦。在危机关头救了祭和阿库娅，又为我们制造了舰装的就是净化亲。",
+			say = "She's this nice girl in spats who rescued me and Aqua when we were in trouble. She even made us some gear to defend ourselves with!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲…净化…该不会是？！",
+			say = "Purity... A girl in spats... Wait, it can't be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "没错，是一个超可爱的美少女哦！",
+			say = "You know what \"can't be\"? How pretty she is! You should see her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "现在净化亲和阿库娅留在反抗军基地巩固防御，祭和标枪负责出来在外面寻找失散的伙伴。",
+			say = "She and Aqua stayed behind at the Resistance base to strengthen its defenses while Javelin and I went out to look for people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}你猜得没错，不过，情况稍微有些复杂…你们一起来基地看一看就知道了。",
+			say = "Matsuri's mostly right, but there's a bit more to it... We should probably go back to the base for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

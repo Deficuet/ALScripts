@@ -1,11 +1,11 @@
 local var_0_0 = {
-	"接下来让我们去看看<color=#ff7d36>指挥官手册</color>",
-	"领取<color=#ff7d36>任务奖励</color>",
-	"关闭奖励界面",
-	"<color=#ff7d36>指挥官手册</color>是面向新人指挥官，进行引导和系统说明的手册",
-	"<color=#ff7d36>新手任务</color>里记录了大量可以帮助新人指挥官快速成长的训练任务",
-	"而<color=#ff7d36>功能指引</color>页签则里记录了各个系统的注意事项",
-	"如果指挥官有疑问，不妨来手册里看看吧~"
+	"Now let's have a gander at your <color=#ff7d36>Commander Handbook</color>!",
+	"Start by <color=#ff7d36>claiming the rewards</color>!",
+	"Close the rewards menu.",
+	"our <color=#ff7d36>Commander Handbook</color> contains all kinds of tutorials for the game.",
+	"There are <color=#ff7d36>rookie missions</color>, designed to hasten your overall growth.",
+	"<color=#ff7d36>Mechanic tutorials</color>, meanwhile, teach you about the game's mechanics and give you tips.",
+	"If you ever wonder something, consult your Commander Handbook."
 }
 
 return {

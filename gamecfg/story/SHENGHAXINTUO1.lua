@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"消除疲劳的秘诀是？\n\n<size=45>一　优秀秘书舰</size>",
+					"The Secret to Curing Exhaustion?!\n\n<size=45>1 An Excellent Secretary Ship</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "深夜，指挥室。",
+			say = "Commander's Office - Nighttime",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Ah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没想到居然一不小心睡着了，果然熬夜工作前需要多喝几杯咖啡……）",
+			say = "(Must have fallen asleep at some point. I should really start drinking coffee for these all-nighters...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你醒啦~",
+			say = "Good morning, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "耳畔传来甜美的声音，我这才发现自己竟然枕在圣哈辛托的肩上。",
+			say = "A sweet whisper reaches my ears. I realize that I'm leaning on San Jacinto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Uh... What's going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "似乎是看出了我对现状的茫然，少女笑眯眯地解释了起来。",
+			say = "When she sees my vacant confusion, San Jacinto explains the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "哎呀~趴在桌上睡对颈椎不好呢~所以我就把指挥官扶起来咯。",
+			say = "I thought sleeping face-down on the table would be bad for your upper spine, so I took the liberty of moving you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……指挥官应该很久没有休息过了吧？不然早就该在我搬弄你的时候醒过来了呢。",
+			say = "But... Commander? You haven't rested at all lately, have you? I moved you so much, and you didn't come close to waking up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "在我来就任秘书舰之前，指挥官到底有几天没合眼了呢~？",
+			say = "How many all-nighters did you put yourself through until I took up the secretary ship position?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……这个不重要，还有很多文件没处理完，我得加快速度了。",
+			say = "Ahem... Don't ask. I have a lot of unfinished paperwork left over, and I need to get it done soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "指挥官刚才睡着的时候，我就已经把那些文件全都处理完了呢。",
+			say = "You mean that pile of papers that was here? I took care of it while you were sleeping.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "剩下的只有一些需要指挥官签名的文件了哦。",
+			say = "The only ones left are the ones that need your signature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么多文件全都？港区新一批物资的名单也核对过了？",
+			say = "You did all that? Even the supply manifest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "呵呵~物资的名单我也已经核对完成了哦。",
+			say = "Heehee. Of course I took care of that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "那么，指挥官要不要再靠着我休息一下呢~想要膝枕的话也没问题♪",
+			say = "Your work's done, Commander. Come lie on my shoulder a little longer, if you'd like. Ooor... I'd be happy to let you lay your head in my lap, too♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……辛苦你了，要是没有你帮忙的话，今晚可能就又要通宵了。",
+			say = "Thanks for your help. I thought I'd be up all night again, so that's a relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "呵呵~不用跟我道谢啦。能像现在这样照顾指挥官，我可是很乐在其中的哦？",
+			say = "Now now, you don't have to thank me. I couldn't help myself because I just love looking after you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "对了，我还准备了这些茶点。既然不打算再休息一下的话，就来吃点东西吧~",
+			say = "I made sweets, too. If you don't want to rest any longer, at least consider enjoying a little midnight snack.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "精致的茶点散发出诱人的香气，造型赏心悦目到让人不忍下口。",
+			say = "The sweets, so perfectly made that it feels like a waste to eat them, give off a hunger-inducing aroma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了指挥官？这些茶点不符合你的口味吗~？",
+			say = "What's the matter, Commander? Do they not suit your taste?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,11 +320,11 @@ return {
 			},
 			options = {
 				{
-					content = "害怕破坏造型，有点不忍心吃",
+					content = "I'd feel bad eating them...",
 					flag = 1
 				},
 				{
-					content = "在犹豫先吃哪一个",
+					content = "It's hard to choose one to eat first.",
 					flag = 2
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "哎呀，没想到指挥官居然会因为这种事情纠结呢。",
+			say = "Oh, my. I didn't know you were the kind of person to worry over such things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "不过我还是建议指挥官把它们都吃掉哦~？辛苦了这么久，是时候补充点能量了呢。",
+			say = "But I do want you to eat them~ You've worked so hard for so long. You'll need to build your energy back up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能有圣哈辛托这么优秀的秘书舰，真是我的幸运……",
+			say = "I'm really glad to have such an excellent secretary ship helping me out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "呵呵~那么，作为优秀的秘书舰，指挥官是不是应该给我一些奖励呢？",
+			say = "Heehee~ Well, Commander, don't you think this excellent secretary ship deserves a reward?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "奖励？圣哈辛托有什么想要的么？",
+			say = "A reward? Is there anything you want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "暂时还没想好呢~不如等我什么时候决定好，再和指挥官说吧，呵呵♪",
+			say = "I haven't decided yet~ When I do, I'll be sure to let you know, heehee♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

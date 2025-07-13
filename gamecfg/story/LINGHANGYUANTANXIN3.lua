@@ -11,7 +11,7 @@ return {
 			tbActor = true,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "qe-ova-10",
 			actor = 1002,
 			nameColor = "#A9F548FF",
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？TB，怎么了？",
+			say = "Yeah? What is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			tbActor = true,
 			actor = 1002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "节目……新衣服……好看吗？",
+			say = "My outfit... Was it cute?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "她是想问，穿着这身演出服表演的节目怎么样吧。",
+			say = "Ah, she must be asking what I thought about the clothes she wore at her performance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然好看，而且穿着新衣服的TB也显得非常可爱。",
+			say = "Yeah, it was wonderful. You looked so cute in those new clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,12 +93,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			tbActor = true,
 			actor = 1002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{tb}……一样。",
+			say = "You too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一样是指……？",
+			say = "Me too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			tbActor = true,
 			actor = 1002,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好看……和……可爱……",
+			say = "You're cute and wonderful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "第一次被夸可爱，而且还是这副模样的TB夸我可爱……无奈之余又有些感动。",
+			say = "Being called cute – by a young TB, no less – renders me speechless, but I'm also touched at the same time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，和TB一样呢。",
+			say = "That's us. Cute and wonderful people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

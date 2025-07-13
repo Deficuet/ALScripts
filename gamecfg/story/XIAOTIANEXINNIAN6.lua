@@ -11,21 +11,20 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=45>六 大家的晚餐</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 6 Dinner Takes An Exciting Turn</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301601,
 			side = 2,
 			bgName = "bg_story_room",
+			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			say = "Wow! Soba and zouni! Finally we get to have dinner!",
 			bgm = "main-newyear",
-			actor = 301601,
-			actorName = "{namecode:143}",
-			say = "哇~荞麦面和年糕！终于可以开饭啦！",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是重樱的“年糕”吗?我试试……",
+			say = "So that's \"mochi\" floating in the pot. Let's give it a try...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +74,7 @@ return {
 			actor = 205062,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…！？虽然看上去很软，但是吃起来的口感却意外地不同……",
+			say = "Mm...! What a peculiar texture! It's so soft, yet hard to actually chew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +100,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚼~嚼~年糕，好吃。",
+			say = "Mochi. Good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +116,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~嗯~和咱们那的食物完全不同，不过很好吃~",
+			say = "It really is! It's nothing like what I'd normally eat, but it still tastes so good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +132,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大姐头到现在还没回来啊……面都要冷掉了。",
+			say = "She still hasn't come back... Her soba's gonna go cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我出去找找她吧，天冷路滑，如果摔倒了肯定要受伤的。",
+			say = "I'll go look for her. She might slip and get hurt now that there's snow everywhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +165,7 @@ return {
 			actor = 102132,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用担心的，海伦娜，克利夫兰怎么可能会那么容易受伤呢？你太多虑了啦。",
+			say = "Relax and don't think about it too much, Helena. Cleveland's a strong girl, she's not one to get hurt like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +182,7 @@ return {
 			actor = 102051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +198,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿！我回来啦！",
+			say = "Yo! I'm back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +225,7 @@ return {
 			actor = 102132,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你看，我说什么来着。回来的正好，这种面条一旦冷掉就不好吃了哦。",
+			say = "Hahah, see? I told you she'd be fine. Good timing, Cleveland! You know, apparently this \"soba\" thing tastes better while it's still warm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +241,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了来了，诶？你们的桌子边上，怎么会有一圈被子？",
+			say = "Oh, thanks! Hey, wait, why's there a blanket going through the table?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,12 +253,11 @@ return {
 		},
 		{
 			actor = 301601,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:143}",
-			say = "这个是暖炉，是为了应对冬天的最强战术哦！",
+			say = "Because it's a kotatsu. It's our ultimate weapon to combat the cold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +273,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟大家一起取暖吗，我果然还是，喂……路易斯，不要拉我啊，喂！",
+			say = "So you're warming yourselves up? Sorry, but I think I'll... Hey, stop, Louis! Let go of my poncho!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +289,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其他阵营的各位也完全和暖炉融为一体了呢",
+			say = "It seems like everyone, regardless of their faction, has gotten intimately familiar with the kotatsu.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -324,7 +322,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然暖炉是最强的兵器喵……",
+			say = "Yep, you can't beat the kotatsu nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +338,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了喵！忘记给在场的各位准备贺年卡了喵",
+			say = "Oh! I forgot to give you all your New Year's cards nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +364,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才在聊天的时候就已经准备好了。来",
+			say = "I prepared them while you were chatting earlier. Here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +381,7 @@ return {
 			actor = 201103,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇，这……这么精致的卡片，上面……还贴了花瓣！感……感谢！",
+			say = "Is this a flower...? How cute! Thank you so much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +408,7 @@ return {
 			actor = 102051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个图案是……啊，是象征幸福的青鸟吧！谢谢，我会珍惜的。",
+			say = "This is a picture of... ah, it's a blue bird which symbolizes happiness! Thank you. I will treasure it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +425,7 @@ return {
 			actor = 101263,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小闪电的图案，可爱，喜欢~",
+			say = "Sparkle... cute. Like.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +441,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的是雪花和花瓣，而大姐头是白头海雕的图案吗？嗯，有些微妙……",
+			say = "Mine has snow and flower petals, and Cleveland's has a bald eagle on it. Hm, I'm not sure... what to think...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +457,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？蒙彼利埃如果喜欢我这张的话，可以交换哦。",
+			say = "Hm? We can swap if you like mine more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +475,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "还，还是不了，现在这样也不错，大姐头。",
+			say = "N-no, it's fine! T-this works too... (Blushes)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

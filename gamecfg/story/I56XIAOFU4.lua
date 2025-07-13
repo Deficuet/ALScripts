@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"角落的向日葵\n\n<size=45>四 lasst uns gehen！</size>",
+					"Wallflower in the Corner\n\n<size=45>Chapter 4 - Let's Go!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哇？！{namecode:418}，你去哪儿啊，这么急？",
+			say = "Woah, U-101?! What's the big hurry?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是你啊，{namecode:419}，还有重樱的潜艇，你们在聊天吗？",
+			say = "Oh, it's you, U-522. Are you hanging out with the Sakura subs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊，我们正在聊有趣的事情呢，你要不要一起来？",
+			say = "Sure am. We're looking for some excitement! Wanna come along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 408060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喔喔！！…哦…抱歉，我赶时间，还是下次吧！",
+			say = "Oh! Um... I'm sorry, I'm in a rush, so maybe next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大鱼也在…这是准备去哪里么？",
+			say = "You even brought Great Shark... Are you planning to head out to sea?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 408060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，我准备出海一趟～有一片鱼群顺着暖流迁移，按估算差不多正好要经过港区附近的海域了",
+			say = "You bet! A large school of rare fish is going to migrate through here, and I can't afford to miss it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 408060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那场景可是非常漂亮的哦，要是去晚了可就看不到了！",
+			say = "I heard it's a breathtaking view, but if you miss out, you'll have to wait a whole 'nother year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊对了，你们要不要一起来算了？",
+			say = "So, who's in?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 408070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，听起来超有意思的。我也要一起去！",
+			say = "Sounds like fun, so count me in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 308041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "似乎很有意思呢！56，我们也一起去吧？",
+			say = "I-56, what do you want to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我就……",
+			say = "I, um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗……好不容易大家可以一起去的……",
+			say = "What's the matter? We're all together right now, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额……",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 308041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其实我很想和{namecode:254}一起看呢……",
+			say = "Um, I'd like to go see it with you, after all, I-56...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……（！）",
+			say = "*gasp!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（这个展开——好像可以……！）",
+			say = "(Did I finally manage... to get through to her...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，那你们一起上车吧，这样快一点！",
+			say = "All right, we all in then? I'll take you all on Great Shark to get us there faster!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你的舰装载得动四个人？",
+			say = "All four of us can squeeze onto that thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 408060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，可别小看了我经过特别改装的大鱼！",
+			say = "Heheh! Great Shark has been souped-up especially for times like these!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "56，抓紧我咯？",
+			say = "I-56, make sure to hold on tight, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……额，嗯？",
+			say = "Um... huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（好、好像我没答应说要去…？）",
+			say = "(Um, wait... Did I really agree to getting roped into this...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 308051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（怎么会变成这样——！？）",
+			say = "(How did this end up happening...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么，我们就出发吧！lasst uns gehen！",
+			say = "Let's go! Lass uns gehen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
-			say = "十分钟后——",
+			say = "Ten minutes later...",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -18,12 +18,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "……旁边这座建筑就是「天啾塔」了。",
+			say = "That building is the Manjuu Tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -37,12 +37,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "希望这趟“速递”你还满意。",
+			say = "I hope you're satisfied with your delivery.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,12 +56,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "自我介绍一下，我是「银翼」所属的特工，{namecode:529:苏维埃同盟}。",
+			say = "Allow me to introduce myself properly. I'm Sovetsky Soyuz, a member of the resistance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,12 +75,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "是街区33治安局的塔林局长委托我来的。",
+			say = "Tallinn from Block 33's security office contacted me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			},
 			options = {
 				{
-					content = "……治安者？",
+					content = "Tallinn did that?",
 					flag = 1
 				}
 			}
@@ -100,12 +100,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "的确如此。虽然不知道详情，不过治安者们确实与我们共享了情报。",
+			say = "Yep. I don't know the details, but security told me everything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,12 +119,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "没有「纳米回线」，我也无法精确锁定你的位置。",
+			say = "If not for their nanocircuit, I wouldn't have found you anywhere near as quickly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,12 +138,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她还承诺，会竭尽全力阻止暴乱蔓延至「天啾塔」。",
+			say = "They promised to keep the riots from getting close to the Manjuu Tower, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,12 +157,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……就结果而言，她确实信守了承诺。",
+			say = "As a result, it all worked out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,11 +176,11 @@ return {
 			actor = 705021,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，我们毕竟不太适合直接露面，所以，我们需要绕过治安者的防线。",
+			say = "Charging in head-on would be reckless. We'll have to detour around the security force's defensive line.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,12 +194,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "做好准备，我们直接突破到顶楼。",
+			say = "We're running straight up to the top floor of the tower. Get ready.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
-			say = "熟悉的失重感再次袭来。在{namecode:529:苏维埃同盟}的带领下，直接荡向了「天啾塔」的顶层办公室——",
+			say = "The already-familiar weightlessness comes over me again, and we charge directly to the top-floor office of the Manjuu Tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "砰——！！",
+			say = "*CRASH!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,12 +255,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "……抵达目标。",
+			say = "...We've arrived at the target area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,12 +274,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从电梯应该可以进入塔顶的数据中心。",
+			say = "Through that elevator, we can reach the data center up above.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,12 +293,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这就是最后一步了，只要能抵达那里，就能重塑不夜城的一切。",
+			say = "This is the end. It's up to you to remake the Sleepless City with your own hands...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,12 +312,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "让一切尘埃落定吧——",
+			say = "And end all of this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,10 +329,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
-			say = "……想法很好哦。",
+			say = "Heehee. I will say, it is an admirable idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,10 +340,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
-			say = "可惜，太天真了。",
+			say = "However... You're far too naïve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,10 +351,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？？",
+			actorName = "???",
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
-			say = "不过，还是感谢你将包裹亲自送来，{namecode:529:苏维埃同盟}特工。",
+			say = "Well done on a successful delivery, Agent Arctic Hare – Sovetsky Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "办公桌后的真皮椅子旋转了半圈，将倚在靠背上的说话者的真容显露了出来。",
+			say = "The leather chair behind the office's desk spins around to reveal the person sitting in it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,12 +374,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "main4",
-			say = "……阿芙乐尔领袖？",
+			say = "Boss... Avrora?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,9 +393,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（……熟人？）",
+			say = "(They know each other?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,12 +405,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "领袖，你怎么会在这里？",
+			say = "Why are you here, Boss?\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,11 +424,11 @@ return {
 			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "不、不对，难道说……",
+			say = "W-wait. It can't be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,10 +442,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "你察觉到了啊。",
+			say = "Well, aren't you smart?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,11 +459,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "真是聪明呢，不愧是我引以为豪的属下。",
+			say = "You already understand the situation. But of course – you are my dear subordinate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,12 +477,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "「银翼」，居然在和“Great”大人合作？",
+			say = "The resistance... was working with the Great all along?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,10 +496,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "合作？……呵呵，那未免太肤浅了。",
+			say = "Working WITH the Great? Hmm, not quite.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,11 +513,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "那家伙从来没意识到呢，我们才是城市真正的主人。",
+			say = "The Great doesn't understand that the resistance is the true master of the city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,10 +531,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "没有「银翼」的表演，这座城市的秩序早就崩溃了。",
+			say = "Without the resistance, the order of this city would have collapsed a long time ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,11 +548,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "「银翼」代表着这座城市微薄的希望，可谓是粘合剂一般的存在呢。",
+			say = "The hope we provide unites this city.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,10 +566,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "可惜，它居然想踢掉我们，转去和那位黑道的女王合作……",
+			say = "Unfortunately, that manjuu fool is in cahoots with the mafia now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,11 +583,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "那位女王的野心，可不是它能填满的。",
+			say = "He doesn't know that Poltava's ambition won't be so easily sated...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			},
 			options = {
 				{
-					content = "原来袭击是你策划的……",
+					content = "So the resistance attacked Valiant, after all?",
 					flag = 1
 				}
 			}
@@ -607,10 +607,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "嚯嚯，这么说可太难听了。我可不是负责开枪的那个。",
+			say = "Heehee, how slanderous. I didn't fire the gun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,11 +624,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "算啦，闹剧也该到谢幕的时候了。",
+			say = "But that's enough. This farce is coming to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,10 +642,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "骑士过家家的时间结束了。把「通天之匣」交给我。",
+			say = "Playtime is over, Knight. Why don't you just give up and hand over the Ascension Box?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			},
 			options = {
 				{
-					content = "绝不可能。",
+					content = "I refuse...",
 					flag = 1
 				}
 			}
@@ -665,11 +665,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "是么。",
+			say = "Is that so?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,10 +683,10 @@ return {
 			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "动手吧，{namecode:529:苏维埃同盟}特工。",
+			say = "Do it, Agent Arctic Hare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,12 +700,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,11 +719,11 @@ return {
 			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "…………",
+			say = ".........",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,11 +737,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "怎么还不动手……",
+			say = "Wh-why aren't you doing it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,11 +755,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "——！！！",
+			say = "...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +778,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "阿芙乐尔疑惑地扭过头来，但回应她的，却是一颗闪光震撼弹。",
+			say = "By the time Avrora turns to Soyuz, a flash bang is already on its way to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "砰——！",
+			say = "*CRASH!*",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -838,11 +838,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "咳咳，你背叛我……",
+			say = "Kh... You betray me?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,12 +856,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "指挥官，走这边！",
+			say = "Comrade Commander, this way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "欢迎使用天啾塔电梯系统。已选择：顶层。",
+			say = "\"Thank you for using the Manjuu Tower elevator. Selection: top floor.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "请使用访问秘钥。",
+			say = "\"Please input access key.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,12 +912,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "使用「通天之匣」，指挥官！",
+			say = "Comrade Commander, use the Ascension Box!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -931,11 +931,11 @@ return {
 			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没时间了——",
+			say = "There's no time—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,7 +949,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗖——一颗子弹从身旁擦过。",
+			say = "There's a whoosh as the pursuer's bullet strikes the wall of the elevator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,11 +959,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "……你们，要付出代价……！",
+			say = "I won't let you go that easily...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,12 +977,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼特工",
+			factiontag = "Resistance Agent",
 			dir = 1,
 			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "快走，这里交给我就好！做正确的事，指挥官！",
+			say = "Leave her to me. Commander... Do the right thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -993,7 +993,7 @@ return {
 			},
 			options = {
 				{
-					content = "使用「通天之匣」",
+					content = "(Use the Ascension Box.)",
 					flag = 1
 				}
 			}
@@ -1002,7 +1002,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "*「通天之匣」被使用了！",
+			say = "You used the Ascension Box!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "欢迎回来，管理员。祝您今日工作愉快。",
+			say = "Welcome back, Administrator. Have a pleasant day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,11 +1030,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "银翼领袖",
+			factiontag = "Resistance Leader",
 			dir = 1,
 			actor = 702012,
 			nameColor = "#FF9B93",
-			say = "不——",
+			say = "Noooooo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "阿芙乐尔举枪射击，但子弹却全部被电梯前的能量屏障所阻止。",
+			say = "Avrora fires a few more shots, but an energy barrier is deployed just in time to stop them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "缓慢而又无可阻挡地，电梯门关闭了。",
+			say = "The elevator door inexorably closes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,11 +1068,11 @@ return {
 			expression = 3,
 			side = 2,
 			actor = 9702070,
-			factiontag = "幻影",
+			factiontag = "Illusion",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "该结束这一切了，骑士。",
+			say = "It's time to end this, Knight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1113,7 +1113,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

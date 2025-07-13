@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "嗯……！有了这个工具箱，之后的清理工作也会变得更加得心应手吧。",
+			say = "Oh! With this toolbox, my cleaning efficiency will go through the roof!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "感谢您，我骄傲的{dorm3d}，天狼星一定会用它将您的房间打扫得一尘不染。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
+			say = "My honourable {dorm3d}, thank you very much. I will use this to keep your room spotless.",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

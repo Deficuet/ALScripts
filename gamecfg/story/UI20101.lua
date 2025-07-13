@@ -11,7 +11,7 @@ return {
 			side = 0,
 			bgspeed = 2,
 			blackBg = true,
-			say = "<size=42>Stand your ground. Don't fire unless fired upon</size>\n<size=33>坚守阵地。在敌人没有开枪射击以前，不要先开枪</size>",
+			say = "<size=33>Hold your positions! Don't fire unless fired upon!</size>",
 			effects = {
 				{
 					active = true,
@@ -24,14 +24,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "<size=42>But if they mean to have a war</size>\n<size=33>但是，如果敌人硬要把战争强加在我们头上</size>"
+			say = "<size=33>But if they mean to have a war...</size>"
 		},
 		{
 			actor = 107020,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "<size=42>Let it begin here! </size>\n<size=33>那么，就让战争从这儿开始吧！</size>"
+			say = "<size=33>Let it begin!</size>"
 		},
 		{
 			sequenceSpd = 2,
@@ -45,7 +45,7 @@ return {
 			},
 			sequence = {
 				{
-					"          第二章   珊瑚之海 <size=34.5>Coral Sea</size> \n\n\n\n",
+					"          Chapter 2 - <size=43.5>Battle of Coral Sea</size>  \n\n\n\n",
 					2
 				}
 			}

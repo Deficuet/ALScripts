@@ -15,7 +15,7 @@ return {
 			bgm = "main-chunjie3",
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "新春晚宴刚刚结束，奇尔沙治和我正走在回去的路上。",
+			say = "I walk home with Kearsarge after the New Year's party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "夜色渐深，街上依旧残留着节日的热闹氛围，灯火通明，喜气洋洋。",
+			say = "It's late at night already, but the streets of the port remain bright and festive.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "奇尔沙治提着手提包，脸上虽然表情一如往常，但眼中难掩满足之色。",
+			say = "Kearsarge's expression is as flat as usual, but there's a shine of satisfaction in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "指挥官，今天的数据收集非常成功。",
+			say = "Today's data collection was fruitful, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "不仅了解了饺子的制作方法，还观察到了许多有趣的人际互动方式。",
+			say = "I logged an ample amount of data on both dumpling recipes and fascinating examples of interpersonal communication.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "是吗？你也能享受宴会真是太好了。",
+			say = "Glad you had fun at the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "说到宴会，奇尔沙治，你今天的穿搭很适合宴会呢。",
+			say = "You know, you look absolutely gorgeous in that attire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "听到我主动提及服装，奇尔沙治的语气中略带着骄傲，开始打量着自己的穿着。",
+			say = "When I bring up her outfit, she looks down at it and smiles with a hint of pride.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "指挥官观察得很仔细，这种服装虽然不如往日活动方便……",
+			say = "Well observed. While it is less mobile than my usual suit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "但依据过往对指挥官的喜好数据收集，这果然是最适合当下的装扮。",
+			say = "I found that, upon analysis and comparison of your preferences, this would be the most appropriate attire for the event.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "奇尔沙治抬起头看向我。",
+			say = "She looks up into my eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你的表情也告诉我这是个正确的选择。",
+			say = "Analysis: You seem to agree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说完，奇尔沙治正想追上我，却突然停下脚步。",
+			say = "After speaking, Kearsarge suddenly stops in her tracks.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "啊，指挥官……抱歉，请你稍等一下……",
+			say = "Oh, Commander. Please wait for a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "我要重新调整一下鞋子的穿法……我还不太熟练……",
+			say = "I need to readjust the fit of my footwear... My mastery of it is still lacking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "奇尔沙治一手提着手提袋，一手有些笨拙地调整着鞋子，看起来有些困难。",
+			say = "Since one hand is taken up by her handbag, Kearsarge tries adjusting her shoes with the other. She wasn't kidding – she's struggling a lot.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -251,11 +251,11 @@ return {
 			},
 			options = {
 				{
-					content = "要帮忙吗？",
+					content = "Want some help?",
 					flag = 1
 				},
 				{
-					content = "我们找个地方坐下吧",
+					content = "Let's find a place for you to sit down.",
 					flag = 2
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "需要我帮忙吗？",
+			say = "Do you need me to help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			optionFlag = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "啊，不劳你费心……",
+			say = "That would be a poor use of your valuable time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "但是你这样也很不方便吧。",
+			say = "You just seem like you're having trouble alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			optionFlag = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "嗯……好吧。",
+			say = "...Okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			optionFlag = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "谢谢，指挥官，那么请你扶我一下，很快就好。",
+			say = "Suggestion: May I lean on you? It will be over soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "我们找个地方坐下来调整吧。",
+			say = "Let's find a place to sit down. It'll be easier that way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			optionFlag = 2,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "没关系的，这样就好了。",
+			say = "It's fine. I can do it here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "而且现在也不太方便走路……",
+			say = "Besides, I would not want to interrupt our walk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "那我来帮忙吧。",
+			say = "Let me help then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			optionFlag = 2,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "嗯……谢谢，指挥官，请你扶我一下，很快就好。",
+			say = "Thank you, Commander. I'd like it if you could prop me up for just a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "握住了奇尔沙治的手，她的身体也轻轻靠了过来。",
+			say = "I take her hand, and she starts to lean on me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "除了收集指挥官的数据……这份温暖的感觉，也想永远珍藏……",
+			say = "Not just logging and analysis... but the warmth of being with you... I want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她低声呢喃，仿佛在自言自语。",
+			say = "She murmurs to herself.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -464,7 +464,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "你说什么？",
+			say = "Hmm? Did you say something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "没什么，指挥官。我只是顺便整理一下今天收集到的数据。",
+			say = "Nothing. I was simply analyzing the data I collected today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "调整好鞋子后，奇尔沙治依然没有松开我的手。",
+			say = "Even after fixing her shoes, she doesn't let go of my hand.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -505,7 +505,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "两人继续走着，交换着晚宴后的种种感受。",
+			say = "We walk on, hand in hand, and discuss the dinner we just had.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -521,7 +521,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "对了，奇尔沙治，新年你有什么愿望吗？",
+			say = "Say, do you have any wishes for the new year?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "新年愿望？我的愿望……能继续收集更多关于你的数据，想必这个回答应该也符合你的预期。",
+			say = "New Year's wishes? Mine is as follows: I wish to log more data of you and get to know you better. This answer should be within your expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "这的确很像是你会说的话。",
+			say = "Yeah. That does sound like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "不过你有没有想过，许一个只属于自己的愿望呢？",
+			say = "But isn't there anything you want for yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "只属于自己的愿望……",
+			say = "For... myself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "奇尔沙治陷入了沉思，片刻后抬起头，眼中闪烁着不同以往的光芒。",
+			say = "She falls into deep thought for a moment. When she finally looks up, there's a newfound sparkle in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -608,7 +608,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "想到了吗？",
+			say = "Did you come up with something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "奇尔沙治点了点头，随后又摇了摇头。",
+			say = "She nods... and then, for some reason, shakes her head.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "想到了……但我其实无法完全理解这种想法……",
+			say = "I've conceived of a wish, but I do not yet fully comprehend it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			dir = 1,
 			actor = 199042,
 			nameColor = "#A9F548FF",
-			say = "但此刻我的想法和愿望，就是希望能永远珍藏和指挥官在一起的……这种温暖的感觉。",
+			say = "At this time, my wish is to forever preserve the warm feeling and happiness of being with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "接着，我感到肩膀上传来一阵重量，低头看去，发现奇尔沙治靠在了我的肩上。",
+			say = "I feel a weight on my shoulder. Turning my head, I see Kearsarge leaning against me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -677,7 +677,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "听着她平稳的呼吸声，从奇尔沙治嘴角淡淡的笑意来看，她应该很满意自己许下的愿望吧。",
+			say = "Her breathing is soft and there's a faint smile on her lips. She must be happy about this new wish she's found.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -693,7 +693,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "新年快乐，奇尔沙治。",
+			say = "Happy New Year, Kearsarge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			hideRecordIco = true,
 			actor = 199042,
 			actorName = "{playername}",
-			say = "愿你的愿望都能实现。",
+			say = "I hope all of your wishes come true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

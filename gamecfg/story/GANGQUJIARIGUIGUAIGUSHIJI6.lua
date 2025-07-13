@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>特殊的追捕游戏</size>",
+					"Sails and Spooks\n\n<size=45>6 A Game of Chase</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "夜幕之下，楼顶之上。被追至边缘的怪盗转过，露出了苦涩的笑容。",
+			say = "I stand on a rooftop at night. The thief I've cornered turns around and cracks a slightly stiff smile at me.",
 			bgm = "story-ghostnight-fascinsting",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇，这下就无处可逃了呢~",
+			say = "Well, shoot. Seems there's nowhere left to go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "骗、你、的~这次谁输谁赢还不知道呢~",
+			say = "Of course, that's not true. This is where the battle really starts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "大侦探~有胆子的话，就追下来试试看吧？",
+			say = "Go on, master detective – follow me if you have the guts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "怪盗少女一跃而下，她背后的触手肆意伸展开来，在浓雾之中宛如盛放的花朵一般鲜艳。",
+			say = "The thief leaps backward off the roof, numerous tentacles sprouting from her back while she falls through the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "——很显然，这名少女并非人类，而是可以被称为“弗兰肯斯坦”的造物。",
+			say = "She is no ordinary thief, and she is no ordinary human – she is a manmade monster known as Frankenstein.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "无人知晓她真正的来历，只有一样样从城市中失窃的宝物昭示着她怪盗的身份。",
+			say = "No one knows who she is or where she came from. All that's known is that she's an expert thief, based on the many treasures that have gone missing across the city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "而在第一次发现她在行窃后，我作为大侦探，便与她陷入了这无尽的猫鼠游戏中。",
+			say = "And I, the detective who has been on her trail, have become caught up in an endless game of cat and mouse with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "什么……？！",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "哈哈哈~看来这次还是我赢了呢。没意思，宝石还给你咯~",
+			say = "Ahaha! I win again. How boring. Here, I'll return the treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是不知道从这么高的地方摔下去的话，我会不会散架呢~？",
+			say = "I wonder – will I break into pieces if I fall from this height, hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "少女说着，在下坠的途中用力将宝石扔了上来。",
+			say = "She cracks a joke even as she's falling, and tosses the treasure to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,14 +169,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "眼见她的身影渐渐下坠，那带着戏弄的口吻仿佛还回荡在耳边。",
+			say = "Her mocking laugh still rings in my ear as her red silhouette vanishes into the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "必须追过去。",
+					content = "You're not getting away!",
 					flag = 1
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "接住她扔上来的宝石后，我没有片刻犹豫也跟着跃下。",
+			say = "I catch the treasure and fearlessly jump after her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "风声在耳边呼啸，下坠的感觉并不好受。",
+			say = "The rushing wind rages loudly, and an unpleasant feeling of weightlessness makes my stomach churn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,18 +211,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "哎~我明明把宝石丢给你了，干嘛还要追上来？",
+			say = "But I gave back the treasure! Why are you still pursuing me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "为了抓住你！",
+					content = "To arrest you!",
 					flag = 1
 				},
 				{
-					content = "为了将邪恶绳之以法！",
+					content = "To bring an evildoer to justice!",
 					flag = 2
 				}
 			}
@@ -236,7 +236,7 @@ return {
 			actor = 9600091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样啊~我好害怕哦~",
+			say = "Arrest me? Ooh, you're sooo scary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 9600091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来我算邪恶么~？不过要被你抓住了，我好害怕哦~",
+			say = "Oh, I'm evil now? Being arrested sounds sooo scary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,82 +262,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "怪盗少女嘴上说着害怕，语气却不带丝毫慌乱，甚至连嘴角都在微微扬起。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 9600091,
-			say = "其实，你追上来——是想保护我吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9600091,
-			side = 2,
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "难道是说，大侦探不忍心看我摔成一地肉泥的惨状？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……我只是不能让自己的抓捕对象发生意外。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			say = "风的呼啸越发刺耳，我们的下坠也即将“结束”。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			say = "在选定了钩锁枪的锚定位置后，我朝少女伸出了手。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_542",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不想散架的话，就抓住我的手。",
+			say = "Her sarcasm is so thick it could float on top of water. In fact, she grins at the idea of being arrested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +276,33 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "哈哈哈哈哈~果然就是这样的你，才值得我大费周章。",
+			say = "You're really pursuing me to protect me, aren't you?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9600091,
+			side = 2,
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Aww, you don't want to see me turn into a red splotch, is that it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "...I just can't let anything happen to a perpetrator I'm trying to arrest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +313,56 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "怪盗少女的眼神充满了兴奋，如同见到了世间珍宝。",
+			say = "The wind blows ever louder, and our fall is finally about to come to an end.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			say = "I aim my grappling hook gun at a suitable target and reach out to Amity.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "If you don't want to end up as a pancake, take my hand!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 9600091,
+			say = "Ahahahaha! It was worth it making you go through all this trouble.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_542",
+			hidePaintObj = true,
+			say = "There is a sparkle in her eyes, as though she has laid eyes upon the most valuable thing in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "所以这下，你就真的逃不掉了哦~",
+			say = "Now there's REALLY nowhere left to go for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "少女说着，紧紧地握住了我的手。",
+			say = "She extends her hand and grasps mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天真的大侦探啊~我要盗走的宝物，从一开始就是你呢……",
+			say = "Silly detective. The treasure I was after this whole time was you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "她身后的触手牢牢抓住墙壁上突起的砖石，硬生生止住了下坠的趋势。",
+			say = "Her tentacles grab onto a ledge on the building, forcibly halting our fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "她的身体也顺势压了上来，像是在挑衅一般。",
+			say = "Then, she provocatively pulls herself toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600091,
-			say = "这可是你自己的选择哦~？",
+			say = "You chose this, I'll have you know. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，乖乖成为我的囊中之物吧，大·侦·探~",
+			say = "Now give it up and be mine, \"master detective.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

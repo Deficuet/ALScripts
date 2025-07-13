@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "斩首行动喵！把敌人全部解决掉就好了喵！",
+			say = "Kill mission! Annihilate all enemies ahead, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

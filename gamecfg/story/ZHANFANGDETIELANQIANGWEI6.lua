@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>六　桑德菈向前冲</size>",
+					"The Iron Rose Blooms\n\n<size=45>6 Seydlitz's Step Forward</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "夕阳真美呢……从这里看的话，感觉地面上的一切都金闪闪的。",
+			say = "The sunset is beautiful... The view from a Ferris wheel makes the world look so shiny and pretty.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "没想到从空中俯瞰大地居然是这样的感觉。",
+			say = "Is this how everything looks from inside carrier-borne aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "对了，听说马上有烟花表演哦，长官。",
+			say = "By the way, Commandant, I heard there's a fireworks show starting soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "不知道能不能在轿厢升到最高处时看到……要是那样就太好了。",
+			say = "Do you think they'll start right when we reach the top? I hope we'll get to see them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "——从模拟项目离开后，不知不觉就演变成了在游乐园乘坐摩天轮的状况。",
+			say = "After we finished scoping out the attraction, Seydlitz and I ended up coming to the Ferris wheel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "那个！长官，我有问题想问。",
+			say = "Oh, excuse me... There's something I'd like to ask you, Commandant.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "长官今天带我出来，其实根本就不是巡查对吧？",
+			say = "The reason you brought me out today... wasn't just for patrols, was it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "就、就是说……现在的我们，多少有点像是在……",
+			say = "U-umm... Right now, it kind of feels like we're...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "意料之外的是，{namecode:460}自己揭开了烦恼的面纱——",
+			say = "Surprisingly, Seydlitz herself mustered her courage and brought up the source of her concerns herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,18 +185,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "……………………",
+			say = "Seeing that makes my lips curl into a warm smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "很担心你。",
+					content = "\"I was a little worried about you, is all.\"",
 					flag = 1
 				},
 				{
-					content = "没错。",
+					content = "\"Actually, I also...\"",
 					flag = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……不过我现在已经完全没问题了。",
+			say = "I'm sorry for worrying you... But I'm fine now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，其、其实我也……",
+			say = "O-oh, really?! And I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 404030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不，没什么！",
+			say = "N-never mind! Forget it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "所以，如果不是巡查的话，长官岂不是根本就是在和我在……约、约会？",
+			say = "Erm, regardless of the original impetus... You and I are on a d-date, aren't we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是的……下次直接说、说出来也可以的…………",
+			say = "If this is me being presumptuous, I apologize... But if that is what you want...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "如果是长官的邀请，{namecode:460}肯定不会拒绝的！",
+			say = "If you intend for this to be a date... I'd gladly accept.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "只是感觉你有些犹豫。",
+			say = "\"I'd love to, but if I said it directly, I feel like you might consider it an order...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "唔，您观察得未免太过仔细了……",
+			say = "I appreciate your concern...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我曾经在疑惑，这样迷茫的我能不能回应您的期待。",
+			say = "Of course... All of my confusion and hesitation are making you worry unnecessarily about me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过现在的话，我想，我在犹豫的其实是另一件事。",
+			say = "But Commandant, if I were to be torn between two answers right now, they wouldn't be whether to reciprocate your feelings or not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "在此时此景，究竟该说“很乐意”还是“最喜欢你”……",
+			say = "I would be torn between telling you, \"I'd love to go on a date with you,\" and, \"I love you!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "但我已经想好了，这里应该由我来发起冲锋才是……！",
+			say = "Instead of causing you so much mental anguish, I should go on the offensive!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恕我僭越，长官，请接受我对您的——",
+			say = "This may be presumptuous, but Commandant, please accept my feelings—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
-			say = "——于是，在摩天轮的轿厢划过最高点时，绚烂的烟花也恰到好处地绽放开来。",
+			say = "Just as our car reaches the top of the Ferris wheel, beautiful fireworks burst in the night sky.",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,

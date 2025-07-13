@@ -15,7 +15,7 @@ return {
 			bgm = "story-6",
 			actor = 401160,
 			stopbgm = true,
-			say = "{namecode:450}，能听到么？",
+			say = "Blücher, do you hear me?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "计划执行顺利，对面的注意力已经全放在我身上了。",
+			say = "Your plan worked! Their attention is entirely on my Pawns!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "前锋舰队与主力舰队已经脱节，请尽快行动！",
+			say = "Also, the small-fry escorts have already broken off from their carriers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "了解~战斗了这么久，对面这个对于迎面之敌过于认真的优点就将在今天变为导致她失败的弱点！",
+			say = "Heheh☆ She's been too focused on crushing us with an overwhelming frontal assault that she won't notice her blind spot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "战列舰编队，出发咯————————",
+			say = "Come on, capital ships! On me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			actor = 403020,
 			nameColor = "#A9F548FF",
-			say = "战列舰编队…………出发……咯…………",
+			say = "Her carriers are coming into view! We've almost... Wait, what the hell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "怎么了，{namecode:450}，还没解决掉对面么？我这边拖延快要到极限了！",
+			say = "What's happening, Blücher? Have you taken care of the carriers yet? My fleet won't last much longer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "对面……也有战列舰编队了。",
+			say = "Got some trouble here! A battleship Pawn appeared out of the blue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,8 +146,8 @@ return {
 			nameColor = "#ff5c5c",
 			bgName = "bg_yuanhuidian",
 			side = 2,
-			actorName = "{namecode:463}？",
-			say = "…………………………",
+			actorName = "Ulrich von Hutten?",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_yuanhuidian",
 			side = 2,
 			actor = 403020,
-			say = "而且看上去有种超不妙的感觉…………",
+			say = "We've got bad news... It looks stupidly strong!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "已经没有犹豫的时间了！虽然{namecode:435}大人的棋子有些问题，但是数量上还是我们有优势的！",
+			say = "Time is running out! You've got a Bismarck Pawn and greater numbers, so just deal with her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			actor = 401160,
 			paintingNoise = true,
-			say = "上吧，{namecode:450}！",
+			say = "It's now or never, Blücher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "好——————！那就全军出击，给我消灭对面的舰队啊啊啊！！！！",
+			say = "Don't have to tell me twice! All ships, advance and take out that Pawn!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

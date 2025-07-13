@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "又过了一段时间后。",
+			say = "Even later that day...",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -22,7 +22,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉指挥官……我实在放心不下抚顺，就不请自来了。",
+			say = "I'm sorry, Commander... I'm just here to check up on Fu Shun. I've been worried sick about her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抚、顺——你今天没有再给指挥官添麻烦吧？",
+			say = "Fu Shun. You haven't done anything to trouble the Commander today, have you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然啦，我今天都有认真履行秘书舰的职责哦！",
+			say = "Not at all! I did every last bit of my secretary ship work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗？",
+			say = "And you mean that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，抚顺今天帮了我很多，秘书舰的工作她完成得很好。",
+			say = "She did. Fu Shun's been a big help today. I think she does a great job as secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，抚顺如果有什么做得不好可以直接告诉我……而且，她昨晚拉着你去探险了吧？",
+			say = "Commander, if she's causing trouble, I want you to tell me without hesitation. I hear she dragged you to the abandoned factory late last night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有搞出什么乱子来吧？",
+			say = "She didn't do anything weird there, I hope?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抚顺虽然喜欢探险，但不是那种毫无章法的冲动型，她其实很聪明也很靠得住。",
+			say = "It's okay. Fu Shun may be mischievous, but she's not that absurd. She has a good head on her shoulders, and she's reliable when she needs to be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且……也是个好姐姐。鞍山，你对她可以更放心一点。",
+			say = "And she's a good sister, too. You should have more faith in her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇……我是不是被指挥官表扬了……！",
+			say = "Wh-whoooa... Is it just me, or were those compliments?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……听到指挥官这样说，我就安心了。",
+			say = "Phew... If you say so, Commander, that is a relief.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……抚顺，你不要太过骄傲哦！",
+			say = "But don't you get carried away, Fu Shun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直到下班之前，都要认真对待手上的工作，好好履行秘书舰的职责，明白了吗？",
+			say = "You take your job seriously until the end of the day and fulfill all of your secretary duties! Understood?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明，明白了，鞍山姐！",
+			say = "Y-Yes, An Shan!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "接下来的时间里，抚顺都很认真地在工作，不知不觉就到了下班时间。",
+			say = "After An Shan's visit, Fu Shun works diligently throughout the day. Before I realize it, our work day is over.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可以回去了，抚顺。",
+			say = "You can go home now, Fu Shun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜哇？天都黑了！下班下班~",
+			say = "Whuh? It's already dark out? Closing time, closing time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，指挥官，你有空吗？我打算带你去一个好地方！",
+			say = "By the way, Commander, do you have plans? I want to take you to a cool place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你发现了某处新的不可思议吗？",
+			say = "Is this another mystery of the port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？难道指挥官也对“港区的不可思议”产生期待和兴趣了吗？",
+			say = "Hm? Are you interested in the great mysteries of the port too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过今天不是去探险哦，是去……嗯~总之你跟我走就知道了！",
+			say = "Anyway, that's not it this time! Actually... Well, you'll know when we get there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "就这样，跟着抚顺来到了一处陌生的地方。",
+			say = "I follow Fu Shun to an unfamiliar place.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "目所能及之处，都被堆满了各式各样的物品。有些虽然褪色生锈，却依然蒙着一层柔润的光。",
+			say = "There are piles of things as far as the eye can see. Some of them are rusty and faded, but they still emit a soft luster.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "能看得出，这些物品都被它的主人悉心呵护着。",
+			say = "I can tell that everything here is well cared for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是我的秘密基地，漂亮吧！",
+			say = "Tadaaa! It's my secret base! Awesome, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳……也不是一时的心血来潮才带你来的……而且我也没有什么企图哦！",
+			say = "I didn't just bring you here on a whim, though... And I'm not plotting anything, either!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "和指挥官分享我的秘密，是仔细考虑后的决定！",
+			say = "After a whole lot of thought, I decided to share my secret with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "经历了昨天和今天的事，指挥官和我，已经有一个共同的秘密了！对吧？",
+			say = "I mean, you and I already share one secret after yesterday and today, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是指长……",
+			say = "Hm? Do you mean Chang—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "还没来得及将长春的名字说出口，少女柔软的指尖就抵住了我的唇。",
+			say = "Before I can speak Chang Chun's name, Fu Shun puts a finger on my lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘——秘密是不可以说出来的！",
+			say = "Shh! Secrets are secrets because we can't blab about them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，这个秘密基地现在是只有指挥官和我才知道的地方哦！",
+			say = "Only you and I know about this secret base!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官什么时候想来都可以，想在这里存放珍贵的宝物也没问题！我会好好保护它的~！",
+			say = "You can come any time you want and store your treasures here! I'll protect them for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下一次我们就在秘密基地里筹划秘密探险行动好不好？光是想一想就让人觉得很兴奋呢！",
+			say = "When we go on adventures again, we'll hold strategy meetings here! Hehe, just the thought of it is exciting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "少女在这间小小的秘密基地里蹦蹦跳跳，倏而贴近了我的身旁。",
+			say = "Fu Shun excitedly runs around her little secret base before coming back to me again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只有你知道的秘密，只和你分享的秘密……嘿嘿，今后我和指挥官就是一家人了呢！",
+			say = "Secrets only you know, secrets I can only share with you... Heheh, you're like a member of my family now♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "这一刻，让人感觉像被放进了她的宝物库一般——",
+			say = "It feels as if she's added me to her collection of treasures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>七　浪漫的预感</size>",
+					"A Whirlwind Romance\n\n<size=45>7 Premonitions of Romance</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（时间慢慢地过去，自己也迎来了作为秘书舰的最后一天）",
+			say = "(And thus, it was my last day of secretary ship duties.)",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……说起来，您今天有空吗？",
+			say = "Um... By the way, do you have any free time today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不介意的话，今天的晚餐我请客吧？这既是对上次外套的答谢，也是对平日里工作繁忙的指挥官的慰劳哦。",
+			say = "You've been working so hard this whole time, Commander, so I'd like to treat you to dinner. Plus, I owe you for lending me your coat that other time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "star_level_bg_145",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（终于到晚餐的时候了……）",
+			say = "(I decided to myself, I would say everything I wanted to say during our dinner.)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -135,7 +135,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（我已经下定决心了，今天一定要说出口…！）",
+			say = "(Today, I have to tell Commander...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我想再问一下……在最开始的时候，为什么您会指名选择我作为秘书舰呢？",
+			say = "Commander, I'd like to ask you again... Why'd you decide to make me the secretary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“觉得在一起很舒适”吗？我、我还以为一定是我工作认真的缘故……",
+			say = "Huh? Because you thought it'd be nice to have a dependable person around? Wh-what, because of my serious personality?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那意思就是，指挥官其实也对我有好感——没，没什么！……抱歉，我想得太多了……",
+			say = "In other words, you've had a positive opinion of me? ...Err, um, don't worry about it! I was just curious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（果然你还是平时的那样子呢。所以我才会——）",
+			say = "(Commander is the same as always... That's why today, I have to–)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这么想的话，我们一直忙着工作，从来没有机会像这样好好地聊会天……要是早点这么做就好了。",
+			say = "...By the way, we've been working so hard this whole time that we haven't had a chance to chat like this. We should've done this sooner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也觉得，和你一起工作的时候很舒服。希望今后也能一点点、一点点地，更加了解指挥官的事呢。",
+			say = "In any case, I really feel comfortable working with you. I hope that we can get to know each other even better as time passes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后，我逐渐了解指挥官的同时，指挥官也能逐渐了解我的话，我会很开心的。",
+			say = "And I hope that you'll also get to know me better, little by little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了。如果可以的话，要不要一起去看电影？",
+			say = "...If you'd like, how about we watch a movie together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“什么样的电影”……嗯，其实……是一种特定类型的电影哦。",
+			say = "\"What kind of movie?\" Um, well... Actually, um... there's this one genre that I'm really into...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "自、自己有些说不出口……要不，我给你个提示吧？那种电影里会出现这样的台词——",
+			say = "Um, it's a little embarrassing to just say it straight up, but I'll give you a little hint. It has this line–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（没有比这合适的机会了……就用这句话，把我长久以来寄宿的情愫，全部倾吐出去吧。）",
+			say = "(I tapped my glass with Commander's, and our eyes met again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "——“为你的眼眸干杯”。",
+			say = "\"Here's looking at you, kid.\" Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

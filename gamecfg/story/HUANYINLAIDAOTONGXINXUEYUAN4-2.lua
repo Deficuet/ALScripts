@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰隆隆————",
+			say = "*rumble*...",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "异常石膏喵所搭建的大型石膏喵积木雕塑在巨大指挥官积木雕塑的撞击下变得支离破碎。",
+			say = "Mega Commander shatters the Meowfficer busts' Mega-Meowfficer stack with a powerful tackle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "教室的大门重新开启，石膏喵也再次变为了真正的雕塑。",
+			say = "With that, the classroom door opens, and the Meowfficer busts turn back into lifeless stone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401431,
-			say = "哼哼，不愧是我们闪耀星星小队！",
+			say = "Heheh! The Twinkling Little Stars can't be beaten!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408131,
-			say = "童心教学楼救援任务，圆满成功~下一站我们去——",
+			say = "The school building rescue mission is a success! Next up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "轰隆隆————",
+			say = "*rumble*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403130,
-			say = "这是……地震？",
+			say = "A-an earthquake?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207130,
-			say = "呜哇哇——发生了什么！皇家的淑女可不能……站不稳了！",
+			say = "Oh, no... What's happening? I can't maintain... proper Royal Lady... posture?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "画面随着轰鸣声剧烈震动，仿佛正在经历大地震一般。",
+			say = "There's a loud rumble as the video feed shakes violently, as if an earthquake is really occurring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,19 +208,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "而在学院外的临时指挥中心处，则没有感受到丝毫震动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（这是……异常空间内部正在发生剧烈变化？）",
+			say = "Nothing is happening in the makeshift command center outside the academy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,10 +218,22 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "通讯模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所有人，快离开教室前往空地避难！",
+			say = "(Could it be... something's happening inside the school building?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_147",
+			factiontag = "Communication",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Everyone, get out of that classroom and take shelter in an open space!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

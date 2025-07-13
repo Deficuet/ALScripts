@@ -15,7 +15,7 @@ return {
 			bgm = "story-richang-light",
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "亲爱的客人，到我这里坐下吧，无论吃饭还是聊天，都由我来陪着你哦~",
+			say = "Here is your seat, dear guest. I'll join you for a treat, a chat, or whatever you'd like~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "嗯？",
+			say = "Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "（人称用的是“我”和“你”……？）",
+			say = "(Is it just me, or does she look dead inside?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "仔细打量了一番哈尔福德，虽然她的脸上带着甜美明媚的笑容，但眸中却毫无光彩。",
+			say = "I look Halford up and down. Despite the sickly-sweet smile on her face, there isn't a sign of vigor in those eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "（以哈尔福德喜欢工作的程度来说，不应该会这样……）",
+			say = "(She loves work, though. That's odd.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "（难道是那个绿头猫威胁了她什么么？）",
+			say = "(Is Akashi threatening her or something?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "……干嘛一直盯着吾？",
+			say = "...What are you staring at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "哈尔福德收起了刚刚的笑容，微鼓着双颊看向我。",
+			say = "She stops smiling and puffs out her cheeks unhappily, meeting my gaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "我在想你是不是被{namecode:98:明石}胁迫了，不然不至于这么明显的状态不对。",
+			say = "Just wondering what dirt Akashi has on you. Otherwise, you wouldn't be acting so weird.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "没有啦，{namecode:98:明石}并没有胁迫吾，吾只是……",
+			say = "None! Akashi has nothing to do with it. I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她抱着“小德拉”玩偶，轻轻呼出一口气，犹豫了一会儿才继续往下说。",
+			say = "She sighs, squeezes her plushie Dora, and hesitates for a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾只是有些不满这份工作过于轻松……",
+			say = "I'm just a little uneasy because of how easy this job is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "因为这份工作只要求吾用“甜美可爱的口吻”坐在这里陪汝聊天而已。",
+			say = "I mean, all they want me to do is sit here and talk with you all sweetly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾真的能心安理得地获得工作的报酬么？",
+			say = "It hardly feels worthy of a reward...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,14 +231,14 @@ return {
 			fontsize = 24,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "而且陪伴对象是汝的话，怎么想都是奖励吧……",
+			say = "Besides, talking to you is already reward enough. Who considers this actual work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那就不当做工作，如何？",
+					content = "What if you just don't treat it as work?",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "既然如此，那就不把它视作工作，如何？",
+			say = "If that's how you feel, then forget about the whole \"work\" thing entirely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "单纯视为陪我聊天，会不会令你安心一些？",
+			say = "Just consider it a friendly chat with me, and maybe you'll be able to relax a little?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "嗯……听起来好像也可以……？",
+			say = "Hmm... That does sound like it would work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "不对、不可以！工作就是工作，不可以跟其他事情混为一谈的！",
+			say = "...Nuh-uh, no way! Work is work. I will not mix work with personal matters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾可是很认真地对待这份工作的！",
+			say = "I will have you know that I take my work very seriously!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "在得知要陪汝的时候，吾可是连玩偶都精挑细选、仔细培训过的！",
+			say = "After learning what my job is about, I agonized over which plushies would be perfect for this occasion and even put hours into training them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "哈尔福德慌乱地将玩偶举到面前，似乎是在掩饰自己的害羞。",
+			say = "She holds her plushie in front of her face in an effort to cover up her embarrassment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "给玩偶的培训？难道它们还会说话么？",
+			say = "You were training your plushies? What, do they talk, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "这是吾的比喻！玩偶当然不会说话，但是吾可是认真将它们打扮了一番。",
+			say = "I didn't mean it literally! Of course they don't talk! I carefully dressed them up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾总结的陪伴要义第一条，就是要用可爱的外表治愈吾的眷属。",
+			say = "Halford's Arts of Healing, Article 1: Soothe my servant with cute things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "……怎么样，看着可爱的玩偶小德拉，汝有没有被治愈到？",
+			say = "...So? Do you feel soothed by my adorable little Dora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "没有的话……唔，汝也可以另选自己喜欢的！",
+			say = "If this isn't enough... th-then choose whatever you like instead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "直到被治愈了为止！",
+			say = "...Until you are healed and happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "这个沙发上的全都可以任由我选么？",
+			say = "So I can choose anything I want in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "自然！",
+			say = "Of course!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那，选哈尔福德也可以？",
+					content = "Then... can I choose you?",
 					flag = 1
 				}
 			}
@@ -473,7 +473,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "那，选哈尔福德也可以么？毕竟哈尔福德也在沙发上。",
+			say = "Does that mean I can choose you, Halford? I mean, you're on the couch too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "哈？！",
+			say = "Huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女惊讶出声，回味过我话中的意思后，白皙的脸颊上染上了粉霞，眼眸满是羞赧。",
+			say = "She screams out of surprise. When she understands what I'm getting at, though, she gets even more embarrassed. Her cheeks turn a rosy red.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "吾可不是玩偶，吾可是高贵的第一百二十六任血族亲王！",
+			say = "I am no plushie! I'm the 127th lord of a bloodline who rides upon the night sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,18 +528,18 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "汝只是我的眷属而已！怎能提出这样的请求？！",
+			say = "And you are my servant! How... How dare you make such a request...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我开玩笑的。",
+					content = "I'm just kidding.",
 					flag = 1
 				},
 				{
-					content = "是哈尔福德事先同意的。",
+					content = "But you said I could.",
 					flag = 2
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "和你开个玩笑，缓和一下你因为工作太简单而不安的情绪而已。",
+			say = "Sorry, sorry. I just wanted to tease you since you were talking about your job and your uneasiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "现在有没有感觉好一点？",
+			say = "Do you feel a little better now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			fontsize = 24,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "原来只是玩笑么……",
+			say = "What? It was all a joke...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			optionFlag = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "不管了！总之吾当真了哦！",
+			say = "Hmph! Well, I'm going to take it seriously!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "是哈尔福德事先同意的，不是么？",
+			say = "You gave me permission, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "当我问这个沙发上是不是可以任意挑选的时候，你说“自然”。",
+			say = "Did you not say I could choose anything I wanted in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hideRecordIco = true,
 			actor = 199051,
 			actorName = "{playername}",
-			say = "而且你也只说了……“另选我喜欢的”，可没限制说只能挑选玩偶。",
+			say = "\"Anything\" does not mean \"only plushies,\" as I recall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			optionFlag = 2,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "汝……汝……",
+			say = "Commander, you little...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "尔后，娇小可爱的少女起身，鼓着脸颊坐到了我的怀中。",
+			say = "With her cheeks puffed angrily, Halford stands up... and plops down right into my lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "柔软的兔耳轻轻擦过我的脸颊，而她将红透的脸慢慢埋入我的肩窝。",
+			say = "Her soft bunny ears graze my cheek, and she buries her beet-red face into my shoulder.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			actor = 199051,
 			nameColor = "#A9F548FF",
-			say = "亲爱的客人，这样子……汝有被治愈到么？",
+			say = "Dear guest... Does this soothe and satisfy you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

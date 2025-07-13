@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼哼~Honey，让我给你露一手我新学的调酒技术！",
+			say = "Heheh! Check out this new cocktail-mixing trick I learned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "刷啦刷啦~咔啦咔啦~",
+			say = "Shake shake! Rattle rattle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿！请Honey品尝……嗯？怎么掰不开了呢……",
+			say = "Bam! Give it a try... Hmm? I can't get the top to open...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呜哇！？调酒壶飞出去啦——",
+			say = "Whoa?! The shaker went flying!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斜阳西下，从夕暮笼罩的鸢尾教国港口中陆续驶出两支舰队，各自向着不同的方向前进着。",
+			say = "With the sun setting behind them, the fleet departed for their target.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "派遣第二支舰队倒是我最开始没想到的部分，这下也能让撒丁帝国品尝一下多线遇敌的滋味了。",
+			say = "I do wonder how Sardegna will respond... If we're lucky, they won't even get the chance to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼~既然是突袭，自然要把出其不意的精神贯彻到底。双份的舰队，双倍的惊喜~",
+			say = "Mhm. Fingers crossed they don't catch on to us, or we'll lose the element of surprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能让敌人在双线遇袭中产生混乱，我们的行动也就成功一半了。",
+			say = "In any case, as long as we can disrupt their operations, the mission will at least be a partial success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另一半呢？",
+			say = "What must we do for total success, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_renaya",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另一半嘛，就要看我们的炮击能给对面带来多少损失了~",
+			say = "Do as much damage a possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "趁着夜色出航吧！到时候撒丁帝国的家伙们也许还在酣睡中也说不定。",
+			say = "Of course, that won't be possible unless we get there unnoticed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那些设施可都是固定靶！可不要打偏了哦。",
+			say = "Until then, we'd better stay on our guards. Lead the way, Algérie!",
 			effects = {
 				{
 					active = true,

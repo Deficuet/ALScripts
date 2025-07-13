@@ -15,7 +15,7 @@ return {
 			actor = 307032,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬怪兽开始行动了……呵，明明之前还游刃有余的等着我们“自投罗网”呢。",
+			say = "The Sirens have started to move. Guess they weren't going to wait around forever for us to make our move.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在着急过来说明是感受到危机感了吧~",
+			say = "They must be on full alert now that they know we're after the control devices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "不过当然……那么巨大的净化亲怎么也说不上是可以无视的存在了。",
+			say = "Quite likely, especially after seeing that oversized Purifier over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,9 +84,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "啊哈哈哈，没想到只拿到了几处控制权，就能做到这么夸张的事了啊！",
+			say = "With only two control devices back under my control, I can already do thiiiiis! Muahahahahaha!!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -107,9 +107,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "现在你们看上去就像渺小的虫子一样！",
+			say = "Tremble, insects! Behold Purity's maaaaaaajesty!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，体积变大了，个性也变嚣张了……",
+			say = "I wonder if there's some unwritten law about getting bigger and becoming more of a megalomaniac...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "太帅了~！净化亲，这种台词再说几句，再说几句！",
+			say = "You're too damn cool, Purity! Say another supervillain line!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,9 +175,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "噢~茜也能体会到这副巨大身躯带来的魅力啊！",
+			say = "You. You're a woman of culture!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -198,9 +198,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "呵呵呵……你们这群渺小的虫子！死吧！",
+			say = "Heh. I'll crush these worms with a flick of my wrist! Hehe!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "酷毙了~~！再来一个~再来一个~",
+			say = "Ahh, I'm going to fall in love~! More, give me more~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,9 +249,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "额……让我想想……",
+			say = "...Uh, gimme a moment to come up with something else.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800010,
-			say = "茜…现在正在重要的作战中哦。",
+			say = "Ugh, Akane... We're in the middle of an important mission right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "啊不好意思，一不小心没忍住！请大家按照计划开始作战吧！（继续偷瞄净化亲）",
+			say = "Sorry, sorry! Anyway, let's just follow the plan~ (Continues to ogle Purity)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……茜，按照作战计划，我们要继续去其他海域帮净化亲取得更多控制权才行哦。",
+			say = "...By the way, Akane... If we follow the plan, we're going to have to go recapture the other control devices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "哎？！不能留在这里么！",
+			say = "Huuuh?! Does that mean I can't stay here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,12 +340,12 @@ return {
 			actor = 10800040,
 			side = 0,
 			bgName = "bg_ssss_1",
-			actorName = "奈美子&莲",
+			actorName = "Hass&Namiko",
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（默默摇头）",
+			say = "*Sigh*...",
 			subActors = {
 				{
 					actor = 10800030,
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "好吧~那就让我跟亚历克西斯·克莱西斯先去大闹一场，然后再回来帮你对抗大Boss好啦~",
+			say = "Oh well~ Let's go, Alexis! You'll get to rampage to your heart's content when we fight the boss!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800020,
-			say = "在我们取得全部权限之前，不要输哦，净化亲！",
+			say = "Don't get yourself killed before we get all the control devices back, Purity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,9 +407,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "放心吧！凭借现在的身形和实力，怎么也能跟那个大怪兽过几招了！",
+			say = "As if! Even right now, I'm more than capable of going toe-to-toe with that fella...",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -431,9 +431,9 @@ return {
 			blackBg = true,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "……不过还是请你们再快一些哦！",
+			say = "But that doesn't mean that you should just take your sweet time either!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

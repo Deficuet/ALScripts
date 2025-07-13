@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"飞彩迎新春\n\n<size=45>二　银花初绽</size>",
+					"Spring Blossoms in the Sky\n\n<size=45>2 Flowers Bloom in the Sky</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这样子的话，材料就准备得差不多了。",
+			say = "Whew... That's almost all the materials we'll need.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "我刚刚试着做了一组烟花，好像比想象中要简单不少呢。先测试一下效果好了……",
+			say = "I tried my hand at making a firework earlier, and it was easier than I expected. Let's launch it and see how it performs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "伴随着引线燃烧的声音，绚丽的烟火在夜天里绽放，而后破碎成万点星火，融入漆黑的墨色之中。",
+			say = "Hwah Jah lights the fuze, and the firework takes off to the sky, bursting into thousands of little glimmers that fade into the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "哇……真漂亮啊……看起来效果很不错呢。",
+			say = "Whoa... That was beautiful. It came out perfectly!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,10 +100,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_102",
 			nameColor = "#A9F548FF",
-			say = "喂——指挥官，还有华甲——",
+			say = "Commandeeer! Hwah Jaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,18 +113,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "向着声音的方向看去——",
+			say = "I look over my shoulder and respond...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "新年快乐！",
+					content = "\"Hi there.\"",
 					flag = 1
 				},
 				{
-					content = "过年好~",
+					content = "\"Happy Lunar New Year.\"",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "两位过年好呀~！",
+			say = "Mhm. Happy Lunar New Year to you both.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "我在好远的地方就看到这边的烟花了！好漂亮的颜色啊……是你们自己做的吗？",
+			say = "I saw that firework from way over there! It was gorgeous. Did you two make it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "和定安解释了一下现在的情况————",
+			say = "I give Ting An a quick rundown of what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "在改进烟花工坊么……这么有趣的事也加我一个！",
+			say = "I think it's great that you're expanding the fireworks workshop. In fact, I'd love to help!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "不对，人多力量大，我去把有空的同伴都叫来帮忙吧！",
+			say = "The more, the merrier, right? Or at least, it'll get done quicker that way. I'll ask around if anyone else can give a hand!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 519010,
-			say = "啊对了，这个你们留着——是我带来的点心！就作为工作期间的能量补充好了~",
+			say = "Oh, I almost forgot – here, I brought you some snacks. Have a break and recharge your batteries♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们先吃着，我去喊人了~",
+			say = "Now, just wait here. I'll be right back with some volunteers!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，定安！……",
+			say = "Wait, before you–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "啊，这就走掉了……简直像一阵风一样。",
+			say = "Go... *sigh*... She made off like the wind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_102",
-			say = "打开了定安留下来的小木盒——里面是做得精巧可爱的年糕和酥糖，还有小巧玲珑的粘豆包和奶黄包。",
+			say = "We open the small ornamental box Ting An gave us and find an assortment of premium rice cakes, crisp candies, and buns filled with red bean paste and custard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "这还真是……色香味俱全啊。",
+			say = "Ooh. They look and smell absolutely delicious.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "那恭敬不如从命，我们就一边享受美味的点心，一边等帮手们到来吧？",
+			say = "I say we do as she suggested and help ourselves while we wait for her to come back.",
 			painting = {
 				alpha = 0.3,
 				time = 1

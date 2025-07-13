@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中的部分浮冰变为了巨型浮冰。",
+			say = "Scan complete. Ice floe pieces have reformed into a massive ice sheet.",
 			voice = "event:/tb/39/tb-39",
 			typewriter = {
 				speed = 0.05,

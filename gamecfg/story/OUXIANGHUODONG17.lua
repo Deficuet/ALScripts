@@ -12,7 +12,7 @@ return {
 			actor = 301014,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放马过来吧Polaris！你们的对手是特型偶像{namecode:2}以及加农偶像埃尔德里奇！",
+			say = "Come on, Polaris! You're facing the Special-type Idol, Fubuki, and the Railgun Idol, Eldridge!",
 			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			actor = 101264,
 			dir = 1,
-			say = "埃尔德里奇，是喵喵偶像…不是加农偶像…",
+			say = "Eldridge... is a kitty idol... not a railgun idol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			actor = 301014,
 			dir = 1,
-			say = "唔…这样偶像名就对不上了……",
+			say = "Eh...? Our idol names won't match up then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:2}…{namecode:2}{namecode:2}偶像…？",
+			say = "Fubuki... snow idol...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			actor = 301014,
 			dir = 1,
-			say = "听起来虽然不错但感觉还是感觉不太对，唔唔…究竟该如何是好…",
+			say = "Snow is fine and good, but what does that have to do with kitties? Gah... we've got to come up with something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵喵…{namecode:2}、咕咕偶像…",
+			say = "Meow meow... Fubuki, you can be the cluck cluck idol...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 301014,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？这个好像意外的可以…才不可以啦！咕咕不行，绝对不行啦！",
+			say = "What...? That actually doesn't sound too bad... actually, that sounds terrible! I'm not doing that ever again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…你们在说什么啊",
+			say = "Haah... What are you two going on about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "埃尔德里奇，意外地懂行呢",
+			say = "Their teamwork seems about as off as ours was at first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "{namecode:2}的换装，完全没有鸟要素…加斯科涅，需要提醒一下对方吗？",
+			say = "Scanning for fowl elements in Fubuki's outfit. Results: 0% match.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "不，她们说的大概不是这套……",
+			say = "Well, it's a long story that you weren't around for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:2}…命名什么的随你们喜欢就好了，再不开始活动就要进行不下去了哦？",
+			say = "Fubuki, hurry up and pick a name already. Otherwise, we can't get started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			actor = 301014,
 			dir = 1,
-			say = "对不起！？那就重来一次……",
+			say = "I'm very sorry! ? Let's try this again then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 301014,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放马过来吧Polaris！你们的对手是特型偶像{namecode:2}以及喵喵偶像埃尔德里奇！",
+			say = "Come on, Polaris! You're facing the Special-type Idol, Fubuki, and the Kitty Idol, Eldridge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "Polaris、舰装实验…Live battle、开始！",
+			say = "Polaris, commencing testing protocol... Live battle, begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			stopbgm = true,
-			say = "大学城·大概傍晚时分",
+			say = "That evening, at the university...",
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
 			flashin = {
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "啊……不知不觉间天都黑了。",
+			say = "Aww, maaan. It's dark already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "快乐的时光总是这么短暂啊~~~~",
+			say = "Time flies like a fighter jet when you're having fun, I guess.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯，差不多快到跟博士约好的时间了。",
+			say = "True. Dr. Anzeel should be back any minute now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天算是尽兴了，想买的东西都一口气买齐了，算是收获颇丰。",
+			say = "We DID have a lot of fun and bought all the gifts we wanted to. I'd say we made excellent use of our time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯，没想到逛街是这么有趣的事情。",
+			say = "Yeah, I'm just worried about being addicted to shopping now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "刚刚我就想说，你们两个偷偷打开舰装的货仓入口把东西放进去了吧。",
+			say = "Don't think I didn't see you stowing it all away inside your rigging.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "只要没把东西拿出来，就不算违规哦。",
+			say = "Hey, it's not a crime if you don't fully deploy it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "但是……把东西全都收进去就没有逛街的氛围了啊！",
+			say = "That's not the problem, it's that your bags aren't in your hands! You can't call it shopping if you're not flaunting your loot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "你看看我，再看看约克城姐，甚至连哈曼都把手里拿满了！",
+			say = "I mean, just look at the rest of us! We're walking around like queens!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "买了那么多东西，全拎着不是反而更引人注目吗……",
+			say = "Yes, and you stand out more than you would with your rigging deployed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "但是，出门逛街就是这种状态才好嘛~",
+			say = "Won't hear me complaining. It's all part of the experience, baby!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "没错，要是把小吃收到货仓里，可就没法吃了哦。",
+			say = "Oh dear, which bag did I put the food in...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "约克城姐姐，帮我拎一下这个包吧——",
+			say = "I'll help with your bags!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "谢谢约克城姐姐，这个团子分给你！",
+			say = "There... Hey, Yorktown, do you want some donut holes? Say \"ahh!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸，约克城姐，也帮我拿一下啦！",
+			say = "Not fair! I wanna feed her too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "不行，大黄蜂已经不是小孩子了。",
+			say = "Hornet, for goodness' sake... We're not kids anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "还能这样吗！",
+			say = "No, but the Professor's totally raring to do it as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，拿不下的话可以找我帮一下忙哦！我可是来者不拒——",
+			say = "*sigh*... Woe is me, the lady with too much to carry and nobody who'll help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "好的谢谢！……等等，博士你什么时候到的？",
+			say = "I got you, lemme just... Wait, when'd you get here, Dr. Anzeel?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，差不多就是刚刚到？",
+			say = "Like, a minute ago? The same as you all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "大家晚上好，我也被博士从工作中拯救出来了哦。",
+			say = "I'm here, too, finally free from the layer of hell that is my job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦，都买了什么好吃的？也让我跟孟菲斯也尝尝！",
+			say = "What did you girls get? Please tell me you bought food. Memphis and I are starving!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈曼和大黄蜂，你们两个，好吃的都交出来——",
+			say = "Hammann, Hornet, don't you try to hide anything. Bags and hands where I can see 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼呼呼，吃饱了，多谢款待~",
+			say = "Whew... I'm stuffed like a turkey. That was delish.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			say = "安洁，跟加菲尔德的会还顺利么？",
+			say = "\"I take it your meeting with the general went well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……应该算是顺利吧？他心情不好的事跟我们这边无关，好像是被上面那些人给了太多压力而已。",
+			say = "Eh, as good as it could've gone. Turns out he was stressed out because of pressure from his superiors, not anything I did.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系这个人抗压能力很好的……不过当然，也不能说对我们一点影响都没有。",
+			say = "When you're someone of his rank, the problems of everyday people stop fazing you. But having that said, the impact of said problems always has a way of trickling down to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为加菲尔德压力的具象化，后续的一系列安排都出现了变动。",
+			say = "That pressure on him forced me to make drastic changes to my plans.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特别是原定于明天要进行的新型舰装技术测试的测试内容——",
+			say = "Particularly those surrounding the Type II rigging test scheduled for tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "嗯，明天的对抗演习就要辛苦指挥官来负责一下了。",
+			say = "There's also the naval exercise. The Reality Le– I mean, the reality of the situation is that we'll need you to assist.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,14 +631,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			say = "孟菲斯突然地说出了“指挥官”这个词，嗯……？",
+			say = "\"Wait, what?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指挥官？",
+					content = "\"Were you about to say 'Reality Lens'?\"",
 					flag = 1
 				}
 			}
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "啊……我的意思是说，那个，老师，您被选为明天对抗演习的红方指挥官了。",
+			say = "Uhh... What I meant was, you'll be playing the role of the commander for the red team in tomorrow's rigging test",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "需要由您来指挥使用II型舰装的舰船舰队与我指挥的OFS舰队进行对抗演习。",
+			say = "I will play the role of your opponent, leading a fleet of Federation mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "欸……？等等，我有点跟不上。演习对抗是什么？老师来指挥又是什么？",
+			say = "Yo, rewind! What naval exercise? Nobody said anything about that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "好像跟最初的测试项目相比发生了不少的变化……",
+			say = "Indeed. That wasn't exactly part of the plans we received.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说法太保守了，应该是翻天覆地的变化！",
+			say = "That's putting it mildly. It totally came out of left field.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本只是各项指标的性能试验和打靶测试对吧？现在已经换成无剧本实战化演练了哦。",
+			say = "They turned what was supposed to be a simple benchmark test and target practice into a full-blown naval exercise, completely unannounced.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也就是说，导演部在演习中没有给出任何既定剧本，演习的胜负完全取决于实战效果。",
+			say = "Whoever green-lit the decision also deliberately omitted a combat script, saying that the exercise's scope depends on actual combat performance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,7 +793,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "具体场景是什么样的，敌人会使用哪些装备，导演部会安排什么“意外情况”，都要等到演习开始前才能揭晓。",
+			say = "In other words, we don't know a damn thing. Nothing about what enemies we're going to be up against, what equipment they're going to have, what \"unexpected situations\" we'll need to prepare for, nada.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，应该还会用一些演习用的设定来模拟某些特殊环境和即将列装的最新型武器设备。",
+			say = "Apparently, they're also installing equipment to simulate certain combat environments, and we can expect state-of-the-art weaponry to be in play.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次演习肯定不会跟以往一样轻松的，做好准备~",
+			say = "Given the scale of the exercise, expect it to be unlike anything you've ever seen before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,7 +845,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "嗯……听起来确实会有很多意外和变数。",
+			say = "Mm... I get the feeling that there are gonna be a lot of unknown variables and unpleasant surprises thrown in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "没想到要急着把没列装的设备都放到演习里来，看来是对我们相当重视啊。",
+			say = "I wonder why they're in such a hurry to push out all this new equipment that hasn't even been listed on the registries yet. It must be a really big deal to them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,7 +881,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "这一点我能理解。",
+			say = "The cutting-edge Type-II hull-fusion rigging hasn't been perfected yet, but it's apparently able to draw out a lot more power than before even in an unfinished state.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟II型舰装现在可是内部最引人注目的重大技术进步，既然矛足够锋利，盾也要修的坚固一点才行。",
+			say = "Therefore, it makes sense to want to get a benchmark of our new power as soon as possible so they have some ballpark numbers they can reference.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯嚯，不是挺好么？好久都没有遇到有挑战性的演习训练了。",
+			say = "Now that's music to my ears. It's been a while since I've gotten to flex my muscles.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我也想看一看在拥有了新装备，经历了刻苦学习和训练之后的我现在能做成什么样子。",
+			say = "Plus, I really want to see what I'm capable of after all that sweat, blood, tears... and new gear!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我赞同，有一些挑战性更好。",
+			say = "Agreed. This is a good opportunity to challenge ourselves and test our mettle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "新型舰装确实有很多提升，我也想知道使用新型舰装的实战效果是什么样的。",
+			say = "Knowing your strength on paper is good. Knowing your strength in practice is even better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就知道大家肯定会觉得有趣~",
+			say = "Heh. I had a feeling you'd all be on board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1013,7 +1013,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "不过……博士，让老师去当舰队指挥官的事是怎么回事？",
+			say = "Oh right, Doctor. Did you say something about the Professor participating in this exercise as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个啊~既然日程变动了，我们这边的部署肯定也要跟着变动嘛。",
+			say = "Well, naturally. Since the whole timetable got pushed up, that also necessitates some staffing changes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1047,7 +1047,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得助手那么厉害，肯定有指挥舰队的天赋哦，于是就这么推荐了！",
+			say = "After all, can you name a single person more fit to be a commander than my assistant here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1065,7 +1065,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "原来是安洁你推荐的么！",
+			say = "I see! Thanks, Dr. Anzeel, that works out perfectly then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1092,7 +1092,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼，这次如果表现亮眼的话，以后说不定就能参与更多相关项目了嘛~",
+			say = "Heheh. You can repay me by putting on a stunning performance, then. Who knows, maybe you'll get to participate in more projects in the future as well!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1109,7 +1109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟以后这种事肯定少不了，再遇到演习的时候你们也想让助手来指挥吧？",
+			say = "If you impress the evaluators, maybe you'll get to spend more time working with the Professor here as well~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1127,7 +1127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "原来如此，这的确是很有说服力的理由。",
+			say = "Work hard to get more work, huh? Sounds like a bad deal, but I'm in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1144,7 +1144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也觉得老师是足够胜任这份工作的。",
+			say = "Agreed. I've never had a reason to doubt the Professor's knowledge or experience.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1161,7 +1161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我有个提议，为了让大家熟悉明天演习的感觉，从现在开始就叫老师指挥官可以么？",
+			say = "Alright then. Since we're all on the same page, I guess we'll be calling you Commander from now on~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1178,7 +1178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~我觉得可以。打铁趁热，你们现在起就可以称呼助手为“指挥官”了哦。",
+			say = "Haha, I like the sound of that! Maybe I'll have to jump on the bandwagon as well~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1195,7 +1195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手也没意见吧？",
+			say = "What do you say to that, my assistant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1206,7 +1206,7 @@ return {
 			},
 			options = {
 				{
-					content = "当然——",
+					content = "\"Just couldn't resist saying it again, huh...\"",
 					flag = 1
 				}
 			}
@@ -1215,7 +1215,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			say = "（毕竟这才是最令人熟悉的称呼。）",
+			say = "Commander. That is the title most familiar to me, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1228,7 +1228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么明天的事就算告一段落，大家再玩个一小时左右，就要准备去今晚的住宿地了。",
+			say = "\"Commander\" it is. We'll go through the exercise in greater detail later. For now, we've got another hour to ourselves before it's time to head to our accommodations for tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1245,7 +1245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "住宿地，是指高级宾馆么——",
+			say = "Where are we staying? The university?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1272,7 +1272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很可惜，想都别想。白天在外面玩我倒是有很多蒙混过关的方法，晚上的住宿就必须要按照规章制度来了。",
+			say = "If only. I can pull strings and bend rules during daylight hours, but accommodations are outside my jurisdiction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1289,7 +1289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今晚我们去演习场的基地去住。",
+			say = "Sadly, we'll be staying at a base near the exercise area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1307,7 +1307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "果然是变成了这样么……不过演习场也没关系。",
+			say = "Darn. Oh well, that doesn't sound too bad.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1325,7 +1325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "我记得那边的房间好像也是双人间来着~？",
+			say = "Just with one tiny caveat. All their bedrooms are double rooms.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1343,7 +1343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "你又没去过，你是怎么知道这种事的……",
+			say = "Wait, how do you know that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1361,7 +1361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哼、哼、哼，当然是大黄蜂大人早就料到会有事，所以提前调查过的啦！",
+			say = "Hehehe... I expected something like this might happen, so I did a bit of research.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1389,7 +1389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103260,
-			say = "双人间啊……",
+			say = "Oh boy. So that means...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1407,7 +1407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107270,
-			say = "既然那里的住宿是双人间的话……",
+			say = "We'll all share a room with someone else, I suppose?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1425,7 +1425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "没错~终于到今晚最重要的议题了~",
+			say = "Bingo. Which leads us to the inevitable question–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1443,7 +1443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "究竟谁会和老师——啊，现在该叫指挥官——同一个房间呢？",
+			say = "Who gets to share a room with the Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1461,7 +1461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "是谁呢是谁呢？名额只有一个哦！",
+			say = "I know people who'd kill for that chance! Maybe it'll be me... Or maybe it'll be you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1489,7 +1489,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "首先排除哈曼，哈曼才不想跟指挥官一个房间呢！",
+			say = "Wh-why are you looking at me like that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1506,7 +1506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好~那就首先排除掉哈曼~",
+			say = "You don't wanna? 'Kay, we can exclude Hammann~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1524,7 +1524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101500,
-			say = "等、等等！也、也别先排除那么早啊！",
+			say = "Hang on! I didn't say anything I didn't want to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1552,7 +1552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "嚯嚯嚯~那就先不排除了。",
+			say = "Then you've still got a chance!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1570,7 +1570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "……大黄蜂，你稍微闹得有点过了，会给指挥官带来困扰的。",
+			say = "*sigh*... Hornet, please. You're making things hard for the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1588,7 +1588,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "但这件事也很重要啊~我们尽快把这件事定下来不就好了。",
+			say = "This is important. We have to work it out one way or another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1605,7 +1605,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "比如要不，约克城姐你来跟指挥官一个房间？",
+			say = "But hey, you could be the roomie arbitrator if you have a sound proposal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,7 +1633,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107100,
-			say = "这个…………如果指挥官不介意的话。",
+			say = "Well... If the Commander doesn't mind, I'd–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1650,7 +1650,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很遗憾，这是我的助手，当然要跟我一个房间。",
+			say = "Seriously? I leave for five seconds, and you all start arguing about who'll sleep with who?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1667,7 +1667,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我今晚还有像山一样多的工作要处理呢！没人帮忙怎么行！",
+			say = "Sorry to burst your bubble, but the Commander and I are staying in separate staff rooms in another building. We have an exercise to plan, y'know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1685,7 +1685,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "切————",
+			say = "Laaame!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1702,7 +1702,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？有什么不满么？要不你今晚来当我的临时助手处理工作也行？",
+			say = "Do you have a problem with that? Would you rather take my place and spend all night planning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1720,7 +1720,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "不了不了不了……我对于博士的安排没有任何不满。",
+			say = "You KNOW I can't do that! Fiiine. We'll discuss room sharing among ourselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1737,7 +1737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好~剩下的一个小时也不能浪费掉。",
+			say = "Thought so. You have one hour before it's time to go. Decide before then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1754,7 +1754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的小吃街我已经很久没来过了，以前这里的小吃街就挺厉害的，没想到现在变得更繁华了！",
+			say = "Ooh, look! Street food! I used to visit the stands here all the time, and it looks like they've only gotten better since then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1771,7 +1771,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "助手，你肯定没来过这里吧？没关系，接下来我会带你好好逛一逛的~",
+			say = "Come with me, Commander. You've GOT to try some of this stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1795,7 +1795,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			say = "被安洁不由分说地拽回了小吃街的入口————看来今晚，才刚刚开始呢。",
+			say = "Anzeel drags me right back outside to the street vendors. By the looks of things, this night is only just getting started...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

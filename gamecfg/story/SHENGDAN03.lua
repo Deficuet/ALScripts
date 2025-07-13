@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>三 重樱的圣诞节·上</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 3 - A Very Sakura Empire Christmas (Part 1)</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "港区•商店街",
+			say = "Port - Shop",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "嗯…晚餐的材料…订购圣诞蛋糕…圣诞树…还有……",
+			say = "Hmm... we're getting food... the Christmas cake I ordered earlier... a Christmas tree... and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "哇~街上已经开始充满圣诞节的氛围了呢",
+			say = "Wooow~! The whole base has gotten into the Christmas mood!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,7 +70,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "是啊，感觉不管是什么节日，最终都会变成纯粹追求快乐的祭典呢",
+			say = "It really has. Whenever a holiday rolls around, the atmosphere changes completely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "不也挺好的嘛~反正大家都觉得开心~姐姐不喜欢过这些节日吗？",
+			say = "Do you not like holidays, nee-sama?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "倒也不是，看到重樱的大家都那么开心，我也觉得心情愉快起来了。只是突然萌生的一点感慨罢了",
+			say = "No, don't get me wrong. To see everyone in the Sakura Empire enjoy themselves makes me feel excited too. I was just thinking out loud.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "姐姐真是的~啊，那个是——",
+			say = "Just don't overthink it, okay? ...Wait, what is that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "嗯？这个是…圣诞装…吧？哎呀？你有兴趣吗~？",
+			say = "I believe that is a... Christmas costume? Would you like to try it on, Yamashiro?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "才、才没有呢，这种衣服一点都不适合我的",
+			say = "N-no, I don't... I know I don't look good in Christmas stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "我看就挺适合的呀~？不如就换上吧？既然是祭典，就该放开了享受不是吗~？",
+			say = "Don't be so shy. Why not dress appropriately for the season? After all, Christmas only comes once a year, so why not enjoy it to its fullest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "既、既然姐姐都这么说了——",
+			say = "I-if you think so then I'll try it on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么样?",
+			say = "H-how do I look...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -231,7 +231,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "真不愧是我的妹妹~",
+			say = "You look great, just as I'd thought!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -249,9 +249,9 @@ return {
 			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "来自远处的声音",
+			actorName = "Mysterious Voice",
 			dir = 1,
-			say = "发现重樱姐妹~~！",
+			say = "Next targets spotted: the Sakura Empire's Battleship Sisters!",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "那是…白鹰的…",
+			say = "That sounds like... that photographer from the Union...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "格里德利?",
+			say = "You mean... Gridley-chan?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -303,7 +303,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的我是节日特派记者格里德利~受指挥官所托，四处收集圣诞的回忆之中~",
+			say = "Christmas Photography Mode Gridley, at your service! The commander tasked me with documenting everyone's Christmas experience this year!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "殿下…果然还是很忙碌呢……",
+			say = "I assume... milord must be very busy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			actorName = "{namecode:78}",
 			dir = 1,
-			say = "那就把你的身影留在指挥官殿下的这份回忆中吧~",
+			say = "Well, that's exactly why we should leave photos of your Christmas experience for him to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来笑一个~茄子~",
+			say = "Yeah, exactly! Now, give me a smile! Say \"cheese!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 1,
 			actorName = "{namecode:79}",
 			dir = 1,
-			say = "啊——",
+			say = "Hawawah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这张就叫做《圣诞攻势！》好了~下一张好照片在哪呢~",
+			say = "Nice! I name this one \"Holiday Offensive\"! Now, who's next on the list...?",
 			flashout = {
 				black = false,
 				dur = 0.3,

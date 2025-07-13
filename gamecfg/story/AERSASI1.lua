@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"阿尔萨斯过热中！\n\n<size=45>一　完美的守护之剑</size>",
+					"Emotional Overload\n\n<size=45>1 The Guardian Blade, the Impeccable Secretary</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "前往指挥室的路上，少女正神采奕奕大步向前走着。",
+			say = "A girl was prancing down the corridor to the Commander's office.",
 			bgm = "story-richang-6",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
-			say = "即使此时被面具所遮盖，依然能从少女嘴角的弧度和歌声中感受到她的兴奋。",
+			say = "Though her eyes were covered by a mask, her wide smile and the cheerful tune she hummed gave away her mood.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~哼哼♪~",
+			say = "Hmm-hm-hmm-hm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯~帅气的阿尔萨斯♪~",
+			say = "Oh, Alsace, so cool you'll be♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与指挥官相伴~无所畏惧地并肩作战♪~",
+			say = "Purging baddies all so fearlessly♪",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的阿尔萨斯~将要成为充满荣誉的秘书舰♪~",
+			say = "And today you are the secretary♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，是阿尔萨斯……早、早上好……",
+			say = "H-hi, Alsace. Good morning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——阿尔萨斯是要去就任秘书舰么？好羡慕~",
+			say = "About to start working as the secretary, huh? Maaan, you're so lucky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！阿尔萨斯接到了命令。花剑不用羡慕，阿尔萨斯认为只要表现优异就会有机会的！",
+			say = "Affirmative! The Commander wills it. You needn't be envious, Fleuret – work hard, and one is sure you'll get your own opportunity.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
-			say = "少女认真地向面前两位小小的骑士解释着。",
+			say = "Alsace addressed the two little knights before her with marked sincerity.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说、说到表现优异……非常感谢阿尔萨斯上次帮我……解决了困难……",
+			say = "Um, speaking of hard work... Thanks for the help earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？是重剑把饮料洒在墙壁上，急着处理结果不小心把墙打了个洞的那次？",
+			say = "Alsace is the one who helped you? When you spilled a drink and poked a hole through the wall when you tried to clean it up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是……多亏了阿尔萨斯帮我一起重新砌了墙，不然指挥官肯定会觉得重剑没用的……呜……",
+			say = "Yeah. If it wasn't for her, the Commander would've found out and thought I was worthless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就说怎么后来你们两个身上都粘上了油漆脏兮兮的……",
+			say = "That explains the paint you both had all over your clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次这种事记得叫维修队来哦？而且，重剑，指挥官肯定也不会对你生气的啦。",
+			say = "Hey, if it happens again, just call the Manjuu repair team. Besides, the Commander's image of you wouldn't shatter like that over a small mistake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯、嗯……",
+			say = "Y-yeah, you're right...",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实只要是阿尔萨斯可以解决的问题，就尽管找阿尔萨斯吧，不用客气。",
+			say = "You can always come to this one if you have a problem that needs solving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟阿尔萨斯是指挥官的守护之剑，守护指挥官的港区也是理所应当的事情哦！",
+			say = "As the Commander's blade and protector, protecting the port, too, falls under one's umbrella!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，阿尔萨斯就先告辞了。",
+			say = "Now, one needs to get moving.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
-			say = "在简单地点头告别后，少女继续哼着她自创的曲调前行。",
+			say = "Alsace bowed her head and excused herself, then resumed humming her tune as she proceeded down the corridor.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_511",
 			hidePaintObj = true,
-			say = "而留在原地的花剑则是用有些担忧的目光看向了对方的背影。",
+			say = "Fleuret lingered in place, watching Alsace move forward with a tinge of nervousness.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来……阿尔萨斯对指挥官的抗性很低吧？有点担心她会因为过热宕机呢。",
+			say = "Isn't she, like, SUPER sensitive to the Commander? She's probably gonna overheat and break down as soon as she gets near.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应、应该没问题……！",
+			say = "I-I think she'll be okay!",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -365,7 +365,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前有几次路过她的房间门口，我都有听到阿尔萨斯念着指挥官的名字，好像在进行练习……",
+			say = "I walked by her room the other day, and I heard her trying to build up tolerance by saying, \"Commander, Commander\" over and over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "练习？嗯……",
+			say = "\"Build up tolerance.\" Yeah, right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算啦算啦~还是选择相信阿尔萨斯的自控能力和指挥官的实力吧~",
+			say = "But you know what? I'll choose to have faith in her self-control and the Commander's smarts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在一阵敲门声响起后，一道身影走入了指挥室中。",
+			say = "Following a knock on the door, Alsace quietly comes into my office.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "属于鸢尾的圣迹、人类难以企及之幻梦，指挥官的守护之剑——",
+			say = "This one is battleship Alsace – Sacrament of the Unified Orthodoxy, an unreachable dream, and guardian of the Holy See.",
 			fontsize = 39,
 			typewriter = {
 				speed = 0.05,
@@ -465,7 +465,7 @@ return {
 			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯，以完美且高效的秘书舰模式登场。指挥官，请下令吧！",
+			say = "One has trained and become secretary perfection embodied! Now, Commander, one awaits your orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

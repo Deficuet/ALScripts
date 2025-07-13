@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"自由的天使\n\n<size=45>二 黄金的友谊？</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 2 - A Fellowship of Gold?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "爱丁堡似乎找埃米尔有事的样子。",
+			say = "Edinburgh was in the office, and it seemed like she wanted to meet Émile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嘻嘻，小埃米尔～我来找你玩啦～",
+			say = "Hey, Émile, I'm here to chat~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哎呀，是爱丁堡呀，欢迎～不过还是等我秘书舰的工作处理完…是吧，指挥官？",
+			say = "Bienvenue, Edinburgh! Sorry, but we'll have to talk later, I've got my hands full with secretary work... Right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小埃米尔的话，三两下就能搞定啦～我的眼光是绝对不会出错的",
+			say = "Knowing you, you could get it done in a minute~ Believe it or not, I'm quite a good judge of character!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "两人不知道什么时候关系变得非常好了",
+			say = "Have you two always been this close...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊哈，指挥官，你知道吗，我和爱丁堡可是同样在大战中运输过黄金的同伴呢～",
+			say = "Don't you know, Commander? We both transported gold during the war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯哼！虽然运送的黄金量是我比较少，但要论话题性肯定是我比较高哦！",
+			say = "That's right! She transported more gold than I did, but my gold transport is way more discussion-worthy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不服输这点也是爱丁堡可爱的地方呢～",
+			say = "Aw, that determination to never be outdone of yours is so cute♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "过了一段时间，秘书舰的工作差不多结束了",
+			say = "Turns out Edinburgh's judgment was right; Émile finished her secretary work in a flash.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "小埃米尔果然很能干呢…让我想起我家贝法了都",
+			say = "You're so talented, Émile... It reminds me of a pesky maid I know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "贝尔法斯特小姐吗，跟她比还是有所差距的呀～",
+			say = "You mean Belfast? Good heavens, no~ I don't hold a candle to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，她真的不是爱丁堡的姐姐吗？",
+			say = "Speaking of Belfast, I somehow get the impression that she's your big sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊！怎么连小埃米尔也这么说啦！",
+			say = "She's my LITTLE sister! I can't believe even YOU'RE saying that now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "有个能干的妹妹是一件让人多心情复杂的事情，小埃米尔是不会懂的啦呜呜呜……",
+			say = "And I don't expect you to understand the complicated feeling that is having a little sister who's so good at everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不哭不哭～像爱丁堡这样有个性的其实意外的更受欢迎呢",
+			say = "I'll admit that's true. But I think you have a more colorful character than her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "嗯…这究竟是在夸我还是损我呢…",
+			say = "Not sure if I should take that as a compliment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，说到黄金，爱丁堡知道“黄金之国”重樱吗？",
+			say = "On another topic: have you heard of the Land of Gold, Edinburgh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我在某本游记里面看到了这样的说法，就觉得十分好奇呢",
+			say = "I read about it in a travel journal once. It said the Sakura Empire is a kingdom enveloped in gold! Fascinating, isn't it? Don't you want to see it in person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "重樱的话…舰队里倒是有不少来自那里的小伙伴呢",
+			say = "We could just ask our Sakura Empire fleetmates about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过重樱之国倒是一直都挺神秘的…有机会能去看看就好了呢…",
+			say = "Still, the land of the Sakura Empire certainly is a mystical place... I suppose I want to visit it someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "决定了！下次有机会的话，就一起去重樱看看吧！寻找传说中的黄金之国～什么的～似乎也挺有趣的～",
+			say = "Okay, then let's ask the Commander to assign us on the team next time there's a mission in the Sakura Empire's territory! Oh, just hearing the rumors about the Sakura Empire, the Land of Gold, makes me giddy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "噢噢噢！感觉兴致都上来了！",
+			say = "Definitely! The idea of it is pretty exciting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "因为黄金而诞生的奇妙友谊似乎还会继续下去",
+			say = "Seems their fellowship of gold will continue for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

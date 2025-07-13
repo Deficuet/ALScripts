@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>雨夜人偶</size>",
+					"Sails and Spooks\n\n<size=45>3 The Doll in the Rainy Night</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "风雨交加、电闪雷鸣的夜晚，我找到了一处矗立在荒野中的宅邸作为临时的歇脚之处。",
+			say = "Thunder booms and a storm rages in the dark night. Seeking shelter from the rain, I've come to this old mansion sitting in the middle of nowhere.",
 			bgm = "story-ghostnight-fascinsting",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "打扰了，请问有人在么？",
+			say = "Hellooo? Anyone there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "抬手叩动门扉，尽管宅邸内无人回应，厚重的大门却在发出吱呀一声后开启。",
+			say = "Nobody answers my knock on the heavy door, and yet, it opens with a heavy creak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "闪电再次划破天际。我在犹豫了片刻后，下定决心步入了大门之中。",
+			say = "Lightning rips across the sky again. I gather my courage and bite the bullet, setting foot inside the mansion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "宅邸里弥漫着陈旧的气息，似乎已经很久没人打理。",
+			say = "The interior reeks of dust, and it looks like nobody has cleaned the place for many years.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "在我寻找一处干燥的地方栖身时，房间内的某处“异常”引起了我的注意。",
+			say = "As I look for a place to dry off, I notice something very strange.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是……？",
+			say = "What the...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "长桌之上，平躺着一位浑身缠绕着绷带的“少女”。",
+			say = "There is a girl lying on a long table, dressed in bandages from head to toe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "她皮肤苍白，双眼紧闭，五官如同人偶般精致。",
+			say = "Eyes closed and skin pallid, she looks almost like a doll.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "轰隆隆——！",
+			say = "BOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "？！！",
+			say = "Whuah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "一阵强烈的闪电透过巨大的窗，将昏暗的宅邸照亮了片刻。",
+			say = "The light of a fierce lightning strike shines through the giant windows, and the dark room lights up for just a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你好呀。",
+			say = "Hi there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "原本安静躺着的“少女”此刻已经坐起身来，满面笑意地伸出了手。",
+			say = "All of a sudden, the girl is now sitting upright, smiling and extending a hand toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你……你是人类？还是……？",
+			say = "Are you... human?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "我克制住心头涌起的情绪，尽量平静地开口询问。",
+			say = "I ask her a question as calmly as I can while my heart races inside my chest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "哎呀~我想想哦……",
+			say = "Human? Well, let's see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "少女仍旧带着温柔的笑意，只是稍稍皱眉，俨然一副思索的模样。",
+			say = "She looks at me with a soft smile then furrows her brow in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~我只记得自己叫海豚号~其它的事情就不太记得了呢~",
+			say = "All I remember is my name is Dolphin. Nothing beyond that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "眼前的情况显然透露着诡异，但奇特的是，我的心中并没有涌现出任何逃离的想法。",
+			say = "Despite the extreme uncanniness on display, I somehow don't at all feel like I need to get out of here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这里是你的家么？你为什么会在这里……？",
+			say = "What are you doing here? Is this your home?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "此刻，我对眼前的少女只有好奇。",
+			say = "Looking at her, all I feel is a sense of curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "嘿嘿……那些也不记得啦，可能是诅咒的影响~？",
+			say = "I don't remember! Heehee. I guess that's the curse's doing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "哎呀，不要总是问我一些我不知道，也不记得的事情嘛~",
+			say = "That's the reason why I can't remember anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "不如我们来聊聊你吧~？",
+			say = "Enough about me. Tell me about yourself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "既然是你唤醒的我，我该叫你“主人”吗？",
+			say = "Since you're the one who awakened me, can I call you \"Master\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,22 +396,22 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "少女的声音听起来天真烂漫，眼神更是散发着如同雏鸟一般的清澈光芒。",
+			say = "Innocence drips from her every word, and her eyes gleam a baby chick's – full of naivete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你想怎么叫都行。",
+					content = "Sure. Call me whatever you want.",
 					flag = 1
 				},
 				{
-					content = "好像不太合适……？",
+					content = "I dunno, that feels wrong...",
 					flag = 2
 				},
 				{
-					content = "这称呼不错！",
+					content = "It has a nice ring to it!",
 					flag = 3
 				}
 			}
@@ -425,7 +425,7 @@ return {
 			actor = 900463,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就这么叫了哦~",
+			say = "Heehee! Okay, Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 900463,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是看你的表情，好像很喜欢我这样叫你~？",
+			say = "Does it? Your face tells a very different story.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 900463,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，看你的表情，好像很喜欢我这样叫你呢~？",
+			say = "Heehee. You have \"I like it\" written all over your face, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……不管你怎么称呼，我都只是个避雨的登山人而已。",
+			say = "Well, regardless of what you call me, I'm just a mountaineer seeking shelter from the rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等雨停了，我就会离开。",
+			say = "As soon as it lets up, I'm leaving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "什么嘛……那么快就要走了？",
+			say = "Aww... You're really leaving that soon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "少女似乎对这个回答很不满意。",
+			say = "Evidently, she's disappointed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "可是我一个人好寂寞哦……你既然唤醒了我，就不能多陪陪我吗？",
+			say = "I don't wanna be alone... You woke me up, so at least stay here for a little while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但是……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "虽然不知道海豚号到底是怎样的存在，但让她继续留在这里的话……",
+			say = "Whatever Dolphin is – human or something else – I can't just leave her here by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "轰隆隆——！",
+			say = "BOOOM!",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -606,7 +606,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "又一道闪电划过，让宅邸内瞬间亮如白昼。",
+			say = "Lightning strikes yet again. The room lights up as though it were daytime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "只要雨永远不会停，你就会留下的吧~？",
+			say = "In other words, if the rain never stops, then you're never gonna leave, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "留下来陪我吧~我们可以永远在一起哦。",
+			say = "Stay here with me. We'll be together forever and ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "少女抓住我的衣角，一点点靠近。",
+			say = "She tugs on my clothes and comes one step closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "我想要挣脱却，发现她的力气出奇地大。",
+			say = "I try to pull away, but she's a lot stronger than she looks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
-			say = "她的眼眸中闪过妖异的光，就连可爱的脸庞中也透露出一种疯狂。",
+			say = "There is a bewitching glow in her eyes, and on her face sits a look of faint madness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "就这样留下来，成为我的“主人”吧~",
+			say = "You're gonna stay right here and become my full-on master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900463,
-			say = "毕竟，只要我醒着的话……雨就永远不会停哦。",
+			say = "That's what's going to happen – because as long as I'm awake, the rain will never stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

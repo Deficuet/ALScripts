@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>二　操场上的问题儿们</size>",
+					"School Day Celebrations\n\n<size=45> II　「Troublemakers on the Playground」</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是学习还是运动，{namecode:400}大人都是No.1!",
+			say = "From sports to studies, Z1-sama is always zee N0.1!",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不服的家伙，就来和我“决斗”吧！",
+			say = "Anyone who disagrees with me can duel with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是跑步棒球还是格斗，我都是不会输的！",
+			say = "Whether it’s running, baseball or fighting, Z1-sama is undefeatable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哼哼，真敢说啊～",
+			say = "Woah...haha, boldly said～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你是…重樱的——",
+			say = "You...the one from the Sakura Empire — —",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "送上门的决斗，怎么能退缩！",
+			say = "I never back down! Not from duels!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真敢说啊～那就来一决胜负吧！",
+			say = "Then let's have one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇哇～一触即发一触即发～",
+			say = "Woaaa～～The show is starting～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克雷文应该帮哪边加油才好呢…",
+			say = "Craven cannot decide which side should she cheer for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那就两边都一起加油吧！{namecode:94}~加～油！{namecode:400}～Fight！",
+			say = "L-let's cheer for both sides then! {namecode:94} you can do it! Z1～Fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "Z～～1～～前～～辈！",
+			say = "Z～～1～～Senpai!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,12 +230,12 @@ return {
 		},
 		{
 			actor = 307041,
-			actorName = "{namecode:94}&克雷文&{namecode:400}",
+			actorName = "{namecode:94}&Craven&Z1",
 			bgName = "bg_story_school",
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "Whining — —",
 			subActors = {
 				{
 					actor = 401011,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "都说了多少次了不要在学院里挑衅其他人啊！",
+			say = "How many times have we talked about it? No provoking others in school!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁——",
+			say = "Tsk tsk — —",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "上课也不好好上课！我都收到好多投诉了！",
+			say = "You don't take school seriously! I keep getting complaints about you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才没有破坏课堂纪律！只是老师讲得太无聊，我向大家推荐换我来讲课，然后就…",
+			say = "I didn't break any classroom rules! It’s just that the teacher is too boring. I recommend to everyone that I should teach the class...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "哈哈哈",
+			say = "Hahaha",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "你也没资格笑！",
+			say = "Why’re you laughing? You’re no better!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "可、可是对面先挑——",
+			say = "B-but, she started it — —",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "接受挑衅的你也有问题！还有克雷文！他们俩精力过剩也就算了，你跟着凑什么热闹啊！",
+			say = "You made it worse by taking her nonsense seriously! And you Craven! They are nothing but troublemakers, why did you follow them?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿…顺势就……",
+			say = "Erm... I, I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "总之三个人都过来！我要好好说一下你们！",
+			say = "The three of you, follow me! Now! We are gonna have a talk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,8 +458,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "{namecode:94}&克雷文&{namecode:400}",
-			say = "呜——",
+			actorName = "{namecode:94}&Craven&Z1",
+			say = "Whining — —",
 			subActors = {
 				{
 					actor = 101061,

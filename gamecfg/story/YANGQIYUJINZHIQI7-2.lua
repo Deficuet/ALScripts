@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			hidePaintObj = true,
-			say = "舰队全速行驶，很快，被炮火点亮的海岸线便映入眼帘。",
+			say = "The fleet sailed on at full speed, and soon the Tulipan coastline lit up by cannon fire came into view.",
 			bgm = "battle-tulipa",
 			flashout = {
 				black = true,
@@ -35,7 +35,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"郁金王国近海·堤坝防御带",
+				"Kingdom of Tulipa Coastal Waters - Dam Defense System",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			hidePaintObj = true,
-			say = "堤坝防御带的各处都在交战，但是预想中的惨状没有出现。",
+			say = "While there was fighting all across the dam defense system, it didn't seem as disastrous as was assumed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			hidePaintObj = true,
-			say = "防线依然在坚持，而且战况远好于预期。",
+			say = "The defense line was holding, and the battle was going far better than expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:424:莱比锡}，{namecode:446:纽伦堡}，配合郁金王国的岸防火力将敌人先头部队消灭。",
+			say = "Leipzig, Nürnberg, coordinate with the Tulipan defensive installations and destroy the enemy's vanguard force.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -90,7 +90,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"铁血·北海舰队",
+				"Iron Blood - North Sea Fleet",
 				3
 			}
 		},
@@ -101,8 +101,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:424:莱比锡}&{namecode:446:纽伦堡}",
-			say = "是！\n明白！",
+			actorName = "Leipzig & Nürnberg",
+			say = "- Yes, ma'am! - Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:432:斯佩}，不要光盯着大家伙打，我们的目标不是尽快歼敌，而是将战场逐渐驱离岸边，减少陆地设施的损失。",
+			say = "Spee, don't focus solely on their biggest units. Our goal isn't swift elimination, it's to repel them from the coastline and keep structural damage to a minimum.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明白了……我会注意的。",
+			say = "Okay... I'll bear that in mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哦？铁血舰队算是和我们想到一起去了。",
+			say = "Oh. It seems the Iron Blood had the same idea as us.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -171,7 +171,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"北方联合·增援舰队",
+				"Northern Parliament - Reinforcement Fleet",
 				3
 			}
 		},
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "摩尔曼斯克、威严，我们配合她们的行动，将战线向外推。",
+			say = "Murmansk, Grozny, we're going to assist the Iron Blood's fleet and push the frontline back into the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +194,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "摩尔曼斯克&威严",
-			say = "明白。\n把它们都打趴下！",
+			actorName = "Murmansk & Grozny",
+			say = "- Roger, roger. - Let's beat the crap out of 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 1102010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们居然有援军……？！",
+			say = "Ally reinforcements on the coastline!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1101010,
-			say = "太好了……我们没来迟……战线守住了！",
+			say = "Thank goodness. They're still holding out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这两支都是铁血和北方联合的本土防御舰队，因此没有参与本次的「NA海域净化战」，",
+			say = "Those are the domestic Iron Blood and Northern Parliament defense fleets not participating in the operation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "她们居然会主动来支援……",
+			say = "They're actually going out of their way to assist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是个好现象……我们一直的坚持不是没有效果的。",
+			say = "A good sign of things to come. It means all our hard work up to this point wasn't for nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "联盟合并有希望了。",
+			say = "There may just be hope for the Azur Lane's reformation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102160,
-			say = "嗯！",
+			say = "Yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "然后……那些悬浮在水面上的大家伙，就是清除者研究的新型战斗兵器了吧。",
+			say = "Then there are THOSE things over there... They must be Omitter's latest weapon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……超·无畏级根除武装「福尔尼德」。",
+			say = "According to intel, those are Sphyrnidae, super-dreadnought-class eradicators.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "消灭了你们，此行任务才算最终圆满呢。",
+			say = "We have to defeat them to complete this mission in any real sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 1102010,
-			say = "指挥官阁下，郁金王国舰队等待您的命令。",
+			say = "Commander, the Tulipan fleet awaits your orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "配合岸防部队和友军舰队，前后夹击，全歼敌人！",
+			say = "Right. Coordinate with the coastal defense forces and allied fleets and eliminate the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

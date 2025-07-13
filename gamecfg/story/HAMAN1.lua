@@ -11,32 +11,27 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>一  爱发脾气的秘书舰</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 1: The Ill-Tempered Secretary</size>",
 					1
 				}
 			}
 		},
 		{
 			bgm = "story-1",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "港区·指挥室",
+			bgName = "bg_story_school",
+			say = "Port - Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
 			}
 		},
 		{
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
+			say = "Hey! You there!",
 			dir = 1,
-			say = "喂！",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +53,7 @@ return {
 			actor = 0,
 			withoutPainting = true,
 			bgName = "bg_story_task",
-			say = "哎…？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			dir = 1,
-			say = "哈曼提交的报告书，你还没看吗？",
+			say = "The report that I submitted! You still haven't gone over it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +83,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一小时前就放这里了！为什么还不看！",
+			say = "I left it on your desk an hour ago! Why haven't you looked at it yet?",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -101,11 +96,11 @@ return {
 			},
 			options = {
 				{
-					content = "三小时前的文件都没处理完呢…",
+					content = "I still haven't finished looking over the reports from three hours ago...",
 					flag = 1
 				},
 				{
-					content = "我没说过这资料明天再交也行吗？",
+					content = "Didn't I say you could submit that report tomorrow?",
 					flag = 2
 				}
 			}
@@ -114,7 +109,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不许找借口！",
+			say = "No excuses!",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -140,7 +135,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			dir = 1,
-			say = "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
+			say = "If you said you haven't looked at it, then that means you haven't looked at it! After I put all that time and effort into writing the report, how do you plan to make it up to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			dir = 1,
-			say = "（小声）还，还想说要是你好好看了就给你点奖励呢……",
+			say = "*mumbles* ...and here, I was going to give you a reward if you already finished checking it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			withoutPainting = true,
 			dir = 1,
-			say = "怎么突然变小声了…",
+			say = "Why'd you start mumbling all of a sudden...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "没什么！现在立刻马上看完来陪…给我指示！",
+			say = "None of your business! Finish reading that report this instant so you can take me... I mean, give me orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "之后的行程是要去演习视察吧？现在不找哈曼晚点可就找不着了！",
+			say = "You have to oversee the training exercises next, right? I might not be around after that, so speak now or forever hold your peace!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……什么叫“太突然了没有工作让你做”啊！？明明总是忙个不停为什么不让哈曼帮忙啦！",
+			say = "... What do you mean you don't have any work for me right this second...?! You've been so busy over there, so why aren't you letting me help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊烦死了！你就赶紧出门去你的演习海域好了啦！",
+			say = "Argh, what a pain! Just hurry up and go to those exercises already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "<size=60>笨蛋！</size>",
+			say = "<size=60>Iiiiidiot!</size>",
 			action = {
 				{
 					number = 3,
@@ -265,7 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（咚！）",
+			say = "*SLAM!*",
 			dialogShake = {
 				speed = 0.04,
 				x = 12.75,
@@ -281,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不知为何被哈曼赶出了指挥室……",
+			say = "For some reason, Hammann chased me out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

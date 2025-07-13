@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgm = "idom-Thinking",
-			say = "港区·演出海域",
+			say = "Port - Concert Sea Area",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认“敌方”出现，申请进行“演出”的准备。",
+			say = "Confirming \"enemy\" sighting. Requesting \"concert\" preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 403070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "整片海域都变成了几位客人所在世界的风格了，出现这种“敌人”也不奇怪了。",
+			say = "Figures that these things would pop out if we change the area to resemble the place the girls came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然看不太清，可是跟伊织酱长得好像…",
+			say = "It's a bit blurry looking from here, but that definitely looks like Iori...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			actor = 10700010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些是……跟我们长得很像的人吗……？",
+			say = "Are those things... our clones?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你可以认为是“假货”。",
+			say = "Close enough. Consider them as fakes made from your data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来是为了演出而准备的虚拟影像，却成了挡在眼前的障碍…",
+			say = "Those holograms were originally meant for use during concerts, but now they're acting as guardians for the machine?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…说实话，还真让人难以置信啊。",
+			say = "...It's hard to believe, even after seeing it.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			actor = 102240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是啊…我刚听到的时候也是这么想的…",
+			say = "Yeah... When I first heard about it, I was like, \"how the heck is that possible?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 102240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但是，不战胜这些阻碍，就通不过这里。",
+			say = "But if we don't fight and win, we won't be able to get through this area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战胜…是说要打倒那个跟伊织很像的人吗…？",
+			say = "Wait, fight...? Does that mean we have to shoot at Iori with our cannons...?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			actor = 202250,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，只要用“μ兵装”的力量进行演出，让对方认输就行。",
+			say = "Nay, only the Muse system is capable of defeating our opponents... with the power of music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“μ兵装”是…？",
+			say = "I'm totally lost here...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "就是我们身上这些装备啦。既能用来战斗，也能用来令演出更加精彩。",
+			say = "It's a special rigging we've been equipped with. It allows us to increase our performance power as we fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有，刚才也跟你们说过，这里本来是要举办演出的地方。",
+			say = "Oh right, we did tell you that this sea area was originally a concert venue, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因此在这里不需要真的进行战斗，只要在演出上胜过对方就行。",
+			say = "In other words, instead of using conventional warfare, we fight by seeing who can put on the best concert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "…真是的！要不是那个笨蛋的主意，谁要做这种事…",
+			say = "...But it's such a pain in the ass! If not for that idiot, who would even come up with an idea like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对方的演出已经开始了！详细的等会再和你们说！",
+			say = "Woah, hold on, our opponents have already begun their performance! Hold tight for a hot second, I'm going to go and gather some more info!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

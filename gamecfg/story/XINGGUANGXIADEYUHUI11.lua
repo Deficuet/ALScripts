@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "三日的时间转瞬即逝，到了出击的时候了。",
+			say = "Three days passed in the blink of an eye. The time to fight has finally come.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "这一次，依照调整后的计划，众人如同预料一般及时发现了天外之兽的主力，并在集中力量后顺利将其消灭。",
+			say = "Thanks to the revised strategy, we quickly discovered the main extradimensional force, concentrated our attacks, and defeated them without issue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "唯一有些意外的是，本次作战同时获取了大量天外之兽的生物质，原本已经推迟的任务竟在此时一并完成了。",
+			say = "The real surprise was the amount of samples we'd obtained, accomplishing the postponed mission in the process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "此刻，主力舰队顺利推进至了斯贝尔腾岛之上。",
+			say = "Currently, the main fleet is sailing smoothly toward the Silberstern.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 				}
 			},
 			location = {
-				"ID-AX-104号海域",
+				"Sea Region IB-AX-104",
 				3
 			}
 		},
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "由于没有分出登陆舰队和护航舰队，本次任务不包括对于岛屿进行实际控制和设置大规模开采站。",
+			say = "Due to our emphasis on firepower this time, we had opted not to assign landing and escort fleets. Thus, total control and large-scale mining of the island were excluded from this mission's objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "舰队只会在扫清岛屿周边的威胁后，由主力舰队成员使用自动开采站开采少部分足够支持现有设备升级的资源。",
+			say = "After clearing out all of the threats around the island, the main force would set up automatic mining stations to get only the necessary materials to fix the radiation purgers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "这也是修改后的作战计划相较于之前的一项重要改动。",
+			say = "This was another revision I'd made to the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家注意~已经可以看见采集地了哦！",
+			say = "Everyone, look! The mining site is right up ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "{namecode:540:Z52}指向了一座位于岛屿边缘的高山。",
+			say = "She points at a tall mountain on the edge of the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,35 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "高山之上寸草不生，无数残骸层层叠叠地镶嵌在其中，令整座山散发着金属的光泽。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 407040,
-			say = "呵呵，之前听到矿物，是不是以为我们会前往一个矿坑？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 407040,
-			say = "这种矿物名为能源金晶，是一种从金属残骸之中生长出的特殊矿物，同时也是生产能源魔方的主要材料之一。",
+			say = "The mountain is covered in debris instead of grass, giving it a metallic sheen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "在过去，各大阵营利用由人工大规模培育的高纯度能源金晶，生产出了无穷无尽的能源魔方。",
+			say = "Come now. Did you think we would be mining from a mine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +179,35 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "正是这些无穷无尽的能源，撑起了过去那个文明的黄金时代……相比之下，我们现在只能算落日余晖了。",
+			say = "We plan to mine mineralized energy, a special kind of ore that grows from metallic debris. It's one of the principal materials of Energy Cubes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_chuansong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 407040,
+			say = "Long ago, each faction cultivated high-purity mineralized energy and produced countless Energy Cubes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_chuansong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 407040,
+			say = "That boundless energy once powered our civilization's golden age... We only live in its afterglow today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "说到此处，{namecode:542:弗里茨·鲁梅}不禁苦笑了一声。",
+			say = "Rumey lets a sardonic smile slip.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（等等……能源魔方……？好耳熟的名字……）",
+			say = "(Energy Cubes? Why do I feel like I've heard of those before...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "浩瀚的汪洋中，忽如鳞光一闪，情报如同鱼群般蓬勃而现。",
+			say = "A ray of light shines at the far end of the ocean, seemingly beaming a flood of information into my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,23 +277,23 @@ return {
 					1
 				},
 				{
-					"「魔方」标准大会在今日结束了最后一天日程并公开了会议讨论结果。",
+					"The Cube Standardization Summit ended today, making the results of the conference publicly available on the last day of its schedule.",
 					2
 				},
 				{
-					"大会规定魔方的正式名称：「能源魔方」（「ε-cube」），简称为「魔方」。",
+					"The Summit designated the official international name of the Energy Cube as \"ε-Cube\"...",
 					3
 				},
 				{
-					"同时提供了一系列能源魔方生产应用中的各项标准。",
+					"...and also provided a series of standards for its production and utilization.",
 					4
 				},
 				{
-					"与常规能源不同，生产能源魔方最关键的是制作一种成分复杂的特殊合成材料容器。",
+					"Unlike with conventional energy sources, the most important thing about producing ε-Cubes is the construction of a complex synthetic container.",
 					5
 				},
 				{
-					"容器生产过程中的各项参数不同将会直接影响生产出能源魔方的质量。",
+					"Differences in specifications during the production process of this container will directly affect the quality of the resulting ε-Cube.",
 					6
 				},
 				{
@@ -312,23 +312,23 @@ return {
 					1
 				},
 				{
-					"本团队在能源魔方材料结构的研究上取得了飞跃性进展。",
+					"...After thoroughly analyzing all the data left in the Polar Decompilation project, our team has made remarkable progress in studying the material compositions of ε-Cubes.",
 					2
 				},
 				{
-					"能源魔方这一存在并不会原封不动的继承其构成材料的特性，而是会在这一基础上加以变化。",
+					"The ε-Cube does not inherit the properties of the materials used to make it, but rather changes based upon those materials.",
 					3
 				},
 				{
-					"简单的来说，能源魔方并不简单的等于构成魔方所有部件的总和。",
+					"Simply put, an ε-Cube is more than the sum of the components used to make it.",
 					4
 				},
 				{
-					"根据实验结果，钢与纸都不是制作能源魔方的理想材料。",
+					"Of course, neither wood nor paper are suitable materials for the construction of an ε-Cube shell...",
 					5
 				},
 				{
-					"不过根据这一性质，在能源魔方的外壳材料实验上我们重新拥有了无数种未知的可能性……",
+					"...but with this knowledge, we once again open ourselves to countless new possibilities worth trying...",
 					6
 				},
 				{
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "（这些……是我的记忆？）",
+			say = "(Are these more of the memories that I lost?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（原来这就是能源魔方……而这个世界的人，是在用能源金晶生产能源魔方。）",
+			say = "(All about Energy Cubes, at that. And the people of this world use this material to produce Energy Cubes?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（能源金晶……？和记忆中的情报不符。）",
+			say = "(But what is this mineralized energy deal? That doesn't match my memories at all.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（在能源魔方的生产标准中，最重要的是一种成分复杂的合成材料……）",
+			say = "(The most important part of Energy Cube production was the construction of a complex synthetic container...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道是这种矿物的上级加工品么？)",
+			say = "(Is that container the processed version of this mineral?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "三个小时过去了，情报没有再次出现，思考也没有得出有意义的结论。",
+			say = "I didn't get any more information after that, so I didn't arrive at any meaningful conclusion.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "在此期间，{namecode:542:弗里茨·鲁梅}等人已经在指定区域布设了矿物采集器，采集机器人们正在热火朝天地工作着。",
+			say = "Meanwhile, Rumey and her fleet set up their automatic mining machines, and their mining robots got to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "有了这批战略物资，抵抗军的反攻计划就算是开了个好头了。",
+			say = "The counteroperation is off to a good start with this bounty of strategic materials.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呼……总算是度过一劫。",
+			say = "It looks like we're out of danger... for now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,9 +490,9 @@ return {
 			side = 2,
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -508,7 +508,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士！紧急呼叫，能听到么，鲁梅女士！",
+			say = "U-u-urgent report! Can you hear me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在，出什么事了？",
+			say = "What happened?! Answer at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401110,
-			say = "不好了！鲁梅女士，天外之兽突然对基地发起了大规模——",
+			say = "It's really bad! The extradimensionals are at HQ–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,8 +549,8 @@ return {
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
-			say = "轰————！",
+			actorName = "Communicator",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -605,7 +605,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——大规模袭击！",
+			say = "–l-launching a large-scale attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……不惜代价坚持住，我们立刻返航。",
+			say = "We're on our way. Do everything you can to hold out until our return!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命！",
+			say = "U-understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,8 +646,8 @@ return {
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
-			say = "轰————！",
+			actorName = "Communicator",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -700,7 +700,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "……大家都听到了。",
+			say = "There you have it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 407040,
-			say = "当前任务终止，所有人立刻返航！",
+			say = "The mission is on hold. All forces, return at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

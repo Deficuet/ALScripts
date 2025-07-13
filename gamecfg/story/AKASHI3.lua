@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "指挥官的队伍，感觉好弱喵……",
+			say = "Commander’s fleet... looks a bit weak, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "这样可不行喵！指挥官要变强才行喵！",
+			say = "This is no good! Commander, you must become stronger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "就让{namecode:98}来告诉指挥官变强的方法喵！",
+			say = "Let {namecode:98} tell you the method of how to become stronger, nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "准备好设计图喵！还有零件喵！研发新装备喵！",
+			say = "Prepare to receive retrofit blueprints! Here’s also parts for your gear! Now go and design new equipments!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

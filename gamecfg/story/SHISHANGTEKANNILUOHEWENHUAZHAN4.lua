@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_303",
-			say = "展馆内，一扇巨大的门扉前伫立着一道身影。",
+			say = "A lone person stands before a massive door within the exhibit.",
 			bgm = "story-egypt-mystic",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "斯库拉手持镰刀，一袭长袍随风轻摆，散发着优雅而神秘的气息。",
+			say = "Scythe in hand, hair fluttering in the wind, Scylla exudes an aura of mystical elegance in an exotic outfit.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她微微抬起头，目光中带着几分戏谑。",
+			say = "As soon as she sees me, she slightly raises her head. There is a certain playfulness in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "欢迎您的到来，我的主人……",
+			say = "Welcome, my Maste–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她突然停顿，嘴角勾起一抹神秘的笑意。",
+			say = "She suddenly interrupts herself and her lips form a mysterious smile.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "哦，不对，现在您只是一位“旅人”呢。",
+			say = "Pardon me. You're just a traveler at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "这里是……审判之门？",
+			say = "What is this? The... \"door of judgment\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，当然，看来您已经察觉到了呢。",
+			say = "Heehee. That it is. How keen of you to notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她轻抚着手中的镰刀，继续说道。",
+			say = "Gently, she caresses her scythe before she continues.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "若要通过此处，就必须要接受审判……",
+			say = "Those who wish to pass through here must accept judgement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,18 +168,18 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "不过，既然是您的话，想要直接通行也没关系的哦？",
+			say = "Since it's you, however, I could let you pass without any punishment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "想要接受审判",
+					content = "(Accept her judgment.)",
 					flag = 1
 				},
 				{
-					content = "询问门后是什么",
+					content = "(Ask what's behind the door.)",
 					flag = 2
 				}
 			}
@@ -194,7 +194,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "不，我想要经历这场审判。",
+			say = "You know what? I'll take your judgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			optionFlag = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "原来如此，您是想要斯库拉审判您啊~",
+			say = "I see. So you seek out my judgement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			optionFlag = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "我会保证一直进行到您满意为止呢……呵呵~♪",
+			say = "If so you wish, then who am I to deny you? I'll even judge you as many times as it takes to satisfy you. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "如果直接通行的话，我会在这扇门后看到什么？",
+			say = "If I go through the door, what will I find on the other side?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "您想看到什么呢？",
+			say = "You wish to know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "门后也许是天堂，也许是地狱……",
+			say = "Perhaps what lies beyond is Heaven. Or perhaps it's Hell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "您想知道确切的答案的话，我还是建议您选择接受审判呢，呵呵~♪",
+			say = "If you wish to know in advance, I suggest you allow me to judge you. Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "她意味深长地看着我，镰刀在指间轻轻转动。",
+			say = "She shoots me a meaningful glance and spins the scythe in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "好吧，那我接受审判。",
+			say = "Alright, then. Let's hear your judgment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "不过呢，真正重要的从来都不是审判的结果。",
+			say = "Well... I should note that the result of my judgement isn't especially important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "而是在这场审判中，您愿意向我展示怎样的灵魂……",
+			say = "What matters is the soul you're willing to reveal to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说完，她闭上眼，挥舞了几下手中的镰刀，似乎是在感受所谓的“灵魂”。",
+			say = "As she finishes, she shuts her eyes and seems to try to read into my soul, twirling her scythe a few times in the meantime.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "哎呀，我已经得出答案了呢。",
+			say = "There. I have already reached a conclusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "很遗憾——根据您的灵魂来看，您恐怕要下地狱呢。",
+			say = "I'm terribly sorry to say, but based on what I see of your soul, your destination lies in Hell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她睁开眼，冲我露出了一个狡黠的笑。",
+			say = "Her eyes open again, and she gives me a smile of mischief.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -415,7 +415,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "……？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "呵呵，您果然露出了有趣的表情呢。",
+			say = "Heehee. As I thought, you had a rather amusing reaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "刚刚那只是斯库拉的玩笑话，您不必当真。",
+			say = "Don't worry. I was simply joking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "斯库拉的表情重新变得柔和了起来。",
+			say = "Her expression softens again.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "说到底，即便斯库拉此刻扮演着司掌审判的神明，",
+			say = "While it's true that I am portraying the God of Judgement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "但掌握您的命运什么的……对于一介女仆而言也太僭越了。",
+			say = "It is also true that no maid has the right to determine her master's destiny.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "所以，这扇门后究竟通向何方……",
+			say = "So, to answer your question of where the door leads...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "就由您自己来决定吧。",
+			say = "Please decide that for yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			hideRecordIco = true,
 			actor = 202333,
 			actorName = "{playername}",
-			say = "由我来决定？",
+			say = "I get to decide?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "是的，毕竟您才是斯库拉真正的主人啊。",
+			say = "Yes. After all, you are my master, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她优雅地行了一礼，镰刀在空中划出一道金色的弧线。",
+			say = "With a graceful bow, she draws a golden arc in the air with her scythe.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "这次扮演神明确实很有趣呢……",
+			say = "As much as I enjoyed portraying a god...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "不过比起高高在上的审判者，我果然还是更喜欢——",
+			say = "I'm scarcely suited for the task of judging people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她的声音突然变得温柔起来。",
+			say = "All of a sudden, her voice becomes gentle.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -611,7 +611,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "作为您的女仆，日日相伴在您身边的时光。",
+			say = "My days spent by your side, providing you service as your maid, are much more enjoyable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她侧身让出一条路，向门扉的方向做出“请”的手势。",
+			say = "Taking a step aside, she gestures toward the door as if to say, \"If you would, please.\"",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "这扇门后的路，就请您继续前进吧。",
+			say = "Now, Master, kindly proceed forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			dir = 1,
 			actor = 202333,
 			nameColor = "#A9F548FF",
-			say = "而我……永远都会以女仆的身份追随您的脚步。",
+			say = "I shall forever follow you as your humble, loyal maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

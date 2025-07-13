@@ -8,12 +8,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			bgm = "battle-tulipa",
 			typewriter = {
 				speed = 0.05,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705090,
-			say = "指挥官同志，北方联合舰队已完成歼敌任务。",
+			say = "Commander, the Northern Parliament fleet has finished its elimination mission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705090,
-			say = "我们正在包围镜面海域核心控制塔的西面与南面，行动一切顺利，我们将在一小时内到位。",
+			say = "We're now starting to surround the Mirror Sea's central control tower from the southwest. Expected to be in the designated position within an hour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 1102010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官阁下，郁金王国舰队也已经完成了歼敌任务，目前正在向核心控制塔的南侧和东侧包围~",
+			say = "Likewise, Commander, the Tulipan fleet has completed its own elimination mission. We are currently surrounding the tower from the southeast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 1102010,
-			say = "我们很快就可以与北方联合舰队胜利会师，共同执行总攻任务了！",
+			say = "We'll begin an all-out attack once we link up with the Northern Parliament's fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "明白，继续行动吧。",
+			say = "Fantastic work. Keep it up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,11 +109,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通信器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？战况一切顺利，你怎么还愁眉苦脸的？",
+			say = "What's wrong, Commander? You look displeased, despite how well things are going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "还记得我之前跟你说的，清除者在这里研发新型兵器的事么？",
+			say = "Remember back at the embankment, right as Zeven approached us? I was going to tell you that Omitter used this Mirror Sea to test new weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "海伦娜不可能在这种小事上给出错误情报的。",
+			say = "I heard it straight from Helena, so I have no reason to doubt its veracity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……？！可是、我们到目前为止都没见到过什么新型兵器啊？！",
+			say = "Huh? But we haven't seen anything you could call a new weapon so far...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这就是我愁眉不展的原因……",
+			say = "That's what worries me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "塞壬的新型战斗兵器……去哪里了呢？",
+			say = "There should be one, so where is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

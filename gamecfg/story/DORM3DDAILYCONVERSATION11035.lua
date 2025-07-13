@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哼……（伸懒腰），今天天气不错呢，要一起出去跑跑步吗？",
+			say = "Hnnnh... The weather is great outside. How about we go jogging?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是为了能多吃两个冰……咳咳，是保证健康！",
+			say = "Of course, it's just an excuse to eat two more ice... I mean, umm, to maintain my health!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没有一个好的身体，怎么又能和你长久相伴呢？",
+			say = "I can't be with you forever if I don't keep up my health, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "让我们出发吧，Honey！",
+			say = "Now, let's get going!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

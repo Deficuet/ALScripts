@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"融雪的邀约\n\n<size=45>月下的晚风</size>",
+					"Invitation of Melting Snow\n\n<size=45>A Breeze Under the Moon</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "一轮新月高悬夜空。松林之中的温泉，此刻正蒸腾着水汽。",
+			say = "The new moon hangs high, casting a subtle light on a natural hot spring amid a pine forest.",
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_167",
-			say = "但是氤氲在清朗的夜空之中的，或许不只是水汽而已？",
+			say = "Steam rises all around on this relaxing night. The silence is gently broken by a splash of water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水温好热……指挥官，我先出水吹一下冷风好了。感觉泡久了的话，头会有点晕。",
+			say = "My, this is hot... Excuse me, I'm going to get up for a minute, Commander. I'm starting to feel lightheaded...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "指挥官感觉如何？这个程度的水温，真的没事吗？",
+			say = "How's the water for you? Are you sure you can handle it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			},
 			options = {
 				{
-					content = "温度正合适",
+					content = "\"The temperature is perfect.\"",
 					flag = 1
 				},
 				{
-					content = "水温有点太热了",
+					content = "\"It's a bit too hot.\"",
 					flag = 2
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			optionFlag = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "看起来指挥官对温泉的耐受能力比我要强不少呢……",
+			say = "I see. You must be used to bathing in hot springs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			optionFlag = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳……对我来说水温实在是有点热过头了，感觉身体都像要烧起来了一样……",
+			say = "Ahem... I need some time to cool off. I feel like I'm burning up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			optionFlag = 2,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "果然……我就说不是我的问题……不过看特伦托自得其乐的样子，我还以为是我耐热能力太差了呢……",
+			say = "It's not just me, then. I thought I was the odd one out, since Trento looks so comfortable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			optionFlag = 2,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "感觉身体都像要烧起来了一样……",
+			say = "Meanwhile, I feel like I'm burning up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,8 +183,8 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			actorName = "特伦托",
-			say = "呵呵~真的是因为温泉么？还是说，因为指挥官也在这里，所以才……？",
+			actorName = "Trento",
+			say = "Burning up, hmm? Is it because of the water, or because the Commander is here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "特伦托！",
+			say = "Enough teasing, Trento!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,8 +219,8 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			actorName = "特伦托",
-			say = "嗯哼哼~",
+			actorName = "Trento",
+			say = "Heehee♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳、那个，指挥官，如果坚持不住了的话，要不要试试像我一样吹吹晚风呢？",
+			say = "Ugh... Commander, don't force yourself to stay in. If you need a break, you can feel the breeze with me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "呼……凉爽的风吹过来的时候，温泉的温暖还能从脚下传来，这种感觉……真是舒服多了~",
+			say = "Speaking of which... It feels wonderful. With my legs still in the water, I don't feel cold at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一直都对指挥官挺严厉的，像现在这样能和对指挥官说些真心话的机会也不太多……",
+			say = "...Hey. I know I'm always strict with you, and we rarely ever get to have a heart-to-heart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "其实指挥官平时也挺迁就和关照我的，这些我都是知道的哦~",
+			say = "I want you to know I, like everyone else, appreciate how much you care about us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "至于我心中对指挥官的情感什么的……",
+			say = "And I care a lot about you, too. In fact, I think I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "啊！一不小心就……不不不，我什么都没说！",
+			say = "...Um, never mind! The heat is clearly getting to my head.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 603042,
 			nameColor = "#A9F548FF",
-			say = "咳……今天是尽情休息的日子，指挥官也请继续好好享受温泉吧~",
+			say = "Whew... Anyway, the night is still young. Let us enjoy the water for a while longer.",
 			painting = {
 				alpha = 0.3,
 				time = 1

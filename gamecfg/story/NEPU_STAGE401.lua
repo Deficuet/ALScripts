@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=45>『异色海域PURPLE』</size>",
+					"<size=45>\"Odd-Colored Seas - PURPLE\"</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			bgm = "level-nep",
 			dir = -1,
-			say = "……刚才说到布兰她们昨天又被伊森扔了一个难题",
+			say = "... In the last episode, Histy threw Blanc and the others for a loop yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "然后今天镜面海域就出现了！",
+			say = "And now in today's exciting installment - a new Mirror Sea has spawned!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "连续两天出现……很少见的情况。",
+			say = "For them to appear back-to-back like this... how unusual.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概是第一次吧？",
+			say = "This would probably be the first time this has happened, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这就是我的主人公光环啦！好啦，赶快通关拿奖励！然后去捞船！",
+			say = "This is also an effect of my Protagonist Aura! Let's go mop up some quests and farm some rare ships!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一个人在那边兴奋什么啊！涅普，这回出击的最优先事项是打倒我们的冒牌货，然后收集镜面海域的数据，明白了吗？",
+			say = "Just what are you rambling about? Neptune, our priority is to investigate the Mirror Sea. The only things we should be mopping up are our clones, got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "诺瓦露我知道啦～♪但是这里的指挥官也肯定刷镜面海域刷到燃料用光的！对吧拉菲酱？",
+			say = "Loosen up, Noire, I know~♪ After all, the commander here is sure to burn all their fuel farming this Mirror Sea. Right, Laffey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯……是吗……？",
+			say = "... Uh... huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这时候应该为指挥官说话才对吧？",
+			say = "Wait, shouldn't you be taking the commander's side?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊—我家指挥官倒不是这样的……但是也有不光燃料，连疲劳度都刷成红脸的指挥官呢……",
+			say = "Ah... our commander isn't like that... Though there are some who not only burn all their fuel, but also run everyone's morale into red...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "能看到被累惨的未来了……快去要加班费。",
+			say = "I can see a bleak future of overwork ahead of us... I'm asking to be paid for overtime...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，哪都有这么黑心的人呢……",
+			say = "Jeez, I'm surrounded by black-hearted people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "明明这么说的诺瓦露自己比谁都要黑的说～",
+			say = "Even though Noire has the most black heart here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是跟黑色很配而已！才不是黑心！",
+			say = "The color just suits me well! I'm not black-hearted at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好啦好啦，大家不要太认真啦……这么可爱的脸不要浪费了哦？轻松点就好～",
+			say = "Now now, everyone, let's not be so serious. It'll ruin your cute faces. Let's lighten up, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……贝露你比所有人都要陶醉呢。",
+			say = "... Go home, Vert, you're drunk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "对啊……被这么多可爱的小妹妹围在中间……这里是我的天国啊啊（抱）",
+			say = "Don't wanna~ Being surrounded by all these cute girls... this is the heaven I wanted... ehehe... (Squeeze!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊！贝露小姐突然做什么啊？",
+			say = "Awawa?! Vert, what are you doing all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "哦哦！……航母以上的……包容力！",
+			say = "Urk... so this is the strength... of a carrier's embrace...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝露你也和涅普顿一样，和平时一点变化都没有呢……",
+			say = "Vert, you're just like Neptune. Whether in war or peace, you two never change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好啦！大家都打成一片更团结了，赶快朝新的镜面海域出击吧！",
+			say = "Come on, everyone. Let's all strengthen our teamwork and head out to the new Mirror Sea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

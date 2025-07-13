@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=45>其一　魔女、永葆纯真</size>",
+					"Witches' Eve I\n\n<size=45> 「Witches, Everlasting Innocence」</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "“赠予仍葆纯真者”？这是赠给吾的礼物？",
+			say = "“Gift of an Everlasting Innocent Doll”? A present for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "(悉悉索索)",
+			say = "(Opening...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿……吾果然是个美人胚子！",
+			say = "Heehee... I really am beautiful!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "不过，到底是谁送给吾的呢，包裹上也没有名字……",
+			say = "But who’s this from? There's no name on the package...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "南瓜粥……今天的午饭又是南瓜吗？昨天炖南瓜，前天南瓜饼——吾已经吃腻南瓜了！",
+			say = "Pumpkin congee... are we having pumpkin again for lunch? Yesterday was pumpkin stew, and pumpkin pie the day before... I'm so done with pumpkins!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "确实，营养均衡上……",
+			say = "So am I, talk about a nutritional imbalance…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "不是这个问题啦！对了，{namecode:6}，吾收到了一件奇怪的礼物",
+			say = "That's not the issue! Oh, by the way, {namecode:6}, I just received a strange present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "礼物——？",
+			say = "A present—— ?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "嘿嘿~好看吗？",
+			say = "Heehee~ Doesn't this look good on me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "倒是很符合{namecode:87}的气质……被你的姐姐们夸赞了吗？",
+			say = "It really suits {namecode:87}... What did your sisters say? Did they praise you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "最近姐姐们都不陪吾玩了……什么“{namecode:87}也该交些同龄的朋友了”，吾和姐姐们的年龄明明差不多！对了，下午我们一起去哪玩吧！",
+			say = "Lately, they don't really hang out with me... and keep saying that, \"{namecode:87} should find friends similar in age.\" Seriously?! They are almost the same age as me! Well, let's head out this afternoon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "前些天看到{namecode:96}在采购食材，还以为能吃上一顿天妇罗，结果还是南瓜！",
+			say = "I saw {namecode:96} storing up her food supplies a few days ago. I thought she was planning to cook tempura for me, but it turned out to be pumpkin again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "{namecode:96}应该不会放过吃天妇罗的机会，除非……",
+			say = "{namecode:96} won't miss any opportunity of having tempura, unless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "说起来，{namecode:96}最近看吾的眼神也有点怪。南瓜……{namecode:96}……嗯，吾们去调查调查吧！",
+			say = "Speaking of {namecode:96}, recently she always looks at me in a strange way. Pumpkin... {namecode:96}... huh, let's dig into this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			actorName = "{namecode:6}",
 			dir = 1,
-			say = "我也要去?",
+			say = "Do I have to go with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 1,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "当然！你不要总沉溺在战斗与训练中啦",
+			say = "Of course! Stop losing yourself in combat and training, you deserve a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很遗憾，我不知道……你们请加油哟~",
+			say = "What a pity, I’m not sure if I’ll go… you girls have fun~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "南瓜是很好吃的喵~浪费粮食可是重罪喵~{namecode:87}要多吃一点喵~",
+			say = "Pumpkins are delicious, nyaa~ and wasting food is a serious crime, nyaa~ {namecode:87} eat a little more, nyaa~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天妇罗？没、没有啦！我是在为过冬储购食材啦！",
+			say = "Tempura? No, there’s no more left! I wanted to store food for the coming winter!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得……气氛有点紧张",
+			say = "I still feel like… the atmosphere is very tense.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			actorName = "{namecode:87}",
 			dir = 1,
-			say = "不过，重要的情报总会藏在意想不到的地方，{namecode:6}，跟上吾！",
+			say = "Although the most telling information is always hidden in unexpected places, {namecode:6}, follow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			say = "凭什么我和姐姐参加不了万圣夜……对了！干脆到时候……",
+			say = "How come my sister and I can’t attend this Halloween… Say! When the time comes...",
 			flashout = {
 				black = true,
 				dur = 1,

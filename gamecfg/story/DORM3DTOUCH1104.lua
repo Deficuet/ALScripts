@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，这里……还、还请您不要捉弄天狼星。",
+			say = "My honourable {dorm3d}, that's my... Pl-please don't tease me like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

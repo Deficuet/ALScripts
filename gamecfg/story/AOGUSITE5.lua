@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"魔女的命运之夜\n\n<size=45>五 魔女的结界</size>",
+					"A Night with the Unhulde\n\n<size=45>5 The Unhulde's Domain</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "夕阳西沉，整个营地沐浴在金色的光辉中。",
+			say = "The sun sets on the westerly horizon, draping the whole campsite in golden light.",
 			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我好像闻到了某种说不上来的香气……",
+			say = "Do you smell that? Something's in the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我为营地熏了香。",
+			say = "I'm burning aromatic oils.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "是混了药草与树脂的配方，古老、安静。",
+			say = "It's a mixture of medicinal herbs and resin. Old and calming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然奇异，但闻久了确实令人安心。",
+			say = "Smells a bit odd, but you're right – it is calming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "味道，是最容易让人产生联想的魔法。",
+			say = "Scent is the magic that makes people mingle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "就像现在，你已经开始觉得这里不只是“营地”了吧？",
+			say = "Moreover, it makes you feel like this place is more than just a campsite, doesn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "确实……但正如你所说，好像还缺点什么。",
+			say = "That's true. Like you said earlier, it's missing some crucial thing, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "我扫视了一圈营地。",
+			say = "I look around the campsite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,20 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "帐篷已搭好，生活用品也码放整齐，花草缠绕在营地边缘，为这一方天地添上几分柔软的色彩。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_557",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "一切看起来都很完美。",
+			say = "We have a tent, our essential camping supplies form a neat stack, and the flowers encircling the camp add a soft color as the cherry on top.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +161,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "究竟是缺了什么……",
+			say = "On the surface, we have everything we could possibly need.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_557",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "So what is it that's missing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "图纹、灯火、石块与藤蔓编织出的空间已然完整，却又似乎哪里不够——",
+			say = "This place has symbols, a campfire, stones, and vines. It's all here, and yet, the full picture isn't complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "像是一幅画，光影皆有，却静止无声。",
+			say = "The scene feels like a full painting ready to come to life, but there's not a single sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你已经察觉到了。",
+			say = "It seems you've figured it out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "色、香、形、光……都齐了。",
+			say = "Color, smell, form, light – those are all here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "唯独还少了一样——声。",
+			say = "If there is a single thing missing, it would have to be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "声音？",
+			say = "Sound, I'm guessing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "{namecode:482:奥古斯特}取出一个深色绒袋，小心地解开绳结，从中取出几枚银制铃铛。",
+			say = "She produces a velvet bag, prudently undoes the knot, and then takes out a couple of silver bells.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "每一枚都不大，表面刻有细致繁复的纹路，光线一照便泛起微微冷光。",
+			say = "They're all fairly small and have minute patterns engraved on their surfaces, which reflect a cold light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这不仅仅是装饰，更是音律锚点。",
+			say = "These are no mere ornaments. They are musical anchors, so to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "每一个音节，都会牵动命运的回响。",
+			say = "Each and every one of their syllables will summon an echo of fate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你准备把它们挂在哪里？",
+			say = "Where are you gonna hang them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "四方之角，各自对应方位与风口。",
+			say = "In the four cardinal directions. Each somewhere where the wind blows.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "当风吹来，它们会唤醒这片结界。",
+			say = "The wind ringing the bells will awaken this domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她走向营地四角，将银铃一枚枚挂上。",
+			say = "She hangs a bell in all four corners of the camp.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "最后一枚银铃挂上之时，风恰好拂过——清脆却不刺耳的铃声接连响起。",
+			say = "As soon as she hangs the last one, a gentle wind blows by, and the bells start ringing one by one with a clear sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,18 +365,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "先是一声，再是一声，彼此应和形成了节奏，像是某种来自深空的回应。",
+			say = "First there is one sound, then another – they resonate with each other, creating a rhythm. It's like some sort of signal from space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听起来像在欢迎我们进入某种仪式。",
+					content = "So... has the ritual started?",
 					flag = 1
 				},
 				{
-					content = "你真的为这一切准备了很多。",
+					content = "You really prepared a lot for this.",
 					flag = 2
 				}
 			}
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "听起来像在欢迎我们进入某种仪式。",
+			say = "So... has the ritual started?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "你真的为这一切准备了很多。",
+			say = "You really prepared a lot for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "结界已经生效。",
+			say = "The domain has been made.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一旦进入，就没有回头路。你，准备好了吗？",
+			say = "There will be no turning back once you step forward. Are you ready, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "银铃低语不止，{namecode:482:奥古斯特}站在营地正中，眼中噙着意味不明的笑意。",
+			say = "The bells continue ringing without end. She stands at the center of the campsite, a mysterious smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "她仿佛真的搭建起了属于自己的结界，身影在金光与铃声中显得既遥远又不可思议。",
+			say = "Her figure is bathed in golden light and encased in a strange aura. It really is like she's standing in a domain of her own making.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_557",
 			hidePaintObj = true,
-			say = "我没有回答，只是大步向着{namecode:482:奥古斯特}走去。",
+			say = "I don't even stop to ask a question, I simply walk toward her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "欢迎你，我的使魔。",
+			say = "Welcome, my familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "欢迎进入——我的结界。",
+			say = "Welcome... to my domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

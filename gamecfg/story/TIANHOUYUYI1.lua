@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"大家的夏日祭\n\n<size=45>一 准备夏日祭典吧！</size>",
+					"Summer Festival\n\n<size=45>Chapter 1: Prepare for the Festival!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "{namecode:14}酱{namecode:14}酱，又到了每年的这个时候了呢！",
+			say = "It's that time of year again, Inazuma!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个时候…是？",
+			say = "What time of year...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭典！祭典！吃到饱玩到饱的那个！",
+			say = "Festival time! Time to stuff our faces with food and our hearts with fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇…祭典祭典！",
+			say = "I see! It's festival time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，我们有过每年办祭典的习惯吗…？",
+			say = "Wait, is that a thing? An annual festival?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…",
+			say = "Errmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的话，就从今年开始养成习惯吧！",
+			say = "If it isn't a thing, let's make it a thing!",
 			effects = {
 				{
 					active = true,
@@ -190,8 +190,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:13}&{namecode:14}",
-			say = "{namecode:164}酱！",
+			actorName = "Ikazuchi & Inazuma",
+			say = "Kitakaze!",
 			effects = {
 				{
 					active = false,
@@ -222,7 +222,7 @@ return {
 			actor = 900195,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼，听到了好事呢…说到重樱、说到夏天！",
+			say = "My ears were burning... with talk of the Sakura Empire, talk of summer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "自然少不了夏日祭了嘛~",
+			say = "It wouldn't be summer without a festival~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 900195,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是{namecode:96}，跟{namecode:164}想到一块了！",
+			say = "Well if it isn't Zuikaku. You're with me, aren't you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，这么夸我我会不好意思的啦~",
+			say = "Ahaha, glad to be on the right side of history~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳哼，既然大家都有这样的想法，就一起来办个夏日祭典吧！",
+			say = "Now if we're all on the same page, let's put together a summer festival for everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是所谓的“人多势众”对吧！",
+			say = "I see! This is what they call \"bandwagoning,\" isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:96}&{namecode:164}",
-			say = "……",
+			say = "Um, well...",
 			subActors = {
 				{
 					actor = 900195,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就…先去找指挥官吧…？",
+			say = "Then... should we go get the Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…如此这般……我们来办夏日祭典吧！指挥官！",
+			say = "... And so that's why... we want to put on a summer festival, Commander!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "... The request seemed to come out of nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指、指挥官不会残忍拒绝吧…？",
+			say = "Y-you wouldn't crush our dreams, would you, Commander...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们还找了其他伙伴来帮忙哦",
+			say = "We even brought along this little one. She's so excited for the festival.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}会加油的！嘿嘿嘿…祭典的糖果…（擦口水）",
+			say = "I love festivals! I can't wait to help out! I'll eat all the festival candy... hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "夏日祭典呀，一定会很有趣的指挥官！来办嘛！",
+			say = "I want to see fireworks! Come on, Commander! It'll be fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…嗯，难得的夏天，听起来似乎也不错…",
+			say = "It was summer, after all. And they did make it sound fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意",
+					content = "Let them have it.",
 					flag = 1
 				}
 			}
@@ -513,7 +513,7 @@ return {
 			actor = 900195,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不愧是指挥官，通情达理…！",
+			say = "Our Commander is wise and fair as ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！那就开始准备吧！也要喊上其他阵营的伙伴才行呢~",
+			say = "Haha, let's get started then! Call out the girls from the other factions too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要忙起来咯~",
+			say = "Time to get busy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,9 +559,9 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			actorName = "众人",
+			actorName = "Everyone",
 			dir = 1,
-			say = "哦！",
+			say = "Yeah!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -587,7 +587,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，经过了一番紧张而充实的准备。港区的夏日祭，开始了——",
+			say = "And so it was, that after a period of intense, grueling preparation, the port was at last ready for its annual summer festival.",
 			effects = {
 				{
 					active = false,

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"苍闪忍法帖-「日常篇」\n\n<size=45>开始训练-其二</size>",
+					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Start the Training - Part 2</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "训练海域·某处",
+			say = "Training Area - Somewhere else",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——于是把我们强行拉到这里的目的是……？",
+			say = "So... What's the point in forcing us to come here, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海域中充满了量产型……",
+			say = "That's a lot of mass-produced training ships...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "那、那个……好像量产舰的炮口都是朝着我们……！？",
+			say = "A-and their guns are trained on US!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "莫非这个阵势是……",
+			say = "Is this... what I think it is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错！这样一来不就解决了“人多”的问题了嘛！",
+			say = "Yup! Since you can't handle groups of people, I got you some non-people opponents!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "问题解决之后，大家也可以尽情享受演习的快乐了！",
+			say = "Take your time getting used to practicing with these and you'll be ready to try the real deal with the rest of us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "哼哼~不愧是我~",
+			say = "(Heheh. I'm a genius.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……潜航模式，启动，下潜中——",
+			say = "St-starting mission... I'll go underwater...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "顺带一提，水下也准备了大量量产型潜艇哦！",
+			say = "Also, there's swarms of mass-produced subs waiting under the surface. There's nowhere to run!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "……退路都被堵死了……",
+			say = "N-nowhere to run? Umm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，我也会和大家一同作战啦~",
+			say = "Don't worry! You've got me for backup!~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "而且一起并肩战斗的话更能增进大家的感情哦！",
+			say = "I'll handle the small stuff so you can focus on the bigger picture. Plus, we'll get buddy-buddy faster if we fight side by side.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啦好啦，要是不想出局的话就要么躲闪要么开火吧……总之开始行动吧！Hurry！Hurry！",
+			say = "If you don't wanna get KO'd, you've either gotta evade or KO the enemy first. Either way, don't just stand there! Go, go, go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊哈啊…………",
+			say = "*pant*... *pant*... *pant*...",
 			bgm = "sk-az-story",
 			painting = {
 				alpha = 0.3,
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "实、实在是……太乱来了……",
+			say = "G-god... That was insane...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "糟了，好像有点做过火了……",
+			say = "Oopsie... I might've gone too far in a few places.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "真、真是的……",
+			say = "WAY too far...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一步也动不了……鱼鱼……救救我……",
+			say = "I can't move a muscle... Fishy, help me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼、呼、呼嘿嘿嘿……",
+			say = "Heheh... Heheheh... Heheheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorName = "{namecode:188}",
-			say = "紫小姐！还有大家，都没事吧！",
+			say = "Murasaki! Are you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我来帮忙……咦，这个计分板……？",
+			say = "We're here to rescu– Whoa. Check out the numbers on their report sheet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们好厉害啊！居然打败了这么多的敌人！",
+			say = "I can't believe my eyes! Look how many foes they defeated!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本打算来搭把手的，看来是白跑一趟了。",
+			say = "Here I thought they'd need a hand. Looks like we came for nothing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事没事，想打的话，我可以再调一批过来哦！",
+			say = "Oh, if you girls haven't had enough, I'll call in some more ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "……！",
+			say = "*whimper*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……今天大家都很努力参加演习了呢，差不多可以收工了吧？",
+			say = "All this fighting has left them exhausted. I think this is a good time to call it for today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的可以吗…？明明大家特地赶来了……",
+			say = "Are you sure? But you just got here to help us out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你要想接着打的话？我是完全没问题可以奉陪到底的哦？",
+			say = "You saying you wanna fight some more? 'Cause I'm up for it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608010,
-			say = "……请容我果断拒绝！",
+			say = "Nuh-uh, no way... I'm done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么今天的训练就到此为止了！{namecode:11:晓}酱，还有大家，我们一起去游泳吧！",
+			say = "Alright, then that's enough training for today! Let's all go swimming now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才不是才游完长距离游泳，累得要死要活了吗！？",
+			say = "Did you not swim, like, several kilometers just a minute ago?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "一码归一码嘛！不同情境下，心情也不一样啦！",
+			say = "Yeah, but that's different! It's not the same as swimming with these girls!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "时间宝贵，我就先走一步了！",
+			say = "No time to waste! I'll see you there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也去~",
+			say = "I'm down for a swim!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等等在下啦！",
+			say = "I-I will join you, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然发生了很多事，但结果来说算是OK的，对吧~？",
+			say = "Well... That worked out surprisingly well in the end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "战斗的时候，满脑子想着的都是自己和伙伴该如何行动，该躲过什么，该打倒什么……",
+			say = "In the heat of battle, all you think about is what your teammates will do, when to dodge, and what enemy to sink...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -692,7 +692,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来，自己那些小小的烦恼自然变得微不足道了……你不这么觉得么？",
+			say = "There's no time to waste thinking about your own little troubles. Isn't that nice?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,7 +710,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "话是这样说没错……其实原本朋友们也劝过我……",
+			say = "Yes, but the thing is, my friends have told me that before...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "本来我心里已经有了结论……",
+			say = "I went into the battle already knowing about that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +746,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "欸？是这样吗？那我做的事是不是有点多余了呢…？",
+			say = "Wait, you did? So in the end, you didn't need me to do anything for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "……其实{namecode:199:新泽西}小姐会不会经常被人说有点太单纯了……？",
+			say = "No. You can be a bit of a hothead sometimes... Does anyone tell you that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "不过，说到底你也是因为担心在营地边犹豫不决的我们，才这么做的对吧？",
+			say = "Still, even if this wasn't necessary, it showed that you care for us... Thank you for that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "看来我也…还需要更加……积极一点……",
+			say = "I need to work on becoming more confident...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,8 +834,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "飞鸟",
-			say = "呼呼呼——白色沙滩和蓝色大海！",
+			actorName = "Asuka",
+			say = "White sands and blue waves – I'm coming for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000060,
-			say = "……话虽如此，要变得像飞鸟这样积极……不知道还要花上多少年呢——",
+			say = "...But to reach her level of confidence is going to take years.",
 			painting = {
 				alpha = 0.3,
 				time = 1

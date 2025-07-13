@@ -5,7 +5,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "这里是拓荒小镇的管理界面\n小镇等级提升需要繁荣度与金币",
+				text = "This shows how much prosperity and how many ingots you need to raise the town's level!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在前往工作地点看看吧",
+				text = "Now let's go find a worksite!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -38,7 +38,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "可以通过升级工作地点中的建筑，获得繁荣度与更多的金币产出\n随着小镇等级的提升还会解锁更多工作地点",
+				text = "Raising your building level not only raises your prosperity, it also increases your ingot income!Increase the town level to unlock new buildings!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -50,7 +50,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在前往拓荒同伴邀请页面看看吧",
+				text = "Here you can select shipgirls to serve as your pioneers!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -71,7 +71,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "邀请拓荒同伴，每隔一段时间可以获得额外的金币\n同时参与拓荒的同伴出击获得的好感度提升",
+				text = "Pioneers will appear around the town, and interacting with them gives you ingots!",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -83,7 +83,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "随着小镇等级的提升还可以邀请更多的拓荒同伴\n那么就请指挥官努力提升小镇等级吧",
+				text = "You can unlock more slots for pioneers by increasing your town level!",
 				mode = 1,
 				dir = 1,
 				char = "char",

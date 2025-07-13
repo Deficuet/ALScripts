@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开契合度面板",
+				text = "Tap here to check your Intimacy with her.",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -24,7 +24,7 @@ return {
 			delay = 0.8,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开昼夜切换界面",
+				text = "Tap this to open the menu to change the time of day!",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -52,7 +52,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点选后即可切换时间。在夜间，宿舍的物品摆设也会略有不同哦~",
+				text = "Tap this to change the time of day. Certain things change around the quarters between night and day!~",
 				mode = 4,
 				dir = 1,
 				char = "char",

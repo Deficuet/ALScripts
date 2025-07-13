@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.6,
 			style = {
-				text = "海滩区重建完成，解锁小游戏「啾啾打捞团」  ",
+				text = "The outdoor recreation area has been fully rebuilt! You've unlocked the Manjuu Salvaging Crew minigame. ",
 				mode = 2,
 				dir = -1,
 				char = "char",

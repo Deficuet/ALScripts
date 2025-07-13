@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斯卡帕湾周边海域·指挥舰内",
+			say = "Flagship Briefing Room - Near Scapa Flow",
 			side = 2,
 			bgName = "bg_endingsong_11",
 			dir = 1,
@@ -37,8 +37,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "指挥官……收到了好多、好多的通讯联络。",
+			actorName = "Eldridge",
+			say = "Many messages... Come in...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "埃尔德里奇",
-			say = "要埃尔德里奇，读给你听么？",
+			actorName = "Eldridge",
+			say = "Should Eldridge... read?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,24 +66,24 @@ return {
 			},
 			options = {
 				{
-					content = "让埃尔德里奇来读。",
+					content = "\"Sure. Read them out loud for me.\"",
 					flag = 1
 				},
 				{
-					content = "还是自己看吧。",
+					content = "\"No need to. I'll do it.\"",
 					flag = 2
 				}
 			}
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "第一封……",
+			say = "First message...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,13 +95,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“指挥官，铁血舰队，似乎……”",
+			say = "Commander... Iron Blood forces...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,13 +113,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“改变了，部署。”",
+			say = "Repositioned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,13 +131,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“{namecode:464}，已经向着，斯……卡帕湾撤退了。”",
+			say = "Ulrich and her fleet... retreated. To Scapa Flow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +149,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“明明，没遭遇到，严重损失。”",
+			say = "Failed to... deal damage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,13 +167,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“计划舰，战斗力，果然，不容小觑。”",
+			say = "Blueprint ships... strong... Put up... solid fight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,13 +185,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“打起来，真的，很过瘾……”",
+			say = "Heading back to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,13 +203,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“接下来，我需要，稍微，重整舰队……”",
+			say = "Yes. Heading back to resupply... and... reorganize...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,13 +221,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“在，安排好，受伤的，同伴……“",
+			say = "After that... move forward again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,13 +239,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“补充完，量产型，后再，继续前进……”",
+			say = "Resupply... mass-produced ships too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,13 +257,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "埃尔德里奇",
+			actorName = "Eldridge",
 			bgName = "bg_endingsong_11",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "“我们，决战时候，再见啦……来自，{namecode:199}。”",
+			say = "See you... at Scapa Flow... From New Jersey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "……让埃尔德里奇来读这些报告似乎有些太困难了，接下来还是自己看吧。",
+			say = "\"Um, thanks, Eldridge. I'll read the rest for myself, if you don't mind.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "一段时间后——",
+			say = "A short while later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "根据情报汇总，可以确认铁血舰队再次整体性改变了战术。",
+			say = "Based on the reports from all our fleets, it seemed the Iron Blood's strategy had changed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "她们不再漫无止境的干扰与拖延，而是边打边撤，有序向斯卡帕湾方向集中。",
+			say = "They had given up on their electronic interference and stalling tactics and instead rallied all their forces at Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "尚无法判断这是在阻止主力打击群前进失败之后做出的选择，还是斯卡帕湾方向已经没有继续拖延的必要了……",
+			say = "Had our attacks put them on the back foot? Were they done trying to diverge our attention away from whatever they were hiding? Nobody knew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "从各条战线上的情况来看，北方联合舰队主要与{namecode:427}舰队指挥的舰队进行了交战，虽然损失轻微但推进速度最慢。",
+			say = "Kronshtadt's fleet had apparently engaged Odin, and they survived the battle without any major casualties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "NA海域舰队打击群则与{namecode:436}指挥的舰队发生了交战，双方量产型损失严重，舰船也均有数艘受损。",
+			say = "Georgia's fleet fought Ulrich's fleet and, incredibly, won. The former was now on its way back to regroup with us, while the latter broke off to retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "佐治亚的情况也相同，在与{namecode:464}带领的主力舰队激战之后，双方互有损伤。",
+			say = "Lastly, New Jersey's fleet defeated Tirpitz's fleet, but sustained minor damage after a battle with Ulrich's fleet as it was retreating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "看来计划舰的高战斗力很好缓解了铁血舰队数量不足的优势。",
+			say = "All in all, though the Iron Blood had fought admirably, they were still losing the battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "不过只是缓解而已……要想逆转局势，铁血恐怕还需要更多的计划舰。",
+			say = "I still had no idea what Friedrich's goal was, but it seemed to me like her plan was going to be a bust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "而我们不会继续给铁血时间了。",
+			say = "I kicked back in my seat, drew a sigh, and reviewed our fleets' statuses once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_11",
-			say = "铁血似乎意图在斯卡帕湾进行决战，我们也是如此。",
+			say = "Saratoga's reserve fleet had linked up with ours. I now commanded a very respectable fleet for the final battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_endingsong_11",
 			dir = 1,
 			blackBg = true,
-			say = "目前还有萨拉托加指挥的两支预备舰队可用，看来是时候投入战斗了————",
+			say = "I had all the right cards in my hand. All I had to do was lay them on the table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

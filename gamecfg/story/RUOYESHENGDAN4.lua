@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>四 甜食的俘虏</size>",
+					"Christmas Party!\n\n<size=45>Speaking of Sweets</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼呼呼…果然寒冷的冬天，就是要靠糖分补充卡路里熬过去呀~杜威你也再来一块蛋糕如何？",
+			say = "The best way to keep yourself warm during a cold day is... with a whole bunch of calories~♪ Dewey, how about another cookie?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就不用了，不过康克德小姐，是不是差不多该把圣诞派对用的蛋糕给送过去了……",
+			say = "I'll pass, thanks. Speaking of which, shouldn't we take the cake over to the party?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，杜威真是个认真的好孩子呀~放心吧，已经准备好啦，等我吃完这块蛋糕再开始动手也不迟~",
+			say = "What a good kid you are, Dewey~ But it's all right, we can head out after I finish this~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿~两位好呀~",
+			say = "Hey, I'm back~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…西雅图小姐，抱歉，我们这才要准备把派对的蛋糕给送过去",
+			say = "Oh, Seattle. Sorry, we were just getting ready to take the cake over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，没关系！反正还有时间，而且我也不是来催这个的啦~",
+			say = "Ah, don't worry! There's still plenty of time! I didn't come to rush you anyway~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，过来都过来了，一起来吃点甜品吧~要什锦圣代，还是来块小蛋糕吗~?",
+			say = "Since you're here then, why not have some sweets? Would you like a sundae, or a slice of cake?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "康克德小姐果然是甜食达人啊~其实呢——",
+			say = "Uh, I really appreciate it, but I was hoping to ask you something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，怎么让姜饼变得更美味吗？",
+			say = "So that's what's going on... You want to make your gingerbread cookie extra tasty?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！也想听听看甜食达人的意见呢~嘿嘿",
+			say = "Exactly! And I figured you know more about sweets than anyone else!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻~那还用问吗，当然是甜度加倍，美味程度也能加倍啦！",
+			say = "That's an easy one! Double the sugar, double the sweetness. Double the sweetness, and double the deliciousness, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 101022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "康克德小姐真的是甜食控呢",
+			say = "You really do love your sugar, don'tcha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "糖分、美味、甜食~这就是圣诞的真谛呀！让所有人一起沉溺到这糖分的天堂里，这样才是最好的圣诞派对哦？",
+			say = "Sweets are a crucial part of Christmas, after all! That's why I think it'd be nice to have more sweets at the party!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "回归甜食的本质…嗯嗯，似乎又找到一点感觉了！",
+			say = "Tapping into the essence of sweetness... All right, I think it's all coming together now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "两位，我来帮忙一起把蛋糕送到派对会场去，你们再来帮我试试新做的姜饼的味道吧！",
+			say = "Ah, let me help you carry the Christmas cake. Afterward, would you two mind helping me taste test my gingerbread cookies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，关于甜食的事情，我都很乐意帮忙哦~",
+			say = "Of course~ As long as it's sweet, I'm totally down~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~这次一定要做出最棒的姜饼，准备一个最棒的圣诞派对！",
+			say = "All right, I'm gonna make the best cookie, and put on the best Christmas party ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "杜威也会加油帮忙的——",
+			say = "Um, I'll help as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

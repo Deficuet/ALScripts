@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "使用了「隐秘海域信息记录仪」，所有隐秘海域已经侦察完毕，隐秘海域计划模式已解锁。",
+			say = "You used the Hidden Zone Data Logger. All Hidden Zones have been scouted, and Hidden Zone Strategic Search has been unlocked.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Go",
 					flag = 0
 				}
 			}

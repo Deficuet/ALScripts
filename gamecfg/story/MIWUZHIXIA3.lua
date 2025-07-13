@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "要塞东侧外海？·海雾中",
+			say = "Canal Stronghold - Region unknown",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "嘀--嘀--嘀-----",
+			say = "(Beep... Beep... Beep...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……？！！",
+			say = "Was that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "大家稍等！刚刚…雷达上出现了一个信号反馈…",
+			say = "Everyone, hold! My radar just detected something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！我们的雷达不是在这片海雾中不起效么？",
+			say = "Didn't you say it wasn't functioning earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "嘀--嘀--嘀-----",
+			say = "(Beep... Beep... Beep...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，我也看到了。刚刚一瞬间，雷达上确实出现了一个小点！",
+			say = "Hang on, I'm getting something too. The signal's weak, but it's definitely *something*.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且识别信号显示为…友军…是被海雾卷进去的运输舰么？",
+			say = "It seems they have an allied identification signal... Maybe they're transport ships who got caught in the mist too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果是那样的话，雷达上的信号应该是一大片才对，运输舰是不会单独行动的",
+			say = "The odds of that are low. I've heard nothing about active supply convoys in this region.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说现在通讯正常，如果是遇难的运输舰的话，我们肯定收到求救信号了",
+			say = "Furthermore, since our comms equipment still works, they should be broadcasting an SOS if they really are allied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来这个“我方信号”是诱饵的可能性很高呢",
+			say = "When you put it like that, it sounds more likely to be a trap laid by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "显而易见的诱饵…",
+			say = "Very likely, I would say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "OK~我们去看看吧！",
+			say = "Okay then. Let's go investigate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错，这时候应该无视它继续前………哈啊？！！",
+			say = "Yeah, let's go in– Wait, what?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴尔的摩…你有什么计划么？",
+			say = "Do you have a plan, Baltimore?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家听我说，如果塞壬不惜放出这种拙劣的诱饵也想把我们留在这里，说明我们被困在这里这件事对塞壬来说很重要对吧",
+			say = "I do. We've got 2 options; either we make a beeline for the fortress, or we \"take the bait,\" so to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是为什么呢？",
+			say = "We can't exactly just leave this mist hanging around even if we head straight for the stronghold, and we can't be certain our compasses are pointing us in the right direction either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…如果我们被困在这里，要塞的防御力量就会出现缺口，塞壬的进攻计划就更容易实现了？",
+			say = "Either way, it sounds like we have to shift our focus to the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们只是调防增援。就算我们现在赶不到要塞，要塞本身的防御也足够坚固等到其他地方的增援了",
+			say = "Obviously, I don't intend to just walk into a trap here. Helena, do me a favor and contact NY City. Ask them to send reinforcements.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你觉得塞壬还有其他打算…？",
+			say = "Roger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然只是直觉程度上的。不过，它们一直以来不都是这样的么，永远充满着阴谋与诡计…",
+			say = "This is just a hunch of mine, but I doubt the Sirens' plan is as one-dimensional as it looks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以不如这次由我们来假装中计，反过来挖出塞壬的真正阴谋吧！",
+			say = "Let's proceed cautiously and uncover what they're really doing here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我还是觉得风险太高了些，这种时候首先应该全身而退准备要塞防御战最为稳妥…！",
+			say = "Now, I'll admit I'm no master strategist, but isn't this really risky? I think we should head for the fortress instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬真的劫持了一艘我们的军舰，屏蔽了通讯，然后来诱导我们过去。这种可能性也是存在吧？",
+			say = "That was my first thought too, but consider this: what if that signal really is coming from an allied convoy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………那就不能见死不救了呢",
+			say = "Then... we must help. We can't just leave them to their fates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果等待我们的是塞壬舰队怎么办？",
+			say = "The more likely scenario is that it's a Siren ambush, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，那不是正好么。之前躲在迷雾里没法好好收拾它们，如果敢主动送上门来……",
+			say = "Whichever it turns out to be, we have to exercise caution because of all this fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "就让它们见识一下正义的力量吧！",
+			say = "Everyone clear on what to do? Then let's go!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

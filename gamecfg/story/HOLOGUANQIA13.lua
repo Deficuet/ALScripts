@@ -11,7 +11,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰装真是神奇的装备呢。发射起来有这么大的威力，操作起来却可以轻松上手。",
+			say = "Wow, this rigging is amazing! I never expected weapons this powerful to be so easy to control!",
 			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "有了舰装，就算是祭这样前一秒还是手无缚鸡之力的清纯JK，也能瞬间拥有强大的战斗力哎。",
+			say = "With OP gear like this, even a pure and delicate girl like me can become a ganking queen at the drop of a hat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "…理论上只有像我们这样的“舰船”才能使用舰装",
+			say = "(The rigging Purity made doesn't function the same way as ours...)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -62,7 +62,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们能适应舰装，是特例中的特例，或许是因为你们异世界来客的身份，也许还和塞壬的奇怪实验有关。",
+			say = "(Even then, you can't simply equip a ship's rigging and master its use immediately. The Mirror Sea must be affecting her somehow.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "原因先不论，结果上来说，祭也有了守护同伴的力量了！",
+			say = "Anyway, now I have the power to protect my friends! Hooray!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "之前从吹雪那里听说过这里的一些事…如果人人都能像祭这样使用舰装与塞壬进行战斗的话……",
+			say = "Oh yeah, why can't we just get riggings for everyone then face the Sirens head-on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "就算对手是塞壬，也会在一瞬间被打败吧~",
+			say = "They might have numbers, but we're way stronger. We'd beat them in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…听起来很美好，不过现实可是很残酷的",
+			say = "There is some truth to that, but reality isn't so simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且所有人都要走上战场…这样的世界不论是否能消灭塞壬，都将会走向自我毁灭吧",
+			say = "Besides... a world where any random person can pick up arms and go to war is destined to fall to ruin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			actor = 10500040,
 			dir = 1,
-			say = "{namecode:158}外表虽然很可爱，个性却好酷啊，这就是所谓的反差萌？",
+			say = "Wowie! Kawakaze: cute on the outside, cool on the inside! There's an audience for characters like that, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭对这个世界还不是很了解，也不太了解战斗，随便说了奇怪的话真的很抱歉！",
+			say = "I can't pull that off, though. I don't know much about your world, and I'm not much of a fighter either, so sorry if I say anything that sounds weird!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没关系。说起来，hololive是你的所属组织吧，成为hololive反抗军的感觉如何？",
+			say = "You don't know how to fight? I thought you're part of the Resistance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 10500040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，其实祭本来就是反抗军成员哦，只是没想到真的能等到成功反抗的一天，老实说激动的不行呢！",
+			say = "I've fought a few times before! Just not, you know, like this. Ahahaha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们这个世界的人真怪…",
+			say = "What a strange place you come from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}酱也要对自己再直率一些才是~",
+			say = "Aww, don't be like that! Experience is still experience!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

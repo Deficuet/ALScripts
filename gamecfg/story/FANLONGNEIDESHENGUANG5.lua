@@ -11,11 +11,11 @@ return {
 			say = "",
 			sequence = {
 				{
-					"佛罗伦萨共和国·首都",
+					"Republic of Florence - Capital",
 					1
 				},
 				{
-					"某处街道",
+					"City Street",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_305",
 			hidePaintObj = true,
-			say = "和煦的阳光下，佛罗伦萨的街头如往日一般喧嚣。",
+			say = "On this pleasantly sunny day, the streets of Florence were as lively as ever.",
 			bgm = "story-theme-sardinia",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_305",
 			hidePaintObj = true,
-			say = "在某个被人所忽略的阴影中，一位红衣少女正在与远方的盟友交谈着。",
+			say = "A girl in red spoke with one distant comrade in a less conspicuous, shadowy corner of the capital.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安德烈亚，后方准备如何？",
+			say = "Andrea, how are preparations at the rear proceeding?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,13 +78,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "交涉环节已经结束了。",
+			say = "We've finished negotiations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,13 +94,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "威尼斯共和国与热那亚共和国将会先后加入我们，而撒丁教国的盟友米兰公国将会保持中立。",
+			say = "The Venetian and Genoan Republics will join us in turn. As for the Dukedom of Milan, they will remain neutral given their allyship with the Ecclesia.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,13 +110,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们需要直接处理的只有佛罗伦萨共和国而已，这是之前计划中的最好局面。",
+			say = "Our only direct opposition is the Republic of Florence – the most convenient outcome we could've hoped for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,11 +126,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "佛罗伦萨啊……",
+			say = "Florence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_305",
 			hidePaintObj = true,
-			say = "红衣少女望了望远处喧闹的街市，微不可察地摇了摇头。",
+			say = "The girl in red cast a glance upon the lively streets, but she stopped herself and shook her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各项准备都在顺利进行……是个好的开始。",
+			say = "Everything is going smoothly. It's a good start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,13 +165,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们已经为此谋划了多年……僵化的教国无法阻止我们，虚伪的“神”也不行。",
+			say = "We've spent countless years working toward this day. One decrepit theocracy can't stop us, nor can their false god.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,13 +181,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这个漫长剧本的结局，必将由我们来书写。",
+			say = "We will be the ones to pen the end of this long tale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,10 +197,10 @@ return {
 			actor = 602030,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "放心，所有人现在应该都以为我还和威尼斯共和国代表团一同停留在罗马呢，渗透十分顺利。",
+			say = "Don't worry. My infiltration is a success so far. Everyone should think that I'm still in Rome with the Republic of Venice's delegation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,11 +210,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当永夜的帷幕拉开之时，「神光之网」将不再会是阻碍。",
+			say = "Even the Lattice of God's Light can't penetrate the pall of eternal night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,11 +224,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "威尼斯共和国",
+			factiontag = "Republic of Venice",
 			actor = 602030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们，必将突破樊笼。",
+			say = "The time has come for us to break out of our confines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,13 +238,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_305",
-			factiontag = "两西西里王国",
+			factiontag = "Kingdom of the Two Sicilies",
 			dir = 1,
 			paintingNoise = true,
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯——我们，必将突破樊笼。",
+			say = "So it has, and so we shall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

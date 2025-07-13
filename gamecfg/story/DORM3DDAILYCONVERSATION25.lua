@@ -17,18 +17,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，天狼星在想能不能和您拍一张合照呢？",
+			say = "{dorm3d}, could I ask you to take a picture with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "Sure thing!",
 					flag = 1
 				},
 				{
-					content = "我也想和天狼星合照。",
+					content = "That's actually the same thing I was thinking.",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "感谢您！我温柔的{dorm3d}。",
+			say = "Thank you, my kind {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样天狼星就可以时时刻刻看到自己依偎在{dorm3d}身旁的幸福模样了，欸嘿嘿。",
+			say = "This way, I can always look at myself snuggled up against you, reveling in happiness... Heehee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，这就是备受瞩目的荣耀殿堂了！",
+			say = "Here is the much-renowned Hall of Fame!",
 			bgm = "votefes-start",
 			painting = {
 				alpha = 0.3,
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "里面记录的都是在往届投票中拔得头筹的同伴们，同时这里也是为本届优胜者颁奖的地方哦！",
+			say = "You'll find the winners of previous years enshrined here. It's also where this year's winners will receive their awards.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为优胜者颁奖的地方……",
+			say = "Awards? Like, trophies?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿……要是指挥官在这里给我颁奖的话……",
+			say = "Heehee... Imagine if I win and the Commander gives me a trophy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“标枪，能在这里见到如此可爱的你，今天真是美好的一天——”",
+			say = "\"This is a wonderful day, Javelin. Do you know why? Because I get to give an award to a girl as cute as you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好浪漫，欸嘿嘿嘿……",
+			say = "Gosh, that's so romantic... I can picture it now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……标枪……？",
+			say = "Uhh... Javelin? Are you still with us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系，一会就好了……大概。",
+			say = "Give her some time and she'll be back to normal. Eventually.",
 			painting = {
 				alpha = 0.3,
 				time = 1

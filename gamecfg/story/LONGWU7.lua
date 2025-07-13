@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"田园美味食记\n\n<size=45>七　分享美味与美好</size>",
+					"From Farm to Fork!\n\n<size=45>7 Sharing and Friendship</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "第二天，天气如期待般的放了晴。太阳升起后不久，农家探索乐园中的同伴们都陆续汇聚而来。",
+			say = "Just as we hoped, the next day dawns bright and clear with no rainclouds in sight. All our friends have gathered here at Farmlandia.",
 			bgm = "story-richang-light",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "指挥官——！我们来了——！！呜哇——！差、差点踢到水井了……",
+			say = "Commander! The mighty tiger has cooooooome! Ah, shoot! Almost crashed into the well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的环境也太好了……真的全程免费么……？",
+			say = "What an amazing view... Umm, are you sure we don't have to pay for this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是的，全程免费。",
+			say = "Yup. Don't worry about it – it's totally free.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "咦？龙武姐呢？是已经在厨房里边了吗？",
+			say = "Where's Lung Wu, by the way? Is she already in the kitchen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，已经在厨房那边忙着了，可能太专注了，都没注意到你们来了。",
+			say = "That's right. Lung Wu is already busy cooking. She's probably so focused that she hasn't even noticed everyone's arrived...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202200,
-			say = "那我们过去帮忙吧，顺便也能学习一些烹饪技巧。",
+			say = "Honourable Master, please allow Liverpool and me to help Lung Wu. It would also be an opportunity for us to hone our culinary skills...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "对对~这么多人的饭菜，龙武一个人做也太辛苦了吧~！",
+			say = "That's right, Master! We can't let Lung Wu cook for this many people all by herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "我觉得还是不要去比较好哦……需要帮忙的话，我去就行……",
+			say = "Um, I don't think that's a good idea... It'll be good enough if just I go help her out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "毕竟厨房里的龙武姐……一般人可受不了。",
+			say = "Ya should know how she can get at times. Lung Wu in the kitchen is a whole different person!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是龙武小姐平时很温和呀？",
+			say = "Is that so? But Lung Wu normally seems like such a kind soul to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "就是就是，能有多可怕嘛~我们过去看看吧！",
+			say = "Heehee, I don't think she's that scary at all. Let's go together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等——",
+			say = "Wait, hold on—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "不等我说完话，利物浦已经拉着天狼星冲向了后院的露天厨房——",
+			say = "Before I can finish, Sirius and Liverpool are already making their way toward the backyard kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "不到五分钟，天狼星和利物浦就失魂落魄地回来了。",
+			say = "But it doesn't take long for the two to come back utterly defeated. Five minutes, to be exact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "龙武小姐好可怕……",
+			say = "Lung Wu can be so intimidating...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "我再也不想进厨房了！！！",
+			say = "I don't want to set foot in a kitchen ever again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我也领略过龙武的厨房模式……但没想到连利物浦都受不了……",
+			say = "I've seen how intense Lung Wu can get when she's in her kitchen-crafting mode... But I can't believe even Liverpool couldn't handle it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我也帮不上忙。",
+			say = "I can't do much either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厨房里的龙武还真是……对谁都是一视同仁……",
+			say = "The kitchen is Lung Wu's domain. There, everyone is the same...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "所以说，大家就一起到乐园里逛逛就好啦！！",
+			say = "In any case, let's, uh, take a look around Farmlandia until the food is ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我刚刚来的时候也顺手摘了些水果，大家一起吃吧！",
+			say = "I picked some tasty fruit on the way here. Let's all enjoy it together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "大家吃了些水果，又在园区中闲逛游览，终于等到了虎贲的好消息。",
+			say = "While we were strolling around Farmlandia, munching on the fruit Ning Hai had picked, Hu Pen caught up to us with good news.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501060,
-			say = "大家——开饭啦——！",
+			say = "Everyone, it's time to eat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "一道道色香味俱全的菜品摆上了桌——松鼠鳜鱼，蛤蜊抱蛋，鲜虾豆腐煲，花椒小煎鸡……",
+			say = "When we arrive at the table, a colorful and fragrant kaleidoscope of flavors unfolds before us: deep-fried mandarin fish with sweet-and-sour sauce; golden, jiggling steamed egg and clams drizzled with savory sauce; shrimp and tofu stew; fiery peppercorn chicken...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "考虑到大家的口味不同，我准备了几种不同风格的菜。",
+			say = "I made a little bit of everything today, to take into consideration everyone's different tastes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "啊，温柔的龙武回来了！",
+			say = "The kind and caring Lung Wu is back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "大家快过来趁热吃吧！",
+			say = "Please dig in before the food goes cold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "等等！这么一大桌子精致的菜，肯定要手机先吃吧~？",
+			say = "Just one sec! With so many delicious, gorgeous dishes in front of us, you just HAVE to take a picture first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "……也好，不过要快点，凉了就不好吃了。",
+			say = "...Fine, but please make it quick. The food won't be as good if it cools down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "来来来，大家快站好，跟菜一起入镜吧！",
+			say = "Got it! Everyone, gather 'round! Let's get a quick group photo with all the food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202200,
-			say = "请指挥官和龙武站在中间吧，感谢你们的招待。",
+			say = "Miss Lung Wu, please come stand here in the middle along with our Honourable Master!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "大家让出中间的位置，让我和龙武站到了正中央。",
+			say = "The girls let me have the center-most spot in the group photo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202340,
-			say = "嘿嘿，好了的话，就看镜头哦——",
+			say = "Ehehe, look at the camera on the count of three ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "准备好——Smile~~~！",
+			say = "Everyone, smile☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "照片拍完，龙武脸上的笑容却仍未消散。",
+			say = "Even after taking the group photo, Lung Wu still has that genuine smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，能和你、还有大家一起分享美食，真是太好了！",
+			say = "I'm so glad I got to cook for you and our friends, Commander! It really was so much fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "随后，她又看向了说说笑笑的同伴们。",
+			say = "She then turns to the crowd of friends gathered around—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 501050,
-			say = "大家，快开饭吧！",
+			say = "It's time to eat, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-12",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "坐到桌前，准备开始新一天的工作内容时……目光无意中扫向了桌上的台历。",
+			say = "As I sit at my desk and prepare to work, my eyes happen to wander to the desk calendar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？又到了这个时候了么。",
+			say = "Hm? That time again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在看到上面的日期的瞬间，一股“不祥”的预感油然而生。",
+			say = "I check the date, and an unpleasant feeling rushes through me like an electric current.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "砰——",
+			say = "*BANG!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官~指挥官！好消息喵~！",
+			say = "Commander, Commander! Good news, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,14 +145,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室的大门被熟悉的绿头猫咪撞开，预感成真了。",
+			say = "Exactly as expected, a certain green furball throws the door open and barges in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……什么好消息？",
+					content = "Okay, fine. Let's hear it.",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "喵呼呼~那当然是备受期待的、港区每年这个时节的超超超划算大促销又要来了喵！",
+			say = "Nyahaha♪ I bring tidings of a long-awaited, once-annual, super discount promotion, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……今年是要尝试不同宣传节目，还是继续去年的线下宣传方案？",
+			say = "Are we putting together a different advertising campaign this time? Or same as last year's?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "呼呼~都·不·是·喵！",
+			say = "Heheheh, the answer is neither, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "今年的{namecode:98:明石}经过深思熟虑，更换了新的促销思路喵！",
+			say = "I worked my little cat brain to the bone and came up with my own new sale idea, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……新的促销思路？",
+			say = "Go on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "简而言之，就是省掉其他一切环节，从根本上实实在在地让利顾客喵！",
+			say = "We trim all the fat and deliver savings straight to the customer. Simple as that, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "限定换装返场、促销期间的超值限定礼包……{namecode:98:明石}全都准备好了喵。",
+			say = "Returning limited outfits, special super sets for a limited time only, we've got all the goods, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "没有广告宣传、没有直播、没有“帮砍一刀”，直接把价格打下来了喵！",
+			say = "No ads, no programs, no silly haggling! Just cost-cutting and raw savings, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我怎么感觉，你说没有的这些反而是你想做的呢……？",
+			say = "Why do I get the feeling this is purely self-motivated?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "错觉，错觉喵！{namecode:98:明石}才不是那种人喵！",
+			say = "N-no way, nya! I'd never be self-motivated, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "啊——{namecode:98:明石}要去准备每日免费派送的礼包了喵！",
+			say = "Uhh... Look at that, nya, I gotta go prep today's free gift packs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "指挥官请看传单，千万不要错过这次大好机会喵~！",
+			say = "Commander, you check out these flyers. Don't miss this huge opportunity, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,20 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在留下了一摞促销传单后，一道绿色闪电急速离开了指挥室。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "为什么留下这么多……难道把我这里当成传单自取处了么。",
+			say = "She scurries off, leaving nothing but a mountain of flyers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +351,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "真是一手好算盘……",
+			say = "Why did she leave all of these... What, is my office just ad space now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +364,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过看上去……这次绿头猫咪确实有些诚意。",
+			say = "Never an opening or a moment of hesitation with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +377,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "工作结束后，去看看好了——",
+			say = "But she's being sincere this time, at least.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "After work, I think I'll go check out this sale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

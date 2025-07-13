@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>五  挺身而出</size>",
+					"As Cool As A Demon\n\n<size=45>5 Ghosts & Demons</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-1",
 			actor = 302080,
 			nameColor = "#a9f548",
-			say = "空挥动作越来越标准了啊。",
+			say = "Your swings are starting to shape up. Well done.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然离风轻云淡的境界还差得远……但进步很快，也许这就是你作为指挥官的素养吧。",
+			say = "However, your spirit is still a far cry from serene... On the other hand, that is one of your strong points as a commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比最开始真的沉着了很多……嗯，是时候进行胆量的锻炼了。",
+			say = "At any rate, you've made significant progress since we started. Maybe it's time we put your courage to the test...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，{namecode:181}……还有指挥官……",
+			say = "Oh... Hey, Kinu. And you too, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了{namecode:48}，脸色看起来很差哦？",
+			say = "What's wrong, Isuzu? You look as though you've seen a ghost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……反、反正说了你们也不会信……",
+			say = "You wouldn't believe me even if I told you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "说吧。如果是什么让你不安的事，我会帮你解决的。",
+			say = "Try me. Whatever has frightened you, I will take care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……其、其实我刚才在宿舍里看到鬼了！",
+			say = "Well... The thing is, I DID see a ghost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鬼？",
+			say = "You did? Where?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就，就在打扫更衣室的时候……突然飘出来一个白色的鬼……",
+			say = "In the dorm... I was just dusting the dressing room when a ghost jumped at me out of nowhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是说……有个可疑的人藏在更衣室里啊，是需要好好调查一下……",
+			say = "Which is to say, someone or something has infiltrated our dormitory? This warrants an investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:48}见到鬼的更衣室是保管派对用礼服和西装的地方。",
+			say = "Kinu and I went to the dressing room Isuzu spoke of. It was a large room filled with shelves and closets for storing outfits and garments fit for all occasions.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "室内被断电了……指挥官当心，可疑的人可能还藏在这里。",
+			say = "Someone has turned off the lights... Be on your guard, Commander. The invader may still be around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:181}打开路上顺手拿的手电筒，快速地向更衣室深处走去。",
+			say = "I took out and turned on the flashlight we picked up on the way here. Kinu forged forward with resolute steps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "能听到吗，可疑的家伙！在的话快给我出来！",
+			say = "Invader! I know you're in here! Come out where I can see you!",
 			effects = {
 				{
 					active = true,
@@ -323,7 +323,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……看来不在这呢。",
+			say = "...Hmm. Maybe they've already left.",
 			effects = {
 				{
 					active = false,
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在{namecode:181}转身的一瞬间，房间深处的白布出其不意动了起来。",
+			say = "Kinu turned to me, and the very next moment, an inconspicious white sheet hanging opposite us began to move, as though it had waited for the chance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "指挥官！ 你这是——",
+			say = "Commander? What are you–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不假思索挡在{namecode:181}和白布之间，伸手拽向了白布。",
+			say = "Swiftly, I got in front of Kinu to protect her from whatever was hiding under that sheet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "面前的白布随即滑落——原来是一条宴会用的白色斗篷。",
+			say = "Then, the sheet just harmlessly fell to the ground, like a discarded wrapper. It was no more than an ordinary white cloak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘿~！",
+			say = "Whoopee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "什么？！",
+			say = "...What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "——斗篷滑落之后，让{namecode:48}误认为见到鬼的元凶终于露出了真面目。",
+			say = "Beneath the sheet was Uranami. We had found our \"ghost.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "{namecode:184}，你在更衣室干什么？！",
+			say = "Uranami? What the hell are you doing here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我在找可爱的收藏品~在找那些能让人高兴兴奋的宝贝哦！",
+			say = "Just looking for cuties to add to my collection. Hoping to find one to the tune of a wubby-dubby chonker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哦~这件白色的斗篷就是你挑选的宝贝么……嗯！眼光不错啊！",
+			say = "And all you found was this – admittedly, cool – cloak, huh? You should keep it and wear it regularly. I know I wo–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊……暂时不管{namecode:184}和斗篷的事，指挥官你刚刚……",
+			say = "Ahem! I'm getting sidetracked. Commander, you surprised me with your quick thinking. Let me just say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "……没什么。看来我们的胆量锻炼也顺便完成了呢。",
+			say = "...Actually, never mind. What matters is: you've definitely proven your courage today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:181}的语气听起来有些自豪。本次闹鬼问题顺利解决，至于断电……之后还是好好检修一下电路吧。",
+			say = "Kinu gave me a pleased look, as though she was proud of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

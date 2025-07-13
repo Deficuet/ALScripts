@@ -9,7 +9,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哇啊——！姐姐小心！",
+			say = "Whoa! Lala, watch out!",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "娜娜和梦梦同时迅速反应，把仍然沉浸在查看超级游戏制作机的菈菈推开。",
+			say = "Lala was too focused on tinkering with Questy MacGuffin to realize that she was under attack, but Nana and Momo managed to push her out of the way in time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "轰——！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "突如其来的攻击擦着菈菈的舰装边缘轰击在海面上，激起冲天的水花。",
+			say = "The attack grazed her rigging before striking the water, making a big splash.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家都没事吧！？",
+			say = "Is everyone okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好险好险，娜娜、梦梦，谢谢你们！只是才稍微有点大意，就差一点被击中啦！",
+			say = "That was close~ Thanks, Nana and Momo! I look away for one second, and I end up almost getting hurt~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这家伙……感觉和之前的完全不是一个级别的！",
+			say = "This thing is strong... It's nothing like the enemies from before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……让我去试试。",
+			say = "...I'll take care of this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "唔……它的攻击方式和行动逻辑，都与刚刚的敌人有很大不同。",
+			say = "This one's movements and attacks are totally different from the others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "而且攻击范围也很广，一个人靠近的话很容易受伤。",
+			say = "Yami, I don't think it's safe even for you to approach it alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "就在众人商讨着要如何击退敌人时，菈菈示意大家先不要开始进一步的行动。",
+			say = "While everyone argued over how to defeat this one, Lala had a moment of inspiration and spoke up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "稍等我一下哦大家！",
+			say = "Everyone, wait just a sec!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "再这样来一下……呼~这下应该好了！",
+			say = "If I do this... Okay. This should work~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "原本在启动武装系统后就陷入无回应状态的超级游戏制作机，在少女手中再度焕发了“生机”。",
+			say = "By Lala's hands and her newfound power, the broken Questy MacGuffin was born anew.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,10 +230,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "分析目标中……",
+			say = "ANALYZING TARGET.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,10 +241,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "威胁程度：高。建议谨慎作战，正面突破胜率极低。",
+			say = "THREAT LEVEL: HIGH. FRONTAL ASSAULT ILL ADVISED. FIGHT PRUDENTLY.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "从正面进攻打不倒它……？",
+			say = "So we can't fight it head-on...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "姐姐大人，你有什么想法吗？",
+			say = "Do you have a plan?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯……结合超级游戏制作机的分析，如果我没猜错的话……",
+			say = "If Questy's analysis and my own deductions are right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家，请掩护我进行攻击！我大概知道它的弱点！",
+			say = "Everyone cover me! I think I've figured out its weakness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

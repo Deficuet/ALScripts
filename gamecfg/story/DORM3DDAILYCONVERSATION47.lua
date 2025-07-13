@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我骄傲的{dorm3d}……",
+			say = "My honourable {dorm3d}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么了？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊！抱歉，{dorm3d}，天狼星只是看着你，一时情不自禁就……",
+			say = "Oh! My apologies! My inner thoughts leaked out while I was looking at you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明明天狼星已经一直一直侍奉在你身边了……还是想取得您的关注……",
+			say = "I've been serving you for such a long time, and yet, I still yearn for your attention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是不是有些太过贪心……太过幸福了呢……",
+			say = "I don't know whether to call myself selfish, or profess how profoundly happy I am...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

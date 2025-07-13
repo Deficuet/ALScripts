@@ -9,15 +9,15 @@ return {
 			bgm = "battle-DOS-onstage",
 			sequence = {
 				{
-					"虚像？？之塔",
+					"V?rt??l Tower",
 					1
 				},
 				{
-					"？？区·？？层",
+					"??? - ??th Fl??r",
 					2
 				},
 				{
-					"异常源头区块",
+					"Anomaly's Source",
 					3
 				}
 			}
@@ -30,7 +30,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "扫描数据已分析完毕。",
+			say = "Scan results analyzed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从爆炸痕迹与污染物密度分布情况来看，此处区块，就是本次异常产生的源头区域。",
+			say = "Judging from the explosion's traces and the density and distribution of pollutants, this block is the source of the anomaly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那台因为爆炸导致内部零件暴露的巨型机械，则是异常产生的“核心”。",
+			say = "The giant machine there, its interior exposed by the explosion, would be the core of said anomaly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "TB所描述为“核心”的巨型机械，原本应该是某种调节虚像塔内环境的计算节点。",
+			say = "The enormous machine TB described as the \"core\" was originally meant to be a computing node that normally managed the internal environment of the tower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
-			say = "然而现在，它被某种蠕动的“东西”缠附着，一边报错一边持续不断地输出着异形的数据。",
+			say = "However, some writhing creature had taken over, continuously outputting errors and alien data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从敌人的强度上来看也很明显呢……",
+			say = "You can really tell from how strong the hostiles are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那些密密麻麻的……是被污染的测试者机体？",
+			say = "Are all those things packed in there... contaminated Tester vessels?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "解析：除去缠附在其装甲上的侵蚀性附着物外，其机体构造与塞壬所使用的量产型机一致。",
+			say = "Analysis: Except for the corrosive growths attached to the armor, their structures are consistent with those of the mass-produced vessels used by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从现在起，将其正式名称定为“病毒型废弃塞壬”。",
+			say = "Henceforth to be referred to as \"Viral Junk Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……由于系统受到病毒感染发生错误，进而生成了大量废弃型塞壬……应该就是本次事件的起因了？",
+			say = "The system was infected by a virus, and the resulting glitch is causing it to generate all these junk Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们在下层遭遇的那些怪物，也大概就是混杂着各楼层数据、更加劣质的废弃塞壬产物吧。",
+			say = "The things we saw on the lower floors must have been even shoddier junk Sirens, probably the result of data from all the different floors getting mixed in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "也就是说，我们只要把前面那台明显有问题的机器拆了，一切就能解决啦～！",
+			say = "What I'm hearing is, we just have to destroy that core machine right there, and all our problems are solved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,12 +214,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_650",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……说得倒是简单，那片测试者机体构成的汪洋，你打得过吗？",
+			say = "...Easier said than done. How do you mean to destroy that army of Testers?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702080,
-			say = "不是还有你么？",
+			say = "Don't we have you on our side?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,9 +245,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "我打不过哦！",
+			say = "I can't do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,12 +257,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_650",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前不都说了，这里的机体就是……不知道因为什么程序错误随便从周围的破烂里拼起来的。",
+			say = "Like I told you on the way here, this vessel is just a hodgepodge of junk thrown together at random because of some stupid program error!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,12 +272,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_650",
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是当当肉盾还行……去解决掉那么多测试者机体，我可做不到！",
+			say = "I can tank a few hits for you, maybe, but if you think I'm soloing all those things, you'll be sorely disappointed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 607020,
-			say = "啧……",
+			say = "Tch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,9 +303,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "先别说“真没用，净化亲！”，我其实有个别的方案，不过先考考你们的领航员小姐。",
+			say = "I'm tired of you calling me useless! Look, I've got a plan, but I need to talk with your navigator first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,9 +317,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "你想到了么？",
+			say = "What do you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算力压制，用算力将扭曲异常的区域恢复正常，这样敌人数量和强度都会大幅下降了。",
+			say = "Proposition: Suppress computing power. By using our computing resources to return the corrupted areas to normal, we can greatly reduce both the number of enemies and their overall strength.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,9 +346,9 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "净化亲",
+			actorName = "Purity",
 			side = 2,
-			say = "没错~这只是个独立的小机器，而你有整个港区的资源可用，那就交给你咯？",
+			say = "Exactly! This thing's just a crappy little machine, while you've got the resources of the entire port in the palm of your hand. So do something!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			say = "稍等，我正在向指挥官提出申请。",
+			say = "Please wait a moment. Issuing request to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "申请已得到确认，我正在调配资源并计算解决方案。还请诸位争取尽可能多的时间。",
+			say = "Request approved. Allocating resources and calculating solutions. Please buy as much time as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11200020,
-			say = "总而言之，还是得先打一场对吧？那我们还等什么，还打得动么？",
+			say = "You're saying we need to fight anyway? Then let's get started. Can you still fight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199040,
-			say = "全员，集中火力，先清理出一片安全区来！",
+			say = "Everyone, focus your firepower! Begin by securing a safe zone around us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

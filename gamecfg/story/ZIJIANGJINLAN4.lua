@@ -12,7 +12,7 @@ return {
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "大棋盘·{namecode:82}队控制区 第一回合",
+			say = "Exercise Area - Turn 1 (Mikasa's Action)",
 			bgm = "musashi-1",
 			flashout = {
 				black = true,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
-			say = "随着天空中的巨大图案消散为无数红色火焰，{namecode:91}的侍从们也陆续开始了行动。",
+			say = "As soon as Akagi's sigil faded from the sky above the exercise area, her subordinates quickly sprung to action.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "其名为「闪电行动」，一张能够提升全队五成战斗力与移动力的指挥卡，这样的效果居然不算作弊么？！",
+			say = "Woah, look at that huge symbol... Akagi's trying to get an advantage right from the get-go...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许是因为加上了只能在第一回合使用的限制，所以看来还是在规则允许内。",
+			say = "That's the way Akagi's always liked to do things, like a crimson storm sweeping through the battlefield.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟第一回合刚开始，再高的战斗力也打不到其他人，最多清理一下地图上的据点嘛。",
+			say = "But, seizing the initiative is a sensible strategy. Since all of the fleets start far away from each other, expanding your territory first provides benefits later on down the road.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "可是{namecode:140}，清理据点不才是胜利的关键么……",
+			say = "Yes, but you'll still have to defeat mass-produced ships before you can occupy another sector.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "中心据点价值10分，四个区域据点合计20分，还有合计20分的二十个小据点。",
+			say = "Umm, let's see... The central tower is worth ten points, the four major sacred sites are worth five points each, and the other bases are only worth one point each.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "一共只有价值50分的据点，要让四个人来分……",
+			say = "That means that Akagi, Nagato, Musashi, and Mikasa will be fighting over a total of fifty possible points.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "你们看，{namecode:91}那边已经攻略了一个小据点了啊……",
+			say = "You're right, it does make sense to expand first. Whoever can get near the center first has first pick of the higher-value bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用担心，大前辈肯定做好对策了。她们有指挥卡，我们也有嘛~",
+			say = "Calm down. Mikasa likes taking things in a slow and controlled manner, so she surely has something in mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，{namecode:82}前辈这回合应该不会打指挥卡。",
+			say = "She's also more cautious than Akagi by nature. I wouldn't be surprised if she doesn't issue a special command this turn at all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？为什么？",
+			say = "Why's that? Are we not going to compete for the central tower?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "之前与前辈商量战术的时候我们有一起研究过。根据规则，战斗要在十二个回合内分出胜负，指挥卡却只有8张。",
+			say = "Not yet. It's not our turn anyway, so all we can do is keep an eye out for our opponents' strategy and plan our moves accordingly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "因此，在对方情报不明的情况下盲目把牌打光并不是明智的策略。",
+			say = "Knowing the way Mikasa does things, we'll probably find our opportunity to strike later on in this match.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "前辈应该会先观察一段时间，再根据对方的风格展开针对性行动。",
+			say = "After all, Mikasa might only fire one shot in the time someone else fires a hundred, but she'll make that one shot count.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在这期间，我们会与{namecode:74}大人进行配合，首先协助她取得优势。",
+			say = "Until then, our key priority should be to support Nagato, maintain the board state, and prevent anyone else from running away with a huge lead.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "原来如此……一方先发，一方后动，确实是适合协作的战术。",
+			say = "I see... We'll be opting for a control-type strategy then and wait for the rush strategy to run out of steam.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从{namecode:91}刚刚的行动来看，她选择进攻了一个与{namecode:84}大人控制区共享的边界节点。",
+			say = "It's also important to note that Akagi's fleet does not seem to be prioritizing the central tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "边界上的另一个据点应该是留给{namecode:84}大人的，如此一来两片区域之间就畅行无阻了。",
+			say = "By the looks of things, she's clearing out the sector closer to Musashi's side, as if she's trying to make it easier for the two of them to work together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们与{namecode:74}大人合作，{namecode:91}与{namecode:84}大人合作也是理所应当。",
+			say = "That makes sense. Akagi might be trying to cooperate with Musashi the same way Mikasa is allying with Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "果然还是变成了这样的局面，大前辈会如何出招呢……",
+			say = "Interesting, we'll have a two-versus-two on our hands... How will Mikasa react to this situation?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg2",
 			hidePaintObj = true,
-			say = "伴随着代表回合行动的提示来到了{namecode:82}一边，众人身边的格子也发生了变化。",
+			say = "The beams of light around the exercise area began to change, signifying the beginning of Mikasa's turn.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302080,
-			say = "……周围的那些发光线突然变色了？！",
+			say = "...Looks like it's our move now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，这代表{namecode:91}的行动结束，该我们行动了。",
+			say = "Right. Akagi's subordinates won't be able to move from their current location until the start of their next turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……天空中没有出现图案，果然大前辈没有发动指挥卡。",
+			say = "And, you're right, I didn't see Mikasa's sigil light up in the sky, so she must not be opting to use a special command this turn.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "{namecode:82}前辈的命令已经下达了，本回合的目标为攻略我们与{namecode:91}控制区之间的边界据点AB56。",
+			say = "We'll be following the same plan as before then. For now, we'll capture sector AB56 and move forward towards Akagi's territory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "咦？去打{namecode:91}大人那边，而不是{namecode:74}大人那边么……？",
+			say = "Why are we moving towards Akagi? Weren't we going to support Nagato like you said earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301790,
-			say = "以攻代守之策。",
+			say = "I suppose this is a case of the best defense being a good offense? Putting pressure on Akagi is the best way of making her think twice about her next move.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错。现阶段我们与{namecode:74}大人之间还没有相互支援的必要。",
+			say = "I don't think Musashi is going to threaten Nagato right away, so this also prevents us from getting flanked by Akagi's forces later.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "优先拿下{namecode:91}一侧的据点不但可以威胁她的侧翼，还可以减少被其袭击侧翼的可能性。",
+			say = "Akagi will now have to weigh her offensive options with defending her territory. A classic Mikasa strategy, if I must say so myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 303100,
-			say = "原来如此……不愧是{namecode:82}大前辈……攻守兼备的策略啊。",
+			say = "It's a classic sword-and-shield strategy! I'd expect nothing less from the Great Veteran herself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "大家请再次确认自身分配到的行动指令，然后，我们出发——",
+			say = "Let's make sure we're all clear on the instructions before we set out.",
 			painting = {
 				alpha = 0.3,
 				time = 1

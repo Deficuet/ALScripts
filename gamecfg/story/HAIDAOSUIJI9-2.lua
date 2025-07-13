@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……一眼就能看出来这些蘑菇的异常。",
+			say = "These mushrooms look as poisonous as it gets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "为了自己的身心健康，还是离它们远点为好。",
+			say = "You give them a wide berth for the sake of your well-being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

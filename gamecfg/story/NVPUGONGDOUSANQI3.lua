@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"战斗！皇家女仆队3rd？\n\n<size=45>三　曼彻斯特的菜</size>",
+					"Fight On, Royal Maids! (Part 3)\n\n<size=45>3 Manchester's Peculiar Tastes</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 206070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "英仙座前辈，我们来支援你了！",
+			say = "Elder Perseus! We've come to aid you!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			say = "阿尔比恩熟练地拉起弓弦，几支舰载机编队随即逐次加入了空中的缠斗。",
+			say = "Albion and Centaur draw their bows and launch their aircraft skywards, joining the battle with the enemy's own aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206060,
-			say = "简直就像争夺领地的蝗虫群一样……",
+			say = "Wow, they're like a swarm of locusts fighting over territory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "欸，前辈，之前不还是麻雀群么~",
+			say = "Didn't you liken them to a flock of sparrows earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206060,
-			say = "你知道么，阿尔比恩，当区域内的蝗虫密度达到一定程度之后，蝗虫的颜色会改变，战斗力也会增强哦。",
+			say = "Same idea. Fun fact about locusts: they're actually regular grasshoppers who undergo physical change and turn into locusts when the conditions are right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "是……是这样么？！",
+			say = "Really?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "嗯，没错！这个知识曼彻斯特也知道！",
+			say = "Yeah! I've heard about that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "所以在捕捉蝗虫做炸蝗虫饼的时候，一定要选择散居的无毒蝗虫，而不能选择群居的有毒蝗虫哦！",
+			say = "They make a decent snack, too. But they taste nasty when they swarm, so remember to go for the solitary ones.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "炸……炸蝗虫饼？",
+			say = "People... eat locusts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "雅努斯居然没吃过么？！",
+			say = "Well, yeah? You never had one?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206040,
-			say = "不好意思曼彻斯特前辈，我也没吃过……",
+			say = "If I may, I've never considered the idea either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "我也…………",
+			say = "Neither have I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "欸？！！那真是太遗憾了！",
+			say = "So I'm the only one? That's a bummer, innit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "本来想说等演习结束之后我去抓蝗虫做给你们吃……",
+			say = "I was gonna offer to make some for ya after the exercise, but Belfast has banned me from doing that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "可是之前我在给贝法尝了一次之后，不知道为什么贝法就严禁我再用这道菜招待别人了！",
+			say = "See, I made a plate for her once. She had one bite and told me to never cook again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正确的，明智的，客观的————",
+			say = "The most objectively correct decision I've ever heard, hones–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206060,
-			say = "啊，对面的蝗虫飞过来了。",
+			say = "Owch! Hey! They just scored a hit on me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206040,
-			say = "居然被突破了……不愧是白鹰和撒丁的联合舰队，实力果然不可小觑！",
+			say = "It would seem they've broken through. Our carrier Elders are truly living up to their reputation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "休想得逞~各位前辈们请切换成防空阵型，然后把空余的战斗机也全部放出去吧。",
+			say = "We must not let them hit us again. Elders, enter a circular formation and neutralise the remaining fighter planes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 206070,
-			say = "对面毕竟只是临时组织的舰队，在协调性上来说是我们有优势哦~",
+			say = "Remember, their task force members aren't used to each other's doctrines. We are better coordinated than them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202090,
-			say = "协调性不足啊……阿尔比恩，我突然有了一个想法————",
+			say = "So teamwork is our key to victory, yeah? Tell ya what, I've got a plan...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_303",
-			say = "走廊上飘来阵阵异域香气，带着几分诱人的甜美。",
+			say = "A tempting, fruity sweetness fills the air, the aroma coming from further down the corridor.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_303",
-			say = "循着香气来到一扇门前，轻轻推开后，眼前的景象出乎我的预料。",
+			say = "Following the scent, I end up in front of a door. Opening it, I am met with an unforeseen sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡少校慵懒地趴在长榻上，双腿交叠摆动，手中把玩着一枚水润的桃子。",
+			say = "Maggiore Baracca is lazily lying on a bed, gently kicking her feet back and forth while toying with the juicy peach in her hand. She seems bored.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "哎呀哎呀……这不是指挥官吗？",
+			say = "Oh... It's you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "难道说……指挥官是参观累了，所以来找我玩的~？",
+			say = "Did you grow tired of the exhibits, so you came to see me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她微微扭动身体，露出暧昧的微笑。",
+			say = "She twists her body, wearing an ambiguous smile.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "与平日里风格截然不同的异域装扮，此时让人感觉十分新奇。",
+			say = "There is a completely different aura about her with her exotic, Nile-style attire. I can't take my eyes off her.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "看到我不说话，她的眼中闪过一丝玩味。",
+			say = "The words are stuck in my throat. Seeing this, a devilish glint reflects in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -135,18 +135,18 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "嗯~？怎么不说话了，指挥官~",
+			say = "What's the matter? Cat got your tongue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是在参观的时候闻到了奇妙的香味。",
+					content = "I was drawn here by the aroma...",
 					flag = 1
 				},
 				{
-					content = "是在参观的时候不小心迷路了。",
+					content = "I'm a bit lost at the moment...",
 					flag = 2
 				}
 			}
@@ -161,7 +161,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "我是在参观时候，闻到了一股很奇妙的香味。",
+			say = "I was on the tour path when I smelled something in the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "有点在意，就循着味道找过来了。",
+			say = "I followed the scent, and here I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵~原来是这样。",
+			say = "Heheh. I see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "她将手中的桃子举到唇边，嘴唇轻轻触碰果实的表面，留下一道若有若无的痕迹。",
+			say = "She brings the peach up to her lips and gives it a little kiss, leaving a faint mark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			optionFlag = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "指挥官说的香味，应该是这些水果和香料的混合香气哦~",
+			say = "That scent you smelled was probably a mix of fruit and spices.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "其实是因为这次展馆修建得比较大，我不小心迷路了。",
+			say = "This place is massive, and I lost track of where I was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "不过，你所在的这个房间……应该也是后续参观路线的一环吧？",
+			say = "That being said, I'm guessing this place is a part of the exhibit as well – right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "Correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "能提前来到这里……说明指挥官和我有着冥冥注定的缘分呢~",
+			say = "And you got here sooner than you should have... I suppose the invisible thread that connects us guided you here♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "说着，巴拉卡将手中的桃子举到唇边，轻轻吻了桃子一下。",
+			say = "She punctuates her statement by giving the peach a little kiss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "指挥官来都来了……",
+			say = "Well, since you're already here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "要不要品尝一下这上等的贡品呢~？",
+			say = "Why don't you come and taste these exquisite offerings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡轻轻摇晃着手中的桃子，果实在光芒下泛着诱人的光泽。",
+			say = "She shakes the peach in her hand. It glimmers with a succulent sheen in the sunlight.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -354,7 +354,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "贡品？这些水果么？",
+			say = "Offerings? You mean the fruit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "当然咯~这次沉浸式参观，我拿到的角色设定就是这样呢——悠闲地品尝着贡品的神明。",
+			say = "Of course. This time, they gave me the role of a god leisurely enjoying the offerings to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "欸~这么一说，我应该更沉浸在角色里一点，惩罚一下不该来这里的指挥官呢。",
+			say = "Ah, speaking of my role... Don't you know you've entered forbidden territory? I have to give you a punishmeeent♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她故意拉长了语调，双脚轻轻摇晃着像是在思索着什么坏主意。",
+			say = "She extends the last vowel and kicks her feet back and forth again, like she's plotting something nefarious.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "但是直接惩罚又太没意思了……",
+			say = "Although, randomly dishing out punishment is so 2,000 years ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "不如我们来玩猜谜游戏吧？我们轮流出题，让对方猜。",
+			say = "How about a guessing game instead? We'll each take turns answering the other's question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "纤细的手指轻轻划过桃子表面，她眼波流转，似笑非笑地看向我。",
+			say = "Drawing a line across the peach's surface with her delicate finger, she shoots me a flirtatious look.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "猜不中的一方呢……",
+			say = "Whoever guesses wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她刻意停顿了一下，眼神中闪过一丝期待。",
+			say = "After a brief pause, her eyes fill with anticipation.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "就要被对方惩罚哦~",
+			say = "Will have to accept the other's punishment without question♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "空气中的芬芳似乎更加浓郁了，更多了几分魅惑的意味。",
+			say = "The scent in the air grows even richer, adding a hint of seduction to the atmosphere.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			},
 			options = {
 				{
-					content = "答应玩游戏",
+					content = "(Take her on.)",
 					flag = 1
 				},
 				{
-					content = "拒绝玩游戏",
+					content = "(Turn her down.)",
 					flag = 2
 				}
 			}
@@ -518,7 +518,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "也不是不行……好，我答应你。",
+			say = "Sounds fun... Alright. I'm game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀~真是爽快。这样的指挥官也很迷人呢~",
+			say = "Ah, a refreshingly swift answer. You know just what I like♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "听起来似乎对我没什么益处……算了。",
+			say = "I don't see any benefit to playing this game. No thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "事到如今，指挥官觉得自己还有拒绝的权力吗~？",
+			say = "Oh dear, it seems you're under the impression that you have the right to say no.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不陪我玩猜谜游戏的话，我是不会放你走的哦。",
+			say = "If you won't play along, then I won't let you leave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hideRecordIco = true,
 			actor = 608031,
 			actorName = "{playername}",
-			say = "嗯……把玩游戏作为离开的条件么……好，那就来吧。",
+			say = "Oh... So that's the condition to let me go. Then fine, seeing as I have no choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "呵呵~这才对嘛~",
+			say = "Heehee. I thought so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "巴拉卡伸了一下懒腰，摆出一副悠然自得的姿态。",
+			say = "She stretches her limbs and flaunts a confident look.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "那么，第一个谜题——",
+			say = "Okay. My first question is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			dir = 1,
 			actor = 608031,
 			nameColor = "#A9F548FF",
-			say = "不如就猜猜我想对指挥官，做些什么吧？呵呵~♡",
+			say = "What do I, a god, wish to do with you? Heehee♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,8 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>二  扫除与“扫除”</size>",
-					1
+					"Lunar New Year Celebration\n\n<size=45>Chapter 2 - The Great Spring \"Cleaning!\"</size>"
 				}
 			}
 		},
@@ -21,7 +20,7 @@ return {
 			side = 2,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "好！今年的大扫除要开始咯！",
+			say = "Ahem! This year's Great Spring Cleaning is about to commence!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,9 +34,9 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "重樱众人",
+			actorName = "Sakura Members",
 			dir = 1,
-			say = "噢！",
+			say = "Ohhhh!!",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +53,7 @@ return {
 			side = 2,
 			actorName = "{namecode:16}",
 			dir = -1,
-			say = "哒哒哒！看我秋风扫落叶！",
+			say = "Vroooom!! I'm gonna clean this stuff up in a flash like a gale cutting through fallen leaves!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +69,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:34}",
 			dir = 1,
-			say = "呜哇哇哇…刚刚才整理好的又乱了呜呜——",
+			say = "Hawawawa! The place I just cleaned... it's all messy again...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -90,7 +89,7 @@ return {
 			side = 1,
 			actorName = "{namecode:92}",
 			dir = 1,
-			say = "比起战场上的“扫除”，这里的扫除似乎更加费心费力呢……",
+			say = "Unlike on the battlefield, that kind of \"cleaning up\" only generates more headaches...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +105,7 @@ return {
 			side = 0,
 			actorName = "{namecode:91}",
 			dir = 1,
-			say = "呵呵呵……虽然平时也没有放松过警惕，但果然每到这种节日，就得更加分外注意呢……对指挥官的港区好好地进行一番“扫除”……",
+			say = "Ahaha... I seemed to have lapsed in my vigilance, but I will have to pay extra attention during this festival... to \"clean up\" all the pests from Commander's port...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +121,7 @@ return {
 			side = 1,
 			actorName = "{namecode:92}",
 			dir = 1,
-			say = "{namecode:91}，我们今天的任务可是正常的港区扫除，你可不要随便暴走了……",
+			say = "Sister, today's cleaning is the ordinary kind. Please try to contain your urges a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +137,7 @@ return {
 			side = 0,
 			actorName = "{namecode:91}",
 			dir = 1,
-			say = "我怎么会给指挥官添乱呢～放心吧，只要没有哪些需要被“扫除”的虫子什么的跑到指挥官身边——",
+			say = "Worry not, Kaga. I would never cause any unnecessary trouble. Unless, of course, those pests start clinging to Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +153,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "好像又听到了什么不得了的发言……",
+			say = "I seem to have overheard something rather perverse...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……你们好像在做什么有趣的事情呢",
+			say = "Oh my, it seems like there's something interesting going on here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +184,7 @@ return {
 			side = 1,
 			actorName = "{namecode:92}",
 			dir = 1,
-			say = "哦？是铁血的……",
+			say = "Hm? You're the Iron Blood's....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +200,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "啊，是{namecode:428}。你好，我们在进行一年一度的大扫除哟",
+			say = "Ah, it's Eugen. Good day. We're currently in the middle of the Sakura Empire's annual Great Spring Cleaning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大扫除……吗。这么说来，刚才好像看到指挥官和哪个女孩子走在一起呢……",
+			say = "\"Great Spring Cleaning,\" huh? By the way, I saw Commander with some girl just now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +231,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			say = "什、么……看来指挥官身边确实需要一番“扫除”了啊……呵呵呵，指挥官等着，{namecode:91}现在马上就到您的身边来——",
+			say = "Wh-what...?! So there needs to be some thorough \"cleaning\" after all... Ahhhhh, Commander, wait for me! Akagi is rushing to your side!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +273,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是这样的“大扫除”更有趣呢，呵呵",
+			say = "As expected, this form of \"cleaning\" is much more entertaining. Hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			actorName = "{namecode:92}",
 			dir = 1,
-			say = "谋而后动，成功调离了{namecode:91}，不愧是铁血，果然不容小觑……",
+			say = "Masterminding a ploy to divert Akagi's destructive power just like that... the Iron Blood isn't to be underestimated.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -310,7 +309,7 @@ return {
 			side = 0,
 			actorName = "{namecode:93}",
 			dir = -1,
-			say = "不不，单纯只是{namecode:91}在这方面太好懂了吧……",
+			say = "Hardly. Akagi is just an open book when it comes to the commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +325,7 @@ return {
 			side = 1,
 			actorName = "{namecode:67}",
 			dir = -1,
-			say = "哎呀呀，还有好多地方要扫除呢，{namecode:91}怎么就兴冲冲的跑掉了呢",
+			say = "Jeez, there's still so much cleaning to do, and Akagi ran off just like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +340,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然如此，就让我来代替她干活吧",
+			say = "In that case, why don't I help out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +356,7 @@ return {
 			side = 1,
 			actorName = "{namecode:93}",
 			dir = 1,
-			say = "咦，这样真的好吗？",
+			say = "Eh? Are you sure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +371,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于重樱的“新年”，我也是颇有兴趣的呢……",
+			say = "Hehe~ Let's just say I'm a bit intrigued by the your \"New Year.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

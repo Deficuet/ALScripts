@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "飘扬的彩带中，混入了不一样的东西，获得了【四星装备设计图纸*3】"
+			say = "Some weird stuff was attached to the ribbons fluttering around the venue. You received three SR gear blueprints!"
 		}
 	}
 }

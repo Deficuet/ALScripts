@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "舰队一路顺利行驶至ID-AX-103号海域时，激烈的战斗陡然间打响了。",
+			say = "After a smooth journey to IB-AX-103, we ran into them – the extradimensionals.",
 			bgm = "story-ironblood-strong",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"ID-AX-103号海域",
+				"Sea Region IB-AX-103",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -92,11 +92,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "天外之兽群",
+			actorName = "Extradimensional Horde",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "吼——！！！",
+			say = "ROOOOOAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "这个规模……也属于正常范围内么？",
+			say = "That's one heck of a horde! Is this what you call safe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……这种规模的天外之兽舰队我们已经很多年没有遭遇过了！",
+			say = "Not at all. This is the most we've seen in years!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会在今天突然出现……",
+			say = "But why today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官我们必须要撤退，敌人不是我们能够对抗的！",
+			say = "Commander, I urge a swift retreat! We can't fight off those numbers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "立刻下达撤退命令，诸舰相互掩护有序撤离，同时向所有舰队和基地发布预警，向鲁梅女士建议终止行动。",
+			say = "Agreed. Give the order to all ships to cover each other's immediate retreat. Contact our allied fleets and headquarters as well – Rumey needs to stop the mission at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是！",
+			say = "Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

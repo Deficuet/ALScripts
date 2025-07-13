@@ -7,7 +7,7 @@ return {
 			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "呼，和往常一样放对手过来了吗？那帮孩子们果然完全靠不住呢…",
+			say = "*Sigh*... They let White come through. They always do. You can't entrust them with anything.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "那么，根据推演，你们将会有31.75%的概率可以战胜我，而实际数据……又会如何呢？",
+			say = "You have a 31.75% chance of victory according to my simulations. But in a real battle... who knows?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "{namecode:433}级战列巡洋舰二号舰——{namecode:434}，就让我在这里看看你们的实力吧",
+			say = "I am Gneisenau, Scharnhorst-class battlecruiser number two. I will assess your combat potential.",
 			shake = {
 				speed = 1,
 				number = 3

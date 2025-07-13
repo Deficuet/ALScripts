@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"撒丁帝国所属",
+					"Sardegna Empire - Venice",
 					1
 				},
 				{
-					"威尼斯·总督府",
+					"After the Gazer appearance",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵，还真有这么个仓库啊……",
+			say = "Seems we've hit the jackpot.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "看来这就是元老院收集和运输文物的枢纽了。",
+			say = "So this is where the Senate has been secretly storing all those artifacts. Inside an inconspicuous warehouse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "托里拆利，你怎么看？",
+			say = "What are your thoughts on this, Torricelli?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "……没看法。",
+			say = "I don't... really have any?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "来之前，我已经诚恳地说了至少一百次……我不会文物鉴定。",
+			say = "As I told you earlier... I'm not exactly an artifact appraiser or anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "这种工作你抓达芬奇来不是更好？",
+			say = "If you want an expert opinion... you should go to da Vinci...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "还不是因为她跑的太快了，实在是抓不住。",
+			say = "Cut me a break. It's impossible to get a hold of her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你嘛，跑得慢了些？",
+			say = "Hmm... True. She's always busy with her inventions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "呼呼呼……现在潜入水底也不晚哦……",
+			say = "But... it's quicker to send me underwater than her, so there's that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎~拜托了，托里拆利阁下~",
+			say = "At any rate, your intuition is reliable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "我和维内托都知道这件事肯定有问题，但是查不出问题是什么。",
+			say = "Veneto and I have had our suspicions for a long while, but couldn't find any leads no matter how hard we tried.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在只能依靠你身为科学家的严谨与敏锐了！",
+			say = "Which is why I want you to search this place from top to–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "……利托里奥大人，请不要这样。",
+			say = "On that note, Littorio...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "我认真工作就是了……但是，请给我安静的工作环境。",
+			say = "It's dark and deserted in here... Same environment as always, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "绝对不要在我看文件的时候打扰我。",
+			say = "Don't make any sound... while I'm investigating...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			actor = 608010,
 			side = 2,
-			say = "一切如您所愿，我这就——",
+			say = "Hehe, hehehe... I promise I'll be thorough...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "Littorio turned on her heel and was just about to leave the warehouse, when...",
 			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………黑日降临大地。",
+			say = "...The black sun. First it came for Roma, and now it's come for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此等景象……嗯，毫无疑问是某种预兆。",
+			say = "But why? I haven't touched any dubious artifacts, so I shouldn't be seeing this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说，我被人邀请来观看这个场景。",
+			say = "Maybe you don't see it in response to touching an artifact, but rather because someone actively shows it to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知道是谁在邀请我，又是出于什么目的呢……",
+			say = "Then who would that be? The Sirens? Or maybe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,12 +387,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",
 			dialogueBgAlpha = 0.6,
-			say = "滴————",
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "利托里奥阁下，别来无恙啊。",
+			say = "It's been a while since we spoke, Littorio.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是……克莱蒙梭卿？！",
+			say = "That voice... Is that you, Clemenceau?",
 			painting = {
 				alpha = 0.3,
 				time = 1

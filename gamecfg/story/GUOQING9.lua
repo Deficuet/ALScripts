@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 2,
 			nameColor = "#ff0000",
-			say = "{namecode:96}亲，从这里开始不可以再前进了哟喵~",
+			say = "I can't let you go any further, Zuikaku!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			nameColor = "#a9f548",
-			say = "{namecode:79}，连你也成为冒牌货了吗？",
+			say = "Yamashiro?! Surely they didn't get to you, too...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "才不是呢，{namecode:79}还是那个元·气·满·满的{namecode:79}酱哟！",
+			say = "Of course not! I am who I've always been! I'm Yamashiro!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "只不过~人家也是有命令在身呢，自然就是阻止你继续在“圣域”捣乱了",
+			say = "I'm here because I was ordered to prevent you from causing any ruckus in the Sanctuary...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "所以~你能乖乖的被我击倒么，拜托了",
+			say = "So... could you please lay down your arms and surrender? Pretty please!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "既然“你”还是“你”的话，告诉我，{namecode:95}姐在哪里",
+			say = "If you really are who you claim to be, then tell me: where is Shoukaku?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,7 +130,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "如果你能打败我的话我就告诉你哟~",
+			say = "You'll have to defeat me if you want to know!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "现在的前辈们都这么麻烦的吗…",
+			say = "... This is ridiculous! Why do all my superiors have to be such a pain to deal with?!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "既然如此，那就痛快的来一战吧！",
+			say = "Fine, have it your way! If a battle is what it takes to get an answer, then a battle it is!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -187,7 +187,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "{namecode:79}酱的温馨提示：她们给我改造了奇怪的装备~这些可是之前那帮木头脑袋们一直没法搞定的设计呢",
+			say = "I have to warn you: when I was being retrofitted, they installed some weird equipment on me... Apparently, I'm now an aviation battleship!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,7 +206,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "所以~现在的{namecode:79}酱可是很强的哟，我终于也可以丢飞机……哇，怎么不听我说完就打过来了！！",
+			say = "They worked hard on it, and I'm really, really strong now! I can even launch aircr- Ow, that hurt! Please let me finish before you start attacking!",
 			shake = {
 				speed = 1,
 				number = 3

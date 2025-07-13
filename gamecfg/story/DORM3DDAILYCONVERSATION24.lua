@@ -7,9 +7,6 @@ return {
 	id = "DORM3DDAILYCONVERSATION24",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			side = 2,
@@ -17,7 +14,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（盯——）",
+			say = "*stares maidly*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +46,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			side = 2,
-			say = "感受到了天狼星强烈的视线。",
+			say = "I feel like Sirius is staring at me intently.",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +54,11 @@ return {
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "What's the matter?",
 					flag = 1
 				},
 				{
-					content = "我脸上有什么东西吗？",
+					content = "Is there something on my face?",
 					flag = 2
 				}
 			}
@@ -72,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，没什么……",
+			say = "Oh, um... It's nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然早就将{dorm3d}您的身影牢牢记在脑海之中了，但偶尔还是会情不自禁盯着您看呢……///",
+			say = "It's just that I find myself gazing in awe at you, even though your looks should be burned into my memory...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}是想了解，天狼星是从什么时候开始对您怀抱这样的情愫的？",
+			say = "When did I start harbouring affection toward you, you ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "其实从见到您的瞬间，天狼星就……",
+			say = "To tell the truth, it started the moment I first laid eyes on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,18 +64,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}您呢？您是何时开始对天狼星……",
+			say = "What about you, {dorm3d}? How long have you felt this way about me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "和天狼星一样。",
+					content = "Just as long as you.",
 					flag = 1
 				},
 				{
-					content = "不知不觉就……",
+					content = "It just dawned on me one day.",
 					flag = 2
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没想到能从您这里得到这个问题的答案……天狼星十分开心哦，我骄傲的{dorm3d}。",
+			say = "I wasn't expecting to hear an answer... I am truly overjoyed, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

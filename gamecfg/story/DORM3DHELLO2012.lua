@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "太好了，今天的期待也被{dorm3d}满足了呢。嗯？好奇我在期待什么吗？就是……每次分开以后，我都会想你下一次会什么时候来而已啦……",
+			say = "Great! You met my expectations for today. What expectations, you ask? Well, every time you leave, I always wonder when you'll come back...",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello12",
 			typewriter = {
 				speed = 0.05,

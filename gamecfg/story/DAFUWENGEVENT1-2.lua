@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "帮助指挥官整理资料文件，获得了奖励【物资*1000】"
+			say = "You found treasure buried in the sea around the port! Collect 1000 Coins!"
 		}
 	}
 }

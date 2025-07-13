@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"温柔、安静又温暖\n\n<size=45>六  独狼</size>",
+					"Days of Tranquility\n\n<size=45>6.Free Rein</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "——演习当天。",
+			say = "It was the day of the mock battle. The participants were gathering.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -57,7 +57,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊! 她来了！{namecode:413}，这里这里！",
+			say = "Hey! There you are! You showed up after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……太吵了，有点心神不宁…",
+			say = "Ugh... Please, don't shout. It makes me a tad anxious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没，没事吗……？",
+			say = "Everything all right...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我没问题。倒是演习……真的没问题么？",
+			say = "Yeah, as long as you all keep it down. What about you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_nepu1",
 			actor = 408010,
 			dir = 1,
-			actorName = "{namecode:414}&{namecode:415}",
+			actorName = "U-81 & U-557",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "…………？",
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本来说要一起练习，结果直到今天为止都只是让我一个人自主练习吧。",
+			say = "I said I'd practice with you, but afterwards you told me I could do it by myself, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道……是因为我上次离开指挥室的时候……说的那些话么。",
+			say = "I've just been worrying if I came off like a jerk when I walked out on you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，{namecode:413}你想太多了。不过真被指挥官说中了呢！",
+			say = "Heheh, ya hear that? The commander was right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官说了什么？",
+			say = "Right about what?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官说你其实……是很关心我们的。",
+			say = "That you... care about us more than you let on...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/ui/alarm",
 			dir = 1,
-			say = "伴随着一声响亮的汽笛声——模拟演习开始了。",
+			say = "Then, a siren rang out in the vicinity of the submarines. That was the signal that the mock battle had begun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:413}先行前进，伏击敌人!",
+			say = "Okay, so! U-47, you go on ahead and find targets to ambush!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们会观察时机……在对方靠近之后从后面包围上去。",
+			say = "We'll keep an eye on the targets... and surround them from behind when they get close...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 408010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "发挥你的个性，像独狼一样行动吧~我们会配合你的节奏的！",
+			say = "You've got free rein as the lone wolf, and we'll do our best to support you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为独狼自由行动……么。",
+			say = "You're... giving me free rein?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是指挥官……为我们考虑出的最适战术。",
+			say = "Yep, the commander came up with the idea... It's the optimal strategy, apparently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哦，是指挥官啊。",
+			say = "The commander came up with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "{namecode:413}若有所思的缓缓潜入水下。",
+			say = "U-47 whispered to herself. She balled her hand into a fist and looked onward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样的话，这个战术一定会成功的……",
+			say = "Then it's bound to work. I'm sure of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "——演习结束，三人小队的作战成功了。",
+			say = "The mock battle concluded, and the trio's strategy was a resounding success.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "在接受表彰时，{namecode:413}的心中只浮现出了一个人的面庞，那就是————",
+			say = "As they were receiving commendations for their performance, U-47 had but one person on her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

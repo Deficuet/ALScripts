@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你来了啊。我今天会一直待在你身边的，有什么事随时叫我就好。",
+			say = "Glad you could come, {dorm3d}. I'll be with you the whole day today. If you want anything, just ask me.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello9",
 			typewriter = {
 				speed = 0.05,

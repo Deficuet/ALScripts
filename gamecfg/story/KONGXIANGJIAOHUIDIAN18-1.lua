@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "theme-thehermitIX",
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-周边海域",
+			say = "Mirror Sea - α phase",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "抱歉我来晚了，战况如何？",
+			say = "Sorry I'm late. How's the battle?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "压力很大，但还算能应付。",
+			say = "Stressful, but we're somehow managing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "作战表现来看，这个赫米忒也许只是量产机。",
+			say = "Zuikaku swears otherwise, but I'm pretty sure this is only one of The Hermit's vessels.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "其显现出了多项棋子的特征，战斗力也没有很夸张。",
+			say = "It still packs a punch, but I can tell that it operates like a Pawn in certain regards.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "——至少让我们撑到你调查结束了。",
+			say = "But now that you're back, we don't need to hold this turf anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			actor = 405030,
 			dir = 1,
-			say = "但是，我们的首要目标是安全返回，也许应该想办法脱离战斗。",
+			say = "Let's put some distance between us and this thing, so it'll go back to fighting that blob of mist again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "这一点恐怕做不到。来的时候我观察过了，米德加尔特之塔的控制面板已经被锁死了。",
+			say = "(Wait, the moment this thing started targeting us is when I tried to attack the fog beyond the nightmare. What could this mean...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "和这个赫米忒的量产机出现大概是在同一时间。",
+			say = "There's no point trying to run. It's specifically targeting us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么就只能奋力迎战了！",
+			say = "Then we'll just have to turn it to scrap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只是量产型机体，{namecode:91}前辈既然能消灭掉，我们也不会输的！",
+			say = "If Akagi can defeat an Arbiter vessel, there's no reason we can't!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "{namecode:91}也……？不，现在不是在意这个的时候。",
+			say = "(Akagi did what...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "保持间隔，稳步推进。",
+			say = "...As long as we're quick, we should go undetected by that unidentified enemy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			actor = 405050,
 			dir = 1,
-			say = "全员准备接敌——",
+			say = "Everyone, get ready for battle!",
 			painting = {
 				alpha = 0.3,
 				time = 1

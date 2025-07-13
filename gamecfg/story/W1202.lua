@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "压制奖励已获取，离开前请确认海域事件已清理完毕！本区域将在下次进入时变为安全海域，进入安全海域依然需要消耗行动力。",
+			say = "I've confirmed that this zone has been secured... Having that said, the next time we come around, you will have to spend more AP to do it all over again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,6 +15,12 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			options = {
+				{
+					content = "Let's move on.",
+					flag = 0
+				}
 			}
 		}
 	}

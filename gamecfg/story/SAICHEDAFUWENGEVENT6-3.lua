@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在排位赛中得到了第一名，获得了奖励【四星装备设计图纸*10】"
+			say = "You won the Transcendent Driving Skills award, and received 10 Gear Designs!"
 		}
 	}
 }

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>五　落雪与拥抱</size>",
+					"All-Love Assault!\n\n<size=45>5. Romance Snowmance</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "北方联合境内————",
+			say = "Northern Parliament - Ski Resort",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -56,8 +56,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "呀吼~指挥官！~————",
+			actorName = "Blücher",
+			say = "Heheh☆ Look at me, Commander!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -72,12 +72,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "这片滑雪场真是不错啊……不愧是阿芙乐尔小姐的推荐！",
+			say = "This place is AWESOME! Just like Avrora said!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "这是一座依托天然雪山修建的北方联合舰船专用滑雪场。",
+			say = "Blücher and I are at a mountain ski resort in the Northern Parliament, open only to shipgirls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "空气凉爽清冽，对于旅游来说，是相当不错的目的地。",
+			say = "As a pleasantly cold breeze brushes against my cheek, I think to myself what a perfect vacation destination this is, particularly for skiing enthusiasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 			fontsize = 45,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "和指挥官的雪山约会之行，真是太棒啦——————",
+			say = "This is the best date ever! I love you, Commandeeer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,12 +130,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "……欸？为什么没有回声欸！不是说对着山大声喊就能听到回声么！",
+			say = "...What? There's no echo! Isn't it supposed to echo when you shout on a mountain?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "因为这里是雪山……积雪蓬松的结构有良好的吸音效果。",
+			say = "\"Maybe all the snow is dampening the noise.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,12 +169,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "原来如此……不愧是指挥官！",
+			say = "Makes sense, actually. You're so smart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}踩着滑雪板在雪道上疾驰而过，溅起大片的落雪。",
+			say = "Blücher, donning her winter gear, zips right past me on her snowboard, a cloud of snow trailing behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "呀吼~指挥官，来试试追上我吧？",
+			say = "Heheh☆ Think you can catch up with me, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,12 +217,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "欸，不打算玩雪橇板？真是的……那来抱抱我好咯！",
+			say = "...You don't wanna snowboard? Then how abooout... you catch me in your arms, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}操纵着雪橇板在雪地上划了一圈，然后借助惯性来到高处。",
+			say = "She makes a u-turn and uses her speed to reach a slope just above me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "等等，她是打算——",
+			say = "...I know where this is going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "指挥官，转过身来！给你个大大的拥抱~",
+			actorName = "Blücher",
+			say = "Commandeeer! Turn around and give me a big hug!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -284,18 +284,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "{namecode:450}从上方飞跃而下，向着我的怀里飞来——",
+			say = "She jumps off the slope, arms extended, right towards me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "谨慎地接",
+					content = "(Catch her with grace)",
 					flag = 1
 				},
 				{
-					content = "慌张地接",
+					content = "(Catch her while trying not to panic)",
 					flag = 2
 				}
 			}
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 1,
-			say = "瞄准{namecode:450}飞过来的方向伸出手——",
+			say = "Predicting where she's going to land, I run over and extend my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 1,
-			say = "冲撞伴随着柔软的触感袭来，不过早已提前做好准备，结果稳稳地接住了她。",
+			say = "She soars through the air squarely into my arms and I manage to catch her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~这下子就被指挥官抱到怀里咯~",
+			say = "Heheh☆ Ten out of ten catch, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,13 +350,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "和指挥官的亲密接触达成~！",
+			say = "That was a heart-thumping moment in more ways than one~♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "柔软的触感伴随着冲撞袭来————",
+			say = "Fearing for her well-being, I bumble my way forward and try to catch her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "稍微有些手忙脚乱，没能稳稳当当地接好她，结果两个人一起滚落在雪地上。",
+			say = "However, I act without thinking and lose my balance. I fall on my face in the snow, and so does she.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_153",
 			optionFlag = 2,
-			say = "好在滑雪场的积雪很厚，倒下去也不会受伤。",
+			say = "Luckily, neither of us is hurt thanks to the deep snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,13 +413,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "呜哇！好凉的雪……都灌进脖子里面来了！",
+			say = "Eep! That's cold... I got snow under my clothes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,13 +443,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			actorName = "{namecode:450}",
+			actorName = "Blücher",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 403021,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，不过指挥官的怀抱倒是很温暖哟？",
+			say = "...You know what would warm me up? A nice, loving hug~ Heheh♡",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,8 +465,8 @@ return {
 			bgName = "star_level_bg_153",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:450}",
-			say = "好啦，指挥官~来跟我一起滑雪嘛~",
+			actorName = "Blücher",
+			say = "I can't call it a day until we've snowboarded at least once together~ C'mon, let's go!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -481,7 +481,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_153",
-			say = "凛冽的寒风当中，她的热情似乎要将落雪都融化——",
+			say = "The passion she radiates could melt all the snow in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

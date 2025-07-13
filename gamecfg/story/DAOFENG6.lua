@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"欲速则不达\n\n<size=45>六　日新月异</size>",
+					"Full Steam Ahead!\n\n<size=45>6 One for All</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "演习海域",
+			say = "Port - Exercise Area",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能战斗的人请尽快就位！后勤舰队由{namecode:175}负责引导避难！",
+			say = "Everyone who can fight, please get into combat position! Suruga will lead the evacuation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…没问题，我会完成任务的。{namecode:18}……好好履行秘书舰的职责哦。",
+			say = "What she said! I'll keep the civilians safe... And Shimakaze, don't do anything stupid, all right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "嗯，肯定没问题的！对吧，指挥官！",
+			say = "I know what I'm doing, don't worry! Right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,11 +122,11 @@ return {
 			},
 			options = {
 				{
-					content = "嗯，当然",
+					content = "\"She sure does.\"",
 					flag = 1
 				},
 				{
-					content = "（默默地点头）",
+					content = "Nod silently",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么指挥官，我就先行一步了，你和{namecode:18}可都别受伤哦！",
+			say = "All right, it's up to you then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "原本正在进行的演习因为塞壬量产型舰队的出现而被迫中断。",
+			say = "We got word of a fleet of mass-produced ships appearing in a sector close to the exercise area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "现在正在与{namecode:18}一起全力应对这一意料之外的突发状况——",
+			say = "I mobilized all of the shipgirls in the area, ordered a reload from training ammo to live ammo, and called for reinforcements to aid with the evacuation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "秘书舰真是一份承担了同伴们期望的工作呢！{namecode:18}，全力——哎？！指挥官怎么啦？",
+			say = "I've fulfilled all my friends' expectations of me as the secretary! Now it's time foooor... Full steam ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "在即将启动的千钧一发之际叫住了要独自一人冲向前线的{namecode:18}。",
+			say = "Shimakaze relayed my orders and swapped ammunition, then prepared to charge at the mass-produced ships. I yelled for her to halt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "啊……！哦、对，对哦！",
+			say = "What? Oh, right! M-my bad!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "能立刻反应过来，说明多少也成长了一些吧…",
+			say = "Luckily, she got the message right away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种时候，应该是与同伴一起并肩战斗的场合才对！",
+			say = "We're here too, remember? Don't go running off without us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只靠“主角光环”可不行哦！",
+			say = "Having plot armor doesn't make you invincible, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此。",
+			say = "Though I'm not quite sure what \"plot armor\" is, Ikazuchi is right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也请别忘了在下！",
+			say = "The same for me! Do not forget I'm ready to fight as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "与可靠的同伴面前，展现出指挥官和秘书舰的合作吧。",
+			say = "Everyone was counting on Shimakaze and me. It was time for us to show them our teamwork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯……我了解了！在开始避难的大家撤退到安全区域之前，要把目标控制在这里！",
+			say = "Hmm... Okay! We'll capture this area first and hold it until everyone's been evacuated!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:47}和{namecode:11}，扰乱对方就交给你们了！",
+			say = "Abukuma! Akatsuki! Smokescreens, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先发制胜，是吧。",
+			say = "On it. They won't know what hit them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白了！",
+			say = "Acknowledged! Deploying smokescreen!",
 			effects = {
 				{
 					active = true,
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "{namecode:18}在进行战斗任务布置的场景也是难得一见。这里应该不会出什么问题，就暂时都交给她吧、",
+			say = "Shimakaze issued clear orders to all the shipgirls while they got into combat positions.",
 			effects = {
 				{
 					active = false,
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:13}和{namecode:14}，加上{namecode:18}三艘将伺机对敌方舰队旗舰进行…………唔，进行总攻击！",
+			say = "Inazuma! Ikazuchi! Follow me! We're going to hit them where it hurts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开始突击……！",
+			say = "Will do! I'm ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "jet stream ……fire!",
+			say = "Gotcha! Let's dunk on these scrubs!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "看着众人们以万全的态势应战的场景，不禁衷心觉得，拥有这支舰队以及秘书舰{namecode:18}的自己，实在是太幸运了。",
+			say = "It was a blissful sight, seeing all the girls move toward the objective in such perfect formation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

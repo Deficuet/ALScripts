@@ -2,7 +2,7 @@ pg = pg or {}
 pg.guild_mission_template = {
 	{
 		award_capital_display = 15,
-		name = "塞壬歼灭I-舰队累计完成【击沉任意敌人60艘】任务100次",
+		name = "Complete Siren Subjugation I (defeat 60 enemies) a total of 100+ times",
 		max_num = 100,
 		task_scale = 1,
 		id = 1,
@@ -12,7 +12,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 25,
-		name = "塞壬歼灭II-舰队累计完成【击沉任意敌人180艘】任务100次",
+		name = "Complete Siren Subjugation II (defeat 180 enemies) a total of 100+ times",
 		max_num = 100,
 		task_scale = 2,
 		id = 2,
@@ -22,7 +22,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 35,
-		name = "塞壬歼灭III-舰队累计完成【击沉任意敌人300艘】任务100次",
+		name = "Complete Siren Subjugation III (defeat 300 enemies) a total of 100+ times",
 		max_num = 100,
 		task_scale = 3,
 		id = 3,
@@ -32,7 +32,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 15,
-		name = "海域清扫I-舰队累计完成【舰队出征，获得15次战斗胜利】任务100次",
+		name = "Complete Sea Sector Sweep I (obtain 15 victories) a total of 100+ times",
 		max_num = 100,
 		task_scale = 1,
 		id = 4,
@@ -42,7 +42,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 25,
-		name = "海域清扫II-舰队累计完成【舰队出征，获得45次战斗胜利】任务100次",
+		name = "Complete Sea Sector Sweep II (obtain 45 victories) a total of 100+ times",
 		max_num = 100,
 		task_scale = 2,
 		id = 5,
@@ -52,7 +52,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 35,
-		name = "海域清扫III-舰队累计完成【舰队出征，获得75次战斗胜利】任务100次",
+		name = "Complete Sea Sector Sweep III (obtain 75 victories) a total of 100+ times",
 		max_num = 100,
 		task_scale = 3,
 		id = 6,
@@ -62,7 +62,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 15,
-		name = "军需筹备I-舰队累计完成【执行军需筹备任务3次】任务100次",
+		name = "Complete Materials Contribution I (contribute materials 3 times) 100 times.",
 		max_num = 100,
 		task_scale = 1,
 		id = 7,
@@ -72,7 +72,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 25,
-		name = "军需筹备II-舰队累计完成【执行军需筹备任务9次】任务100次",
+		name = "Complete Materials Contribution II (contribute materials 9 times) a total of 100+ times",
 		max_num = 100,
 		task_scale = 2,
 		id = 8,
@@ -82,7 +82,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 35,
-		name = "军需筹备III-舰队累计完成【执行军需筹备任务15次】任务100次",
+		name = "Complete Materials Contribution III (contribute materials 15 times) a total of 100+ times",
 		max_num = 100,
 		task_scale = 3,
 		id = 9,
@@ -92,7 +92,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 15,
-		name = "大舰队作战I-舰队累计完成【参与1次大舰队作战任意事件】任务100次",
+		name = "Complete Guild Operation I (participate in 1 Guild Event) a total of 100+ times",
 		max_num = 100,
 		task_scale = 1,
 		id = 10,
@@ -102,7 +102,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 25,
-		name = "大舰队作战II-舰队累计完成【参与3次大舰队作战任意事件】任务100次",
+		name = "Complete Guild Operation II (participate in 3 Guild Events) a total of 100+ times",
 		max_num = 100,
 		task_scale = 2,
 		id = 11,
@@ -112,7 +112,7 @@ pg.guild_mission_template = {
 	},
 	{
 		award_capital_display = 35,
-		name = "大舰队作战III-舰队累计完成【参与5次大舰队作战任意事件】任务100次",
+		name = "Complete Guild Operation III (participate in 5 Guild Events) a total of 100+ times",
 		max_num = 100,
 		task_scale = 3,
 		id = 12,

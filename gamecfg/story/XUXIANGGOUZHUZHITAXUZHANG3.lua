@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "异常海域·中心外围",
+			say = "Abnormal Sea Area - Near the Center",
 			side = 2,
 			bgName = "bg_story_tower",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鳟鱼、鲑鱼、沙丁鱼。",
+			say = "Trout, salmon, sardines...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "帝国突然开始报食物名了！",
+			say = "Now she's reciting the names of fish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "这三种鱼我都喜欢吃哦~！",
+			say = "But I'll allow it, because they're all delicious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲣鱼、鯵鱼、秋刀鱼。",
+			say = "Skipjack, amberjack, saury...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔……这一批感觉有些重樱的风格。",
+			say = "Her fish are getting closer and closer to the Sakura Islands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "……不过秋刀鱼很好吃！",
+			say = "Not as fond of these, except I must admit, saury is quite tasty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲤鱼、鲥鱼、桂花鱼。",
+			say = "Koi, shad, Emperyfish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "欸……诶？！这些都是什么鱼呀……",
+			say = "Um... What the heck are those?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "这些我知道~都是些东煌那边比较爱吃的淡水鱼吧。",
+			say = "Actually, these are varieties of freshwater fish that are quite commonly eaten in the Dragon Empery~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……淡水鱼？",
+			say = "Freshwater fish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与我们常吃的生活在海中海水鱼不同，淡水鱼主要生存在淡水为主的江河湖泊中。",
+			say = "Unlike the saltwater fish that we're used to, freshwater fish come from rivers and lakes rather than the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "也有一些是会在淡水与海水之间巡游洄游的类型。",
+			say = "Some species of fish can spend their lives going back and forth between the two.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "其中鲥鱼更是鱼中极品，有机会的话真想品尝一下……",
+			say = "By the way, I heard that shad are especially tasty. I'd like to try some if I ever get the chance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "哇啊……不愧是军需官！对食物真了解啊！",
+			say = "Woah, you really know your stuff when it comes to food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "帝国也真是厉害，从哪里知道这么多鱼的名字的……",
+			say = "Though it makes sense that you'd be good at cooking since you manage our supplies and rations... But, why did Impero suddenly start naming off fish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "鲦鱼、棘鳍、射水鱼。",
+			say = "Dace, cavalla, archerfish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "额，这一次感觉好像不只是在说水产的事了……！",
+			say = "Err... Are we still talking about fish here, or...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "最后是，剑鱼、梭鱼、青花鱼——",
+			say = "Finally, Swordfish, Barracuda, Fairey Albacore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "嗯……？这一次难道说的是……",
+			say = "Wait, is she talking about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "啊、！我也看到了！是皇家的舰载机群！",
+			say = "Look, over there! Those are Royal Navy planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 601070,
-			say = "原来帝国开始数鱼是因为看到了皇家舰载机群啊！",
+			say = "She probably started to name off fish because she saw those planes! ...Probably.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "港区的支援来得好快……不愧是指挥官。",
+			say = "I didn't expect reinforcements to show up THIS quickly. As expected, the Commander doesn't disappoint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "不知道好不好吃……",
+			say = "I wonder if it tastes good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 603040,
-			say = "好不好吃是指……？",
+			say = "Does what taste good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 607020,
-			say = "青花鱼意面……回头拜托一下皇家航母好了。",
+			say = "Albacore spaghetti... I'll have to borrow one from the Royal Navy carriers after we get back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（扶额）咳……帝国，皇家舰队的具体位置在哪里，我们还是先去汇合吧。",
+			say = "What the... Ahem, Impero, let's worry about that later and meet up with their fleet first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

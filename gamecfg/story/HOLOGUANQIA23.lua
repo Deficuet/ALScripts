@@ -12,7 +12,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "我知道你在担心什么…我们都亲手击败过无数同伴的棋子…",
+			say = "Even knowing they're just copycats, fighting enemies that look like your allies takes its toll on you. I would know.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "她们已经被卷进来了，这是事实。这里是她们的基地，她们有为自己战斗的理由和权利",
+			say = "But for them, it's even worse. This place their home, and this base looks just like one they put so much effort into making.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以你故意那样说，是想顺势让她们远离战场吧",
+			say = "Which is why I feel guilty about making them go to battle amidst all this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "但现在大家是同伴，你应该对同伴多抱有一些信任。",
+			say = "I don't like doing it, but we're all in this together. Our mutual trust will help us get through it. Right, Kawakaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "如果担心她们的情况，就亲口向她们好好说出来吧",
+			say = "If you're concerned about them, just ask how they're faring.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,10 +98,10 @@ return {
 		{
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "白上吹雪",
+			actorName = "Shirakami Fubuki",
 			dir = 1,
 			blackBg = true,
-			say = "唔…拉菲酱…{namecode:95}酱…澪酱…",
+			say = "Mmhh... Laffey... Zuikaku... Mio...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -130,11 +130,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "白上吹雪",
+			actorName = "Shirakami Fubuki",
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "大家都要平安无事…zZZZ",
+			say = "Stay outta trouble... Zzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,11 +146,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "白上吹雪",
+			actorName = "Shirakami Fubuki",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "zZZZZZ",
+			say = "Zzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			say = "深夜·反抗军基地外",
+			say = "Late at night - Outside the Resistance Base",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…果然出来吹吹海风感觉舒服多了~",
+			say = "Whew... I've gotta say, the sea breeze feels nice~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个阿库娅酱…不是真正的阿库娅酱吗…",
+			say = "If we meet that Aqua clone again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是敌人的话…就只能战斗了吧",
+			say = "I guess we've got no choice but to fight her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…真的只能战斗么？下次…我能坦然开火么…？",
+			say = "But... can I actually do it? Can I fight someone who looks like her, even knowing she's the enemy? What if they make clones out of everyone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 10500020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果再一次遇到她们，我应该怎么办才好......",
+			say = "Will I... be able to do anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "果然空前辈，在哪里都是温柔的空前辈啊。",
+			say = "Miss Sora... You're so kind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

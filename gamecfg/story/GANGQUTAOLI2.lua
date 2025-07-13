@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=45>二　谍报战！</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 2 - Spy Operation!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "前方转角发现舰影…吃我一——咕唔唔唔…！",
+			say = "There's a shadow around this corner... Taste my- urrrkk!",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -68,7 +68,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小{namecode:438}！不能用舰装打人啦！",
+			say = "Zeppy, stop! You can't use your rigging to beat people up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "…真是的，打昏过去的话，不就问不到路了吗！",
+			say = "Jeez... if you knocked them out, then we wouldn't be able to ask for directions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳咳！你说得没错。那就让这个人来给我们带路吧",
+			say = "Ahem! You do have a point. Let's have them show us the way out.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这样也不行！",
+			say = "That won't work either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……诶？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "这关系到身为“御召舰“的尊严！小{namecode:438}既然是铁血海军的明日之星的话，也不可以向这么小的驱逐舰乞求回答哦",
+			say = "My pride as an \"imperial\" ship will not allow it! Zeppy, if you also represent the pride of the Iron Blood, then there's no way you could drag such a small destroyer into this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦、哦哦……那你觉得我们现在应该怎么办？说说看你的作战吧",
+			say = "O-ohh... Then, what should we do? How do you think we should get out of here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "静静地跟在她后面，然后逐步把路线掌握就行……也就是说，要进行谍报战了",
+			say = "Let's follow her quietly, and take note of our path... In other words, this is going to be a spy operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此…我明白了。哼，让你见识下不输给专业人士的潜行技能吧…！",
+			say = "So that's how it goes... I understand. I'll show you that I'm sneakier than a U-boat...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:71}也不会输的！",
+			say = "H-Hiei... won't lose either!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "(快一小时后)",
+			say = "(Approximately one hour later...)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈啊…哈啊…哈啊…",
+			say = "Haaah... haaah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "累死了啊啊啊啊动不了啦啊啊啊……",
+			say = "So tired... can't move my legs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 304060,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "小{namecode:438}，中途看丢了好几次吧……不如说中途因为好奇心而饶了好几次弯路不是吗？",
+			say = "Zeppy, we lost sight of them so many times... or should I say, you got curious and wandered off to look at other things?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就、就是很在意啊！没办法…你不也一样在经过厨房的时候差点一步都走不动吗！",
+			say = "There was shiny stuff everywhere so I couldn't help it, okay! Besides, I practically had to pull you out of the kitchen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊呜…总、总之，有弄明白通往大海的路了吗？{namecode:71}还是一头雾水……",
+			say = "Aww... A-anyways, did you figure out which way it is to the sea? I'm still all confused...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 407020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼、哼哼哼……我的话就更不用问了……",
+			say = "Heh. Heheheh... The answer should be obvious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,8 +378,8 @@ return {
 			bgName = "star_level_bg_103",
 			side = 0,
 			dir = -1,
-			actorName = "两人",
-			say = "怎、怎么办……",
+			actorName = "Both",
+			say = "What do we do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要帮忙吗？",
+			say = "Do you require assistance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,8 +412,8 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actorName = "两人",
-			say = "你、你是……！？",
+			actorName = "Both",
+			say = "You... you're...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

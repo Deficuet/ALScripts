@@ -10,14 +10,14 @@ return {
 	},
 	scripts = {
 		{
-			say = "用这个减轻工作带来的疲惫……？其实留在您身边侍奉，天狼星从不会感到疲惫。",
+			say = "You want me to ease my fatigue after work with this? My honourable {dorm3d}, I have never once felt tired serving you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "只要在您身边，天狼星就会由衷的感到幸福和轻松，我骄傲的{dorm3d}。",
+			say = "Just being by your side fills my heart with joy and fulfillment, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

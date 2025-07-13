@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与牛仔的旅途\n\n<size=45>六　荒野落日</size>",
+					"Song of Nevada\n\n<size=45>6 Twilight in the Outback</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_wild",
 			bgm = "story-richang-6",
-			say = "再次睁开眼睛时，时钟的指针差不多正好刚刚越过了代表12点的刻度。",
+			say = "When I wake up and check the time the following day, I see that it's already past noon.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -48,14 +48,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "…………一觉睡到了正午十二点？！",
+			say = "The night before, I'd done some miscellaneous port administration work before throwing myself into bed. Seems like I slept in pretty late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "闹钟居然没响……",
+					content = "\"So much for my alarm...\"",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "闹钟的话当然是被我关掉了~难得的假期，偶尔睡个懒觉没什么关系吧~",
+			say = "I saw you weren't wakin' up, so I turned it off for ya. It's your vacation, dang it! I gotta let ya rest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊抱歉抱歉，我是敲了门之后看少年你没反应，有点担心才推门进来的嘛。",
+			say = "Whoops, sorry. I didn't just barge in, promise. You didn't answer when I knocked, so I got worried and came to check on ya.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后看你还在睡得香甜，就没好意思叫醒你~",
+			say = "Since your alarm was goin' off nonstop, and you were snoozin' so peacefully... Well, I felt a little bad wakin' ya up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "睡醒之后感觉如何？",
+			say = "So? Did ya sleep good?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "感觉…………身体有些沉，但是精神清爽多了。",
+			say = "\"My body is heavy, but my mind does feel really refreshed.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,51 +150,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嚯嚯~俗话说，精神上的疲劳要通过身体上的疲劳来治愈。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官已经进入到恢复精神的阶段了呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_wild",
-			say = "选择来荒野骑马原来是出于这种考虑么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "没错~来荒野不但能呼吸新鲜空气，而且马儿那么可爱，光是一起相处就能感受到疲惫有所缓解吧？",
+			say = "Yeah? They say exercise cures the body and mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +167,34 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "早餐……或者说午餐已经准备好了，等你吃完之后带你去个好地方。",
+			say = "If your mind is refreshed, then my plan went off without a hitch. Hahaha!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_wild",
+			say = "\"Is that the whole reason you brought me out here?\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Yeah! Besides, the air's real nice, and you get the lovely company of adorable horses. Two birds with one stone, I reckon. And ya seem relaxed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +211,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然——要骑马去哦~",
+			say = "I made ya breakfast. Or lunch by now, I guess. After you chow down, I'll take ya somewhere nice.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "On horseback, 'course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "夕阳之下，两匹马正在荒野中疾驰着。",
+			say = "Orange-crimson light falls upon two horses coursing through the badlands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是——荒野的落日！如何，在港区可见不到这样的风景哦？",
+			say = "Behold! Twilight in the outback. Can't see sights like this back at port, can ya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "映入眼帘的是即将融入地平线的红日。",
+			say = "The red sun is just beginning to dip into the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "红日下映照着一条奔向远方的大河，余辉仿佛将无数碎金洒落在奔流的河水中。",
+			say = "It glistens upon the grand river stretching into the distance, making the water's surface shine like the most beautiful of jewels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "荒野、落日、马背上的两位牛仔，当然，还少不了这个——",
+			say = "Ridin' together throughout the wastes at sunset...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "内华达拔出腰间的手枪，向着遥远的落日开火。",
+			say = "Nevada pulls the gun from her hip and fires a blank toward the sun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "作为回应，落日将内华达连人带马都染成了金色。",
+			say = "As if in response, the light shining upon her seems to turn even redder and more beautiful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉如何，指挥官？偶尔过过这样的生活，感觉也不错吧？",
+			say = "How do you feel, young'un? There's somethin' about a ride like this once in a while, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "不错。这几天的荒野之旅极大缓解了此前积累的精神疲劳，等回到港区之后就能更高效的展开工作了。",
+			say = "\"You're totally right, Nevada. Riding around in the wilderness drained all of my mental fatigue in no time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,24 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 105010,
-			side = 2,
-			bgName = "bg_story_wild",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那我们差不多也该回去了。真可惜，快乐总是美好而又短暂的。",
+			say = "Heh. I like that look on your face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +390,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "少年，以后你要是还想来玩的话，欢迎随时叫我哦。",
+			say = "Y'know what they say: time flies when you're havin' fun. It's about time we mosey on home.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 105010,
+			side = 2,
+			bgName = "bg_story_wild",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Let me know if you ever fancy comin' back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_wild",
-			say = "那是当然。就是下个假期，不知道要等到什么时候了啊——",
+			say = "I thanked Nevada as we turned home, all the while anticipating my next vacation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

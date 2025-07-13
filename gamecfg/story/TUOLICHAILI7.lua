@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>七　心底渐起的温暖</size>",
+					"Where the Sun Doesn't Shine\n\n<size=45>True Warmth Comes from Within</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼，指挥官，工作做得差不多了吗？过来陪陪我吧。",
+			say = "Commander, is your work nearly done? Hehehe... Then come relax with me...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "你看，我帮你的办公桌想了新的改造方案，之后可以实现多种功能——",
+			say = "I've also come up with a plan to retrofit your desk... It'll give it all sorts of added functionality...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "和托里拆利一起工作的日子已经持续了许久，两个人的关系渐渐亲密来，相处的时光也变得越来越有趣了。",
+			say = "I've been working with Torricelli for quite a while now. Not only have we grown closer, but our spare time together has become more enjoyable as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "与一开始对她的“沉默寡言”的印象不同，跟她熟悉之后，会发现她其实是个挺粘人的孩子。",
+			say = "My first impression of her as a taciturn, gloomy girl was wrong. She's very friendly once you get to know her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "指挥官，今天晚上咱们可以稍微早点出去玩~昨天休息得很棒，今天应该有多走一会的活力……大概……",
+			say = "How about we go out earlier than usual today? I've had plenty of rest, so I think I can go for a longer walk... Probably...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "可现在还是大白天，离天黑还早着呢。",
+			say = "\"You sure? There's a long while to go until sunset.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我知道啦。一会等太阳落山了再出发，不过咱们可以先讨论一下要去哪里玩嘛~",
+			say = "I know... I meant AFTER sundown, but we can discuss where we'll go before then, right...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我不喜欢明亮的阳光，被太阳直射的话就会……噗哈，直接融化掉。",
+			say = "There's no way I'm going out in broad daylight... I'd melt in minutes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……她是雪人吗？",
+			say = "\"I think you have more in common with a snowman than a mushroom.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "开个玩笑啦……只是不太喜欢过于明亮和人多的环境，会感觉自己随时都处在别人的视线之中……",
+			say = "It's not just about sunlight... I don't like places where people can see me, either...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "阴暗、潮湿，孤单的环境，我很喜欢~就像蘑菇一样。",
+			say = "That's why I like dark, damp, isolated places... Just like mushrooms do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "而且，远离人群的环境，也很适合用来思考。",
+			say = "Oh, and I can think more clearly when I'm by myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "大概就是……“天才生来孤独”，的感觉吧？",
+			say = "I guess one way to put it is... \"Geniuses are born lonely,\" or something...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……嘴上说着这样的话，却明明一直在缠着我。",
+			say = "\"On the other hand, you sort of cling to me like a wet towel.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嘻嘻~指挥官是特殊的，身上有让人安心的感觉……",
+			say = "Hehehe... You're different... You make me feel at ease...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "和指挥官待在一起，不会感到不舒服。",
+			say = "You don't make me feel nervous, like others do...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "而且指挥官又勤劳又会照顾人……真的越来越想就这样赖在指挥官的身边了。",
+			say = "The more I see of your caring, hardworking side... the more I want to stay with you forever...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "……我已经中了指挥官病毒也说不定~",
+			say = "I think... I've caught the Commander dependency virus...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "的确。而现在被她依赖着的我，其实也有些乐在其中。",
+			say = "\"Sounds like it. I don't mind, though. I'm happy to be relied upon.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "总之，指挥官……谢谢你平时对托里拆利的各种照顾。",
+			say = "A-anyway... I want to thank you... for always being so nice to me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "当然，如果指挥官想的话，以后也可以一直这样照顾托里拆利啦。",
+			say = "And if you'll let me... I'll gladly keep relying on you to look after me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嘿嘿……上次咱们去的那家店的蘑菇味道很不错……这次去再点一些吧~要更多蘑菇才行！",
+			say = "Hehehe... That restaurant we ate at was incredible... Can we go again today? I want to try more mushroom dishes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,11 +384,11 @@ return {
 			},
 			options = {
 				{
-					content = "试试蘑菇饼干？",
+					content = "\"You're on. Let's see who can eat the most.\"",
 					flag = 1
 				},
 				{
-					content = "……还是饶了我吧。",
+					content = "\"I've had enough for a while...\"",
 					flag = 2
 				}
 			}
@@ -402,7 +402,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，指挥官和我之间的电波也越来越对得上了呢——",
+			say = "Hehehe... As time goes on, we become more like each other...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……看起来要想和指挥官对上电波的话，还得继续加油才行……",
+			say = "Awwww... Then I'll have to keep trying. One day, we'll be like two peas in a pod...",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "清理了海洋中的垃圾！",
+			say = "You cleaned up the trash. Thanks for doing your part!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

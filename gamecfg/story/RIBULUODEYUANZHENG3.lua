@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"日不落的远征\n\n<size=45>光荣的一日</size>",
+					"March of the Neversetting Sun\n\n<size=45>3 One Glorious Day</size>",
 					1
 				}
 			}
@@ -24,11 +24,11 @@ return {
 			bgm = "theme-glorious-meta",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown time",
 					1
 				},
 				{
-					"？？？",
+					"Unknown location",
 					2
 				}
 			},
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "华丽的城堡中，贵族少女在温暖的阳光中睁开了双眼。",
+			say = "Inside a gorgeous castle, warm sunlight filtered through the window and gently awakened a noble girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,11 +74,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……新的一天开始了啊。",
+			say = "...The start of a new day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,10 +88,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "黛朵，带我去洗漱吧。",
+			say = "Dido, escort me to my dressing chamber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,15 +120,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·小教堂",
+					"Chapel",
 					1
 				},
 				{
-					"晨间祷告",
+					"Morning prayer",
 					2
 				},
 				{
-					"6:30-7:00",
+					"6:30 - 7:00",
 					3
 				}
 			},
@@ -146,10 +146,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……蒙主洪恩，太阳所照耀之地的女王。",
+			say = "\"To the hallowed name who smiles upon our land like the sun,\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,10 +176,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……皇家海军的领袖，国教的保护者。",
+			say = "\"Protector of our safe haven, beacon of our glory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +189,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你的光芒与智慧照耀我们七海的领土。",
+			say = "\"May the light of your wisdom protect us across the seven seas.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,10 +203,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……让我们看到这世间的真实。",
+			say = "\"May the authority of your blade reveal the truth in this chaotic world.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,24 +216,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……你看顾我们苦难的同胞，邪恶因你退去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
-			actor = 900487,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "……我们领受你的启示，因而必成就你的应许。",
+			say = "\"May you grant us the power to overcome hardship and endure trials, to purge evil and bring peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,11 +229,25 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……赞颂你的名，我的陛下。",
+			say = "\"With your revelation, we walk a path of faith.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "star_level_bg_534",
+			factiontag = "Realm of the Neversetting Sun",
+			actor = 900487,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "\"Eternal glory upon your name.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,11 +257,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呼……时间差不多了。",
+			say = "Phew... It's almost time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +271,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_534",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "卡律布狄斯，我们去用早餐吧。",
+			say = "Charybdis, let us break our fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,15 +304,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·餐厅",
+					"Dining room",
 					1
 				},
 				{
-					"早餐时间",
+					"Breakfast",
 					2
 				},
 				{
-					"7:00-7:30",
+					"7:00 - 7:30",
 					3
 				}
 			},
@@ -330,11 +330,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "今天的早餐，很不错。",
+			say = "Breakfast was delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,11 +361,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们有心了。",
+			say = "Thank you to all involved in preparing it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,11 +375,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯……黛朵应该已经把文件送到政务厅了。",
+			say = "Hmm... Dido should have delivered the day's paperwork to my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,11 +389,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "该开始今天的文书工作了。",
+			say = "I suppose I should get to work on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,15 +422,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·政务厅",
+					"Office",
 					1
 				},
 				{
-					"文书工作",
+					"Daily paperwork",
 					2
 				},
 				{
-					"8:00-10:00",
+					"8:00 - 10:00",
 					3
 				}
 			},
@@ -448,10 +448,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呼……不知不觉已经处理了这么多。",
+			say = "Goodness... I didn't even realise how much I'd done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,11 +478,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "今天相比昨天，各处的情况都没有变化……",
+			say = "Things around the world haven't changed as much today as they did yesterday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,11 +492,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "算是平平稳稳的一天……大家都辛苦了。",
+			say = "A peaceful day, perhaps... thanks to everyone's hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,11 +506,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "鹰，你不是一直说要和我比一场么？",
+			say = "Eagle, you've been craving a duel with me, haven't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,11 +520,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "时间刚刚好，我们去战术模拟室吧。",
+			say = "Today's the perfect day for it. Shall we head to the simulation room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,15 +553,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·情报室",
+					"Intelligence chamber",
 					1
 				},
 				{
-					"战术模拟",
+					"Simulation room",
 					2
 				},
 				{
-					"10:30-11:30",
+					"10:30 - 11:30",
 					3
 				}
 			},
@@ -579,11 +579,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哼哼~2:0，承让了。",
+			say = "Heheh, two to zero. Well played.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "对手在变强，我也成长了许多哦。",
+			say = "You're getting stronger, but so am I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,11 +624,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啊，不好……都这个时间了，贝法该来催了。",
+			say = "Oh, no... I lost track of time. Before long, Belfast is going to come and rush me along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,11 +638,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "走吧，我们去餐厅。",
+			say = "Let's go to the dining room posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,15 +671,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·餐厅",
+					"Dining room",
 					1
 				},
 				{
-					"午餐时间",
+					"Lunch",
 					2
 				},
 				{
-					"12:00-13:00",
+					"12:00 - 13:00",
 					3
 				}
 			},
@@ -697,11 +697,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "今天的午餐为什么看上去怪怪的……",
+			say = "Today's lunch seems a little, uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,11 +728,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "该不会是让曼彻斯特下厨了吧……",
+			say = "Did Manchester cook today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,11 +742,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看来只能期待下午茶了么……",
+			say = "I'll just have to hope afternoon tea is more promising...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,10 +756,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "唔……我吃饱了。",
+			say = "Umm... Thanks for the meal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,15 +788,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·作战指挥室",
+					"Correspondence chamber",
 					1
 				},
 				{
-					"通讯联络（含下午茶）",
+					"Daily communications (and afternoon tea)",
 					2
 				},
 				{
-					"14:00-17:00",
+					"14:00 - 17:00",
 					3
 				}
 			},
@@ -814,11 +814,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本日监控焦点无减少，也无新增……",
+			say = "No reduction or increase in points of interest today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,11 +845,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "各处通讯节点的报告也是一切正常……",
+			say = "Reports from all of our communication nodes are normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,11 +859,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "姑且……嗯，算是不好也不坏吧。",
+			say = "Hmm... Neither good nor bad, in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,11 +873,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啊，爱丁堡把下午茶送来了。",
+			say = "Oh, my. Edinburgh, you brought afternoon tea for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -887,11 +887,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呼~先喝点茶吃些点心再继续吧~",
+			say = "Phew... Tea and snacks should give me the energy to keep going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,15 +920,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·战场",
+					"Battlefield",
 					1
 				},
 				{
-					"磨炼战斗技艺",
+					"Combat training",
 					2
 				},
 				{
-					"17:30-19:30",
+					"17:30 - 19:30",
 					3
 				}
 			},
@@ -946,9 +946,9 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_597",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -1015,11 +1015,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_597",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "一百零五……一百零六……一百零七……",
+			say = "105, 106, 107...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,10 +1029,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_597",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "嗯~目标清除完毕，零号战场安全了。",
+			say = "All targets neutralised. Battlefield zero is secure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,11 +1042,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_597",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来还有些时间，去胜利负责的三号战场看看好了……",
+			say = "I still have spare time, so maybe I'll go check on battlefield three to see how Victorious is doing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,15 +1075,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·餐厅",
+					"Dining room",
 					1
 				},
 				{
-					"晚餐时间",
+					"Dinner",
 					2
 				},
 				{
-					"20:00-21:00",
+					"20:00 - 21:00",
 					3
 				}
 			},
@@ -1101,11 +1101,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哇哦……今天的晚餐好有特色。",
+			say = "Wow... What a splendid dinner we have today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,11 +1132,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "欧若拉，是你亲自下厨做的么？",
+			say = "Aurora, did you cook this all yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1146,11 +1146,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯，非常不错，我很喜欢。",
+			say = "Heehee, I love it. It's delicious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,11 +1160,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "当然，要是稍微没那么辣就更好了……",
+			say = "But I would maybe appreciate it more if it was a little less spicy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,15 +1193,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·书房",
+					"Study",
 					1
 				},
 				{
-					"阅读时间",
+					"Reading time",
 					2
 				},
 				{
-					"21:00-22:30",
+					"21:00 - 22:30",
 					3
 				}
 			},
@@ -1219,10 +1219,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……“既然诸位都是守口如瓶，不愿说话，就请用一种无言的符号，表达你们的意见吧。”",
+			say = "\"Since you are tongue-tied and so loath to speak, in dumb significants proclaim your thoughts...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1249,10 +1249,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……“谁要是一个出身高贵的上等人，愿意维持他门第的尊严。”",
+			say = "\"Let him that is a trueborn gentleman and stands upon the honor of his birth...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,10 +1262,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……“如果他认为我的主张是合乎真理的，就请他从这花丛里替我摘下一朵白色的玫瑰花。”",
+			say = "\"If he suppose that I have pleaded truth, From off this brier pluck a white rose with me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1275,10 +1275,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……“谁要不是一个懦夫，不是一个阿谀奉承的人，而是敢于坚持真理的，就请他替我摘下一朵红色的玫瑰花。”",
+			say = "\"Let him that is no coward nor no flatterer, but dare maintain the party of the truth, pluck a red rose from off this thorn with me.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1288,11 +1288,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "唔……嗯…………",
+			say = "Hmm, things are getting tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1302,11 +1302,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啊……谢菲？都这个点了么……",
+			say = "Oh... Sheffield? Is it already so late?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,11 +1316,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "日不落帝国",
+			factiontag = "Realm of the Neversetting Sun",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那今天就看到这里吧，该准备休息了呢。",
+			say = "Let's call it a day, then... I should get ready for bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1349,15 +1349,15 @@ return {
 			},
 			sequence = {
 				{
-					"？？？·卧室",
+					"Bedroom",
 					1
 				},
 				{
-					"就寝",
+					"Bedtime",
 					2
 				},
 				{
-					"23:00-翌日",
+					"23:00 - next morning",
 					3
 				}
 			},
@@ -1376,7 +1376,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "华丽的城堡中，贵族少女在清冷的月光中闭上了双眼。",
+			say = "Inside a gorgeous castle, the quiet moonlight lulls a noble girl to sleep.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1404,7 +1404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_598",
 			hidePaintObj = true,
-			say = "光荣的一日结束了——",
+			say = "Thus ends another glorious day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

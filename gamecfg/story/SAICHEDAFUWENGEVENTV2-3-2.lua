@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "看见了独角兽的努力应援，获得【心智单元*50】"
+			say = "You saw Unicorn trying her hardest to cheer you on. You received 50 Cognitive Chips!"
 		}
 	}
 }

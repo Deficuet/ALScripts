@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：别样的日常\n\n<size=45>海浪之下的意外</size>",
+					"Port Fashion Collection! A Glimpse Into Another Life\n\n<size=45>3 Troubled Seas</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "晴空之下，我与{namecode:70:金刚}正抱着冲浪板泡在水里，等待着合适的海浪。",
+			say = "Under a clear sky, Kongou holds a surfboard in her arms in wait for the \"perfect wave.\"",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，还记得我昨天教给你的冲浪技巧吗？",
+			say = "Commander, do you remember the technique I taught you yesterday?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 304014,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "首先是划水，要趴在冲浪板上，重心稳定在冲浪板中心，然后用腹部的力量支撑起上半身。",
+			say = "Paddle first. Lay face-down on the surfboard, stabilize your weight, and use your ab muscles to support your upper body.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接着可以用双手左右有节奏地划水。",
+			say = "Yep. Then, you paddle alternating your left and right arms.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 304014,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "嗯……有什么动作要点么？",
+			say = "Hmm... Any other tips I should keep in mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要点啊……动作姿势要流畅优雅。",
+			say = "Tips... Keep your motions fluid and elegant, I suppose?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后是起身和起乘，简单来说就是用手臂的力量撑起身体，让身体能平稳地站在冲浪板上。",
+			say = "The next steps are takeoff and riding. Put simply, you use your arm strength to stand up, and then you try to balance on your feet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			actor = 304014,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "感觉让身体保持平稳会是个难点。",
+			say = "Sounds easier said than done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~还好啦，只要姿势标准优雅，就能很稳定了。",
+			say = "Heehee, it'll be okay. As long as your posture is proper and elegant, you'll do just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后的落水就很简单啦，只要在浪结束之后尽量压低身体，缓慢一些下板就可以了。",
+			say = "The final bailout is simple. When the wave passes by, you keep your posture as low as possible and then slowly get off of the board.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，这个动作的要领也是流畅而优雅呢。",
+			say = "By the way, this also needs to be done fluidly and elegantly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 304014,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "原来如此。动作要领是优雅、标准、流畅……",
+			say = "I see. So it's all about elegance, precision, and fluidity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~指挥官要记住我刚刚教你的冲浪知识哦。",
+			say = "Heehee~ Remember that well, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "新手很容易一遇到情况就手忙脚乱，反而很危险呢。",
+			say = "Newbie surfers tend to panic the moment something goes wrong, and that only makes things more dangerous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以一定要经常练习，也要牢记各种情况的应对知识。",
+			say = "It's important to practice often and earn the knowledge necessary to deal with any and all problems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，就算遇到突发情况我也会保护你的啦。",
+			say = "Of course, I'll gladly protect you if anything goes wrong!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？有浪过来了。",
+			say = "Oh, look. A wave is already coming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，检查好装备，要保持冷静哦！",
+			say = "Commander, check your gear and stay calm!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "浪头滚滚而来，带着巨大的力量与气势。",
+			say = "A powerful wave rolls in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我与{namecode:70:金刚}跳上冲浪板，顺着浪的推动飞速滑行。",
+			say = "Kongou gets onto her surfboard. Pushed forth by the wave, we rush atop the water at high speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼————就是这种感觉！",
+			say = "Wooo! You're doing great!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为初学者而言，做得很不错嘛，指挥官~",
+			say = "Not bad for a newbie, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:70:金刚}灵活地控制着身体的平衡，回头冲我微笑挥手。",
+			say = "She skillfully keeps her balance as she turns around, smiles, and waves at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,14 +461,14 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "余光之中，更大的浪头正在悄然接近。",
+			say = "Unfortunately, she fails to notice the even bigger wave silently lurking behind her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "小心！",
+					content = "Kongou, behind you!",
 					flag = 1
 				}
 			}
@@ -482,7 +482,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……咦？糟、糟糕？！",
+			say = "Huh... Wha? O-oh, no!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一番手忙脚乱地搏斗之后，总算让少女回到了冲浪板之上。",
+			say = "After a desperate struggle, I manage to help Kongou back onto her surfboard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈……哈……好危险……",
+			say = "*pant*... *pant*... That was close...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是片刻都不能大意啊……",
+			say = "You really can't let your guard down for a second out here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到反而是我被指挥官保护了呢……",
+			say = "I can't believe you're the one who had to help me out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻的少女一脸惊魂未定，完全没有发现另一个危机已经悄然酝酿。",
+			say = "She's still so shaken that she hasn't even noticed another pressing danger closing in on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,18 +604,18 @@ return {
 			actor = 304014,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "（……糟糕，{namecode:70:金刚}的冲浪裤被固定器拽开了。）",
+			say = "(This is bad. Her board shorts are stuck on the surfboard's fin...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "出言提醒危险",
+					content = "(Tell her the problem.)",
 					flag = 1
 				},
 				{
-					content = "直接动手解决",
+					content = "(Fix it directly for her.)",
 					flag = 2
 				}
 			}
@@ -630,7 +630,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官你在做什么？！",
+			say = "C-Commander! What do you think you're doing?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -649,7 +649,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……我的冲浪裤？",
+			say = "Huh? My board shorts?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！！这、这是何等失态……",
+			say = "Eep! H-how scandalous...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官！请不要看呜呜……",
+			say = "C-Commander, please don't look!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女手忙脚乱的处理了迫在眉睫的危机。",
+			say = "Despite all the panic, we manage to deal with the danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈……",
+			say = "Ahahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,7 +775,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完、完全没料到会露出这么不优雅的一面……",
+			say = "I didn't expect you'd be seeing me in such an... unrefined way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事，请指挥官当成我们两个人之间的秘密好么？",
+			say = "Please keep what just happened a secret between us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为回报……",
+			say = "In return for that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管指挥官之后是想学骑马、剑术、茶艺还是冲浪，我都随时奉陪。",
+			say = "I know. Horseback riding, fencing, tea ceremony, surfing – whatever you want to learn, I'll be happy to help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,7 +850,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？就这么约好了哦——",
+			say = "What do you say? ...Heehee, okay, it's a promise!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，又有海浪要过来了。",
+			say = "Oh, look. Another wave is coming.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，做好准备，我们再次起航吧~！",
+			say = "Commander, let's get ready to ride again!",
 			painting = {
 				alpha = 0.3,
 				time = 1

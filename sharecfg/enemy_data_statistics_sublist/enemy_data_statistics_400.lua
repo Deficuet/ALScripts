@@ -1,8 +1,369 @@
 pg = pg or {}
 pg.enemy_data_statistics_400 = {
+	[295204] = {
+		cannon = 294,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 53,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 259,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 819000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295204,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295205] = {
+		cannon = 314,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 57,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 276,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 80,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 874000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295205,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295206] = {
+		cannon = 334,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 60,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 294,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 85,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 930000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295206,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295207] = {
+		cannon = 353,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 64,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 311,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 983000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295207,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295208] = {
+		cannon = 373,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 67,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 328,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1038000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295208,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
+	[295209] = {
+		cannon = 393,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 71,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 346,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1094000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295209,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
+	[295210] = {
+		cannon = 413,
+		name = "Rodney META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 75,
+		base = 90888,
+		durability_growth = 0,
+		antiaircraft = 364,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 50,
+		luck = 50,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 1150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295210,
+		buff_list = {
+			{
+				ID = 200786,
+				LV = 1
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
+	[295211] = {
+		cannon = 117,
+		name = "Wichita META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 25,
+		base = 90941,
+		durability_growth = 0,
+		antiaircraft = 100,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 45000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295211,
+		buff_list = {
+			{
+				ID = 200956,
+				LV = 1
+			}
+		}
+	},
+	[295212] = {
+		cannon = 134,
+		name = "Wichita META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 28,
+		base = 90941,
+		durability_growth = 0,
+		antiaircraft = 114,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 49000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295212,
+		buff_list = {
+			{
+				ID = 200956,
+				LV = 1
+			}
+		}
+	},
 	[295213] = {
 		cannon = 150,
-		name = "威奇塔·META(Tier.3)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -39,7 +400,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295214] = {
 		cannon = 167,
-		name = "威奇塔·META(Tier.4)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -76,7 +437,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295215] = {
 		cannon = 184,
-		name = "威奇塔·META(Tier.5)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -113,7 +474,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295216] = {
 		cannon = 201,
-		name = "威奇塔·META(Tier.6)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -150,7 +511,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295217] = {
 		cannon = 217,
-		name = "威奇塔·META(Tier.7)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -187,7 +548,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295218] = {
 		cannon = 234,
-		name = "威奇塔·META(Tier.8)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -224,7 +585,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295219] = {
 		cannon = 251,
-		name = "威奇塔·META(Tier.9)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -261,7 +622,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295220] = {
 		cannon = 268,
-		name = "威奇塔·META(Tier.10)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -298,7 +659,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295221] = {
 		cannon = 284,
-		name = "威奇塔·META(Tier.11)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -335,7 +696,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295222] = {
 		cannon = 301,
-		name = "威奇塔·META(Tier.12)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -372,7 +733,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295223] = {
 		cannon = 318,
-		name = "威奇塔·META(Tier.13)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -409,7 +770,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295224] = {
 		cannon = 335,
-		name = "威奇塔·META(Tier.14)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -446,7 +807,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295225] = {
 		cannon = 352,
-		name = "威奇塔·META(Tier.15)",
+		name = "Wichita META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -483,7 +844,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295226] = {
 		cannon = 135,
-		name = "鲨·META(Tier.1)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -514,7 +875,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295227] = {
 		cannon = 154,
-		name = "鲨·META(Tier.2)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -545,7 +906,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295228] = {
 		cannon = 174,
-		name = "鲨·META(Tier.3)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -576,7 +937,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295229] = {
 		cannon = 193,
-		name = "鲨·META(Tier.4)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -607,7 +968,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295230] = {
 		cannon = 212,
-		name = "鲨·META(Tier.5)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -638,7 +999,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295231] = {
 		cannon = 232,
-		name = "鲨·META(Tier.6)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -669,7 +1030,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295232] = {
 		cannon = 251,
-		name = "鲨·META(Tier.7)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -700,7 +1061,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295233] = {
 		cannon = 270,
-		name = "鲨·META(Tier.8)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -731,7 +1092,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295234] = {
 		cannon = 290,
-		name = "鲨·META(Tier.9)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -762,7 +1123,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295235] = {
 		cannon = 309,
-		name = "鲨·META(Tier.10)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -793,7 +1154,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295236] = {
 		cannon = 328,
-		name = "鲨·META(Tier.11)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -824,7 +1185,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295237] = {
 		cannon = 348,
-		name = "鲨·META(Tier.12)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -855,7 +1216,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295238] = {
 		cannon = 367,
-		name = "鲨·META(Tier.13)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -886,7 +1247,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295239] = {
 		cannon = 386,
-		name = "鲨·META(Tier.14)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -917,7 +1278,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295240] = {
 		cannon = 406,
-		name = "鲨·META(Tier.15)",
+		name = "Nagato META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -948,7 +1309,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295241] = {
 		cannon = 80,
-		name = "鹩·META(Tier.1)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -989,7 +1350,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295242] = {
 		cannon = 92,
-		name = "鹩·META(Tier.2)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1030,7 +1391,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295243] = {
 		cannon = 103,
-		name = "鹩·META(Tier.3)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1071,7 +1432,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295244] = {
 		cannon = 115,
-		name = "鹩·META(Tier.4)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1112,7 +1473,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295245] = {
 		cannon = 126,
-		name = "鹩·META(Tier.5)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1153,7 +1514,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295246] = {
 		cannon = 138,
-		name = "鹩·META(Tier.6)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1194,7 +1555,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295247] = {
 		cannon = 149,
-		name = "鹩·META(Tier.7)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1235,7 +1596,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295248] = {
 		cannon = 161,
-		name = "鹩·META(Tier.8)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1276,7 +1637,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295249] = {
 		cannon = 172,
-		name = "鹩·META(Tier.9)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1317,7 +1678,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295250] = {
 		cannon = 184,
-		name = "鹩·META(Tier.10)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1358,7 +1719,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295251] = {
 		cannon = 195,
-		name = "鹩·META(Tier.11)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1399,7 +1760,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295252] = {
 		cannon = 207,
-		name = "鹩·META(Tier.12)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1440,7 +1801,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295253] = {
 		cannon = 218,
-		name = "鹩·META(Tier.13)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1481,7 +1842,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295254] = {
 		cannon = 230,
-		name = "鹩·META(Tier.14)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1522,7 +1883,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295255] = {
 		cannon = 242,
-		name = "鹩·META(Tier.15)",
+		name = "Taihou META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1563,7 +1924,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295256] = {
 		cannon = 79,
-		name = "大黄蜂·META(Tier.1)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1594,7 +1955,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295257] = {
 		cannon = 90,
-		name = "大黄蜂·META(Tier.2)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1625,7 +1986,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295258] = {
 		cannon = 102,
-		name = "大黄蜂·META(Tier.3)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1656,7 +2017,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295259] = {
 		cannon = 113,
-		name = "大黄蜂·META(Tier.4)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1687,7 +2048,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295260] = {
 		cannon = 124,
-		name = "大黄蜂·META(Tier.5)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1718,7 +2079,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295261] = {
 		cannon = 136,
-		name = "大黄蜂·META(Tier.6)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1749,7 +2110,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295262] = {
 		cannon = 147,
-		name = "大黄蜂·META(Tier.7)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1780,7 +2141,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295263] = {
 		cannon = 158,
-		name = "大黄蜂·META(Tier.8)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1811,7 +2172,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295264] = {
 		cannon = 170,
-		name = "大黄蜂·META(Tier.9)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1842,7 +2203,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295265] = {
 		cannon = 181,
-		name = "大黄蜂·META(Tier.10)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1873,7 +2234,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295266] = {
 		cannon = 192,
-		name = "大黄蜂·META(Tier.11)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1904,7 +2265,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295267] = {
 		cannon = 204,
-		name = "大黄蜂·META(Tier.12)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1935,7 +2296,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295268] = {
 		cannon = 215,
-		name = "大黄蜂·META(Tier.13)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1966,7 +2327,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295269] = {
 		cannon = 226,
-		name = "大黄蜂·META(Tier.14)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -1997,7 +2358,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295270] = {
 		cannon = 238,
-		name = "大黄蜂·META(Tier.15)",
+		name = "Hornet META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2028,7 +2389,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295271] = {
 		cannon = 78,
-		name = "茳·META(Tier.1)",
+		name = "Kawakaze META (Tier.1)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2078,7 +2439,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295272] = {
 		cannon = 89,
-		name = "茳·META(Tier.2)",
+		name = "Kawakaze META (Tier.2)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2128,7 +2489,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295273] = {
 		cannon = 100,
-		name = "茳·META(Tier.3)",
+		name = "Kawakaze META (Tier.3)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2178,7 +2539,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295274] = {
 		cannon = 111,
-		name = "茳·META(Tier.4)",
+		name = "Kawakaze META (Tier.4)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2228,7 +2589,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295275] = {
 		cannon = 123,
-		name = "茳·META(Tier.5)",
+		name = "Kawakaze META (Tier.5)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2278,7 +2639,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295276] = {
 		cannon = 134,
-		name = "茳·META(Tier.6)",
+		name = "Kawakaze META (Tier.6)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2328,7 +2689,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295277] = {
 		cannon = 145,
-		name = "茳·META(Tier.7)",
+		name = "Kawakaze META (Tier.7)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2378,7 +2739,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295278] = {
 		cannon = 156,
-		name = "茳·META(Tier.8)",
+		name = "Kawakaze META (Tier.8)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2428,7 +2789,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295279] = {
 		cannon = 167,
-		name = "茳·META(Tier.9)",
+		name = "Kawakaze META (Tier.9)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2478,7 +2839,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295280] = {
 		cannon = 179,
-		name = "茳·META(Tier.10)",
+		name = "Kawakaze META (Tier.10)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2528,7 +2889,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295281] = {
 		cannon = 190,
-		name = "茳·META(Tier.11)",
+		name = "Kawakaze META (Tier.11)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2578,7 +2939,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295282] = {
 		cannon = 201,
-		name = "茳·META(Tier.12)",
+		name = "Kawakaze META (Tier.12)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2628,7 +2989,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295283] = {
 		cannon = 212,
-		name = "茳·META(Tier.13)",
+		name = "Kawakaze META (Tier.13)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2678,7 +3039,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295284] = {
 		cannon = 223,
-		name = "茳·META(Tier.14)",
+		name = "Kawakaze META (Tier.14)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -2728,7 +3089,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295285] = {
 		cannon = 235,
-		name = "茳·META(Tier.15)",
+		name = "Kawakaze META (Tier.15)",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -5403,7 +5764,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295961] = {
 		cannon = 12,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5468,7 +5829,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295962] = {
 		cannon = 14,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5533,7 +5894,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295963] = {
 		cannon = 16,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5598,7 +5959,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295964] = {
 		cannon = 18,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5663,7 +6024,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295965] = {
 		cannon = 20,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5728,7 +6089,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295966] = {
 		cannon = 22,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5793,7 +6154,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295967] = {
 		cannon = 24,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5858,7 +6219,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295968] = {
 		cannon = 26,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5923,7 +6284,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295969] = {
 		cannon = 28,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -5988,7 +6349,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295970] = {
 		cannon = 30,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -6053,7 +6414,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295971] = {
 		cannon = 34,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -6118,7 +6479,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295972] = {
 		cannon = 38,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -6183,7 +6544,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295973] = {
 		cannon = 42,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -6248,7 +6609,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295974] = {
 		cannon = 46,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -6313,7 +6674,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295975] = {
 		cannon = 50,
-		name = "火球",
+		name = "Lava Flame",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -7162,7 +7523,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296000] = {
 		cannon = 30,
-		name = "仲裁者·司特莲库斯·VIII",
+		name = "Arbiter: Strength VIII",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -7327,7 +7688,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296001] = {
 		cannon = 33,
-		name = "仲裁者·赫米忒·IX",
+		name = "Arbiter: The Hermit IX",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -7479,7 +7840,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296002] = {
 		cannon = 29,
-		name = "仲裁者·天帕岚斯·XIV",
+		name = "Arbiter: Temperance XIV",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -7649,7 +8010,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296003] = {
 		cannon = 43,
-		name = "仲裁者·恩普雷斯·III",
+		name = "Arbiter: The Empress III ",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -7964,7 +8325,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296020] = {
 		cannon = 35,
-		name = "代行者VIII「Determination」",
+		name = "Agent of the Eighth: Determination",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -8115,7 +8476,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296021] = {
 		cannon = 25,
-		name = "代行者XIV「Purification」",
+		name = "Agent of the Fourteenth: Purification",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -8266,7 +8627,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296022] = {
 		cannon = 100,
-		name = "仲裁者·赫米忒·IX",
+		name = "Arbiter: The Hermit IX",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -8418,7 +8779,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296030] = {
 		cannon = 150,
-		name = "龙·META",
+		name = "Hiryuu META",
 		reload = 150,
 		cannon_growth = 0,
 		speed_growth = 0,
@@ -8458,7 +8819,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[296040] = {
 		cannon = 280,
-		name = "测试者",
+		name = "Tester",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 95,
@@ -14702,7 +15063,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[1040002] = {
 		cannon = 490,
-		name = "测试者β型",
+		name = "Tester",
 		hit_growth = 144,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -14783,7 +15144,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999400] = {
 		cannon = 6,
-		name = "无名老妖",
+		name = "Nameless Demon",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -14890,7 +15251,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999401] = {
 		cannon = 6,
-		name = "狗粮1",
+		name = "Dog Food 1",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -14997,7 +15358,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999402] = {
 		cannon = 6,
-		name = "狗粮2",
+		name = "Dog Food 2",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15104,7 +15465,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999403] = {
 		cannon = 6,
-		name = "狗粮3",
+		name = "Dog Food 3",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15211,7 +15572,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999404] = {
 		cannon = 10,
-		name = "治疗之泉",
+		name = "Fountain of Youth",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -15316,7 +15677,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999405] = {
 		cannon = 29,
-		name = "测试角度，43秒后撤退自爆",
+		name = "Test angle. Will explode in 43 seconds.",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15353,7 +15714,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999406] = {
 		cannon = 6,
-		name = "重甲100000血测试敌人",
+		name = "Heavy 100000 HP Test Enemy",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15460,7 +15821,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999407] = {
 		cannon = 6,
-		name = "中甲100000血测试敌人",
+		name = "Medium 100000 HP Test Enemy",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15567,7 +15928,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999408] = {
 		cannon = 6,
-		name = "轻甲100000血测试敌人",
+		name = "Light 100000 HP Test Enemy",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -15674,7 +16035,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999409] = {
 		cannon = 6,
-		name = "重甲无限血测试敌人",
+		name = "Heavy Infinite HP Test Enemy",
 		type = 5,
 		speed_growth = 0,
 		antiaircraft_growth = 0,
@@ -15789,7 +16150,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999410] = {
 		cannon = 6,
-		name = "中甲无限血测试敌人",
+		name = "Medium Infinite HP Test Enemy",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -15898,7 +16259,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999411] = {
 		cannon = 6,
-		name = "轻甲无限血测试敌人",
+		name = "Light Infinite HP Test Enemy",
 		type = 1,
 		speed_growth = 0,
 		hit_growth = 0,
@@ -16009,7 +16370,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999412] = {
 		cannon = 0,
-		name = "测试敌人A",
+		name = "Tester",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -16115,7 +16476,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999501] = {
 		cannon = 6,
-		name = "驱逐无限血测试敌人",
+		name = "Tester",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16228,7 +16589,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999502] = {
 		cannon = 6,
-		name = "轻巡无限血测试敌人",
+		name = "Tester",
 		hit_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -16339,7 +16700,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999503] = {
 		cannon = 6,
-		name = "重巡无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16453,7 +16814,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999504] = {
 		cannon = 6,
-		name = "战巡无限血测试敌人",
+		name = "Tester",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16567,7 +16928,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999505] = {
 		cannon = 6,
-		name = "战列无限血测试敌人",
+		name = "Tester",
 		type = 5,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16681,7 +17042,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999506] = {
 		cannon = 6,
-		name = "轻母无限血测试敌人",
+		name = "Tester",
 		type = 6,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16795,7 +17156,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999507] = {
 		cannon = 6,
-		name = "航母无限血测试敌人",
+		name = "Tester",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -16909,7 +17270,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999508] = {
 		cannon = 6,
-		name = "潜艇无限血测试敌人",
+		name = "Tester",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -16977,7 +17338,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999510] = {
 		cannon = 6,
-		name = "航战无限血测试敌人",
+		name = "Tester",
 		type = 10,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17091,7 +17452,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999513] = {
 		cannon = 6,
-		name = "重炮无限血测试敌人",
+		name = "Tester",
 		type = 13,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17204,7 +17565,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999518] = {
 		cannon = 6,
-		name = "超巡无限血测试敌人",
+		name = "Tester",
 		type = 18,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17318,7 +17679,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999550] = {
 		cannon = 6,
-		name = "塞壬中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17432,7 +17793,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999551] = {
 		cannon = 6,
-		name = "白鹰中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17545,7 +17906,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999552] = {
 		cannon = 6,
-		name = "皇家中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17659,7 +18020,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999553] = {
 		cannon = 6,
-		name = "重樱中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17773,7 +18134,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999554] = {
 		cannon = 6,
-		name = "铁血中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -17887,7 +18248,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999555] = {
 		cannon = 6,
-		name = "东煌中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18001,7 +18362,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999556] = {
 		cannon = 6,
-		name = "撒丁中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18115,7 +18476,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999557] = {
 		cannon = 6,
-		name = "北联中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18229,7 +18590,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999558] = {
 		cannon = 6,
-		name = "鸢尾中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18343,7 +18704,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999559] = {
 		cannon = 6,
-		name = "维希中甲无限血测试敌人",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18457,7 +18818,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999570] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-前排高爆",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18571,7 +18932,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999571] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-前排穿甲",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18685,7 +19046,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999572] = {
 		cannon = 6,
-		name = "中甲无限血测试敌人-前排航空",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18799,7 +19160,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999573] = {
 		cannon = 0,
-		name = "中甲无限血测试敌人-前排鱼雷",
+		name = "Tester",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -18840,7 +19201,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999574] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-后排高爆",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -18954,7 +19315,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999575] = {
 		cannon = 300,
-		name = "中甲无限血测试敌人-后排穿甲",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -19068,7 +19429,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[999576] = {
 		cannon = 6,
-		name = "中甲无限血测试敌人-后排航空",
+		name = "Tester",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 20,
@@ -19772,7 +20133,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[300991] = {
 		cannon = 0,
-		name = "构建体H-A-1",
+		name = "H-A-1 Axon",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

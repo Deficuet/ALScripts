@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-1",
 			dir = 1,
-			say = "这里就是所有线索指向的“那里”buli…？",
+			say = "Is this the \"there\" the clue was talking about buli...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "轰隆隆隆隆隆隆隆——",
+			say = "Rumble rumble rumble rumble...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli！？那、那是…姐姐？！",
+			say = "Buli? It's... it's... my sister?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我愚蠢的妹妹啊！你也想要这个“黄金的秘宝”吗？",
+			say = "It's my stupid little sister! Don't tell me you're looking for the \"golden doubulin\" too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "那就试着打败我吧！只有真正的强者才有资格获得真正的秘宝purin！",
+			say = "Just try to beat me! Only I'm strong enough to get that purin!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

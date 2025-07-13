@@ -9,7 +9,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "这座虚拟的小镇终于迎来了冬天。",
+			say = "Winter has arrived in the virtual town.",
 			bgm = "qe-ova-9",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下雪了耶！",
+			say = "Look! It's snowing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣诞节就碰到下雪，超Lucky的！",
+			say = "Can you believe it's snowing, right on Christmas? If that ain't a good omen, I dunno what is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "她看着窗外，一脸兴奋。",
+			say = "TB is glued to the window. Her eyes in the reflection glitter like stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我们还没准备圣诞节的氛围装饰……要不就趁现在出发去购物吧！",
+			say = "But we haven't put up the Christmas decorations yet... Time is running short! Let's go out and buy them, now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "还不等我反应，她就抓起我的手，带我跑出了门。",
+			say = "I don't even have time to respond before she grabs me by the hand and drags me outside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "再度回到家中时，我已经累得走不动，只能坐在沙发上休息了。",
+			say = "When we return home, I barely have the strength left to even shuffle over to the couch and sink into it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "而TB还十分有精神的在家里进行着布置。",
+			say = "TB, meanwhile, is zipping and zooming around the house, putting up decorations here and there. It's like that whole outing didn't drain a drop of her energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "整整四个小时……我们走了整整四个小时……一刻都没有停下来过。",
+			say = "Four hours... Four whole hours spent running around without a minute to rest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB完全不会觉得累吗……",
+			say = "And you're not tired in the slightest...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不觉得啊，而且我不是说过了嘛，是你身体素质太差啦——！",
+			say = "Do I LOOK tired? I told you you need to exercise more! This is what happens when you skip leg day!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你就好好休息吧，等着我把所有的东西准备好就行！",
+			say = "I'll make the place look nice and festive. You just stay there and rest, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "说完，她就风一般从我面前跑走了。",
+			say = "With speed and moxie, she once more makes off like the wind into another room to decorate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不过，坐在这里不动，就有点犯困了啊。",
+			say = "I do desperately need to rest, but I'll doze off if I sit here for too long...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "醒醒……醒醒——！",
+			say = "Wake up. Hey, wake up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "起床啦——！",
+			say = "I said wake up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
-			say = "半梦半醒中，听到了TB的呼唤声。",
+			say = "Still half-asleep and out of it, I hear TB calling out to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,12 +311,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "锵锵——圣诞老人TB，堂堂登场！",
+			say = "Tadah! TB Claus is here in style!",
 			voice = "event:/educate/tb/educate-tb-story-33-4",
 			painting = {
 				alpha = 0.3,
@@ -346,12 +346,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，这身打扮很有圣诞气息吧？效果不错吧？",
+			say = "Heehee. What do you think? Don't I look Christmassy as anything?",
 			voice = "event:/educate/tb/educate-tb-story-33-5",
 			painting = {
 				alpha = 0.3,
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（完全是一副求夸奖的样子啊。）",
+			say = "(She's all but begging for compliments.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,12 +376,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "给你这个！",
+			say = "This is for you!",
 			voice = "event:/educate/tb/educate-tb-story-33-6",
 			painting = {
 				alpha = 0.3,
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
-			say = "她把一个包装精美的小盒子递到我眼前。",
+			say = "She presents a small box, lovingly wrapped and tied up in a nice bow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,12 +405,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "光是准备这些布置就把我攒下来的零用钱花得差不多了……剩下的部分只够买这个。",
+			say = "The decorations and stuff basically cost my whole allowance, so this was all I could afford.",
 			voice = "event:/educate/tb/educate-tb-story-33-7",
 			painting = {
 				alpha = 0.3,
@@ -423,12 +423,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过这也是我精心挑选过的！可不要因为不够贵重就轻视我的心意哦？",
+			say = "But I spent what was left very wisely! It's not the most lavish gift, but that doesn't mean there's not a lot of thought behind it!",
 			voice = "event:/educate/tb/educate-tb-story-33-8",
 			painting = {
 				alpha = 0.3,
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好好好……我当然不会轻视来自圣诞老人TB的珍贵礼物。",
+			say = "Of course. I appreciate any gift I get from you, TB Claus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,12 +453,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~那就好。",
+			say = "Heheh! That's what I want to hear!",
 			voice = "event:/educate/tb/educate-tb-story-33-9",
 			painting = {
 				alpha = 0.3,
@@ -471,12 +471,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "Merry Christmas.",
+			say = "Merry Christmas!",
 			voice = "event:/educate/tb/educate-tb-story-33-10",
 			painting = {
 				alpha = 0.3,
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
-			say = "在那之后，和TB一起度过了相当热闹的圣诞节。",
+			say = "It's a lively Christmas, and TB and I celebrate it together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

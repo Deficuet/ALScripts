@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.share_template = {
 	{
-		description = "#碧蓝航线#",
-		name = "个人信息界面",
+		description = "#AzurLane#",
+		name = "Your Info",
 		show_comps = "",
 		deck = 1,
 		id = 1,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			178
+			-412,
+			-261
 		},
 		hidden_comps = {
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/toggleBtns",
@@ -20,16 +20,16 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "档案界面",
+		description = "#AzurLane#",
+		name = "Files",
 		show_comps = "",
-		deck = 1,
+		deck = 2,
 		id = 2,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			412,
+			-261
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/blur_panel",
@@ -39,14 +39,14 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "获得新舰船界面",
+		description = "#AzurLane#",
+		name = "New Ship",
 		deck = 2,
 		id = 3,
 		camera = "OverlayCamera",
 		qrcode_location = {
-			-340,
-			160
+			412,
+			-261
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ForNotch",
@@ -67,32 +67,32 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "后宅",
+		description = "#AzurLane#",
+		name = "Dorm",
 		show_comps = "",
-		deck = 1,
+		deck = 2,
 		id = 4,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			412,
+			-261
 		},
 		hidden_comps = {
 			"/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "获得新皮肤界面",
+		description = "#AzurLane#",
+		name = "New Avatar",
 		show_comps = "",
 		deck = 2,
 		id = 5,
 		move_comps = "",
 		camera = "OverlayCamera",
 		qrcode_location = {
-			-340,
-			160
+			412,
+			261
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/dialogue",
@@ -103,39 +103,39 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "玩家历程界面",
+		description = "#AzurLane#",
+		name = "Player",
 		show_comps = "",
 		deck = 3,
 		id = 6,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			-592,
-			-381
+			-412,
+			-261
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/PlayerSummaryUI(Clone)/bg/main/pages/page5/share"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "拍照分享",
+		description = "#AzurLane#",
+		name = "Share Picture ",
 		show_comps = "",
 		deck = 1,
 		id = 7,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			-412,
+			-261
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/SnapshotShareUI(Clone)/BtnPanel"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "回流纪念信",
 		show_comps = "",
 		deck = 1,
@@ -144,21 +144,21 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			-412,
+			-261
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "获得新指挥喵界面",
 		show_comps = "",
-		deck = 1,
+		deck = 2,
 		id = 9,
 		move_comps = "",
 		camera = "OverlayCamera",
 		qrcode_location = {
-			373,
-			120
+			412,
+			-261
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
@@ -166,7 +166,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "画图功能分享",
 		show_comps = "",
 		deck = 1,
@@ -175,12 +175,12 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			-592,
-			-381
+			-412,
+			-261
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "挑战分享",
 		show_comps = "",
 		deck = 1,
@@ -188,8 +188,8 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			-592,
+			381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/blur_panel",
@@ -197,7 +197,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "ins分享",
 		show_comps = "",
 		deck = 1,
@@ -211,7 +211,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "必胜客分享",
 		id = 13,
 		deck = 2,
@@ -227,7 +227,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "玩家历程MarkII界面分享",
 		show_comps = "",
 		deck = 0,
@@ -236,12 +236,12 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			-38,
-			-279
+			-50,
+			-269
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "POLARIS活动大佬章界面分享",
 		show_comps = "",
 		deck = 0,
@@ -257,7 +257,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "熊小白分享",
 		id = 16,
 		deck = 2,
@@ -273,7 +273,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "情人节qet",
 		deck = 5,
 		id = 17,
@@ -296,7 +296,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#AzurLane#",
 		name = "连战活动 - EX分享界面",
 		id = 18,
 		deck = 1,

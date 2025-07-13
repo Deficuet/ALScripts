@@ -12,7 +12,7 @@ return {
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "多灾多难，却又屹立不倒的“伟大的皇家财富号”驶入了寂寞的长夜。",
+			say = "The Great Royal Fortune has faced many challenges but still stands firm as she sails into the lonesome night.",
 			bgm = "story-temepest-1",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "月亮已经升起，把后桅杆顶上照得银光闪闪，前帆的前缘也被照得雪白明亮。",
+			say = "Moonlight dyes the jigger topmast a silver color, giving the flying jib almost a snow-white silhouette.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "只是这份宁静的美丽，并不属于海洋上的冒险家们。",
+			say = "It's a beautiful sight wrapped in tranquility – hardly befitting us seafaring adventurers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "随着瞭望哨上传来的一声高呼——",
+			say = "The silence is broken by a shout coming from high up in the crow's nest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,12 +56,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看见陆地啦！",
+			say = "Ahoy! I can see land!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,11 +75,11 @@ return {
 			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "蓝洋新星",
+			factiontag = "The Rising Star",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陆地——！",
+			say = "There's land!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "急促的脚步声出现在了甲板下方，并向着开阔的甲板上方聚集着。",
+			say = "The ship's crew – which is, admittedly, just me and a small handful of shipgirls – all immediately gather on the deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "所有参与了这趟航行的旅人都眺望着远方，那不属于这个世界的望远镜也在众人手中传递着。",
+			say = "All of us take turns with the telescope, our gazes focusing in the direction Royal Fortune gestured towards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "所有人都屏住了呼吸，等待山丘下的陆地跃出海平线。",
+			say = "With bated breaths, we wait for the moment that land pokes up over the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
-			say = "然而，率先映入众人眼中的，却是意料之外的景象——",
+			say = "It is not land that comes into view, however, but rather a shocking entity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,12 +137,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "无敌桂冠",
+			factiontag = "The Invincible Crown",
 			bgm = "story-temepest-2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那些黑影……是残响舰队！",
+			say = "That isn't land... It's the Echo Fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,12 +169,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "幽灵",
+			factiontag = "A Ghost",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……它们还挂着苍狼团的旗帜，苍狼团果然已经和残响舰队走到一起了。",
+			say = "Flying the Black Wolves' banner, at that. They really have taken the treasure hunters' flag as their own.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,12 +188,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟了……它们的目标可能是新世界的港口城镇。",
+			say = "That's not all. Judging by their heading, I think they're headed for a New World port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			},
 			options = {
 				{
-					content = "预计残响舰队到达时间？",
+					content = "How long until they reach it?",
 					flag = 1
 				}
 			}
@@ -213,12 +213,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最多一小时。",
+			say = "Around an hour, I'd say.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,51 +229,7 @@ return {
 			},
 			options = {
 				{
-					content = "新世界的海军呢？",
-					flag = 1
-				}
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
-			dir = 1,
-			actor = 9600030,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "新世界缺乏完备的夜航指引设施，所以天亮之前不会有增援抵达。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
-			dir = 1,
-			actor = 9600030,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "城镇撑不过一个夜晚。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "只能由我们把残响舰队引走了。",
+					content = "What defenses does that port have?",
 					flag = 1
 				}
 			}
@@ -282,12 +238,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "引走是可行的……但只靠我们去驱逐它们的话，难度很高。",
+			say = "None that'll arrive before morning, since it lacks the facilities to fully facilitate navigation at night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,12 +257,56 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_4",
-			factiontag = "投资人",
+			factiontag = "Investor",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们需要增援。在我们挡住敌人时，你需要去做一件事——",
+			say = "Which is to say, it'll fall before sunrise if anyone attacks.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "Then all we can do is to lure the fleet away.",
+					flag = 1
+				}
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_jufengv1_4",
+			factiontag = "Investor",
+			dir = 1,
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "We certainly can lure them away. Driving them back, though? That's another topic~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_jufengv1_4",
+			factiontag = "Investor",
+			dir = 1,
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "We need reinforcements, my darling. Say, while we keep them busy, could you do something for me~?",
 			painting = {
 				alpha = 0.3,
 				time = 1

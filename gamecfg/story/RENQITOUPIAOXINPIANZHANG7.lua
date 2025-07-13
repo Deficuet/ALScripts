@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "随着夜幕降临，会场的气氛也变得愈加热烈起来。",
+			say = "As night fell upon the port, the excitement within the polling venue was only growing.",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "欢呼声中，信息展示牌的屏幕缓缓亮起。",
+			say = "People cheer and point while the big results board begins to glow with a soft light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊……展示牌亮了……",
+			say = "The monitor turned on...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就是说……开赛了？",
+			say = "Does that mean the voting has officially started?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯！投票活动终于开始了！",
+			say = "Yup! This is where the fun begins!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊啊……好紧张……心跳都加速了……",
+			say = "Ooh, I'm so excited! But a bit tense, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放轻松，活动才刚刚开始，正是需要养足精神的时刻……",
+			say = "Take it easy. Don't blow all your energy on the opening round.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如我们先吃晚饭，再来看看展示牌上的状况。",
+			say = "Why don't we take five and get some dinner? We can check the board after.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好主意，会场中的美食街也开放了，我们去吃夜宵吧！",
+			say = "Great idea! The fine dining stalls just opened, too. Let's grab a bite then see what's up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉菲可以去接取海域剿灭的委托了么……？",
+			say = "Can I go and do my ballot missions?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这种事等白天再说啦！",
+			say = "Laffey, please! You can do those tomorrow!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,8 +1,10 @@
 return {
-	id = "ZHIHUIMIAO1",
+	fadeOut = 1.5,
 	mode = 2,
-	fadein = 1.5,
+	id = "ZHIHUIMIAO1",
 	once = true,
+	fadeType = 2,
+	fadein = 1.5,
 	scripts = {
 		{
 			bgName = "bg_story_task",
@@ -24,7 +26,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喵啊啊啊啊！不可以乱跑喵！！",
+			say = "Nyaaargh! Stop darting all over the place, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵？指挥官回来了喵？来的正好喵！快帮{namecode:98}抓住这小东西喵！",
+			say = "*Pant*... *pant*... Unya? Commander, you're back! Perfect timing, nya! Come help me catch these little buggers, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵…指挥官帮大忙了喵。",
+			say = "Commander, you saved my hide, nya...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -107,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是什么喵？哼哼，问得好！这些小家伙正是{namecode:98}和港区的研究小组们最新的心血结晶——",
+			say = "What are these things, nya? Hehe, I thought you'd ask that! These little guys are the results of countless hours of hard work and collaboration between Akashi and the Research Department!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutPainting = true,
-			say = "——指挥喵！！",
+			say = "They're called \"Meowfficers,\" nya!",
 			effects = {
 				{
 					active = true,
@@ -147,7 +149,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "就让{namecode:98}来给你介绍介绍喵！",
+			say = "Allow me to introduce them to you!",
 			effects = {
 				{
 					active = false,

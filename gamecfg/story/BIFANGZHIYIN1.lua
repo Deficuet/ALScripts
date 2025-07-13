@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_3",
 			hidePaintObj = true,
-			say = "龙宫城，这座曾经由{namecode:18:岛风}带领舰队在激战后得到的宏伟要塞。",
+			say = "The Dragon Palace – the legendary stronghold which the Sakura Empire laid hands on following a fierce battle.",
 			bgm = "map-longgong",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_daofeng_3",
 			hidePaintObj = true,
-			say = "如今正作为{namecode:84:武藏}的战利品，静静停留在海面之下。",
+			say = "It now belonged to Musashi. Silently, it rested at the bottom of the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说，从一开始就是我的就是了。",
+			say = "This place was always mine. Now, it is officially so.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "{namecode:39:神通}，准备工作如何？",
+			say = "Jintsuu, how goes the mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "进展顺利，{namecode:84:武藏}大人。",
+			say = "Swimmingly thus far.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "明日正午前就能完成全部出航准备，预计可以如期抵达部署位置。",
+			say = "We'll be ready to disembark by tomorrow noon and should reach the target according to schedule.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好。我们可不能误了“{namecode:91:赤城}大人”要办的大事啊。",
+			say = "You make me proud. We simply must aid Akagi with her plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "那是自然。",
+			say = "Of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "“我们这边”呢？",
+			say = "Now, as for our own plan...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "万无一失。",
+			say = "It is proceeding smoothly as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "监测设备已经部署完毕，防御系统也完成了升级。",
+			say = "I've already installed all the monitoring equipment and performed updates on the defense systems.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……必要的话，我还可以在城内准备一些观众席。",
+			say = "...If need be, I can arrange guest seating as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "那就不必了，吾还是希望她的计划能成功的。",
+			say = "That won't be necessary. All that matters is that Akagi's plan is successful.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 305100,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果局面真的失控了……你觉得吾会选择置身事外么？",
+			say = "Should the situation spiral out of control, however, we will be forced to take action. Surely you know this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "抱歉……是我失言了。",
+			say = "Of course. Apologies, I said too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,11 +274,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_daofeng_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "打扰了，{namecode:84:武藏}大人。",
+			say = "Hey. I'm not interrupting you, am I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "无妨，怎么了？",
+			say = "It's of no consequence. Has something happened?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305120,
-			say = "{namecode:96:瑞鹤}小姐和{namecode:82:三笠}大前辈突然登门拜访，请问我该如何回复？",
+			say = "Zuikaku and Mikasa have shown up at your mansion. What should I do with them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "现在正是执行计划的关键时刻，{namecode:84:武藏}大人，可以让{namecode:80:纪伊}回复您现在外出未归。",
+			say = "The plan has already entered its final stage. You could simply tell them that she is not at home.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "反正您此刻确实不在宅子中，倒也不算说谎。",
+			say = "That is the truth, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,42 +381,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是只有{namecode:96:瑞鹤}一个人来，这个借口是不错。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 305100,
-			say = "可是在大前辈面前，如此便过于失礼了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这样吧，我去见大前辈，你留在这里。",
+			say = "Such an excuse would fool Zuikaku, yes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "如果时间到了我没回来，或出现了联系不上我的情况。",
+			say = "However, I will not stoop to telling half-truths to Mikasa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +416,42 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你就带领龙宫城起航。",
+			say = "Here is my proposal – I shall go and meet Mikasa. In my absence, you are to hold the fort here.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_daofeng_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 305100,
+			say = "Proceed with the preparations as normal whilst I'm gone.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			bgName = "bg_daofeng_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Should I not return, or if I cannot be reached, depart with the Dragon Palace as planned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "遵命。",
+			say = "As you say, Lady Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "一路小心，{namecode:84:武藏}大人。",
+			say = "Please watch yourself out there.",
 			painting = {
 				alpha = 0.3,
 				time = 1

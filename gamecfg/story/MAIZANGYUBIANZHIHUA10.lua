@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>雷散</size>",
+					"Whence Flowers Bear No Fruit\n\n<size=45>10 Scattering Thunder</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg1",
 			hidePaintObj = true,
-			say = "河水是如此冷彻，夜色是如此宁静。",
+			say = "Deep in the barrier, at the Dragon Palace...",
 			bgm = "story-maystorm",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg1",
 			hidePaintObj = true,
-			say = "少女俯身，感受着河水的冷彻，感受着夜色的宁静。",
+			say = "Musashi collapsed onto the calm waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "真静啊……",
+			say = "Not so much as a sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "……如海潮般的魑魅魍魉，居然被「中和」的如此干净。",
+			say = "So easily neutralizing a wave of demons that blanketed the sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "{namecode:39:神通}确实诚不欺我……决战兵器，一旦彻底完成的话……",
+			say = "Jintsuu wasn't exaggerating. And this trump card isn't even fully completed yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "呵呵……可惜，这个兵器不是什么人都能驾驭得了的。",
+			say = "But such a weapon is beyond any individual's control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "还好……这次作为核心的人是我。",
+			say = "It's fortunate that I was at the core this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "如果是{namecode:182:信浓}……恐怕是走不到这一步的吧。",
+			say = "Shinano wouldn't... have...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,21 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg1",
 			hidePaintObj = true,
-			say = "少女的力量正在消散，视线正在变得模糊。时间的流逝，似乎正变得越来越慢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_bianzhihua_cg1",
-			say = "将欲歙之，必固张之。将欲弱之，必固强之……",
+			say = "As her strength left her and her vision began to cloud, Musashi felt the passage of time slow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +139,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "将欲废之，必固兴之。将欲取之，必固与之……",
+			say = "(Thinking that it would help her, I lent Akagi my strength and urged her to lead this empire.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "然……纵容无度，如同抱薪救火。薪不尽，火不灭……",
+			say = "(My respect for her human desires led me to foolishly try to grant them.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +167,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "终……引火焚身，以至于此……",
+			say = "(But I was wholly unaware that madness had taken her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "……生亦何欢，死亦何惧。",
+			say = "(No... I will make no excuses.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +195,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "……人生五十年，如梦亦似幻。一度得生者，岂有不灭者乎？",
+			say = "(That this end would come was only natural. I have regrets, but I will not fear...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "哈哈……哈哈哈哈哈……",
+			say = "(All that lives must die. In this world, ships and humans alike are but fleeting phantasms.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "吾将用这最后一击，用一条绝路，换出无数条生路！",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "「彼岸之花，三途之川，蝶影翩跹，一叶渡黄泉。」",
+			say = "May this final blow bring the light of hope into this desolation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +251,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg1",
-			say = "「斩————」",
+			say = "\"Sever the pall of eternity, that I may become a leaf floating to the other side.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_bianzhihua_cg1",
+			say = "\"Steel... clash!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg2",
 			hidePaintObj = true,
-			say = "即将消散的武士之影，奋力挥出最后一剑。",
+			say = "The fading armored behemoth unleashes one last blow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,21 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg2",
 			hidePaintObj = true,
-			say = "剑势将天空中的红月与天空本身一齐劈开。仪式的守护结界，在此刻终于出现了一条清晰可见的裂痕。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305100,
-			side = 2,
-			hidePainting = true,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			bgName = "bg_bianzhihua_cg2",
-			say = "……吾之道路，至此结束了。",
+			say = "Its sword splits the red moon and sky alike, creating a great rift in the barrier protecting the ritual grounds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg2",
-			say = "接下来的路……就由汝等去走吧。",
+			say = "This... is all I can do now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg2",
-			say = "嗟乎……真是漫长的一日。",
+			say = "Mikasa, Akagi, Nagato... I leave the rest to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +356,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bianzhihua_cg2",
-			say = "吾……甚是疲倦，该休息了……",
+			say = "Oh, what a long day it's been...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305100,
+			side = 2,
+			hidePainting = true,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_bianzhihua_cg2",
+			say = "I'm exhausted... Just a moment's... rest...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_bianzhihua_cg2",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "少女缓缓闭上双目，面带笑容，轻轻将头枕在冷彻的水面上。",
+			say = "With eyes closed and a gentle smile, Musashi lay her head on the cold waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_cg3",
 			hidePaintObj = true,
-			say = "突如其来的金色蝴蝶群，如旭日般迸发而出，点亮了水面，亦点亮了少女的睡颜。",
+			say = "In that moment, a kaleidoscope of brilliant golden butterflies lit up the world around her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_bianzhihua_1",
 			hidePaintObj = true,
-			say = "光芒消散后，飞舞的蝴蝶群与沉睡的少女都消失不见了。",
+			say = "And then, just as quickly as they'd come, the butterflies disappeared along with the sleeping warrior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

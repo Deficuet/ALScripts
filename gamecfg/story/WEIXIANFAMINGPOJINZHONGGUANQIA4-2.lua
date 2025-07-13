@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "随着最后一击命中，巨大的敌人缓缓沉入海中。",
+			say = "With that last blow, the enormous enemy slowly sank into the ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 11100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好耶~！成功了！",
+			say = "Woohoo! Down for the count!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼……",
+			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "然而，还没等众人松一口气，异变突生——",
+			say = "However, with that sigh of relief came a change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "敌人的残骸散发着不祥的红色光芒，周围的海水也开始剧烈翻滚。",
+			say = "The enemy's wreckage shone with an eerie red light, and the waters around it began to whip up into a roil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 11100040,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……！危险！大家后退！",
+			say = "Danger! Everyone, retreat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,10 +156,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "警告！舰装能源不足！",
+			say = "WARNING. RIGGING POWER INSUFFICIENT.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,10 +167,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "警告！探测到敌人出现高能反应！",
+			say = "WARNING! ENEMY HIGH-ENERGY REACTION!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,10 +178,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "超级游戏制作机",
+			actorName = "Questy MacGuffin",
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
-			say = "建议：立刻远离该区域！",
+			say = "RETREAT IMMEDIATELY!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "怎么突然？舰装的活动能力下降了？？",
+			say = "What?! My rigging's gotten all sluggish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_1",
-			say = "众人努力操作着变得笨重的舰装，试图躲开爆炸。",
+			say = "They desperately tried to pilot their slowed rigging away from the explosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "然而，为时已晚——",
+			say = "But it was too late. The explosion sent a wave of fire that quickly closed in–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "爆炸的火光涌起，就在同一瞬间，一个声音从远处传来。",
+			say = "However, in that instant, they heard a woman's voice in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝法，救人——",
+			say = "Bel, save them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "一股更强大的力量在空中定向爆开，将来袭的冲击与火焰瞬间泯灭。",
+			say = "A powerful force burst above them, blowing away the shockwave and flames alike with ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "火光与烟尘散去，菈菈终于看清了声音的主人。",
+			say = "Shortly after, when the smoke had cleared, the woman they'd heard finally showed herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "同样装备着舰装的少女们，正快速接近着。",
+			say = "She and her companions approached, each equipped with their own rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,20 +294,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "刚刚说话的，正是为首的娇小金发少女。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_tolove_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "初次见面，来自异世界的客人们。",
+			say = "Standing at the front of them was a girl with striking blonde hair – the one who'd given the order before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +307,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王就是皇家的伊丽莎白女王，有本王在，你们就安全了！",
+			say = "Salutations, visitors from another world!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_tolove_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "I am Queen Elizabeth of the Royal Navy! Under my protection, you have nothing to fear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

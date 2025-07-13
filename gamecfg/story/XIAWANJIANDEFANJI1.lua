@@ -9,7 +9,7 @@ return {
 			actor = 401020,
 			side = 2,
 			nameColor = "#ff5c5c",
-			say = "真是棘手…皇家的增援火力稍微有点超乎想象呢。",
+			say = "What a pain. Those Royal Navy reinforcements may be a bit of a handful.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "唔…{namecode:401}，我觉得这已经不是稍微有些超乎想象的问题了。",
+			say = "Um... Z2, I think we're way past a handful here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "战列舰厌战、航空母舰暴怒。光是这两艘舰船就不是我们能够对付的了。",
+			say = "A battleship and an aircraft carrier are too much for little ol' me.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "再加上她们还有其他驱逐舰护航…",
+			say = "When you add in their destroyer escorts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "果然这种情况就连{namecode:404}也笑不出来了么。",
+			say = "Even Z18 can't smile at a time like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "什么呀！把人家说的像是只会笑的笨蛋一样…",
+			say = "What the?! Am I just a smiley idiot to you...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:496}，{namecode:407}，{namecode:497}两天前就失去了战斗能力。",
+			say = "Z11, Z21, and Z22 got knocked out of the fight two days ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "刚刚{namecode:498}的埋伏又失败了…情况可能真的有点危险了啊。",
+			say = "And now that Z13's ambush failed... there's nothing for me to smile about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "是呢。",
+			say = "Right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "哎，{namecode:401}，你怎么忽然摸我的头？",
+			say = "Um, Z2, why are you patting my head?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "只是想这么做。",
+			say = "Just let me do this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "要是{namecode:400}在的话，这种时候应该能给大家打气吧。我不像{namecode:400}那么阳光，就只能做这种事了。",
+			say = "If only Z1 were here, she'd give everyone a morale boost. Too bad I don't have her sunny disposition. This is the best I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "……谢谢~没事的，这又不是{namecode:401}的错，而且我觉得{namecode:401}已经做得很好啦~",
+			say = "Thanks. It's okay. You didn't do anything wrong. Actually, I think you're doing great, Z2~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "嗯…",
+			say = "Oh, okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯嗯~既然从{namecode:401}那里获得了温暖的能量，我也能继续笑得出来啦！",
+			say = "Yeah~ You're so nice and warm, I think I can smile again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "我还是小看你了…",
+			say = "I underestimated you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嘿嘿，笑容可是解除恐惧的解药哦~{namecode:401}也来笑一个吧~",
+			say = "Hehe. You can't be scared with a big smile on your face. C'mon, Z2, give us a smile!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "嗯…我也要打起精神来了。",
+			say = "Okay, I'll psych myself up too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "大家按照命令，准备撤退。",
+			say = "Everyone, prepare to retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

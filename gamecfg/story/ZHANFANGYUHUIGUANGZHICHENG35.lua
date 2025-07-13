@@ -9,31 +9,31 @@ return {
 			bgm = "story-darkplan",
 			sequence = {
 				{
-					"狂风暴雨，漫漫长夜",
+					"The storm rages across the waters, through a night that knows no end.",
 					2
 				},
 				{
-					"一叶孤舟，孤悬于海面之上",
+					"Within the tempest lingers one lonesome vessel.",
 					4
 				},
 				{
-					"风暴何时停息，孤舟何时倾覆？",
+					"Will the storm's rage first be quelled, or will this vessel first capsize?",
 					6
 				},
 				{
-					"光明在何方，希望又在何方？",
+					"Will a ray of light bring hope through the darkness?",
 					8
 				},
 				{
-					"…………",
+					".......",
 					10
 				},
 				{
-					"吾如梦中之蝶，飞舞于虚幻之间",
+					"For I am but an oneiric butterfly, fluttering among illusions.",
 					12
 				},
 				{
-					"愿光明划破阴云，愿希望指引重樱",
+					"May light guide this vessel. May hope guide the Sakura Empire.",
 					14
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_xinnong_cg1",
 			hidePaintObj = true,
-			say = "天岩岛内城·拂晓",
+			say = "Diadem of Light - Morning",
 			bgm = "xinnong-1",
 			typewriter = {
 				speed = 0.05,
@@ -79,7 +79,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "天宇启户祭，只有在重樱陷入困境之中抉择之时才会举行的祭典，没想到会有轮到我们来主持的一天……",
+			say = "This ritual is only performed when a crisis threatens our Empire... I never thought WE would do it one day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "正是这种时刻，{namecode:182:信浓}大人的力量才更加重要。",
+			say = "Yes. When the times are the darkest, that is when Lady Shinano's power matters most.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "如果是作为希望的象征而存在的{namecode:182:信浓}大人亲自主祭……",
+			say = "She is our symbol of hope, and if we can get her to officiate the ritual as well...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "定能在这黑暗的时刻，为重樱寻觅到前进方向的指引，拨开阴霾，重现光明。",
+			say = "Then I'm certain our Empire will find the right path, dispel the darkness, and restore the light.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "只是{namecode:182:信浓}大人现在的状态，真的能承担这么大的负担么…",
+			say = "While I hope so, too, the ritual is a major burden on Lady Shinano.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "这就是作为{namecode:182:信浓}大人代行者的我们应该分担的工作了~",
+			say = "It is. That is why we, as ritual participants, must do everything we can to alleviate her burden even a little.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "嗯……至少不能拖{namecode:182:信浓}大人的后腿才行。",
+			say = "That, and to try not to slow her down.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "来自重樱各处的大人与海外高手齐聚一堂，甚至不乏久经沙场的前辈。真期待与她们的交手环节……",
+			say = "Now, I would like you to prepare the dance for the participants, as well as decide how to conduct the matches.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "{namecode:175:骏河}，你怎么看？从刚刚开始就一言不发地闷头坐在那边。",
+			say = "And Suruga... Are you good? You've been fairly quiet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 305140,
-			say = "啊！{namecode:50:能代}大人，请不用在意我。",
+			say = "Huh? Yes, um, I'm just fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "之前也说过，叫我{namecode:50:能代}就好。大家既然在一起工作，同心协力，相互之间就不必拘礼了",
+			say = "You don't have to be so nervous. We're all doing this together. If you have any thoughts, I'd like to hear them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "是，貅、{namecode:50:能代}。我觉得祭典开始前的演武应该不是我们的主要工作吧……？",
+			say = "Well, uh... It's not really our job to perform the dance before the ritual, is it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "……我再去检查一下其他流程。",
+			say = "...Right. I'll go have another look around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "哈哈哈，演武也是祭典的一部分，本次祭典各方面都不能马虎哦！",
+			say = "The dance IS a part of the ritual. We must put as much effort into it as anything else.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "再说了，难得的祭典，热闹一点不也挺好～{namecode:175:骏河}不觉得么？",
+			say = "Since we have to do it, we should try to be excited about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 305140,
-			say = "我只想祭典可以平安顺利地结束就好……",
+			say = "Me, I just want the ritual to end without any incidents.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 307080,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "（……此处是，天岩岛？）",
+			say = "(Is this... the Diadem of Light?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "（妾身分明在会场之中休息……为何会来到此处。）",
+			say = "(This one was in the Orthodoxy's capital but a moment ago... How?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "（又一个梦境么……）",
+			say = "(Ahh... 'Tis another dream...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "（似乎……此为曾经妾身陷入沉眠之时，{namecode:179:龙凤}等人筹备天宇启户祭的情景……）",
+			say = "(I remember... Whilst I was asleep, they were preparing the ritual.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "（无法言语，亦无法行动……此刻的妾身，亦如当日……）",
+			say = "(I can neither speak, nor move... Neither could I that day...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			hidePaintObj = true,
-			say = "（敲门声）",
+			say = "*knock knock*",
 			bgm = "xinnong-1",
 			typewriter = {
 				speed = 0.05,
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "失礼了。{namecode:179:龙凤}，{namecode:91:赤城}大人以及随行舰队即将抵达天岩岛。",
+			say = "Ryuuhou, Akagi's crew are about to arrive any minute now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 302210,
-			say = "看来首先是你的回合呢，{namecode:179:龙凤}。",
+			say = "It is time to make our move, Ryuuhou.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……终于要正式开始了！",
+			say = "...Yes, of course.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "诸位，本次天宇启户祭，将会是决定重樱未来的重要祭典。",
+			say = "This ritual will decide the future of the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "我们不但是主祭{namecode:182:信浓}大人的代行者，更是祭典中不可或缺的一部分。",
+			say = "As representatives of our great land, we must not fail!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "祭典即将开始，各位请进入自己的角色。",
+			say = "Now, everyone, get into your respective positions!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,11 +601,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "bg_xinnong_cg1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "明白！",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 306070,
-			say = "那么，我们就出发了，{namecode:182:信浓}大人。",
+			say = "After years of suffering... No, we've been training for this very moment, and it is time to show the entire world our might!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 307080,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……妾身当日的梦中，也出现了这一切。",
+			say = "On that day, this one also witnessed the ritual within one's dreams...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "……然，景色虽相似，细节却不同。",
+			say = "However, though the greater picture was true, the details diverged.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "而且此处明明是妾身的居室……",
+			say = "Ahh, I am but in my own bedchamber...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,7 +709,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "为何此时，妾身却感觉……如此寂寥……",
+			say = "So why, then, do I feel so alone?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,19 +742,19 @@ return {
 			},
 			sequence = {
 				{
-					"「昔者庄周梦为胡蝶  栩栩然胡蝶也」",
+					"The dreamwaker sees the light of the Dawning Ceremony...",
 					2
 				},
 				{
-					"「自喻适志与  不知周也」",
+					"...Crimson-dyed intrigue. Otherworldly explosions. The house of faith, sundered by a charred blade.",
 					4
 				},
 				{
-					"「俄然觉  则蘧蘧然周也」",
+					"The dreamwaker sees her valiant comrades, stemming back the tides of chaos to complete the ceremony.",
 					6
 				},
 				{
-					"「不知  周之梦为胡蝶与  胡蝶之梦为周与」",
+					"At last, drifting within the vast sea between worlds, the dreamwaker stirs.",
 					8
 				}
 			}
@@ -780,7 +780,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_xinnong_cg2",
 			hidePaintObj = true,
-			say = "赤红，映入眼帘的是一片雀跃着的赤红。",
+			say = "Crimson, scarlet, vermilion. Red, bouncing all around.",
 			bgm = "theme-akagi-inside",
 			typewriter = {
 				speed = 0.05,
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……神木在凋零，群岛在燃烧。",
+			say = "...The Sacred Sakura has withered. The Mizuho islands are ablaze.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "……那个曾经徘徊的梦魇，点燃一切的赤红又出现了。",
+			say = "...A dream luring one to destruction, and a red color that reduces all to ash.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "……怎会如此。",
+			say = "...Why?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "……妾身必须尽快醒来，将这一预兆警告众人。",
+			say = "...This one must awaken and tell others of these omens...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……为何……妾身无法感受到一丝一毫的力量了。",
+			say = "...Why can't I? Why do I feel so powerless?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			hidePaintObj = true,
-			say = "赤红雀跃着逐渐逼近，梦境在噼啪中逐渐崩坏。",
+			say = "The shades of red bounced ever closer. The dream came apart, crumbled, collapsed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……终于，连梦境之中也没有妾身的位置了么。",
+			say = "...Ahh... Even in my dreams, my home is being taken from me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "孤独、渺小、脆弱……呵呵，妾身还是与过去一样。",
+			say = "Lonesome and feeble still... This one hasn't changed...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "……除了等待命运的审判，妾身什么都做不到。",
+			say = "Naught can I do but follow fate and walk the path...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#5CE6FF",
-			say = "……如此也好。",
+			say = "But perhaps... that isn't so bad...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			hidePaintObj = true,
-			say = "少女直视着逼近的赤红，没有起身迎敌，也没有转身逃跑。",
+			say = "Shinano looked directly at the red, contemplating neither running away nor giving up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -985,7 +985,7 @@ return {
 			dir = 1,
 			nameColor = "#5CE6FF",
 			actor = 307080,
-			say = "烈火啊，如果想要焚尽妾身身后之物——就先将妾身燃烧殆尽吧！",
+			say = "If you seek to turn that stands behind me to ash, you will first have to burn through me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,7 +1001,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "在少女即将被吞噬之际，耳边传来清脆又明晰的风铃声。",
+			say = "Just as the flames were about to engulf her, a wind chime rang out.",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,

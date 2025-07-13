@@ -1,8 +1,164 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[91079] = {
+		cannon = 0,
+		name = "Franklin",
+		type = 7,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91079,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "fulankelin_2",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 18,
+		luck = 0,
+		antisub = 0,
+		scale = 150,
+		wave_fx = "movewave",
+		prefab = "fulankelin_2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 1,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.39,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[91080] = {
 		cannon = 0,
-		name = "鹰",
+		name = "Eagle",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +314,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91081] = {
 		cannon = 0,
-		name = "哈尔福德",
+		name = "Halford",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -293,7 +449,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91082] = {
 		cannon = 0,
-		name = "超级AI-TC",
+		name = "Super AI: TC",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -439,7 +595,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91083] = {
 		cannon = 0,
-		name = "超·无畏级根除武装「福尔尼德」",
+		name = "Sphyrnidae, Super-Dreadnought-Class Eradicator",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -596,7 +752,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91084] = {
 		cannon = 0,
-		name = "伏尔加级量产型",
+		name = "Mass-Produced Volga Class",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -763,7 +919,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91085] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ĐĄÍĂ×Ó",
+		name = "Mimic Entity – Lagomorph",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -893,7 +1049,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91086] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-Ňő°ľĹŔĐĐ",
+		name = "Mimic Entity – Darkcrawler",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1023,7 +1179,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91087] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-Čý˛ćĘ÷",
+		name = "Mimic Entity – Trinewort",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1153,7 +1309,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91088] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ËťĂůźâĐĽ",
+		name = "Mimic Entity – Cacophony",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1283,7 +1439,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91089] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-´óşŁšÖ",
+		name = "Mimic Entity – Cetacean",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1420,7 +1576,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91090] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-śŠĘéś¤",
+		name = "Mimic Entity – Vespid",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1543,7 +1699,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91091] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÓĐ¸ůÓăŔ×",
+		name = "Mimic Entity – Lurkroot",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1680,7 +1836,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91092] = {
 		cannon = 0,
-		name = "ÄâĚŹĘŢ-ËťĂůźâĐĽ´óşŁšÖ",
+		name = "Mimic Entity – Warped Cacophony",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1803,7 +1959,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91093] = {
 		cannon = 0,
-		name = "光荣·META",
+		name = "Glorious META",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1959,7 +2115,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91094] = {
 		cannon = 0,
-		name = "狮",
+		name = "Lion",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2115,7 +2271,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91095] = {
 		cannon = 0,
-		name = "辉翼狮",
+		name = "Luxwing Lion",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2236,7 +2392,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91096] = {
 		cannon = 0,
-		name = "皇家橡树",
+		name = "Royal Oak",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2393,7 +2549,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91097] = {
 		cannon = 0,
-		name = "伊丽莎白女王",
+		name = "Queen Elizabeth",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2721,7 +2877,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91099] = {
 		cannon = 0,
-		name = "江风·META",
+		name = "Kawakaze META",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2868,7 +3024,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91100] = {
 		cannon = 0,
-		name = "血影",
+		name = "Bloody Shadow",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3299,7 +3455,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91103] = {
 		cannon = 0,
-		name = "都市帮派型直升机",
+		name = "City Gang Helicopter",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3454,7 +3610,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91104] = {
 		cannon = 0,
-		name = "都市帮派型巡洋舰",
+		name = "City Gang Cruiser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3616,7 +3772,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91105] = {
 		cannon = 0,
-		name = "都市帮派型障碍舰",
+		name = "City Gang Blockade Ship",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3784,7 +3940,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91106] = {
 		cannon = 0,
-		name = "都市帮派型火力舰",
+		name = "City Gang Arsenal Ship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3952,7 +4108,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91107] = {
 		cannon = 0,
-		name = "都市帮派型飞行器母舰",
+		name = "City Gang Takeoff Ship",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4121,7 +4277,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91108] = {
 		cannon = 0,
-		name = "都市帮派型自爆船",
+		name = "City Gang Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4266,156 +4422,5 @@ pg.enemy_data_statistics_36 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
-	},
-	[91109] = {
-		cannon = 0,
-		name = "都市帮派型潜航器",
-		type = 8,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 91109,
-		fog_fx = "",
-		dodge_growth = 0,
-		icon = "diezhan_qianting",
-		star = 0,
-		torpedo = 0,
-		antisub_growth = 0,
-		rarity = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		icon_type = 8,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 10,
-		luck = 0,
-		antisub = 0,
-		scale = 135,
-		wave_fx = "danchuanlanghuazhong1",
-		prefab = "diezhan_qianting",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 98,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			10.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-1.08,
-					1.59,
-					0
-				}
-			},
-			torpedo = {
-				{
-					2.3,
-					0.6,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.097,
-					1.231,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"hit_bubble",
-						{
-							0,
-							0,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			3.5
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {},
-		bubble_fx = {
-			"bubble",
-			20,
-			3
-		}
 	}
 }

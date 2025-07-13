@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"大会会场",
+					"Faction Conference Hall",
 					2
 				},
 				{
-					"会议前一日",
+					"One day before meeting",
 					3
 				}
 			},
@@ -42,7 +42,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，会场的桌椅，全部摆放完毕♪",
+			say = "Alright! Chairs and desks are all in place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601060,
-			say = "哇哦……太厉害了！桌子上的物品也摆得好整齐……！",
+			say = "Nice! You've even arranged all the furnishings so neatly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "这可是用尺子量过的哦！",
+			say = "Yeah! I used a ruler to determine where to put them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "的确……！用这种方法来摆确实很整齐！",
+			say = "Oh! No wonder it looks like they've been placed with great care!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，我撒丁帝国的待客之道可不能落下。",
+			say = "Got to live up to our reputation for great hospitality, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "不过，我们的工作还没有结束哦！",
+			say = "Wait, why are we chatting? We still have work to do, Cap'n!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "会议结束后的晚宴，可是要在宴会厅里进行的~",
+			say = "There's going to be a dinner party in the banquet hall after the meeting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以宴会厅的布置也是关键事务呢。",
+			say = "Those tables aren't going to set themselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "嗯……那里确实是重中之重，不能马虎。",
+			say = "Yes. In fact, the banquet hall is our top priority. We can't cut any corners with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "特别是食材……因为形势比较紧迫，的里雅斯特甚至亲自带队去采购了呢。",
+			say = "Especially not with the ingredients. Time was running short, so Trieste went out to buy them herself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "希望能买全吧……",
+			say = "I hope she's able to able to find everything...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601060,
-			say = "说起来，这件事真的好奇怪啊！",
+			say = "You know, that reminds me of a thing I've been wondering about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601060,
-			say = "这场大会明明是以我们撒丁帝国的名义主办的，可为什么要在鸢尾举行啊！",
+			say = "This conference was our idea and we're the ones organizing it, so why are we hosting it in the Orthodoxy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601060,
-			say = "不是这样的话，我们也不会为了找食材的本地替代品焦头烂额了。",
+			say = "We wouldn't have to worry about getting the right ingredients if we were doing this back home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601050,
-			say = "确实很奇怪，西北风，你懂得多，你知道是什么原因么？",
+			say = "Yeah, that IS weird! Maestrale, you're smart – what do you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601040,
-			say = "唔……外交上的考虑吧？我不是很明白这部分……",
+			say = "Umm... It's for diplomatic reasons, maybe? I'm not sure either, really.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,8 +300,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "维托里奥·维内托",
-			say = "呵呵，关于这件事，背后确实是有一些比较复杂的原因哦。",
+			actorName = "Vittorio Veneto",
+			say = "Heehee. There are two good reasons why we're doing it here rather than home, actually.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,10 +317,10 @@ return {
 			bgName = "bg_guild_blue",
 			portrait = 605010,
 			dir = 1,
-			actorName = "维托里奥·维内托",
+			actorName = "Vittorio Veneto",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，鸢尾虽然提供了场地并承担了一半的费用，会议却由我们独家冠名。",
+			say = "The first is that the Orthodoxy lent us this locale. The second is that they're covering half of our expenditures, but still letting us have the honor of organizing it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,8 +337,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "维托里奥·维内托",
-			say = "结果上来说，这个买卖也不算亏。",
+			actorName = "Vittorio Veneto",
+			say = "All in all, this is quite a fine arrangement for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……",
+			say = "That explains it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601060,
-			say = "啊，维内托大人，您回来了！",
+			say = "Veneto! You're back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚忙完日程安排，顺便来看一下你们的准备情况。",
+			say = "Hello. I just finished revising our program, so I came here to check on you all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，会场看起来干净又整齐，装饰的选择也很有我们撒丁的风尚，做得好。",
+			say = "You've done a great job so far. Everything looks neat and tidy and the decorations are very Sardegnian.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,11 +414,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐，我这边搞定了，你那边怎么样？",
+			say = "Everything's good here, Veneto. How is it on your end?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "的里雅斯特不久之前已经发来了消息。在鸢尾的帮助下，采购进行的十分顺利。",
+			say = "I just received a message from Trieste. She said she was out buying groceries and got help from some Iris girls.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来明天的宴会不用担心了。",
+			say = "Sounds to me like the dinner party tomorrow will go fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "会场准备也已经进入收尾阶段了哦。",
+			say = "Oh, and they're done arranging the tables and chairs around the venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相信明天一定能为各个阵营的来宾献上一场饱含撒丁帝国风尚的精彩晚宴的。",
+			say = "I can say with confidence that our guests will be able to treated extraordinarily well in Sardegnian style.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了，我本来都做好用飞机空运食材的准备了。",
+			say = "Excellent. I feared we'd have to start sending ingredients by plane. Glad that worst case scenario didn't come true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那你明天大会开幕发言的准备进度呢？",
+			say = "What about your conference opening speech for tomorrow? Have you written it yet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "开……开幕发言。",
+			say = "Oh... My opening speech...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对哦……大会开场后还要有一段主办方的发言……",
+			say = "Right... I'm delivering a speech tomorrow...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605010,
-			say = "呃……关于这件事，现在……还有些没敲定的地方。",
+			say = "Umm, it still has a few details I need to fill in...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "啊哈哈，听起来有点堪忧呢……",
+			say = "Oh boy... That doesn't sound very reassuring.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,7 +632,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我这就回来，等我！",
+			say = "I'll come over. I won't be long!",
 			painting = {
 				alpha = 0.3,
 				time = 1

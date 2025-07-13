@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=45>六 烦恼的{namecode:144}</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 6 - Ashigara, (Love) Stricken!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "辛苦啦！这样一来的话所有任务都完成了呢。",
+			say = "Good work! That's the last of the tasks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:144}也不容易啊，每天都要处理这么多东西…",
+			say = "Ashigara must have it rough... having to slog through all this paperwork every day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起最初现在进步了许多？呵呵，那是当然，毕竟是我值得自豪的后辈嘛",
+			say = "She's doing a lot better now than at first? Well of course! She's one of my precious juniors after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			},
 			options = {
 				{
-					content = "提出一起去探望{namecode:144}",
+					content = "\"Let's visit Ashigara together.\"",
 					flag = 1
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯~？担心{namecode:144}吗？嘿嘿…可以啊，我们一起过去吧。",
+			say = "Hmm~? Are you worried about her? Heh heh... Sure, we can go together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这个时间段的话，应该只有她一个人在里面休息吧，我敲敲门看看",
+			say = "She should be alone, resting in her room right now. Let me try knocking...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -175,7 +175,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "Hm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没反应呢……应该是睡着了吧。那就进去看看吧，小声点别吵醒她了",
+			say = "That's strange... is she asleep? Let's head in quietly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呜…不知不觉就折了好多…把这些一次性都送给指挥官的话——",
+			say = "Wh-what should I do... I've folded so many without realizing it... If I give all of these to Commander at once...",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "啊",
+			say = "Uhh...",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -289,7 +289,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指，指挥官？！",
+			say = "C-c-c-commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（你不是在休息吗！而且地上铺满的这些难道是…）",
+			say = "(Psst! Hey! Weren't you supposed to be resting? And why are there wads of paper all over the floor...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（纸鹤！？）",
+			say = "(Wait... they're paper cranes?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（{namecode:144}平常似乎也有折纸鹤的习惯，不过这数量…没想到会动摇到这个程度）",
+			say = "(Ashigara has always liked folding them, but... I didn't think it would be this bad...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（看来{namecode:144}真的对指挥官…这时候作为前辈应该——）",
+			say = "(So it seems that Ashigara really does feel that way about Commander... In that case, I've got to step up as her senior!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我突然想起来还有驱逐队的训练！我先走了~",
+			say = "Ah, I just remembered! I have a training drill with the rest of the squadron! Time to jet~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 303090,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸，{namecode:124}前辈？别，别留下我一个人啊！",
+			say = "Huh? Kamikaze? W-wait, why are you leaving me here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（这样就变成和指挥官两个人独处了啊！）",
+			say = "(If you do that, d-d-d-doesn't that mean it's just the two of us here?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（唔唔，我，我该怎么办才好！）",
+			say = "(What should I do...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "时间像是凝滞了一般",
+			say = "Time seemed to stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

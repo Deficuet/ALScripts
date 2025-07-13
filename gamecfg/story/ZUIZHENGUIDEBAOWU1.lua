@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "格陵兰岛最南端，法韦尔角附近海域——",
+			say = "Southern coast of Greenland, near Cape Farewell",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "海面上矗立着一株白色的“海草”，随波逐流。而一个身影，正缓缓从“海草”后方悄无声息地接近。",
+			say = "The silhouette of a little girl formed beneath the waves. She was sneakily swimming her way forwards, heading for a white leaf which had suddenly poked out from under the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "找到了——！",
+			say = "Foooound yooou!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "刹那间，她伸手握住“海草”，仿佛在清理庭院里的杂草一般，嘿咻——",
+			say = "Grabbing hold of it like a gardener would a weed, the girl uprooted the strange leaf-shaped object.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 408080,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈——",
+			say = "*Gasp*!",
 			actorPosition = {
 				x = 0,
 				y = -750
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "10胜0败！这次你总该认输了吧！",
+			say = "I'm 10-and-0 now! Time to admit your defeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "{namecode:420}，背鳍太显眼，不公平。",
+			say = "Unfaaaaiiir. My dorsal fin sticks out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "不是你说要玩捉迷藏的么！？而且那是头发，不是背鳍吧……",
+			say = "... That's just your hair, not a dorsal fin. And weren't you the one who suggested playing hide-and-seek in the first place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有关系，下次才是真正的胜负。嘎哦～",
+			say = "The real game begins noooow. Raaaawr.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "4:0的时候你就已经说过这句话了！",
+			say = "... You said that when I won for the 5th time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			actor = 408080,
 			dir = 1,
-			say = "那个时候，没有加上“嘎哦～”，所以不算。",
+			say = "Doesn't count because I didn't say raaaawr then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "虽说我也想继续玩下去……不过今天我们可是来执行任务的啊！",
+			say = "Well, I wouldn't mind playing a little more, so... Wait, this is no time for games! We have a mission to do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是{namecode:420}，今天是郊游的心情。",
+			say = "Actually, today I'm in the mood for a picnic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟心情无关啦！这可是{namecode:435}姐姐交代的事！",
+			say = "Lord Bismarck entrusted us with this important mission! Who cares what you're in the mood for!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "作为“狼群”的一份子，绝对不能放过任何一艘从这里经过的敌方补给舰！",
+			say = "I repeat: \"Prized wolfpacks of the Iron Blood, you must not let a single enemy transport vessel pass through!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "狼下水，是会淹死的。",
+			say = "If a pack of wolves went into the ocean, they'd all droooown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 408080,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}可是大鲨鱼哦，快看，快看。",
+			say = "But U-110 is a shark, so those orders don't applyyyyy. Lookie look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 408080,
 			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "白发少女得意地摇动着头上那一簇耸立的毛发。",
+			say = "The Iron Blood submarine proudly swung her dorsal fin-like hairstyle from side to side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所~以~说，不是狼，只是一种比喻啦比喻！{namecode:435}姐姐明明说——不要摆出那种“不知道你在讲什么”的表情！！！",
+			say = "L-look, we're not literal wolves, we're called a \"wolfpack\" as a metaphor! Lord Bismarck's orders were... Hey! Stop looking at me like I don't make any sense!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			actor = 408040,
 			dir = 1,
-			say = "哈啊…怎么有种好累的感觉……",
+			say = "*Sigh*... I'm too tired to try to explain it to you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 408040,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的！敌人都出现啦！快去执行任务啦！",
+			say = "Anyway, let's go carry out our mission! An enemy's appeared somewhere nearby!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:420}是大鲨鱼，——大鲨鱼，出击。",
+			say = "Alrightyyyy. U-110, sharky shark, ready to embaaaark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

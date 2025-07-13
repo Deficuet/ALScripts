@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"那便是…恋爱的季节\n\n<size=45>一 一如既往的早晨</size>",
+					"'Tis the Season of Love!\n\n<size=45>1.The Season of Love is Here!</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			blackBg = true,
 			side = 2,
-			say = "淡淡的光芒刺激着眼睛——",
+			say = "A faint glow slowly seeps through my closed eyelids.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——起床。——快起来啦！",
+			say = "—Wake up... Hurry, c’mon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "似乎听到了女孩的呼唤声——",
+			say = "I can hear a girl’s voice in my ears... but I’m not sure where it’s coming from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "——给我差不多——起床了啦！！",
+			say = "—Isn’t it about time... ye moved yer arse already?!",
 			effects = {
 				{
 					active = true,
@@ -119,7 +119,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的！到底想睡到什么时候啊。再不起床就要迟到了，迟·到，知道吗！！",
+			say = "Jeez! How long did you plan to stay in bed? You’re going to be late if you don’t hurry it up!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "揉着惺忪的睡眼，打了个大大的哈欠，这才反应过来，眼前皱着眉头的是女仆格拉斯哥。",
+			say = "I rub my still-sleepy eyes and let out a great yawn. Beside me was the maid, Glasgow, with a dissatisfied frown on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "纽卡斯尔姐姐辛苦准备的早饭都凉了…快点起床收拾了！",
+			say = "The breakfast that Newcastle painstakingly prepared for you is going to go cold! Hurry up and get out of bed already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "怎么就这么急匆匆的呢…一边想着一边看了看时间。",
+			say = "Why the heck is she so anxious anyway? ...My eyes suddenly dart towards the clock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "…难道是表坏了？这时间就算现在开始收拾，也有可能来不及了。",
+			say = "...Uhh, is this thing broken? I mean, it’s saying that I’m so late I wouldn’t even have time to get ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "并没有坏好吧！ 都怪你啦，这不是连我都要迟到了嘛？！",
+			say = "O’course it ain’t broken! We’re all gonna be late ‘cause of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "得赶紧了…！慌慌张张滚下床，手忙脚乱地开始准备去学校——",
+			say = "Holy cow! She wasn’t kidding! I practically trip over the sheets as I scramble out of bed, grabbing whatever I can before I bolt toward the academy.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "——港区·学院",
+			say = "—Academy, Cherry Tree Walkway",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再快点！上课铃马上就要响了！",
+			say = "Hurry! The morning bell’s about to ring!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "气喘吁吁地穿过校门。教室就在眼前了…！",
+			say = "I dash through the academy gates, my chest on fire from gasping for breath. But I’m almost there... to the classroom...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "每次都像这样踩点！要是我自己的话肯定能更准时的…唉…",
+			say = "You’re always like this, cutting it close every day. If I didn’t have to wait for you, I’d never even get close to being late... Hmph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "喂！不是说了在外面要把我当成同学吗！",
+			say = "H-hey! Didn’t I tell you to treat me like a normal classmate when we’re outside?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我虽然是你家的女仆，但是在学校我们就只是同学！明白的话就点点头！",
+			say = "Even though I’m your family maid, at school, we’re just ordinary classmates! Nod if you understand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "点头——但是格拉斯哥傲娇地转过头不看我，脸颊鼓了起来。",
+			say = "I nod, but Glasgow turns her chin away from me, her cheeks puffed out pridefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "还真是一如既往啊…突然发现，不知何时开始，与她这样的互动已经成了自然而然的风景。",
+			say = "Now that I think about it, the relationship between the two of us hasn’t really changed all this time, and moments like this have become fairly commonplace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "但是…一直保持像现在这样的关系…真的就够了吗？",
+			say = "However, if things were to continue just like this... would either of us be satisfied?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 202261,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好！准时到了！…真是的，明天要好好自己起床啊！我会去检查的！",
+			say = "We made it! ...Good grief, you’d better get up on your own tomorrow. I’ll go check on you before I head out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "——春天…恋爱的季节。",
+			say = "—Spring, the season of love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "有时候，她是某人的女仆。有时候，则是同学校的同学。",
+			say = "At times, she is a maid in service in someone’s service. At other times, she is a classmate from the same school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "这便是，不坦率的少女格拉斯哥让人心跳不已的恋爱故事——",
+			say = "This is the heart-throbbing love story of Glasgow, a girl who isn’t at all straightforward with her feelings...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

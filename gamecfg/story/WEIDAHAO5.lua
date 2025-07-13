@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"外出！寻得珍宝吧！\n\n<size=45>五　终点就在前方</size>",
+					"Set Sail - Treasure Voyage!\n\n<size=45>The Goal is in Sight</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "穿过大门后，我们进入了一个宝物库中。放眼望去，视线中尽是琳琅满目的“宝藏”。",
+			say = "As we step through the door, we are greeted by a veritable sea of treasure, as far as the eyes can see.",
 			bgm = "story-richang-13",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "哇……怎么什么东西都有啊……",
+			say = "Wooooah... Anything is possible here, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "啊……这个花瓶……哦，不是真的，真的那个在我的仓库里……",
+			say = "Huh, this vase... Wait, no. The real thing's sitting in my treasure trove. This is just a replica.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这个游戏，已经绝版了……我一直蛮想要的。",
+			say = "Holy moly, I've always wanted to get my hands on this out-of-circulation game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "这个口味的薯片好少见哦……",
+			say = "And this flavour of potato crisps... It's basically an urban legend!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "维达在“宝藏”堆里游走着，而我注意到了房间墙壁上的文字提醒。",
+			say = "As I watch her roam the mountain of treasures, I suddenly notice some writing on the wall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维达，看那边。",
+			say = "Come take a look at this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……指挥官直接念给我听不就好了……",
+			say = "Ehh... What a pain. Mind reading it for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "“带着最珍贵的宝藏离开‘幽灵船’，就能取得最后的胜利。”",
+			say = "\"Escape from the ghost ship with the greatest treasure in hand, and you shall be granted the greatest victory.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "最珍贵的宝藏吗？",
+			say = "\"The greatest treasure?\" What the heck is that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "嗯……指挥官觉得什么才是最珍贵的宝藏？",
+			say = "Hmm... Any guesses?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在宝藏方面并没有特别的想法，交给经验更丰富的维达来选择会更好。）",
+			say = "(This isn't my area of expertise. If anyone's knowledgeable about this stuff, it's got to be her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "维达来选就好。",
+			say = "Sorry, I'm drawing blanks here. I think this one's up to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……做选择也是件麻烦的事情呢……",
+			say = "How am I supposed to pick just one thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "那要不还是看看绝版游戏吧……",
+			say = "Maybe I'll go with the out-of-circulation game after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,21 +232,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "虽然抱怨着，可是维达还是在宝藏堆里挑挑拣拣起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_130",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 9600050,
-			say = "游戏算是最珍贵吗……论价值的话，肯定不是……",
+			say = "Even as she grumbles, she starts sifting through the mountain of treasure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +246,21 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "如果是单纯从意义层面出发的话……唔……最珍贵……",
+			say = "Can you really call a game the \"greatest\"? In terms of monetary value, definitely not...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_130",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 9600050,
+			say = "What about \"the greatest,\" in a literary sense? The most precious? The most influential?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "维达抬头看向了我。",
+			say = "She stops and turns to look at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了？",
+			say = "What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "没什么……只是我知道要选什么啦。",
+			say = "It's nothing... I think I've made up my mind, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "维达放下了手中的绝版游戏，走到我面前，握住了我的手。",
+			say = "She sets down the discontinued game and comes over to take my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？维达什么都不拿么？",
+			say = "Hmm? Not going to choose anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "我已经选好啦。",
+			say = "I've already made my choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 9600050,
-			say = "——走吧，指挥官。",
+			say = "Let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "维达再次牵起了我的手，拉着我从另一个门离开了宝物库。",
+			say = "Hand-in-hand, the two of us leave the treasure vault through a different door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -24,7 +24,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_4",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -34,7 +34,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_5",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -44,7 +44,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_6",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -54,7 +54,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_7",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -64,7 +64,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_10",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -74,7 +74,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_12",
-				number = 0.2
+				number = 10
 			}
 		},
 		{
@@ -84,7 +84,7 @@ return {
 			},
 			arg_list = {
 				attr = "DMG_TAG_EHC_T_13",
-				number = 0.2
+				number = 10
 			}
 		},
 		{

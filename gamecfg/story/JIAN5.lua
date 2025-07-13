@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"指挥官，该动筷了！\n\n<size=45>五　无法轻言放弃</size>",
+					"Commander, It's Time to Eat!\n\n<size=45>5 Never Give Up!</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Hmm...",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "唔……",
+			say = "Mm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然很难理解啊。",
+			say = "Frankly, I'm stumped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明明一切都在可控范围，为什么会突然出现这种状况……",
+			say = "You're keeping to the process and to my warnings. How did this happen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "哎呀……为什么效果总是差强人意呢……",
+			say = "*sigh*... Why is it always like this when I'm so close to doing it right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "解决完刚刚的突发情况后，济安和我对视一眼，然后陷入了沉默。",
+			say = "After putting out the fire, the two of us looked at each other and fell silent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "就在我思索着如何破局的时候，她突然紧紧握住了我的手。",
+			say = "While I'm thinking of how to solve this conundrum, she suddenly grasps my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "少女看向我的眼神带着探究，似乎在试图确认某种情绪。",
+			say = "Her eyes gaze searchingly into mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "指挥官……",
+			say = "Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "……这件事，姐姐我是不是做错了呢？",
+			say = "...Did I do something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "原本是为了让您即使在繁忙的工作中，也可以好好补充营养……",
+			say = "I just wanted you to get proper nutrition even while you're busy at work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "所以我才提议做那些饭菜，让您批准我使用厨房，让您和其他人操心了……",
+			say = "That's why I asked for your permission to use the kitchen. But I only ended up causing trouble for you and everyone else in the end...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "……没想到，作为倾听烦恼的人，反而成了制造烦恼的一方呢。",
+			say = "I'm supposed to be the one who solves your troubles, not makes them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,18 +206,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "指挥官，下厨这件事，我是不是……放弃会比较好？",
+			say = "Commander... Should I just give up on cooking entirely?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "还不是放弃的时候",
+					content = "(Encourage her to keep trying.)",
 					flag = 1
 				},
 				{
-					content = "我尊重你的选择",
+					content = "(Support her decision.)",
 					flag = 2
 				}
 			}
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "还不是放弃的时候，济安。",
+			say = "It's too early to give up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "正是感受到了你的这份心意，我才会提议进行厨艺特训。",
+			say = "I offered to train you because I sensed genuine concern in your words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我想，你其实也不喜欢半途而废的滋味，对吧？",
+			say = "You don't want to throw in the towel halfway through, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "放弃与否，我都会尊重你的选择。",
+			say = "Give up or not, I respect and support your decision.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "但我也希望，你不要因此放弃了自己的喜好……",
+			say = "But in my personal opinion, I don't want you to give up on what you love.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "更不要后悔自己的决定。",
+			say = "Don't make a decision you'll regret.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "指挥官……我其实是",
+			say = "Commander... I want to be by your side forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "所以不希望您在日后与我作伴的时候，会想起今日的烦恼，会不自觉皱起眉……",
+			say = "In our future together, I don't want you to look back on today with any unhappiness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……如果您愿意继续陪我尝试的话……",
+			say = "But... If you're still willing to help me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "我还是想能做出让您感到幸福的美食的！",
+			say = "Then I want to make food that will make you genuinely happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "哎呀……好像把话说得太满了。",
+			say = "Um... I may be dreaming too big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，更正一下好了，我想至少拿到厨房的正常使用权！",
+			say = "Hmm, let me correct myself: first, I want to earn the right to use the kitchen without causing trouble for others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那我们继续特训吧。",
+			say = "Then it sounds like we'll continue our training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "嗯~！",
+			say = "Okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

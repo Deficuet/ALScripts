@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>四　真正的实验？</size>",
+					"Science Rules!\n\n<size=45>Chapter 4 - A Real Experiment?</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "……{namecode:37}。",
+			say = "... Yuubari?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "未经许可使用科学教室，这可是要上军事法庭的！",
+			say = "I could have you court-martialed for using the science room without permission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真、真的吗？",
+			say = "R-really!? Can she do that!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:37}，是科学教室的管理员。",
+			say = "Yuubari is part of the committee that oversees the science room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对不起，我错了！",
+			say = "Oh gosh, I'm so sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，不过看在你一心追求科学的份上，这一次我就睁一只眼闭一只眼吧。",
+			say = "But, you love science and have your heart in the right place, so just this once I'll let it pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谢谢你，{namecode:37}！",
+			say = "Phew... Thank you, Yuubari!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…这个烟雾里的成分，还有…",
+			say = "Now, this smoke... *Sniff sniff*... Hmm, interesting...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你用的这些成分…原来如此，你是想要研制糖分弹药吗",
+			say = "And what about these chemicals... Ah, I see, you're making practice ammunition made of candy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯嗯！（眼神发光）",
+			say = "Yep, hit the nail on the head!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来真的有这种东西吗！？",
+			say = "Is it even possible, though!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是圣诞节的那个呀！",
+			say = "It is! Remember that Christmas thing? Something called a \"gear skin\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…那个，难道真的是能吃的吗？！",
+			say = "But is it edible!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼 ，就当做是给刚刚打开科学这扇大门的初学者一点指导吧，跟我来",
+			say = "Hoho, it seems I must offer guidance to our new science department members.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让你们学习一下什么是“真正的科学实验”！",
+			say = "Come, I will show you what it means to conduct a real scientific experiment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "喔！！！",
+			say = "Heck yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

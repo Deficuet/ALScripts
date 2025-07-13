@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>三　阴天有雨</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>3 Gathering of Dark Clouds</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "重樱本岛·大图书馆",
+			say = "Sakura Islands - The Great Library",
 			bgm = "story-richang-7",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是重樱最庞大的资料库，几乎所有的珍贵典籍都能在这里……",
+			say = "Sheesh, this library really has it all, from books you'll find anywhere to ancient tomes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然所有能碰到的机密文件里都看不出问题，也许在公开记录里会有什么线索。",
+			say = "Since there was nothing unusual in the confidential files, I guess my only option is to look through older documents.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟是民间的纸质记录，就算想要对其进行大规模修改，也总该会出现百密一疏的情况……",
+			say = "I'll at least know if someone's tampered with those. You can alter digital data without leaving a trace, but not so with physical paper and ink.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "{namecode:96}穿行在林立的书架间。即便身处这个资料的宝库中，也不见她的眉头有一丝舒缓。",
+			say = "Zuikaku trodded through great bookshelves forming long rows. Ancient works were lined up high, but her spirits were low.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,24 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……果然就像大前辈说的那样，被划分为圣地的地方或多或少都存在记载断裂的情况。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "star_level_bg_116",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "关于御神木与天宇启户祭的部分也是……",
+			say = "Mikasa was totally right. Nearly every record covering the Sanctuary is inconsistent with the next.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +131,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然能查到更早的记载，但有些是孤本，有些则明显有生搬硬套的违和感。",
+			say = "Same with any books touching on the Sacred Sakura and the Diadem of Light...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就像什么人出于某种目的故意做旧加进去的一样……",
+			say = "There are records dating further back, but they're either the only copy known to exist, or the things written in them don't make sense.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道它们的历史，真的不如公开信息所宣传的那样久远么。",
+			say = "It's almost like somebody went and fabricated a bunch of stories...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +182,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，究竟具体是从哪个时期开始的……",
+			say = "...As if they wanted to tamper with our legends.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "star_level_bg_116",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "If so, how long have they been doing it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "就在{namecode:96}沉浸于资料的海洋中时，一个柔弱的声音打断了{namecode:96}的思路。",
+			say = "She continued rummaging through papers. Then, she suddenly heard the voice of a young girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96}，你是来这里查资料的么……",
+			say = "Z-Zuikaku, are you looking for a book?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯 ，是哦。{namecode:34}也是么？",
+			say = "Kisaragi? I guess you could say that. You looking for one, too?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只是来这里……稍微转一圈。",
+			say = "No... I-I just came to give you a message.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "「阴天有雨，今天最好先回去哦。」",
+			say = "\"A storm is coming. You should head home soon.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？好的，多谢关心。我查完资料就回去啦。",
+			say = "I see... Thanks. I'll get going as soon as I find the book I need.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就好，{namecode:34}就不打扰你了……",
+			say = "Okay... I'm gonna leave then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一定要，尽快回去哦……",
+			say = "Don't stay too long, okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "{namecode:34}转过身走出一段距离，回头看向扔在埋头阅读的{namecode:96}，犹豫了一下，最后还是消失在林立的书架中。",
+			say = "Zuikaku resumed reading. When she looked over her shoulder just a moment later, she saw Kisaragi had disappeared into the forest of literature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,24 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到{namecode:34}也会来大图书馆，嗯……爱学习是好事。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "star_level_bg_116",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "要下雨的话，一会买把伞就好了。",
+			say = "How'd she find her way here? That's kind of... Nah, I'm probably overthinking it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +391,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在最宝贵的就是时间，不继续调查下去可不行啊……",
+			say = "She's right about the storm thing. Looks like it's gonna rain. I'll buy an umbrella on my way home.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "star_level_bg_116",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "...Gah, I'm getting distracted! Need to find something ASAP and tell Mikasa about it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "当{namecode:96}终于读完了眼前的书堆，抬头望向窗外之时，天已经全黑了。",
+			say = "Zuikaku put down the last in a series of documents and gazed out the window at darkly overcast skies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不好，已经这个点了。",
+			say = "Oh crap, I lost track of time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的资料就先查到这里，明天再继续吧~",
+			say = "Guess that's enough reading for one day. I'll come back and read more tomorrow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "雨也下了这么大，得找个地方买把伞才行……",
+			say = "It's really pouring down out there... I'll definitely want an umbrella before I head back.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_116",
 			hidePaintObj = true,
-			say = "{namecode:96}整理好衣服，正准备站起身时，视野中突然出现了一把伞。",
+			say = "She put on her coat and began heading for the store. That's when a girl with an umbrella appeared from nowhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:96}，如果不介意的话，请用这把。",
+			say = "You may use mine if you'd like.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:206}啊，多谢~你也是刚查完资料准备回去的么？",
+			say = "Oh! Thanks, Yura! Whatcha here for? Looking for something to read?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302070,
-			say = "不，我是来向你传达{namecode:84}大人的命令的。",
+			say = "Not exactly. I've come to relay orders to you from Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哎，{namecode:84}大人？",
+			say = "Come again? Musashi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302070,
-			say = "{namecode:96}，{namecode:84}大人希望你能代表重樱前往铁血位于帕克菲克洋中的某处基地，以便商讨后续合作的事。",
+			say = "Yes. She wants you to travel to an Iron Blood base at once to serve as the Sakura Empire's representative there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……等等，具体是哪里的基地，和铁血协商什么合作的后续……？",
+			say = "Talk about sudden... Where even is this base? And what am I supposed to say to them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302070,
-			say = "{namecode:84}大人说，这些内容将会在你离开本岛后发送给你。",
+			say = "Sadly, I don't know. However, I've been told you'll be sent further details after you depart.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302070,
-			say = "前往港口的车已经等候在图书馆门口了，请你立刻动身。",
+			say = "There's a car waiting outside for you. I suggest you get in, go to the port, and set sail as soon as you can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诶，立刻出发？等等……这么急么，我有点搞不清楚状况。",
+			say = "Cruising in the rain isn't exactly my– Wait, what? I have to go NOW?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 302070,
-			say = "这是{namecode:84}大人的直接命令哦，{namecode:96}。",
+			say = "Yes. Those are Musashi's direct orders.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……明白了，我服从调动命令就是。",
+			say = "Oookay then... I'll head out right away.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（偏偏在这个时候收到调动命令……{namecode:84}大人究竟有什么计划……）",
+			say = "(What's going on here? Why send me away now, Musashi?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,7 +724,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……唉，只能希望{namecode:95}姐那边的调查能够顺利了。）",
+			say = "(I'll have to tell Shoukaku to take over the investigation for me... I hope she can find something while I'm gone.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "（拜托了，把我的好运分给{namecode:95}姐一些！拜托了！）",
+			say = "(Here's praying some of my good luck will come your way, Sis!)",
 			painting = {
 				alpha = 0.3,
 				time = 1

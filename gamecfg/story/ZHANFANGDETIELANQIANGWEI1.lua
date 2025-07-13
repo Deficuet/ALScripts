@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绽放的铁蓝蔷薇\n\n<size=45>一　桑德菈不对劲？</size>",
+					"The Iron Rose Blooms\n\n<size=45>1 Seydlitz Seems... Off</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "清晨·指挥室",
+			say = "Morning - Commander's Office",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在处理{namecode:460}交过来的文件时，发现了几个低级错误——",
+			say = "While checking a document Seydlitz gave me, I happened to spot an unusual number of careless mistakes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,14 +59,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……………………",
+			say = "It was certainly uncharacteristic of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这里写错了。",
+					content = "\"I can't help but notice a few errors here and there.\"",
 					flag = 1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "欸？！我看看……",
+			say = "Oh, I'm so sorry! I'll go over it one more time!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "怎、怎么会这样……标号居然全反了……",
+			say = "Ugh, how could I let this happen? I put all the numbers in reverse order...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "抱歉，长官……",
+			say = "I'm sorry, Commandant. This is all my fault!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "悄悄观察了一番，{namecode:460}确实有些无精打采的样子。",
+			say = "She apologized vigorously, but she clearly was not her acting her usual self.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "而平时的{namecode:460}应该是这个样子的——",
+			say = "Normally, Seydlitz would be more like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我会在长官面前好好表现的！",
+			say = "Commandant, I'll devote every bone in my body to assisting you with your work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "大家回来了，需要我帮您去清点物资吗？",
+			say = "The commission team has returned to port! Would you like me to check the supplies in your place, Commandant?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "没关系，剩下的任务放心交给我，长官！",
+			say = "No problems here! Commandant, leave the rest of your duties to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "是！不论什么任务，{namecode:460}都会严格按您制定的标准完成！",
+			say = "Hah! No matter what the mission may be, I will carry it through to your specifications, Commandant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
-			say = "……………………",
+			say = "It was certainly uncharacteristic of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,14 +401,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "{namecode:460}她究竟是怎么了，问题好像还蛮严重的样子。",
+			say = "(She's really down. What could have happened to her?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问无精打采的原因。",
+					content = "\"If anything is wrong, I'm glad to try and help.\"",
 					flag = 1
 				}
 			}
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "其实……",
+			say = "Thank you! Actually, the thing is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "昨日铁血宿舍的猫咪走失，出于担心，花了一整晚的时间寻找。",
+			say = "Yesterday, the Iron Blood dormitory cat ran away. I was so worried that I ended up searching the whole night for her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "因为搜寻过程中耗费了太多精力，结果就……唔！十分抱歉，长官！",
+			say = "I haven't gotten any rest, so it's a little hard to concentrate... Ugh, I shouldn't be making excuses like this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "我不应该给自己找理由的！",
+			say = "Commandant, I sincerely apologize for causing you trouble!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "总、总之，猫咪已经于早上自行返回！所以我、我……呜………………",
+			say = "Also, the kitty came back this morning, so... Basically, I just, uhh... Y'know...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			},
 			options = {
 				{
-					content = "原来如此。",
+					content = "\"I get it.\"",
 					flag = 1
 				}
 			},
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "猫咪也真是的，有点太我行我素了，简直就和{namecode:427}一样……",
+			say = "Sure, she's a cat and all, but that doesn't mean she can be all lazy and self-centered. I mean, she's not Eugen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "再怎么说，就算要出去也该提前打个报告呀！",
+			say = "At least let people know before you go out! That's just common courtesy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "早上回来的时候，浑身还脏兮兮的，一看就是跑去哪里撒欢了！",
+			say = "When she came home this morning, she was filthy. She looked like she was just out partying all night, or something!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -596,7 +596,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "看来猫猫对她造成了身体和精神上的双重打击。",
+			say = "\"It seems like the cat tired you out physically AND mentally.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404030,
-			say = "真是一点规矩都没有了……",
+			say = "The real problem is that she thinks she makes all the rules...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次一定要教会这只猫遵守门禁制度才行……",
+			say = "I'm going to have to teach her proper discipline. That includes coming back by curfew.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "还是给她打杯咖啡，让她暂时放松一下吧——",
+			say = "\"I have some coffee, if you'd like. Why don't you rest for a while, maybe take a nap?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

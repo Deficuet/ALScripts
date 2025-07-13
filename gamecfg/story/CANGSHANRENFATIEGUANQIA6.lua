@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_1",
 			hidePaintObj = true,
-			say = "镜面海域·某处",
+			say = "Mirror Sea - Somewhere else",
 			bgm = "sk-theme",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "——所以就是这样。我们一边在学院修炼忍术，一边不分昼夜地为国家和平而战！",
+			say = "...And there you have it. We study ninjutsu at school while fighting day and night to protect the peace!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好厉害！果然忍者为了完成使命，需要经历很多修炼呢！",
+			say = "Amazing! A shinobi needs to go through much training to carry out her duty, after all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "但每当成功完成艰难的任务时，也格外令人开心......",
+			say = "All that work makes it all the more satisfying when you complete a tough mission, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是飞鸟阁下！身为忍者十分出色，太帅了！那，到现在为止你们都做过什么样的任务呢？",
+			say = "An attitude befitting a cool shinobi such as you! Speaking of which, what missions have you accomplished before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "嗯，比如当我遇到焰酱的时候……",
+			say = "Good question. For a start, there's the time when I met Homura...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 11000020,
-			say = "感觉她们已经变得很亲近了呢，就像关系要好的姐妹一样。",
+			say = "Seems those two have already become best friends. They've all but formed a sisterly bond.",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "嗯，毕竟平时她都是被照顾的那一方，现在这样也不错，不是么？",
+			say = "I mean, what's wrong with that? Someone's gotta look after that big baby.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过话说回来，感觉我们已经走了很久。别说同伴的身影，就连陆地的影子也没看到呢。",
+			say = "On another topic, we've been on the move for a long-ass while now and haven't seen any land, never mind any friendlies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_kagura_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "带走雪不归小姐的那束光就是这个方向传来的，所以我们现在也只能向着前方继续前进。",
+			say = "No, but this is the direction the light that took Fubuki came from. All we can do is keep moving forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "估计{namecode:11:晓}小姐说的那些前来救援的人，也一定会先把那里当成目标。",
+			say = "The rescue party Akatsuki spoke of is surely heading there, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "同时，如果有其它学院的学生们也来到这里的话……在看到那束光之后，她们应该也会往相同的方向走。",
+			say = "Finally, other students – assuming there are more – should be heading to where the light came from if they saw it as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，直到来到这里之前，我们都一直在一起。所以雪泉她们也很可能在这边。",
+			say = "I was talking to 'em right before we got sent here. There's a high chance Yumi's somewhere around here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "确实如此……得尽快与她们会合才行……",
+			say = "Ah. Then we'd better find her soon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "飞鸟阁下，可以请你展示一下简单的忍术吗！拜托了！",
+			say = "Do you know any simple ninjutsu you could demonstrate to me? Pretty please!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "好吧，那就来一个简单的束缚术……{namecode:11:晓}酱，试着握住我的手看看？好，那接下来……",
+			say = "Sure, if basic capture ninjutsu will do. Give me your hand for a sec. Okay, now, let's take this rope aaand...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哇！怎么也动不了，在下用尽全力也挣脱不了！",
+			say = "Whoa! I can't move one inch, let alone untie myself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "然后再这样……",
+			say = "And now if I do this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "疼！疼疼疼疼！！！！",
+			say = "Ow! Oww! Owwwww!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:11:晓}她不要紧吧？出去巡逻后就一直没有联系我们，都过去了好久了……",
+			say = "I hope Akatsuki is okay. She has been unreachable for some time now since she went on her patrol...",
 			bgm = "sk-az-battle",
 			painting = {
 				alpha = 0.3,
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 319010,
-			say = "咦？那个被困在那里的，不会是{namecode:11:晓}吧……？",
+			say = "Wait... Isn't that her over there? And she's been tied up...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "该怎么办……如果真的要战斗，只靠我一个人的话……",
+			say = "Someone has to save her... But if it comes to a fight, I doubt I can fend the attackers off by myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "疼！疼疼疼疼！！！！",
+			say = "Ow! Oww! Owwwww!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 319010,
-			say = "{namecode:11:晓}有危险……！？等、等等，你们这群人，快放开{namecode:11:晓}！！",
+			say = "Oh no! They're hurting her! ...Y-you there! Let go of Akatsuki right now!",
 			painting = {
 				alpha = 0.3,
 				time = 1

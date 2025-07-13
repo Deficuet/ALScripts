@@ -4,11 +4,11 @@ return {
 	once = true,
 	scripts = {
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "哎呀呀~居然是声东击西，真是大意了，现在的新人都是怪物吗",
+			say = "Aya! A diversion. I was too careless! All these new Commanders are monsters!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -26,7 +26,7 @@ return {
 			actor = 106010,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "嘻嘻，只是大黄蜂大人总是一味的想着进攻，让我们运气好钻了个空子而已。",
+			say = "*Heehee* Hornet, you were just focusing on your attacks! We managed to find an opportunity.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "哼哼，这一次是我大黄蜂大人败了！但是，我的两个姐姐大人可比我厉害得多了，未来有机会的话你们一定要好好的和她们切磋一下！",
+			say = "Hornet lost, but just this once! My two sisters are even more powerful than me. Test yourself against them in the future if you dare!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "话说回来，姐姐大人们正好都去执行任务去了，真是可惜呀，不然就可以跟你们好好的介绍一下了。",
+			say = "Sadly, my sisters are out on a mission. It's a pity that you can't meet each other today!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -80,7 +80,7 @@ return {
 		},
 		{
 			soundeffect = "event:/ui/alarm",
-			say = "全员注意，全员注意，主港区遭到不明敌机空袭，全员一级戒备，这不是演习！",
+			say = "Attention all crew, attention all crew! The main harbor is under attack. It's an airstrike! All hands on deck! This is not a drill!",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			say = "再重复一遍，全员一级戒备，这不是演习！",
+			say = "Repeat. All hands on deck! This is not a drill!",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -104,9 +104,9 @@ return {
 		{
 			side = 1,
 			nameColor = "#ff0000",
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			dir = -1,
-			say = "什么情况，主港区受到空袭？居然挑的这个时间…难道是“塞壬”打过来了？",
+			say = "What's going on? The harbor is under attack? Could it be the Sirens?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -124,7 +124,7 @@ return {
 			actor = 106010,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "不清楚，我们收到电报要求立即回港支援，看来情况确实不妙呀",
+			say = "It's unclear. We received a telegram requesting us to return to harbor at once. This doesn't look like it's going to end well.",
 			shake = {
 				speed = 0,
 				number = 3
@@ -141,9 +141,9 @@ return {
 		{
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			dir = -1,
-			say = "好的，是该分别的时候了，记得换上实弹武器，接下来要面对的可就不是演习了呵呵。",
+			say = "It's time that we part ways. Remember, we'll use live ammo next time! No more drills for you, Commander.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			say = "——为了碧蓝色的自由意志，天佑白鹰",
+			say = "For the Eagles! For freedom!",
 			shake = {
 				speed = 1,
 				number = 3

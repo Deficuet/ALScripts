@@ -11,7 +11,7 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，陛下，周边区域中的塞壬舰队与设施已经被我们清理干净了。",
+			say = "Commander, we have successfully eliminated all Sirens in the area.",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "塞壬机群姑且还是抵抗了一下，不过在我等航空力量的打击下，也没有比舰队坚持更长时间。",
+			say = "Their aircraft proved a tad troublesome to bring down, but they never stood a chance against our combined air force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "毕竟平台起飞的弱点就在于——只要消灭了平台，也就无法起飞了嘛~",
+			say = "Mhm. Once you take out the carriers, their planes lose most of their bite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			paintingNoise = true,
 			dir = 1,
-			say = "我们会继续向下一处区域移动，祝各位作战顺利。",
+			say = "Well, we're moving on to the next area then. Good luck over there, or whatever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这种时候才切身感觉到这次总攻舰队的夸张规模呀……",
+			say = "Wow! It's amazing what we can do when we really go all-out like this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊……我们都还没怎么出手周边敌人已经被清理得差不多了。",
+			say = "It really is. They cleared the entire area, and our fleet didn't even have to fire a single shot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是有种气势如虹的感觉呢！",
+			say = "Hell yeah. Feels like nothing can stop us now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "刚刚的是鹰和英仙座……？皇家把极地航线的舰队也调过来了么？",
+			say = "\"Was that Eagle and Perseus just now? I thought they were deployed in the north?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "眼神和反应值得夸奖！没错~是本王把她们调过来的！",
+			say = "Surprised? Heheh! I made some arrangements to get them redeployed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北方联合会在大型作战期间采取稳健的防守策略，在NA海域中也与赤色中轴顺利实现了停火。",
+			say = "Her Majesty managed to strike an agreement with the Northern Parliament and involve them in the operation as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "短时间内抽调极地航线上的舰队并不会对于极地战况产生影响——陛下是这么判断的。",
+			say = "In essence, due to the critical nature of this operation, their participation will not impact the war situation in the north.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在正是作战的关键时刻，皇家会集结所有力量，一举荡平NA海域的塞壬威胁！",
+			say = "When we said we'd send everyone we could, we meant it. Now let us advance and purge this ocean of its Siren blight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

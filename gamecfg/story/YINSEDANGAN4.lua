@@ -11,23 +11,23 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>权限验证中————————————</size>",
+					"Access authentication in progress–––",
 					0.5
 				},
 				{
-					"<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>",
+					"Archived data from [CV-3 Saratoga] –– Access Level: II",
 					1
 				},
 				{
-					"<size=51>权限验证完毕————————————</size>",
+					"Access authentication successful–––",
 					1.5
 				},
 				{
-					"<size=51>数据解析中————————————</size> ",
+					"Accessing data–––",
 					2
 				},
 				{
-					"<size=51>正在播放纪录————————————</size>",
+					"Starting data playback–––",
 					2.5
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "……为了在对抗塞壬进攻的同时尽快抵达前线，我一面分散舰队，一面向前突击。",
+			say = "\"The fleet responsible for chasing down the Siren stragglers detected signals from a Sakura Empire ship to the west.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于在凌晨时分，我抵达了指定区域。",
+			say = "\"The aforementioned ship rushed to the source of the signal to investigate.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "虽然沿途分散的舰队成员尚无人抵达，我依然决定独自发起攻击。",
+			say = "That aforementioned ship is yours truly, Sister Sara!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,165 +103,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "舰载机在夜幕中穿行着，掠过宛如星空一般的海面。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			say = "只不过在这片黑色的星空中，闪耀着的并非群星的倒影，而是无数塞壬军舰散发出的暗淡光点。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			say = "如果不能尽快结束战斗，所有尚未撤退的同伴都会被这股黑色的浪潮所吞噬吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "心中萦绕着这个念头，我加快了搜索步调。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			say = "终于，我在一片由量产型残骸构成的明亮火场中找到了陷入大破状态的{namecode:91}、{namecode:92}和{namecode:93}。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "{namecode:94}似乎依靠自身动力前进了一段距离，最终还是倒在了她们稍远处的地方。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			say = "就在我想发动攻击彻底结束战斗时，我发现了一件事————",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107030,
-			nameColor = "#a9f548",
-			say = "在烈焰与浓烟之中还有一个人影，一个拥有巨大的舰装的塞壬人型单位。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "因为距离过远，我无法分辨具体型号。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "难道塞壬打算替我们完成最后的收尾工作么，一瞬间我产生了这样的想法。",
+			say = "\"Carrier-based reconnaissance revealed a large amount of Siren wreckage in the western sector.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,41 +121,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "不过这个塞壬人型单位并没有发动攻击，只是在这样极近的距离静静“欣赏”着燃烧的重樱舰队。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "我也将舰载机隐藏在云层之中，静静观察着事态的变化。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "然后……冲击出现了。",
+			say = "\"This suggested that a battle had broken out between the Sirens and another large fleet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +139,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "以{namecode:91}为中心，向四周发出了一股，我隔着仪器不知道应该怎么形容的……肉眼可见的红黑色冲击波？",
+			say = "\"Because the Eagle Union had only deployed ships to the eastern sectors, we can conclude that the combatants were–––\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,41 +156,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "红黑色的冲击将塞壬人型单位击出数十米远。当然，这也可能是它主动采取规避手段的表现。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "冲击波的影响的范围极广，我的舰载机虽然因为距离过远幸免于难，但是更近一些的塞壬量产型舰队就没这么好运了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 107030,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "奇怪的是，处于冲击正中心位置的{namecode:91}与{namecode:92}却好像没有受到任何影响。",
+			say = "\"The Sakura Fleet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +174,233 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "几乎与此同时，一个红黑色身影凭空出现在{namecode:91}与塞壬人型指挥者之间。",
+			say = "I remember seeing Akagi, Kaga, Souryuu, and... yeah, even Hiryuu. Everyone looked like they had been through hell.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Even if I wanted to help, I was simply too far away... Besides, given how tricky things are with the Crimson Axis...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "\"In addition to the Sakura Empire fleet, another Siren command unit was observed nearby.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "\"The humanoid command unit was not observed attacking the Sakura Empire fleet.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"Finally, considering the damage inflicted upon the Sakura Empire fleet, we can conclude that the command unit did not need to participate in combat to achieve its desired results.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "That's why I tried to send a fleet after it as quickly as possible!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "I even had my planes fly up higher to get a better grasp of the whole situation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "But in the end, I couldn't figure out what the Siren was up to...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"Regarding the special phenomenon...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "\"A shockwave with an observable reddish-black 'color' appeared around CV Akagi.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"In addition to repelling the humanoid Siren, almost all mass-produced ships in range of the shockwave were destroyed.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"However, the other ships of the Sakura Empire were not visibly affected by the effects of this shockwave.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			actor = 107030,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "\"Based upon the extent of the damage inflicted to these carriers, this attack was unlikely to have been carried out using any weapons we currently know of.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_1100",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "I seem to remember... seeing someone else there for a brief moment as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "因为相同的原因，我无法看清那个身影的面目。",
+			say = "But who was it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过…………我认为，她应该是舰船。",
+			say = "I could've sworn I've seen her at some point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "而且我对她有一种仿佛曾经在哪里见过的熟悉感。",
+			say = "But when...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "究竟是为什么呢………………",
+			say = "Who was it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 900284,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数据解析异常————————————",
+			say = "Playback error, missing file path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "播放中断————————————",
+			say = "Ending playback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,12 +5,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "theme-donghuang",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "指挥官，舰队已经顺利抵达预定海域，已经能看到塞壬的外围防线了。",
+			say = "Commander, the fleet is in position. I can see the Sirens' defenses from here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "镇海，华甲，你们的情况如何？",
+			say = "Chen Hai, Hwah Jah, what's your status?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "北海风暴解析舰队已经抵达预定海域，等待总攻命令。",
+			say = "In position, ready and waiting to start firing at your command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506020,
-			say = "报告指挥官，我这边也一样，南海风暴解析舰队已经抵达预定海域，等待总攻命令。",
+			say = "Ditto. We've arrived at our designated location, awaiting your order to open fire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,11 +90,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东煌的诸位盟友还有指挥官同志，我已带领北方联合极地舰队与特别计划舰舰队抵达预定海域，等待总攻命令。",
+			say = "This is Sovetsky Soyuz, reporting to the Empery and the Commander. Our Antarctic Fleet and Blueprint Fleet are in position and awaiting orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好久不见，没想到这次是你亲自带队。",
+			say = "Are you commanding the fleets yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本次的作战目标是拔除塞壬马里亚纳群岛要塞群，彻底摧毁围困东煌多年的大风暴控制设施。",
+			say = "I am. Our objective, after all, is to take the Mariana Islands and destroy the machine that creates the Storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事关重大，必须由我亲自带队才行。",
+			say = "To that end, I feel I should be on the ground with my troops. Well, on the water, but you know the saying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且我把新组建的特别计划舰舰队和META基洛夫同志也带来了，希望能帮到你。",
+			say = "I have blueprint ships and Kirov META accompanying me. I hope they'll be of service to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "纳希莫夫海军上将，向东煌的诸位盟友还有指挥官同志问好。",
+			say = "Admiral Nakhimov here. I'm glad to be fighting with you all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "……你就是指挥官同志？多阵营联合行动么……真是好大的手笔。我会关注你的表现的。",
+			say = "Bringing several different factions to the same battle... Very interesting. I'll be watching and learning from your commanding style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,11 +219,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			actor = 407030,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "指挥官，还有东煌的诸位，我是{namecode:471:彼得}·史特拉赛。",
+			say = "This is Peter Strasser of Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 407030,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "现在带领铁血{namecode:435:俾斯麦}海浮岛要塞驻防诸舰队前来支援本次针对塞壬马里亚纳群岛要塞群的作战行动。",
+			say = "You called, Officer, and the Floating Fortress Fleet has answered. We will help you capture the Mariana Islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499090,
-			say = "铁血计划舰舰队所属，{namecode:521:兴登堡}，等待总攻命令。",
+			say = "Hindenburg speaking. We're waiting, Contract Binder. Give us your orders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好久不见，指挥官，我也来帮你了~",
+			say = "Heheh. I could never turn down a request for aid from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499050,
-			say = "呵呵，每次见到你的时候都是大场面啊，真是有趣。",
+			say = "I expect this to be a rousing battle. As always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，皇家安塔迪卡洋舰队前来支援。",
+			say = "The Royal Navy's South Pacific Fleet has arrived.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅如此，我在赶路的时候还遇到了一位鸢尾骑士呢~",
+			say = "We encountered an Orthodoxy squire along the way. She wants to talk to you, so I'll put her on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801020,
-			say = "鸢尾骑士福尔班，奉黎塞留圣座的命令前来支援指挥官的战役行动。",
+			say = "I am Forbin, Templar Knight of the Orthodoxy! I'm here to partake in your operation on Cardinal Richelieu's orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你和黎塞留的通讯恢复了？",
+			say = "Wait, Forbin? Are you able to signal Richelieu all the way from here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801020,
-			say = "只恢复了很短的时间，黎塞留圣座目前正在处理欧罗巴的幻境问题。",
+			say = "Well, I was! I received a very brief transmission from the Cardinal. She said she's dealing with the illusions in Europa as we speak!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（很好，看来{namecode:182:信浓}和克莱蒙梭等人的行动颇有成效，欧罗巴方面应该不用担心了。）",
+			say = "(That's good news. Means Shinano and Clemenceau are handling things well. That's one less thing to worry about.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,11 +402,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305050,
-			say = "指挥官，吾乃{namecode:74:长门}，如约带领舰队前来支援。",
+			say = "This is Nagato. My fleet is in position.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欢迎你的到来，{namecode:74:长门}阁下。",
+			say = "Excellent. Thanks for letting me know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哟，指挥官，好久不见~换装完成的大黄蜂也前来支援你了！",
+			say = "Hey, Hornet here! With my Type II and all! I'm on the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉~都怪姐姐非要留在{namecode:524:圣地亚哥}司令部坐镇，不然这支II型船舰队就是姐姐来带队支援了呢~",
+			say = "Yorktown's staying at SD, so she handed command over our fleet to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "约克城姐的判断没有问题，她作为{namecode:524:圣地亚哥}司令部的负责人，在后方混乱未消时，确实应该坐镇司令部。",
+			say = "Good call. She helps the place run, so it's best that she stays there until all the problems caused by the illusions have been sorted out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "哼，她也是这么跟我说的，说什么“和指挥官见面，以后总有机会的……”",
+			say = "Yeah, that's what she told me! Oh, and that she's sad she didn't get to meet the Commander, but there's always next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们啊，一个一个的~",
+			say = "Man, you three are so close. Commander and Enty and Yorky, sitting in a tree...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "咳、大黄蜂……",
+			say = "Hornet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			say = "糟糕，指挥官，企业姐生气了，我不说了！",
+			say = "Uh-oh! That's my cue to shut up! Sorry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我所带领的舰队还有一个小时抵达预定海域。大黄蜂和奇尔沙治带领的舰队则需要两个小时以上。",
+			say = "Ahem. Commander, our fleet will arrive in an hour. Unfortunately, Hornet's fleet will need two hours even at top speed to get here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我建议总攻在一小时后开始，由我的舰队负责承担白鹰的进攻任务。后续舰队在抵达后，陆续投入战斗。",
+			say = "We don't wanna give the enemy too much time, so let's launch the attack in an hour. The Eagle Union will lead the charge – the other fleets can follow our trail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_tieyiqingfeng_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题，一小时后，总攻开始。",
+			say = "No problem. The attack will start in one hour, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

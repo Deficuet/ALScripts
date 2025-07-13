@@ -71,7 +71,7 @@ return {
 				"ShowButton2"
 			},
 			style = {
-				text = "潜艇编队的弹药归零后，将无法在当前海域中呼叫潜艇支援。",
+				text = "Once the submarine fleet runs out of ammo, they can no longer be called into battle. Choose your targets wisely.",
 				mode = 2,
 				posY = 0,
 				char = "1",

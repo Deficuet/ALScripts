@@ -16,7 +16,7 @@ return {
 			actor = 107140,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:199}，猜猜看我发现了什么？",
+			say = "Hmm... Now this is interesting.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "敌人……？",
+			say = "What is it, Ty? Found the Sirens' main force?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "再具体一点呢？",
+			say = "Not quite, I'm still tracking the enemy aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能够消灭的敌人……！",
+			say = "It's getting pretty far away from us... I don't think I can keep up with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "还不够~再具体一点呢？",
+			say = "Not quite, I'm still tracking the enemy aircraft.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "提示，我发现的是能够引导我方发现敌方舰队的必要因素之一。",
+			say = "But there is good news. I've got a pretty good clue as to who our enemy is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……我知道了！你发现的是能够引导我方发现敌方舰队的必要因素之一，的敌人！",
+			say = "You do, huh? Are we facing the actual Sakura Empire or just another Siren Pawn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "…………哈啊……",
+			say = "We haven't been able to tell so far by looking at the planes; they've simply been too weak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "诶~~别卖关子啦，你知道我不擅长推理这些的！",
+			say = "So, what about the good news? I'm not exactly the greatest at putting things together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "是{namecode:25}哦。在一片茫茫海雾之中，唯独出现了一块露出海面的地方。",
+			say = "The sea fog itself. When the fog is this dense, the easiest way to find where ships are is to observe where the fog dissipates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我用舰载机飞过去后，很轻松就发现了一艘正在孤独行驶的重樱驱逐舰————{namecode:25}。",
+			say = "It actually ended up being better for us once the planes left. From what I can see, the trails in the fog indicate that we're after only a single ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你觉得是真货么？",
+			say = "Do you think it's a Pawn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "既然航空编队是假的，独行的驱逐舰就更不可能是真的了吧~我认为依然是棋子。",
+			say = "That's the most likely scenario. It seems extremely unlikely that the Sakura Empire, knowing that this sea fog is a Siren weapon, would send a single ship by itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "问题在于，为什么这颗单独行动的棋子恰好是{namecode:25}呢？",
+			say = "Perhaps these Pawns are instrumental for moving the Sirens' Reenactments along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "原来如此……！怪不得萨拉托加谈到AF的事之后就神神秘秘的跑路了！",
+			say = "Reenactment... I see, so that's why they attacked the AF base...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果说之前只是隐约有些怀疑的话，看到这个桥段之后我就确信了。",
+			say = "I was not too convinced by what you said earlier, but the pieces are starting to fall into place for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "AF战役的重演。塞壬这次的计划大概是这样的吧？",
+			say = "Nobody would have a good reason to launch an attack on the AF base... except the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "首先用重樱棋子袭击AF，然后诱导我们消灭重樱棋子舰队。",
+			say = "First, they strike at us using Pawns that resemble the Sakura fleet to provoke us into retaliating against the actual Sakura fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果还原的再细致一些的话，接着还会有大量塞壬舰队赶过来凑热闹……",
+			say = "The more successful their Reenactment is, the more the Sirens would be empowered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你已经完全熟悉“剧本”了嘛~",
+			say = "As for the \"script\" they're using... We are all quite familiar with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟那次作战我可是全程在后方密切关注着啊……不过目的呢？",
+			say = "The question is, what's the ultimate purpose of their Reenactments?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "况且还把最关键的指挥官从棋盘上拿掉了……要还原那场战役的话，指挥官是必不可缺的吧？",
+			say = "The thing that has been bothering me is... why would the Sirens go out of their way to remove the commander from the board?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "这个恐怕只有塞壬自己清楚了~我们能做的也只有推测而已。",
+			say = "There are too many things we don't understand about the Sirens. We can only speculate at this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "如果指挥官就好了啊……分析这种事我可完全不在行。",
+			say = "Ahhh, all this thinking is making my head hurt after all. I wish the commander was here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不过当然，突破敌人陷阱救回指挥官的事我还是很有自信的哦！",
+			say = "(Yeah, playing detective really isn't my strong suit. Trap or otherwise, we'll break through it all and rescue the commander.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在曾经的AF战役中，白鹰舰队即便在精疲力竭之时依然打退了塞壬的进攻。",
+			say = "(During the last Reenactment, our fleet managed to break through the Siren attack even when exhausted.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "拥有比当时更先进装备与更强大火力的我们没理由做不到！",
+			say = "(We're much stronger and better equipped now than we were back then...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "塞壬想要还原AF战役？怎么可能如它们所愿？我{namecode:199}才不要当塞壬棋盘上的棋子！",
+			say = "(A reenactment of the AF campaign? Not on my watch. New Jersey isn't some pawn on anyone's chessboard!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

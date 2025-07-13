@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"接下来我们的任务是支援白鹰航空舰队的作战演习    请点击<color=#ff7d36>出击</color>",
-	"经过这次战斗，指挥官是否感觉到战力不足呢？让我们先<color=#ff7d36>暂时撤退</color>，回港修整一下吧！",
-	"点击<color=#ff7d36>撤退</color>",
-	"咳咳..没错，这只是一次战术性撤退！"
+	"Our next mission is to support the Eagles' aviation fleet combat drills. Tap <color=#ff7d36>Attack</color> to get started.",
+	"Feeling like you need more firepower? Let's <color=#ff7d36>retreat for now</color> and head back to port!",
+	"Tap <color=#ff7d36>retreat</color>.",
+	"Yes, yes... This is just a tactical retreat!"
 }
 
 return {

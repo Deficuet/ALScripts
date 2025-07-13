@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱操心的她可不是闹着玩的\n\n<size=45>七 爱照顾人的理由</size>",
+					"Heart in the Right Place\n\n<size=45>7 Moving Forward with Shigure</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哈…突然觉得好累……",
+			say = "*sigh*... I feel dead exhausted all of a sudden.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "和{namecode:16}汇合后重新回到神社内。清理工作的确比预想中要累的多，中途还花了大量精力寻找{namecode:16}。",
+			say = "With Yuudachi finally found, we went back to the yard. Shigure hung her shoulders and groaned under her breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "但最重要的还是在仓库受到的惊吓，当时手一直被{namecode:17}握着，看来她是真的被吓到了。",
+			say = "This whole ordeal took much more work and time than I had anticipated. What's more, I felt she was genuinely afraid before I held her hand just earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官！ 你看起来好累。衣领也耷拉下来了。",
+			say = "Why the weary face, Commander? Are you really that tired? And look at your collar, it's all wrinkled and bent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明都这么累了，刚刚是为了让{namecode:17}大人安心才那么有干劲的吧？",
+			say = "You're just as beat as I am, but you still took the effort to try and calm me down back there, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，非要在自己不擅长的事情上乱来！",
+			say = "Geez... You really didn't need to push yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:17}，你怎么了？耳朵变得那么红？",
+			say = "...Why are you red in the face? Got a fever or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "闭嘴！你别说话！",
+			say = "Shuddup! Stick to fantasizing about shoving meat down your gullet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要对{namecode:16}生气……？",
+			say = "What? Did I say somethin' to tick you off? Chill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——姐姐！她们终于回来了！殿下，{namecode:17}，{namecode:16}~！",
+			say = "Fusou! They're back! And look, they even found Yuudachi! Nice work, everyone~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Office",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——指挥官，说起来……",
+			say = "Hey, Commander, got a moment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,23 +272,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:17}哗啦啦地翻着厚厚的资料，一边说道。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301150,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那个……其实我之前在重樱宿舍碰、碰巧听说了，指挥官在找秘书舰。",
+			say = "I was flipping through stacks of paperwork when Shigure suddenly spoke to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +288,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只、只是假设哦！如果{namecode:17}大人能给你当秘书舰的话，一定会做的非常可靠的！",
+			say = "So... I heard you're looking for someone to serve as your secretary. You know, from gossip around the dorm.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301150,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "If – and let me stress this, IF – I volunteered for it, I-I think I'd be really useful around the office!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即使再累也只是担心着身边的人……对于这么笨的指挥官来说甚至有点浪费呢！",
+			say = "It'd just be a waste of a position if anyone less dependable than me ended up being a burden when you get tired at work... You know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以……那个——你，你要不考虑一下吧？",
+			say = "So, um... If I hand in my application, could you give it some thought?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……其实就是为了这个，才让她来帮忙的的。",
+			say = "\"It's funny you mention that, because the reason I assigned this work to you was to see how you'd perform.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:17}为了不让人看到她害羞的样子而遮住了脸，不过这红透的脸庞却怎么样都遮不住。",
+			say = "She looked away to hide her embarrassment, but the blush on her face was clear as day anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:17}内心的喜悦传了过来，让人不禁也微笑了起来。",
+			say = "She was happy I put her to this test. I couldn't help but crack a smile from her reaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！既然指挥官都这么说了，那就没办法了！",
+			say = "R-really, huh? Go figure! Passed with flying colors, didn't I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她又恢复了往日充满活力的表情，再次转过身来，露出微笑，然后——",
+			say = "She regained her cool and faced me again. She spoke to me in her regular assertive tone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那~从今往后我也会一直在你身边照顾你的！请多关照了哦，指挥官♪",
+			say = "I suppose that means I'll be watching you every day from now on, making sure you don't do anything dumb! Sounds cushy~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然语气有点逞能，但确实是个会照顾人的好孩子。",
+			say = "As overconfident as she tended to be, I had no doubt she would live up to my expectations and then some.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "能够让她担任秘书舰的自己，也许也算是受了某种幸运的眷顾吧。",
+			say = "In that moment, I felt very lucky to have a dependable, considerate girl like Shigure as my secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

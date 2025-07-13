@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION94",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION94",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}是想了解，天狼星是从什么时候开始对您怀抱这样的情愫的？",
+			say = "主人是想了解，Sirius是从什么时候开始对您怀抱这样的情愫的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +58,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星就已经怀抱着这样的心情了。",
+			say = "Sirius就已经怀抱着这样的心情了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +108,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "嗯？您是说天狼星变得更主动，会表达自己的情绪了吗？",
+			say = "嗯？您是说Sirius变得更主动，会表达自己的情绪了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +117,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "这些转变都是因为您的存在，我骄傲的{dorm3d}。",
+			say = "这些转变都是因为您的存在，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

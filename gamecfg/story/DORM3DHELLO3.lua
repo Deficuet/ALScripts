@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您的到来就是对天狼星女仆工作的最大认可，我骄傲的{dorm3d}。今天的天狼星也不会让您失望哦。",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello3",
+			nameColor = "#FFFFFF",
+			say = "Your coming is the greatest praise a maid can ask for. My honourable {dorm3d}, I swear that I will not disappoint you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"不可思议的“大危机”\n\n<size=45>三　废弃工厂的不可思议！</size>",
+					"Mysteries and Danger!\n\n<size=45>3 The Mystery of the Mysterious Abandoned Factory</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "抚顺的“破坏力”超出了在场所有人的预料，一直到月色洒下，指挥室也还没有收拾完。",
+			say = "Fu Shun's destructive power exceeds expectations. Even when moonlight begins to shine through the window, the cleanup effort is still incomplete.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而鞍山为了夜战演习不迟到，在交代了抚顺一定要把这里恢复原状后，便急匆匆离开了。",
+			say = "An Shan leaves on time to get to her nighttime exercise, but she urges Fu Shun to get everything back to normal before running out of my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又过了一段时间——",
+			say = "After a little longer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太原，我们也走吧！",
+			say = "Okay, Tai Yuan! Let's go, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎？不，不是说好要收拾完……书还没放回去呢……",
+			say = "Huh? A-aren't we supposed to finish cleaning before we go? We haven't put all the books back yet...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官！我想请假！明天我再专门来收拾好不好？拜托了！就允许我请假吧！",
+			say = "Commander! Can we go home now? I'll be back to clean up tomorrow! Pretty please! I'll never ask you for anything again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可以是可以……不过你之前不是对鞍山打了包票，说会收拾完再走么？",
+			say = "You have cleaned up most of it, so I don't really mind. But didn't you promise An Shan you wouldn't leave until it was all done?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在突然要走，是想起来什么要紧的事么？",
+			say = "Did something important come up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿嘿，因为有一桩无论如何都不能错过的不可思议事件！",
+			say = "Heheheh, weeell, there's a mystery of the port that I just gotta bag!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长春告诉我，天黑之后废弃工厂那边就会出现神秘的黑影，所以我想去调查看看！",
+			say = "Chang Chun told me there's a rumor about a weird, shady figure showing up at the abandoned factory at night, and I wanna investigate it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在时间正好~太原，我们走吧！",
+			say = "It's the perfect time. Tai Yuan, come with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我，我也要去吗？呜……不必了吧……我，我想留下来收拾书……",
+			say = "D-do I have to go, too? Aww, I don't want to... I'd rather stay here and pick up the books...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（以太原的个性……让她去调查不可思议事件实在有些勉强。）",
+			say = "(Knowing Tai Yuan, I doubt she wants to go investigate mysteries this late at night...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（而我现在也不想麻烦她继续收拾指挥室……）",
+			say = "(But that doesn't mean I want to make her clean up all on her own.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太原，你先回去休息吧。",
+			say = "Tai Yuan, you go back to your room and get some rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于抚顺……让你自己去调查的话，实在没办法令人放心。",
+			say = "Fu Shun... I worry too much to let you check it out alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样，我和你一起去废弃工厂吧。",
+			say = "I'll come with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸~居然是不信任我啊~算了算了，总之我们立刻出发吧！",
+			say = "Hmph. Why do I feel like you don't trust me... Not that it matters! Let's go!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在抚顺的带领下，来到了一处远离中心地带的废弃建筑群。",
+			say = "Fu Shun leads me to the abandoned factory far from the center of the port.",
 			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "杂草丛生的建筑群内漆黑一片，连月光也无法将其穿透。",
+			say = "The factory, overgrown with plants, is wrapped in the dark of night. We peek inside, but the moonlight isn't enough for us to see anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得这里是一处经过搬迁后留下的废弃工厂……",
+			say = "I think I remember this factory was abandoned after we relocated...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看上去就很适合发生些什么不可思议的事啊……",
+			say = "It does feel like a place where strange things would happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼~指挥官也这么觉得啊，果然……",
+			say = "Heheh. You think so, too? I knew it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等一下！指挥官，不能直接进去！",
+			say = "W-wait! Commander, don't just go in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里年久失修，也没有照明，贸然进去的话很危险哦。",
+			say = "It's an old building, and there's no light. We have to be ready before we go in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过我准备了手电筒！锵锵——！",
+			say = "Fortunately, I happened to bring a flashlight! Tadaaa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在废弃建筑深处会发现什么呢？迷途的怪兽？飘荡的幽灵？还是说……",
+			say = "What will we find inside? A lost monster? A wandering spirit? Ooor...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然这样做确实很能增加探险的氛围感……",
+			say = "I appreciate you trying to liven up the search...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但还是不要一边用手电筒从下往上打光，一边讲话了……",
+			say = "But can you stop shining the flashlight up at your face while you do it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，吓到了吗？",
+			say = "Heheh! Did I scare you?",
 			painting = {
 				alpha = 0.3,
 				time = 1

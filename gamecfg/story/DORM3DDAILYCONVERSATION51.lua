@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，您的脸看上去有点红呢……是不是被太阳晒伤了？",
+			say = "My honourable {dorm3d}, your face is flushed... Are you suffering from sunburn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不注重防晒问题可不行呢……！",
+			say = "Please, you need to protect against the sun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请{dorm3d}随天狼星移步至阳伞下吧~！天狼星来帮您涂防晒霜。",
+			say = "I will accompany you around holding this parasol! Also, allow me to apply suncream to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就请将您的身体尽管交给天狼星吧，我骄傲的{dorm3d}~！",
+			say = "Let me take care of your body for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

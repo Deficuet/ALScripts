@@ -10,7 +10,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，离开海域后，舰队目前运送的特殊物件将会丢失，是否确认离开？",
+			say = "You will lose all the map items you have required thus far if you retreat. Are you sure you would like to leave the zone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,11 +21,11 @@ return {
 			},
 			options = {
 				{
-					content = "返回海域",
+					content = "Return to zone map.",
 					flag = 0
 				},
 				{
-					content = "确认离开",
+					content = "Exit the zone.",
 					flag = 1
 				}
 			}

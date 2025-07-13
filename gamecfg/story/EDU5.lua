@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>五　疲劳需舒缓</size>",
+					"The Protector Needs Protecting\n\n<size=45>5 Beating the Fatigue</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "外出忙碌了半天后，终于回到了指挥室——",
+			say = "One day, when I returned to the office with Le Malin after a long morning of errands...",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不行了，累死了……我不行了——",
+			say = "Bleh... Can't go on anymore... Can't move a muscle...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一进门，恶毒就如被吸引的磁铁一般平贴到了沙发上。",
+			say = "The moment we stepped inside the room, Le Malin threw herself into the sofa's soft cushions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "体力值归零，精神力归零……真是一场残酷的远征。",
+			say = "What a long and painful battle... My stamina and motivation bars are completely drained...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "现在的我已经累得没法动了，希望指挥官暂时不要给我下任何指示。",
+			say = "In other words, I can't get up at all right now, so don't even try giving me any more work...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "否则的话……你就会看见一脸疲相的恶毒，在低效地处理着工作哦——",
+			say = "Otherwise... you'll see what I'm like when I'm running on empty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "哈啊……小腿和手臂好酸。",
+			say = "Blehhh... Everything's so heavy... I can't feel my arms or legs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来明天起床的时候，这两个地方都会痛得不行，不知道这样能不能请个病假……",
+			say = "I'm gonna be sore all over when I wake up tomorrow morning, aren't I? Urgh... Can I take a sick leave already...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "算了，明天的事情明天再说。",
+			say = "Well, whatever... We'll cross that bridge when we get there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在就先让我睡一下吧……",
+			say = "But for now, it's nap time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,18 +202,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来今天的恶毒是真的累到了，呼吸声都比以往沉了很多。",
+			say = "Judging by how hard she had to work just to squeeze her words out, she didn't seem to be faking it today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "替恶毒按摩手臂",
+					content = "(Quietly massage her arms)",
 					flag = 1
 				},
 				{
-					content = "替恶毒按摩小腿",
+					content = "(Quietly massage her ankles)",
 					flag = 2
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Ooh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "手臂……很温暖……很舒服……",
+			say = "Warm... That feels real nice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Ooh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小腿……很温暖……很舒服……",
+			say = "Warm... That feels real nice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……嗯？指挥官的按摩……？",
+			say = "Huh? Commander, you're giving me a massage?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不、不太好吧……",
+			say = "Ermm, I don't think I should be imposing on you like this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过好舒服……",
+			say = "But it does feel super nice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "算了，也没什么不好的……",
+			say = "It feels so nice that... it's making me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……zzzZZZ。",
+			say = "Zzzzzzzzz...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "按了不到三分钟，恶毒就进入了甜美的梦乡。",
+			say = "Whether she was taken in by the comfort of the massage, or overwhelmed by fatigue, Le Malin drifted off into slumber.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该开始处理剩下的工作了（叹气）。",
+			say = "Now then, to get some more work done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

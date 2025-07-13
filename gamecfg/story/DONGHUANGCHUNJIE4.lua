@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>四 和平的游戏</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 4 - Peaceful Game</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "来了来了来了！特殊事件“彩票中头奖”，获得大量奖金！！",
+			say = "Oh, I landed on Community Chest! \"Bank error in your favor. Collect 200 bucks.\"",
 			bgm = "main-chunjie",
 			flashout = {
 				black = true,
@@ -68,7 +68,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…抚顺姐运气太强了…",
+			say = "Geesh... Your luck is out of this world, Fu Shun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺…是强敌…！",
+			say = "Fu Shun... is OP...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "形势已经…无法逆转了…的说",
+			say = "She's unstoppable now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，抚顺、大获全胜～果然大富翁…额，强手棋？升官图？，总之这游戏很好玩～",
+			say = "Heheheh, I win! This sugoroku... Momopoly... Shengguan Tu... whatever it is, sure is fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山姐泡了茶，请喝茶吧～",
+			say = "An Shan made some tea for you guys. Here you go~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢。不过…东煌的春节吗…似乎比我们这边的新年更加受到重视呢",
+			say = "Thank you. Also, I've been thinking: we all celebrate New Year, but it seems like the Lunar New Year is much more leisurely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯啊。过年就可以吃好吃的东西，还不用工作，可以放心用力地偷懒哟",
+			say = "Yep, it's true~ You get to eat lots of yummy food and nobody has work so you get to relax all day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 501041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…长春姐姐…虽然好像也没错…不、不过！春节还是有很多其他的事情的！",
+			say = "You don't have to work and you can relax... B-but there's much more to the Lunar New Year than just that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如贴窗花、挂灯笼，贴春联什么的…啊，说起来，里屋的窗花和门外的对联还没贴呢……",
+			say = "Like hanging up lanterns, decorating with couplets... Oh, that reminds me, we haven't done that yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我们也来帮忙吧～？毕竟喝到了这么好喝的茶，还得到了聚餐的招待～",
+			say = "Then may we help with that? We have to repay you for the lovely tea you made for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，请务必让我们帮忙，走吧。",
+			say = "Definitely. I'd love to get to return your hospitality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "港区·广场",
+			say = "Port - Plaza",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -279,7 +279,7 @@ return {
 			actor = 202121,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "承蒙主人的好意，送来这么美丽优雅的服装，不过…",
+			say = "Master graciously offered me this elegant dress, however, I'm afraid that wearing it is rather...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 206042,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然还是有点让人害羞呢……",
+			say = "Embarrassing, isn't it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 299022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "若是东煌的人们都穿着这样的服装，我们也只要大大方方地穿上就好了不是吗？",
+			say = "If the people of the Dragon Empery celebrate Lunar New Year in these clothes, then we should not be ashamed of wearing them either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们还是走快点吧～还要替主人把这些物资送去东煌宿舍那去呢",
+			say = "While I do agree with what Monarch is saying, I believe we should proceed to the Dragon Empery dorm to deliver these goods our Master requested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，没有异议，姐姐，我们尽快出发吧",
+			say = "I concur.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也感谢你们的帮忙呢，追赶者、半人马、君主",
+			say = "Miss Chaser, Miss Centaur, Miss Monarch, I must thank you for your cooperation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 206042,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能帮上前辈们的忙是我的荣幸！",
+			say = "Not at all, it is an honour to be of service to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 299022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，不必这么客气",
+			say = "Hmph, no need to thank me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，没事，我也正好去找东煌的伙伴们聊聊天～",
+			say = "Ahahah, I'll come with you. I was just thinking of having a nice chat with some girls from the Dragon Empery♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "东煌的新年啊，还真是有些好奇和期待呢——",
+			say = "...What a truly fascinating holiday the Lunar New Year is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

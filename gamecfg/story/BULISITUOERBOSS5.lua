@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"演习神秘事件调查\n\n<size=45>五 对手戏</size>",
+					"An Exercise Gone Slightly Wrong\n\n<size=45>5. Clearing the Confusion</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			oldPhoto = true,
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "演习海域·废弃设施",
+			say = "Exercise area - Inside the abandoned base",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "xinnong-3",
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			say = "库珀与{namecode:525}在黑暗的设施中前进着。",
+			say = "Cooper and Ingraham entered the dark base and headed for their target.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "照明设施启动！",
+			say = "Lights... on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哇……这里的陷阱布置的还真像那么回事啊。",
+			say = "Geesh... Look at this place. It's chock full of traps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是有点机关屋的感觉，不过缺少点机械感的要素，跟废弃设施的主题不是很贴合……",
+			say = "Feels vaguely like the set of a horror movie. All that's missing is a puppet on a tricycle...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不对……现在不是研究这些的时候。",
+			say = "Anyway, move slowly and keep an eye out so you don't trip any of them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "发现布里斯托尔了么？",
+			say = "Seen any signs of Bristol yet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "顺着黑暗中搜索……仔细搜索…………啊！布里斯托尔发现！",
+			say = "Hang on, I'm looking... Oh! There she is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（惊！）",
+			say = "*gulp*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "布里斯托尔！不要跑！",
+			say = "Wait! Don't run!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "冒牌货快离开，冒牌货快离开！这里没有你要找的人——",
+			say = "Go away, fakes! The person you're looking for isn't here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "到底发生什么事了，怎么我回来之后到处都怪怪的！",
+			say = "Calm down, Bristol! Tell me what happened!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "诶？你也是刚从外面执行任务回来么！",
+			say = "You're... You're the real Cooper?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "是啊！",
+			say = "Yeah, it's me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "太好了……我还以为就剩我一个人了呢！",
+			say = "Oh, thank goodness... I was so sure I was the only one left!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你去过港区那边了么？",
+			say = "Have you returned to port? What's the situation there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还没有……到底发生什么事了？只剩你一个人指的是什么？",
+			say = "No, not yet. Why do you ask? And what do you mean you thought you were \"the only one left?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呜呜呜……港区遭遇了敌人袭击！因为事发突然，大家都没来得及撤离……",
+			say = "It's awful... The port came under attack! It came so suddenly nobody had time to evacuate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "指挥官在袭击中受伤，我也失去了跟港区的通讯联络。",
+			say = "I think something happened to the Commander... I tried to radio the port, but the enemy's jamming our channels...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊…………这还真是，太糟糕了。",
+			say = "I see... That sounds pretty bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（{namecode:525}那家伙怎么不把话说明白啊，我就知道事情是这样子！）",
+			say = "(So all this really did happen 'cause of radiowave jank... Ingraham really should've just called her again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那你现在在废弃的设施里做什么呢？",
+			say = "Then uh, why are you here now, exactly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我本来收到了紧急任务来这里集结兵力准备反击……没想到这里也沦陷了！",
+			say = "I got orders to regroup with the others here so we reclaim the port, and then the enemy launched an assault on this place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不久之前我还遇到了塞壬棋子在搜捕我。",
+			say = "Now they're surrounding us! My traps have been going off nonstop!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "还好我设下了机关，才拖延到现在……",
+			say = "Not to toot my own horn, but the only reason this place is still standing is because of my quick thinking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不论如何，我们都要在这里坚守下去，这是我收到的最后任务！",
+			say = "Anyway, I have to defend this place to the end, no matter what... Those are the final orders I got.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原……原来如此？",
+			say = "I... see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "坚持守住，就有办法！我这不是等来了支援的你么！",
+			say = "Everything will be all right if I just do that. I mean, you showing up is proof that it's working!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "只要继续守下去，赶过来的同伴一定会越来越多，我们就能救援被困港区的同伴们了！",
+			say = "And more people are bound to show up! Then once we have a sizable force, we'll strike back at the enemy and reclaim the port!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "诶？坚定守住废弃基地是什么设定？",
+			say = "What? You've made it your mission to defend this old place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:525}！通讯恢复了啊，你那边怎么样，还安全么？",
+			say = "Ingraham! Thank gosh our radios are working again! How's it going back at port? Are you all okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊……嗯，我还算安全，通讯也没问题，你放心说吧。",
+			say = "Uhh... Yeah, I'm fine and everything's all good. Could you explain why you decided to hunker down in there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "之前用暗号跟你通讯的时候，你不是用暗号回复“在废弃基地附近躲雨”么。",
+			say = "I mean, isn't that obvious? You're the one who told me to find shelter in the ruins and wait for the rain to pass!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "下雨的意思是敌人袭击，送伞的意思是请求支援。",
+			say = "When I said \"it started pouring down,\" that was code for \"the enemy's attacking.\" And when I asked for umbrellas, what I really meant was reinforcements!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你现在无法送伞，但是先让我躲雨，不就是先在这里坚守，等待后续支援的意思么！",
+			say = "And since you couldn't send those, I took what you said to mean \"hold the line and wait until we come for you\"! That's what you meant, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啊……………………",
+			say = "You've got to be kidding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不愧是{namecode:525}！多亏你之前在突发联络时用的暗语，我才能这么快理解事态的严重性并且做出正确的应对！",
+			say = "Of course not! It's because you used code from the moment you contacted me that I managed to figure out the gravity of the situation so quickly and work out a plan!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯……不愧是{namecode:525}，让简单的事情完美复杂化了。",
+			say = "Wow... Talk about jumping to some ridiculous conclusions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			actor = 101480,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我再去给检讨补上几页，先挂了……！",
+			say = "*sigh*... Another thing to add to my explanation. I'm gonna hang up now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,7 +805,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咦……？检讨？简单的事情复杂化是指什么？",
+			say = "Huh? What do you mean I jumped to conclusions?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			actor = 101440,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其实————",
+			say = "Well... Let me explain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我有点晕……",
+			say = "Ugh, it feels like my world just got turned upside-down...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -877,7 +877,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没事，我理解。",
+			say = "Makes sense, since you had it so wrong all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "之前遇到的姐姐……也是真的姐姐吗？",
+			say = "So when I met Allen earlier... That was really her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是这样的哦。",
+			say = "Ding-ding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "之前踩上陷阱的人呢……？",
+			say = "And the people who set off my traps...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "好像是因为演习暂停从前线返回的同伴们。",
+			say = "Shipgirls passing through the area after the exercise got halted, I think.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "呜呜呜，感觉好丢人……给大家添麻烦了。",
+			say = "Oh no! So I've just caused a ton of trouble for a lot of people!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "没事没事，大家都不会生气的啦。",
+			say = "Hey, it's all right. Nobody's mad at you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒是{namecode:525}那家伙真的应该好好检讨一下才是。",
+			say = "If anyone's to blame, it's Ingraham. And her punishment is the formal explanation she's busy writing right now, heh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101440,
-			say = "走吧，我们该回去了。记得之后也给指挥官写一份事件报告书哦。",
+			say = "Now come on, let's go home. Later we'll compose a report to log all the info pertaining to this case.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,7 +1037,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101490,
-			say = "事件……报告书？！是，我明白了！",
+			say = "Did you say... case? Count me in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1061,7 +1061,7 @@ return {
 			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_task",
-			say = "翌日，在指挥室的办公桌上出现了一份名为《演习神秘事件调查》的报告书。",
+			say = "The next day, a report titled \"Case Report on Yesterday's Exercise\" found its way to the Commander's desk.",
 			dir = 1,
 			bgm = "xinnong-3",
 			flashout = {
@@ -1095,7 +1095,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "「……对舰船而言，最深刻的恐惧就是对未知的恐惧……」",
+			say = "\"...What shipgirls fear, more than anything else, is the notion of facing the unknown...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "「……在那废弃的基地中，沉睡的敌人等待着梦境降临……」",
+			say = "\"...An adversary lies deep in slumber inside that abandoned base, waiting for a visit it has long dreamed of...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "「……群星已到达特定的位置，真相终有一天会降临港区……」",
+			say = "\"...One day, the stars will align and the port shall finally learn the truth...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1140,7 +1140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "附带：《{namecode:525}的检讨书》，艾伦·萨姆、库珀监制。",
+			say = "\"For more info, read the supplemental report written by Ingraham (Editor: Allen M. Sumner).\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,11 +1151,11 @@ return {
 			},
 			options = {
 				{
-					content = "这是什么……？",
+					content = "\"I'd probably take psychic damage if I read that...\"",
 					flag = 1
 				},
 				{
-					content = "将整份报告书锁进档案柜最深处。",
+					content = "\"Ignorance is bliss. Let's not read that...\"",
 					flag = 2
 				}
 			}
@@ -1166,7 +1166,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "就这样，尽管出现了一些小插曲，本次演习行动还是顺利结束了————",
+			say = "Whether because of – or in spite of – the minor incident during the exercise, the results proved... interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

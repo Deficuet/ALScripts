@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "呵呵，天狼星当然给我骄傲的{dorm3d}准备了圣诞礼物哦……",
+			say = "Heehee. Of course I have a Christmas gift for you, my honourable {dorm3d}.",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_gift1_tone2",
 			typewriter = {
 				speed = 0.05,

@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·复活节岛",
+					"Easter Island",
 					1
 				},
 				{
-					"水星纪念的国度",
+					"Merkurialand",
 					2
 				},
 				{
-					"永恒乐园（临时版）",
+					"The Eternal Paradise (Placeholder Name)",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "永恒的乐园之中，一片祥和宁静之气。",
+			say = "Life in Paradise is peaceful, joyful – a beautiful dream that never ends.",
 			bgm = "theme-merkuriameta",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "水星纪念行走在海滩边，迎面遇上了一群充满活力的少女。",
+			say = "Pamiat' Merkuria META was walking down the beach when she saw some fellow dreamers. She waved at them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "水星纪念小姐，早上好~今天也是个好天气呢。",
+			say = "Morning, Pamiat'. Nice weather we're having today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "是啊，一如昨日。明日也会是个好天气哦。",
+			say = "The weather's ALWAYS nice! You gotta love it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此的话，便太好了。",
+			say = "Yeah. It's great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "你们这是去……？",
+			say = "Where are you two going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "去巡逻哦！",
+			say = "We're on a patrol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "又去巡逻啊……不是都说了，我们的乐园之中是安全的，不会有战斗也不会有敌人嘛。",
+			say = "Again? I already told you, this place is as peaceful as can be. There are no fights, no wars, no quarrels.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是……得小心外部的威胁才是。我们的乐园太小，可外部的世界太广阔了。",
+			say = "Sure, but only IN Paradise. We still gotta keep a lookout for threats from the outside. This place is small, and the world is big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "这倒说的是……",
+			say = "You do have a point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，闲着也是闲着嘛~",
+			say = "Also, sitting around all day isn't good for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "好吧好吧，真是说不过你们，那你们就去吧，希望你们一无所获。",
+			say = "Alright, alright! Go on your patrol or whatever! You won't find anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯~希望我们一无所获！",
+			say = "You're right. We won't find anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "告别了充满活力的少女后，水星纪念随手一挥，在沙滩上创造了一个躺椅。",
+			say = "Pamiat' bid farewell to the girls. With a flick of the wrist, she materialized a bench on the beach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "呼……真是的，最开始听到警报的时候还以为是怎么回事呢",
+			say = "Phew... I really thought it had hit the fan when I heard those sirens go off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "什么重樱舰队啊，{namecode:161:天城}啊……",
+			say = "So much for Amagi and her fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "搞出这些事的人还真无聊。",
+			say = "What a big letdown that was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "不过，看在你也算帮了个我的忙的份上，就不批判你了~",
+			say = "On the other hand, she did help me out, so I'll look the other way this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "将你的幻境改造一下，不但让我力量恢复了不少，还作为临时基地给我生产了不少有用的东西。",
+			say = "And I regained a lot of my strength after she reconfigured my illusory boundary, and provided me with a temporary base to produce all kinds of handy stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "在此期间还能悠闲度假，真是什么都不耽误，太棒了~",
+			say = "Most of all, I got to enjoy a vacation! On the whole, everything went perfectly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "我也终于算是在β实验场时来运转了。",
+			say = "Maybe this is a sign my bad luck in test site beta is running out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "啊……真悠闲啊~",
+			say = "Ahh, this is the dream right here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,11 +336,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "广播",
+			actorName = "PA System",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（持续不断的警报蜂鸣音）",
+			say = "*sirens blaring*",
 			bgm = "airraidalarm",
 			typewriter = {
 				speed = 0.05,
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……嗯？",
+			say = "...Hm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,11 +380,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "水星纪念小姐，能听到么。有敌方舰队入侵我们的乐园了！",
+			say = "Pamiat'! Do you read me? An enemy has invaded!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "岂有此理！",
+			say = "You've got to be kidding me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "不要慌，我来处理，你们等着看好戏吧~",
+			say = "Stay where you are! I'll deal with them myself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……幕后黑手终于按捺不住开始行动了吗。",
+			say = "Seems the mastermind has finally sprung into action...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "也就是说……这里的梦，也差不多该结束了。",
+			say = "That means this dream is about to end, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "不过……作为打破这场美梦的代价。",
+			say = "My beautiful dream... You will suffer for taking it away from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9702070,
-			say = "——「ËşÁŃśřşóˇŰËé°É」",
+			say = "ALHY AOLT HWHYA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "伴随着水星纪念的吟诵，远方的海面之下涌出无数白色触须，转瞬间便吞没了来袭的舰队。",
+			say = "At Pamiat's beckon, hundreds upon hundreds of white tentacles appeared from under the water. They engulfed the encroaching black mist fleet in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……这样一来，告别礼物就算完成了。",
+			say = "Consider this a gift from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,11 +534,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——",
+			say = "BEEP BEEP!",
 			soundeffect = "event:/ui/didi",
 			typewriter = {
 				speed = 0.05,
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "水星纪念小姐，你真的好厉害……转瞬间就把敌人全部消灭了！",
+			say = "Holy cow! You took them all out just like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101390,
-			say = "真酷……！",
+			say = "Wow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101460,
-			say = "下次也教教我们这招好不好！",
+			say = "You should teach me how to do that sometime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "下次啊……如果你们下次见到我的时候还想学的话，可以哦。",
+			say = "Sometime? I suppose I will, if there ever is a next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101380,
-			say = "下次见到你……什么意思。水星纪念小姐你要走了么？",
+			say = "What do you mean? Are you leaving or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "是啊，我要走了。",
+			say = "Yeah. This means goodbye.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101390,
-			say = "欸，怎么这么突——",
+			say = "What? Why now of–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,22 +645,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			say = "水星纪念切断了通讯器，凝视着乐园的边界处。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +660,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "天空之上，一支高速无人机与舰载机混编的编队正向着乐园的边界快速接近着。",
+			say = "Pamiat' hung up and stared into the distant sky.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			say = "On the horizon, she saw a formation of drones and aircraft, flying toward the boundary of her paradise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "那么，希望我们再也不要见面了——",
+			say = "This is so we won't meet again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#BDBDBD",
 			actor = 9702070,
-			say = "——「ĎűÉ˘」",
+			say = "KPZHWWLHY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

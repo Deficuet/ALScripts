@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey~你看！这个转椅好好玩！",
+			say = "Honey, watch this! This spinny chair is so much fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "骨碌骨碌骨碌骨碌——",
+			say = "Spinny spinny spinny spiiiiin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……咦？我怎么好像看到了……两个Honey……？",
+			say = "...Whoa. When... did you get a clone...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但一想到来自Honey的Double Love……",
+			say = "Two honeys' worth of love...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我感觉好幸福哦……嘿、嘿嘿……",
+			say = "I'm getting giddy... Hehe, hehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

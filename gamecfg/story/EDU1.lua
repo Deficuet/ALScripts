@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>一　守护之刃的另一面</size>",
+					"The Protector Needs Protecting\n\n<size=45>1 The Protector's Other Side</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，刚才给你的文件有什么需要修改的地方吗？",
+			say = "Commander, is there anything that needs fixing from the last batch of documents I handed over?",
 			bgm = "story-richang-2",
 			flashout = {
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "没有的话，我就继续按照这个节奏继续工作了。",
+			say = "If not, I'll just keep going at this current pace.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "隶属于鸢尾的空想级驱逐舰恶毒，从今天开始担任秘书舰一职。",
+			say = "Le Malin, the poisoned blade of the Vichya Dominion, is here for her first day of secretary duties.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她见微知著、八面玲珑，工作效率高，沟通起来也很自然。",
+			say = "When she's in work mode, she conducts herself seriously, communicates effectively, and quickly takes care of everything she is assigned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "嗯？指挥官你要出门吗？",
+			say = "Hmm? Are you stepping out, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "需要出去处理一点事情。",
+			say = "I had some other minor affairs to attend to, so I decided to leave her in charge of the office during my absence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我明白了，我会在办公室处理完剩下的工作，请指挥官放心外出。",
+			say = "Understood. I'll handle the rest of the work, so go do what you need to do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "哈啊……不行，太困了。",
+			say = "Yaaaawn... Ugh, so sleepy... Can't do this anymore...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才一直在指挥官面前认真工作，已经累的不行了……",
+			say = "Staying in serious-mode in front of the Commander is so exhausting, I can hardly move a muscle...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "还是先在沙发上躺一会吧……真舒服……",
+			say = "The office's soft and fluffy sofa... Mmfwah... It feels so nice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "处理完事情后回到办公室，便看见了正躺在沙发上无精打采的恶毒。",
+			say = "When I returned from my errands, the first thing I saw when I stepped into my office... was the elegant poisoned blade of the Vichya Dominion melting into a puddle on my sofa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "总感觉，现在的她和平时很不一样。",
+			say = "So, this is her true face. I see now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "一直保持端庄优雅的样子真是累死了……",
+			say = "Ahh... I'd probably die of fatigue if I had to keep that elegant act up any longer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "平常这个时候，我都还躺在床上懒得起来呢。",
+			say = "Normally, I'd still be rolling around in bed at this time~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "得趁指挥官不在好好眯一会才行，不然下午肯定撑不下去了……",
+			say = "If I don't take a nap while the Commander is away, I'm not gonna be able to make it through the afternoon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳咳……",
+			say = "Ahem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "……咦？指、指挥官？！",
+			say = "...C-Commander?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才的……你都看见了？",
+			say = "Ah, umm, this is, uhh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,11 +332,11 @@ return {
 			},
 			options = {
 				{
-					content = "什么也没看见。",
+					content = "I didn't see anything.",
 					flag = 1
 				},
 				{
-					content = "全都看见了。",
+					content = "Hold up. Lemme take pics.",
 					flag = 2
 				}
 			},
@@ -360,7 +360,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好啦，原来什么没看见——",
+			say = "Great, perfect. If you didn't see anything, then there's no problem at all–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "你以为我会这么说吗？",
+			say = "Like hell that's true!!!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "全、全都看见了……",
+			say = "Nuuuuu, my cover's blown... It's all over now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,60 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……唉，我还以为能瞒到秘书舰任期结束呢，没想到这么快就暴露了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 901110,
-			say = "既然被指挥官你知道，那我也不隐瞒了——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 901110,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "没错，你现在看见的我，才是真正的我。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 901110,
-			say = "平时端庄优雅的样子，那都是我的演技。",
+			say = "Ugh, I thought I'd at least be able to make it through the entire secretary stint, but to get exposed so quickly...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "感到失望了？",
+			say = "Well, now that the cat's out of the bag, there's no point hiding it now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,36 +449,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用说出来我也明白，一直信任的同伴居然有不为人知的另一面什么的……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "那今后安排给你的工作就减少一点好了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 901110,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……诶？",
+			say = "That's right, Commander. You've witnessed the truth behind Le Malin, the Vichya Dominion's poisoned blade.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +467,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "指挥官，我骗了你，你不生气吗？",
+			say = "The whole elegant shtick is just an act.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 901110,
+			say = "...So, umm, are you disappointed?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 901110,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You thought I was a certain kind of person, didn't you? Or, something like that...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,31 +518,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "每个人都有不愿在他人面前展露出的一面。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "想要向他人展现出美好的一面并不是一件需要道歉的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "如果真要道歉的话，也是偶然间看到这些场景的我才是？",
+			say = "I see. In that case, let's reduce your workload a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +531,78 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不仅没有因为我的伪装而对我生气失望，还愿意给我安排更少的工作……甚至还想道歉……）",
+			say = "...Fweh?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 901110,
+			say = "You're not angry that I deceived you?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Isn't it perfectly normal for everyone to have a side that they don't want to show others?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I wouldn't call showing off your good aspects deception at all, and it's certainly nothing you need to apologize for.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "If anyone should be apologizing, it should be me, for walking in on you in the first place.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 901110,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "(Wh-what's going on? The Commander not only isn't upset with me, but is even apologizing to me?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "谢谢你，指挥官，你果然很不一样呢。",
+			say = "I, I see. You're a weird one, Commander, but I appreciate it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "不过，我还是要拒绝你的提议。",
+			say = "However, I can't accept your offer to reduce my workload.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然减少工作安排这点非常诱人，但我身为秘书舰，协助指挥官是我的职责所在。",
+			say = "While I normally would welcome less work, the way you're so blatantly trying to accommodate me would make me feel guilty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "身为辅助指挥官的守护之刃，却反过来让指挥官照顾，这可是本末倒置。",
+			say = "It goes without saying. My role as secretary ship is to support you, the Commander. It would be a disgrace to the Holy Iris for our roles to be reversed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "再说，在工作的时候偷懒休息，和没有工作就休息……效果是完全不一样的！",
+			say = "Besides, there's a difference between slacking off and taking a break! ...The end result is totally different!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "还请指挥官像之前那样给我安排工作就好！",
+			say = "In any case, continue letting me take care of the work just as before!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那之后——",
+			say = "Not too long later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "话是这么说……但这未免也太多了吧？！",
+			say = "Okay, I did say you can continue letting me take care of the work just as before... But isn't this a bit excessive?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "丢一部分给您处理吗？那倒不至于……",
+			say = "...Hmm? Split the work? Tempting, but... I said what I said!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "我只是嘴上抱怨一下而已，该做还是会做的啦。",
+			say = "I was just grumbling, that's all... Since this is the task I was given, I'm not gonna back down halfway!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那之后，恶毒不再掩饰自己的本性，偶尔会发出对工作的抱怨。",
+			say = "I could tell Le Malin was struggling, but she continued working despite that... though not without the occasional bouts of complaining.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室中开始变得热闹起来了——",
+			say = "But each time, the sound of pens scritching across paper quickly filled the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

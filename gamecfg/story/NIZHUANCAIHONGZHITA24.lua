@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "进不能进，退不能退，时间就在这样尴尬的气氛中一分一秒的流逝着。",
+			say = "Scharnhorst META and the Iron Blood fleet were locked in a staredown, neither side uttering a word.",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "终于，打破沉默的是一串通讯器的联络音。",
+			say = "That is, until a call from one of Scharnhorst's allies broke the silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,12 +49,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "撤退时间要到了，任务进展如何？",
+			say = "Time is running out. How did it go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……抱歉，任务失败，我来晚了。",
+			say = "Sorry, I'm a bit behind schedule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,12 +85,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "和之前发生的异常能量波动有关么？",
+			say = "Because of the Singularity energy fluctuations we detected earlier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是，一支来自实验场β的铁血舰队通过未知方式来到了这里，并提前拉拢了{namecode:434}·META。",
+			say = "Yeah. An Iron Blood fleet from one of the branches created a way into the Singularity and reached Gneisenau before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,12 +121,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "来自实验场β…………？",
+			say = "What? They created their own entrance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是的，因为她们知道“指挥官”的存在。我在跟她们交涉中没有占到便宜，还泄露了一些情报……",
+			say = "Mhm. It's the branch with the Commander. I... I told them about the Crown by mistake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "现在正在考虑采取强硬措施。",
+			say = "Forgive me. I can sink them all if you need me to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "………………不必了，我们没有什么需要隐瞒的情报。",
+			say = "No need to. They would've found out about it sooner or later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "余烬采用自愿加入原则，如果不想加入的话，不必强留。",
+			say = "As for Gneisenau, it's up to her whether she joins us or not. Whatever her decision, respect it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,12 +212,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_3",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			actor = 900135,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "拉沃斯已经察觉到你的存在了，在局势变得更加麻烦之前，立刻撤退。",
+			say = "Lastly, beware that The Lovers knows you're there. Get out of there before things take a turn for the worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……是。",
+			say = "...Roger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "短暂的通讯结束了，{namecode:433}似乎犹豫了一下，不过最终还是解除了戒备姿态。",
+			say = "Scharnhorst hung up, then ground to a halt and lowered her weapons.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "看来我们之间的对峙可以结束了呢。",
+			say = "Had a change of heart, Scharnhorst?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "算你们运气好……我要撤退了，你们也快离开吧，这里不是适合久留的地方。",
+			say = "Not quite. An Arbiter vessel has appeared. We should both leave this place at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "等等，你现在要撤退是因为那个塞壬仲裁机关拉沃斯，你之前说没有时间了指的也是这个？",
+			say = "So that's what you meant when you said we \"have no time.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "是的，这也算回答了刚才答应你回答的问题了。",
+			say = "Yep. I tried to warn you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "能让所向睥睨的余烬舰队都主动退避的存在，想必是相当程度的强敌吧。",
+			say = "I see. Not even the Ashes want to stick around to challenge an Arbiter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "没错，听说拉沃斯在仲裁机关里也是相当难以应付的一类。",
+			say = "Hell no. And of all the Arbiters, I've heard The Lovers is a particularly big pain in the ass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那么我想见识一下。",
+			say = "Is she, now? Then she should be a goldmine of intel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……哈？你疯了么？！",
+			say = "What?! Have you lost your goddamned mind?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "怎么都是这个反应……你已经是今天第二个说这句话的人了。",
+			say = "One of our goals with this mission is to gather intel inside the Singularity. This is the perfect opportunity to do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我没疯，放心吧。",
+			say = "I know what you're thinking. We're not going to throw ourselves blindly at her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听说在之前的NA海域核心区作战中，碧蓝航线舰队与两名余烬的战士一同击退了三个仲裁机关的进攻。",
+			say = "I've read about how vicious Arbiter vessels are. The Commander's warned us about how they should be treated with utmost caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "现在我们也有一支舰队，META也有两人，而敌方仲裁机关只有一人，我们没有逃跑的必要吧？",
+			say = "We're prepared for this. Furthermore, we're not far from our escape route.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "嗯？居然还有这种事么……",
+			say = "The conditions are ideal for it, eh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "你不知道？",
+			say = "Furthermore, your Ashes stealth camouflage may be excellent for sneaking by us, but it's little use against Sirens, particularly Arbiters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "我们的人员比较分散，跨越世界的情报交流并没有那么高效……",
+			say = "That is true. Jumping to another branch also takes time, and I can't bet on reinforcements either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "机会难得，你不想试一试么？",
+			say = "Precisely. And if nothing else, you can use our plan as a diversion to buy yourself some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "将仲裁机关吸引到我标出来的位置，那里是我们的出入口，不但进退自如，还会获得更多的增援舰队。",
+			say = "All you must do is lure the Arbiter close to the Singularity's exit. Then we can easily call for reinforcements, or flee back to our world as a last resort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "如果你在意补给问题的话不用担心，我们的补给你可以自由使用。",
+			say = "We have a huge fleet waiting just past that portal. If the Arbiter insisted on pursuing us, it'd be the last thing she does.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "……企业不会同意这个方案的。",
+			say = "Like leading a mouse into a trap... The problem is, there's no way Enterprise would agree to this idea of yours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那就去说服她，接下来要面对战斗的是你吧。",
+			say = "Sell her on it, then. You're the one who has to fight, not her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你的提案还真是……有股令人难以拒绝的感觉。",
+			say = "That's so easy for you to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "或许这就是我为数不多的个人魅力吧。",
+			say = "If she disapproves of it, that's her problem, not mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "变数太多，我不能给你任何保证。",
+			say = "Fine. But there's no guarantee this is going to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "四个小时。如果到时候你没有出现的话，我们会直接离开。",
+			say = "I'm aware. In any case, we'll wait at the exit for as long as we can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ffa500",
-			say = "正确的判断。那就在此别过吧，让我们稍后见……或者再也不见。",
+			say = "Very well. Then this is where we go our separate ways. Either we'll see each other again soon... or this is farewell forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

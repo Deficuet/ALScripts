@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=45>一 有着“废柴”之名的天才AI</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 1 - Garbage-Tier Genius AI</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·广场",
+			say = "Port - Plaza",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗨多磨～！我是绊爱！",
+			say = "HAI DOMO! Kizuna AI here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,13 +76,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天竟然来到了异世界！",
+			dir = 1,
+			say = "Today I’m coming to you from an alternate universe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +97,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如此这般，就让我们马上开始对港区的女孩子们进行采访吧！标枪酱，请多指教！",
+			say = "So let’s go ahead and find a girl here in the Home Port to interview! Javelin, how goes it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶～！？还以为突然叫我来是要干嘛，原来是要拍摄吗！？不要啦～标枪今天都没有打扮过~~~",
+			say = "Whaa!? Did I hear my name? And what’s with the cameras!? Oh noo! My clothes! My makeup! I’m not readyyy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系没关系！之后靠科学的力量都能搞定的！",
+			say = "Relax, relax! We can fix all of that in post! With the POWER OF SCIENCE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "科学的力量…连这种事情都能搞定吗？不愧是超级AI，令人震惊，的说…！",
+			say = "Science can do all that? This Super AI is kinda scaring me….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +181,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "话说到底，为什么突然就拍起视频了？",
+			say = "Now why are you here making videos all of a sudden anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +197,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…",
+			say = "Well, you see…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +211,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "大约半小时前",
+			say = "30 minutes earlier…",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -251,7 +250,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}酱，你在看什么？",
+			say = "Ayanami, what’cha lookin’ at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +266,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在看视频网站的游戏视频，的说",
+			say = "Just some let’s plays on this video site.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -283,11 +282,11 @@ return {
 		},
 		{
 			actor = 401230,
-			side = 1,
+			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}…在休息的时候还是一如既往地散漫啊……",
+			say = "…that’s all she ever does with her time off….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,13 +297,12 @@ return {
 			}
 		},
 		{
-			expression = 6,
+			actor = 10400010,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个世界也有这种的吗！？再、再跟我多说点关于这方面的啦～！",
+			dir = 1,
+			say = "YOU GOT STREAMING VIDEOS IN THIS WORLD TOO!? Show me! SHOW MEEE!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +328,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "突然怎么了？难道说，爱的世界也有类似的东西吗？",
+			say = "What’s got you all excited? You have this kind of stuff in your world, Ai?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +344,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是如此！毕竟我可是在这些地方投稿视频的Vtuber啊！",
+			say = "Do we ever! In fact, I make videos like this all by myself. I’m a VTuber. Kind of a big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +360,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不是很懂，好像很厉害",
+			say = "No idea what that is but it sounds cool I guess.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,13 +371,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼～♪只要搜索我的频道——",
+			dir = 1,
+			say = "Hehehehee♪. So if you pull up my channel there…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,13 +387,12 @@ return {
 			}
 		},
 		{
-			expression = 6,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "竟·然·没·有！？",
+			dir = 1,
+			say = "Wh- why isn’t it coming up!?",
 			effects = {
 				{
 					active = true,
@@ -423,13 +419,12 @@ return {
 			}
 		},
 		{
-			expression = 5,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯～…果然不可能搜得到其他世界的频道啊",
+			dir = 1,
+			say = "Ohhh… of course you can’t see it from another universe.",
 			effects = {
 				{
 					active = false,
@@ -446,13 +441,12 @@ return {
 			}
 		},
 		{
-			expression = 6,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此，就只能由我再在这个世界创建一个频道，把大家连接在一起了！",
+			dir = 1,
+			say = "Well, I guess I got no choice but to make a new channel here in this world. And you’re all gonna help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,6 +454,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					type = "shake",
+					y = 45,
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -468,7 +472,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…如此这般",
+			say = "…and that’s what happened.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -507,7 +511,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，所以才会像这样开始拍视频吗",
+			say = "Right. And that’s why you’re here making videos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +527,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！想要制作出有趣的视频，大家的帮助是不可或缺的！",
+			say = "Preeeecisely! And I’m DEFINITELY gonna need everyone’s help to make the best videos I possibly can. DEFINITELY!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,13 +538,12 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "所以～就拜托各位多帮帮忙啦！",
+			dir = 1,
+			say = "So thank you all for volunteering!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,8 +561,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "众人",
-			say = "诶～～～～～！？",
+			actorName = "Everyone",
+			say = "Whaaaaaa!?",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

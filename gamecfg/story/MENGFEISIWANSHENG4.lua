@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>四 狂欢前的换装</size>",
+					"Halloween Chaos!\n\n<size=45>Chapter 4: Suiting Up</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "恐怖…换好装备了。姐姐好了吗？",
+			say = "I finished getting dressed... Erebus...?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐？",
+			say = "Erebus?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…真的要去吗……",
+			say = "Yes, but... Must we go to this party...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "恐怖…想和姐姐一起参加万圣节的派对…",
+			say = "Please...? I really want to go with you, Erebus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…嗯，恐怖，再等我一会",
+			say = "... Right, but... Just give me a moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -170,7 +170,7 @@ return {
 			actor = 213012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样…就可以了吧",
+			say = "How do I look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…万圣节的魔女…很合适",
+			say = "Ooh... Erebus, you make a great witch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 213021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于可以和姐姐一起参加万圣节派对了，恐怖，很开心",
+			say = "I'm so happy I get to go to the party with you, Erebus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 213012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…恐怖觉得开心就好。",
+			say = "If you're happy, Terror, that's good enough for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姐姐…真的不一起参加吗",
+			say = "You really won't go with me?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这种软绵绵的聚会有什么意思！如果有用主炮击碎南瓜的比赛之类的活动再喊我吧！",
+			say = "Damn right! What's the point of some namby-pamby frou-frou dress up party? Call me when they got a pumpkin-smashing gunnery competition or something worth my time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 404021,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…好吧",
+			say = "... Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，你这是万圣节的鬼怪装扮吗？哼哼，还真是大胆啊！就用这身让她们都吓一跳吧！作为我们姐妹的代表…呢！",
+			say = "And what's this goblin getup you're in? Doesn't leave much to the imagination! ... They're gonna remember you, that's for sure.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我跳~我跳~万圣夜活动的会场是在…",
+			say = "Hip~ Hop~ The Halloween party should be...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…糖果！在那边！嗯…？总觉得好像混着什么不太一样的……",
+			say = "Sniff... I smell candy! It's coming from that way! But... there's another smell mixed in here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿~马上就要开始啦！今年的恶作剧之王，非我莫属啦！",
+			say = "Heeheehee! It's almost time! Time for me to be crowned this year's Queen of Pranks!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿贝克隆比…笑得这么开心，又在想什么恶作剧了吧？当心做太过火又被胡德教训哦？",
+			say = "Abercrombie... I don't like the look of that smile. You'd better not be planning any pranks! Does someone want another lecture from Hood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡德阿姨！？哦哦…不在不在，哼哼，我才不怕呢~呸呸~",
+			say = "Auntie Hood?! ... Phew, she's not here. I almost had a heart attack...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "怀着各自的思绪，狂欢的万圣之夜，即将开始——",
+			say = "Whatever their feelings about the party, everyone was about to experience Halloween Chaos!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

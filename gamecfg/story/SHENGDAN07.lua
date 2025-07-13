@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>七 圣夜的拥抱</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 7 - Holy Night's Embrace</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "港区夜晚•指挥室",
+			say = "Port - Commander's Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 		{
 			actor = 0,
 			side = 0,
-			say = "……？",
+			say = "......?",
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutPainting = true,
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，还在……",
+			say = "Commander is here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，好累……？",
+			say = "Commander looks tired...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇，礼物",
+			say = "Present, from Eldridge.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给指挥官",
+			say = "To Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞、快乐？",
+			say = "Merry... Christmas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "！！",
+			say = "!!!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官、开心？",
+			say = "Commander, happy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "（点头）",
+			say = "(Nod)",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇也、开心，嘻嘻……",
+			say = "Eldridge happy too... Heheheh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "和埃尔德里奇安静地待了很长一段时间，感受到了心灵的治愈",
+			say = "The commander's quiet time together with Eldridge passed slowly. He felt like it had healed his soul...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特派记者格里德利，完成任务回来报告啦！指挥官！",
+			say = "Christmas Reporter Gridley, here to deliver her mission report! Here you are, Commander!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 0,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……！",
+			say = "......!",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？哦哦！这个是！我拍！",
+			say = "Oh? Oh my! Look at you! I've gotta take a picture!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，拍到了张好照片呢，这张照片就叫作《圣夜的拥抱》吧，嗯嗯，感觉都可以拿个普利彻奖什么的了呢~",
+			say = "Whew... This is a good one! I call it \"Holy Night's Embrace\"! Heck, this is Pulitzer Prize material!",
 			flashout = {
 				black = false,
 				dur = 0.35,

@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION75",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION75",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，您为什么一直在看着天狼星？",
+			say = "主人，您为什么一直在看着Sirius？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +40,11 @@ return {
 			},
 			options = {
 				{
-					content = "天狼星有喜欢的音乐吗？",
+					content = "Sirius有喜欢的音乐吗？",
 					flag = 1
 				},
 				{
-					content = "想更了解天狼星的喜好，比如喜欢的音乐之类的",
+					content = "想更了解Sirius的喜好，比如喜欢的音乐之类的",
 					flag = 2
 				}
 			}
@@ -55,7 +52,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星仔细回想了一下，过去似乎没有什么好好聆听音乐的机会……",
+			say = "Sirius仔细回想了一下，过去似乎没有什么好好聆听音乐的机会……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +93,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星感到很抱歉，我的{dorm3d}……",
+			say = "Sirius感到很抱歉，我的主人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +108,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "因为{dorm3d}想要更了解天狼星的喜好，但天狼星完全没有这方面的认知。所以……",
+			say = "因为主人想要更了解Sirius的喜好，但Sirius完全没有这方面的认知。所以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +119,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "我会陪着天狼星慢慢寻找",
+					content = "我会陪着Sirius慢慢寻找",
 					flag = 2
 				}
 			}
@@ -162,7 +159,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星最喜欢的永远是您，我骄傲的{dorm3d}啊。",
+			say = "Sirius最喜欢的永远是您，我骄傲的主人啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

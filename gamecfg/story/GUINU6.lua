@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>六  扑克脸</size>",
+					"As Cool As A Demon\n\n<size=45>6 Her Pokerface</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区学园·某间空教室",
+			say = "Port - An empty classroom in the academy",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我换好衣服了。",
+			say = "Right on time, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢你抽时间陪我，不知道这套衣服合不合身啊……",
+			say = "Thanks for taking the time to come here. I didn't think I'd ever wear something like this, but the situation calls for something special...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，稍微注意一下你的目光，再怎么说也不用盯得这么厉害——",
+			say = "I can tell you're ogling me. I'm going to ask you nicely to stop it. We aren't here to do anything risqué.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？原来是我坐姿有点怪吗？抱、抱歉……",
+			say = "...My posture looks off, that's all? Oh, I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "应{namecode:181}想要试穿这次学园祭上角色扮演店服装的请求，陪着她一起来到了空教室。",
+			say = "Kinu asked me to help her accustom to an outfit she would wear while working at the refreshments stand at the academy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,40 +145,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "果然在穿上之后很不习惯……怎么样才能帮她尽快找到角色扮演的感觉呢——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 302082,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "想玩纸牌游戏？没问题，放马过来吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 302082,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没有赌注，一共十局，这样的规则没问题吧？",
+			say = "I didn't know exactly how I could help, but I had to do something, so I proposed an activity we could do together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +162,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算是这身打扮，小看恶鬼的实力也是会吃大亏的哦~",
+			say = "A game of cards? That's not a half-bad idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +178,40 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯~？还要继续玩啊~？",
+			say = "Let's keep it simple. Ten rounds, no bets. You'd be adviced not to underestimate a demon's skill over her outfit.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 302082,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "Now go on, show me what you're made of.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 302082,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Well? Do we keep playing, or do you give up?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:181}自信满满地微笑着。自游戏开始以来，她一局都没输过。",
+			say = "She flashed a cocky smile at me. She had won every single round so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟指挥官看不穿我的表情嘛。虽然你也有在注意，不过在我这样的扑克脸大师面前还差得远呢~",
+			say = "Your inability to read my pokerface is your crippling flaw. Meanwhile, yours is so easy to read it's like your cards are written on your face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "慌张的表情？也不是没有，不过你大概没什么机会见到就是了。",
+			say = "...Does emotion ever show on my face? Of course. The real question is: will you ever get to see it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——嗯~好像听到这边有说话的声音……",
+			say = "Could've sworn I heard people chatting in this room... Is there actually anyone inside?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "！！",
+			say = "Oh no!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:181}表情突然慌张起来……看来这个“机会”比想象中出现的快得多啊。",
+			say = "Kinu's pokerface vanished in an instant. It turned out the answer to that question was: yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉，我现在要休息一下——",
+			say = "Listen, could we take a quick break? I need to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:181}、{namecode:181}？！你这身打扮是……？！",
+			say = "K-Kinu?! Gosh, what is that outfit?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "走入教室的{namecode:46}在看到{namecode:181}的一瞬间，震惊地瞪大了双眼。",
+			say = "Nagara threw open the door. She promptly froze in surprise when she laid eyes on Kinu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:46}姐！ 不，这是……！我……！",
+			say = "Wait, Nagara! Let me explain, it's not what you–",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "穿上这套衣服真是太可爱了！是指挥官挑的吗？我高兴到眼泪都要流出来了……",
+			say = "Oh my god, you look sooo cute in it! Did the commander pick it out for you? I'm so happy for you! I'm so happy I just NEED to hug you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别哭啊！舰船怎么能因为这点就……唔啊？！",
+			say = "Don't let emotion overtake you like that! A shipgirl needs to keep a level head in face of– MMMPHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "被扑过来的姐妹舰{namecode:46}脸埋胸口，{namecode:181}一时间害羞到手足无措起来。",
+			say = "Nagara embraced the unwilling Kinu, unwittingly smothering her in her bosom. Kinu fidgeted around, ashamed out of her mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……考虑到{namecode:46}的性格，她应该是{namecode:181}最不擅长应对的类型吧……",
+			say = "For being sisters, their personalities were polar opposites. Now I understood why Kinu has trouble dealing with Nagara.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简、简直就是一场灾难……",
+			say = "That was an unmitigated disaster...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -548,7 +548,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……话说在前，我并不讨厌{namecode:46}姐，只是……我不擅长应对这种黏人的类型。",
+			say = "Just to make it clear: I don't HATE Nagara, I simply can't stand how touchy-feely she is with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "忘了我刚才的表情吧，那样的表情不会再在你面前出现第二次了。",
+			say = "Would you do me a favor and forget the face I pulled back there? It won't happen ever again, I assure you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:181}恢复了一贯的凌然的面孔后，逐次捡起了先前因慌张而掉落的纸牌。",
+			say = "After Nagara left, Kinu regained her composure. She now had the same collected look like she always does.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:46}姐总是过于热情，有时那种热情还会徒增麻烦……",
+			say = "She really should learn to respect people's breathing room. Nobody appreciates an unsolicited motorboating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			actor = 302082,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过……不可否认她的确是个好姐姐……嗯，大概就是这样吧……",
+			say = "Although, that flaw aside, she IS a good sister... Yes, let's leave it at that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "刚刚才说完“不会再让我看到”那样表情的她，再一次地露出了那样的表情。",
+			say = "Surprisingly, right after saying she wouldn't let it happen again, a ray of emotion shone through her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

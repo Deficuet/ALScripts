@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"华灯流彩正佳音\n\n<size=45>松戏梅·其二</size>",
+					"Myriad Colors of the New Year\n\n<size=45>Frolicking Flowers, Verse II</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_144",
-			say = "空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——",
+			say = "Walk into a room, I smell fresh ink in the air. I presume someone is writing Spring Festival couplets... which isn't entirely right.",
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂！应瑞，你刚刚在偷笑对吧？",
+			say = "Hey! I heard you laugh!",
 			live2dOffset = {
 				0,
 				200,
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "Ying Swei",
 			side = 2,
-			say = "嗯哼哼~没有哦。",
+			say = "Laugh? You're just imagining it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明就是在偷笑吧！我在桌下都听见了！",
+			say = "I know what I heard! You clearly snickered up there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绝对是你在捣鬼……真是的……",
+			say = "That confirms it – you're playing a prank on me. Ugghh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,9 +125,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "Ying Swei",
 			side = 2,
-			say = "比起这个……新年快乐，指挥官~",
+			say = "Ahem... Happy Lunar New Year, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,9 +143,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "Ying Swei",
 			side = 2,
-			say = "肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。",
+			say = "Sister, you should finish up down there before the Commander sees you in a rather shameful pose.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			live2d = "touch",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！",
+			say = "The Commander's here?! Since when?! Err... Happy Lunar New Year!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			},
 			options = {
 				{
-					content = "看向肇和",
+					content = "\"What's up, Chao Ho?\"",
 					flag = 1
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，新年好……不，不对，现在不是说这个的时候！指挥官，你终于来了！",
+			say = "A small problem causing me a big headache, that's what! Good thing you showed up just now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本来和应瑞说好了我来做春联的装饰，应瑞来写对联来着……",
+			say = "So, Ying Swei said she'd write the couplets if I hung up the ornaments. Easy job, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不知为什么突然窜出来这么个小东西，把我要用的装饰拿走了！绝对是应瑞捣的鬼！",
+			say = "And it was, until this little bugger came along and stole the ornaments! I guarantee you Ying Swei is behind it, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过幸好指挥官在……得救了……快来帮我把这家伙给抓住！",
+			say = "Anyway, could you help? I need to catch that little thief right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "\"Sure thing.\"",
 					flag = 1
 				}
 			}
@@ -264,7 +264,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂喂喂等下等下！不要突然挤进来啊啊啊啊啊啊！",
+			say = "...Whuah?! I wasn't asking you to come under the table with me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，手！手！不要趁人之危啦！",
+			say = "H-hey! Watch your hands, pervert!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的……你在摸哪里啊……",
+			say = "What are you touching me for?! Eep!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,9 +319,9 @@ return {
 			bgName = "star_level_bg_144",
 			live2d = true,
 			dir = 1,
-			actorName = "应瑞",
+			actorName = "Ying Swei",
 			side = 2,
-			say = "嗯，指挥官和肇和，你们在桌子下面做什么呢？",
+			say = "What are you doing with the Commander under the table, hmm~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不不不不不什么都没有！什么都没有啦！真是的……",
+			say = "N-n-n-nothing! Nothing at all! Ugh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……不过好在终于把这家伙给抓住了……接下来要做的事情当然就是——",
+			say = "...Finally! We've caught the bastard. Now to get to the bottom of this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			live2d = "main1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应——瑞——！？",
+			say = "Yiiiiiing! Sweeeeei!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噫？！跑掉了！",
+			say = "She's... gone?! She totally hightailed it out of here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，快追上她！接下来就是清算的时间了！",
+			say = "After her, Commander! When I get my hands on her, she's gonna be SO sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"异向偏振\n\n<size=45>六 紧急授权</size>",
+					"Causality Transposition\n\n<size=45>6 State of Crisis</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			say = "星海基地-核心区-「银河之心」-X区",
+			say = "Sea of Stars Headquarters - Core Area, Sector X",
 			bgmDelay = 2,
 			bgm = "battle-starsea-elec",
 			flashout = {
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：「现实透镜」内侧出现大量新增数据，即将超出给定存储空间。",
+			say = "Warning: Unknown data overflow confirmed. Reality Lens will soon exceed mounted memory capacity.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "过载风险：高。时间调解器，效能降低至80%。",
+			say = "Overload risk high. Temporal regulator efficiency degraded to 80%.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "什么？……这才不到十分钟，到底是什么数据能占用我们全部的空间？",
+			say = "This is insane! It's only been ten minutes since the Commander went in there! What kind of data...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "难道说……埋藏在安克雷奇心智中的不明信息解压缩了么……？",
+			say = "Wait. Is this because you're analyzing the stuff in Anchorage's hull?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,9 +135,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "肯定，这是当前状况下最合理的推测。",
+			say = "It is reasonable to infer that the hull is the source of the unknown data.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,9 +153,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "根据紧急预案F，我将开始分配空闲存储阵列区域G104-H142，区域I472-K071至「现实透镜」。",
+			say = "Beginning backup plan F: mounting computing resources and additional memory for the Reality Lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -174,7 +174,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "进程处理中——",
+			say = "Proceeding with algorithm...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，同时将数据分流，分出一部分数据到实验区E4SR的「仙女座」中进行解析。",
+			say = "Helena, it's dangerous for the Commander to stay there. Move some of the unknown data to another Sea of Stars project!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……好的，开始执行分流操作……",
+			say = "Okay! I'll do it right away...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "进程处理完毕：存储阵列已重新分配。",
+			say = "Completed mounting computing resources and additional memory.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：新增存储空间不足以应对数据膨胀速度，预计将在30秒后再次抵达处理能力上限。",
+			say = "Warning: Unknown data overflow confirmed. Reality Lens will exceed mounted memory capacity in 30 seconds.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "什么？将近两个存储阵列的新增容量还不够么？！",
+			say = "Again?! What the heck is going on here?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "连模拟一座大都会都用不上这么大的容量啊……",
+			say = "This thing could simulate an entire city during the experiments. Is whatever's going on in there even bigger than that...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，能继续分流数据到「仙女座」么？",
+			say = "Helena, how's the analysis?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "……不行，「仙女座」的超级计算机也到处理极限了。",
+			say = "It looks bad here, too! It's overwhelming our processing capabilities!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "孟菲斯，不能让指挥官在如此高风险的环境下继续任务了！",
+			say = "Memphis! We mustn't continue to put the Commander in harm's way!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我明白。",
+			say = "I know that, okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "领航员小姐，行动终止，立刻断开指挥官和安克雷奇与「现实透镜」的连接。",
+			say = "TB, stop the whole experiment! Cut off the connection to the hull!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -411,7 +411,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复：该提案已被指挥官拒绝，指挥官希望我再坚持一段时间以便其寻获更有用的信息。",
+			say = "The Commander has ordered me to try to withstand it. The experiment will continue until processing reaches its limit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -430,7 +430,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：时间调解器，效能降低至25%。时间倍率比即将达到1:60,。",
+			say = "Temporal regulator efficiency degraded to 25%. The passage of time is now sixty times faster within the Reality Lens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "糟了……1:60不就意味着……",
+			say = "So you mean... It's only been like a minute out here, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "我们在外面的一分钟相当于「现实透镜」中的一个小时……",
+			say = "In the Commander's mind, it's been an entire hour?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -495,7 +495,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：我正在失去对透镜内时间流速比的控制。",
+			say = "Temporal regulator has failed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -514,7 +514,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "警告：因为时间调解器效能的降低，我正在失去对指挥官的直接观测。",
+			say = "I am no longer able to monitor the Commander's vitals. Attempts to communicate have also failed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,9 +530,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "基于现状，我将开始执行紧急预案K，关闭「星海」中优先级三及以下的项目，将释放的资源集中至「现实透镜」。",
+			say = "Temporarily halting Sea of Stars projects below priority 3 and reallocating resources to the Reality Lens, per backup plan F.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,9 +548,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "根据数据膨胀速度推算，可以额外获得大约90秒钟处理时间。",
+			say = "Based on the current rate of data overflow, this secures approximately 90 seconds of operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "不行，数据膨胀无休无止，谁也不知道什么时候是头。",
+			say = "This is awful! If we don't stop the data, it'll just keep growing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "内外的时间流速比正在失控，我们耽误的每一秒，指挥官都会遭遇更多危险。",
+			say = "And the more time passes, the more the Commander's perception of time speeds up. At this rate, the Commander's brain is going to get fried!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "孟菲斯，启用最终方案，宣布星海处于危机状态吧。",
+			say = "...Our only choice is to declare an emergency in the Sea of Stars.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "这样我们可以将星海的所有算力全部集中过来，进而在最短时间内恢复对于时间调解器的控制。",
+			say = "If we allocate every last resource to the Reality Lens, TB should be able to recover the temporal regulator.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "如果不将时间倍率控制在1:5以下的话，我是没有办法将指挥官安全弹出的！",
+			say = "Once things recover to the point that we can cut off the connection, we should save them right away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……提前拜托萨拉托加准备了这个最终保险方案真是太正确了。",
+			say = "I guess... that's all we can do, huh? We'll have to use the last resort the Commander and Saratoga left for us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，你也没意见吧。",
+			say = "Objections, Helena?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,7 +694,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "当然……行动吧。",
+			say = "N-no, ma'am!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好，领航员小姐，将「星海」基地的警戒等级提高至红色，除了安保系统之外，所有资源全部分配至「现实透镜」。",
+			say = "TB, take us into crisis mode. Reallocate all resources that aren't devoted to life support and security.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -731,7 +731,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，请输入授权代码：",
+			say = "Orders received. Please enter the access code to the tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "紧急授权代码0584，授权者，孟菲斯。",
+			say = "Emergency code 0584. Authorizer: Memphis.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102050,
-			say = "紧急授权代码7987，授权者，海伦娜……",
+			say = "Emergency code 7987. Authorizer: Helena...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "紧急授权代码6982，授权者，女灶神！",
+			say = "Emergency code 6982. Authorizer: Vestal! Commander, please be safe!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -826,7 +826,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
@@ -834,7 +834,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指令已确认，验证中————",
+			say = "Access code accepted. Confirming operation authority.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,9 +850,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "一次性紧急授权代码验证完毕，授权通过。",
+			say = "Emergency authorization code verified. Activating control program.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -868,9 +868,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "现在开始执行紧急指令，全系统正在转入危机应对模式——",
+			say = "Issuing emergency orders. All systems shifting to crisis mode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -886,9 +886,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "现在向各部门进行广播——",
+			say = "Evacuating all personnel in the facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,9 +904,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "各部门与人员请注意，我是「星海」主机，领航员-TB。",
+			say = "Attention. This is the Sea of Stars host, Navigator TB.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,9 +922,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "风险管控协议ECP-15已经激活，现在「星海」进入红色警戒状态。",
+			say = "Crisis Protocol ECP-15 has begun. The Sea of Stars will now shift into crisis procedures.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -940,9 +940,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "根据协议，「星海」核心区将在十分钟后进行全面封锁，所有常规区域将在三十分钟后关停。",
+			say = "In 10 minutes, the core of the facility will be locked down. In 30 minutes, so will the remainder of the facility.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,9 +958,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "此项进程不可撤销。",
+			say = "Cancellation window has passed. Crisis procedures can no longer be aborted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,9 +976,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "各部门请保持镇静，按照预案有序前往撤离区域。请注意，这不是演习。",
+			say = "All present within the facility, please move to the designated evacuation area at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,9 +994,9 @@ return {
 			bgName = "bg_starsea_core_1",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			side = 2,
-			say = "重复：各部门与人员请注意————",
+			say = "Repeating. All present within the facility, please move to the designated evacuation area at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1014,7 +1014,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……总算是，暂时缓解危机了。",
+			say = "Well, I guess this is where it really begins...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1031,7 +1031,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在开始分工。我负责指挥官的操作台，女灶神负责安克雷奇的操作台，海伦娜留在这里关注时间调解器的情况。",
+			say = "I'll monitor the Commander. Vestal, you take care of Anchorage. Helena, the temporal regulator is all yours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "情况紧迫，我们必须用争取到的宝贵时间尽快让局势恢复控制才行！",
+			say = "We don't have much time. We have to save the Commander and Anchorage!",
 			painting = {
 				alpha = 0.3,
 				time = 1

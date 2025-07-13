@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"混沌的万圣之夜\n\n<size=45>二 魔女快递、绝赞开张中</size>",
+					"Halloween Chaos!\n\n<size=45>Chapter 2: Smalley's Delivery Service</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "正义的伙伴，小海狸分队，查尔斯奥斯本参上！今天又有什么样的不正义之事在等着我们解决呢~",
+			say = "Never fear, Little Beavers, my allies of justice, for I, Charles Ausburne, am here! What wrongs shall I right today?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，奥斯本。走路这么闹腾当心撞到人什么的啊……",
+			say = "Please, Ausburne, be more careful. You're going to knock someone over throwing open doors like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不这样的话，就不是奥斯本了吧~嗯？那是…",
+			say = "That's just Ausburne being herself. You can't tell her not to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻…嘿咻……",
+			say = "Phew... Oof...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀！斯莫利！你在做什么呢！",
+			say = "Hey! Smalley! What are you doing over there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔？是奥斯本吗…哦，还有弗莱彻和撒切尔",
+			say = "Huh? Ausburne? ... With Fletcher and Thatcher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万圣节，魔女快递。",
+			say = "I am not Smalley. At present. I am a Witch of the Halloween Delivery Service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？魔女？快递？",
+			say = "What's a Halloween Delivery Service...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "……",
+			say = "And so...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原、原来如此…在帮爱丁堡运送糖果吗…",
+			say = "Right... You're delivering candy for Edinburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，魔女快递，绝赞开张中",
+			say = "Yes. That is the function of the Halloween Delivery Service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为期待万圣节的孩子们带去希望！多么正义的行为！既然如此，让我们也来帮忙吧！",
+			say = "You carry on your back the hopes and dreams of children everywhere! Such an act of pure justice! We must offer our aid to a fellow hero!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，又擅自揽下了奇怪的事情…算了，同为弗莱彻的一员，就帮点忙好了",
+			say = "Sigh... She's roped us into a whole 'nother thing... Just part of being a Fletcher, I guess. Might as well lend a hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 101421,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦…你们也要一起加入魔女快递的行列吗！",
+			say = "Oh? You want to join the Halloween Delivery Service!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈…斯莫利，似乎很乐在其中呢，嗯，大家一起来吧，“魔女快递，绝赞开张！”，对吧~",
+			say = "Hahaha. Smalley looks so pleased with herself. Yes, dear, we'd love to join the Halloween Delivery Service, wouldn't we, girls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,8 +328,8 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 101421,
-			actorName = "众人",
-			say = "哦——",
+			actorName = "Everyone",
+			say = "Yeah!",
 			effects = {
 				{
 					active = true,
@@ -366,7 +366,7 @@ return {
 			actor = 101421,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！……嗯？那是……南瓜？",
+			say = "Yes! Oh my. How do we deliver this?",
 			effects = {
 				{
 					active = false,
@@ -387,7 +387,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "在全新组成的“魔女快递”面前突然出现的，是一个巨大的黄色南瓜——",
+			say = "The newly reconstituted Halloween Delivery Service found themselves face to face with a colossal pumpkin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

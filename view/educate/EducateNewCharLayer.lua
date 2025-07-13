@@ -13,20 +13,16 @@ end
 function var_0_0.initData(arg_3_0)
 	arg_3_0.char = getProxy(EducateProxy):GetCharData()
 	arg_3_0.defaultName = i18n("child_default_callname")
-	arg_3_0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
 end
 
 function var_0_0.findUI(arg_4_0)
 	arg_4_0.blurPanel = arg_4_0:findTF("bg")
+	arg_4_0.namedPanelTF = arg_4_0:findTF("named_panel")
 	arg_4_0.callInput = arg_4_0:findTF("bg/panel/input/nickname")
 	arg_4_0.sureBtn = arg_4_0:findTF("bg/panel/sure_button")
 
 	setText(arg_4_0:findTF("Image", arg_4_0.sureBtn), i18n("word_ok"))
 	setText(arg_4_0:findTF("Placeholder", arg_4_0.callInput), i18n("child_callname_tip"))
-
-	arg_4_0.callInput:GetComponent(typeof(InputField)).interactable = not arg_4_0.lockNamed
-
-	setActive(arg_4_0:findTF("bg/panel/input/pan"), not arg_4_0.lockNamed)
 end
 
 function var_0_0.addListener(arg_5_0)

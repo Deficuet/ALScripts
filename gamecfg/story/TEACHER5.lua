@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"36年Z组 {namecode:408}老师\n\n<size=45>五 {namecode:408}的烦恼</size>",
+					"Class Z V\n\n<size=45>The Melancholy of Z23</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜呜…为什么就是不能顺利进行呢…",
+			say = "Uuugh... why won't things ever work out?",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然…我只是个没用的学生…",
+			say = "Maybe... I'm just a powerless student after all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦…我好像听到需要光辉照耀的孩子的声音了呢～",
+			say = "Oh my... it seems that I've come across a child who needs some illustrious guidance~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光、光辉？呜呜呜……",
+			say = "I-Illustrious? Uwaahh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哟西哟西……把你的烦恼告诉我吧，我会听你说的～",
+			say = "There, there... let me help get this burden off your chest~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事情是这样的——",
+			say = "So... the situation is like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，呵呵，大家都是有精神的孩子呢～",
+			say = "So that's what's going on. Ahh, all the kids are so energetic~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有精神……吗……",
+			say = "Ener... getic...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "港区里怎么会有坏孩子呢～？试着多和她们接触，融入她们的世界，说不定问题就迎刃而解了呢？",
+			say = "How could there be any bad children in this naval base? If you try to put yourself in their shoes more and become a part of their lives, who is to say that the problems won't resolve themselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "融入她们啊……",
+			say = "Become a part of their lives...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}是真心想帮助她们的不是吗？只要是出自真心，对方总是能够理解的～",
+			say = "Zed, do you truly wish to help them from the bottom of your heart? If that is the case, surely you will be able to find common ground with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我知道了…我就再…努力一回试试看吧！",
+			say = "I... I understand now. One more... I'll give it one more try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…好孩子~光辉会祝福你的～",
+			say = "Ahh... good girl~ I'll be cheering you on~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

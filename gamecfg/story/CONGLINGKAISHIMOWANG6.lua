@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "一段时间后，王都繁华的街市中——",
+			say = "Sometime later, in the Royal Capital streets...",
 			bgm = "story-musicanniversary-gorgeous",
 			typewriter = {
 				speed = 0.05,
@@ -35,11 +35,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……刚才真是千钧一发，差点就要被抓入大牢了！",
+			say = "Phew... THAT was close. They almost threw us in jail!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,12 +53,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过王宫内部虽然一团糟，却没有人追着我们跑出来呢~",
+			say = "How come nobody's chasing after us? They looked livid back in the castle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,11 +72,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，可能是因为我们切换地图了吧，NPC是没办法自由切换地图的~",
+			say = "Might be because we moved to a new map! NPCs can't do that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,11 +90,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话又说回来，国王给的初始资金竟然有五百枚金币，真是太慷慨了。",
+			say = "Good thing we got our reward from the king before we bailed. 500 gold was extremely generous of her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,11 +105,11 @@ return {
 			},
 			options = {
 				{
-					content = "可能是游戏CE版特有的高福利任务？",
+					content = "I wonder if this was an early access mission.",
 					flag = 1
 				},
 				{
-					content = "只给10枚铜币就想打发人去讨伐魔王的时代结束了！",
+					content = "No more risking our lives for a measly 10 copper coins!",
 					flag = 2
 				}
 			}
@@ -117,13 +117,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			optionFlag = 1,
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我希望能把这个慷慨的奖励保存在正式版中！",
+			say = "If it was, then I hope they keep it in the final release!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,13 +136,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错~我也是这么认为的！",
+			say = "Damn straight! We're set now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "不论如何，多亏国王提供的慷慨资金，我们才得以进行了一次扫货式的大采购。",
+			say = "Thanks to the king's hefty reward, we were in a position to splurge all we wanted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "抚顺从铁匠铺中购买了全套勇者盔甲，独角兽一口气将法杖的强化等级提升到了最高。",
+			say = "Fu Shun bought a suit of armor from the blacksmith. Unicorn enhanced her staff to its max level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "利物浦则买了一身属性并不顶尖，但在整个王都中最为可爱的衣服。",
+			say = "Liverpool purchased a new outfit. While it's not the best in terms of stats, it IS the cutest you'll find in the whole city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "至于我……很可惜，指挥官的职业似乎装备不了绝大多数的武器和盔甲。",
+			say = "Then there's me... Sadly, the commander job can't equip most weapons and armor sets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "不过作为代替，我将剩下的全部预算都变成了炼金炸弹。",
+			say = "So instead, I spent the remainder of our funds on alchemy bombs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_178",
-			say = "投掷作为我所拥有的唯一战斗技能，用炼金炸弹与之配合真是再合适不过了。",
+			say = "Throwing is my only combat skill, so pairing it with bombs makes the most sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,11 +233,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了对了，大家听我说！",
+			say = "Hey, gang! You'll wanna hear this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,11 +251,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才在路过冒险公会的时候，我听到了一个十分不得了的传闻哦！",
+			say = "I just heard a juicy rumor over at the Adventurer's Guild!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,12 +269,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "见习神官",
+			factiontag = "Apprentice Cleric",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……十分不得了的传闻？",
+			say = "What did they say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,11 +288,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "传闻中说——有一位传说中的大魔法师，就隐居在无尽树海的深处哦！",
+			say = "That a legendary mage who once defeated the Demon King lives somewhere in the Endless Woods!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,11 +306,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，咱们的小队有一名勇者一名指挥官和两名神官，魔法输出严重不足！",
+			say = "Think about it. Our party consists of me, the Commander, and you two clerics. We desperately need some offensive magic!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,11 +324,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能让这位大魔法师加入我们的话，我们的短板就补齐了！",
+			say = "If we can recruit this mage, it'll round out our party!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,11 +342,11 @@ return {
 			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "神官",
+			factiontag = "Cleric",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "隐居在森林中的大魔法师……听起来好有趣！",
+			say = "A mage out in the woods, eh... Let's do it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,11 +357,11 @@ return {
 			},
 			options = {
 				{
-					content = "这个大魔法师……是精灵么？",
+					content = "Who is she? A thousand-year-old elf?",
 					flag = 1
 				},
 				{
-					content = "无尽树海的深处……",
+					content = "Aren't the deep woods pretty dangerous?",
 					flag = 2
 				}
 			}
@@ -369,13 +369,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			optionFlag = 1,
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就不清楚了，得实际看看才知道哦！",
+			say = "No idea. We'll just have to see for ourselves!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,13 +388,13 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不用担心。无尽树海深处虽然更危险一些，但魔物也依然是些啾莱姆，不足为虑~！",
+			say = "It'll be fine! Sure, it's more dangerous than the outskirts, but the monsters are no tougher than that King Slimejuu.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,11 +408,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哔哔哔~任务目标——邀请传说中的大魔法师入队！",
+			say = "There's the notification! Quest: Recruit the Legendary Mage!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "任务地点——无尽树海的深处！",
+			say = "Destination: Deep inside the Endless Woods!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,11 +444,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "勇者",
+			factiontag = "The Hero",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "勇者抚顺的冒险小队~出发！",
+			say = "Let's set off, folks!",
 			painting = {
 				alpha = 0.3,
 				time = 1

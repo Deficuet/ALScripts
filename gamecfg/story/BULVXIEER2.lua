@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"元气甜心的爱意攻势\n\n<size=45>二　无法被打湿的爱意</size>",
+					"All-Love Assault!\n\n<size=45>2. Rain or Shine</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "某个阴雨连绵的休息日——",
+			say = "It's a dark, rainy day at the port...",
 			bgm = "story-richang-1",
 			flashout = {
 				black = true,
@@ -59,7 +59,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……真是讨厌……明明想今天跟指挥官出门约会啊——",
+			say = "Aww... This sucks. I wanted to go on a date with the Commander today...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀，这不是指挥官么！好巧呀~",
+			say = "...Whoa, speak of the devil! Hey, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，指挥官也是故意为了见{namecode:450}才过来的吧？",
+			say = "Heheh☆ Is this a coincidence, or were you coming to see me, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "……这是通往指挥室的必经之路。很显然，{namecode:450}早就堵在这里了。",
+			say = "As I turn the corner leading to my office, I bump into Blücher. She's been waiting here for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "其目的，大概是为了让我兑现几天前“被迫”答应她的约会日程。",
+			say = "\"Let me guess. You want me to take you on that date you decided on.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们就走吧，指挥官？~你可是答应过今天要和{namecode:450}约会的哟？",
+			say = "Yup! You promised we would! You ready to head out?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,15 +157,15 @@ return {
 			},
 			options = {
 				{
-					content = "可约好的时间是下午……",
+					content = "\"I thought we'd go in the evening?\"",
 					flag = 1
 				},
 				{
-					content = "可现在正在下雨……",
+					content = "\"It's pouring outside.\"",
 					flag = 2
 				},
 				{
-					content = "好耶！",
+					content = "\"Let's go!\"",
 					flag = 3
 				}
 			}
@@ -180,7 +180,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但指挥官一大早就急着来见{namecode:450}了哦~",
+			say = "Yeah, but you're here 'cause you wanted to go now, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？难道不是么？总不会是指挥官想利用休息日偷偷去指挥室加班吧？",
+			say = "Don't tell me you were gonna sit down and start working. That's not gonna happen!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，那又有什么关系嘛~",
+			say = "So what? I don't care~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要{namecode:450}能陪在指挥官身边，那心情就———每时每刻都是阳光灿烂的大晴天！",
+			say = "As long as I'm with you, the forecast is all sunshine and clear skies in my heart!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼~和指挥官的雨中约会开始咯~",
+			say = "Heheh☆ This rainy day's about to get a whole lot brighter!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "与{namecode:450}一同漫步在雨中的港区。",
+			say = "She and I go on a stroll around the port in the rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
-			say = "在路过铁血的宿舍区时，一个熟悉的身影出现在眼前——",
+			say = "Then, we pass by the Iron Blood dormitory and come across a friendly face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:428}~早上好！你也在进行雨中漫步么？",
+			say = "Morning, Eugen! Whatcha doing? Going for a walk?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哟，这不是指挥官，还有“元气甜心”小姐嘛？",
+			say = "Well, if it isn't the Commander and my favorite loudmouth.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -352,7 +352,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说姐姐可是不礼貌的！",
+			say = "Hmph! That's no way to talk to your sister!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是是是~那么，两位打算去哪里呢，难不成是在……约会？",
+			say = "Yes, yes, I'm so very sorry. Anyway, what are you two up to? Are you on, dare I ask, a date?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,11 +392,11 @@ return {
 			},
 			options = {
 				{
-					content = "只是陪{namecode:450}在港区里随便转转。",
+					content = "\"We're just walking around the port together.\"",
 					flag = 1
 				},
 				{
-					content = "应该是算吧？",
+					content = "\"Yeah, you could say that.\"",
 					flag = 2
 				}
 			}
@@ -411,7 +411,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！就是约会！是约会！约会！！！啦！",
+			say = "Don't mince your words, Commander! Yes, we ARE on a date!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不是什么闲逛！明明就是充满爱意的约会，{namecode:428}你不要听指挥官乱说哦！",
+			say = "Let me make this clear! We're not \"just walking around the port,\" we're on a romantic stroll!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，我完全理解了。",
+			say = "Uh-huh. I see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……没想到你们的关系进展得还挺迅速的嘛。",
+			say = "Oh my... You two sure got friendly while I wasn't looking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -520,7 +520,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过姐姐对约会这种事情可是有着超乎寻常的热情的哦？指挥官可不要被吓退了~",
+			say = "A little warning, Commander – she is extremely passionate when it comes to dates. Try to keep your wits about you, alright?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，爱意就要坦率地表达出来嘛~",
+			say = "Heheh☆ Love is meant to be expressed loud and clear, you know!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~走啦，指挥官~我想好接下来去哪里玩了，今天要一直陪着{namecode:450}哦~",
+			say = "C'mon, let's get moving, Commander! I've figured out where we're going next. You and I are gonna spend the whooole day together♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

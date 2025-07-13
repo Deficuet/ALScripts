@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "稍早之前的演习海域——",
+			say = "Elsewhere...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "灰色幽灵的妹妹，吃我这一招！",
+			say = "Take this, sister of the Grey Ghost!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "你对我姐姐未免太过执着了吧！现在是我们两个在演习！",
+			say = "C'mon, I have a name, you know! You're facing up against me this time, not my sister!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "企业姐虽然很强，不过我对自己也是很有自信的！接招！",
+			say = "Enty might be strong, but I'm no slouch either! Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "让你见识一下我的厉害——",
+			say = "I'll show you what happens when you underestimate me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "二人激战正酣，忽然收到来自港区的通讯。",
+			say = "An urgent message suddenly interrupted the white-hot duel between the two carriers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "……撒丁舰队在回港途中发现了镜面海域正在呼叫增援？",
+			say = "...The Sardegna fleet ran into a Mirror Sea on the way back to the port and needs backup ASAP?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "这可不是能悠然进行演习的时候了啊。",
+			say = "In that case, we can't be sitting here play-fighting amongst ourselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，这种情况还是以支援同伴为最优先。",
+			say = "You're right. Nothing is more important than answering the call of our allies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "接下来用实战战绩一决高下吧！",
+			say = "We'll use this upcoming battle to decide the victor of this duel!",
 			effects = {
 				{
 					active = true,
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "好，奉陪到底——",
+			say = "Sure. Let's see who has the best performance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

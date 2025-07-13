@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "捡到了一只躲在观众台下的小猫，获得了【喵箱SR型*1】"
+			say = "You found a stray Meowfficer that somehow managed to blend in with everyone else in the bleachers. You received 1 Elite Cat Box!"
 		}
 	}
 }

@@ -5,7 +5,11 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在赛车场见到了紫色的精灵，但立刻就消失了，找到了奖励【强化部件T3*20】"
+			say = "You found something while the mysterious purple phantom of the racetrack shows up! You received 20 T3 Gear Parts!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
 		}
 	}
 }

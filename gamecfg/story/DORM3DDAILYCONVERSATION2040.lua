@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……{dorm3d}想和我讨论一下什么是爱吗？",
+			say = "Hmm... You want to discuss love with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "其实我也思考过很久，它无法预测又充满变数和不确定……",
+			say = "I've thought about it for ages. Love cannot be measured, it's uncertain, and it's filled with ups and downs...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但我依旧觉得，爱很美好。它让每个平凡的日子都变得难忘。",
+			say = "Still, love is a wonderful thing. It turns even the most ordinary days into something special.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你的感受应该也与我相同吧，{dorm3d}？",
+			say = "Don't you agree, {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

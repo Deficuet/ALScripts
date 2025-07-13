@@ -8,12 +8,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "分析仪",
+			actorName = "Analyzer",
 			stopbgm = true,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "数据解析中————————————",
+			say = "Analyzing data logs...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -33,11 +33,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "Analyzer",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "数据解析完毕————————————",
+			say = "Analysis complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,11 +49,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "Analyzer",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "正在播放纪录————————————",
+			say = "Commencing footage playback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "会议开始，本日我们来探讨一下颇具争议的现象：「META」",
+			say = "Today, we will discuss what has been dubbed the \"meta phenomenon.\"",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -104,7 +104,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "META，即「元」。",
+			say = "\"Meta\" itself is derived from an ancient word which means \"change.\" ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "根据我们的了解，META是一种趋势，也是一种性质。是变化的过程，也是变化的结果。",
+			say = "It is quite broad in meaning, but for our purposes, it refers to the result of a property having undergone change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "当事物的性质向着META进行变化时，这一过程被称为META化。",
+			say = "The process itself of a property changing is what is known as \"metamorphosis.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "心智魔方可以META化。基于META化的心智魔方可以诞生出META化的舰船。",
+			say = "This process has been observed in Wisdom Cubes. These Wisdom Cubes make up the processing centers of our autonomous naval combat platforms... colloquially known as \"shipgirls.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "舰船亦可以META化，基于自身心智魔方的META化转变为META化的舰船。",
+			say = "Cases of metamorphosis has been observed in certain shipgirl subjects as well. When their cores undergo metamorphosis, it affects their quantum data on a fundamental level.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "基于META化心智魔方建造出的META化舰船，其META化程度是不可逆的，至少目前没有发现任何逆转的方式。",
+			say = "Once a subject's Wisdom Cube has undergone metamorphosis, it cannot be reversed. At least, not through any means currently known to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "基于舰船转化为的META化舰船，其META化在一定限度内是可逆的，目前拥有多种成熟的处理方式。",
+			say = "The conditions that cause metamorphosis lie dormant in all shipgirls. Furthermore, its onset metamorphosis can be manipulated, to a certain degree.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "心智魔方META化的尽头，就是「元魔方」。",
+			say = "If metamorphosis is allowed to progress unimpeded, a subject's Wisdom Cubes will ultimately turn into an Origin Cube.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "而舰船META化的尽头，则是————",
+			say = "It is theorized that if are able to induce late-stage metamorphosis in a subject, they–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgNoise = true,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？外部干扰又出现了，这里应该是地下————",
+			say = "...More electronic interference? How is that possible? We are deep below the–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,10 +270,10 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "Analyzer",
 			dir = 1,
 			blackBg = true,
-			say = "数据解析异常————————————",
+			say = "Error during data log analysis.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -302,11 +302,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "分析仪",
+			actorName = "Analyzer",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "播放中断————————————",
+			say = "Playback interrupted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

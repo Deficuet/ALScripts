@@ -16,7 +16,7 @@ return {
 			hidePaintEquip = true,
 			actor = 10800020,
 			nameColor = "#a9f548",
-			say = "事情要从几天前说起，当时是休息日，我正普通的在家里睡大觉，而你们的话——",
+			say = "So it went like this... a few days ago while we were on break, I was sleeping at home. If I remember correctly, Rikka...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，我已经想起来了？！我应该只是在去plaza的路上，然后……",
+			say = "Ahh, I remember now! I went to the plaza, and then...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -67,7 +67,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不知道为什么就在这里上课了…奇怪，这里是哪里？到底是发生了什么……",
+			say = "When I came to, I was in class as usual... So why were we...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…原来失忆就是这种感觉么……",
+			say = "I can't quite remember... It feels like there are holes in my memory...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，脑袋有点晕，好像一下子想起了很多事。",
+			say = "Now that you mention it... My head's felt a bit foggy lately...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "几天前？可是印象里…明明应该就在昨天呀。",
+			say = "A few days? Everything feels like it's happened within the last day for me... But I guess that's all relative.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟我们跨越了世界，期间时间的流速发生变化也是很正常的嘛。",
+			say = "We're from different worlds after all. It's not unthinkable that time might pass differently for us~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "茜，这里是你的世界么？",
+			say = "So Akane, is this world your doing?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，不是哦。我与你们的区别只在于——你们是在不知情的情况下卷入的，而我是被邀请而来的。",
+			say = "Sadly, nope. But unlike the rest of you, who were pulled in without your knowledge, I was invited here.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……邀请，被谁？",
+			say = "...By who?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -205,7 +205,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有着巨大的帅气装备，还有很多有趣机械装甲的……人？",
+			say = "Uhh... Some people who had all this super cool giant mecha gear?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "啊……那肯定是塞壬了！",
+			say = "Wait, that sounds just like... the Sirens?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！它们也是这么自称的。不是生物，而是智能生命体哦。",
+			say = "Oh yeah, that! That's what they called themselves. Seemed like they aren't living beings, but rather some kind of AI?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个空间就是塞壬制作出来的，好像能力和我以前做出来的怪兽差不多呢。",
+			say = "Those Sirens created this entire space. It reminds me a bit of how I used to create kaijus back then.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "创造空间的怪兽不是我创造的，我也不是这个世界的神。",
+			say = "So basically, I have nothing to do with whoever made this world, nor am I some kind of god here.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在了解到这一点之后，我才决定来试一试的哦。以普通的身份进行普通的生活。",
+			say = "Even so, I came here of my own accord. I wanted to be a normal human, living out a normal life.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "从结果来看，并没有和当初想的一样呢。",
+			say = "Oh, woe... They weren't even able to make my dreams come true...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "塞壬隐瞒了会发生危险的部分？",
+			say = "Whatever this \"proposal\" was, they clearly weren't forthcoming with Akane either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！这样还怎么算普通的日常生活啊！",
+			say = "Yeah! This isn't the normal life I was promised at all!",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯，是塞壬的一贯作风……",
+			say = "Yep. Just as you would expect from the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……虽然不是很明白，不过大概明白了。",
+			say = "Umm, I think I get the gist of what's going on.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -419,7 +419,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话，会不会是貉也接受了塞壬的提案？",
+			say = "But if that's the case, why is Mujina here? Did she also get an invitation from these Sirens?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -436,7 +436,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如……塞壬用一个依然存在有怪兽的世界作为提案邀请了她过来。",
+			say = "I could see them offering her something like \"a world where kaiju still exist,\" or something like that...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "存在有怪兽……真的有人会喜欢那种世界么，没有敌人的和平世界才好吧。",
+			say = "I thought kaijus were the enemies in your world though? But I guess there are always people out there who like having enemies around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			bgName = "bg_ssss_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怪兽优生主义就是这样的人。",
+			say = "That's... the opposite of what the Kaiju Eugenicists believe...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -488,7 +488,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很遗憾，我只知道自己的事，其他的事情不清楚哦。",
+			say = "Sorry, but I can only speak for myself. Wouldn't be able to tell you what's going on with her.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -506,7 +506,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过，如果真的是被塞壬邀请过来的，八成也是在某种程度上被骗了吧。",
+			say = "If she was invited here by the Sirens just like me, then she's most likely being deceived as well.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是塞壬嘛……这是绝对的事。啊……等等，这么说来刚才上课的老师——是净化者啊？！",
+			say = "Well, anything is possible with the Sirens, so... Ahh, w-wait a minute! The teacher in our class was... was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 10800050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化者是……？",
+			say = "Miss Purity?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "是塞壬中的高阶单位！没想到她会在这么近的距离观察我们！",
+			say = "Yes, her! She's actually Purifier, one of the Sirens' higher-ups! I knew it, they've had someone watching us this whole time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102163,
-			say = "原来茜一直知道，就是没有告诉我们啊……",
+			say = "Wait, Akane, if you knew all that, why didn't you just tell us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 10800020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话比较有趣嘛，嘿嘿。",
+			say = "Because it's more fun that way, heehee~",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -623,7 +623,7 @@ return {
 			actor = 10800010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶…",
+			say = "Uhh...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化者现在还在体育馆里，不好……得赶紧做点什么才行……我们快回去吧！",
+			say = "Purifier should be at the gym right now! Let's hurry there and reassess the situation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心，已经控制住了。现在它已经被关起来了哦。",
+			say = "While we're checking on Purifier, we should also find the other shipgirls around the school and let them know what's going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			actor = 900318,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "既然大家都想起来了，那我们就一起去问问看吧。塞壬这次又在耍什么阴谋，以及回去的方法之类的~",
+			say = "And our friends from another world as well~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

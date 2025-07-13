@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"一锤！Burin！\n\n<size=45>一　那个古老的传说</size>",
+					"One-Punch! Bulin!\n\n<size=45>1.An Ancient Legend</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "传说，在遥远的远方，有能实现任何愿望的神明。",
+			say = "Legends speak of a god in far-off lands who will grant any wish you can imagine.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "但那毕竟是许久、许久以前的传说了——",
+			say = "However, a legend is all it is. A legend from long, long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能实现任何愿望buli？",
+			say = "Any wish you can imagine, bulin?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不可能的buli，布里的扳手也做不到实现所有愿望buli！",
+			say = "Nuh-uh, that's impossible, bulin! Not even my almighty wrench can do that, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而且，那肯定是很远的地方purin！",
+			say = "Even if that god does exist, they live in some unreachably distant place, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "就算是用突破天际的钻头，也到达不了的地方purin！",
+			say = "Even my drill that pierces the heavens can't take you THAT far, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "才不是呢burin！",
+			say = "Not with that attitude it won't, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我的好运告诉我，传说一定是存在的burin！",
+			say = "My godly luck tells me the legend is real, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 100020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我肯定会证明给你们看的burin！",
+			say = "I'll prove it, even if I have to defy the universe itself, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "*特装型布里MKIII离开了*",
+			say = "With those words, the defiant MKIII Bulin walked away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "buli！妹妹好像很生气的样子buli！",
+			say = "Whoa, bulin! She sounded mad, bulin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也许应该支持她purin！要让她带上这里最好的锤子，再去冒险purin！",
+			say = "We ought to support her, bulin! Let's get her the strongest hammer around and go on an adventure, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我知道有一件能够敲碎任何东西的锤子purin！我们现在就去找它吧purin！",
+			say = "I know a hammer that can turn even diamonds into dust, bulin! I'm gonna find it, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "buli！现在就出发吧buli！",
+			say = "Sounds like an awesome idea, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "人家挖宝藏可是很厉害的buli！",
+			say = "I'm the bestest treasure hunter alive, bulin! I'm going with you, bulin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,8 +306,8 @@ return {
 			side = 0,
 			dir = 1,
 			hideOther = true,
-			actorName = "泛用型布里&试作型布里MKII",
-			say = "一定要找到那个锤子buli\n一定要找到那个锤子purin！",
+			actorName = "<size=28>Universal Bulin & Prototype Bulin MKII</size>",
+			say = "I'll find that hammer if it's the last thing I do, bulin!",
 			subActors = {
 				{
 					actor = 100010,
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
-			say = "于是，布里三姐妹踏上了殊途同归的道路。",
+			say = "And so, the three Bulin sisters went off on their separate adventures.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "时间，就这样飞速流逝着——",
+			say = "One fateful day, they would reunite...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

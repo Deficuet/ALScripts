@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，以后……安克雷奇……帮{dorm3d}，工作！",
+			say = "{dorm3d}, from now on... Anchorage will help you work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}教，安克雷奇，很清楚……！",
+			say = "You taught me... really well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,18 +41,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "首先，整理……然后，分类……{dorm3d}，安克雷奇，说的对吗？",
+			say = "First, sort papers... then classify them... Is Anchorage doing it right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不错！",
+					content = "Yeah!",
 					flag = 1
 				},
 				{
-					content = "就是这样！",
+					content = "You're doing great!",
 					flag = 1
 				}
 			},
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，做到了！安克雷奇，真棒…！{dorm3d}夸……安克雷奇，进步！",
+			say = "Hehe, I did it! Anchorage is doing good...! {dorm3d} praised me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

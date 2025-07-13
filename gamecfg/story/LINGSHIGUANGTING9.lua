@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-richard",
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "呵呵，那个“我”也是假的哦。真正的我在你的右手边，猜猜看哪个是真的？",
+			say = "What you just shot dead was only a phantom. The real me's on the right. Go on, try to guess which one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_6",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "很遗憾，猜错了哦。",
+			say = "Nope~♪ Not that one, lady.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "在君主的视野中，远方的无数少女轮廊似乎在逐渐瓦解，仿佛变为了风暴、海啸，或者某种巨大结构的组成部分。",
+			say = "Monarch unleashed a volley so fierce it all but burned away the rifling of her barrels. A blink of the eye later, Richard had vanished.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那个……难道是你的本质么！",
+			say = "So that's your true form, is it? This black tornado?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "你在说什么我不明白哦~",
+			say = "This black what? You're not making any sense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "突然，水面出现了一个金色的漩涡，金光照亮了海面，也驱散了夜空。",
+			say = "The black tornado shot out a column of pure energy aimed straight at Monarch. But, the instant before it could hit, the sea was lit up by a white flash.",
 			effects = {
 				{
 					active = true,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "更重要的是，三层环带掀起的巨浪将好人理查德与她的无数分身一并击退了。",
+			say = "The raging winds slowed, and when the light dimmed, Bon Homme Richard's clones had been swept away.",
 			effects = {
 				{
 					active = false,
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "什么人？！",
+			say = "More visitors? Boy, today's a busy day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你是什么人，在对本王的臣民做什么？！",
+			say = "Keep your evil hands off Monarch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白女王？",
+			say = "Y-Your Majesty?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "正是本王！你个木头脑子！乱跑的事之后再跟你算账。",
+			say = "In the flesh! Expect an earful after this for using Camelot without my permission!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "咦？居然还带了朋友来观光啊。",
+			say = "Heh. I thought you were alone – turns out, you led your friends right to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "这下可要好好招待一番了呢~",
+			say = "Thanks a bunch, lady! Now let's treat you all to the main event!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "伴随着好人理查德的话语，一道黑色的风暴出现了，天空在重新被黑暗占领。",
+			say = "Just as the last word left Richard's mouth, the auburn skies dimmed into darkness, the black tornado bellowing with fury once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，卡美洛之庭正在遭受未知的强烈干扰，坐标稳定器正在失灵，功率也在急速下降。",
+			say = "Your Majesty, the energy output at Camelot is rapidly fluctuating! We are losing the teleporter's connection to it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "卡美洛之庭正在遭受干扰？！啧……君主你这是惹到了个什么麻烦的家伙啊。",
+			say = "This maniac can reach Camelot with her powers?! It's no wonder those terminal coordinates showed up out of nowhere!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "第一次任务就遇到了个不得了的对手欸……",
+			say = "What shall we do, Your Majesty? Fighting a storm is a radical idea to say the least!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遭受干扰……诶诶欸？！我们难道回不去了么？！",
+			say = "Wait, so have we lost our way back to Camelot?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那倒不会，不过重新设定坐标将会花费大量时间。",
+			say = "Sheffield is grappling with the terminal controls. It will take some time, but we should be able to return to our point of origin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好人理查德想把我们所有人都困在这里……！",
+			say = "Time is something we don't have! The tornado will wipe us all out if we don't leave RIGHT NOW!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白女王，对于本次擅自行动带来的后果，我愿意一人承担。",
+			say = "(Of all the things that could've happened! Everyone including Her Majesty will perish if someone doesn't do something...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里就交给我来殿后，你们快走吧！",
+			say = "Your Majesty, you must fall back at once! I shall hold her attention!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈啊？那本王为什么要大费周折过来接你一趟啊？！",
+			say = "You will not die on my watch! Why do you think I'm out here, risking my own life?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是气死我了……你还愣着干什么！给我快点进来！",
+			say = "Emergency measures! Create a gate that leads to any random set of coordinates within Camelot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是……",
+			say = "That's too dangerous, Your Majesty! We don't know where it may take us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有可是！贝法，别管什么坐标了！不管去哪里都比这里好！",
+			say = "Can't be any bloody worse than here! Radio Sheffield and tell her to run an emergency powerup of Camelot!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "紧急启动卡美洛之庭，这地方本王一秒钟都不想多待了。",
+			say = "And erase the coordinates on this terminal so that psychopath can't come after us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遵命。",
+			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……遵命。",
+			say = "...Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			say = "巨大的环带再次运作，耀眼的金色光芒之后，卡美洛之庭消失了。",
+			say = "Just in the nick of time, the girls managed to escape the Mirror Sea before a tsunami created by the tornado could engulf them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

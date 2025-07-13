@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万圣夜的「奇遇」\n\n<size=45>四　万圣节的魔女</size>",
+					"Halloween Hijinks\n\n<size=45>4 The Witch of Hallow's Eve</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "此刻，正站在魔女的占卜屋前——",
+			say = "I arrived at a witch's fortune-telling shop.",
 			bgm = "battle-highseasfleet-reborn",
 			flashout = {
 				black = true,
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "万圣节和魔女是绝佳的搭配，但是港区的“魔女”，究竟会是谁呢……？",
+			say = "Witches might be \"the\" Halloween costume, but there were so many people in our port who fit that descriptor that I couldn't imagine who I'd find inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "试着敲一敲门好了。",
+			say = "\"Guess I might as well just knock.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "万圣节的魔女？",
+			actorName = "Witch?",
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
-			say = "请进，深夜的来访者。",
+			say = "Enter, pilgrim of the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "深夜来拜访此地，应该是迷失在万圣之夜的探索者吧？",
+			say = "What brings you here at such a late time? Are you a lost soul wandering through the Halloween night?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -119,7 +119,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，很惊讶么？今天的孟菲斯可是“万圣之夜的魔女”哟。",
+			say = "Not surprised, huh? Got a problem with me being the Witch of Hallow's Eve?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "孟菲斯昏暗的帐篷里烟雾缭绕，唯一能看清的只有桌子上发着微光的水晶球，显得一切都朦胧又梦幻。",
+			say = "All I could make out in the smoke-filled shack were a crystal ball placed on a table and Memphis, clad in a witch costume.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "是用来占卜的水晶球吗？没想到孟菲斯还有这样的技术……",
+			say = "\"I didn't know you could see the future, Memphis.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是普通JK常有的爱好……不对，水晶球占卜可是女巫的必备技能哦。",
+			say = "\"It's not really... Uh, I mean, of course I can! I'm a witch, after all!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迷失在万圣之夜的指挥官，你是来寻求有关未来的指引，还是……来与我共享万圣之夜的呢？",
+			say = "Lost pilgrim of the night, do you seek guidance toward your future? Or do you seek time with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "其实是……",
+			say = "\"Well...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘，别急着回答。来坐好，把手放在水晶球上，让我看看你的未来。我的预言可是很准的哦？",
+			say = "You need not answer. Come and sit. Place your hand on my crystal ball and reveal the future to me. I will predict your future.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯…………原来如此。",
+			say = "Oh... I see.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -243,7 +243,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然会是这样……没办法，既然是水晶球中预示的未来，那就只好接受了。",
+			say = "There it is. If the crystal ball says so, then I have no choice but to accept it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,11 +254,11 @@ return {
 			},
 			options = {
 				{
-					content = "……你看到了什么？",
+					content = "\"What did the crystal ball show you?\"",
 					flag = 1
 				},
 				{
-					content = "未来很糟糕么？",
+					content = "\"Is it good or bad?\"",
 					flag = 2
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么说呢……占卜的结果是，指挥官会跟一位女性度过万圣夜的剩余时间。",
+			say = "It reveals a vision of you, Commander, spending Halloween night with a certain shipgirl.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以说糟糕也可以说是不糟糕……毕竟占卜的结果是，指挥官会跟一位女性度过万圣夜的剩余时间。",
+			say = "It's neither, really. Commander, the ball tells me that you'll spend the night with a certain shipgirl.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "然后，这位女性是指孟菲斯？",
+			say = "\"Which shipgirl...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是————虽然我很想这么说，不过很遗憾，那个人不是我。",
+			say = "Me, of course...is what I'd like to say. But unfortunately, it's not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "咦……？难道这个占卜，不只是做做样子而已么？",
+			say = "\"I thought your fortune-telling was just another Halloween attraction.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "信则有不信则无嘛。",
+			say = "You're not wrong, but to be more precise, it's an attraction with a hint of reality.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -369,7 +369,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来，把这个给你戴上~",
+			say = "Here. Take this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "孟菲斯突然摘下了自己宽大的魔女帽。",
+			say = "Memphis handed me a witch's hat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有扫把你要么，关键时刻可以用来防身哦？",
+			say = "Take a broom with you, too. It'll double as a self-defense weapon, which you might just need.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -411,7 +411,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "怎么突然变得这么正经……是占卜出了什么问题么？",
+			say = "\"I don't understand. What the heck did you see in my future?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "占卜的结果说，会跟指挥官度过万圣夜的人是一个陌生人。出于安全起见还是拿点防身的东西吧。",
+			say = "The shipgirl you'll be with can be a little difficult. Trust me, you'll be better off with this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "等等…………你是指港区里混进来了陌生人？！",
+			say = "\"A shipgirl you'd call 'difficult'? I can't tell if I know who you're talking about or not...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯。不光是占卜的结果，我之前在街上闲逛的时候也实际看到那个陌生人了。",
+			say = "I saw her just a while ago. Beats me how she snuck a real weapon into the party venue.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -473,7 +473,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "这可是紧急情况，她究竟是怎么混过警卫系统的需要好好调查一下……不会是乘虚而入的塞壬吧？！",
+			say = "\"A real weapon...? If she got past the bag check with a weapon, then that's a real emergency. Did the Sirens do this?!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是要调查一下，不过估计不紧急，也应该不危险。毕竟之前我看的时候，那个可爱的海盗女士看起来很享受我们的万圣夜呢。",
+			say = "You will need to check on her, but it's hardly an emergency. I wouldn't even call it dangerous. That pirate is just enjoying Halloween in her own way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……可爱的海盗女士？",
+			say = "\"Pirate? A pirate shipgirl? That would be...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			actor = 102162,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错——一个带着红色大帽子的海盗女士哦~我觉得这种事就交给指挥官好了，加油哦~",
+			say = "Exactly. A pirate shipgirl wearing a red hat. I think you're just the man to deal with her, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
-			say = "……事不宜迟，与其漫无目的地踱步，不如去找这位悠闲的“不速之客”一探究竟吧。",
+			say = "\"I'm curious what happened. Instead of just wandering around, I'd better go confront her directly and confirm that she's the one I'm thinking of.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

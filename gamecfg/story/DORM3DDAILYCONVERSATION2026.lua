@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，需要我来帮您清理耳朵吗？",
+			say = "{dorm3d}，do you want me to clean your ears?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近跟其他同伴学习了一下掏耳朵的技术……应该算是有所精进了。",
+			say = "I picked up some tricks from my friends around the port, so I should have gotten better at it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过这次，请你用“躺”的，别再趴着了。",
+			say = "This time, I'd like you to lie on your back instead of your stomach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "如果非要的话……也不是不行……",
+			say = "But if you really want the other way... I suppose that's fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

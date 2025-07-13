@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "情人节……巧克力，送给……{dorm3d}！还有……亲亲！",
+			say = "Valentine's chocolate... for you, {dorm3d}! And a kiss, too...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

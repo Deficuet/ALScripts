@@ -15,7 +15,7 @@ return {
 			bgm = "theme-room-rosy",
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "唔……",
+			say = "Mmh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "病床上的少女悠悠醒来，目光涣散而迷茫地环视周遭后，总算逐渐聚焦到我的身上。",
+			say = "Voroshilov, lying on the sickbed, slowly opens her eyes. She vacantly surveys her surroundings before finally fixing her gaze on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			actorName = "{playername}",
-			say = "你醒了？",
+			say = "Had a good rest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			actorName = "{playername}",
-			say = "刚刚你突然晕倒，我就先把你带到这里休息了。",
+			say = "You passed out all of a sudden earlier, so I laid you down here to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			actorName = "{playername}",
-			say = "我给你做了简单的检查，你的身体没什么事，但……",
+			say = "I did a quick check, and I couldn't find anything physically wrong with you. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "伏罗希洛夫懒洋洋地伸了个懒腰，似乎并不在意我的话。",
+			say = "Listlessly, she stretches her arms, seemingly unfazed by what I just said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "午后的阳光穿过窗户落到她身上，仿佛这只是个宁静而慵懒的午后。",
+			say = "The midday sunlight coming through the window casts her shadow. It feels like an uneventful, calm early afternoon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "呵呵……",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			actorName = "{playername}",
-			say = "……！",
+			say = "Hm?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "我本来想靠近她再说些什么，却发现身体仿佛在突然间麻痹了。",
+			say = "Just as I walk closer to speak to her, my body suddenly refuses to obey me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "我忽然意识到，少女方才的昏迷只是个骗局，她精心设计这出戏是为了找到控制我的机会。",
+			say = "That's when I realize that she was only pretending to fall unconscious. It was a trap to get me to lower my guard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "抱歉了~侦探，要怪就怪你太聪明了。",
+			say = "Sorry, Detective, you're just too shrewd.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,14 +227,14 @@ return {
 			dir = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "我必须用上这种不光彩的手段，才能控制住你呢~",
+			say = "I wouldn't be able to restrain you without resorting to dirty tricks like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你对我做了什么？",
+					content = "What did you do to me?",
 					flag = 1
 				}
 			}
@@ -248,14 +248,14 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "我对你做了什么很重要么？",
+			say = "That's what you're worried about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我只是想跟你谈谈，我并不想站在你的对立面，我们有合作的可能。",
+					content = "I don't mean you any harm. Maybe we can work together.",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "伏罗希洛夫轻轻笑了笑，并不打算继续与我聊这个话题。",
+			say = "She scoffs at me, clearly unwilling to engage in any conversation about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "反正，无论如何，现在你都属于我了。",
+			say = "Say what you wish. Right now, you're mine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "她朝我倾身靠近，伸出手，灵巧的手指三两下拨开了我的衣领。",
+			say = "As she says that, she leans against me and swiftly lays my collar bare.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "她的手中，不知何时还握着一支听诊器。",
+			say = "It's only then that I notice she has a stethoscope in her hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			actorName = "{playername}",
-			say = "伏罗希洛夫……你到底想做什么？",
+			say = "Voroshilov... What are you going to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "她那一直淡然无波的眉眼，突然染上了一丝笑意。",
+			say = "Beneath those detached eyes lies a faint smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "护士对病患能做的事情可不少呢……",
+			say = "There are many, many things a nurse can do to their patient.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "她倏然抬眸撞上我的目光，眼角含着一点戏谑的忍俊不禁。",
+			say = "She looks at my motionless body and into my eyes, a hint of mischief in her expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "比如说——",
+			say = "For instance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "听诊头落在我的胸口，突如其来的冰冷让我不禁打了个寒战。",
+			say = "The cold head of her stethoscope touches my chest, sending a shiver through me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "忍住哦，冰冷只是暂时的。",
+			say = "Bear with it. It only feels cold in the beginning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hideRecordIco = true,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "那酒红色的眼眸深深，藏着呼之欲出的渴望，浓烈而诱人。",
+			say = "The emotion concealed in her eyes is as intense as the color of red wine – I feel like I'll lose myself in them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			optionFlag = 1,
 			actor = 702072,
 			nameColor = "#A9F548FF",
-			say = "因为很快，我们就能一起暖和起来了——",
+			say = "It'll warm up soon. As will you... and I.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

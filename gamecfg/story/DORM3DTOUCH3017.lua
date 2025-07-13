@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "外套，脱掉……方便点？",
+			say = "Is it easier... if I take off my coat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,15 +15,15 @@ return {
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
-					"分队代号「雷霆」",
+					"Lightning Unit",
 					1
 				},
 				{
-					"旗舰：塔林",
+					"Flagship: Tallinn",
 					2
 				},
 				{
-					"利亚霍夫群岛前哨站外围海域·北方联合控制区",
+					"Objective: Recapture the research base",
 					3
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "阿……阿……阿嚏——！",
+			say = "Ah, ah... Achoooo!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -72,7 +72,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纸巾都快要用完了吧？给~",
+			say = "You're running out of tissues, right? Here you go~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "这都是小问题啦~嘿嘿，谢谢你。",
+			say = "Thanks, Murmansk! But don't worry too much about me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "灵敏，你上一次休息是什么时候？",
+			say = "Soobrazitelny, when was the last time you took a break?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "前——当然是昨天晚上啊？",
+			say = "The day before... I mean, uh, last night!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说漏嘴了哦，灵敏。",
+			say = "Hmm... It sounded to me like you were about to say \"the day before yesterday.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉，不是跟你说了作战前要好好休息么，怎么又通宵了。",
+			say = "I ordered you to get proper sleep before the mission. Did you stay up all night?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "天才机械师是不需要休息的！",
+			say = "This mechanical mastermind doesn't need breaks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "这次可是检验我的“特别改装”成果的时候，我在出发前不仔细检查一下怎么行！",
+			say = "...Yeah, you don't believe that. But still, this mission is important. I had to make sure my modified mass-produced ships were in tip-top shape!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来之前你离开前线那段时间是去做量产型的改进升级了啊……",
+			say = "Ooh. I knew I hadn't seen you around! So you were modifying all of those ships~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "只是工作内容之一哦！更多的现在还不能说，不过——",
+			say = "I was doing other stuff, too! I just can't tell you much yet, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "嘿嘿嘿，都是基于密室资料的研究做出来的好东西哦！",
+			say = "Hah hah haaah! You'll be amazed when you see them! They're all incredible creations based on the files the Commander found!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没想到能在这里见到参与本次“特别改装”的人。",
+			say = "Yeah, yeah. Thanks for your work on the mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实我在出发前检查的时候，有一点小小的疑问……",
+			say = "Now, great mechanical mastermind, I'd like to ask about something I noticed during my pre-departure spot checks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我不是相关专业的人，不过姑且也算过去在铁血留学了一段时间……",
+			say = "While I'm hardly a professional, I do happen to know some things from my time with the Iron Blood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我只是随口一说哦，也不是在怀疑你……",
+			say = "So let's just say my intuition is a little more reliable than your average shipgirl's.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是，这些量产型的“特别改装”，符合安全标准么？",
+			say = "All this to say, well... Tell me, do your \"special modifications\" follow proper safety protocol?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "标准就是用来突破的呀？！",
+			say = "You know what they say! Protocol is made to be broken.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要不爆炸，什么都好啦……",
+			say = "A-as long as they don't explode, I'm sure everything will be fine~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "…………",
+			say = "............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不会真的会爆炸吧……？",
+			say = "Surely they won't explode... Right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "不、不会的！这个问题在第三次测试的时候就被解决了！你们放心吧！",
+			say = "Th-they won't! I solved that problem by the third round of prototypes! They're as safe as can be!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 702060,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然真的爆炸过么……",
+			say = "In other words, the first and second prototypes did explode...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我觉得……还是把量产型舰队和我们之间的间隔再拉长一些好了。",
+			say = "As I understand it, we would be better off positioning our mass-produced ships further away for this operation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701090,
-			say = "欸————你们就算不相信我，也要相信我们制造局的严谨水平啊！",
+			say = "Hey, you might not trust me, but at least trust Chkalov's engineering abilities!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 703010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……我完全相信。所以还是再拉开些距离好了……",
+			say = "I only let them be this close to us because I trust her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂——————————！！！",
+			say = "C'moooooon!",
 			painting = {
 				alpha = 0.3,
 				time = 1

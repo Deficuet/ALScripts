@@ -13,7 +13,7 @@ return {
 			side = 0,
 			bgm = "story-5",
 			bgSpeed = 1.5,
-			say = "胡德！！！",
+			say = "Hood!!!",
 			effects = {
 				{
 					active = true,
@@ -25,7 +25,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "啊———这股不寻常的力量是…果然你们也染指了……",
+			say = "Ah... This power... extraordinary... Incredible that you've found this strength…",
 			subBgName = "bg_story_1_sub",
 			typewriter = {
 				speed = 0.05,
@@ -36,7 +36,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "被发现了吗…{namecode:428}，立刻脱离这片海域",
+			say = "We've been found out. Eugen, it's time to retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,8 +46,7 @@ return {
 			actor = 900009,
 			side = 1,
 			nameColor = "#ff0000",
-			actorAlpha = 0,
-			say = "诶？~战况这么有利，为什么不继续玩下去呢",
+			say = "Oh? We've got the upper hand! Why would we turn back now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +56,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "秘密武器被发现了，再拖下去局势会对我方不利，服从命令，立刻撤退！",
+			say = "Our secret weapon has been discovered. Dragging this out will only expose us further. Follow my orders and retreat immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +64,10 @@ return {
 		},
 		{
 			actor = 900009,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			nameColor = "#ff0000",
 			side = 1,
-			actorAlpha = 0,
-			say = "哎呀——真是没办法，对面的小绵羊们~我们以后再见咯",
+			say = "Damn... So there's no helping it.... Take care, little sheep. We'll be seeing you again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +77,7 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "…为什么…你们要选择背叛同盟…背叛碧蓝航线…",
+			say = "... Why... why would you betray our alliance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +90,7 @@ return {
 			side = 1,
 			bgFade = true,
 			blackBg = true,
-			say = "吾之荣誉即忠诚——唯有强大的力量，才能拯救更多的人类，我们…只不过是选择了一条不同的道路罢了。",
+			say = "Honor and loyalty... Only with great power can we truly save humanity. We've... we've just chosen a different path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +100,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "不指望能被你们所理解，然而这一切是非，未来终有人可鉴。",
+			say = "I don't expect you to understand. Only those looking back on these moments will be able to decide who is right and who is wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +110,7 @@ return {
 			actor = 900010,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "吾之宿敌哟，愿我们将来能在瓦尔哈拉相见…",
+			say = "My old friend... May we meet in Valhalla...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,13 +129,13 @@ return {
 			}
 		},
 		{
-			actor = 900313,
+			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
 			dir = -1,
 			blackBg = true,
-			say = "…人类真是有趣的生物，只不过施舍了他们冰山一角的力量，历史就要开始重演了",
+			say = "... Humanity is such an interesting lifeform... The power we gave them was just the beginning... History has already begun to be rewritten...",
 			shake = {
 				speed = 1,
 				number = 999
@@ -157,7 +155,7 @@ return {
 			nameColor = "#ff0000",
 			mode = 2,
 			blackBg = true,
-			say = "先继续观察一段时间吧，我对他们的未来发展可是很期待的哟~",
+			say = "Let's continue our observations for some time... I have great expectations for their future developments...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -177,7 +175,7 @@ return {
 			nameColor = "#ff0000",
 			mode = 2,
 			blackBg = true,
-			say = "毕竟如果不这么做的话，我们回到这个时代不就没有意义了吗？呵呵呵~",
+			say = "If we didn't take these steps, coming back to this era would have been meaningless, no? Ahaha...",
 			shake = {
 				speed = 1,
 				number = 999
@@ -197,11 +195,11 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"世界分崩离析…拥有力量之人站了起来，想要对抗历史的洪流",
+					"The world order is crumbling... Those with power must stand up and fight against the currents of evil and the torrents of history.",
 					2
 				},
 				{
-					"殊不知，力量与力量之间互相吸引，唤起了更大的波澜",
+					"It is known, however, that power begets power, bringing forth even stronger waves...",
 					4
 				}
 			}

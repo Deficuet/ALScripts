@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在向长岛交付委托的发明时，菈菈少见地犹豫了一下。",
+			say = "When it's time to give Long Island her invention, Lala is unusually hesitant.",
 			bgm = "story-richang-rosy-short",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "那个……这个道具是让你从他人的认知里消失，长岛小姐可不能使用太频繁哦？",
+			say = "Hey, so... This spray makes it so people gradually stop perceiving you. Don't overuse it, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "知道啦~我本来就是幽灵没问题的~谢谢菈菈小姐和指挥官~",
+			say = "Okaaaay. I'm a ghost anyway, so it's fine~ Thanks, you two~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幽灵小姐这下可以不被打扰的偷懒打游戏啦~！",
+			say = "Heheh, now I can game all day without a care in the world!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "啊，走掉了……是不是该再详细说明一下呢？",
+			say = "Oh, she already left... Maybe I should've stopped her and explained it better?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "算了，长岛的话吃到教训就会老实了。",
+			say = "I wouldn't worry about it. Let her do something stupid, and she'll learn her lesson... hopefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "几天之后，我带菈菈散步的时候，发现了一处无人的房间。",
+			say = "Some days later, I'm wandering around the port with Lala when we happen upon a strange building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……？没人用的房间么？为什么会有这么多东西？",
+			say = "Hmm...? A vacant house? It's a total mess, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这些乱糟糟的漫画书、零食袋、游戏机……是谁的？",
+			say = "Manga, candy wrappers, game consoles... Whose is this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,12 +157,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 106010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指……！……！",
+			say = "C-Comm–...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "耳边似乎传来淅淅索索的声音，在继续查看房间的时候，不小心踢到了什么东西。",
+			say = "Thinking I'd just heard a voice, I search the room until, suddenly, my foot hits something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "啊……这个是……“嘘嘘隐身君”？怎么会在这里……？",
+			say = "Oh... Wait, my Sneaky-Stealthy Prowler? Why is that here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "我是不是把它交给过谁？……啊！怎么已经用光能量了？",
+			say = "Huh. I think I let someone borrow it... Ack! It's empty already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,12 +211,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "？？？",
+			actorName = "???",
 			dir = 1,
 			actor = 106010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我……！……！我……！……！",
+			say = "H-help...! M-my ghostly form...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "这下有点麻烦了啊。使用太多的话……可能导致使用者不仅会从周围人的认知中消失，甚至会从她们的记忆中也完全消失呢……",
+			say = "That's bad. When you use too much of this stuff, people don't just stop perceiving you. They forget you entirely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……难道说，这里就是使用它的人的房间？我们只是忘了房间的主人是谁？",
+			say = "So this place belongs to whoever you gave the spray to? And we've already forgotten whoever it was?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那现在有什么办法么？",
+			say = "That IS bad. What in the world do we do now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "嗯……嘘嘘隐身君的效力会逐渐消失，过一段时间就会一切如常了。",
+			say = "Hmm... Sneaky-Stealthy Prowler's effects do wear off over time, so they should return to normal eventually.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11100010,
-			say = "总之，我们就先回去吧~！",
+			say = "Oh, well! Let's get outta here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "说的也是，长岛的话吃到教训就会老实了。",
+			say = "Yeah. Knowing Long Island, she won't learn until she regrets something.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？长岛是谁？",
+			say = "...Hm? Long Island...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

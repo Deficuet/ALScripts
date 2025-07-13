@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>七　心愿</size>",
+					"Another Leader?\n\n<size=45>Chapter 7 - Heart's Desire</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宿舍",
+			say = "Port - Royal Navy Dorms",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "某日，乔治表示要感谢一下胡德，于是在宿舍中，准备了简单的晚宴。",
+			say = "One day, King George V asked me to prepare supper at the Royal Navy dorms — my biggest test yet since I started to learn how to cook for her sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是指挥官这段时间来的成果吗。",
+			say = "So this supper is the culmination of the Commander's hard work? Let's give it a try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德说着，以一如既往优雅的姿态，品尝起了料理。",
+			say = "Hood sized up my cooking, before bringing a bite to her mouth elegantly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相当美味呢，不愧是指挥官。",
+			say = "Not bad at all, Commander. I can taste the effort that you've put into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "胡德，我要谢谢你。",
+			say = "Hood, I must offer you my gratitude.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢我？",
+			say = "Oh? For what, may I ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。多亏有你，指挥官的误解……不对，“乔治五世比陛下更像陛下”这个疑惑才能得以解决",
+			say = "This whole thing. Starting from the Commander's misconception, no... the fact that you recognized that I was overstepping my boundaries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？那是什么，我可就不太清楚了呢~",
+			say = "Heehee. I don't recall doing any such thing~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然努力的是指挥官，但是这个契机完全是你给准备出来的吧……",
+			say = "Although the Commander was the one who put in the effort, all of this is possible today because of the advice you gave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "展示自己“软弱”的一面来增进对方的了解，进而能够明白双方的真实想法——这个法子确实不错",
+			say = "This method of yours — getting to know each other better by sharing your soft side — really worked out well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对你来说是最合适的",
+			say = "Yes, it's well suited for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "确实，最近不光是与乔治五世的合作更加顺畅了。给她做过饭这件事在舰队传开后，其他阵营对她也有了更加全面的看法",
+			say = "Indeed, it wasn't only our relationship that improved. When word spread that I had been cooking for her, she seemed much more approachable and relatable in the eyes of the other factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无法否认啊，啊哈哈…",
+			say = "Hahaha! I can't deny that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "一边和胡德交谈，乔治五世也把脸望向这边。",
+			say = "While joking merrily with Hood, she turned her face towards me and smiled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "无论如何，我要感谢你，让我能够认清我的本心，也让我能够和指挥官的关系更进一步。",
+			say = "In any case, thank you as well for doing all of this for me, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "都说“想要抓住一个人的心，就要先抓住他的胃”，现在，我的心已经完全被指挥官抓住了呢。",
+			say = "There's a saying that \"the quickest way to one's heart is through their stomach.\" In my case though, you've managed to win over both at once... Hahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可真是可喜可贺。",
+			say = "Oh my...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			},
 			options = {
 				{
-					content = "……额？",
+					content = "...Huh?",
 					flag = 1
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，抱歉抱歉。直接说这个或许太突然了？下次我会注意一下气氛的",
+			say = "Ahh, um, sorry. I didn't mean to spring that upon you all of a sudden. I'll try to read the mood better next time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我没有威尔士那么“风流”，但也不会像约克公爵那家伙一样强硬",
+			say = "I'm not as easygoing as Wales, nor am I as forceful as Duke of York.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过——能让我满足的人，我可是不会那么容易放走的哦？",
+			say = "But I'm not good at letting go of people who manage to earn my trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "正和她正正堂堂的行事风格一样的，直接而又干脆的告白。",
+			say = "She may have grown quite a lot through our time together, but some things never change. Her straightforward and earnest confession was charismatic and irresistible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "……嗯，以后互相做饭的日子看来也不错。",
+			say = "I smiled at her, looking forward to the many culinary adventures that we would have together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

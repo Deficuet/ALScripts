@@ -91,9 +91,9 @@ function var_0_0.UpdateSkinItem(arg_10_0, arg_10_1, arg_10_2)
 	local var_10_2 = var_10_0:GetName() or "??"
 
 	if string.match(var_10_2, "(%d+)") then
-		setText(arg_10_2:Find("skin_name"), shortenString(var_10_2, 7))
+		setText(arg_10_2:Find("skin_name"), shortenString(var_10_2, 5))
 	else
-		setText(arg_10_2:Find("skin_name"), shortenString(var_10_2, 8))
+		setText(arg_10_2:Find("skin_name"), shortenString(var_10_2, 6))
 	end
 
 	local var_10_3 = var_10_1:getConfig("ship_group")

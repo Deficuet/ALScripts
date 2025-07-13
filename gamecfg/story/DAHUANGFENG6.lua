@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"像牛仔一样！\n\n<size=45>六　我是大黄蜂！</size>",
+					"Duelling Sunshine!\n\n<size=45>6 Be Yourself</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "次日 演习海域",
+			say = "Next day at the Practice Area ",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "此刻的海面上，大黄蜂与{namecode:96}两人均已就位，双方正屏息凝神聆听着开始的信号，大战一触即发。",
+			say = "The practice area at the port. After a few exercises, Hornet and Zuikaku stood there, waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "砰——————！",
+			say = "And soon, the signal flare signifying the start of the match was shot up.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			dialogShake = {
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "信号发出的一瞬间，两人都如同离弦之箭般动了起来——演习，开始了。",
+			say = "Immediately, the two began to move. The practice had started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼……呼……果然，没那么容易轻易取胜啊。",
+			say = "Haa... Haa... She really is a tough cookie to beat...!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我能看出来，你为了今天的对决做了大量的准备，甚至向你的姐姐请教了不少吧。",
+			say = "Looks like you've got a grasp of the things Enterprise has taught you. It seems you've trained hard for this tday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……！为了赢过那个灰色幽灵，为了赢过你，我也是做过大量努力的！",
+			say = "But, the same goes for me! I've trained hard so that I can beat you, and the Grey Ghost herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "在演习之初，依靠企业提供的建议确实取到些许优势的大黄蜂，此刻却在{namecode:96}逐渐调整战术后开始出现颓势。",
+			say = "Just as Enterprise had predicted, Hornet had the upper hand early on, but as Zuikaku adapted to the battle, Hornet was slowly being driven into a corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你真的觉得只靠模仿你的姐姐就能取得胜利么，大黄蜂？！",
+			say = "Did you really think you could beat me by just copying Enterprise's fighting style?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵……你觉得我只是姐姐的模仿者么……",
+			say = "Hmph... If you think I'm just copying Enty, you're sorely mistaken...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我大黄蜂，确实一直以来都在追寻着姐姐的背影奔跑，也许多少也模仿了一些吧……",
+			say = "Of course there are parts I've copied, trying to catch up to her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是！我可不是依靠单纯的模仿走到今天这一步的，我就是我，潇洒而又自信的大黄蜂大人！",
+			say = "But I'm not just copying her while following in her footsteps! I'm my own person! I'm the youngest of the Yorktown-class, the dashing, brilliant Hornet!",
 			effects = {
 				{
 					active = true,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个气势就对了！来吧，让我见识一下属于你自己的战斗！",
+			say = "...That's the spirit! Now, show me what you're made of!",
 			effects = {
 				{
 					active = true,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "大黄蜂再一次高速移动了起来——",
+			say = "After deploying her main air force, Hornet sped directly toward Zuikaku.",
 			effects = {
 				{
 					active = false,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哈？怎么又是这一招？这招我已经破解过一次了，不会让你得逞的！",
+			say = "No matter how many times you try the same trick, you won't succeed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "小心，{namecode:96}。这一次跟刚刚可不一样哦。",
+			say = "Lightning. Dodging Zuikaku's attack by a hair's breadth, Hornet instantly changed her stance and slipped into Zuikaku's reach...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么——",
+			say = "Wh...at?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
-			say = "轰————！",
+			say = "Wow!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -418,7 +418,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "判定命中！大黄蜂加一分！",
+			say = "Hornet, who managed to score a direct hit on Zuikaku, ended the practice just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈~得手了~作战大成功！",
+			say = "Ahaha~ I did it! What a success!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……什么？学习企业姐的招式，然后将企业姐的招式当做假动作？",
+			say = "\"Pretend to copy Enty's tricks, and then mix things up.\"",
 			effects = {
 				{
 					active = true,
@@ -510,7 +510,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这才是你今天请企业姐来对我进行特训的真正原因？",
+			say = "That's why you had me train with Enty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然对手是对姐姐执念很深的那个{namecode:96}，这样的话确实可以骗到她……",
+			say = "It just might work on her, seeing how obsessed she is with my sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是为什么……指挥官不是因为觉得我是企业姐的妹妹才……",
+			say = "I see... You didn't have Enty train me just because I was her sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不要回避模仿姐姐这件事，只不过不要成为企业姐的模仿者，而是学会借助姐姐的力量……？",
+			say = "\"Copying your sister isn't bad, but don't just copy her. Use her power as a basis for your own skills and show off your own strength.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此……你早说啊！这么曲里拐弯的也太不像你、也太不像我了……",
+			say = "I see.. You should've told me earlier! Even if you're the type to speak in a roundabout way like that, I'm not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 107070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊……错怪了你真是对不起！有空我请你出去玩，刚才的事就请当没发生过！大黄蜂大人的黑历史啊啊啊啊啊！",
+			say = "I might have been a bit down earlier, but pretend you didn't see anything! You didn't, right? Ugh... This is so embarrassing!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -626,7 +626,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然用企业的招式作为佯攻……利用我对于灰色幽灵的执念而设下的圈套么？",
+			say = "Pretending to use Enterprise's tricks to fool me... I guess I lost because I was too focused on them.",
 			effects = {
 				{
 					active = false,
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这一招上确实……是你更出色。",
+			say = "You got me good. You got the best of me with that move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是演习还没结束呢，这种出其不意的战术是没办法使用第二次的？！",
+			say = "But this isn't the end! I won't fall for such a trick twice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可不一定哦~你不是叫我企业姐的模仿者么，那你最好能仔细分清楚哪一招是我模仿姐姐的，哪一招是我自己的~",
+			say = "Really now~ Maybe when you can distinguish between my original moves and my sister's...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么？！",
+			say = "What did you say?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是身为企业妹妹的我才能做到的战术，很厉害吧！",
+			say = "That's a fighting style that only I have the privilege of being able to pull off, as Enty's sister. Hehehe~ Isn't that neat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来你这个妹妹也很难缠呢……放马过来吧，大黄蜂！",
+			say = "Then, until we can fight with our strength instead of relying on tricks! Now, come at me, Hornet!",
 			effects = {
 				{
 					active = true,
@@ -785,7 +785,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奉陪到底！",
+			say = "Yep, just what I wanted!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "大黄蜂与{namecode:96}的对决，在双方重整旗鼓后，再次开始了————",
+			say = "Hornet and Zuikaku continued to spar...",
 			effects = {
 				{
 					active = false,

@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"Inside the Naraka Singularity",
 					1
 				},
 				{
-					"？？？·？？？",
+					"Amalgam Extermination Fleet",
 					2
 				},
 				{
-					"伪物追击舰队",
+					"Sometime earlier...",
 					3
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "举目远眺，世界已然陷入滚滚烟尘之中。",
+			say = "All of the Naraka Singularity was bathed in smoke.",
 			bgm = "story-nailuo-theme",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "这就是奇异点奈落之中的风景……么。",
+			say = "Is all of Naraka like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "嗯。我们没有创造任何缓冲区，而是直接进入了奈落最原始的部分。",
+			say = "Indeed. The fleet has already entered its core.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "{namecode:74:长门}大人，有感到任何不适么？",
+			say = "Lady Nagato, how do you feel?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "不适，倒是没有……不过余有种奇妙的感觉，周围的滚滚烟尘，似乎同余存在某种感应。",
+			say = "Well enough. But I've noticed that the smoke here reacts to my presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "唔……这里本质上也是神石网络的拓展，您拥有神石网络的操控权限，有些感应是正常的。",
+			say = "That's no surprise. Since you're connected to the Watatsumi, some measure of reaction is to be expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "现在，请您顺应这种感应，试着寻找一下我们的目标吧。",
+			say = "Follow that sensation and search for the false amalgamations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "善。",
+			say = "Then I shall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}凝聚心神，放任自己的感知向着烟尘的深处飘去。",
+			say = "Nagato concentrated, letting her senses extend into the depths of the smoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "恍然间，{namecode:74:长门}眼中的世界发生了变化，",
+			say = "As she did, her vision began to shift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处是……奈落的深处？",
+			say = "Is this... the depths of Naraka?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……此处为{namecode:91:赤城}所进行仪式的场地。",
+			say = "And this is where Akagi conducted the ritual...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……此处莫非是，世界切片中的景色？",
+			say = "...And the world segment where the Commander is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "此处……宛如梦境一般。",
+			say = "A dream grotto, was it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "此处为……一处战场？",
+			say = "A battlefield...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "此处为……虚无？",
+			say = "And... a void of pure nothingness?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "此处为……何处？",
+			say = "But what is this place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……找到汝了。",
+			say = "...Found you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,11 +429,11 @@ return {
 			},
 			sequence = {
 				{
-					"「力量对汝来说是必需品。」",
+					"\"Power is what I desire.\"",
 					2
 				},
 				{
-					"「必需品，自然是多多益善。」",
+					"\"The greater, the better.\"",
 					4
 				}
 			},
@@ -451,7 +451,7 @@ return {
 			actor = 9705060,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "诸位，余已经成功找到伪物的位置了。",
+			say = "...I've found the amalgamations.",
 			bgm = "theme-nagato-meta",
 			typewriter = {
 				speed = 0.05,
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705060,
-			say = "……嗯？汝等何故用这种眼神看着余？",
+			say = "What? Why are the two of you staring?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "{namecode:74:长门}大人，您看身边……",
+			say = "Lady Nagato, look around you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "……呵呵，虽然余并未使用力量。不过余的力量，似乎有些自己的想法。",
+			say = "Don't worry. I didn't use the power myself, though its original owner seems to have stepped in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "可否让我检查一下您现在的身体状况……",
+			say = "I'd feel better if I could examine you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705060,
-			say = "余身上并无不适，汝若不放心的话，便来查吧。",
+			say = "I don't feel unwell, but if you're so worried, then you may.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "一团蓝色的火焰轻轻飘向{namecode:74:长门}的额头，而后无声消散了。",
+			say = "A blue ball of fire floated toward Nagato's brow and disappeared into her without a sound.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……您身上的META化侵蚀依然十分稳定，而且没有任何程度的加重。",
+			say = "The META corrosion is stable. It hasn't worsened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9701060,
-			say = "{namecode:39:神通}，你见过这种情况么？",
+			say = "Jintsuu, have you ever seen such a thing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "……既然没有异常的话，适度使用力量也并非不可。",
+			say = "If nothing else seems wrong, then I think it's safe to use her powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "一会随机应变，量力而行。",
+			say = "But don't push yourself, please. Be prepared to adapt to anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "自然。走吧，吾等还有正事要做呢。",
+			say = "Of course. I have a job to do, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#C3ABFF",
 			actor = 9702050,
-			say = "（……这种体质，真是决战兵器的完美核心啊。）",
+			say = "(She's a tough one... Nobody is more apt to serve as the core of the decisive weapon.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……好麻烦啊这个……",
+			say = "Hmm... This is annoying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "看来只能去请教一下其他人了。",
+			say = "I'm gonna have to ask for help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}？这坨毛线是……",
+			say = "New Jersey? What's with the yarn?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是礼物，准确的说是正在准备的礼物呢。",
+			say = "It's a present! More precisely, a present I'm in the middle of making.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然还没完成，但一定比太阳还要温暖，这可是Dragon的恩惠呢！",
+			say = "It's not officially ready yet, but I swear, it'll warm you up better than the sun! Because it's a blessing from the Black Dragon herself!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

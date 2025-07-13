@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_ryza_2",
 			stopbgm = true,
-			say = "遗迹群岛·争斗之城 一段时间后",
+			say = "Mirror Sea Ruins - Castle of Strife",
 			bgm = "ryza-az-theme",
 			flashout = {
 				black = true,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "哇啊啊！",
+			say = "Whuah?! *cough cough*!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "{namecode:18}！没事吧？！",
+			say = "Hey, you okay?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "没事没事，只是多了一层灰而已！",
+			say = "I'm fine, just got a little smoke in my lungs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "这些箱子怎么回事啊，原本以为会有宝藏的，结果都是机关和陷阱！",
+			say = "Ugh! What is with the treasure chests in this castle?! Each and every one of them has been rigged with a trap!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "作为遗迹来说也算正常啦。毕竟谈到遗迹，除了财宝之外，第二个想到的就是危险的机关嘛~",
+			say = "Traps are just as much a part of exploring ruins as treasure is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "一般来说探索遗迹这种事情还是慢慢来比较好，但是这里的宝箱数量未免也太多了……",
+			say = "I would say we should explore at a slow and steady pace, but given the sheer number of treasure chests... yeah.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "就算对冒险再怎么熟悉，碰到这种情况也要头疼一下了。",
+			say = "This is a real headache even for me, and I've been on a lot of wild adventures.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "而且其中还有很多是陷阱！",
+			say = "It doesn't help that this whole place is booby-trapped!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_2",
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "{namecode:18}！",
+			say = "Shimakaze!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "没事没事~又只是烟雾炸弹而已！",
+			say = "*cough cough*... I'm okay! It's just another smoke trap!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……小心点啊，虽然目前为止都没事，但是既然确定有陷阱，之后会发生什么还不好说。",
+			say = "...Try to be more careful. You didn't get hurt this time, but there's no guarantee you'll be as lucky next time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "但钥匙不是就藏在这些箱子里么，如果不全部打开的话恐怕没办法找出来吧……？",
+			say = "But we must find the key, and it's bound to be in one of these chests. We have to go through them all one by one...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唔……确实是个问题，如果时间充足的话还好，不过现在的话……",
+			say = "Yeah, that's a problem. This would be easier if we just had more time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "哼哼哼，看来阿尔弗雷多记者，{namecode:18}侦探和炼金术士莱莎都束手无策了呢。",
+			say = "Heheheh... Looks like the journalist, the detective, and even the alchemist are all on their last legs!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然这种时刻还是应该让专业调查员布里斯托尔来！",
+			say = "I suggest you give up and let the professional investigator handle this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你有办法？",
+			say = "So... what? Do you have an easy solution to this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "呼呼呼~我的机械助手，调查的好伙伴DATA-857就是最好的解决方案！",
+			say = "Funny you should ask! Introducing: Data 857, my robot assistant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "只要让它去扫描每个箱子，有陷阱还是有宝物一看就知道！",
+			say = "Data here only has to scan a chest to decisively determine if it contains treasure or a trap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心，这个可是{namecode:525}帮我做的，已经陪我执行过无数次任务了，绝对厉害！",
+			say = "Created by Ingraham, this capable little bot has accompanied me on hundreds of missions. You can count on him to get the job done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "太好了！那宝箱的问题就交给布里斯托尔去解决，其他人可以先休息一会了。",
+			say = "Well, that's convenient. I'm in favor of letting Bristol deal with the treasure chests while the rest take a break. What do you all think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不，过去的真相还没有调查清楚呢！调查还不能停止！",
+			say = "Heck no! Nobody's fully uncovered the truth yet, and I'm not about to throw in the towel!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900010,
-			say = "没错！我再去附近找找有没有其他零碎的记录。",
+			say = "What she said! I'm gonna go look around the surrounding area for clues!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -570,7 +570,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，莱莎，我也一起去吧。",
+			say = "Oh, I'll come with you then.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢你科洛蒂娅。但是没有舰装的话去调查实在太危险了。这些残骸也不知道什么时候就会爆炸……还是在这里和帕蒂她们一起休息吧？",
+			say = "Thanks for offering to help, but it's too dangerous for you to come along without a rigging. A wreck could blow up for all we know. You should stay behind with Patty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			actor = 10900020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "…这样啊。说的也对。嗯，我知道了。",
+			say = "...Oh, I forgot. You're right.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 10900040,
-			say = "我和赛莉去附近放哨，大家放心在这里休息吧。",
+			say = "Serri and I will stand guard so the rest of you can rest with peace of mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			actor = 10900030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，虽然有了全新的力量，但是敌人也变强了……莉拉小姐和赛莉小姐也要小心一点哦！",
+			say = "Thank you, and please be careful, both of you. While it's true you've become stronger, I have reason to suspect our enemies have as well.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,

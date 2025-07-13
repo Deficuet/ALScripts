@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在铁血舰队赶到后，看到的是一片狼藉的战场。",
+			say = "The Iron Blood fleet followed the trail of charred mass-produced Siren husks. Their broken forms were piled into something resembling a grotesque shrine of twisted metal.",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "海面上漂浮的残骸堆叠在一起形成了一片片破碎的浮岛。",
+			say = "It was clear that whoever did this... had done so recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "在浮岛最密集的中心，静静矗立着一个身影。",
+			say = "The shrine was almost like a dark invitation... from a fateful host that the Iron Blood ships had never met before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "战斗已经结束了。听说如果是余烬成员的话，在战斗结束后应该早就跑远了才对。",
+			say = "Hmm... Do you think this was done by one of the Ashes...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "非但没有离开，反而像是在欣赏破碎的战场一样……有点不太正常。",
+			say = "This place is giving me the creeps. I feel like I'm being watched...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在正在毛骨悚然地盯着我们看哦…………",
+			say = "I feel it too... It doesn't seem hostile so far, but it's definitely sizing us up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "那个样子，难道是{namecode:434}？！",
+			say = "Wait, is that... Gneisenau?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "只是容貌的话确实和{namecode:434}小姐很像，但是气质上差太多了……",
+			say = "She does look like her... but she's giving off a completely different vibe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我还是第一次这么近距离接触META……",
+			say = "So that's one of the \"META\" we've been hearing so much about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "浑身充满着铁与血的气息，却好像在盯着我们微笑……我感觉心里有点发毛！",
+			say = "From looks alone, she seems to be Iron Blood. But just as Elbe said, the similarities end there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "铁与血，与我们非常般配不是么？不但没有隶属于余烬，甚至还是铁血所属，真是中大奖了。",
+			say = "According to our intel, the Ashes prefer to avoid contact. If that's the case, then our chance of convincing her to join our cause is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在我们见到META了，劝诱加入这步要怎么做？她看上去怎么都不像是能正常对话的样子哦。",
+			say = "Well, how do you propose we start to make our case?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那要等实际对话之后才知道了。",
+			say = "By waiting. We don't know if she can be reasoned with just yet... Let me handle this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "你不会是要！？",
+			say = "Ulrich, what do you plan on doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:464}没有再说话，只是示意舰队原地做好战斗准备，然后一个人向前方驶去。",
+			say = "Ulrich von Hutten instructed the fleet to prepare for battle. She then fired up her engines and carefully made her way towards the META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……棋子居然没有发动攻击。",
+			say = "Unusual. A Pawn that doesn't attack like a mindless beast.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "我不是棋子，也非量产型，而是活生生真真正正的舰船。",
+			say = "I'm no pawn. I'm a shipgirl, just like you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "真真正正的舰船怎么会跑到这种地方来，还敢跑到我的面前……",
+			say = "Impossible. There's no way for a shipgirl to enter this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "因为心中有所希望和追求。",
+			say = "Yes, it should be impossible. But the Iron Blood made it a reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这是燃尽的世界，没有希望，更不应该有追求。",
+			say = "Reality, huh. This dying, burnt-out world is my only reality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "那应该是由我，{namecode:463}来判断的。",
+			say = "...I want to be clear here. We do not want to fight you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:434}，我以{namecode:440}的名义命令你，向铁血再次效忠吧。",
+			say = "Quite the opposite. Our benefactor, Friedrich der Große, wishes for you to take up arms for the Iron Blood once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "再次效忠，你的话说得真奇怪。",
+			say = "The Iron Blood, huh... Hollow, meaningless words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我在这里战斗、战斗、战斗、战斗，一直战斗到现在。",
+			say = "I have always been here fighting. Forever, for all of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没有同伴，没有下属，没有上司，甚至连铁血都不复存在了，我还在战斗。",
+			say = "Subordinates. Superiors. Companions. Even the Iron Blood. Even when they all ceased to be, I still continued to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "我现在不正是在为铁血效忠么？",
+			say = "For what, if not the Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原来如此，那事情就好办了。{namecode:440}的命令就是铁血的命令，加入我们吧。",
+			say = "We are not so presumptuous as to pry into your past. However––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "{namecode:440}？没听过的名字啊，铁血里真有这号人么？",
+			say = "Silence. The Iron Blood I know has nobody with your name, or this \"Friedrich der Große.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "呵呵呵，拿虚构的名字装腔作势可不好哦。",
+			say = "I have no data to prove that you aren't just a shadow created by the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "……细看之下，你好像我也认不太清呢。名字叫{namecode:463}对么？",
+			say = "Even if you really are from this \"Iron Blood\" that you speak of, my battle does not end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "不认识……认不出……呵呵呵呵，你是什么小鱼小虾也敢来命令我？！",
+			say = "Yes, it will continue forever, for all of time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "放肆。你已经疯了么？",
+			say = ".........",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "没错~我已经疯了，整个世界都疯了！",
+			say = "This world has ended. Whatever you are looking for, you will not find it here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 9704010,
-			say = "在这个疯狂的世界中，只有疯狂才是正常，而正常的你们，与这里格格不入的令我反胃！",
+			say = "And I will continue to be its warden forevermore. Call me a fool. Call me mad. Call me a lost soul. It matters not to me.",
 			effects = {
 				{
 					active = true,
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "消失吧！！！",
+			say = "Now begone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "啧、全员开火，在进一步对话之前，首先让这个疯子冷静一下！",
+			say = "...How about we cool it and talk things through.",
 			effects = {
 				{
 					active = false,

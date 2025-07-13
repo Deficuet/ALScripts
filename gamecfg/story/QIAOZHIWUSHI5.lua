@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>五　领导者课程</size>",
+					"Another Leader?\n\n<size=45>Chapter 5 - Let's get this shipment over to Warehouse.</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "是的，乔治你总是太耀眼了，导致会连陛下的光芒盖过",
+			say = "Don't you agree, George? If you shine too brightly, you may find yourself eclipsing Her Majesty.",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我们皇家也有像威尔士和约克那样的很个性的孩子吧……",
+			say = "Having that said, the Royal Navy is full of unique personalities, like Wales and Duke of York...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有个性还是很好的。嗯",
+			say = "Being strong in both body and personality is a good thing indeed.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是你的个性——也就是“领袖魅力”，如果不注意收敛，有时候可是会给陛下添麻烦的",
+			say = "But your charismatic personality is particularly problematic. You'll cause trouble for Her Majesty if you aren't careful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也就是说……",
+			say = "Are you trying to say that I'd cause...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，从指挥官和其他阵营那边看来……",
+			say = "That's right. If you think from the perspective of others such as the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你和陛下在作为领导者方面很容易产生“重叠”呢…",
+			say = "Your character overlaps too much with Her Majesty's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			stopbgm = true,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "一瞬间，气氛似乎变得肃杀（？）了起来。",
+			say = "The temperature in the room seemed to drop by a few degrees.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在皇家内部，大家都知道乔治五世你是怎样的人，知道你没有那么大的野心，你只是天生如此。",
+			say = "Within the Royal Navy, we all know what kind of person you are. You do not act out of lofty ambitions, but rather because you were born with a big heart and a sense of duty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是现在，如果感到疑问的不是指挥官，而是{namecode:74}和{namecode:435}，甚至是北方联合的阿芙乐尔的话——",
+			say = "But what if you were another leader, such as Nagato, Bismarck, Avrora, or even the Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们产生什么样的联想，出现什么样的后果就另当别论了",
+			say = "What would they think when they see you vying for power with Her Majesty, and how would they react to that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这种话由你一说听起来可有点吓人啊……",
+			say = "...That sounds a bit terrifying, if you phrase it like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "（原、原来是这么严重的问题吗……）",
+			say = "(Wow, I didn't even think it was that serious...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，当然是开玩笑了。只不过，为了要解决我们指挥官的疑虑，这里只能——",
+			say = "Haha, I merely jest. However, the problem that the Commander posed is very real, and in order to resolve that–",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "胡德从座位上站起来，侧身到一旁，朝着厨房的威尔士和这边分别优雅的行了一个礼",
+			say = "Hood stood from her seat and walked between King George V and myself, pointing us towards each other before giving an elegant curtsy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "让指挥官多了解一点你才行呢。乔治五世",
+			say = "You must let the Commander learn more about you, George.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种了解，不应该是旁观，也不应该仅从指挥官与秘书舰的关系来进行",
+			say = "But not as friends, nor as commander and secretary. What you two need is a much deeper bond.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			},
 			options = {
 				{
-					content = "也就是说……",
+					content = "In other words...",
 					flag = 1
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我大概明白是什么了",
+			say = "Hmm... I think I understand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，没错，乔治，这里需要你给指挥官展示一点你的“弱点”呢",
+			say = "Heheh~ George, you'll have to show some of your \"soft side\" to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯？",
+			say = "Come again...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "乔治五世的弱点——",
+			say = "Huh? King George V has a \"soft side?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官，能拜托你为乔治做饭吗？",
+			say = "Commander, why don't you try cooking for her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>一 企划书</size>",
+					"Tonic and Tea\n\n<size=45>1. The Proposal</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "午后的阳光灿烂，金色的指挥室内呈现出一片宁静又祥和的气息。",
+			say = "The office is bathed in a golden afternoon glow. A tranquil, serene mood fills the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "拿起桌子上的报告书，准备开始细细阅读之时——",
+			say = "A new batch of reports rests atop my desk. I reach out to read one, but then, out of nowhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "仆从，快来在这个企划书上签字吧！",
+			say = "Listen up, servant! You are going to read this business proposal and greenlight it at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "指挥室的大门被突如其来冲击的打开，伴随着一阵小小的强风，一叠文件被拍在了桌子上。",
+			say = "Queen Elizabeth vigorously throws open the door and dumps a stack of papers on my desk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "封面内容是……皇家女仆咖啡店？",
+			say = "\"What have we here... 'Project Return to Glory'?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "茶AND咖啡店！，其名为皇家午茶<Queen's Tea>！",
+			say = "Indeed! This is the project outline for a teahouse with a maid theme, tentatively named \"The Royal Tea\"!",
 			effects = {
 				{
 					active = true,
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本王发现了，最近一段时间吾等皇家的影响力有日渐下降的趋势！",
+			say = "I've been informed that certain individuals have been questioning my status here at port lately.",
 			effects = {
 				{
 					active = false,
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过没有关系！通过这个本王亲自监督设计的皇家午茶企划，现在颓势肯定会被一举扭转吧，哼哼！",
+			say = "That is why I laid out this project from the ground up – to reassert the Royal Navy's position and my status as its leader!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "着重于宣传皇家文化的主题咖啡店么……",
+			say = "Good lord... She means to use a themed teahouse to promote the Royal Navy's own culture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此，好像很有趣的样子~要不然我们铁血也开一家吧。",
+			say = "Well, well. Two can play at that game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:427}？！你是从哪里冒出来的！可恶……来窃听本王的商业机密么！",
+			say = "Eugen?! When did you get here?! Let me guess... You're here to spy on me, aren't you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我可是在女王陛下气势汹汹的闯进来之前就在这里了，也许是您太心急了没有注意到吧？",
+			say = "I got here before you did. Sounds like you were so excited about your proposal that you didn't even notice me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那可真是抱歉了！所以你原本是来这里做什么的？",
+			say = "My mind filters out mere commoners like you! Now explain yourself – what brought you here to begin with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那件事已经不重要了哦，我更感兴趣的是现在发生的事。",
+			say = "Commoner business. I won't bore you with the details, Your High-and-Mightyness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "女王陛下觉得怎么样？你选的位置旁边正好还有空地，我们的铁血咖啡店就开在那里吧。",
+			say = "More importantly, I see the location you chose for the project has a vacant plot of land next to it... Perfect for the Iron Blood to set up its own shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相比一家店独大，互为对手的两家店互相竞争不是要有趣的多么？",
+			say = "What do you say to that? It'd foster healthy competition in a race to provide the customers with the best service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，没错，这样确实会更有趣。有竞争对手的衬托才能更加体现出吾等皇家耀眼的光芒！",
+			say = "(Hmm. My status would improve further yet if we're able to surpass our sworn rivals...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "本王允许了！仆从，你也没意见吧？",
+			say = "Very well, I approve of this idea. As do you, right, servant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一家皇家咖啡店，再加上一家铁血咖啡店，感觉能让港区热闹很多。",
+			say = "If it means better service for the customers and more fun for all, two shops are definitely better than one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 			},
 			options = {
 				{
-					content = "许可",
+					content = "\"Of course, Your Highness.\"",
 					flag = 1
 				},
 				{
-					content = "没问题",
+					content = "\"I'm fine with that.\"",
 					flag = 2
 				}
 			}
@@ -403,7 +403,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "然后以开业后一周后为期限，看指挥官对哪边的评价更高，以此来当做竞争的结果如何？",
+			say = "Great. Then we'll have you rate both shops after a week and pick a winner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "诶……还要从两家里选一下谁更好么？",
+			say = "\"Wait... Who said anything about winners and losers? Do we really have to do that?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那是自然！既然有竞争，就一定会有输赢！不过皇家是不可能输的哦！",
+			say = "Yes. You cannot have a competition without victors and losers! Although, our victory is as good as guaranteed already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "干劲满满呢~那我们就各自回去准备，然后开店之日再见了？皇家的伊丽莎白店长？",
+			say = "We have an agreement then. Better start setting up our respective shops, hmm, Queen?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尽管放马过来吧，铁血的{namecode:427}店长！",
+			say = "Hmph. Indeed it is! I'm eager to see you try and fail to manage a shop, Eugen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？我可没说过要由我来担任铁血咖啡店的店长诶？",
+			say = "I never even suggested I'd be personally managing the place, did I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "与您相对，铁血这边的店长自然应该是我们的总旗舰{namecode:435}才对嘛~",
+			say = "With you – the head of the Royal Navy – assuming the managing position, it only makes sense for Bismarck to be the leader on our end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:435}么……好，那你就回去传个话，让你们的{namecode:435}店长等着接受失败吧！",
+			say = "Bismarck, you say... Do give her a message. Tell her to be ready to kneel and officially acknowledge my superiority!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "走了贝法！我们该回去准备了。",
+			say = "Bel, come with me. We must establish our teahouse posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我们就先告辞了。这次也给您添麻烦了，指挥官大人。",
+			say = "Certainly, Your Highness. Master, forgive us for the intrusion, and thank you for your time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不知道何时出现的贝尔法斯特优雅地鞠了一躬，然后和伊丽莎白一起离开了指挥室。",
+			say = "Belfast bows gracefully to me, then she and Elizabeth leave my office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那我也该回去了，希望指挥官之后能做出公正的评判哦~",
+			say = "I'd better get going too. Looking forward to hearing your unbiased opinion on our respective shops. Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "两家主题咖啡店的企划就在这样有些火药味的气息中启动了，接下来会变成什么样子呢——",
+			say = "The battle of the shops has officially begun, and it's off to a fierce start, at that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

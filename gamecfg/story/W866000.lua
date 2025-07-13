@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "激活实验场气候调节装置后可以消除一定范围内的浮冰。浮冰会在6次舰队行动后恢复原状。",
+			say = "Using the Weather Control Device lets us melt ice floes every 6 actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "通过调整海域中的浮冰的状态，将能源矩阵移动至指定区域。",
+			say = "Find a way around the ice floes to get the Energy Matrix to its storage platform.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

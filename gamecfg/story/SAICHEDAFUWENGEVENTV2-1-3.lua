@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在阿尔弗雷多的宣传下，比赛收视率大幅提高！获得奖励【物资*2000】"
+			say = "The race's ratings shot through the roof thanks to Alfredo's shoutout! You received 2,000 Coins!"
 		}
 	}
 }

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			hidePaintObj = true,
-			say = "镜面海域・试炼之门",
+			say = "Mirror Sea - The Trial Doors",
 			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "既然说是试炼，那么门后面肯定布满了各种机关和陷阱吧……好麻烦。",
+			say = "The sign says \"trials,\" so I bet there'll be tons of trap doors and pressure plates and stuff past this point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "那我们就随便选一扇门，然后一鼓作气突破进去？",
+			say = "What do you all think? Should we just pick a door and bullrush it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "“完成所有任务”的话，是不是意味着我们需要攻破或者摧毁三扇门后的东西？",
+			say = "It said to, \"Complete all trials three.\" Don't we need to reach the end or destroy what's past each door?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "如果是这样的话，那么大家一同突破一扇门的方法就行不通了。真麻烦……",
+			say = "Guess all of us charging in isn't gonna work... Dammit, why's it always gotta be so complicated?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "对啊，塞壬就喜欢搞这些又麻烦又套路的事……差不多就行了啊。",
+			say = "Coming up with busy work is the Sirens' favorite pastime. I wish they'd stop wasting all our time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "我觉得……我永远都无法理解它们的行事方式。",
+			say = "There's no rhyme or reason to what they do... 'Least, I can't find any.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系，就算不能理解，只要我们最后能打赢就行啦！",
+			say = "No matter! We need not understand to be victorious, only achieve the end goal!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "从目前的情况来看，我们没有时间一扇门一扇门尝试。",
+			say = "Considering the circumstances, we don't have the time to go through each door as one big group.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000040,
-			say = "虽然可能是塞壬的陷阱，但是我觉得应该同时完成所有门后的挑战。",
+			say = "Though it's not ideal, I believe we should split up and strive to complete all three trials simultaneously.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "唔……虽然还不知道是不是需要争分夺秒的状况，但浪费时间肯定是不明智的。",
+			say = "Agreed. This may be a race against the clock for all we know, meaning we have precious little time to waste.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "……看来我们只能顺着塞壬的想法兵分三路，然后同时挑战所有的门了啊。",
+			say = "Splitting into three groups and doing all the challenges at once seems to be the only choice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_kagura_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此，我有个提议……",
+			say = "Before we go, there's one thing I'd like to mention...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "从这些门和城池的形状来看，门后面的东西很可能是忍者的机关或者克隆我们的「棋子」。",
+			say = "Judging by the castle's design, I expect what we'll find beyond these doors are traps and the so-called Pawns made in our image.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "如果只是这些，我们自己也可以应对。但对于部署和操作忍者机关的塞壬就……",
+			say = "If that is all, we shinobis can deal with those. The Sirens themselves are a different subject, however.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "关于她们的行动、战术等知识方面，我们肯定比不上你们。那么……",
+			say = "We know next to nothing about their habits, techniques, and tactics, whilst you are much more familiar with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_kagura_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也许将三个队伍都整编成为由我们和你们组成的混合队伍比较好？平均分配所有成员。",
+			say = "So, wouldn't it be best to have you accompany each of our teams? By splitting the team members evenly, I mean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "言之有理！",
+			say = "Hey, yeah! Good idea!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "在{namecode:448:埃姆登}的引导下，按照日程上的时间来到了女仆咖啡厅。",
+			say = "Emden leads me to the maid café, where a scheduled event is taking place.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "欢迎光临，指挥官。欢迎来到本次女仆咖啡厅营业比拼的现场。",
+			say = "Welcome, Commander. This is where the maid competition is being hosted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "顺着克莱蒙梭的介绍，我看向店内。",
+			say = "Following Clemenceau's introduction, I look around the café.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,18 +66,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "{namecode:292:四万十}、{namecode:518:菲利克斯·舒尔茨}、{namecode:197:博伊西}、马可波罗等各阵营的同伴聚集在这里。",
+			say = "There is Shimanto, Felix Schultz, Boise, Marco Polo, and several others from each and every faction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这真的是女仆咖啡厅么？",
+					content = "You're sure this is a proper maid café?",
 					flag = 1
 				},
 				{
-					content = "好像没有一个是真正的女仆吧？",
+					content = "It doesn't look like any of them are proper maids.",
 					flag = 2
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "嗯，没错哦。因为今天是特殊的“营业比拼”活动，所以特别禁止了专业选手参赛呢。",
+			say = "Yes. This is a competition to see who makes the best maid. Letting actual maids participate is unfair and defeats the point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "不过参赛的马可波罗阁下可是认为自己有着不输专业女仆的职业素养哦。",
+			say = "Some, like Marco Polo, are even confident that they could out-maid a real maid.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699011,
-			say = "那是当然，就由我来让指挥官见识下撒丁女仆的荣光！",
+			say = "Precisely! I will show them what a Sardegnian maid can truly do.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来，女仆营业比拼这件事还要感谢克莱蒙梭卿告诉我呢……",
+			say = "But before that, I should give my thanks to Clemenceau for telling me about this competition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "呵呵，前情暂且按下不表，我先简单地向指挥官解释下规则吧——",
+			say = "Heehee. Never you mind that. Allow me to explain the rules.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "只要在场的任意一位女仆让指挥官产生了“哦呼~”的感觉，就是赢家哦。",
+			say = "They're quite simple. The first maid who can make you go \"ahh\" is the winner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“哦呼~”的感觉？这比赛规则是不是有点太难以量化了……",
+			say = "What do you mean, \"ahh\"? That's awfully vague for a victory condition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "指挥官听说过“萌萌心动魔法”么？「一种让蛋包饭变得更美味的方法。」",
+			say = "Have you heard of the Sakuran idea of \"moe moe kyun magic,\" my dear human? \"It's famous for making omelet rice taste divine.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，这次的比赛其实是让我尝谁做的蛋包饭更好吃……？",
+			say = "So... the goal is really to make the best omelet rice, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "不全是，这可是针对参赛选手的“萌萌心动魔法”的比拼呢。",
+			say = "Not entirely. It's about who wields the moe moe kyun magic with the greatest proficiency.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "只要这样做了以后，能让指挥官觉得蛋包饭变得更美味了，就视作“哦呼~”的感觉哦。",
+			say = "Thus, whoever's omelet rice makes you go \"ahh\" will be crowned the winner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900429,
-			say = "{namecode:448:埃姆登}会在这里观摩全程。「我们想看看你有趣的反应。」",
+			say = "Emden will sit by the sidelines and observe. \"Your fallible human reactions prove quite amusing.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905021,
-			say = "那么，比赛正式开始——",
+			say = "Now then, ladies! Let the competition begin!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "克莱蒙梭宣布完比赛开始之后，便带着玩味的笑容退到了一边。",
+			say = "Clemenceau flashes a knowing smirk as she declares the competition's start, then retreats to the side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "随后便是来自各阵营的参赛选手们一展身手的环节。",
+			say = "The contestants roll up their sleeves and get to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499081,
-			say = "萌萌心动魔法，变得更好吃吧~呵呵呵呵……没错，只要加入大量的……",
+			say = "O moe moe kyun magic, by your power, make this omelet rice delicious! Yeees, now just a sprinkle of this stuff...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499081,
-			say = "来，指挥官……将这份加入了爱之秘药的蛋包饭一口不剩地吃下去吧！",
+			say = "Here you are, Commander. Savor this omelet rice topped with a little love potion. Say \"ahh\"!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等下，你们别让安保团队把我带走呀——",
+			say = "...H-hey! What's the security doing here? Let go of meeee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "{namecode:518:菲利克斯·舒尔茨}选手，当面在蛋包饭中下药，出局！",
+			say = "Felix Schultz has been disqualified for spiking the food!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萌萌心动~变好吃吧！吹吹……呵呵，像这样，再感受一下龙神大人的气息吧。",
+			say = "Moe moe kyun, bless this food of mine! Huff... As a bonus, I'll warm it with my Dragon God's breath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399061,
-			say = "欸、欸……？不小心加热过头了，蛋包饭变成了全熟的……",
+			say = "Oops... I blew too hard and overcooked the eggs...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 399061,
-			say = "口感变得奇怪了么……真伤脑筋，看来还得继续练习才行啊……",
+			say = "That looks more like egg fried rice now... I should've known my technique wasn't sufficiently polished.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "{namecode:292:四万十}选手，因龙息过热导致蛋包饭流心失格，出局！",
+			say = "Shimanto has been disqualified for overcooking her eggs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102294,
-			say = "呼~哈~接、接下来就在挤番茄酱的时候使出魔法……",
+			say = "Huff... Puff... All that's left is to add the ketchup and recite the incantation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊、不小心弄到指挥官身上了……对不起……{namecode:197:博伊西}这就擦掉……",
+			say = "Ah! I'm sorry, Commander! I didn't mean to spray the ketchup on you! Hang on, I'll wipe it off...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "{namecode:197:博伊西}选手，出局！",
+			say = "Boise has been disqualified for obvious reasons!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "在经历了{namecode:435:俾斯麦}无论如何都说不出“萌萌心动魔法”而自愿放弃参赛、",
+			say = "Up next was Bismarck, who simply could not bring herself to say the words, \"moe moe kyun magic.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "{namecode:188:樫野}不知为何失去平衡摔倒导致蛋包饭掉在地上，等等等等……诸如此类一系列的选手出局后——",
+			say = "Up next was Kashino, who somehow tripped and dropped her food. And so on, and so forth, until a promising challenger stepped forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼，最后果然还是要看我马可波罗大人的！",
+			say = "Hah! The time has come to show you all how it's REALLY done!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,12 +630,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萌萌心动魔法，变好吃吧~！",
+			say = "Moe moe kyun magic, imprint your deliciousness upon this dish!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
-			say = "少女的动作流畅自然，语气和语调夸张得恰到好处，显然是经过了刻苦练习的成果。",
+			say = "Marco Polo's gestures flow like water and her exaggerated tone and phrasing hit a sweet spot. She must have practiced hard to get this good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,69 +658,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "Marco Polo",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，指挥官都看呆了啊。毫无疑问，这是马可波罗的胜利！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_niceship_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:448}",
-			bgName = "bg_niceship_cg2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……「……」",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_niceship_cg2",
-			hidePaintObj = true,
-			say = "仍在用手比出心形的少女脸上带着明显的得意之色，显然是对自己的表现相当满意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "马可波罗",
-			bgName = "bg_niceship_cg2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "干、干嘛这样看着我，这次的冠军是我，对吧？一定是我，对吧！",
+			say = "Heheh. So impressed, you're at a loss for words, are you? I say it's safe to declare me the winner already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +679,52 @@ return {
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然不理解克莱蒙梭一开始所说的“哦呼~”到底是什么，但……）",
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Emden",
+			bgName = "bg_niceship_cg2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "...... \"......\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_niceship_cg2",
+			hidePaintObj = true,
+			say = "She forms a heart with her hands... while a smug grin covers her face. I doubt anyone is more pleased with her performance than herself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Marco Polo",
+			bgName = "bg_niceship_cg2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Wh-what's with that look? I'm OBVIOUSLY the winner! I mean, I am, right?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +736,7 @@ return {
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这样的马可波罗也确实挺可爱的。既然她想当第一，这种事上就顺着她哄她开心好了。）",
+			say = "(I still don't know what Clemenceau meant by \"making me go 'ahh.'\")",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +748,19 @@ return {
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，没错……是你。",
+			say = "(I assume I don't literally have to say that. I'll just earnestly acknowledge how impressed I am with Marco.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_niceship_cg2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I'd say so. You win.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,12 +768,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，既然指挥官这样说了……那马可波罗阁下就是本次当之无愧的冠军了哦。",
+			say = "Really? Well, if you're sure. We have a clear winner – it's Marco Polo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,12 +785,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:448}",
+			actorName = "Emden",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔，没想到指挥官在这方面意外地很好心呢……",
+			say = "I'm surprised you're giving her the win so graciously, dear human.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,12 +802,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:292}",
+			actorName = "Shimanto",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来诀窍是这样的么，记一下好了。",
+			say = "Do like Marco to win. Need to write that down...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,12 +819,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:518}",
+			actorName = "Felix Schultz",
 			bgName = "bg_niceship_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~我懂了，只要用夸张的动作和语气分散掉指挥官的注意力，这样就能……呵呵呵~",
+			say = "So you need only put on an exaggerated performance to distract the Commander, and in the meantime... Heehee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -839,7 +839,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "之后，将大家饱含心意制作的蛋包饭都吃掉了——{namecode:518:菲利克斯·舒尔茨}的那份例外。",
+			say = "Following the victor's crowning, I ate up all the omelet rice the other participants made... except for Felix Schultz's.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,7 +867,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "向大家告别后离开了女仆咖啡厅。",
+			say = "After that, I say goodbye to the girls and leave the maid café.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
-			say = "吃得有点多，再四处走走消消食吧。",
+			say = "That was a lot of food... I should go on a walk to get some exercise in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

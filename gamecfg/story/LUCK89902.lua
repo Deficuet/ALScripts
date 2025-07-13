@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "羽翼已丰，时机已至。鸟儿将向着更高的天空飞去。",
+			say = "The fruits have ripened, and the time has come. Yonder bird continues to soar higher and higher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 899020,
 			dir = 1,
-			say = "这一切，都离不开你。",
+			say = "All this, the culmination of thy endeavors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 899020,
 			dir = 1,
-			say = "我会继续献上全部，守护你的光辉、温暖、感情。",
+			say = "For thy brilliance, thy warmth, thy affection—I shall watch over, as I do serve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 899020,
 			dir = 1,
-			say = "而你将继续与我，在这延伸的道路上前行。",
+			say = "The path ahead of Champagne and the Commander, stretches forth for eternity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是我的意愿，亦是我的…贪婪。",
+			say = "This, I swear upon my will... and my base desires.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

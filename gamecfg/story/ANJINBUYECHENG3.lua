@@ -8,14 +8,14 @@ return {
 			mode = 1,
 			asideType = 3,
 			blackBg = true,
-			say = "管理所-地下车库",
+			say = "Prison - Underground Garage",
 			sequence = {
 				{
-					"管理所-地下车库",
+					"Prison - Underground Garage",
 					1
 				},
 				{
-					"K-03出口",
+					"Exit K-03",
 					2
 				},
 				{
@@ -28,7 +28,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "电梯门缓缓打开。",
+			say = "The elevator door slowly opens.",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "跟随着“怪盗”的脚步，成功进入了一处地下车库。",
+			say = "I follow phantom thief Miss Terious into an underground garage beneath the prison.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "嗯，我的逃脱魔术到这里就是最后一步了~",
+			actorName = "Phantom Thief Miss Terious",
+			say = "Now, get ready for the final step of my escape magic~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "接下来只要找到一辆合适的车，我们就能逃出生天。",
+			actorName = "Phantom Thief Miss Terious",
+			say = "As soon as we can find a car, it's bye-bye prison!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "什么嘛，结果也太顺利了吧。",
+			actorName = "Phantom Thief Miss Terious",
+			say = "Ahh, this was so easy that it was almost boring~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "我本来还期待有更刺激的场面呢~",
+			actorName = "Phantom Thief Miss Terious",
+			say = "Here I was hoping for some more excitement!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,9 +101,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "你是指？",
+			say = "Allen? What are you talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "嘿嘿，我只是笑那治安者无谋罢了。",
+			actorName = "Phantom Thief Miss Terious",
+			say = "Oh, it's no big deal. I just expected better security given the layout of this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,8 +128,8 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "怪盗「Mystic」",
-			say = "要是在这里设了埋伏的话，我们可就没那么容易脱身咯。",
+			actorName = "Phantom Thief Miss Terious",
+			say = "If I were them, I'd put an ambush here and let the two escapees fall right into the palm of my hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,10 +137,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			nameColor = "#FF9B93",
 			blackBg = true,
-			say = "是么？",
+			say = "Is that so?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,10 +148,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			nameColor = "#FF9B93",
 			blackBg = true,
-			say = "我还当你真有什么奇招呢，也不过如此么。",
+			say = "I thought you'd show us some more interesting tricks. How disappointing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,10 +159,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			nameColor = "#FF9B93",
 			blackBg = true,
-			say = "该叫你治安者艾伦·萨姆纳，还是怪盗「Mystic」？",
+			say = "Allen M. Sumner... Or should I say Miss Terious?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,12 +172,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啧，警探“君主”……果然又是你。",
+			say = "Ack! Inspector Monarch... You again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,12 +191,12 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "真是阴险啊，非要到这时候才搅局么？",
+			say = "Look how shrewd you're being. You want to disrupt things this late in the game?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,11 +210,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "即便是我感兴趣的剧目，也该有谢幕之时。",
+			say = "I do my best to be a spectator, but sometimes, circumstances dictate that I must act.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "这位不请自来的警探这么说着，视线却转向了我这一边。",
+			say = "Monarch – the city's police inspector – turns her eyes toward me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "吾友，我最好的搭档。",
+			say = "My dear friend, my old partner...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,11 +256,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "真是落魄了啊。",
+			say = "Hahaha... What a sad state of affairs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			},
 			options = {
 				{
-					content = "我……？",
+					content = "Excuse me?",
 					flag = 1
 				}
 			}
@@ -280,10 +280,10 @@ return {
 			actor = 299023,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "就当是那么回事吧，吾友。",
+			say = "...Ahem. Sorry, but just go with it for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,11 +297,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "叙旧的话之后再说，眼下还有件更重要的事要处理呢。",
+			say = "We can discuss old times later. For now, there's something more important that must be done.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,11 +315,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "艾伦·萨姆纳，你今天可真是盗取了一件对我而言，意料之外的珍宝啊。",
+			say = "Allen M. Sumner, you've pilfered a far greater treasure than I anticipated!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "君主抬起手，缓缓打了一个响指。",
+			say = "Monarch raises a hand and snaps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "在下一瞬间，连接着车库楼道的门就被人用力踢开了。",
+			say = "When she does, the garage's emergency exit is kicked down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,11 +353,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "治安者突击队员",
+			factiontag = "Security Assault Team Member",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "都不许动！停止抵抗！",
+			say = "Please don't move! No more resisting!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,11 +381,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "出门靠朋友……吾友，这正是你教会我的。",
+			say = "\"A friend in need is a friend indeed.\" You taught me this.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,12 +399,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵，原来是“私人恩怨”啊。（小声）",
+			say = "(whispering) Wow, she's really got it out for you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			},
 			options = {
 				{
-					content = "什么？",
+					content = "Excuse me? (again)",
 					flag = 1
 				}
 			}
@@ -424,12 +424,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我是说——到该换个计划的时候了！",
+			say = "Okay, then. On to plan B!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,12 +443,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就是现在！“艺术家”，动手！",
+			say = "Now, Artist! Do your thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "突如其来的枪械咆哮声打断了这场危险的对峙。",
+			say = "Sudden gunfire interrupted the tense confrontation.",
 			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
@@ -481,7 +481,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "君主与火力都被迫缩回了掩体后面，任由这款颇为老派的冲锋枪肆意嘶吼。",
+			say = "The source of it is Svirepy's rather antique machine gun, and it has more than enough firepower to make Monarch and Ognevoy take cover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,9 +492,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			actorName = "艺术家",
+			actorName = "Artist",
 			side = 2,
-			say = "啊哈哈哈~让我们好好地干一架吧！！",
+			say = "Hahahaha! Fight me, assholes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "又是一阵毫不留情的扫射，局势暂时回到了艾伦·萨姆纳的控制之中。",
+			say = "Thanks to her merciless fire, the tables turn back in favor of the phantom thief and her companion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,12 +524,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她们被压制住了！",
+			say = "Alright! Suppressive fire has arrived!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,12 +543,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "抓紧时间，快带指挥官离开！",
+			say = "Now go! Take the Commander with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,9 +564,9 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			actor = 701121,
-			actorName = "艺术家",
+			actorName = "Artist",
 			nameColor = "#A9F548FF",
-			say = "收到~",
+			say = "Gotcha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,8 +578,8 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "艺术家",
-			say = "叛逆的指挥官大人，请跟我来吧。",
+			actorName = "Artist",
+			say = "Symbol of rebellion, Comrade Commander! Come with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "“艺术家”掀开了脚下的井盖，纵身跃了进去。",
+			say = "A manhole cover at my feet opens up, and Svirepy jumps right inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,14 +599,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "跳进去逃走似乎并不难，但此时此刻，却有无法迈动脚步的理由——",
+			say = "It would be easy to follow her, but I have reasons not to, as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你不走么？",
+					content = "Allen, aren't you going to run?",
 					flag = 1
 				}
 			}
@@ -615,12 +615,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……哈，你这家伙，还真是一点都没变。",
+			say = "*sigh*... You never change, do you? Heheh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,12 +634,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不用担心我，我自己有办法。",
+			say = "Don't worry about me. You just go ahead and flee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,12 +653,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "怪盗「mystic」",
+			factiontag = "Phantom Thief Miss Terious",
 			dir = 1,
 			actor = 101452,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "别愣神了，那个小不点正在准备武器，不想被炸死就快走。",
+			say = "...Don't just sit there! That little squirt is setting up her heavy weapon as we speak! If you don't wanna die, then get in that manhole!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "在谈话间，火力手中那门曾用来轰炸直升机的巨炮似乎也组装成形了。",
+			say = "I look over to the pillar and see that Ognevoy is, indeed, assembling that same ridiculous weapon she'd fired at the helicopter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,16 +682,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（没有别的选择了——）",
+			say = "(So I have no choice...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "跳入井中",
+					content = "(Go into the manhole.)",
 					flag = 1
 				}
 			}
@@ -700,7 +700,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "尽管下定了决心，但在起跳之时，还是不由得朝着火力与君主的方向看去。",
+			say = "I thought I'd made up my mind, but before jumping in, I turn to look at Monarch and Ognevoy again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "就在这一瞬间，目光却与那位警探的视线不期而遇。",
+			say = "My eyes meet those of my former friend, the police inspector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,11 +720,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "吾友！",
+			say = "Dear friend!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,11 +738,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "都会警探",
+			factiontag = "City Inspector",
 			dir = 1,
 			actor = 299023,
 			nameColor = "#FF9B93",
-			say = "做正确的事！",
+			say = "It's not too late to do the right thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,10 +756,10 @@ return {
 			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "治安者突击队员",
+			factiontag = "Security Assault Team Member",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "火力全开——！",
+			say = "Full poweeeer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,7 +783,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "有人在最后一刹那关闭了井盖，爆炸声紧跟着传来。",
+			say = "Somebody closes the manhole cover, and before long, I hear nothing but an explosion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_543",
-			say = "在死一般的寂静中，似乎又听到了那“幻影”的自言自语。",
+			say = "In the dark silence, that phantom's voice comes to me again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,11 +803,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "幻影",
+			factiontag = "Illusion",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#A9F548FF",
-			say = "还没完，指挥官，还没完。",
+			say = "It's not over yet. Commander, it's not over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,11 +844,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			factiontag = "幻影",
+			factiontag = "Illusion",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#A9F548FF",
-			say = "到天啾塔去。",
+			say = "Go to the Manjuu Tower.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,11 +862,11 @@ return {
 			expression = 3,
 			side = 2,
 			actor = 9702070,
-			factiontag = "幻影",
+			factiontag = "Illusion",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "到天啾塔去——",
+			say = "Go to the Manjuu Tower...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

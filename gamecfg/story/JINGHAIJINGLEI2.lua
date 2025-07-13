@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"静海惊雷\n\n<size=45>二　天晴浪高</size>",
+					"Tranquil Sea, Distant Thunder\n\n<size=45>2 Clear Skies, Cresting Waves</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_hongran_1",
 			hidePaintObj = true,
-			say = "重樱离岛·{namecode:82}宅邸",
+			say = "Sakura Islands islet - Mikasa's residence",
 			bgm = "cw-story",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天气晴朗，波浪平和，今天真是个难得的好日子。",
+			say = "How quaint. The weather is fine today, but the waves are turbulent.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "是啊，{namecode:82}前辈，我们已经很有没有像这样坐在一起品茶了吧？",
+			say = "I noticed the same thing as well. Quite a curious backdrop to the first teatime we've had in a while, Mikasa.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "好像是有一段时间了。",
+			say = "Teatime, huh... How long has it been since we sat down together for something like this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我印象中，上次与前辈一同品茶之处好像是我在皇家的宿舍里。",
+			say = "Indeed. It reminds me of my time at the Royal Islands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "嗯，差不多是前辈在“一段时间”前去访问的时候。",
+			say = "If I remember correctly, you went on a delegation there as the Combined Fleet flagship, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "啊哈哈……那就是过了相当一段时间了啊。",
+			say = "I did... That was a long, long time ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当时的欧罗巴还处于团结一致准备对塞壬展开大反击的时候呢。",
+			say = "Back then, everyone in Europa was so gung-ho to launch a major counterattack against the Sirens.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各方的合作程度远非现在脆弱的和平所能比拟的……",
+			say = "Comparing the Crimson Axis now to the unity we all shared back then is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "说到这里，{namecode:182}再次出访的事你怎么看？",
+			say = "Bah, let's change topics. What do you think about the Sardegnian expo that Shinano is attending?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "是指{namecode:182}大人奉命前往撒丁帝国筹办博览会的事么？我听说是{namecode:84}大人的命令……",
+			say = "Are you talking about the World Expo? I heard that Musashi chose Shinano to be on our delegation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "既然{namecode:84}大人的话，做出这样的安排一定有什么考虑吧……",
+			say = "Musashi must have a good reason for sending Shinano away. Otherwise...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈，这里又没有外人，但说无妨。",
+			say = "We're alone out here. You may speak your mind freely.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "如今这个局势下，命令出自{namecode:84}之口，未必就是她本人的意思吧？",
+			say = "The orders to send Shinano away might not have come directly from Musashi. Do you not think that's another possibility?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧。硬要说的话……从身份上来说不合适。",
+			say = "Well, it's possible. I just have my qualms about the idea of sending Shinano of all people out to Sardegna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "不论是世界博览会还是更早的铁血访问，这些都不应该是需要{namecode:182}大人亲自经手的事。",
+			say = "I don't care if it's for the World Expo or just a courtesy visit. Shinano should not be part of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在是多事之秋……{namecode:182}大人位于本岛坐镇对于她和重樱来说都应该是最好的选择。",
+			say = "Now that the Iron Blood has challenged the Sirens, nobody knows what will come next... It doesn't make sense for Shinano to be anywhere else but here in the Sakura Islands.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "我实在不明白{namecode:84}大人如此布局的用意……",
+			say = "Despite my concerns, I doubt the Naval HQ would impersonate Musashi... But if she did make this decision, I would like some answers. ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "对了，{namecode:84}大人不是对前辈发来邀请函了么，直接去问问她怎么样？",
+			say = "Speaking of Musashi, didn't you receive some sort of invitation from her the other day?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我迫切地等待前辈回来之后揭露谜底哟。",
+			say = "With your reputation and standing, I'm sure you could ask her directly about Shinano.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这个嘛……其实今天这局茶也与此事有关。",
+			say = "About that... I'd like to hear your honest opinion on something.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你知道{namecode:84}邀请我去做什么么？",
+			say = "I did receive an invitation from Musashi, but I'm not the sole invitee.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "听说是邀请前辈去下棋，不知道是围棋还是将棋？",
+			say = "So it's a group invitation, huh? In other words, some kind of exercise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "都不是。是战况模拟之棋哦。",
+			say = "Not quite. It appears to be some sort of battle simulation \"Chess\" game.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "……战棋？",
+			say = "Chess?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是。{namecode:84}说她已经在某个特殊的结界里构建了精彩的棋局，正等待着我们光临呢。",
+			say = "Yes. Apparently, she has created a special \"domain\" to conduct her game and is inviting all members of the Reborn Combined Fleet to participate.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这里是她的亲笔邀请函，你的名字也位列其中，看过之后就明白了。",
+			say = "That includes you, Kongou, so I'd like you to take a look at the invitation as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hongran_1",
 			hidePaintObj = true,
-			say = "一段时间后————",
+			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "没想到{namecode:84}大人会在信中点名邀请我与前辈同去参加……真是令人荣幸。",
+			say = "I'm honored that Musashi mentioned me by name.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "不过棋局的规则，实在是有些复杂啊……",
+			say = "But... aren't these rules a bit too convoluted for a naval exercise?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "不着急。今天也没别的事，你我就一同把这个规则研究个透彻吧。",
+			say = "Mmhmm. I thought the same thing, and I'm glad I'm not the only one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽说是娱乐，但终究是{namecode:84}的亲笔邀请，必须要认真对待才是。",
+			say = "Having that said, I cannot just decline an invitation from Musashi. Even if this isn't a naval exercise, her words may well influence the future of the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "规则里提到四名棋手混战，不知道另外的两位是？",
+			say = "It says three other people were invited as well. Do you have any guess as to who the two unnamed ones are?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这件事的话，我已经和{namecode:74}确认过了，她也收到了邀请。",
+			say = "I spoke to Nagato earlier and she confirmed that she received an invitation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "至于最后的那一位，恐怕是{namecode:91}吧。",
+			say = "That leaves only one person. In all likelihood, Akagi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "……这样，虽然名义上是四人混战，实际上却要变成二对二了呢。",
+			say = "Interesting. I can see this exercise turning into a two-versus-two with you and Nagato against Akagi and Musashi.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许，所以我们更要做好充分的准备。",
+			say = "Yes, which is why I wanted to discuss some tactics with you first.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "规则上，每名棋手可以带五名侍从一同前往。",
+			say = "The team leaders will not be physically present on the field. We'll be playing the role of lords, issuing orders to retainers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你与{namecode:73}算在我这边，让{namecode:72}和{namecode:71}去{namecode:74}那边，你看怎么样？",
+			say = "Each leader will have five combatants assigned to her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没问题。{namecode:74}大人的近侍严重不足，是需要支援她一下。",
+			say = "I see. It says here that I'll be your retainer, while Haruna and Hiei will go with Nagato.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "前辈……这里写到“进入结界后，每名近侍将会被结界赋予不同能力”，这些能力也需要预先设定好么？",
+			say = "About this domain... It seems to confer special abilities to the ships that enter? Is that something that has already been determined? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "不错，后面你还没读到的厚厚规则书就是为此准备的。",
+			say = "Correct. In other words, you'll each have a role to play.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "连我自己也要给自己设定一个能力，留到下场的时候用呢。",
+			say = "Even I will have access to certain abilities, in line with my role as a lord. They are a means for me to directly influence the battlefield.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……能让棋手下场进入棋盘的棋局……还真是不常见。",
+			say = "A game of chess where the player can also serve as a piece... Interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -820,7 +820,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "哈哈哈，或许这里也蕴含着设计者的某种用意吧。",
+			say = "That's right, haha. Who knows, maybe that design reflects a bit of the designer's intentions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除此之外，我们还需要准备两张事件卡和八张指挥卡，这些同样都可以在规则给定的范围内自由设置。",
+			say = "Speaking of which, the domain is affected by the mental states of the outside participants, as well as by the passage of time. These will change the conditions for the combatants inside.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -854,7 +854,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事件卡对于所有棋手生效，而指挥卡只对己方生效……",
+			say = "Time and mental state, you say...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "依我看来，这些被称为指挥卡的卡牌设计是本次棋局的核心之一。",
+			say = "I think I understand what the purpose of this game is now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -890,7 +890,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "倘若想在给定的规则下发挥最大的作用，一定要花心思仔细设计一下。",
+			say = "Musashi must want to test everyone to see which side – or should I say, ideology – can lead their followers to victory under pressure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就要考验我们的智慧了哟？",
+			say = "I'm inclined to agree. It's a mock battle to determine the best path forward for the Sakura Empire.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "在对局之前，智慧的比拼就早已开始……呵呵，我越来越期待这盘棋了。",
+			say = "For us players, the battle has already begun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:82}前辈，你觉得这场棋局是{namecode:91}准备的，还是{namecode:84}大人准备的？",
+			say = "Would you happen to know who came up with this idea? Was it Akagi? Or maybe Musashi herself?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这些就要等我们去棋局之上一探究竟了。",
+			say = "For all we know, it could've even been the Commander's idea. We won't be able to find out until we step inside that domain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,7 +977,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们现在能做的只有充分准备，然后以不变应万变。",
+			say = "All we can do for now is to plan, prepare, and practice for any and all possibilities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,7 +994,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:70}，{namecode:74}那边你…………不，还是之后我之后亲自跑一趟吧。",
+			say = "Someone will have to tell Nagato to do the same. You should... No, actually, I'll do it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "我不在的时候你要跟{namecode:102}保持密切联络。一旦她们的调查有任何进展，立刻告诉我。",
+			say = "Inform the 5th CarDiv on my behalf instead. Tell them to contact me at once if their investigation bears fruit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1030,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304010,
-			say = "没问题，请前辈放心吧。",
+			say = "Certainly. I'll let them know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,7 +1048,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
-			say = "很好。只要那边能早一日调查出结果，我们就能早一日把主动权拿回来……",
+			say = "Good. Anything they discover could bring a swifter end to this pointless infighting.",
 			painting = {
 				alpha = 0.3,
 				time = 1

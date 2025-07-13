@@ -11,8 +11,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500070,
 			dir = 1,
-			actorName = "澪川依代",
-			say = "不…不行了！",
+			actorName = "Miokawa Iiyo",
+			say = "Guess we never stood a chance...",
 			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
@@ -29,8 +29,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500050,
 			dir = 1,
-			actorName = "燕子花奈切",
-			say = "到此为止了么…",
+			actorName = "Kakitsubata Nakiri",
+			say = "Oh, blast it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 10500020,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是和之前一样的传送指令把她们传送走了！",
+			say = "They did it again! They used the teleport command!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在最后极限时刻才触发...是某种服务器的保护特性么",
+			say = "And they did so at the last possible moment... Is this some sort of automatic safety feature the server has?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "呼…虽说知道是塞壬制造出的战斗兵器，不过就这么真的将其破坏心理压力还是挺大的",
+			say = "Hrm... I know they're just clones the Sirens made, but it's still hard to get myself to fight them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 10500070,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是都像这么在最后一丝血被传送走，也算能放下心里负担全力战斗了~果然真品是不可能输给赝品的！",
+			say = "That said, I might be able to go all out if always get teleported away right before their HP hits 0. I'm not about to let an imposter beat me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "唉…还好这里不是剧场版，也不是EX关……",
+			say = "Hmh, as someone once said: a faker will never be anything more than a faker...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无法彻底击败敌人，就意味着现在击败的敌人迟早会卷土重来，战况一旦拖延久就危险了哎",
+			say = "But it's annoying that we can't reduce their numbers. They'll wear us down over time if they simply retreat, heal, and come back to fight us again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最初就没有考虑过持久战。",
+			say = "We need only take out their stronghold before it comes to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空小姐，今天的眼神中的迷茫减少了不少，行动也果断多了呢",
+			say = "(Sora seems a lot more resolute than she was yesterday... That's reassuring.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "我已经不会再犹豫了，只有阻止塞壬的计划，才能真正结束这一切",
+			say = "I'm done being hesitant. From now on, my mind is set: we'll put a stop to the Sirens' schemes and end this whole ordeal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也不想总和长得一样的对手战斗了……",
+			say = "I'm getting fed up with fighting all these clones...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，面对这些和同伴长得一样的复制品，又有谁赢了之后会觉得好受呢。",
+			say = "I understand. Fighting clones of yourself is one thing, but it's rather distressing to fight those of your close friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "归根结底，都是塞壬的错！嗯…回去之后去揍净化亲消消气好了！",
+			say = "The Sirens have always played dirty like that. Once we get back, Purity's getting an earful from me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也要…",
+			say = "From me too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 900021,
 			dir = 1,
-			actorName = "净化亲",
-			say = "这边听得到哦！",
+			actorName = "Purity",
+			say = "I can hear you, ya know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！怎么偏偏在这时候发来联络了…",
+			say = "Whuah?! Why are you contacting us all of a sudden, Purity?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			actor = 301050,
 			dir = 1,
-			say = "{namecode:408}，你们那边做了什么吗？",
+			say = "Zed, how is it going on your end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们刚刚解决掉了塞壬伏兵正准备继续前进，基地出现什么问题了么？",
+			say = "We walked into an ambush, but we dealt with the Sirens and were just going to resume our search. What about the base, everything fine there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			actor = 301050,
 			dir = 1,
-			say = "倒不是基地的事…",
+			say = "The base is functioning as normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			actor = 201210,
 			dir = 1,
-			say = "是空中！就在刚刚一道黑色的光幕突然凭空出现在海面上封锁了水面！从距离看，正好就是你们迷宫的另一边出口左右。",
+			say = "While the base is fine, there's this black veil that suddenly appeared out of nowhere! I think it's expanding, and coming from the labyrinth, actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家快抬头看！",
+			say = "Look up, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "如标枪所说，一道巨大的光幕，不知何时出现在了空中。",
+			say = "Just as Javelin said, there's a veil floating in the air above the labyrinth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "…该说是空中么？它几乎横跨了整片海洋，看不到顶端，也看不到边缘。",
+			say = "Or rather, it's in the sky. It spans across the ocean, enveloping everything in its path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "跟你们说啊！这道屏障简直坚固的离谱！！刚刚诗音火力全开，居然！连一个窟窿都没打出来！",
+			say = "That's not a veil, it's a barrier! And unbelievably strong one, at that! I hit it with everything I have, yet it didn't as much as cut a hole into it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "明显是那种由GM制造出来，在设定上不可通行的防御壁呢…",
+			say = "This is obviously an impassable wall the GM made that we can't pass through without permission...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法继续前进了...",
+			say = "We can't go forward like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天只能先回基地商量对策了，撤退吧",
+			say = "It seems we have no choice but to fall back for the time being...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "那个，如果水面和天空都不行的话…",
+			say = "Say, if we can't go by air or by sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "祭也许，有一个办法…",
+			say = "Then I might have a good solution to the problem...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

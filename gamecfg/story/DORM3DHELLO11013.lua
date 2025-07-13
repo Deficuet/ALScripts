@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "wow！honey，你太会给我惊喜了！我刚刚还在想你呢，如果没有你，感觉今天冰激凌都会变得难吃呢！",
+			say = "Whoa, honey, you're so good at surprises! I was just thinking about you. Ice cream tastes so much blander when you're not around!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello13",
 			typewriter = {
 				speed = 0.05,

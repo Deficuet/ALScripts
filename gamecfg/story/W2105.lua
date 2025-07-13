@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，海域中的全部塞壬增援点均被摧毁了。",
+			say = "Scan complete. All Siren Rally Points have been destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

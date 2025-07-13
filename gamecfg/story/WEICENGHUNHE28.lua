@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
+			say = "??? ???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谁躲在那里，快出来！",
+			say = "Who's there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "就当我是背景的旁白吧。",
+			say = "Just a spectator in the background.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看到什么钟意的内容了么？",
+			say = "Do you not like what you see in this film?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "\"Film?\" Are you talking about those shadows?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录。",
+			say = "Fragments. A log of memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "A log? Memories? Whose are you talking about? When was this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "They were \"hers.\" Both in the past, and in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "And now, they are yours as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我没时间和你打哑谜，为什么要给我看这些虚假的闹剧？",
+			say = "I have no time for your sick games. Why are you trying to show me these lies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "The past cannot lie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看，她来了。",
+			say = "Come. She is here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "企业身边的幻影突然全部消失，然后一个新的身影从迷雾中浮现出来。",
+			say = "A new shadow emerged from the mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "一位头顶蓝色水母顶盖，手拿玩偶乘坐在巨大舰装上的少女。",
+			say = "An entity with an indescribable aura unlike any being that she had met...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个是…？！",
+			say = "You're...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -272,7 +272,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "轰----------------！！！！",
+			say = "BOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			dialogShake = {
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。",
+			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "啧。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "未知的声音留下一声不甘心的叹息，随即停止了呢喃。",
+			say = "Unlike the other shadows, this figure only gazed into Enterprise's eyes before fading back into the mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "海雾也开始逐渐散去，露出了在四周潜伏多时的塞壬舰队。",
+			say = "As if responding to her actions, the mist pulled back, revealing countless mass-produced Siren ships.",
 			effects = {
 				{
 					active = false,
@@ -360,7 +360,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…说了这么多，果然对付塞壬还是需要通过用战斗收场么。",
+			say = "I guess I'm going to have to fight my way out after all...!",
 			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_banama_2",
-			say = "轰----！",
+			say = "BOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "又是一声巨响从近处传来，这个声音是…",
+			say = "However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哟，这不是企业么！没想到在这里遇到你了，需要帮助么~",
+			say = "Enterprise! Need a hand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "巴尔的摩？！还有……",
+			say = "Baltimore! Everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 102160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，我知道你有很多疑问，实际上我们自己也没搞清楚状况，不过---",
+			say = "It feels like we've been stranded in the mist forever, but there is a way out after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 102050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们平安脱困了，企业。",
+			say = "Now, let's push back the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "失去联络数日的调防舰队居然突然在这里出现了！",
+			say = "With the arrival of unexpected reinforcements, Enterprise struck down enemy after enemy with no burdens in her heart knowing that her friends were safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？背后刚刚好像还有个身影一闪而过…那个是？！",
+			say = "I'm so glad everyone is safe! Right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			say = "不在这里么…",
+			say = "Not here... the Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

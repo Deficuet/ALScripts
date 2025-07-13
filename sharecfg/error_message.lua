@@ -1,204 +1,204 @@
 pg = pg or {}
 pg.error_message = {
 	{
-		desc = "无效操作"
+		desc = "Invalid Input."
 	},
 	{
-		desc = "缺少配置"
+		desc = "Missing Configuration."
 	},
 	{
-		desc = "超时"
+		desc = "Time Out."
 	},
 	{
-		desc = "时间未到"
+		desc = "Not Available Now."
 	},
 	{
-		desc = "已达到最大等级"
+		desc = "Already Reached Max Level."
 	},
 	{
-		desc = "已达到最大数量限制"
+		desc = "Already Reached Limit."
 	},
 	{
-		desc = "已经完成"
+		desc = "Completed."
 	},
 	{
-		desc = "未定义参数"
+		desc = "Undefined Parameter."
 	},
 	{
-		desc = "错误参数"
+		desc = "Error Parameter."
 	},
 	{
-		desc = "栏位已满"
+		desc = "Not Enough Slots."
 	},
 	{
-		desc = "数据库错误"
+		desc = "Database Error."
 	},
 	{
-		desc = "系统异常"
+		desc = "System Error."
 	},
 	{
-		desc = "禁止登录"
+		desc = "Disabled Login."
 	},
 	[15] = {
-		desc = "注册数已达上限，感谢您的支持。"
+		desc = "Registration has reached limit, thank you for your support."
 	},
 	[19] = {
-		desc = "无效的重复操作"
+		desc = "Invalid Repeat Operation."
 	},
 	[20] = {
-		desc = "数据不存在"
+		desc = "Data Does Not Exist."
 	},
 	[21] = {
-		desc = "玩家不存在"
+		desc = "Player Does Not Exist."
 	},
 	[22] = {
-		desc = "舰船不存在"
+		desc = "Shipgirl Does Not Exist."
 	},
 	[23] = {
-		desc = "物品不存在"
+		desc = "Item Does Not Exist."
 	},
 	[24] = {
-		desc = "装备不存在"
+		desc = "Gear Does Not Exist."
 	},
 	[25] = {
-		desc = "任务不存在"
+		desc = "Mission Does Not Exist."
 	},
 	[26] = {
-		desc = "战斗信息不存在"
+		desc = "Combat Info Does Not Exist."
 	},
 	[27] = {
-		desc = "采集点不存在"
+		desc = "Collect Point Does Not Exist."
 	},
 	[28] = {
-		desc = "好友不存在"
+		desc = "Friend Does Not Exist."
 	},
 	[29] = {
-		desc = "邮件不存在"
+		desc = "Mail Does Not Exist."
 	},
 	[30] = {
-		desc = "目标不足"
+		desc = "Not Enough Completed Mission Targets."
 	},
 	[31] = {
-		desc = "资源不足"
+		desc = "Not Enough Materials."
 	},
 	[32] = {
-		desc = "金币不足"
+		desc = "Not Enough Coins."
 	},
 	[33] = {
-		desc = "石油不足"
+		desc = "Not Enough Oil."
 	},
 	[34] = {
-		desc = "银沙不足"
+		desc = "Not Enough Silver Dust."
 	},
 	[35] = {
-		desc = "晶钻不足"
+		desc = "Not Enough Gems."
 	},
 	[36] = {
-		desc = "家具币不足"
+		desc = "Not Enough Decor Tokens."
 	},
 	[37] = {
-		desc = "物品不足"
+		desc = "Not Enough Items."
 	},
 	[38] = {
-		desc = "食物不足"
+		desc = "Not Enough Snacks."
 	},
 	[39] = {
-		desc = "体力不足"
+		desc = "Not Enough Stamina."
 	},
 	[40] = {
-		desc = "不合法限制条件"
+		desc = "Illegal Restriction."
 	},
 	[41] = {
-		desc = "等级不符合"
+		desc = "Level Does Not Match."
 	},
 	[42] = {
-		desc = "类型不符合"
+		desc = "Type Does Not Match."
 	},
 	[1010] = {
-		desc = "账号错误"
+		desc = "Incorrect Account."
 	},
 	[1011] = {
-		desc = "账号已存在"
+		desc = "The Account Already Exists."
 	},
 	[1012] = {
-		desc = "纯数字账号"
+		desc = "Pure Digital Account."
 	},
 	[1013] = {
-		desc = "服务器繁忙"
+		desc = "The server is currently busy."
 	},
 	[1020] = {
-		desc = "密码错误"
+		desc = "Incorrect Password."
 	},
 	[1030] = {
-		desc = "md5验证错误"
+		desc = "MD5 Verification Error."
 	},
 	[1031] = {
-		desc = "md5长度错误"
+		desc = "MD5 Length Error."
 	},
 	[1040] = {
-		desc = "服务器已关闭"
+		desc = "Server Closed."
 	},
 	[2010] = {
-		desc = "名字检查错误"
+		desc = "Name Check Error."
 	},
 	[2011] = {
-		desc = "名字过长"
+		desc = "Your name is too long."
 	},
 	[2012] = {
-		desc = "名字过短"
+		desc = "Your name is too short."
 	},
 	[2013] = {
-		desc = "名字有屏蔽词"
+		desc = "Your name contains restricted words."
 	},
 	[2014] = {
-		desc = "名字错误字符"
+		desc = "Your name contains illegal character."
 	},
 	[2015] = {
-		desc = "名字已被使用"
+		desc = "Your name is taken."
 	},
 	[3010] = {
-		desc = "舰船不可战斗"
+		desc = "Shipgirl is sunk."
 	},
 	[3020] = {
-		desc = "前置关卡未通过"
+		desc = "Previous Stage Incomplete."
 	},
 	[4010] = {
-		desc = "舰船不可用"
+		desc = "Shipgirl Unavailable."
 	},
 	[4020] = {
-		desc = "舰船是看板娘"
+		desc = "Shipgirl is secretary."
 	},
 	[4030] = {
-		desc = "舰船在编队中"
+		desc = "Shipgirl is already in your fleet."
 	},
 	[4040] = {
-		desc = "舰船不在编队中"
+		desc = "Shipgirl is not in your fleet."
 	},
 	[4050] = {
-		desc = "相同的舰船"
+		desc = "Identical Shipgirls."
 	},
 	[4201] = {
-		desc = "礼包码已过期"
+		desc = "Gift code has already expired."
 	},
 	[4202] = {
-		desc = "该渠道不支持"
+		desc = "Unsupported channel."
 	},
 	[4203] = {
-		desc = "礼包码不存在"
+		desc = "Gift code does not exist."
 	},
 	[4204] = {
-		desc = "礼包码已被使用"
+		desc = "Gift code has already been used."
 	},
 	[4205] = {
-		desc = "礼包码兑换有误，请重试"
+		desc = "An error has occurred; please try again."
 	},
 	[4206] = {
-		desc = "该类型礼包兑换次数已达上限"
+		desc = "You can't obtain any more."
 	},
 	[4207] = {
-		desc = "没有礼包兑换URL"
+		desc = "No gift redemption URL."
 	},
 	[9999] = {
-		desc = "未定义错误"
+		desc = "Unknown Error."
 	}
 }

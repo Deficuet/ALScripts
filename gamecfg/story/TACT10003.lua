@@ -8,7 +8,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "又一轮鱼雷过来了，紧急回避！",
+			say = "Another wave of torpedoes incoming, emergency maneuvers!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "啊…可恶…局面不应该是这个样子的，要是不挠号之前没有触礁掉队的话…",
+			say = "Ahh... damn, the situation wouldn't be so dire if the Indomitable didn't strike that rock...",
 			flash = {
 				delay = 0.3,
 				dur = 0.5,
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "…到此为止了吗…没想到满天的小玩意居然这么难对付",
+			say = "Is this the end of the line...? Didn't realize a swarm of aircraft is so hard to deal with.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "呵呵，大舰巨炮已经跟不上时代的变迁了呀…真想对着敌舰好好的来上一轮齐射啊…可惜…",
+			say = "Haw-haw, these big guns can no longer keep up with the times… I really want to shower the enemy with a volley... but...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
-			say = "真怀念当年和胡德姐一起环游世界的时光啊~",
+			say = "My sister ship Hood, I really miss the time when we traveled around the world...",
 			shake = {
 				speed = 1,
 				number = 3

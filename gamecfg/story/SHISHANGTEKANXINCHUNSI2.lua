@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_157",
-			say = "来到约定的拍摄地点，映入眼帘的是被装饰成东煌风格的布景。",
+			say = "When I arrive at the photo shoot, I'm stricken by the beautiful, Dragon Empery-style set.",
 			bgm = "china-party",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			live2d = "login",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523:让·巴尔}正随意地靠在挂着灯笼的树上，修长的手指撑着侧脸，目光若有所思地望向远方。",
+			say = "Jean Bart leans against a tree with lanterns hanging from it, gazing thoughtfully into the distance while supporting her head with slender fingers.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她似乎已经等候多时，见到我到来，微微扬起下巴。",
+			say = "She must have been waiting for a long time – when she sees me, she perks up a little.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "来了吗？",
+			say = "You're here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523:让·巴尔}看到我来，略微直起身子，看似不经意地整理了下衣角。",
+			say = "She sits up and casually pulls on her clothes a bit to straighten them out.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "怎么样，我这身打扮还算合格吧——",
+			say = "Well? Am I the apple of your eye?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "只是随便问问……",
+			say = "Just asking out of curiosity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "上一句话音刚落，又像是觉得自己太过在意似的，连忙又马上补充道。",
+			say = "She adds that second part quickly, as if trying to prove that she doesn't care that much.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -132,11 +132,11 @@ return {
 			},
 			options = {
 				{
-					content = "很适合你",
+					content = "It suits you well.",
 					flag = 1
 				},
 				{
-					content = "很有节日的感觉",
+					content = "It's very festive.",
 					flag = 2
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯，很漂亮，尤其是剪裁能衬托出你的气质。",
+			say = "Yeah, it looks great on you. The tailoring emphasizes your grace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "看上去很不错，很有节日的感觉。",
+			say = "I like it. It suits the festive mood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "和平时的你有些不同，但这种反差很迷人。",
+			say = "A little different from your usual style, maybe, but that's just another part of the charm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "听到真诚的称赞，她的表情变得柔和了一些，但仍旧保持着平日里的高傲态度。",
+			say = "My sincere praise makes her loosen up a little, but as usual, she doesn't openly express a hint of joy.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "虽然我很喜欢这种节日氛围，但可别指望我每年都会如此热衷……",
+			say = "While I do like this holiday spirit, don't expect me to dress up every single year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "好了，既然准备好了，我们就开始拍摄吧。",
+			say = "Okay, everything's ready. Let's get started.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "拍摄正式开始，{namecode:523:让·巴尔}虽然保持着优雅的姿态，但略显僵硬的表情还是暴露了她的不适应。",
+			say = "The shoot begins. Her poses are elegant, but her facial expressions betray her lack of experience.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "连续几张照片都没能捕捉到她最自然的一面。",
+			say = "Several photos later, we've yet to truly draw out her natural charms.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "{namecode:523:让·巴尔}，肢体别太紧张，放轻松一点。",
+			say = "You're still a little tense. Maybe try to relax more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯……不如这样，我们先聊聊天，缓解一下气氛吧？",
+			say = "How about we chat a little to loosen you up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			side = 2,
-			say = "……好吧，让我想想聊什么……",
+			say = "Fine. About what, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "嗯……东煌新年的习俗如何？",
+			say = "Hmm... Like new year traditions in the Empery?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "我今年对这些有些兴趣……你有所了解么？",
+			say = "Gotta admit, I'm a little interested this year. You know anythin' about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "新年的习俗啊……要说印象最深的，应该就是“红包”了吧。",
+			say = "New year traditions, huh? I'd say the most memorable one has to be the \"red envelope.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "简单来说就是大家会在新年的时候，互相送上红包，作为新年祝福。",
+			say = "Basically, everyone gives each other red envelopes to bless each other in the new year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "红包？原来如此，是表达祝福的方式对吗？……那，指挥官你的诚意呢？",
+			say = "Oh, is that how you give blessings to someone? Heheh. Alright, then why don't you show me how sincere you are?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "看到时机适合，我掏出口袋里准备结束拍摄之后送给{namecode:523:让·巴尔}的红包。",
+			say = "The timing couldn't be more perfect. I reach into my pocket for the red envelope I'd been saving for after the shoot.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "当然有，这可是我满满的心意。",
+			say = "I've got what you want right here. All of my sincerity, and more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			actor = 905014,
 			actorName = "{playername}",
 			live2d = true,
-			say = "希望在新的一年里，{namecode:523:让·巴尔}能平安喜乐，也希望我们的感情能更加深厚。",
+			say = "I hope next year is safe, happy, and as fulfilling as can be for you. And I hope that we can become closer than ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "呵呵……这还差不多……",
+			say = "Heh... That's more like it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523:让·巴尔}欣然接过红包，然后仔细放进贴身之处，我们继续闲聊。",
+			say = "She happily accepts the envelope and deposits it gingerly into her clothes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -453,7 +453,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "随着交谈的深入，{namecode:523:让·巴尔}的状态变得渐渐柔和，动作也愈发自然起来。",
+			say = "As we keep chatting, she softens up more and more. Her movements become much more natural.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "新年新气象……但对我来说每一天都是新的开始。",
+			say = "A new year and a new beginning... So they say, but every day's a new start to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "不过，有你在身边的话，也许今天会有更多不同。",
+			say = "What makes it different from the past ones is the fact that I have you now here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她靠在树上，抬头望着枝头的灯笼，如此轻声说道。",
+			say = "She leans back against the tree and looks up at the hanging lanterns.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -509,7 +509,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "说罢，{namecode:523:让·巴尔}又望向我，眼神里带着温柔和笑意。",
+			say = "Then, she gazes tenderly at me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "不过别误会，我可不是在依赖你……",
+			say = "Don't get me wrong. It's not like I'm relying on you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她的声音渐渐轻柔，与其说是在对我说，倒不如说是在喃喃自语。",
+			say = "Her tone becomes even softer, and she starts to sound more like she's talking to herself than to me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -551,7 +551,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523:让·巴尔}抬起头，灯笼的暖光映照在她精致的侧颜上，",
+			say = "Warm lantern light shines upon her delicate countenance...",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905014,
-			say = "算了，总之啊，今年也请多指教了，我的指挥官。",
+			say = "Either way... Happy New Year, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "就在这一瞬间，我按下了快门。",
+			say = "I seize the moment and click the shutter.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -593,7 +593,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "这大概是我们二人最为满意的一张照片了吧。",
+			say = "This photo is sure to be the one that both of us love the most.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -607,7 +607,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "星光与灯笼的映衬下，{namecode:523:让·巴尔}的笑容显得格外动人，仿佛星辰都为之黯然失色。",
+			say = "Bathed in the light of lanterns and the starry sky, Jean Bart's smile is more enchanting than ever. Her beauty eclipses even the stars above.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -621,7 +621,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "新的一年，也请多多指教，{namecode:523:让·巴尔}。",
+			say = "Happy New Year to you, too, Jean Bart.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "未知海域·某处",
+			say = "Somewhere in an unknown sea",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "海面之上，海风吹拂而过，像是要把刚刚战斗的痕迹都全部抹去。",
+			say = "Wind brushed across the water, as if wiping away all traces of the battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,20 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "硝烟已然散去，蔚蓝的海面再次变得碧波动人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_tolove_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "欢迎你们，异世界的客人。",
+			say = "The sea breeze blew away all the smoke, bringing the blue surface to its usual beauty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵呵，不用震惊本王为什么知道你们的身份。",
+			say = "Welcome, guests from afar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟这造型别致的舰装，还有伴随你们的出现一同出现的敌人，都能证明你们并非来自这个世界。",
+			say = "Heehee, how do I know you come from another world? It's hardly surprising.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +87,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且类似的事情已经发生过许多次了……",
+			say = "Your uniquely shaped rigging – and the enemies that appeared alongside you – tell the whole tale.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_tolove_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "It's happened enough times by now, frankly, that I should hope I'm not dense enough to miss that.",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳，别担心，本王可不是你们的敌人，倒不如说能遇到本王是你们的福气。",
+			say = "Ahem! Rest assured. I am not your enemy. In fact, you should count yourselves lucky that you've encountered me today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "我是菈菈，来自戴比路克星的菈菈·撒塔琳·戴比路克~叫我菈菈就可以了，很高兴见到你呢！",
+			say = "I'm Lala Satalin Deviluke, from Planet Deviluke. Call me Lala~ Happy to make your acquaintance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这边是我的妹妹梦梦·贝莉雅·戴比路克和娜娜·阿丝达·戴比路克，都是好孩子哦！",
+			say = "These are my little sisters, Momo Belia Deviluke and Nana Astar Deviluke. They're both really good girls!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100030,
-			say = "初次见面，叫我梦梦就好。",
+			say = "A pleasure to meet you. Please just call me Momo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "叫我娜娜就行。",
+			say = "Same, just Nana is fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "金色暗影。",
+			say = "I'm Golden Darkness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "我们都叫她“小暗”呢。",
+			say = "We all call her Yami, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "小暗，她们也这么叫你可以吗？",
+			say = "Mind if they do the same?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯……",
+			say = "That's fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "您好，我叫西连寺春菜，和她们三位不同，我是个来自地球的普通人……自我介绍这样就好了吧？",
+			say = "Hello. My name is Haruna Sairenji. I'm from Earth, and I'm a normal human... Um, is that good enough?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "嗯，我叫古手川唯，和西连寺小姐一样是普通人。",
+			say = "And I'm Yui Kotegawa. Like Sairenji, I'm just a human from planet Earth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下……戴比路克星？普通人？",
+			say = "Wait... Planet Deviluke? And \"normal human\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "呃，这个就有点说来话长了……不过我们是很要好的朋友哦。",
+			say = "Umm, it's a bit of a long story... Either way, we're all just good friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100050,
-			say = "菈菈她们是戴比路克星的公主，但是在学校我们都是同班同学哦。",
+			say = "Lala and her sisters are princesses from Planet Deviluke, but we're all classmates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔姆，居然会有外星球的客人，这种事就连本王也觉得新奇了。",
+			say = "Hmm. Not just from another world, but real aliens at that... There's a first time for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然菈菈小姐几位同为贵族，伙伴也是他乡来客，那么就不用太过拘礼了。",
+			say = "Either way, you're guests – and some of you royalty at that. There's no need to be formal with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就叫本王伊丽莎白便可，有什么需要的话也可以向本王的随行女仆寻求帮助。",
+			say = "Call me Elizabeth, please. If you need anything, don't hesitate to ask my maids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过在那之前，能请菈菈小姐详细说一说你刚刚提到的“超级游戏制作机”吗？",
+			say = "But first... may I ask you to tell me about this \"Questy MacGuffin\" of yours?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯，好的！唔~超级游戏制作机之前是作为游戏机开发的……",
+			say = "Sure! Umm, so... Basically, I developed it as a game console.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "原本的设计里我给它输入了大家的数据和各种游戏中常见的敌人数据。",
+			say = "When I input everyone's data and throw in common enemy data from other games, along with other stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "这样它就能直接创造一场生动有趣的奇幻冒险！还能根据实际情况创造敌人供游玩的人挑战哦！",
+			say = "It can make fun fantasy adventure games! It can even make enemies that match the situation for us to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "因为我想尽快让大家玩到游戏，所以最近一直在熬夜赶工啦……可能是因为收集零件时太着急了……",
+			say = "I wanted everyone to play it so badly that I worked so many nights on it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "总之最后我们就被传送到了这里呢……",
+			say = "But we ended up here. Maybe because I was rushing so much to gather parts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，看起来那些不明身份的敌人也是超级游戏制作机创造出来的吧。",
+			say = "Oh, I see. So those odd enemies were created by your Questy MacGuffin, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯，这一点让人很头疼呢～超级游戏制作机现在失控了，不光是不停制造敌人，而且还会产生一些特殊的变种……",
+			say = "Yeah, it's kind of a problem~ Questy's out of my control now, and it keeps making enemies. Worse than that, it's making special variations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说还会有其他更多敌人吗……必须想个办法解决当前的情况。",
+			say = "Then it's possible that more will appear... We must do something about this posthaste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			hidePaintObj = true,
-			say = "一时之间伊丽莎白女王和众人的表情变得严肃起来。",
+			say = "Elizabeth and her entourage turned serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "贝法，行程更改，我们带客人去最近的港口。",
+			say = "Bel, change of plans. Take our guests to the nearest base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命。",
+			say = "As you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位客人，现在海域中危险异常，请先随我们一同前往我们在海上的安全基地吧。",
+			say = "Everyone, this sea region is extremely dangerous at this time. We must evacuate to a safe port at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "女仆队准备一下红茶和点心。",
+			say = "Maids, prepare tea and snacks, please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位异世界而来的朋友，我们路上慢慢聊如何？",
+			say = "Visitors from another world, let us drink tea together and chat along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "嗯~？要去你们的基地做客么？",
+			say = "Huh? We're gonna go hang out at your place?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_tolove_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好呀好呀，我们出发吧~！",
+			say = "Woohoo! What are we waiting for? Let's go~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

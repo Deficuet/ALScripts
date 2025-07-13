@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，刚刚结束的战斗是陷阱的可能性为97%。警告，遭遇到更多塞壬舰队伏击。",
+			say = "Scan complete. There is a 97% chance of this being a trap.Emergence of an additional Siren ambush fleet has been detected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

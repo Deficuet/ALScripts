@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天的Honey也是帅气逼人呢！Black Dragon在你的面前也只能甘拜下风啦，哈哈哈哈~！",
+			say = "Honey, you're as hot as ever today! Even the Black Dragon can't stand up to you, heheh!",
 			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_hello9",
 			typewriter = {
 				speed = 0.05,

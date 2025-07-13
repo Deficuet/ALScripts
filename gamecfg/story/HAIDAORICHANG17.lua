@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>心跳的日光浴时间</size>",
+					"Uncharted Summer\n\n<size=45>Titillating Sunbathing Time</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "绚烈阳光下的金色沙滩，白浪拍打着海岸，发出浪花破碎的沙沙声。",
+			say = "A golden beach under the brilliant sun. White waves caress the shore, their sound like music to my ears.",
 			bgmDelay = 2,
 			bgm = "story-richang-4",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "但是回响在脑海中的声音，似乎是……心跳的声音？",
+			say = "But, that sound is all but drowned out by my racing heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			live2d = "touch1",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼~Honey不过来陪我一起晒晒日光浴么？",
+			say = "Hi, honey~ Seeing as I've got your attention, wanna sunbathe with me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阳光，冰镇饮料，蔚蓝的大海，这才是夏天的标配嘛。",
+			say = "Ahh... Chilling on a sunny beach while sipping a nice tropical drink. This is what summer's all about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来，Honey，饮料~",
+			say = "Here, honey – enjoy~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			live2d = "mission_complete",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，先别急哟？让我先尝一口——嗯，果然是Honey会喜欢的味道。给你~",
+			say = "Wait, lemme have a sip first! ...Yeah, you're gonna love this. Try it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:199}尝了口手中的饮料，而后把装着饮料的杯子递了过来——",
+			say = "With some hesitation, I accept the glass she's already had a sip from, and drink it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，Honey的脸很红呢。是因为热烈的阳光？",
+			say = "What's up, honey? You're blushing. Sun too much for you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还是说……因为和{namecode:199}的间接接吻？嘿嘿，这个问题的答案我可是比Honey要更清楚哦？",
+			say = "Ooor, is it the fact we had an indirect kiss? That's no big deal, if you ask me~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以及，作为饮料的回礼，Honey过来帮我途下防晒油啦。",
+			say = "Oh, I know. In exchange for the drink, can you apply sunscreen on me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然说夏日与大海很搭，但是这阳光……未免实在是太热了。",
+			say = "I love lying in the sunshine as much as the next girl, but I can do without getting sunburned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？感觉Honey的视线一直在向着奇怪的地方瞟呢。",
+			say = "...Whatcha looking at, hmm? My eyes are up here, honey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "泳装……？嘿嘿，果然是被我的泳装给吸引了嘛？",
+			say = "Checking out my swimsuit? So you DO love it♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,11 +244,11 @@ return {
 			},
 			options = {
 				{
-					content = "泳装很漂亮。",
+					content = "\"What can I say? It looks great on you.\"",
 					flag = 1
 				},
 				{
-					content = "泳装有些……太过火辣了。",
+					content = "\"It's a bit... TOO sexy for my liking.\"",
 					flag = 2
 				}
 			}
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟是Honey帮我选的泳衣，那自然是Honey会喜欢的样式啦。",
+			say = "Of course it does. You're the one who picked it out♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "欸？Honey难道忘记了，这身泳装可是你选的了吗？",
+			say = "So you say, but you chose it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "啊~脸红了~！嘿嘿，Honey不会被我迷倒了吧？",
+			say = "Hahaha! You're blushing again~ You've got \"New Jersey has stolen my heart\" written all over your face♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……哇啊！好凉！",
+			say = "...Whuah! That's cold!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的，不声不响就突然袭击……哼哼，开个玩笑啦。",
+			say = "Getting back at me using the glass, huh? Fair enough. Now apply the sunscreen, will you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黏黏滑滑的冰凉感觉……哈，这下子从烈日下得救咯。",
+			say = "Ooh, that's the ticket. Nice and slippery...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来Honey还要做点什么呢？",
+			say = "So, whatcha wanna do next, honey?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			live2d = "expedition",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？嘿嘿~我懂的啦，答案都写在脸上了。",
+			say = "No? Hahaha! I know exactly what you're thinking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过Honey，是听不懂我的意思，还是明明已经明白了，却要故意装出一副没弄懂的样子来呢？",
+			say = "If it's too embarrassing to say out loud then don't. But don't play stupid either.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼~脸红的Honey，也意外地可爱呢~",
+			say = "Oh, honey~ You're so cute when you blush♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			live2d = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "快来我身旁一起做日光浴啦~",
+			say = "Now get comfy next to me and let's sunbathe♥",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_598",
-			say = "夜色渐深，我漫步至泳池边。月光轻抚着静谧水面，照耀着那个熟悉的身影。",
+			say = "As the night wears on, I stroll over to the pool. Moonlight caresses the water's surface, lighting up a familiar silhouette.",
 			bgm = "story-villaisland-night",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			live2d = "login",
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "特拉法尔加正悠闲地趴在吊床上，她惬意地舒展着四肢，平静似水的目光落在我身上。",
+			say = "Trafalgar lies face-down on a hammock, arms and legs stretched out comfortably. Her eyes calmly turn to me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "指挥官，晚上好。真巧，您也来这里散心？",
+			say = "Good evening, Commander. Here to relax like me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "（呼……预先练习很久的开场，顺利说出来了……但是不是太正式了？）",
+			say = "(Phew... I managed to say the line I rehearsed. Did it come out too stuffy, though?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯，散步的时候吹吹海风，顺路就到这儿了。",
+			say = "More or less. I felt like taking a stroll in the sea breeze, and I ended up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			live2d = "touch2",
 			dir = 1,
 			side = 2,
-			say = "今、今晚的星星很美呢，如计划中一样……",
+			say = "U-umm... The stars tonight are as pretty as I'd planned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,18 +112,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "咳、我是说和天气预报说的一样……不要在意。",
+			say = "*cough cough*! I mean, as pretty as the forecast said... Forget you heard that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "度假的时候也会考虑天气因素？不愧是你。",
+					content = "Do you check the forecast on vacation, too?",
 					flag = 1
 				},
 				{
-					content = "星星么……确实很美。",
+					content = "The stars really are pretty.",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "这是我的职责，习惯了……",
+			say = "Well, it's kind of like my job...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "是、是啊……",
+			say = "Th-they are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "（解释得有点生硬，不过特拉法尔加似乎更喜欢独处一些……）",
+			say = "(She's acting a little awkward... Did she come here to be alone?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "那我先不打扰你的独处时光了？好好放松吧。",
+			say = "Sorry to disturb you. Don't mind me, relax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "……？！等、等等……！",
+			say = "Huh?! W-wait!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "指挥官——",
+			say = "Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "怎么？需要我帮忙么？",
+			say = "What? Do you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "……那、那个……是的……不，也不是……",
+			say = "U-umm, yes... I-I mean, no...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "话未说完，特拉法尔加低下头，脸颊微微泛红，空气中弥漫着一种微妙的气氛。",
+			say = "Her words trail off. She lowers her head, and her cheeks flush. A subtle shift fills the air between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "我是喜欢独处……",
+			say = "I do like being alone, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "但其实，我很想拥有和指挥官两个人的独处的时光……",
+			say = "To be honest, I want time with you, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "就像是爱情电影里，两个人可以一起吹吹海风，聊聊天什么的……",
+			say = "Chatting in the sea breeze like lovers in a movie, or...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "听起来应该是一个适合分享彼此秘密的桥段。",
+			say = "Sounds like a nice moment to share some secrets, don't you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "可、可以吗……？！聊天、分享秘密……和指挥官一起。",
+			say = "Y-you mean it?! I get to chat and share secrets with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "当然。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			side = 2,
-			say = "那，这个给指挥官吧~",
+			say = "Okay, this is for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "特拉法尔加轻盈地靠向我身边，将一个饮料杯递到了我的面前，她的指尖在不经意间与我相触。",
+			say = "She leans over to me and hands me a drinking glass. Her fingertip brushes against mine in the process.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -383,7 +383,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "饮料杯中的蓝色液体才堪堪过半，杯口边缘隐隐透着淡粉的唇印。",
+			say = "It's half-full of a blue drink. Pink lipstick marks are faintly visible on the rim.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -398,7 +398,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "这样，指挥官和我分享秘密的时候就不会口渴了。",
+			say = "Now you won't have to get thirsty while we chat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "（一激动模仿了电影里的情节……我其实是喝了一口的……指挥官会发现的吧！）",
+			say = "(I ended up imitating a whole movie scene there... I only took one sip. The Commander's going to notice...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "那、那个！分享饮料不是什么奇怪的事情……！",
+			say = "H-hey, umm! I'm not trying to be weird by sharing my drink, or anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "指挥官要是不想喝的话，就先……",
+			say = "If you don't want to drink it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "等、等等……！指挥官您——还、还直接对着唇印……！",
+			say = "W-wait! Commander, my lipstick is there... Don't drink from that side–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 201381,
 			actorName = "{playername}",
 			live2d = true,
-			say = "嗯，感觉还要聊很久，届时可能还需要再分享一杯。",
+			say = "Mmm. I think we'll be talking for a long time, so I might need a refill before long.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "……！",
+			say = "Ah...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "慌乱的少女渐渐平复了心神，悄然绽放出惊喜的笑容。",
+			say = "Trafalgar's fluster finally subsides, and despite her surprise, she smiles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "好的！",
+			say = "Okay!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "指挥官……如果想更放松的话，不如我们一起……？",
+			say = "If you want to relax, you could join me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女终于鼓起勇气，将这句演练过无数次的邀请说出。",
+			say = "She musters her courage and offers the invitation she'd practiced so many times before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "来，指挥官，抓住我的手，和我一起上来吧……很舒服的……",
+			say = "Take my hand and come up here with me. The hammock is comfy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "担心吊床会坏？放心，这是我特意为您，咳，特意精挑细选的……",
+			say = "You're worried it might break? It's okay. I chose this just for you... Ahem, I mean, for its durability...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "唔……两个人在上面果然还是有点窄……",
+			say = "Mm... It is a little cramped with the two of us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "小心指挥官——抱紧我……",
+			say = "Be careful, Commander. Hold me tight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "……指挥官的安全才是第一位，所以……我不会松开手的，也不会让您掉下去的。",
+			say = "Your safety comes first... I won't let go, and I won't let you fall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "……对了，刚刚您说……要分享秘密什么的……",
+			say = "Umm... You mentioned sharing secrets before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "特拉法尔加愈发靠近，她的呼吸轻轻拂过我的脸颊，带着一丝暖意。",
+			say = "Her breath brushes on my cheek, warming my skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			live2d = "headtouch",
 			dir = 1,
 			side = 2,
-			say = "我很想知道您的秘密。",
+			say = "I... want to know your secrets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 201381,
-			say = "请与我分享吧……",
+			say = "Please tell me everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 201381,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "夜色温柔，海风轻拂，轻声的耳语唯有大海聆听。",
+			say = "On this quiet night, only the ocean hears our whisperings carried by the sea breeze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

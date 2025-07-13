@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"突如其来的罗曼史\n\n<size=45>二　约定太多啦</size>",
+					"A Whirlwind Romance\n\n<size=45>2 Too Many Appointments</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "（相比刚刚担任秘书舰的时候，已经差不多熟悉房间内各种办公用品和文件的位置了——）",
+			say = "(Compared to when I first began my secretary work, the location of the supplies and documents in the office had become almost second nature to me.)",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，关于前几天提交给指挥部的报告书……",
+			say = "Commander, speaking of the report that we submitted to the Naval HQ a few days ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "――――咚咚",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，有客人来访么……请问是哪位？",
+			say = "Oh, it seems that we have guests. Who is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的——指挥官！你果然在这里！",
+			say = "Dagnabbit, Commander! You were here all along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！看你这样子肯定是忘记了！上次和上上次也是，放了我鸽子在这里工作！",
+			say = "Ah, I knew it! I can tell from your dopey expression that you forgot all about it! You did this last time, and the time before as well! Forgetting all about me because of your work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请，请先冷静一下，到底发生了什么事？",
+			say = "P-please calm down. What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天这个时间本来跟指挥官约好了一起吃饭的哦！指挥官真是个健忘的人……",
+			say = "We were supposed to get lunch together today, Commander! How could you be so forgetful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉。今天需要指挥官处理的工作堆积如山……",
+			say = "I'm very sorry, but we've had a mountain of work to get through today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系哦，公务繁忙确实没办法，但是至少给句回复嘛——指挥官，下次请好好记住哦。",
+			say = "I know... Can't do anything about that, but— Commander, please make sure you remember next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（就这样继续工作了几小时后——）",
+			say = "(A few hours after that...)",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，关于前几天送到的物资，我有一些在意的地方……",
+			say = "Commander, I noticed something about the last delivery of supplies that arrived a few days ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "――――咚咚",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天的客人不少呢……请问是哪位？",
+			say = "We seem to have a lot of guests today. Who is it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指～挥～官～！为什么到了约好的时间你人却在这里哪呢～！",
+			say = "Com~man~der~!! Why'd you stand me up? You're clearly right here~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是长岛啊。你也一样吗……",
+			say = "...You too, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明明约好了今天这个时间和我一起玩对战游戏的~！幽灵可不会原谅忘记约定的孩子哦~！",
+			say = "You promised that we'd have an epic gaming session today! This ghost won't forgive oathbreakers~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常抱歉，我作为指挥官的秘书舰也向你致歉……总之先消消气吧？",
+			say = "I'm very sorry. As the secretary ship, please allow me to offer my apologies instead. I hope it will be enough for you to calm down?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……既然卡萨布兰卡都这么说了，我也不好继续责怪下去了~",
+			say = "*sigh*... If you're going to say that much, I can't exactly stay mad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（……呼。总算是请回去了。这么一看指挥官的日程管理完全不行啊。）",
+			say = "...*sigh*. Finally, she's gone. Commander, you seem to have some issues with keeping your schedule in order.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（虽然指挥官一直受到舰队同伴们的仰慕，但是像这样的临时爽约和重复约定行为可不行。）",
+			say = "While it is certainly admirable that you've won the admiration of so many here at port, reneging on your agreements, and repeatedly too, is simply unacceptable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……指挥官，不好意思，不过关于刚才的事我有一些想法——",
+			say = "I'm sorry, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（还是下定决心开了口）",
+			say = "(I've decided... I'm going to make this right.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为了今后的工作考虑，之后的日程表就由我来进行管理吧。",
+			say = "From now on, I will manage everything on your schedule. This is also for the sake of our future work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（稍微讲了下关于日程管理的重要性）",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总、总之就是这样，能明白吧？",
+			say = "A-anyway, do you understand how serious this is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（指挥官似乎没有要反驳我的意思……就先这样吧。）",
+			say = "(I suppose my assertiveness left Commander lost for words...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

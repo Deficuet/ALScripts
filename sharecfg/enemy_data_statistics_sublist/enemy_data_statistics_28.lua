@@ -1,8 +1,154 @@
 pg = pg or {}
 pg.enemy_data_statistics_28 = {
+	[90837] = {
+		cannon = 0,
+		name = "New World Fire Ship",
+		type = 16,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		battle_unit_type = 49,
+		durability = 99999,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90837,
+		bubble_fx = "",
+		dodge_growth = 0,
+		icon = "fengfan_zibao",
+		star = 0,
+		fog_fx = "",
+		antisub_growth = 0,
+		rarity = 0,
+		torpedo = 0,
+		luck_growth = 0,
+		icon_type = 16,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		hit_growth = 0,
+		speed = 30,
+		luck = 0,
+		antisub = 0,
+		scale = 200,
+		wave_fx = "danchuanlanghuaxiao2",
+		prefab = "fengfan_zibao",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		nationality = 96,
+		durability_growth = 0,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.112,
+							0.664,
+							0
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							1.283,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.82,
+				0
+			},
+			{
+				0,
+				0,
+				0.358
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[90838] = {
 		cannon = 0,
-		name = "“往日幽影”-护卫舰",
+		name = "Shadow of Old - Corvette",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -155,7 +301,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90839] = {
 		cannon = 0,
-		name = "“往日幽影”-巡航舰",
+		name = "Shadow of Old - Frigate",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -308,7 +454,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90840] = {
 		cannon = 0,
-		name = "“往日幽影”-战列舰",
+		name = "Shadow of Old - Ship of the Line",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -476,7 +622,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90841] = {
 		cannon = 0,
-		name = "“往日幽影”-大型战列舰",
+		name = "Shadow of Old - Man-of-War",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -642,7 +788,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90842] = {
 		cannon = 0,
-		name = "“往日幽影“-快速帆船",
+		name = "Shadow of Old - Clipper",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -802,7 +948,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90843] = {
 		cannon = 0,
-		name = "“往日幽影”-火攻船",
+		name = "Shadow of Old - Fire Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -948,7 +1094,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90844] = {
 		cannon = 0,
-		name = "加里冒险号",
+		name = "Adventure Galley",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1097,7 +1243,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90845] = {
 		cannon = 0,
-		name = "圣马丁号",
+		name = "São Martinho",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1254,7 +1400,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90846] = {
 		cannon = 0,
-		name = "玛丽·西莱斯特号",
+		name = "Mary Celeste",
 		type = 22,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1398,7 +1544,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90847] = {
 		cannon = 0,
-		name = "维达号",
+		name = "Whydah",
 		type = 22,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1542,7 +1688,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90848] = {
 		cannon = 0,
-		name = "金鹿号",
+		name = "Golden Hind",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1691,7 +1837,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90849] = {
 		cannon = 0,
-		name = "埃尔薇菈",
+		name = "Elbing",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1845,7 +1991,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90850] = {
 		cannon = 0,
-		name = "吹雪",
+		name = "Fubuki",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1998,7 +2144,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90851] = {
 		cannon = 0,
-		name = "战忍型驱逐舰",
+		name = "Mass-Produced Ninja Destroyer",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2160,7 +2306,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90852] = {
 		cannon = 0,
-		name = "战忍型轻巡洋舰",
+		name = "Mass-Produced Ninja Light Cruiser",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2322,7 +2468,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90853] = {
 		cannon = 0,
-		name = "战忍型重巡洋舰",
+		name = "Mass-Produced Ninja Heavy Cruiser",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2491,7 +2637,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90854] = {
 		cannon = 0,
-		name = "战忍型战列舰",
+		name = "Mass-Produced Ninja Battleship",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2660,7 +2806,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90855] = {
 		cannon = 0,
-		name = "战忍型航空母舰",
+		name = "Mass-Produced Ninja Aircraft Carrier",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2829,7 +2975,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90856] = {
 		cannon = 0,
-		name = "战忍型自爆船",
+		name = "Mass-Produced Ninja Bombing Ship",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2975,7 +3121,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90857] = {
 		cannon = 0,
-		name = "战忍型潜水艇",
+		name = "Mass-Produced Ninja Submarine",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3126,7 +3272,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90858] = {
 		cannon = 0,
-		name = "战忍机铠-「剑」",
+		name = "Battle Ninja Armor - Sword",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3282,7 +3428,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90859] = {
 		cannon = 0,
-		name = "战忍机铠-「刃」",
+		name = "Battle Ninja Armor - Blade",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3438,7 +3584,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90860] = {
 		cannon = 0,
-		name = "战忍机铠-「爪」",
+		name = "Battle Ninja Armor - Claw",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3594,7 +3740,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90861] = {
 		cannon = 0,
-		name = "战忍机铠-「炮」",
+		name = "Battle Ninja Armor - Cannon",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3750,7 +3896,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90862] = {
 		cannon = 0,
-		name = "战忍机铠-「弓」",
+		name = "Battle Ninja Armor - Bow",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3906,7 +4052,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90863] = {
 		cannon = 0,
-		name = "实验型战忍机铠武装",
+		name = "Tester - Battle Ninja Vessel",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4069,7 +4215,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90864] = {
 		cannon = 0,
-		name = "飞鸟",
+		name = "Asuka",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4226,7 +4372,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90865] = {
 		cannon = 0,
-		name = "斑鸠",
+		name = "Ikaruga",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4382,7 +4528,7 @@ pg.enemy_data_statistics_28 = {
 	},
 	[90866] = {
 		cannon = 0,
-		name = "焰",
+		name = "Homura",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4523,152 +4669,5 @@ pg.enemy_data_statistics_28 = {
 			20,
 			3
 		}
-	},
-	[90867] = {
-		cannon = 0,
-		name = "雪泉",
-		type = 7,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		battle_unit_type = 49,
-		durability = 99999,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90867,
-		bubble_fx = "",
-		dodge_growth = 0,
-		icon = "xuequan",
-		star = 0,
-		fog_fx = "",
-		antisub_growth = 0,
-		rarity = 0,
-		torpedo = 0,
-		luck_growth = 0,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		scale = 150,
-		wave_fx = "movewave",
-		prefab = "xuequan",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 110,
-		durability_growth = 0,
-		antiaircraft = 0,
-		antiaircraft_growth = 0,
-		armor_type = 2,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.24,
-					1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.481,
-					1.049,
-					0
-				}
-			},
-			plane = {
-				{
-					1.48,
-					1.081,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
 	}
 }

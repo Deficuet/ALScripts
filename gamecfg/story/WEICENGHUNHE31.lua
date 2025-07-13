@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "轰----！",
+			say = "BOOOOM!",
 			dir = 1,
 			bgm = "hunhe-boss",
 			flashN = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "这个战斗能力和防护力，果然不能单纯当成潜艇来对待…！",
+			say = "Can you still call that a submarine?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "把这种拥有舰载机群、大口主炮和无数鱼雷管，还有超强护盾存在的东西，硬分类成潜艇我也无法接受啊…",
+			say = "She has aircraft, main batteries, torpedoes, and a shield?! Isn't that kit way too overloaded?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毫无疑问，是强敌…！",
+			say = "Without a doubt, this is a formidable enemy...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			actor = 107110,
 			dir = 1,
-			say = "大家再加把劲，我感觉差一点点就能击穿它的护盾了！",
+			say = "But, our attacks are working! If we keep attacking, we'll be able to get through that pesky shield!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 900234,
 			dir = 1,
 			actorName = "？？？",
-			say = "警告，护盾即将过载。模式切换。潜航模式，ON。",
+			say = "Overheating imminent. Changing modes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			actor = 107090,
 			dir = 1,
-			say = "舰装正在……变形？不好，敌人想下潜到水面之下！",
+			say = "Her rigging is transforming?! She's about to dive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然它的护盾快撑不住了！休想得逞，起飞准备完成——舰载机队，去吧！Roll out！",
+			say = "As if I'd let you! Planes, roll out!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里诺和马布尔黑德掩护无畏前进，蓝鳃鱼，去水下尽可能阻拦敌人下潜！",
+			say = "Reno, Marblehead, back Intrepid up! Bluegill, stop her from finishing her transformation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到~包在我身上。",
+			say = "Got it! Just leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的巴拿马要塞可不是塞壬想来就来想走就能走的地方。今天一定要让你为进攻行为付出代价！",
+			say = "You're the one who attacked the stronghold and abducted Enterprise... I won't let you get away!",
 			effects = {
 				{
 					active = true,

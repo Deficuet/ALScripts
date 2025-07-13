@@ -12,7 +12,7 @@ return {
 			actor = 603020,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呜…明明只是艘老旧的船骨头，居然还这么难缠",
+			say = "How is this granny so hard to deal with... What was that attack...?",
 			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "厌战额头的青筋蹦起了一下",
+			say = "As one of the Royal Navy's most esteemed warriors, Warspite easily won her duel. However, Zara's verbal assault did hit its mark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "为什么你能在这样漆黑的夜晚还射得那么准啊…",
+			say = "How are you aiming so well in the middle of the night?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "作弊，皇家的战舰在决斗中作弊啦！！",
+			say = "Ugh... This has to be some kind of cheat...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,10 +71,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "胜负已分，两位女士就请不要再阻拦在下去路了",
+			actorName = "Warspite",
+			say = "Heh. Allow me to teach you something I've learned from my many years of service as a warrior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,10 +88,10 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "{namecode:526}女士、波拉女士，在我多年的征战生涯里发现，战舰的性能并不是决定胜负的关键…",
+			actorName = "Warspite",
+			say = "And that is, the key to a ship's performance is not her raw combat prowess, nor is it through adhering to the service history imprinted within you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,10 +105,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "还是要拥有一颗正直勇敢的心灵以及多年的经验积累",
+			actorName = "Warspite",
+			say = "Rather, it is through constantly challenging yourself and pushing your limits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,10 +122,10 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "作为一个长者，我就要告诉你们……",
+			actorName = "Warspite",
+			say = "That is the source of the Royal Navy's strength. I wouldn't mind sharing some of my experience with you should you care to listen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,10 +139,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "……",
+			actorName = "Warspite",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,10 +156,10 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "诶，人呢？！",
+			actorName = "Warspite",
+			say = "Hey... Where'd you go...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "厌战猛一抬头才发现两艘{namecode:526}级巡洋舰已经飞速驶离了射击范围",
+			say = "Warspite looked up to find the Zara sisters had already steamed out of range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "我们才不要听你长话连篇呢，哔哔——",
+			say = "Sorry, but we got tired of listening to your senile rambling. Pola, the communications...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:526}朝愣在原地的厌战摆了个鬼脸",
+			say = "While taunting Warspite, Zara gestured in the direction that Formidable headed and relayed her instructions to Pola.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,12 +222,12 @@ return {
 			}
 		},
 		{
-			actor = 205029,
+			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厌战",
+			actorName = "Warspite",
 			dir = 1,
-			say = "啊…等，等等！！",
+			say = "Wait... Get back here!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "通知三妹四妹，有一艘航空母舰和一支轻巡部队漏过了防守线，正在朝“卡拉布里亚的宝石”驶去",
+			say = "Let everyone know. One aircraft carrier and her escort fleet broke through our lines... and are headed for the Jewel of Calabria.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			actor = 603020,
 			dir = 1,
-			say = "皇家的战舰似乎装备了新型的夜战装备，能够在黑夜中精确射击，请务必小心",
+			say = "We've managed to waste some of Warspite's time, but she seems to have some new night battle technique. Please use caution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "我们正在全速前往拦截，希望能够汇合击破！",
+			say = "I'll now move to intercept them. Glory to Sardegna.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "了解…电报发送中，哔哔哔哔——",
+			say = "Hehe... Now Veneto will know. All right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,10 +312,10 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "呼呼，真是的…现在的孩子们速度一个比一个快，呼...已经完全跟不上了",
+			actorName = "Warspite",
+			say = "Mercy... they got away. Kids these days just keep getting faster and faster. I can't keep up anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "厌战拖着沉重的身躯在黑夜中缓慢的前进着",
+			say = "Warspite dragged her weighty hull slowly but surely through the night, trailing the heavy cruisers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
+			actor = 900199,
 			dir = 1,
-			actorName = "厌战",
-			say = "如果....等这场战斗结束后，能进行一次彻底的现代化改装就好了，嘿嘿嘿",
+			actorName = "Warspite",
+			say = "It would be grand if Her Majesty would grant me a retrofit after this operation. Haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

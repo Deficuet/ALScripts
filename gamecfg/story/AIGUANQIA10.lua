@@ -8,9 +8,9 @@ return {
 			actor = 10400020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "绊爱",
+			actorName = "Kizuna AI",
 			dir = 1,
-			say = "呼～总算是平安无事地解决了呢！",
+			say = "Phew, we managed to make it through without taking much damage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲，想要看看真正的演唱会",
+			say = "I ... want to see a real concert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}也想看，的说",
+			say = "Ayanami too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也想～！爱酱，这场战斗结束以后，能去参加你的演唱会吗♪",
+			say = "Me three~! AI, when this battle is over, you should invite us to your concert~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "当然！我会为你们唱好多歌的哦～♪",
+			actorName = "Kizuna AI",
+			say = "Of course! I have a lot of songs ready~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太好了～！什么时候我们也能练练唱歌，然后开个演唱会就好了呢！",
+			say = "Yay~! Also, we want to practice the songs so we can maybe get up on stage too~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……不过要达到开演唱会的水准的话，可是得每天都要努力练习的哦？",
+			say = "Perhaps. But we'd have to work hard at it every day",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样吗～＞＜标枪会加油的！",
+			say = "I suppose you're right... I'll give it my all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，这就是“卖萌模式”吧！",
+			say = "I see, I see! This must be that \"lovey dovey mode\" I've read all about!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官听到一定也会很高兴的",
+			say = "I think Commander would be very pleased with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "才、才才才才不是呢！不是这样啦——！",
+			say = "W-w-w-wait~! It's not like that~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,8 +188,8 @@ return {
 			nameColor = "#a9f548",
 			actor = 10400020,
 			dir = 1,
-			actorName = "绊爱",
-			say = "哦哦，这就是青春的感觉…真好……！",
+			actorName = "Kizuna AI",
+			say = "Ahh, this is what youth is all about... how nice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，大家看来都休整好了，补给完以后就向着下一个海域出发吧",
+			say = "Now that everyone has had a chance to calm down, let's resupply and head towards the next zone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,10 +216,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "全员",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是～～",
+			say = "Aye aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

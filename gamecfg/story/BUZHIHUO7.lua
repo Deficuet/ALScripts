@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=45>七　看板娘的真心·下</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 7: The Shopkeeper's True Feelings (Pt 2)</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·医务室",
+			say = "Port - Infirmary",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "稍微想一想就明白了喵~",
+			say = "You'll understand if you think about it a little, Nyaa~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:98}的店也好，{namecode:20}的店也好，虽然内容全都是军部供应，也需要指挥官自己掏钱购买喵。",
+			say = "Whether it's Akashi's store or Shiranui's store, Commander still has to pay for everything out of pocket even though all the wares are supplied by the military, Nyaa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "但是这些最后还是会转化成建设舰队的资源喵。",
+			say = "However, these will all eventually turn into resources used to build up the fleet, Nyaa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所以对{namecode:98}和{namecode:20}来说，商店的工作，也是能帮到指挥官的喵！所以{namecode:20}才会那么努力喵！",
+			say = "For Akashi and Shiranui, working at the store is also for the sake of helping out Commander! That's why Shiranui is capable of working so hard,Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你话太多了，蠢猫。",
+			say = "Loose lips sink ships, dumb cat.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "而且{namecode:20}虽然嘴上不说，能担任秘书舰也是很开心的喵！",
+			say = "And although she won't admit it, Shiranui is very happy to have been chosen for secretary, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所以对她来说，两边她都是绝对不会放弃的喵~",
+			say = "So for her, she would never be able to give up one or the other, Nyaa~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "因为两边都是能帮到最喜欢的指挥官喵！",
+			say = "Because both are for the sake of her beloved Commander, Nyaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蠢猫，看起来你今天是皮痒了……",
+			say = "This dumb cat seems to be itching for a beating today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喵哈哈，{namecode:98}就说到这里了喵，接下来就交给指挥官了喵！",
+			say = "Nyaa~ ha ha, that's all Akashi has to say for today! Commander, the rest is up to you, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "房间里顿时陷入了一阵尴尬的沉默。",
+			say = "The room suddenly fell into an awkward silence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官，蠢猫的话你不用想太多，我自己处理得好。",
+			say = "... Commander, you shouldn't dwell too much on what that dumb cat said. It's best if I handle things by myself.",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			},
 			options = {
 				{
-					content = "认真道歉",
+					content = "Apologize seriously",
 					flag = 1
 				}
 			}
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都说了，没关系的……",
+			say = "I already told you, it's fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我只是做了我应该做的事而已。",
+			say = "... I'm only doing what I ought to be doing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示以后一定会帮忙的",
+					content = "Promise that you'll definitely help out in the future",
 					flag = 1
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………呼，真是个笨蛋。…想帮就随你吧…",
+			say = "... ... ... ... ... *sigh* What an idiot. Whatever... do as you please...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就是因为这样，我才……",
+			say = "It's because you do stuff like this... I couldn't help but to... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "坐在病床上的{namecode:20}叹了口气，不过她的嘴角，似乎微微勾了起来。",
+			say = "Shiranui, sitting atop the sickbed, let out a sigh. However, ever so faintly, the corners of her lips seemed to curl upwards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "回想起来，这应该是第一次，真正看到她的笑容。",
+			say = "Looking back, this was the first time I had ever seen her smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>耀眼的波纹</size>",
+					"Invitation of the Wind\n\n<size=45>2 Shimmering Triangle Wave</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "行走在海边，清晨的海风让人感到格外清爽。",
+			say = "Awash in the morning sea breeze, I stroll along the beach.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "不过，似乎有人已经提前来到了这个绝好的观景位置。",
+			say = "But I run into someone else who's already beat me to seeing the sights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呼，海风吹得真舒服啊~",
+			say = "Ahh, the breeze is lovely...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，再过几天就要在指挥官面前……",
+			say = "In a few days, the Commander and I...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "早上好，海伦娜。",
+					content = "\"Good morning, Helena.\"",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早上……好？",
+			say = "Good... morning?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "指指指挥官！您、您怎么这么早就到海边来了！",
+			say = "C-Commander?! Why are you here right now...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "（SG，为什么不提醒我指挥官靠近了？！）",
+			say = "(SG, why didn't you tell me the Commander was coming?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（我，我还完全没做好心理准备……！）",
+			say = "(I'm not mentally prepared for this...!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "今天预定要处理的工作有些多，所以早起了些。",
+			say = "\"I have a lot of work to do today, so I woke up early...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "就算如此……现在这个时间也太早了一些。",
+			say = "W-well, you woke up too early.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，我也是这么想的。",
+			say = "\"Now that you mention it, I thought so, too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过已经起来了，就顺便来欣赏一下日出。",
+			say = "\"But I didn't think too much of it. Instead, I just decided to come watch the sunrise.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "海伦娜也是来看日出的么？",
+			say = "\"Did you wake up early to see the sunrise, too, Helena?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "是……是吧……大概……",
+			say = "Y-yeah... Maybe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（就算来看日出，也不用一个人穿泳装出来看……）",
+			say = "(You wouldn't need to change into a swimsuit just to see the sunrise.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，清晨的海风还是有些凉的，穿泳装来的话要小心着凉。",
+			say = "(The morning breeze is kind of chilly. I'm a little worried Helena will catch a cold out here in that swimsuit.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "咦！？指、指挥官？您注意到我的泳装了？",
+			say = "C-Commander? Are you interested in my swimsuit?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那是当然，很可爱。",
+			say = "\"Of course I am. It looks really cute on you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "可爱么……",
+			say = "Cute...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（欸，如果指挥官能夸我漂亮而不是可爱，就好了……）",
+			say = "(I would've liked it better if you said pretty, but...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（并不是说可爱不好，只是如果是漂亮的话………当，当然，要是两边都夸也……）",
+			say = "(Oh, not that I hate to be called cute... O-of course, I don't want to force the Commander to say anything, so either is... Ummm...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "——当然，也很漂亮。",
+			say = "\"Of course, you're pretty, too.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "啊呜……………谢，谢谢。",
+			say = "Oh... Thank you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "true",
-			say = "咳、其实……指挥官……",
+			say = "The thing is, um, Commander...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "我……并不是来看日出的……",
+			say = "I didn't come to watch the sunrise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "几日后的郊游，不是说好要一起下海游泳么……",
+			say = "Do you remember our promise to go swimming in a few days?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那也就是说……要，穿泳衣。",
+			say = "Umm, basically, I'll need to be in a swimsuit then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……原本觉得穿泳装并不是什么害羞的事，但一想到是在指挥官面前的话……",
+			say = "At first, I thought I'd be fine, but the thought of you seeing it...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "心里总有些忐忑……",
+			say = "It's so embarrassing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以想要提前来海边适应一下……",
+			say = "So I decided to come to the beach wearing it in advance, as a kind of practice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没想到指挥官居然也提前来到了海边……",
+			say = "I had no idea I'd run into you here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实，今天工作这么多的原因……也是为了后面的郊游想把工作提前做完。",
+			say = "\"Let me be honest. I'm so busy today because I want to get things done and make time for you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "原来是这样……真是巧呢……",
+			say = "Wh-what a coincidence...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……能在这里遇到身穿泳装海伦娜，感觉在不经意间就已经进入假日之中了。",
+			say = "\"Now that we've run into each other here, it almost feels like a rehearsal for my day off.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "如果要当成假日的话，现在这样，还不太够呢……",
+			say = "I don't know if this would be close enough to count...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，清晨的海风好像有些凉，我可以……离您再近一些么。",
+			say = "Achoo! Sorry... Commander, could you come a little closer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "再近一些，近到能感受你温度的位置……",
+			say = "Close enough that I can feel your body heat...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "嗯……这样，就有假日的感觉了。",
+			say = "Hmm... Maybe this does feel like our day off, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "太阳越升越高，海平面的光芒变得闪耀起来。",
+			say = "The sun rising on the horizon dyes the sea gold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女的笑容与波光粼粼的海面交相辉映，放射出耀眼的波纹。",
+			say = "Her dazzling, joyful smile is the perfect complement for the shining sea ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

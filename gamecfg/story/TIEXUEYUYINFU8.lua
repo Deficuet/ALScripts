@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"第三乐章\n\n<size=45>「欢乐与激情～Von den Freuden und Leidenschaften～」</size>",
+					"Fourth Movement\n\n<size=45>Passion, Joy, and Suffering</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "bsm-5",
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "{namecode:435}大人，{namecode:435}大人请等一下！！",
+			say = "Captain Bismarck! Captain Bismarck, please wait!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "是潜艇部队的孩子呀，{namecode:435}向你献上晨间的问候",
+			say = "Ah, the little submarine. Good morning to you.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,7 +86,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:435}大人，您昨日的演讲实在太令人兴奋了，我一生都会牢记您的英姿的！！",
+			say = "Hey, um! Your performance yesterday was absolutely fantastic, and I will never ever in my whole life forget it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "唔..",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:435}大人，{namecode:435}大人！请问您能答应我的一个请求吗？",
+			say = "A-also! Captain Bismarck, I was hoping I could ask you for a small little favor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "嗯？",
+			say = "What would that be?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "那个，今天哦，就是今天，我终于正式服役啦！",
+			say = "T-thank you for hearing me out! You see, I just entered service today! I was hoping you could, uh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "从今天开始我就是一个伟大的铁血水下骑士了，嘿嘿嘿，厉害吧！？",
+			say = "Like in one of my fairy tales! \"Starting today, U-556 shall gallop across the seas, much like the honorable knight Sir Parzival did!\" ... H-how does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "祝贺你，希望你能够为铁血尽忠职守，争取最大的战果",
+			say = "Congratulations. Do your utmost in servitude to Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "那个那个，作为伟大的水下骑士，在即将踏上征途的这个时刻~",
+			say = "No, no, I meant, like... Um, I know this is reeeeaaally improper of me to ask, and I'm sorry for even considering being so rude as to do it anyway, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "如果能得到{namecode:435}大人的祝福，我一定会更加努力的！！",
+			say = "I was hoping you could give me your blessings! If so, I'd be able to push myself to my absolute limits in my missions on the front!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "唔..",
+			say = "……………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "对了，对了，先让我给您表演一个绝技看看！",
+			say = "I-I know! I'll show you my special trick!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "倒立潜水！！",
+			say = "Look! It's a water handstand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "话音刚落，{namecode:416}一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽",
+			say = "U-556 did a backflip and plunged deep below the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "噗",
+			say = "... Pffft...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "一向紧绷着神情的{namecode:435}突然笑了起来",
+			say = "The strange yet humorous trick was able to bring a smile even to Bismarck's lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:435}大人？",
+			say = "Captain... Bismarck?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "没什么，只是觉得你这个小机灵怪和其他孩子不太一样，究竟是为什么呢（微笑",
+			say = "Pardon, I'm just a little awestruck by how different you are to everyone else I've met.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "姐妹们总是说{namecode:435}大人看起来很凶神恶煞的样子，都不敢接触您",
+			say = "I've heard from some people that you're really reserved and hard to approach, Captain Bismarck...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "其实一点也不会呢~居然肯跟我这艘小小的潜艇聊天，{namecode:435}大人对我们很亲切！",
+			say = "But that's not the case at all... You don't have trouble talking even to a submarine like me! In fact, you're actually really friendly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "…在孩子们的眼中我是这样的形象吗？真是有点失落呢",
+			say = "(... Is that... how people view me? That's... rather disheartening.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "{namecode:435}微低头，思索了一下",
+			say = "The thought of it made Bismarck's smile disappear. She turned to U-556, whose head was poking out of the water, to say her goodbyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "呵，我明白了，你的请求我收到了",
+			say = "I've heard your wish. Now then, if you'll excuse me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "说完，{namecode:435}转身离开，{namecode:416}泡在水面上目送她的离去",
+			say = "Bismarck departed, leaving U-556 all to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "次日",
+			say = "Then, on the following day...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -538,7 +538,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:416}，怎么了…看起来有点失落的样子",
+			say = "556, what's the matter? ... You don't look very happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "唔…",
+			say = "Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:435}大人说好要来给我们送上祝福的，可是现在马上就要出征了却…",
+			say = "Captain Bismarck promised she'd come back to give her blessings, but she's still not back yet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:435}大人事务繁多…不会记得这种小事的",
+			say = "Captain Bismarck is probably very busy... I doubt she'd remember a promise like that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "唔…说得也是，看来只能努力争取战绩…让{namecode:435}大人亲自给我佩戴橡叶勋章了！",
+			say = "Yeah... you're right. I'll have to prove myself in battle, that way Captain Bismarck will one day bestow me with the Knight's Cross with Oak Leaves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "嗯！我们可是铁血伟大的水下骑士！",
+			say = "That's it! The Knight's Cross with Oak Leaves! That's only fitting for me, Parzival of The Seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "潜艇{namecode:416}，准备出击！",
+			say = "I've formed a plan, and I'm gonna execute it! Submarine U-556, setting sa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "就在此时，港口边传来了欢乐的音乐声",
+			say = "U-556 noticed there were Manjuu gathering just within her sight. Then, a familiar face approached her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "就在今日，伟大的铁血海军又迎来了一位新的战士！",
+			say = "One of our newest Iron Blood comrades will soon head into her first battle.",
 			bgm = "bsm-7",
 			typewriter = {
 				speed = 0.05,
@@ -687,7 +687,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "她们虽然娇小，但却是公国最尖锐的矛，敌人最恐惧的噩梦",
+			say = "Though she may be small, her talents and reliability are second to none.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "她们就是我们强大的潜艇部队，她们是铁血伟大的水下骑士！",
+			say = "Now I, Bismarck, as the representative of the Iron Blood fleet, shall offer her my blessings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "让我们为小小骑士们的出征献上最高的祝福，愿她们取得丰硕的战果！",
+			say = "Submarine U-556! Your success shall echo to the ends of the earth, and your reputation shall invoke fear within our enemies! May the God of war be with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "军乐队，奏曲！",
+			say = "Fanfare band, begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "海岸边，{namecode:435}的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着{namecode:416}的出击",
+			say = "The band made up of Manjuu began playing a song which wishes success to a soldier departing to the front.",
 			effects = {
 				{
 					active = true,
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "这是此时世界上最大的在役战列舰，对一艘小小潜艇的祝福",
+			say = "The largest battleship in all of the world was offering her blessings to a small submarine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,12 +788,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "{namecode:435}大人，我就知道您会来的！",
+			say = "Captain Bismarck...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "{namecode:435}稍稍露出微笑",
+			say = "Standing before Bismarck, the woman she adored, U-556 was determined to say one thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,29 +820,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
-			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
-			dir = 1,
-			useBg2 = true,
-			say = "{namecode:435}大人，{namecode:435}大人，我还有个请求请问您能答应吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "你这孩子可真是没完没了呀，说吧",
+			say = "Captain Bismarck, i-if you'll please forgive me, I have one more favor to ask...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,12 +837,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我能叫你{namecode:435}姐姐吗？",
+			say = "My, you're a greedy child. What favor do you ask of me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,12 +854,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "唔…嗯？",
+			say = "Please... allow me to call you \"Lord\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,27 +871,12 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_bsm_1",
-			dir = 1,
-			useBg2 = true,
-			say = "出乎意料的请求让{namecode:435}顿了一下",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫你{namecode:435}姐姐吗！？",
+			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,12 +888,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			bgName = "bg_bsm_1",
+			dir = 1,
+			useBg2 = true,
+			say = "Not even Bismarck could help being confused by this unexpected request.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "这……",
+			say = "It's to express my gratitude and respect for you! ... Um, may I please call you \"Lord Bismarck\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -937,12 +920,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "好吧",
+			say = "Well... I suppose why not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,12 +937,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "{namecode:435}姐姐！",
+			say = "L-Lord Bismarck! I'm incredibly grateful!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,12 +954,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "唔…",
+			say = "(... Dear me...) ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -991,7 +974,7 @@ return {
 			bgName = "bg_bsm_1",
 			dir = 1,
 			useBg2 = true,
-			say = "这是{namecode:435}第一次听到这个称呼，脸上甚至突然泛起了红晕",
+			say = "(Nobody has ever called me something that flattering before... a-am I blushing?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,44 +986,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
-			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
-			dir = 1,
-			useBg2 = true,
-			say = "{namecode:435}姐姐，在出征前，我有个礼物要送给你！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_bsm_1",
-			dir = 1,
-			useBg2 = true,
-			say = "{namecode:416}递过一张有着文字和涂鸦的纸张，{namecode:435}接了过来",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "这是？…",
+			say = "Ah, also, I was hoping I could give you this before I depart, Lord Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1052,12 +1003,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			bgName = "bg_bsm_1",
+			dir = 1,
+			useBg2 = true,
+			say = "U-556 took out a slip of paper and handed it to Bismarck.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "这是我昨晚写下的保证书哦~",
+			say = "What's this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,12 +1035,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "以水下骑士之名，{namecode:416}必定会遵守誓言，守护{namecode:435}姐姐！",
+			say = "It's a certificate of sponsorship which I wrote yesterday!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,27 +1052,12 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_bsm_1",
-			dir = 1,
-			useBg2 = true,
-			say = "{namecode:435}露出了微微的笑容",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:416}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "啊呀不好，出击的时间被耽搁了…{namecode:435}姐姐，我得先出发了！",
+			say = "I hereby pledge always to protect Lord Bismarck, no matter when and no matter where!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1118,12 +1069,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:416}",
+			bgName = "bg_bsm_1",
+			dir = 1,
+			useBg2 = true,
+			say = "Bismarck's lips gently parted, after which she turned to U-556 and nodded.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "我们未来一定会再见面的！潜艇{namecode:416}，出击！",
+			say = "Ah, sorry, I forgot! I have to sortie now! ... Lord Bismarck, I must take my leave!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,27 +1101,12 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_bsm_1",
-			dir = 1,
-			useBg2 = true,
-			say = "说完，{namecode:416}再次一个倒身翻滚潜入了港口的水里，消失了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "U-556",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "妹妹吗...似乎也不错呢…",
+			say = "We'll have to talk more next time! ... U-556, weighing anchor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,12 +1118,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "……",
+			say = "U-556 got on her rigging and joined U-557 as they disembarked from the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,12 +1133,46 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:435}",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_1",
 			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
-			say = "不知道{namecode:436}的训练工作进行到哪了…",
+			say = "So she has a little sister... Isn't that nice...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Bismarck",
+			bgName = "bg_bsm_1",
+			nameColor = "#ffde38",
+			dir = 1,
+			useBg2 = true,
+			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Bismarck",
+			bgName = "bg_bsm_1",
+			nameColor = "#ffde38",
+			dir = 1,
+			useBg2 = true,
+			say = "I wonder if Tirpitz is okay...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,28 +1192,24 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>保证书</size>",
+					"<size=60>I, U-556, hereby declare before Neptune, Lord over oceans, seas, lakes, rivers, brooks, ponds, and rivulets,</size>",
 					1
 				},
 				{
-					"<size=60>无论在海洋、湖泊、河流还是小溪</size>",
+					"<size=60>that I will provide any desired assistance to my ally and Lord, battleship Bismarck,</size>",
 					4
 				},
 				{
-					"<size=60>{namecode:416}都将帮助她的姐姐{namecode:435}击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>at any place on the water, under water, on land, or in the air.</size>",
 					6
 				},
 				{
-					"<size=60>无论在任何地方，如果{namecode:435}姐姐不幸受伤</size>",
+					"<size=60>Signed: U-556, Parzival of The Seas</size>",
 					8
 				},
 				{
-					"<size=60>哪怕是用拖，{namecode:416}也要把她的姐姐拖回港口</size>",
+					"<size=60>At the bottom, U-556 had made a drawing of herself towing her Lord Bismarck back to port.</size>",
 					10
-				},
-				{
-					"<size=60>                                                 ——水下骑士{namecode:416}</size>",
-					13
 				}
 			}
 		},
@@ -1243,7 +1222,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 204010,
 			nameColor = "#a9f548",
-			say = "皇家舰队H舰队所属——声望号战列巡洋舰，奉命拦截贵舰，请放弃无谓的抵抗",
+			say = "I am Renown, battlecruiser of the Royal Navy's Force H! I am here because of your ambush on our ships! Cease your meaningless resistance at once!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -1308,7 +1287,7 @@ return {
 			nameColor = "#ffde38",
 			actor = 405010,
 			dir = -1,
-			say = "可恶…被新的部队拦截了吗",
+			say = "Gah...! These new recruits of theirs...!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1356,7 +1335,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家已经发动了总动员，整个皇家舰队的战舰都在往此处赶来，你是没有机会逃脱的",
+			say = "The Royal Family's most capable ships are heading this way en masse! I will not let you flee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1372,7 +1351,7 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "你们似乎忽略了一点",
+			say = "... It seems there's one thing you've forgotten.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1387,7 +1366,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "我自设计之初的定位，就不是与你们正面交手，破交战才是我的强项",
+			say = "A confrontation may slow me down, but I have the advantage in this situation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1403,7 +1382,7 @@ return {
 			side = 2,
 			actor = 405010,
 			dir = -1,
-			say = "这样的战斗可正是我所期待的！全速前进，拉开距离！",
+			say = "I'm afraid I'll have to deal with you! Engines, full speed ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1418,7 +1397,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然和预期的一样，这家伙是不会束手就擒的",
+			say = "She's resisting, just as I figured she would!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1433,7 +1412,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "想要拦截这个怪物，必须得先减慢她的航速",
+			say = "Let's do precisely what King George V said and slow her down!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1449,7 +1428,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/plane",
 			dir = 1,
-			say = "剑鱼818中队出击！目标，{namecode:435}！",
+			say = "Swordfishes, launch! Capture Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

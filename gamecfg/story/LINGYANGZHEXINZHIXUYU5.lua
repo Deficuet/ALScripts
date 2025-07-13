@@ -11,12 +11,12 @@ return {
 			actor = -2,
 			side = 2,
 			bgName = "bg_project_oceana_room1",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			bgm = "qe-ova-4",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，{tb}~",
+			say = "Hey, {tb}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看到冰箱里还有草莓蛋糕……",
+			say = "There's still strawberry cake left in the fridge, isn't there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,12 +59,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			important = true,
 			hidePaintObj = true,
-			say = "反正都是给我准备的，现在吃掉也无所谓吧？嘻嘻~",
+			say = "I'm gonna eat it sooner or later, so it's no harm if I eat it now, right? Heehee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "还没到点心时间",
+					content = "It's not time for desserts yet.",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "一起吃吧！",
+					content = "Let's eat it together!",
 					type = 2
 				}
 			}
@@ -87,12 +87,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切，小气鬼！",
+			say = "Tsk! You're so stingy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			dynamicBgType = -2,
-			say = "吃太多甜食对牙齿不好，要克制一点。",
+			say = "Too much sweet food is bad for your teeth. You'll have to control yourself a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,12 +117,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，{tb}一点都不懂少女心。",
+			say = "Seriously? You just don't understand how a girl's mind works!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,12 +133,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是意外的回答呢~",
+			say = "Wow, I wasn't expecting that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			dynamicBgType = -2,
-			say = "偶尔放纵一下也没关系。",
+			say = "There's nothing wrong with treating yourself once in a while.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,12 +163,12 @@ return {
 			side = 2,
 			bgName = "bg_project_oceana_room1",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~看来{tb}也是个贪吃鬼呢。",
+			say = "Heheh. Spoken like a true glutton!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

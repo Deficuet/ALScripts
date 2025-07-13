@@ -2,16 +2,13 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DGIFTFEEDBACK3",
 	alpha = 0,
+	id = "DORM3DGIFTFEEDBACK3",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
-			say = "没想到{dorm3d}您会送天狼星这本书呢，一定是天狼星的觉悟还不够……！",
+			say = "You'd give me this book? That must mean that my lack of determination has caused trouble for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +31,7 @@ return {
 			}
 		},
 		{
-			say = "天狼星一定会好好研读这本书，成为让{dorm3d}赞不绝口的完美女仆！",
+			say = "I vow to read this book from cover to cover and become the perfect maid that you can be proud of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

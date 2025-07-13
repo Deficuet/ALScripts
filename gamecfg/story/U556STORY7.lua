@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>七　约定！</size>",
+					"A Knight's Promise\n\n<size=45>Chapter 7 - It's a Promise!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "明天去海边玩？",
+			say = "We're going to the beach tomorrow?",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -65,7 +65,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实有过这样的约定来着……但是，这样真的好吗？这个想法只是我那天一时任性提出来的，指挥官其实可以不用特地陪我的啦。",
+			say = "I mean you did promise me... But you really don't have to. I mean, it was just a silly idea I came up with, Commander, you don't need to waste your day off keeping me company.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“因为是约定”……真的没问题吗？那，那就明天见！嘿嘿~",
+			say = "Keeping a promise is that important to you, huh? Well okay then I'll see you tomorrow! Eheheh~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大海！我来了！",
+			say = "The open sea. I have arrived!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -138,7 +138,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦呼！",
+			say = "Ahahahahaaa!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "{namecode:416}以迅雷不及掩耳之势钻入了海中",
+			say = "U-556 launched herself into the ocean like a torpedo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！这边这边！",
+			say = "Commander! Come on in! The water's fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			say = "……今天就尽情放松一下吧",
+			say = "It was my day off. I figured I'd let myself go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，你太慢啦！",
+			say = "Ahahaha! You're too slow, Commander!",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -242,7 +242,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿！指挥官，尝尝海水的味道！",
+			say = "I'm gonna get you, Commander! Hope you're ready to taste seawater!",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官号驱逐舰反潜作战失败！{namecode:416}号开始反击！",
+			say = "Navy Destroyer \"Commander's\" anti-submarine warfare operations have failed! U-556 moves into counterattack position!",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			say = "不知不觉就到太阳落山的时间了",
+			say = "Time flies when you're having fun. And before I knew it, the sun was setting.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -351,7 +351,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没想到今天和指挥官玩了一整个下午呢。",
+			say = "I never thought I'd get to spend the whole afternoon playing with you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官觉得开心吗？",
+			say = "Did you have fun?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，{namecode:416}也非常开心！",
+			say = "Eheheh~♪ ... Me too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是{namecode:435}姐姐也在就好了呢。",
+			say = "If only Lord Bismarck could've come with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,12 +411,13 @@ return {
 			}
 		},
 		{
-			actor = 408040,
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			actor = 408040,
 			dir = 1,
-			say = "…………指挥官，可以稍微听我说说么？",
+			nameColor = "#a9f548",
+			say = "... Hey, Commander, can I ask you something?",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -428,46 +429,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 408040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "…我已经明白了。我和{namecode:435}姐姐的约定并不是虚无缥缈的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 408040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正因为有了那个约定，我才能看到和别人眼中不一样的姐姐…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 408040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "才能理解她心中真实的想法，帮助那个看起来坚不可摧，实际上也有很多烦恼的{namecode:435}姐姐…",
+			say = "Thanks to that promise we made, I got to see a different side of Lord Bismarck than the one she shows to everyone else. They think she's totally invincible, but she's actually really stressed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +451,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "或许当初这个约定真的是一时兴起的，但是现在正是这个约定才把我和大姐连接在一起！",
+			say = "It may have started out as a silly little joke, but now our promise truly binds me and Bismarck together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +468,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，我们也来做一个约定吧！",
+			say = "So how about it, Commander? Will you make a promise with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +484,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我{namecode:416}在此时此刻，向着海洋之神发誓：今后不管指挥官遇到什么困难与危险，我都会第一时间，并且一直帮助和保护指挥官！",
+			say = "I, U-556, hereby declare before Neptune, lord of the seas, that from this moment onwards, I will provide any desired assistance to my Commander, at any place on the water, under water, on land, or in the air!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +501,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，但是指挥官不是{namecode:435}姐姐，所以我要多加两个条件！",
+			say = "Oh, but you're not Lord Bismarck, Commander, so I have to add two conditions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +517,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为交换，指挥官要在{namecode:416}需要的时候，一直陪着{namecode:416}，不能擅自从{namecode:416}身边离开！",
+			say = "In return, the Commander swears to stay by U-556's side forever, to keep her company whenever she needs it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +545,7 @@ return {
 			},
 			options = {
 				{
-					content = "伸出小指",
+					content = "Offer her your pinky.",
 					flag = 1
 				}
 			}
@@ -590,7 +557,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "契约成立！指挥官，可不允许反悔哦！",
+			say = "Okay, it's a promise! No takebacks allowed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +572,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			say = "从勾着的小指上，感觉到了阵阵的暖意——",
+			say = "Upon sealing the promise with our pinkies, I felt a warmth begin to well up inside me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

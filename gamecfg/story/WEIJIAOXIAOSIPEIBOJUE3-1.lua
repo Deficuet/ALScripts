@@ -7,7 +7,7 @@ return {
 			actor = 102200,
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "抓住你了！抢夺甜品的犯人！",
+			say = "There you are, candy thief! We've got you now!",
 			dir = 1,
 			bgm = "login-2022401us",
 			painting = {
@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哼哼哼~还是当场抓获，剩下的事就去监狱里交代吧。",
+			say = "Yeah, heheh! You should just surrender now. Play nice and we'll hear what you have to say in jail.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "立刻放下武器把甜品交出来，否则……我们就要被迫采取武力措施了。",
+			say = "Lower your weapons and hand over the candy! If you don't, we'll have no choice but to fight you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,8 +65,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小{namecode:432}",
-			say = "我是不会把甜品交出来的哟。",
+			actorName = "Little Spee",
+			say = "You're never getting my candy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,8 +82,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小{namecode:432}",
-			say = "铁血也不止是啤酒和香肠，明明甜品也很重要……但是很少有人注意到这一点。",
+			actorName = "Little Spee",
+			say = "Beer and bratwurst aren't the only important things in life. Candy is, too. You all just don't understand that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,8 +99,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小{namecode:432}",
-			say = "……所以我制定了一个计划，一个可以把大海变成甜品的伟大计划！",
+			actorName = "Little Spee",
+			say = "That's why I came up with a plan... A plan to fill the ocean with candy and snacks!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,8 +116,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 403130,
 			dir = 1,
-			actorName = "小{namecode:432}",
-			say = "现在已经进行到最后一步了……",
+			actorName = "Little Spee",
+			say = "And I'm so close to achieving it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,10 +130,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 6,
 			side = 2,
-			say = "很快，大海就要被甜品覆盖了……不要阻止我！",
+			say = "All I need is a little more candy, then candy will cover the whole ocean. Nobody can stop me now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 107990,
 			side = 2,
-			say = "……虽然没太听懂，但是我感觉到了危险。",
+			say = "I... I don't know what her deal is, but I do know she's up to no good!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 102210,
 			side = 2,
-			say = "甜品是很重要，但是大海也很重要哦！",
+			say = "Obviously candy is important, but the ocean is just as important!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 304070,
 			side = 2,
-			say = "……蔚蓝的大海让人心旷神怡，而且也是海鲜赖以生存的家园……",
+			say = "The ocean is where we live and play. It's our home, and it's where we're safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			actor = 304070,
 			side = 2,
-			say = "不会让你肆意妄为的……！",
+			say = "We're not gonna let you get away with this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,10 +186,10 @@ return {
 		{
 			actor = 403130,
 			nameColor = "#ff5c5c",
-			actorName = "小{namecode:432}",
+			actorName = "Little Spee",
 			expression = 1,
 			side = 2,
-			say = "那就放马过来吧。我可是很强的，被打疼了也不许哭哦~",
+			say = "F-fine, then we'll fight it out. I'm just as strong as you. Don't blame me if you get hurt and cry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

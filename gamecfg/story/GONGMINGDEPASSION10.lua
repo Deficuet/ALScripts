@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
@@ -34,11 +34,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "猜猜我是谁~？",
+			say = "Guess who!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "正在伏案工作时，一双手从身后蒙住了我的双眼。",
+			say = "I'm processing paperwork when all of a sudden someone covers my eyes from behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "圣哈辛托，今天是你来送文件么？",
+			say = "Jacinto? Are you on bring-me-paperwork duty today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在我说出她的名字后，眼前的“禁锢”也应声而解。",
+			say = "I say her name, and she uncovers my eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "哎呀，指挥官真是无趣，这种时候明明应该多猜几次呢~",
+			say = "You're no fun! You're supposed to guess it wrong at least a few times first!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "不过算你答对咯，今天确实是由我来送文件~♪",
+			say = "But yes, you're right. It's my turn to deliver documents today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "这是「青组」和「红组」近期的场地使用报告~指挥官要不要先看一下？",
+			say = "I have a report on both teams' use of the port's facilities. Would you like to read that first?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。我拟好主持人名单就来看。",
+			say = "I'll read it after I've finished the list of potential hosts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "主持人？不是一直都是{namecode:98:明石}么~？",
+			say = "Hosts? Multiple? Isn't Akashi running the show alone, as usual?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次会为「青组」和「红组」各自搭建一个舞台，所以除了{namecode:98:明石}这个总主持以外，还需要两名。",
+			say = "No, we'll need multiple this time since both teams are getting their own stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "让我看看~嗯……「红组」主持人{namecode:224:哈尔滨}，「青组」主持人萨拉托加。",
+			say = "Let me have a look... Ah, Harbin will host for the red team, and the blue team will get Saratoga.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸~原来已经定好了啊，还以为会有把我的名字加上去的机会呢。",
+			say = "Looks like you've already made up your mind. That's a shame, because I was hoping I'd get the chance to host.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？你很想做主持人么？",
+			say = "Really? You'd like to be a host?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107300,
-			say = "那倒没有哦~只是觉得当主持人的话说不定能有更多和指挥官待在一起的可能性而已~♪",
+			say = "Kind of. Not for the job itself, but because it'd let me spend more time with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，说到这个，我想起来这次的比赛机制好像有一个漏洞呢——",
+			say = "Oh, on another note, I think there's a loophole in the competition's rules.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "像现在这个比赛机制，只是看我们和我们各自招募到的人选的舞台Live，并单独打分……",
+			say = "The rules this time are: each unit will appear on stage, deliver a performance, and be graded accordingly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "最后合并一起看总数比高低。",
+			say = "Therefore, the team whose units score the highest on average will win the competition.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "如果在这个过程里，对方的大组成员因为一些“意外”无法按时登台Live的话，",
+			say = "But, if for some reason a unit is unable to appear on stage...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "那我们不就稳赢了么~",
+			say = "Then the competition is as good as over then and there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207140,
-			say = "哈？这种做法也太有失淑女的礼仪了吧，可畏要拒绝！",
+			say = "Listen, Eugen. We will not resort to such unsportsmanlike tactics.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别着急嘛，皇家的大小姐，我可没说过要这么做哦~？",
+			say = "No, I'm not saying we should sabotage the other team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "我只是在告知大家这个比赛规则的漏洞而已。",
+			say = "I'm just telling you that this loophole exists. I told them, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403150,
-			say = "不过……我们不这么做，就不知道对方会不会这么做了呢。",
+			say = "Also, there's no guarantee their team won't exploit it even if we won't. I guess we just have to trust them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 304080,
-			say = "虽然这规则有漏洞可钻，但这种事未免也太不优雅了。",
+			say = "There may be a loophole, but actually using it would be very dishonorable.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "是呀是呀，而且指挥官会提出这样的新规则，一定也是为了让大家好好相处~",
+			say = "Yeah! The reason the rules were changed in the first place was to bring us all together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 801090,
-			say = "大家一起享受舞台才是这次的核心哦！",
+			say = "Winning isn't as important as everyone having fun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102320,
-			say = "那个……为了不辜负指挥官的心意……我们还是通过Live击败对手吧……",
+			say = "I agree. The Commander wants us to win fair and square.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403080,
-			say = "嗯~放心好了，就算是需要击溃的“敌人”，我也会给予相应的尊重的哦。",
+			say = "Even I treat my opponents with respect up until the moment I crush them like insects.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307100,
-			say = "想要不动声色让对方减员不是做不到，但……",
+			say = "There are ways to sabotage them, but this just feels wrong.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307110,
-			say = "呵呵呵，{namecode:97:大凤}可绝对不会做让指挥官大人伤心的事哦~",
+			say = "The last thing we will do is make my Commander sad!",
 			painting = {
 				alpha = 0.3,
 				time = 1

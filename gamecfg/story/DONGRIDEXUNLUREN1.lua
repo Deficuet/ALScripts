@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"冬日的寻路人\n\n<size=45>一　异常情况？</size>",
+					"Winter Pathfinder\n\n<size=45>1 Situation Abnormal</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "某日·北方联合休息室",
+			say = "Port - Northern Parliament Lounge",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家，我回来了。",
+			say = "Everyone, I've returned.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "嗯？是没人在吗？",
+			say = "Oh, nobody's here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_109",
-			say = "古比雪夫将手中的提灯放在了桌上，旋即便注意到了桌面上的物品。",
+			say = "Kuybyshev, a cruiser of the Northern Parliament, turned her gaze down to a sheet of paper on the salon table.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……“妖精魔法”海报？",
+			say = "\"Fairy Magic\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,12 +112,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感兴趣吗，寻路人小姐？",
+			say = "Caught your interest, Kuybyshev?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……？",
+			say = "(That's an odd look on her face. It must be a code name for a major mission.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（奇怪……罗西亚同志在说什么？）",
+			say = "(Belorussiya is here, too... It's certain to be important.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "罗西亚同志，还有贝拉罗斯同志，你们原来在啊。",
+			say = "Rossiya, Belorussiya. Would you mind telling me what's going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这海报是……",
+			say = "Have we been given a new mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,8 +204,8 @@ return {
 			bgName = "star_level_bg_109",
 			side = 2,
 			dir = 1,
-			actorName = "驯鹿师",
-			say = "哦？古比雪夫同志也感兴趣吗？",
+			actorName = "Sovetskaya Belorussiya",
+			say = "Actually, Kuybyshev, it concerns you more than it does us.",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -220,12 +220,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~？",
+			say = "Ahem!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,12 +239,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "驯鹿师",
+			actorName = "Sovetskaya Belorussiya",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			say = "啊……呃，我是说寻路人小姐……",
+			say = "Ah, my apologies. I've said too much already.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,12 +268,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "驯鹿师",
+			actorName = "Sovetskaya Belorussiya",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 705040,
 			nameColor = "#A9F548FF",
-			say = "欸，百密一疏……好吧，纪念币归你了。",
+			say = "May I offer you this coin as a token of apology, Rossiya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,9 +289,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			side = 2,
-			say = "那我就不客气收下了~",
+			say = "Oh, I'll gladly take it. Thanks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（她们之间在交换的是……？）",
+			say = "(Isn't that coin from Akashi's shop? What's going on...?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,12 +323,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了，这位可爱的寻路人小姐，请问有什么是需要极地精灵为您做的吗？",
+			say = "Now, allow me to pass on the orders handed down by the Northern Parliament.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "（又是这个称呼……寻路人，是因为我提着灯的缘故吗？）",
+			say = "(I just got back from one mission, and now they have another for me? Work never ceases...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……罗西亚同志？我刚刚出差回来，和我说说现在的情况……？",
+			say = "Yes, Comrade. If there's anything I can do to further our goals—",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,12 +378,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			dir = 1,
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要不劳而获可不行。寻路人小姐，想要找到那妖精的秘宝，就得用珍贵的硬币交换哦？",
+			say = "You are to obtain Akashi's coins and find the fairies' treasure hidden within this port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,9 +399,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "极地精灵",
+			actorName = "Sovetskaya Rossiya",
 			side = 2,
-			say = "加油吧，寻路人小姐——",
+			say = "See it done, Pathfinder.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "离开了……",
+			say = "Um...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "不管发生了什么，连罗西亚同志都被影响了。",
+			say = "What was that all about? Is there no mission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "“妖精魔法”……为了大家的安全，有必要调查一下才行。",
+			say = "(Maybe it's some sort of code... No, that has to be it!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,12 +469,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？要调查什么？",
+			say = "\"Fairy Magic,\" hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "当然是调查异常……嗯？",
+			say = "Right. It looks to be code. And if these are Akashi's coins...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……你是皇家的忒休斯？",
+			say = "My, are you... Theseus of the Royal Navy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,12 +524,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "应该称呼我为港区的守护女巫哦♪",
+			say = "That would be me, the fleet's dearest Little Witch!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "……好吧，守护女巫小姐，你为什么要……额，飘在休息室的窗户外面？",
+			say = "Little Witch... Could this be code, as well? You are floating, after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "是从{namecode:98}那里拿到了什么特殊的设备么……",
+			say = "Knowing that Akashi's involved in this, I wouldn't be surprised if she had some way for you to float.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,9 +591,9 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			side = 2,
-			say = "谁知道呢~毕竟我是港区的守护女巫，女巫的话，一般都会飞在天上吧？",
+			say = "It's much simpler than that. Witches fly! Ergo, not surprising that I would fly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,12 +607,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，你是要调查妖精的秘宝么？",
+			say = "So? Searching for the fairies' treasure, are you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "秘宝……？唔，差不多就是那样吧。",
+			say = "I suppose. What about you, Theseus?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,12 +644,12 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是寻路人小姐，真是敏锐啊。你也觉得这秘宝很奇怪对吧？",
+			say = "Same! The treasure does tickle the imagination, does it not?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "没错，我觉得那件宝物可能是导致现在异常现象的原因。",
+			say = "(Everyone's acting strange, but maybe that's because of the mission?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,12 +691,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就对啦，你感觉到的异常肯定与妖精的秘宝有关哦~",
+			say = "Either way, you'd better get your hands on it if you want to help your friends, Pathfinder of the Northern Parliament.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,12 +710,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家都想得到那份神奇的秘宝，作为天选者的我，也不能落后才行♪",
+			say = "But it's a treasure, which means everyone wants a piece of it. Don't think I'll let it go that easy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,12 +729,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "守护女巫",
+			actorName = "Theseus",
 			dir = 1,
 			actor = 206080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们好好看着吧——",
+			say = "Eyes open, got it? ♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "自说自话地又飘走了……",
+			say = "I see. You mean to say that the Royal Navy has their hands in this mission, as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "大家都想得到的神奇秘宝？也就是说那东西确实在诱惑着大家，扭曲了大家的常识么……",
+			say = "But my only clue is that it's a treasure... This looks to be a difficult quandary.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702050,
-			say = "这就说得通了……",
+			say = "Yet I must do it! For the Commander, and for the others.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，必须调查一下才行。",
+			say = "It falls to Kuybyshev to crack this case!",
 			painting = {
 				alpha = 0.3,
 				time = 1

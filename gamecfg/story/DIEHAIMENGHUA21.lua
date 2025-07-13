@@ -13,7 +13,7 @@ return {
 			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
-			say = "又是硝烟的味道…这里是……海上。",
+			say = "(...Where am I...? Is this the ocean... of yet another dream...?)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "身旁的是{namecode:22}、{namecode:128}和{namecode:143}……妾身正在前往吴港的路上…",
+			say = "(Yukikaze... Hamakaze... Isokaze... Surely, this is... on the way to Kure...)",
 			bgm = "xinnong-3",
 			flashout = {
 				dur = 1,
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在是妾身的首次航行……",
+			say = "(This is my memory... The memory of my first voyage... engraved upon my soul...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯？不对，同{namecode:80}从天岩岛上起航才是妾身的首次航行！",
+			say = "(If these fragments are connected by the threads of time...)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -110,7 +110,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可是为什么…情报如同流水一般汇入脑海之中…",
+			say = "(This is the dream of the beginning... the history that created my form...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这些绝不是妾身的回忆，但是……为什么会如此鲜明…",
+			say = "(The fate that called this \"Shinano\" into existence...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

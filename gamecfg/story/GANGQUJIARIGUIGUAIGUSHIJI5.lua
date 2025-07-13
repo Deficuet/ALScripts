@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>被封印的美人鱼</size>",
+					"Sails and Spooks\n\n<size=45>5 The Sealed Mermaid</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "在海中潜游时，我听到了一阵优美的歌声。",
+			say = "While I'm diving in the sea, I all of a sudden hear beautiful singing.",
 			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "在歌声的吸引下，我来到了某处海底洞穴中。",
+			say = "Following its enrapturing sound, I eventually come upon an underwater cave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……咦，我能正常呼吸了？）",
+			say = "(Wait a second... Why can I breathe like normal now?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "看着眼前游弋而过的鱼群，我陷入了沉思。",
+			say = "The fish swim and play around me while I ponder this strange phenomenon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……这个海底洞穴里难道藏着什么能让人在水中呼吸的宝物么？）",
+			say = "(Maybe there's some kind of... treasure in there? Treasure that lets you breathe underwater?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "在寻宝热情的驱使下，我小心翼翼地游向了洞穴深处。",
+			say = "Enticed by the promise of treasure, I slowly swim deeper into the cave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "在洞穴的尽头，我看到了一位被囚禁在此的少女。",
+			say = "Deep inside the cave, I lay eyes upon an imprisoned girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "少女的双手高高举过头顶，被不知何种材料的束带紧紧捆着。",
+			say = "Her hands are held above her head, restrained by belts made of an unidentified material.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "少女的下身没有双腿，取而代之的是长长的黑色鱼尾，同样被束带紧扣着。",
+			say = "Below her waistline are not human legs, but the tail and fins of a fish. They, too, are restrained.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,111 +140,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "而我先前所听到的优美歌声，正是从她的口中发出的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（被囚禁的……人鱼？）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900460,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "啊~太好了！你听到了我的歌声呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			say = "被束缚着的人鱼注意到了我的到来，冲我露出一个大大的笑容。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900460,
-			say = "我叫冈依沙瓦号哦~！如你所见，我是人鱼！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900460,
-			say = "而且是曾经净化了这片灾厄之海的超厉害的人鱼哦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900460,
-			say = "好心的旅人啊，你能否帮帮我……帮我解开封印呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900460,
-			say = "再这样被封印下去的话，我就要虚弱而死啦……呜呜……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			say = "人鱼发出了夸张的呜咽声。",
+			say = "Finally, the singing I heard sounds like it's coming from her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +153,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虚弱……？可你现在看起来状态很不错。",
+			say = "(A mermaid? Trapped down here?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900460,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Oh! Thank the gods! You must've heard my song!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			say = "The mermaid realizes I'm here, and looks at me with a bright smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +191,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "这……",
+			say = "My name is Ganj-i-Sawai! I'm a mermaid, as you can see!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "咳咳，我看起来精神好，只是因为见到你开心哦！",
+			say = "But I'm not just any mermaid – I have powers that can purify this sea of disasters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "自从我被封印在这里，就只能唱歌给那些鱼听了。",
+			say = "O, gracious traveler, won't you please undo the seal that binds me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "现在好不容易出现了一个能陪我说话的人，我当然开心啦！嗯嗯！就是这样哦！",
+			say = "If I'm left to rot here, I will wither away and eventually perish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +244,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "人鱼说完后又点了点头，似乎觉得这样就能增加自己的可信度。",
+			say = "She begins to bawl and cry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,34 +257,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "先和我说说灾厄和封印是怎么一回事吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "不然我也无法判断是不是能帮你。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 900460,
-			say = "灾厄是一场会席卷这片海域的、可怕的灾难，被沾染上的生灵都会变成噬人的怪物。",
+			say = "You say \"rot,\" but you seem pretty full of energy to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "我也担心自己会被灾厄侵染，所以起初只是单纯将自己封印在这里。",
+			say = "Oh, well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +285,114 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "不过等我从封印的沉睡中醒来时，发现海域已经被我的力量净化了~！",
+			say = "I just look that way because I'm so glad to have met you!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900460,
+			say = "Ever since I was sealed here, my only audience has been the passing fish...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900460,
+			say = "But now you're here – a person I can talk to! If you were me, you'd be full of energy, too!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			say = "She nods several times in succession, as though she believes it will make her look more convincing.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Why don't you tell me about this \"sea of disasters\" and what that seal is?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Without knowing that, I'm not sure if I'll be able to help you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900460,
+			say = "The sea is full of these terrifying disasters that go from place to place. Any creature that's caught in one transforms into a man-eating beast.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900460,
+			say = "A disaster was looming, and I feared being infected, so I sealed myself in this place and went to sleep...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_134",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 900460,
+			say = "When I woke up, I realized that my powers had purified the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "但我却也再也无法解开自己设下的这层封印了。",
+			say = "Buuut, annoyingly, I wasn't able to undo this seal after that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "能听到我歌声的好心旅人啊……唯有你。",
+			say = "So you, kind traveler, are the only one I can ask for help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "唯有你是能拯救我，能帮助我解开封印的，那个被选定的人！",
+			say = "You are the chosen one who was sent to lift this seal and rescue me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "而且，也是我让你拥有了能在海水中自如呼吸的能力哦~",
+			say = "That's why you can breathe underwater – my powers made it so!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "自称为人鱼的少女的眼神里充满了祈求与温柔。",
+			say = "The light of tenderness and hope fills her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,18 +470,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "而她的声音更是甜美动人，还有种挑拨心弦的力量。",
+			say = "Her voice is sweet and carries an emotion that pierces straight to the heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "相信人鱼的说辞",
+					content = "(Believe her.)",
 					flag = 1
 				},
 				{
-					content = "质疑人鱼的说辞",
+					content = "(Don't believe her.)",
 					flag = 2
 				}
 			}
@@ -494,7 +494,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "好吧，我来帮你。",
+			say = "Alright. I'll help you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 900460,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对……就是这样，好心的旅人……再靠近我一些。",
+			say = "Thank you! Now come here, traveler. Just a little closer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "我逐渐接近人鱼。在触及到她的鱼尾时，突然感受到了一股诡异的黏滑阴冷。",
+			say = "As I come close and touch her tailfin, a weird and slimy chill runs through my fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "突然，一个疑问在心中升起。",
+			say = "At the same time, a question surfaces in my mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "等等，你的说辞好像有些问题。",
+			say = "Hang on. Something you said just doesn't sit right with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你既然拥有净化灾厄的能力，又为什么要封印自己避免侵染？",
+			say = "If you're able to purify the sea, why would you seal yourself away rather than confront it directly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "假设你在刚刚那件事上没有撒谎……",
+			say = "Let's suppose that everything you told me is true...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那么，你无法解除自己设下这个封印，就意味着你其实已经被侵染了吧。",
+			say = "Then maybe the reason you can't undo the seal is because the disaster has already gotten to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "使用的力量都不同……自然也就无法解开封印。",
+			say = "I think your powers of purification created the seal and only they can undo it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "哎呀……真是的。这么敏锐干嘛呢~",
+			say = "Hmph. You're sharp, I'll give you that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "不过帮我解除封印这件事，可由不得你拒绝呢。",
+			say = "Not that it matters. You'll undo the seal whether you like it or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "什么……？",
+			say = "What?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "我想要后退逃离，却发现身体已经不受控制了。",
+			say = "Right as I try to swim back, I realize that my body is no longer listening to me.",
 			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
@@ -680,7 +680,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "歌声再次传来，我的双手一种无形的力量驱使着，打开了束缚人鱼的枷锁。",
+			say = "The mermaid's singing is moving me like a puppet on invisible strings, instructing it to undo her restraints.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900460,
-			say = "哎呀~你的身体会不听使唤，当然是因为在渴望着我哦~！",
+			say = "Heheh. Wondering why your body won't obey you? That's because it desires me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……渴望献上自己，渴望与我交融一体哦~",
+			say = "Err... In the sense that it wants to sacrifice itself and become one with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "黑色的鱼尾轻松裹住我的腰身，一个灵活的甩动，将我甩入了人鱼的怀中。",
+			say = "Her black tailfin coils around me and jerks, pulling me right into her bosom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "她露出了灿烂的笑容。",
+			say = "She looks at me again, a bright smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "那是……终于得到猎物的、幸福的笑容。",
+			say = "That's the smile of a predator – a predator that has finally caught her prey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

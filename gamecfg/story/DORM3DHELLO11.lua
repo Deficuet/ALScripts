@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我骄傲的{dorm3d}，今天您想如何和您忠诚的女仆天狼星一起度过呢？天狼星已经做好万全的准备来满足您的一切需求了……！",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello11",
+			nameColor = "#FFFFFF",
+			say = "Honourable {dorm3d}, how would you like to spend the day with your loyal maid? I'm prepared to meet any of your desires!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

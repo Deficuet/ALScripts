@@ -10,7 +10,7 @@ return {
 			bgm = "bgm-cccp2",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "轰——————！",
+			say = "KABOOM————————!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -66,7 +66,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "航道清理完毕，指挥舰可以继续前进了。",
+			say = "The path is clear, Commander. You can continue forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "雷鸣维持着北方联合一贯勇猛的作战风格，面不改色的清理掉了沿途出现的零星敌舰。就算在指挥过的驱逐舰中，雷鸣的战斗能力也是数一数二的。",
+			say = "Gremyashchy was the perfect representation of the stoic fighting style of the Northern Parliament, expressionlessly mowing down the enemy ships that occasionally appeared in our way. Among all the destroyers I’ve commanded, Gremyashchy’s combat capabilities were absolutely top-notch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,11 +91,11 @@ return {
 			},
 			options = {
 				{
-					content = "战斗过程很精彩",
+					content = "“Exceptionally well fought.”",
 					flag = 1
 				},
 				{
-					content = "战斗方式令人印象深刻",
+					content = "“I’m very impressed by your performance.”",
 					flag = 2
 				}
 			}
@@ -107,7 +107,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "过奖了，这些只是履行职责的一部分而已。嗯，就这样。",
+			say = "Think nothing of it. I’m just doing my job. Mm, that’s all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哈哈哈，指挥官同志好眼光，雷鸣可是我们北方联合被授予的近卫军称号的驱逐舰，在整个舰队中也是王牌一样的存在哦。",
+			say = "Hah. You sure know talent when you see it, Comrade. Gremyashchy here has been given the prestigious title of “Guardian.” She’s the ace up our sleeve!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "我记得，北方联合的近卫军是——",
+			say = "Now that you mention it, I do remember something about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			},
 			options = {
 				{
-					content = "被授予精锐部队的称号",
+					content = "“That’s a very rare reward, isn’t it?”",
 					flag = 1
 				},
 				{
-					content = "被授予功勋部队的称号",
+					content = "“You’ve done well to serve your country.”",
 					flag = 2
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			actor = 705040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全正确！就算在整个北方联合舰队中，被授予近卫军称号的舰船也是屈指可数。",
+			say = "That’s right! Very few ships in the entire Northern Parliament fleet are given this prestigious title!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "北方联合近卫军的显赫声名和战绩，我在白鹰的时候也有所耳闻……",
+			say = "Even when I was back at the Eagle Union, word had spread of the outstanding reputation of the Guardians.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我并没有特意追求功勋打算，只是在做好本职工作的过程中，不知不觉就变成这样了。",
+			say = "I don’t really need the honors. All that matters to me is doing my job well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "雷鸣，坦率的接受称赞也是战士应该有的品德之一哦。",
+			say = "Gremyashchy, a good warrior should also know how to acknowledge the praise of others.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 701070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就、多谢……就、就这样……",
+			say = "Um, thank you... Umm, y-yes, that is all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "不过明明是这么优秀的战士，在这段时间的极地作战中都没有见过她的身影呢。",
+			say = "Considering how exceptional of a fighter she is, it’s a bit strange to me that I haven’t seen her active until this point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雷鸣的任务区域主要在极地航线附近，这次是为了配合我们的行动专门调过来的。",
+			say = "Gremyashchy’s mostly been active in the Arctic naval routes, and we only recently had her transferred here to aid with our current operations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 702040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "派遣近卫军作为指挥官同志这样重要人物的护卫，可以说是恰到好处的安排吧~",
+			say = "It’s only fitting that she would come down to guard someone as important as you, Comrade~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "非常感谢，希望这次大家都能平安无事的完成本次任务。",
+			say = "I really appreciate it. Let’s all try to make it back in one piece.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,11 +322,11 @@ return {
 			},
 			options = {
 				{
-					content = "继续观察雷鸣",
+					content = "Continue observing Gremyashchy.",
 					flag = 1
 				},
 				{
-					content = "继续指挥战斗",
+					content = "Continue commanding the battle.",
 					flag = 2
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 701070,
-			say = "与通常的驱逐舰战术不同，除了炮击与雷击之外，雷鸣更喜欢高速贴近敌人，然后挥舞着与自身体格严重不符的夸张流星锤解决战斗。",
+			say = "Unlike the other destroyers I’ve worked with, Gremyashchy doesn’t solely rely on her gunnery and torpedo strikes. She prefers to quickly close the gap on her enemies before dispatching them with a swing of her massive, comically exaggerated chain mace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 701070,
-			say = "除了雪白的海军帽与大衣之外，雷鸣宛如羽翼一般的围巾也十分显眼。",
+			say = "In addition to her snow-white naval hat and coat, I also found her scarf to be very distinctive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 701070,
-			say = "在高速移动时，随着海风翻飞的围巾宛如天使的羽翼一般……",
+			say = "And when she courses through the waves at high speeds, the scarf flaps behind her like the wings of an angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			optionFlag = 1,
 			actor = 701070,
 			nameColor = "#a9f548",
-			say = "一直盯着这边看…莫非指挥官…是变态？",
+			say = "What are you ogling me for? Are you... some kind of creep?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

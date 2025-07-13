@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，安克雷奇，外面看到了，三叶草！",
+			say = "{dorm3d}, Anchorage found a clover outside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，运气好！……{dorm3d}也要，运气好！把三叶草，给{dorm3d}！",
+			say = "I'm lucky! You can be lucky, too! Here, clover!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还找到，一片叶子的……和三叶草组合！",
+			say = "One leaf... and a three-leaf clover...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等于，四叶草！{dorm3d}，和安克雷奇，有四份幸福！",
+			say = "Make a four-leaf clover! We get to have... four times the happiness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

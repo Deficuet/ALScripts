@@ -9,7 +9,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱酱，我们来接你了！一起回去吧？",
+			say = "AI, we're coming to take you home! Let's go together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
@@ -46,7 +46,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有反应，果然得靠实力来说服她了",
+			say = "She's not responding. As expected, we have to do this by force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "爱小姐…抱歉！",
+			say = "Miss AI... I'm so sorry!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -109,7 +109,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有效…的说！照这样下去的话…",
+			say = "It's working...! If we keep this up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 10400020,
-			actorName = "绊爱(伪)",
+			actorName = "All the Kizuna AI's",
 			say = "………",
 			flashN = {
 				color = {
@@ -178,7 +178,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "！？之前击败的冒牌绊爱们都复活了吗……？！",
+			say = "What...?! Someone just cast Mass Resurrection on all those AI clones that we took out before?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么这样～！？打倒一个都那么费劲的“BOSS”突然一口气增加到3个…！",
+			say = "H-How could this be?! It took us so much effort just to get one under control, and now there are three more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这么多个……究、究竟该怎么办……！",
+			say = "Th-there's too many of them...! Wh-what should we do?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，我们还不一定会输",
+			say = "Zed, we haven't lost just yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要还有一点可能性，{namecode:6}就会把它抓住，的说",
+			say = "As long as there is even a sliver of possibility, Ayanami will seize it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都在这里！我们是绝对不会输的！",
+			say = "We're all in this together! We absolutely won't lose!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得没错！我们是绝对不会放弃的！",
+			say = "That's right! We will never give up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			side = 0,
 			soundeffect = "event:/battle/boom2",
-			say = "咚！",
+			say = "BOOM!! BOOM BOOM!! FWOOSH!",
 			flashN = {
 				color = {
 					1,
@@ -327,7 +327,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "就在大家下定了“绝对不放弃”的决心之后，炮击声响起——",
+			say = "Just when everyone was preparing themselves for their last stand, the sound of cannonfire rang out from the distance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "炮击…是从哪里……！？",
+			say = "Cannons...? From where, though?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！那是……！？",
+			say = "Look! Over there, it's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,11 +370,11 @@ return {
 		{
 			actor = 303110,
 			side = 2,
-			actorName = "全员",
+			actorName = "Everyone",
 			hideOther = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "绊爱舰队？",
+			say = "The Kizuna AI Fleet?",
 			effects = {
 				{
 					active = true,
@@ -419,7 +419,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "……绊爱舰队？说什么呢？是被逼到绝境出现幻觉了吗？",
+			say = "Kizuna AI Fleet? What are you talking about? Were you so scared that you went delirious?",
 			effects = {
 				{
 					active = false,
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "久等了喵！收到指挥官的命令，把大家都带来了喵！",
+			say = "Sorry to have kept you waiting, nya! By Commander's orders, I've brought everyone here, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "解析随机单词生成器花了不少时间，来迟了很抱歉",
+			say = "It took me a long time to parse the random word generator. Sorry I'm late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，没事吧？既然我们都来了，就不用担心了",
+			say = "Is everyone all right? Everything's going to be okay, now that we're here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们没事就好了。我们从港区一路赶到虚拟镜面海域来了！",
+			say = "I'm glad you're all unhurt. We rushed all the way from port into this Virtual Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这三个人就交给我们吧，那个大的就拜托你们了！",
+			say = "We'll handle these three. I'm trusting you to take care of the big one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！指挥官为了我们而派来了“援军”呢！",
+			say = "I see, I see! This must be our \"plot armor!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢相助",
+			say = "Thanks for the help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下就没有什么可怕的了，的说",
+			say = "Now, we have nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还差一步就能救回爱酱了！",
+			say = "We're just one step away from saving AI!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,12 +573,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
+			actorName = "Kizuna AI Titan",
 			actor = 10400010,
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actorScale = 3.5,
-			say = "为什么…明明我想要破坏掉这个世界…为什么，要为了我做到这个份上……？",
+			say = "Why... I clearly just want to destroy this world... so why are you going through all this trouble for me...?",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是——",
+			say = "That's because...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为爱酱是我们的朋友啊！！",
+			say = "You're our precious friend, AI!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

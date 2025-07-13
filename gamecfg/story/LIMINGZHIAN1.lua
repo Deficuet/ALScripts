@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方联合·某处军港",
+			say = "Northern Parliament Base, Location Unknown",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好久不见，水星纪念。这段时间的奔波辛苦了。",
+			say = "It's been a while, Pamiat' Merkuria. Your efforts have not gone unnoticed~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔？真是好久不见了！",
+			say = "Oh, hey Avrora! I'm glad to be back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……辛苦是辛苦，不过一想到能为我们的计划做些什么，也还算很充实的哦。",
+			say = "Ugh, I'm totally beat... But being able to move our plans forward is quite fulfilling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你也要参加这次行动么？",
+			say = "Will you be joining the upcoming operation as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。活跃于后方久了，偶尔也想去前线一展身手呢。",
+			say = "Certainly. Even I long to prove my worth on the battlefield every now and then, hehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 702029,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "话说……这次危险的任务就让我们这两艘“旧式”舰装的人来执行是不是有点太微妙了……",
+			say = "Having that said... Isn't it weird that old-timers like us with our rickety rigging have to participate in such a dangerous operation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“旧式”呢……",
+			say = "What was that about my age...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊……忘了把模式换回去了。",
+			say = "Err, that's not what I mean... Y'know, even if we've been modernized, our designs are what they are.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "「改造」还习惯么？",
+			say = "A little modernization goes a long way. It's certainly better than nothing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "完全是出乎意料的技术！",
+			say = "Well, yeah. I'm definitely stronger than I was before, even if I'm not some brand-new, completely different ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和平时舰装装备的模块化更换不同，这次的「改造」更像大规模的整体性变化。",
+			say = "Unlike usual retrofits, where certain rigging components are swapped out for new ones, this retrofit was more of a complete overhaul.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然看起来跟极地舰队使用的新式舰装比较像，不过我觉得性能上也许要更胜一筹哦~",
+			say = "For better or for worse, we've incorporated some pretty sketchy technology into our riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噢~那还真要感谢一下提供这项技术的皇家呢。",
+			say = "Speaking of retrofits, the other factions have been pursuing similar projects, have they not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然是皇家首先研发出来的技术，她们现在肯定已经偷偷普及了吧。",
+			say = "Yeah... Seems like the tech made its way around the other major factions a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个我就不清楚了……至少分享给我们的技术只有特定型号的巡洋舰改造技术而已。",
+			say = "That may well be the case, but we seem to have gotten left out of the loop. The technology they've given us is rather rudimentary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在可是战云密布哦？居然还要严格保密这种强力技术……",
+			say = "Well, we've found our own ways by now, right? After we explored the Arctic Stronghold and the Arcana Sanctum~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来在从各阵营里换到足够回报之前是不打算公开了啊……皇家到底是皇家。",
+			say = "But, whether or not we incorporate that technology depends on the higher-ups, as well as the compatibility of our riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以在后面的行动中一定要保护好我哦~",
+			say = "So you were one of the lucky ones, huh? I guess I'll be counting on you to protect little ol' me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放心包在我身上吧————虽然我想这么说，不过你不可能需要我的保护吧。",
+			say = "Stop being such a tease! You're stronger than me anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟你可是昔日罗西亚帝国，不对，应该是世界上——",
+			say = "After all, during the last Great War, you were the only reason the Azur Lane––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你接下来要说出来的可是北方联合的最高机密，水星纪念同志。",
+			say = "You're not about to just casually spill our most closely-kept secret, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是是~我不说了，不用这么紧张嘛。",
+			say = "Fiiiiine, though I don't see why it matters since there's nobody else around... Well, let's move on then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "——不过其实，更详细一点的部分我就不知道了……比如具体要早多久之类的？",
+			say = "Besides, it's not like I know the details either. When'd you find out about the Cubes anyway?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "情报与信息，并不是知道的越多越好……知道的过多有时反而会干扰你的判断。",
+			say = "Who knows? When it comes to knowledge and intel, more isn't always better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "单纯是对于自身来源的好奇嘛……听你的哦，我不打听这件事了。",
+			say = "You really don't plan on telling me anything, huh? Well, fine, I didn't want to know anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。好了，约定好的时间差不多到了。",
+			say = "Mm, that's better. We're about to get to business soon anyway~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,11 +484,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "滴————",
+			say = "Beep––––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "同志们好，任务书你们应该都读过了，心中也应该对任务产生了些许疑问。",
+			say = "Good day, comrades. I assume that after reading the contents of our next operation, some doubts may linger on your mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "因为事关重大，有些部分不适合写在任务书上。本次联络就是为了解决这些问题，请提问吧。",
+			say = "Due to the importance of the situation, some details could not be adequately put down into text, hence the purpose of this call. If you have any questions, feel free to ask me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就由我先开始好了~",
+			say = "Ooh, pick me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据任务书，我们要突袭的塞壬设施位于铁血控制区内，恐怕和铁血本身有什么不清不楚的联系……",
+			say = "So according to the operation packet, we're supposedly carrying out a raid on a Siren facility in Iron Blood-controlled waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在NA海域的停火协议还在生效期，这次行动如果被发现了会很麻烦吧？",
+			say = "Now that the ceasefire agreement has been signed over the situation in the NA Ocean, wouldn't this operation land us in hot water?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "这个不用担心。那是一处在铁血内部都鲜有人知的隐蔽实验场。如果发生交火的话，镜面海域本身会掩盖你们的痕迹的。",
+			say = "That is not a concern. Few people know about this hidden Siren facility. Should a firefight break out, your activities would be covered up by the Mirror Sea itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "既然如此隐蔽又鲜为人知……那我们是怎么知道的？",
+			say = "Alright... If that's the case, how do we know so much about this facility?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "我们有一位优秀的情报提供人。",
+			say = "Let's just say, we have a trustworthy informant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "优秀的情报提供人啊……",
+			say = "Huh... I wonder who that could be...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "更何况，NA海域内停火的目的之一就是对抗塞壬威胁，我们这次行动就是在对抗塞壬威胁不是么？",
+			say = "Besides, countermeasures against the Siren menace are a common goal shared across all factions. Even should we be found out, we have plausible deniability.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有道理……万一之后被抓住了我就这么说好了。",
+			say = "That makes sense. I'll leave the complicated political stuff to you then, Soyuz.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "哈哈哈，放心，只要谨慎行动的话，绝对不会有问题的。",
+			say = "Haha, that was the plan to begin with. Just keep your wits about you, and there shouldn't be any problems.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望如此咯~",
+			say = "All right, will do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这次行动的目标既然是塞壬实验场，只靠我和阿芙乐尔会不会有些火力不足？",
+			say = "Right, I've got another question. If we're attacking a Siren facility, will we have enough firepower with just me and Avrora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "放心，那里的防御设施都是些老旧型号，而且多年来一直处于半停用状态，只靠你们足够应付了。",
+			say = "The Siren activity in that area has all but ceased now. There won't be a battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些情报还是同样来自那位优秀的情报提供人么？",
+			say = "Did you also learn this from your trustworthy informant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "是，而且我相信这些情报的真实性。",
+			say = "Yes, and you can trust this information.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦~那我就没问题了。",
+			say = "Hmm... Well, that's good enough for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:529:苏维埃同盟}，这次突袭任务中要回收的目标没有被写在任务书里，具体是什么？",
+			say = "Soyuz, I've seen a \"retrieval target\" mentioned in this operation packet, but nothing about what it specifically is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "这个啊……跟你们实话实说吧，我也不知道。",
+			say = "Frankly... We don't know exactly what \"it\" is either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你不知道？！",
+			say = "...You don't know? What do you mean by that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "嗯……所以要靠执行任务的你们了。",
+			say = "For the lack of a better description, it is something not bound by the laws of this world. By definition, we won't know of its nature until we see it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "如果在现场发现任何值得在意的、明显不属于那里的东西就回收回来，你们一定会发现这样的东西的。",
+			say = "That's where you come in. If you find anything that might fit that description, whatever it may be, retrieve it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还真是……模糊的指令啊。",
+			say = "A quest for unobtanium, huh? Reeks of a fool's errand to me, if I may be honest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "没办法，以上就是我收到的全部情报。我们没有时间也没有条件进行更充分的调查了。",
+			say = "Unfortunately, that's the best information we're going to get. We have neither the time nor luxury to conduct a thorough investigation beforehand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			actor = 900218,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在铁血控制区内警备薄弱，NA海域中塞壬也溃不成军，没有比现在最适合行动的时候了。",
+			say = "Now that the defenses in the Iron Blood-controlled areas are thin and the Sirens are reeling from their defeat in the NA Ocean, this is our best time to strike.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "这是一次非常关键的任务，拜托两位了。",
+			say = "I can't stress enough the importance of this mission. That's why I've entrusted this operation to you and Pamiat'.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白，保证完成任务。",
+			say = "Very well. We'll get you your results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			dir = 1,
 			actor = 900218,
 			nameColor = "#a9f548",
-			say = "那就祝我们好运了，{namecode:529:苏维埃同盟}通讯结束。",
+			say = "Good luck. I'll be ending the communication then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，真是难得一见，上次见到{namecode:529:苏维埃同盟}这么不自信的样子都不知道是在什么时候了。",
+			say = "I don't think I've ever seen Soyuz look unsure of herself before. Guess there's a first for everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上次……",
+			say = "...Unsure, huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1037,7 +1037,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "怎么了阿芙乐尔，有想到什么事么？",
+			say = "What's the matter, Avrora?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1053,7 +1053,7 @@ return {
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没什么，我也觉得{namecode:529:苏维埃同盟}的这种样子已经很久没见过了。",
+			say = "Oh, it's nothing. I was thinking the same thing as you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1070,7 +1070,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "看来这次任务非同小可，我们去认真准备一下吧。",
+			say = "(How long has it been since I last saw her make that expression? ...We'd better prepare for all contingencies.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

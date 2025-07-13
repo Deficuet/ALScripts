@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"交汇世界的弧光-日常篇\n\n<size=45>三 一起去兜风！</size>",
+					"Dynamic Days\n\n<size=45>3 A Joy Cruise</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "碧海蓝天，阳光明媚。黑赤色的身影正如风般前进，如同两只翻涌在海面上的鲨鱼——",
+			say = "Clear blue skies, vivid azure seas. Two black and red figures darted along the surface, like sharks on the hunt.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "要加速了哦！梦芽把扶手抓紧点~",
+			say = "I'mma crank up the speed! Hang on tight, Yume!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "好——快——啊！",
+			say = "Geesh, this is fast...",
 			effects = {
 				{
 					active = true,
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "{namecode:474}不断加速，在身后留下一串串涟漪与水花。",
+			say = "Sprays of water gushed after U-37 as she accelerated.",
 			effects = {
 				{
 					active = false,
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "{namecode:474}，别忘了等会还有其他事要做哦。",
+			say = "Hey, U-37! Don't forget we still have to do the thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会忘的啦！{namecode:474}知道自己要干什么哟~",
+			say = "Yeah, yeah, I remember!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "诶？今天还有其他事情要做吗？我还以为只是出来兜会风的。",
+			say = "Wait, what thing? I thought we were just going for a cruise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "没什么，只是{namecode:474}想让梦芽小姐陪她玩一点小游戏。对吧？",
+			say = "Don't worry, it won't take long! U-37 was just hoping you'd play a little game with us. Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "啊……对对！",
+			say = "Uhh, yeah, that's all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "小游戏啊……如果是在海上玩的话，听起来好像挺有意思呢！",
+			say = "If it's just a little game, then sure... Playing out on the open sea might be fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "嗯嗯，现在就开始吧！请梦芽陪我玩一二三木头人！",
+			say = "Hell yeah it is! All right, y'know the rules of Red Light, Green Light, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "这么突然……？我还不太清楚要怎么在海上玩这个，会不会很复杂？",
+			say = "Who doesn't? But I've never done it in water before. Is the game some kind of regional variant of it, or...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就是正常的玩法，梦芽小姐放心啦~而且也不是在海面上，你看前面~",
+			say = "Not really, it's the same thing as every kid's played before! Also, you won't exactly be \"in water.\" Look up ahead and you'll see what I mean!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "{namecode:474}将梦芽带到一个建有灯塔的小岛上，然后离远了一些。",
+			say = "The girls arrived at a small island poking above the water with a lighthouse on top. Yume set foot on the island while the other two swam some distance away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "梦——芽！我们能听到你说话！快开始啦！",
+			say = "Yumeeee! If ya can hear me, just say it when you're ready!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真的吗……明明说话都要那么大声。",
+			say = "Man, I can barely see them over there...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "那我也大点声好了……一！二！三！木头人！！！",
+			say = "Guess I'll have to shout... READYYYY! FIIIIVE! FOOOOUR!",
 			effects = {
 				{
 					active = true,
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "快看，梦芽小姐已经转过去了哦。",
+			say = "Perfect! Time to get a move on!",
 			effects = {
 				{
 					active = false,
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "收到~！",
+			say = "Heheh, yeah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不许说话不许动——诶？！",
+			say = "ONE! ...Huh? Guys?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "梦芽转过身去，看到的只有一片空荡荡的海面——以及几抹尚未消失的波纹。",
+			say = "Yume turned around to find the two submarines were completely gone. All there was left of them were their ripples.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……不是说一二三木头人吗，又变成捉迷藏了……",
+			say = "Okay then... I guess we're playing hide-and-seek instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "难道说这是什么整人游戏么……我被放鸽子了之类的，不会吧……",
+			say = "Either that, or they left me stranded... That would be a bit rude, kind of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "对了，这不是还有舰装可以用嘛！只要沿着刚才的航线开回去~~~",
+			say = "Oh wait, I've still got my rigging. Just need to go back the same way we... came...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "等等，我刚刚从哪边过来的……",
+			say = "Right... Too bad I have no idea where we came from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "海岛上暂歇的海鸥高高飞起，发出一连串叫声后消失在了天际。时间仿佛变得很漫长，很漫长…………",
+			say = "The only things around her were the featureless skies and seas. She was all alone, without any landmarks to guide her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "要是有真正的戴拿飞翼在就好了……她们一直不回来的话，我该怎么回去才好……",
+			say = "Dying out here would kind of suck... Wish I had the Dyna Wing right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "就在梦芽沉思之际，临近的海面颜色突然有所改变，随后{namecode:474}和{namecode:417}带着色彩鲜明的「礼物」鱼跃而出——",
+			say = "While Yume stood, pondering her options, U-37 and U-73 suddenly resurfaced. They presented to her a box in a vivid array of colors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "梦芽快看！好多好多五颜六色的鱼都被我装在这个小箱子里了哦~很漂亮吧？",
+			say = "Check it out! Sweet box, right? We stuffed a buncha colorful fish into this thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "还有些贝壳和海螺之类的，看着觉得很漂亮就一块捞上来了。",
+			say = "Plus some pretty clams, shells, and coral!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "真漂亮啊……",
+			say = "Wow... They're really nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "嘿嘿~偶然看到你的房间里有很多水生生物的抱枕，所以我们借着这次出来兜风的机会，想着顺便给你找一些礼物~",
+			say = "We saw you kept a ton of sea-themed plushes in your room, which gave us the idea to gift this to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来你们想玩一二三木头人是因为……总之也太突然了吧！还以为真的要回不去了……",
+			say = "That explains a few things... I was spooked when you vanished on me like that, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "怎么样怎么样？感谢一下我们吧~",
+			say = "Heh, sorry 'bout that! Anyway, ya like the gift?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "非常感谢！不过——接下来我们还是正常去兜风吧！",
+			say = "That goes without saying. Thanks a ton. Say, could we go for another cruise? A normal one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408050,
-			say = "那是当然，梦芽是真的很喜欢疾驰的感觉呢~",
+			say = "Hahah, sure! If by \"normal\" you mean \"high-speed\"! I know you love going fast.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408100,
-			say = "坐上来吧！这次会比刚才开的更快哦！",
+			say = "Don't we all! Hop on and we'll go for a ride!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +742,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 10800050,
-			say = "嗯！请带我去更远的地方吧！",
+			say = "Nice! Let's see what stuff is out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "碧蓝的海面上掀起朵朵浪花，疾驰的舰装带着少女们的欢呼声逐渐驶向远方——",
+			say = "Amid the gently washing waves and calm winds, one could hear their laughter for seemingly miles.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

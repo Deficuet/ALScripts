@@ -15,7 +15,7 @@ return {
 			bgm = "story-roma-outside",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "撒丁大剧场·外围",
+			say = "Plaza outside the Colosseum",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哇哦~从地面上仰视时候，更能感受到大剧场的宏伟了呢！",
+			say = "Woooah, the Colosseum looks even more incredible from the outside...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "用这个角度再拍一张好了——",
+			say = "Gotta take another photo from this angle–!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就在阿尔弗雷多摆好角度，正想要摁下快门时。",
+			say = "Alfredo brought out her camera to take another photo of the Colosseum...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唔……不好意思，那边的朋友，可以请你先后退一下么~",
+			say = "Huh, someone's in the way... Um, excuse me, would you mind moving to the side for a second–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,11 +115,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "bg_roma_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？！对、对不起！",
+			say = "Oh, um, I'm very sorry!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "阿尔弗雷多！你吓到人家了啊。",
+			say = "What have you done, Alfredo? You scared the poor girl!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "啊？抱歉抱歉，我不是那个意思……吓到你了么？",
+			say = "Huh? My bad, my bad! I didn't mean to suddenly call out to you~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,8 +171,8 @@ return {
 			bgName = "bg_roma_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "？？？",
-			say = "没关系，我不是被吓到了才这么慌张的……",
+			actorName = "???",
+			say = "Um, don't worry! You didn't scare me at all...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "看你的装束，是皇家的客人？难道是……迷路了么？",
+			say = "Huh? A girl from the Royal Navy? Did you get lost?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "正、正是！我是皇家的J级驱逐舰雅努斯！",
+			say = "Yes... Um, my name is Janus, a J-class destroyer from the Royal Navy...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "都怪我光看绿色的老鹰走了神，才跟光辉姐姐走散了……",
+			say = "I couldn't take my eyes off this emerald eagle, and before I knew it, I had gotten separated from Illustrious and the others...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "请问你们知道皇家馆的位置么？！",
+			say = "So, umm, could you point me to where the Royal Navy pavilion is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "这个简单~看到北方那边长着巨大橡树的小岛了么？那个就是撒丁帝国馆，橡树花穹顶。",
+			say = "That's an easy one! See where that oak tree is? That's the front of our Colosseum.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "顺着撒丁馆向东航行一段时间，能看到一座紧挨着自由鸢尾凯旋门的玻璃宫殿，那个就是皇家馆啦~",
+			say = "From there, turn clockwise and head east, and you'll be in the Royal Navy area.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "原来如此……非常感谢！",
+			say = "I see, thank you very much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "你刚才提到的绿色老鹰是什么？",
+			say = "Before you go though, tell me more about this emerald eagle!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "唔……就是刚刚，在大剧场的天上飞过去的，绿色的老鹰？",
+			say = "Um, I thought I saw something flying over the Colosseum not too long ago. It looked like a green-colored eagle of some sort?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "不是你们的开幕式表演么？",
+			say = "Was it a part of the opening ceremony?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嗯……？啊……你喜欢就好。啊哈哈……",
+			say = "Y-yeah, I think you're right about that! Ahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900328,
-			say = "那个真的非常漂亮哦！非常感谢你们的指路，那我就先离开了！",
+			say = "Anyway, thank you very much for the assistance! I'll be off now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "……达·芬奇，你怎么看雅努斯提到的“绿色的老鹰”？",
+			say = "An emerald eagle, huh... What might she be talking about, da Vinci?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "很奇怪。我一直在天上巡视，没见过类似的东西。",
+			say = "Don't look at me. I was on patrol the entire time and didn't see anything strange.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "而且我也不记得开幕式上有设计过这个庆祝环节。",
+			say = "And I don't think that was part of the processions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "唔…………毫无疑问是新闻的气息啊……",
+			say = "So if you weren't responsible for it, then... Oho, this has the makings of a delicious scoop!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "不过现在线索还太少，不好做什么判断。",
+			say = "Or so I'd like to say, but I have no idea where to even begin my investigation...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "总而言之，这是我们在维持治安行动中解决的第一个事件！",
+			say = "In any case, let's just treat it as hearsay until we get some more concrete information.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打起精神，继续向东煌馆前进咯！",
+			say = "Now, onwards to the Dragon Empery pavilion!",
 			painting = {
 				alpha = 0.3,
 				time = 1

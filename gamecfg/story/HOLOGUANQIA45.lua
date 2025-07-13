@@ -13,8 +13,8 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "你也输了么…果然不论如何强化，“棋子”还是有极限的",
+			actorName = "Tester?",
+			say = "Hmm, to think that even you would lose... It seems like there really is a limit to using \"pieces.\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			actor = 10500010,
 			dir = 1,
 			blackBg = true,
-			actorName = "名侦探吹雪",
-			say = "咳咳咳…十分抱歉…",
+			actorName = "Master Detective Fubuki?",
+			say = "*cough* *cough*... My sincerest apologies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,10 +55,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "无所谓了，最初也没指望你们能打赢。争取到了关键的时间也算任务完成了",
+			say = "It doesn't matter. From the beginning, the only purpose you've all served was to buy more time for me while I increased my authorization over the Mirror Sea. In other words, \"pieces.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,10 +72,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "看看周围吧！终于，这片镜面海域的控制权都是我的了！更重要的是，连接世界交汇处的“门”已经重新开始充能了",
+			say = "Look around you. The Mirror Seas around us slowly bend to my will, and the pseudo-Singularity that shall serve as a \"Gate\" between worlds shall open soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,10 +89,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "之前受损的“棋子”应该都快修好了，看看你这身伤…要是现在去做点应急处理，说不定还赶得上最终决战哦？",
+			say = "With this power, repairing \"pieces\" is a simple task... So what say you? Do you wish to reward the Resistance with one final battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,10 +106,10 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名侦探吹雪",
+			actorName = "Master Detective Fubuki?",
 			dir = 1,
 			blackBg = true,
-			say = "多谢您的关心…原来如此，控制权限终于…一切都和计划一样…",
+			say = "Thank you for your consideration... I see now... the authorization is almost complete... Everything has been going according to plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,10 +123,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "嗯，你们确实成功拖延到我夺回权限的时候了。好了，快下去准备-------",
+			say = "Sure. You've bought me the time I needed to clear the authorization, so... Go forth, quickly...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,10 +140,10 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
-			say = "啊---啊啊啊啊aaaaaaaaa…………………",
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "毫无预兆的，在一阵电流的噼啪声和浓密的烟雾过后，测试怪人倒在地上失去了反应",
+			say = "The sound of a surge of electricity was followed by wisps of smoke rising from Tester's body. The Siren collapsed as she lost consciousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			actor = 10500010,
 			dir = 1,
 			blackBg = true,
-			actorName = "名侦探吹雪",
-			say = "一切都和计划中一样…是时候进行后续准备了。",
+			actorName = "Master Detective Fubuki?",
+			say = "Everything has been going according to plan... Now, it's time for me to prepare my next move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			say = "hololive本社大楼近海",
+			say = "Waters surrounding the Hololive HQ",
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事到如今，我已经充分了解诸位的hololive服务器是一个多么神奇的地方,也不会为看到的每一件事都大惊小怪了",
+			say = "Y'know, I've been through quite a lot, so I thought nothing could surprise me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过--------这里又是什么地方啊！！！！！",
+			say = "But this performance stage...",
 			effects = {
 				{
 					active = true,
@@ -275,7 +275,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "放眼望去，层层叠叠的塔状小岛拱卫着一个五颜六色的方块构成的大型舞台，而舞台下方像矩阵一般整齐排列着成千上万个小火把",
+			say = "A performance stage, cobbled together with blocks of various colors, loomed before Zuikaku.",
 			effects = {
 				{
 					active = false,
@@ -294,7 +294,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "从岛屿和舞台散发出五颜六色的光束交织在天空与海面上，空中还回荡着若有若无的音乐声",
+			say = "The words \"HOLOLIVE\" were assembled with large blocks towards the stage's rear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "整片区域仿佛异世界一般，散发出一种不属于这个时代的纷乱美感",
+			say = "Though the appearance was quite normal, there was something indescribably threatening about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:408}，要在这里看Live么？",
+			say = "Zed, I want to watch a concerton this stage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才不要在这么奇怪的地方看演出啊！!",
+			say = "I know nothing about that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，你们也会开Live吗？",
+			say = "Eh? Do you girls also go to concerts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呃，偶尔吧，嗯，偶尔。",
+			say = "W-well, not all of them, but some of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上面写着holo…live，这里就是你们世界里进行偶像活动的…舞台区？",
+			say = "\"Hololive Stage,\" huh... Is this where everyone gathers for performances in your world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "这个是吹雪做的新holo岛舞台哦！镜面海域化之后完全变成地狱绘卷了啊…",
+			say = "This is the new Holo Island Stage that Fubuki made! In any case, it might be a bit unfamiliar to you guys.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 10500010,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊！这个怎么说呢…只是一时兴起的恶作剧…偶像活动什么的绝对和这里无关啦！",
+			say = "Awawawa! This was just... supposed to be a parody! *hides*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（太好了，只差一点，我对偶像的定义也要崩坏了）",
+			say = "(I have a feeling she just barely stopped herself from saying something really controversial...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			actor = 10500020,
 			dir = 1,
-			say = "不过之前也有和大家在这里跳过舞哦，五颜六色的舞台还挺可爱的~",
+			say = "Before I came here, I actually wanted to dance on stage with the others. This stage is so cute with all its different colors~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			actor = 10500060,
 			dir = 1,
-			say = "（空前辈果然完全不懂呢…）",
+			say = "(Miss Sora doesn't get it at all, does she...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（没事没事，这样就好！）",
+			say = "(It's okay, just leave it as it is...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总而言之，这里的异常是塞壬引起的么，我理解了！",
+			say = "I got it! In other words, this stage was distorted by the Sirens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			actor = 10500070,
 			dir = 1,
-			say = "（{namecode:96}也完全没有理解哎…）",
+			say = "(Zuikaku doesn't get it either...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			side = 2,
 			actor = 10500010,
 			dir = 1,
-			say = "（这样就好啦！！）",
+			say = "(That's fine too!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

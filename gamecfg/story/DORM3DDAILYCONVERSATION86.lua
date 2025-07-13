@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION86",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION86",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "嗯？{dorm3d}想知道天狼星有没有考虑过换个发型？",
+			say = "嗯？主人想知道Sirius有没有考虑过换个发型？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +108,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "为了更好的侍奉{dorm3d}，节约自身一切不必要的时间也是必修课哦。",
+			say = "为了更好的侍奉主人，节约自身一切不必要的时间也是必修课哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +117,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "而且，天狼星也希望侍奉在您身边的时间能够更长一些，我骄傲的{dorm3d}……",
+			say = "而且，Sirius也希望侍奉在您身边的时间能够更长一些，我骄傲的主人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

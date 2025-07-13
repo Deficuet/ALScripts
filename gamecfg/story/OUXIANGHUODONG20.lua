@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "azumaster-ins",
 			dir = 1,
-			say = "我明白了，原来这就是「μ兵装」真正的力量",
+			say = "I think I understand the power behind this equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈？这时候才想起来…说实话，这个「μ兵装」并没有把之前的舰装颠覆的战斗力呢",
+			say = "Hmm? Did you only realize it just now? ...To be honest, this equipment doesn't even feel like a significant upgrade compared to what we normally use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "{namecode:426}说得没错。即使多少有一点性能差，这个舰装也不值得大家重新换一套新的",
+			say = "Indeed. Although there are some slight differences in performance, there is no point in changing the fundamental framework of our equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "嘛，即使要换新的也没那么容易啦。毕竟我们作为舰船的龙骨是早就确定了的——",
+			say = "Well, there are only so many changes that can be made at one time. Our hulls somewhat limit what is possible...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个结论说对也对，说不对也不对",
+			say = "Your observations are both correct and incorrect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们使用「μ兵装」一共分为两个场合",
+			say = "So far, we've used the Muse System for two primary purposes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先是在兵器试验和模拟战时作为“兵器”使用的场合……？",
+			say = "First, we've used it as a \"weapon\" during tests and simulations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有像今天这样，作为“和大家一起享受音乐”的工具的场合",
+			say = "Second, we've used it like we did today, to spread joy through music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "两者比较起来，后者展现出来的性能明显高于前者，也就是说",
+			say = "Comparing these two side by side, the second use has demonstrated significantly better performance, which means...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。「μ兵装」并不是作为“舰船”的我们，而是作为单个个人的我们开发的",
+			say = "That's right. The Muse System was not meant to be used by \"warships,\" but rather by us as people. \"Humans.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "……同意{namecode:91}的推测",
+			say = "...Plausibility of Akagi's hypothesis: High.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "「μ兵装」的开发概念并不是击倒塞壬，而是用“音乐”抵消“塞壬的歌声”，也就是说不是“兵器”而是“乐器”",
+			say = "Historical analysis shows that the Muse System was developed not to defeat Sirens, but rather to counteract the Sirens's song. Therefore, its functionality is not to serve as a weapon, but as an instrument.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "奏响乐器，享受音乐带来的快乐的，是一个个拥有感情的个人",
+			say = "Anthropological analysis shows that playing musical instruments and enjoying music with good company are hallmarks of human emotion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "只有当大家用心奏响音乐时，才能最大的发挥「μ兵装」的力量",
+			say = "Therefore, one can infer that that the strength of Muse System scales directly with the strength of one's emotions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			actor = 905030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，还有大家……加斯科涅相信一定是这样！",
+			say = "Akagi, this concludes the analysis...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加斯科涅……",
+			say = "Gascogne...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "于是？后面要怎么办？最后一战对面肯定会全力以赴的",
+			say = "That's fine and all, but... What are we going to do next? You know that all the other girls will be going all out during the final battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			actor = 102240,
 			dir = 1,
-			say = "这种事不是早就弄明白了吗？",
+			say = "Yeah, I think we've already established that. Right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			actor = 202250,
 			dir = 1,
-			say = "是的，说实话，今天的实验中虽然一直在用“战斗”这个词，但是不管是兵器实验还是live，并不存在什么“胜者”和“败者”",
+			say = "Indeed. To be frank, while we may describe these activities as \"battles,\" there are no winners or losers because in the end, this is just an armament trial run.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，大家都是享受这一庆典的一员，没有什么敌我之分",
+			say = "Similarly, there are no allies or enemies either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "那么我们应该做的是身为舰船完成自己的任务，身为“Polaris”的一员给大家带去美妙的音乐",
+			say = "Affirmative. We participated in this event as Polaris, a group of warships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			actor = 905030,
 			dir = 1,
-			say = "不给自己留下遗憾，竭尽自己的全力——",
+			say = "But as \"people\" who experience emotions, we should not leave behind any regrets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 905030,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一起奏响最后一首歌吧！",
+			say = "Therefore, let us fight with all our might, and have fun at the same time!",
 			effects = {
 				{
 					active = true,

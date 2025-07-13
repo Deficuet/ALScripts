@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "遇见了委托归来的鞍山，获得了奖励【石油*50】"
+			say = "You received supplies from a ship you sent on a commission! Collect 50 Oil!"
 		}
 	}
 }

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "塞壬的威胁暂时解除了……不过周围似乎出现了新的变化。",
+			say = "The Siren threat has been eliminated from this sector... but something seems different here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "区域中出现了多个机关，不过看起来其中只有一个才是正确的选择……",
+			say = "Only one of these switches is the right one. There must be some way to narrow down our options...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

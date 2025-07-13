@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "NA海域·安全航线",
+			say = "NA Ocean - Secure Sea Passage",
 			bgm = "blueocean-image",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "自从构建者被击败后，NA海域中的情况正在一天天好转。",
+			say = "Since the downfall of Compiler, the waters of the NA Ocean had become considerably safer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "随着能够让一般船只在护航下跨越大洋的安全航线的设立，大洋上变得重新繁忙起来。",
+			say = "Apparently, a few old sea lanes even reopened for traffic while I was assisting on the Reality Lens project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "不过很遗憾，NA海域上空还没有安全到能让客运飞机自由通行的程度。",
+			say = "With my part finished in the development of the Type II rigging, I finally had the opportunity to attend the World Expo...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "此刻，船团正沿着一条安全航线向着目标撒丁帝国前进。",
+			say = "But unfortunately, the airspace above the NA Ocean was still not sufficiently safe for passenger aircraft. I had to go by sea, accompanied by a sizable escort fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "风和日丽，海况平稳，是一个适合旅行的好天气啊~",
+			say = "This weather is perfect for a cruise. Calm seas, clear skies, and a fair breeze.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间过得真快，不知不觉就连开了半年多的博览会也要接近尾声了……",
+			say = "But wow, I can hardly believe how quickly time flies. The World Expo is almost over...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "之前咱们没赶上开幕式，这次在闭幕式期间一定要好好放松一下~",
+			say = "It's a bummer we couldn't make it for its opening, but at least we'll get to enjoy the closing ceremony.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "你说是不是啊————指挥官！",
+			say = "Commander, how do you feel abo– Hey! Put those away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，把指挥官手里的文件没收掉！",
+			say = "Helena, come here and take this paperwork away from the Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这次是放假，要严格限制每日工作时间才是！",
+			say = "This is supposed to be a holiday, for you and all of us. No work outside of your allotted hours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……在假期里限制工作时间，本来就很奇怪。",
+			say = "...Working on a holiday at all is weird to begin with.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "那你跟指挥官说，放假时间别工作了好不好，你看看能得到什么回复。",
+			say = "I know. Tell it to the Commander and see what response you get.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，放假时间别工作了好不好。",
+			say = "You don't have to work all the time, Commander. Can't you set your job aside for at least a few days?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,18 +245,18 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "…………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好！",
+					content = "\"Believe me, I'd love to.\"",
 					flag = 1
 				},
 				{
-					content = "有些困难……",
+					content = "\"There's no escaping my duty.\"",
 					flag = 2
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "但是，我不找工作，工作就不会来找我么。",
+			say = "\"But, the new work doesn't care if I'm on vacation or not. It's not going to stop coming in.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "毕竟就算不主动找工作，工作消息还是会源源不断发过来。",
+			say = "\"The more time I take off, the more my backlog grows.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "你看吧，所以就只能采用这种折中方案了。",
+			say = "And that's why a limited-work-hours compromise is the best I could get from the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好像确实是这样，指挥官辛苦了。",
+			say = "That's... rough. You have an unenviable job, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,11 +322,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "诸位好久不见，这里是白鹰驻NA海域舰队旗舰{namecode:199}！",
+			say = "Hello, hello! This is battleship New Jersey!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "接下来，诸位在NA海域中的旅途将由我带领舰队全程护航。",
+			say = "I'm in charge of the escort fleet that'll guide you through the NA Ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们什么都不用担心，好好享受休假之旅就可以了~",
+			say = "Meaning, you've got nothing to worry about! You'll be in good hands the whole way there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "好久不见，{namecode:199}。",
+			say = "Long time no see, New Jersey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "重回NA海域还习惯么？",
+			say = "How long has it been? Since around Compiler's defeat, maybe? How have you been?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "实话实说，不习惯！",
+			say = "I've been great! Thanks for asking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "无聊……现在这里实在是太无聊了。",
+			say = "Well, I guess I've been a little bored – haven't seen any action for a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听我说啊，Honey——",
+			say = "By the way, I've got good news, honey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咳……公共频道。",
+			say = "Ahem... This is a public channel. Please be professional.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……听我说啊，指挥官，真是今非昔比！",
+			say = "Right, uh... Commander, good news.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "现在NA海域这里，我已经连续十天，连一艘塞壬量产型都没看到了！",
+			say = "Our patrols haven't spotted a single mass-produced Siren ship lately!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "整整连续十天啊！",
+			say = "That's 10 – I repeat – 10 consecutive days without a single Siren in sight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "自从构建者被消灭后，以往怎么打都总能冒出来的塞壬真的开始永久性减少了！",
+			say = "They used to be everywhere when Compiler was still around. Now that she's gone, it really feels like they went the way of the dodo!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "……怎么听上去像在哀叹某种生物种群的消亡一样。",
+			say = "\"You make them sound like an endangered species, rather than a pressing existential threat.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "差不多就是这种感觉啊！",
+			say = "Yeah, except it's a good thing!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "我现在每天的工作就是看报告，巡逻，然后对着大海发呆……",
+			say = "Things are so peaceful that my day job now is just reading reports, patrolling, and gazing at the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是帕克菲克洋那边有意思……早知道就不跟企业换了！",
+			say = "Makes me envy Enterprise, honestly. I wanna kick some Siren ass too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "{namecode:199}，别忘了，没有敌人的大海才是我们为之战斗的目标哦。",
+			say = "Isn't peace what we're all fighting for? We should look forward to the day we don't have to fight anymore.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在这样的和平才是正确的，才是我们的大海应该有的状态。",
+			say = "The peace we're enjoying right now is how things should be.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，NA海域也没有真的平静到无事可做的程度吧？",
+			say = "Besides, it's not like there's NOTHING to do. There are still pockets of Siren activity in the NA Ocean.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "之前袭击皇家舰队的那次事件，塞壬出动的舰队规模可是非同一般，袭击者的来源和所属查清楚了么？",
+			say = "Then there's that fleet of Sirens that attacked the Royal Navy during their ceremony at Scapa Flow. Did we ever figure out where they came from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "不愧是孟菲斯……一下子就直击问题的关键点。",
+			say = "You can always trust Memphis to get to the heart of any topic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，毫无头绪！",
+			say = "To answer your question – no clue!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "毕竟它们真的就突袭了这么一次！",
+			say = "After the Royal Navy repelled 'em, they just vanished into thin air.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,7 +755,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是因为要防范“第二次袭击”，我才要留在这反复巡查啊……",
+			say = "In any case, we don't want a repeat of that. That's why I'm out here, patrolling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "唉……希望它们赶紧再来一次，然后追根溯源，把它们一网打尽！",
+			say = "If they ever come into my waters, I'm chasing them back to their stronghold and wiping them out for good!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "…………看来太过悠闲，也有太过悠闲的烦恼。",
+			say = "\"It was good to catch up with you, New Jersey, but I have to hang up now.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,11 +796,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴————",
+			say = "BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家海军驻NA海域旗舰乔治五世，向诸位问好。",
+			say = "Greetings, Commander. This is King George V of the Royal Navy.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "欢迎来到NA海域，指挥官。",
+			say = "We will accompany you on your trip to Sardegna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "本次在您的舰队航行期间，皇家海军也会为您全程护航，请您放心。",
+			say = "You will enjoy not just the Eagle Union's protection on this journey, but the Royal Navy's as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			},
 			options = {
 				{
-					content = "非常感谢，辛苦了。",
+					content = "\"Thank you. It's reassuring to have you with us.\"",
 					flag = 1
 				}
 			}
@@ -876,7 +876,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用客气，这是皇家海军应该做的。",
+			say = "Don't mention it. You're headed to Europa, where it is the Royal Navy's duty to assist you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，陛下还有话托我转告您。",
+			say = "Additionally, I have a message to you from Her Majesty.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,7 +914,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陛下说，在闭幕式结束之后，皇家馆虽然会对外关闭，但不会立刻拆除。",
+			say = "She said the Royal Navy's pavilion will stay up for a while after the World Expo's closing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "她已经为您预留了包场参观的时间，希望您在方便的时候去看看。",
+			say = "However, it won't be open to the general public. Rather, Her Majesty has reserved a time slot just for you to visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，陛下因为公务原因无法前往闭幕式，她托我向您表达遗憾之情。",
+			say = "Lastly, she will unfortunately not be able to attend the closing ceremony due to official business coming up last minute.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不过会场皇家的相关事宜已经全权委托给光辉女士了，指挥官如果有需要直接去找她就好。",
+			say = "For all questions about our pavilion, speak to Illustrious. She handles the on-site side of things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "有些意外，没想到伊丽莎白错过了开幕式，现在连闭幕式也赶不上。",
+			say = "\"Good lord. First she misses the opening ceremony due to that Mirror Sea incident, and now she's going to miss the closing ceremony too?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "还以为她一定会来凑这个热闹呢。",
+			say = "\"I thought she wouldn't miss the World Expo for... well, the world.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "陛下也非常遗憾，她一直都非常想来，还做了不少盛大的登场准备……",
+			say = "Believe me, she really wanted to attend. She prepared extensively for it, but it was sadly all for naught.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不论如何，陛下祝您在博览会闭幕式上度过一段愉快的时光。",
+			say = "At any rate, Her Majesty hopes you have a wonderful time at the Expo.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是，我也是！祝指挥官能享受一个美好的假期！",
+			say = "Me too! Praying you have a great holiday, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "两位都太夸张了……非常感谢。",
+			say = "\"You don't need to hype this vacation up so much. Still, thank you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哪里夸张了？你还记得上一次休假是在什么时候么？！",
+			say = "\"Hyping it up\"? You've earned this. I can't even remember the last time you got some time off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1082,7 +1082,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "对了~我记得陆间海里塞壬袭击事件还是时有发生对吧？",
+			say = "While I'm on the line – I should mention that I've heard reports of stray Sirens in the waters around Sardegna.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1100,7 +1100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "那可比NA海域这边危险多了！",
+			say = "You can expect those parts to be a lot, lot more dangerous than here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安全起见，要不我干脆一路护送诸位前往会场如何？",
+			say = "So, just to be safe, why don't I escort you all the way to the Expo?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就能确保绝对安全了！",
+			say = "Wouldn't want to be ambushed during the last leg of the journey, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1156,7 +1156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……咳，请某些人不要明目张胆的进行玩忽职守发言。",
+			say = "I'm sure there's no ulterior motive behind this idea...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请不必担心，{namecode:199}女士。",
+			say = "There's no need, New Jersey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1192,7 +1192,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "进入直布罗陀海峡后，西陆间海的护航将由厌战负责，之后中陆间海直到会场的护航将由光辉负责。",
+			say = "Once you pass the Strait of Gibraltar, Warspite will escort you to the Sardegnian mainland. After that, Illustrious will accompany the Commander to the Expo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家海军会确保指挥官在陆间海期间的安全的。",
+			say = "Between those two points, the Royal Navy shall ensure the Commander's safety in the Mediterranean Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1225,7 +1225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "况且埃塞克斯和其他人也在，某人就放弃偷懒的想法，好好在NA海域执勤吧~",
+			say = "And besides, we have Essex with us. You just focus on keeping the NA Ocean safe.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1244,7 +1244,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……好————",
+			say = "Aww... Fiiiine, have it your way.",
 			painting = {
 				alpha = 0.3,
 				time = 1

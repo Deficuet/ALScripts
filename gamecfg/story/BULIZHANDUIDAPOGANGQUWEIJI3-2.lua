@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "于是，布里两姐妹继续顺着地图前进。",
+			say = "The remaining two bulins followed the map forward.",
 			bgm = "story-battle-16bit-sfc",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在地图的指引下，就算是在如同迷宫般复杂的蜂巢基地中，两姐妹也总能找到前往机房的最短路线。",
+			say = "The hive cluster was mazelike with many forking paths, but the map always kept them on the shortest route to their objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "终于，只要经过前方一段狭长的白色通道，就能抵达超级AI-TC主机的机房了——",
+			say = "All they had to do was go through the long corridor up ahead to reach the server room of TC, the super ai.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，只要穿过这条通道，我们就能抵达机房了burin！",
+			say = "We just gotta go through here and we'll be in the server room, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是一段漫长的旅途啊buil！",
+			say = "Man, it's been a LONG journey up to this point, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，怎么回事？通道怎么突然封锁了buil！",
+			say = "...What? Hey! The corridor just got sealed off, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是我们再进来之后不小心触发了安保系统burin！",
+			say = "Uh-oh! Did we accidentally trip the security system, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，有激光束切割过来了burin！",
+			say = "Look out, bulin! There are lasers coming for us, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有竖、有横，还有网状的……花样还不少buil！",
+			say = "Vertical, horizontal, even mesh-shaped... That's a lot of lasers, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妹妹，不用担心，这里就交给我吧buil！",
+			say = "But don't worry, I know what to do, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毁灭型强化武装模式，启动buli——！",
+			say = "Annihilation Armament Mode engaged, bulin!",
 			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐burin！",
+			say = "What are you gonna do, bulin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 100001,
-			say = "快走，就由我来守护你的身后buli！",
+			say = "Hurry up and go, bulin! I'll watch your back, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我绝对不会放过一根激光过去的buli！",
+			say = "Not a single laser is gonna pass through me, bulin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "于是，布里三姐妹战队的二姐泛用型布里留在了此处，却为妹妹开辟了继续前进的道路——",
+			say = "And so, the second oldest bulin stepped up to the plate and opened a path for her sister while she stayed behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

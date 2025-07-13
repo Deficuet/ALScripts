@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"凛冽如恶鬼\n\n<size=45>三  却非恶鬼</size>",
+					"As Cool As A Demon\n\n<size=45>3 Demons and Men</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "与{namecode:181}一同来到了港区后山的瀑布前——",
+			say = "Kinu told me to meet her at a waterfall just by the mountain situated behind the port. She said it's a good place to meditate.",
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了在劣势情况下也能维持冷静与从容，通过瀑布修行来磨炼意志真是最合适不过了。",
+			say = "Meditating beneath a waterfall is a superb way to work up the composure needed to remain unperturbed in the face of any battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "二位中午好呀~",
+			say = "Oh. Hey there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:47}，你在这里做什么？",
+			say = "Abukuma? What are you doing out here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我在钓鱼哦。指挥官该不会打算在瀑布那里修行吧，现在的水温很低哦？",
+			say = "What's it look like? Fishing. You're not going under the waterfall, are you, Commander? The water's cold as ice today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好，关于这次修行，有件事要跟你说一下……",
+			say = "Oh, about that, actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "虽然有点在意{namecode:181}对{namecode:47}耳语了什么，但还是毅然走向了瀑布的方向。",
+			say = "Kinu leaned in to whisper into Abukuma's ear. That felt suspicious to me, but nevertheless, I stepped forth and went barefoot into the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官，听好了——不管发生什么事都不要分心，不要再像遇到胡蜂时那样失态了。",
+			say = "Listen, Commander: no matter what happens, you musn't be distracted. You cannot allow a repeat of the wasp incident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "下定决心进入瀑布后，冰冷而强大的水流瞬间冲刷下来，全身都笼罩在巨大的轰鸣声中。",
+			say = "Steeling my resolve, I went in beneath the waterfall. The water was freezing cold and crashed into me like a ceaseless tsunami.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "维持站姿，感受着冲击与轰鸣……尝试使内心平静下来。",
+			say = "Now hold that pose and stay there. Endure the pain, soldier through the cold, and nothing will be able to shake your spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "记住，不管发生什么事都不要分心哦！",
+			say = "Let me stress this: no matter what happens! Understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "{namecode:181}再三叮嘱着这个……是有什么用意吗？",
+			say = "Kinu emphasizing that specific part made it sound as though she was planning something, which made me raise an eyebrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，不用勉强哦……还有，提前跟你说声对不起。",
+			say = "Just don't overdo it, all right, Commander? Also, sorry ahead of time for this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:47}，别说些多余的话。",
+			say = "Hush, Abukuma. Not another word of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "知道了知道了。咦~？好~像~有~大~鱼~咬~钩~了~？",
+			say = "All right, then... Aw, shucks, I think I've got something big on the hook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "{namecode:47}突然机械般地念叨起了什么来。",
+			say = "For whatever reason, Abukuma started speaking with a very deadpan tone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~啊~这~条~鱼~力~气~好~大，要~拽~不~住~了——",
+			say = "Oh nooo. This is a biiiig big fish. So big I can't reel it in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别分心，指挥官。",
+			say = "Stay focused, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "救、救~命~呀，指~挥~官——救……",
+			say = "Heeeelp, Commandeeeer. It's pulling me iiiiin... Here goes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "{namecode:47}落进了河里——这怎么看都是故意掉下去的吧……",
+			say = "Abukuma fell into the river. Or rather, it looked more like she jumped in by her own volition. Her \"Here goes\" sounded especially suspect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			say = "心里虽然明知这是演技，身体还是先一步行动了。",
+			say = "However, I had to do something on the odd chance she wasn't faking it. Stepping out of the waterfall, I waded through the river to help Abukuma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_142",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……指挥官真的来救我了。",
+			say = "Wow, uh... I didn't think the commander would fall for that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同伴的安危确实很重要……但是身为指挥者这么不经思考的行动只会起到反效果！",
+			say = "Your willingness to come to the rescue of an ally is certainly a virtue. But on the battlefield, it is a weakness that will only make matters worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "冷静观察，在{namecode:47}落水的时候我就在她身边待机，你应该对我下达救援命令，而不是莽撞的以身涉险。",
+			say = "I stood right next to her as she fell in the river. You should've ordered me to jump to her rescue, not do it yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……既然是指挥官的判断，我不会再继续多说什么……不过，修行失败了，重来！",
+			say = "As long as you learn from your mistake, it's no harm done. On a more immediate note: you failed! Start over from the beginning!",
 			effects = {
 				{
 					active = true,
@@ -491,7 +491,7 @@ return {
 			actor = 302080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（接受了恶鬼的试炼，却没有变成真正的恶鬼。作为指挥者来说略显不足，可是作为人来说……呵呵。）",
+			say = "(Interesting... I suppose one need not BE a demon to CONTROL a demon...)",
 			effects = {
 				{
 					active = false,
@@ -512,7 +512,7 @@ return {
 			bgName = "star_level_bg_142",
 			dir = 1,
 			blackBg = true,
-			say = "虽然{namecode:181}用严厉的语气催促着修行的再次展开，不过她的嘴角好像掠过了一丝转瞬即逝的微笑……",
+			say = "Despite the stern look Kinu gave me as she ordered me to start over, I felt she was strangely pleased with my judgment call to help Abukuma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

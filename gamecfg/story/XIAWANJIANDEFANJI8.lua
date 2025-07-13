@@ -8,7 +8,7 @@ return {
 		{
 			soundeffect = "event:/battle/boom2",
 			side = 2,
-			say = "轰-------------！",
+			say = "BOOM!",
 			dir = 1,
 			bgm = "battle-boss-1",
 			flashN = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "皇家的增援来了么…！",
+			say = "It's the Royals! Their reinforcements!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不对，好像是我们的增援，是{namecode:401}！",
+			say = "No, I think it's our reinforcements! It's Z2!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什、什么？！",
+			say = "H- huh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "绝对不能抛弃同伴独自撤退，虽然我很想说着这么帅气的话登场。",
+			say = "\"Leave no man behind.\" I've always wanted to say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "可是实际上，已经没有任何一条能够让我们撤出峡湾的航道了呢…",
+			say = "But the truth is: we have no way out of this fjord.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "果然是这种结果么……",
+			say = "So this is how it ends...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "一、二、三……爱斯基摩人陷入大危机…",
+			say = "One, two, three... how's Eskimo gonna get out of this one...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "得赶快联系厌战才行！",
+			say = "I have to get word to Warspite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "忙完了么？我是{namecode:401}，对面的皇家驱逐舰，你是谁？",
+			say = "Are you done? I am Z2. Identify yourself, Royal Navy destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "皇家部族级驱逐舰爱斯基摩人！",
+			say = "Royal Navy Tribal-class Destroyer Eskimo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			actor = 401020,
 			dir = 1,
-			say = "很响亮的回答。你不害怕么？",
+			say = "What a vigorous response. Are you not afraid?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 201320,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "区…区几艘铁血驱逐舰而已，我完全不害怕哦！",
+			say = "Of a f- few Iron Blood destroyers? Not even a little bit!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			actor = 201320,
 			dir = 1,
-			say = "（得在厌战赶来之前拖住她们…！）",
+			say = "(I have to stall them until Warspite gets here...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯…多少也算是战果。在你们的增援赶来之前，稍微陪我一下吧。",
+			say = "Well then, you're going to stay a while with me, until your reinforcements show up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

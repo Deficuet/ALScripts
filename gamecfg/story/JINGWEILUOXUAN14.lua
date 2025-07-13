@@ -12,7 +12,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰————————！",
+			say = "KABOOM——!!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "啧，变得难缠起来了。",
+			say = "Another airstrike?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:199}，机群又一次遭到重樱舰载机的拦截，而且火力密集，一时间无法突破……！",
+			say = "New Jersey, we're coming under attack again! We're under heavier fire than before and can't break through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "无法突破？对面不都只是些量产型么，到底怎么回事？",
+			say = "What the hell's going on? Are they finally springing their trap on us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "我也不清楚……！但这波敌机相比之前遇到的那些战斗力提升了好几个档次，简直就像……真正的重樱舰队一样。",
+			say = "I can't say for sure, but the enemy aircraft are much stronger than the ones we encountered before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不可能！重樱舰队绝对不可能赶的到这里来。况且真正的重樱舰队从一开始就会全力进攻，根本没理由白白送掉那几波飞机！",
+			say = "Could this be the real Sakura Empire fleet? Did they mistake us for the Siren Pawns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "伴随飞行的不明友方机群呢？",
+			say = "But didn't we establish that it was impossible for them to have sailed their entire fleet into the sea fog...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "全部被击落……这些机群的行动方式有些单一，反倒更有种棋子的感觉……",
+			say = "Wait... Now, there are more Eagle Union planes intercepting the ones attacking us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "我有点晕了……塞壬用棋子帮助我们对抗它们生成的另一批更强的棋子？",
+			say = "This makes no sense... Are the Sirens attacking themselves?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "看起来确实是这样的，这也是塞壬进行AF重演的一环么……？",
+			say = "I'm starting to get a pretty good idea of where the Siren ships are from tracking the direction and timing the planes are coming from!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "不过既然两边棋子齐全，我们究竟代表着什么，又为什么一定要让指挥官离开“棋盘”呢……",
+			say = "Do you think the commander has a hand in why these Pawns are behaving strangely?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:199}……！那个……通讯频道……有消息！",
+			say = "N-New Jersey! We're receiving a message on the communicator!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "啊，我在听，你说？",
+			say = "A message? Is there a ship capable of breaking through the interference here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不……不是这个，是旧频道，就是我们以前用过的那个……",
+			say = "I don't think so... I remember this channel being in use during the AF Reenactment, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "咦？旧频道是么，好的，我调整一下！",
+			say = "I have no idea what you're trying to say, Boise. Let's hear the message first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,12 +327,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "滋—滋——",
+			say = "Bzzt..........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 107070,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "可恶……！目标上空存在大量战斗机护航，鱼雷机无法造成有效损伤！明明已经近在咫尺了…………！",
+			say = "\"Damnit, there's way too many fighters escorting the target, and we can't hit it with our torp bombers! We're so close...!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 107060,
-			say = "我这里也是，鱼雷机无一命中目标，抱歉……",
+			say = "\"Sorry, I haven't been able to score any hits from my torpedo bombers either.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 107060,
-			say = "根据她们舰载机的调动方式看来，我们的位置也很可能暴露了。",
+			say = "\"The enemy seems to have scrambled their air wings as well, so our positions may have been compromised by our attack.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 107050,
-			say = "别灰心！重樱舰载机从出发到完成袭击还有不少时间，我们依然保有主动权！",
+			say = "\"Don't be discouraged! We still have the initiative for the time being!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 107050,
-			say = "这一次由我带头，大家一起使用战斗机和轰炸机进行正面突破吧！",
+			say = "\"Let's coordinate our attacks then! We'll break through with a frontal attack!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 107050,
-			say = "大家都打起精神来！进攻从现在才算正式开始哦！",
+			say = "\"Look alive, everyone! This is our counterattack!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "大黄蜂……企业和约克城？",
+			say = "Hornet, Enterprise, and Yorktown...? Why am I hearing their voices now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这是我用小熊全频道搜索的时候发现的……真、真是太不可思议了。",
+			say = "Mr. Bear told me a message was coming in on a certain channel...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "真没想到增援我们的居然会是她们三位……！",
+			say = "Did the three of them come to help us...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来约克城小姐已经康复了啊，真是太好了……",
+			say = "That's impossible... We know that Yorktown was heavily damaged during the previous operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不对不对，这怎么想都不可能啊！大黄蜂现在还在NA海域，企业在NY司令部，约克城也还……",
+			say = "Right. Enterprise should be with the Naval HQ at NY City, and Hornet is participating in Operation Siren...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "……总之，她们三人绝对不可能在此时同时出现在这片海域中！",
+			say = "This about confirms my suspicions. The Sirens' Reenactment includes a full clash between the Eagle Union and Sakura Empire Pawns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那刚刚收到的通讯是怎么回事…………？",
+			say = "And what about this message?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "嗯————我不知道！{namecode:200}，你怎么看？！",
+			say = "Maybe something fabricated sent between the Pawns?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "既然塞壬正在进行某种程度上的AF战役重演，那刚才通讯也是当时战场通讯的可能性非常高。",
+			say = "Yeah, that's what I think so as well. Saratoga was the one leading Operation AF, so a conversation like this wouldn't have happened in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			actor = 102290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "难道那场作战中，塞壬全程都在截获我们的联络么…………？",
+			say = "How much information do the Sirens have on us...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以塞壬的技术水平来说，倒也不是不可能……",
+			say = "It's not really something I want to think about. We've been fighting them for years, but the Sirens are still a complete enigma.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107140,
-			say = "按照刚才前来支援的舰载机是塞壬用来模拟我方行动的棋子的思路来思考的话……",
+			say = "So, to sum things up, the Sirens are reenacting a battle between the Eagle Union and the Sakura Empire here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……塞壬总是在进行的数据收集可能就是在为这样的对抗实验做准备？",
+			say = "Do you think they're collecting data from the results of the battle?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			actor = 101470,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "数据收集的越多……依据这些数据制造的棋子战斗力也会变得更高？！",
+			say = "Data collection...? Will they use it to get stronger, like Mr. Bear?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 101470,
-			say = "那么刚才那些突然变强的敌人会不会就是它们正在实验的新型棋子……！",
+			say = "Wait, do you think they used the data from yesterday's attack to make these new-and-improved planes...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "这可不好！如果那种战斗力的棋子被大规模量产的话今后的麻烦可就大了！",
+			say = "(Crap... It's definitely a possibility... If they keep running this Reenactment over and over and mass produce stronger and stronger enemies, there's no way we'll be able to stop them!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不论如何必须破坏这里的实验。{namecode:200}，将舰载机撤回来，优先保证舰队上方的制空。",
+			say = "Ty, gather up your recons and focus on securing air superiority first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 105170,
-			say = "不管棋子航空队的战斗力有多强，只要能接近到MK7的射程之内，一切就都结束了！我们这支舰队本来也不是主打航空战的嘛~",
+			say = "Morrison, keep using Mr. Bear to monitor the communication channels and let me know as soon as something happens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -794,7 +794,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:198}和{namecode:197}请继续寻找周边海域，看来我们附近还存在一支棋子白鹰舰队。",
+			say = "We still need to find the commander, and we'll beat it out of them if we have to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			actor = 105170,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然还没有展现出敌意，但终究是塞壬控制的棋子，我需要掌握它们的动向和规模！",
+			say = "If the Sirens think they can fool us with their petty tricks, they'll soon be answering to my Mk7's!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

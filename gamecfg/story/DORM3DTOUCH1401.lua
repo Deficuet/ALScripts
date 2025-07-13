@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，可以请你再用力摸摸天狼星吗？有一种正在被{dorm3d}宠爱的感觉……",
+			say = "Would you mind patting my head more, my honourable {dorm3d}? It makes me feel loved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "无数敌人如潮水一般从四面八方涌向卡美洛之庭。",
+			say = "The Royal Navy fought fiercely, successfully repelling every foe the black tornado threw at them, leaving only wrecks that vanished into the mist.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			say = "不过……潮水被城墙前密集的火力阻止了，没有任何敌人成功进入外环。",
+			say = "However, while no enemies had made it through the gate, they kept coming in wave after wave.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人无穷无尽，如同洪水，如同兽群……而我如今正屹立于卡美洛之庭上。",
+			say = "How long I've waited to fight a tremendous threat side by side, shoulder to shoulder with my allies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "此时此刻，我第一次产生了身为皇家骑士，为皇家而战的实感……",
+			say = "All the medals and merits in the world pale in comparison to this euphoric feeling. This must be it – the glory I've craved all this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然在训练场上见过你的英姿数次，不过还是第一次见到你如此意气风发的火力全开。",
+			say = "Man, THIS is reinvigorating. I've been dying to blow off some steam for a long time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感想如何？",
+			say = "Sounds like you're having a ball, Vanguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你很强，也许比那些铁血的计划舰更强。很荣幸能与你并肩战斗。",
+			say = "You've got that right. This exhilarating swordplay is what all Royal Knights strive for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，你稍微提起一点与我决斗的兴趣了么？",
+			say = "Enjoy it while it lasts. Once Her Majesty gives the order, the party is over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……我其实从那天之后就一直在想这个事。等我们平安回去之后就立刻安排吧！",
+			say = "I know. If you're left aching for more, what do you say we have a duel later?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次不是社交辞令了？",
+			say = "You already know my answer. The question is if your schedule allows for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然被你发现了啊……非常抱歉，这次是认真的！",
+			say = "We'll see. We could be here for a while. For now, just focus on the targets in front of you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，好。不过要首先把这些阻碍我们回去的敌人都消灭才行呢~",
+			say = "Hah! They're already in my sights! None of those bastards will slip by me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "为什么，为什么要抵抗呢？",
+			say = "Why do you keep struggling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "成为META就是你们的命运，为什么要抵抗命运呢？",
+			say = "You're all going to go META in the end. That's just a fact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "还有你们，明明已经接受了命运，明明已经见到了末日，为什么还要反抗呢？",
+			say = "The future's set in stone. There's nothing you can do to change it. Haven't you known that for ages now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "为什么不继续META化下去，直到极点呢？",
+			say = "Look at us. We're living weapons. Let's stop pretending we're more than that and just do what we do best – fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "算啦~既然如此抗拒的话，就毁灭吧。",
+			say = "Or... you can keep denying what you are, and I'll just reduce you to scrap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#BDBDBD",
 			dir = 1,
-			say = "等你们毁灭之后，我们有永恒的时间交流呢——",
+			say = "All it'll do is break one little branch. And I've got all the time in the universe to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "轰——————————！",
+			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
@@ -420,7 +420,7 @@ return {
 			actor = 900233,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我说，别无视我啊——————！",
+			say = "Put a sock in it, you half-pint of shit! Turn around and face me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 900233,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们之间的账还没算完呢！",
+			say = "Mama never taught ya not to walk out on a girl while she's talking? Well, I'm back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 900233,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "以为能在舰队的数量上压过我未免太天真了吧？！",
+			say = "Thought you'd get rid of me that easily? You ain't the only one with an endless supply of replacement hardware!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 900233,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "真是气死我了……破坏了实验不说还引发了大混乱。看我好好教训教训你！",
+			say = "Now bend over! You're gonna pay for what ya did to my test site!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 205130,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，净化者再次带领舰队出现，正在从后方向未知敌人发动猛烈进攻。",
+			say = "Purifier's returned? I thought she got destroyed back there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 205010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个净化者倒是挺尽职尽责的……",
+			say = "She can come back as long as she has a spare vessel! It's why she never stays dead no matter what we do!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_camelot_13",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在正面压力有所减轻，我们也许可以试着出去消灭她？",
+			say = "This time, it's to our favour – the assault is letting up! Her Majesty, is the teleporter ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 205010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不，本王不想冒险。",
+			say = "The coordinates... Yes, they're stable! Now's our chance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 205010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在净化者替我们吸引了火力。在它努力工作的时候，我们嘛~该撤了！",
+			say = "Delete the coordinates to Camelot as soon as everyone is back in Scapa Flow! Do NOT let her trace us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			say = "伊丽莎白摁下启动按钮，卡美洛之庭再次被耀眼的金色光芒覆盖。",
+			say = "The queen ordered the retreat. One by one, the girls sprinted through to safety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
-			say = "只在转瞬之间，巨大的城市就从水面上彻底消失了。",
+			say = "When the last one made it past the giant gate, the power was cut, erasing almost all trace it had ever existed in the Mirror Sea.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
-			say = "黑色风暴在海面上又徘徊了一阵子，在留下无数塞壬残骸后，也烟消云散了。",
+			say = "Its prey having escaped its clutches, the black tornado lost interest in the place and quickly disappeared off into nothingness.",
 			effects = {
 				{
 					active = false,
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_camelot_9",
 			dir = 1,
 			blackBg = true,
-			say = "雾淡云清，明月高悬。城市上空的夜景就如不久前一样，恢复了宁静与安详——",
+			say = "All that remained in the sea around the recreated Point Berth was a vast graveyard of Siren wreckage, silently echoing the tale of the battle that was fought there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

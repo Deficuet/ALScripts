@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "正在分析战场环境……………",
+			say = "Scanning area of operations... Scan complete.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "警告：检测到塞壬的增援舰队正在接近。",
+			say = "Warning: There are still Siren hostiles active in this sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

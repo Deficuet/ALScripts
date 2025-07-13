@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，第一个探花——威尔士！喏，请在这里写下自己的愿望",
+			say = "So, the first flower goes to... Prince of Wales! There you go, write down your wishes here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "咦……要在大家的面前写吗？",
+			say = "Emmm….do I have to write it in front of everyone?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯?有什么不方便让我们看到的内容吗？",
+			say = "Hmm? Is there something that you can’t tell us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈~当然不是，那我就写了——“希望每个女孩子都能露出真心的笑脸”……OK！",
+			say = "Haha~ of course note, I’ll write it then --- “I hope that every girl can show her true smile”...OK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "榜眼——{namecode:412}！喏，写在这里",
+			say = "Z46! Here, write something~",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -108,7 +108,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "……希望碧蓝航线的大家都能轻松一些……",
+			say = "...I hope that everyone on Azur Lane can get the chance to relax...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -127,7 +127,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哇，字好娟秀！",
+			say = "Wow, such pretty handwriting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉快坐好，下一局马上开始了！这次我一定——",
+			say = "Sara sit still, the next round will start soon! This time I must...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉托加——榜眼！",
+			say = "Saratoga --- You write, too!",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "“希望能过得更加有趣”——OK！",
+			say = "“I hope I get to experience more interesting things” --- OK!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里应该写的是对同伴们的思念之情吧",
+			say = "Shouldn’t you be writing well-wishes for your fellow shipgirls?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？能和同伴们团聚不就是最最有趣的事情吗！",
+			say = "Hmm? Then isn’t being able to get together with all of you the most interesting thing ever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "榜眼——逸仙！嘻嘻，是我自己呢~",
+			say = "Lastly --- Yat Sen! Hehe, it’s my turn this time~",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么……要写些什么呢？",
+			say = "So...what should I write then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“希望大家明年都能有新衣服”……就这样吧！",
+			say = "“I hope that everyone will get new clothes for next year”...let’s say that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "新衣服吗……也有就喜欢穿常服的人在呢……",
+			say = "New clothes... there are those who also like to wear uniforms...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第二个探花——{namecode:428}！",
+			say = "Second place goes to... Eugen!",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -366,7 +366,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "哎哎哎，我也是探花！？",
+			say = "Hmmm, I’ve been given a second place?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就……“希望能与姐妹们团聚”，可以吧？",
+			say = "Then…”I hope to be able to get together with my sisters”, is that ok?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得脑袋里浮响出一声“哈！”……",
+			say = "I feel like suddenly thinking out loud “ha!” ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后是状元——宁海！",
+			say = "Finally, the first place... Ning Hai!",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -446,9 +446,9 @@ return {
 			actor = 502022,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "宁海",
+			actorName = "Ning Hai",
 			dir = -1,
-			say = "咦！？我是状元！太棒啦！",
+			say = "What!? I'm the first place! Great!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -466,9 +466,9 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "平海",
+			actorName = "Ping Hai",
 			dir = -1,
-			say = "我也想成为状元……",
+			say = "I wanna be on the first place as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，宁海，需要考虑一下要写什么吗？",
+			say = "So, Ning Hai, have you decided on your wish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,9 +497,9 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "宁海",
+			actorName = "Ning Hai",
 			dir = -1,
-			say = "要写的内容，我一开始就决定了——希望能迎来更多的、更多的同伴！",
+			say = "Yes, from the very beginning... I wish more and more friends will join us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "所有的花灯都飞到我们的双手触及不到的地方了……",
+			say = "All the lanterns flew away, out of our reach.",
 			flashout = {
 				black = true,
 				dur = 0.75,
@@ -546,7 +546,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不过啊，今夜明月，依旧悬天。美人迈兮音尘阙，隔千里兮共明月——这就是为什么我们会对月祈愿吧，只有月色，无论相隔多远，无论身处何方，都能共祈共赏的……",
+			say = "Yet the moon is still up there, looking over all of us. No matter how far the distance, we share the same beautiful scene with those we care but cannot be together...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -565,7 +565,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "希望有一天，我们大家所有人能像今夜的月亮一样圆满无缺，共同围坐在这里……",
+			say = "I hope that one day all of us will be as whole and complete as the full moon tonight, all sitting together side by side...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "明年也好，后年也好，只要我还在，我就会一直来噢，桂花酿我还没喝够呢！",
+			say = "Whether it’s next year or the year after, as long as I’m around, I will always come to celebrate. I haven’t had enough of this osmanthus wine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么……请大家随我一同望着月亮，向着神明祈愿吧",
+			say = "So... Let us pray to the Moon Goddess together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "愿年年有今日，岁岁有今朝。愿我们的同伴浩漫如繁星，不竭似溪流。愿痛苦能磨砺我们的内心，失败能指引我们的方向……愿能与更多的人相遇相知……愿这双手一旦牵起就不再放开——",
+			say = "Wish today's joy will reunit us here every year. Wish never will we be alone in the sea, and be defeated by pain and failure... Wish everyone start understanding each other... Wish we can hold our hands forever...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

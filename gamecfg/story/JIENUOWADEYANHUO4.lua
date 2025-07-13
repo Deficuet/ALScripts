@@ -15,7 +15,7 @@ return {
 			bgm = "battle-boss-italy",
 			actor = 603010,
 			nameColor = "#ff5c5c",
-			say = "……唔！",
+			say = "Ugh...!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -51,7 +51,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "被压制了，情况……不容乐观。",
+			say = "Even though I did everything I could...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 603010,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "既然如此的话，就算牺牲在这里也要……",
+			say = "No... I have to stop you, no matter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "面对不利战况没有选择撤退，而是打算死战到底么。",
+			say = "My, she put up much more of a fight than I anticipated.",
 			flashout = {
 				black = true,
 				dur = 0.15,
@@ -118,7 +118,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "确实是位值得尊敬的对手，而且比想象中难缠……继续纠缠下去的话就算取胜也要花太长时间了。",
+			say = "It's praiseworthy, quite honestly. She knew she couldn't win, so she did everything she could to wear us down.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿尔及利亚，我觉得现在这个程度就差不多了吧？",
+			say = "Good thing we managed to take her out before she could alert anyone to our presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "刚才重点破坏了她的通讯和移动模块，本次行动中她已经没法为我们带来更多威胁，等同于被“消灭”了。",
+			say = "Now, time to move on, wouldn't you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……那就听你的吧，“大参谋”。",
+			say = "Mhm. Let's get going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿~既然遭遇了撒丁巡逻队，我们的存在本身怕是瞒不住了。",
+			say = "Seeing as Sardegna has patrols moving about, it's safe to assume our \"friends\" are aware of our presence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不过她们一时半会恐怕还搞不清我们的目的。",
+			say = "I doubt they know exactly what we're here to do, though. For now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还是不要太小看撒丁帝国比较好哦。",
+			say = "At any rate, don't underestimate them. They're not stupid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 903010,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那假设，有人猜到了我们的目的。但是按照撒丁帝国一贯以来的效率，恐怕一时半会也难以形成有效应对吧？",
+			say = "Of course not. Their response is going to be slow, but come the time for action, they won't pull their punches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 903020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个倒是……毕竟“夜晚”是撒丁帝国的休息时间呢。",
+			say = "In other words, better exploit the fact they're asleep in their beds right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "所以我们依然有机可乘，只不过速度，就要快一些了哦——",
+			say = "Well said. Onward we go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

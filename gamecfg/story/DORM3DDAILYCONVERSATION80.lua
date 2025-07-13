@@ -2,18 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION80",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION80",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星最近在尝试将皇家的传统美食与东煌的特色风味融合，做一道特殊的融合料理。",
+			say = "Sirius最近在尝试将皇家的传统美食与东煌的特色风味融合，做一道特殊的融合料理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +52,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "是的。天狼星听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
+			say = "是的。Sirius听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +61,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星就在尝试将“剁椒”这种风味，融入仰望星空派。",
+			say = "Sirius就在尝试将“剁椒”这种风味，融入仰望星空派。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +83,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}？您的脸色突然变得有些差劲……",
+			say = "主人？您的脸色突然变得有些差劲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +170,7 @@ return {
 			}
 		},
 		{
-			say = "（呼，看来一段时间内天狼星不会做出这种料理，这下可以松一口气了……）",
+			say = "（呼，看来一段时间内Sirius不会做出这种料理，这下可以松一口气了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

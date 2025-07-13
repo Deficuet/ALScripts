@@ -9,7 +9,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>二 “心愿”的力量</size>",
+					"Convergence of Hearts\n\n<size=45>2 The Power of Wishing</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……♪",
+			say = "Hm-hmm-hm-hmm♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB？",
+			say = "TB?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被……听到了……",
+			say = "Oh... You heard me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "最近因为开始接触外界，TB的逻辑思维和语言能力得到了充分的锻炼。",
+			say = "TB's language and reasoning skills have slowly improved, in no small part thanks to her interaction with the outside world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "现在已经能说出相对通顺的句子。",
+			say = "She has reached the point of relative fluency by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……找TB……有事？",
+			say = "Were you... looking for me? Do you need something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，想问问TB，会觉得最近的行程难吗？",
+			say = "Just wanted to ask you something. Has any of the stuff we've done been difficult for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……难，是什么意思……？",
+			say = "What does \"difficult\" mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是觉得吃力，或者不想去做的，会有吗？",
+			say = "It means \"hard to do.\" Basically, is there anything you don't want to do if you don't have to?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有……",
+			say = "No...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，你刚刚在练习唱歌，也不是觉得唱歌很吃力吗？",
+			say = "Alright. I heard you practicing your singing a moment ago. Was that hard for you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不止，唱歌。",
+			say = "Nuh-uh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有其它……",
+			say = "I also do more things...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是在说还做了其它的练习吗？",
+			say = "You practice other things, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。",
+			say = "Mhm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是，不是吃力……",
+			say = "But those aren't hard.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "练习的话，会……满足。",
+			say = "Practicing is... full feeling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你和TB都……满足。",
+			say = "It makes me and you full feeling.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "其实她应该是想说“满意”的吧？",
+			say = "I think she's trying to say \"fulfilling.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过，这样看的话，即便领航员小姐清除了数据，以这种状态进入虚拟小镇生活——",
+			say = "TB was cut off from her database prior to her entry into this virtual town, but it seems she carried something with her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "她想要理解“个性”的念头也依然存在影响，成为了TB的“心愿”。",
+			say = "Her wish to develop a personality. It's still somewhere inside her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，不要勉强自己哦？",
+			say = "Take it slow and easy now, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。",
+			say = "Mhm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你在……就不会……",
+			say = "I will... as long as you're here.",
 			painting = {
 				alpha = 0.3,
 				time = 1

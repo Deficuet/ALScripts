@@ -15,7 +15,7 @@ return {
 			bgm = "battle-xinnong-image",
 			actor = 307080,
 			nameColor = "#a9f548",
-			say = "{namecode:27}，{namecode:29}，留意水下的动向，测试者将会使用潜艇编队进行偷袭。",
+			say = "Suzutsuki, Hanazuki, watch out for the subs—",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 301840,
 			actorName = "{namecode:27}&{namecode:29}",
-			say = "收到！\n是！",
+			say = "Yes, Lady Shinano!",
 			subActors = {
 				{
 					actor = 301820,
@@ -67,7 +67,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:103}、{namecode:104}、配合妾身的舰载机队，继续压制测试者的航空力量。",
+			say = "Chitose, Chiyoda, please focus on maintaining air superiority—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:103}&{namecode:104}",
-			say = "遵命！\n交给我吧~",
+			say = "Got it!",
 			subActors = {
 				{
 					actor = 306090,
@@ -110,7 +110,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "其余各火力舰继续等待……",
+			say = "Everyone else, please stand by—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 303180,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？！我们还需要等什么…？",
+			say = "Wooohooo!! ...Wait, stand by??",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等待测试者将全部精力用于对空作战，改变应对模式而露出破绽的时候…",
+			say = "Wait for Tester to turn around, and concentrate your attacks on her command module...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_mirror",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！原来是这样…！所以{namecode:82}大前辈之前才能仅凭旧式主炮就能有效的重创测试者啊！",
+			say = "Got it! Heh, being able to hunt down a strong enemy like this really feels awesome!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "正是如此。请诸位与妾身一同努力，共同赢取胜利吧！",
+			say = "Everyone, lend me your powers once more...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

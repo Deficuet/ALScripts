@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "干扰的机关被消除了！破坏机关得到了额外的物资！",
+			say = "The jamming device has been dealt with.You obtained a resource cache.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

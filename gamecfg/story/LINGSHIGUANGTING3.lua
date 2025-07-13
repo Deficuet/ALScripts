@@ -16,7 +16,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "大家快看……大厅的地板上躺着一个人欸！",
+			say = "Is that... Sheffield?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205110,
-			say = "那个难道是……谢菲尔德小姐？！",
+			say = "She seems to have collapsed right by the teleporter... Be careful, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "在华丽装饰的大厅中心，摆放着一台外形颇具科技感的大型装置。",
+			say = "Inside the castle's hall was a large teleportation device, surrounded by dozens of screens and computer terminals.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "三个半圆形的框架组成了类似门的结构，在门的前方是由一系列复杂仪表盘组成的操作台。",
+			say = "At the center, three golden arches formed a door to another world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "谢菲尔德就倒在装置前的地板上。",
+			say = "Lying unconscious at its base was one of the Royal Maids who had gone missing along with Queen Elizabeth – Sheffield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "骑士团警戒四周，袭击者也许还在附近！",
+			say = "Revenge, Bellona, stand guard! The assailant could be nearby!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,12 +127,12 @@ return {
 			hideOther = true,
 			side = 0,
 			bgName = "bg_camelot_1",
-			actorName = "复仇&司战女神",
+			actorName = "Bellona & Revenge",
 			dir = 1,
 			actor = 205110,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "遵命！",
+			say = "Affirmative!",
 			subActors = {
 				{
 					actor = 202310,
@@ -159,7 +159,7 @@ return {
 			actor = 207120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "谢菲尔德小姐，你还好么——",
+			say = "Sheffield! Please answer us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "不挠小姐，请不要贸然移动她，先让我检查一下。",
+			say = "Step back, please. I'm trained in first aid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			say = "贾维斯阻止了想要搬运谢菲尔德的不挠，来到近处仔细检查了起来。",
+			say = "Jervis knelt by Sheffield's side and began examining her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "谢菲没事吧……？",
+			say = "I don't see any enemies nearby though. Sheffield should be fine, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "嗯……看起来像是因为剧烈冲击导致的暂时性昏迷，没有发现战斗的痕迹也没有任何外伤，应该没有大碍。",
+			say = "Good news – she's uninjured as far as I can tell. I believe she's just unconscious due to some kind of impact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "设备上的这个残留痕迹……难道是因为能量输出不畅引发的爆炸么。",
+			say = "That's a relief. Maybe starting up the device caused some sort of power surge which knocked her out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "大家解除警戒，谢菲尔德的昏迷应该不是外部袭击者造成的。",
+			say = "At ease, ladies. This happened due to an accident, not enemy malice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "好危险的设备！这个就是能前往其他……“世界”？的装置？",
+			say = "I don't see Her Majesty anywhere. All signs point toward her having already used this device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "没错。根据使用记录，设备之中已经存有两个不同坐标了。",
+			say = "Very likely. I'm looking at the terminal's logs and it appears to have been used two times recently.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "难道陛下在找什么东西么……",
+			say = "Unless Her Majesty has an alter ego, she's bound to be in one of the two locations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样的话，我们去最新的坐标那边就能找到陛下了吧？",
+			say = "What should we do? Splitting up into two groups seems like a rather dangerous proposition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "很遗憾，事情没有这么简单……卡美洛之庭在同一时间可能以复数的形式存在于多个世界中。",
+			say = "Likewise, rushing in headfirst would be suicide. We also need to secure our way home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "所以并不会记录使用坐标的先后顺序，也没有意义。",
+			say = "Our only real option is to explore one destination, and if we find nothing, try the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "完全没懂……",
+			say = "Indeed. That being the case, we need someone to stay behind and hold the fort.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要解释起来就复杂了。不过不论如何，二分之一概率，试试运气吧。",
+			say = "Yeah. Someone who can forward communications between us and Scapa Flow, as well as make sure the gateway stays open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫大人，谢菲看来一时半会醒不过来，我要留在这里照顾她。",
+			say = "Plus look after Sheffield and request reinforcements. That someone shall be me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "贾维斯……就让我留在这里照顾她吧，守护他人这件事，我还是很擅长的.......",
+			say = "No, I'll do it. We've no idea what dangers lie on the other side, and the others will need you more than they'll need me. Let me be the rearguard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "雅努斯……",
+			say = "But... Janus...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也好。确实不好把受伤的同伴一个人丢在这里。谢菲醒过来之后也可以告诉我们发生了什么事。",
+			say = "No, she's right. You can provide medical aid if Her Majesty has been hurt, Jervis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那就拜托了，雅努斯。",
+			say = "That is a good point. Janus will be safer here as well... All right, let's do it this way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 900328,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……是！",
+			say = "I won't let you down! I promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 205130,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "其他人向我靠近，站在地板的圆形花纹之内，我们出发！",
+			say = "Okay. We'll try the first set of coordinates on the terminal. Ladies, gather on the platform!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

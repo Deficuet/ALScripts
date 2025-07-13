@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一间明亮的教室。",
+			say = "The light recedes, and I find myself inside a bright classroom.",
 			bgm = "theme-themagiciani",
 			typewriter = {
 				speed = 0.05,
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "哈啊……哈啊……哈啊……",
+			say = "*pant*... *pant*... *pant*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,20 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "死亡的冰冷感挥之不去，就连温暖的阳光也令人目眩。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "这是……怎么回事？",
+			say = "The chill from my brush with death still lingers around me. The warm sunlight is enough to make me dizzy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +66,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "之前的事是幻觉还是……现在的景象是幻觉？",
+			say = "What happened?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_147",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Did I dream up all of that? Or is this the dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，死亡的感觉并不好受，慢慢来，不着急。",
+			say = "Heehee. Death is not at all a pleasant experience. Take your time getting used to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,20 +103,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "讲台之上，一位身着便服的紫发女士带着微笑走了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "我想起来了，关于你和这间教室……",
+			say = "A purple-haired woman walks forward from the teacher's podium, smiling as she does.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +116,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们之前见过……对么，M女士？",
+			say = "I remember you. You and this classroom.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_147",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "I've been here before... haven't I, Madam M?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来回忆起来了一些事情呢。",
+			say = "Sounds like some of your memories are back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……更多的事就想不起来了，我的失忆与你有关？",
+			say = "Can't remember much more than that, though. Are you responsible for my amnesia?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "据说见到故人，在刺激下失忆的人也可能恢复部分记忆哦。",
+			say = "...They say that seeing an old friend's face can help an amnesiac recover some of their memories.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "故人……？我对你没有这种感觉。",
+			say = "Are you saying you're the old friend here? You don't feel like it to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是么？那真遗憾。",
+			say = "I don't? What a shame.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "虽然如此说着，M女士的脸上并未露出遗憾之情。",
+			say = "So she says, yet there isn't the faintest trace of disappointment in her expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "好了，来说说你现在的问题吧。",
+			say = "Anyway, let's move on to discussing your current problem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这一系列事情，到底是怎么回事？",
+			say = "Yes, let's. What in the world is going on?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "我说过，会给予你探索的权力，并且确保你做出选择的机会。",
+			say = "Do you remember the two things I guaranteed you? The right to search, and the opportunity to choose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如何，这场探索还算愉快么？",
+			say = "Are you ready to make your choice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我不太明白……这些事和探寻“我”的身份有什么关系？",
+			say = "There you go, talking nonsense again. How does that have anything to do with figuring out who I am?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那就取决于你从这次探寻中得出什么结论了。",
+			say = "It depends on what you manage to take from your search.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "比如——你觉得塞壬如何？",
+			say = "Take the Sirens, for instance. What are your thoughts about them?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "塞壬么……",
+			say = "The Sirens, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "从了解到的资料来看，塞壬的出现大大提高了那个世界的科技水平，并且在对抗天外之兽的时候起到了不可或缺的作用。",
+			say = "Their arrival in that world ushered in a technological golden age, and they must've played an instrumental role in their battle against the invaders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然抵抗最终失败了，但是很多其当年遗留的设施成为了人类得以继续抵抗的关键。",
+			say = "Although their efforts ended in failure, the things they left behind helped with humanity's resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……你是在暗示，那些天外之兽是塞壬的克星，所以塞壬才会如此轻易失败么？",
+			say = "Wait, are you trying to hint that the Sirens and those extradimensionals are natural enemies, and that's why they were defeated?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我没有在暗示任何事，不过我很乐意看到你在探寻中进行思考。",
+			say = "I'm not hinting at anything. I just love seeing your mind at work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以，之前的经历只是一场由你准备的幻镜？",
+			say = "What was it all, then? An elaborate illusion you created for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "这就要取决于你的看法了。你觉得为真，便为真。你觉得为假，便为假。",
+			say = "That depends on what you think. If you think it was real, then it was. If you think it was fake, then fake it is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "一如既往，M女士面无波澜地说着令人困惑的话语。",
+			say = "Expressionless as always, she utters yet more esoteric drivel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "况且，这个问题其实也不重要。",
+			say = "Reality or fiction? This question isn't particularly important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个问题还不重要？",
+			say = "Excuse me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对我来说不重要，对你来说也不重要，那这个问题自然不重要。",
+			say = "I'm saying that it doesn't matter one way or the other to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "因为，你真正在意的事根本不是所见为真，还是所见为假吧？",
+			say = "You're not concerned with the veracity of things, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "你的这次探寻以悲剧的方式收尾，如果我说此前的经历都是真实的，你会如何想？",
+			say = "This search came to a tragic end for you. Supposing that I said it was all real, what would you say then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……那这一次，算是一次极为惨烈的失败，如果不是有你的存在，我自己恐怕都难逃一劫。",
+			say = "I'd say I regret making such an atrocious mistake, but I'm grateful for being rescued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果我能事先再多调查一下敌人在几十年前的资料，对于鲁梅女士多提出一些想法，让她更谨慎一些进行部署就好了……",
+			say = "If I'd known more about the enemy and shared some thoughts with Rumey, I might've been able to concentrate our forces and achieved a different result.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "如果我说此前只是幻境之中发生的事，你的想法会有所改变么？",
+			say = "Then if I were to tell you that it was all smoke and mirrors, would your thoughts on the matter change at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不会。但，这二者完全不同！",
+			say = "No, but this and that are two different matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果此事为真，那就是一场彻头彻尾的，无可挽回的悲剧。",
+			say = "If it was real, then it was a complete and irreparable tragedy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而如果此事为假，那将会是一场极其有意义预演。",
+			say = "But, if it was fake, you could call it an extremely valuable simulation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "日后……倘若我真的遇到了类似的情况，将会多几分突破危局的胜算。",
+			say = "Should I face a similar situation in the future, I'll have greater odds of weathering the storm thanks to what I learned here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一样的。",
+			say = "Those are the same thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "如果你想重来，做出不一样的选择，那便重新选择好了。为什么要等到日后呢？",
+			say = "If you want to retry it, then just give it another shot and try something different. Why wait for the future to come?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你的意思是……让我重新体验一遍幻境，做出更好的选择？",
+			say = "What are you saying? That I should revisit your illusion and make better choices?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "我有说过是幻境么？",
+			say = "I don't remember saying it was an illusion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可是、如果此前发生的事都是真实的，那……怎么可能重来？",
+			say = "Well, if it was real, then what's done is done. How could I start over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900465,
-			say = "这是我该考虑的问题。而你该考虑的问题是——如果你有重新选择的机会，你要继续么？",
+			say = "That's what I'm wondering. What you should be thinking about is this: If you do get a chance to start over, will you take it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……当然，当然要继续。",
+			say = "Of course I will. I'll keep on changing things until there's no more sadness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那便如此吧~",
+			say = "Then that's what you should do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "阳光愈发刺眼，将视野中的一切都转换为了刺眼的光。",
+			say = "The light outside the classroom windows grows blindingly bright, enveloping everything in pure whiteness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			actor = 900465,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "记住，你总可以做出选择。",
+			say = "You will always have freedom of choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			actor = 900465,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果不确定该如何选择的时候……",
+			say = "And when you're not sure which choice to make...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			actor = 900465,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不妨都尝试一下，选到确定为止吧——",
+			say = "Exhaust all options until you're confident in your answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

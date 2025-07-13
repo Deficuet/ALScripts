@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，学到了新词……身、体、力……行！",
+			say = "Anchorage learned a new word...! It's... ex-er-shun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "新的知识，书本，学一半！……自己做，才能，更好！",
+			say = "Learning from books is only half of it... You need to do something yourself to learn better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，和安克雷奇一起……身体力行！学习！",
+			say = "{dorm3d}, come do ex-er-shun with Anchorage... to learn together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

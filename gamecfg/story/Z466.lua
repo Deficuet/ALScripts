@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>六 羁绊</size>",
+					"White Poem\n\n<size=45>VI Fetters</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "出击结束了。",
+			say = "The combat operation has ended.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			say = "十余艘量产型敌舰。几枚“棋子”。不过是中等规模的舰队，然而对于弹药已尽的己方而言，已是难以应付的强敌了。",
+			say = "Over ten types of mass-produced vessels. Some highly-ranking enemy \"Pieces.\" Though only classified as medium tier, the enemies proved to be difficult, for our fleet had depleted its supplies.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			say = "我全力战斗了。",
+			say = "With all the strength I could muster, I fought.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			say = "发射了数十次主炮。不停地击出炮弹、直到炮身过热停止，满身疮痍。",
+			say = "My main cannons fired dozens of times. I did not cease my relentless attacks,  until my body was covered in wounds, until my overheated guns sputtered.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			say = "舰装，还有裹在这一时之躯上的布，全都——失去了原本的色彩，染上了硝烟的灰色。",
+			say = "My riggings and clothes had lost their color. They had been stained gray with the smoke of war.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			bgm = "story-1",
 			bgmDelay = 2,
 			bgName = "bg_story_task",
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -111,7 +111,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "方才战斗的报告书……不要忘了确认。",
+			say = "This report of the battle that took place... please do not forget to give it a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,33 +123,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——为何，要如此拼死战斗。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "我们尽了最大努力，直到用尽所有弹药。敌人若也有自我，应该也会感到骄傲吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "——为何，没有选择撤退。",
+			say = "―― Why did I fight until the brink of death?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +137,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "为了确保一切可能入手的战果。结果上来说，比起撤退的情况，我们给予了敌人更为巨大的打击不是吗。",
+			say = "Our ships put forth the best effort we could, even as we fired our last bullets. Should the enemy know the thing called \"pride\", they too would feel good for giving their all. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,21 +149,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "——为何，不珍惜自己。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "虽然身为秘书舰，但仍是兵器。仍只是为了战斗而生的存在。",
+			say = "—— Why did I choose not to retreat at all?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +163,47 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "在成为“{namecode:412}”之前，我首先是那艘在大战中被设计建造、背负了众人期待的“{namecode:412}号舰”。",
+			say = "We strove to attain the best combat results. From the perspective of consequences, we struck a severe blow into their heart, a better outcome than a quick retreat.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "—— Why did I not even treasure my life?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Though I also serve as secretary, in the end I am still but a weapon. The fact that I only exist to fight, is perhaps something that never will change.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "Before the existence of this \"Viersechs\", I was first laid down during the Great War. I carried with me great expectations; the sign I was given, \"Z46\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 		{
 			blackBg = true,
 			stopbgm = true,
-			say = "我的内心在呼喊着。如果不是这样的话，请你赐予我意义。",
+			say = "At this time I felt my heart and soul cry; if there was a way to escape this fate, bestow me a name and grant it meaning. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			say = "赐予我，不是兵器而是你所期望的我，战斗的理由。",
+			say = "Grant upon me, not the weapon you see, but the girl that you would want me to be. Help me bring to light my reason to fight.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "赐予我，留在挚爱的你身边的我，可被呼唤的姓名。",
+			say = "Grant upon me, you who I love dearly, a name that calls me back home to your side.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			say = "请给我，属于我的颜色。",
+			say = "Please grant me my very own color.",
 			blackBg = true,
 			typewriter = {
 				speed = 0.05,

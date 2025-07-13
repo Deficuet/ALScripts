@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>六 圣夜的大餐</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 6 - A Holy Night's Dinner</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "港区•皇家生活区",
+			say = "Port - Royal Navy Dormitory",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣夜的晚餐已经就绪，请各位小姐慢慢享用",
+			say = "Christmas dinner is now ready. We hope you will find it to your liking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "我、我也有帮忙哦~",
+			say = "I helped with it too!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！干得不错，不愧是我皇家的女仆队！来来，你们也找到位置坐下来用餐吧~一直以来大家都很努力了！今晚就尽情地享受节日吧~",
+			say = "Well done! We aren't proud over our maid fleet for nothing! You may participate in our party as well! ...And the rest of you have done your part as well! Today you may enjoy yourselves to your heart's content!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣、圣诞大餐……火鸡……布丁……三文鱼……我、我开动了！",
+			say = "C-Christmas dinner... With turkey... Christmas pudding... and prawns to start... L-let's dig in!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个好棒！",
+			say = "Ah, it's so delicious!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个也好好吃！",
+			say = "This is really good, too!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊~~活着真好~~~",
+			say = "Ahh~ I'm so glad I was born to experience this~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "每次看到小天鹅放开了吃东西的样子，都会让咱觉得自愧不如呢……",
+			say = "Seeing how Cygnet eats always makes me jealous for some reason...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -242,7 +242,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "哈啊…真不知道吃下去的营养都到哪里去了……难、难道是……！",
+			say = "Sigh... Just what happens to all that fat... W-wait, maybe it goes straight to her...?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是这么来的吗！既、既然如此我也要多吃一点！",
+			say = "S-s-so that's why, huh?! I-I need to start eating more, then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新、新月…一般来说…这种时候只会徒增体重和赘肉，咱在偶像的自我修养书籍里面看到过呢……",
+			say = "C-Crescent... Yesterday I had a lesson where they taught us about this... that eating a lot will just make you gain weight, and never where you want it to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜、呜呜——同为C级，为什么！！",
+			say = "T-that's unfair! Dang it... We're all part of the C-class, so why is she different?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼欸？彗星、新月你们在说什么呢？这么多好吃的，不吃光说话多浪费呀？",
+			say = "Huh? Why aren't you two eating anything? It'd be a waste to not eat all this delicious food they made...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼！我知道了啦！",
+			say = "Hmph! If it's come down to this then fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咱、咱也开动了！",
+			say = "I-I think I'll have something, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…哈啊…C级的小妹妹们今晚显得更加可爱了！！",
+			say = "Hahh... Ahh... The C-class sisters are even cuter than usual today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "对美好之物的喜爱乃是人之常情，但是——",
+			say = "I can understand being happy over great food, but you, Ark Royal...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可是很绅士的，像这样看着驱逐妹妹们可爱的模样我就很满足了",
+			say = "I-I know my manners! I'm satisfied with just getting to watch cute destroyers being cute!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，就是交换礼物的时间咯，大家从前面放好的礼物堆里各自选一个礼物盒吧~交换要遵循自愿原则哦~",
+			say = "Now it's time to exchange presents with each other. You may all choose one present from this box. Oh, and you cannot return it once you've chosen.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -432,7 +432,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "唔……那我就……这个吧！",
+			say = "In that case... I'll pick... this one!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -451,7 +451,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这个是……圣诞装？",
+			say = "W-wait, is this... a Christmas costume...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀？这不是我准备的礼物吗，被小天鹅拿到啦，也不错，不如马上换上看看如何？",
+			say = "Why, that's the one I prepared. How interesting you would pick that one. Ahahah~ One should strike while the iron is hot, so may I ask you to change into it right now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…刚吃了好多东西…不过既然是胡德姐姐送的……",
+			say = "Gosh... But I just ate so much... Then again, it's your present, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎、怎么样？",
+			say = "H-how does it look...?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -528,7 +528,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "你看看皇家方舟的表情就知道了吧~",
+			say = "You need only look at Ark Royal's expression to know the answer to that~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -547,7 +547,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜、呜——有点害羞……",
+			say = "What?! Ahhhh... This is so embarrassing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

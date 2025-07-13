@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "重樱本岛·{namecode:82:三笠}宅邸附近",
+			say = "Sakura Empire - Mikasa's Residence",
 			bgm = "story-tiancheng",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "距离宅邸大门有段距离的长椅上，白衣少女双手托腮郁闷地思索着。",
+			say = "Zuikaku sat on a bench near the manse's gate and thought to herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不光是大前辈……{namecode:74:长门}大人和姐姐的通讯也全都打不通。",
+			say = "I can't get in contact with Mikasa, Lady Nagato, or Shoukaku...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算临时有事出门……宅子里也不至于一个人都不留吧。",
+			say = "I get it if they're out on urgent business, but EVERYONE can't possibly be missing at once, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且看上去屋里明显是有人的样子。不但亮着灯还……",
+			say = "The lights are on inside, so there should be someone...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还…………咦？",
+			say = "Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈把院墙重新粉刷了么……？",
+			say = "I didn't notice before because I was in such a hurry, but did Mikasa... repaint the exterior?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……这么说来，这条路的路况以前有这么差么？",
+			say = "Huh? Was this path in such poor condition before?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有这些街边的小吃摊……上次来的时候，我怎么一点印象都没有。",
+			say = "And those stalls over there... weren't there last time I came here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,11 +164,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉姐姐大人，是我收拾时间太长了！",
+			say = "I'm sorry, big sister...! It took too long to clean up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要迟到了……要被{namecode:82:三笠}前辈说教了……",
+			say = "Oh, I'm gonna be late... Mikasa's going to lecture me, too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,11 +188,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……不着急。",
+			say = "Heehee. It's okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,11 +200,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然迟到已经不可避免，那就以安全为第一位慢慢走过去吧。",
+			say = "If we're going to be late either way, let's take things slowly. Safety first, you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,22 +212,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要是赶路太急把妆弄花了，岂不是白迟到了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			say = "恍惚间，白衣少女听到了一个似曾相识的声音。",
+			say = "Haste makes waste. And what a waste it would be if you ruined your makeup in your hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +227,18 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "她急忙抬起头来张望，终于在街角处捕捉到了两个一闪而过的红色身影。",
+			say = "While Zuikaku watched on vacantly, she heard familiar voices.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			say = "She turned toward the voices and saw two figures in red on the street corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,24 +251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦……刚才的声音好像确实是……但……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不、不会吧……",
+			say = "Those voices... That can't be, but...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +268,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂——等等！",
+			say = "Could it be?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Heeey! Wait!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "白衣少女急忙起身，向着红色身影消失的街角飞奔而去。",
+			say = "She stood up and ran to the street corner, but then –",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "碰——（撞击声）",
+			say = "*CRASH!*",
 			hidePaintObj = true,
 			blackBg = true,
 			bgm = "stopbgm",
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "哎呀——痛痛痛……",
+			say = "Ouch...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,11 +368,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "没事吧，小姑娘！",
+			say = "Hm? You okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……这不是{namecode:96:瑞鹤}么，你这么急急忙忙地跑，是迷路了么？",
+			say = "Well, if it isn't Zuikaku. What's got you in such a hurry?",
 			bgm = "story-darkplan",
 			painting = {
 				alpha = 0.3,
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "怪不得在路口等不到你……",
+			say = "Are you lost? No wonder I couldn't find you anywhere...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈？！",
+			say = "Mikasa?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您怎么会在这里？",
+			say = "Wh-why are you here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "……嗯？因为知道你今天要回来，所以特意来路口接你。",
+			say = "Uh, what? You were planning to come home today, weren't you? I'm here to pick you up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "这里的路不太好走，最近道路施工又很频繁。",
+			say = "The roads here are poorly maintained these days. Can't blame ya for getting lost.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈您一直……等在这里？",
+			say = "Are you saying you've been waiting here all this time...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "是啊？",
+			say = "Sure have.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（奇怪……我明明就是从这条路来的当时绝对没有见到大前辈啊……）",
+			say = "(Weird... I didn't see Mikasa on my way through here before.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（而且四周的路……和刚才不一样了？！）",
+			say = "(Wait, everything around me is different!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（路边的摊贩也不见了……？！）",
+			say = "(The walls, the road, the stalls...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这难道是……）",
+			say = "(Is this... a dream?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（…………）",
+			say = "(.........)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……如果是以前，我可能只会觉得是不是太累眼花了。）",
+			say = "(No, no. It can't be! I'm not how I used to be!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（但是……这一路上的经历告诉我，刚刚看到的景象绝对不是眼花那么简单。）",
+			say = "(I went through that Tower of Midgard stuff, after all!)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这难道是……某种特殊的袭击么？）",
+			say = "(Does that mean... this is some kind of new mental attack?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305110,
-			say = "{namecode:96:瑞鹤}，你的表情很差，出什么事了么？",
+			say = "Zuikaku? You look pale. Is something wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，{namecode:74:长门}大人和姐姐她们现在在哪里？",
+			say = "Mikasa, where are Lady Nagato and Shoukaku?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们都在宅子里等你呢，我没让她们出来。",
+			say = "They're all waiting for you at the house.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼太好了……那我们就快回去吧。",
+			say = "Thank goodness... Let's go home, Mikasa!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,7 +748,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就在不久前，就在您的宅子门口，我经历了一件非同寻常的事……",
+			say = "It's embarrassing, but I just had this weird experience...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我想立刻分享给你们听！",
+			say = "I want to tell you all about it!",
 			painting = {
 				alpha = 0.3,
 				time = 1

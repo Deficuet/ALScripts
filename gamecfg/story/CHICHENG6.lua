@@ -11,19 +11,18 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>六 黑暗之中的告白</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 6 - Confession in The Dark</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 307010,
-			actorName = "{namecode:91}",
 			side = 2,
 			nameColor = "#a9f548",
+			say = "All you had to do was listen to Akagi... It's not a good idea to make Akagi sad...",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官只要好好听{namecode:91}的话就行了……别让{namecode:91}伤心……",
 			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
@@ -38,10 +37,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:91}要是伤心了……就……",
+			say = "Because, when you do... this happens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "{namecode:91}一边说着一边将身体靠了过来，接着——",
+			say = "Akagi crept closer to me as she spoke. Then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,10 +63,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "……（舔）……",
+			say = "Mmmph... *Lick*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +79,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "…………！？",
+			say = "... Wha...!?",
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
@@ -99,7 +96,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "{namecode:91}用嘴含住了被刀切到的手指。",
+			say = "Akagi put my bleeding finger into her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,12 +104,11 @@ return {
 		},
 		{
 			actor = 307010,
-			actorName = "{namecode:91}",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:91}绝不会……伤害指挥官。就算指挥官成为了我的敌人——  ",
+			say = "I would never, ever hurt you, Commander. Even if you made an enemy of me, I wouldn't.",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -143,10 +139,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "可是，如果指挥官受了伤，能为指挥官疗伤的只有{namecode:91}。",
+			say = "However, when you've been hurt, only I am allowed to care for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,10 +155,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官你要记住……",
+			say = "You must understand there are some things only I can do... Not anybody else, not even Kaga...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +171,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "指尖传来一丝凉意。",
+			say = "The tip of my finger felt vaguely chilly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,10 +181,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为你做好一切。",
+			say = "You needn't think about or do anything. I will take care of everything for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,10 +197,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "所以…指挥官，闭上眼睛…把一切都交给{namecode:91}就好。",
+			say = "Commander... close your eyes, and leave everything to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,18 +213,18 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "已经听过无数遍的话，却充满了{namecode:91}的心意。",
+			say = "No matter how many times I've heard her say that many times before, I could feel the seriousness in her tone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "Close your eyes",
 					flag = 1
 				},
 				{
-					content = "告诉{namecode:91}希望她能依靠我",
+					content = "Tell Akagi you want her to depend on you",
 					flag = 2
 				}
 			}
@@ -244,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			say = "......",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -259,11 +251,10 @@ return {
 			actor = 307010,
 			side = 2,
 			optionFlag = 2,
-			actorName = "{namecode:91}",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
-			say = "——指挥官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
+			say = "You mean... you'll depend on me, and I'll depend on you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,10 +268,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "这是说…指挥官也想对{namecode:91}好…的意思吗？",
+			say = "Which means... you want to care for me, too... is that it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +284,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "（点头）",
+			say = "(Nod)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,10 +294,9 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
-			say = "……指挥官……",
+			say = "Oh, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +310,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "被{namecode:91}紧紧抱住。",
+			say = "Akagi held me tight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

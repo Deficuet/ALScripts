@@ -12,7 +12,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			hidePaintObj = true,
 			dir = 1,
-			say = "轰————————！",
+			say = "KABOOOOM!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 102290,
-			say = "敌、敌袭？！多谢……",
+			say = "An enemy airstrike?! Phew... I owe you one, Morrison!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也吓了一跳……有设定小熊的自动反击功能真是太好……",
+			say = "It spooked me too... Thankfully, Mr. Bear was equipped with some air defense weapons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_luoxuan_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉小熊是不是比之前变得更厉害了……",
+			say = "What the heck have you added to Mr. Bear since last time...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诶……我也有一直在做升级嘛。",
+			say = "Hehehe... Just a few little tweaks to make him more perfect...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 102290,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "小心，更多的敌机来了。",
+			say = "Morrison, watch out! There's more coming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 101470,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那些……好像真的是重樱的飞机？到底是怎么在这么短的时间里跑过来的……",
+			say = "More planes? There's just no end to them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "已向主力舰队发出了增援请求……这里就先靠我们先应付一下吧……！",
+			say = "That's why we need to hurry up and join with Ticonderoga!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

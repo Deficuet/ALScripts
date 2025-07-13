@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一一得一，二二得四，三三……{dorm3d}！",
+			say = "One and one make one... Two and two are four... Three and three are, um... {dorm3d}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，不明白……{dorm3d}，教安克雷奇……",
+			say = "Anchorage doesn't understand... Teach me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有{dorm3d}在，安克雷奇……变厉害！",
+			say = "With you here, Anchorage can get smarter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

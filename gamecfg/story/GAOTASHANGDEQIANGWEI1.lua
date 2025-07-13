@@ -9,11 +9,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"日不落帝国·尼罗河总督区",
+					"Realm of the Neversetting Sun - Nile Governor-General's District",
 					1
 				},
 				{
-					"旧都·宫殿",
+					"Old Capital Palace",
 					2
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "尼罗河三角洲，一片繁荣、富饶又祥和的土地。",
+			say = "The Nile Delta belt. A prosperous, wealthy, and peaceful region.",
 			bgm = "story-egypt-mystic",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "在这片土地之上，新都开罗与旧都孟菲斯遥相呼应，如同王冠之上两颗风格迥异的明珠。",
+			say = "In this place, the new capital of Cairo and the old capital of Memphis echoed each other, much like two different pearls on the same crown.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "与新都的全面现代化不同，旧都孟菲斯各处都凸显着这片古老土地浓厚的文明底蕴。",
+			say = "In contrast to Cairo, which had undergone modernization, the rich cultural heritage of this land was still present everywhere in Memphis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "譬如此刻，一艘仿佛跨越了千年历史的巨型桨帆船静静停留在河道上。",
+			say = "Take for example the giant galley with a thousand-year history, still silently moored in its waters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "它的舰艏高悬金色有翼狮的雕塑，彰显着其所有者的身份。",
+			say = "At its bow, a golden winged lion sculpture was hoisted high, signifying the equally lofty standing of its owner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +93,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "总督大人，请用茶。",
+			say = "Miss Governor, your tea is ready.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,127 +105,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天有些炎热，要小心中暑哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			say = "旧都宫殿的露台上，尼罗河总督正在女仆与宠物的陪伴下，眺望着她的领土。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这点温度没什么，倒是个出航的好天气。准备工作都如何了？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "辉翼太阳船的调试昨夜就已全部结束，部门负责人说，“它已经是最佳状态了，随时可以出航”哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "然后你看河面上的那些小船，后勤部门现在正在向辉翼太阳船上装载最后一批物资。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "大概到了午饭前也能全部完成了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "其实有点慢了，和平的腐朽么……嘶！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "克利奥佩特拉，茶！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "啊非常抱歉，总督大人！我、我这就帮您清理一下！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			say = "显然，女仆专注于应对总督提出的问题，而忘了之前倒茶的手在倾斜后再也没有抬起来。",
+			say = "It's rather hot today, so please be mindful of heatstrokes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,18 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
-			say = "一番鸡飞狗跳后，女仆总算是勉强清理干净了茶水、破碎的盘子与染脏的地毯。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			say = "趴在地上的宠物狮只是抬头瞥了一眼，就选择了继续假寐。显然，对此已是习以为常。",
+			say = "On a balcony of the palace in the old capital, the Governor of the Nile looked out across her territory, accompanied by her pet and a Royal Maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,11 +128,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哈啊……我说克利奥佩特拉，你看着明明是一副完美潇洒、高冷又优雅的样子。",
+			say = "It's not that hot. In fact, it's a perfect day to sail. Incidentally, are the preparations in order?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,11 +140,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是怎么偏偏这么呆……你说，女仆队怎么就把你派给我了？",
+			say = "Adjustments to the Mesektet were made last night. The manager said that it is in peak condition and ready to sail at a moment's notice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +152,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "行了行了，清理得差不多了，你也坐下来歇歇吧。",
+			say = "Please be on the lookout for smaller ships in the river. The final supplies are being loaded onto the Mesektet as we speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,11 +164,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿……非常抱歉，总督大人。",
+			say = "Everything should be ready by lunchtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,11 +176,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过要不是来的是我，总督大人的很多计划想要推进下去恐怕就难了哦？",
+			say = "Slower than I'd prefer. Peace makes men grow weak. Hmph.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,129 +188,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至少这次远征行动是两院一致通过的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "明明是她们趁你不在，偷偷把你算计了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我要真不同意，谁能逼我？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "只是如今，帝国的光芒虽然已经撒遍了世界，在和平之下滋生的腐朽亦洒遍了世界。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我倾尽资源，建立这座人工奇异点装置可不只是为了装点门面的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "有这种没有后方掣肘的探索机会我可是求之不得。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "狮",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嗯——这件事还是得谢谢你，多亏你孜孜不倦向她们提供筛选过的情报呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不客气，尼罗河总督区是我们的尼罗河总督区，这都是我分内之事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			say = "一瞬间，刚刚冒失的女仆仿佛换了一个人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			say = "不过很快，她又变成了那个貌似高冷的单线程女仆，因为她这次忘记了她正在给自己倒茶。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "克利奥佩特拉",
-			bgName = "bg_gaotaqiangwei_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "啊……！糟、糟糕……我这就清理！",
+			say = "Oi, Cleopatra! The tea!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,11 +205,49 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………算了，一会把地毯整体换了吧。",
+			say = "Ah, my apologies, Miss Governor! I-I'll tidy up at once!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			say = "The Royal Maid was so focused on answering the governor's question that she didn't notice that she was still pouring tea.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			say = "After a brief but chaotic episode, the maid finally managed to get the expanding mess of spilled tea, broken plates, and stained carpets under control.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			say = "The pet lion lying nearby took a passing glance at her before going back to sleep, as if accustomed to this sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,11 +255,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎嘿嘿……那我一会就去换新的。",
+			say = "*sigh*... And to think I took you for a level-headed, capable maid at first glance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,11 +267,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唉……话说你看河边，那个人是不是特拉法尔加？",
+			say = "Little did I know how clumsy you could be. I cannot fathom why the Royal Maids assigned you to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,11 +279,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她不是应该在军港里备战么，跑到河堤上做什么？",
+			say = "No matter. You cleaned up, and that's sufficient. Sit down and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,11 +291,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……似乎是对辉翼太阳船感兴趣吧。",
+			say = "Ahaha... My sincerest apologies, Miss Governor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,11 +303,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你不是一直不让她进入人工奇异点设施么？好不容易今天船开出来了，她应该是觉得机会难得。",
+			say = "However, with all due respect, it wouldn't have been so easy to move forward with many of your plans if I hadn't been here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,11 +315,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我去委婉地请她离开？",
+			say = "Be that as it may, this mission has the approval of both Houses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,11 +327,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "倒也不用，毕竟她代表皇家骑士团和陆间海舰队前来支援，我还是很感谢的。",
+			say = "It's evident that they took advantage of the fact that you weren't present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,11 +339,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且太阳船她早晚都要上，灯塔那里看好，别让她和她的人靠近就是了。",
+			say = "I can simply refuse. Nobody can force me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,11 +351,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白。",
+			say = "But, I have reasons to go. While our nation's radiance covers every corner of the world, the enfeebling that comes with peace is also spreading across the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,11 +363,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其实……有一件事我好奇很久了。",
+			say = "Furthermore, I did not create an artificial Singularity only for it to gather dust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,11 +375,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "人工奇异点的固定模块，叫作「重现奇迹-亚历山大引航灯塔」，我能理解……选了一个很好的寓意。",
+			say = "An opportunity such as this to explore without being prodded from behind is exactly what I've been wishing for.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,11 +387,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是分离模块，为什么要叫「辉翼太阳船」呢？",
+			say = "Come to think of it, I should be thanking you, Cleopatra. For picking and choosing the information to give them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,11 +399,33 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克利奥佩特拉",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "承载生者的船叫太阳船，会不会有些……",
+			say = "You're welcome. Your district is also our district, Governor – as such, this is just a part of my job.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			say = "For a moment, the Royal Maid assumes a capable and calm exterior, as though she's become someone else entirely.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			say = "Soon, though, she realizes that she has been pouring tea for a long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,11 +433,28 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以才要叫太阳船。",
+			say = "Oh dear! I'm truly sorry! I'll clean this up at once!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Forget it. Just replace the carpet later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,11 +462,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Cleopatra",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "乘上它，我们将穿越奇异点，驶向未知而广阔的新世界。",
+			say = "Ahaha... Very well. I will buy a new one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,11 +474,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这一过程，华丽……壮美……又困难千重。",
+			say = "Hmh. Who's that by the riverside? Trafalgar?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,11 +486,179 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "狮",
+			actorName = "Lion",
 			bgName = "bg_gaotaqiangwei_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "载着期冀，向死而生，你不觉得很形象么——",
+			say = "She should be at the station, making preparations. What is she doing over there?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Hmm. Perhaps she's expressing an interest in our solar barque?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "You've always kept her away from your artificial Singularity facility, so she may view this voyage with the Mesektet as a rare opportunity.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Shall I politely ask her to leave?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "No need. She is a representative from the Royal Knights and the Mediterranean fleet and has come to support me. I am grateful to her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "She will board the Mesektet sooner or later, regardless. Just don't let her close to the Lighthouse.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "As you wish.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Um, if I may... I've been wondering about something for a while.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "While I do understand the reasoning behind naming the Singularity's fixed module \"Miracle Recreation - Lighthouse of Alexandria,\" as it has a nice meaning...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Is there a particular reason why the separation module was named \"Mesektet\"?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Cleopatra",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "It seems a little... inauspicious to give that name to a ship that living people take.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "That is precisely why it's called that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "We will ride this ship through a Singularity and explore a vast and unknown new world.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Although there will be hardships, the journey is eternally splendorous and grand.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Lion",
+			bgName = "bg_gaotaqiangwei_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Carrying hope and living for the journey to death – isn't that Mesektet in a nutshell?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,39 +688,39 @@ return {
 			},
 			sequence = {
 				{
-					"「于是——吾下达了远征的命令。」",
+					"\"Thus, I issued the order to commence an expedition.\"",
 					0.5
 				},
 				{
-					"「此乃算计？或许吧，吾不在意。」",
+					"\"Could this be a ploy? It is possible, but I care not.\"",
 					1
 				},
 				{
-					"「吾坐拥尼罗河地区，实力首屈一指。」",
+					"\"My power over the Nile territory is unrivalled and uncontested.\"",
 					1.5
 				},
 				{
-					"「吾修造辉翼太阳船，技术遥遥领先。」",
+					"\"My technological prowess that brought the Mesektet into being is also unparalleled.\"",
 					2
 				},
 				{
-					"「如此，理应出门看看。」",
+					"\"Thus, it makes sense to go on a journey beyond home.\"",
 					2.5
 				},
 				{
-					"「世界是狭小的，吾等被困在小小的星球中。」",
+					"\"Our world is a small one. We are trapped on a tiny planet.\"",
 					3
 				},
 				{
-					"「世界也是广阔的，因为可能性无穷亦无尽。」",
+					"\"The possibilities of the worlds out there are endlessly vast.\"",
 					3.5
 				},
 				{
-					"「新的时代即将开启。」",
+					"\"The tide of a new age begins to rise.\"",
 					4
 				},
 				{
-					"「而吾——将会成为这场新时代的领航人。」",
+					"\"At its forefront shall be I – Lion.\"",
 					4.5
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>星选之夜</size>",
+					"Port Fashion Collection: Resplendent Night\n\n<size=45>4 Today's Horoscope</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这位客人，需要来一份本日的星座占卜吗？",
+			say = "Commander, would you like to know your horoscope for today?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……星座？",
+			say = "My horoscope... Constellation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,18 +56,18 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绚烂的星空顶下，一身侍者装的星座正向我挥手。",
+			say = "Under a night sky littered with shining stars, one Constellation wearing her restaurant uniform beckons to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "难得会在这种场合看到你。",
+					content = "I'm surprised to see you here...",
 					flag = 1
 				},
 				{
-					content = "今天精神不错？",
+					content = "You're in a good mood, aren't you?",
 					flag = 2
 				}
 			}
@@ -81,7 +81,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，指挥官就不要打趣我了嘛~",
+			say = "Commander, please don't tease me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为店里的工作时间在晚上，所以对我来说没问题的。",
+			say = "My shift at the restaurant is at night, so of course I'm in a good mood.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看星星的时间会被占用吧？",
+			say = "It won't interfere with your star-gazing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实呢~不过，指挥官不觉得，这里的星空也别有一番风味吗？",
+			say = "Maybe a little... But Commander, don't you think the night sky here has its own unique flavor?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一般来说，即使在最晴朗的夜晚爬上山顶，也很难看到如此清晰的星空。",
+			say = "It's not easy to see the sky so clear and starry, even if you climb up to the top of a mountain on a clear night.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然而，这片星空顶却能让繁星看起来近在咫尺，仿佛一伸手就能拥抱整片银河。",
+			say = "But they look so close here. As if you could take the whole galaxy into your hands if you just reach out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她说着，抬手指向上方的星空。",
+			say = "Constellation points up at a particular star.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你看那边，那是大熊座，旁边的是小熊座，还有……",
+			say = "That one is Ursa Major, and the one next to it is Ursa Minor. And then...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一旦聊起关于星星的话题，少女就变得格外高兴和健谈。",
+			say = "Constellation is always so excited to talk about the stars. She gets more talkative than ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听说这是利用了港区最新的技术，特别搭建的星空顶？",
+			say = "And this planetarium was built using the port's newest technology, I believe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是的，真是一项浪漫的技术呢~指挥官不觉得吗？",
+			say = "Yep. Isn't it just full of romance, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "的确很浪漫。",
+			say = "Yeah. Romance is an apt word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来，你会来店里帮忙让我很意外，我还以为你不喜欢这种……嗯，相对热闹的环境？",
+			say = "Still, I'm surprised that they got you to help around the restaurant. I thought you didn't like crowded places.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……其实我并不讨厌这种哦？反而还有些乐在其中呢。",
+			say = "Umm... I don't think you're right about that. Actually, I like it when things are livelier.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哦？",
+			say = "Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为我的作息时间和大家不太一样，所以交流的机会一直很少呢。",
+			say = "But since my sleep schedule is so different from everyone else's, I don't get many opportunities to hang out with them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是现在，不仅作息时间不会受到影响，还可以跟大家凑在一起聊有关星星的话题……",
+			say = "But here, I can talk under the beautiful stars with everyone no matter what time it is...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我很开心呢。",
+			say = "It's so much fun.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~不知不觉就说了这么多，结果都忘了给您点单……！",
+			say = "...Oh. I blabbered so much that I forgot to ask for your order, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳……这位客人，想好要喝些什么了吗？",
+			say = "Ahem... Commander, what would you like to drink tonight?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让您久等了~这是您的饮料，还有——",
+			say = "Thanks for waiting~ Here's the drink you ordered, aaand...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本日星座占卜的结果，以及给您的建议~希望您会满意。",
+			say = "I brought your horoscope results and advice for you♪",
 			painting = {
 				alpha = 0.3,
 				time = 1

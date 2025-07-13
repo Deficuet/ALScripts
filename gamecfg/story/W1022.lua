@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "能源模块已就位，设备启动成功，正在分析中……",
+			say = "Power source has been installed. Booting device...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析成功。已解析的情报能够为舰队的后续作战提供帮助。",
+			say = "Analysis complete. Data acquired on Siren enhancement modules from this sector.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请选择需要提升的适应性类型：",
+			say = "A capability-improving rigging augmentation is available. Which would you like to augment?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,19 +53,19 @@ return {
 			},
 			options = {
 				{
-					content = "[适应性·攻击]提升",
+					content = "Increase Offensive Adaptability.",
 					flag = 0
 				},
 				{
-					content = "[适应性·耐久]提升",
+					content = "Increase Survival Adaptability.",
 					flag = 1
 				},
 				{
-					content = "[适应性·效能]提升",
+					content = "Increase Tactical Adaptability.",
 					flag = 2
 				},
 				{
-					content = "不做选择",
+					content = "None, maybe next time.",
 					flag = 3
 				}
 			}

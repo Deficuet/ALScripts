@@ -20,10 +20,14 @@ function var_0_0.GetNextMonthTS()
 	local var_2_1 = pg.TimeMgr.GetInstance():STimeDescS(var_2_0, "%Y")
 	local var_2_2 = pg.TimeMgr.GetInstance():STimeDescS(var_2_0, "%m")
 	local var_2_3 = tonumber(var_2_1)
-	local var_2_4 = tonumber(var_2_2) + 1
+	local var_2_4 = tonumber(var_2_2)
 
-	if var_2_4 > 12 then
-		var_2_4 = 1
+	print("------------", tostring(var_2_3), tostring(var_2_4))
+
+	local var_2_5 = var_2_4 + 1
+
+	if var_2_5 > 12 then
+		var_2_5 = 1
 		var_2_3 = var_2_3 + 1
 	end
 
@@ -33,7 +37,7 @@ function var_0_0.GetNextMonthTS()
 		hour = 0,
 		day = 1,
 		year = var_2_3,
-		month = var_2_4
+		month = var_2_5
 	})
 end
 

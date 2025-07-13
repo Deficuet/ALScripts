@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "深夜，收到了布里斯托尔的联络后，来到了船尾的一处神秘角落。",
+			say = "After a late-night call from Bristol, I come to the so-called \"mystery room\" at the ship's stern.",
 			bgm = "login_us_0401",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "假日邮轮，我们的乐园。",
+			say = "A holiday cruise, a vacation paradise.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奢侈、舒适、悠闲，承载着我们的度假之旅。",
+			say = "Luxury, comfort, leisure, highlights of our time together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "但是——黑暗，总潜伏在光明之下。",
+			say = "But light always casts a shadow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "砰砰——啪啪啪——咔哒咔哒咔哒——（各种奇怪的声音）",
+			say = "Bang, bang! Clap, clap! Dadadadadum!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "梦境已经赋予了我启示，当群星到达正确的位置——",
+			say = "I received a revelation within a dream. When the stars align...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "邮轮的七大不可思议事件就会出现！",
+			say = "Seven mysteries will come to light on this ship!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "所有人都会受到影响，你，也不能幸免！",
+			say = "Everyone is destined to be affected! Including YOU, dear listener!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "除非你能在此做出旅途中最正确的选择！",
+			say = "You will! Unless you make the perfect decisions at every turn, that is!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "向所有人证明，你有追求真相的智慧与勇气！",
+			say = "Prove to all of us that you have the sagacity and bravery to pursue the truth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "加入调查小队！",
+			say = "Now, join the Investigation Committee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "成为——调查员吧！",
+			say = "Come, be the detective you were born to be!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,22 +250,22 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我加入！",
+					content = "I'll join!",
 					flag = 1
 				},
 				{
-					content = "……把大家叫出来就是为了说这个？",
+					content = "...You woke all of us up for this?",
 					flag = 2
 				},
 				{
-					content = "我可以回去了么？",
+					content = "Can I go back to bed now?",
 					flag = 3
 				}
 			}
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "不愧是指挥官！",
+			say = "I knew you would, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在此，我宣布，邮轮不可思议事件特别调查小队在此正式成立！",
+			say = "I hereby declare the official formation of the Cruise Mystery-Solving Investigation Committee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等指挥官，我就要说到重点了！",
+			say = "C-Commander, wait! We're just getting to the good stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳！在此，我宣布，邮轮不可思议事件特别调查小队在此正式成立！",
+			say = "Ahem! I hereby declare the official formation of the Cruise Mystery-Solving Investigation Committee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等指挥官，我就要说到重点了！",
+			say = "C-Commander, wait! We're just getting to the good stuff!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳！在此，我宣布，邮轮不可思议事件特别调查小队在此正式成立！",
+			say = "Ahem! I hereby declare the official formation of the Cruise Mystery-Solving Investigation Committee!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "由我，布里斯托尔，担任调查小队的队长和一号调查员！代号——「提灯学者」！",
+			say = "Naturally, I will be the captain and investigator numero uno! Codename: Lamplight Scholar!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我，抚顺，调查员二号！代号——「冒险之王」！",
+			say = "Fu Shun, investigator number two, reporting in! Codename: Overlord of Adventure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哪儿有大新闻哪儿就有我！调查员三号，阿尔弗雷多·奥里亚尼！代号——「极速记者」！",
+			say = "Wherever the news goes, I follow! Investigator three, Alfredo Oriani, the Turbo Journo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601090,
-			say = "……原来叫我出来又是为了这种事。",
+			say = "Ugh, so this is why you called us all here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这里太吵了……我们一起回去吧。",
+			say = "Let them have their fun. Commander, let's go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "不要回去！我这次真的需要一个记录员当助手，求你了！",
+			say = "Hey, wait a sec! I really need a scribe for this one! Please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601090,
-			say = "……欸。",
+			say = "Uuugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "嘿嘿，那极速记者阿尔弗雷多的助手也选好了呢。那代号就叫——",
+			say = "Heheh, we got ourselves a scribe for the Turbo Journo! Let's see, your codename can be...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601090,
-			say = "……不需要代号，谢谢。",
+			say = "I don't want one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "那就叫记录员吧~然后是阿尔萨斯，该你自我介绍了！",
+			say = "Okay, Scribe it is. Alsace, your turn!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805030,
-			say = "属于鸢尾的圣迹、人类难以企及之幻梦、圣座守护、指挥官的守护之剑、铁心灭绝者、战列舰阿尔萨斯，在此加入特别调查小队！",
+			say = "Sacrament of the Unified Orthodoxy, an unreachable dream, guardian of the Holy See, sword of the Commander – Alsace, Cold-Blooded Killing Machine, joins the fray!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805030,
-			say = "指挥官，让我们一同查清邮轮上神秘事件的真相吧！",
+			say = "Commander, let's pursue the mysteries of this ship and corner the truth!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,11 +618,11 @@ return {
 			},
 			options = {
 				{
-					content = "头衔里好像混入了不得了的东西……",
+					content = "Wait, run that last nickname by me again?",
 					flag = 1
 				},
 				{
-					content = "……铁心灭绝者？",
+					content = "Cold-Blooded Killing Machine...?",
 					flag = 2
 				}
 			}
@@ -635,7 +635,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805030,
-			say = "哼哼~因为本次阿尔萨斯主要负责武力行动，所以布里斯托尔给阿尔萨斯起了这个代号，很酷吧~",
+			say = "Heheh. I will have my fill of combat during this investigation, so Bristol gave me the nickname. One has no objections. It's a cool name!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……布里斯托尔，你是怎么把阿尔萨斯拉过来的？",
+			say = "Bristol, what did you say to convince her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "因为我跟她说了指挥官也会来嘛，这也不算说谎对吧！",
+			say = "I just told her you were coming. That wasn't a lie!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于指挥官——你就是调查员四号了！代号——「解密助手」！",
+			say = "So, Commander, you're investigator four! Codename: Mysterious Assistant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "怎么样~惊喜么，意外么，兴奋么~！",
+			say = "Do you like it? Exciting, isn't it? Thrilling, even?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（说实话，在看到布里斯托尔和抚顺的那一刻就大概猜到会是这种展开了……）",
+			say = "(Honestly, I had a feeling this would happen the moment I saw Bristol and Fu Shun.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（解密助手，这个代号还算勉勉强强吧，不过——）",
+			say = "(Mysterious Assistant, huh? It's okay for a codename, I guess. But...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,7 +750,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……新造的邮轮上真的会有不可思议事件么？",
+			say = "Do you actually expect crazy mysteries on a brand-new cruise ship?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,7 +764,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "有的有的，一定有的！",
+			say = "Yes, yes! They'll be wild!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官~来一起调查吧！很好玩的！",
+			say = "Help us investigate, Commander! It'll be fun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "只有指挥官也参与了，不可思议事件出现的概率才会增加啊！",
+			say = "Your involvement will make it a whole lot likelier that mysteries will pop up, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "咳、咳……这是指指挥官很厉害的意思啦！",
+			say = "A-ahem! That's just how, uh, awesome you are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……还有一个问题，最应该出现在这里的飞云和大青花鱼呢？",
+			say = "By the way, where are Fei Yuen and Albacore? You'd think they would be all over something like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘘——她们正在执行卧底任务哦！",
+			say = "Hush! They're in the middle of an undercover investigation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……卧底任务，又是什么？",
+			say = "Undercover?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "潜伏在人群中，收集可疑的只言片语，然后将情报汇总到调查指挥部中来！",
+			say = "They blend into crowds, listen in to conversations for any clues, and provide a compiled list of leads to us investigators.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也就是线人啊……",
+			say = "So they're informants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我宣布，第一次邮轮不可思议事件特别调查会议圆满结束。",
+			say = "Now, I hereby declare the first Special Investigation Committee meeting a success!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -935,7 +935,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "指挥官，从明天开始要留意邮轮里发生的异常事件哦！",
+			say = "Commander, keep an eye out for anything weird on the cruise starting tomorrow!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们在收到情报后，也会同步信息给你的，保持联络！",
+			say = "We'll let you know if we hear anything. K.I.T. – keep in touch!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,7 +967,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "就这样，针对邮轮之上七大不可思议事件的调查行动正式开始了。",
+			say = "Thus, the investigation of the cruise's seven mysteries began.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_131",
 			hidePaintObj = true,
-			say = "可是——不可思议事件真的会出现么？",
+			say = "Forget seven, though – would there be any mysteries to investigate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

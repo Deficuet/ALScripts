@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碧海的偶像\n\n<size=45>二 追寻之旅</size>",
+					"Superstar of the Blue Seas\n\n<size=45>Chapter 2 - A Charity Race?</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗯……海豹好像不在这个方向呢……",
+			say = "Hmm... It doesn't seem the Seal is in this area...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -58,7 +58,7 @@ return {
 			actor = 101020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "艾尔温，雷达那边有反应了！",
+			say = "Aylwin, my radar is picking up something in that direction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！（列克星敦小姐为了准备演唱会很忙呢，我们得更努力才行……！）",
+			say = "Okay! You lead the way! (Lexington has her hands full at the moment, so we need to do the best we can on our own...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说，猎人，萨拉托加说的那个“会出来捣乱的巨大章鱼邪神”真的存在吗？",
+			say = "Hey, Hunter... Remember the \"nefarious kraken\" that Sara spoke of? Does such a thing really exist?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "勇敢，这已经是你一小时里问的第46次了，不想找的话你可以回去的。",
+			say = "... You've asked that question more than 40 times, Hardy. Does this Hunt frighten you? Then you may head back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 201160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，我只是怕你到时候无法应付而已！",
+			say = "Hah! Me? Frightened? I'm here to ensure you won't stand motionless when something frightens YOU!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "研究海星成为一个合格的海洋学者也是我的梦想之一。为了保护大海我会义不容辞的！",
+			say = "It's a dream of mine to become a marine biologist and write a thesis on starfish. It goes without saying I'll protect the sea!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，就是这股干劲！我们也要加油找才行呢！",
+			say = "Hahah, that's the spirit! We've gotta search every aquatic nook and cranny for that Seal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴尔的摩，大家都朝那个方向去了…真的没关系吗？",
+			say = "Umm, Baltimore, everyone else is heading that way... Sh-should we really go this way?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 103160,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "又没有规定必须朝距离近的反应找，我们走反方向，一口气超过大部队！",
+			say = "Hey, there's no rule that says we must search nearby areas where we pick up readings. We'll outwit them by purposely heading in the opposite direction!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……我会选择我自己的道路前进……！",
+			say = "Cleve... I will continue down my own path...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "虽然一路上被萨拉拖着几乎毫无目的性地到处乱走，不过遇到了各种各样似乎在寻找海豹的队伍。",
+			say = "We came across several of the other teams as Saratoga and I were looking around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "看来，海豹的传闻似乎是真的。",
+			say = "It seemed that everyone was taking their respective searches for the Mythical Seal pretty seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯哼，今年要搞得更热闹些！",
+			say = "I can really tell how excited everyone is this time around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "能带来幸运的传说中的海豹…似乎自然而然地激起了大家的热情。",
+			say = "Apparently, this legend about a creature which brings good luck may have contributed to the lively atmosphere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）好像有许多奇怪的家伙当真了呢……",
+			say = "(Whispering) I kind of made up that part about it bringing good luck, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			},
 			options = {
 				{
-					content = "……？",
+					content = "...?",
 					flag = 1
 				}
 			}
@@ -398,7 +398,7 @@ return {
 			actor = 107034,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咳咳，没、没什么，让我们继续前进吧，指挥官！",
+			say = "N-nope, I didn't say anything! C'mon, we'd better speed up, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据雷达显示，我们正在靠近海豹哦！",
+			say = "I'm picking up readings thataway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "萨拉托加手中的雷达发出了滴滴滴的声音，这个东西原来真的会派上用场吗！",
+			say = "Following the readings on the Seal radar, our little journey continued.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

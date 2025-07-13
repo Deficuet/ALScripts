@@ -10,18 +10,18 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，已到达指定区域。是否开始进行打捞作业？",
+			say = "Arrived at point of interest. Do you want to commence supply retrieval operations?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "打捞",
+					content = "Let’s do it.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "No thanks.",
 					flag = 2
 				}
 			}

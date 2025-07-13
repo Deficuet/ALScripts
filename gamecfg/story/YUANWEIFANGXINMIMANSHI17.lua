@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-musicanniversary-gorgeous",
-			say = "从进程规划上来说，宴会应该已经接近尾声了。",
+			say = "Schedule-wise, the banquet should be nearing its climax now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "但现场的热度并没有丝毫的下降，反而愈加——",
+			say = "In reality, though, spirits are still rising – both of the soul, and of the bottle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702040,
-			say = "指挥官同志，看来你还有隐藏的实力啊，来来，выпить до дна（干杯）！",
+			say = "I know you can hold your liquor, Comrade Commander. Don't be a teetotaler and drink up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官不用担心，这次我的水壶里，装的是真正的水……大概。",
+			say = "Don't you worry. My canteen actually contains water this time... or does it? Heehee~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，仆——，你可不能被那边勾走了！",
+			say = "Not again, servant! Stop letting the drunkards sink their claws into you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301880,
-			say = "指挥官，很受欢迎呢，但看着好像也很辛苦……",
+			say = "The Commander certainly is popular. For better or worse...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人，我们也快去把指挥官抢过来吧！",
+			say = "What do you say we walk over and snatch the Commander for ourselves, Lady Musashi?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "鹬蚌相争，渔翁得利。",
+			say = "No. Only a fool gets between two fighting tigers to steal their prey.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "待到局势再热烈一些，指挥官的防线再瓦解一些，我们再出击也不迟。",
+			say = "Let us wait for a more opportune time, when the Commander needs external help.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305100,
-			say = "不过，等待时机的猎手，好像不只是我们呢……",
+			say = "And be vigilant. We aren't the only ones who want a piece of the Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "（微笑着点头致意）",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "{namecode:84}大人，{namecode:435}大人向您表示敬意。如果不介意的话，来尝尝我们铁血的啤酒如何？",
+			say = "Well, fellow hunters, that might take a while. Let's pass the time with some of our domestically-produced beer, shall we?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "呼——终于稍微闲下来一些了……",
+			say = "Whew... Finally, a moment to breathe. Enjoying yourself, Jean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐……要……一起来一杯吗。",
+			say = "Yeah. Not a bad party, I guess. You, uh... wanna share a toast?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "……当然，我的妹妹，我非常乐意。",
+			say = "Why, I'd love to. To a long and eventful night!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "企业……前辈……我还能……",
+			say = "Heeey, Enterprise... You like the refreshments? I do, and I could use some more!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "啊，指挥官……也一起来吧……嘿嘿……",
+			say = "*hic*... Commander... C'mere, I wanna talk! Ahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107060,
-			say = "埃塞克斯，你到底喝了多少啊……哎……你抱太紧了——",
+			say = "For god's sake, Essex... Go easy on the drinks. People are looking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "夜晚，海风像是柔软的绸缎般轻抚着脸颊。",
+			say = "My gut told me that things would get a little TOO rowdy if I stayed in the hall, so I decided to step outside for a while.",
 			bgm = "theme-clemenceau",
 			typewriter = {
 				speed = 0.05,
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "纵使来到了室外，会场的欢声笑语似乎仍在耳畔回响。",
+			say = "Fortunately, nobody saw me sneaking out. I'd hate for it to look like I'm bailing on everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "没想到安慰企业的话一语成谶，宴会此时已经变为了“战场”。",
+			say = "I look up at the night sky, the laughter and cheering from inside the hall still ringing in my ears. It's like a battlefield in there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,19 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……稍微需要，透一下气。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "？？？",
-			bgName = "bg_night",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "呼——再过一小会儿，今天，就要结束了。",
+			say = "I take a deep breath of fresh air. This is just what I needed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +434,19 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "指挥官也是在这里等待明天的到来吗？",
+			say = "Well, well. Going outside right before the clock strikes midnight.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "？？？",
+			bgName = "bg_night",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Needed a break, I presume? That's why I'm here, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "这声音是……克莱蒙梭？",
+			say = "\"I recognize that voice... Clemenceau?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "抱歉，我打扰到你了吗？",
+			say = "Do forgive me if I'm disrupting the moment.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			},
 			options = {
 				{
-					content = "没有，只是有些意外。",
+					content = "Not at all. Stay here if you'd like.",
 					flag = 1
 				}
 			}
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "没打扰到你就好。",
+			say = "Alright. If you're sure.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "（嗅嗅）",
+			say = "*sniff sniff*...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "看来，指挥官刚刚承受了相当多的“爱戴”呢。",
+			say = "The girls in there really left their mark on you, didn't they?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "从残留的香水味道上来看，有白鹰的企业的、铁血的{namecode:435}的、我们家黎塞留的……",
+			say = "I can smell perfume residue all over you. Iron Blood, Sakura Empire, Iris Orthodoxy... There's a little bit from everyone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "甚至连重樱的{namecode:84}大人的都有啊。",
+			say = "It must be exhausting, being passed around from faction to faction like a volleyball.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "要不然也在这里也染上些我的味道如何？",
+			say = "Maybe I should rub some of my scent off on you as well, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……还请黑衣主教阁下手下留情。",
+			say = "\"Might the words 'have mercy on me' convince you not to?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~开个玩笑。",
+			say = "Heehee. I was only joking.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "说起来……你不在宴会上没关系吗？",
+			say = "\"Fair enough. By the way, you look a little worn out. Is it that taxing to oversee a banquet and speak to guests?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯，毕竟我也不是喜欢抛头露面的人。",
+			say = "It is. I'm very much not a people person.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "比起觥筹交错的宴会，我更喜欢出来吹吹海风。",
+			say = "Nor am I a party person. I'm not much for clinking glasses and engaging in warm conversations – I like my drinks with a side of sea breeze and solitude.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "而且，黎塞留也忙完事情来到会场了，我就算不在也没关系。",
+			say = "Besides, with Richelieu on the scene, nobody will notice if I'm gone.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "……指挥官，请问，你今天的感受如何？",
+			say = "...I'm curious, Commander. How do you feel about our banquet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,15 +708,15 @@ return {
 			},
 			options = {
 				{
-					content = "平凡",
+					content = "\"It's a typical banquet, and I like that.\"",
 					flag = 1
 				},
 				{
-					content = "快乐",
+					content = "\"It was a lot of work, but I'm having a great time.\"",
 					flag = 2
 				},
 				{
-					content = "刺激",
+					content = "\"It's thrilling, that's for sure.\"",
 					flag = 3
 				}
 			}
@@ -730,7 +730,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，我也有相同的感受。",
+			say = "Yes, typical. I think so too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平凡。平凡的昨日、平凡的今日、平凡的明日。",
+			say = "The celebrations we throw at this port feel normal and commonplace, in the best way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -768,7 +768,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在背后支撑着这样一场热闹宴会的——正是我们已经习以为常，又不可或缺的平凡。",
+			say = "They're symbols of the calm, peaceful life we enjoy, and the normality we strive to maintain.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，感觉我又多了解你一分了~",
+			say = "Heehee. I feel like I know you better now than I did before.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噢~确实，今天的庆典宴会相当的完美。",
+			say = "\"It was a lot of work, but I'm having a great time.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,7 +825,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让所有与会宾客都得到了充分的享受与乐趣。",
+			say = "But, it was worth it. As far as entertaining the guests is concerned, this banquet is perfect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -844,7 +844,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能达成这一点，也多亏了您在开幕之前做出的帮助呢。",
+			say = "You deserve acknowledgment for your part, too. This banquet wouldn't be what it is without you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -863,7 +863,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回答居然是刺激么……看来会场之中，或许发生了些连我都尚未洞悉全貌的事件啊。",
+			say = "Thrilling, you say? Interesting... Perhaps there are things beyond even my predictions going on in there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -882,7 +882,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是深谙战争艺术的指挥官阁下，感觉我又多了解你一分了。",
+			say = "Seems you navigate parties like you navigate the battlefield. I feel like I know you a little better now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,7 +900,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "好了，休息时间结束。该带指挥官阁下返回“战场”了。",
+			say = "Alright, we've both had enough fresh air. It's time to lead you to the next battlefront.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,7 +915,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "……这么快就结束了？",
+			say = "\"The next battlefront? Meaning...?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "呵呵~其实，这座城堡在建设的时候，我特意加上了密道和暗室的部分。",
+			say = "When this palace was built, we had a few secret passageways and hidden rooms constructed as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -947,7 +947,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "接下来的时光，绝对不会让你失望的。",
+			say = "Think of it as an exploratory detour. You won't be disappointed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,7 +965,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "让我们一同，尽情享受庆典的尾音吧——",
+			say = "Come on. Let's enjoy this party to the end – together.",
 			painting = {
 				alpha = 0.3,
 				time = 1

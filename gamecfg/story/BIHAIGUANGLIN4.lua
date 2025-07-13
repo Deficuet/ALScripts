@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_1",
-			say = "随着舰队接近，岛屿的轮廓也变得逐渐清晰起来。",
+			say = "As the party approached the island, a huge building towered above the water.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
@@ -37,7 +37,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_daofeng_1",
 			dir = 1,
-			say = "金碧辉煌的亭台与错综复杂的水道构成一座宛如巨大宫殿群一般的海中都市。",
+			say = "In front of them was a lavish castle with pristine white walls, waterways flowing from a central spire like roads of cascading blue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
-			say = "真是太壮观了…………{namecode:208}阁下，这究竟是什么啊！",
+			say = "K-Katsuragi, any idea what this is...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:208}",
-			say = "我也不是很清楚，不过根据我作为正规航母的分析和判断来说……这不是自然形成的岛屿！",
+			say = "Just as lost as you are! However, using my extensive aircraft carrier knowledge of castles, I would have to surmise that what we're looking at iiiis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:207}",
-			say = "简直就像传说中的“龙宫城”一样！",
+			say = "I dunno, looks like the legendary Dragon Palace to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:208}",
-			say = "哼~{namecode:18}，立刻联络本阵，我们有大发现了！",
+			say = "Yeah, exactly what I was going to say! Shimakaze, let's tell Chikuma that we found something real amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:18}",
-			say = "是——{namecode:62}阁下，能听到么？",
+			say = "Sure thing! Chikuma, can you hear me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:62}",
-			say = "这里是{namecode:62}，请问有什么事？",
+			say = "Loud and clear. Something to report?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
-			say = "是这样，我们在侦察路上发现了一个巨大的奇怪岛屿——",
+			say = "Well, we went just a little off course and came across a hereto undiscovered island, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			say = "情况我都明白了，{namecode:182}大人正在休息，我稍后向她汇报。麻烦各位继续收集情报，不要轻举妄动，{namecode:62}通讯结束。",
+			say = "That's... interesting. I would ask Lady Shinano about it, but she's asleep at the moment. For now, just stay put until I manage to get in touch with her.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "越叫人不要轻举妄动，越让人有行动的欲望啊！",
+			say = "\"Just stay put,\" she says... It only makes me more curious to see what's inside the castle! Am I right, Shimakaze?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301290,
-			say = "我完全明白你的感觉，{namecode:208}阁下！",
+			say = "I won't deny I'm curious as well, but Chikuma did just give us very clear orders, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 307120,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果不进去看看的话，就没办法更好侦察了，你们说是吧！",
+			say = "We won't figure out what this place even is without going inside, will we? What's more, this is a chance for us to earn accolades! Letting this opportunity slide by goes against my principles as a proper aircraft carrier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301480,
-			say = "唔……确实是这样！而且这么金碧辉煌的宫殿，说不定会有宝藏藏在里面呢！",
+			say = "If the legends are true, there's bound to be mountains of treasure inside! I say, let's gooooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 301470,
-			say = "确实有一种，会埋藏有宝藏的感觉……",
+			say = "Even if there is treasure inside, I fear we're in no right to claim it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "立功的机会到了！既然意见统一，那我们就进去吧！",
+			say = "Oh, don't be such a stick in the mud! This is your best shot to earn Lady Shinano's respect after blacking out on her! Come on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 301290,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "噢噢噢——龙宫城探险队，出发！",
+			say = "...You make a very strong case, Katsuragi! On second thought, I'm going with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "晚一点的话……想要我帮你按一按吗？",
+			say = "Would you like a massage after we're done here?",
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone6",
 			typewriter = {
 				speed = 0.05,

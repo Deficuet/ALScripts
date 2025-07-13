@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"理科实验时间！\n\n<size=45>五　科学，永无止境</size>",
+					"Science Rules!\n\n<size=45>Chapter 5 - Science Is Never Done</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哇……这里就是{namecode:37}和{namecode:98}的实验室吗……",
+			say = "S-so this is Akashi's and Yuubari's research room...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好气派……",
+			say = "The scale of it is impressive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:417}，和{namecode:37}，已经开始了……",
+			say = "Seems U-73 and Yuubari are already at it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听好了，你从一开始就选错了成分，所以才会变成那样，你看看这样呢？",
+			say = "You see, U-73, the explosion happened because you mistreated the reagent for another. This is how you do it, see?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -123,7 +123,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原、原来如此！",
+			say = "T-that explains it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后，我们这样，再这样，接着这样，最后那样……",
+			say = "Now, watch closely and learn...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "居然还有这样的操作……",
+			say = "I had no idea you could even do that...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "…………一段时间后",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是！圣诞节的拐杖糖鱼雷！",
+			say = "W-wow, it actually worked! They made a candy cane torpedo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呜……原来，真的能吃……",
+			say = "... It's really sweet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "请、请让我叫你老师吧！{namecode:37}老师！",
+			say = "P-please, Yuubari! Allow me to call you \"Professor\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "老师就算啦～不过呢，科学的道路是十分广阔的！{namecode:417}，",
+			say = "Hum hum, no need to go so far. After all, science is always moving forward with no end in sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然你选择了这条道路，那就继续努力吧，{namecode:417}！",
+			say = "That is something you must remember now that you've chosen to become a scientist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有什么问题，欢迎来问我哦，这间实验室随时对你开放~",
+			say = "If you ever have any questions, don't hesitate to come to the science department.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔！我会努力的！！",
+			say = "I will! I'll try to be the best scientist I can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈…感觉，{namecode:417}比起平时摆姐姐的架子，还是现在这样更适合她呢~",
+			say = "... U-73, I think this scientist schtick of yours may fit you better than your usual one...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯。",
+			say = "... I think Zed could be right.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "教室…就那样放着没问题？",
+			say = "Should we just... leave the science room as it is now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下午{namecode:423}应该还要用到那间教室来着…？",
+			say = "You're right. Wasn't Köln going to use it this afternoon...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊…啊哈哈哈，糟了，忘记收拾好了再过来了…",
+			say = "Oh, oops, ahaha... I forgot to clean up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,12 +395,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			actorName = "{namecode:423}",
 			dir = 1,
-			say = "(远处传来的声音)是谁把教室弄成这样了啊啊啊啊！！！！",
+			side = 2,
+			bgName = "star_level_bg_103",
+			say = "In the distance, one could hear Köln angrily exclaiming \"who did this!? Who forgot to clean up before they left!?\"",
 			effects = {
 				{
 					active = true,
@@ -423,7 +421,7 @@ return {
 			actor = 408050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我、我先走了！！！！！",
+			say = "I-I think I'd better get going!",
 			effects = {
 				{
 					active = false,
@@ -453,7 +451,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "得到了优秀的老师启发的{namecode:417}，距离科学之路，大概还有一段距离——",
+			say = "Though U-73 now had a talented teacher to guide her, she still had a long ways to go to become a scientist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

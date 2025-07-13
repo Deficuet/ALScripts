@@ -13,12 +13,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"协力同心",
-				"当其中一人受到致命伤害时：①若另一人不处于【停止行动】状态，则自身免疫本次伤害并进入可回避所有伤害的【停止行动】状态8秒；②若另一人已处于【停止行动】状态，则二人会被同时击破。【停止行动】状态最多被两个化身共计触发3次。"
+				"Unstoppable Duo",
+				"During battle, the Extreme Challenge bosses - South Dakota and Washington - gain the following effect: When this ship would take lethal DMG, if her partner is not in the [Recovery] state, nullifies that instance of DMG and enters the [Recovery] state for 8s (this effect can be triggered a maximum of 3 times, shared between South Dakota and Washington). If her partner is in the [Recovery] state, both this ship and her partner will be defeated. While in the [Recovery] state, this ship dodges all incoming DMG."
 			},
 			{
-				"共渡难关",
-				"停止行动状态触发6秒后，所有双子座化身停止开火并回到场地中心，2秒后触发协力同心的化身回复自身耐久。共渡难关的效果最多被两个化身共计触发3次且回复量依次递减，分别为自身最大耐久值的<color=#92fc63>60%</color>、<color=#92fc63>40%</color>和<color=#92fc63>20%</color>"
+				"Unbreakable Bonds",
+				"When the effects of \"Unstoppable Duo\" are activated: South Dakota and Washington stop attacking and rejoin at the center of the battlefield after 6s. 2s after they rejoin, restores the HP of the ship that triggered the \"Unstoppable Duo\" effect. This recovery effect can be activated up to 3 times, and the recovery amount decreases with each activation, from <color=#92fc63>60.0% Max HP</color> to <color=#92fc63>40.0%</color> to <color=#92fc63>20.0%</color>."
 			}
 		},
 		award_display = {
@@ -42,12 +42,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"协力同心",
-				"当其中一人受到致命伤害时：①若另一人不处于【停止行动】状态，则自身免疫本次伤害并进入可回避所有伤害的【停止行动】状态8秒；②若另一人已处于【停止行动】状态，则二人会被同时击破。【停止行动】状态最多被两个化身共计触发3次。"
+				"Unstoppable Duo",
+				"During battle, the Extreme Challenge bosses - South Dakota and Washington - gain the following effect: When this ship would take lethal DMG, if her partner is not in the [Recovery] state, nullifies that instance of DMG and enters the [Recovery] state for 8s (this effect can be triggered a maximum of 3 times, shared between South Dakota and Washington). If her partner is in the [Recovery] state, both this ship and her partner will be defeated. While in the [Recovery] state, this ship dodges all incoming DMG."
 			},
 			{
-				"共渡难关",
-				"停止行动状态触发6秒后，所有双子座化身停止开火并回到场地中心，2秒后触发协力同心的化身回复自身耐久。共渡难关的效果最多被两个化身共计触发3次且回复量依次递减，分别为自身最大耐久值的<color=#92fc63>60%</color>、<color=#92fc63>40%</color>和<color=#92fc63>20%</color>"
+				"Unbreakable Bonds",
+				"When the effects of \"Unstoppable Duo\" are activated: South Dakota and Washington stop attacking and rejoin at the center of the battlefield after 6s. 2s after they rejoin, restores the HP of the ship that triggered the \"Unstoppable Duo\" effect. This recovery effect can be activated up to 3 times, and the recovery amount decreases with each activation, from <color=#92fc63>60.0% Max HP</color> to <color=#92fc63>40.0%</color> to <color=#92fc63>20.0%</color>."
 			}
 		},
 		award_display = {
@@ -71,12 +71,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"协力同心",
-				"当其中一人受到致命伤害时：①若另一人不处于【停止行动】状态，则自身免疫本次伤害并进入可回避所有伤害的【停止行动】状态8秒；②若另一人已处于【停止行动】状态，则二人会被同时击破。【停止行动】状态最多被两个化身共计触发3次。"
+				"Unstoppable Duo",
+				"During battle, the Extreme Challenge bosses - South Dakota and Washington - gain the following effect: When this ship would take lethal DMG, if her partner is not in the [Recovery] state, nullifies that instance of DMG and enters the [Recovery] state for 8s (this effect can be triggered a maximum of 3 times, shared between South Dakota and Washington). If her partner is in the [Recovery] state, both this ship and her partner will be defeated. While in the [Recovery] state, this ship dodges all incoming DMG."
 			},
 			{
-				"共渡难关",
-				"停止行动状态触发6秒后，所有双子座化身停止开火并回到场地中心，2秒后触发协力同心的化身回复自身耐久。共渡难关的效果最多被两个化身共计触发3次且回复量依次递减，分别为自身最大耐久值的<color=#92fc63>60%</color>、<color=#92fc63>40%</color>和<color=#92fc63>20%</color>"
+				"Unbreakable Bonds",
+				"When the effects of \"Unstoppable Duo\" are activated: South Dakota and Washington stop attacking and rejoin at the center of the battlefield after 6s. 2s after they rejoin, restores the HP of the ship that triggered the \"Unstoppable Duo\" effect. This recovery effect can be activated up to 3 times, and the recovery amount decreases with each activation, from <color=#92fc63>60.0% Max HP</color> to <color=#92fc63>40.0%</color> to <color=#92fc63>20.0%</color>."
 			}
 		},
 		award_display = {
@@ -100,12 +100,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蟹之盾",
-				"战斗开始时，巨蟹座化身将会生成一组环绕自身的【蟹之盾】（包含5个防雷次数4的鱼雷盾，5个防弹次数20的平射盾），持续25秒。并且每过25秒后，再次生成该护盾。"
+				"Chitinous Shield",
+				"When the battle starts: the Incarnation of Cancer generates a cluster of [Chitinous Shields] around itself (includes 5 Anti-Torpedo shields that can block 4 torpedoes, and 5 Anti-Shelling shields that can block 20 bullets), lasting for 25s. After 25s, the shields will be regenerated."
 			},
 			{
-				"蟹之爪",
-				"战斗中每过27秒，巨蟹座化身将会在海面上标记出一个攻击准备区，并在准备期间使敌方所有角色航速降低10。准备结束后，【蟹之爪】将现身于海面，对准备区内的所有敌方先锋角色造成伤害，并使其在9秒内无法移动。【蟹之爪】只会造成和受到20%的碰撞伤害。当【蟹之爪】的攻击落空或被击破后，巨蟹座化身的护盾将被清除，并使自身受到来自先锋角色的伤害提高100%，持续12秒。【蟹之爪】现身9秒后仍未被击破，将回复巨蟹座化身5%的耐久，然后离场。"
+				"Chelae",
+				"27s after the battle starts: marks an area of the battlefield and Channels; while Channeling, the Movement Speed of your ships will be reduced by 10. After the Channel duration finishes, [Chelae] will spawn, dealing DMG to all ships in your Vanguard within the marked area and immobilizing them for 9s. [Chelae] will only inflict and receive 20.0% collision DMG. When [Chelae] misses its attack or is broken, the Incarnation of Cancer will lose its [Chitinous Shield] and take 100.0% more DMG from your Vanguard for 12s. [Chelae] that are not defeated within 9s will restore 5.0% Max HP to the Incarnation of Cancer and then leave the battlefield."
 			}
 		},
 		award_display = {
@@ -129,12 +129,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蟹之盾",
-				"战斗开始时，巨蟹座化身将会生成一组环绕自身的【蟹之盾】（包含5个防雷次数4的鱼雷盾，5个防弹次数20的平射盾），持续25秒。并且每过25秒后，再次生成该护盾。"
+				"Chitinous Shield",
+				"When the battle starts: the Incarnation of Cancer generates a cluster of [Chitinous Shields] around itself (includes 5 Anti-Torpedo shields that can block 4 torpedoes, and 5 Anti-Shelling shields that can block 20 bullets), lasting for 25s. After 25s, the shields will be regenerated."
 			},
 			{
-				"蟹之爪",
-				"战斗中每过27秒，巨蟹座化身将会在海面上标记出一个攻击准备区，并在准备期间使敌方所有角色航速降低10。准备结束后，【蟹之爪】将现身于海面，对准备区内的所有敌方先锋角色造成伤害，并使其在9秒内无法移动。【蟹之爪】只会造成和受到20%的碰撞伤害。当【蟹之爪】的攻击落空或被击破后，巨蟹座化身的护盾将被清除，并使自身受到来自先锋角色的伤害提高100%，持续12秒。【蟹之爪】现身9秒后仍未被击破，将回复巨蟹座化身5%的耐久，然后离场。"
+				"Chelae",
+				"27s after the battle starts: marks an area of the battlefield and Channels; while Channeling, the Movement Speed of your ships will be reduced by 10. After the Channel duration finishes, [Chelae] will spawn, dealing DMG to all ships in your Vanguard within the marked area and immobilizing them for 9s. [Chelae] will only inflict and receive 20.0% collision DMG. When [Chelae] misses its attack or is broken, the Incarnation of Cancer will lose its [Chitinous Shield] and take 100.0% more DMG from your Vanguard for 12s. [Chelae] that are not defeated within 9s will restore 5.0% Max HP to the Incarnation of Cancer and then leave the battlefield."
 			}
 		},
 		award_display = {
@@ -158,12 +158,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蟹之盾",
-				"战斗开始时，巨蟹座化身将会生成一组环绕自身的【蟹之盾】（包含5个防雷次数4的鱼雷盾，5个防弹次数20的平射盾），持续25秒。并且每过25秒后，再次生成该护盾。"
+				"Chitinous Shield",
+				"When the battle starts: the Incarnation of Cancer generates a cluster of [Chitinous Shields] around itself (includes 5 Anti-Torpedo shields that can block 4 torpedoes, and 5 Anti-Shelling shields that can block 20 bullets), lasting for 25s. After 25s, the shields will be regenerated."
 			},
 			{
-				"蟹之爪",
-				"战斗中每过27秒，巨蟹座化身将会在海面上标记出一个攻击准备区，并在准备期间使敌方所有角色航速降低10。准备结束后，【蟹之爪】将现身于海面，对准备区内的所有敌方先锋角色造成伤害，并使其在9秒内无法移动。【蟹之爪】只会造成和受到20%的碰撞伤害。当【蟹之爪】的攻击落空或被击破后，巨蟹座化身的护盾将被清除，并使自身受到来自先锋角色的伤害提高100%，持续12秒。【蟹之爪】现身9秒后仍未被击破，将回复巨蟹座化身5%的耐久，然后离场。"
+				"Chelae",
+				"27s after the battle starts: marks an area of the battlefield and Channels; while Channeling, the Movement Speed of your ships will be reduced by 10. After the Channel duration finishes, [Chelae] will spawn, dealing DMG to all ships in your Vanguard within the marked area and immobilizing them for 9s. [Chelae] will only inflict and receive 20.0% collision DMG. When [Chelae] misses its attack or is broken, the Incarnation of Cancer will lose its [Chitinous Shield] and take 100.0% more DMG from your Vanguard for 12s. [Chelae] that are not defeated within 9s will restore 5.0% Max HP to the Incarnation of Cancer and then leave the battlefield."
 			}
 		},
 		award_display = {
@@ -187,12 +187,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"星之歌",
-				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退敌方先锋舰队，并使敌方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>5%</color>、<color=#92fc63>10%</color>和<color=#92fc63>15%</color>（已装填完毕的武器不受影响）。"
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>5.0%</color>, torpedoes by <color=#92fc63>10.0%</color>, and main guns by <color=#92fc63>15.0%</color> (does not affect weapons/aircraft that have already finished loading)."
 			},
 			{
-				"星星舞台",
-				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
 			}
 		},
 		award_display = {
@@ -216,12 +216,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"星之歌",
-				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退敌方先锋舰队，并使敌方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>10%</color>、<color=#92fc63>15%</color>和<color=#92fc63>20%</color>（已装填完毕的武器不受影响）。"
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>10.0%</color>, torpedoes by <color=#92fc63>15.0%</color>, and main guns by <color=#92fc63>20.0%</color> (does not affect weapons/aircraft that have already finished loading)."
 			},
 			{
-				"星星舞台",
-				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
 			}
 		},
 		award_display = {
@@ -245,12 +245,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"星之歌",
-				"战斗中每18秒，狮子座化身将会大声歌唱，强制击退敌方先锋舰队，并使敌方所有舰队成员蓄力空袭、蓄力鱼雷和蓄力主炮的装填进度分别减少<color=#92fc63>15%</color>、<color=#92fc63>20%</color>和<color=#92fc63>30%</color>（已装填完毕的武器不受影响）。"
+				"Song of the Stars",
+				"Every 18s: this ship sings a loud song, knocking back your Vanguard and decreasing the loading progress of your airstrikes by <color=#92fc63>15.0%</color>, torpedoes by <color=#92fc63>20.0%</color>, and main guns by <color=#92fc63>30.0%</color> (does not affect weapons/aircraft that have already finished loading)."
 			},
 			{
-				"星星舞台",
-				"【星之歌】触发2秒后，海域中将会出现一个特殊的舞台区域，持续5秒，位于舞台区域中的敌我双方所有单位航速提升20点、回避率提高20%；"
+				"Starry Stage",
+				"2s after Song of the Stars activates: spawns a special stage on the battlefield that lasts for 5s. All ships on the stage gain 20 SPD and 20.0% EVA."
 			}
 		},
 		award_display = {
@@ -274,12 +274,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"威胁感知",
-				"战斗中每20秒，处女座化身6秒内受到的伤害降低40%并感知自身受到的炮击、雷击和航空伤害，记录期间对自身造成伤害最多的属性类型，之后使自身受到该类型的属性伤害降低<color=#92fc63>40%</color>，持续至下次【威胁感知】触发。若敌方角色携带SG雷达时，每场战斗第一次威胁感知的判定时间提前至16秒。"
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 40.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
 			},
 			{
-				"雷达扫描",
-				"【威胁感知】触发后发动，处女座化身自身命中属性提高<color=#92fc63>20%</color>，回避率上升<color=#92fc63>20%</color>，持续10秒"
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>20.0%</color> for 10s."
 			}
 		},
 		award_display = {
@@ -303,12 +303,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"威胁感知",
-				"战斗中每20秒，处女座化身6秒内受到的伤害降低40%并感知自身受到的炮击、雷击和航空伤害，记录期间对自身造成伤害最多的属性类型，之后使自身受到该类型的属性伤害降低<color=#92fc63>60%</color>，持续至下次【威胁感知】触发。若敌方角色携带SG雷达时，每场战斗第一次威胁感知的判定时间提前至16秒。"
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 60.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
 			},
 			{
-				"雷达扫描",
-				"【威胁感知】触发后发动，处女座化身自身命中属性提高<color=#92fc63>30%</color>，回避率上升<color=#92fc63>30%</color>，持续10秒"
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>30.0%</color> for 10s."
 			}
 		},
 		award_display = {
@@ -332,12 +332,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"威胁感知",
-				"战斗中每20秒，处女座化身6秒内受到的伤害降低40%并感知自身受到的炮击、雷击和航空伤害，记录期间对自身造成伤害最多的属性类型，之后使自身受到该类型的属性伤害降低<color=#92fc63>80%</color>，持续至下次【威胁感知】触发。若敌方角色携带SG雷达时，每场战斗第一次威胁感知的判定时间提前至16秒。"
+				"Threat Detection",
+				"Every 20s: decreases this ship's DMG taken by 40.0% for 6s, after which the following is determined: decreases this ship's DMG taken by 80.0% from <color=#92fc63>whichever source (cannons, torpedoes, or aircraft) that inflicted the most DMG</color> to this ship during the 6s period, lasting until the next time \"Threat Detection\" activates. If a ship in your fleet has an SG Radar equipped: \"Threat Detection\" instead activates for the first time 16s after the battle starts."
 			},
 			{
-				"雷达扫描",
-				"【威胁感知】触发后发动，处女座化身自身命中属性提高<color=#92fc63>40%</color>，回避率上升<color=#92fc63>40%</color>，持续10秒"
+				"Scanner Approach",
+				"After \"Threat Detection\" activates: increases this ship's ACC and Evasion Rate by <color=#92fc63>40.0%</color> for 10s."
 			}
 		},
 		award_display = {
@@ -361,12 +361,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"平衡砝码",
-				"天秤座化身在战斗开始后18秒及之后每40秒召唤红色与蓝色两种砝码，同时天秤座化身进入隐身状态，回避所有伤害，持续8秒"
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
 			},
 			{
-				"保持均衡",
-				"【平衡砝码】触发后15秒发动，根据场地上的失衡砝码的数量（两种砝码数量差值）降低自身受到的伤害并清除场地中的剩余砝码，每个失衡砝码会提供<color=#92fc63>10%</color>减伤效果（最多降低<color=#92fc63>30%</color>），持续至下次【平衡砝码】触发"
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>10.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
 			}
 		},
 		award_display = {
@@ -390,12 +390,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"平衡砝码",
-				"天秤座化身在战斗开始后18秒及之后每40秒召唤红色与蓝色两种砝码，同时天秤座化身进入隐身状态，回避所有伤害，持续8秒"
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
 			},
 			{
-				"保持均衡",
-				"【平衡砝码】触发后15秒发动，根据场地上的失衡砝码的数量（两种砝码数量差值）降低自身受到的伤害并清除场地中的剩余砝码，每个失衡砝码会提供<color=#92fc63>20%</color>减伤效果（最多降低<color=#92fc63>60%</color>），持续至下次【平衡砝码】触发"
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>20.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
 			}
 		},
 		award_display = {
@@ -419,12 +419,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"平衡砝码",
-				"天秤座化身在战斗开始后18秒及之后每40秒召唤红色与蓝色两种砝码，同时天秤座化身进入隐身状态，回避所有伤害，持续8秒"
+				"Weights of Equilibrium",
+				"18s after the battle starts: this ship summons red and blue weights, and evades all attacks for 8s. After this effect's first activation, it activates again every 40s."
 			},
 			{
-				"保持均衡",
-				"【平衡砝码】触发后15秒发动，根据场地上的失衡砝码的数量（两种砝码数量差值）降低自身受到的伤害并清除场地中的剩余砝码，每个失衡砝码会提供<color=#92fc63>30%</color>减伤效果（最多降低<color=#92fc63>90%</color>），持续至下次【平衡砝码】触发"
+				"Maintain the Balance",
+				"15s after \"Weights of Equilibrium\" activates: all red and blue weights are removed, and for 25s, decreases this ship's DMG taken in <color=#92fc63>30.0%</color> increments based on the number disparity between the red and blue weights. This DMG-decreasing effect can apply up to <color=#92fc63>3</color> times."
 			}
 		},
 		award_display = {
@@ -448,12 +448,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>40%</color>，自身造成的伤害提高<color=#92fc63>20%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>40.0%</color>, but increasing their DMG dealt by <color=#92fc63>20.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>10%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>10.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {
@@ -477,12 +477,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>60%</color>，自身造成的伤害提高<color=#92fc63>40%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>60.0%</color>, but increasing their DMG dealt by <color=#92fc63>40.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>20%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>20.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {
@@ -506,12 +506,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"蝎毒之雾 ",
-				"天蝎座化身在战斗开始后18秒及之后每40秒生成毒雾，同时天蝎座化身回避率提高20%，持续20秒；接触毒雾的敌方单位会受到【蝎毒】效果，自身回避率降低<color=#92fc63>80%</color>，自身造成的伤害提高<color=#92fc63>60%</color>；【蝎毒】效果在自身受到治疗效果后消失"
+				"Scorpion's Mist ",
+				"18s after the battle starts and every 40s after the first activation: creates a noxious mist on the battlefield, increasing this ship's Evasion Rate by 20.0% for 20s. Other ships that enter the mist suffer the Scorpion's Venom status effect, reducing their Evasion Rate by <color=#92fc63>80.0%</color>, but increasing their DMG dealt by <color=#92fc63>60.0%</color>. Any kind of healing effect cancels out Scorpion's Venom."
 			},
 			{
-				"致命毒刺",
-				"【蝎毒之雾】触发后3秒释放一轮特殊弹幕，被特殊弹幕命中的敌方单位若处于【蝎毒】效果时，会额外受到自身最大耐久<color=#92fc63>30%</color>的伤害"
+				"Fatal Sting",
+				"3s after Scorpion's Mist activates: fires a special barrage. If a ship hit by this barrage has the Scorpion's Venom status effect, this attack inflicts additional DMG equal to <color=#92fc63>30.0%</color> of that ship's HP."
 			}
 		},
 		award_display = {
@@ -535,12 +535,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"致盲之箭 ",
-				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>3%</color>，最多叠加20层"
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>3.0%</color> (can stack up to 20 times)."
 			},
 			{
-				"百步穿杨",
-				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>10%</color>的伤害"
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>10.0% of that shipgirl's HP in DMG</color>."
 			}
 		},
 		award_display = {
@@ -564,12 +564,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"致盲之箭 ",
-				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>4%</color>，最多叠加20层"
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>4.0%</color> (can stack up to 20 times)."
 			},
 			{
-				"百步穿杨",
-				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>20%</color>的伤害"
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>20.0% of that shipgirl's HP in DMG</color>."
 			}
 		},
 		award_display = {
@@ -593,12 +593,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"致盲之箭 ",
-				"战斗开始后12秒及之后每20秒进行一次蓄力攻击。若蓄力成功发射一轮特殊弹幕，命中后使敌方舰队10秒内陷入【致盲】；若蓄力失败则自身造成的伤害提高<color=#92fc63>5%</color>，最多叠加20层"
+				"Blinding Burst ",
+				"12s after the battle starts, and every 20s after that: performs a charge attack. If successfully charged: fires a special barrage; if this barrage hits even once: inflicts the Darkness ailment on your fleet for 10s; if the charge is interrupted: instead increases this ship's DMG dealt by <color=#92fc63>5.0%</color> (can stack up to 20 times)."
 			},
 			{
-				"百步穿杨",
-				"战斗开始后每20秒，对自身出场后敌方主力舰队中最近触发主炮开火或空袭的角色发动一轮特殊弹幕（若无角色主炮开火或发动空袭，则目标变为全体敌方主力舰队）；若敌方舰队处于【致盲】效果，该弹幕对其额外造成最大耐久<color=#92fc63>30%</color>的伤害"
+				"Surefire Shot",
+				"Every 20s: targets your Main Fleet ship that most recently launched an airstrike or fired her Main Guns and fires a special barrage at her (if no one in your Main Fleet has fired her Main Guns or launched an airstrike, this ship will target your whole Main Fleet). If the ship hit by this barrage has the Darkness ailment: additionally deals <color=#92fc63>30.0% of that shipgirl's HP in DMG</color>."
 			}
 		},
 		award_display = {
@@ -622,12 +622,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"晦明之变 ",
-				"星之辉形态下，自身受到伤害降低<color=#92fc63>40%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>30</color>的平射盾），一面护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>20%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>40.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>30</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>20.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
-				"星之领域",
-				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>0.5%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>0.5%</color>最大耐久"
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>0.5%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>0.5%</color> of its max HP every 20s."
 			}
 		},
 		award_display = {
@@ -651,12 +651,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"晦明之变 ",
-				"星之辉形态下，自身受到伤害降低<color=#92fc63>60%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>50</color>的平射盾），一面护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>40%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>60.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>50</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>40.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
-				"星之领域",
-				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>0.75%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>0.75%</color>最大耐久"
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>0.75%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>0.75%</color> of its max HP every 20s."
 			}
 		},
 		award_display = {
@@ -680,12 +680,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"晦明之变 ",
-				"星之辉形态下，自身受到伤害降低<color=#92fc63>80%</color>，同时生成5个环绕自身的护盾（每个为防弹次数<color=#92fc63>70</color>的平射盾），一面护盾被击破后转换形态；星之暗形态下，摩羯座化身自身耐久越低造成的伤害越高，最多提高<color=#92fc63>60%</color>，累计受到自身最大耐久30%的伤害后转换形态；摩羯座化身在开始时进入星之辉形态"
+				"Ever-Changing Light",
+				"When the battle starts, this ships gains the Morning Star's Light status. While in the Morning Star's Light status, this ship's DMG taken is decreased by <color=#92fc63>80.0%</color> and, when this ship gains this status: deploys 5 rotating shields capable of blocking <color=#92fc63>70</color> non-volley shells; when any shield is destroyed, this ship gains the Darkness of Dawn status. While in the Darkness of Dawn status, increases this ship's DMG dealt (up to <color=#92fc63>60.0%</color>) the lower her HP is; while in this status, if this ship takes more than 30.0% of her HP in DMG: this ship regains the Light of Dawn status."
 			},
 			{
-				"星之领域",
-				"摩羯座化身在不同形态下存在对应的领域效果：星之辉领域，自身每秒回复<color=#92fc63>1%</color>最大耐久；星之暗领域，敌方角色每20秒损失其<color=#92fc63>1%</color>最大耐久"
+				"Domain of the Stars",
+				"Actives one of the following effects based on this ship's active status condition: 1) While in the Morning Star's Light status, recovers <color=#92fc63>1.0%</color> of this ship's max HP every second; 2) While in the Light of Dawn status, your fleet loses <color=#92fc63>1.0%</color> of its max HP every 20s."
 			}
 		},
 		award_display = {
@@ -709,12 +709,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"甘醴之瓶 ",
-				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>0.5%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>2.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
 			},
 			{
-				"生命之泉",
-				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>40%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>0.5%</color>"
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>80.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>2.0%</color>."
 			}
 		},
 		award_display = {
@@ -738,12 +738,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"甘醴之瓶 ",
-				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>1%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>1.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
 			},
 			{
-				"生命之泉",
-				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>60%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>1%</color>"
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>60.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>1.0%</color>."
 			}
 		},
 		award_display = {
@@ -767,12 +767,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"甘醴之瓶 ",
-				"水瓶座化身开场召唤【甘醴之瓶】，【甘醴之瓶】每秒回复自身<color=#92fc63>2%</color>最大耐久，【甘醴之瓶】回复自身耐久至100%时，水瓶座化身回复自身1%最大耐久；【甘醴之瓶】被击破6秒后会被再次召唤"
+				"Jug of Sweet Wine ",
+				"When the battle starts: summons a Jug of Sweet Wine. While this summon is on the battlefield, it recovers <color=#92fc63>2.0%</color> of its max HP every second. When the Jug of Sweet Wine's HP is maxed out, the enemy Newcastle recovers 1.0% of her max HP. 6s after the Jug of Sweet Wine is destroyed, it is resummoned."
 			},
 			{
-				"生命之泉",
-				"【甘醴之瓶】在场时，水瓶座化身受到的伤害降低<color=#92fc63>80%</color>；【甘醴之瓶】被击破时，水瓶座化身造成的伤害提高<color=#92fc63>2%</color>"
+				"Fountain of Youth",
+				"While the Jug of Sweet Wine is on the battlefield, the enemy Newcastle's DMG taken is decreased by <color=#92fc63>80.0%</color>. When the Jug of Sweet Wine is destroyed: increases the enemy Newcastle's DMG dealt by <color=#92fc63>2.0%</color>."
 			}
 		},
 		award_display = {
@@ -796,12 +796,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"守望相助 ",
-				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>1%</color>,最大耐久"
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>1.0%</color> of Duke of York's max HP."
 			},
 			{
-				"双鱼之绊",
-				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>10%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>10%</color>、立即回复自身<color=#92fc63>2%</color>最大耐久，之后每20秒回复自身<color=#92fc63>2%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>10%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>4%</color>"
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>10.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>2.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>2.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>10.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>10.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>4.0%</color> more DMG until the battle ends."
 			}
 		},
 		award_display = {
@@ -825,12 +825,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"守望相助 ",
-				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>2%</color>,最大耐久"
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>2.0%</color> of Duke of York's max HP."
 			},
 			{
-				"双鱼之绊",
-				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>20%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>20%</color>、立即回复自身<color=#92fc63>4%</color>最大耐久，之后每20秒回复自身<color=#92fc63>4%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>20%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>6%</color>"
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>20.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>4.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>4.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>20.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>20.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>6.0%</color> more DMG until the battle ends."
 			}
 		},
 		award_display = {
@@ -854,12 +854,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"守望相助 ",
-				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>3%</color>,最大耐久"
+				"Sentinels of Gardiane",
+				"Every 20s, Duke of York fires a barrage, decreasing the SPD of targets hit by 40.0% for 6s. Every 20s, King George V restores <color=#92fc63>3.0%</color> of Duke of York's max HP."
 			},
 			{
-				"双鱼之绊",
-				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>30%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>30%</color>、立即回复自身<color=#92fc63>6%</color>最大耐久，之后每20秒回复自身<color=#92fc63>6%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>30%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>8%</color>"
+				"The Bond of Ichthys",
+				"If Duke of York and King George V are present on the battlefield at the same time, their DMG taken is decreased by <color=#92fc63>30.0%</color>. If Duke of York is sunk, King George V immediately recovers <color=#92fc63>6.0%</color> of her max HP; every 20s after that, she recovers <color=#92fc63>6.0%</color> of her max HP, and her DMG taken is decreased by <color=#92fc63>30.0%</color> until the battle ends. If King George V is sunk, Duke of York's DMG dealt increases by <color=#92fc63>30.0%</color> and her barrage gains the following buff: barrages are fired at the targets closest to and furthest from Duke of York, and targets hit by the barrages take <color=#92fc63>8.0%</color> more DMG until the battle ends."
 			}
 		},
 		award_display = {
@@ -883,12 +883,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"不沉之力 ",
-				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>40</color>次伤害后解除"
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>40</color> hits on Yukikaze have their DMG dealt set to 1."
 			},
 			{
-				"生命之球",
-				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>1%</color>"
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>1.0%</color> until the battle ends."
 			}
 		},
 		award_display = {
@@ -912,12 +912,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"不沉之力 ",
-				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>70</color>次伤害后解除"
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>70</color> hits on Yukikaze have their DMG dealt set to 1."
 			},
 			{
-				"生命之球",
-				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>2%</color>"
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>2.0%</color> until the battle ends."
 			}
 		},
 		award_display = {
@@ -941,12 +941,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"不沉之力 ",
-				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>100</color>次伤害后解除"
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>100</color> hits on Yukikaze have their DMG dealt set to 1."
 			},
 			{
-				"生命之球",
-				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>3%</color>"
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>3.0%</color> until the battle ends."
 			}
 		},
 		award_display = {
@@ -970,12 +970,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"钢刃架势 ",
-				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>30%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>30.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
 			},
 			{
-				"光风霁月",
-				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>2%</color>，可以叠加"
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>2.0%</color> until the battle ends. This debuff can stack."
 			}
 		},
 		award_display = {
@@ -999,12 +999,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"钢刃架势 ",
-				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>60%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>60.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
 			},
 			{
-				"光风霁月",
-				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>4%</color>，可以叠加"
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>4.0%</color> until the battle ends. This debuff can stack."
 			}
 		},
 		award_display = {
@@ -1028,12 +1028,12 @@ pg.expedition_constellation_challenge_template = {
 		buff_id = {},
 		description = {
 			{
-				"钢刃架势 ",
-				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>90%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>90.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
 			},
 			{
-				"光风霁月",
-				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>6%</color>，可以叠加"
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>6.0%</color> until the battle ends. This debuff can stack."
 			}
 		},
 		award_display = {

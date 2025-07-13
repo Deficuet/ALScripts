@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>三　No more 锻炼！</size>",
+					"Long Island's Inner Peace\n\n<size=45>III 「No More Training!」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好、好累……为什么放假还要这么累……",
+			say = "So, so tired... why must we exercise while on vacation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长岛酱已经累得不能动了……",
+			say = "I’m so tired that I can’t even move my body...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？还需要配合适当的强化训练？",
+			say = "What? I’ll also need to do intensive training?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊～我的可乐…薯片…还有软软的床和空调…呜咕——",
+			say = "Nooo~ What about my coke.. chips... and also that soft bed and air conditioning... sigh---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

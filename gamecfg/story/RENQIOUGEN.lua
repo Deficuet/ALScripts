@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣耀殿堂\n\n<size=45>倾听她的呼吸</size>",
+					"Hall of Fame\n\n<size=45>The Sound of Her Breath</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "在下班回去的路上，看到{namecode:427:欧根亲王}一个人溜进了医务室。",
+			say = "On the way back from work, I happen to notice Prinz Eugen sneaking into the infirmary alone.",
 			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难道是{namecode:427:欧根亲王}生病了，不想让其他人知道？）",
+			say = "(Is Prinz Eugen sick or something, but doesn't want anyone else finding out?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（以防万一，还是跟进去看看好了……）",
+			say = "(Just in case, I'm going to follow her and see what's going on...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "嗯？你怎么来了，有哪里不舒服吗？",
+			say = "Hm? Why are you here? Are you feeling unwell?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有不舒服？只是好奇我进来做什么所以才跟进来了？",
+			say = "You're perfectly fine? You were just curious about what I was doing here, and decided to follow me in?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "呵呵，指挥官好奇心真重啊，人来医务室能做些什么呢？",
+			say = "Heehee. You silly goose, Commander. Why else would someone go to the infirmary?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不过现在，我倒还真想起一件事要做。",
+			say = "But now that you mention it, I did just think of one other thing we can do here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "指挥官你整天都在忙工作，几乎没什么喘息的空隙。",
+			say = "Commander, you've been busy all day, with no time to even catch your breath.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "既然都来了，不如趁这个机会好好检查一下如何？",
+			say = "Since you're already here, why don't we take this opportunity to do a little... examination?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "还是说……指挥官想拒绝呢？",
+			say = "Or... are you planning to turn me down?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "虽然是询问的口吻，但{namecode:427:欧根亲王}似乎完全不打算给我回绝的余地。",
+			say = "Even though she was asking me a question, Prinz Eugen seemed to have no intention of taking \"no\" for an answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,18 +210,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "她锁上了医务室的门，整个人倚在门边，似笑非笑地看着我。那表情似乎是在说——“你逃不掉的”。",
+			say = "She locks the door to the infirmary and leans against the doorframe, flashing a half-smile towards me that seems to say, \"you're not getting away.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "同意体检",
+					content = "Agree to be examined",
 					flag = 1
 				},
 				{
-					content = "拒绝体检……好像也不可能吧",
+					content = "Agree, while telling yourself that you refuse",
 					flag = 2
 				}
 			}
@@ -235,7 +235,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵呵……识时务者为俊杰，指挥官这一点践行得不错嘛~",
+			say = "Ahaha... Wise is the one who recognizes their current position. I see you're well-versed in this bit of wisdom, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然~",
+			say = "Why of course~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "希望指挥官能老老实实配合我。这样的话，说不定我还会给指挥官一些奖励呢~",
+			say = "I do hope you're on your best behavior and cooperate with me, Commander. Who knows, I might even have a little reward for you afterwards~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我想想，从什么项目开始比较好呢~",
+			say = "Let's see... Which area should we start with first~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "{namecode:427:欧根亲王}熟练地拿出了一份体检记录表。",
+			say = "Prinz Eugen certainly looks the part as she skillfully grabs a clipboard with a medical examination form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "身高体重身体围度，看上去都和之前没什么变化，可以直接跳过了。",
+			say = "Height, weight, and body measurements are the same as before, so we can skip those for now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,11 +329,11 @@ return {
 			},
 			options = {
 				{
-					content = "……和之前？",
+					content = "The same...",
 					flag = 1
 				},
 				{
-					content = "……看上去？",
+					content = "...as before?",
 					flag = 2
 				}
 			}
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "指挥官还真是大惊小怪，我可是对你的身体数据了如指掌哦——怎么样，不觉得被人关注的感觉很甜蜜吗？",
+			say = "There's no need to fuss over the little things, Commander. It's only natural that I know exactly what's going on with your body's metrics... Besides, don't you think it's sweet that someone's taken such precise, exacting notice of you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "有了~我们来做感官测试吧~",
+			say = "I know. Let's do the sensory test~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……感官测试？",
+			say = "...The sensory test?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "嗯~用来检查你的感官是否正常的测试哦。",
+			say = "Well, yes. You know, to make sure that all your senses are functioning properly?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,73 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一共分为视觉、听觉、嗅觉、味觉、触觉五个部分。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 403030,
-			say = "就先从视力开始吧——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 403030,
-			say = "提问：指挥官，今天的我看上去和平时有什么区别吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……啊？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 403030,
-			say = "“啊”什么，这个问题就是视力测试的内容哦。",
+			say = "It's divided into five parts: vision, hearing, smell, taste, and touch.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +441,73 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "所以，我和平时相比有什么区别？",
+			say = "So, let's start from the top–",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 403030,
+			say = "First question: Commander, do I look any different from usual today?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "...Hwuh?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 403030,
+			say = "What do you mean, \"hwuh?\" This is a basic taste of your vision.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 403030,
+			say = "So, what about me is different from usual?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,11 +518,11 @@ return {
 			},
 			options = {
 				{
-					content = "这是个陷阱问题，其实没有任何变化！",
+					content = "That's a trick question. I don't see anything different about you at all!",
 					flag = 1
 				},
 				{
-					content = "嗯……笑容比平时灿烂！",
+					content = "Hmm... Your smile looks more sparkly today?",
 					flag = 2
 				}
 			}
@@ -536,7 +536,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，回答错误~",
+			say = "Haha, wrong answer~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正确答案是——我笑得比平时更开心呢。",
+			say = "The correct answer is... I'm smiling a lot more cheerfully than before~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,7 +574,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，回答错误~",
+			say = "Haha, wrong answer~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正确答案是——我和平时没有区别，只是刚好此刻笑容比较灿烂而已呢~",
+			say = "The correct answer is... Nothing's different about me today, even though I do happen to be smiling a bit more~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "总感觉不管我回答什么，你都有办法说我回答错误……",
+			say = "It feels like no matter how I answer, you'd just do the switcheroo on me and say that I answered wrong...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "因为指挥官懊恼的样子实在让人开心呢，忍不住就~",
+			say = "That's because you're always so cute when I tease you, I just can't help it sometimes~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不过玩笑讲究适可而止——这道测试就算是指挥官通过了。",
+			say = "But, even I know not to take a joke too far. We'll consider this a pass.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "接下来测试听力，快闭上眼睛吧~",
+			say = "Next up, we'll test your hearing. Go ahead and close your eyes~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "在闭上眼之前，看见{namecode:427:欧根亲王}拿起了音叉。",
+			say = "Before I close my eyes, I see Prinz Eugen picking up a tuning fork.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这次应该是正常的体检内容了吧……）",
+			say = "(Looks like it'll be a regular physical examination this time, right...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳畔并未传来的意料之中的震动，取而代之的是少女温热的吐息。",
+			say = "But, what reaches my ears are not the vibrations from the tuning fork, but rather the warmth of a girl's breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,12 +722,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "Ich liebe dich……",
+			say = "Ich liebe dich...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "声音轻到像是我的幻觉。",
+			say = "The voice is so mesmerizingly gentle that it almost seems like a hallucination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -750,12 +750,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:427}",
+			actorName = "Prinz Eugen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "可以睁眼了哦，指挥官~",
+			say = "You can open your eyes now, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "结果，音叉只是装饰——",
+			say = "As you can see, the tuning fork was just a prop~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "呵呵~指挥官如果听力没有出现问题的话，就把我刚刚说的内容一字不落地重复一遍吧~",
+			say = "Heehee. Commander, to prove that there's nothing wrong with your hearing, I'd like you to repeat what you just heard back to me~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "……嗯？你说因为刚刚我凑得太近，吓了一跳，所以完全没记住我说了什么……？",
+			say = "...Huh? You can't remember what I said at all because I startled you...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "呵呵呵呵呵……",
+			say = "Heehee... Hahaha~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "虽然看上去笑得很开心……但总感觉{namecode:427:欧根亲王}有些不满。",
+			say = "Though she seemed to be laughing genuinely, I could feel an aura of discontentment coming from Prinz Eugen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "说起来，之前有听{namecode:401:Z2}说过，指挥官时不时就会出现“选择性失聪”的问题呢。",
+			say = "Now that you bring it up, I do remember Z2 mentioning that you suffer from \"selective deafness\" from time to time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,54 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "想必刚才也是老毛病发作了吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 403030,
-			say = "哎呀，这种程度的听力问题一定要重视起来，万一漏掉了什么重要的命令可就不好了~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			say = "不知为何，我突然感觉医务室里的温度开始下降了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 403030,
-			say = "放心吧指挥官，你的问题我会如实记录在体检报告中的。",
+			say = "Maybe that was an episode we witnessed just now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,7 +902,54 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "接下来，我们还要依次进行嗅觉、味觉和触觉的测试。",
+			say = "Goodness, I would be careful with a hearing problem this serious. It would be terrible if you happened to miss any important commands~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			say = "For whatever reason, I suddenly feel the temperature in the infirmary drop sharply...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 403030,
+			say = "Don't worry, Commander. I'll make sure to truthfully and thoroughly record every little thing that's wrong with you in this medical report.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_138",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 403030,
+			say = "Now then, we'll move on to the smell, taste, and touch exams in sequence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,7 +967,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "指挥官，请你做好觉悟哦————",
+			say = "I hope your body is prepared, Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1

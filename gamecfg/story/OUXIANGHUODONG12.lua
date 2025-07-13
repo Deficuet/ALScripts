@@ -10,7 +10,7 @@ return {
 			actor = 403040,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈哈哈！上吧我的妹妹！让全世界都知道你的魅力！",
+			say = "Ahahahaha! Come forth, my sister! Bring the world to its knees with your transcendent cuteness!",
 			dir = 1,
 			bgm = "azumaster-ins",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "姐……",
+			say = "D-Deutschland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出、出现了！“铁血❤最可爱”偶像{namecode:431}！",
+			say = "Sh-she's here! The idol who's out to prove that Iron Blood cutengineering is the finest in the world, World's♡Cutest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她就是Polaris的下一个对手！",
+			say = "Admiral Graf Spee will face off against Polaris next, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "太羞耻了这个偶像名就不要提啦。而且这个也不是对战而是兵装实验",
+			say = "That idol name is way too embarrassing... Plus, this isn't even a real battle, just a trial run for some new equipment, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			actor = 403070,
 			dir = 1,
-			say = "你姐那边确实麻烦啊…",
+			say = "I feel you. It must be hard with that sister of yours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "{namecode:429}姐姐跟我说希望我参加的…{namecode:426}那边不是么？",
+			say = "Deutschland absolutely insisted that I participate in this event... Hipper, did you volunteer for this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁想干这种事啊…早点结束算了…",
+			say = "Hell no! Who'd want to do something embarrassing like this?! *sigh*... I just wish this would hurry up and end already...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "啊哈哈哈…但是这个活动参加了感觉挺有意思的。{namecode:426}之前不也笑的很开心吗？",
+			say = "Ahaha... But you know, now that I'm doing this, I'm actually enjoying myself. You looked like you were having a great time earlier, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁笑了啊！？",
+			say = "Who the hell could have a great time doing this crap?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			actor = 403054,
 			dir = 1,
-			say = "还是有点傲娇啊……我是你们下一个对手，做好心理准备哦？",
+			say = "You know, it wouldn't hurt to be more honest with yourself... But anyhow, I'm your next opponent, right? Ready to do this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

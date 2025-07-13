@@ -1,5 +1,66 @@
 pg = pg or {}
 pg.enemy_data_statistics_38 = {
+	[663] = {
+		cannon = 390,
+		hit_growth = 0,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 20,
+		dodge = 17,
+		id = 663,
+		cannon_growth = 0,
+		rarity = 4,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		star = 5,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		reload = 150,
+		base = 90222,
+		durability = 100000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		antisub = 0,
+		antiaircraft = 360,
+		antiaircraft_growth = 0,
+		bound_bone = {
+			cannon = {
+				{
+					-0.96,
+					0.87,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			100202,
+			100352,
+			316061,
+			316055,
+			316056,
+			316057,
+			316058
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[664] = {
 		cannon = 180,
 		battle_unit_type = 95,
@@ -46,7 +107,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[700] = {
 		cannon = 0,
-		name = "测试型鱼雷艇",
+		name = "Test Torpedo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -87,7 +148,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[701] = {
 		cannon = 0,
-		name = "标准型鱼雷艇",
+		name = "Standard Torpedo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -128,7 +189,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[702] = {
 		cannon = 0,
-		name = "改进型鱼雷艇",
+		name = "Improved Torpedo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -169,7 +230,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[703] = {
 		cannon = 0,
-		name = "精锐型鱼雷艇",
+		name = "Elite Torpedo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -210,7 +271,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[704] = {
 		cannon = 0,
-		name = "超弩级鱼雷艇",
+		name = "Master Torpedo Ship",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -251,7 +312,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[705] = {
 		cannon = 0,
-		name = "超弩级鱼雷艇·域",
+		name = "Extreme Torpedo Boat - Defender",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -290,7 +351,7 @@ pg.enemy_data_statistics_38 = {
 	},
 	[706] = {
 		cannon = 0,
-		name = "超弩级鱼雷艇·击",
+		name = "Extreme Torpedo Boat - Attacker",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1261,43 +1322,5 @@ pg.enemy_data_statistics_38 = {
 		equipment_list = {
 			300562
 		}
-	},
-	[770] = {
-		cannon = 72,
-		battle_unit_type = 95,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20006,
-		air = 0,
-		speed = 27,
-		dodge = 35,
-		id = 770,
-		cannon_growth = 0,
-		rarity = 5,
-		reload_growth = 0,
-		dodge_growth = 0,
-		armor = 0,
-		star = 6,
-		hit = 36,
-		antisub_growth = 0,
-		air_growth = 0,
-		reload = 150,
-		base = 90282,
-		durability = 20000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		luck = 88,
-		torpedo = 103,
-		durability_growth = 0,
-		antisub = 0,
-		antiaircraft = 186,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

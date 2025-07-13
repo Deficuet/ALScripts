@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[3]\n\n<size=45>舟畔共明月</size>",
+					"Port Fashion Collection: Spring Festival II\n\n<size=45>3 Moonlit Boat Ride</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 199032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师，看！",
+			say = "Teacher, look...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "月亮……出来了！",
+			say = "Up in the sky... It's the moon...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好漂亮……",
+			say = "Pretty...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "船头上，少女正兴奋地用手指向天空。",
+			say = "Anchorage, poised on the bow of the boat, leans forward and points up at the moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "厚重的云层随风散去，高悬的明月出现在夜幕中。",
+			say = "It peeks out of thick clouds blown about by the wind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "小舟荡开湖水，在月光与灯光的映衬下，粼粼波光仿若一池揉碎的繁星。",
+			say = "Our boat floats atop the lake, which reflects the moonlight and lights above like a mural of stars.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "灯和月亮……都漂亮！",
+			say = "The moon's all shiny and pretty...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "安克雷奇沉浸美丽的月色中，而我一直悬着的心也总算放下。",
+			say = "I relax and watch Anchorage go crazy over the beautiful moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还好月亮出来了……不然今夜就只能在仅有灯光的湖面上泛舟了。）",
+			say = "(I'm just glad it's out tonight... Nights without the moonlight are lonely.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "安克雷奇，玩得开心吗？",
+			say = "Are you having fun, Anchorage?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "开心！",
+			say = "Yeah...! Anchorage is having fun...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "划船……和老师一起……开心！",
+			say = "Boat rides with Teacher are fun!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "木船……摇摇晃晃……",
+			say = "The boat's rocking and bustling...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……很有趣！",
+			say = "It's neat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "还有……还有新衣服！",
+			say = "And my new clothes...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "老师挑的……喜欢！",
+			say = "You gave them to Anchorage... I love them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "安克雷奇，也有礼物……送给老师！",
+			say = "Anchorage has a present for you, too...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……安克雷奇的礼物？",
+			say = "A present for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……会是什么呢？十分好奇。）",
+			say = "(What is it? I'm curious.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "是月亮！",
+			say = "It's the moon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "把天上的月亮……送给老师！",
+			say = "The moon in the sky... is for you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "天上的月亮……？",
+			say = "The moon, you say?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是月亮挂在天上，要怎么送呢。",
+			say = "And how do you plan to give me that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "嘿嘿……这次换安克雷奇……来教老师！",
+			say = "Hehe... This time... Anchorage can teach you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "像这样……先抓住月亮！",
+			say = "Take the moon... like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "跪坐在船头安克雷奇，直起身来向明月伸出右手。",
+			say = "Anchorage stands up and reaches out toward the moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "看上去，就像将明月抓在了手中一样。",
+			say = "It looks as if she's taken it into her right hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "然后……老师也来！",
+			say = "Join me, Teacher!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "被安克雷奇的左手所引导，我也直起身来，向明月伸出了手。",
+			say = "Anchorage beckons, so I reach out my hand as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "手指于夜空中相会，少女微凉的指尖突然紧握，将明月合在我们彼此的掌中。",
+			say = "Outstretched toward the night sky, our hands touch each other and encircle the moon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "这样……月亮……就抓到了！",
+			say = "We did it... We grabbed the moon!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "送给，老师！",
+			say = "It's yours, Teacher...!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "老师……喜欢么？",
+			say = "Do you like it...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,14 +538,14 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			hidePaintObj = true,
-			say = "答案当然只有一个——",
+			say = "There's only one answer to that question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "喜欢！",
+					content = "I love it!",
 					flag = 1
 				}
 			}
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "嘿嘿……安克雷奇……也喜欢。",
+			say = "Hehe... Me, too!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "安克雷奇……最喜欢老师了！",
+			say = "Anchorage loves you, Teacher!",
 			painting = {
 				alpha = 0.3,
 				time = 1

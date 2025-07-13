@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "当养成计划进入到尾声，将会根据当前的个性及各项属性，来决定最后的结局。",
+				text = "When TB has fully grown up, you'll unlock an ending based on her personality and stats.",
 				mode = 2,
 				posY = -197.3,
 				char = 1,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"度假村神秘事件调查\n\n<size=45>异常事件调查小队</size>",
+					"The Spiriting-Away Incident?\n\n<size=45>Spirited Away</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "两日后的温泉度假村——",
+			say = "Onsen Resort - 2 days later...",
 			bgm = "theme-warmwinter-daily",
 			typewriter = {
 				speed = 0.05,
@@ -32,11 +32,11 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "偶像度假中",
+			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~我们快到站了哦！",
+			say = "Commander, we're almost there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,11 +60,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~我们快到站了哦！",
+			say = "Commander, we're almost there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,12 +88,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "偶像度假中",
+			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么要学我说话……？",
+			say = "...Why are you parroting me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,11 +107,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿，因为我太开心了嘛~",
+			say = "I'm just so excited I couldn't think of anything else to say!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,11 +125,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是好奇怪，怎么旅馆门口这么安静？",
+			say = "Although, it's weird how empty this place is. Shouldn't there be people in the lobby?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,11 +143,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本来还以为大家会来迎接我们的呢。",
+			say = "The first group that went said they'd come out and meet us...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,12 +161,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……情况确实不对。指挥官。我们上岸至今还没有收到{namecode:182}方面发来的任何联络。",
+			say = "It IS weird. Stranger yet, Comrade Commander, I haven't received any word from Shinano since we disembarked.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,12 +180,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理论上来说，这种情况不可能出现。",
+			say = "She would never leave us hanging under normal circumstances.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,11 +199,11 @@ return {
 			actor = 301810,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "和噗噗在一起",
+			factiontag = "Foo is Here Too",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除非……",
+			say = "Unless...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,11 +217,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嚯嚯……我闻到了神秘事件出现的气息。",
+			say = "Heheheh... This just screams \"mystery\" to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……有种十分不好的预感，先进入旅馆主宅调查一下吧）",
+			say = "(Something is wrong here. We should head to the main building and investigate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "温泉度假村·主宅",
+			say = "Onsen Resort - Inn Main Building",
 			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
@@ -276,12 +276,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "和噗噗在一起",
+			factiontag = "Foo is Here Too",
 			dir = 1,
 			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "宾馆内部被{namecode:182}大人收拾的井井有条，随时可以入住。",
+			say = "Shinano made the place really tidy... I'd stay here any day of the week.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,12 +295,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "和噗噗在一起",
+			factiontag = "Foo is Here Too",
 			dir = 1,
 			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "厨房里的食材也都准备好了，新鲜又美味。",
+			say = "There are lots of fresh and tasty ingredients in the kitchen too...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,11 +314,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "茶杯也都摆在桌子上，甚至茶壶里的水都是温的。",
+			say = "I suppose this tea was going to be our welcoming drink... Curiously, the kettle is still warm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,12 +332,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是……本应该在这里的人，全都不见了。",
+			say = "Someone must've been here recently. But who? And where are they now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,12 +351,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这……这难道是重樱的“神隐”事件？！",
+			say = "This feels eerie... It's almost as if everyone was spirited away!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,11 +370,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！快看看我找到了什么！！！",
+			say = "Commander! Look at this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "抚顺夸张地指向餐桌，桌子上平放着一张与周围格格不入的卡片。",
+			say = "Fu Shun gestures toward the dining table, on top of which there's a card radiating an abnormal energy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "明显是从不同的纸张上剪下的单字被贴在卡片上，拼凑出一封红黑相间的诡异信件。",
+			say = "And on top of the black and red card, there's a slip of paper with letters in various fonts cut out from magazines. To be frank, it looks extremely creepy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,11 +420,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我来读我来读！",
+			say = "Wow! Let me read it aloud.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,12 +438,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“英明神武的指挥官阁下”",
+			say = "\"Dear Commander, ever the wise and brave one...\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,48 +457,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“为欢迎汝等到来，吾等准备了世界第一的精彩演出。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
-			dir = 1,
-			actor = 101490,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "“汝之同伴已经就位，通往圆形剧场的入口亦已开启。”",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 101490,
-			side = 2,
-			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "“期待汝等到来。”",
+			say = "\"We wish to make you and your fleetmates feel welcome, and have planned the most wonderful play in the world for you.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,12 +475,49 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“——妖怪剧团敬上”",
+			say = "\"Please head through the entrance of the amphitheater. Your companions are waiting for you.\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 101490,
+			side = 2,
+			bgName = "star_level_bg_516",
+			factiontag = "100-Rolling Investigator",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "\"We cannot wait to see you. Yours truly...\"",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_516",
+			factiontag = "100-Rolling Investigator",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "\"...The Youkai Troupe.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,11 +531,11 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "寻找本日的刺激",
+			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后是写了妖怪剧团敬上……对吧，对吧！",
+			say = "Look! It really says \"Youkai Troupe\" on it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,12 +549,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到真的有妖怪剧团！传闻是真的！",
+			say = "The same troupe that that flyer mentioned! Incredible! The Youkai Troupe actually exists!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,12 +568,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然、居然是真的妖怪……",
+			say = "It'd be false advertising if it DIDN'T exist! That doesn't mean they're real youkai, though...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,12 +587,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是这些自称妖怪剧团的嫌疑人抓走了先来到此地的重樱同伴么。",
+			say = "It sounds to me like these \"Youkai Troupe\" people kidnapped the group that arrived before us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,12 +606,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事情有些严重啊，指挥官同志。",
+			say = "This goes beyond some little prank. This is dead serious, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "预告信上只写了邀请我们看演出，并没有提到绑架的事。",
+			say = "Well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然以{namecode:182}的实力应该不会出现危险，不过毕竟是人凭空不见了……",
+			say = "Sure, the first group is nowhere to be seen, but I think it's jumping the gun to assume that they've been kidnapped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,12 +649,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官指挥官！我们可以去调查一下么！",
+			say = "You know what this means, Commander. Let us investigate what's happened!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,11 +665,11 @@ return {
 			},
 			options = {
 				{
-					content = "“你们”？",
+					content = "\"Us\"?",
 					flag = 1
 				},
 				{
-					content = "“调查”？",
+					content = "\"Investigate\"?",
 					flag = 2
 				}
 			}
@@ -678,11 +678,11 @@ return {
 			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！我、抚顺、{namecode:180}、{namecode:189}！刚刚好四个人组成调查小队！",
+			say = "You heard me! Between me, Fu Shun, Kasumi, and Hatsuzuki, we've got just enough people to form an investigation team.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,12 +696,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次神秘事件的调查就交给我们吧！",
+			say = "Trust us, we've got this. Let the four of us investigate!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,12 +715,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等、等等……为什么把我也算进去了啊！",
+			say = "Hold on! Why am I automatically a part of this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,12 +734,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为组队最好是四个人啊！",
+			say = "Because it's customary for an investigation team to consist of four people, duh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,12 +753,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "独占欲强的小恶魔",
+			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……啊？",
+			say = "Uh-huh... \"Customary.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,11 +772,11 @@ return {
 			actor = 702040,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "政委度假中",
+			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官同志，我还是些不放心。我可以联络港区呼叫支援么？",
+			say = "I'm feeling apprehensive about this, Comrade Commander. Should we radio the port and request backup?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。原本的计划就是让完成工作后的同伴分批前来度假村。",
+			say = "I mean, other groups coming to the resort after finishing their respective tasks was our original plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让下一批来的人提前做些针对“妖怪剧团”的准备好了。",
+			say = "While calling in backup feels excessive, I believe we should inform the groups arriving after us about this Youkai Troupe in advance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在这期间，相关情报的搜集就交给调查小队。",
+			say = "Until everyone has arrived, I say we let Bristol and her team conduct the investigation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,12 +826,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_516",
-			factiontag = "传奇调查员（自称）",
+			factiontag = "100-Rolling Investigator",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶~保证完成任务！",
+			say = "Hooray! We'll have this case solved in no time, I promise!",
 			painting = {
 				alpha = 0.3,
 				time = 1

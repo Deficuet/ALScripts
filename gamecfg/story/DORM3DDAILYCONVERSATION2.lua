@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "最近光是存放各种食材之类的，就已经占用了冰箱很多空间呢。",
+			say = "My refrigerator has been quite cramped as of late – most of the space is occupied by ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我帮天狼星换个更大的冰箱吧？",
+			say = "Want me to get you a bigger one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比起这个……天狼星其实更希望您能陪我进行厨艺特训……消耗掉这些食材……呜……",
+			say = "My honourable {dorm3d}... I would rather clear space by practicing cooking, and I'd like you to help with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"海风与夏日的无人岛\n\n<size=45>温泉谷</size>",
+					"Uncharted Summer\n\n<size=45>Valley of the Hot Spring</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在据点旁边的森林中行走时——",
+			say = "I decide to take a stroll through the forest near the provisional camp.",
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301040,
-			say = "呼啊，{namecode:2}姐姐不知道跑到哪里去了……",
+			say = "Ugh... Fubuki, where did you go?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301020,
-			say = "啊，是指挥官，你在路上看到过{namecode:2}姐姐么？",
+			say = "Commander, have you seen Fubuki around?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301020,
-			say = "这样啊，你也没见到她……",
+			say = "Oh... So you haven't, either...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301020,
-			say = "真是的，明明刚刚还在旁边采蘑菇。一转眼就不见了……",
+			say = "We were just gathering mushrooms together, and the moment we look away from her...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301040,
-			say = "不、不会是被森林里的怪物抓走了吧？",
+			say = "What if some shipgirl-eating monster in the forest got her?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301040,
-			say = "怎么办，指挥官！",
+			say = "Oh, no... Commander, what do we do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "……其实就算有怪物，未必能就打得过{namecode:2}。",
+			say = "\"Even if there was a monster in this forest, I'm sure Fubuki could hold her own against it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "最差的情况下，我们也能听到战斗的声音。",
+			say = "\"And as long as she wasn't ambushed, you'd hear a struggle, right?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301040,
-			say = "说、说得也是……感觉安心了。",
+			say = "R-right... I do feel a little better...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301010,
-			say = "你们在说谁被怪物抓走了啊！",
+			say = "Heeey! Who'd you say got eaten by a monster?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301010,
-			say = "快来快来，我看到了一个超级棒的地方，绝对会让你们大吃一惊的！",
+			say = "Actually, forget that. I found this really cool place! Get over here! You're gonna be amazed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "跟随{namecode:2}在通讯器中的指引，看见了正站在山脚下的{namecode:2}。",
+			say = "We follow Fubuki's directions and meet up with her at the foot of a mountain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "她的身边是一片地热裂缝自然形成的温泉谷，此时正在向外蒸腾着白色的水汽。",
+			say = "The valley has a naturally-occurring hot spring formed by geothermal vents, emitting hot water vapor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个景象，难道是……",
+			say = "C-could this be...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301020,
-			say = "这里居然有温泉……？",
+			say = "A hot spring...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，是天然的火山温泉哦~！",
+			say = "That's right! It's a volcanic hot spring, at that!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果能开发利用的话……就能让来岛上的同伴都好好舒缓一下疲惫了！",
+			say = "If we develop it just right, we can help our friends relax when they come to the island!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "没想到在岛上居然会有天然温泉……在这里修建一处温泉馆确实是个不错的主意。",
+			say = "\"A natural hot spring, of all things. I agree; building a resort is the ideal move here.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵喵喵~指挥官！修建温泉馆这件事，请务必交给我来着手推进喵~",
+			say = "Hehehe~ Commander, I'm just the cat for the job, nya~ Leave it all to me, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:98}？！你是从哪里冒出来的！",
+			say = "A-Akashi?! You really do pop up out of nowhere when you smell a way to get rich quick...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这件事不重要喵~",
+			say = "Where there are customers, there is business to be done, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这件事，请务必交给我来负责喵！",
+			say = "Whaddya say, Commander? Can I get to work on this new venture, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以吧喵？没问题吧喵~！",
+			say = "Can I, nya? No complaints, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我会把这里建成开发成一处超级棒的温泉馆的喵~！",
+			say = "I guarantee you that my capable paws will make this the finest hot spring resort you've ever seen, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
-			say = "在{namecode:98}熊熊燃烧的热情中，无人岛温泉馆的建设工作正式开始了——",
+			say = "Overcome by Akashi's strong willpower—or maybe greed—I allow her to begin building a hot spring resort on the deserted island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

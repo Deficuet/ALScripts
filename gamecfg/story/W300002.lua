@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "档案回收完毕，海域目标已完成。",
+			say = "You have unlocked all confidential files available through File Missions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "本次档案海域记录仪中记录的所有档案均已回收完毕。",
+			say = "Stay tuned for future logger additions to the Shop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

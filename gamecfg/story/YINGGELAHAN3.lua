@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"为了眼中的光芒\n\n<size=45>三　工作室</size>",
+					"Searching for the Light\n\n<size=45>3 The Workshop</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "为了实现将旧设备顺利搬入的“壮举”，{namecode:525}和库珀正在废弃库房中奋力清理着。",
+			say = "Ingraham and Cooper are struggling to tidy up the abandoned storeroom to move the old equipment into.",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "呼…………终于…………清理出足够设备摆放的空间了！",
+			say = "Phew... We've finally... cleared up enough space... to move the equipment in!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "辛苦了库珀……非常感谢你的帮忙。",
+			say = "Thanks a ton, Cooper... I couldn't have done it... without you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "没什么啦，只是举手之劳~{namecode:525}平时帮了我那么多，我来帮帮忙是理所应当的。",
+			say = "Think nothing of it, buddy! That's what we have hands for~! Since you're always helping me out, it's only natural that I return the favor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "不过，为什么不叫布里斯托尔一起来帮忙呢？",
+			say = "Having that said, why didn't you ask Bristol to come over as well?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "多一个人的话，清理速度会变得更快吧！",
+			say = "We could've tidied up much faster with an extra helper here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，一般从逻辑上来讲确实是这样。",
+			say = "Mm. In theory, that's true.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "不过废弃库房，被尘封的杂物，再加上布里斯托尔。我觉得也许三个人的效率反而会降低哦。",
+			say = "But just think about it: an abandoned warehouse, old dust-buried wares, and Bristol. If anything, our efficiency would decrease.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101440,
-			say = "啊哈哈…………还是等咱们把这里收拾好之后再让她来“冒险”吧。",
+			say = "Ahaha... I guess you're right. Maybe we can let her \"adventure\" in here after we're done cleaning up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "天色渐暗，{namecode:525}环顾着已经变为简易工作室的旧库房，满意地点了点头。",
+			say = "As the sky gradually begins to darken, Ingraham looks around the old storeroom that's been converted into a simple workshop, and nods with satisfaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样一来，就可以更好地展开工作了……",
+			say = "Now, I can finally get some serious work done...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "总之，先处理刚好弄到一半的那一件好了……",
+			say = "In any case, let's pick up on that half-finished project I was working on before...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "{namecode:525}若有所思地凝视着摆放在工作台上的造型奇特的盾牌。",
+			say = "Ingraham stares contemplatively at the strangely-shaped shield on her workbench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "里诺的机械盾牌啊……",
+			say = "Reno's mechanical shield, huh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "……所以说嘛，这些设计上为什么不能好好还原电影中的设计呢？",
+			say = "...I'm telling you, it doesn't make any sense why these aren't installed with the same functionalities they have in those movies!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "电影里明明可以变形的吧，结果在买到之后发现根本做不到，真是太让人失望了……",
+			say = "They're supposed to be able to transform and bounce around, but these can't do anything like that at all! Such a disappointment!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "你说的是这个……“振银盾牌”吧？",
+			say = "So in other words... you want a vibranium shield?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "没错，你看这里，按照电影里的表现，应该可以自动变形的，结果我这个居然要手动拉出来！",
+			say = "That's right! Take a look over here – in the movies, this bit is supposed to automatically transform. But, I have to do it myself with this version!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "然后一用力就……拉坏了。",
+			say = "And when I put some strength into it... it snaps right off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "如果不嫌麻烦的话，能帮我修一下么？",
+			say = "If you're not too busy, would you mind fixing it for me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "当然，交给我吧。",
+			say = "Sure. I'll take a look at it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔…………自动变形功能么。",
+			say = "Hmm... An auto-transform function?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "反正都要拆开修，干脆加一套动力系统吧，这样的话……",
+			say = "Well, I have to take it apart anyway to repair it. Wouldn't be much extra work to add in a power system. In this case...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_148",
-			say = "{namecode:525}在工作台上画了几张图，然后带上护目镜，开始了针对这面盾牌的“维修”工作——",
+			say = "Ingraham doodles a few diagrams on her workbench, puts on her goggles, and starts \"repairing\" the shield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

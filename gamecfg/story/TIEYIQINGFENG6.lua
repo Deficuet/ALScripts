@@ -11,15 +11,15 @@ return {
 			bgm = "airraidalarm",
 			sequence = {
 				{
-					"帕克菲克洋·圣诞岛",
+					"Pacific Ocean - Kiritimati",
 					1
 				},
 				{
-					"周边海域",
+					"Nearby Waters",
 					2
 				},
 				{
-					"……？",
+					"Inside the Illusion's Borders",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
-			say = "警报与浓烟充斥着夜空，映入眼帘大地正在烈火中燃烧着。",
+			say = "Smoke so thick it blotted out the night sky hung above. Warning sirens rang through the air. From sea to land, everything was ablaze.",
 			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "……从周围地貌环境来判断，这里是长岛防线。",
+			say = "Judging by the topography, this appears to be the Long Island defense line near NY City.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101520,
-			say = "长岛防线……？我们不是在圣诞岛么？",
+			say = "NY City? I thought we were going to Kiritimati.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可能幻境就是如此不讲逻辑吧……法戈，还有什么发现么?",
+			say = "Doubt it'd be so simple. We're playing by the illusion's rules. Fargo, can you see anything else?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "长岛防线在此前的袭击事件后，新增了很多防御设施。但是我在此处中没有看到。",
+			say = "There are supposed to be way more defensive structures ever since the front line was attacked. Those are nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "推测，此时此刻呈现在我们眼前的幻境，演绎的就是长岛防线遭遇袭击的那一日。",
+			say = "If I had to guess, this illusion is a recreation of the day of the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "长岛防线遭遇袭击的那一日……",
+			say = "That's the day when the Commander, Baltimore, and Victorious pushed back Tester...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣诞岛驻防舰队是由杜威带领的驱逐舰编队……她，恰好是那次袭击事件的亲历者。",
+			say = "Dewey's station was on Kiritimati back then, and she just so happened to be at the defense line.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 108090,
-			say = "瞄准心灵受到的创伤而生成的幻境……糟糕啊，杜威她们有危险！",
+			say = "Maybe the illusion latches on to past trauma... If so, Dewey is in danger! Not just her, but her whole garrison!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "法戈，找到驻防舰队的位置了么？",
+			say = "Where are they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "还没有，正在进一步扩大搜索范围中——",
+			say = "I'm still looking. Let me expand the search range.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……从最新侦察画面判断，周边海域中，作为进攻者的塞壬舰队已经被全数消灭了。",
+			say = "Judging from my latest recon footage... the Sirens have all been wiped out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "考虑到此处驻防驱逐舰编队的战斗力，不像是她们能够造成的战果。",
+			say = "No offense to Dewey and her fleet, but they couldn't possibly have fended off all those Sirens by themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "确实很奇怪……",
+			say = "Yeah, I doubt it. Something's up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "有了。发现一支正在向内陆方向移动的舰队。杜威、哈尔西·鲍威尔，黑泽伍德都在舰队中。",
+			say = "Found them! There's a fleet heading to land. I can see Dewey, Halsey Powell, and even Hazelwood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，我们赶紧去汇合——",
+			say = "Thank god. We should link up with them imme–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……之前那个戴着面具的奇怪敌人也在舰队中与她们同行。",
+			say = "Wait. There's a stranger among them, wearing a mask.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "除此之外，舰队中还有大量重樱量产型。",
+			say = "That's not all... I see those same quasi-Sakuran mass-produced ships from earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "看来她们已经……将敌人错认为友军了呢。",
+			say = "Oh no. Those girls have no idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105150,
-			say = "情况严峻，我们立刻去救人！",
+			say = "There's still time. Charge in there and let's save 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
